@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ro
-   Topic   *Path Workbench
-   Level   *
-   Time   *
-   Author   *Chrisb
-   FCVersion   *
-   Files   *
+- TutorialInfo:/ro
+   Topic:Path Workbench
+   Level:
+   Time:
+   Author:Chrisb
+   FCVersion:
+   Files:
 ---
 
 # Path Walkthrough for the Impatient/ro
@@ -35,7 +35,7 @@ Iată o demonstrație care arată modul de creare a unei sarcini WB Path plecân
 
 <div class="mw-translate-fuzzy">
 
-Proiectul începe cu un simplu model FreeCAD   * un cub cu buzunar dreptunghiular,
+Proiectul începe cu un simplu model FreeCAD: un cub cu buzunar dreptunghiular,
 
 
 </div>
@@ -69,7 +69,7 @@ With the 3D Model completed, the Path Workbench is selected.
 
 ## Sarcina de lucru 
 
-The <img alt="" src=images/Path-Job.png  style="width   *32px;"> [Job](Path_Job.md) is created.
+The <img alt="" src=images/Path-Job.png  style="width:32px;"> [Job](Path_Job.md) is created.
 
 
 </div>
@@ -179,7 +179,7 @@ Valorile sunt confirmate prin apăsare lui OK.
 
 <div class="mw-translate-fuzzy">
 
-Pentru accesul facil, toate instrumentele pot fi predefinite <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *24px;">[Tool manager](Path_ToolLibraryEdit.md).
+Pentru accesul facil, toate instrumentele pot fi predefinite <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Tool manager](Path_ToolLibraryEdit.md).
 
 
 </div>
@@ -194,7 +194,7 @@ Fila Planul de lucru începe și este populată de secvența Operațiuni de lucr
 
 </div>
 
-Această arborescență este afișată după configurarea Sarcinii de lucru odată ce lucrarea Path Job is unfolded   *
+Această arborescență este afișată după configurarea Sarcinii de lucru odată ce lucrarea Path Job is unfolded:
 
 
 <div class="mw-translate-fuzzy">
@@ -219,7 +219,7 @@ Două operații vor adăugate petnru a genera triectoria de frezare pentru this 
 
 <div class="mw-translate-fuzzy">
 
-For now we will keep it simple. The <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Contour](Path_Profile.md) button opens the Contour panel. After confirming with OK using the default values, see the green path around the object is visible.
+For now we will keep it simple. The <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Contour](Path_Profile.md) button opens the Contour panel. After confirming with OK using the default values, see the green path around the object is visible.
 
 
 </div>
@@ -227,7 +227,7 @@ For now we will keep it simple. The <img alt="" src=images/Path_Profile.svg  sty
 
 <div class="mw-translate-fuzzy">
 
-Selecting the bottom of the pocket and then the <img alt="" src=images/Path_Pocket.png  style="width   *32px;"> [Pocket](Path_Pocket_Shape.md) button opens the Pocket Shape window. The default values for Base Geometry, Depths, and Heights are used, and the Operation subpanel is selected, and the Step Over Percent is set at 50.
+Selecting the bottom of the pocket and then the <img alt="" src=images/Path_Pocket.png  style="width:32px;"> [Pocket](Path_Pocket_Shape.md) button opens the Pocket Shape window. The default values for Base Geometry, Depths, and Heights are used, and the Operation subpanel is selected, and the Step Over Percent is set at 50.
 
 
 </div>
@@ -248,7 +248,7 @@ The pattern is changed to \"Offset\" and the Job Operation is confirmed for the 
 
 </div>
 
-The result is a model with two paths   *
+The result is a model with two paths:
 
 
 <div class="mw-translate-fuzzy">
@@ -265,7 +265,7 @@ Există două modalități de verificare a traiectoriilor create. Codul G poate 
 
 <div class="mw-translate-fuzzy">
 
-To inspect the G-Code use the <img alt="" src=images/Path_Inspect.png  style="width   *32px;"> tool. Selecting the corresponding G-Code lines within the G-Code Inspection window highlights individual path segments.
+To inspect the G-Code use the <img alt="" src=images/Path_Inspect.png  style="width:32px;"> tool. Selecting the corresponding G-Code lines within the G-Code Inspection window highlights individual path segments.
 
 ![](images/Path-InspectWindow.gif )
 
@@ -275,7 +275,7 @@ To inspect the G-Code use the <img alt="" src=images/Path_Inspect.png  style="wi
 
 <div class="mw-translate-fuzzy">
 
-To start the simulation use the <img alt="" src=images/Path_Simulator.png  style="width   *32px;"> [Path Simulator](Path_Simulator.md) tool.
+To start the simulation use the <img alt="" src=images/Path_Simulator.png  style="width:32px;"> [Path Simulator](Path_Simulator.md) tool.
 
 
 </div>
@@ -306,13 +306,13 @@ If you want to end the simulation click the Cancel button, it will remove the st
 
 ## Postprocess the Job 
 
-Ultimul pas în generarea Codului G pentru mașina de frezare țintă este post-procesarea sarcinii de lucru. Aceasta generează codurile G într-un fișier care poate fi încărcat la controlerul de mașinii țintă CNC. Pentru a apela postprocesorul   *
+Ultimul pas în generarea Codului G pentru mașina de frezare țintă este post-procesarea sarcinii de lucru. Aceasta generează codurile G într-un fișier care poate fi încărcat la controlerul de mașinii țintă CNC. Pentru a apela postprocesorul:
 
 
 <div class="mw-translate-fuzzy">
 
 -   Select the Job object in the tree
--   Select the Path Postprocessing <img alt="" src=images/Path_PostProcess.png  style="width   *32px;"> tool to postprocess the file. This opens a G-Code window allowing inspection of the final output file before it is saved.
+-   Select the Path Postprocessing <img alt="" src=images/Path_PostProcess.png  style="width:32px;"> tool to postprocess the file. This opens a G-Code window allowing inspection of the final output file before it is saved.
 
 
 </div>

@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Facebinder
-   Name/it   *Lega facce
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Lega facce
-   Shortcut   ***F** **F**
-   SeeAlso   *[Cubo](Part_Box/it.md) di Part, [Muro](Arch_Wall/it.md) di Arch
-   Version   *0.14
+- GuiCommand:/it
+   Name:Draft Facebinder
+   Name/it:Lega facce
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation:Draft → Lega facce
+   Shortcut:**F** **F**
+   SeeAlso:[Cubo](Part_Box/it.md) di Part, [Muro](Arch_Wall/it.md) di Arch
+   Version:0.14
 ---
 
 # Draft Facebinder/it
@@ -32,7 +32,7 @@ Può essere usato per creare un\'estrusione da una collezione di facce prese da 
 
 </div>
 
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -62,39 +62,39 @@ Può essere usato per creare un\'estrusione da una collezione di facce prese da 
 
 ### Dati
 
--    {{PropertyData/it|Extrusion}}   * specifica uno spessore di estrusione da applicare a tutte le facce della forma.
+-    {{PropertyData/it|Extrusion}}: specifica uno spessore di estrusione da applicare a tutte le facce della forma.
 
--    {{PropertyData/it|Remove Splitter}}   * se è `True` cerca di fondere le intersezioni interne del Facebinder quando viene estruso.
+-    {{PropertyData/it|Remove Splitter}}: se è `True` cerca di fondere le intersezioni interne del Facebinder quando viene estruso.
 
--    {{PropertyData/it|Sew}}   * se è `True` tenta di eseguire un\'operazione di cucitura topologica sul Facebinder quando viene estruso.
+-    {{PropertyData/it|Sew}}: se è `True` tenta di eseguire un\'operazione di cucitura topologica sul Facebinder quando viene estruso.
 
--    **Offset**   * specifica una distanza di offset da applicare tra le facce legate e le facce originali, prima dell\'estrusione.
+-    **Offset**: specifica una distanza di offset da applicare tra le facce legate e le facce originali, prima dell\'estrusione.
 
--    **Area**   * l\'area totale di queste facce legate.
+-    **Area**: l\'area totale di queste facce legate.
 
 
 </div>
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the total area of the linked faces of the facebinder.
+-    **Area|Area**: (read-only) specifies the total area of the linked faces of the facebinder.
 
--    **Extrusion|Distance**   * specifies the extrusion thickness of the facebinder.
+-    **Extrusion|Distance**: specifies the extrusion thickness of the facebinder.
 
--    **Faces|LinkSubList**   * specifies the linked faces of the facebinder.
+-    **Faces|LinkSubList**: specifies the linked faces of the facebinder.
 
--    **Offset|Distance**   * specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
+-    **Offset|Distance**: specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
 
--    **Remove Splitter|Bool**   * Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
+-    **Remove Splitter|Bool**: Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
 
--    **Sew|Bool**   * Specifies whether to perform a topological sewing operation on the facebinder.
+-    **Sew|Bool**: Specifies whether to perform a topological sewing operation on the facebinder.
 
 ### View
 
@@ -106,9 +106,9 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 
 ### Vista
 
--    {{PropertyView/it|Pattern}}   * specifica un modello di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della forma. Questa proprietà funziona solo se {{PropertyView/it|Display Mode}} è \"Flat Lines\".
+-    {{PropertyView/it|Pattern}}: specifica un modello di [Campitura](Draft_Pattern/it.md) con cui riempire la faccia della forma. Questa proprietà funziona solo se {{PropertyView/it|Display Mode}} è \"Flat Lines\".
 
--    {{PropertyView/it|Pattern Size}}   * specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+-    {{PropertyView/it|Pattern Size}}: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
 
 
 </div>
@@ -121,7 +121,7 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -131,7 +131,7 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Lega facce può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Lega facce può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -167,7 +167,7 @@ Lo spessore di Facebinder può essere aggiunto sovrascrivendo il suo attributo `
 
 Il posizionamento di Facebinder può essere cambiato sovrascrivendo il suo attributo `Placement`, o sovrascrivendo singolarmente i suoi attributi `Placement.Base` e `Placement.Rotation`.
 
-Esempio   *
+Esempio:
 
 
 ```python
@@ -178,7 +178,7 @@ import Draft
 doc = App.newDocument()
 
 # Insert a solid box
-box = doc.addObject("Part   *   *Box", "Box")
+box = doc.addObject("Part::Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

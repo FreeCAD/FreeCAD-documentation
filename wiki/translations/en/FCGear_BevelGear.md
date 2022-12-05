@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FCGear BevelGear
-   MenuLocation   *Gear → Bevel Gear
-   Workbenches   *[FCGear](FCGear_Workbench.md)
-   Version   *v0.16
+- GuiCommand:
+   Name:FCGear BevelGear
+   MenuLocation:Gear → Bevel Gear
+   Workbenches:[FCGear](FCGear_Workbench.md)
+   Version:v0.16
 ---
 
 # FCGear BevelGear/en
@@ -15,81 +15,81 @@ Partly because of the noise they generate, bevel gears are not used as often as 
 Spiral bevel gears have curved teeth to provide softer engagement and greater tooth to tooth contact compared to a straight bevel gear. This reduces the vibration and noise. They can be used at high speeds and are typically used in motorcycle and bicycle transmissions.
 
 ![](images/Bevel-Gear_example.png ) 
-*From left to right   * Spur gearing, spiral gearing*
+*From left to right: Spur gearing, spiral gearing*
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command   *
-    -   Press the **[<img src=images/FCGear_BevelGear.svg style="width   *16px"> [Bevel Gear](FCGear_BevelGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_BevelGear.svg style="width   *16px"> Bevel Gear** option from the menu.
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  There are several ways to invoke the command:
+    -   Press the **[<img src=images/FCGear_BevelGear.svg style="width:16px"> [Bevel Gear](FCGear_BevelGear.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_BevelGear.svg style="width:16px"> Bevel Gear** option from the menu.
 3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
 
-An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|base}}
 
--    **height|Length**   * Default is {{Value|5}}. Value for the bevel gear width.
+-    **height|Length**: Default is {{Value|5}}. Value for the bevel gear width.
 
--    **module|Length**   * Default is {{Value|1}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+-    **module|Length**: Default is {{Value|1}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
 
--    **reset_origin|Bool**   * If {{True}} (default) the center of the axis is at the center of the bottom of the gear (see [Notes](#Notes.md)).
+-    **reset_origin|Bool**: If {{True}} (default) the center of the axis is at the center of the bottom of the gear (see [Notes](#Notes.md)).
 
--    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth.
+-    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**   * (read-only)
+-    **angular_backlash|Angle**: (read-only)
 
--    **dw|Length**   * (read-only) Working pitch diameter.
+-    **dw|Length**: (read-only) Working pitch diameter.
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**   * Default is {{Value|0 °}}. With the helix angle β a helical bevel gear is created -- positive value → rotation direction right, negative value → rotation direction left.
+-    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical bevel gear is created -- positive value → rotation direction right, negative value → rotation direction left.
 
 
 {{Properties_Title|involute}}
 
--    **pitch_angle|Angle**   * Default is {{Value|45 °}}. Angle of taper.
+-    **pitch_angle|Angle**: Default is {{Value|45 °}}. Angle of taper.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pressure_angle|Angle**   * Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|precision}}
 
--    **numpoints|Integer**   * Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+-    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
 
 
 {{Properties_Title|tolerance}}
 
--    **backlash|Length**   * Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+-    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
 
--    **clearance|Float**   * Default is {{Value|0.1}} (see [Notes](#Notes.md)).
+-    **clearance|Float**: Default is {{Value|0.1}} (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|version}}
 
--    **version|String**   *
+-    **version|String**:
 
 ## Notes
 
--    **clearance**   * At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+-    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
 
--    **module**   * Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
--    **reset_origin**   * It can be advantageous for mounting purposes if the parameter is set to **false**. The origin of the body is then at the tip of the pitch cone.
+-    **reset_origin**: It can be advantageous for mounting purposes if the parameter is set to **false**. The origin of the body is then at the tip of the pitch cone.
 
--    **pressure_parameter**   * Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
 ## Useful formulas 
 
@@ -97,22 +97,17 @@ An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) obj
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module** \* **cos reference cone angle**
 
--    **tip angle 1**= **(teeth 1 + 2)** \* **(cos reference cone angle 1)**    * **(teeth 2 - 2)** \* **(sin reference cone angle 1)**
+-    **tip angle 1**= **(teeth 1 + 2)** \* **(cos reference cone angle 1)** : **(teeth 2 - 2)** \* **(sin reference cone angle 1)**
 
--    **tip angle 2**= **(teeth 2 + 2)** \* **(cos reference cone angle 2)**    * **(teeth 1 - 2)** \* **(sin reference cone angle 2)**
+-    **tip angle 2**= **(teeth 2 + 2)** \* **(cos reference cone angle 2)** : **(teeth 1 - 2)** \* **(sin reference cone angle 2)**
 
--    **reference cone angle 1**= **(teeth 1)**    * **(teeth 2)**
+-    **reference cone angle 1**= **(teeth 1)** : **(teeth 2)**
 
--    **reference cone angle 2**= **(teeth 2)**    * **(teeth 1)**
+-    **reference cone angle 2**= **(teeth 2)** : **(teeth 1)**
 
 -    **axis angle total**= **reference cone angle 1** + **reference cone angle 2**
 
 Substantive reference cone angle \[TECH.\]
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

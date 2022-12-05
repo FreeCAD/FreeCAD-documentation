@@ -1,6 +1,6 @@
 # Part Loft/cs
 ---
-- GuiCommand   */cs   Name   *Part Loft   Name/cs   *Part Loft   MenuLocation   *Part → Loft...   |Workbenches   *[SeeAlso   *[[Part Sweep/cs|Part Sweep](Part_Workbench/cs___Part]].md)---
+- GuiCommand:/cs   Name:Part Loft   Name/cs:Part Loft   MenuLocation:Part → Loft...   |Workbenches:[SeeAlso:[[Part Sweep/cs|Part Sweep](Part_Workbench/cs___Part]].md)---
 
 
 </div>
@@ -13,7 +13,7 @@ The Loft has three parameters, \"Ruled surface\",\"Create solid\" and \"Closed\"
 
 If \"Create solid\" is \"true\" FreeCAD creates a solid if the profiles are of closed geometry, if \"false\" FreeCAD creates a face or (if more than one face) a shell for either open or closed profiles.
 
-If \"Ruled surface\" is \"true\" FreeCAD creates a face, faces or a solid from ruled surfaces. [Ruled surface page on Wikipedia.](http   *//en.wikipedia.org/wiki/Ruled_surface)
+If \"Ruled surface\" is \"true\" FreeCAD creates a face, faces or a solid from ruled surfaces. [Ruled surface page on Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
 
 If \"Closed\" is \"true\" FreeCAD attempts to loft the last profile to the first profile to create a closed figure.
 
@@ -64,7 +64,7 @@ The Loft tool is in the Part Workbench, menu Part -\> Loft\... or via the icon i
 
 ![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
 
-In the \"Tasks\" will be two lists   * \"Available\" and \"Selected\".
+In the \"Tasks\" will be two lists: \"Available\" and \"Selected\".
 
 ![](images/Part_Loft_Liste3.png )
 
@@ -80,7 +80,7 @@ Thereafter, with the blue arrow that item is added to the list of \"Selected\".
 
 The selected items must be of the same type.
 
-Tip   * the active/selected items in the list are displayed in the 3D area as active/selected.
+Tip: the active/selected items in the list are displayed in the 3D area as active/selected.
 
 ### Command complete 
 

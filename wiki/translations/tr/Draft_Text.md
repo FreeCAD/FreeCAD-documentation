@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Text
-   Name/tr   *Metin
-   MenuLocation   *Taslak → Metin
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut   ***T** **E**
-   Version/tr   *0.7
-   SeeAlso   *[Etiket](Draft_Label/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
+- GuiCommand:/tr
+   Name:Draft Text
+   Name/tr:Metin
+   MenuLocation:Taslak → Metin
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**T** **E**
+   Version/tr:0.7
+   SeeAlso:[Etiket](Draft_Label/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
 ---
 
 # Draft Text/tr
@@ -37,7 +37,7 @@ Bir başlık ve ok içeren bir metin etiketi oluşturmak için [Etiket](Draft_La
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Text_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Metin kutusunu konumlandırmak için tek nokta gerekli*
 
 
@@ -45,7 +45,7 @@ Bir başlık ve ok içeren bir metin etiketi oluşturmak için [Etiket](Draft_La
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
+See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -88,7 +88,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Özellikler
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
 A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
 
@@ -102,13 +102,13 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 ### Veri
 
--    {{PropertyData/tr|Text}}   * Metin bloğunun içeriğini dizelerin bir listesi olarak belirtir; listedeki her öğe, virgülle ayrılmış olarak, yeni bir satır belirtir.
+-    {{PropertyData/tr|Text}}: Metin bloğunun içeriğini dizelerin bir listesi olarak belirtir; listedeki her öğe, virgülle ayrılmış olarak, yeni bir satır belirtir.
 
--    {{PropertyData/tr|Position}}   * metin bloğunun ilk satırının taban noktasını belirtir.
+-    {{PropertyData/tr|Position}}: metin bloğunun ilk satırının taban noktasını belirtir.
 
--    {{PropertyData/tr|Angle}}   * metin bloğunun ilk satırının taban çizgisinin dönüşünü belirtir.
+-    {{PropertyData/tr|Angle}}: metin bloğunun ilk satırının taban çizgisinin dönüşünü belirtir.
 
--    {{PropertyData/tr|Axis}}   * döndürme için kullanılacak ekseni belirtir.
+-    {{PropertyData/tr|Axis}}: döndürme için kullanılacak ekseni belirtir.
 
 
 </div>
@@ -118,21 +118,21 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**   * specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the text.
+-    **Scale Multiplier|Float**: specifies the general scaling factor applied to the text.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Line Color|Color**   * not used.
+-    **Line Color|Color**: not used.
 
--    **Line Width|Float**   * not used.
+-    **Line Width|Float**: not used.
 
 
 {{TitleProperty|Text}}
@@ -142,15 +142,15 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 ### Görünüm
 
--    {{PropertyView/tr|Display Mode}}   * \"3D metin\" ise, metin başlangıçta XY düzleminde olacak şekilde sahne eksenlerine hizalanır; \"2D metin\" ise, metin her zaman kameraya dönük olacaktır.
+-    {{PropertyView/tr|Display Mode}}: \"3D metin\" ise, metin başlangıçta XY düzleminde olacak şekilde sahne eksenlerine hizalanır; \"2D metin\" ise, metin her zaman kameraya dönük olacaktır.
 
--    {{PropertyView/tr|Font Name}}   * metni çizmek için kullanılacak fontu belirtir. \"Arial\" gibi bir font adı, \"sans\", \"serif\" veya \"mono\" gibi bir varsayılan stil, \"Arial, Helvetica, sans\" gibi bir aile veya \"gibi bir stil içeren bir ad olabilir. Arial   * \"Kalın. Belirtilen font sistemde bulunmuyorsa, bunun yerine genel olan kullanılır.
+-    {{PropertyView/tr|Font Name}}: metni çizmek için kullanılacak fontu belirtir. \"Arial\" gibi bir font adı, \"sans\", \"serif\" veya \"mono\" gibi bir varsayılan stil, \"Arial, Helvetica, sans\" gibi bir aile veya \"gibi bir stil içeren bir ad olabilir. Arial: \"Kalın. Belirtilen font sistemde bulunmuyorsa, bunun yerine genel olan kullanılır.
 
--    {{PropertyView/tr|Font Size}}   * harflerin boyutunu belirtir. Metin nesnesi ağaç görünümünde oluşturulmuşsa, ancak hiçbir metin görünmüyorsa, görünene kadar metnin boyutunu artırın.
+-    {{PropertyView/tr|Font Size}}: harflerin boyutunu belirtir. Metin nesnesi ağaç görünümünde oluşturulmuşsa, ancak hiçbir metin görünmüyorsa, görünene kadar metnin boyutunu artırın.
 
--    {{PropertyView/tr|Justification}}   * metnin sola, sağa veya taban noktasının ortasına hizalanıp hizalanmayacağını belirtir.
+-    {{PropertyView/tr|Justification}}: metnin sola, sağa veya taban noktasının ortasına hizalanıp hizalanmayacağını belirtir.
 
--    {{PropertyView/tr|Line Spacing}}   * metnin satırları arasındaki boşluğu belirtir.
+-    {{PropertyView/tr|Line Spacing}}: metnin satırları arasındaki boşluğu belirtir.
 
 
 </div>
@@ -163,7 +163,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 ## Betik
 
 
-**Ayrıca bkz.   ***
+**Ayrıca bkz.:**
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -173,7 +173,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
-Metin aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
+Metin aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
 
 
 </div>
@@ -206,7 +206,7 @@ text = make_text(string, placement=None, screen=False)
 
 </div>
 
-Örnek   *
+Örnek:
 
 
 ```python

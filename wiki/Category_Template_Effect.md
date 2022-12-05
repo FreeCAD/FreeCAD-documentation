@@ -1,8 +1,6 @@
 # Category:Template:Effect
 This category lists templates that produce an effect in the page without necessarily printing anything.
 
-[Category   *Template](Category_Template.md)
-
 ### Contents
 
 |     |     |     |

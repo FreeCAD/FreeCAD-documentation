@@ -37,7 +37,7 @@ Python脚本通常以`.py`作为扩展名，而FreeCAD中的宏则以`.FCMacro`�
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar   * ![](images/Macros_toolbar.jpg ). On it you have 4 buttons   * Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 这个工具使用起来也十分方便：按下记录按钮，系统会让您给宏起个名，接下来让您来执行一些动作。待记录的动作执行完毕后，点击停止记录按钮，之前的动作就会被保存下来。随后即可利用编辑按钮来访问宏对话框。
 
@@ -112,7 +112,7 @@ See [How to install macros](How_to_install_macros.md) for a more detailed descri
 
 </div>
 
-There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
 
 
 <div class="mw-translate-fuzzy">
@@ -141,14 +141,6 @@ You can manually install extensions, however, it is much simpler to just use the
 
 -   [How to install macros](How_to_install_macros.md)
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

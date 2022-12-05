@@ -1,11 +1,11 @@
 # Mesh Merge/de
 ---
-- GuiCommand   */de
-   Name   *Mesh Merge   Name/de   *Netze zusammenführen
-‏‎   MenuLocation   *Netze → Zusammenführen
-   Workbenches   *[Netze](Mesh_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *[Boolean Vereinigung](Mesh_Union/de.md)---
+- GuiCommand:/de
+   Name:Mesh Merge   Name/de:Netze zusammenführen
+‏‎   MenuLocation:Netze → Zusammenführen
+   Workbenches:[Netze](Mesh_Workbench/de.md)
+   Shortcut:
+   SeeAlso:[Boolean Vereinigung](Mesh_Union/de.md)---
 
 
 </div>
@@ -37,7 +37,7 @@ Vereinigt zwei oder mehr Netze zu einem neuen Netz.
 
 ## Properties
 
-See   * [Mesh Feature](Mesh_Feature.md).
+See: [Mesh Feature](Mesh_Feature.md).
 
 
 

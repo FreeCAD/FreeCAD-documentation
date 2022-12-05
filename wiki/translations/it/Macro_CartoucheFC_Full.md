@@ -11,7 +11,7 @@
 |Version=00.10
 |Date=2017-02-15
 |FCVersion=Tutte versioni usando Drawing Workbench
-|Download=[https   *//www.freecadweb.org/wiki/images/6/68/Macro_CartoucheFC_Full.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/6/68/Macro_CartoucheFC_Full.png ToolBar Icon]
 }}
 
 
@@ -25,7 +25,7 @@ Scaricare i modelli dalla pagina [Modelli vari completi](Misc_templates_Full/it.
 
 L\'ordine di compilazione dei campi di testo è quello descritto nella figura seguente . I campi di data e ora sono separati da \"spazio trattino spazio\" \" - \" e costituiscono una unica riga di testo.
 
-<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
+<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width:680px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -35,9 +35,9 @@ L\'ordine di compilazione dei campi di testo è quello descritto nella figura se
 
 </div>
 
-**Nota   * Alcuni caratteri come & o \$ non sono accettati, e forse anche altri caratteri speciali.**
+**Nota: Alcuni caratteri come & o \$ non sono accettati, e forse anche altri caratteri speciali.**
 
-Se avete domande o volete aggiungere una funzione, potete contattarmi sul forum francese [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
+Se avete domande o volete aggiungere una funzione, potete contattarmi sul forum francese [Remplir cartouche](http://forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   La finestra rimane sovrapposta alle altre, questo permette di controllare la tabella senza uscire dal programma.
 -   Copiare il codice in un file denominato **Macro_CartoucheFC_Full.FCMacro** e posizionarlo nella directory usuale delle macro.
@@ -45,15 +45,15 @@ Se avete domande o volete aggiungere una funzione, potete contattarmi sul forum 
 -   All\'avvio, il programma carica in memoria tutti i dati già presenti nella tabella del foglio (se è già stata compilata). Tutti i dati caricati sono resi automaticamente utilizzando il pulsante {{KEY/it| Memo}} e rimangono in memoria fino alla chiusura del programma.
 -   I pulsanti Data {{KEY/it| D.}} e Ora {{KEY/it| H.}} visualizzano la data e l\'ora del sistema.
 
-   **Il formato della data dipende dal simbolo del formato regionale selezionato   * **EU** o **US**. Nel caso sia stata inserita manualmente una data la commutazione non avviene automaticamente, ma, quando si modifica il simbolo, è necessario cliccare nuovamente sui pulsanti data. Controllare prima della stampa.
+  -Il formato della data dipende dal simbolo del formato regionale selezionato: **EU** o **US**. Nel caso sia stata inserita manualmente una data la commutazione non avviene automaticamente, ma, quando si modifica il simbolo, è necessario cliccare nuovamente sui pulsanti data. Controllare prima della stampa.
 
 -   Prima tutto selezionare vostra pagina di lavoro.
 -   Scegliere il formato della pagina.
 -   Il pulsante {{KEY/it|Symbole EU}} o US commuta il simbolo del verso della proiezione \"Select your Symbol\" visualizzato per impostazione predefinita. Compare il simbolo attivo. Fare clic sul pulsante e verificare sul foglio il simbolo attivo, cliccare una seconda volta per modificarlo.
 
-   **La scelta di questo simbolo incide sul formato della data **EU = dd/MM/yyyy** e **US = MM/dd/yyyy**.
+  -La scelta di questo simbolo incide sul formato della data **EU = dd/MM/yyyy** e **US = MM/dd/yyyy**.
 
-   ****Attenzione**   * questo comando non passa attraverso il pulsante {{KEY/it|Apply}}, ma commuta immediatamente il simbolo a ogni pressione del tasto. Controllare sempre sul foglio di lavoro se il simbolo attivo è quello corretto.
+  -**Attenzione**: questo comando non passa attraverso il pulsante {{KEY/it|Apply}}, ma commuta immediatamente il simbolo a ogni pressione del tasto. Controllare sempre sul foglio di lavoro se il simbolo attivo è quello corretto.
 
 -   Il pulsante {{KEY/it|Clean}} cancella tutti i campi della tabella. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}}.
 -   Il pulsante {{KEY/it|Apply}} salva tutti i campi della tabella nel foglio. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}}, tranne il simbolo regionale che è indipendente e agisce in modo immediato.
@@ -66,7 +66,7 @@ L\'icona per la vostra toolBar ![](images/Macro_CartoucheFC_Full.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 """
 ***************************************************************************
@@ -94,22 +94,22 @@ from __future__ import unicode_literals
 *                  may cause malfunction of the program                   *
 ***************************************************************************
 """
-#OS   * Windows 10
-#Word size of OS   * 64-bit
-#Word size of FreeCAD   * 64-bit
-#Version   * 0.16.6706 (Git)
-#Build type   * Release
-#Branch   * releases/FreeCAD-0-16
-#Hash   * f86a4e411ff7848dea98d7242f43b7774bee8fa0
-#Python version   * 2.7.8
-#Qt version   * 4.8.7
-#Coin version   * 4.0.0a
-#OCC version   * 6.8.0.oce-0.17
+#OS: Windows 10
+#Word size of OS: 64-bit
+#Word size of FreeCAD: 64-bit
+#Version: 0.16.6706 (Git)
+#Build type: Release
+#Branch: releases/FreeCAD-0-16
+#Hash: f86a4e411ff7848dea98d7242f43b7774bee8fa0
+#Python version: 2.7.8
+#Qt version: 4.8.7
+#Coin version: 4.0.0a
+#OCC version: 6.8.0.oce-0.17
 
 __title__   = "Macro_CartoucheFC_Full"
 __author__  = "Mario52"
-__url__     = "http   *//www.freecadweb.org/index-fr.html"
-__Wiki__    = "http   *//www.freecadweb.org/wiki/Macro_CartoucheFC_Full"
+__url__     = "http://www.freecadweb.org/index-fr.html"
+__Wiki__    = "http://www.freecadweb.org/wiki/Macro_CartoucheFC_Full"
 __version__ = "00.10"
 __date__    = "15/02/2017"
 
@@ -117,7 +117,7 @@ __Requires__ = ("all version and freecad " +
 " DESIGNED_BY, CREATION_DATE, CHECKED_BY, CHECK_DATE, SIZE, SCALE, WEIGHT, DRAWING_NUMBER, SHEET, " +
 " TITLE, DESCRIPTION, COMPANY, COPYRIGHT, Note_A, Note_B, Note_C, Note_D, Note_E, Note_F, Note_G, Note_H, Note_I" )
 __Template__ = " A3_Landscape_xx_FULL.svg, A3_Portrait_xx_FULL, A4_Landscape_xx_FULL.svg, A4_Portrait_xx_FULL"
-__Template_Link__ = "http   *//www.freecadweb.org/wiki/index.php?title=Misc_templates_Full"
+__Template_Link__ = "http://www.freecadweb.org/wiki/index.php?title=Misc_templates_Full"
 
 import PySide
 from PySide import QtCore, QtGui
@@ -126,7 +126,7 @@ import Draft, Part, FreeCAD, math, PartGui, FreeCADGui
 from math import sqrt, pi, sin, cos, asin
 from FreeCAD import Base
 
-def utf8(unio)   *
+def utf8(unio):
     return unicode(unio).encode('UTF8')
 
 global path
@@ -191,48 +191,48 @@ global MNote_I         ; MNote_I = ""         #
 global SymbolSwitch    ; SymbolSwitch = 1     # 0=US 1=EU
 global ui              ; ui     = ""
 
-def heure()   *
-    return QtCore.QTime().currentTime().toString('hh   *mm   *ss')
-def dateEu()   *
+def heure():
+    return QtCore.QTime().currentTime().toString('hh:mm:ss')
+def dateEu():
     return QtCore.QDate().currentDate().toString('dd/MM/yyyy') # forme euro
-def dateUK()   *
+def dateUK():
     return QtCore.QDate().currentDate().toString('yyyy/MM/dd') # forme UK
-def dateUs()   *
+def dateUs():
     return QtCore.QDate().currentDate().toString('MM/dd/yyyy') # forme US
-def dateComp()   *
+def dateComp():
     return QtCore.QDate().currentDate().toString('dddd d MMMM yyyy') # Retourne "dimanche 20 Juillet 77"
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    def _fromUtf8(s)   *
+except AttributeError:
+    def _fromUtf8(s):
         return s
-try   *
+try:
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig)   *
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError   *
-    def _translate(context, text, disambig)   *
+except AttributeError:
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-def errorDialog(msg)   *
+def errorDialog(msg):
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg)
     diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint) # cette fonction met la fenetre en avant
     diag.exec_()
 
-def symbol_EU(depx, depy, scale)   *    #symbol_EU =O
+def symbol_EU(depx, depy, scale):    #symbol_EU =O
     global PageActive
     global ui
 
-    try   *
+    try:
         page = App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0]
-    except Exception   *
-        page = App.activeDocument().getObjectsByLabel(PageActive)[0]if len(str(page)) != 2   *
+    except Exception:
+        page = App.activeDocument().getObjectsByLabel(PageActive)[0]if len(str(page)) != 2:
         comP   = []
         nameL  = []
-        if "Page" in (page.Name)   *
-            for ii in (page.Group)   *
-                if ((ii.Label) == "Symbol_EU") or ((ii.Label) == "Symbol_US")    *
+        if "Page" in (page.Name):
+            for ii in (page.Group):
+                if ((ii.Label) == "Symbol_EU") or ((ii.Label) == "Symbol_US") :
                     App.activeDocument().removeObject(ii.Name)
 
         points=[FreeCAD.Vector(-7.5,0.0,0.0),FreeCAD.Vector(20.0,0.0,0.0)]
@@ -265,27 +265,27 @@ def symbol_EU(depx, depy, scale)   *    #symbol_EU =O
         obj2.X = depx
         obj2.Y = depy
         obj2.Scale = scale #0.8    # A3
-        obj2.Label = "Symbol_EU"    for i in nameL   * App.activeDocument().removeObject(i)    App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].addObject(obj)
+        obj2.Label = "Symbol_EU"    for i in nameL: App.activeDocument().removeObject(i)    App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].addObject(obj)
         App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].addObject(obj2)
         App.ActiveDocument.recompute()
-    else   *
-        ui.pushButton05.setStyleSheet("background-color   * red")       # This function gives a color button
+    else:
+        ui.pushButton05.setStyleSheet("background-color: red")       # This function gives a color button
         FreeCAD.Console.PrintError("Error selected page [ " + PageActive + " ]" + "\n")
 
-def symbol_US(depx, depy, scale)   *    #symbol_US O=
+def symbol_US(depx, depy, scale):    #symbol_US O=
     global PageActive
     global ui
 
-    try   *
+    try:
         page = App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0]
-    except Exception   *
+    except Exception:
         page = App.activeDocument().getObjectsByLabel(PageActive)[0]
 
-    if len(str(page)) != 2   *
+    if len(str(page)) != 2:
         comP   = []
-        nameL  = []    if "Page" in (page.Name)   *
-            for ii in (page.Group)   *
-                if ((ii.Label) == "Symbol_EU") or ((ii.Label) == "Symbol_US")    *
+        nameL  = []    if "Page" in (page.Name):
+            for ii in (page.Group):
+                if ((ii.Label) == "Symbol_EU") or ((ii.Label) == "Symbol_US") :
                     App.activeDocument().removeObject(ii.Name)
 
         points=[FreeCAD.Vector(-7.5,0.0,0.0),FreeCAD.Vector(20.0,0.0,0.0)]
@@ -316,49 +316,49 @@ def symbol_US(depx, depy, scale)   *    #symbol_US O=
         obj2.X = depx
         obj2.Y = depy
         obj2.Scale = scale #0.8    # A3
-        obj2.Label = "Symbol_US"    for i in nameL   * App.activeDocument().removeObject(i)    App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].addObject(obj)
+        obj2.Label = "Symbol_US"    for i in nameL: App.activeDocument().removeObject(i)    App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].addObject(obj)
         App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].addObject(obj2)
         App.ActiveDocument.recompute()
-    else   *
-        ui.pushButton05.setStyleSheet("background-color   * red")       # This function gives a color button
+    else:
+        ui.pushButton05.setStyleSheet("background-color: red")       # This function gives a color button
         FreeCAD.Console.PrintError("Error selected page [ " + PageActive + " ]" + "\n")
 
-def memoEntree()   *
+def memoEntree():
     global MDESIGNED_BY, MCREATION_DATE, MCREA_DATE  , MCREA_TIME, MCHECKED_BY, MCHECK_DATE
     global MCHEC_DATE  , MCHEC_TIME    , MSIZE       , MSCALE    , MWEIGHT    ,MDRAWING_NUMBER
     global MSHEET      , MTITLE        , MDESCRIPTION, MCOMPANY  , MCOPYRIGHT
     global MNote_A, MNote_B, MNote_C, MNote_D, MNote_E, MNote_F, MNote_G, MNote_H, MNote_I
     global PageActive
 
-    try   *
+    try:
         page = App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0].Name
-    except Exception   *
+    except Exception:
         page = App.activeDocument().getObjectsByLabel(PageActive)[0]
 
-    try   *
+    try:
         MDESIGNED_BY   = App.activeDocument().getObject(page).EditableTexts[0]  # lineEdit01 DESIGNED_BY
         MCREATION_DATE = App.activeDocument().getObject(page).EditableTexts[1]  # lineEdit02 CREATION_DATE date
 
         MCREA_DATE = MCREA_TIME = MCHEC_DATE = MCHEC_TIME = ""
 
-        try   *
+        try:
             MCREA_DATE = MCREATION_DATE.split(" - ")[0]                         # lineEdit02h date
-        except   *
+        except:
             MCREA_DATE = MCREATION_DATE
-        try   *
+        try:
             MCREA_TIME = MCREATION_DATE.split(" - ")[1]                         # lineEdit02h heure
-        except   * None    
+        except: None    
 
         MCHECKED_BY = App.activeDocument().getObject(page).EditableTexts[2]     # lineEdit03
         MCHECK_DATE = App.activeDocument().getObject(page).EditableTexts[3]     # lineEdit04 date
 
-        try   *
+        try:
             MCHEC_DATE = MCHECK_DATE.split(" - ")[0]                            # lineEdit04 date
-        except   *
+        except:
             MCHEC_DATE = MCHECK_DATE
-        try   *
+        try:
             MCHEC_TIME = MCHECK_DATE.split(" - ")[1]                            # lineEdit04h heure
-        except   * None    
+        except: None    
 
         MSIZE = App.activeDocument().getObject(page).EditableTexts[4]           # lineEdit05
         MSCALE = App.activeDocument().getObject(page).EditableTexts[5]          # lineEdit06
@@ -367,7 +367,7 @@ def memoEntree()   *
         MSHEET = App.activeDocument().getObject(page).EditableTexts[8]          # lineEdit09
         MTITLE = App.activeDocument().getObject(page).EditableTexts[9]          # textEdit_01
 
-        try   *
+        try:
             MDESCRIPTION = App.activeDocument().getObject(page).EditableTexts[10]   # textEdit_02
             MCOMPANY = App.activeDocument().getObject(page).EditableTexts[11]       # textEdit_02b
             MCOPYRIGHT = App.activeDocument().getObject(page).EditableTexts[12]     # lineEdit_20
@@ -380,23 +380,23 @@ def memoEntree()   *
             MNote_G = App.activeDocument().getObject(page).EditableTexts[19]        # lineEdit_16
             MNote_H = App.activeDocument().getObject(page).EditableTexts[20]        # lineEdit_17
             MNote_I = App.activeDocument().getObject(page).EditableTexts[21]        # lineEdit_18
-        except Exception   *
+        except Exception:
             App.Console.PrintError("Erreur cartouche level DESCRIPTION (Missing field)"+"\n"
                         "You may be using an inadequate template. Try with this template"+"\n")
-            App.Console.PrintMessage("http   *//www.freecadweb.org/wiki/index.php?title=Misc_templates_Full"+"\n\n")
+            App.Console.PrintMessage("http://www.freecadweb.org/wiki/index.php?title=Misc_templates_Full"+"\n\n")
             App.Console.PrintError("Or for the original FreeCAD template use this macro"+"\n")
-            App.Console.PrintMessage("http   *//www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC"+"\n")        errorDialog("Erreur cartouche level DESCRIPTION (Missing field)"+"\n"
+            App.Console.PrintMessage("http://www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC"+"\n")        errorDialog("Erreur cartouche level DESCRIPTION (Missing field)"+"\n"
                         "You may be using an inadequate template. Try with this template"+"\n"
-                        "http   *//www.freecadweb.org/wiki/index.php?title=Misc_templates_Full"+"\n\n"
+                        "http://www.freecadweb.org/wiki/index.php?title=Misc_templates_Full"+"\n\n"
                         "Or for the original FreeCAD template use this macro"+"\n"
-                        "http   *//www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC"+"\n\n")
+                        "http://www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC"+"\n\n")
 
-    except   *
+    except:
         errorDialog("Erreur cartouche")
 
-class Ui_MainWindow(object)   *
+class Ui_MainWindow(object):
 
-    def __init__(self, MainWindow)   *
+    def __init__(self, MainWindow):
         global path
         global PageActive
         self.window = MainWindow
@@ -430,7 +430,7 @@ class Ui_MainWindow(object)   *
 
         self.pushButton05 = QtGui.QPushButton(self.centralWidget)
         self.pushButton05.setGeometry(QtCore.QRect(555, 360, 93, 28))
-#        self.pushButton05.setStyleSheet("background-color   * red")       # This function gives a color button
+#        self.pushButton05.setStyleSheet("background-color: red")       # This function gives a color button
         self.pushButton05.setObjectName(_fromUtf8("pushButton05"))
         self.pushButton05.clicked.connect(self.on_pushButton05_clicked) #connection pushButton05
 
@@ -446,7 +446,7 @@ class Ui_MainWindow(object)   *
         font = QtGui.QFont()
         font.setBold(True)
         self.label_20.setFont(font)
-        self.label_20.setStyleSheet("color    * #ff0000")
+        self.label_20.setStyleSheet("color : #ff0000")
         ############### font and color
         self.label_20.setVisible(False)
 
@@ -670,7 +670,7 @@ class Ui_MainWindow(object)   *
                                       "Select the new page in the Combo view")
         self.lineEdit_page.setObjectName(_fromUtf8("lineEdit_page"))
         self.lineEdit_page.setEnabled(False)
-        self.lineEdit_page.setStyleSheet("color   * red")
+        self.lineEdit_page.setStyleSheet("color: red")
         self.lineEdit_page.setText(PageActive)
         self.lineEdit_page.textChanged.connect(self.on_lineEdit_page_Pressed) # 
 
@@ -836,7 +836,7 @@ class Ui_MainWindow(object)   *
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow)   *
+    def retranslateUi(self, MainWindow):
         MainWindow.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint) # cette fonction met la fenetre en avant
         MainWindow.setWindowTitle("Cartouche (Full)")
 #        self.pushButton01.setText("Position")
@@ -850,17 +850,17 @@ class Ui_MainWindow(object)   *
         self.pushButton09.setText("H.")
         self.pushButton10.setText("Create Symb.")
 
-        self.label_01.setText("Designed by    *")
-        self.label_02.setText("Date    *")
-        self.label_03.setText("Checked by    *")
-        self.label_04.setText("Date    *")
-        self.label_06.setText("Scale    *")
-        self.label_07.setText("Weight (Kg)    *")
-        self.label_08.setText("Drawing number    *")
-        self.label_01T.setText("Title    *")
-        self.label_02T.setText("Description    *")
-        self.label_02bT.setText("Company    *")
-        self.label_09.setText("Sheet    *")
+        self.label_01.setText("Designed by :")
+        self.label_02.setText("Date :")
+        self.label_03.setText("Checked by :")
+        self.label_04.setText("Date :")
+        self.label_06.setText("Scale :")
+        self.label_07.setText("Weight (Kg) :")
+        self.label_08.setText("Drawing number :")
+        self.label_01T.setText("Title :")
+        self.label_02T.setText("Description :")
+        self.label_02bT.setText("Company :")
+        self.label_09.setText("Sheet :")
 
         self.label_10.setText("A")
         self.label_11.setText("B")
@@ -874,8 +874,8 @@ class Ui_MainWindow(object)   *
         self.label_19.setText("Notes")
         self.label_20.setText("Warning")
         self.label_page.setText("Name page to work")
-        self.label_Version.setText("Ver   * 00.10 15/02/2017")        # Version
-        self.groupBox.setTitle("Size    *")
+        self.label_Version.setText("Ver: 00.10 15/02/2017")        # Version
+        self.groupBox.setTitle("Size :")
         self.radioButton_1.setText("A3 Landscape")
         self.radioButton_2.setText("A3 Portrait")
         self.radioButton_3.setText("A4 Landscape")
@@ -886,91 +886,91 @@ class Ui_MainWindow(object)   *
 
 #______________________________________________________________________________________
     # Radio Boutons
-    def on_radioButton_A3_clicked(self)   *  # connect radioButton_A3
+    def on_radioButton_A3_clicked(self):  # connect radioButton_A3
         self.label_20.setVisible(False)
         self.pushButton10.setEnabled(True)
         self.lineEdit_05.setText("A3")
-        self.pushButton10.setStyleSheet("color   * QPalette.Base")           # origin system
+        self.pushButton10.setStyleSheet("color: QPalette.Base")           # origin system
 
-    def on_radioButton_A4_clicked(self)   *  # connect radioButton_A4
+    def on_radioButton_A4_clicked(self):  # connect radioButton_A4
         self.label_20.setVisible(False)
         self.pushButton10.setEnabled(True)
         self.lineEdit_05.setText("A4")
-        self.pushButton10.setStyleSheet("color   * QPalette.Base")           # origin system
+        self.pushButton10.setStyleSheet("color: QPalette.Base")           # origin system
     # Radio Boutons
 
-    def on_radioButton_EU_clicked(self)   *    # Bouton /Symbole EU
+    def on_radioButton_EU_clicked(self):    # Bouton /Symbole EU
         global SymbolSwitch
         SymbolSwitch = 1
 
-    def on_radioButton_US_clicked(self)   *    # Bouton /Symbole US
+    def on_radioButton_US_clicked(self):    # Bouton /Symbole US
         global SymbolSwitch
         SymbolSwitch = 0
 
-    def on_pushButton10_clicked(self)   *      # Bouton /Symbole EU US disposition dans le cartouche
+    def on_pushButton10_clicked(self):      # Bouton /Symbole EU US disposition dans le cartouche
         global SymbolSwitch
         global PageActive
         self.label_20.setVisible(False)
 
-        if self.radioButton_0.isChecked()   *
+        if self.radioButton_0.isChecked():
             self.label_20.setVisible(True)
             self.pushButton10.setEnabled(False)
-            self.pushButton10.setStyleSheet("color   * red")
-            self.lineEdit_page.setStyleSheet("color   * red")
+            self.pushButton10.setStyleSheet("color: red")
+            self.lineEdit_page.setStyleSheet("color: red")
             FreeCAD.Console.PrintError("Select one format A3 or A4 for the Symbole" + "\n")
-        else   *
+        else:
             self.pushButton10.setEnabled(True)
-            self.pushButton10.setStyleSheet("background-color   * #FF5B2B")
+            self.pushButton10.setStyleSheet("background-color: #FF5B2B")
             self.pushButton10.setText("Wait.")
             FreeCADGui.updateGui()                # rafraichi l'ecran
-            if SymbolSwitch == 1   *
-                if self.radioButton_1.isChecked()   *
+            if SymbolSwitch == 1:
+                if self.radioButton_1.isChecked():
                     symbol_EU(247.5, 263.5, 0.8)  # A3 Landscape
-                elif self.radioButton_2.isChecked()   *
+                elif self.radioButton_2.isChecked():
                     symbol_EU(124.55, 386.3, 0.8) # A3 Portrait
-                elif self.radioButton_3.isChecked()   *
+                elif self.radioButton_3.isChecked():
                     symbol_EU(158.7, 181.35, 0.6) # A4 Landscape
-                elif self.radioButton_4.isChecked()   *
+                elif self.radioButton_4.isChecked():
                     symbol_EU(71.9, 269.0, 0.6)   # A4 Portrait
-            else   *
-                if self.radioButton_1.isChecked()   *
+            else:
+                if self.radioButton_1.isChecked():
                     symbol_US(247.5, 263.5, 0.8)  # A3 Landscape
-                elif self.radioButton_2.isChecked()   *
+                elif self.radioButton_2.isChecked():
                     symbol_US(124.55, 386.3, 0.8) # A3 Portrait
-                elif self.radioButton_3.isChecked()   *
+                elif self.radioButton_3.isChecked():
                     symbol_US(158.7, 181.35, 0.6) # A4 Landscape
-                elif self.radioButton_4.isChecked()   *
+                elif self.radioButton_4.isChecked():
                     symbol_US(71.9, 269.0, 0.6)   # A4 Portrait
-            self.pushButton10.setStyleSheet("color   * QPalette.Base")           # origin system
+            self.pushButton10.setStyleSheet("color: QPalette.Base")           # origin system
             self.pushButton10.setText("Create Symb.")
             FreeCADGui.updateGui()                                 # rafraichi l'ecran
         
-    def on_lineEdit_page_Pressed(self)   *   # Name page
+    def on_lineEdit_page_Pressed(self):   # Name page
         global PageActive
         PageActive = self.lineEdit_page.text()
 
-    def on_pushButton09_clicked(self)   *    # Bouton /heure document
+    def on_pushButton09_clicked(self):    # Bouton /heure document
         self.lineEdit_04h.setText(str(heure()))
 
-    def on_pushButton08_clicked(self)   *    # Bouton date/ document
+    def on_pushButton08_clicked(self):    # Bouton date/ document
         global SymbolSwitch
-        if SymbolSwitch==0   *
+        if SymbolSwitch==0:
             self.lineEdit_04.setText(str(dateUs()))
-        else   *
+        else:
             self.lineEdit_04.setText(str(dateEu()))
 
-    def on_pushButton07_clicked(self)   *    # Bouton /heure checked
+    def on_pushButton07_clicked(self):    # Bouton /heure checked
         self.lineEdit_02h.setText(str(heure()))
 
-    def on_pushButton06_clicked(self)   *    # Bouton date/ checked
+    def on_pushButton06_clicked(self):    # Bouton date/ checked
         global SymbolSwitch
-        if SymbolSwitch==0   *
+        if SymbolSwitch==0:
             self.lineEdit_02.setText(str(dateUs()))
-        else   *
+        else:
             self.lineEdit_02.setText(str(dateEu()))
 
-    def on_pushButton05_clicked(self)   *    # Bouton Appliquer
-        try   *
+    def on_pushButton05_clicked(self):    # Bouton Appliquer
+        try:
             global DESIGNED_BY, CREATION_DATE, CREA_DATE  , CREA_TIME, CHECKED_BY, CHECK_DATE
             global CHEC_DATE  , CHEC_TIME    , SIZE       , SCALE    , WEIGHT    ,DRAWING_NUMBER
             global SHEET      , TITLE        , DESCRIPTION, COMPANY  , COPYRIGHT
@@ -979,10 +979,10 @@ class Ui_MainWindow(object)   *
             global SymbolSwitch
             global PageActive
 
-            try   *
+            try:
                 page = App.activeDocument().getObjectsByLabel(PageActive.encode('utf-8'))[0]
-            except Exception   *
-                page = App.activeDocument().getObjectsByLabel(PageActive)[0]        if len(str(page)) != 2   *            self.pushButton05.setStyleSheet("background-color   * #FF5B2B")
+            except Exception:
+                page = App.activeDocument().getObjectsByLabel(PageActive)[0]        if len(str(page)) != 2:            self.pushButton05.setStyleSheet("background-color: #FF5B2B")
                 self.pushButton05.setText("Wait.")
                 FreeCADGui.updateGui()                # rafraichi l'ecran
 
@@ -1006,26 +1006,26 @@ class Ui_MainWindow(object)   *
                 Note_F = (self.lineEdit_15.text())
                 Note_G = (self.lineEdit_16.text())
                 Note_H = (self.lineEdit_17.text())
-                Note_I = (self.lineEdit_18.text())            try   *
+                Note_I = (self.lineEdit_18.text())            try:
                     FreeCAD.getDocument(App.ActiveDocument.Name).getObject(page.Name).EditableTexts = [DESIGNED_BY, CREATION_DATE, CHECKED_BY, CHECK_DATE, SIZE, SCALE, WEIGHT, DRAWING_NUMBER, SHEET, TITLE, DESCRIPTION, COMPANY, COPYRIGHT, Note_A, Note_B, Note_C, Note_D, Note_E, Note_F, Note_G, Note_H, Note_I, ]
 #old                    FreeCAD.getDocument(App.ActiveDocument.Name).getObjectsByLabel(PageActive.encode('utf-8'))[0].EditableTexts = [DESIGNED_BY, CREATION_DATE, CHECKED_BY, CHECK_DATE, SIZE, SCALE, WEIGHT, DRAWING_NUMBER, SHEET, TITLE, DESCRIPTION, COMPANY, COPYRIGHT, Note_A, Note_B, Note_C, Note_D, Note_E, Note_F, Note_G, Note_H, Note_I, ]
                     App.ActiveDocument.recompute()
                     FreeCAD.Console.PrintMessage("Write done to ( " + page.Label + " )" + "\n")
-                    self.pushButton05.setStyleSheet("color   * QPalette.Base")
-                except Exception   *
+                    self.pushButton05.setStyleSheet("color: QPalette.Base")
+                except Exception:
                     FreeCAD.Console.PrintError("Error write cartouche or verify the selected page ( " + page.Label + " )" + "\n")
-                    self.pushButton05.setStyleSheet("background-color   * red")
-            else   *
+                    self.pushButton05.setStyleSheet("background-color: red")
+            else:
                 FreeCAD.Console.PrintError("Error selected page ( " + Page.Label + " )" + "\n")
-                self.pushButton05.setStyleSheet("background-color   * red")
+                self.pushButton05.setStyleSheet("background-color: red")
 
-        except Exception   *
-            self.pushButton05.setStyleSheet("background-color   * red")
+        except Exception:
+            self.pushButton05.setStyleSheet("background-color: red")
             FreeCAD.Console.PrintError("Error or not page " + "\n")
         self.pushButton05.setText("Write")
         App.ActiveDocument.recompute()
 
-    def on_pushButton04_clicked(self)   *    # Bouton nettoyer
+    def on_pushButton04_clicked(self):    # Bouton nettoyer
 
         self.lineEdit_01.setText("")
         self.lineEdit_02.setText("")
@@ -1052,14 +1052,14 @@ class Ui_MainWindow(object)   *
         self.lineEdit_17.setText("")
         self.lineEdit_18.setText("")
 
-        self.pushButton10.setStyleSheet("color   * QPalette.Base")                # origin system
+        self.pushButton10.setStyleSheet("color: QPalette.Base")                # origin system
         self.label_20.setVisible(False)
         self.radioButton_0.setChecked(True)
         self.pushButton05.setEnabled(True)
-        self.pushButton05.setStyleSheet("background-color   * QPalette.Base")     # origin system
+        self.pushButton05.setStyleSheet("background-color: QPalette.Base")     # origin system
         self.groupBox.setEnabled(True)
 
-    def on_pushButton03_clicked(self)   *    # Bouton Memo
+    def on_pushButton03_clicked(self):    # Bouton Memo
         global MDESIGNED_BY, MCREATION_DATE, MCREA_DATE  , MCREA_TIME, MCHECKED_BY, MCHECK_DATE
         global MCHEC_DATE  , MCHEC_TIME    , MSIZE       , MSCALE    , MWEIGHT    ,MDRAWING_NUMBER
         global MSHEET      , MTITLE        , MDESCRIPTION, MCOMPANY  , MCOPYRIGHT
@@ -1092,57 +1092,57 @@ class Ui_MainWindow(object)   *
 #        self.lineEdit_page.setText(PageActive)
         self.radioButton_0.setChecked(True)
 
-    def on_pushButton02_clicked(self)   *    # Bouton Quitter
+    def on_pushButton02_clicked(self):    # Bouton Quitter
         App.Console.PrintMessage("End CartoucheFC_Full\r\n")
         self.window.hide()
         FreeCADGui.Selection.removeObserver(s)           # Uninstalls the resident function
         App.Console.PrintMessage("removeObserver"+"\n")
 
-#    def on_pushButton01_clicked(self)   *    # Bouton appel de Position
+#    def on_pushButton01_clicked(self):    # Bouton appel de Position
 #        MainWindow.resize(210, 480)
 #        executer()
 #        MainWindow.resize(810, 480)
 #______________________________________________________________________________________
 
-class SelObserver   *
+class SelObserver:
     print "run.."
-    def setSelection(self,document)   *                     # Selection in ComboView
+    def setSelection(self,document):                     # Selection in ComboView
         global PageActive
         global ui
-        if len(Gui.Selection.getSelection(document)) == 1   *
+        if len(Gui.Selection.getSelection(document)) == 1:
 
             ff = ui
-            ff.lineEdit_page.setStyleSheet("color   * QPalette.Base")           # origin system
+            ff.lineEdit_page.setStyleSheet("color: QPalette.Base")           # origin system
             ff.pushButton05.setEnabled(True)
-            ff.pushButton05.setStyleSheet("background-color   * QPalette.Base") # origin system
+            ff.pushButton05.setStyleSheet("background-color: QPalette.Base") # origin system
             ff.groupBox.setEnabled(True)
 
-            if (str(Gui.Selection.getSelection(document)[0].Name[0   *4]) == "Page")   *
+            if (str(Gui.Selection.getSelection(document)[0].Name[0:4]) == "Page"):
                 PageActive = str(Gui.Selection.getSelection(document)[0].Label.encode('utf-8'))
-                try   *
+                try:
                     ff.lineEdit_page.setText(unicode(PageActive,'utf-8'))    # convert if accent
-                except Exception   *
+                except Exception:
                     ff.lineEdit_page.setText(PageActive)                     # normal
 
                 memoEntree()                    # entree memo click mouse
                 ff.on_pushButton03_clicked()    # Bouton Memo
-            else   *
+            else:
                 FreeCAD.Console.PrintError("Select a valid Page__________________________" + "\n")
-                ff.lineEdit_page.setStyleSheet("color   * red")
+                ff.lineEdit_page.setStyleSheet("color: red")
                 ff.lineEdit_page.setText("Select a valid Page")              # 
                 ff.pushButton05.setEnabled(False)
-                ff.pushButton05.setStyleSheet("background-color   * red")       # This function gives a color button
+                ff.pushButton05.setStyleSheet("background-color: red")       # This function gives a color button
                 ff.groupBox.setEnabled(False)
 
                 FreeCAD.Console.PrintMessage("                 " + "Name            Label" + "\n")
-                for i in App.ActiveDocument.Objects   *
-                    if i.Name[0   *4] == "Page"   *
+                for i in App.ActiveDocument.Objects:
+                    if i.Name[0:4] == "Page":
                         name = i.Name + "                 "
                         labe = i.Label+ "                 "
-                        FreeCAD.Console.PrintMessage("    Valid Page    * " + name[   *15] + "," + labe[   *25] + "\n")
+                        FreeCAD.Console.PrintMessage("    Valid Page : " + name[:15] + "," + labe[:25] + "\n")
                 FreeCAD.Console.PrintError("_____________________________________________" + "\n")
 
-for obj in FreeCAD.ActiveDocument.Objects   *        # deslectionne
+for obj in FreeCAD.ActiveDocument.Objects:        # deslectionne
         FreeCADGui.Selection.removeSelection(obj)
 
 s=SelObserver()
@@ -1179,17 +1179,17 @@ Questo modulo funziona con il foglio di disegno incluso in FreeCAD che si chiama
 
 ## Revisione
 
-ver \"00.10\"    * 15/02/2017    * regolazione per le pagine multiple (E possibile di perdere una pagina se sono tropo)
+ver \"00.10\" : 15/02/2017 : regolazione per le pagine multiple (E possibile di perdere una pagina se sono tropo)
 
-ver \"00,09\"    * 10/02/2017    * Aggiunto pulsanti di opzione per la scelta del tipo di simbolo e correggere la posizione del simbolo nelle pagine.
+ver \"00,09\" : 10/02/2017 : Aggiunto pulsanti di opzione per la scelta del tipo di simbolo e correggere la posizione del simbolo nelle pagine.
 
-ver \"00.08    * 06/02/2017    * il campo di testo accetta i nomi con accenti e altri caratteri
+ver \"00.08 : 06/02/2017 : il campo di testo accetta i nomi con accenti e altri caratteri
 
-ver \"00.07    * 05/02/2017    * aggiunto un campo di testo \"nome della pagina\" (per multi pagine nello stesso progetto) nota   * non accetta i caratteri speciali \"àùé \...ecc\"
+ver \"00.07 : 05/02/2017 : aggiunto un campo di testo \"nome della pagina\" (per multi pagine nello stesso progetto) nota: non accetta i caratteri speciali \"àùé \...ecc\"
 
-ver 00.06    * 13/10/2016    * selezionare il formato della pagine questa selezione imposta la posizione del simbolo convenzionale (per FreeCAD ver 0.17)
+ver 00.06 : 13/10/2016 : selezionare il formato della pagine questa selezione imposta la posizione del simbolo convenzionale (per FreeCAD ver 0.17)
 
-ver 5    * 08/08/2014 PyQt4 e PySide
+ver 5 : 08/08/2014 PyQt4 e PySide
 
 
 

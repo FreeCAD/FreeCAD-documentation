@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher CreateTriangle
-   Name/fr   *Sketcher Triangle
-   MenuLocation   *Sketch → Géométries d'esquisse → Créer un triangle équilateral
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***G** **P** **3**
-   Version   *0.15
+- GuiCommand:/fr
+   Name:Sketcher CreateTriangle
+   Name/fr:Sketcher Triangle
+   MenuLocation:Sketch → Géométries d'esquisse → Créer un triangle équilateral
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **P** **3**
+   Version:0.15
 ---
 
 # Sketcher CreateTriangle/fr
@@ -18,7 +18,7 @@ Dessine un triangle équilatéral inscrit dans un cercle. Lors de la sélection 
 
 ## Utilisation
 
-1.  Cliquez le bouton **[<img src=images/Sketcher_CreateTriangle.svg style="width   *16px"> [Créer un triangle équilatéral](Sketcher_CreateTriangle/fr.md)**,
+1.  Cliquez le bouton **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Créer un triangle équilatéral](Sketcher_CreateTriangle/fr.md)**,
 2.  Cliquez le centre du triangle,
 3.  Déplacez la souris et cliquez le deuxième point définissant les extrémités du triangle.
 4.  Cliquez sur **Echap** ou le bouton droit de la souris pour quitter la fonction.

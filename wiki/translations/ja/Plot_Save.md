@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ja
-   Name   *Plot Save
-   Name/ja   *Plot Save
-   Workbenches   *[Plot](Plot_Workbench.md)
-   MenuLocation   *Plot -> Save plot
+- GuiCommand:/ja
+   Name:Plot Save
+   Name/ja:Plot Save
+   Workbenches:[Plot](Plot_Workbench.md)
+   MenuLocation:Plot -> Save plot
 ---
 
 # Plot Save/ja
@@ -23,7 +23,7 @@ Plot Saveツールはアクテイブなプロットを希望した位置に保�
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Usage
 
@@ -47,9 +47,9 @@ Plot Saveツールはアクテイブなプロットを希望した位置に保�
 
 ## オプション
 
--   **File path**   * （フォーマット拡張子を含む）出力画像のパスを設定します。テキストラインを挿入することでも設定できます。
--   **Size**   * 出力画像の幅と高さを指定できます（インチ単位）。
--   **dpi**   * 画像の解像度を設定できます（DPI単位）。最終的な解像度（ピクセル単位）はDPIに幅と高さをかけたものになります。
+-   **File path**: （フォーマット拡張子を含む）出力画像のパスを設定します。テキストラインを挿入することでも設定できます。
+-   **Size**: 出力画像の幅と高さを指定できます（インチ単位）。
+-   **dpi**: 画像の解像度を設定できます（DPI単位）。最終的な解像度（ピクセル単位）はDPIに幅と高さをかけたものになります。
 
 
 </div>
@@ -60,9 +60,7 @@ Plot Saveツールはアクテイブなプロットを希望した位置に保�
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

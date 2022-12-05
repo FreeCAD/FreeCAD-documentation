@@ -1,5 +1,5 @@
 # Drawing Documentation/fr
-Cette page documente le module de dessin de jcc242. Il inclut des fichiers et des fonctionnalités sur lesquels il travaille actuellement et qui peuvent ne pas encore être dans la branche principale. La source de ces fichiers est sur [son Github](https   *//github.com/jcc242/FreeCAD) mais faites attention car il est pour le moment très instable!
+Cette page documente le module de dessin de jcc242. Il inclut des fichiers et des fonctionnalités sur lesquels il travaille actuellement et qui peuvent ne pas encore être dans la branche principale. La source de ces fichiers est sur [son Github](https://github.com/jcc242/FreeCAD) mais faites attention car il est pour le moment très instable!
 
 ## Base (Mod/Drawing) 
 
@@ -27,7 +27,7 @@ Initialise les différents espaces de noms, modules et éléments utilisés dans
 
 ### DrawingExport.cpp
 
-Deux classes   * SVGOutput et DXFOutput. Ils contiennent tous deux des méthodes pour afficher le code dans leur langue respective. Nécessite généralement un objet de la typedef appropriée, et parfois des informations d\'identifiant supplémentaires.
+Deux classes: SVGOutput et DXFOutput. Ils contiennent tous deux des méthodes pour afficher le code dans leur langue respective. Nécessite généralement un objet de la typedef appropriée, et parfois des informations d\'identifiant supplémentaires.
 
 ### FeatureClip.cpp
 
@@ -71,11 +71,11 @@ Simplement #inclus \"PreCompiled.h\"
 
 Le constructeur exécute simplement la méthode execute() pour mettre à jour ses données.
 
-invertY   * puisque SVG effectue son axe y vers l'arrière par rapport à tous les autres systèmes de coordonnées du monde, nous devons l'inverser lors de la conversion d'une pièce FreeCAD en projection SVG pour la vue de dessin.
+invertY: puisque SVG effectue son axe y vers l'arrière par rapport à tous les autres systèmes de coordonnées du monde, nous devons l'inverser lors de la conversion d'une pièce FreeCAD en projection SVG pour la vue de dessin.
 
-getSVG   * récupère le code SVG à partir du logiciel DrawingExport. Formats dépendant du type de ligne (masqués ou non et autres éléments, à comprendre\...).
+getSVG: récupère le code SVG à partir du logiciel DrawingExport. Formats dépendant du type de ligne (masqués ou non et autres éléments, à comprendre\...).
 
-getDXF   * identique à getSVG à l\'exception du format DXF.
+getDXF: identique à getSVG à l\'exception du format DXF.
 
 ## Gui - interface graphique 
 
@@ -105,13 +105,13 @@ Crée le dialogue des tâches pour placer les vues orthogonales !
 
 Effectue beaucoup de calculs pour savoir où positionner les choses (calculs automatiques aussi, semble-t-il).
 
-Prend l\'input de l\'interface graphique TaskOrthoViews et fait des choses avec elle. Utilise la méthode de l\'héritage unique dont on parle [sur le site web de qt](http   *//doc.qt.digia.com/qt/designer-using-a-ui-file.html).
+Prend l\'input de l\'interface graphique TaskOrthoViews et fait des choses avec elle. Utilise la méthode de l\'héritage unique dont on parle [sur le site web de qt](http://doc.qt.digia.com/qt/designer-using-a-ui-file.html).
 
 ### ViewProviderPage.cpp
 
 Le Constructeur ajoute quelques propriétés pour les trucs de vue. Le Destructeur ne fait rien. Attache quelque chose (attache quoi? attache la vue à la page?) définit et obtient des modes d\'affichage (quels sont les modes d\'affichage ? que font-ils et quelles sont les options possibles?) Est-ce que quelque chose au sujet de la mise à jour d\'une sorte de données a un menu contextuel qui dit \"Show drawing\"? Besoin de comprendre ce que cela signifie. A un truc pour double-cliquer pour sélectionner la vue (je pense?)
 
-showDrawingView semble faire un peu de travail sur les réglages   * récupère le document courant, définit l\'icône et le titre de la fenêtre, l\'ajoute à la fenêtre principale (de FreeCAD?).
+showDrawingView semble faire un peu de travail sur les réglages: récupère le document courant, définit l\'icône et le titre de la fenêtre, l\'ajoute à la fenêtre principale (de FreeCAD?).
 
 ### ViewProviderView.cpp
 
@@ -129,16 +129,14 @@ CanvasView est l\'objet QGraphicsScene et DrawingView traite une liste de Featur
 
 ## Ajouter des commandes à l\'atelier de dessin 
 
-4 étapes simples    *
+4 étapes simples :
 
 1.  Ajouter une classe à Command.cpp. Suivez les autres pour un exemple de formatage.
 2.  Ajoutez un titre, une icône, une infobulle, etc., puis suivez les classes existantes dans command.cpp.
 3.  Ajoutez votre classe au bas de Command.cpp
 4.  Ajoutez vos informations dans Workbench.cpp, cela indiquera à FreeCAD/Drawing module où placer les icônes définies dans command.cpp dans l\'interface freecad réelle (les barres d\'outils, menus déroulants, etc.)
 
-{{Drawing Tools navi}} 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md)
+{{Drawing Tools navi}}
 
 
 

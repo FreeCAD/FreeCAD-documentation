@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw_SpreadsheetView
-   Name/it   *Vista di foglio di calcolo
-   MenuLocation   *TechDraw → Vista di foglio di calcolo
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Foglio di calcolo](Spreadsheet_Workbench/it.md)
+- GuiCommand:/it
+   Name:TechDraw_SpreadsheetView
+   Name/it:Vista di foglio di calcolo
+   MenuLocation:TechDraw → Vista di foglio di calcolo
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Foglio di calcolo](Spreadsheet_Workbench/it.md)
 ---
 
 # TechDraw SpreadsheetView/it
@@ -49,26 +49,26 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 <div class="mw-translate-fuzzy">
 
--    **Source**   * Il foglio di calcolo da aggiungere alla pagina
+-    **Source**: Il foglio di calcolo da aggiungere alla pagina
 
--    **Cell Start**   * La cella in alto a sinistra dell\'intervallo di celle da includere in questa vista
+-    **Cell Start**: La cella in alto a sinistra dell\'intervallo di celle da includere in questa vista
 
--    **Cell End**   * La cella in basso a destra dell\'intervallo di celle da includere in questa vista
+-    **Cell End**: La cella in basso a destra dell\'intervallo di celle da includere in questa vista
 
--    **Font**   * Il nome del carattere utilizzato per i testi
+-    **Font**: Il nome del carattere utilizzato per i testi
 
--    **Color**   * Il colore delle linee e dei testi che non hanno colori specificati nel foglio di calcolo
+-    **Color**: Il colore delle linee e dei testi che non hanno colori specificati nel foglio di calcolo
 
--    **Font Size**   * La dimensione del carattere dei testi
+-    **Font Size**: La dimensione del carattere dei testi
 
--    **Line Width**   * La larghezza dei bordi delle celle
+-    **Line Width**: La larghezza dei bordi delle celle
 
 
 </div>
 
 ## Notes
 
--   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are   * {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
+-   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are: {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
 
 
 <div class="mw-translate-fuzzy">

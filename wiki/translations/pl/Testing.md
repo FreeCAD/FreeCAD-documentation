@@ -1,4 +1,4 @@
-# <img alt="Ikonka FreeCAD dla środowiska pracy Test" src=images/Workbench_Test.svg  style="width   *64px;"> Testing/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Test" src=images/Workbench_Test.svg  style="width:64px;"> Testing/pl
 
 
 {{TOCright}}
@@ -9,21 +9,21 @@
 
 Testy można uruchamiać z wiersza poleceń, używając opcji `-t` lub `--run-test`.
 
-Przeprowadzenie wszystkich testów   *
+Przeprowadzenie wszystkich testów:
 
 
 ```python
 freecad --run-test 0
 ```
 
-Przeprowadzenie tylko niektórych testów jednostkowych, np   *
+Przeprowadzenie tylko niektórych testów jednostkowych, np:
 
 
 ```python
 freecad -t TestDraft
 ```
 
-Jeśli test nie wymaga GUI, można go także wykonać w trybie konsoli, ustawiając dodatkowo opcję `-c` lub `--console`. Zwykle powoduje to znacznie szybszy czas uruchamiania, ponieważ GUI nie jest ładowane. Na przykład   *
+Jeśli test nie wymaga GUI, można go także wykonać w trybie konsoli, ustawiając dodatkowo opcję `-c` lub `--console`. Zwykle powoduje to znacznie szybszy czas uruchamiania, ponieważ GUI nie jest ładowane. Na przykład:
 
 
 ```python
@@ -38,7 +38,7 @@ Aby uruchomić test z poziomu programu FreeCAD, należy przejść do środowiska
 
 ## Funkcje testujące 
 
-To jest lista aplikacji testowych od wersji 0.15 git 4207   *
+To jest lista aplikacji testowych od wersji 0.15 git 4207:
 
 ### TestAPP.All
 
@@ -82,31 +82,31 @@ Dodaj funkcje testowania
 
 ### TestPathApp
 
-Testowanie środowiska pracy Path   *
+Testowanie środowiska pracy Path:
 
--   depthTestCases   *
--   PathTestUtils   *
--   TestDressupDogbone   * Test funkcjonalności ulepszenia podcięcia w narożnikach.
--   TestHoldingTags   * Test funkcjonalności ulepszenia mostki utrzymujące.
--   TestPathAdaptive   * Testowanie możliwości wyboru trybu pracy adaptacyjnej.
--   TestPathCore   *Test głównych funkcji środowiska pracy Path.
--   TestPathDeburr   * Test ogólnej funkcjonalności operacji usuwania zadziorów.
--   TestPathGeom   * Test różnych funkcji dostępnych w module PathGeom.
--   TestPathHelix   * Test ogólnej funkcjonalności działania operacji Helisy.
--   TestPathLog   * Przetestuj różne funkcje dostępne w module debugowania i informacji zwrotnej PathLog.
--   TestPathOpTools   *
--   TestPathPreferences   * Test różnych funkcji dostępnych w module PathPreferences.
--   TestPathPropertyBag   *
--   TestPathSetupSheet   *
--   TestPathStock   *
--   TestPathThreadMilling   *
--   TestPathTool   *
--   TestPathToolBit   *
--   TestPathToolController   *
--   TestPathTooltable   *
--   TestPathUtil   * Test różnych funkcji dostępnych w module PathUtil.
--   TestPathVcarve   * Test ogólnej funkcjonalności działania funkcji Vcarve.
--   TestPathVoronoi   *
+-   depthTestCases:
+-   PathTestUtils:
+-   TestDressupDogbone: Test funkcjonalności ulepszenia podcięcia w narożnikach.
+-   TestHoldingTags: Test funkcjonalności ulepszenia mostki utrzymujące.
+-   TestPathAdaptive: Testowanie możliwości wyboru trybu pracy adaptacyjnej.
+-   TestPathCore:Test głównych funkcji środowiska pracy Path.
+-   TestPathDeburr: Test ogólnej funkcjonalności operacji usuwania zadziorów.
+-   TestPathGeom: Test różnych funkcji dostępnych w module PathGeom.
+-   TestPathHelix: Test ogólnej funkcjonalności działania operacji Helisy.
+-   TestPathLog: Przetestuj różne funkcje dostępne w module debugowania i informacji zwrotnej PathLog.
+-   TestPathOpTools:
+-   TestPathPreferences: Test różnych funkcji dostępnych w module PathPreferences.
+-   TestPathPropertyBag:
+-   TestPathSetupSheet:
+-   TestPathStock:
+-   TestPathThreadMilling:
+-   TestPathTool:
+-   TestPathToolBit:
+-   TestPathToolController:
+-   TestPathTooltable:
+-   TestPathUtil: Test różnych funkcji dostępnych w module PathUtil.
+-   TestPathVcarve: Test ogólnej funkcjonalności działania funkcji Vcarve.
+-   TestPathVoronoi:
 
 ### Środowiska pracy 
 
@@ -127,7 +127,7 @@ Dodaj funkcje testowania
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
@@ -142,15 +142,15 @@ Należy zauważyć, że zwracane tutaj moduły testowe zależą od tego, czy dos
 
 ### Wykonaj określone testy 
 
-Istnieje wiele sposobów uruchamiania testów przy użyciu [biblioteki unittest Python](https   *//docs.python.org/3/library/unittest.html). Szkielet testowy programu FreeCAD usuwa niektóre z najczęściej występujących przypadków.
+Istnieje wiele sposobów uruchamiania testów przy użyciu [biblioteki unittest Python](https://docs.python.org/3/library/unittest.html). Szkielet testowy programu FreeCAD usuwa niektóre z najczęściej występujących przypadków.
 
-Uruchamia wszystkie testy zdefiniowane w module Python   * 
+Uruchamia wszystkie testy zdefiniowane w module Python: 
 ```python
 import Test, TestFemApp
 Test.runTestsFromModule(TestFemApp)
 ```
 
-Uruchamia wszystkie testy zdefiniowane w klasie Python   * 
+Uruchamia wszystkie testy zdefiniowane w klasie Python: 
 ```python
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
@@ -164,7 +164,7 @@ W konsoli Pythona programu FreeCAD do uruchamiania wbudowanych testów można u�
 -   Moduły podrzędne są dostępne przy użyciu notacji kropkowej, na przykład `TestPathApp.TestPathAdaptive`, aby uruchomić tylko testy jednostkowe Adaptive w ramach większego frameworka testowego środowiska pracy Path.
 -   Wiele modułów testowych lub modułów podrzędnych można połączyć, dodając kolejne wywołanie metody `suite.addTest(...)`, tak jak w poniższym kodzie, ale z innym odniesieniem do modułu lub modułu podrzędnego.
 -   Dane wyjściowe poniższego kodu będą znajdować się w panelu Widoku raportu w graficznym interfejsie użytkownika programu FreeCAD.
--   Źródło kodu jest skopiowane z postu użytkownika forum FreeCAD, *sgrogana*, w temacie [testy jednostkowe w pythonie](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), z przypisaniem do użytkownika forum, *wmayer*.
+-   Źródło kodu jest skopiowane z postu użytkownika forum FreeCAD, *sgrogana*, w temacie [testy jednostkowe w pythonie](https://forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), z przypisaniem do użytkownika forum, *wmayer*.
 
 
 ```python
@@ -179,15 +179,7 @@ r.run(suite)
 
 ### Tematy na forum 
 
--   [Support for running specific test jednostkowy z \--run-test #331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Test Framework](Category_Test_Framework.md) [Category   *Workbenches](Category_Workbenches.md) [Category   *Testing](Category_Testing.md)
+-   [Support for running specific test jednostkowy z \--run-test #331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 
 
 

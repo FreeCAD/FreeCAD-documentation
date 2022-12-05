@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw ShowAll
-   Name/de   * TechDraw AllesAnzeigen
-   MenuLocation   *TechDraw → AllesAnzeigen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Ändert Darstellung von Linie(n)](TechDraw_DecorateLine/de.md)
+- GuiCommand:/de
+   Name:TechDraw ShowAll
+   Name/de: TechDraw AllesAnzeigen
+   MenuLocation:TechDraw → AllesAnzeigen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Ändert Darstellung von Linie(n)](TechDraw_DecorateLine/de.md)
 ---
 
 # TechDraw ShowAll/de
@@ -26,7 +26,7 @@ Das AlleAnzeigen Werkzeug hat keine Eigenschaften, da es kein Dokumentobjekt ist
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Die Wirkung des AllesAnzeigen Werkzeugs kann in [Makros](Macros/de.md) oder der [Python](Python/de.md) Konsole dupliziert werden. 
 ```python

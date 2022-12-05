@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *FEM_ConstraintSelfWeight
-   Name/it   *Vincolo peso proprio
-   MenuLocation   *Modello → Vincoli meccanici → Vincolo peso proprio
-   Workbenches   *[FEM](FEM_Workbench/it.md)
-   Shortcut   ***C** **W**
-   SeeAlso   *[FEM tutorial](FEM_tutorial/it.md)
+- GuiCommand:/it
+   Name:FEM_ConstraintSelfWeight
+   Name/it:Vincolo peso proprio
+   MenuLocation:Modello → Vincoli meccanici → Vincolo peso proprio
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**C** **W**
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintSelfWeight/it
@@ -22,7 +22,7 @@ Il vincolo peso proprio definisce l\'accelerazione di gravità di 9,81 m/s\^2 ch
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/FEM_ConstraintSelfWeight.png  style="width   *32px;">, o scegliere **Modello** → **Vincoli meccanici** → **<img src="images/FEM_ConstraintSelfWeight.png" width=32px> Vincolo peso proprio** dal menu principale, o usare i tasti **C** e poi **W**.
+1.  Cliccare su <img alt="" src=images/FEM_ConstraintSelfWeight.png  style="width:32px;">, o scegliere **Modello** → **Vincoli meccanici** → **<img src="images/FEM_ConstraintSelfWeight.png" width=32px> Vincolo peso proprio** dal menu principale, o usare i tasti **C** e poi **W**.
 2.  È possibile modificare la direzione della gravità, modificando le coordinate del suo vettore nelle proprietà del nuovo oggetto Vincolo peso proprio.
 
 
@@ -104,7 +104,7 @@ La costante dell\'accelerazione può essere modificata a mano dopo la generazion
 
 <div class="mw-translate-fuzzy">
 
-Esempio di righenel file .inp   * 
+Esempio di righenel file .inp: 
 ```python
 *DLOAD
 Eall,GRAV,9810,0.0,0.0,-1.0

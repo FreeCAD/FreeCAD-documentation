@@ -19,31 +19,27 @@ Questi modelli sono grandi ma visualizzati qui a 240 px di larghezza
 
 #### A0
 
-<img alt="" src=images/A0_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A0_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A0_Portrait_plain.svg  style="width   *240px;">
+<img alt="" src=images/A0_Landscape_ISO7200.svg  style="width:240px;"> <img alt="" src=images/A0_Landscape_plain.svg  style="width:240px;"> <img alt="" src=images/A0_Portrait_plain.svg  style="width:240px;">
 
 #### A1
 
-<img alt="" src=images/A1_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A1_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A1_Portrait_plain.svg  style="width   *240px;">
+<img alt="" src=images/A1_Landscape_ISO7200.svg  style="width:240px;"> <img alt="" src=images/A1_Landscape_plain.svg  style="width:240px;"> <img alt="" src=images/A1_Portrait_plain.svg  style="width:240px;">
 
 #### A2
 
-<img alt="" src=images/A2_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A2_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A2_Portrait_plain.svg  style="width   *240px;">
+<img alt="" src=images/A2_Landscape_ISO7200.svg  style="width:240px;"> <img alt="" src=images/A2_Landscape_plain.svg  style="width:240px;"> <img alt="" src=images/A2_Portrait_plain.svg  style="width:240px;">
 
 #### A3
 
-<img alt="" src=images/A3_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A3_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A3_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A3_Portrait_plain.svg  style="width   *240px;">
+<img alt="" src=images/A3_Landscape.svg  style="width:240px;"> <img alt="" src=images/A3_Landscape_ISO7200.svg  style="width:240px;"> <img alt="" src=images/A3_Landscape_plain.svg  style="width:240px;"> <img alt="" src=images/A3_Portrait_plain.svg  style="width:240px;">
 
 #### A4
 
-<img alt="" src=images/A4_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width   *240px;">
+<img alt="" src=images/A4_Landscape.svg  style="width:240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width:240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width:240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width:240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width:240px;">
 
 L\'immagine seguente è \"A4_Simple.svg\". È una pagina vuota.
 
-<img alt="" src=images/A4_Simple.svg  style="width   *240px;">
-
-
-
-[Category   *Artwork](Category_Artwork.md) [Category   *Drawing](Category_Drawing.md)
+<img alt="" src=images/A4_Simple.svg  style="width:240px;">
 
 
 

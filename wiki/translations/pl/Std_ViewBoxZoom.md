@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Std ViewBoxZoom
-   Name/pl   *Std   * Powiększ obszar
-   MenuLocation   *Widok → Powiększenie → Powiększ obszar
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl** + **B**
-   SeeAlso   *[Przybliż](Std_ViewZoomIn/pl.md),  [Oddal](Std_ViewZoomOut/pl.md)
+- GuiCommand:/pl
+   Name:Std Std ViewBoxZoom
+   Name/pl:Std: Powiększ obszar
+   MenuLocation:Widok → Powiększenie → Powiększ obszar
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **B**
+   SeeAlso:[Przybliż](Std_ViewZoomIn/pl.md),  [Oddal](Std_ViewZoomOut/pl.md)
 ---
 
 # Std ViewBoxZoom/pl
@@ -16,9 +16,9 @@ Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zde
 
 ## Użycie
 
-1.  Istnieje kilka sposobów wywołania tego polecenia   *
+1.  Istnieje kilka sposobów wywołania tego polecenia:
     -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewBoxZoom.svg" width=16px> Powiększ obszar**.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **B**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **B**.
 2.  Przeciągnij prostokąt w widoku 3D.
 
 

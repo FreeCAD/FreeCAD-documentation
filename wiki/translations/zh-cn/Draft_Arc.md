@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */zh-cn
-   Name   *Draft Arc
-   Name/zh-cn   *Draft Arc
-   MenuLocation   *Draft → Arc
-   Workbenches   *[Draft](Draft_Workbench/zh-cn.md), [Arch](Arch_Workbench/zh-cn.md)
-   Shortcut   ***A** **R**
-   SeeAlso   *[Draft Circle](Draft_Circle/zh-cn.md), [Draft Ellipse](Draft_Ellipse/zh-cn.md)
-   Version   *0.7
+- GuiCommand:/zh-cn
+   Name:Draft Arc
+   Name/zh-cn:Draft Arc
+   MenuLocation:Draft → Arc
+   Workbenches:[Draft](Draft_Workbench/zh-cn.md), [Arch](Arch_Workbench/zh-cn.md)
+   Shortcut:**A** **R**
+   SeeAlso:[Draft Circle](Draft_Circle/zh-cn.md), [Draft Ellipse](Draft_Ellipse/zh-cn.md)
+   Version:0.7
 ---
 
 # Draft Arc/zh-cn
@@ -26,7 +26,7 @@
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +40,7 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -89,9 +89,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
@@ -114,7 +114,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## 脚本
 
 
-**参见   ***
+**参见:**
 
 [Draft API](Draft_API/zh-cn.md) 与 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/zh-cn.md)。
 

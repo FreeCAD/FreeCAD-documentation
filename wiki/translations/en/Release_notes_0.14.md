@@ -1,7 +1,7 @@
 # Release notes 0.14/en
-FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Older versions at   * [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
-<img alt="" src=images/Freecad_jeep.png  style="width   *1024px;">
+<img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
 
 <center>
@@ -15,31 +15,31 @@ Jeep model by Psicofil
 
 ### Site migration 
 
-We finally moved all the web applications of FreeCAD from [SourceForge](http   *//www.sourceforge.net) to our [own domain](http   *//www.freecadweb.org). The new FreeCAD homepage can be found at <http   *//www.freecadweb.org>, the wiki is now at <http   *//www.freecadweb.org/wiki>, the bug and features tracker at <http   *//www.freecadweb.org/tracker>, and the forum at <http   *//forum.freecadweb.org>. If you had an account on one of these applications when we were on SourceForge, you can regain your existing user following these [instructions](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4942).
+We finally moved all the web applications of FreeCAD from [SourceForge](http://www.sourceforge.net) to our [own domain](http://www.freecadweb.org). The new FreeCAD homepage can be found at <http://www.freecadweb.org>, the wiki is now at <http://www.freecadweb.org/wiki>, the bug and features tracker at <http://www.freecadweb.org/tracker>, and the forum at <http://forum.freecadweb.org>. If you had an account on one of these applications when we were on SourceForge, you can regain your existing user following these [instructions](http://forum.freecadweb.org/viewtopic.php?f=8&t=4942).
 
-The only part of FreeCAD that remains at SourceForge is the main git repository, at the same address   * <http   *//sourceforge.net/p/free-cad/code/ci/master/tree/> but there is also have an automatic mirror of that code set up on github, at <http   *//github.com/FreeCAD/FreeCAD_sf_master>
+The only part of FreeCAD that remains at SourceForge is the main git repository, at the same address: <http://sourceforge.net/p/free-cad/code/ci/master/tree/> but there is also have an automatic mirror of that code set up on github, at <http://github.com/FreeCAD/FreeCAD_sf_master>
 
 If you haven\'t met the incredible FreeCAD community yet, pay us a visit on the forum, and be amazed by its talent, energy and helpfulness.
 
 ### Move to pyside, FreeCAD is now fully LGPL 
 
-With the many complications caused by the double-license model of FreeCAD (LGPL & GPL), some of the components of FreeCAD (namely the OpenCasCade kernel) being incompatible with GPL code, we decided to switch all the remaining bits of GPL code of FreeCAD to LGPL. As a result of this operation, [PyQt](http   *//en.wikipedia.org/wiki/PyQt) is not used anymore, and has been replaced by [PySide](http   *//en.wikipedia.org/wiki/PySide). There is not much consequence for python scriptwriters, PyQt can still be used inside FreeCAD.
+With the many complications caused by the double-license model of FreeCAD (LGPL & GPL), some of the components of FreeCAD (namely the OpenCasCade kernel) being incompatible with GPL code, we decided to switch all the remaining bits of GPL code of FreeCAD to LGPL. As a result of this operation, [PyQt](http://en.wikipedia.org/wiki/PyQt) is not used anymore, and has been replaced by [PySide](http://en.wikipedia.org/wiki/PySide). There is not much consequence for python scriptwriters, PyQt can still be used inside FreeCAD.
 
-After we finished the move to LGPL, OpenCasCade has [switched to LGPL](http   *//www.opencascade.org/getocc/license/) too, which would have solved all our license conflicts too. But we have now a much clearer and unified license model, which should satisfy all the strictest linux distributions.
+After we finished the move to LGPL, OpenCasCade has [switched to LGPL](http://www.opencascade.org/getocc/license/) too, which would have solved all our license conflicts too. But we have now a much clearer and unified license model, which should satisfy all the strictest linux distributions.
 
-### Plugins and side projects   * Parts library, BOLTS, Eagle importer 
+### Plugins and side projects: Parts library, BOLTS, Eagle importer 
 
-The last year has seen a couple of interesting side projects emerge along FreeCAD. A [Parts library](http   *//github.com/yorikvanhavre/FreeCAD-library) has been started by the community and is slowly growing, consisting of a collection of reusable parts to add to your FreeCAD models. It can be launched and used from inside FreeCAD with the use of a macro.
+The last year has seen a couple of interesting side projects emerge along FreeCAD. A [Parts library](http://github.com/yorikvanhavre/FreeCAD-library) has been started by the community and is slowly growing, consisting of a collection of reusable parts to add to your FreeCAD models. It can be launched and used from inside FreeCAD with the use of a macro.
 
-Another similar but more ambitious project is [BOLTS](http   *//bolts-library.org/), which is also a parts library, but built from parametric scripts, able to produce a wide variety of parametric parts. BOLTS, although application-independent, can also be run from FreeCAD by launching a macro. The image below shows BOLTS running inside FreeCAD.
+Another similar but more ambitious project is [BOLTS](http://bolts-library.org/), which is also a parts library, but built from parametric scripts, able to produce a wide variety of parametric parts. BOLTS, although application-independent, can also be run from FreeCAD by launching a macro. The image below shows BOLTS running inside FreeCAD.
 
-<img alt="" src=images/Freecad-bearing.png  style="width   *1024px;">
+<img alt="" src=images/Freecad-bearing.png  style="width:1024px;">
 
-Another interesting external project is the [EAGLE importer](http   *//sourceforge.net/projects/eaglepcb2freecad/), which allows you to import PCB board designs made from several applications into FreeCAD.
+Another interesting external project is the [EAGLE importer](http://sourceforge.net/projects/eaglepcb2freecad/), which allows you to import PCB board designs made from several applications into FreeCAD.
 
 ### WebGL export 
 
-From FreeCAD, you can now export your scene as a [WebGL](http   *//en.wikipedia.org/wiki/WebGL)-enabled html file. This file includes an embedded [three.js](http   *//threejs.org/)-based viewer that allows to inspect the scene from the web without any plugin, as long as you view it with a WebGL-capable browser.
+From FreeCAD, you can now export your scene as a [WebGL](http://en.wikipedia.org/wiki/WebGL)-enabled html file. This file includes an embedded [three.js](http://threejs.org/)-based viewer that allows to inspect the scene from the web without any plugin, as long as you view it with a WebGL-capable browser.
 
 ### Units system 
 
@@ -47,9 +47,9 @@ Finally, a [units](units.md) system has been implemented at FreeCAD level, so it
 
 ### Style Sheets 
 
-FreeCAD 0.14 becomes even more customizable with the addition of [Style Sheets](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4700&start=30) being used to control the background image in the main window. No longer is the user stuck with the grey stone background. Almost any image, picture or custom tile may be used to fill the background space in FreeCAD\'s main Window.
+FreeCAD 0.14 becomes even more customizable with the addition of [Style Sheets](http://forum.freecadweb.org/viewtopic.php?f=8&t=4700&start=30) being used to control the background image in the main window. No longer is the user stuck with the grey stone background. Almost any image, picture or custom tile may be used to fill the background space in FreeCAD\'s main Window.
 
-<img alt="" src=images/Style_Sheets.png  style="width   *1024px;">
+<img alt="" src=images/Style_Sheets.png  style="width:1024px;">
 
 ### Display style override 
 
@@ -79,7 +79,7 @@ The [Part Workbench](Part_Workbench.md) now features a [Make Compound](Part_Comp
 
 ### Part Primitives 
 
-New Part primitives have been added to the [Part CreatePrimitives](Part_CreatePrimitives.md) tool   * Prisms, regular polygons and spirals are now easy to create by filling out a couple of parameters. Furthermore, some tools from the [Draft Workbench](Draft_Workbench.md) can now take advantage of this feature and create these primitives too, instead of their regular Draft object, when the appropriate option is set in the Draft preferences settings.
+New Part primitives have been added to the [Part CreatePrimitives](Part_CreatePrimitives.md) tool: Prisms, regular polygons and spirals are now easy to create by filling out a couple of parameters. Furthermore, some tools from the [Draft Workbench](Draft_Workbench.md) can now take advantage of this feature and create these primitives too, instead of their regular Draft object, when the appropriate option is set in the Draft preferences settings.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
@@ -103,7 +103,7 @@ An [involute gear generator](PartDesign_InvoluteGear.md) tool has been added to 
 
 The Drawing Workbench continues to be improved with some exciting new features. Orthographic Projections now allows all views to be displayed as well as much greater control over individual views. Another key feature, Drawing Templates may now contain data defining Border and Title Block locations that will automatically confine Projections within the border while at the same time automatically avoiding the space occupied by the Title Block.
 
-<img alt="" src=images/DrawingWB.png  style="width   *1024px;">
+<img alt="" src=images/DrawingWB.png  style="width:1024px;">
 
 ### Symbols
 
@@ -113,29 +113,29 @@ A new [Drawing Symbol](Drawing_Symbol.md) tool is available on the [Drawing Work
 
 ### New rendering tools 
 
-<img alt="" src=images/Raytracing_example.jpg  style="width   *1024px;">
+<img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
-The [Raytracing workbench](Raytracing_Workbench.md) has also received some love, and its toolbar has been reworked. The \"old\" buttons that manually produced partial povray files have been removed (they are still there in the Raytracing menu), and you can now produce a rendering pretty much the same way as you use the [Drawing workbench](Drawing_Workbench.md)   * You create a new project, give it a template, then fill it with views of your objects. When you are done, just hit the render button, or export it to a file that is ready to render outside of FreeCAD.
+The [Raytracing workbench](Raytracing_Workbench.md) has also received some love, and its toolbar has been reworked. The \"old\" buttons that manually produced partial povray files have been removed (they are still there in the Raytracing menu), and you can now produce a rendering pretty much the same way as you use the [Drawing workbench](Drawing_Workbench.md): You create a new project, give it a template, then fill it with views of your objects. When you are done, just hit the render button, or export it to a file that is ready to render outside of FreeCAD.
 
 The [Raytracing templates](Raytracing_Workbench#Templates.md) system has also been extended, and templates are now easier to manipulate and create.
 
-FreeCAD produced .pov scripts now contain auto-aspect ratio. Users no longer need to maintain a 4   *3 aspect ratio in their Raytracing settings or need to manually edit the output to change ratios in order to get a proper render. Any width and height may now be entered without fear that the rendered objects will come out squashed or stretched.
+FreeCAD produced .pov scripts now contain auto-aspect ratio. Users no longer need to maintain a 4:3 aspect ratio in their Raytracing settings or need to manually edit the output to change ratios in order to get a proper render. Any width and height may now be entered without fear that the rendered objects will come out squashed or stretched.
 
 ### Luxrender support 
 
-Together with the existing support for [POV-Ray](http   *//en.wikipedia.org/wiki/POV-Ray), the [Raytracing workbench](Raytracing_Workbench.md) now also supports [LuxRender](http   *//en.wikipedia.org/wiki/LuxRender). Where POV-Ray is a [classical-style raytracer](http   *//en.wikipedia.org/wiki/Ray_tracing_%28graphics%29), that shoots rays from the camera in order to find the color of each pixel of the image, Luxrender is an [unbiased renderer](http   *//en.wikipedia.org/wiki/Unbiased_rendering), which takes much longer to render scenes, but can produce much more realistic lighting.
+Together with the existing support for [POV-Ray](http://en.wikipedia.org/wiki/POV-Ray), the [Raytracing workbench](Raytracing_Workbench.md) now also supports [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Where POV-Ray is a [classical-style raytracer](http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29), that shoots rays from the camera in order to find the color of each pixel of the image, Luxrender is an [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering), which takes much longer to render scenes, but can produce much more realistic lighting.
 
 ## Spreadsheet
 
 A new [Spreadsheet Workbench](Spreadsheet_Workbench.md) has been added to FreeCAD. It allows you to create [spreadsheet](Spreadsheet_Create.md) objects, that contain 2-dimensional spreadsheet data. It also features an editor so you can edit the spreadsheet contents (texts, numbers and some basic formulas are supported), and a special [cell controller](Spreadsheet_Controller.md) object, that can scan the document for certain types of objects, extract a certain property from them, and fill a certain range of cells with these values.
 
-<img alt="" src=images/Arch_tutorial_53.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_tutorial_53.jpg  style="width:1024px;">
 
 ## Draft
 
 ### DWG import/export 
 
-FreeCAD is now able to import and export to the [DWG format](https   *//en.wikipedia.org/wiki/.dwg), thanks to the free, multiplatform [ODA File Converter](https   *//www.opendesign.com/guestfiles/oda_file_converter). Once it is installed, and its path set in the FreeCAD Draft preferences settings, FreeCAD will be able to use it to import and export dwg files, by converting them to dxf, then using the Draft dxf importer and exporter. The import and export of dwg files has therefore the same limitations as the [dxf format](Draft_DXF.md).
+FreeCAD is now able to import and export to the [DWG format](https://en.wikipedia.org/wiki/.dwg), thanks to the free, multiplatform [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Once it is installed, and its path set in the FreeCAD Draft preferences settings, FreeCAD will be able to use it to import and export dwg files, by converting them to dxf, then using the Draft dxf importer and exporter. The import and export of dwg files has therefore the same limitations as the [dxf format](Draft_DXF.md).
 
 ### Draft to Drawing works with groups 
 
@@ -145,13 +145,13 @@ The [Draft to Drawing](Draft_Drawing.md) tool, used to place Draft objects on a 
 
 The [Draft Dimension](Draft_Dimension.md) tool has been fully recoded, and dimension objects now behave much better, and have gained a few new properties, allowing to fine-tune them better, such as nicer and scalable arrows, more control over the position of the text and the direction of the dimension, and, above all, better support for the [Drawing Workbench](Drawing_Workbench.md). You can now place dimensions in any plane of the 3D space, and expect correct results when placing them on a Drawing sheet with the [Draft Drawing](Draft_Drawing.md) tool.
 
-<img alt="" src=images/Draft_dimensions_recode.jpg  style="width   *1024px;">
+<img alt="" src=images/Draft_dimensions_recode.jpg  style="width:1024px;">
 
 ### Hatches
 
-The [Draft workbench](Draft_Workbench.md) also features a new toy   * hatching. On specific Draft objects (those that form a closed shape such as closed polylines, rectangles, regular polygons or circles), it is now possible to apply hatching. Currently, only a couple of default hatch patterns are available, but since those patterns are very easy to create (they are simple svg files), and custom patterns can already be added by the user, the default collection might grow quickly. Draft objects with patterns are also faithfully supported by the [Drawing workbench](Drawing_Workbench.md).
+The [Draft workbench](Draft_Workbench.md) also features a new toy: hatching. On specific Draft objects (those that form a closed shape such as closed polylines, rectangles, regular polygons or circles), it is now possible to apply hatching. Currently, only a couple of default hatch patterns are available, but since those patterns are very easy to create (they are simple svg files), and custom patterns can already be added by the user, the default collection might grow quickly. Draft objects with patterns are also faithfully supported by the [Drawing workbench](Drawing_Workbench.md).
 
-<img alt="" src=images/Draft_hatches.jpg  style="width   *1024px;">
+<img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
 
 ### Ellipses
 
@@ -167,7 +167,7 @@ The [Draft Upgrade](Draft_Upgrade.md) and [Draft Downgrade](Draft_Downgrade.md) 
 
 ### Facebinder
 
-A new [Draft Facebinder](Draft_Facebinder.md) tool has been added, that does a very simple but potentially very useful operation   * It gathers any number of selected faces from different objects, and creates a new object from these faces. The new object keeps links to the original objects, so any change in them is reflected in the facebinder object. This should prove useful above all for [architectural](Arch_Workbench.md) objects, where you can now construct new objects from the faces of several others.
+A new [Draft Facebinder](Draft_Facebinder.md) tool has been added, that does a very simple but potentially very useful operation: It gathers any number of selected faces from different objects, and creates a new object from these faces. The new object keeps links to the original objects, so any change in them is reflected in the facebinder object. This should prove useful above all for [architectural](Arch_Workbench.md) objects, where you can now construct new objects from the faces of several others.
 
 ### Shape strings 
 
@@ -175,19 +175,19 @@ The [Draft ShapeString](Draft_ShapeString.md) tool creates planar objects from a
 
 ### Bezier Curves 
 
-Alongside the existing [arcs of circle](Draft_Arc.md) and [B-spline](Draft_BSpline.md) curves, a new type of curve has just been merged in the Draft workbench   * [Bezier curves](Draft_BezCurve.md). They can be created by clicking points, the same way as other Draft objects, but you can then [edit](Draft_Edit.md) them and modify their handle points, gaining a very precise control over the curve shape.
+Alongside the existing [arcs of circle](Draft_Arc.md) and [B-spline](Draft_BSpline.md) curves, a new type of curve has just been merged in the Draft workbench: [Bezier curves](Draft_BezCurve.md). They can be created by clicking points, the same way as other Draft objects, but you can then [edit](Draft_Edit.md) them and modify their handle points, gaining a very precise control over the curve shape.
 
 ## Arch
 
 ### Structure presets + profiles 
 
-The [Arch Structure](Arch_Structure.md) tool has gained several improvements   * it now features presets, which allow you to quickly build a beam or column based on a standard profile such as INP or HEB, and an easier placement system, with a special [snapping](Draft_Snap.md) mode. You can now also give structural elements an extrusion path, so very advanced configurations become possible. Some of the pieces offered by [BOLTS](#Plugins_and_side_projects   *_Parts_library.2C_BOLTS.2C_Eagle_importer.md) can also be created directly as Arch structural elements.
+The [Arch Structure](Arch_Structure.md) tool has gained several improvements: it now features presets, which allow you to quickly build a beam or column based on a standard profile such as INP or HEB, and an easier placement system, with a special [snapping](Draft_Snap.md) mode. You can now also give structural elements an extrusion path, so very advanced configurations become possible. Some of the pieces offered by [BOLTS](#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) can also be created directly as Arch structural elements.
 
 ### Window presets 
 
 The [Arch Window](Arch_Window.md) tool also gained a new presets system. Although still based on sketches, which ensures maximum flexibility (virtually any window type can be easily created), new windows can now be made from a series of presets. You only need to choose a preset, fill a couple of parameters, and place your window, in an exiting wall or structural element if you wish so. Underneath, an appropriate sketch will be created, which is still editable at any later time.
 
-<img alt="" src=images/Screenshot_arch_window.jpg  style="width   *1024px;">
+<img alt="" src=images/Screenshot_arch_window.jpg  style="width:1024px;">
 
 ### Spaces
 
@@ -195,9 +195,9 @@ A new [Space](Arch_Space.md) object is now available, allowing you to build, mar
 
 ### Multilayer walls 
 
-[Walls](Arch_Wall.md) can now be multilayer, with a very simple trick   * Several walls can be based on a same baseline, specifying an offset distance from the baseline. This, combined for example with [Arch Frames](Arch_Frame.md), allows for example to create complex framed walls, or walls with an insulation layer. Furthermore, these walls are aware of their \"brothers\" (other walls based on the same baseline), and any window placed on one of these walls will also create a hole on its brothers.
+[Walls](Arch_Wall.md) can now be multilayer, with a very simple trick: Several walls can be based on a same baseline, specifying an offset distance from the baseline. This, combined for example with [Arch Frames](Arch_Frame.md), allows for example to create complex framed walls, or walls with an insulation layer. Furthermore, these walls are aware of their \"brothers\" (other walls based on the same baseline), and any window placed on one of these walls will also create a hole on its brothers.
 
-<img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width   *1024px;">
+<img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
 
 ### Stairs
 
@@ -207,15 +207,15 @@ A new [Stairs](Arch_Stairs.md) tool has also been added, which allows you to bui
 
 Reinforcing bars (also called rebars) have been introduced with the [Arch Rebar](Arch_Rebar.md) tool. They are also based on sketches, which ensures great flexibility. They are created basically by drawing the diagrams of the bars on the appropriate faces of [structural elements](Arch_Structure.md), then turning those diagrams into actual rebars.
 
-<img alt="" src=images/Screenshot_arch_rebar.jpg  style="width   *1024px;">
+<img alt="" src=images/Screenshot_arch_rebar.jpg  style="width:1024px;">
 
 ### Frames
 
-Frame systems are used everywhere in architecture   * Railings, structural systems, frame walls, etc. The new [Arch Frame](Arch_Frame.md) tool allows to easily create all kinds of frames, by combining a profile object, which can be any flat, extrudable shape, such as a rectangle or a circle, and a layout object, which defines extrusion lines on which the members of the frame object are placed. Layouts are typically drawn with the [Sketcher Workbench](Sketcher_Workbench.md). These Frame objects can then be turned into walls or structures if needed.
+Frame systems are used everywhere in architecture: Railings, structural systems, frame walls, etc. The new [Arch Frame](Arch_Frame.md) tool allows to easily create all kinds of frames, by combining a profile object, which can be any flat, extrudable shape, such as a rectangle or a circle, and a layout object, which defines extrusion lines on which the members of the frame object are placed. Layouts are typically drawn with the [Sketcher Workbench](Sketcher_Workbench.md). These Frame objects can then be turned into walls or structures if needed.
 
 ### Survey
 
-Another simple but useful tool is now available in the Arch workbench   * the [Arch Survey](Arch_Survey.md) mode. In this mode, you click on vertices, edges, faces or whole objects, and get their height, length, area or volume. This information is shown on the model, but also copied to the clipboard, and gathered as text, so it is easy to paste in other applications, giving you a pretty fast workflow when building quantities bills.
+Another simple but useful tool is now available in the Arch workbench: the [Arch Survey](Arch_Survey.md) mode. In this mode, you click on vertices, edges, faces or whole objects, and get their height, length, area or volume. This information is shown on the model, but also copied to the clipboard, and gathered as text, so it is easy to paste in other applications, giving you a pretty fast workflow when building quantities bills.
 
 ### Tutorial
 
@@ -223,13 +223,11 @@ A new 35-page [tutorial](Arch_tutorial.md) describes the Arch workbench in all i
 
 ### IFC import & export 
 
-Much work has been done on both FreeCAD and [IfcOpenShell](http   *//www.ifcopenshell.org), which is the piece of software responsible for handling IFC files in the Arch workbench. When using a [development version](http   *//github.com/aothms/IfcOpenShell) of IfcOpenShell, apart from a spectacular gain in speed when importing medium-sized IFC files (around 50Mb), FreeCAD is also able to export models to the IFC format. The support to export is still in first stages of development, but already manages to export files readable without errors by most of the major IFC-supporting applications.
+Much work has been done on both FreeCAD and [IfcOpenShell](http://www.ifcopenshell.org), which is the piece of software responsible for handling IFC files in the Arch workbench. When using a [development version](http://github.com/aothms/IfcOpenShell) of IfcOpenShell, apart from a spectacular gain in speed when importing medium-sized IFC files (around 50Mb), FreeCAD is also able to export models to the IFC format. The support to export is still in first stages of development, but already manages to export files readable without errors by most of the major IFC-supporting applications.
 
 ## Full list 
 
-The full list of bugfixes and new features can be read on <http   *//freecadweb.org/tracker/changelog_page.php>
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
+The full list of bugfixes and new features can be read on <http://freecadweb.org/tracker/changelog_page.php>
 
 
 

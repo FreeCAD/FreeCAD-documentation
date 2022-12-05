@@ -38,12 +38,12 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 </div>
 
-The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
+The Blender navigation style was modeled after [Blender](https://www.blender.org).
 
 
 <div class="mw-translate-fuzzy">
 
-O estilo de navegação do Blender foi modelado após [Blender](https   *//www.blender.org). Anteriormente não havia como realizar movimento panorâmico usando apenas o mouse; sempre era necessário segurar a tecla **Shift**. Isto mudou em 2016, agora você pode segurar os botões esquerdo e direito do mouse para mover a janela de exibição. {{Blender Navigation
+O estilo de navegação do Blender foi modelado após [Blender](https://www.blender.org). Anteriormente não havia como realizar movimento panorâmico usando apenas o mouse; sempre era necessário segurar a tecla **Shift**. Isto mudou em 2016, agora você pode segurar os botões esquerdo e direito do mouse para mover a janela de exibição. {{Blender Navigation
 |Select_name=Selecionar
 |Pan_name=Pan(movimento panorâmico)
 |Zoom_name=Zoom
@@ -84,13 +84,13 @@ Este é o estilo de navegação padrão. Ele permite ao usuário um controle sim
 <div class="mw-translate-fuzzy">
 Manter pressionado **Ctrl** permite a seleção de múltiplos objetos.
 |Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-|Pan_mode_text=Pan mode   * segure a tecla **Ctrl**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
+|Pan_mode_text=Pan mode: segure a tecla **Ctrl**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
 |Zoom_text=Utilizar a roda do mouse para aumentar e diminuir o zoom.
 </div>
 
 <div class="mw-translate-fuzzy">
 Clicando no botão do meio do mouse, a vista é centrada novamente na localização do cursor.
-|Zoom_mode_text=Zoom mode   * segure as teclas **Ctrl** e **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. 
+|Zoom_mode_text=Zoom mode: segure as teclas **Ctrl** e **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. 
 <small>(v0.17)</small> 
 |Rotate_view_text=Segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro.
 </div>
@@ -101,7 +101,7 @@ A localização do cursor quando o botão central do mouse é pressionado determ
 
 <div class="mw-translate-fuzzy">
 Um duplo clique com o botão do meio do mouse define um novo centro de rotação.
-|Rotate_view_mode_text=Rotate mode   * pressione a tecla **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
+|Rotate_view_mode_text=Rotate mode: pressione a tecla **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
 |Rotate_view_alt_text=Segure o botão central do mouse, depois pressione e segure o botão direito do mouse, depois mova o ponteiro.
 </div>
 
@@ -164,7 +164,7 @@ Alternativamente, use a rodinha do mouse para aumentar e diminuir o zoom.
 === OpenCascade ===
 </div>
 
-The OpenCascade navigation style was modeled after [https   *//www.opencascade.com/ OpenCascade].
+The OpenCascade navigation style was modeled after [https://www.opencascade.com/ OpenCascade].
 
 {{OpenCascade Navigation
 |Select_name=Selecionar
@@ -184,7 +184,7 @@ Alternativamente, segure **Ctrl** e o botão esquerdo do mouse, depois mova o po
 
 <div class="mw-translate-fuzzy">
 === Navegação OpenInventor ===
-A navegação OpenInventor (antigo Inventor) foi modelada após [http   *//en.wikipedia.org/wiki/Open_Inventor Open Inventor]. Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
+A navegação OpenInventor (antigo Inventor) foi modelada após [http://en.wikipedia.org/wiki/Open_Inventor Open Inventor]. Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
 </div>
 
 <div class="mw-translate-fuzzy">
@@ -212,7 +212,7 @@ Alternativamente, segure o botão central do mouse, depois pressione e segure o 
 
 === OpenSCAD navigation ===
 
-The OpenSCAD navigation style was modeled after [https   *//openscad.org/ OpenSCAD].
+The OpenSCAD navigation style was modeled after [https://openscad.org/ OpenSCAD].
 
 <small>(v0.20)</small> 
 
@@ -233,7 +233,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 === Navegação do Revit ===
 </div>
 
-The Revit navigation style was modeled after [https   *//en.wikipedia.org/wiki/Autodesk_Revit Revit].
+The Revit navigation style was modeled after [https://en.wikipedia.org/wiki/Autodesk_Revit Revit].
 
 {{Revit Navigation
 |Select_name=Selecionar
@@ -254,7 +254,7 @@ Alternativamente, segure o botão central do mouse, depois pressione e segure o 
 
 === TinkerCAD navigation ===
 
-The TinkerCAD navigation style was modeled after [https   *//en.wikipedia.org/wiki/Tinkercad TinkerCAD].
+The TinkerCAD navigation style was modeled after [https://en.wikipedia.org/wiki/Tinkercad TinkerCAD].
 
 <small>(v0.20)</small> 
 
@@ -307,7 +307,7 @@ O FreeCAD também suporta alguns [dispositivos de entrada 3D](3D_input_devices/p
 </div>
 
 <div class="mw-translate-fuzzy">
-Recentemente recebemos relatórios [http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0 no fórum] de usuários de Mac que esses botões do mouse e combinação de teclas não funcionam como esperado. Infelizmente, nenhum dos desenvolvedores possui um Mac, nem os outros colaboradores regulares. Precisamos de sua ajuda para determinar quais botões do mouse e combinação de teclas funcionam para que possamos atualizar este wiki.
+Recentemente recebemos relatórios [http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0 no fórum] de usuários de Mac que esses botões do mouse e combinação de teclas não funcionam como esperado. Infelizmente, nenhum dos desenvolvedores possui um Mac, nem os outros colaboradores regulares. Precisamos de sua ajuda para determinar quais botões do mouse e combinação de teclas funcionam para que possamos atualizar este wiki.
 </div>
 
 == Developing a custom navigation == 

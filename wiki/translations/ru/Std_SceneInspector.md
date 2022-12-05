@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Std SceneInspector
-   MenuLocation   *Tools → Scene inspector...
-   Workbenches   *All
+- GuiCommand:
+   Name:Std SceneInspector
+   MenuLocation:Tools → Scene inspector...
+   Workbenches:All
 ---
 
 # Std SceneInspector/ru

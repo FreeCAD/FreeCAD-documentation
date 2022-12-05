@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Arch PipeConnector
-   Name/it   *Raccordo
-   MenuLocation   *Arch → Tubazioni → Raccordo
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Shortcut   ***P** **C**
-   Version   *0.17
-   SeeAlso   *[Tubo](Arch_Pipe/it.md), [Arredo](Arch_Equipment/it.md)
+- GuiCommand:/it
+   Name:Arch PipeConnector
+   Name/it:Raccordo
+   MenuLocation:Arch → Tubazioni → Raccordo
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:**P** **C**
+   Version:0.17
+   SeeAlso:[Tubo](Arch_Pipe/it.md), [Arredo](Arch_Equipment/it.md)
 ---
 
 # Arch PipeConnector/it
@@ -37,7 +37,7 @@ Questo strumento crea una connessione a angolo o un tee (raccordo) tra 2 o 3 [Tu
 
 ## Proprietà
 
--    {{PropertyData/it|Radius}}   * Il raggio di curvatura del raccordo
+-    {{PropertyData/it|Radius}}: Il raggio di curvatura del raccordo
 
 ## Flusso di lavoro tipico 
 
@@ -57,7 +57,7 @@ Vedere in [Tubo](Arch_Pipe/it.md) le informazioni per il flusso di lavoro sull\'
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -67,7 +67,7 @@ Vedere in [Tubo](Arch_Pipe/it.md) le informazioni per il flusso di lavoro sull\'
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Pipe Connector può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Pipe Connector può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -86,7 +86,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 
 </div>
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Draft, Arch
 

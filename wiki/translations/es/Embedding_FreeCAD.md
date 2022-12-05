@@ -22,7 +22,7 @@ FreeCAD tiene la asombrosa capacidad de poder importarse como un módulo de Pyth
 
 <div class="mw-translate-fuzzy">
 
-Una primera, directa, fácil y útil aplicación que puedes hacer de esto es para importar documentos de FreeCAD en tu programa. En el siguiente ejemplo, vamos a importar la geometría de la pieza de un documento de FreeCAD en [Blender](http   *//www.blender.org). Aquí está el archivo de guión completo. Espero que te impresione por su sencillez   *
+Una primera, directa, fácil y útil aplicación que puedes hacer de esto es para importar documentos de FreeCAD en tu programa. En el siguiente ejemplo, vamos a importar la geometría de la pieza de un documento de FreeCAD en [Blender](http://www.blender.org). Aquí está el archivo de guión completo. Espero que te impresione por su sencillez:
 
 
 </div>
@@ -32,39 +32,39 @@ Una primera, directa, fácil y útil aplicación que puedes hacer de esto es par
 <nowiki>
 FREECADPATH = '/usr/lib/freecad-python3/lib/' # path to your FreeCAD.so or FreeCAD.pyd file,
 # for Windows you must either use \\ or / in the path, using a single \ is problematic
-# FREECADPATH = 'C   *FreeCAD\\bin'
+# FREECADPATH = 'C:\\FreeCAD\\bin'
 import Blender, sys
 sys.path.append(FREECADPATH)
  
-def import_fcstd(filename)   *
-   try   *
+def import_fcstd(filename):
+   try:
        import FreeCAD
-   except ValueError   *
+   except ValueError:
        Blender.Draw.PupMenu('Error%t|FreeCAD library not found. Please check the FREECADPATH variable in the import script is correct')
-   else   *
+   else:
        scene = Blender.Scene.GetCurrent()
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects   *
-           if ob.Type[   *4] == 'Part'   *
+       for ob in objects:
+           if ob.Type[:4] == 'Part':
                shape = ob.Shape
-               if shape.Faces   *
+               if shape.Faces:
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]   *
+                   for v in rawdata[0]:
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]   *
+                   for f in rawdata[1]:
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
 
-def main()   *
+def main():
    Blender.Window.FileSelector(import_fcstd, 'IMPORT FCSTD', 
                         Blender.sys.makename(ext='.fcstd'))    
  
 # This lets you import the script without running it
-if __name__=='__main__'   *
+if __name__=='__main__':
    main()
 </nowiki>
 }}
@@ -79,7 +79,7 @@ La primera parte, importante, es estar seguro de que Python encontrará nuestra 
 
 
 {{Code|lang=python|code=
-FREECADPATH = 'C   *FreeCAD\\bin' # path to your FreeCAD.so or FreeCAD.pyd file
+FREECADPATH = 'C:\\FreeCAD\\bin' # path to your FreeCAD.so or FreeCAD.pyd file
 import sys
 sys.path.append(FREECADPATH)
 }}
@@ -97,22 +97,22 @@ Una vez que estamos seguros de que la biblioteca se carga (la secuencia try/exce
        import Part
        doc = FreeCAD.open(filename)
        objects = doc.Objects
-       for ob in objects   *
-           if ob.Type[   *4] == 'Part'   *
+       for ob in objects:
+           if ob.Type[:4] == 'Part':
 }}
 
 El proceso de *teselado* elabora una lista de vértices y una lista de caras definidas por vértices índexados. Esto es perfecto, ya que es exactamente del mismo modo se definen las mallas en *Blender*. Por lo tanto, nuestra tarea es ridículamente simple, sólo tienes que añadir los contenidos de ambas listas a los vértices y caras de una malla de *Blender*. Cuando todo esté hecho, volvemos a dibujar la pantalla, y eso es todo!
 
 
 {{Code|lang=python|code=
-           if ob.Type[   *4] == 'Part'   *
+           if ob.Type[:4] == 'Part':
                shape = ob.Shape
-               if shape.Faces   *
+               if shape.Faces:
                    mesh = Blender.Mesh.New()
                    rawdata = shape.tessellate(1)
-                   for v in rawdata[0]   *
+                   for v in rawdata[0]:
                        mesh.verts.append((v.x,v.y,v.z))
-                   for f in rawdata[1]   *
+                   for f in rawdata[1]:
                        mesh.faces.append.append(f)
                    scene.objects.new(mesh,ob.Name)
        Blender.Redraw()
@@ -121,13 +121,13 @@ El proceso de *teselado* elabora una lista de vértices y una lista de caras def
 
 <div class="mw-translate-fuzzy">
 
-Por supuesto, como este archivo de guión es muy simple (de hecho hice uno más avanzados [aquí](http   *//yorik.orgfree.com/scripts/import_freecad.py)), es posible que desees ampliarlo, por ejemplo añadiendo la importación de objetos malla, o importando geometría de piezas que no tenga caras, o importar otros formatos de archivo de los que puede leer FreeCAD. Es posible que también desees exportar la geometría a un documento de FreeCAD, lo cual se puede hacer de la misma manera. Es posible que también quieras construir un cuadro de diálogo, con el que el usuario pueda elegir qué importar, etc .. La belleza de todo esto reside realmente en el hecho de que tu dejas a FreeCAD hacer el trabajo en la sombra, mientras que la presentación de los resultados se hace en el programa de tu elección.
+Por supuesto, como este archivo de guión es muy simple (de hecho hice uno más avanzados [aquí](http://yorik.orgfree.com/scripts/import_freecad.py)), es posible que desees ampliarlo, por ejemplo añadiendo la importación de objetos malla, o importando geometría de piezas que no tenga caras, o importar otros formatos de archivo de los que puede leer FreeCAD. Es posible que también desees exportar la geometría a un documento de FreeCAD, lo cual se puede hacer de la misma manera. Es posible que también quieras construir un cuadro de diálogo, con el que el usuario pueda elegir qué importar, etc .. La belleza de todo esto reside realmente en el hecho de que tu dejas a FreeCAD hacer el trabajo en la sombra, mientras que la presentación de los resultados se hace en el programa de tu elección.
 
 
 </div>
 
 
-**Note   ***
+**Note:**
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
@@ -161,21 +161,16 @@ Ten en cuenta, por supuesto, que para cualquier aplicación de consola, esta sol
 
 Although it is possible to import FreeCAD to an external Python interpreter, this is not a common usage scenario and requires some care. Generally, it is better to use the Python included with FreeCAD, run FreeCAD via command line, or as a subprocess. See [Start up and Configuration](Start_up_and_Configuration.md) for more on the last two options.
 
-Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows   * 
+Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows: 
 ```python
 >>> import sys
 >>> sys.version
-'2.7.13 (default, Dec 17 2016, 23   *03   *43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
+'2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
 
 ## Related
 
 -   [Headless FreeCAD](Headless_FreeCAD.md)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

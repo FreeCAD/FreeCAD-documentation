@@ -21,14 +21,14 @@ __Author__ = "Dprojects"
 __Version__ = "1.0"
 __Date__    = "2022-08-15"
 __Comment__ = ""
-__Web__ = "https   *//github.com/dprojects/Woodworking"
-__Wiki__ = "https   *//wiki.freecadweb.org/Macro_multiCuts"
+__Web__ = "https://github.com/dprojects/Woodworking"
+__Wiki__ = "https://wiki.freecadweb.org/Macro_multiCuts"
 __Icon__  = "multiCuts.png"
 __IconW__  = "multiCuts.png"
 __Help__ = "select base object and next objects to cut the base"
 __Status__ = "stable"
 __Requires__ = "freecad 0.20.29177"
-__Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   *Dprojects"
+__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:Dprojects"
 
 # ####################################################################
 #
@@ -38,23 +38,23 @@ __Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   *D
 # be created for cut, so the objects tree not change. Also there is 
 # automatic labeling for better cut hierarchy look. This macro has 
 # been created for special request 
-# https   *//forum.freecadweb.org/viewtopic.php?f=31&t=70941 
+# https://forum.freecadweb.org/viewtopic.php?f=31&t=70941 
 # but is also available at Woodworking workbench.
 #
-# Certified platform   *
+# Certified platform:
 # 
-# OS   * Ubuntu 22.04 LTS (XFCE/xubuntu)
-# Word size of FreeCAD   * 64-bit
-# Version   * 0.20.29177 (Git) AppImage
-# Build type   * Release
-# Branch   * (HEAD detached at 0.20)
-# Hash   * 68e337670e227889217652ddac593c93b5e8dc94
+# OS: Ubuntu 22.04 LTS (XFCE/xubuntu)
+# Word size of FreeCAD: 64-bit
+# Version: 0.20.29177 (Git) AppImage
+# Build type: Release
+# Branch: (HEAD detached at 0.20)
+# Hash: 68e337670e227889217652ddac593c93b5e8dc94
 # Python 3.9.13, Qt 5.12.9, Coin 4.0.0, Vtk 9.1.0, OCC 7.5.3
-# Locale   * English/United States (en_US)
-# Installed mods   * 
+# Locale: English/United States (en_US)
+# Installed mods: 
 #  * Woodworking 0.20.29177
 #
-# https   *//github.com/dprojects/Woodworking
+# https://github.com/dprojects/Woodworking
 #
 # MIT License
 # 
@@ -67,7 +67,7 @@ __Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   *D
 # the rights to use, copy, modify, merge, publish, distribute, 
 # sublicense, and/or sell copies of the Software, and to permit 
 # persons to whom the Software is furnished to do so, subject 
-# to the following conditions   *
+# to the following conditions:
 # 
 # The above copyright notice and this permission notice shall 
 # be included in all copies or substantial portions of the Software.
@@ -86,14 +86,14 @@ __Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   *D
 import FreeCAD, FreeCADGui
 
 
-def multiCuts(iObjects)   *
+def multiCuts(iObjects):
 
     cuts = []i = 0
-    for o in iObjects   *
+    for o in iObjects:
         
         i = i + 1
         
-        if i == 1   *
+        if i == 1:
             base = o
             baseName = str(base.Name)
             baseLabel = str(base.Label)
@@ -103,7 +103,7 @@ def multiCuts(iObjects)   *
         copy.Label = "copy, " + o.Label
         
         cutName = baseName + str(i-1)
-        cut = FreeCAD.ActiveDocument.addObject("Part   *   *Cut", cutName)
+        cut = FreeCAD.ActiveDocument.addObject("Part::Cut", cutName)
         cut.Base = base
         cut.Tool = copy
         cut.Label = "Cut " + str(i-1) + ", " + baseLabel

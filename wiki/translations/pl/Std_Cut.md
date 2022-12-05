@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Cut
-   Name/pl   *Std   * Wytnij
-   MenuLocation   *Edycja → Wytnij
-   Workbenches   *All
-   SeeAlso   *[Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
+- GuiCommand:/pl
+   Name:Std Cut
+   Name/pl:Std: Wytnij
+   MenuLocation:Edycja → Wytnij
+   Workbenches:All
+   SeeAlso:[Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Cut/pl
 
 ## Opis
 
-Polecenie *\'Wytnij* ma pewne ograniczenia   * można go używać tylko do [komórki arkusza](Spreadsheet_Workbench/pl.md). Polecenie to kopiuje zawartość i właściwości komórek do Schowka, a następnie je czyści.
+Polecenie *\'Wytnij* ma pewne ograniczenia: można go używać tylko do [komórki arkusza](Spreadsheet_Workbench/pl.md). Polecenie to kopiuje zawartość i właściwości komórek do Schowka, a następnie je czyści.
 
 Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl.md), a następnie operacji usunięcia.
 

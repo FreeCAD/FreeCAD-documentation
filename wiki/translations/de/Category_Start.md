@@ -1,8 +1,6 @@
 # Category:Start/de
 This category lists pages related to the [Start Workbench/de](Start_Workbench/de.md).
 
-[Category   *Workbenches/de](Category   *Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

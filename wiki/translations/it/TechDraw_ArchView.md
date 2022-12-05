@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw_ArchView
-   Name/it   *Vista di Arch
-   MenuLocation   *TechDraw → Vista di Arch
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Arch](Arch_Workbench/it.md), [Piano di sezione di Arch](Arch_SectionPlane/it.md)
+- GuiCommand:/it
+   Name:TechDraw_ArchView
+   Name/it:Vista di Arch
+   MenuLocation:TechDraw → Vista di Arch
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Arch](Arch_Workbench/it.md), [Piano di sezione di Arch](Arch_SectionPlane/it.md)
 ---
 
 # TechDraw ArchView/it
@@ -57,7 +57,7 @@ Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/i
 -   [Dimensioni](Draft_Snap_Dimensions/it.md), [Testi](Draft_Text/it.md) e qualsiasi altro oggetto 2D (Sketch o Draft) considerato dal piano di sezione viene reso \"così com\'è\" (senza nessuna intersezione o linee nascoste) sopra la geometria solida.
 -   Il volume degli [Spazi](Arch_Space/it.md) non viene reso, viene resa solo l\'etichetta.
 -   Le linee di taglio, le linee proiettate (se Mostra proprietà nascosta è impostata su Vero) e le linee 2D di cui sopra possono essere rese con larghezze di linea diverse. Questo può essere configurato nelle preferenze di Arch.
--   La Vista di Arch ha due modalità di rendering   * Wireframe, che utilizza gli algoritmi OpenCasCade di [Drawing](Drawing_Workbench/it.md), è veloce e produce solo linee (non è possibile riempire la faccia) e Solid, che si basa sull\'[algoritmo di Painter](https   *//en.wikipedia.org/wiki/Painter%27s_algorithm), ed è in grado di riprodurre facce riempite con il colore della loro forma. Tuttavia, è molto più lento e può fallire in molte situazioni. L\'immagine sotto mostra la differenza tra le due modalità di rendering   *
+-   La Vista di Arch ha due modalità di rendering: Wireframe, che utilizza gli algoritmi OpenCasCade di [Drawing](Drawing_Workbench/it.md), è veloce e produce solo linee (non è possibile riempire la faccia) e Solid, che si basa sull\'[algoritmo di Painter](https://en.wikipedia.org/wiki/Painter%27s_algorithm), ed è in grado di riprodurre facce riempite con il colore della loro forma. Tuttavia, è molto più lento e può fallire in molte situazioni. L\'immagine sotto mostra la differenza tra le due modalità di rendering:
 
 
 </div>
@@ -67,7 +67,7 @@ Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/i
 
 <div class="mw-translate-fuzzy">
 
--   Per le [Tubazioni](Arch_Pipe/it.md) sono rese solo le linee di base, ma non il volume dei tubi   *
+-   Per le [Tubazioni](Arch_Pipe/it.md) sono rese solo le linee di base, ma non il volume dei tubi:
 
 
 </div>
@@ -86,19 +86,19 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 <div class="mw-translate-fuzzy">
 
--    **Source**   * L\'oggetto piano di sezione da visualizzare.
+-    **Source**: L\'oggetto piano di sezione da visualizzare.
 
--    **All On**   * Se gli oggetti nascosti devono essere mostrati o meno. Se False, vengono visualizzati solo gli oggetti visibili nella vista 3D.
+-    **All On**: Se gli oggetti nascosti devono essere mostrati o meno. Se False, vengono visualizzati solo gli oggetti visibili nella vista 3D.
 
--    **Render Mode**   * La modalità di rendering da utilizzare, Solido o Wireframe.
+-    **Render Mode**: La modalità di rendering da utilizzare, Solido o Wireframe.
 
--    **Show Hidden**   * Se la geometria nascosta (la parte della geometria che si trova dietro il piano di sezione) viene mostrata o meno. Verrà eseguito il rendering in linea tratteggiata, che può essere configurato nelle preferenze di Arch.
+-    **Show Hidden**: Se la geometria nascosta (la parte della geometria che si trova dietro il piano di sezione) viene mostrata o meno. Verrà eseguito il rendering in linea tratteggiata, che può essere configurato nelle preferenze di Arch.
 
--    **Show Fill**   * Se le aree tagliate devono essere riempite con un colore grigio o no.
+-    **Show Fill**: Se le aree tagliate devono essere riempite con un colore grigio o no.
 
--    **Line Width**   * La larghezza delle linee principali. La larghezza delle linee di taglio e delle linee 2D proiettate possono essere configurate nelle preferenze di Arch.
+-    **Line Width**: La larghezza delle linee principali. La larghezza delle linee di taglio e delle linee 2D proiettate possono essere configurate nelle preferenze di Arch.
 
--    **Font Size**   * La dimensione di tutti i testi che appaiono in questa vista.
+-    **Font Size**: La dimensione di tutti i testi che appaiono in questa vista.
 
 
 </div>
@@ -109,7 +109,7 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -119,14 +119,14 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento New Arch può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento New Arch può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dv = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewArch','TestArch')
+dv = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewArch','TestArch')
 dv.Source = mySectionPlane
 rc = page.addView(dv)
 ```

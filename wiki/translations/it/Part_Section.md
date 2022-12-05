@@ -1,6 +1,6 @@
 # Part Section/it
 ---
-- GuiCommand   */it   Name   *Part_Section   Name/it   *Seziona   MenuLocation   *Parte → Seziona   Workbenches   *[SeeAlso   *[[Part_SectionCross/it|Sezioni](Part_Workbench/it___Parte]].md)---
+- GuiCommand:/it   Name:Part_Section   Name/it:Seziona   MenuLocation:Parte → Seziona   Workbenches:[SeeAlso:[[Part_SectionCross/it|Sezioni](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultimo oggetto viene utilizzato come piano di sezione. Questa operazione è completamente parametrica   * si possono modificare i componenti e il risultato viene ricalcolato.
+Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultimo oggetto viene utilizzato come piano di sezione. Questa operazione è completamente parametrica: si possono modificare i componenti e il risultato viene ricalcolato.
 
 
 </div>
@@ -35,30 +35,30 @@ Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultim
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Base|Link**   * Link to the first object.
+-    **Base|Link**: Link to the first object.
 
--    **Tool|Link**   * Link to the second object.
+-    **Tool|Link**: Link to the second object.
 
 
 {{Properties_Title|Boolean}}
 
--    **History|ShapeHistory|hidden**   * \"Shape history\".
+-    **History|ShapeHistory|hidden**: \"Shape history\".
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Section}}
 
--    **Approximation|Bool**   * Approximate the output edges.
+-    **Approximation|Bool**: Approximate the output edges.
 
 ## Link
 

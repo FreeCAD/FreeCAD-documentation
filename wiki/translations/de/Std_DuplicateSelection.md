@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std DuplicateSelection
-   Name/de   *Std AuswahlDuplizieren
-   MenuLocation   *Bearbeiten → Auswahl duplizieren
-   Workbenches   *Alle
-   SeeAlso   *[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std Einfügen](Std_Paste/de.md)
+- GuiCommand:/de
+   Name:Std DuplicateSelection
+   Name/de:Std AuswahlDuplizieren
+   MenuLocation:Bearbeiten → Auswahl duplizieren
+   Workbenches:Alle
+   SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std Einfügen](Std_Paste/de.md)
 ---
 
 # Std DuplicateSelection/de

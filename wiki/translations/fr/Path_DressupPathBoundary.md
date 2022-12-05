@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Path DressupPathBoundary
-   Name/fr   *Path Limitation de zones
-   MenuLocation   *Path → Trajectoires additionelles → Limitation de la zone de travail
-   Workbenches   *[Path](Path_Workbench/fr.md)
-   SeeAlso   *[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md)
+- GuiCommand:/fr
+   Name:Path DressupPathBoundary
+   Name/fr:Path Limitation de zones
+   MenuLocation:Path → Trajectoires additionelles → Limitation de la zone de travail
+   Workbenches:[Path](Path_Workbench/fr.md)
+   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md)
 ---
 
 # Path DressupPathBoundary/fr
@@ -16,7 +16,7 @@ La limitation de zones permet de restreindre l\'étendue d\'une trajectoire à u
 ## Utilisation
 
 1.  Sélectionnez une trajectoire tel qu\'un contour, profil ou une opération de poche
-2.  cliquez sur l\'icône du menu <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *16px;"> [Limitation de la zone de travail](Path_DressupPathBoundary/fr.md)
+2.  cliquez sur l\'icône du menu <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:16px;"> [Limitation de la zone de travail](Path_DressupPathBoundary/fr.md)
 
 ## Options
 

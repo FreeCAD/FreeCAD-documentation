@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher ConstrainEqual
-   Name/fr   *Sketcher Contrainte d'égalité
-   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte d'égalité
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***E**
-   SeeAlso   *[Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher ConstrainEqual
+   Name/fr:Sketcher Contrainte d'égalité
+   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte d'égalité
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**E**
+   SeeAlso:[Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
 ---
 
 # Sketcher ConstrainEqual/fr
@@ -24,7 +24,7 @@ Sélectionnez deux ou plusieurs segments de ligne (par exemple la ligne et un c�
 
 ![](images/EqualConstraint2.png )
 
-Cliquez sur **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contrainte d'égalité ](Sketcher_ConstrainEqual/fr.md)** dans la barre d\'outils Sketcher (soit l\'atelier Sketcher soit l\'atelier Part Design) ou sélectionnez l\'élément de menu Contrainte d\'égalité dans le sous-menu Contraintes d\'esquisse du menu Sketch ou Part Design selon l\'atelier sélectionné (Sketcher ou Part Design) pour appliquer la contrainte aux éléments sélectionnés.
+Cliquez sur **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contrainte d'égalité ](Sketcher_ConstrainEqual/fr.md)** dans la barre d\'outils Sketcher (soit l\'atelier Sketcher soit l\'atelier Part Design) ou sélectionnez l\'élément de menu Contrainte d\'égalité dans le sous-menu Contraintes d\'esquisse du menu Sketch ou Part Design selon l\'atelier sélectionné (Sketcher ou Part Design) pour appliquer la contrainte aux éléments sélectionnés.
 
 ![](images/EqualConstraint3.png )
 
@@ -32,7 +32,7 @@ Maintenant, sélectionnez l\'arc et le cercle dans l\'esquisse.
 
 ![](images/EqualConstraint4.png )
 
-et appliquez **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)** comme auparavant.
+et appliquez **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)** comme auparavant.
 
 ![](images/EqualConstraint5.png )
 
@@ -40,7 +40,7 @@ Maintenant, sélectionnez le segment de ligne, tous les segments de la polyligne
 
 ![](images/EqualConstraint6.png )
 
-et appliquez **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)** comme auparavant.
+et appliquez **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)** comme auparavant.
 
 ![](images/EqualConstraint7.png )
 
@@ -48,7 +48,7 @@ Sélectionnez le segment de ligne et l\'arc,
 
 ![](images/EqualConstraint8.png )
 
-et appliquez à nouveau **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)**. Un message indique que les éléments contraints doivent être du même type géométrique (lignes de courbure nulle ou lignes de courbure non nulle).
+et appliquez à nouveau **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)**. Un message indique que les éléments contraints doivent être du même type géométrique (lignes de courbure nulle ou lignes de courbure non nulle).
 
 ![](images/EqualConstraint9.png )
 

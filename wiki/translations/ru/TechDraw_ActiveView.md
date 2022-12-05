@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Вставить активный вид (3D Вид)
-   Name   *TechDraw_ActiveView
-   MenuLocation   *TechDraw → Вставить активный вид (3D Вид)
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Вставить SVG знак](TechDraw_Symbol/ru.md)
+- GuiCommand:/ru
+   Name/ru:Вставить активный вид (3D Вид)
+   Name:TechDraw_ActiveView
+   MenuLocation:TechDraw → Вставить активный вид (3D Вид)
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
 # TechDraw ActiveView/ru
@@ -23,11 +23,11 @@ The ActiveView tool inserts a bitmap image of the active 3D window into a drawin
 ## Применение
 
 1.  Navigate to the correct [3D view](3D_view.md).
-2.  If there are multiple drawing pages in the document   * optionally select the desired page in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
-3.  There are several ways to invoke the tool   *
+2.  If there are multiple drawing pages in the document: optionally select the desired page in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insert Active View (3D View)](TechDraw_ActiveView.md)** button.
     -   Select the **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insert Active View (3D View)** option from the menu.
-4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens   * <small>(v0.20)</small> 
+4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
     1.  Select the desired page.
     2.  Press the **OK** button.
 5.  The **ActiveView to TD View** task panel opens. See [Options](#Options.md) for more information.
@@ -35,19 +35,19 @@ The ActiveView tool inserts a bitmap image of the active 3D window into a drawin
 
 ## Options
 
-The following can be specified   *
+The following can be specified:
 
--    **Crop**   * Crop the generated bitmap.
+-    **Crop**: Crop the generated bitmap.
 
--    **Width**   * The width (in mm) to crop the generated view.
+-    **Width**: The width (in mm) to crop the generated view.
 
--    **Height**   * The height (in mm) to crop the generated view.
+-    **Height**: The height (in mm) to crop the generated view.
 
--    **No Background**   * If checked, the generated bitmap will have a transparent background.
+-    **No Background**: If checked, the generated bitmap will have a transparent background.
 
--    **Solid Background**   * If checked, the generated will have a background of the selected color.
+-    **Solid Background**: If checked, the generated will have a background of the selected color.
 
--    **Use 3d Background**   * If checked, the generated bitmap will use the background from the 3D window.
+-    **Use 3d Background**: If checked, the generated bitmap will use the background from the 3D window.
 
 ## Примечания
 
@@ -62,7 +62,7 @@ See [TechDraw Image](TechDraw_Image#Properties.md).
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

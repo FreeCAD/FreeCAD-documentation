@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher_MapSketch
-   Name/fr   *Sketcher Esquisse sur une face
-   MenuLocation   *Part Design/Sketch → Appliquer une esquisse sur une face...
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso   *[Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher_MapSketch
+   Name/fr:Sketcher Esquisse sur une face
+   MenuLocation:Part Design/Sketch → Appliquer une esquisse sur une face...
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso:[Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
 ---
 
 # Sketcher MapSketch/fr
@@ -13,13 +13,13 @@
 
 Cet outil applique une esquisse existante sur la face d\'une forme. Les fonctions PartDesign créées à partir de l\'esquisse seront fusionnées au solide sous-jacent dans le case de fonctions d\'ajout de matière (Protrusion, Révolution) ou seront soustraites du solide sous-jacent dans le cas de fonctions d\'enlèvement de matière (Cavité, Enlèvement de matière par révolution).
 
-Veuillez noter que cet outil n\'est pas utilisé pour créer de nouvelles esquisses. Il ne fait qu\'appliquer, ou ré-appliquer une esquisse existante sur la face d\'un solide ou d\'une fonction PartDesign. Les usages typiques sont    *
+Veuillez noter que cet outil n\'est pas utilisé pour créer de nouvelles esquisses. Il ne fait qu\'appliquer, ou ré-appliquer une esquisse existante sur la face d\'un solide ou d\'une fonction PartDesign. Les usages typiques sont :
 
 -   L\'esquisse a été créée sur un plan standard (XY, XZ, YZ) et vous voulez l\'appliquer sur la face d\'une solide afin d\'ajouter une fonction au solide.
 -   L\'esquisse avait été appliquée à une face du solide, mais vous désirez l\'appliquer sur une face différente.
 -   La réparation d\'un modèle brisé (avec des fonctions échouées).
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
 ## Utilisation
 

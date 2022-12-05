@@ -11,23 +11,23 @@ Le tabelle delle impostazioni sono particolarmente utili se salvate con un [Mode
 
 ## Proprietà
 
--    **VertRapid**   * Imposta la velocità rapida verticale nei nuovi controller degli utensili. (Utilizzato nei post processori che supportano velocità rapide personalizzabili)
+-    **VertRapid**: Imposta la velocità rapida verticale nei nuovi controller degli utensili. (Utilizzato nei post processori che supportano velocità rapide personalizzabili)
 
--    **HorizRapid**   * Imposta la velocità rapida orizzontale nei nuovi controller degli utensili. (Utilizzato nei post processori che supportano velocità rapide personalizzabili)
+-    **HorizRapid**: Imposta la velocità rapida orizzontale nei nuovi controller degli utensili. (Utilizzato nei post processori che supportano velocità rapide personalizzabili)
 
--    **SafeHeightOffset**   * L\'utilizzo di questo campo dipende da SafeHeightExpression (vedere sotto)
+-    **SafeHeightOffset**: L\'utilizzo di questo campo dipende da SafeHeightExpression (vedere sotto)
 
--    ** SafeHeightExpression**   * Il risultato di questa espressione viene utilizzato per impostare l\'altezza di sicurezza delle operazioni.
+-    ** SafeHeightExpression**: Il risultato di questa espressione viene utilizzato per impostare l\'altezza di sicurezza delle operazioni.
 
--    **ClearanceHeightOffset**   * L\'utilizzo di questo campo dipende da ClearanceHeightExpression (vedere sotto)
+-    **ClearanceHeightOffset**: L\'utilizzo di questo campo dipende da ClearanceHeightExpression (vedere sotto)
 
--    **ClearanceHeightExpression**   * Il risultato di questa espressione viene utilizzato per impostare l\'altezza di sorvolo delle operazioni.
+-    **ClearanceHeightExpression**: Il risultato di questa espressione viene utilizzato per impostare l\'altezza di sorvolo delle operazioni.
 
--    **StartDepthExpression**   * Il risultato di questa espressione viene utilizzato per impostare la proprietà StartDepth delle operazioni.
+-    **StartDepthExpression**: Il risultato di questa espressione viene utilizzato per impostare la proprietà StartDepth delle operazioni.
 
--    ** FinalDepthExpression**   * Il risultato di questa espressione viene utilizzato per impostare la proprietà FinalDepth delle operazioni.
+-    ** FinalDepthExpression**: Il risultato di questa espressione viene utilizzato per impostare la proprietà FinalDepth delle operazioni.
 
--    **StepDownExpression**   * Il risultato di questa espressione viene utilizzato per impostare la proprietà StepDown delle operazioni.
+-    **StepDownExpression**: Il risultato di questa espressione viene utilizzato per impostare la proprietà StepDown delle operazioni.
 
 
 <div class="mw-translate-fuzzy">
@@ -37,7 +37,7 @@ Le tabelle delle impostazioni sono particolarmente utili se salvate con un [Mode
 
 </div>
 
-The following are pulled from   *
+The following are pulled from:
 
 -   OpFinalDepth - The value of the FinalDepth property
 -   OpStartDepth - The value of the FinalDepth property
@@ -45,7 +45,7 @@ The following are pulled from   *
 
 ## SetupSheet Values 
 
-Other values in the SetupSheet can be referenced directly   *
+Other values in the SetupSheet can be referenced directly:
 
 -   SetupSheet.ClearanceHeightOffset
 -   SetupSheet.SafeHeightOffset

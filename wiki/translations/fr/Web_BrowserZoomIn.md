@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Web BrowserZoomIn
-   Name/fr   *Web Zoom avant
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso   *
+- GuiCommand:/fr
+   Name:Web BrowserZoomIn
+   Name/fr:Web Zoom avant
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso:
 ---
 
 # Web BrowserZoomIn/fr
 
 ## Description
 
-Utilisez la commande <img alt="" src=images/Web_BrowserZoomIn.svg  style="width   *24px;"> **Web Zoom avant** pour effectuer un zoom avant sur la page web en cours.
+Utilisez la commande <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:24px;"> **Web Zoom avant** pour effectuer un zoom avant sur la page web en cours.
 
 ## Utilisation
 

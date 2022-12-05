@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29)是一门非常简单易学的编程语言。它集开源、多平台于一身，且可以摆脱其他各种工具独立使用，借助简单的shell脚本编程即可实现非常复杂的程序。但是其最广泛的用处是作为一种脚本语言，因为它易于嵌入其他的应用之中。这便是在FreeCAD中用这种语言的原因。您可以通过python控制台或自定义脚本的方式来使用FreeCAD，这也是在非图形用户界面工具下执行非常复杂动作的方法。
+[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)是一门非常简单易学的编程语言。它集开源、多平台于一身，且可以摆脱其他各种工具独立使用，借助简单的shell脚本编程即可实现非常复杂的程序。但是其最广泛的用处是作为一种脚本语言，因为它易于嵌入其他的应用之中。这便是在FreeCAD中用这种语言的原因。您可以通过python控制台或自定义脚本的方式来使用FreeCAD，这也是在非图形用户界面工具下执行非常复杂动作的方法。
 
 
 </div>
@@ -115,7 +115,7 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 </div>
 
-Let\'s start by creating a new empty document   *
+Let\'s start by creating a new empty document:
 
 
 ```python
@@ -171,7 +171,7 @@ doc.
 
 
 ```python
-box = doc.addObject("Part   *   *Box", "myBox")
+box = doc.addObject("Part::Box", "myBox")
 ```
 
 
@@ -232,12 +232,12 @@ box.Height = 5
 
 ## 向量与方位
 
-[向量](http   *//en.wikipedia.org/wiki/Euclidean_vector)是任何3D应用中最基础的一个概念。它由三个数值构成(x、y与z)，用于描述3D空间中的一个点或一个位置。向量可参与大量不同种类的运算，如加法、减法、投影[等等等等](http   *//en.wikipedia.org/wiki/Vector_space)。在FreeCAD中，是这样运用向量的：
+[向量](http://en.wikipedia.org/wiki/Euclidean_vector)是任何3D应用中最基础的一个概念。它由三个数值构成(x、y与z)，用于描述3D空间中的一个点或一个位置。向量可参与大量不同种类的运算，如加法、减法、投影[等等等等](http://en.wikipedia.org/wiki/Vector_space)。在FreeCAD中，是这样运用向量的：
 
 
 </div>
 
-[Vectors](https   *//en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https   *//en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this   *
+[Vectors](https://en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https://en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this:
 
 
 ```python
@@ -278,7 +278,7 @@ FreeCAD最开始是一种命令行应用程序，并不具有当前形式的用�
 
 </div>
 
-FreeCAD has been designed so that it can also be used without its user interface, as a command-line application. Almost every object in FreeCAD therefore consists of two parts   * an `Object`, its \"geometry\" component, and a `ViewObject`, its \"visual\" component. When you work in command-line mode, the geometry part is present, but the visual part is disabled.
+FreeCAD has been designed so that it can also be used without its user interface, as a command-line application. Almost every object in FreeCAD therefore consists of two parts: an `Object`, its \"geometry\" component, and a `ViewObject`, its \"visual\" component. When you work in command-line mode, the geometry part is present, but the visual part is disabled.
 
 
 <div class="mw-translate-fuzzy">
@@ -324,12 +324,12 @@ vo.show()
 
 ## 模块
 
-现在，您一定在想，若没有\"Part   *   *Box\"我还能做什么呢？FreeCAD的基本应用程序或多或少来只讲是一个空容器。若没有它的各种模块，充其量也就只能创建新的空文档而已。令FreeCAD真正强大的其实是其各种可靠的模块。它们不止是为界面增添新的工作台那么简单，还有新的python命令以及新的对象类型。其结果是，令多种不同的、甚至完全不兼容的对象类型可以共存于同一文档之中。我们将在本教程中检阅FreeCAD中最重要的几种模块，它们是[零件模块](Part_Workbench.md), [网格模块](Mesh_Workbench.md), [草图模块](Sketcher_Workbench.md) 与 [底图模块](Draft_Workbench.md)。
+现在，您一定在想，若没有\"Part::Box\"我还能做什么呢？FreeCAD的基本应用程序或多或少来只讲是一个空容器。若没有它的各种模块，充其量也就只能创建新的空文档而已。令FreeCAD真正强大的其实是其各种可靠的模块。它们不止是为界面增添新的工作台那么简单，还有新的python命令以及新的对象类型。其结果是，令多种不同的、甚至完全不兼容的对象类型可以共存于同一文档之中。我们将在本教程中检阅FreeCAD中最重要的几种模块，它们是[零件模块](Part_Workbench.md), [网格模块](Mesh_Workbench.md), [草图模块](Sketcher_Workbench.md) 与 [底图模块](Draft_Workbench.md)。
 
 
 </div>
 
-The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are   * [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
+The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are: [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -373,7 +373,7 @@ Part.
 
 <div class="mw-translate-fuzzy">
 
-[网格](http   *//en.wikipedia.org/wiki/Polygon_mesh)是一种普遍使用在[Sketchup](http   *//en.wikipedia.org/wiki/SketchUp)、[Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29)与[3D studio Max](http   *//en.wikipedia.org/wiki/Autodesk_3ds_Max)中的简易3D对象。它们由3种元素构成：点(又称顶点), 线段(又称边)以及面。包括FreeCAD在内的大多应用中，面可以仅由3个顶点构成。当然，也没有什么可以阻挡您利用多个共面三角形来创建更大的平面。
+[网格](http://en.wikipedia.org/wiki/Polygon_mesh)是一种普遍使用在[Sketchup](http://en.wikipedia.org/wiki/SketchUp)、[Blender](http://en.wikipedia.org/wiki/Blender_%28software%29)与[3D studio Max](http://en.wikipedia.org/wiki/Autodesk_3ds_Max)中的简易3D对象。它们由3种元素构成：点(又称顶点), 线段(又称边)以及面。包括FreeCAD在内的大多应用中，面可以仅由3个顶点构成。当然，也没有什么可以阻挡您利用多个共面三角形来创建更大的平面。
 
 
 </div>
@@ -395,7 +395,7 @@ mymesh = Mesh.createSphere()
 mymesh.Facets
 mymesh.Points
  
-meshobj = doc.addObject("Mesh   *   *Feature", "MyMesh")
+meshobj = doc.addObject("Mesh::Feature", "MyMesh")
 meshobj.Mesh = mymesh
 doc.recompute()
 ```
@@ -415,17 +415,17 @@ doc.recompute()
 
 ## 零件
 
-[零件模块（Part Module）是整个FreeCAD中最强大的模块](Part_Workbench.md)。通过它可创建并操纵[BRep](http   *//en.wikipedia.org/wiki/Boundary_representation)对象。这种对象并不像网格那样，它可以附有大量不同的组件。Brep即边界表示（Boundary Representation），意思是Brep对象都由其表面定义而成；这些表面围起并定义了一个内体积。而一个表面可以是多种不同的东西，如平面或非常复杂的NURBS表面。
+[零件模块（Part Module）是整个FreeCAD中最强大的模块](Part_Workbench.md)。通过它可创建并操纵[BRep](http://en.wikipedia.org/wiki/Boundary_representation)对象。这种对象并不像网格那样，它可以附有大量不同的组件。Brep即边界表示（Boundary Representation），意思是Brep对象都由其表面定义而成；这些表面围起并定义了一个内体积。而一个表面可以是多种不同的东西，如平面或非常复杂的NURBS表面。
 
 
 </div>
 
-The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https   *//en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
+The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https://en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
 
 
 <div class="mw-translate-fuzzy">
 
-零件模块基于强大的[OpenCasCade](http   *//en.wikipedia.org/wiki/Open_CASCADE_Technology)库，借此即可轻松地对其中的各种对象执行大量复杂操作，如布尔运算、倒圆角、放样等等......
+零件模块基于强大的[OpenCasCade](http://en.wikipedia.org/wiki/Open_CASCADE_Technology)库，借此即可轻松地对其中的各种对象执行大量复杂操作，如布尔运算、倒圆角、放样等等......
 
 
 </div>
@@ -439,7 +439,7 @@ myshape = Part.makeSphere(10)
 myshape.Volume
 myshape.Area
 
-shapeobj = doc.addObject("Part   *   *Feature", "MyShape")
+shapeobj = doc.addObject("Part::Feature", "MyShape")
 shapeobj.Shape = myshape
 doc.recompute()
 ```
@@ -513,12 +513,12 @@ Draft.move(box, mvec)
 
 ## 界面
 
-FreeCAD的用户界面是用 [Qt](http   *//en.wikipedia.org/wiki/Qt_%28framework%29)制作的，这是一个强大的图形界面系统，可用于绘制所有与3D视图有关的菜单、工具栏与按钮等控件，或处理相关的控制操作。Qt提供了一个模块PySide，借此可通过python去访问与修改Qt界面，正像FreeCAD所做的那样。让我们试着摆弄下Qt界面并制作一个简单的对话框：
+FreeCAD的用户界面是用 [Qt](http://en.wikipedia.org/wiki/Qt_%28framework%29)制作的，这是一个强大的图形界面系统，可用于绘制所有与3D视图有关的菜单、工具栏与按钮等控件，或处理相关的控制操作。Qt提供了一个模块PySide，借此可通过python去访问与修改Qt界面，正像FreeCAD所做的那样。让我们试着摆弄下Qt界面并制作一个简单的对话框：
 
 
 </div>
 
-The FreeCAD user interface is made with [Qt](https   *//en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog   *
+The FreeCAD user interface is made with [Qt](https://en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog:
 
 
 ```python
@@ -577,11 +577,6 @@ Now that you have a good understanding of the basics, where are we going to keep
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

@@ -1,8 +1,6 @@
 # Category:Path/ja
 This category lists pages related to the [PartDesign Workbench/ja](PartDesign_Workbench/ja.md).
 
-[Category   *Workbenches/ja](Category   *Workbenches/ja.md)
-
 ### Contents
 
 |     |     |     |

@@ -3,7 +3,7 @@
 
 ## Présentation
 
-Il y a eu beaucoup de discussions au cours des années sur les différences et les conséquences de l\'utilisation des ateliers <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/fr.md) et <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/fr.md).
+Il y a eu beaucoup de discussions au cours des années sur les différences et les conséquences de l\'utilisation des ateliers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) et <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
 
 Il est bon d\'utiliser l\'un ou l\'autre jusqu\'à ce que l\'utilisateur soit à l\'aise avec l\'un, puis d\'apprendre l\'autre. Il est aussi généralement recommandé aux nouveaux utilisateurs de ne pas les mélanger avant d\'avoir compris les tenants et aboutissants.
 
@@ -37,7 +37,7 @@ Donc **pour avoir le solide complet**, d\'une part la fonction résultante (Tip)
 
 Cela permettra, en cas de modification, **d\'avoir toujours la dernière version du solide représenté.**
 
-**Remarque et compléments   *** A chaque instant de la construction, la dernière fonction utilisée est la \"Tip\", qui peut être définie aussi comme \"étape active dans la construction de l\'objet\" ou \"étape précédant l\'action suivante dans la construction de l\'objet\". Lorsque le dessin de l\'objet est terminé, Tip est naturellement la dernière étape ou fonctionnalité de la construction. Mais si vous le souhaitez, en cas d\'oubli, toute fonctionnalité de la construction peut être provisoirement déclarée comme Tip   * elle devient alors l\'étape précédant l\'action suivante dans la construction de l\'objet, ce qui signifie que de nouvelles fonctionnalités peuvent être insérées n\'importe où dans la construction, **à condition de ne pas créer d\'incompatibilité avec la suite**.
+**Remarque et compléments:** A chaque instant de la construction, la dernière fonction utilisée est la \"Tip\", qui peut être définie aussi comme \"étape active dans la construction de l\'objet\" ou \"étape précédant l\'action suivante dans la construction de l\'objet\". Lorsque le dessin de l\'objet est terminé, Tip est naturellement la dernière étape ou fonctionnalité de la construction. Mais si vous le souhaitez, en cas d\'oubli, toute fonctionnalité de la construction peut être provisoirement déclarée comme Tip: elle devient alors l\'étape précédant l\'action suivante dans la construction de l\'objet, ce qui signifie que de nouvelles fonctionnalités peuvent être insérées n\'importe où dans la construction, **à condition de ne pas créer d\'incompatibilité avec la suite**.
 
 Lorsque tout est terminé, vous devez redéclarer la dernière fonction comme Tip, ce qui correspond à l\'objet fini.
 
@@ -51,7 +51,7 @@ Si Tip est sur **Pad**, le Pad peut exister séparément, mais si Tip est sur **
 
 ## Les implications 
 
-Bien que non recommandé pour les nouveaux arrivants, il est possible de combiner les outils de l\'atelier Part et de l\'atelier PartDesign, à condition de savoir ce que vous faites. Par exemple    *
+Bien que non recommandé pour les nouveaux arrivants, il est possible de combiner les outils de l\'atelier Part et de l\'atelier PartDesign, à condition de savoir ce que vous faites. Par exemple :
 
 Les gens se font prendre lorsqu\'ils tentent d\'utiliser une fonction sous le corps (plutôt que le corps lui-même) comme sélection d\'une opération booléenne Part Workbench. Ceci pose un problème, car la fonction sélectionnée ne représente pas «LE» solide complet.
 
@@ -67,95 +67,95 @@ Dans cet exemple, une symétrie de la fonction résultante (ici la cavité de la
 
 ![centre\|Solides isolés](images/PhantomMirror.png )
 
-Dans cet exemple, une symétrie de la fonction résultante (ici la cavité de la fente) est effectuée autour du plan de référence et produit une fente symétrique    *
+Dans cet exemple, une symétrie de la fonction résultante (ici la cavité de la fente) est effectuée autour du plan de référence et produit une fente symétrique :
 
 ![centre\|Solides isolés](images/MirroredSlot.png )
 
-Voir la page wiki de l\'outil <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> [PartDesign Symétrie](PartDesign_Mirrored/fr.md) pour plus d\'informations.
+Voir la page wiki de l\'outil <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [PartDesign Symétrie](PartDesign_Mirrored/fr.md) pour plus d\'informations.
 
 ## Comparaison
 
 Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux ateliers. Bien sûr, il existe toujours plusieurs chronologies de construction possibles avec chaque atelier. ![Comparaison des constructions avec l\'atelier Part et l\'atelier PartDesign](images/PartWBvsPartDesignWBexample.jpg )
 
-  Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> l\'atelier PartDesign                                                                        Dans <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> l\'atelier Part
+  Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> l\'atelier PartDesign                                                                        Dans <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> l\'atelier Part
    
-  01- <img alt="" src=images/PartDesign_Body.svg  style="width   *32px;"> Corps (Body) + <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Esquisse dans plan XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Esquisse dans plan XZ
+  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Corps (Body) + <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                       ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                          
 
    
-  02- <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> Révolution / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> Révolution / Z
+  02- <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> Révolution / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Révolution / Z
   ![](images/02revolutionZ_PartWBvsPartDesignWBn.jpg )      ![](images/02revolveZ_PartWBvsPartDesignWBn.jpg )
                                                                                               
    
 
    
-  03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Esquisse dans plan XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Esquisse dans plan XY
+  03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XY
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )             ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                
    
 
    
-  04- <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> Poche       04a- <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> Extrusion
+  04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Poche       04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusion
   ![](images/04pocket_PartWBvsPartDesignWBn.jpg )   ![](images/04aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                  
    
 
    
-                                                                                 04b- <img alt="" src=images/Part_Cut.svg  style="width   *32px;"> Soustraction
+                                                                                 04b- <img alt="" src=images/Part_Cut.svg  style="width:32px;"> Soustraction
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/04bCut_PartWBvsPartDesignWB.jpg )
                                                                                  
    
 
    
-  05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Esquisse dans plan XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Esquisse dans plan XZ
+  05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )               ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                
    
 
    
-  06- <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> Extrusion sym/XZ    06a- <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> Extrusion sym/XZ
+  06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Extrusion sym/XZ    06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusion sym/XZ
   ![](images/06padSymXZ_PartWBvsPartDesignWB.jpg )   ![](images/06aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                    
    
 
    
-                                                                                 06b- <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> Draft WB <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> Répétition circulaire
+                                                                                 06b- <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> Draft WB <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> Répétition circulaire
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/06bDraftPolarPattern_PartWBvsPartDesignWB.jpg )
                                                                                  
    
 
    
-                                                                                 06c- <img alt="" src=images/Part_Fuse.svg  style="width   *32px;"> Fusion
+                                                                                 06c- <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> Fusion
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/06cFusion_PartWBvsPartDesignWB.jpg )
                                                                                  
    
 
    
-  07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Esquisse sur face plane de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Esquisse dans plan XZ
+  07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse sur face plane de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )          ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                             
    
 
    
-  08- <img alt="" src=images/PartDesign_Hole.svg  style="width   *32px;"> Trou lamé                         08a- <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> Révolution
+  08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Trou lamé                         08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Révolution
   ![](images/08hole-counterbore_PartWBvsPartDesignWB.jpg )   ![](images/08aRevolve_PartWBvsPartDesignWB.jpg )
                                                                                                    
    
 
    
-                                                                                 08b- <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> Draft WB <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> Répétition circulaire
+                                                                                 08b- <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> Draft WB <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> Répétition circulaire
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/08bDraftPolarPattern_PartWBvsPartDesignWB.jpg )
                                                                                  
    
 
    
-  09- <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> Répétition circulaire de Perçage + Extrusion   09- <img alt="" src=images/Part_Cut.svg  style="width   *32px;"> Soustraction
+  09- <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> Répétition circulaire de Perçage + Extrusion   09- <img alt="" src=images/Part_Cut.svg  style="width:32px;"> Soustraction
   ![](images/09polarPatternHoleAndPad_PartWBvsPartDesignWB.jpg )                    ![](images/09Cut_PartWBvsPartDesignWB.jpg )
                                                                                                                                 
    
 
-Comparez les arbres de construction dans les deux ateliers ainsi que leur organisation et leur chronologie de lecture    *
+Comparez les arbres de construction dans les deux ateliers ainsi que leur organisation et leur chronologie de lecture :
 
    
   10- Arbre de construction dans l\'atelier PartDesign                                 10- Arbre de construction dans l\'atelier Part

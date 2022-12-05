@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch IfcSpreadsheet
-   Name/ru   *Arch IfcSpreadsheet
-   MenuLocation   *Arch → Utilities → Создать IFC таблицу
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***I** **P**
-   SeeAlso   *[Arch IFC](Arch_IFC/ru.md), [Arch IfcExplorer](Arch_IfcExplorer/ru.md)
+- GuiCommand:/ru
+   Name:Arch IfcSpreadsheet
+   Name/ru:Arch IfcSpreadsheet
+   MenuLocation:Arch → Utilities → Создать IFC таблицу
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**I** **P**
+   SeeAlso:[Arch IFC](Arch_IFC/ru.md), [Arch IfcExplorer](Arch_IfcExplorer/ru.md)
 ---
 
 # Arch IfcSpreadsheet/ru
@@ -20,7 +20,7 @@ This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an obj
 ## Использование
 
 1.  Select an object.
-2.  Invoke the command using several methods   *
+2.  Invoke the command using several methods:
     -   Pressing the **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** button on the toolbar.
     -   Using the **I** then **P** keyboard shortcut.
     -   Using the **Arch → Utilities → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** entry from the top menu.
@@ -28,18 +28,18 @@ This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an obj
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```
 
 -   Creates a `spreadsheet` object. Optionally an `archobj` can be given.
 
-Example   * 
+Example: 
 ```python
 import FreeCAD, Draft, Arch
 

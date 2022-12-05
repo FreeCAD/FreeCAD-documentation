@@ -6,12 +6,12 @@
 
 ### Introducere
 
-Înainte de toate trebuie să importați un modul Mesh   *
+Înainte de toate trebuie să importați un modul Mesh:
 
 
 </div>
 
-To get access to the `Mesh` module you have to import it first   *
+To get access to the `Mesh` module you have to import it first:
 
 
 ```python
@@ -23,12 +23,12 @@ import Mesh
 
 ### Creație și Încărcare 
 
-Pentru a crea un obiectr vid Plasă utilizați construcția standard   *
+Pentru a crea un obiectr vid Plasă utilizați construcția standard:
 
 
 </div>
 
-To create an empty mesh object just use the standard constructor   *
+To create an empty mesh object just use the standard constructor:
 
 
 ```python
@@ -45,10 +45,10 @@ Puteți crea un obiect din fișierul
 
 
 ```python
-mesh = Mesh.Mesh("D   */temp/Something.stl")
+mesh = Mesh.Mesh("D:/temp/Something.stl")
 ```
 
-Sau o creați dintr-un set de triunghiuri descris de către punctele de colț   *
+Sau o creați dintr-un set de triunghiuri descris de către punctele de colț:
 
 
 ```python
@@ -85,7 +85,7 @@ Pentru a crea geometrii obișnuite, puteți utiliza scriptul Python BuildRegular
 
 </div>
 
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows   *
+To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows:
 
 
 ```python
@@ -101,7 +101,7 @@ Primii doi parametri definesc razele toroidului, iar al treilea parametru este u
 
 </div>
 
-The `Mesh` module also provides three Boolean methods   * `union()`, `intersection()` and `difference()`   *
+The `Mesh` module also provides three Boolean methods: `union()`, `intersection()` and `difference()`:
 
 
 ```python
@@ -134,7 +134,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh   *   *Feature", "Pipe")
+obj = d.addObject("Mesh::Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -147,12 +147,12 @@ doc.recompute()
 
 ### Odds and Ends 
 
-O extensie (deși greu de folosit) de scripting Mesh sunt script-urile de testare a Mesh-Module. În această unitate se fac toate testele de compilare și sunt manipulate toate proprietățile și atributele. Cine are curaj îndeajuns, poate privi la [Unit Test module](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
+O extensie (deși greu de folosit) de scripting Mesh sunt script-urile de testare a Mesh-Module. În această unitate se fac toate testele de compilare și sunt manipulate toate proprietățile și atributele. Cine are curaj îndeajuns, poate privi la [Unit Test module](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
 
 
 </div>
 
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
 
 <div class="mw-translate-fuzzy">
@@ -166,9 +166,7 @@ See also [Mesh API](Mesh_API.md)
 {{Top}}
 
 
- {{Mesh Tools navi}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+ {{Mesh Tools navi}}
 
 
 

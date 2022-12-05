@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Семиугольник
-   Name   *Sketcher_CreateHeptagon
-   MenuLocation   *Эскиз → Геометрия эскиза → Семиугольник
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***G** **P** **7**
-   Version   *0.15
+- GuiCommand:/ru
+   Name/ru:Семиугольник
+   Name:Sketcher_CreateHeptagon
+   MenuLocation:Эскиз → Геометрия эскиза → Семиугольник
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **P** **7**
+   Version:0.15
 ---
 
 # Sketcher CreateHeptagon/ru
@@ -18,7 +18,7 @@
 
 ## Применение
 
--   После нажатия кнопки **[<img src=images/Sketcher_CreateHeptagon.svg style="width   *16px"> [Семиугольник](Sketcher_CreateHeptagon.md)**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
+-   После нажатия кнопки **[<img src=images/Sketcher_CreateHeptagon.svg style="width:16px"> [Семиугольник](Sketcher_CreateHeptagon.md)**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 -   Нажатие **Esc** или правой кнопки мыши закрывает функцию.
 
 ## Примечания

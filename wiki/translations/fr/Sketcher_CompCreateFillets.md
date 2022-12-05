@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher Fillets
-   Name/fr   *Sketcher Congés
-   Icon   *Sketcher_CompCreateFillets.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Sketcher Fillets
+   Name/fr:Sketcher Congés
+   Icon:Sketcher_CompCreateFillets.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Version:0.19
 ---
 
 # Sketcher CompCreateFillets/fr
@@ -16,9 +16,9 @@
 
 ## Types de congés 
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Congé](Sketcher_CreateFillet/fr.md)    * crée un congé entre deux lignes non parallèles.
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Congé](Sketcher_CreateFillet/fr.md) : crée un congé entre deux lignes non parallèles.
 
--   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Congé avec contrainte](Sketcher_CreatePointFillet/fr.md)    * crée un congé entre deux lignes non parallèles tout en préservant leur intersection (virtuelle).
+-   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Congé avec contrainte](Sketcher_CreatePointFillet/fr.md) : crée un congé entre deux lignes non parallèles tout en préservant leur intersection (virtuelle).
 
 
 

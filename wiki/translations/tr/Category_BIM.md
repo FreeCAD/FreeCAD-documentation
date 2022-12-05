@@ -1,8 +1,6 @@
 # Category:BIM/tr
 This category is for pages related to building information management (BIM).
 
-[Category   *User Documentation/tr](Category   *User_Documentation/tr.md)
-
 ### Contents
 
 |     |     |     |

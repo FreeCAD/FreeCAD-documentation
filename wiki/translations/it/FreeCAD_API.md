@@ -1,9 +1,9 @@
 # FreeCAD API/it
-**(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https   *//www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
+**(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
 
 Questo è il modulo principale (root) di FreeCAD. Può anche essere chiamato con \"App\" dall\'interprete FreeCAD. Contiene tutto quello che serve per manipolare i documenti e il loro contenuto (oggetti).
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD
 print FreeCAD.listDocuments()
@@ -29,7 +29,7 @@ mydoc = FreeCAD.activeDocument()
 {{APIFunction|activeDocument| |Restituisce il documento attivo o Nulla se non vi è alcun documento attivo.|Un documento di FreeCAD.}}
 
 
-{{APIFunction|addExportType|string, string|Aggiunge a FreeCAD un nuovo tipo di file di esportazione. La prima stringa deve essere formattata come in questo esempio   * "Documento di Word (*.doc)". La seconda stringa è il nome di uno script / modulo python che contiene una funzione export().| }}
+{{APIFunction|addExportType|string, string|Aggiunge a FreeCAD un nuovo tipo di file di esportazione. La prima stringa deve essere formattata come in questo esempio: "Documento di Word (*.doc)". La seconda stringa è il nome di uno script / modulo python che contiene una funzione export().| }}
 
 
 {{APIFunction|addImportType|string, string|Aggiunge a FreeCAD un nuovo tipo di file importazione, funziona allo stesso modo di addExportType, il modulo di gestione python deve contenere una funzione open() e/o una funzione import().| }}
@@ -63,11 +63,6 @@ mydoc = FreeCAD.activeDocument()
 
 
 </div>
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

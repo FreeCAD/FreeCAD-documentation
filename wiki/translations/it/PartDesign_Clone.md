@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *PartDesign Clone
-   Name/it   *PartDesign Clone
-   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation   *Part Design → Crea un clone
-   Version   *0.17
-   SeeAlso   *[Draft clone](Draft_Clone/it.md)
+- GuiCommand:/it
+   Name:PartDesign Clone
+   Name/it:PartDesign Clone
+   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation:Part Design → Crea un clone
+   Version:0.17
+   SeeAlso:[Draft clone](Draft_Clone/it.md)
 ---
 
 # PartDesign Clone/it
@@ -26,7 +26,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  Nell\'albero del modello, selezionare l\'oggetto da clonare.
-2.  Premere i pulsante **[<img src=images/PartDesign_Clone.svg style="width   *24px"> '''Crea un clone'''**.
+2.  Premere i pulsante **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Crea un clone'''**.
 
 
 </div>
@@ -36,11 +36,11 @@
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Base Feature}}   * imposta l\'oggetto originale su cui si basa il clone. Per sostituirlo, premere il tasto **...** per ottenere l\'elenco degli oggetti disponibili.
+-    {{PropertyData/it|Base Feature}}: imposta l\'oggetto originale su cui si basa il clone. Per sostituirlo, premere il tasto **...** per ottenere l\'elenco degli oggetti disponibili.
 
--    {{PropertyData/it|Placement}}   * definisce l\'orientamento e la posizione del Clone nello spazio 3D. Vedere [Posizionamento](Placement/it.md).
+-    {{PropertyData/it|Placement}}: definisce l\'orientamento e la posizione del Clone nello spazio 3D. Vedere [Posizionamento](Placement/it.md).
 
--    {{PropertyData/it|Label}}   * etichetta data all\'oggetto Clone. Modificabile a piacere.
+-    {{PropertyData/it|Label}}: etichetta data all\'oggetto Clone. Modificabile a piacere.
 
 
 </div>

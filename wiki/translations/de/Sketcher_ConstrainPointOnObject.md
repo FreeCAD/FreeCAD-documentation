@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ConstrainPointOnObject
-   Name/de   *Sketcher PunktAufObjektFestlegen
-   MenuLocation   *Sketch → Skizzen-Beschränkungen → Punkt auf Objekt festlegen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***O**
-   SeeAlso   *[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md)
+- GuiCommand:/de
+   Name:Sketcher ConstrainPointOnObject
+   Name/de:Sketcher PunktAufObjektFestlegen
+   MenuLocation:Sketch → Skizzen-Beschränkungen → Punkt auf Objekt festlegen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**O**
+   SeeAlso:[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md)
 ---
 
 # Sketcher ConstrainPointOnObject/de
@@ -17,14 +17,14 @@ Bringt einen Punkt an einem anderen Objekt an, z.B. einer Linie, einem Bogen ode
 ## Anwendung
 
 1.  Einen Punkt und eine Kante in beliebiger Reihenfolge auswählen.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md)** drücken.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md)** drücken.
     -   Das Tastaturkürzel **O**.
-    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> Punkt auf Objekt festlegen** auswählen.
+    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Punkt auf Objekt festlegen** auswählen.
 
 ## Skripten
 
-Die Randbedingung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erstellt werden   *
+Die Randbedingung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erstellt werden:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

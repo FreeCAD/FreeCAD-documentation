@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *PartDesign Clone
-   Name/fr   *PartDesign Clone
-   MenuLocation   *Part Design → Créer un clone
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
-   Version   *0.17
-   SeeAlso   *[Draft Clone](Draft_Clone/fr.md)
+- GuiCommand:/fr
+   Name:PartDesign Clone
+   Name/fr:PartDesign Clone
+   MenuLocation:Part Design → Créer un clone
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   Version:0.17
+   SeeAlso:[Draft Clone](Draft_Clone/fr.md)
 ---
 
 # PartDesign Clone/fr
@@ -20,15 +20,15 @@
 ## Utilisation
 
 1.  Dans l\'arborescence du modèle, sélectionnez l\'objet à cloner.
-2.  Appuyez sur le bouton **[<img src=images/PartDesign_Clone.svg style="width   *24px"> '''Créer un clone'''**.
+2.  Appuyez sur le bouton **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Créer un clone'''**.
 
 ## Propriétés
 
--    **Base Feature**   * Définit l\'objet d\'origine sur lequel le clone est basé. Pour le remplacer, appuyez sur le bouton **...** pour obtenir la liste des objets disponibles.
+-    **Base Feature**: Définit l\'objet d\'origine sur lequel le clone est basé. Pour le remplacer, appuyez sur le bouton **...** pour obtenir la liste des objets disponibles.
 
--    **Placement**   * Définit l\'orientation et la position du Clone dans l\'espace 3D. Voir [Placement](Placement/fr.md).
+-    **Placement**: Définit l\'orientation et la position du Clone dans l\'espace 3D. Voir [Placement](Placement/fr.md).
 
--    **Label**   * Etiquette donnée à l\'objet Clone. Changez en fonction de vos besoins.
+-    **Label**: Etiquette donnée à l\'objet Clone. Changez en fonction de vos besoins.
 
 ## Limitations
 

@@ -3,7 +3,7 @@
 
 ## Description
 
-Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
+Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import.md) and <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) commands to handle the [SVG](SVG.md) file format.
 
 ![](images/Screenshot_inkscape.jpg ) 
 *Inkscape drawing exported to SVG, which is subsequently opened in FreeCAD*
@@ -13,7 +13,7 @@ Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  
 
 ### Apertura
 
-Esta función importa archivos SVG como objetos 2D con los que se puede trabajar, en contra al modulo de dibujo que importa archivos SVG como hojas de dibujo. Los siguientes objetos SVG son importados de momento   *
+Esta función importa archivos SVG como objetos 2D con los que se puede trabajar, en contra al modulo de dibujo que importa archivos SVG como hojas de dibujo. Los siguientes objetos SVG son importados de momento:
 
 -   Objetos PATH
 -   Objetos LINE
@@ -26,7 +26,7 @@ Esta función importa archivos SVG como objetos 2D con los que se puede trabajar
 
 </div>
 
-The following SVG objects can be imported   *
+The following SVG objects can be imported:
 
 -   PATH objects
 -   LINE objects
@@ -38,14 +38,14 @@ The following SVG objects can be imported   *
 
 ### Limitations
 
-FreeCAD will not import path objects that have only one point ([forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+FreeCAD will not import path objects that have only one point ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 
 <div class="mw-translate-fuzzy">
 
 ### Exportación
 
-Los siguientes objetos se pueden exportar a archivos SVG   *
+Los siguientes objetos se pueden exportar a archivos SVG:
 
 -   Líneas y wires (polilíneas)
 -   Arcos y circunferencias
@@ -56,7 +56,7 @@ Los siguientes objetos se pueden exportar a archivos SVG   *
 
 </div>
 
-The following FreeCAD objects can be exported   *
+The following FreeCAD objects can be exported:
 
 -   Lines and wires (polylines)
 -   Arcs and circles
@@ -109,16 +109,16 @@ Si necesitas que el SVG importado no se redondee, trabaja en unidades de usuario
 
 ### Preferencias
 
-Los siguientes parámetros se pueden especificar en la pestaña [Preferencias de Croquizado](Draft_Preferences/es.md) (menú Editar -\> Preferencias -\> Croquis)   *
+Los siguientes parámetros se pueden especificar en la pestaña [Preferencias de Croquizado](Draft_Preferences/es.md) (menú Editar -\> Preferencias -\> Croquis):
 
--   Importar/exportar -\> Importar estilo   * Esto permite seleccionar el modo que los objetos del archivo SVG se dibujarán en FreeCAD. Puedes escoger entre   *
-    -   Ninguno   * Este es el método más rápido, no se realiza ninguna conversión, todos los objetos serán negros con un espesor de línea de 2px (por defecto en FreeCAD)
-    -   Utilizar color y espesor de línea por defecto   * Todos los objetos importados cogerán el color y espesor de línea actuales de la barra de comandos de Croquis
-    -   Color original y espesor de línea   * Los objetos mantendrán el color y espesor de línea (si estaba especificado) que tenían en el archivo SVG
--   Importar/exportar -\> Exportar estilo   *
-    -   Traducidos   * Todos los elementos están traducidos de modo que sus coordenadas son positivas. Esto debería ayudar en la visualización e impresión. El sistema de coordenadas de salida no es consistente entre elementos exportados individualmente.
-    -   Sin refinar   * La posición de todos los elementos preservada. Está pensado para el uso de CAM por ejemplo en PyCAM. Las capas o rodajas exportadas individualmente coincidirán.
--   Ajustes generales -\> Nivel de precisión interno   *
+-   Importar/exportar -\> Importar estilo: Esto permite seleccionar el modo que los objetos del archivo SVG se dibujarán en FreeCAD. Puedes escoger entre:
+    -   Ninguno: Este es el método más rápido, no se realiza ninguna conversión, todos los objetos serán negros con un espesor de línea de 2px (por defecto en FreeCAD)
+    -   Utilizar color y espesor de línea por defecto: Todos los objetos importados cogerán el color y espesor de línea actuales de la barra de comandos de Croquis
+    -   Color original y espesor de línea: Los objetos mantendrán el color y espesor de línea (si estaba especificado) que tenían en el archivo SVG
+-   Importar/exportar -\> Exportar estilo:
+    -   Traducidos: Todos los elementos están traducidos de modo que sus coordenadas son positivas. Esto debería ayudar en la visualización e impresión. El sistema de coordenadas de salida no es consistente entre elementos exportados individualmente.
+    -   Sin refinar: La posición de todos los elementos preservada. Está pensado para el uso de CAM por ejemplo en PyCAM. Las capas o rodajas exportadas individualmente coincidirán.
+-   Ajustes generales -\> Nivel de precisión interno:
     -   Este valor se utiliza para comprobar si un segmento de curva de bezier tiene que considerarse como una línea recta. Si importas caminos detallados, como texto renderizado, podrías querer incrementar este valor por encima de 6.
 
 
@@ -128,7 +128,7 @@ See [Import Export Preferences](Import_Export_Preferences.md).
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To export objects to SVG use the `export` method of the importSVG module.
 
@@ -137,9 +137,9 @@ To export objects to SVG use the `export` method of the importSVG module.
 importSVG.export(exportList, filename)
 ```
 
--   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS: use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Example   *
+Example:
 
 
 ```python
@@ -163,11 +163,6 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 </div>
-
-
- 
-
-[Category   *User Documentation/es](Category   *User_Documentation/es.md) [Category   *File Formats](Category_File_Formats.md)
 
 
 

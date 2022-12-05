@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Std DemoMode
-   Name/fr   *Std Vue en rotation
-   MenuLocation   *Outils → Vue en rotation...
-   Workbenches   *Tous
+- GuiCommand:/fr
+   Name:Std DemoMode
+   Name/fr:Std Vue en rotation
+   MenuLocation:Outils → Vue en rotation...
+   Workbenches:Tous
 ---
 
 # Std DemoMode/fr

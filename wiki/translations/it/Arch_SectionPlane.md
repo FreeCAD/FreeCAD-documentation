@@ -1,12 +1,12 @@
 # Arch SectionPlane/it
 ---
-- GuiCommand   */it
-   Name   *Arch SectionPlane
-   Name/it   *Piano di sezione
-   Workbenches   *[Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Arch → Piano di sezione
-   Shortcut   ***S** **P**
-   SeeAlso   *[Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_ArchView/it.md)---
+- GuiCommand:/it
+   Name:Arch SectionPlane
+   Name/it:Piano di sezione
+   Workbenches:[Architettura](Arch_Workbench/it.md)
+   MenuLocation:Arch → Piano di sezione
+   Shortcut:**S** **P**
+   SeeAlso:[Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_ArchView/it.md)---
 
 
 </div>
@@ -23,7 +23,7 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
 ## Utilizzo
 
@@ -46,7 +46,7 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 -   Con un oggetto piano di sezione selezionato, utilizzare lo strumento [Vista 2D](Draft_Shape2DView/it.md) per creare nel documento un oggetto che rappresenta la vista di sezione
 
-<img alt="" src=images/Arch_Section_example2.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -56,27 +56,27 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 </div>
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
 -   Il Piano di sezione può anche essere usato per mostrare l\'intera vista 3D tagliata da un piano infinito. Questo è solo visivo, e non influenza la geometria degli oggetti da tagliare.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
 ## Proprietà
 
--    {{PropertyData/it|Only Solids}}   * se questo è vero, gli oggetti non solidi vengono ignorati
+-    {{PropertyData/it|Only Solids}}: se questo è vero, gli oggetti non solidi vengono ignorati
 
--    {{PropertyView/it|Display Length}}   * la lunghezza della sezione piana gizmo nella vista 3D. Non influisce sulla vista risultante
+-    {{PropertyView/it|Display Length}}: la lunghezza della sezione piana gizmo nella vista 3D. Non influisce sulla vista risultante
 
--    {{PropertyView/it|Display Height}}   * l\'altezza della sezione piana gizmo nella vista 3D. Non influisce sulla vista risultante
+-    {{PropertyView/it|Display Height}}: l\'altezza della sezione piana gizmo nella vista 3D. Non influisce sulla vista risultante
 
--    {{PropertyView/it|Arrow Size}}   * la dimensione delle frecce del piano di sezione gizmo nella vista 3D. Non influisce sulla vista risultante
+-    {{PropertyView/it|Arrow Size}}: la dimensione delle frecce del piano di sezione gizmo nella vista 3D. Non influisce sulla vista risultante
 
--    {{PropertyView/it|Cut View}}   * se questo è `True`, vero, l\'intera vista 3D viene tagliata in corrispondenza di tale piano di sezione.
+-    {{PropertyView/it|Cut View}}: se questo è `True`, vero, l\'intera vista 3D viene tagliata in corrispondenza di tale piano di sezione.
 
--    **Clip view**   * se `True`, ritaglia la vista all\'altezza e alla lunghezza della visualizzazione del piano di taglio. Questo trasforma efficacemente il piano di taglio in una fotocamera ortografica, limitando il campo visivo del piano. {{version/it|0.19}}
+-    **Clip view**: se `True`, ritaglia la vista all\'altezza e alla lunghezza della visualizzazione del piano di taglio. Questo trasforma efficacemente il piano di taglio in una fotocamera ortografica, limitando il campo visivo del piano. {{version/it|0.19}}
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
 
@@ -84,16 +84,16 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App   *   *PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Piano di sezione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Piano di sezione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -102,7 +102,7 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 
 -   Crea un oggetto `Section` da una `objectslist`, che è una lista di oggetti.
 
-Esempio   *
+Esempio:
 
 
 ```python

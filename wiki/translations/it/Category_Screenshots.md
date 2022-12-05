@@ -1,8 +1,6 @@
 # Category:Screenshots/it
 This category lists pages with screenshots.
 
-[Category   *Documentation/it](Category   *Documentation/it.md)
-
 ### Contents
 
 |     |     |     |

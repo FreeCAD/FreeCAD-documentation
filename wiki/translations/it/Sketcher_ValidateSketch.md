@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Sketcher_ValidateSketch
-   Name/it   *Convalida lo schizzo
-   Empty   *1
-   Workbenches   *[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation   *Sketch/Part Design → Convalida lo schizzo...
+- GuiCommand:/it
+   Name:Sketcher_ValidateSketch
+   Name/it:Convalida lo schizzo
+   Empty:1
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation:Sketch/Part Design → Convalida lo schizzo...
 ---
 
 # Sketcher ValidateSketch/it
@@ -36,7 +36,7 @@ L\'utilità **Convalida lo schizzo** può essere usata per riparare uno schizzo 
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare lo schizzo da convalidare, dall\'albero del modello o facendo clic su uno dei suoi bordi nella vista 3D. **Nota   *** lo schizzo non deve essere in modalità di modifica. Se si è in modalità di modifica dello schizzo, è necessario [usire dallo schizzo](Sketcher_LeaveSketch/it.md).
+1.  Selezionare lo schizzo da convalidare, dall\'albero del modello o facendo clic su uno dei suoi bordi nella vista 3D. **Nota:** lo schizzo non deve essere in modalità di modifica. Se si è in modalità di modifica dello schizzo, è necessario [usire dallo schizzo](Sketcher_LeaveSketch/it.md).
 2.  Aprire l\'utility di convalida dal menu Schizzo o Part Design.
 3.  Selezionare le sottostanto opzioni per l\'operazione.
 4.  Premere il pulsante **Chiudi** quando fatto.
@@ -80,7 +80,7 @@ Degenerated geometry can result from solver actions in a sketch.
 
 For instance, if a line is forced to shorten to become almost a point.
 
-Other examples   * a zero length line or zero radius circle/arc.
+Other examples: a zero length line or zero radius circle/arc.
 
 ### Reversed external geometry 
 

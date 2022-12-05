@@ -1,6 +1,6 @@
 # Mesh Intersection/de
 ---
-- GuiCommand   */de   Name   *Mesh Intersection‏‎   MenuLocation   *Meshes → Boolean → Intersection   Workbenches   *[[Mesh Workbench   Mesh]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/de   Name:Mesh Intersection‏‎   MenuLocation:Meshes → Boolean → Intersection   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -50,7 +50,7 @@ Als Ergebnis wird ein separates Netz erstellt.
 
 ## Properties
 
-See   * [Mesh Feature](Mesh_Feature.md).
+See: [Mesh Feature](Mesh_Feature.md).
 
 
 

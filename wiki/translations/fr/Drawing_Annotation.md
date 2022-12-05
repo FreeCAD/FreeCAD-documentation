@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Drawing Annotation
-   Name/fr   *Drawing Annotation
-   MenuLocation   *Drawing → Annotation
-   Workbenches   *[Mise en plan](Drawing_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Drawing Annotation
+   Name/fr:Drawing Annotation
+   MenuLocation:Drawing → Annotation
+   Workbenches:[Mise en plan](Drawing_Workbench/fr.md)
 ---
 
 # Drawing Annotation/fr

@@ -16,20 +16,20 @@ Dopo l\'importazione, per FreeCAD, il modello è solo un insieme di facce. Si po
 
 <div class="mw-translate-fuzzy">
 
-Per fare questo   *
+Per fare questo:
 
-1.  Passare nel\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part](Part_Workbench/it.md)
-2.  Selezionare la mesh e andare in **Part → [Crea forma da mesh](Part_ShapeFromMesh/it.md)** o premere il pulsante <img alt="" src=images/Part_ShapeFromMesh.svg  style="width   *24px;"> [Forma da mesh](Part_ShapeFromMesh/it.md)
+1.  Passare nel\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md)
+2.  Selezionare la mesh e andare in **Part → [Crea forma da mesh](Part_ShapeFromMesh/it.md)** o premere il pulsante <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Forma da mesh](Part_ShapeFromMesh/it.md)
 3.  Cliccare **OK** nel dialogo
 4.  Selezionare la forma appena creata
 5.  Andare in **Part → [Converti in solido](Part_MakeSolid/it.md)**
 6.  Selezionare il solido appena creato
-7.  Andare in **Part → [Affina forma](Part_RefineShape/it.md)** o premere il pulsante <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Affina forma](Part_RefineShape/it.md)
+7.  Andare in **Part → [Affina forma](Part_RefineShape/it.md)** o premere il pulsante <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affina forma](Part_RefineShape/it.md)
 
 
 </div>
 
-**Nota   *** L\'ultimo passaggio non è obbligatorio, ma serve a pulire il solido della maggior parte dei bordi residui rimasti sulle superfici piane e cilindriche.
+**Nota:** L\'ultimo passaggio non è obbligatorio, ma serve a pulire il solido della maggior parte dei bordi residui rimasti sulle superfici piane e cilindriche.
 
 ## Errori
 
@@ -50,8 +50,8 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 ## Programmi di terza parte 
 
--   [Meshlab](http   *//meshlab.sourceforge.net/)
-    -   Licenza   * Open Source (GPL V2)
+-   [Meshlab](http://meshlab.sourceforge.net/)
+    -   Licenza: Open Source (GPL V2)
     -   Funziona su Windows 32/64 bit, Linux e Mac OS X
 
 
@@ -60,8 +60,8 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 <div class="mw-translate-fuzzy">
 
--   [netFabb basic](http   *//www.netfabb.com/downloadcenter.php?basic=1)
-    -   Licenza   * Freeware
+-   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
+    -   Licenza: Freeware
     -   Funziona su Windows XP/7/8, Linux e Mac OS X
 
 
@@ -83,8 +83,6 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 ## Correlazioni
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
-
-[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

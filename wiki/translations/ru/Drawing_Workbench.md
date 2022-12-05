@@ -1,7 +1,7 @@
 # Drawing Workbench/ru
 **Разработка [верстак TechDraw](Drawing_Workbench/ru]],_начиная_с_FreeCAD_0.16, остановлена, и в версии 0.17 был предложен новый [[TechDraw Workbench/ru.md), предназначенный для его замены. Оба верстака пока есть в v0.17, но в будущих выпусках верстак Drawing может быть удалён.**
 
-<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width   *128px;">
+<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
 
 ## Введение
 
@@ -10,37 +10,37 @@
 
 {{TOCright}}
 
-<img alt="" src=images/Drawing_extraction.png  style="width   *600px;">
+<img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
 ## Инструменты
 
 Это инструменты для создания, настройки и экспортирования 2D чертежных листов
 
--   <img alt="" src=images/Drawing_New.png  style="width   *32px;"> [Открыть SVG](Drawing_Open_SVG/ru.md)   * Открывает чертеж, ранее сохранённый в формате SVG
+-   <img alt="" src=images/Drawing_New.png  style="width:32px;"> [Открыть SVG](Drawing_Open_SVG/ru.md): Открывает чертеж, ранее сохранённый в формате SVG
 
--   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [Новый чертеж A3](Drawing_Landscape_A3/ru.md)   * Создает чертёж формата A3 c шаблоном FreeCAD по умолчанию
+-   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [Новый чертеж A3](Drawing_Landscape_A3/ru.md): Создает чертёж формата A3 c шаблоном FreeCAD по умолчанию
 
--   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Вставить вид в чертёж](Drawing_View/ru.md)   * Помещает вид выделенного объекта на активный лист чертежа.
+-   <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Вставить вид в чертёж](Drawing_View/ru.md): Помещает вид выделенного объекта на активный лист чертежа.
 
--   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Аннотация](Drawing_Annotation/ru.md)   * Добавляет аннотацию на текущий чертёжный лист
+-   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Аннотация](Drawing_Annotation/ru.md): Добавляет аннотацию на текущий чертёжный лист
 
--   <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Клип](Drawing_Clip/ru.md)   * Добавляет группу клипов на текущий чертёжный лист
+-   <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Клип](Drawing_Clip/ru.md): Добавляет группу клипов на текущий чертёжный лист
 
--   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Открыть в браузере](Drawing_Openbrowser/ru.md)   * Открывает предварительный просмотр текущего чертёжного листа в браузере
+-   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Открыть в браузере](Drawing_Openbrowser/ru.md): Открывает предварительный просмотр текущего чертёжного листа в браузере
 
--   <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Вставить ортографические виды](Drawing_Orthoviews/ru.md)   * Автоматически создаёт ортографические виды объекта на текущем чертёжном листе
+-   <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Вставить ортографические виды](Drawing_Orthoviews/ru.md): Автоматически создаёт ортографические виды объекта на текущем чертёжном листе
 
--   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Символ](Drawing_Symbol/ru.md)   * Добавляет содержимое файла SVG как символ на текущий чертёжный лист
+-   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Символ](Drawing_Symbol/ru.md): Добавляет содержимое файла SVG как символ на текущий чертёжный лист
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft View](Draft_Drawing/ru.md)   * Вставляет специальный вид выбранного объекта на текущий чертёжный лист
+-   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft View](Draft_Drawing/ru.md): Вставляет специальный вид выбранного объекта на текущий чертёжный лист
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Spreadsheet View](Drawing_SpreadsheetView/ru.md)   * Вставляет вид выбранного листа электронной таблицы на текущий чертёжный лист
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width:32px;"> [Spreadsheet View](Drawing_SpreadsheetView/ru.md): Вставляет вид выбранного листа электронной таблицы на текущий чертёжный лист
 
--   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Экспортировать страницу](Drawing_Save/ru.md)   * Сохраняет указанный лист в SVG формате
+-   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Экспортировать страницу](Drawing_Save/ru.md): Сохраняет указанный лист в SVG формате
 
--   [Проекция фигуры](Drawing_ProjectShape/ru.md)   * Создаёт проекцию выбранного объекта (источинка) в трёхмерном виде.
+-   [Проекция фигуры](Drawing_ProjectShape/ru.md): Создаёт проекцию выбранного объекта (источинка) в трёхмерном виде.
 
--    **Примечание   ***Инструмент [Draft Drawing](Draft_Drawing/ru.md) главным образом используется с [объектами Draft](Draft_Workbench/ru.md). Он имеет некоторые дополнительных возможностей кроме стандартных инструментов верстака Drawing, и поддерживает специфические объекты вроде [размеров Draft](Draft_Dimension/ru.md).
+-    **Примечание:**Инструмент [Draft Drawing](Draft_Drawing/ru.md) главным образом используется с [объектами Draft](Draft_Workbench/ru.md). Он имеет некоторые дополнительных возможностей кроме стандартных инструментов верстака Drawing, и поддерживает специфические объекты вроде [размеров Draft](Draft_Dimension/ru.md).
 
 ## Workflow
 
@@ -70,7 +70,7 @@ FreeCAD поставляется вместе с набором стандарт
 
 ## Внешние ссылки 
 
--   [Intro to mechanical drawing on Youtube - by Normal Universe](https   *//www.youtube.com/watch?v=1Hm5Zyjmjac)
+-   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
 
@@ -78,9 +78,7 @@ FreeCAD поставляется вместе с набором стандарт
 
 {{Drawing Tools navi
 
-}} 
-
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
+}}
 
 
 

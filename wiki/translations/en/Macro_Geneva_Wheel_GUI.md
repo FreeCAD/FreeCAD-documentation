@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2014-09-21
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/8/8d/GW_Dim.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/8/8d/GW_Dim.png ToolBar Icon]
 }}
 
 ## Description
@@ -34,7 +34,7 @@ ToolBar Icon ![](images/GW_Dim.png )
 
 {{MacroCode|code=
 <nowiki>
-#Creation of a Geneva Wheel with Parametric values  By   * Isaac Ayala (drei) & Mark Stephen (quick61)
+#Creation of a Geneva Wheel with Parametric values  By: Isaac Ayala (drei) & Mark Stephen (quick61)
 #This Macro creates the main parts of a Geneva Wheel Mechanism 
 
 #It depends on six values that must be altered in the following code
@@ -72,12 +72,12 @@ from PySide import QtGui, QtCore
 from PySide.QtGui import QApplication, QDialog, QMainWindow
 import Part
 import Draft
-class p()   *
+class p():
 
 
-   def Ggear(self)   *
+   def Ggear(self):
 
-      try   *
+      try:
          #Inputs
          a = float(self.dCr.text())
          #b = float(self.gWr.text())
@@ -126,7 +126,7 @@ class p()   *
          stopArc = Part.makeCylinder(y, h)
          stopArc.rotate(Base.Vector(-c,0,0),Base.Vector(0,0,1),(180/n))
 
-         for i in range(int(n))   *
+         for i in range(int(n)):
             stopArc.rotate(Base.Vector(-c,0,0),Base.Vector(0,0,1),(360/n))
             genevaWheel = genevaWheel.cut(stopArc)
 
@@ -138,7 +138,7 @@ class p()   *
 
          slot=slotLength.fuse(slotRadius)
 
-         for i in range(int(n))   *
+         for i in range(int(n)):
             slot.rotate(Base.Vector(-c,0,0),Base.Vector(0,0,1),(360/n))
             genevaWheel = genevaWheel.cut(slot)
 
@@ -147,15 +147,15 @@ class p()   *
          Part.show(driveCrank)
          Part.show(genevaWheel)
 
-      except   *
+      except:
          FreeCAD.Console.PrintError("Unable to complete task. Please recheck your data entries.")
 
       self.close()
 
-   def close(self)   *
+   def close(self):
       self.dialog.hide()
 
-   def __init__(self)   *
+   def __init__(self):
       self.dialog = None
 
       self.dialog = QtGui.QDialog()

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std TreeSelection
-   Name/pl   *Std   * Wybór w widoku drzewa
-   MenuLocation   *Widok → Akcje widoku drzewa → Przejdź do zaznaczenia
-   Workbenches   *Wszystkie
-   Shortcut   ***T** **G**
-   Version   *0.19
+- GuiCommand:/pl
+   Name:Std TreeSelection
+   Name/pl:Std: Wybór w widoku drzewa
+   MenuLocation:Widok → Akcje widoku drzewa → Przejdź do zaznaczenia
+   Workbenches:Wszystkie
+   Shortcut:**T** **G**
+   Version:0.19
 ---
 
 # Std TreeSelection/pl
@@ -19,11 +19,11 @@ Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa 
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów w oknie widoku 3D.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=24px>** i wybierz opcję **<img src="images/Std_TreeSelection.svg" width=24px> Przejdź do zaznaczenia** z menu podręcznego. Uwaga   * wygląd przycisku będzie się zmieniał w zależności od wybranej opcji.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=24px>** i wybierz opcję **<img src="images/Std_TreeSelection.svg" width=24px> Przejdź do zaznaczenia** z menu podręcznego. Uwaga: wygląd przycisku będzie się zmieniał w zależności od wybranej opcji.
     -   Wybierz z menu opcję **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSelection.svg" width=24px> Przejdź do zaznaczenia**.
     -   Wybierz opcję **<img src="images/Std_TreeSelection.svg" width=16px> Przejdź do zaznaczenia**z menu kontekstowego okna widoku 3D.
-    -   Użyj skrótu klawiaturowego   * **T**, a następnie **G**.
+    -   Użyj skrótu klawiaturowego: **T**, a następnie **G**.
 
 
 

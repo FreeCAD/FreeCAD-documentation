@@ -6,7 +6,7 @@
 |Version=2.0
 |Date=2020-29-01
 |FCVersion=0.17 and above
-|Download=[https   *//www.freecadweb.org/wiki/images/8/8c/Macro_Toggle_Drawstyle_Optimized.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/8/8c/Macro_Toggle_Drawstyle_Optimized.png ToolBar Icon]
 |SeeAlso=[Macro Toggle Drawstyle](Macro_Toggle_Drawstyle/fr.md) <img src="images/Macro_Toggle_Drawstyle.png" width=24px>
 }}
 
@@ -14,11 +14,11 @@
 
 Script optimisé pour toutes les langues, pour les objets sélectionnés ou tous les objets.
 
-Trois macros sont disponibles   *
+Trois macros sont disponibles:
 
--   Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélectionné et/ou bascule le mode d\'affichage des objets sélectionnés si des objets sont sélectionnés. Lorsque les objets sont sélectionnés, le mode d\'affichage global est automatiquement défini sur Tel quel   * [Macro_Toggle_Drawstyle_Optimized.FCMacro](#Script.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized.png  style="width   *24px;">
--   Basculer le mode d\'affichage global   * [Macro_Toggle_Drawstyle_Optimized_2.FCMacro](#Script_2.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_2.png  style="width   *24px;">
--   Basculer le mode d\'affichage du ou des objets sélectionnés (modifications visibles uniquement dans le mode d\'affichage général tel quel (situé dans la barre d\'outils Afficher))   * [Macro_Toggle_Drawstyle_Optimized_3.FCMacro](#Script_3.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_3.png  style="width   *24px;">
+-   Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélectionné et/ou bascule le mode d\'affichage des objets sélectionnés si des objets sont sélectionnés. Lorsque les objets sont sélectionnés, le mode d\'affichage global est automatiquement défini sur Tel quel: [Macro_Toggle_Drawstyle_Optimized.FCMacro](#Script.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized.png  style="width:24px;">
+-   Basculer le mode d\'affichage global: [Macro_Toggle_Drawstyle_Optimized_2.FCMacro](#Script_2.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_2.png  style="width:24px;">
+-   Basculer le mode d\'affichage du ou des objets sélectionnés (modifications visibles uniquement dans le mode d\'affichage général tel quel (situé dans la barre d\'outils Afficher)): [Macro_Toggle_Drawstyle_Optimized_3.FCMacro](#Script_3.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_3.png  style="width:24px;">
 
 Lorsque vous travaillez avec FreeCAD, vous pouvez parfois changer rapidement le style de dessin de l\'objet avec lequel vous travaillez. Ceci est disponible via le menu déroulant Drawstyle où n\'importe quel style Drawstyle peut être sélectionné. Cette macro rend disponibles 2 des styles de dessin sous forme de bouton cliquable sur une barre d\'outils sur laquelle l\'utilisateur peut cliquer pour basculer entre les deux styles de dessin.
 
@@ -35,7 +35,7 @@ Sélectionnez un objet, puis cliquez sur le bouton de la barre d\'outils associ�
 
 ## Script
 
-Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélectionné et/ou bascule le mode d\'affichage des objets sélectionnés si des objets sont sélectionnés. Lorsque les objets sont sélectionnés, le mode d\'affichage global est automatiquement défini tel quel   *
+Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélectionné et/ou bascule le mode d\'affichage des objets sélectionnés si des objets sont sélectionnés. Lorsque les objets sont sélectionnés, le mode d\'affichage global est automatiquement défini tel quel:
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized.png )
 
@@ -76,13 +76,13 @@ sel = Gui.Selection.getSelectionEx()
 
 
 act = {
-    0   * mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs"),
-    1   * mw.findChild(QtGui.QAction, "Std_DrawStyleFlatLines"),
-    2   * mw.findChild(QtGui.QAction, "Std_DrawStyleShaded"),
-    3   * mw.findChild(QtGui.QAction, "Std_DrawStyleWireframe"),
-    4   * mw.findChild(QtGui.QAction, "Std_DrawStylePoints"),
-    5   * mw.findChild(QtGui.QAction, "Std_DrawStyleHiddenLine"),
-    6   * mw.findChild(QtGui.QAction, "Std_DrawStyleNoShading"),
+    0: mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs"),
+    1: mw.findChild(QtGui.QAction, "Std_DrawStyleFlatLines"),
+    2: mw.findChild(QtGui.QAction, "Std_DrawStyleShaded"),
+    3: mw.findChild(QtGui.QAction, "Std_DrawStyleWireframe"),
+    4: mw.findChild(QtGui.QAction, "Std_DrawStylePoints"),
+    5: mw.findChild(QtGui.QAction, "Std_DrawStyleHiddenLine"),
+    6: mw.findChild(QtGui.QAction, "Std_DrawStyleNoShading"),
 }
 
 
@@ -91,34 +91,34 @@ actionA = act[globalA]
 actionB = act[globalB]
 
 
-if sel   *
+if sel:
     obj = []
     default.trigger()
-    for s in sel   *
-        if s.Object.TypeId == "App   *   *Link"   *
-            if s.Object.LinkedObject not in obj   *
+    for s in sel:
+        if s.Object.TypeId == "App::Link":
+            if s.Object.LinkedObject not in obj:
                 obj.append(s.Object.LinkedObject)
-        elif s.Object not in obj   *
+        elif s.Object not in obj:
             obj.append(s.Object)
-        else   *
+        else:
             pass
 
-    for o in obj   *
-        if o.ViewObject.DisplayMode == objectA   *
+    for o in obj:
+        if o.ViewObject.DisplayMode == objectA:
             o.ViewObject.DisplayMode = objectB
-        else   *
+        else:
             o.ViewObject.DisplayMode = objectA
-else   *
-    if actionA.isChecked()   *
+else:
+    if actionA.isChecked():
         actionB.trigger()
-    else   *
+    else:
         actionA.trigger()
 
 }}
 
 ## Script 2 
 
-Basculer le mode d\'affichage global   *
+Basculer le mode d\'affichage global:
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized_2.png )
 
@@ -150,13 +150,13 @@ mw = Gui.getMainWindow()
 
 
 act = {
-    0   * mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs"),
-    1   * mw.findChild(QtGui.QAction, "Std_DrawStyleFlatLines"),
-    2   * mw.findChild(QtGui.QAction, "Std_DrawStyleShaded"),
-    3   * mw.findChild(QtGui.QAction, "Std_DrawStyleWireframe"),
-    4   * mw.findChild(QtGui.QAction, "Std_DrawStylePoints"),
-    5   * mw.findChild(QtGui.QAction, "Std_DrawStyleHiddenLine"),
-    6   * mw.findChild(QtGui.QAction, "Std_DrawStyleNoShading"),
+    0: mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs"),
+    1: mw.findChild(QtGui.QAction, "Std_DrawStyleFlatLines"),
+    2: mw.findChild(QtGui.QAction, "Std_DrawStyleShaded"),
+    3: mw.findChild(QtGui.QAction, "Std_DrawStyleWireframe"),
+    4: mw.findChild(QtGui.QAction, "Std_DrawStylePoints"),
+    5: mw.findChild(QtGui.QAction, "Std_DrawStyleHiddenLine"),
+    6: mw.findChild(QtGui.QAction, "Std_DrawStyleNoShading"),
 }
 
 
@@ -164,15 +164,15 @@ actionA = act[styleA]
 actionB = act[styleB]
 
 
-if actionA.isChecked()   *
+if actionA.isChecked():
     actionB.trigger()
-else   *
+else:
     actionA.trigger()
 }}
 
 ## Script 3 
 
-Basculer le mode d\'affichage du ou des objets sélectionnés (les modifications ne sont visibles qu\'en mode d\'affichage global tel quel (situé dans la barre d\'outils Afficher))   *
+Basculer le mode d\'affichage du ou des objets sélectionnés (les modifications ne sont visibles qu\'en mode d\'affichage global tel quel (situé dans la barre d\'outils Afficher)):
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized_3.png )
 
@@ -203,20 +203,20 @@ sel = Gui.Selection.getSelectionEx()
 mw.findChild(QtGui.QAction, "Std_DrawStyleAsIs").trigger()
 
 
-for s in sel   *
-    if s.Object.TypeId == "App   *   *Link"   *
-        if s.Object.LinkedObject not in obj   *
+for s in sel:
+    if s.Object.TypeId == "App::Link":
+        if s.Object.LinkedObject not in obj:
             obj.append(s.Object.LinkedObject)
-    elif s.Object not in obj   *
+    elif s.Object not in obj:
         obj.append(s.Object)
-    else   *
+    else:
         pass
 
 
-for o in obj   *
-    if o.ViewObject.DisplayMode == styleA   *
+for o in obj:
+    if o.ViewObject.DisplayMode == styleA:
         o.ViewObject.DisplayMode = styleB
-    else   *
+    else:
         o.ViewObject.DisplayMode = styleA
 }}
 
@@ -225,9 +225,9 @@ for o in obj   *
 
 ## Liens
 
-Le lien sur forum (2016-11-27 ver   *1.0 FC =\< 0.17)   * [Keyboard shortcut, View toolbar - Wireframe](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=40#p146239)
+Le lien sur forum (2016-11-27 ver:1.0 FC =\< 0.17): [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=40#p146239)
 
-The Forum link (2020-29-01 ver   *2.0 FC =\> 0.17)    * [Keyboard shortcut, View toolbar - Wireframe](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=50#p364692)
+The Forum link (2020-29-01 ver:2.0 FC =\> 0.17) : [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=50#p364692)
 
 
 

@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ru
-   Name   *Ship New‏‎ 
-   Name/ru   *Ship New‏‎ 
-   Icon   *Ship_Instance.svg
-   MenuLocation   *Ship design → Задание параметров плавательного судна
-   Workbenches   *[Ship](Ship_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/ru
+   Name:Ship New‏‎ 
+   Name/ru:Ship New‏‎ 
+   Icon:Ship_Instance.svg
+   MenuLocation:Ship design → Задание параметров плавательного судна
+   Workbenches:[Ship](Ship_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Ship CreateShip/ru
@@ -18,7 +18,7 @@
 
 Create a New Ship or new Ship Instance.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account   *
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account:
 
 -   All hull geometry must be provided (including symmetric bodies).
 -   Starboard geometry must be included at negatives *y* domain.
@@ -37,11 +37,11 @@ Most relevant ship data must be introduced (Ship uses a progressive data introdu
 
 ## Ship data 
 
-Main dimensions must be introduced here   *
+Main dimensions must be introduced here:
 
--   Length   * Length between perpendiculars.
--   Beam   * Total ship beam.
--   Draft   * Design draft.
+-   Length: Length between perpendiculars.
+-   Beam: Total ship beam.
+-   Draft: Design draft.
 
 ![](images/FreeCAD-Ship-S60ShipCreationFront.png ) 
 *Length annotations*
@@ -59,14 +59,6 @@ When you press **Accept** button, a new Ship instance named **Ship** is created 
 
 -   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial.md)
 -   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md)
-
-
-
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

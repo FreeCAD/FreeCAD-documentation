@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Rocket Transition
-   MenuLocation   *Rocket → Transition
-   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
-   Version   *0.19
+- GuiCommand:
+   Name:Rocket Transition
+   MenuLocation:Rocket → Transition
+   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
+   Version:0.19
 ---
 
 # Rocket Transition
@@ -16,7 +16,7 @@ The most common application is to change from one body diameter to another, such
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Transition.svg" width=16px> [Transition](Rocket_Transition.md)** button.
     -   Select the **Rocket → <img src="images/Rocket_Transition.svg" width=16px> Transition** option from the menu.
     -   Double click on a Transition object in the [Tree view](Tree_view.md).
@@ -63,69 +63,62 @@ There are some known issues with the drawing of transitions that are currently b
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Description**   * Description of the component
+-    **Description**: Description of the component
 
--    **Manufacturer**   * Manufacturer when known
+-    **Manufacturer**: Manufacturer when known
 
--    **Material**   * Material when known
+-    **Material**: Material when known
 
--    **Part Number**   * Manufacturer part number
+-    **Part Number**: Manufacturer part number
 
 
 {{TitleProperty|Transition}}
 
--    **Aft Diameter**   * The diameter of the base of the transition
+-    **Aft Diameter**: The diameter of the base of the transition
 
--    **Aft Shoulder**   * True when the transition includes a shoulder at the base
+-    **Aft Shoulder**: True when the transition includes a shoulder at the base
 
--    **Aft Shoulder Diameter**   * The diameter of the shoulder. This must be less than the **Aft Diameter** of the transition
+-    **Aft Shoulder Diameter**: The diameter of the shoulder. This must be less than the **Aft Diameter** of the transition
 
--    **Aft Shoulder Length**   * The length of the shoulder
+-    **Aft Shoulder Length**: The length of the shoulder
 
--    **Aft Shoulder Thickness**   * When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the shoulder
+-    **Aft Shoulder Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the shoulder
 
--    **Clipped**   * Defines the shape of the transition in combination with the **Transition Type**, see [Options](#Options.md)
+-    **Clipped**: Defines the shape of the transition in combination with the **Transition Type**, see [Options](#Options.md)
 
--    **Coefficient**   * Combined with the **Transition Type**, this defines the shape of the transition, see [Options](#Options.md)
+-    **Coefficient**: Combined with the **Transition Type**, this defines the shape of the transition, see [Options](#Options.md)
 
--    **Core Diameter**   * When the **Transition Style** is *Solid Core*, this will determine the size of the hole through the transition, see [Options](#Options.md)
+-    **Core Diameter**: When the **Transition Style** is *Solid Core*, this will determine the size of the hole through the transition, see [Options](#Options.md)
 
--    **Fore Diameter**   * The diameter of the front of the transition
+-    **Fore Diameter**: The diameter of the front of the transition
 
--    **Fore Shoulder**   * True when the transition includes a shoulder at the forward end
+-    **Fore Shoulder**: True when the transition includes a shoulder at the forward end
 
--    **Fore Shoulder Diameter**   * The diameter of the shoulder. This must be less than the **Fore Radius** of the transition
+-    **Fore Shoulder Diameter**: The diameter of the shoulder. This must be less than the **Fore Radius** of the transition
 
--    **Fore Shoulder Length**   * The length of the shoulder
+-    **Fore Shoulder Length**: The length of the shoulder
 
--    **Fore Shoulder Thickness**   * When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the shoulder
+-    **Fore Shoulder Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the shoulder
 
--    **Length**   * The length of the transition without the shoulders
+-    **Length**: The length of the transition without the shoulders
 
--    **Resolution**   * Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
+-    **Resolution**: Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
 
--    **Thickness**   * When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the transition
+-    **Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the transition
 
--    **Transition Style**   * Defines the style of the transition, see [Options](#Options.md)
+-    **Transition Style**: Defines the style of the transition, see [Options](#Options.md)
 
--    **Transition Type**   * Defines the shape of the transition using the coefficient when required, see [Options](#Options.md)
+-    **Transition Type**: Defines the shape of the transition using the coefficient when required, see [Options](#Options.md)
 
 ## Scripting
 
-See also   * [   *Category   *API](   *Category_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [:Category:API](:Category_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 TBD
 
 ## Tutorials and Learning 
 
-[Rocket Workbench Transitions](https   *//youtu.be/O5Ze4MYAHNA) Tutorial on YouTube
-
-
-
-
- 
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+[Rocket Workbench Transitions](https://youtu.be/O5Ze4MYAHNA) Tutorial on YouTube
 
 
 

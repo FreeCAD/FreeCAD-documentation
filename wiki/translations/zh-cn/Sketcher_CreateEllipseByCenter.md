@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher CreateEllipseByCenter
-   MenuLocation   *Sketch → Sketcher geometries → Create ellipse by center
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***G** **E** **E**
-   Version   *0.15
-   SeeAlso   *[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
+- GuiCommand:
+   Name:Sketcher CreateEllipseByCenter
+   MenuLocation:Sketch → Sketcher geometries → Create ellipse by center
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **E** **E**
+   Version:0.15
+   SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---
 
 # Sketcher CreateEllipseByCenter/zh-cn
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="绘制椭圆所选中的一系列点以带数字的黄色箭头表示。C为中点，a - 长轴，b - 短轴，F1、F2为焦点。" src=images/Sketcher_EllipseExample1.png‎  style="width   *500px;">
+<img alt="绘制椭圆所选中的一系列点以带数字的黄色箭头表示。C为中点，a - 长轴，b - 短轴，F1、F2为焦点。" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
 </div>

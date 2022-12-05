@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std Open
-   Name/fr   *Std Ouvrir
-   MenuLocation   *Fichier → Ouvrir...
-   Workbenches   *Tous
-   Shortcut   ***Ctrl**+**O**
-   SeeAlso   *[Std Importer](Std_Import/fr.md), [Std Nouveau](Std_New/fr.md)
+- GuiCommand:/fr
+   Name:Std Open
+   Name/fr:Std Ouvrir
+   MenuLocation:Fichier → Ouvrir...
+   Workbenches:Tous
+   Shortcut:**Ctrl**+**O**
+   SeeAlso:[Std Importer](Std_Import/fr.md), [Std Nouveau](Std_New/fr.md)
 ---
 
 # Std Open/fr
@@ -16,10 +16,10 @@ La commande **Std Ouvrir** ouvre un fichier. Si le fichier n\'est pas un fichier
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_Open.svg" width=16px> [Std Ouvrir](Std_Open/fr.md)**.
     -   Sélectionnez l\'option **Fichier → <img src="images/Std_Open.svg" width=16px> Ouvrir...** dans le menu.
-    -   Utilisez le raccourci clavier   * **Ctrl**+**O**.
+    -   Utilisez le raccourci clavier: **Ctrl**+**O**.
 2.  Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.
 3.  Sélectionner un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
@@ -30,12 +30,12 @@ La commande **Std Ouvrir** ouvre un fichier. Si le fichier n\'est pas un fichier
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké   * **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

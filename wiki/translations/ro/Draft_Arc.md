@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Arc
-   Name/ro   *Arc de Cerc
-   MenuLocation   *Draft → Arc
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut   *A R
-   SeeAlso   *[Draft Circle](Draft_Circle/ro.md)
+- GuiCommand:/ro
+   Name:Draft Arc
+   Name/ro:Arc de Cerc
+   MenuLocation:Draft → Arc
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:A R
+   SeeAlso:[Draft Circle](Draft_Circle/ro.md)
 ---
 
 # Draft Arc/ro
@@ -23,23 +23,23 @@ Instrumentul Arc crează un arc în planul curent [work plan](Draft_SelectPlane/
 
 </div>
 
-The <img alt="" src=images/Draft_Arc.svg  style="width   *24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
+The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -65,7 +65,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Opțiuni
 
--   Utilizarea primară a instrumentului arc este prin alegerea a patru puncte   * centrul, un punct pe circumferință, definind raza, un al treilea punct care definește începutul arcului, iar al patrulea definește sfârșitul.
+-   Utilizarea primară a instrumentului arc este prin alegerea a patru puncte: centrul, un punct pe circumferință, definind raza, un al treilea punct care definește începutul arcului, iar al patrulea definește sfârșitul.
 -   Prin apăsarea tastei **ALT**, puteți selecta o tangentă în locul punctului de selectare, pentru a defini cercul de bază al arcului. Prin urmare, puteți construi mai multe tipuri de cercuri selectând una, două sau trei tangente.
 -   Direcția arcului depinde de mișcarea pe care o faceți cu mouse-ul. Dacă începeți să vă mișcați în sensul acelor de ceasornic după introducerea celui de-al treilea punct, arcul va merge în sensul acelor de ceasornic. Pentru a merge în sens invers acelor de ceasornic, pur și simplu mișcați mouse-ul înapoi peste cel de-al treilea punct, până când arcul începe să tragă în cealaltă direcție.
 -   Pentru a introduce manual coordonatele, pur și simplu introduceți numerele, apoi apăsați **ENTER** între fiecare componentă X, Y și Z.
@@ -84,9 +84,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
@@ -96,11 +96,11 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 ## Proprietăți
 
--    {{PropertyData/ro|Radius}}   * Raza arcului de cerc
+-    {{PropertyData/ro|Radius}}: Raza arcului de cerc
 
--    {{PropertyData/ro|First Angle}}   * Unghiul primului punct al arcului de cerc
+-    {{PropertyData/ro|First Angle}}: Unghiul primului punct al arcului de cerc
 
--    {{PropertyData/ro|Last Angle}}   * Unghiul ultimului punct al arcului de cerc
+-    {{PropertyData/ro|Last Angle}}: Unghiul ultimului punct al arcului de cerc
 
 
 </div>
@@ -112,14 +112,14 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 ## Scripturi
 
-Instrumentul Circle poate fi de asemenea utilizat pentru a crea arce în [macros](macros/ro.md) și din consola Python utilizând următoarea funcție, oferindu-i argumente suplimentare   *
+Instrumentul Circle poate fi de asemenea utilizat pentru a crea arce în [macros](macros/ro.md) și din consola Python utilizând următoarea funcție, oferindu-i argumente suplimentare:
 
 
 </div>
 
 To create a Draft Arc use the `make_circle` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeCircle` method.
 
-Example   *
+Example:
 
 
 ```python

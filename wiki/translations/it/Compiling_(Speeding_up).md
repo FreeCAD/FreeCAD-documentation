@@ -22,7 +22,7 @@ Installare `ccache` per la costruzione cache
 
 Quando si utilizza `cmake` per configurare la build, è possibile disabilitare la compilazione di alcuni ambienti che al momento potrebbero non essere necessari. Questo è utile se si vuole solo testare alcuni ambienti di lavoro.
 
-Ad esempio, per evitare di costruire i banchi di lavoro FEM e Mesh   *
+Ad esempio, per evitare di costruire i banchi di lavoro FEM e Mesh:
 
 
 ```python
@@ -35,7 +35,7 @@ Utilizzare `cmake-gui`, `cmake-curses-gui` o `cmake-qt-gui` per visualizzare tut
 
 Dopo la configurazione fatta con `cmake`, il programma `make` avvia il compilatore C++ effettivo per lavorare sui file del codice sorgente. Si può velocizzare la compilazione lavorando su vari file contemporaneamente. Ciò si ottiene con l\'opzione `-j` di `make`, che indica il numero di \"lavori\" o comandi di compilazione eseguiti contemporaneamente. Questa opzione è un numero intero.
 
-Esegui quattro comandi di compilazione in parallelo   *
+Esegui quattro comandi di compilazione in parallelo:
 
 
 ```python
@@ -68,11 +68,6 @@ Il programma `distcc` può essere utilizzato per eseguire compilazioni distribui
 
 
 </div>
-
-
-
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

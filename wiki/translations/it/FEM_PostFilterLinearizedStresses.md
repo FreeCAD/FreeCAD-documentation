@@ -1,6 +1,6 @@
 # FEM PostFilterLinearizedStresses/it
 ---
-- GuiCommand   */it   Name   *FEM PostCreateLinearizedStressesFilter   Name/it   *FEM PostCreateLinearizedStressesFilter   Icon   *Fem-linearizedstresses.svg   MenuLocation   * Risultati → Linearized stresses filter    |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it   Name:FEM PostCreateLinearizedStressesFilter   Name/it:FEM PostCreateLinearizedStressesFilter   Icon:Fem-linearizedstresses.svg   MenuLocation: Risultati → Linearized stresses filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -15,9 +15,9 @@ Da fare
 
 </div>
 
-To learn more about stress linearization plots, you can read [this description](https   *//www.graspengineering.com/what-is-stress-linearization/).
+To learn more about stress linearization plots, you can read [this description](https://www.graspengineering.com/what-is-stress-linearization/).
 
-<img alt="" src=images/FEM_Stress-Linearization-Plot-Example.png  style="width   *500px;">
+<img alt="" src=images/FEM_Stress-Linearization-Plot-Example.png  style="width:500px;">
 
 *A stress linearization plot.*
 

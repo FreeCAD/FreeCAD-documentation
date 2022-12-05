@@ -1,11 +1,11 @@
-# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width   *64px;"> Std Macro Menu/ru
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/ru
 
 
 {{TOCright}}
 
 ## Введение
 
-Меню \"Макросы\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md)   *
+Меню \"Макросы\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md):
 
 
 {{StdMenu
@@ -29,30 +29,30 @@
 
 ## Инструменты
 
-В этом меню доступны следующие инструменты   *
+В этом меню доступны следующие инструменты:
 
--   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Запись макроса\...](Std_DlgMacroRecord/ru.md)   * Открывает диалог записи нового макроса.
+-   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Запись макроса\...](Std_DlgMacroRecord/ru.md): Открывает диалог записи нового макроса.
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Остановить запись макроса](Std_MacroStopRecord/ru.md)   * Завершает текущую запись макроса.
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Остановить запись макроса](Std_MacroStopRecord/ru.md): Завершает текущую запись макроса.
 
--   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Макрос\...](Std_DlgMacroExecute/ru.md)   * Открывает диалог для управления и запуска макросов.
+-   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Макрос\...](Std_DlgMacroExecute/ru.md): Открывает диалог для управления и запуска макросов.
 
--   Недавние макросы   * отображает список недавно выполненных макросов, которые можно вызвать с помощью комбинации клавиш, например   * **Ctrl**+**Shift**+**1**.
+-   Недавние макросы: отображает список недавно выполненных макросов, которые можно вызвать с помощью комбинации клавиш, например: **Ctrl**+**Shift**+**1**.
     Комбинации клавиш можно настроить в [Редакторе настроек](Preferences_Editor/ru.md). {{Version/ru|0.19}}
 
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md)   * Запускает макрос, находящийся в Python редакторе.
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md): Запускает макрос, находящийся в Python редакторе.
 
--   [Прикрепить к удалённому отладдчику\...](Std_MacroAttachDebugger/ru.md)   * Прикрепляет FreeCAD к удалённому отладчику.
+-   [Прикрепить к удалённому отладдчику\...](Std_MacroAttachDebugger/ru.md): Прикрепляет FreeCAD к удалённому отладчику.
 
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width   *32px;"> [Отладка макросов](Std_MacroStartDebug/ru.md)   * Начинает сессию отладки макроса, находящегося в Python редакторе.
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Отладка макросов](Std_MacroStartDebug/ru.md): Начинает сессию отладки макроса, находящегося в Python редакторе.
 
--   <img alt="" src=images/Std_MacroStopDebug.svg  style="width   *32px;"> [Остановить отладку](Std_MacroStopDebug/ru.md)   * Завершает сессию отладки.
+-   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Остановить отладку](Std_MacroStopDebug/ru.md): Завершает сессию отладки.
 
--   [Шаг с обходом](Std_MacroStepOver/ru.md)   * Шаг с обходом кода.
+-   [Шаг с обходом](Std_MacroStepOver/ru.md): Шаг с обходом кода.
 
--   [Шаг с заходом](Std_MacroStepInto/ru.md)   * Шаг в коде.
+-   [Шаг с заходом](Std_MacroStepInto/ru.md): Шаг в коде.
 
--   [Установить/снять точку останова](Std_ToggleBreakpoint/ru.md)   * Установливает/снимает точку останова.
+-   [Установить/снять точку останова](Std_ToggleBreakpoint/ru.md): Установливает/снимает точку останова.
 
 
 
@@ -60,9 +60,7 @@
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

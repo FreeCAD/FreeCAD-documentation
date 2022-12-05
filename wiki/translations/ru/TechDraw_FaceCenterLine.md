@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Добавить осевую линию к граням
-   Name   *TechDraw_FaceCenterLine
-   MenuLocation   *TechDraw → Добавить Линии → Add Centerline to Face(s)
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
+- GuiCommand:/ru
+   Name/ru:Добавить осевую линию к граням
+   Name:TechDraw_FaceCenterLine
+   MenuLocation:TechDraw → Добавить Линии → Add Centerline to Face(s)
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
 ---
 
 # TechDraw FaceCenterLine/ru
@@ -14,7 +14,7 @@
 
 The FaceCenterLine tool adds a centerline to selected faces.
 
-<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width   *400px;"> 
+<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;"> 
 *Centerline added to face*
 
 ## Применение
@@ -39,22 +39,22 @@ Any of the centerline command buttons (**<img src="images/TechDraw_FaceCenterLin
 
 Centerlines have no properties of their own, as they are no document objects. They have attributes that can be changed in the centerline edit dialog.
 
-1.  Mode (radio buttons)   *
-    -   **Vertical**   * Forces a centerline vertical
-    -   **Horizontal**   * Forces a centerline horizontal
-    -   ***Aligned**   * This option is not possible for centerline to faces*
-2.  **Shift Horiz**   * Moves the centerline left or right of its normal position
-3.  **Shift Vert**   * Moves the centerline up or down from its normal position
-4.  **Rotate**   * Rotates the centerline around its center (degrees. + counterclockwise, - clockwise)
-5.  **Extend**   * Makes the centerline longer by this amount
-6.  **Color**   * Color of centerline
-7.  **Weight**   * Thickness of the centerline
-8.  **Style**   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> DashDotDot
+1.  Mode (radio buttons):
+    -   **Vertical**: Forces a centerline vertical
+    -   **Horizontal**: Forces a centerline horizontal
+    -   ***Aligned**: This option is not possible for centerline to faces*
+2.  **Shift Horiz**: Moves the centerline left or right of its normal position
+3.  **Shift Vert**: Moves the centerline up or down from its normal position
+4.  **Rotate**: Rotates the centerline around its center (degrees. + counterclockwise, - clockwise)
+5.  **Extend**: Makes the centerline longer by this amount
+6.  **Color**: Color of centerline
+7.  **Weight**: Thickness of the centerline
+8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
 
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
@@ -62,16 +62,16 @@ Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.m
 
 ## Примечания
 
--   FaceCenterLine will eventually replace two View properties   *
+-   FaceCenterLine will eventually replace two View properties:
     -   
         **HorizCenterLine**
         
-           * Show a horizontal centerline through view.
+        : Show a horizontal centerline through view.
 
     -   
         **VertCenterLine**
         
-           * Show a vertical centerline through view.
+        : Show a vertical centerline through view.
 
 
 

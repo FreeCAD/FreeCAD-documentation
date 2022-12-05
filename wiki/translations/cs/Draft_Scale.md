@@ -1,6 +1,6 @@
 # Draft Scale/cs
 ---
-- GuiCommand   */cs   Name   *Draft Scale   Name/cs   *Kreslení Roztáhnout   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení → Roztáhnout   Shortcut   *S C   SeeAlso   *[Kreslení Klon](Draft_Clone/cs.md)---
+- GuiCommand:/cs   Name:Draft Scale   Name/cs:Kreslení Roztáhnout   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Roztáhnout   Shortcut:S C   SeeAlso:[Kreslení Klon](Draft_Clone/cs.md)---
 
 
 </div>
@@ -17,12 +17,12 @@ Tento nástroj roztáhne rozměry objektů vzhledem k základnímu bodu. Není-l
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
 
-<img alt="" src=images/Draft_Scale_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Scaling an object around a base point*
 
 ## Použití
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -70,10 +70,10 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
@@ -88,7 +88,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Roztáhnout může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Roztáhnout může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -109,7 +109,7 @@ scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python

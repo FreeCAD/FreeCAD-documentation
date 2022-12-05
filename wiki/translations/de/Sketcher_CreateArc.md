@@ -1,22 +1,22 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher CreateArc
-   Name/de   *Sketcher BogenErstellen
-   MenuLocation   *Sketch → Skizzengeometrien → Bogen aus Mittelpunkt erstellen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***G** **A**
-   SeeAlso   *[Sketcher AuswahlKreisErstellen](Sketcher_CompCreateCircle/de.md)
+- GuiCommand:/de
+   Name:Sketcher CreateArc
+   Name/de:Sketcher BogenErstellen
+   MenuLocation:Sketch → Skizzengeometrien → Bogen aus Mittelpunkt erstellen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **A**
+   SeeAlso:[Sketcher AuswahlKreisErstellen](Sketcher_CompCreateCircle/de.md)
 ---
 
 # Sketcher CreateArc/de
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Kreisbogen durch wählen von drei Punkten   * der Mittelpunkt, den Startwinkel entlang des Radius und den Endwinkel.
+Dieses Werkzeug zeichnet einen Kreisbogen durch wählen von drei Punkten: der Mittelpunkt, den Startwinkel entlang des Radius und den Endwinkel.
 
 Beim starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Bogensymbol. Die Koordinaten werden neben dem Zeiger in blau in Echtzeit angezeigt.
 
-<img alt="Der Mittelpunkt wurde angewählt, ziehen um den Radius festzulegen" src=images/Sketcher_ArcExample1.png ) ![Der Mittelpunkt und der Startwinkel wurden gewählt, ziehen um den Endwinkel festzulegen](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
+<img alt="Der Mittelpunkt wurde angewählt, ziehen um den Radius festzulegen" src=images/Sketcher_ArcExample1.png ) ![Der Mittelpunkt und der Startwinkel wurden gewählt, ziehen um den Endwinkel festzulegen](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
 
 ## Anwendung
 

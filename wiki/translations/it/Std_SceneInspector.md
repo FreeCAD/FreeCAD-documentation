@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_SceneInspector
-   Name/it   *Ispettore di scena
-   Empty   *1
-   MenuLocation   *Strumenti → Ispettore di scena...
-   Workbenches   *Tutti
+- GuiCommand:/it
+   Name:Std_SceneInspector
+   Name/it:Ispettore di scena
+   Empty:1
+   MenuLocation:Strumenti → Ispettore di scena...
+   Workbenches:Tutti
 ---
 
 # Std SceneInspector/it

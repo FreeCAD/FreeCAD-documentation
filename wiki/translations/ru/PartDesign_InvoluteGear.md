@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Шестерня с эвольвентным профилем
-   Name   *PartDesign_InvoluteGear
-   MenuLocation   *Part Design → Шестерня с эвольвентным профилем...
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso   *[Верстак FCGear](FCGear_Workbench/ru.md)
+- GuiCommand:/ru
+   Name/ru:Шестерня с эвольвентным профилем
+   Name:PartDesign_InvoluteGear
+   MenuLocation:Part Design → Шестерня с эвольвентным профилем...
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Верстак FCGear](FCGear_Workbench/ru.md)
 ---
 
 # PartDesign InvoluteGear/ru
@@ -13,7 +13,7 @@
 
 Инструмент позволяет создать двумерный профиль эвольвентного зубчатого колеса (шестерни). Этот профиль полностью параметрический настраиваемый, и может быть преобразован в твердое тело с помощью [выдавливания](PartDesign_Pad/ru.md) или инструмента [Аддитивная спираль](PartDesign_AdditiveHelix.md).
 
-For more detailed information see Wikipedia\'s entries for   * [Gear](https   *//en.wikipedia.org/wiki/Gear) and [Involute Gear](https   *//en.wikipedia.org/wiki/Involute_gear)
+For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wikipedia.org/wiki/Gear) and [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
 
 ![](images/PartDesign_Involute_Gear_01.png )
 
@@ -22,7 +22,7 @@ For more detailed information see Wikipedia\'s entries for   * [Gear](https   */
 ### Создание профиля 
 
 1.  По желанию активируйте подходящее тело (необязательно) .
-2.  Выберите пункт меню **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width   *16px"> Шестерня с эвольвентным профилем...**.
+2.  Выберите пункт меню **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Шестерня с эвольвентным профилем...**.
 3.  Установите параметры эвольвентного зацепления.
 4.  Нажмите **OK**.
 5.  Если при создании профиля активного Тело не было выбрано, тогда переместите сформированный профиль в какое-нибудь Тело чтобы в дальнейшем выдавить или вырезать полученный профиль.
@@ -45,18 +45,18 @@ For more detailed information see Wikipedia\'s entries for   * [Gear](https   */
 4.  Choose a **Height-Turns** mode.
 5.  Set the **Height** to the desired face width of the gear.
 6.  To set the desired helical angle an [Expression](Expressions.md) for the **Turns** is required.
-    1.  Click the blue <img alt="" src=images/Bound-expression.svg  style="width   *16px;"> icon at the right of the input field.
-    2.  Enter the following formula   * `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, where `25°` is an example for the desired helical angle (also known as beta-value) and `InvoluteGear` is the **Name** of the profile.
+    1.  Click the blue <img alt="" src=images/Bound-expression.svg  style="width:16px;"> icon at the right of the input field.
+    2.  Enter the following formula: `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, where `25°` is an example for the desired helical angle (also known as beta-value) and `InvoluteGear` is the **Name** of the profile.
     3.  Click **OK** to close the formula editor.
 7.  Click **OK** to close the task panel.
 
-Hint   * To make the helical angle an accessible parameter, use a *dynamic property*   *
+Hint: To make the helical angle an accessible parameter, use a *dynamic property*:
 
 1.  Select the profile.
 2.  In the [Property editor](Property_editor.md) activate the **Show all** option in the context menu.
-3.  Again in the context menu, select **Add Property**. Note   * this entry is only available when **Show all** is active.
-4.  In the **Add Property** dialog   *
-    1.  Choose `App   *   *PropertyAngle` as Type.
+3.  Again in the context menu, select **Add Property**. Note: this entry is only available when **Show all** is active.
+4.  In the **Add Property** dialog:
+    1.  Choose `App::PropertyAngle` as Type.
     2.  Set `Gear` as Group.
     3.  Set `HelicalAngle` as Name (without a space).
     4.  Click **OK**
@@ -66,24 +66,24 @@ Hint   * To make the helical angle an accessible parameter, use a *dynamic prope
 
 ## Свойства
 
--    **External Gear**   * Внешнее зацепление - Да или Нет
+-    **External Gear**: Внешнее зацепление - Да или Нет
 
--    **High Precision**   * Высокая точность - Да или Нет
+-    **High Precision**: Высокая точность - Да или Нет
 
--    **Modules**   * Модуль - Диаметр делительной окружности, деленный на количество зубцов.
+-    **Modules**: Модуль - Диаметр делительной окружности, деленный на количество зубцов.
 
--    **Number Of Teeth**   * Задает количество зубьев.
+-    **Number Of Teeth**: Задает количество зубьев.
 
--    **Pressure Angle**   * Acute angle between the line of action and a normal to the line connecting the gear centers. Default is 20 degrees. ([More info](https   *//en.wikipedia.org/wiki/Involute_gear))
+-    **Pressure Angle**: Acute angle between the line of action and a normal to the line connecting the gear centers. Default is 20 degrees. ([More info](https://en.wikipedia.org/wiki/Involute_gear))
 
 ## Ограничения
 
 -   It is currently not possible to adjust the tooth thickness. Tooth and tooth space are distributed equally on the pitch circle. Thus the only way to control backlash is to adjust the center distance in a gear paring.
--   There is currently no [undercut](https   *//www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) in the generated gear profile. That means gears with a low number of teeth can interfere with the teeth of the mating gear. The lower limit depends on the **Pressure Angle** and is around 17 teeth for 20° and 32 for 14.5°. Most practical applications tolerate a missing undercut for gears a little smaller than this theoretical limit though.
+-   There is currently no [undercut](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) in the generated gear profile. That means gears with a low number of teeth can interfere with the teeth of the mating gear. The lower limit depends on the **Pressure Angle** and is around 17 teeth for 20° and 32 for 14.5°. Most practical applications tolerate a missing undercut for gears a little smaller than this theoretical limit though.
 
 ## Материалы для изучения 
 
-[Как создавать шестерни в FreeCAD](https   *//www.youtube.com/watch?v=8VNhTrnFMfE)
+[Как создавать шестерни в FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## Сопутствующая информация 
 

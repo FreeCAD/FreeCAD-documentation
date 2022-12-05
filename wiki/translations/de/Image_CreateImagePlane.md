@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Image CreateImagePlane
-   Name/de   *Image BildebeneErstellen
-   MenuLocation   *
-   Workbenches   *[Image (Bild)](Image_Workbench/de.md)
-   SeeAlso   *[Image Öffnen](Image_Open/de.md), [Image BildebeneSkalieren](Image_Scaling/de.md)
+- GuiCommand:/de
+   Name:Image CreateImagePlane
+   Name/de:Image BildebeneErstellen
+   MenuLocation:
+   Workbenches:[Image (Bild)](Image_Workbench/de.md)
+   SeeAlso:[Image Öffnen](Image_Open/de.md), [Image BildebeneSkalieren](Image_Scaling/de.md)
 ---
 
 # Image CreateImagePlane/de
@@ -30,20 +30,20 @@ Wenn das Bild nicht schon zu Beginn ein Versatz erhält, kann seine Position imm
 
 {{Properties Title/de|Basis}}
 
--    {{PropertyData/de|Position}}   * gibt die Koordinaten des Basispunkts der Bildebene an.
+-    {{PropertyData/de|Position}}: gibt die Koordinaten des Basispunkts der Bildebene an.
 
--    {{PropertyData/de|Winkel}}   * gibt den Drehwinkel der Bildebene an.
+-    {{PropertyData/de|Winkel}}: gibt den Drehwinkel der Bildebene an.
 
--    {{PropertyData/de|Achse}}   * gibt die für den Drehwinkel verwendete Achse an.
+-    {{PropertyData/de|Achse}}: gibt die für den Drehwinkel verwendete Achse an.
 
 
 {{Properties Title/de|Image Plane}}
 
--    {{PropertyData/de|Image File}}   * gibt das Bild an, das für diese Ebene verwendet werden soll.
+-    {{PropertyData/de|Image File}}: gibt das Bild an, das für diese Ebene verwendet werden soll.
 
--    {{PropertyData/de|XSize}}   * gibt die Breite der Bildebene an.
+-    {{PropertyData/de|XSize}}: gibt die Breite der Bildebene an.
 
--    {{PropertyData/de|YSize}}   * gibt die Höhe der Bildebene an.
+-    {{PropertyData/de|YSize}}: gibt die Höhe der Bildebene an.
 
 
 

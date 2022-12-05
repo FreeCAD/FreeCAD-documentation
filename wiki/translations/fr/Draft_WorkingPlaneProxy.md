@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft WorkingPlaneProxy
-   Name/fr   *Draft Proxy de plan de travail
-   MenuLocation   *Utilitaires → Créer un proxy de plan de travail
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Draft Plan de travail](Draft_SelectPlane/fr.md)
+- GuiCommand:/fr
+   Name:Draft WorkingPlaneProxy
+   Name/fr:Draft Proxy de plan de travail
+   MenuLocation:Utilitaires → Créer un proxy de plan de travail
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
 # Draft WorkingPlaneProxy/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width   *24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [Vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [optionnellement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
+La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [Vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [optionnellement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
 
-<img alt="" src=images/Draft_WPProxy_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
 *Trois proxy de plan de travail montrant différentes orientations et décalages*
 
 ## Utilisation
@@ -21,7 +21,7 @@ La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width   *
 1.  Optionnellement, changer de [plan de travail](Draft_SelectPlane/fr.md).
 2.  Optionnellement, changer de [Vue 3D](3D_view/fr.md).
 3.  Optionnellement, changer l\'état de visibilité des objets dans le document.
-4.  Il existe plusieurs façons de lancer la commande    *
+4.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Créer un proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md)** bouton.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail** dans le menu.
 5.  Un proxy de plan de travail est créé.
@@ -29,60 +29,60 @@ La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width   *
 
 ## Menu contextuel 
 
-Pour un Draft Proxy de plan de travail, ces options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md)    *
+Pour un Draft Proxy de plan de travail, ces options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) :
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**   * met à jour la propriété **View Data** du proxy de plan de travail avec les paramètres actuels de la caméra [vue 3D](3D_view/fr.md).
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: met à jour la propriété **View Data** du proxy de plan de travail avec les paramètres actuels de la caméra [vue 3D](3D_view/fr.md).
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**   * met à jour la propriété **Visibility Map** du proxy de plan de travail avec l\'état de visibilité actuel des objets dans le document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: met à jour la propriété **Visibility Map** du proxy de plan de travail avec l\'état de visibilité actuel des objets dans le document.
 
 ## Remarques
 
--   Les proxies de plan de travail peuvent être [déplacés](Draft_Move/fr.md) et [pivoté](Draft_Rotate/fr.md) comme tout autre objet. Utilisez <img alt="" src=images/Draft_Snap_Center.svg  style="width   *16px;"> [Draft Aimantation Centre](Draft_Snap_Center/fr.md) pour s\'aimanter à leur point de **Placement**.
+-   Les proxies de plan de travail peuvent être [déplacés](Draft_Move/fr.md) et [pivoté](Draft_Rotate/fr.md) comme tout autre objet. Utilisez <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Aimantation Centre](Draft_Snap_Center/fr.md) pour s\'aimanter à leur point de **Placement**.
 
 ## Propriétés
 
-Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Proxy de plan de travail est dérivé d\'un [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Draft Proxy de plan de travail est dérivé d\'un [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{TitleProperty|Base}}
 
--    **Placement|Placement**   * spécifie la position du proxy de plan de travail dans la [Vue 3D](3D_view/fr.md). Voir [Placement](Placement/fr.md).
+-    **Placement|Placement**: spécifie la position du proxy de plan de travail dans la [Vue 3D](3D_view/fr.md). Voir [Placement](Placement/fr.md).
 
--    **Shape|Shape|Hidden**   * spécifie la forme du proxy de plan de travail.
+-    **Shape|Shape|Hidden**: spécifie la forme du proxy de plan de travail.
 
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    **Line Color|Color**   * spécifie la couleur de tous les éléments du proxy de plan de travail.
+-    **Line Color|Color**: spécifie la couleur de tous les éléments du proxy de plan de travail.
 
--    **Line Width|Float**   * spécifie la largeur de ligne des axes et des symboles de flèches.
+-    **Line Width|Float**: spécifie la largeur de ligne des axes et des symboles de flèches.
 
--    **Restore State|Bool**   * spécifie si la **Visibility Map** est restaurée lorsque le [plan de travail](Draft_SelectPlane/fr.md) est aligné avec le proxy de plan de travail.
+-    **Restore State|Bool**: spécifie si la **Visibility Map** est restaurée lorsque le [plan de travail](Draft_SelectPlane/fr.md) est aligné avec le proxy de plan de travail.
 
--    **Restore View|Bool**   * spécifie si la **View Data** est restaurée lorsque le [plan de travail](Draft_SelectPlane/fr.md) est aligné sur le proxy de plan de travail.
+-    **Restore View|Bool**: spécifie si la **View Data** est restaurée lorsque le [plan de travail](Draft_SelectPlane/fr.md) est aligné sur le proxy de plan de travail.
 
--    **Transparency|Percent**   * spécifie la transparence de la face du proxy de plan de travail.
+-    **Transparency|Percent**: spécifie la transparence de la face du proxy de plan de travail.
 
--    **View Data|FloatList**   * spécifie la position et les paramètres de la caméra.
+-    **View Data|FloatList**: spécifie la position et les paramètres de la caméra.
 
--    **Visibility Map|Map|Hidden**   * spécifie l\'état de visibilité des objets.
+-    **Visibility Map|Map|Hidden**: spécifie l\'état de visibilité des objets.
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**   * spécifie la taille des symboles de flèche affichés à l\'extrémité des trois axes.
+-    **Arrow Size|Length**: spécifie la taille des symboles de flèche affichés à l\'extrémité des trois axes.
 
--    **Display Size|Length**   * spécifie la longueur et la largeur du proxy de plan de travail.
+-    **Display Size|Length**: spécifie la longueur et la largeur du proxy de plan de travail.
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer un Draft Proxy de plan de travail, utilisez la méthode `make_workingplaneproxy` du module Draft.
 

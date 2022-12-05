@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Path Fixture
-   Name/fr   *Path Point de fixation
-   MenuLocation   *Path → Commandes additionnelles → Point de fixation
-   Workbenches   *[Path](Path_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Path Fixture
+   Name/fr:Path Point de fixation
+   MenuLocation:Path → Commandes additionnelles → Point de fixation
+   Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
 # Path Fixture/fr
@@ -12,7 +12,7 @@
 
 Cet outil définit le dispositif de décalage de travail du contrôleur CNC de la machine.
 
-Les coordonnées de décalage du travail cible incluent généralement   * les codes G53 à G59. Le G-Code est simplement l\'indication du code (G53, G54, etc \...). Les systèmes de décalage du travail représentent   *
+Les coordonnées de décalage du travail cible incluent généralement: les codes G53 à G59. Le G-Code est simplement l\'indication du code (G53, G54, etc \...). Les systèmes de décalage du travail représentent:
 
 -   G53 → Système de coordonnées absolues de la machine.
 -   G54 → Système de coordonnées de l\'Origine Pièce.
@@ -27,9 +27,9 @@ Le code G59 est utilisé pour étendre les capacités disponibles (nombre de poi
 
 ## Propriétés
 
--    **Fixture**   * Définit le décalage courant.
+-    **Fixture**: Définit le décalage courant.
 
--    **Active**   * Définit si cette commande est active ou non lors de l\'ajout dans un composé.
+-    **Active**: Définit si cette commande est active ou non lors de l\'ajout dans un composé.
 
 ## Remarques
 

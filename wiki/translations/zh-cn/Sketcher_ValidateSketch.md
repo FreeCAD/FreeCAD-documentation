@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher ValidateSketch
-   MenuLocation   *Sketch → Validate sketch…
-   Workbenches   *[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso   *[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
+- GuiCommand:
+   Name:Sketcher ValidateSketch
+   MenuLocation:Sketch → Validate sketch…
+   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
 ---
 
 # Sketcher ValidateSketch/zh-cn
@@ -76,7 +76,7 @@ Degenerated geometry can result from solver actions in a sketch.
 
 For instance, if a line is forced to shorten to become almost a point.
 
-Other examples   * a zero length line or zero radius circle/arc.
+Other examples: a zero length line or zero radius circle/arc.
 
 ### Reversed external geometry 
 

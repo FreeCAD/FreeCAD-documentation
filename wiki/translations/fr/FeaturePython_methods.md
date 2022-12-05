@@ -50,24 +50,19 @@ Les méthodes ci-dessous sont destinées à une utilisation **avancée** des cla
 
 ## Déterminer les méthodes Python disponibles 
 
-Dans le [modèle de classe FeaturePython](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L161-L351), il existe plusieurs appels ().
+Dans le [modèle de classe FeaturePython](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L161-L351), il existe plusieurs appels ().
 
 Chacun d\'entre eux correspond à une méthode Python liée disponible.
 
-Par exemple, imp->execute() [en ligne 193](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L193) signifie que la méthode execute est disponible.
+Par exemple, imp->execute() [en ligne 193](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L193) signifie que la méthode execute est disponible.
 
 Remarquez que getPyObject() et init() sont des cas particuliers et ne suivent pas l\'heuristique ci-dessus.
 
 ### Voir aussi 
 
--   [FreeCAD GitHub   * FeaturePython.h - public API](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L44-L86)
--   [FreeCAD GitHub   * FeaturePythonT template class](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L167)
--   [FreeCAD Forum Discussion   * Scripted Objects Complete Method Reference](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=49194)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+-   [FreeCAD GitHub: FeaturePython.h - public API](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L44-L86)
+-   [FreeCAD GitHub: FeaturePythonT template class](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L167)
+-   [FreeCAD Forum Discussion: Scripted Objects Complete Method Reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=49194)
 
 
 

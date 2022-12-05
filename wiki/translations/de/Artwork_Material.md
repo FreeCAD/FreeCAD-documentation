@@ -9,8 +9,6 @@ Für alle Symbole im Verzeichnisbaum siehe [Grafik](Artwork/de.md).
 
 ![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
 
-[Category   *Artwork](Category_Artwork.md)
-
 
 
 ---

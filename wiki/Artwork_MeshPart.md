@@ -11,11 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 #### src/Mod/MeshPart/Gui/Resources/icons/actions/
 
- ![](images/MeshFace.svg ) 
-
- 
-
-[Category   *Artwork](Category_Artwork.md) [Category   *Mesh](Category_Mesh.md)
+ ![](images/MeshFace.svg )
 
 
 

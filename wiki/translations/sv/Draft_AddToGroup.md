@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */sv
-   Name   *Draft AddToGroup
-   Name/sv   *Draft AddToGroup
-   Workbenches   *[Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)
-   MenuLocation   *Draft → Utilities → Add to group
-   Shortcut   *
-   SeeAlso   *[Draft SelectGroup](Draft_SelectGroup/sv.md), [Std Group](Std_Group/sv.md)
+- GuiCommand:/sv
+   Name:Draft AddToGroup
+   Name/sv:Draft AddToGroup
+   Workbenches:[Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)
+   MenuLocation:Draft → Utilities → Add to group
+   Shortcut:
+   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/sv.md), [Std Group](Std_Group/sv.md)
 ---
 
 # Draft AddToGroup/sv
@@ -15,21 +15,21 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_AddToGroup.svg  style="width   *24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
+The <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
 
 In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workbench.md) objects.
 
 ## Usage
 
 1.  Select one or more objects.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft AddToGroup](Draft_AddToGroup.md)** button.
     -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the menu.
     -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
-3.  A menu is displayed near the cursor. Do one of the following   *
+3.  A menu is displayed near the cursor. Do one of the following:
     -   Select **Ungroup** to move the objects out of the group(s) they are in.
     -   Select the group you want to move the objects to.
-    -   Select **+ Add new group** to move the objects to a new group   * <small>(v0.20)</small> 
+    -   Select **+ Add new group** to move the objects to a new group: <small>(v0.20)</small> 
         1.  The **Add group** task panel opens.
         2.  Enter a **Group name**.
         3.  Press the **OK** button.

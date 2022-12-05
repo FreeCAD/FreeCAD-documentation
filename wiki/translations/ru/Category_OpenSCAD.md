@@ -1,8 +1,6 @@
 # Category:OpenSCAD/ru
 This category lists pages related to the [OpenSCAD_Workbench/ru](OpenSCAD_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
-
 ### Contents
 
 |     |     |     |

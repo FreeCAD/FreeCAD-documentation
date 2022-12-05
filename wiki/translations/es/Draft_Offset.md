@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Draft Offset
-   Name/es   *Draft Offset
-   MenuLocation   *Croquis → Equidistancia
-   Workbenches   *[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***O** **S**
-   SeeAlso   *[Part 2D Offset](Part_Offset2D/es.md)
+- GuiCommand:/es
+   Name:Draft Offset
+   Name/es:Draft Offset
+   MenuLocation:Croquis → Equidistancia
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**O** **S**
+   SeeAlso:[Part 2D Offset](Part_Offset2D/es.md)
 ---
 
 # Draft Offset/es
@@ -23,7 +23,7 @@ La herramienta Equidistancia crea una equidistacia de los objetos seleccionados 
 
 </div>
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
 *Offsetting a Draft Wire*
 
 
@@ -34,7 +34,7 @@ La herramienta Equidistancia crea una equidistacia de los objetos seleccionados 
 
 </div>
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -70,9 +70,9 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -87,7 +87,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Equidistancia se puede utilizar en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función   *
+La herramienta Equidistancia se puede utilizar en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
 
 
 </div>
@@ -108,7 +108,7 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 
 </div>
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

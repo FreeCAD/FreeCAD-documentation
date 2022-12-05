@@ -11,9 +11,9 @@
 
 and the weekly build can be downloaded from
 
-<img alt="" src=images/Nightly.png  style="width   *30px;">[Weekly](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
+<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
 
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https   *//brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
 
 
 ```python
@@ -27,7 +27,7 @@ and to use the latest version available on HomeBrew you may run
 brew install freecad
 ```
 
-If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https   *//github.com/FreeCAD/homebrew-freecad).
+If there are any issues with the HomeBrew Cask or Formula you may report them to [here](https://github.com/FreeCAD/homebrew-freecad).
 
 このページではFreeCADインストーラーの使い方と機能を説明しています。またアンインストール方法も記載されています。 インストールが終わると[使い始めることができます](Getting_started/jp.md)！
 

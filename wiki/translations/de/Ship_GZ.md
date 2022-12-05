@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Ship PlotGZ
-   Name/de   *Schiff PlotGZ
-   MenuLocation   *Gewichte → GZ Kurve Berechnung
+- GuiCommand:/de
+   Name:Ship PlotGZ
+   Name/de:Schiff PlotGZ
+   MenuLocation:Gewichte → GZ Kurve Berechnung
 |
-   Workbenches   *[Schiff](Ship_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *
+   Workbenches:[Schiff](Ship_Workbench/de.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Ship GZ/de
@@ -39,11 +39,6 @@ ZUTUN
 
 
 </div>
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

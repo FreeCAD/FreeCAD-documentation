@@ -1,8 +1,6 @@
 # Category:Drawing/fr
 Cette catégorie répertorie les pages liées à l\'[Atelier de dessin](Drawing_Workbench/fr.md).
 
-[Category   *Obsolete Workbenches/fr](Category   *Obsolete_Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

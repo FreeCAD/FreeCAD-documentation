@@ -1,7 +1,7 @@
 # Drawing Workbench/pt-br
 **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
-<img alt="Ícone da bancada de trabalho Drawing " src=images/Workbench_Drawing.svg  style="width   *128px;">
+<img alt="Ícone da bancada de trabalho Drawing " src=images/Workbench_Drawing.svg  style="width:128px;">
 
 ## Introdução
 
@@ -10,37 +10,37 @@ O módulo Drawing permite que você coloque seu trabalho em 3D no papel. Ou seja
 
 {{TOCright}}
 
-<img alt="" src=images/Drawing_extraction.png  style="width   *600px;">
+<img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
 ## Ferramentas
 
 Estas são ferramentas para criar, configurar e exportar folhas de desenho 2D
 
--   <img alt="" src=images/Drawing_New.png  style="width   *32px;"> [Abrir um gráfico vetorial escalável](Drawing_Open_SVG/pt-br.md)   * Abre uma folha de desenho previamente salva como um arquivo SVG
+-   <img alt="" src=images/Drawing_New.png  style="width:32px;"> [Abrir um gráfico vetorial escalável](Drawing_Open_SVG/pt-br.md): Abre uma folha de desenho previamente salva como um arquivo SVG
 
--   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [Nova folha de desenho A3 orientação paisagem](Drawing_Landscape_A3/pt-br.md)   * Cria uma folha de desenho a partir do modelo padrão A3 do FreeCAD.
+-   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [Nova folha de desenho A3 orientação paisagem](Drawing_Landscape_A3/pt-br.md): Cria uma folha de desenho a partir do modelo padrão A3 do FreeCAD.
 
--   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Inserir uma vista](Drawing_View/pt-br.md)   * Insere uma visão do objeto selecionado na folha de desenho ativo
+-   <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Inserir uma vista](Drawing_View/pt-br.md): Insere uma visão do objeto selecionado na folha de desenho ativo
 
--   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Anotação](Drawing_Annotation.md)   * Acrescenta uma anotação à folha de desenho atual
+-   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Anotação](Drawing_Annotation.md): Acrescenta uma anotação à folha de desenho atual
 
--   <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Corte](Drawing_Clip/pt-br.md)   * Acrescenta um grupo de recortes à folha de desenho atual
+-   <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Corte](Drawing_Clip/pt-br.md): Acrescenta um grupo de recortes à folha de desenho atual
 
--   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Open Browser](Drawing_Openbrowser.md)   * Opens a preview of the current sheet in the browser
+-   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Open Browser](Drawing_Openbrowser.md): Opens a preview of the current sheet in the browser
 
--   <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Ortho Views](Drawing_Orthoviews.md)   * Automatically creates orthographic views of an object on the current drawing sheet
+-   <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Ortho Views](Drawing_Orthoviews.md): Automatically creates orthographic views of an object on the current drawing sheet
 
--   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Symbol](Drawing_Symbol.md)   * Adds the contents of a SVG file as a symbol on the current drawing sheet
+-   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol.md): Adds the contents of a SVG file as a symbol on the current drawing sheet
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft View](Draft_Drawing.md)   * Inserts a special Draft view of the selected object in the current drawing sheet
+-   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft View](Draft_Drawing.md): Inserts a special Draft view of the selected object in the current drawing sheet
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md)   * Inserts a view of a selected spreadsheet in the current drawing sheet
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width:32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md): Inserts a view of a selected spreadsheet in the current drawing sheet
 
--   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Save sheet](Drawing_Save.md)   * Saves the current sheet as a SVG file
+-   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save sheet](Drawing_Save.md): Saves the current sheet as a SVG file
 
--   [Project Shape](Drawing_ProjectShape.md)   * Creates a projection of the selected object (Source) in the 3D view.
+-   [Project Shape](Drawing_ProjectShape.md): Creates a projection of the selected object (Source) in the 3D view.
 
--    **Note   ***the [Draft Drawing](Draft_Drawing.md) tool is used with [Draft objects](Draft_Workbench.md). It has some additional capabilities over the Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
+-    **Note:**the [Draft Drawing](Draft_Drawing.md) tool is used with [Draft objects](Draft_Workbench.md). It has some additional capabilities over the Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
 
 ## Workflow
 
@@ -70,7 +70,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 ## External links 
 
--   [Intro to mechanical drawing on Youtube - by Normal Universe](https   *//www.youtube.com/watch?v=1Hm5Zyjmjac)
+-   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
 
@@ -78,9 +78,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 {{Drawing Tools navi
 
-}} 
-
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
+}}
 
 
 

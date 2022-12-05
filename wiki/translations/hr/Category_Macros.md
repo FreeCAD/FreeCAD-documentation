@@ -1,8 +1,6 @@
 # Category:Macros/hr
 This category contains macros to extend your FreeCAD installation with new functionality
 
-[Category   *Categories/hr](Category   *Categories/hr.md)
-
 ### Contents
 
 |     |     |     |

@@ -14,27 +14,27 @@
 Gives a series of informations about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, pourcent) shape, surface, volume and the weight of the form in the density selected in different units of quantities international and Anglo-Saxon (only for PyQt4).
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/6c6b6131b0c14d800033/raw/ffa3d6857abb0ea207cee1ae13c1cb78edadbcf5/FCInfo_fr_Ver_1-12_No_Docked_Ubuntu.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/6c6b6131b0c14d800033/raw/ffa3d6857abb0ea207cee1ae13c1cb78edadbcf5/FCInfo_fr_Ver_1-12_No_Docked_Ubuntu.FCMacro}}
 
 The server does not accept for the moment of the more pages of 64 KB and it was impossible to update and restore this page to me.
 
 ## Script
 
-Download the file here    *
+Download the file here :
 
-[FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http   *//forum.freecadweb.org/download/file.php?id=4453)
+[FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http://forum.freecadweb.org/download/file.php?id=4453)
 
-[Or on the forum](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=48579#p48579)
+[Or on the forum](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=48579#p48579)
 
 The difference between the regular version and the version \"Ubuntu\" in another type of encoding of the characters above + 128 with the procedure
-PS   * this version is derived from the original version, the difference is located at the level of encoding **² ³ ° µ** characters that can cause the error \"ordinal not in range (128)\" on some configurations ?
+PS: this version is derived from the original version, the difference is located at the level of encoding **² ³ ° µ** characters that can cause the error \"ordinal not in range (128)\" on some configurations ?
 
-Example    * 
+Example : 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
 global uniteVs       ; uniteVs       = u"mm³"
 global uniteAs       ; uniteAs       = u"°"
-``` replace to    * 
+``` replace to : 
 ```python
 global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178))
 global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179))

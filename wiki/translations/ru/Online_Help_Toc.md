@@ -1,9 +1,9 @@
 # Online Help Toc/ru
-Это оглавление, используемое для автоматического построения системы \"Онлайн Справка\" во FreeCAD. Версия для печати этого руководства также доступна на [странице релизов](https   *//github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и группы чатов.
+Это оглавление, используемое для автоматического построения системы \"Онлайн Справка\" во FreeCAD. Версия для печати этого руководства также доступна на [странице релизов](https://github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и группы чатов.
 
-Вы можете так же ознакомиться с еще одним [Руководством по FreeCAD](Manual   *Introduction/ru.md).
+Вы можете так же ознакомиться с еще одним [Руководством по FreeCAD](Manual:Introduction/ru.md).
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Введение
     -   [Добро пожаловать](Online_Help_Startpage/ru.md)
@@ -24,28 +24,28 @@
 
 -   [Верстаки](Workbenches/ru.md)
 
--   -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Стандартные инструменты для всех Верстаков](Std_Base/ru.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Верстак Arch (Архитектура)](Arch_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> [Верстак Draft (Черчение на плоскости)](Draft_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Верстак FEM (Расчёты Методом Конечных Элементов)](FEM_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> [Верстак Image (Изображение)](Image_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> [Верстак Inspection](Inspection_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> [Верстак Mesh (Полигональные Сетки)](Mesh_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> [Верстак OpenSCAD](OpenSCAD_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [Верстак Part (Деталь)](Part_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Верстак PartDesign (Проектирование детали)](PartDesign_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Верстак Path (Механическая обработка)](Path_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> [Верстак Points (Точки)](Points_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> [Верстак Raytracing (Визуализация)](Raytracing_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> [Верстак Reverse Engineering (Обратная разработка)](Reverse_Engineering_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> [Верстак Robot (Робототехника)](Robot_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Верстак Sketcher (Редактирование Эскизов)](Sketcher_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> [Верстак Spreadsheet (Электронные таблицы)](Spreadsheet_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> [Стартовая страница](Start_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> [Верстак Surface (Поверхности)](Surface_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> [Верстак Techdraw (Подготовка чертежей)](TechDraw_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [Верстак Тестирования (для разработчиков)](Testing/ru.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> [Встроенный браузер](Web_Workbench/ru.md)
+-   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Стандартные инструменты для всех Верстаков](Std_Base/ru.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Верстак Arch (Архитектура)](Arch_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Верстак Draft (Черчение на плоскости)](Draft_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Верстак FEM (Расчёты Методом Конечных Элементов)](FEM_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Верстак Image (Изображение)](Image_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Верстак Inspection](Inspection_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Верстак Mesh (Полигональные Сетки)](Mesh_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [Верстак OpenSCAD](OpenSCAD_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Верстак Part (Деталь)](Part_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Верстак PartDesign (Проектирование детали)](PartDesign_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Верстак Path (Механическая обработка)](Path_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Верстак Points (Точки)](Points_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Верстак Raytracing (Визуализация)](Raytracing_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Верстак Reverse Engineering (Обратная разработка)](Reverse_Engineering_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Верстак Robot (Робототехника)](Robot_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Верстак Sketcher (Редактирование Эскизов)](Sketcher_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Верстак Spreadsheet (Электронные таблицы)](Spreadsheet_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Стартовая страница](Start_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Верстак Surface (Поверхности)](Surface_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Верстак Techdraw (Подготовка чертежей)](TechDraw_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Верстак Тестирования (для разработчиков)](Testing/ru.md)
+    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Встроенный браузер](Web_Workbench/ru.md)
     -   [Внешние верстаки](External_workbenches/ru.md)
 
 -   [Список команд FreeCAD](List_of_Commands/ru.md)
@@ -103,17 +103,12 @@
         -   [Разработка собственного верстака](Workbench_creation/ru.md)
         -   [Установка дополнительных модулей Python](Extra_python_modules/ru.md)
     -   [Документация из исходных кодов](Source_documentation/ru.md)
-    -   [API](https   *//www.freecadweb.org/api/)
+    -   [API](https://www.freecadweb.org/api/)
 
 -   Авторы
     -   [Участники проекта](Contributors/ru.md)
 
 -   [Глоссарий](Glossary/ru.md)
-
-
-
-
-[Category   *Documentation](Category_Documentation.md)
 
 
 

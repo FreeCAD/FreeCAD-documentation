@@ -12,11 +12,11 @@ Hier erklären wir dir, wie du den [Part Arbeitsbereich](Part_Workbench/de.md) d
 
 ## Klassendiagramm
 
-Dies ist ein [Unified Modeling Language (UML)](http   *//de.wikipedia.org/wiki/Unified_Modeling_Language) Überblick über die wesentlichen Klassen des Part Arbweitsbereichs   * ![Python Klassen des Part Arbeitsbereichs](images/Part_Classes.jpg ) {{Top}}
+Dies ist ein [Unified Modeling Language (UML)](http://de.wikipedia.org/wiki/Unified_Modeling_Language) Überblick über die wesentlichen Klassen des Part Arbweitsbereichs: ![Python Klassen des Part Arbeitsbereichs](images/Part_Classes.jpg ) {{Top}}
 
 ### Geometrie
 
-Die geometrischen Objekte sind die Bausteine aller topologischen Objekte   *
+Die geometrischen Objekte sind die Bausteine aller topologischen Objekte:
 
 -   **Geom** Basisklasse der geometrischen Objekte
 -   **Line** Eine gerade Linie im Raum, definiert durch den Start- und Endpunkt
@@ -28,7 +28,7 @@ Die geometrischen Objekte sind die Bausteine aller topologischen Objekte   *
 
 ### Topologie
 
-The folgenden topologischen Datentypen stehen zur Verfügung   *
+The folgenden topologischen Datentypen stehen zur Verfügung:
 
 -   **Compound** Eine Gruppe von beliebigen topologischen Objekten.
 -   **Compsolid** Ein zusammengesetzter Körper (solid) ist ein Set von Körpern, die durch ihre Seiten verbunden sind. Dies erweitert das Konzept von WIRE and SHELL auf Körpern (solids).
@@ -43,7 +43,7 @@ The folgenden topologischen Datentypen stehen zur Verfügung   *
 
 {{Top}}
 
-## Beispiel   * Einfache Topologie erstellen 
+## Beispiel: Einfache Topologie erstellen 
 
 ![Wire](images/Wire.png )
 
@@ -53,7 +53,7 @@ Wir werden nun eine Topologie erstellen, indem wir sie aus einer einfacheren Geo
 
 Zuerst erstellen wir die verschiedenen geometrischen Teile dieses Drahtes. Dabei stellen wir sicher, dass die Teile, die später verbunden werden die gleichen Knoten teilen.
 
-Also erstellen wir zuerst die Punkte   *
+Also erstellen wir zuerst die Punkte:
 
 
 ```python
@@ -72,7 +72,7 @@ V4 = App.Vector(0, -10, 0)
 
 ![Circle](images/Circel.png )
 
-Für jeden Bogen benötigen wir einen Hilfspunkt   *
+Für jeden Bogen benötigen wir einen Hilfspunkt:
 
 
 ```python
@@ -89,7 +89,7 @@ C2 = Part.Arc(V2, VC2, V3)
 
 ![Line](images/Line.png )
 
-Die Linienabschnitte können aus zwei Punkten erstellt werden   *
+Die Linienabschnitte können aus zwei Punkten erstellt werden:
 
 
 ```python
@@ -102,7 +102,7 @@ L2 = Part.LineSegment(V3, V4)
 
 ### Alles zusammensetzen 
 
-Der letzte Schritt besteht darin, die geometrischen Basiselemente zusammenzusetzen und eine topologische Form zu backen   *
+Der letzte Schritt besteht darin, die geometrischen Basiselemente zusammenzusetzen und eine topologische Form zu backen:
 
 
 ```python
@@ -114,7 +114,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 ### Ein Prisma herstellen 
 
-Jetzt extrudiere den Draht in eine Richtung und erzeugen eine tatsächliche 3D Form   *
+Jetzt extrudiere den Draht in eine Richtung und erzeugen eine tatsächliche 3D Form:
 
 
 ```python
@@ -137,7 +137,7 @@ Part.show(P)
 
 ## Erstellen von Grundformen 
 
-Du kannst ganz einfach topologische Grundobjekte mit den `make...()`-Methoden aus dem Arbeitsbereich Part erstellen   *
+Du kannst ganz einfach topologische Grundobjekte mit den `make...()`-Methoden aus dem Arbeitsbereich Part erstellen:
 
 
 ```python
@@ -145,7 +145,7 @@ b = Part.makeBox(100, 100, 100)
 Part.show(b)
 ```
 
-Einige verfügbare `make...()` Methoden   *
+Einige verfügbare `make...()` Methoden:
 
 -    `makeBox(l, w, h, [p, d])`Erstellt einen Quader, der sich in p befindet und in die Richtung d mit den Abmessungen (l,w,h) zeigt.
 
@@ -169,7 +169,7 @@ Siehe die [Part API](Part_API/de.md) Seite für eine vollständige Liste der ver
 
 ### Module Importieren 
 
-Zuerst müssen wir das FreeCAD-Modul und den Arbeitsbereich Part importieren, damit wir ihre Inhalte in Python verwenden können   *
+Zuerst müssen wir das FreeCAD-Modul und den Arbeitsbereich Part importieren, damit wir ihre Inhalte in Python verwenden können:
 
 
 ```python
@@ -182,14 +182,14 @@ import Part
 
 ### Erstellen eines Vektors 
 
-[Vektoren](http   *//en.wikipedia.org/wiki/Euclidean_vector) sind einer der am häufigsten verwendeten wichtigen Informationsteile beim Bau von Formen. Sie enthalten in der Regel drei Zahlen (aber nicht notwendigerweise immer)   * die kartesischen Koordinaten x, y und z. Du erstellst einen Vektor wie diesen   *
+[Vektoren](http://en.wikipedia.org/wiki/Euclidean_vector) sind einer der am häufigsten verwendeten wichtigen Informationsteile beim Bau von Formen. Sie enthalten in der Regel drei Zahlen (aber nicht notwendigerweise immer): die kartesischen Koordinaten x, y und z. Du erstellst einen Vektor wie diesen:
 
 
 ```python
 myVector = App.Vector(3, 2, 0)
 ```
 
-Wir haben soeben einen Vektor mit den Koordinaten X = 3, Y = 2, Z = 0 erstellt. im Part Arbeitsbereich werden Vektoren überall verwendet. Part Formen verwenden auch eine andere Art von Punkt Darstellung namens Knoten, die einfach ein Behälter ist für einen Vektor. So greifst du auf den Vektor eines Knoten zu   *
+Wir haben soeben einen Vektor mit den Koordinaten X = 3, Y = 2, Z = 0 erstellt. im Part Arbeitsbereich werden Vektoren überall verwendet. Part Formen verwenden auch eine andere Art von Punkt Darstellung namens Knoten, die einfach ein Behälter ist für einen Vektor. So greifst du auf den Vektor eines Knoten zu:
 
 
 ```python
@@ -203,7 +203,7 @@ print(myVertex.Point)
 
 ### Erstellen einer Kante 
 
-Eine Kante ist nichts anderes als eine Linie mit zwei Knoten   *
+Eine Kante ist nichts anderes als eine Linie mit zwei Knoten:
 
 
 ```python
@@ -212,7 +212,7 @@ edge.Vertexes
 > [<Vertex object at 01877430>, <Vertex object at 014888E0>]
 ```
 
-Hinweis   * Du kannst auch eine Kante erzeugen, indem du zwei Vektoren übergibst   *
+Hinweis: Du kannst auch eine Kante erzeugen, indem du zwei Vektoren übergibst:
 
 
 ```python
@@ -222,7 +222,7 @@ line = Part.LineSegment(vec1, vec2)
 edge = line.toShape()
 ```
 
-Du kannst die Länge und den Mittelpunkt einer Kante wie diese finden   *
+Du kannst die Länge und den Mittelpunkt einer Kante wie diese finden:
 
 
 ```python
@@ -237,7 +237,7 @@ edge.CenterOfMass
 
 ### Die Form auf den Bildschirm bringen 
 
-Bisher haben wir ein Kantenobjekt erstellt, das aber nirgendwo auf dem Bildschirm erscheint. Das liegt daran, dass die FreeCAD 3D Szene nur das anzeigt, was du ihm sagst, dass er anzeigen soll. Um das zu tun, verwenden wir folgende einfache Methode   *
+Bisher haben wir ein Kantenobjekt erstellt, das aber nirgendwo auf dem Bildschirm erscheint. Das liegt daran, dass die FreeCAD 3D Szene nur das anzeigt, was du ihm sagst, dass er anzeigen soll. Um das zu tun, verwenden wir folgende einfache Methode:
 
 
 ```python
@@ -248,7 +248,7 @@ Die Anzeigefunktion erzeugt ein Objekt in unserem FreeCAD Dokument und weist uns
 
 ### Erstellen eines Drahts 
 
-Ein Draht ist eine Mehrkantenlinie und kann aus einer Liste von Kanten oder sogar einer Liste von Drähten erstellt werden   *
+Ein Draht ist eine Mehrkantenlinie und kann aus einer Liste von Kanten oder sogar einer Liste von Drähten erstellt werden:
 
 
 ```python
@@ -267,7 +267,7 @@ Part.show(wire3)
 
 `Part.show(wire3)`
 
-zeigt die 4 Kanten, die unseren Draht bilden. Sonstige nützliche Informationen können leicht abgerufen werden   *
+zeigt die 4 Kanten, die unseren Draht bilden. Sonstige nützliche Informationen können leicht abgerufen werden:
 
 
 ```python
@@ -308,25 +308,25 @@ Nur Flächen haben eine Grundfläche, Drähte und Kanten haben keine. {{Top}}
 
 ### Erstellen eines Kreises 
 
-So einfach kann ein Kreis erstellt werden   *
+So einfach kann ein Kreis erstellt werden:
 
 
 ```python
 circle = Part.makeCircle(10)
 circle.Curve
-> Circle (Radius    * 10, Position    * (0, 0, 0), Direction    * (0, 0, 1))
+> Circle (Radius : 10, Position : (0, 0, 0), Direction : (0, 0, 1))
 ```
 
-Wenn Du ihn an einer bestimmten Stelle und mit einer bestimmten Richtung erzeugen möchtest   *
+Wenn Du ihn an einer bestimmten Stelle und mit einer bestimmten Richtung erzeugen möchtest:
 
 
 ```python
 ccircle = Part.makeCircle(10, App.Vector(10, 0, 0), App.Vector(1, 0, 0))
 ccircle.Curve
-> Circle (Radius    * 10, Position    * (10, 0, 0), Direction    * (1, 0, 0))
+> Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
 ```
 
-ccircle wird im Abstand 10 vom x Ursprung erstellt und ist nach außen entlang der x Achse gerichtet. Hinweis   * `makeCircle()` akzeptiert nur `App.Vector()` für die Position und normale Parameter, keine Tupel. Du kannst auch einen Teil des Kreises durch Angabe eines Anfangs- und eines Endwinkels erstellen   *
+ccircle wird im Abstand 10 vom x Ursprung erstellt und ist nach außen entlang der x Achse gerichtet. Hinweis: `makeCircle()` akzeptiert nur `App.Vector()` für die Position und normale Parameter, keine Tupel. Du kannst auch einen Teil des Kreises durch Angabe eines Anfangs- und eines Endwinkels erstellen:
 
 
 ```python
@@ -335,7 +335,7 @@ arc1 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
 arc2 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180, 360)
 ```
 
-Winkel sollten in Grad angegeben werden. Wenn Du Bogenmaß hast, wandelst Du sie einfach mit der Formel um   * `Grad <nowiki>=</nowiki> Bogenmaß * 180/pi` oder mit Hilfe des Python `math` Moduls   *
+Winkel sollten in Grad angegeben werden. Wenn Du Bogenmaß hast, wandelst Du sie einfach mit der Formel um: `Grad <nowiki>=</nowiki> Bogenmaß * 180/pi` oder mit Hilfe des Python `math` Moduls:
 
 
 ```python
@@ -362,7 +362,7 @@ Part.show(arc_edge)
 
 `Arc()`
 
-akzeptiert nur `App.Vector()` für Punkte, aber keine Tupel. Du kannst auch einen Bogen erhalten durch Verwendung eines Kreisabschnitts   *
+akzeptiert nur `App.Vector()` für Punkte, aber keine Tupel. Du kannst auch einen Bogen erhalten durch Verwendung eines Kreisabschnitts:
 
 
 ```python
@@ -375,7 +375,7 @@ Bögen sind gültige Kanten wie Linien, so dass sie auch in Drähten verwendet w
 
 ### Erstellen eines Polygons 
 
-Ein Polygon ist einfach ein Draht mit mehreren geraden Kanten. Die Funktion `makePolygon()` nimmt eine Liste von Punkten und erstellt einen Draht durch diese Punkte   *
+Ein Polygon ist einfach ein Draht mit mehreren geraden Kanten. Die Funktion `makePolygon()` nimmt eine Liste von Punkten und erstellt einen Draht durch diese Punkte:
 
 
 ```python
@@ -387,11 +387,11 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 ### Eine Bézier-Kurve erstellen 
 
-Bézier-Kurven werden verwendet, um sanfte Kurven mit einer Reihe von Polen (Punkten) und optionalen Gewichten zu modellieren. Die folgende Funktion erstellt eine `Part.BezierCurve()` aus einer Reihe von `FreeCAD.Vector()` Punkten. (Hinweis   * Wenn du einen einzelnen Pol oder ein Gewicht \"erhältst\" und \"einstellst\", beginnen die Indizes bei 1, nicht bei 0.)
+Bézier-Kurven werden verwendet, um sanfte Kurven mit einer Reihe von Polen (Punkten) und optionalen Gewichten zu modellieren. Die folgende Funktion erstellt eine `Part.BezierCurve()` aus einer Reihe von `FreeCAD.Vector()` Punkten. (Hinweis: Wenn du einen einzelnen Pol oder ein Gewicht \"erhältst\" und \"einstellst\", beginnen die Indizes bei 1, nicht bei 0.)
 
 
 ```python
-def makeBCurveEdge(Points)   *
+def makeBCurveEdge(Points):
    geomCurve = Part.BezierCurve()
    geomCurve.setPoles(Points)
    edge = Part.Edge(geomCurve)
@@ -403,7 +403,7 @@ def makeBCurveEdge(Points)   *
 
 ### Erstellen einer Ebene 
 
-Eine Ebene ist einfach eine flache rechteckige Fläche. Die Methode, mit der eine solche erstellt wird, ist **makePlane(length,width,\[start_pnt,dir_normal\])**\'. Standardmäßig start_pnt = Vektor(0,0,0,0) und dir_normal = Vektor(0,0,1). Verwendung von dir_normal = Vector(0,0,0,1) erzeugt die Ebene, die in Richtung der positiven z Achse zeigt, während dir_normal = Vector(1,0,0,0) die Ebene erzeugt, die in Richtung der positiven x Achse zeigt   *
+Eine Ebene ist einfach eine flache rechteckige Fläche. Die Methode, mit der eine solche erstellt wird, ist **makePlane(length,width,\[start_pnt,dir_normal\])**\'. Standardmäßig start_pnt = Vektor(0,0,0,0) und dir_normal = Vektor(0,0,1). Verwendung von dir_normal = Vector(0,0,0,1) erzeugt die Ebene, die in Richtung der positiven z Achse zeigt, während dir_normal = Vector(1,0,0,0) die Ebene erzeugt, die in Richtung der positiven x Achse zeigt:
 
 
 ```python
@@ -420,11 +420,11 @@ plane.BoundBox
 
 ist ein Quader, der die Ebene mit einer Diagonale beginnend bei (3,0,0,0) und endet bei (5,0,2) einschliesst. Hier ist die `BoundBox` Dicke entlang der y Achse Null, zumal unsere Form völlig flach ist.
 
-Hinweis   * `makePlane()` akzeptiert nur `App.Vector()` für start_pnt und dir_normal, nicht aber Tupel. {{Top}}
+Hinweis: `makePlane()` akzeptiert nur `App.Vector()` für start_pnt und dir_normal, nicht aber Tupel. {{Top}}
 
 ### Erstellen einer Ellipse 
 
-Es gibt mehrere Möglichkeiten, eine Ellipse zu erstellen   *
+Es gibt mehrere Möglichkeiten, eine Ellipse zu erstellen:
 
 
 ```python
@@ -462,7 +462,7 @@ Part.show(eli.toShape())
 
 Im obigen Code haben wir S1, S2 und Mitte überschritten. Ähnlich wie `Arc`, `Ellipse` erzeugt ein Ellipsenobjekt, aber keine Kante, also müssen wir es in eine Kante mit `toShape()` zur Anzeige konvertieren.
 
-Hinweis   * `Ellipse()` akzeptiert nur `App.Vector()` für Punkte, nicht aber für Tupel.
+Hinweis: `Ellipse()` akzeptiert nur `App.Vector()` für Punkte, nicht aber für Tupel.
 
 
 ```python
@@ -474,7 +474,7 @@ Für den obigen Ellipsenkonstruktor haben wir Mitte, HauptRadius und NebenRadius
 
 ### Erstellen eines Torus 
 
-Verwende `makeTorus(radius1, radius2, [pnt, dir, Winkel1, Winkel2, Winkel])`. Standardmäßig ist pnt = Vektor(0, 0, 0), dir = Vektor(0, 0, 1), Winkel1 = 0, Winkel2 = 360 und Winkel = 360. Betrachte einen Torus als kleinen Kreis, der entlang eines großen Kreises verläuft. Radius1 ist der Radius des großen Kreises, Radius2 ist der Radius des kleinen Kreises, pnt ist der Mittelpunkt des Torus und dir ist die Normalenrichtung. winkel1 und winkel2 sind Winkel in Grad für den kleinen Kreis; der letzte Winkelparameter besteht darin, einen Schnitt von den Torus   *
+Verwende `makeTorus(radius1, radius2, [pnt, dir, Winkel1, Winkel2, Winkel])`. Standardmäßig ist pnt = Vektor(0, 0, 0), dir = Vektor(0, 0, 1), Winkel1 = 0, Winkel2 = 360 und Winkel = 360. Betrachte einen Torus als kleinen Kreis, der entlang eines großen Kreises verläuft. Radius1 ist der Radius des großen Kreises, Radius2 ist der Radius des kleinen Kreises, pnt ist der Mittelpunkt des Torus und dir ist die Normalenrichtung. winkel1 und winkel2 sind Winkel in Grad für den kleinen Kreis; der letzte Winkelparameter besteht darin, einen Schnitt von den Torus:
 
 
 ```python
@@ -558,7 +558,7 @@ Es gibt verschiedene Möglichkeiten, Formen zu ändern. Einige sind einfache Tra
 
 ### Übersetzen einer Form 
 
-Übersetzen ist die Handlung, eine Form von einem Ort zum anderen zu bewegen. Jede Form (Kante, Fläche, Würfel, usw\...) kann auf die gleiche Weise übersetzt werden   *
+Übersetzen ist die Handlung, eine Form von einem Ort zum anderen zu bewegen. Jede Form (Kante, Fläche, Würfel, usw\...) kann auf die gleiche Weise übersetzt werden:
 
 
 ```python
@@ -570,7 +570,7 @@ Dadurch wird unsere Form \"myShape\" um 2 Einheiten in die X Richtung verschoben
 
 ### Drehen einer Form 
 
-Um eine Form zu drehen, musst du das Rotationszentrum, die Achse, angeben, und den Rotationswinkel   *
+Um eine Form zu drehen, musst du das Rotationszentrum, die Achse, angeben, und den Rotationswinkel:
 
 
 ```python
@@ -581,7 +581,7 @@ Der obige Code dreht die Form um 180 Grad um die Z Achse. {{Top}}
 
 ### Matrix Umformungen 
 
-Eine Matrix ist eine sehr bequeme Möglichkeit, Transformationen in der 3D Welt. In einer einzigen Matrix kannst du Translation, Rotation und Skalierung einstellen Werte, die auf ein Objekt angewendet werden sollen. Zum Beispiel   *
+Eine Matrix ist eine sehr bequeme Möglichkeit, Transformationen in der 3D Welt. In einer einzigen Matrix kannst du Translation, Rotation und Skalierung einstellen Werte, die auf ein Objekt angewendet werden sollen. Zum Beispiel:
 
 
 ```python
@@ -590,7 +590,7 @@ myMat.move(App.Vector(2, 0, 0))
 myMat.rotateZ(math.pi/2)
 ```
 
-Hinweis   * FreeCAD Matrizen arbeiten im Bogenmaß. Außerdem werden fast alle Matrix Operationen die einen Vektor nehmen, können auch drei Zahlen nehmen, so dass diese beiden Linien dasselbe tun   *
+Hinweis: FreeCAD Matrizen arbeiten im Bogenmaß. Außerdem werden fast alle Matrix Operationen die einen Vektor nehmen, können auch drei Zahlen nehmen, so dass diese beiden Linien dasselbe tun:
 
 
 ```python
@@ -598,7 +598,7 @@ myMat.move(2, 0, 0)
 myMat.move(App.Vector(2, 0, 0))
 ```
 
-Wenn unsere Matrix einmal festgelegt ist, können wir sie auf unsere Form anwenden. FreeCAD bietet zwei Methoden, um das zu tun   * `transformShape()` und `transformGeometry()`. Der Unterschied ist, dass Sie bei der ersten sicher sind, dass keine Verformungen auftreten werden (siehe [Skalierung einer Form](#Scaling_a_shape/de.md) unten). Wir können unsere Transformation wie folgt anwenden   *
+Wenn unsere Matrix einmal festgelegt ist, können wir sie auf unsere Form anwenden. FreeCAD bietet zwei Methoden, um das zu tun: `transformShape()` und `transformGeometry()`. Der Unterschied ist, dass Sie bei der ersten sicher sind, dass keine Verformungen auftreten werden (siehe [Skalierung einer Form](#Scaling_a_shape/de.md) unten). Wir können unsere Transformation wie folgt anwenden:
 
 
 ```python
@@ -617,7 +617,7 @@ myShape.transformGeometry(myMat)
 
 ### Skalieren einer Form 
 
-Das Skalieren einer Form ist eine gefährlichere Operation, denn im Gegensatz zur Übersetzung oder Rotation, ungleichmäßige Skalierung (mit unterschiedlichen Werten für X, Y und Z) kann die Struktur der Form verändern. Beispielsweise kann die Skalierung eines Kreises mit ein höherer Wert horizontal als vertikal wandelt ihn in einen Ellipse, die sich mathematisch sehr unterschiedlich verhält. Für die Skalierung haben wir nicht die `transformShape()` verwenden können, müssen wir `transformGeometry()` verwenden   *
+Das Skalieren einer Form ist eine gefährlichere Operation, denn im Gegensatz zur Übersetzung oder Rotation, ungleichmäßige Skalierung (mit unterschiedlichen Werten für X, Y und Z) kann die Struktur der Form verändern. Beispielsweise kann die Skalierung eines Kreises mit ein höherer Wert horizontal als vertikal wandelt ihn in einen Ellipse, die sich mathematisch sehr unterschiedlich verhält. Für die Skalierung haben wir nicht die `transformShape()` verwenden können, müssen wir `transformGeometry()` verwenden:
 
 
 ```python
@@ -633,7 +633,7 @@ myShape=myShape.transformGeometry(myMat)
 
 ### Subtraktion
 
-Das Subtrahieren einer Form von einer anderen Form wird in FreeCAD \"Schnitt\" genannt und wird so gemacht   *
+Das Subtrahieren einer Form von einer anderen Form wird in FreeCAD \"Schnitt\" genannt und wird so gemacht:
 
 
 ```python
@@ -647,7 +647,7 @@ diff = cylinder.cut(sphere)
 
 ### Überschneidung
 
-Auf die gleiche Weise wird die Überschneidung zwischen zwei Formen als \"gemeinsam\" bezeichnet und auf diese Weise gemacht   *
+Auf die gleiche Weise wird die Überschneidung zwischen zwei Formen als \"gemeinsam\" bezeichnet und auf diese Weise gemacht:
 
 
 ```python
@@ -661,7 +661,7 @@ common = cylinder1.common(cylinder2)
 
 ### Vereinigen
 
-Vereinigen wird \"Verschmelzen\" genannt und funktioniert auf dieselbe Weise   *
+Vereinigen wird \"Verschmelzen\" genannt und funktioniert auf dieselbe Weise:
 
 
 ```python
@@ -695,7 +695,7 @@ section.Edges
 
 ### Extrusion
 
-Extrusion ist der Vorgang des \"Drückens\" einer flachen Form in eine bestimmte Richtung, was zu einem festen Körper führt. Stell dir vor, dass ein Kreis durch \"Herausschieben\" zu einer Röhre wird   *
+Extrusion ist der Vorgang des \"Drückens\" einer flachen Form in eine bestimmte Richtung, was zu einem festen Körper führt. Stell dir vor, dass ein Kreis durch \"Herausschieben\" zu einer Röhre wird:
 
 
 ```python
@@ -703,7 +703,7 @@ circle = Part.makeCircle(10)
 tube = circle.extrude(App.Vector(0, 0, 2))
 ```
 
-Wenn dein Kreis hohl ist, erhälst du ein hohles Rohr. Wenn dein Kreis tatsächlich eine Scheibe mit einer gefüllten Fläche ist, erhälst du einen massiven Zylinder   *
+Wenn dein Kreis hohl ist, erhälst du ein hohles Rohr. Wenn dein Kreis tatsächlich eine Scheibe mit einer gefüllten Fläche ist, erhälst du einen massiven Zylinder:
 
 
 ```python
@@ -717,7 +717,7 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 ## Formen untersuchen 
 
-Du kannst die topologische Datenstruktur leicht erkunden   *
+Du kannst die topologische Datenstruktur leicht erkunden:
 
 
 ```python
@@ -740,7 +740,7 @@ Durch tippen der obigen Zeilen in den Python Interpreter, erhälst du eine gutes
 
 ### Kantenanalyse
 
-Im Falle einer Kante, die eine willkürliche Kurve ist, ist es am wahrscheinlichsten, dass du eine Diskretisierung durchführen möchtest. In FreeCAD werden die Kanten durch ihre Länge parametrisiert. Das bedeutet, dass du eine Kante/Kurve anhand ihrer Länge entlang laufen kannst   *
+Im Falle einer Kante, die eine willkürliche Kurve ist, ist es am wahrscheinlichsten, dass du eine Diskretisierung durchführen möchtest. In FreeCAD werden die Kanten durch ihre Länge parametrisiert. Das bedeutet, dass du eine Kante/Kurve anhand ihrer Länge entlang laufen kannst:
 
 
 ```python
@@ -779,36 +779,36 @@ Part.show(Part.makeBox(100, 100, 100))
 Gui.SendMsgToActiveView("ViewFit")
 ```
 
-Wähle nun einige Flächen oder Kanten aus. Mit diesem Skript kannst du über alle ausgewählten Objekte und deren Unterelemente iterieren   *
+Wähle nun einige Flächen oder Kanten aus. Mit diesem Skript kannst du über alle ausgewählten Objekte und deren Unterelemente iterieren:
 
 
 ```python
-for o in Gui.Selection.getSelectionEx()   *
+for o in Gui.Selection.getSelectionEx():
     print(o.ObjectName)
-    for s in o.SubElementNames   *
-        print("name   * ", s)
-        for s in o.SubObjects   *
-            print("object   * ", s)
+    for s in o.SubElementNames:
+        print("name: ", s)
+        for s in o.SubObjects:
+            print("object: ", s)
 ```
 
-Wähle einige Kanten aus und dieses Skript berechnet die Länge   *
+Wähle einige Kanten aus und dieses Skript berechnet die Länge:
 
 
 ```python
 length = 0.0
-for o in Gui.Selection.getSelectionEx()   *
-    for s in o.SubObjects   *
+for o in Gui.Selection.getSelectionEx():
+    for s in o.SubObjects:
         length += s.Length
 
-print("Length of the selected edges   * ", length)
+print("Length of the selected edges: ", length)
 ```
 
 
 {{Top}}
 
-## Beispiel   * Die OCC Flasche 
+## Beispiel: Die OCC Flasche 
 
-Ein typisches Beispiel, das auf der [OpenCasCade Technology Website](https   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) zu finden ist, ist der Bau einer Flasche. Dies ist auch eine gute Übung für FreeCAD. Wenn du unserem Beispiel unten und der OCC-Seite gleichzeitig folgst, wirst du sehen, wie gut OCC Strukturen in FreeCAD implementiert sind. Das Skript ist in der FreeCAD Installation enthalten (innerhalb des Ordners **Mod/Part**) und kann vom Python Interpreter durch Eintippen aufgerufen werden   *
+Ein typisches Beispiel, das auf der [OpenCasCade Technology Website](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) zu finden ist, ist der Bau einer Flasche. Dies ist auch eine gute Übung für FreeCAD. Wenn du unserem Beispiel unten und der OCC-Seite gleichzeitig folgst, wirst du sehen, wie gut OCC Strukturen in FreeCAD implementiert sind. Das Skript ist in der FreeCAD Installation enthalten (innerhalb des Ordners **Mod/Part**) und kann vom Python Interpreter durch Eintippen aufgerufen werden:
 
 
 ```python
@@ -832,7 +832,7 @@ Für die Zwecke dieses Tutoriums werden wir eine reduzierte Version des Skripts 
 import FreeCAD as App
 import Part, math
 
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt1=App.Vector(-myWidth / 2., 0, 0)
     aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
     aPnt3=App.Vector(0, -myThickness / 2., 0)
@@ -890,7 +890,7 @@ Wir benötigen natürlich das Modul `FreeCAD` und den Arbeitsbereich `Part`.
 
 
 ```python
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt1=App.Vector(-myWidth / 2., 0, 0)
     aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
     aPnt3=App.Vector(0, -myThickness / 2., 0)
@@ -908,7 +908,7 @@ Hier definieren wir unsere `makeBottleTut` Funktion. Diese Funktion kann aufgeru
     aSegment2=Part.LineSegment(aPnt4, aPnt5)
 ```
 
-Hier definieren wir die Geometrie   * einen Bogen, der aus drei Punkten besteht, und zwei Liniensegmente, die aus zwei Punkten bestehen.
+Hier definieren wir die Geometrie: einen Bogen, der aus drei Punkten besteht, und zwei Liniensegmente, die aus zwei Punkten bestehen.
 
 
 ```python
@@ -983,7 +983,7 @@ Part.show(el)
 
 Schließlich rufen wir die Funktion auf, um das Teil tatsächlich zu erstellen und es dann sichtbar zu machen. {{Top}}
 
-## Beispiel   * Durchbohrter Quader 
+## Beispiel: Durchbohrter Quader 
 
 Hier ist ein vollständiges Beispiel für den Bau eines durchbohrten Quaders.
 
@@ -1044,7 +1044,7 @@ Part.show(cut_part)
 
 Es gibt mehrere Möglichkeiten, deine Arbeit zu speichern. Du kannst natürlich dein FreeCAD Dokument speichern, aber Du kannst auch [Part](Part_Workbench/de.md) Objekte direkt in gängigen CAD Formaten wie BREP, IGS, STEP und STL speichern.
 
-Das Speichern einer Form in einer Datei ist einfach. Es stehen die Methoden `exportBrep()`, `exportIges()`, `exportStep()` und `exportStl()` für alle Formobjekte zur Verfügung. Also, ausführen   *
+Das Speichern einer Form in einer Datei ist einfach. Es stehen die Methoden `exportBrep()`, `exportIges()`, `exportStep()` und `exportStl()` für alle Formobjekte zur Verfügung. Also, ausführen:
 
 
 ```python
@@ -1053,7 +1053,7 @@ s = Part.makeBox(10, 10, 10)
 s.exportStep("test.stp")
 ```
 
-wird unseren Quader in eine STEP Datei gespeichert. Um eine BREP , IGES oder STEP Datei zu laden   *
+wird unseren Quader in eine STEP Datei gespeichert. Um eine BREP , IGES oder STEP Datei zu laden:
 
 
 ```python
@@ -1062,7 +1062,7 @@ s = Part.Shape()
 s.read("test.stp")
 ```
 
-Um eine STEP Datei in eine IGS Datei umzuwandeln   *
+Um eine STEP Datei in eine IGS Datei umzuwandeln:
 
 
 ```python
@@ -1074,14 +1074,6 @@ Um eine STEP Datei in eine IGS Datei umzuwandeln   *
 
 
 {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

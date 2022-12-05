@@ -11,7 +11,7 @@ El [panel de tareas](task_panel/es.md) aparece en la pestaña **Tareas** de la [
 
 </div>
 
-<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="550px;">
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -55,7 +55,7 @@ Hay muchos comandos que requieren la selección de formas u objetos presentes en
 
 </div>
 
-Nota   * Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Modelo** no se termina el comando activo; la tarea seguirá ejecutándose en segundo plano. El usuario es responsable de terminar o abortar correctamente el comando activo antes de iniciar una tarea diferente; dejar una tarea en ejecución puede producir errores al intentar lanzar otras herramientas.
+Nota: Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Modelo** no se termina el comando activo; la tarea seguirá ejecutándose en segundo plano. El usuario es responsable de terminar o abortar correctamente el comando activo antes de iniciar una tarea diferente; dejar una tarea en ejecución puede producir errores al intentar lanzar otras herramientas.
 
 ## Notes
 
@@ -66,16 +66,16 @@ Nota   * Por favor note que al cambiar de la pestaña **Tareas** a la pestaña *
 
 **Por favor, reformula y actualiza esta sección**
 
-Ver [Hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Llamada que un widget de Diálogo de Tareas puede usar para cerrar la Vista de Tareas. Puede cerrarse con \"this-\>close()\", pero eso sólo cierra la parte inferior de la vista, no la vista en sí misma.
+Ver [Hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Llamada que un widget de Diálogo de Tareas puede usar para cerrar la Vista de Tareas. Puede cerrarse con \"this-\>close()\", pero eso sólo cierra la parte inferior de la vista, no la vista en sí misma.
 
-Usando python   * 
+Usando python: 
 ```python
 Gui.Control.closeDialog()
 ```
 
-Usando c++   * 
+Usando c++: 
 ```python
-Gui   *   *Control().closeDialog();
+Gui::Control().closeDialog();
 ```
 
 

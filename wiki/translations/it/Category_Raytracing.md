@@ -1,8 +1,6 @@
 # Category:Raytracing/it
 This category lists pages related to the [Raytracing Workbench/it](Raytracing_Workbench/it.md).
 
-[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User_Documentation/it](Category   *User_Documentation/it.md)
-
 ### Contents
 
 |     |     |     |

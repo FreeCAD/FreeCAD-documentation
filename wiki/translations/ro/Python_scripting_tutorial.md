@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29) este un limbaj de programare, foarte simplu de utilizat și foarte rapid de învățat. Este open-source, multi-platformă și poate fi folosit singur pentru o gamă largă de lucruri, de la programarea scripturilor simple shell la programele foarte complexe. Dar una dintre cele mai răspândite utilizări este ca un limbaj de scripting, deoarece este ușor de încorporat în alte aplicații. Exact așa este folosit în interiorul FreeCAD. Din consola Python sau din scripturile personalizate, puteți încerca FreeCAD și o puteți face să efectueze acțiuni foarte complexe pentru care nu există încă un instrument grafic de interfață cu utilizatorul.
+[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29) este un limbaj de programare, foarte simplu de utilizat și foarte rapid de învățat. Este open-source, multi-platformă și poate fi folosit singur pentru o gamă largă de lucruri, de la programarea scripturilor simple shell la programele foarte complexe. Dar una dintre cele mai răspândite utilizări este ca un limbaj de scripting, deoarece este ușor de încorporat în alte aplicații. Exact așa este folosit în interiorul FreeCAD. Din consola Python sau din scripturile personalizate, puteți încerca FreeCAD și o puteți face să efectueze acțiuni foarte complexe pentru care nu există încă un instrument grafic de interfață cu utilizatorul.
 
 
 </div>
@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Dintr-un script Python, de exemplu, puteți   *
+Dintr-un script Python, de exemplu, puteți:
 
 -   crea obiecte noi
 -   modifica obiectele existente
@@ -27,7 +27,7 @@ Dintr-un script Python, de exemplu, puteți   *
 
 <div class="mw-translate-fuzzy">
 
-Există, de asemenea, mai multe moduri diferite de a folosi Python în FreeCAD   *
+Există, de asemenea, mai multe moduri diferite de a folosi Python în FreeCAD:
 
 -   Din [FreeCAD python interpreter](FreeCAD_Scripting_Basics.md), unde puteți emite comenzi simple ca într-o interfață \"command line\"-style interface
 -   Din [macros](macros.md), care sunt o modalitate convenabilă de a adăuga rapid o unealtă lipsă la interfața FreeCAD
@@ -47,12 +47,12 @@ Există, de asemenea, mai multe moduri diferite de a folosi Python în FreeCAD  
 
 <div class="mw-translate-fuzzy">
 
-**Important!** Înainte de a continua scriptul Python, mergeți la fereastra **Edit->Prefences->General->Output** și bifați 2 căsuțe   *
+**Important!** Înainte de a continua scriptul Python, mergeți la fereastra **Edit->Prefences->General->Output** și bifați 2 căsuțe:
 
 -   Redirecționați ieșirea internă Python către vizualizarea raportului
 -   Redirecționați erorile interne Python către vizualizarea raportului
 
-Then go to **View->Panels** and check   *
+Then go to **View->Panels** and check:
 
 -   Report view
 
@@ -66,7 +66,7 @@ Acest lucru vă va feri de o mulțime de probleme grave!
 
 ## Scrierea codului python 
 
-Există două modalități ușoare de a scrie codul python în FreeCAD   * Din consola python (disponibilă din View -\> Panels -\> Python console menu) ori din Macro editor (Tools -\> Macros). In consolă, scrieți comenzi python una câte una, care sunt executate atunci când apăsați retur de car (Enter), în timp ce macrocomenzile pot conține un script mai complex compus din mai multe linii care se execută numai când macro-ul este executat.
+Există două modalități ușoare de a scrie codul python în FreeCAD: Din consola python (disponibilă din View -\> Panels -\> Python console menu) ori din Macro editor (Tools -\> Macros). In consolă, scrieți comenzi python una câte una, care sunt executate atunci când apăsați retur de car (Enter), în timp ce macrocomenzile pot conține un script mai complex compus din mai multe linii care se execută numai când macro-ul este executat.
 
 
 </div>
@@ -99,12 +99,12 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 ## Explorând FreeCAD 
 
-Hai să începem prin crearea unui nou document vid   *
+Hai să începem prin crearea unui nou document vid:
 
 
 </div>
 
-Let\'s start by creating a new empty document   *
+Let\'s start by creating a new empty document:
 
 
 ```python
@@ -140,7 +140,7 @@ Acum, noul nostru document va fi creat. Acest lucru este similar cu apăsarea bu
 
 <div class="mw-translate-fuzzy">
 
-Acum să ne întoarcem la documentul nostru. Să vedem ce putem face cu el   *
+Acum să ne întoarcem la documentul nostru. Să vedem ce putem face cu el:
 
 
 </div>
@@ -153,20 +153,20 @@ doc.
 
 <div class="mw-translate-fuzzy">
 
-Explorați opțiunile disponibile. De obicei, numele care încep cu o literă de capital sunt atribute, ele conțin o valoare, în timp ce numele care încep cu litera subliniată arată că sunt funcții (numite și metode), fac \"ceva\". Numele care încep cu un subliniere sunt de obicei acolo pentru funcționarea internă a modulului și nu ar trebui să le pese de ele. Să folosim una dintre metodele de adăugare a unui obiect nou în documentul nostru   *
+Explorați opțiunile disponibile. De obicei, numele care încep cu o literă de capital sunt atribute, ele conțin o valoare, în timp ce numele care încep cu litera subliniată arată că sunt funcții (numite și metode), fac \"ceva\". Numele care încep cu un subliniere sunt de obicei acolo pentru funcționarea internă a modulului și nu ar trebui să le pese de ele. Să folosim una dintre metodele de adăugare a unui obiect nou în documentul nostru:
 
 
 </div>
 
 
 ```python
-box = doc.addObject("Part   *   *Box", "myBox")
+box = doc.addObject("Part::Box", "myBox")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Nu se întâmplă nimic. De ce? Deoarece FreeCAD este creat pentru imaginea de ansamblu. Într-o zi, va funcționa cu sute de obiecte complexe, toate depinzând unul de altul. Efectuarea unei mici schimbări ar putea avea un impact mare, ar putea să trebuiască să recalculați tot documentul, ceea ce ar putea dura mult timp/ Trebuie să o faceți manual   *
+Nu se întâmplă nimic. De ce? Deoarece FreeCAD este creat pentru imaginea de ansamblu. Într-o zi, va funcționa cu sute de obiecte complexe, toate depinzând unul de altul. Efectuarea unei mici schimbări ar putea avea un impact mare, ar putea să trebuiască să recalculați tot documentul, ceea ce ar putea dura mult timp/ Trebuie să o faceți manual:
 
 
 </div>
@@ -179,26 +179,26 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-Vedeți? Acum, caseta noastră a apărut! Multe dintre butoanele care adaugă obiecte în FreeCAD fac de fapt 2 lucruri   * adăugă obiectul și recalculaează. Dacă ați activat opțiunea \"show script commands in python console\" \"comenzile scriptului de prezentare din consola python\" de mai sus, încercați acum să adăugați o sferă cu butonul GUI, veți vedea că cele două linii de cod python sunt executate una după alta.
+Vedeți? Acum, caseta noastră a apărut! Multe dintre butoanele care adaugă obiecte în FreeCAD fac de fapt 2 lucruri: adăugă obiectul și recalculaează. Dacă ați activat opțiunea \"show script commands in python console\" \"comenzile scriptului de prezentare din consola python\" de mai sus, încercați acum să adăugați o sferă cu butonul GUI, veți vedea că cele două linii de cod python sunt executate una după alta.
 
 
 </div>
 
-Acum, să explorăm conținutul casetei noastre   *
+Acum, să explorăm conținutul casetei noastre:
 
 
 ```python
 box.
 ```
 
-Veți vedea imediat câteva lucruri foarte interesante, cum ar fi   *
+Veți vedea imediat câteva lucruri foarte interesante, cum ar fi:
 
 
 ```python
 box.Height
 ```
 
-Aceasta va tipări înălțimea curentă a casetei noastre. Acum, să încercăm să schimbăm acest lucru   *
+Aceasta va tipări înălțimea curentă a casetei noastre. Acum, să încercăm să schimbăm acest lucru:
 
 
 ```python
@@ -221,12 +221,12 @@ Dacă selectați o casetă cu mouse-ul, veți vedea că în panoul proprietăți
 
 ## Vectori și Plasamente 
 
-[Vectors](http   *//en.wikipedia.org/wiki/Euclidean_vector) sunt un concept foarte fundamental în orice aplicație 3D. Este o listă cu 3 numere (x, y și z), care descriu un punct sau o poziție în spațiul 3D. O mulțime de lucruri se pot face cu vectori, cum ar fi adăugiri, scăderi, proiecții și [much more](http   *//en.wikipedia.org/wiki/Vector_space). In FreeCAD vectorii lucrează cam așa   *
+[Vectors](http://en.wikipedia.org/wiki/Euclidean_vector) sunt un concept foarte fundamental în orice aplicație 3D. Este o listă cu 3 numere (x, y și z), care descriu un punct sau o poziție în spațiul 3D. O mulțime de lucruri se pot face cu vectori, cum ar fi adăugiri, scăderi, proiecții și [much more](http://en.wikipedia.org/wiki/Vector_space). In FreeCAD vectorii lucrează cam așa:
 
 
 </div>
 
-[Vectors](https   *//en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https   *//en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this   *
+[Vectors](https://en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https://en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this:
 
 
 ```python
@@ -240,7 +240,7 @@ sumvec = myvec.add(othervec)
 
 <div class="mw-translate-fuzzy">
 
-O altă caracteristică comună a obiectelor FreeCAD este [placement](Placement.md). Fiecare obiect are atribute de plasare, care conține poziția (baza) și orientarea (rotirea) obiectului. Este ușor de manipulat, de exemplu pentru a ne mișca obiectul   *
+O altă caracteristică comună a obiectelor FreeCAD este [placement](Placement.md). Fiecare obiect are atribute de plasare, care conține poziția (baza) și orientarea (rotirea) obiectului. Este ușor de manipulat, de exemplu pentru a ne mișca obiectul:
 
 
 </div>
@@ -267,12 +267,12 @@ FreeCAD de la început a fost conceput pentru a funcționa ca o aplicație pe li
 
 </div>
 
-FreeCAD has been designed so that it can also be used without its user interface, as a command-line application. Almost every object in FreeCAD therefore consists of two parts   * an `Object`, its \"geometry\" component, and a `ViewObject`, its \"visual\" component. When you work in command-line mode, the geometry part is present, but the visual part is disabled.
+FreeCAD has been designed so that it can also be used without its user interface, as a command-line application. Almost every object in FreeCAD therefore consists of two parts: an `Object`, its \"geometry\" component, and a `ViewObject`, its \"visual\" component. When you work in command-line mode, the geometry part is present, but the visual part is disabled.
 
 
 <div class="mw-translate-fuzzy">
 
-Pentru a ilustra conceptul, a se vedea obiectul nostru cub, proprietățile geometrice ale cubului, cum ar fi dimensiunile, poziția etc., sunt stocate în obiect, în timp ce proprietățile sale vizuale, cum ar fi culoarea, grosimea liniei etc. sunt stocate în obiectul de vizualizare. Aceasta corespunde fișierelor \"Data\" și \"Vew\" din fereastra de proprietăți. Obiectul de vizualizare al unui obiect este accesat astfel   *
+Pentru a ilustra conceptul, a se vedea obiectul nostru cub, proprietățile geometrice ale cubului, cum ar fi dimensiunile, poziția etc., sunt stocate în obiect, în timp ce proprietățile sale vizuale, cum ar fi culoarea, grosimea liniei etc. sunt stocate în obiectul de vizualizare. Aceasta corespunde fișierelor \"Data\" și \"Vew\" din fereastra de proprietăți. Obiectul de vizualizare al unui obiect este accesat astfel:
 
 
 </div>
@@ -285,7 +285,7 @@ vo = box.ViewObject
 
 <div class="mw-translate-fuzzy">
 
-Acum, puteți schimba și proprietățile filei \"View\"   *
+Acum, puteți schimba și proprietățile filei \"View\":
 
 
 </div>
@@ -300,7 +300,7 @@ vo.show()
 
 <div class="mw-translate-fuzzy">
 
-Când porniți FreeCAD, consola python are încarcate deja 2 module de bază   * FreeCAD și FreeCADGui (care pot fi accesate și prin comenzile rapide App și Gui). Acestea conțin toate tipurile de funcții generice pentru a lucra cu documentele și obiectele acestora. Pentru a ilustra conceptul nostru, a se vedea că atât FreeCAD cât și FreeCADGui conțin un atribut ActiveDocument, care este documentul deschis în prezent. FreeCAD.ActiveDocument și FreeCADGui.ActiveDocument nu sunt același obiect. Acestea sunt cele două componente ale unui document FreeCAD și conțin atribute și metode diferite. De exemplu, FreeCADGui.ActiveDocument conține ActiveView, care este vizualizarea 3D curentă/actuală
+Când porniți FreeCAD, consola python are încarcate deja 2 module de bază: FreeCAD și FreeCADGui (care pot fi accesate și prin comenzile rapide App și Gui). Acestea conțin toate tipurile de funcții generice pentru a lucra cu documentele și obiectele acestora. Pentru a ilustra conceptul nostru, a se vedea că atât FreeCAD cât și FreeCADGui conțin un atribut ActiveDocument, care este documentul deschis în prezent. FreeCAD.ActiveDocument și FreeCADGui.ActiveDocument nu sunt același obiect. Acestea sunt cele două componente ale unui document FreeCAD și conțin atribute și metode diferite. De exemplu, FreeCADGui.ActiveDocument conține ActiveView, care este vizualizarea 3D curentă/actuală
 
 
 </div>
@@ -313,12 +313,12 @@ Când porniți FreeCAD, consola python are încarcate deja 2 module de bază   *
 
 ## Module
 
-Acum, ar trebui să te întrebi ce, se poate face cu \"Part   *   *Box\"? Aplicația de bază FreeCAD este mai mult sau mai puțin un container gol. Fără modulele sale, acesta nu poate face decât să creeze noi documente goale. Adevărata putere a FreeCAD este în modulele sale credincioase. Fiecare dintre ele adaugă la interfață nu numai noi ateliere de lucru, ci și noi comenzi python și tipuri noi de obiecte. Ca rezultat, mai multe tipuri de obiecte diferite sau chiar total incompatibile pot coexista în același document. Cele mai importante module din FreeCAD, pe care le vom analiza în acest tutorial, sunt [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) ori [Draft](Draft_Workbench.md).
+Acum, ar trebui să te întrebi ce, se poate face cu \"Part::Box\"? Aplicația de bază FreeCAD este mai mult sau mai puțin un container gol. Fără modulele sale, acesta nu poate face decât să creeze noi documente goale. Adevărata putere a FreeCAD este în modulele sale credincioase. Fiecare dintre ele adaugă la interfață nu numai noi ateliere de lucru, ci și noi comenzi python și tipuri noi de obiecte. Ca rezultat, mai multe tipuri de obiecte diferite sau chiar total incompatibile pot coexista în același document. Cele mai importante module din FreeCAD, pe care le vom analiza în acest tutorial, sunt [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) ori [Draft](Draft_Workbench.md).
 
 
 </div>
 
-The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are   * [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
+The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are: [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -328,7 +328,7 @@ The true power of FreeCAD lies in its faithful modules, with their respective wo
 
 </div>
 
-Puteți verifica toate tipurile de obiecte de bază disponibile pentru documentul curent, după cum urmează   *
+Puteți verifica toate tipurile de obiecte de bază disponibile pentru documentul curent, după cum urmează:
 
 
 ```python
@@ -338,7 +338,7 @@ doc.supportedTypes()
 
 <div class="mw-translate-fuzzy">
 
-Diferitele module FreeCAD, deși și-au adăugat tipurile de obiecte în FreeCAD, nu sunt încărcate automat în consola python. Aceasta este pentru a evita o pornire foarte lentă. Modulele sunt încărcate numai atunci când aveți nevoie de ele. De exemplu, pentru a explora ce se află în interiorul modulului Piese   *
+Diferitele module FreeCAD, deși și-au adăugat tipurile de obiecte în FreeCAD, nu sunt încărcate automat în consola python. Aceasta este pentru a evita o pornire foarte lentă. Modulele sunt încărcate numai atunci când aveți nevoie de ele. De exemplu, pentru a explora ce se află în interiorul modulului Piese:
 
 
 </div>
@@ -362,7 +362,7 @@ Dar vom vorbi mai multe despre modulul Piese mai jos. {{Top}}
 
 <div class="mw-translate-fuzzy">
 
-[Meshes](http   *//en.wikipedia.org/wiki/Polygon_mesh) sunt un tip foarte simplu de obiecte 3D, folosite de exemplu de [Sketchup](http   *//en.wikipedia.org/wiki/SketchUp), [Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29) or [3D studio Max](http   *//en.wikipedia.org/wiki/Autodesk_3ds_Max). Ele sunt compuse din 3 elemente   * puncte (numite și vârfuri), linii (numite și margini) și fațete. În multe aplicații, inclusiv în FreeCAD, fațetele pot avea doar 3 noduri. Dar, desigur, nimic nu vă împiedică să aveți o față mai mare plană făcută din mai multe triunghiuri coplanare.
+[Meshes](http://en.wikipedia.org/wiki/Polygon_mesh) sunt un tip foarte simplu de obiecte 3D, folosite de exemplu de [Sketchup](http://en.wikipedia.org/wiki/SketchUp), [Blender](http://en.wikipedia.org/wiki/Blender_%28software%29) or [3D studio Max](http://en.wikipedia.org/wiki/Autodesk_3ds_Max). Ele sunt compuse din 3 elemente: puncte (numite și vârfuri), linii (numite și margini) și fațete. În multe aplicații, inclusiv în FreeCAD, fațetele pot avea doar 3 noduri. Dar, desigur, nimic nu vă împiedică să aveți o față mai mare plană făcută din mai multe triunghiuri coplanare.
 
 
 </div>
@@ -378,7 +378,7 @@ Mesh-urile sunt simple, acest lucru poate fi un lucru rău, însă pentru multe 
 
 <div class="mw-translate-fuzzy">
 
-Obiectele tip Plasă/rețea de discretizare/meshes și obiectele FreeCAD sunt lucruri diferite. Puteți vedea obiectul FreeCAD ca un container pentru un obiect Mesh (cum ar fi, vom vedea mai jos, și pentru obiectele Piese de asemenea). Deci, pentru a adăuga un obiect tip plasă la FreeCAD, trebuie mai întâi să creăm un obiect FreeCAD și un obiect Mesh, apoi să adăugăm obiectul Mesh la obiectul FreeCAD   *
+Obiectele tip Plasă/rețea de discretizare/meshes și obiectele FreeCAD sunt lucruri diferite. Puteți vedea obiectul FreeCAD ca un container pentru un obiect Mesh (cum ar fi, vom vedea mai jos, și pentru obiectele Piese de asemenea). Deci, pentru a adăuga un obiect tip plasă la FreeCAD, trebuie mai întâi să creăm un obiect FreeCAD și un obiect Mesh, apoi să adăugăm obiectul Mesh la obiectul FreeCAD:
 
 
 </div>
@@ -390,7 +390,7 @@ mymesh = Mesh.createSphere()
 mymesh.Facets
 mymesh.Points
  
-meshobj = doc.addObject("Mesh   *   *Feature", "MyMesh")
+meshobj = doc.addObject("Mesh::Feature", "MyMesh")
 meshobj.Mesh = mymesh
 doc.recompute()
 ```
@@ -410,22 +410,22 @@ Acesta este un exemplu standard, care folosește metoda createSphere() pentru a 
 
 ## Piese
 
-[Part Workbench](Part_Workbench.md) este modulul cel mai puternic din întregul FreeCAD. Permite crearea și manipularea obeictelor [BRep](http   *//en.wikipedia.org/wiki/Boundary_representation). Acest tip de obiect, spre deosebire de Plase cu ochiuri, poate avea o mare varietate de componente. Pentru a rezuma, Brep înseamnă Boundary Representation-Reprezentarea limitelor, ceea ce înseamnă că ele sunt definite de către suprafețele lor, care cuprind și definesc un volum interior. Aceste suprafețe pot fi o varietate de lucruri, cum ar fi fațetele plane sau suprafețele NURBS foarte complexe. Ele poartă, de asemenea, conceptul de volum.
+[Part Workbench](Part_Workbench.md) este modulul cel mai puternic din întregul FreeCAD. Permite crearea și manipularea obeictelor [BRep](http://en.wikipedia.org/wiki/Boundary_representation). Acest tip de obiect, spre deosebire de Plase cu ochiuri, poate avea o mare varietate de componente. Pentru a rezuma, Brep înseamnă Boundary Representation-Reprezentarea limitelor, ceea ce înseamnă că ele sunt definite de către suprafețele lor, care cuprind și definesc un volum interior. Aceste suprafețe pot fi o varietate de lucruri, cum ar fi fațetele plane sau suprafețele NURBS foarte complexe. Ele poartă, de asemenea, conceptul de volum.
 
 
 </div>
 
-The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https   *//en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
+The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https://en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
 
 
 <div class="mw-translate-fuzzy">
 
-Modulul /Atelierul Piese se bazeză pe putrnica bilbiotecă [OpenCasCade](http   *//en.wikipedia.org/wiki/Open_CASCADE_Technology) bibliotecă, care permite o gamă largă de operații complexe să fie ușor de realizat pe acele obiecte, cum ar fi operațiile booleene, filetarea, lofts etc.
+Modulul /Atelierul Piese se bazeză pe putrnica bilbiotecă [OpenCasCade](http://en.wikipedia.org/wiki/Open_CASCADE_Technology) bibliotecă, care permite o gamă largă de operații complexe să fie ușor de realizat pe acele obiecte, cum ar fi operațiile booleene, filetarea, lofts etc.
 
 
 </div>
 
-Modulul Part/Piese funcționează la fel ca modulul Mesh/Plase   * Creați un obiect FreeCAD, un obiect Part, apoi adăugați obiectul Part la obiectul FreeCAD   *
+Modulul Part/Piese funcționează la fel ca modulul Mesh/Plase: Creați un obiect FreeCAD, un obiect Part, apoi adăugați obiectul Part la obiectul FreeCAD:
 
 
 ```python
@@ -434,7 +434,7 @@ myshape = Part.makeSphere(10)
 myshape.Volume
 myshape.Area
 
-shapeobj = doc.addObject("Part   *   *Feature", "MyShape")
+shapeobj = doc.addObject("Part::Feature", "MyShape")
 shapeobj.Shape = myshape
 doc.recompute()
 ```
@@ -442,7 +442,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-Modulul Part (cum ar fi modulul Mesh) are, de asemenea, o comandă rapidă care creează automat un obiect FreeCAD și adaugă o formă pentru acesta, astfel încât să puteți sări peste cele trei linii de mai sus   *
+Modulul Part (cum ar fi modulul Mesh) are, de asemenea, o comandă rapidă care creează automat un obiect FreeCAD și adaugă o formă pentru acesta, astfel încât să puteți sări peste cele trei linii de mai sus:
 
 
 </div>
@@ -486,7 +486,7 @@ FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) an
 
 <div class="mw-translate-fuzzy">
 
-[Draft Workbench](Draft_Workbench.md) adaugă câteva tipuri de obiecte parametrice 2D parametric (care sunt toate obiecte Part) ca de exemplu linile și cercurile, și oferă, de asemenea, câteva funcții generice care funcționează nu numai pe obiectele create de Draft, ci și pe orice obiect Part. Pentru a explora ceea ce este disponibil, pur și simplu faceți   *
+[Draft Workbench](Draft_Workbench.md) adaugă câteva tipuri de obiecte parametrice 2D parametric (care sunt toate obiecte Part) ca de exemplu linile și cercurile, și oferă, de asemenea, câteva funcții generice care funcționează nu numai pe obiectele create de Draft, ci și pe orice obiect Part. Pentru a explora ceea ce este disponibil, pur și simplu faceți:
 
 
 </div>
@@ -508,12 +508,12 @@ Draft.move(box, mvec)
 
 ## Interfață
 
-Interfața user a FreeCAD este realizată cu [Qt](http   *//en.wikipedia.org/wiki/Qt_%28framework%29), un sistem puternic de interfață grafică, responsabil pentru desenarea și manipularea tuturor comenzilor, meniurilor, barelor de instrumente, butoanelor în jurul vizualizării 3D. Qt oferă un modul, numit PySide, care permite Python-ului să acceseze și să modifice interfețele Qt, cum ar fi FreeCAD. Să încercăm să modificăm interfața Qt și să producem un dialog simplu   *
+Interfața user a FreeCAD este realizată cu [Qt](http://en.wikipedia.org/wiki/Qt_%28framework%29), un sistem puternic de interfață grafică, responsabil pentru desenarea și manipularea tuturor comenzilor, meniurilor, barelor de instrumente, butoanelor în jurul vizualizării 3D. Qt oferă un modul, numit PySide, care permite Python-ului să acceseze și să modifice interfețele Qt, cum ar fi FreeCAD. Să încercăm să modificăm interfața Qt și să producem un dialog simplu:
 
 
 </div>
 
-The FreeCAD user interface is made with [Qt](https   *//en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog   *
+The FreeCAD user interface is made with [Qt](https://en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog:
 
 
 ```python
@@ -570,11 +570,6 @@ Acum sunteți gata pentru mai multă programare/script FreeCAD în profunzime. D
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

@@ -27,7 +27,7 @@ Les ateliers installés de cette manière seront disponibles pour tous les utili
 Copiez le répertoire de l\'atelier dans `$INSTALL_DIR/Mod/` où `$INSTALL_DIR` correspond au répertoire d\'installation de FreeCAD.
 
 -   Pour Linux, c\'est généralement `/usr/share/freecad/Mod/`
--   Pour Windows, c\'est généralement `C   *Program Files\FreeCAD\Mod\`
+-   Pour Windows, c\'est généralement `C:\Program Files\FreeCAD\Mod\`
 -   Pour macOS, c\'est généralement `/Applications/FreeCAD/Mod/`
 
 ## Installation pour un seul utilisateur 
@@ -37,7 +37,7 @@ Les ateliers installés de cette manière ne seront disponibles que pour un seul
 Copiez le dossier de l\'atelier dans `$USER_DIR/Mod/` où `$USER_DIR` est le répertoire FreeCAD d\'un `nom d'utilisateur` spécifique. (vous pouvez trouver ce dernier en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md)).
 
 -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
--   Sous Windows, c\'est `%APPDATA%\FreeCAD\Mod\`, lequel est généralement `C   *Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
+-   Sous Windows, c\'est `%APPDATA%\FreeCAD\Mod\`, lequel est généralement `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
 -   Sous macOS, c\'est généralement `/Users/username/Library/Preferences/FreeCAD/Mod/`.
 
 ## Informations supplémentaires 
@@ -45,11 +45,6 @@ Copiez le dossier de l\'atelier dans `$USER_DIR/Mod/` où `$USER_DIR` est le ré
 Pour plus d\'informations pour créer votre propre atelier, allez sur [Documentation pour utilisateurs avancés](Power_users_hub/fr.md) et sur [Documentation pour développeurs](Power_users_hub/fr.md).
 
 Voir aussi une description détaillée sur la page [Comment installer un atelier supplémentaire](How_to_install_additional_workbenches/fr.md).
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

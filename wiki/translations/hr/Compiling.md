@@ -29,10 +29,5 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling/hr

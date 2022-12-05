@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name/ro   *Arch Rebar Stirrup
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench/ro.md), [BIM](BIM_Workbench/ro.md)
-   SeeAlso   *[Helical Rebar](Arch_Rebar_Helical/ro.md), [Rebar](Arch_Rebar/ro.md)
-   Version   *0.17
+- GuiCommand:/ro
+   Name/ro:Arch Rebar Stirrup
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/ro.md), [BIM](BIM_Workbench/ro.md)
+   SeeAlso:[Helical Rebar](Arch_Rebar_Helical/ro.md), [Rebar](Arch_Rebar/ro.md)
+   Version:0.17
 ---
 
 # Arch Rebar Stirrup/ro
@@ -26,14 +26,14 @@ stirrup reinforcing bar în elementul de structură.
 
 The [Stirrup Rebar](Arch_Rebar_Stirrup.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Stirrup.png  style="width   *800px;">
+<img alt="" src=images/Stirrup.png  style="width:800px;">
 
 
 </div>
@@ -52,7 +52,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1.  Creează un element [structure](Arch_Structure.md)
 2.  Select any face of the structure
 3.  Then select **<img src="images/Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** from the rebar tools
-4.  A task panel will pop-out on the left side of the screen as shown below <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+4.  A task panel will pop-out on the left side of the screen as shown below <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 5.  Select the desired orientation
 6.  Give the inputs like left cover, right cover, top cover, bottom, front cover, bent angle, bent factor, rounding and diameter of the rebar
 7.  Select the mode of distribution either amount or spacing
@@ -65,7 +65,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-   *   <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
@@ -73,23 +73,23 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Proprietăți
 
--    **Front Cover**   * Distanța dintre armături și fațetele selectate.
+-    **Front Cover**: Distanța dintre armături și fațetele selectate.
 
--    **Right Cover**   * Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
+-    **Right Cover**: Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
 
--    **Left Cover**   * Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
+-    **Left Cover**: Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
 
--    **Bottom Cover**   * Distanța dintre armătură și fațeta de jos a structurii.
+-    **Bottom Cover**: Distanța dintre armătură și fațeta de jos a structurii.
 
--    **Top Cover**   * Distanța dintre armătură și fața superioară a structurii.
+-    **Top Cover**: Distanța dintre armătură și fața superioară a structurii.
 
--    **Bent Angle**   * Bent angle defines the angle at the ends of a stirrup.
+-    **Bent Angle**: Bent angle defines the angle at the ends of a stirrup.
 
--    **Bent Factor**   * Bent Factor defines length of stirrup end.
+-    **Bent Factor**: Bent Factor defines length of stirrup end.
 
--    **Amount**   * Cantitatea de armătură
+-    **Amount**: Cantitatea de armătură
 
--    **Spacing**   * Distanța dintre acele fiecărei bare.
+-    **Spacing**: Distanța dintre acele fiecărei bare.
 
 
 <div class="mw-translate-fuzzy">
@@ -102,7 +102,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **<img src="images/Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python prin utilizarea următoarei funcției   *
+Instrumentul **<img src="images/Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python prin utilizarea următoarei funcției:
 
 
 </div>
@@ -128,7 +128,7 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 
 <div class="mw-translate-fuzzy">
 
-Exemplu   * Crearea unei armături tip Stirrup rebar.
+Exemplu: Crearea unei armături tip Stirrup rebar.
 
 
 </div>
@@ -193,11 +193,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

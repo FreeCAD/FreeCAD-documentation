@@ -19,9 +19,9 @@
 Fornisce una serie di informazioni sulla forma selezionata e visualizza i dati direttamente nella vista 3D
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro}}
 
-<img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width:480px;"> 
 *FCInfoGlass*
 
 ## Utilisation
@@ -57,12 +57,12 @@ global colorize              ; colorize                      ="black" # colorize
 
 ## Esempi
 
-Disponibili    * **\"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\"**
+Disponibili : **\"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\"**
 
 
 <center>
 
-Image   *Macro FCInfoGlass 01.png\|**colore =\"black\"** Image   *Macro FCInfoGlass 02.png\|**colore =\"white\"**
+Image:Macro FCInfoGlass 01.png\|**colore =\"black\"** Image:Macro FCInfoGlass 02.png\|**colore =\"white\"**
 
 
 </center>
@@ -73,7 +73,7 @@ Image   *Macro FCInfoGlass 01.png\|**colore =\"black\"** Image   *Macro FCInfoGl
 
 <center>
 
-Image   *Macro FCInfoGlass 03.png\|**colore =\"red\"** Image   *Macro FCInfoGlass 04.png\|**colore =\"yellow\"**
+Image:Macro FCInfoGlass 03.png\|**colore =\"red\"** Image:Macro FCInfoGlass 04.png\|**colore =\"yellow\"**
 
 
 </center>
@@ -85,14 +85,14 @@ In questa sezione si può attivare o disattivare la visualizzazione delle inform
 
 **Esempi**
 
-riga visualizata ( = **1** )   *
+riga visualizata ( = **1** ):
 
 
 ```python
 global LabelObject     ;LabelObject      = 1 # Label                                          #3  Label Object
 ```
 
-riga non visualizzata ( = **0** )   * 
+riga non visualizzata ( = **0** ): 
 ```python
 global LabelObject     ;LabelObject      = 0 # Label                                          #3  Label Object
 ``` Le righe della sezione da 79 a 171
@@ -207,7 +207,7 @@ Nota. È possibile che in ambiente Linux non si possa scegliere o avere accesso 
 
 In ambiente Windows è possibile cliccare all\'interno della finestra per accedere all\'oggetto, ad esclusione dei caratteri visualizzati
 
-per visualizzare questa finestra e modificare le dimensioni, cambiare   *
+per visualizzare questa finestra e modificare le dimensioni, cambiare:
 
 **visualiserWindow riga 81 = 1**
 
@@ -220,12 +220,12 @@ le **righe 87 e 88 e SizeX SizeY** per le dimensioni della finestra
 
 ## Script 
 
-L\'icona di **Macro_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width   *64px;">
+L\'icona di **Macro_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width:64px;">
 
 
 </div>
 
-Copiare lo script in Gits [**Macro_FCInfoGlass.FCMacro**](https   *//gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
+Copiare lo script in Gits [**Macro_FCInfoGlass.FCMacro**](https://gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 
 poi copiare la Macro_FCInfoGlass.FCMacro e l\'icona nella propria directory delle macro.
 
@@ -236,22 +236,22 @@ poi copiare la Macro_FCInfoGlass.FCMacro e l\'icona nella propria directory dell
 
 ## Link
 
-La discussione nel forum [FCInfo Macro](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=6005)
+La discussione nel forum [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
 
 </div>
 
-Le mie macro in [mario52a](https   *//gist.github.com/mario52a) gists
+Le mie macro in [mario52a](https://gist.github.com/mario52a) gists
 
 ## Versione
 
-**28/08/2016 Ver 00.05**    * add radius with subObjects and center coordinates
+**28/08/2016 Ver 00.05** : add radius with subObjects and center coordinates
 
-**25/11/2015 Ver 0.04**    * add radius with subObjects and normalAT(0,0)
+**25/11/2015 Ver 0.04** : add radius with subObjects and normalAT(0,0)
 
-**31/08/2015 Ver 0.03**    * add many informations
+**31/08/2015 Ver 0.03** : add many informations
 
-**04/08/2015 Ver 0.02**    * add switch and presentation
+**04/08/2015 Ver 0.02** : add switch and presentation
 
 
 

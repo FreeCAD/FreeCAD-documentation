@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Part Mirror
-   MenuLocation   *Part → Mirror
-   Workbenches   *[Part](Part_Workbench.md)
+- GuiCommand:
+   Name:Part Mirror
+   MenuLocation:Part → Mirror
+   Workbenches:[Part](Part_Workbench.md)
 ---
 
 # Part Mirror/pl
@@ -11,7 +11,7 @@
 
 **Part Mirror** creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), or any plane parallel to a standard plane.
 
-An example   *
+An example:
 
 ![Before](images/PARTMirrorBeforev11.png )
 

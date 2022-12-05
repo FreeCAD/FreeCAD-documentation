@@ -3,8 +3,6 @@
 
 Questa categoria contiene articoli di documentazione sui file di script Python, che sono destinati agli utenti più avanzati.
 
-[Category   *Documentation/it](Category   *Documentation/it.md) [Category   *Categories/it](Category   *Categories/it.md)
-
 ### Contents
 
 |     |     |     |

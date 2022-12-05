@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Label
-   Name/tr   *Etiket
-   MenuLocation   *Taslak → Etiket
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut   ***D** **L**
-   SeeAlso   *[Metin](Draft_Text/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
-   Version/tr   *0.17
+- GuiCommand:/tr
+   Name:Draft Label
+   Name/tr:Etiket
+   MenuLocation:Taslak → Etiket
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**D** **L**
+   SeeAlso:[Metin](Draft_Text/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
+   Version/tr:0.17
 ---
 
 # Draft Label/tr
@@ -34,7 +34,7 @@ Oksuz daha basit bir metin elemanı eklemek için [Metin](Draft_Text/tr.md) kull
 
 </div>
 
-<img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Label_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@ Oksuz daha basit bir metin elemanı eklemek için [Metin](Draft_Text/tr.md) kull
 
 ## Nasıl Kullanılır 
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -87,28 +87,28 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-The following label types are available   *
+The following label types are available:
 
 
 <div class="mw-translate-fuzzy">
 
--    {{Emphasis | Custom   *}}, {{PropertyData | Custom Text}} içeriğini görüntüler.
+-    {{Emphasis | Custom:}}, {{PropertyData | Custom Text}} içeriğini görüntüler.
 
--    {{Emphasis | Name   *}}hedef nesnenin dahili adını görüntüler; iç ad, yaratılış zamanında nesneye atanır ve nesnenin varlığı boyunca sabit kalır.
+-    {{Emphasis | Name:}}hedef nesnenin dahili adını görüntüler; iç ad, yaratılış zamanında nesneye atanır ve nesnenin varlığı boyunca sabit kalır.
 
--    {{Emphasis | Label   *}}hedef nesnenin etiketini görüntüler; Nesnenin etiketi kullanıcı tarafından herhangi bir zamanda değiştirilebilir.
+-    {{Emphasis | Label:}}hedef nesnenin etiketini görüntüler; Nesnenin etiketi kullanıcı tarafından herhangi bir zamanda değiştirilebilir.
 
--    {{Emphasis | Position   *}}, hedef nesnenin taban noktasının, hedef köşenin veya varsa, hedef alt öğenin kütle merkezinin koordinatlarını görüntüler.
+-    {{Emphasis | Position:}}, hedef nesnenin taban noktasının, hedef köşenin veya varsa, hedef alt öğenin kütle merkezinin koordinatlarını görüntüler.
 
--    {{Emphasis | Length   *}}, varsa, hedef alt öğenin uzunluğunu gösterir.
+-    {{Emphasis | Length:}}, varsa, hedef alt öğenin uzunluğunu gösterir.
 
--    {{Emphasis | Area   *}}, eğer varsa, hedef alt öğenin alanını gösterir.
+-    {{Emphasis | Area:}}, eğer varsa, hedef alt öğenin alanını gösterir.
 
--    {{Emphasis | Volume   *}}, eğer varsa, hedef nesnenin hacmini gösterir.
+-    {{Emphasis | Volume:}}, eğer varsa, hedef nesnenin hacmini gösterir.
 
--    {{Emphasis | Tag   *}}, örneğin [Mimari](Arch_Workbench/tr.md) ile oluşturulan nesneler gibi bir özelliğe sahipse, hedef nesnenin {{incode | Tag}} özniteliğini görüntüler.
+-    {{Emphasis | Tag:}}, örneğin [Mimari](Arch_Workbench/tr.md) ile oluşturulan nesneler gibi bir özelliğe sahipse, hedef nesnenin {{incode | Tag}} özniteliğini görüntüler.
 
--    {{Emphasis | Material   *}}, hedef nesnenin böyle bir özelliği varsa, hedef nesnenin malzemesinin etiketini görüntüler.
+-    {{Emphasis | Material:}}, hedef nesnenin böyle bir özelliği varsa, hedef nesnenin malzemesinin etiketini görüntüler.
 
 
 </div>
@@ -119,7 +119,7 @@ The following label types are available   *
 <div class="mw-translate-fuzzy">
 
 
-{{emphasis | Not   *}}
+{{emphasis | Not:}}
 
 yatay düz parçanın yönü, sağa veya sola doğru, metni otomatik olarak ters yöne hizalar. Lider dikey olarak yukarı çıkarsa, metin sola hizalanır; dikey olarak aşağı inerse, sağa hizalanır.
 
@@ -128,9 +128,9 @@ yatay düz parçanın yönü, sağa veya sola doğru, metni otomatik olarak ters
 
 ## Özellikler
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
+A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
 
 ### Data
 
@@ -142,23 +142,23 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 ### Veri
 
--    {{PropertyData | Label Type}}   * bu etiket tarafından gösterilen bilgilerin türünü belirtir (aşağıya bakın).
+-    {{PropertyData | Label Type}}: bu etiket tarafından gösterilen bilgilerin türünü belirtir (aşağıya bakın).
 
--    {{PropertyData | Custom Text}}   * {{PropertyData | Label Type}} \"Özel\" olarak ayarlandığında veya etiket parametrik olmadığında görüntülenecek metin bloğunu belirtir. Metin dizelerin bir listesi olarak verilmiştir; listedeki her öğe, virgülle ayrılmış olarak, yeni bir metin satırı belirtir.
+-    {{PropertyData | Custom Text}}: {{PropertyData | Label Type}} \"Özel\" olarak ayarlandığında veya etiket parametrik olmadığında görüntülenecek metin bloğunu belirtir. Metin dizelerin bir listesi olarak verilmiştir; listedeki her öğe, virgülle ayrılmış olarak, yeni bir metin satırı belirtir.
 
--    {{PropertyData | Text}}   * (salt okunur), {{PropertyData | Label Type}} \'e bağlı olarak etiket tarafından görüntülenen gerçek metni gösterir.
+-    {{PropertyData | Text}}: (salt okunur), {{PropertyData | Label Type}} \'e bağlı olarak etiket tarafından görüntülenen gerçek metni gösterir.
 
--    {{PropertyData | Target Point}}   * liderin ipucunun konumunu belirtir.
+-    {{PropertyData | Target Point}}: liderin ipucunun konumunu belirtir.
 
--    {{PropertyData | Straight Direction}}   * Liderin düz segmentinin yönünü yatay veya dikey olarak belirtir.
+-    {{PropertyData | Straight Direction}}: Liderin düz segmentinin yönünü yatay veya dikey olarak belirtir.
 
--    {{PropertyData | Straight Distance}}   * metnin taban noktasından başlayarak satırın düz bölümünün uzunluğunu belirtir. Mesafe pozitifse, lider metnin sağ tarafından başlar ve metin sağa hizalanır; Aksi takdirde, lider metnin solundan başlar ve metin sola hizalanır.
+-    {{PropertyData | Straight Distance}}: metnin taban noktasından başlayarak satırın düz bölümünün uzunluğunu belirtir. Mesafe pozitifse, lider metnin sağ tarafından başlar ve metin sağa hizalanır; Aksi takdirde, lider metnin solundan başlar ve metin sola hizalanır.
 
--    {{PropertyData | Position}}   * metin bloğunun ilk satırının taban noktasını belirtir; aynı zamanda liderin nasıl çizildiğini de etkiler.
+-    {{PropertyData | Position}}: metin bloğunun ilk satırının taban noktasını belirtir; aynı zamanda liderin nasıl çizildiğini de etkiler.
 
--    {{PropertyData | Angle}}   * metin bloğunun ilk satırının taban çizgisinin dönüşünü belirtir; ayrıca liderin nasıl çizileceğini de etkiler, çünkü artık yatay veya dikey olmayacaktır.
+-    {{PropertyData | Angle}}: metin bloğunun ilk satırının taban çizgisinin dönüşünü belirtir; ayrıca liderin nasıl çizileceğini de etkiler, çünkü artık yatay veya dikey olmayacaktır.
 
--    {{PropertyData | Axis}}   * döndürme için kullanılacak ekseni belirtir.
+-    {{PropertyData | Axis}}: döndürme için kullanılacak ekseni belirtir.
 
 
 </div>
@@ -166,32 +166,32 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Leader}}
 
--    **Points|VectorList**   * specifies the points of the leader.
+-    **Points|VectorList**: specifies the points of the leader.
 
--    **Straight Direction|Enumeration**   * specifies the direction of the first leader segment   * {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
+-    **Straight Direction|Enumeration**: specifies the direction of the first leader segment: {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
 
--    **Straight Distance|Distance**   * specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
+-    **Straight Distance|Distance**: specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
 
 
 {{TitleProperty|Target}}
 
--    **Target|LinkSub**   * specifies the object and optional subelement the label is linked to.
+-    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
 
--    **Target Point|Vector**   * specifies the position of the tip of the leader, which is where the arrow is attached.
+-    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**   * specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the label.
+-    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
@@ -201,27 +201,27 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 ### Görünüm
 
--    {{PropertyView | Metin Yazı Tipi}}   * metni çizmek için kullanılacak yazı tipini belirtir. \"Arial\" gibi bir font adı, \"sans\", \"serif\" veya \"mono\" gibi bir varsayılan stil, \"Arial, Helvetica, sans\" gibi bir aile veya \"gibi bir stil içeren bir ad olabilir. Arial   * \"Kalın. Belirtilen font sistemde bulunmuyorsa, bunun yerine genel olan kullanılır.
+-    {{PropertyView | Metin Yazı Tipi}}: metni çizmek için kullanılacak yazı tipini belirtir. \"Arial\" gibi bir font adı, \"sans\", \"serif\" veya \"mono\" gibi bir varsayılan stil, \"Arial, Helvetica, sans\" gibi bir aile veya \"gibi bir stil içeren bir ad olabilir. Arial: \"Kalın. Belirtilen font sistemde bulunmuyorsa, bunun yerine genel olan kullanılır.
 
--    {{PropertyView | Text Size}}   * metnin boyutunu belirtir. Etiket nesnesi ağaç görünümünde oluşturulmuşsa ancak 3D görünümünde hiçbir metin görünmüyorsa, metnin boyutunu görünene kadar artırın.
+-    {{PropertyView | Text Size}}: metnin boyutunu belirtir. Etiket nesnesi ağaç görünümünde oluşturulmuşsa ancak 3D görünümünde hiçbir metin görünmüyorsa, metnin boyutunu görünene kadar artırın.
 
--    {{PropertyView | Text Alignment}}   * metnin taban çizgisinin öncüye göre dikey olarak hizalanmasını belirtir. Üst, orta veya alt olabilir.
+-    {{PropertyView | Text Alignment}}: metnin taban çizgisinin öncüye göre dikey olarak hizalanmasını belirtir. Üst, orta veya alt olabilir.
 
--    {{PropertyView | Text Color}}   * Bir RGB demetindeki metnin rengini belirtir (R, G, B).
+-    {{PropertyView | Text Color}}: Bir RGB demetindeki metnin rengini belirtir (R, G, B).
 
--    {{PropertyView | Line Width}}   * liderin genişliğini belirtir.
+-    {{PropertyView | Line Width}}: liderin genişliğini belirtir.
 
--    {{PropertyView | Çizgi Rengi}}   * liderin rengini belirtir.
+-    {{PropertyView | Çizgi Rengi}}: liderin rengini belirtir.
 
--    {{PropertyView | Arrow Size}}   * liderin ucunda görüntülenen sembolün boyutunu belirtir.
+-    {{PropertyView | Arrow Size}}: liderin ucunda görüntülenen sembolün boyutunu belirtir.
 
--    {{PropertyView | Arrow Type}}   * liderin ucunda görüntülenen, nokta, daire, ok veya kene olabilecek sembolün türünü belirtir.
+-    {{PropertyView | Arrow Type}}: liderin ucunda görüntülenen, nokta, daire, ok veya kene olabilecek sembolün türünü belirtir.
 
--    {{PropertyView | Frame}}   * \"Dikdörtgen\" ise, metnin etrafına bir çerçeve çizer.
+-    {{PropertyView | Frame}}: \"Dikdörtgen\" ise, metnin etrafına bir çerçeve çizer.
 
--    {{PropertyView | Line}}   * `True` ise, lider satır görüntülenecektir; Aksi halde, sadece baştaki metin ve sembol gösterilecektir.
+-    {{PropertyView | Line}}: `True` ise, lider satır görüntülenecektir; Aksi halde, sadece baştaki metin ve sembol gösterilecektir.
 
--    {{PropertyView | Display Mode}}   * \"3B metin\" ise, metin başlangıçta XY düzleminde olacak şekilde sahne eksenlerine hizalanır; \"2B metin\" ise, metin her zaman kameraya dönük olacaktır.
+-    {{PropertyView | Display Mode}}: \"3B metin\" ise, metin başlangıçta XY düzleminde olacak şekilde sahne eksenlerine hizalanır; \"2B metin\" ise, metin her zaman kameraya dönük olacaktır.
 
 
 </div>
@@ -229,19 +229,19 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Text}}
 
--    **Justification|Enumeration**   * specifies the horizontal alignment of the text   * {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+-    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 
--    **Line Spacing|Float**   * specifies the factor applied to the default line height of the text.
+-    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
 
--    **Max Chars|Integer**   * specifies the maximum number of characters on each line of the text.
+-    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
 
--    **Text Alignment|Enumeration**   * specifies the vertical alignment of the text   * {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+-    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
 
--    **Text Color|Color**   * specifies the color of the text.
+-    **Text Color|Color**: specifies the color of the text.
 
--    **Text Font|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Text Font|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Text Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Text Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Scripting
 
@@ -251,7 +251,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 ## Betik
 
 
-**Ayrıca bkz.   ***
+**Ayrıca bkz.:**
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -261,7 +261,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
-Etiket aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
+Etiket aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
 
 
 </div>
@@ -276,7 +276,7 @@ label = make_label(target_point=App.Vector(0, 0, 0),
                    points=None)
 ```
 
-Örnek   *
+Örnek:
 
 
 ```python

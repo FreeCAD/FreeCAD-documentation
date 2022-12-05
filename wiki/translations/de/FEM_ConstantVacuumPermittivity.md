@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstantVacuumPermittivity
-   Name/de   *FEM ElektrischeFeldkonstante
-   MenuLocation   *Modell → Konstanten überschreiben → Elektrische Feldkonstante
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *
+- GuiCommand:/de
+   Name:FEM ConstantVacuumPermittivity
+   Name/de:FEM ElektrischeFeldkonstante
+   MenuLocation:Modell → Konstanten überschreiben → Elektrische Feldkonstante
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Version:0.19
+   SeeAlso:
 ---
 
 # FEM ConstantVacuumPermittivity/de

@@ -3,22 +3,22 @@
 
 W preferencjach środowiska pracy MES znajduje się kilka zakładek, poczynając od **Ogólnej** konfiguracji środowiska. Pozostałe zakładki określają sposób współpracy MES z obsługiwanymi zewnętrznymi solverami.
 
-Obecnie obsługiwane są następujące solvery zewnętrzne   *
+Obecnie obsługiwane są następujące solvery zewnętrzne:
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [CalculiX](FEM_SolverCalculixCxxtools/pl.md)
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Elmer](FEM_SolverElmer/pl.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Mystran](FEM_SolverMystran/pl.md) {{Version/pl|0.20}}
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Z88](FEM_SolverZ88/pl.md)
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/pl.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/pl.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/pl.md) {{Version/pl|0.20}}
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/pl.md)
 
 ## Ogólne
 
-W zakładce *Ogólne* można wybrać następujące opcje   *
+W zakładce *Ogólne* można wybrać następujące opcje:
 
 ![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-W zakładce *Gmsh* można wybrać następujące opcje   *
+W zakładce *Gmsh* można wybrać następujące opcje:
 
 +++
 | Nazwa                                                 | Opis                                                                                                                                        |
@@ -36,19 +36,19 @@ W zakładce *Gmsh* można wybrać następujące opcje   *
 
 ## CalculiX
 
-W zakładce *CalculiX* można wybrać następujące opcje   *
+W zakładce *CalculiX* można wybrać następujące opcje:
 
 ![](images/Preference_Fem_Tab_02.png )
 
 ## Elmer
 
-W zakładce *Elmer* można wybrać następujące opcje   *
+W zakładce *Elmer* można wybrać następujące opcje:
 
 +++
 | Nazwa                                                              | Opis                                                                                                                                                                        |
 +====================================================================+=============================================================================================================================================================================+
 |                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych narzędzia do zapisu siatki [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach. |
-| **ElmerGrid   * Szukaj w znanych katalogach binarnych**   |                                                                                                                                                                             |
+| **ElmerGrid: Szukaj w znanych katalogach binarnych**   |                                                                                                                                                                             |
 |                                                                 |                                                                                                                                                                             |
 +++
 |                                                     | Ścieżka do pliku binarnego narzędzia do tworzenia siatki [Elmer](FEM_SolverElmer/pl.md).                                                                            |
@@ -56,7 +56,7 @@ W zakładce *Elmer* można wybrać następujące opcje   *
 |                                                                 |                                                                                                                                                                             |
 +++
 |                                                     | Jeśli opcja ta jest zaznaczona, FreeCAD będzie szukał plików binarnych solvera [Elmer](FEM_SolverElmer/pl.md) w znanych *(zwykłych)* katalogach.                    |
-| **ElmerSolver   * Szukaj w znanych katalogach binarnych** |                                                                                                                                                                             |
+| **ElmerSolver: Szukaj w znanych katalogach binarnych** |                                                                                                                                                                             |
 |                                                                 |                                                                                                                                                                             |
 +++
 |                                                     | Ścieżka do binarnego solvera [Elmer](FEM_SolverElmer/pl.md).                                                                                                        |
@@ -68,7 +68,7 @@ W zakładce *Elmer* można wybrać następujące opcje   *
 
 ## Mystran
 
-W zakładce *Mystran* można wybrać następujące opcje   *
+W zakładce *Mystran* można wybrać następujące opcje:
 
 +++
 | Nazwa                                                 | Opis                                                                                                                                       |
@@ -86,7 +86,7 @@ W zakładce *Mystran* można wybrać następujące opcje   *
 
 ## Z88
 
-W zakładce *Z88* można wybrać następujące opcje   *
+W zakładce *Z88* można wybrać następujące opcje:
 
 +++
 | Nazwa                                                         | Opis                                                                                                                                                                                                                                                                 |
@@ -116,7 +116,7 @@ W zakładce *Z88* można wybrać następujące opcje   *
 
 ## Materiał
 
-W zakładce *Materiał* można wybrać następujące opcje   *
+W zakładce *Materiał* można wybrać następujące opcje:
 
 +++
 | Nazwa                                                                                                            | Opis                                                                                                                                                                                                                    |
@@ -147,9 +147,7 @@ W zakładce *Materiał* można wybrać następujące opcje   *
 
 {{FEM Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

@@ -1,5 +1,5 @@
 # FreeCAD Managing Expectations/de
-**While we welcome and encourage community growth and participation, demands, emotional rants and wild claims are generally poorly received as our community is made up of many experienced and passionate supporters of FreeCAD who have heard similar statements many times over. If you find a feature lacking, or something which is annoying for you, we highly encourage you to consider getting engaged with the code itself. FreeCAD is largely developed by a relatively small group of talented people who all have day jobs, families and other interests beyond just programming on-demand. If you have the skills (Python/C++) and motivation to participate, your contributions can help make FreeCAD even better than it is today. You can find tracked bugs/feature requests [https   *//github.com/FreeCAD/FreeCAD/issues here].**
+**While we welcome and encourage community growth and participation, demands, emotional rants and wild claims are generally poorly received as our community is made up of many experienced and passionate supporters of FreeCAD who have heard similar statements many times over. If you find a feature lacking, or something which is annoying for you, we highly encourage you to consider getting engaged with the code itself. FreeCAD is largely developed by a relatively small group of talented people who all have day jobs, families and other interests beyond just programming on-demand. If you have the skills (Python/C++) and motivation to participate, your contributions can help make FreeCAD even better than it is today. You can find tracked bugs/feature requests [https://github.com/FreeCAD/FreeCAD/issues here].**
 
 
 {{TOCright}}
@@ -10,7 +10,7 @@ Diese Wiki-Seite ist für neue FreeCAD-Nutzer gedacht, die von anderen CAD/CAM-A
 
 ## Opening statement 
 
-Many hobbyists, freelance designers and small businesses often seek refuge from the high costs and licensing restrictions of commercial software, or perhaps you merely choose FreeCAD because you believe in the philosophy behind [FOSS](https   *//en.wikipedia.org/wiki/FOSS). In either case, WELCOME! There are many users, just like you who have successfully made the transition to FreeCAD for their personal and professional needs. This wiki page is designed to help set you on the path to success and establish some realistic expectations while diving into the *FreeCAD Way*, which is most likely quite a bit different from what you may have grown accustomed to with other popular CAD software.
+Many hobbyists, freelance designers and small businesses often seek refuge from the high costs and licensing restrictions of commercial software, or perhaps you merely choose FreeCAD because you believe in the philosophy behind [FOSS](https://en.wikipedia.org/wiki/FOSS). In either case, WELCOME! There are many users, just like you who have successfully made the transition to FreeCAD for their personal and professional needs. This wiki page is designed to help set you on the path to success and establish some realistic expectations while diving into the *FreeCAD Way*, which is most likely quite a bit different from what you may have grown accustomed to with other popular CAD software.
 
 ## Was kann ich erwarten? 
 
@@ -25,26 +25,26 @@ Im Kern ist FreeCAD ein parametrischer Modellierer. Sein Konzept basiert auf der
 
 <div class="mw-translate-fuzzy">
 
-Wenn man von einem anderen CAD-Programm kommt, muss man sicherlich seine Arbeitsabläufe anpassen, einen Workaround anwenden oder ein Makro benutzen, aber in vielen Fällen wird man erreichen, was man möchte. Und wenn man Hilfe braucht   * Wir haben ein sehr aktives und hilfsbereites [Forum](https   *//forum.freecad.org/index.php). Und unter den Mitgliedern im Forum sind auch viele (ehemalige) Anwender anderer CAD-Programme. Es gibt keinen Grund zu zögern, diese Quelle anzuzapfen.
+Wenn man von einem anderen CAD-Programm kommt, muss man sicherlich seine Arbeitsabläufe anpassen, einen Workaround anwenden oder ein Makro benutzen, aber in vielen Fällen wird man erreichen, was man möchte. Und wenn man Hilfe braucht: Wir haben ein sehr aktives und hilfsbereites [Forum](https://forum.freecad.org/index.php). Und unter den Mitgliedern im Forum sind auch viele (ehemalige) Anwender anderer CAD-Programme. Es gibt keinen Grund zu zögern, diese Quelle anzuzapfen.
 
 
 </div>
 
 ## Wie kann ich unterstützen? 
 
-Es gibt viele Wege   * Man kann [spenden](Donate/de.md), bei Fragen im [Forum](https   *//forum.freecad.org/index.php) helfen, die Dokumentation ergänzen oder Programmieren. Siehe [Hilf FreeCAD](Help_FreeCAD/de.md).
+Es gibt viele Wege: Man kann [spenden](Donate/de.md), bei Fragen im [Forum](https://forum.freecad.org/index.php) helfen, die Dokumentation ergänzen oder Programmieren. Siehe [Hilf FreeCAD](Help_FreeCAD/de.md).
 
 ## Learning resources 
 
 ### Official
 
 -   [This Wiki](Main_Page.md)
--   [The Help Forum](https   *//forum.freecadweb.org/viewforum.php?f=3)
+-   [The Help Forum](https://forum.freecadweb.org/viewforum.php?f=3)
 -   [Workarounds for known problems](Workarounds.md)
 
 ### Un-official 
 
-The following YouTube Channels have reasonably good quality content focused around FreeCAD (it is recommended to ignore any tutorials based on version 0.17 or earlier)   *
+The following YouTube Channels have reasonably good quality content focused around FreeCAD (it is recommended to ignore any tutorials based on version 0.17 or earlier):
 
 -   *MangoJelly Solutions* (several beginner, intermediate and advanced video playlists)
 -   *Joko EngineeringHelp* (intermediate/advanced videos)
@@ -55,7 +55,7 @@ The following YouTube Channels have reasonably good quality content focused arou
 
 ### \"Can FreeCAD do XYZ?\" 
 
-FreeCAD already has the ability to do the following types of work   *
+FreeCAD already has the ability to do the following types of work:
 
 -   Spline-based parametric modeling using the [Part](Part_Workbench.md), [Part Design](PartDesign_Workbench.md) and [Sketcher](Sketcher_Workbench.md) workbenches
 -   [Surface](Surface_Workbench.md)/[Curves](Curves_Workbench.md) modeling using NURBS
@@ -95,10 +95,10 @@ FreeCAD is built around an open-source Geometric Modeling Kernel called \"[OpenC
 
 </div>
 
-OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on. There are many open \'upstream\' bugs that the FreeCAD community has identified and tracks regarding OCC. See   *
+OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on. There are many open \'upstream\' bugs that the FreeCAD community has identified and tracks regarding OCC. See:
 
--   [Bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
--   [OCC Bugs in the Bugtracker (forum thread)](https   *//forum.freecad.org/viewtopic.php?t=20264)
+-   [Bugtracker](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
+-   [OCC Bugs in the Bugtracker (forum thread)](https://forum.freecad.org/viewtopic.php?t=20264)
 
 
 <div class="mw-translate-fuzzy">
@@ -108,11 +108,9 @@ OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on
 
 </div>
 
--   [Discussion   * FreeCAD is not ready for 1.0 (forum thread)](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461)
--   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016
--   [Earning Your Support Instead of Buying it   * A How-to Guide to Open Source Assistance](https   *//vimeo.com/144089061) by [Ian Turton](https   *//twitter.com/ijturton) at FOSS4G Seoul 2015
-
-[Category   *Common Questions](Category_Common_Questions.md)
+-   [Discussion: FreeCAD is not ready for 1.0 (forum thread)](https://forum.freecadweb.org/viewtopic.php?f=8&t=43461)
+-   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https://www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016
+-   [Earning Your Support Instead of Buying it: A How-to Guide to Open Source Assistance](https://vimeo.com/144089061) by [Ian Turton](https://twitter.com/ijturton) at FOSS4G Seoul 2015
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher Fillets
-   Name/pl   *Szkicownik   * Zaokrąglenie
-   Icon   *Sketcher_CompCreateFillets.png
-   MenuLocation   *
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
-   Version   *0.19
+- GuiCommand:/pl
+   Name:Sketcher Fillets
+   Name/pl:Szkicownik: Zaokrąglenie
+   Icon:Sketcher_CompCreateFillets.png
+   MenuLocation:
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Version:0.19
 ---
 
 # Sketcher CompCreateFillets/pl
@@ -16,9 +16,9 @@
 
 ## Rodzaje zaokrągleń 
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md)   * Tworzy zaokrąglenie pomiędzy dwoma liniami, które nie są równoległe.
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md): Tworzy zaokrąglenie pomiędzy dwoma liniami, które nie są równoległe.
 
--   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Utwórz zaokrąglenie z zachowaniem wiązań](Sketcher_CreatePointFillet/pl.md)   * Tworzy zaokrąglenie pomiędzy dwoma liniami które nie są równoległe, zachowując ich *(wirtualny)* punkt przecięcia.
+-   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Utwórz zaokrąglenie z zachowaniem wiązań](Sketcher_CreatePointFillet/pl.md): Tworzy zaokrąglenie pomiędzy dwoma liniami które nie są równoległe, zachowując ich *(wirtualny)* punkt przecięcia.
 
 
 

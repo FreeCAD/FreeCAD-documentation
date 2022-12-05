@@ -1,25 +1,25 @@
 ---
-- GuiCommand   */pl
-   Name   *WebTools Sketchfab
-   Name/pl   *Web   * Sketchfab
-   MenuLocation   *WebTools → Sketchfab
+- GuiCommand:/pl
+   Name:WebTools Sketchfab
+   Name/pl:Web: Sketchfab
+   MenuLocation:WebTools → Sketchfab
 |
-   Workbenches   *[Narzędzia Web](WebTools_Workbench/pl.md)
+   Workbenches:[Narzędzia Web](WebTools_Workbench/pl.md)
 ---
 
 # WebTools Sketchfab/pl
 
 ## Opis
 
-Narzędzie to umożliwia eksportowanie i przesyłanie obiektów na konto w serwisie [SketchFab](http   *//www.sketchfab.com). {{Version/pl|0.17}}
+Narzędzie to umożliwia eksportowanie i przesyłanie obiektów na konto w serwisie [SketchFab](http://www.sketchfab.com). {{Version/pl|0.17}}
 
 ![](images/Sketchfab_exporter.jpg )
 
 ## Użycie
 
-1.  Załóż konto w serwisie [SketchFab](http   *//www.sketchfab.com), jeśli jeszcze go nie masz. Darmowe konta są w porządku, płatne konta dodają więcej funkcji, takich jak możliwość posiadania prywatnych modeli i większe maksymalne rozmiary transferu.
+1.  Załóż konto w serwisie [SketchFab](http://www.sketchfab.com), jeśli jeszcze go nie masz. Darmowe konta są w porządku, płatne konta dodają więcej funkcji, takich jak możliwość posiadania prywatnych modeli i większe maksymalne rozmiary transferu.
 2.  Przygotuj model, który chcesz załadować
-3.  Kliknij na przycisk <img alt="" src=images/WebTools_Sketchfab.png  style="width   *32px;"> z głównego paska narzędzi w Środowisku pracy [Narzędzia Web](WebTools_Workbench/pl.md).
+3.  Kliknij na przycisk <img alt="" src=images/WebTools_Sketchfab.png  style="width:32px;"> z głównego paska narzędzi w Środowisku pracy [Narzędzia Web](WebTools_Workbench/pl.md).
 4.  Wypełnij pola. Nazwa i klucz API są obowiązkowe.
 5.  Kliknij przycisk **Prześlij**.
 

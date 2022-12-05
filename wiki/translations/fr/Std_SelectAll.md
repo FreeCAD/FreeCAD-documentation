@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std SelectAll
-   Name/fr   *Std Tout sélectionner 
-   MenuLocation   *Édition → Tout sélectionner
-   Workbenches   *Tous
-   SeeAlso   *[Sélection par boîte](Std_BoxSelection/fr.md), [Sélection d'éléments](Std_BoxElementSelection/fr.md)
+- GuiCommand:/fr
+   Name:Std SelectAll
+   Name/fr:Std Tout sélectionner 
+   MenuLocation:Édition → Tout sélectionner
+   Workbenches:Tous
+   SeeAlso:[Sélection par boîte](Std_BoxSelection/fr.md), [Sélection d'éléments](Std_BoxElementSelection/fr.md)
 ---
 
 # Std SelectAll/fr

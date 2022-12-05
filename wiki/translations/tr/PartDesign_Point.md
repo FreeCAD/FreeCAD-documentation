@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */tr
-   Name   *PartDesign Point
-   Name/tr   *Referans noktası oluştur
-   Workbenches   *[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation   *Parça tasarım→ Referans noktası oluştur
-   Version   *0.17
-   SeeAlso   *[Referans çizgisi oluştur](PartDesign_Line/tr.md), [Referans düzlemi oluştur](PartDesign_Plane/tr.md)
+- GuiCommand:/tr
+   Name:PartDesign Point
+   Name/tr:Referans noktası oluştur
+   Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation:Parça tasarım→ Referans noktası oluştur
+   Version:0.17
+   SeeAlso:[Referans çizgisi oluştur](PartDesign_Line/tr.md), [Referans düzlemi oluştur](PartDesign_Plane/tr.md)
 ---
 
 # PartDesign Point/tr
@@ -69,11 +69,11 @@ Model ağacında Referans noktası etiketine çift tıklayın veya sağ tıklay�
 
 ## Özellikler
 
--    **MapMode**   *Kullanılan ek modunu listeler.
+-    **MapMode**:Kullanılan ek modunu listeler.
 
--    **Attachment Offset**   * Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
+-    **Attachment Offset**: Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
 
--    **Label**   * Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
+-    **Label**: Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
 
 ## Sınırlamalar
 

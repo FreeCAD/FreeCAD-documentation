@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Part_Fillet
-   Name/fr   *Part Congé
-   MenuLocation   *Part → Congé...
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Chanfrein](Part_Chamfer/fr.md)
+- GuiCommand:/fr
+   Name:Part_Fillet
+   Name/fr:Part Congé
+   MenuLocation:Part → Congé...
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Chanfrein](Part_Chamfer/fr.md)
 ---
 
 # Part Fillet/fr
@@ -26,13 +26,13 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'une forme
 
 ## Comparaison PartDesign Congé et Part Congé 
 
-Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Veuillez noter que leur fonctionnement est assez différent. Consultez la page de référence <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) pour plus de détails sur leurs différences.
+Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Veuillez noter que leur fonctionnement est assez différent. Consultez la page de référence <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) pour plus de détails sur leurs différences.
 
 ## Remarques pour l\'application de Part Congés 
 
-Part Congé peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Par conséquent, si vous n\'obtenez pas le résultat escompté, essayez avec une valeur de **Rayon** plus petite. Il en est de même pour <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Part Chanfrein](Part_Chamfer/fr.md).
+Part Congé peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Par conséquent, si vous n\'obtenez pas le résultat escompté, essayez avec une valeur de **Rayon** plus petite. Il en est de même pour <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Part Chanfrein](Part_Chamfer/fr.md).
 
-L\'outil Congé échoue parfois lors de la tentative de congé sur des formes complexes. Une cause commune peut être que la forme recevant le congé n\'est pas géométriquement correcte. Cela peut être dû au fait que les lignes/plans ne sont pas supprimés après les opérations précédentes utilisées pour construire la forme (par exemple, Cut/Intersection/Fusion). Un certain nombre d\'étapes peuvent être utilisées pour minimiser les problèmes   *
+L\'outil Congé échoue parfois lors de la tentative de congé sur des formes complexes. Une cause commune peut être que la forme recevant le congé n\'est pas géométriquement correcte. Cela peut être dû au fait que les lignes/plans ne sont pas supprimés après les opérations précédentes utilisées pour construire la forme (par exemple, Cut/Intersection/Fusion). Un certain nombre d\'étapes peuvent être utilisées pour minimiser les problèmes:
 
 -   Si possible, attendez pour la création des congés d\'une pièce que la pièce soit complètement générée. Cela minimisera l\'interaction des congés avec les opérations booléennes suivantes;
 -   Utilisez la commande **Part → Vérifier la géométrie** pour rechercher d\'éventuelles erreurs dans la géométrie de la forme et les corriger.

@@ -1,9 +1,7 @@
 # Category:Tutorials/zh-hant
-This is a complete list of pages under [   *Category   *Tutorials](   *Category_Tutorials.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
 See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
-
-[Category   *User_Documentation](Category_User_Documentation.md)
 
 ### Contents
 

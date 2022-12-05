@@ -1,8 +1,6 @@
 # Category:Developer Documentation/zh-cn
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/zh-cn](Category   *Documentation/zh-cn.md) [Category   *Categories/zh-cn](Category   *Categories/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

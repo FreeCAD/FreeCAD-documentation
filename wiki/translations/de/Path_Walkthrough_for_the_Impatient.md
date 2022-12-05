@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */de
-   Topic   *Pfad Arbeitsbereich
-   Level   *Anfänger/Mittelmäßig
-   Time   *15 Minuten
-   Author   *Chrisb
-   FCVersion   *0.19
-   Files   *
+- TutorialInfo:/de
+   Topic:Pfad Arbeitsbereich
+   Level:Anfänger/Mittelmäßig
+   Time:15 Minuten
+   Author:Chrisb
+   FCVersion:0.19
+   Files:
 ---
 
 # Path Walkthrough for the Impatient/de
@@ -16,17 +16,17 @@
 
 ## Ziel
 
-Veranschaulichen der Erstellung eines <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) Auftrags, abgeleitet von einem 3D Modell. Anschließend wird dialekt-richtiger G-Code für eine Ziel CNC Fräse erzeugt.
+Veranschaulichen der Erstellung eines <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) Auftrags, abgeleitet von einem 3D Modell. Anschließend wird dialekt-richtiger G-Code für eine Ziel CNC Fräse erzeugt.
 
 ## Das 3D Modell 
 
-1\. Das Projekt startet mit einem einfachen FreeCAD Modell entworfen im <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Part Design](PartDesign_Workbench/de.md) ein Würfel mit einer rechteckigen Tasche.
+1\. Das Projekt startet mit einem einfachen FreeCAD Modell entworfen im <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Part Design](PartDesign_Workbench/de.md) ein Würfel mit einer rechteckigen Tasche.
 
-   *   ![](images/Path-SquarePocketModel.png )
+:   ![](images/Path-SquarePocketModel.png )
 
 
 
-*Oben   * Erstellt in der <img src="images/Workbench_PartDesign.svg" width=24px> 
+*Oben: Erstellt in der <img src="images/Workbench_PartDesign.svg" width=24px> 
  [Part Design](PartDesign_Workbench/de.md) einschließlich eines Körpers, eines Kastens mit einer Tasche, basierend auf einer in der  **![](images/)* XY Ebene**
 
 orientierten Skizze.
@@ -44,7 +44,7 @@ Mit dem fertiggestellten 3D Modell wird der Pfad Arbeitsbereich ausgewählt.
 
 ## Der Auftrag 
 
-Der <img alt="" src=images/Path_Job.svg  style="width   *32px;"> [Auftrag](Path_Job/de.md) wird erstellt.
+Der <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Auftrag](Path_Job/de.md) wird erstellt.
 
 
 </div>
@@ -169,7 +169,7 @@ Der Arbeitsplanreiter beginnt leer und wird von der Abfolge der Auftragsvorgäng
 
 </div>
 
-Dieser Baum wird nach der Konfiguration des Auftrags angezeigt, sobald der Pfadauftrag aufgeklappt ist   *
+Dieser Baum wird nach der Konfiguration des Auftrags angezeigt, sobald der Pfadauftrag aufgeklappt ist:
 
 
 <div class="mw-translate-fuzzy">
@@ -192,7 +192,7 @@ Es werden zwei Bearbeitungen hinzugefügt, um Fräsbahnen für diesen Pfadauftra
 
 <div class="mw-translate-fuzzy">
 
-Fürs Erste werden wir es einfach halten. Die <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Kontur](Path_Profile/de.md) Schaltfläche öffnet das Konturpaneel. Nach der Bestätigung mit OK unter Verwendung der Standardwerte siehst du, dass der grüne Pfad um das Objekt herum sichtbar ist.
+Fürs Erste werden wir es einfach halten. Die <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Kontur](Path_Profile/de.md) Schaltfläche öffnet das Konturpaneel. Nach der Bestätigung mit OK unter Verwendung der Standardwerte siehst du, dass der grüne Pfad um das Objekt herum sichtbar ist.
 
 
 </div>
@@ -200,7 +200,7 @@ Fürs Erste werden wir es einfach halten. Die <img alt="" src=images/Path_Profil
 
 <div class="mw-translate-fuzzy">
 
-Auswählen des Taschenbodens und dann der <img alt="" src=images/Path_Pocket.svg  style="width   *32px;"> [Tasche](Path_Pocket_Shape/de.md) Schaltfläche öffnet das Taschenfor Fenster. Die Standardwerte für Basisgeometrie, Tiefen und Höhen werden verwendet, und das Unter-Panel Operation ist ausgewählt und die Schrittweite in Prozent ist auf 50 eingestellt.
+Auswählen des Taschenbodens und dann der <img alt="" src=images/Path_Pocket.svg  style="width:32px;"> [Tasche](Path_Pocket_Shape/de.md) Schaltfläche öffnet das Taschenfor Fenster. Die Standardwerte für Basisgeometrie, Tiefen und Höhen werden verwendet, und das Unter-Panel Operation ist ausgewählt und die Schrittweite in Prozent ist auf 50 eingestellt.
 
 
 </div>
@@ -221,7 +221,7 @@ Das Muster wird in \"Versatz\" geändert, und die Auftragsausführung wird für 
 
 </div>
 
-Das Ergebnis ist ein Modell mit zwei Pfaden   *
+Das Ergebnis ist ein Modell mit zwei Pfaden:
 
 
 <div class="mw-translate-fuzzy">
@@ -238,7 +238,7 @@ Es gibt zwei Möglichkeiten, die erstellten Pfade zu überprüfen. Der G-Code ka
 
 <div class="mw-translate-fuzzy">
 
-Um den G-Code zu untersuchen, verwende das <img alt="" src=images/Path_Inspect.svg  style="width   *32px;"> Werkzeug . Durch Auswählen der entsprechenden G-Code Zeilen innerhalb des G-Code Inspektionsfensters werden einzelne Pfadsegmente hervorgehoben.
+Um den G-Code zu untersuchen, verwende das <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> Werkzeug . Durch Auswählen der entsprechenden G-Code Zeilen innerhalb des G-Code Inspektionsfensters werden einzelne Pfadsegmente hervorgehoben.
 
 ![](images/Path-InspectWindow.gif )
 
@@ -248,7 +248,7 @@ Um den G-Code zu untersuchen, verwende das <img alt="" src=images/Path_Inspect.s
 
 <div class="mw-translate-fuzzy">
 
-Um die Simulation zu beginnen verwende das <img alt="" src=images/Path_Simulator.svg  style="width   *32px;"> [Pfad Simulator](Path_Simulator/de.md) Werkzeug.
+Um die Simulation zu beginnen verwende das <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Pfad Simulator](Path_Simulator/de.md) Werkzeug.
 
 
 </div>
@@ -279,13 +279,13 @@ Wenn du die Simulation beenden möchtest, klicke auf die Schaltfläche Abbrechen
 
 ## Nachbearbeitung des Auftrags 
 
-Der letzte Schritt zur Erzeugung von G-Code für die Zielfräse ist die Nachbearbeitung des Auftrags. Dabei werden die G-Codes in eine Datei ausgegeben, die auf die Ziel CNC Maschinensteuerung hochgeladen werden kann. So rufst du den Postprozessor auf   *
+Der letzte Schritt zur Erzeugung von G-Code für die Zielfräse ist die Nachbearbeitung des Auftrags. Dabei werden die G-Codes in eine Datei ausgegeben, die auf die Ziel CNC Maschinensteuerung hochgeladen werden kann. So rufst du den Postprozessor auf:
 
 
 <div class="mw-translate-fuzzy">
 
 -   Wähle das Auftragsobjekt im Baum aus
--   Wähle das Pfadnachbearbeitungswerkzeug <img alt="" src=images/Path_PostProcess.svg  style="width   *32px;"> zur Nahbearbeitung der Datei aus. Dadurch wird ein G-Code Fenster geöffnet, in dem die endgültige Ausgabedatei vor dem Speichern überprüft werden kann.
+-   Wähle das Pfadnachbearbeitungswerkzeug <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> zur Nahbearbeitung der Datei aus. Dadurch wird ein G-Code Fenster geöffnet, in dem die endgültige Ausgabedatei vor dem Speichern überprüft werden kann.
 
 
 </div>

@@ -1,6 +1,6 @@
 # Drawing Clip/it
 ---
-- GuiCommand   */it   Name   *Drawing Clip   Name/it   *Inserto   Workbenches   *[[Drawing Workbench/it   Drawing]], Completo|MenuLocation   *Drawing → Inserto   Shortcut   *none---
+- GuiCommand:/it   Name:Drawing Clip   Name/it:Inserto   Workbenches:[[Drawing Workbench/it   Drawing]], Completo|MenuLocation:Drawing → Inserto   Shortcut:none---
 
 ### Descrizione
 

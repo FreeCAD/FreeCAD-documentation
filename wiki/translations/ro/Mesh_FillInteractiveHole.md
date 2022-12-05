@@ -1,6 +1,6 @@
 # Mesh FillInteractiveHole/ro
 ---
-- GuiCommand   *   Name   *Mesh FillInteractiveHole‏‎   MenuLocation   *Meshes → Close hole   Workbenches   *[[Mesh Workbench   Mesh]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Mesh FillInteractiveHole‏‎   MenuLocation:Meshes → Close hole   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
 
 </div>

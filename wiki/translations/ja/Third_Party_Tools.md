@@ -24,7 +24,7 @@
 
 #### Qt-Toolkit 
 
-Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPackのFreeCADの中に含まれていますが](Third_Party_Libraries.md)、[www.trolltech.com](http   *//www.trolltech.com)でもダウンロードすることができます。
+Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPackのFreeCADの中に含まれていますが](Third_Party_Libraries.md)、[www.trolltech.com](http://www.trolltech.com)でもダウンロードすることができます。
 
 
 </div>
@@ -36,7 +36,7 @@ Qtツールキットは、芸術、プラットフォーム非依存のユーザ
 
 #### InkScape 
 
-偉大なベクトル描画のプログラムです。 SVG標準のAdhersは、アイコンと画像を描画するために使用されています。 [www.inkscape.org](http   *//www.inkscape.org)でそれを入手してください。
+偉大なベクトル描画のプログラムです。 SVG標準のAdhersは、アイコンと画像を描画するために使用されています。 [www.inkscape.org](http://www.inkscape.org)でそれを入手してください。
 
 
 </div>
@@ -65,18 +65,18 @@ GNU画像処理プログラムについて言うことはあまりありませ�
 
 </div>
 
-ここからGIMPを取得できます   * [www.gimp.org](http   *//www.gimp.org/)
+ここからGIMPを取得できます: [www.gimp.org](http://www.gimp.org/)
 
 #### Gitkraken
 
-This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research   *
+This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
 
 -   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
 -   [Source code management](Source_code_management.md)
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website   * [obsproject.com](https   *//obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
 
 #### OpenCamLib
 
@@ -95,12 +95,12 @@ A full featured Open Source UML programm. It has a lot of features of the big on
 
 これは非常に優れたツールです。これはSubversion（sf.net上の私たちのバージョン管理システム）を使用して、本当に喜んでいます。あなたはエクスプローラの集積化を行うことができ、簡単にリビジョンを管理し、diffで確認し、衝突を解決して、ブランチを作るなど...ができます。コミットダイアログ自体が芸術作品です。それはあなたの変更されたファイルの概要を与え、あなたがコミットまたはしないでそれらを置くことができます。それは簡単に論理ユニットへの変更をバンドルし、それらに明確なコミットメッセージを与えることになります。
 
-あなたは[tortoisesvn.tigris.org](http   *//tortoisesvn.tigris.org/)でToroiseSVNを見つけることができます。
+あなたは[tortoisesvn.tigris.org](http://tortoisesvn.tigris.org/)でToroiseSVNを見つけることができます。
 
 
 </div>
 
-Download here   * [staruml.io](http   *//staruml.io)
+Download here: [staruml.io](http://staruml.io)
 
 ### Windowsのツール
 
@@ -119,7 +119,7 @@ VC8はVisualStudio6(IMOの大きなステップバック)から、一歩も前�
 
 <div class="mw-translate-fuzzy">
 
-なので、エクスプレス版は、見つけるのは難しいです。しかし、\[[http   *//msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク\]を試してみてください](http   *//msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク%5Dを試してみてください)
+なので、エクスプレス版は、見つけるのは難しいです。しかし、\[[http://msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク\]を試してみてください](http://msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク%5Dを試してみてください)
 
 
 </div>
@@ -136,7 +136,7 @@ CAMSourceはスクリーンキャストを（Webキャスト）を記録する�
 
 </div>
 
-詳細は\[camstudio.org [http   *//camstudio.org/\]を見てください](http   *//camstudio.org/%5Dを見てください)
+詳細は\[camstudio.org [http://camstudio.org/\]を見てください](http://camstudio.org/%5Dを見てください)
 
 ### Tools on Linux 
 
@@ -150,11 +150,6 @@ TODO
 
 
 </div>
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

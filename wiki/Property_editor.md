@@ -19,24 +19,24 @@ A property is a piece of information like a number or a text string that is atta
 
 Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system. See the full list in [Property](Property.md).
 
-Some of the most commonly used property types are   *  
+Some of the most commonly used property types are:  
 ```python
-App   *   *PropertyBool
-App   *   *PropertyFloat
-App   *   *PropertyAngle
-App   *   *PropertyDistance
-App   *   *PropertyInteger
-App   *   *PropertyString
-App   *   *PropertyMatrix
-App   *   *PropertyVector
-App   *   *PropertyPlacement
+App::PropertyBool
+App::PropertyFloat
+App::PropertyAngle
+App::PropertyDistance
+App::PropertyInteger
+App::PropertyString
+App::PropertyMatrix
+App::PropertyVector
+App::PropertyPlacement
 ```
 
 Different objects may have different types of properties. However, many objects have the same types because they are derived from the same internal class. For example, most objects that describe geometrical shapes (lines, circles, rectangles, solid bodies, imported parts, etc.), have the \"Placement\" property that defines their position in the [3D view](3D_view.md).
 
 ## View and Data properties 
 
-There are two classes of feature properties accessible through tabs in the property editor   *
+There are two classes of feature properties accessible through tabs in the property editor:
 
 -    **View**properties, related to the \"visual\" appearance of the object. The **View** properties are tied to the **ViewProvider** (`ViewObject` attribute) of the object, and are only accessible when the graphical user interface (GUI) is loaded. They are not accessible when using FreeCAD in console mode, or as a headless library.
 
@@ -47,7 +47,7 @@ For this reason, **Data** properties are considered to be more \"real\", as they
 ### Basic properties 
 
 
-**See also   * [Object name](Object_name.md)**
+**See also: [Object name](Object_name.md)**
 
 The most basic [scripted object](scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
 
@@ -55,55 +55,55 @@ A basic parametric object is created as follow
 
  
 ```python
-obj = App.ActiveDocument.addObject("App   *   *FeaturePython", "App__FeaturePython")
+obj = App.ActiveDocument.addObject("App::FeaturePython", "App__FeaturePython")
 obj.Label = "Plain_object"
 print(obj.Name)
 print(obj.Label)
 ```
 
-<img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width   *" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width   *" height="264px;">
+<img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
 
 
 
-*View and Data tabs of the property editor, for a basic "App   *   *FeaturePython" scripted object.*
+*View and Data tabs of the property editor, for a basic "App::FeaturePython" scripted object.*
 
-Most geometrical objects that can be created and displayed in the [3D view](3D_view.md) are derived from a `Part   *   *Feature`. See [Part Feature](Part_Feature.md) for the most basic properties that these objects have.
+Most geometrical objects that can be created and displayed in the [3D view](3D_view.md) are derived from a `Part::Feature`. See [Part Feature](Part_Feature.md) for the most basic properties that these objects have.
 
-For 2D geometry, most objects are derived from `Part   *   *Part2DObject` (itself derived from `Part   *   *Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
+For 2D geometry, most objects are derived from `Part::Part2DObject` (itself derived from `Part::Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
 
 ## Actions
 
 
 <small>(v0.19)</small> 
 
-Right clicking in an empty space of the view, or with a property selected, shows only one command   *
+Right clicking in an empty space of the view, or with a property selected, shows only one command:
 
--    **Show all**   * if active, in addition to the standard properties that appear already, it shows all the hidden Data and View properties in their respective tabs.
+-    **Show all**: if active, in addition to the standard properties that appear already, it shows all the hidden Data and View properties in their respective tabs.
 
-    -   Data   * \"Proxy\", \"Label2\", \"Expression Engine\", and \"Visibility\".
-    -   View   * \"Proxy\".
+    -   Data: \"Proxy\", \"Label2\", \"Expression Engine\", and \"Visibility\".
+    -   View: \"Proxy\".
 
-When the **Show all** option is active, and one property is selected, more actions are available with a second right click   *
+When the **Show all** option is active, and one property is selected, more actions are available with a second right click:
 
--    **Show all**   * deactivates the **Show all** command, hiding the additional Data and View properties.
+-    **Show all**: deactivates the **Show all** command, hiding the additional Data and View properties.
 
--    **Add Property**   * adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
+-    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
 
--    **Expression...**   * brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
+-    **Expression...**: brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
 
--    **Hidden**   * if active, sets the property as hidden, meaning that it will only be displayed in the property editor if **Show all** is active.
+-    **Hidden**: if active, sets the property as hidden, meaning that it will only be displayed in the property editor if **Show all** is active.
 
--    **Output**   * if active, sets the property as output.
+-    **Output**: if active, sets the property as output.
 
--    **NoRecompute**   * if active, sets the property as not recomputed when the document is recomputed; this is useful when a property should be kept unaffected by other updates.
+-    **NoRecompute**: if active, sets the property as not recomputed when the document is recomputed; this is useful when a property should be kept unaffected by other updates.
 
--    **ReadOnly**   * if active, sets the property to be read-only; it won\'t be editable in the property editor any more until this switch is turned off. The **Expression...** menu entry is no longer available. **Note   *** It may be still possible to change the property via a dialog that updates the property.
+-    **ReadOnly**: if active, sets the property to be read-only; it won\'t be editable in the property editor any more until this switch is turned off. The **Expression...** menu entry is no longer available. **Note:** It may be still possible to change the property via a dialog that updates the property.
 
--    **Transient**   * if active, sets the property as transient. The value of a transient property is not saved to file. When opening a file, it is instantiated with its default value.
+-    **Transient**: if active, sets the property as transient. The value of a transient property is not saved to file. When opening a file, it is instantiated with its default value.
 
--    **Touched**   * if active, it becomes touched, and ready for recompute.
+-    **Touched**: if active, it becomes touched, and ready for recompute.
 
--    **EvalOnRestore**   * if active, it is evaluated when the document is restored.
+-    **EvalOnRestore**: if active, it is evaluated when the document is restored.
 
 ## Example of the properties of a PartDesign object 
 
@@ -113,43 +113,43 @@ In this section we show some common properties that are visible for a [PartDesig
 
 Most of these properties are inherited from the [Part Feature](Part_Feature.md) basic object.
 
-<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width   *490px;"> {{TitleProperty|Base}}
+<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
 
--    **Angular Deflection**   * it is another way to specify how finely to generate the mesh for rendering on screen or when exporting. The default value is 28.5 degrees, or 0.5 radians. The smaller the value the smoother the appearance will be in the [3D view](3D_view.md), and the finer the mesh that will be exported.
+-    **Angular Deflection**: it is another way to specify how finely to generate the mesh for rendering on screen or when exporting. The default value is 28.5 degrees, or 0.5 radians. The smaller the value the smoother the appearance will be in the [3D view](3D_view.md), and the finer the mesh that will be exported.
 
--    **Bounding Box**   * indicates if a box showing the overall extent of the object is displayed.
+-    **Bounding Box**: indicates if a box showing the overall extent of the object is displayed.
 
--    **Deviation**   * sets the accuracy of the polygonal representation of the model in the [3D view](3D_view.md) (tessellation). Lower values indicate better quality. The value is in percent of object\'s size.
+-    **Deviation**: sets the accuracy of the polygonal representation of the model in the [3D view](3D_view.md) (tessellation). Lower values indicate better quality. The value is in percent of object\'s size.
 
--    **Display Mode**   * display mode of the entire Body, {{Value|Flat lines}} (default), {{Value|Shaded}}, {{Value|Wireframe}}, {{Value|Points}}.
+-    **Display Mode**: display mode of the entire Body, {{Value|Flat lines}} (default), {{Value|Shaded}}, {{Value|Wireframe}}, {{Value|Points}}.
 
--    **Display Mode Body**   * display mode of the Tip of the Body, {{Value|Through}} (default), {{Value|Tip}}.
+-    **Display Mode Body**: display mode of the Tip of the Body, {{Value|Through}} (default), {{Value|Tip}}.
 
--    **Draw Style**   * {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dotted}}, {{Value|Dashdot}}; defines the style of the edges in the [3D view](3D_view.md).
+-    **Draw Style**: {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dotted}}, {{Value|Dashdot}}; defines the style of the edges in the [3D view](3D_view.md).
 
--    **Lighting**   * {{Value|One side}}, {{Value|Two side}} (default).
+-    **Lighting**: {{Value|One side}}, {{Value|Two side}} (default).
 
--    **Line Color**   * the RGB color of the edges, it defaults to {{value|(25, 25, 25)}}.
+-    **Line Color**: the RGB color of the edges, it defaults to {{value|(25, 25, 25)}}.
 
--    **Line Width**   * the thickness of the edges, it defaults to {{value|2}} pixels.
+-    **Line Width**: the thickness of the edges, it defaults to {{value|2}} pixels.
 
--    **On Top When Selected**   * {{value|Disabled}}, {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+-    **On Top When Selected**: {{value|Disabled}}, {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    **Point Color**   * the RGB color of the vertices, it defaults to {{value|(25, 25, 25)}}.
+-    **Point Color**: the RGB color of the vertices, it defaults to {{value|(25, 25, 25)}}.
 
--    **Point Size**   * the size of the vertices, it defaults to {{value|2}} pixels.
+-    **Point Size**: the size of the vertices, it defaults to {{value|2}} pixels.
 
--    **Selectable**   * whether the object is selectable or not.
+-    **Selectable**: whether the object is selectable or not.
 
--    **Selection Style**   * {{value|Shape}}, {{value|BoundBox}}.
+-    **Selection Style**: {{value|Shape}}, {{value|BoundBox}}.
 
--    **Shape Color**   * the RGB color of the shape, it defaults to {{value|(204, 204, 204)}}.
+-    **Shape Color**: the RGB color of the shape, it defaults to {{value|(204, 204, 204)}}.
 
--    **Show In Tree**   * if it is `True`, the object appears in the tree view. Otherwise, it is set as invisible.
+-    **Show In Tree**: if it is `True`, the object appears in the tree view. Otherwise, it is set as invisible.
 
--    **Transparency**   * the degree of transparency from {{value|0}} (default) to {{value|100}}.
+-    **Transparency**: the degree of transparency from {{value|0}} (default) to {{value|100}}.
 
--    **Visibility**   * whether the object is visible in the [3D view](3D_view.md) or not. Toggle with the **Space** bar in the keyboard.
+-    **Visibility**: whether the object is visible in the [3D view](3D_view.md) or not. Toggle with the **Space** bar in the keyboard.
 
 
 
@@ -158,37 +158,37 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 In this case we observe the properties of the [PartDesign Revolution](PartDesign_Revolution.md) feature.
 
-<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width   *490px;"> {{TitleProperty|Base}}
+<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
 
--    **Label**   * the user defined name given to the object, this can be changed as desired.
+-    **Label**: the user defined name given to the object, this can be changed as desired.
 
 
 {{TitleProperty|Part Design}}
 
--    **Refine**   * whether to refine the fusion done with other objects.
+-    **Refine**: whether to refine the fusion done with other objects.
 
 
 {{TitleProperty|Revolution}}
 
--    **Base**   * the point in space that specifies where the revolution takes place. It cannot be modified directly, only when editing the feature.
+-    **Base**: the point in space that specifies where the revolution takes place. It cannot be modified directly, only when editing the feature.
 
--    **Axis**   * the axis around which the revolution will be performed. It cannot be modified directly, only when editing the feature.
+-    **Axis**: the axis around which the revolution will be performed. It cannot be modified directly, only when editing the feature.
 
--    **Angle**   * the angle that specifies how much of the base element is rotated. By default it is {{value|360 deg}}, but it can be any fraction of that.
+-    **Angle**: the angle that specifies how much of the base element is rotated. By default it is {{value|360 deg}}, but it can be any fraction of that.
 
 
 {{TitleProperty|Sketch Based}}
 
--    **Midplane**   * if the base object is a [Sketch](Sketch.md), when this property is `True`, it will perform the revolution with the sketch serving as a plane of symmetry. This is noticeable if the **Angle** is different from {{value|360 deg}}.
+-    **Midplane**: if the base object is a [Sketch](Sketch.md), when this property is `True`, it will perform the revolution with the sketch serving as a plane of symmetry. This is noticeable if the **Angle** is different from {{value|360 deg}}.
 
--    **Reversed**   * by default it is `True`. Whether to perform the revolution in one direction or the other.
+-    **Reversed**: by default it is `True`. Whether to perform the revolution in one direction or the other.
 
  
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -201,7 +201,7 @@ print(obj.Group)
 
 These attributes (properties) are added with the  
 ```python
-obj.addProperty("App   *   *PropertyFloat", "Custom")
+obj.addProperty("App::PropertyFloat", "Custom")
 print(obj.Custom)
 ```
 
@@ -209,7 +209,7 @@ Properties follow the `CapitalCamelCase` or `PascalCase` convention, meaning tha
 
  
 ```python
-obj.addProperty("App   *   *PropertyDistance", "CustomCamelProperty")
+obj.addProperty("App::PropertyDistance", "CustomCamelProperty")
 obj.CustomCamelProperty = 1000
 print(obj.CustomCamelProperty)
 ```

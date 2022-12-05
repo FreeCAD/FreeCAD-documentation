@@ -1,33 +1,33 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft BSpline
-   Name/fr   *Draft B-spline
-   MenuLocation   *Draft → B-spline
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut   ***B** **S**
-   Version   *0.7
-   SeeAlso   *[Draft Polyligne](Draft_Wire/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft Courbe de Bézier](Draft_BezCurve/fr.md)
+- GuiCommand:/fr
+   Name:Draft BSpline
+   Name/fr:Draft B-spline
+   MenuLocation:Draft → B-spline
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**B** **S**
+   Version:0.7
+   SeeAlso:[Draft Polyligne](Draft_Wire/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft Courbe de Bézier](Draft_BezCurve/fr.md)
 ---
 
 # Draft BSpline/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> **Draft B-spline** crée une [courbe B-spline](http   *//fr.wikipedia.org/wiki/B-spline) à partir de plusieurs points.
+La commande <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Draft B-spline** crée une [courbe B-spline](http://fr.wikipedia.org/wiki/B-spline) à partir de plusieurs points.
 
 La commande Draft B-spline spécifie les **points exacts** par lesquels la courbe passera. Les commandes [Draft Courbe de Bézier](Draft_BezCurve.md) et [Draft Courbe de Bézier cubique](Draft_CubicBezCurve.md), en revanche, utilisent **des points de contrôle** pour définir la position et la courbure de la spline.
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
 *Spline definie par plusieurs points*
 
 ## Utilisation
 
-Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Il existe plusieurs façons d\'invoquer la commande    *
+1.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_BSpline.svg" width=16px> [B-spline](Draft_BSpline/fr.md)**.
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dans le menu.
-    -   Utilisez le raccourci clavier    * **B** puis **S**.
+    -   Utilisez le raccourci clavier : **B** puis **S**.
 2.  Le panneau de tâches **B-spline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
@@ -57,50 +57,50 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Préférences
 
-Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées    * **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli    * **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
+-   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
 ## Propriétés
 
-Voir aussi   * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (en lecture seule) spécifie la surface de la face de la spline. La valeur sera {{value|0.0}} si **Make Face** est `False` ou si la face ne peut être créée.
+-    **Area|Area**: (en lecture seule) spécifie la surface de la face de la spline. La valeur sera {{value|0.0}} si **Make Face** est `False` ou si la face ne peut être créée.
 
--    **Closed|Bool**   * spécifie si la spline est fermée ou non. Si la spline est initialement ouverte, cette valeur est `False`, si vous lui attribuez la valeur `True`, un segment de courbe sera dessiné pour fermer la spline. Si la courbe est initialement fermée, cette valeur est `True`, la définir sur `False` supprimera le dernier segment de courbe et rendra la courbe ouverte.
+-    **Closed|Bool**: spécifie si la spline est fermée ou non. Si la spline est initialement ouverte, cette valeur est `False`, si vous lui attribuez la valeur `True`, un segment de courbe sera dessiné pour fermer la spline. Si la courbe est initialement fermée, cette valeur est `True`, la définir sur `False` supprimera le dernier segment de courbe et rendra la courbe ouverte.
 
--    **Make Face|Bool**   * spécifie si la spline fait une face ou non. Si c\'est `True`, une face est créée, sinon seul le périmètre est considéré comme faisant partie de l\'objet. Cette propriété ne fonctionne que si **Closed** est `True` et si le spline ne s\'auto-intersecte pas.
+-    **Make Face|Bool**: spécifie si la spline fait une face ou non. Si c\'est `True`, une face est créée, sinon seul le périmètre est considéré comme faisant partie de l\'objet. Cette propriété ne fonctionne que si **Closed** est `True` et si le spline ne s\'auto-intersecte pas.
 
--    **Parameterization|Float**   * affecte la forme de la spline.
+-    **Parameterization|Float**: affecte la forme de la spline.
 
--    **Points|VectorList**   * spécifie les points de la spline dans son système de coordonnées local.
+-    **Points|VectorList**: spécifie les points de la spline dans son système de coordonnées local.
 
 ### Vue
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**   * spécifie la taille du symbole affiché à l\'extrémité de la courbe.
+-    **Arrow Size|Length**: spécifie la taille du symbole affiché à l\'extrémité de la courbe.
 
--    **Arrow Type|Enumeration**   * spécifie le type de symbole affiché à l\'extrémité de la courbe, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: spécifie le type de symbole affiché à l\'extrémité de la courbe, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
 
--    **End Arrow|Bool**   * spécifie s\'il faut afficher un symbole à l\'extrémité de la courbe spline, afin qu\'elle puisse être utilisée comme ligne d\'annotation.
+-    **End Arrow|Bool**: spécifie s\'il faut afficher un symbole à l\'extrémité de la courbe spline, afin qu\'elle puisse être utilisée comme ligne d\'annotation.
 
--    **Pattern|Enumeration**   * spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir la face de la courbe fermée. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir la face de la courbe fermée. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+-    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer une Draft B-spline, utilisez la méthode `make_bspline` ({{Version/fr|0.19}}) du module Draft. Cette méthode remplace la méthode dépréciée `makeBSpline`.
 
@@ -117,7 +117,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
 -   Si un `placement` est `None`, la courbe est créée à l\'origine.
 -   Si `face` est `True` et la courbe est fermée, la courbe fera une face, c\'est-à-dire qu\'elle apparaîtra remplie.
 
-Exemple    *
+Exemple :
 
 
 ```python

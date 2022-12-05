@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewIvIssueCamPos
-   Name/pl   *Std   * Parametry ujęcia widoku
-   MenuLocation   *Widok → Widok trójwymiarowy → Parametry ujęcia widoku
-   Workbenches   *wszystkie
-   SeeAlso   *[Zamroź widok](Std_FreezeViews/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewIvIssueCamPos
+   Name/pl:Std: Parametry ujęcia widoku
+   MenuLocation:Widok → Widok trójwymiarowy → Parametry ujęcia widoku
+   Workbenches:wszystkie
+   SeeAlso:[Zamroź widok](Std_FreezeViews/pl.md)
 ---
 
 # Std ViewIvIssueCamPos/pl
@@ -19,7 +19,7 @@ Polecenie **Std ViewIvIssueCamPos** wyświetla ustawienia ujęcia aktywnego [wid
 
 
 
-*Przykładowe wyświetlone dane   * ustawienia ujęcia widoku po zmianie widoku na [izometryczny](Std_ViewIsometric/pl.md) w nowym dokumencie*
+*Przykładowe wyświetlone dane: ustawienia ujęcia widoku po zmianie widoku na [izometryczny](Std_ViewIsometric/pl.md) w nowym dokumencie*
 
 ## Użycie
 
@@ -32,7 +32,7 @@ Polecenie **Std ViewIvIssueCamPos** wyświetla ustawienia ujęcia aktywnego [wid
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

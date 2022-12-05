@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Image CreateImagePlane
-   Name/pl   *Obraz   * Utwórz płaszczyznę obrazu
-   MenuLocation   *
-   Workbenches   *[Obraz](Image_Workbench/pl.md)
-   SeeAlso   *[Otwórz](Image_Open/pl.md), [Skaluj](Image_Scaling/pl.md)
+- GuiCommand:/pl
+   Name:Image CreateImagePlane
+   Name/pl:Obraz: Utwórz płaszczyznę obrazu
+   MenuLocation:
+   Workbenches:[Obraz](Image_Workbench/pl.md)
+   SeeAlso:[Otwórz](Image_Open/pl.md), [Skaluj](Image_Scaling/pl.md)
 ---
 
 # Image CreateImagePlane/pl
@@ -30,20 +30,20 @@ Jeśli początkowo nie podano żadnego odsunięcia dla obrazka, jego pozycję mo
 
 {{Properties_Title|Podstawowe}}
 
--    **Pozycja**   * określa współrzędne punktu bazowego płaszczyzny obrazu.
+-    **Pozycja**: określa współrzędne punktu bazowego płaszczyzny obrazu.
 
--    **Kąt**   * określa kąt obrotu płaszczyzny obrazu.
+-    **Kąt**: określa kąt obrotu płaszczyzny obrazu.
 
--    **Oś**   * określa oś używaną dla kąta obrotu.
+-    **Oś**: określa oś używaną dla kąta obrotu.
 
 
 {{Properties Title|Płaszczyzna obrazu}}
 
--    **Obraz płaszczyzny**   * określa obraz, który ma być użyty dla tej płaszczyzny.
+-    **Obraz płaszczyzny**: określa obraz, który ma być użyty dla tej płaszczyzny.
 
--    **RozmiarX**   * określa szerokość płaszczyzny obrazu.
+-    **RozmiarX**: określa szerokość płaszczyzny obrazu.
 
--    **RozmiarY**   * określa wysokość płaszczyzny obrazu.
+-    **RozmiarY**: określa wysokość płaszczyzny obrazu.
 
 
 

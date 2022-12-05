@@ -1,12 +1,12 @@
 ---
-- TutorialInfo   */pl
-   Topic   *Modelowanie
-   Level   *początkujący
-   Author   *heda
-   Time   *2 godziny
-   FCVersion   *0.19 lub nowszy
-   Files   * nie dołączono
-   SeeAlso   *[Projekt Części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:początkujący
+   Author:heda
+   Time:2 godziny
+   FCVersion:0.19 lub nowszy
+   Files: nie dołączono
+   SeeAlso:[Projekt Części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
 ---
 
 # Creating a simple part with Part WB/pl
@@ -17,7 +17,7 @@
 
 ## Wprowadzenie
 
-Ten poradnik ma służyć jako pierwsze wprowadzenie do modelowania 3D z wykorzystaniem środowiska pracy [Część](Part_Workbench/pl.md) ![](images/Switch_PartWorkbench.JPG ) programu FreeCAD. Po ukończeniu tego poradnika powinieneś umieć tworzyć proste modele 3D przy użyciu elementów pierwotnych takich jak sześciany, cylindry itp. techniką zwaną [Constructive Solid Geometry](https   *//en.wikipedia.org/wiki/Constructive_solid_geometry), w skrócie modelowanie **CSG**. Innym sposobem tworzenia modeli 3D jest użycie kształtu 2D poprzez np. wyciąganie lub obracanie kształtu 2D w przestrzeni 3D. Aby zapoznać się z tą techniką, proszę prześledzić siostrzany poradnik *[Projekt Części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)*. Oba poradniki celowo mają wygenerowany dokładnie ten sam model, co pozwala początkującym zapoznać się z dwoma różnymi technikami i ich implementacją w FreeCAD. Definicja tych dwóch technik może być postrzegana jako ściśle podzielona z semantycznego punktu widzenia, jednakże nie ma nic, co bezpośrednio utrudniałoby mieszanie tych technik podczas tworzenia modeli. Istnieją pewne zastrzeżenia, na które należy uważać przy mieszaniu technik modelowania, są one związane głównie z aspektami tego, jak FreeCAD jest zaprogramowany. Istnieje [trzeci poradnik](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md) przeznaczony jako pierwsze wprowadzenie do przykładu mieszanego modelowania. Używa on środowiska pracy **Rysunek Roboczy** do stworzenia płaskiego profilu 2D, który jest wykorzystywany do wytłaczania bryły w środowisku pracy **Część**, do stworzenia takiego samego modelu jak w niniejszym poradniku.
+Ten poradnik ma służyć jako pierwsze wprowadzenie do modelowania 3D z wykorzystaniem środowiska pracy [Część](Part_Workbench/pl.md) ![](images/Switch_PartWorkbench.JPG ) programu FreeCAD. Po ukończeniu tego poradnika powinieneś umieć tworzyć proste modele 3D przy użyciu elementów pierwotnych takich jak sześciany, cylindry itp. techniką zwaną [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry), w skrócie modelowanie **CSG**. Innym sposobem tworzenia modeli 3D jest użycie kształtu 2D poprzez np. wyciąganie lub obracanie kształtu 2D w przestrzeni 3D. Aby zapoznać się z tą techniką, proszę prześledzić siostrzany poradnik *[Projekt Części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)*. Oba poradniki celowo mają wygenerowany dokładnie ten sam model, co pozwala początkującym zapoznać się z dwoma różnymi technikami i ich implementacją w FreeCAD. Definicja tych dwóch technik może być postrzegana jako ściśle podzielona z semantycznego punktu widzenia, jednakże nie ma nic, co bezpośrednio utrudniałoby mieszanie tych technik podczas tworzenia modeli. Istnieją pewne zastrzeżenia, na które należy uważać przy mieszaniu technik modelowania, są one związane głównie z aspektami tego, jak FreeCAD jest zaprogramowany. Istnieje [trzeci poradnik](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md) przeznaczony jako pierwsze wprowadzenie do przykładu mieszanego modelowania. Używa on środowiska pracy **Rysunek Roboczy** do stworzenia płaskiego profilu 2D, który jest wykorzystywany do wytłaczania bryły w środowisku pracy **Część**, do stworzenia takiego samego modelu jak w niniejszym poradniku.
 
 Przed rozpoczęciem proszę zapoznać się ze sposobem **[operowania](Mouse_navigation/pl.md)** w przestrzeni 3D. Po ustawieniu kursora myszki na selektor *Profil nawigacji* w prawym dolnym rogu okna programu FreeCAD pojawia się okienko z aktualnym profilem myszki, jak na poniższym obrazku.
 
@@ -40,7 +40,7 @@ Wielu nowych użytkowników programów CAD utknęło podczas nauki oprogramowani
 
 ## Model do wykonania 
 
-<img alt="" src=images/GGTuto1_Vue.PNG  style="width   *372px;">
+<img alt="" src=images/GGTuto1_Vue.PNG  style="width:372px;">
 
 ![](images/T101pwb01-02_dims.png )
 
@@ -50,9 +50,9 @@ Utwórz nowy dokument i zapisz go bezpośrednio pod nową nazwą, dobrą praktyk
 
 ### Utwórz główny blok bryły 
 
-Naciśnij przycisk narzędzia <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Sześcian](Part_Box/pl.md), aby stworzyć domyślną bryłę sześcianu. Sześcian pojawi się w oknie [widoku 3D](3D_view/pl.md), a także jako nowy obiekt w oknie [widoku drzewa](Tree_view/pl.md) na pasku bocznym.
+Naciśnij przycisk narzędzia <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Sześcian](Part_Box/pl.md), aby stworzyć domyślną bryłę sześcianu. Sześcian pojawi się w oknie [widoku 3D](3D_view/pl.md), a także jako nowy obiekt w oknie [widoku drzewa](Tree_view/pl.md) na pasku bocznym.
 
-Naciśnij przycisk narzędzia <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Widok izometryczny](Std_ViewIsometric/pl.md) aby zobaczyć sześcian w przestrzeni 3D.
+Naciśnij przycisk narzędzia <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Widok izometryczny](Std_ViewIsometric/pl.md) aby zobaczyć sześcian w przestrzeni 3D.
 
 ![](images/T101pwb01-03_cube1.png )
 
@@ -62,13 +62,13 @@ Wybierz sześcian w oknie [widok drzewa](Tree_view.md), zostanie on podświetlon
 
 Podczas zmiany właściwości, jak na przykład *Długość* poprzez pole wyboru, można albo wprowadzić wartości, albo użyć kółka przewijania do odmierzenia wartości w górę lub w dół. Oczywiście można również użyć strzałek do zmiany wartości w górę lub w dół. Na obrazku po prawej stronie, właściwość *Wysokość* znajduje się w trybie edycji, kręcenie kółkiem przewijania, gdy mysz znajduje się nad tą komórką, zmieni wartość o jeden w górę lub w dół.
 
-Kliknij w narzędzie <img alt="" src=images/Std_ViewFitAll.svg  style="width   *24px;"> **[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)** aby zobaczyć cały sześcian.
+Kliknij w narzędzie <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> **[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)** aby zobaczyć cały sześcian.
 
 ![](images/T101pwb01-05_cube2.png )
 
 ### Tworzenie zaokrąglenia 
 
-Aby wykonać zaokrąglony narożnik, w pasku narzędziowym naciśnij narzędzie <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> *[Zaokrąglenie](Part_Fillet/pl.md)*, co spowoduje otwarcie *panelu zadań* dla zaokrągleń w oknie [widoku połączonego](Combo_view/pl.md). Zmień wartość w polu wyboru *promień* na {{Value|20 mm}}, a następnie w widoku 3D wybierz krawędź szerokości w prawym górnym rogu i kliknij przycisk **OK**.
+Aby wykonać zaokrąglony narożnik, w pasku narzędziowym naciśnij narzędzie <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> *[Zaokrąglenie](Part_Fillet/pl.md)*, co spowoduje otwarcie *panelu zadań* dla zaokrągleń w oknie [widoku połączonego](Combo_view/pl.md). Zmień wartość w polu wyboru *promień* na {{Value|20 mm}}, a następnie w widoku 3D wybierz krawędź szerokości w prawym górnym rogu i kliknij przycisk **OK**.
 
 ![](images/T101pwb01-06_filletrad.png )
 
@@ -84,7 +84,7 @@ Kliknij na znak plusa, aby rozwinąć obiekty podrzędne zaokrąglenia, którym 
 
 Następnie tworzymy 30-stopniową *fazę*, zaczynamy od przełączenia widoczności sześcianu będącego obiektem podrzędnym zaokrąglenia. W środowisku pracy [ Część](Part_Workbench/pl.md) jest narzędzie do sfazowania, ale zamiast go używać zrobimy fazę za pomocą innego bloku i cięcia funkcją logiczną.
 
-Utwórz nowy <img alt="" src=images/Part_Box.svg  style="width   *24px;"> **[Sześcian](Part_Box/pl.md)** o wymiarach 60 x 30 x 30. Zmień *kąt umiejscowienia* na -30 stopni.
+Utwórz nowy <img alt="" src=images/Part_Box.svg  style="width:24px;"> **[Sześcian](Part_Box/pl.md)** o wymiarach 60 x 30 x 30. Zmień *kąt umiejscowienia* na -30 stopni.
 
 ![](images/T101pwb01-08_chamfer1.png )
 
@@ -100,7 +100,7 @@ Ponadto należy skorygować położenie, patrząc na rysunek gotowej części, n
 
 ![](images/T101pwb01-10_pyconsole.png )
 
-Po zaimportowaniu modułu *[math](https   *//docs.python.org/3/library/math.html#module-math)* z bibliotek standardowych środowiska Python możemy użyć formuły *(50 - math.tan(math.radians(30)) \* 50)*, aby znaleźć odległość w kierunku Z, na jaką należy przesunąć sześcian. Skopiuj wynik formuły z konsoli Python i wklej go do pozycji z dla **Cube001**. Narzędzie, które ma zostać użyte do wykonania cięcia fazy jest teraz prawidłowo zorientowane i umieszczone.
+Po zaimportowaniu modułu *[math](https://docs.python.org/3/library/math.html#module-math)* z bibliotek standardowych środowiska Python możemy użyć formuły *(50 - math.tan(math.radians(30)) \* 50)*, aby znaleźć odległość w kierunku Z, na jaką należy przesunąć sześcian. Skopiuj wynik formuły z konsoli Python i wklej go do pozycji z dla **Cube001**. Narzędzie, które ma zostać użyte do wykonania cięcia fazy jest teraz prawidłowo zorientowane i umieszczone.
 
 ![](images/T101pwb01-11_chamfer3.png )
 
@@ -114,7 +114,7 @@ Kliknięcie tej ikony otwiera nowe okno *Edytor formuły*, w którym można wpro
 
 ![](images/T101pwb01-13_expression2.png )
 
-Aby wykonać cięcie, z wciśniętym klawiszem **Ctrl** najpierw wybierz obiekt **zaokrąglenie** w widoku drzewa, a następnie ostatnio utworzony sześcian *(nazwany **Cube001**)* i na koniec w pasku narzędzi naciśnij przycisk <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> *[Wytnij](Part_Cut/pl.md)*. Twój widok drzewa powinien teraz ponownie zawierać pojedynczy obiekt w korzeniu o nazwie **Cut**.
+Aby wykonać cięcie, z wciśniętym klawiszem **Ctrl** najpierw wybierz obiekt **zaokrąglenie** w widoku drzewa, a następnie ostatnio utworzony sześcian *(nazwany **Cube001**)* i na koniec w pasku narzędzi naciśnij przycisk <img alt="" src=images/Part_Cut.svg  style="width:24px;"> *[Wytnij](Part_Cut/pl.md)*. Twój widok drzewa powinien teraz ponownie zawierać pojedynczy obiekt w korzeniu o nazwie **Cut**.
 
 ![](images/T101pwb01-14_model1.png )
 
@@ -128,7 +128,7 @@ Bardziej powszechne jest dostosowanie układu pasków narzędzi do potrzeb użyt
 
 #### Narzędzia pomiarowe 
 
-Za pomocą *[narzędzi pomiarowych](Part_Workbench/pl#Pomiary.md)* w środowisku pracy **Część** możemy sprawdzić czy nasze obliczenia i umiejscowienie fazy jest poprawne. Naciśnij przycisk <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> *[Wymiarowanie Liniowe](Part_Measure_Linear/pl.md)*, otworzy się *panel zadań*, następnie wybierz 2 punkty końcowe jednej strony fazy.
+Za pomocą *[narzędzi pomiarowych](Part_Workbench/pl#Pomiary.md)* w środowisku pracy **Część** możemy sprawdzić czy nasze obliczenia i umiejscowienie fazy jest poprawne. Naciśnij przycisk <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> *[Wymiarowanie Liniowe](Part_Measure_Linear/pl.md)*, otworzy się *panel zadań*, następnie wybierz 2 punkty końcowe jednej strony fazy.
 
 ![](images/T101pwb01-15_model1measure1.png )
 
@@ -136,15 +136,15 @@ Zgadza się z wymiarem X wynoszącym 50mm, wyczyść pomiar i zamknij okno dialo
 
 ### Utwórz otwór 
 
-Aby wykonać otwór, naciśnij przycisk narzędzia <img alt="" src=images/Part_Cylinder.svg  style="width   *24px;"> *[Walec](Part_Cylinder/pl.md)*, ustaw *promień* na wartość {{Value|5 mm}} i *wysokość* {{Value|50 mm}}.
+Aby wykonać otwór, naciśnij przycisk narzędzia <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> *[Walec](Part_Cylinder/pl.md)*, ustaw *promień* na wartość {{Value|5 mm}} i *wysokość* {{Value|50 mm}}.
 
 ![](images/T101pwb01-16_cyl1.png )
 
-Następnie musimy ustawić otwór zgodnie z wymiarami na rysunku. Zmień widok na <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Od góry](Std_ViewTop/pl.md)**, następnie kliknij prawym przyciskiem myszy na **Walec** w widoku Drzewa i wybierz opcję **Przekształć** z menu podręcznego.
+Następnie musimy ustawić otwór zgodnie z wymiarami na rysunku. Zmień widok na <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> **[Od góry](Std_ViewTop/pl.md)**, następnie kliknij prawym przyciskiem myszy na **Walec** w widoku Drzewa i wybierz opcję **Przekształć** z menu podręcznego.
 
 ![](images/T101pwb01-17_cyl1translate.png )
 
-Zmień wartość parametru *Przyrost przesunięcia* na {{Value|5}} i za pomocą czerwonej i zielonej strzałki ustaw walec we właściwej pozycji, przesuwając go o {{Value|15mm}} w kierunku osi Y i {{Value|65mm}} w X, przeciągając myszką końce strzałek. Kliknij **OK**, aby zamknąć okienko dialogowe *Przemieszczenie*. Aby wykonać otwór naciśnij klawisz **Ctrl** i zaznacz obiekty **Cut** oraz **Walec** w widoku Drzewa, a następnie naciśnij przycisk narzędzia <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> *[Wytnij](Part_Cut/pl.md)* na pasku narzędzi. Twój widok Drzewa powinien ponownie mieć pojedynczy obiekt w korzeniu o nazwie **Cut001**.
+Zmień wartość parametru *Przyrost przesunięcia* na {{Value|5}} i za pomocą czerwonej i zielonej strzałki ustaw walec we właściwej pozycji, przesuwając go o {{Value|15mm}} w kierunku osi Y i {{Value|65mm}} w X, przeciągając myszką końce strzałek. Kliknij **OK**, aby zamknąć okienko dialogowe *Przemieszczenie*. Aby wykonać otwór naciśnij klawisz **Ctrl** i zaznacz obiekty **Cut** oraz **Walec** w widoku Drzewa, a następnie naciśnij przycisk narzędzia <img alt="" src=images/Part_Cut.svg  style="width:24px;"> *[Wytnij](Part_Cut/pl.md)* na pasku narzędzi. Twój widok Drzewa powinien ponownie mieć pojedynczy obiekt w korzeniu o nazwie **Cut001**.
 
 Gratulacje, model jest już skończony.
 
@@ -168,15 +168,15 @@ Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń
 
 ![](images/T101pwb03-01_cyl.png )
 
-Tym razem do usytuowania otworu posłuży środowisko pracy <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> **[Rysunek Roboczy](Draft_Workbench/pl.md)**. Otwór ma tak jak poprzednio znajdować się na środku górnej powierzchni czołowej, co pokrywa się z punktem środkowym przekątnej tej powierzchni.
+Tym razem do usytuowania otworu posłuży środowisko pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> **[Rysunek Roboczy](Draft_Workbench/pl.md)**. Otwór ma tak jak poprzednio znajdować się na środku górnej powierzchni czołowej, co pokrywa się z punktem środkowym przekątnej tej powierzchni.
 
-Rozpocznij od przełączenia środowiska pracy na **Rysunek Roboczy**, może się okazać, że w widoku 3D pojawi się *siatka*, widoczność siatki można przełączać za pomocą narzędzia <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md) na pasku narzędzi. Podczas korzystania z funkcjonalności *[przyciągania](Draft_Snap.md)* w środowisku **Rysunek Roboczy** warto mieć włączone tylko interesujące nas *typy przyciągania*. Tym razem wystarczy pozostawić włączone *punkt końcowy, punkt środkowy i środek okręgu*, więc ustawienia przyciągania powinny wyglądać jak poniżej.
+Rozpocznij od przełączenia środowiska pracy na **Rysunek Roboczy**, może się okazać, że w widoku 3D pojawi się *siatka*, widoczność siatki można przełączać za pomocą narzędzia <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md) na pasku narzędzi. Podczas korzystania z funkcjonalności *[przyciągania](Draft_Snap.md)* w środowisku **Rysunek Roboczy** warto mieć włączone tylko interesujące nas *typy przyciągania*. Tym razem wystarczy pozostawić włączone *punkt końcowy, punkt środkowy i środek okręgu*, więc ustawienia przyciągania powinny wyglądać jak poniżej.
 
 ![](images/T101pwb03-02_snap.png )
 
 Znalezienie punktu, w którym należy umieścić środek walca, można by zrobić poprzez wykonanie przekątnej jako linii pomocniczej i użyć środka walca i punktu środkowego przekątnej do zidentyfikowania punktów, między którymi należy się poruszać, jednak okazuje się, że nie musimy nawet tworzyć żadnych linii pomocniczych, możemy zatrzasnąć się na już istniejącej geometrii bryły.
 
-Zaznacz **Walec** w widoku drzewa *(zmieni kolor na zielony w oknie widoku 3D)* i naciśnij przycisk <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **[Przesuń](Draft_Move/pl.md)** na pasku narzędzi. Otworzy się *panel zadań* do przesuwania obiektów, upewnij się, że *Kopiowanie* jest odznaczone.
+Zaznacz **Walec** w widoku drzewa *(zmieni kolor na zielony w oknie widoku 3D)* i naciśnij przycisk <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **[Przesuń](Draft_Move/pl.md)** na pasku narzędzi. Otworzy się *panel zadań* do przesuwania obiektów, upewnij się, że *Kopiowanie* jest odznaczone.
 
 ![](images/T101pwb03-03_move.png )
 
@@ -192,7 +192,7 @@ Powtarzając jeszcze raz krok **cięcia logicznego** z wcześniejszego etapu, wy
 
 ## Wykonanie otworu z pogłębieniem stożkowym 
 
-Wróć do środowiska [Część](Part_Workbench/pl.md) i utwórz *stożek* używając narzędzia <img alt="" src=images/Part_Cone.svg  style="width   *24px;"> **[Stożek](Part_Cone/pl.md)** na pasku narzędzi. Zmień wartość *promień1* na {{Value|0mm}} i *promień2* na {{Value|7mm}} - da to 2mm *pogłębienia*. Nadając *wysokość* stożkowi 7mm otrzymamy kąt wierzchołkowy 90 stopni lub kąt pogłębienia 45 stopni. Warto zauważyć, że znów równie dobrze można by użyć narzędzia <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Fazka](Part_Chamfer/pl.md).
+Wróć do środowiska [Część](Part_Workbench/pl.md) i utwórz *stożek* używając narzędzia <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **[Stożek](Part_Cone/pl.md)** na pasku narzędzi. Zmień wartość *promień1* na {{Value|0mm}} i *promień2* na {{Value|7mm}} - da to 2mm *pogłębienia*. Nadając *wysokość* stożkowi 7mm otrzymamy kąt wierzchołkowy 90 stopni lub kąt pogłębienia 45 stopni. Warto zauważyć, że znów równie dobrze można by użyć narzędzia <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Fazka](Part_Chamfer/pl.md).
 
 Podczas pracy z programem FreeCAD będziesz miał do czynienia z kilkoma różnymi sposobami na osiągnięcie pozornie tego samego rezultatu. Nie ma absolutnej pewności co do tego, jaki jest właściwy sposób na osiągnięcie konkretnego efektu końcowego - jednak w konkretnym kontekście jeden konkretny sposób pracy może być bardziej elastyczny, pozwalać na wykorzystanie późniejszych funkcji itp. Sposób w jaki budujesz modele 3D będzie ewoluował w czasie, gdy będziesz poznawał coraz więcej funkcji i możliwości programu FreeCAD.
 
@@ -200,27 +200,27 @@ Podczas pracy z programem FreeCAD będziesz miał do czynienia z kilkoma różny
 
 Przekształć stożek tak, by był \"współśrodkowy\" z otworem i \"współpłaszczyznowy\" z górną powierzchnią głównej bryły. Użyj do tego celu dowolnej metody opisanej wcześniej w tym poradniku.
 
-Na poniższym rysunku przesunięcie zostało wykonane przy użyciu funkcji *Przemieszczenia* i ustawieniu *przyrost* na {{Value|1mm}}, ponieważ stożek ma charakterystyczny wymiar {{Value|7mm}}, co oznacza, że wcześniejsze ustawienie przyrostu na {{Value|5mm}} nie pozwoli na poprawne pozycjonowanie. W celu łatwiejszego zorientowania się, że stożek znajduje się we właściwej pozycji, zastosowano renderowanie <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> **[szkieletowe](Std_DrawStyle/pl#Szkieletowy.md)**.
+Na poniższym rysunku przesunięcie zostało wykonane przy użyciu funkcji *Przemieszczenia* i ustawieniu *przyrost* na {{Value|1mm}}, ponieważ stożek ma charakterystyczny wymiar {{Value|7mm}}, co oznacza, że wcześniejsze ustawienie przyrostu na {{Value|5mm}} nie pozwoli na poprawne pozycjonowanie. W celu łatwiejszego zorientowania się, że stożek znajduje się we właściwej pozycji, zastosowano renderowanie <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> **[szkieletowe](Std_DrawStyle/pl#Szkieletowy.md)**.
 
 ![](images/T101pwb04-02_conetranslate.png )
 
-Aby ukończyć model, skorzystajmy z polecenia <img alt="" src=images/Part_Boolean.svg  style="width   *24px;"> **[Operacje logiczne na bryłach](Part_Boolean/pl.md)** zamiast najpierw wybierać obiekty i zastosować konkretną operację logiczną. Naciśnij przycisk na pasku narzędzi, otworzy się *panel zadań*, jak na poniższym obrazku po lewej stronie.
+Aby ukończyć model, skorzystajmy z polecenia <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> **[Operacje logiczne na bryłach](Part_Boolean/pl.md)** zamiast najpierw wybierać obiekty i zastosować konkretną operację logiczną. Naciśnij przycisk na pasku narzędzi, otworzy się *panel zadań*, jak na poniższym obrazku po lewej stronie.
 
 ![](images/T101pwb04-03_boolean.png )
 
-Należy podać trzy elementy, *typ operacji*, *pierwszy kształt* i *drugi kształt*. Stożek ma zostać wycięty, w tym poleceniu nazywa się to *Różnica*, a nie *Przecięcie*. Pierwszy kształt to nasz \'Cut001\', jest on wymieniony w kategorii *Kształt złożony*, ponieważ jest zbudowany z kilku brył. Drugi kształt to *Stożek*. Po wprowadzeniu prawidłowych ustawień dla polecenia, kliknij przycisk **Zastosuj**, aby wykonać operację. To wszystko zostało wykonane na rysunku po prawej stronie, można tam również zauważyć, że na liście znajduje się teraz *kształt złożony* *Cut002*, jest to nasz ostateczny kształt modelu. Po zmianie wyglądu zakończony model wygląda następująco   *
+Należy podać trzy elementy, *typ operacji*, *pierwszy kształt* i *drugi kształt*. Stożek ma zostać wycięty, w tym poleceniu nazywa się to *Różnica*, a nie *Przecięcie*. Pierwszy kształt to nasz \'Cut001\', jest on wymieniony w kategorii *Kształt złożony*, ponieważ jest zbudowany z kilku brył. Drugi kształt to *Stożek*. Po wprowadzeniu prawidłowych ustawień dla polecenia, kliknij przycisk **Zastosuj**, aby wykonać operację. To wszystko zostało wykonane na rysunku po prawej stronie, można tam również zauważyć, że na liście znajduje się teraz *kształt złożony* *Cut002*, jest to nasz ostateczny kształt modelu. Po zmianie wyglądu zakończony model wygląda następująco:
 
 ![](images/T101pwb04-04_modelcomplete.png )
 
 ## Wykonanie elementu pustego 
 
-Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. FreeCAD posiada wszystkie typowe operacje modelarza 3D, jedną z nich jest <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> *[Grubość](Part_Thickness/pl.md)*\', która użyjemy do *wydrążania* części.
+Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. FreeCAD posiada wszystkie typowe operacje modelarza 3D, jedną z nich jest <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> *[Grubość](Part_Thickness/pl.md)*\', która użyjemy do *wydrążania* części.
 
 Obróć model tak, aby widoczna była dolna ściana.
 
 ![](images/T101pwb05-01_frombottom.png )
 
-Zaznacz *dolną ścianę* modelu, a następnie w środowisku pracy [Część](Part_Workbench/pl.md) wybierz <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> *[Grubość](Part_Thickness/pl.md)* i ekran powinien wyglądać następująco   *
+Zaznacz *dolną ścianę* modelu, a następnie w środowisku pracy [Część](Part_Workbench/pl.md) wybierz <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> *[Grubość](Part_Thickness/pl.md)* i ekran powinien wyglądać następująco:
 
 ![](images/T101pwb05-02_thickness_cmd.png )
 
@@ -242,7 +242,7 @@ Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń
 
 ![](images/T101pwb06-01_startingpoint.png )
 
-Utwórz **sześcian** o wymiarach **30 x 30 x 60**, kończąc jak poniżej   *
+Utwórz **sześcian** o wymiarach **30 x 30 x 60**, kończąc jak poniżej:
 
 ![](images/T101pwb06-02_with_cube.png )
 
@@ -260,7 +260,7 @@ To po raz kolejny potwierdza, że zawsze istnieje kilka sposobów na uzyskanie t
 
 FreeCAD jest parametrycznym modelerem 3D, pozwala to na zmianę dowolnego *umiejscowienia* lub *wymiaru*, a model zostanie odpowiednio zaktualizowany. Ogólnie rzecz biorąc to działa, ale możliwe jest uszkodzenie modelu podczas edycji - na przykład, gdy zaokrąglenie jest oparte na krawędzi, która już nie istnieje z powodu edycji. Kiedy model ulega uszkodzeniu podczas edycji, określa się to jako **TNP, *(Topological Naming Problem)* [Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)**.
 
-Śmiało eksperymentuj ze zmianą wymiarów i umiejscowień, aby zobaczyć, czy możesz naruszyć model, nie zapomnij przeliczyć modelu po zmianach, jeśli to konieczne. Można to zrobić za pomocą narzędzia na pasku narzędzi <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Przelicz](Std_Refresh/pl.md), jeśli ikona jest \"niedostępna\" to nie ma potrzeby odświeżania obiektu.
+Śmiało eksperymentuj ze zmianą wymiarów i umiejscowień, aby zobaczyć, czy możesz naruszyć model, nie zapomnij przeliczyć modelu po zmianach, jeśli to konieczne. Można to zrobić za pomocą narzędzia na pasku narzędzi <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Przelicz](Std_Refresh/pl.md), jeśli ikona jest \"niedostępna\" to nie ma potrzeby odświeżania obiektu.
 
 ### Zmiana położenia walca 
 
@@ -268,7 +268,7 @@ Oto przykład walca przesuniętego ze środka na jedną stronę korpusu główne
 
 ![](images/T101pwb07-01_cylindermoved.png )
 
-Kiedy przesuwasz walec i przebijasz się przez zewnętrzną powierzchnię, w wersji 0.19 tracisz część ustawień kolorów w swoim modelu. FreeCAD powraca do domyślnych ustawień użytkownika dla kolorów kształtu i przezroczystości w widoku 3D, jednak kształt **Cut002** nadal pokazuje kolory i przezroczystość, które miał wcześniej, jak widać na poniższym obrazku   *
+Kiedy przesuwasz walec i przebijasz się przez zewnętrzną powierzchnię, w wersji 0.19 tracisz część ustawień kolorów w swoim modelu. FreeCAD powraca do domyślnych ustawień użytkownika dla kolorów kształtu i przezroczystości w widoku 3D, jednak kształt **Cut002** nadal pokazuje kolory i przezroczystość, które miał wcześniej, jak widać na poniższym obrazku:
 
 ### Ustalenie kolorów 
 
@@ -308,13 +308,13 @@ Zachęcamy do nauczenia się jak uniknąć uszkodzenia modeli z powodu TNP, dals
 
 ## Organizowanie drzewa w odmienny sposób 
 
-Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń wszystkie wycięcia kończąc na modelu wyglądającym jak poniżej   *
+Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń wszystkie wycięcia kończąc na modelu wyglądającym jak poniżej:
 
 ![](images/T101pwb08-01_primitives.png )
 
 Podczas używania środowiska pracy *Część* i modelowania brył bogatych w cechy, struktura drzewa bryły może być trudna do rozszyfrowania. Do tej pory utworzyliśmy jedną bryłę pierwotną / cechę i zastosowaliśmy operację logiczną. W środowisku Część można łączyć elementy pierwotne jedną operacją logiczną. W naszym przypadku mamy walec, stożek i sześcian, które są połączone operacją logiczną wycięcia.
 
-Zamiast wykonywać wycięcie dla każdego elementu pierwotnego, możemy najpierw zastosować operację logiczną, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[połączenia](Part_Fuse/pl.md)** brył pierwotnych przeznaczonych do wycięcia logicznego, a następnie wykonać *wycięcie* pomiędzy obiektami o nazwach *Fillet* oraz *Fusion*.
+Zamiast wykonywać wycięcie dla każdego elementu pierwotnego, możemy najpierw zastosować operację logiczną, <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> **[połączenia](Part_Fuse/pl.md)** brył pierwotnych przeznaczonych do wycięcia logicznego, a następnie wykonać *wycięcie* pomiędzy obiektami o nazwach *Fillet* oraz *Fusion*.
 
 Używając tego podejścia, widok drzewa kończy się wyglądając jak poniżej, co jest po prostu innym sposobem budowania tego samego modelu. Porównaj to z oryginalnym widokiem drzewa, żadne nie jest lepsze od drugiego, jednak podczas tworzenia bardziej złożonych modeli, jedno podejście nad drugim może mieć korzyści w łatwości modyfikacji / reorganizacji modelu w razie potrzeby.
 
@@ -325,8 +325,6 @@ Używając tego podejścia, widok drzewa kończy się wyglądając jak poniżej,
 Po przebrnięciu przez ten poradnik jesteś teraz krótko zaznajomiony z interfejsem użytkownika FreeCAD i poznałeś podstawy korzystania ze **środowiska Część**. Powinieneś teraz być w stanie budować proste modele według własnych upodobań. Środowisko pracy **Część** jest jednym ze środowisk, które można wykorzystać do tworzenia brył, innym jest **Projekt Części**. Poszczególne środowiska mają różne możliwości i sposoby pracy. Pełne nauczenie się programu FreeCAD, szczególnie biorąc pod uwagę wszystkie dodatki i makrodefinicje zajmuje lata, więc kontynuuj odkrywanie nowych i różnych sposobów tworzenia modeli - skorzystaj z różnych poradników na Wiki, podczas pracy z programem FreeCAD nauka nigdy się nie kończy. Sugeruje się abyś nauczył się *szkicowania* i środowiska **Projekt Części** jeśli skupiasz się na tworzeniu brył. Jeśli skupiasz się na modelowaniu budynków, następnym etapem nauki powinno być środowisko **Rysunek Roboczy** i **Architektura**.
 
 W końcu FreeCAD jest tworzony przez wolontariuszy w ich wolnym czasie. Jeśli chcesz dalej rozwijać możliwości programu, rozważ [pomoc w rozwoju FreeCAD](Help_FreeCAD/pl.md), na przykład poprzez poprawę dokumentacji.
-
-[Category   *Part](Category_Part.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM MeshGroup
-   Name/fr   *FEM Groupe de maillage FEM
-   MenuLocation   *Maillage → Groupe de maillage FEM
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM MeshGroup
+   Name/fr:FEM Groupe de maillage FEM
+   MenuLocation:Maillage → Groupe de maillage FEM
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshGroup/fr
@@ -17,9 +17,9 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
 
 ## Utilisation
 
-1.  Pour activer la fonction, il faut d\'abord fournir un <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
+1.  Pour activer la fonction, il faut d\'abord fournir un <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
 2.  Ensuite, sélectionnez l\'objet Mesh dans la [Vue en arborescence](Tree_view/fr.md) et
-    -   Soit appuyez sur le bouton <img alt="" src=images/FEM_MeshGroup.svg  style="width   *24px;"> de la barre d\'outils FEM
+    -   Soit appuyez sur le bouton <img alt="" src=images/FEM_MeshGroup.svg  style="width:24px;"> de la barre d\'outils FEM
     -   Soit sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGroup.svg" width=24px> Groupe de maillage FEM** dans le menu déroulant.
 3.  Sélectionnez si le groupe est nommé ou étiqueté.
     -   Si **Nom** est sélectionné, le nom du MeshGroup est utilisé lors de l\'exportation du maillage.
@@ -27,7 +27,7 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
 4.  Cliquez sur le bouton **OK**.
 5.  Fermez la tâche.
 
-       *   Résultat    * Vous devriez maintenant voir un nouvel objet `FEMMeshGroup` sous l\'objet `FEMMeshGMSH` dans votre conteneur d\'analyse actif.
+    :   Résultat : Vous devriez maintenant voir un nouvel objet `FEMMeshGroup` sous l\'objet `FEMMeshGMSH` dans votre conteneur d\'analyse actif.
 6.  Double-cliquez sur l\'objet parent `FEMMeshGMSH` dans l\'arborescence du modèle et appuyez sur **Appliquer** pour forcer un recalcul/réétiquetage du maillage.
 7.  Fermez la tâche.
 

@@ -9,9 +9,9 @@ Bevor du den Schmerz der Fehlerdiagnose durchmachst, benutze das [Test Framework
 
 Die *Fehlerdiagnose* von FreeCAD wird durch einige interne Mechanismen unterstützt. Die Kommandozeilenversion von FreeCAD bietet einige Optionen für die Fehlerdiagnoseunterstützung.
 
-Dies sind die derzeit anerkannten Optionen in FreeCAD 0.19   *
+Dies sind die derzeit anerkannten Optionen in FreeCAD 0.19:
 
-Grundlegende Optionen   *
+Grundlegende Optionen:
 
  -v [ --version ]      Druckt Versionszeichenkette
  -h [ --help ]         Druckt Hilfsmeldung aus
@@ -23,9 +23,9 @@ Grundlegende Optionen   *
 
 <div class="mw-translate-fuzzy">
 
-Konfiguration   *
+Konfiguration:
 
- -l [ --write-log ]       Schreibt eine Log-Datei nach   *
+ -l [ --write-log ]       Schreibt eine Log-Datei nach:
                           $HOME/.FreeCAD/FreeCAD.log
                           $HOME/Library/Preferences/FreeCAD/FreeCAD.log (macOS)
                           %APPDATA%\FreeCAD\FreeCAD.log (Windows)
@@ -47,33 +47,33 @@ Wenn Du eine FreeCAD Version der Anfangsphase der Entwicklungskurve verwendest, 
 ### Für Linux 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
 Linux Fehlerdiagnose →
 
 
 <div class="mw-collapsible-content">
 
-Voraussetzungen   *
+Voraussetzungen:
 
 -   Softwarepaket gdb installiert
 -   ein Fehlersuch-Build von FreeCAD (zur Zeit nur verfügbar unter [Für einen Fehlersuch Bau](Compile_on_Linux#For_a_Debug_build/de.md))
 -   ein FreeCAD-Modell, das einen Absturz verursacht
 
-Schritte   * Gib in deinem Terminalfenster folgendes ein   *
+Schritte: Gib in deinem Terminalfenster folgendes ein:
 
-Finde das FreeCAD-Programm auf deinem System   *
+Finde das FreeCAD-Programm auf deinem System:
 
 
 ```python
 $ whereis freecad
-freecad   * /usr/local/freecad <--- for example
+freecad: /usr/local/freecad <--- for example
 
 $ cd /usr/local/freecad/bin
 $ gdb FreeCAD
 ```
 
-GNUdebugger gibt einige Initialisierungsinformationen aus. Die (gdb) zeigt, dass der GNUDebugger im Terminal läuft, das nun eingegeben wird   *
+GNUdebugger gibt einige Initialisierungsinformationen aus. Die (gdb) zeigt, dass der GNUDebugger im Terminal läuft, das nun eingegeben wird:
 
 
 ```python
@@ -81,7 +81,7 @@ GNUdebugger gibt einige Initialisierungsinformationen aus. Die (gdb) zeigt, dass
 (gdb) run
 ```
 
-FreeCAD wird nun gestartet. Führe die Schritte aus, die dazu führen, dass FreeCAD abstürzt oder einfriert, und gib dann in das Terminalfenster ein   *
+FreeCAD wird nun gestartet. Führe die Schritte aus, die dazu führen, dass FreeCAD abstürzt oder einfriert, und gib dann in das Terminalfenster ein:
 
 
 ```python
@@ -106,20 +106,20 @@ Drucke auch die Werte der lokalen Variablen. Dies kann mit einer Zahl kombiniert
 ### Für macOS 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
 macOS Debugging →
 
 
 <div class="mw-collapsible-content">
 
-Voraussetzungen   *
+Voraussetzungen:
 
 -   Softwarepaket lldb installiert
 -   ein Fehlerdiagnose build von FreeCAD
 -   ein FreeCAD Modell, dass den Absturz verursacht
 
-Schritte   * Gib das Folgende in Dein Terminalfenster ein   *
+Schritte: Gib das Folgende in Dein Terminalfenster ein:
 
 
 ```python
@@ -127,14 +127,14 @@ $ cd FreeCAD/bin
 $ lldb FreeCAD
 ```
 
-LLDB gibt einige Initialisierungsinformationen aus. Die (lldb) zeigt an, dass das Fehlerdiagnoseprogramm im Terminal läuft, jetzt eingegeben   *
+LLDB gibt einige Initialisierungsinformationen aus. Die (lldb) zeigt an, dass das Fehlerdiagnoseprogramm im Terminal läuft, jetzt eingegeben:
 
 
 ```python
 (lldb) run
 ```
 
-FreeCAD wird nun gestartet. Führe die Schritte aus, die dazu führen, dass FreeCAD abstürzt oder einfriert, und gib dann in das Terminalfenster ein   *
+FreeCAD wird nun gestartet. Führe die Schritte aus, die dazu führen, dass FreeCAD abstürzt oder einfriert, und gib dann in das Terminalfenster ein:
 
 
 ```python
@@ -153,42 +153,42 @@ Dies führt zu einer längeren Auflistung dessen, was das Programm genau getan h
 
 (Anwendbar auf Linux und macOS)
 
-Manchmal ist es hilfreich zu verstehen, welche Bibliotheken FreeCAD lädt, insbesondere wenn mehrere Bibliotheken mit demselben Namen, aber unterschiedlichen Versionen geladen werden (Versionskollision). Um zu sehen, welche Bibliotheken von FreeCAD geladen werden, wenn es abstürzt, solltest du ein Terminal öffnen und es im Debugger ausführen. In einem zweiten Terminalfenster findest du die Prozess ID von FreeCAD heraus   *
+Manchmal ist es hilfreich zu verstehen, welche Bibliotheken FreeCAD lädt, insbesondere wenn mehrere Bibliotheken mit demselben Namen, aber unterschiedlichen Versionen geladen werden (Versionskollision). Um zu sehen, welche Bibliotheken von FreeCAD geladen werden, wenn es abstürzt, solltest du ein Terminal öffnen und es im Debugger ausführen. In einem zweiten Terminalfenster findest du die Prozess ID von FreeCAD heraus:
 
 
 `ps -A &#124; grep FreeCAD`
 
-Verwende die zurückgegebene ID und übergib sie an `lsof`   *
+Verwende die zurückgegebene ID und übergib sie an `lsof`:
 
 
 ` lsof -p process_id`
 
-Dadurch wird eine lange Liste der geladenen Ressourcen gedruckt. Wenn z.B. herausgefunden werden soll, ob mehr als eine Coin3d Bibliotheksversion geladen ist, blättere durch die Liste oder suche direkt nach Coin in der Ausgabe   *
+Dadurch wird eine lange Liste der geladenen Ressourcen gedruckt. Wenn z.B. herausgefunden werden soll, ob mehr als eine Coin3d Bibliotheksversion geladen ist, blättere durch die Liste oder suche direkt nach Coin in der Ausgabe:
 
 
 `lsof -p process_id &#124; grep Coin`
 
 ## Python Fehlerdiagnose 
 
-Für einen moderneren Ansatz zur Fehlerdiagnose bei Python siehe diese Beiträge   *
+Für einen moderneren Ansatz zur Fehlerdiagnose bei Python siehe diese Beiträge:
 
--   [Fehlerdiagnosemakros mit VS 2017](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=28901)
--   [Python Arbeitsbereiche Fehlersuche](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=35383)
--   [python3.dll, Qt5Windgets.dll, Qt5Gui.dll und Qt5Core.dll nicht gefunden](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=40251)
+-   [Fehlerdiagnosemakros mit VS 2017](https://forum.freecadweb.org/viewtopic.php?f=22&t=28901)
+-   [Python Arbeitsbereiche Fehlersuche](https://forum.freecadweb.org/viewtopic.php?f=10&t=35383)
+-   [python3.dll, Qt5Windgets.dll, Qt5Gui.dll und Qt5Core.dll nicht gefunden](https://forum.freecadweb.org/viewtopic.php?f=4&t=40251)
 
 ### winpdb
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
 winpdb Fehlerdiagnose →
 
 
 <div class="mw-collapsible-content">
 
-Hier ist ein Beispiel für die Verwendung von *Winpdb* in FreeCAD   *
+Hier ist ein Beispiel für die Verwendung von *Winpdb* in FreeCAD:
 
-Wir benötigen das Python-Fehlerdiagnoseprogramm *Winpdb*. Wenn es nicht installiert ist, lässt sich das auf Ubuntu/Debian wie folgt tun   *
+Wir benötigen das Python-Fehlerdiagnoseprogramm *Winpdb*. Wenn es nicht installiert ist, lässt sich das auf Ubuntu/Debian wie folgt tun:
 
 
 ```python
@@ -198,12 +198,12 @@ sudo apt-get install winpdb
 Jetzt werden wir das Fehlerdiagnoseprogramm einrichten.
 
 1.  Starte *Winpdb*.
-2.  Setze das Fehlerdiagnoseprogramm Passwort auf \"test\"   * Gehe zum Menü *Datei* → *Passwort* und setze das Passwort.
+2.  Setze das Fehlerdiagnoseprogramm Passwort auf \"test\": Gehe zum Menü *Datei* → *Passwort* und setze das Passwort.
 
 Jetzt werden wir ein Python-Test-Skript in FreeCAD Schritt-für-Schritt ablaufen lassen.
 
 1.  Starten Sie winpdb und setzen Sie ein Passwort (z.B. Test)
-2.  Erzeugen Sie eine Pythondatei mit folgendem Inhalt   *
+2.  Erzeugen Sie eine Pythondatei mit folgendem Inhalt:
 
 
 ```python
@@ -236,14 +236,14 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 ### Visual Studio Code (VS Code) 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
 VS Code Fehlerdiagnose →
 
 
 <div class="mw-collapsible-content">
 
-Voraussetzungen   *
+Voraussetzungen:
 
 
 <div class="mw-translate-fuzzy">
@@ -255,18 +255,18 @@ Voraussetzungen   *
 
 
 ```python
-# In a cmd window that has a path to you local Python 3   *
+# In a cmd window that has a path to you local Python 3:
 pip install ptvsd
-# Then if your Python is installed in C   *Users\<userid>\AppData\Local\Programs\Python\Python37
-# and your FreeCAD is installed in C   *freecad\bin
-xcopy "C   *Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C   *freecad\bin\Lib\site-packages\ptvsd"
+# Then if your Python is installed in C:\Users\<userid>\AppData\Local\Programs\Python\Python37
+# and your FreeCAD is installed in C:\freecad\bin
+xcopy "C:\Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C:\freecad\bin\Lib\site-packages\ptvsd"
 ```
 
-[pypi Seite](https   *//pypi.org/project/ptvsd/)
+[pypi Seite](https://pypi.org/project/ptvsd/)
 
-[Visual Studio Code Dokumentation für die Fern Fehlerdiagnose](https   *//code.visualstudio.com/docs/python/debugging#_remote-debugging)
+[Visual Studio Code Dokumentation für die Fern Fehlerdiagnose](https://code.visualstudio.com/docs/python/debugging#_remote-debugging)
 
-Schritte   *
+Schritte:
 
 -   Füge folgenden Code am Anfang deines Skripts hinzu
 
@@ -282,22 +282,22 @@ ptvsd.wait_for_attach()
 
 <div class="mw-translate-fuzzy">
 
--   Füge eine Fehlerdiagnosekonfiguration in Visual Studio Code {{MenuCommand/de|Fehlerdiagnose → Konfigurationen hinzufügen...}}. Es sollte so aussehen   *
+-   Füge eine Fehlerdiagnosekonfiguration in Visual Studio Code {{MenuCommand/de|Fehlerdiagnose → Konfigurationen hinzufügen...}}. Es sollte so aussehen:
 
 
 </div>
 
-        "configurations"   * [
+        "configurations": [
             {
-                "name"   * "Python   * Attacher",
-                "type"   * "python",
-                "request"   * "attach",
-                "port"   * 5678,
-                "host"   * "localhost",
-                "pathMappings"   * [
+                "name": "Python: Attacher",
+                "type": "python",
+                "request": "attach",
+                "port": 5678,
+                "host": "localhost",
+                "pathMappings": [
                     {
-                        "localRoot"   * "${workspaceFolder}",
-                        "remoteRoot"   * "."
+                        "localRoot": "${workspaceFolder}",
+                        "remoteRoot": "."
                     }
                 ]
             },
@@ -309,9 +309,9 @@ ptvsd.wait_for_attach()
 -   Starte das Skript in FreeCAD. FreeCAD Freeze wartet auf den Anhang.
 -   In VS Code startest Du die Fehlerdiagnose durch Verwendung der erstellten Konfiguration. Du solltest Variablen im Fehlerdiagnosebereich sehen.
 -   Beim Setzen von Haltepunkten wird sich VS Code darüber beschweren, die im VS Code-Editor geöffnete .py-Datei nicht zu finden.
-    -   Ändere \"remoteRoot\"   * \".\" zu \"remoteRoot\"   * \"\"
+    -   Ändere \"remoteRoot\": \".\" zu \"remoteRoot\": \"\"
     -   z.B. wenn sich die Python-Datei in */home/FC_myscripts/myscript.py* befindet
-    -   ändere zu \"remoteRoot\"   * \"/home/FC_myscripts/myscript.py\"
+    -   ändere zu \"remoteRoot\": \"/home/FC_myscripts/myscript.py\"
 -   Wenn dein Makro ptvsd nicht findet, obwohl du es irgendwo installiert hast, stelle \'import ptvsd\' folgendes voran
 
 
@@ -354,7 +354,7 @@ in die FreeCAD-Python-Konsole.
 ### With LiClipse and AppImage 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
 LiClipse Debugging →
 
@@ -380,7 +380,7 @@ squashfs-root> ./usr/bin/freecadcmd
 
 -   Should start up a FreeCAD commandline session.
 
--   Install [LiClipse](https   *//www.liclipse.com/).
+-   Install [LiClipse](https://www.liclipse.com/).
     -   Comes ready with pydev and has installers for all platforms.
     -   For linux it is just to extract (to any location) and run.
 
@@ -393,16 +393,16 @@ squashfs-root> ./usr/bin/freecadcmd
         -   Checking \"Debug\" brings the debugging navigation tools to the toolbar.
     -   Open preferences through menu window/preferences.
         -   In PyDev/Interpreters add \"new Interpreter by browsing\".
-        -   The added interpreter should be   * `your loc/squashfs-root/usr/bin/python`.
+        -   The added interpreter should be: `your loc/squashfs-root/usr/bin/python`.
         -   If you are only using this for fc, you can add AddOn workbench folders as well, or do that in a pydev-project later on.
 
 -   Find path to `pydevd.py` in your liclipse installation.
-    -   Something along the lines of   * `your location/liclipse/plugins/org.python.pydev.xx/pysrc`.
+    -   Something along the lines of: `your location/liclipse/plugins/org.python.pydev.xx/pysrc`.
 -   Create a regular pydev-project in liclipse.
     -   Import external sources, for example a macro that you want to debug, or an external workbench.
-    -   In that macro (or workbench .py file) add the code lines   *
+    -   In that macro (or workbench .py file) add the code lines:
 
-   *   
+:   
     
 ```python
     import sys; sys.path.append("path ending with /pysrc")
@@ -411,7 +411,7 @@ squashfs-root> ./usr/bin/freecadcmd
 ```
     
 
-   ** This is where the execution will halt when the macro is run.
+  - This is where the execution will halt when the macro is run.
 
 -   Start the liclipse debug server (menu pydev).
 
@@ -436,15 +436,7 @@ squashfs-root> ./usr/bin/freecad
 
 ## Fehlerdiagnose OpenCasCade 
 
-Für Entwickler, die tiefer in den OpenCasCade Kernel einsteigen müssen, hat der Benutzer \@abdullah eine [Forumsbetrag](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=47017) Orientierung erstellt, in der die Vorgehensweise diskutiert wird.
-
-
-
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+Für Entwickler, die tiefer in den OpenCasCade Kernel einsteigen müssen, hat der Benutzer \@abdullah eine [Forumsbetrag](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) Orientierung erstellt, in der die Vorgehensweise diskutiert wird.
 
 
 

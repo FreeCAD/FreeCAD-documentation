@@ -1,8 +1,6 @@
 # Category:Drawing
 This category lists pages related to the [Drawing Workbench](Drawing_Workbench.md).
 
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
-
 ### Contents
 
 |     |     |     |

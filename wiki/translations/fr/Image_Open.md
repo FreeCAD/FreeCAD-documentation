@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Image Open
-   Name/fr   *Image Ouvrir
-   MenuLocation   *
-   Workbenches   *[Image](Image_Workbench/fr.md)
-   SeeAlso   *[Image Créer un plan d'image](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+- GuiCommand:/fr
+   Name:Image Open
+   Name/fr:Image Ouvrir
+   MenuLocation:
+   Workbenches:[Image](Image_Workbench/fr.md)
+   SeeAlso:[Image Créer un plan d'image](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
 # Image Open/fr

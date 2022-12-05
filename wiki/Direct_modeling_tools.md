@@ -1,5 +1,5 @@
 # Direct modeling tools
-**An effort to implement direct modelling methodologies is currently being explored at https   *//github.com/MariwanJ/Design456**
+**An effort to implement direct modelling methodologies is currently being explored at https://github.com/MariwanJ/Design456**
 
 This page is dedicated to the description of the [Google Summer of Code 2017](Google_Summer_of_Code.md) project idea regarding direct modeling.
 
@@ -7,7 +7,7 @@ This page is dedicated to the description of the [Google Summer of Code 2017](Go
 
 FreeCADs is a feature-based parametric modeling system, hence different modeling steps depend on one or multiple previous steps. Each step is at the same time a tool/operation, and a geometrical object, resulting from that operation. This mix of operation and object is called a feature. Direct modeling, often presented as the opposite of parametric modeling, allows to graphically move vertices, push or pull faces and edges to modify the geometry of an object.
 
-Watch an introduction to direct modeling on <https   *//www.youtube.com/watch?v=RMrvjAPxyN0>
+Watch an introduction to direct modeling on <https://www.youtube.com/watch?v=RMrvjAPxyN0>
 
 The two concepts could however easily coexist in FreeCAD. Each operation performed via direct modeling could be stored into a new feature, that would successively modify the previous object by adding transformations, such as a displacement of a vertex, an edge, or a face, or extrusion of a certain face.
 
@@ -46,10 +46,8 @@ Medium
 
 ### Additional Information 
 
--   Ticket [#3353   * Direct modeling tools](https   *//tracker.freecadweb.org/view.php?id=3353) tracking efforts to implement this feature
--   Ticket [#1367   * Extend Draft Edit mode to work with 3D shapes](https   *//tracker.freecadweb.org/view.php?id=1367)
-
-[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
+-   Ticket [#3353: Direct modeling tools](https://tracker.freecadweb.org/view.php?id=3353) tracking efforts to implement this feature
+-   Ticket [#1367: Extend Draft Edit mode to work with 3D shapes](https://tracker.freecadweb.org/view.php?id=1367)
 
 
 

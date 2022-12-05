@@ -1,52 +1,52 @@
-# <img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width   *64px;"> Spreadsheet Workbench/de
+# <img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/de
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) ermöglicht die Erstellung und Bearbeitung von Tabellen, Daten aus der Tabellenkalkulation als Parameter in einem Modell zu verwenden, die Tabellenkalkulation mit aus einem Modell abgerufenen Daten zu füllen, Berechnungen durchzuführen und die Daten in andere Tabellenkalkulationsprogramme wie LibreOffice oder Microsoft Excel zu exportieren.
+Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) ermöglicht die Erstellung und Bearbeitung von Tabellen, Daten aus der Tabellenkalkulation als Parameter in einem Modell zu verwenden, die Tabellenkalkulation mit aus einem Modell abgerufenen Daten zu füllen, Berechnungen durchzuführen und die Daten in andere Tabellenkalkulationsprogramme wie LibreOffice oder Microsoft Excel zu exportieren.
 
 
 {{TOCright}}
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *600px;"> 
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Eine Tabellenblatt mit bestimmten Zellen, die mit Text und Mengen gefüllt sind*
 
 ## Werkzeuge
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Blatt erstellen](Spreadsheet_CreateSheet/de.md)   * Erstelle ein neues Tabellenblatt.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Blatt erstellen](Spreadsheet_CreateSheet/de.md): Erstelle ein neues Tabellenblatt.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importieren](Spreadsheet_Import/de.md)   * eine CSV Datei in ein Tabellenblatt importieren.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importieren](Spreadsheet_Import/de.md): eine CSV Datei in ein Tabellenblatt importieren.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Exportieren](Spreadsheet_Export/de.md)   * eine CSV Datei aus einem Tabellenblatt exportieren.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exportieren](Spreadsheet_Export/de.md): eine CSV Datei aus einem Tabellenblatt exportieren.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Zellen zusammenführen](Spreadsheet_MergeCells/de.md)   * Markierte Zellen zusammenführen.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Zellen zusammenführen](Spreadsheet_MergeCells/de.md): Markierte Zellen zusammenführen.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Zelle teilen](Spreadsheet_SplitCell/de.md)   * teilt zuvor zusammengeführte Zellen.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Zelle teilen](Spreadsheet_SplitCell/de.md): teilt zuvor zusammengeführte Zellen.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Links ausrichten](Spreadsheet_AlignLeft/de.md)   * Richtet den Inhalt der ausgewählten Zellen links aus.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Links ausrichten](Spreadsheet_AlignLeft/de.md): Richtet den Inhalt der ausgewählten Zellen links aus.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Zentriert ausrichten](Spreadsheet_AlignCenter/de.md)   * Richtet den Inhalt der ausgewählten Zellen horizontal zur Mitte aus.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Zentriert ausrichten](Spreadsheet_AlignCenter/de.md): Richtet den Inhalt der ausgewählten Zellen horizontal zur Mitte aus.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Rechts ausrichten](Spreadsheet_AlignRight/de.md)   * Richtet den Inhalt der markierten Zellen nach rechts aus.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Rechts ausrichten](Spreadsheet_AlignRight/de.md): Richtet den Inhalt der markierten Zellen nach rechts aus.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Oben ausrichten](Spreadsheet_AlignTop/de.md)   * Richtet den Inhalt der markierten Zellen nach oberen aus.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Oben ausrichten](Spreadsheet_AlignTop/de.md): Richtet den Inhalt der markierten Zellen nach oberen aus.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Vertikale Mittig ausrichten](Spreadsheet_AlignVCenter/de.md)   * Richtet die Inhalte der ausgewählten Zellen vertikal zur Mitte aus.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Vertikale Mittig ausrichten](Spreadsheet_AlignVCenter/de.md): Richtet die Inhalte der ausgewählten Zellen vertikal zur Mitte aus.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Unten ausrichten](Spreadsheet_AlignBottom/de.md)   * Richtet den Inhalt der markierten Zellen nach unten aus.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Unten ausrichten](Spreadsheet_AlignBottom/de.md): Richtet den Inhalt der markierten Zellen nach unten aus.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Stil fett](Spreadsheet_StyleBold/de.md)   * Der Inhalt der ausgewählten Zellen wird fett dargestellt.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Stil fett](Spreadsheet_StyleBold/de.md): Der Inhalt der ausgewählten Zellen wird fett dargestellt.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Stil kursiv](Spreadsheet_StyleItalic/de.md)   * setzt den Inhalt der ausgewählten Zellen kursiv.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Stil kursiv](Spreadsheet_StyleItalic/de.md): setzt den Inhalt der ausgewählten Zellen kursiv.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Stil Unterstreichen](Spreadsheet_StyleUnderline/de.md)   * Der Inhalt der ausgewählten Zellen wird unterstrichen.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Stil Unterstreichen](Spreadsheet_StyleUnderline/de.md): Der Inhalt der ausgewählten Zellen wird unterstrichen.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Setze Alias](Spreadsheet_SetAlias/de.md)   * legen den Alias für eine ausgewählte Zelle fest.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Setze Alias](Spreadsheet_SetAlias/de.md): legen den Alias für eine ausgewählte Zelle fest.
 
 -    **Schwarz**und **Weiß** legen die Vorder- und Hintergrundfarben der ausgewählten Zellen fest.
 
 ## Einstellungen
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Einstellungen](Spreadsheet_Preferences/de.md)   * die Einstellungen für den Arbeitsbereich Tabellenkalkulation. {{Version/de|0.20}}
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Einstellungen](Spreadsheet_Preferences/de.md): die Einstellungen für den Arbeitsbereich Tabellenkalkulation. {{Version/de|0.20}}
 
 ## Einfügen und Entfernen von Zeilen und Spalten 
 
@@ -58,7 +58,7 @@ Note that removing rows or columns with data can break the spreadsheet and your 
 
 ## Zellen ausschneiden und einfügen 
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations   * **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
 
 The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
 
@@ -71,23 +71,23 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 <div class="mw-translate-fuzzy">
 
-Die Eigenschaften der Kalkulationstabellenzelle können mit einem Rechtsklick auf einer Zelle geändert werden. Der folgende Dialog klappt auf   *
+Die Eigenschaften der Kalkulationstabellenzelle können mit einem Rechtsklick auf einer Zelle geändert werden. Der folgende Dialog klappt auf:
 
 
 </div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
-Wie in den Reitern angezeigt können die folgenden Eigenschaften geändert werden   *
+Wie in den Reitern angezeigt können die folgenden Eigenschaften geändert werden:
 
 
 <div class="mw-translate-fuzzy">
 
--   Farbe   * Text- und Hintergrundfarbe
--   Ausrichtung   * horizontale und vertikale Textausrichtung
--   Stil   * Textstil   * fett, kursiv, unterstrichen
--   Einheiten   *  Anzeigeeinheiten für diese Zelle. Den Abschnitt [Einheiten](Spreadsheet_Workbench/de#Einheiten.md) unten beachten.
--   Alias   *  Einen [alias](Spreadsheet_SetAlias.md) für diese Zelle festlegen. Dieser Alias kann in den Zellformeln und auch in allgemeinen [ Ausdrücken](Expressions/de.md) verwendet werden; siehe Abschnitt [Tabellenkalkulationsdaten in Ausdrücken](#Spreadsheet_data_in_expressions/de.md) für weitere Informationen.
+-   Farbe: Text- und Hintergrundfarbe
+-   Ausrichtung: horizontale und vertikale Textausrichtung
+-   Stil: Textstil: fett, kursiv, unterstrichen
+-   Einheiten:  Anzeigeeinheiten für diese Zelle. Den Abschnitt [Einheiten](Spreadsheet_Workbench/de#Einheiten.md) unten beachten.
+-   Alias:  Einen [alias](Spreadsheet_SetAlias.md) für diese Zelle festlegen. Dieser Alias kann in den Zellformeln und auch in allgemeinen [ Ausdrücken](Expressions/de.md) verwendet werden; siehe Abschnitt [Tabellenkalkulationsdaten in Ausdrücken](#Spreadsheet_data_in_expressions/de.md) für weitere Informationen.
 
 
 </div>
@@ -105,7 +105,7 @@ Eine Tabellenzelle kann beliebigen Text oder einen Ausdruck enthalten. Technisch
 
 <div class="mw-translate-fuzzy">
 
-Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verweise auf Eigenschaften des Modells enthalten (Siehe aber [Aktuelle Begrenzungen](#Current_Limitations/de.md) unten). Zellen werden durch ihre Spalte (GROSSBUCHSTABEN) und Zeile (Zahl) referenziert. Eine Zelle kann auch durch ihren [Aliasnamen](#alias_name/de.md) (siehe unten) referenziert werden. Beispiel   * B4 + A6
+Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verweise auf Eigenschaften des Modells enthalten (Siehe aber [Aktuelle Begrenzungen](#Current_Limitations/de.md) unten). Zellen werden durch ihre Spalte (GROSSBUCHSTABEN) und Zeile (Zahl) referenziert. Eine Zelle kann auch durch ihren [Aliasnamen](#alias_name/de.md) (siehe unten) referenziert werden. Beispiel: B4 + A6
 
 
 </div>
@@ -113,7 +113,7 @@ Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verwei
 
 <div class="mw-translate-fuzzy">
 
-**Anmerkung   *** Zellausdrücke werden von FreeCAD als Programmiercode behandelt. Wenn Sie also den Inhalt einer Zelle bearbeiten, sehen Sie, dass der Inhalt nicht Ihren Anzeigeeinstellungen folgt   *
+**Anmerkung:** Zellausdrücke werden von FreeCAD als Programmiercode behandelt. Wenn Sie also den Inhalt einer Zelle bearbeiten, sehen Sie, dass der Inhalt nicht Ihren Anzeigeeinstellungen folgt:
 
 -   das Dezimaltrennzeichen ist immer ein Punkt
 -   die Anzahl der angezeigten Dezimalstellen kann von Ihren [Vorzugseinstellungs](Preferences_Editor#Units.md) abweichen
@@ -162,14 +162,14 @@ Wie oben angegeben, kann man in Kalkulationstabellenausdrücken auf Daten aus de
 
 <div class="mw-translate-fuzzy">
 
-Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell über eine Funktion namens \"MeinWürfel\" verfügt   *
+Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell über eine Funktion namens \"MeinWürfel\" verfügt:
 
   CAD-Daten                                                     Zelle im Tabellenblatt             Ergebnis
     
   Parametrische Länge eines Würfels des Arbeitsbereiches Part   =MeinWürfel.Length                 Länge mit den Einheiten mm
   Volumen des Würfels                                           =MeinWürfel.Shape.Volume           Volumen in mm³ ohne Einheiten
-  Typ des Würfel-\"Shapes\"                                     =MeinWürfel.Shape.ShapeType        String   * Solid
-  Beschriftung des Würfels                                      =MeinWürfel.Label                  String   * MeinWürfel
+  Typ des Würfel-\"Shapes\"                                     =MeinWürfel.Shape.ShapeType        String: Solid
+  Beschriftung des Würfels                                      =MeinWürfel.Label                  String: MeinWürfel
   x-Koordinate des Massenschwerpunktes des Würfels              =MeinWürfel.Shape.CenterOfMass.x   x-Koordinate in mm ohne Einheiten
 
 
@@ -239,18 +239,18 @@ Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf
 
 Das Bearbeiten einer Kalkulationstabelle löst eine Neuberechnung des 3D Modells aus, auch wenn die Änderungen keine Auswirkungen auf das Modell haben. Bei einem komplexen Modell kann eine Neuberechnung sehr lange dauern, und nach jeder einzelnen Bearbeitung warten zu müssen, ist natürlich ziemlich lästig.
 
-Es gibt drei Lösungen, die sich damit beschäftigen   *
+Es gibt drei Lösungen, die sich damit beschäftigen:
 
-1.  Überspringe vorübergehend Neuberechnungen   *
-    -   In der [Baumansicht](Tree_view/de.md) das <img alt="" src=images/Document.svg  style="width   *24px;"> Dokument rechtsklicken, das die Kalkulationstabelle enthält.
+1.  Überspringe vorübergehend Neuberechnungen:
+    -   In der [Baumansicht](Tree_view/de.md) das <img alt="" src=images/Document.svg  style="width:24px;"> Dokument rechtsklicken, das die Kalkulationstabelle enthält.
     -   Wähle die Option **Überspringe Neuberechnen** aus dem Kontextmenü.
     -   Diese Lösung hat einen großen Nachteil. Neue Werte, die in das Arbeitsblatt eingegeben werden, werden nicht angezeigt, bis das Dokument neu berechnet wird. Stattdessen wird `#PENDING` angezeigt.
     -   Du kannst entweder manuell neu berechnen, durch verwenden des [Std Aktualisieren](Std_Refresh/de.md) Befehls, oder deaktivieren von**Überspringe Neuberechnen**, wenn du mit der Bearbeitung fertig bist.
-2.  Verwende ein Makro, um Neuberechnungen während der Bearbeitung eines Tabellenblatts automatisch zu überspringen   *
-    -   Lade [skipSheet.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301) herunter und führe es aus.
+2.  Verwende ein Makro, um Neuberechnungen während der Bearbeitung eines Tabellenblatts automatisch zu überspringen:
+    -   Lade [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301) herunter und führe es aus.
     -   Diese Lösung spart ein paar Schritte im Vergleich zur ersten Lösung, hat aber auch den erwähnten Nachteil.
-3.  Lege das Tabellenblatt in eine separate [FreeCAD Datei](File_Format_FCStd/de.md)   *
-    -   Du kannst Tabellenkalkulationsdaten aus einer externen **.FCStd** Datei mit dieser Syntax referenzieren   * `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+3.  Lege das Tabellenblatt in eine separate [FreeCAD Datei](File_Format_FCStd/de.md):
+    -   Du kannst Tabellenkalkulationsdaten aus einer externen **.FCStd** Datei mit dieser Syntax referenzieren: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   Der Vorteil, das Tabellenblatt in einer anderen Datei zu haben, gegenüber dem Ausschalten der Neuberechnung, ist, dass das Arbeitsblatt selbst neu berechnet wird.
     -   Der Nachteil ist, dass das Modell nach Änderungen am Tabellenblatt nicht automatisch neu berechnet wird.
     -   In dem Szenario, in dem du zuerst die \'Tabellenblatt\' Datei öffnest, einen oder mehrere Werte änderst und dann die \'Modell\' Datei öffnest, wird es keinen Hinweis geben, dass das Modell neu berechnet werden muss. Wenn jedoch beide Dateien geöffnet sind, wird das [Std Aktualisieren](Std_Refresh/de.md) Symbol für die \"Modell\" Datei nach Änderungen in der \"Tabellenblatt\" Datei korrekt aktualisiert.
@@ -259,7 +259,7 @@ Es gibt drei Lösungen, die sich damit beschäftigen   *
 
 Die Kalkulationstabelle hat eine Vorstellung von Dimension (Einheiten), die mit Zellwerten verbunden ist. Eine Zahl, die ohne eine zugehörige Einheit eingegeben wird, hat keine Dimension. Die Einheit sollte direkt nach dem Zahlenwert eingegeben werden, ohne Leerzeichen dazwischen. Wenn eine Zahl eine zugehörige Einheit hat, wird diese Einheit in allen Berechnungen verwendet. Zum Beispiel ergibt die Multiplikation von zwei Längen mit der Einheit mm eine Fläche mit der Einheit mm².
 
-Wenn eine Zelle einen Wert enthält, der eine Dimension darstellt, sollte dieser mit der zugehörigen Einheit eingegeben werden. Während man in vielen einfachen Fällen mit einem dimensionslosen Wert auskommen kann, ist es unklug, die Einheit nicht einzugeben. Wenn ein Wert, der eine Bemaßung repräsentiert, ohne die zugehörige Einheit eingegeben wird, gibt es einige Sequenzen von Operationen, die FreeCAD veranlassen, sich über inkompatible Einheiten in einem Ausdruck zu beschweren, obwohl der Ausdruck eigentlich gültig sein sollte. (Dies kann besser durch anschauen [dieser Forumsbeitrag](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) in den FreeCAD Foren verstanden werden.)
+Wenn eine Zelle einen Wert enthält, der eine Dimension darstellt, sollte dieser mit der zugehörigen Einheit eingegeben werden. Während man in vielen einfachen Fällen mit einem dimensionslosen Wert auskommen kann, ist es unklug, die Einheit nicht einzugeben. Wenn ein Wert, der eine Bemaßung repräsentiert, ohne die zugehörige Einheit eingegeben wird, gibt es einige Sequenzen von Operationen, die FreeCAD veranlassen, sich über inkompatible Einheiten in einem Ausdruck zu beschweren, obwohl der Ausdruck eigentlich gültig sein sollte. (Dies kann besser durch anschauen [dieser Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) in den FreeCAD Foren verstanden werden.)
 
 
 <div class="mw-translate-fuzzy">
@@ -277,11 +277,11 @@ Manchmal ist es notwendig, die Einheit von einer Zahl zu entfernen. Dies kann du
 
 ### CSV Format 
 
-FreeCAD Tabellenblätter können im [1](https   *//de.wikipedia.org/wiki/CSV_(Dateiformat)) Format importiert und exportiert werden, welches auch von den meisten anderen Tabellenkalkulationsanwendungen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden kann. Siehe [Tabellenblatt Import](Spreadsheet_Import/de.md) und [Tabellenblatt Export](Spreadsheet_Export/de.md) für weitere Informationen.
+FreeCAD Tabellenblätter können im [1](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) Format importiert und exportiert werden, welches auch von den meisten anderen Tabellenkalkulationsanwendungen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden kann. Siehe [Tabellenblatt Import](Spreadsheet_Import/de.md) und [Tabellenblatt Export](Spreadsheet_Export/de.md) für weitere Informationen.
 
 ### XLSX Format 
 
-Tabellenblätter im Excel-Format XLSX können mit dem Befehl [Std Import](Std_Import/de.md) oder dem Befehl [Std Öffnen](Std_Open/de.md) importiert werden. Die folgenden Funktionen werden unterstützt   *
+Tabellenblätter im Excel-Format XLSX können mit dem Befehl [Std Import](Std_Import/de.md) oder dem Befehl [Std Öffnen](Std_Open/de.md) importiert werden. Die folgenden Funktionen werden unterstützt:
 
 -   alle Funktionen, die auch in der FreeCAD Tabellenblatt verfügbar sind. Andere Funktionen führen nach dem Import zu einem Fehler in der entsprechenden Zelle.
 -   Alias Namen für Zellen
@@ -298,7 +298,7 @@ Um die erforderlichen Seiteneinstellungen für den Druck von FreeCAD-Tabellen ei
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD prüft auf zyklische Abhängigkeiten. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden   * eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
+FreeCAD prüft auf zyklische Abhängigkeiten. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden: eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
 
 
 </div>
@@ -312,12 +312,12 @@ It is possible to bind the content of cells to other spreadsheet cells. This can
 
 ### Create binding 
 
-To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
+To bind, for example, the cell range A3-C4 to the cell range B1-D2:
 
 1.  Select the cell range A3-C4.
 2.  Right-click and select **Bind...** from the context menu.
 3.  The **Bind Spreadsheet Cells** dialog opens.
-4.  Set the range B1-D2 for the **To cells**   *
+4.  Set the range B1-D2 for the **To cells**:
     ![](images/Spreadsheet_binding-dialog.png )
 5.  Press **OK**.
 6.  Bound cells have a blue border to highlight the binding.
@@ -341,7 +341,7 @@ To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
 
 ### Notes
 
--   The **Hide dependency of binding** option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in *Spreadsheet A* are bound to *Spreadsheet B*, while cells in *Spreadsheet B*, in turn, are bound to some other cells in *Spreadsheet A*. This option should be used with caution   *
+-   The **Hide dependency of binding** option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in *Spreadsheet A* are bound to *Spreadsheet B*, while cells in *Spreadsheet B*, in turn, are bound to some other cells in *Spreadsheet A*. This option should be used with caution:
     -   Hiding dependencies can be dangerous because broken dependencies can damage your FreeCAD file. For example, when you delete a spreadsheet you will not be warned about hidden dependencies.
     -   When you open a document with a spreadsheet containing a hidden dependency, you will get the spreadsheet marked to be recomputed. This is because a cyclic dependency cannot be recomputed automatically. To recompute the [Std Refresh](Std_Refresh.md) tool must be used.
 -   The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
@@ -353,7 +353,7 @@ To bind, for example, the cell range A3-C4 to the cell range B1-D2   *
 
 <small>(v0.20)</small> 
 
-You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
+You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -365,20 +365,20 @@ Expand this section for a brief tutorial on creating a configuration table.
 
 1.  In a new document, first create a [Std Part](Std_Part.md), then create a [Part Box](Part_Box.md), a [Part Cylinder](Part_Cylinder.md) and a Spreadsheet.
 2.  The Box and the Cylinder are automatically placed in the [Std Part](Std_Part.md) container. Manually put the Spreadsheet in the container as well.
-3.  In the Spreadsheet enter the content as shown below. Set the alias for B2 as {{Value|width}}, C2 as {{Value|length}} and D2 as {{Value|radius}}   *
+3.  In the Spreadsheet enter the content as shown below. Set the alias for B2 as {{Value|width}}, C2 as {{Value|length}} and D2 as {{Value|radius}}:
     ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Bind the [expressions](Expressions.md) {{Value|Spreadsheet.width}} and {{Value|Spreadsheet.length}} to the Box\'s properties **Width** and **Length**, respectively   *
+4.  Bind the [expressions](Expressions.md) {{Value|Spreadsheet.width}} and {{Value|Spreadsheet.length}} to the Box\'s properties **Width** and **Length**, respectively:
     ![](images/Spreadsheet_configuration_table_screenshot_2.png )
 5.  Bind the expression {{Value|Spreadsheet.radius}} to the Cylinder\'s property **Radius**. Also change the **Height** of the Cylinder to {{Value|5 mm}} so that it is lower than the Box.
 6.  Right-click the cell A2 in the Spreadsheet and select **Configuration table...** from the context menu.
 7.  The **Setup Configuration Table** dialog opens.
-8.  Enter the following   *
+8.  Enter the following:
     ![](images/Spreadsheet_configuration_table_screenshot_5.png )
 9.  Press **OK**.
-10. A new property called **Configuration** is be added to the [Std Part](Std_Part.md) container to choose the configuration as shown below   *
+10. A new property called **Configuration** is be added to the [Std Part](Std_Part.md) container to choose the configuration as shown below:
     ![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps   *
+You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps:
 
 1.  Create a [Std Link](Std_LinkMake.md) to the [Std Part](Std_Part.md) container and set its **Link Copy On Change** property to {{Value|Enabled}}.
 2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
@@ -397,7 +397,7 @@ Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.m
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet   *   *Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
 sheet.Label = "Dimensions"
 
 sheet.set('A1','10mm')
@@ -416,9 +416,7 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

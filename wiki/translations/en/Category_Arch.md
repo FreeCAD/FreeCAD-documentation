@@ -1,8 +1,6 @@
 # Category:Arch/en
 This category list pages related to the [Arch Workbench](Arch_Workbench.md), the [BIM Workbench](BIM_Workbench.md), and topics related to architecture and building information management (BIM).
 
-[Category   *BIM/en](Category   *BIM/en.md) [Category   *Workbenches/en](Category   *Workbenches/en.md) [Category   *User Documentation/en](Category   *User_Documentation/en.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Plot Legend
-   Name/fr   *Plot Légende
-   MenuLocation   *Plot → Afficher/Masquer la légende
-   Workbenches   *[Plot](Plot_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Plot Legend
+   Name/fr:Plot Légende
+   MenuLocation:Plot → Afficher/Masquer la légende
+   Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Legend/fr
@@ -12,7 +12,7 @@
 
 Cet outil permet à l\'utilisateur d\'activer/désactiver la légende des séries de données sur un graphique spécifique.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Utilisation
 
@@ -26,9 +26,7 @@ N\'oubliez pas que les styles et les étiquettes des séries de données peuvent
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

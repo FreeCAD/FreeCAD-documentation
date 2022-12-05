@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Arch SplitMesh
-   Name/it   *Dividi mesh
-   Workbenches   *[Architetttura](Arch_Workbench/it.md)
-   MenuLocation   *Arch → Utilità → Dividi Mesh
-   SeeAlso   *[Seleziona mesh non solidi](Arch_SelectNonSolidMeshes/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
+- GuiCommand:/it
+   Name:Arch SplitMesh
+   Name/it:Dividi mesh
+   Workbenches:[Architetttura](Arch_Workbench/it.md)
+   MenuLocation:Arch → Utilità → Dividi Mesh
+   SeeAlso:[Seleziona mesh non solidi](Arch_SelectNonSolidMeshes/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
 ---
 
 # Arch SplitMesh/it
@@ -41,7 +41,7 @@ Questo strumento suddivide un oggetto [Mesh](Mesh_Workbench/it.md) selezionato n
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -51,7 +51,7 @@ Questo strumento suddivide un oggetto [Mesh](Mesh_Workbench/it.md) selezionato n
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dividi Mesh può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Dividi Mesh può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -66,14 +66,14 @@ new_list = splitMesh(obj, mark=True)
 
 -   Divide l\'oggetto mesh dato (`obj`) in componenti separati.
 
--   Se `mark` è `True` [non-manifold](http   *//en.wikipedia.org/wiki/Manifold) i componenti diventano rossi.
+-   Se `mark` è `True` [non-manifold](http://en.wikipedia.org/wiki/Manifold) i componenti diventano rossi.
 
 -    `new_list`è un elenco di tutti i singoli componenti che creano la mesh.
 
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python
@@ -86,7 +86,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 

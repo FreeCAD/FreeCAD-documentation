@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std ViewStatusBar
-   Name/de   *Std AnzeigeStatusleiste
-   Empty   *1
-   MenuLocation   *Ansicht → Statusleiste
-   Workbenches   *Alle
+- GuiCommand:/de
+   Name:Std ViewStatusBar
+   Name/de:Std AnzeigeStatusleiste
+   Empty:1
+   MenuLocation:Ansicht → Statusleiste
+   Workbenches:Alle
 ---
 
 # Std ViewStatusBar/de

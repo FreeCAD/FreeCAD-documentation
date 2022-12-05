@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Fence
-   Name/fr   *Arch Clôture
-   MenuLocation   *Arch → Clôture
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Arch Fence
+   Name/fr:Arch Clôture
+   MenuLocation:Arch → Clôture
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   Version:0.19
 ---
 
 # Arch Fence/fr
@@ -13,7 +13,7 @@
 
 L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôture en répétant un poteau et une section de clôture le long d\'un chemin donné.
 
-<img alt="" src=images/Arch_Fence_description_example.png  style="width   *600px;">
+<img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
 ## Utilisation
 
@@ -36,35 +36,35 @@ Pour l\'instant, l\'outil suppose ce qui suit
 
 ### Données
 
--    **Path**   * Chemin d\'accès que doit suivre la clôture
+-    **Path**: Chemin d\'accès que doit suivre la clôture
 
--    **Post**   * Un seul piquet de clôture à répéter
+-    **Post**: Un seul piquet de clôture à répéter
 
--    **Section**   * Une seule section à répéter
+-    **Section**: Une seule section à répéter
 
--    **Number Of Posts**   * Nombre total de messages utilisés pour construire la clôture. Ceci est calculé automatiquement.
+-    **Number Of Posts**: Nombre total de messages utilisés pour construire la clôture. Ceci est calculé automatiquement.
 
--    **Number Of Sections**   * Nombre total de sections utilisées pour construire la clôture. Ceci est calculé automatiquement.
+-    **Number Of Sections**: Nombre total de sections utilisées pour construire la clôture. Ceci est calculé automatiquement.
 
 ### Vue
 
--    **Use Original Colors**   * Lorsque l\'option est définie sur `True`, la clôture utilisera les couleurs de la section d\'origine. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
+-    **Use Original Colors**: Lorsque l\'option est définie sur `True`, la clôture utilisera les couleurs de la section d\'origine. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
 
 ## Remarques
 
 -   Arch Clôture a été introduit dans FC v0.19 par l\'utilisateur furti.
--   [Sujet du forum](https   *//forum.freecadweb.org/viewtopic.php?t=36149) discutant de la fonctionnalité Arch Clôture.
+-   [Sujet du forum](https://forum.freecadweb.org/viewtopic.php?t=36149) discutant de la fonctionnalité Arch Clôture.
 
 ## Script
 
-L\'outil Clôture peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante   *
+L\'outil Clôture peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante:
 
 
 ```python
 Fence = buildFence(section, post, path)
 ```
 
-Exemple    *
+Exemple :
 
 
 ```python
@@ -79,13 +79,13 @@ parts.append(Part.makeBox(2000, 50, 30))
 parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector(0, 15, 30)))
 parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector(1980, 15, 30)))
 
-for i in range(8)   *
+for i in range(8):
     parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector((2000 / 9 * (i + 1)) - 10, 15, 30)))
 
 Part.show(Part.makeCompound(parts), "Fence_section")
 fence_section = FreeCAD.ActiveDocument.Fence_section
 
-sketch = FreeCAD.ActiveDocument.addObject("Sketcher   *   *SketchObject", "Path")
+sketch = FreeCAD.ActiveDocument.addObject("Sketcher::SketchObject", "Path")
 sketch.Placement = FreeCAD.Placement(FreeCAD.Vector(0, 0, 0), FreeCAD.Rotation(0, 0, 0, 1))
 sketch.addGeometry(Part.LineSegment(FreeCAD.Vector(0, 0, 0), FreeCAD.Vector(20000, 0, 0)), False)
 sketch.addGeometry(Part.LineSegment(FreeCAD.Vector(20000, 0, 0), FreeCAD.Vector(20000, 20000, 0)), False)

@@ -1,15 +1,15 @@
 ---
-- GuiCommand   *
-   Name   *Std ProjectUtil
-   MenuLocation   *Tools → Project utility...
-   Workbenches   *All
+- GuiCommand:
+   Name:Std ProjectUtil
+   MenuLocation:Tools → Project utility...
+   Workbenches:All
 ---
 
 # Std ProjectUtil/ru
 
 ## Описание
 
-With the **Std ProjectUtil** command you can extract files from a FreeCAD project file (***.FCStd**), which is in fact a [ZIP](https   *//en.wikipedia.org/wiki/Zip_(file_format)) file, and, after manual edits, create a new project file from them.
+With the **Std ProjectUtil** command you can extract files from a FreeCAD project file (***.FCStd**), which is in fact a [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)) file, and, after manual edits, create a new project file from them.
 
 ![](images/Project_utility_en.png ) 
 *The Project utility dialog box*
@@ -29,7 +29,7 @@ With the **Std ProjectUtil** command you can extract files from a FreeCAD projec
 
 ### Manual edits 
 
-It is important to realize that the files inside a FreeCAD project file are interlinked. Only editing a single file will typically lead to errors. To make consistent edits across multiple files use a good code editor, such as [Notepad++](http   *//notepad-plus-plus.org/) (for the Windows OS) or [Notepadqq](https   *//notepadqq.com/s/) (for Linux OS).
+It is important to realize that the files inside a FreeCAD project file are interlinked. Only editing a single file will typically lead to errors. To make consistent edits across multiple files use a good code editor, such as [Notepad++](http://notepad-plus-plus.org/) (for the Windows OS) or [Notepadqq](https://notepadqq.com/s/) (for Linux OS).
 
 ### Create project 
 

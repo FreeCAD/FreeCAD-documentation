@@ -1,36 +1,36 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft Offset
-   Name/fr   *Draft Décalage
-   MenuLocation   *Modification → Décalage
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut   ***O** **S**
-   SeeAlso   *[Part Décalage 2D](Part_Offset2D/fr.md)
+- GuiCommand:/fr
+   Name:Draft Offset
+   Name/fr:Draft Décalage
+   MenuLocation:Modification → Décalage
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**O** **S**
+   SeeAlso:[Part Décalage 2D](Part_Offset2D/fr.md)
 ---
 
 # Draft Offset/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Offset.svg  style="width   *24px;"> **Draft Décalage** décale chaque segment d\'un objet sélectionné sur une distance donnée ou crée une copie décalée de l\'objet sélectionné.
+La commande <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draft Décalage** décale chaque segment d\'un objet sélectionné sur une distance donnée ou crée une copie décalée de l\'objet sélectionné.
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
 *Décalage d'une Draft Polyligne*
 
 ## Utilisation
 
-Voir aussi    * [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionner un objet au choix. L\'objet doit se trouver sur le [Draft plan de travail](Draft_SelectPlane.md) en cours.
-2.  Il existe plusieurs façons de lancer la commande    *
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Offset.svg" width=16px> [Décalage](Draft_Offset/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décalage** dans le menu.
-    -   Utilisez le raccourci clavier    * **O** puis **S**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet    * sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+    -   Utilisez le raccourci clavier : **O** puis **S**.
+3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Le panneau de tâches **Décalage** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Pour définir la distance de décalage, effectuez l\'une des opérations suivantes    *
+5.  Pour définir la distance de décalage, effectuez l\'une des opérations suivantes :
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
-    -   Entrez une valeur numérique    *
+    -   Entrez une valeur numérique :
         1.  Assurez-vous que le pointeur se trouve du bon côté de l\'objet dans la [Vue 3D](3D_view/fr.md).
         2.  Ne déplacez pas le pointeur en dehors de la [Vue 3D](3D_view/fr.md).
         3.  Saisissez une **Distance**.
@@ -40,7 +40,7 @@ Voir aussi    * [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draf
 
 Les raccourcis clavier à caractère unique et les touches de modification mentionnées ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
--   Si la case **Décalage de type OCC** est cochée, un style de décalage spécial est utilisé    * les [Draft Polylignes](Draft_Wire/fr.md) ouvertes sont décalées des deux côtés et les nouveaux bords sont connectés avec des coins arrondis. Ceci ne fonctionne que pour les objets Draft planaires avec au moins deux bords droits. Notez qu\'avec ce style, un nouvel objet non paramétrique est créé, et si le mode copie est désactivé, l\'objet original est supprimé.
+-   Si la case **Décalage de type OCC** est cochée, un style de décalage spécial est utilisé : les [Draft Polylignes](Draft_Wire/fr.md) ouvertes sont décalées des deux côtés et les nouveaux bords sont connectés avec des coins arrondis. Ceci ne fonctionne que pour les objets Draft planaires avec au moins deux bords droits. Notez qu\'avec ce style, un nouvel objet non paramétrique est créé, et si le mode copie est désactivé, l\'objet original est supprimé.
 -   Appuyez sur **P** ou cliquez sur la case **Copie** pour activer le mode de copie. Si le mode de copie est activé, la commande créera une copie décalée au lieu de décaler l\'objet original.
 -   Si vous maintenez la touche **Alt** enfoncée avant de sélectionner des points dans la [Vue 3D](3D_view/fr.md), vous pouvez également activer le mode de copie. Lorsque vous maintenez la touche **Alt** enfoncée, vous pouvez sélectionner plusieurs points de décalage. Relâchez **Alt** pour terminer la commande et voir les copies créées.
 -   Maintenez **Shift** enfoncé pour que la distance de décalage reste liée au segment actuel.
@@ -54,15 +54,15 @@ Les raccourcis clavier à caractère unique et les touches de modification menti
 
 ## Préférences
 
-Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie de la distance    * **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie de la distance : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-Pour décaler les objets, utilisez la méthode `offset` de l\'atelier Draft. Cette méthode ne peut traiter que les objets suivants    * [Draft Polylignes](Draft_Wire/fr.md), [Draft Cercles](Draft_Circle/fr.md), [Draft Rectangles](Draft_Rectangle/fr.md), [Draft Polygones](Draft_Polygon/fr.md) et [Draft B-splines](Draft_BSpline/fr.md).
+Pour décaler les objets, utilisez la méthode `offset` de l\'atelier Draft. Cette méthode ne peut traiter que les objets suivants : [Draft Polylignes](Draft_Wire/fr.md), [Draft Cercles](Draft_Circle/fr.md), [Draft Rectangles](Draft_Rectangle/fr.md), [Draft Polygones](Draft_Polygon/fr.md) et [Draft B-splines](Draft_BSpline/fr.md).
 
 
 ```python
@@ -71,7 +71,7 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 
 -    `obj`est l\'objet à décaler.
 
--    `delta`contient les informations de décalage    *
+-    `delta`contient les informations de décalage :
 
     -   Pour les [Draft Polylignes](Draft_Wire/fr.md), [Draft Rectangles](Draft_Rectangle/fr.md) et [Draft Polygones](Draft_Polygon/fr.md), c\'est un vecteur de décalage qui doit être perpendiculaire au premier segment de l\'objet.
     -   Pour les [Draft Cercles](Draft_Circle/fr.md), c\'est le nouveau rayon.
@@ -85,9 +85,9 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 
 -   Si `occ` est `True`, le décalage de type OCC est utilisé. Voir [Options](#Options.md). Si `occ` est `True`, les arguments `bind` et `sym` sont ignorés.
 
--    `offset_obj`est restitué avec l\'objet de décalage original ou avec le nouvel objet. Si `bind` est `True` ou `occ` est `True`, le nouvel objet est un objet `[Part   *   *Feature](Part_Feature.md)`.
+-    `offset_obj`est restitué avec l\'objet de décalage original ou avec le nouvel objet. Si `bind` est `True` ou `occ` est `True`, le nouvel objet est un objet `[Part::Feature](Part_Feature.md)`.
 
-Exemple    *
+Exemple :
 
 
 ```python

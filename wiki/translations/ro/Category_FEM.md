@@ -1,8 +1,6 @@
 # Category:FEM/ro
 This category lists pages related to the [FEM Workbench/ro](FEM_Workbench/ro.md).
 
-[Category   *Workbenches/ro](Category   *Workbenches/ro.md)
-
 ### Contents
 
 |     |     |     |

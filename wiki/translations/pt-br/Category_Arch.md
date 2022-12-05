@@ -1,8 +1,6 @@
 # Category:Arch/pt-br
 Pages relating to Architectural and Building Information Management
 
-[Category   *User Documentation/pt-br](Category   *User_Documentation/pt-br.md) [Category   *BIM/pt-br](Category   *BIM/pt-br.md)
-
 ### Contents
 
 |     |     |     |

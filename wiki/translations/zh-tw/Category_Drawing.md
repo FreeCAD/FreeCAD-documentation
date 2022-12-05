@@ -1,8 +1,6 @@
 # Category:Drawing/zh-tw
 This category lists pages related to the [Drawing Workbench/zh-tw](Drawing_Workbench/zh-tw.md).
 
-[Category   *Obsolete Workbenches/zh-tw](Category   *Obsolete_Workbenches/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

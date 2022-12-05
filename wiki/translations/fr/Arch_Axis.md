@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Axis
-   Name/fr   *Arch Axes
-   MenuLocation   *Arch → Outils pour les axes → Axe
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   Shortcut   ***A** **X**
-   SeeAlso   *[Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
+- GuiCommand:/fr
+   Name:Arch Axis
+   Name/fr:Arch Axes
+   MenuLocation:Arch → Outils pour les axes → Axe
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   Shortcut:**A** **X**
+   SeeAlso:[Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
 # Arch Axis/fr
@@ -14,7 +14,7 @@
 
 L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)** vous permet de placer une série d\'axes dans le document en cours. La distance et l\'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec **<img src="images/Arch_AxisSystem.svg" width=16px> [Arch Système d'axes](Arch_AxisSystem/fr.md)**. Ils peuvent également être référencés par d\'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grilles](Arch_Grid/fr.md)** peut également être utilisé à la place des axes.
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Deux objets axes placés perpendiculairement l'un par rapport à l'autre pour créer une grille*
 
 ## Utilisation
@@ -32,21 +32,21 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 
 ## Propriétés
 
--    **Length**   * La longueur des axes.
+-    **Length**: La longueur des axes.
 
--    **Limit**   * Si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d\'une ligne continue. {{Version/fr|0.20}}
+-    **Limit**: Si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d\'une ligne continue. {{Version/fr|0.20}}
 
--    **Bubble Size**   * La taille des bulles des axes.
+-    **Bubble Size**: La taille des bulles des axes.
 
--    **Numeration style**   * Style de numérotation    * 1,2,3, A,B,C, etc\...
+-    **Numeration style**: Style de numérotation : 1,2,3, A,B,C, etc\...
 
--    **Bubble Position**   * Position de la bulle sur l\'axe   * Point de départ, point de terminaison, les deux ou aucun.
+-    **Bubble Position**: Position de la bulle sur l\'axe: Point de départ, point de terminaison, les deux ou aucun.
 
--    **Font Name**   * Police du numéro de la bulle et/ou les étiquettes
+-    **Font Name**: Police du numéro de la bulle et/ou les étiquettes
 
--    **Font Size**   * La taille du texte de l\'étiquette uniquement (le texte de la bulle est contrôlé par la taille de la bulle)
+-    **Font Size**: La taille du texte de l\'étiquette uniquement (le texte de la bulle est contrôlé par la taille de la bulle)
 
--    **Show Labels**   * Active/désactive l\'affichage du textes des étiquettes
+-    **Show Labels**: Active/désactive l\'affichage du textes des étiquettes
 
 ## Utilisation comme marque de section 
 
@@ -55,18 +55,18 @@ En définissant la propriété **Bubble Position** à **Arrow left/right** ou **
 ## Scripts
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Axes peut être utilisé dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    * 
+L\'outil Axes peut être utilisé dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```
 
 -   Crée un objet `Axes` à partir du nombre donné (`num`) d\'axes et de `size`, l\'intervalle entre chaque axe.
 
-Exemple    *
+Exemple :
 
 
 ```python

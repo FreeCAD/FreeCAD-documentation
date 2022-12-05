@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Circle
-   Name/tr   *Çember
-   MenuLocation   *Taslak → Çember
-   Workbenches   *[Çember](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut   ***C** **I**
-   SeeAlso   *[Yay](Draft_Arc/tr.md), [Elips](Draft_Ellipse/tr.md)
-   Version   *0.7
+- GuiCommand:/tr
+   Name:Draft Circle
+   Name/tr:Çember
+   MenuLocation:Taslak → Çember
+   Workbenches:[Çember](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut:**C** **I**
+   SeeAlso:[Yay](Draft_Arc/tr.md), [Elips](Draft_Ellipse/tr.md)
+   Version:0.7
 ---
 
 # Draft Circle/tr
@@ -34,7 +34,7 @@ Bu araç, tam bir yay oluşturması dışında, [Yay](Draft_Arc/tr.md) aracıyla
 
 </div>
 
-<img alt="" src=images/Draft_Circle_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ Bu araç, tam bir yay oluşturması dışında, [Yay](Draft_Arc/tr.md) aracıyla
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -101,17 +101,17 @@ Ağaç görünümündeki öğeye çift tıklayarak veya **<img src="images/_Draf
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -123,15 +123,15 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Veri
 
--    {{PropertyData/tr|Başlangıç açısı}}   * Çemberin başlangıç açısını belirtir; normalde 0 °.
+-    {{PropertyData/tr|Başlangıç açısı}}: Çemberin başlangıç açısını belirtir; normalde 0 °.
 
--    {{PropertyData/tr|Bitiş açısı}}   * Çemberin bitiş açısını belirtir; normalde 0 °.
+-    {{PropertyData/tr|Bitiş açısı}}: Çemberin bitiş açısını belirtir; normalde 0 °.
 
--    {{PropertyData/tr|Yarıçap}}   * Çemberin yarıçapını belirtir.
+-    {{PropertyData/tr|Yarıçap}}: Çemberin yarıçapını belirtir.
 
--    {{PropertyData/tr|Yüzey oluştur}}   * Çemberin bir yüzey yapıp yapmayacağını belirtir. `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir. Bu özellik yalnızca şekil tam bir çevre ise işe yarar.
+-    {{PropertyData/tr|Yüzey oluştur}}: Çemberin bir yüzey yapıp yapmayacağını belirtir. `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir. Bu özellik yalnızca şekil tam bir çevre ise işe yarar.
 
--    {{PropertyData/tr|Başlangıç açısı}}   * ve tam daire olması için {{PropertyData/tr|Bitiş açısı}} aynı değere sahip olmalıdır; Aksi takdirde, bir [Yay](Draft_Arc/tr.md) görüntülenir. 0 ° ve 360 ° değerleri aynı sayılmaz, bu nedenle bu iki değer kullanılırsa, daire bir yüzey oluşturmaz.
+-    {{PropertyData/tr|Başlangıç açısı}}: ve tam daire olması için {{PropertyData/tr|Bitiş açısı}} aynı değere sahip olmalıdır; Aksi takdirde, bir [Yay](Draft_Arc/tr.md) görüntülenir. 0 ° ve 360 ° değerleri aynı sayılmaz, bu nedenle bu iki değer kullanılırsa, daire bir yüzey oluşturmaz.
 
 
 </div>
@@ -146,9 +146,9 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Görünüm
 
--    {{PropertyView/tr|Desen}}   * Çemberin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Yüzey oluştur}} `True` ise ve {{PropertyView/tr|Görüntüle modu}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Desen}}: Çemberin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Yüzey oluştur}} `True` ise ve {{PropertyView/tr|Görüntüle modu}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Desen}}   * [Desen](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
+-    {{PropertyView/tr|Desen}}: [Desen](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
 
 
 </div>
@@ -161,7 +161,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 ## Betik
 
 
-**Ayrıca bkz.   ***
+**Ayrıca bkz.:**
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -171,7 +171,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-Çember aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
+Çember aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
 
 
 </div>
@@ -200,7 +200,7 @@ circle = make_circle(Part.Edge, placement=None, face=None, startangle=None, enda
 
 </div>
 
-Örnek   * 
+Örnek: 
 ```python
 import FreeCAD as App
 import Draft

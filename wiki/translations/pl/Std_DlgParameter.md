@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std DlgParameter
-   Name/pl   *Edytor parametrów
-   MenuLocation   *Narzędzia → Edytor parametrów ...
-   Workbenches   *Wszystkie
-   SeeAlso   *[Edytor preferencji](Preferences_Editor/pl.md)
+- GuiCommand:/pl
+   Name:Std DlgParameter
+   Name/pl:Edytor parametrów
+   MenuLocation:Narzędzia → Edytor parametrów ...
+   Workbenches:Wszystkie
+   SeeAlso:[Edytor preferencji](Preferences_Editor/pl.md)
 ---
 
 # Std DlgParameter/pl
@@ -32,7 +32,7 @@ Przejdź do menu **Przybory → <img src="images/Std_DlgParameter.svg" width=16p
 
 W lewym panelu wyświetlane jest drzewo z grupami parametrów oraz podgrupami.
 
-\"W menu kontekstowym panelu dostępne są następujące opcje   *"
+\"W menu kontekstowym panelu dostępne są następujące opcje:\"
 
 #### Rozwiń / Zwiń 
 
@@ -76,7 +76,7 @@ W lewym panelu wyświetlane jest drzewo z grupami parametrów oraz podgrupami.
 
 Prawy panel pokazuje parametry wybranej grupy w lewym panelu. Jeśli ta grupa zawiera tylko podgrupy, prawy panel będzie pusty.
 
-\"W menu kontekstowym panelu dostępne są następujące opcje   *"
+\"W menu kontekstowym panelu dostępne są następujące opcje:\"
 
 #### Zmień wartość 
 
@@ -152,16 +152,16 @@ Wpisanie ciągu znaków *(nawet kilku znaków)* w tym polu wprowadzania danych, 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-Dostęp do preferencji można uzyskać ze skryptów środowiska Python, używając odpowiedniej ścieżki w [Edytorze parametrów](Std_DlgParameter/pl.md). Na przykład, preferencja **Edycja → Preferencje → Import-Eksport → DXF → Opcje importu → Łącz geometrie** pojawia się w **Narzędzia → Edycja parametrów → BaseApp → Preferences → Mod → Draft → dxfCreatePart** i ma typ `Boolean`. Można więc uzyskać do niej dostęp w środowisku Python za pomocą następującego kodu   * 
+Dostęp do preferencji można uzyskać ze skryptów środowiska Python, używając odpowiedniej ścieżki w [Edytorze parametrów](Std_DlgParameter/pl.md). Na przykład, preferencja **Edycja → Preferencje → Import-Eksport → DXF → Opcje importu → Łącz geometrie** pojawia się w **Narzędzia → Edycja parametrów → BaseApp → Preferences → Mod → Draft → dxfCreatePart** i ma typ `Boolean`. Można więc uzyskać do niej dostęp w środowisku Python za pomocą następującego kodu: 
 ```python
-# get   *
-App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set   *
-App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+# get:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
 Znalezienie, który parametr jest używany do przechowywania jakiej opcji z edytora Preferencji może wymagać nieco poszukiwań, ale [Edytor parametrów](Std_DlgParameter/pl.md) oferuje możliwość przeszukiwania, co powinno być pomocne.

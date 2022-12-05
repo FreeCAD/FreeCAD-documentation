@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Draft_AddToGroup   Name/it   *Aggiungi al gruppo
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Utilità → Aggiungi al gruppo...
-   Shortcut   *
-   SeeAlso   *[Seleziona gruppo](Draft_SelectGroup/it.md), [Crea gruppo](Std_Group/it.md)
+- GuiCommand:/it
+   Name:Draft_AddToGroup   Name/it:Aggiungi al gruppo
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Utilità → Aggiungi al gruppo...
+   Shortcut:
+   SeeAlso:[Seleziona gruppo](Draft_SelectGroup/it.md), [Crea gruppo](Std_Group/it.md)
 ---
 
 # Draft AddToGroup/it

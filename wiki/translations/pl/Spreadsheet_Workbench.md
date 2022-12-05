@@ -1,52 +1,52 @@
-# <img alt="Ikonka FreeCAD dla Środowiska pracy Arkusz Kalkulacyjny" src=images/Workbench_Spreadsheet.svg  style="width   *64px;"> Spreadsheet Workbench/pl
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Arkusz Kalkulacyjny" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pl
 
 ## Wprowadzenie
 
-Środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> **Arkusz Kalkulacyjny** pozwala tworzyć i edytować arkusze kalkulacyjne, używać danych z arkusza kalkulacyjnego jako parametrów w modelu, wypełniać arkusz kalkulacyjny danymi pobranymi z modelu, wykonywać obliczenia i eksportować dane do innych aplikacji arkuszy kalkulacyjnych, takich jak LibreOffice czy Microsoft Excel.
+Środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> **Arkusz Kalkulacyjny** pozwala tworzyć i edytować arkusze kalkulacyjne, używać danych z arkusza kalkulacyjnego jako parametrów w modelu, wypełniać arkusz kalkulacyjny danymi pobranymi z modelu, wykonywać obliczenia i eksportować dane do innych aplikacji arkuszy kalkulacyjnych, takich jak LibreOffice czy Microsoft Excel.
 
 
 {{TOCright}}
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *600px;"> 
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Arkusz kalkulacyjny z komórkami wypełnionymi tekstem i ilościami*
 
 ## Przybory
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Utwórz arkusz](Spreadsheet_CreateSheet/pl.md)   * tworzy nowy arkusz kalkulacyjny.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Utwórz arkusz](Spreadsheet_CreateSheet/pl.md): tworzy nowy arkusz kalkulacyjny.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importuj arkusz](Spreadsheet_Import/pl.md)   * wczytuje plik CSV do arkusza kalkulacyjnego.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importuj arkusz](Spreadsheet_Import/pl.md): wczytuje plik CSV do arkusza kalkulacyjnego.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Eksportuj arkusz](Spreadsheet_Export/pl.md)   * zapisuje pliku CSV na podstawie arkusza kalkulacyjnego.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Eksportuj arkusz](Spreadsheet_Export/pl.md): zapisuje pliku CSV na podstawie arkusza kalkulacyjnego.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Scal komórki](Spreadsheet_MergeCells/pl.md)   * łączy wybrane komórki.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Scal komórki](Spreadsheet_MergeCells/pl.md): łączy wybrane komórki.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Podziel komórkę](Spreadsheet_SplitCell/pl.md)   * rozdziela poprzednio scalone komórki.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Podziel komórkę](Spreadsheet_SplitCell/pl.md): rozdziela poprzednio scalone komórki.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Wyrównaj do lewej](Spreadsheet_AlignLeft/pl.md)   * wyrównuje treść wybranych komórek do lewej.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Wyrównaj do lewej](Spreadsheet_AlignLeft/pl.md): wyrównuje treść wybranych komórek do lewej.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Wyśrodkuj w poziomie](Spreadsheet_AlignCenter/pl.md)   * wyrównuje treść wybranych komórek do środka w poziomie.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Wyśrodkuj w poziomie](Spreadsheet_AlignCenter/pl.md): wyrównuje treść wybranych komórek do środka w poziomie.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Wyrównaj do prawej](Spreadsheet_AlignRight/pl.md)   * wyrównuje treść wybranych komórek do prawej.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Wyrównaj do prawej](Spreadsheet_AlignRight/pl.md): wyrównuje treść wybranych komórek do prawej.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Wyrównaj do góry](Spreadsheet_AlignTop/pl.md)   * wyrównanie zawartości wybranych komórek w górę.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Wyrównaj do góry](Spreadsheet_AlignTop/pl.md): wyrównanie zawartości wybranych komórek w górę.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Wyśrodkuj w pionie](Spreadsheet_AlignVCenter/pl.md)   * wyrównuje treść wybranych komórek do środka w pionie.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Wyśrodkuj w pionie](Spreadsheet_AlignVCenter/pl.md): wyrównuje treść wybranych komórek do środka w pionie.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Wyrównaj w dół](Spreadsheet_AlignBottom/pl.md)   * wyrównuje treść wybranych komórek do dołu.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Wyrównaj w dół](Spreadsheet_AlignBottom/pl.md): wyrównuje treść wybranych komórek do dołu.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Pogrubienie](Spreadsheet_StyleBold/pl.md)   * ustawia pogrubienie treści wybranych komórek.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Pogrubienie](Spreadsheet_StyleBold/pl.md): ustawia pogrubienie treści wybranych komórek.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Kursywa](Spreadsheet_StyleItalic/pl.md)   * ustawia treść wybranych komórek na kursywę.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Kursywa](Spreadsheet_StyleItalic/pl.md): ustawia treść wybranych komórek na kursywę.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Podkreślenia](Spreadsheet_StyleUnderline/pl.md)   * ustawia treść wybranych komórek jako podkreśloną.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Podkreślenia](Spreadsheet_StyleUnderline/pl.md): ustawia treść wybranych komórek jako podkreśloną.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Ustaw alias](Spreadsheet_SetAlias/pl.md)   * ustawia alias dla wybranej komórki.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Ustaw alias](Spreadsheet_SetAlias/pl.md): ustawia alias dla wybranej komórki.
 
 -   Przyciski **Czarny** oraz **Biały** ustawia kolory czcionki i tła dla wybranych komórek.
 
 ## Ustawienia
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Ustawienia](Spreadsheet_Preferences/pl.md)   * preferencje dla środowiska pracy Arkusz Kalkulacyjny. {{Version/pl|0.20}}
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Ustawienia](Spreadsheet_Preferences/pl.md): preferencje dla środowiska pracy Arkusz Kalkulacyjny. {{Version/pl|0.20}}
 
 ## Wstawianie i usuwanie wierszy i kolumn 
 
@@ -58,7 +58,7 @@ Należy pamiętać, że usunięcie wierszy lub kolumn z danymi może spowodować
 
 ## Wycinanie i kopiowanie-wklejanie komórek 
 
-W komórkach arkuszy kalkulacyjnych programu FreeCAD można wykonywać operacje wycinania i kopiowania-wklejania. Do tych operacji można używać standardowych skrótów klawiszowych   * **Ctrl** + **X**, **Ctrl** + **C** i **Ctrl** + **V**. Aby zaznaczyć wiele komórek, przytrzymaj klawisz **Ctrl** podczas zaznaczania lub przytrzymaj lewy przycisk myszy i przeciągnij, aby zaznaczyć prostokątny zakres komórek.
+W komórkach arkuszy kalkulacyjnych programu FreeCAD można wykonywać operacje wycinania i kopiowania-wklejania. Do tych operacji można używać standardowych skrótów klawiszowych: **Ctrl** + **X**, **Ctrl** + **C** i **Ctrl** + **V**. Aby zaznaczyć wiele komórek, przytrzymaj klawisz **Ctrl** podczas zaznaczania lub przytrzymaj lewy przycisk myszy i przeciągnij, aby zaznaczyć prostokątny zakres komórek.
 
 Operacje wycinania i kopiowania zapisują zawartość i właściwości komórek w Schowku. Operacja wklejania powoduje zapisanie danych w taki sposób, że zawartość lewej górnej komórki zapisanych danych jest umieszczana w aktywnej komórce. Pozostała przechowywana zawartość jest umieszczana względem tej komórki. Formuły są odpowiednio aktualizowane.
 
@@ -68,17 +68,17 @@ W programie FreeCAD w wersji 0.19 i wcześniejszych występuje błąd, który mo
 
 ## Właściwości komórek 
 
-Właściwości komórki arkusza kalkulacyjnego można edytować, klikając komórkę prawym przyciskiem myszy i wybierając z menu podręcznego polecenie **Właściwości ...**. Zostanie wyświetlone następujące okno dialogowe   *
+Właściwości komórki arkusza kalkulacyjnego można edytować, klikając komórkę prawym przyciskiem myszy i wybierając z menu podręcznego polecenie **Właściwości ...**. Zostanie wyświetlone następujące okno dialogowe:
 
 ![](images/SpreadsheetCellPropDialog.png )
 
-Zgodnie z informacjami na kartach można zmieniać następujące właściwości   *
+Zgodnie z informacjami na kartach można zmieniać następujące właściwości:
 
--   Kolor   * kolor tekstu i kolor tła
--   Wyrównanie   * wyrównanie tekstu w poziomie i w pionie
--   Styl   * styl tekstu   * pogrubienie, kursywa, podkreślenie
--   Jednostki   * Wyświetl jednostki dla tej komórki. Proszę przeczytać sekcję [Jednostki](#Jednostki.md) poniżej.
--   Alias   * Definiuje [alias](Spreadsheet_SetAlias/pl.md) dla tej komórki. Można go używać w formułach komórek, a także w ogólnych [wyrażeniach](Expressions/pl.md). Więcej informacji na ten temat znajduje się w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md).
+-   Kolor: kolor tekstu i kolor tła
+-   Wyrównanie: wyrównanie tekstu w poziomie i w pionie
+-   Styl: styl tekstu: pogrubienie, kursywa, podkreślenie
+-   Jednostki: Wyświetl jednostki dla tej komórki. Proszę przeczytać sekcję [Jednostki](#Jednostki.md) poniżej.
+-   Alias: Definiuje [alias](Spreadsheet_SetAlias/pl.md) dla tej komórki. Można go używać w formułach komórek, a także w ogólnych [wyrażeniach](Expressions/pl.md). Więcej informacji na ten temat znajduje się w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md).
 
 ## Wyrażenia w komórkach 
 
@@ -86,7 +86,7 @@ Komórka arkusza kalkulacyjnego może zawierać dowolny tekst, cyfry lub wyraże
 
 Wyrażenia komórek mogą zawierać liczby, funkcje, odwołania do innych komórek i odwołania do właściwości modelu *(ale przeczytaj akapit [Obecne ograniczenia](#Obecne_ograniczenia.md) poniżej)*. Do komórek odwołujemy się za pomocą ich adresu utworzonego z indeksu kolumny *(wielka litera)* i wiersza *(liczba)*, np B4, lub przez jej [alias](Spreadsheet_SetAlias/pl.md).
 
-**Uwaga   *** Wyrażenia komórek są traktowane przez FreeCAD jak kod programowania. Dlatego podczas edycji zawartości komórki można zauważyć, że nie jest ona zgodna z ustawieniami wyświetlania   *
+**Uwaga:** Wyrażenia komórek są traktowane przez FreeCAD jak kod programowania. Dlatego podczas edycji zawartości komórki można zauważyć, że nie jest ona zgodna z ustawieniami wyświetlania:
 
 -   Separatorem miejsc dziesiętnych jest zawsze kropka. Ale przy wprowadzaniu wartości można również używać przecinków.
 -   Liczba wyświetlanych miejsc po przecinku może się różnić od Twoich [ustawień w preferencjach](Preferences_Editor#Jednostki.md).
@@ -111,7 +111,7 @@ FreeCAD sprawdza, czy nie występują zależności cykliczne. Zobacz sekcję [ob
 
 Jak wskazano powyżej, w wyrażeniach arkusza kalkulacyjnego można odwoływać się do danych z modelu CAD.
 
-W poniższej tabeli przedstawiono kilka przykładów przy założeniu, że model ma cechę o nazwie \"MyCube\"   *
+W poniższej tabeli przedstawiono kilka przykładów przy założeniu, że model ma cechę o nazwie \"MyCube\":
 
 ++++
 | Dane CAD                                         | Komórka w arkuszu                                        | Rezultat                       |
@@ -124,11 +124,11 @@ W poniższej tabeli przedstawiono kilka przykładów przy założeniu, że model
 |                                                  | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                                |
 |                                                  |                                                       |                                |
 ++++
-| Typ kształtu sześcianu                           |                                           | String   * Solid                  |
+| Typ kształtu sześcianu                           |                                           | String: Solid                  |
 |                                                  | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                                |
 |                                                  |                                                       |                                |
 ++++
-| Etykieta sześcianu                               |                                           | String   * MyCube                 |
+| Etykieta sześcianu                               |                                           | String: MyCube                 |
 |                                                  | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                                |
 |                                                  |                                                       |                                |
 ++++
@@ -177,18 +177,18 @@ Chociaż w wyrażeniu można użyć numeru wiersza i kolumny w celu odwołania s
 
 Edycja arkusza kalkulacyjnego powoduje ponowne obliczenie modelu 3D, nawet jeśli wprowadzone zmiany nie mają wpływu na model. W przypadku złożonego modelu ponowne obliczanie może trwać bardzo długo, a konieczność czekania po każdej edycji jest oczywiście dość irytująca.
 
-Oto trzy rozwiązania, jak sobie z tym poradzić   *
+Oto trzy rozwiązania, jak sobie z tym poradzić:
 
-1.  Tymczasowo pomiń ponowne przeliczenie   *
-    -   W oknie [widoku drzewa](Tree_view/pl.md) kliknij prawym przyciskiem myszy dokument <img alt="" src=images/Document.svg  style="width   *24px;"> zawierający arkusz kalkulacyjny.
+1.  Tymczasowo pomiń ponowne przeliczenie:
+    -   W oknie [widoku drzewa](Tree_view/pl.md) kliknij prawym przyciskiem myszy dokument <img alt="" src=images/Document.svg  style="width:24px;"> zawierający arkusz kalkulacyjny.
     -   Z menu podręcznego wybierz opcję **Pomiń przeliczanie**.
     -   Rozwiązanie to ma dużą wadę. Nowe wartości wprowadzone w arkuszu kalkulacyjnym nie zostaną wyświetlone do czasu ponownego przeliczenia dokumentu. Zamiast tego wyświetlany jest komunikat `#OCZEKIWANIE`.
     -   Możesz dokonać przeliczenia ręcznie, używając polecenia [Odświerz](Std_Refresh/pl.md), lub wyłączyć opcję **Pomiń przeliczanie** po zakończeniu edycji.
-2.  Użyj makra, aby automatycznie pomijać ponowne obliczenia podczas edycji arkusza kalkulacyjnego   *
-    -   Pobierz i uruchom makrodefinicję [skipSheet.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
+2.  Użyj makra, aby automatycznie pomijać ponowne obliczenia podczas edycji arkusza kalkulacyjnego:
+    -   Pobierz i uruchom makrodefinicję [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   To rozwiązanie pozwala zaoszczędzić kilka kroków w porównaniu z pierwszym rozwiązaniem, ale ma też wspomnianą wadę.
-3.  Umieść arkusz kalkulacyjny w osobnym pliku [FreeCAD](File_Format_FCStd/pl.md)   *
-    -   Możesz odwoływać się do danych arkusza kalkulacyjnego z zewnętrznego pliku **.FCStd** za pomocą takiej składni   * `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+3.  Umieść arkusz kalkulacyjny w osobnym pliku [FreeCAD](File_Format_FCStd/pl.md):
+    -   Możesz odwoływać się do danych arkusza kalkulacyjnego z zewnętrznego pliku **.FCStd** za pomocą takiej składni: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   Zaletą umieszczenia arkusza kalkulacyjnego w innym pliku w stosunku do wyłączenia ponownych obliczeń jest to, że ponownie przeliczany będzie sam arkusz.
     -   Wadą jest to, że model nie będzie automatycznie przeliczany po wprowadzeniu zmian w arkuszu kalkulacyjnym.
     -   W sytuacji, gdy najpierw otwieramy plik arkusza kalkulacyjnego, zmieniamy jedną lub więcej wartości, a następnie otwieramy plik modelu, nie ma żadnych informacji o konieczności ponownego przeliczenia modelu. Jeśli jednak otwarte są oba pliki, po użyciu przycisku [Odświerz](Std_Refresh/pl.md) zostanie poprawnie zaktualizowany model po zmianach w pliku arkusza kalkulacyjnego.
@@ -197,7 +197,7 @@ Oto trzy rozwiązania, jak sobie z tym poradzić   *
 
 W arkuszu kalkulacyjnym z wartościami komórek jest związane pojęcie wymiaru *(jednostki)*. Liczba wprowadzona bez przypisanej jej jednostki nie ma określonego wymiaru. Jednostka powinna być wprowadzona bezpośrednio po wartości liczby, bez odstępów. Jeśli liczba ma przypisaną jednostkę, będzie ona używana we wszystkich obliczeniach. Na przykład pomnożenie dwóch długości z jednostką mm daje pole powierzchni z jednostką mm².
 
-Jeśli komórka zawiera wartość reprezentującą wymiar, należy ją wpisać wraz z odpowiadającą jej jednostką. Chociaż w wielu prostych przypadkach można się obejść bez podawania wartości bezwymiarowej, nie należy podawać jednostki. Jeśli wartość reprezentująca wymiar zostanie wprowadzona bez powiązanej z nią jednostki, pewne sekwencje operacji powodują, że FreeCAD zgłasza niezgodność jednostek w wyrażeniu, podczas gdy wydaje się, że wyrażenie powinno być poprawne. *(Można to lepiej zrozumieć, przeglądając [ten wątek](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) na forum FreeCAD)*.
+Jeśli komórka zawiera wartość reprezentującą wymiar, należy ją wpisać wraz z odpowiadającą jej jednostką. Chociaż w wielu prostych przypadkach można się obejść bez podawania wartości bezwymiarowej, nie należy podawać jednostki. Jeśli wartość reprezentująca wymiar zostanie wprowadzona bez powiązanej z nią jednostki, pewne sekwencje operacji powodują, że FreeCAD zgłasza niezgodność jednostek w wyrażeniu, podczas gdy wydaje się, że wyrażenie powinno być poprawne. *(Można to lepiej zrozumieć, przeglądając [ten wątek](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) na forum FreeCAD)*.
 
 Jednostki wyświetlane dla wartości komórki można zmienić za pomocą okna dialogowego właściwości [zakładka jednostki](#W.C5.82a.C5.9Bciwo.C5.9Bci_kom.C3.B3rek.md) *(powyżej)*. Nie zmienia to wartości zawartej w komórce, a jedynie konwertuje istniejącą wartość na potrzeby wyświetlania. Wartość używana do obliczeń nie ulega zmianie, a wyniki formuł wykorzystujących tę wartość pozostają niezmienione. Na przykład komórka zawierająca wartość {{value|5.08cm}} może zostać wyświetlona jako {{value|2cale}} po zmianie wartości na karcie Jednostki na \"cale\".
 
@@ -209,11 +209,11 @@ Niekiedy może być wskazane usunięcie wymiaru z wyrażenia. Można to zrobić,
 
 ### Format CSV 
 
-Arkusze kalkulacyjne FreeCAD mogą być importowane i eksportowane do formatu [CSV](https   *//en.wikipedia.org/wiki/Comma-separated_values), który może być również odczytywany i zapisywany przez większość innych aplikacji arkuszy kalkulacyjnych, takich jak Microsoft Excel czy LibreOffice Calc. Więcej informacji na ten temat można znaleźć na stronach [Import](Spreadsheet_Import/pl.md) i [Eksport](Spreadsheet_Export/pl.md).
+Arkusze kalkulacyjne FreeCAD mogą być importowane i eksportowane do formatu [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), który może być również odczytywany i zapisywany przez większość innych aplikacji arkuszy kalkulacyjnych, takich jak Microsoft Excel czy LibreOffice Calc. Więcej informacji na ten temat można znaleźć na stronach [Import](Spreadsheet_Import/pl.md) i [Eksport](Spreadsheet_Export/pl.md).
 
 ### Format XLSX 
 
-Arkusze kalkulacyjne w formacie Excel XLSX można importować za pomocą polecenia [Importuj](Std_Import/pl.md) lub polecenia [Otwórz](Std_Open/pl.md). Obsługiwane są następujące funkcje   *
+Arkusze kalkulacyjne w formacie Excel XLSX można importować za pomocą polecenia [Importuj](Std_Import/pl.md) lub polecenia [Otwórz](Std_Open/pl.md). Obsługiwane są następujące funkcje:
 
 -   Wszystkie funkcje, które są dostępne także w arkuszu kalkulacyjnym FreeCAD. Inne funkcje powodują wystąpienie błędu w odpowiedniej komórce po zaimportowaniu.
 -   Nazwy aliasów dla komórek.
@@ -227,7 +227,7 @@ Aby zachować ustawienia strony niezbędne do drukowania, arkusze kalkulacyjne F
 
 ## Obecne ograniczenia 
 
-FreeCAD sprawdza zależności cykliczne podczas ponownych obliczeń. Z założenia sprawdzanie to zatrzymuje się na poziomie obiektu arkusza kalkulacyjnego. W konsekwencji nie powinieneś mieć arkusza kalkulacyjnego zawierającego zarówno komórki, których wartości są używane do określania parametrów modelu, jak i komórki, których wartości wykorzystują dane wyjściowe z modelu. Na przykład nie można mieć komórek określających długość, szerokość i wysokość obiektu, a także innej komórki, która odwołuje się do całkowitej objętości wynikowego kształtu. Ograniczenie to można obejść, mając dwa arkusze kalkulacyjne   * jeden używany jako źródło danych dla parametrów wejściowych do modelu, a drugi używany do obliczeń opartych na danych wynikowych geometrii.
+FreeCAD sprawdza zależności cykliczne podczas ponownych obliczeń. Z założenia sprawdzanie to zatrzymuje się na poziomie obiektu arkusza kalkulacyjnego. W konsekwencji nie powinieneś mieć arkusza kalkulacyjnego zawierającego zarówno komórki, których wartości są używane do określania parametrów modelu, jak i komórki, których wartości wykorzystują dane wyjściowe z modelu. Na przykład nie można mieć komórek określających długość, szerokość i wysokość obiektu, a także innej komórki, która odwołuje się do całkowitej objętości wynikowego kształtu. Ograniczenie to można obejść, mając dwa arkusze kalkulacyjne: jeden używany jako źródło danych dla parametrów wejściowych do modelu, a drugi używany do obliczeń opartych na danych wynikowych geometrii.
 
 ## Łączenie komórek 
 
@@ -238,12 +238,12 @@ Istnieje możliwość łączenia zawartości komórek z innymi komórkami arkusz
 
 ### Tworzenie powiązań 
 
-Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2   *
+Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2:
 
 1.  Zaznacz zakres komórek A3-C4.
 2.  Kliknij prawym przyciskiem myszy i wybierz **Powiąż ...** z menu podręcznego.
 3.  Zostanie otwarte okno dialogowe **Powiąż komórki arkusza kalkulacyjnego**.
-4.  Ustaw zakres B1-D2 w polu **Do komórek**   *
+4.  Ustaw zakres B1-D2 w polu **Do komórek**:
     ![](images/Spreadsheet_binding-dialog.png )
 5.  Naciśnij przycisk **OK**.
 6.  Związane komórki mają niebieską obwódkę, aby wyróżnić to powiązanie.
@@ -267,7 +267,7 @@ Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2   *
 
 ### Uwagi
 
--   Opcji **Ukryj zależność powiązania** można użyć, aby uniknąć problemów z cyklicznymi zależnościami między arkuszami kalkulacyjnymi. Zaznaczenie jej jest konieczne, gdy na przykład komórki w *Arkuszu kalkulacyjnym A* są powiązane z komórkami w *Arkuszu kalkulacyjnym B*, a komórki w *Arkuszu kalkulacyjnym B* są powiązane z innymi komórkami w *Arkuszu kalkulacyjnym A*. Opcji tej należy używać z rozwagą   *
+-   Opcji **Ukryj zależność powiązania** można użyć, aby uniknąć problemów z cyklicznymi zależnościami między arkuszami kalkulacyjnymi. Zaznaczenie jej jest konieczne, gdy na przykład komórki w *Arkuszu kalkulacyjnym A* są powiązane z komórkami w *Arkuszu kalkulacyjnym B*, a komórki w *Arkuszu kalkulacyjnym B* są powiązane z innymi komórkami w *Arkuszu kalkulacyjnym A*. Opcji tej należy używać z rozwagą:
     -   Ukrywanie zależności może być niebezpieczne, ponieważ uszkodzone zależności mogą spowodować uszkodzenie pliku FreeCAD. Na przykład, gdy usuniesz arkusz kalkulacyjny, nie zostaniesz ostrzeżony o ukrytych zależnościach.
     -   Gdy otworzysz dokument z arkuszem kalkulacyjnym zawierającym ukrytą zależność, arkusz zostanie oznaczony do ponownego przeliczenia. Dzieje się tak dlatego, że zależności cyklicznej nie można obliczyć ponownie w sposób automatyczny. Aby ponownie obliczyć, należy użyć narzędzia [Odśwież](Std_Refresh/pl.md).
 -   Wiązanie komórek ma funkcję sprawdzania zakresu i ostrzega o niedopasowanych zakresach. Na przykład powiązanie komórek 1x3 z komórkami 3x2 nie działa, ponieważ nie wiadomo, które 3 komórki z pierwotnych 6 komórek powinny zostać użyte.
@@ -279,7 +279,7 @@ Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2   *
 
 {{Version/pl|0.20}}
 
-Za pomocą Arkuszy kalkulacyjnych można tworzyć tabele konfiguracyjne zawierające zestawy wstępnie zdefiniowanych parametrów modelu, a następnie dynamicznie zmieniać konfigurację, która ma być używana. Aby dowiedzieć się więcej na temat działania tej funkcji, zobacz [ten post na forum](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183).
+Za pomocą Arkuszy kalkulacyjnych można tworzyć tabele konfiguracyjne zawierające zestawy wstępnie zdefiniowanych parametrów modelu, a następnie dynamicznie zmieniać konfigurację, która ma być używana. Aby dowiedzieć się więcej na temat działania tej funkcji, zobacz [ten post na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -291,20 +291,20 @@ Rozwiń tę sekcję, aby zapoznać się z krótkim przewodnikiem po tworzeniu ta
 
 1.  W nowym dokumencie najpierw utwórz [Część](Std_Part.md) środowiska pracy Część, następnie utwórz [sześcian](Part_Box/pl.md), [walec](Part_Cylinder/pl.md) i arkusz kalkulacyjny.
 2.  Sześcian i walec są automatycznie umieszczane w kontenerze [Część](Std_Part/pl.md). Umieść w nim także arkusz kalkulacyjny.
-3.  W arkuszu kalkulacyjnym wprowadź zawartość w sposób przedstawiony poniżej. Ustaw aliasy dla komórek B2 jako {{Value|szerokość}}, C2 jako {{Value|długość}} i D2 jako {{Value|promień}}   *
+3.  W arkuszu kalkulacyjnym wprowadź zawartość w sposób przedstawiony poniżej. Ustaw aliasy dla komórek B2 jako {{Value|szerokość}}, C2 jako {{Value|długość}} i D2 jako {{Value|promień}}:
     ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Powiąż [wyrażeniem](Expressions.md) komórki {{Value|Spreadsheet.szerokość}} i {{Value|Spreadsheet.długość}} do właściwości sześcianu **Szerokość** i **Długość**, odpowiednio   *
+4.  Powiąż [wyrażeniem](Expressions.md) komórki {{Value|Spreadsheet.szerokość}} i {{Value|Spreadsheet.długość}} do właściwości sześcianu **Szerokość** i **Długość**, odpowiednio:
     ![](images/Spreadsheet_configuration_table_screenshot_2.png )
 5.  Powiąż wyrażenie {{Value|Spreadsheet.promień}} z właściwością **Promień** walca. Zmień także wartość **Wysokość** walca na {{Value|5 mm}}, tak aby był on niższy niż sześcian.
 6.  Kliknij prawym przyciskiem myszy komórkę A2 w arkuszu kalkulacyjnym i wybierz z menu kontekstowego polecenie **Tabela konfiguracji ...**.
 7.  Zostanie otwarte okno dialogowe **Ustawienia tabeli konfiguracji**.
-8.  Wprowadź następujące dane   *
+8.  Wprowadź następujące dane:
     ![](images/Spreadsheet_configuration_table_screenshot_5.png )
 9.  Naciśnij przycisk **OK**.
-10. Do kontenera [Część](Std_Part.md) jest dodawana nowa właściwość o nazwie **Konfiguracja**, która umożliwia wybór konfiguracji, jak pokazano poniżej   *
+10. Do kontenera [Część](Std_Part.md) jest dodawana nowa właściwość o nazwie **Konfiguracja**, która umożliwia wybór konfiguracji, jak pokazano poniżej:
     ![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-Za pomocą [Łącza](Std_LinkMake/pl.md) lub funkcji [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) można utworzyć instancję [zmienną](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) obiektu konfigurowalnego, wykonując następujące czynności   *
+Za pomocą [Łącza](Std_LinkMake/pl.md) lub funkcji [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) można utworzyć instancję [zmienną](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) obiektu konfigurowalnego, wykonując następujące czynności:
 
 1.  Utwórz [Łącze](Std_LinkMake/pl.md) do kontenera [Część](Std_Part/pl.md) i ustaw jego właściwość **Kopiuj łącze przy zmianie** na wartość {{Value|Włączone}}.
 2.  Przenieś łącze w nowe miejsce, zmieniając jego **Umiejscowienie** tak, aby łatwiej było je odróżnić od oryginalnego obiektu.
@@ -323,7 +323,7 @@ Podobne kroki dotyczą funkcji [Łącznik kształtów podrzędnych](PartDesign_S
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet   *   *Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
 sheet.Label = "Dimensions"
 
 sheet.set('A1','10mm')
@@ -342,9 +342,7 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

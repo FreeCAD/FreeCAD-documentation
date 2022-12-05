@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *PartDesign AdditiveLoft
-   Name/it   *Loft additivo
-   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation   *Part Design → Loft additivo
-   Version   *0.17
-   SeeAlso   *[Sweep additivo](PartDesign_AdditivePipe/it.md)
+- GuiCommand:/it
+   Name:PartDesign AdditiveLoft
+   Name/it:Loft additivo
+   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation:Part Design → Loft additivo
+   Version:0.17
+   SeeAlso:[Sweep additivo](PartDesign_AdditivePipe/it.md)
 ---
 
 # PartDesign AdditiveLoft/it
@@ -49,11 +49,11 @@
 
 <small>(v0.19)</small> 
 
-1.  Select several sketches. It is hereby important in what order you select them   *
+1.  Select several sketches. It is hereby important in what order you select them:
     -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important   * The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
     -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
-2.  Press the **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
+2.  Press the **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
 ## Opzioni
@@ -61,8 +61,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   **Ruled surface**   * effettua transizioni diritte tra le sezioni trasversali. Non si applica a un loft con due sezioni trasversali. Se non viene selezionato, le transizioni sono fluide.
--   **Closed**   * effettua una transizione dall\'ultima sezione trasversale alla prima, creando un loop.
+-   **Ruled surface**: effettua transizioni diritte tra le sezioni trasversali. Non si applica a un loft con due sezioni trasversali. Se non viene selezionato, le transizioni sono fluide.
+-   **Closed**: effettua una transizione dall\'ultima sezione trasversale alla prima, creando un loop.
 -   Premere il pulsante **Rimuovi sezione** per rimuovere uno schizzo, selezionandolo nella vista 3D.
 
 
@@ -73,19 +73,19 @@
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Label}}   * nome dato all\'operazione, questo nome può essere cambiato a piacere.
+-    {{PropertyData/it|Label}}: nome dato all\'operazione, questo nome può essere cambiato a piacere.
 
--    {{PropertyData/it|Sections}}   * elenca le sezioni utilizzate.
+-    {{PropertyData/it|Sections}}: elenca le sezioni utilizzate.
 
--    {{PropertyData/it|Ruled}}   * vedere [Opzioni](PartDesign_AdditiveLoft/it#Opzioni.md).
+-    {{PropertyData/it|Ruled}}: vedere [Opzioni](PartDesign_AdditiveLoft/it#Opzioni.md).
 
--    {{PropertyData/it|Closed}}   * vedere [Opzioni](PartDesign_AdditiveLoft/it#Opzioni.md).
+-    {{PropertyData/it|Closed}}: vedere [Opzioni](PartDesign_AdditiveLoft/it#Opzioni.md).
 
--    {{PropertyData/it|Midplane}}   * non applicabile.
+-    {{PropertyData/it|Midplane}}: non applicabile.
 
--    {{PropertyData/it|Reversed}}   * non applicabile.
+-    {{PropertyData/it|Reversed}}: non applicabile.
 
--    {{PropertyData/it|Refine}}   * vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle operazioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
+-    {{PropertyData/it|Refine}}: vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle operazioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
 
 
 </div>

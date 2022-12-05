@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */pl
-   Name   *PartDesign MoveFeatureInTree
-   Name/pl   *Projekt Części   * Przenieś cechę w drzewie
-   MenuLocation   *Menu kontekstowe → Przesuń obiekt za inny obiekt
-   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
-   Version   *0.17
-   SeeAlso   *[Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę do innej zawartości](PartDesign_MoveFeature/pl.md)
+- GuiCommand:/pl
+   Name:PartDesign MoveFeatureInTree
+   Name/pl:Projekt Części: Przenieś cechę w drzewie
+   MenuLocation:Menu kontekstowe → Przesuń obiekt za inny obiekt
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   Version:0.17
+   SeeAlso:[Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę do innej zawartości](PartDesign_MoveFeature/pl.md)
 ---
 
 # PartDesign MoveFeatureInTree/pl
 
 ## Opis
 
-<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width   *24px;"> [Przesuń obiekt za inny obiekt](PartDesign_MoveFeatureInTree/pl.md), jak to polecenie jest nazwane w menu kontekstowym, pozwala na zmianę kolejności obiektów w Zawartości. Obsługiwane są szkice, geometria punktów odniesienia i cechy.
+<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Przesuń obiekt za inny obiekt](PartDesign_MoveFeatureInTree/pl.md), jak to polecenie jest nazwane w menu kontekstowym, pozwala na zmianę kolejności obiektów w Zawartości. Obsługiwane są szkice, geometria punktów odniesienia i cechy.
 
 ## Użycie
 

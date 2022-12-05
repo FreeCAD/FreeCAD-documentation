@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */fr
-   Name   *EM FHPlane
-   Name/fr   *EM Plan FH
-   MenuLocation   *EM → FHPlane
-   Workbenches   *[EM](EM_Workbench/fr.md)
-   Shortcut   ***E** **P**
-   Version   *0.17
-   SeeAlso   *[EM Noeud FH](EM_FHNode/fr.md), [EM Trou FH](EM_FHPlaneHole/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md)
+- GuiCommand:/fr
+   Name:EM FHPlane
+   Name/fr:EM Plan FH
+   MenuLocation:EM → FHPlane
+   Workbenches:[EM](EM_Workbench/fr.md)
+   Shortcut:**E** **P**
+   Version:0.17
+   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Trou FH](EM_FHPlaneHole/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md)
 ---
 
 # EM FHPlane/fr
@@ -25,20 +25,20 @@ L\'outil Plan FH insère un objet de type plan conducteur uniforme FastHenry.
 
 L\'objet Plan FH doit être basé sur un autre objet, qui peut être un objet [Draft Rectangle](Draft_Rectangle/fr.md) ou un objet [Part Cube](Part_Box/fr.md). Si vous avez basé votre FHPlane sur un objet [Part Cube](Part_Box/fr.md), le paramètre Thickness sera hérité de la valeur Box Height.
 
-1.  Créez et sélectionnez un objet <img alt="" src=images/Draft_Rectangle.svg  style="width   *16px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou un objet <img alt="" src=images/Part_Box.svg  style="width   *16px;"> [Part Cube](Part_Box/fr.md).
+1.  Créez et sélectionnez un objet <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou un objet <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Cube](Part_Box/fr.md).
 2.  Appuyez sur le bouton **<img src="images/EM_FHPlane.svg" width=16px> [EM FHPlane](EM_FHPlane/fr.md)** ou appuyez sur les touches **E** puis **P**.
 
-De plus, vous pouvez également sélectionner conjointement avec l\'objet de base ([Draft Rectangle](Draft_Rectangle/fr.md) ou [Part Cube](Part_Box/fr.md)) également un ou plusieurs [EM Noeud FH](EM_FHNode/fr.md) et/ou un ou plus [EM Trou FH](EM_FHPlaneHole/fr.md) qui seront adoptés par le Plan FH   *
+De plus, vous pouvez également sélectionner conjointement avec l\'objet de base ([Draft Rectangle](Draft_Rectangle/fr.md) ou [Part Cube](Part_Box/fr.md)) également un ou plusieurs [EM Noeud FH](EM_FHNode/fr.md) et/ou un ou plus [EM Trou FH](EM_FHPlaneHole/fr.md) qui seront adoptés par le Plan FH:
 
 1.  Créez un objet [Draft Rectangle](Draft_Rectangle/fr.md) ou [Part Box](Part_Box/fr.md)
-2.  Créez un ou plusieurs objets <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [EM Noeud FH](EM_FHNode/fr.md)
-3.  Créez un ou plusieurs objets <img alt="" src=images/EM_FHPlaneHole.svg  style="width   *16px;"> [EM Trou FH](EM_FHPlaneHole/fr.md)
+2.  Créez un ou plusieurs objets <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [EM Noeud FH](EM_FHNode/fr.md)
+3.  Créez un ou plusieurs objets <img alt="" src=images/EM_FHPlaneHole.svg  style="width:16px;"> [EM Trou FH](EM_FHPlaneHole/fr.md)
 4.  Sélectionnez l\'objet de base, les objets Noeud FH et les objets Plan FH (pour cette sélection multiple, vous pouvez pointer et cliquer sur les objets dans la [vue en arborescence](Tree_view/fr.md) ou dans la [vue 3D](3D_view/fr.md) et pour effectuer une sélection multiple maintenez simplement la touche **CTRL** enfoncée lors de la sélection).
 5.  Appuyez sur le bouton **<img src="images/_EM_FHPlane.svg" width=16px> [EM Plan FH](EM_FHPlane/fr.md)** ou appuyez sur les touches **E** puis **P**.
 
 ### Remarques
 
-Un objet plan conducteur uniforme FastHenry est formé en posant une ceinture de nœuds (ci-après appelés \"nœuds internes\") et en connectant les nœuds avec un maillage 2D de segments dans les directions (relatives) X et Y. Des trous sont formés dans le plan en supprimant certains nœuds internes, et donc également les segments qui se connectent à ces nœuds. Pour plus de détails sur les plans conducteurs uniformes FastHenry, consultez le [guide de l\'utilisateur FastHenry](https   *//www.fastfieldsolvers.com/documentation.htm).
+Un objet plan conducteur uniforme FastHenry est formé en posant une ceinture de nœuds (ci-après appelés \"nœuds internes\") et en connectant les nœuds avec un maillage 2D de segments dans les directions (relatives) X et Y. Des trous sont formés dans le plan en supprimant certains nœuds internes, et donc également les segments qui se connectent à ces nœuds. Pour plus de détails sur les plans conducteurs uniformes FastHenry, consultez le [guide de l\'utilisateur FastHenry](https://www.fastfieldsolvers.com/documentation.htm).
 
 -   Comme l\'objet Plan FH est basé sur un objet Draft Rectangle ou Part Cube, vous ne pouvez PAS déplacer librement le FHPlane. Le FHPlane sera toujours contraint à l\'objet de base. Pour modifier la position du FHPlane, appliquez la modification à l\'objet de base sous-jacent (l\'objet de base est masqué par défaut, vous pouvez l\'afficher à nouveau en sélectionnant l\'objet dans l\'arborescence et en appuyant sur **Espace**. L\'origine de le FHPlane est l\'origine de l\'objet de base.
 
@@ -50,40 +50,40 @@ Un objet plan conducteur uniforme FastHenry est formé en posant une ceinture de
 
 ## Propriétés
 
--    **Base**   * l\'objet de base sur lequel ce composant est construit (un [Draft Rectangle](Draft_Rectangle/fr.md) ou un [Part Cube](Part_Box/fr.md))
+-    **Base**: l\'objet de base sur lequel ce composant est construit (un [Draft Rectangle](Draft_Rectangle/fr.md) ou un [Part Cube](Part_Box/fr.md))
 
--    **Thickness**   * l\'épaisseur du Plan FH (paramètre de plan \"épais\" dans FastHenry). Si le Plan FH est basé sur un [Part Cube](Part_Box/fr.md), cette valeur est héritée du paramètre Part Box Height
+-    **Thickness**: l\'épaisseur du Plan FH (paramètre de plan \"épais\" dans FastHenry). Si le Plan FH est basé sur un [Part Cube](Part_Box/fr.md), cette valeur est héritée du paramètre Part Box Height
 
--    **seg1**   * le nombre de segments le long de la direction de la longueur (paramètre de plan \'seg1\' dans FastHenry)
+-    **seg1**: le nombre de segments le long de la direction de la longueur (paramètre de plan \'seg1\' dans FastHenry)
 
--    **seg2**   * le nombre de segments le long de la direction de la largeur (paramètre de plan \'seg2\' dans FastHenry)
+-    **seg2**: le nombre de segments le long de la direction de la largeur (paramètre de plan \'seg2\' dans FastHenry)
 
--    **nhinc**   * le nombre de filaments de l\'épaisseur du plan (paramètre plan \'nhinc\' dans FastHenry)
+-    **nhinc**: le nombre de filaments de l\'épaisseur du plan (paramètre plan \'nhinc\' dans FastHenry)
 
--    **rh**   * le rapport des filaments adjacents le long de l\'épaisseur (paramètre du plan \'rh\' dans FastHenry)
+-    **rh**: le rapport des filaments adjacents le long de l\'épaisseur (paramètre du plan \'rh\' dans FastHenry)
 
--    **Sigma**   * la conductivité du Plan FH (paramètre du plan \'sigma\' dans FastHenry)
+-    **Sigma**: la conductivité du Plan FH (paramètre du plan \'sigma\' dans FastHenry)
 
--    **segwid1**   * la largeur des segments le long de la direction de la longueur du plan (paramètre plan \'segwid1\' dans FastHenry)
+-    **segwid1**: la largeur des segments le long de la direction de la longueur du plan (paramètre plan \'segwid1\' dans FastHenry)
 
--    **segwid2**   * la largeur des segments le long de la direction de largeur du plan (paramètre plan \'segwid2\' dans FastHenry)
+-    **segwid2**: la largeur des segments le long de la direction de largeur du plan (paramètre plan \'segwid2\' dans FastHenry)
 
--    **Nodes**   * la liste des objets Noeuds FH pour les connexions au plan
+-    **Nodes**: la liste des objets Noeuds FH pour les connexions au plan
 
--    **Holes**   * la liste des Trous FH dans le plan
+-    **Holes**: la liste des Trous FH dans le plan
 
--    **FineMesh**   * spécifie si le maillage fin plan est affiché (c\'est-à-dire la composition des segments)
+-    **FineMesh**: spécifie si le maillage fin plan est affiché (c\'est-à-dire la composition des segments)
 
--    **ShowNodes**   * affiche la grille de nœuds internes supportant le plan (c\'est-à-dire les nœuds internes)
+-    **ShowNodes**: affiche la grille de nœuds internes supportant le plan (c\'est-à-dire les nœuds internes)
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Plan FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   *
+L\'outil Plan FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
 
 ```python
@@ -106,7 +106,7 @@ plane = makeFHPlane(baseobj=None, thickness=None, seg1=None, seg2=None, nodes=[]
 
 -    `name`est le nom de l\'objet.
 
-Exemple   *
+Exemple:
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */de
-   Topic   *Import von Text und Geometrie aus Inkscape
-   Level   *Anfänger
-   Time   *30 Minuten
-   Author   *r-frank
-   FCVersion   *0.16.6704
-   Files   *
+- TutorialInfo:/de
+   Topic:Import von Text und Geometrie aus Inkscape
+   Level:Anfänger
+   Time:30 Minuten
+   Author:r-frank
+   FCVersion:0.16.6704
+   Files:
 ---
 
 # Import text and geometry from Inkscape/de
@@ -31,7 +31,7 @@ Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Window
 
 ## Text aus Inkscape importieren 
 
--   In Inkscape, nach dem Einfügen von Text (und vielleicht nach dem Anwenden von Effekten wie Biegen oder etwas anderem), nicht vergessen   *
+-   In Inkscape, nach dem Einfügen von Text (und vielleicht nach dem Anwenden von Effekten wie Biegen oder etwas anderem), nicht vergessen:
     -   Den Text und dann ** Pfad** → ** Objekt zu Pfad** auswählen.
     -   Die Gruppierung der Objekte aufheben.
     -   Im Dateiformat \"Einfaches SVG (\*.svg)\" speichern.
@@ -43,7 +43,7 @@ Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Window
 
 ## Geometrie aus Inkscape importieren 
 
-Da Inkscape und FreeCAD unterschiedliche Ansätze zur Bemaßung von SVG-Objekten zu haben scheinen, scheint der empfohlene Arbeitsablauf zu sein   *
+Da Inkscape und FreeCAD unterschiedliche Ansätze zur Bemaßung von SVG-Objekten zu haben scheinen, scheint der empfohlene Arbeitsablauf zu sein:
 
 -   Gruppierung aller Objekte in Inkscape aufheben.
 -   Alle Objekte in Inkscape auswählen.

@@ -1,8 +1,6 @@
 # Category:External Workbenches/sv
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-[Category   *Workbenches/sv](Category   *Workbenches/sv.md) [Category   *Addons/sv](Category   *Addons/sv.md)
-
 ### Contents
 
 |     |     |     |

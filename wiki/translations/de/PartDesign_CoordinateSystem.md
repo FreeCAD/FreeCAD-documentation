@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *PartDesign CoordinateSystem
-   Name/de   *PartDesign Koordinatensystem
-   MenuLocation   *Part Design → Lokales Koordinatensystem erstellen
-   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
-   Version   *0.18
-   SeeAlso   *[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
+- GuiCommand:/de
+   Name:PartDesign CoordinateSystem
+   Name/de:PartDesign Koordinatensystem
+   MenuLocation:Part Design → Lokales Koordinatensystem erstellen
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   Version:0.18
+   SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
 # PartDesign CoordinateSystem/de
@@ -16,11 +16,11 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Anwendung
 
-1.  Schaltfläche **[<img src=images/PartDesign_CoordinateSystem.svg style="width   *16px"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md)** drücken.
+1.  Schaltfläche **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md)** drücken.
 
 2.  Die Parameter des Koordinatensystems definieren. Eine erste Referenz in der 3D-Ansicht auswählen, um die verfügbaren Verbindungsarten zu filtern.
 
-3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text *Angehängt im Modus   ** zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
+3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text *Angehängt im Modus:* zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
 
 4.  Um eine weitere Referenz hinzuzufügen, drückt man die nächste Schaltfläche **Referenz2**. Sobald sie gerückt wurde ändert sich die Beschriftung zu *Auswählen\...*, bis etwas ausgewählt wurde.
 
@@ -39,21 +39,21 @@ Mit einem Doppelklick auf (Lokales KS) **Local_CS** in der Baumstruktur oder dur
 
 ### Daten
 
--    **MapMode**   * listet den verwendeten Anhängemodus auf.
+-    **MapMode**: listet den verwendeten Anhängemodus auf.
 
--    **Attachment Reversed**   * Gibt an, ob das Koordinatensystem in seiner Ausrichtung umgekehrt ist.
+-    **Attachment Reversed**: Gibt an, ob das Koordinatensystem in seiner Ausrichtung umgekehrt ist.
 
--    **Attachment Offset**   * Wendet eine Transformation (Übersetzung und Drehung) in Bezug auf die Platzierung von Anhängen an.
+-    **Attachment Offset**: Wendet eine Transformation (Übersetzung und Drehung) in Bezug auf die Platzierung von Anhängen an.
 
--    **Placement**   * Gibt die Koordinaten und Ausrichtung des Ursprungs des Koordinatensystems an .
+-    **Placement**: Gibt die Koordinaten und Ausrichtung des Ursprungs des Koordinatensystems an .
 
--    **Label**   * Name des Objekts. Dieser Name kann beliebig geändert werden.
+-    **Label**: Name des Objekts. Dieser Name kann beliebig geändert werden.
 
 ## Skripten
 
 
 ```python
-lcs = App.activeDocument().addObject( 'PartDesign   *   *CoordinateSystem', 'LCS' )
+lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 ```
 
 

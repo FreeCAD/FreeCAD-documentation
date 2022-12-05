@@ -1,6 +1,6 @@
 # Part Defeaturing/it
 ---
-- GuiCommand   */it   Name   *Part Defeaturing   Name/it   *Elimina funzione   MenuLocation   *Part → Elimina funzione   Workbenches   *[[Part_Workbench/it   Part]]|Version   *0.18---
+- GuiCommand:/it   Name:Part Defeaturing   Name/it:Elimina funzione   MenuLocation:Part → Elimina funzione   Workbenches:[[Part_Workbench/it   Part]]|Version:0.18---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Lo strumento **Elimina funzione** è destinato alla rimozione di funzioni selezionate dal modello. In questo contesto, le funzioni sono intese come fori, sporgenze, spazi vuoti, smussi, raccordi ecc., che si trovano sul modello.
 
-Lo strumento elimina funzioni può essere molto utile in diversi contesti   *
+Lo strumento elimina funzioni può essere molto utile in diversi contesti:
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +39,7 @@ Per essere disponibile, questo strumento richiede che FreeCAD sia basato su Open
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare la faccia o le facce che si vuole rimuovere dal modello.
-2.  Premere il pulsante **[<img src=images/Part_Defeaturing.svg style="width   *24px"> '''Elimina funzione'''**.
+2.  Premere il pulsante **[<img src=images/Part_Defeaturing.svg style="width:24px"> '''Elimina funzione'''**.
 3.  Viene creato un nuovo oggetto con l\'etichetta \"Defeatured\" nell\'albero del modello e l\'oggetto originale è nascosto alla vista.
 
 
@@ -50,9 +50,9 @@ Per essere disponibile, questo strumento richiede che FreeCAD sia basato su Open
 
 <div class="mw-translate-fuzzy">
 
--   [3D Model Defeaturing](https   *//dev.opencascade.org/index.php?q=node/1211), l\'annuncio ufficiale sul portale di sviluppo collaborativo di Open Cascade.
--   [Freecad 0.18 Defeaturing](https   *//peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872), una dimostrazione video (in tedesco) su un modello complesso su PeerTube; anche senza capire la lingua, è abbastanza facile da seguire.
--   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width   *24px;"> [Ambiente Defeaturing](Defeaturing_Workbench/it.md)
+-   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), l\'annuncio ufficiale sul portale di sviluppo collaborativo di Open Cascade.
+-   [Freecad 0.18 Defeaturing](https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872), una dimostrazione video (in tedesco) su un modello complesso su PeerTube; anche senza capire la lingua, è abbastanza facile da seguire.
+-   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Ambiente Defeaturing](Defeaturing_Workbench/it.md)
 
 
 </div>

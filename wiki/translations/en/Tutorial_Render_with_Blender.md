@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   *   Topic   *Rendering
-   Level   *Intermediate
-   Time   *60 minutes
-   Author   *[https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion   *0.18 or greater
-   Files   *none
+- TutorialInfo:   Topic:Rendering
+   Level:Intermediate
+   Time:60 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 or greater
+   Files:none
 ---
 
 # Tutorial Render with Blender/en
@@ -15,17 +15,17 @@
 
 ## Introduction
 
-This tutorial shows how to produce a rendered image in [Blender](https   *//www.blender.org/), beginning from a part or assembly created with FreeCAD. It assumes that the user already created the part in FreeCAD, or has imported it into it. Then this part is exported to Blender for rendering.
+This tutorial shows how to produce a rendered image in [Blender](https://www.blender.org/), beginning from a part or assembly created with FreeCAD. It assumes that the user already created the part in FreeCAD, or has imported it into it. Then this part is exported to Blender for rendering.
 
 It produces a rendering with Blender 2.80 with both the EEVEE and Cycles renderers. It shows various [Python](Python.md) commands that can be used to perform actions quicker both in FreeCAD and Blender.
 
-A similar description of this process is described in a series of videos, [Render Solidworks and FreeCAD Models in Blender](https   *//www.youtube.com/watch?v=U7e6-Wfv2b0), by Joko Engineering.
+A similar description of this process is described in a series of videos, [Render Solidworks and FreeCAD Models in Blender](https://www.youtube.com/watch?v=U7e6-Wfv2b0), by Joko Engineering.
 
 ## FreeCAD
 
 1\. Create an assembly using bodies from the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md), or any other workbench that produces solid objects, for example, the [Arch Workbench](Arch_Workbench.md). Assign colors or materials to the individual bodies that make the assembly, approximately matching the color that you want in your render.
 
-<img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width   *600px;">
+<img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width:600px;">
 
 
 
@@ -52,12 +52,12 @@ importOBJ.export(objs, "/home/user/assembly.obj")
 ```
 
 
-**Note   ***
+**Note:**
 
 when exporting to OBJ, two files are created; the first one contains the mesh information itself, `assembly.obj`; the second one contains the definition of the materials, which in most cases is just the color, `assembly.mtl`.
 
 
-**Note 2   ***
+**Note 2:**
 
 if the resulting OBJ file appears to be empty, you may have to export the individual bodies. In this case, select each of the bodies under the part, and repeat the export.
 
@@ -112,7 +112,7 @@ bpy.context.scene.unit_settings.scale_length = 0.001
 ```
 
 
-**Note   ***
+**Note:**
 
 changing the scale and units of the scene is only necessary if you wish to work with objects at their true dimensions. If you just want to render your scene quickly, you may omit any adjustment.
 
@@ -132,11 +132,11 @@ This can be automated by a small script that just sets the rotation of each impo
 ```python
 fixed_objs = ('Camera', 'Cube', 'Light')
 
-for obj in bpy.data.objects   *
-    if any(s for s in fixed_objs if s in obj.name)   *
+for obj in bpy.data.objects:
+    if any(s for s in fixed_objs if s in obj.name):
         print('%s %s  [[No change]]' % (obj.name, obj.rotation_euler))
         continue
-    else   *
+    else:
         obj.rotation_euler = (0, 0, 0)
         print('%s %s  ... rotated' % (obj.name, obj.rotation_euler))
 ```
@@ -162,7 +162,7 @@ bpy.context.object.data.clip_end = 1e+03
 
 If you can see the object through the camera view, now you can quickly render the model by pressing **F12**, which will open the `Image Editor` with the result. Press **Esc** to exit, and return to the `3D Viewport`.
 
-<img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width   *600px;">
+<img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width:600px;">
 
 
 
@@ -200,13 +200,13 @@ bpy.context.active_object.rotation_euler = (0.6, 0.05, 1.88)
 
 Press **F12** again to see a preliminary render of the model.
 
-<img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width   *600px;">
+<img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width:600px;">
 
 
 
 *align=center|Render of the assembly in Blender with a Sun lamp added that emits parallel light rays with a fixed angle*
 
-### More setup   * floor, global lighting, reflections, and soft shadows 
+### More setup: floor, global lighting, reflections, and soft shadows 
 
 10\. Add a floor plane. Press **Shift**+**A** then choose `Mesh`, `Plane`, and give it dimensions about 10 times larger than your model. This mesh object will serve as a floor plane or table top on which the model is standing. Also move the plane a bit down so that it does not intersect the model; `-1 mm` below the object is enough.
 
@@ -253,7 +253,7 @@ Press **F12** to render the view through the camera and check the quality of the
 
 15\. If your model looks reasonably well with the EEVEE renderer you can already save the image by going to **Image → Save As** or pressing **Shift**+**S** in the {{Incode|Image Editor}}.
 
-<img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width   *600px;">
+<img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
 
 
 
@@ -276,7 +276,7 @@ Press **F12** to render the final view through the camera. Depending on your gra
 
 17\. When you are satisfied with the quality of the rendering, in the `Image Editor` go to **Image → Save As** or press **Shift**+**S**.
 
-<img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width   *600px;">
+<img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
 
 
 
@@ -302,8 +302,8 @@ This specifies that rendering should happen in the background with `-b`; the ren
 
 Creating the intermediate Wavefront mesh (.obj) and then importing it into Blender will work in most situations. However, there is also the option of importing the FreeCAD file (.FCStd) directly into Blender by means of a plugin.
 
--   [io_import_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), original version for Blender 2.79
--   [FreeCAD .FCStd importer for Blender 2.80](https   *//gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
+-   [io_import_fcstd.py](https://gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), original version for Blender 2.79
+-   [FreeCAD .FCStd importer for Blender 2.80](https://gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
 
 This is a Blender plugin; for it to work, Blender needs to be able to import FreeCAD as a module from the `Python Console`. 
 ```python

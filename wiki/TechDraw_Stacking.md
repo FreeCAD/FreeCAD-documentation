@@ -1,17 +1,17 @@
 ---
-- GuiCommand   *
-   Name   *TechDraw Stack
-   MenuLocation   *TechDraw → StackXXX
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
-   Version   *0.21
-   SeeAlso   *
+- GuiCommand:
+   Name:TechDraw Stack
+   MenuLocation:TechDraw → StackXXX
+   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Version:0.21
+   SeeAlso:
 ---
 
 # TechDraw Stacking
 
 ## Description
 
-The Stack Up <img alt="" src=images/TechDraw_StackUp.svg  style="width   *24px;">, Stack Down <img alt="" src=images/TechDraw_StackDown.svg  style="width   *24px;">, Stack Top <img alt="" src=images/TechDraw_StackTop.svg  style="width   *24px;"> and Stack Bottom <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *24px;"> tools change the apparent depth of views on the page.
+The Stack Up <img alt="" src=images/TechDraw_StackUp.svg  style="width:24px;">, Stack Down <img alt="" src=images/TechDraw_StackDown.svg  style="width:24px;">, Stack Top <img alt="" src=images/TechDraw_StackTop.svg  style="width:24px;"> and Stack Bottom <img alt="" src=images/TechDraw_StackBottom.svg  style="width:24px;"> tools change the apparent depth of views on the page.
 
 ## Usage
 
@@ -21,12 +21,12 @@ The Stack Up <img alt="" src=images/TechDraw_StackUp.svg  style="width   *24px;"
 
 ## Properties
 
--    **StackOrder**   * Over or under lap relative to other views.
+-    **StackOrder**: Over or under lap relative to other views.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

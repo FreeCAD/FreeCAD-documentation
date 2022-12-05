@@ -1,8 +1,6 @@
 # Category:Std Base/it
 This category list pages related to the [Std Base](Std_Base/it.md), which collects commands from the base system which do not belong to any of the workbenches.
 
-[Category   *User_Documentation/it](Category   *User_Documentation/it.md)
-
 ### Contents
 
 |     |     |     |

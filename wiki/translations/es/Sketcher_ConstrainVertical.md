@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Icon   *Constraint Vertical.svg
-   Name/es   *Restricción de verticalidad
-   Workbenches   *[Sketch](Sketcher_Workbench/es.md)
-   Shortcut   *V
-   MenuLocation   *Sketch → Restricciones de croquis → Restricción de verticalidad
-   SeeAlso   *[Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
+- GuiCommand:/es
+   Icon:Constraint Vertical.svg
+   Name/es:Restricción de verticalidad
+   Workbenches:[Sketch](Sketcher_Workbench/es.md)
+   Shortcut:V
+   MenuLocation:Sketch → Restricciones de croquis → Restricción de verticalidad
+   SeeAlso:[Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
 ---
 
 # Sketcher ConstrainVertical/es
@@ -26,10 +26,10 @@ Creates a vertical constraint to the selected lines or polyline elements. As of 
 </div>
 
 1.  Select the lines or vertices to be constrained vertically
-2.  To invoke the vertical constraint command   *
-    -   Press the **[<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> [Constrain vertically](Sketcher_ConstrainVertical.md)** button.
+2.  To invoke the vertical constraint command:
+    -   Press the **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertically](Sketcher_ConstrainVertical.md)** button.
     -   Use the **V** keyboard shortcut
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> Constrain vertically** entry in the Sketch dropdown menu
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> Constrain vertically** entry in the Sketch dropdown menu
 3.  Alternatively, the tool can be started without prior selection, and it will expect a selection.
 4.  Right-click or press **Esc** once, to exit the tool.
 
@@ -49,9 +49,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher_Tools_navi
 
-}} 
-
-[Category   *Sketcher/es](Category   *Sketcher/es.md)
+}}
 
 
 

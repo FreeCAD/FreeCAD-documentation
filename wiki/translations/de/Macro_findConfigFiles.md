@@ -2,12 +2,12 @@
 {{Macro
 |Name=findConfigFiles
 |Icon=Macro_findConfigFiles.png
-|Description=Use this macro to find your user setting configuration files, that is,<br/>'''system.cfg'''<br/>'''user.cfg'''<br/>These files can be renamed in order to reset FreeCAD's settings back to their original defaults. This can sometimes fix problems you are having with FreeCAD.<br/>You should exit FreeCAD before renaming the files, and then open FreeCAD again afterwards. If renaming the files did not solve the issue you were having you can delete the new files FreeCAD created and rename the original files back to their original names in order to restore your previous settings. You can also safely delete the renamed files once you are certain you no longer need or want them, but it is recommended to rename them instead of deleting until you are certain they are no longer needed.<br/>Note   * The macro does not rename the files or make any changes to your settings. It merely finds the location of these files, copies that location to the clipboard, and (attempts to) open the folder containing these files on your computer using the default file browser. 
+|Description=Use this macro to find your user setting configuration files, that is,<br/>'''system.cfg'''<br/>'''user.cfg'''<br/>These files can be renamed in order to reset FreeCAD's settings back to their original defaults. This can sometimes fix problems you are having with FreeCAD.<br/>You should exit FreeCAD before renaming the files, and then open FreeCAD again afterwards. If renaming the files did not solve the issue you were having you can delete the new files FreeCAD created and rename the original files back to their original names in order to restore your previous settings. You can also safely delete the renamed files once you are certain you no longer need or want them, but it is recommended to rename them instead of deleting until you are certain they are no longer needed.<br/>Note: The macro does not rename the files or make any changes to your settings. It merely finds the location of these files, copies that location to the clipboard, and (attempts to) open the folder containing these files on your computer using the default file browser. 
 |Author=TheMarkster
 |Version=2022.03.15
 |Date=2022-03-15
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
 }}
 
 ## Beschreibung
@@ -24,7 +24,7 @@ Diese Dateien können umbenannt werden, um die Einstellungen von FreeCAD wieder 
 
 You should exit FreeCAD before renaming the files, and then open FreeCAD again afterwards. If renaming the files did not solve the issue you were having you can delete the new files FreeCAD created and rename the original files back to their original names in order to restore your previous settings. You can also safely delete the renamed files once you are certain you no longer need or want them, but it is recommended to rename them instead of deleting until you are certain they are no longer needed.
 
-Note   * The macro does not rename the files or make any changes to your settings. It merely finds the location of these files, copies that location to the clipboard, and (attempts to) open the folder containing these files on your computer using the default file browser.
+Note: The macro does not rename the files or make any changes to your settings. It merely finds the location of these files, copies that location to the clipboard, and (attempts to) open the folder containing these files on your computer using the default file browser.
 
 ## Script
 
@@ -34,15 +34,15 @@ ToolBar icon ![](images/Macro_findConfigFiles.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 import FreeCAD
 import subprocess, os 
 from PySide import QtCore,QtGui
 import platform 
 __title__ = "findConfigFiles"
 __author__ = "TheMarkster"
-__url__ = "https   *//www.freecadweb.org/wiki/Macro_findConfigFiles"
-__Wiki__ = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
+__url__ = "https://www.freecadweb.org/wiki/Macro_findConfigFiles"
+__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
 __date__ = "2022.03.15" 
 __version__ = __date__
 
@@ -65,7 +65,7 @@ msgBox.addButton("Copy to Clipboard and Open",QtGui.QMessageBox.ApplyRole)
 #HTML tags are part of the source -- do not edit
 #thanks to user C4e for help with the paragraph formatting
 msg = """
- These files are located here on your system   *
+ These files are located here on your system:
  <p>
     <b><font color = 'blue'>""" + userFolder + """</font></b>
  </p>
@@ -75,7 +75,7 @@ msg = """
  If it doesn't work you can always go back and rename them back to their original names.
  </p>
  <p>
- To reset your configuration settings, exit FreeCAD and rename these 2 files   *
+ To reset your configuration settings, exit FreeCAD and rename these 2 files:
  <ul>
     <li><b><font color='blue'>system.cfg</font></b>
     <li><b><font color = 'blue'>user.cfg</font></b>
@@ -96,23 +96,23 @@ msg = """
 
 msgBox.setText(msg)
 ok = msgBox.exec_()
-if ok==0   *
+if ok==0:
     clipboard.setText(userFolder)
-if ok == QtGui.QMessageBox.Ok or ok==0   *
-    if 'Windows' in sys   *
+if ok == QtGui.QMessageBox.Ok or ok==0:
+    if 'Windows' in sys:
         subprocess.Popen('start explorer.exe '+userFolder, shell=True)
-    elif 'Linux' in sys   *
+    elif 'Linux' in sys:
         os.system("xdg-open '%s'" % userFolder)
-    elif 'Darwin' in sys   *
+    elif 'Darwin' in sys:
         subprocess.Popen(["open", userFolder])
-    else   *
+    else:
         msgBox = QtGui.QMessageBox()
         msg = "We were unable to determine your platform, and thus cannot open your '+userFolder+' for you, but you can still do it manually.\n"
         msgBox.exec_()}}
 
 ## Link
 
-[findConfigFiles macro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=29888)
+[findConfigFiles macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29888)
 
 
 

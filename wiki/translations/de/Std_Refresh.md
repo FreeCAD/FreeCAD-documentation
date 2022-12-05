@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std Refresh
-   Name/de   *Std Aktualisieren
-   MenuLocation   *Bearbeiten → Aktualisieren
-   Workbenches   *Alle
-   Shortcut   ***F5**
+- GuiCommand:/de
+   Name:Std Refresh
+   Name/de:Std Aktualisieren
+   MenuLocation:Bearbeiten → Aktualisieren
+   Workbenches:Alle
+   Shortcut:**F5**
 ---
 
 # Std Refresh/de
@@ -15,7 +15,7 @@ Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_Refresh.svg" width=16px> [Std Aktualisieren](Std_Refresh/de.md)** drücken.
     -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Refresh.svg" width=16px> Aktualisieren** auswählen.
     -   Das Tastaturkürzel **F5**.
@@ -27,12 +27,12 @@ Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl
 
 ## Hinweise
 
--   Für ein Makro, das das aktive Dokument neu berechnet, siehe   * [Makro Neuberechnung Erzwingen](Macro_ForceRecompute/de.md).
+-   Für ein Makro, das das aktive Dokument neu berechnet, siehe: [Makro Neuberechnung Erzwingen](Macro_ForceRecompute/de.md).
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

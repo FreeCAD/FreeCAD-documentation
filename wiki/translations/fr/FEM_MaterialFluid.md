@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM MaterialFluid
-   Name/fr   *FEM Matériau pour fluide
-   MenuLocation   *Modèle → Matériaux → Matériau pour fluide
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM MaterialFluid
+   Name/fr:FEM Matériau pour fluide
+   MenuLocation:Modèle → Matériaux → Matériau pour fluide
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MaterialFluid/fr
@@ -18,10 +18,10 @@ Ajoute des propriétés de fluide à une pièce.
 
 ## Utilisation
 
-1.  Pour créer un nouvel objet MaterialFluid, effectuez l\'une des opérations suivantes   *
+1.  Pour créer un nouvel objet MaterialFluid, effectuez l\'une des opérations suivantes:
     -   Appuyez sur le bouton **<img src="images/FEM_MaterialFluid.svg" width=16px> [Matériau pour fluide](FEM_MaterialFluid/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialFluid.svg" width=16px> Matériau pour fluide** dans le menu.
-2.  Pour modifier un objet MaterialFluid existant   *
+2.  Pour modifier un objet MaterialFluid existant:
     -   Double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
 3.  Le panneau des tâches de matériau FEM s\'ouvre.
 4.  Sélectionnez un type de fluide. Pour la dynamique des fluides numériques (CFD), **Air** ou **Water** sont des options typiques.

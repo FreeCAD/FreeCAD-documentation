@@ -1,37 +1,37 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw ComplexSection
-   Name/fr   *TechDraw Vue en coupe complexe
-   MenuLocation   *TechDraw → Insérer une vue en coupe complexe
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
-   Version   *1.0
-   SeeAlso   *[TechDraw Vue en coupe](TechDraw_SectionView/fr.md), [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+- GuiCommand:/fr
+   Name:TechDraw ComplexSection
+   Name/fr:TechDraw Vue en coupe complexe
+   MenuLocation:TechDraw → Insérer une vue en coupe complexe
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   Version:1.0
+   SeeAlso:[TechDraw Vue en coupe](TechDraw_SectionView/fr.md), [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw ComplexSection/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *24px;"> **TechDraw Vue en coupe complexe** insère une vue en coupe transversale basée sur une vue de la pièce existante et un profil.
+L\'outil <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24px;"> **TechDraw Vue en coupe complexe** insère une vue en coupe transversale basée sur une vue de la pièce existante et un profil.
 
-<img alt="" src=images/TechDraw_QuarterSection_example.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:250px;"> 
 *Une vue en quart de coupe créée avec l'outil Vue en coupe complexe*
 
-<img alt="" src=images/TechDraw_AlignedSection_example.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:250px;"> 
 *Une vue en coupe alignée créée avec l'outil Vue en coupe complexe*
 
-<img alt="" src=images/TechDraw_OffsetSection_example.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:250px;"> 
 *Une vue en coupe décalée créée avec l'outil Vue en coupe complexe*
 
 ## Utilisation
 
 1.  Sélectionnez une vue de la pièce et un objet de profil dans la [Vue 3D](3D_view/fr.md) ou la [Vue en arborescence](Tree_view/fr.md). Les profils sont généralement des esquisses, mais tout objet dont la forme peut être transformée en polyligne fonctionnera.
-2.  Il existe plusieurs façons de lancer l\'outil    *
+2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ComplexSection.svg" width=16px> [Insérer une vue en coupe complexe](TechDraw_ComplexSection/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_ComplexSection.svg" width=16px> Insérer une vue en coupe complexe** dans le menu.
 3.  Un panneau de tâches s\'ouvrira et vous aidera à calculer les différentes propriétés. Des valeurs raisonnables pour la direction de la vue sont calculées, mais elles peuvent être modifiées.
 
-<img alt="" src=images/TechDraw_ComplexSection_Taskview1.png  style="width   *" height="380px;"> <img alt="" src=images/TechDraw_ComplexSection_Taskview2.png  style="width   *" height="380px;">
+<img alt="" src=images/TechDraw_ComplexSection_Taskview1.png  style="width:" height="380px;"> <img alt="" src=images/TechDraw_ComplexSection_Taskview2.png  style="width:" height="380px;">
 
 ## Propriétés Vue en coupe complexe 
 
@@ -42,24 +42,24 @@ Voir [TechDraw Vue en coupe](TechDraw_SectionView/fr#Propri.C3.A9t.C3.A9s.md)
 
 {{TitleProperty|Cutting Tool}}
 
--    **Cutting Tool Wire Object**   * l\'objet document dont la forme sera utilisée pour générer le profil de coupe.
+-    **Cutting Tool Wire Object**: l\'objet document dont la forme sera utilisée pour générer le profil de coupe.
 
--    **Projection Strategy**   * contrôle la façon dont la découpe est effectuée et comment le résultat est projeté sur la page    *
+-    **Projection Strategy**: contrôle la façon dont la découpe est effectuée et comment le résultat est projeté sur la page :
 
     -   
         {{Value|Offset}}
         
-           * effectue une découpe simple de la forme source et projette le résultat.
+        : effectue une découpe simple de la forme source et projette le résultat.
 
     -   
         {{Value|Aligned}}
         
-           * découpe la forme source à l\'aide d\'un outil créé à partir de chaque segment (bord) du profil de découpe. Les résultats de chaque coupe sont projetés dans un tableau vertical ou horizontal, selon l\'orientation du profil de coupe.
+        : découpe la forme source à l\'aide d\'un outil créé à partir de chaque segment (bord) du profil de découpe. Les résultats de chaque coupe sont projetés dans un tableau vertical ou horizontal, selon l\'orientation du profil de coupe.
 
     -   
         {{Value|NoParallel}}
         
-           * comme Aligned, mais les segments de profil qui sont parallèles à la direction de la vue sont ignorés.
+        : comme Aligned, mais les segments de profil qui sont parallèles à la direction de la vue sont ignorés.
 
 ## Remarques
 
@@ -67,9 +67,9 @@ Voir [TechDraw Vue en coupe](TechDraw_SectionView/fr#Remarques.md)
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Vue en coupe complexe peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
+L\'outil Vue en coupe complexe peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
 
 ```python
@@ -78,12 +78,12 @@ box = doc.Box
 profile = doc.Sketch
 page = doc.Page
 
-view = doc.addObject("TechDraw   *   *DrawViewPart", "View")
+view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
 view.Direction = (0.0, 0.0, 1.0)
 
-section = doc.addObject("TechDraw   *   *DrawComplexSection", "ComplexSection")
+section = doc.addObject("TechDraw::DrawComplexSection", "ComplexSection")
 page.addView(section)
 section.BaseView = view
 section.CuttingToolWireObject = profile

@@ -5,8 +5,8 @@ Un [foglio di calcolo](spreadsheet/it.md) è una pagina suddivisa in righe e col
 
 ## Utilizzo
 
-1.  Passare nell\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *16px;"> [Spreadsheet](Spreadsheet_Workbench/it.md).
-2.  Premere **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [Crea un foglio di calcolo](Spreadsheet_CreateSheet/it.md)** per creare un nuovo foglio.
+1.  Passare nell\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Spreadsheet](Spreadsheet_Workbench/it.md).
+2.  Premere **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Crea un foglio di calcolo](Spreadsheet_CreateSheet/it.md)** per creare un nuovo foglio.
 3.  Editare il contenuto delle celle.
 4.  Chiudere la scheda del foglio di calcolo quando si ha finito, i valori vengono salvati automaticamente mentre si digitano.
 

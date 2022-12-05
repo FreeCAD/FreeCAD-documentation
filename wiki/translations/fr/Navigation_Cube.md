@@ -9,7 +9,7 @@ Le cube de navigation a été mis à jour dans la version 0.20 de FreeCAD et le 
 
 ![](images/Navigation_Cube_Example.png )
 
-Le cube de navigation se compose de plusieurs parties    *
+Le cube de navigation se compose de plusieurs parties :
 
 -   Le [cube principal](#Cube_principal.md)
 -   Six [flèches directionnelles](#Fl.C3.A8ches_directionnelles.md).
@@ -23,11 +23,11 @@ Toutes les composantes, à l\'exception des indicateurs d\'axe, peuvent être cl
 
 ### Cube principal 
 
-Le cube principal possède 26 faces    * 6 faces principales, 12 faces à bords rectangulaires ({{Version/fr|0.20}}) et 8 faces d\'angle. En cliquant sur l\'une d\'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée.
+Le cube principal possède 26 faces : 6 faces principales, 12 faces à bords rectangulaires ({{Version/fr|0.20}}) et 8 faces d\'angle. En cliquant sur l\'une d\'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée.
 
 ### Flèches directionnelles 
 
-Il existe six flèches directionnelles    * quatre flèches triangulaires et deux flèches courbes. En cliquant sur l\'une des flèches triangulaires, vous ferez pivoter la [vue 3D](3D_view/fr.md) autour d\'une ligne perpendiculaire à la direction de la flèche. Si vous cliquez sur une flèche courbe, la [vue 3D](3D_view/fr.md) tournera autour de la direction de la flèche.
+Il existe six flèches directionnelles : quatre flèches triangulaires et deux flèches courbes. En cliquant sur l\'une des flèches triangulaires, vous ferez pivoter la [vue 3D](3D_view/fr.md) autour d\'une ligne perpendiculaire à la direction de la flèche. Si vous cliquez sur une flèche courbe, la [vue 3D](3D_view/fr.md) tournera autour de la direction de la flèche.
 
 ### Bouton de vue inversée 
 
@@ -35,15 +35,15 @@ En cliquant sur le bouton rond dans le coin supérieur droit du cube de navigati
 
 ### Menu du mini-cube 
 
-En cliquant sur le petit cube dans le coin inférieur droit du cube de navigation, un menu s\'affiche avec les options suivantes    *
+En cliquant sur le petit cube dans le coin inférieur droit du cube de navigation, un menu s\'affiche avec les options suivantes :
 
--    **[Orthographique](Std_OrthographicCamera/fr.md)**   * passe à une vue orthographique.
+-    **[Orthographique](Std_OrthographicCamera/fr.md)**: passe à une vue orthographique.
 
--    **[Perspective](Std_PerspectiveCamera/fr.md)**   * permet d\'obtenir une vue en perspective.
+-    **[Perspective](Std_PerspectiveCamera/fr.md)**: permet d\'obtenir une vue en perspective.
 
--    **[Isometrique](Std_ViewIsometric/fr.md)**   * permet de passer à une vue isométrique.
+-    **[Isometrique](Std_ViewIsometric/fr.md)**: permet de passer à une vue isométrique.
 
--    **[Ajuster le zoom](Std_ViewFitAll/fr.md)**   * effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
+-    **[Ajuster le zoom](Std_ViewFitAll/fr.md)**: effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
 
 ## Personnalisation
 
@@ -53,19 +53,11 @@ L\'ensemble du cube de navigation peut être déplacé en appuyant sur la souris
 
 ### Préférences
 
-Le cube de navigation est contrôlé par plusieurs préférences    * **Édition → Préférences... → Affichage → Navigation → Cube de navigation**. Voir [Réglage des préférences](Preferences_Editor/fr#Navigation.md).
+Le cube de navigation est contrôlé par plusieurs préférences : **Édition → Préférences... → Affichage → Navigation → Cube de navigation**. Voir [Réglage des préférences](Preferences_Editor/fr#Navigation.md).
 
 ### Options avancées 
 
 L\'atelier externe [Cube Menu](Interface_Customization/fr#Menu_Cube.md) permet d\'accéder plus facilement à plusieurs options de personnalisation plus avancées.
-
-
-
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

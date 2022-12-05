@@ -1,8 +1,6 @@
 # Category:Poweruser Documentation/tr
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-[Category   *Documentation/tr](Category   *Documentation/tr.md)
-
 ### Contents
 
 |     |     |     |

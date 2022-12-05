@@ -1,6 +1,6 @@
 # Sketcher CreateLine/ja
 ---
-- GuiCommand   *   Name   *Sketcher CreateLine   Workbenches   *[MenuLocation   *Sketch → Sketcher geometries → Create line   Shortcut   *L   SeeAlso   *[[Sketcher CreatePolyline|Sketcher Polyline](Sketcher_Workbench___Sketcher]].md)---
+- GuiCommand:   Name:Sketcher CreateLine   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create line   Shortcut:L   SeeAlso:[[Sketcher CreatePolyline|Sketcher Polyline](Sketcher_Workbench___Sketcher]].md)---
 
 
 </div>

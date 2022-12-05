@@ -1,8 +1,6 @@
 # Category:Robot/bg
 This category lists pages related to the [Robot Workbench/bg](Robot_Workbench/bg.md).
 
-[Category   *Workbenches/bg](Category   *Workbenches/bg.md)
-
 ### Contents
 
 |     |     |     |

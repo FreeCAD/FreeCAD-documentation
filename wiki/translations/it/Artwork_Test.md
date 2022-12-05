@@ -11,9 +11,5 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Testing](Category_Testing.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Testing](Category_Testing.md) > Artwork Test/it

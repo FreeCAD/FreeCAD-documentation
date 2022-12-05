@@ -1,9 +1,9 @@
 # Manual:Parametric objects/es
-{{Manual   *TOC/es}}
+{{Manual:TOC/es}}
 
 FreeCAD está diseñado para el modelado paramétrico. Esto significa que la geometría que creas, en lugar de ser libremente esculpible, es producida por reglas y parámetros. Por ejemplo, un cilindro puede ser producido a partir de un radio y una altura. Con estos dos parámetros, el programa tiene suficiente información para construir el cilindro.
 
-Los objetos paramétricos, en FreeCAD, son en realidad pequeñas piezas de un programa que se ejecutan siempre que uno de los parámetros ha cambiado. Los objetos pueden tener muchos tipos de parámetros   * números (enteros como 1, 2, 3 o valores de punto flotante como 3.1416), tamaños del mundo real (1mm, 2.4m, 4.5ft), coordenadas (x,y,z), cadenas de texto (\"¡hola!\") o incluso otro objeto.
+Los objetos paramétricos, en FreeCAD, son en realidad pequeñas piezas de un programa que se ejecutan siempre que uno de los parámetros ha cambiado. Los objetos pueden tener muchos tipos de parámetros: números (enteros como 1, 2, 3 o valores de punto flotante como 3.1416), tamaños del mundo real (1mm, 2.4m, 4.5ft), coordenadas (x,y,z), cadenas de texto (\"¡hola!\") o incluso otro objeto.
 
 Este último tipo permite construir rápidamente complejas cadenas de operaciones, basándose cada nuevo objeto en uno anterior, y añadiendo nuevas características al mismo.
 
@@ -13,7 +13,7 @@ Todas las operaciones intermedias (formas 2D, pastilla, cajery, etc.) siguen est
 
 ![](images/Parametric_objects.jpg )
 
-Es necesario saber dos cosas importantes   *
+Es necesario saber dos cosas importantes:
 
 1.  El recálculo no siempre es automático. Las operaciones pesadas, que pueden modificar una gran parte de su documento, y que por lo tanto llevan algún tiempo, no se realizan automáticamente. En su lugar, el objeto (y todos los objetos que dependen de él) se marcarán para su recálculo (aparece un pequeño icono azul sobre ellos en la vista de árbol). A continuación, debe pulsar el botón de recálculo (o **Edición->Refrescar**) para que se vuelvan a calcular todos los objetos marcados.
 2.  El árbol de dependencias debe fluir siempre en la misma dirección. Los bucles están prohibidos. (Ver [DAG](Glossary/es#Directed_Acyclic_Graph.md), y [Vista del DAG](DAG_view/es.md)) Puedes tener un objeto A que depende de un objeto B que depende de un objeto C. Pero no puedes tener un objeto A que depende de un objeto B que depende de un objeto A. Eso sería una dependencia circular. Sin embargo, puedes tener muchos objetos que dependen del mismo objeto, por ejemplo los objetos B y C dependen ambos de A. El menú **Herramientas -> Gráfico de dependencia** te muestra un diagrama de dependencia como en la imagen de arriba. Puede ser útil para detectar problemas.
@@ -30,11 +30,6 @@ Por último, cabe destacar que los objetos paramétricos personalizados son [fá
 -   [Cómo programar objetos paramétricos](Scripted_objects/es.md)
 -   [Posicionamiento de objetos en FreeCAD](Placement/es.md)
 -   [Habilitar el gráfico de dependencias](Std_DependencyGraph/es.md)
-
-
-
-
-[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md) [Category   *Tutorials](Category_Tutorials.md)
 
 
 

@@ -1,6 +1,6 @@
 # Draft Offset/cs
 ---
-- GuiCommand   */cs   Name   *Draft Offset   Name/cs   *Kreslení Odsadit   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft → Offset   Shortcut   *O S   SeeAlso   *[Part 2D Offset](Part_Offset2D/cs.md)---
+- GuiCommand:/cs   Name:Draft Offset   Name/cs:Kreslení Odsadit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Offset   Shortcut:O S   SeeAlso:[Part 2D Offset](Part_Offset2D/cs.md)---
 
 
 </div>
@@ -15,7 +15,7 @@ Nástroj Odsadit odsadí vybrané objekty o zadanou vzdálenost v aktuální [pr
 
 </div>
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
 *Offsetting a Draft Wire*
 
 
@@ -26,7 +26,7 @@ Nástroj Odsadit odsadí vybrané objekty o zadanou vzdálenost v aktuální [pr
 
 </div>
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -62,9 +62,9 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -79,7 +79,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Odsadit může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Odsadit může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -101,7 +101,7 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python

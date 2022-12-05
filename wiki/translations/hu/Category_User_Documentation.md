@@ -1,8 +1,6 @@
 # Category:User Documentation/hu
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-[Category   *Documentation/hu](Category   *Documentation/hu.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Offset
-   Name/it   *Offset
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Offset
-   Shortcut   ***O** **S**
-   SeeAlso   *[Scala](Draft_Scale/it.md), [Part Offset 2D](Part_Offset2D/it.md)
+- GuiCommand:/it
+   Name:Draft Offset
+   Name/it:Offset
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Offset
+   Shortcut:**O** **S**
+   SeeAlso:[Scala](Draft_Scale/it.md), [Part Offset 2D](Part_Offset2D/it.md)
 ---
 
 # Draft Offset/it
@@ -23,7 +23,7 @@ Lo strumento Offset sposta l\'oggetto selezionato di una determinata distanza (o
 
 </div>
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -37,7 +37,7 @@ Lo strumento Offset sposta l\'oggetto selezionato di una determinata distanza (o
 
 ## Utilizzo
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -60,8 +60,8 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 -   Tenere premuto **Alt** mentre si seleziona il punto per attivare o disattivare la modalità di copia. Tenendo premuto **Alt** si può continuare a posizionare delle copie offset; rilasciare **Alt** per terminare l\'operazione e vedere tutte le forme di offset.
 -   Fare clic sulla casella di controllo \"OCC-style\" per attivare la modalità \"OCC\". Ciò crea un offset da entrambi i lati di un segmento di linea, che produce una speciale forma chiusa con i bordi arrotondati alle estremità dei segmenti.
 
-   *   
-    **Nota   ***con questo stile i segmenti originali vengono rimossi, quindi utilizzare la modalità copia per conservare i bordi originali.
+:   
+    **Nota:**con questo stile i segmenti originali vengono rimossi, quindi utilizzare la modalità copia per conservare i bordi originali.
 
 -   Tenere premuto **Ctrl** mentre si si crea l\'offset per [agganciare](Draft_Snap/it.md) in modo forzato il punto di snap più vicino, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** per mantenere la distanza di offset riferita al segmento corrente ed evitare di selezionare un altro riferimento.
@@ -77,9 +77,9 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -89,7 +89,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -99,7 +99,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Offset può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Offset può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -116,13 +116,13 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 -   Se `copy` è `True` viene creato un altro oggetto invece di ridimensionare l\'oggetto originale.
 -   Se `bind` è `True`, e a condizione che l\'oggetto contorno sia aperto, l\'originale e l\'offset sono uniti nei loro punti finali, formando una faccia.
     -   Se `sym` è `True`, e anche `bind` è `True`, e l\'offset è fatto su entrambi i lati del contorno, la larghezza totale è la larghezza del vettore dato.
--   Se `occ` è `True`, utilizzerà lo sfalsamento in stile OCC   * crea un offset su entrambi i lati, quindi unisce i nuovi contorni e arrotonda gli angoli.
+-   Se `occ` è `True`, utilizzerà lo sfalsamento in stile OCC: crea un offset su entrambi i lati, quindi unisce i nuovi contorni e arrotonda gli angoli.
 -   Restituisce un`Offsetobj` con l\'oggetto offset originale o con la nuova copia.
 
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

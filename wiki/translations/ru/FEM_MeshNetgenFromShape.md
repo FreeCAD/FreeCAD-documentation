@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM MeshNetgenFromShape
-   Name/ru   *FEM MeshNetgenFromShape
-   MenuLocation   *FEM → FEM mesh from shape by Netgen
-   |Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM MeshNetgenFromShape
+   Name/ru:FEM MeshNetgenFromShape
+   MenuLocation:FEM → FEM mesh from shape by Netgen
+   |Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MeshNetgenFromShape/ru
@@ -29,22 +29,22 @@ Depending on your operating system and your installation package Netgen might be
 
 ## Properties
 
--    **Max. Size**   * Maximum size of the element in mm.
+-    **Max. Size**: Maximum size of the element in mm.
 
--    **Second order**   * Second order elements contain more nodes per element. Usually, it is enough to use rougher mesh to obtain same solution precision as with the first order elements,
+-    **Second order**: Second order elements contain more nodes per element. Usually, it is enough to use rougher mesh to obtain same solution precision as with the first order elements,
 
     -   true (default); second order elements,
     -   false; first order elements.
 
--    **Fineness**   * Defines how fine the mesh should be.
+-    **Fineness**: Defines how fine the mesh should be.
 
--    **Growth Rate**   * Defines how much adjacent elements can differ in size.
+-    **Growth Rate**: Defines how much adjacent elements can differ in size.
 
--    **Nb. Segs per Edge**   * Defines the minimum number of mesh segments per edge.
+-    **Nb. Segs per Edge**: Defines the minimum number of mesh segments per edge.
 
--    **Nb. Segs per Radius**   * Defines the minimum number of mesh segments per radius.
+-    **Nb. Segs per Radius**: Defines the minimum number of mesh segments per radius.
 
--    **Optimize**   *
+-    **Optimize**:
 
     -   true (default); applies optimization algorithm to improve mesh quality,
     -   false;

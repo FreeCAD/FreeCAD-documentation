@@ -1,8 +1,6 @@
 # Category:Arch/sv
 Pages relating to Architectural and Building Information Management
 
-[Category   *User Documentation/sv](Category   *User_Documentation/sv.md) [Category   *BIM/sv](Category   *BIM/sv.md)
-
 ### Contents
 
 |     |     |     |

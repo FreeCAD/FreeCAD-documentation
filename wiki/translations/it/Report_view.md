@@ -11,7 +11,7 @@ Alcune proprietà di questo pannello, come il colore del testo e se visualizzarl
 
 </div>
 
-<img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
 
@@ -20,7 +20,7 @@ Alcune proprietà di questo pannello, come il colore del testo e se visualizzarl
 ## Messagi
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -36,28 +36,28 @@ La vista report mostra i messaggi della classe interna `Console` di FreeCAD.
 
 Queste funzioni possono essere utilizzate direttamente dalla [console Python](Python_console/it.md), o tramite le [macro](Macros/it.md) e gli ambienti personalizzati.
 
-<img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
 
 
 
-*Esempio di messaggi nella vista report   * un messaggio generale, un avviso, un errore e un messaggio registrato.*
+*Esempio di messaggi nella vista report: un messaggio generale, un avviso, un errore e un messaggio registrato.*
 
 ## Azioni
 
 
 <div class="mw-translate-fuzzy">
 
-Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi   *
+Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi:
 
--    **Opzioni**   * registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
+-    **Opzioni**: registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
 
--    **Copia**   * memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
+-    **Copia**: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
 
--    **Seleziona tutto**   * seleziona tutto il testo della vista report.
+-    **Seleziona tutto**: seleziona tutto il testo della vista report.
 
--    **Pulisci**   * cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
+-    **Pulisci**: cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
 
--    **Salva con nome**   * salva i messaggi della vista report in un file di testo.
+-    **Salva con nome**: salva i messaggi della vista report in un file di testo.
 
 
 </div>

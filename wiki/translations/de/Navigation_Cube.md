@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Die Navigationswürfelsteuerung, oder **Navigationswürfel**, ist eine grafische Hilfe der Benutzeroberfläche zur Neuausrichtung der 3D Ansicht. Standardmäßig ist es sichtbar und befindet sich in der oberen rechten Ecke der 3D Anzeige. Wenn Du dir die Standard 3D Ansicht ansiehst, sieht es wie folgt aus   *
+Die Navigationswürfelsteuerung, oder **Navigationswürfel**, ist eine grafische Hilfe der Benutzeroberfläche zur Neuausrichtung der 3D Ansicht. Standardmäßig ist es sichtbar und befindet sich in der oberen rechten Ecke der 3D Anzeige. Wenn Du dir die Standard 3D Ansicht ansiehst, sieht es wie folgt aus:
 
 
 </div>
@@ -18,7 +18,7 @@ The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this pag
 
 <div class="mw-translate-fuzzy">
 
-Der Navigationswürfel besteht aus einer Anzahl mehrerer Teile   *
+Der Navigationswürfel besteht aus einer Anzahl mehrerer Teile:
 
 -   Richtungspfeile
 -   Hauptnavigationswürfel
@@ -33,7 +33,7 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces   * 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces: 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ The main cube has 26 faces   * 6 main faces, 12 rectangular edge faces (<small>(
 
 <div class="mw-translate-fuzzy">
 
-Es gibt sechs Richtungspfeile   * vier dreieckige Pfeilspitzen, eine oben, unten, links und rechts; und zwei gebogene Pfeile, eine auf beiden Seiten des oberen Pfeils.
+Es gibt sechs Richtungspfeile: vier dreieckige Pfeilspitzen, eine oben, unten, links und rechts; und zwei gebogene Pfeile, eine auf beiden Seiten des oberen Pfeils.
 
 
 </div>
@@ -90,7 +90,7 @@ Du kannst die gesamte Navigationswürfelkontrollstruktur an eine andere Stelle i
 
 <div class="mw-translate-fuzzy">
 
-Der Navigationswürfel ist konfigurierbar, einschließlich der Anpassung seiner Größe   * **Bearbeiten → Einstellungen... → Anzeige → Navigation → Navigationswürfel** {{Version/de|0.19}}.
+Der Navigationswürfel ist konfigurierbar, einschließlich der Anpassung seiner Größe: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Navigationswürfel** {{Version/de|0.19}}.
 
 
 </div>
@@ -104,14 +104,6 @@ Für eine erweiterte Konfiguration beziehe dich auf das [WürfelMenü](Interface
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

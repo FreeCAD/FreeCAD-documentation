@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar ColumnReinforcement
-   MenuLocation   *Arch → Rebar tools → Column Reinforcement<br>3D/BIM → Reinforcement tools → Column Reinforcement
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
+- GuiCommand:
+   Name:Arch Rebar ColumnReinforcement
+   MenuLocation:Arch → Rebar tools → Column Reinforcement<br>3D/BIM → Reinforcement tools → Column Reinforcement
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version:0.19
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
 # Arch Rebar ColumnReinforcement/pl
@@ -15,9 +15,9 @@ The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool allows the us
 
 The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
 
 ## Usage
@@ -25,23 +25,23 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1\. Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 2. Then select **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)** from the rebar tools.
 3. A dialog box will pop-out on screen as shown below.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 *Dialog Box for the Arch Rebar ColumnReinforcement tool*
 
 4\. Select the desired type of column reinforcement.
 5. Give inputs for data related to ties.
 6. Click **Next** and the dialog box will be updated as shown below.
-<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width:700px;">
 *Dialog Box for Main Rebars data*
 
 7\. Select desired rebar type and fill data for main rebars.
 8. Click **Next** and the dialog box will be updated as shown below.
-<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width:700px;">
 *Dialog Box for XDirection Rebars data*
 
 9\. Select desired rebar type and fill data for xdirection rebars.
 10. Click **Next** and the dialog box will be updated as shown below.
-<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width:700px;">
 *Dialog Box for YDirection Rebars data*
 
 11\. Select desired rebar type and fill data for ydirection rebars.
@@ -50,86 +50,86 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Properties
 
-**Ties   ***
+**Ties:**
 
--    **Left Cover**   * The distance between the left end of the tie to the left face of the structure.
+-    **Left Cover**: The distance between the left end of the tie to the left face of the structure.
 
--    **Right Cover**   * The distance between the right end of the tie to right face of the structure.
+-    **Right Cover**: The distance between the right end of the tie to right face of the structure.
 
--    **Top Cover**   * The distance between tie from the top face of the structure.
+-    **Top Cover**: The distance between tie from the top face of the structure.
 
--    **Bottom Cover**   * The distance between tie from the bottom face of the structure.
+-    **Bottom Cover**: The distance between tie from the bottom face of the structure.
 
--    **Offset**   * The distance between tie from the top/bottom face of the structure.
+-    **Offset**: The distance between tie from the top/bottom face of the structure.
 
--    **Diameter**   * Diameter of the tie.
+-    **Diameter**: Diameter of the tie.
 
--    **Bent Angle**   * Bent angle defines the angle at the ends of a tie.
+-    **Bent Angle**: Bent angle defines the angle at the ends of a tie.
 
--    **Extension Factor**   * Extension Factor defines length of end of tie, expressed in times the diameter.
+-    **Extension Factor**: Extension Factor defines length of end of tie, expressed in times the diameter.
 
--    **Number**   * The number of ties.
+-    **Number**: The number of ties.
 
--    **Spacing**   * The distance between the axes of each tie.
+-    **Spacing**: The distance between the axes of each tie.
 
-**Main Rebars   *** Rebars present at corners of tie
+**Main Rebars:** Rebars present at corners of tie
 
--    **Rebar Type**   * Type of main rebars.
+-    **Rebar Type**: Type of main rebars.
 
--    **Hook Orientation**   * Orientation of LShaped hooks.
+-    **Hook Orientation**: Orientation of LShaped hooks.
 
--    **Hook Extend Along**   * Direction for hook extension.
+-    **Hook Extend Along**: Direction for hook extension.
 
--    **Hook Extension**   * Length of hook of LShape rebars.
+-    **Hook Extension**: Length of hook of LShape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
--    **Diameter**   * Diameter of the main rebars.
+-    **Diameter**: Diameter of the main rebars.
 
-**XDir Secondary Rebars   *** Rebars along x-direction except main rebars
+**XDir Secondary Rebars:** Rebars along x-direction except main rebars
 
--    **Rebar Type**   * Type of x-direction rebars.
+-    **Rebar Type**: Type of x-direction rebars.
 
--    **Hook Orientation**   * Orientation of LShaped hooks.
+-    **Hook Orientation**: Orientation of LShaped hooks.
 
--    **Hook Extension**   * Length of hook of LShape rebars.
+-    **Hook Extension**: Length of hook of LShape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
--    **Number#Diameter**   * Number#Diameter set of the x-direction rebars.
+-    **Number#Diameter**: Number#Diameter set of the x-direction rebars.
 
-**YDir Secondary Rebars   *** Rebars along y-direction except main rebars
+**YDir Secondary Rebars:** Rebars along y-direction except main rebars
 
--    **Rebar Type**   * Type of y-direction rebars.
+-    **Rebar Type**: Type of y-direction rebars.
 
--    **Hook Orientation**   * Orientation of LShaped hooks.
+-    **Hook Orientation**: Orientation of LShaped hooks.
 
--    **Hook Extension**   * Length of hook of LShape rebars.
+-    **Hook Extension**: Length of hook of LShape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
--    **Number#Diameter**   * Number#Diameter set of the y-direction rebars.
+-    **Number#Diameter**: Number#Diameter set of the y-direction rebars.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
+The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
 ### Create Single Tie Four Rebars 
 
@@ -181,7 +181,7 @@ RebarGroup = makeSingleTieFourRebars(
 
 -    `rebar_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `hook_orientation`specifies the orientation of LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `hook_orientation`specifies the orientation of LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `hook_extend_along`specifies direction for hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -338,7 +338,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_rebars_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `main_hook_extend_along`specifies direction for main hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -557,14 +557,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
     facename=None,
 )
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

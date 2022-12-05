@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */it
-   Topic   *Sketch
-   Level   *Base
-   Author   *[Maker](User_Maker.md)
-   Time   *
-   FCVersion   *Tutte
+- TutorialInfo:/it
+   Topic:Sketch
+   Level:Base
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:Tutte
 ---
 
 # Sketcher requirement for a sketch/it
@@ -17,13 +17,13 @@
 
 Per creare un Corpo nell\'ambiente PartDesign è possibile utilizzare un profilo *solo* quando esso è chiuso. Non è necessario che siano definite tutte le sue dimensioni e proprietà ovvero che lo schizzo sia *completamente vincolato*.
 
-Se un profilo è chiuso o aperto non è evidente e non riconoscibile. Ad esempio, quando si collega un arco a una retta i due punti finali possono essere creati uno vicino all\'altro, ma non essere coincidenti. È necessario utilizzare il vincolo <img alt="" src=images/_Constraint_PointOnPoint.svg  style="width   *32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md) per creare un singolo punto che colleghi effettivamente la linea e l\'arco.
+Se un profilo è chiuso o aperto non è evidente e non riconoscibile. Ad esempio, quando si collega un arco a una retta i due punti finali possono essere creati uno vicino all\'altro, ma non essere coincidenti. È necessario utilizzare il vincolo <img alt="" src=images/_Constraint_PointOnPoint.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md) per creare un singolo punto che colleghi effettivamente la linea e l\'arco.
 
 ![](images/Skizze2a.png )
 
 
 
-*Un semplice schizzo. A sinistra una curva chiusa solo in quattro punti indicati in rosso, che sono i vincoli automatici applicati quando si disegna con lo strumento [<img src=images/_Sketcher_CreatePolyline.svg style="width   *32px"> [Polilinea](Sketcher_CreatePolyline.md). Al centro un avviso di faccia non valida perché il contorno è aperto. A destra il contorno chiuso nei restanti quattro punti indicati in verde.*
+*Un semplice schizzo. A sinistra una curva chiusa solo in quattro punti indicati in rosso, che sono i vincoli automatici applicati quando si disegna con lo strumento [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilinea](Sketcher_CreatePolyline.md). Al centro un avviso di faccia non valida perché il contorno è aperto. A destra il contorno chiuso nei restanti quattro punti indicati in verde.*
 
 Un funzionamento parametrico coerente significa che lo schizzo è completamente determinato.
 

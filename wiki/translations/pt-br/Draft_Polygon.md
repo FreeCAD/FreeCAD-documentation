@@ -1,31 +1,31 @@
 ---
-- GuiCommand   *
-   Name   *Draft Polygon
-   MenuLocation   *Drafting → Polygon
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut   ***P** **G**
-   Version   *0.7
+- GuiCommand:
+   Name:Draft Polygon
+   MenuLocation:Drafting → Polygon
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**P** **G**
+   Version:0.7
 ---
 
 # Draft Polygon/pt-br
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Polygon.svg  style="width   *24px;"> **Draft Polygon** command creates a regular polygon in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
+The <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygon** command creates a regular polygon in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
 
 A Draft Polygon can be switched from inscribed to circumscribed by changing its **Draw Mode** property. The corners of a Draft Polygon can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively.
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;"> 
 *Regular polygon defined by two points, center and radius*
 
 ## Utilização
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Polygon.svg" width=16px> [Draft Polygon](Draft_Polygon.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Polygon** option from the menu.
-    -   Use the keyboard shortcut   * **P** then **G**.
+    -   Use the keyboard shortcut: **P** then **G**.
 2.  The **Polygon** task panel opens. See [Options](#Options.md) for more information.
 3.  Adjust the desired number of **Sides**.
 4.  Pick the first point, the center of the polygon, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
@@ -48,49 +48,49 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferências
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
 
 ## Propriedades
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    **Area|Area**: (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
 
--    **Chamfer Size|Length**   * specifies the length of the chamfers at the corners of the polygon.
+-    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the polygon.
 
--    **Draw Mode|Enumeration**   * specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
+-    **Draw Mode|Enumeration**: specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
 
--    **Faces Number|Integer**   * specifies the number of sides of the polygon.
+-    **Faces Number|Integer**: specifies the number of sides of the polygon.
 
--    **Fillet Radius|Length**   * specifies the radius of the fillets at the corners of the polygon.
+-    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the polygon.
 
--    **Make Face|Bool**   * specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    **Make Face|Bool**: specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
 
--    **Radius|Length**   * specifies the radius of the circle that defines the polygon.
+-    **Radius|Length**: specifies the radius of the circle that defines the polygon.
 
 ### Vista
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft Polygon use the `make_polygon` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePolygon` method.
 
@@ -104,7 +104,7 @@ polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=No
 -   If `placement` is `None` the polygon is created at the origin and one of its vertices will lie on the X axis.
 -   If `face` is `True`, the polygon will make a face, that is, it will appear filled.
 
-Example   * 
+Example: 
 ```python
 import FreeCAD as App
 import Draft

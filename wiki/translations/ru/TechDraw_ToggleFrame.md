@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Отображение рамки вкл/выкл
-   Name   *TechDraw_ToggleFrame
-   MenuLocation   *TechDraw → Отображение рамки вкл/выкл
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso   *[Вставить Вид](TechDraw_View/ru.md), [Вставить Группу проекций](TechDraw_ProjectionGroup/ru.md)
+- GuiCommand:/ru
+   Name/ru:Отображение рамки вкл/выкл
+   Name:TechDraw_ToggleFrame
+   MenuLocation:TechDraw → Отображение рамки вкл/выкл
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw ToggleFrame/ru
@@ -13,7 +13,7 @@
 
 The Toggle tool turns the display of View frames, labels and vertices on or off.
 
-<img alt="" src=images/TechDraw_ToggleFrame.png  style="width   *400px;"> 
+<img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
 *View of the solid projection with frames turned on and turned off*
 
 ## Применение
@@ -34,7 +34,7 @@ You can adjust the size of the vertex dots in the [TechDraw Preferences/Scale ta
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

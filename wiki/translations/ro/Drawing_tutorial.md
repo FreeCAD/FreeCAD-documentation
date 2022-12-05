@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ro
-   Topic   * Blueprints / Drawings
-   Level   * Beginner
-   Time   * 15 minutes
-   Author   *[http   *//freecadweb.org/wiki/index.php?title=User   *Drei Drei]
-   FCVersion   *0.16 or above
-   Files   *
+- TutorialInfo:/ro
+   Topic: Blueprints / Drawings
+   Level: Beginner
+   Time: 15 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 or above
+   Files:
 ---
 
 # Drawing tutorial/ro
@@ -24,7 +24,7 @@ Acest tutorial are rolul de a prezenta cititorului fluxul de lucru de bază al a
 
 </div>
 
-<img alt="" src=images/Drawing_tutorial_result.png  style="width   *480px;">
+<img alt="" src=images/Drawing_tutorial_result.png  style="width:480px;">
 
 ### Cerințe
 
@@ -46,7 +46,7 @@ Pentru a reduce timpul necesar pentru acest tutorial, este obligatoriu să grupa
 2.  Selectați **Creați un grup**. Puteți modifica numele grupului făcând dublu clic pe acesta din **Vizualizarea arborescentă**.
 3.  Selectați elementele pe care doriți să le adăugați și glisați-l în grup
 
-Creează următoarele grupuri   *
+Creează următoarele grupuri:
 
 -   Draft_objects
 -   Draft_dimensions
@@ -56,7 +56,7 @@ Creează următoarele grupuri   *
 
 Șabloanele sunt baza pentru crearea de desene, puteți utiliza șabloanele furnizate sau creați-vă propriile.
 
-1.  Selectați meniul derulant de lângă <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [New A3 landscape drawing](Drawing_Landscape_A3.md)
+1.  Selectați meniul derulant de lângă <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [New A3 landscape drawing](Drawing_Landscape_A3.md)
 2.  Selectați **A4 Landscape**
 
 We now have a folder called **Page** in the **Tree View**. This object will contain everything related to the **Drawing**.
@@ -67,12 +67,12 @@ Proiecțiile sunt definite ca reprezentarea vizuală a unui obiect pe un anumit 
 
 ##### Proiecție Ortograpică 
 
-Acestea sunt folosite în Inginerie pentru a specifica proprietățile unui obiect care va fi prelucrat. Există două standarde comune   * proiecțiile **Angle Third** și **First Angle**.
+Acestea sunt folosite în Inginerie pentru a specifica proprietățile unui obiect care va fi prelucrat. Există două standarde comune: proiecțiile **Angle Third** și **First Angle**.
 
 Pentru acest tutorial, aceste proiecții nu sunt folosite deoarece obiectele noastre au o reprezentare semnificativă în planul XY.
 
 1.  Selectați obiectul pe care îl doriți să-l proiectați în desen.
-2.  Selectați <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Ortho Views](Drawing_Orthoviews.md)
+2.  Selectați <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Ortho Views](Drawing_Orthoviews.md)
 3.  Selectați tipul de **projection** pe care doriți a-l folosi
 4.  Selectați vizualizarea pe care doriți a o adăuga
 
@@ -83,7 +83,7 @@ In the **General** and **Axonometric** tabs you can specify the **location**, **
 It is possible to create custom views of the object.
 
 1.  Select the object you wish to project into the drawing.
-2.  Select <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Insert a view](Drawing_View.md)
+2.  Select <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Insert a view](Drawing_View.md)
 3.  In the **Data** tab edit the **Direction** of the **Shape View** by altering the values for the **X**, **Y**, and **Z** axes. By default, the values are **(0, 0, 1)**
 
 You can also alter the **location**, **scale** and **rotation** of the **View** from within the **Data** tab. The same can be done for the **Orthographic Projections**.
@@ -106,7 +106,7 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
 ##### SVG
 
-1.  Select <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Save sheet](Drawing_Save.md)
+1.  Select <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save sheet](Drawing_Save.md)
 2.  Specify the path and name of the exported file
 
 ##### PDF

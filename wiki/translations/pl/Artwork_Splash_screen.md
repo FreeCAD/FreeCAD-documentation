@@ -51,8 +51,6 @@ Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach progr
 
 ![](images/Splashscreen09.png )
 
-[Category   *Artwork](Category_Artwork.md)
-
 
 
 ---

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Copy
-   Name/pl   *Std   * Kopiuj
-   MenuLocation   *Edycja→ Kopiuj
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl** + **C**
-   SeeAlso   *[Wytnij](Std_Cut/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
+- GuiCommand:/pl
+   Name:Std Copy
+   Name/pl:Std: Kopiuj
+   MenuLocation:Edycja→ Kopiuj
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **C**
+   SeeAlso:[Wytnij](Std_Cut/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Copy/pl
@@ -17,10 +17,10 @@ Polecenie **Kopiuj** kopiuje zaznaczone obiekty do schowka.
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Copy.svg" width=16px> Kopiuj**.
     -   Wybierz opcję **<img src="images/Std_Copy.svg" width=16px> Kopiuj** z menu podręcznego [Widoku drzewa](Tree_view/pl.md).
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **C**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **C**.
 3.  Jeśli obiekty mają zależności, które nie zostały wybrane, zostanie wyświetlone okno dialogowe z prośbą o określenie, które z nich powinny zostać uwzględnione.
 
 ## Uwagi

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *TechDraw Image
-   Name/pl   *Rysunek Techniczny   * Obraz
-   MenuLocation   *Rysunek Techniczny → Wstaw obraz bitmapy
-   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso   *[SVG Symbol](TechDraw_Symbol/pl.md)
+- GuiCommand:
+   Name:TechDraw Image
+   Name/pl:Rysunek Techniczny: Obraz
+   MenuLocation:Rysunek Techniczny → Wstaw obraz bitmapy
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[SVG Symbol](TechDraw_Symbol/pl.md)
 ---
 
 # TechDraw Image/pl
@@ -30,30 +30,30 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 {{TitleProperty|Obraz}}
 
--    **Plik obrazu|File**   * Plik zawierający tę bitmapę.
+-    **Plik obrazu|File**: Plik zawierający tę bitmapę.
 
--    **Obraz dołączony|FileIncluded**   * Wbudowany plik graficzny. Tylko do użytku systemowego.
+-    **Obraz dołączony|FileIncluded**: Wbudowany plik graficzny. Tylko do użytku systemowego.
 
--    **Szerokość|Float**   * Szerokość wykadrowanego obrazu w mm. Używane tylko wtedy, gdy **Przytnij** ma wartość {{TRUE/pl}}.
+-    **Szerokość|Float**: Szerokość wykadrowanego obrazu w mm. Używane tylko wtedy, gdy **Przytnij** ma wartość {{TRUE/pl}}.
 
--    **Wysokość|Float**   * Wysokość wykadrowanego obrazu w mm. Analogicznie.
+-    **Wysokość|Float**: Wysokość wykadrowanego obrazu w mm. Analogicznie.
 
 ### Widok
 
 
 {{TitleProperty|Obraz}}
 
--    **Przytnmij|Bool**   * Przycina obraz do parametrów **Szerokość** x **Wysokość**.
+-    **Przytnmij|Bool**: Przycina obraz do parametrów **Szerokość** x **Wysokość**.
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie Obraz może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
+Narzędzie Obraz może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

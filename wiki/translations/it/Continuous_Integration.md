@@ -7,11 +7,11 @@ Attualmente il repository di FreeCAD su GitHub attiverà una build sui due siste
 
 ### TravisCI
 
-<img alt="sinistra" src=images/Travis-logo.png  style="width   *50px;"> Test su Linux e OSX. Il file di configurazione si chiama [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build attuali e passateː <https   *//travis-ci.com/FreeCAD/FreeCAD/builds>
+<img alt="sinistra" src=images/Travis-logo.png  style="width:50px;"> Test su Linux e OSX. Il file di configurazione si chiama [.travis.yml](https://github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build attuali e passateː <https://travis-ci.com/FreeCAD/FreeCAD/builds>
 
 ### Appveyor
 
-<img alt="" src=images/Appveyor.svg  style="width   *40px;"> Test su Windows. Il file di configurazione si chiama [appveyor.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build di Appveyor correnti e precedentiː <https   *//ci.appveyor.com/project/yorikvanhavre/freecad/history>
+<img alt="" src=images/Appveyor.svg  style="width:40px;"> Test su Windows. Il file di configurazione si chiama [appveyor.yml](https://github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build di Appveyor correnti e precedentiː <https://ci.appveyor.com/project/yorikvanhavre/freecad/history>
 
 ## Suggerimenti
 
@@ -20,14 +20,6 @@ Attualmente il repository di FreeCAD su GitHub attiverà una build sui due siste
 ### Collegamenti rilevanti 
 
 -   [LGTM](LGTM.md)
-
-
-
-
-
- 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 

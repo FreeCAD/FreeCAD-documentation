@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw ArchView
-   Name/fr   *TechDraw Vue d'un objet Arch
-   MenuLocation   *TechDraw → Insérer un objet de l'atelier Arch
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md), [Atelier Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Arch Plan de section](Arch_SectionPlane/fr.md)
+- GuiCommand:/fr
+   Name:TechDraw ArchView
+   Name/fr:TechDraw Vue d'un objet Arch
+   MenuLocation:TechDraw → Insérer un objet de l'atelier Arch
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Atelier Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Arch Plan de section](Arch_SectionPlane/fr.md)
 ---
 
 # TechDraw ArchView/fr
@@ -33,11 +33,11 @@ La Vue d\'un objet Arch est générée dans l\'[atelier Arch](Arch_Workbench/fr.
 -   [Draft Accrochage Dimensions](Draft_Snap_Dimensions/fr.md), [Draft Texte](Draft_Text/fr.md) et tout autre objet 2D (Sketch ou Draft) pris en compte par le plan de section est généré \"tel quel\" (pas d\'intersection ni de lignes cachées) par dessus la géométrie solide.
 -   Le volume de [Arch Espace](Arch_Space/fr.md) n\'est pas généré, seule l\'étiquette sera crée.
 -   Les lignes de coupe, les lignes projetées (si la propriété Show Hidden est définie à True) et les lignes 2D ci-dessus peuvent être générées avec différentes largeurs de ligne. Cela peut être configuré dans les préférences Arch.
--   La Vue Arch a deux modes de rendu   * Filaire qui utilise les algorithmes OpenCasCade de l\'[atelier Drawing](Drawing_Workbench/fr.md) et est rapide et ne produit que des lignes (pas de remplissage de face possible), et Solide qui est basé sur l\'[algorithme du peintre](https   *//fr.wikipedia.org/wiki/Algorithme_du_peintre) et est capable de rendre des surfaces remplies avec leur couleur de forme. Cependant, il est beaucoup plus lent et peut échouer dans de nombreuses situations. L\'image ci-dessous illustre la différence entre les deux modes de rendu   *
+-   La Vue Arch a deux modes de rendu: Filaire qui utilise les algorithmes OpenCasCade de l\'[atelier Drawing](Drawing_Workbench/fr.md) et est rapide et ne produit que des lignes (pas de remplissage de face possible), et Solide qui est basé sur l\'[algorithme du peintre](https://fr.wikipedia.org/wiki/Algorithme_du_peintre) et est capable de rendre des surfaces remplies avec leur couleur de forme. Cependant, il est beaucoup plus lent et peut échouer dans de nombreuses situations. L\'image ci-dessous illustre la différence entre les deux modes de rendu:
 
 ![](images/TechDraw_Arch_rendering.jpg )
 
--   Seule la ligne de base des [Arch Tuyaux](Arch_Pipe/fr.md) est générée, pas le volume total des tubes   *
+-   Seule la ligne de base des [Arch Tuyaux](Arch_Pipe/fr.md) est générée, pas le volume total des tubes:
 
 ![](images/TechDraw_Arch_piping.jpg )
 
@@ -50,35 +50,35 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 {{TitleProperty|Arch view}}
 
--    **Source|Link**   * l\'objet plan de section à afficher.
+-    **Source|Link**: l\'objet plan de section à afficher.
 
--    **All On|Bool**   * si les objets cachés doivent être affichés ou non. Si `False`, seuls les objets visibles dans la vue 3D sont rendus.
+-    **All On|Bool**: si les objets cachés doivent être affichés ou non. Si `False`, seuls les objets visibles dans la vue 3D sont rendus.
 
--    **Render Mode|Enumeration**   * le mode de rendu à utiliser, {{Value|Solid}} ou {{Value|Wireframe}}.
+-    **Render Mode|Enumeration**: le mode de rendu à utiliser, {{Value|Solid}} ou {{Value|Wireframe}}.
 
--    **Fill Spaces|Bool**   * si `True`, les espaces d\'arc sont affichés sous forme de zone colorée.
+-    **Fill Spaces|Bool**: si `True`, les espaces d\'arc sont affichés sous forme de zone colorée.
 
--    **Show Hidden|Bool**   * si la géométrie cachée (la partie de la géométrie qui se trouve derrière le plan de coupe) est affichée ou non. Elle sera rendue en ligne pointillée, ce qui peut être configuré dans les préférences d\'Arch.
+-    **Show Hidden|Bool**: si la géométrie cachée (la partie de la géométrie qui se trouve derrière le plan de coupe) est affichée ou non. Elle sera rendue en ligne pointillée, ce qui peut être configuré dans les préférences d\'Arch.
 
--    **Show Fill|Bool**   * si les zones coupées doivent être remplies avec une couleur grise ou non.
+-    **Show Fill|Bool**: si les zones coupées doivent être remplies avec une couleur grise ou non.
 
--    **Line Width|Float**   * largeur des lignes principales. Les rapports de largeur des lignes coupées et des lignes projetées/2D peuvent être configurés dans les préférences d\'Arch.
+-    **Line Width|Float**: largeur des lignes principales. Les rapports de largeur des lignes coupées et des lignes projetées/2D peuvent être configurés dans les préférences d\'Arch.
 
--    **Font Size|Float**   * taille de tous les textes qui apparaissent dans cette vue.
+-    **Font Size|Float**: taille de tous les textes qui apparaissent dans cette vue.
 
--    **Cut Line Width|Float**   * largeur des lignes de coupe dans cette vue.
+-    **Cut Line Width|Float**: largeur des lignes de coupe dans cette vue.
 
--    **Join Arch|Bool**   * si `True`, les murs et les structures seront fusionnés par matériau.
+-    **Join Arch|Bool**: si `True`, les murs et les structures seront fusionnés par matériau.
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Vue d\'un objet Arch peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
+L\'outil Vue d\'un objet Arch peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
 
 ```python
-dv = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewArch','TestArch')
+dv = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewArch','TestArch')
 dv.Source = mySectionPlane
 rc = page.addView(dv)
 ```

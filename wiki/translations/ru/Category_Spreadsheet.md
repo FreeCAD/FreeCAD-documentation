@@ -1,8 +1,6 @@
 # Category:Spreadsheet/ru
 Эта категория перечисляет страницы, относящиеся к [Spreadsheet Workbench/ru](Spreadsheet_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md) [Category   *User_Documentation/ru](Category   *User_Documentation/ru.md)
-
 ### Contents
 
 |     |     |     |

@@ -18,85 +18,85 @@ This is the main **.xml** file describing all the objects inside a FreeCAD docum
  
  <Document SchemaVersion="4">
     <Properties Count="9">
-       <Property name="Comment" type="App   *   *PropertyString">
+       <Property name="Comment" type="App::PropertyString">
           <String value=""/>
        </Property>
-       <Property name="Company" type="App   *   *PropertyString">
+       <Property name="Company" type="App::PropertyString">
           <String value=""/>
        </Property>
-       <Property name="CreatedBy" type="App   *   *PropertyString">
+       <Property name="CreatedBy" type="App::PropertyString">
           <String value=""/>
        </Property>
-       <Property name="CreationDate" type="App   *   *PropertyString">
-          <String value="Fri Jan 29 15   *14   *38 2010 "/>
+       <Property name="CreationDate" type="App::PropertyString">
+          <String value="Fri Jan 29 15:14:38 2010 "/>
        </Property>
-       <Property name="FileName" type="App   *   *PropertyString">
+       <Property name="FileName" type="App::PropertyString">
           <String value="/tmp/test.FCStd"/>
        </Property>
-       <Property name="Id" type="App   *   *PropertyString">
+       <Property name="Id" type="App::PropertyString">
           <String value="201b746f-a1ed-4297-bf3d-65d5ec11abe0"/>
        </Property>
-       <Property name="Label" type="App   *   *PropertyString">
+       <Property name="Label" type="App::PropertyString">
           <String value="names"/>
        </Property>
-       <Property name="LastModifiedBy" type="App   *   *PropertyString">
+       <Property name="LastModifiedBy" type="App::PropertyString">
           <String value=""/>
        </Property>
-       <Property name="LastModifiedDate" type="App   *   *PropertyString">
-          <String value="Fri Jan 29 15   *15   *21 2010 "/>
+       <Property name="LastModifiedDate" type="App::PropertyString">
+          <String value="Fri Jan 29 15:15:21 2010 "/>
        </Property>
     </Properties>
     <Objects Count="2">
-       <Object type="Mesh   *   *Cube" name="Cube" />
-       <Object type="Part   *   *Box" name="Box" />
+       <Object type="Mesh::Cube" name="Cube" />
+       <Object type="Part::Box" name="Box" />
     </Objects>
     <ObjectData Count="2">
        <Object name="Cube">
           <Properties Count="7">
-             <Property name="Height" type="App   *   *PropertyFloatConstraint">
+             <Property name="Height" type="App::PropertyFloatConstraint">
                 <Float value="10"/>
              </Property>
-             <Property name="Label" type="App   *   *PropertyString">
+             <Property name="Label" type="App::PropertyString">
                 <String value="Cube"/>
              </Property>
-             <Property name="Length" type="App   *   *PropertyFloatConstraint">
+             <Property name="Length" type="App::PropertyFloatConstraint">
                 <Float value="10"/>
              </Property>
-             <Property name="Mesh" type="Mesh   *   *PropertyMeshKernel">
+             <Property name="Mesh" type="Mesh::PropertyMeshKernel">
                 <Mesh file="MeshKernel.bms"/>
              </Property>
-             <Property name="Placement" type="App   *   *PropertyPlacement">
+             <Property name="Placement" type="App::PropertyPlacement">
                 <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1"/>
              </Property>
-             <Property name="Pos" type="App   *   *PropertyPlacementLink">
+             <Property name="Pos" type="App::PropertyPlacementLink">
                 <Link value=""/>
              </Property>
-             <Property name="Width" type="App   *   *PropertyFloatConstraint">
+             <Property name="Width" type="App::PropertyFloatConstraint">
                 <Float value="10"/>
              </Property>
           </Properties>
        </Object>
        <Object name="Box">
           <Properties Count="7">
-             <Property name="Height" type="App   *   *PropertyLength">
+             <Property name="Height" type="App::PropertyLength">
                 <Float value="10"/>
              </Property>
-             <Property name="Label" type="App   *   *PropertyString">
+             <Property name="Label" type="App::PropertyString">
                 <String value="Box2"/>
              </Property>
-             <Property name="Length" type="App   *   *PropertyLength">
+             <Property name="Length" type="App::PropertyLength">
                 <Float value="10"/>
              </Property>
-             <Property name="Placement" type="App   *   *PropertyPlacement">
+             <Property name="Placement" type="App::PropertyPlacement">
                 <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1"/>
              </Property>
-             <Property name="Pos" type="App   *   *PropertyPlacementLink">
+             <Property name="Pos" type="App::PropertyPlacementLink">
                 <Link value=""/>
              </Property>
-             <Property name="Shape" type="Part   *   *PropertyPartShape">
+             <Property name="Shape" type="Part::PropertyPartShape">
                 <Part file="PartShape.brp2"/>
              </Property>
-             <Property name="Width" type="App   *   *PropertyLength">
+             <Property name="Width" type="App::PropertyLength">
                 <Float value="10"/>
              </Property>
           </Properties>
@@ -131,30 +131,30 @@ Structure of a typical **.FCStd** file. The extension can be changed to **.zip**
       |
       |--thumbnails/
       |  |
-      |     *--Thumbnail.png
+      |  :--Thumbnail.png
       |
-         *--Document.xml
-         *--GuiDocument.xml
-         *--Shape1.brp
-         *--Shape2.brp
-         *--MyPage.svg
-         *--etc.
+      :--Document.xml
+      :--GuiDocument.xml
+      :--Shape1.brp
+      :--Shape2.brp
+      :--MyPage.svg
+      :--etc.
 
 
 
 ## Embedding other files 
 
-In order to embed other file types inside a FCStd file, you must first create a [scripted object](Scripted_objects.md) from the [Python console](Python_console.md), and give it an `App   *   *PropertyFileIncluded` property.
+In order to embed other file types inside a FCStd file, you must first create a [scripted object](Scripted_objects.md) from the [Python console](Python_console.md), and give it an `App::PropertyFileIncluded` property.
 
 Then in the [property editor](Property_editor.md) you can go to the added property and choose a file in the computer. Once the FCStd file is saved, the file assigned to the **PropertyFileIncluded** property will be packed inside the `.FCStd`. When the document is restored, the same file will be restored with the **PropertyFileIncluded** property.
 
  
 ```python
-custom_obj = App.ActiveDocument.addObject("App   *   *FeaturePython", "CustomObject")
-custom_obj.addProperty("App   *   *PropertyFileIncluded", "AttachedFile")
+custom_obj = App.ActiveDocument.addObject("App::FeaturePython", "CustomObject")
+custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 ```
 
-See the forum thread, [PDF inside the project](https   *//forum.freecadweb.org/viewtopic.php?t=38201).
+See the forum thread, [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
 ## Change the source of the file .FCStd 
 
@@ -163,10 +163,6 @@ See the forum thread, [PDF inside the project](https   *//forum.freecadweb.org/v
 ## Other
 
 -   A file Converter utility [ImageConv](ImageConv.md).
-
-  
-
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

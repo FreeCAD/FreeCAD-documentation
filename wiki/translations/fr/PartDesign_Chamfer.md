@@ -1,29 +1,29 @@
 ---
-- GuiCommand   */fr
-   Name   *PartDesign Chamfer
-   Name/fr   *PartDesign Chanfrein
-   MenuLocation   *Part Design → Appliquer une fonction d'habillage → Chanfrein
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso   *[PartDesign Congé](PartDesign_Fillet/fr.md)
+- GuiCommand:/fr
+   Name:PartDesign Chamfer
+   Name/fr:PartDesign Chanfrein
+   MenuLocation:Part Design → Appliquer une fonction d'habillage → Chanfrein
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso:[PartDesign Congé](PartDesign_Fillet/fr.md)
 ---
 
 # PartDesign Chamfer/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> **PartDesign Chanfrein** crée des chanfreins sur les bords sélectionnés d\'un objet. Il ajoute un objet **Chamfer** au document avec sa représentation correspondante dans la [Vue en arborescence](Tree_view/fr.md).
+L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> **PartDesign Chanfrein** crée des chanfreins sur les bords sélectionnés d\'un objet. Il ajoute un objet **Chamfer** au document avec sa représentation correspondante dans la [Vue en arborescence](Tree_view/fr.md).
 
 ## Utilisation
 
 ### Ajouter un chanfrein 
 
 1.  Vous pouvez éventuellement [activer](PartDesign_Body/fr#Statut_actif.md) le corps à chanfreiner.
-2.  Il existe plusieurs façons de sélectionner les bords à chanfreiner    *
+2.  Il existe plusieurs façons de sélectionner les bords à chanfreiner :
     -   Sélectionnez un ou plusieurs bords du corps individuellement.
     -   Sélectionnez une ou plusieurs faces du corps pour sélectionner toutes leurs arêtes.
     -   Sélectionnez un élément (généralement le dernier élément) du corps pour sélectionner toutes ses arêtes. {{Version/fr|0.20}}
 3.  Pour une chaîne d\'arêtes reliées tangentiellement, il suffit de sélectionner une seule arête, le chanfrein se propageant le long de la chaîne.
-4.  Il existe plusieurs façons de lancer l\'outil    *
+4.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le **<img src="images/PartDesign_Chamfer.svg" width=16px> [Chanfrein](PartDesign_Chamfer/fr.md)**.
     -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Chamfer.svg" width=16px> Chanfrein** dans le menu.
 5.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
@@ -32,7 +32,7 @@ L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> 
 
 ### Modifier un chanfrein 
 
-1.  Effectuez l\'une des opérations suivantes    *
+1.  Effectuez l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet Chamfer dans la [Vue en arborescence](Tree_view/fr.md).
     -   Cliquez avec le bouton droit de la souris sur l\'objet Chamfer dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier le chanfrein** dans le menu contextuel.
 2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres du chanfrein** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
@@ -40,29 +40,29 @@ L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> 
 
 ## Options
 
--   Pour ajouter des arêtes, effectuez l\'une des opérations suivantes    *
+-   Pour ajouter des arêtes, effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **Ajouter** pour commencer à sélectionner des arêtes et/ou des faces dans la [Vue 3D](3D_view/fr.md).
-    -   Pour sélectionner toutes les arêtes restantes, procédez comme suit    *
+    -   Pour sélectionner toutes les arêtes restantes, procédez comme suit :
         1.  Si nécessaire, appuyez sur le bouton **Ajouter**.
         2.  Utilisez le raccourci clavier **Ctrl**+**Shift**+**A**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Ajouter toutes les arêtes** dans le menu contextuel. {{Version/fr|0.20}}
--   Pour supprimer des bords, effectuez l\'une des opérations suivantes    *
+-   Pour supprimer des bords, effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **Supprimer** pour commencer à désélectionner les arêtes et/ou les faces dans la [Vue 3D](3D_view/fr.md). Les éléments sélectionnés sont surlignés en violet.
     -   Sélectionnez un ou plusieurs éléments dans la liste et appuyez sur la touche **Suppr**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Enlever** dans le menu contextuel.
--   Spécifier un chanfrein **Type**    *
+-   Spécifier un chanfrein **Type** :
     -   
         **Equal distance**
         
-           * Une distance est utilisée pour placer les deux bords du chanfrein.
+        : Une distance est utilisée pour placer les deux bords du chanfrein.
 
     -   
         **Two distances**
         
-           * Deux distances sont utilisées pour placer les bords du chanfrein. {{Version/fr|0.19}}
+        : Deux distances sont utilisées pour placer les bords du chanfrein. {{Version/fr|0.19}}
 
     -   
         **Distance and angle**
         
-           * Une distance est utilisée pour placer un bord de chanfrein, le placement de l\'autre bord de chanfrein est défini par l\'angle du chanfrein. {{Version/fr|0.19}}
+        : Une distance est utilisée pour placer un bord de chanfrein, le placement de l\'autre bord de chanfrein est défini par l\'angle du chanfrein. {{Version/fr|0.19}}
 -   Appuyez sur le bouton **<img src="images/PartDesign_Flip_Direction.svg" width=16px> Inverser la direction** pour inverser la direction du chanfrein (désactivé pour **Equal distance**). <small>(v0.19)</small> 
 -   Définissez la **Size** du chanfrein.
 -   Définissez le **Size2** du chanfrein (disponible uniquement si **Two distances** est sélectionné).
@@ -76,45 +76,45 @@ L\'outil <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *24px;"> 
 
 ## Propriétés
 
-Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Chanfrein est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Part Chanfrein est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
--    **Base|LinkSub**   * Lien vers les arêtes et les faces sélectionnées de l\'élément parent. Peut être un lien vers l\'élément parent uniquement si **Use All Edges** est `True`.
+-    **Base|LinkSub**: Lien vers les arêtes et les faces sélectionnées de l\'élément parent. Peut être un lien vers l\'élément parent uniquement si **Use All Edges** est `True`.
 
--    **Support Transform|Bool**   * Si `True`, la forme chanfreinée de la fonction parentale additive/soustractive sera utilisée lorsque l\'objet chanfrein est inclus dans un [motif](PartDesign_Workbench/fr#Outils_de_transformation.md), sinon seule la forme du chanfrein sera utilisée. La valeur par défaut est `False`.
+-    **Support Transform|Bool**: Si `True`, la forme chanfreinée de la fonction parentale additive/soustractive sera utilisée lorsque l\'objet chanfrein est inclus dans un [motif](PartDesign_Workbench/fr#Outils_de_transformation.md), sinon seule la forme du chanfrein sera utilisée. La valeur par défaut est `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Lien vers l\'élément parent.
+-    **Base Feature|Link|hidden**: Lien vers l\'élément parent.
 
--    **_ Body|LinkHidden|hidden**   * Lien vers le corps du parent.
+-    **_ Body|LinkHidden|hidden**: Lien vers le corps du parent.
 
 
 {{Properties_Title|Chamfer}}
 
--    **Chamfer Type|Enumeration**   * Le type de chanfrein    * {{value|Equal distance}} (par défaut), {{value|Two distances}} ou {{value|Distance and Angle}}.
+-    **Chamfer Type|Enumeration**: Le type de chanfrein : {{value|Equal distance}} (par défaut), {{value|Two distances}} ou {{value|Distance and Angle}}.
 
--    **Size|QuantityConstraint**   * La distance du premier chanfrein. La valeur par défaut est {{value|1 mm}}.
+-    **Size|QuantityConstraint**: La distance du premier chanfrein. La valeur par défaut est {{value|1 mm}}.
 
--    **Size2|QuantityConstraint**   * La deuxième distance de chanfrein. Utilisé uniquement si **Chamfer Type** est {{Value|Two distances}}. La valeur par défaut est {{value|1 mm}}.
+-    **Size2|QuantityConstraint**: La deuxième distance de chanfrein. Utilisé uniquement si **Chamfer Type** est {{Value|Two distances}}. La valeur par défaut est {{value|1 mm}}.
 
--    **Angle|Angle**   * L\'angle du chanfrein. Utilisé uniquement si **Chamfer Type** est {{Value|Distance et Angle}}. La valeur par défaut est {{value|45 °}}.
+-    **Angle|Angle**: L\'angle du chanfrein. Utilisé uniquement si **Chamfer Type** est {{Value|Distance et Angle}}. La valeur par défaut est {{value|45 °}}.
 
--    **Flip Direction|Bool**   * Si `True`, la direction du chanfrein est inversée. Non utilisé si **Chamfer Type** est {{Value|Equal distance}}. La valeur par défaut est `False`.
+-    **Flip Direction|Bool**: Si `True`, la direction du chanfrein est inversée. Non utilisé si **Chamfer Type** est {{Value|Equal distance}}. La valeur par défaut est `False`.
 
--    **Use All Edges|Bool**   * Si `True` tous les bords de l\'élément sont chanfreinés, et les bords spécifiés par **Base** sont ignorés. La valeur par défaut est `False`.
+-    **Use All Edges|Bool**: Si `True` tous les bords de l\'élément sont chanfreinés, et les bords spécifiés par **Base** sont ignorés. La valeur par défaut est `False`.
 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * Si `True`, les arêtes redondantes sont supprimées du résultat de l\'opération. La valeur par défaut est déterminée par la préférence **Automatically refine model after sketch-based operation**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+-    **Refine|Bool**: Si `True`, les arêtes redondantes sont supprimées du résultat de l\'opération. La valeur par défaut est déterminée par la préférence **Automatically refine model after sketch-based operation**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 ## Problèmes connus 
 

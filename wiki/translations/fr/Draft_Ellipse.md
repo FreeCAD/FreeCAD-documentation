@@ -1,32 +1,32 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft Ellipse
-   Name/fr   *Draft Ellipse
-   MenuLocation   *Draft → Ellipse
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut   ***E** **L**
-   Version   *0.7
+- GuiCommand:/fr
+   Name:Draft Ellipse
+   Name/fr:Draft Ellipse
+   MenuLocation:Draft → Ellipse
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**E** **L**
+   Version:0.7
 ---
 
 # Draft Ellipse/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Ellipse.svg  style="width   *24px;"> **Draft Ellipse** crée une ellipse dans le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir de deux points définissant un rectangle dans lequel l\'ellipse s\'inscrira.
+La commande <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Draft Ellipse** crée une ellipse dans le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir de deux points définissant un rectangle dans lequel l\'ellipse s\'inscrira.
 
 Une Draft Ellipse peut être transformée en arc d\'ellipse en donnant à **First Angle** et **Last Angle** des valeurs différentes.
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;"> 
 *Ellipse définie par les coins d'un rectangle*
 
 ## Utilisation
 
-Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse/fr.md)**.
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** dans le menu.
-    -   Utilisez le raccourci clavier    * **E** puis **L**.
+    -   Utilisez le raccourci clavier : **E** puis **L**.
 2.  Le panneau de tâches **Ellipse** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 4.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point ne doit pas être contraint sur l\'axe X, Y ou Z.
@@ -49,47 +49,47 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Préférences
 
-Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées    * **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli    * **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode de remplissage dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
+-   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode de remplissage dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 -   Si l\'option **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Utiliser les primitives de Part si possible** est cochée, la commande créera une [Part Ellipse](Part_Ellipse/fr.md) au lieu d\'une Draft Ellipse.
 
 ## Propriétés
 
-Voir aussi   * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Ellipse est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Draft Ellipse est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (en lecture seule) spécifie la surface de la face de l\'ellipse. La valeur sera {{value|0.0}} si {{PropertyData/fr|Make Face}} est `False` ou si la face ne peut être créée.
+-    **Area|Area**: (en lecture seule) spécifie la surface de la face de l\'ellipse. La valeur sera {{value|0.0}} si {{PropertyData/fr|Make Face}} est `False` ou si la face ne peut être créée.
 
--    **First Angle|Angle**   * spécifie l\'angle du premier point de l\'ellipse, normalement {{value|0&#176;}}.
+-    **First Angle|Angle**: spécifie l\'angle du premier point de l\'ellipse, normalement {{value|0&#176;}}.
 
--    **Last Angle|Angle**   * spécifie l\'angle du dernier point de l\'ellipse, normalement {{value|0&#176;}}.
+-    **Last Angle|Angle**: spécifie l\'angle du dernier point de l\'ellipse, normalement {{value|0&#176;}}.
 
--    **Major Radius|Length**   * indique le rayon principal de l\'ellipse.
+-    **Major Radius|Length**: indique le rayon principal de l\'ellipse.
 
--    **Make Face|Bool**   * spécifie si l\'ellipse forme une face ou non. Si c\'est `True`, une face est créée, sinon seul le périmètre est considéré comme faisant partie de l\'objet. Cette propriété ne fonctionne que si la forme est une ellipse complète.
+-    **Make Face|Bool**: spécifie si l\'ellipse forme une face ou non. Si c\'est `True`, une face est créée, sinon seul le périmètre est considéré comme faisant partie de l\'objet. Cette propriété ne fonctionne que si la forme est une ellipse complète.
 
--    **Minor Radius|Length**   * spécifie le rayon mineur de l\'ellipse.
+-    **Minor Radius|Length**: spécifie le rayon mineur de l\'ellipse.
 
 ### Vue
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * spécifie un [Draft Motif](Draft_Pattern/fr.md). avec lequel remplir la face de l\'ellipse. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: spécifie un [Draft Motif](Draft_Pattern/fr.md). avec lequel remplir la face de l\'ellipse. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+-    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer une Draft Ellipse, utilisez la méthode `make_ellipse` ({{Version/fr|0.19}}) du module Draft. Cette méthode remplace la méthode dépréciée `makeEllipse`.
 
@@ -103,7 +103,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 -   Si `placement` est `None`, l\'ellipse sera créée à l\'origine.
 -   Si `face` est `True`, l\'ellipse fera une surface c\'est-à-dire rempli.
 
-Exemple   *
+Exemple:
 
 
 ```python

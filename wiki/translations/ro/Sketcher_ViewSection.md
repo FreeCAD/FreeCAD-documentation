@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Sketcher ViewSection
-   Name/ro   *Sketcher ViewSection
-   MenuLocation   *Sketch → View section
-   Workbenches   *[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md) 
-   Version   *0.18
+- GuiCommand:/ro
+   Name:Sketcher ViewSection
+   Name/ro:Sketcher ViewSection
+   MenuLocation:Sketch → View section
+   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md) 
+   Version:0.18
 ---
 
 # Sketcher ViewSection/ro
@@ -16,7 +16,7 @@
 
 Instrumentul **View section** creează un plan de secțiune care ascunde temporar materialul din fața planului planului de secțiune.
 
-<img alt="" src=images/Sketcher_ViewSection1.png  style="width   *300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width   *320px;"> 
+<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Partially hidden sketch and fully visible sketch*
 
 
@@ -30,7 +30,7 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 <div class="mw-translate-fuzzy">
 
--   apăsați butonul **[<img src=images/Sketcher_ViewSection.png style="width   *24px"> '''View section'''** pentru a comuta între vizualizarea în secțiune și vizualizarea în întregime.
+-   apăsați butonul **[<img src=images/Sketcher_ViewSection.png style="width:24px"> '''View section'''** pentru a comuta între vizualizarea în secțiune și vizualizarea în întregime.
 
 
 </div>

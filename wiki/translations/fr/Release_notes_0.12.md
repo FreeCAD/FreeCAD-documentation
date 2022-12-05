@@ -1,9 +1,9 @@
 # Release notes 0.12/fr
 # Notes de version 0.12 
 
-Ceci est un sommaire des changements les plus intéressants dans la plus récente version stable de FreeCAD. Voir [ici](http   *//www.freecadweb.org/tracker/changelog_page.php) pour une liste complète des changements.
+Ceci est un sommaire des changements les plus intéressants dans la plus récente version stable de FreeCAD. Voir [ici](http://www.freecadweb.org/tracker/changelog_page.php) pour une liste complète des changements.
 
-Versions antérieures    * [0.11](Release_notes_0.11.md)
+Versions antérieures : [0.11](Release_notes_0.11.md)
 
 \_\_TOC\_\_
 
@@ -15,7 +15,7 @@ Versions antérieures    * [0.11](Release_notes_0.11.md)
 
 ### Sketcher & PartDesign 
 
-<img alt="" src=images/Rim_bling.png  style="width   *800px;">
+<img alt="" src=images/Rim_bling.png  style="width:800px;">
 
 -   L\'atelier [Sketcher](Sketcher_Workbench/fr.md) a bénéficié d\'un énorme travail depuis la dernière version, et est maintenant basé sur un nouveau solveur conçu à partir de zéro pour cette tâche. Le sketcher peut maintenant accomplir presque toutes les opérations de dessin 2D de la [Planche à dessin](Draft_Workbench/fr.md), et permet de placer un large éventail de contraintes sur des éléments d\'esquisse.
 
@@ -27,9 +27,9 @@ Versions antérieures    * [0.11](Release_notes_0.11.md)
 
 ![](images/Arch_screenshot.jpg )
 
--   Le module Arch comporte également un module d\'importation [IFC](wikipedia   *fr_Industry_Foundation_Classes.md), un module d\'importation et d\'exportation [DAE (collada)](   *wikipedia   *fr_Collaborative_Design_Activity.md), ainsi qu\'un module d\'exportation [OBJ](   *wikipedia   *fr   *Objet_3D_(format_de_fichier).md) spécial, plus adapté aux modèles architecturaux que le module d\'exportation régulier.
+-   Le module Arch comporte également un module d\'importation [IFC](wikipedia:fr_Industry_Foundation_Classes.md), un module d\'importation et d\'exportation [DAE (collada)](:wikipedia:fr_Collaborative_Design_Activity.md), ainsi qu\'un module d\'exportation [OBJ](:wikipedia:fr:Objet_3D_(format_de_fichier).md) spécial, plus adapté aux modèles architecturaux que le module d\'exportation régulier.
 
--   Également dans le module Arch, une collection grandissante d\'outils facilitant le travail sur des objets de maillage provenant d\'applications externes telles que [Blender](http   *//www.blender.org). Les objets de maillage, s\'ils sont bien modélisés, peuvent être facilement et automatiquement convertis en formes propres, puis en objets Arch paramétriques.
+-   Également dans le module Arch, une collection grandissante d\'outils facilitant le travail sur des objets de maillage provenant d\'applications externes telles que [Blender](http://www.blender.org). Les objets de maillage, s\'ils sont bien modélisés, peuvent être facilement et automatiquement convertis en formes propres, puis en objets Arch paramétriques.
 
 ### Planche à dessin (2D Draft) 
 
@@ -49,8 +49,6 @@ Versions antérieures    * [0.11](Release_notes_0.11.md)
 
 
 {{languages/fr | {{en|Release_notes_0.12}} {{es|Release_notes_0.12/es}} {{it|Release_notes_0.12/it}} {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

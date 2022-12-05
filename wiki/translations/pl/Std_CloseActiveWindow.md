@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std CloseActiveWindow
-   Name/pl   *Std   * Zamknij aktywne okno
-   MenuLocation   *Plik → Zamknij
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl**+**F4**
-   SeeAlso   *[Zamknij wszystkie okna](Std_CloseAllWindows/pl.md)
+- GuiCommand:/pl
+   Name:Std CloseActiveWindow
+   Name/pl:Std: Zamknij aktywne okno
+   MenuLocation:Plik → Zamknij
+   Workbenches:wszystkie
+   Shortcut:**Ctrl**+**F4**
+   SeeAlso:[Zamknij wszystkie okna](Std_CloseAllWindows/pl.md)
 ---
 
 # Std CloseActiveWindow/pl
@@ -16,17 +16,17 @@ Polecenie **Zamknij aktywne okno** zamyka aktywne okno. Aby zamknąć dokument, 
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Wybierz z menu opcję **Plik → <img src="images/Std_CloseActiveWindow.svg" width=16px> Zamknij**.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **F4**.
-2.  Aby zamknąć dokument   * powtórz tę czynność dla wszystkich należących do niego okien.
-3.  Podczas zamykania ostatniego okna dokumentu, który nie został zapisany, zostanie wyświetlone okno dialogowe z prośbą o jego zapisanie   *
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **F4**.
+2.  Aby zamknąć dokument: powtórz tę czynność dla wszystkich należących do niego okien.
+3.  Podczas zamykania ostatniego okna dokumentu, który nie został zapisany, zostanie wyświetlone okno dialogowe z prośbą o jego zapisanie:
     -   Naciśnij przycisk **Zapisz**, aby zapisać dokument. W razie potrzeby wprowadź najpierw nazwę pliku.
     -   Naciśnij przycisk **Porzuć zmiany**, aby odrzucić dokument i utracić wszystkie zmiany.
 
 ## Opcje
 
--   Po wyświetleniu okna dialogowego   * naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
+-   Po wyświetleniu okna dialogowego: naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
 
 ## Uwagi
 
@@ -35,12 +35,12 @@ Polecenie **Zamknij aktywne okno** zamyka aktywne okno. Aby zamknąć dokument, 
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

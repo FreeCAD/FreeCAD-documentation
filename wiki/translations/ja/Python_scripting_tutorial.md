@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29)はプログラミング言語で使い方はとても簡単、すぐに修得することができます。オープンソースかつマルチプラットフォームで簡単なシェルスクリプトから非常に複雑なプログラムのプログラミングまでさまざま用途で使用できます。ですがもっとも広く使われている用途はスクリプト言語として使うというものです。これは他のアプリケーションに簡単に組み込むことができるためです。FreeCAD内部でもまさにその様にして使用されています。Pythonコンソール、または自作のスクリプトからFreeCADを操作したり、まだグラフィカルユーザーインターフェイスのツールがない非常に複雑な動作を行わせることもできます。
+[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)はプログラミング言語で使い方はとても簡単、すぐに修得することができます。オープンソースかつマルチプラットフォームで簡単なシェルスクリプトから非常に複雑なプログラムのプログラミングまでさまざま用途で使用できます。ですがもっとも広く使われている用途はスクリプト言語として使うというものです。これは他のアプリケーションに簡単に組み込むことができるためです。FreeCAD内部でもまさにその様にして使用されています。Pythonコンソール、または自作のスクリプトからFreeCADを操作したり、まだグラフィカルユーザーインターフェイスのツールがない非常に複雑な動作を行わせることもできます。
 
 
 </div>
@@ -55,13 +55,13 @@ FreeCADではPythonを使う複数の方法が存在します：
 
 </div>
 
-Before proceeding with Python scripting, go to **Edit → Preferences → General → Output window** and check two boxes   *
+Before proceeding with Python scripting, go to **Edit → Preferences → General → Output window** and check two boxes:
 
 -    **Redirect internal Python output to report view**.
 
 -    **Redirect internal Python errors to report view**.
 
-Then go to **View → Panels** and check   *
+Then go to **View → Panels** and check:
 
 -    **Report view**.
 
@@ -108,7 +108,7 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 </div>
 
-Let\'s start by creating a new empty document   *
+Let\'s start by creating a new empty document:
 
 
 ```python
@@ -164,7 +164,7 @@ doc.
 
 
 ```python
-box = doc.addObject("Part   *   *Box", "myBox")
+box = doc.addObject("Part::Box", "myBox")
 ```
 
 
@@ -225,12 +225,12 @@ box.Height = 5
 
 ## ベクトルと配置
 
-[ベクトル](http   *//en.wikipedia.org/wiki/Euclidean_vector)は3Dアプリケーションにおいて非常に基礎的な概念です。ベクトルとは3つの数字（x、y、z）のリストで、3D空間ないでの点や位置を表します。ベクトルを使うと加算、減算、投影や[その他](http   *//en.wikipedia.org/wiki/Vector_space)にも色々なことを行うことができます。FreeCADでは次のようにしてベクトルを使用します：
+[ベクトル](http://en.wikipedia.org/wiki/Euclidean_vector)は3Dアプリケーションにおいて非常に基礎的な概念です。ベクトルとは3つの数字（x、y、z）のリストで、3D空間ないでの点や位置を表します。ベクトルを使うと加算、減算、投影や[その他](http://en.wikipedia.org/wiki/Vector_space)にも色々なことを行うことができます。FreeCADでは次のようにしてベクトルを使用します：
 
 
 </div>
 
-[Vectors](https   *//en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https   *//en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this   *
+[Vectors](https://en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https://en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this:
 
 
 ```python
@@ -271,7 +271,7 @@ FreeCADは最初、ユーザーインターフェイス無しのコマンドラ�
 
 </div>
 
-FreeCAD has been designed so that it can also be used without its user interface, as a command-line application. Almost every object in FreeCAD therefore consists of two parts   * an `Object`, its \"geometry\" component, and a `ViewObject`, its \"visual\" component. When you work in command-line mode, the geometry part is present, but the visual part is disabled.
+FreeCAD has been designed so that it can also be used without its user interface, as a command-line application. Almost every object in FreeCAD therefore consists of two parts: an `Object`, its \"geometry\" component, and a `ViewObject`, its \"visual\" component. When you work in command-line mode, the geometry part is present, but the visual part is disabled.
 
 
 <div class="mw-translate-fuzzy">
@@ -314,7 +314,7 @@ FreeCADが起動するとすぐにPythonコンソールは2つの基本モジュ
 
 ## Modules
 
-The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are   * [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
+The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are: [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -358,7 +358,7 @@ Part.
 
 <div class="mw-translate-fuzzy">
 
-[メッシュ](http   *//en.wikipedia.org/wiki/Polygon_mesh)は非常に単純な3Dオブジェクトで例えば[Sketchup](http   *//en.wikipedia.org/wiki/SketchUp)、[Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29)、[3D studio Max](http   *//en.wikipedia.org/wiki/Autodesk_3ds_Max)で使用されています。メッシュは3つの要素でできています。点（頂点とも呼ばれます）、線（エッジとも呼ばれます）、そして面です。FreeCADを含む多くのアプリケーションでは面は点を三つだけ持つことができます。しかし、もちろん同一平面上にある複数の三角形からなるもっと大きな平面を作ることができます
+[メッシュ](http://en.wikipedia.org/wiki/Polygon_mesh)は非常に単純な3Dオブジェクトで例えば[Sketchup](http://en.wikipedia.org/wiki/SketchUp)、[Blender](http://en.wikipedia.org/wiki/Blender_%28software%29)、[3D studio Max](http://en.wikipedia.org/wiki/Autodesk_3ds_Max)で使用されています。メッシュは3つの要素でできています。点（頂点とも呼ばれます）、線（エッジとも呼ばれます）、そして面です。FreeCADを含む多くのアプリケーションでは面は点を三つだけ持つことができます。しかし、もちろん同一平面上にある複数の三角形からなるもっと大きな平面を作ることができます
 
 
 </div>
@@ -386,7 +386,7 @@ mymesh = Mesh.createSphere()
 mymesh.Facets
 mymesh.Points
  
-meshobj = doc.addObject("Mesh   *   *Feature", "MyMesh")
+meshobj = doc.addObject("Mesh::Feature", "MyMesh")
 meshobj.Mesh = mymesh
 doc.recompute()
 ```
@@ -406,17 +406,17 @@ doc.recompute()
 
 ## Part
 
-FreeCAD全体で最も強力なモジュールが[パートモジュールです](Part_Module/jp.md)。これを使うと[BRep](http   *//en.wikipedia.org/wiki/Boundary_representation)オブジェクトを作成し、操作することができます。メッシュと異なりこのオブジェクトには幅広いコンポーネントが用意されています。すこし説明しておくとBrepとは境界表現（Boundary Representation）を意味します。つまりこのオブジェクトは内部体積を定義する閉じた表面によって定義されるのです。これらの表面は平面から非常に複雑なNURBS面までさまざまに変化します。またこれに体積の概念はこれらの表面に基づきます。
+FreeCAD全体で最も強力なモジュールが[パートモジュールです](Part_Module/jp.md)。これを使うと[BRep](http://en.wikipedia.org/wiki/Boundary_representation)オブジェクトを作成し、操作することができます。メッシュと異なりこのオブジェクトには幅広いコンポーネントが用意されています。すこし説明しておくとBrepとは境界表現（Boundary Representation）を意味します。つまりこのオブジェクトは内部体積を定義する閉じた表面によって定義されるのです。これらの表面は平面から非常に複雑なNURBS面までさまざまに変化します。またこれに体積の概念はこれらの表面に基づきます。
 
 
 </div>
 
-The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https   *//en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
+The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https://en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
 
 
 <div class="mw-translate-fuzzy">
 
-Partモジュールは強力な機能を持つ[OpenCasCade](http   *//en.wikipedia.org/wiki/Open_CASCADE_Technology)ライブラリをその基盤としています。このライブラリはブーリアン演算、フィレット処理、ロフト処理などの幅広い複雑な操作を簡単にそのオブジェクトに対して行うための機能を提供しています。
+Partモジュールは強力な機能を持つ[OpenCasCade](http://en.wikipedia.org/wiki/Open_CASCADE_Technology)ライブラリをその基盤としています。このライブラリはブーリアン演算、フィレット処理、ロフト処理などの幅広い複雑な操作を簡単にそのオブジェクトに対して行うための機能を提供しています。
 
 
 </div>
@@ -430,7 +430,7 @@ myshape = Part.makeSphere(10)
 myshape.Volume
 myshape.Area
 
-shapeobj = doc.addObject("Part   *   *Feature", "MyShape")
+shapeobj = doc.addObject("Part::Feature", "MyShape")
 shapeobj.Shape = myshape
 doc.recompute()
 ```
@@ -508,12 +508,12 @@ Draft.move(box, mvec)
 
 ## Interface
 
-FreeCADのユーザーインターフェイスは[Qt](http   *//en.wikipedia.org/wiki/Qt_%28framework%29)によって作られています。Qtは強力なグラフィカルインターフェイスシステムであり、3Dビューの周りに配置されたメニュー、ツールバー、ボタンといった全てのコントロールの描画と制御を行なっています。QtにはPyQtと呼ばれるモジュールが用意されています。これを使うとPythonでFreeCADで採用されているようなQtインターフェイスへアクセスしたり変更を加えることができます。Qtインターフェイスをいじって簡単なダイアログを作成してみることにしましょう：
+FreeCADのユーザーインターフェイスは[Qt](http://en.wikipedia.org/wiki/Qt_%28framework%29)によって作られています。Qtは強力なグラフィカルインターフェイスシステムであり、3Dビューの周りに配置されたメニュー、ツールバー、ボタンといった全てのコントロールの描画と制御を行なっています。QtにはPyQtと呼ばれるモジュールが用意されています。これを使うとPythonでFreeCADで採用されているようなQtインターフェイスへアクセスしたり変更を加えることができます。Qtインターフェイスをいじって簡単なダイアログを作成してみることにしましょう：
 
 
 </div>
 
-The FreeCAD user interface is made with [Qt](https   *//en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog   *
+The FreeCAD user interface is made with [Qt](https://en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog:
 
 
 ```python
@@ -572,11 +572,6 @@ Now that you have a good understanding of the basics, where are we going to keep
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

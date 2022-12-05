@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw_ClipGroupAdd
-   Name/it   *Aggiungi una vista al gruppo clip
-   MenuLocation   *TechDraw → Aggiungi una vista al gruppo clip
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Gruppo di clip](TechDraw_ClipGroup/it.md), [Rimuovi la vista dal gruppo clip   *](TechDraw_ClipGroupRemove/it.md)
+- GuiCommand:/it
+   Name:TechDraw_ClipGroupAdd
+   Name/it:Aggiungi una vista al gruppo clip
+   MenuLocation:TechDraw → Aggiungi una vista al gruppo clip
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Gruppo di clip](TechDraw_ClipGroup/it.md), [Rimuovi la vista dal gruppo clip:](TechDraw_ClipGroupRemove/it.md)
 ---
 
 # TechDraw ClipGroupAdd/it

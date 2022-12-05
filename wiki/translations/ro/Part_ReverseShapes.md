@@ -1,6 +1,6 @@
 # Part ReverseShapes/ro
 ---
-- GuiCommand   *   Name   *Part ReverseShapes‏‎   MenuLocation   *Part → Reverse Shapes   Workbenches   *[[Part Workbench   Part]]|SeeAlso   *---
+- GuiCommand:   Name:Part ReverseShapes‏‎   MenuLocation:Part → Reverse Shapes   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
 
 
 </div>
@@ -39,7 +39,7 @@ Flips the normals of all faces of the selected object.
 ## Note
 
 Prin executarea acestei comenzi, FreeCAD inversează(cu susul în jos) normalele tuturor fețetelor formei / solidului.
-Puteți verifica prin    *
+Puteți verifica prin :
 
 1.  ascundeți toate celelalte obiecte, cu excepția formei/solidului inversat(ă)
 2.  selectați forma/solidul inversat(ă)

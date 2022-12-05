@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM ConstraintFluidBoundary
-   MenuLocation   *Model → Constraints without solver → Fluid boundary condition
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM ConstraintFluidBoundary
+   MenuLocation:Model → Constraints without solver → Fluid boundary condition
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintFluidBoundary/pl

@@ -1,16 +1,16 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ProjectUtil
-   Name/fr   *Std Utilitaire de projet
-   MenuLocation   *Outils → Utilitaire de projet
-   Workbenches   *Tous
+- GuiCommand:/fr
+   Name:Std ProjectUtil
+   Name/fr:Std Utilitaire de projet
+   MenuLocation:Outils → Utilitaire de projet
+   Workbenches:Tous
 ---
 
 # Std ProjectUtil/fr
 
 ## Description
 
-La commande **Std Utilitaire de projet** vous permet d\'extraire des fichiers à partir d\'un fichier de projet FreeCAD (***.FCStd**) qui est en fait un [ZIP](https   *//fr.wikipedia.org/wiki/ZIP_(format_de_fichier)) et, après les modifications manuelles, crée un nouveau fichier de projet à partir d\'eux.
+La commande **Std Utilitaire de projet** vous permet d\'extraire des fichiers à partir d\'un fichier de projet FreeCAD (***.FCStd**) qui est en fait un [ZIP](https://fr.wikipedia.org/wiki/ZIP_(format_de_fichier)) et, après les modifications manuelles, crée un nouveau fichier de projet à partir d\'eux.
 
 ![](images/Project_utility_en.png ) 
 *La boîte de dialogue de l'Utilitaire de projet*
@@ -30,7 +30,7 @@ La commande **Std Utilitaire de projet** vous permet d\'extraire des fichiers à
 
 ### Modifications manuelles 
 
-Il est important de réaliser que les fichiers contenus dans un fichier de projet FreeCAD sont liés entre eux. La modification seule d\'un seul fichier entraînera généralement des erreurs. Pour effectuer des modifications cohérentes sur plusieurs fichiers, utilisez un bon éditeur de code, tel que [Notepad ++](http   *//notepad-plus-plus.org/) (pour le système d\'exploitation Windows) ou [Notepadqq](https   *//notepadqq.com/s/) (pour le système d\'exploitation Linux).
+Il est important de réaliser que les fichiers contenus dans un fichier de projet FreeCAD sont liés entre eux. La modification seule d\'un seul fichier entraînera généralement des erreurs. Pour effectuer des modifications cohérentes sur plusieurs fichiers, utilisez un bon éditeur de code, tel que [Notepad ++](http://notepad-plus-plus.org/) (pour le système d\'exploitation Windows) ou [Notepadqq](https://notepadqq.com/s/) (pour le système d\'exploitation Linux).
 
 ### Créer un projet 
 

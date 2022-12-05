@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ja
-   Name   *Sketcher Arc
-   Name/ja   *中心点から円弧を作成
-   Workbenches   *[スケッチャー](Sketcher_Workbench/ja.md)
-   MenuLocation   *Sketch → スケッチャージオメトリ → 中心点から円弧を作成
-   SeeAlso   *[Sketcher Circle](Sketcher_CompCreateCircle/ja.md)
+- GuiCommand:/ja
+   Name:Sketcher Arc
+   Name/ja:中心点から円弧を作成
+   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md)
+   MenuLocation:Sketch → スケッチャージオメトリ → 中心点から円弧を作成
+   SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/ja.md)
 ---
 
 # Sketcher CreateArc/ja
@@ -18,7 +18,7 @@
 
 このツールを起動するとマウスポインターが赤い円弧アイコンのついた白い十字に変わります。またポインターの指す座標がリアルタイムに青色で横に表示されます。
 
-<img alt="中心選択後、ドラッグによって半径を設定?" src=images/Sketcher_ArcExample1.png ) ![中心と開始角度選択後、ドラッグして終了角度を設定?](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
+<img alt="中心選択後、ドラッグによって半径を設定?" src=images/Sketcher_ArcExample1.png ) ![中心と開始角度選択後、ドラッグして終了角度を設定?](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
 
 
 <div class="mw-translate-fuzzy">

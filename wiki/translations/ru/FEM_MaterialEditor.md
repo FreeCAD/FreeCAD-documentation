@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Редактор материалов
-   Name   *FEM_MaterialEditor
-   MenuLocation   *Модель → Материалы → Редактор материалов
-   Workbenches   *[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Version   *0.18
-   SeeAlso   *[Material/ru](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name/ru:Редактор материалов
+   Name:FEM_MaterialEditor
+   MenuLocation:Модель → Материалы → Редактор материалов
+   Workbenches:[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Version:0.18
+   SeeAlso:[Material/ru](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialEditor/ru
@@ -27,32 +27,32 @@
 
 ## Применение
 
-На текущий момент редактор материалов может быть доступен   *
+На текущий момент редактор материалов может быть доступен:
 
-1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> В [верстаке Arch](Arch_Workbench/ru.md) через   *
+1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> В [верстаке Arch](Arch_Workbench/ru.md) через:
     -   Кнопку **<img src="images/Arch_SetMaterial.svg" width=16px> [Set Material](Arch_SetMaterial/ru.md)**.
     -   Меню **Arch → Material tools → <img src="images/Arch_SetMaterial.svg" width=16px> Material**.
-2.  <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> В [верстаке FEM](FEM_Workbench/ru.md) через   *
+2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> В [верстаке FEM](FEM_Workbench/ru.md) через:
     -   Кнопку **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material editor](FEM_MaterialEditor/ru.md)**.
     -   Меню **Models → Materials → <img src="images/FEM_MaterialEditor.svg" width=16px> Material editor**.
 
 ## Опции
 
--   **Browser button**   * Открывает содержимое ссылки на параметр в браузере
+-   **Browser button**: Открывает содержимое ссылки на параметр в браузере
 
--   **Material card**   * Позволяет для заполнения полей выбрать предустановки
+-   **Material card**: Позволяет для заполнения полей выбрать предустановки
 
--    **Open**   * Открывает файл .FCMat
+-    **Open**: Открывает файл .FCMat
 
--    **Save as**   * Сохраняет содержимое редактора в новом файле .FCMat
+-    **Save as**: Сохраняет содержимое редактора в новом файле .FCMat
 
--   **Preview**   * Ещё не работает
+-   **Preview**: Ещё не работает
 
--   **Properties editor**   * Позволяет редактировать содержимое параметров материала
+-   **Properties editor**: Позволяет редактировать содержимое параметров материала
 
--    **Add property**   * Позволяет дать новый пользовательских параметр материала
+-    **Add property**: Позволяет дать новый пользовательских параметр материала
 
--    **Delete property**   * Удаляет выбранный параметр. Может быть удалён лишь пользовательский параметр
+-    **Delete property**: Удаляет выбранный параметр. Может быть удалён лишь пользовательский параметр
 
 ## Notes
 

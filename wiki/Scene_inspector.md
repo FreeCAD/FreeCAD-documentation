@@ -1,5 +1,5 @@
 # Scene inspector
-1.  REDIRECT [Std\_SceneInspector](Std_SceneInspector.md)
+1.  REDIRECT [Std_SceneInspector](Std_SceneInspector.md)
 
 
 

@@ -5,11 +5,7 @@ Cela vous aide à trouver le bon objet pour votre prochaine opération, ou perme
 
 La couleur de l\'objet présélectionné peut être choisie à partir du menu **Édition → Préférences → Affichage → Couleurs →** cocher **Activer la surbrillance de la présélection** et choisir une couleur.
 
-<img alt="" src=images/Draft_Preferences_Selection_Couleurs.png  style="width   *200px;">
-
-
-
-[Category   *User Documentation/fr](Category   *User_Documentation/fr.md)
+<img alt="" src=images/Draft_Preferences_Selection_Couleurs.png  style="width:200px;">
 
 
 

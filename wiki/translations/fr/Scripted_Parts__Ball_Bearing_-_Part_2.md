@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */fr
-   Topic   * Part    * écrire un script - Roulement à bille #2
-   Level   * Débutant
-   Time   * 30 min
-   Author   *r-frank
-   FCVersion   *0.16.6706
-   Files   *
+- TutorialInfo:/fr
+   Topic: Part : écrire un script - Roulement à bille #2
+   Level: Débutant
+   Time: 30 min
+   Author:r-frank
+   FCVersion:0.16.6706
+   Files:
 }}
 
 ### Introduction
@@ -13,8 +13,8 @@
 Ce tutoriel se veut une introduction pour les débutants à la création de pièces avec des scripts python dans FreeCAD.
 Ce tutoriel explique comment construire un roulement à billes, avec un flux de travail, qui consiste à créer des esquisses et à les faire pivoter.
 Le code produira un nouveau document FreeCAD avec 12 formes (anneau intérieur, anneau extérieur et 10 billes / sphères).
-Cela ressemblera à ceci    *
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
+Cela ressemblera à ceci :
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
 ### Workflow ou flux de travail 
 
@@ -24,7 +24,7 @@ Juste quelques petites differences.
 
 -   Dessinez la forme de base de l\'anneau extérieur composé de quatre lignes droites et de quatre arcs
 
-<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width   *150px;">
+<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width:150px;">
 
 -   Reliez les lignes et les arcs et transformez les en un seul contour
 -   Transformer le contour en face
@@ -55,7 +55,7 @@ Ensuite, nous appliquons une coupe booléenne aux deux figures de révolution et
 
 ### Insérez les billes 
 
-Le flux de travail approprié basé sur sketcher (l\'esquisseur) pour insérer les billes serait    *
+Le flux de travail approprié basé sur sketcher (l\'esquisseur) pour insérer les billes serait :
 \*Tracez un arc (demi-cercle) dont le centre est identique à l\'origine et tracez un segment fermant le côté \"ouvert\" de l\'arc
 
 -   Convertissez les deux éléments en un contour, transformez le en face, tournez autour de l\'axe z pour obtenir une forme de boule
@@ -64,23 +64,23 @@ Le flux de travail approprié basé sur sketcher (l\'esquisseur) pour insérer l
 -   Cette opération répétitive peut être programmée avec une boucle
 
 Maintenant, ce n\'est pas efficace, insérer des primitives et les positionner est plus facile et plus rapide dans ce cas.
-Nous utilisons donc la même méthode que dans \"[Objets scriptés \"Part\"    * Roulement à billes - Partie 1](Scripted_Parts   *_Ball_Bearing_-_Part_1/fr.md)\".
+Nous utilisons donc la même méthode que dans \"[Objets scriptés \"Part\" : Roulement à billes - Partie 1](Scripted_Parts:_Ball_Bearing_-_Part_1/fr.md)\".
 
 ### Liens
 
-[Objets créés par script](Scripted_objects/fr.md)    * La page wiki expliquant les bases du langage de script
-[Scripts pour création topologique](Topological_data_scripting/fr.md)    * Un tutoriel qui couvre les bases de la création de scripts
-[Objets scriptés \"Part\"    * Roulement à billes - Partie 1](Scripted_Parts   *_Ball_Bearing_-_Part_1/fr.md)    * Le faire avec des esquisses
-[Bearings from scripted sketches](http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)    * Base utilisée pour ce tutoriel, grâce à JMG \...
+[Objets créés par script](Scripted_objects/fr.md) : La page wiki expliquant les bases du langage de script
+[Scripts pour création topologique](Topological_data_scripting/fr.md) : Un tutoriel qui couvre les bases de la création de scripts
+[Objets scriptés \"Part\" : Roulement à billes - Partie 1](Scripted_Parts:_Ball_Bearing_-_Part_1/fr.md) : Le faire avec des esquisses
+[Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html) : Base utilisée pour ce tutoriel, grâce à JMG \...
 
 ### Code
 
 
-{{Code   code   *
+{{Code   code:
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
-## (http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
+## (http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
 #
 #needed for doing boolean operations
 import Part
@@ -158,7 +158,7 @@ IR=IR.cut(GRi)
 Part.show(IR)
 #
 #Balls#
-for i in range(NBall)   *
+for i in range(NBall):
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -177,9 +177,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+}}
 
 
 

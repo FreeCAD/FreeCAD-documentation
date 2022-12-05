@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */it
-   Name   *PartDesign_WizardShaft
-   Name/it   *PartDesign Procedura guidata per alberi
-   MenuLocation   *PartDesign → Assistente Formazione Albero...
-   Workbenches   *[DisegnoPezzo](PartDesign_Workbench/it.md)
+- GuiCommand:/it
+   Name:PartDesign_WizardShaft
+   Name/it:PartDesign Procedura guidata per alberi
+   MenuLocation:PartDesign → Assistente Formazione Albero...
+   Workbenches:[DisegnoPezzo](PartDesign_Workbench/it.md)
 ---
 
 # PartDesign WizardShaft/it
@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-Questo strumento permette di creare un albero da una tabella di valori, e di analizzare forze e momenti. Si può avviare la procedura guidata dal menu Part Design **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width   *20px"> Procedura guidata per alberi...**.
+Questo strumento permette di creare un albero da una tabella di valori, e di analizzare forze e momenti. Si può avviare la procedura guidata dal menu Part Design **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Procedura guidata per alberi...**.
 
 
 </div>
@@ -25,7 +25,7 @@ L\'assistente si avvierà e mostrerà una tabella predefinita, la parte d\'alber
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width   *780px;"> 
+<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;"> 
 
 
 </div>
@@ -35,7 +35,7 @@ La parte superiore della finestra è occupata dalla tabella. È organizzata in c
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/shaftwizard1.jpg  style="width   *1024px;"> 
+<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
 
 
 </div>
@@ -47,7 +47,7 @@ La parte superiore della finestra è occupata dalla tabella. È organizzata in c
 
 ## Prerequisiti
 
-L\'assistente di creazione dell\'albero dipende dalla [matplotlib](http   *//matplotlib.org/) libreria per creare e visualizzare i grafici della forza di taglio e del momento di flessione. Per i sistemi basati su Debian/Ubuntu, è disponibile tramite il pacchetto python-matplotlib.
+L\'assistente di creazione dell\'albero dipende dalla [matplotlib](http://matplotlib.org/) libreria per creare e visualizzare i grafici della forza di taglio e del momento di flessione. Per i sistemi basati su Debian/Ubuntu, è disponibile tramite il pacchetto python-matplotlib.
 
 
 </div>
@@ -59,14 +59,14 @@ L\'assistente di creazione dell\'albero dipende dalla [matplotlib](http   *//mat
 
 ## Parametri
 
-Per ogni segmento dell\'albero, possono essere definiti i seguenti parametri   *
+Per ogni segmento dell\'albero, possono essere definiti i seguenti parametri:
 
 -   La lunghezza del segmento.
 -   Il diametro del segmento.
 -   Il tipo di carico. (Notare che dopo il suo scorrimento, è necessario fare clic nel menu sulla voce desiderata, altrimenti non viene selezionata).
-    -   None    * Nessun carico.
-    -   Fixed    * L\'albero è fissato ad una estremità (ad esempio saldato a un\'altra parte). Questo tipo di carico può essere definito per il primo o l\'ultimo segmento.
-    -   Static    * C\'è un carico statico sul segmento dell\'albero.
+    -   None : Nessun carico.
+    -   Fixed : L\'albero è fissato ad una estremità (ad esempio saldato a un\'altra parte). Questo tipo di carico può essere definito per il primo o l\'ultimo segmento.
+    -   Static : C\'è un carico statico sul segmento dell\'albero.
 -   Il carico sul segmento dell\'albero.
 -   La posizione in cui è applicato il carico al segmento. La posizione viene calcolata dal bordo sinistro del segmento.
 

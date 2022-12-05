@@ -11,9 +11,5 @@
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Testing](Category_Testing.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Testing](Category_Testing.md) > Artwork Test/ru

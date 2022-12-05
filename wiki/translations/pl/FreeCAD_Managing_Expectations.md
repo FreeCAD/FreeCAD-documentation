@@ -1,5 +1,5 @@
 # FreeCAD Managing Expectations/pl
-**Chociaż witamy i zachęcamy do rozwoju i uczestnictwa wśród społeczności, żądania, emocjonalne tyrady i dzikie roszczenia są ogólnie słabo odbierane, ponieważ nasza społeczność składa się z wielu doświadczonych i pełnych pasji zwolenników FreeCAD, którzy wielokrotnie słyszeli podobne oświadczenia. Jeśli zauważysz brak jakiejś funkcji lub coś, co Cię denerwuje, gorąco zachęcamy do rozważenia zaangażowania się w sam kod. FreeCAD jest w dużej mierze rozwijany przez stosunkowo niewielką grupę utalentowanych ludzi, którzy mają pracę dzienną, rodziny i inne zainteresowania poza programowaniem na żądanie. Jeśli masz umiejętności ''(Python / C++)'' i motywację do udziału, Twój wkład może sprawić, że FreeCAD będzie jeszcze lepszy niż obecnie. Możesz znaleźć śledzone błędy / prośby o funkcje na stronie [https   *//github.com/FreeCAD/FreeCAD/issues zgłoszenia].**
+**Chociaż witamy i zachęcamy do rozwoju i uczestnictwa wśród społeczności, żądania, emocjonalne tyrady i dzikie roszczenia są ogólnie słabo odbierane, ponieważ nasza społeczność składa się z wielu doświadczonych i pełnych pasji zwolenników FreeCAD, którzy wielokrotnie słyszeli podobne oświadczenia. Jeśli zauważysz brak jakiejś funkcji lub coś, co Cię denerwuje, gorąco zachęcamy do rozważenia zaangażowania się w sam kod. FreeCAD jest w dużej mierze rozwijany przez stosunkowo niewielką grupę utalentowanych ludzi, którzy mają pracę dzienną, rodziny i inne zainteresowania poza programowaniem na żądanie. Jeśli masz umiejętności ''(Python / C++)'' i motywację do udziału, Twój wkład może sprawić, że FreeCAD będzie jeszcze lepszy niż obecnie. Możesz znaleźć śledzone błędy / prośby o funkcje na stronie [https://github.com/FreeCAD/FreeCAD/issues zgłoszenia].**
 
 
 {{TOCright}}
@@ -10,7 +10,7 @@ Ta strona wiki jest przeznaczona dla nowych użytkowników programu FreeCAD odch
 
 ## Słowo wstępne 
 
-Wielu hobbystów, niezależnych projektantów i małych firm często szuka schronienia przed wysokimi kosztami i ograniczeniami licencyjnymi komercyjnego oprogramowania, a może po prostu wybierasz FreeCAD, ponieważ wierzysz w filozofię stojącą za [FOSS](https   *//en.wikipedia.org/wiki/FOSS). W każdym z tych przypadków, WITAMY! Jest wielu użytkowników, tak jak Ty, którzy z powodzeniem przeszli na FreeCAD dla swoich osobistych i zawodowych potrzeb. Ta strona wiki jest zaprojektowana aby pomóc Ci w osiągnięciu sukcesu i ustalić realistyczne oczekiwania podczas nurkowania w *FreeCAD Way*, który najprawdopodobniej różni się od tego do czego przywykłeś w innych popularnych programach CAD.
+Wielu hobbystów, niezależnych projektantów i małych firm często szuka schronienia przed wysokimi kosztami i ograniczeniami licencyjnymi komercyjnego oprogramowania, a może po prostu wybierasz FreeCAD, ponieważ wierzysz w filozofię stojącą za [FOSS](https://en.wikipedia.org/wiki/FOSS). W każdym z tych przypadków, WITAMY! Jest wielu użytkowników, tak jak Ty, którzy z powodzeniem przeszli na FreeCAD dla swoich osobistych i zawodowych potrzeb. Ta strona wiki jest zaprojektowana aby pomóc Ci w osiągnięciu sukcesu i ustalić realistyczne oczekiwania podczas nurkowania w *FreeCAD Way*, który najprawdopodobniej różni się od tego do czego przywykłeś w innych popularnych programach CAD.
 
 ## Czego mogę się spodziewać? 
 
@@ -18,23 +18,23 @@ W swoim rdzeniu FreeCAD jest modelerem parametrycznym. Wykorzystuje koncepcję �
 
 W swoim rdzeniu FreeCAD jest potężnym modelerem parametrycznym. Wykorzystuje on modułową koncepcję *środowisk pracy*, gdzie każde z nich odpowiada za określone zadania i funkcje. Koncepcja ta jest bardzo elastyczna i może być z powodzeniem wykorzystywana do wielu celów. FreeCAD jest aktywnie rozwijany, używany w produkcji i dość stabilny, ale jak każdy inny program CAD, nie jest stabilny w 100%.
 
-Pochodząc z innego programu CAD możesz uznać terminologię, strukturę i organizację FreeCADa za nieco obcą. Prawdopodobnie będziesz musiał dokonać pewnych dostosowań w swoich przepływach pracy, nauczyć się funkcjonalnych obejść lub wykorzystać nasz potężny ekosystem [makrodefinicji](Macros.md), ale w większości przypadków będziesz w stanie osiągnąć to, co chcesz. A jeśli potrzebujesz pomocy   * mamy bardzo aktywne i responsywne [forum](https   *//forum.freecad.org/index.php) chętne do pomocy. Wśród członków forum na pewno są (byli) użytkownicy twojego obecnego programu CAD. Nie wahaj się więc skorzystać z tych zasobów.
+Pochodząc z innego programu CAD możesz uznać terminologię, strukturę i organizację FreeCADa za nieco obcą. Prawdopodobnie będziesz musiał dokonać pewnych dostosowań w swoich przepływach pracy, nauczyć się funkcjonalnych obejść lub wykorzystać nasz potężny ekosystem [makrodefinicji](Macros.md), ale w większości przypadków będziesz w stanie osiągnąć to, co chcesz. A jeśli potrzebujesz pomocy: mamy bardzo aktywne i responsywne [forum](https://forum.freecad.org/index.php) chętne do pomocy. Wśród członków forum na pewno są (byli) użytkownicy twojego obecnego programu CAD. Nie wahaj się więc skorzystać z tych zasobów.
 
 ## Jak mogę pomóc? 
 
-Jest wiele sposobów   * możesz dokonać [wpłaty](Donate/pl.md), pomóc w pytaniach na [forum](https   *//forum.freecad.org/index.php), albo napisać dokumentację lub kod. Zobacz [Pomoc FreeCAD](Help_FreeCAD/pl.md).
+Jest wiele sposobów: możesz dokonać [wpłaty](Donate/pl.md), pomóc w pytaniach na [forum](https://forum.freecad.org/index.php), albo napisać dokumentację lub kod. Zobacz [Pomoc FreeCAD](Help_FreeCAD/pl.md).
 
 ## Zasoby dydaktyczne 
 
 ### Oficjalne
 
 -   [To Wiki](Main_Page/pl.md)
--   [Forum Pomocy](https   *//forum.freecadweb.org/viewforum.php?f=3)
+-   [Forum Pomocy](https://forum.freecadweb.org/viewforum.php?f=3)
 -   [Obejścia znanych problemów](Workarounds/pl.md)
 
 ### Nieoficjalne
 
-Następujące kanały YouTube mają dość dobrej jakości treści skupione wokół programu FreeCAD (zaleca się ignorowanie wszelkich tutoriali opartych na wersji 0.17 lub wcześniejszej)   *
+Następujące kanały YouTube mają dość dobrej jakości treści skupione wokół programu FreeCAD (zaleca się ignorowanie wszelkich tutoriali opartych na wersji 0.17 lub wcześniejszej):
 
 -   *MangoJelly Solutions* (kilka list odtwarzana dla początkujących, średnio-zaawansowanych i zaawansowanych użytkowników)
 -   *Joko EngineeringHelp* (filmy dla średnio-zaawansowanych)
@@ -45,7 +45,7 @@ Następujące kanały YouTube mają dość dobrej jakości treści skupione wok�
 
 ### \"Czy FreeCAD może XYZ?\" 
 
-FreeCAD ma już możliwość wykonywania następujących typów prac   *
+FreeCAD ma już możliwość wykonywania następujących typów prac:
 
 -   Modelowanie parametryczne oparte na splajnie z wykorzystaniem środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) i [Szkicownik](Sketcher_Workbench/pl.md).
 -   Modelowanie [Powierzchnii 3D](Surface_Workbench/pl.md) / [Krzywych](Curves_Workbench/pl.md) z wykorzystaniem NURBS.
@@ -79,18 +79,16 @@ FreeCAD jest zbudowany wokół otwartego Kernela Modelowania Geometrycznego nazw
 
 ### Kernel OpenCascade 
 
-OpenCascade *(OCC / OCCT)* jest podstawową zewnętrzną zależnością jądra CAD, od której FreeCAD jest całkowicie zależny. Istnieje wiele otwartych błędów \"upstream\", które społeczność FreeCAD zidentyfikowała i śledzi w odniesieniu do OCC. Śledzimy je poprzez   *
+OpenCascade *(OCC / OCCT)* jest podstawową zewnętrzną zależnością jądra CAD, od której FreeCAD jest całkowicie zależny. Istnieje wiele otwartych błędów \"upstream\", które społeczność FreeCAD zidentyfikowała i śledzi w odniesieniu do OCC. Śledzimy je poprzez:
 
--   [Bugtracker](https   *//github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
--   [Błędy OCC w Bugtrackerze *(wątek na forum)*](https   *//forum.freecad.org/viewtopic.php?t=20264)
+-   [Bugtracker](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3A%223rd+Party%3A+OCC%22)
+-   [Błędy OCC w Bugtrackerze *(wątek na forum)*](https://forum.freecad.org/viewtopic.php?t=20264)
 
 ## Odnośniki internetowe 
 
--   [Dyskusja   * FreeCAD nie jest gotowy na 1.0 (wątek na forum)](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=43461)
--   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https   *//www.youtube.com/watch?v=JBmdbipkbrk) Pat David z prezentacji zespołu GIMP na SCaLE16x California 2016 r.
--   [Earning Your Support Instead of Buying it   * A How-to Guide to Open Source Assistance](https   *//vimeo.com/144089061) autorstwa [Iana Turtona](https   *//twitter.com/ijturton) na FOSS4G Seul 2015
-
-[Category   *Common Questions](Category_Common_Questions.md)
+-   [Dyskusja: FreeCAD nie jest gotowy na 1.0 (wątek na forum)](https://forum.freecadweb.org/viewtopic.php?f=8&t=43461)
+-   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https://www.youtube.com/watch?v=JBmdbipkbrk) Pat David z prezentacji zespołu GIMP na SCaLE16x California 2016 r.
+-   [Earning Your Support Instead of Buying it: A How-to Guide to Open Source Assistance](https://vimeo.com/144089061) autorstwa [Iana Turtona](https://twitter.com/ijturton) na FOSS4G Seul 2015
 
 
 

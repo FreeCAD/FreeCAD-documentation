@@ -1,13 +1,13 @@
 # Doxygen
 ## About
 
-  Doxygen is a popular tool for generating documentation from annotated C++ sources; it also supports other popular programming languages such as C#, PHP, Java, and Python. Visit the [Doxygen website](http   *//www.doxygen.nl/) to learn more about the system, and consult the [Doxygen Manual](http   *//www.doxygen.nl/manual/index.html) for the full information.
+  Doxygen is a popular tool for generating documentation from annotated C++ sources; it also supports other popular programming languages such as C#, PHP, Java, and Python. Visit the [Doxygen website](http://www.doxygen.nl/) to learn more about the system, and consult the [Doxygen Manual](http://www.doxygen.nl/manual/index.html) for the full information.
 
 ## Doxygen and FreeCAD 
 
-This document gives a brief introduction to Doxygen, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](source_documentation.md) page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https   *//www.freecadweb.org/api/).
+This document gives a brief introduction to Doxygen, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](source_documentation.md) page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https://www.freecadweb.org/api/).
 
-<img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
 
 
@@ -15,19 +15,19 @@ This document gives a brief introduction to Doxygen, in particular how it is use
 
 ## Doxygen with C++ code 
 
-The [Getting started (Step 3)](http   *//www.doxygen.nl/manual/starting.html) section of the Doxygen manual mentions the basic ways of documenting the sources.
+The [Getting started (Step 3)](http://www.doxygen.nl/manual/starting.html) section of the Doxygen manual mentions the basic ways of documenting the sources.
 
-For members, classes and namespaces there are basically two options   *
+For members, classes and namespaces there are basically two options:
 
-1.  Place a special \"documentation block\" (a commented paragraph) before the declaration or definition of the function, member, class or namespace. For file, class and namespace members (variables) it is also allowed to place the documentation directly after the member. See section [Special comment blocks](http   *//www.doxygen.nl/manual/docblocks.html#specialblock) in the manual to learn more about these blocks.
-2.  Place a special documentation block somewhere else (another file or another location in the same file) and put a \"structural command\" in the documentation block. A structural command links a documentation block to a certain entity that can be documented (a function, member, variable, class, namespace or file). See section [Documentation at other places](http   *//www.doxygen.nl/manual/docblocks.html#structuralcommands) in the manual to learn more about structural commands.
+1.  Place a special \"documentation block\" (a commented paragraph) before the declaration or definition of the function, member, class or namespace. For file, class and namespace members (variables) it is also allowed to place the documentation directly after the member. See section [Special comment blocks](http://www.doxygen.nl/manual/docblocks.html#specialblock) in the manual to learn more about these blocks.
+2.  Place a special documentation block somewhere else (another file or another location in the same file) and put a \"structural command\" in the documentation block. A structural command links a documentation block to a certain entity that can be documented (a function, member, variable, class, namespace or file). See section [Documentation at other places](http://www.doxygen.nl/manual/docblocks.html#structuralcommands) in the manual to learn more about structural commands.
 
-Note   *
+Note:
 
 -   The advantage of the first option is that you do not have to repeat the name of the entity (function, member, variable, class, or namespace), as Doxygen will analyze the code and extract the relevant information.
 -   Files can only be documented using the second option, since there is no way to put a documentation block before a file. Of course, file members (functions, variables, typedefs, defines) do not need an explicit structural command; just putting a documentation block before or after them will work fine.
 
-### First style   * documentation block before the code 
+### First style: documentation block before the code 
 
 Usually you\'d want to document the code in the header file, just before the class declaration or function prototype. This keeps the declaration and documentation close to each other, so it\'s easy to update the latter one if the first one changes.
 
@@ -36,25 +36,25 @@ The special documentation block starts like a C-style comment
 /**
  * Returns the name of the workbench object.
  */
-std   *   *string name() const;
+std::string name() const;
 
 /**
  * Set the name to the workbench object.
  */
-void setName(const std   *   *string&);
+void setName(const std::string&);
 
 /// remove the added TaskWatcher
 void removeTaskWatcher(void);
 ```
 
-### Second style   * documentation block elsewhere 
+### Second style: documentation block elsewhere 
 
 Alternatively, the documentation can be placed in another file (or in the same file at the top or bottom, or wherever), away from the class declaration or function prototype. In this case, you will have duplicated information, once in the actual source file, and once in the documentation file.
 
 First file,  
 ```python
-std   *   *string name() const;
-void setName(const std   *   *string&);
+std::string name() const;
+void setName(const std::string&);
 ```
 
 Second file,  
@@ -65,10 +65,10 @@ Second file,
  *   The details of this file go here.
  */
 
-/** \fn std   *   *string name() const;
+/** \fn std::string name() const;
  *  \brief Returns the name of the workbench object.
  */
-/** \fn void setName(const std   *   *string&);
+/** \fn void setName(const std::string&);
  *  \brief Set the name to the workbench object.
  */
 ```
@@ -91,11 +91,11 @@ Example `src/Base/core-base.dox`; this file in FreeCAD\'s source tree gives a sh
 ```python
 /** \defgroup BASE Base
  *  \ingroup CORE
-    \brief Basic structures used by other FreeCAD componentsThe Base module includes most of the basic functions of FreeCAD, such as   *
-    - Console services   * printing different kinds of messages to the FreeCAD report view or the terminal
-    - Python interpreter   * handles the execution of Python code in FreeCAD
-    - Parameter handling   * Management, saving and restoring of user preferences settings
-    - Units   * Management and conversion of different units
+    \brief Basic structures used by other FreeCAD componentsThe Base module includes most of the basic functions of FreeCAD, such as:
+    - Console services: printing different kinds of messages to the FreeCAD report view or the terminal
+    - Python interpreter: handles the execution of Python code in FreeCAD
+    - Parameter handling: Management, saving and restoring of user preferences settings
+    - Units: Management and conversion of different units
 
 */
 
@@ -103,11 +103,11 @@ Example `src/Base/core-base.dox`; this file in FreeCAD\'s source tree gives a sh
     \ingroup BASE
     \brief Basic structures used by other FreeCAD components
 
-    The Base module includes most of the basic functions of FreeCAD, such as   *
-    - Console services   * printing different kinds of messages to the FreeCAD report view or the terminal
-    - Python interpreter   * handles the execution of Python code in FreeCAD
-    - Parameter handling   * Management, saving and restoring of user preferences settings
-    - Units   * Management and conversion of different units
+    The Base module includes most of the basic functions of FreeCAD, such as:
+    - Console services: printing different kinds of messages to the FreeCAD report view or the terminal
+    - Python interpreter: handles the execution of Python code in FreeCAD
+    - Parameter handling: Management, saving and restoring of user preferences settings
+    - Units: Management and conversion of different units
 */
 ```
 
@@ -117,7 +117,7 @@ Example `src/Base/core-base.dox`; this file in FreeCAD\'s source tree gives a sh
 
 </div>
 
-Another example is the file `src/Gui/Command.cpp`. Before the implementation details of the `Gui   *   *Command` methods, there is a documentation block that explains some details of the command framework of FreeCAD. It has various `\section` commands to structure the documentation. It even includes example code enclosed in a pair of `\code` and `\endcode` keywords; when the file is processed by Doxygen this code example will be specially formatted to stand out. The `\ref` keyword is used in several places to create links to named sections, subsections, pages or anchors elsewhere in the documentation. Similarly, the `\see` or `\sa` commands print \"See also\" and provide a link to other classes, functions, methods, variables, files or URLs.
+Another example is the file `src/Gui/Command.cpp`. Before the implementation details of the `Gui::Command` methods, there is a documentation block that explains some details of the command framework of FreeCAD. It has various `\section` commands to structure the documentation. It even includes example code enclosed in a pair of `\code` and `\endcode` keywords; when the file is processed by Doxygen this code example will be specially formatted to stand out. The `\ref` keyword is used in several places to create links to named sections, subsections, pages or anchors elsewhere in the documentation. Similarly, the `\see` or `\sa` commands print \"See also\" and provide a link to other classes, functions, methods, variables, files or URLs.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -148,19 +148,19 @@ Example `src/Gui/Command.cpp`
  *
  * \section wayout Way out
  * To solve these problems we have introduced the command framework to decouple QAction and MainWindow. The base classes of the framework are
- * \a Gui   *   *CommandBase and \a Gui   *   *Action that represent the link between Qt's QAction world and the FreeCAD's command world. 
+ * \a Gui::CommandBase and \a Gui::Action that represent the link between Qt's QAction world and the FreeCAD's command world. 
  *
  * The Action class holds a pointer to QAction and CommandBase and acts as a mediator and -- to save memory -- that gets created 
- * (@ref Gui   *   *CommandBase   *   *createAction()) not before it is added (@ref Gui   *   *Command   *   *addTo()) to a menu or toolbar.
+ * (@ref Gui::CommandBase::createAction()) not before it is added (@ref Gui::Command::addTo()) to a menu or toolbar.
  *
  * Now, the implementation of the slots of MainWindow can be done in the method \a activated() of subclasses of Command instead.
  *
  * For example, the implementation of the "Open file" command can be done as follows.
  * \code
- * class OpenCommand    * public Command
+ * class OpenCommand : public Command
  * {
- * public   *
- *   OpenCommand()    * Command("Std_Open")
+ * public:
+ *   OpenCommand() : Command("Std_Open")
  *   {
  *     // set up menu text, status tip, ...
  *     sMenuText     = "&Open";
@@ -170,21 +170,21 @@ Example `src/Gui/Command.cpp`
  *     sPixmap       = "Open"; // name of a registered pixmap
  *     sAccel        = "Shift+P"; // or "P" or "P, L" or "Ctrl+X, Ctrl+C" for a sequence
  *   }
- * protected   *
+ * protected:
  *   void activated(int)
  *   {
  *     QString filter ... // make a filter of all supported file formats
- *     QStringList FileList = QFileDialog   *   *getOpenFileNames( filter,QString   *   *null, getMainWindow() );
- *     for ( QStringList   *   *Iterator it = FileList.begin(); it != FileList.end(); ++it ) {
+ *     QStringList FileList = QFileDialog::getOpenFileNames( filter,QString::null, getMainWindow() );
+ *     for ( QStringList::Iterator it = FileList.begin(); it != FileList.end(); ++it ) {
  *       getGuiApplication()->open((*it).latin1());
  *     }
  *   }
  * };
  * \endcode
- * An instance of \a OpenCommand must be created and added to the \ref Gui   *   *CommandManager to make the class known to FreeCAD.
+ * An instance of \a OpenCommand must be created and added to the \ref Gui::CommandManager to make the class known to FreeCAD.
  * To see how menus and toolbars can be built go to the @ref workbench.
  *
- * @see Gui   *   *Command, Gui   *   *CommandManager
+ * @see Gui::Command, Gui::CommandManager
  */
 ```
 
@@ -196,22 +196,22 @@ Example `src/Gui/Command.cpp`
 
 ### Example from the VTK project 
 
-This is an example from [VTK](https   *//vtk.org/), a 3D visualization library used to present scientific data, like finite element results, and point cloud information.
+This is an example from [VTK](https://vtk.org/), a 3D visualization library used to present scientific data, like finite element results, and point cloud information.
 
 A class to store a collection of coordinates is defined in a C++ header file. The top part of the file is commented, and a few keywords are used, like `@class`, `@brief`, and `@sa` to indicate important parts. Inside the class, before the class method prototypes, a block of commented text explains what the function does, and its arguments.
 
--   Source code of [vtkArrayCoordinates.h](https   *//github.com/Kitware/VTK/blob/master/Common/Core/vtkArrayCoordinates.h).
--   Doxygen produced documentation for the [vtkArrayCoordinates class](http   *//www.vtk.org/doc/nightly/html/classvtkArrayCoordinates.html).
+-   Source code of [vtkArrayCoordinates.h](https://github.com/Kitware/VTK/blob/master/Common/Core/vtkArrayCoordinates.h).
+-   Doxygen produced documentation for the [vtkArrayCoordinates class](http://www.vtk.org/doc/nightly/html/classvtkArrayCoordinates.html).
 
 ## Compiling the documentation 
 
-<img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
 
 
 *General workflow to produce source code documentation with Doxygen.*
 
-To generate the source code documentation there are two basic steps   *
+To generate the source code documentation there are two basic steps:
 
 1.  Create a configuration file to control how Doxygen will process the source files.
 2.  Run `doxygen` on that configuration.
@@ -224,7 +224,7 @@ The process is described in the following.
 
 <div class="mw-collapsible-content">
 
--   Make sure you have the programs `doxygen` and `doxywizard` in your system. It is also recommended to have the `dot` program from [Graphviz](https   *//www.graphviz.org/), in order to generate diagrams with the relationships between classes and namespaces. On Linux systems these programs can be installed from your package manager.
+-   Make sure you have the programs `doxygen` and `doxywizard` in your system. It is also recommended to have the `dot` program from [Graphviz](https://www.graphviz.org/), in order to generate diagrams with the relationships between classes and namespaces. On Linux systems these programs can be installed from your package manager.
 
  
 ```python
@@ -239,7 +239,7 @@ cd toplevel-source
 ```
 
 -   Run `doxygen -g DoxyDoc.cfg` to create a configuration file named `DoxyDoc.cfg`. If you omit this name, it will default to `Doxyfile` without an extension.
--   This is a big, plain text file that includes many variables with their values. In the Doxygen manual these variables are called \"tags\". The configuration file and all tags are described extensively in the [Configuration](http   *//www.doxygen.nl/manual/config.html) section of the manual. You can open the file with any text editor, and edit the value of each tag as necessary. In the same file you can read comments explaining each of the tags, and their default values.
+-   This is a big, plain text file that includes many variables with their values. In the Doxygen manual these variables are called \"tags\". The configuration file and all tags are described extensively in the [Configuration](http://www.doxygen.nl/manual/config.html) section of the manual. You can open the file with any text editor, and edit the value of each tag as necessary. In the same file you can read comments explaining each of the tags, and their default values.
 
  
 ```python
@@ -284,13 +284,13 @@ xdg-open toplevel-source/html/index.html
 
 </div>
 
-If you are writing new classes, functions or an entire new workbench, it is recommended that you run `doxygen` periodically to see that the documentation blocks, [Markdown](#Markdown_support.md), and [special commands](#Doxygen_markup.md) are being read correctly, and that all public functions are fully documented. Please also read the [documentation tips](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Doc/doctips.dox) located in the source code.
+If you are writing new classes, functions or an entire new workbench, it is recommended that you run `doxygen` periodically to see that the documentation blocks, [Markdown](#Markdown_support.md), and [special commands](#Doxygen_markup.md) are being read correctly, and that all public functions are fully documented. Please also read the [documentation tips](https://github.com/FreeCAD/FreeCAD/blob/master/src/Doc/doctips.dox) located in the source code.
 
 When generating the complete FreeCAD documentation, you don\'t run `doxygen` directly. Instead, the project uses `cmake` to configure the build environment, and then `make` triggers compilation of the FreeCAD sources and of the Doxygen documentation; this is explained in the [source documentation](source_documentation.md) page.
 
 ## Doxygen markup 
 
-All Doxygen [documentation commands](http   *//www.doxygen.nl/manual/commands.html) start with a backslash `\` or an at-symbol `@`, at your preference. Normally the backslash `\` is used, but occasionally the `@` is used to improve readability.
+All Doxygen [documentation commands](http://www.doxygen.nl/manual/commands.html) start with a backslash `\` or an at-symbol `@`, at your preference. Normally the backslash `\` is used, but occasionally the `@` is used to improve readability.
 
 The commands can have one or more arguments. In the Doxygen manual the arguments are described as follows.
 
@@ -307,25 +307,25 @@ Some of the most common keywords used in the FreeCAD documentation are presented
 
 <div class="mw-collapsible-content">
 
--    (group title), see [\\defgroup](http   *//www.doxygen.nl/manual/commands.html#cmddefgroup), and [Grouping](http   *//www.doxygen.nl/manual/grouping.html).
--   ]), see [\\ingroup](http   *//www.doxygen.nl/manual/commands.html#cmdingroup), and [Grouping](http   *//www.doxygen.nl/manual/grouping.html).
--    [(title)], see [\\addtogroup](http   *//www.doxygen.nl/manual/commands.html#cmdaddtogroup), and [Grouping](http   *//www.doxygen.nl/manual/grouping.html).
--   \author { list of authors }, see [\\author](http   *//www.doxygen.nl/manual/commands.html#cmdauthor); indicates the author of this piece of code.
--   \brief { brief description }, see [\\brief](http   *//www.doxygen.nl/manual/commands.html#cmdbrief); briefly describes the function.
--   ], see [\\file](http   *//www.doxygen.nl/manual/commands.html#cmdfile); documents a source or header file.
--    (title), see [\\page](http   *//www.doxygen.nl/manual/commands.html#cmdpage); puts the information in a separate page, not directly related to one specific class, file or member.
--   , see [\\package](http   *//www.doxygen.nl/manual/commands.html#cmdpackage); indicates documentation for a Java package (but also used with Python).
--   \fn (function declaration), see [\\fn](http   *//www.doxygen.nl/manual/commands.html#cmdfn); documents a function.
--   \var (variable declaration), see [\\var](http   *//www.doxygen.nl/manual/commands.html#cmdvar); documents a variable; it is equivalent to `\fn`, `\property`, and `\typedef`.
--    (section title), see [\\section](http   *//www.doxygen.nl/manual/commands.html#cmdsection); starts a section.
--    (subsection title), see [\\subsection](http   *//www.doxygen.nl/manual/commands.html#cmdsubsection); starts a subsection.
--   , see [\\namespace](http   *//www.doxygen.nl/manual/commands.html#cmdnamespace); indicates information for a namespace.
--   \cond [(section-label)], and \endcond, see [\\cond](http   *//www.doxygen.nl/manual/commands.html#cmdcond); defines a block to conditionally document or omit.
--   , see [\\a](http   *//www.doxygen.nl/manual/commands.html#cmda); displays the argument in italics for emphasis.
--    { parameter description }, see [\\param](http   *//www.doxygen.nl/manual/commands.html#cmdparam); indicates the parameter of a function.
--   \return { description of the return value }, see [\\return](http   *//www.doxygen.nl/manual/commands.html#cmdreturn); specifies the return value.
--   \sa { references }, see [\\sa](http   *//www.doxygen.nl/manual/commands.html#cmdsa); prints \"See also\".
--   \note { text }, see [\\note](http   *//www.doxygen.nl/manual/commands.html#cmdnote); adds a paragraph to be used as a note.
+-    (group title), see [\\defgroup](http://www.doxygen.nl/manual/commands.html#cmddefgroup), and [Grouping](http://www.doxygen.nl/manual/grouping.html).
+-   ]), see [\\ingroup](http://www.doxygen.nl/manual/commands.html#cmdingroup), and [Grouping](http://www.doxygen.nl/manual/grouping.html).
+-    [(title)], see [\\addtogroup](http://www.doxygen.nl/manual/commands.html#cmdaddtogroup), and [Grouping](http://www.doxygen.nl/manual/grouping.html).
+-   \author { list of authors }, see [\\author](http://www.doxygen.nl/manual/commands.html#cmdauthor); indicates the author of this piece of code.
+-   \brief { brief description }, see [\\brief](http://www.doxygen.nl/manual/commands.html#cmdbrief); briefly describes the function.
+-   ], see [\\file](http://www.doxygen.nl/manual/commands.html#cmdfile); documents a source or header file.
+-    (title), see [\\page](http://www.doxygen.nl/manual/commands.html#cmdpage); puts the information in a separate page, not directly related to one specific class, file or member.
+-   , see [\\package](http://www.doxygen.nl/manual/commands.html#cmdpackage); indicates documentation for a Java package (but also used with Python).
+-   \fn (function declaration), see [\\fn](http://www.doxygen.nl/manual/commands.html#cmdfn); documents a function.
+-   \var (variable declaration), see [\\var](http://www.doxygen.nl/manual/commands.html#cmdvar); documents a variable; it is equivalent to `\fn`, `\property`, and `\typedef`.
+-    (section title), see [\\section](http://www.doxygen.nl/manual/commands.html#cmdsection); starts a section.
+-    (subsection title), see [\\subsection](http://www.doxygen.nl/manual/commands.html#cmdsubsection); starts a subsection.
+-   , see [\\namespace](http://www.doxygen.nl/manual/commands.html#cmdnamespace); indicates information for a namespace.
+-   \cond [(section-label)], and \endcond, see [\\cond](http://www.doxygen.nl/manual/commands.html#cmdcond); defines a block to conditionally document or omit.
+-   , see [\\a](http://www.doxygen.nl/manual/commands.html#cmda); displays the argument in italics for emphasis.
+-    { parameter description }, see [\\param](http://www.doxygen.nl/manual/commands.html#cmdparam); indicates the parameter of a function.
+-   \return { description of the return value }, see [\\return](http://www.doxygen.nl/manual/commands.html#cmdreturn); specifies the return value.
+-   \sa { references }, see [\\sa](http://www.doxygen.nl/manual/commands.html#cmdsa); prints \"See also\".
+-   \note { text }, see [\\note](http://www.doxygen.nl/manual/commands.html#cmdnote); adds a paragraph to be used as a note.
 
 
 </div>
@@ -335,9 +335,9 @@ Some of the most common keywords used in the FreeCAD documentation are presented
 
 ## Markdown support 
 
-Since Doxygen 1.8, Markdown syntax is recognized in documentation blocks. Markdown is a minimalistic formatting language inspired by plain text email which, similar to wiki syntax, intends to be simple and readable without requiring complicated code like that found in HTML, LaTeX or Doxygen\'s own commands. Markdown has gained popularity with free software, especially in online platforms like Github, as it allows creating documentation without using complicated code. See the [Markdown support](http   *//www.doxygen.nl/manual/markdown.html) section in the Doxygen manual to learn more. Visit the [Markdown website](https   *//daringfireball.net/projects/markdown/) to learn more about the origin and philosophy of Markdown.
+Since Doxygen 1.8, Markdown syntax is recognized in documentation blocks. Markdown is a minimalistic formatting language inspired by plain text email which, similar to wiki syntax, intends to be simple and readable without requiring complicated code like that found in HTML, LaTeX or Doxygen\'s own commands. Markdown has gained popularity with free software, especially in online platforms like Github, as it allows creating documentation without using complicated code. See the [Markdown support](http://www.doxygen.nl/manual/markdown.html) section in the Doxygen manual to learn more. Visit the [Markdown website](https://daringfireball.net/projects/markdown/) to learn more about the origin and philosophy of Markdown.
 
-Doxygen supports a standard set of Markdown instructions, as well as some extensions such as [Github Markdown](https   *//github.github.com/github-flavored-markdown/).
+Doxygen supports a standard set of Markdown instructions, as well as some extensions such as [Github Markdown](https://github.github.com/github-flavored-markdown/).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -388,13 +388,13 @@ More text for this item.
 2. Second item.
 
 
-*single asterisks   * emphasis*
+*single asterisks: emphasis*
 
  
 _single underscores_
 
  
-**double asterisks   * strong emphasis**
+**double asterisks: strong emphasis**
 
  
 __double underscores__
@@ -412,13 +412,13 @@ We continue with a normal paragraph again.
 Use the printf() function. Inline code.
 
 
-[The link text](http   *//example.net/)
+[The link text](http://example.net/)
 
 
 ![Caption text](images//path/to/img.jpg)
 
 
-<http   *//www.example.com>
+<http://www.example.com>
 ```
 
 The following are Markdown extensions.
@@ -430,7 +430,7 @@ First Header  | Second Header
     Content Cell  | Content Cell 
 <nowiki>~~~~~~~~~~~~~</nowiki>{.py}
     # A class
-    class Dummy   *
+    class Dummy:
         pass
     <nowiki>~~~~~~~~~~~~~</nowiki>
 <nowiki>~~~~~~~~~~~~~</nowiki>{.c}
@@ -448,31 +448,31 @@ First Header  | Second Header
 
 ## Parsing of documentation blocks 
 
-The text inside a special documentation block is parsed before it is written to the HTML and LaTeX output files. During parsing the following steps take place   *
+The text inside a special documentation block is parsed before it is written to the HTML and LaTeX output files. During parsing the following steps take place:
 
 -   Markdown formatting is replaced by corresponding HTML or special commands.
--   The special commands inside the documentation are executed. See the section [Special Commands](http   *//www.doxygen.nl/manual/commands.html) in the manual for an explanation of each command.
+-   The special commands inside the documentation are executed. See the section [Special Commands](http://www.doxygen.nl/manual/commands.html) in the manual for an explanation of each command.
 -   If a line starts with some whitespace followed by one or more asterisks (`*`) and then optionally more whitespace, then all whitespace and asterisks are removed.
 -   All resulting blank lines are treated as paragraph separators.
 -   Links are automatically created for words corresponding to documented classes or functions. If the word is preceded by a percentage symbol `%`, then this symbol is removed, and no link is created for the word.
--   Links are created when certain patterns are found in the text. See the section [Automatic link generation](http   *//www.doxygen.nl/manual/autolink.html) in the manual for more information.
--   HTML tags that are in the documentation are interpreted and converted to LaTeX equivalents for the LaTeX output. See the section [HTML Commands](http   *//www.doxygen.nl/manual/htmlcmds.html) in the manual for an explanation of each supported HTML tag.
+-   Links are created when certain patterns are found in the text. See the section [Automatic link generation](http://www.doxygen.nl/manual/autolink.html) in the manual for more information.
+-   HTML tags that are in the documentation are interpreted and converted to LaTeX equivalents for the LaTeX output. See the section [HTML Commands](http://www.doxygen.nl/manual/htmlcmds.html) in the manual for an explanation of each supported HTML tag.
 
 ## Doxygen with Python code 
 
-Doxygen works best for statically typed languages like C++. However, it can also create [documentation for Python files](http   *//www.doxygen.nl/manual/docblocks.html#pythonblocks).
+Doxygen works best for statically typed languages like C++. However, it can also create [documentation for Python files](http://www.doxygen.nl/manual/docblocks.html#pythonblocks).
 
-There are two ways to write documentation blocks for Python   *
+There are two ways to write documentation blocks for Python:
 
 1.  The Pythonic way, using \"docstrings\", that is, a block of text surrounded by '''triple quotes''' immediately after the class or function definition.
 2.  The Doxygen way, putting comments before the class or function definition; in this case double hash characters `##` are used to start the documentation block, and then a single hash character can be used in subsequent lines.
 
-Note   *
+Note:
 
--   The first option is preferred to comply with [PEP8](https   *//www.python.org/dev/peps/pep-0008/#documentation-strings), [PEP257](https   *//www.python.org/dev/peps/pep-0257/) and most style guidelines for writing Python (see [1](https   *//realpython.com/python-pep8/), [2](https   *//realpython.com/documenting-python-code/)). It is recommended to use this style if you intend to produce documented sources using [Sphinx](https   *//www.sphinx-doc.org/en/master/), which is a very common tool to document Python code. If you use this style, Doxygen will be able to extract the comments verbatim, but Doxygen special commands starting with `\` or `@` won\'t work.
+-   The first option is preferred to comply with [PEP8](https://www.python.org/dev/peps/pep-0008/#documentation-strings), [PEP257](https://www.python.org/dev/peps/pep-0257/) and most style guidelines for writing Python (see [1](https://realpython.com/python-pep8/), [2](https://realpython.com/documenting-python-code/)). It is recommended to use this style if you intend to produce documented sources using [Sphinx](https://www.sphinx-doc.org/en/master/), which is a very common tool to document Python code. If you use this style, Doxygen will be able to extract the comments verbatim, but Doxygen special commands starting with `\` or `@` won\'t work.
 -   The second option isn\'t the traditional Python style, but it allows you to use Doxygen\'s special commands like `\param` and `\var`.
 
-### First style   * Pythonic documentation 
+### First style: Pythonic documentation 
 
 In the following example one docstring is at the beginning to explain the general contents of this module (file). Then docstrings appear inside the function, class, and class method definitions. In this way, Doxygen will extract the comments and present them as is, without modification.
 
@@ -485,7 +485,7 @@ More details.
 
 
 
-def func()   *
+def func():
     '''Documentation for a function.
     More details.
     '''
@@ -493,23 +493,23 @@ def func()   *
 
 
 
-class PyClass   *
+class PyClass:
     '''Documentation for a class.
     More details.
     '''
 
     
-def __init__(self)   *
+def __init__(self):
         '''The constructor.'''
         self._memVar = 0
 
     
-def PyMethod(self)   *
+def PyMethod(self):
         '''Documentation for a method.'''
         pass
 ```
 
-### Second style   * documentation block before the code 
+### Second style: documentation block before the code 
 
 In the following example the documentation blocks start with double hash signs  
 ```python
@@ -522,22 +522,22 @@ In the following example the documentation blocks start with double hash signs
 ## Documentation for a function.
 #
 #  More details.
-def func()   *
+def func():
     pass
 
 
 ## Documentation for a class.
 #
 #  More details.
-class PyClass   *
+class PyClass:
 
     ## The constructor.
-    def __init__(self)   *
+    def __init__(self):
         self._memVar = 0
 
     ## Documentation for a method.
     #  @param self The object pointer.
-    def PyMethod(self)   *
+    def PyMethod(self):
         pass
 
     ## A class variable.
@@ -559,7 +559,7 @@ xdg-open ./html/index.html
 The documentation should show similar information to the following, and create appropriate links to the individual modules and classes.  
 ```python
 Class List
-Here are the classes, structs, unions and interfaces with brief descriptions   *
+Here are the classes, structs, unions and interfaces with brief descriptions:
 
 N  pyexample_a
    C  PyClass
@@ -570,7 +570,7 @@ N  pyexample_b  Documentation for this module
 
 ### Converting the Pythonic style to Doxygen style 
 
-In the previous example, the Python file that is commented in a [Doxygen style](#Second_style__documentation_block_before_the_code.md) shows more detailed information and formatting for its classes, functions, and variables. The reason is that this style allows Doxygen to extract the special commands that start with `\` or `@`, while the [Pythonic style](#First_style__Pythonic_documentation.md) does not. Therefore, it would be desirable to convert the Pythonic style to Doxygen style before compiling the documentation. This is possible with an auxiliary Python program called [doxypypy](https   *//github.com/Feneric/doxypypy). This program is inspired by an older program called [doxypy](https   *//github.com/Feneric/doxypy), which would take the Pythonic '''docstrings''' and convert them to the Doxygen comment blocks that start with a double hash `##`. Doxypypy goes further than this, as it analyzes the docstrings and extracts items of interest like variables and arguments, and even doctests (example code in the docstrings).
+In the previous example, the Python file that is commented in a [Doxygen style](#Second_style__documentation_block_before_the_code.md) shows more detailed information and formatting for its classes, functions, and variables. The reason is that this style allows Doxygen to extract the special commands that start with `\` or `@`, while the [Pythonic style](#First_style__Pythonic_documentation.md) does not. Therefore, it would be desirable to convert the Pythonic style to Doxygen style before compiling the documentation. This is possible with an auxiliary Python program called [doxypypy](https://github.com/Feneric/doxypypy). This program is inspired by an older program called [doxypy](https://github.com/Feneric/doxypy), which would take the Pythonic '''docstrings''' and convert them to the Doxygen comment blocks that start with a double hash `##`. Doxypypy goes further than this, as it analyzes the docstrings and extracts items of interest like variables and arguments, and even doctests (example code in the docstrings).
 
 Doxypypy can be installed using  
 ```python
@@ -581,7 +581,7 @@ If the `pip` command is used without the `--user` option, it will require superu
 
 If the package was installed as a user, it may reside in your home directory, for example, in  
 ```python
-export PATH="$HOME/.local/bin   *$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 ```
 
 Alternatively, you can create a symbolic link to the  
@@ -612,7 +612,7 @@ More details go here.
 '''
 
 
-def myfunction(arg1, arg2, kwarg='whatever.')   *
+def myfunction(arg1, arg2, kwarg='whatever.'):
     '''
     Does nothing more than demonstrate syntax.
 
@@ -620,39 +620,39 @@ def myfunction(arg1, arg2, kwarg='whatever.')   *
     get parsed by doxypypy and marked up with Doxygen commands as a
     regular input filter to Doxygen.
 
-    Args   *
-        arg1   *   A positional argument.
-        arg2   *   Another positional argument.
+    Args:
+        arg1:   A positional argument.
+        arg2:   Another positional argument.
 
-    Kwargs   *
-        kwarg   *  A keyword argument.
+    Kwargs:
+        kwarg:  A keyword argument.
 
-    Returns   *
+    Returns:
         A string holding the result.
 
-    Raises   *
+    Raises:
         ZeroDivisionError, AssertionError, & ValueError.
 
-    Examples   *
+    Examples:
         >>> myfunction(2, 3)
         '5 - 0, whatever.'
         >>> myfunction(5, 0, 'oops.')
-        Traceback (most recent call last)   *
+        Traceback (most recent call last):
             ...
-        ZeroDivisionError   * integer division or modulo by zero
+        ZeroDivisionError: integer division or modulo by zero
         >>> myfunction(4, 1, 'got it.')
         '5 - 4, got it.'
         >>> myfunction(23.5, 23, 'oh well.')
-        Traceback (most recent call last)   *
+        Traceback (most recent call last):
             ...
         AssertionError
         >>> myfunction(5, 50, 'too big.')
-        Traceback (most recent call last)   *
+        Traceback (most recent call last):
             ...
         ValueError
     '''
     assert isinstance(arg1, int)
-    if arg2 > 23   *
+    if arg2 > 23:
         raise ValueError
     return '{0} - {1}, {2}'.format(arg1 + arg2, arg1 / arg2, kwarg)
 ```
@@ -706,25 +706,25 @@ def myfunction(arg1, arg2, kwarg='whatever.')   *
 #        >>> myfunction(2, 3)
 #        '5 - 0, whatever.'
 #        >>> myfunction(5, 0, 'oops.')
-#        Traceback (most recent call last)   *
+#        Traceback (most recent call last):
 #            ...
-#        ZeroDivisionError   * integer division or modulo by zero
+#        ZeroDivisionError: integer division or modulo by zero
 #        >>> myfunction(4, 1, 'got it.')
 #        '5 - 4, got it.'
 #        >>> myfunction(23.5, 23, 'oh well.')
-#        Traceback (most recent call last)   *
+#        Traceback (most recent call last):
 #            ...
 #        AssertionError
 #        >>> myfunction(5, 50, 'too big.')
-#        Traceback (most recent call last)   *
+#        Traceback (most recent call last):
 #            ...
 #        ValueError
 # @endcode
 #
 
-def myfunction(arg1, arg2, kwarg='whatever.')   *
+def myfunction(arg1, arg2, kwarg='whatever.'):
     assert isinstance(arg1, int)
-    if arg2 > 23   *
+    if arg2 > 23:
         raise ValueError
     return '{0} - {1}, {2}'.format(arg1 + arg2, arg1 / arg2, kwarg)
 ```
@@ -775,7 +775,7 @@ xdg-open ./html/index.html
 The documentation should show similar information to the following, and create appropriate links to the individual modules.  
 ```python
 Namespace List
-Here is a list of all documented namespaces with brief descriptions   *
+Here is a list of all documented namespaces with brief descriptions:
 
  N  pyexample_doxygen   Documentation for this module
  N  pyexample_pythonic  
@@ -816,7 +816,7 @@ With this configuration done, the `doxygen Doxyfile` command can be run to gener
 
 Note that existing Python files which already use the `##double hash` style for their comment blocks won\'t be affected by the `doxypypy` filter, and will be processed by Doxygen normally.
 
-<img alt="" src=images/FreeCAD_doxygen_doxypypy_workflow.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_doxygen_doxypypy_workflow.svg  style="width:800px;">
 
 
 
@@ -824,7 +824,7 @@ Note that existing Python files which already use the `##double hash` style for 
 
 ### Python code quality check 
 
-To use the automatic conversion of documentation blocks it is important that the original Python sources are correctly written, following the Pythonic guidelines in [PEP8](https   *//www.python.org/dev/peps/pep-0008/#documentation-strings) and [PEP257](https   *//www.python.org/dev/peps/pep-0257/). Sloppily written code will cause `doxypypy` to fail when processing the file, and thus Doxygen will be unable to format the documentation correctly.
+To use the automatic conversion of documentation blocks it is important that the original Python sources are correctly written, following the Pythonic guidelines in [PEP8](https://www.python.org/dev/peps/pep-0008/#documentation-strings) and [PEP257](https://www.python.org/dev/peps/pep-0257/). Sloppily written code will cause `doxypypy` to fail when processing the file, and thus Doxygen will be unable to format the documentation correctly.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -839,7 +839,7 @@ The following commenting styles will not allow parsing of the docstrings by `dox
 '''@package Bad
 '''
 
-def first_f(one, two)   *
+def first_f(one, two):
 
     "Bad comment 1"
 
@@ -847,19 +847,19 @@ def first_f(one, two)   *
     result_m = one * two
     return result, result_m
 
-def second_f(one, two)   *
+def second_f(one, two):
     "Bad comment 2"
     result = one + two
     result_m = one * two
     return result, result_m
 
-def third_f(one, two)   *
+def third_f(one, two):
     'Bad comment 3'
     result = one + two
     result_m = one * two
     return result, result_m
 
-def fourth_f(one, two)   *
+def fourth_f(one, two):
     #Bad comment 4
     result = one + two
     result_m = one * two
@@ -876,7 +876,7 @@ def fourth_f(one, two)   *
 
 Always use triple quotes for the docstrings, and make sure they immediately follow the class or function declaration.
 
-It is also a good idea to verify the quality of your Python code with a tool such as [flake8](http   *//flake8.pycqa.org/en/latest/) ([Gitlab](https   *//gitlab.com/pycqa/flake8)). Flake8 primarily combines three tools, [Pyflakes](https   *//github.com/PyCQA/pyflakes), [Pycodestyle](https   *//github.com/PyCQA/pycodestyle) (formerly pep8), and the [McCabe complexity checker](https   *//github.com/PyCQA/mccabe), in order to enforce proper Pythonic style.
+It is also a good idea to verify the quality of your Python code with a tool such as [flake8](http://flake8.pycqa.org/en/latest/) ([Gitlab](https://gitlab.com/pycqa/flake8)). Flake8 primarily combines three tools, [Pyflakes](https://github.com/PyCQA/pyflakes), [Pycodestyle](https://github.com/PyCQA/pycodestyle) (formerly pep8), and the [McCabe complexity checker](https://github.com/PyCQA/mccabe), in order to enforce proper Pythonic style.
 
  
 ```python
@@ -889,12 +889,12 @@ To check all files inside a source tree use
 find toplevel-source/ -name '*.py' -exec flake8 {} '+'
 ```
 
-If the project demands it, some code checks deemed too strict can be ignored. The error codes can be consulted in the [Pycodestyle documentation](https   *//pycodestyle.readthedocs.io/en/latest/intro.html#error-codes).  
+If the project demands it, some code checks deemed too strict can be ignored. The error codes can be consulted in the [Pycodestyle documentation](https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes).  
 ```python
 find toplevel-source/ -name '*.py' -exec flake8 --ignore=E266,E402,E722,W503 --max-line-length=100 {} '+'
 ```
 
-In similar way, a program that primarily checks that comments comply with [PEP257](https   *//www.python.org/dev/peps/pep-0257/) is [Pydocstyle](https   *//github.com/PyCQA/pydocstyle). The error codes can be consulted in the [Pydocstyle documentation](http   *//www.pydocstyle.org/en/4.0.0/error_codes.html).  
+In similar way, a program that primarily checks that comments comply with [PEP257](https://www.python.org/dev/peps/pep-0257/) is [Pydocstyle](https://github.com/PyCQA/pydocstyle). The error codes can be consulted in the [Pydocstyle documentation](http://www.pydocstyle.org/en/4.0.0/error_codes.html).  
 ```python
 pip install --user pydocstyle
 pydocstyle example.py
@@ -907,22 +907,18 @@ find toplevel-source/ -name '*.py' -exec pydocstyle {} '+'
 
 ## Source documentation with Sphinx 
 
-[Sphinx](https   *//www.sphinx-doc.org/en/master/) is the most popular system to document Python source code. However, since FreeCAD\'s core functions and workbenches are written in C++ it was deemed that Doxygen is a better documentation tool for this project.
+[Sphinx](https://www.sphinx-doc.org/en/master/) is the most popular system to document Python source code. However, since FreeCAD\'s core functions and workbenches are written in C++ it was deemed that Doxygen is a better documentation tool for this project.
 
-While Sphinx can natively parse Python docstrings, it requires a bit more work to parse C++ sources. The [Breathe](https   *//breathe.readthedocs.io/en/latest/) ([Github](https   *//github.com/michaeljones/breathe)) project is an attempt at bridging the gap between Sphinx and Doxygen, in order to integrate both Python and C++ source code documentation in the same system. First, Doxygen needs to be configured to output an XML file; the XML output is then read by Breathe, and converted to suitable input for Sphinx.
+While Sphinx can natively parse Python docstrings, it requires a bit more work to parse C++ sources. The [Breathe](https://breathe.readthedocs.io/en/latest/) ([Github](https://github.com/michaeljones/breathe)) project is an attempt at bridging the gap between Sphinx and Doxygen, in order to integrate both Python and C++ source code documentation in the same system. First, Doxygen needs to be configured to output an XML file; the XML output is then read by Breathe, and converted to suitable input for Sphinx.
 
-See the [Quick start guide](https   *//breathe.readthedocs.io/en/latest/quickstart.html) in the Breathe documentation to know more about this process.
+See the [Quick start guide](https://breathe.readthedocs.io/en/latest/quickstart.html) in the Breathe documentation to know more about this process.
 
-See this answer in [Stackoverflow](https   *//stackoverflow.com/a/35377654) for other alternatives to documenting C++ and Python code together in the same project.
+See this answer in [Stackoverflow](https://stackoverflow.com/a/35377654) for other alternatives to documenting C++ and Python code together in the same project.
 
 ## Related
 
 -   [Source documentation](Source_documentation.md)
--   [FreeCAD API website](https   *//www.freecadweb.org/api/)
-
-
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *3rd Party](Category_3rd_Party.md)
+-   [FreeCAD API website](https://www.freecadweb.org/api/)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */cs
-   Name   *Sketcher NewSketch
-   Name/cs   *Skicář Nový náčrt
-   Workbenches   *[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation   *Náčrt → Vytvoř náčrt
-   SeeAlso   *[Sketcher MapSketch](Sketcher_MapSketch/cs.md), [Sketcher Reorient](Sketcher_ReorientSketch/cs.md)
+- GuiCommand:/cs
+   Name:Sketcher NewSketch
+   Name/cs:Skicář Nový náčrt
+   Workbenches:[Skicář](Sketcher_Workbench/cs.md)
+   MenuLocation:Náčrt → Vytvoř náčrt
+   SeeAlso:[Sketcher MapSketch](Sketcher_MapSketch/cs.md), [Sketcher Reorient](Sketcher_ReorientSketch/cs.md)
 ---
 
 # Sketcher NewSketch/cs
@@ -16,7 +16,7 @@
 
 This will create a new [sketch](Sketcher_Workbench.md).
 
-Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
+Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
 
 
 <div class="mw-translate-fuzzy">

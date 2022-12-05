@@ -1,4 +1,4 @@
-# <img alt="El icono del Ambiente de trabajo Ingeniería inversa" src=images/Workbench_Reverse_Engineering.svg  style="width   *64px;"> Reverse Engineering Workbench/es
+# <img alt="El icono del Ambiente de trabajo Ingeniería inversa" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/es
 
 ## Introduction
 
@@ -7,7 +7,7 @@
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *24px;"> [Ambiente de trabajo Ingeniería inversa](Reverse_Engineering_Workbench/es.md) tiene como objetivo proporcionarle herramientas específicas para convertir formas, sólidos y mallas en características paramétricas de FreeCAD. Aún está en desarrollo.
+El <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Ambiente de trabajo Ingeniería inversa](Reverse_Engineering_Workbench/es.md) tiene como objetivo proporcionarle herramientas específicas para convertir formas, sólidos y mallas en características paramétricas de FreeCAD. Aún está en desarrollo.
 
 
 </div>
@@ -24,19 +24,11 @@ Las herramientas de ingeniería inversa (RE) se encuentran en el menú RE y en l
 
 </div>
 
--   <img alt="" src=images/FitSurface.svg  style="width   *32px;"> Aproximar una superficie B-spline   *
+-   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Aproximar una superficie B-spline:
 
 ## Desarrollo
 
 Enlace a los hilos apropiados en los que se habla de este ambiente de trabajo
-
-
-
-
-
-
-
-[Category   *Reverse Engineering](Category_Reverse_Engineering.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

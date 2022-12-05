@@ -6,12 +6,12 @@
 
 <div class="mw-translate-fuzzy">
 
-[Python](wikipedia   *Python_(programming_language).md) ist eine Programmierumgebung, die in das [FreeCAD](http   *//www.freecadweb.org/) System integriert wurde. Mit Python stehen viele von FreeCAD angebotene Abläufe für den programmierten Zugriff zur Verfügung. Python Programme für FreeCAD werden in der Regel so entwickelt, dass sie entweder auf der Python Konsole oder über die Makrofunktion von FreeCAD ausgeführt werden können (siehe [Wie man Makros installiert](How_to_install_macros/de.md)).
+[Python](wikipedia:Python_(programming_language).md) ist eine Programmierumgebung, die in das [FreeCAD](http://www.freecadweb.org/) System integriert wurde. Mit Python stehen viele von FreeCAD angebotene Abläufe für den programmierten Zugriff zur Verfügung. Python Programme für FreeCAD werden in der Regel so entwickelt, dass sie entweder auf der Python Konsole oder über die Makrofunktion von FreeCAD ausgeführt werden können (siehe [Wie man Makros installiert](How_to_install_macros/de.md)).
 
 
 </div>
 
-Für die Programmentwicklung in Python stehen zahlreiche Werkzeuge zur Verfügung. Die komplizierenden Faktoren für die Entwicklung von Python zur Verwendung mit FreeCAD sind zweifach   * Zum einen haben die Werkzeuge keine Unterstützung für die zahlreichen Datenstrukturen und Zugriffspunkte von FreeCAD; zum anderen funktionieren sie nicht \"innerhalb von FreeCAD\". Das bedeutet, dass Du mit ihnen Code außerhalb von FreeCAD entwickeln kannst und nicht in der Zielumgebung testen kannst; oder Du kannst Python in der Zielumgebung (d.h. der FreeCAD Umgebung) entwickeln, hast aber keine Unterstützung durch die Entwicklungswerkzeuge. Keines von beiden ist eine akzeptable Lösung.
+Für die Programmentwicklung in Python stehen zahlreiche Werkzeuge zur Verfügung. Die komplizierenden Faktoren für die Entwicklung von Python zur Verwendung mit FreeCAD sind zweifach: Zum einen haben die Werkzeuge keine Unterstützung für die zahlreichen Datenstrukturen und Zugriffspunkte von FreeCAD; zum anderen funktionieren sie nicht \"innerhalb von FreeCAD\". Das bedeutet, dass Du mit ihnen Code außerhalb von FreeCAD entwickeln kannst und nicht in der Zielumgebung testen kannst; oder Du kannst Python in der Zielumgebung (d.h. der FreeCAD Umgebung) entwickeln, hast aber keine Unterstützung durch die Entwicklungswerkzeuge. Keines von beiden ist eine akzeptable Lösung.
 
 ## Background
 
@@ -20,7 +20,7 @@ Für die Programmentwicklung in Python stehen zahlreiche Werkzeuge zur Verfügun
 
 ## Hintergrund
 
-Die moderne Softwareentwicklung auf dem kommerziellen Standard erfolgt in der Regel mit einem Satz von Werkzeugen, der üblicherweise als [\'IDE\'](wikipedia_Integrated_development_environment.md) bezeichnet wird. Typischerweise umfassen diese Werkzeuge die folgenden 3   *
+Die moderne Softwareentwicklung auf dem kommerziellen Standard erfolgt in der Regel mit einem Satz von Werkzeugen, der üblicherweise als [\'IDE\'](wikipedia_Integrated_development_environment.md) bezeichnet wird. Typischerweise umfassen diese Werkzeuge die folgenden 3:
 
 
 </div>
@@ -29,7 +29,7 @@ Die moderne Softwareentwicklung auf dem kommerziellen Standard erfolgt in der Re
 -   Automatisierungstools bauen
 -   Fehlersuchprogramme
 
-die Standard sind, während die folgenden in einigen IDEs vorhanden sind, in anderen aber nicht   *
+die Standard sind, während die folgenden in einigen IDEs vorhanden sind, in anderen aber nicht:
 
 -   intelligente Code Vervollständigung
 -   integrierter Compiler, Interpreter oder beides
@@ -42,10 +42,10 @@ die Standard sind, während die folgenden in einigen IDEs vorhanden sind, in and
 
 <div class="mw-translate-fuzzy">
 
-Eine Zusammenfassung des Status dieser Werkzeuge innerhalb von FreeCAD ist (\'N/V\' bedeutet \'Nicht Verfügbar\'.)   *
+Eine Zusammenfassung des Status dieser Werkzeuge innerhalb von FreeCAD ist (\'N/V\' bedeutet \'Nicht Verfügbar\'.):
 
 
-<table style="width   * 100%" border="1">
+<table style="width: 100%" border="1">
 
 
 <tr>
@@ -278,7 +278,7 @@ Es gibt viele Werkzeuge zur Unterstützung der oben genannten Funktion für die 
 
 <div class="mw-translate-fuzzy">
 
-Eine Liste von IDEs für Python findest du unter [Integrierte Entwicklungsumgebungen für Python](https   *//wiki.python.org/moin/IntegratedDevelopmentEnvironments).
+Eine Liste von IDEs für Python findest du unter [Integrierte Entwicklungsumgebungen für Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments).
 
 
 </div>
@@ -290,12 +290,12 @@ Eine Liste von IDEs für Python findest du unter [Integrierte Entwicklungsumgebu
 
 ## Editoren
 
-Es gibt einen Editor für Python als Teil von FreeCAD, er wird durch Klicken auf die Schaltfläche Bearbeiten im Menü Makro-\>Makros\... gestartet. Wenn du einen Editor eines Drittanbieters verwenden möchtest, der die Vorteile deiner Plattform ausnutzt, dann gibt es verschiedene Python Editoren, für zahlreiche Plattformen und mit unterschiedlichem Funktionsumfang. Ein Vorteil der Verwendung eines externen Editors ist, dass der Anzeigebereich von FreeCAD für die Ausgabe (sowohl grafisch als auch in Textform auf der Konsole) genutzt werden kann, während der Quellcode in einer anderen Anwendung angezeigt wird. Eine Liste von Editoren für Python für eine Vielzahl von Plattformen ist verfügbar unter [Python Editoren](https   *//wiki.python.org/moin/PythonEditors).
+Es gibt einen Editor für Python als Teil von FreeCAD, er wird durch Klicken auf die Schaltfläche Bearbeiten im Menü Makro-\>Makros\... gestartet. Wenn du einen Editor eines Drittanbieters verwenden möchtest, der die Vorteile deiner Plattform ausnutzt, dann gibt es verschiedene Python Editoren, für zahlreiche Plattformen und mit unterschiedlichem Funktionsumfang. Ein Vorteil der Verwendung eines externen Editors ist, dass der Anzeigebereich von FreeCAD für die Ausgabe (sowohl grafisch als auch in Textform auf der Konsole) genutzt werden kann, während der Quellcode in einer anderen Anwendung angezeigt wird. Eine Liste von Editoren für Python für eine Vielzahl von Plattformen ist verfügbar unter [Python Editoren](https://wiki.python.org/moin/PythonEditors).
 
 
 </div>
 
-Hinweis   * Für den Macintosh funktioniert der Texteditor [TextWrangler](http   *//www.barebones.com/products/textwrangler/) gut. Er verfügt über Code Hervorhebung und ausgezeichnete Suchmöglichkeiten. Es gibt Optionen zur Ausführung von Aufträgen in Python, aber diese funktionieren natürlich nicht mit der FreeCAD Umgebung.
+Hinweis: Für den Macintosh funktioniert der Texteditor [TextWrangler](http://www.barebones.com/products/textwrangler/) gut. Er verfügt über Code Hervorhebung und ausgezeichnete Suchmöglichkeiten. Es gibt Optionen zur Ausführung von Aufträgen in Python, aber diese funktionieren natürlich nicht mit der FreeCAD Umgebung.
 
 ### Macro Source Code Directories 
 
@@ -304,10 +304,10 @@ Hinweis   * Für den Macintosh funktioniert der Texteditor [TextWrangler](http  
 
 ### Makro Quellcode Verzeichnisse 
 
-Es gibt zwei Verzeichnisse, die von FreeCAD verwendet werden. Standardmäßig handelt es sich um dasselbe Verzeichnis, aber sie werden von verschiedenen Aufrufpunkten in FreeCAD angesprochen   *
+Es gibt zwei Verzeichnisse, die von FreeCAD verwendet werden. Standardmäßig handelt es sich um dasselbe Verzeichnis, aber sie werden von verschiedenen Aufrufpunkten in FreeCAD angesprochen:
 
 -   FreeCAD.ConfigGet (\"UserAppData\")
--   FreeCAD.ParamGet(\'User parameter   *BaseApp/Preferences/Macro\').GetString(\'MacroPath\')
+-   FreeCAD.ParamGet(\'User parameter:BaseApp/Preferences/Macro\').GetString(\'MacroPath\')
 
 
 </div>
@@ -320,11 +320,11 @@ Standardmäßig befinden sich diese beiden Verzeichnisse am selben Ort, aber die
 
 Das Bearbeiten von Dateien, die sich im \"MacroPath\" befinden, ist unkompliziert, der Texteditor wird dies berücksichtigen. Um die Benutzung von FreeCAD Makro Dateien zu erleichtern, ist es ratsam, alle Makro Dateien in dem Verzeichnis zu belassen, auf das \"MacroPath\" verweist.
 
-Um das Verzeichnis \"MacroPath\" zu ändern, verwende Werkzeuge-\>Parameter bearbeiten und wähle dann Einstellungen/Makro/MakroPfad, wo der Text doppelgeklickt und bearbeitet werden kann. Alternativ kann \"MacroPath\" durch den Code geändert werden   *
+Um das Verzeichnis \"MacroPath\" zu ändern, verwende Werkzeuge-\>Parameter bearbeiten und wähle dann Einstellungen/Makro/MakroPfad, wo der Text doppelgeklickt und bearbeitet werden kann. Alternativ kann \"MacroPath\" durch den Code geändert werden:
 
 
 ```python
-FreeCAD.ParamGet('User parameter   *BaseApp/Preferences/Macro').SetString('MacroPath','/me/myself/and/I')
+FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPath','/me/myself/and/I')
 ```
 
 ## Debugger
@@ -337,7 +337,7 @@ FreeCAD.ParamGet('User parameter   *BaseApp/Preferences/Macro').SetString('Macro
 
 **'''Ein Fehlersuchprogramm ist für FreeCAD geplant, und diese Schritte sind ein Übergangslösung, bis er verfügbar ist. Siehe github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
-[Debugger](wikipedia_Debugger.md) bieten typischerweise zwei Hauptfunktionen (unter anderem)   *
+[Debugger](wikipedia_Debugger.md) bieten typischerweise zwei Hauptfunktionen (unter anderem):
 
 -   Haltepunkte im Quellcode
 -   Variablenprüfung
@@ -345,7 +345,7 @@ FreeCAD.ParamGet('User parameter   *BaseApp/Preferences/Macro').SetString('Macro
 
 </div>
 
-[Debuggers](https   *//en.wikipedia.org/wiki/Debugger) typically provide two main features (among others)   *
+[Debuggers](https://en.wikipedia.org/wiki/Debugger) typically provide two main features (among others):
 
 -   breakpoints in the source code
 -   variable inspection
@@ -370,13 +370,13 @@ Die Implementierung von Haltepunkten beinhaltet eine übergeordnete Ebene des Co
 
 **Breakpoint Code** 
 ```python
-def breakpoint(*args)   *
+def breakpoint(*args):
     # this routine will print an optional parameter on the console and then stop execution by diving by zero
     # e.g. breakpoint()
     # e.g. breakpoint("summation module")
     #
-    if len(args)>0   *
-        FreeCAD.Console.PrintMessage('Breakpoint   * '+str(args[0])+"\n")
+    if len(args)>0:
+        FreeCAD.Console.PrintMessage('Breakpoint: '+str(args[0])+"\n")
     hereWeStop = 12/0
     
 ```
@@ -392,22 +392,22 @@ Für das Codebeispiel
 breakpoint('amalgamation routine')
 ```
 
-erhalten wir den/die folgende(n) Traceback/Rückverfolgung   *
+erhalten wir den/die folgende(n) Traceback/Rückverfolgung:
 
 
 ```python
-Breakpoint   * amalgamation routine
-Traceback (most recent call last)   *
+Breakpoint: amalgamation routine
+Traceback (most recent call last):
   File "/Users/wylbur/Library/Preferences/FreeCAD/testStub.FCMacro", line 40, in <module>
     breakpoint()
   File "/Users/wylbur/Library/Preferences/FreeCAD/myNewMacro.FCMacro", line 28, in breakpoint
     hereWeStop = 12/0
-ZeroDivisionError   * integer division or modulo by zero
+ZeroDivisionError: integer division or modulo by zero
 ```
 
-Wenn wir den/die Traceback/Rückverfolgung lesen, können wir das feststellen   *
+Wenn wir den/die Traceback/Rückverfolgung lesen, können wir das feststellen:
 
--   eine Nachricht von \'Haltepunkt   * Verschmelzungsroutine\' von dem Haltepunkt gesendet wurde, der die Zeichenkette \'Verschmelzungsroutine\' hat
+-   eine Nachricht von \'Haltepunkt: Verschmelzungsroutine\' von dem Haltepunkt gesendet wurde, der die Zeichenkette \'Verschmelzungsroutine\' hat
 -   der Ausführungsfehler trat in Zeile 28 des Moduls \'myNewMacro\' auf
 -   die Routine \'myNewMacro\' wurde ab Zeile 40 im Modul \'testStub\' aufgerufen
 
@@ -430,7 +430,7 @@ Das zweite Hauptmerkmal eines Fehlersuchprogramms besteht darin, den Inhalt von 
 
 <div class="mw-translate-fuzzy">
 
-Ein Merkmal des FreeCAD Systems ist die Bereitstellung von globalen Variablen. Diese Variablen werden durch den Python Code erzeugt und existieren im Speicher von FreeCAD, bis der Benutzer FreeCAD verlässt. Die Form dieser Variablen ist   *
+Ein Merkmal des FreeCAD Systems ist die Bereitstellung von globalen Variablen. Diese Variablen werden durch den Python Code erzeugt und existieren im Speicher von FreeCAD, bis der Benutzer FreeCAD verlässt. Die Form dieser Variablen ist:
 
 
 </div>
@@ -443,7 +443,7 @@ FreeCAD.myVariable = 123
 
 <div class="mw-translate-fuzzy">
 
-Die Anweisung erzeugt eine Python Variable im FreeCAD Speicher, auf die Python Code uneingeschränkt zugreifen kann. Tatsächlich verhält sie sich identisch zu einer normalen Python Variable. Dennoch nach Beendigung der Ausführung des Python Codes, unabhängig davon, ob er als Makro oder über die Konsole ausgeführt wird, verbleibt im Speicher eine Variable \'FreeCAD.myVariable\' mit dem Wert 123. Eingabe   *
+Die Anweisung erzeugt eine Python Variable im FreeCAD Speicher, auf die Python Code uneingeschränkt zugreifen kann. Tatsächlich verhält sie sich identisch zu einer normalen Python Variable. Dennoch nach Beendigung der Ausführung des Python Codes, unabhängig davon, ob er als Makro oder über die Konsole ausgeführt wird, verbleibt im Speicher eine Variable \'FreeCAD.myVariable\' mit dem Wert 123. Eingabe:
 
 
 </div>
@@ -454,7 +454,7 @@ Die Anweisung erzeugt eine Python Variable im FreeCAD Speicher, auf die Python C
 123
 ```
 
-erzeugt den Inhalt der Variable auf der Konsole. Dieser Wert verbleibt in FreeCAD, bis er entweder geändert wird oder der Benutzer FreeCAD verlässt. Das bedeutet, dass der Wert vorhanden und für ein nachfolgendes Python Programm zum Lesen verfügbar ist. Er kann jederzeit von der Konsole aus überprüft werden, indem man seinen Namen eingibt. Also ein Programm namens \'Programm A\'   *
+erzeugt den Inhalt der Variable auf der Konsole. Dieser Wert verbleibt in FreeCAD, bis er entweder geändert wird oder der Benutzer FreeCAD verlässt. Das bedeutet, dass der Wert vorhanden und für ein nachfolgendes Python Programm zum Lesen verfügbar ist. Er kann jederzeit von der Konsole aus überprüft werden, indem man seinen Namen eingibt. Also ein Programm namens \'Programm A\':
 
 
 ```python
@@ -465,7 +465,7 @@ myListVariable.append('abc')
 FreeCAD.myVariable = myListVariable
 ```
 
-kann ausführen und Werte in die globale Variable laden. Später kann ein zweites Programm namens \'Programm B\' laufen und den Wert abrufen   *
+kann ausführen und Werte in die globale Variable laden. Später kann ein zweites Programm namens \'Programm B\' laufen und den Wert abrufen:
 
 
 ```python
@@ -473,7 +473,7 @@ myOtherVariable = FreeCAD.myVariable
 # further calculations involving myOtherVariable
 ```
 
-Vermutlich führt \'Programm B\' dann Berechnungen mit den in FreeCAD.myVariable verbliebenen Werten durch. Der Benutzer kann jederzeit in die Konsole tippen, um den Inhalt der Variablen zu überprüfen   *
+Vermutlich führt \'Programm B\' dann Berechnungen mit den in FreeCAD.myVariable verbliebenen Werten durch. Der Benutzer kann jederzeit in die Konsole tippen, um den Inhalt der Variablen zu überprüfen:
 
 
 ```python
@@ -496,11 +496,11 @@ Damit sind wir an einem Punkt angelangt, an dem wir die beiden Schritte zusammen
 
 </div>
 
-Es ist wahrscheinlich am einfachsten, es anhand eines Beispiels zu präsentieren, sagen wir, das folgende Programm wird fehlerbereinigt   *
+Es ist wahrscheinlich am einfachsten, es anhand eines Beispiels zu präsentieren, sagen wir, das folgende Programm wird fehlerbereinigt:
 
 
 ```python
-def monthCounter()   *
+def monthCounter():
     # program to calculate the number of months in the year
     signsInTheZodiac = 12
     numberOfSeasons = 3
@@ -512,7 +512,7 @@ def monthCounter()   *
     FreeCAD.Console.PrintMessage(numberOfMonths)
 ```
 
-Die Ausführung des Programms auf der Konsole ergibt   *
+Die Ausführung des Programms auf der Konsole ergibt:
 
 
 ```python
@@ -520,11 +520,11 @@ Die Ausführung des Programms auf der Konsole ergibt   *
 10
 ```
 
-was nicht das ist, was wir erwartet haben! Angenommen, wir sind nicht in der Lage, die Fehler zu erkennen, dann können wir unseren unkomplizierten Haltepunkt- und Variablenprüfer wie folgt einsetzen. Wir können eine Zeile einfügen, um den Wert der Variablen, über die wir uns wundern, in eine globale Variable zu kopieren, dann können wir einen Haltepunkt setzen, um die Ausführung dort anzuhalten   *
+was nicht das ist, was wir erwartet haben! Angenommen, wir sind nicht in der Lage, die Fehler zu erkennen, dann können wir unseren unkomplizierten Haltepunkt- und Variablenprüfer wie folgt einsetzen. Wir können eine Zeile einfügen, um den Wert der Variablen, über die wir uns wundern, in eine globale Variable zu kopieren, dann können wir einen Haltepunkt setzen, um die Ausführung dort anzuhalten:
 
 
 ```python
-def monthCounter()   *
+def monthCounter():
     # program to calculate the number of months in the year
     signsInTheZodiac = 12
     numberOfSeasons = 3
@@ -538,21 +538,21 @@ def monthCounter()   *
     FreeCAD.Console.PrintMessage(numberOfMonths)
 ```
 
-Nun, wenn wir das Programm ausführen, erhalten wir   *
+Nun, wenn wir das Programm ausführen, erhalten wir:
 
 
 ```python
 >>> monthCounter()
-Breakpoint   * is this assignment faulty?
-Traceback (most recent call last)   *
+Breakpoint: is this assignment faulty?
+Traceback (most recent call last):
   File "<input>", line 1, in <module>
   File "<input>", line 9, in monthCounter
   File "<input>", line 5, in breakpoint
-ZeroDivisionError   * integer division or modulo by zero
+ZeroDivisionError: integer division or modulo by zero
 >>> 
 ```
 
-Wahrscheinlich sieht es nicht so gut aus, aber was wir jetzt tun können, ist, den Wert der Python Variablen \'temporaryVariable1\' zu überprüfen, wie wir ihren Wert der globalen Variablen \'FreeCAD.saveMyVariable\' zugewiesen haben   *
+Wahrscheinlich sieht es nicht so gut aus, aber was wir jetzt tun können, ist, den Wert der Python Variablen \'temporaryVariable1\' zu überprüfen, wie wir ihren Wert der globalen Variablen \'FreeCAD.saveMyVariable\' zugewiesen haben:
 
 
 ```python
@@ -570,7 +570,7 @@ Sobald der Fehler in der Anweisung lokalisiert wurde
 numberOfSeasons = 3
 ```
 
-und korrigiert auf   *
+und korrigiert auf:
 
 
 ```python
@@ -581,7 +581,7 @@ Dann können wir das Programm erneut ausführen und erhalten den Wert \'11\', wa
 
 
 ```python
-def monthCounter()   *
+def monthCounter():
     # program to calculate the number of months in the year
     signsInTheZodiac = 12
     numberOfSeasons = 4
@@ -597,7 +597,7 @@ def monthCounter()   *
     FreeCAD.Console.PrintMessage(numberOfMonths)
 ```
 
-Wir haben jetzt zwei Haltepunkte (obwohl einer auskommentiert ist) und zwei globale FreeCAD Variablen in Verwendung. Es gibt keine praktische Begrenzung für die von FreeCAD verfügbaren globalen Variablen, so dass keine unnötigen Einsparungen erforderlich sind. Wir können jetzt auf der Konsole Folgendes erzeugen   *
+Wir haben jetzt zwei Haltepunkte (obwohl einer auskommentiert ist) und zwei globale FreeCAD Variablen in Verwendung. Es gibt keine praktische Begrenzung für die von FreeCAD verfügbaren globalen Variablen, so dass keine unnötigen Einsparungen erforderlich sind. Wir können jetzt auf der Konsole Folgendes erzeugen:
 
 
 ```python
@@ -608,7 +608,7 @@ Wir haben jetzt zwei Haltepunkte (obwohl einer auskommentiert ist) und zwei glob
 >>> 
 ```
 
-Einige Punkte über die Verwendung der globalen FreeCAD Variablen   *
+Einige Punkte über die Verwendung der globalen FreeCAD Variablen:
 
 -   Python behandelt diese Variablen identisch zu jeder anderen Python Variablen
 -   diese Variablen können jeden Python Datentyp enthalten - alles, was eine reguläre Python Variable enthalten würde
@@ -658,7 +658,7 @@ Ein einfacherer Ansatz ist es, den Python Code zu nehmen und ihn nicht aus dem F
 
 <div class="mw-translate-fuzzy">
 
-Das Verbinden eines Makros mit einer Schaltfläche auf einer Symbolleiste wird in [So installieren Sie Makros](How_to_install_macros/de.md) und [So passen Sie eine Symbolleiste an](Customize_Toolbars/de.md) behandelt. Es kann einige Minuten dauern, ein Makro mit einer Schaltfläche in der Symbolleiste zu verbinden, ein Symbol auszuwählen usw. Dies ist nicht immer erforderlich, da man manchmal einfach nur schnell ein Stück Code ausarbeiten möchte, das dann in einen anderen Code integriert wird. Für diese Situation kann ein Test Stub vorteilhaft sein. Es gibt keine wirkliche Definition dafür, was ein Test-Stub beinhalten würde, es hängt wirklich von der Person und dem Anwendungsbereich ab. Ein Beispiel ist unten dargestellt   *
+Das Verbinden eines Makros mit einer Schaltfläche auf einer Symbolleiste wird in [So installieren Sie Makros](How_to_install_macros/de.md) und [So passen Sie eine Symbolleiste an](Customize_Toolbars/de.md) behandelt. Es kann einige Minuten dauern, ein Makro mit einer Schaltfläche in der Symbolleiste zu verbinden, ein Symbol auszuwählen usw. Dies ist nicht immer erforderlich, da man manchmal einfach nur schnell ein Stück Code ausarbeiten möchte, das dann in einen anderen Code integriert wird. Für diese Situation kann ein Test Stub vorteilhaft sein. Es gibt keine wirkliche Definition dafür, was ein Test-Stub beinhalten würde, es hängt wirklich von der Person und dem Anwendungsbereich ab. Ein Beispiel ist unten dargestellt:
 
 
 </div>
@@ -740,7 +740,7 @@ Für weitere Unterstützung bei der Python Codierung gibt es ein Makro, das zur 
 
 ## Alles Zusammensetzen 
 
-Die Bildschirmverwaltung kann eine Herausforderung sein, wenn es darum geht, Code zu entwickeln, der komplexe und detaillierte grafische Ausgaben hat, wie es FreeCAD tut. Das folgende System funktioniert gut   *
+Die Bildschirmverwaltung kann eine Herausforderung sein, wenn es darum geht, Code zu entwickeln, der komplexe und detaillierte grafische Ausgaben hat, wie es FreeCAD tut. Das folgende System funktioniert gut:
 
 -   FreeCAD für Konsole, Bericht, GUI-Anzeige
 -   Symbolleiste zum Aufruf von in Entwicklung befindlichem Code
@@ -752,7 +752,7 @@ Die Bildschirmverwaltung kann eine Herausforderung sein, wenn es darum geht, Cod
 
 **Bildschirmmanagement**
 
-Wenn der Test stub über eine Symbolleiste bedient wird und ein externer Editor verwendet wird, wird das Fensterlayout auf dem Bildschirm in etwa so aussehen   *
+Wenn der Test stub über eine Symbolleiste bedient wird und ein externer Editor verwendet wird, wird das Fensterlayout auf dem Bildschirm in etwa so aussehen:
 
 ![](images/PythonDevelopmentEnvironment.jpg )
 
@@ -765,20 +765,15 @@ Wenn der Test stub über eine Symbolleiste bedient wird und ein externer Editor 
 
 ## Verschiedene Verknüpfungen 
 
-Einige andere Verknüpfungen über IDEs für Python, die von Interesse sein könnten, sind   *
+Einige andere Verknüpfungen über IDEs für Python, die von Interesse sein könnten, sind:
 
--   [Vergleich von Python-IDEs für die Entwicklung](http   *//www.pythoncentral.io/comparison-of-python-ides-development/)
--   [Die beste Python-IDE auswählen](http   *//pedrokroger.net/choosing-best-python-ide/)
--   [Ihre Entwicklungsumgebung](http   *//docs.python-guide.org/en/latest/dev/env/)
--   [PyCharm Community Edition IDE](http   *//www.jetbrains.com/pycharm/)
+-   [Vergleich von Python-IDEs für die Entwicklung](http://www.pythoncentral.io/comparison-of-python-ides-development/)
+-   [Die beste Python-IDE auswählen](http://pedrokroger.net/choosing-best-python-ide/)
+-   [Ihre Entwicklungsumgebung](http://docs.python-guide.org/en/latest/dev/env/)
+-   [PyCharm Community Edition IDE](http://www.jetbrains.com/pycharm/)
 
 
 </div>
-
-
-
-
-[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

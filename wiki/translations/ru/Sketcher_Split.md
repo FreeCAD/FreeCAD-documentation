@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Разделить ребро
-   Name   *Sketcher_Split
-   MenuLocation   *Sketch → Геометрия эскиза → Разделить ребро
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Version   *0.20
-   SeeAlso   *[Обрезать кривую](Sketcher_Trimming/ru.md)
+- GuiCommand:/ru
+   Name/ru:Разделить ребро
+   Name:Sketcher_Split
+   MenuLocation:Sketch → Геометрия эскиза → Разделить ребро
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Version:0.20
+   SeeAlso:[Обрезать кривую](Sketcher_Trimming/ru.md)
 ---
 
 # Sketcher Split/ru
@@ -24,7 +24,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите кнопку **[<img src=images/Sketcher_Split.svg style="width   *16px"> [Разделить](Sketcher_Split.md)**. Указатель мыши примет форму белого перекрестия с значком разделения.
+1.  Нажмите кнопку **[<img src=images/Sketcher_Split.svg style="width:16px"> [Разделить](Sketcher_Split.md)**. Указатель мыши примет форму белого перекрестия с значком разделения.
 2.  Кликните на ребро в том месте, где вы хотите его разделить.
 3.  Ребра в форме линии или дуги будут поделены на два новых фрагмента, соединенных точкой в месте разделения. Окружность будет разделена на дуги с той же центральной точкой и другими ограничениями, которые были у исходной окружности.
 4.  Нажатие **Esc** или нажатие правой кнопки мыши завершит работу функции.

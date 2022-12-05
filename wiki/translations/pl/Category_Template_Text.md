@@ -5,8 +5,6 @@ Te szablony tworzą małe fragmenty tekstu, które są odpowiednie do transkluzj
 
 Dłuższe fragmenty tekstu należy umieścić na samej stronie, aby można je było przetłumaczyć z rozszerzeniem tłumaczenia.
 
-[Category   *Template/pl](Category   *Template/pl.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std Undo
-   Name/de   *Std Rückgängig
-   MenuLocation   *Bearbeiten → Rückgängig
-   Workbenches   *Alle
-   Shortcut   ***Strg**+**Z**
-   SeeAlso   *[Wiederherstellen](Std_Redo/de.md)
+- GuiCommand:/de
+   Name:Std Undo
+   Name/de:Std Rückgängig
+   MenuLocation:Bearbeiten → Rückgängig
+   Workbenches:Alle
+   Shortcut:**Strg**+**Z**
+   SeeAlso:[Wiederherstellen](Std_Redo/de.md)
 ---
 
 # Std Undo/de
@@ -16,10 +16,10 @@ Der Befehl **Std Rückgängig** macht die letzte Aktion rückgängig.
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, den Befehl aufzurufen   *
+1.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_Undo/de.md)**-Schaltfläche.
     -   Wähle die **Bearbeiten → <img src="images/Std_Undo.svg" width=16px> Rückgängig**-Option aus dem Menü
-    -   Benutze das Tastaturkürzel   * **Strg**+**Z**.
+    -   Benutze das Tastaturkürzel: **Strg**+**Z**.
 
 ## Optionen
 
@@ -33,7 +33,7 @@ Der Befehl **Std Rückgängig** macht die letzte Aktion rückgängig.
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

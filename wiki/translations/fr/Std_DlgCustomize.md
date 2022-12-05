@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std_DlgCustomize
-   Name/fr   *Std Personnalisation
-   MenuLocation   *Outils → Personnaliser...
-   Workbenches   *Tous
-   SeeAlso   *[Personnaliser l'interface](Interface_Customization/fr.md)
+- GuiCommand:/fr
+   Name:Std_DlgCustomize
+   Name/fr:Std Personnalisation
+   MenuLocation:Outils → Personnaliser...
+   Workbenches:Tous
+   SeeAlso:[Personnaliser l'interface](Interface_Customization/fr.md)
 ---
 
 # Std DlgCustomize/fr
@@ -22,7 +22,7 @@ La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser d
 ## Utilisation
 
 1.  Les commandes disponibles dans la boîte de dialogue Personnaliser dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les établis dont vous souhaitez avoir accès aux commandes.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu.
     -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez **<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu contextuel.
 3.  La boîte de dialogue Personnaliser s\'ouvre. Pour plus d\'informations, voir [Personnalisation de l\'interface](Interface_Customization/fr#Options.md).

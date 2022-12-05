@@ -1,20 +1,20 @@
 # Drawing View/es
 ---
-- GuiCommand   */es   Name   *Drawing View   Name/es   *Drawing View   Workbenches   *[MenuLocation   *Dibujo → Insertar vista en dibujo   Shortcut   *none   SeeAlso   *[[Drawing Landscape A3/es|Dibujo A3 apaisado](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand:/es   Name:Drawing View   Name/es:Drawing View   Workbenches:[MenuLocation:Dibujo → Insertar vista en dibujo   Shortcut:none   SeeAlso:[[Drawing Landscape A3/es|Dibujo A3 apaisado](Drawing_Workbench/es___Dibujo]],_Complete.md)---
 
 
 </div>
 
 Esta herramienta crea una nueva vista de los objetos seleccionados en la hoja de dibujo activa.
 
-<img alt="A drawing sheet with three views   * front, top and isometric." src=images/Drawing_Views.png  style="width   *500px;">
+<img alt="A drawing sheet with three views: front, top and isometric." src=images/Drawing_Views.png  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
 
 ### Cómo se utiliza 
 
-Selecciona un objeto en la vista 3D o en el árbol del Proyecto, luego pulsa en la herramienta Vista de Dibujo. Por defecto, se ubicará una vista en planta a 1   *1 (escala real) en la parte superior izquierda de la página. Puede que no sea visible si es demasiado pequeña o demasiado grande para la página.
+Selecciona un objeto en la vista 3D o en el árbol del Proyecto, luego pulsa en la herramienta Vista de Dibujo. Por defecto, se ubicará una vista en planta a 1:1 (escala real) en la parte superior izquierda de la página. Puede que no sea visible si es demasiado pequeña o demasiado grande para la página.
 
 
 </div>
@@ -27,16 +27,16 @@ If only the object is selected in the Project Tree, the view is added to the fir
 
 Despliega el objeto Página en el árbol del Proyecto, y selecciona la vista. Sus parámetros pueden editarse en la pestaña de la vista de datos.
 
-<img alt="" src=images/Drawing_View_Properties.png‎ ) ![Isometric view with smooth lines visibility off](images/Drawing_View_Iso.png‎  style="width   *150px;"> <img alt="Isometric view with smooth lines visibility on" src=images/Drawing_View_Iso_SmoothLines.png‎‎  style="width   *150px;">
+<img alt="" src=images/Drawing_View_Properties.png‎ ) ![Isometric view with smooth lines visibility off](images/Drawing_View_Iso.png‎  style="width:150px;"> <img alt="Isometric view with smooth lines visibility on" src=images/Drawing_View_Iso_SmoothLines.png‎‎  style="width:150px;">
 
--   **Etiqueta**   * Cambia la etiqueta de la vista en el árbol del Proyecto. También puedes pulsar con el botón derecho sobre la vista en la vista en el árbol y seleccionar Renombrar, o seleccionar la vista y pulsar **F2**.
--   **Rotación**   * gira la vista. Por ejemplo, una vista isométrica requiere una rotación de 60º (mira también el parámetro de dirección más abajo)
--   **Escala**   * establece la escala de la vista.
--   **X**   * establece la posición horizontal de la vista en milimetros.
--   **Y**   * establece la posición horizontal de la vista en milimetros. Fíjate que la coordenada (0,0) está ubicada en la esquina superior izquierda de la página, de modo que a mayor número más abajo en la página estará la vista.
--   **Dirección**   * cambia la dirección de la vista. Se establece mediante valores de XYZ que definen un vector normal a la página. La vista en planta será (0,0,1), y una isométrica (1,1,1). Los valores pueden ser negativos.
--   **Mostrar líneas ocultas**   * Alterna la visibilidad de las líneas ocultas seleccionando *Verdadero* o *Falso*.
--   **Mostrar líneas de suavizado**   * Alterna la visibilidad de las línea de suavizado seleccionando *Verdadero* o *Falso*. Las línea de suavizado también se denominan aristas de tangencia. Dichas aristas indican cambios entre superficies tangentes.
+-   **Etiqueta**: Cambia la etiqueta de la vista en el árbol del Proyecto. También puedes pulsar con el botón derecho sobre la vista en la vista en el árbol y seleccionar Renombrar, o seleccionar la vista y pulsar **F2**.
+-   **Rotación**: gira la vista. Por ejemplo, una vista isométrica requiere una rotación de 60º (mira también el parámetro de dirección más abajo)
+-   **Escala**: establece la escala de la vista.
+-   **X**: establece la posición horizontal de la vista en milimetros.
+-   **Y**: establece la posición horizontal de la vista en milimetros. Fíjate que la coordenada (0,0) está ubicada en la esquina superior izquierda de la página, de modo que a mayor número más abajo en la página estará la vista.
+-   **Dirección**: cambia la dirección de la vista. Se establece mediante valores de XYZ que definen un vector normal a la página. La vista en planta será (0,0,1), y una isométrica (1,1,1). Los valores pueden ser negativos.
+-   **Mostrar líneas ocultas**: Alterna la visibilidad de las líneas ocultas seleccionando *Verdadero* o *Falso*.
+-   **Mostrar líneas de suavizado**: Alterna la visibilidad de las línea de suavizado seleccionando *Verdadero* o *Falso*. Las línea de suavizado también se denominan aristas de tangencia. Dichas aristas indican cambios entre superficies tangentes.
 
 ### Asistente de vista de dibujo 
 

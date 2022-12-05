@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw PageDefault
-   Name/fr   *TechDraw Page par défaut
-   MenuLocation   *TechDraw → Insérer une page par défaut
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso   *[TechDraw Page à partir d'un modèle](TechDraw_PageTemplate/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
+- GuiCommand:/fr
+   Name:TechDraw PageDefault
+   Name/fr:TechDraw Page par défaut
+   MenuLocation:TechDraw → Insérer une page par défaut
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso:[TechDraw Page à partir d'un modèle](TechDraw_PageTemplate/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
 
 # TechDraw PageDefault/fr
@@ -13,8 +13,8 @@
 
 L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de modèle spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
-<img alt="" src=images/A4_LandscapeTD.svg  style="width   *400px;"> 
-*Modèle par défaut fourni avec TechDraw    * page A4 paysage avec des champs de texte modifiables*
+<img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
+*Modèle par défaut fourni avec TechDraw : page A4 paysage avec des champs de texte modifiables*
 
 ## Utilisation
 
@@ -22,11 +22,11 @@ L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de mo
 
 ## Remarques
 
--   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramétrage dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Celles-ci se corrigent une fois que la Page est mise à jour avec l\'outil [Redessiner une page](TechDraw_RedrawPage/fr.md). L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width   *24px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
+-   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramétrage dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Celles-ci se corrigent une fois que la Page est mise à jour avec l\'outil [Redessiner une page](TechDraw_RedrawPage/fr.md). L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
 
--   Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer    *
+-   Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer :
 
-   *   
+:   
     
 ```python
     $INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
@@ -38,8 +38,8 @@ L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de mo
 
 
 
-   *   Où `$INSTALL_DIR` est le répertoire d\'installation de FreeCAD, par exemple    *
-   *   
+:   Où `$INSTALL_DIR` est le répertoire d\'installation de FreeCAD, par exemple :
+:   
     
 ```python
     /usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
@@ -54,38 +54,38 @@ L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de mo
 
 {{TitleProperty|Base}}
 
--    **Projection Type**   * Type de projection par défaut (premier ou troisième angle) pour cette page.
+-    **Projection Type**: Type de projection par défaut (premier ou troisième angle) pour cette page.
 
 
 {{TitleProperty|Page}}
 
--    **KeepUpdated**   * si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
+-    **KeepUpdated**: si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
 
--    **Template**   * lien vers l\'objet [Modèle](TechDraw_Templates/fr.md) de cette page.
+-    **Template**: lien vers l\'objet [Modèle](TechDraw_Templates/fr.md) de cette page.
 
--    **Views**   * liste de liens vers les vues sur cette page.
+-    **Views**: liste de liens vers les vues sur cette page.
 
--    **Scale**   * échelle par défaut pour les Vues dans cette page.
+-    **Scale**: échelle par défaut pour les Vues dans cette page.
 
--    **Next Balloon Index**   * numérotation automatique des infobulles.
+-    **Next Balloon Index**: numérotation automatique des infobulles.
 
 ### Vue
 
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**   * affiche une grille sur cette page. {{Version/fr|0.20}}
+-    **Show Grid**: affiche une grille sur cette page. {{Version/fr|0.20}}
 
--    **Grid Spacing**   * distance entre les lignes de la grille en mm. {{Version/fr|0.20}}
+-    **Grid Spacing**: distance entre les lignes de la grille en mm. {{Version/fr|0.20}}
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Page par défaut peut être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant les fonctions suivantes   * 
+L\'outil Page par défaut peut être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant les fonctions suivantes: 
 ```python
-page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage','Page')
-template = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate','Template')
+page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
+template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
 template.Template = templateFileSpec
 page.Template = FreeCAD.ActiveDocument.Template
 ```
@@ -95,7 +95,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 ### Champs de texte éditables 
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [TechDraw Modèles](TechDraw_Templates/fr.md) pour plus d\'informations sur la création de modèles.
 
@@ -106,7 +106,7 @@ Une fois qu\'une nouvelle page a été créée, son attribut `Template` contient
 page = FreeCAD.ActiveDocument.Page
 texts = page.Template.EditableTexts
 
-for key, value in texts.items()   *
+for key, value in texts.items():
     print("{0} = {1}".format(key, value))
 
 texts["FC-Title"] = "The title of my page"

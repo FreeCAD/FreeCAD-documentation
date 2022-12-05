@@ -1,9 +1,9 @@
 # Manual:Introduction/it
-{{Manual   *TOC/it}}
+{{Manual:TOC/it}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http   *//www.freecadweb.org) è una applicazione di modellazione parametrica 3D free e open-source. È fatto principalmente per modellare gli oggetti del mondo reale, che vanno dai piccoli componenti elettronici fino agli edifici e ai progetti di ingegneria civile, con particolare attenzione agli oggetti stampabili in 3D. FreeCAD può essere scaricato, usato, distribuito e modificato liberamente, il suo codice sorgente è aperto e pubblicato sotto la molto permissiva licenza [LGPL](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). I dati prodotti con FreeCAD sono di completa proprietà dell\'autore, e possono essere recuperati anche senza FreeCAD.
+[FreeCAD](http://www.freecadweb.org) è una applicazione di modellazione parametrica 3D free e open-source. È fatto principalmente per modellare gli oggetti del mondo reale, che vanno dai piccoli componenti elettronici fino agli edifici e ai progetti di ingegneria civile, con particolare attenzione agli oggetti stampabili in 3D. FreeCAD può essere scaricato, usato, distribuito e modificato liberamente, il suo codice sorgente è aperto e pubblicato sotto la molto permissiva licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). I dati prodotti con FreeCAD sono di completa proprietà dell\'autore, e possono essere recuperati anche senza FreeCAD.
 
 FreeCAD è anche fondamentalmente un progetto sociale, in quanto è sviluppato e mantenuto da una comunità di sviluppatori e di utenti uniti dalla passione per FreeCAD.
 
@@ -11,7 +11,7 @@ Questo manuale è un esperimento per prendere la strada diversa rispetto a quell
 
 Questo manuale è stato scritto per la nuova versione stabile di FreeCAD, la versione **0.18** (inizio 2019).
 
-Il contenuto di questo manuale è pubblicato sotto licenza [Creative Commons 4.0](http   *//creativecommons.org/licenses/by/4.0/), e può essere liberamente utilizzato, scaricato, copiato, e modificato. I file originali di questo manuale sono ospitati su questo [wiki](Main_Page/it.md), e sull\'account [github](https   *//github.com/yorikvanhavre/FreeCAD-manual) originale usato per scrivere la prima versione di questo libro. Le versioni HTML, PDF, MOBI e EPUB, più facili da leggere, sono disponibili su [also available here](https   *//github.com/yorikvanhavre/FreeCAD-manual/releases). È in preparazione una versione stampata.
+Il contenuto di questo manuale è pubblicato sotto licenza [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), e può essere liberamente utilizzato, scaricato, copiato, e modificato. I file originali di questo manuale sono ospitati su questo [wiki](Main_Page/it.md), e sull\'account [github](https://github.com/yorikvanhavre/FreeCAD-manual) originale usato per scrivere la prima versione di questo libro. Le versioni HTML, PDF, MOBI e EPUB, più facili da leggere, sono disponibili su [also available here](https://github.com/yorikvanhavre/FreeCAD-manual/releases). È in preparazione una versione stampata.
 
 
 

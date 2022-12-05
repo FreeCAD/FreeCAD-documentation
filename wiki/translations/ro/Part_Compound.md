@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Compound
-‏‎   MenuLocation   *Part → Make compound
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *
+- GuiCommand:
+   Name:Part Compound
+‏‎   MenuLocation:Part → Make compound
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:
 ---
 
 # Part Compound/ro

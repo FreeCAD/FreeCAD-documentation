@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Center
-   Name/de   *Draft Mittelpunkt
-   MenuLocation   *Entwurf → [Objektfang](Draft_Snap/de.md) → Mittelpunkt
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
+- GuiCommand:/de
+   Name:Draft Snap Center
+   Name/de:Draft Mittelpunkt
+   MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Mittelpunkt
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Center/de

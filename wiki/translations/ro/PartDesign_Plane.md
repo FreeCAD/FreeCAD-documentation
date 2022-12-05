@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *PartDesign Plane
-   Name/ro   *PartDesign Plane
-   Workbenches   *[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation   *PartDesign → Create a datum plane
-   Version   *0.17
-   SeeAlso   *[[PartDesign Point/ro]], [[PartDesign Line/ro]]
+- GuiCommand:/ro
+   Name:PartDesign Plane
+   Name/ro:PartDesign Plane
+   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation:PartDesign → Create a datum plane
+   Version:0.17
+   SeeAlso:[[PartDesign Point/ro]], [[PartDesign Line/ro]]
 ---
 
 # PartDesign Plane/ro
@@ -25,7 +25,7 @@ Creați un plan de referință **datum plane** care poate fi folosit ca referin�
 
 </div>
 
-A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
 
 
 <div class="mw-translate-fuzzy">
@@ -68,20 +68,20 @@ Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți cl
 
 <div class="mw-translate-fuzzy">
 
--    **MapMode**   * listează modul de atașare utilizat.
+-    **MapMode**: listează modul de atașare utilizat.
 
--    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**   * numele dat obiectului, acest nume poate fi modificat dacă vă este mai comod.
+-    **Label**: numele dat obiectului, acest nume poate fi modificat dacă vă este mai comod.
 
 
 </div>
 
--    **MapMode**   * lists the attachment mode used.
+-    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**   * name given to the object, this name can be changed at convenience.
+-    **Label**: name given to the object, this name can be changed at convenience.
 
 
 

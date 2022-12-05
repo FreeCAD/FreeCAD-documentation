@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std DlgParameter
-   MenuLocation   *Tools → Edit parameters...
-   Workbenches   *All
-   SeeAlso   *[Preferences Editor](Preferences_Editor.md)
+- GuiCommand:
+   Name:Std DlgParameter
+   MenuLocation:Tools → Edit parameters...
+   Workbenches:All
+   SeeAlso:[Preferences Editor](Preferences_Editor.md)
 ---
 
 # Std DlgParameter
@@ -30,7 +30,7 @@ Working with the Parameter Editor requires some experience. For the most common 
 
 The left panel shows a tree with parameter groups and sub-groups.
 
-*The following options are available in the panel\'s context menu   **
+*The following options are available in the panel\'s context menu:*
 
 #### Expand/Collapse
 
@@ -74,7 +74,7 @@ The left panel shows a tree with parameter groups and sub-groups.
 
 The right panel shows the parameters in the group selected in the left panel. If this group only contains sub-groups the right panel will be empty.
 
-*The following options are available in the panel\'s context menu   **
+*The following options are available in the panel\'s context menu:*
 
 #### Change value 
 
@@ -150,16 +150,16 @@ Typing a (partial) string in this input box will fully expand the tree in the le
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the  
 ```python
-# get   *
-App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set   *
-App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+# get:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
 Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.

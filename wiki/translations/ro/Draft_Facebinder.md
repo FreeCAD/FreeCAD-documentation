@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Facebinder
-   Name/ro   *Draft Facebinder
-   MenuLocation   *Draft → Facebinder
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut   ***F** **F**
+- GuiCommand:/ro
+   Name:Draft Facebinder
+   Name/ro:Draft Facebinder
+   MenuLocation:Draft → Facebinder
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**F** **F**
 ---
 
 # Draft Facebinder/ro
@@ -24,7 +24,7 @@ Facebinderul este un obiect foarte simplu, construit din fațetele selectate ale
 
 It can be used to create an extrusion from a collection of faces. This extrusion can for example represent a wall finish in architectural design.
 
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Facebinder created from the faces of walls*
 
 ## Cum se folosește 
@@ -40,35 +40,35 @@ It can be used to create an extrusion from a collection of faces. This extrusion
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the total area of the linked faces of the facebinder.
+-    **Area|Area**: (read-only) specifies the total area of the linked faces of the facebinder.
 
--    **Extrusion|Distance**   * specifies the extrusion thickness of the facebinder.
+-    **Extrusion|Distance**: specifies the extrusion thickness of the facebinder.
 
--    **Faces|LinkSubList**   * specifies the linked faces of the facebinder.
+-    **Faces|LinkSubList**: specifies the linked faces of the facebinder.
 
--    **Offset|Distance**   * specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
+-    **Offset|Distance**: specifies an offset distance to apply between the facebinder and the original faces, prior to extrusion.
 
--    **Remove Splitter|Bool**   * Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
+-    **Remove Splitter|Bool**: Specifies whether to remove splitter lines that divide co-planar faces of the facebinder.
 
--    **Sew|Bool**   * Specifies whether to perform a topological sewing operation on the facebinder.
+-    **Sew|Bool**: Specifies whether to perform a topological sewing operation on the facebinder.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the facebinder. This property only works if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the facebinder. This property only works if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -83,7 +83,7 @@ A Draft Facebinder object is derived from a [Part Feature](Part_Feature.md) obje
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Facebinder poate fi folosit în scripturile python și [macros](macros.md) utilizând următoarea funcție   *
+Instrumentul Facebinder poate fi folosit în scripturile python și [macros](macros.md) utilizând următoarea funcție:
 
 
 </div>
@@ -126,7 +126,7 @@ import Draft
 doc = App.newDocument()
 
 # Insert a solid box
-box = doc.addObject("Part   *   *Box", "Box")
+box = doc.addObject("Part::Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

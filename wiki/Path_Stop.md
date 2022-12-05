@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Path Stop
-   MenuLocation   *Path → Supplemental Commands → Stop
-   Workbenches   *[Path](Path_Workbench.md)
+- GuiCommand:
+   Name:Path Stop
+   MenuLocation:Path → Supplemental Commands → Stop
+   Workbenches:[Path](Path_Workbench.md)
 ---
 
 # Path Stop
@@ -11,7 +11,7 @@
 
 This tool inserts a Stop command (M1). This command will Pause a running program on the CNC controller, waiting for user interaction to continue.
 
-**Note   * this does not stop the spindle.**
+**Note: this does not stop the spindle.**
 
 ## Usage
 
@@ -19,7 +19,7 @@ This tool inserts a Stop command (M1). This command will Pause a running program
 
 ## Properties
 
--    **Stop**   * Defines if the Stop is optional or mandatory.
+-    **Stop**: Defines if the Stop is optional or mandatory.
 
 
 

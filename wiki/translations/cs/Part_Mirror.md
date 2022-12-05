@@ -1,6 +1,6 @@
 # Part Mirror/cs
 ---
-- GuiCommand   */cs   Name   *Part Mirror   Name/cs   *Díl Zrcadlení   MenuLocation   *Díl -> Zrcadlení   Workbenches   *[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso   *---
+- GuiCommand:/cs   Name:Part Mirror   Name/cs:Díl Zrcadlení   MenuLocation:Díl -> Zrcadlení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
 
 </div>
@@ -17,7 +17,7 @@
 
 </div>
 
-Příklad   *
+Příklad:
 
 ![Před](images/PARTMirrorBeforev11.png )
 

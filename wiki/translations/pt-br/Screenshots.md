@@ -1,79 +1,79 @@
 # Screenshots/pt-br
 {{TOCright}}
 
-Aqui estão algumas captures de tela mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular e podem apresentar uma aparência diferente da versão mais atual do FreeCAD. Veja mais capturas de tela enviadas por usuários do FreeCAD no [screenshot forum thread](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http   *//forum.freecadweb.org/viewforum.php?f=24).
+Aqui estão algumas captures de tela mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular e podem apresentar uma aparência diferente da versão mais atual do FreeCAD. Veja mais capturas de tela enviadas por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
 ### Na versão 0.17 
 
-<img alt="" src=images/6DPLEQ2.jpg  style="width   *1024px;">
+<img alt="" src=images/6DPLEQ2.jpg  style="width:1024px;">
 
-<img alt="" src=images/Screenshot_from_2018-01-25_20-53-18.jpg  style="width   *1024px;">
+<img alt="" src=images/Screenshot_from_2018-01-25_20-53-18.jpg  style="width:1024px;">
 
-<img alt="" src=images/VIIC_2.jpg  style="width   *1024px;">
+<img alt="" src=images/VIIC_2.jpg  style="width:1024px;">
 
-<img alt="" src=images/Truggy_differential_full.jpg  style="width   *1024px;">
+<img alt="" src=images/Truggy_differential_full.jpg  style="width:1024px;">
 
-<img alt="" src=images/216.png  style="width   *1024px;">
+<img alt="" src=images/216.png  style="width:1024px;">
 
-<img alt="" src=images/custom_extruder.jpg  style="width   *1024px;">
+<img alt="" src=images/custom_extruder.jpg  style="width:1024px;">
 
-<img alt="" src=images/Wheel.JPG  style="width   *1024px;">
+<img alt="" src=images/Wheel.JPG  style="width:1024px;">
 
-<img alt="" src=images/axoview-r.JPG  style="width   *1024px;">
+<img alt="" src=images/axoview-r.JPG  style="width:1024px;">
 
-<img alt="" src=images/baseStation004.JPG  style="width   *1024px;">
+<img alt="" src=images/baseStation004.JPG  style="width:1024px;">
 
-<img alt="" src=images/Drill-FreeCAD.png  style="width   *1024px;">
+<img alt="" src=images/Drill-FreeCAD.png  style="width:1024px;">
 
-<img alt="" src=images/Drone_Design_Full.jpg  style="width   *1024px;">
+<img alt="" src=images/Drone_Design_Full.jpg  style="width:1024px;">
 
-<img alt="" src=images/pic_06.jpg  style="width   *1024px;">
+<img alt="" src=images/pic_06.jpg  style="width:1024px;">
 
-<img alt="" src=images/freeCAD-guitar.jpg  style="width   *1024px;">
+<img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
 ### Na versão 0.16 
 
-<img alt="" src=images/Hhassey.png  style="width   *1024px;">
+<img alt="" src=images/Hhassey.png  style="width:1024px;">
 
-<img alt="" src=images/JMG.png  style="width   *1024px;">
+<img alt="" src=images/JMG.png  style="width:1024px;">
 
-<img alt="" src=images/PrzemoF.png  style="width   *1024px;">
+<img alt="" src=images/PrzemoF.png  style="width:1024px;">
 
-<img alt="" src=images/Rockn.png  style="width   *1024px;">
+<img alt="" src=images/Rockn.png  style="width:1024px;">
 
-<img alt="" src=images/Easyw_fc.png  style="width   *1024px;">
+<img alt="" src=images/Easyw_fc.png  style="width:1024px;">
 
-<img alt="" src=images/R_tec.jpeg  style="width   *1024px;">
+<img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
 ### Na versão 0.15 
 
-<img alt="" src=images/Obijuan.png  style="width   *1024px;">
+<img alt="" src=images/Obijuan.png  style="width:1024px;">
 
-<img alt="" src=images/Obijuan2.png  style="width   *1024px;">
+<img alt="" src=images/Obijuan2.png  style="width:1024px;">
 
-<img alt="" src=images/Gsuter.png  style="width   *1024px;">
+<img alt="" src=images/Gsuter.png  style="width:1024px;">
 
-<img alt="" src=images/Lhf.jpg  style="width   *1024px;">
+<img alt="" src=images/Lhf.jpg  style="width:1024px;">
 
-<img alt="" src=images/Lou_papet.png  style="width   *1024px;">
+<img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
 ### Na versão 0.14 
 
-<img alt="" src=images/Freecad_jeep.png  style="width   *1024px;">
+<img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
 Um jipe modelado por psicofil
 
-<img alt="" src=images/Rockn_house1.png  style="width   *1024px;">
+<img alt="" src=images/Rockn_house1.png  style="width:1024px;">
 
-<img alt="" src=images/Rockn_house2.png  style="width   *1024px;">
+<img alt="" src=images/Rockn_house2.png  style="width:1024px;">
 
 Uma casa feita com ferramentas da bancada Arch, por rockn
 
-<img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width   *1024px;">
+<img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width:1024px;">
 
 Análise da curvatura de malha com ferramentas da bancada Mesh
 
-<img alt="" src=images/Cura_export.png  style="width   *1024px;">
+<img alt="" src=images/Cura_export.png  style="width:1024px;">
 
 Exportação para aplicações externas com macros python
 
@@ -85,7 +85,7 @@ Exportação para aplicações externas com macros python
 
 ### Na versão 0.11 
 
-<img alt="" src=images/FreeCAD011.png  style="width   *1024px;">
+<img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
 ### Na versão 0.10 
 
@@ -97,7 +97,7 @@ Exportação para aplicações externas com macros python
 
 ### Medidas
 
-<img alt="" src=images/Measurement.jpeg  style="width   *800px;">
+<img alt="" src=images/Measurement.jpeg  style="width:800px;">
 
 ### STEP
 
@@ -107,7 +107,7 @@ Captura de tela mostrando o FreeCAD importando e apresentando um modelo STEP do 
 
 ### Dados do STEP 
 
-<img alt="" src=images/TaskPanel.jpg  style="width   *800px;">
+<img alt="" src=images/TaskPanel.jpg  style="width:800px;">
 
 Com garra robótica carregada
 
@@ -117,7 +117,7 @@ Com garra robótica carregada
 
 Em XP com a Schenkel
 
-Operações booleanas sobre formas <img alt="" src=images/Part_BooleanOperations.png  style="width   *800px;">
+Operações booleanas sobre formas <img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
 
 Operações boleanas
 
@@ -125,7 +125,7 @@ Operações boleanas
 
 ![](images/Freecad-vista01.jpg )
 
-FreeCAD no Windows Vista, com um modelo IGES de [Rexroth](http   *//www13.boschrexroth-us.com) carregado
+FreeCAD no Windows Vista, com um modelo IGES de [Rexroth](http://www13.boschrexroth-us.com) carregado
 
 ### Extravagante
 
@@ -141,11 +141,11 @@ Operações booleanas em malha no FreeCAD
 
 ![](images/Fcblender.jpg )
 
-O Blender tem um [script](http   *//yorik.orgfree.com/guestblog.php?2009=105) para importar arquivos do FreeCAD.
+O Blender tem um [script](http://yorik.orgfree.com/guestblog.php?2009=105) para importar arquivos do FreeCAD.
 
 ### Extração Drawing(desenhos) 
 
-<img alt="" src=images/Drawing_extraction.png  style="width   *800px;">
+<img alt="" src=images/Drawing_extraction.png  style="width:800px;">
 
 Extração de uma peça em 3D (STEP neste caso) para uma vista de desenho SVG. Isto é totalmente paramétrico, se a peça mudar, a visão será atualizada.
 
@@ -196,8 +196,6 @@ FreeCAD rodando em modo console (sem interface gráfica)
 ![](images/Save_picture.png )
 
 A caixa de diálogo para salvar uma imagem com dimensões personalizadas.
-
-[Category   *User Documentation/pt-br](Category   *User_Documentation/pt-br.md) [Category   *Screenshots](Category_Screenshots.md)
 
 
 

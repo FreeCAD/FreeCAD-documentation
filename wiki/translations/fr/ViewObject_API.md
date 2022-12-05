@@ -1,7 +1,7 @@
 # ViewObject API/fr
-**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https   *//www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir[Source documentation](Source_documentation/fr.md).**
+**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir[Source documentation](Source_documentation/fr.md).**
 
-Lorsque l\'interface graphique est en place, chaque objet dans le document FreeCAD a une ViewObject associé, qui réside dans le document homologue FreeCAD Gui. Un ViewObject peut être récupéré par deux moyens. Exemple   * 
+Lorsque l\'interface graphique est en place, chaque objet dans le document FreeCAD a une ViewObject associé, qui réside dans le document homologue FreeCAD Gui. Un ViewObject peut être récupéré par deux moyens. Exemple: 
 ```python
 myViewObj = FreeCAD.ActiveDocument.myObjectName.ViewObject
 myViewObj = FreeCADGui.ActiveDocument.myObjectName
@@ -79,11 +79,6 @@ print myViewObj.IV
 
 
 {{APIFunction | Mise à jour | | Mise à jour de la  vue de représentation  de l'objet |}}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

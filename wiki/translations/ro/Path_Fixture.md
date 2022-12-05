@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Path Fixture
-   Workbenches   *[Path](Path_Workbench.md)
-   MenuLocation   *Path → Partial Commands → Fixture
-   Shortcut   ***P** **F**
-   SeeAlso   *
+- GuiCommand:/ro
+   Name:Path Fixture
+   Workbenches:[Path](Path_Workbench.md)
+   MenuLocation:Path → Partial Commands → Fixture
+   Shortcut:**P** **F**
+   SeeAlso:
 ---
 
 # Path Fixture/ro
@@ -19,7 +19,7 @@ Acest instrument stabilește dispozitivul de decalare a lucrării de la controle
 
 <div class="mw-translate-fuzzy">
 
-Target Work Offset Coordinates în mod tipic incude   * Fixtures G53 to G59. Codul G-Code este simplu Fixture (G53, G54, etc\...). Coordinatele offset fixtures reprezintă   *
+Target Work Offset Coordinates în mod tipic incude: Fixtures G53 to G59. Codul G-Code este simplu Fixture (G53, G54, etc\...). Coordinatele offset fixtures reprezintă:
 
 -   G53 -\> Sistemul de coordonate al mașinii.
 -   G54 -\> Scratchpad coordinate system.
@@ -50,9 +50,9 @@ Fixarea G59 este utilizată pentru a extinde dispozitivele disponibile. Gradul d
 
 ## Proprietăți
 
--    **Fixture**   * Setați punctul curent de fixare
+-    **Fixture**: Setați punctul curent de fixare
 
--    **Active**   * Definește dacă comanda este activă sau nu când este inserată într-un compound
+-    **Active**: Definește dacă comanda este activă sau nu când este inserată într-un compound
 
 ## Notes
 

@@ -5,18 +5,14 @@ Eine Untergruppe der [Bauingenieurwesen Arbeitsbereich](Civil_Engineering_Workbe
 
 ## Verwandte Forumsbeiträge 
 
--   Implementierung von Funktionen im Bauingenieurwesen (Verkehrsingenieurwesen) [Beitrag](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22277).
--   Bauingenieurwesen Konstruktionsfunktionen [Beitrag](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=6973)
--   Beitrag der die FreeCAD & QGIS Integration verfolgt [Beitrag](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22390)
+-   Implementierung von Funktionen im Bauingenieurwesen (Verkehrsingenieurwesen) [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277).
+-   Bauingenieurwesen Konstruktionsfunktionen [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
+-   Beitrag der die FreeCAD & QGIS Integration verfolgt [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=22390)
 
 ## Verwandte Verknüpfungen 
 
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Arbeitsbereiche](Workbenches/de.md)
-
-
-
-[Category   *Documentation](Category_Documentation.md) [Category   *User Documentation](Category_User_Documentation.md)
 
 
 

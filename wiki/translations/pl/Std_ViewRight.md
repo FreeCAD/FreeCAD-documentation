@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewRight
-   Name/pl   *Std   * Widok od prawej
-   MenuLocation   *Widok → Widoki standardowe → Od prawej
-   Workbenches   *wszystkie
-   Shortcut   ***3**
-   SeeAlso   *[Widok od przodu](Std_ViewFront/pl.md), [Widok od góry](Std_ViewTop/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewRight
+   Name/pl:Std: Widok od prawej
+   MenuLocation:Widok → Widoki standardowe → Od prawej
+   Workbenches:wszystkie
+   Shortcut:**3**
+   SeeAlso:[Widok od przodu](Std_ViewFront/pl.md), [Widok od góry](Std_ViewTop/pl.md)
 ---
 
 # Std ViewRight/pl
@@ -19,16 +19,16 @@ Polecenie **Widok od prawej** ustawia ujęcie widoku w aktywnym oknie [widoku 3D
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_ViewRight.svg" width=16px> [Od prawej](Std_ViewRight/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRight.svg" width=16px> Od prawej**.
     -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRight.svg" width=16px> Od prawej**.
-    -   Użyj skrótu klawiaturowego   * **3**.
+    -   Użyj skrótu klawiaturowego: **3**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

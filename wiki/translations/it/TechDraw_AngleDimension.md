@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw Dimension Angle
-   Name/it   *Angolo
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation   *TechDraw → Angolo
-   Shortcut   *
-   SeeAlso   *[Angolo da tre punti](TechDraw_3PtAngleDimension.md)
+- GuiCommand:/it
+   Name:TechDraw Dimension Angle
+   Name/it:Angolo
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Angolo
+   Shortcut:
+   SeeAlso:[Angolo da tre punti](TechDraw_3PtAngleDimension.md)
 ---
 
 # TechDraw AngleDimension/it
@@ -23,7 +23,7 @@ Lo strumento Angolo aggiunge una dimensione angolare ad una Vista. La dimensione
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width   *200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
 *Misurazione dell'angolo tra due linee rette*
 
 ## Utilizzo
@@ -46,7 +46,7 @@ To change the properties of a dimension object either double-clicking it in the 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width   *16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>
@@ -64,21 +64,21 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dimension Angle può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Dimension Angle può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
 dim1.Type = "Angle"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

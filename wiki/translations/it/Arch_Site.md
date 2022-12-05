@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Site
-   Name/it   *Sito
-   Workbenches   *[Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Arch → Sito
-   Shortcut   ***S** **I**
-   SeeAlso   *[Piano](Arch_Floor/it.md), [Edificio](Arch_Building/it.md)
+- GuiCommand:/it
+   Name:Arch Site
+   Name/it:Sito
+   Workbenches:[Architettura](Arch_Workbench/it.md)
+   MenuLocation:Arch → Sito
+   Shortcut:**S** **I**
+   SeeAlso:[Piano](Arch_Floor/it.md), [Edificio](Arch_Building/it.md)
 ---
 
 # Arch Site/it
@@ -40,37 +40,37 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 ### Dati
 
--    {{PropertyData/it|Terrain}}   * Il terreno di base del sito
+-    {{PropertyData/it|Terrain}}: Il terreno di base del sito
 
--    {{PropertyData/it|Address}}   * La via e il numero civico di questo sito
+-    {{PropertyData/it|Address}}: La via e il numero civico di questo sito
 
--    {{PropertyData/it|Postal Code}}   * Il codice postale o zip di questo sito
+-    {{PropertyData/it|Postal Code}}: Il codice postale o zip di questo sito
 
--    {{PropertyData/it|City}}   * La città di questo sito
+-    {{PropertyData/it|City}}: La città di questo sito
 
--    {{PropertyData/it|Country}}   * Il paese di questo sito
+-    {{PropertyData/it|Country}}: Il paese di questo sito
 
--    {{PropertyData/it|Latitude}}   * La latitudine di questo sito
+-    {{PropertyData/it|Latitude}}: La latitudine di questo sito
 
--    {{PropertyData/it|Longitude}}   * La longitudine di questo sito
+-    {{PropertyData/it|Longitude}}: La longitudine di questo sito
 
--    {{PropertyData/it|Url}}   * Un URL che mostra questo sito in un sito web mapping
+-    {{PropertyData/it|Url}}: Un URL che mostra questo sito in un sito web mapping
 
--    {{PropertyData/it|Projected Area}}   * L\'area della proiezione di questo oggetto sul piano XY
+-    {{PropertyData/it|Projected Area}}: L\'area della proiezione di questo oggetto sul piano XY
 
--    {{PropertyData/it|Perimeter}}   * La lunghezza del perimetro di questo terreno
+-    {{PropertyData/it|Perimeter}}: La lunghezza del perimetro di questo terreno
 
--    {{PropertyData/it|Addition Volume}}   * Il volume di terra da aggiungere a questi terreni
+-    {{PropertyData/it|Addition Volume}}: Il volume di terra da aggiungere a questi terreni
 
--    {{PropertyData/it|Subtraction Volume}}   * Il volume di terra da rimuovere da questi terreni
+-    {{PropertyData/it|Subtraction Volume}}: Il volume di terra da rimuovere da questi terreni
 
--    {{PropertyData/it|Extrusion Vector}}   * Un vettore di estrusione da utilizzare durante l\'esecuzione di operazioni booleane
+-    {{PropertyData/it|Extrusion Vector}}: Un vettore di estrusione da utilizzare durante l\'esecuzione di operazioni booleane
 
--    {{PropertyData/it|Remove Splitter}}   * Rimuovere gli scarti dalla forma risultante
+-    {{PropertyData/it|Remove Splitter}}: Rimuovere gli scarti dalla forma risultante
 
--    **Declination**   * l\'angolo tra la direzione Nord reale e quella Nord in questo documento, ovvero l\'asse Y.<small>(v0.18)</small>  Ciò significa che per impostazione predefinita l\'asse Y punta a Nord e l\'asse X punta a Est; l\'angolo aumenta in senso antiorario. Questa proprietà era precedentemente nota come**North Deviation**.
+-    **Declination**: l\'angolo tra la direzione Nord reale e quella Nord in questo documento, ovvero l\'asse Y.<small>(v0.18)</small>  Ciò significa che per impostazione predefinita l\'asse Y punta a Nord e l\'asse X punta a Est; l\'angolo aumenta in senso antiorario. Questa proprietà era precedentemente nota come**North Deviation**.
 
--    **EPW File**   * Consente di allegare un file EPW dal [sito web di dati EPW Ladybug](https   *//www.ladybug.tools/epwmap/) a questo sito. Ciò è necessario per visualizzare i diagrammi della rosa dei venti {{version/it|0.19}}
+-    **EPW File**: Consente di allegare un file EPW dal [sito web di dati EPW Ladybug](https://www.ladybug.tools/epwmap/) a questo sito. Ciò è necessario per visualizzare i diagrammi della rosa dei venti {{version/it|0.19}}
 
 
 </div>
@@ -82,22 +82,22 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 ### Vista
 
--    **Solar Diagram**   * Mostra o nasconde il diagramma solare
+-    **Solar Diagram**: Mostra o nasconde il diagramma solare
 
--    **Solar Diagram Color**   * Il colore del diagramma solare
+-    **Solar Diagram Color**: Il colore del diagramma solare
 
--    **Solar Diagram Position**   * La posizione del diagramma solare
+-    **Solar Diagram Position**: La posizione del diagramma solare
 
--    **Solar Diagram Scale**   * La scala del diagramma solare
+-    **Solar Diagram Scale**: La scala del diagramma solare
 
--    **Wind Rose**   * Mostra o nasconde il diagramma della rosa dei venti (richiede che la proprietà dati **File EPW** sia riempita e il modulo Ladybug Python sia installato (vedere sotto)
+-    **Wind Rose**: Mostra o nasconde il diagramma della rosa dei venti (richiede che la proprietà dati **File EPW** sia riempita e il modulo Ladybug Python sia installato (vedere sotto)
 
 
 </div>
 
 ## Tipico flusso di lavoro 
 
-Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata   *
+Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -114,12 +114,12 @@ La geometria sito sarà ricalcolata e le proprietà aree, il perimetro e i volum
 
 <div class="mw-translate-fuzzy">
 
-Se nel proprio sistema è installato [Ladybug](https   *//www.ladybug.tools/ladybug.html), i [Siti](Arch_Site/it.md) di Arch possono visualizzare un diagramma solare o del vento. Per questo, le proprietà **Longitude**, **Latitude** e **Declination** (precedentemente era **North Deviation**) devono essere impostate correttamente, e la proprietà **Solar Diagram** o **Wind Rose** impostata su `True`. {{Version/it|0.17}} e {{Version/it|0.19}}
+Se nel proprio sistema è installato [Ladybug](https://www.ladybug.tools/ladybug.html), i [Siti](Arch_Site/it.md) di Arch possono visualizzare un diagramma solare o del vento. Per questo, le proprietà **Longitude**, **Latitude** e **Declination** (precedentemente era **North Deviation**) devono essere impostate correttamente, e la proprietà **Solar Diagram** o **Wind Rose** impostata su `True`. {{Version/it|0.17}} e {{Version/it|0.19}}
 
 
 </div>
 
-**Nota**   * Se non avete Ladybug, [pysolar](http   *//pysolar.org/) è ancora supportato per generare diagrammi solari, ma non rose dei venti. E\' richiesto Pysolar 0.7 o superiore; questa versione funziona solo con Python 3. Se serve questa funzione con Python 2, si deve avere Pysolar 0.6 in quanto questa è l\'ultima versione che funziona con Python 2. Tuttavia, Ladybug è uno strumento molto più potente che probabilmente verrà utilizzato di più in futuro, quindi si consiglia di utilizzarlo al posto di pysolar. Ladybug può essere installato semplicemente tramite [pip](https   *//github.com/ladybug-tools/ladybug).
+**Nota**: Se non avete Ladybug, [pysolar](http://pysolar.org/) è ancora supportato per generare diagrammi solari, ma non rose dei venti. E\' richiesto Pysolar 0.7 o superiore; questa versione funziona solo con Python 3. Se serve questa funzione con Python 2, si deve avere Pysolar 0.6 in quanto questa è l\'ultima versione che funziona con Python 2. Tuttavia, Ladybug è uno strumento molto più potente che probabilmente verrà utilizzato di più in futuro, quindi si consiglia di utilizzarlo al posto di pysolar. Ladybug può essere installato semplicemente tramite [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -131,7 +131,7 @@ Se nel proprio sistema è installato [Ladybug](https   *//www.ladybug.tools/lady
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -141,7 +141,7 @@ Se nel proprio sistema è installato [Ladybug](https   *//www.ladybug.tools/lady
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Sito può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Sito può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -153,7 +153,7 @@ Site = makeSite(objectslist=None, baseobj=None, name="Site")
 
 -   Crea un oggetto `Site` da `objectslist`, che è una lista di oggetti, o da un `baseobj`, che è una `Shape` o un `Terrain`.
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -190,13 +190,13 @@ FreeCAD.ActiveDocument.recompute()
 
 ### Diagramma solare indipendente dal sito 
 
-Un diagramma solare può essere creato con la seguente funzione, indipendentemente da qualsiasi sito   * 
+Un diagramma solare può essere creato con la seguente funzione, indipendentemente da qualsiasi sito: 
 ```python
 Node = makeSolarDiagram(longitude, latitude, scale=1, complete=False)
 ```
 
 -   Crea un diagramma solare come nodo Pivy, usando `longitude` e `latitude`, con una {{incode | scale}} opzionale.
--   Se `complete` è `True`, disegna i 12 mesi, che mostra l\'intero [analemma](https   *//en.wikipedia.org/wiki/Analemma) solare.
+-   Se `complete` è `True`, disegna i 12 mesi, che mostra l\'intero [analemma](https://en.wikipedia.org/wiki/Analemma) solare.
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Draft_Array
-   Name/it   *Serie
-   MenuLocation   *Draft → Serie
-   Workbenches   *[Draft](Draft_Workbench/it.md)
-   SeeAlso   *[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md),[Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
+- GuiCommand:/it
+   Name:Draft_Array
+   Name/it:Serie
+   MenuLocation:Draft → Serie
+   Workbenches:[Draft](Draft_Workbench/it.md)
+   SeeAlso:[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md),[Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---
 
 # Draft Array/it
@@ -53,11 +53,11 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 ## Proprietà
 
--    {{PropertyData/it|Base}}   * specifica l\'oggetto da duplicare nella schiera.
+-    {{PropertyData/it|Base}}: specifica l\'oggetto da duplicare nella schiera.
 
--    {{PropertyData/it|Array Type}}   * specifica il tipo di schiera da creare, {{value|"ortho"}}, {{value|"polar"}}, o {{value|"circular"}}.
+-    {{PropertyData/it|Array Type}}: specifica il tipo di schiera da creare, {{value|"ortho"}}, {{value|"polar"}}, o {{value|"circular"}}.
 
--    {{PropertyData/it|Fuse}}   * se è `True`, e le copie si intersecano tra loro, esse vengono fuse insieme in un\'unica forma.
+-    {{PropertyData/it|Fuse}}: se è `True`, e le copie si intersecano tra loro, esse vengono fuse insieme in un\'unica forma.
 
 
 </div>
@@ -70,7 +70,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

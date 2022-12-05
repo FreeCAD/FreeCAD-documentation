@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std FreeCADWebsite
-   Name/de   *Std FreeCADWebseite
-   MenuLocation   *Hilfe → FreeCAD Webseite
-   Workbenches   *Alle
-   SeeAlso   *[Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
+- GuiCommand:/de
+   Name:Std FreeCADWebsite
+   Name/de:Std FreeCADWebseite
+   MenuLocation:Hilfe → FreeCAD Webseite
+   Workbenches:Alle
+   SeeAlso:[Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
 ---
 
 # Std FreeCADWebsite/de
@@ -13,7 +13,7 @@
 
 Der Befehl **Std FreeCADWebseite** öffnet die Hauptwebseite des FreeCAD-Projekts im Standard-Browser des Betriebssystems. Der Befehl erfordert eine funktionierende Internet-Verbindung.
 
-Aktuell verweist der Befehl auf die Seite [<https   *//www.freecad.org>](https   *//www.freecad.org/).
+Aktuell verweist der Befehl auf die Seite [<https://www.freecad.org>](https://www.freecad.org/).
 
 ## Anwendung
 

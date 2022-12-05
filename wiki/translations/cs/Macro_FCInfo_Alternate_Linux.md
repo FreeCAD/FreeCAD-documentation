@@ -14,27 +14,27 @@
 Poskytuje řadu informací o vybraném tvaru a může zobrazovat konverzi délky, svahu (stupeň, radián, sklon, průtok), tvar, povrch, objem a hmotnost tvaru ve zvolené hustotě v různých měrných jednotkách v mezinárodním měřítku a v angličtině-Saxon (pouze pro PyQt4).
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/6c6b6131b0c14d800033/raw/ffa3d6857abb0ea207cee1ae13c1cb78edadbcf5/FCInfo_fr_Ver_1-12_No_Docked_Ubuntu.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/6c6b6131b0c14d800033/raw/ffa3d6857abb0ea207cee1ae13c1cb78edadbcf5/FCInfo_fr_Ver_1-12_No_Docked_Ubuntu.FCMacro}}
 
 Server momentálně nepřijímá více stránek 64 kB a nebylo možné tuto stránku aktualizovat a obnovit.
 
 ## Script
 
-Stáhnout soubor zde   *
+Stáhnout soubor zde:
 
-[FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http   *//forum.freecadweb.org/download/file.php?id=4453)
+[FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http://forum.freecadweb.org/download/file.php?id=4453)
 
-[Or on the forum](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=48579#p48579)
+[Or on the forum](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=48579#p48579)
 
 Rozdíl mezi běžnou verzí a verzí \"Ubuntu\" v jiném typu kódování znaků nad + 128 s postupem
-PS   * tato verze je odvozena z původní verze, rozdíl je umístěn na úrovni kódovacích znaků **² ³ ° μ**, které mohou v některých konfiguracích způsobit chybu \"ordinal not in range (128)\" na některých konfiguracích ?
+PS: tato verze je odvozena z původní verze, rozdíl je umístěn na úrovni kódovacích znaků **² ³ ° μ**, které mohou v některých konfiguracích způsobit chybu \"ordinal not in range (128)\" na některých konfiguracích ?
 
-Příklad   * 
+Příklad: 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
 global uniteVs       ; uniteVs       = u"mm³"
 global uniteAs       ; uniteAs       = u"°"
-``` replace to    * 
+``` replace to : 
 ```python
 global uniteSs       ; uniteSs       = "mm"+iso8859(unichr(178))
 global uniteVs       ; uniteVs       = "mm"+iso8859(unichr(179))

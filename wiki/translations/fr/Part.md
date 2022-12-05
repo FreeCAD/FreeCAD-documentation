@@ -4,15 +4,15 @@
 
 {{TOCright}}
 
-Dans FreeCAD, le mot \"[Part](Part/fr.md)\" est normalement utilisé pour faire référence à une classe <img alt="" src=images/Std_Part.svg  style="width   *24px;"> [Std Part](Std_Part/fr.md) (`App   *   *Part`), un type d\'objet conteneur défini par le système de base. Cette pièce permet de gérer la position des formes 3D afin de créer des assemblages mécaniques.
+Dans FreeCAD, le mot \"[Part](Part/fr.md)\" est normalement utilisé pour faire référence à une classe <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part/fr.md) (`App::Part`), un type d\'objet conteneur défini par le système de base. Cette pièce permet de gérer la position des formes 3D afin de créer des assemblages mécaniques.
 
-Voir <img alt="" src=images/Std_Part.svg  style="width   *24px;"> [Std Part](Std_Part/fr.md) pour plus d\'informations sur ce type d\'objet.
+Voir <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part/fr.md) pour plus d\'informations sur ce type d\'objet.
 
 ## Comment l\'utiliser 
 
 L\'outil Std Part n\'est pas défini par un atelier particulier, mais par le système de base, il se trouve donc dans la **structure toolbar**, qui est disponible dans tous les [ateliers](Workbenches/fr.md).
 
-1.  Appuyez sur le bouton **[<img src=images/_Std_Part.svg style="width   *16px"> [Std Part](Std_Part/fr.md)**. Une pièce vide est créée et devient automatiquement *[active](Std_Part/fr#Active_status.md)*.
+1.  Appuyez sur le bouton **[<img src=images/_Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)**. Une pièce vide est créée et devient automatiquement *[active](Std_Part/fr#Active_status.md)*.
 
 ## Remarques
 
@@ -27,9 +27,7 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
-
-[Category   *Glossary](Category_Glossary.md)
+}} {{Document objects navi}}
 
 
 

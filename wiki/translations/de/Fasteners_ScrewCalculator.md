@@ -1,23 +1,23 @@
 ---
-- GuiCommand   */de
-   Name   *Fasteners ScrewCalculator
-   Name/de   *Fasteners Schraubenrechner
-   MenuLocation   *Fasteners → Screw calculator
-   Workbenches   *[Fasteners](Fasteners_Workbench.md)
+- GuiCommand:/de
+   Name:Fasteners ScrewCalculator
+   Name/de:Fasteners Schraubenrechner
+   MenuLocation:Fasteners → Screw calculator
+   Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners ScrewCalculator/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *24px;"> **Fasteners ScrewCalculator** zeigt einer Rechner zum Ermitteln des Kernlochdurchmessers einer Gewindebohrung an.
+Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** zeigt einer Rechner zum Ermitteln des Kernlochdurchmessers einer Gewindebohrung an.
 
 ![](images/Fasteners_ScrewCalculator_Dialog.png ) 
 *Das Dialogfenster des Schraubenloch-Rechners*
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw calculator](Fasteners_ScrewCalculator.md)** drücken.
     -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** auswählen.
 2.  Das Dialogfenster **Screw hole calculator** wird geöffnet.
@@ -32,9 +32,7 @@ Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   
 
 {{Fasteners Tools navi
 
-}} 
-
-[Category   *External Command Reference](Category_External_Command_Reference.md)
+}}
 
 
 

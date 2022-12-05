@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch Grid
-   Name/ru   *Arch Grid
-   MenuLocation   *Arch → Axis tools → Grid
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   SeeAlso   *[[Arch Axis/ru]], [[Arch AxisSystem/ru]]
+- GuiCommand:/ru
+   Name:Arch Grid
+   Name/ru:Arch Grid
+   MenuLocation:Arch → Axis tools → Grid
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   SeeAlso:[[Arch Axis/ru]], [[Arch AxisSystem/ru]]
 ---
 
 # Arch Grid/ru
@@ -18,7 +18,7 @@ The **<img src="images/Arch_Grid.svg" width=16px> [Arch Grid](Arch_Grid.md)** to
 
 The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a [Draft](Draft_Workbench.md) or [Sketch](Sketcher_Workbench.md) is needed, but it can also behave as a [Arch AxisSystem](Arch_AxisSystem.md), and be used to propagate the placement of other Arch objects.
 
-<img alt="" src=images/Arch_Grid_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;"> 
 *An array of columns, a railing system, and a window, each based on an [Arch Grid](Arch_Grid.md) object.*
 
 ## Применение
@@ -33,41 +33,41 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 -   A column width or row height of 0 means its size will be adapted automatically to fit the total width/height of the grid.
 -   Cells can be merged and unmerged by selecting them and clicking the appropriate button.
--   When used as the **Axis** property of other Arch objects, the grid will drive the positioning of these objects. The **Points Output** property defines how the other objects are placed on the grid   * At vertices, edge midpoints or face centers.
+-   When used as the **Axis** property of other Arch objects, the grid will drive the positioning of these objects. The **Points Output** property defines how the other objects are placed on the grid: At vertices, edge midpoints or face centers.
 -   By setting the **Auto Height** or **Auto Width** properties to a non-zero value, the total number of rows/columns and their individual heights/widths is ignored. Instead, the maximum number of columns or rows of the given auto width/height get automatically created.
 
 ## Свойства
 
--    **Rows**   * The number of rows
+-    **Rows**: The number of rows
 
--    **Columns**   * The number of columns
+-    **Columns**: The number of columns
 
--    **Row Size**   * The sizes for rows
+-    **Row Size**: The sizes for rows
 
--    **Column Size**   * The sizes of columns
+-    **Column Size**: The sizes of columns
 
--    **Points Output**   * The type of 3D points produced by this grid object
+-    **Points Output**: The type of 3D points produced by this grid object
 
--    **Width**   * The total width of this grid
+-    **Width**: The total width of this grid
 
--    **Height**   * The total height of this grid
+-    **Height**: The total height of this grid
 
--    **Auto Width**   * Creates automatic column divisions (set to 0 to disable)
+-    **Auto Width**: Creates automatic column divisions (set to 0 to disable)
 
--    **Auto Height**   * Creates automatic row divisions (set to 0 to disable)
+-    **Auto Height**: Creates automatic row divisions (set to 0 to disable)
 
--    **Reorient**   * When in edge midpoint mode, if this grid must reorient its children along edge normals or not
+-    **Reorient**: When in edge midpoint mode, if this grid must reorient its children along edge normals or not
 
--    **Hidden Faces**   * The indices of faces to hide
+-    **Hidden Faces**: The indices of faces to hide
 
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Grid tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The Grid tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python

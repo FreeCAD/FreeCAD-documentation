@@ -1,4 +1,4 @@
-# <img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width   *64px;"> Reverse Engineering Workbench/zh-cn
+# <img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/zh-cn
 
 ## Introduction
 
@@ -22,7 +22,7 @@
 
 The Reverse Engineering tools are all located in the Reverse Engineering menu and the Reverse Engineering toolbar that appear when you load the Reverse Engineering workbench from the workbench dropdown menu.
 
--   <img alt="" src=images/FitSurface.svg  style="width   *32px;"> Approximate a B-spline surface   *
+-   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Approximate a B-spline surface:
 
 ## Development
 
@@ -36,11 +36,6 @@ Link to appropriate threads discussing this workbench
 
 
 </div>
-
-
-
-
-[Category   *Reverse Engineering](Category_Reverse_Engineering.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

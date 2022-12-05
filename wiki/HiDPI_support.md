@@ -15,15 +15,15 @@ To solve the issue, Apple introduced \"HiDPI\", that is scaling all the UI eleme
 
 ### Part one 
 
-Goal   * Make sure that we make the most out of Qt support.
+Goal: Make sure that we make the most out of Qt support.
 
 -   In progress. Migrate the user base to Qt \> 5.6 and set the AA_EnableHighDpiScaling to true.
--   Scale all cursors and icons (multiplying them by devicePixelRatio) <https   *//github.com/FreeCAD/FreeCAD/pull/3712>
+-   Scale all cursors and icons (multiplying them by devicePixelRatio) <https://github.com/FreeCAD/FreeCAD/pull/3712>
 -   Make all pixel graphics vector or available at various pixel density
 
 ### Part two 
 
-Goal   * Make sure that the system font is correctly determined.
+Goal: Make sure that the system font is correctly determined.
 
 -   Bundle appropriate QPA theme plugins on all major platforms (AppImage, etc)
 -   Find ways to detect that system\'s font is changed
@@ -34,7 +34,7 @@ Goal   * Make sure that the system font is correctly determined.
 
 ### Part three 
 
-Goal   * Make all UI widgets size relative to the font size
+Goal: Make all UI widgets size relative to the font size
 
 -   In all appropriate places, get system font metrics to determine the size of a widget.
 -   In places where real size is referenced, assume font size as a relative measure (72 points = 96 virtual pixels = 1 inch).
@@ -45,7 +45,7 @@ Goal   * Make all UI widgets size relative to the font size
 
 ### Part four 
 
-Goal   * Support rescaling when the window is moved from one screen to another
+Goal: Support rescaling when the window is moved from one screen to another
 
 -   Detect that device pixel ratio has changed
 -   Notify all widgets depending on device pixel ratio or the font size
@@ -54,7 +54,7 @@ Goal   * Support rescaling when the window is moved from one screen to another
 
 ### Display resolutions 
 
-<img alt="" src=images/Vector_Video_Standards8.svg  style="width   *800px;">
+<img alt="" src=images/Vector_Video_Standards8.svg  style="width:800px;">
 
 ### Device pixel ratio 
 
@@ -76,10 +76,10 @@ If you just change DPI, you would scale everything up and down. But in fact, you
 
 So the concept of \"Device-independent pixels\" was introduced. The idea was that developers could keep not worrying about the physical size of a display and design UIs in virtual pixels.
 
-But the reality is that if you use raster graphics, it becomes pixelized, blurry, or aliased as it is displayed in non-native resolution. So developers now need to provide multiple versions of raster images, for each device pixel ratio. Usually, it\'s whole numbers   * 1, 2, 3, 4. But it can also be fractional (125%, 150%, 175% = 1.25, 1.5, 1.75) meaning that there\'s still some scaling involved, but not as apparent.
+But the reality is that if you use raster graphics, it becomes pixelized, blurry, or aliased as it is displayed in non-native resolution. So developers now need to provide multiple versions of raster images, for each device pixel ratio. Usually, it\'s whole numbers: 1, 2, 3, 4. But it can also be fractional (125%, 150%, 175% = 1.25, 1.5, 1.75) meaning that there\'s still some scaling involved, but not as apparent.
 
--   <https   *//stackoverflow.com/questions/8785643/what-exactly-is-device-pixel-ratio>
--   <https   *//stackoverflow.com/questions/13911786/what-is-device-pixel-ratio-for>
+-   <https://stackoverflow.com/questions/8785643/what-exactly-is-device-pixel-ratio>
+-   <https://stackoverflow.com/questions/13911786/what-is-device-pixel-ratio-for>
 
 ## Issue testing/demonstration 
 
@@ -89,26 +89,26 @@ But the reality is that if you use raster graphics, it becomes pixelized, blurry
 2.  Choose \"Scaled\"
 3.  Choose \"Larger text\" - this increases device pixel ratio
 
-Video   * <https   *//www.youtube.com/watch?v=4U3eh_fMo4o>
+Video: <https://www.youtube.com/watch?v=4U3eh_fMo4o>
 
 ### X Window 
 
-Useful commands   *
+Useful commands:
 
     ~$ xrdb -query
-    *customization   * -color
-    Xft.dpi   *    192
-    Xft.antialias   *  1
-    Xft.hinting   *    1
-    Xft.hintstyle   *  hintslight
-    Xft.rgba   *   rgb
-    Xcursor.size   *   128
-    Xcursor.theme   *  DMZ-White
+    *customization: -color
+    Xft.dpi:    192
+    Xft.antialias:  1
+    Xft.hinting:    1
+    Xft.hintstyle:  hintslight
+    Xft.rgba:   rgb
+    Xcursor.size:   128
+    Xcursor.theme:  DMZ-White
 
     ~$ xdpyinfo | grep -B 2 resolution
-    screen #0   *
-      dimensions   *    3840x2160 pixels (1016x572 millimeters)
-      resolution   *    96x96 dots per inch
+    screen #0:
+      dimensions:    3840x2160 pixels (1016x572 millimeters)
+      resolution:    96x96 dots per inch
 
 ### Ubuntu (GNOME Shell) 
 
@@ -127,7 +127,7 @@ Useful commands   *
 
 ### Font size 
 
-Fonts are usually vector. So they don\'t require a higher resolution version to be able to scale up (in pixels). However, we can\'t just increase every font size and call it a day. People are used to font sizes in relation to how they look on paper. And on paper, it is known that 72pt font takes one inch, and on displays of old days, an inch was equal to 96 pixels at 1   *1 zoom level.
+Fonts are usually vector. So they don\'t require a higher resolution version to be able to scale up (in pixels). However, we can\'t just increase every font size and call it a day. People are used to font sizes in relation to how they look on paper. And on paper, it is known that 72pt font takes one inch, and on displays of old days, an inch was equal to 96 pixels at 1:1 zoom level.
 
 So, as display resolutions become higher, displays could fit more text lines of the same size. So naturally, as display physical size remains the same and our eyes don\'t become better at discerning smaller detail, we perceive the same font point size as smaller on higher resolutions.
 
@@ -141,7 +141,7 @@ So, until Qt provides better guidance on the cursor size, let\'s use an image of
 
 In OS, for example in GNOME, cursor size appears to be fixed in terms of virtual pixels. That is, it respects the device pixel ratio (keep the same apparent size). But it does increase when you change the display resolution (that is, stays the same in pixels, but increase in apparent size).
 
-For example, here\'s a default setting for virtual pixels in GNOME   *
+For example, here\'s a default setting for virtual pixels in GNOME:
 
     ~$ gsettings get org.gnome.desktop.interface cursor-size
     64
@@ -152,22 +152,22 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 
 ## Forum threads 
 
--   [Improve support of high DPI displays](https   *//forum.freecadweb.org/viewtopic.php?t=34916) - general Qt support
--   [News   * Qt 5.14 Is Bringing Significantly Better HiDPI Support](https   *//forum.freecadweb.org/viewtopic.php?t=39325) - general Qt support
--   [Custom cursors and high dpi (Windows and MacOS testers needed)](https   *//forum.freecadweb.org/viewtopic.php?&t=48719) - raster cursor image issue
--   [HiDPI Support in Sketcher View](https   *//forum.freecadweb.org/viewtopic.php?t=34853) - selection distance issue
--   [High DPI Improvements](https   *//forum.freecadweb.org/viewtopic.php?t=10512) - PR \"High DPI Fixes\" <https   *//github.com/FreeCAD/FreeCAD/pull/54>, bad quality, 2015
--   [High dpi](https   *//forum.freecadweb.org/viewtopic.php?t=12123) - experimental build with \"High DPI Improvements\" PR
--   [GUI font size](https   *//forum.freecadweb.org/viewtopic.php?t=41656) - font size issue and the QT_SCALE_FACTOR workaround
--   [BUG? Cropped icons](https   *//forum.freecadweb.org/viewtopic.php?t=28838) - issues with HiDPI on multiple displays
--   [FreeCAD 0.17 on macOS Update (Qt 5 builds now available)](https   *//forum.freecadweb.org/viewtopic.php?t=20977) - issues with HiDPI on OS X after upgrade to Qt5
--   [Ticket #3537 - Draft Edit mode not working on MacOS X (HiDPi issue)](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=29743) - OS X + HiDPI, Qt5
--   [Menu distorted on MAC external display](https   *//forum.freecadweb.org/viewtopic.php?t=39975) - OS X + HiDPI, external display
--   [macOS Qt5 plan and status](https   *//forum.freecadweb.org/viewtopic.php?t=19724&start=60) - OS X dropped support for Qt4, HiDPI issues
--   <https   *//www.google.com/search?q=freecad+hidpi+site   *forum.freecadweb.org>
--   [A suggestion to disable \"dump\" scaling before tackling the font size issues](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=52307)
--   [Navigation cube scaling](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=42835)
--   [Navigation cube scaling 2](https   *//forum.freecadweb.org/viewtopic.php?p=450061#p450061)
+-   [Improve support of high DPI displays](https://forum.freecadweb.org/viewtopic.php?t=34916) - general Qt support
+-   [News: Qt 5.14 Is Bringing Significantly Better HiDPI Support](https://forum.freecadweb.org/viewtopic.php?t=39325) - general Qt support
+-   [Custom cursors and high dpi (Windows and MacOS testers needed)](https://forum.freecadweb.org/viewtopic.php?&t=48719) - raster cursor image issue
+-   [HiDPI Support in Sketcher View](https://forum.freecadweb.org/viewtopic.php?t=34853) - selection distance issue
+-   [High DPI Improvements](https://forum.freecadweb.org/viewtopic.php?t=10512) - PR \"High DPI Fixes\" <https://github.com/FreeCAD/FreeCAD/pull/54>, bad quality, 2015
+-   [High dpi](https://forum.freecadweb.org/viewtopic.php?t=12123) - experimental build with \"High DPI Improvements\" PR
+-   [GUI font size](https://forum.freecadweb.org/viewtopic.php?t=41656) - font size issue and the QT_SCALE_FACTOR workaround
+-   [BUG? Cropped icons](https://forum.freecadweb.org/viewtopic.php?t=28838) - issues with HiDPI on multiple displays
+-   [FreeCAD 0.17 on macOS Update (Qt 5 builds now available)](https://forum.freecadweb.org/viewtopic.php?t=20977) - issues with HiDPI on OS X after upgrade to Qt5
+-   [Ticket #3537 - Draft Edit mode not working on MacOS X (HiDPi issue)](https://forum.freecadweb.org/viewtopic.php?f=3&t=29743) - OS X + HiDPI, Qt5
+-   [Menu distorted on MAC external display](https://forum.freecadweb.org/viewtopic.php?t=39975) - OS X + HiDPI, external display
+-   [macOS Qt5 plan and status](https://forum.freecadweb.org/viewtopic.php?t=19724&start=60) - OS X dropped support for Qt4, HiDPI issues
+-   <https://www.google.com/search?q=freecad+hidpi+site:forum.freecadweb.org>
+-   [A suggestion to disable \"dump\" scaling before tackling the font size issues](https://forum.freecadweb.org/viewtopic.php?f=10&t=52307)
+-   [Navigation cube scaling](https://forum.freecadweb.org/viewtopic.php?f=3&t=42835)
+-   [Navigation cube scaling 2](https://forum.freecadweb.org/viewtopic.php?p=450061#p450061)
 
 ## Relevant changes 
 
@@ -206,18 +206,14 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 
 ## Bugtracker Issues 
 
--   Tickets tagged with [HiDPI](https   *//tracker.freecadweb.org/search.php?tag_string=HiDPI)
+-   Tickets tagged with [HiDPI](https://tracker.freecadweb.org/search.php?tag_string=HiDPI)
 
 ## External references 
 
--   <https   *//doc.qt.io/qt-5/highdpi.html>
--   <https   *//doc.qt.io/qt-5/scalability.html>
--   <https   *//docs.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows>
--   <https   *//docs.microsoft.com/en-us/windows/win32/w8cookbook/high-dpi-for-desktop-apps-in-windows-8-1?redirectedfrom=MSDN>
-
-
-
-[Category   *Roadmap](Category_Roadmap.md)
+-   <https://doc.qt.io/qt-5/highdpi.html>
+-   <https://doc.qt.io/qt-5/scalability.html>
+-   <https://docs.microsoft.com/en-us/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows>
+-   <https://docs.microsoft.com/en-us/windows/win32/w8cookbook/high-dpi-for-desktop-apps-in-windows-8-1?redirectedfrom=MSDN>
 
 
 

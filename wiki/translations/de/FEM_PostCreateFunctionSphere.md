@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *FEM PostCreateFunctionSphere
-   Name/de   *FEM NachbearbeitungFunktionKugel
-   Icon   *Fem-post-geo-sphere.svg
-   MenuLocation   *Ergebnisse → Filterfunktionen → Kugel
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM PostCreateFunctionSphere
+   Name/de:FEM NachbearbeitungFunktionKugel
+   Icon:Fem-post-geo-sphere.svg
+   MenuLocation:Ergebnisse → Filterfunktionen → Kugel
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM PostCreateFunctionSphere/de
@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Die Funktion <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24px;"> **FEM NachbearbeitungFunktionKugel** legt die Geometrie fest, mit der ein Netzobjekt geschnitten wird. Sie wird von den Werkzeugen <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width   *16px;"> [Funktion Schnitt-Filter](FEM_PostFilterCutFunction/de.md) und <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *16px;"> [Region Ausschnitt-Filter](FEM_PostFilterClipRegion/de.md) verwendet.
+Die Funktion <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:24px;"> **FEM NachbearbeitungFunktionKugel** legt die Geometrie fest, mit der ein Netzobjekt geschnitten wird. Sie wird von den Werkzeugen <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Funktion Schnitt-Filter](FEM_PostFilterCutFunction/de.md) und <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Region Ausschnitt-Filter](FEM_PostFilterClipRegion/de.md) verwendet.
 
 
 </div>
@@ -24,7 +24,7 @@ Die Funktion <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24p
 
 ### Kugelfunktion erstellen 
 
-1.  Es gibt mehrere Möglichkeiten eine Funktion zu erstellen   *
+1.  Es gibt mehrere Möglichkeiten eine Funktion zu erstellen:
     -   Die Schaltfläche **<img src="images/Fem-post-geo-sphere.svg" width=16px> [Kugel](FEM_PostCreateFunctionSphere/de.md)** drücken.
     -   Den Menüeintrag **Ergebnisse → Filterfunktionen → <img src="images/Fem-post-geo-sphere.svg" width=16px> Kugel** auswählen.
 2.  Der [Aufgabenbereich](Task_panel.md) Implizite Funktion wird geöffnet.
@@ -33,9 +33,9 @@ Die Funktion <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24p
 
 ### Kugelfunktion bearbeiten 
 
-Wenn das Sphere-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wählt man das <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24px;"> Sphere-Objekt in der [3D-Ansicht](3D_view/de.md) aus und drückt die **Leertaste**, um es anzuzeigen, so wie in diesem Beispiel   *
+Wenn das Sphere-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wählt man das <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:24px;"> Sphere-Objekt in der [3D-Ansicht](3D_view/de.md) aus und drückt die **Leertaste**, um es anzuzeigen, so wie in diesem Beispiel:
 
-<img alt="" src=images/FEM_Sphere-Cut-Function-Example.png  style="width   *400px;">
+<img alt="" src=images/FEM_Sphere-Cut-Function-Example.png  style="width:400px;">
 
 #### Die Kugel bewegen 
 
@@ -47,7 +47,7 @@ Wenn das Sphere-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, w
 
 ## Hinweise
 
--   Vorhandene Funktionen können für unterschiedliche Filter und für unterschiedliche <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *16px;"> [Ergebnis-Pipelines](FEM_PostPipelineFromResult/de.md) genutzt werden. Es wird allerdings dazu geraten, für jede Pipeline einen separaten Satz von Funktionen zu verwenden, um den Überblick über die Elemente in der [Baumansicht](Tree_view/de.md) zu behalten.
+-   Vorhandene Funktionen können für unterschiedliche Filter und für unterschiedliche <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [Ergebnis-Pipelines](FEM_PostPipelineFromResult/de.md) genutzt werden. Es wird allerdings dazu geraten, für jede Pipeline einen separaten Satz von Funktionen zu verwenden, um den Überblick über die Elemente in der [Baumansicht](Tree_view/de.md) zu behalten.
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw WeldSymbol
-   Name/it   *Informazioni di saldatura
-   MenuLocation   *TechDraw → Informazioni di saldatura
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Linea guida](TechDraw_LeaderLine/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:TechDraw WeldSymbol
+   Name/it:Informazioni di saldatura
+   MenuLocation:TechDraw → Informazioni di saldatura
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Linea guida](TechDraw_LeaderLine/it.md)
+   Version:0.19
 ---
 
 # TechDraw WeldSymbol/it
@@ -17,7 +17,7 @@
 
 Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea guida esistente.
 
-<img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width   *330px;"> 
+<img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
 *Specifiche di saldatura aggiunte a una linea guida*
 
 ## Utilizzo
@@ -38,33 +38,33 @@ Lo strumento Simbolo saldatura aggiunge le specifiche di saldatura a una linea g
 
 ### Simbolo di saldatura 
 
--    **All Around**   * mostra il simbolo All Around (cerchio) in corrispondenza del nodo nella linea guida.
+-    **All Around**: mostra il simbolo All Around (cerchio) in corrispondenza del nodo nella linea guida.
 
--    **Field Weld**   * mostra il simbolo Field Weld (flag) sul nodo nella linea guida.
+-    **Field Weld**: mostra il simbolo Field Weld (flag) sul nodo nella linea guida.
 
--    **Alternate Weld**   * scosta il simbolo inferiore per indicare saldature alternate.
+-    **Alternate Weld**: scosta il simbolo inferiore per indicare saldature alternate.
 
--    **Tail Text**   * testo da mostrare alla fine della linea guida.
+-    **Tail Text**: testo da mostrare alla fine della linea guida.
 
 ### Tessere dei simboli 
 
-Ogni singolo simbolo (\"lato freccia\" e \"altro lato\") è rappresentato da un oggetto \"tessera\". Un simbolo di saldatura è associato a 1 o 2 tessere. Ognuna di esse ha le seguenti proprietà   *
+Ogni singolo simbolo (\"lato freccia\" e \"altro lato\") è rappresentato da un oggetto \"tessera\". Un simbolo di saldatura è associato a 1 o 2 tessere. Ognuna di esse ha le seguenti proprietà:
 
--    **Tile Parent**   * Il simbolo della saldatura principale
+-    **Tile Parent**: Il simbolo della saldatura principale
 
--    **Tile Row**   * Riga della tessera. 0 significa sopra la linea, -1 sotto la linea. **Nota   *** Se si cambia la riga di una tessera, si deve anche cambiare la tessera per il secondo lato! In questo modo si possono capovolgere i lati.
+-    **Tile Row**: Riga della tessera. 0 significa sopra la linea, -1 sotto la linea. **Nota:** Se si cambia la riga di una tessera, si deve anche cambiare la tessera per il secondo lato! In questo modo si possono capovolgere i lati.
 
--    **Tile Column**   * Colonna della tessra. Al momento è sempre 0, quindi la proprietà non è modificabile.
+-    **Tile Column**: Colonna della tessra. Al momento è sempre 0, quindi la proprietà non è modificabile.
 
--    **Symbol File**   * Directory e nome file del file svg per il simbolo.
+-    **Symbol File**: Directory e nome file del file svg per il simbolo.
 
--    **Symbol Included**   * Nome della directory e del file SVG del simbolo effettivamente incluso. (È una directory temporanea.)
+-    **Symbol Included**: Nome della directory e del file SVG del simbolo effettivamente incluso. (È una directory temporanea.)
 
--    **Left Text**   * Testo da visualizzare a sinistra del simbolo svg.
+-    **Left Text**: Testo da visualizzare a sinistra del simbolo svg.
 
--    **Center Text**   * Testo da visualizzare sopra o sotto il simbolo svg.
+-    **Center Text**: Testo da visualizzare sopra o sotto il simbolo svg.
 
--    **Right Text**   * Testo da visualizzare a destra del simbolo svg.
+-    **Right Text**: Testo da visualizzare a destra del simbolo svg.
 
 ## Script
 
@@ -72,7 +72,7 @@ Ogni singolo simbolo (\"lato freccia\" e \"altro lato\") è rappresentato da un 
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -82,7 +82,7 @@ Ogni singolo simbolo (\"lato freccia\" e \"altro lato\") è rappresentato da un 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Simbolo saldatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Simbolo saldatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -90,7 +90,7 @@ Lo strumento Simbolo saldatura può essere utilizzato nelle [macro](macros/it.md
 
 ```python
 symbolName = "DrawWeldSymbol001")
-symbolType = "TechDraw   *   *DrawWeldSymbol"
+symbolType = "TechDraw::DrawWeldSymbol"
 App.activeDocument().addObject(symbolType, symbolName)
 App.activeDocument().Page.addView(App.activeDocument().DrawWeldSymbol001)
 App.activeDocument().DrawWeldSymbol001.Leader = myLeader
@@ -100,7 +100,7 @@ App.activeDocument().DrawWeldSymbol001.AlternatingWeld = True
 App.activeDocument().DrawWeldSymbol001.TailText = "process text"
 
 tileName = "DrawTileWeld001"
-tileType = "TechDraw   *   *DrawTileWeld"
+tileType = "TechDraw::DrawTileWeld"
 App.activeDocument().addObject(tileType, tileName)
 App.activeDocument().DrawTileWeld001.TileParent = App.activeDocument().DrawWeldSymbol001
 App.activeDocument().DrawTileWeld001.TileRow = 0
@@ -118,14 +118,14 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 ## Tessere dei simboli SVG 
 
--   I singoli simboli sono formati da file Svg di 64x64 pixel. È possibile creare simboli aggiuntivi in un programma SVG come [Inkscape](https   *//en.wikipedia.org/wiki/Inkscape) usando uno dei simboli forniti da FreeCAD come modello.
+-   I singoli simboli sono formati da file Svg di 64x64 pixel. È possibile creare simboli aggiuntivi in un programma SVG come [Inkscape](https://en.wikipedia.org/wiki/Inkscape) usando uno dei simboli forniti da FreeCAD come modello.
 
-<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width   *128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width   *128px;">
+<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
 
 
 </div>
 
-<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width   *128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width   *128px;">
+<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
 
 
 <div class="mw-translate-fuzzy">

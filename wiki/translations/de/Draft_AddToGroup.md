@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft AddToGroup
-   Name/de   *Draft ZurGruppeHinzufügen
-   MenuLocation   *Dienstprogramme → Zur Gruppe hinzufügen...
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Std Gruppe](Std_Group/de.md), [Draft Zur Konstruktionsgruppe hinzufügen](Draft_AddConstruction/de.md), [Draft Zur Gruppe hinzufügen](Draft_AutoGroup/de.md),  [Entwurf Wähle Gruppe](Draft_SelectGroup/de.md), 
+- GuiCommand:/de
+   Name:Draft AddToGroup
+   Name/de:Draft ZurGruppeHinzufügen
+   MenuLocation:Dienstprogramme → Zur Gruppe hinzufügen...
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft Zur Konstruktionsgruppe hinzufügen](Draft_AddConstruction/de.md), [Draft Zur Gruppe hinzufügen](Draft_AutoGroup/de.md),  [Entwurf Wähle Gruppe](Draft_SelectGroup/de.md), 
 ---
 
 # Draft AddToGroup/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_AddToGroup.svg  style="width   *24px;"> **Draft AddToGroup**-Befehl verschiebt Objekte in eine[Std Gruppe](Std_Group/de.md). Damit können auch Objekte von der aktuellen Gruppe entfernt werden.
+Der <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup**-Befehl verschiebt Objekte in eine[Std Gruppe](Std_Group/de.md). Damit können auch Objekte von der aktuellen Gruppe entfernt werden.
 
 In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.md)-Objekte handhaben.
 
@@ -25,11 +25,11 @@ In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.
 
 1.  Um diesen Befehl zu benutzen, muss wenigstens eine Gruppe existieren.
 2.  Wähle ein oder mehrere Objekte.
-3.  Es gibt mehrere Wege, den Befehl aufzurufen   *
+3.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft Zur ](Draft_AddToGroup/de.md)**-Schaltfläche.
     -   Wähle die **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...**-Option aus dem Menü.
     -   Wähle die **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...**-Option aus der [Baumansicht](Tree_view/de.md) oder dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
-4.  Ein Menü wird neben dem Cursor angezeigt. Tue eins der folgenden Dinge   *
+4.  Ein Menü wird neben dem Cursor angezeigt. Tue eins der folgenden Dinge:
     -   Wähle die Gruppe, in die Objekte verschoben werden sollen.
     -   Wähle **Ungroup**, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
 

@@ -3,11 +3,11 @@
 
 ## Introducción
 
-<img alt="" src=images/Link.svg  style="width   *32px;">
+<img alt="" src=images/Link.svg  style="width:32px;">
 
-Un [Enlace de aplicación](App_Link/es.md), o formalmente un `App   *   *Link`, es un tipo de objeto que hace referencia o enlace a otro objeto, en el mismo documento, o en otro documento. Está especialmente diseñado para duplicar eficientemente un único objeto varias veces, lo que ayuda a la creación de [ensamblajes](assembly/es.md) complejos a partir de subensamblajes más pequeños, y de múltiples componentes reutilizables como tornillos, tuercas y elementos de fijación similares.
+Un [Enlace de aplicación](App_Link/es.md), o formalmente un `App::Link`, es un tipo de objeto que hace referencia o enlace a otro objeto, en el mismo documento, o en otro documento. Está especialmente diseñado para duplicar eficientemente un único objeto varias veces, lo que ayuda a la creación de [ensamblajes](assembly/es.md) complejos a partir de subensamblajes más pequeños, y de múltiples componentes reutilizables como tornillos, tuercas y elementos de fijación similares.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 

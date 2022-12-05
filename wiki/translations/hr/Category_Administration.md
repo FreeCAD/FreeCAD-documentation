@@ -1,8 +1,6 @@
 # Category:Administration/hr
 This category contains articles and categories about wiki administrative subjects.
 
-[Category   *Categories/hr](Category   *Categories/hr.md)
-
 ### Contents
 
 |     |     |     |

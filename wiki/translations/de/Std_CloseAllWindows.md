@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std_CloseAllWindows
-   Name/de   *Std AllesSchließen
-   MenuLocation   *Datei → Alles schließen
-   Workbenches   *Alle
-   SeeAlso   *[Std Schließen](Std_CloseActiveWindow/de.md)
+- GuiCommand:/de
+   Name:Std_CloseAllWindows
+   Name/de:Std AllesSchließen
+   MenuLocation:Datei → Alles schließen
+   Workbenches:Alle
+   SeeAlso:[Std Schließen](Std_CloseActiveWindow/de.md)
 ---
 
 # Std CloseAllWindows/de
@@ -16,14 +16,14 @@ Der Befehl **Std AllesSchließen** schließt alle Fenster und dadurch alle Dokum
 ## Anwendung
 
 1.  Wähle die **Datei → <img src="images/Std_CloseAllWindows.svg" width=16px> Alles Schließen**-Option aus dem Menü.
-2.  Falls es nicht gesicherte Dokumente gibt, öffnet sich eine Dialog-Box, die zum Sichern auffordert   *
+2.  Falls es nicht gesicherte Dokumente gibt, öffnet sich eine Dialog-Box, die zum Sichern auffordert:
     -   Drücke die **Speichern**-Schaltfläche zum Sichern des aktiven Dokuments. Falls erforderlich, gib zuerst den Dateinamen ein.
     -   Drücke die **Schließen ohne zu Speichern**-Schaltfläche, um das aktive Dokument zu verlassen und alle Änderungen zu verlieren.
 
 ## Optionen
 
 -   Wenn die Dialog-Box angezeigt wird, drücke **Esc** oder die **Abbrechen**-Schaltfläche, um den Befehl abzubrechen.
--   Fall es mehrere nicht gesicherte Dokumente gibt   * aktiviere das {{CheckBox|TRUE|Antwort auf alle anwenden}}-Kästchen, um zu vermeiden, für jedes ungesicherte Dokument separat aufgefordert zu werden.
+-   Fall es mehrere nicht gesicherte Dokumente gibt: aktiviere das {{CheckBox|TRUE|Antwort auf alle anwenden}}-Kästchen, um zu vermeiden, für jedes ungesicherte Dokument separat aufgefordert zu werden.
 
 ## Hinweise
 
@@ -31,12 +31,12 @@ Der Befehl **Std AllesSchließen** schließt alle Fenster und dadurch alle Dokum
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

@@ -7,7 +7,7 @@
 |Date=2021-09-24
 |Version=0.4.5
 |FCVersion=<small>(v0.18)</small> 
-|Download=[https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/TechDraw/TechDrawTools.FCMacro]
+|Download=[https://github.com/FreeCAD/FreeCAD-macros/blob/master/TechDraw/TechDrawTools.FCMacro]
 }}
 
 ## Description
@@ -16,7 +16,7 @@
 
 All written user informations appear in English/German/Italian/French/Russian/Spanish depending on the selected FreeCAD language.
 
-**There are tools to   ***
+**There are tools to:**
 
 -   create circle and bolt cicle center lines
 -   draw cosmetic threads in ground and side view
@@ -36,7 +36,7 @@ All written user informations appear in English/German/Italian/French/Russian/Sp
 -   position section view orthogonal to ancestor view
 -   create an annotation showing the area
 
-**Workflow   ***
+**Workflow:**
 
 1.  Start the macro
 2.  Select the desired line attributes and cascade spacing
@@ -47,7 +47,7 @@ The macro stays open until it is closed.
 
 ## Using the tools 
 
-The 38 tools are split into three tabs   *
+The 38 tools are split into three tabs:
 
 -   [Attributes and Modifications](Macro_TechDrawTools#Attributes_and_Modifications.md)
 -   [Centerlines and Threading](Macro_TechDrawTools#Centerlines_and_Threading.md)
@@ -57,7 +57,7 @@ The 38 tools are split into three tabs   *
 
 Before starting the work, select the desired line attributes. This is done by clicking the appropriate radio buttons in the boxes displayed in the *Attributes and Modifications* tab.
 
- <img alt="" src=images/TechDraw_TechDrawToolsExample01.png  style="width   *500px;"> 
+ <img alt="" src=images/TechDraw_TechDrawToolsExample01.png  style="width:500px;"> 
 
 -   When creating a new line object, the preset line attributes will be used.
 -   To change attributes of existing lines use the **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Change the line attributes](void.md)** button.
@@ -72,7 +72,7 @@ Tools setting/changing attributes and positions of objects.
 
 -    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Lock/Unlock a view](void.md)**Lock/unlock a view.
 
--    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Orthogonal projection group   * section view positioning](void.md)**Position a section view at same x or y as its base view.
+-    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Orthogonal projection group: section view positioning](void.md)**Position a section view at same x or y as its base view.
 
 -    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Position a horizontal chain dimension](void.md)**Arranges the selected horizontal dimensions at the same line.
 

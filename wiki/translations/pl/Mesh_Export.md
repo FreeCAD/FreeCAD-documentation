@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh Export
-   Name/pl   *Siatka   * Eksportuj
-   MenuLocation   *Siatki → Eksportuj siatkę ...
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso   *[Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
+- GuiCommand:/pl
+   Name:Mesh Export
+   Name/pl:Siatka: Eksportuj
+   MenuLocation:Siatki → Eksportuj siatkę ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
 ---
 
 # Mesh Export/pl
@@ -16,7 +16,7 @@ Polecenie **Eksportuj siatkę \...** eksportuje obiekt siatkowy do formatu pliku
 ## Użycie
 
 1.  Wybierz pojedynczy obiekt siatki.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_Export.svg" width=16px> [Eksportuj siatkę ...](Mesh_Export/pl.md)**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_Export.svg" width=16px> Eksportuj siatkę ...**.
     -   Wybierz opcję **<img src="images/Mesh_Export.svg" width=16px> Eksportuj siatkę ...** z menu kontekstowego okna [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
@@ -26,15 +26,15 @@ Polecenie **Eksportuj siatkę \...** eksportuje obiekt siatkowy do formatu pliku
 
 ## Uwagi
 
-Istnieje kilka [preferencji eksportu związanych z formatami siatki](Import_Export_Preferences/pl#Formaty_Siatki.md), ale nie dotyczą one tego polecenia. Są one używane przez polecenie [Std   * Eksport](Std_Export/pl.md).
+Istnieje kilka [preferencji eksportu związanych z formatami siatki](Import_Export_Preferences/pl#Formaty_Siatki.md), ale nie dotyczą one tego polecenia. Są one używane przez polecenie [Std: Eksport](Std_Export/pl.md).
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
-Zobacz również   * [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również: [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
 Aby wyeksportować obiekty *(w tym obiekty siatkowe)* do formatu pliku siatkowego użyj metody `export` modułu *Mesh*.
 
@@ -45,7 +45,7 @@ import Mesh
 
 doc = FreeCAD.ActiveDocument
 
-Mesh.export([doc.Cone, doc.Cylinder], 'D   */testfiles/mymodel.stl')
+Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 ```
 
 

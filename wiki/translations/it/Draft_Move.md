@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft_Move
-   Name/it   *Sposta
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Sposta
-   Shortcut   ***M** **V**
-   SeeAlso   *[Schiera](Draft_Array/it.md), [Copie su tracciato](Draft_PathArray/it.md)
-   Version   *0.7
+- GuiCommand:/it
+   Name:Draft_Move
+   Name/it:Sposta
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Sposta
+   Shortcut:**M** **V**
+   SeeAlso:[Schiera](Draft_Array/it.md), [Copie su tracciato](Draft_PathArray/it.md)
+   Version:0.7
 ---
 
 # Draft Move/it
@@ -32,7 +32,7 @@ Lo strumento Sposta può essere utilizzato su forme 2D create con [Draft](Draft_
 
 </div>
 
-<img alt="" src=images/Draft_Move_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Move_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ Lo strumento Sposta può essere utilizzato su forme 2D create con [Draft](Draft_
 
 ## Utilizzo
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +72,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Sposta verrà riavviato al termine dell\'operazione, consentendo di spostare o copiare nuovamente gli oggetti senza premere nuovamente il pulsante dello strumento.
 -   Premere **P** oppure fare clic sulla casella di controllo per attivare la modalità *Copia*. Se la modalità copia è attiva, lo strumento Sposta mantiene la forma originale al suo posto e crea una copia nel secondo punto.
 
-   *   Si possono usare sia **T** che **P** per posizionare più copie in sequenza. In questo caso, l\'elemento che viene duplicato è l\'ultima copia posizionata.
+:   Si possono usare sia **T** che **P** per posizionare più copie in sequenza. In questo caso, l\'elemento che viene duplicato è l\'ultima copia posizionata.
 
 -   Tenere premuto **Alt** dopo il secondo punto per attivare o disattivare la modalità di copia. Tenendo premuto **Alt** dopo aver cliccato sul secondo punto, si può continuare a posizionare altre copie; rilasciare **Alt** per terminare l\'operazione e vedere tutte le copie.
 -   Tenere premuto **Ctrl** mentre si sposta per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
@@ -88,12 +88,12 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   To store and reuse the same copy mode setting across commands   * **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
@@ -103,7 +103,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -113,7 +113,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Sposta può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Sposta può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -132,7 +132,7 @@ moved_list = move(objectslist, vector, copy=False)
         
         può essere un singolo oggetto o un elenco di oggetti.
 
-   *   Il vettore di spostamento è relativo al punto base dell\'oggetto, il che significa che se un oggetto viene spostato di 2 unità e poi di altre 2 unità, in totale viene spostato di 4 unità dalla sua posizione originale.
+:   Il vettore di spostamento è relativo al punto base dell\'oggetto, il che significa che se un oggetto viene spostato di 2 unità e poi di altre 2 unità, in totale viene spostato di 4 unità dalla sua posizione originale.
 
 -   Se `copy` è `True` vengono create delle copie invece di spostare gli oggetti originali.
 -   Viene restituita una `movedlist` con gli oggetti originali spostati o con le nuove copie..
@@ -144,7 +144,7 @@ moved_list = move(objectslist, vector, copy=False)
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

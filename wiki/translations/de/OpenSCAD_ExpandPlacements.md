@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *OpenSCAD ExpandPlacements
-   Name/de   *OpenSCAD Erweitere Platzierungen
-   MenuLocation   *OpenSCAD → Erweitere Platzierungen
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/de.md)
+- GuiCommand:/de
+   Name:OpenSCAD ExpandPlacements
+   Name/de:OpenSCAD Erweitere Platzierungen
+   MenuLocation:OpenSCAD → Erweitere Platzierungen
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD ExpandPlacements/de
@@ -23,7 +23,7 @@ Erweitere alle Platzierungen im Formelemente-Baum abwärts.
 
 Dieser Befehl dient zum \"Zurücksetzen\" der Positionierungs-Werte eines Objekts, die aktuelle Position wird zu 0/0/0.
 
-Funktioniert mit   *
+Funktioniert mit:
 
 -   Booleschen Objekten
 -   extrudierten Objekten (abgeleitet vom Part Arbeitsbereich)

@@ -1,6 +1,6 @@
 # PartDesign SubtractivePipe/ro
 ---
-- GuiCommand   *   Name   *PartDesign SubtractivePipe   Workbenches   *[MenuLocation   *Part Design → Subtractive pipe   Shortcut   *None   SeeAlso   *[[PartDesign AdditivePipe|Additive pipe](PartDesign_Workbench___PartDesign]].md), [Subtractive loft](PartDesign_SubtractiveLoft.md)---
+- GuiCommand:   Name:PartDesign SubtractivePipe   Workbenches:[MenuLocation:Part Design → Subtractive pipe   Shortcut:None   SeeAlso:[[PartDesign AdditivePipe|Additive pipe](PartDesign_Workbench___PartDesign]].md), [Subtractive loft](PartDesign_SubtractiveLoft.md)---
 
 
 </div>
@@ -31,7 +31,7 @@
 2.  In dialogul *Select feature*\', selectați o schiță pentru a fi utilizată ca primă scțiune trasnversală și click **OK**.
     -   Ca alternativă, o singură schiță poate fi selectată în prealabil apăsării butonului Subtractive pipe .
 3.  In **Pipe parameters** sub **Profile**, apăsați butonul **Object** .
-4.  Selectați schița care va fi utilizată ca traiectorie în vizualizarea 3D   *
+4.  Selectați schița care va fi utilizată ca traiectorie în vizualizarea 3D:
     -   De asemenea, muchiile corpului pot fi selectate prin apăsarea **Add Edge** și selectarea muchiilor în vizualizarea 3D .
 5.  Penru a utiliza mai multe secțiuni transversale, sub **Section transformation** setați modul Transform pe *Multisection*; apăsați **Add Section** apoi selectați o schiță în vizulalizarea 3D. Reptați pentru fiecare secțiune transversală adițională.
 6.  Setați opțiunile dacă este necesar și click pe **OK**.
@@ -41,19 +41,19 @@
 
 ## Opţiuni
 
-**Section Transformation**   *
+**Section Transformation**:
 
 -   Select **Constant** to use a single profile
 -   Select **Multisection** to use multiple profiles
 
-**Section Orientation**   *
+**Section Orientation**:
 
 -   Standard
     -   This keeps the cross section shape perpendicular to the path. This is the default setting.
 -   Fixed
     -   Orientation set by first profile and constant throughout. This deactivates the alignment to the path normal vector. That means that the cross-section shape will not rotate with the path. Sweep along a circle to see the effect.
 -   Frenet
-    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
+    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
 -   Auxiliary
     -   Specify secondary path to guide pipe.
     -   For each point **P** along the sweep path, there will be a corresponding point **Q** on the auxiliary path.
@@ -73,25 +73,25 @@
 
 <div class="mw-translate-fuzzy">
 
--    **Label**   * nume dat operațiunii, acest nume poate fi schimbat dacă este necesar.
+-    **Label**: nume dat operațiunii, acest nume poate fi schimbat dacă este necesar.
 
--    **Refine**   * true sau false. Dacă este setat true, curăță solidul de muchiile reziduale rămase de la funcționalități. Pentrru mai multe detalii vezi [Part RefineShape](Part_RefineShape.md) .
+-    **Refine**: true sau false. Dacă este setat true, curăță solidul de muchiile reziduale rămase de la funcționalități. Pentrru mai multe detalii vezi [Part RefineShape](Part_RefineShape.md) .
 
--    **Sections**   * listează secțiunile folosite.
+-    **Sections**: listează secțiunile folosite.
 
--    **Spine Tangent**   * true sau false (valoare implicit). True extinde traiectoria pentru a include muchiile tangente.
+-    **Spine Tangent**: true sau false (valoare implicit). True extinde traiectoria pentru a include muchiile tangente.
 
--    **Auxiliary Spine Tangent**   * true sau false (valorea implită) True extinde traictoria auxiliară pentru include muchiile tangente.
+-    **Auxiliary Spine Tangent**: true sau false (valorea implită) True extinde traictoria auxiliară pentru include muchiile tangente.
 
--    **Auxiliary Curvelinear**   * true saur false (valoarea implicită). True calculează normala între punctele echididstent la ambele dorsale/curbe.
+-    **Auxiliary Curvelinear**: true saur false (valoarea implicită). True calculează normala între punctele echididstent la ambele dorsale/curbe.
 
--    **Mode**   * profile mode. See [Options](#Options.md).
+-    **Mode**: profile mode. See [Options](#Options.md).
 
--    **Binormal**   * binormal vector for corresponding orientation mode.
+-    **Binormal**: binormal vector for corresponding orientation mode.
 
--    **Transition**   * transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
+-    **Transition**: transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
 
--    **Transformation**   * *Constant* folosește o singură secțiune transversală . *Multisection* folosește două sau mai multe secțiuni tansversale. *Linear*, *S-shape* și *Interpolation* nu sunt funcționale în acest moment.
+-    **Transformation**: *Constant* folosește o singură secțiune transversală . *Multisection* folosește două sau mai multe secțiuni tansversale. *Linear*, *S-shape* și *Interpolation* nu sunt funcționale în acest moment.
 
 
 </div>

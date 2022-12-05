@@ -1,6 +1,6 @@
 # Part Revolve/it
 ---
-- GuiCommand   */it   Name   *Part_Revolve   Name/it   *Rivoluziona   MenuLocation   *Parte → Rivoluziona...   Workbenches   *[[Part_Workbench/it   Parte]]|SeeAlso   *---
+- GuiCommand:/it   Name:Part_Revolve   Name/it:Rivoluziona   MenuLocation:Parte → Rivoluziona...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-Ruota l\'oggetto selezionato e crea una rivoluzione intorno a un dato asse. Si possono ruotare i seguenti tipi di oggetti che producono le corrispondenti forme ([Vedere Note di eccezioni](#Note.md))   *
+Ruota l\'oggetto selezionato e crea una rivoluzione intorno a un dato asse. Si possono ruotare i seguenti tipi di oggetti che producono le corrispondenti forme ([Vedere Note di eccezioni](#Note.md)):
 
 
 </div>
@@ -46,7 +46,7 @@ L\'argomento Angolo specifica di quanto deve essere ruotato l\'oggetto. Le coord
 
 <div class="mw-translate-fuzzy">
 
-Quando si seleziona un asse definito dall\'utente, i numeri definiscono la direzione dell\'asse di rotazione rispetto alle coordinate del sistema   * se Z è 0 e Y e X non sono zero, allora l\'asse si trova nel piano XY. Il suo angolo è tale che la tangente è il rapporto tra le coordinate X e Y date.
+Quando si seleziona un asse definito dall\'utente, i numeri definiscono la direzione dell\'asse di rotazione rispetto alle coordinate del sistema: se Z è 0 e Y e X non sono zero, allora l\'asse si trova nel piano XY. Il suo angolo è tale che la tangente è il rapporto tra le coordinate X e Y date.
 
 
 </div>

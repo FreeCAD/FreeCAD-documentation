@@ -1,6 +1,6 @@
 # Arch Add/cs
 ---
-- GuiCommand   */cs   Name   *Arch Add   Name/cs   *Arch Přidat   Workbenches   *[MenuLocation   *Arch → Add   SeeAlso   *[[Arch Remove/cs|Remove](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:/cs   Name:Arch Add   Name/cs:Arch Přidat   Workbenches:[MenuLocation:Arch → Add   SeeAlso:[[Arch Remove/cs|Remove](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Přidat Vám umožní 4 druhy operací   *
+Nástroj Přidat Vám umožní 4 druhy operací:
 
 -   Přidání na [tvaru](Part_Workbench/cs.md) založených objektů na stavební prvek jako například [zeď](Arch_Wall/cs.md) nebo [struktura](Arch_Structure/cs.md). Tyto objekty pak tvoří součást stavebního prvku a umožňují vám modifikovat jeho tvar, ale dál si udržují základní vlastnosti jako je šířka a výška
 -   Přidávání stavebních prvků jako jsou [zdi](Arch_Wall/cs.md) nebo [struktury](Arch_Structure/cs.md) ke skupinám založeným na stavebních objektech jako jsou [podlaží](Arch_Floor/cs.md).
@@ -22,7 +22,7 @@ Nástroj Přidat Vám umožní 4 druhy operací   *
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -61,13 +61,13 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Add (Přidat) může být využit v [makrech](macros/cs.md) a z konzole Pythonu použitím následující funkce   *
+Nástroj Add (Přidat) může být využit v [makrech](macros/cs.md) a z konzole Pythonu použitím následující funkce:
 
 
 </div>
 
 
-   *   
+:   
     
 ```python
     addComponents(objectsList, host)
@@ -84,7 +84,7 @@ Nástroj Add (Přidat) může být využit v [makrech](macros/cs.md) a z konzole
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python

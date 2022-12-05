@@ -23,11 +23,11 @@ Par le biais du [Gestionnaire d\'Addons](Std_AddonMgr/fr.md).
 
 ## Lien
 
-Forum    * pas de fil de discussion dédié, mais issu du [message du forum](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=28199).
+Forum : pas de fil de discussion dédié, mais issu du [message du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=28199).
 
 ## Version
 
-v0.1 2022-08-28    * première version
+v0.1 2022-08-28 : première version
 
 ## Script
 
@@ -36,7 +36,7 @@ v0.1 2022-08-28    * première version
 
 {{MacroCode|code=
 #!/usr/bin/env python3
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # ***************************************************************************
 # *   Copyright (c) 2022 heda <heda @ freecad forum>                        *
@@ -69,7 +69,7 @@ __Version__ = '0.1'
 __Date__ = '2022-08-28'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = ''
-__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_Z_height_map'
+__Wiki__ = 'https://wiki.freecadweb.org/Macro_Z_height_map'
 __Icon__ = ''
 __Help__ = 'Run macro and heightmap is created.'
 __Status__ = 'Stable'
@@ -105,11 +105,11 @@ imwidth = 500 # resizing does give artefacts, can change interpolation...
 doc = App.ActiveDocument
 
 shapes = list()
-for obj in doc.Objects   *
-    if hasattr(obj, 'Shape')   *
-        if hasattr(obj.Shape, 'Volume')   *
-            if obj.Shape.Volume > 0   *
-                if obj.ViewObject.Visibility   *
+for obj in doc.Objects:
+    if hasattr(obj, 'Shape'):
+        if hasattr(obj.Shape, 'Volume'):
+            if obj.Shape.Volume > 0:
+                if obj.ViewObject.Visibility:
                     shapes.append(obj.Shape)
 
 xmin, ymin, zmin =  (min((getattr(shp.BoundBox, f'{which}Min')
@@ -124,10 +124,10 @@ pic = np.zeros((w + 1, h + 1, len(shapes)))
 print('w x h --> {} x {}'.format(w, h))
 print('working on pixels, might take a while...')
 
-for i, shape in enumerate(shapes)   *
+for i, shape in enumerate(shapes):
     pv = shape.getPoints(1/pxpmm)
     zpoints = (p for p, v in zip(*pv) if v.z > 0)
-    for zpoint in zpoints   *
+    for zpoint in zpoints:
         x = round((zpoint.x - xmin) / xspan * w)
         y = round((zpoint.y - ymin) / yspan * h)
         pic[x, y, i] = zpoint.z
@@ -137,31 +137,29 @@ print('pic loop done')
 pic = (pic.max(axis=2) - zmin) / zspan
 im = np.zeros((w + 1 + 2 * pad, h + 1 + 2 * pad))
 pic = (1 - grayscale_compress) * pic + grayscale_compress
-im[pad   *pad + w + 1, pad   *pad + h + 1] = pic
+im[pad:pad + w + 1, pad:pad + h + 1] = pic
 im = (im.T * 255).astype(np.uint8)
 h, w = im.shape
 
-if invert   *
+if invert:
     im = 255 - im
     print('grayscale inverted')
 
-if IMSHOW   *
+if IMSHOW:
     plt.imshow(im, cmap='gray', interpolation='none')
     plt.grid(color='r')
     plt.show()
 
-if IMSAVE   *
-    with Image.fromarray(im, mode='L') as pim   *
-        if IMRESIZE   *
+if IMSAVE:
+    with Image.fromarray(im, mode='L') as pim:
+        if IMRESIZE:
             pim = pim.resize((imwidth, int(h * imwidth / w)),
                              Image.Resampling.LANCZOS)
-            print('resized to   *', pim.size)
+            print('resized to:', pim.size)
         pim.save('{}.png'.format(doc.Name), mode='L')
 
 print('height map done')
 }}
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -1,8 +1,6 @@
 # Category:Command Reference/pl
 This category contains the help pages of each of FreeCAD command.
 
-[Category   *Categories/pl](Category   *Categories/pl.md)
-
 ### Contents
 
 |     |     |     |

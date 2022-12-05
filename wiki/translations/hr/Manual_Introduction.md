@@ -2,16 +2,16 @@
 <div class="mw-translate-fuzzy">
 
 
-{{Manual   *TOC}}
+{{Manual:TOC}}
 
-![150](images/Crystal_Clear_manual.png )[FreeCAD](http   *//www.freecadweb.org) je jedan open-source parametrijski program za 3D modeliranje.On je napravljen za modeliranje stvarnih objekata, počevši od malih elektronskih komponenata pa do zgrada i predmeta za 3D printanje. FreeCAD je besplatan za učitavanje, korištenje, distribuciju i mjenjanje koda. I njegov source code je otvorenog koda izdan pod [LGPL](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) licencom. Podatci koje ste stvorili sa FreeCAD-om su potpuno vaši, i mogu se dobiti nazad (oporaviti) bez FreeCAD-a.
+![150](images/Crystal_Clear_manual.png )[FreeCAD](http://www.freecadweb.org) je jedan open-source parametrijski program za 3D modeliranje.On je napravljen za modeliranje stvarnih objekata, počevši od malih elektronskih komponenata pa do zgrada i predmeta za 3D printanje. FreeCAD je besplatan za učitavanje, korištenje, distribuciju i mjenjanje koda. I njegov source code je otvorenog koda izdan pod [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) licencom. Podatci koje ste stvorili sa FreeCAD-om su potpuno vaši, i mogu se dobiti nazad (oporaviti) bez FreeCAD-a.
 
 
 </div>
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http   *//www.freecadweb.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
+[FreeCAD](http://www.freecadweb.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
 
 FreeCAD is also fundamentally a social project, as it is developed and maintained by a community of developers and users united by their passion for FreeCAD.
 
@@ -19,7 +19,7 @@ This manual is an experiment, taking a different approach from the [official Fre
 
 This manual is being written for the newest stable version of FreeCAD, version **0.18** (early 2019).
 
-The contents of this manual are published under the [Creative Commons 4.0](http   *//creativecommons.org/licenses/by/4.0/) license, and can be freely used, downloaded, copied, and modified. The source files for this manual are hosted on this [wiki](Main_Page.md), and on the original [github](https   *//github.com/yorikvanhavre/FreeCAD-manual) account used to write the first version of this book. Easier to read HTML, PDF, MOBI and EPUB versions are [also available here](https   *//github.com/yorikvanhavre/FreeCAD-manual/releases). A printed version is being prepared.
+The contents of this manual are published under the [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/) license, and can be freely used, downloaded, copied, and modified. The source files for this manual are hosted on this [wiki](Main_Page.md), and on the original [github](https://github.com/yorikvanhavre/FreeCAD-manual) account used to write the first version of this book. Easier to read HTML, PDF, MOBI and EPUB versions are [also available here](https://github.com/yorikvanhavre/FreeCAD-manual/releases). A printed version is being prepared.
 
 
 

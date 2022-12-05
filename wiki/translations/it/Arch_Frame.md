@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Frame
-   Name/it   *Carpenteria
-   MenuLocation   *Arch → Carpenteria
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Shortcut   ***F** **R**
-   SeeAlso   *[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
+- GuiCommand:/it
+   Name:Arch Frame
+   Name/it:Carpenteria
+   MenuLocation:Arch → Carpenteria
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:**F** **R**
+   SeeAlso:[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
 ---
 
 # Arch Frame/it
@@ -18,12 +18,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width   *16px;"> Carpenteria è utilizzato per costruire tutti i tipi di oggetti di carpenteria sulla base di un profilo e di un tracciato. Il profilo viene estruso lungo le linee del tracciato che può essere costituita da qualsiasi oggetto 2D, ad esempio, da uno [schizzo](Sketcher_Workbench/it.md), o da un [oggetto draft](Draft_Workbench/it.md). È particolarmente utile per creare ringhiere o pareti di carpenteria. Gli oggetti Carpenteria possono essere poi facilmente trasformati in oggetti [muri](Arch_Wall/it.md) o [strutture](Arch_Structure/it.md).
+Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width:16px;"> Carpenteria è utilizzato per costruire tutti i tipi di oggetti di carpenteria sulla base di un profilo e di un tracciato. Il profilo viene estruso lungo le linee del tracciato che può essere costituita da qualsiasi oggetto 2D, ad esempio, da uno [schizzo](Sketcher_Workbench/it.md), o da un [oggetto draft](Draft_Workbench/it.md). È particolarmente utile per creare ringhiere o pareti di carpenteria. Gli oggetti Carpenteria possono essere poi facilmente trasformati in oggetti [muri](Arch_Wall/it.md) o [strutture](Arch_Structure/it.md).
 
 
 </div>
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -61,15 +61,15 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width   *16px;"> Carp
 
 ### Proprietà
 
--    {{ProprietaDati|Base}}   * Il tracciato su cui è basato l\'oggetto carpenteria.
+-    {{ProprietaDati|Base}}: Il tracciato su cui è basato l\'oggetto carpenteria.
 
--    {{ProprietaDati|Profile}}   * Il profilo su cui è basato l\'oggetto carpenteria.
+-    {{ProprietaDati|Profile}}: Il profilo su cui è basato l\'oggetto carpenteria.
 
--    {{ProprietaDati|Align}}   * Specifica se il profilo deve essere ruotato per posizionare il suo asse normale allineato con ciascuna linea del tracciato.
+-    {{ProprietaDati|Align}}: Specifica se il profilo deve essere ruotato per posizionare il suo asse normale allineato con ciascuna linea del tracciato.
 
--    {{ProprietaDati|Offset}}   * Una distanza opzionale tra l\'oggetto tracciato e l\'oggetto carpenteria.
+-    {{ProprietaDati|Offset}}: Una distanza opzionale tra l\'oggetto tracciato e l\'oggetto carpenteria.
 
--    {{ProprietaDati|Rotation}}   * La rotazione del profilo attorno al suo asse di estrusione.
+-    {{ProprietaDati|Rotation}}: La rotazione del profilo attorno al suo asse di estrusione.
 
 ## Scripting
 
@@ -79,7 +79,7 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width   *16px;"> Carp
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -89,7 +89,7 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width   *16px;"> Carp
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Carpenteria può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Carpenteria può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -116,7 +116,7 @@ Frame = makeFrame(baseobj, profile)
 
 </div>
 
-Esempio   * 
+Esempio: 
 ```python
 import Draft, Arch
 

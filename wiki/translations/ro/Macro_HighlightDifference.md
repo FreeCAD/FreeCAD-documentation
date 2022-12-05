@@ -12,9 +12,9 @@
 Calculați diferența dintre două forme. Adăugările sunt marcate cu roșu, iar mișcările sunt marcate verde. Ambele părți originale vor fi pe jumătate transparente. Volumul completărilor și eliminărilor este afișat în consolă.
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
 
-<img alt="" src=images/Macro_HighlightDifference_02.png  style="width   *400px;"> 
+<img alt="" src=images/Macro_HighlightDifference_02.png  style="width:400px;"> 
 *Result difference two objects created*
 
 ## Exemplu
@@ -22,7 +22,7 @@ Calculați diferența dintre două forme. Adăugările sunt marcate cu roșu, ia
 
 <center>
 
-Image   *Macro HighlightDifference 00.png\|Original objects Image   *Macro HighlightDifference 02.png\|The resulting objects are coloured red and green (here offset) Image   *Macro HighlightDifference 01.png\|The original objects are transparent 80% and not modify
+Image:Macro HighlightDifference 00.png\|Original objects Image:Macro HighlightDifference 02.png\|The resulting objects are coloured red and green (here offset) Image:Macro HighlightDifference 01.png\|The original objects are transparent 80% and not modify
 
 
 </center>
@@ -32,7 +32,7 @@ Image   *Macro HighlightDifference 00.png\|Original objects Image   *Macro Highl
 
 ## Script-Programare 
 
-Codul este vizibil pe Github   * [Utility/HighlightDifference.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
+Codul este vizibil pe Github: [Utility/HighlightDifference.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
 
 ## Legături
 
@@ -40,7 +40,7 @@ Codul este vizibil pe Github   * [Utility/HighlightDifference.FCMacro](https   *
 
 [Macro_HighlightCommon](Macro_HighlightCommon.md)
 
--   Discuția pe forum [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+-   Discuția pe forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
 
 

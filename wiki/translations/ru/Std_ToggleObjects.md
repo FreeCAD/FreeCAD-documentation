@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Std ToggleObjects
-   Name/ru   *Std ToggleObjects
-   Empty   *1
-   MenuLocation   *Вид → Видимость → Инвертировать все видимости
-   Workbenches   *All
-   SeeAlso   *[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+- GuiCommand:/ru
+   Name:Std ToggleObjects
+   Name/ru:Std ToggleObjects
+   Empty:1
+   MenuLocation:Вид → Видимость → Инвертировать все видимости
+   Workbenches:All
+   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
 # Std ToggleObjects/ru
@@ -32,7 +32,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 ## Scripting
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

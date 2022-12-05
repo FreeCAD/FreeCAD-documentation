@@ -23,7 +23,7 @@ Questa pagina contiene degli esempi di livello medio di gestione della GUI con [
 
 Questo \"programma di esempio\" è in realtà una grande definizione di classe, la definizione di una classe PySide GUI, e ha più di 150 righe di codice (inclusi i commenti). La classe e il suo comportamento non sono finalizzati a nulla, l\'unico scopo è quello di dimostrare le azioni GUI possibili e di presentare un codice che si spera possa essere utilizzato da altri utenti di FreeCAD.
 
-La definizione di classe e le poche righe di codice richiamate sono descritti nell\'ordine in cui si presentano nel file. Questo ordine si basa sulla disposizione degli elementi nella schermata ed è piuttosto arbitrario e destinato unicamente a dimostrare le caratteristiche. Questa è la schermata GUI modale generata dalla Classe PySide   *
+La definizione di classe e le poche righe di codice richiamate sono descritti nell\'ordine in cui si presentano nel file. Questo ordine si basa sulla disposizione degli elementi nella schermata ed è piuttosto arbitrario e destinato unicamente a dimostrare le caratteristiche. Questa è la schermata GUI modale generata dalla Classe PySide:
 
 ![](images/PySideScreenSnapshot3.jpg )
 
@@ -52,12 +52,12 @@ Questa riga è meglio posizionarla all\'inizio del file Python.
 
 
 ```python
-class ExampleModalGuiClass(QtGui.QDialog)   *
+class ExampleModalGuiClass(QtGui.QDialog):
     """"""
-    def __init__(self)   *
+    def __init__(self):
         super(ExampleModalGuiClass, self).__init__()
         self.initUI()
-    def initUI(self)   *
+    def initUI(self):
 ```
 
 È bene copiare esattamente questo codice e poi modificarlo. In sostanza, con questo codice stiamo sotto-classificando la classe QMainWindow di PySide. Adattando questo codice forse si vuole anche cambiare il nome della classe \"ExampleNonmodalGuiClass\" con uno più significativo, accertarsi di cambiarlo in entrambe le posizioni (ad esempio, le righe 1 e 4).
@@ -82,7 +82,7 @@ self.setWindowTitle("Our Example Program Window")
 self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 ```
 
-Ricordando che le dimensioni dello schermo sono misurate partendo dall\'angolo in alto a sinistra, i valori della terza riga si riferiscono a   *
+Ricordando che le dimensioni dello schermo sono misurate partendo dall\'angolo in alto a sinistra, i valori della terza riga si riferiscono a:
 
 -   numero di pixel dell\'angolo in alto a sinistra, a destra del bordo sinistro dello schermo (250)
 -   numero di pixel dell\'angolo in alto a sinistra, sotto al bordo superiore dello schermo (250)
@@ -165,7 +165,7 @@ self.popup1.move(210, 115)
 
 Nella riga 2 è costruita la lista di quelle che saranno le scelte consentite agli utenti. Un\'alternativa è quella di costruire un dizionario, ma di utilizzare solo i tasti per l\'elenco del menu delle scelte. La riga 4 crea il menu pop-up (noto come un ComboBox in PySide), le opzioni utente sono aggiunte nella riga 5.
 
-Come nota a margine, se è stato utilizzato il dizionario le righe appaiono come queste   *
+Come nota a margine, se è stato utilizzato il dizionario le righe appaiono come queste:
 
 
 ```python
@@ -226,7 +226,7 @@ Il QLineEdit è probabilmente il widget più comune per consentire all\'utente d
 # QuantitySpinBox
 from FreeCAD import Units
 ui = FreeCADGui.UiLoader()
-quantityInput = ui.createWidget("Gui   *   *QuantitySpinBox")
+quantityInput = ui.createWidget("Gui::QuantitySpinBox")
 self.quantityInput.setProperty( 'minimum', 0.0)
 potential = 2.87
 unit = "V"
@@ -239,7 +239,7 @@ self.quantityInput.setProperty('value', quantity)
 quantity = self.quantityInput.property('value')
 ```
 
-The Gui   *   *QuantitySpinBox widget is a FreeCAD-special, designed to display and handle values together with their [units](Expressions#Units.md). It is derived from Qt\'s [QAbstractSpinBox class](https   *//doc.qt.io/qt-5/qabstractspinbox.html). For all its properties see the list in the source code file [QuantitySpinBox.h](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42)
+The Gui::QuantitySpinBox widget is a FreeCAD-special, designed to display and handle values together with their [units](Expressions#Units.md). It is derived from Qt\'s [QAbstractSpinBox class](https://doc.qt.io/qt-5/qabstractspinbox.html). For all its properties see the list in the source code file [QuantitySpinBox.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42)
 
 ### Creare un menu contestuale 
 
@@ -286,7 +286,7 @@ self.numericInput.setFixedWidth(50)
 self.numericInput.move(250, 220)
 ```
 
-La creazione del campo di input numerico è simile a quella per l\'inserimento di testi vista in precedenza. Infatti il codice è identico ad eccezione delle righe 3 e 4. La riga 3 imposta la Mask (maschera) come definita da PySide, che in questo caso specifica fino a 3 cifre (che possono includere 0). Un elenco completo dei codici InputMask si trova in [QLineEdit InputMask](http   *//doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
+La creazione del campo di input numerico è simile a quella per l\'inserimento di testi vista in precedenza. Infatti il codice è identico ad eccezione delle righe 3 e 4. La riga 3 imposta la Mask (maschera) come definita da PySide, che in questo caso specifica fino a 3 cifre (che possono includere 0). Un elenco completo dei codici InputMask si trova in [QLineEdit InputMask](http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
 
 ### Visualizzare la finestra 
 
@@ -308,7 +308,7 @@ Ci deve essere una corrispondenza 1 a 1 tra i gestori indicati nella sezione dic
 
 ### I gestori generici 
 
-In questo esempio di codice, dei gestori generici gestiscono i seguenti eventi   *
+In questo esempio di codice, dei gestori generici gestiscono i seguenti eventi:
 
 -   onCheckbox1
 -   onCheckbox2
@@ -322,11 +322,11 @@ In questo esempio di codice, dei gestori generici gestiscono i seguenti eventi  
 -   onCancel
 -   onOk
 
-La forma generale per i gestori è   *
+La forma generale per i gestori è:
 
 
 ```python
-def handlerName(self)   *
+def handlerName(self):
     lineOfCode1
     lineOfCode2
 ```
@@ -337,7 +337,7 @@ La prima riga ha la parola chiave \"def\" seguita dal nome del gestore. Il nome 
 
 
 ```python
-def onPopup1(self, selectedText)   *
+def onPopup1(self, selectedText):
 ```
 
 Il gestore dei menù Pop-Up è uguale al gestore generico con l\'eccezione che viene passato un secondo parametro, il testo selezionato dall\'utente. Ricordare che tutto quello che è testo in arrivo dal menu pop-up, anche se l\'utente ha selezionato il numero 3, viene passato come stringa \"3\".
@@ -346,14 +346,14 @@ Il gestore dei menù Pop-Up è uguale al gestore generico con l\'eccezione che v
 
 
 ```python
-def mousePressEvent(self, event)   *
+def mousePressEvent(self, event):
     # print mouse position, X & Y
     print("X = ", event.pos().x())
     print("Y = ", event.pos().y())
     #
-    if event.button() == QtCore.Qt.LeftButton   *
+    if event.button() == QtCore.Qt.LeftButton:
         print("left mouse button")
-    if self.label1.underMouse()   *
+    if self.label1.underMouse():
         print("over the text '"+self.label1.text()+"'")
 ```
 
@@ -382,9 +382,9 @@ Le righe 2,3 e 4 sono quelle che coordinano lo stato della interazione dell\'ute
 form = ExampleGuiClass()
 form.exec_()
 
-if form.result==userCancelled   *
+if form.result==userCancelled:
     pass # steps to handle user clicking Cancel
-if form.result==userOK   *
+if form.result==userOK:
     # steps to handle user clicking OK
     localVariable1 = form.label1.text()
     localVariable2 = form.label2.text()
@@ -398,7 +398,7 @@ Le righe 4 e 6 utilizzano il campo del risultato per determinare l\'azione appro
 
 ## Esempio completo di codice Modale 
 
-Questo è il codice di esempio completo (sviluppato su FreeCAD v0.14)   *
+Questo è il codice di esempio completo (sviluppato su FreeCAD v0.14):
 
 
 ```python
@@ -407,12 +407,12 @@ from PySide import QtGui, QtCore
 
 # UI Class definitions
 
-class ExampleModalGuiClass(QtGui.QDialog)   *
+class ExampleModalGuiClass(QtGui.QDialog):
     """"""
-    def __init__(self)   *
+    def __init__(self):
         super(ExampleModalGuiClass, self).__init__()
         self.initUI()
-    def initUI(self)   *
+    def initUI(self):
         self.result = userCancelled
         # create our window
         # define window     xLoc,yLoc,xDim,yDim
@@ -506,69 +506,69 @@ class ExampleModalGuiClass(QtGui.QDialog)   *
         # now make the window visible
         self.show()
         #
-    def onCheckbox1(self)   *
+    def onCheckbox1(self):
         text = self.label1.text()
-        if text[0]==' '   *
-            self.label1.setText('left'+text[4   *])
-        else   *
-            self.label1.setText('    '+text[4   *])
-    def onCheckbox2(self)   *
+        if text[0]==' ':
+            self.label1.setText('left'+text[4:])
+        else:
+            self.label1.setText('    '+text[4:])
+    def onCheckbox2(self):
         text = self.label1.text()
-        if text[-1]==' '   *
-            self.label1.setText(text[   *-5]+'right')
-        else   *
-            self.label1.setText(text[   *-5]+'     ')
-    def onRadioButton1(self)   *
+        if text[-1]==' ':
+            self.label1.setText(text[:-5]+'right')
+        else:
+            self.label1.setText(text[:-5]+'     ')
+    def onRadioButton1(self):
         self.label2.setText(self.radioButton1.text())
-    def onRadioButton2(self)   *
+    def onRadioButton2(self):
         self.label2.setText(self.radioButton2.text())
-    def onPopup1(self, selectedText)   *
-        if self.label3.text().isspace()   *
+    def onPopup1(self, selectedText):
+        if self.label3.text().isspace():
             self.label3.setText(selectedText)
-        else   *
+        else:
             self.label3.setText(self.label3.text()+","+selectedText)
-    def onPushButton1(self)   *
-        if self.label4.isVisible()   *
+    def onPushButton1(self):
+        if self.label4.isVisible():
             self.label4.hide()
-        else   *
+        else:
             self.label4.show()
-    def onPopMenuAction1(self)   *
+    def onPopMenuAction1(self):
         # load some text into field
         self.textInput.setText("Lorem ipsum dolor sit amet")
-    def onPopMenuAction2(self)   *
+    def onPopMenuAction2(self):
         # set text in field to uppercase
         self.textInput.setText(self.textInput.text().upper())
-    def onPopMenuDivider(self)   *
+    def onPopMenuDivider(self):
         # this option is the divider and is really there as a spacer on the menu list
         # consequently it has no functional code to execute if user selects it
         pass
-    def onPopMenuAction3(self)   *
+    def onPopMenuAction3(self):
         # clear the text from the field
         self.textInput.setText('')
-    def onCancel(self)   *
+    def onCancel(self):
         self.result         = userCancelled
         self.close()
-    def onOk(self)   *
+    def onOk(self):
         self.result         = userOK
         self.close()
-    def mousePressEvent(self, event)   *
+    def mousePressEvent(self, event):
         # print mouse position, X & Y
         print("X = ", event.pos().x())
         print("Y = ", event.pos().y())
         #
-        if event.button() == QtCore.Qt.LeftButton   *
+        if event.button() == QtCore.Qt.LeftButton:
             print("left mouse button")
-        if self.label1.underMouse()   *
+        if self.label1.underMouse():
             print("over the text '"+self.label1.text()+"'")
-        if self.label2.underMouse()   *
+        if self.label2.underMouse():
             print("over the text '"+self.label2.text()+"'")
-        if self.label3.underMouse()   *
+        if self.label3.underMouse():
             print("over the text '"+self.label3.text()+"'")
-        if self.label4.underMouse()   *
+        if self.label4.underMouse():
             print("over the text '"+self.label4.text()+"'")
-        if self.textInput.underMouse()   *
+        if self.textInput.underMouse():
             print("over the text '"+self.textInput.text()+"'")
-        if event.button() == QtCore.Qt.RightButton   *
+        if event.button() == QtCore.Qt.RightButton:
             print("right mouse button")
 # Class definitions
 
@@ -583,25 +583,25 @@ userOK = "OK"
 form = ExampleModalGuiClass()
 form.exec_()
 
-if form.result==userCancelled   *
+if form.result==userCancelled:
     pass # steps to handle user clicking Cancel
-if form.result==userOK   *
+if form.result==userOK:
     # steps to handle user clicking OK
     localVariable1 = form.label1.text()
     localVariable2 = form.label2.text()
     localVariable3 = form.label3.text()
     localVariable4 = form.label4.text()
 #
-#OS   * Mac OS X
-#Word size   * 64-bit
-#Version   * 0.14.3703 (Git)
-#Branch   * releases/FreeCAD-0-14
-#Hash   * c6edd47334a3e6f209e493773093db2b9b4f0e40
-#Python version   * 2.7.5
-#Qt version   * 4.8.6
-#Coin version   * 3.1.3
-#SoQt version   * 1.5.0
-#OCC version   * 6.7.0
+#OS: Mac OS X
+#Word size: 64-bit
+#Version: 0.14.3703 (Git)
+#Branch: releases/FreeCAD-0-14
+#Hash: c6edd47334a3e6f209e493773093db2b9b4f0e40
+#Python version: 2.7.5
+#Qt version: 4.8.6
+#Coin version: 3.1.3
+#SoQt version: 1.5.0
+#OCC version: 6.7.0
 #
 ```
 
@@ -609,7 +609,7 @@ Il modo migliore di utilizzare questo codice è quello di copiarlo in un editor 
 
 ## Discussione del codice - Esempio di codice non modale 
 
-Tutti i singoli widget dell\'esempio di finestra modale precedente possono essere trasferiti e utilizzati in una finestra non modale. La differenza principale è che la finestra non modale non impedisce all\'utente di interagire con altre finestre. Fondamentalmente, una finestra non modale è una finestra che può essere aperta e lasciata aperta per tutto il tempo necessario senza che essa ponga delle restrizioni sulle altre finestre dell\'applicazione. Tra i due tipi di finestre ci sono poche differenze di codice, che saranno evidenziate, quindi questo esempio di codice è abbastanza breve. Tutto ciò che è uguale al precedente esempio modale sarà omesso per mantenere breve questa panoramica. Questa è la schermata GUI non modale generata dalla Classe PySide   *
+Tutti i singoli widget dell\'esempio di finestra modale precedente possono essere trasferiti e utilizzati in una finestra non modale. La differenza principale è che la finestra non modale non impedisce all\'utente di interagire con altre finestre. Fondamentalmente, una finestra non modale è una finestra che può essere aperta e lasciata aperta per tutto il tempo necessario senza che essa ponga delle restrizioni sulle altre finestre dell\'applicazione. Tra i due tipi di finestre ci sono poche differenze di codice, che saranno evidenziate, quindi questo esempio di codice è abbastanza breve. Tutto ciò che è uguale al precedente esempio modale sarà omesso per mantenere breve questa panoramica. Questa è la schermata GUI non modale generata dalla Classe PySide:
 
 ![](images/PySideScreenSnapshot4.jpg )
 
@@ -636,12 +636,12 @@ Questa riga è meglio posizionarla all\'inizio del file Python.
 
 
 ```python
-class ExampleNonmodalGuiClass(QtGui.QMainWindow)   *
+class ExampleNonmodalGuiClass(QtGui.QMainWindow):
     """"""
-    def __init__(self)   *
+    def __init__(self):
         super(ExampleNonmodalGuiClass, self).__init__()
         self.initUI()
-    def initUI(self)   *
+    def initUI(self):
 ```
 
 È bene copiare esattamente questo codice e poi modificarlo. In sostanza, con questo codice stiamo sotto-classificando la classe QMainWindow di PySide. Adattando questo codice forse si vuole anche cambiare il nome della classe \"ExampleNonmodalGuiClass\" con uno più significativo, accertarsi di cambiarlo in entrambe le posizioni (ad esempio, le righe 1 e 4).
@@ -664,8 +664,8 @@ Ovviamente le dimensioni della nostra finestra e il titolo sono diversi. La cosa
 
 
 ```python
-def mouseMoveEvent(self,event)   *
-    self.label6.setText("X   * "+str(event.x()) + " Y   * "+str(event.y()))
+def mouseMoveEvent(self,event):
+    self.label6.setText("X: "+str(event.x()) + " Y: "+str(event.y()))
 ```
 
 Questo gestore riceve gli eventi di spostamento del mouse (Mouse Move) e ne visualizza la forma formattata. Provare cosa succede quando si trova sopra ai widget o all\'esterno della finestra.
@@ -687,12 +687,12 @@ from PySide import QtGui, QtCore
 
 # UI Class definitions
 
-class ExampleNonmodalGuiClass(QtGui.QMainWindow)   *
+class ExampleNonmodalGuiClass(QtGui.QMainWindow):
     """"""
-    def __init__(self)   *
+    def __init__(self):
         super(ExampleNonmodalGuiClass, self).__init__()
         self.initUI()
-    def initUI(self)   *
+    def initUI(self):
         self.result = userCancelled
         # create our window
         # define window     xLoc,yLoc,xDim,yDim
@@ -703,7 +703,7 @@ class ExampleNonmodalGuiClass(QtGui.QMainWindow)   *
         # create Labels
         self.label4 = QtGui.QLabel("can you see this?", self)
         self.label4.move(20, 20)
-        self.label5 = QtGui.QLabel("Mouse position   *", self)
+        self.label5 = QtGui.QLabel("Mouse position:", self)
         self.label5.move(20, 70)
         self.label6 = QtGui.QLabel("               ", self)
         self.label6.move(135, 70)
@@ -725,19 +725,19 @@ class ExampleNonmodalGuiClass(QtGui.QMainWindow)   *
         # now make the window visible
         self.show()
         #
-    def onPushButton1(self)   *
-        if self.label4.isVisible()   *
+    def onPushButton1(self):
+        if self.label4.isVisible():
             self.label4.hide()
-        else   *
+        else:
             self.label4.show()
-    def onCancel(self)   *
+    def onCancel(self):
         self.result         = userCancelled
         self.close()
-    def onOk(self)   *
+    def onOk(self):
         self.result         = userOK
         self.close()
-    def mouseMoveEvent(self,event)   *
-        self.label6.setText("X   * "+str(event.x()) + " Y   * "+str(event.y()))
+    def mouseMoveEvent(self,event):
+        self.label6.setText("X: "+str(event.x()) + " Y: "+str(event.y()))
 # Class definitions
 
 # Function definitions
@@ -751,21 +751,21 @@ userOK          = "OK"
 
 form = ExampleNonmodalGuiClass()
 #
-#OS   * Mac OS X
-#Word size   * 64-bit
-#Version   * 0.14.3703 (Git)
-#Branch   * releases/FreeCAD-0-14
-#Hash   * c6edd47334a3e6f209e493773093db2b9b4f0e40
-#Python version   * 2.7.5
-#Qt version   * 4.8.6
-#Coin version   * 3.1.3
-#SoQt version   * 1.5.0
-#OCC version   * 6.7.0
+#OS: Mac OS X
+#Word size: 64-bit
+#Version: 0.14.3703 (Git)
+#Branch: releases/FreeCAD-0-14
+#Hash: c6edd47334a3e6f209e493773093db2b9b4f0e40
+#Python version: 2.7.5
+#Qt version: 4.8.6
+#Coin version: 3.1.3
+#SoQt version: 1.5.0
+#OCC version: 6.7.0
 ```
 
 ## Argomenti aggiuntivi vari 
 
-In merito alla gestione dello spazio sullo schermo in un ambiente GUI ci sono 3 concetti    *
+In merito alla gestione dello spazio sullo schermo in un ambiente GUI ci sono 3 concetti :
 
 -   lo spazio fisico dello schermo
 -   il telaio (frame)
@@ -789,7 +789,7 @@ availableHeight     = QtGui.QDesktopWidget().availableGeometry().height()
 
 Generalmente \"availableHeight\" deve essere inferiore a \"ScreenHeight\" di un valore pari all\'altezza della barra dei menu. Questi 4 valori sono basati sull\'ambiente hardware e cambiano da computer a computer. Essi non dipendono da nessuna delle dimensioni della finestra dell\'applicazione.
 
-(Since Python 3.9 this warning appears when the above code is executed   * **DeprecationWarning   * QDesktopWidget.screenGeometry(int screen) const is deprecated**. A replacement seems to be needed from Python 3.10 onwards.)
+(Since Python 3.9 this warning appears when the above code is executed: **DeprecationWarning: QDesktopWidget.screenGeometry(int screen) const is deprecated**. A replacement seems to be needed from Python 3.10 onwards.)
 
 ### Le dimensioni del telaio e della geometria 
 
@@ -822,11 +822,6 @@ mainWin.frameGeometry()
 ```
 
 Questi stessi comandi possono essere eseguiti anche su una finestra generata dall\'utente, la sintassi non cambia.
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

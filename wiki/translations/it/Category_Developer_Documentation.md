@@ -1,9 +1,7 @@
 # Category:Developer Documentation/it
-## Categoria   * Developer Documentation 
+## Categoria: Developer Documentation 
 
 Questa categoria raccoglie articoli e documentazione per lo più rivolti a programmatori
-
-[Category   *Documentation/it](Category   *Documentation/it.md)
 
 ### Contents
 

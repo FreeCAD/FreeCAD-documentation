@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw_2PointCosmeticLine
-   Name/it   *Linea tra 2 punti
-   Icon   *TechDraw-line2points.svg
-   MenuLocation   *TechDraw → Aggiungi linee → Linea tra 2 punti
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:TechDraw_2PointCosmeticLine
+   Name/it:Linea tra 2 punti
+   Icon:TechDraw-line2points.svg
+   MenuLocation:TechDraw → Aggiungi linee → Linea tra 2 punti
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)
+   Version:0.19
 ---
 
 # TechDraw 2PointCosmeticLine/it
@@ -24,7 +24,7 @@ Lo strumento **Linea tra 2 punti** aggiunge una linea cosmetica tra due vertici 
 
 </div>
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
 
@@ -39,16 +39,16 @@ Lo strumento **Linea tra 2 punti** aggiunge una linea cosmetica tra due vertici 
 
 ## Editing Cosmetic Lines 
 
-To change the endpoints of a cosmetic line   *
+To change the endpoints of a cosmetic line:
 
 1.  Select the cosmetic line.
 2.  Press **<img src="images/TechDraw-line2points.svg" width=16px> Add Cosmetic line between 2 Points**.
 3.  A dialog will open where you can change the coordinates of the endpoints.
 4.  Press **OK** to see your changes.
 
-To delete a cosmetic line use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width   *16px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md).
+To delete a cosmetic line use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md).
 
-To change the appearance of a cosmetic line use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width   *16px;"> [Change Appearance of Line(s)](TechDraw_DecorateLine.md).
+To change the appearance of a cosmetic line use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Change Appearance of Line(s)](TechDraw_DecorateLine.md).
 
 ## Proprietà
 
@@ -60,7 +60,7 @@ Cosmetic lines have no properties of their own, as they are not document objects
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

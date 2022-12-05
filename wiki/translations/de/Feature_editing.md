@@ -3,35 +3,35 @@
 
 ## Einführung
 
-Diese Seite erklärt die vorgesehene Arbeitsweise des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [PartDesign](PartDesign_Workbench/de.md) für den Einsatz ab FreeCAD 0.17.
+Diese Seite erklärt die vorgesehene Arbeitsweise des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign](PartDesign_Workbench/de.md) für den Einsatz ab FreeCAD 0.17.
 
-Während der Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/de.md) und andere Arbeitsbereiche Modelle konstruieren, indem sie Formen miteinander kombinieren (siehe [Konstruktive Volumenkörpergeometrie](Constructive_solid_geometry/de.md)), verwendet der Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench.md) **[Formelemente](PartDesign_Feature/de.md)**. Als Formelement ([(form) feature](https   *//en.wikipedia.org/wiki/Feature_recognition)) wird ein Vorgang bezeichnet, der die Form eines Modells verändert.
+Während der Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und andere Arbeitsbereiche Modelle konstruieren, indem sie Formen miteinander kombinieren (siehe [Konstruktive Volumenkörpergeometrie](Constructive_solid_geometry/de.md)), verwendet der Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) **[Formelemente](PartDesign_Feature/de.md)**. Als Formelement ([(form) feature](https://en.wikipedia.org/wiki/Feature_recognition)) wird ein Vorgang bezeichnet, der die Form eines Modells verändert.
 
 ## Formelement Bearbeitungsmethodik 
 
-Das erste Formelement wird allgemein als **Basisformelement** bezeichnet. Wenn dem Modell weitere Formelemente hinzugefügt werden, übernimmt jedes Formelement die Form des vorherigen und fügt Inhalte hinzu oder entfernt sie, wodurch lineare Abhängigkeiten von einem Formelement zum nächsten entstehen. Eigentlich imitiert diese Methodik einen üblichen Herstellungsprozess   * Ein Block wird an der einen Seite beschnitten, dann werden an einer anderen Seite Löcher hinzugefügt, dann Rundungen, usw.
+Das erste Formelement wird allgemein als **Basisformelement** bezeichnet. Wenn dem Modell weitere Formelemente hinzugefügt werden, übernimmt jedes Formelement die Form des vorherigen und fügt Inhalte hinzu oder entfernt sie, wodurch lineare Abhängigkeiten von einem Formelement zum nächsten entstehen. Eigentlich imitiert diese Methodik einen üblichen Herstellungsprozess: Ein Block wird an der einen Seite beschnitten, dann werden an einer anderen Seite Löcher hinzugefügt, dann Rundungen, usw.
 
 Alle Formelemente werden nacheinander im Modellbaum aufgelistet und können jederzeit bearbeitet werden, wobei das letzte Formelement am unteren Rand das fertige Teil darstellt.
 
-Formelemente können in verschiedene Kategorien eingeteilt werden   *
+Formelemente können in verschiedene Kategorien eingeteilt werden:
 
--   **Profil-basiert**   * Diese Formelemente gehen von einem Profil aus, um die Form der hinzuzufügenden oder zu entfernenden Inhalte festzulegen. Das Profil kann eine Skizze, eine ebene Fläche auf vorhandener Geometrie (ein Profil wird aus ihren Kanten extrahiert), ein Formbinder oder ein Draft-Objekt sein, das in den aktiven Körper eingefügt wurde.
+-   **Profil-basiert**: Diese Formelemente gehen von einem Profil aus, um die Form der hinzuzufügenden oder zu entfernenden Inhalte festzulegen. Das Profil kann eine Skizze, eine ebene Fläche auf vorhandener Geometrie (ein Profil wird aus ihren Kanten extrahiert), ein Formbinder oder ein Draft-Objekt sein, das in den aktiven Körper eingefügt wurde.
 
--   **Additiv**   * Fügt dem bestehenden Modell Material hinzu. Additive Formelemente werden mit gelben Symbolen dargestellt.
+-   **Additiv**: Fügt dem bestehenden Modell Material hinzu. Additive Formelemente werden mit gelben Symbolen dargestellt.
 
--   **Subtraktiv**   * Entfernt Material aus dem bestehenden Modell. Subtraktive Formelemente werden mit rot und blauen Symbolen dargestellt.
+-   **Subtraktiv**: Entfernt Material aus dem bestehenden Modell. Subtraktive Formelemente werden mit rot und blauen Symbolen dargestellt.
 
--   **Grundkörper-basiert**   * Basiert auf geometrischen Grundkörpern (Würfel, Zylinder, Kegel, Torus\....). Sie können additiv oder subtraktiv sein.
+-   **Grundkörper-basiert**: Basiert auf geometrischen Grundkörpern (Würfel, Zylinder, Kegel, Torus\....). Sie können additiv oder subtraktiv sein.
 
--   **Transformierende Formelemente**   * Sie wenden eine der Musterfunktionen (Transformationen) auf bestehende Formelemente an (Spiegeln, Lineares Muster, Polares Muster, Mehrfach-Transformation).
+-   **Transformierende Formelemente**: Sie wenden eine der Musterfunktionen (Transformationen) auf bestehende Formelemente an (Spiegeln, Lineares Muster, Polares Muster, Mehrfach-Transformation).
 
--   **Modifikationen** (Dress-up)   * Formelemente, die eine Veränderung an Kanten oder Flächen bewirken, wie z.B. Verrundungen, Fasen und Formschrägen.
+-   **Modifikationen** (Dress-up): Formelemente, die eine Veränderung an Kanten oder Flächen bewirken, wie z.B. Verrundungen, Fasen und Formschrägen.
 
--   **Prozedural** (Ablauforientiert)   * Formelemente, die nicht auf Skizzen basieren, wie die Musterfunktionen und Modifikationen.
+-   **Prozedural** (Ablauforientiert): Formelemente, die nicht auf Skizzen basieren, wie die Musterfunktionen und Modifikationen.
 
 ## Körper
 
-Die Arbeit in PartDesign erfordert zunächst das Erstellen eines <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> **[Körpers](PartDesign_Body/de.md)**. Der PartDesign-Körper (Body-Objekt) ist ein Behälter, der eine Folge von Formelementen gruppiert, die einen einzigen zusammenhängenden Volumenkörper (Solid) bilden.
+Die Arbeit in PartDesign erfordert zunächst das Erstellen eines <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[Körpers](PartDesign_Body/de.md)**. Der PartDesign-Körper (Body-Objekt) ist ein Behälter, der eine Folge von Formelementen gruppiert, die einen einzigen zusammenhängenden Volumenkörper (Solid) bilden.
 
 ![](images/PartDesign_Body_tree.png )
 
@@ -41,11 +41,11 @@ In einem FreeCAD-Dokument können mehrere Körper erstellt werden; sie können a
 
 In einem Dokument kann nur ein Körper aktiv sein. Der aktive Körper erhält die neu erstellten Formelemente. Ein Körper kann durch Doppelklick aktiviert oder deaktiviert werden. Ein aktivierter Körper wird hellblau hervorgehoben. Die Hervorhebungsfarbe kann seit Version 0.18 in den Einstellungen unter Anzeige/Farben/Aktiver Container eingestellt werden.
 
-Wenn ein Modell mehrere Körper benötigt, wie im vorherigen Beispiel des Holzstuhls, kann der uninverselle <img alt="" src=images/Std_Part.svg  style="width   *24px;"> [Part-Container](Std_Part/de.md) verwendet werden, um sie zu gruppieren und das Ganze als Einheit zu bewegen.
+Wenn ein Modell mehrere Körper benötigt, wie im vorherigen Beispiel des Holzstuhls, kann der uninverselle <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Part-Container](Std_Part/de.md) verwendet werden, um sie zu gruppieren und das Ganze als Einheit zu bewegen.
 
 ### Körpersichtbarkeitsverwaltung
 
-Ein Body präsentiert standardmäßig sein neuestes Formelemente nach außen. Diese Funktion ist standardmäßig als die Spitze definiert. Eine gute Analogie ist der Ausdruck*die Spitze des Eisbergs*   * Nur die Spitze ist über dem Wasser sichtbar, der größte Teil der Masse des Eisbergs (die anderen Formelemente) ist verborgen. Wenn dem Körper ein neues Formelement hinzugefügt wird, wird die Sichtbarkeit des vorherigen Formelements deaktiviert, und das neue Formelement wird zur Spitze.
+Ein Body präsentiert standardmäßig sein neuestes Formelemente nach außen. Diese Funktion ist standardmäßig als die Spitze definiert. Eine gute Analogie ist der Ausdruck*die Spitze des Eisbergs*: Nur die Spitze ist über dem Wasser sichtbar, der größte Teil der Masse des Eisbergs (die anderen Formelemente) ist verborgen. Wenn dem Körper ein neues Formelement hinzugefügt wird, wird die Sichtbarkeit des vorherigen Formelements deaktiviert, und das neue Formelement wird zur Spitze.
 
 Es kann immer nur ein Formelement zur Zeit sichtbar sein. Es ist möglich, die Sichtbarkeit eines beliebigen Formelements im Körper [umzuschalten](Std_ToggleVisibility/de.md), indem man es im Modellbaum markiert und die **Leertaste** drückt, wodurch man sich in der Verlaufsgeschichte des Körpers zurück bewegt.
 
@@ -59,13 +59,13 @@ Es ist möglich, die Spitze vorübergehend einem Formelement in der Mitte des K�
 
 ### Unterschied zu anderen CAD Systemen 
 
-Ein grundlegender Unterschied zwischen FreeCAD und anderen Programmen, wie Catia, besteht darin, dass FreeCAD es nicht erlaubt, dass ein <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> **[PartDesign-Körper](PartDesign_Body/de.md)** mehrere nicht verbundene Volumenkörper enthält. Das heißt, ein neues Formelement sollte immer auf dem vorherigen aufbauen. Oder anders ausgedrückt, das neuere Formelement sollte das vorherige Formelement \"berühren\", so dass beide Formelemente miteinander vereinigt und zu einem einzigen Festkörper werden. Es darf keine \"schwebenden\" Volumenkörper geben.
+Ein grundlegender Unterschied zwischen FreeCAD und anderen Programmen, wie Catia, besteht darin, dass FreeCAD es nicht erlaubt, dass ein <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[PartDesign-Körper](PartDesign_Body/de.md)** mehrere nicht verbundene Volumenkörper enthält. Das heißt, ein neues Formelement sollte immer auf dem vorherigen aufbauen. Oder anders ausgedrückt, das neuere Formelement sollte das vorherige Formelement \"berühren\", so dass beide Formelemente miteinander vereinigt und zu einem einzigen Festkörper werden. Es darf keine \"schwebenden\" Volumenkörper geben.
 
-<img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width   *550px;">
+<img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
 
 
 
-*Unterschied zwischen Catia und FreeCAD. Links   * Catia erlaubt unabhängige Körper, getrennt von den vorherigen Formelementen des Körpers. In FreeCAD verursacht dies einen Fehler; Rechts   * Das neuere Formelement sollte immer das vorherige Formelement berühren oder schneiden, so dass es sich mit ihm vereinigt und zu einem einzelnen zusammenhängenden Volumenkörper wird.*
+*Unterschied zwischen Catia und FreeCAD. Links: Catia erlaubt unabhängige Körper, getrennt von den vorherigen Formelementen des Körpers. In FreeCAD verursacht dies einen Fehler; Rechts: Das neuere Formelement sollte immer das vorherige Formelement berühren oder schneiden, so dass es sich mit ihm vereinigt und zu einem einzelnen zusammenhängenden Volumenkörper wird.*
 
 ## Bezugsgeometrie
 
@@ -83,11 +83,11 @@ Sowohl Skizzen als auch Bezugsebenen sollten an den Basisebenen angebracht werde
 
 Auch wenn sie nicht als Grundlage für Skizzen verwendet werden, sind Bezugsobjekte als visuelle Indikatoren hilfreich, um auf wichtige Merkmale oder Abstände im Modellierungsprozess hinzuweisen. (Allerdings bietet auch das einfache Hinzufügen von Geometrie zu einer Skizze eine ähnliche visuelle Rückmeldung).
 
-<img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width   *550px;">
+<img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
 
 
 
-*Unterschied zwischen Catia und FreeCAD. Links   * Catia erlaubt unabhängige Körper, getrennt von den vorherigen Formelementen des Körpers. In FreeCAD verursacht dies einen Fehler; Rechts   * Das neuere Formelement sollte immer das vorherige Formelement berühren oder schneiden, so dass es mit ihm vereinigt und zu einem einzelnen zusammenhängenden Volumenkörper wird. In diesem Beispiel basiert der neue Volumenkörper auf einer Bezugsebene, die um die Y-Achse gedreht wird.*
+*Unterschied zwischen Catia und FreeCAD. Links: Catia erlaubt unabhängige Körper, getrennt von den vorherigen Formelementen des Körpers. In FreeCAD verursacht dies einen Fehler; Rechts: Das neuere Formelement sollte immer das vorherige Formelement berühren oder schneiden, so dass es mit ihm vereinigt und zu einem einzelnen zusammenhängenden Volumenkörper wird. In diesem Beispiel basiert der neue Volumenkörper auf einer Bezugsebene, die um die Y-Achse gedreht wird.*
 
 ## Querverweise
 
@@ -101,7 +101,7 @@ Weitere Information findet man auf der Seite [Part Befestigen](Part_EditAttachme
 
 ## Ratschläge zur Erstellung stabiler Modelle 
 
-Die Idee der parametrischen Modellierung beinhaltet, dass die Werte bestimmter Parameter verändert werden können und die nachfolgenden Schritte den neuen Werten entsprechend geändert werden. Bei schwerwiegenden Änderungen kann das Modell jedoch aufgrund des in FreeCAD noch ungelösten [Problem der topologischen Benennung](topological_naming_problem/de.md) brechen. Der Bruch kann minimiert werden, wenn die folgenden Konstruktionsprinzipien eingehalten werden   *
+Die Idee der parametrischen Modellierung beinhaltet, dass die Werte bestimmter Parameter verändert werden können und die nachfolgenden Schritte den neuen Werten entsprechend geändert werden. Bei schwerwiegenden Änderungen kann das Modell jedoch aufgrund des in FreeCAD noch ungelösten [Problem der topologischen Benennung](topological_naming_problem/de.md) brechen. Der Bruch kann minimiert werden, wenn die folgenden Konstruktionsprinzipien eingehalten werden:
 
 
 <div class="mw-translate-fuzzy">
@@ -134,9 +134,9 @@ Es gibt mehrere Arbeitsabläufe, die mit dem Arbeitsbereich [PartDesign](PartDes
 
 ### Verschiedene Skizzen 
 
-Skizzen müssen von einer Ebene unterstützt werden. Diese Ebene kann eine der Hauptebenen (XY, XZ oder YZ) sein, die durch den Ursprung des Körpers definiert sind. Eine Skizze wird entweder mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [PartDesign Polster](PartDesign_Pad/de.md) zu einem positiven Festkörper (Additiv) oder zu einem negativen Festkörper (subtraktiv) mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pocket.svg  style="width   *24px;"> [PartDesign Tasche](PartDesign_Pocket/de.md) ausgeformt. Der erste fügt der endgültigen Form des Körpers Volumen hinzu, während der zweite das Volumen aus der endgültigen Form schneidet. Auf diese Weise können beliebig viele Skizzen und Teilkörper erzeugt werden; die endgültige Form (Spitze) ergibt sich aus der Verschmelzung dieser Vorgänge. Natürlich kann der Körper nicht nur aus subtraktiven Operationen bestehen, da die endgültige Form ein Körper mit einem Volumen größer Null sein sollte.
+Skizzen müssen von einer Ebene unterstützt werden. Diese Ebene kann eine der Hauptebenen (XY, XZ oder YZ) sein, die durch den Ursprung des Körpers definiert sind. Eine Skizze wird entweder mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Polster](PartDesign_Pad/de.md) zu einem positiven Festkörper (Additiv) oder zu einem negativen Festkörper (subtraktiv) mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Tasche](PartDesign_Pocket/de.md) ausgeformt. Der erste fügt der endgültigen Form des Körpers Volumen hinzu, während der zweite das Volumen aus der endgültigen Form schneidet. Auf diese Weise können beliebig viele Skizzen und Teilkörper erzeugt werden; die endgültige Form (Spitze) ergibt sich aus der Verschmelzung dieser Vorgänge. Natürlich kann der Körper nicht nur aus subtraktiven Operationen bestehen, da die endgültige Form ein Körper mit einem Volumen größer Null sein sollte.
 
-<img alt="" src=images/PartDesign_workflow_1.svg  style="width   *600px;">
+<img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
 ### Fortlaufende Merkmale 
 
@@ -148,31 +148,31 @@ Skizzen können an Flächen früherer Festkörperoperationen befestigt werden. D
 
 </div>
 
-<img alt="" src=images/PartDesign_workflow_2.svg  style="width   *600px;">
+<img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
 ### Verwendung von Bezugsebenen zur Unterstützung 
 
 
 <div class="mw-translate-fuzzy">
 
-Bezugsebenen sind nützlich, um die Skizzen zu unterstützen. Diese Hilfsebenen können auf dem Ursprung des Körpers basieren oder auf den Merkmalen (Kanten, Flächen) von zuvor erstellten Festkörpern. Darüber hinaus kann ein <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *24px;"> [PartDesign ShapeBinder/de](PartDesign_ShapeBinder/de.md) verwendet werden, um externe Geometrie in den Körper zu importieren, die als Referenz dient; dann können Skizzen an diesen Hilfskörper angehängt werden, entweder mit oder ohne Bezugsebene. Die Verwendung von Bezugsobjekten ist oft der beste Weg, um stabile Modelle zu erstellen, obwohl sie vom Benutzer etwas mehr Arbeit erfordert.
+Bezugsebenen sind nützlich, um die Skizzen zu unterstützen. Diese Hilfsebenen können auf dem Ursprung des Körpers basieren oder auf den Merkmalen (Kanten, Flächen) von zuvor erstellten Festkörpern. Darüber hinaus kann ein <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [PartDesign ShapeBinder/de](PartDesign_ShapeBinder/de.md) verwendet werden, um externe Geometrie in den Körper zu importieren, die als Referenz dient; dann können Skizzen an diesen Hilfskörper angehängt werden, entweder mit oder ohne Bezugsebene. Die Verwendung von Bezugsobjekten ist oft der beste Weg, um stabile Modelle zu erstellen, obwohl sie vom Benutzer etwas mehr Arbeit erfordert.
 
 
 </div>
 
-*Note   * In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant.*
+*Note: In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant.*
 
 As with sketches, it is possible to attach Datum planes to generated geometry (edges, faces of previously created solids), ***but this is not recommended*** since it can cause the topological naming problem.
 
-In addition, a <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *24px;"> [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) can be used to import external geometry into the body to serve as reference; then sketches can be attached to this auxiliary body, either using datum planes or not.
+In addition, a <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) can be used to import external geometry into the body to serve as reference; then sketches can be attached to this auxiliary body, either using datum planes or not.
 
 *Again, the ShapeBinder should be based on Sketches from the previous body, not generated geometry.*
 
-Using datum objects is often the best way to produce stable models, when used with base planes and attachment offsets, although it requires a bit more work from the user. For details about basic attachment see   * [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) *Note   * while this tutorial talks about sketches, datum attachment is done in similar fashion.*
+Using datum objects is often the best way to produce stable models, when used with base planes and attachment offsets, although it requires a bit more work from the user. For details about basic attachment see: [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) *Note: while this tutorial talks about sketches, datum attachment is done in similar fashion.*
 
 ## Tutorien
 
-Die Seite [Tutorien](Tutorials/de.md) enthält einige Beispiele für die Verwendung der Methode [Formelemente bearbeiten](Feature_editing/de.md) des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/de.md).
+Die Seite [Tutorien](Tutorials/de.md) enthält einige Beispiele für die Verwendung der Methode [Formelemente bearbeiten](Feature_editing/de.md) des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md).
 
 -   [Erstellen eines einfachen Teils mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md)
 -   [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md)
@@ -190,14 +190,12 @@ Die Seite [Tutorien](Tutorials/de.md) enthält einige Beispiele für die Verwend
 
 </div>
 
-<img alt="" src=images/PartDesign_workflow_3.svg  style="width   *600px;">
+<img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 
 
 {{PartDesign Tools navi
 
-}} 
-
-[Category   *Common Questions](Category_Common_Questions.md)
+}}
 
 
 

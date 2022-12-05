@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewIvStereoRedGreen
-   Name/pl   *Std   * Widok stereo czerwony / cyjan
-   MenuLocation   *Widok → Widok trójwymiarowy → Stereo czerwony / cyjan
-   Workbenches   *wszystkie
-   SeeAlso   *[Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewIvStereoRedGreen
+   Name/pl:Std: Widok stereo czerwony / cyjan
+   MenuLocation:Widok → Widok trójwymiarowy → Stereo czerwony / cyjan
+   Workbenches:wszystkie
+   SeeAlso:[Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---
 
 # Std ViewIvStereoRedGreen/pl
 
 ## Opis
 
-Polecenie **Widok stereo czerwony / cyjan** zmienia aktywny [widok 3D](3D_view/pl.md) na czerwono-cyjanowy, [anaglif](https   *//en.wikipedia.org/wiki/Anaglyph_3D), tryb widoku stereo. Do korzystania z tego trybu stereo wymagane są okulary z kolorowymi soczewkami.
+Polecenie **Widok stereo czerwony / cyjan** zmienia aktywny [widok 3D](3D_view/pl.md) na czerwono-cyjanowy, [anaglif](https://en.wikipedia.org/wiki/Anaglyph_3D), tryb widoku stereo. Do korzystania z tego trybu stereo wymagane są okulary z kolorowymi soczewkami.
 
 ## Użycie
 
@@ -19,12 +19,12 @@ Polecenie **Widok stereo czerwony / cyjan** zmienia aktywny [widok 3D](3D_view/p
 
 ## Ustawienia
 
--   Odległość między oczami można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
+-   Odległość między oczami można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

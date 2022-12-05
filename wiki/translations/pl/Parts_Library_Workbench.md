@@ -8,13 +8,13 @@ To repozytorium zawiera bibliotekę części, które mogą być używane w progr
 
 ## Bibliografia
 
--   Autor   * Początkowy commit yorikvanhavre + Społeczność \"FreeCAD
--   Strona główna   * [Biblioteka FreeCAD](https   *//github.com/FreeCAD/FreeCAD-library)
--   Kod źródłowy na Github   * <https   *//github.com/FreeCAD/FreeCAD-library>
+-   Autor: Początkowy commit yorikvanhavre + Społeczność \"FreeCAD
+-   Strona główna: [Biblioteka FreeCAD](https://github.com/FreeCAD/FreeCAD-library)
+-   Kod źródłowy na Github: <https://github.com/FreeCAD/FreeCAD-library>
 
 ## Przybory
 
-Szczegółowy opis [tutaj](http   *//www.bolts-library.org/en/docs/0.3/freecad/usage.html)
+Szczegółowy opis [tutaj](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
 
 Wybór biblioteki części
 
@@ -28,20 +28,20 @@ To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_
 
 ### Z repozytorium GitHub 
 
-Opis instalacji przygotowano na stronie [FreeCAD-library](https   *//github.com/FreeCAD/FreeCAD-library) serwisu GitHub.
+Opis instalacji przygotowano na stronie [FreeCAD-library](https://github.com/FreeCAD/FreeCAD-library) serwisu GitHub.
 
 Biblioteka ta jest prostym zasobnikiem dla plików FreeCAD *(.fcstd)* i STEP *(.stp)*. Możesz ją pobrać niezależnie od miejsca i importować jej pliki w swoich projektach FreeCAD. Wewnątrz biblioteki znajduje się również makrodefinicja FreeCAD [PartsLibrary.FCMacro](Macro_PartsLibrary/pl.md), którą można umieścić w folderze makr FreeCAD. Makro to tworzy okno przeglądarki w programie FreeCAD, z którego można łatwo dodawać części, klikając na nich dwukrotnie.
 
 ## Odnośniki do środowisk pracy Biblioteki części 
 
--   Biblioteczka Wiki   *
--   FreeCAD Wiki   * [Makrodefinicja PartsLibrary](Macro_PartsLibrary/pl.md)
--   Forum FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=10&t=1378>
--   Poradniki   *
--   Materiały wideo   *
--   Pliki   *
--   Lista części, Autor i instytucje normalizacyjne   * [udostępnianie swoich modeli z makrodefinicji](https   *//github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
--   Zgłaszanie błędów   * Błędy należy zgłaszać na stronie <https   *//github.com/FreeCAD/FreeCAD-library/issues>
+-   Biblioteczka Wiki:
+-   FreeCAD Wiki: [Makrodefinicja PartsLibrary](Macro_PartsLibrary/pl.md)
+-   Forum FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=10&t=1378>
+-   Poradniki:
+-   Materiały wideo:
+-   Pliki:
+-   Lista części, Autor i instytucje normalizacyjne: [udostępnianie swoich modeli z makrodefinicji](https://github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
+-   Zgłaszanie błędów: Błędy należy zgłaszać na stronie <https://github.com/FreeCAD/FreeCAD-library/issues>
 
 ## Inne użyteczne odnośniki 
 
@@ -51,10 +51,6 @@ Biblioteka ta jest prostym zasobnikiem dla plików FreeCAD *(.fcstd)* i STEP *(.
 -   [Przepisy na makropolecenia](Macros_recipes/pl.md)
 -   [Pobieranie programu](Download/pl.md)
 -   [Portale społeczności FreeCAD](FreeCAD_Community_Portal/pl.md)
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

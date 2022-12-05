@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Draft AutoGroup
-   MenuLocation   *Draft → Utilities → AutoGroup
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso   *[Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
-   Version   *0.17
+- GuiCommand:
+   Name:Draft AutoGroup
+   MenuLocation:Draft → Utilities → AutoGroup
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso:[Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
+   Version:0.17
 ---
 
 # Draft AutoGroup/de
@@ -33,10 +33,10 @@ This command was originally intended for groups, hence its name, but was redesig
 ## Anwendung
 
 1.  Optionally select the layer you want to make active in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/button_invalid.svg" width=16px> [None](Draft_AutoGroup.md)** button in the [Draft Tray](Draft_Tray.md). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the **Line Color** and **Shape Color** of the layer.
-    -   If you have selected a layer   * select the **<img src="images/button_right.svg" width=16px> Activate this layer** option from the [Tree view](Tree_view.md) context menu.
-3.  If you have not yet selected a layer the layer menu opens. Do one of the following   *
+    -   If you have selected a layer: select the **<img src="images/button_right.svg" width=16px> Activate this layer** option from the [Tree view](Tree_view.md) context menu.
+3.  If you have not yet selected a layer the layer menu opens. Do one of the following:
     -   Select **None** to work without an active layer.
     -   Select an existing layer to make active.
     -   Select **Add new Layer** to create a new layer. Selecting this option will not change the active layer.
@@ -49,9 +49,9 @@ This command was originally intended for groups, hence its name, but was redesig
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   This command can optionally also handle groups   * **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
+-   This command can optionally also handle groups: **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
 
 ## Skripten
 
@@ -59,7 +59,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

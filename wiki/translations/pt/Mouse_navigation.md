@@ -11,14 +11,14 @@ Para mais informação sobre manipulação de objectos ver [Std TransformManip](
 
 ## Seleccionar uma forma de navegação 
 
-1.  Escolher de entre os seguintes passos   *
-    -   Clicar no **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** botão na [Barra de estado](Status_bar/pt.md).
+1.  Escolher de entre os seguintes passos:
+    -   Clicar no **[<img src=images/NavigationCAD_dark.svg style="width:16px">** botão na [Barra de estado](Status_bar/pt.md).
     -   Clicar com o lado direito do rato numa zona vazia na [Vista 3D](3D_view/pt.md), e seleccionar **Navigation styles** a partir do Menu de contexto.
     -   Usar o [Editor de preferências](Preferences_Editor/pt#Navigation.md). No menu seleccione **Edit → Preferences** e depois **Display → Navigation → 3D Navigation**.
 2.  Seleccione um dos estilos da lista.
-3.  Opcionalmente mudar o **Orbit style**   * clicar no **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** botão na [Barra de estado](Status_bar/pt.md) e depois escolher **Settings → Orbit style**. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
+3.  Opcionalmente mudar o **Orbit style**: clicar no **[<img src=images/NavigationCAD_dark.svg style="width:16px">** botão na [Barra de estado](Status_bar/pt.md) e depois escolher **Settings → Orbit style**. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
 4.  Opcionalmente mudar o **Rotation mode**. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
-5.  Se o **CAD** estilo de navegação está seleccionado   * opcionalmente mudar a **Enable animation** definição. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
+5.  Se o **CAD** estilo de navegação está seleccionado: opcionalmente mudar a **Enable animation** definição. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
 
 ## Estilos de navegação disponíveis 
 
@@ -30,7 +30,7 @@ Para mais informação sobre manipulação de objectos ver [Std TransformManip](
 
 </div>
 
-Este estilo de navegação foi adoptado depois do [Blender](https   *//www.blender.org).
+Este estilo de navegação foi adoptado depois do [Blender](https://www.blender.org).
 
 
 {{Blender Navigation
@@ -66,17 +66,17 @@ Este é o estilo de navegação predefinido e permite ao utilizador um controlo 
 
 Mantenha pressionada a tecla **Ctrl** para seleccionar vários objectos.
 |Pan_text=Mantenha pressionado o botão do meio do rato e mova o cursor.
-|Pan_mode_text=Pan mode   * Mantenha pressionada a tecla **Ctrl**, clique no botão direito do rato uma veze mova o cursor.
+|Pan_mode_text=Pan mode: Mantenha pressionada a tecla **Ctrl**, clique no botão direito do rato uma veze mova o cursor.
 |Zoom_text=Use a roda do rato para aproximar ou afastar (zoom in/out).
 
 Clicando com o botão do meio do rato re-centra a vista onde está localizado o cursor.
-|Zoom_mode_text=Zoom mode   * Manter pressionadas as teclas **Ctrl** e **Shift**, clicar uma vez no botão direito do rato e depois mova o cursor.
+|Zoom_mode_text=Zoom mode: Manter pressionadas as teclas **Ctrl** e **Shift**, clicar uma vez no botão direito do rato e depois mova o cursor.
 |Rotate_view_text=Manter pressionado o botão do meio do rato, a seguir clicar e também manter pressionado o botão esquerdo do rato, e depois mova o cursor.
 
 Se soltar os botões do rato antes de parar o movimento do mesmo a vista 3D continua a girar, caso essa função esteja activada.
 
 Um duplo clique com o botão do meio do rato define um novo centro de rotação.
-|Rotate_view_mode_text=Modo de rotação   * Mantenha pressionada a tecla **Shift**, clique o botão direito do rato uma vez e mova o cursor.
+|Rotate_view_mode_text=Modo de rotação: Mantenha pressionada a tecla **Shift**, clique o botão direito do rato uma vez e mova o cursor.
 |Rotate_view_alt_text=Mantenha pressionado o botão do meio do rato, a seguir mantenha pressionado o botão direito do rato e mova o cursor.
 
 Com este método o botão do meio do rato pode ser solto depois do botão direito estar pressionado.
@@ -144,7 +144,7 @@ Alternatively, use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold *
 
 ### OpenCascade navigation 
 
-The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -168,7 +168,7 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ### Navegação Inventor 
 
-Na Navegação Inventor, criada a partir do [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor) (não confundir com Autodesk Inventor), não existe seleção apenas com o rato. Para poder selecionar objetos, é necessário pressionar a tecla **CTRL**. {{OpenInventor Navigation
+Na Navegação Inventor, criada a partir do [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (não confundir com Autodesk Inventor), não existe seleção apenas com o rato. Para poder selecionar objetos, é necessário pressionar a tecla **CTRL**. {{OpenInventor Navigation
 |Select_name=Select
 |Pan_name=Pan
 |Zoom_name=Zoom
@@ -206,7 +206,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -227,7 +227,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 ### Revit navigation 
 
-The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
+The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -249,7 +249,7 @@ Alternatively, hold the middle mouse button, then press and hold the right mouse
 
 ### TinkerCAD navigation 
 
-The TinkerCAD navigation style was modeled after [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
+The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -312,11 +312,11 @@ O FreeCAD também suporta alguns [3D input devices](3D_input_devices.md).
 
 ## Recommended navigation for macOS 
 
-On MacBooks with a trackpad the Gesture navigation works very well, but the gestures have a special meaning   *
+On MacBooks with a trackpad the Gesture navigation works very well, but the gestures have a special meaning:
 
--   Zoom   * drag with two fingers.
--   Rotate   * drag with three fingers.
--   Pan   * **Ctrl** + three fingers.
+-   Zoom: drag with two fingers.
+-   Rotate: drag with three fingers.
+-   Pan: **Ctrl** + three fingers.
 
 ## Developing a custom navigation 
 

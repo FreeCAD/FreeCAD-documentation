@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Вставить растровое изображение
-   Name   *TechDraw_Image
-   MenuLocation   *TechDraw → Вставить растровое изображение
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso   *[Вставить SVG знак](TechDraw_Symbol/ru.md)
+- GuiCommand:/ru
+   Name/ru:Вставить растровое изображение
+   Name:TechDraw_Image
+   MenuLocation:TechDraw → Вставить растровое изображение
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
 # TechDraw Image/ru
@@ -30,33 +30,33 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Image}}
 
--    **Image File|File**   * The file containing this bitmap.
+-    **Image File|File**: The file containing this bitmap.
 
--    **Image Included|FileIncluded**   * Embedded image file. System use only.
+-    **Image Included|FileIncluded**: Embedded image file. System use only.
 
--    **Width|Float**   * The width of the cropped image in mm. Only used if **Crop** is `True`.
+-    **Width|Float**: The width of the cropped image in mm. Only used if **Crop** is `True`.
 
--    **Height|Float**   * The height of the cropped image in mm. Idem.
+-    **Height|Float**: The height of the cropped image in mm. Idem.
 
 ### View
 
 
 {{TitleProperty|Image}}
 
--    **Crop|Bool**   * Crop the image to **Width** x **Height**.
+-    **Crop|Bool**: Crop the image to **Width** x **Height**.
 
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

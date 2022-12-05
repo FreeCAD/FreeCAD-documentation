@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std ViewIvStereoOff
-   MenuLocation   *View → Stereo → Stereo Off
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md)
+- GuiCommand:
+   Name:Std ViewIvStereoOff
+   MenuLocation:View → Stereo → Stereo Off
+   Workbenches:All
+   SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md)
 ---
 
 # Std ViewIvStereoOff/en
@@ -19,7 +19,7 @@ The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D v
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

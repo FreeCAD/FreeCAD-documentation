@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Path DressupDogbone
-   Name/fr   *Path Dégagement des angles
-   MenuLocation   *Path → Trajectoires additionelles → Dégagement des angles
-   Workbenches   *[Path](Path_Workbench/fr.md)
-   SeeAlso   *[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
+- GuiCommand:/fr
+   Name:Path DressupDogbone
+   Name/fr:Path Dégagement des angles
+   MenuLocation:Path → Trajectoires additionelles → Dégagement des angles
+   Workbenches:[Path](Path_Workbench/fr.md)
+   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupDogbone/fr
@@ -16,7 +16,7 @@ Cet outil permet de rajouter des sur-découpes dans le cas d\'angles intérieurs
 ## Utilisation
 
 1.  Sélectionnez un contour ou un profil d\'objets [Path](Path_Workbench/fr.md).
-2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_DressupDogbone.svg  style="width   *24px;"> [Dégagement des angles](Path_DressupDogbone/fr.md) ou 
+2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_DressupDogbone.svg  style="width:24px;"> [Dégagement des angles](Path_DressupDogbone/fr.md) ou 
 **Path** → **Trajectoires additionelles** → **<img src="images/Path_DressupDogbone.svg" width=24px> [Dégagement des angles](Path_DressupDogbone/fr.md)**
 
 ## Options

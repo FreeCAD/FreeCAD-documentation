@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ko
-   Name   *Std PrintPdf
-   Name/ko   *표준 PDF로 내보내기
-   MenuLocation   *파일 → PDF로 내보내기...
-   Workbenches   *모두
-   SeeAlso   *[표준 인쇄](Std_Print/ko.md), [표준 내보내기](Std_Export/ko.md), [표준 스크린샷 보기](Std_ViewScreenShot/ko.md)
+- GuiCommand:/ko
+   Name:Std PrintPdf
+   Name/ko:표준 PDF로 내보내기
+   MenuLocation:파일 → PDF로 내보내기...
+   Workbenches:모두
+   SeeAlso:[표준 인쇄](Std_Print/ko.md), [표준 내보내기](Std_Export/ko.md), [표준 스크린샷 보기](Std_ViewScreenShot/ko.md)
 ---
 
 # Std PrintPdf/ko
@@ -42,7 +42,7 @@
 
 ## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다   * **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

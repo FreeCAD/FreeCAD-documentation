@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Diese Seite zielt darauf, die Nutzung von [NumPy](https   *//numpy.org/) mit FreeCAD zu dokumentieren.
+Diese Seite zielt darauf, die Nutzung von [NumPy](https://numpy.org/) mit FreeCAD zu dokumentieren.
 
 numpy wird als Abhängigkeit von FreeCAD installiert, daher kannst du import numpy as np benutzen, ohne es zuerst installieren zu müssen wie in normalen Python-Projektumgebungen.
 
@@ -21,7 +21,7 @@ numpy_array = np.asarray(vector_list)
 print(numpy_array)
 ```
 
-Output is   *
+Output is:
 
 
 {{Code|lang=text|code=
@@ -41,7 +41,7 @@ cad_list = [App.Vector(itm) for itm in numpy_array]
 print(cad_list)
 ```
 
-Output is   *
+Output is:
 
 
 {{Code|lang=text|code=
@@ -56,8 +56,8 @@ Output is   *
 
 </div>
 
--   <https   *//github.com/looooo/freecad.gears/blob/master/setup.py#L13>
--   <https   *//github.com/booya-at/OpenGlider/blob/develop/setup.py#L77>
+-   <https://github.com/looooo/freecad.gears/blob/master/setup.py#L13>
+-   <https://github.com/booya-at/OpenGlider/blob/develop/setup.py#L77>
 
 
 <div class="mw-translate-fuzzy">
@@ -67,11 +67,7 @@ Output is   *
 
 </div>
 
--   [Any numpy experts?](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=47529) (engl.)
-
-
-
-[Category   *3rd Party](Category_3rd_Party.md)
+-   [Any numpy experts?](https://forum.freecadweb.org/viewtopic.php?f=22&t=47529) (engl.)
 
 
 

@@ -7,26 +7,26 @@
 |Version=0.2022.04.06b
 |Date=2022-04-06
 |FCVersion=Python 3 versions
-|Download=[https   *//wiki.freecadweb.org/File   *bevel.svg ToolBar Icon]
+|Download=[https://wiki.freecadweb.org/File:bevel.svg ToolBar Icon]
 |SeeAlso=
-|Links=[https   *//github.com/mwganson/Bevel Full Documentation on Github]
+|Links=[https://github.com/mwganson/Bevel Full Documentation on Github]
 }}
 
 ## Description
 
 This macro is used to bevel the selected vertices of solid objects, it also works with faces. If the selected object is a Part Design feature the Bevel parametric object will place itself into the Part Design body and further modeling can be done on the same body. If the selected object is not a Part Design feature, then a new object is added to the tree as a standard, parametric feature python object.
 
-Usage   * Select vertices in the 3D view that you desire to bevel and run the macro. You can also select the entire object in the tree, in which case all the vertices will be beveled. This is very similar to other dressup tools in FreeCAD, such as Fillets and Chamfers, and behaves very similarly to those objects, except it is cross-compatible with both Part and Part Design workbenches.
+Usage: Select vertices in the 3D view that you desire to bevel and run the macro. You can also select the entire object in the tree, in which case all the vertices will be beveled. This is very similar to other dressup tools in FreeCAD, such as Fillets and Chamfers, and behaves very similarly to those objects, except it is cross-compatible with both Part and Part Design workbenches.
 
-Full documentation can be found on github   * [Bevel](https   *//github.com/mwganson/Bevel).
+Full documentation can be found on github: [Bevel](https://github.com/mwganson/Bevel).
 
-<img alt="" src=images/bevel_scr.png  style="width   *600px;"> 
+<img alt="" src=images/bevel_scr.png  style="width:600px;"> 
 *Macro Bevel screenshot‎*
 
 ## Legend
 
 
-{{Codeextralink|https   *//gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/db5e9ecdba031bc743a9bd1e3a39e257ee523abc/Bevel.FCMacro|Bevel.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/db5e9ecdba031bc743a9bd1e3a39e257ee523abc/Bevel.FCMacro|Bevel.FCMacro}}
 
 ToolBar Icon ![](images/Bevel.svg )
 
@@ -35,7 +35,7 @@ ToolBar Icon ![](images/Bevel.svg )
 **Macro Bevel.FCMacro**
 
 
-{{CodeDownload|https   *//gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d|Bevel.FCMacro}}
+{{CodeDownload|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d|Bevel.FCMacro}}
 
 
 

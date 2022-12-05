@@ -1,8 +1,6 @@
 # Category:Developer Documentation/tr
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/tr](Category   *Documentation/tr.md)
-
 ### Contents
 
 |     |     |     |

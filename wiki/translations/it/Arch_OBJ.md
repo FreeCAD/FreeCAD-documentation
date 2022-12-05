@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Oltre all\'esportatore [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) standard di FreeCAD, il [Modulo Architettura](Arch_Workbench/it.md) dispone di un esportatore alternativo che esporta le facce complanari come facce OBJ intere, invece di triangolazioni eseguite su oggetti costruiti su [forme](Shape/it.md) di base, come fa l\'esportatore standard.
+Oltre all\'esportatore [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) standard di FreeCAD, il [Modulo Architettura](Arch_Workbench/it.md) dispone di un esportatore alternativo che esporta le facce complanari come facce OBJ intere, invece di triangolazioni eseguite su oggetti costruiti su [forme](Shape/it.md) di base, come fa l\'esportatore standard.
 
 
 </div>
@@ -37,10 +37,10 @@ mesh = MeshPart.meshFromShape(Shape=shape, LinearDeflection=0.1, Segments=True)
 
 face_colors = [(0, 0, 0)] * mesh.CountFacets
 
-for i in range(mesh.countSegments())   *
+for i in range(mesh.countSegments()):
     color = shape_colors[i]
     segm = mesh.getSegment(i)
-    for j in segm   *
+    for j in segm:
         face_colors[j] = color
 
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
@@ -48,7 +48,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 ## More information 
 
--   [Convert STEP to Wavefront OBJ with colors of faces](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37452)
+-   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
 ## Tutorials
 
@@ -71,11 +71,6 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 </div>
-
-
- 
-
-[Category   *File Formats](Category_File_Formats.md)
 
 
 

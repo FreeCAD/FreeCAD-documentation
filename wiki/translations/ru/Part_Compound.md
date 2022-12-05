@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Part Compound‏‎
-   Name/ru   *Part Compound‏‎
-   MenuLocation   *Деталь → Соединить → Создать соединение
-   Workbenches   *[Part](Part_Workbench/ru.md)
-   Version   *0.14
-   SeeAlso   *[Part Fuse](Part_Fuse/ru.md), [Part CompoundFilter](Part_CompoundFilter/ru.md), [Part ExplodeCompound](Part_ExplodeCompound/ru.md)
+- GuiCommand:/ru
+   Name:Part Compound‏‎
+   Name/ru:Part Compound‏‎
+   MenuLocation:Деталь → Соединить → Создать соединение
+   Workbenches:[Part](Part_Workbench/ru.md)
+   Version:0.14
+   SeeAlso:[Part Fuse](Part_Fuse/ru.md), [Part CompoundFilter](Part_CompoundFilter/ru.md), [Part ExplodeCompound](Part_ExplodeCompound/ru.md)
 ---
 
 # Part Compound/ru
@@ -20,7 +20,7 @@ This command creates a compound of objects with a topological shape such as soli
 ## Usage
 
 1.  Mark the topological shapes to be added to the compound in the [tree view](Tree_view.md)
-2.  Choose **Part → Compound → Make Compound** entry in the Part menu or click on the <img alt="" src=images/Part_Compound.svg  style="width   *24px;"> button.
+2.  Choose **Part → Compound → Make Compound** entry in the Part menu or click on the <img alt="" src=images/Part_Compound.svg  style="width:24px;"> button.
 
 ## Notes
 

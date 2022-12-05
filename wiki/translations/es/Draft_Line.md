@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */es
-   Name   *Draft Line
-   Name/es   *Borrador Linea
-   MenuLocation   *Borrador → Línea
-   Workbenches   *[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***L** **I**
-   Version   *0.7
-   SeeAlso   *[Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)
+- GuiCommand:/es
+   Name:Draft Line
+   Name/es:Borrador Linea
+   MenuLocation:Borrador → Línea
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**L** **I**
+   Version:0.7
+   SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)
 ---
 
 # Draft Line/es
@@ -26,7 +26,7 @@ La herramienta Línea crea una línea recta definida por dos puntos. Utiliza el 
 
 A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,12 +40,12 @@ A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
 ## Utilización
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Pulse el **<img src="images/Draft_Line.svg" width=16px> [Línea de Borrador](Draft_Line/es.md)**, o utilice el botón **Borrador** → **<img src="images/Draft_Line.svg" width=16px> [Línea](Draft_Line/es.md)** del menú superior, o utiliza el atajo de teclado   * **L** y luego **I**.
+1.  Pulse el **<img src="images/Draft_Line.svg" width=16px> [Línea de Borrador](Draft_Line/es.md)**, o utilice el botón **Borrador** → **<img src="images/Draft_Line.svg" width=16px> [Línea](Draft_Line/es.md)** del menú superior, o utiliza el atajo de teclado: **L** y luego **I**.
 2.  Haga clic en un primer punto en la vista 3D, o escriba una coordenada y pulse el **<img src="images/Draft_AddPoint.svg" width=16px> añadir punto**.
 3.  Haz clic en un segundo punto en la vista 3D, o escribe una coordenada y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> añadir punto**.
 
@@ -87,10 +87,10 @@ La línea puede editarse haciendo doble clic en el elemento en la vista de árbo
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
@@ -113,7 +113,7 @@ Un objeto Línea comparte todas las propiedades de un **<img src="images/Draft_W
 ## Guión
 
 
-**Ver también   ***
+**Ver también:**
 
 [Borrador API](Draft_API/es.md) y [Fundamentos de Guión FreeCAD](FreeCAD_Scripting_Basics/es.md).
 
@@ -133,7 +133,7 @@ line = make_line(Shape)
 -   Crea un objeto `Line` a partir de un `Part.LineSegment`.
 -   Crea un objeto `Line` desde el primer vértice hasta el último del `Shape` dado.
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

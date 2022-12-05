@@ -1,8 +1,6 @@
 # Category:Workbenches/ru
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/ru](Category   *User_Documentation/ru.md)
-
 ### Contents
 
 |     |     |     |

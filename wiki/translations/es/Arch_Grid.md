@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Grid
-   Name/es   *Arch Grid
-   MenuLocation   *Arch → Axis tools → Grid
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   SeeAlso   *[[Arch Axis/es]], [[Arch AxisSystem/es]]
+- GuiCommand:/es
+   Name:Arch Grid
+   Name/es:Arch Grid
+   MenuLocation:Arch → Axis tools → Grid
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   SeeAlso:[[Arch Axis/es]], [[Arch AxisSystem/es]]
 ---
 
 # Arch Grid/es
@@ -30,7 +30,7 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 </div>
 
-<img alt="" src=images/Arch_Grid_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +68,7 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 -   Un ancho de columna o una altura de fila de 0 significa que su tamaño se adaptará automáticamente para ajustarse al ancho / alto total de la grilla
 -   Las celdas se pueden fusionar y no fusionar seleccionándolas y haciendo clic en el botón apropiado
--   Cuando se usa como la propiedad **Eje** de otros objetos Arch, la grilla controlará el posicionamiento de estos objetos. La propiedad **Salida de puntos** define cómo se colocan los otros objetos en la grilla   * en vértices, puntos medios del borde o centros de caras
+-   Cuando se usa como la propiedad **Eje** de otros objetos Arch, la grilla controlará el posicionamiento de estos objetos. La propiedad **Salida de puntos** define cómo se colocan los otros objetos en la grilla: en vértices, puntos medios del borde o centros de caras
 -   Al establecer las propiedades **Auto Height** o **Auto Width** en un valor distinto de cero, se ignora el número total de filas / columnas y sus alturas / anchuras individuales. En cambio, se crea automáticamente la cantidad máxima de columnas o filas del auto especificado ancho / alto
 
 
@@ -76,27 +76,27 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 ## Propiedades
 
--    {{PropertyData/es|Rows}}   * el número de filas
+-    {{PropertyData/es|Rows}}: el número de filas
 
--    {{PropertyData/es|Columns}}   * el número de columnas
+-    {{PropertyData/es|Columns}}: el número de columnas
 
--    {{PropertyData/es|Row Size}}   * los tamaños para las filas
+-    {{PropertyData/es|Row Size}}: los tamaños para las filas
 
--    {{PropertyData/es|Column Size}}   * los tamaños de las columnas
+-    {{PropertyData/es|Column Size}}: los tamaños de las columnas
 
--    {{PropertyData/es|Points Output}}   * el tipo de puntos 3D producidos por este objeto de cuadrícula
+-    {{PropertyData/es|Points Output}}: el tipo de puntos 3D producidos por este objeto de cuadrícula
 
--    {{PropertyData/es|Width}}   * el ancho total de esta grilla
+-    {{PropertyData/es|Width}}: el ancho total de esta grilla
 
--    {{PropertyData/es|Height}}   * la altura total de esta grilla
+-    {{PropertyData/es|Height}}: la altura total de esta grilla
 
--    {{PropertyData/es|Auto Width}}   * crea divisiones de columna automáticas (se establece en 0 para deshabilitar)
+-    {{PropertyData/es|Auto Width}}: crea divisiones de columna automáticas (se establece en 0 para deshabilitar)
 
--    {{PropertyData/es|Auto Height}}   * crea divisiones de filas automáticas (establecido en 0 para deshabilitar)
+-    {{PropertyData/es|Auto Height}}: crea divisiones de filas automáticas (establecido en 0 para deshabilitar)
 
--    {{PropertyData/es|Reorient}}   * cuando está en el modo de punto medio de borde, si esta grilla debe reorientar sus hijos a lo largo de las normales de borde o no
+-    {{PropertyData/es|Reorient}}: cuando está en el modo de punto medio de borde, si esta grilla debe reorientar sus hijos a lo largo de las normales de borde o no
 
--    {{PropertyData/es|Hidden Faces}}   * los índices de caras para ocultar
+-    {{PropertyData/es|Hidden Faces}}: los índices de caras para ocultar
 
 ## Scripting
 
@@ -111,7 +111,7 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 <div class="mw-translate-fuzzy">
 
-La herramienta grilla se puede usar en [macros](macros/es.md) y desde la consola de python mediante la siguiente función   *
+La herramienta grilla se puede usar en [macros](macros/es.md) y desde la consola de python mediante la siguiente función:
 
 
 </div>

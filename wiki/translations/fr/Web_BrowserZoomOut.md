@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Web BrowserZoomOut
-   Name/fr   *Web Zoom arrière
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso   *
+- GuiCommand:/fr
+   Name:Web BrowserZoomOut
+   Name/fr:Web Zoom arrière
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso:
 ---
 
 # Web BrowserZoomOut/fr
 
 ## Description
 
-Utilisez la commande <img alt="" src=images/Web_BrowserZoomOut.svg  style="width   *24px;"> **Web Zoom arrière** pour effectuer un zoom arrière sur la page web en cours.
+Utilisez la commande <img alt="" src=images/Web_BrowserZoomOut.svg  style="width:24px;"> **Web Zoom arrière** pour effectuer un zoom arrière sur la page web en cours.
 
 ## Utilisation
 

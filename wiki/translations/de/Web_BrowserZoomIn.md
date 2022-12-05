@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */de
-   Name   *Web BrowserZoomIn
-   Name/de   *Web BrowserVergrößern
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso   *
+- GuiCommand:/de
+   Name:Web BrowserZoomIn
+   Name/de:Web BrowserVergrößern
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso:
 ---
 
 # Web BrowserZoomIn/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Web_BrowserZoomIn.svg  style="width   *24px;"> **Web BrowserVergrößern** vergrößert die Darstellung der aktuellen Webseite.
+Der Befehl <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:24px;"> **Web BrowserVergrößern** vergrößert die Darstellung der aktuellen Webseite.
 
 ## Anwendung
 

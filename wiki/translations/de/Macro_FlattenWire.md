@@ -10,7 +10,7 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
 }}
 
 
@@ -39,10 +39,10 @@ ToolBar Icon ![](images/Macro_FlattenWire.png )
 import FreeCAD
 obj = FreeCAD.ActiveDocument.ActiveObject
 z = 0
-for p in obj.Points   * z += p.z
+for p in obj.Points: z += p.z
 z = z/len(obj.Points)
 newpoints = []
-for p in obj.Points   * newpoints.append(FreeCAD.Vector(p.x, p.y, z))
+for p in obj.Points: newpoints.append(FreeCAD.Vector(p.x, p.y, z))
 obj.Points = newpoints
 }}
 

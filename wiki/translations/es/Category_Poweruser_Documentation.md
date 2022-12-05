@@ -1,8 +1,6 @@
 # Category:Poweruser Documentation/es
 Esta categoría muestra documentación de artículos acerca de los archivos de guión en Python, los cuales se dirigen a los usuarios más avanzados.
 
-[Category   *Documentation/es](Category   *Documentation/es.md)
-
 ### Contents
 
 |     |     |     |

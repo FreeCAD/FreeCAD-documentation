@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-La [vista DAG](DAG_view/it.md) è un [grafico aciclico diretto](https   *//en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) che mostra le relazioni tra i diversi oggetti nel documento. Intende principalmente mostrare come determinati oggetti dipendono da altri in un modello complesso con molte funzioni e riferimenti, come quelli che possono essere creati con <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/it.md).
+La [vista DAG](DAG_view/it.md) è un [grafico aciclico diretto](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) che mostra le relazioni tra i diversi oggetti nel documento. Intende principalmente mostrare come determinati oggetti dipendono da altri in un modello complesso con molte funzioni e riferimenti, come quelli che possono essere creati con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 La vista DAG assomiglia al grafico che può essere prodotto da un repository Git e dai suoi rami. Insieme allo [vista ad albero](tree_view/it.md) standard e al [grafico delle dipendenze](Std_DependencyGraph/it.md), la vista DAG è uno strumento per ispezionare la storia parametrica degli oggetti in un documento.
 
@@ -15,11 +15,11 @@ Un modello semplice verrà visto con diverse visualizzazioni.
 ![](images/FreeCAD_DAG_view_3D.png ) 
 *Modello con forme 2D e 3D.*
 
-<img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width   *" height="500px;">
+<img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width:" height="500px;">
 
 
 
-*A sinistra   * oggetti mostrati nella [vista ad albero](tree_view/it.md) standard. A destra   * oggetti mostrati nella vista DAG.*
+*A sinistra: oggetti mostrati nella [vista ad albero](tree_view/it.md) standard. A destra: oggetti mostrati nella vista DAG.*
 
 ![](images/FreeCAD_DAG_view_Std_DependencyGraph.png )
 
@@ -38,7 +38,7 @@ Per disporre di questa vista usare l\'[editor dei parametri](Std_DlgParameter/it
 
 quindi aggiungere il parametro `Enabled` di tipo `Boolean`, e impostarlo su `True`.
 
-Riavvia FreeCAD e attiva la vista DAG   * **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista DAG}}.
+Riavvia FreeCAD e attiva la vista DAG: **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista DAG}}.
 
 Nell\'[editor dei parametri](Std_DlgParameter/it.md) si possono anche modificare alcune proprietà nei seguenti sottogruppi
 
@@ -57,8 +57,8 @@ Nell\'[editor dei parametri](Std_DlgParameter/it.md) si possono anche modificare
 
 ## Link
 
--   [DAGView](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=11276), thread del forum che presenta il nuovo strumento.
--   [easter egg of PartDesign Next   * DAG View](https   *//forum.freecadweb.org/viewtopic.php?t=15375), includere la vista insieme all\'aggiornamento di PartDesign.
+-   [DAGView](https://forum.freecadweb.org/viewtopic.php?f=20&t=11276), thread del forum che presenta il nuovo strumento.
+-   [easter egg of PartDesign Next: DAG View](https://forum.freecadweb.org/viewtopic.php?t=15375), includere la vista insieme all\'aggiornamento di PartDesign.
 
 
 {{Interface navi

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Robot InsertWaypointPre
-   Name/fr   *Robot Point de passage à partir d'objets présélectionnés
-   MenuLocation   *Robot → Insérer dans la trajectoire 
-   Workbenches   *[Robot](Robot_Workbench/fr.md)
-   Shortcut   ***W**
-   SeeAlso   *[Robot Trajectoire](Robot_CreateTrajectory/fr.md), [Robot Point de passage](Robot_InsertWaypoint/fr.md)
+- GuiCommand:/fr
+   Name:Robot InsertWaypointPre
+   Name/fr:Robot Point de passage à partir d'objets présélectionnés
+   MenuLocation:Robot → Insérer dans la trajectoire 
+   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Shortcut:**W**
+   SeeAlso:[Robot Trajectoire](Robot_CreateTrajectory/fr.md), [Robot Point de passage](Robot_InsertWaypoint/fr.md)
 ---
 
 # Robot InsertWaypointPre/fr
@@ -24,10 +24,10 @@ La présélection peut varier en fonction du style de navigation utilisé.
 
 ## Remarques
 
-Les objets sélectionnables sont    *
+Les objets sélectionnables sont :
 
 -   Coins de solides
--   Points insérés par l\'intermédiaire de l\'<img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [atelier Draft](Draft_Workbench/fr.md)
+-   Points insérés par l\'intermédiaire de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md)
 -   Points d\'extrémité d\'éléments d\'esquisse tels que des lignes ou des arcs (l\'esquisse doit être visible).
 
 

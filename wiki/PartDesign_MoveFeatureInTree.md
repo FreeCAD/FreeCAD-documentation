@@ -1,17 +1,17 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign MoveFeatureInTree
-   MenuLocation   *Context menu → Move object after other object
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
+- GuiCommand:
+   Name:PartDesign MoveFeatureInTree
+   MenuLocation:Context menu → Move object after other object
+   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Version:0.17
+   SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
 ---
 
 # PartDesign MoveFeatureInTree
 
 ## Description
 
-<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width   *24px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md), as this command is labeled in the context menu, allows reordering of objects under a Body. Sketches, datum geometry and features are supported.
+<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md), as this command is labeled in the context menu, allows reordering of objects under a Body. Sketches, datum geometry and features are supported.
 
 ## Usage
 

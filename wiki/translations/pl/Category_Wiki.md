@@ -1,8 +1,6 @@
 # Category:Wiki/pl
 This category contains all documents that relate to the Wiki.
 
-[Category   *Administration/pl](Category   *Administration/pl.md) [Category   *Categories/pl](Category   *Categories/pl.md) [Category   *Documentation/pl](Category   *Documentation/pl.md)
-
 ### Contents
 
 |     |     |     |

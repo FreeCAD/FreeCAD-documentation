@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *PartDesign AdditiveHelix
-   Name/fr   *PartDesign Hélice additive
-   MenuLocation   *Part Design → Créer une fonction additive → Hélice additive
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
-   Version   *0.19
-   SeeAlso   *[PartDesign Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)
+- GuiCommand:/fr
+   Name:PartDesign AdditiveHelix
+   Name/fr:PartDesign Hélice additive
+   MenuLocation:Part Design → Créer une fonction additive → Hélice additive
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[PartDesign Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)
 ---
 
 # PartDesign AdditiveHelix/fr
@@ -14,7 +14,7 @@
 
 L\'outil **Hélice additive** crée un solide en balayant une esquisse ou un objet 2D sélectionné le long d\'une hélice.
 
-<img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width   *650px;">
+<img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
 *Le profil (B) est balayé autour de l\'axe (A) afin de produire l\'hélice solide (C)*
 
@@ -36,21 +36,21 @@ Lors de la création d\'une hélice additive, la boîte de dialogue **Paramètre
 
 Cette option spécifie l\'axe autour duquel l\'esquisse doit être balayée.
 
--   **Axe d\'esquisse normal**   * sélectionne comme axe la normale de l\'esquisse qui passe par l\'origine de l\'esquisse. {{Version/fr|0.20}}
--   **Axe d\'esquisse vertical**   * sélectionne l\'axe vertical de l\'esquisse. C\'est la valeur par défaut pour les nouvelles hélices.
--   **Axe d\'esquisse horizontal**    * sélectionne l\'axe horizontal de l\'esquisse.
--   **Ligne de construction**    * sélectionne une ligne de construction contenue dans l\'esquisse utilisée par l\'hélice. La liste déroulante contiendra une entrée pour chaque ligne de construction. La première ligne de construction créée dans l\'esquisse sera intitulée *Ligne de construction 1*.
--   **Axes de base (X/Y/Z)**    * sélectionne l\'axe X, Y ou Z de l\'origine du corps;
--   **Sélectionnez une référence\...**    * permet de sélectionner dans la vue 3D une arête sur le corps ou une [ligne de référence](PartDesign_Line/fr.md).
+-   **Axe d\'esquisse normal**: sélectionne comme axe la normale de l\'esquisse qui passe par l\'origine de l\'esquisse. {{Version/fr|0.20}}
+-   **Axe d\'esquisse vertical**: sélectionne l\'axe vertical de l\'esquisse. C\'est la valeur par défaut pour les nouvelles hélices.
+-   **Axe d\'esquisse horizontal** : sélectionne l\'axe horizontal de l\'esquisse.
+-   **Ligne de construction** : sélectionne une ligne de construction contenue dans l\'esquisse utilisée par l\'hélice. La liste déroulante contiendra une entrée pour chaque ligne de construction. La première ligne de construction créée dans l\'esquisse sera intitulée *Ligne de construction 1*.
+-   **Axes de base (X/Y/Z)** : sélectionne l\'axe X, Y ou Z de l\'origine du corps;
+-   **Sélectionnez une référence\...** : permet de sélectionner dans la vue 3D une arête sur le corps ou une [ligne de référence](PartDesign_Line/fr.md).
 
 ### Mode
 
-Ceci contrôle les paramètres qui seront utilisés pour définir l\'hélice. Les choix autorisés sont    *
+Ceci contrôle les paramètres qui seront utilisés pour définir l\'hélice. Les choix autorisés sont :
 
--   **Pas-Hauteur-Angle**    * définition via la hauteur par tour et la hauteur totale
--   **Pas-Tours-Angle**    * définition via la hauteur par tour et le nombre de tours
--   **Hauteur-Tours-Angles**    * définition via la hauteur totale et le nombre de tours
--   **Hauteur-Tours-Croissance** {{Version/fr|0.20}}    * définition via la hauteur totale, le nombre de tours et la croissance du rayon hélicoïdal. Ainsi, une hauteur de zéro conduit à une trajectoire en forme de spirale. Une hauteur et une croissance de zéro, conduit à une trajectoire en forme de cercle.
+-   **Pas-Hauteur-Angle** : définition via la hauteur par tour et la hauteur totale
+-   **Pas-Tours-Angle** : définition via la hauteur par tour et le nombre de tours
+-   **Hauteur-Tours-Angles** : définition via la hauteur totale et le nombre de tours
+-   **Hauteur-Tours-Croissance** {{Version/fr|0.20}} : définition via la hauteur totale, le nombre de tours et la croissance du rayon hélicoïdal. Ainsi, une hauteur de zéro conduit à une trajectoire en forme de spirale. Une hauteur et une croissance de zéro, conduit à une trajectoire en forme de cercle.
 
 ### Pas
 
@@ -66,7 +66,7 @@ Le nombre de tours dans l\'hélice. Définit par le rapport hauteur/pas.
 
 ### Angle du cône 
 
-Angle du cône qui forme une coque autour de l\'hélice. Plage autorisée    * \[-89°, +89°\].
+Angle du cône qui forme une coque autour de l\'hélice. Plage autorisée : \[-89°, +89°\].
 
 ### Gaucher
 
@@ -86,35 +86,35 @@ Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automat
 
 ## Propriétés
 
--    **Pitch**   * La distance axiale entre deux spires.
+-    **Pitch**: La distance axiale entre deux spires.
 
--    **Height**   * La longueur totale de l\'hélice (sans tenir compte de l\'étendue du profil)
+-    **Height**: La longueur totale de l\'hélice (sans tenir compte de l\'étendue du profil)
 
--    **Turns**   * Le nombre de tours (ne doit pas être un nombre entier)
+-    **Turns**: Le nombre de tours (ne doit pas être un nombre entier)
 
--    **Left Handed**   * Voir [Gaucher](#Gaucher.md).
+-    **Left Handed**: Voir [Gaucher](#Gaucher.md).
 
--    **Reversed**   * Vrai ou faux. Voir [Inversé](#Invers.C3.A9.md).
+-    **Reversed**: Vrai ou faux. Voir [Inversé](#Invers.C3.A9.md).
 
--    **Angle**   * Le rapport avec lequel le rayon de l\'hélice augmente le long de l\'axe. Plage admissible    * \[-89°, +89°\].
+-    **Angle**: Le rapport avec lequel le rayon de l\'hélice augmente le long de l\'axe. Plage admissible : \[-89°, +89°\].
 
--    **Reference axis**   * L\'axe de l\'hélice
+-    **Reference axis**: L\'axe de l\'hélice
 
--    **Mode**   * Le mode d\'entrée de l\'hélice (hauteur de pas, tours de pas, hauteur de tours)
+-    **Mode**: Le mode d\'entrée de l\'hélice (hauteur de pas, tours de pas, hauteur de tours)
 
--    **Outside**   * Non utilisé (utilisé dans l\'hélice soustractive)
+-    **Outside**: Non utilisé (utilisé dans l\'hélice soustractive)
 
--    **Has Been Edited**   * Si faux, l\'outil proposera une valeur initiale pour le pas basée sur la boîte englobante du profil, de sorte que l\'auto-intersection soit évitée.
+-    **Has Been Edited**: Si faux, l\'outil proposera une valeur initiale pour le pas basée sur la boîte englobante du profil, de sorte que l\'auto-intersection soit évitée.
 
--    **Refine**   * Vrai ou faux. Si la valeur est vraie, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Part Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
+-    **Refine**: Vrai ou faux. Si la valeur est vraie, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Part Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
--    **Profile**   * Soit une esquisse contenant un contour fermé, soit une face.
+-    **Profile**: Soit une esquisse contenant un contour fermé, soit une face.
 
--    **Midplane**   * Non utilisé.
+-    **Midplane**: Non utilisé.
 
--    **Up to face**   * Non utilisé.
+-    **Up to face**: Non utilisé.
 
--    **Allow multiple face**   * Non utilisé.
+-    **Allow multiple face**: Non utilisé.
 
 ## Exemples
 

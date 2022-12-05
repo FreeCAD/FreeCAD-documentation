@@ -1,8 +1,6 @@
 # Category:Std Base/es
 This category list pages related to the [Std Base](Std_Base/es.md), which collects commands from the base system which do not belong to any of the workbenches.
 
-[Category   *User_Documentation/es](Category   *User_Documentation/es.md)
-
 ### Contents
 
 |     |     |     |

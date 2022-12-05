@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   *   Topic   * Modeling an architectural panel
-   Level   * Beginner
-   Time   * 60 minutes
-   Author   * Yorik
-   FCVersion   *
-   Files   *
+- TutorialInfo:   Topic: Modeling an architectural panel
+   Level: Beginner
+   Time: 60 minutes
+   Author: Yorik
+   FCVersion:
+   Files:
 ---
 
 # Arch panel tutorial
@@ -13,35 +13,35 @@
 
 
 
-This is a cross-post of a [tutorial](http   *//opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originally written for [Open-Source Ecology](http   *//opensourceecology.org).
+This is a cross-post of a [tutorial](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originally written for [Open-Source Ecology](http://opensourceecology.org).
 
 ## Presenting FreeCAD 
 
- <img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width   *800px;"> 
+ <img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width:800px;"> 
 
 FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and very modular, allowing for very advanced extension and customization, specially thanks to its intensive use of the Python language.
 
--   FreeCAD website   * <http   *//www.freecadweb.org/>
--   FreeCAD documentation wiki   * <http   *//www.freecadweb.org/wiki/index.php?title=Main_Page>
--   FreeCAD workbenches   * <http   *//www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
--   FreeCAD forum   * <http   *//forum.freecadweb.org/>
--   Getting started with FreeCAD   * <http   *//www.freecadweb.org/wiki/index.php?title=Getting_started>
--   Architecture tutorial   * <http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
+-   FreeCAD website: <http://www.freecadweb.org/>
+-   FreeCAD documentation wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page>
+-   FreeCAD workbenches: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
+-   FreeCAD forum: <http://forum.freecadweb.org/>
+-   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
+-   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
 
 ## Installing FreeCAD 
 
-You have the choice to install the latest stable version (as of today, may 2015   * version 0.15) or a development version (currently 0.16). In fact, development versions of FreeCAD are usually pretty stable, and you are strongly encouraged to try a development version, unless you have a specific reason not to do so. Since FreeCAD development is quite fast, be sure, if you are downloading manually, to check back from time to time and reinstall/update to benefit from latest improvements.
+You have the choice to install the latest stable version (as of today, may 2015: version 0.15) or a development version (currently 0.16). In fact, development versions of FreeCAD are usually pretty stable, and you are strongly encouraged to try a development version, unless you have a specific reason not to do so. Since FreeCAD development is quite fast, be sure, if you are downloading manually, to check back from time to time and reinstall/update to benefit from latest improvements.
 
--   On Windows   * Download the most recent version for your windows version (32 or 64bits) from <https   *//github.com/FreeCAD/FreeCAD/releases>. Double-click the file to install.
--   On Mac OS   * Download the most recent version from <https   *//github.com/FreeCAD/FreeCAD/releases>. Double-click the file to install.
--   On Ubuntu   * The version of FreeCAD provided by Ubuntu is usually out of date, so you are advised to use the PPA maintained by the FreeCAD community instead. To install, open the "Software Sources" application of Ubuntu, and add either ppa   *freecad-maintainers/freecad-stable for the stable version, or ppa   *freecad-maintainers/freecad-daily for the development version to the software sources.
--   On other platforms   * On most mainstream Linux distributions (Debian, Fedora, etc), FreeCAD is included in the official software repositories. It might not always be the most up-to-date version, though. If the version you need is not available, your only option is to compile FreeCAD yourself (instructions on the FreeCAD website)
+-   On Windows: Download the most recent version for your windows version (32 or 64bits) from <https://github.com/FreeCAD/FreeCAD/releases>. Double-click the file to install.
+-   On Mac OS: Download the most recent version from <https://github.com/FreeCAD/FreeCAD/releases>. Double-click the file to install.
+-   On Ubuntu: The version of FreeCAD provided by Ubuntu is usually out of date, so you are advised to use the PPA maintained by the FreeCAD community instead. To install, open the "Software Sources" application of Ubuntu, and add either ppa:freecad-maintainers/freecad-stable for the stable version, or ppa:freecad-maintainers/freecad-daily for the development version to the software sources.
+-   On other platforms: On most mainstream Linux distributions (Debian, Fedora, etc), FreeCAD is included in the official software repositories. It might not always be the most up-to-date version, though. If the version you need is not available, your only option is to compile FreeCAD yourself (instructions on the FreeCAD website)
 
 ## Additional optional contents 
 
--   Enabling IFC import/export   * To import and export projects to/from the IFC file format, FreeCAD relies on the IfcOpenShell importer, that you must install separately from <http   *//ifcopenshell.org/python.html>. Be sure to choose a python2.7-based version, which is the same python version used by FreeCAD.
--   Drawing dimensioning workbench   * An additional workbench for FreeCAD, that offer many convenient tools to add dimensions and annotations to FreeCAD\'s 2D drawing sheets   * <https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning> (Install instructions on the web page)
--   Assembly2 workbench   * An additional workbench for FreeCAD, that offers a series of basic assembly tools   * <https   *//github.com/hamish2014/FreeCAD_assembly2> (Install instructions on the web page)
+-   Enabling IFC import/export: To import and export projects to/from the IFC file format, FreeCAD relies on the IfcOpenShell importer, that you must install separately from <http://ifcopenshell.org/python.html>. Be sure to choose a python2.7-based version, which is the same python version used by FreeCAD.
+-   Drawing dimensioning workbench: An additional workbench for FreeCAD, that offer many convenient tools to add dimensions and annotations to FreeCAD\'s 2D drawing sheets: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (Install instructions on the web page)
+-   Assembly2 workbench: An additional workbench for FreeCAD, that offers a series of basic assembly tools: <https://github.com/hamish2014/FreeCAD_assembly2> (Install instructions on the web page)
 
 ## Quick startup tips 
 
@@ -61,11 +61,11 @@ FreeCAD is a very technical application, and its learning curve can be steep. Be
 
 -   Although FreeCAD can import and work with mesh objects (Mesh workbench), it is primarily designed to work with a more advanced object type called brep, that is used by most of its workbenches (Part, PartDesign, Draft, Sketcher, Arch). When importing mesh-based files (.dae, .orb, .stl\...) you will usually need to convert these objects to brep before being able to do something interesting with them. Solid-based file formats however (.step, .iges), when imported into FreeCAD, directly produce brep objects. 2D formats (.dxf, .svg) also produce brep contents.
 
--   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <http   *//www.freecadweb.org/wiki/index.php?title=Mouse_Model>. The best suited modes for CAD work are CAD or Gestures.
+-   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. The best suited modes for CAD work are CAD or Gestures.
 
-## Exercise   * modeling a roof panel 
+## Exercise: modeling a roof panel 
 
-To showcase a typical workflow in FreeCAD, let\'s model a roof panel as described on <http   *//opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. To do that,we will start from drawing the different pieces in a 2D constrained sketch, then we will take advantage of the special Arch Window object, which is able to build complex 3D objects from a 2D sketch containing the contours of several pieces. Finally, since what we need is not a window but a roof panel, we will simply convert our window object to another Arch type.
+To showcase a typical workflow in FreeCAD, let\'s model a roof panel as described on <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. To do that,we will start from drawing the different pieces in a 2D constrained sketch, then we will take advantage of the special Arch Window object, which is able to build complex 3D objects from a 2D sketch containing the contours of several pieces. Finally, since what we need is not a window but a roof panel, we will simply convert our window object to another Arch type.
 
 ### 1. Open FreeCAD, then set your preferred units to "imperial" 
 
@@ -109,7 +109,7 @@ Depending on your system, FreeCAD might begin to be slow to process new constrai
 
 ### 8. Calculate the spacing between the 7 reinforcement pieces and set vertical constraints between them. 
 
-In our case, our total length is 192 inches, minus the two end pieces (2 x 2 inches) and the two corner reinforcements (2 x 6 inches), = 192 -- (4 + 12) = 176. Removing the 7 reinforcement pieces ( 7 x 2 ) = 162. Dividing this by 8 gives us the space between each reinforcement   * 20.25.
+In our case, our total length is 192 inches, minus the two end pieces (2 x 2 inches) and the two corner reinforcements (2 x 6 inches), = 192 -- (4 + 12) = 176. Removing the 7 reinforcement pieces ( 7 x 2 ) = 162. Dividing this by 8 gives us the space between each reinforcement: 20.25.
 
  ![](images/Arch_panel_tutorial_08.jpg ) 
 
@@ -121,13 +121,13 @@ On the right panel (Tasks tab in the Combo View -\> Solver messages), you can se
 
 This is actually not absolutely necessary. But it is always better to keep track of the exact position of objects (we are now certain that our corner is at the (0,0) point). In case something goes wrong later, or we need to figure out the position of an object built upon this sketch, this will be useful.
 
-We can now press the "close" button and our base sketch is built   *
+We can now press the "close" button and our base sketch is built:
 
  ![](images/Arch_panel_tutorial_10.jpg ) 
 
 ### 10. Switch to the Arch workbench and, with the sketch selected, press the "window" button 
 
-Our sketch has now vanished and one of its rectangles has been extruded slightly into a solid piece   *
+Our sketch has now vanished and one of its rectangles has been extruded slightly into a solid piece:
 
  ![](images/Arch_panel_tutorial_11.jpg ) 
 
@@ -137,7 +137,7 @@ Although this seems wrong, it is simply because the Arch Window tool has created
 
  ![](images/Arch_panel_tutorial_12.jpg ) 
 
-When double-clicking the window, its base sketch becomes visible again, and we get its edit interface   * At the left, a list of the loops found in the base sketch, at the right the solid pieces built on it.
+When double-clicking the window, its base sketch becomes visible again, and we get its edit interface: At the left, a list of the loops found in the base sketch, at the right the solid pieces built on it.
 
 Begin with removing the "Default" piece.
 
@@ -149,7 +149,7 @@ The "Type" value will be used to attribute materials to the window (not implemen
 
 Then press the "Create component" button. Sometimes FreeCAD fails to guess correctly the direction of the extrusion, and you must therefore edit your component and change the 6 inches value by -6 inches.
 
-Repeat this for all the needed pieces   *
+Repeat this for all the needed pieces:
 
  ![](images/Arch_panel_tutorial_14.jpg ) 
 
@@ -165,7 +165,7 @@ We can then edit our window again, and add new components. We can see that a new
 
  ![](images/Arch_panel_tutorial_15.jpg ) 
 
-We can now create another component based on the same Wire, in order to place another panel on top of our frame. This time, we will give it an offset of 6.05 inches. Our panel is finally complete   *
+We can now create another component based on the same Wire, in order to place another panel on top of our frame. This time, we will give it an offset of 6.05 inches. Our panel is finally complete:
 
  ![](images/Arch_panel_tutorial_16.jpg ) 
 

@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */fr
-   Name   *Std Group
-   Name/fr   *Std Groupe
-   MenuLocation   *[Vue arborescente](Tree_view/fr.md) → Clic droit sur le nom du document → Créer un groupe...
-   Workbenches   *Tous
-   Shortcut   *
-   Version   *
-   SeeAlso   *[Std Part](Std_Part/fr.md), [Draft Sélection groupée](Draft_SelectGroup/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
+- GuiCommand:/fr
+   Name:Std Group
+   Name/fr:Std Groupe
+   MenuLocation:[Vue arborescente](Tree_view/fr.md) → Clic droit sur le nom du document → Créer un groupe...
+   Workbenches:Tous
+   Shortcut:
+   Version:
+   SeeAlso:[Std Part](Std_Part/fr.md), [Draft Sélection groupée](Draft_SelectGroup/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
 ---
 
 # Std Group/fr
@@ -27,7 +27,7 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 
 ## Utilisation
 
-1.  Effectuez l\'une des opérations suivantes    *
+1.  Effectuez l\'une des opérations suivantes :
     -   Cliquez avec le bouton droit de la souris sur le nom du document dans la [Vue en arborescence](Tree_view/fr.md) et dans le menu contextuel, choisissez **Créer un groupe...**.
     -   Appuyez sur le **<img src="images/Std_Group.svg" width=16px> [Créer un groupe](Std_Group/fr.md)**.
 2.  Un groupe vide est créé.
@@ -37,7 +37,7 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 
 ## Propriétés
 
-[Std Groupe](Std_Group/fr.md), appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App   *   *DocumentObjectGroup`), est dérivé de l\'objet de base [App DocumentObject](App_DocumentObject/fr.md) (classe `App   *   *DocumentObject`) et hérite de toutes ses propriétés.
+[Std Groupe](Std_Group/fr.md), appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App::DocumentObjectGroup`), est dérivé de l\'objet de base [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`) et hérite de toutes ses propriétés.
 
 Std Groupe a les mêmes propriétés que [App FeaturePython](App_FeaturePython/fr#Propri.C3.A9t.C3.A9s.md), qui est l\'instance la plus basique d\'un [App DocumentObject](App_DocumentObject/fr.md). Il possède également les propriétés supplémentaires suivantes dans l\'éditeur de propriétés de l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés cachées peuvent être affichées à l\'aide de la commande **Show all** du menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -46,14 +46,14 @@ Std Groupe a les mêmes propriétés que [App FeaturePython](App_FeaturePython/f
 
 {{TitleProperty|Base}}
 
--    **Group|LinkList**   * liste d\'objets référencés. Par défaut vide {{value|[]}}.
+-    **Group|LinkList**: liste d\'objets référencés. Par défaut vide {{value|[]}}.
 
--    **_ Group Touched|Bool|Hidden**   * indique si le groupe est touché ou non.
+-    **_ Group Touched|Bool|Hidden**: indique si le groupe est touché ou non.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
@@ -66,32 +66,32 @@ Std Groupe ([App DocumentObjectGroup](App_DocumentObjectGroup/fr.md)) est créé
 import FreeCAD as App
 
 doc = App.newDocument()
-group = App.ActiveDocument.addObject("App   *   *DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
 
-obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
 group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
 
-`App   *   *DocumentObjectGroup`
+`App::DocumentObjectGroup`
 
 de base n\'a pas d\'objet Proxy, il ne peut donc pas être entièrement utilisé pour la sous-classification.
 
-Pour la sous-classification de [Python](Python/fr.md), vous devez créer l\'objet `App   *   *DocumentObjectGroupPython`.
+Pour la sous-classification de [Python](Python/fr.md), vous devez créer l\'objet `App::DocumentObjectGroupPython`.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App   *   *DocumentObjectGroupPython", "Name")
+obj = App.ActiveDocument.addObject("App::DocumentObjectGroupPython", "Name")
 obj.Label = "Custom label"
 ```
 
-Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App   *   *DocumentObjectGroupPython` avec une icône personnalisée et des propriétés supplémentaires.
+Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentObjectGroupPython` avec une icône personnalisée et des propriétés supplémentaires.
 
 ## Liens
 

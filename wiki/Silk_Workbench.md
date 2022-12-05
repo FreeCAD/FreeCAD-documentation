@@ -7,21 +7,17 @@
 
 ## Installation
 
-Recommended install is via the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) found under the **Tools → Addon Manager** menu.
+Recommended install is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) found under the **Tools → Addon Manager** menu.
 
 ## References
 
--   Author   * \@edwardvmills
--   Source   * <https   *//github.com/edwardvmills/Silk>
--   Docs   * <http   *//edwardvmills.github.io/NURBSlib_EVM/> & <https   *//github.com/edwardvmills/Silk/wiki>
--   Thread   * <https   *//forum.freecadweb.org/viewtopic.php?t=23243>
--   Issues   * <https   *//github.com/edwardvmills/Silk/issues>
+-   Author: \@edwardvmills
+-   Source: <https://github.com/edwardvmills/Silk>
+-   Docs: <http://edwardvmills.github.io/NURBSlib_EVM/> & <https://github.com/edwardvmills/Silk/wiki>
+-   Thread: <https://forum.freecadweb.org/viewtopic.php?t=23243>
+-   Issues: <https://github.com/edwardvmills/Silk/issues>
 
 ## Tools
-
- 
-
-[Category   *Silk](Category_Silk.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

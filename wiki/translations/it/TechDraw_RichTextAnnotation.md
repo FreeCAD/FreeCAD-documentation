@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw RichTextAnnotation
-   Name/it   *Blocco di testo
-   MenuLocation   *TechDraw → Annotazioni → Blocco di testo
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   Version   *0.19
-   SeeAlso   *[Modelli di squadrature](TechDraw_Templates/it.md), [SVG di Draft](Draft_SVG/it.md), [Linea guida](TechDraw_LeaderLine/it.md)
+- GuiCommand:/it
+   Name:TechDraw RichTextAnnotation
+   Name/it:Blocco di testo
+   MenuLocation:TechDraw → Annotazioni → Blocco di testo
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   Version:0.19
+   SeeAlso:[Modelli di squadrature](TechDraw_Templates/it.md), [SVG di Draft](Draft_SVG/it.md), [Linea guida](TechDraw_LeaderLine/it.md)
 ---
 
 # TechDraw RichTextAnnotation/it
@@ -17,7 +17,7 @@
 
 Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una [Linea guida](TechDraw_LeaderLine/it.md) o ad una vista.
 
-<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width   *220px;"> 
+<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
 *Blocco di testo indipendente*
 
 ## Utilizzo
@@ -30,13 +30,13 @@ Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una 
 
 ## Proprietà
 
--    **X,Y**   * la posizione del blocco. Relativa alla fine della linea se collegato a una [Linea guida](TechDraw_LeaderLine/it.md), altrimenti questa è la posizione sulla pagina.
+-    **X,Y**: la posizione del blocco. Relativa alla fine della linea se collegato a una [Linea guida](TechDraw_LeaderLine/it.md), altrimenti questa è la posizione sulla pagina.
 
--    **ShowFrame**   * disegna un contorno attorno al blocco.
+-    **ShowFrame**: disegna un contorno attorno al blocco.
 
--    **MaxWidth**   * limita la dimensione orizzontale del blocco. Il valore di -1 è per larghezza illimitata.
+-    **MaxWidth**: limita la dimensione orizzontale del blocco. Il valore di -1 è per larghezza illimitata.
 
--    **AnnoText**   * il testo HTML del blocco.
+-    **AnnoText**: il testo HTML del blocco.
 
 ## Script
 
@@ -44,7 +44,7 @@ Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una 
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -54,7 +54,7 @@ Lo strumento Blocco di testo aggiunge un blocco di annotazione formattato a una 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Blocco di testo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Blocco di testo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -63,7 +63,7 @@ Lo strumento Blocco di testo può essere utilizzato nelle [macro](macros/it.md) 
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
-blockObj = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawRichAnno','DrawRichAnno')
+blockObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawRichAnno','DrawRichAnno')
 FreeCAD.activeDocument().myPage.addView(blockObj)
 blockObj.X = 5
 blockObj.Y = 5

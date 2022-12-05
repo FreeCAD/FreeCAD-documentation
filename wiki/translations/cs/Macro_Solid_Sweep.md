@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2011-12-03
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/6/6d/Macro_Solid_Sweep.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/6/6d/Macro_Solid_Sweep.png ToolBar Icon]
 }}
 
 ## Description
@@ -17,7 +17,7 @@ Toto makro vytváří těleso vlečením 2D profilu po trajektorii předem vybra
 
 Musí být podotknuto, že výsledné těleso **nebude** parametrické. Jestliže se rozhodnete změnit profil nebo trajektorii, musíte spustit makro znovu.
 
-<img alt="Několik příkladů vlečení, všechny s použitím stejné obloukové sekce, ale s jinou trajektorií." src=images/Solid_sweep.png‎  style="width   *500px;">
+<img alt="Několik příkladů vlečení, všechny s použitím stejné obloukové sekce, ale s jinou trajektorií." src=images/Solid_sweep.png‎  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -38,9 +38,9 @@ Musí být podotknuto, že výsledné těleso **nebude** parametrické. Jestliž
 ## Podporované 2D prvky 
 
 -   Dráty
--   <img alt="" src=images/Sketcher_NewSketch.png  style="width   *32px;"> [Náčrty](Sketcher_Workbench.md)
+-   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Náčrty](Sketcher_Workbench.md)
 -   ![](images/Draft_BSpline.png ) [Kreslení B-křivek](Draft_BSpline.md)
--   2D základní geomterické prvky z *Parametric → <img alt="" src=images/Part_CreatePrimitives.png  style="width   *32px;"> [Tvorba základních geometrických prvků](Part_CreatePrimitives.md) \...* menu (kružnice,spirála)
+-   2D základní geomterické prvky z *Parametric → <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> [Tvorba základních geometrických prvků](Part_CreatePrimitives.md) \...* menu (kružnice,spirála)
 
 
 </div>
@@ -66,17 +66,17 @@ from FreeCAD import Base
 
 # get the selected objects, with first selection for the trajectory and second for the section
 s = FreeCADGui.Selection.getSelection()
-try   *
+try:
      shape1=s[0].Shape
      shape2=s[1].Shape
-except   *
+except:
      print "Wrong selection"
 
 traj = Part.Wire([shape1])
 section = Part.Wire([shape2])
 
 # create Part objec in the current document
-myObject=App.ActiveDocument.addObject("Part   *   *Feature","Sweep")
+myObject=App.ActiveDocument.addObject("Part::Feature","Sweep")
 
 # variable makeSolid = 1 to create solid, 0 to create surfaces
 makeSolid = True #1
@@ -92,7 +92,7 @@ myObject.Shape = Sweep
 
 Díky [Wmayer](User_Wmayer.md) za jeho pomoc při psaní tohoto skriptu.
 
-Dva příklady použití makra lze nalézt na [this forum topic](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), spolu s odkazem na stažení do souboru FCStd. Použitím spirály jako trajektorie může být toto makro použito pro vytvoření závitu šroubu.
+Dva příklady použití makra lze nalézt na [this forum topic](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), spolu s odkazem na stažení do souboru FCStd. Použitím spirály jako trajektorie může být toto makro použito pro vytvoření závitu šroubu.
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher CreatePentagon
-   MenuLocation   *Sketch → Sketcher geometries → Create pentagon
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***G** **P** **5**
-   Version   *0.15
+- GuiCommand:
+   Name:Sketcher CreatePentagon
+   MenuLocation:Sketch → Sketcher geometries → Create pentagon
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **P** **5**
+   Version:0.15
 ---
 
 # Sketcher CreatePentagon/en
@@ -17,7 +17,7 @@ Draws a pentagon inscribed in a construction geometry circle. When starting the 
 
 ## Usage
 
--   After pressing the **[<img src=images/Sketcher_CreatePentagon.svg style="width   *16px"> [Create pentagon](Sketcher_CreatePentagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
+-   After pressing the **[<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> [Create pentagon](Sketcher_CreatePentagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 ## Notes

@@ -9,7 +9,7 @@ Der Einstellungsbildschirm der [Start Arbeitsbereich](Start_Workbench/de.md) bef
 
 <div class="mw-translate-fuzzy">
 
-Es gibt nur eine Registerkarte   * Startseite.
+Es gibt nur eine Registerkarte: Startseite.
 
 
 </div>
@@ -100,9 +100,7 @@ Es gibt nur eine Registerkarte   * Startseite.
 
 {{Start Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Path DressupTag
-   MenuLocation   *Path → Path Dressup → Tag Dressup
-   Workbenches   *[Path](Path_Workbench.md)
-   SeeAlso   *[Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
+- GuiCommand:
+   Name:Path DressupTag
+   MenuLocation:Path → Path Dressup → Tag Dressup
+   Workbenches:[Path](Path_Workbench.md)
+   SeeAlso:[Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
 ---
 
 # Path DressupTag/pl
@@ -12,12 +12,12 @@
 
 Narzędzie to koryguje istniejącą ścieżkę *(zazwyczaj ścieżkę skrawania konturu 2D)*, aby pozostawić znaczniki, które utrzymują część w miejscu. Bez nich część *(która nie jest przymocowana do podstawy)* może w sposób niekontrolowany zostać wyrwana z maszyny podczas końcowego skrawania. Znaczniki są przeznaczone do odłamania ręcznie *(lub za pomocą dłuta)*, a następnie spiłowania na płasko w celu wykończenia części.
 
-A video explanation of this feature is given at   * <https   *//www.youtube.com/watch?v=JZ4prlR6sps>
+A video explanation of this feature is given at: <https://www.youtube.com/watch?v=JZ4prlR6sps>
 
 ## Usage
 
 1.  Select a contour or profile path [Path](Path_Workbench.md) objects
-2.  Click the <img alt="" src=images/Path_DressupTag.svg  style="width   *16px;"> [Tag Dress-up](Path_DressupTag.md) menu item
+2.  Click the <img alt="" src=images/Path_DressupTag.svg  style="width:16px;"> [Tag Dress-up](Path_DressupTag.md) menu item
 
 ## Options
 

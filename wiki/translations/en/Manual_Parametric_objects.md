@@ -1,9 +1,9 @@
 # Manual:Parametric objects/en
-{{Manual   *TOC}}
+{{Manual:TOC}}
 
 FreeCAD is designed for parametric modeling. This means that the geometry that you create, instead of being freely sculptable, is produced by rules and parameters. For example, a cylinder might be produced from a radius and a height. With these two parameters, the program has enough information to build the cylinder.
 
-Parametric objects, in FreeCAD, are in reality small pieces of a program that run whenever one of the parameters has changed. Objects can have a lot of different kinds of parameters   * numbers (integers like 1, 2, 3 or floating-point values like 3.1416), real-world sizes (1mm, 2.4m, 4.5ft), (x,y,z) coordinates, text strings (\"hello!\") or even another object.
+Parametric objects, in FreeCAD, are in reality small pieces of a program that run whenever one of the parameters has changed. Objects can have a lot of different kinds of parameters: numbers (integers like 1, 2, 3 or floating-point values like 3.1416), real-world sizes (1mm, 2.4m, 4.5ft), (x,y,z) coordinates, text strings (\"hello!\") or even another object.
 
 This last type allows to quickly build complex chains of operations, each new object being based on a previous one, and adding new features to it.
 
@@ -13,7 +13,7 @@ All the intermediary operations (2D shapes, pad, pocket, etc) are still there, a
 
 ![](images/Parametric_objects.jpg )
 
-Two important things are necessary to know   *
+Two important things are necessary to know:
 
 1.  Recomputation is not always automatic. Heavy operations, that might modify a big portion of your document, and therefore take some time, are not performed automatically. Instead, the object (and all the objects that depend on it) will be marked for recomputation (a small blue icon appears on them in the tree view). You must then press the recompute button (or **Edit->Refresh**) to have all the marked objects recomputed.
 2.  The dependency tree must always flow in the same direction. Loops are forbidden. (See [DAG](Glossary#Directed_Acyclic_Graph.md), and [DAG view](DAG_view.md)) You can have object A which depends on object B which depend on object C. But you cannot have object A which depends on object B which depends on object A. That would be a circular dependency. However, you can have many objects that depend on the same object, for example objects B and C both depend on A. Menu **Tools -> Dependency graph** shows you a dependency diagram like on the image above. It can be useful to detect problems.
@@ -30,11 +30,6 @@ Finally, it is worth noting that custom parametric objects are [easy to program 
 -   [How to program parametric objects](Scripted_objects.md)
 -   [Positioning objects in FreeCAD](Placement.md)
 -   [Enabling the dependency graph](Std_DependencyGraph.md)
-
-
-
-
-[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md) [Category   *Tutorials](Category_Tutorials.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Part Chamfer
-   Name/pl   *Część   * Fazka
-   MenuLocation   *Część → Fazka
-   Workbenches   *[Część](Part_Workbench/pl.md)
-   SeeAlso   *[Zaokrąglenie](Part_Fillet/pl.md)
+- GuiCommand:/pl
+   Name:Part Chamfer
+   Name/pl:Część: Fazka
+   MenuLocation:Część → Fazka
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Zaokrąglenie](Part_Fillet/pl.md)
 ---
 
 # Part Chamfer/pl
@@ -17,7 +17,7 @@ Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do p
 
 ## Użycie
 
-1.  Istnieje kilka sposobów aby wywołać polecenie **Fazuj wybrane krawędzie**   *
+1.  Istnieje kilka sposobów aby wywołać polecenie **Fazuj wybrane krawędzie**:
     -   Naciśnij przycisk **<img src="images/Part_Chamfer.svg" width=24px>**.
     -   Użyj pozycji w menu **Część → Fazka**.
 2.  Wybierz kształt do wykonania fazek z menu okna dialogowego.
@@ -41,18 +41,18 @@ Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do p
 
 {{Properties_Title|Podstawowe}}
 
--    **Podstawowe**   * Kształt, na którym ma być zastosowana fazka.
+-    **Podstawowe**: Kształt, na którym ma być zastosowana fazka.
 
--    **Umiejscowienie**   * Określa orientację i położenie kształtu w przestrzeni 3D.
+-    **Umiejscowienie**: Określa orientację i położenie kształtu w przestrzeni 3D.
 
--    **Etykieta**   * Etykieta nadana obiektowi. Zmień ją według własnych potrzeb.
+-    **Etykieta**: Etykieta nadana obiektowi. Zmień ją według własnych potrzeb.
 
 
 
 
 ## Ograniczenia
 
-Fazowanie może się nie powieść, jeśli wynik dotknie lub przekroczy następną sąsiednią krawędź. Więc jeśli nie otrzymasz oczekiwanego rezultatu, spróbuj z mniejszą wartością. To samo dotyczy funkcji <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Zaokrąglij wybrane krawędzie \...](Part_Fillet/pl.md) środowiska Część.
+Fazowanie może się nie powieść, jeśli wynik dotknie lub przekroczy następną sąsiednią krawędź. Więc jeśli nie otrzymasz oczekiwanego rezultatu, spróbuj z mniejszą wartością. To samo dotyczy funkcji <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Zaokrąglij wybrane krawędzie \...](Part_Fillet/pl.md) środowiska Część.
 
 Zwróć również uwagę, że na funkcję fazowania części wpływa na [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to spowodować nieprzewidywalny rezultat. Do czasu rozwiązania tego problemu *(prawdopodobnie z v0.20)* zaleca się stosowanie operacji Fazowania i [Zaokrąglania](Part_Fillet/pl.md) na ostatnich etapach łańcucha.
 
@@ -60,14 +60,14 @@ Zwróć również uwagę, że na funkcję fazowania części wpływa na [Topolog
 
 Narzędzie fazowania może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli środowiska [Python](Python/pl.md) poprzez dodanie obiektu fazowania do dokumentu.
 
-**Przykład skryptu   ***
+**Przykład skryptu:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -87,12 +87,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Przykładowe objaśnienie skryptu   ***
+**Przykładowe objaśnienie skryptu:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -100,7 +100,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 ```
 
 -   Dodaje do dokumentu nowy obiekt typu Fazka *(pochodzący z modułu Część)* z etykietą \"myChamfer\".

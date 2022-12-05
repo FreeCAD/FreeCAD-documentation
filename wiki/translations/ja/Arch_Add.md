@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ja
-   Name   *Arch Add
-   Name/ja   *Arch Add
-   Workbenches   *[建築](Arch_Workbench/ja.md)
-   MenuLocation   *Arch -> Add
-   SeeAlso   *[Arch Remove](Arch_Remove/ja.md)
+- GuiCommand:/ja
+   Name:Arch Add
+   Name/ja:Arch Add
+   Workbenches:[建築](Arch_Workbench/ja.md)
+   MenuLocation:Arch -> Add
+   SeeAlso:[Arch Remove](Arch_Remove/ja.md)
 ---
 
 # Arch Add/ja
@@ -29,7 +29,7 @@ Addツールは2種類の操作を提供します：
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +51,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 <div class="mw-translate-fuzzy">
 
 -   追加するオブジェクト（複数可）を選択してから\"ホスト\"となるオブジェクトを選択してください（最後に選択したものがホストオブジェクトになります）
--   <img alt="" src=images/Arch_Add.png  style="width   *16px;"> **Add**ボタンを押してください
+-   <img alt="" src=images/Arch_Add.png  style="width:16px;"> **Add**ボタンを押してください
 
 
 </div>
@@ -73,7 +73,7 @@ Add ツールは、[マクロやPythonコンソールから次の関数を使っ
 </div>
 
 
-   *   
+:   
     
 ```python
     addComponents(objectsList, host)
@@ -90,7 +90,7 @@ Add ツールは、[マクロやPythonコンソールから次の関数を使っ
 
 </div>
 
-例題   *
+例題:
 
 
 ```python

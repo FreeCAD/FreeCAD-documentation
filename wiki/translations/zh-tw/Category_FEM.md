@@ -1,8 +1,6 @@
 # Category:FEM/zh-tw
 This category lists pages related to the [FEM Workbench/zh-tw](FEM_Workbench/zh-tw.md).
 
-[Category   *Workbenches/zh-tw](Category   *Workbenches/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,8 +1,6 @@
 # Category:Ship/zh-hant
 This category lists pages related to the [Ship Workbench/zh-hant](Ship_Workbench/zh-hant.md).
 
-[Category   *Workbenches/zh-hant](Category   *Workbenches/zh-hant.md)
-
 ### Contents
 
 |     |     |     |

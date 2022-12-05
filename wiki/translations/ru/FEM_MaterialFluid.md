@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM MaterialFluid
-   Name/ru   *FEM MaterialFluid
-   MenuLocation   * Model → Material for fluid
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM MaterialFluid
+   Name/ru:FEM MaterialFluid
+   MenuLocation: Model → Material for fluid
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialFluid/ru
@@ -22,10 +22,10 @@
 
 ## Применение
 
-1.  To create a new MaterialFluid object do one of the following   *
+1.  To create a new MaterialFluid object do one of the following:
     -   Press the **<img src="images/FEM_MaterialFluid.svg" width=16px> [FEM MaterialFluid](FEM_MaterialFluid.md)** button.
     -   Select the **Model → Materials → <img src="images/FEM_MaterialFluid.svg" width=16px> Material for fluid‏‎** option from the menu.
-2.  To edit an existing MaterialFluid object   *
+2.  To edit an existing MaterialFluid object:
     -   Double-click it in the [Tree view](Tree_view.md).
 3.  The FEM material task panel opens.
 4.  Select a fluid type. For Computational Fluid Dynamics (CFD), **Air** or **Water** are typical options.

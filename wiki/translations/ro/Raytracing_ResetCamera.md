@@ -1,6 +1,6 @@
 # Raytracing ResetCamera/ro
 ---
-- GuiCommand   *   Name   *Raytracing ResetCamera   MenuLocation   *Raytracing → ResetCamera   |Workbenches   *[[Raytracing_Workbench   Raytracing]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Raytracing ResetCamera   MenuLocation:Raytracing → ResetCamera   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
 
 </div>

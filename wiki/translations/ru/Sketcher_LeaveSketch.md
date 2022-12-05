@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Покинуть эскиз
-   Name   *Sketcher_LeaveSketch
-   MenuLocation   *Sketch → Покинуть эскиз
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso   *[Редактировать эскиз](Sketcher_EditSketch/ru.md)
+- GuiCommand:/ru
+   Name/ru:Покинуть эскиз
+   Name:Sketcher_LeaveSketch
+   MenuLocation:Sketch → Покинуть эскиз
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Редактировать эскиз](Sketcher_EditSketch/ru.md)
 ---
 
 # Sketcher LeaveSketch/ru
@@ -18,8 +18,8 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Есть несколько способов вызвать инструмент the Sketcher LeaveSketch   *
-    -   Нажать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch/ru.md)**
+1.  Есть несколько способов вызвать инструмент the Sketcher LeaveSketch:
+    -   Нажать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch/ru.md)**
     -   Нажать кнопку **Close** наверху вкладки [Задачи](Task_panel/ru.md).
 
 

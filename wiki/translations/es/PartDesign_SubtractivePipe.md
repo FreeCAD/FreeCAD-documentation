@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *PartDesign SubtractivePipe
-   Name/es   *PartDesign Barrido sustractivo
-   MenuLocation   *Part Design → Create a substractive feature → Tubo sustractivo
-   Workbenches   *[PartDesign](PartDesign_Workbench/es.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign Barrido aditivo](PartDesign_AdditivePipe/es.md), [PartDesign Subtractive loft](PartDesign_SubtractiveLoft.md)
+- GuiCommand:/es
+   Name:PartDesign SubtractivePipe
+   Name/es:PartDesign Barrido sustractivo
+   MenuLocation:Part Design → Create a substractive feature → Tubo sustractivo
+   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
+   Version:0.17
+   SeeAlso:[PartDesign Barrido aditivo](PartDesign_AdditivePipe/es.md), [PartDesign Subtractive loft](PartDesign_SubtractiveLoft.md)
 ---
 
 # PartDesign SubtractivePipe/es
@@ -36,19 +36,19 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 
 ## Opciones
 
-**Section Transformation**   *
+**Section Transformation**:
 
 -   Select **Constant** to use a single profile
 -   Select **Multisection** to use multiple profiles
 
-**Section Orientation**   *
+**Section Orientation**:
 
 -   Standard
     -   This keeps the cross section shape perpendicular to the path. This is the default setting.
 -   Fixed
     -   Orientation set by first profile and constant throughout. This deactivates the alignment to the path normal vector. That means that the cross-section shape will not rotate with the path. Sweep along a circle to see the effect.
 -   Frenet
-    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
+    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
 -   Auxiliary
     -   Specify secondary path to guide pipe.
     -   For each point **P** along the sweep path, there will be a corresponding point **Q** on the auxiliary path.
@@ -65,25 +65,25 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 
 ## Propiedades
 
--    {{PropertyData/es|Label}}   * Nombre dado a la operación, que puede ser cambiado si es conveniente.
+-    {{PropertyData/es|Label}}: Nombre dado a la operación, que puede ser cambiado si es conveniente.
 
--    {{PropertyData/es|Refine}}   * True o false. Si se selecciona true, el sólido es limpiado de aristas residuales dejadas por las operaciones. Ver [Part RefineShape](Part_RefineShape.md) para más detalles.
+-    {{PropertyData/es|Refine}}: True o false. Si se selecciona true, el sólido es limpiado de aristas residuales dejadas por las operaciones. Ver [Part RefineShape](Part_RefineShape.md) para más detalles.
 
--    {{PropertyData/es|Sections}}   * Para seleccionar las secciones a usar.
+-    {{PropertyData/es|Sections}}: Para seleccionar las secciones a usar.
 
--    **Spine Tangent**   * True o false (por defecto). True extiende la trayectoria para incluir las aristas tangentes.
+-    **Spine Tangent**: True o false (por defecto). True extiende la trayectoria para incluir las aristas tangentes.
 
--    {{PropertyData/es|Auxiliary Spine Tangent}}   * True o false (por defecto). True extiende la trayectoria auxiliar para incluir las aristas tangentes.
+-    {{PropertyData/es|Auxiliary Spine Tangent}}: True o false (por defecto). True extiende la trayectoria auxiliar para incluir las aristas tangentes.
 
--    {{PropertyData/es|Auxiliary Curvelinear}}   * True o false (por defecto). True calcula la normal entre puntos equidistantes de las dos trayectorias.
+-    {{PropertyData/es|Auxiliary Curvelinear}}: True o false (por defecto). True calcula la normal entre puntos equidistantes de las dos trayectorias.
 
--    {{PropertyData/es|Mode}}   * Modo de perfil. Ver [Opciones](#Options.md).
+-    {{PropertyData/es|Mode}}: Modo de perfil. Ver [Opciones](#Options.md).
 
--    {{PropertyData/es|Binormal}}   * Vector binormal para el correspondiente modo de orientación.
+-    {{PropertyData/es|Binormal}}: Vector binormal para el correspondiente modo de orientación.
 
--    {{PropertyData/es|Transition}}   * Modo de transición. Las opciones son *Transformed*, *Right Corner* o *Round Corner*. *(Transformado, Esquinas rectas o Esquinas redondeadas respectivamente)*
+-    {{PropertyData/es|Transition}}: Modo de transición. Las opciones son *Transformed*, *Right Corner* o *Round Corner*. *(Transformado, Esquinas rectas o Esquinas redondeadas respectivamente)*
 
--    {{PropertyData/es|Transformation}}   * *Constant* usa una única sección. *Multisection* usa dos o más secciones. *Linear*, *S-shape* and *Interpolation* no funcionan actualmente.
+-    {{PropertyData/es|Transformation}}: *Constant* usa una única sección. *Multisection* usa dos o más secciones. *Linear*, *S-shape* and *Interpolation* no funcionan actualmente.
 
 ## Notes
 

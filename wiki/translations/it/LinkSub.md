@@ -27,7 +27,7 @@ sub3 = [obj3, ["Vertex1", "Face5", "Edge1", "Edge2"]]
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), [LinkSubList](LinkSubList/it.md).
 
@@ -39,16 +39,16 @@ Un nuovo [oggetto da script](scripted_objects/it.md) può accettare un LinkSub a
 ```python
 doc = App.newDocument()
 
-cube = doc.addObject("Part   *   *Box", "Cube")
-cyl = doc.addObject("Part   *   *Cylinder", "Cylinder")
+cube = doc.addObject("Part::Box", "Cube")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
 doc.recompute()
 
-new_obj = doc.addObject("App   *   *FeaturePython", "New")
-new_obj.addProperty("App   *   *PropertyLinkSub", "Geometry")
+new_obj = doc.addObject("App::FeaturePython", "New")
+new_obj.addProperty("App::PropertyLinkSub", "Geometry")
 new_obj.Geometry = [cube, ["Vertex1", "Vertex2"]]
 
-new_obj2 = doc.addObject("App   *   *FeaturePython", "New")
-new_obj2.addProperty("App   *   *PropertyLinkSub", "Geometry")
+new_obj2 = doc.addObject("App::FeaturePython", "New")
+new_obj2.addProperty("App::PropertyLinkSub", "Geometry")
 new_obj2.Geometry = [cyl, "Edge1"]
 
 doc.recompute()
@@ -57,7 +57,7 @@ doc.recompute()
 Il sottoelemento può quindi essere estratto dalla proprietà assegnata e può essere manipolato per fare qualcosa. 
 ```python
 >>> new_obj.Geometry
-(<Part   *   *PartFeature>, ['Vertex1', 'Vertex2'])
+(<Part::PartFeature>, ['Vertex1', 'Vertex2'])
 
 >>> new_obj.Geometry[1]
 ['Vertex1', 'Vertex2']

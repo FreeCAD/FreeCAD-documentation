@@ -1,22 +1,22 @@
 ---
-- GuiCommand   */pl
-   Name   *Draft Drawing
-   Name/pl   *Kreślenie   * Projekt rysunku
-   Workbenches   *[Kreślenie](Drawing_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso   *[Wstaw widok rysunku](TechDraw_DraftView/pl.md)
+- GuiCommand:/pl
+   Name:Draft Drawing
+   Name/pl:Kreślenie: Projekt rysunku
+   Workbenches:[Kreślenie](Drawing_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso:[Wstaw widok rysunku](TechDraw_DraftView/pl.md)
 ---
 
 # Draft Drawing/pl
 
 ## Opis
 
-The <img alt="" src=images/Draft_Drawing.svg  style="width   *24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
+The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
 
 This command is similar to the [Drawing View](Drawing_View.md) command but is optimized for [Draft](Draft_Workbench.md) objects. Contrary to that command, it can handle specific objects such as [Draft Dimensions](Draft_Dimension.md) and [Draft Texts](Draft_Text.md), and it can render faces.
 
 This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md) and the [TechDraw DraftView](TechDraw_DraftView.md) command instead.
 
-<img alt="" src=images/Draft_drawing_example.jpg  style="width   *640px;"> 
+<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
 *On the left the selected Draft objects. On the right the created drawing views.*
 
 ## Usage

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft CubicBezCurve
-   Name/it   *Curva di Bézier cubica
-   MenuLocation   *Draft → Strumenti Bezier → Curva di Bézier cubica
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version/it   *0.19
-   SeeAlso   *[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md), [Curva di Bézier](Draft_BezCurve/it.md)
+- GuiCommand:/it
+   Name:Draft CubicBezCurve
+   Name/it:Curva di Bézier cubica
+   MenuLocation:Draft → Strumenti Bezier → Curva di Bézier cubica
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version/it:0.19
+   SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md), [Curva di Bézier](Draft_BezCurve/it.md)
 ---
 
 # Draft CubicBezCurve/it
@@ -18,12 +18,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento [Curva di Bézier cubica](Draft_CubicBezCurve/it.md) crea una[Curva di Bézier](http   *//en.wikipedia.org/wiki/Bezier_curve) di terzo grado (sono richiesti quattro punti). Questa è una delle curve di Bezier più usate nelle applicazioni di computer grafica. Questo strumento consente di creare una grande spline composta da diversi segmenti Bezier di 3° grado, in un modo simile allo strumento Bezier in Inkscape. Una curva generica di Bezier di qualsiasi grado può essere creata con lo strumento [Curva di Bézier](Draft_BezCurve/it.md).
+Lo strumento [Curva di Bézier cubica](Draft_CubicBezCurve/it.md) crea una[Curva di Bézier](http://en.wikipedia.org/wiki/Bezier_curve) di terzo grado (sono richiesti quattro punti). Questa è una delle curve di Bezier più usate nelle applicazioni di computer grafica. Questo strumento consente di creare una grande spline composta da diversi segmenti Bezier di 3° grado, in un modo simile allo strumento Bezier in Inkscape. Una curva generica di Bezier di qualsiasi grado può essere creata con lo strumento [Curva di Bézier](Draft_BezCurve/it.md).
 
 
 </div>
 
-The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https   *//inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](Draft_BezCurve.md) command.
+The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https://inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](Draft_BezCurve.md) command.
 
 
 <div class="mw-translate-fuzzy">
@@ -33,21 +33,21 @@ Gli strumenti [Curva di Bézier](Draft_BezCurve/it.md) e [Curva di Bézier cubic
 
 </div>
 
-<img alt="" src=images/Draft_CubicBezCurve_example.png  style="width   *500px;">
+<img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
 
 
 
-*Spline cubica di Bezier definita da tre segmenti. Ogni Bezier cubica è definita da quattro punti, ma quando lo strumento viene utilizzato graficamente, vengono posizionati solo tre di questi punti   * 1-2-3 per il primo segmento, 3-4-5 per il secondo segmento e 5-6-7 per il terzo segmento; il quarto punto in ciascun segmento è definito implicitamente; l'ultimo punto 8 è necessario per completare l'operazione e farebbe parte di un quarto segmento di Bezier se l'operazione viene continuata.*
+*Spline cubica di Bezier definita da tre segmenti. Ogni Bezier cubica è definita da quattro punti, ma quando lo strumento viene utilizzato graficamente, vengono posizionati solo tre di questi punti: 1-2-3 per il primo segmento, 3-4-5 per il secondo segmento e 5-6-7 per il terzo segmento; il quarto punto in ciascun segmento è definito implicitamente; l'ultimo punto 8 è necessario per completare l'operazione e farebbe parte di un quarto segmento di Bezier se l'operazione viene continuata.*
 
 
 </div>
 
 ## Utilizzo
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -96,7 +96,7 @@ Vedere le proprietà in [Curva di Bezier](Draft_BezCurve/it.md).
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -127,7 +127,7 @@ Per ogni segmento di Bezier cubica devono essere utilizzati quattro punti, di cu
 
 </div>
 
-<img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width   *600px;">
+<img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -139,7 +139,7 @@ Per ogni segmento di Bezier cubica devono essere utilizzati quattro punti, di cu
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch ToggleIfcBrepFlag
-   Name/ro   *Arch ToggleIfcBrepFlag
-   MenuLocation   *Arch → Utilities → Toggle Ifc Brep flag
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/ro
+   Name:Arch ToggleIfcBrepFlag
+   Name/ro:Arch ToggleIfcBrepFlag
+   MenuLocation:Arch → Utilities → Toggle Ifc Brep flag
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Arch ToggleIfcBrepFlag/ro

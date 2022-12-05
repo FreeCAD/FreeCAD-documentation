@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */de
-   Name   *Std ViewIvStereoQuadBuff
-   Name/de   *Std AnsichtIvStereoVierfachPuffer
-   MenuLocation   *Ansicht → Stereo → Stereo Vierfach Puffer
-   Workbenches   *Alle
-   SeeAlso   *[Std AnsichtIvStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtIvStereoÜberlappteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtIvStereoÜberlappteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtIvStereoAus](Std_ViewIvStereoOff/de.md)
+- GuiCommand:/de
+   Name:Std ViewIvStereoQuadBuff
+   Name/de:Std AnsichtIvStereoVierfachPuffer
+   MenuLocation:Ansicht → Stereo → Stereo Vierfach Puffer
+   Workbenches:Alle
+   SeeAlso:[Std AnsichtIvStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtIvStereoÜberlappteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtIvStereoÜberlappteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtIvStereoAus](Std_ViewIvStereoOff/de.md)
 ---
 
 # Std ViewIvStereoQuadBuff/de
 
 ## Beschreibung
 
-Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht](3D_view/de.md) in den Vierfachpuffer Stereoansichtsmodus. Zur Verwendung dieses Stereomodus sind eine spezielle Grafikkarte, ein spezieller Bildschirm und [Shutter Brille](https   *//en.wikipedia.org/wiki/Active_shutter_3D_system) erforderlich.
+Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht](3D_view/de.md) in den Vierfachpuffer Stereoansichtsmodus. Zur Verwendung dieses Stereomodus sind eine spezielle Grafikkarte, ein spezieller Bildschirm und [Shutter Brille](https://en.wikipedia.org/wiki/Active_shutter_3D_system) erforderlich.
 
 ## Anwendung
 
@@ -19,12 +19,12 @@ Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht
 
 ## Einstellungen
 
--   Der Auge zu Auge Abstand kann in den Einstellungen geändert werden   * {{MenuCommand/de|Bearbeiten → Einstellungen... → Anzeige → 3D Ansicht → Auge zu Auge Abstand für Stereomodi}}. Siehe [Einstellungseditor](Preferences_Editor#3D_View/de.md).
+-   Der Auge zu Auge Abstand kann in den Einstellungen geändert werden: {{MenuCommand/de|Bearbeiten → Einstellungen... → Anzeige → 3D Ansicht → Auge zu Auge Abstand für Stereomodi}}. Siehe [Einstellungseditor](Preferences_Editor#3D_View/de.md).
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

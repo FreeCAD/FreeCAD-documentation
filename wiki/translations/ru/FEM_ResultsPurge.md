@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM ResultsPurge
-   Name/ru   *FEM ResultsPurge
-   MenuLocation   *Results → Purge results
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   ***S** **S**
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM ResultsPurge
+   Name/ru:FEM ResultsPurge
+   MenuLocation:Results → Purge results
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:**S** **S**
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ResultsPurge/ru

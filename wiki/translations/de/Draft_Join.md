@@ -1,28 +1,28 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Join
-   Name/de   *Entwurf Verbinden
-   MenuLocation   *Änderung → Verbinden
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
-   Shortcut   ***J** **O**
-   Version   *0.18
-   SeeAlso   *[Entwurf Teilen](Draft_Split/de.md)
+- GuiCommand:/de
+   Name:Draft Join
+   Name/de:Entwurf Verbinden
+   MenuLocation:Änderung → Verbinden
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
+   Shortcut:**J** **O**
+   Version:0.18
+   SeeAlso:[Entwurf Teilen](Draft_Split/de.md)
 ---
 
 # Draft Join/de
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Join.svg  style="width   *24px;"> **Entwurf Verbinden** Befehl verbindet [Entwurf Linien](Draft_Line/de.md) und [Entwurf Drähte](Draft_Wire/de.md) zu einem einzigen Draht. Dieser Befehl ist das Gegenstück zum Befehl [Entwurf Teilen](Draft_Split/de.md).
+Der <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Entwurf Verbinden** Befehl verbindet [Entwurf Linien](Draft_Line/de.md) und [Entwurf Drähte](Draft_Wire/de.md) zu einem einzigen Draht. Dieser Befehl ist das Gegenstück zum Befehl [Entwurf Teilen](Draft_Split/de.md).
 
 ## Anwendung
 
 1.  Die Endpunkte der zu verbindenden [Entwurf Linien](Draft_Line/de.md) und/oder [Entwurf Drähte](Draft_Wire/de.md) müssen genau deckungsgleich sein. Wenn erforderlich passe zunächst Punkte an, damit dies der Fall ist.
 2.  Wähle zwei oder mehr [Entwurf Linien](Draft_Line/de.md) und/oder [Entwurf Drähte](Draft_Wire/de.md).
-3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Join.svg" width=16px> [Entwurf_Verbinden](Draft_Join/de.md)** Schaltfläche.
     -   Wähle die Option **Änderung → <img src="images/Draft_Join.svg" width=16px> Verbinden** aus dem Menü.
-    -   Verwende das Tastaturkürzel   * **J** dann **O**.
+    -   Verwende das Tastaturkürzel: **J** dann **O**.
 
 ## Hinweise
 
@@ -31,7 +31,7 @@ Der <img alt="" src=images/Draft_Join.svg  style="width   *24px;"> **Entwurf Ver
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Um Drähte zu verbinden, verwende die `join_wires` Methode ({{Version/de|0.19}}) des Moduls Entwurf. Diese Methode ersetzt die veraltete Methode `joinWires`. Diese Methode gibt `None` zurück.
 
@@ -42,7 +42,7 @@ join_wires(wires)
 
 -    `wires`ist eine Liste von Drahtobjekten, die verbunden werden sollen.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

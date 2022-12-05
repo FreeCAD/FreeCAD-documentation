@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ro
-   Topic   *Ship Workbench
-   Level   *Beginner
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/ro
+   Topic:Ship Workbench
+   Level:Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # FreeCAD-Ship s60 tutorial/ro
@@ -39,7 +39,7 @@ You can learn more about [FreeCAD-Ship here](Ship_Workbench.md)
 
 ### Introducere
 
-FreeCAD-Ship lucrează peste **entitățile navei**, care trebuie să fie create peste geometria furnizată. Geometria trebuie să fie un solid sau un set de solide, trebuie luate în considerare următoarele criterii   *
+FreeCAD-Ship lucrează peste **entitățile navei**, care trebuie să fie create peste geometria furnizată. Geometria trebuie să fie un solid sau un set de solide, trebuie luate în considerare următoarele criterii:
 
 -   Trebuie asigurată toată geometria cocii (inclusiv corpurile simetrice).
 -   Geometria tribordului trebuie inclusă în domeniul negativ \"y\".
@@ -63,7 +63,7 @@ FreeCAD-Ship sign criteria
 
 ### Se încarcă geometria Seriei 60 
 
-Pentru a ajuta noii utilizatori FreeCAD-Ship include un loader de exemple de geometrii, cu următoarele opțiuni   *
+Pentru a ajuta noii utilizatori FreeCAD-Ship include un loader de exemple de geometrii, cu următoarele opțiuni:
 
 -   Seria 60 de la Universitatea din Iowa
 -   Navă canonic Wigley
@@ -140,11 +140,11 @@ Trebuie introduse cele mai importante date despre nave (FreeCAD-Ship utilizează
 
 ### Date despre nava 
 
-Dimensiunile principale trebuie introduse aici   *
+Dimensiunile principale trebuie introduse aici:
 
--   Lungime   * Lungime între perpendiculare, 25,5 m pentru această navă.
--   Lățimea   * Lățimea totală a navei, 3,389 m pentru această navă.
--   Schiță   * Pescajul proiectat, 1,0 m pentru această navă.
+-   Lungime: Lungime între perpendiculare, 25,5 m pentru această navă.
+-   Lățimea: Lățimea totală a navei, 3,389 m pentru această navă.
+-   Schiță: Pescajul proiectat, 1,0 m pentru această navă.
 
 ![Front view annotations](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -222,7 +222,7 @@ Lines drawing tool icon
 
 </div>
 
-Linia de desen este un set de linii din secțiuni tăiate în toate cele trei axe, care va arăta în cele din urmă geometria corpului într-un plan de linii. Trebuie să furnizăm linii pentru următoarele 3 vizionări   * Planul corporal (folosind tăieturile transversale)
+Linia de desen este un set de linii din secțiuni tăiate în toate cele trei axe, care va arăta în cele din urmă geometria corpului într-un plan de linii. Trebuie să furnizăm linii pentru următoarele 3 vizionări: Planul corporal (folosind tăieturile transversale)
 
 -   Planul de Sheer (folosind Longitudinals Cuts)
 -   Plan de jumătate de lățime (folosind tăieturile pe linia de plutire)
@@ -250,7 +250,7 @@ Outline draw transversal sections preview
 
 <div class="mw-translate-fuzzy">
 
-Tabelul secțiunilor este umplut, iar previzualizarea secțiunilor numit **OutlineDraw** este afișată. De obicei, mai multe secțiuni au fost adăugate la prova și la pupa, unde sunt înregistrate curburi complexe, pentru a face acest lucru la sfârșitul mesei și faceți dublu clic pe elementul gol pentru al edita, apăsând pe intro la a confirma. Adăugați următoarele secțiuni   *
+Tabelul secțiunilor este umplut, iar previzualizarea secțiunilor numit **OutlineDraw** este afișată. De obicei, mai multe secțiuni au fost adăugate la prova și la pupa, unde sunt înregistrate curburi complexe, pentru a face acest lucru la sfârșitul mesei și faceți dublu clic pe elementul gol pentru al edita, apăsând pe intro la a confirma. Adăugați următoarele secțiuni:
 
 
 </div>
@@ -286,7 +286,7 @@ Two longitudinal cuts must be added, so select **Longitudinal** type of sections
 
 </div>
 
-Câteva linii de plutire adiționale trebuie adăugate   *
+Câteva linii de plutire adiționale trebuie adăugate:
 
 -   Z~6~ = 1.2 m
 -   Z~7~ = 1.4 m
@@ -299,7 +299,7 @@ Câteva linii de plutire adiționale trebuie adăugate   *
 
 ### Perform plot 
 
-Select **1   *100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
+Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 
 
 </div>
@@ -317,7 +317,7 @@ Resultant sections.
 
 <div class="mw-translate-fuzzy">
 
-In order to plot these sections you can use the [drawing workbench](Drawing_Workbench.md)   *
+In order to plot these sections you can use the [drawing workbench](Drawing_Workbench.md):
 
 
 </div>
@@ -365,10 +365,10 @@ When tool is executed a task dialog is shown, and free surface prewied is create
 
 ### Input data 
 
-Proiectarea și orientarea (unghiul de rotație a muchiei \"H\", pozitiv în cazul în care poate crește înălțimea bordului) trebuie furnizate. Este posibil să se efectueze mai multe curbe de zone, în funcție de situațiile de încărcare a navei, dar trebuie realizate două parcele tipice   *
+Proiectarea și orientarea (unghiul de rotație a muchiei \"H\", pozitiv în cazul în care poate crește înălțimea bordului) trebuie furnizate. Este posibil să se efectueze mai multe curbe de zone, în funcție de situațiile de încărcare a navei, dar trebuie realizate două parcele tipice:
 
--   Designul curbei suprafețelor transversale   * Fără unghi de rotație și utilizarea unui proiect de proiectare, 1,0 m în acest caz.
--   Curba maximă a ariilor transversale   * fără unghi de triminare și maximum de pescaj permis, de 2,0 m în acest caz.
+-   Designul curbei suprafețelor transversale: Fără unghi de rotație și utilizarea unui proiect de proiectare, 1,0 m în acest caz.
+-   Curba maximă a ariilor transversale: fără unghi de triminare și maximum de pescaj permis, de 2,0 m în acest caz.
 
 
 </div>
@@ -378,16 +378,16 @@ Proiectarea și orientarea (unghiul de rotație a muchiei \"H\", pozitiv în caz
 
 ### Output data 
 
-Some relevant data is shown at real time   *
+Some relevant data is shown at real time:
 
--   **L**   * Lenght between perpendiculars, value set at ship instance creation.
--   **B**   * Beam selected at ship creation.
--   **T**   * Actual draft amidships.
--   **Trim**   * Trim angle.
--   **T~AP~**   * After perpendicular draft.
--   **T~FP~**   * Forward perpendicular draft.
--   **Displacement**   * Ship displacement (salt water considered, divide by 1.025 in order to know displaced volume).
--   **XCB**   * Buoyancy centre point X coordinate (relative to midship section).
+-   **L**: Lenght between perpendiculars, value set at ship instance creation.
+-   **B**: Beam selected at ship creation.
+-   **T**: Actual draft amidships.
+-   **Trim**: Trim angle.
+-   **T~AP~**: After perpendicular draft.
+-   **T~FP~**: Forward perpendicular draft.
+-   **Displacement**: Ship displacement (salt water considered, divide by 1.025 in order to know displaced volume).
+-   **XCB**: Buoyancy centre point X coordinate (relative to midship section).
 
 
 </div>
@@ -400,7 +400,7 @@ Cand apasati butonul **Accept** se face un grafic (în funcție de complexitatea
 
 </div>
 
-<img alt="Design draft transversal areas curve. " src=images/FreeCAD-Ship-s60Areas.png  style="width   *800px;">
+<img alt="Design draft transversal areas curve. " src=images/FreeCAD-Ship-s60Areas.png  style="width:800px;">
 
 
 <center>
@@ -428,7 +428,7 @@ Hydrostatics tool icon.
 
 Când se execută un instrument, este afișat un dialog de activități. De obicei, curbele Hydrostatice sunt prezentate pentru fiecare unghi de ruliu, în acest tutorial se va considera unghiul de ruliu drept (0º), cu un interval în jurul fiecărei versiuni de încărcare. Din moment ce nu știm ce condiții de încărcare putem obține, vom lua în considerare aproape posibilitățile de proiectare (de obicei, pentru a obține cât mai multe posibilități, arhitecții navali potrivesc intervalului până la pescajul fezabil).
 
-Așadar, am stabilit următoarele date   *
+Așadar, am stabilit următoarele date:
 
 -   **Ruliu** = 0 grade
 -   **Pescaj minim** = 0,1 m
@@ -443,7 +443,7 @@ Atunci când sunt apăsate butoanele Accept \'\'\' (vezi [plot module documentat
 
 </div>
 
-<img alt="Hydrostatics curves." src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width   *800px;">
+<img alt="Hydrostatics curves." src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width:800px;">
 
 
 <center>
@@ -464,8 +464,6 @@ Acum sunteți gata să continuați să învățați [ Ship](Ship_Workbench.md), 
 </div>
 
 The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the second chapter of Series 60 from Iowa university ship.
-
-[Category   *Ship](Category_Ship.md)
 
 
 

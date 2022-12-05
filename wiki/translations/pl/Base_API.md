@@ -1,5 +1,5 @@
 # Base API/pl
-**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https   *//www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
 Moduł Base jest zawarty wewnątrz modułu FreeCAD i zawiera konstruktory dla różnych typów obiektów często używanych w programie FreeCAD.
 
@@ -25,11 +25,6 @@ Ramka ograniczająca to sześcian prostokątny, który jest sposobem na zdefinio
 
 
 {{APIClass|Placement| |Tworzy [Umiejscowienie](Placement_API/pl.md).}}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

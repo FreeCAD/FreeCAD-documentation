@@ -1,11 +1,11 @@
-# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width   *64px;"> Surface Workbench/ro
+# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/ro
 
 
 {{TOCright}}
 
 ## Introducere
 
-Atelierul**Surface**oferă instrumente pentru crearea și modificarea suprafețelor. Are o funcționalitate foarte asemănătoare cu [Part Shape builder](Part_Shapebuilder/ro.md) *Face from edges*, dar este parametrică și oferă opțiuni suplimentare. Funcționalile sale sunt   *
+Atelierul**Surface**oferă instrumente pentru crearea și modificarea suprafețelor. Are o funcționalitate foarte asemănătoare cu [Part Shape builder](Part_Shapebuilder/ro.md) *Face from edges*, dar este parametrică și oferă opțiuni suplimentare. Funcționalile sale sunt:
 
 -   Creați suprafețe de la margini
 -   Aliniați curbura de la fațetele vecine
@@ -13,7 +13,7 @@ Atelierul**Surface**oferă instrumente pentru crearea și modificarea suprafețe
 -   Extindeți fațetele (trebuie să aflați cum!)
 -   O plasă poate fi utilizată ca șablon pentru a crea curbe spline pe suprafața sa.
 
-Some of the features provided are   *
+Some of the features provided are:
 
 -   Creation of surfaces from boundary edges.
 -   Alignment of the curvature from neighboring faces.
@@ -21,13 +21,13 @@ Some of the features provided are   *
 -   Extension of faces.
 -   A mesh can be used as a template to create spline curves on its surface.
 
-<img alt="" src=images/Surface_example.png  style="width   *350px;">
+<img alt="" src=images/Surface_example.png  style="width:350px;">
 
 ## Usage
 
 Scopul atelierului de lucru de suprafață este de a crea fațete cu forme care nu sunt disponibile cu uneltele standard din celelalte ateliere. Kernelul Open Cascade CAD oferă ca exemplu un colț rotunjit al unei casete dreptunghiulare cu diferite raze la marginile sale. Un alt exemplu este prezentat aici. Este o formă de jucărie din plastic, creată cu atelierul de lucru de suprafață.
 
-<img alt="" src=images/Toy_Duck.png  style="width   *350px;">
+<img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
 
@@ -39,18 +39,18 @@ Versiunea actuală a FreeCAD (v0.17) nu permite plasarea unor suprațfete în co
 
 ## Instrumentul Surface 
 
--   <img alt="" src=images/Filling.svg  style="width   *32px;"> [Filling\...](Surface_Filling/ro.md)   * umple o serie de curbe de graniță cu o suprafață. Suprafața poate fi modificată prin adăugarea curbelor de constrângeri și a vârfurilor. Suprafața își schimbă forma astfel încât suprafața să treacă prin elementele de constrângere adăugate.
--   <img alt="" src=images/BSplineSurf.svg  style="width   *32px;"> [Fill boundary curves](Surface_GeomFillSurface/ro.md)   *
+-   <img alt="" src=images/Filling.svg  style="width:32px;"> [Filling\...](Surface_Filling/ro.md): umple o serie de curbe de graniță cu o suprafață. Suprafața poate fi modificată prin adăugarea curbelor de constrângeri și a vârfurilor. Suprafața își schimbă forma astfel încât suprafața să treacă prin elementele de constrângere adăugate.
+-   <img alt="" src=images/BSplineSurf.svg  style="width:32px;"> [Fill boundary curves](Surface_GeomFillSurface/ro.md):
 
-creează o suprafață de la două, trei sau patru margini de graniță. Sunt disponibile trei moduri diferite de umplere   * Stretch, Coons, Curved.
+creează o suprafață de la două, trei sau patru margini de graniță. Sunt disponibile trei moduri diferite de umplere: Stretch, Coons, Curved.
 
--   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width   *32px;"> [Fill boundary curves](Surface_GeomFillSurface.md)   * creates a surface from two, three or four boundary edges.
+-   <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:32px;"> [Fill boundary curves](Surface_GeomFillSurface.md): creates a surface from two, three or four boundary edges.
 
--   <img alt="" src=images/Surface_Sections.svg  style="width   *32px;"> [Sections](Surface_Sections.md)   * creates a surface from edges that represent transversal sections of surface. <small>(v0.19)</small> 
+-   <img alt="" src=images/Surface_Sections.svg  style="width:32px;"> [Sections](Surface_Sections.md): creates a surface from edges that represent transversal sections of surface. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Surface_ExtendFace.svg  style="width   *32px;"> [Extend face](Surface_ExtendFace.md)   * extrapolates the surface at the boundaries with its local U parameter and V parameter.
+-   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extend face](Surface_ExtendFace.md): extrapolates the surface at the boundaries with its local U parameter and V parameter.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width   *32px;"> [Curve on mesh](Surface_CurveOnMesh.md)   * create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -67,9 +67,7 @@ creează o suprafață de la două, trei sau patru margini de graniță. Sunt di
 
 {{Surface Tools navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std About
-   Name/de   *Über FreeCAD
-   Workbenches   *Alle
-   MenuLocation   *Hilfe → Über FreeCAD
-   SeeAlso   *[Standardmenü](Standard_Menu/de.md)
+- GuiCommand:/de
+   Name:Std About
+   Name/de:Über FreeCAD
+   Workbenches:Alle
+   MenuLocation:Hilfe → Über FreeCAD
+   SeeAlso:[Standardmenü](Standard_Menu/de.md)
 ---
 
 # Std About/de
@@ -21,13 +21,13 @@ Der Befehl **Std Über FreeCAD** öffnet ein Dialogfenster, das Informationen ü
 *Das Über FreeCAD Dialogfeld*
 
 
-**'''ACHTUNG'''   * Mache kein Bildschirmfoto von diesem Dialogfeld! Drücke  stattdessen die Schaltfläche **In die Zwischenablage kopieren** und füge die Informationen in deine Hilfeanfrage ein.**
+**'''ACHTUNG''': Mache kein Bildschirmfoto von diesem Dialogfeld! Drücke  stattdessen die Schaltfläche **In die Zwischenablage kopieren** und füge die Informationen in deine Hilfeanfrage ein.**
 
 ## Anwendung
 
 1.  Wähle die Option **Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD** aus dem Menü.
-2.  Wähle einen der Reiter   * **Über**, **Credits**, **Lizenz** oder **Bibliotheken**.
-3.  Wann immer du FreeCAD Versionsinformationen angeben musst, gehe wie folgt vor   *
+2.  Wähle einen der Reiter: **Über**, **Credits**, **Lizenz** oder **Bibliotheken**.
+3.  Wann immer du FreeCAD Versionsinformationen angeben musst, gehe wie folgt vor:
     -   Drücke die Schaltfläche **In Zwischenablage kopieren** auf dem Reiter **Über**.
     -   Füge diese Informationen in deine Hilfeanfrage ein.
     -   Füge kein Bildschirmfoto des Dialogfelds ein.
@@ -35,22 +35,22 @@ Der Befehl **Std Über FreeCAD** öffnet ein Dialogfenster, das Informationen ü
 
 ### Über
 
-Die Reiter Über zeigt Informationen über die verwendete FreeCAD-Version, die Revisionsnummer, das Betriebssystem und einige Details über die unterstützenden Bibliotheken, [Python](Python/de.md), Qt, Coin und OCCT. Wenn Hilfe in den [FreeCAD-Foren](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=2264) erfragt wird oder Fehlerberichte eingereicht, ist es zwingend diese Informationen bereitzustellen.
+Die Reiter Über zeigt Informationen über die verwendete FreeCAD-Version, die Revisionsnummer, das Betriebssystem und einige Details über die unterstützenden Bibliotheken, [Python](Python/de.md), Qt, Coin und OCCT. Wenn Hilfe in den [FreeCAD-Foren](http://forum.freecadweb.org/viewtopic.php?f=3&t=2264) erfragt wird oder Fehlerberichte eingereicht, ist es zwingend diese Informationen bereitzustellen.
 
 Um Informationen zur Fehlerbehebung zu erhalten, drücke die Schaltfläche **In Zwischenablage kopieren** und füge diese Informationen an der gewünschten Stelle ein.
 
-OS   * Ubuntu 18.04.3 LTS (ubuntu   *GNOME/ubuntu)
-Word size of OS   * 64-bit
-Word size of FreeCAD   * 64-bit
-Version   * 0.19.18984 (Git)
-Build type   * Unknown
-Branch   * master
-Hash   * c251caa934597d4b32def43ca8ac2ab479931d73
-Python version   * 3.6.9
-Qt version   * 5.9.5
-Coin version   * 4.0.0a
-OCC version   * 7.3.0
-Locale   * English/UnitedStates (en_US)
+OS: Ubuntu 18.04.3 LTS (ubuntu:GNOME/ubuntu)
+Word size of OS: 64-bit
+Word size of FreeCAD: 64-bit
+Version: 0.19.18984 (Git)
+Build type: Unknown
+Branch: master
+Hash: c251caa934597d4b32def43ca8ac2ab479931d73
+Python version: 3.6.9
+Qt version: 5.9.5
+Coin version: 4.0.0a
+OCC version: 7.3.0
+Locale: English/UnitedStates (en_US)
 
 ### Danksagungen
 
@@ -58,7 +58,7 @@ Der Danksagungen Reiter zeigt eine Liste der Mitwirkenden am FreeCAD-Projekt. Um
 
 ### Lizenz
 
-FreeCAD ist lizenziert unter den Bedingungen der [GNU Lesser General Public License 2](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Der vollständige Text dieser Lizenz ist hier aufgeführt. Siehe [Lizenz](licence/de.md) für weitere Details.
+FreeCAD ist lizenziert unter den Bedingungen der [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Der vollständige Text dieser Lizenz ist hier aufgeführt. Siehe [Lizenz](licence/de.md) für weitere Details.
 
 Da FreeCAD externe Bibliotheken verwendet, können diese ihre eigenen Lizenzbedingungen haben. Schlage die jeweiligen Lizenzen unter [Drittanbieter-Bibliotheken](Third_Party_Libraries/de.md) nach.
 
@@ -71,9 +71,7 @@ Der Reiter Bibliotheken zeigt eine Liste der externen Bibliotheken, die vom Prog
 
 
 
-{{Std Base navi}}  
-
-[Category   *Common Questions](Category_Common_Questions.md)
+{{Std Base navi}}
 
 
 

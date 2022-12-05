@@ -1,12 +1,12 @@
 # Draft Snap Endpoint/it
 ---
-- GuiCommand   */it
-   Name   *Draft Snap Endpoint
-   Name/it   *Punto finale
-   MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Punto finale
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut   *
-   SeeAlso   *[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)---
+- GuiCommand:/it
+   Name:Draft Snap Endpoint
+   Name/it:Punto finale
+   MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Punto finale
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)---
 
 
 </div>

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Robot CreateRobot
-   Name/fr   *Robot Création de robot
-   MenuLocation   *Robot → Insérer des robots
-   Workbenches   *[Robot](Robot_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Robot CreateRobot
+   Name/fr:Robot Création de robot
+   MenuLocation:Robot → Insérer des robots
+   Workbenches:[Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot CreateRobot/fr
@@ -14,11 +14,11 @@ Insérez un nouveau robot (KUKA IR500) dans la scène.
 
 ## Utilisation
 
-1.  Cliquez sur <img alt="" src=images/Robot_CreateRobot.svg  style="width   *32px;"> pour insérer un robot KUKA IR500 dans la scène.
+1.  Cliquez sur <img alt="" src=images/Robot_CreateRobot.svg  style="width:32px;"> pour insérer un robot KUKA IR500 dans la scène.
 2.  L\'insertion de robots différents/supplémentaires peut se faire de deux manières via le bouton
     -   Sélectionner **Robot** → **Insérer des robots** dans le menu supérieur.
 
-       *   **OU**
+    :   **OU**
 
     -   S\'assurer qu\'un nouveau document est/était créé et activé (activation via un double-clic sur le document dans la [Vue en arborescence](Tree_view/fr.md)).
     -   Passez à l\'onglet \"Tâches\" dans la [Vue en arborescence](Tree_view/fr.md)).
@@ -34,7 +34,7 @@ Relatif aux versions 0.15/0.16
 
 ## Remarques
 
-Les robots prédéfinis sont   *
+Les robots prédéfinis sont:
 
 -   KUKA IR500
 -   KUKA IR210

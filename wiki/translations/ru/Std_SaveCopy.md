@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Std_SaveCopy
-   Name/ru   *Сохранить копию...
-   MenuLocation   *Файл → Сохранить копию...
-   Workbenches   *Все
-   SeeAlso   *[Сохранить](Std_Save/ru.md),<br> [Сохранить как...](Std_SaveAs/ru.md) 
+- GuiCommand:/ru
+   Name:Std_SaveCopy
+   Name/ru:Сохранить копию...
+   MenuLocation:Файл → Сохранить копию...
+   Workbenches:Все
+   SeeAlso:[Сохранить](Std_Save/ru.md),<br> [Сохранить как...](Std_SaveAs/ru.md) 
 ---
 
 # Std SaveCopy/ru
@@ -25,12 +25,12 @@
 
 ## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр   * **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
@@ -41,11 +41,11 @@
 import FreeCAD
 from pathlib import Path
 
-# The folder and filename we will use   *
-fld = 'D   */testfiles/'
+# The folder and filename we will use:
+fld = 'D:/testfiles/'
 fnm = fld + 'testCopy.FCStd'
 
-# Make sure fld exists   *
+# Make sure fld exists:
 Path(fld).mkdir(parents=True, exist_ok=True)
 
 doc = FreeCAD.newDocument()

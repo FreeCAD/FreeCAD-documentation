@@ -56,24 +56,19 @@ The below methods are for **advanced** usage of Python proxy classes and you won
 
 ## Determining available Python methods 
 
-Within the [FeaturePython Template Class](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L161-L351) exists various () calls.
+Within the [FeaturePython Template Class](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L161-L351) exists various () calls.
 
 Each of these correspond to an available bound Python method.
 
-For example, imp->execute() [on line 193](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L193) means the execute method is available.
+For example, imp->execute() [on line 193](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L193) means the execute method is available.
 
 Note, getPyObject() and init() are special-cases and don\'t follow the above heuristic.
 
 ## Vedere anche 
 
--   [FreeCAD GitHub   * FeaturePython.h - public API](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L44-L86)
--   [FreeCAD GitHub   * FeaturePythonT template class](https   *//github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L167)
--   [FreeCAD Forum Discussion   * Scripted Objects Complete Method Reference](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=49194)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+-   [FreeCAD GitHub: FeaturePython.h - public API](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L44-L86)
+-   [FreeCAD GitHub: FeaturePythonT template class](https://github.com/FreeCAD/FreeCAD/blob/76e74294894bbce46d006e149315c6274d206278/src/App/FeaturePython.h#L167)
+-   [FreeCAD Forum Discussion: Scripted Objects Complete Method Reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=49194)
 
 
 

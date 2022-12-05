@@ -1,8 +1,6 @@
 # Category:TechDraw/hu
 This category lists pages related to the [TechDraw Workbench/hu](TechDraw_Workbench/hu.md).
 
-[Category   *Workbenches/hu](Category   *Workbenches/hu.md)
-
 ### Contents
 
 |     |     |     |

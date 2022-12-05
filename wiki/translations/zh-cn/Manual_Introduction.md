@@ -1,9 +1,9 @@
 # Manual:Introduction/zh-cn
-{{Manual   *TOC/zh-cn}}
+{{Manual:TOC/zh-cn}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http   *//www.freecadweb.org) 是自由的、开源的、参数化的 3D 建模应用软件，首要用于对现实世界对象建模，小至电子元器件，大至建筑物和市政工程，特别强调制作能 3D 打印的实体对象。FreeCAD 可以自由下载，自由使用，自由分发和自由修改。其源代码是开放的，公开的，遵守非常宽容的 [LGPL](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 协议。使用 FreeCAD 产生的数据完全是你的，不用 FreeCAD 也可以寻回它们。
+[FreeCAD](http://www.freecadweb.org) 是自由的、开源的、参数化的 3D 建模应用软件，首要用于对现实世界对象建模，小至电子元器件，大至建筑物和市政工程，特别强调制作能 3D 打印的实体对象。FreeCAD 可以自由下载，自由使用，自由分发和自由修改。其源代码是开放的，公开的，遵守非常宽容的 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 协议。使用 FreeCAD 产生的数据完全是你的，不用 FreeCAD 也可以寻回它们。
 
 从本质上说，FreeCAD 也是一个社会工程，因为是一个社区在做它的开发和维护，这个社区由开发者和用户组成，他们因对 FreeCAD 的热情而团结在了一起。
 
@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-本手册的内容都公开，遵照 [Creative Commons 4.0](http   *//creativecommons.org/licenses/by/4.0/) 协议，可以自由使用，自由下载，自由复制，和自由更改。手册的原文件挂在这个[维基上](Main_Page.md)，第一次写作的原始文档保存于 [github](https   *//github.com/yorikvanhavre/FreeCAD-manual) 上的个人账户里。在 [GitBook](https   *//www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 上有更容易阅读的 HTML, PDF, MOBI 和 EPUB 版本。印刷版正（仍）在准备中。
+本手册的内容都公开，遵照 [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/) 协议，可以自由使用，自由下载，自由复制，和自由更改。手册的原文件挂在这个[维基上](Main_Page.md)，第一次写作的原始文档保存于 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 上的个人账户里。在 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 上有更容易阅读的 HTML, PDF, MOBI 和 EPUB 版本。印刷版正（仍）在准备中。
 
 
 </div>

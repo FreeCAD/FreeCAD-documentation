@@ -6,12 +6,12 @@
 
 ### 简介
 
-首先，导入网格模块是必不可少的   *
+首先，导入网格模块是必不可少的:
 
 
 </div>
 
-To get access to the `Mesh` module you have to import it first   *
+To get access to the `Mesh` module you have to import it first:
 
 
 ```python
@@ -28,7 +28,7 @@ import Mesh
 
 </div>
 
-To create an empty mesh object just use the standard constructor   *
+To create an empty mesh object just use the standard constructor:
 
 
 ```python
@@ -45,7 +45,7 @@ mesh = Mesh.Mesh()
 
 
 ```python
-mesh = Mesh.Mesh("D   */temp/Something.stl")
+mesh = Mesh.Mesh("D:/temp/Something.stl")
 ```
 
 或者利用一组三角形（即利用构成三角形的顶点）来创建网格：
@@ -83,7 +83,7 @@ Mesh.show(meshObject)
 
 </div>
 
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows   *
+To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows:
 
 
 ```python
@@ -99,7 +99,7 @@ Mesh.show(m)
 
 </div>
 
-The `Mesh` module also provides three Boolean methods   * `union()`, `intersection()` and `difference()`   *
+The `Mesh` module also provides three Boolean methods: `union()`, `intersection()` and `difference()`:
 
 
 ```python
@@ -132,7 +132,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh   *   *Feature", "Pipe")
+obj = d.addObject("Mesh::Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -145,12 +145,12 @@ doc.recompute()
 
 ### 七零八碎的小东东
 
-这里还有一个与网格有关的脚本扩展源：即网格模块的单元测试脚本（尽管挺难使的）。 在此单元测试中，将调用所有的方法并调整所有的属性，以确保它们的正确性。 所以，如果您有充足的冒险精神，就可以去看一看[单元测试模块](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py)。
+这里还有一个与网格有关的脚本扩展源：即网格模块的单元测试脚本（尽管挺难使的）。 在此单元测试中，将调用所有的方法并调整所有的属性，以确保它们的正确性。 所以，如果您有充足的冒险精神，就可以去看一看[单元测试模块](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py)。
 
 
 </div>
 
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
 
 <div class="mw-translate-fuzzy">
@@ -164,9 +164,7 @@ An extensive, though hard to use, source of mesh related scripting are the unit 
 {{Top}}
 
 
- {{Mesh Tools navi}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+ {{Mesh Tools navi}}
 
 
 

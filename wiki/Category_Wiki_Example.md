@@ -1,8 +1,6 @@
 # Category:Wiki:Example
 This category lists pages that are examples for the wiki documentation.
 
-[Category   *Wiki Documentation](Category_Wiki_Documentation.md)
-
 ### Contents
 
 |     |     |     |

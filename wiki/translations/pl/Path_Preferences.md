@@ -5,11 +5,11 @@
 
 Ekran preferencji środowiska pracy [TechDraw](Path_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → Path**.
 
-Dostępne są cztery zakładki   * [Ustawienia dla zadania](#Ustawienia_dla_zadania.md), [Ulepszenia](#Ulepszenia.md), [GUI](#GUI.md) i [Zaawansowane](#Zaawansowane.md).
+Dostępne są cztery zakładki: [Ustawienia dla zadania](#Ustawienia_dla_zadania.md), [Ulepszenia](#Ulepszenia.md), [GUI](#GUI.md) i [Zaawansowane](#Zaawansowane.md).
 
 ## Ustawienia dla zadania 
 
-Dostępne są cztery sekcje   * Ogólne, Post-procesor, Konfiguracja i Przybory.
+Dostępne są cztery sekcje: Ogólne, Post-procesor, Konfiguracja i Przybory.
 
 ### Ogólne
 
@@ -45,9 +45,7 @@ Dostępne są cztery sekcje   * Ogólne, Post-procesor, Konfiguracja i Przybory.
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

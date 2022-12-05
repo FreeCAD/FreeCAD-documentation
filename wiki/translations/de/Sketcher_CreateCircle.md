@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher CreateCircle
-   Name/de   *Sketcher KreisErstellen
-   MenuLocation   *Sketch → Skizzengeometrien → Kreis erstellen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***G** **C**
-   SeeAlso   *[AuswahlBogenErstellen](Sketcher_CompCreateArc/de.md)
+- GuiCommand:/de
+   Name:Sketcher CreateCircle
+   Name/de:Sketcher KreisErstellen
+   MenuLocation:Sketch → Skizzengeometrien → Kreis erstellen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **C**
+   SeeAlso:[AuswahlBogenErstellen](Sketcher_CompCreateArc/de.md)
 ---
 
 # Sketcher CreateCircle/de
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Kreis durch Wahl zweier Punkte   * der Mittelpunkt und ein Punkt entlang des Radius.
+Dieses Werkzeug zeichnet einen Kreis durch Wahl zweier Punkte: der Mittelpunkt und ein Punkt entlang des Radius.
 
 Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Kreissymbol. Die Koordinaten werden neben dem Zeiger in blau in Echtzeit angezeigt.
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher External
-   Name/de   *Sketcher ExterneGeometrie
-   MenuLocation   *Sketch → Skizzengeometrien → Externe Geometrie
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***G** **X**
-   SeeAlso   *[Sketcher UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)
+- GuiCommand:/de
+   Name:Sketcher External
+   Name/de:Sketcher ExterneGeometrie
+   MenuLocation:Sketch → Skizzengeometrien → Externe Geometrie
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **X**
+   SeeAlso:[Sketcher UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)
 ---
 
 # Sketcher External/de
@@ -16,13 +16,13 @@ Das Werkzeug **<img src="images/Sketcher_External.svg" width=16px> [Externe Geom
 
 Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit erzeugter (Volumen-) Geometrie kann aufgrund des [Problems der Topologischen Benennung](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
 
-<FILE   *Sketcher_ExternalEsempio1.png>
+<FILE:Sketcher_ExternalEsempio1.png>
 
 ## Anwendung
 
 -   Eine neue Skizze erstellen oder eine bestehende Skizze öffnen.
 
--   Die Schaltfläche **[<img src=images/Sketcher_External.svg style="width   *16px"> [Skizzierer Extern](Sketcher_External/de.md)** drücken.
+-   Die Schaltfläche **[<img src=images/Sketcher_External.svg style="width:16px"> [Skizzierer Extern](Sketcher_External/de.md)** drücken.
 
 -   Eine Kante oder einen Knotenpunkt auswählen, auf die/den in der Skizze verwiesen werden soll.
 
@@ -66,15 +66,15 @@ In v0.16 und älter muss die Skizze einer Fläche zugeordnet werden, um dieses W
 
 In diesem Fall werden sie als Referenz für Tangentialbeschränkungen mit den Umfängen eines Kreises verwendet. Sie werden auch als Referenz für eine horizontale und vertikale Zwangsbeschränkungung verwendet, um den Mittelpunkt des zweiten Kreises relativ zum Ende und zur Oberseite des Polsters zu ermitteln.
 
-<FILE   *Sketcher_ExternalEsempio2.png>
+<FILE:Sketcher_ExternalEsempio2.png>
 
 Dies ist die gleiche Skizze im Bearbeitungsmodus, wobei das Polster, auf das sie abgebildet ist, ausgeblendet ist.
 
-<FILE   *Sketcher_ExternalEsempio4.png>
+<FILE:Sketcher_ExternalEsempio4.png>
 
 Wenn der Skizzenbearbeitungsmodus geschlossen ist, sind externe Geometrielinien nicht sichtbar.
 
-<FILE   *Sketcher_ExternalEsempio3.png>
+<FILE:Sketcher_ExternalEsempio3.png>
 
 
 

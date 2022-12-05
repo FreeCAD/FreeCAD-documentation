@@ -3,9 +3,5 @@
 
 
 
-[Category   *Redirects/it](Category   *Redirects/it.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > Combo View/it

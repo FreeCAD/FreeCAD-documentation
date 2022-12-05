@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintCentrif
-   Name/de   *FEM RandbedingungZentrif
-   MenuLocation   *Modell → Mechanische Randbedingungen → RandbedingungZentrif
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   *
-   Version   *0.20
-   SeeAlso   *
+- GuiCommand:/de
+   Name:FEM ConstraintCentrif
+   Name/de:FEM RandbedingungZentrif
+   MenuLocation:Modell → Mechanische Randbedingungen → RandbedingungZentrif
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Shortcut:
+   Version:0.20
+   SeeAlso:
 ---
 
 # FEM ConstraintCentrif/de
@@ -17,7 +17,7 @@ Legt eine zentrifugale Last auf den Körper fest.
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintCentrif.svg" width=16px> [RandbedingungZentrif](FEM_ConstraintCentrif/de.md)** drücken.
     -   Select the **Model → Mechanische Randbedingungen → <img src="images/FEM_ConstraintCentrif.svg" width=16px> RandbedingungZentrif** option from the menu.
 2.  Specify the rotation frequency in Hz.

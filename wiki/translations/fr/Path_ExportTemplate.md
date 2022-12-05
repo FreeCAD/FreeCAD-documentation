@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Path ExportTemplate
-   Name/fr   *Path Modèle d'exportation
-   MenuLocation   *Path → Modèle d'exportation
-   Workbenches   *[Path](Path_Workbench/fr.md)
-   SeeAlso   *[Path Feuille de configuration](Path_SetupSheet/fr.md)
+- GuiCommand:/fr
+   Name:Path ExportTemplate
+   Name/fr:Path Modèle d'exportation
+   MenuLocation:Path → Modèle d'exportation
+   Workbenches:[Path](Path_Workbench/fr.md)
+   SeeAlso:[Path Feuille de configuration](Path_SetupSheet/fr.md)
 ---
 
 # Path ExportTemplate/fr
@@ -33,8 +33,8 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 
 ## Brut
 
--   Extent    * Dimensions du brut
--   Placement    * Position du brut
+-   Extent : Dimensions du brut
+-   Placement : Position du brut
 
 ## Feuille de réglage 
 

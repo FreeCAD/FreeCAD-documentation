@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name   *Std Revert
-   Name/ru   *Std Revert
-   MenuLocation   *Файл → Вернуться
-   Workbenches   *All
+- GuiCommand:/ru
+   Name:Std Revert
+   Name/ru:Std Revert
+   MenuLocation:Файл → Вернуться
+   Workbenches:All
 ---
 
 # Std Revert/ru

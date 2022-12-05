@@ -21,17 +21,17 @@
 
 ## Descriere
 
-Acest macro permite să desfășurațu o suprafață rigaltă și să o desenați pe o foaie/pagină plană prestabilită   * A3, A4.
+Acest macro permite să desfășurațu o suprafață rigaltă și să o desenați pe o foaie/pagină plană prestabilită: A3, A4.
 
 
 </div>
 
-<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width   *480px;">
+<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width:480px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_unrollRuledSurface_00.png  style="width:480px;"> 
 *Macro_unrollRuledSurface*
 
 
@@ -44,18 +44,18 @@ Acest macro permite să desfășurațu o suprafață rigaltă și să o desenaț
 
 ## Instalare
 
-Copiați fișierul de cod al macrocomenzii în directorul   *
+Copiați fișierul de cod al macrocomenzii în directorul:
 
--   **Linux & Mac**    * \$home/.Freecad/Mod/UnrollRuledSurface.
--   **Windows**    * C   *Program Files\\FreeCAD0.13
+-   **Linux & Mac** : \$home/.Freecad/Mod/UnrollRuledSurface.
+-   **Windows** : C:\\Program Files\\FreeCAD0.13
 
-Adăugați șabloane    * A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
-Cf [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
+Adăugați șabloane : A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
+Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
 
 
 </div>
 
-See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737).
+See also: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737).
 
 ## Options
 
@@ -66,7 +66,7 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 -   Numărul de generatrix
 -   Scala manuală sau automată
--   Formatul paginii   * a3/a4, cartuș (cf. șabloane FreeCAD)
+-   Formatul paginii: a3/a4, cartuș (cf. șabloane FreeCAD)
 -   Desene de grup în aceeași pagină posibil.
 
 
@@ -91,13 +91,13 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 ## Script
 
-The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md).
+The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr.md).
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
 **Macro_unrollRuledSurface.py**
 
-    # -*- coding   * utf-8 -*-
+    # -*- coding: utf-8 -*-
     #***************************************************************************
     #*                                                                         *
     #*   Copyright (c) 2013 - DoNovae/Herve BAILLY <hbl13@donovae.com>         *
@@ -126,8 +126,8 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
     __Version__ = '1.1'
     __Date__ = '2022-07-24'
     __License__ = 'LGPL-2.0-or-later'
-    __Web__ = 'https   *//wiki.freecad.org/Macro_Unroll_Ruled_Surface'
-    __Wiki__ = 'https   *//wiki.freecad.org/Macro_Unroll_Ruled_Surface'
+    __Web__ = 'https://wiki.freecad.org/Macro_Unroll_Ruled_Surface'
+    __Wiki__ = 'https://wiki.freecad.org/Macro_Unroll_Ruled_Surface'
     __Icon__ = ''
     __Help__ = ('Select ruled surfaces, Explode them (cf Draft menu), '
                 'Select the surfaces, Execute the macro')
@@ -154,7 +154,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
     v1.0.1 (2019-02-01) - on git
     v1.0   (2013-09-14) - on wiki
 
-    note   *
+    note:
     - unfolding sometimes works and sometimes not
     - not all surfaces are theoretically possible to unroll
 
@@ -179,24 +179,24 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
     ###   Functions
     #####################################
 
-    def errorDialog(msg)   *
+    def errorDialog(msg):
         diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical, "Error Message", msg)
         diag.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         diag.exec_()
 
-    def ending()   *
-        PrintMessage("UnrollRuledSurface   * end.\n")
+    def ending():
+        PrintMessage("UnrollRuledSurface: end.\n")
         PrintMessage("===========================================\n")
         FreeCAD.ActiveDocument.recompute()
 
 
-    def proceed()   *
+    def proceed():
         QtGui.QApplication.setOverrideCursor(QtCore.Qt.WaitCursor)
 
         PrintMessage("===========================================\n")
-        PrintMessage("UnrollRuledSurface   * start.\n")
-        try   *
-            sts = lambda s   * settings.get(s)
+        PrintMessage("UnrollRuledSurface: start.\n")
+        try:
+            sts = lambda s: settings.get(s)
 
             file_name = sts("fname").text()
             pts_nbr = float(sts("dpts").text())
@@ -209,18 +209,18 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             cartridge = sts("cartridge").isChecked()
             onedrawing = sts("groupdwg").isChecked()
 
-            PrintMessage("UnrollRuledSurface.file_name   * {}\n".format(file_name))
-            PrintMessage("UnrollRuledSurface.pts_nbr   * {}\n".format(pts_nbr))
-            PrintMessage("UnrollRuledSurface.edge0   * {}\n".format(edge0))
-            PrintMessage("UnrollRuledSurface.makedwg   * {}\n".format(makedwg))
-            PrintMessage("UnrollRuledSurface.leglay   * {}\n".format(leglay))
-            PrintMessage("UnrollRuledSurface.scale_check   * {}\n".format(scale_auto))
-            PrintMessage("UnrollRuledSurface.scale   * {}\n".format(scale))
-            PrintMessage("UnrollRuledSurface.a3_check   * {}\n".format(a3))
-            PrintMessage("UnrollRuledSurface.cartridge   * {}\n".format(cartridge))
-            PrintMessage("UnrollRuledSurface.onedrawing   * {}\n".format(onedrawing))
-        except   *
-            msg = "UnrollRuledSurface   * wrong inputs...\n"
+            PrintMessage("UnrollRuledSurface.file_name: {}\n".format(file_name))
+            PrintMessage("UnrollRuledSurface.pts_nbr: {}\n".format(pts_nbr))
+            PrintMessage("UnrollRuledSurface.edge0: {}\n".format(edge0))
+            PrintMessage("UnrollRuledSurface.makedwg: {}\n".format(makedwg))
+            PrintMessage("UnrollRuledSurface.leglay: {}\n".format(leglay))
+            PrintMessage("UnrollRuledSurface.scale_check: {}\n".format(scale_auto))
+            PrintMessage("UnrollRuledSurface.scale: {}\n".format(scale))
+            PrintMessage("UnrollRuledSurface.a3_check: {}\n".format(a3))
+            PrintMessage("UnrollRuledSurface.cartridge: {}\n".format(cartridge))
+            PrintMessage("UnrollRuledSurface.onedrawing: {}\n".format(onedrawing))
+        except:
+            msg = "UnrollRuledSurface: wrong inputs...\n"
             PrintError(msg)
             errorDialog(msg)
             QtGui.QApplication.restoreOverrideCursor()
@@ -234,24 +234,24 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
         ## Get selection
         sel = FreeCADGui.Selection.getSelection()
-        if not sel   *
-            PrintMessage("UnrollRuledSurface   * no selection...\n")
+        if not sel:
+            PrintMessage("UnrollRuledSurface: no selection...\n")
             ending()
             return
 
         faceid = 0
         objnames_l, objnames0_l = [], []
-        grp = FreeCAD.ActiveDocument.addObject("App   *   *DocumentObjectGroup",
+        grp = FreeCAD.ActiveDocument.addObject("App::DocumentObjectGroup",
                                                "{}_objs".format(file_name))
 
-        for objid, obji in enumerate(sel)   *
+        for objid, obji in enumerate(sel):
             shape = obji.Shape
             faces = shape.Faces
-            for idx in range(len(faces))   *
-                msg = "UnrollRuledSurface.proceed   * ObjId = {}, faceId = {}\n"
+            for idx in range(len(faces)):
+                msg = "UnrollRuledSurface.proceed: ObjId = {}, faceId = {}\n"
                 PrintMessage(msg.format(objid, faceid))
                 name = obji.Name
-                if len(faces) > 1   *
+                if len(faces) > 1:
                     name = "{}.face_{}".format(name, idx)
                 obj = unrollRS.unroll(faces[idx], name)
                 obj.ViewObject.Visibility = not makedwg
@@ -261,115 +261,115 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             objnames0_l.append([obji, name])
             faceid += 1
 
-        if not makedwg   *
+        if not makedwg:
             ending()
             return
 
-        if leglay   *
+        if leglay:
             idx = 0
-            while len(objnames_l) > 0   *
+            while len(objnames_l) > 0:
                 draw = Drawing2dLegacy(scale, scale_auto, a3,
                                        cartridge, onedrawing,
-                                       "{}_page{   *02}".format(file_name, idx))
+                                       "{}_page{:02}".format(file_name, idx))
                 objnames_l = draw.all2d(objnames_l)
                 idx += 1
-                msg = "UnrollRuledSurface   * obj_l = {}\n"
+                msg = "UnrollRuledSurface: obj_l = {}\n"
                 PrintMessage(msg.format(len(objnames_l)))
 
-        else   *
+        else:
             draw = Drawing2d(scale, scale_auto, a3, cartridge)
             n = 4 if onedrawing else 1
-            chunks = [objnames_l[i   *i + n] for i in range(0, len(objnames_l), n)]
-            for i, chunk in enumerate(chunks, start=1)   *
-                draw.drawpage(chunk, "{}_page{   *02}".format(file_name, i))
+            chunks = [objnames_l[i:i + n] for i in range(0, len(objnames_l), n)]
+            for i, chunk in enumerate(chunks, start=1):
+                draw.drawpage(chunk, "{}_page{:02}".format(file_name, i))
 
         ending()
 
 
-    def close()   *
+    def close():
         DialogBox.hide()
 
-    def getType(obj)   *
+    def getType(obj):
         return type(obj).__name__
 
 
-    class unrollRuledSurface   *
+    class unrollRuledSurface:
         """
         unroll ruled surfaces
-           *file_name   * ouput file
-           *pts_nbr   * nbr point of discretization
+        :file_name: ouput file
+        :pts_nbr: nbr point of discretization
         """
-        def __init__(self, file_name, pts_nbr, edge0)   *
+        def __init__(self, file_name, pts_nbr, edge0):
             self.doc = FreeCAD.ActiveDocument
             self.file_name = file_name
             self.pts_nbr = int(pts_nbr)
             self.edge0 = edge0
-            msg = "UnrollRuledSurface.unroll - file_name   * {}, pts_nbr   * {}\n"
+            msg = "UnrollRuledSurface.unroll - file_name: {}, pts_nbr: {}\n"
             PrintMessage(msg.format(file_name, pts_nbr))
 
 
-        def discretize(self, curve)   *
+        def discretize(self, curve):
             """discretize a curve"""
-            if getType(curve) in ('GeomLineSegment', 'GeomCircle')   *
+            if getType(curve) in ('GeomLineSegment', 'GeomCircle'):
                 sd = curve.discretize(self.pts_nbr)
-            elif getType(curve) == 'GeomBSplineCurve'   *
+            elif getType(curve) == 'GeomBSplineCurve':
                 nodes = curve.getPoles()
                 spline = Part.BSplineCurve()
                 spline.buildFromPoles(nodes)
                 sd = spline.discretize(self.pts_nbr)
-            else   *
+            else:
                 sd = curve.discretize(self.pts_nbr)
             return sd
 
-        def nbpoles(self, curve)   *
+        def nbpoles(self, curve):
             """find number of poles for a curve"""
-            if getType(curve) == 'GeomLineSegment'   *
+            if getType(curve) == 'GeomLineSegment':
                 nbpol=1
-            elif getType(curve) == 'GeomBSplineCurve'   *
+            elif getType(curve) == 'GeomBSplineCurve':
                 nbpol=curve.NbPoles
-            elif getType(curve) == 'GeomCircle'   *
+            elif getType(curve) == 'GeomCircle':
                 nbpol=2
-            elif getType(curve) == 'GeomBezierCurve'   *
+            elif getType(curve) == 'GeomBezierCurve':
                 nbpol=4
-            else   *
+            else:
                 nbpol=0
 
-            msg = "UnrollRulrdSurface.nbpole {   *s} = {   *d}\n"
+            msg = "UnrollRulrdSurface.nbpole {:s} = {:d}\n"
             PrintMessage(msg.format(getType(curve), nbpol))
             return nbpol
 
-        def unroll(self, face, name)   *
+        def unroll(self, face, name):
             """unrolls a face composed of 2 to 4 edges"""
             nbredges = len(face.Edges)
-            msg = "UnrollRuledSurface.unroll   * Edge Nbr = {}\n"
+            msg = "UnrollRuledSurface.unroll: Edge Nbr = {}\n"
             PrintMessage(msg.format(nbredges))
 
-            if nbredges == 2   *
+            if nbredges == 2:
                 e1, e2 = face.Edges
                 sd1 = e1.Curve.discretize(self.pts_nbr)
                 sd2 = e2.Curve.discretize(self.pts_nbr)
 
-            elif nbredges == 3   *
+            elif nbredges == 3:
                 e1, _, e2 = face.Edges
                 sd1 = e1.Curve.discretize(self.pts_nbr)
                 sd2 = e2.Curve.discretize(self.pts_nbr)
 
-            else   *
+            else:
                 E0, E1, E2, E3, *_ = face.Edges
                 ## Choose more complexe curve as edge
                 nbpol0 = self.nbpoles(E0.Curve)
                 nbpol1 = self.nbpoles(E1.Curve)
                 nbpol2 = self.nbpoles(E2.Curve)
                 nbpol3 = self.nbpoles(E3.Curve)
-                msg = ("UnrollRuledSurface.unroll   * nbpol0= {   *d}, nbpol1= {   *d},"
-                       " nbpol2= {   *d}, nbpol3= {   *d}\n")
+                msg = ("UnrollRuledSurface.unroll: nbpol0= {:d}, nbpol1= {:d},"
+                       " nbpol2= {:d}, nbpol3= {:d}\n")
                 PrintMessage(msg.format(nbpol0, nbpol1, nbpol2, nbpol3))
 
-                if self.edge0   *
+                if self.edge0:
                     e1, e2 = E0, E2
                     v = self.discretize(E1)
                     v0, v1 = v[0], v[self.pts_nbr-1]
-                else   *
+                else:
                     e1, e2 = E1, E3
                     v = self.discretize(E2)
                     v0, v1 = v[0], v[self.pts_nbr-1]
@@ -377,28 +377,28 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                 sd1 = self.discretize(e1)
                 sd2 = self.discretize(e2)
                 ## Reverse if curves cross over
-                if not (sd2[0].__eq__(v0) or not sd2[0].__eq__(v1))   *
+                if not (sd2[0].__eq__(v0) or not sd2[0].__eq__(v1)):
                     sd2.reverse()
 
             ## Create a polygon object and set its nodes
             devlxy_l = self.devlxyz(sd1, sd2)
-            msg = "UnrollRuledSurface.unroll   * size devlxy_l   * {}\n"
+            msg = "UnrollRuledSurface.unroll: size devlxy_l: {}\n"
             PrintMessage(msg.format(len(devlxy_l)))
-            p = self.doc.addObject("Part   *   *Polygon", name)
+            p = self.doc.addObject("Part::Polygon", name)
             p.Nodes = devlxy_l
             self.doc.recompute()
             FreeCADGui.ActiveDocument.ActiveView.fitAll()
             return p
 
-        def vect_copy(self, vect)   *
+        def vect_copy(self, vect):
             """returns copy of vector"""
             return vect.add(Vector())
 
-        def vect_cos(self, vect1, vect2)   *
+        def vect_cos(self, vect1, vect2):
             """returns cosine angle between 2 vectors"""
             return vect1.dot(vect2) / vect1.Length / vect2.Length
 
-        def vect_sin(self, vect1, vect2)   *
+        def vect_sin(self, vect1, vect2):
             """returns absolute sinus angle between 2 vectors"""
             v = Vector()
             v.x = vect1.y * vect2.z - vect1.z * vect2.y
@@ -406,16 +406,16 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             v.z = vect1.x * vect2.y - vect1.y * vect2.x
             return v.Length / vect1.Length / vect2.Length
 
-        def devlxyz(self, vect1, vect2)   *
+        def devlxyz(self, vect1, vect2):
             """
             unrolls a face composed of 4 edges
-            args   * vect1, vect2 --> 2 edges of the shape
-            returns   * dvlxy
+            args: vect1, vect2 --> 2 edges of the shape
+            returns: dvlxy
             """
             lenv1, lenv2 = len(vect1), len(vect2)
-            if lenv1 != lenv2 or lenv1 != self.pts_nbr or lenv2 != self.pts_nbr   *
-                msg = ("UnrollRuledSurface.devlxyz   * incompatility of sizes vect1,"
-                       " vect2, pts_nbr   * ({}, {}, {})\n")
+            if lenv1 != lenv2 or lenv1 != self.pts_nbr or lenv2 != self.pts_nbr:
+                msg = ("UnrollRuledSurface.devlxyz: incompatility of sizes vect1,"
+                       " vect2, pts_nbr: ({}, {}, {})\n")
                 PrintError(msg.format(lenv1, lenv2, self.pts_nbr))
                 errorDialog(msg)
 
@@ -430,7 +430,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             devl2xy_l.append(ob1) #B1
             #self.draw_line(devl1xy_l[0], devl2xy_l[0])
             #self.draw_line(vect1[0], vect2[0])
-            for j in range(1, self.pts_nbr)   *
+            for j in range(1, self.pts_nbr):
 
                 ## AB
                 ab = vect2[j-1].sub(vect1[j-1])
@@ -478,11 +478,11 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                 ## Draw generatrice
                 #self.draw_line(devl1xy_l[j], devl2xy_l[j])
                 c1d1 = devl2xy_l[j].sub(devl1xy_l[j])
-                if ab.Length != 0   *
+                if ab.Length != 0:
                     abl = ab.Length
                     errormax = max(errormax, abs(abl - c1d1.Length) / abl)
 
-            msg = "UnrollRuledSurface Error cd,c1d1   * {   *.1f} %\n"
+            msg = "UnrollRuledSurface Error cd,c1d1: {:.1f} %\n"
             PrintMessage(msg.format(errormax*100))
 
             ## Close polygone
@@ -495,76 +495,76 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             return devlxy_l
 
 
-        def draw_line(self, vect0, vect1)   *
+        def draw_line(self, vect0, vect1):
             """draws a Part.Line between vect0 & vect1"""
             l = Part.LineSegment()
             l.StartPoint = vect0
             l.EndPoint = vect1
-            self.doc.addObject("Part   *   *Feature", "Line").Shape = l.toShape()
+            self.doc.addObject("Part::Feature", "Line").Shape = l.toShape()
 
 
-    class Scale   *
+    class Scale:
         """keeps autoscaling to integers"""
-        def __init__(self, scale)   *
+        def __init__(self, scale):
             self.scale = scale if scale >= 1 else 1 / scale
             self.scale = int(self.scale)
             self.inverted = scale >= 1
 
-        def get(self)   *
-            if self.inverted   *
-                return self.scale, '{}   *1'.format(self.scale)
-            else   *
-                return 1/self.scale, '1   *{}'.format(self.scale)
+        def get(self):
+            if self.inverted:
+                return self.scale, '{}:1'.format(self.scale)
+            else:
+                return 1/self.scale, '1:{}'.format(self.scale)
 
 
-    class Drawing2d   *
+    class Drawing2d:
         """
         TechDraw wb layout engine, diffeent logic compared to drawing wb layout.
         serves basic purpose...
         """
-        def __init__(self, scale, scale_auto, a3, cartridge)   *
+        def __init__(self, scale, scale_auto, a3, cartridge):
 
             self.a3 = a3
             self.scale = scale
             self.scale_auto = scale_auto
             self.cartridge = cartridge
-            if a3   *
+            if a3:
                 self.WH = 420, 297
-            else   *
+            else:
                 self.WH = 297, 210
             self.doc = FreeCAD.ActiveDocument
 
 
-        def _mkquadrants(self, nbr)   *
+        def _mkquadrants(self, nbr):
             """centers of quadrants w/o margin"""
             w, h = self.WH
             w2, h2 = w/2, h/2
             w4, h4 = w/4, h/4
 
-            q = {1   * [[w, h], [[w2, h2]]],
-                 2   * [[w2, h], [[w2 - w4, h2], [w2 + w4, h2]]],
-                 3   * [[w2, h2], [[w2 - w4, h2 + h4], [w2 + w4, h2 + h4],
+            q = {1: [[w, h], [[w2, h2]]],
+                 2: [[w2, h], [[w2 - w4, h2], [w2 + w4, h2]]],
+                 3: [[w2, h2], [[w2 - w4, h2 + h4], [w2 + w4, h2 + h4],
                                 [w2 - w4, h2 - h4]]],
-                 4   * [[w2, h2], [[w2 - w4, h2 + h4], [w2 + w4, h2 + h4],
+                 4: [[w2, h2], [[w2 - w4, h2 + h4], [w2 + w4, h2 + h4],
                                 [w2 - w4, h2 - h4], [w2 + w4, h2 - h4]]]}
             return q.get(nbr)
 
 
-        def newPage(self, doc, page_name)   *
+        def newPage(self, doc, page_name):
             freecad_dir = os.path.join(FreeCAD.getResourceDir(), dwgtpl)
-            page = doc.addObject('TechDraw   *   *DrawPage', page_name)
-            template = self.doc.addObject('TechDraw   *   *DrawSVGTemplate', 'Template')
+            page = doc.addObject('TechDraw::DrawPage', page_name)
+            template = self.doc.addObject('TechDraw::DrawSVGTemplate', 'Template')
             size = 'A3' if self.a3 else 'A4'
             frame = 'TD' if self.cartridge else '_blank'
             template.Template = freecad_dir + '/{}_Landscape{}.svg'.format(size, frame)
             page.Template = template
             return page
 
-        def drawpage(self, faces, page_name)   *
+        def drawpage(self, faces, page_name):
             """max 4 per page, simple layout with halfs or quadrants"""
             page = self.newPage(self.doc, page_name)
             [W, H], ll = self._mkquadrants(len(faces))
-            for [face, name], [x0, y0] in zip(faces, ll)   *
+            for [face, name], [x0, y0] in zip(faces, ll):
                 bb = face.Shape.BoundBox
                 xr, yr = W / bb.XLength, H / bb.YLength
                 adjust = 0.7 if self.cartridge else 0.85
@@ -572,7 +572,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                 scale, scr = Scale(scale).get()
                 bb.scale(scale, scale, 1) # unrolled faces in xy-plane
 
-                TopView = self.doc.addObject('TechDraw   *   *DrawViewPart', name + ' view')
+                TopView = self.doc.addObject('TechDraw::DrawViewPart', name + ' view')
                 page.addView(TopView)
                 TopView.Source = face
                 TopView.Direction = (0, 0, 1)
@@ -581,7 +581,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                 TopView.X = x0
                 TopView.Y = y0
 
-                Text = self.doc.addObject('TechDraw   *   *DrawViewAnnotation', name + ' txt')
+                Text = self.doc.addObject('TechDraw::DrawViewAnnotation', name + ' txt')
                 page.addView(Text)
                 Text.Text = '{} [{}]'.format(name, scr)
                 Text.recompute() # for size
@@ -594,13 +594,13 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             FreeCADGui.runCommand('TechDraw_ToggleFrame', 0)
 
 
-    class Drawing2dLegacy   *
+    class Drawing2dLegacy:
         """
         makes 2d drawing with Drawing wb (original layout engine, now legacy)
-        - obj_l   * list of objects
+        - obj_l: list of objects
         """
         ## untouched logic in v1.1
-        def __init__(self, scale, scale_auto, a3, cartridge, onedrawing, page_str)   *
+        def __init__(self, scale, scale_auto, a3, cartridge, onedrawing, page_str):
             self.TopX_H = self.TopY_H = 0
             self.TopX_V = self.TopY_V = 0
             self.TopX_Hmax = self.TopY_Hmax = 0
@@ -611,31 +611,31 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             self.cartridge = cartridge
             self.onedrawing = onedrawing
             self.marge = 6
-            if self.a3   *
+            if self.a3:
                 self.L, self.H = 420, 297
-            else   *
+            else:
                 self.L, self.H = 297, 210
             self.name = page_str
 
-        def newPage(self)   *
+        def newPage(self):
             freecad_dir = os.path.join(FreeCAD.getResourceDir(), dwgtpllegacy)
             doc = FreeCAD.ActiveDocument
-            page = doc.addObject('Drawing   *   *FeaturePage', self.name)
+            page = doc.addObject('Drawing::FeaturePage', self.name)
             size = 'A3' if self.a3 else 'A4'
             frame = '' if self.cartridge else '_plain'
             page.Template = freecad_dir + '/{}_Landscape{}.svg'.format(size, frame)
             return page
 
 
-        def all2d(self, objname_l)   *
+        def all2d(self, objname_l):
             obj1_l = []
-            for objid in range(len(objname_l))   *
-                if objid == 0 or not self.onedrawing   *
+            for objid in range(len(objname_l)):
+                if objid == 0 or not self.onedrawing:
                     page = self.newPage()
                 obj1_l.extend(self.done(objid, objname_l[objid]))
             return obj1_l
 
-        def done(self, idx, objname)   *
+        def done(self, idx, objname):
             obj_l = []
             obj, objname = objname
             marge = self.marge
@@ -643,7 +643,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
             xmax = bb.XMax - bb.XMin
             ymax = bb.YMax - bb.YMin
 
-            if ymax > xmax   *
+            if ymax > xmax:
                 Draft.rotate(obj, 90)
             Draft.move(obj, Vector(-bb.XMin, -bb.YMin, 0))
             xmax = bb.XMax - bb.XMin
@@ -651,14 +651,14 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
             scale = min((self.L-4 * marge) / xmax, (self.H-4 * marge) / ymax)
 
-            if (not self.scale_auto) or self.onedrawing   *
+            if (not self.scale_auto) or self.onedrawing:
                 scale = self.scale
 
-            PrintMessage("UnrollRuledSurface.drawing   * scale= {   *.2f}\n".format(scale))
+            PrintMessage("UnrollRuledSurface.drawing: scale= {:.2f}\n".format(scale))
 
 
-            if idx == 0 or not self.onedrawing   *
-                PrintMessage("Drawing2d   * init\n")
+            if idx == 0 or not self.onedrawing:
+                PrintMessage("Drawing2d: init\n")
                 TopX = self.TopX_H = marge * 2
                 TopY = self.TopY_H = marge * 2
                 self.TopX_H = self.TopX_H + xmax * scale + marge
@@ -670,11 +670,11 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                 self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
                 self.TopY_V = marge * 2
 
-            elif self.onedrawing   *
-                if self.TopX_H + xmax * scale < self.L   *
-                    if self.TopY_H + ymax * scale + marge * 2 < self.H   *
+            elif self.onedrawing:
+                if self.TopX_H + xmax * scale < self.L:
+                    if self.TopY_H + ymax * scale + marge * 2 < self.H:
                         ## H Add at right on same horizontal line
-                        PrintMessage("Drawing2d   * horizontal\n")
+                        PrintMessage("Drawing2d: horizontal\n")
                         TopX, TopY = self.TopX_H, self.TopY_H
                         self.TopX_H = self.TopX_H + xmax * scale + marge
                         self.TopX_Hmax = max(self.TopX_Hmax, self.TopX_H)
@@ -684,11 +684,11 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                         self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
                         self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
 
-                    else   *
+                    else:
                         ## V Add at right on same horizontal line
-                        PrintMessage("Drawing2d   * vertival\n")
+                        PrintMessage("Drawing2d: vertival\n")
                         if (self.TopX_V + ymax * scale + 2 * marge < self.L
-                            and self.TopY_V + xmax * scale + 2 * marge < self.H)   *
+                            and self.TopY_V + xmax * scale + 2 * marge < self.H):
                             Draft.rotate(obj, 90)
                             Draft.move(obj, Vector(-bb.XMin, -bb.YMin, 0))
                             x0 = xmax; xmax = ymax; ymax = x0
@@ -698,14 +698,14 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                             self.TopY_Vmax = max(self.TopY_Vmax,
                                                  self.TopY_V + ymax * scale + marge)
 
-                        else   *
+                        else:
                             obj_l.append([obj, self.name])
                             return obj_l
 
-                else   *
+                else:
                     ## H Carriage return
-                    if self.TopY_Hmax + ymax * scale + self.marge*2 < self.H   *
-                        msg = "Drawing2d   * carriage return   * {} > {}\n"
+                    if self.TopY_Hmax + ymax * scale + self.marge*2 < self.H:
+                        msg = "Drawing2d: carriage return: {} > {}\n"
                         PrintMessage(msg.format(self.TopY_H + ymax * scale, self.H))
                         TopX = self.marge * 2
                         TopY = self.TopY_Hmax
@@ -716,12 +716,12 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                         self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
                         self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
         
-                    else   *
+                    else:
                         ## V Add at right on same horizontal line
-                        msg = "Drawing2d   * vertival   * {} , {}\n"
+                        msg = "Drawing2d: vertival: {} , {}\n"
                         PrintMessage(msg.format(self.TopX_V, self.TopX_Vmax))
                         if (self.TopX_V + ymax * scale + 2 * marge < self.L
-                            and self.TopY_V + xmax * scale + 2 * marge < self.H)   *
+                            and self.TopY_V + xmax * scale + 2 * marge < self.H):
                             Draft.rotate(obj, 90)
                             Draft.move(obj, Vector(-bb.XMin, -bb.YMin, 0))
                             x0 = xmax; xmax = ymax; ymax = x0
@@ -730,20 +730,20 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
                             self.TopY_Vmax = max(self.TopY_Vmax,
                                                  self.TopY_V + ymax * scale + marge)
         
-                        else   *
+                        else:
                             obj_l.append([obj, objname])
                             return obj_l
 
             doc = FreeCAD.ActiveDocument
             page = doc.getObject(self.name)
 
-            Text = doc.addObject('Drawing   *   *FeatureViewAnnotation', f"{objname}_txt")
+            Text = doc.addObject('Drawing::FeatureViewAnnotation', f"{objname}_txt")
             Text.Text = objname
             Text.X = TopX + xmax * scale / 2
             Text.Y = TopY + ymax * scale / 2
             Text.Scale = 2
 
-            TopView = doc.addObject('Drawing   *   *FeatureViewPart', objname)
+            TopView = doc.addObject('Drawing::FeatureViewPart', objname)
             TopView.Source = obj
             TopView.Direction = (0, 0, 1)
             TopView.Rotation = 0
@@ -780,7 +780,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
     la.addWidget(dpts, 3, 0, 1, 2)
 
     ###
-    la.addWidget(QtGui.QLabel("Generatrices from edge   *"), 4, 0, 1, 2)
+    la.addWidget(QtGui.QLabel("Generatrices from edge:"), 4, 0, 1, 2)
     edgezero = QtGui.QRadioButton("0 to 3")
     la.addWidget(edgezero, 4, 2)
     edgeone = QtGui.QRadioButton("1 to 4")
@@ -808,7 +808,7 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
     la.addWidget(scale, 6, 3)
 
     ###
-    la.addWidget(QtGui.QLabel("Paper size   *"), 7, 0, 1, 2)
+    la.addWidget(QtGui.QLabel("Paper size:"), 7, 0, 1, 2)
     rba4 = QtGui.QRadioButton("A4")
     la.addWidget(rba4, 7, 2)
     rba3 = QtGui.QRadioButton("A3")

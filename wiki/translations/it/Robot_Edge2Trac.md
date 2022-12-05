@@ -1,6 +1,6 @@
 # Robot Edge2Trac/it
 ---
-- GuiCommand   */it   Name   *Robot Edge2Trac   Name/it   *Crea una traiettoria da un bordo   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Crea una traiettoria da un bordo...---
+- GuiCommand:/it   Name:Robot Edge2Trac   Name/it:Crea una traiettoria da un bordo   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Crea una traiettoria da un bordo...---
 
 
 </div>
@@ -25,7 +25,7 @@ Inserisce un nuovo oggetto che scompone i bordi in una traiettoria.
 #### Uso
 
 1.  È possibile selezionare i bordi di forme o solidi
-2.  Cliccare su <img alt="" src=images/Robot_Edge2Trac.png  style="width   *32px;"> o scegliere ** Robot** → **<img src="images/Robot_Edge2Trac.png" width=32px> Da bordo a traiettoria...** nel menu principale.
+2.  Cliccare su <img alt="" src=images/Robot_Edge2Trac.png  style="width:32px;"> o scegliere ** Robot** → **<img src="images/Robot_Edge2Trac.png" width=32px> Da bordo a traiettoria...** nel menu principale.
 3.  Appare un menu sul lato sinistro
 
 

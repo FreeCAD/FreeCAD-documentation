@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher EditSketch
-   Name/de   *Sketcher SkizzeBearbeiten
-   MenuLocation   *Sketch → Skizze bearbeiten
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso   *[Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
+- GuiCommand:/de
+   Name:Sketcher EditSketch
+   Name/de:Sketcher SkizzeBearbeiten
+   MenuLocation:Sketch → Skizze bearbeiten
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
 ---
 
 # Sketcher EditSketch/de
@@ -15,12 +15,12 @@ Mit diesem Befehl kann eine vorhandene Skizze bearbeitet werden. Er öffnet den 
 
 ## Anwendung
 
-Es gibt verschiedene Wege den Befehl SkizzeBearbeiten aufzurufen   *
+Es gibt verschiedene Wege den Befehl SkizzeBearbeiten aufzurufen:
 
 -   Rechtsklick auf eine Skizze in der [Baumansicht](tree_view/de.md) und *Skizze bearbeiten* auswählen.
 -   Eine Skizze in der [Baumansicht](tree_view/de.md) auswählen und anschließend den Menüeintrag **Sketch/Skizze → Skizze bearbeiten** auswählen.
 -   Doppelklick auf die Skizze
--   Auf die Schaltfläche <img alt="" src=images/Sketcher_EditSketch.svg  style="width   *24px;"> in der Sketcher-Werkzeugleiste klicken.
+-   Auf die Schaltfläche <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> in der Sketcher-Werkzeugleiste klicken.
 
 ## Hinweise
 

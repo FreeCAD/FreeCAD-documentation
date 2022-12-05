@@ -11,7 +11,7 @@ It can be made visible/hidden through the **View → Panels → Python console**
 
 The Python console in FreeCAD has basic syntax highlighting, able to differentiate with various styles and colors, comments, strings, numeric values, built in functions, printed text output, and delimiters like parentheses and commas. These properties of the console can be configured in the [Preferences editor](Preferences_Editor.md).
 
-<img alt="" src=images/FreeCAD_Python_console.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
 
@@ -20,12 +20,12 @@ The Python console in FreeCAD has basic syntax highlighting, able to differentia
 ## Scripting
 
 
-**For absolute beginners, see   ***
+**For absolute beginners, see:**
 
 [Introduction to Python](Introduction_to_Python.md), and [Python scripting tutorial](Python_scripting_tutorial.md).
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD scripting basics](FreeCAD_Scripting_Basics.md), and [Scripted objects](Scripted_objects.md).
 
@@ -33,7 +33,7 @@ The Python console can perform basic code completion when a dot is written after
 
 The console is also able to show the documentation string of a particular function when the opening parenthesis is written, for example, `function(`
 
-<img alt="" src=images/FreeCAD_Python_console_example.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
 
 
 
@@ -54,36 +54,36 @@ FreeCAD.newDocument()
 ```
 
 
-**Note   ***
+**Note:**
 
 these pre-loaded modules and aliases are only available from the Python console embedded inside the FreeCAD program. If you use FreeCAD as a library in an external program, you must remember to load the `FreeCAD` and `FreeCADGui` modules and define the necessary aliases if you wish.
 
 ## Actions
 
-Right click on the Python console shows some commands   *
+Right click on the Python console shows some commands:
 
--    **Copy**   * stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
+-    **Copy**: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
 
--    **Copy command**   * stores the selected command in the clipboard for later pasting; it is disabled if nothing is selected.
+-    **Copy command**: stores the selected command in the clipboard for later pasting; it is disabled if nothing is selected.
 
--    **Copy history**   * copy the entire history of Python commands entered in this session.
+-    **Copy history**: copy the entire history of Python commands entered in this session.
 
--    **Save history as**   * save the entire history of Python commands entered in this session to a text file.
+-    **Save history as**: save the entire history of Python commands entered in this session to a text file.
 
--    **Paste**   * paste previously copied text in the clipboard to the Python console.
+-    **Paste**: paste previously copied text in the clipboard to the Python console.
 
--    **Select all**   * selects all text in the Python console.
+-    **Select all**: selects all text in the Python console.
 
--    **Clear console**   * erases all commands entered into the Python console. This is useful if the Python console is full of messages and previously entered commands that may be distracting when testing a new function. This is merely aesthetic, as this command doesn\'t delete existing variables nor clears the imported modules in the session.
+-    **Clear console**: erases all commands entered into the Python console. This is useful if the Python console is full of messages and previously entered commands that may be distracting when testing a new function. This is merely aesthetic, as this command doesn\'t delete existing variables nor clears the imported modules in the session.
 
--    **Insert file name**   * opens a dialog to search for a file in the system, then it inserts the full path of the file. This is useful to test functions that process an input file, without having to write the entire name in the console, which is error prone. This command does not run the file, and does not import it as a Python module, it just returns the full path of that file.
+-    **Insert file name**: opens a dialog to search for a file in the system, then it inserts the full path of the file. This is useful to test functions that process an input file, without having to write the entire name in the console, which is error prone. This command does not run the file, and does not import it as a Python module, it just returns the full path of that file.
 
--    **Word wrap**   * wrap very long lines that exceed the horizontal dimension of the Python console.
+-    **Word wrap**: wrap very long lines that exceed the horizontal dimension of the Python console.
 
 ## Notes
 
--   One has the ability to scroll the API in the Python console. Example   *
-    1.  In the console type   * `FreeCAD.`
+-   One has the ability to scroll the API in the Python console. Example:
+    1.  In the console type: `FreeCAD.`
     2.  A dialog box will display with optional classes/functions to choose from
     3.  Scroll through the list to read the description of each class/function
     4.  By choosing a function and following it with a `.` one can repeat steps 2 and 3 to traverse deeper in to the API

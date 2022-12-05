@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Part RuledSurface
-   Name/de   *Part Regelfläche
-   MenuLocation   *Formteil → Regelfläche erzeugen
-   Workbenches   *[Part](Part_Workbench/de.md)
-   SeeAlso   *[Part FlächeAusLinienzügen](Part_MakeFace/de.md)
+- GuiCommand:/de
+   Name:Part RuledSurface
+   Name/de:Part Regelfläche
+   MenuLocation:Formteil → Regelfläche erzeugen
+   Workbenches:[Part](Part_Workbench/de.md)
+   SeeAlso:[Part FlächeAusLinienzügen](Part_MakeFace/de.md)
 ---
 
 # Part RuledSurface/de
@@ -21,7 +21,7 @@ Erstellt eine Regelfläche
 <div class="mw-translate-fuzzy">
 
 1.  Rufe den Befehl \"Geregelte Oberfläche\" auf mehrere Arten aufː
-    -   Drücke die <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> [Part RuledSurface](Part_RuledSurface.md) Schaltfläche
+    -   Drücke die <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) Schaltfläche
     -   Verwende den **Part → Geregelte Oberfläche** Eintrag im Part Menü
 
 

@@ -1,8 +1,6 @@
 # Category:Path/pt
 This category lists pages related to the [PartDesign Workbench/pt](PartDesign_Workbench/pt.md).
 
-[Category   *Workbenches/pt](Category   *Workbenches/pt.md)
-
 ### Contents
 
 |     |     |     |

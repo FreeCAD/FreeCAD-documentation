@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher ConstrainTangent
-   Name/fr   *Sketcher Contrainte tangente
-   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte tangente
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***T**
-   SeeAlso   *[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher ConstrainTangent
+   Name/fr:Sketcher Contrainte tangente
+   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte tangente
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**T**
+   SeeAlso:[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
 ---
 
 # Sketcher ConstrainTangent/fr
@@ -18,7 +18,7 @@ La Contrainte tangente peut également être utilisée avec deux lignes pour les
 
 ## Utilisation
 
-Il y a cinq façons différentes d\'appliquer la contrainte    *
+Il y a cinq façons différentes d\'appliquer la contrainte :
 
 1.  entre deux courbes (non disponible pour toutes les courbes)
 2.  entre deux extrémités d\'une courbe
@@ -26,18 +26,18 @@ Il y a cinq façons différentes d\'appliquer la contrainte    *
 4.  entre deux courbes au point défini par l\'utilisateur
 5.  entre deux lignes pour créer une condition colinéaire
 
-Pour appliquer la contrainte tangente, suivre les étapes suivantes    *
+Pour appliquer la contrainte tangente, suivre les étapes suivantes :
 
 -   Sélectionnez deux ou trois entités dans l\'esquisse.
 -   Appelez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
 
 ### Entre deux courbes (tangence directe) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
 Deux courbes doivent être rendues tangentes, et un point de tangence doit être implicite. Ce mode est appliqué si deux courbes sont sélectionnées
 
-**Sélection Acceptée    ***
+**Sélection Acceptée :**
 
 -   ligne + ligne, cercle, arc, ellipse, arc d\'ellipse
 -   cercle, arc + cercle, arc.
@@ -48,31 +48,31 @@ Il n\'est pas recommandé de reconstruire le point de tangence en créant un poi
 
 ### Entre deux points de terminaison (tangence point à point) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
 Dans ce mode, les extrémités sont rendues coïncidentes et le joint est rendu tangent (C1-smooth, ou \"sharp\", selon le placement des courbes avant l\'application de la contrainte). Ce mode est appliqué lorsque deux points d\'extrémité de deux courbes ont été sélectionnés. Si vous voulez ce type de tangence, vous ne devez pas utiliser la concidence plus la tangence entre les courbes/lignes. Le solveur ne peut pas créer de solutions stables pour cette combinaison et remplace les contraintes de manière appropriée.
 
-**Sélection acceptée    ***
+**Sélection acceptée :**
 
 -   point extrémité de ligne/arc/arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit deux points de terminaison de deux courbes quelconques)
 
 ### Entre une courbe et un point de terminaison (tangence point à courbe) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
 Dans ce mode, une extrémité d\'une courbe est contraint de se trouver sur l\'autre courbe, et les courbes sont obligatoirement tangentes en ce point. Ce mode est appliqué lorsqu\'une courbe et un point de terminaison d\'une autre courbe ont été sélectionnés.
 
-**Sélection acceptée    ***
+**Sélection acceptée :**
 
 -   ligne, cercle, arc, ellipse, arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit une courbe + une extrémité de courbe)
 
 ### Entre deux courbes au point (tangent-via-point) (v0.15) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
 Dans ce mode, deux courbes sont rendues tangentes et le point de tangence est identifié. Ce mode est appliqué lorsque deux courbes et un point ont été sélectionnés.
 
-**Sélection acceptée    ***
+**Sélection acceptée :**
 
 -   toute ligne/courbe + toute ligne/courbe + tout point
 
@@ -86,15 +86,15 @@ Le placement du point avant que la contrainte soit appliquée est une indication
 
 ### Entre deux lignes (colinéaire) 
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
-**Sélection acceptée   ***
+**Sélection acceptée:**
 
 -   toute ligne/sommet + toute ligne/sommet
 
 ## Programmation
 
-La Contrainte Tangente peut être créée à partir de [macros](Macros/fr.md) et de la console de [Python](Python/fr.md) en utilisant les éléments suivants    * 
+La Contrainte Tangente peut être créée à partir de [macros](Macros/fr.md) et de la console de [Python](Python/fr.md) en utilisant les éléments suivants : 
 ```python
 # direct tangency
 Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,icurve2))
@@ -107,15 +107,15 @@ Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,pointpos1,icurve2))
 
 # tangent-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-``` où    *
+``` où :
 
-   ** `Sketch` est un objet d\'esquisse.
+  - `Sketch` est un objet d\'esquisse.
 
-   ** `icurve1`, `icurve2` sont deux entiers identifiant les courbes à faire tangenter. Les entiers sont des index de l\'esquisse (la valeur est retournée par `Sketch.addGeometry`).
+  - `icurve1`, `icurve2` sont deux entiers identifiant les courbes à faire tangenter. Les entiers sont des index de l\'esquisse (la valeur est retournée par `Sketch.addGeometry`).
 
-   ** `pointpos1`, `pointpos2` devrait être 1 pour point de départ et 2 pour le point de fin.
+  - `pointpos1`, `pointpos2` devrait être 1 pour point de départ et 2 pour le point de fin.
 
-   ** `geoidpoint` et `pointpos` dans `TangentViaPoint` sont les index précisant le point de tangence.
+  - `geoidpoint` et `pointpos` dans `TangentViaPoint` sont les index précisant le point de tangence.
 
 La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` et `pointpos` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 

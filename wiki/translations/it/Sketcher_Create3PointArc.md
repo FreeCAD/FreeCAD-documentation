@@ -1,13 +1,13 @@
 # Sketcher Create3PointArc/it
 ---
-- GuiCommand   */it   Name   *Sketcher Create3PointArc   Name/it   *Crea arco da tre punti   Workbenches   *[[Sketcher Workbench/it   Sketcher]]|MenuLocation   *Sketch → Geometrie → Arco da tre punti   Shortcut   *   SeeAlso   *---
+- GuiCommand:/it   Name:Sketcher Create3PointArc   Name/it:Crea arco da tre punti   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Arco da tre punti   Shortcut:   SeeAlso:---
 
 
 </div>
 
 ## Descrizione
 
-Questo strumento disegna un arco usando tre punti selezionati dall\'utente   * il punto iniziale, il punto finale e un punto sull\'arco.
+Questo strumento disegna un arco usando tre punti selezionati dall\'utente: il punto iniziale, il punto finale e un punto sull\'arco.
 
 ## Utilizzo
 

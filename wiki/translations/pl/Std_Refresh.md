@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Refresh
-   Name/pl   *Std   * Przelicz
-   MenuLocation   *Edycja → Odśwież
-   Workbenches   *wszystkie
-   Shortcut   ***F5**
+- GuiCommand:/pl
+   Name:Std Refresh
+   Name/pl:Std: Przelicz
+   MenuLocation:Edycja → Odśwież
+   Workbenches:wszystkie
+   Shortcut:**F5**
 ---
 
 # Std Refresh/pl
@@ -15,10 +15,10 @@ Polecenie **Std Odśwież** wykonuje ponowne przeliczenie aktywnego dokumentu. I
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Std_Refresh.svg" width=16px> [Odśwież](Std_Refresh/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Refresh.svg" width=16px> Odśwież**.
-    -   Użyj skrótu klawiaturowego   * **F5**.
+    -   Użyj skrótu klawiaturowego: **F5**.
 
 ## Opcje
 
@@ -27,12 +27,12 @@ Polecenie **Std Odśwież** wykonuje ponowne przeliczenie aktywnego dokumentu. I
 
 ## Uwagi
 
--   Makro, które wymusza ponownie przeliczenie aktywnego dokumentu, można znaleźć na stronie   * [Makrodefinicja   * Wymuszaj ponowne obliczenia](Macro_ForceRecompute/pl.md).
+-   Makro, które wymusza ponownie przeliczenie aktywnego dokumentu, można znaleźć na stronie: [Makrodefinicja: Wymuszaj ponowne obliczenia](Macro_ForceRecompute/pl.md).
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

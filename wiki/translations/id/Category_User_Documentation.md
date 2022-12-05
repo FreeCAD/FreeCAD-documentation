@@ -3,8 +3,6 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 Kategori ini berisi artikel tentang penggunaan FreeCAD. Hal ini juga daftar pusat download untuk dokumentasi online FreeCAD.
 
-[Category   *Documentation/id](Category   *Documentation/id.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,8 +1,6 @@
 # Category:Plot/hu
 This category lists pages related to the [Plot Workbench/hu](Plot_Workbench/hu.md).
 
-[Category   *Workbenches/hu](Category   *Workbenches/hu.md)
-
 ### Contents
 
 |     |     |     |

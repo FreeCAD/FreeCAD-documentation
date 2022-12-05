@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ro
-   Topic   *Ship Workbench
-   Level   * Beginner
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/ro
+   Topic:Ship Workbench
+   Level: Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/ro
@@ -30,7 +30,7 @@ Puteți învăța mai mult despre vapoare [FreeCAD-Ship here](Ship_Workbench.md)
 
 În acest tutorial vom lucra cu încărcări și compartimente pentru a calcula curba GZ (brațul cuplului de redresare), cel mai important parametru de stabilitate hidrostatică. GZ este momentul static generat atunci când nava ia un unghi de rotire, desigur, deoarece brațul GZ este pozitiv, nava are un moment pozitiv și va încerca să recupereze poziția verticală, dar când GZ se aprinde pe numerele negative nava nu mai are stabilitate , atingând o situație critică.
 
-OMI (Organizația Maritimă Internațională) stabilește următoarele criterii   *
+OMI (Organizația Maritimă Internațională) stabilește următoarele criterii:
 
 -   \"GM\"\> = 0,15 m. \'GM\' \'(înălțimea metacentrică) este tangenta inițială a curbei\' \'GZ\' \'.
 -   Valoarea maximă *GZ* trebuie plasată peste 30 de grade de unghi de rulare.
@@ -49,7 +49,7 @@ OMI (Organizația Maritimă Internațională) stabilește următoarele criterii 
 
 ## Încărcarea navei 
 
-Pentru a putea calcula curba GZ trebuie să cunoaștem greutățile navei și poziția lor la fiecare unghi de rotire, astfel încât greutățile vor fi împărțite în două categorii   *
+Pentru a putea calcula curba GZ trebuie să cunoaștem greutățile navei și poziția lor la fiecare unghi de rotire, astfel încât greutățile vor fi împărțite în două categorii:
 
 -   Greutăți fixe, care sunt pe deplin legate de mișcările navei.
 -   Rezervoare, în cazul în care forma fluide se schimbă cu unghiul, necesitând un centru de greutate calcul în fiecare poziție.
@@ -75,7 +75,7 @@ Weights definition tool icon.
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul de definire a greutății poate fi utilizat pentru a stabili prima categorie de greutăți. Atunci când lansați instrumentul pentru prima dată (cu selectarea navei), FreeCAD-Ship inițializează greutățile navei cu nava ușoară (egală cu deplasarea navei) plasată pe coordonata X a centrului de greutate al geometriei navei și la înălțimea proiectată. De obicei, aveți cel puțin 2 ponderi relevante   *
+Instrumentul de definire a greutății poate fi utilizat pentru a stabili prima categorie de greutăți. Atunci când lansați instrumentul pentru prima dată (cu selectarea navei), FreeCAD-Ship inițializează greutățile navei cu nava ușoară (egală cu deplasarea navei) plasată pe coordonata X a centrului de greutate al geometriei navei și la înălțimea proiectată. De obicei, aveți cel puțin 2 ponderi relevante:
 
 -   Structura.
 -   Motorul principal (sau mai multe dintre ele).
@@ -86,7 +86,7 @@ Instrumentul de definire a greutății poate fi utilizat pentru a stabili prima 
 
 <div class="mw-translate-fuzzy">
 
-Așa că o vom schimba. Dacă faceți dublu clic pe fiecare celulă, putem edita valoarea, setând aceste greutăți   *
+Așa că o vom schimba. Dacă faceți dublu clic pe fiecare celulă, putem edita valoarea, setând aceste greutăți:
 
 -   Structura, 15000 kg, (-0,1, 0, 1,25) m
 -   Motor de tribord, 5000 kg, (-6,5, -0,65, 0,5) m
@@ -150,7 +150,7 @@ Generated tank geometry.
 
 We can perform port side tank selecting our starboard geometry and executing mirror tool, selecting XZ as mirror plane.
 
-In order to convert geometry into a ussual solid shape our tanks, and recover our **s60_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as   *
+In order to convert geometry into a ussual solid shape our tanks, and recover our **s60_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as:
 
 -   StarboardTankGeom
 -   PortTankGeom
@@ -203,7 +203,7 @@ FreeCAD-Ship furnizează un instrument pentru a calcula cu ușurință o curbă 
 
 </div>
 
-<img alt="GZ curve computation tool icon." src=images/Ship_GZ.svg  style="width   *128px;">
+<img alt="GZ curve computation tool icon." src=images/Ship_GZ.svg  style="width:128px;">
 
 
 <center>
@@ -221,7 +221,7 @@ Cu instanța **Ship** selectată, putem folosi instrumentul. Primul lucru pe car
 
 </div>
 
-Pentru a cunoaște deplasarea și schița rezultată a navei, putem apăsa **Actualizați deplasarea și schița**, luând un timp pentru calcul. Primim următoarele date   *
+Pentru a cunoaște deplasarea și schița rezultată a navei, putem apăsa **Actualizați deplasarea și schița**, luând un timp pentru calcul. Primim următoarele date:
 
 -   Deplasament = 37505,5 kg
 -   Pescaj = 0.818664 m
@@ -236,7 +236,7 @@ So we are in a unloaded situation, where draft are sightly lower than design dra
 
 De asemenea, putem calcula automat pescajul de-a lungul navei, operație care poate dura aproximativ un minut, recuperând faptul că nava noastră are un unghi de înclinare de 0,95 grade (pozitiv de pupă). În acest exemplu vom lucra fără unghi de tăiere (0 grade).
 
-Unele unghiuri de ruliu sunt luate în considerate de asemenea În acest caz vrem să cunoaștem toate comportamentele navei, astfel încât să putem seta   *
+Unele unghiuri de ruliu sunt luate în considerate de asemenea În acest caz vrem să cunoaștem toate comportamentele navei, astfel încât să putem seta:
 
 -   Unghi de ruliu de 0 grade.
 -   Unghi de ruliu la 180 de grade.
@@ -250,18 +250,18 @@ Când apăsăm butonul **Accept**, instrumentul începe calculul. Dacă rulați 
 
 </div>
 
-This tool use [pyxplot](http   *//www.pyxplot.org.uk/) and [ghostscript](http   *//www.ghostscript.com/) too. You can see where **gz.dat** output file has been placed at the report view (View/Views/Report view), and load it with datasheet software (for example [libreOffice](http   *//www.libreoffice.org)). Nearby data file several auxiliary files has been created too   *
+This tool use [pyxplot](http://www.pyxplot.org.uk/) and [ghostscript](http://www.ghostscript.com/) too. You can see where **gz.dat** output file has been placed at the report view (View/Views/Report view), and load it with datasheet software (for example [libreOffice](http://www.libreoffice.org)). Nearby data file several auxiliary files has been created too:
 
--   **gz.dat**   * Computed GZ curve data.
--   **gz.pyxplot**   * pyxplot layout in order to plot the curve.
--   **gz.eps**   * EPS image version.
--   **gz.png**   * PNG image version.
+-   **gz.dat**: Computed GZ curve data.
+-   **gz.pyxplot**: pyxplot layout in order to plot the curve.
+-   **gz.eps**: EPS image version.
+-   **gz.png**: PNG image version.
 
 This files will be overwritten if you executes the tool another time.
 
 ### Resultate
 
-<img alt="Resultant GZ curve." src=images/FreeCAD-Ship-s60GZ.png  style="width   *800px;">
+<img alt="Resultant GZ curve." src=images/FreeCAD-Ship-s60GZ.png  style="width:800px;">
 
 
 <center>
@@ -294,8 +294,6 @@ Desigur, acest exemplu nu este real (mai întâi pentru toate cisternele de comb
 
 
 </div>
-
-[Category   *Ship](Category_Ship.md)
 
 
 

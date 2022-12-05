@@ -5,7 +5,7 @@
 
  
 
-[Python](https   *//www.python.org) is a general purpose, high level programming language that is very commonly used in large applications to automate some tasks by creating scripts or [macros](macros.md).
+[Python](https://www.python.org) is a general purpose, high level programming language that is very commonly used in large applications to automate some tasks by creating scripts or [macros](macros.md).
 
 In FreeCAD, Python code can be used to create various elements programmatically, without needing to click on the graphical user interface. Additionally, many tools and workbenches of FreeCAD are programmed in Python.
 
@@ -13,12 +13,12 @@ See [Introduction to Python](Introduction_to_Python.md) to learn about the Pytho
 
 ## Readability
 
-Readability of Python code is one of the most important aspects of this language. Using a clear and consistent style within the Python community facilitates contributions by different developers, as most experienced Python programmers expect the code to be formatted in a certain way and to follow certain rules. When writing Python code, it is advisable to follow [PEP8   * Style Guide for Python Code](https   *//www.python.org/dev/peps/pep-0008/) and [PEP257   * Docstring Conventions](https   *//www.python.org/dev/peps/pep-0257/).
+Readability of Python code is one of the most important aspects of this language. Using a clear and consistent style within the Python community facilitates contributions by different developers, as most experienced Python programmers expect the code to be formatted in a certain way and to follow certain rules. When writing Python code, it is advisable to follow [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) and [PEP257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/).
 
-These documents present explanations in a more user-friendly way   *
+These documents present explanations in a more user-friendly way:
 
--   [How to Write Beautiful Python Code With PEP 8](https   *//realpython.com/python-pep8/)
--   [Documenting Python Code   * A Complete Guide](https   *//realpython.com/documenting-python-code/).
+-   [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
+-   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/).
 
 ## Conventions
 
@@ -30,7 +30,7 @@ This is a typical function signature
 ```python
 Wire = make_wire(pointslist, closed=False, placement=None, face=None, support=None)
 ```
--   Arguments with key-value pairs are optional, with the default value indicated in the signature. This means that the following calls are equivalent   *
+-   Arguments with key-value pairs are optional, with the default value indicated in the signature. This means that the following calls are equivalent:
 
 
 
@@ -45,9 +45,9 @@ Wire = make_wire(pointslist)
 
 
 
-   *   In this example the first argument doesn\'t have a default value so it should always be included.
+:   In this example the first argument doesn\'t have a default value so it should always be included.
 
--   When the arguments are given with the explicit key, the optional arguments can be given in any order. This means that the following calls are equivalent   *
+-   When the arguments are given with the explicit key, the optional arguments can be given in any order. This means that the following calls are equivalent:
 
  
 ```python
@@ -123,12 +123,6 @@ pointslist = [p1, p2, p3, p4]
 Wire = Draft.make_wire(pointslist, closed=True, face=True)
 Structure = Arch.make_structure(Wire, name="Big pillar")
 ```
-
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *API](Category_API.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

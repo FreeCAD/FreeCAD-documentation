@@ -1,6 +1,6 @@
 # Arch Structure/cs
 ---
-- GuiCommand   */cs   Name   *Arch_Structure   Name/cs   *Struktury   Workbenches   *[MenuLocation   *Arch → Struktura   Shortcut   *S T   SeeAlso   *[[Arch Wall/cs|Zed'](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:/cs   Name:Arch_Structure   Name/cs:Struktury   Workbenches:[MenuLocation:Arch → Struktura   Shortcut:S T   SeeAlso:[[Arch Wall/cs|Zed'](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -61,20 +61,20 @@ Obrázek nahoře zobrazuje sloup založený na 2D profilu, sloup a příčník z
 
 <div class="mw-translate-fuzzy">
 
--    **Délka**   * Délka struktury (použito pouze v případě, že struktura není založena na profilu)
+-    **Délka**: Délka struktury (použito pouze v případě, že struktura není založena na profilu)
 
--    **Šířka**   * Šířka struktury (použito pouze v případě, že struktura není založena na profilu)
+-    **Šířka**: Šířka struktury (použito pouze v případě, že struktura není založena na profilu)
 
--    **Výška**   * Výška struktury (nebo vysunutí pokud je struktura založena na profilu)
+-    **Výška**: Výška struktury (nebo vysunutí pokud je struktura založena na profilu)
 
 
 </div>
 
 ### View
 
--    **Nodes Type**   * The type of structural nodes of this object, linear or area.
+-    **Nodes Type**: The type of structural nodes of this object, linear or area.
 
--    **Show Nodes**   * Shows or hides the structural nodes.
+-    **Show Nodes**: Shows or hides the structural nodes.
 
 ## Presets
 
@@ -87,20 +87,20 @@ The presets are obtained by choosing a **Category** from the structure options p
 
 The **Switch L/H** button can be used to switch Length and Height values, and therefore building a horizontal beam rather than a vertical column.
 
-<img alt="" src=images/Arch_precast_example.jpg  style="width   *960px;"> 
+<img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Some presets for precast concrete structures*
 
 ## Structural nodes 
 
-Structural objects also have the ability to display structural nodes. Structural nodes are a sequence of 3D points stored in a \"Nodes\" property. By switching the \"Show Nodes\" view property on/off, one can see the structural nodes of a structural element   *
+Structural objects also have the ability to display structural nodes. Structural nodes are a sequence of 3D points stored in a \"Nodes\" property. By switching the \"Show Nodes\" view property on/off, one can see the structural nodes of a structural element:
 
-<img alt="" src=images/Arch_structural_nodes.jpg  style="width   *960px;"> 
+<img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Structural nodes made visible for a set of structures*
 
 -   Nodes are calculated and updated automatically, as long as you don\'t modify them manually. If you did, they won\'t be updated if the shape of the structural object changes, unless you use the \"Reset nodes\" tool below.
 -   Arch structures can have not only linear nodes, but also planar nodes. For this, 1- There must be at least 3 vectors in the \"Nodes\" property of the object, 2- the \"NodesType\" property of their ViewObject must be set to \"Area\".
 -   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the Role property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
--   When editing a structure object (double-click), a couple of node tools are available in the task view   *
+-   When editing a structure object (double-click), a couple of node tools are available in the task view:
     -   Reset the nodes to automatic calculation, in case you modified them manually
     -   Edit the nodes graphically, works the same way as [Draft Edit](Draft_Edit.md)
     -   Extend the nodes of the edited object until it touches the node of another object
@@ -120,7 +120,7 @@ Structural objects also have the ability to display structural nodes. Structural
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Struktura může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Struktura může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -135,12 +135,12 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
 <div class="mw-translate-fuzzy">
 
 
-   *   vytvoří strukturální prvek založený na daném profilu a daném vysunutí do výšky. Není-li zadán žádný profil, můžete specifikovat délku a šířku trojrozměrného objektu.
+:   vytvoří strukturální prvek založený na daném profilu a daném vysunutí do výšky. Není-li zadán žádný profil, můžete specifikovat délku a šířku trojrozměrného objektu.
 
 
 </div>
 
-Příklad   * 
+Příklad: 
 ```python
 import FreeCAD, Draft, Arch
 

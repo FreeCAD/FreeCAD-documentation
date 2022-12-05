@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_ProjectUtil
-   Name/it   *Utilità di progetto
-   Empty   *1
-   MenuLocation   *Strumenti → Utilità di progetto...
-   Workbenches   *Tutti
+- GuiCommand:/it
+   Name:Std_ProjectUtil
+   Name/it:Utilità di progetto
+   Empty:1
+   MenuLocation:Strumenti → Utilità di progetto...
+   Workbenches:Tutti
 ---
 
 # Std ProjectUtil/it
@@ -14,7 +14,7 @@
 
 ## Descrizione
 
-Con il comando **Utilità di progetto** è possibile estrarre i file da un file di progetto FreeCAD (***.FCStd**), che in realtà è un file [ZIP](https   *//en.wikipedia.org/wiki/Zip_(file_format)) e, dopo le modifiche manuali, creare un nuovo file di progetto da essi.
+Con il comando **Utilità di progetto** è possibile estrarre i file da un file di progetto FreeCAD (***.FCStd**), che in realtà è un file [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)) e, dopo le modifiche manuali, creare un nuovo file di progetto da essi.
 
 ![](images/Project_utility_en.png ) 
 *La finestra di dialogo Utilità di progetto*
@@ -43,7 +43,7 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 <div class="mw-translate-fuzzy">
 
-È importante ricordare che i file all\'interno di un file di progetto di FreeCAD sono interconnessi. Basta modificare un singolo file per ottenere degli errori. Per apportare modifiche coerenti su più file, utilizzare un buon editor di codice, come [Notepad++](http   *//notepad-plus-plus.org/) (per il sistema operativo Windows).
+È importante ricordare che i file all\'interno di un file di progetto di FreeCAD sono interconnessi. Basta modificare un singolo file per ottenere degli errori. Per apportare modifiche coerenti su più file, utilizzare un buon editor di codice, come [Notepad++](http://notepad-plus-plus.org/) (per il sistema operativo Windows).
 
 
 </div>

@@ -1,6 +1,6 @@
 # Robot SetDefaultValues/ro
 ---
-- GuiCommand   *   Name   *Robot SetDefaultValues   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Set default values---
+- GuiCommand:   Name:Robot SetDefaultValues   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Set default values---
 
 
 </div>
@@ -40,7 +40,7 @@ Alegeți ** Robot** → ** Set default values** din meniul principal pentru a de
 
 #### Note
 
-Valorile implicite ale programului sunt   *he program\'s
+Valorile implicite ale programului sunt:he program\'s
 
 -   speed = 1 m/s
 -   continuous = false

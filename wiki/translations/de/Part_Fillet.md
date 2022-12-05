@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Part Fillet
-   Name/de   *Part Verrundung
-   MenuLocation   *Formteil → Verrundung
-   Workbenches   *[Part](Part_Workbench/de.md)
-   SeeAlso   *[Part Fase](Part_Chamfer/de.md)
+- GuiCommand:/de
+   Name:Part Fillet
+   Name/de:Part Verrundung
+   MenuLocation:Formteil → Verrundung
+   Workbenches:[Part](Part_Workbench/de.md)
+   SeeAlso:[Part Fase](Part_Chamfer/de.md)
 ---
 
 # Part Fillet/de
@@ -38,14 +38,14 @@ Dieses Werkzeug erzeugt eine Verrundung auf den ausgewählten Kanten eines Objek
 
 ## Formteilverrundung VS. PartDesign Verrundung 
 
-Es gibt ein weiteres Verrundungswerkzeug in der <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md). Bitte beachte, dass ihre Bedienung recht unterschiedlich ist. Siehe sich das <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) Referenzseite für weitere Einzelheiten zu ihren Unterschieden.
+Es gibt ein weiteres Verrundungswerkzeug in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md). Bitte beachte, dass ihre Bedienung recht unterschiedlich ist. Siehe sich das <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) Referenzseite für weitere Einzelheiten zu ihren Unterschieden.
 
 
 <div class="mw-translate-fuzzy">
 
 ## Hinweise zur Anwendung der Teilverrundung 
 
-Die Teilverrundung könnte nichts bringen, wenn das Ergebnis die nächste benachbarte Kante berühren oder überqueren würde. Wenn Du also nicht das erwartete Ergebnis bekommst, versuche es mit einem kleineren Wert. Dies gilt auch für <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Part Fase](Part_Chamfer/de.md).
+Die Teilverrundung könnte nichts bringen, wenn das Ergebnis die nächste benachbarte Kante berühren oder überqueren würde. Wenn Du also nicht das erwartete Ergebnis bekommst, versuche es mit einem kleineren Wert. Dies gilt auch für <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Part Fase](Part_Chamfer/de.md).
 
 
 </div>
@@ -53,7 +53,7 @@ Die Teilverrundung könnte nichts bringen, wenn das Ergebnis die nächste benach
 
 <div class="mw-translate-fuzzy">
 
-Das Verrundungswerkzeug schlägt manchmal fehl, wenn versucht wird, komplexe Objekte zu verrunden. Eine gängige Ursache dafür kann sein, dass die zu verrundende Form nicht geometrisch korrekt ist. Dies kann darauf zurückzuführen sein, dass Linien/Ebenen usw. nicht nach früheren Operationen zur Konstruktion der Form entfernt wurden (z.B. Schneiden/Überschneidung/Fügen). Eine Reihe von Schritten kann genutzt werden, um Probleme zu minimieren   *
+Das Verrundungswerkzeug schlägt manchmal fehl, wenn versucht wird, komplexe Objekte zu verrunden. Eine gängige Ursache dafür kann sein, dass die zu verrundende Form nicht geometrisch korrekt ist. Dies kann darauf zurückzuführen sein, dass Linien/Ebenen usw. nicht nach früheren Operationen zur Konstruktion der Form entfernt wurden (z.B. Schneiden/Überschneidung/Fügen). Eine Reihe von Schritten kann genutzt werden, um Probleme zu minimieren:
 
 -   Wenn möglich, lasse das Verrunden eines Teils, bis das Teil vollständig erzeugt ist. Dies minimiert die Wechselwirkung von Verrundungen mit nachfolgenden booleschen Operationen;
 -   Verwende die **Part → Gemetrie prüfen**, um auf Fehler in der Formgeometrie zu prüfen und zu korrigieren;

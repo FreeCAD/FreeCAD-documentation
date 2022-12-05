@@ -1,7 +1,7 @@
 # Drawing Workbench/it
 **Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.**
 
-<img alt="L\'icona di Drawing" src=images/Workbench_Drawing.svg  style="width   *128px;">
+<img alt="L\'icona di Drawing" src=images/Workbench_Drawing.svg  style="width:128px;">
 
 ## Introduzione
 
@@ -12,37 +12,37 @@ Permette di produrre delle viste (proiezioni sul piano) del modello, di posizion
 
 {{TOCright}}
 
-<img alt="" src=images/Drawing_extraction.png  style="width   *600px;">
+<img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
 ## Strumenti
 
 Questi strumenti permettono di creare, configurare e esportare le proiezioni dei solidi come disegni 2D.
 
--   <img alt="" src=images/Drawing_New.png  style="width   *32px;"> [Apri SVG](Drawing_Open_SVG/it.md)   * apre un foglio di disegno preventivamente salvato in un file SVG.
+-   <img alt="" src=images/Drawing_New.png  style="width:32px;"> [Apri SVG](Drawing_Open_SVG/it.md): apre un foglio di disegno preventivamente salvato in un file SVG.
 
--   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [Nuovo Disegno A3](Drawing_Landscape_A3/it.md)   * crea un nuovo disegno su un foglio di default A3 orizzontale di FreeCAD.
+-   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [Nuovo Disegno A3](Drawing_Landscape_A3/it.md): crea un nuovo disegno su un foglio di default A3 orizzontale di FreeCAD.
 
--   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Inserisci vista nel disegno](Drawing_View/it.md)   * inserisce nel foglio di lavoro attivo una vista in proiezione dell\'oggetto selezionato.
+-   <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Inserisci vista nel disegno](Drawing_View/it.md): inserisce nel foglio di lavoro attivo una vista in proiezione dell\'oggetto selezionato.
 
--   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Annotazione](Drawing_Annotation/it.md)   * aggiunge una annotazione al foglio di disegno corrente.
+-   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Annotazione](Drawing_Annotation/it.md): aggiunge una annotazione al foglio di disegno corrente.
 
--   <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Clip](Drawing_Clip/it.md)   * aggiunge un gruppo di clip al foglio di disegno corrente.
+-   <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Clip](Drawing_Clip/it.md): aggiunge un gruppo di clip al foglio di disegno corrente.
 
--   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Apri finestra browser](Drawing_Openbrowser/it.md)   * apre un\'anteprima del foglio corrente nel browser
+-   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Apri finestra browser](Drawing_Openbrowser/it.md): apre un\'anteprima del foglio corrente nel browser
 
--   <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Inserisci viste ortogonali](Drawing_Orthoviews/it.md)   * crea automaticamente le viste ortogonali di un oggetto nel foglio di disegno corrente
+-   <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Inserisci viste ortogonali](Drawing_Orthoviews/it.md): crea automaticamente le viste ortogonali di un oggetto nel foglio di disegno corrente
 
--   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Simbolo](Drawing_Symbol/it.md)   * aggiunge il contenuto di un file in formato SVG come un simbolo nel foglio di disegno corrente
+-   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Simbolo](Drawing_Symbol/it.md): aggiunge il contenuto di un file in formato SVG come un simbolo nel foglio di disegno corrente
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Vista Draft](Draft_Drawing/it.md)   * Inserisce una speciale vista Draft dell\'oggetto selezionato nel foglio del disegno corrente
+-   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Vista Draft](Draft_Drawing/it.md): Inserisce una speciale vista Draft dell\'oggetto selezionato nel foglio del disegno corrente
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Vista foglio di calcolo](Drawing_SpreadsheetView/it.md)   * Inserisce una vista di un foglio di calcolo selezionato nel foglio del disegno corrente
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width:32px;"> [Vista foglio di calcolo](Drawing_SpreadsheetView/it.md): Inserisce una vista di un foglio di calcolo selezionato nel foglio del disegno corrente
 
--   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Esporta pagina](Drawing_Save/it.md)   * salva il progetto o le sue modifiche in un file SVG.
+-   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Esporta pagina](Drawing_Save/it.md): salva il progetto o le sue modifiche in un file SVG.
 
--   [Proietta le forme](Drawing_ProjectShape/it.md)   * proietta le forme su un piano, nella vista 3D.
+-   [Proietta le forme](Drawing_ProjectShape/it.md): proietta le forme su un piano, nella vista 3D.
 
--    **Nota   ***lo strumento [Drawing di Draft](Draft_Drawing/it.md) è usabile con oggetti [Draft](Draft_Workbench/it.md). Ha alcune funzionalità aggiuntive rispetto agli strumenti di disegno e supporta oggetti specifici come le [dimensioni di Draft](Draft_Dimension/it.md).
+-    **Nota:**lo strumento [Drawing di Draft](Draft_Drawing/it.md) è usabile con oggetti [Draft](Draft_Workbench/it.md). Ha alcune funzionalità aggiuntive rispetto agli strumenti di disegno e supporta oggetti specifici come le [dimensioni di Draft](Draft_Dimension/it.md).
 
 ## Flusso di lavoro 
 
@@ -72,7 +72,7 @@ Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nel
 
 ## Link esterni 
 
--   [Intro to mechanical drawing on Youtube - by Normal Universe](https   *//www.youtube.com/watch?v=1Hm5Zyjmjac)
+-   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
 
@@ -80,9 +80,7 @@ Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nel
 
 {{Drawing Tools navi
 
-}} 
-
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
+}}
 
 
 

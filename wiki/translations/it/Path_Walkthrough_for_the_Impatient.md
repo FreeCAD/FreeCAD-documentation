@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Ambiente Path
-   Level   *
-   Time   *
-   Author   *Chrisb
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic:Ambiente Path
+   Level:
+   Time:
+   Author:Chrisb
+   FCVersion:
+   Files:
 ---
 
 # Path Walkthrough for the Impatient/it
@@ -35,7 +35,7 @@ Ecco una dimostrazione che mostra la creazione di una lavorazione del WB Path da
 
 <div class="mw-translate-fuzzy">
 
-Il progetto inizia con un semplice modello di FreeCAD   * un cubo con una tasca rettangolare,
+Il progetto inizia con un semplice modello di FreeCAD: un cubo con una tasca rettangolare,
 
 
 </div>
@@ -69,7 +69,7 @@ Completato il Modello 3D, selezionare l\'ambiente Path.
 
 ## La lavorazione 
 
-Cliccare su <img alt="" src=images/Path-Job.png  style="width   *32px;"> [Lavorazione](Path_Job/it.md) per crearne una.
+Cliccare su <img alt="" src=images/Path-Job.png  style="width:32px;"> [Lavorazione](Path_Job/it.md) per crearne una.
 
 
 </div>
@@ -105,7 +105,7 @@ Nella tabella Azioni si apre la finestra Job Edit e la vista del modello mostra 
 
 <div class="mw-translate-fuzzy">
 
-La scheda Output definisce il percorso del file di output, il suo nome e la sua estensione e definisce anche il Postprocessore. Per utenti esperti, è possibile definire gli argomenti dell\'algoritmo di post-elaborazione   * posizionando il mouse sopra i campi appaiono i suggerimenti per gli argomenti più comuni.
+La scheda Output definisce il percorso del file di output, il suo nome e la sua estensione e definisce anche il Postprocessore. Per utenti esperti, è possibile definire gli argomenti dell\'algoritmo di post-elaborazione: posizionando il mouse sopra i campi appaiono i suggerimenti per gli argomenti più comuni.
 
 
 </div>
@@ -179,7 +179,7 @@ Confermare i valori con OK.
 
 <div class="mw-translate-fuzzy">
 
-Per un facile accesso, tutti gli utensili possono essere predefiniti e selezionati dal <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *24px;">[Tool manager](Path_ToolLibraryEdit.md).
+Per un facile accesso, tutti gli utensili possono essere predefiniti e selezionati dal <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Tool manager](Path_ToolLibraryEdit.md).
 
 
 </div>
@@ -194,7 +194,7 @@ La scheda Piano di lavoro inizia vuota e viene popolata dalla sequenza delle Ope
 
 </div>
 
-Questo è albero che viene mostrato dopo la configurazione della lavorazione dopo che il percorso è stato aperto   *
+Questo è albero che viene mostrato dopo la configurazione della lavorazione dopo che il percorso è stato aperto:
 
 
 <div class="mw-translate-fuzzy">
@@ -217,7 +217,7 @@ Vengono ora aggiunte due operazioni per generare i percorsi di fresatura di ques
 
 <div class="mw-translate-fuzzy">
 
-Per ora facciamo una cosa semplice. Il pulsante <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Contornatura](Path_Profile/it.md) apre il pannello Contour. Dopo aver confermato l\'uso dei valori predefiniti con OK, il percorso verde attorno all\'oggetto diventa visibile.
+Per ora facciamo una cosa semplice. Il pulsante <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Contornatura](Path_Profile/it.md) apre il pannello Contour. Dopo aver confermato l\'uso dei valori predefiniti con OK, il percorso verde attorno all\'oggetto diventa visibile.
 
 
 </div>
@@ -225,7 +225,7 @@ Per ora facciamo una cosa semplice. Il pulsante <img alt="" src=images/Path_Prof
 
 <div class="mw-translate-fuzzy">
 
-Selezionare il fondo della tasca e poi il pulsante <img alt="" src=images/Path_Pocket.png  style="width   *32px;"> [Tasca](Path_Pocket_Shape/it.md) per aprire la finestra Pocket Shape. Vengono utilizzati i valori predefiniti per Geometria di base, Profondità e Altezza e viene selezionato il pannello secondario Operazione e la percentuale di passata è impostata su 50.
+Selezionare il fondo della tasca e poi il pulsante <img alt="" src=images/Path_Pocket.png  style="width:32px;"> [Tasca](Path_Pocket_Shape/it.md) per aprire la finestra Pocket Shape. Vengono utilizzati i valori predefiniti per Geometria di base, Profondità e Altezza e viene selezionato il pannello secondario Operazione e la percentuale di passata è impostata su 50.
 
 
 </div>
@@ -246,7 +246,7 @@ Cambiare Pattern in \"Offset\" e confermare con OK la Job Operation per la confi
 
 </div>
 
-Il risultato è un modello con due percorsi   *
+Il risultato è un modello con due percorsi:
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +263,7 @@ Esistono due modi per verificare i percorsi creati. Il codice G può essere ispe
 
 <div class="mw-translate-fuzzy">
 
-Per ispezionare il codice G, utilizzare lo strumento <img alt="" src=images/Path_Inspect.png  style="width   *32px;">. Selezionare le corrispondenti righe del codice G all\'interno della finestra di ispezione del codice G per evidenziare i singoli segmenti del percorso.
+Per ispezionare il codice G, utilizzare lo strumento <img alt="" src=images/Path_Inspect.png  style="width:32px;">. Selezionare le corrispondenti righe del codice G all\'interno della finestra di ispezione del codice G per evidenziare i singoli segmenti del percorso.
 
 ![](images/Path-InspectWindow.gif )
 
@@ -273,7 +273,7 @@ Per ispezionare il codice G, utilizzare lo strumento <img alt="" src=images/Path
 
 <div class="mw-translate-fuzzy">
 
-Per iniziare la simulazione usare lo strumento <img alt="" src=images/Path_Simulator.png  style="width   *32px;"> [Simulazione](Path_Simulator/it.md).
+Per iniziare la simulazione usare lo strumento <img alt="" src=images/Path_Simulator.png  style="width:32px;"> [Simulazione](Path_Simulator/it.md).
 
 
 </div>
@@ -304,13 +304,13 @@ Se si desidera terminare la simulazione, fare clic sul pulsante Annulla per rimu
 
 ## Postelaborare la lavorazione 
 
-Il passaggio finale per generare il G-Code per la fresatura è di postelaborare il la lavorazione. Questo produce i codici G in un file che può essere caricato nel controllore macchina CNC di destinazione. Per richiamare il postprocessore   *
+Il passaggio finale per generare il G-Code per la fresatura è di postelaborare il la lavorazione. Questo produce i codici G in un file che può essere caricato nel controllore macchina CNC di destinazione. Per richiamare il postprocessore:
 
 
 <div class="mw-translate-fuzzy">
 
 -   Selezionare l\'oggetto Job nell\'albero
--   Selezionare lo strumento Path Postprocessing <img alt="" src=images/Path_PostProcess.png  style="width   *32px;"> per postelaborare il file. Si apre una finestra di codice G che consente l\'ispezione del file di output finale prima che venga salvato.
+-   Selezionare lo strumento Path Postprocessing <img alt="" src=images/Path_PostProcess.png  style="width:32px;"> per postelaborare il file. Si apre una finestra di codice G che consente l\'ispezione del file di output finale prima che venga salvato.
 
 
 </div>

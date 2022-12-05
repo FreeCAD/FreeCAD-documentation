@@ -1,6 +1,6 @@
 # Sketcher ConstrainEqual/it
 ---
-- GuiCommand   */it   Name   *Sketcher ConstrainEqual   Name/it   *Uguale   Workbenches   *[MenuLocation   *PartDesign → Schizzo → Uguale   Shortcut   *E   SeeAlso   *[[Sketcher_ConstrainRadius/it|Raggio](Sketcher_Workbench/it___Schizzo]].md)---
+- GuiCommand:/it   Name:Sketcher ConstrainEqual   Name/it:Uguale   Workbenches:[MenuLocation:PartDesign → Schizzo → Uguale   Shortcut:E   SeeAlso:[[Sketcher_ConstrainRadius/it|Raggio](Sketcher_Workbench/it___Schizzo]].md)---
 
 
 </div>
@@ -34,7 +34,7 @@ Selezionare due o più segmenti di linea (ad esempio una linea e un lato del ret
 
 <div class="mw-translate-fuzzy">
 
-Fare clic sull\'icona **[<img src=images/Constraint_EqualLength.png style="width   *16px"> [Uguale](Sketcher_ConstrainEqual/it.md)** nella barra degli strumenti di vincolo o selezionare il vincolo Uguale dal sottomenu dell\'ambiente Schizzo (o quello dell\'ambiente PartDesign).
+Fare clic sull\'icona **[<img src=images/Constraint_EqualLength.png style="width:16px"> [Uguale](Sketcher_ConstrainEqual/it.md)** nella barra degli strumenti di vincolo o selezionare il vincolo Uguale dal sottomenu dell\'ambiente Schizzo (o quello dell\'ambiente PartDesign).
 
 
 </div>
@@ -48,7 +48,7 @@ Ora selezionare l\'arco e il cerchio nel disegno.
 
 <div class="mw-translate-fuzzy">
 
-e applicare il vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width   *16px;"> come in precedenza.
+e applicare il vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> come in precedenza.
 
 
 </div>
@@ -62,7 +62,7 @@ Ora selezionare il segmento di linea, tutti i segmenti della poli-linea e uno de
 
 <div class="mw-translate-fuzzy">
 
-e applicare vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width   *16px;"> come in precedenza.
+e applicare vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> come in precedenza.
 
 
 </div>
@@ -76,7 +76,7 @@ Selezionare il segmento di retta e l\'arco
 
 <div class="mw-translate-fuzzy">
 
-e applicare il vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width   *16px;"> come in precedenza. Una finestra di messaggio ricorda che gli elementi da vincolare devono essere dello stesso tipo geometrico (linee di curvatura pari a zero o linee con curvatura diversa da zero).
+e applicare il vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> come in precedenza. Una finestra di messaggio ricorda che gli elementi da vincolare devono essere dello stesso tipo geometrico (linee di curvatura pari a zero o linee con curvatura diversa da zero).
 
 
 </div>

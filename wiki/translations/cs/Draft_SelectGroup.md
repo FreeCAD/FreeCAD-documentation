@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */cs
-   Name   *Draft SelectGroup
-   Name/cs   *Kreslení VybratSkupinu
-   Workbenches   *[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
-   MenuLocation   *Kreslení -> Utility -> VybratSkupinu
-   Shortcut   *   SeeAlso   *[Draft AddToGroup](Draft_AddToGroup/cs.md), [Std CreateGroup](Std_Group/cs.md)
+- GuiCommand:/cs
+   Name:Draft SelectGroup
+   Name/cs:Kreslení VybratSkupinu
+   Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
+   MenuLocation:Kreslení -> Utility -> VybratSkupinu
+   Shortcut:   SeeAlso:[Draft AddToGroup](Draft_AddToGroup/cs.md), [Std CreateGroup](Std_Group/cs.md)
 ---
 
 # Draft SelectGroup/cs

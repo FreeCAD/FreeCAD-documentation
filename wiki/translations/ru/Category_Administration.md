@@ -1,8 +1,6 @@
 # Category:Administration/ru
 This category contains articles and categories about wiki administrative subjects.
 
-[Category   *Categories/ru](Category   *Categories/ru.md)
-
 ### Contents
 
 |     |     |     |

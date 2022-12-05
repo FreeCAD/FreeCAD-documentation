@@ -1,8 +1,6 @@
 # Category:Obsolete Workbenches/it
 This category lists pages related to the [Drawing Workbench/it](Drawing_Workbench/it.md).
 
-[Category   *Obsolete Workbenches/it](Category   *Obsolete_Workbenches/it.md)
-
 ### Contents
 
 |     |     |     |

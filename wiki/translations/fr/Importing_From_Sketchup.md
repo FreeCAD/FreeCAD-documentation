@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Par expérience, la meilleure méthode pour importer un fichier à partir de Sketchup consiste à utiliser le format Collada (\*.dae). FreeCAD ne supporte pas nativement le format Collada. Pour disposer de cette fonctionnalité dans FreeCAD, l\'utilisateur doit installer un module Python pour importer et exporter le format. C\'est une tâche relativement facile à effectuer et des instructions peuvent être trouvées sur la page [Modules python supplémentaires](Extra_python_modules/fr.md). Le lien direct vers les instructions est - [Modules python supplémentaires   * pyCollada](http   *//www.freecadweb.org/wiki/index.php?title=Extra_python_modules/fr#pyCollada).
+Par expérience, la meilleure méthode pour importer un fichier à partir de Sketchup consiste à utiliser le format Collada (\*.dae). FreeCAD ne supporte pas nativement le format Collada. Pour disposer de cette fonctionnalité dans FreeCAD, l\'utilisateur doit installer un module Python pour importer et exporter le format. C\'est une tâche relativement facile à effectuer et des instructions peuvent être trouvées sur la page [Modules python supplémentaires](Extra_python_modules/fr.md). Le lien direct vers les instructions est - [Modules python supplémentaires: pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules/fr#pyCollada).
 
 ## Importer les fichiers Collada (\*.dae) 
 
@@ -23,11 +23,6 @@ Collada (\*.dae) et STL sont des formats maillés. Pour utiliser ces fichiers da
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export/fr.md)
 -   [Import Export](Import_Export/fr.md)
 -   [Préférences Import Export](Import_Export_Preferences/fr.md)
-
-
-
-
-[Category   *Common Questions](Category_Common_Questions.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

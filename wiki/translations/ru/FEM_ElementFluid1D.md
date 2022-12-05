@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Одномерная секция для текучего вещества
-   Name   *FEM_ElementFluid1D
-   MenuLocation   *Модель → Геометрия элемента → Одномерная секция для текучего вещества
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   SeeAlso   *[Руководство по МКЭ](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name/ru:Одномерная секция для текучего вещества
+   Name:FEM_ElementFluid1D
+   MenuLocation:Модель → Геометрия элемента → Одномерная секция для текучего вещества
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   SeeAlso:[Руководство по МКЭ](FEM_tutorial/ru.md)
 ---
 
 # FEM ElementFluid1D/ru
@@ -15,22 +15,22 @@
 
 ## Применение
 
-1.  Существует несколько способов вызова команды   *
+1.  Существует несколько способов вызова команды:
     -   Нажмите кнопку **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)**.
     -   Или выберите пункт меню **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow**.
-2.  Выберите тип жидкости   * жидкость, газ или открытый канал
-3.  Выберите тип секции   * заполнение трубы, ввод трубы и т.д.
+2.  Выберите тип жидкости: жидкость, газ или открытый канал
+3.  Выберите тип секции: заполнение трубы, ввод трубы и т.д.
 4.  Введите параметры типа раздела.
 5.  Выберите и добавьте ребро.
 
 ## Ограничения
 
-1.  Карта работает только с 3 узловыми конечными элементами. Подробную информацию можно см.    * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+1.  Карта работает только с 3 узловыми конечными элементами. Подробную информацию можно см. : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
 
 ## Примечания
 
-1.  С примером построения гидравлической системы трубопроводов можно ознакомится по ссылке   * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
-2.  Модель расчета **fluid elements for 1D flow** использует \*FLUID SECTION параметры карточки материала. Подробную информацию о данном разделе параметров можно найти здесь   *
+1.  С примером построения гидравлической системы трубопроводов можно ознакомится по ссылке: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
+2.  Модель расчета **fluid elements for 1D flow** использует \*FLUID SECTION параметры карточки материала. Подробную информацию о данном разделе параметров можно найти здесь:
 
 
 

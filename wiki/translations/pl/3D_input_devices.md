@@ -3,10 +3,10 @@ FreeCAD obsługuje wybranee specjalistyczne urządzenia wejściowe, takie jak na
 
 ## Obsługiwany sprzęt 
 
--   3Dconnexion [SpaceNavigator](http   *//www.3dconnexion.com/products/spacenavigator.html)
-    -   Instrukcja uruchomienia   * [Manipulatora 3Dconnexion](3Dconnexion_input_devices/pl.md)
+-   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
+    -   Instrukcja uruchomienia: [Manipulatora 3Dconnexion](3Dconnexion_input_devices/pl.md)
 
-[category   *Documentation](category_Documentation.md)
+[category:Documentation](category_Documentation.md)
 
 
 

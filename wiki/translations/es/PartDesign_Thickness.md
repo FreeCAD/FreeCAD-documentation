@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *PartDesign Thickness
-   Name/es   *PartDesign Espesor
-   MenuLocation   *Part Design → Apply a dress up feature → Espesor
-   Workbenches   *[PartDesign](PartDesign_Workbench/es.md)
-   Version   *0.17
-   SeeAlso   *[Part Thickness](Part_Thickness/es.md)
+- GuiCommand:/es
+   Name:PartDesign Thickness
+   Name/es:PartDesign Espesor
+   MenuLocation:Part Design → Apply a dress up feature → Espesor
+   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
+   Version:0.17
+   SeeAlso:[Part Thickness](Part_Thickness/es.md)
 ---
 
 # PartDesign Thickness/es
@@ -23,7 +23,7 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 
 </div>
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
 *Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
 
 ## Uso
@@ -44,12 +44,12 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 </div>
 
 
-   *   *Remember*   *
+:   *Remember*:
     -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
 
 ### Edit a thickness 
 
-1.  Do one of the following   *
+1.  Do one of the following:
     -   Double-click the Thickness object in the [Tree view](Tree_view.md)
     -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
@@ -60,15 +60,15 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 
 <div class="mw-translate-fuzzy">
 
--   **Espesor**   * Grosor de la pared del objeto resultante. Introducir el valor deseado en números positivos.
+-   **Espesor**: Grosor de la pared del objeto resultante. Introducir el valor deseado en números positivos.
 -   **Modo**
-    -   *Piel*   * Seleccionando esta opción se obtiene un objeto como un jarrón, con un vaciado desde la cara superior, pero conservando la cara inferior.
-    -   *Tubo*   * Seleccionando esta opción se obtiene un objeto como un tubo, sin las caras superior ni inferior. En este caso es conveniente seleccionar las caras a ser eliminadas antes de iniciar la herramienta. Se pueden utilizar los botones de vistas predeterminadas o usar las teclas numéricas como ayuda a la selección de caras.
-    -   *Recto Verso*   *
+    -   *Piel*: Seleccionando esta opción se obtiene un objeto como un jarrón, con un vaciado desde la cara superior, pero conservando la cara inferior.
+    -   *Tubo*: Seleccionando esta opción se obtiene un objeto como un tubo, sin las caras superior ni inferior. En este caso es conveniente seleccionar las caras a ser eliminadas antes de iniciar la herramienta. Se pueden utilizar los botones de vistas predeterminadas o usar las teclas numéricas como ayuda a la selección de caras.
+    -   *Recto Verso*:
 -   **Tipo de unión**
-    -   *Arco*   * Añade el espesor hacia el exterior de las paredes, quitando los bordes exteriores y creando un redondeo de las aristas de un radio igual al espesor definido.
-    -   *Intersección*   * Cuando el espesor se aplica hacia afuera, crea los bordes rectos, sin redondear.
--   **Hacer el grosor hacia el interior**   * Al seleccionar esta casilla, el espesor es aplicado hacia el interior de las caras, con los bordes rectos, sin redondear.
+    -   *Arco*: Añade el espesor hacia el exterior de las paredes, quitando los bordes exteriores y creando un redondeo de las aristas de un radio igual al espesor definido.
+    -   *Intersección*: Cuando el espesor se aplica hacia afuera, crea los bordes rectos, sin redondear.
+-   **Hacer el grosor hacia el interior**: Al seleccionar esta casilla, el espesor es aplicado hacia el interior de las caras, con los bordes rectos, sin redondear.
 
 
 </div>
@@ -88,43 +88,43 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
+-    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
+-    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    **Base Feature|Link|hidden**: Link to the parent feature.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+-    **_ Body|LinkHidden|hidden**: Link to the parent body.
 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Thickness}}
 
--    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
+-    **Value|Length**: \"Thickness value\". Default: {{value|1 mm}}.
 
--    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+-    **Mode|Enumeration**: \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
 
--    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+-    **Join|Enumeration**: \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
 
--    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
+-    **Reversed|Bool**: \"Apply the thickness towards the solids interior\". Default: `False`.
 
--    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
+-    **Intersection|Bool**: \"Enable intersection-handling\". Default: `False`.
 
 
 

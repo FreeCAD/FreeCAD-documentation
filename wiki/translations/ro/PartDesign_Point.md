@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *PartDesign Point
-   Name/ro   *PartDesign Point
-   Workbenches   *[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation   *Part Design → Create a datum point
-   Version   *0.17
-   SeeAlso   *[[PartDesign Line/ro]], [[PartDesign Plane/ro]]
+- GuiCommand:/ro
+   Name:PartDesign Point
+   Name/ro:PartDesign Point
+   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation:Part Design → Create a datum point
+   Version:0.17
+   SeeAlso:[[PartDesign Line/ro]], [[PartDesign Plane/ro]]
 ---
 
 # PartDesign Point/ro
@@ -61,11 +61,11 @@ Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți cl
 
 ## Proprietăți
 
--    **MapMode**   * listează modurile de atașament folosite
+-    **MapMode**: listează modurile de atașament folosite
 
--    **Attachment Offset**   * applică o transformare (translație și rotație) în referință la plasamentul atașamentului.
+-    **Attachment Offset**: applică o transformare (translație și rotație) în referință la plasamentul atașamentului.
 
--    **Label**   * nume dat obiectului, acest nume poate fi schimbat dacă este necesar.
+-    **Label**: nume dat obiectului, acest nume poate fi schimbat dacă este necesar.
 
 ## Limite
 

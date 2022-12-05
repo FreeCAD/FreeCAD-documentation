@@ -1,33 +1,33 @@
 # Release notes 0.17/de
-<div id="itsfree" style="text-align   *left;color   *black;background   *#f6f6f6;margin   *1em 7em;padding   *0.5em 2em;border   *2px solid #a7d7f9;">
+<div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
-*Diese Version von FreeCAD ist unserem Freund Roland Frank gewidmet, [der uns im Jahr 2017 verlassen hat](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=25673). Er war ein aktives und sehr geschätztes Mitglied des FreeCAD-Forums und seine Video-Tutorien auf den Youtube-Kanälen [Learn FreeCAD](https   *//www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) und [BPLFRE](https   *//www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) haben vielen Menschen geholfen sich in FreeCAD zurechtzufinden.*
+*Diese Version von FreeCAD ist unserem Freund Roland Frank gewidmet, [der uns im Jahr 2017 verlassen hat](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). Er war ein aktives und sehr geschätztes Mitglied des FreeCAD-Forums und seine Video-Tutorien auf den Youtube-Kanälen [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) und [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) haben vielen Menschen geholfen sich in FreeCAD zurechtzufinden.*
 
 
 </div>
 
-FreeCAD 0.17 wurde am 6. April 2018 veröffentlicht, man kann es von der [GitHub](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann unter [MantisBT bugtracker FC 0.17 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=73) auf Englisch nachgelesen werden.
+FreeCAD 0.17 wurde am 6. April 2018 veröffentlicht, man kann es von der [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann unter [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73) auf Englisch nachgelesen werden.
 
 Ältere Veröffentlichungsnotizen von FreeCAD sind unter [Feature list](Feature_list#Release_notes/de.md) zu finden.
 
-<img alt="" src=images/Release017_Title.jpg  style="width   *800px;"> 
-*Garten-Eisenbahnwagen Orenstein&Koppel (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
+<img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
+*Garten-Eisenbahnwagen Orenstein&Koppel (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
 ## Highlights
 
-Es ist beinahe zwei Jahre her, seit der Veröffentlichung der vorherigen Version 0.16, aber das FreeCAD-Team hat sich in dieser Zeit nicht ausgeruht. Nahezu 6800 Änderungen wurden seitdem dem Quellcode von FreeCAD hinzugefügt. Zum Vergleich   * das ist mehr als dreimal so viel, als zwischen den Versionen 0.15 und 0.16 geändert wurde! Die meisten Arbeitsbereiche haben von diesen Verbesserungen profitiert und zwei komplett neue Arbeitsbereiche wurden hinzugefügt. Weitere neue Module wurden von der FreeCAD-Gemeinde entwickelt. Einige der Glanzlichter   *
+Es ist beinahe zwei Jahre her, seit der Veröffentlichung der vorherigen Version 0.16, aber das FreeCAD-Team hat sich in dieser Zeit nicht ausgeruht. Nahezu 6800 Änderungen wurden seitdem dem Quellcode von FreeCAD hinzugefügt. Zum Vergleich: das ist mehr als dreimal so viel, als zwischen den Versionen 0.15 und 0.16 geändert wurde! Die meisten Arbeitsbereiche haben von diesen Verbesserungen profitiert und zwei komplett neue Arbeitsbereiche wurden hinzugefügt. Weitere neue Module wurden von der FreeCAD-Gemeinde entwickelt. Einige der Glanzlichter:
 
 Der Arbeitsbereich **PartDesign** wurde komplett überarbeitet. Ein neuer Körpercontainer nimmt jetzt eine Kette von Features (Formelementen) auf und enthebt von der Anforderung, die Skizzen auf ebenen Körperflächen anbringen zu müssen. Neue Werkzeuge zum Erstellen von Bezugsgeometrien wie Punkte, Achsen und Ebenen machen PartDesign erheblich vielseitiger. ![](images/PartDesign_Body_tree.png )
 
-Der neue über das Werkzeug-Menü zugängliche [Addon-Manager](Std_AddonMgr/de.md) (der vorher als Makro zur Verfügung stand unter [addons installer macro](https   *//github.com/FreeCAD/FreeCAD-addons)) macht das Installieren und das Aktualisieren von zusätzlichen Modulen und Makros viel leichter und einheitlicher unter Windows, Mac OS X und Linux. <img alt="" src=images/Addon_manager_v017.png  style="width   *300px;">
+Der neue über das Werkzeug-Menü zugängliche [Addon-Manager](Std_AddonMgr/de.md) (der vorher als Makro zur Verfügung stand unter [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) macht das Installieren und das Aktualisieren von zusätzlichen Modulen und Makros viel leichter und einheitlicher unter Windows, Mac OS X und Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
-Der Arbeitsbereich **Sketcher** unterstützt nun die Erstellung von B-splines mit verschiedenen Weisen die Kontrollkurven zu bearbeiten und die Kurvendaten anzuzeigen. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width   *300px;">
+Der Arbeitsbereich **Sketcher** unterstützt nun die Erstellung von B-splines mit verschiedenen Weisen die Kontrollkurven zu bearbeiten und die Kurvendaten anzuzeigen. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
-Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu ersetzen und hat bereits mehr Werkzeuge als der alte Arbeitsbereich Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width   *300px;">
+Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu ersetzen und hat bereits mehr Werkzeuge als der alte Arbeitsbereich Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;">
 
 ## Allgemein
 
--   Yorik van Havre schrieb das \"[Das FreeCAD Handbuch](Manual   *Introduction/de.md)\", ein einführendes Buch über die Benutzung von FreeCAD.
+-   Yorik van Havre schrieb das \"[Das FreeCAD Handbuch](Manual:Introduction/de.md)\", ein einführendes Buch über die Benutzung von FreeCAD.
 -   Die Neuberechnung des Dokumentes kann nun über das Kontextmenü deaktiviert und aktiviert werden.
 -   Es gibt einen neuen Revit-Navigationsstil.
 -   Eine neue Navigationsanzeige an der unteren rechten Ecke des FreeCAD-Fensters erlaubt einen schnellen Zugriff auf den Navigationsstil.
@@ -36,15 +36,15 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Dem [Abhängigkeitsgraphen](Std_DependencyGraph/de.md) kamen grafische Verbesserungen zugute.
 -   Der STEP-import setzt auf den neuen [Partcontainer](Std_Part/de.md) auf und benutzt ihn, um die importierte STEP-Baugruppe in Unterbaugruppen zu organisieren und gibt damit weit besser die Struktur des Originaldokuments wieder. stpZ (ein komprimiertes STEP-Format) wird nun unterstützt.
--   Die meisten Icons in FreeCAD wurden überarbeitet und stimmen num besser mit den [Tango guidelines\|Tango-Richtlinien](http   *//tango.freedesktop.org/Tango_Icon_Theme_Guidelines) überein.
+-   Die meisten Icons in FreeCAD wurden überarbeitet und stimmen num besser mit den [Tango guidelines\|Tango-Richtlinien](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines) überein.
 
 -   Das FreeCAD-Projekt bedankt sich (acknowledges) für die Beiträge der Community durch Hinzufügen eines Credits-Reiters in der \"About FreeCAD\"-Anzeige. Neue License- und Libraries-Reiter zeigen die FreeCAD-Lizenz und bieten Informationen zu verwendeten Bibliotheken Dritter.
 
-<img alt="" src=images/AboutFreeCAD_Credits.png  style="width   *300px;">
+<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
 ## Arbeitsbereich Arch 
 
--   Neues Werkzeug [Arch Schedule/de](Arch_Schedule/de.md)   * Diese Werkzeug wurde komplett überarbeitet und bietet nun einen viel flexibleren Weg, Daten aus dem Dokument in einer Tabelle zu sammeln. Es können verschiedene Arten von Abfragen, wie Zählen von Objekten eines bestimmten Typs oder Aufsummieren des Volumens einer bestimmten Kategorie von Objekten verwendet werden.
+-   Neues Werkzeug [Arch Schedule/de](Arch_Schedule/de.md): Diese Werkzeug wurde komplett überarbeitet und bietet nun einen viel flexibleren Weg, Daten aus dem Dokument in einer Tabelle zu sammeln. Es können verschiedene Arten von Abfragen, wie Zählen von Objekten eines bestimmten Typs oder Aufsummieren des Volumens einer bestimmten Kategorie von Objekten verwendet werden.
 
 -   Ein neuer Satz von [Rohrwerkzeugen](Arch_Pipe/de.md) um Rohrsystem zu entwerfen. Man kann Linien, Skizzen oder Linienzüge benutzen, um Rohre zu platzieren und automatisch Verbindungen zwischen 2 oder 3 Rohren generieren.
 
@@ -52,11 +52,11 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Während der 2017er Auflage vom [Google Summer of Code](Google_Summer_of_Code.md), an der FreeCAD partizipiert hat, wurde das [Arch Rebar](Arch_Rebar/de.md) Werkzeug wesentlich erweitert und bekam eine freundliche Benutzerschnittstelle, um die Betonstrukturen einfach mit verschiedene Typen von Bewehrungen zu versehen.
 
-<img alt="" src=images/Arch_Rebar_preview.png  style="width   *640px;">
+<img alt="" src=images/Arch_Rebar_preview.png  style="width:640px;">
 
 -   [Fenster](Arch_Window/de.md) bekam verschiedene Erweiterungen, wie die Möglichkeit Unterkomponenten als \"zu öffnend\" zu definieren, Symbole für \"zu öffnend\" anzuzeigen, offen zu erscheinen und Lüftungsöffnungen zu integrieren.
 
-<img alt="" src=images/Arch_Door_preview.png  style="width   *640px;">
+<img alt="" src=images/Arch_Door_preview.png  style="width:640px;">
 
 -   Das [Arch Achsen](Arch_Axis/de.md) Werkzeug wurde ebenso neu geschrieben und erlaubt mehr komplexe Systeme durch das Kombinieren von verschiedenen Serien von Achsen. Sie können desweiteren angepasst werden, um verschiedenen Situationen wie Ebenen anzuzeigen.
 
@@ -74,35 +74,35 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 ## Arbeitsbereich Draft 
 
--   [Autogroup system](Draft_AutoGroup.md)   * Der Arbeitsbereich Draft offeriert nun eine Schaltfläche **auto-group** in der Hauptwerkzeugleiste. Alle neuen Draft- und Archobjekte werden automatisch in diese Gruppe platziert, wenn Auto-group aktiviert ist.
+-   [Autogroup system](Draft_AutoGroup.md): Der Arbeitsbereich Draft offeriert nun eine Schaltfläche **auto-group** in der Hauptwerkzeugleiste. Alle neuen Draft- und Archobjekte werden automatisch in diese Gruppe platziert, wenn Auto-group aktiviert ist.
 
--   [Gefälle-Werkzeug](Draft_Slope.md)   * Wenn das Gefälle-Werkzeug auf eine [Draftlinie](Draft_Line/de.md) oder einen [Draft-Kantenzug](Draft_Wire/de.md) angewandt wird, erlaubt das Werkzeug dem Objekt eine vorgebene Steigung bzw. vorgegebenes Gefälle zu geben. Das heißt, die Zwischenpunkte und der Endpunkt bekommen niedrigere Z-Werte, so dass das gesamte Objekt eine konstante Steigung aufweist. Dies ist hilfreich für Linien oder Kantenzüge, die als Basis für Objekte dienen, die eine präzises Gefälle aufweisen müssen, wie Dachflächen oder Abwasserleitungen.
+-   [Gefälle-Werkzeug](Draft_Slope.md): Wenn das Gefälle-Werkzeug auf eine [Draftlinie](Draft_Line/de.md) oder einen [Draft-Kantenzug](Draft_Wire/de.md) angewandt wird, erlaubt das Werkzeug dem Objekt eine vorgebene Steigung bzw. vorgegebenes Gefälle zu geben. Das heißt, die Zwischenpunkte und der Endpunkt bekommen niedrigere Z-Werte, so dass das gesamte Objekt eine konstante Steigung aufweist. Dies ist hilfreich für Linien oder Kantenzüge, die als Basis für Objekte dienen, die eine präzises Gefälle aufweisen müssen, wie Dachflächen oder Abwasserleitungen.
 
--   [Working Plane proxies](Draft_SetWorkingPlaneProxy/de.md)   * Beim Arbeiten mit [Draft working planes](Draft_SelectPlane/de.md) ist es oft notwendig die Lage von häufig genutzten Arbeitsebenen zu speichern. Dies ist nun möglich durch die Platzierung eines dieser Proxies (Stellvertreters) in dem Dokument. Es speichert die Lage der aktuellen Arbeitsebene und kann auch die aktuelle Ansicht und Objektsichtbarkeit wieder herstellen.
+-   [Working Plane proxies](Draft_SetWorkingPlaneProxy/de.md): Beim Arbeiten mit [Draft working planes](Draft_SelectPlane/de.md) ist es oft notwendig die Lage von häufig genutzten Arbeitsebenen zu speichern. Dies ist nun möglich durch die Platzierung eines dieser Proxies (Stellvertreters) in dem Dokument. Es speichert die Lage der aktuellen Arbeitsebene und kann auch die aktuelle Ansicht und Objektsichtbarkeit wieder herstellen.
 
-<img alt="" src=images/Draft_WP_preview.png  style="width   *640px;">
+<img alt="" src=images/Draft_WP_preview.png  style="width:640px;">
 
--   [Draft Stretch/de](Draft_Stretch/de.md)   * Der Arbeitsbereich Draft hat nun ein Streckwerkzeug, das es erlaubt, die Eckpunkte (Vertices) von mehreren Draftobjekten auf einmal zu bewegen.
+-   [Draft Stretch/de](Draft_Stretch/de.md): Der Arbeitsbereich Draft hat nun ein Streckwerkzeug, das es erlaubt, die Eckpunkte (Vertices) von mehreren Draftobjekten auf einmal zu bewegen.
 
--   [Draft Label](Draft_Label.md)   * Mit diesem Werkzeug können Erläuterungen im Dokument platziert werden, die aus einem Text und einer Bezugslinie bestehen, die entweder frei oder angeheftet an ein spezifisches Objekt platziert wird. Der Text kann entweder einen beliebigen Text oder automatisch einen Eigenschaftsinhalt des Zielobjektes darstellen.
+-   [Draft Label](Draft_Label.md): Mit diesem Werkzeug können Erläuterungen im Dokument platziert werden, die aus einem Text und einer Bezugslinie bestehen, die entweder frei oder angeheftet an ein spezifisches Objekt platziert wird. Der Text kann entweder einen beliebigen Text oder automatisch einen Eigenschaftsinhalt des Zielobjektes darstellen.
 
-<img alt="" src=images/Draft_Label_Preview.png  style="width   *640px;">
+<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
 ## Arbeitsbereich FEM 
 
 -   FEM Mesh
-    -   **Gmsh object** ist ein Netzobjekt, das die Verwendung des [Gmsh](http   *//gmsh.info/)-Vernetzungswerkzeugs innerhalb von FreeCAD erlaubt. Verschiedene Optionen von Gmsh werden unterstützt.
+    -   **Gmsh object** ist ein Netzobjekt, das die Verwendung des [Gmsh](http://gmsh.info/)-Vernetzungswerkzeugs innerhalb von FreeCAD erlaubt. Verschiedene Optionen von Gmsh werden unterstützt.
     -   **Boundary layer object for gmsh** ermöglicht es Grenzschichten zu erstellen.
     -   **Mesh group object for gmsh** ermöglicht es Knoten- und Elementgruppen zu erstellen. Die Namen können durch den Benutzer geändert werden.
     -   **Mesh region object for gmsh** ermöglicht es Netzregionen mit unterschiedlichen Elementgrößen für Knoten, Kanten, Flächen und Volumen zu erstellen.
     -   **GUI clear mesh tool** löscht das Netz aber behält alle Netzeinstellungen. Dies ist praktisch, wenn Dateien gemeinsam genutzt werden sollen.
     -   **GUI print mesh info tool** gibt alle Arten von Netzinformationen aus.
     -   **GUI mesh view provider** kann genau so gut Netze aus vierseitigen Flächen darstellen, wie sechsseitige, fünfseitige und pyramidenförmige Netzelemente.
-    -   **Mesh data model** wurde aktualisiert, um [SMESH](http   *//salome-platform.org) version 7.7.1 <https   *//github.com/FreeCAD/FreeCAD/commit/666a3e5a> zu verwenden.
+    -   **Mesh data model** wurde aktualisiert, um [SMESH](http://salome-platform.org) version 7.7.1 <https://github.com/FreeCAD/FreeCAD/commit/666a3e5a> zu verwenden.
     -   **Mesh API** wurde erweitert, um Python zu ermöglichen **mesh group data** aus den **FreeCAD SMESH FEM mesh data** auszulesen. Dies ist die Basis für das Gmsh-group-Objekt.
     -   **Mesh API** wurde erweitert, um mesh groups in das Abaqus- und CalculiX-inp-Datenformat zu exportieren.
     -   **FEM mesh 2 mesh tool** wandelt eine Oberfläche eines Volumennetzes in ein Netz für FreeCADs Mesh-Modul.
-    -   **Mesh problems   *** nicht positive Jacobi-Matrizen sind ein häufiges Problem in den FEM-Netzen. Elemente, die nicht positive Jacobi-Matrizen in dem CalculiX-Solver aufweisen, werden in FreeCAD farbig dargestellt.
+    -   **Mesh problems:** nicht positive Jacobi-Matrizen sind ein häufiges Problem in den FEM-Netzen. Elemente, die nicht positive Jacobi-Matrizen in dem CalculiX-Solver aufweisen, werden in FreeCAD farbig dargestellt.
     -   **Fenics** Import und Export des Fenics-Mesh-Formats wurden hinzugefügt.
 
 -   Objects
@@ -121,9 +121,9 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Solver
     -   **Solver frame work** was written from scratch during a Google Summer of Code project.
-    -   Support for FEM solver software **ElmerFEM**, <https   *//www.csc.fi/web/elmer>, was added.
+    -   Support for FEM solver software **ElmerFEM**, <https://www.csc.fi/web/elmer>, was added.
     -   Inside the solver frame work the analysis type can be chosen by an **equation object** (Elmer solver only, ATM.)
-    -   Basic support for FEM solver software **Z88**, <https   *//en.z88.de/z88os/>, was added.
+    -   Basic support for FEM solver software **Z88**, <https://en.z88.de/z88os/>, was added.
     -   **CalculiX** was ported to the solver frame work. The ccxtools solver object remains in FreeCAD FEM because it is very well tested and has extended pre checks.
 
 -   Calculix analysis
@@ -136,7 +136,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
     -   **Peeq strain** Support for equivalent plastic strain has been added to the result object, result reader and vtk post processing.
 
 -   Extended Post Processing
-    -   **VTK** An extended post processing based on [VTK](https   *//www.vtk.org/) has been added.
+    -   **VTK** An extended post processing based on [VTK](https://www.vtk.org/) has been added.
     -   **Clip filter** \...
     -   **Scalar clip filter** \...
     -   **Cut filter** \...
@@ -157,23 +157,23 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Einige Bilder
 
-<img alt="" src=images/bridge-all.png  style="width   *640px;"> <img alt="" src=images/bridge-detail.png  style="width   *640px;">
+<img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
 ## Arbeitsbereich Part 
 
 -   Der Open Cascade geometrische CAD-Kernel wird jetzt in der Version von 6.8.0 auf 7.2.0 angehoben (die aktuelle OCC-Version kann von der Plattform/Distribution abhängen). Diese Version enthält viele Fehlerkorrekturen in den Boolesche Operationen, dem Algorithmus zur Entfernung von unsichtbaren Linien und erlaubt neue Feature, die dem Arbeitsbereich Part hinzugefügt wurden.
 
--   Neue Features   * [Boolean Fragments](Part_BooleanFragments.md), [Slice](Part_Slice.md) und [XOR](Part_XOR.md).
+-   Neue Features: [Boolean Fragments](Part_BooleanFragments.md), [Slice](Part_Slice.md) und [XOR](Part_XOR.md).
 
 -   Durch diese neuen Fähigkeiten können nun zusammengesetzte Volumenkörper (compsolids) in FreeCAD erstellt werden. Diese sind insbesondere in dem Arbeitsbereich FEM von großen Nutzen.
 
 -   Die Leistung und Zuverlässigkeit von [Connect](Part_JoinConnect.md) wurden verbessert und das Werkzeug wurde vielseitiger.
 
--   Ein neues Feature   * [2D Offset](Part_Offset2D.md), um ebene Kantenzüge zu versetzen.
+-   Ein neues Feature: [2D Offset](Part_Offset2D.md), um ebene Kantenzüge zu versetzen.
 
--   Erweiterung   * Das Werkzeug [Part Extrude](Part_Extrude/de.md) unterstützt nun eine parametrische Normalenrichtung mittels einer verlinkten Kante, Richtungsumkehr, 2te Länge, 2ten Abschrägungswinkel und Symmetrie. Die erstelle Volumenkörper-Option ist nun automatisch ausgewählt, wenn der Dialog geöffnet wird und eine geschlossene Kontur ausgewählt wurde.
+-   Erweiterung: Das Werkzeug [Part Extrude](Part_Extrude/de.md) unterstützt nun eine parametrische Normalenrichtung mittels einer verlinkten Kante, Richtungsumkehr, 2te Länge, 2ten Abschrägungswinkel und Symmetrie. Die erstelle Volumenkörper-Option ist nun automatisch ausgewählt, wenn der Dialog geöffnet wird und eine geschlossene Kontur ausgewählt wurde.
 
--   Erweiterung   * Das Werkzeug [Part Revolve](Part_Revolve/de.md) unterstützt nun eine parametrische Verbindung zur Rotationsachse (eigentlich in nur in PartDesign).
+-   Erweiterung: Das Werkzeug [Part Revolve](Part_Revolve/de.md) unterstützt nun eine parametrische Verbindung zur Rotationsachse (eigentlich in nur in PartDesign).
 
 -   Die neue Hilfsfunktion [Part Befestigen](Part_EditAttachment/de.md), verfügbar über das Menü *Part → Attachment...*, kann benutzt werden, um die meisten Arten von Objekten parametrisch mit anderen Geometrien zu verbinden.
 
@@ -181,11 +181,11 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 ## Arbeitsbereich PartDesign 
 
-Der Arbeitsbereich PartDesign erlebte massive Änderungen, die Frucht der gemeinsamen Anstrengungen von einer Vielzahl von Entwicklern über einen Zeitraum von 5 Jahren. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width   *800px;">
+Der Arbeitsbereich PartDesign erlebte massive Änderungen, die Frucht der gemeinsamen Anstrengungen von einer Vielzahl von Entwicklern über einen Zeitraum von 5 Jahren. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
 -   Der neue Container [Body](PartDesign_Body/de.md) nimmt eine Kette von PartDesign-Features auf, die einen einzelnen zusammenhängenden Volumenkörper bilden. Er enthält auch die Standardebenen und -achsen, an denen ebenfalls Objekte angeheftet werden können. Dank des Body-Containers ist es nun nicht länger notwendig, die Skizzen an Flächen zu heften, wenn neue Formelemente hinzugefügt werden sollen. Diese Notwendigkeit war lange eine große Limitierung des alten PartDesign, die in vielen Fällen das Versagen der Modelle bei Parameteränderungen verursacht hat. Daher wird jetzt empfohlen, das Zuordnen von Skizzen zu Flächen zu vermeiden, soweit dies möglich ist.
 
--   Neue additive und subtraktive Formelemente   * [Grundkörper](PartDesign_CompPrimitiveAdditive/de.md), [Ausformung](PartDesign_AdditiveLoft/de.md), [Austragung](PartDesign_AdditivePipe/de.md), [Thickness](PartDesign_Thickness/de.md).
+-   Neue additive und subtraktive Formelemente: [Grundkörper](PartDesign_CompPrimitiveAdditive/de.md), [Ausformung](PartDesign_AdditiveLoft/de.md), [Austragung](PartDesign_AdditivePipe/de.md), [Thickness](PartDesign_Thickness/de.md).
 
 -   Neue Bezugselemente wie [Bezugsebene](PartDesign_Plane/de.md), [Bezugslinie](PartDesign_Line/de.md) und [Bezugspunkt](PartDesign_Point/de.md), die für die Platzierung und Ausrichtung von Skizzen und als Drehachsen für Drehelemente dienen können.
 
@@ -221,9 +221,9 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 
 -   Externe Geometrie verlinkt nicht mehr nur zu dem Objekt, dem die Skizze zugeordnet ist. Geometrie von anderen Skizzen wird ebenfalls unterstützt. Links zu externer Geometrie können innerhalb eines Part-Containers oder eines Body-Containers oder selbst in dem ganzen Projekt, wenn Part- und Body-Container nicht verwendet werden, erstellt werden.
 
--   Automatische Sichtbarkeit   * wenn man jetzt beginnt eine Skizze zu bearbeiten, werden von der Skizze abhängige Objekte automatisch ausgeblendet um freie Sicht zu haben, und Objekte eingeblendet, die für externe Geometrie verwendet wurden; die vorherige Sichtbarkeit wird beim Schließen der Skizze wieder hergestellt.
+-   Automatische Sichtbarkeit: wenn man jetzt beginnt eine Skizze zu bearbeiten, werden von der Skizze abhängige Objekte automatisch ausgeblendet um freie Sicht zu haben, und Objekte eingeblendet, die für externe Geometrie verwendet wurden; die vorherige Sichtbarkeit wird beim Schließen der Skizze wieder hergestellt.
 
--   Neuer kontinuierlicher Erstellungsmodus für Beschränkungen (constraints)   * Die Beschränkungswerkzeuge sind jetzt immer aktiv, selbst wenn kein Element ausgewählt wurde. Klicke auf eine Beschränkung und wähle dann die Objekte aus, auf die die Beschränkung angewemdet werden soll.
+-   Neuer kontinuierlicher Erstellungsmodus für Beschränkungen (constraints): Die Beschränkungswerkzeuge sind jetzt immer aktiv, selbst wenn kein Element ausgewählt wurde. Klicke auf eine Beschränkung und wähle dann die Objekte aus, auf die die Beschränkung angewemdet werden soll.
 
 -   Neue Werkzeuge zur Erstellung von Hyperbeln und Parabeln.
 
@@ -263,15 +263,15 @@ Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Übe
 
 ## Arbeitsbereich TechDraw 
 
-Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) ist ein neuer Arbeitsbereich zur Erstellung von technischen Zeichnungen, der antritt den veralteten Arbeitsbereich Drawing zu ersetzen. FreeCAD v0.17 wird immer noch mit dem Arbeitsbereich Drawing ausgeliefert, so dass es noch möglich ist, die Dokumente, die Drawing-Seiten enthalten, zu öffnen und zu editieren, aber Drawing wird in zukünftigen Versionen auslaufen. Einige der aufregenden neuen Sachen die TechDraw mitbringt   *
+Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) ist ein neuer Arbeitsbereich zur Erstellung von technischen Zeichnungen, der antritt den veralteten Arbeitsbereich Drawing zu ersetzen. FreeCAD v0.17 wird immer noch mit dem Arbeitsbereich Drawing ausgeliefert, so dass es noch möglich ist, die Dokumente, die Drawing-Seiten enthalten, zu öffnen und zu editieren, aber Drawing wird in zukünftigen Versionen auslaufen. Einige der aufregenden neuen Sachen die TechDraw mitbringt:
 
 -   Die meisten Werkzeuge des Arbeitsbereichs Drawing haben ein Gegenstück im Arbeitsbereich TechDraw.
 -   Leichter Erstellung von Ansichten und deren Bearbeitung. Ansichten können an ihren Rahmen mit der Maus gefasst werden und auf der Seite verschoben werden. Die Ausrichtung der orthogonalen Ansichten kann festgelegt werden.
 -   Besseres Linientypenmanagement (hart, gerundet, iso, Naht). Besseres Entfernen der verdeckten Linien dank der neuen [OCC](Glossary/de#OCC.md) Bibliothek.
 -   Schnittansicht, Erstellung von Detailansichten.
 -   Besseres Vorlagenmanagement.
--   Das Bemaßen wird nun mit mehreren Bemaßungswerkzeugen unterstützt   * horizontal, vertikal, Länge, Radius, Durchmesser, Winkel.
--   Gestaltungswerkzeuge   * Schraffur, Schraffur kompatibel zur Autodesk PAT Specifikation, Symbole, Bilder.
+-   Das Bemaßen wird nun mit mehreren Bemaßungswerkzeugen unterstützt: horizontal, vertikal, Länge, Radius, Durchmesser, Winkel.
+-   Gestaltungswerkzeuge: Schraffur, Schraffur kompatibel zur Autodesk PAT Specifikation, Symbole, Bilder.
 
 ## Zussätzliche Module 
 
@@ -279,23 +279,21 @@ Einige der neuen Module, die von der FreeCAD-Gemeinschaft geschaffen wurden.
 
 -   Der Arbeitsbereich [Manipulator](Manipulator_Workbench/de.md) soll mit einer freundlichen Benutzeroberfläche dabei helfen 3D-Objekte auszurichten, zu verschieben, zu drehen und zu messen (Part Design allowed).
 
--   [Curves](https   *//github.com/tomate44/CurvesWB), eine Sammlung von Werkzeugen, um \[<https   *//de.wikipedia.org/wiki/Non-Uniform_Rational_B-Spline%5D-Kurven> und -Oberflächen zu erstellen und zu bearbeiten.
+-   [Curves](https://github.com/tomate44/CurvesWB), eine Sammlung von Werkzeugen, um \[<https://de.wikipedia.org/wiki/Non-Uniform_Rational_B-Spline%5D-Kurven> und -Oberflächen zu erstellen und zu bearbeiten.
 
--   [Nurbs](https   *//github.com/microelly2/freecad-nurbs), Eine Sammlung von Scripten zum Bearbeiten von Freiformoberflächen und -kurven.
+-   [Nurbs](https://github.com/microelly2/freecad-nurbs), Eine Sammlung von Scripten zum Bearbeiten von Freiformoberflächen und -kurven.
 
--   [Silk](https   *//github.com/edwardvmills/Silk), eine Sammlung von Werkzeugen zur Bearbeitung von NURBS-Oberflächen mit dem Fokus auf niedrigen Grad und Nahtkontinuität.
+-   [Silk](https://github.com/edwardvmills/Silk), eine Sammlung von Werkzeugen zur Bearbeitung von NURBS-Oberflächen mit dem Fokus auf niedrigen Grad und Nahtkontinuität.
 
 -   Der Arbeitsbereich [Flamingo](Flamingo_Workbench/de.md) ist ein Satz von benutzerdefinierten FreeCAD-Befehlen und Objekten, die dabei helfen die Darstellung von Rahmen und Rohrleitungen zu beschleunigen. and objects that help to speed-up the drawing of frames and pipelines.
 
 -   [Civil Engineering/Transportation Workbench](Civil_Engineering_Workbench.md)
 
--   [GDT](https   *//github.com/juanvanyo/FreeCAD-GDT), geometrische Bemaßung und Tolerierung (GD&T).
+-   [GDT](https://github.com/juanvanyo/FreeCAD-GDT), geometrische Bemaßung und Tolerierung (GD&T).
 
--   [InventorLoader](https   *//github.com/jmplonka/InventorLoader) Importfilter für Autodesk Inventor-Dateien (in Arbeit).
+-   [InventorLoader](https://github.com/jmplonka/InventorLoader) Importfilter für Autodesk Inventor-Dateien (in Arbeit).
 
--   [Kicad StepUp Workbench](https   *//www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
+-   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
 
 

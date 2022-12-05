@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Part_Chamfer
-   Name/ru   *Фаска
-   MenuLocation   *Деталь → Фаска
-   Workbenches   *[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso   *[Скругление](Part_Fillet/ru.md)
+- GuiCommand:/ru
+   Name:Part_Chamfer
+   Name/ru:Фаска
+   MenuLocation:Деталь → Фаска
+   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso:[Скругление](Part_Fillet/ru.md)
 ---
 
 # Part Chamfer/ru
@@ -17,7 +17,7 @@
 
 ## Применение
 
-1.  Существует несколько способов для вызова данной команды   *
+1.  Существует несколько способов для вызова данной команды:
     -   Нажатием кнопки **<img src="images/Part_Chamfer.svg" width=16px> Фаска** на панели инструментов.
     -   Через пункт главного меню **Деталь → Фаска**.
 2.  В открывшемся диалоговом окне выберите фигуру для снятия фаски.
@@ -41,18 +41,18 @@
 
 {{Properties_Title|Основание}}
 
--    {{PropertyData/ru|Основание}}   * Форма, к которой должна быть применена фаска.
+-    {{PropertyData/ru|Основание}}: Форма, к которой должна быть применена фаска.
 
--    {{PropertyData/ru|Placement}}   * Задаёт ориентацию и положение фигуры в 3D-пространстве.
+-    {{PropertyData/ru|Placement}}: Задаёт ориентацию и положение фигуры в 3D-пространстве.
 
--    {{PropertyData/ru|Label}}   * Ярлык, присвоенный объекту. Можете изменить его в соответствии с вашими потребностями.
+-    {{PropertyData/ru|Label}}: Ярлык, присвоенный объекту. Можете изменить его в соответствии с вашими потребностями.
 
 
 
 
 ## Ограничения
 
-Фаска может не сработать, если результат будет касаться или пересечёт следующее соседнее ребро. Поэтому, если вы не получили ожидаемого результата, попробуйте использовать меньшее значение. Это относится и для <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Скругления](Part_Fillet/ru.md).
+Фаска может не сработать, если результат будет касаться или пересечёт следующее соседнее ребро. Поэтому, если вы не получили ожидаемого результата, попробуйте использовать меньшее значение. Это относится и для <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Скругления](Part_Fillet/ru.md).
 
 Также обратите внимание, что на функцию фаски детали влияет [Topological naming problem (Проблема топологического именования)](Topological_naming_problem/ru.md), когда любое изменение выполняется на этапе моделирования ранее в цепочке, которое влияет на количество граней или вершин. Это может привести к непредсказуемому результату. До тех пор, пока это не будет решено (возможно, с V0.20), рекомендуется применять операции фаски и [Скругление](Part_Fillet/ru.md) на последних этапах цепочки моделирования.
 
@@ -60,14 +60,14 @@
 
 Инструмент Фаски можно использовать в [Макросах](Macros/ru.md) и из консоли [Python](Python/ru.md), добавив объект Фаска в документ.
 
-**Пример сценария(скрипта)   ***
+**Пример сценария(скрипта):**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -87,12 +87,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Объяснения к Сценарию из примера   ***
+**Объяснения к Сценарию из примера:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -100,7 +100,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 ```
 
 -   Добавляет в документ новый объект типа Chamfer/Фаска (из модуля Part/Деталь) с ярлыком \"myChamfer\".

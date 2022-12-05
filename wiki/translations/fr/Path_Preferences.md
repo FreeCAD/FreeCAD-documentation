@@ -5,11 +5,11 @@
 
 L\'écran des [préférences du module Path](Path_Workbench/fr.md) se trouve dans la fenêtre [Préférences](Preferences_Editor/fr.md) (Menu Édition → Préférences → Path).
 
-Il existe trois onglets   * [Préférences des tâches](#Pr.C3.A9f.C3.A9rences_des_t.C3.A2ches.md), [Habillage](#Habillage.md), [Interface graphique](#Interface_graphique.md) et [Avancé](#Avanc.C3.A9.md).
+Il existe trois onglets: [Préférences des tâches](#Pr.C3.A9f.C3.A9rences_des_t.C3.A2ches.md), [Habillage](#Habillage.md), [Interface graphique](#Interface_graphique.md) et [Avancé](#Avanc.C3.A9.md).
 
 ## Préférences des tâches 
 
-Il y a quatre sections   * Général, Post-processeur, Configuration et Outils
+Il y a quatre sections: Général, Post-processeur, Configuration et Outils
 
 ### Préférences des tâches → Général 
 
@@ -45,9 +45,7 @@ Il y a quatre sections   * Général, Post-processeur, Configuration et Outils
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

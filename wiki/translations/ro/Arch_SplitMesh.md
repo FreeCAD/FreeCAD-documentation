@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch SplitMesh
-   Name/ro   *Arch SplitMesh
-   MenuLocation   *Arch → Utilities → Split Mesh
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   SeeAlso   *[[Arch SelectNonSolidMeshes]], [[Arch MeshToShape]]
+- GuiCommand:/ro
+   Name:Arch SplitMesh
+   Name/ro:Arch SplitMesh
+   MenuLocation:Arch → Utilities → Split Mesh
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   SeeAlso:[[Arch SelectNonSolidMeshes]], [[Arch MeshToShape]]
 ---
 
 # Arch SplitMesh/ro
@@ -52,7 +52,7 @@ Acest instrument împarte un obiect selectat [ Mesh](Mesh_Workbench.md) în comp
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Split Mesh poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție   *
+Instrumentul Split Mesh poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție:
 
 
 </div>
@@ -70,7 +70,7 @@ new_list = splitMesh(obj, mark=True)
 
 </div>
 
-Example   *
+Example:
 
 
 ```python
@@ -83,7 +83,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 

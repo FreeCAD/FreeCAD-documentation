@@ -1,9 +1,9 @@
 # Online Help Toc/de
-Dies ist das Inhaltsverzeichnis, das für den automatischen Aufbau des **Online-Hilfe**-Systems in FreeCAD verwendet wird. Eine druckbare Version dieses Handbuchs ist auch auf der Seite [Veröffentlichungsseite](https   *//github.com/FreeCAD/FreeCAD/releases) (z.Zt. nur in Englisch) verfügbar. Wenn Du Fragen hast oder Hilfe zu FreeCAD benötigst, besuch bitte die **[Hilfeseite](Help/de.md)** einschließlich der Foren und Chatgruppen.
+Dies ist das Inhaltsverzeichnis, das für den automatischen Aufbau des **Online-Hilfe**-Systems in FreeCAD verwendet wird. Eine druckbare Version dieses Handbuchs ist auch auf der Seite [Veröffentlichungsseite](https://github.com/FreeCAD/FreeCAD/releases) (z.Zt. nur in Englisch) verfügbar. Wenn Du Fragen hast oder Hilfe zu FreeCAD benötigst, besuch bitte die **[Hilfeseite](Help/de.md)** einschließlich der Foren und Chatgruppen.
 
-Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual   *Introduction/de.md).
+Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Introduction/de.md).
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Einführung
     -   [Willkommen](Online_Help_Startpage/de.md)
@@ -23,28 +23,28 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual   *In
     -   [Eigenschaftseditor](Property_editor/de.md)
 
 -   Die [Arbeitsbereiche](Workbenches/de.md)
-    -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Standardwerkzeuge für alle Arbeitsbereiche](Std_Base/de.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;">[Arbeitsbereich Arch](Arch_Workbench/de.md) (Architektur)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;">[Arbeitsbereich Draft](Draft_Workbench/de.md) (Zeichnungsbasiertes Entwerfen)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;">[Arbeitsbereich FEM](FEM_Workbench/de.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;">[Arbeitsbereich Image](Image_Workbench/de.md) (Bildebenen/Hintergrundbilder)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;">[Arbeitsbereich Inspection](Inspection_Workbench/de.md) (Formen vergleichen)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;">[Arbeitsbereich Mesh](Mesh_Workbench/de.md) (Polygonnetze bearbeiten)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;">[Arbeitsbereich OpenSCAD](OpenSCAD_Workbench/de.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;">[Arbeitsbereich Part](Part_Workbench/de.md) (Konstruktion mit Festkörper- und Flächenobjekten)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;">[Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) (Konstruktion mit skizzenbasierten Festkörperobjekten)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;">[Arbeitsbereich Path](Path_Workbench/de.md) (Erstellung von CNC-Bewegungsbahnen)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;">[Arbeitsbereich Points](Points_Workbench/de.md) (Bearbeitung von Punktwolken)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;">[Arbeitsbereich Raytracing](Raytracing_Workbench/de.md) (Erzeugung fotorealistischer Bilder - veraltet)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;">[Arbeitsbereich Reverse Engineering](Reverse_Engineering_Workbench/de.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;">[Arbeitsbereich Roboter](Robot_Workbench/de.md) (Robotersimulation)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;">[Arbeitsbereich Sketcher](Sketcher_Workbench/de.md) (Bearbeitung offener und geschlossener 2D-Konturen)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;">[Arbeitsbereich Spreadsheet](Spreadsheet_Workbench/de.md) (Tabellenkalkulation)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;">[Arbeitsbereich Start](Start_Workbench/de.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;">[Arbereitsbereich Surface](Surface_Workbench/de.md) (Erstellung von NURBS-Flächen)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;">[Arbeitsbereich TechDraw](TechDraw_Workbench/de.md) (Ableitung Technischer Zeichnungen)
-    -   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [Arbeitsbereich Test-Framework](Testing.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;">[Arbeitsbereich Web](Web_Workbench/de.md) (Web-Browser)
+    -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Standardwerkzeuge für alle Arbeitsbereiche](Std_Base/de.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[Arbeitsbereich Arch](Arch_Workbench/de.md) (Architektur)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;">[Arbeitsbereich Draft](Draft_Workbench/de.md) (Zeichnungsbasiertes Entwerfen)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;">[Arbeitsbereich FEM](FEM_Workbench/de.md)
+    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;">[Arbeitsbereich Image](Image_Workbench/de.md) (Bildebenen/Hintergrundbilder)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;">[Arbeitsbereich Inspection](Inspection_Workbench/de.md) (Formen vergleichen)
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;">[Arbeitsbereich Mesh](Mesh_Workbench/de.md) (Polygonnetze bearbeiten)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;">[Arbeitsbereich OpenSCAD](OpenSCAD_Workbench/de.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;">[Arbeitsbereich Part](Part_Workbench/de.md) (Konstruktion mit Festkörper- und Flächenobjekten)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;">[Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) (Konstruktion mit skizzenbasierten Festkörperobjekten)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;">[Arbeitsbereich Path](Path_Workbench/de.md) (Erstellung von CNC-Bewegungsbahnen)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;">[Arbeitsbereich Points](Points_Workbench/de.md) (Bearbeitung von Punktwolken)
+    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;">[Arbeitsbereich Raytracing](Raytracing_Workbench/de.md) (Erzeugung fotorealistischer Bilder - veraltet)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;">[Arbeitsbereich Reverse Engineering](Reverse_Engineering_Workbench/de.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;">[Arbeitsbereich Roboter](Robot_Workbench/de.md) (Robotersimulation)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;">[Arbeitsbereich Sketcher](Sketcher_Workbench/de.md) (Bearbeitung offener und geschlossener 2D-Konturen)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;">[Arbeitsbereich Spreadsheet](Spreadsheet_Workbench/de.md) (Tabellenkalkulation)
+    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;">[Arbeitsbereich Start](Start_Workbench/de.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;">[Arbereitsbereich Surface](Surface_Workbench/de.md) (Erstellung von NURBS-Flächen)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;">[Arbeitsbereich TechDraw](TechDraw_Workbench/de.md) (Ableitung Technischer Zeichnungen)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Arbeitsbereich Test-Framework](Testing.md)
+    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Arbeitsbereich Web](Web_Workbench/de.md) (Web-Browser)
     -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 
 -   [Liste der FreeCAD Befehle](List_of_Commands/de.md)
@@ -103,17 +103,12 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual   *In
         -   [Hinzufügen eines Arbeitsbereichs](Workbench_creation/de.md)
         -   [Zusätzliche Python Module installieren](Extra_python_modules/de.md)
     -   [Quelldokumentation](Source_documentation/de.md)
-    -   [API](https   *//www.freecadweb.org/api/)
+    -   [API](https://www.freecadweb.org/api/)
 
 -   Danksagungen
     -   [Mitwirkende](Contributors/de.md)
 
 -   [Begriffserläuterungen](Glossary/de.md)
-
-
-
-
-[Category   *Documentation](Category_Documentation.md)
 
 
 

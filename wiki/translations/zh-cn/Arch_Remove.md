@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */zh-cn
-   Name   *Arch Remove
-   Name/zh-cn   *建筑移除工具
-   MenuLocation   *Arch → Remove
-   Workbenches   *[Arch](Arch_Workbench/zh-cn.md)
-   SeeAlso   *[[Arch Add/zh-cn]]
+- GuiCommand:/zh-cn
+   Name:Arch Remove
+   Name/zh-cn:建筑移除工具
+   MenuLocation:Arch → Remove
+   Workbenches:[Arch](Arch_Workbench/zh-cn.md)
+   SeeAlso:[[Arch Add/zh-cn]]
 ---
 
 # Arch Remove/zh-cn
@@ -33,7 +33,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;"> 
 *从墙体中去掉一个立方体，于是便留下了一个洞。*
 
 
@@ -70,7 +70,7 @@
 ## 脚本
 
 
-**参阅   ***
+**参阅:**
 
 [Arch API](Arch_API.md) 与 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
 
@@ -100,7 +100,7 @@ import FreeCAD, Draft, Arch
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std TreeSyncPlacement
-   Name/pl   *Std   * Synchronizuj położenie w widoku drzewa
-   MenuLocation   *Widok → Akcje widoku drzewa → Synchronizuj położenie
-   Workbenches   *wszystkie
-   Shortcut   ***T** **3**
-   Version   *0.19
+- GuiCommand:/pl
+   Name:Std TreeSyncPlacement
+   Name/pl:Std: Synchronizuj położenie w widoku drzewa
+   MenuLocation:Widok → Akcje widoku drzewa → Synchronizuj położenie
+   Workbenches:wszystkie
+   Shortcut:**T** **3**
+   Version:0.19
 ---
 
 # Std TreeSyncPlacement/pl
@@ -16,14 +16,14 @@ Polecenie **Synchronizuj położenie** przełącza [Widok drzewa](Tree_view/pl.m
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Kliknij czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz z menu opcję **Synchronizuj położenie**. Uwaga   * ikonka przycisku zmieni się w zależności od wybranej opcji.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Kliknij czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz z menu opcję **Synchronizuj położenie**. Uwaga: ikonka przycisku zmieni się w zależności od wybranej opcji.
     -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSyncPlacement.svg" width=16px> Synchronizuj położenie**.
-    -   Użyj skrótu klawiaturowego   * **T** następnie **3**.
+    -   Użyj skrótu klawiaturowego: **T** następnie **3**.
 
 ## Ustawienia
 
-Tryb Synchronizuj położenie w Widoku drzewa jest zapisywany   * **Przybory → Edycja parametrów... → BaseApp → Preferences → TreeView → SyncPlacement**. Jest to wartość logiczna, domyślnie ustawiona na wartość {{FALSE/pl}}.
+Tryb Synchronizuj położenie w Widoku drzewa jest zapisywany: **Przybory → Edycja parametrów... → BaseApp → Preferences → TreeView → SyncPlacement**. Jest to wartość logiczna, domyślnie ustawiona na wartość {{FALSE/pl}}.
 
 
 

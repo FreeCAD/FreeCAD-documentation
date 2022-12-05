@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintFixed
-   Name/de   *FEM RandbedingungFestsetzen
-   MenuLocation   *Modell → Mechanische Randbedingungen → Randbedingung Festsetzen
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM RandbedingungKontakt](FEM_ConstraintContact/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintFixed
+   Name/de:FEM RandbedingungFestsetzen
+   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Festsetzen
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM RandbedingungKontakt](FEM_ConstraintContact/de.md)
 ---
 
 # FEM ConstraintFixed/de
@@ -15,7 +15,7 @@ Erstellt eine FEM-Randbedingung zum Festsetzen eines Geometrieelements, die alle
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintFixed.svg" width=16px> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md)** drücken.
     -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintFixed.svg" width=16px> Randbedingung Festsetzen** auswählen.
 2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten (Ecke), eine Kante oder eine Fläche sein.

@@ -16,7 +16,7 @@ FreeCAD是面向CAD/CAE的3D[参数化建模应用程序](About_FreeCAD/zh-cn.md
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD已经开发了一段时间，它提供了大量（并且不断增长）的[特征列表](Feature_list/zh-cn.md)，但仍然能力不足，特别是将其与商业解决方案进行比较，它并未开发完整，因此不足以用于大多数生产环境。对于大多数爱好者而言，还有很多较小的工场环境，它**是**足够强大的。这里有一个快速增长的[社区](http   *//forum.freecadweb.org/index.php)，由热情的用户组成。你可以找到使用FreeCAD开发高质量项目的[许多例子](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=1222)。
+FreeCAD已经开发了一段时间，它提供了大量（并且不断增长）的[特征列表](Feature_list/zh-cn.md)，但仍然能力不足，特别是将其与商业解决方案进行比较，它并未开发完整，因此不足以用于大多数生产环境。对于大多数爱好者而言，还有很多较小的工场环境，它**是**足够强大的。这里有一个快速增长的[社区](http://forum.freecadweb.org/index.php)，由热情的用户组成。你可以找到使用FreeCAD开发高质量项目的[许多例子](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222)。
 
 
 </div>
@@ -29,7 +29,7 @@ FreeCAD已经开发了一段时间，它提供了大量（并且不断增长）�
 
 </div>
 
-See also   *
+See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [Tutorials](Tutorials.md)
@@ -53,12 +53,12 @@ See also   *
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
 
 
 </div>
@@ -92,7 +92,7 @@ FreeCAD接口背后的主要概念是将它分成[工作台](workbenches/zh-cn.m
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -125,7 +125,7 @@ FreeCAD有几种不同的[导航模式可用](Mouse_Model/zh-cn.md)，改变了�
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进行严格的控制（能够回溯到建模历史记录和更改参数），并最终建立这些模型（通过3D打印，CNC加工甚至是施工现场）。因此，与其他用途的其他3D应用程序（例如动画电影或游戏）非常不同。它的学习曲线可能很陡，特别是如果这是您第一次接触3D建模。如果您在某些时候遇到任何问题，请不要忘记，[FreeCAD论坛](http   *//forum.freecadweb.org/index.php)上友好的社区用户们可能会随时救你出来。
+FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进行严格的控制（能够回溯到建模历史记录和更改参数），并最终建立这些模型（通过3D打印，CNC加工甚至是施工现场）。因此，与其他用途的其他3D应用程序（例如动画电影或游戏）非常不同。它的学习曲线可能很陡，特别是如果这是您第一次接触3D建模。如果您在某些时候遇到任何问题，请不要忘记，[FreeCAD论坛](http://forum.freecadweb.org/index.php)上友好的社区用户们可能会随时救你出来。
 
 
 </div>
@@ -178,7 +178,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 这给你一个这样的对象：
 
-<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 在任何时候，您可以选择原始素描并进行修改，或更改垫或挤压操作的缩放参数，这将更新最终对象。
 
@@ -195,7 +195,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 <div class="mw-translate-fuzzy">
 
-[草图工作台为您提供了](Draft_Workbench/zh-cn.md)2D工具，它们类似于传统2D CAD应用程序（例如[AutoCAD](https   *//en.wikipedia.org/wiki/AutoCAD)）。然而，2D绘图绝非FreeCAD的使用范围，不要指望它会提供这些专用应用程序所提供的各种工具。大多数草图工具不仅可以在2D平面中工作，还能在完整的3D空间中工作，还可以从[工作面和](Draft_SelectPlane/zh-cn.md)[物体捕捉等特殊辅助系统中受益](Draft_Snap/zh-cn.md)。
+[草图工作台为您提供了](Draft_Workbench/zh-cn.md)2D工具，它们类似于传统2D CAD应用程序（例如[AutoCAD](https://en.wikipedia.org/wiki/AutoCAD)）。然而，2D绘图绝非FreeCAD的使用范围，不要指望它会提供这些专用应用程序所提供的各种工具。大多数草图工具不仅可以在2D平面中工作，还能在完整的3D空间中工作，还可以从[工作面和](Draft_SelectPlane/zh-cn.md)[物体捕捉等特殊辅助系统中受益](Draft_Snap/zh-cn.md)。
 
 
 </div>
@@ -203,7 +203,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 <div class="mw-translate-fuzzy">
 
-[建筑工作台将](Arch_Workbench/zh-cn.md)[BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling)工具添加到FreeCAD中，允许您使用参数对象构建架构模型。 Arch工作台高度依赖于其他模块，如草图和素描。所有的草图工具也都存在于建筑工作台中，大多数建筑工具都使用了草图辅助系统。
+[建筑工作台将](Arch_Workbench/zh-cn.md)[BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)工具添加到FreeCAD中，允许您使用参数对象构建架构模型。 Arch工作台高度依赖于其他模块，如草图和素描。所有的草图工具也都存在于建筑工作台中，大多数建筑工具都使用了草图辅助系统。
 
 
 </div>
@@ -220,7 +220,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 这样做会给你这个：
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -242,10 +242,10 @@ FreeCAD, as an open source software, offers the possibility to supplement its wo
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
-There are two types of addons   *
+There are two types of addons:
 
-1.  [Macros](Macros.md)   * short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md)   * collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -268,13 +268,13 @@ There are two types of addons   *
 
 <div class="mw-translate-fuzzy">
 
--   [版本 0.17 发行说明](Release_notes_0.17/zh-cn.md)    * 检查 FreeCAD 发行版 0.17 的新特性
--   [版本 0.16 发行说明](Release_notes_0.16/zh-cn.md)    * 检查 FreeCAD 发行版 0.16 的新特性
--   [版本 0.15 发行说明](Release_notes_0.15/zh-cn.md)    * 检查 FreeCAD 发行版 0.15 的新特性
--   [版本 0.14 发行说明](Release_notes_0.14/zh-cn.md)    * 检查 FreeCAD 发行版 0.14 的新特性
--   [版本 0.13 发行说明](Release_notes_0.13/zh-cn.md)    * 检查 FreeCAD 发行版 0.13 的新特性
--   [版本 0.12 发行说明](Release_notes_0.12/zh-cn.md)    * 检查 FreeCAD 发行版 0.12 的新特性
--   [版本 0.11 发行说明](Release_notes_0.11/zh-cn.md)    * 检查 FreeCAD 发行版 0.11 的新特性
+-   [版本 0.17 发行说明](Release_notes_0.17/zh-cn.md) : 检查 FreeCAD 发行版 0.17 的新特性
+-   [版本 0.16 发行说明](Release_notes_0.16/zh-cn.md) : 检查 FreeCAD 发行版 0.16 的新特性
+-   [版本 0.15 发行说明](Release_notes_0.15/zh-cn.md) : 检查 FreeCAD 发行版 0.15 的新特性
+-   [版本 0.14 发行说明](Release_notes_0.14/zh-cn.md) : 检查 FreeCAD 发行版 0.14 的新特性
+-   [版本 0.13 发行说明](Release_notes_0.13/zh-cn.md) : 检查 FreeCAD 发行版 0.13 的新特性
+-   [版本 0.12 发行说明](Release_notes_0.12/zh-cn.md) : 检查 FreeCAD 发行版 0.12 的新特性
+-   [版本 0.11 发行说明](Release_notes_0.11/zh-cn.md) : 检查 FreeCAD 发行版 0.11 的新特性
 
 
 </div>
@@ -287,11 +287,6 @@ There are two types of addons   *
 
 
 </div>
-
-
-
-
-[Category   *User Documentation/zh-cn](Category   *User_Documentation/zh-cn.md)
 
 
 

@@ -5,8 +5,6 @@ Questa categoria contiene tutte le Template
 
 Vedere anche [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
-[Category   *Categories/it](Category   *Categories/it.md)
-
 ### Contents
 
 |     |     |     |

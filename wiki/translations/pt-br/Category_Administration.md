@@ -1,8 +1,6 @@
 # Category:Administration/pt-br
 This category contains articles and categories about wiki administrative subjects.
 
-[Category   *Categories/pt-br](Category   *Categories/pt-br.md)
-
 ### Contents
 
 |     |     |     |

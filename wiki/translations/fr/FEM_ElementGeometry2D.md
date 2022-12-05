@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ElementGeometry2D
-   Name/fr   *FEM Épaisseur de l'élément de type coque
-   MenuLocation   *Modèle → Géométrie de l'élement → Épaisseur de la coque
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   Shortcut   ***C** **S**
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM ElementGeometry2D
+   Name/fr:FEM Épaisseur de l'élément de type coque
+   MenuLocation:Modèle → Géométrie de l'élement → Épaisseur de la coque
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   Shortcut:**C** **S**
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ElementGeometry2D/fr
@@ -16,7 +16,7 @@
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande   *
+1.  Il existe plusieurs façons de lancer la commande:
     -   Appuyez sur le bouton **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Épaisseur de la coque](FEM_ElementGeometry2D/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Épaisseur de la coque** dans le menu.
 2.  Définissez un paramètre d\'épaisseur.
@@ -31,7 +31,7 @@
 
 **Thickness**
 
-   * spécifie l\'épaisseur de l\'élément de type coque.
+: spécifie l\'épaisseur de l\'élément de type coque.
 
 ## Script
 

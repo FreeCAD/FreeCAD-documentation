@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать эскиз
-   Name   *Sketcher_NewSketch
-   MenuLocation   *Sketch → Создать эскиз
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso   *[Создать эскиз](PartDesign_NewSketch/ru.md), [Разместить эскиз на грани...](Sketcher_MapSketch/ru.md), [Переориентировать эскиз...](Sketcher_ReorientSketch/ru.md)
+- GuiCommand:/ru
+   Name/ru:Создать эскиз
+   Name:Sketcher_NewSketch
+   MenuLocation:Sketch → Создать эскиз
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   SeeAlso:[Создать эскиз](PartDesign_NewSketch/ru.md), [Разместить эскиз на грани...](Sketcher_MapSketch/ru.md), [Переориентировать эскиз...](Sketcher_ReorientSketch/ru.md)
 ---
 
 # Sketcher NewSketch/ru
@@ -13,7 +13,7 @@
 
 Этот инструмент создает новый [эскиз](Sketcher_Workbench/ru.md).
 
-Обратите внимание на то, что <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md) имеет свой собственный инструмент [новый эскиз](PartDesign_NewSketch/ru.md), при работе с [телом из PartDesign](PartDesign_Body/ru.md) лучше использовать его.
+Обратите внимание на то, что <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md) имеет свой собственный инструмент [новый эскиз](PartDesign_NewSketch/ru.md), при работе с [телом из PartDesign](PartDesign_Body/ru.md) лучше использовать его.
 
 ## Применение
 

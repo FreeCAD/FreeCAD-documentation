@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-GuiCommand este una dintre cele mai importante funcții ale FreeCAD în principalul punct de interacțiune al utilizatorului. De fiecare dată când utilizatorul selectează un element de meniu sau apasă butonul unei bare de instrumente pe care îl activează a GuiCommand. Unele dintre atributele unui GuiCommand sunt   *
+GuiCommand este una dintre cele mai importante funcții ale FreeCAD în principalul punct de interacțiune al utilizatorului. De fiecare dată când utilizatorul selectează un element de meniu sau apasă butonul unei bare de instrumente pe care îl activează a GuiCommand. Unele dintre atributele unui GuiCommand sunt:
 
 -   Definește un nume
 -   Conține o pictogramă
@@ -24,7 +24,7 @@ GuiCommand este una dintre cele mai importante funcții ale FreeCAD în principa
 
 ### Nominalizare
 
-The GuiCommand is named in a certain way   * *ModuleName_CommandName* e.g \"Base_Open\" this is the Open Gui Command in the Base system. The GuiCommand in a certain module is named with the module name in front e.g. \"Part_Cylinder\".
+The GuiCommand is named in a certain way: *ModuleName_CommandName* e.g \"Base_Open\" this is the Open Gui Command in the Base system. The GuiCommand in a certain module is named with the module name in front e.g. \"Part_Cylinder\".
 
 
 </div>
@@ -32,7 +32,7 @@ The GuiCommand is named in a certain way   * *ModuleName_CommandName* e.g \"Base
 
 <div class="mw-translate-fuzzy">
 
-If the docu is not finished use [Template   *UnfinishedDocu](Template_UnfinishedDocu.md)
+If the docu is not finished use [Template:UnfinishedDocu](Template_UnfinishedDocu.md)
 
 
 </div>
@@ -52,7 +52,7 @@ Fiecare GuiCommand trebuie să aibă o pagină de ajutor. Pagina de ajutor este 
 
 <div class="mw-translate-fuzzy">
 
-To create your own help pages you can use the template   * [GuiCommand model](GuiCommand_model.md)
+To create your own help pages you can use the template: [GuiCommand model](GuiCommand_model.md)
 
 
 </div>
@@ -60,7 +60,7 @@ To create your own help pages you can use the template   * [GuiCommand model](Gu
 
 <div class="mw-translate-fuzzy">
 
-Exemplu   *
+Exemplu:
 
 -   [Draft ShapeString](Draft_ShapeString.md)
 -   [Draft Line](Draft_Line.md)
@@ -73,17 +73,17 @@ Exemplu   *
 
 ### Iconițe
 
-<img alt="" src=images/Tango-Palette.png  style="width   *400px;">
+<img alt="" src=images/Tango-Palette.png  style="width:400px;">
 
 
 </div>
 
-<img alt="" src=images/Tango-Palette.png  style="width   *400px;">
+<img alt="" src=images/Tango-Palette.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Every GuiCommand has to have an icon. We use the [Tango icon set](http   *//tango.freedesktop.org/Tango_Desktop_Project) and its guidelines. On the right side you see the tango color palette.
+Every GuiCommand has to have an icon. We use the [Tango icon set](http://tango.freedesktop.org/Tango_Desktop_Project) and its guidelines. On the right side you see the tango color palette.
 
 
 </div>
@@ -91,7 +91,7 @@ Every GuiCommand has to have an icon. We use the [Tango icon set](http   *//tang
 
 <div class="mw-translate-fuzzy">
 
-Preferable all Icons are drafted with SVG with e.g. [Inkscape](http   *//inkscape.org). This makes it easier to apply changes and derive additional Icons in the same application space.
+Preferable all Icons are drafted with SVG with e.g. [Inkscape](http://inkscape.org). This makes it easier to apply changes and derive additional Icons in the same application space.
 
 
 </div>
@@ -104,7 +104,7 @@ Preferable all Icons are drafted with SVG with e.g. [Inkscape](http   *//inkscap
 
 </div>
 
-<img alt="" src=images/Colorchart.png  style="width   *200px;">
+<img alt="" src=images/Colorchart.png  style="width:200px;">
 
 Încercăm cât mai mult posibil să respectăm această diagramă, astfel încât culoarea icoanelor are un sens direct.
 

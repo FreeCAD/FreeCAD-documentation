@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Связать размер с 3D геометрией
-   Name   *TechDraw_LinkDimension
-   MenuLocation   *TechDraw → Размеры → Связать размер с 3D геометрией
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso   *[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
+- GuiCommand:/ru
+   Name/ru:Связать размер с 3D геометрией
+   Name:TechDraw_LinkDimension
+   MenuLocation:TechDraw → Размеры → Связать размер с 3D геометрией
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw LinkDimension/ru
@@ -44,11 +44,11 @@ Note that if the Dimension to be linked is based on two vertices, you should sel
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Link Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Link Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python

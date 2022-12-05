@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Mesh FillInteractiveHole‏‎
-   Name/ru   *Mesh FillInteractiveHole‏‎
-   MenuLocation   *Сетки → Закрыть отверстие
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/ru
+   Name:Mesh FillInteractiveHole‏‎
+   Name/ru:Mesh FillInteractiveHole‏‎
+   MenuLocation:Сетки → Закрыть отверстие
+   Workbenches:[Mesh](Mesh_Workbench.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Mesh FillInteractiveHole/ru
@@ -19,7 +19,7 @@ The **Mesh FillInteractiveHole** command fills selected holes in mesh objects.
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Close hole** option from the menu.
 2.  The cursor changes to a triangle icon.

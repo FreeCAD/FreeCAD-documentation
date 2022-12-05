@@ -3,7 +3,7 @@
 
 ## Wprowadzenie
 
-Aby uzyskać dostęp do modułu `Mesh` musisz go najpierw zaimportować   *
+Aby uzyskać dostęp do modułu `Mesh` musisz go najpierw zaimportować:
 
 
 ```python
@@ -12,21 +12,21 @@ import Mesh
 
 ## Tworzenie
 
-Aby utworzyć pusty obiekt siatki wystarczy użyć standardowego konstruktora   *
+Aby utworzyć pusty obiekt siatki wystarczy użyć standardowego konstruktora:
 
 
 ```python
 mesh = Mesh.Mesh()
 ```
 
-Możesz również utworzyć obiekt na podstawie pliku   *
+Możesz również utworzyć obiekt na podstawie pliku:
 
 
 ```python
-mesh = Mesh.Mesh("D   */temp/Something.stl")
+mesh = Mesh.Mesh("D:/temp/Something.stl")
 ```
 
-Lub stwórz go z zestawu trójkątów opisanych przez ich punkty narożne   *
+Lub stwórz go z zestawu trójkątów opisanych przez ich punkty narożne:
 
 
 ```python
@@ -44,7 +44,7 @@ Jądro Mesh zapewnia utworzenie topologicznie poprawnej struktury danych, poprze
 
 ## Modelowanie
 
-Do tworzenia regularnych geometrii można użyć jednej z metod `create*()`. Torus, na przykład, może być utworzony w następujący sposób   *
+Do tworzenia regularnych geometrii można użyć jednej z metod `create*()`. Torus, na przykład, może być utworzony w następujący sposób:
 
 
 ```python
@@ -54,7 +54,7 @@ Mesh.show(m)
 
 Pierwsze dwa parametry określają promienie torusa, a trzeci parametr jest współczynnikiem podpróbkowania dla liczby utworzonych trójkątów. Im wyższa jest ta wartość, tym gładsza jest siatka.
 
-Moduł `Mesh` dostarcza również trzy logiczne metody do modelowania   * `union()`, `intersection()` i `difference()`   *
+Moduł `Mesh` dostarcza również trzy logiczne metody do modelowania: `union()`, `intersection()` i `difference()`:
 
 
 ```python
@@ -69,7 +69,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-Oto przykład, który tworzy rurę za pomocą metody `difference()`   *
+Oto przykład, który tworzy rurę za pomocą metody `difference()`:
 
 
 ```python
@@ -81,7 +81,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh   *   *Feature", "Pipe")
+obj = d.addObject("Mesh::Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -91,11 +91,9 @@ doc.recompute()
 
 ## Uwagi
 
-Rozległym *(choć trudnym w użyciu)* źródłem skryptów związanych z siatkami są skrypty do testów jednostkowych Środowiska pracy `Mesh`. Podczas tych testów jednostkowych wywoływane są dosłownie wszystkie metody i wszystkie właściwości/atrybuty są udoskonalane. Więc jeśli jesteś wystarczająco odważny, spójrz na [Moduł testowy jednostek](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+Rozległym *(choć trudnym w użyciu)* źródłem skryptów związanych z siatkami są skrypty do testów jednostkowych Środowiska pracy `Mesh`. Podczas tych testów jednostkowych wywoływane są dosłownie wszystkie metody i wszystkie właściwości/atrybuty są udoskonalane. Więc jeśli jesteś wystarczająco odważny, spójrz na [Moduł testowy jednostek](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Zobacz również   * [API dla Mesh](Mesh_API.md) {{Top}}  {{Mesh Tools navi}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+Zobacz również: [API dla Mesh](Mesh_API.md) {{Top}}  {{Mesh Tools navi}}
 
 
 

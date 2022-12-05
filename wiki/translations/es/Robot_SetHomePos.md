@@ -1,6 +1,6 @@
 # Robot SetHomePos/es
 ---
-- GuiCommand   */es   Name   *Robot SetHomePos   Name/es   *Robot SetHomePos   Workbenches   *[[Robot_Workbench/es   Robot]]|MenuLocation   *Robot → Set home position---
+- GuiCommand:/es   Name:Robot SetHomePos   Name/es:Robot SetHomePos   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Set home position---
 
 
 </div>
@@ -12,7 +12,7 @@ Sets the current position/orientation of the selected robot as home position.
 ## Usage
 
 1.  Select robot in the [Tree view](Tree_view.md) or in the [3D view](3D_view.md)
-2.  Click on <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> or choose **Robot** → **<img src="images/Robot_SetHomePos.svg" width=32px> Set the home position** from the top menu.
+2.  Click on <img alt="" src=images/Robot_SetHomePos.svg  style="width:32px;"> or choose **Robot** → **<img src="images/Robot_SetHomePos.svg" width=32px> Set the home position** from the top menu.
 
 ## Notes
 

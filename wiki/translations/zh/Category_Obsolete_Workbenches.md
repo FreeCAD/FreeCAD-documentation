@@ -1,8 +1,6 @@
 # Category:Obsolete Workbenches/zh
 This category lists pages related to the [Drawing Workbench/zh](Drawing_Workbench/zh.md).
 
-[Category   *Obsolete Workbenches/zh](Category   *Obsolete_Workbenches/zh.md)
-
 ### Contents
 
 |     |     |     |

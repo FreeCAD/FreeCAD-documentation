@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Arch_MakeIfcSpreadsheet
-   Name/it   *Crea un foglio di calcolo Ifc
-   Icon   *Arch_Schedule.svg
-   MenuLocation   *Arch → Utilità → Crea un foglio di calcolo Ifc...
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Shortcut   ***I** **P**
-   SeeAlso   *[File IFC](Arch_IFC/it.md), [Esplora Ifc](Arch_IfcExplorer/it.md)
+- GuiCommand:/it
+   Name:Arch_MakeIfcSpreadsheet
+   Name/it:Crea un foglio di calcolo Ifc
+   Icon:Arch_Schedule.svg
+   MenuLocation:Arch → Utilità → Crea un foglio di calcolo Ifc...
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:**I** **P**
+   SeeAlso:[File IFC](Arch_IFC/it.md), [Esplora Ifc](Arch_IfcExplorer/it.md)
 ---
 
 # Arch IfcSpreadsheet/it
@@ -24,7 +24,7 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto.
-2.  Richiamare il comando utilizzando uno di questi metodi   *
+2.  Richiamare il comando utilizzando uno di questi metodi:
     -   Premereil pulsante **<img src="images/Arch_Schedule.svg" width=16px> Crea un foglio di calcolo IFC** nella barra degli strumenti.
     -   Usare la scorciatoia da tastiera **I** **P**.
     -   Usare la voce **Arch → Utilità → <img src="images/Arch_Schedule.svg" width=16px> Crea un foglio di calcolo IFC** del menu principale.
@@ -40,7 +40,7 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -50,7 +50,7 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -62,7 +62,7 @@ spreadsheet = makeIfcSpreadsheet(archobj=None)
 
 -   Crea un oggetto `spreadsheet`. Optionalmente può essere dato un `archobj`.
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Draft, Arch
 

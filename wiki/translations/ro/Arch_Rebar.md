@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Rebar
-   Name/ro   *Arch Rebar
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   MenuLocation   *Arch → Rebar
-   Shortcut   *R B
-   SeeAlso   *[Arch Structure](Arch_Structure/ro.md)
+- GuiCommand:/ro
+   Name:Arch Rebar
+   Name/ro:Arch Rebar
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   MenuLocation:Arch → Rebar
+   Shortcut:R B
+   SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---
 
 # Arch Rebar/ro
@@ -17,13 +17,13 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand   */ro
-   Name   *Arch Rebar
-   Name/ro   *Arch Rebar
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   MenuLocation   *Arch → Rebar
-   Shortcut   *R B
-   SeeAlso   *[Arch Structure](Arch_Structure/ro.md)
+- GuiCommand:/ro
+   Name:Arch Rebar
+   Name/ro:Arch Rebar
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   MenuLocation:Arch → Rebar
+   Shortcut:R B
+   SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---
 
 # Arch Rebar/ro
@@ -36,7 +36,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Rebar vă permite să plasați barele de armătură [1](http   *//en.wikipedia.org/wiki/Rebar) în interiorul obiectelor [Arch Structure](Arch_Structure.md). Obiectele bare de armătură sunt bazate pe profilele 2D, cum ar fi [sketches](Sketcher_Workbench.md) sau [draft objects](Draft_Workbench.md), care trebuie să fie desenate pe o față a unui obiect de structură. Puteți apoi să reglați configurația armăturilor, cum ar fi numărul și diametrul barelor sau distanța de decalaj dintre cele două capete ale elementului structural.
+Instrumentul Rebar vă permite să plasați barele de armătură [1](http://en.wikipedia.org/wiki/Rebar) în interiorul obiectelor [Arch Structure](Arch_Structure.md). Obiectele bare de armătură sunt bazate pe profilele 2D, cum ar fi [sketches](Sketcher_Workbench.md) sau [draft objects](Draft_Workbench.md), care trebuie să fie desenate pe o față a unui obiect de structură. Puteți apoi să reglați configurația armăturilor, cum ar fi numărul și diametrul barelor sau distanța de decalaj dintre cele două capete ale elementului structural.
 
 
 </div>
@@ -45,7 +45,7 @@ The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM
 
 Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
 
-<img alt="" src=images/Arch_Rebar_example.jpg  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -60,7 +60,7 @@ Imaginea de mai sus prezintă un obiect structural, în care sunt desenate două
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Rebar a fost mult îmbunătățit în timpul ediției din 2017 a [Google Summer of Code](Google_Summer_of_Code.md) . Rezultatul acestei lucrări este o serie de noi presetări și vrăjitori/asistenți pentru cele mai comune tipuri de bare. Acestea sunt ambalate sub un modul independent numit **Reinforcement**, pe care îl puteți instala prin meniul Tools -\> Addons Manager. Odată ce aplicația Addon Reinforcement este instalată, la următoarea rulare, FreeCAD o va detecta și va adăuga o serie de instrumente noi sub butonul Rebar din bara de instrumente Arch și meniul   *
+Instrumentul Rebar a fost mult îmbunătățit în timpul ediției din 2017 a [Google Summer of Code](Google_Summer_of_Code.md) . Rezultatul acestei lucrări este o serie de noi presetări și vrăjitori/asistenți pentru cele mai comune tipuri de bare. Acestea sunt ambalate sub un modul independent numit **Reinforcement**, pe care îl puteți instala prin meniul Tools -\> Addons Manager. Odată ce aplicația Addon Reinforcement este instalată, la următoarea rulare, FreeCAD o va detecta și va adăuga o serie de instrumente noi sub butonul Rebar din bara de instrumente Arch și meniul:
 
 
 </div>
@@ -102,19 +102,19 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 ## Proprietăți
 
--    **Amount**   * Cantitatea de bare.
+-    **Amount**: Cantitatea de bare.
 
--    **Diameter**   * The diameter of the bars.
+-    **Diameter**: The diameter of the bars.
 
--    **Direction**   * The direction (and length) along which the bars must spread. If the value is (0,0,0), the direction is calculated automatically from the host structural object.
+-    **Direction**: The direction (and length) along which the bars must spread. If the value is (0,0,0), the direction is calculated automatically from the host structural object.
 
--    **Offset Start**   * The offset distance between the border of the structural object and the first bar.
+-    **Offset Start**: The offset distance between the border of the structural object and the first bar.
 
--    **Offset End**   * The offset distance between the border of the structural object and the last bar.
+-    **Offset End**: The offset distance between the border of the structural object and the last bar.
 
--    **Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the diameter.
 
--    **Spacing**   * Distanța dintre axele fiecărei bare.
+-    **Spacing**: Distanța dintre axele fiecărei bare.
 
 
 <div class="mw-translate-fuzzy">
@@ -127,7 +127,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Rebar poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție   *
+Instrumentul Rebar poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție:
 
 
 </div>
@@ -159,7 +159,7 @@ FreeCAD.ActiveDocument.recompute()
 
 p1 = FreeCAD.Vector(-400, 400, 0)
 p2 = FreeCAD.Vector(400, 400, 0)
-Sketch = FreeCAD.ActiveDocument.addObject('Sketcher   *   *SketchObject', 'Sketch')
+Sketch = FreeCAD.ActiveDocument.addObject('Sketcher::SketchObject', 'Sketch')
 Sketch.MapMode = "FlatFace"
 Sketch.Support = [(Structure, "Face6")]
 Sketch.addGeometry(Part.LineSegment(p1, p2))
@@ -176,11 +176,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
- 
-
-[Category   *Arch/ro](Category   *Arch/ro.md) [Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -12,13 +12,13 @@ Gli [oggetti creati con script](Scripted_objects/it.md) vengono ricostruiti ogni
     </Properties>
     <Objects Count="1" Dependencies="1">
         <ObjectDeps Name="Custom" Count="0"/>
-        <Object type="Part   *   *FeaturePython" name="Custom" id="2715" Touched="1" />
+        <Object type="Part::FeaturePython" name="Custom" id="2715" Touched="1" />
     </Objects>
     <ObjectData Count="1">
         <Object name="Custom">
             <Properties Count="9" TransientCount="0">
                 ...
-                <Property name="Proxy" type="App   *   *PropertyPythonObject" status="1">
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
                     <Python value="eyJUeXBlIjogIkN1c3RvbSJ9" encoded="yes" module="old_module" class="OldObject"/>
                 </Property>
                 ...
@@ -28,9 +28,9 @@ Gli [oggetti creati con script](Scripted_objects/it.md) vengono ricostruiti ogni
 </Document>
 }}
 
-Particularly focus on this part   * {{Code|lang=xml|code=
+Particularly focus on this part: {{Code|lang=xml|code=
                 ...
-                <Property name="Proxy" type="App   *   *PropertyPythonObject" status="1">
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
                     <Python value="eyJUeXBlIjogIkN1c3RvbSJ9" encoded="yes" module="old_module" class="OldObject"/>
                 </Property>
                 ...
@@ -47,16 +47,16 @@ However, a valid reason for moving or renaming the module or class is to improve
 An old object is defined in a module which is at the root of the workbench. 
 ```python
 # old_module.py
-class OldObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "Area")
+class OldObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "Area")
         obj.Length = 15
         obj.Area = 300
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -68,10 +68,10 @@ import old_module
 doc = App.newDocument()
 doc.FileName = "my_document.FCStd"
 
-obj = doc.addObject("Part   *   *FeaturePython", "Custom")
+obj = doc.addObject("Part::FeaturePython", "Custom")
 old_module.OldObject(obj)
 
-if App.GuiUp   *
+if App.GuiUp:
     obj.ViewObject.Proxy = 1
 
 doc.recompute()
@@ -92,18 +92,18 @@ doc.save()
 Now we consider that the workbench is restructured, so that classes aren\'t just at the root directory, but instead are inside an **objects** directory. Complex workbenches that have many different types of objects should be structured in directories including objects, [viewproviders](Viewprovider.md), [Gui Commands](Command.md), [task panel](task_panel.md) interfaces, etc. 
 ```python
 # objects/new_module.py
-class NewObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "GeneralArea")
-        obj.addProperty("App   *   *PropertyInteger", "Divisions")
+class NewObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "GeneralArea")
+        obj.addProperty("App::PropertyInteger", "Divisions")
         obj.Length = 30
         obj.GeneralArea = 600
         obj.Divisions = 4
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -147,7 +147,7 @@ Now, if the document is saved and opened again, it will automatically look for `
 
 
 {{Code|lang=bash|code=
-<class 'ModuleNotFoundError'>   * No module named 'old_module'
+<class 'ModuleNotFoundError'>: No module named 'old_module'
 }}
 
 If it is not realistically possible to migrate all older objects, say, because the old module was used in a workbench for many years, then **old_module.py** must be kept as long as it\'s deemed necessary to give users the opportunity to migrate their objects.
@@ -156,15 +156,15 @@ If it is not realistically possible to migrate all older objects, say, because t
 
 **Advantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> This is the simplest method that just requires redirecting an old class to a new class.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Old properties are conserved as long as the new class doesn\'t override them.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> This is good if the old class and the new class have the same properties (handle the same type of data) but only their module or class name is different.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> This is the simplest method that just requires redirecting an old class to a new class.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Old properties are conserved as long as the new class doesn\'t override them.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> This is good if the old class and the new class have the same properties (handle the same type of data) but only their module or class name is different.
 
 **Disadvantages**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> The new class keeps the old properties of the object, which is not always desired.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> New properties or renamed properties aren\'t handled, so the object will load but it may not show the correct behavior of the new class.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> The old module may have to be kept indefinitely to migrate all old objects created in the past.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> The new class keeps the old properties of the object, which is not always desired.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> New properties or renamed properties aren\'t handled, so the object will load but it may not show the correct behavior of the new class.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> The old module may have to be kept indefinitely to migrate all old objects created in the past.
 
 ## Method 2. Migration when restoring the document 
 
@@ -178,32 +178,32 @@ import objects.new_module as new_module
 import viewp.new_view as new_view
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
+class OldObject:
+    def onDocumentRestored(self, obj):
         new_module.NewObject(obj)
         _wrn("New proxy class used\n")
 
-        if App.GuiUp   *
+        if App.GuiUp:
             new_view.ViewProviderNew(obj.ViewObject)
             _wrn("New viewprovider class used\n")
 ```
 
 A more complex example checks first that the proxy class is of the type that we are looking for, and only proceeds with the migration if it\'s the right type. 
 ```python
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj, "Proxy") and obj.Proxy.Type == "Custom"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj, "Proxy") and obj.Proxy.Type == "Custom":
             _module = str(obj.Proxy.__class__)
             _module = _module.lstrip("<class '").rstrip("'>")
 
-            if _module == "old_module.OldObject"   *
+            if _module == "old_module.OldObject":
                 self._migrate(obj)
 
-    def _migrate(self, obj)   *
+    def _migrate(self, obj):
         _wrn("New proxy class used\n")
         new_module.NewObject(obj)
 
-        if App.GuiUp   *
+        if App.GuiUp:
             new_view.ViewProviderNew(obj.ViewObject)
             _wrn("New viewprovider class used\n")
 ```
@@ -227,15 +227,15 @@ Given that the classes are meant to handle the same type of object, we would lik
 
 **Advantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> This method allows us to check that the class that we are migrating is the right class, instead of simply redirecting to a newer class.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Similar to method 1, old properties are kept as long as the new class doesn\'t override them.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Unlike method 1, new properties are always added, however if they have the same name, they will be renamed.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> The migration is not immediate, we can still manipulate the information, or print messages while the object loads.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> This method allows us to check that the class that we are migrating is the right class, instead of simply redirecting to a newer class.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Similar to method 1, old properties are kept as long as the new class doesn\'t override them.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Unlike method 1, new properties are always added, however if they have the same name, they will be renamed.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> The migration is not immediate, we can still manipulate the information, or print messages while the object loads.
 
 **Disadvantages**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> It is more verbose than method 1 because we need to implement the `onDocumentRestored` method to migrate the object.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> It always adds the new properties, so it may create duplicated properties in case the new properties have the same name as the old properties. This has to be handled manually.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> It is more verbose than method 1 because we need to implement the `onDocumentRestored` method to migrate the object.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> It always adds the new properties, so it may create duplicated properties in case the new properties have the same name as the old properties. This has to be handled manually.
 
 ## Method 3. Migration when restoring the document, manually handling the properties 
 
@@ -249,8 +249,8 @@ import objects.new_module as new_module
 import viewp.new_view as new_view
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
+class OldObject:
+    def onDocumentRestored(self, obj):
         old = dict()
         old["Area"] = obj.Area
         old["Length"] = obj.Length
@@ -263,7 +263,7 @@ class OldObject   *
         obj.Length = old["Length"]
         _wrn("New proxy class used; properties migrated\n")
 
-        if App.GuiUp   *
+        if App.GuiUp:
             vobj = obj.ViewObject
             old = dict()
 
@@ -299,13 +299,13 @@ Since in the old class the `Divisions` property didn\'t exist, nothing was done 
 
 **Advantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Similar to method 2, this method allows us to check that the class that we are migrating is the right class.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> We have complete control of what to do with the old properties. Typically they will be removed so that there is no name collision with new properties added. Thus we avoid duplicated properties.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> By saving the older values, we can manipulate the information in the restoring step as we want, and assign the corresponding values to the new properties.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Similar to method 2, this method allows us to check that the class that we are migrating is the right class.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> We have complete control of what to do with the old properties. Typically they will be removed so that there is no name collision with new properties added. Thus we avoid duplicated properties.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> By saving the older values, we can manipulate the information in the restoring step as we want, and assign the corresponding values to the new properties.
 
 **Disadvantages**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> This method is very verbose compared to the previous ones, because we must implement the `onDocumentRestored` method, and handle each of the properties individually (save value, delete property, re-assign value). This is problematic if the object that we want to migrate has many properties, or their values need to be transformed in very special ways.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> This method is very verbose compared to the previous ones, because we must implement the `onDocumentRestored` method, and handle each of the properties individually (save value, delete property, re-assign value). This is problematic if the object that we want to migrate has many properties, or their values need to be transformed in very special ways.
 
 ## Addendum A. Creating the properties only if they do not already exist 
 
@@ -314,22 +314,22 @@ One of the disadvantages of method 2 is that it will always try to add the new p
 To improve this method, the new class can also be modified to only add the properties if they don\'t already exist by the same name. 
 ```python
 # objects/new_module.py
-class NewObject   *
-    def __init__(self, obj)   *
-        if not hasattr(obj, "Length")   *
-            obj.addProperty("App   *   *PropertyLength", "Length")
+class NewObject:
+    def __init__(self, obj):
+        if not hasattr(obj, "Length"):
+            obj.addProperty("App::PropertyLength", "Length")
             obj.Length = 30
-        if not hasattr(obj, "GeneralArea")   *
-            obj.addProperty("App   *   *PropertyArea", "GeneralArea")
+        if not hasattr(obj, "GeneralArea"):
+            obj.addProperty("App::PropertyArea", "GeneralArea")
             obj.GeneralArea = 600
-        if not hasattr(obj, "Divisions")   *
-            obj.addProperty("App   *   *PropertyInteger", "Divisions")
+        if not hasattr(obj, "Divisions"):
+            obj.addProperty("App::PropertyInteger", "Divisions")
             obj.Divisions = 4
 
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -352,11 +352,11 @@ Method 3 does not need this addendum to the new class because the older properti
 
 **Advantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> The object will retain all previous properties, but in addition it will gain new properties without repetition.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> The object will retain all previous properties, but in addition it will gain new properties without repetition.
 
 **Disadvantages**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Like method 2, it still doesn\'t deal with renamed properties. The old properties should be manually removed.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Like method 2, it still doesn\'t deal with renamed properties. The old properties should be manually removed.
 
 ## Addendum B. Migrating different versions of the old object 
 
@@ -365,11 +365,11 @@ Method 3 is the most complex method because the properties are handled individua
 If from the beginning we create a property that holds the version number of our object, we can use this number in the future to perform specific migration from that version to any other. We set the property to be read-only, so that we cannot overwrite it in the [property editor](property_editor.md), although it is still accessible from the [Python console](Python_console.md). 
 ```python
 # old_module.py
-class OldObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "Area")
-        obj.addProperty("App   *   *PropertyString", "Version")
+class OldObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "Area")
+        obj.addProperty("App::PropertyString", "Version")
         obj.setEditorMode("Version", 1)
         obj.Length = 15
         obj.Area = 300
@@ -377,7 +377,7 @@ class OldObject   *
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -388,15 +388,15 @@ import FreeCAD as App
 import objects.new_module as new_module
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj, "Version") and obj.Version   *
-            if obj.Version == "0.18"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj, "Version") and obj.Version:
+            if obj.Version == "0.18":
                 _migrate_from_018(obj)
-            elif obj.Version == "0.19"   *
+            elif obj.Version == "0.19":
                 _migrate_from_019(obj)
 
-def _migrate_from_018(obj)   *
+def _migrate_from_018(obj):
     old = dict()
     old["Area"] = obj.Area
     old["Length"] = obj.Length
@@ -411,7 +411,7 @@ def _migrate_from_018(obj)   *
     obj.Version = "0.20"
     _wrn("New proxy class used; properties migrated\n")
 
-def _migrate_from_019(obj)   *
+def _migrate_from_019(obj):
     ...
 ```
 
@@ -421,22 +421,22 @@ We don\'t save the `Version` value as we will set a new `Version` number when do
 
 **Advantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> We have complete control of what to do with the old properties, and how to perform the migration.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> We can implement a particular method to migrate a particular version of the old object.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> We have complete control of what to do with the old properties, and how to perform the migration.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> We can implement a particular method to migrate a particular version of the old object.
 
 **Disadvantages**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> This method is very verbose because we must have a clear idea on how to handle each of the properties of each \"version\" that we want to migrate. If our object has many different versions created over the years, we may have to prepare a long list of methods to migrate them to the newest object.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> This method is very verbose because we must have a clear idea on how to handle each of the properties of each \"version\" that we want to migrate. If our object has many different versions created over the years, we may have to prepare a long list of methods to migrate them to the newest object.
 
 ## Addendum B2. Using internal class attributes instead of properties 
 
 Instead of using a [property](property.md) of the object to hold the version information, we can use an attribute of the class. In this way we \"hide\" the version information, because properties are normally public, and visible in the [property editor](property_editor.md), while class attributes can only be manipulated from the [Python console](Python_console.md). Class attributes can be saved and restored as explained in [Scripted objects saving attributes](Scripted_objects_saving_attributes.md). 
 ```python
 # old_module.py
-class OldObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "Area")
+class OldObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "Area")
         obj.Length = 15
         obj.Area = 300
         obj.Proxy = self
@@ -444,7 +444,7 @@ class OldObject   *
         self.Type = "Custom"
         self.ver = "0.18"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -462,13 +462,13 @@ import FreeCAD as App
 import objects.new_module as new_module
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj.Proxy, "ver") and obj.Proxy.ver   *
-            if obj.Proxy.ver == "0.18"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj.Proxy, "ver") and obj.Proxy.ver:
+            if obj.Proxy.ver == "0.18":
                 _migrate_from_018(obj)
 
-def _migrate_from_018(obj)   *
+def _migrate_from_018(obj):
     old = dict()
     old["Area"] = obj.Area
     old["Length"] = obj.Length
@@ -495,13 +495,13 @@ import FreeCAD as App
 import objects.new_module as new_module
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj, "Version") and obj.Version   *
-            if obj.Version == "0.18"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj, "Version") and obj.Version:
+            if obj.Version == "0.18":
                 _migrate_from_018(obj)
 
-def _migrate_from_018(obj)   *
+def _migrate_from_018(obj):
     old = dict()
     old["Area"] = obj.Area
     obj.removeProperty("Area")
@@ -515,42 +515,37 @@ def _migrate_from_018(obj)   *
 
 As we see in the example, the old `Area` property is deleted and migrated to the new `GeneralArea` property as usual. We do not need to delete `Length` nor `Version` because in the new class they are still used with the same name, and they won\'t be created again (addendum A). As we don\'t want to modify `Length`, this property is not touched at all; it is migrated to the new class silently. However, we do update `Version` to the new value. We omit the migration of the [viewprovider](viewprovider.md) properties but it follows the same pattern.
 
-This should work like method 3, meaning that the old properties are removed and only the new properties remain in the new object. The only difference is that we omit removing and recreating the properties that are named the same. This process should work as long as the old [property](property.md) and the new [property](property.md) have the same type (for example, `App   *   *PropertyLength` or `App   *   *PropertyArea`), so the old property can pass its value directly. However, if the new property has a different type than the old property, then the old property should be removed, otherwise the old property will completely overwrite the new property, which is probably not what we want because the new class will be expecting the new type and not the old type.
+This should work like method 3, meaning that the old properties are removed and only the new properties remain in the new object. The only difference is that we omit removing and recreating the properties that are named the same. This process should work as long as the old [property](property.md) and the new [property](property.md) have the same type (for example, `App::PropertyLength` or `App::PropertyArea`), so the old property can pass its value directly. However, if the new property has a different type than the old property, then the old property should be removed, otherwise the old property will completely overwrite the new property, which is probably not what we want because the new class will be expecting the new type and not the old type.
 
 ### Advantages and disadvantages 
 
 **Advantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Like method 3, this method allows us complete control of the migration of the old information.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> We avoid writing code that removes and recreates properties that are named the same.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Like method 3, this method allows us complete control of the migration of the old information.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> We avoid writing code that removes and recreates properties that are named the same.
 
 **Disadvantages**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Like method 3, this method is still very verbose because we have to handle the properties carefully.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> If a new [property](property.md) and an old [property](property.md) share the same name, the new property will be overwritten, which may be undesired behavior, especially if the two properties have different types. In this case, removing the old property, and migrating its value manually is still necessary.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Like method 3, this method is still very verbose because we have to handle the properties carefully.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> If a new [property](property.md) and an old [property](property.md) share the same name, the new property will be overwritten, which may be undesired behavior, especially if the two properties have different types. In this case, removing the old property, and migrating its value manually is still necessary.
 
 ## Summary
 
-Each of the methods has a recommended use   *
+Each of the methods has a recommended use:
 
 -   Method 1. The module is moved or renamed but the properties are the same. Simple redirection of classes because the properties don\'t need to be modified at all.
 -   Method 2+A. Simple migration scenarios. Display a message when the object is migrated from one class to another. The properties are of the same type and don\'t need to be modified at all.
 -   Method 3, 3+A, or 3+B. Complex migration scenarios. Full control of the properties, deleting the old properties, and adding new properties. An identifier to know the version of the object is useful to choose the right function to perform the migration (Addendum B or B2).
 
-Preferably avoid the following   *
+Preferably avoid the following:
 
 -   Method 2. The properties will be duplicated if the new class doesn\'t check for existing properties (Addendum A).
 -   Method 3+C. Use only when the old properties and the new properties are of the same type. Otherwise use method 3 or 3+B to remove older properties, and handle them exactly as needed.
 
 ## Links
 
--   [Migrating and upgrading old scripted objects](https   *//forum.freecadweb.org/viewtopic.php?t=42948)
--   [Migrate old scripted objects](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=46218)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+-   [Migrating and upgrading old scripted objects](https://forum.freecadweb.org/viewtopic.php?t=42948)
+-   [Migrate old scripted objects](https://forum.freecadweb.org/viewtopic.php?f=18&t=46218)
 
 
 

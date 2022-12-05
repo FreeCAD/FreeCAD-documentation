@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Rebar ColumnReinforcement
-   Name/de   *Architektur Bewehrung Säulenverstärkung
-   MenuLocation   *Architektur → Rebar Tools → Säulenverstärkung oder 3D/BIM → Reinforcement tools → Stützenbewehrung 
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [Arch Bewehrungsstab spiralförmig](Arch_Rebar_Helical/de.md), [ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
+- GuiCommand:/de
+   Name:Arch Rebar ColumnReinforcement
+   Name/de:Architektur Bewehrung Säulenverstärkung
+   MenuLocation:Architektur → Rebar Tools → Säulenverstärkung oder 3D/BIM → Reinforcement tools → Stützenbewehrung 
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version:0.19
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [Arch Bewehrungsstab spiralförmig](Arch_Rebar_Helical/de.md), [ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
 # Arch Rebar ColumnReinforcement/de
@@ -22,12 +22,12 @@ Das [Arch Stützenverstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug i
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Stützenbewehrung innerhalb eines Stütze [Architektur Struktur](Arch_Structure/de.md)*
 
 ## Anwendung
@@ -35,23 +35,23 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 1\. Wähle eine Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Objekt.
 2. Wähle dann **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Stützen Verstäkung](Arch_Rebar_ColumnReinforcement.md)** aus den Bewehrungs-Werkzeugen.
 3. Eine Dialog-Box wird sich öffnen, wie unten gezeigt.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 *Dialog-Box für das Arch-Bewehrung-Stützenverstärkungs-Werkzeug*
 
 4\. Wähle den gewünschten Typ von Säulenverstärkung.
 5. Mache Eingaben zu Daten bzgl. Spannankern
 6. Klicke **Weiter** und die Dialog-Box wird wie unten gezeigt aktualisiert.
-<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width:700px;">
 *Dialog-Box für Daten für Hauptbewehrungsstäbe*
 
 7\. Wähle den gewünschten Typ Bewehrungsstäbe und fülle die Daten für Hauptbewehrungsstäbe.
 8. Klicke **Weiter** und die Dialog-Box wird wie unten gezeigt aktualisiert.
-<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width:700px;">
 *Dialog Box for XDirection Rebars data*
 
 9\. Select desired rebar type and fill data for xdirection rebars.
 10. Click **Next** and the dialog box will be updated as shown below.
-<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width:700px;">
 *Dialog Box for YDirection Rebars data*
 
 11\. Select desired rebar type and fill data for ydirection rebars.
@@ -60,86 +60,86 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 ## Eigenschaften
 
-**Ties   ***
+**Ties:**
 
--    **Left Cover**   * The distance between the left end of the tie to the left face of the structure.
+-    **Left Cover**: The distance between the left end of the tie to the left face of the structure.
 
--    **Right Cover**   * The distance between the right end of the tie to right face of the structure.
+-    **Right Cover**: The distance between the right end of the tie to right face of the structure.
 
--    **Top Cover**   * The distance between tie from the top face of the structure.
+-    **Top Cover**: The distance between tie from the top face of the structure.
 
--    **Bottom Cover**   * The distance between tie from the bottom face of the structure.
+-    **Bottom Cover**: The distance between tie from the bottom face of the structure.
 
--    **Offset**   * The distance between tie from the top/bottom face of the structure.
+-    **Offset**: The distance between tie from the top/bottom face of the structure.
 
--    **Diameter**   * Diameter of the tie.
+-    **Diameter**: Diameter of the tie.
 
--    **Bent Angle**   * Bent angle defines the angle at the ends of a tie.
+-    **Bent Angle**: Bent angle defines the angle at the ends of a tie.
 
--    **Extension Factor**   * Extension Factor defines length of end of tie, expressed in times the diameter.
+-    **Extension Factor**: Extension Factor defines length of end of tie, expressed in times the diameter.
 
--    **Number**   * The number of ties.
+-    **Number**: The number of ties.
 
--    **Spacing**   * The distance between the axes of each tie.
+-    **Spacing**: The distance between the axes of each tie.
 
-**Main Rebars   *** Rebars present at corners of tie
+**Main Rebars:** Rebars present at corners of tie
 
--    **Rebar Type**   * Type of main rebars.
+-    **Rebar Type**: Type of main rebars.
 
--    **Hook Orientation**   * Orientation of LShaped hooks.
+-    **Hook Orientation**: Orientation of LShaped hooks.
 
--    **Hook Extend Along**   * Direction for hook extension.
+-    **Hook Extend Along**: Direction for hook extension.
 
--    **Hook Extension**   * Length of hook of LShape rebars.
+-    **Hook Extension**: Length of hook of LShape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
--    **Diameter**   * Diameter of the main rebars.
+-    **Diameter**: Diameter of the main rebars.
 
-**XDir Secondary Rebars   *** Rebars along x-direction except main rebars
+**XDir Secondary Rebars:** Rebars along x-direction except main rebars
 
--    **Rebar Type**   * Type of x-direction rebars.
+-    **Rebar Type**: Type of x-direction rebars.
 
--    **Hook Orientation**   * Orientation of LShaped hooks.
+-    **Hook Orientation**: Orientation of LShaped hooks.
 
--    **Hook Extension**   * Length of hook of LShape rebars.
+-    **Hook Extension**: Length of hook of LShape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
--    **Number#Diameter**   * Number#Diameter set of the x-direction rebars.
+-    **Number#Diameter**: Number#Diameter set of the x-direction rebars.
 
-**YDir Secondary Rebars   *** Rebars along y-direction except main rebars
+**YDir Secondary Rebars:** Rebars along y-direction except main rebars
 
--    **Rebar Type**   * Type of y-direction rebars.
+-    **Rebar Type**: Type of y-direction rebars.
 
--    **Hook Orientation**   * Orientation of LShaped hooks.
+-    **Hook Orientation**: Orientation of LShaped hooks.
 
--    **Hook Extension**   * Length of hook of LShape rebars.
+-    **Hook Extension**: Length of hook of LShape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
--    **Number#Diameter**   * Number#Diameter set of the y-direction rebars.
+-    **Number#Diameter**: Number#Diameter set of the y-direction rebars.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Architektur API](Arch_API/de.md), [Bewehrung API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Stützenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole, durch Anwendung der folgenden Funktion verwendet werden   *
+Das Stützenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole, durch Anwendung der folgenden Funktion verwendet werden:
 
 ### Create Single Tie Four Rebars 
 
@@ -191,7 +191,7 @@ RebarGroup = makeSingleTieFourRebars(
 
 -    `rebar_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `hook_orientation`specifies the orientation of LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `hook_orientation`specifies the orientation of LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `hook_extend_along`specifies direction for hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -348,7 +348,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_rebars_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
 
--    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `main_hook_extend_along`specifies direction for main hook extension; it can be `"x-axis"` or `"y-axis"`.
 
@@ -576,11 +576,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

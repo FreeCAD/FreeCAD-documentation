@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Path Array
-   MenuLocation   *Path → Path Modification → Array
-   Workbenches   *[Path](Path_Workbench.md)
+- GuiCommand:
+   Name:Path Array
+   MenuLocation:Path → Path Modification → Array
+   Workbenches:[Path](Path_Workbench.md)
 ---
 
 # Path Array
@@ -20,20 +20,20 @@ This tool creates a new path by duplicating another path several times at a cert
 
 ## Properties
 
--    **Type**   * The type array (polar, linear one ore two directions)
+-    **Type**: The type array (polar, linear one ore two directions)
 
--    **Offset**   * The spacing between the array copies for each direction
+-    **Offset**: The spacing between the array copies for each direction
 
--    **Copies**   * The number of copies (not counting the original) for each direction
+-    **Copies**: The number of copies (not counting the original) for each direction
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
  
 ```python

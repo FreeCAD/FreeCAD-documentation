@@ -1,6 +1,6 @@
 # Std UnitsCalculator/ro
 ---
-- GuiCommand   *   Name   *Std_UnitsCalculator   MenuLocation   *Tools → Unit calculator...   Workbenches   *All   SeeAlso   *...---
+- GuiCommand:   Name:Std_UnitsCalculator   MenuLocation:Tools → Unit calculator...   Workbenches:All   SeeAlso:...---
 
 
 </div>

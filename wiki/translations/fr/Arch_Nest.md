@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Nest
-   Name/fr   *Arch Calepinage
-   MenuLocation   *Arch → Outils pour les panneaux → Calepinage
-   Workbenches   *[Atelier Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
+- GuiCommand:/fr
+   Name:Arch Nest
+   Name/fr:Arch Calepinage
+   MenuLocation:Arch → Outils pour les panneaux → Calepinage
+   Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
 ---
 
 # Arch Nest/fr
@@ -15,7 +15,7 @@ L\'outil **<img src="images/Arch_Nest.svg" width=16px> [Arch Calepinage](Arch_Ne
 
 L\'algorithme qui gère l\'outil Nest est en constante évolution et n\'est actuellement pas entièrement optimisé. À l\'avenir, la performance de cet outil devrait devenir bien meilleure.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
 
 *L\'image ci-dessus montre une série de formes avant et après l\'opération d\'imbrication.*
 
@@ -30,7 +30,7 @@ L\'algorithme qui gère l\'outil Nest est en constante évolution et n\'est actu
 7.  À la fin du calcul, cliquez sur le bouton **Aperçu** pour créer un aperçu temporaire du résultat.
 8.  Si vous souhaitez appliquer le résultat (déplacez et faites pivoter les formes réelles), cliquez sur **OK**.
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *800px;"> 
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width:800px;"> 
 *Panneau de tâches pour l'outil [Calepinage](Arch_Nest/fr.md)*
 
 ## Remarques

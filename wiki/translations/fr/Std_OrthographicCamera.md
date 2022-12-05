@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std OrthographicCamera
-   Name/fr   *Std Vue orthographique
-   MenuLocation   *Affichage → Vue orthographique
-   Workbenches   *Tous
-   Shortcut   ***V** **O**
-   SeeAlso   *[Std Vue en perspective](Std_PerspectiveCamera/fr.md)
+- GuiCommand:/fr
+   Name:Std OrthographicCamera
+   Name/fr:Std Vue orthographique
+   MenuLocation:Affichage → Vue orthographique
+   Workbenches:Tous
+   Shortcut:**V** **O**
+   SeeAlso:[Std Vue en perspective](Std_PerspectiveCamera/fr.md)
 ---
 
 # Std OrthographicCamera/fr
@@ -19,9 +19,9 @@ La commande **Std Vue orthographique** fait passer la vision du mode actif [vue 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_OrthographicCamera.svg" width=16px> Vue orthographique** dans le menu.
-    -   Utilisez le raccourci clavier   * **V** puis **O**.
+    -   Utilisez le raccourci clavier: **V** puis **O**.
 
 ## Remarques
 
@@ -29,12 +29,12 @@ La commande **Std Vue orthographique** fait passer la vision du mode actif [vue 
 
 ## Préférences
 
--   Le type de vue peut être modifié dans les préférences   * **Edition → Préférences... → Affichage → Vue 3D → Type de caméra**. Le type sélectionné sera utilisé pour toutes les vues 3D de tous les documents ouverts et également pour les nouveaux documents. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+-   Le type de vue peut être modifié dans les préférences: **Edition → Préférences... → Affichage → Vue 3D → Type de caméra**. Le type sélectionné sera utilisé pour toutes les vues 3D de tous les documents ouverts et également pour les nouveaux documents. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

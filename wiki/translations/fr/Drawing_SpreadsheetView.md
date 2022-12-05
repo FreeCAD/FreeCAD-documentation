@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Drawing SpreadsheetView
-   Name/fr   *Drawing Vue d'une feuille de calcul
-   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation   *Drawing → insérer une vue d'une feuille de calcul...
+- GuiCommand:/fr
+   Name:Drawing SpreadsheetView
+   Name/fr:Drawing Vue d'une feuille de calcul
+   Workbenches:[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation:Drawing → insérer une vue d'une feuille de calcul...
 ---
 
 # Drawing SpreadsheetView/fr
@@ -12,7 +12,7 @@
 
 Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une page [Drawing](Drawing_Workbench/fr.md).
 
-<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width   *640px;">
+<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:640px;">
 
 ## Utilisation
 
@@ -21,17 +21,17 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 
 ## Propriétés
 
--    {{PropertyData/fr|Cell Start}}   * La cellule supérieure gauche de la cellule doit être incluse dans cette vue
+-    {{PropertyData/fr|Cell Start}}: La cellule supérieure gauche de la cellule doit être incluse dans cette vue
 
--    {{PropertyData/fr|Cell End}}   * La cellule en bas à droite de la plage de cellules à inclure dans cette vue
+-    {{PropertyData/fr|Cell End}}: La cellule en bas à droite de la plage de cellules à inclure dans cette vue
 
--    {{PropertyData/fr|Font}}   * Le nom de la police utilisée pour les textes
+-    {{PropertyData/fr|Font}}: Le nom de la police utilisée pour les textes
 
--    {{PropertyData/fr|Color}}   * La couleur des lignes et des textes qui n\'ont pas de couleur spécifiée dans la feuille de calcul
+-    {{PropertyData/fr|Color}}: La couleur des lignes et des textes qui n\'ont pas de couleur spécifiée dans la feuille de calcul
 
--    {{PropertyData/fr|Font Size}}   * La taille de la police des textes
+-    {{PropertyData/fr|Font Size}}: La taille de la police des textes
 
--    {{PropertyData/fr|Line Width}}   * La largeur des lignes frontières de la cellule
+-    {{PropertyData/fr|Line Width}}: La largeur des lignes frontières de la cellule
 
 
 

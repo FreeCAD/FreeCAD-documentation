@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Plot - Grafico
-   Level   *Intermedio
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic:Plot - Grafico
+   Level:Intermedio
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # Plot MultiAxes tutorial/it
@@ -30,12 +30,12 @@ Consultare anche la sezione [Modulo Grafico](Plot_Workbench/it.md).
 
 </div>
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Esempio di grafico multiasse" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
+<img alt="Esempio di grafico multiasse" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
 
 
 <center>
@@ -51,7 +51,7 @@ Esempio di grafico multi-asse.
 
 <div class="mw-translate-fuzzy">
 
-Nell\'immagine precedente si può vedere il risultato finale approssimativo di questa esercitazione. In questo tutorial si descrive come   *
+Nell\'immagine precedente si può vedere il risultato finale approssimativo di questa esercitazione. In questo tutorial si descrive come:
 
 -   Creare un grafico Multi-asse dalla console Python.
 -   Modificare le proprietà degli assi.
@@ -80,8 +80,8 @@ Come descritto nella [guida di base](Plot_Basic_tutorial/it.md), si usa la conso
 
 ### Creare i dati 
 
-In questo esempio, vengono tracciate 3 funzioni   * le due utilizzate nel [precedente tutorial](Plot_Basic_tutorial/it.md), e una nuova funzione polinomiale. Il polinomio ha bisogno di un nuovo sistema di assi in quanto il suo campo di variazione è diverso da tutti gli altri.
-I seguenti comandi creano i gruppi di dati necessari   *
+In questo esempio, vengono tracciate 3 funzioni: le due utilizzate nel [precedente tutorial](Plot_Basic_tutorial/it.md), e una nuova funzione polinomiale. Il polinomio ha bisogno di un nuovo sistema di assi in quanto il suo campo di variazione è diverso da tutti gli altri.
+I seguenti comandi creano i gruppi di dati necessari:
 
 
 </div>
@@ -114,16 +114,16 @@ In FreeCAD il grafico Multiasse è destinato a produrre un grafico con più assi
 ### Tracciare le funzioni, aggiungere nuovi assi 
 
 In questo esempio la funzione polinomiale viene tracciata nel sistema di assi principali. Se tutti gli assi hanno stesse dimensioni non è rilevante in quali assi viene tracciata una funzione, ma se il grafico ha assi con dimensioni diverse, come in questo caso, gli assi principali devono essere quelli più grandi (perché hanno lo sfondo bianco).
-Per tracciare la prima curva basta lanciare i seguenti comandi   *
+Per tracciare la prima curva basta lanciare i seguenti comandi:
 
 
 </div>
 
 
 ```python
-try   *
+try:
     from FreeCAD.Plot import Plot
-except ImportError   *
+except ImportError:
     from freecad.plot import Plot
 
 Plot.plot(t,s,r"$\sin\left( 2 \pi t \right)$")
@@ -133,7 +133,7 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 <div class="mw-translate-fuzzy">
 
-Questa volta si passa anche direttamente l\'etichetta della serie per la legenda. Notare che la stringa passata come argomento etichetta ha il prefisso **r** per evitare che Python tenti di interpretare i caratteri speciali (il simbolo **\\** è usato di frequente nella sintassi [LaTeX](http   *//www.latex-project.org)).
+Questa volta si passa anche direttamente l\'etichetta della serie per la legenda. Notare che la stringa passata come argomento etichetta ha il prefisso **r** per evitare che Python tenti di interpretare i caratteri speciali (il simbolo **\\** è usato di frequente nella sintassi [LaTeX](http://www.latex-project.org)).
 
 
 </div>
@@ -256,7 +256,7 @@ Per quanto riguarda la legenda, essa è unica per entrambi i sistemi di assi ed 
 
 ### Definire le etichette degli assi 
 
-È possibile impostare le etichette degli assi con lo stesso strumento utilizzato nella [guida di base](Plot_Basic_tutorial/it.md), con la differenza che ora ci sono più assi. Dal momento che le etichette degli assi sono una per ogni asse, non è una differenza significativa, ma il modulo [Grafico](Plot_Workbench/it.md) di FreeCAD consente anche di impostare un titolo per il sistema di assi. Ecco come impostare solo il titolo degli assi principali   *
+È possibile impostare le etichette degli assi con lo stesso strumento utilizzato nella [guida di base](Plot_Basic_tutorial/it.md), con la differenza che ora ci sono più assi. Dal momento che le etichette degli assi sono una per ogni asse, non è una differenza significativa, ma il modulo [Grafico](Plot_Workbench/it.md) di FreeCAD consente anche di impostare un titolo per il sistema di assi. Ecco come impostare solo il titolo degli assi principali:
 
 
 </div>
@@ -264,13 +264,13 @@ Per quanto riguarda la legenda, essa è unica per entrambi i sistemi di assi ed 
 
 <div class="mw-translate-fuzzy">
 
-**Axes 0   ***
+**Axes 0:**
 
 -   Title = Multiaxes example
 -   X Label = \$x\$
 -   Y Label = \$\\mathrm{f} \\left( x \\right)\$
 
-**Axes 1   ***
+**Axes 1:**
 
 -   X Label = \$t\$
 -   Y Label = \$\\mathrm{f} \\left( t \\right)\$
@@ -339,9 +339,7 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}} {{Plot_Tools_navi}}
 
 
 

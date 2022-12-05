@@ -8,7 +8,7 @@
 
 ## Building 
 
-ImageConv je umístěn ve zdrojovém stromu FreeCADu   *
+ImageConv je umístěn ve zdrojovém stromu FreeCADu:
 
 
 </div>
@@ -29,8 +29,6 @@ ImageConv je nástroj používaný z příkazové řádky.
 
 
 </div>
-
-[Category   *Developer](Category_Developer.md)
 
 
 

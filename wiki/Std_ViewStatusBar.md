@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std ViewStatusBar
-   Empty   *1
-   MenuLocation   *View → Status bar
-   Workbenches   *All
+- GuiCommand:
+   Name:Std ViewStatusBar
+   Empty:1
+   MenuLocation:View → Status bar
+   Workbenches:All
 ---
 
 # Std ViewStatusBar

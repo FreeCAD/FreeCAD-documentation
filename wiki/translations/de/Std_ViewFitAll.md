@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std ViewFitAll
-   Name/de   *Std AnsichtEinpassenAlles
-   MenuLocation   *Ansicht → Standardansichten‏‎ → EinpassenAlles
-   Workbenches   *Alle
-   Shortcut   ***V** **F**
-   SeeAlso   *[Std AnsichtEinpassenAuswahl](Std_ViewFitSelection/de.md)
+- GuiCommand:/de
+   Name:Std ViewFitAll
+   Name/de:Std AnsichtEinpassenAlles
+   MenuLocation:Ansicht → Standardansichten‏‎ → EinpassenAlles
+   Workbenches:Alle
+   Shortcut:**V** **F**
+   SeeAlso:[Std AnsichtEinpassenAuswahl](Std_ViewFitSelection/de.md)
 ---
 
 # Std ViewFitAll/de
@@ -16,7 +16,7 @@ Der **Std AnsichtEinpassenAlles**-Befehl zoomt und schwenkt, bis alle sichtbaren
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, den ViewFitAll Befehl aufzurufen   *
+1.  Es gibt mehrere Wege, den ViewFitAll Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_ViewFitAll.svg" width=16px> [Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)**-Schaltfläche.
     -   Wähle die **Ansicht → Standardansicht → <img src="images/Std_ViewFitAll.svg" width=16px> Alles einpassen**-Option aus dem Menü.
     -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewFitAll.svg" width=16px>Alles einpassen**-Option aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
@@ -29,7 +29,7 @@ Der **Std AnsichtEinpassenAlles**-Befehl zoomt und schwenkt, bis alle sichtbaren
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

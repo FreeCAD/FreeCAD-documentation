@@ -1,8 +1,6 @@
 # Category:External Workbenches/pt-br
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md) [Category   *Addons/pt-br](Category   *Addons/pt-br.md)
-
 ### Contents
 
 |     |     |     |

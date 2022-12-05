@@ -1,8 +1,6 @@
 # Category:Part/uk
 This category lists pages related to the [Part Workbench/uk](Part_Workbench/uk.md).
 
-[Category   *Workbenches/uk](Category   *Workbenches/uk.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 ConstraintMore
-   Name/de   *Assembly3 Weitere
-   Icon   *Assembly_ConstraintMore.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:/de
+   Name:Assembly3 ConstraintMore
+   Name/de:Assembly3 Weitere
+   Icon:Assembly_ConstraintMore.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintMore/de

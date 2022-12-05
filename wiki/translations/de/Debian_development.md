@@ -5,10 +5,5 @@ Debian ist die übergeordnete Distribution, von der viele andere Linux Distribut
 
 
 
-
-[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Debian development/de

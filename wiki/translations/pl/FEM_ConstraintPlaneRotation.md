@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *FEM ConstraintPlaneRotation
-   Name/pl   *MES   * Zdefiniuj obrót w płaszczyźnie
-   MenuLocation   *Model → Wiązania geometryczne → Zdefiniuj obrót w płaszczyźnie
-   Workbenches   *[środowisko pracy MES](FEM_Workbench/pl.md)
-   SeeAlso   *[Zdefiniuj odkształcenia](FEM_ConstraintTransform/pl.md)
+- GuiCommand:/pl
+   Name:FEM ConstraintPlaneRotation
+   Name/pl:MES: Zdefiniuj obrót w płaszczyźnie
+   MenuLocation:Model → Wiązania geometryczne → Zdefiniuj obrót w płaszczyźnie
+   Workbenches:[środowisko pracy MES](FEM_Workbench/pl.md)
+   SeeAlso:[Zdefiniuj odkształcenia](FEM_ConstraintTransform/pl.md)
 ---
 
 # FEM ConstraintPlaneRotation/pl
@@ -15,7 +15,7 @@ Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni pł
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> '''Zdefiniuj obrót w płaszczyźnie'''** na pasku narzędzi.
     -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Zdefiniuj obrót w płaszczyźnie**.
 2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie, może to być ściana.
@@ -27,7 +27,7 @@ Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni pł
 
 ## Uwagi
 
-1.  Wiązanie to wykorzystuje kartę \*MPC w programie CalculiX. Karta ta jest szczegółowo opisana na stronie <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  Wiązanie to wykorzystuje kartę \*MPC w programie CalculiX. Karta ta jest szczegółowo opisana na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 

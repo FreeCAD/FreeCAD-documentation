@@ -3,7 +3,7 @@
 
 ## Introdução
 
-A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http   *//en.wikipedia.org/wiki/Qt_(toolkit)) e tem uma organização de última geração. Alguns aspectos da interface podem ser personalizados. Você pode, por exemplo, adicionar barras de ferramentas personalizadas, com ferramentas de várias bancadas de trabalho (workbenches) ou ferramentas definidas em macros, e você pode criar seus próprios atalhos de teclado. Mas os menus e barras de ferramentas padrão que vêm com o FreeCAD e suas bancadas de trabalho não podem ser alterados.
+A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) e tem uma organização de última geração. Alguns aspectos da interface podem ser personalizados. Você pode, por exemplo, adicionar barras de ferramentas personalizadas, com ferramentas de várias bancadas de trabalho (workbenches) ou ferramentas definidas em macros, e você pode criar seus próprios atalhos de teclado. Mas os menus e barras de ferramentas padrão que vêm com o FreeCAD e suas bancadas de trabalho não podem ser alterados.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Customize dialog box*
@@ -11,7 +11,7 @@ A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http   *//e
 ## Utilização
 
 1.  Os comandos disponíveis na caixa de diálogo \"Customize\" (Personalizar) dependem das bancadas de trabalho que foram carregadas na sessão atual do FreeCAD. Portanto, você deve primeiro carregar todas as bancadas de trabalho cujos comandos deseja ter acesso.
-2.  Existem várias maneiras de invocar o comando <img alt="" src=images/Std_DlgCustomize.svg  style="width   *16px;"> [Std DlgCustomize](Std_DlgCustomize.md)   *
+2.  Existem várias maneiras de invocar o comando <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgCustomize](Std_DlgCustomize.md):
     -   Selecionar a opção **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** do menu.
     -   Clicar com o botão direito na área da barra de ferramentas e escolher **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** nos menus de contexto.
 3.  A caixa de diálogo Personalizar é aberta. Para obter mais informações, consulte [Options](#Options.md).
@@ -20,7 +20,7 @@ A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http   *//e
 
 ## Opções
 
-Na caixa de diálogo \"Customize\" (Personalizar), as seguintes guias estão disponíveis   *
+Na caixa de diálogo \"Customize\" (Personalizar), as seguintes guias estão disponíveis:
 
 ### \"Commands\" (Comandos) 
 
@@ -33,8 +33,8 @@ Nesta guia você pode navegar pelos comandos disponíveis.
 
 1.  Selecione uma categoria de comando no painel **\"Category\"** (Categoria) à esquerda. Algumas categorias correspondem às entradas do menu.
 2.  As ferramentas disponíveis na categoria selecionada são mostradas no painel à direita.
-3.  Passe o mouse sobre um comando   * sua dica de ferramenta é exibida.
-4.  Selecione um comando   * o texto da barra de status é exibido abaixo dos dois painéis.
+3.  Passe o mouse sobre um comando: sua dica de ferramenta é exibida.
+4.  Selecione um comando: o texto da barra de status é exibido abaixo dos dois painéis.
 
 
 {{Top}}
@@ -184,9 +184,9 @@ On this tab custom toolbars can be created and modified.
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *The Macros tab*
 
-On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
+On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
-If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
+If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) then make sure that you also download its icon image file. Most macros have an image link on the information page that appears in the Addon Manager. You can for example put this image file in the user macros folder.
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
 
@@ -198,7 +198,7 @@ If you want to use a macro downloaded from a different source you will have to i
 4.  Optionally enter a **Status text**. This text will appear in the [status bar](Status_bar.md) when you hover the toolbar icon.
 5.  Optionally enter the wiki page for the macro, if available, in the **What\'s this** input box. Enter the page name, not the full URL.
 6.  Optionally enter a shortcut in the **Accelerator** input box. See [Keyboard](#Keyboard.md) for more information.
-7.  To add an icon   *
+7.  To add an icon:
     1.  Press the **Pixmap** **...** button.
     2.  The Choose Icon dialog box opens.
     3.  If required press the **Icon folders...** button to add an icon folder.
@@ -223,17 +223,17 @@ If you want to use a macro downloaded from a different source you will have to i
 
 ### Spaceball Motion 
 
-This tab is blank if no Spaceball is detected. See   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ### Spaceball Buttons 
 
-This is tab is blank if no Spaceball is detected. See   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Themes
 
-FreeCAD supports complete theming of the interface, via .qss stylesheets. The [qss format](https   *//doc.qt.io/qt-5/stylesheet-syntax.html) is very similar to the [css format](https   *//en.wikipedia.org/wiki/CSS) used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a **style sheet** in the [FreeCAD preferences](Preferences_Editor#General.md).
+FreeCAD supports complete theming of the interface, via .qss stylesheets. The [qss format](https://doc.qt.io/qt-5/stylesheet-syntax.html) is very similar to the [css format](https://en.wikipedia.org/wiki/CSS) used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a **style sheet** in the [FreeCAD preferences](Preferences_Editor#General.md).
 
-You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [existing style sheet](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Your new style must be placed in a specific folder for it to be found by FreeCAD   *
+You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [existing style sheet](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Your new style must be placed in a specific folder for it to be found by FreeCAD:
 
 -    **%APPDATA%/FreeCAD/Gui/Stylesheets**(on Windows). The **%APPDATA%** folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [Python console](Python_console.md).
 
@@ -246,35 +246,35 @@ You can also create your own theme if you are not satisfied with the themes that
 
 ## Addons
 
-Addons offer yet another way to customize the use interface. Below are some addons created by users in the FreeCAD community. They can be downloaded through the <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) (note   * they are listed on the Workbenches tab).
+Addons offer yet another way to customize the use interface. Below are some addons created by users in the FreeCAD community. They can be downloaded through the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) (note: they are listed on the Workbenches tab).
 
 ### CubeMenu
 
--   Github repository   * <https   *//github.com/triplus/CubeMenu>
+-   Github repository: <https://github.com/triplus/CubeMenu>
 
 ### Glass
 
--   Github repository   * <https   *//github.com/triplus/Glass>.
+-   Github repository: <https://github.com/triplus/Glass>.
 
 ### IconThemes
 
--   Github repository   * <https   *//github.com/triplus/IconThemes>
+-   Github repository: <https://github.com/triplus/IconThemes>
 
 ### Launcher
 
--   Github repository   * <https   *//github.com/triplus/Launcher>
+-   Github repository: <https://github.com/triplus/Launcher>
 
 ### PieMenu
 
--   Github repository   * <https   *//github.com/triplus/PieMenu>
+-   Github repository: <https://github.com/triplus/PieMenu>
 
 ### RemBench
 
--   Github repository   * <https   *//github.com/triplus/RemBench>
+-   Github repository: <https://github.com/triplus/RemBench>
 
 ### ShortCut
 
--   Github repository   * <https   *//github.com/triplus/ShortCuts>
+-   Github repository: <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

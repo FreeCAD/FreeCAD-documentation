@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name   *PartDesign WizardShaft
-   Name/ru   *PartDesign WizardShaft
-   MenuLocation   *Part Design → Shaft design wizard...
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md), Complete
+- GuiCommand:/ru
+   Name:PartDesign WizardShaft
+   Name/ru:PartDesign WizardShaft
+   MenuLocation:Part Design → Shaft design wizard...
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
 ---
 
 # PartDesign WizardShaft/ru
@@ -13,19 +13,19 @@
 
 ## Описание
 
-Данный инструмент позволяет создать вал на основе значений таблицы, также проводить анализ силы и моментов. Мастер можно запустить через меню **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width   *20px"> Мастер проектирования вала...**.
+Данный инструмент позволяет создать вал на основе значений таблицы, также проводить анализ силы и моментов. Мастер можно запустить через меню **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Мастер проектирования вала...**.
 
 Запущенный Мастер отобразит таблицу с значениями по умолчанию, соответствующую деталь вала и графики сил/моментов.
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width   *780px;">
+<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;">
 
 The top of the window is taken up by the table. It is organized into numbered columns which correspond to segments of the shaft. A shaft segment is characterized by having certain length and diameter. The main window shows two tabs. One is the shaft part itself (a revolution feature), shown in the image above. The second tab shows graphs of the shear forces and moments created by the loads defined in the table.
 
-<img alt="" src=images/shaftwizard1.jpg  style="width   *1024px;">
+<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;">
 
 ## Prerequisites
 
-The shaft design wizard depends on the [matplotlib](http   *//matplotlib.org/) library to create and display the graphs of shear force and bending moment. On Debian/Ubuntu-based systems, it is available through the python-matplotlib package.
+The shaft design wizard depends on the [matplotlib](http://matplotlib.org/) library to create and display the graphs of shear force and bending moment. On Debian/Ubuntu-based systems, it is available through the python-matplotlib package.
 
 ## Параметры
 
@@ -34,9 +34,9 @@ For each shaft segment, the following parameters can be defined
 -   Length of the segment
 -   Diameter of the segment
 -   Load type. Note that you have to click on the desired entry in the menu after scrolling to it, otherwise it will not be selected!
-    -   None   * No load
-    -   Fixed   * The end of the shaft is fixed (e.g. welded to another part). This load type can only be defined for the first or last segment.
-    -   Static   * There is a static load on this shaft segment
+    -   None: No load
+    -   Fixed: The end of the shaft is fixed (e.g. welded to another part). This load type can only be defined for the first or last segment.
+    -   Static: There is a static load on this shaft segment
 -   Load on the shaft segment
 -   Location where the load is applied to the segment. The location is counted from the left-hand edge of the segment
 

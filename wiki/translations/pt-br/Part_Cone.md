@@ -1,35 +1,35 @@
 ---
-- GuiCommand   *
-   Name   *Part Cone
-   MenuLocation   *Part → Primitives → Cone
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Primitives](Part_Primitives.md)
+- GuiCommand:
+   Name:Part Cone
+   MenuLocation:Part → Primitives → Cone
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
 # Part Cone/pt-br
 
 ## Description
 
-The <img alt="" src=images/Part_Cone.svg  style="width   *24px;"> **Part Cone** command creates a parametric cone solid. In the coordinate system defined by its **Placement** property, the bottom face of the cone lies on the XY plane with its center at the origin.
+The <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Part Cone** command creates a parametric cone solid. In the coordinate system defined by its **Placement** property, the bottom face of the cone lies on the XY plane with its center at the origin.
 
 The default Part Cone is truncated. It can be turned into a full, untruncated, cone by changing its **Radius1** or **Radius2** property to zero. It can be turned into a segment of a cone by changing its **Angle** property.
 
-<img alt="" src=images/Part_Cone_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Cone.svg" width=16px> [Part Cone](Part_Cone.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cone** option from the menu.
 2.  The cone is created.
-3.  Optionally change the dimensions and **Placement** of the cone by doing one of the following   *
-    -   Double-click the object in the [Tree view](Tree_view.md)   *
+3.  Optionally change the dimensions and **Placement** of the cone by doing one of the following:
+    -   Double-click the object in the [Tree view](Tree_view.md):
         1.  The **Geometric Primitives** task panel opens.
         2.  Change one or more properties.
         3.  The object is dynamically updated in the [3D view](3D_view.md).
         4.  Press the **OK** button.
     -   Change the properties in the [Property editor](Property_editor.md).
-    -   Change the **Placement** with the <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std TransformManip](Std_TransformManip.md) command.
+    -   Change the **Placement** with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
 ## Example
 
@@ -39,13 +39,13 @@ A Part Cone object created with the [scripting example](#Scripting.md) below is 
 
 ## Notes
 
--   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+-   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Part Cone object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A Part Cone object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -57,29 +57,29 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Cone}}
 
--    **Radius1|Length**   * The radius of the bottom face of the cone. Can be {{Value|0mm}} if **Radius2** is larger than {{Value|0mm}}. The default is {{Value|2mm}}.
+-    **Radius1|Length**: The radius of the bottom face of the cone. Can be {{Value|0mm}} if **Radius2** is larger than {{Value|0mm}}. The default is {{Value|2mm}}.
 
--    **Radius2|Length**   * The radius of the top face of the cone. Can be {{Value|0mm}} if **Radius1** is larger than {{Value|0mm}}. The default is {{Value|4mm}}.
+-    **Radius2|Length**: The radius of the top face of the cone. Can be {{Value|0mm}} if **Radius1** is larger than {{Value|0mm}}. The default is {{Value|4mm}}.
 
--    **Height|Length**   * The height of the cone. The default is {{Value|10mm}}.
+-    **Height|Length**: The height of the cone. The default is {{Value|10mm}}.
 
--    **Angle|Angle**   * The angle of the circular arc that defines the top and bottom face of the cone. Valid range   * {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cone.
+-    **Angle|Angle**: The angle of the circular arc that defines the top and bottom face of the cone. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cone.
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Cone can be created with the {{Incode|addObject()}} method of the document   *
+A Part Cone can be created with the {{Incode|addObject()}} method of the document:
 
 
 ```python
-cone = FreeCAD.ActiveDocument.addObject("Part   *   *Cone", "myCone")
+cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 ```
 
 -   Where {{Incode|"myCone"}} is the name for the object.
 -   The function returns the newly created object.
 
-Example   *
+Example:
 
 
 ```python
@@ -87,7 +87,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-cone = doc.addObject("Part   *   *Cone", "myCone")
+cone = doc.addObject("Part::Cone", "myCone")
 cone.Radius1 = 5
 cone.Radius2 = 10
 cone.Height = 50

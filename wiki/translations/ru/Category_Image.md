@@ -1,8 +1,6 @@
 # Category:Image/ru
 This category lists pages related to the [Image Workbench/ru](Image_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
-
 ### Contents
 
 |     |     |     |

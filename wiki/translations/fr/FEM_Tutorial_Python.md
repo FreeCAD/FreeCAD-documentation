@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */fr
-   Topic   *Analyse par Éléménts Finis
-   Level   *Intermédiaire
-   Time   *30 minutes
-   Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   *Berndhahnebach Bernd]
-   FCVersion   *0.18.15985 ou plus récente
+- TutorialInfo:/fr
+   Topic:Analyse par Éléménts Finis
+   Level:Intermédiaire
+   Time:30 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.18.15985 ou plus récente
 ---
 
 # FEM Tutorial Python/fr
@@ -15,16 +15,16 @@
 
 ## Introduction
 
-Ce tutoriel est destiné à montrer comment une simple analyse par éléments finis (**FEA**) dans l\'<img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Atelier FEM](FEM_Workbench/fr.md) est réalisée à l\'aide de Python. Le modèle du tutoriel [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) sera utilisé pour cet exemple.
+Ce tutoriel est destiné à montrer comment une simple analyse par éléments finis (**FEA**) dans l\'<img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md) est réalisée à l\'aide de Python. Le modèle du tutoriel [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) sera utilisé pour cet exemple.
 
-<img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic00.jpg  style="width:700px;">
 
 ## Conditions
 
 -   La version compatible de FreeCAD comme indiqué dans l\'aperçu du tutoriel.
 
-       *   Utilisez la **Aide → À propos de FreeCAD** pour voir la version de FreeCAD installée.
--   **Remarque importante   *** En raison du développement continu de l\'<img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Atelier FEM](FEM_Workbench/fr.md), il est recommandé d\'utiliser la dernière version de FreeCAD, spécialement pour les analyses FEM écrites en Python.
+    :   Utilisez la **Aide → À propos de FreeCAD** pour voir la version de FreeCAD installée.
+-   **Remarque importante:** En raison du développement continu de l\'<img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md), il est recommandé d\'utiliser la dernière version de FreeCAD, spécialement pour les analyses FEM écrites en Python.
 -   Un atelier FEM fonctionnel. Exécutez l\'analyse [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) pour vérifier cela.
 
 ## Commençons
@@ -38,7 +38,7 @@ doc = App.newDocument("Scripted_CalculiX_Cantilever3D")
 
 # part
 import Part
-box_obj = doc.addObject('Part   *   *Box', 'Box')
+box_obj = doc.addObject('Part::Box', 'Box')
 box_obj.Height = box_obj.Width = 1000
 box_obj.Length = 8000
 
@@ -96,13 +96,13 @@ analysis_object.addObject(force_constraint)
 ```
 
 
-<div class="mw-collapsible mw-collapsed toccolours" style="width   *750px ">
+<div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
 
 ### Maillage FEM (manuel) 
 
 Cette section contient le code de maillage FEM. Veuillez l\'agrandir pour afficher le contenu.
 
-**Remarque   *** Consultez la section [Information supplémentaire](#Information_Suppl.C3.A9mentaire.md) ci-dessous pour savoir comment créer un script de génération de maillage avec GMSH ou objet maillé Netgen.
+**Remarque:** Consultez la section [Information supplémentaire](#Information_Suppl.C3.A9mentaire.md) ci-dessous pour savoir comment créer un script de génération de maillage avec GMSH ou objet maillé Netgen.
 
 
 <div class="mw-collapsible-content">
@@ -425,7 +425,7 @@ femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
 # add it to the analysis
-femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
+femmesh_obj = doc.addObject('Fem::FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
 ```
@@ -457,7 +457,7 @@ analysis_object.addObject(femmesh_obj)
 
 
 ```python
-mesh = doc.addObject('Fem   *   *FemMeshShapeNetgenObject', 'FEMMeshNetgen')
+mesh = doc.addObject('Fem::FemMeshShapeNetgenObject', 'FEMMeshNetgen')
 mesh.Shape = doc.Box
 mesh.MaxSize = 1000
 mesh.Fineness = "Moderate"
@@ -480,14 +480,14 @@ doc.recompute()
 
 ## Lancement de l\'analyse 
 
-Pour exécuter l\'analyse à l\'aide de Python, une instance de la `ccxtools` classe de module `FemToolsCcx` doit être créée, nous avons deux choix lors de l\'exécution de l\'analyse   *
+Pour exécuter l\'analyse à l\'aide de Python, une instance de la `ccxtools` classe de module `FemToolsCcx` doit être créée, nous avons deux choix lors de l\'exécution de l\'analyse:
 
 1.  Exécutez tous les processus en même temps (voir la section [\"Tout en un\"](#Tout_en_une_fois.md) ci-dessous)
 2.  Exécuter les processus les uns après les autres (voir la section [\"Pas à pas\"](#Pas_.C3.A0_pas.md) ci-dessous)
 
 S\'il n\'y a qu\'une seule analyse dans le document et un seul solveur dans l\'analyse, aucun objet ne doit être transmis à `fea init`. La méthode `init` de la classe `fea` activera l\'analyse **si l\'interface graphique est active**.
 
-L\'activation d\'une analyse à l\'aide de Python fonctionne comme suit   *
+L\'activation d\'une analyse à l\'aide de Python fonctionne comme suit:
 
 
 ```python
@@ -522,7 +522,7 @@ fea.update_objects()
 fea.setup_working_dir()
 fea.setup_ccx()
 message = fea.check_prerequisites()
-if not message   *
+if not message:
     fea.purge_results()
     fea.write_inp_file()
     # on error at inp file writing, the inp file path "" was returned (even if the file was written)
@@ -530,7 +530,7 @@ if not message   *
     # fea.inp_file_name = '/tmp/FEMWB/FEMMeshGmsh.inp'
     fea.ccx_run()
     fea.load_results()
-else   *
+else:
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
     print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
@@ -542,8 +542,8 @@ else   *
 
 ```python
 # show some results
-for m in analysis_object.Group   *
-    if m.isDerivedFrom('Fem   *   *FemResultObject')   *
+for m in analysis_object.Group:
+    if m.isDerivedFrom('Fem::FemResultObject'):
         result_object = m
         break
 
@@ -559,50 +559,48 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 
 ##### Netgen
 
-Le script de l\'objet maillé Netgen a été tenté dans [\"Parametrized FEM study\"](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (fil du sous-forum FreeCAD FEM) mais a certaines limites.
+Le script de l\'objet maillé Netgen a été tenté dans [\"Parametrized FEM study\"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (fil du sous-forum FreeCAD FEM) mais a certaines limites.
 
 ##### GMSH
 
-Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Python. Voir les messages des forum suivants   *
+Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Python. Voir les messages des forum suivants:
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
--   sujet du forum <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
+-   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
+-   sujet du forum <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
 #### Script d\'analyses multiple 
 
-Voir la publication du forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
+Voir la publication du forum: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
 #### Script des résultats 
 
 ###### Objet Résultat standard de FreeCAD 
 
-Voir les publications du forum    *
+Voir les publications du forum :
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → facteur d\'échelle dans l\'objet résultat standard
--   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
--   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#> p149043
--   <http   *//forum.freecadweb.org/viewtopic.php?t=18415#p144028>
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorier un seul élément
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → réinitialiser tout le maillage des résultats, afficher l\'amplitude de déplacement colorée
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → facteur d\'échelle dans l\'objet résultat standard
+-   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
+-   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#> p149043
+-   <http://forum.freecadweb.org/viewtopic.php?t=18415#p144028>
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorier un seul élément
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → réinitialiser tout le maillage des résultats, afficher l\'amplitude de déplacement colorée
 
 ##### Objet Résultat Vtk 
 
-Voir les messages du forum    *
+Voir les messages du forum :
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
 #### Mode console 
 
-L\'écriture du fichier d\'entrée en mode console FreeCAD (sans interface graphique) peut être effectuée en mode test. Voir ce [post du forum](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) pertinent pour plus de détails et d\'expérimentation.
+L\'écriture du fichier d\'entrée en mode console FreeCAD (sans interface graphique) peut être effectuée en mode test. Voir ce [post du forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) pertinent pour plus de détails et d\'expérimentation.
 
 ## Appendice
 
-Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hésitez pas à participer sur le [sous-forum FreeCAD FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
+Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hésitez pas à participer sur le [sous-forum FreeCAD FEM](https://forum.freecadweb.org/viewforum.php?f=18).
 
 
- {{FEM Tools navi}} 
-
-[Category   *Python Code](Category_Python_Code.md)
+ {{FEM Tools navi}}
 
 
 

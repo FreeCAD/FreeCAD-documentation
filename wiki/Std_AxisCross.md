@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std AxisCross
-   MenuLocation   *View → Toggle axis cross
-   Workbenches   *All
-   Shortcut   ***A** **C**
+- GuiCommand:
+   Name:Std AxisCross
+   MenuLocation:View → Toggle axis cross
+   Workbenches:All
+   Shortcut:**A** **C**
 ---
 
 # Std AxisCross
@@ -19,23 +19,23 @@ The axis cross consists of three arrows representing the positive X, Y and Z axi
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Select the **View → <img src="images/Std_AxisCross.svg" width=16px> Toggle axis cross** option from the menu.
-    -   Use the keyboard shortcut   * **A** then **C**.
+    -   Use the keyboard shortcut: **A** then **C**.
 
 ## Notes
 
--   FreeCAD can display a smaller coordinate system indicator in the bottom right corner of 3D views   * **Edit → Preferences... → Display → 3D View → Show coordinate system in the corner**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   FreeCAD can display a smaller coordinate system indicator in the bottom right corner of 3D views: **Edit → Preferences... → Display → 3D View → Show coordinate system in the corner**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 -   The [Navigation Cube](Navigation_Cube.md) also includes a coordinate system indicator.
 
 ## Preferences
 
--   The default for the axis cross can be changed in the preferences   * **Edit → Preferences... → Display → 3D view → Show axis cross by default**. See [Preferences Editor](Preferences_Editor#3D_View.md). <small>(v0.19)</small> 
+-   The default for the axis cross can be changed in the preferences: **Edit → Preferences... → Display → 3D view → Show axis cross by default**. See [Preferences Editor](Preferences_Editor#3D_View.md). <small>(v0.19)</small> 
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -8,14 +8,14 @@ Le preferenze per l\'ambiente [Path](Path_Workbench/it.md) si trovano nel [Edito
 
 <div class="mw-translate-fuzzy">
 
-Sono disponibili tre schede   * Preferenze lavorazione, Dressup e Colori percorso.
+Sono disponibili tre schede: Preferenze lavorazione, Dressup e Colori percorso.
 
 
 </div>
 
 ## Preferenze lavorazione 
 
-There are four sections   * General, Post processor, Setup and Tools.
+There are four sections: General, Post processor, Setup and Tools.
 
 ### Job preferences → General 
 
@@ -51,9 +51,7 @@ There are four sections   * General, Post processor, Setup and Tools.
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Arch MeshToShape
-   MenuLocation   *Arch → Utilities → Mesh to Shape
-   Workbenches   *[Arch](Arch_Workbench.md)
-   SeeAlso   *[Arch SplitMesh](Arch_SplitMesh.md), [Arch RemoveShape](Arch_RemoveShape.md)
+- GuiCommand:
+   Name:Arch MeshToShape
+   MenuLocation:Arch → Utilities → Mesh to Shape
+   Workbenches:[Arch](Arch_Workbench.md)
+   SeeAlso:[Arch SplitMesh](Arch_SplitMesh.md), [Arch RemoveShape](Arch_RemoveShape.md)
 ---
 
 # Arch MeshToShape/pt-br
@@ -12,7 +12,7 @@
 
 [Arch MeshToShape](Arch_MeshToShape.md) converts a selected [Mesh](Mesh.md) ([Mesh Feature](Mesh_Feature.md)) object into a [Shape](Shape.md) ([Part Feature](Part_Feature.md)) object.
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width   *16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
 
 ## Utilização
 
@@ -26,11 +26,11 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```
@@ -47,11 +47,11 @@ The above code snippet converts the given `obj` (a mesh), into a shape, joining 
 
 -   If `cut` is `True`, holes in faces are made by subtraction.
 
-Example   * 
+Example: 
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
-Box = FreeCAD.ActiveDocument.addObject("Mesh   *   *Cube", "Cube")
+Box = FreeCAD.ActiveDocument.addObject("Mesh::Cube", "Cube")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000

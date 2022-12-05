@@ -1,7 +1,7 @@
 # Sketcher helper constraint/fr
 ## Présentation
 
-<img alt="Exemple d\'une contrainte d\'aide (Contrainte5 - point sur le cercle) pour une contrainte de tangence (Contrainte6 ; en mode tangent-via-point). Une seule contrainte d\'aide est utilisée dans ce cas, puisque le point de tangence est le point d\'extrémité du diamètre principal de l\'ellipse, qui se trouve par nature sur l\'ellipse." src=images/Sketcher_helper_constraint_example1.png  style="width   *500px;">
+<img alt="Exemple d\'une contrainte d\'aide (Contrainte5 - point sur le cercle) pour une contrainte de tangence (Contrainte6 ; en mode tangent-via-point). Une seule contrainte d\'aide est utilisée dans ce cas, puisque le point de tangence est le point d\'extrémité du diamètre principal de l\'ellipse, qui se trouve par nature sur l\'ellipse." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">
 
 Une Aide pour contraindre est une contrainte de sketcher qui est nécessaire en tant que partie d\'une contrainte plus complexe, mais qui est exposée dans l\'interface utilisateur pour aider à gérer la redondance. Par exemple, pour la [Sketcher Contrainte de réfraction](Sketcher_ConstrainSnellsLaw/fr.md), les deux lignes qui représentent les rayons lumineux doivent être connectées ([Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)) et la jonction doit se trouver sur l\'interface ([Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)).
 
@@ -9,7 +9,7 @@ Les Aides pour contraindre sont ajoutées automatiquement lorsqu\'elles sont né
 
 Si cela se produit (une Aide pour contraindre est manquante et les conditions requises ne sont pas satisfaites dans le cas contraire), la contrainte complexe sera rompue. Cela fera quelque chose, mais le comportement réel n\'est pas défini. Une telle contrainte défaillante peut être réparée en ajoutant manuellement la contrainte auxiliaire manquante.
 
-Des Aides pour contraindre sont actuellement requises pour   *
+Des Aides pour contraindre sont actuellement requises pour:
 
 -   [Sketcher Contrainte tangente](Sketcher_ConstrainTangent/fr.md) (en mode tangent-via-point, deux contraintes point-sur-objet sont nécessaires)
 -   [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md) (en mode perpendiculaire-via-point, deux contraintes point-sur-objet sont nécessaires)
@@ -18,7 +18,7 @@ Des Aides pour contraindre sont actuellement requises pour   *
 
 ## Scripting
 
-Lorsque des contraintes nécessitant des aides sont ajoutées à partir de Python, aucune contrainte d\'aide n\'est automatiquement ajoutée. On peut répliquer la prise de décision automatique des commandes de l\'interface utilisateur dans un script en testant les fonctions suivantes, spécifiquement ajoutées dans le but et utilisées dans les routines de l\'interface utilisateur   * 
+Lorsque des contraintes nécessitant des aides sont ajoutées à partir de Python, aucune contrainte d\'aide n\'est automatiquement ajoutée. On peut répliquer la prise de décision automatique des commandes de l\'interface utilisateur dans un script en testant les fonctions suivantes, spécifiquement ajoutées dans le but et utilisées dans les routines de l\'interface utilisateur: 
 ```python
 Sketch.isPointOnCurve(icurve,x,y)
 ``` isPointOnCurve teste si un point virtuel, donné par les coordonnées d\'esquisse x,y (valeurs flottantes), se trouve satisfaire une contrainte de point virtuel sur objet - c\'est-à-dire se trouve sur la courbe spécifiée par l\'indice de courbe icurve. Retourne True si le point se trouve sur la courbe, et False dans le cas contraire.

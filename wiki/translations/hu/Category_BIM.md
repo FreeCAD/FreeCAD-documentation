@@ -1,8 +1,6 @@
 # Category:BIM/hu
 This category is for pages related to building information management (BIM).
 
-[Category   *User Documentation/hu](Category   *User_Documentation/hu.md)
-
 ### Contents
 
 |     |     |     |

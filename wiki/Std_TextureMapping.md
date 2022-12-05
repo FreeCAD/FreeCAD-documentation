@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Std TextureMapping
-   MenuLocation   *View → Texture Mapping...
-   Workbenches   *All
+- GuiCommand:
+   Name:Std TextureMapping
+   MenuLocation:View → Texture Mapping...
+   Workbenches:All
 ---
 
 # Std TextureMapping

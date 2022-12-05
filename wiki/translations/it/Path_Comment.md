@@ -1,6 +1,6 @@
 # Path Comment/it
 ---
-- GuiCommand   */it   Name   *Path Comment   Name/it   *Commento   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Comandi supplementari → Commento   Shortcut   *P,C   SeeAlso   *---
+- GuiCommand:/it   Name:Path Comment   Name/it:Commento   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi supplementari → Commento   Shortcut:P,C   SeeAlso:---
 
 
 </div>
@@ -23,16 +23,16 @@ Questo strumento inserisce un commento. Quando si esporta un progetto di codice 
 
 ## Proprietà
 
--    **Comment**   * Il testo del commento
+-    **Comment**: Il testo del commento
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

@@ -3,35 +3,35 @@
 
 ## Wprowadzenie
 
-Ta strona wyjaśnia sposób, w jaki środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Projekt Części](PartDesign_Workbench/pl.md) jest przeznaczone do użycia począwszy od FreeCAD w wersji 0.17.
+Ta strona wyjaśnia sposób, w jaki środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) jest przeznaczone do użycia począwszy od FreeCAD w wersji 0.17.
 
-Podczas gdy środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md) oraz inne konstruują modele poprzez łączenie kształtów razem *(zobacz [Konstrukcyjna geometria bryłowa](Constructive_solid_geometry/pl.md))*, środowisko <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt Części](PartDesign_Workbench/pl.md) używa **[cech](PartDesign_Feature/pl.md)**. [Cecha](https   *//en.wikipedia.org/wiki/Feature_recognition) jest operacją, która modyfikuje kształt modelu.
+Podczas gdy środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz inne konstruują modele poprzez łączenie kształtów razem *(zobacz [Konstrukcyjna geometria bryłowa](Constructive_solid_geometry/pl.md))*, środowisko <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) używa **[cech](PartDesign_Feature/pl.md)**. [Cecha](https://en.wikipedia.org/wiki/Feature_recognition) jest operacją, która modyfikuje kształt modelu.
 
 ## Techniki edycji cech 
 
-Pierwsza cecha jest powszechnie nazywana \"cechą bazową\". W miarę jak kolejne cechy są dodawane do modelu, każda z nich przyjmuje kształt poprzedniej i dodaje lub usuwa materię, tworząc liniowe zależności od jednej cechy do następnej. W efekcie, ta metodyka naśladuje zwykły proces produkcyjny   * blok jest cięty z jednej strony, potem z drugiej, dodawane są otwory, potem zaokrąglenia, itd.
+Pierwsza cecha jest powszechnie nazywana \"cechą bazową\". W miarę jak kolejne cechy są dodawane do modelu, każda z nich przyjmuje kształt poprzedniej i dodaje lub usuwa materię, tworząc liniowe zależności od jednej cechy do następnej. W efekcie, ta metodyka naśladuje zwykły proces produkcyjny: blok jest cięty z jednej strony, potem z drugiej, dodawane są otwory, potem zaokrąglenia, itd.
 
 Wszystkie cechy są wymienione kolejno w drzewie modelu i mogą być edytowane w dowolnym momencie, przy czym ostatnia cecha na dole reprezentuje wynik końcowy.
 
-Cechy mogą być posortowane w różnych kategoriach   *
+Cechy mogą być posortowane w różnych kategoriach:
 
--   **Oparte na profilu**   * te cechy rozpoczynają się od profilu, aby zdefiniować kształt materiału, który ma zostać dodany lub usunięty. Profil może być szkicem, planarną powierzchnią na istniejącej geometrii *(profil zostanie wyodrębniony z jej krawędzi)*, obiektem Łącznik Kształtu lub obiektem Rysunek Roboczy, który został włączony do aktywnej bryły.
+-   **Oparte na profilu**: te cechy rozpoczynają się od profilu, aby zdefiniować kształt materiału, który ma zostać dodany lub usunięty. Profil może być szkicem, planarną powierzchnią na istniejącej geometrii *(profil zostanie wyodrębniony z jej krawędzi)*, obiektem Łącznik Kształtu lub obiektem Rysunek Roboczy, który został włączony do aktywnej bryły.
 
--   **Dodanie**   * powoduje dodanie materiału do istniejącego modelu. Cechy addytywne posiadają żółte ikony.
+-   **Dodanie**: powoduje dodanie materiału do istniejącego modelu. Cechy addytywne posiadają żółte ikony.
 
--   **Odjęcie**   * powoduje usunięcie materiału z istniejącego modelu. Cechy subtraktywne mają czerwone i niebieskie ikony.
+-   **Odjęcie**: powoduje usunięcie materiału z istniejącego modelu. Cechy subtraktywne mają czerwone i niebieskie ikony.
 
--   **Oparte na elementach pierwotnych**   * oparte na geometrycznych prymitywach *(sześcian, walec, stożek, torus\...)*. Mogą być zarówno addytywne, jak i subtraktywne.
+-   **Oparte na elementach pierwotnych**: oparte na geometrycznych prymitywach *(sześcian, walec, stożek, torus\...)*. Mogą być zarówno addytywne, jak i subtraktywne.
 
--   **Cechy transformacji**   * stosują one przekształcenia do istniejących cech *(odbicie lustrzane, wzór liniowy, wzór biegunowy, transformacja wielokrotna)*.
+-   **Cechy transformacji**: stosują one przekształcenia do istniejących cech *(odbicie lustrzane, wzór liniowy, wzór biegunowy, transformacja wielokrotna)*.
 
--   **Ulepszenie**   * cechy, które stosują obróbkę do krawędzi lub powierzchni, takie jak zaokrąglenia, fazowania i przeciągnięcia.
+-   **Ulepszenie**: cechy, które stosują obróbkę do krawędzi lub powierzchni, takie jak zaokrąglenia, fazowania i przeciągnięcia.
 
--   **Proceduralne**   * można tak powiedzieć o funkcjach, które nie są oparte na szkicach, takich jak funkcje transformacji i ulepszenia.
+-   **Proceduralne**: można tak powiedzieć o funkcjach, które nie są oparte na szkicach, takich jak funkcje transformacji i ulepszenia.
 
 ## Zawartość
 
-Praca w środowisku Projekt Części wymaga najpierw stworzenia obiektu <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> **[Zawartości](PartDesign_Body/pl.md)**. Zawartość Projekt Części jest kontenerem, który grupuje sekwencję obiektów cech tworzących pojedynczą, ciągłą bryłę.
+Praca w środowisku Projekt Części wymaga najpierw stworzenia obiektu <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[Zawartości](PartDesign_Body/pl.md)**. Zawartość Projekt Części jest kontenerem, który grupuje sekwencję obiektów cech tworzących pojedynczą, ciągłą bryłę.
 
 ![](images/PartDesign_Body_tree.png )
 
@@ -41,11 +41,11 @@ W dokumencie programu FreeCAD można utworzyć wiele Zawartości. Można je rów
 
 Tylko jedna Zawartość może być aktywna w dokumencie. Aktywna Zawartość otrzymuje nowo utworzone elementy. Korpus może być aktywowany lub dezaktywowany poprzez dwukrotne kliknięcie na nim. Aktywna Zawartość jest podświetlona na jasnoniebiesko. Kolor podświetlenia można ustawić w preferencjach w sekcji **Edycja → Preferencje → Wyświetlanie → Kolory → Widok drzewa → Aktywna Zawartość**, od wersji 0.18.
 
-Gdy model wymaga wielu zawartości, jak w poprzednim przykładzie z drewnianym krzesłem, można użyć <img alt="" src=images/Std_Part.svg  style="width   *24px;"> [kontenera](Std_Part/pl.md) ogólnego przeznaczenia, może być on użyty do zgrupowania ich i poruszania całością jako jedną całością.
+Gdy model wymaga wielu zawartości, jak w poprzednim przykładzie z drewnianym krzesłem, można użyć <img alt="" src=images/Std_Part.svg  style="width:24px;"> [kontenera](Std_Part/pl.md) ogólnego przeznaczenia, może być on użyty do zgrupowania ich i poruszania całością jako jedną całością.
 
 ### Zarządzanie widocznością Zawartości 
 
-Zawartość domyślnie prezentuje na zewnątrz swoją najnowszą cechę. Cecha ta jest domyślnie zdefiniowana jako wierzchołek. Dobrą analogią jest wyrażenie *czubek góry lodowej*   * tylko czubek jest widoczny nad wodą, większość masy góry lodowej (inne cechy) jest ukryta. Gdy nowa cecha jest dodawana do struktury, widoczność poprzedniej cechy jest wyłączana, a nowa cecha staje się wierzchołkiem.
+Zawartość domyślnie prezentuje na zewnątrz swoją najnowszą cechę. Cecha ta jest domyślnie zdefiniowana jako wierzchołek. Dobrą analogią jest wyrażenie *czubek góry lodowej*: tylko czubek jest widoczny nad wodą, większość masy góry lodowej (inne cechy) jest ukryta. Gdy nowa cecha jest dodawana do struktury, widoczność poprzedniej cechy jest wyłączana, a nowa cecha staje się wierzchołkiem.
 
 W danym momencie może być widoczna tylko jedna cecha. Możliwe jest [przełączenie widoczności](Std_ToggleVisibility/pl.md) dowolnej cechy w zawartości, przez wybranie jej w drzewie modelu i naciśnięcie klawisza **Space**, w efekcie cofając się w historii zawartości.
 
@@ -59,13 +59,13 @@ Można tymczasowo zmienić definicję czubka elementu w środku drzewa zawartoś
 
 ### Różnice względem innych systemów CAD 
 
-Fundamentalną różnicą pomiędzy programem FreeCAD a innymi programami, takimi jak Catia, jest to, że FreeCAD nie pozwala na posiadanie wielu rozłączonych brył w tej samej <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> **[zawartości](PartDesign_Body/pl.md)**. Oznacza to, że nowa cecha powinna być zawsze zbudowana na poprzedniej. Lub mówiąc inaczej, nowy element powinien \"dotykać\" poprzedniego, tak aby oba elementy były połączone razem i stały się jedną bryłą. Nie można mieć \"unoszących się\" brył.
+Fundamentalną różnicą pomiędzy programem FreeCAD a innymi programami, takimi jak Catia, jest to, że FreeCAD nie pozwala na posiadanie wielu rozłączonych brył w tej samej <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[zawartości](PartDesign_Body/pl.md)**. Oznacza to, że nowa cecha powinna być zawsze zbudowana na poprzedniej. Lub mówiąc inaczej, nowy element powinien \"dotykać\" poprzedniego, tak aby oba elementy były połączone razem i stały się jedną bryłą. Nie można mieć \"unoszących się\" brył.
 
-<img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width   *550px;">
+<img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
 
 
 
-*Różnica pomiędzy programami Catia i FreeCAD. <br>Po lewej   * Catia pozwala na rozłączenie zawartości od poprzedzających ją cech zawartości. W programie FreeCAD powoduje to błąd. <br>Po prawej   * nowsza cecha powinna zawsze stykać się lub przecinać poprzednią cechę tak, aby została z nią stopiona i stała się jedną przylegającą bryłą.*
+*Różnica pomiędzy programami Catia i FreeCAD. <br>Po lewej: Catia pozwala na rozłączenie zawartości od poprzedzających ją cech zawartości. W programie FreeCAD powoduje to błąd. <br>Po prawej: nowsza cecha powinna zawsze stykać się lub przecinać poprzednią cechę tak, aby została z nią stopiona i stała się jedną przylegającą bryłą.*
 
 ## Odniesienie geometrii 
 
@@ -83,11 +83,11 @@ Zarówno szkice jak i płaszczyzny odniesienia powinny być dołączone do płas
 
 Nawet jeśli nie są używane do dołączania szkiców, obiekty punktów odniesienia są nadal pomocne jako wskaźniki wizualne, aby zwrócić uwagę na ważne cechy lub odległości w procesie modelowania. *(Chociaż zwykłe dodanie geometrii do szkicu również zapewnia podobną wizualną informację zwrotną)*.
 
-<img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width   *550px;">
+<img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
 
 
 
-*Różnica pomiędzy Catia a FreeCAD. Po lewej   * Catia pozwala na rozłączenie zawartości od poprzednich cech. W programie FreeCAD powoduje to błąd.<br> Po prawej   * nowsza bryła powinna zawsze stykać się lub przecinać z poprzednią, tak aby została z nią połączona i stała się jedną przylegającą bryłą. W tym przykładzie nowa bryła jest oparta na płaszczyźnie odniesienia, która jest obrócona wokół osi Y.*
+*Różnica pomiędzy Catia a FreeCAD. Po lewej: Catia pozwala na rozłączenie zawartości od poprzednich cech. W programie FreeCAD powoduje to błąd.<br> Po prawej: nowsza bryła powinna zawsze stykać się lub przecinać z poprzednią, tak aby została z nią połączona i stała się jedną przylegającą bryłą. W tym przykładzie nowa bryła jest oparta na płaszczyźnie odniesienia, która jest obrócona wokół osi Y.*
 
 ## Wzajemne odniesienia 
 
@@ -97,11 +97,11 @@ Możliwe jest powiązanie elementów z jednej zawartości w innej zawartości po
 
 Narzędzie Dołączenie obiektów nie jest specyficznym narzędziem środowiska Projekt Części, ale raczej narzędziem środowiska Część wprowadzonym w v0.17, które można znaleźć w pasku menu Część. Jest ono bardzo często używane w środowisku Projekt Części, do dołączania szkiców i geometrii odniesienia, do standardowych płaszczyzn i osi Zawartości. Dostępne są bardzo rozbudowane sposoby tworzenia punktów bazowych, linii i płaszczyzn. Opcjonalne parametry przesunięcia mocowania sprawiają, że narzędzie to jest bardzo uniwersalne.
 
-Więcej informacji można znaleźć na stronie [Edytuj mocowanie](Part_EditAttachment/pl.md) i [Poradnik   * Podstawy dołączania](Basic_Attachment_Tutorial/pl.md).
+Więcej informacji można znaleźć na stronie [Edytuj mocowanie](Part_EditAttachment/pl.md) i [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md).
 
 ## Porady dotyczące tworzenia stabilnych modeli 
 
-Idea modelowania parametrycznego zakłada, że można zmieniać wartości pewnych parametrów, a kolejne kroki są zmieniane zgodnie z nowymi wartościami. Jednakże, gdy dokonywane są poważne zmiany, model może zostać uszkodzony z powodu [problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md), który jest wciąż nierozwiązany w FreeCAD. Uszkodzenia można zminimalizować, jeśli przestrzega się następujących zasad projektowania   *
+Idea modelowania parametrycznego zakłada, że można zmieniać wartości pewnych parametrów, a kolejne kroki są zmieniane zgodnie z nowymi wartościami. Jednakże, gdy dokonywane są poważne zmiany, model może zostać uszkodzony z powodu [problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md), który jest wciąż nierozwiązany w FreeCAD. Uszkodzenia można zminimalizować, jeśli przestrzega się następujących zasad projektowania:
 
 -   Unikaj dołączania szkiców i obiektów odniesienia do wygenerowanej geometrii modelu. *(Wygenerowana geometria to każda powierzchnia lub krawędź utworzona w wyniku zastosowania wyciągnięcia, kieszeni itp.)*.
 -   Umieszczaj szkice na standardowych płaszczyznach współrzędnych lub na niestandardowych płaszczyznach odniesienia dołączonych do płaszczyzn standardowych.
@@ -128,50 +128,48 @@ Istnieje kilka przepływów pracy, które są dostępne w środowisku [Projekt C
 
 ### Różne szkice 
 
-Szkice muszą być osadzone na płaszczyźnie. Płaszczyzna ta może być jedną z głównych płaszczyzn *(XY, XZ lub YZ)* zdefiniowanych przez Odniesienie położenia Zawartości. Szkic jest albo wyciągany w wystającą bryłę *(addytywnie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [wyciągnięcie](PartDesign_Pad/pl.md), lub w bryłę do usunięcia *(odejmowanie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pocket.svg  style="width   *24px;"> [kieszeń](PartDesign_Pocket/pl.md). Pierwszy z nich dodaje objętość do ostatecznego kształtu zawartości, a drugi odcina ją od ostatecznego kształtu. W ten sposób można utworzyć dowolną liczbę szkiców i częściowych brył, a ostateczny kształt *(czubek)* jest wynikiem połączenia tych operacji w całość. Oczywiście bryła nie może składać się wyłącznie z operacji odejmowania, gdyż ostateczny kształt powinien być bryłą o dodatniej, niezerowej objętości.
+Szkice muszą być osadzone na płaszczyźnie. Płaszczyzna ta może być jedną z głównych płaszczyzn *(XY, XZ lub YZ)* zdefiniowanych przez Odniesienie położenia Zawartości. Szkic jest albo wyciągany w wystającą bryłę *(addytywnie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [wyciągnięcie](PartDesign_Pad/pl.md), lub w bryłę do usunięcia *(odejmowanie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [kieszeń](PartDesign_Pocket/pl.md). Pierwszy z nich dodaje objętość do ostatecznego kształtu zawartości, a drugi odcina ją od ostatecznego kształtu. W ten sposób można utworzyć dowolną liczbę szkiców i częściowych brył, a ostateczny kształt *(czubek)* jest wynikiem połączenia tych operacji w całość. Oczywiście bryła nie może składać się wyłącznie z operacji odejmowania, gdyż ostateczny kształt powinien być bryłą o dodatniej, niezerowej objętości.
 
-<img alt="" src=images/PartDesign_workflow_1.svg  style="width   *600px;">
+<img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
 ### Cechy sekwencyjne 
 
 Szkice mogą być oparte na powierzchniach poprzednich operacji na bryłach. Może to być konieczne, jeśli trzeba uzyskać dostęp do powierzchni, która jest dostępna tylko po utworzeniu pewnego elementu. Jednakże, ten sposób pracy nie jest zalecany, ponieważ, jeśli oryginalny element zostanie zmodyfikowany, kolejne elementy w sekwencji mogą zostać uszkodzone. Jest to [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md).
 
-<img alt="" src=images/PartDesign_workflow_2.svg  style="width   *600px;">
+<img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
 ### Wykorzystanie płaszczyzn odniesienia do podparcia 
 
 Płaszczyzny bazowe są przydatne do oparcia szkiców. Te pomocnicze płaszczyzny powinny być dołączone do płaszczyzn bazowych bryły.
 
-*Uwaga   * W wielu przypadkach szkic dołączony do płaszczyzny bazowej z przesunięciami dołączenia może spełnić tę samą funkcję. Układy odniesienia są szczególnie przydatne, gdy wiele szkiców lub innych konstrukcji będzie korzystało z tego układu odniesienia. Oznacza to, że wszystkie zmiany w układzie odniesienia zostaną zastosowane do dołączonych szkiców itp. Dodanie pojedynczego szkicu do układu odniesienia, zamiast używania przesunięć dołączenia we właściwościach szkicu, stanowi dodatkowy krok i jest w zasadzie zbędne.*
+*Uwaga: W wielu przypadkach szkic dołączony do płaszczyzny bazowej z przesunięciami dołączenia może spełnić tę samą funkcję. Układy odniesienia są szczególnie przydatne, gdy wiele szkiców lub innych konstrukcji będzie korzystało z tego układu odniesienia. Oznacza to, że wszystkie zmiany w układzie odniesienia zostaną zastosowane do dołączonych szkiców itp. Dodanie pojedynczego szkicu do układu odniesienia, zamiast używania przesunięć dołączenia we właściwościach szkicu, stanowi dodatkowy krok i jest w zasadzie zbędne.*
 
 Podobnie jak w przypadku szkiców, możliwe jest dołączanie płaszczyzn odniesienia do generowanej geometrii *(krawędzi, powierzchni wcześniej utworzonych brył)*, ***ale nie jest to zalecane***, gdyż może powodować problem z nazewnictwem topologicznym.
 
-Dodatkowo, <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *24px;"> [łącznik kształtów](PartDesign_ShapeBinder/pl.md) może być użyty do zaimportowania zewnętrznej geometrii do bryły, aby służyła jako odniesienie; następnie szkice mogą być dołączone do tej pomocniczej zawartości, używając płaszczyzn odniesienia lub nie.
+Dodatkowo, <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [łącznik kształtów](PartDesign_ShapeBinder/pl.md) może być użyty do zaimportowania zewnętrznej geometrii do bryły, aby służyła jako odniesienie; następnie szkice mogą być dołączone do tej pomocniczej zawartości, używając płaszczyzn odniesienia lub nie.
 
 *Ponownie, Łącznik kształtów powinien bazować na Szkicach z poprzedniej bryły, a nie na wygenerowanej geometrii.*
 
-Używanie obiektów odniesienia jest często najlepszym sposobem na tworzenie stabilnych modeli, gdy są one używane z płaszczyznami bazowymi i przesunięciami dołączania, chociaż wymaga to nieco więcej pracy od użytkownika. Szczegóły na temat podstawowego dołączania można znaleźć na stronie   * [Poradnik   * Podstawy dołączania](Basic_Attachment_Tutorial/pl.md) *Uwaga   * podczas gdy ten poradnik mówi o szkicach, dołączanie elementów odniesienia jest wykonywane w podobny sposób.*.
+Używanie obiektów odniesienia jest często najlepszym sposobem na tworzenie stabilnych modeli, gdy są one używane z płaszczyznami bazowymi i przesunięciami dołączania, chociaż wymaga to nieco więcej pracy od użytkownika. Szczegóły na temat podstawowego dołączania można znaleźć na stronie: [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md) *Uwaga: podczas gdy ten poradnik mówi o szkicach, dołączanie elementów odniesienia jest wykonywane w podobny sposób.*.
 
 ## Poradniki
 
-Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [Edycja cech](Feature_editing/pl.md) w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign_Workbench/pl](PartDesign_Workbench/pl.md).
+Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [Edycja cech](Feature_editing/pl.md) w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign_Workbench/pl](PartDesign_Workbench/pl.md).
 
--   [Projekt części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)
--   [Poradnik   * Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md)
--   [Poradnik   * Podstawy dołączania](Basic_Attachment_Tutorial/pl.md)
+-   [Projekt części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)
+-   [Poradnik: Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md)
+-   [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md)
 
 ## Powiązane
 
 -   [Konstrukcyjna geometria bryły](Constructive_solid_geometry/pl.md)
 
-<img alt="" src=images/PartDesign_workflow_3.svg  style="width   *600px;">
+<img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 
 
 {{PartDesign Tools navi
 
-}} 
-
-[Category   *Common Questions](Category_Common_Questions.md)
+}}
 
 
 

@@ -1,23 +1,23 @@
 # Main Page/it
 ## Introduzione
 
-Questo è il wiki della documentazione di [FreeCAD](http   *//www.freecadweb.org). Ci sono diversi modi per utilizzare questa documentazione   * esplorare gli hub utenti, seguire il manuale o utilizzare le voci del menu Aiuto all\'interno di FreeCAD. Si tratta di un lavoro in evoluzione, scritto dalla comunità degli utenti e dagli sviluppatori di FreeCAD. Chi trova delle informazioni sbagliate o lacunose è pregato di dare un [contributo](Help_FreeCAD/it.md)!
+Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). Ci sono diversi modi per utilizzare questa documentazione: esplorare gli hub utenti, seguire il manuale o utilizzare le voci del menu Aiuto all\'interno di FreeCAD. Si tratta di un lavoro in evoluzione, scritto dalla comunità degli utenti e dagli sviluppatori di FreeCAD. Chi trova delle informazioni sbagliate o lacunose è pregato di dare un [contributo](Help_FreeCAD/it.md)!
 
 ## Gli hub 
 
-<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width   *64px;"> [Hub utenti](User_hub/it.md)   * Questa pagina contiene la documentazione utile per gli utenti di FreeCAD in generale   * un elenco di tutti gli ambienti di lavoro, le istruzioni dettagliate su come installare e utilizzare l'applicazione FreeCAD, alcune esercitazioni e tutto ciò che serve per iniziare.
+<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Hub utenti](User_hub/it.md): Questa pagina contiene la documentazione utile per gli utenti di FreeCAD in generale: un elenco di tutti gli ambienti di lavoro, le istruzioni dettagliate su come installare e utilizzare l'applicazione FreeCAD, alcune esercitazioni e tutto ciò che serve per iniziare.
 
 
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width   *64px;"> [Hub utenti esperti](Power_users_hub/it.md)   * Questa pagina raccoglie la documentazione per gli utenti avanzati e per chi è interessato a scrivere script Python. Si trova anche un repository di macro, le istruzioni su come installarle e utilizzarle, e ulteriori informazioni sulla personalizzazione di FreeCAD per specifiche esigenze. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;"> [Hub sviluppatori](Developer_hub/it.md)   * Questa sezione contiene del materiale per gli sviluppatori   * come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD, come navigare nel codice sorgente, come sviluppare nuovi ambienti di lavoro, e incorporare FreeCAD nella propria applicazione. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hub utenti esperti](Power_users_hub/it.md): Questa pagina raccoglie la documentazione per gli utenti avanzati e per chi è interessato a scrivere script Python. Si trova anche un repository di macro, le istruzioni su come installarle e utilizzarle, e ulteriori informazioni sulla personalizzazione di FreeCAD per specifiche esigenze. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Hub sviluppatori](Developer_hub/it.md): Questa sezione contiene del materiale per gli sviluppatori: come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD, come navigare nel codice sorgente, come sviluppare nuovi ambienti di lavoro, e incorporare FreeCAD nella propria applicazione. 
 
 
 ## Manuale
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width   *64px;"> [Il manuale di FreeCAD](Manual   *Introduction/it.md) è un modo diverso, più lineare, per presentare gli articoli contenuti in questo wiki. È pensato per essere letto come un libro, e presentare gradualmente tante altre pagine degli hub di cui sopra.  È anche disponibile una [versione ebook](https   *//www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) così come [un paio di traduzioni in formato pdf](https   *//www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Il manuale di FreeCAD](Manual:Introduction/it.md) è un modo diverso, più lineare, per presentare gli articoli contenuti in questo wiki. È pensato per essere letto come un libro, e presentare gradualmente tante altre pagine degli hub di cui sopra.  È anche disponibile una [versione ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) così come [un paio di traduzioni in formato pdf](https://www.freecadweb.org/manual/).
 
 
 
@@ -25,7 +25,7 @@ Questo è il wiki della documentazione di [FreeCAD](http   *//www.freecadweb.org
 
 ## Sommario
 
-La seguente tabella elenca tutti gli articoli di questo wiki che costituiscono l\'ossatura della documentazione non in linea fornita con FreeCAD. È già disponibile in diverse lingue   *
+La seguente tabella elenca tutti gli articoli di questo wiki che costituiscono l\'ossatura della documentazione non in linea fornita con FreeCAD. È già disponibile in diverse lingue:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
@@ -54,16 +54,11 @@ La pagina [Contribuire](help_FreeCAD/it.md) descrive questo aspetto con maggiori
 
 ### Codice sorgente 
 
-FreeCAD può essere compilato su tutte le piattaforme utilizzando [CMake](https   *//cmake.org/). Il codice sorgente è distribuito con la licenza [LGPL](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) e ospitato su [GitHub](https   *//github.com/FreeCAD/FreeCAD) e in mirror su [GitLab](https   *//gitlab.com/freecad/FreeCAD) e [CodeBerg](https   *//codeberg.org/FreeCAD/FreeCAD). Contiene le istruzioni di compilazione per [Windows](Compile_on_Windows/it.md), [Linux](Compile_on_Linux/it.md) e [MacOS](Compile_on_MacOS/it.md). La documentazione del codice sorgente, generata con [Doxygen](Doxygen.md), si trova in <http   *//www.freecadweb.org/api/> ed è [documentata nel wiki](Source_documentation/it.md).
+FreeCAD può essere compilato su tutte le piattaforme utilizzando [CMake](https://cmake.org/). Il codice sorgente è distribuito con la licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) e ospitato su [GitHub](https://github.com/FreeCAD/FreeCAD) e in mirror su [GitLab](https://gitlab.com/freecad/FreeCAD) e [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Contiene le istruzioni di compilazione per [Windows](Compile_on_Windows/it.md), [Linux](Compile_on_Linux/it.md) e [MacOS](Compile_on_MacOS/it.md). La documentazione del codice sorgente, generata con [Doxygen](Doxygen.md), si trova in <http://www.freecadweb.org/api/> ed è [documentata nel wiki](Source_documentation/it.md).
 
 ### Sviluppo
 
-Leggete il [Piano di sviluppo](Development_roadmap/it.md) per sapere cosa è pianificato. Consultate le pagine [Changelog](http   *//www.freecadweb.org/tracker/changelog_page.php) e [Roadmap](http   *//www.freecadweb.org/tracker/roadmap_page.php) per vedere come progredisce la prossima release, oppure le pagine [Roadmap](http   *//www.freecadweb.org/tracker/roadmap_page.php) in [FreeCAD tracker](http   *//www.freecadweb.org/tracker) per informazioni più dettagliate sul codice base di FreeCAD. Tutte le informazioni relative allo sviluppo sono riportate nel [forum](http   *//forum.freecadweb.org/), se siete interessati a partecipare, visitatelo.
-
-
-
-
-[Category   *Documentation](Category_Documentation.md)
+Leggete il [Piano di sviluppo](Development_roadmap/it.md) per sapere cosa è pianificato. Consultate le pagine [Changelog](http://www.freecadweb.org/tracker/changelog_page.php) e [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) per vedere come progredisce la prossima release, oppure le pagine [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) in [FreeCAD tracker](http://www.freecadweb.org/tracker) per informazioni più dettagliate sul codice base di FreeCAD. Tutte le informazioni relative allo sviluppo sono riportate nel [forum](http://forum.freecadweb.org/), se siete interessati a partecipare, visitatelo.
 
 
 

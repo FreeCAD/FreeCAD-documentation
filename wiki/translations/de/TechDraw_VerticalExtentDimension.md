@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw Dimension Vertical Extent
-   Name/de   *TechDraw MaßVertikaleAusdehnung
-   MenuLocation   *TechDraw → Bemaßung → Maß für die vertikale Ausdehnung einfügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßHorizontaleAusdehnung](TechDraw_HorizontalExtentDimension/de.md)
+- GuiCommand:/de
+   Name:TechDraw Dimension Vertical Extent
+   Name/de:TechDraw MaßVertikaleAusdehnung
+   MenuLocation:TechDraw → Bemaßung → Maß für die vertikale Ausdehnung einfügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßHorizontaleAusdehnung](TechDraw_HorizontalExtentDimension/de.md)
 ---
 
 # TechDraw VerticalExtentDimension/de
@@ -14,7 +14,7 @@
 
 Das Werkzeug MaßVertikaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom tiefsten Punkt der ausgewählten Objekte bis zum höchsten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width   *400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Vertikale Ausdehnung Bemaßung von BSpline Fläche*
 
 ## Anwendung
@@ -33,13 +33,13 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md). Ausnahmen sind wei
 
 ### Daten
 
--    {{PropertyData/de|MeasureType}}   * `True` - basierend auf 3D Geometrie oder \"Projiziert\" - basierend auf der Zeichnung. Normalerweise nicht direkt vom Endanwender beeinflusst. Noch nicht implementiert für Bemaßung Vertikale Ausdehnung.
+-    {{PropertyData/de|MeasureType}}: `True` - basierend auf 3D Geometrie oder \"Projiziert\" - basierend auf der Zeichnung. Normalerweise nicht direkt vom Endanwender beeinflusst. Noch nicht implementiert für Bemaßung Vertikale Ausdehnung.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug MaßVertikaleAusdehnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
+Das Werkzeug MaßVertikaleAusdehnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python

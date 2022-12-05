@@ -1,29 +1,29 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Изометрическая
-   Name   *Std_ViewIsometric
-   MenuLocation   *Вид → Стандартные виды‏‎ → Axonometric → Изометрическая
-   Workbenches   *Все
-   Shortcut   ***0**
-   SeeAlso   *[Диметрическая](Std_ViewDimetric/ru.md), [Триметрическая](Std_ViewTrimetric/ru.md)
+- GuiCommand:/ru
+   Name/ru:Изометрическая
+   Name:Std_ViewIsometric
+   MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Изометрическая
+   Workbenches:Все
+   Shortcut:**0**
+   SeeAlso:[Диметрическая](Std_ViewDimetric/ru.md), [Триметрическая](Std_ViewTrimetric/ru.md)
 ---
 
 # Std ViewIsometric/ru
 
 ## Описание
 
-Команда **Std ViewIsometric** перестраивает камеру в активном [окне трёхмерного вида](3D_view/ru.md) для получения [изометрического](https   *//en.wikipedia.org/wiki/Isometric_projection) вида. Для истинно изометрического вида трехмерный вид должен находиться в [ортогональном режиме](Std_OrthographicCamera/ru.md), но команда также работает, если вид находится в [режиме перспективы](Std_PerspectiveCamera/ru.md).
+Команда **Std ViewIsometric** перестраивает камеру в активном [окне трёхмерного вида](3D_view/ru.md) для получения [изометрического](https://en.wikipedia.org/wiki/Isometric_projection) вида. Для истинно изометрического вида трехмерный вид должен находиться в [ортогональном режиме](Std_OrthographicCamera/ru.md), но команда также работает, если вид находится в [режиме перспективы](Std_PerspectiveCamera/ru.md).
 
 ![](images/Std_ViewIsometric_example.svg ) 
 *The [axis cross](Std_AxisCross.md) and a cube in isometric view*
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_ViewIsometric.svg" width=16px> [Std ViewIsometric](Std_ViewIsometric.md)** button.
     -   Select the **View → Standard views → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **0**.
+    -   Use the keyboard shortcut: **0**.
 
 ## Примечания
 
@@ -32,7 +32,7 @@
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

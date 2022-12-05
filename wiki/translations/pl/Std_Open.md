@@ -1,25 +1,25 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Open
-   Name/pl   *Std   * Otwórz
-   MenuLocation   *Plik → Otwórz ...
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl**+**O**
-   SeeAlso   *[Importuj](Std_Import/pl.md), [Nowy](Std_New/pl.md)
+- GuiCommand:/pl
+   Name:Std Open
+   Name/pl:Std: Otwórz
+   MenuLocation:Plik → Otwórz ...
+   Workbenches:wszystkie
+   Shortcut:**Ctrl**+**O**
+   SeeAlso:[Importuj](Std_Import/pl.md), [Nowy](Std_New/pl.md)
 ---
 
 # Std Open/pl
 
 ## Opis
 
-Polecenie **Std   * Otwórz** otwiera plik. Jeśli plik nie jest natywnym plikiem FreeCAD *(\*.FCStd)*, jego geometria zostanie zaimportowana do nowego dokumentu. Zobacz stronę [Std   * Importuj](Std_Import/pl.md), aby uzyskać więcej informacji.
+Polecenie **Std: Otwórz** otwiera plik. Jeśli plik nie jest natywnym plikiem FreeCAD *(\*.FCStd)*, jego geometria zostanie zaimportowana do nowego dokumentu. Zobacz stronę [Std: Importuj](Std_Import/pl.md), aby uzyskać więcej informacji.
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_Open.svg" width=16px> [Otwórz](Std_Open/pl.md)**.
     -   Wybierz z menu opcję **Plik → <img src="images/Std_Open.svg" width=16px> Otwórz ...** opcję z menu.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **O**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **O**.
 2.  Opcjonalnie wybierz odpowiedni format pliku w oknie dialogowym.
 3.  Wybierz plik.
 4.  Naciśnij przycisk **Otwórz**.
@@ -30,12 +30,12 @@ Polecenie **Std   * Otwórz** otwiera plik. Jeśli plik nie jest natywnym plikie
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

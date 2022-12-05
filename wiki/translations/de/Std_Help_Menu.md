@@ -1,11 +1,11 @@
-# <img alt="Std Base icon" src=images/Freecad.svg  style="width   *64px;"> Std Help Menu/de
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Help Menu/de
 
 
 {{TOCright}}
 
 ## Einführung
 
-Das **Std Menü Hilfe** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md)   *
+Das **Std Menü Hilfe** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
 
 
 {{StdMenu
@@ -29,25 +29,25 @@ Das Menü Hilfe bietet den Zugang zum Hilfesystem sowie Verknüpfungen mit der F
 
 ## Werkzeuge
 
-Die folgenden Werkzeuge sind in diesem Menü verfügbar   *
+Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
--   <img alt="" src=images/Std_OnlineHelp.svg  style="width   *32px;"> [Online-Hilfe](Std_OnlineHelp/de.md). Öffnet die Hilfe-Dokumentation.
+-   <img alt="" src=images/Std_OnlineHelp.svg  style="width:32px;"> [Online-Hilfe](Std_OnlineHelp/de.md). Öffnet die Hilfe-Dokumentation.
 
--   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width   *32px;"> [FreeCAD Webseite](Std_FreeCADWebsite/de.md). Öffnet die Haupt-Webseite des FreeCAD-Projekts.
+-   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [FreeCAD Webseite](Std_FreeCADWebsite/de.md). Öffnet die Haupt-Webseite des FreeCAD-Projekts.
 
--   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width   *32px;"> [Benutzerdokumentation](Std_FreeCADUserHub/de.md). Öffnet die Wiki-Seite der FreeCAD-Benutzerdokumentation.
+-   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Benutzerdokumentation](Std_FreeCADUserHub/de.md). Öffnet die Wiki-Seite der FreeCAD-Benutzerdokumentation.
 
--   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width   *32px;"> [Python scripting documentation](Std_FreeCADPowerUserHub/de.md). Öffnet die Wiki-Seite Hauptanwenderzentrum.
+-   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Python scripting documentation](Std_FreeCADPowerUserHub/de.md). Öffnet die Wiki-Seite Hauptanwenderzentrum.
 
--   <img alt="" src=images/Std_PythonHelp.svg  style="width   *32px;"> [Automatische Python-Modul-Dokumentation](Std_PythonHelp/de.md). Öffnet \"python   * index of modules\" im voreingestellten Internet-Browser.
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatische Python-Modul-Dokumentation](Std_PythonHelp/de.md). Öffnet \"python: index of modules\" im voreingestellten Internet-Browser.
 
--   <img alt="" src=images/Std_FreeCADForum.svg  style="width   *32px;"> [FreeCAD-Forum](Std_FreeCADForum/de.md)   * Öffnet das FreeCAD-Forum.
+-   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [FreeCAD-Forum](Std_FreeCADForum/de.md): Öffnet das FreeCAD-Forum.
 
--   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width   *32px;"> [FreeCAD FAQ](Std_FreeCADFAQ/de.md). Öffnet die Wiki-Seite \"Häufig gestellte Fragen\".
+-   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FreeCAD FAQ](Std_FreeCADFAQ/de.md). Öffnet die Wiki-Seite \"Häufig gestellte Fragen\".
 
--   <img alt="" src=images/Std_About.svg  style="width   *32px;"> [Über FreeCAD](Std_About/de.md). Öffnet ein Dialogfenster mit informationen über FreeCAD.
+-   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Über FreeCAD](Std_About/de.md). Öffnet ein Dialogfenster mit informationen über FreeCAD.
 
--   <img alt="" src=images/Std_WhatsThis.svg  style="width   *32px;"> [Direkthilfe](Std_WhatsThis/de.md). Öffnet die Hilfedokumentation für einen Befehl.
+-   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;"> [Direkthilfe](Std_WhatsThis/de.md). Öffnet die Hilfedokumentation für einen Befehl.
 
 
 
@@ -55,9 +55,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar   *
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

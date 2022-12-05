@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Экспорт листа в DXF
-   Name   *TechDraw_ExportPageDXF
-   MenuLocation   *TechDraw → Экспорт листа в DXF
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.18
-   SeeAlso   *[Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)
+- GuiCommand:/ru
+   Name/ru:Экспорт листа в DXF
+   Name:TechDraw_ExportPageDXF
+   MenuLocation:TechDraw → Экспорт листа в DXF
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.18
+   SeeAlso:[Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)
 ---
 
 # TechDraw ExportPageDXF/ru
@@ -27,14 +27,14 @@ The ExportPageDXF tool saves a drawing page as a [DXF](DXF.md) file.
 -   Units are not supported. The DXF will be drawn in millimeters (mm). Dimension text will be shown exactly as displayed in TechDraw.
 -   TechDraw can\'t export a [Insert Draft Workbench Object](TechDraw_DraftView.md) or an [Insert Arch Workbench Object](TechDraw_ArchView.md) to DXF. These views are [SVG](SVG.md) elements generated internally by the [Draft Workbench](Draft_Workbench.md), so there is no geometrical shape to export. To export a view as DXF, it must have been created with [Insert View](TechDraw_View.md) or [Insert Projection Group](TechDraw_ProjectionGroup.md). For example, select an [Arch SectionPlane](Arch_SectionPlane.md), then use [Draft Shape2DView](Draft_Shape2DView.md) to create a flat projection shape, and then use [Insert View](TechDraw_View.md) on this object. Alternatively, select the objects from the tree view or the 3D viewport, and export to DXF using **File → [Export](Std_Export.md)**.
 -   The title block of a page is an [SVG](SVG.md) template as well, so it will not be exported to DXF either.
--   In general, TechDraw can only export to DXF those elements that are supported by the `Import   *   *ImpExpDxfWrite` class of the [Import Module](Draft_DXF.md).
+-   In general, TechDraw can only export to DXF those elements that are supported by the `Import::ImpExpDxfWrite` class of the [Import Module](Draft_DXF.md).
 
 ## Примечания
 
 -   This function exports the R12 (AC1009) and R14 (AC1014) versions of [DXF](DXF.md).
     -   R12 is an older, simpler version of the standard, but should be readable by most other software.
     -   R14 is the default version. It includes support for splines and ellipses among other things.
--   These parameters affect the output   *
+-   These parameters affect the output:
     -   
         **Tools → Edit parameters → BaseApp/Preferences/Mod/Import → DxfVersionOut**
         
@@ -53,11 +53,11 @@ The ExportPageDXF tool saves a drawing page as a [DXF](DXF.md) file.
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDrawGui API](TechDrawGui_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The SaveDXF tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The SaveDXF tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python

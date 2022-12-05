@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft SelectPlane
-   Name/it   *Seleziona il piano
-   MenuLocation   *Draft → Utilità → Seleziona il piano
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   Shortcut   ***W** **P**
-   SeeAlso   *[Piano proxy](Draft_SetWorkingPlaneProxy/it.md), [Mostra la griglia](Draft_ToggleGrid/it.md)
+- GuiCommand:/it
+   Name:Draft SelectPlane
+   Name/it:Seleziona il piano
+   MenuLocation:Draft → Utilità → Seleziona il piano
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   Shortcut:**W** **P**
+   SeeAlso:[Piano proxy](Draft_SetWorkingPlaneProxy/it.md), [Mostra la griglia](Draft_ToggleGrid/it.md)
 ---
 
 # Draft SelectPlane/it
@@ -20,18 +20,18 @@
 
 Il modulo Draft dispone di un sistema di Piani di lavoro, questo consente di specificare un piano personalizzato nello spazio 3D nel quale viene eseguito il comando successivo di Draft.
 
-Esistono diversi metodi per definire il piano di lavoro   *
+Esistono diversi metodi per definire il piano di lavoro:
 
 -   Da una faccia selezionata
 -   Da tre vertici selezionati
 -   Dalla vista corrente.
--   Da una preimpostazione   * dall\'altoe, anteriore o laterale.
+-   Da una preimpostazione: dall\'altoe, anteriore o laterale.
 -   Nessuna, nel qual caso il piano di lavoro viene adattato automaticamente alla vista corrente quando si avvia un comando o a una faccia se si inizia a disegnare su una faccia esistente.
 
 
 </div>
 
-<img alt="" src=images/WorkingPlane_example.png  style="width   *400px;">
+<img alt="" src=images/WorkingPlane_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -56,14 +56,14 @@ Esistono diversi metodi per definire il piano di lavoro   *
 
 ## Usage with post-selection 
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut   * **W** then **P**.
+    -   Use the keyboard shortcut: **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following   *
+3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select   *
+    -   Select one or more subelements. You can select:
         -   A flat face.
         -   Three vertices.
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
@@ -76,7 +76,7 @@ Esistono diversi metodi per definire il piano di lavoro   *
 
 1.  Premere il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano](Draft_SelectPlane/it.md)**, o usare **Draft** → **Utilità** → **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano](Draft_SelectPlane/it.md)** dal menu principale, o la scorciatoia **W** **P**.
 2.  Selezionare l\'offset, la spaziatura della griglia e delle linee principali
-3.  Selezionare uno dei preset   * **<img src="images/View-top.svg" width=16px> XY (dall'alto)**, **<img src="images/View-front.svg" width=16px> XZ (frontale)**, **<img src="images/View-right.svg" width=16px> YZ (laterale)**, **<img src="images/View-isometric.svg" width=16px> Vista**, o **<img src="images/View-axonometric.svg" width=16px> Auto**.
+3.  Selezionare uno dei preset: **<img src="images/View-top.svg" width=16px> XY (dall'alto)**, **<img src="images/View-front.svg" width=16px> XZ (frontale)**, **<img src="images/View-right.svg" width=16px> YZ (laterale)**, **<img src="images/View-isometric.svg" width=16px> Vista**, o **<img src="images/View-axonometric.svg" width=16px> Auto**.
 
 
 </div>
@@ -109,11 +109,11 @@ Esistono diversi metodi per definire il piano di lavoro   *
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 -   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
 
@@ -123,9 +123,9 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Script
 
 
-{{emphasis|Vedere anche   *}}
+{{emphasis|Vedere anche:}}
 
-[Draft API](Draft_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md). Vedere le [WorkingPlane API](http   *//www.freecadweb.org/api/DraftWorkingPlane.html).
+[Draft API](Draft_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md). Vedere le [WorkingPlane API](http://www.freecadweb.org/api/DraftWorkingPlane.html).
 
 
 </div>
@@ -133,7 +133,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-È possibile accedere al corrente piano di lavoro di Draft e applicare delle trasformazioni   *
+È possibile accedere al corrente piano di lavoro di Draft e applicare delle trasformazioni:
 
 
 </div>

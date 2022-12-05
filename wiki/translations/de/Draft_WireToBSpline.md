@@ -1,25 +1,25 @@
 ---
-- GuiCommand   */de
-   Name   *Draft WireToBSpline
-   Name/de   *Entwurf DrahtZuBSpline
-   MenuLocation   *Änderung → Draht zu BSpline
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   SeeAlso   *[Entwurf Draht](Draft_Wire/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
+- GuiCommand:/de
+   Name:Draft WireToBSpline
+   Name/de:Entwurf DrahtZuBSpline
+   MenuLocation:Änderung → Draht zu BSpline
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
 ---
 
 # Draft WireToBSpline/de
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width   *24px;"> **Entwurf DrahtZuBSpline** Befehl konvertiert [Entwurf Drähte](Draft_Wire/de.md) in [Entwurf BSplines](Draft_BSpline/de.md) und umgekehrt.
+Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Entwurf DrahtZuBSpline** Befehl konvertiert [Entwurf Drähte](Draft_Wire/de.md) in [Entwurf BSplines](Draft_BSpline/de.md) und umgekehrt.
 
-<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
 *Umwandlung eines Entwurf Drahtes in eine Entwurf BSpline und einer geschlossenen Entwurf BSpline in einen geschlossenen Entwurf Draht*
 
 ## Anwendung
 
 1.  Wähle einen [Entwurf Draht](Draft_Wire/de.md) oder einen [Entwurf BSpline](Draft_BSpline/de.md).
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_WireToBSpline.svg" width=16px> [Entwurf DrahtZuBSpline](Draft_WireToBSpline/de.md)** Schaltfläche.
     -   Wähle den **Änderung → <img src="images/Draft_WireToBSpline.svg" width=16px> Draht zu Bspline** aus dem Menü.
 3.  Ein neues Objekt wird erstellt.
@@ -33,7 +33,7 @@ Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width   *24px;"> **En
 
 <div class="mw-translate-fuzzy">
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 </div>
@@ -46,7 +46,7 @@ Um einen Draht in einen Bspline umzuwandeln oder umgekehrt, übergib die Eigensc
 
 </div>
 
-Beispiel   *
+Beispiel:
 
 
 ```python

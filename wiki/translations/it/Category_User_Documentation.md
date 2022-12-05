@@ -5,8 +5,6 @@ Questa categoria contiene gli articoli sull\'utilizzo di FreeCAD.
 
 E\' anche la lista centrale di download per la documentazione in linea di FreeCAD.
 
-[Category   *Documentation/it](Category   *Documentation/it.md) [Category   *Categories/it](Category   *Categories/it.md)
-
 ### Contents
 
 |     |     |     |

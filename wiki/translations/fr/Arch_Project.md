@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Project
-   Name/fr   *Arch Projet
-   MenuLocation   *Arch → Projet
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   Shortcut   ***P** **O**
-   SeeAlso   *[Arch Site](Arch_Site/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
+- GuiCommand:/fr
+   Name:Arch Project
+   Name/fr:Arch Projet
+   MenuLocation:Arch → Projet
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   Shortcut:**P** **O**
+   SeeAlso:[Arch Site](Arch_Site/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
 ---
 
 # Arch Project/fr
 
 ## Description
 
-Le Arch Projet est un objet spécial permettant d'améliorer la compatibilité avec les fichiers [IFC](Arch_IFC/fr.md). Chaque fichier IFC doit contenir une entité [IfcProject](https   *//standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). IfcProject est principalement utilisé pour définir les paramètres généraux du projet tels que les systèmes de projection, pour la compatibilité GIS, ou les systèmes d\'unités.
+Le Arch Projet est un objet spécial permettant d'améliorer la compatibilité avec les fichiers [IFC](Arch_IFC/fr.md). Chaque fichier IFC doit contenir une entité [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). IfcProject est principalement utilisé pour définir les paramètres généraux du projet tels que les systèmes de projection, pour la compatibilité GIS, ou les systèmes d\'unités.
 
 Lors de l\'exportation d\'un modèle FreeCAD au format de fichier IFC, si votre modèle ne contient aucun objet Projet, un objet par défaut sera automatiquement créé, ce qui dans la plupart des cas sera suffisant. Toutefois, vous souhaiterez peut-être ajuster les paramètres du projet. Dans ce cas, l\'ajout d\'un objet Projet peut être utile. Lors de l\'importation d\'un fichier IFC, un objet Projet sera toujours créé. Cependant, si vous ne l\'utilisez pas spécifiquement, vous pouvez simplement le supprimer après l\'importation.
 

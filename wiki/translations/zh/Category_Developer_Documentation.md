@@ -1,8 +1,6 @@
 # Category:Developer Documentation/zh
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/zh](Category   *Documentation/zh.md) [Category   *Categories/zh](Category   *Categories/zh.md)
-
 ### Contents
 
 |     |     |     |

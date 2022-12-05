@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ConstrainBlock
-   Name/de   *Sketcher Fixieren
-   MenuLocation   *Sketch → Skizzen-Beschränkungen → Fixieren
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***K** **B**
-   Version   *0.17
-   SeeAlso   *[Sketcher Sperren](Sketcher_ConstrainLock/de.md)
+- GuiCommand:/de
+   Name:Sketcher ConstrainBlock
+   Name/de:Sketcher Fixieren
+   MenuLocation:Sketch → Skizzen-Beschränkungen → Fixieren
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**K** **B**
+   Version:0.17
+   SeeAlso:[Sketcher Sperren](Sketcher_ConstrainLock/de.md)
 ---
 
 # Sketcher ConstrainBlock/de
@@ -15,12 +15,12 @@
 
 Die Randbedingung **Fixieren** setzt ein geometrisches Element an Ort und Stelle mit einer einzigen Bedingung fest.
 
-Es ist hauptsächlich für die Verwendung mit **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-Splines](Sketcher_CreateBSpline/de.md)** vorgesehen, die sonst nur schwer vollständig bestimmt werden können.
+Es ist hauptsächlich für die Verwendung mit **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline/de.md)** vorgesehen, die sonst nur schwer vollständig bestimmt werden können.
 
 ## Anwendung
 
 1.  Ein Element auswählen, das fixiert werden soll.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainBlock.svg style="width   *16px"> [Fixieren](Sketcher_ConstrainBlock/de.md)** drücken.
+2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Fixieren](Sketcher_ConstrainBlock/de.md)** drücken.
 
 Oder drücke zuerst die Taste , und wähle dann die Elemente aus.
 

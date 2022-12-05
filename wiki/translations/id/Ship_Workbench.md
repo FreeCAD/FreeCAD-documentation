@@ -1,28 +1,28 @@
-# <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width   *64px;"> Ship Workbench/id
+# <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/id
 
 
 {{TOCright}}
 
 ## Introduction
 
-The <img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
+The <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
 
 ## The Tools 
 
 ### Ship Design 
 
--   <img alt="" src=images/Ship_LoadExample.svg  style="width   *32px;"> [Load an example ship geometry](Ship_LoadExample.md)
--   <img alt="" src=images/Ship_CreateShip.svg  style="width   *32px;"> [Create a new ship](Ship_CreateShip.md)
--   <img alt="" src=images/Ship_AreasCurve.svg  style="width   *32px;"> [Areas curve](Ship_AreasCurve.md)
--   <img alt="" src=images/Ship_Hydrostatics.svg  style="width   *32px;"> [Hydrostatics](Ship_Hydrostatics.md)
+-   <img alt="" src=images/Ship_LoadExample.svg  style="width:32px;"> [Load an example ship geometry](Ship_LoadExample.md)
+-   <img alt="" src=images/Ship_CreateShip.svg  style="width:32px;"> [Create a new ship](Ship_CreateShip.md)
+-   <img alt="" src=images/Ship_AreasCurve.svg  style="width:32px;"> [Areas curve](Ship_AreasCurve.md)
+-   <img alt="" src=images/Ship_Hydrostatics.svg  style="width:32px;"> [Hydrostatics](Ship_Hydrostatics.md)
 
 ### Weights
 
--   <img alt="" src=images/Ship_Weight.svg  style="width   *32px;"> [Create a new ship weight](Ship_Weight.md)
--   <img alt="" src=images/Ship_Tank.svg  style="width   *32px;"> [Create a new tank](Ship_Tank.md)
--   <img alt="" src=images/Ship_Capacity.svg  style="width   *32px;"> [Tank capacity curve](Ship_Capacity.md)
--   <img alt="" src=images/Ship_LoadCondition.svg  style="width   *32px;"> [Create a new loading condition](Ship_LoadCondition.md)
--   <img alt="" src=images/Ship_GZ.svg  style="width   *32px;"> [GZ curve computation](Ship_GZ.md)
+-   <img alt="" src=images/Ship_Weight.svg  style="width:32px;"> [Create a new ship weight](Ship_Weight.md)
+-   <img alt="" src=images/Ship_Tank.svg  style="width:32px;"> [Create a new tank](Ship_Tank.md)
+-   <img alt="" src=images/Ship_Capacity.svg  style="width:32px;"> [Tank capacity curve](Ship_Capacity.md)
+-   <img alt="" src=images/Ship_LoadCondition.svg  style="width:32px;"> [Create a new loading condition](Ship_LoadCondition.md)
+-   <img alt="" src=images/Ship_GZ.svg  style="width:32px;"> [GZ curve computation](Ship_GZ.md)
 
 ## Tutorials
 
@@ -35,14 +35,9 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 
 ## References
 
--   Developer   * Jose Luis Cercós Pita ([\@sanguinariojoe](https   *//github.com/sanguinariojoe))
--   Github   * <https   *//github.com/FreeCAD/freecad.ship>
--   Discussion   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=60885>
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Ship](Category_Ship.md)
+-   Developer: Jose Luis Cercós Pita ([\@sanguinariojoe](https://github.com/sanguinariojoe))
+-   Github: <https://github.com/FreeCAD/freecad.ship>
+-   Discussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
 
 

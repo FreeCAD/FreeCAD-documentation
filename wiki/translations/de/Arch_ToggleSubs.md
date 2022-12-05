@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch ToggleSubs
-   Name/de   *Arch UmschaltenUnterkomponenten
-   MenuLocation   *Arch → Utilities → Umschalten Unterkomponenten
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***Strg**+**Leertaste**
-   SeeAlso   *[Arch Komponente](Arch_Component/de.md)
+- GuiCommand:/de
+   Name:Arch ToggleSubs
+   Name/de:Arch UmschaltenUnterkomponenten
+   MenuLocation:Arch → Utilities → Umschalten Unterkomponenten
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**Strg**+**Leertaste**
+   SeeAlso:[Arch Komponente](Arch_Component/de.md)
 ---
 
 # Arch ToggleSubs/de

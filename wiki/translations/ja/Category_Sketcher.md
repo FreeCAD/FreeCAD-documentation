@@ -1,8 +1,6 @@
 # Category:Sketcher/ja
 This category lists pages related to the [Sketcher Workbench/ja](Sketcher_Workbench/ja.md).
 
-[Category   *Workbenches/ja](Category   *Workbenches/ja.md)
-
 ### Contents
 
 |     |     |     |

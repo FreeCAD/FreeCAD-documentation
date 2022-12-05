@@ -1,8 +1,6 @@
 # Category:BIM/hr
 This category is for pages related to building information management (BIM).
 
-[Category   *User Documentation/hr](Category   *User_Documentation/hr.md)
-
 ### Contents
 
 |     |     |     |

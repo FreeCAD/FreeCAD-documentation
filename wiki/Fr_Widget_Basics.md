@@ -39,14 +39,14 @@ Fr_Widget is the base class for all widgets. It contains basic variable, objects
 
 #### Part 1 
 
-The class declaration for our new object   *
+The class declaration for our new object:
 
 
 
 ```python
-class Fr_Line_Widget(fr_widget.Fr_Widget)   *
+class Fr_Line_Widget(fr_widget.Fr_Widget):
 
-    def __init__(self, vectors   * List[App.Vector] = [], label   * str = "", lineWidth=1)   *
+    def __init__(self, vectors: List[App.Vector] = [], label: str = "", lineWidth=1):
         super().__init__(vectors, label)     
     """
     This class is for drawing a line in coin3D world
@@ -69,7 +69,7 @@ class Fr_Line_Widget(fr_widget.Fr_Widget)   *
 
 The line (super) must be written in the first line after the definition of the class since we want to initialize the abstract widget(Fr_Widget) before changing the internal objects and variables.
 
-We have as arguments to the widget   *(vertices, label and line width). You must give exactly 2 vertices to the class, but line width and label is optional. Default line width is be 1.
+We have as arguments to the widget:(vertices, label and line width). You must give exactly 2 vertices to the class, but line width and label is optional. Default line width is be 1.
 
 There are four callbacks that we should define if we want to take benefit of the events. These are external function user should define them to do other tasks as events occur. For example mouse click or keyboard events etc\...
 
@@ -88,7 +88,7 @@ We start to explain the code. This part is not difficult to understand .. It set
  
 ```python
 
-    def lineWidth(self, width)   *
+    def lineWidth(self, width):
         """ Set the line width"""
         self.w_lineWidth = width
 ```
@@ -99,7 +99,7 @@ For Keyboard events, at the moment the toolkit doesn\'t mask the events. They ar
 
  
 ```python
-    def handle(self, event)   *
+    def handle(self, event):
         """
         This function is responsible of taking events and processing 
         it. Required action will be executed here. If the object is not targeted, 
@@ -108,8 +108,8 @@ For Keyboard events, at the moment the toolkit doesn\'t mask the events. They ar
         processed the event and no other widgets needs to get the 
         event. Window object is responsible for distributing the events.
         """
-        if type(event)==int   *
-            if event==FR_EVENTS.FR_NO_EVENT   *
+        if type(event)==int:
+            if event==FR_EVENTS.FR_NO_EVENT:
                 return 1    # we treat this event. Nothing to do 
         
             clickwdgdNode = fr_coin3d.objectMouseClick_Coin3d(self.w_parent.link_to_root_handle.w_lastEventXYZ.pos,
@@ -117,23 +117,23 @@ For Keyboard events, at the moment the toolkit doesn\'t mask the events. They ar
             clickwdglblNode = fr_coin3d.objectMouseClick_Coin3d(self.w_parent.link_to_root_handle.w_lastEventXYZ.pos,
                                                             self.w_pick_radius, self.w_widgetlblSoNodes) 
 
-            if clickwdgdNode == None and clickwdglblNode == None   *
+            if clickwdgdNode == None and clickwdglblNode == None:
                 #SoSwitch not found 
                 self.remove_focus()
                 return 0 
             
-            if self.w_parent.link_to_root_handle.w_lastEvent == FR_EVENTS.FR_MOUSE_LEFT_DOUBLECLICK   *
+            if self.w_parent.link_to_root_handle.w_lastEvent == FR_EVENTS.FR_MOUSE_LEFT_DOUBLECLICK:
                 # Double click event.
-                if clickwdglblNode != None   *
+                if clickwdglblNode != None:
                     print("Double click detected")
-                    #if not self.has_focus()   *
+                    #if not self.has_focus():
                     #    self.take_focus()
                     self.do_lblcallback()
                     return 1
 
-            elif self.w_parent.link_to_root_handle.w_lastEvent == FR_EVENTS.FR_MOUSE_LEFT_RELEASE   *
-                if clickwdgdNode != None or clickwdglblNode != None   *
-                    if not self.has_focus()   *
+            elif self.w_parent.link_to_root_handle.w_lastEvent == FR_EVENTS.FR_MOUSE_LEFT_RELEASE:
+                if clickwdgdNode != None or clickwdglblNode != None:
+                    if not self.has_focus():
                         self.take_focus()
                     self.do_callback()
                     return 1            
@@ -146,29 +146,29 @@ For Keyboard events, at the moment the toolkit doesn\'t mask the events. They ar
 
 This part is about the function \'draw\'. This function is responsible for drawing the whole widget. It takes care of drawing the widget when it is active, inactive, selected, has focus, lost focus etc\...
 
-It has a direct connection to the fr_draw library that provides the primitive drawings for ex. (Line, Square, Box, Arrow, 2D Arrow, Cube, Cylinder etc\...). For our widget we uses the line drawing. Lets look at the code   *
+It has a direct connection to the fr_draw library that provides the primitive drawings for ex. (Line, Square, Box, Arrow, 2D Arrow, Cube, Cylinder etc\...). For our widget we uses the line drawing. Lets look at the code:
 
  
 ```python
-    def draw(self)   *
+    def draw(self):
         """
         Main draw function. It is responsible for creating the SoSeparator node,
         and draw the line on the screen - in the COIN3D world. 
         """
-        try   *
+        try:
             
-            if len(self.w_vector) < 2   *
+            if len(self.w_vector) < 2:
                 raise ValueError('Must be 2 Vectors')
             p1 = self.w_vector[0]
             p2 = self.w_vector[1]
 
-            if self.is_active() and self.has_focus()   *
+            if self.is_active() and self.has_focus():
                 usedColor = self.w_selColor
-            elif self.is_active() and (self.has_focus() != 1)   *
+            elif self.is_active() and (self.has_focus() != 1):
                 usedColor = self.w_color
-            elif self.is_active() != 1   *
+            elif self.is_active() != 1:
                 usedColor = self.w_inactiveColor
-            if self.is_visible()   *
+            if self.is_visible():
                 self.saveSoNodesToWidget(fr_draw.draw_line(p1, p2, usedColor, self.w_lineWidth))
                 self.saveSoNodeslblToWidget(self.draw_label(usedColor))
                 #add both to the same switch. and add them to the senegraph automatically
@@ -176,10 +176,10 @@ It has a direct connection to the fr_draw library that provides the primitive dr
                 allSwitch.append(self.w_widgetSoNodes)
                 allSwitch.append(self.w_widgetlblSoNodes)
                 self.addSoNodeToSoSwitch(allSwitch)
-            else   *
+            else:
                 return  # We draw nothing .. This is here just for clarifying the code
 
-        except Exception as err   *
+        except Exception as err:
             App.Console.PrintError("'Fr_Line_Widget' Failed. "
                                    "{err}\n".format(err=str(err)))
             exc_type, exc_obj, exc_tb = sys.exc_info()
@@ -191,7 +191,7 @@ The function checks if we have got two vectors since the line needs two vectors.
 
 #### Part 5 
 
-Widgets Label   * Labels are necessary for the widget toolkit. For example the label for line widget can be used to show the length of the side the line is drawn for. It has also the call back mechanism so you can interact with the text shown on the screen.
+Widgets Label: Labels are necessary for the widget toolkit. For example the label for line widget can be used to show the length of the side the line is drawn for. It has also the call back mechanism so you can interact with the text shown on the screen.
 
 For our widget (Fr_Line_Widget) the label is drawn near to the beginning of the line i.e. near to the first Vertex. At the moment there is no alignment mechanism but that is in the todo list. This part will be updated later when that is implemented.
 
@@ -201,7 +201,7 @@ The text drawn is only 2D. There might be the need of making 3D text, but this w
 
  
 ```python
-    def draw_label(self,usedColor)   *
+    def draw_label(self,usedColor):
         LabelData = fr_widget.propertyValues()
         LabelData.linewidth = self.w_lineWidth
         LabelData.labelfont = self.w_font
@@ -218,15 +218,15 @@ PropertyValues is an object that is used to send the parameter to the drawing fu
 
 #### Part 6 
 
-This part is also relate to draw function. We need a mechanism to redraw the drawings. Normally you must remove the drawings and redraw the objects to get the coin3d objects changed. Fr_Wdiget do the same. Looking to the following code   *
+This part is also relate to draw function. We need a mechanism to redraw the drawings. Normally you must remove the drawings and redraw the objects to get the coin3d objects changed. Fr_Wdiget do the same. Looking to the following code:
 
  
 ```python
-    def redraw(self)   *
+    def redraw(self):
         """
         After the widgets damages, this function should be called.        
         """
-        if self.is_visible()   *
+        if self.is_visible():
             # Remove the SoSwitch from fr_coinwindo
             self.w_parent.removeSoSwitchFromSeneGraph(self.w_wdgsoSwitch)
 
@@ -238,8 +238,8 @@ This part is also relate to draw function. We need a mechanism to redraw the dra
             #Redraw label
             
             self.lblRedraw()
-            self.draw()def lblRedraw(self)   *
-        if(self.w_widgetlblSoNodes!=None)   *
+            self.draw()def lblRedraw(self):
+        if(self.w_widgetlblSoNodes!=None):
             self.w_widgetlblSoNodes.removeAllChildren()
 ```
 
@@ -247,28 +247,28 @@ First function (redraw) will remove the drawings from the scene graph and remove
 
 #### Part 7 
 
-We need also functions that will put the size of the object, resize it and move it. Bellow are the functions   *
+We need also functions that will put the size of the object, resize it and move it. Bellow are the functions:
 
  
 ```python
 
-    def move(self, newVecPos)   *
+    def move(self, newVecPos):
         """
         Move the object to the new location referenced by the 
         left-top corner of the object. Or the start of the line
         if it is a line.
         """
         self.resize([newVecPos[0], newVecPos[1]])
-    def resize(self, vectors   * List[App.Vector])   *  # Width, height, thickness
+    def resize(self, vectors: List[App.Vector]):  # Width, height, thickness
         """Resize the widget by using the new vectors"""
         self.w_vector = vectors
         self.redraw()
 
-    def size(self, vectors   * List[App.Vector])   *
+    def size(self, vectors: List[App.Vector]):
         """Resize the widget by using the new vectors"""
         self.resize(vectors)
 
-    def label_move(self, newPos)   *
+    def label_move(self, newPos):
         pass
 ```
 

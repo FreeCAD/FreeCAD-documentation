@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std Paste
-   Name/de   *Std Einfügen
-   MenuLocation   *Bearbeiten → Einfügen
-   Workbenches   *Alle
-   Shortcut   *** Strg**+**V**
-   SeeAlso   *[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std AuswahlDuplizieren](Std_DuplicateSelection/de.md)
+- GuiCommand:/de
+   Name:Std Paste
+   Name/de:Std Einfügen
+   MenuLocation:Bearbeiten → Einfügen
+   Workbenches:Alle
+   Shortcut:** Strg**+**V**
+   SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std AuswahlDuplizieren](Std_DuplicateSelection/de.md)
 ---
 
 # Std Paste/de
@@ -16,7 +16,7 @@ Der Befehl **Std Einfügen** fügt Objekte aus der Zwischenablage in das aktuell
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den Menüeintrag {{MenuCommand/de|Bearbeiten → <img src="images/Std_Paste.svg" width=16px> Einfügen}} im Hauptmenü auswählen.
     -   Den Menüeintrag **<img src="images/Std_Paste.svg" width=16px> Einfügen** im Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Diese option steht nur dann zur Verfügung, wenn ein vorhandendes Objekt ausgewählt wurde.
     -   Das Tastaturkürzel **Strg**+**V**.

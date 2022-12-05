@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *FEM ElementGeometry2D
-   MenuLocation   *Model → Element Geometry → Shell plate thickness
-   Workbenches   *[FEM](FEM_Workbench.md)
-   Shortcut   ***C** **S**
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM ElementGeometry2D
+   MenuLocation:Model → Element Geometry → Shell plate thickness
+   Workbenches:[FEM](FEM_Workbench.md)
+   Shortcut:**C** **S**
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ElementGeometry2D/de
@@ -15,7 +15,7 @@ Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von 2D-FEM-E
 
 ## Anwendung
 
-1.  Es gibt mehrereMöglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrereMöglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Dicke der Schalenplatte](FEM_ElementGeometry2D.md)** drücken.
     -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Dicke der Schalenplatte** auswählen.
 2.  Den Parameter der Wandstärke festlegen.
@@ -30,7 +30,7 @@ Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von 2D-FEM-E
 
 **Thickness**
 
-   * Legt die Wandstärke der Schale (Hülle) fest.
+: Legt die Wandstärke der Schale (Hülle) fest.
 
 ## Skripten
 

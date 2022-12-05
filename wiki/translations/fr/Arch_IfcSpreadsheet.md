@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch_IfcSpreadsheet
-   Name/fr   *Arch Tableur IFC
-   MenuLocation   *Arch → Utilitaires → Créer une feuille de calcul IFC
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   Shortcut   ***I** **P**
-   SeeAlso   *[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur IFC](Arch_IfcExplorer/fr.md)
+- GuiCommand:/fr
+   Name:Arch_IfcSpreadsheet
+   Name/fr:Arch Tableur IFC
+   MenuLocation:Arch → Utilitaires → Créer une feuille de calcul IFC
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   Shortcut:**I** **P**
+   SeeAlso:[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur IFC](Arch_IfcExplorer/fr.md)
 ---
 
 # Arch IfcSpreadsheet/fr
@@ -17,7 +17,7 @@ Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_I
 ## Comment l\'utiliser 
 
 1.  Sélectionnez un objet.
-2.  Lancer la commande en utilisant plusieurs méthodes   *
+2.  Lancer la commande en utilisant plusieurs méthodes:
     -   En appuyant sur le bouton **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **I** puis **P**.
     -   Utilisation de l\'entrée **Arch → Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans le menu supérieur.
@@ -25,18 +25,18 @@ Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_I
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction    * 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```
 
 -   Crée un objet `spreadsheet`. Vous pouvez éventuellement donner un `archobj`.
 
-Exemple   * 
+Exemple: 
 ```python
 import FreeCAD, Draft, Arch
 

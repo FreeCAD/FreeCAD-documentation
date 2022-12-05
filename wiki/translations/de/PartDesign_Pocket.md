@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *PartDesign Pocket
-   Name/de   *PartDesign Tasche
-   MenuLocation   *PartDesign → Objekte abziehen → Tasche
-   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso   *[PartDesign Aufpolsterung](PartDesign_Pad/de.md)
+- GuiCommand:/de
+   Name:PartDesign Pocket
+   Name/de:PartDesign Tasche
+   MenuLocation:PartDesign → Objekte abziehen → Tasche
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[PartDesign Aufpolsterung](PartDesign_Pad/de.md)
 ---
 
 # PartDesign Pocket/de
@@ -30,24 +30,24 @@ When selecting a single sketch, it can have multiple enclosed profiles inside a 
 
 ## Optionen
 
-When creating a pocket, the the **Pocket parameters** dialog will be shown. It offers the following settings   *
+When creating a pocket, the the **Pocket parameters** dialog will be shown. It offers the following settings:
 
 ![](images/pocket_parameters_cropped.png )
 
 ### Type
 
-Type offers four different ways of specifying the length to which the pocket will be extruded   *
+Type offers four different ways of specifying the length to which the pocket will be extruded:
 
 #### Dimension
 
 
 <div class="mw-translate-fuzzy">
 
-Beim Erzeugen einer Tasche bietet der Dialog **Taschenparameter** fünf verschiedene Möglichkeiten, die Länge (Tiefe) festzulegen, bis zu der die Tasche extrudiert werden soll   *
+Beim Erzeugen einer Tasche bietet der Dialog **Taschenparameter** fünf verschiedene Möglichkeiten, die Länge (Tiefe) festzulegen, bis zu der die Tasche extrudiert werden soll:
 
 ### Abmessung
 
-Gib einen numerischen Wert für die Tiefe der Tasche ein. Die Standardrichtung für die Extrusion ist in die Auflage. Extrusionen erfolgen [normal](http   *//en.wikipedia.org/wiki/Surface_normal) zur definierenden Skizzierebene. Negative Bemaßungen sind nicht möglich. Verwende stattdessen die Option **Umgekehrt**.
+Gib einen numerischen Wert für die Tiefe der Tasche ein. Die Standardrichtung für die Extrusion ist in die Auflage. Extrusionen erfolgen [normal](http://en.wikipedia.org/wiki/Surface_normal) zur definierenden Skizzierebene. Negative Bemaßungen sind nicht möglich. Verwende stattdessen die Option **Umgekehrt**.
 
 ### Zuerst
 
@@ -55,14 +55,14 @@ Die Tasche wird bis zur ersten Fläche des Trägers in Extrusionsrichtung extrud
 
 ### Durch alles 
 
-Die Tasche schneidet durch das gesamte Material in Extrusionsrichtung. Mit der Option **Symmetrisch zur Ebene** schneidet die Tasche durch das gesamte Material in beiden Richtungen.**Hinweis   *** Aus technischen Gründen ist **Durch alles** eigentlich eine 10 Meter tiefe Tasche. Wenn Sie tiefere Taschen benötigen, verwende *Abmessung*.
+Die Tasche schneidet durch das gesamte Material in Extrusionsrichtung. Mit der Option **Symmetrisch zur Ebene** schneidet die Tasche durch das gesamte Material in beiden Richtungen.**Hinweis:** Aus technischen Gründen ist **Durch alles** eigentlich eine 10 Meter tiefe Tasche. Wenn Sie tiefere Taschen benötigen, verwende *Abmessung*.
 
 
 </div>
 
 #### Through all 
 
-The pocket will extrude through all objects in the extrusion direction. With the option **Symmetric to plane** the pad will cut through all material in both directions.**Note   *** For technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use the type **Dimension**.
+The pocket will extrude through all objects in the extrusion direction. With the option **Symmetric to plane** the pad will cut through all material in both directions.**Note:** For technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use the type **Dimension**.
 
 #### To first 
 
@@ -103,7 +103,7 @@ Offset from face at which the pocket will end. This option is only available whe
 
 #### Direction/edge
 
-You can select the direction of the extrusion   *
+You can select the direction of the extrusion:
 
 -   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
 -   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion.
@@ -132,7 +132,7 @@ Reverses the direction of the pocket.
 
 Tapers the pocket in the extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
-Limitations   *
+Limitations:
 
 -   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
 -   For larger angles tapering will fail if the end face of the pocket would have fewer edges than the start face/sketch.
@@ -150,21 +150,21 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 ## Properties
 
--    **Type**   * Type of ways how the pocket will be extruded, see [Options](#Options.md).
+-    **Type**: Type of ways how the pocket will be extruded, see [Options](#Options.md).
 
--    **Length**   * Defines the length of the pocket, see [Options](#Options.md).
+-    **Length**: Defines the length of the pocket, see [Options](#Options.md).
 
--    **Length2**   * Second pocket length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
+-    **Length2**: Second pocket length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
 
--    **Use Custom Vector**   * <small>(v0.20)</small>  If checked, the pocket direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+-    **Use Custom Vector**: <small>(v0.20)</small>  If checked, the pocket direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
 
--    **Direction**   * <small>(v0.20)</small>  Vector of the pocket direction if **Use Custom Vector** is used.
+-    **Direction**: <small>(v0.20)</small>  Vector of the pocket direction if **Use Custom Vector** is used.
 
--    **Along Sketch Normal**   * <small>(v0.20)</small>  If *true*, the pocket length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+-    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pocket length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
 
--    **Up To Face**   * A face the pocket will extrude up to, see [Options](#Options.md).
+-    **Up To Face**: A face the pocket will extrude up to, see [Options](#Options.md).
 
--    **Refine**   * True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+-    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
 
 ## Limitations
 

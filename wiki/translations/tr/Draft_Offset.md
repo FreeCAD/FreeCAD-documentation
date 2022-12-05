@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Offset
-   Name/tr   *Ofsetle
-   MenuLocation   *Taslak → Ofsetle
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut   ***O** **S**
-   SeeAlso   *[Parça 2D ofset](Part_Offset2D/tr.md)
+- GuiCommand:/tr
+   Name:Draft Offset
+   Name/tr:Ofsetle
+   MenuLocation:Taslak → Ofsetle
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut:**O** **S**
+   SeeAlso:[Parça 2D ofset](Part_Offset2D/tr.md)
 ---
 
 # Draft Offset/tr
@@ -23,7 +23,7 @@ Ofset aracı seçilen nesneyi kendisine dik verilen belirli bir mesafeye (ofset)
 
 </div>
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -42,7 +42,7 @@ Ofset aracı seçilen nesneyi kendisine dik verilen belirli bir mesafeye (ofset)
 
 </div>
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -68,8 +68,8 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 -   Aynı zamanda geçiş modunu değiştirecek noktayı seçerken {{KEY | Alt}} tuşunu basılı tutun. {{KEY | Alt}} tuşuna basılı tutmak, ofset kopya yerleştirmeye devam etmenizi sağlar; İşlemi tamamlamak ve tüm ofset şekillerini görmek için {{KEY | Alt}} tuşunu serbest bırakın.
 -   **OCC** moduna geçmek için \"OCC stili\" onay kutusunu tıklayın. Bu, segmentlerin uçlarında yuvarlatılmış kenarlarla özel olarak kapalı bir şekil üretecek olan bir çizgi parçasının her iki tarafından bir denge oluşturacaktır.
 
-   *   
-    {{Emphasis | Note   *}}Bu stilde orijinal bölümler kaldırılacak, bu nedenle orijinal kenarları korumak için kopyalama modunu kullanın.
+:   
+    {{Emphasis | Note:}}Bu stilde orijinal bölümler kaldırılacak, bu nedenle orijinal kenarları korumak için kopyalama modunu kullanın.
 
 -   [ snapping](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak en yakın çeki konumuna zorlamak için ofset yaparken {{KEY | Ctrl}} tuşunu basılı tutun.
 -   Geçerli segment için belirtilen uzaklık mesafesini korumak için {{KEY | Shift}} tuşunu basılı tutun ve başka bir referans seçmekten kaçının.
@@ -85,9 +85,9 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -97,7 +97,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Betik
 
 
-**Ayrıca bkz.   ***
+**Ayrıca bkz.:**
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -107,7 +107,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Ofset aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve python konsolundan kullanılabilir   *
+Ofset aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve python konsolundan kullanılabilir:
 
 
 </div>
@@ -127,14 +127,14 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 -   Eğer {{incode | bind}} {{incode | True}} ise ve tel nesnesinin açık olması şartıyla, orijinal ve ofset tel uç noktalarına bağlanarak bir yüz oluşturacaklardır.
     -   Eğer {{incode | sym}} {{incode | True}} ise, {{incode | bind}} de {{incode | True}} olmalı ve ofset telin her iki tarafında da yapılmalı, toplam genişlik verilen vektörün uzunluğudur.
 
--    {{incode | occ}}{{incode | True}} ise, OCC stili ofsetini kullanacaktır   * her iki taraftan ofset yapacak, sonra yeni telleri birbirine bağlayacak ve köşeleri yuvarlayacaktır.
+-    {{incode | occ}}{{incode | True}} ise, OCC stili ofsetini kullanacaktır: her iki taraftan ofset yapacak, sonra yeni telleri birbirine bağlayacak ve köşeleri yuvarlayacaktır.
 
 -    {{incode | Offsetobj}}orijinal ofset nesnesiyle veya yeni kopyayla döndürülür.
 
 
 </div>
 
-Örnek   *
+Örnek:
 
 
 ```python

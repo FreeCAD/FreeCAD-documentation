@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Part Thickness
-   Name/fr   *Part Évidement
-   MenuLocation   *Part → Évidement...
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Décalage](Part_Offset/fr.md)
+- GuiCommand:/fr
+   Name:Part Thickness
+   Name/fr:Part Évidement
+   MenuLocation:Part → Évidement...
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Décalage](Part_Offset/fr.md)
 ---
 
 # Part Thickness/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> [Évidement](Part_Thickness/fr.md) travaille sur une forme solide et le transforme en un objet creux, donnant à chacune de ses parois une épaisseur définie. Sur certains solides, il vous permet d\'accélérer considérablement le travail et évite de faire des extrusions et des cavités.
+L\'outil <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Évidement](Part_Thickness/fr.md) travaille sur une forme solide et le transforme en un objet creux, donnant à chacune de ses parois une épaisseur définie. Sur certains solides, il vous permet d\'accélérer considérablement le travail et évite de faire des extrusions et des cavités.
 
 ## Utilisation
 
@@ -25,21 +25,21 @@ L\'outil <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> [Év
 
 ## Options
 
--   Épaisseur    * Épaisseur de la paroi de l\'objet résultant, définissez la valeur souhaitée
+-   Épaisseur : Épaisseur de la paroi de l\'objet résultant, définissez la valeur souhaitée
     -   Une valeur positive décalera les faces vers l\'extérieur
     -   Une valeur négative décalera les faces vers l\'intérieur
 -   Mode
-    -   Couche    * Sélectionnez cette option si vous voulez obtenir un élément comme un vase, sans dessus, mais avec le fond
-    -   Tuyau    * Sélectionnez cette option si vous voulez obtenir un objet comme un tuyau, sans dessus et sans fond. Dans ce cas, il peut être pratique de sélectionner les faces à supprimer avant de démarrer l\'outil. Aidez-vous des boutons de vues prédéfinies ou utilisez les touches numériques.
-    -   Recto/verso    *
+    -   Couche : Sélectionnez cette option si vous voulez obtenir un élément comme un vase, sans dessus, mais avec le fond
+    -   Tuyau : Sélectionnez cette option si vous voulez obtenir un objet comme un tuyau, sans dessus et sans fond. Dans ce cas, il peut être pratique de sélectionner les faces à supprimer avant de démarrer l\'outil. Aidez-vous des boutons de vues prédéfinies ou utilisez les touches numériques.
+    -   Recto/verso :
 -   Type de raccordement
-    -   Arc    * Supprime les bords extérieurs et créer un congé avec un rayon égal à l\'épaisseur définie
-    -   Tangente    *
-    -   Intersection    *
--   Intersection    *
--   Auto-intersection    * Permet l\'auto-intersection
--   Faces/Terminé    * Sélectionnez les faces à supprimer puis cliquez Terminé
--   Réactualiser la vue    * Met à jour automatiquement la vue en temps réel
+    -   Arc : Supprime les bords extérieurs et créer un congé avec un rayon égal à l\'épaisseur définie
+    -   Tangente :
+    -   Intersection :
+-   Intersection :
+-   Auto-intersection : Permet l\'auto-intersection
+-   Faces/Terminé : Sélectionnez les faces à supprimer puis cliquez Terminé
+-   Réactualiser la vue : Met à jour automatiquement la vue en temps réel
 
 ## Remarques
 
@@ -48,7 +48,7 @@ L\'outil <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> [Év
 
 ## Liens
 
-Un bon exemple sur la façon d\'utiliser cet outil sur le forum   * [Re   * Help designing a simple enclosure](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+Un bon exemple sur la façon d\'utiliser cet outil sur le forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
 
 ## Exemples
 
@@ -59,7 +59,7 @@ Un bon exemple sur la façon d\'utiliser cet outil sur le forum   * [Re   * Help
 3.  Cliquez sur le bouton **<img src="images/_Part_Thickness.svg" width=16px> Évidement...
 ** (pas besoin de modifier les paramètres par défaut) et appuyez sur **OK**
 
-Remarques   *
+Remarques:
 
 -   Pour cette forme, pensez à utiliser **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube/fr.md)** à la place {{Version/fr|0.19}}
 -   Sélectionnez la surface supérieure du cylindre uniquement pour créer un réceptacle

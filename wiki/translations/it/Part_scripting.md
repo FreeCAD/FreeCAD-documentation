@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-La struttura dati principale utilizzata nel modulo Parte è il tipo di dati [BRep](https   *//it.wikipedia.org/wiki/B-Rep) da [OpenCASCADE](OpenCASCADE/it.md). Quasi tutti i contenuti e i tipi di oggetti del modulo Part sono disponibili per lo scripting con [Python](Python/it.md). Ciò include le primitive geometriche, come linee, cerchi e archi, e l\'intera gamma di forme topografiche, come vertici, bordi, fili, facce, solidi e composti. Per ciascuno di questi oggetti esistono diversi metodi di creazione e per alcuni di essi, in particolare TopoShapes, sono disponibili anche operazioni avanzate come unione/differenza/intersezione booleana. Si possono esplorare i contenuti del modulo Parte, come descritto nella pagina [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), per saperne di più.
+La struttura dati principale utilizzata nel modulo Parte è il tipo di dati [BRep](https://it.wikipedia.org/wiki/B-Rep) da [OpenCASCADE](OpenCASCADE/it.md). Quasi tutti i contenuti e i tipi di oggetti del modulo Part sono disponibili per lo scripting con [Python](Python/it.md). Ciò include le primitive geometriche, come linee, cerchi e archi, e l\'intera gamma di forme topografiche, come vertici, bordi, fili, facce, solidi e composti. Per ciascuno di questi oggetti esistono diversi metodi di creazione e per alcuni di essi, in particolare TopoShapes, sono disponibili anche operazioni avanzate come unione/differenza/intersezione booleana. Si possono esplorare i contenuti del modulo Parte, come descritto nella pagina [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), per saperne di più.
 
 L\'oggetto più semplice che può essere creato è [Part](Part_Feature/it.md), che ha una semplice proprietà **Placement** e le proprietà di base per definirne il colore e l\'aspetto.
 
@@ -35,7 +35,7 @@ $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 ### Linea
 
-Per creare un elemento di linea, passa alla [console Python](Python_console/it.md) e inserisci   *
+Per creare un elemento di linea, passa alla [console Python](Python_console/it.md) e inserisci:
 
 
 ```python
@@ -47,13 +47,13 @@ doc = App.newDocument()
 line = Part.LineSegment()
 line.StartPoint = (0.0, 0.0, 0.0)
 line.EndPoint = (1.0, 1.0, 1.0)
-obj = doc.addObject("Part   *   *Feature", "Line")
+obj = doc.addObject("Part::Feature", "Line")
 obj.Shape= line.toShape()
 
 doc.recompute()
 ```
 
-Esaminiamo passo dopo passo l\'esempio Python sopra   *
+Esaminiamo passo dopo passo l\'esempio Python sopra:
 
 
 ```python
@@ -75,7 +75,7 @@ La linea è in realtà un segmento di retta, quindi ha un inizio e un punto fina
 
 
 ```python
-obj = doc.addObject("Part   *   *Feature", "Line")
+obj = doc.addObject("Part::Feature", "Line")
 obj.Shape= line.toShape()
 ```
 
@@ -90,15 +90,15 @@ Aggiorna il documento. Questo prepara anche la rappresentazione visiva del nuovo
 
 Si noti che un segmento di linea può anche essere creato specificandone l\'inizio e il punto finale direttamente nel costruttore, ad esempio {{Incode|Part.LineSegment(point1, point2)}}, oppure possiamo creare una linea predefinita e impostarne le proprietà in seguito, come abbiamo fatto qui.
 
-È inoltre possibile creare una linea utilizzando   *
+È inoltre possibile creare una linea utilizzando:
 
 
 ```python
 import FreeCAD as App
 import Part
 
-def my_create_line(pt1, pt2, obj_name)   *
-    obj = App.ActiveDocument.addObject("Part   *   *Line", obj_name)
+def my_create_line(pt1, pt2, obj_name):
+    obj = App.ActiveDocument.addObject("Part::Line", obj_name)
     obj.X1 = pt1[0]
     obj.Y1 = pt1[1]
     obj.Z1 = pt1[2]
@@ -115,7 +115,7 @@ line = my_create_line((0, 0, 0), (0, 10, 0), "LineName")
 
 ### Cerchio
 
-Un cerchio può essere creato in modo simile   *
+Un cerchio può essere creato in modo simile:
 
 
 ```python
@@ -126,21 +126,21 @@ doc = App.activeDocument()
 
 circle = Part.Circle() 
 circle.Radius = 10.0  
-obj = doc.addObject("Part   *   *Feature", "Circle")
+obj = doc.addObject("Part::Feature", "Circle")
 obj.Shape = circle.toShape()
 
 doc.recompute()
 ```
 
-oppure usando   *
+oppure usando:
 
 
 ```python
 import FreeCAD as App
 import Part
 
-def my_create_circle(rad, obj_name)   *
-    obj = App.ActiveDocument.addObject("Part   *   *Circle", obj_name)
+def my_create_circle(rad, obj_name):
+    obj = App.ActiveDocument.addObject("Part::Circle", obj_name)
     obj.Radius = rad
 
     App.ActiveDocument.recompute()
@@ -149,7 +149,7 @@ def my_create_circle(rad, obj_name)   *
 circle = my_create_circle(5.0, "CircleName")
 ```
 
-In alternativa possiamo creare un cerchio definendone il centro, l\'asse e il raggio   *
+In alternativa possiamo creare un cerchio definendone il centro, l\'asse e il raggio:
 
 
 ```python
@@ -162,13 +162,13 @@ center = App.Vector(1, 2, 3)
 axis = App.Vector(1, 1, 1)
 radius = 10
 circle = Part.Circle(center, axis, radius)
-obj = doc.addObject("Part   *   *Feature", "Circle")
+obj = doc.addObject("Part::Feature", "Circle")
 obj.Shape = circle.toShape()
 
 doc.recompute()
 ```
 
-Oppure definendo tre punti sulla sua circonferenza   *
+Oppure definendo tre punti sulla sua circonferenza:
 
 
 ```python
@@ -181,13 +181,13 @@ p1 = App.Vector(10, 0, 0)
 p2 = App.Vector(0, 10, 0)
 p3 = App.Vector(0, 0, 10)
 circle = Part.Circle(p1, p2, p3)
-obj = doc.addObject("Part   *   *Feature", "Circle")
+obj = doc.addObject("Part::Feature", "Circle")
 obj.Shape = circle.toShape()
 
 doc.recompute()
 ```
 
-Si noti ancora, che abbiamo usato il cerchio (primitiva geometrica) per costruire una forma. Ovviamente possiamo ancora accedere alla nostra geometria di costruzione in seguito, facendo   *
+Si noti ancora, che abbiamo usato il cerchio (primitiva geometrica) per costruire una forma. Ovviamente possiamo ancora accedere alla nostra geometria di costruzione in seguito, facendo:
 
 
 ```python
@@ -200,7 +200,7 @@ Qui prendiamo il {{Incode|Shape}} del nostro oggetto {{Incode|obj}} e poi la sua
 
 ### Arco
 
-Un arco può essere creato in questo modo   *
+Un arco può essere creato in questo modo:
 
 
 ```python
@@ -213,7 +213,7 @@ p1 = App.Vector(10, 0, 0)
 p2 = App.Vector(0, 10, 0)
 p3 = App.Vector(-10, 0, 0)
 arc = Part.Arc(p1, p2, p3)
-obj = doc.addObject("Part   *   *Feature", "Arc")
+obj = doc.addObject("Part::Feature", "Arc")
 obj.Shape = arc.toShape()
 
 doc.recompute()
@@ -221,7 +221,7 @@ doc.recompute()
 
 Così si disegna un semicerchio. Il centro è a (0, 0, 0). Il raggio è 10. P1 è il punto iniziale sull\'asse +X. P2 è il punto medio sull\'asse +Y e P3 è il punto finale sull\'asse -X.
 
-Possiamo anche creare un arco da un cerchio   *
+Possiamo anche creare un arco da un cerchio:
 
 
 ```python
@@ -235,21 +235,13 @@ p2 = App.Vector(0, 10, 0)
 p3 = App.Vector(-10, 0, 0)
 circle = Part.Circle(p1, p2, p3)
 arc = Part.ArcOfCircle(circle, 0.0, 0.7854)
-obj = doc.addObject("Part   *   *Feature", "Arc")
+obj = doc.addObject("Part::Feature", "Arc")
 obj.Shape = arc.toShape()
 
 doc.recompute()
 ```
 
 È necessario un cerchio, un angolo iniziale e un angolo finale in radianti.
-
-
-
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

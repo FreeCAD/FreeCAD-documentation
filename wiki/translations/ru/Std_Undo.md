@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Std_Undo
-   Name/ru   *Отменить
-   MenuLocation   *Правка → Отменить
-   Workbenches   *Все
-   Shortcut   ***Ctrl**+**Z**
-   SeeAlso   *[Вернуть](Std_Redo/ru.md)
+- GuiCommand:/ru
+   Name:Std_Undo
+   Name/ru:Отменить
+   MenuLocation:Правка → Отменить
+   Workbenches:Все
+   Shortcut:**Ctrl**+**Z**
+   SeeAlso:[Вернуть](Std_Redo/ru.md)
 ---
 
 # Std Undo/ru
@@ -16,10 +16,10 @@
 
 ## Применение
 
-1.  Существует несколько способов вызова данной команды   *
+1.  Существует несколько способов вызова данной команды:
     -   Нажатием кнопки **<img src="images/Std_Undo.svg" width=16px> [Отменить](Std_Undo/ru.md)** на панели инструментов.
     -   Вызовом через меню **Правка → <img src="images/Std_Undo.svg" width=16px> Отменить**.
-    -   Используя комбинацию клавиш клавиатуры   * **Ctrl**+**Z**.
+    -   Используя комбинацию клавиш клавиатуры: **Ctrl**+**Z**.
 
 ## Опции
 
@@ -33,7 +33,7 @@
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

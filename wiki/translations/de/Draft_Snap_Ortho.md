@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Ortho
-   Name/de   *Entwurf Ortho
-   MenuLocation   *Entwurf → [Fang](Draft_Snap/de.md) → Ortho
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)
+- GuiCommand:/de
+   Name:Draft Snap Ortho
+   Name/de:Entwurf Ortho
+   MenuLocation:Entwurf → [Fang](Draft_Snap/de.md) → Ortho
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Ortho/de

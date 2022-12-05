@@ -1,4 +1,4 @@
-# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width   *64px;"> WebTools Workbench
+# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench
 
 ## Overview
 
@@ -10,17 +10,13 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
 ## Tools
 
--   <img alt="" src=images/WebTools_BimServer.svg  style="width   *32px;"> [BIM server](WebTools_BimServer.md)   * Opens a [BimServer](http   *//www.bimserver.org) window
--   <img alt="" src=images/WebTools_Git.svg  style="width   *32px;"> [Git](WebTools_Git.md)   * Manages files with [GIT](https   *//en.wikipedia.org/wiki/Git_%28software%29)
--   <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> [Sketchfab](WebTools_Sketchfab.md)   * Exports and uploads objects to your [SketchFab](http   *//www.sketchfab.com) account.
+-   <img alt="" src=images/WebTools_BimServer.svg  style="width:32px;"> [BIM server](WebTools_BimServer.md): Opens a [BimServer](http://www.bimserver.org) window
+-   <img alt="" src=images/WebTools_Git.svg  style="width:32px;"> [Git](WebTools_Git.md): Manages files with [GIT](https://en.wikipedia.org/wiki/Git_%28software%29)
+-   <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> [Sketchfab](WebTools_Sketchfab.md): Exports and uploads objects to your [SketchFab](http://www.sketchfab.com) account.
 
 ## Links
 
--   Source code hosted on GitHub   * <https   *//github.com/yorikvanhavre/WebTools>
-
-  
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *User Documentation](Category_User_Documentation.md)
+-   Source code hosted on GitHub: <https://github.com/yorikvanhavre/WebTools>
 
 
 

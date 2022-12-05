@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2017-04-19
 |FCVersion=0.16
-|Download=The file example [http   *//forum.freecadweb.org/download/file.php?id=36559 Constraint_Draft00.FCStd]<br />[https   *//www.freecadweb.org/wiki/images/d/d8/Macro_Constraint_Draft.png ToolBar Icon]
+|Download=The file example [http://forum.freecadweb.org/download/file.php?id=36559 Constraint_Draft00.FCStd]<br />[https://www.freecadweb.org/wiki/images/d/d8/Macro_Constraint_Draft.png ToolBar Icon]
 }}
 
 ## Description
@@ -19,7 +19,7 @@ Simple example animation Draft wires by use the [expressions](Expressions.md) fo
 
 ## Uses
 
-Download the file example [Constraint_Draft00.FCStd](http   *//forum.freecadweb.org/download/file.php?id=36559), open it in FreeCAD
+Download the file example [Constraint_Draft00.FCStd](http://forum.freecadweb.org/download/file.php?id=36559), open it in FreeCAD
 
 ## Script
 
@@ -27,7 +27,7 @@ Select the **Line005_with_Code** object in the Combo View Select Data tab → Me
 
 Select the complete code and paste in the Python Console
 
-(If do not have the Python console   * Menu → View → Panels → select Python console)
+(If do not have the Python console: Menu → View → Panels → select Python console)
 
 How copy the code snippet
 
@@ -47,18 +47,18 @@ import FreeCADGui
 import FreeCAD
 
 #FreeCAD.Console.PrintMessage(str(FreeCAD.Version()) + "\n")
-if int(FreeCAD.Version()[1]) == 16   *    # Version de FreeCAD
-    try   *
-        for i in range(0,360,5)   *
+if int(FreeCAD.Version()[1]) == 16:    # Version de FreeCAD
+    try:
+        for i in range(0,360,5):
             App.getDocument("Constraint_Draft00").Circle.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(i,0,0), App.Vector(0,0,0))
             FreeCADGui.updateGui()
             FreeCAD.ActiveDocument.recompute()
-    except Exception   *
+    except Exception:
         FreeCAD.Console.PrintMessage("You must download the Constraint_Draft00.FCStd file for run this macro" + "\n")
         import webbrowser 
-        webbrowser.open("http   *//forum.freecadweb.org/download/file.php?id=36559")
+        webbrowser.open("http://forum.freecadweb.org/download/file.php?id=36559")
 
-else   *
+else:
     FreeCAD.Console.PrintError("This macro run with the FreeCAD.Version 16 " + "\n")
 
 }}
@@ -69,7 +69,7 @@ else   *
 
 ## Link
 
-The forum discussion [Sketch Feature to create linkage mechanism simulator](https   *//www.forum.freecadweb.org/viewtopic.php?f=22&t=21778&sid=28247565010ecdef0aa4f5c69e58f672)
+The forum discussion [Sketch Feature to create linkage mechanism simulator](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=21778&sid=28247565010ecdef0aa4f5c69e58f672)
 
 
 

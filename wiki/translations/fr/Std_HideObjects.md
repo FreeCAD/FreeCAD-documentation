@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std HideObjects
-   Name/fr   *Std Masquer tous les objets
-   MenuLocation   *Affichage → Visibilité → Masquer tous les objets
-   Workbenches   *Tous
-   SeeAlso   *[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md)
+- GuiCommand:/fr
+   Name:Std HideObjects
+   Name/fr:Std Masquer tous les objets
+   MenuLocation:Affichage → Visibilité → Masquer tous les objets
+   Workbenches:Tous
+   SeeAlso:[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md)
 ---
 
 # Std HideObjects/fr
@@ -26,7 +26,7 @@ La commande **Std Masquer tous les objets** masque tous les objets appartenant a
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

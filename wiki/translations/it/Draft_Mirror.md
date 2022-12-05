@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Mirror
-   Name/it   *Simmetria
-   MenuLocation   *Draft → Simmetria
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso   *[Draft Scala](Draft_Scale/it.md), [Clone](Draft_Clone/it.md)
+- GuiCommand:/it
+   Name:Draft Mirror
+   Name/it:Simmetria
+   MenuLocation:Draft → Simmetria
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso:[Draft Scala](Draft_Scale/it.md), [Clone](Draft_Clone/it.md)
 ---
 
 # Draft Mirror/it
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Mirror.svg  style="width   *16px;"> Simmetria produce una copia speculare di un oggetto selezionato, usando l\'operazione [Specchia di Part](Part_Mirror/it.md). La copia è collegata all\'oggetto originale, esattamente come un [Clone](Draft_Clone/it.md). Ciò significa che se l\'oggetto originale cambia forma e proprietà, anche la forma specchiata cambia.
+Lo strumento <img alt="" src=images/Draft_Mirror.svg  style="width:16px;"> Simmetria produce una copia speculare di un oggetto selezionato, usando l\'operazione [Specchia di Part](Part_Mirror/it.md). La copia è collegata all\'oggetto originale, esattamente come un [Clone](Draft_Clone/it.md). Ciò significa che se l\'oggetto originale cambia forma e proprietà, anche la forma specchiata cambia.
 
 
 </div>
@@ -30,7 +30,7 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 
 </div>
 
-<img alt="" src=images/Draft_Mirror_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 
 ## Utilizzo
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -84,22 +84,22 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Properties
 
-See also   * [Property editor](property_editor.md).
+See also: [Property editor](property_editor.md).
 
-A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
--    **Source|Link**   * specifies the object that is mirrored.
+-    **Source|Link**: specifies the object that is mirrored.
 
 
 {{TitleProperty|Plane}}
@@ -109,11 +109,11 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 ## Proprietà
 
--    **Source**   * specifica l\'oggetto da rispecchiare,
+-    **Source**: specifica l\'oggetto da rispecchiare,
 
--    **Base**   * specifica il punto base del piano speculare.
+-    **Base**: specifica il punto base del piano speculare.
 
--    **Normal**   * specifica la direzione normale del piano speculare.
+-    **Normal**: specifica la direzione normale del piano speculare.
 
 
 </div>
@@ -126,7 +126,7 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -136,7 +136,7 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Simmetria può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Simmetria può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -160,7 +160,7 @@ mirrored_list = mirror(objlist, p1, p2)
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

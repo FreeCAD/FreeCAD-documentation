@@ -1,6 +1,6 @@
 # Part Compound/it
 ---
-- GuiCommand   */it   Name   *Part Compound‏‎   Name/it   *Crea un composto‏‎   MenuLocation   *Parte → Crea un composto   Workbenches   *[Version   *0.14   SeeAlso   *[[Part Union/it|Unione](Part_Workbench/it___Part]].md), [Filtra composto](Part_CompoundFilter/it.md), [Esplodi composto](Part_ExplodeCompound/it.md)---
+- GuiCommand:/it   Name:Part Compound‏‎   Name/it:Crea un composto‏‎   MenuLocation:Parte → Crea un composto   Workbenches:[Version:0.14   SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Part]].md), [Filtra composto](Part_CompoundFilter/it.md), [Esplodi composto](Part_ExplodeCompound/it.md)---
 
 
 </div>

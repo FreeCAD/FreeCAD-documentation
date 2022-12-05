@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать группу
-   Name   *Std_Group
-   MenuLocation   *[Древовидное представление](Tree_view/ru.md) → Правый клик на имени документа → Создать группу
-   Workbenches   *Все
-   Shortcut   *
-   Version   *
-   SeeAlso   *[Создать деталь](Std_Part/ru.md), [Выбрать группу](Draft_SelectGroup/ru.md), [Переместить в группу](Draft_AddToGroup/ru.md)
+- GuiCommand:/ru
+   Name/ru:Создать группу
+   Name:Std_Group
+   MenuLocation:[Древовидное представление](Tree_view/ru.md) → Правый клик на имени документа → Создать группу
+   Workbenches:Все
+   Shortcut:
+   Version:
+   SeeAlso:[Создать деталь](Std_Part/ru.md), [Выбрать группу](Draft_SelectGroup/ru.md), [Переместить в группу](Draft_AddToGroup/ru.md)
 ---
 
 # Std Group/ru
@@ -27,7 +27,7 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 
 ## Применение
 
-1.  Do one of the following   *
+1.  Do one of the following:
     -   Right-click the name of the document in the [Tree view](Tree_view.md) and in the context menu choose **Create group...**.
     -   Press the **<img src="images/Std_Group.svg" width=16px> [Create group](Std_Group.md)** button.
 2.  An empty Group is created.
@@ -37,7 +37,7 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 
 ## Свойства
 
-The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App   *   *DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App   *   *DocumentObject` class) and inherits all its properties.
+The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties.
 
 The Std Group has the same properties as the [App FeaturePython](App_FeaturePython#Properties.md), which is the most basic instance of an [App DocumentObject](App_DocumentObject.md). It also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
@@ -46,9 +46,9 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 
 {{TitleProperty|Основные}}
 
--    **Group|LinkList**   * a list of referenced objects. By default, it is empty {{value|[]}}.
+-    **Group|LinkList**: a list of referenced objects. By default, it is empty {{value|[]}}.
 
--    **_ Group Touched|Bool|Hidden**   * whether the group is touched or not.
+-    **_ Group Touched|Bool|Hidden**: whether the group is touched or not.
 
 ## Программирование
 
@@ -56,7 +56,7 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 <div class="mw-translate-fuzzy">
 
 
-**См. так же   ***
+**См. так же:**
 
 [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md), и [создание объектов через скрипт](scripted_objects/ru.md).
 
@@ -72,35 +72,35 @@ A Std Group ([App DocumentObjectGroup](App_DocumentObjectGroup.md)) is created w
 import FreeCAD as App
 
 doc = App.newDocument()
-group = App.ActiveDocument.addObject("App   *   *DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
 
-obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
 group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-This basic `App   *   *DocumentObjectGroup` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
+This basic `App::DocumentObjectGroup` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
 
-For [Python](Python.md) subclassing you should create a `App   *   *DocumentObjectGroupPython` object.
+For [Python](Python.md) subclassing you should create a `App::DocumentObjectGroupPython` object.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App   *   *DocumentObjectGroupPython", "Name")
+obj = App.ActiveDocument.addObject("App::DocumentObjectGroupPython", "Name")
 obj.Label = "Custom label"
 ```
 
-For example, a [FEM Analysis](FEM_Analysis.md) is an `App   *   *DocumentObjectGroupPython` object with a custom icon and additional properties.
+For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPython` object with a custom icon and additional properties.
 
 ## Ссылки
 
 -   [Use case in Arch Tutorial](Arch_tutorial#Organizing_your_model.md)
 -   [Document structure](Document_structure.md)
--   [Organizing your model](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
+-   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std SaveAll
-   Name/pl   *Std   * Zapisz wszystkie
-   MenuLocation   *Plik → Zapisz wszystkie
-   Workbenches   *wszystkie
-   SeeAlso   *[Zapisz](Std_Save/pl.md)
+- GuiCommand:/pl
+   Name:Std SaveAll
+   Name/pl:Std: Zapisz wszystkie
+   MenuLocation:Plik → Zapisz wszystkie
+   Workbenches:wszystkie
+   SeeAlso:[Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveAll/pl
@@ -16,20 +16,20 @@ Polecenie **Zapisz wszystkie** powoduje zapisanie wszystkich otwartych dokument�
 ## Użycie
 
 1.  Wybierz z menu opcję **Plik → <img src="images/Std_SaveAll.svg" width=16px> Zapisz wszystkie**.
-2.  W przypadku nowych dokumentów   * wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
+2.  W przypadku nowych dokumentów: wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
 
 ## Opcje
 
--   W przypadku zapisywania nowego dokumentu   * naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+-   W przypadku zapisywania nowego dokumentu: naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

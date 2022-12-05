@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/ro
 ---
-- GuiCommand   *   Name   *Robot RestoreHomePos   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Restore home position---
+- GuiCommand:   Name:Robot RestoreHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Restore home position---
 
 
 </div>
@@ -25,7 +25,7 @@ Lets the selected robot move to its home position.
 #### Utilizare
 
 1.  Select robot in the tree-view or in the 3D-view
-2.  Click on <img alt="" src=images/Robot_RestoreHomePos.png  style="width   *32px;"> or choose ** Robot** → **<img src="images/Robot_RestoreHomePos.png" width=32px> Move to home** from the top menu.
+2.  Click on <img alt="" src=images/Robot_RestoreHomePos.png  style="width:32px;"> or choose ** Robot** → **<img src="images/Robot_RestoreHomePos.png" width=32px> Move to home** from the top menu.
 
 
 </div>

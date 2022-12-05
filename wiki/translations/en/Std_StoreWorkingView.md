@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Std StoreWorkingView
-   MenuLocation   *View → Standard views → Store working view
-   Workbenches   *All
-   Shortcut   ***Shift**+**End**
-   Version   *1.0
-   SeeAlso   *[Std RecallWorkingView](Std_RecallWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
+- GuiCommand:
+   Name:Std StoreWorkingView
+   MenuLocation:View → Standard views → Store working view
+   Workbenches:All
+   Shortcut:**Shift**+**End**
+   Version:1.0
+   SeeAlso:[Std RecallWorkingView](Std_RecallWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
 ---
 
 # Std StoreWorkingView/en
@@ -19,18 +19,18 @@ Each 3D view has its own working view. Storing a new working view will overwrite
 ## Usage
 
 1.  Make sure a [3D view](3D_view.md) is active.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Select the **View → Standard views → Store working view** option from the menu.
-    -   Use the keyboard shortcut   * **Shift**+**End**.
+    -   Use the keyboard shortcut: **Shift**+**End**.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To store the current camera settings of the active 3D view in a working view   *
+To store the current camera settings of the active 3D view in a working view:
 
 
 ```python

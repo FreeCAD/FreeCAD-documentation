@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *FEM MeshClear
-   Name/pl   *MES   * Wyczyść dane siatki
-   MenuLocation   *Menu podręczne na obiekcie siatki → Wyczyść dane siatki MES
-   Workbenches   *[MES](FEM_Workbench/pl.md)
-   SeeAlso   *[Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
+- GuiCommand:/pl
+   Name:FEM MeshClear
+   Name/pl:MES: Wyczyść dane siatki
+   MenuLocation:Menu podręczne na obiekcie siatki → Wyczyść dane siatki MES
+   Workbenches:[MES](FEM_Workbench/pl.md)
+   SeeAlso:[Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
 ---
 
 # FEM MeshClear/pl
@@ -15,7 +15,7 @@ Umożliwia użytkownikowi ponowną inicjalizację siatki z obiektu siatki FreeCA
 
 ## Użycie
 
-1.  Kliknij prawym przyciskiem myszy na Obiekt siatki MES <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *16px;"> [Netgen](FEM_MeshNetgenFromShape/pl.md) lub <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *16px;"> [Gmsh](FEM_MeshGmshFromShape/pl.md) w oknie [widoku drzewa](Tree_view/pl.md).
+1.  Kliknij prawym przyciskiem myszy na Obiekt siatki MES <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [Netgen](FEM_MeshNetgenFromShape/pl.md) lub <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [Gmsh](FEM_MeshGmshFromShape/pl.md) w oknie [widoku drzewa](Tree_view/pl.md).
 2.  Wybierz opcję **<img src="images/FEM_MeshClear.svg" width=16px> Wyczyść dane siatki MES** z menu podręcznego .
 
 ## Uwagi

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Упорядочить иконки
-   Name   *Std_ArrangeIcons
-   Empty   *1
-   MenuLocation   *Окна → Упорядочить иконки
-   Workbenches   *Все
-   SeeAlso   *[Плиткой](Std_TileWindows/ru.md)
+- GuiCommand:/ru
+   Name/ru:Упорядочить иконки
+   Name:Std_ArrangeIcons
+   Empty:1
+   MenuLocation:Окна → Упорядочить иконки
+   Workbenches:Все
+   SeeAlso:[Плиткой](Std_TileWindows/ru.md)
 ---
 
 # Std ArrangeIcons/ru

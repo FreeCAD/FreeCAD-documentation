@@ -1,12 +1,12 @@
 # Basic TechDraw Tutorial/ru
 ---
-- TutorialInfo   */ru
-   Topic   *Моделирование
-   Level   *Для начинающих
-   Author   *[WandererFan](User_WandererFan.md)
-   Time   *Меньше часа
-   FCVersion   *0.17 и выше
-   Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https   *//github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
+- TutorialInfo:/ru
+   Topic:Моделирование
+   Level:Для начинающих
+   Author:[WandererFan](User_WandererFan.md)
+   Time:Меньше часа
+   FCVersion:0.17 и выше
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
 }}
 
 ## Введение
@@ -15,7 +15,7 @@
 
 ## Прежде чем начать 
 
-Скачайте [файл содержащий 3D модель](https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) из руководства к верстаку Part Design.
+Скачайте [файл содержащий 3D модель](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) из руководства к верстаку Part Design.
 
 ## Задание
 
@@ -40,9 +40,9 @@
 
 Вся работа в TechDraw начинается со страниц. Страницы основаны на Шаблонах и содержат Виды.
 
-1.  Нажмите на <img alt="" src=images/TechDraw_PageDefault.svg  style="width   *32px;"> [Новая Страница из Шаблона по умолчанию](TechDraw_PageDefault/ru.md) что бы создать новую страницу.
+1.  Нажмите на <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Новая Страница из Шаблона по умолчанию](TechDraw_PageDefault/ru.md) что бы создать новую страницу.
 2.  Нажмите на Тело в [3D view](3D_view.md) или в [Combo view](Combo_view.md).
-3.  Нажмите на <img alt="" src=images/TechDraw_View.svg  style="width   *32px;"> [Создать новый вид](TechDraw_View/ru.md). Это добавит Вид на страницу, которую мы только что создали.
+3.  Нажмите на <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Создать новый вид](TechDraw_View/ru.md). Это добавит Вид на страницу, которую мы только что создали.
 
 
 </div>
@@ -69,8 +69,8 @@
 Лучше, но немного скучновато. Давайте добавим немного размеров.
 
 1.  Выберите верхнюю левую вершину (маленькая точка) нажатием **LMB**, затем выберите (**Ctrl**+**LMB**) нижнюю левую вершину.
-2.  Кликните на <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width   *32px;"> [Новый Вертикальный Размер](TechDraw_VerticalDimension/ru.md). Перетащите текст размера за пределы тела.
-3.  Повторите это с верхней левой и верхней правой вершинами и нажмите <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width   *32px;"> [Новый Горизонтальный Размер](TechDraw_HorizontalDimension/ru.md).
+2.  Кликните на <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Новый Вертикальный Размер](TechDraw_VerticalDimension/ru.md). Перетащите текст размера за пределы тела.
+3.  Повторите это с верхней левой и верхней правой вершинами и нажмите <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Новый Горизонтальный Размер](TechDraw_HorizontalDimension/ru.md).
 
 
 </div>
@@ -79,7 +79,7 @@
 
 ### Заполнение основной надписи 
 
-Основная надпись (или штамп) содержит совокупность сведений о проектном документе. Чтобы её заполнить требуется сделать следующие действия   *
+Основная надпись (или штамп) содержит совокупность сведений о проектном документе. Чтобы её заполнить требуется сделать следующие действия:
 
 1.  Нажмите на маленький зеленый квадрат рядом с какой-либо надписью расположенной в штампе. В открывшемся диалоге, вы можете изменить надпись, или ввести её если она не заполнена.
 2.  В качестве примера, можете просто ввести свое имя в поле Designed by Name таким же образом.
@@ -91,7 +91,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/TechDraw_Annotation.svg  style="width   *32px;"> [Новая Аннотация](TechDraw_Annotation/ru.md). Текстовый блок появится в середине страницы.
+1.  Нажмите на <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Новая Аннотация](TechDraw_Annotation/ru.md). Текстовый блок появится в середине страницы.
 2.  Перетащите текстовый блок за пределы Вида.
 3.  Нажмите на Annotation в Combo панели и выделите свойство Text на вкладке Данные.
 4.  Нажмите на многоточие справа в поле данных Значение. Вы получите всплывающее окно, где можете изменить текст на что-то более значимое.
@@ -106,7 +106,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width   *32px;"> [Выключатель Рамки](TechDraw_ToggleFrame.md). Вершины и Рамки Видов исчезнут. Вы можете вернуть их обратно, нажав на Выключатель снова.
+1.  Нажмите на <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Выключатель Рамки](TechDraw_ToggleFrame.md). Вершины и Рамки Видов исчезнут. Вы можете вернуть их обратно, нажав на Выключатель снова.
 
 
 </div>
@@ -120,12 +120,12 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *32px;"> [Выбрать новый](TechDraw_PageTemplate/ru.md). Откроется диалоговое окно выбора файла. Выберите файл шаблона. Мы собираемся использовать \"ANSIB.SVG\". Появится новая вкладка.
+1.  Нажмите на <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Выбрать новый](TechDraw_PageTemplate/ru.md). Откроется диалоговое окно выбора файла. Выберите файл шаблона. Мы собираемся использовать \"ANSIB.SVG\". Появится новая вкладка.
 2.  Выберите \"Body\" и \"Page001\" (если в вашем документе более одной страницы, вам нужно указать TechDraw, какую из них использовать).
-3.  Нажмите на <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Группа Новых Проекций](TechDraw_ProjectionGroup/ru.md). Появится знакомый небольшой вид в середине страницы, и на панели задач появится диалоговое окно.
+3.  Нажмите на <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Группа Новых Проекций](TechDraw_ProjectionGroup/ru.md). Появится знакомый небольшой вид в середине страницы, и на панели задач появится диалоговое окно.
 4.  Нажмите на несколько полей в разделе Secondary Views (Вторичные проекции) диалогового окна.
 5.  Двигайте Вид с надписью \"Front\". Все остальные Виды будут двигаться вместе с ним.
-6.  Измените раскрывающийся список Scale у Page на Custom и измените Custom Scale (Пользовательский Масштаб) на 2   *1. Нажмите кнопку ОК.
+6.  Измените раскрывающийся список Scale у Page на Custom и измените Custom Scale (Пользовательский Масштаб) на 2:1. Нажмите кнопку ОК.
 
 
 </div>
@@ -136,7 +136,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  У Вида с меткой «TopLeftFront» выберите две Вершины на крайних концах переднего края заготовки.
-2.  Нажмите на <img alt="" src=images/TechDraw_LengthDimension.svg  style="width   *32px;"> [Новая длина](TechDraw_LengthDimension/ru.md). Перетащите текст размера за пределы тела.
+2.  Нажмите на <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Новая длина](TechDraw_LengthDimension/ru.md). Перетащите текст размера за пределы тела.
 
 
 </div>
@@ -150,7 +150,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Из первой части этого урока мы знаем, что заготовка имеет ширину 53 мм, но наш новый размер читаются как 43,27. Это связано с тем, что \"TopLeftFront\" является [изометрической проекцией](https   *//en.wikipedia.org/wiki/Isometric_projection), а наш первый рисунок был [ортогональной проекцией](https   *//en.wikipedia.org/wiki/Orthographic_projection). Чтобы получить правильное значение, нам нужно связать наше измерение непосредственно с 3D-моделью.
+Из первой части этого урока мы знаем, что заготовка имеет ширину 53 мм, но наш новый размер читаются как 43,27. Это связано с тем, что \"TopLeftFront\" является [изометрической проекцией](https://en.wikipedia.org/wiki/Isometric_projection), а наш первый рисунок был [ортогональной проекцией](https://en.wikipedia.org/wiki/Orthographic_projection). Чтобы получить правильное значение, нам нужно связать наше измерение непосредственно с 3D-моделью.
 
 
 </div>
@@ -160,7 +160,7 @@
 
 1.  Обратите внимание на название нашего ошибочного измерения на Combo панели. Нам оно понадобится через минуту.
 2.  Перейдите на вкладку 3D и выберите вершины на концах переднего края заготовки. Также выберите Page001 (Страница, с которой нужно размер).
-3.  Нажмите на <img alt="" src=images/TechDraw_LinkDimension.svg  style="width   *32px;"> [Новые ссылки](TechDraw_LinkDimension/ru.md). На панели задач откроется диалоговое окно.
+3.  Нажмите на <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Новые ссылки](TechDraw_LinkDimension/ru.md). На панели задач откроется диалоговое окно.
 4.  В диалоговом окне переместите наши размеры из доступного столбца в выбранный столбец (Здесь нужно выбрать из доступных размеров тот, который некорректен и который мы хотим исправить, связав его с реальным размером на детали). Нажмите ОК.
 5.  Возвращаемся к Page001. Наш размер должен показывать корректное значение 53. (если вы все еще видите 43.27, нужно нажать кнопку Recompute (Пересчитать - F5) или немного потянуть значение размера, пока оно не изменится.)
 
@@ -173,16 +173,16 @@
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 
-В TechDraw имеется гораздо больше функциональных возможностей, которые вы можете изучить   * сечения Видов, Виды частей детали, технические знаки SVG, возможность добавления растровых изображений, штриховка областей.
+В TechDraw имеется гораздо больше функциональных возможностей, которые вы можете изучить: сечения Видов, Виды частей детали, технические знаки SVG, возможность добавления растровых изображений, штриховка областей.
 
 ## Примечания
 
-1.  Существует отличный набор предлагаемых предпочтений в этом [сообщении Форума](https   *//www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
+1.  Существует отличный набор предлагаемых предпочтений в этом [сообщении Форума](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=30083#p248189).
 2.  Этот рисунок был создан в версии v0.18. Он показывает размеры в правильном формате для изометрической проекции. В версии v0.17 выносные линии будут перпендикулярны краю, а не выровнены с осями.
 
 ## Дополнительные ресурсы 
 
--   FreeCAD файл этого упражнения для сравнения (создан в версии 0.17) [Скачать](https   *//github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
+-   FreeCAD файл этого упражнения для сравнения (создан в версии 0.17) [Скачать](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
 
  {{TechDraw Tools navi}} {{Userdocnavi

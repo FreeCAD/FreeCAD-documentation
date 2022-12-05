@@ -3,7 +3,7 @@
 
 This page attempts to answer the most common questions asked on the FreeCAD forums on import and export of data to/from other programs. If you have a problem or question regarding FreeCAD, check below first.
 
-Then, if you cannot find an answer for your specific question, head to the FreeCAD [forum](http   *//forum.freecadweb.org/)!
+Then, if you cannot find an answer for your specific question, head to the FreeCAD [forum](http://forum.freecadweb.org/)!
 
 
 {{TOCright}}
@@ -18,7 +18,7 @@ Please refer to the Page [FreeCAD and DWG-Import](FreeCAD_and_DWG_Import.md)
 
 Please refer to the Page [FreeCAD and DXF Import](FreeCAD_and_DWG_Import.md)
 
-Tutorial   * [DXF Importer Install](Dxf_Importer_Install.md)
+Tutorial: [DXF Importer Install](Dxf_Importer_Install.md)
 
 ### BREP Format 
 
@@ -30,9 +30,9 @@ Todo
 
 ### Collada
 
-Importing Collada files requires an external Python module to be installed on your system. This can be easily added by following the directions found on the [Extra Python modules](Extra_python_modules.md) page under [pyCollada](http   *//www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada) in this Wiki. Once the pyCollada Python module is installed, importing Collada files is the same as any standard file import.
+Importing Collada files requires an external Python module to be installed on your system. This can be easily added by following the directions found on the [Extra Python modules](Extra_python_modules.md) page under [pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada) in this Wiki. Once the pyCollada Python module is installed, importing Collada files is the same as any standard file import.
 
-See also   * [Importing From Sketchup](Importing_From_Sketchup.md)
+See also: [Importing From Sketchup](Importing_From_Sketchup.md)
 
 ### Common Airfoil Data 
 
@@ -226,7 +226,7 @@ Todo
 
 Todo
 
--   Convert STL to OBJ [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=43543&p=372030#p370843)
+-   Convert STL to OBJ [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=43543&p=372030#p370843)
 
 ### WebGL File 
 
@@ -248,16 +248,6 @@ Please refer to the Page [Importing From Sketchup](Importing_From_Sketchup.md)
 
 -   [Import Export](Import_Export.md)
 -   [Import Export Preferences](Import_Export_Preferences.md)
-
-
-
-
-
-
-
-
-
-[Category   *Common Questions](Category_Common_Questions.md)
 
 
 

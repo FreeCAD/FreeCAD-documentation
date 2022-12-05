@@ -1,9 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *Kinematisteuerung erstellt mit Python
-   Level   *Pythongrundkentnisse sind hilfreich
-   FCVersion   *0.20 und später
-   Time   *1 Stunde
-   Author   *[FBXL5](User_FBXL5.md)
+- TutorialInfo:   Topic:Kinematisteuerung erstellt mit Python
+   Level:Pythongrundkentnisse sind hilfreich
+   FCVersion:0.20 und später
+   Time:1 Stunde
+   Author:[FBXL5](User_FBXL5.md)
 ---
 
 # Tutorial KinematicController/de
@@ -27,13 +27,13 @@ Die folgenden Kode-Beispiele können kopiert, in eine leere Textdatei eingefügt
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2022 Your name LGPL
 
-def main()   *
+def main():
     pass
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()
@@ -51,11 +51,11 @@ Eine Funktion, der das Dokumentobjekt übergeben wird und die eine Liste von Ant
 
 
 ```python
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
@@ -65,12 +65,12 @@ Die Hauptfunktion {{Incode|main()}} lädt das aktive Dokument in die Variable {{
 
 
 ```python
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         print(drivers)
 ```
 
@@ -85,27 +85,27 @@ def main()   *
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
 
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         print(drivers)
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()
@@ -128,7 +128,7 @@ Alle Widgets müssen importiert werden, bevor sie verwendet werden können, aber
 
 #### Hauptfenster
 
-Für das Hauptfenster sieht die Import-Zeile so aus   *
+Für das Hauptfenster sieht die Import-Zeile so aus:
 
 
 ```python
@@ -141,15 +141,15 @@ Es enthält zwei init-Methoden. {{Incode|__init__()}} initialisiert das neue Kla
 
 
 ```python
-class ControlPanel(QDialog)   *
+class ControlPanel(QDialog):
     """
     docstring for ControlPanel.
     """
-    def __init__(self, document, actuator)   *
+    def __init__(self, document, actuator):
         super(ControlPanel, self).__init__()
         self.initUI(document, actuator)
 
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         # the window has 640 x 480 pixels and is centered by default
         # now make the window visible
@@ -169,7 +169,7 @@ Um mehr als eine Antrieb zu verwenden, muss die Liste der Antriebe durchgesehen 
 
 ```python
 panel_list = []
-for each_driver in drivers   *
+for each_driver in drivers:
     panel = ControlPanel(kin_doc, each_driver)
     panel_list.append(panel)
 panel.exec_()
@@ -177,11 +177,11 @@ panel.exec_()
 
 Diese Zeilen ersetzen den Ausgabebefehl {{Incode|print()}} im else-Abschnitt der Hauptfunktion {{Incode|main()}}.
 
-Hinweis   * Das Zusammenstellen einer {{Incode|panel_list}} (Fensterliste) erlaubt es alle Fenster auf einmal zu starten. (Ich kann dieses Verhalten bisher nicht erklären\...)
+Hinweis: Das Zusammenstellen einer {{Incode|panel_list}} (Fensterliste) erlaubt es alle Fenster auf einmal zu starten. (Ich kann dieses Verhalten bisher nicht erklären\...)
 
 Lässt man das Makro laufen, erstellt es ein sauberes, leeres Dialogfenster, das auf Widgets wartet.
 
-<img alt="Ein leeres Dialogfenster" src=images/Tutorial_KinCon-01.png  style="width   *300px;">
+<img alt="Ein leeres Dialogfenster" src=images/Tutorial_KinCon-01.png  style="width:300px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -194,49 +194,49 @@ Lässt man das Makro laufen, erstellt es ein sauberes, leeres Dialogfenster, das
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 
 # imports and constants
 from PySide2.QtWidgets import (QDialog)
 
-class ControlPanel(QDialog)   *
+class ControlPanel(QDialog):
     """
     docstring for ControlPanel.
     """
-    def __init__(self, document, actuator)   *
+    def __init__(self, document, actuator):
         super(ControlPanel, self).__init__()
         self.initUI(document, actuator)
 
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         # the window has 640 x 480 pixels and is centered by default
         # now make the window visible
         self.show()
 
 
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
 
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         panel_list = []
-        for each_driver in drivers   *
+        for each_driver in drivers:
             panel = ControlPanel(kin_doc, each_driver)
             panel_list.append(panel)
         panel.exec_()
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()
@@ -253,12 +253,12 @@ if __name__ == "__main__"   *
 
 #### Parameter setzen 
 
-Nun ist es Zeit die Methode {{Incode|initUI()}} zu befüllen   *
+Nun ist es Zeit die Methode {{Incode|initUI()}} zu befüllen:
 
 
 ```python
 ...
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
@@ -280,7 +280,7 @@ Für spätere Verwendung muss die Art des Antriebs ermittelt werden, Winkel, Abs
 
 ```python
 ...
-    def getDriverType(self, constraint)   *
+    def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
             "Angle",
             "PlaneCoincident",
@@ -291,11 +291,11 @@ Für spätere Verwendung muss die Art des Antriebs ermittelt werden, Winkel, Abs
             "PointDistance",
             "PointsDistance"
             ]
-        if constraint.ConstraintType in ANGLE_CONSTRAINTS   *
+        if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
-        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS   *
+        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
-        else   *
+        else:
             return "Length"
 ...
 ```
@@ -319,7 +319,7 @@ Im Titel findet sich der Name des Antriebs und ob es sich um einen Winkel, einen
         self.setMaximumHeight(200)
         self.setMinimumWidth(400)
         self.setMinimumHeight(200)
-        self.setWindowTitle(self.actuator.Label + "   * " + self.driver_type)
+        self.setWindowTitle(self.actuator.Label + ": " + self.driver_type)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         # now make the window visible
 ...
@@ -345,18 +345,18 @@ Um die Parameter zu vervollständigen, wird ein Wert für die Anzahl von Schritt
 ...
         self.steps_value = 10
         self.sequence = False
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.current_value = self.actuator.Angle
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
-        elif self.driver_type == "Distance"   *
-            self.current_value = float(str(self.actuator.Distance)[   *-3])
+        elif self.driver_type == "Distance":
+            self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
-        else   *
-            self.current_value = float(str(self.actuator.Offset)[   *-3])
+        else:
+            self.current_value = float(str(self.actuator.Offset)[:-3])
             self.start_value = (self.current_value - 10)
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
@@ -370,14 +370,14 @@ Um die Parameter zu vervollständigen, wird ein Wert für die Anzahl von Schritt
 
 Nun werden drei Label(-Widgets) hizugefügt, um Start-, End-, sowie den aktuellen Wert anzuzeigen
 
-Zuerst muss die Klasse {{Incode|QLabel}} importiert werden, d. h. die Import-Liste muss, wie hier gezeigt wird, ergänzt werden   *
+Zuerst muss die Klasse {{Incode|QLabel}} importiert werden, d. h. die Import-Liste muss, wie hier gezeigt wird, ergänzt werden:
 
 
 ```python
 from PySide2.QtWidgets import (QDialog, QLabel)
 ```
 
-Zurück in der Methode {{Incode|initUI()}} fügt man folgendes ein   *
+Zurück in der Methode {{Incode|initUI()}} fügt man folgendes ein:
 
 
 ```python
@@ -395,7 +395,7 @@ Zurück in der Methode {{Incode|initUI()}} fügt man folgendes ein   *
 
         self.label_current = QLabel("", self)
         self.label_current.setFont("osifont")
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         self.label_current.setGeometry(QtCore.QRect(130, 15, 150, 25))
 ...
 ```
@@ -409,9 +409,9 @@ Die ersten und dritten Zeilen könnten zusammengefasst werden, wird aber aus Gr�
 self.label_end = QLabel((str(round(self.end_value, 1)) + self.unit_suffix), self)
 ```
 
-Startet man das Makro aus einem Kinematikdokument heraus, erhält man ein Dialogfenster wie dieses   *
+Startet man das Makro aus einem Kinematikdokument heraus, erhält man ein Dialogfenster wie dieses:
 
-<img alt="Ein Dialogfenster, das den Startwert, den aktuellen Wert und den Endwert anzeigt" src=images/Tutorial_KinCon-02.png  style="width   *300px;"> 
+<img alt="Ein Dialogfenster, das den Startwert, den aktuellen Wert und den Endwert anzeigt" src=images/Tutorial_KinCon-02.png  style="width:300px;"> 
 *Das Dialogfenster zeigt in der Titelleiste das Label der Randbedingung und die Art des Antriebs an, sowie den Startwert, den aktuellen Wert und den Endwert in der ersten Zeile des Hauptbereiches*
 
 
@@ -425,38 +425,38 @@ Startet man das Makro aus einem Kinematikdokument heraus, erhält man ein Dialog
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 
 # imports and constants
 from PySide2.QtWidgets import (QDialog, QLabel)
 
-class ControlPanel(QDialog)   *
+class ControlPanel(QDialog):
     """
     docstring for ControlPanel.
     """
-    def __init__(self, document, actuator)   *
+    def __init__(self, document, actuator):
         super(ControlPanel, self).__init__()
         self.initUI(document, actuator)
 
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
         self.steps_value = 10
         self.sequence = False
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.current_value = self.actuator.Angle
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
-        elif self.driver_type == "Distance"   *
-            self.current_value = float(str(self.actuator.Distance)[   *-3])
+        elif self.driver_type == "Distance":
+            self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
-        else   *
-            self.current_value = float(str(self.actuator.Offset)[   *-3])
+        else:
+            self.current_value = float(str(self.actuator.Offset)[:-3])
             self.start_value = (self.current_value - 10)
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
@@ -467,7 +467,7 @@ class ControlPanel(QDialog)   *
         self.setMaximumHeight(200)
         self.setMinimumWidth(400)
         self.setMinimumHeight(200)
-        self.setWindowTitle(self.actuator.Label + "   * " + self.driver_type)
+        self.setWindowTitle(self.actuator.Label + ": " + self.driver_type)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
         # create some labels
@@ -483,13 +483,13 @@ class ControlPanel(QDialog)   *
 
         self.label_current = QLabel("", self)
         self.label_current.setFont("osifont")
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         self.label_current.setGeometry(QtCore.QRect(130, 15, 150, 25))
 
         # now make the window visible
         self.show()
 
-    def getDriverType(self, constraint)   *
+    def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
             "Angle",
             "PlaneCoincident",
@@ -500,38 +500,38 @@ class ControlPanel(QDialog)   *
             "PointDistance",
             "PointsDistance"
             ]
-        if constraint.ConstraintType in ANGLE_CONSTRAINTS   *
+        if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
-        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS   *
+        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
-        else   *
+        else:
             return "Length"
 
 # End of ControlPanel()
-# Main section below   *
+# Main section below:
 
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
 
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         panel_list = []
-        for each_driver in drivers   *
+        for each_driver in drivers:
             panel = ControlPanel(kin_doc, each_driver)
             panel_list.append(panel)
         panel.exec_()
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()
@@ -550,14 +550,14 @@ if __name__ == "__main__"   *
 
 Um den aktuellen Wert auf jede mögliche Zahl zwischen Start- und Endwert einzustellen, würde ein Schieberegler passen.
 
-Zuerst muss die Klasse {{Incode|QSlider}} importiert werden, d. h. die Import-Liste muss, wie hier gezeigt wird, ergänzt werden   *
+Zuerst muss die Klasse {{Incode|QSlider}} importiert werden, d. h. die Import-Liste muss, wie hier gezeigt wird, ergänzt werden:
 
 
 ```python
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider)
 ```
 
-Zurück in der Methode {{Incode|initUI()}} fügt man folgendes direkt nach dem Labels-Abschnitt ein   *
+Zurück in der Methode {{Incode|initUI()}} fügt man folgendes direkt nach dem Labels-Abschnitt ein:
 
 
 ```python
@@ -567,8 +567,8 @@ Zurück in der Methode {{Incode|initUI()}} fügt man folgendes direkt nach dem L
         self.actuator_slider.setOrientation(QtCore.Qt.Horizontal)        # orientation horizontal
         self.actuator_slider.setGeometry(QtCore.QRect(30, 50, 330, 25))  # position coordinates
         self.actuator_slider.setObjectName("horizontalSlider")           # object name
-        self.actuator_slider.setInvertedAppearance(False)                # default   * right to left
-        self.actuator_slider.setRange(0, 100)                            # default   * (0, 99)
+        self.actuator_slider.setInvertedAppearance(False)                # default: right to left
+        self.actuator_slider.setRange(0, 100)                            # default: (0, 99)
         self.actuator_slider.setValue(self.current_value / self.stepRatio())
         self.actuator_slider.valueChanged.connect(self.onActuatorSlider)
 ...
@@ -581,7 +581,7 @@ Ein Verhältnis zu verwenden anstatt die Kleinst- und Größtwerte des Schiebere
 
 ```python
 ...
-    def stepRatio(self)   *
+    def stepRatio(self):
         ratio = (self.end_value - self.start_value) / 100
         return ratio
 ...
@@ -596,22 +596,22 @@ Wird der Befehl {{Incode|"asm3CmdQuickSolve"}} gestartet, beginnt der Gleichnung
 
 ```python
 ...
-    def onActuatorSlider(self, slider_value)   *
+    def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.actuator.Angle = self.current_value
-        elif self.driver_type == "Distance"   *
+        elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
-        else   *
+        else:
             self.actuator.Offset = self.current_value
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         Gui.runCommand("asm3CmdQuickSolve", 0)
 ...
 ```
 
 Das Dialogfenster mit dem Schieberegler sollte so aussehen und ist jetzt bereit eine Bewegung zu steuern.
 
-<img alt="Zwei Dialogfenster mit Schieberegler" src=images/Tutorial_KinCon-03.png  style="width   *300px;"> 
+<img alt="Zwei Dialogfenster mit Schieberegler" src=images/Tutorial_KinCon-03.png  style="width:300px;"> 
 *Dialogfenster mit dem hinzugefügten Schieberegler, eins für einen Winkelantrieb (Drehantrieb) und eins für einen (Abstands-/) Linearantrieb*
 
 Es kann ein Dialogfenster für jedes geöffnete Dokument gestartet werden; sie beeinflussen sich nicht gegenseitig. {{Top}}
@@ -620,14 +620,14 @@ Es kann ein Dialogfenster für jedes geöffnete Dokument gestartet werden; sie b
 
 Um Start- und Endwerte zu ändern kann man ein Line-Edit-Widget verwenden.
 
-Zuerst muss die Klasse {{Incode|QLineEdit}} importiert werden, d. h. die Import-Liste muss, wie hier gezeigt wird, ergänzt werden   *
+Zuerst muss die Klasse {{Incode|QLineEdit}} importiert werden, d. h. die Import-Liste muss, wie hier gezeigt wird, ergänzt werden:
 
 
 ```python
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit)
 ```
 
-Zurück in der Methode {{Incode|initUI()}} fügt man folgendes zwischen Labels- und Slider-Abschnitt ein   *
+Zurück in der Methode {{Incode|initUI()}} fügt man folgendes zwischen Labels- und Slider-Abschnitt ein:
 
 
 ```python
@@ -651,14 +651,14 @@ Die Eingabefelder zeigen die voreingestellten Start- und Endwerte an. Sie sind a
 
 ```python
 ...
-    def onEntryStart(self, new_start)   *
+    def onEntryStart(self, new_start):
         self.start_value = float(new_start)
         self.label_start.setText(str(round(self.start_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onEntryEnd(self, new_end)   *
+    def onEntryEnd(self, new_end):
         self.end_value = float(new_end)
         self.label_end.setText(str(round(self.end_value, 1)) + self.unit_suffix)
         # Update the slider
@@ -669,9 +669,9 @@ Die Eingabefelder zeigen die voreingestellten Start- und Endwerte an. Sie sind a
 
 Beide wandeln die erhaltene Zeichenkette in eine Fließkommazahl und ändern den Startwert {{Incode|self.start_value}} bzw. Endwert {{Incode|self.end_value}} und das dazugehörige Label. Danach wird der Schieber aktualisiert.
 
-Das Dialogfenster mit den Texteingabefeldern sollte so aussehen und ist jetzt bereit den Bereich einer Bewegung zu ändern   *
+Das Dialogfenster mit den Texteingabefeldern sollte so aussehen und ist jetzt bereit den Bereich einer Bewegung zu ändern:
 
-<img alt="Zwei Dialogfenster mit Texteingabefeldern" src=images/Tutorial_KinCon-04.png  style="width   *300px;"> 
+<img alt="Zwei Dialogfenster mit Texteingabefeldern" src=images/Tutorial_KinCon-04.png  style="width:300px;"> 
 *Dialogfenster mit Texteingabefeldern, nochmals für Drehantrieb und Linearantrieb*
 
 
@@ -685,38 +685,38 @@ Das Dialogfenster mit den Texteingabefeldern sollte so aussehen und ist jetzt be
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 
 # imports and constants
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit)
 
-class ControlPanel(QDialog)   *
+class ControlPanel(QDialog):
     """
     docstring for ControlPanel.
     """
-    def __init__(self, document, actuator)   *
+    def __init__(self, document, actuator):
         super(ControlPanel, self).__init__()
         self.initUI(document, actuator)
 
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
         self.steps_value = 10
         self.sequence = False
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.current_value = self.actuator.Angle
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
-        elif self.driver_type == "Distance"   *
-            self.current_value = float(str(self.actuator.Distance)[   *-3])
+        elif self.driver_type == "Distance":
+            self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
-        else   *
-            self.current_value = float(str(self.actuator.Offset)[   *-3])
+        else:
+            self.current_value = float(str(self.actuator.Offset)[:-3])
             self.start_value = (self.current_value - 10)
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
@@ -727,7 +727,7 @@ class ControlPanel(QDialog)   *
         self.setMaximumHeight(200)
         self.setMinimumWidth(400)
         self.setMinimumHeight(200)
-        self.setWindowTitle(self.actuator.Label + "   * " + self.driver_type)
+        self.setWindowTitle(self.actuator.Label + ": " + self.driver_type)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
         # create some labels
@@ -743,7 +743,7 @@ class ControlPanel(QDialog)   *
 
         self.label_current = QLabel("", self)
         self.label_current.setFont("osifont")
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         self.label_current.setGeometry(QtCore.QRect(130, 15, 150, 25))
 
         # create some input elements
@@ -765,15 +765,15 @@ class ControlPanel(QDialog)   *
         self.actuator_slider.setOrientation(QtCore.Qt.Horizontal)        # orientation horizontal
         self.actuator_slider.setGeometry(QtCore.QRect(30, 50, 330, 25))  # position coordinates
         self.actuator_slider.setObjectName("horizontalSlider")           # object name
-        self.actuator_slider.setInvertedAppearance(False)                # default   * right to left
-        self.actuator_slider.setRange(0, 100)                            # default   * (0, 99)
+        self.actuator_slider.setInvertedAppearance(False)                # default: right to left
+        self.actuator_slider.setRange(0, 100)                            # default: (0, 99)
         self.actuator_slider.setValue(self.current_value / self.stepRatio())
         self.actuator_slider.valueChanged.connect(self.onActuatorSlider)
 
         # now make the window visible
         self.show()
 
-    def getDriverType(self, constraint)   *
+    def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
             "Angle",
             "PlaneCoincident",
@@ -784,68 +784,68 @@ class ControlPanel(QDialog)   *
             "PointDistance",
             "PointsDistance"
             ]
-        if constraint.ConstraintType in ANGLE_CONSTRAINTS   *
+        if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
-        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS   *
+        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
-        else   *
+        else:
             return "Length"
 
-    def stepRatio(self)   *
+    def stepRatio(self):
         ratio = (self.end_value - self.start_value) / 100
         return ratio
 
-    def onEntryStart(self, new_start)   *
+    def onEntryStart(self, new_start):
         self.start_value = float(new_start)
         self.label_start.setText(str(round(self.start_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onEntryEnd(self, new_end)   *
+    def onEntryEnd(self, new_end):
         self.end_value = float(new_end)
         self.label_end.setText(str(round(self.end_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onActuatorSlider(self, slider_value)   *
+    def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.actuator.Angle = self.current_value
-        elif self.driver_type == "Distance"   *
+        elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
-        else   *
+        else:
             self.actuator.Offset = self.current_value
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         Gui.runCommand("asm3CmdQuickSolve", 0)
         print(slider_value, self.current_value)
 
 # End of ControlPanel()
-# Main section below   *
+# Main section below:
 
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
 
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         panel_list = []
-        for each_driver in drivers   *
+        for each_driver in drivers:
             panel = ControlPanel(kin_doc, each_driver)
             panel_list.append(panel)
         panel.exec_()
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()
@@ -862,7 +862,7 @@ if __name__ == "__main__"   *
 
 ### Bewegung
 
-um einen Zusammenbau in Bewegung zu setzen benötigt man   *
+um einen Zusammenbau in Bewegung zu setzen benötigt man:
 
 -   Schaltflächen, die eine Bewegung in die gewünschte Richtung auslösen.
 -   Ein Eingabefeld, um die Anzahl der schritte zu verändern, für schnellere oder fließendere Bewegungen.
@@ -874,7 +874,7 @@ Damit sich die Bauteile automatisch bewegen, werden zwei Schaltflächen benötig
 
 Kleinere Baugruppen werde etwas zu schnell berechnet und zeigen eher Sprünge anstatt einer fließenden Bewegung. Um sie zu verlangsamen wird die Methode {{Incode|sleep()}} des Moduls {{Incode|time}} verwendet, das zuerst importiert werden muss.
 
-Ein weiterer Import und ein weiteres Widget   *
+Ein weiterer Import und ein weiteres Widget:
 
 
 ```python
@@ -882,7 +882,7 @@ import time
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit, QPushButton)
 ```
 
-Zurück in der Methode {{Incode|initUI()}} fügt man folgendes nach dem Slider-Abschnitt ein   *
+Zurück in der Methode {{Incode|initUI()}} fügt man folgendes nach dem Slider-Abschnitt ein:
 
 
 ```python
@@ -910,11 +910,11 @@ Die Methoden, die gedrückte Schaltflächen bearbeiten sind {{Incode|self.onForw
 
 ```python
 ...
-    def onForward(self)   *
+    def onForward(self):
         steps_left = self.steps_value
         print(self.steps_value)
         step = ((self.end_value - self.current_value) / steps_left)
-        while steps_left > 0   *
+        while steps_left > 0:
             self.current_value += step
             slider_value = ((self.current_value - self.start_value) / self.stepRatio())
             self.actuator_slider.setValue(slider_value)
@@ -922,10 +922,10 @@ Die Methoden, die gedrückte Schaltflächen bearbeiten sind {{Incode|self.onForw
             steps_left -= 1
         self.actuator_slider.setValue(100)
 
-    def onBackward(self)   *
+    def onBackward(self):
         steps_left = self.steps_value
         step = ((self.current_value - self.start_value) / steps_left)
-        while steps_left > 0   *
+        while steps_left > 0:
             self.current_value -= step
             slider_value = ((self.current_value - self.start_value) / self.stepRatio())
             self.actuator_slider.setValue(slider_value)
@@ -933,7 +933,7 @@ Die Methoden, die gedrückte Schaltflächen bearbeiten sind {{Incode|self.onForw
             steps_left -= 1
         self.actuator_slider.setValue(0)
 
-    def onClose(self)   *
+    def onClose(self):
         self.result = "Closed"
         self.close()
 ...
@@ -947,9 +947,9 @@ Jede Runde in der While-Schleife erhöht/verringert den aktuellen Wert und aktua
 
 Wenn keine Schritte mehr übrig sind, wird der Schieber auf die erste bzw. letzte Position gesetzt, nur für den Fall, dass Rundungsfehler aufgetreten sind.
 
-Das Dialogfenster mit den Schalflächen sollte so aussehen und kann jetzt einen Zusammenbau mit 10 Schritten auf die gewünschte Position bewegen   *
+Das Dialogfenster mit den Schalflächen sollte so aussehen und kann jetzt einen Zusammenbau mit 10 Schritten auf die gewünschte Position bewegen:
 
-<img alt="Dialogfenster mit Schaltflächen" src=images/Tutorial_KinCon-05.png  style="width   *300px;"> 
+<img alt="Dialogfenster mit Schaltflächen" src=images/Tutorial_KinCon-05.png  style="width:300px;"> 
 *Dialogfenster mit Schaltflächen*
 
 
@@ -963,39 +963,39 @@ Das Dialogfenster mit den Schalflächen sollte so aussehen und kann jetzt einen 
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 
 # imports and constants
 import time
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit, QPushButton)
 
-class ControlPanel(QDialog)   *
+class ControlPanel(QDialog):
     """
     docstring for ControlPanel.
     """
-    def __init__(self, document, actuator)   *
+    def __init__(self, document, actuator):
         super(ControlPanel, self).__init__()
         self.initUI(document, actuator)
 
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
         self.steps_value = 10
         self.sequence = False
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.current_value = self.actuator.Angle
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
-        elif self.driver_type == "Distance"   *
-            self.current_value = float(str(self.actuator.Distance)[   *-3])
+        elif self.driver_type == "Distance":
+            self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
-        else   *
-            self.current_value = float(str(self.actuator.Offset)[   *-3])
+        else:
+            self.current_value = float(str(self.actuator.Offset)[:-3])
             self.start_value = (self.current_value - 10)
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
@@ -1006,7 +1006,7 @@ class ControlPanel(QDialog)   *
         self.setMaximumHeight(200)
         self.setMinimumWidth(400)
         self.setMinimumHeight(200)
-        self.setWindowTitle(self.actuator.Label + "   * " + self.driver_type)
+        self.setWindowTitle(self.actuator.Label + ": " + self.driver_type)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
         # create some labels
@@ -1022,7 +1022,7 @@ class ControlPanel(QDialog)   *
 
         self.label_current = QLabel("", self)
         self.label_current.setFont("osifont")
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         self.label_current.setGeometry(QtCore.QRect(130, 15, 150, 25))
 
         # create some input elements
@@ -1044,8 +1044,8 @@ class ControlPanel(QDialog)   *
         self.actuator_slider.setOrientation(QtCore.Qt.Horizontal)        # orientation horizontal
         self.actuator_slider.setGeometry(QtCore.QRect(30, 50, 330, 25))  # position coordinates
         self.actuator_slider.setObjectName("horizontalSlider")           # object name
-        self.actuator_slider.setInvertedAppearance(False)                # default   * right to left
-        self.actuator_slider.setRange(0, 100)                            # default   * (0, 99)
+        self.actuator_slider.setInvertedAppearance(False)                # default: right to left
+        self.actuator_slider.setRange(0, 100)                            # default: (0, 99)
         self.actuator_slider.setValue(self.current_value / self.stepRatio())
         self.actuator_slider.valueChanged.connect(self.onActuatorSlider)
 
@@ -1068,7 +1068,7 @@ class ControlPanel(QDialog)   *
         # now make the window visible
         self.show()
 
-    def getDriverType(self, constraint)   *
+    def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
             "Angle",
             "PlaneCoincident",
@@ -1079,48 +1079,48 @@ class ControlPanel(QDialog)   *
             "PointDistance",
             "PointsDistance"
             ]
-        if constraint.ConstraintType in ANGLE_CONSTRAINTS   *
+        if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
-        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS   *
+        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
-        else   *
+        else:
             return "Length"
 
-    def stepRatio(self)   *
+    def stepRatio(self):
         ratio = (self.end_value - self.start_value) / 100
         return ratio
 
-    def onEntryStart(self, new_start)   *
+    def onEntryStart(self, new_start):
         self.start_value = float(new_start)
         self.label_start.setText(str(round(self.start_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onEntryEnd(self, new_end)   *
+    def onEntryEnd(self, new_end):
         self.end_value = float(new_end)
         self.label_end.setText(str(round(self.end_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onActuatorSlider(self, slider_value)   *
+    def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.actuator.Angle = self.current_value
-        elif self.driver_type == "Distance"   *
+        elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
-        else   *
+        else:
             self.actuator.Offset = self.current_value
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         FreeCADGui.updateGui() # screen update between steps
         Gui.runCommand("asm3CmdQuickSolve", 0)
 
-    def onForward(self)   *
+    def onForward(self):
         steps_left = self.steps_value
         print(self.steps_value)
         step = ((self.end_value - self.current_value) / steps_left)
-        while steps_left > 0   *
+        while steps_left > 0:
             self.current_value += step
             slider_value = ((self.current_value - self.start_value) / self.stepRatio())
             self.actuator_slider.setValue(slider_value)
@@ -1128,10 +1128,10 @@ class ControlPanel(QDialog)   *
             steps_left -= 1
         self.actuator_slider.setValue(100)
 
-    def onBackward(self)   *
+    def onBackward(self):
         steps_left = self.steps_value
         step = ((self.current_value - self.start_value) / steps_left)
-        while steps_left > 0   *
+        while steps_left > 0:
             self.current_value -= step
             slider_value = ((self.current_value - self.start_value) / self.stepRatio())
             self.actuator_slider.setValue(slider_value)
@@ -1139,35 +1139,35 @@ class ControlPanel(QDialog)   *
             steps_left -= 1
         self.actuator_slider.setValue(0)
 
-    def onClose(self)   *
+    def onClose(self):
         self.result = "Closed"
         self.close()
 
 # End of ControlPanel()
-# Main section below   *
+# Main section below:
 
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
 
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         panel_list = []
-        for each_driver in drivers   *
+        for each_driver in drivers:
             panel = ControlPanel(kin_doc, each_driver)
             panel_list.append(panel)
         panel.exec_()
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()
@@ -1188,7 +1188,7 @@ Die Voreinstellung ist so gewählt, dass man einen schnellen Eindruck erhält, o
 
 Wenn die Bauteile eher springen als sich fließend zu bewegen, oder wenn winkelbasierte Antriebe Problemen bereiten, wenn der Unterschied zwischen zwei Winkeln zu groß ist, dann kann beides durch das Erhöhen der Anzahl der Schritte behoben werden.
 
-Und ein weiteres Line-Edit-Widget wird verwendet, um die Anzahl der Schritte zu ändern (eingesetzt hinter den schon vorhandenen Line-Edit-Widgets)   *
+Und ein weiteres Line-Edit-Widget wird verwendet, um die Anzahl der Schritte zu ändern (eingesetzt hinter den schon vorhandenen Line-Edit-Widgets):
 
 
 ```python
@@ -1206,14 +1206,14 @@ Die zugehörige Methode {{Incode|self.onEntrySteps()}} füllt nur den Parameter 
 
 ```python
 ...
-    def onEntrySteps(self, new_steps)   *
+    def onEntrySteps(self, new_steps):
         self.steps_value = int(new_steps)
 ...
 ```
 
-Das Dialogfenster, das in der Lage ist, die Anzahl der Schritte zu ändern sollte so aussehen   *
+Das Dialogfenster, das in der Lage ist, die Anzahl der Schritte zu ändern sollte so aussehen:
 
-<img alt="Dialogfenster mit einem weiteren Texteingabefeld" src=images/Tutorial_KinCon-06.png  style="width   *300px;"> 
+<img alt="Dialogfenster mit einem weiteren Texteingabefeld" src=images/Tutorial_KinCon-06.png  style="width:300px;"> 
 *Dialogfenster mit einem weiteren Texteingabefeld* {{Top}}
 
 #### Bildfolge
@@ -1222,7 +1222,7 @@ Sobald die Bewegung der Bauteile den Erwartungen entspricht, kann bei jedem Schr
 
 Um diese Funktionalität einzubauen, wird das Widget {{Incode|QCheckBox}} und ein Verzeichnis zum Speichern der Bilder gebraucht.
 
-Ein weiterer Import und ein weiteres Widget   *
+Ein weiterer Import und ein weiteres Widget:
 
 
 ```python
@@ -1230,7 +1230,7 @@ import time
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit, QPushButton, QCheckBox)
 ```
 
-Zurück in der Methode {{Incode|initUI()}} fügt man folgendes nach dem Slider-Abschnitt ein   *
+Zurück in der Methode {{Incode|initUI()}} fügt man folgendes nach dem Slider-Abschnitt ein:
 
 
 ```python
@@ -1250,36 +1250,36 @@ Die Methode {{Incode|onOutputClicked()}} synchronisiert den Parameter {{Incode|s
 
 ```python
 ...
-    def onOutputClicked(self)   *
-        if self.sequence == True   *
+    def onOutputClicked(self):
+        if self.sequence == True:
             self.sequence = False
             self.output_check.setChecked(False)
-        else   *
+        else:
             self.sequence = True
             self.output_check.setChecked(True)
 ...
 ```
 
-Um die Ausgabeparameter festzulegen wird die Methode {{Incode|output()}} verwendet   *
+Um die Ausgabeparameter festzulegen wird die Methode {{Incode|output()}} verwendet:
 
 
 ```python
 ...
-    def output(self, counter)   *
-        if (self.sequence == True)   *
+    def output(self, counter):
+        if (self.sequence == True):
             image_path = ".../FreeCAD/ScreenShots/Sequence"
             file_tag = ".png"
             height = 640
             width = 480
             background = "Transparent"
             # dealing with leading zeros
-            if (counter > 999) or (counter < 0)   *
+            if (counter > 999) or (counter < 0):
                 print("Out of Range")
-            elif (counter < 10)   *
+            elif (counter < 10):
                 number = "00" + str(counter)
-            elif (counter < 100)   *
+            elif (counter < 100):
                 number = "0" + str(counter)
-            else   *
+            else:
                 number = str(counter)
             # Screen shot
             Gui.activeDocument().activeView().saveImage(image_path + number + file_tag, height, width, background)
@@ -1292,9 +1292,9 @@ Dann folgt der Dateianhang, um den Bildnamen abzuschließen, Bildhöhe und -Brei
 
 Damit immer eine dreistellige Zahl verwendet wird, müssen führende Nullen vor der Zählvariable eingefügt werden.
 
-Am Ende wird die Skriptvariante des Befehls <img alt="" src=images/Std_ViewScreenShot.svg  style="width   *24px;"> [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md) verwendet, um mit Hilfe der genannten Parameter ein Bild aufzunehmen.
+Am Ende wird die Skriptvariante des Befehls <img alt="" src=images/Std_ViewScreenShot.svg  style="width:24px;"> [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md) verwendet, um mit Hilfe der genannten Parameter ein Bild aufzunehmen.
 
-Es werden noch keine Bilder aufgenommen!?! Kein Problem, da diese Methode noch nicht aufgerufen wird, und daher muss noch ein Aufruf in die While-Schleife von {{Incode|onForward()}} und {{Incode|onBackward()}} eingefügt werden. Direkt nach {{Incode|time.sleep(0.2)}} wird diese Zeile eingefügt   *
+Es werden noch keine Bilder aufgenommen!?! Kein Problem, da diese Methode noch nicht aufgerufen wird, und daher muss noch ein Aufruf in die While-Schleife von {{Incode|onForward()}} und {{Incode|onBackward()}} eingefügt werden. Direkt nach {{Incode|time.sleep(0.2)}} wird diese Zeile eingefügt:
 
 
 ```python
@@ -1305,9 +1305,9 @@ Es werden noch keine Bilder aufgenommen!?! Kein Problem, da diese Methode noch n
 
 Jetzt sollte das Makro bereit sein, einen (kinematischen) Zusammenbau zu steuern und Bilder für ein animiertes GIF-Billd aufzunehmen.
 
-Die endgültige Version des Dialogfensters   *
+Die endgültige Version des Dialogfensters:
 
-<img alt="Fertiges Dialogfenster" src=images/Tutorial_KinCon-07.png  style="width   *300px;"> 
+<img alt="Fertiges Dialogfenster" src=images/Tutorial_KinCon-07.png  style="width:300px;"> 
 *Fertiges Dialogfenster*
 
 
@@ -1323,39 +1323,39 @@ Die endgültige Version des Dialogfensters   *
 
 ```python
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 
 # imports and constants
 import time
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit, QPushButton, QCheckBox)
 
-class ControlPanel(QDialog)   *
+class ControlPanel(QDialog):
     """
     docstring for ControlPanel.
     """
-    def __init__(self, document, actuator)   *
+    def __init__(self, document, actuator):
         super(ControlPanel, self).__init__()
         self.initUI(document, actuator)
 
-    def initUI(self, document, actuator)   *
+    def initUI(self, document, actuator):
         # Setting up class parameters
         self.actuator = document.getObject(actuator)
         self.driver_type = self.getDriverType(self.actuator)
         self.steps_value = 10
         self.sequence = False
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.current_value = self.actuator.Angle
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
-        elif self.driver_type == "Distance"   *
-            self.current_value = float(str(self.actuator.Distance)[   *-3])
+        elif self.driver_type == "Distance":
+            self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
-        else   *
-            self.current_value = float(str(self.actuator.Offset)[   *-3])
+        else:
+            self.current_value = float(str(self.actuator.Offset)[:-3])
             self.start_value = (self.current_value - 10)
             self.end_value = (self.current_value + 10)
             self.unit_suffix = (" mm")
@@ -1366,7 +1366,7 @@ class ControlPanel(QDialog)   *
         self.setMaximumHeight(200)
         self.setMinimumWidth(400)
         self.setMinimumHeight(200)
-        self.setWindowTitle(self.actuator.Label + "   * " + self.driver_type)
+        self.setWindowTitle(self.actuator.Label + ": " + self.driver_type)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
         # create some labels
@@ -1382,7 +1382,7 @@ class ControlPanel(QDialog)   *
 
         self.label_current = QLabel("", self)
         self.label_current.setFont("osifont")
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         self.label_current.setGeometry(QtCore.QRect(130, 15, 150, 25))
 
         # create some input elements
@@ -1410,8 +1410,8 @@ class ControlPanel(QDialog)   *
         self.actuator_slider.setOrientation(QtCore.Qt.Horizontal)        # orientation horizontal
         self.actuator_slider.setGeometry(QtCore.QRect(30, 50, 330, 25))  # position coordinates
         self.actuator_slider.setObjectName("horizontalSlider")           # object name
-        self.actuator_slider.setInvertedAppearance(False)                # default   * right to left
-        self.actuator_slider.setRange(0, 100)                            # default   * (0, 99)
+        self.actuator_slider.setInvertedAppearance(False)                # default: right to left
+        self.actuator_slider.setRange(0, 100)                            # default: (0, 99)
         self.actuator_slider.setValue(self.current_value / self.stepRatio())
         self.actuator_slider.valueChanged.connect(self.onActuatorSlider)
 
@@ -1442,7 +1442,7 @@ class ControlPanel(QDialog)   *
         # now make the window visible
         self.show()
 
-    def getDriverType(self, constraint)   *
+    def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
             "Angle",
             "PlaneCoincident",
@@ -1453,51 +1453,51 @@ class ControlPanel(QDialog)   *
             "PointDistance",
             "PointsDistance"
             ]
-        if constraint.ConstraintType in ANGLE_CONSTRAINTS   *
+        if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
-        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS   *
+        elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
-        else   *
+        else:
             return "Length"
 
-    def stepRatio(self)   *
+    def stepRatio(self):
         ratio = (self.end_value - self.start_value) / 100
         return ratio
 
-    def onEntryStart(self, new_start)   *
+    def onEntryStart(self, new_start):
         self.start_value = float(new_start)
         self.label_start.setText(str(round(self.start_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onEntryEnd(self, new_end)   *
+    def onEntryEnd(self, new_end):
         self.end_value = float(new_end)
         self.label_end.setText(str(round(self.end_value, 1)) + self.unit_suffix)
         # Update the slider
         slider_value = ((self.current_value - self.start_value) / self.stepRatio())
         self.actuator_slider.setValue(slider_value)
 
-    def onEntrySteps(self, new_steps)   *
+    def onEntrySteps(self, new_steps):
         self.steps_value = int(new_steps)
 
-    def onActuatorSlider(self, slider_value)   *
+    def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
-        if self.driver_type == "Angle"   *
+        if self.driver_type == "Angle":
             self.actuator.Angle = self.current_value
-        elif self.driver_type == "Distance"   *
+        elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
-        else   *
+        else:
             self.actuator.Offset = self.current_value
-        self.label_current.setText("Current value   * " + str(round(self.current_value, 1)) + self.unit_suffix)
+        self.label_current.setText("Current value: " + str(round(self.current_value, 1)) + self.unit_suffix)
         FreeCADGui.updateGui() # screen update between steps
         Gui.runCommand("asm3CmdQuickSolve", 0)
 
-    def onForward(self)   *
+    def onForward(self):
         steps_left = self.steps_value
         print(self.steps_value)
         step = ((self.end_value - self.current_value) / steps_left)
-        while steps_left > 0   *
+        while steps_left > 0:
             self.current_value += step
             slider_value = ((self.current_value - self.start_value) / self.stepRatio())
             self.actuator_slider.setValue(slider_value)
@@ -1506,10 +1506,10 @@ class ControlPanel(QDialog)   *
             steps_left -= 1
         self.actuator_slider.setValue(100)
 
-    def onBackward(self)   *
+    def onBackward(self):
         steps_left = self.steps_value
         step = ((self.current_value - self.start_value) / steps_left)
-        while steps_left > 0   *
+        while steps_left > 0:
             self.current_value -= step
             slider_value = ((self.current_value - self.start_value) / self.stepRatio())
             self.actuator_slider.setValue(slider_value)
@@ -1518,62 +1518,62 @@ class ControlPanel(QDialog)   *
             steps_left -= 1
         self.actuator_slider.setValue(0)
 
-    def onClose(self)   *
+    def onClose(self):
         self.result = "Closed"
         self.close()
 
-    def onOutputClicked(self)   *
-        if self.sequence == True   *
+    def onOutputClicked(self):
+        if self.sequence == True:
             self.sequence = False
             self.output_check.setChecked(False)
-        else   *
+        else:
             self.sequence = True
             self.output_check.setChecked(True)
 
-    def output(self, counter)   *
-        if (self.sequence == True)   *
+    def output(self, counter):
+        if (self.sequence == True):
             image_path = ".../FreeCAD/ScreenShots/Sequence"
             file_tag = ".png"
             height = 640
             width = 480
             background = "Transparent"
             # dealing with leading zeros
-            if (counter > 999) or (counter < 0)   *
+            if (counter > 999) or (counter < 0):
                 print("Out of Range")
-            elif (counter < 10)   *
+            elif (counter < 10):
                 number = "00" + str(counter)
-            elif (counter < 100)   *
+            elif (counter < 100):
                 number = "0" + str(counter)
-            else   *
+            else:
                 number = str(counter)
             # Screen shot
             Gui.activeDocument().activeView().saveImage(image_path + number + file_tag, height, width, background)
 
 # End of ControlPanel()
-# Main section below   *
+# Main section below:
 
-def findTheDrivingConstraints(document_object)   *
+def findTheDrivingConstraints(document_object):
     # search through the Objects and find the driving constraint
     driver_list = []
-    for each in document_object.Objects   *
-        if each.Label.endswith("Driver")   *
+    for each in document_object.Objects:
+        if each.Label.endswith("Driver"):
             driving_constraint = each.Name
             driver_list.append(driving_constraint)
     return driver_list
 
-def main()   *
+def main():
     kin_doc = App.ActiveDocument # Kinematic Document
     drivers = findTheDrivingConstraints(kin_doc)
-    if len(drivers) < 1   *
+    if len(drivers) < 1:
         print("No driver found!")
-    else   *
+    else:
         panel_list = []
-        for each_driver in drivers   *
+        for each_driver in drivers:
             panel = ControlPanel(kin_doc, each_driver)
             panel_list.append(panel)
         panel.exec_()
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
     # This will be true only if the file is "executed"
     # but not if imported as a module
     main()

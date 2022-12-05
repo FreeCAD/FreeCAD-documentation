@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch_Rebar_Drawing_Dimensioning
-   Name/it   *Disegna e quota un'armatura
-   MenuLocation   *Arch → Armatura
-   Workbenches   *[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso   *[Distinta dei ferri](Arch_Rebar_BOM/it.md), [Sagomatura dei ferri](Reinforcement_Bar_Shape_Cut_List/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:Arch_Rebar_Drawing_Dimensioning
+   Name/it:Disegna e quota un'armatura
+   MenuLocation:Arch → Armatura
+   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso:[Distinta dei ferri](Arch_Rebar_BOM/it.md), [Sagomatura dei ferri](Reinforcement_Bar_Shape_Cut_List/it.md)
+   Version:0.19
 ---
 
 # Arch Rebar Drawing Dimensioning/it
@@ -26,12 +26,12 @@ Lo strumento **Disegna e quota un\'armatura** consente all\'utente di creare i d
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width   *800px;">
+<img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;">
 
 
 
@@ -51,31 +51,31 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 3\. A dialog box will pop-out on the screen as shown below.
 
-<img alt="" src=images/ArchRebarDrawingDimensioning_dialog1.png  style="width   *800px;">
+<img alt="" src=images/ArchRebarDrawingDimensioning_dialog1.png  style="width:800px;">
 
 4\. Enter all the details related to stroke width and color of rebar and structure.
 
 5\. Click on **Next** button and the dialog box will be updated as shown below.
 
-<img alt="" src=images/ArchRebarDrawingDimensioning_dialog2.png  style="width   *800px;">
+<img alt="" src=images/ArchRebarDrawingDimensioning_dialog2.png  style="width:800px;">
 
 6\. Enter drawing views option, dimensioning and offset details.
 
 7\. Click on **Next** button and the dialog box will be updated as shown below.
 
-<img alt="" src=images/ArchRebarDrawingDimensioning_dialog3.png  style="width   *800px;">
+<img alt="" src=images/ArchRebarDrawingDimensioning_dialog3.png  style="width:800px;">
 
 8\. Enter dimension label and line details.
 
 9\. Click on **Next** button and the dialog box will be updated as shown below.
 
-<img alt="" src=images/ArchRebarDrawingDimensioning_dialog4.png  style="width   *800px;">
+<img alt="" src=images/ArchRebarDrawingDimensioning_dialog4.png  style="width:800px;">
 
 10\. Enter single rebar and multi rebar dimension details.
 
 11\. Click on **Next** button and the dialog box will be updated as shown below.
 
-<img alt="" src=images/ArchRebarDrawingDimensioning_dialog5.png  style="width   *800px;">
+<img alt="" src=images/ArchRebarDrawingDimensioning_dialog5.png  style="width:800px;">
 
 12\. Enter details of dimension and dimension line offsets.
 
@@ -84,11 +84,11 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API Arch](Arch_API/it.md), [API di Reinforcement](Reinforcement_API/it.md) e [Basi di script per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
+The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
 ### Create Reinforcement Drawing And Dimensioning 
 
@@ -156,16 +156,16 @@ structure_drawing_page_dict = make_reinforcement_drawing.makeStructuresReinforce
 
 -    `rebars_color`specifies the fill color for rebars in drawing SVG.
 
-   Format   * (r, g, b)
+   Format: (r, g, b)
    r, g, b value should be between 0 to 1, so you may need to divide the value of r, g, b by 255 to get its value between 0 to 1
    Make sure r, g, b must be float
-   Example   * (0.67, 0.0, 0.0)
+   Example: (0.67, 0.0, 0.0)
 
 -    `structure_stroke_width`specifies the stroke-width of structure in drawing SVG.
 
 -    `structure_color_style`specifies the fill style of the structure. Set it to \"Automatic\" to automatically select structure color or \"Custom\" to choose structure color value from variable `structure_color`.
 
--    `structure_color`specifies the fill color for structure in drawing SVG. Format   * (r, g, b)
+-    `structure_color`specifies the fill color for structure in drawing SVG. Format: (r, g, b)
 
 -    `drawing_left_offset`specifies the left offset of the drawing view on `template_file`.
 
@@ -187,8 +187,8 @@ structure_drawing_page_dict = make_reinforcement_drawing.makeStructuresReinforce
 
 -    `dimension_label_format`is the format used for the dimension label.
 
-   Example   * "%M %C⌀%D,span=%S"
-   Here   * %M -> Rebar.Mark
+   Example: "%M %C⌀%D,span=%S"
+   Here: %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
@@ -203,7 +203,7 @@ structure_drawing_page_dict = make_reinforcement_drawing.makeStructuresReinforce
 
 -    `dimension_line_color`is the color of the dimension line.
 
-   Format   * (r, g, b)
+   Format: (r, g, b)
    r, g, b value should be between 0 to 1, so you may need to divide the value of r, g, b by 255 to get its value between 0 to 1
    Make sure r, g, b must be float
 
@@ -317,7 +317,7 @@ TwoTiesSixRebars.makeTwoTiesSixRebars(
 )
 
 # Create Reinforcement Drawing and Dimensioning
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     struct_drawing_page_dict = make_reinforcement_drawing.makeStructuresReinforcementDrawing(
         structure_list=None,
         rebars_list=None,
@@ -362,7 +362,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
         dimension_single_rebar_text_position_type="StartOfLine",
         dimension_multi_rebar_text_position_type="MidOfLine",
     )
-    for drawing_page in struct_drawing_page_dict.values()   *
+    for drawing_page in struct_drawing_page_dict.values():
         drawing_view = drawing_page.Views[0]
         drawing_view.setExpression(
             "LeftOffset",
@@ -383,7 +383,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
 
 </div>
 
-# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width   *32px;"> Disegno dell\'armatura 
+# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Disegno dell\'armatura 
 
 ## Usage
 
@@ -395,7 +395,7 @@ from ReinforcementDrawing.make_reinforcement_drawing import (
     makeStructuresReinforcementDrawing,
 )
 
-for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
+for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     makeStructuresReinforcementDrawing(view=view)
 ```
 
@@ -405,62 +405,62 @@ A Rebars Drawing SVG View object.
 
 ### Properties
 
--    **Structure**   * The structure object acting as a Host for rebars to be included in the drawing.
+-    **Structure**: The structure object acting as a Host for rebars to be included in the drawing.
 
--    **Rebars**   * The list of rebar objects to be included in the drawing.
+-    **Rebars**: The list of rebar objects to be included in the drawing.
 
--    **View**   * The reinforcement drawing view to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
+-    **View**: The reinforcement drawing view to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
 
--    **PositionType**   * The position type of Reinforcement Drawing on Template. It can be \"Automatic\" to calculate drawing placement using **LeftOffset**, **TopOffset**, **MinRightOffset** and **MinBottomOffset** OR \"Custom\" to set placement using **X** and **Y**.
+-    **PositionType**: The position type of Reinforcement Drawing on Template. It can be \"Automatic\" to calculate drawing placement using **LeftOffset**, **TopOffset**, **MinRightOffset** and **MinBottomOffset** OR \"Custom\" to set placement using **X** and **Y**.
 
--    **RebarsStrokeWidth**   * The stroke width of rebars in Reinforcement Drawing SVG.
+-    **RebarsStrokeWidth**: The stroke width of rebars in Reinforcement Drawing SVG.
 
--    **RebarsColorStyle**   * The color style of rebars in Reinforcement Drawing SVG. Set it to \"Automatic\" to automatically select rebars color OR \"Custom\" to choose shape color value from **RebarsColor**.
+-    **RebarsColorStyle**: The color style of rebars in Reinforcement Drawing SVG. Set it to \"Automatic\" to automatically select rebars color OR \"Custom\" to choose shape color value from **RebarsColor**.
 
--    **RebarsColor**   * The color of rebars in Reinforcement Drawing SVG.
+-    **RebarsColor**: The color of rebars in Reinforcement Drawing SVG.
 
--    **StructureStrokeWidth**   * The stroke width of the structure in Reinforcement Drawing SVG.
+-    **StructureStrokeWidth**: The stroke width of the structure in Reinforcement Drawing SVG.
 
--    **StructureColorStyle**   * The color style of structure in Reinforcement Drawing SVG. Set it to \"Automatic\" to automatically select rebars color, \"Custom\" to choose shape color value from **StructureColor** OR \"None\" to not fill structure.
+-    **StructureColorStyle**: The color style of structure in Reinforcement Drawing SVG. Set it to \"Automatic\" to automatically select rebars color, \"Custom\" to choose shape color value from **StructureColor** OR \"None\" to not fill structure.
 
--    **StructureColor**   * The color of structure in Reinforcement Drawing SVG.
+-    **StructureColor**: The color of structure in Reinforcement Drawing SVG.
 
--    **Template**   * The template for the Reinforcement Drawing view.
+-    **Template**: The template for the Reinforcement Drawing view.
 
--    **Width**   * The width of the Reinforcement Drawing view SVG.
+-    **Width**: The width of the Reinforcement Drawing view SVG.
 
--    **Height**   * The height of Reinforcement Drawing view SVG.
+-    **Height**: The height of Reinforcement Drawing view SVG.
 
--    **LeftOffset**   * The left offset of Reinforcement Drawing view on a template.
+-    **LeftOffset**: The left offset of Reinforcement Drawing view on a template.
 
--    **TopOffset**   * The top offset of Reinforcement Drawing view on a template.
+-    **TopOffset**: The top offset of Reinforcement Drawing view on a template.
 
--    **MinRightOffset**   * The minimum right offset of Reinforcement Drawing view on a template.
+-    **MinRightOffset**: The minimum right offset of Reinforcement Drawing view on a template.
 
--    **MinBottomOffset**   * The minimum bottom offset of Reinforcement Drawing view on a template.
+-    **MinBottomOffset**: The minimum bottom offset of Reinforcement Drawing view on a template.
 
--    **MaxWidth**   * The maximum width of the Reinforcement Drawing view.
+-    **MaxWidth**: The maximum width of the Reinforcement Drawing view.
 
--    **MaxHeight**   * The maximum height of the Reinforcement Drawing view.
+-    **MaxHeight**: The maximum height of the Reinforcement Drawing view.
 
--    **VisibleRebars**   * The list of visible rebar objects in the drawing view.
+-    **VisibleRebars**: The list of visible rebar objects in the drawing view.
 
--    **DimensionLeftOffset**   * The left offset for each new ReinforcementDimensioning object.
+-    **DimensionLeftOffset**: The left offset for each new ReinforcementDimensioning object.
 
--    **DimensionRightOffset**   * The right offset for each new ReinforcementDimensioning object.
+-    **DimensionRightOffset**: The right offset for each new ReinforcementDimensioning object.
 
--    **DimensionTopOffset**   * The top offset for each new ReinforcementDimensioning object.
+-    **DimensionTopOffset**: The top offset for each new ReinforcementDimensioning object.
 
--    **DimensionBottomOffset**   * The bottom offset for each new ReinforcementDimensioning object.
+-    **DimensionBottomOffset**: The bottom offset for each new ReinforcementDimensioning object.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Reinforcement Drawing functions can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Reinforcement Drawing functions can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
 ### Create Reinforcement Drawing View 
 
@@ -498,7 +498,7 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 -   Creates a `ReinforcementDrawingView` object for the given [structure](Arch_Structure.md) and [rebar](Arch_Rebar.md) objects list.
 
--   It returns the `reinforcement_drawing_page` of type `TechDraw   *   *DrawPage`.
+-   It returns the `reinforcement_drawing_page` of type `TechDraw::DrawPage`.
 
 -    `view`specifies the view of drawing to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
 
@@ -508,16 +508,16 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 -    `rebars_color`specifies the fill color for rebars in drawing SVG.
 
-   Format   * (r, g, b)
+   Format: (r, g, b)
    r, g, b value should be between 0 to 1, so you may need to divide the value of r, g, b by 255 to get its value between 0 to 1
    Make sure r, g, b must be float
-   Example   * (0.67, 0.0, 0.0)
+   Example: (0.67, 0.0, 0.0)
 
 -    `structure_stroke_width`specifies the stroke-width of structure in drawing SVG.
 
 -    `structure_color_style`specifies the fill style of the structure. Set it to \"Automatic\" to automatically select structure color or \"Custom\" to choose structure color value from variable `structure_color`.
 
--    `structure_color`specifies the fill color for structure in drawing SVG. Format   * (r, g, b)
+-    `structure_color`specifies the fill color for structure in drawing SVG. Format: (r, g, b)
 
 -    `drawing_left_offset`specifies the left offset of the drawing view on `template_file`.
 
@@ -589,7 +589,7 @@ RebarGroup = TwoTiesSixRebars.makeTwoTiesSixRebars(
 rebars = Draft.get_objects_of_type(FreeCAD.ActiveDocument.Objects, "Rebar")
 
 # Create Reinforcement Drawing
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     make_reinforcement_drawing.makeReinforcementDrawing(
         structure=Structure,
         rebars_list=rebars,
@@ -728,7 +728,7 @@ TwoTiesSixRebars.makeTwoTiesSixRebars(
 )
 
 # Create Reinforcement Drawing
-for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
+for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     make_reinforcement_drawing.makeStructuresReinforcementDrawing(
         structure_list=None,
         rebars_list=None,
@@ -759,7 +759,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
 
 </div>
 
-# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width   *32px;"> Quotare l\'armatura 
+# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Quotare l\'armatura 
 
 ## Usage 
 
@@ -771,11 +771,11 @@ from ReinforcementDrawing.make_reinforcement_drawing import (
     makeStructuresReinforcementDrawing,
 )
 
-for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
+for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     struct_drawing_page_dict = makeStructuresReinforcementDrawing(
         view=view, perform_dimensioning=True
     )
-    for drawing_page in struct_drawing_page_dict.values()   *
+    for drawing_page in struct_drawing_page_dict.values():
         drawing_view = drawing_page.Views[0]
         drawing_view.setExpression(
             "LeftOffset",
@@ -796,74 +796,74 @@ A Rebar Dimensioning SVG View object.
 
 ### Properties 
 
--    **ParentDrawingView**   * The parent ReinforcementDrawingView object containing the drawing of [Rebar](Arch_Rebar.md) object.
+-    **ParentDrawingView**: The parent ReinforcementDrawingView object containing the drawing of [Rebar](Arch_Rebar.md) object.
 
--    **Rebar**   * The [Rebar](Arch_Rebar.md) object to perform dimensioning.
+-    **Rebar**: The [Rebar](Arch_Rebar.md) object to perform dimensioning.
 
--    **WayPointsType**   * The WayPoints type of dimension line. It can be \"Automatic\" (to automatically perform dimensioning of [Rebar](Arch_Rebar.md) object) or \"Custom\" to use **WayPoints** to perform dimensioning.
+-    **WayPointsType**: The WayPoints type of dimension line. It can be \"Automatic\" (to automatically perform dimensioning of [Rebar](Arch_Rebar.md) object) or \"Custom\" to use **WayPoints** to perform dimensioning.
 
--    **WayPoints**   * A list of vector points to be used to generate a dimension line.
+-    **WayPoints**: A list of vector points to be used to generate a dimension line.
 
--    **TextPositionType**   * The position type of dimension text. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\".
+-    **TextPositionType**: The position type of dimension text. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\".
 
--    **DimensionFormat**   * The dimension label format.
+-    **DimensionFormat**: The dimension label format.
 
-   Example   * "%M %C⌀%D,span=%S"
-   Here   * %M -> Rebar.Mark
+   Example: "%M %C⌀%D,span=%S"
+   Here: %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
 
--    **Font**   * The font family of dimension label.
+-    **Font**: The font family of dimension label.
 
--    **FontSize**   * The font size of the dimension label.
+-    **FontSize**: The font size of the dimension label.
 
--    **StrokeWidth**   * The stroke width of the dimension line.
+-    **StrokeWidth**: The stroke width of the dimension line.
 
--    **LineStyle**   * The stroke style of the dimension line. It can be \"Continuous\", \"Dash\", \"Dot\", \"DashDot\" or \"DashDotDot\".
+-    **LineStyle**: The stroke style of the dimension line. It can be \"Continuous\", \"Dash\", \"Dot\", \"DashDot\" or \"DashDotDot\".
 
--    **LineColor**   * The color of the dimension line.
+-    **LineColor**: The color of the dimension line.
 
--    **TextColor**   * The color of the dimension label.
+-    **TextColor**: The color of the dimension label.
 
--    **LineStartSymbol**   * The start symbol of the dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
+-    **LineStartSymbol**: The start symbol of the dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
 
--    **LineEndSymbol**   * The end symbol of the dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
+-    **LineEndSymbol**: The end symbol of the dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
 
--    **LineMidPointSymbol**   * The midpoints symbol of the dimension line. It can be \"Tick\", \"Dot\" or \"None\".
+-    **LineMidPointSymbol**: The midpoints symbol of the dimension line. It can be \"Tick\", \"Dot\" or \"None\".
 
--    **DimensionLeftOffset**   * The left offset for automated reinforcement dimensioning.
+-    **DimensionLeftOffset**: The left offset for automated reinforcement dimensioning.
 
--    **DimensionRightOffset**   * The right offset for automated reinforcement dimensioning.
+-    **DimensionRightOffset**: The right offset for automated reinforcement dimensioning.
 
--    **DimensionTopOffset**   * The top offset for automated reinforcement dimensioning.
+-    **DimensionTopOffset**: The top offset for automated reinforcement dimensioning.
 
--    **DimensionBottomOffset**   * The bottom offset for automated reinforcement dimensioning.
+-    **DimensionBottomOffset**: The bottom offset for automated reinforcement dimensioning.
 
--    **SingleRebar_LineStartSymbol**   * The dimension line start symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_LineStartSymbol**: The dimension line start symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **SingleRebar_LineEndSymbol**   * The dimension line end symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_LineEndSymbol**: The dimension line end symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_LineStartSymbol**   * The dimension line start symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_LineStartSymbol**: The dimension line start symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_LineEndSymbol**   * The dimension line end symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_LineEndSymbol**: The dimension line end symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **SingleRebar_OuterDimension**   * It specifies if dimension lines are to be outside of reinforcement drawing, in case of single rebar is visible. It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_OuterDimension**: It specifies if dimension lines are to be outside of reinforcement drawing, in case of single rebar is visible. It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_OuterDimension**   * It specifies if dimension lines are to be outside of reinforcement drawing, in case of multiple rebars are visible. It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_OuterDimension**: It specifies if dimension lines are to be outside of reinforcement drawing, in case of multiple rebars are visible. It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **SingleRebar_TextPositionType**   * It specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_TextPositionType**: It specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_TextPositionType**   * It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_TextPositionType**: It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
 ## Scripting 
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Reinforcement Dimensioning functions can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Reinforcement Dimensioning functions can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
 ### Create Reinforcement Dimensioning Object 
 
@@ -904,12 +904,12 @@ dimension_object = makeReinforcementDimensioningObject(
 
 -    `parent_drawing_view`is the `ReinforcementDrawingView` object containing a drawing of `rebar` object.
 
--    `drawing_page`is the object of type TechDraw   *   *DrawPage used to show `parent_drawing_view`.
+-    `drawing_page`is the object of type TechDraw::DrawPage used to show `parent_drawing_view`.
 
 -    `dimension_label_format`is the format used for the dimension label.
 
-   Example   * "%M %C⌀%D,span=%S"
-   Here   * %M -> Rebar.Mark
+   Example: "%M %C⌀%D,span=%S"
+   Here: %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
@@ -924,7 +924,7 @@ dimension_object = makeReinforcementDimensioningObject(
 
 -    `dimension_line_color`is the color of the dimension line.
 
-   Format   * (r, g, b)
+   Format: (r, g, b)
    r, g, b value should be between 0 to 1, so you may need to divide the value of r, g, b by 255 to get its value between 0 to 1
    Make sure r, g, b must be float
 
@@ -1060,7 +1060,7 @@ makeReinforcementDimensioningObject(
 )
 
 # Create Reinforcement Dimensioning for all visible rebars in drawing view
-for visible_rebar in visible_rebars   *
+for visible_rebar in visible_rebars:
     makeReinforcementDimensioningObject(
         visible_rebar,
         parent_drawing_view,
@@ -1102,11 +1102,6 @@ for visible_rebar in visible_rebars   *
 
 
 </div>
-
-
-
-
-[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

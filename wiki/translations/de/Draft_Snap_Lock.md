@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Lock
-   Name/de   *Entwurf FangUmschalten
-   MenuLocation   *Draft → Utilities → Toggle snap
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Entwurf Fang](Draft_Snap/de.md), [Entwurf Umschalten Gitter](Draft_ToggleGrid/de.md)
+- GuiCommand:/de
+   Name:Draft Snap Lock
+   Name/de:Entwurf FangUmschalten
+   MenuLocation:Draft → Utilities → Toggle snap
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf Umschalten Gitter](Draft_ToggleGrid/de.md)
 ---
 
 # Draft Snap Lock/de

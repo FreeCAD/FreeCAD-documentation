@@ -1,26 +1,26 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Эллиптическая дуга
-   Name   *Sketcher_CreateArcOfEllipse
-   MenuLocation   *Sketch → Геометрия эскиза → Эллиптическая дуга
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***G** **E** **A**
-   Version   *0.15
-   SeeAlso   *[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
+- GuiCommand:/ru
+   Name/ru:Эллиптическая дуга
+   Name:Sketcher_CreateArcOfEllipse
+   MenuLocation:Sketch → Геометрия эскиза → Эллиптическая дуга
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **E** **A**
+   Version:0.15
+   SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
 ---
 
 # Sketcher CreateArcOfEllipse/ru
 
 ## Описание
 
-Этот инструмент рисует дугу по эллипсу, по четырем указанным точкам   * центральной, большому радиусу, начальной и конечной точкам. При запуске инструмента указатель мыши меняется на белый крест с красным значком дуги по эллипсу. Кроме того, координаты отображаются в режиме реального времени.
+Этот инструмент рисует дугу по эллипсу, по четырем указанным точкам: центральной, большому радиусу, начальной и конечной точкам. При запуске инструмента указатель мыши меняется на белый крест с красным значком дуги по эллипсу. Кроме того, координаты отображаются в режиме реального времени.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width   *500px;"> 
+<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
 *Последовательность нажатий указана желтыми стрелками с цифрами. C это центр, a - большой диаметр, b - малый диаметр, F1, F2 фокусы.*
 
 ## Применение
 
--   Нажмите кнопку **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width   *16px"> [Дуга по эллипсу](Sketcher_CreateArcOfEllipse.md)**.
+-   Нажмите кнопку **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Дуга по эллипсу](Sketcher_CreateArcOfEllipse.md)**.
 -   Первым нажатием в 3D виде задайте точку центра эллипса. Вторым нажатием задайте первый радиус и ориентацию эллипса. Третьим нажатием задайте другой радиус и начало дуги. Четвертым нажатием задайте конец дуги.
 -   После четвертого нажатия создается дуга по эллипсу вместе с набором вспомогательной геометрии, привязанной к нему (большой диаметр, малый диаметр, два фокуса). Вспомогательная геометрия может быть удалена вручную, если не нужна, и воссоздана позже. Смотрите [Выравнивание Внутренних Ограничений](Sketcher_ConstrainInternalAlignment/ru.md) и [Sketcher Показать Скрытую Внутреннюю Геометрию](Sketcher_RestoreInternalAlignmentGeometry/ru.md).
 -   Нажатие **ESC** или правой кнопки мыши отменяет функцию.

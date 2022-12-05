@@ -2,27 +2,27 @@
 {{Macro
 |Name=FC to Kerkythea
 |Icon=Macro_FreeCAD_to_Kerkythea.png
-|Description=Macro to export your model to the raytracing program [http   *//www.kerkythea.net/cms/ Kerkythea].
+|Description=Macro to export your model to the raytracing program [http://www.kerkythea.net/cms/ Kerkythea].
 |Author=marmni
 |Version=1.0
 |Date=2015-05-30
 |FCVersion=0.17 and above
-|Download=[https   *//www.freecadweb.org/wiki/images/8/8c/Macro_FreeCAD_to_Kerkythea.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/8/8c/Macro_FreeCAD_to_Kerkythea.png ToolBar Icon]
 }}
 
 ## Description
 
-Macro to export your model to the raytracing program [Kerkythea](http   *//www.kerkythea.net/cms/).
+Macro to export your model to the raytracing program [Kerkythea](http://www.kerkythea.net/cms/).
 
 ## Usage
 
-The macro you can find in the following github repository   * [FreeCAD to Kerkythea-Exporter](https   *//github.com/marmni/FreeCAD-Kerkythea)
+The macro you can find in the following github repository: [FreeCAD to Kerkythea-Exporter](https://github.com/marmni/FreeCAD-Kerkythea)
 
 It is pretty self-explanatory. At the moment there are problems with exporting lights and the camera position.
 
 ## Link
 
-The page discussion [Kerkythea Rendering System](http   *//forum.freecadweb.org/viewtopic.php?t=8861)
+The page discussion [Kerkythea Rendering System](http://forum.freecadweb.org/viewtopic.php?t=8861)
 
 ## Script
 
@@ -32,7 +32,7 @@ ToolBar Icon ![](images/Macro_FreeCAD_to_Kerkythea.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf8 -*-
+# -*- coding: utf8 -*-
 #**************************************************************************************
 #*                                                                                    *
 #*   Kerkythea exporter                                                               *
@@ -71,7 +71,7 @@ ToolBar Icon ![](images/Macro_FreeCAD_to_Kerkythea.png )
 
 __title__="Kerkythea exporter"
 __author__ = "marmni <marmni@onet.eu>"
-__url__ = ["http   *//www.freecadweb.org"]
+__url__ = ["http://www.freecadweb.org"]
 
 
 import FreeCAD, FreeCADGui
@@ -87,45 +87,45 @@ import os
 ##############################################
 #
 ##############################################
-class point3D   *
-    def __init__(self, point)   *
+class point3D:
+    def __init__(self, point):
         self.x = "%.4f" % (point[0] * 0.001)
         self.y = "%.4f" % (point[1] * 0.001)
         self.z = "%.4f" % (point[2] * 0.001)
 
-    def __str__(self)   *
+    def __str__(self):
         return '<P xyz="{0} {1} {2}"/>'.format(self.x, self.y, self.z)
 
-    #def __eq__(self, other)   *
-        #if self.x == other.x and self.y == other.y and self.z == other.z   *
+    #def __eq__(self, other):
+        #if self.x == other.x and self.y == other.y and self.z == other.z:
             #return True
-        #else   *
+        #else:
             #return False 
 
 
 ##############################################
 #
 ##############################################
-class indexListPoint3D   *
-    def __init__(self, point)   *
+class indexListPoint3D:
+    def __init__(self, point):
         self.i = point[0]
         self.j = point[1]
         self.k = point[2]
 
-    def __str__(self)   *
+    def __str__(self):
         return '<F ijk="{0} {1} {2}"/>'.format(self.i, self.j, self.k)
 
 
 ##############################################
 #
 ##############################################
-class Material   *
-    def __init__(self)   *
+class Material:
+    def __init__(self):
         self.diffuse = None  # Texture()
         self.shininess = 1000.0
         self.ior = 2.0
 
-    def write(self, file)   *
+    def write(self, file):
         file.write('''<Object Identifier="Whitted Material" Label="Whitted Material" Name="" Type="Material">\n''')
 
         self.diffuse.write(file, "Diffuse")
@@ -142,18 +142,18 @@ class Material   *
 ##############################################
 #
 ##############################################
-class Texture   *
-    def __init__(self, color)   *
+class Texture:
+    def __init__(self, color):
         self.color = color
         
-    def getColorSTR(self)   *
+    def getColorSTR(self):
         return '{0} {1} {2}'.format(self.color[0], self.color[1], self.color[2])
 
-    def toGrayscale(self)   *
+    def toGrayscale(self):
         RGB = 0.299 * self.color[0] + 0.587 * self.color[1] + 0.114 * self.color[2]
         self.color = [RGB, RGB, RGB]
 
-    def write(self, file, identifier)   *
+    def write(self, file, identifier):
         file.write('''<Object Identifier="./{identifier}/Constant Texture" Label="Constant Texture" Name="" Type="Texture">
 <Parameter Name="Color" Type="RGB" Value="{color}"/>
 </Object>\n'''.format(identifier=identifier, color=self.getColorSTR()))
@@ -162,8 +162,8 @@ class Texture   *
 ##############################################
 #
 ##############################################
-class Model   *
-    def __init__(self)   *
+class Model:
+    def __init__(self):
         self.vertexList = []
         self.normalList = []
         self.indexList = []
@@ -171,20 +171,20 @@ class Model   *
         self.name = self.wygenerujID(5, 5)
         self.material = Material()
         
-    def addFace(self, face)   *
+    def addFace(self, face):
         mesh = self.meshFace(face)
-        for pp in mesh.Facets   *
+        for pp in mesh.Facets:
             num = len(self.vertexList)
-            for kk in pp.Points   *
+            for kk in pp.Points:
                 self.vertexList.append(point3D(kk))
             self.indexList.append(indexListPoint3D([num, num + 1, num + 2]))
         
-    def meshFace(self, shape)   *
+    def meshFace(self, shape):
         faces = []
         triangles = shape.tessellate(1) # the number represents the precision of the tessellation
-        for tri in triangles[1]   *
+        for tri in triangles[1]:
             face = []
-            for i in range(3)   *
+            for i in range(3):
                 vindex = tri[i]
                 face.append(triangles[0][vindex])
             faces.append(face)
@@ -192,25 +192,25 @@ class Model   *
         #Mesh.show(m)
         return m
         
-    def wygenerujID(self, ll, lc)   *
+    def wygenerujID(self, ll, lc):
         ''' generate random model name '''
         numerID = ""
 
-        for i in range(ll)   *
+        for i in range(ll):
             numerID += random.choice('abcdefghij')
         numerID += "_"
-        for i in range(lc)   *
+        for i in range(lc):
             numerID += str(random.randrange(0, 99, 1))
         
         return numerID
 
-    def write(self, file)   *
+    def write(self, file):
         file.write('''
 <Object Identifier="./Models/{name}" Label="Default Model" Name="{name}" Type="Model"> 
 <Object Identifier="Triangular Mesh" Label="Triangular Mesh" Name="" Type="Surface">
 <Parameter Name="Vertex List" Type="Point3D List" Value="{pointListSize}">\n'''.format(name=self.name, pointListSize=len(self.vertexList)))
 
-        for i in self.vertexList   *
+        for i in self.vertexList:
             file.write('{0}\n'.format(i))
 
         file.write('''</Parameter>
@@ -219,7 +219,7 @@ class Model   *
         file.write('''</Parameter>
 <Parameter Name="Index List" Type="Triangle Index List" Value="{indexListSize}">\n'''.format(indexListSize=len(self.indexList)))
 
-        for i in self.indexList   *
+        for i in self.indexList:
             file.write('{0}\n'.format(i))
 
         file.write('''</Parameter>\n</Object>\n''')
@@ -232,8 +232,8 @@ class Model   *
 ##############################################
 #
 ##############################################
-class Camera   *
-    def __init__(self)   *
+class Camera:
+    def __init__(self):
         self.name = "Camera_1"
         self.f_number = "Pinhole"
         self.resolution = "1024x768"
@@ -243,10 +243,10 @@ class Camera   *
         self.diaphragm = "Circular"
         self.projection = "Planar"
 
-    def addParameter(self, name, pType, value)   *
+    def addParameter(self, name, pType, value):
         return '<Parameter Name="{0}" Type="{1}" Value="{2}"/>\n'.format(name, pType, value)
         
-    def write(self, file)   *
+    def write(self, file):
         cam = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
         camValues = cam.position.getValue()
         
@@ -269,38 +269,38 @@ class Camera   *
 ##############################################
 #
 ##############################################
-class exportTokerkythea   *
-    def __init__(self)   *
+class exportTokerkythea:
+    def __init__(self):
         self.models = []
         self.cameras = []
         modelsMultiColors = False
 
-    def write(self, file, name)   *
+    def write(self, file, name):
         file = __builtin__.open(file, "w")
         #
         self.writeHeader(file, name)
         
-        if self.modelsMultiColors   *
-            for i, j in self.models.items()   *
+        if self.modelsMultiColors:
+            for i, j in self.models.items():
                 file.write('<Object Identifier="./Models/{0}" Label="Default Model" Name="{0}" Type="Model">\n'.format(i))
-                for k in j   *
+                for k in j:
                     k.write(file)
                 file.write('</Object>\n')
-        else   *
-            for i in self.models.values()   *
+        else:
+            for i in self.models.values():
                 i.write(file)
         # CAMERA
         activeCamera = self.cameras[0][0].name
-        for i in self.cameras   *
+        for i in self.cameras:
             i[0].write(file)
-            if i[1]   *
+            if i[1]:
                 activeCamera = i[0].name
         #
         file.write('<Parameter Name="./Cameras/Active" Type="String" Value="{0}"/>\n'.format(activeCamera))
 
         self.writeFooter(file, name)
 
-    def writeHeader(self, file, name)   *
+    def writeHeader(self, file, name):
         file.write('''<Root Label="Kernel" Name="" Type="Kernel">
 <Object Identifier="./Ray Tracers/Metropolis Light Transport" Label="Metropolis Light Transport" Name="Metropolis Light Transport" Type="Ray Tracer">
 </Object>
@@ -311,7 +311,7 @@ class exportTokerkythea   *
 <Object Identifier="./Scenes/{0}" Label="Default Scene" Name="{0}" Type="Scene">\n
 '''.format(name))
 
-    def writeFooter(self, file, name)   *
+    def writeFooter(self, file, name):
         file.write('''</Object>
 <Parameter Name="Mip Mapping" Type="Boolean" Value="1"/>
 <Parameter Name="./Interfaces/Active" Type="String" Value="Null Interface"/>
@@ -331,8 +331,8 @@ class exportTokerkythea   *
 #
 ##############################################
 
-class exportKerkytheaDialog(QtGui.QDialog)   *
-    def __init__(self, parent=None)   *
+class exportKerkytheaDialog(QtGui.QDialog):
+    def __init__(self, parent=None):
         QtGui.QDialog.__init__(self, parent)
 
         self.setWindowTitle(u'Export to Kerkythea v1.1')
@@ -350,16 +350,16 @@ class exportKerkytheaDialog(QtGui.QDialog)   *
         lay.addWidget(tab)
         lay.addWidget(self.buttonAccept)
 
-    def changePathF(self)   *
+    def changePathF(self):
         path = QtGui.QFileDialog().getSaveFileName(self, u"Save as", os.path.expanduser("~"), "*.xml")
         
         fileName = path[0]
-        if not fileName == ""   *
-            if not fileName.endswith('xml')   *
+        if not fileName == "":
+            if not fileName.endswith('xml'):
                 fileName = fileName + '.xml'
             self.filePath.setText(fileName)
             
-    def addGeneralPage(self)   *
+    def addGeneralPage(self):
         self.filePath = QtGui.QLineEdit(os.path.join(os.path.expanduser("~"), 'Unnamed.xml'))
         self.filePath.setReadOnly(True)
 
@@ -420,12 +420,12 @@ class exportKerkytheaDialog(QtGui.QDialog)   *
         #lay.setColumnStretch(10, 10)
         return widget
         
-    def addLightsPage(self)   *
+    def addLightsPage(self):
         widget = QtGui.QWidget()
         
         return widget
         
-    def addCmerasPage(self)   *
+    def addCmerasPage(self):
         self.resolution = QtGui.QComboBox()
         self.resolution.addItems(['200x200', '320x200', '320x240', '500x500', '512x384', '640x480', '768x576', '800x600', '1024x768', '1280x1024', '1600x1200', '2048x1536', '2816x2112'])
         self.resolution.setCurrentIndex(self.resolution.findText('1024x768'))
@@ -499,72 +499,72 @@ class exportKerkytheaDialog(QtGui.QDialog)   *
         
 
 
-class exportKerkythea(exportKerkytheaDialog)   *
-    def __init__(self, parent=None)   *
+class exportKerkythea(exportKerkytheaDialog):
+    def __init__(self, parent=None):
         exportKerkytheaDialog.__init__(self, parent)
 
         self.connect(self.buttonAccept, QtCore.SIGNAL("clicked ()"), self.acceptw)
         self.connect(self.exportObjectsAs_YES, QtCore.SIGNAL("clicked ()"), self.setColors)
         self.connect(self.exportObjectsAs_NO, QtCore.SIGNAL("clicked ()"), self.setColors)
 
-    def setColors(self)   *
-        if self.exportObjectsAs_YES.isChecked()   *
+    def setColors(self):
+        if self.exportObjectsAs_YES.isChecked():
             self.exportObjectColor_SinCol.setChecked(True)
             self.exportObjectColorBox.setDisabled(True)
-        else   *
+        else:
             self.exportObjectColorBox.setDisabled(False)
 
-    def acceptw(self)   *
-        if self.exportObjects_All.isChecked()   *
+    def acceptw(self):
+        if self.exportObjects_All.isChecked():
             projectObjects = [i for i in FreeCAD.ActiveDocument.Objects if i.ViewObject.Visibility]
-        elif self.exportObjects_Selected.isChecked()   *
+        elif self.exportObjects_Selected.isChecked():
             projectObjects = []
-            for i in FreeCADGui.Selection.getSelection()   *
-                if i.ViewObject.Visibility and i not in projectObjects   *
+            for i in FreeCADGui.Selection.getSelection():
+                if i.ViewObject.Visibility and i not in projectObjects:
                     projectObjects.append(i)
         #
 
         projectModels = {}
-        for i in projectObjects   *  # objects in document
-            try   *
+        for i in projectObjects:  # objects in document
+            try:
                 objectColors = i.ViewObject.DiffuseColor
                 shape = i.Shape.Faces
-            except   *
+            except:
                 continue
                 
-            for j in range(len(i.Shape.Faces))   *  # object faces
+            for j in range(len(i.Shape.Faces)):  # object faces
                 # get face color
-                if len(objectColors) == len(i.Shape.Faces)   *
+                if len(objectColors) == len(i.Shape.Faces):
                     modelType = objectColors[j]
-                else   *
+                else:
                     modelType = objectColors[0]
                 #
-                if self.exportObjectsAs_YES.isChecked()   *
+                if self.exportObjectsAs_YES.isChecked():
                     modelID = str(modelType)
-                else   *
+                else:
                     modelID = i.Label
                 #
-                if self.exportObjectColor_SinCol.isChecked()   *
+                if self.exportObjectColor_SinCol.isChecked():
                     modelsMultiColors = False
 
-                    if not modelID in projectModels   *
+                    if not modelID in projectModels:
                         model = Model()
-                        if self.exportObjectsAs_NO.isChecked()   *
+                        if self.exportObjectsAs_NO.isChecked():
                             model.name = modelID
                         model.material.diffuse = Texture(modelType)
                         projectModels[modelID] = model
-                    else   *
+                    else:
                         model = projectModels[modelID]
-                else   *
+                else:
                     modelsMultiColors = True
 
-                    if not modelID in projectModels   *
+                    if not modelID in projectModels:
                         projectModels[modelID] = []
 
                     model = Model()
                     model.name = 'Face {0}'.format(j)
                     model.material.diffuse = Texture(modelType)
-                    if self.exportObjectColor_Gray.isChecked()   *
+                    if self.exportObjectColor_Gray.isChecked():
                         model.material.diffuse.toGrayscale()
                     projectModels[modelID].append(model)
                    

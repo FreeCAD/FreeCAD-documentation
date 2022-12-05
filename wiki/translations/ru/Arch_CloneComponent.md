@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch CloneComponent‏‎‏‎
-   Name/ru   *Arch   * CloneComponent/Клоновый компонент
-   MenuLocation   *Архитектура → Утилиты → Clone Component
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***C** **C‏‎**
-   SeeAlso   *[Draft Clone](Draft_Clone/ru.md), [Arch Component](Arch_Component/ru.md)
+- GuiCommand:/ru
+   Name:Arch CloneComponent‏‎‏‎
+   Name/ru:Arch: CloneComponent/Клоновый компонент
+   MenuLocation:Архитектура → Утилиты → Clone Component
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**C** **C‏‎**
+   SeeAlso:[Draft Clone](Draft_Clone/ru.md), [Arch Component](Arch_Component/ru.md)
 ---
 
 # Arch CloneComponent/ru

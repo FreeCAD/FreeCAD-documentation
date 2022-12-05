@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Part Fillet
-   Name/pl   *Część   * Zaokrąglenie
-   MenuLocation   *Część → Zaokrąglenie ...
-   Workbenches   *[Część](Part_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
-   SeeAlso   *[Fazka](Part_Chamfer/pl.md)
+- GuiCommand:/pl
+   Name:Part Fillet
+   Name/pl:Część: Zaokrąglenie
+   MenuLocation:Część → Zaokrąglenie ...
+   Workbenches:[Część](Part_Workbench/pl.md), [Complete](Complete_Workbench/pl.md)
+   SeeAlso:[Fazka](Part_Chamfer/pl.md)
 ---
 
 # Part Fillet/pl
@@ -27,13 +27,13 @@ Wywołaj narzędzie z paska narzędzi Część lub z menu **Część → Zaokrą
 
 ## Zaokrąglenie w środowisku Część kontra Zaokrąglenie w środowisku Projekt Części 
 
-W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt Części](PartDesign_Workbench/pl.md) znajduje się inne narzędzie do tworzenia zaokrągleń. Należy pamiętać, że ich działanie jest zupełnie inne. Sprawdź stronę <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> [Projekt Części   * Zaokrąglenie](PartDesign_Fillet/pl.md) zawierającą więcej szczegółów na temat różnic między nimi.
+W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) znajduje się inne narzędzie do tworzenia zaokrągleń. Należy pamiętać, że ich działanie jest zupełnie inne. Sprawdź stronę <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Projekt Części: Zaokrąglenie](PartDesign_Fillet/pl.md) zawierającą więcej szczegółów na temat różnic między nimi.
 
 ## Uwagi dotyczące stosowania funkcji zaokrąglenia w Środowisku Part 
 
-Part Filet może nie zrobić nic, jeśli wynikiem będzie dotknięcie lub przekroczenie następnej przyległej krawędzi. Jeśli więc nie otrzymasz oczekiwanego wyniku, spróbuj z mniejszą wartością **Promienia**. To samo dotyczy <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [fazek](Part_Chamfer/pl.md).
+Part Filet może nie zrobić nic, jeśli wynikiem będzie dotknięcie lub przekroczenie następnej przyległej krawędzi. Jeśli więc nie otrzymasz oczekiwanego wyniku, spróbuj z mniejszą wartością **Promienia**. To samo dotyczy <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [fazek](Part_Chamfer/pl.md).
 
-Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonych kształtów. Częstą przyczyną może być to, że kształt, który jest poddawany operacjom zaokrąglania nie jest geometrycznie poprawny. Może to wynikać z nieusunięcia linii / płaszczyzn itp. po wcześniejszych operacjach użytych do skonstruowania kształtu *(np. Wytnij / Przeciągnij / Fuzja)*. W celu zminimalizowania problemów można zastosować kilka kroków   *
+Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonych kształtów. Częstą przyczyną może być to, że kształt, który jest poddawany operacjom zaokrąglania nie jest geometrycznie poprawny. Może to wynikać z nieusunięcia linii / płaszczyzn itp. po wcześniejszych operacjach użytych do skonstruowania kształtu *(np. Wytnij / Przeciągnij / Fuzja)*. W celu zminimalizowania problemów można zastosować kilka kroków:
 
 -   Tam, gdzie to możliwe, pozostawić wypełnianie części do czasu, aż część zostanie całkowicie wygenerowana. Zminimalizuje to interakcję pomiędzy operacjami zaokrąglania a kolejnymi operacjami logicznymi.
 -   Użyj polecenia **Część → Sprawdź geometrię**, aby sprawdzić, czy geometria kształtu nie zawiera błędów i skorygować ją.

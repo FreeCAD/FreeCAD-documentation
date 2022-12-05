@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Panel
-   Name/es   *Arch Panel
-   MenuLocation   *Arch → Panel Tools → Panel
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   Shortcut   ***P** **A**
-   Version   *0.15
-   SeeAlso   *[Arch Panel Cut](Arch_Panel_Cut/es.md), [Arch Panel Sheet](Arch_Panel_Sheet/es.md)
+- GuiCommand:/es
+   Name:Arch Panel
+   Name/es:Arch Panel
+   MenuLocation:Arch → Panel Tools → Panel
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:**P** **A**
+   Version:0.15
+   SeeAlso:[Arch Panel Cut](Arch_Panel_Cut/es.md), [Arch Panel Sheet](Arch_Panel_Sheet/es.md)
 ---
 
 # Arch Panel/es
@@ -16,21 +16,21 @@
 
 ## Descripción
 
-Esta herramienta le permite construir todo tipo de elementos tipo panel, típicamente para construcciones de paneles como el proyecto [WikiHouse](http   *//www.wikihouse.cc/), pero también para todo tipo de objetos que se basan en un perfil plano.
+Esta herramienta le permite construir todo tipo de elementos tipo panel, típicamente para construcciones de paneles como el proyecto [WikiHouse](http://www.wikihouse.cc/), pero también para todo tipo de objetos que se basan en un perfil plano.
 
-<img alt="" src=images/Arch_Panel_example.jpg  style="width   *700px;">
+<img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
 *La imagen de arriba muestra una serie de objetos del panel, simplemente hechos de contornos 2D importados de un archivo DXF. Luego se pueden rotar y ensamblar para crear estructuras.*
 
 
 <div class="mw-translate-fuzzy">
 
-Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles corrugados o trapezoidales   *
+Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles corrugados o trapezoidales:
 
 
 </div>
 
-<img alt="" src=images/Arch_panel_wave.jpg  style="width   *700px;">
+<img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
 ## Utilización
 
@@ -82,23 +82,23 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Length}}   * la longitud del panel
+-    {{PropertyData/es|Length}}: la longitud del panel
 
--    {{PropertyData/es|Width}}   * El ancho del panel
+-    {{PropertyData/es|Width}}: El ancho del panel
 
--    {{PropertyData/es|Thickness}}   * el grosor del panel
+-    {{PropertyData/es|Thickness}}: el grosor del panel
 
--    {{PropertyData/es|Area}}   * el área del panel (automático)
+-    {{PropertyData/es|Area}}: el área del panel (automático)
 
--    {{PropertyData/es|Sheets}}   * la cantidad de hojas de material de las que está hecho el panel
+-    {{PropertyData/es|Sheets}}: la cantidad de hojas de material de las que está hecho el panel
 
--    {{PropertyData/es|Wave Length}}   * la longitud de la ola para paneles corrugados
+-    {{PropertyData/es|Wave Length}}: la longitud de la ola para paneles corrugados
 
--    {{PropertyData/es|Wave Height}}   * la altura de la ola para paneles corrugados
+-    {{PropertyData/es|Wave Height}}: la altura de la ola para paneles corrugados
 
--    {{PropertyData/es|Wave Type}}   * el tipo de onda para paneles corrugados, curvados o trapezoidales
+-    {{PropertyData/es|Wave Type}}: el tipo de onda para paneles corrugados, curvados o trapezoidales
 
--    {{PropertyData/es|Wave direction}}   * la orientación de las ondas para paneles corrugados
+-    {{PropertyData/es|Wave direction}}: la orientación de las ondas para paneles corrugados
 
 
 </div>
@@ -116,7 +116,7 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Panel puede usarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función   *
+La herramienta Panel puede usarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
 
 
 </div>
@@ -130,7 +130,7 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
 -   If a `placement` is given, it is used.
 
-Ejemplo   * 
+Ejemplo: 
 ```python
 import FreeCAD, Draft, Arch
 

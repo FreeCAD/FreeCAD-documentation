@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name/de   *Raytracing Objekt 
-   MenuLocation   *Raytracing → Part‏‎|
-   Workbenches   *[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/de
+   Name/de:Raytracing Objekt 
+   MenuLocation:Raytracing → Part‏‎|
+   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Raytracing WritePart/de

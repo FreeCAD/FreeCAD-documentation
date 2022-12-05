@@ -1,8 +1,6 @@
 # Category:Workbenches/zh-hans
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/zh-hans](Category   *User_Documentation/zh-hans.md)
-
 ### Contents
 
 |     |     |     |

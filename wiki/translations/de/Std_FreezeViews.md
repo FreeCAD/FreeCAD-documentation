@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std FreezeViews
-   Name/de   *Std AnsichtenEinfrieren
-   MenuLocation   *Ansicht → Ansicht einfrieren → Ansicht einfrieren
-   Workbenches   *Alle
-   SeeAlso   *[Std ArbeisansichtSpeichern](Std_StoreWorkingView/de.md), [Std ArbeitsansichtAbrufen](Std_RecallWorkingView/de.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/de.md)
+- GuiCommand:/de
+   Name:Std FreezeViews
+   Name/de:Std AnsichtenEinfrieren
+   MenuLocation:Ansicht → Ansicht einfrieren → Ansicht einfrieren
+   Workbenches:Alle
+   SeeAlso:[Std ArbeisansichtSpeichern](Std_StoreWorkingView/de.md), [Std ArbeitsansichtAbrufen](Std_RecallWorkingView/de.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/de.md)
 ---
 
 # Std FreezeViews/de
@@ -45,8 +45,8 @@ Die Menüoption **Ansichten laden\...** lädt eingefrorene Ansichten aus einer D
 
 ### Optionen 
 
--   If the Restore views dialog box is displayed   * press **Esc** or the **No** button to abort the command.
--   If the file dialog box is displayed   * press **Esc** or the **Cancel** button to abort the command.
+-   If the Restore views dialog box is displayed: press **Esc** or the **No** button to abort the command.
+-   If the file dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
 
 ## Ansicht Einfrieren 
 
@@ -56,9 +56,9 @@ Die Menüoption **Ansicht einfrieren** speichert die aktuellen Kameraeinstellung
 
 ### Anwendung 
 
-1.  There are several ways to invoke this option   *
+1.  There are several ways to invoke this option:
     -   Select the **View → Freeze display → Freeze view** option from the menu.
-    -   Use the keyboard shortcut   * **Shift**+**F**.
+    -   Use the keyboard shortcut: **Shift**+**F**.
 2.  The new frozen view can be selected in the **View → Freeze display** submenu.
 
 ## Ansichten löschen 
@@ -75,13 +75,13 @@ Die Menüoption **Ansichten löschen** löscht alle vorhandenen eingefrorenen An
 
 ### Beschreibung 
 
-For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered   * **Restore view 1** - **Restore view 50**.
+For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered: **Restore view 1** - **Restore view 50**.
 
 ### Anwendung 
 
-1.  There are several ways to invoke this option   *
+1.  There are several ways to invoke this option:
     -   Select the correct **View → Freeze display → Restore view** option from the menu.
-    -   For the first 9 frozen views   * use the keyboard shortcut   * **Ctrl**+**1** - **Ctrl**+**9**.
+    -   For the first 9 frozen views: use the keyboard shortcut: **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 

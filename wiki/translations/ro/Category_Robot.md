@@ -1,8 +1,6 @@
 # Category:Robot/ro
 This category lists pages related to the [Robot Workbench/ro](Robot_Workbench/ro.md).
 
-[Category   *Workbenches/ro](Category   *Workbenches/ro.md)
-
 ### Contents
 
 |     |     |     |

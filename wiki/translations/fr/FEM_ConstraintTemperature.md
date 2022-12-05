@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ConstraintTemperature
-   Name/fr   *FEM Contrainte de température
-   MenuLocation   *Modèle → Contraintes thermiques → Contrainte de température
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM ConstraintTemperature
+   Name/fr:FEM Contrainte de température
+   MenuLocation:Modèle → Contraintes thermiques → Contrainte de température
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintTemperature/fr
@@ -15,7 +15,7 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Contrainte de température](FEM_ConstraintTemperature/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes thermiques → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Contrainte de température
 **
@@ -28,7 +28,7 @@ Par défaut, la contrainte définit une température. En utilisant l\'option **F
 
 ## Remarques
 
--   La contrainte de température utilise la carte \*BOUNDARY dans CalculiX. La contrainte de température est expliquée à l\'adresse <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>.
+-   La contrainte de température utilise la carte \*BOUNDARY dans CalculiX. La contrainte de température est expliquée à l\'adresse <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>.
 
 
 

@@ -1,8 +1,6 @@
 # Category:Drawing/bg
 This category lists pages related to the [Drawing Workbench/bg](Drawing_Workbench/bg.md).
 
-[Category   *Obsolete Workbenches/bg](Category   *Obsolete_Workbenches/bg.md)
-
 ### Contents
 
 |     |     |     |

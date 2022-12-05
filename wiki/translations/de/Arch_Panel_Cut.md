@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Panel Cut
-   Name/de   *Arch Tafelschnitt
-   MenuLocation   *Arch → Panel-Werkzeuge → Tafelschnitt
-   Workbenches   *[Arch](Arch_Workbench.md),[Pfad](Path_Workbench/de.md)
-   Shortcut   ***P** **C**
-   Version   *0.17
-   SeeAlso   *[Arch Platte](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md), [Arch Verschachteln](Arch_Nest/de.md)
+- GuiCommand:/de
+   Name:Arch Panel Cut
+   Name/de:Arch Tafelschnitt
+   MenuLocation:Arch → Panel-Werkzeuge → Tafelschnitt
+   Workbenches:[Arch](Arch_Workbench.md),[Pfad](Path_Workbench/de.md)
+   Shortcut:**P** **C**
+   Version:0.17
+   SeeAlso:[Arch Platte](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md), [Arch Verschachteln](Arch_Nest/de.md)
 ---
 
 # Arch Panel Cut/de
@@ -18,7 +18,7 @@
 
 Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Tafel Platte](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Tafelschnitt-Objekte werden auch durch den [Path-Arbeitsbereich](Path_Workbench/de.md) unterstützt.
 
-<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
 ## Anwendung
 
@@ -49,19 +49,19 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 
 ### Daten
 
--    **Source**   * Das von diesem Schnitt gezeigte [Arch Platte](Arch_Panel/de.md)-Objekt
+-    **Source**: Das von diesem Schnitt gezeigte [Arch Platte](Arch_Panel/de.md)-Objekt
 
--    **Tag Text**   * Der anzuzeigende Text. Kann %tag%, %label% oder %description% sein, um die entsprechenden Informationen der Platte anzuzeigen
+-    **Tag Text**: Der anzuzeigende Text. Kann %tag%, %label% oder %description% sein, um die entsprechenden Informationen der Platte anzuzeigen
 
--    **Tag Size**   * Die Größe des Markierungstextes
+-    **Tag Size**: Die Größe des Markierungstextes
 
--    **Tag Position**   * Die Position des Markierungstextes, (0,0,0) für automatische Mittenposition
+-    **Tag Position**: Die Position des Markierungstextes, (0,0,0) für automatische Mittenposition
 
--    **Tag Rotation**   * Die Drehung des Textes
+-    **Tag Rotation**: Die Drehung des Textes
 
--    **Font File**   * Die Schriftart der Markierung
+-    **Font File**: Die Schriftart der Markierung
 
--    **Make Face**   * Falls {{Incode|True}} ist die Platte eine Fläche, anderenfalls ein Linienzug
+-    **Make Face**: Falls {{Incode|True}} ist die Platte eine Fläche, anderenfalls ein Linienzug
 
 
 </div>
@@ -73,9 +73,9 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 
 ### Ansicht
 
--    **Margin**   * Ein Rand kann außerhalb der Tafelschnittform betrachtet werden
+-    **Margin**: Ein Rand kann außerhalb der Tafelschnittform betrachtet werden
 
--    **Show Margin**   * Schaltet die Anzeige des Rands ein/aus
+-    **Show Margin**: Schaltet die Anzeige des Rands ein/aus
 
 
 </div>
@@ -88,20 +88,20 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 </div>
 
-Das Tafelschnittwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   * 
+Das Tafelschnittwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
 -   Erstellt ein `View`-Objekt (2D-Projektion) aus dem existierenden `panel`.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD, Draft, Arch
 

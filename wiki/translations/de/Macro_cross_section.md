@@ -8,7 +8,7 @@
 |Version=0.10
 |Date=2020-12-19
 |FCVersion=0.15 and above
-|Download=[https   *//www.freecadweb.org/wiki/images/f/f5/Macro_cross_section.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_cross_section.png ToolBar Icon]
 }}
 
 ## Beschreibung
@@ -17,7 +17,7 @@ Durch den oder die Körper wird ein ebener Schnitt geführt. Die Normale der Sch
 
 ![](images/Cross-section.png )
 
-Abbildung   * Schnitt durch zwei teiweise ineinander steckende Köper; links   * Dialogfeld \"Körper-Schnitt\"; rechts   * \"geschnittener Körper-Rest\" (schräge Schnittebene, Schnittebenen-Normale (Sliding axis direction) unter 45° im 1. Sektor der xz-Ebene (X=1, Z=1))
+Abbildung: Schnitt durch zwei teiweise ineinander steckende Köper; links: Dialogfeld \"Körper-Schnitt\"; rechts: \"geschnittener Körper-Rest\" (schräge Schnittebene, Schnittebenen-Normale (Sliding axis direction) unter 45° im 1. Sektor der xz-Ebene (X=1, Z=1))
 
 ![](images/Cross-section.png )
 
@@ -27,7 +27,7 @@ Abbildung   * Schnitt durch zwei teiweise ineinander steckende Köper; links   *
 
 1.  Der unten stehende Programm-Code ist als Text-Datei mit der Endung .FCMacro und z.B. mit dem Namen \"Schnitt\" in den Dateiordner \... /Freecad/makro Ihres PC zu übertragen.
 2.  zu schneidende/n Körper aktivieren
-3.  Aufruf des Makros    * \"Makro \> Makros \> Schnitt.FCMacro \> Ausführen \"
+3.  Aufruf des Makros : \"Makro \> Makros \> Schnitt.FCMacro \> Ausführen \"
 4.  Der/die zu schneidender/n Körper wird/werden bereits geschnitten dargestellt.
 5.  Über dem \"Dialog-Fenster\" (Combo-Ansicht) erscheint das oben abgebildete Dialogfeld \"Körper-Schnitt\" (Cross section ).
     1.  Wahl der Schnittebenen-Normale durch einsetzen von Werten für die Vektorlängen \"x, y und/oder z\"
@@ -37,9 +37,9 @@ Abbildung   * Schnitt durch zwei teiweise ineinander steckende Köper; links   *
 
 ## LINKS
 
-siehe [forum](http   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&p=120159#p120159)
+siehe [forum](http://forum.freecadweb.org/viewtopic.php?f=28&t=15084&p=120159#p120159)
 
-<img alt="" src=images/Macro_Cross_Section_01.png  style="width   *150px;"> siehe rechts unten   * \"Speichern des Schnitt-Ergebnisses\" (Keep the sectional view).
+<img alt="" src=images/Macro_Cross_Section_01.png  style="width:150px;"> siehe rechts unten: \"Speichern des Schnitt-Ergebnisses\" (Keep the sectional view).
 
 ## Skript
 
@@ -61,7 +61,7 @@ ToolBar Icon ![](images/Macro_cross_section.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 ***************************************************************************
 *                                                                         *
@@ -107,31 +107,31 @@ __date__    = "19/12/2020"
 
 # "29/01/2016" "10/06/2016" "29/09/2016 * 2" "17/08/2017" "06/09/2017" "17/09/2017" "04/07/2019" "31/08/2019" "19/12/2020"
 
-# Upgrade   *
-# 17/08/2017 by Sam             #https   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030
-# 06/09/2017 17/09/2017 by Gift #https   *//www.forum.freecadweb.org/viewtopic.php?f=13&t=24130
-# 04/07/2019 by duke24 replace tab to space #https   *//forum.freecadweb.org/viewtopic.php?f=13&t=37449
-# 31/08/2019 by g.becu adding line 334 #https   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351
-# 19/12/2020 by Chris_G    * exlude App.Part from the list of input objects + many code style fixes (PEP8)
-#                         See forum    * https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53423
+# Upgrade:
+# 17/08/2017 by Sam             #https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030
+# 06/09/2017 17/09/2017 by Gift #https://www.forum.freecadweb.org/viewtopic.php?f=13&t=24130
+# 04/07/2019 by duke24 replace tab to space #https://forum.freecadweb.org/viewtopic.php?f=13&t=37449
+# 31/08/2019 by g.becu adding line 334 #https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351
+# 19/12/2020 by Chris_G : exlude App.Part from the list of input objects + many code style fixes (PEP8)
+#                         See forum : https://forum.freecadweb.org/viewtopic.php?f=22&t=53423
 
 __Comment__ = "Dynamic cross section viewer"
-__Wiki__ = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_cross_section"
+__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_cross_section"
 __Help__ = "see first few lines of macro text"
 __Status__ = "stable"
 __Requires__ = "freecad 0.15"
 
-# OS   * Ubuntu 14.04.3 LTS                        # OS   * Windows 10
-# Word size of OS   * 64-bit                       # Word size of OS   * 64-bit
-# Word size of FreeCAD   * 64-bit                  # Word size of FreeCAD   * 64-bit
-# Version   * 0.15.4671 (Git)                      # Version   * 0.19.17171 (Git)
-# Branch   * releases/FreeCAD-0-15                 # Build type   * Release
-# Hash   * 244b3aef360841646cbfe80a1b225c8b39c8380c# Branch   * master
-# Python version   * 2.7.6                         # Hash   * d19470a9711ea604f3ca6c93e46afadf64d5bb87
-# Qt version   * 4.8.6                             # Python version   * 3.6.6
-# Coin version   * 4.0.0a                          # Qt version   * 5.6.2
-# OCC version   * 6.8.0.oce-0.17                   # Coin version   * 4.0.0a
-#                                               # OCC version   * 7.3.0
+# OS: Ubuntu 14.04.3 LTS                        # OS: Windows 10
+# Word size of OS: 64-bit                       # Word size of OS: 64-bit
+# Word size of FreeCAD: 64-bit                  # Word size of FreeCAD: 64-bit
+# Version: 0.15.4671 (Git)                      # Version: 0.19.17171 (Git)
+# Branch: releases/FreeCAD-0-15                 # Build type: Release
+# Hash: 244b3aef360841646cbfe80a1b225c8b39c8380c# Branch: master
+# Python version: 2.7.6                         # Hash: d19470a9711ea604f3ca6c93e46afadf64d5bb87
+# Qt version: 4.8.6                             # Python version: 3.6.6
+# Coin version: 4.0.0a                          # Qt version: 5.6.2
+# OCC version: 6.8.0.oce-0.17                   # Coin version: 4.0.0a
+#                                               # OCC version: 7.3.0
 
 import PySide
 from PySide import QtCore, QtGui
@@ -141,19 +141,19 @@ import Part
 import Draft
 from FreeCAD import Base
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    def _fromUtf8(s)   *
+except AttributeError:
+    def _fromUtf8(s):
         return s
 
-try   *
+try:
     _encoding = QtGui.QApplication.UnicodeUTF8
 
-    def _translate(context, text, disambig)   *
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError   *
-    def _translate(context, text, disambig)   *
+except AttributeError:
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
 
@@ -164,9 +164,9 @@ global FreeCADRootWindow  # main window before we start
 
 # This is the interactive window that the macro creates
 # Its main function is to have a close box and tidy up when closed
-class CrossSectionWindow(PySide.QtGui.QMainWindow)   *
+class CrossSectionWindow(PySide.QtGui.QMainWindow):
     # automagically called when the window is created
-    def __init__(self)   *
+    def __init__(self):
         super(CrossSectionWindow, self).__init__()
         self.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)
         self.setWindowTitle(_translate(
@@ -176,22 +176,22 @@ class CrossSectionWindow(PySide.QtGui.QMainWindow)   *
         self.child = CrossSection(self)
         self.setCentralWidget(self.child)
         self.child.initUI(self)
-        if self.child.startup_failed   *
+        if self.child.startup_failed:
             self.destroy()
-        else   *
+        else:
             # Position our window relative to the FreeCAD root
             self.setPosition(FreeCADRootWindow)
             self.child.show()
             self.show()
 
     # User closed the window, tidy up
-    def closeEvent(self, event)   *
+    def closeEvent(self, event):
         self.child.restoreObjects()
 
     # Set a sensible default position for the window
     # With FreeCAD's default layout, this will be over the docking area
     # so it will not obscure the 3D view
-    def setPosition(self, parent)   *
+    def setPosition(self, parent):
         geom = parent.geometry()
         xpos = geom.left() + 50
         ypos = geom.center().y() - height / 2
@@ -201,9 +201,9 @@ class CrossSectionWindow(PySide.QtGui.QMainWindow)   *
 
 # This is the widget which does almost all of the work
 # Widgets don't have close boxes, so closing is dealt with in CrossSectionWindow
-class CrossSection(PySide.QtGui.QWidget)   *
+class CrossSection(PySide.QtGui.QWidget):
     # Lay out the interactive elements
-    def initUI(self, parent)   *
+    def initUI(self, parent):
         self.parent = parent
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
@@ -368,7 +368,7 @@ class CrossSection(PySide.QtGui.QWidget)   *
 ##################################
 
     # Called at macro start up by initUI()
-    def hideObjects(self)   *
+    def hideObjects(self):
         # Initialise the cross-section state variables
         self.startup_failed = False
         self.fraction = 0.5
@@ -378,7 +378,7 @@ class CrossSection(PySide.QtGui.QWidget)   *
         self.cross_section_type = 1
 
         # We must have something to do a cross-section on
-        if App.ActiveDocument is None   *
+        if App.ActiveDocument is None:
             QtGui.QMessageBox.warning(None, _translate("MainWindow",
                 "Cross-section", None),
                 _translate("MainWindow", "There is no Active Document\n" +
@@ -387,22 +387,22 @@ class CrossSection(PySide.QtGui.QWidget)   *
                 QtGui.QMessageBox.Cancel)
             self.startup_failed = True
             self.parent.destroy()  # This will close the window
-        else   *
+        else:
 
             # Make a list of the user's objects
             # WARNING!!
             # This list is persistent. We'll get confused if the user deletes or
             # adds objects while the macro is active
             self.oblist = []  # App.ActiveDocument.Objects
-            for obj in App.ActiveDocument.Objects   *
-                try   *
+            for obj in App.ActiveDocument.Objects:
+                try:
                     obj.getPropertyByName("Shape")
                     self.oblist.append(obj)
-                except AttributeError   *
+                except AttributeError:
                     pass
             # self.oblist = [obj for obj in self.oblist if hasattr(obj,"Shape")]
             # Create the cross-section object
-            self.cs = App.ActiveDocument.addObject("Part   *   *Feature", "Generated__cross-section")
+            self.cs = App.ActiveDocument.addObject("Part::Feature", "Generated__cross-section")
             self.OriginalVisibilities = list()
             self.xmin = 1000.0
             self.xmax = -1000.0
@@ -411,12 +411,12 @@ class CrossSection(PySide.QtGui.QWidget)   *
             self.zmin = 1000.0
             self.zmax = -1000.0
 #            n = 0
-#            for p in self.oblist   * # stupid Python list has no length function
+#            for p in self.oblist: # stupid Python list has no length function
 #                n = n + 1
 ############################# Skip the <group object> ########################
             b0 = []
-            for x0 in self.oblist   *
-                if str(x0) != "<group object>"   *
+            for x0 in self.oblist:
+                if str(x0) != "<group object>":
                     b0.append(x0)
             self.oblist = b0
             n = len(self.oblist)
@@ -424,29 +424,29 @@ class CrossSection(PySide.QtGui.QWidget)   *
             # Make a list of the visible objects and make them invisible while
             # the macro is active
             # Also we compute the bounding box of the model
-            for i in range(n)   *
+            for i in range(n):
                 vis = self.oblist[i].ViewObject.Visibility
                 self.OriginalVisibilities.append(vis)
-                if vis   *
-                    if self.oblist[i].TypeId != str("Drawing   *   *FeatureViewPython")   *   # add
+                if vis:
+                    if self.oblist[i].TypeId != str("Drawing::FeatureViewPython"):   # add
                         self.oblist[i].ViewObject.Visibility = False
                         b = self.oblist[i].Shape.BoundBox
-                        if b.XMin < self.xmin   *
+                        if b.XMin < self.xmin:
                             self.xmin = b.XMin
-                        if b.XMax > self.xmax   *
+                        if b.XMax > self.xmax:
                             self.xmax = b.XMax
-                        if b.YMin < self.ymin   *
+                        if b.YMin < self.ymin:
                             self.ymin = b.YMin
-                        if b.YMax > self.ymax   *
+                        if b.YMax > self.ymax:
                             self.ymax = b.YMax
-                        if b.ZMin < self.zmin   *
+                        if b.ZMin < self.zmin:
                             self.zmin = b.ZMin
-                        if b.ZMax > self.zmax   *
+                        if b.ZMax > self.zmax:
                             self.zmax = b.ZMax
             # Moan and give up if there is nothing to cross-section
             if self.xmax <= self.xmin \
                 or self.ymax <= self.ymin \
-                    or self.zmax <= self.zmin   *
+                    or self.zmax <= self.zmin:
                 QtGui.QMessageBox.warning(None, _translate("MainWindow",
                     "Cross-section", None),
                     _translate("MainWindow",
@@ -458,53 +458,53 @@ class CrossSection(PySide.QtGui.QWidget)   *
                 self.startup_failed = True
                 App.ActiveDocument.removeObject("Generated__cross_section")
                 self.parent.destroy()  # This will close the window
-            else   *
+            else:
                 # Trigger initial display
                 self.updateAxis()
 
     # Called when macro is closed
     # Restore the original visibility of the user's objects
     # and destroy our cross-section object
-    def restoreObjects(self)   *
+    def restoreObjects(self):
 
         n = 0
-        for p in self.oblist   *  # stupid Python list has no length function
+        for p in self.oblist:  # stupid Python list has no length function
             n = n + 1
-        for i in range(n)   *
+        for i in range(n):
             self.oblist[i].ViewObject.Visibility = self.OriginalVisibilities[i]
-        try   *
-            if self.CB_00.isChecked() is False   *
+        try:
+            if self.CB_00.isChecked() is False:
                 App.ActiveDocument.removeObject("Generated__cross_section")
-        except Exception   *
+        except Exception:
             None
 
     # Something has changed, recalculate the cross-section
-    def updateGui(self)   *
+    def updateGui(self):
         # default to no visible cross-ection
         self.cs.ViewObject.Visibility = False
 
         # check if the sliding axis is invalid
-        if self.xdir == 0.0 and self.ydir == 0.0 and self.zdir == 0.0    *
+        if self.xdir == 0.0 and self.ydir == 0.0 and self.zdir == 0.0 :
             QtGui.QMessageBox.warning(None, _translate("MainWindow",
                 "Cross-section", None),
                 _translate("MainWindow", "The sliding axis has zero length\n" +
                     "Please set a valid axis.", None),
                 QtGui.QMessageBox.Ok,
                 QtGui.QMessageBox.Ok)
-        else   *
+        else:
 
             # First we compute the 0% and 100% positions on the sliding axis
-            if self.xdir < 0.0   *
+            if self.xdir < 0.0:
                 x = self.xmax + self.fraction * self.xdir
-            else   *
+            else:
                 x = self.xmin + self.fraction * self.xdir
-            if self.ydir < 0.0   *
+            if self.ydir < 0.0:
                 y = self.ymax + self.fraction * self.ydir
-            else   *
+            else:
                 y = self.ymin + self.fraction * self.ydir
-            if self.zdir < 0.0   *
+            if self.zdir < 0.0:
                 z = self.zmax + self.fraction * self.zdir
-            else   *
+            else:
                 z = self.zmin + self.fraction * self.zdir
 
             r = 2 * max(self.xmax - self.xmin, self.ymax - self.ymin,
@@ -520,35 +520,35 @@ class CrossSection(PySide.QtGui.QWidget)   *
             f = Part.Face(Part.Wire(c))
             part_list = list()  # list for cross-section parts
             n = 0
-            for p in self.oblist   *  # stupid Python list has no length function
+            for p in self.oblist:  # stupid Python list has no length function
                 n = n + 1
             something = 0
-            if self.cross_section_type == 1   *
+            if self.cross_section_type == 1:
                 # wire line cross-section
-                for i in range(n)   *
-                    if self.oblist[i].TypeId != str("Drawing   *   *FeatureViewPython")   *  # add
-                        if self.OriginalVisibilities[i]   *
+                for i in range(n):
+                    if self.oblist[i].TypeId != str("Drawing::FeatureViewPython"):  # add
+                        if self.OriginalVisibilities[i]:
                             ob = self.oblist[i].Shape.section(f)
                             # check for valid section part
-                            if ob.BoundBox.XMin <= ob.BoundBox.XMax   *
+                            if ob.BoundBox.XMin <= ob.BoundBox.XMax:
                                 part_list.append(ob)
                                 something = 1
-            else   *
+            else:
                 # cut shape cross-section
                 # extrude our cross-ection disc into a cylinder
                 cyl = f.extrude(Base.Vector(self.xdir, self.ydir, self.zdir))
                 doc = App.ActiveDocument
-                for i in range(n)   *
-                    if self.oblist[i].TypeId != str("Drawing   *   *FeatureViewPython")   *  # add
-                        if self.OriginalVisibilities[i]   *
-                            if (self.oblist[i].Shape.Volume <= 0.0)   *
+                for i in range(n):
+                    if self.oblist[i].TypeId != str("Drawing::FeatureViewPython"):  # add
+                        if self.OriginalVisibilities[i]:
+                            if (self.oblist[i].Shape.Volume <= 0.0):
                                 continue
-                            acut = doc.addObject("Part   *   *Cut", "Cut")
+                            acut = doc.addObject("Part::Cut", "Cut")
                             abase = Draft.clone(self.oblist[i])
                             abase.ViewObject.DiffuseColor = self.oblist[i].ViewObject.DiffuseColor
                             abase.ViewObject.Transparency = self.oblist[i].ViewObject.Transparency
                             doc.recompute()
-                            atool = doc.addObject("Part   *   *Feature")
+                            atool = doc.addObject("Part::Feature")
                             atool.Shape = cyl
                             atool.ViewObject.ShapeColor = self.oblist[i].ViewObject.ShapeColor  # (0.25,0.57,0.35)
                             atool.ViewObject.Transparency = self.oblist[i].ViewObject.Transparency
@@ -557,8 +557,8 @@ class CrossSection(PySide.QtGui.QWidget)   *
                             acut.Tool = atool
                             acut.ViewObject.DiffuseColor = abase.ViewObject.DiffuseColor
                             doc.recompute()
-                            if acut.Shape.isValid() and acut.Shape.Volume > 0.0   *
-                                ob = doc.addObject("Part   *   *Feature")
+                            if acut.Shape.isValid() and acut.Shape.Volume > 0.0:
+                                ob = doc.addObject("Part::Feature")
                                 ob.Shape = acut.Shape
                                 ob.ViewObject.DiffuseColor = acut.ViewObject.DiffuseColor
                                 doc.recompute()
@@ -571,21 +571,21 @@ class CrossSection(PySide.QtGui.QWidget)   *
                             doc.removeObject(atool.Name)
                             doc.recompute()
 
-            if something == 1   *
+            if something == 1:
                 s = Part.makeCompound(part_list)
-                if s.isValid()   *
+                if s.isValid():
                     self.cs.Shape = s
                     self.cs.ViewObject.Visibility = True
-            if something == 2   *
-                feature = App.ActiveDocument.addObject("Part   *   *Compound", "Compound")
+            if something == 2:
+                feature = App.ActiveDocument.addObject("Part::Compound", "Compound")
                 feature.Links = part_list
                 App.ActiveDocument.recompute()
-                if feature.Shape.isValid()   *
+                if feature.Shape.isValid():
                     self.cs.Shape = feature.Shape.copy()
                     self.cs.ViewObject.DiffuseColor = feature.ViewObject.DiffuseColor
                     self.cs.ViewObject.Visibility = True
                     App.ActiveDocument.recompute()
-                for od in part_list   *
+                for od in part_list:
                     App.ActiveDocument.removeObject(od.Name)
                     App.ActiveDocument.recompute()
                 App.ActiveDocument.removeObject(feature.Name)
@@ -593,46 +593,46 @@ class CrossSection(PySide.QtGui.QWidget)   *
 
     # User changed axis vector
     # Compute a new axis vector whose length just covers the model
-    def updateAxis(self)   *
+    def updateAxis(self):
         ldir = 0.0
-        if self.axisX != 0.0   *
+        if self.axisX != 0.0:
             ldir = (self.xmax - self.xmin) / abs(self.axisX)
-        if self.axisY != 0.0   *
+        if self.axisY != 0.0:
             ldir = max(ldir, (self.ymax - self.ymin) / abs(self.axisY))
-        if self.axisZ != 0.0   *
+        if self.axisZ != 0.0:
             ldir = max(ldir, (self.zmax - self.zmin) / abs(self.axisZ))
         self.xdir = self.axisX * ldir
         self.ydir = self.axisY * ldir
         self.zdir = self.axisZ * ldir
         self.updateGui()  # recalculate the cross-section
 
-    def on_horizontal_slider(self, val)   *
+    def on_horizontal_slider(self, val):
         self.fraction = val / 100.0
         self.progressBar_1.setValue(val)
         self.SpinBox_PBar.setValue(val)
         self.updateGui()
 
-    def on_doubleSpinBox_X_valueChanged(self, val)   *
+    def on_doubleSpinBox_X_valueChanged(self, val):
         self.axisX = val
         self.updateAxis()
 
-    def on_doubleSpinBox_Y_valueChanged(self, val)   *
+    def on_doubleSpinBox_Y_valueChanged(self, val):
         self.axisY = val
         self.updateAxis()
 
-    def on_doubleSpinBox_Z_valueChanged(self, val)   *
+    def on_doubleSpinBox_Z_valueChanged(self, val):
         self.axisZ = val
         self.updateAxis()
 
-    def on_SpinBox_PBar_valueChanged(self, val)   *
+    def on_SpinBox_PBar_valueChanged(self, val):
         self.progressBar_1.setValue(val)
         self.horizontalSlider.setValue(int(val))
         self.updateGui()
 
-    def onRadioButton(self, wasChecked)   *
-        if self.radioButton_1.isChecked()   *
+    def onRadioButton(self, wasChecked):
+        if self.radioButton_1.isChecked():
             self.cross_section_type = 1
-        else   *
+        else:
             self.cross_section_type = 2
         self.updateGui()
 
@@ -658,21 +658,21 @@ myWidget = CrossSectionWindow()
 
 ## Links 
 
-Die Forumsdiskussion [Posting a new macro](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=14049)
+Die Forumsdiskussion [Posting a new macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=14049)
 
 ## Version
 
-ver 00.10 19/12/2020    * Upgrade durch Fix von Chris_G, der App.Parts von den Eingabeobjekten ausschließt, siehe [cross section macro does not work on bodies within a part container](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53423)
+ver 00.10 19/12/2020 : Upgrade durch Fix von Chris_G, der App.Parts von den Eingabeobjekten ausschließt, siehe [cross section macro does not work on bodies within a part container](https://forum.freecadweb.org/viewtopic.php?f=22&t=53423)
 
-ver 00.09 31/08/2019    * upgrade by g.becu adding line 334 \#[Sezione Dinamica](https   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351)
+ver 00.09 31/08/2019 : upgrade by g.becu adding line 334 \#[Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351)
 
-ver 00.08 04/07/2019    * upgrade replace Tab to Space by duke24 [Macro cross_section update](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=37449)
+ver 00.08 04/07/2019 : upgrade replace Tab to Space by duke24 [Macro cross_section update](https://forum.freecadweb.org/viewtopic.php?f=13&t=37449)
 
-ver 00.07 17/09/2017    * Aktualisieren Sie mehrere Objekte mit verschiedenen Farben von Gift
+ver 00.07 17/09/2017 : Aktualisieren Sie mehrere Objekte mit verschiedenen Farben von Gift
 
-ver 00.06 06/09/2017    * Upgrade von Gift siehe [Optischer Schnitt durch Baugruppe, z.B. für Ventilgehäuse](https   *//www.forum.freecadweb.org/viewtopic.php?f=13&t=24130) Akzeptieren Sie mehrere Objekte mit unterschiedlichen Farben
+ver 00.06 06/09/2017 : Upgrade von Gift siehe [Optischer Schnitt durch Baugruppe, z.B. für Ventilgehäuse](https://www.forum.freecadweb.org/viewtopic.php?f=13&t=24130) Akzeptieren Sie mehrere Objekte mit unterschiedlichen Farben
 
-ver 00.05 17/08/2017    * upgrade for 0.17 FreeCAD version by Sam see [Sezione Dinamica](https   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030)
+ver 00.05 17/08/2017 : upgrade for 0.17 FreeCAD version by Sam see [Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030)
 
 
 

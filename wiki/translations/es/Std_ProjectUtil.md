@@ -1,16 +1,16 @@
 ---
-- GuiCommand   */es
-   Name   *Std ProjectUtil
-   Name/es   *Std ProjectoUtil
-   MenuLocation   *Hierramientas → Utilidad del proyecto...
-   Workbenches   *Todo
+- GuiCommand:/es
+   Name:Std ProjectUtil
+   Name/es:Std ProjectoUtil
+   MenuLocation:Hierramientas → Utilidad del proyecto...
+   Workbenches:Todo
 ---
 
 # Std ProjectUtil/es
 
 ## Descripción
 
-Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de proyecto de FreeCAD (***.FCStd**), que es de hecho un archivo [ZIP](https   *//en.wikipedia.org/wiki/Zip_(file_format)), y, después de ediciones manuales, crear un nuevo archivo de proyecto a partir de ellos.
+Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de proyecto de FreeCAD (***.FCStd**), que es de hecho un archivo [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)), y, después de ediciones manuales, crear un nuevo archivo de proyecto a partir de ellos.
 
 ![](images/Project_utility_en.png ) 
 *El cuadro de diálogo de la utilidad del proyecto*
@@ -33,7 +33,7 @@ Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de pro
 
 <div class="mw-translate-fuzzy">
 
-Es importante darse cuenta de que los archivos dentro de un archivo de proyecto de FreeCAD están interconectados. La edición de un solo archivo suele dar lugar a errores. Para hacer ediciones consistentes a través de múltiples archivos utiliza un buen editor de código, como [Notepad++](http   *//notepad-plus-plus.org/) (para el SO Windows) y [Notepadqq](https   *//notepadqq.com/s/) (para los SO Linux).
+Es importante darse cuenta de que los archivos dentro de un archivo de proyecto de FreeCAD están interconectados. La edición de un solo archivo suele dar lugar a errores. Para hacer ediciones consistentes a través de múltiples archivos utiliza un buen editor de código, como [Notepad++](http://notepad-plus-plus.org/) (para el SO Windows) y [Notepadqq](https://notepadqq.com/s/) (para los SO Linux).
 
 
 </div>

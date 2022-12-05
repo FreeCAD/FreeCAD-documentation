@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   */ro   Topic   *Programming   Level   *Medium programmer   Time   *15 minutes   FCVersion   *All   Author   *[Mario52](User_Mario52.md)
+- TutorialInfo:/ro   Topic:Programming   Level:Medium programmer   Time:15 minutes   FCVersion:All   Author:[Mario52](User_Mario52.md)
 ---
 
 # How to install macros/ro
@@ -32,7 +32,7 @@ While Python scripts normally have the `.py` extension, FreeCAD macros should ha
 
 See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to learn about writing macros.
 
-Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
+Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
 
 <div class="mw-translate-fuzzy">
@@ -49,10 +49,10 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensou
 
 ### Toolbar 
 
--   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Stop macro recording](Std_MacroStopRecord.md)
--   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Macros\...](Std_DlgMacroExecute.md)
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md)
+-   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md)
+-   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute.md)
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md)
 
 
 </div>
@@ -62,8 +62,8 @@ Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensou
 Besides the tools in the toolbar, the following functions are also available in the **Macro** menu.
 
 -   [Attach to remote debugger](Std_MacroAttachDebugger.md)
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width   *32px;"> [Debug macro](Std_MacroStartDebug.md)
--   <img alt="" src=images/Std_MacroStopDebug.svg  style="width   *32px;"> [Stop debugging](Std_MacroStopDebug.md)
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md)
+-   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Stop debugging](Std_MacroStopDebug.md)
 -   [Step over](Std_MacroStepOver.md)
 -   [Step into](Std_MacroStepInto.md)
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md)
@@ -100,13 +100,13 @@ where `$ROOT_DIR` is a top level directory searched by FreeCAD on startup.
 The `$ROOT_DIR` could be a system wide directory, in which case the macro is installed for all users.
 
 -   On Linux it is usually `/usr/share/freecad/`
--   On Windows it is usually `C   *Program Files\FreeCAD\`
+-   On Windows it is usually `C:\Program Files\FreeCAD\`
 -   On Mac OSX it is usually `/Applications/FreeCAD/`
 
 The `$ROOT_DIR` could be a particular user\'s directory.
 
 -   On Linux it is usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
--   On Windows it is usually `C   *Users\username\AppData\FreeCAD\`
+-   On Windows it is usually `C:\Users\username\AppData\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
 ### Configuring the user directory 
@@ -114,7 +114,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-**1    *** click **Menu \> Macro \> Macros** (which has the icon <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *24px;"> and the tool tip \"Open a dialog to let you execute a recorded macro\")
+**1 :** click **Menu \> Macro \> Macros** (which has the icon <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:24px;"> and the tool tip \"Open a dialog to let you execute a recorded macro\")
 
 
 </div>
@@ -122,7 +122,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Dxf_Importer_Install_01.png  style="width   *640px;">
+<img alt="" src=images/Dxf_Importer_Install_01.png  style="width:640px;">
 
 
 </div>
@@ -130,19 +130,11 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-**3    *** The address of \"Macro destination\" (**C   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\** in the screen snapshot below)
+**3 :** The address of \"Macro destination\" (**C:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\** in the screen snapshot below)
 
--   Windows   * the form is usually **drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**
--   Ubuntu   * the form is usually **/home/your_user_name/.FreeCAD**
--   Macintosh   * the form is usually \"/Users/your_user_name/Library/Preferences/FreeCAD\"
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Dxf_Importer_Install_02.png  style="width   *640px;">
+-   Windows: the form is usually **drive:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**
+-   Ubuntu: the form is usually **/home/your_user_name/.FreeCAD**
+-   Macintosh: the form is usually \"/Users/your_user_name/Library/Preferences/FreeCAD\"
 
 
 </div>
@@ -150,10 +142,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-**5    *** View the macro folder by   *
-
--   Windows   * paste the address into your File explorer and confirm
--   Macintosh   * locate the folder in the Finder or paste the address into a File explorer (remember the \"<file   *///>\" prefix in the File explorer for a file on disk)
+<img alt="" src=images/Dxf_Importer_Install_02.png  style="width:640px;">
 
 
 </div>
@@ -161,7 +150,10 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Dxf_Importer_Install_03.png  style="width   *640px;">
+**5 :** View the macro folder by:
+
+-   Windows: paste the address into your File explorer and confirm
+-   Macintosh: locate the folder in the Finder or paste the address into a File explorer (remember the \"<file:///>\" prefix in the File explorer for a file on disk)
 
 
 </div>
@@ -169,10 +161,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-**6    *** Access the files by   *
-
--   Windows   * leave open the file explorer
--   Macintosh   * either leave a Finder window open, or bookmark the location in your File explorer, or set up an Alias to point to it, or drag the folder into the SideBar of the Finder so it is there to use from other programs such as text editors etc. (Note   * version 0.14 of FreeCAD does not support Aliases but does support the SideBar)
+<img alt="" src=images/Dxf_Importer_Install_03.png  style="width:640px;">
 
 
 </div>
@@ -180,7 +169,18 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Dxf_Importer_Install_04.png  style="width   *640px;"> 
+**6 :** Access the files by:
+
+-   Windows: leave open the file explorer
+-   Macintosh: either leave a Finder window open, or bookmark the location in your File explorer, or set up an Alias to point to it, or drag the folder into the SideBar of the Finder so it is there to use from other programs such as text editors etc. (Note: version 0.14 of FreeCAD does not support Aliases but does support the SideBar)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Dxf_Importer_Install_04.png  style="width:640px;"> 
 
 
 </div>
@@ -201,15 +201,15 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 ### Automatic method 
 
-Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros) repository.
+Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
 
 <div class="mw-collapsible-content">
 
-In past versions of FreeCAD you could use two automated ways to install macros and other addons   *
+In past versions of FreeCAD you could use two automated ways to install macros and other addons:
 
--   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
--   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
+-   [addons_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
+-   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
 
 The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
 
@@ -241,7 +241,7 @@ For macros that are relatively small, 300 lines or less, the code can be copied 
 
 <div class="mw-collapsible-content">
 
-We will use <img alt="" src=images/Part_Prism_Apothem.svg  style="width   *24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI.md) as an example.
+We will use <img alt="" src=images/Part_Prism_Apothem.svg  style="width:24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI.md) as an example.
 
 
 <div class="mw-translate-fuzzy">
@@ -251,12 +251,12 @@ If there are one or more icon (s) download also position your mouse over the ico
 
 </div>
 
-If there is a custom icon download it; click on it with the right mouse button and select `Save image as...`; place the icon in the macros directory. This icon can be used as a shortcut for the macro in a [custom toolbar](Customize_Toolbars.md). The default icon is <img alt="" src=images/Text-x-python.png  style="width   *24px;">.
+If there is a custom icon download it; click on it with the right mouse button and select `Save image as...`; place the icon in the macros directory. This icon can be used as a shortcut for the macro in a [custom toolbar](Customize_Toolbars.md). The default icon is <img alt="" src=images/Text-x-python.png  style="width:24px;">.
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Download icon" src=images/Macro_Install_HowTo_28.png  style="width   *300px;">
+<img alt="Download icon" src=images/Macro_Install_HowTo_28.png  style="width:300px;">
 
 
 </div>
@@ -272,7 +272,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**1    *** Open FreeCAD and open the editor in FreeCAD
+**1 :** Open FreeCAD and open the editor in FreeCAD
 
 
 </div>
@@ -280,7 +280,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Dxf_Importer_Install_01.png  style="width   *640px;">
+<img alt="" src=images/Dxf_Importer_Install_01.png  style="width:640px;">
 
 
 </div>
@@ -288,7 +288,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**2    *** The window macros file opens, click **Create** button
+**2 :** The window macros file opens, click **Create** button
 
 
 </div>
@@ -296,7 +296,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The window macros file opens" src=images/Macro_Install_HowTo_17.png  style="width   *300px;">
+<img alt="The window macros file opens" src=images/Macro_Install_HowTo_17.png  style="width:300px;">
 
 
 </div>
@@ -304,7 +304,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**3    *** A new window opens, enter the macro name (here \"**Macro_Apothem_Based_Prism_GUI**\")and click the create **Ok** button
+**3 :** A new window opens, enter the macro name (here \"**Macro_Apothem_Based_Prism_GUI**\")and click the create **Ok** button
 
 
 </div>
@@ -312,7 +312,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="enter the macro name" src=images/Macro_Install_HowTo_18.png  style="width   *300px;">
+<img alt="enter the macro name" src=images/Macro_Install_HowTo_18.png  style="width:300px;">
 
 
 </div>
@@ -320,7 +320,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**4    *** The editing window FreeCAD macros is now available and has the name of our future macro.
+**4 :** The editing window FreeCAD macros is now available and has the name of our future macro.
 
 
 </div>
@@ -328,7 +328,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The editing window FreeCAD macros" src=images/Macro_Install_HowTo_19.png  style="width   *640px;">
+<img alt="The editing window FreeCAD macros" src=images/Macro_Install_HowTo_19.png  style="width:640px;">
 
 
 </div>
@@ -336,7 +336,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**5    *** Paste your code in the macro editor window and click the little **cross** to close the window.
+**5 :** Paste your code in the macro editor window and click the little **cross** to close the window.
 
 
 </div>
@@ -344,7 +344,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="close the window" src=images/Macro_Install_HowTo_20.png  style="width   *640px;">
+<img alt="close the window" src=images/Macro_Install_HowTo_20.png  style="width:640px;">
 
 
 </div>
@@ -352,7 +352,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**6    *** A warning window appears asking for confirmation of save code, click on **Yes**
+**6 :** A warning window appears asking for confirmation of save code, click on **Yes**
 
 
 </div>
@@ -362,7 +362,7 @@ Restart FreeCAD to correctly register the new macro.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="A warning window appears asking for confirmation of save code" src=images/Macro_Install_HowTo_27.png  style="width   *300px;">
+<img alt="A warning window appears asking for confirmation of save code" src=images/Macro_Install_HowTo_27.png  style="width:300px;">
 
 
 </div>
@@ -370,7 +370,7 @@ Restart FreeCAD to correctly register the new macro.
 
 <div class="mw-translate-fuzzy">
 
-**7    *** Repeat the number **1    *** , Click on your new macro and button **Execute**
+**7 :** Repeat the number **1 :** , Click on your new macro and button **Execute**
 
 
 </div>
@@ -378,7 +378,7 @@ Restart FreeCAD to correctly register the new macro.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Click on your new macro and button Execute" src=images/Macro_Install_HowTo_21.png  style="width   *300px;">
+<img alt="Click on your new macro and button Execute" src=images/Macro_Install_HowTo_21.png  style="width:300px;">
 
 
 </div>
@@ -386,7 +386,7 @@ Restart FreeCAD to correctly register the new macro.
 
 <div class="mw-translate-fuzzy">
 
-**8    *** The macro runs, complete the fields with your values and click the **OK** button
+**8 :** The macro runs, complete the fields with your values and click the **OK** button
 
 
 </div>
@@ -394,7 +394,7 @@ Restart FreeCAD to correctly register the new macro.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The macro runs, complete the fields" src=images/Macro_Install_HowTo_22.png  style="width   *640px;">
+<img alt="The macro runs, complete the fields" src=images/Macro_Install_HowTo_22.png  style="width:640px;">
 
 
 </div>
@@ -402,7 +402,7 @@ Restart FreeCAD to correctly register the new macro.
 
 <div class="mw-translate-fuzzy">
 
-9    * The macro returns an error ! we do not have to open document, open a document <img alt="" src=images/Document-new.svg  style="width   *24px;"> and repeat the operation **7** and **8**. Some macros open a new document if it does not find one.
+9 : The macro returns an error ! we do not have to open document, open a document <img alt="" src=images/Document-new.svg  style="width:24px;"> and repeat the operation **7** and **8**. Some macros open a new document if it does not find one.
 
 
 </div>
@@ -412,7 +412,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The macro returns an error!" src=images/Macro_Install_HowTo_23.png  style="width   *640px;">
+<img alt="The macro returns an error!" src=images/Macro_Install_HowTo_23.png  style="width:640px;">
 
 
 </div>
@@ -420,7 +420,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-10    * Here is your prism
+10 : Here is your prism
 
 
 </div>
@@ -428,7 +428,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="your prism" src=images/Macro_Install_HowTo_24.png  style="width   *640px;">
+<img alt="your prism" src=images/Macro_Install_HowTo_24.png  style="width:640px;">
 
 
 </div>
@@ -436,7 +436,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-11    * You can also open your macro in the editor to run or modify, click the **Edit** button
+11 : You can also open your macro in the editor to run or modify, click the **Edit** button
 
 
 </div>
@@ -444,17 +444,17 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="You can also open your macro in the editor" src=images/Macro_Install_HowTo_25.png  style="width   *300px;">
+<img alt="You can also open your macro in the editor" src=images/Macro_Install_HowTo_25.png  style="width:300px;">
 
 
 </div>
 
-12   * The macro is now in the FreeCAD editor you can run through the menu \"Macro Run Macro\" or by clicking on the triangle <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *16px;"> green in the macros toolsbar
+12: The macro is now in the FreeCAD editor you can run through the menu \"Macro Run Macro\" or by clicking on the triangle <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> green in the macros toolsbar
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The macro is now in the FreeCAD editor" src=images/Macro_Install_HowTo_26.png  style="width   *640px;">
+<img alt="The macro is now in the FreeCAD editor" src=images/Macro_Install_HowTo_26.png  style="width:640px;">
 
 
 </div>
@@ -485,7 +485,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-Download the file compressed here (example) [Macro_screw_maker 1.7](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887). (the page [Macro_screw_maker](Macro_screw_maker1_2.md))
+Download the file compressed here (example) [Macro_screw_maker 1.7](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887). (the page [Macro_screw_maker](Macro_screw_maker1_2.md))
 
 
 </div>
@@ -493,14 +493,14 @@ Download the file compressed here (example) [Macro_screw_maker 1.7](http   *//fo
 
 <div class="mw-collapsible-content">
 
-We will use <img alt="" src=images/Text-x-python.png  style="width   *24px;"> [Macro screw maker](Macro_screw_maker1_2.md) as an example.
+We will use <img alt="" src=images/Text-x-python.png  style="width:24px;"> [Macro screw maker](Macro_screw_maker1_2.md) as an example.
 
-1\. Download the compressed code from the forum, [Screw Maker](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
+1\. Download the compressed code from the forum, [Screw Maker](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
 
 
 <div class="mw-translate-fuzzy">
 
-Free for Windows [7-zip](http   *//www.7-zip.org/) ou [L-Zarc](http   *//www.kanmandet.dk/?p=37) ou [quickzip](http   *//www.quickzip.org/quickzip51.html)
+Free for Windows [7-zip](http://www.7-zip.org/) ou [L-Zarc](http://www.kanmandet.dk/?p=37) ou [quickzip](http://www.quickzip.org/quickzip51.html)
 
 
 </div>
@@ -513,7 +513,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**1    *** Download your file in your local folder here the folder **Temp**
+**1 :** Download your file in your local folder here the folder **Temp**
 
 
 </div>
@@ -521,7 +521,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Download your file in your local folder here the folder Temp" src=images/Macro_Install_HowTo_01.png  style="width   *640px;">
+<img alt="Download your file in your local folder here the folder Temp" src=images/Macro_Install_HowTo_01.png  style="width:640px;">
 
 
 </div>
@@ -529,7 +529,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**2    *** Unzip your file in the folder.
+**2 :** Unzip your file in the folder.
 
 
 </div>
@@ -537,7 +537,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Unzip your file in the folder. " src=images/Macro_Install_HowTo_02.png  style="width   *640px;">
+<img alt="Unzip your file in the folder. " src=images/Macro_Install_HowTo_02.png  style="width:640px;">
 
 
 </div>
@@ -545,7 +545,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**3    *** The decompressor finished his work and created a new folder with the unpacked file
+**3 :** The decompressor finished his work and created a new folder with the unpacked file
 
 
 </div>
@@ -553,7 +553,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The decompressor finished his work and created a new folder with the unpacked file" src=images/Macro_Install_HowTo_03.png  style="width   *640px;">
+<img alt="The decompressor finished his work and created a new folder with the unpacked file" src=images/Macro_Install_HowTo_03.png  style="width:640px;">
 
 
 </div>
@@ -561,7 +561,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**4    *** Enter in the newly created directory, move about the file, click the right mouse button and click on **Cut**.
+**4 :** Enter in the newly created directory, move about the file, click the right mouse button and click on **Cut**.
 
 
 </div>
@@ -569,7 +569,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Enter in the newly created directory" src=images/Macro_Install_HowTo_04.png  style="width   *640px;">
+<img alt="Enter in the newly created directory" src=images/Macro_Install_HowTo_04.png  style="width:640px;">
 
 
 </div>
@@ -577,7 +577,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**5    *** Return to your File explorer remained open in the macro location (here **C   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**) and close the File explorer.
+**5 :** Return to your File explorer remained open in the macro location (here **C:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**) and close the File explorer.
 
 
 </div>
@@ -585,7 +585,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Return to your File explorer remained open" src=images/Macro_Install_HowTo_05.png  style="width   *640px;">
+<img alt="Return to your File explorer remained open" src=images/Macro_Install_HowTo_05.png  style="width:640px;">
 
 
 </div>
@@ -593,7 +593,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**6    *** Open FreeCAD click **Menu \> Macro \> Macros** or the click the **bottom** <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *18px;"> \"Open a dialog to let you execute a macro Recorded\"
+**6 :** Open FreeCAD click **Menu \> Macro \> Macros** or the click the **bottom** <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:18px;"> \"Open a dialog to let you execute a macro Recorded\"
 
 
 </div>
@@ -601,7 +601,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Open FreeCAD" src=images/Macro_Install_HowTo_06.png  style="width   *640px;">
+<img alt="Open FreeCAD" src=images/Macro_Install_HowTo_06.png  style="width:640px;">
 
 
 </div>
@@ -609,7 +609,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**7    *** The macros window open , select your macro and click the button **Execute**
+**7 :** The macros window open , select your macro and click the button **Execute**
 
 
 </div>
@@ -617,7 +617,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The macros window open" src=images/Macro_Install_HowTo_07.png  style="width   *640px;">
+<img alt="The macros window open" src=images/Macro_Install_HowTo_07.png  style="width:640px;">
 
 
 </div>
@@ -625,7 +625,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**8    *** Your macro is executed enter the data and click the **Create** button
+**8 :** Your macro is executed enter the data and click the **Create** button
 
 
 </div>
@@ -633,7 +633,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Your macro is executed" src=images/Macro_Install_HowTo_08.png  style="width   *640px;">
+<img alt="Your macro is executed" src=images/Macro_Install_HowTo_08.png  style="width:640px;">
 
 
 </div>
@@ -641,7 +641,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Whaouu" src=images/Macro_Install_HowTo_30.png  style="width   *640px;">
+<img alt="Whaouu" src=images/Macro_Install_HowTo_30.png  style="width:640px;">
 
 
 </div>
@@ -666,7 +666,7 @@ on Windows
 
 
 ```python
-"C   *Program Files\FreeCAD\bin\FreeCAD.exe" "C   *Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"
+"C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"
 ```
 
 on Linux
@@ -701,7 +701,7 @@ todo
 
 <div class="mw-translate-fuzzy">
 
-Indentarea în programarea python este foarte importantă și este parte integrantă a codului, un spațiu sau o schimbare necorespunzătoare provoacă o eroare de indentare de ex,   *
+Indentarea în programarea python este foarte importantă și este parte integrantă a codului, un spațiu sau o schimbare necorespunzătoare provoacă o eroare de indentare de ex,:
 
 
 </div>
@@ -714,20 +714,20 @@ This section describes some errors that may be encountered when copying and past
 
 <div class="mw-translate-fuzzy">
 
- **\<type \'exceptions.IndentationError\'\>   * (\'expected an indented block\', (\'C   */Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro\', 21, 3, \'def priSm(self)   *n\'))** 
+ **\<type \'exceptions.IndentationError\'\>: (\'expected an indented block\', (\'C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro\', 21, 3, \'def priSm(self):\\n\'))** 
 
 
 </div>
 
 
 ```python
-<unknown exception traceback><type 'exceptions.IndentationError'>   * ('expected an indented block', ('C   */Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self)   *n'))
+<unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-**1    *** In this example, the code was stuck without any indentation and of course does not work! here definitely a programmer error when pasting the code on the page as it would have never known it to work.
+**1 :** In this example, the code was stuck without any indentation and of course does not work! here definitely a programmer error when pasting the code on the page as it would have never known it to work.
 
 
 </div>
@@ -747,7 +747,7 @@ This error is possible if the user doesn\'t copy the code correctly, and all spa
 
 <div class="mw-translate-fuzzy">
 
-**2    *** the code was correct indentations in the right place.
+**2 :** the code was correct indentations in the right place.
 
 
 </div>
@@ -763,7 +763,7 @@ This error is possible if the user doesn\'t copy the code correctly, and all spa
 
 <div class="mw-translate-fuzzy">
 
-**3    *** we select the code, and we see that the selection is at the edge of the code, the macro must works so good
+**3 :** we select the code, and we see that the selection is at the edge of the code, the macro must works so good
 
 
 </div>
@@ -779,7 +779,7 @@ This error is possible if the user doesn\'t copy the code correctly, and all spa
 
 <div class="mw-translate-fuzzy">
 
-**4    *** Here additional space is selected (it can happen) then you need to copy the code into a word processor to remove **one space all lines**
+**4 :** Here additional space is selected (it can happen) then you need to copy the code into a word processor to remove **one space all lines**
 
 
 </div>
@@ -797,7 +797,7 @@ If an additional space is introduced at the beginning of all lines, the Python i
 
 <div class="mw-translate-fuzzy">
 
-**5    *** Here the code has been copied in a forum window with the **Select all** button apparently the selection is good
+**5 :** Here the code has been copied in a forum window with the **Select all** button apparently the selection is good
 
 
 </div>
@@ -807,7 +807,7 @@ Here the code has been copied from a forum thread by using the **Select all** bu
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Here the code has been copied in a forum" src=images/Macro_Install_HowTo_14.png  style="width   *640px;">
+<img alt="Here the code has been copied in a forum" src=images/Macro_Install_HowTo_14.png  style="width:640px;">
 
 
 </div>
@@ -815,7 +815,7 @@ Here the code has been copied from a forum thread by using the **Select all** bu
 
 <div class="mw-translate-fuzzy">
 
-**6    *** But the selection pasted into the FreeCAD editor gives a surprise, an indent of four spaces has been added by the system ? the code is not good
+**6 :** But the selection pasted into the FreeCAD editor gives a surprise, an indent of four spaces has been added by the system ? the code is not good
 
 
 </div>
@@ -823,7 +823,7 @@ Here the code has been copied from a forum thread by using the **Select all** bu
 
 <div class="mw-translate-fuzzy">
 
-<img alt="But the selection pasted into the FreeCAD editor gives a surprise" src=images/Macro_Install_HowTo_15.png  style="width   *640px;">
+<img alt="But the selection pasted into the FreeCAD editor gives a surprise" src=images/Macro_Install_HowTo_15.png  style="width:640px;">
 
 
 </div>
@@ -831,17 +831,17 @@ Here the code has been copied from a forum thread by using the **Select all** bu
 
 <div class="mw-translate-fuzzy">
 
-**7    *** You must delete all the extra space that is four spaces on each line, for Windows word processing [notepad-plus-plus](http   *//notepad-plus-plus.org/) enables vertical selection with a combination of buttons **Alt** + Mouse dragging or Menu\> Edit\> Indent\> Decrease the indentation
+**7 :** You must delete all the extra space that is four spaces on each line, for Windows word processing [notepad-plus-plus](http://notepad-plus-plus.org/) enables vertical selection with a combination of buttons **Alt** + Mouse dragging or Menu\> Edit\> Indent\> Decrease the indentation
 
 
 </div>
 
-In Windows, [Notepad++](http   *//notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
+In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="You must delete all the extra space" src=images/Macro_Install_HowTo_16.png  style="width   *640px;">
+<img alt="You must delete all the extra space" src=images/Macro_Install_HowTo_16.png  style="width:640px;">
 
 
 </div>
@@ -849,7 +849,7 @@ In Windows, [Notepad++](http   *//notepad-plus-plus.org/) can perform selection 
 
 <div class="mw-translate-fuzzy">
 
-**8    *** Here the selection also take the column numbers which will also give an error
+**8 :** Here the selection also take the column numbers which will also give an error
 
 
 </div>
@@ -859,7 +859,7 @@ Here the selection also selects the line numbers in the code example. If this se
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Here the selection also take the column numbers" src=images/Macro_Install_HowTo_29.png  style="width   *640px;">
+<img alt="Here the selection also take the column numbers" src=images/Macro_Install_HowTo_29.png  style="width:640px;">
 
 
 </div>
@@ -867,7 +867,7 @@ Here the selection also selects the line numbers in the code example. If this se
 
 <div class="mw-translate-fuzzy">
 
-**9    *** Perfect code.
+**9 :** Perfect code.
 
 
 </div>
@@ -919,7 +919,7 @@ FreeCAD macros have two methods to print information to the report view.
 
 <div class="mw-translate-fuzzy">
 
-**1    * Commands**
+**1 : Commands**
 
 
 </div>
@@ -949,7 +949,7 @@ print("Hello World!")
 
 <div class="mw-translate-fuzzy">
 
-To see the information displayed in the console you should   *
+To see the information displayed in the console you should:
 
 
 </div>
@@ -957,7 +957,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**1    *** Open FreeCAD
+**1 :** Open FreeCAD
 
 
 </div>
@@ -965,7 +965,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Open FreeCAD" src=images/Macro_Install_HowTo_31.png  style="width   *640px;">
+<img alt="Open FreeCAD" src=images/Macro_Install_HowTo_31.png  style="width:640px;">
 
 
 </div>
@@ -973,7 +973,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Click the View menu and Views" src=images/Macro_Install_HowTo_32.png  style="width   *640px;">
+<img alt="Click the View menu and Views" src=images/Macro_Install_HowTo_32.png  style="width:640px;">
 
 
 </div>
@@ -981,7 +981,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**3    *** Check **Report View** and **Python Console**
+**3 :** Check **Report View** and **Python Console**
 
 
 </div>
@@ -989,7 +989,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Check Report View and Python Console" src=images/Macro_Install_HowTo_33.png  style="width   *640px;">
+<img alt="Check Report View and Python Console" src=images/Macro_Install_HowTo_33.png  style="width:640px;">
 
 
 </div>
@@ -997,7 +997,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**4    *** the windows are enabled and available commands like \"**App.Console.PrintMessage**\" is configured to the \"Report View\"
+**4 :** the windows are enabled and available commands like \"**App.Console.PrintMessage**\" is configured to the \"Report View\"
 
 
 </div>
@@ -1005,7 +1005,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Hello World!" src=images/Macro_Install_HowTo_34.png  style="width   *640px;">
+<img alt="Hello World!" src=images/Macro_Install_HowTo_34.png  style="width:640px;">
 
 
 </div>
@@ -1015,7 +1015,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**2    * command \"print\" which is a Python command.**
+**2 : command \"print\" which is a Python command.**
 
 
 </div>
@@ -1023,7 +1023,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**1    *** Click the **Edit menu** and then **Preferences**
+**1 :** Click the **Edit menu** and then **Preferences**
 
 
 </div>
@@ -1031,7 +1031,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Edit menu" src=images/Macro_Install_HowTo_35.png  style="width   *640px;">
+<img alt="Edit menu" src=images/Macro_Install_HowTo_35.png  style="width:640px;">
 
 
 </div>
@@ -1039,7 +1039,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**2    *** In the new window, click **General**, and select the **Output window** tab
+**2 :** In the new window, click **General**, and select the **Output window** tab
 
 
 </div>
@@ -1047,7 +1047,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="General" src=images/Macro_Install_HowTo_36.png  style="width   *640px;">
+<img alt="General" src=images/Macro_Install_HowTo_36.png  style="width:640px;">
 
 
 </div>
@@ -1055,7 +1055,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-**3    *** check both boxes   *
+**3 :** check both boxes:
 
 
 </div>
@@ -1063,7 +1063,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Case_a_cocher_O.png  style="width   *16px;"> Redirect internal Python output to Report view
+<img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Redirect internal Python output to Report view
 
 
 </div>
@@ -1071,7 +1071,7 @@ To see the information displayed in the console you should   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Case_a_cocher_O.png  style="width   *16px;"> Redirect internal Python errors to Report view
+<img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Redirect internal Python errors to Report view
 
 
 </div>
@@ -1087,7 +1087,7 @@ and click the **OK** button
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Redirect internal" src=images/Macro_Install_HowTo_37.png  style="width   *640px;">
+<img alt="Redirect internal" src=images/Macro_Install_HowTo_37.png  style="width:640px;">
 
 
 </div>
@@ -1095,7 +1095,7 @@ and click the **OK** button
 
 <div class="mw-translate-fuzzy">
 
-<img alt="the setup is complete" src=images/Macro_Install_HowTo_38.png  style="width   *640px;">
+<img alt="the setup is complete" src=images/Macro_Install_HowTo_38.png  style="width:640px;">
 
 
 </div>
@@ -1105,11 +1105,6 @@ and click the **OK** button
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

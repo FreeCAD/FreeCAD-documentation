@@ -1,8 +1,6 @@
 # Category:Python Code/sv
 This category contains python code examples for FreeCAD
 
-[Category   *Categories/sv](Category   *Categories/sv.md)
-
 ### Contents
 
 |     |     |     |

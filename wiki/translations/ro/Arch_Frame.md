@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Frame
-   MenuLocation   *Arch → Frame
-   Workbenches   *[Arch](Arch_Workbench.md)
-   Shortcut   ***F** **R**
-   SeeAlso   *[[Arch Wall]], [[Arch Structure]]
+- GuiCommand:/ro
+   Name:Arch Frame
+   MenuLocation:Arch → Frame
+   Workbenches:[Arch](Arch_Workbench.md)
+   Shortcut:**F** **R**
+   SeeAlso:[[Arch Wall]], [[Arch Structure]]
 ---
 
 # Arch Frame/ro
@@ -24,7 +24,7 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 </div>
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -67,15 +67,15 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 ## Proprietăți
 
--    **Base**   * The layout this frame is based on.
+-    **Base**: The layout this frame is based on.
 
--    **Profile**   * The profile this frame is based on.
+-    **Profile**: The profile this frame is based on.
 
--    **Align**   * Specifies if the profile must be rotated to have its normal axis aligned with each edge.
+-    **Align**: Specifies if the profile must be rotated to have its normal axis aligned with each edge.
 
--    **Offset**   * An optional distance between the layout object and the frame object.
+-    **Offset**: An optional distance between the layout object and the frame object.
 
--    **Rotation**   * The rotation of the profile around its extrusion axis.
+-    **Rotation**: The rotation of the profile around its extrusion axis.
 
 ## Scripting
 
@@ -90,7 +90,7 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Frame poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
+Instrumentul Frame poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
 
 
 </div>

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std PrintPdf
-   Name/fr   *Std Exporter au format PDF
-   MenuLocation   *Fichier → Exporter au format PDF
-   Workbenches   *Tous
-   SeeAlso   *[Std Imprimer](Std_Print/fr.md), [Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot.md)
+- GuiCommand:/fr
+   Name:Std PrintPdf
+   Name/fr:Std Exporter au format PDF
+   MenuLocation:Fichier → Exporter au format PDF
+   Workbenches:Tous
+   SeeAlso:[Std Imprimer](Std_Print/fr.md), [Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot.md)
 ---
 
 # Std PrintPdf/fr
@@ -31,7 +31,7 @@ La commande **Std Exporter au format PDF** est principalement destinée à crée
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké   * **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

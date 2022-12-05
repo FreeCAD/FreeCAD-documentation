@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Image CreateImagePlane
-   MenuLocation   *
-   Workbenches   *[Image](Image_Workbench.md)
-   SeeAlso   *[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
+- GuiCommand:
+   Name:Image CreateImagePlane
+   MenuLocation:
+   Workbenches:[Image](Image_Workbench.md)
+   SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
 
 # Image CreateImagePlane/zh-cn
@@ -36,7 +36,7 @@
 
 </div>
 
-生成的ImagePlane（图像平面）对象所采用的比例是1像素   *1毫米；为了令图像显示效果更佳，应当令其具有足够的分辨率。
+生成的ImagePlane（图像平面）对象所采用的比例是1像素:1毫米；为了令图像显示效果更佳，应当令其具有足够的分辨率。
 
 
 <div class="mw-translate-fuzzy">
@@ -65,11 +65,11 @@
 
 {{Properties Title|Base}}
 
--    **Position**   * 指定图像平面的基准点（base point）坐标。
+-    **Position**: 指定图像平面的基准点（base point）坐标。
 
--    **Angle**   * 指定图像平面的旋转角度。
+-    **Angle**: 指定图像平面的旋转角度。
 
--    **Axis**   * 指定旋转轴。
+-    **Axis**: 指定旋转轴。
 
 
 </div>
@@ -83,11 +83,11 @@
 
 {{Properties Title|Image Plane}}
 
--    **XSize**   * 指定图像平面的宽度。
+-    **XSize**: 指定图像平面的宽度。
 
--    **YSize**   * 指定图像平面的高度。
+-    **YSize**: 指定图像平面的高度。
 
--    **Image Plane**   * 指定用于此图像平面的对应图像。
+-    **Image Plane**: 指定用于此图像平面的对应图像。
 
 
 </div>

@@ -1,8 +1,6 @@
 # Category:Addons/zh-cn
 This page lists external addon workbenches that have a page in this wiki. Addons are modules or workbenches contributed by the community and are not part of standard FreeCAD.
 
-[Category   *Categories](Category_Categories.md)
-
 ### Contents
 
 |     |     |     |

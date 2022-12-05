@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std TreeRecordSelection
-   Name/pl   *Std   * Zapisz zaznaczenie z widoku drzewa
-   MenuLocation   *Widok→ Akcje widoku drzewa → Zapisz zaznaczenie
-   Workbenches   *wszystkie
-   Shortcut   ***T** **5**
-   Version   *0.19
+- GuiCommand:/pl
+   Name:Std TreeRecordSelection
+   Name/pl:Std: Zapisz zaznaczenie z widoku drzewa
+   MenuLocation:Widok→ Akcje widoku drzewa → Zapisz zaznaczenie
+   Workbenches:wszystkie
+   Shortcut:**T** **5**
+   Version:0.19
 ---
 
 # Std TreeRecordSelection/pl
@@ -16,14 +16,14 @@ Polecenie **Zapisz zaznaczenie** przełącza tryb zapisu zaznaczenia [Widoku drz
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Zapisz zaznaczenie** z menu podręcznego. Uwaga   * ikonka przycisku będzie się zmieniać w zależności od wybranej opcji.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Zapisz zaznaczenie** z menu podręcznego. Uwaga: ikonka przycisku będzie się zmieniać w zależności od wybranej opcji.
     -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeRecordSelection.svg" width=16px> Zapisz zaznaczenie**.
-    -   Użyj skrótu klawiaturowego   * **T**, a następnie **5**.
+    -   Użyj skrótu klawiaturowego: **T**, a następnie **5**.
 
 ## Ustawienia
 
-Tryb Zapisu zaznaczenia w widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md)   * **Edycja → Preferencje ...→ Ogólne → Zaznaczanie**.
+Tryb Zapisu zaznaczenia w widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md): **Edycja → Preferencje ...→ Ogólne → Zaznaczanie**.
 
 
 

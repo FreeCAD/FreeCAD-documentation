@@ -21,37 +21,35 @@ Pour FreeCAD version 0.14 ou antérieure, vous devez les installer manuellement.
 
 ### Manuellement
 
-1.  Allez sur le compte [Github de Yorik](https   *//github.com/yorikvanhavre/Draft-dxf-importer) et téléchargez ces fichiers (à droite, choisissez \"download as ZIP\").
+1.  Allez sur le compte [Github de Yorik](https://github.com/yorikvanhavre/Draft-dxf-importer) et téléchargez ces fichiers (à droite, choisissez \"download as ZIP\").
 2.  Placez les fichiers dans votre dossier de macros.
 3.  Si vous ne savez pas où se trouve ce dossier, allez dans **Edition → Préférences → Général → Macro** et vérifiez le champ nommé {{MenuCommand | Macro Path}}.
 
--   Sous Ubuntu, votre dossier de macros est normalement (le dossier est caché, vous devrez peut-être l\'afficher)   *
+-   Sous Ubuntu, votre dossier de macros est normalement (le dossier est caché, vous devrez peut-être l\'afficher):
 
 /home/your_user_name/.FreeCAD 
 
--   Sous Windows, votre dossier de macros est normalement   *
+-   Sous Windows, votre dossier de macros est normalement:
 
-C   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD
+C:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD
 
-voir aussi   * [Installation du module d\'import DXF](Dxf_Importer_Install/fr.md)
+voir aussi: [Installation du module d\'import DXF](Dxf_Importer_Install/fr.md)
 
 ## Trucs et astuces 
 
 Parfois, les fichiers DXF ne semblent pas vouloir s\'importer, bien qu\'ils s\'ouvrent dans les programmes 2D-DXF-CAD sans problèmes.
 
-Vous pouvez essayer   *
+Vous pouvez essayer:
 
 1.  Allez dans **Édition → Préférences → Importer/Exporter → DXF** et décochez l\'option **Joindre la géométrie** et réessayez.
 2.  N\'oubliez pas que vous n\'aurez peut-être plus de points de terminaison coïncidents. Vous devrez les faire coïncider vous-même.
 3.  Vous pouvez le faire avec la commande [Sketcher Fermer la forme](Sketcher_CloseShape/fr.md) {{VersionPlus/fr|0.15}} ou vous pouvez appliquer les contraintes manuellement.
 
-Vous pouvez également essayer   *
+Vous pouvez également essayer:
 
-1.  Allez dans **Edition → Préférences → Draft → Paramètres généraux** et ajustez la valeur de **Tolérance** (par défaut   * 0,05) et réessayez.
+1.  Allez dans **Edition → Préférences → Draft → Paramètres généraux** et ajustez la valeur de **Tolérance** (par défaut: 0,05) et réessayez.
 
 Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences d\'Import Export](Import_Export_Preferences/fr#DXF.md).
-
-[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

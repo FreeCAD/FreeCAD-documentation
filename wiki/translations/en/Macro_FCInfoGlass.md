@@ -13,9 +13,9 @@
 Gives a series of informations about the selected shape and can display a directly in the 3D view
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro}}
 
-<img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_FCTransparentInfo_00.FCMacro.png  style="width:480px;"> 
 *FCInfoGlass*
 
 ## Utilisation
@@ -41,14 +41,14 @@ global colorize              ; colorize                      ="black" # colorize
 
 ```
 
-## Examples   *
+## Examples:
 
-Availlable    * **\"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\"**
+Availlable : **\"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\"**
 
 
 <center>
 
-Image   *Macro FCInfoGlass 01.png\|**colorize =\"black\"** Image   *Macro FCInfoGlass 02.png\|**colorize =\"white\"**
+Image:Macro FCInfoGlass 01.png\|**colorize =\"black\"** Image:Macro FCInfoGlass 02.png\|**colorize =\"white\"**
 
 
 </center>
@@ -59,7 +59,7 @@ Image   *Macro FCInfoGlass 01.png\|**colorize =\"black\"** Image   *Macro FCInfo
 
 <center>
 
-Image   *Macro FCInfoGlass 03.png\|**colorize =\"red\"** Image   *Macro FCInfoGlass 04.png\|**colorize =\"yellow\"**
+Image:Macro FCInfoGlass 03.png\|**colorize =\"red\"** Image:Macro FCInfoGlass 04.png\|**colorize =\"yellow\"**
 
 
 </center>
@@ -69,7 +69,7 @@ Image   *Macro FCInfoGlass 03.png\|**colorize =\"red\"** Image   *Macro FCInfoGl
 
 This section hare switch give value **1** for displayed the info or **0** for not displayed the info
 
-**Example   ***
+**Example:**
 
 is displayed ( = **1** )
 
@@ -189,11 +189,11 @@ It is not possible at the moment to leave the function from the macro or scrolli
 
 One mouse click on the object display the information of the object, two mouse click select the object complete and displayed alls informations
 
-**PS   *** It is also possible that in the Linux environment it is not possible to click or have access to the object within the window displaying the information
+**PS:** It is also possible that in the Linux environment it is not possible to click or have access to the object within the window displaying the information
 
 There are no problems in the Windows environment you can click inside the window and access to the object except the displayed characters
 
-this window to view and modify the dimensions, change   *
+this window to view and modify the dimensions, change:
 
 **visualiserWindow line 81 = 1**
 
@@ -201,27 +201,27 @@ the **lines 87 and 88 and SizeX SizeY** for window dimensions
 
 ## Script
 
-The icon **Macro_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width   *64px;">
+The icon **Macro_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width:64px;">
 
-Copy the script on Gits [**Macro_FCInfoGlass.FCMacro**](https   *//gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
+Copy the script on Gits [**Macro_FCInfoGlass.FCMacro**](https://gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 
 and copy the Macro_FCInfoGlass.FCMacro and the icon in your macro directory.
 
 ## Links
 
-The discussion on the forum [FCInfo Macro](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=6005)
+The discussion on the forum [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-My macros on [mario52a](https   *//gist.github.com/mario52a) gists
+My macros on [mario52a](https://gist.github.com/mario52a) gists
 
 ## Version
 
-**28/08/2016 Ver 00.05**    * add radius with subObjects and center coordinates
+**28/08/2016 Ver 00.05** : add radius with subObjects and center coordinates
 
-**25/11/2015 Ver 0.04**    * add radius with subObjects and normalAT(0,0)
+**25/11/2015 Ver 0.04** : add radius with subObjects and normalAT(0,0)
 
-**31/08/2015 Ver 0.03**    * add many informations
+**31/08/2015 Ver 0.03** : add many informations
 
-**04/08/2015 Ver 0.02**    * add switch and presentation
+**04/08/2015 Ver 0.02** : add switch and presentation
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Plot Legend
-   Name/pl   *Wykres   * Pokaz / ukryj legendę
-   MenuLocation   *Wykres → Pokaz / ukryj legendę
-   Workbenches   *[Wykres](Plot_Workbench/pl.md)
+- GuiCommand:/pl
+   Name:Plot Legend
+   Name/pl:Wykres: Pokaz / ukryj legendę
+   MenuLocation:Wykres → Pokaz / ukryj legendę
+   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Legend/pl
@@ -12,7 +12,7 @@
 
 To narzędzie pozwala użytkownikowi włączyć / wyłączyć legendę serii danych na konkretnym wykresie.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Użycie
 
@@ -26,9 +26,7 @@ Pamiętaj, że style i etykiety serii danych mogą być edytowane za pomocą [na
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

@@ -1,8 +1,6 @@
 # Category:Inspection/tr
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-[Category   *Workbenches](Category_Workbenches.md) [Category   *User_Documentation](Category_User_Documentation.md)
-
 ### Contents
 
 |     |     |     |

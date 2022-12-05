@@ -1,6 +1,6 @@
 # Arch Check/cs
 ---
-- GuiCommand   */cs   Name   *Arch Check   Name/cs   *Arch Check   Workbenches   *[MenuLocation   *Arch → Utilities → Check   SeeAlso   *[[Arch CloseHoles/cs|Arch CloseHoles](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:/cs   Name:Arch Check   Name/cs:Arch Check   Workbenches:[MenuLocation:Arch → Utilities → Check   SeeAlso:[[Arch CloseHoles/cs|Arch CloseHoles](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -42,7 +42,7 @@ Tento nástroj kontroluje daný dokument nebo jen vybrané objekty na objekty kt
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj může být použit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Tento nástroj může být použit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -60,7 +60,7 @@ kontroluje zda daný objekt obsahuje pouze statické objekty
 
 </div>
 
-Example   *
+Example:
 
 
 ```python

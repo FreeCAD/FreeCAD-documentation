@@ -1,6 +1,6 @@
 # Drawing Symbol/cs
 ---
-- GuiCommand   */cs   Name   *Drawing Symbol   Name/cs   *Drawing Symbol   Workbenches   *[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation   *Drawing → Symbol   Shortcut   *none---
+- GuiCommand:/cs   Name:Drawing Symbol   Name/cs:Drawing Symbol   Workbenches:[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation:Drawing → Symbol   Shortcut:none---
 
 ## Description
 

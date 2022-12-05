@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */it
-   Name   *Drawing_Annotation
-   Name/it   *Annotazione
-   MenuLocation   *Drawing → Annotazione
-   Workbenches   *[Drawing](Drawing_Workbench/it.md), [Completa](Complete_Workbench.md)
+- GuiCommand:/it
+   Name:Drawing_Annotation
+   Name/it:Annotazione
+   MenuLocation:Drawing → Annotazione
+   Workbenches:[Drawing](Drawing_Workbench/it.md), [Completa](Complete_Workbench.md)
 ---
 
 # Drawing Annotation/it

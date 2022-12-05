@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2015-05-20
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/a/af/Macro_Animated_Constrain.png Icône de la barre d'outils]<br/>Pas de fichier pour les essais [https   *//www.youtube.com/watch?v=kmqDcomLnk0 Voir l'animation sur YouTube.]
+|Download=[https://www.freecadweb.org/wiki/images/a/af/Macro_Animated_Constrain.png Icône de la barre d'outils]<br/>Pas de fichier pour les essais [https://www.youtube.com/watch?v=kmqDcomLnk0 Voir l'animation sur YouTube.]
 }}
 
 ## Description
@@ -15,11 +15,11 @@
 Macro simple pour animer les contraintes d\'angles dans Sketcher. Basée sur le travail de \@microelly. Animez une contrainte et examinez les effets obtenus.
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/AnimatedConstrain.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/AnimatedConstrain.FCMacro}}
 
 ## Script
 
-La macro peut être téléchargée dans le dépôt github suivant   * [Macro_Animated_Constrain.FCMacro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
+La macro peut être téléchargée dans le dépôt github suivant: [Macro_Animated_Constrain.FCMacro](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
 Icône de la barre d\'outils ![](images/Macro_Animated_Constrain.png )
 
@@ -27,22 +27,22 @@ Icône de la barre d\'outils ![](images/Macro_Animated_Constrain.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # Mesh with GMSH inside of FreeCAD
-# Author   * Gomez Lucio
-# License   * LGPL v 2.1
-# Date   * 17/05/2015
+# Author: Gomez Lucio
+# License: LGPL v 2.1
+# Date: 17/05/2015
 
 import FreeCAD
 from PySide import QtGui,QtCore
 import math
 import time
 
-class AnimConstrain(QtGui.QWidget)   *
-    def __init__(self)   *
+class AnimConstrain(QtGui.QWidget):
+    def __init__(self):
         super(AnimConstrain, self).__init__()
         self.initUI()
-    def initUI(self)   *
+    def initUI(self):
         # Window
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         self.setWindowTitle("Animated Constrain")
@@ -58,13 +58,13 @@ class AnimConstrain(QtGui.QWidget)   *
         self.le_interval = QtGui.QLineEdit(self)
         self.le_interval.setText("5")
         # Constrain Type
-        self.l_type_constrain = QtGui.QLabel("<b>Type of Constrain    *<b>",self)
+        self.l_type_constrain = QtGui.QLabel("<b>Type of Constrain :<b>",self)
         self.rb_angle = QtGui.QRadioButton(" Angle(deg)",self)
         self.rb_angle.setChecked(QtCore.Qt.Checked)
         self.rb_length = QtGui.QRadioButton(" Length(mm)",self)
         self.rb_length.setEnabled(False)
         # Parameters
-        self.l_parameters = QtGui.QLabel("<b>Parameters    *<b>",self)
+        self.l_parameters = QtGui.QLabel("<b>Parameters :<b>",self)
         self.cb_repeat = QtGui.QCheckBox("  Repeat",self)
         self.bt_start = QtGui.QPushButton("Start",self)
         self.bt_stop = QtGui.QPushButton("Stop",self)
@@ -91,13 +91,13 @@ class AnimConstrain(QtGui.QWidget)   *
         self.cb_repeat.stateChanged.connect(self.repeat_state)
         self.repeat = True
         
-    def repeat_state(self, state)   *   
-        if state == QtCore.Qt.Checked   *
+    def repeat_state(self, state):   
+        if state == QtCore.Qt.Checked:
             self.repeat = False
-        else   *
+        else:
             self.repeat = True
         
-    def start(self)   *
+    def start(self):
         App.Console.PrintMessage('Start ')
         self.timer = QtCore.QTimer()
         QtCore.QObject.connect(self.timer, QtCore.SIGNAL("timeout()"), self.proceed)
@@ -107,33 +107,33 @@ class AnimConstrain(QtGui.QWidget)   *
         self.final = float(eval(self.le_final.text()))
         #self.proceed()
         
-    def proceed(self)   *
-        if self.an >= self.final and self.repeat   *
+    def proceed(self):
+        if self.an >= self.final and self.repeat:
       self.stop()
-    else   *
-          try   *
+    else:
+          try:
              self.an = self.an + self.interv if self.an < (360.0) else 0.0
              angle = self.an
              App.Console.PrintMessage(str(angle)+"  ")
              App.ActiveDocument.Sketch.setDatum(cs,App.Units.Quantity((str(angle)+' deg')))
              App.ActiveDocument.recompute()
-          except   *
+          except:
          App.Console.PrintError('Error on setDatum in constrain  ')
          self.stop()
 
-    def stop(self)   *
+    def stop(self):
         self.timer.stop()
         App.Console.PrintMessage(" End")
         App.ActiveDocument.recompute()
 
 
 # RUN WIDGET
-try   *
+try:
    s = Gui.Selection.getSelectionEx()
    cs=s[0].SubElementNames[0]
-   cs=int(cs[10   *])-1
+   cs=int(cs[10:])-1
    AnimConstrain()
-except   *
+except:
    App.Console.PrintError('Select one anlge constrain First  ')
    
 
@@ -142,9 +142,9 @@ except   *
 
 ## Liens
 
-La page de discussion sur le forum [Macro Animated Constrain](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=11017)
+La page de discussion sur le forum [Macro Animated Constrain](http://forum.freecadweb.org/viewtopic.php?f=22&t=11017)
 
-[Voir l\'animation sur YouTube.](https   *//www.youtube.com/watch?v=kmqDcomLnk0)
+[Voir l\'animation sur YouTube.](https://www.youtube.com/watch?v=kmqDcomLnk0)
 
 
 

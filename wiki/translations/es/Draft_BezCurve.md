@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Draft BezCurve
-   Name/es   *Borrador BezCurva
-   MenuLocation   *Borrador → Herramientas Bézier → Curva Bézier
-   Workbenches   *[Borrador](Draft_Workbench/es.md), [Architectura](Arch_Workbench/es.md)
-   Version   *0.14
-   SeeAlso   *[Borrador CubicBezCurva](Draft_CubicBezCurve/es.md), [Borrador BSpline](Draft_BSpline/es.md)
+- GuiCommand:/es
+   Name:Draft BezCurve
+   Name/es:Borrador BezCurva
+   MenuLocation:Borrador → Herramientas Bézier → Curva Bézier
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Architectura](Arch_Workbench/es.md)
+   Version:0.14
+   SeeAlso:[Borrador CubicBezCurva](Draft_CubicBezCurve/es.md), [Borrador BSpline](Draft_BSpline/es.md)
 ---
 
 # Draft BezCurve/es
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-El <img alt="" src=images/Draft_BezCurve.svg  style="width   *24px;"> **Borrador BezCurva** comando crea una [Curva de Bézier](https   *//es.wikipedia.org/wiki/Curva_de_B%C3%A9zier) a partir de varios puntos.
+El <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Borrador BezCurva** comando crea una [Curva de Bézier](https://es.wikipedia.org/wiki/Curva_de_B%C3%A9zier) a partir de varios puntos.
 
 
 </div>
@@ -27,17 +27,17 @@ El comando crea una única curva de Bézier con una **Degree** que es `number_of
 
 Los comandos [Borrador CubicBezCurva](Draft_CubicBezCurve/es.md) utilizan **puntos de control** para definir la posición y la curvatura de la spline. El comando [Borrador BSpline](Draft_BSpline/es.md), en cambio, especifica los **puntos exactos** por los que pasará la curva
 
-<img alt="" src=images/Draft_BezCurve_Example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
 *Curva de Bézier definida por múltiples puntos*
 
 ## Utilización
 
-Ver también   * [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restricción](Draft_Constrain/es.md).
+Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restricción](Draft_Constrain/es.md).
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Hay varias formas de invocar el comando   *
+1.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_BezCurve.svg" width=16px> [Borrador BezCurve](Draft_BezCurve/es.md)**.
     -   Seleccione la opción **Borrador → Herramientas Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Curva Bézier** en el menú.
 2.  Se abre el panel de tareas **Curva Bézier**. Ver [Opciones](#Opciones.md) para más información.
@@ -78,60 +78,60 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 ## Preferencias
 
-Ver también   * [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
+Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
--   Para cambiar el número de decimales utilizados para la entrada de coordenadas   * **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
--   Para cambiar el valor inicial del modo relleno   * **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
+-   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
+-   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
 
 ## Propiedades
 
 
 <div class="mw-translate-fuzzy">
 
-Ver también   * [Editor de propiedades](property_editor/es.md).
+Ver también: [Editor de propiedades](property_editor/es.md).
 
 
 </div>
 
-Un objeto Draft BezCurva deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y hereda todas sus propiedades. También tiene las siguientes propiedades adicionales   *
+Un objeto Draft BezCurva deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y hereda todas sus propiedades. También tiene las siguientes propiedades adicionales:
 
 ### Datos
 
 
 {{TitleProperty|Borrador}}
 
--    **Area|Area**   * (read-only) specifies the area of the face of the curve. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+-    **Area|Area**: (read-only) specifies the area of the face of the curve. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
 
--    **Closed|Bool**   * specifies if the curve is closed or not. If the curve is initially open this value is `False`, setting it to `True` will draw a segment to close the curve. If the curve is initially closed this value is `True`, setting it to `False` will remove the last segment and make the curve open.
+-    **Closed|Bool**: specifies if the curve is closed or not. If the curve is initially open this value is `False`, setting it to `True` will draw a segment to close the curve. If the curve is initially closed this value is `True`, setting it to `False` will remove the last segment and make the curve open.
 
--    **Continuity|IntegerList**   * (read-only) specifies the continuity of the curve.
+-    **Continuity|IntegerList**: (read-only) specifies the continuity of the curve.
 
--    **Degree|Integer**   * specifies the degree of the curve.
+-    **Degree|Integer**: specifies the degree of the curve.
 
--    **Length|Length**   * (read-only) specifies the total length of the curve.
+-    **Length|Length**: (read-only) specifies the total length of the curve.
 
--    **Make Face|Bool**   * specifies if the curve makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the curve does not self-intersect.
+-    **Make Face|Bool**: specifies if the curve makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the curve does not self-intersect.
 
--    **Points|VectorList**   * specifies the control points of the curve in its local coordinate system.
+-    **Points|VectorList**: specifies the control points of the curve in its local coordinate system.
 
 ### Vistas
 
 
 {{TitleProperty|Borrador}}
 
--    **Arrow Size|Length**   * specifies the size of the symbol displayed at the end of the curve.
+-    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the curve.
 
--    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the end of the curve, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the curve, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **End Arrow|Bool**   * specifies whether to show a symbol at the end of the curve, so it can be used as an annotation line.
+-    **End Arrow|Bool**: specifies whether to show a symbol at the end of the curve, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed curve. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed curve. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Guión
 
-Ver también   * [Documentación de la API autogenerada](https   *//freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para crear una Borrador Línea utilice el método `make_bezcurve` ({{Version/es|0.19}}) del módulo Borrador. Este método sustituye al método obsoleto `makeBezCurve`.
 
@@ -148,7 +148,7 @@ bezcurve = make_bezcurve(Part.Wire, closed=False, placement=None, face=None, sup
 -   Si `placement` es `None` la curva se crea en el origen.
 -   Si `face` es `True`, y la curva es cerrada, la curva formará una cara, es decir, aparecerá rellena.
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/sv
 ---
-- GuiCommand   */sv   Name   *Sketcher LeaveSketch   Name/sv   *Sketcher LeaveSketch   Workbenches   *[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation   *Sketch → Leave sketch|---
+- GuiCommand:/sv   Name:Sketcher LeaveSketch   Name/sv:Sketcher LeaveSketch   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Leave sketch|---
 
 
 </div>
@@ -11,11 +11,11 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 ## Usage
 
-There are several ways to invoke this command   *
+There are several ways to invoke this command:
 
 -   Press the **Close** button at the top of the [task panel](Task_panel.md).
--   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
--   Select the **Sketch → [<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> Leave sketch** option from the menu.
+-   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
+-   Select the **Sketch → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Leave sketch** option from the menu.
 
 
 <div class="mw-translate-fuzzy">
@@ -26,9 +26,7 @@ There are several ways to invoke this command   *
 
 {{Sketcher_Tools_navi
 
-}} 
-
-[Category   *Sketcher/sv](Category   *Sketcher/sv.md)
+}}
 
 
 

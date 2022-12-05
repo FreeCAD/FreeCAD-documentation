@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Add
-   Name/de   *Arch hinzufügen
-   MenuLocation   *Arch → Komponente hinzufügen
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Arch Entfernen](Arch_Remove/de.md)
+- GuiCommand:/de
+   Name:Arch Add
+   Name/de:Arch hinzufügen
+   MenuLocation:Arch → Komponente hinzufügen
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   SeeAlso:[Arch Entfernen](Arch_Remove/de.md)
 ---
 
 # Arch Add/de
 
 ## Beschreibung
 
-Das Werkzeug Hinzufügen ermöglicht dir vier Arten von Arbeitsschritten durchzuführen   *
+Das Werkzeug Hinzufügen ermöglicht dir vier Arten von Arbeitsschritten durchzuführen:
 
 -   Hinzufügen von [Form](Part_Workbench/de.md)-basierten Objekten zu einer Arch-Komponente, wie einer **<img src="images/Arch_Wall.svg" width=16px> [Mauer](Arch_Wall/de.md)** oder **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**. Diese Objekte werden dann Teil der Arch-Komponente und ermöglichen es dir, ihre Form zu verändern, wobei die Basiseigenschaften wie Breite und Höhe erhalten bleiben.
 -   Hinzufügen von Arch-Komponenten, wie ein **<img src="images/Arch_Wall.svg" width=16px> [Arch Wände](Arch_Wall/de.md)** oder **<img src="images/Arch_Structure.svg" width=16px> [Arch Strukturen](Arch_Structure/de.md)**, zu einem gruppenbasierten Arch-Objekt wie **<img src="images/Arch_Floor.svg" width=16px> [Arch Böden](Arch_Floor.md)**.
@@ -21,7 +21,7 @@ Das Werkzeug Hinzufügen ermöglicht dir vier Arten von Arbeitsschritten durchzu
 
 Das Gegenstück zu diesem Werkzeug ist das **<img src="images/Arch_Remove.svg" width=16px>[Arch Entfernen](Arch_Remove/de.md)** Werkzeug.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;"> 
+<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *Ein Quader wird einer Wand als Komponente hinzugefügt.*
 
 ## Anwendung
@@ -32,13 +32,13 @@ Das Gegenstück zu diesem Werkzeug ist das **<img src="images/Arch_Remove.svg" w
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Gitter Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden   *
+Das Gitter Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden:
 
-   *   
+:   
     
 ```python
     addComponents(objectsList, host)
@@ -50,10 +50,10 @@ Das Gitter Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/d
 
 
 
-   *   Der obige Code Schnipsel fügt die in `objectsList` angegebenen Objekte zum `host`-Objekt hinzu.
-   *   **Anmerkung** `objectsList` kann ein einzelnes Objekt oder eine Liste von Objekten sein.
+:   Der obige Code Schnipsel fügt die in `objectsList` angegebenen Objekte zum `host`-Objekt hinzu.
+:   **Anmerkung** `objectsList` kann ein einzelnes Objekt oder eine Liste von Objekten sein.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

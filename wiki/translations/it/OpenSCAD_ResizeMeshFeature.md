@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *OpenSCAD_ResizeMeshFeature
-   Name/it   *Ridimensiona le mesh
-   Empty   *1
-   MenuLocation   *OpenSCAD → Ridimensiona le mesh
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/it.md)
+- GuiCommand:/it
+   Name:OpenSCAD_ResizeMeshFeature
+   Name/it:Ridimensiona le mesh
+   Empty:1
+   MenuLocation:OpenSCAD → Ridimensiona le mesh
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
 ---
 
 # OpenSCAD ResizeMeshFeature/it
@@ -31,7 +31,7 @@ Creates a new resized mesh object with independent sizing for each axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python   *
+-   The function can be accessed via python:
 
 
 ```python

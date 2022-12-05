@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */cs
-   Name   *Constraint PointOnObject
-   Name/cs   *Constraint PointOnObject
-   Workbenches   *[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation   *Sketch → Sketcher constraints → Constrain point onto object
-   SeeAlso   *[Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
+- GuiCommand:/cs
+   Name:Constraint PointOnObject
+   Name/cs:Constraint PointOnObject
+   Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain point onto object
+   SeeAlso:[Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
 ---
 
 # Sketcher ConstrainPointOnObject/cs
@@ -31,14 +31,14 @@
 </div>
 
 1.  Select a point and an edge in any order.
-2.  There are several ways to invoke the command   *
-    -   Press the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Constrain point onto object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
+2.  There are several ways to invoke the command:
+    -   Press the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Constrain point onto object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
     -   Use the **O** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> Constrain point onto object** entry in the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Constrain point onto object** entry in the top menu.
 
 ## Scripting
 
-The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command   *
+The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

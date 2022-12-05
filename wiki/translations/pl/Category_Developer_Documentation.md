@@ -1,8 +1,6 @@
 # Category:Developer Documentation/pl
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/pl](Category   *Documentation/pl.md)
-
 ### Contents
 
 |     |     |     |

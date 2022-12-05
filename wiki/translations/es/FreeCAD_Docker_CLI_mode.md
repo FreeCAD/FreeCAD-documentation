@@ -21,8 +21,8 @@ Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre s�
 
 ## Docker Repositorio 
 
--   Docker Hub   * <https   *//hub.docker.com/r/amrit3701/freecad-cli>
--   Repositorio Github   * <https   *//github.com/amrit3701/docker-freecad-cli>
+-   Docker Hub: <https://hub.docker.com/r/amrit3701/freecad-cli>
+-   Repositorio Github: <https://github.com/amrit3701/docker-freecad-cli>
 
 ## Prerequisitos
 
@@ -32,7 +32,7 @@ Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre s�
 ## Instalación
 
 1.  Extrae la imagen Docker.{{Code|lang=bash|code=
-    docker pull amrit3701/freecad-cli   *latest
+    docker pull amrit3701/freecad-cli:latest
     }}
 
 
@@ -45,7 +45,7 @@ Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre s�
 
 
 {{Code|lang=bash|code=
-docker run -it amrit3701/freecad-cli   *lastest bash
+docker run -it amrit3701/freecad-cli:lastest bash
 }}
 
 ## Información adicional 
@@ -56,7 +56,7 @@ También puedes ampliar estas imágenes Docker para añadir dependencias adicion
 
 # Dockerfile
 
-FROM amrit3701/freecad-cli   *lastest
+FROM amrit3701/freecad-cli:lastest
 
 # Add additional dependencies
 
@@ -69,9 +69,9 @@ Después de ejecutar la imagen Docker, simplemente ejecuta Python.
 
 
 {{Code|lang=bash|code=
-$ docker run -it amrit3701/freecad-cli   *lastest bash
-root@f0ec904cf9b9   */# python3.8
-Python 3.8.5 (default, Jul 20 2020, 19   *48   *14)
+$ docker run -it amrit3701/freecad-cli:lastest bash
+root@f0ec904cf9b9:/# python3.8
+Python 3.8.5 (default, Jul 20 2020, 19:48:14)
 [GCC 7.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import FreeCAD
@@ -86,7 +86,7 @@ Para lanzar FreeCAD dentro de la imagen Docker, simplemente ejecuta el comando F
 
 ## Discusión
 
-FreeCAD hilo de foro   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=45877>
+FreeCAD hilo de foro: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
 
 
 

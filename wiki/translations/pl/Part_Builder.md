@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Part Shapebuilder
-   Name/pl   *Część   * Konstruktor
-   MenuLocation   *Część → Konstruktor kształtu ...
-   Workbenches   *[Część](Part_Workbench/pl.md)
-   SeeAlso   *[Utwórz bryłę pierwotną](Part_CreatePrimitives/pl.md)
+- GuiCommand:/pl
+   Name:Part Shapebuilder
+   Name/pl:Część: Konstruktor
+   MenuLocation:Część → Konstruktor kształtu ...
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Utwórz bryłę pierwotną](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Builder/pl
@@ -15,7 +15,7 @@ Narzędzie to służy do tworzenia bardziej złożonych kształtów z różnych 
 
 ## Użycie
 
-Narzędzie to może tworzyć następujące obiekty   *
+Narzędzie to może tworzyć następujące obiekty:
 
 ### Krawędź z dwóch wierzchołków 
 
@@ -61,9 +61,9 @@ Narzędzie to może tworzyć następujące obiekty   *
 
 ## Uwagi
 
-Jednym z możliwych rozwiązań może być przepływ pracy   *
+Jednym z możliwych rozwiązań może być przepływ pracy:
 
--   Narysuj szkielet modelu o wybranym kształcie za pomocą narzędzi <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Środowiska pracy Rysunek Roboczy](Draft_Workbench/pl.md) *(np. linii i linii łamanej)*.
+-   Narysuj szkielet modelu o wybranym kształcie za pomocą narzędzi <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Środowiska pracy Rysunek Roboczy](Draft_Workbench/pl.md) *(np. linii i linii łamanej)*.
 -   Utwórz wszystkie powierzchnie z powierzchnią od krawędzi.
 -   Utwórz powłokę na powierzchni.
 -   Utwórz bryłę z powłoki.

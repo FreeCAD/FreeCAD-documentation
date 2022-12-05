@@ -1,8 +1,6 @@
 # Category:Drawing/cs
 This category lists pages related to the [Drawing Workbench/cs](Drawing_Workbench/cs.md).
 
-[Category   *Obsolete Workbenches/cs](Category   *Obsolete_Workbenches/cs.md)
-
 ### Contents
 
 |     |     |     |

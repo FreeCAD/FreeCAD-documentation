@@ -1,8 +1,6 @@
 # Category:Work in progress
 This category is for pages that are under construction and should not be touched or translated except by the editors currently working on them.
 
-[Category   *Administration](Category_Administration.md) [Category   *UnfinishedDocu](Category_UnfinishedDocu.md)
-
 ### Contents
 
 |     |     |     |

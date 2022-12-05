@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *Addon/fr
-   Name   *BIM Views
-   Name/fr   *BIM Vues
-   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon   *BIM
-   MenuLocation   *Manage → Views
+- GuiCommand:Addon/fr
+   Name:BIM Views
+   Name/fr:BIM Vues
+   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon:BIM
+   MenuLocation:Manage → Views
 ---
 
 # BIM Views/fr
@@ -15,7 +15,7 @@ Le gestionnaire de vues et de niveaux BIM est une fenêtre ancrable qui s\'ouvre
 
 Le but de cette fenêtre est de permettre d\'accéder rapidement à vos niveaux et configurations de plans de travail, sans avoir à naviguer dans l\'arborescence pour les retrouver.
 
-<img alt="" src=images/BIM_views_screenshot.png  style="width   *800px;">
+<img alt="" src=images/BIM_views_screenshot.png  style="width:800px;">
 
 ## Utilisation
 
@@ -32,8 +32,6 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 -   Cliquez sur le bouton **Isolate** désactive tous les niveaux sauf celui sélectionné
 -   Cliquez sur le bouton **Save camera position** stocke les paramètres d\'affichage actuels dans l\'objet sélectionné, ce qui permet de le restaurer si sa propriété **Restore View** est définie sur True
 -   Cliquez sur le bouton **Rename** vous permet de renommer un objet sélectionné
-
-[Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

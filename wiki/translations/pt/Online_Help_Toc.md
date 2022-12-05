@@ -1,12 +1,12 @@
 # Online Help Toc/pt
-Este é o índice utilizado para a construção do sistema automático da *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página [releases page](https   *//github.com/FreeCAD/FreeCAD/releases). Se tiver alguma questão ou precisar de ajuda com o FreeCAD, consulte a página [ajuda](Help/pt.md), incluindo os fóruns e grupos de conversação.
+Este é o índice utilizado para a construção do sistema automático da *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se tiver alguma questão ou precisar de ajuda com o FreeCAD, consulte a página [ajuda](Help/pt.md), incluindo os fóruns e grupos de conversação.
 
 Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 
 </div>
@@ -29,27 +29,27 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
     -   [Editor de propriedades](Property_editor/pt.md)
 
 -   As [bancadas de trabalho](Workbenches/pt.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;">[Bancada de trabalho Arch (Arquitetura)](Arch_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;">[Bancada de trabalho Draft (Traço)](Draft_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;">[Bancada de trabalho FEM (Método de Elementos Finitos)](FEM_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;">[Bancada de trabalho Image (Imagem)](Image_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;">[Bancada de trabalho Inspection](Inspection_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;">[Bancada de trabalho Mesh (Malhas)](Mesh_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;">[Bancada de OpenSCAD](OpenSCAD_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;">[Bancada de trabalho Part (Peças)](Part_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;">[Bancada de trabalho PartDesign (Desenho de Peças)](PartDesign_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;">[Bancada de trabalho Path](Path_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;">[A bancada de Pontos](Points_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;">[Bancada de trabalho Raytracing](Raytracing_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;">[A bancada de engenharia reversa](Reverse_Engineering_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;">[Bancada de trabalho Robot](Robot_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Bancada de trabalho Sketcher (Esboço)](Sketcher_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;">[Bancada de trabalho Folha de Cálculo](Spreadsheet_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;">[A bancada Iniciar](Start_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> [Bancada de trabalho](Surface_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;">[Bancada de Desenho Técnico (Techdraw)](TechDraw_Workbench/pt.md)
-    -   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [O ambiente de Testes](Testing/pt.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> [Bancada de trabalho da Web](Web_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[Bancada de trabalho Arch (Arquitetura)](Arch_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;">[Bancada de trabalho Draft (Traço)](Draft_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;">[Bancada de trabalho FEM (Método de Elementos Finitos)](FEM_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;">[Bancada de trabalho Image (Imagem)](Image_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;">[Bancada de trabalho Inspection](Inspection_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;">[Bancada de trabalho Mesh (Malhas)](Mesh_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;">[Bancada de OpenSCAD](OpenSCAD_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;">[Bancada de trabalho Part (Peças)](Part_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;">[Bancada de trabalho PartDesign (Desenho de Peças)](PartDesign_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;">[Bancada de trabalho Path](Path_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;">[A bancada de Pontos](Points_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;">[Bancada de trabalho Raytracing](Raytracing_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;">[A bancada de engenharia reversa](Reverse_Engineering_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;">[Bancada de trabalho Robot](Robot_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Bancada de trabalho Sketcher (Esboço)](Sketcher_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;">[Bancada de trabalho Folha de Cálculo](Spreadsheet_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;">[A bancada Iniciar](Start_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Bancada de trabalho](Surface_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;">[Bancada de Desenho Técnico (Techdraw)](TechDraw_Workbench/pt.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [O ambiente de Testes](Testing/pt.md)
+    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Bancada de trabalho da Web](Web_Workbench/pt.md)
     -   [Bancadas de trabalho externas](External_workbenches/pt.md)
 
 -   [Lista de todos os comandos do FreeCAD](List_of_Commands/pt.md)
@@ -109,7 +109,7 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
         -   [Traduzir o FreeCAD](Localisation/pt.md)
         -   [Instalação de módulos python extra](Extra_python_modules.md)
     -   [Documentação de origem](Source_documentation/pt.md)
-    -   [API](https   *//www.freecadweb.org/api/)
+    -   [API](https://www.freecadweb.org/api/)
 
 
 </div>
@@ -118,11 +118,6 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
     -   [Contributos](Contributors/pt.md)
 
 -   [Glossário](Glossary/pt.md)
-
-
-
-
-[Category   *Documentation](Category_Documentation.md)
 
 
 

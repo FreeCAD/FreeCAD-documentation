@@ -1,8 +1,6 @@
 # Sandbox:FBXL5
 Dies ist eine Sandbox
 
-[Category   *Sandbox](Category_Sandbox.md)
-
 
 
 ---

@@ -1,12 +1,7 @@
 # Changelog/it
-La cronologia delle modifiche FreeCAD è conservato nel nostro inseguitore Mantis   *
+La cronologia delle modifiche FreeCAD è conservato nel nostro inseguitore Mantis:
 
-<http   *//www.freecadweb.org/tracker/changelog_page.php>
-
-
-
-
-[Category   *Administration](Category_Administration.md) [Category   *Developer](Category_Developer.md)
+<http://www.freecadweb.org/tracker/changelog_page.php>
 
 
 

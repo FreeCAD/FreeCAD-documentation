@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Plot Grid
-   MenuLocation   *Plot → Show/hide grid‏‎
-   Workbenches   *[Plot](Plot_Workbench.md)
+- GuiCommand:
+   Name:Plot Grid
+   MenuLocation:Plot → Show/hide grid‏‎
+   Workbenches:[Plot](Plot_Workbench.md)
 ---
 
 # Plot Grid/es
@@ -11,7 +11,7 @@
 
 This tool allows the user to enable/disable the grid lines on a specific plot.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Usage
 
@@ -25,9 +25,7 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

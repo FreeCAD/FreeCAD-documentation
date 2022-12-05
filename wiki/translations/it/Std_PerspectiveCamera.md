@@ -1,6 +1,6 @@
 # Std PerspectiveCamera/it
 ---
-- GuiCommand   */it   Name   *Std_PerspectiveCamera   Name/it   *Vista in prospettiva   MenuLocation   *Visualizza → Vista in prospettiva   Workbenches   *Tutti   Shortcut   ***V** **P**   SeeAlso   *[Vista ortografica](Std_OrthographicCamera/it.md)---
+- GuiCommand:/it   Name:Std_PerspectiveCamera   Name/it:Vista in prospettiva   MenuLocation:Visualizza → Vista in prospettiva   Workbenches:Tutti   Shortcut:**V** **P**   SeeAlso:[Vista ortografica](Std_OrthographicCamera/it.md)---
 
 ## Descrizione
 
@@ -11,9 +11,9 @@ Il comando **Vista in prospettiva** commuta la [vista 3D](3D_view/it.md) attiva 
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **Visualizza → <img src="images/Std_PerspectiveCamera.svg" width=16px> Vista in prospettiva** dal menu.
-    -   Usare la scorciatoia da tastiera   * **V** e poi **P**.
+    -   Usare la scorciatoia da tastiera: **V** e poi **P**.
 
 ## Note
 
@@ -21,12 +21,12 @@ Il comando **Vista in prospettiva** commuta la [vista 3D](3D_view/it.md) attiva 
 
 ## Preferenze
 
--   Il tipo di camera può essere modificato nelle preferenze   * **Modifica → Preferenze... → Visualizzazione → Vista 3D → Tipo di camera**. Il tipo selezionato verrà utilizzato per tutte le viste 3D di tutti i documenti aperti e anche per i nuovi documenti. Vedere in [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+-   Il tipo di camera può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Tipo di camera**. Il tipo selezionato verrà utilizzato per tutte le viste 3D di tutti i documenti aperti e anche per i nuovi documenti. Vedere in [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

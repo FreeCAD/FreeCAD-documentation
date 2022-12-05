@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 ConstraintSymmetricVertical
-   Name/de   *Assembly3 Vertikale Symmetrie
-   Icon   *Assembly_ConstraintGeneral.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand:/de
+   Name:Assembly3 ConstraintSymmetricVertical
+   Name/de:Assembly3 Vertikale Symmetrie
+   Icon:Assembly_ConstraintGeneral.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSymmetricVertical/de

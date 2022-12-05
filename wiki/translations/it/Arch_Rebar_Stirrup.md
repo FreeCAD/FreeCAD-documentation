@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch_Rebar_Stirrup
-   Name/it   *Staffe armatura
-   MenuLocation   *Arch → Strumenti armatura → Staffe armatura o BIM → 3D/BIM → Reinforcement → Stirrup
-   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso   *[Armatura elicoidale](Arch_Rebar_Helical/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
-   Version   *0.17
+- GuiCommand:/it
+   Name:Arch_Rebar_Stirrup
+   Name/it:Staffe armatura
+   MenuLocation:Arch → Strumenti armatura → Staffe armatura o BIM → 3D/BIM → Reinforcement → Stirrup
+   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso:[Armatura elicoidale](Arch_Rebar_Helical/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
+   Version:0.17
 ---
 
 # Arch Rebar Stirrup/it
@@ -22,12 +22,12 @@ Lo strumento **Staffe armatura** è anche integrato in [BIM](BIM_Workbench/it.md
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Un set di staffe di rinforzo all'interno di una [Struttura](Arch_Structure/it.md)*
 
 ## Utilizzo
@@ -53,7 +53,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 10. Cliccare **Annulla** per uscire dal pannello delle azioni.
 
-   *   <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
@@ -61,34 +61,34 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Proprietà
 
--    {{PropertyData/it|Orientation}}   * Decide l\'orientamento dell\'armatura (es. in basso, in alto, a destra e a sinistra).
+-    {{PropertyData/it|Orientation}}: Decide l\'orientamento dell\'armatura (es. in basso, in alto, a destra e a sinistra).
 
--    {{PropertyData/it|Front Cover}}   * La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
+-    {{PropertyData/it|Front Cover}}: La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
 
--    {{PropertyData/it|Right Cover}}   * La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
+-    {{PropertyData/it|Right Cover}}: La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
 
--    {{PropertyData/it|Left Cover}}   * La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
+-    {{PropertyData/it|Left Cover}}: La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
 
--    {{PropertyData/it|Bottom Cover}}   * La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
+-    {{PropertyData/it|Bottom Cover}}: La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
 
--    {{PropertyData/it|Top Cover}}   * La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
+-    {{PropertyData/it|Top Cover}}: La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
 
--    {{PropertyData/it|Bent Angle}}   * L\'angolo del gancio finale della staffa.
+-    {{PropertyData/it|Bent Angle}}: L\'angolo del gancio finale della staffa.
 
--    {{PropertyData/it|Bent Factor}}   * Lunghezza del gancio finale della staffa.
+-    {{PropertyData/it|Bent Factor}}: Lunghezza del gancio finale della staffa.
 
--    {{PropertyData/it|Amount}}   * La quantità di barre.
+-    {{PropertyData/it|Amount}}: La quantità di barre.
 
--    {{PropertyData/it|Spacing}}   * La distanza tra gli assi di ogni barra.
+-    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
 ## Scripting
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Staffe armatura può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   * 
+Lo strumento Staffe armatura può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -130,7 +130,7 @@ Rebar = Stirrup.makeStirrup(20, 20, 20, 20, 20,
 
 ### Modifica delle barre 
 
-È possibile modificare le proprietà dell\'armatura con la seguente funzione   * 
+È possibile modificare le proprietà dell\'armatura con la seguente funzione: 
 ```python
 editStirrup(Rebar, l_cover, r_cover, t_cover, b_cover, f_cover,
             bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -159,11 +159,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -1,13 +1,13 @@
 # Sketcher Create3PointArc/ro
 ---
-- GuiCommand   */ro   Name   *Sketcher Create3PointArc   Name/ro   *Sketcher Create3PointArc   Workbenches   *[[Sketcher Workbench/ro   Sketcher]]|MenuLocation   *Sketch → Sketcher geometries → Create Arc by three points   Shortcut   *   SeeAlso   *---
+- GuiCommand:/ro   Name:Sketcher Create3PointArc   Name/ro:Sketcher Create3PointArc   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create Arc by three points   Shortcut:   SeeAlso:---
 
 
 </div>
 
 ## Descriere
 
-Acest instrument desenează un arc de cerc definit prin 3 puncte   * punctul de start, punctul final și un alt punct de pe arcul de cerc.
+Acest instrument desenează un arc de cerc definit prin 3 puncte: punctul de start, punctul final și un alt punct de pe arcul de cerc.
 
 
 <div class="mw-translate-fuzzy">

@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/it
 ---
-- GuiCommand   */it   Name   *Sketcher ConstrainParallel   Name/it   *Parallela   Icon   *Constraint Parallel.svg   Workbenches   *[MenuLocation   *PartDesign → Schizzo → Parallela   Shortcut   ***Shift** + **P**   SeeAlso   *[[Sketcher ConstrainVertical/it|Verticale](Sketcher_Workbench/it___Schizzo]].md), [Orizzontale](Sketcher_ConstrainHorizontal/it.md)---
+- GuiCommand:/it   Name:Sketcher ConstrainParallel   Name/it:Parallela   Icon:Constraint Parallel.svg   Workbenches:[MenuLocation:PartDesign → Schizzo → Parallela   Shortcut:**Shift** + **P**   SeeAlso:[[Sketcher ConstrainVertical/it|Verticale](Sketcher_Workbench/it___Schizzo]].md), [Orizzontale](Sketcher_ConstrainHorizontal/it.md)---
 
 
 </div>
@@ -16,7 +16,7 @@ Il disegno contiene due linee orientate in modo casuale.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel1.png  style="width   *256px;">
+<img alt="" src=images/ConstrainParallel1.png  style="width:256px;">
 
 
 </div>
@@ -32,7 +32,7 @@ Selezionare entrambe le linee facendo clic in successione su ciascuna di esse.
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel2.png  style="width   *256px;">
+<img alt="" src=images/ConstrainParallel2.png  style="width:256px;">
 
 
 </div>
@@ -40,9 +40,9 @@ Selezionare entrambe le linee facendo clic in successione su ciascuna di esse.
 
 <div class="mw-translate-fuzzy">
 
-Applicare il vincolo Parallela in uno di questi modi   *
+Applicare il vincolo Parallela in uno di questi modi:
 
--   Cliccare sull\'icona <img alt="" src=images/Constraint_Parallel.png  style="width   *16px;"> nella barra degli strumenti dei vincoli di Sketcher
+-   Cliccare sull\'icona <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> nella barra degli strumenti dei vincoli di Sketcher
 -   Usare la scorciatoia da tastiera **Shift** + **P**.
 -   Usare la voce **Sketch → Vincoli → Parallela** dal menu principale.
 
@@ -52,7 +52,7 @@ Applicare il vincolo Parallela in uno di questi modi   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel3.png  style="width   *256px;">
+<img alt="" src=images/ConstrainParallel3.png  style="width:256px;">
 
 
 </div>

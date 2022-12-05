@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */zh-cn
-   Name   *Arch Add   Name/zh-cn   *建筑添加工具
-   MenuLocation   *Arch → Add
-   Workbenches   *[Arch](Arch_Workbench.md)
-   SeeAlso   *[Arch Remove](Arch_Remove.md)
+- GuiCommand:/zh-cn
+   Name:Arch Add   Name/zh-cn:建筑添加工具
+   MenuLocation:Arch → Add
+   Workbenches:[Arch](Arch_Workbench.md)
+   SeeAlso:[Arch Remove](Arch_Remove.md)
 ---
 
 # Arch Add/zh-cn
@@ -34,7 +34,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;"> 
+<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *将立方体添加至墙体，从而融为一体。*
 
 
@@ -60,7 +60,7 @@
 ## 脚本
 
 
-**参阅   ***
+**参阅:**
 
 [Arch API](Arch_API.md) 与 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
 
@@ -76,7 +76,7 @@
 </div>
 
 
-   *   
+:   
     
 ```python
     addComponents(objectsList, host)

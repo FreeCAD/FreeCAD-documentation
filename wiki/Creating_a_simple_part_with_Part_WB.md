@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   *   Topic   *Modeling
-   Level   *Beginner
-   Author   *heda
-   Time   *2 hours
-   FCVersion   *0.19 or above
-   Files   *
-   SeeAlso   *[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
+- TutorialInfo:   Topic:Modeling
+   Level:Beginner
+   Author:heda
+   Time:2 hours
+   FCVersion:0.19 or above
+   Files:
+   SeeAlso:[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
 ---
 
 # Creating a simple part with Part WB
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This tutorial aims to be used as a first introduction to 3D modeling using the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ) of FreeCAD. After having finished this tutorial you should be able to make simple 3D models by using primitives like cubes, cylinders, etc with a technique called [Constructive Solid Geometry](https   *//en.wikipedia.org/wiki/Constructive_solid_geometry), short **CSG** modeling. Another way to create 3D models is by using a 2D shape by for example extruding or revolving the 2D shape in 3D space. For an introduction of that technique please follow the sister-tutorial *[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)*. The two tutorials intentionally have exactly the same model generated, this presents the beginner with a hands on experience of the two different techniques and how they are implemented in FreeCAD. The definition of the two techniques can be viewed as strictly divided from a semantic point of view, however there is nothing directly hindering a mix of the techniques when creating models. There are some caveats to watch out for when mixing modeling techniques, those are mainly related to aspects of how FreeCAD is programmed. There is a [third tutorial](Creating_a_simple_part_with_Draft_and_Part_WB.md) intended as a first introduction to a mixed modeling example. That tutorial uses the **Draft Workbench** to create a 2D profile utilized to extrude a solid in the **Part Workbench** to make the same model as in this tutorial.
+This tutorial aims to be used as a first introduction to 3D modeling using the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ) of FreeCAD. After having finished this tutorial you should be able to make simple 3D models by using primitives like cubes, cylinders, etc with a technique called [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry), short **CSG** modeling. Another way to create 3D models is by using a 2D shape by for example extruding or revolving the 2D shape in 3D space. For an introduction of that technique please follow the sister-tutorial *[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)*. The two tutorials intentionally have exactly the same model generated, this presents the beginner with a hands on experience of the two different techniques and how they are implemented in FreeCAD. The definition of the two techniques can be viewed as strictly divided from a semantic point of view, however there is nothing directly hindering a mix of the techniques when creating models. There are some caveats to watch out for when mixing modeling techniques, those are mainly related to aspects of how FreeCAD is programmed. There is a [third tutorial](Creating_a_simple_part_with_Draft_and_Part_WB.md) intended as a first introduction to a mixed modeling example. That tutorial uses the **Draft Workbench** to create a 2D profile utilized to extrude a solid in the **Part Workbench** to make the same model as in this tutorial.
 
 Before you start please have a look at how to **[navigate](Mouse_navigation.md)** in 3D space. When hoovering over the mouse model selector in the lower right corner of the FreeCAD window, a cheat-sheet of the current mouse model appears as in the picture below.
 
@@ -39,7 +39,7 @@ Many newcomers to CAD programs get stuck while learning the software, if that ha
 
 ## The model to make 
 
- <img alt="" src=images/GGTuto1_Vue.PNG  style="width   *372px;">
+ <img alt="" src=images/GGTuto1_Vue.PNG  style="width:372px;">
 
 ![](images/T101pwb01-02_dims.png ) 
 
@@ -49,9 +49,9 @@ Create a new document and save it directly under a new name, it is good practice
 
 ### Create the main solid block 
 
-Press <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Box](Part_Box.md) to make a default solid cube. The cube appears in the [3D view](3D_view.md) and also as a new object in the [Tree view](Tree_view.md) in the sidebar.
+Press <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Box](Part_Box.md) to make a default solid cube. The cube appears in the [3D view](3D_view.md) and also as a new object in the [Tree view](Tree_view.md) in the sidebar.
 
-Press <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Isometric](Std_ViewIsometric.md) to see the cube in 3D.
+Press <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometric](Std_ViewIsometric.md) to see the cube in 3D.
 
  ![](images/T101pwb01-03_cube1.png ) 
 
@@ -61,13 +61,13 @@ Select the cube in the [Tree view](Tree_view.md), it becomes green in the 3D vie
 
 When changing a property, like *Length* through the spinbox, one can either enter the values, or use the scroll-wheel to tick values up or down. The arrows for ticking values up or down can of course also be used. In the right most picture above, the *Height* property is in edit mode, rolling the scroll wheel when the mouse is over that cell will change the value by one up or down.
 
-Click <img alt="" src=images/Std_ViewFitAll.svg  style="width   *24px;"> **[Fit all](Std_ViewFitAll.md)** to see the whole cube.
+Click <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> **[Fit all](Std_ViewFitAll.md)** to see the whole cube.
 
  ![](images/T101pwb01-05_cube2.png ) 
 
 ### Create the fillet 
 
-To make the filleted corner, in the toolbar press <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> **[Fillet](Part_Fillet.md)** which opens the *task panel* for fillets in the [combo view](Combo_view.md) to the side. Change the *radius* spinbox to 20 mm, then in the 3D view, select the width edge to the upper right and click **OK**.
+To make the filleted corner, in the toolbar press <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> **[Fillet](Part_Fillet.md)** which opens the *task panel* for fillets in the [combo view](Combo_view.md) to the side. Change the *radius* spinbox to 20 mm, then in the 3D view, select the width edge to the upper right and click **OK**.
 
  ![](images/T101pwb01-06_filletrad.png ) 
 
@@ -83,7 +83,7 @@ Click the plus sign/caret to expand the children of the fillet, which in this ca
 
 Next is to create the 30 degree *chamfer*, start by toggling the visibility of the child cube of the fillet. There is a chamfer tool in [Part Workbench](Part_Workbench.md), but instead of using it we will make the chamfer with another block and a boolean cut.
 
-Create a new <img alt="" src=images/Part_Box.svg  style="width   *24px;"> **[Box](Part_Box.md)** with dimensions 60 x 30 x 30. Change the **placement angle** to -30 degrees.
+Create a new <img alt="" src=images/Part_Box.svg  style="width:24px;"> **[Box](Part_Box.md)** with dimensions 60 x 30 x 30. Change the **placement angle** to -30 degrees.
 
  ![](images/T101pwb01-08_chamfer1.png ) 
 
@@ -99,7 +99,7 @@ Furthermore the position needs to be adjusted, looking at the drawing of the fin
 
  ![](images/T101pwb01-10_pyconsole.png ) 
 
-After importing the **[math](https   *//docs.python.org/3/library/math.html#module-math)** module from the standard libraries in python we can use the formula *(50 - math.tan(math.radians(30)) \* 50)* to find the distance in z-direction that the block should be moved. Copy the result of the formula from the Python console and paste it into the z position for **Cube001**. The *tool* to use for the chamfer *cut* is now properly oriented and positioned.
+After importing the **[math](https://docs.python.org/3/library/math.html#module-math)** module from the standard libraries in python we can use the formula *(50 - math.tan(math.radians(30)) \* 50)* to find the distance in z-direction that the block should be moved. Copy the result of the formula from the Python console and paste it into the z position for **Cube001**. The *tool* to use for the chamfer *cut* is now properly oriented and positioned.
 
  ![](images/T101pwb01-11_chamfer3.png ) 
 
@@ -113,7 +113,7 @@ Clicking that icon opens new window *Formula editor* where formulas and expressi
 
  ![](images/T101pwb01-13_expression2.png ) 
 
-To make the cut, with the **Ctrl** key pressed down first select the **Fillet** in the Tree view and then the latest created cube (named **Cube001**) and finally in the toolbar press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button. Your Tree view should now again be a single object in the root called **Cut**.
+To make the cut, with the **Ctrl** key pressed down first select the **Fillet** in the Tree view and then the latest created cube (named **Cube001**) and finally in the toolbar press the <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **[Cut](Part_Cut.md)** button. Your Tree view should now again be a single object in the root called **Cut**.
 
  ![](images/T101pwb01-14_model1.png ) 
 
@@ -127,7 +127,7 @@ More common is to adjust the layout of the toolbars to suit your needs and your 
 
 #### The measurement tool 
 
-The **[measurement tool](Part_Workbench#Measure.md)** in the **Part Workbench** can be used to check that our calculation and placement of the chamfer is correct. Press the <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> **[Measure Linear](Part_Measure_Linear.md)** button and a *task panel* opens up, then select the 2 endpoints of one side of the chamfer.
+The **[measurement tool](Part_Workbench#Measure.md)** in the **Part Workbench** can be used to check that our calculation and placement of the chamfer is correct. Press the <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> **[Measure Linear](Part_Measure_Linear.md)** button and a *task panel* opens up, then select the 2 endpoints of one side of the chamfer.
 
  ![](images/T101pwb01-15_model1measure1.png ) 
 
@@ -135,15 +135,15 @@ It checks out with an x dimension of 50 mm, clear the measurement and close the 
 
 ### Create the hole 
 
-To make the hole, press the <img alt="" src=images/Part_Cylinder.svg  style="width   *24px;"> **[Cylinder](Part_Cylinder.md)** button, set the *radius* to 5 mm and *height* to 50 mm.
+To make the hole, press the <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **[Cylinder](Part_Cylinder.md)** button, set the *radius* to 5 mm and *height* to 50 mm.
 
  ![](images/T101pwb01-16_cyl1.png ) 
 
-Next we need to position the hole according to the dimensions in the drawing. Change the view to <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Top](Std_ViewTop.md)** view, then right-click the **Cylinder** in the Tree view and select **Transform** from the pop-up menu.
+Next we need to position the hole according to the dimensions in the drawing. Change the view to <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> **[Top](Std_ViewTop.md)** view, then right-click the **Cylinder** in the Tree view and select **Transform** from the pop-up menu.
 
  ![](images/T101pwb01-17_cyl1translate.png ) 
 
-Change the *Translation increment* to 5 and use the red and green arrow to position the cylinder in the right position, moving it 15 mm in y and 65 in x by dragging the arrow ends with the mouse. Click **OK** to close the *Transform* dialogue. To make the hole press the **Ctrl** key and select the **Cut** and **Cylinder** in the Tree view, then press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button in the toolbar. Your Tree view should once again have a single object in the root called **Cut001**.
+Change the *Translation increment* to 5 and use the red and green arrow to position the cylinder in the right position, moving it 15 mm in y and 65 in x by dragging the arrow ends with the mouse. Click **OK** to close the *Transform* dialogue. To make the hole press the **Ctrl** key and select the **Cut** and **Cylinder** in the Tree view, then press the <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **[Cut](Part_Cut.md)** button in the toolbar. Your Tree view should once again have a single object in the root called **Cut001**.
 
 Congratulations, the model is now ready.
 
@@ -167,15 +167,15 @@ Do a *save-as* under a new name. Then delete the cut that added the hole and mov
 
  ![](images/T101pwb03-01_cyl.png ) 
 
-This time the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> **[Draft Workbench](Draft_Workbench.md)** will be used to locate the hole. The hole is as before to be located at the center of the upper face, which is the same as the midpoint of the diagonal of the upper face.
+This time the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> **[Draft Workbench](Draft_Workbench.md)** will be used to locate the hole. The hole is as before to be located at the center of the upper face, which is the same as the midpoint of the diagonal of the upper face.
 
-Start by switching the workbench to **Draft**, it might be that a *grid* appears in the 3D view, the grid visibility can be toggled with <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Toggle Grid](Draft_ToggleGrid.md) in the toolbar. When making use of the **[snap](Draft_Snap.md)** functionality in the **Draft Workbench** it helps to only have the *snap types* of interest enabled. This time it is sufficient to leave *endpoint, midpoint and circle center enabled*, so the settings for snapping should look something like below.
+Start by switching the workbench to **Draft**, it might be that a *grid* appears in the 3D view, the grid visibility can be toggled with <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> [Toggle Grid](Draft_ToggleGrid.md) in the toolbar. When making use of the **[snap](Draft_Snap.md)** functionality in the **Draft Workbench** it helps to only have the *snap types* of interest enabled. This time it is sufficient to leave *endpoint, midpoint and circle center enabled*, so the settings for snapping should look something like below.
 
  ![](images/T101pwb03-02_snap.png ) 
 
 Finding the point to place the center of the cylinder could be done by making a diagonal as helpline and use the center of the cylinder and midpoint of the diagonal to identify the points to move between, however it turns out that we do not even need to make any helplines, we can snap on already existing solid geometry.
 
-Select the **Cylinder** in the Tree view (it turns green in the 3D view) and press the <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **[Move](Draft_Move.md)** button in the toolbar. A *task panel* opens for moving objects, make sure that *Copy* is unchecked.
+Select the **Cylinder** in the Tree view (it turns green in the 3D view) and press the <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **[Move](Draft_Move.md)** button in the toolbar. A *task panel* opens for moving objects, make sure that *Copy* is unchecked.
 
  ![](images/T101pwb03-03_move.png ) 
 
@@ -191,7 +191,7 @@ Repeating the step of the **boolean cut** from earlier once again will make the 
 
 ## Making the hole a countersunk hole 
 
-Switch back to the [Part Workbench](Part_Workbench.md) and create a *cone* by pressing the <img alt="" src=images/Part_Cone.svg  style="width   *24px;"> **[Cone](Part_Cone.md)** button in the toolbar. Change *radius1* to 0 mm and *radius2* to 7 mm -- this will give a 2 mm *countersink* on the radius. Making the *height* of the cone 7 mm results in a 90 degree top angle of the cone, or 45 degree countersink angle. Worth to note is that again one could as well use the <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Chamfer](Part_Chamfer.md) operation.
+Switch back to the [Part Workbench](Part_Workbench.md) and create a *cone* by pressing the <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **[Cone](Part_Cone.md)** button in the toolbar. Change *radius1* to 0 mm and *radius2* to 7 mm -- this will give a 2 mm *countersink* on the radius. Making the *height* of the cone 7 mm results in a 90 degree top angle of the cone, or 45 degree countersink angle. Worth to note is that again one could as well use the <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Chamfer](Part_Chamfer.md) operation.
 
 When working with FreeCAD you will continuously be faced with several different ways to achieve seemingly the same result. There is hardly any absolute truth in what is the right way to achieve a particular end result -- however when looking in a specific context one specific workflow can be more flexible, allow for later features to actually be used etc. How you build 3D models will evolve over time as you along the way learn more and more about the features and capabilities of FreeCAD.
 
@@ -199,11 +199,11 @@ When working with FreeCAD you will continuously be faced with several different 
 
 Translate the cone so that it is *concentric* with the hole and *coplanar* with the main solid upper surface. Use any method described earlier in this tutorial to accomplish that.
 
-In the picture below the move is made with *Transform* and an *increment* setting of 1 mm, since the cone has a characteristic dimension of 7 mm, meaning that the earlier increment setting of 5 mm will not allow for correct positioning. The <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> **[Wireframe](Std_DrawStyle#Wireframe.md)** rendering is used to easier see that the cone is in the right position.
+In the picture below the move is made with *Transform* and an *increment* setting of 1 mm, since the cone has a characteristic dimension of 7 mm, meaning that the earlier increment setting of 5 mm will not allow for correct positioning. The <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> **[Wireframe](Std_DrawStyle#Wireframe.md)** rendering is used to easier see that the cone is in the right position.
 
  ![](images/T101pwb04-02_conetranslate.png ) 
 
-To complete the model, let\'s make use of the <img alt="" src=images/Part_Boolean.svg  style="width   *24px;"> **[Boolean](Part_Boolean.md)** command instead of first selecting objects and apply a specific boolean operation. Press the toolbar button and a *task panel* opens as per the below picture to the left.
+To complete the model, let\'s make use of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> **[Boolean](Part_Boolean.md)** command instead of first selecting objects and apply a specific boolean operation. Press the toolbar button and a *task panel* opens as per the below picture to the left.
 
  ![](images/T101pwb04-03_boolean.png ) 
 
@@ -213,13 +213,13 @@ Three items needs to be specified, the *operation type*, the *first shape* and t
 
 ## Making a hollow piece 
 
-Do a *save-as* under a new name. FreeCAD has all of the typical operations of a 3D modeller, one of them is <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> **[Thickness](Part_Thickness.md)**, which is used to *hollow out* parts.
+Do a *save-as* under a new name. FreeCAD has all of the typical operations of a 3D modeller, one of them is <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Thickness](Part_Thickness.md)**, which is used to *hollow out* parts.
 
 Rotate the view so that the bottom face of the model is visible.
 
  ![](images/T101pwb05-01_frombottom.png ) 
 
-Select the *bottom face* of the model, then in the [Part Workbench](Part_Workbench.md) select <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> **[Thickness](Part_Thickness.md)** and the screen should look like below.
+Select the *bottom face* of the model, then in the [Part Workbench](Part_Workbench.md) select <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Thickness](Part_Thickness.md)** and the screen should look like below.
 
  ![](images/T101pwb05-02_thickness_cmd.png ) 
 
@@ -259,7 +259,7 @@ This once again highlights that there are always several ways to produce the sam
 
 FreeCAD is a parametric 3D modeler, this allows you to change any *placement* or *dimension* and the model will update accordingly. In general this works, but it is possible to break a model when edited -- for example when a fillet is based on an edge that no longer exists due to editing. When a model breaks during editing, it is referred to as **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
 
-Go ahead and experiment with changing dimensions and placements to see if you can break the model, do not forget to recalculate the model after changes if required. This can be done with the <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Refresh](Std_Refresh.md) button in the toolbar, if the icon is grayed out it is not needed to refresh the object.
+Go ahead and experiment with changing dimensions and placements to see if you can break the model, do not forget to recalculate the model after changes if required. This can be done with the <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Refresh](Std_Refresh.md) button in the toolbar, if the icon is grayed out it is not needed to refresh the object.
 
 ### Reposition the cylinder 
 
@@ -313,7 +313,7 @@ Do a *save-as* under a new name. Then delete all the cuts ending up with a model
 
 When using the **Part Workbench** and modelling feature rich solids, the tree structure of a solid can become hard to decipher. So far we have created one primitive / feature and applied a boolean operation. In the Part Workbench one can bundle primitives into one boolean operation. In our case we have the cylinder, cone and cube that are all a cut boolean operation.
 
-Instead of making a cut for each primitive, we can first apply a boolean union, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[Fuse](Part_Fuse.md)** the primitives intended for the boolean cut, and then make the *cut* between the **Fillet** and the **Fusion**.
+Instead of making a cut for each primitive, we can first apply a boolean union, <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> **[Fuse](Part_Fuse.md)** the primitives intended for the boolean cut, and then make the *cut* between the **Fillet** and the **Fusion**.
 
 Using this approach, the Tree view ends up looking like below, which is just a different way of building the same model. Compare this with the original Tree view, none is better than the other, however when making more complex models, one approach over the other can have benefits in ease of modifying/reorganizing the model if needed.
 
@@ -324,10 +324,6 @@ Using this approach, the Tree view ends up looking like below, which is just a d
 Having gone through the tutorial you are now briefly acquainted with the user interface of FreeCAD and you have learned the basics in using the **Part Workbench**. You should now be able to build simple models after your own liking. The **Part Workbench** is one of the workbenches that can be used to create solids, the **PartDesign Workbench** is another. The different workbenches have different capabilities and workflows. Learning FreeCAD in full, especially considering all add-ons and macros takes years, so keep on exploring new and different ways of making models -- take different tutorials on the wiki, the learning never stops when working with FreeCAD. It is suggested that you learn *sketches* and the **PartDesign Workbench** next if your focus is on creating solids. If your focus is modelling buildings your next learning should be the **Draft** and **Arch** workbenches.
 
 At last, FreeCAD is made by volunteers in their spare time. If you want to further advance FreeCAD's capabilities, consider [contributing](Help_FreeCAD.md) to FreeCAD, for example by improving the documentation.
-
-
-
-[Category   *Part](Category_Part.md)
 
 
 

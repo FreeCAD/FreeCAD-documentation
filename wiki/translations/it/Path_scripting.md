@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-L\'ambiente Path offre strumenti per importare, creare, manipolare e esportare [percorsi delle macchine utensili](http   *//en.wikipedia.org/wiki/G-code) in FreeCAD. Con esso, l\'utente è in grado di importare, visualizzare e modificare i programmi GCode esistenti, generare percorsi di forme 3D, ed esportare questi percorsi utensile in Gcode.
+L\'ambiente Path offre strumenti per importare, creare, manipolare e esportare [percorsi delle macchine utensili](http://en.wikipedia.org/wiki/G-code) in FreeCAD. Con esso, l\'utente è in grado di importare, visualizzare e modificare i programmi GCode esistenti, generare percorsi di forme 3D, ed esportare questi percorsi utensile in Gcode.
 
 
 <div class="mw-translate-fuzzy">
@@ -15,7 +15,7 @@ Allo stato attuale, però, lo sviluppo dell\'ambiente Path è appena iniziato, e
 
 ## Avvio rapido 
 
-Gli oggetti Path (percorso) di FreeCAD sono fatti di una sequenza di comandi di movimento. Un utilizzo tipico è questo   *
+Gli oggetti Path (percorso) di FreeCAD sono fatti di una sequenza di comandi di movimento. Un utilizzo tipico è questo:
 
 
 ```python
@@ -24,7 +24,7 @@ Gli oggetti Path (percorso) di FreeCAD sono fatti di una sequenza di comandi di 
 >>> c2 = Path.Command("g1y4")
 >>> c3 = Path.Command("g1 x2 y2") # spaces end newlines are not considered
 >>> p = Path.Path([c1,c2,c3])
->>> o = App.ActiveDocument.addObject("Path   *   *Feature","mypath")
+>>> o = App.ActiveDocument.addObject("Path::Feature","mypath")
 >>> o.Path = p
 >>> print p.toGCode()
 ```
@@ -51,9 +51,9 @@ Tutte le traduzioni dai/nei dialetti del GCode di FreeCAD vengono effettuate tra
 
 </div>
 
-Le seguenti regole e linee guida definiscono il sottoinsieme di GCode utilizzato all\'interno di FreeCAD   *
+Le seguenti regole e linee guida definiscono il sottoinsieme di GCode utilizzato all\'interno di FreeCAD:
 
--   I dati GCode, all\'interno degli oggetti Path di FreeCAD, sono separati in \"Commands\" (comandi). Un comando è definito dal nome del comando, che deve iniziare con G o M, e da argomenti(opzionali), che sono nella forma Lettera = Float (flottante), ad esempio X 0.02 o Y 3.5 o F 300. Questi sono esempi di tipici comandi Gcode in FreeCAD   *
+-   I dati GCode, all\'interno degli oggetti Path di FreeCAD, sono separati in \"Commands\" (comandi). Un comando è definito dal nome del comando, che deve iniziare con G o M, e da argomenti(opzionali), che sono nella forma Lettera = Float (flottante), ad esempio X 0.02 o Y 3.5 o F 300. Questi sono esempi di tipici comandi Gcode in FreeCAD:
 
 
 <div class="mw-translate-fuzzy">
@@ -83,7 +83,7 @@ G90 (Il nome del comando è G90, non ci sono argomentis)
 -   In questo momento sono supportati solo i comandi che iniziano per G o M.
 -   Per ora, sono accettati solo i millimetri. G20/G21 non sono considerati.
 -   Gli argomenti sono sempre in ordine alfabetico. Questo significa che se si crea un comando con \"G1 X2 Y4 F300\", viene memorizzato come \"G1 F300 X2 Y4\"
--   Gli argomenti non possono essere ripetuti all\'interno di uno stesso comando. Ad esempio, \"G1 X1 X2 Y2 Y3\" non funziona. Deve essere diviso in due comandi, per esempio   * \"G1 X1 Y2, Y3 G1 X2\"
+-   Gli argomenti non possono essere ripetuti all\'interno di uno stesso comando. Ad esempio, \"G1 X1 X2 Y2 Y3\" non funziona. Deve essere diviso in due comandi, per esempio: \"G1 X1 Y2, Y3 G1 X2\"
 -   Gli argomenti X, Y, Z, A, B, C sono assoluti o relativi, secondo la modalità attiva G90/G91. Predefinito (se non specificato) è assoluto.
 -   I, J, K sono sempre relativi all\'ultimo punto. K può essere omesso.
 -   X, Y, o Z (e A, B, C) possono essere omessi. In questo caso, sono mantenuti le precedenti coordinate X, Y o Z.
@@ -110,7 +110,7 @@ G90 (Il nome del comando è G90, non ci sono argomentis)
 
 ## L\'oggetto Command 
 
-L\'oggetto Command rappresenta un comando Gcode. Ha tre attributi   * Name, Parameters e Placement (Nome,Parametri e posizione), e due metodi   * toGCode() e setFromGCode(). Internamente, contiene solo un nome e un dizionario di parametri. Il resto (posizionamento e gcode) viene calcolato da/a questi dati.
+L\'oggetto Command rappresenta un comando Gcode. Ha tre attributi: Name, Parameters e Placement (Nome,Parametri e posizione), e due metodi: toGCode() e setFromGCode(). Internamente, contiene solo un nome e un dizionario di parametri. Il resto (posizionamento e gcode) viene calcolato da/a questi dati.
 
 
 ```python
@@ -121,54 +121,54 @@ Command  ( )
 >>> c.Name = "G1"
 >>> c
 Command G1 ( )
->>> c.Parameters= {"X"   *1,"Y"   *0}
+>>> c.Parameters= {"X":1,"Y":0}
 >>> c
-Command G1 ( X   *1 Y   *0 )
+Command G1 ( X:1 Y:0 )
 >>> c.Parameters
-{'Y'   * 0.0, 'X'   * 1.0}
->>> c.Parameters= {"X"   *1,"Y"   *0.5}
+{'Y': 0.0, 'X': 1.0}
+>>> c.Parameters= {"X":1,"Y":0.5}
 >>> c
-Command G1 ( X   *1 Y   *0.5 )
+Command G1 ( X:1 Y:0.5 )
 >>> c.toGCode()
 'G1X1Y0.5'
 >>> c2=Path.Command("G2")
 >>> c2
 Command G2 ( )
->>> c3=Path.Command("G1",{"X"   *34,"Y"   *1.2})
+>>> c3=Path.Command("G1",{"X":34,"Y":1.2})
 >>> c3
-Command G1 ( X   *34 Y   *1.2 )
+Command G1 ( X:34 Y:1.2 )
 >>> c3.Placement
 Placement [Pos=(34,1.2,0), Yaw-Pitch-Roll=(0,0,0)]
 >>> c3.toGCode()
 'G1X34Y1.2'
 >>> c3.setFromGCode("G1X1Y0")
 >>> c3
-Command G1 [ X   *1 Y   *0 ]
+Command G1 [ X:1 Y:0 ]
 >>> c4 = Path.Command("G1X4Y5")
 >>> c4
-Command G1 [ X   *4 Y   *5 ]
+Command G1 [ X:4 Y:5 ]
 >>> p1 = App.Placement()
 >>> p1.Base = App.Vector(3,2,1)
 >>> p1
 Placement [Pos=(3,2,1), Yaw-Pitch-Roll=(0,0,0)]
 >>> c5=Path.Command("g1",p1)
 >>> c5
-Command G1 [ X   *3 Y   *2 Z   *1 ]
+Command G1 [ X:3 Y:2 Z:1 ]
 >>> p2=App.Placement()
 >>> p2.Base = App.Vector(5,0,0)
 >>> c5
-Command G1 [ X   *3 Y   *2 Z   *1 ]
+Command G1 [ X:3 Y:2 Z:1 ]
 >>> c5.Placement=p2
 >>> c5
-Command G1 [ X   *5 ]
+Command G1 [ X:5 ]
 >>> c5.x
 5.0
 >>> c5.x=10
 >>> c5
-Command G1 [ X   *10 ]
+Command G1 [ X:10 ]
 >>> c5.y=2
 >>> c5
-Command G1 [ X   *10 Y   *2 ]
+Command G1 [ X:10 Y:2 ]
 ```
 
 ## L\'oggetto Path 
@@ -178,17 +178,17 @@ L\'oggetto Path contiene un elenco di comandi
 
 ```python
 >>> import Path
->>> c1=Path.Command("g1",{"x"   *1,"y"   *0})
->>> c2=Path.Command("g1",{"x"   *0,"y"   *2})
+>>> c1=Path.Command("g1",{"x":1,"y":0})
+>>> c2=Path.Command("g1",{"x":0,"y":2})
 >>> p=Path.Path([c1,c2])
 >>> p
-Path [ size   *2 length   *3 ]
+Path [ size:2 length:3 ]
 >>> p.Commands
-[Command G1 [ X   *1 Y   *0 ], Command G1 [ X   *0 Y   *2 ]]
+[Command G1 [ X:1 Y:0 ], Command G1 [ X:0 Y:2 ]]
 >>> p.Length
 3.0
 >>> p.addCommands(c1)
-Path [ size   *3 length   *4 ]
+Path [ size:3 length:4 ]
 >>> p.toGCode()
 'G1X1G1Y2G1X1'
 
@@ -205,14 +205,14 @@ G0Z0.5
 
 slines = lines.split('\n')
 p = Path.Path()
-for line in slines   *
+for line in slines:
     p.addCommands(Path.Command(line))
 
-o = App.ActiveDocument.addObject("Path   *   *Feature","mypath")
+o = App.ActiveDocument.addObject("Path::Feature","mypath")
 o.Path = p
 
 # but you can also create a path directly form a piece of gcode.
-# The commands will be created automatically   *
+# The commands will be created automatically:
 
 p = Path.Path()
 p.setFromGCode(lines)
@@ -224,7 +224,7 @@ Come scorciatoia, un oggetto Path può anche essere creato direttamente da una s
 ```python
 >>> p = Path.Path("G0 X2 Y2 G1 X0 Y2")
 >>> p
-Path [ size   *2 length   *2 ]
+Path [ size:2 length:2 ]
 ```
 
 ## La funzione Path 
@@ -233,12 +233,12 @@ La funzione Path è un oggetto documento di FreeCAD, che contiene un percorso, e
 
 
 ```python
->>> pf = App.ActiveDocument.addObject("Path   *   *Feature","mypath")
+>>> pf = App.ActiveDocument.addObject("Path::Feature","mypath")
 >>> pf
 <Document object>
 >>> pf.Path = p
 >>> pf.Path
-Path [ size   *2 length   *2 ]
+Path [ size:2 length:2 ]
 ```
 
 La funzione Path detiene inoltre una proprietà Placement. Cambiando il valore del posizionamento si cambia la posizione della funzionalità nella vista 3D, anche se le informazioni sul percorso sono invariate. La trasformazione è puramente visiva. Ciò consente, ad esempio, di creare un percorso attorno a una faccia che ha un particolare orientamento nel modello, e che non è lo stesso orientamento che il materiale da tagliare avrà sulla macchina CNC.
@@ -253,7 +253,7 @@ Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei 
 
 </div>
 
-**NOTE   *** This type of tool usage is depreciated as of the 0.19 official release. In 0.19 the new ToolBit tool system was implemented to supersede this older, Legacy, system. Therefore, coding has changed from what is represented below. Please visit [Path Tools](Path_Tools.md) page for more information.
+**NOTE:** This type of tool usage is depreciated as of the 0.19 official release. In 0.19 the new ToolBit tool system was implemented to supersede this older, Legacy, system. Therefore, coding has changed from what is represented below. Please visit [Path Tools](Path_Tools.md) page for more information.
 
 ===Scripting \<= 0.18===
 
@@ -290,7 +290,7 @@ Tooltable containing 1 tools
 >>> table.addTools(t2)
 Tooltable containing 2 tools
 >>> table.Tools
-{1   * Tool 12.7mm Drill Bit, 2   * Tool my other tool}
+{1: Tool 12.7mm Drill Bit, 2: Tool my other tool}
 >>> 
 ```
 
@@ -304,12 +304,12 @@ Lo scopo di questa funzione è quello di raccogliere uno o più percorsi utensil
 ```python
 >>> import Path
 >>> p1 = Path.Path("G1X1")
->>> o1 = App.ActiveDocument.addObject("Path   *   *Feature","path1")
+>>> o1 = App.ActiveDocument.addObject("Path::Feature","path1")
 >>> o1.Path=p1
 >>> p2 = Path.Path("G1Y1")
->>> o2 = App.ActiveDocument.addObject("Path   *   *Feature","path2")
+>>> o2 = App.ActiveDocument.addObject("Path::Feature","path2")
 >>> o2.Path=p2
->>> o3 = App.ActiveDocument.addObject("Path   *   *FeatureCompound","compound")
+>>> o3 = App.ActiveDocument.addObject("Path::FeatureCompound","compound")
 >>> o3.Group=[o1,o2]
 ```
 
@@ -319,19 +319,19 @@ Creating a compound with just one child path allows you therefore to turn the ch
 
 ### La funzione Path Project 
 
-Il progetto Path è un tipo di Compound esteso, che ha un paio di ulteriori proprietà correlate alla macchina, come una tooltable. È fatto principalmente per essere il principale tipo di oggetto che si desidera esportare in Gcode quando la configurazione dell\'intero percorso è pronta. L\'oggetto Project è codificato in python, per cui il suo meccanismo di creazione è un po \'diverso   *
+Il progetto Path è un tipo di Compound esteso, che ha un paio di ulteriori proprietà correlate alla macchina, come una tooltable. È fatto principalmente per essere il principale tipo di oggetto che si desidera esportare in Gcode quando la configurazione dell\'intero percorso è pronta. L\'oggetto Project è codificato in python, per cui il suo meccanismo di creazione è un po \'diverso:
 
 
 ```python
 >>> from PathScripts import PathProject
->>> o4 = App.ActiveDocument.addObject("Path   *   *FeatureCompoundPython","prj")
+>>> o4 = App.ActiveDocument.addObject("Path::FeatureCompoundPython","prj")
 >>> PathProject.ObjectPathProject(o4)
 >>> o4.Group = [o3]
 >>> o4.Tooltable
 Tooltable containing 0 tools
 ```
 
-Il modulo Path dispone anche di un editor GUI per la tooltable che può essere chiamato in python, dandogli un oggetto che ha una proprietà ToolTable   *
+Il modulo Path dispone anche di un editor GUI per la tooltable che può essere chiamato in python, dandogli un oggetto che ha una proprietà ToolTable:
 
 
 ```python
@@ -364,7 +364,7 @@ Questa funzione è un normale oggetto Path con una proprietà Shape aggiuntiva. 
 >>> v3 = FreeCAD.Vector(2,2,0)
 >>> v4 = FreeCAD.Vector(3,3,0)
 >>> wire = Part.makePolygon([v1,v2,v3,v4])
->>> o = FreeCAD.ActiveDocument.addObject("Path   *   *Feature","myPath2")
+>>> o = FreeCAD.ActiveDocument.addObject("Path::Feature","myPath2")
 >>> o.Path = Path.fromShape(wire)
 >>> FreeCAD.ActiveDocument.recompute()
 >>> p =  o.Path
@@ -373,17 +373,17 @@ Questa funzione è un normale oggetto Path con una proprietà Shape aggiuntiva. 
 
 ### Funzioni Python 
 
-Le funzioni Path   *   *Feature e Path   *   *FeatureShape hanno una versione Python, chiamate rispettivamente, Path   *   *FeaturePython e Path   *   *FeatureShapePython, che possono essere utilizzate nel codice python per creare oggetti parametrici avanzati derivati da esse.
+Le funzioni Path::Feature e Path::FeatureShape hanno una versione Python, chiamate rispettivamente, Path::FeaturePython e Path::FeatureShapePython, che possono essere utilizzate nel codice python per creare oggetti parametrici avanzati derivati da esse.
 
 ## Importare e esportare GCode 
 
 ### Formato nativo 
 
-I file gcode possono essere importati ed esportati direttamente tramite l\'interfaccia grafica, utilizzandole voci \"Esporta\", \"Apri\" o \"Inserisci\" del menu. Quando il nome del file è acquisito, si apre una finestra che chiede quale script di elaborazione deve utilizzare. Può anche essere fatto in python   *
+I file gcode possono essere importati ed esportati direttamente tramite l\'interfaccia grafica, utilizzandole voci \"Esporta\", \"Apri\" o \"Inserisci\" del menu. Quando il nome del file è acquisito, si apre una finestra che chiede quale script di elaborazione deve utilizzare. Può anche essere fatto in python:
 
 Le informazioni sul Percorso vengono memorizzate in oggetti Path utilizzando un sottoinsieme di gcode descritto nella sezione \"Formato del GCode all\'interno di FreeCAD\" di cui sopra. Questo sottoinsieme può essere importato o esportato \"come è\", o convertito in/da una particolare versione di GCode adatto alla vostra macchina.
 
-Se si dispone di un programma di GCode molto semplice e standard, che compila le regole descritte nella sezione \"Formato del GCode all\'interno di FreeCAD\" di cui sopra, per esempio, il boomerang da <http   *//www.cnccookbook.com/GWESampleFiles.html> , esso può essere importato direttamente in un oggetto Path, senza traduzione (questo equivale a utilizzare l\'opzione \"None\" della finestra GUI)   *
+Se si dispone di un programma di GCode molto semplice e standard, che compila le regole descritte nella sezione \"Formato del GCode all\'interno di FreeCAD\" di cui sopra, per esempio, il boomerang da <http://www.cnccookbook.com/GWESampleFiles.html> , esso può essere importato direttamente in un oggetto Path, senza traduzione (questo equivale a utilizzare l\'opzione \"None\" della finestra GUI):
 
 
 ```python
@@ -391,11 +391,11 @@ import Path
 f = open("/path/to/boomerangv4.ncc")
 s = f.read()
 p = Path.Path(s)
-o = App.ActiveDocument.addObject("Path   *   *Feature","boomerang")
+o = App.ActiveDocument.addObject("Path::Feature","boomerang")
 o.Path = p
 ```
 
-Allo stesso modo, è possibile ottenere le informazioni sul percorso come gcode \"agnostico\", e memorizzarle manualmente in un file   *
+Allo stesso modo, è possibile ottenere le informazioni sul percorso come gcode \"agnostico\", e memorizzarle manualmente in un file:
 
 
 ```python
@@ -412,7 +412,7 @@ Se serve un output diverso, però, è necessario convertire questo GCode agnosti
 
 Se si dispone di un file gcode scritto per una macchina particolare, che non è conforme alle regole interne utilizzate dai FreeCAD, descritte nella sezione \"Formato GCode interno a FreeCAD\" di cui sopra, si potrebbe non riuscire a importarlo e/o renderlo correttamente nella 3D vista. Per rimediare a questo, è necessario utilizzare uno script di pre-elaborazione, che converte dal formato di una specifica macchina al formato di FreeCAD.
 
-Se si conosce il nome dello script di pre-elaborazione da utilizzare, è possibile importare il file usando, dalla console python questo   *
+Se si conosce il nome dello script di pre-elaborazione da utilizzare, è possibile importare il file usando, dalla console python questo:
 
 
 ```python
@@ -420,7 +420,7 @@ import example_pre
 example_pre.insert("/path/to/myfile.ncc","DocumentName")
 ```
 
-Allo stesso modo, è possibile emettere un oggetto tracciato per GCode, utilizzando uno script post_processor in questo modo   *
+Allo stesso modo, è possibile emettere un oggetto tracciato per GCode, utilizzando uno script post_processor in questo modo:
 
 
 ```python
@@ -432,21 +432,21 @@ example_post.export (myObjectName,"/path/to/outputFile.ncc")
 
 Gli script di pre e post-elaborazione si comportano come gli altri comuni importatori e esportatori di FreeCAD. Quando si sceglie uno script di /post elaborazione dalla finestra di dialogo, il processo di import/export viene reindirizzato allo script specificato. Gli script di pre-elaborazione devono contenere almeno i seguenti metodi open(nome del file) e insert(nome del file, nome del documento). Gli script di post-elaborazione devono implementare export(objectslist,filename).
 
-Gli script vengono inseriti nella cartella Mod/Path/PathScripts o nella directory delle macro definita dell\'utente. Si può dare loro un nome a piacere, ma per convenzione, e per essere scelti dalla finestra di dialogo GUI, i nomi degli script di pre-elaborazione devono terminare con \"\_pre\", gli script di post-elaborazione con \"\_post\" (assicuratevi di usare il carattere sottolineato, non il trattino, altrimenti python non può importarli). Questo è un esempio molto, molto semplice di preprocessore. Esempi più complessi si trovano nella cartella Mod/Path/PathScripts   *
+Gli script vengono inseriti nella cartella Mod/Path/PathScripts o nella directory delle macro definita dell\'utente. Si può dare loro un nome a piacere, ma per convenzione, e per essere scelti dalla finestra di dialogo GUI, i nomi degli script di pre-elaborazione devono terminare con \"\_pre\", gli script di post-elaborazione con \"\_post\" (assicuratevi di usare il carattere sottolineato, non il trattino, altrimenti python non può importarli). Questo è un esempio molto, molto semplice di preprocessore. Esempi più complessi si trovano nella cartella Mod/Path/PathScripts:
 
 
 ```python
-def open(filename)   *
+def open(filename):
     gfile = __builtins__.open(filename)
     inputstring = gfile.read()
     # the whole gcode program will come in as one string,
-    # for example   * "G0 X1 Y1\nG1 X2 Y2"
+    # for example: "G0 X1 Y1\nG1 X2 Y2"
     output = ""
     # we add a comment
     output += "(This is my first parsed output!)\n"
     # we split the input string by lines
     lines = inputstring.split("\n")
-    for line in lines   *
+    for line in lines:
         output += line
         # we must insert the "end of line" character again
         # because the split removed it
@@ -455,16 +455,16 @@ def open(filename)   *
     output += "(End of program)"
     import Path
     p = Path.Path(output)
-    myPath = FreeCAD.ActiveDocument.addObject("Path   *   *Feature","Import")
+    myPath = FreeCAD.ActiveDocument.addObject("Path::Feature","Import")
     myPath.Path = p
     FreeCAD.ActiveDocument.recompute()
 ```
 
-Pre e post-processori funzionano esattamente allo stesso modo. Fanno solo il contrario   * Gli script pre convertono da un GCode specifico al GCode \"agnostico\" di FreeCAD, mentre gli script post convertono dal GCode \"agnostico\" di FreeCAD al GCode specifico della macchina.
+Pre e post-processori funzionano esattamente allo stesso modo. Fanno solo il contrario: Gli script pre convertono da un GCode specifico al GCode \"agnostico\" di FreeCAD, mentre gli script post convertono dal GCode \"agnostico\" di FreeCAD al GCode specifico della macchina.
 
 ## Adding all faces of a ShapeString to the BaseFeature\'s list of a ProfileFromFaces operation 
 
-This example is based on a [discussion in the german forum](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
+This example is based on a [discussion in the german forum](https://forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
 
 ### Prerequisites
 
@@ -474,13 +474,13 @@ This example is based on a [discussion in the german forum](https   *//forum.fre
 
 ### The code 
 
-The following code will then add all faces from ShapeString and create the paths   *
+The following code will then add all faces from ShapeString and create the paths:
 
 
 ```python
 doc = App.ActiveDocument
 list_of_all_element_faces = []
-for i, face in enumerate(doc.ShapeString.Shape.Faces)   *
+for i, face in enumerate(doc.ShapeString.Shape.Faces):
     list_of_all_element_faces.append('Face' + str(i + 1))
 
 
@@ -494,9 +494,7 @@ doc.recompute()
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+}}
 
 
 

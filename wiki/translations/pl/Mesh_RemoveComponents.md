@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh_RemoveComponents
-   Name/pl   *Siatka   * Usuń fragmenty
-   MenuLocation   *Siatki → Usuń fragmenty ...
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso   *[Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
+- GuiCommand:/pl
+   Name:Mesh_RemoveComponents
+   Name/pl:Siatka: Usuń fragmenty
+   MenuLocation:Siatki → Usuń fragmenty ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
 ---
 
 # Mesh RemoveComponents/pl
@@ -18,7 +18,7 @@ Polecenie **Usuń fragmenty** usuwa ściany z obiektów siatkowych.
 
 ## Użycie
 
-1.  Polecenie używa koloru czerwonego do zaznaczenia wybranych ścian. Aby zobaczyć je poprawnie   *
+1.  Polecenie używa koloru czerwonego do zaznaczenia wybranych ścian. Aby zobaczyć je poprawnie:
     -   
         **Tryb wyświetlania**
         
@@ -28,11 +28,11 @@ Polecenie **Usuń fragmenty** usuwa ściany z obiektów siatkowych.
         **Kolor kształtu**
         
         obiektów siatki nie powinien być czerwony.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Usuń fragmenty ...](Mesh_RemoveComponents/pl.md)**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_RemoveComponents.svg" width=16px> Usuń fragmenty ...**.
 3.  Otwiera się panel zadań **Usuń fragmenty**.
-4.  Użyj jednej lub więcej opcji **Wybierz**, aby wybrać ściany   *
+4.  Użyj jednej lub więcej opcji **Wybierz**, aby wybrać ściany:
     -   Naciśnij przycisk **Obszar** i trzymając wciśnięty lewy przycisk myszki narysuj zakres, zamkniętą łamaną w oknie [widoku 3D](3D_view/pl.md). Zostaną wybrane ściany, które pasują do opcji **Obszar** i *(częściowo)* mieszczą się wewnątrz regionu.
     -   Naciśnij przycisk **Wszystkie**, aby wybrać wszystkie ściany.
     -   Naciśnij przycisk **Fragmenty**, aby wybrać wszystkie fragmenty z mniejszą niż określona maksymalną liczbą powierzchni. W tym miejscu fragment odnosi się do kompletnej grupy połączonych powierzchni. Zazwyczaj obiekt siatki zawiera pojedynczy fragment. Ale, na przykład po użyciu polecenia [Scal](Mesh_Merge/pl.md), obiekt siatki może zawierać wiele fragmentów.

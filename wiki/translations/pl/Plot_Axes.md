@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */pl
-   Name   *Plot Axes
-   Name/pl   *Wykres   * Konfiguruj osie
-   MenuLocation   *Wykres → Konfiguruj osie
-   Workbenches   *[Wykres](Plot_Workbench/pl.md)
+- GuiCommand:/pl
+   Name:Plot Axes
+   Name/pl:Wykres: Konfiguruj osie
+   MenuLocation:Wykres → Konfiguruj osie
+   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Axes/pl
 
 ## Opis
 
-Standardowy moduł wykresów dostarcza już elementarne narzędzie do kontroli osi wykresów <img alt="" src=images/Matplotlib_edit_subplot.png  style="width   *24px;">. Jednak narzędzie to jest niewystarczające, gdy trzeba obsługiwać wieloosiowe wykresy, jak to ma miejsce w [Poradnik   * Wykres wieloosiowy](Plot_MultiAxes_tutorial/pl.md). Aby przezwyciężyć to ograniczenie, możesz zainstalować środowisko pracy <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Wykres](Plot_Workbench/pl.md) używając [Menadżera dodatków](Std_AddonMgr/pl.md), dzięki czemu będzie dostępne bardziej kompletne narzędzie do edycji osi wykresu.
+Standardowy moduł wykresów dostarcza już elementarne narzędzie do kontroli osi wykresów <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;">. Jednak narzędzie to jest niewystarczające, gdy trzeba obsługiwać wieloosiowe wykresy, jak to ma miejsce w [Poradnik: Wykres wieloosiowy](Plot_MultiAxes_tutorial/pl.md). Aby przezwyciężyć to ograniczenie, możesz zainstalować środowisko pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) używając [Menadżera dodatków](Std_AddonMgr/pl.md), dzięki czemu będzie dostępne bardziej kompletne narzędzie do edycji osi wykresu.
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
 
 ## Użycie
 
@@ -51,9 +51,7 @@ Na koniec można ustawić minimalne i maksymalne wartości uwzględniane dla ka�
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

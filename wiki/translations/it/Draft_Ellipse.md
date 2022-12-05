@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Ellipse
-   Name/it   *Ellisse
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Ellisse
-   Shortcut   ***E** **L**
-   SeeAlso   *[Circonferenza](Draft_Circle/it.md), [Arco](Draft_Arc/it.md)
-   Version   *0.7
+- GuiCommand:/it
+   Name:Draft Ellipse
+   Name/it:Ellisse
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Ellisse
+   Shortcut:**E** **L**
+   SeeAlso:[Circonferenza](Draft_Circle/it.md), [Arco](Draft_Arc/it.md)
+   Version:0.7
 ---
 
 # Draft Ellipse/it
@@ -32,7 +32,7 @@ Questo strumento può essere utilizzato anche per creare archi ellittici specifi
 
 </div>
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ Questo strumento può essere utilizzato anche per creare archi ellittici specifi
 
 ## Utilizzo
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -82,17 +82,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Proprietà
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -104,19 +104,19 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Dati
 
--    **First Angle**   * specifica l\'angolo del primo punto dell\'ellisse; normalmente 0°.
+-    **First Angle**: specifica l\'angolo del primo punto dell\'ellisse; normalmente 0°.
 
--    **Last Angle**   * specifica l\'angolo dell\'ultimo punto dell\'ellisse; normalmente 0°.
+-    **Last Angle**: specifica l\'angolo dell\'ultimo punto dell\'ellisse; normalmente 0°.
 
--    **Major Radius**   * specifica il raggio maggiore dell\'ellisse.
+-    **Major Radius**: specifica il raggio maggiore dell\'ellisse.
 
--    **Minor Radius**   * specifica il raggio minore dell\'ellisse.
+-    **Minor Radius**: specifica il raggio minore dell\'ellisse.
 
-   *   Se entrambi i raggi hanno lo stesso valore, l\'ellisse ha lo stesso aspetto di un [Cerchio](Draft_Circle/it.md).
+:   Se entrambi i raggi hanno lo stesso valore, l\'ellisse ha lo stesso aspetto di un [Cerchio](Draft_Circle/it.md).
 
--    **Make Face**   * specifica se l\'ellisse crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se la forma è un\'ellisse completa.
+-    **Make Face**: specifica se l\'ellisse crea una faccia o no. Se è `True` viene creata una faccia, altrimenti solo il perimetro è considerato parte dell\'oggetto. Questa proprietà funziona solo se la forma è un\'ellisse completa.
 
-   *   Per avere un\'ellisse completa le proprietà **First Angle** e **Last Angle** devono avere lo stesso valore; in caso contrario, viene visualizzato un arco ellittico. I valori 0° e 360° sono considerati uguali.
+:   Per avere un\'ellisse completa le proprietà **First Angle** e **Last Angle** devono avere lo stesso valore; in caso contrario, viene visualizzato un arco ellittico. I valori 0° e 360° sono considerati uguali.
 
 
 </div>
@@ -131,9 +131,9 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Vista
 
--    **Pattern**   * specifica un [Modello](Draft_Pattern/it.md) di disegno con cui riempire la faccia della forma. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
+-    **Pattern**: specifica un [Modello](Draft_Pattern/it.md) di disegno con cui riempire la faccia della forma. Questa proprietà funziona solo se **Make Face** è `True`, e se **Display Mode** è \"Flat Lines\".
 
--    **Pattern Size**   * specifica la dimensione del [Modello](Draft_Pattern/it.md) di disegno.
+-    **Pattern Size**: specifica la dimensione del [Modello](Draft_Pattern/it.md) di disegno.
 
 
 </div>
@@ -146,7 +146,7 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -156,7 +156,7 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Ellisse può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Ellisse può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -177,7 +177,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

@@ -1,9 +1,9 @@
 # Arch API/fr
-**(November 2018) L'API Arch est répertoriée dans la [https   *//www.freecadweb.org/api documentation API générée automatiquement].**
+**(November 2018) L'API Arch est répertoriée dans la [https://www.freecadweb.org/api documentation API générée automatiquement].**
 
 Les fonctions de l\'API font partie de l\'[atelier Arch](Arch_Workbench/fr.md) et peuvent être utilisées dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) une fois que le module `Arch` a été importé. L\'[extension Reinforcement](Reinforcement_Addon/fr.md) a ses propres [Reinforcement API](Reinforcement_API/fr.md).
 
-Exemple   * 
+Exemple: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -13,11 +13,6 @@ baseline = Draft.makeLine(p1, p2)
 
 Arch.makeWall(baseline, length=None, width=200, height=2000)
 ```
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-[Python](https   *//www.python.org) ist eine allgemeine, hochrangige Programmiersprache, die in großen Anwendungen sehr häufig verwendet wird, um einige Aufgaben zu automatisieren, indem man Skripte erstellt oder [Makros](macros/de.md).
+[Python](https://www.python.org) ist eine allgemeine, hochrangige Programmiersprache, die in großen Anwendungen sehr häufig verwendet wird, um einige Aufgaben zu automatisieren, indem man Skripte erstellt oder [Makros](macros/de.md).
 
 In FreeCAD kann Python Code verwendet werden, um verschiedene Elemente programmgesteuert zu erstellen, ohne auf die grafische Benutzeroberfläche klicken zu müssen. Darüber hinaus sind viele Werkzeuge und Arbeitsbereiche von FreeCAD in Python programmiert.
 
@@ -14,12 +14,12 @@ Siehe [\|Einführung in Python](Introduction_to_Python/de.md), um mehr über die
 
 ## Lesbarkeit
 
-Die Lesbarkeit von Python Code ist einer der wichtigsten Aspekte dieser Sprache. Die Verwendung eines klaren und konsistenten Stils innerhalb der Python Gemeinschaft erleichtert Beiträge von verschiedenen Entwicklern, da die meisten erfahrenen Python Programmierer erwarten, dass der Code auf eine bestimmte Art und Weise formatiert ist und bestimmten Regeln folgt. Beim Schreiben von Python Code ist es ratsam, [PEP8   * Style Guide for Python Code](https   *//www.python.org/dev/peps/pep-0008/) und [PEP257   * Docstring Conventions](https   *//www.python.org/dev/peps/pep-0257/) zu befolgen.
+Die Lesbarkeit von Python Code ist einer der wichtigsten Aspekte dieser Sprache. Die Verwendung eines klaren und konsistenten Stils innerhalb der Python Gemeinschaft erleichtert Beiträge von verschiedenen Entwicklern, da die meisten erfahrenen Python Programmierer erwarten, dass der Code auf eine bestimmte Art und Weise formatiert ist und bestimmten Regeln folgt. Beim Schreiben von Python Code ist es ratsam, [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) und [PEP257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/) zu befolgen.
 
-Diese Dokumente bieten Erklärungen in einer benutzerfreundlicheren Form   *
+Diese Dokumente bieten Erklärungen in einer benutzerfreundlicheren Form:
 
--   [Wie man schönen Python Code mit PEP 8 schreibt](https   *//realpython.com/python-pep8/)
--   [Python Code dokumentieren   * Ein vollständiger Leitfaden](https   *//realpython.com/documenting-python-code/).
+-   [Wie man schönen Python Code mit PEP 8 schreibt](https://realpython.com/python-pep8/)
+-   [Python Code dokumentieren: Ein vollständiger Leitfaden](https://realpython.com/documenting-python-code/).
 
 ## Konventionen
 
@@ -32,7 +32,7 @@ Dies ist eine typische Funktionssignatur
 Wire = make_wire(pointslist, closed=False, placement=None, face=None, support=None)
 ```
 
--   Argumente mit Schlüsselwert Paaren sind optional, wobei der Standardwert in der Signatur angegeben ist. Das bedeutet, dass die folgenden Aufrufe gleichwertig sind   *
+-   Argumente mit Schlüsselwert Paaren sind optional, wobei der Standardwert in der Signatur angegeben ist. Das bedeutet, dass die folgenden Aufrufe gleichwertig sind:
 
 
 ```python
@@ -44,9 +44,9 @@ Wire = make_wire(pointslist)
 ```
 
 
-   *   In diesem Beispiel hat das erste Argument keinen Standardwert, daher sollte es immer einbezogen werden.
+:   In diesem Beispiel hat das erste Argument keinen Standardwert, daher sollte es immer einbezogen werden.
 
--   Wenn die Argumente mit dem expliziten Schlüssel angegeben werden, können die optionalen Argumente in beliebiger Reihenfolge angegeben werden. Das bedeutet, dass die folgenden Aufrufe gleichwertig sind   *
+-   Wenn die Argumente mit dem expliziten Schlüssel angegeben werden, können die optionalen Argumente in beliebiger Reihenfolge angegeben werden. Das bedeutet, dass die folgenden Aufrufe gleichwertig sind:
 
 
 ```python
@@ -120,11 +120,6 @@ pointslist = [p1, p2, p3, p4]
 Wire = Draft.make_wire(pointslist, closed=True, face=True)
 Structure = Arch.make_structure(Wire, name="Big pillar")
 ```
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *API](Category_API.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

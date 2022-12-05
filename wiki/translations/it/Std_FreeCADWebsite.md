@@ -1,8 +1,8 @@
 ---
-- GuiCommand   */it
-   Name   *Std FreeCADWebsite   Name/it   *Sito di FreeCAD
-   MenuLocation   *[Aiuto](Std_Help_Menu/it.md) → Sito di FreeCAD
-‎   Workbenches   *Tutti
+- GuiCommand:/it
+   Name:Std FreeCADWebsite   Name/it:Sito di FreeCAD
+   MenuLocation:[Aiuto](Std_Help_Menu/it.md) → Sito di FreeCAD
+‎   Workbenches:Tutti
 ---
 
 # Std FreeCADWebsite/it
@@ -15,12 +15,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Apre il [Sito di FreeCAD](https   *//www.freecadweb.org/) nel browser Internet predefinito del sistema.
+Apre il [Sito di FreeCAD](https://www.freecadweb.org/) nel browser Internet predefinito del sistema.
 
 
 </div>
 
-Currently the command points to [<https   *//www.freecad.org>](https   *//www.freecad.org/).
+Currently the command points to [<https://www.freecad.org>](https://www.freecad.org/).
 
 
 <div class="mw-translate-fuzzy">

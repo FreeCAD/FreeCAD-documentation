@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std ViewScreenShot
-   Name/de   *Std AnsichtAufnehmen
-   MenuLocation   *Werkzeuge → Bildinhalt speichern...
-   Workbenches   *Alle
-   SeeAlso   *[Std Drucken](Std_Print/de.md), [Std PDF exportieren](Std_PrintPdf/de.md), [Makro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Makro Screen Wiki](Macro_Screen_Wiki/de.md), [Makro Snip](Macro_Snip/de.md)
+- GuiCommand:/de
+   Name:Std ViewScreenShot
+   Name/de:Std AnsichtAufnehmen
+   MenuLocation:Werkzeuge → Bildinhalt speichern...
+   Workbenches:Alle
+   SeeAlso:[Std Drucken](Std_Print/de.md), [Std PDF exportieren](Std_PrintPdf/de.md), [Makro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Makro Screen Wiki](Macro_Screen_Wiki/de.md), [Makro Snip](Macro_Snip/de.md)
 ---
 
 # Std ViewScreenShot/de
@@ -13,7 +13,7 @@
 
 Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D-Ansicht](3D_view/de.md) zu erstellen.
 
-<img alt="" src=images/Save_picture.png  style="width   *800px;"> 
+<img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *Das Dialogfeld Bildinhalt speichern nach Drücken der Schaltfläche Erweitert*
 
 ## Anwendung
@@ -34,7 +34,7 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 ### Bildeigenschaften
 
-#\* Wähle eine Option aus der **Hintergrund** Aufklappliste   *
+#\* Wähle eine Option aus der **Hintergrund** Aufklappliste:
 
 #\* {{Value|Aktuell}} Diese Option verwendet tWerthe Hintergrund der 3D Ansicht.
 
@@ -44,21 +44,21 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 #\* {{Value|Durchsichtig}} Nicht alle Bildformate unterstützen Transparenz.
 
-1.  Wähle eine Option aus der **Erstellungsmethode** Aufklappliste   *
+1.  Wähle eine Option aus der **Erstellungsmethode** Aufklappliste:
     -   
         {{Value|Offscreen (Neu)}}
         
-        Dies ist die Standardmethode. Diese Methode unterstützt [anti-aliasing](https   *//en.wikipedia.org/wiki/Multisample_anti-aliasing). *Technische Informationen   * Die wichtigsten Klassen für diese Methode sind Qt\'s QOffscreenSurface und QOpenGLFramebufferObject.*
+        Dies ist die Standardmethode. Diese Methode unterstützt [anti-aliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). *Technische Informationen: Die wichtigsten Klassen für diese Methode sind Qt\'s QOffscreenSurface und QOpenGLFramebufferObject.*
 
     -   
         {{Value|Offscreen (Alt)}}
         
-        Diese Methode funktioniert auf vielen modernen Linux Systemen nicht, da sie sich auf den Grafiktreiber verlässt. Diese Methode unterstützt kein Anti-Aliasing. *Technische Informationen   * Dies ist eine echte Offscreen Rendering Methode, die nur Funktionen aus der Coin3d Bibliothek verwendet.*
+        Diese Methode funktioniert auf vielen modernen Linux Systemen nicht, da sie sich auf den Grafiktreiber verlässt. Diese Methode unterstützt kein Anti-Aliasing. *Technische Informationen: Dies ist eine echte Offscreen Rendering Methode, die nur Funktionen aus der Coin3d Bibliothek verwendet.*
 
     -   
         {{Value|Bildpuffer (benutzerdefiniert)}}
         
-        Diese Methode unterstützt Anti-Aliasing. *Technische Informationen   * Wenn Anti-Aliasing ausgeschaltet ist, liest diese Methode das Bild direkt aus dem Grafik Renderer, ansonsten rendert sie in einen Bildpuffer und holt sich das Bild von dort. Der Schlüsselteil dieser Methode ist Qt\'s QOpenGLFramebufferObject Klasse.*
+        Diese Methode unterstützt Anti-Aliasing. *Technische Informationen: Wenn Anti-Aliasing ausgeschaltet ist, liest diese Methode das Bild direkt aus dem Grafik Renderer, ansonsten rendert sie in einen Bildpuffer und holt sich das Bild von dort. Der Schlüsselteil dieser Methode ist Qt\'s QOpenGLFramebufferObject Klasse.*
 
     -   
         {{Value|Bildpuffer (wie bestehend)}}
@@ -69,7 +69,7 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 1.  Wähle die Option {{RadioButton|TRUE|MIBA Informationen einfügen}}, um [MIBA](MIBA.md)-Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
 2.  Oder wähle die Option {{RadioButton|TRUE|Kommentar einfügen}} und gib einen Kommentar in das Textfeld ein, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
-3.  Aktiviere das Kontrollkästchen {{CheckBox|TRUE|Wasserzeichen einfügen}}, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL   * [www.freecadweb.org](http   *//www.freecadweb.org).
+3.  Aktiviere das Kontrollkästchen {{CheckBox|TRUE|Wasserzeichen einfügen}}, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL: [www.freecadweb.org](http://www.freecadweb.org).
 
 ## Hinweise
 
@@ -78,8 +78,8 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 ## Einstellungen
 
--   Der Hintergrund der 3D-Ansicht kann in den Voreinstellungen geändert werden   * **Bearbeiten → Einstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Farben.md).
--   Um das Anti Aliasing der 3D-Ansicht zu ändern   * **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Kantenglättung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
+-   Der Hintergrund der 3D-Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Farben.md).
+-   Um das Anti Aliasing der 3D-Ansicht zu ändern: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Kantenglättung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
 
 ## Skripten
 
@@ -87,7 +87,7 @@ Es ist möglich, Bildschirmfotos mit Python Code zu erstellen.
 
 
 ```python
-Gui.ActiveDocument.ActiveView.saveImage('C   */temp/test.png',1656,783,'Current')
+Gui.ActiveDocument.ActiveView.saveImage('C:/temp/test.png',1656,783,'Current')
 ```
 
 Dieses Skript speichert eine Reihe von Bildschirmfotos in verschiedenen Größen und aus verschiedenen Richtungen. Der Kameratyp, orthografisch oder perspektivisch, wird ebenfalls geändert.
@@ -96,15 +96,15 @@ Dieses Skript speichert eine Reihe von Bildschirmfotos in verschiedenen Größen
 ```python
 import Part, PartGui
 # Loading test part
-Part.open('C   */Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
-OutDir = 'C   */temp/'
+Part.open('C:/Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
+OutDir = 'C:/temp/'
  
 # Creating images with different Views, Cameras and sizes
-for p in ['PerspectiveCamera','OrthographicCamera']   *
+for p in ['PerspectiveCamera','OrthographicCamera']:
     Gui.SendMsgToActiveView(p)
-    for f in ['ViewAxo','ViewFront','ViewTop']   *
+    for f in ['ViewAxo','ViewFront','ViewTop']:
         Gui.SendMsgToActiveView(f)
-        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]   *
+        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]:
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.jpg',x,y,'White')
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.png',x,y,'Transparent')
 

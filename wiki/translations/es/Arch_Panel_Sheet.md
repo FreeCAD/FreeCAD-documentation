@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Panel Sheet   Name/es   *Arch Panel Sheet
-   MenuLocation   *Arch → Panel tools → Panel Sheet
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   Shortcut   ***P** **S**
-   SeeAlso   *[Arch Panel](Arch_Panel/es.md)
+- GuiCommand:/es
+   Name:Arch Panel Sheet   Name/es:Arch Panel Sheet
+   MenuLocation:Arch → Panel tools → Panel Sheet
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:**P** **S**
+   SeeAlso:[Arch Panel](Arch_Panel/es.md)
 ---
 
 # Arch Panel Sheet/es
@@ -22,9 +22,9 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
 
 *La imagen de arriba muestra cómo aparecen las láminas del panel cuando se exportan a DXF.*
 
@@ -56,42 +56,42 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Height}}   * la altura de la lámina
+-    {{PropertyData/es|Height}}: la altura de la lámina
 
--    {{PropertyData/es|Width}}   * el ancho de la lámina
+-    {{PropertyData/es|Width}}: el ancho de la lámina
 
--    {{PropertyData/es|Fill Ratio}}   * El porcentaje del área de la lámina que se llena con cortes (automático)
+-    {{PropertyData/es|Fill Ratio}}: El porcentaje del área de la lámina que se llena con cortes (automático)
 
--    {{PropertyData/es|Tag Text}}   * el texto para mostrar
+-    {{PropertyData/es|Tag Text}}: el texto para mostrar
 
--    {{PropertyData/es|Tag Size}}   * el tamaño del texto de la etiqueta
+-    {{PropertyData/es|Tag Size}}: el tamaño del texto de la etiqueta
 
--    {{PropertyData/es|Tag Position}}   * la posición del texto de la etiqueta. Mantener (0,0,0) para la posición central automática
+-    {{PropertyData/es|Tag Position}}: la posición del texto de la etiqueta. Mantener (0,0,0) para la posición central automática
 
--    {{PropertyData/es|Tag Rotation}}   * la rotación del texto de la etiqueta
+-    {{PropertyData/es|Tag Rotation}}: la rotación del texto de la etiqueta
 
--    {{PropertyData/es|Font File}}   * la fuente del texto de la etiqueta
+-    {{PropertyData/es|Font File}}: la fuente del texto de la etiqueta
 
--    {{PropertyData/es|Make Face}}   * si es verdadero, el panel es una Part cara, de lo contrario, una Part wire
+-    {{PropertyData/es|Make Face}}: si es verdadero, el panel es una Part cara, de lo contrario, una Part wire
 
--    {{PropertyData/es|Grain Direction}}   * Esto le permite informar la dirección principal de la fibra del panel (sentido horario, 0 ° significa arriba)
+-    {{PropertyData/es|Grain Direction}}: Esto le permite informar la dirección principal de la fibra del panel (sentido horario, 0 ° significa arriba)
 
--    {{PropertyView/es|Margin}}   * un margen que se puede mostrar dentro del borde del panel
+-    {{PropertyView/es|Margin}}: un margen que se puede mostrar dentro del borde del panel
 
--    {{PropertyView/es|Show Margin}}   * Activa/desactiva la visualización del margen
+-    {{PropertyView/es|Show Margin}}: Activa/desactiva la visualización del margen
 
--    {{PropertyView/es|Show Grain}}   * muestra una textura de fibra (Make Face debe establecerse en True)
+-    {{PropertyView/es|Show Grain}}: muestra una textura de fibra (Make Face debe establecerse en True)
 
 
 </div>
 
 ### View
 
--    **Margin**   * A margin that can be displayed inside the panel border
+-    **Margin**: A margin that can be displayed inside the panel border
 
--    **Show Margin**   * Turns the display of the margin on/off
+-    **Show Margin**: Turns the display of the margin on/off
 
--    **Show Grain**   * Shows a fiber texture (Make Face must be set to True)
+-    **Show Grain**: Shows a fiber texture (Make Face must be set to True)
 
 ## Scripting
 
@@ -106,7 +106,7 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Hoja de panel puede utilizarse en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función   *
+La herramienta Hoja de panel puede utilizarse en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función:
 
 
 </div>
@@ -118,7 +118,7 @@ Sheet = makePanelSheet(panels=[], name="PanelSheet")
 
 -   Creates a `Sheet` object from `panels`, which is a list of [Arch Panel](Arch_Panel.md) objects.
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

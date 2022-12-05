@@ -1,8 +1,6 @@
 # Category:Developer Documentation/cs
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/cs](Category   *Documentation/cs.md)
-
 ### Contents
 
 |     |     |     |

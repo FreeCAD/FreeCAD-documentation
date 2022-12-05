@@ -1,8 +1,6 @@
 # Category:Wiki/ro
 This category contains all documents that relate to the Wiki/ro.
 
-[Category   *Administration/ro](Category   *Administration/ro.md) [Category   *Categories/ro](Category   *Categories/ro.md) [Category   *Documentation/ro](Category   *Documentation/ro.md)
-
 ### Contents
 
 |     |     |     |

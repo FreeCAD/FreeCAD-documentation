@@ -15,13 +15,13 @@ Für mehr Informationen zum Bearbeiten von Objekten siehe [Std Transformieren](S
 <div class="mw-translate-fuzzy">
 
 1.  Führe eine von folgenden Aktionen aus
-    -   Drücke die **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
+    -   Drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
     -   Rechtsklick auf einen lehren Bereich in der [3D Ansicht](3D_view/de.md), wähle anschließend **Navigation styles** im Kontextmenü.
     -   Benutzen den [Voreinstellungseditor](Preferences_Editor/de#Navigation.md). Wähle dafür im Menü **Edit → Preferences** und dann **Display → Navigation → 3D Navigation**.
 2.  Wähle einen Stil von der List.
-3.  Ändere optional den **Orbit style**   * drücke die **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+3.  Ändere optional den **Orbit style**: drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 4.  Verändere optional den **Rotation mode**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
-5.  Fals der **CAD** Navigationsstil ausgewählt ist   * Ändere optional die **Enable animation** Einstellung. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+5.  Fals der **CAD** Navigationsstil ausgewählt ist: Ändere optional die **Enable animation** Einstellung. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 
 </div>
@@ -30,7 +30,7 @@ Für mehr Informationen zum Bearbeiten von Objekten siehe [Std Transformieren](S
 
 ### Blender Navigation 
 
-Der Blender Navigationsstil ist der Software [Blender](https   *//www.blender.org) nachempfunden.
+Der Blender Navigationsstil ist der Software [Blender](https://www.blender.org) nachempfunden.
 
 
 {{Blender Navigation
@@ -65,12 +65,12 @@ Dies ist der Standard Navigationsstil. Er ermöglicht dem Benutzer eine einfache
 <div class="mw-translate-fuzzy">
 Niederhalten von **Strg** ermöglicht die Auswahl mehrerer Objekte.
 |Pan_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
-|Pan_mode_text=Pan Modus   * Halte die **Strg** Taste gedrückt, drücke einmal die rechte Maustaste und bewege dann den Mauszeiger.
+|Pan_mode_text=Pan Modus: Halte die **Strg** Taste gedrückt, drücke einmal die rechte Maustaste und bewege dann den Mauszeiger.
 |Zoom_text=Verwende das Mausrad, um ein- und auszuzoomen.
 </div>
 
 Ein Klick auf die mittlere Maustaste zentriert die Sicht wieder auf die Position der Cursors.
-|Zoom_mode_text=Zoom Modus   * Halte die **Strg** und **Shift** Tasten gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger.
+|Zoom_mode_text=Zoom Modus: Halte die **Strg** und **Shift** Tasten gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger.
 |Rotate_view_text=Halte die mittlere Maustaste gedrückt, dann drücke und halte die linke Maustaste, dann bewege den Mauszeiger.
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ Die Cursorposition beim Drücken der mittleren Maustaste bestimmt den Drehmittel
 
 <div class="mw-translate-fuzzy">
 Ein Doppelklick mit der mittleren Maustaste setzt einen neuen Drehmittelpunkt.
-|Rotate_view_mode_text=Dreh-Modus   * Halte die Taste **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege den Mauszeiger. {{Version/de|0.17}}
+|Rotate_view_mode_text=Dreh-Modus: Halte die Taste **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege den Mauszeiger. {{Version/de|0.17}}
 |Rotate_view_alt_text=Halte die mittlere Maustaste gedrückt, dann drücke und halte die rechte Maustaste und bewege den Mauszeiger.
 </div>
 
@@ -153,7 +153,7 @@ Oder mit dem Mausrad hinein- oder hinauszoomen.
 
 </div>
 
-The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -175,7 +175,7 @@ Oder die **Strg**-Taste und die linke Maustaste halten und den Mauszeiger bewege
 
 <div class="mw-translate-fuzzy">
 
-Die OpenInventor Navigation (ehemals Inventor) wurde nach dem Vorbild von [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor) gestaltet. Um Objekte auszuwählen, muss du die **Strg** Taste gedrückt halten.
+Die OpenInventor Navigation (ehemals Inventor) wurde nach dem Vorbild von [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) gestaltet. Um Objekte auszuwählen, muss du die **Strg** Taste gedrückt halten.
 
 
 </div>
@@ -213,7 +213,7 @@ Alternativ halte die mittlere Maustaste, dann drücke und halte die linke Mausta
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -234,7 +234,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 ### Revit Navigation 
 
-Der Revit Navigationsstil basiert auf [Revit](https   *//de.wikipedia.org/wiki/Revit).
+Der Revit Navigationsstil basiert auf [Revit](https://de.wikipedia.org/wiki/Revit).
 
 
 {{Revit Navigation
@@ -256,7 +256,7 @@ Oder die mittlere und die rechte Maustaste drücken und den Mauszeiger bewegen.
 
 ### TinkerCAD Navigation 
 
-Der TinkerCAD Navigationsstil basiert auf [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
+Der TinkerCAD Navigationsstil basiert auf [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -316,7 +316,7 @@ FreeCAD unterstützt auch einige [3D Eingabegeräte](3D_input_devices/de.md).
 
 <div class="mw-translate-fuzzy">
 
-Vor kurzem erhielten wir Berichte von Mac Anwendern [im Forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0), dass diese Maustaste und Tastenkombination nicht wie erwartet funktionieren. Leider besitzt keiner der Entwickler einen Mac, ebenso wenig wie die anderen regelmäßigen Mitwirkenden. Wir benötigen Eure Hilfe, um festzustellen, welche Maustasten und Tastenkombinationen funktionieren, damit wir dieses Wiki aktualisieren können.
+Vor kurzem erhielten wir Berichte von Mac Anwendern [im Forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0), dass diese Maustaste und Tastenkombination nicht wie erwartet funktionieren. Leider besitzt keiner der Entwickler einen Mac, ebenso wenig wie die anderen regelmäßigen Mitwirkenden. Wir benötigen Eure Hilfe, um festzustellen, welche Maustasten und Tastenkombinationen funktionieren, damit wir dieses Wiki aktualisieren können.
 
 
 </div>

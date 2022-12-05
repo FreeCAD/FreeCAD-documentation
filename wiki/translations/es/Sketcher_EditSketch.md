@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher EditSketch
-   Name/es   *Croquizador EditarCroquis
-   MenuLocation   *Croquis → Editar Croquis
-   Workbenches   *[Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
-   SeeAlso   *[Croquizador DejarCroquis](Sketcher_LeaveSketch/es.md)
+- GuiCommand:
+   Name:Sketcher EditSketch
+   Name/es:Croquizador EditarCroquis
+   MenuLocation:Croquis → Editar Croquis
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
+   SeeAlso:[Croquizador DejarCroquis](Sketcher_LeaveSketch/es.md)
 ---
 
 # Sketcher EditSketch/es
@@ -15,12 +15,12 @@ Este comando le permitirá editar un boceto existente. Abrirá el [Diálogo de b
 
 ## Utilización
 
-Hay varias formas de invocar el comando Editar croquis   *
+Hay varias formas de invocar el comando Editar croquis:
 
 -   Hacer clic con el botón derecho del ratón en un croquis en la [vista de árbol](Tree_view/es.md) y elegir *Editar croquis*
 -   Seleccionar el croquis en la [vista de árbol](Tree_view/es.md) y elegir **Croquis → Editar croquis** en el menú desplegable.
 -   Simplemente haciendo doble clic en el croquis.
--   Haciendo clic en el botón <img alt="" src=images/Sketcher_EditSketch.svg  style="width   *24px;"> de la barra de herramientas del Croquizador.
+-   Haciendo clic en el botón <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> de la barra de herramientas del Croquizador.
 
 ## Notas
 

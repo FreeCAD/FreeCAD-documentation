@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Assembly3 ConstraintAngle
-   Name/fr   *Assembly3 Contrainte d'angle
-   Icon   *Assembly_ConstraintAngle.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Assembly3 ConstraintAngle
+   Name/fr:Assembly3 Contrainte d'angle
+   Icon:Assembly_ConstraintAngle.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintAngle/fr
@@ -27,12 +27,12 @@ La contrainte accepte les bords droits et les faces planes.
 
 ## Remarques
 
-2D    * Cette contrainte semble être le seul moyen de contrôler un angle dans une esquisse de squelette (assemblage cinématique 2D) ; Prouvez-moi le contraire, SVP !
+2D : Cette contrainte semble être le seul moyen de contrôler un angle dans une esquisse de squelette (assemblage cinématique 2D) ; Prouvez-moi le contraire, SVP !
 
 -   Sa propriété **Angle|Angle** permet toute valeur positive, mais 0° et 180° exactement laissent le solveur perplexe.
 -   Il inverse le sens si des angles supérieurs à 180° sont utilisés et, par conséquent, 135° et 225° donnent les mêmes positions pour les éléments concernés.
 
-   *   Il est inutile si l\'on veut simuler une rotation complète et ruine ainsi le principe d\'utilisation d\'une esquisse de squelette pour de nombreuses tâches cinématiques telles que l\'entraînement d\'un piston par une manivelle rotative couplée à une bielle.
+:   Il est inutile si l\'on veut simuler une rotation complète et ruine ainsi le principe d\'utilisation d\'une esquisse de squelette pour de nombreuses tâches cinématiques telles que l\'entraînement d\'un piston par une manivelle rotative couplée à une bielle.
 
 
 

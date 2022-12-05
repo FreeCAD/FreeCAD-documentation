@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Apply
-   Name/ro   *Draft Apply
-   MenuLocation   *Draft → Utilities → Apply style
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso   *[Draft SetStyle](Draft_SetStyle.md)
+- GuiCommand:/ro
+   Name:Draft Apply
+   Name/ro:Draft Apply
+   MenuLocation:Draft → Utilities → Apply style
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   SeeAlso:[Draft SetStyle](Draft_SetStyle.md)
 ---
 
 # Draft ApplyStyle/ro
@@ -24,7 +24,7 @@ Acest instrument utilizează culoarea și stilul curene Draft pentru obiectele s
 
 </div>
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
 -    **Line color**
     

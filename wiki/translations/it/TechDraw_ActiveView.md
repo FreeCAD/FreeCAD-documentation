@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw_ActiveView
-   Name/it   *Vista attiva
-   Icon   *TechDraw_ActiveView.svg
-   MenuLocation   *TechDraw → Vista attiva
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Simbolo](TechDraw_Symbol/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:TechDraw_ActiveView
+   Name/it:Vista attiva
+   Icon:TechDraw_ActiveView.svg
+   MenuLocation:TechDraw → Vista attiva
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Simbolo](TechDraw_Symbol/it.md)
+   Version:0.19
 ---
 
 # TechDraw ActiveView/it
@@ -51,19 +51,19 @@ Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina d
 
 ## Options
 
-The following can be specified   *
+The following can be specified:
 
--    **Crop**   * Crop the generated bitmap.
+-    **Crop**: Crop the generated bitmap.
 
--    **Width**   * The width (in mm) to crop the generated view.
+-    **Width**: The width (in mm) to crop the generated view.
 
--    **Height**   * The height (in mm) to crop the generated view.
+-    **Height**: The height (in mm) to crop the generated view.
 
--    **No Background**   * If checked, the generated bitmap will have a transparent background.
+-    **No Background**: If checked, the generated bitmap will have a transparent background.
 
--    **Solid Background**   * If checked, the generated will have a background of the selected color.
+-    **Solid Background**: If checked, the generated will have a background of the selected color.
 
--    **Use 3d Background**   * If checked, the generated bitmap will use the background from the 3D window.
+-    **Use 3d Background**: If checked, the generated bitmap will use the background from the 3D window.
 
 ## Note
 
@@ -71,7 +71,7 @@ The following can be specified   *
 <div class="mw-translate-fuzzy">
 
 -   Le viste attive sono statiche, una volta generate non vengono mai aggiornate con le modifiche al modello 3D.
--   Vista attiva in realtà è un <img alt="" src=images/TechDraw_Symbol.svg  style="width   *24px;"> [Simbolo](TechDraw_Symbol/it.md). La sua proprietà **Scale Type** viene quindi sempre inizializzata come *Personalizzata*.
+-   Vista attiva in realtà è un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Simbolo](TechDraw_Symbol/it.md). La sua proprietà **Scale Type** viene quindi sempre inizializzata come *Personalizzata*.
 -   Questo strumento è ancora in qualche modo **sperimentale**.
 
 
@@ -82,7 +82,7 @@ The following can be specified   *
 
 <div class="mw-translate-fuzzy">
 
-Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width   *16px;"> [Simbolo](TechDraw_Symbol/it.md)
+Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo](TechDraw_Symbol/it.md)
 
 
 </div>
@@ -93,7 +93,7 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width   *16px;"> [Simb
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -103,7 +103,7 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width   *16px;"> [Simb
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Vista attiva può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Vista attiva può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>

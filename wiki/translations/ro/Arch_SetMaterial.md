@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Arch SetMaterial
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   MenuLocation   *Arch → Set material...
-   Shortcut   ***M** **T**
+- GuiCommand:
+   Name:Arch SetMaterial
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   MenuLocation:Arch → Set material...
+   Shortcut:**M** **T**
 ---
 
 # Arch SetMaterial/ro
@@ -45,29 +45,29 @@ Instrumentul Material permite să se adauge [materials](Material.md) la document
 
 ## Opţiuni
 
--   Când creați un material nou, panoul de sarcini vă permite să setați diferite opțiuni   *
+-   Când creați un material nou, panoul de sarcini vă permite să setați diferite opțiuni:
 
 ![](images/Arch_materials_02.jpg )
 
 
 <div class="mw-translate-fuzzy">
 
--   **Choose preset**   * Selectați unul dintrre materialele predefinite, pentru a fi folosit ca atare, sau pentru a fi adaptat prin modificarea câmpurilor de mai jos
--   **Name**   * Alegeți un nume pentru material
--   **Edit button**   * Acesta deschide materialul curent în FreeCAD\'s [Material editor](FEM_MaterialEditor.md), care permite să definiți mai mute proprietăți suplimentare și să adăugăți unele personale
--   **Description**   * O descrie mai detaliată a meterialului
--   **Color**   * A display color for the material, which will be applied to all objects that use that material
--   **Code**   * Un nume și un număr de referință pentru specificația sistemului ca de ex [Masterformat](https   *//en.wikipedia.org/wiki/MasterFormat) or [Omniclass](http   *//www.omniclass.org/).
--   **Code browser button**   * Încă neimpletat - will allow to open the reference in a web browser
--   **URL**   * Un URL unde una sau mai multe informații despre material pot fi găsite
--   **URL button**   *DEschide URL în web browser
+-   **Choose preset**: Selectați unul dintrre materialele predefinite, pentru a fi folosit ca atare, sau pentru a fi adaptat prin modificarea câmpurilor de mai jos
+-   **Name**: Alegeți un nume pentru material
+-   **Edit button**: Acesta deschide materialul curent în FreeCAD\'s [Material editor](FEM_MaterialEditor.md), care permite să definiți mai mute proprietăți suplimentare și să adăugăți unele personale
+-   **Description**: O descrie mai detaliată a meterialului
+-   **Color**: A display color for the material, which will be applied to all objects that use that material
+-   **Code**: Un nume și un număr de referință pentru specificația sistemului ca de ex [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) or [Omniclass](http://www.omniclass.org/).
+-   **Code browser button**: Încă neimpletat - will allow to open the reference in a web browser
+-   **URL**: Un URL unde una sau mai multe informații despre material pot fi găsite
+-   **URL button**:DEschide URL în web browser
 
 
 </div>
 
 ## Relation to IFC 
 
-This roughly corresponds to [IfcMaterial](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
+This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 
 
 <div class="mw-translate-fuzzy">

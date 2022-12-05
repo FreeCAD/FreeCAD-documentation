@@ -19,9 +19,9 @@ Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der L
 
 Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Auf- und Zuklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die tiefer in anderen sind, sind älter, während Objekte, die sich außerhalb befinden, neuer sind und von den älteren Objekten abgeleitet werden. Durch die Modifikation der inneren Objekte breiten sich die parametrischen Operationen bis nach oben aus und erzeugen ein neues Ergebnis.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width   *" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width   *" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width   *" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
 
 
 
@@ -31,9 +31,9 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 
 Da die Baumansicht Objekte auflistet, die in der [3D-Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die aus der [3D-Ansicht](3D_view/de.md) ausgeführt werden können.
 
-Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, zeigt ein Rechtsklick auf die [Baumansicht](Tree_view/de.md) ein Untermenü mit vier Befehlen   *
+Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, zeigt ein Rechtsklick auf die [Baumansicht](Tree_view/de.md) ein Untermenü mit vier Befehlen:
 
--    **Expression Aktionen**   *
+-    **Expression Aktionen**:
 
     -   [Ausgewähltes kopieren](Std_Expressions/de.md),
     -   [Aktives Dokument kopieren](Std_Expressions/de.md),
@@ -42,117 +42,117 @@ Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/d
 
 Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
 
-Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv   *
+Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv:
 
--    **Expression Aktionen**   *
+-    **Expression Aktionen**:
 
     -   [Aktives Dokument kopieren](Std_Expressions/de.md),
     -   [Alle Dokumente kopieren](Std_Expressions/de.md).
 
 Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
 
--    **Verknüpfungsvorgänge**   * [Verweis herstellen](Std_LinkMake/de.md).
+-    **Verknüpfungsvorgänge**: [Verweis herstellen](Std_LinkMake/de.md).
 
     -   
         **Verweisgruppe herstellen**
         
-           * [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
+        : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
 
 ### Auswählen des Dokuments 
 
-Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle   *
+Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle:
 
--    {{MenuCommand/de|Versteckte Elemente anzeigen}}   * wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
+-    {{MenuCommand/de|Versteckte Elemente anzeigen}}: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
 
--    {{MenuCommand/de|Search}}   * zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
+-    {{MenuCommand/de|Search}}: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
 
--    {{MenuCommand/de|Close document}}   * schließt das ausgewählte Dokument.
+-    {{MenuCommand/de|Close document}}: schließt das ausgewählte Dokument.
 
--    {{MenuCommand/de|Skip recomputes}}   * wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
+-    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
 
     -   
         {{MenuCommand/de|Allow partial recomputes}}
         
-           * wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
+        : wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
 
--    {{MenuCommand/de|Markieren zum Neuberechnen}}   * markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
+-    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
 
--    {{MenuCommand/de|[Create group](Std_Group/de.md)}}   * Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
+-    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
 
 ### Objekte auswählen 
 
-Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie zusätzliche Befehle an. Diese sind abhängig von der Anzahl der ausgewählten Objekte, der Art der Objekte und auch von dem aktiven Arbeitsbereich. In den meisten Fällen und mit den meisten Arbeitsbereichen (außer dem Arbeitsbereich [Start](Start_Workbench/de.md)) stehen folgende Befehle zur Verfügung   *
+Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie zusätzliche Befehle an. Diese sind abhängig von der Anzahl der ausgewählten Objekte, der Art der Objekte und auch von dem aktiven Arbeitsbereich. In den meisten Fällen und mit den meisten Arbeitsbereichen (außer dem Arbeitsbereich [Start](Start_Workbench/de.md)) stehen folgende Befehle zur Verfügung:
 
--    **[Darstellung...](Std_SetAppearance/de.md)**   * Öffnet einen Dialogfenster, um die visuellen Eigenschaften des gesamten Objekts zu ändern.
+-    **[Darstellung...](Std_SetAppearance/de.md)**: Öffnet einen Dialogfenster, um die visuellen Eigenschaften des gesamten Objekts zu ändern.
 
--    **[Zufällige Farbe](Std_RandomColor/de.md)**   * Weist dem Objekt eine zufällige Farbe zu.
+-    **[Zufällige Farbe](Std_RandomColor/de.md)**: Weist dem Objekt eine zufällige Farbe zu.
 
--    **[Ausschneiden](Std_Cut/de.md)**   * Deaktiviert.
+-    **[Ausschneiden](Std_Cut/de.md)**: Deaktiviert.
 
--    **[Kopieren](Std_Copy/de.md)**   * Kopiert ein Objekt in den Zwischenspeicher.
+-    **[Kopieren](Std_Copy/de.md)**: Kopiert ein Objekt in den Zwischenspeicher.
 
--    **[Einfügen](Std_Paste/de.md)**   * Setzt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
+-    **[Einfügen](Std_Paste/de.md)**: Setzt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
 
--    **[Löschen](Std_Delete/de.md)**   * Entfernt das Objekt aus dem Dokument.
+-    **[Löschen](Std_Delete/de.md)**: Entfernt das Objekt aus dem Dokument.
 
--    **Element ausblenden**   * Wenn aktiviert, wird das ausgewählte Objekt ausgeblendet.
+-    **Element ausblenden**: Wenn aktiviert, wird das ausgewählte Objekt ausgeblendet.
 
--    **Abhängige Objekte zur Auswahl hinzufügen**   * Fügt alle abhängigen Objekte zur Auswahl hinzu. So können alle Abhängigkeiten angezeigt und z.B. alle abhängigen Objekte auf einmal gelöscht werden. Diese Auswahl steht nur zur Verfügung, wenn eines der ausgewählten Objekte Verknüpfungen besitzt {{Version/de|0.20}}
+-    **Abhängige Objekte zur Auswahl hinzufügen**: Fügt alle abhängigen Objekte zur Auswahl hinzu. So können alle Abhängigkeiten angezeigt und z.B. alle abhängigen Objekte auf einmal gelöscht werden. Diese Auswahl steht nur zur Verfügung, wenn eines der ausgewählten Objekte Verknüpfungen besitzt {{Version/de|0.20}}
 
--    **Markieren, um neu zu berechnen**   * Kennzeichnet die ausgewählten Objekte als markiert und fertig zum [Neuberechnen](Std_Refresh/de.md).
+-    **Markieren, um neu zu berechnen**: Kennzeichnet die ausgewählten Objekte als markiert und fertig zum [Neuberechnen](Std_Refresh/de.md).
 
--    **Objekt neu berechnen**   * Berechnet die ausgewählten Objekte neu.
+-    **Objekt neu berechnen**: Berechnet die ausgewählten Objekte neu.
 
--    **Umbenennen**   * Startet die Bearbeitung des Labels eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
+-    **Umbenennen**: Startet die Bearbeitung des Labels eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
 
-Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf ein [Part Würfel](Part_Box/de.md)-Objekt; bei aktiviertem Arbeitsbereich [Part](Part_Workbench/de.md) stehen folgende zusätzliche Befehle zur Verfügung   *
+Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf ein [Part Würfel](Part_Box/de.md)-Objekt; bei aktiviertem Arbeitsbereich [Part](Part_Workbench/de.md) stehen folgende zusätzliche Befehle zur Verfügung:
 
--    **[Würfel bearbeiten](Std_Edit/de.md)**   * Aktiviert den Bearbeitungsmodus des Würfels.
+-    **[Würfel bearbeiten](Std_Edit/de.md)**: Aktiviert den Bearbeitungsmodus des Würfels.
 
--    **[Transformieren](Std_TransformManip/de.md)**   * Startet das Transformations-Widget, um das Objekt zu verschieben oder zu drehen.
+-    **[Transformieren](Std_TransformManip/de.md)**: Startet das Transformations-Widget, um das Objekt zu verschieben oder zu drehen.
 
--    **[Anhang-Editor](Part_EditAttachment/de.md)**   * Öffnet ein Dialogfenster, um das Objekt einem oder mehreren anderen Objekten als Anhang zuzuordnen.
+-    **[Anhang-Editor](Part_EditAttachment/de.md)**: Öffnet ein Dialogfenster, um das Objekt einem oder mehreren anderen Objekten als Anhang zuzuordnen.
 
--    **[Farbe festlegen](Part_FaceColors/de.md)**   * Legt die Farbe der ausgewählten Flächen eines Objekts fest.
+-    **[Farbe festlegen](Part_FaceColors/de.md)**: Legt die Farbe der ausgewählten Flächen eines Objekts fest.
 
--    **[Ein/Ausblenden](Std_ToggleVisibility/de.md)**   * Schaltet die Sichtbarkeit eines Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
+-    **[Ein/Ausblenden](Std_ToggleVisibility/de.md)**: Schaltet die Sichtbarkeit eines Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
 
--    **[Auswahl einblenden](Std_ShowSelection/de.md)**   * Macht die ausgewählten Objekte sichtbar.
+-    **[Auswahl einblenden](Std_ShowSelection/de.md)**: Macht die ausgewählten Objekte sichtbar.
 
--    **[Auswahl ausblenden](Std_HideSelection/de.md)**   * Macht die ausgewählten Objekte unsichtbar.
+-    **[Auswahl ausblenden](Std_HideSelection/de.md)**: Macht die ausgewählten Objekte unsichtbar.
 
--    **[Selektierbarkeit an/aus](Std_ToggleSelectability/de.md)**   * Schaltet die Auswählbarkeit de Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
+-    **[Selektierbarkeit an/aus](Std_ToggleSelectability/de.md)**: Schaltet die Auswählbarkeit de Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
 
--    **[Alle Instanzen auswählen](Std_TreeSelectAllInstances/de.md)**   * Wählt alle Instanzen dieses Objekts in der Baumansicht aus.
+-    **[Alle Instanzen auswählen](Std_TreeSelectAllInstances/de.md)**: Wählt alle Instanzen dieses Objekts in der Baumansicht aus.
 
--    **[An Python-Konsole senden](Std_SendToPythonConsole/de.md)**   * Erstellt eine Variable in der [Python-Konsole](Python_console/de.md), die auf dieses Objekt verweist.
+-    **[An Python-Konsole senden](Std_SendToPythonConsole/de.md)**: Erstellt eine Variable in der [Python-Konsole](Python_console/de.md), die auf dieses Objekt verweist.
 
 ### Tastaturbefehle
 
-Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansicht liegt   *
+Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansicht liegt:
 
--    **Ctrl**\+**F**   * Öffnet ein Suchfeld am unteren Rand der Baumansicht, das ermöglicht Objekte durch Angabe ihres Namens oder ihres Labels zu suchen und zu erreichen.
+-    **Ctrl**\+**F**: Öffnet ein Suchfeld am unteren Rand der Baumansicht, das ermöglicht Objekte durch Angabe ihres Namens oder ihres Labels zu suchen und zu erreichen.
 
--   Aktionen zum Aus- und Einklappen mit Kombinationen aus **Alt**+**Pfeil**-Tasten   * {{Version/de|0.20}}
+-   Aktionen zum Aus- und Einklappen mit Kombinationen aus **Alt**+**Pfeil**-Tasten: {{Version/de|0.20}}
     -   
         **Alt**
         
-        \+**Left**   * Klappt ausgewählte Elemente ein.
-
-    -   
-        **Alt**
-        
-        \+**Right**   * Klappt ausgewählte Elemente aus.
+        \+**Left**: Klappt ausgewählte Elemente ein.
 
     -   
         **Alt**
         
-        \+**Up**   * Klappt ausgewählte Elemente aus mit eingeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
+        \+**Right**: Klappt ausgewählte Elemente aus.
 
     -   
         **Alt**
         
-        \+**Down**   * Klappt ausgewählte Elemente aus mit ebenfalls ausgeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
+        \+**Up**: Klappt ausgewählte Elemente aus mit eingeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
+
+    -   
+        **Alt**
+        
+        \+**Down**: Klappt ausgewählte Elemente aus mit ebenfalls ausgeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
 
 ## Überlagerungssymbole
 
@@ -178,7 +178,7 @@ Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skiz
 
 ### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
 
-Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis   * Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
+Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
 
 
 {{Interface navi

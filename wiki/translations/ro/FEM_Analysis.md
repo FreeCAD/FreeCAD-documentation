@@ -1,6 +1,6 @@
 # FEM Analysis/ro
 ---
-- GuiCommand   */ro   Name   *FEM Analysis   Name/ro   *FEM Analysis   MenuLocation   *Model → Analysis container‏‎   |Workbenches   *[Shortcut   *N,A   SeeAlso   *[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:/ro   Name:FEM Analysis   Name/ro:FEM Analysis   MenuLocation:Model → Analysis container‏‎   |Workbenches:[Shortcut:N,A   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Finite Element Analysis. Este obligatoriu să facem o analiză a containerului care cuprinde toate obiectele necesare. Cel puțin unul dintre următoarele obeicte este necesar pentru analiza mecanică   *
+Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Finite Element Analysis. Este obligatoriu să facem o analiză a containerului care cuprinde toate obiectele necesare. Cel puțin unul dintre următoarele obeicte este necesar pentru analiza mecanică:
 
 -   [ material](FEM_MaterialSolid.md)
 -   [ fixed constraint](FEM_ConstraintFixed.md)
@@ -43,14 +43,14 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 <div class="mw-translate-fuzzy">
 
 -   Până în prezent nu există opțiune de alegere.
--   O analiză de frecvență în dezvoltare. A se vedea[1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) for more informations.
+-   O analiză de frecvență în dezvoltare. A se vedea[1](http://forum.freecadweb.org/viewtopic.php?f=18&t=12189) for more informations.
 
 
 </div>
 
 ## Proprietăți
 
--    **OutpuDir**   * Specifică directorul de lucru a analizei
+-    **OutpuDir**: Specifică directorul de lucru a analizei
 
 ## Programare-Script 
 

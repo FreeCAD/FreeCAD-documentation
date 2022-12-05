@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Plot Positions
-   MenuLocation   *Plot → Set positions and sizes
-   Workbenches   *[Plot](Plot_Workbench.md)
+- GuiCommand:
+   Name:Plot Positions
+   MenuLocation:Plot → Set positions and sizes
+   Workbenches:[Plot](Plot_Workbench.md)
 ---
 
 # Plot Positions
@@ -11,7 +11,7 @@
 
 This tool allows the user to edit the position of some items like titles, axes labels and legend.
 
- <img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;"> 
+ <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;"> 
 
 ## Usage
 
@@ -22,15 +22,13 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 
 ## Options
 
--   **Position**   * x and y coordinates of the item. The axes labels can only moved along its own axis
--   **Font size**   * The font size considered for the item.
+-   **Position**: x and y coordinates of the item. The axes labels can only moved along its own axis
+-   **Font size**: The font size considered for the item.
 
 
 
 
- {{Plot_Tools_navi}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+ {{Plot_Tools_navi}}
 
 
 

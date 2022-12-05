@@ -1,6 +1,6 @@
 # Draft ToggleContinueMode/cs
 ---
-- GuiCommand   */cs   Name   *Draft ToggleContinueMode   Name/cs   *Kreslení Přepnout pokračovací mód   Workbenches   *[Architektura](Draft_Workbench/cs___kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> Utility -> Přepnout pokračovací mód---
+- GuiCommand:/cs   Name:Draft ToggleContinueMode   Name/cs:Kreslení Přepnout pokračovací mód   Workbenches:[Architektura](Draft_Workbench/cs___kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Přepnout pokračovací mód---
 
 
 </div>

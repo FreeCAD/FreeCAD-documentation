@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Raytracing InsertPart
-   Name/de   *Raytracing InsertPart
-   MenuLocation   *Raytracing → Teil einfügen
+- GuiCommand:/de
+   Name:Raytracing InsertPart
+   Name/de:Raytracing InsertPart
+   MenuLocation:Raytracing → Teil einfügen
 ‏‎|
-   Workbenches   *[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *
+   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Raytracing InsertPart/de
@@ -34,7 +34,7 @@ Einfügen einer Ansicht eines Teils in ein Raytracing Projekt.
 ## Benutzung
 
 1.  Wähle das Objekt in der Baumansicht.
-2.  Klicke auf <img alt="" src=images/Raytracing_InsertPart.png  style="width   *32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_InsertPart.png" width=32px> Teil einfügen** aus dem Menü.
+2.  Klicke auf <img alt="" src=images/Raytracing_InsertPart.png  style="width:32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_InsertPart.png" width=32px> Teil einfügen** aus dem Menü.
 3.  Die Ansicht des selektierten Teils wird in das Raytracing-Projekt eingeführt.
 4.  Falls mehr als ein Raytracing-Projekt im aktiven Dokument existiert, muss eins ausgewählt werden.
 

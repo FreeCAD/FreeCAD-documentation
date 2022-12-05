@@ -1,20 +1,20 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign MultiTransform
-   MenuLocation   *Part Design → Apply a pattern → Create MultiTransform
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
-   SeeAlso   *[PartDesign Mirrored](PartDesign_Mirrored.md), [PartDesign LinearPattern](PartDesign_LinearPattern.md), [PartDesign PolarPattern](PartDesign_PolarPattern.md), [PartDesign Scaled](PartDesign_Scaled.md)
+- GuiCommand:
+   Name:PartDesign MultiTransform
+   MenuLocation:Part Design → Apply a pattern → Create MultiTransform
+   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   SeeAlso:[PartDesign Mirrored](PartDesign_Mirrored.md), [PartDesign LinearPattern](PartDesign_LinearPattern.md), [PartDesign PolarPattern](PartDesign_PolarPattern.md), [PartDesign Scaled](PartDesign_Scaled.md)
 ---
 
 # PartDesign MultiTransform/en
 
 ## Description
 
-The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *24px;"> **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
+The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24px;"> **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
 
-The available transformations are   * <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *16px;"> [Mirrored](PartDesign_Mirrored.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *16px;"> [LinearPattern](PartDesign_LinearPattern.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *16px;"> [PolarPattern](PartDesign_PolarPattern.md) and <img alt="" src=images/PartDesign_Scaled.svg  style="width   *16px;"> [Scaled](PartDesign_Scaled.md). The first three are also available as separate tools.
+The available transformations are: <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [Mirrored](PartDesign_Mirrored.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [LinearPattern](PartDesign_LinearPattern.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> [PolarPattern](PartDesign_PolarPattern.md) and <img alt="" src=images/PartDesign_Scaled.svg  style="width:16px;"> [Scaled](PartDesign_Scaled.md). The first three are also available as separate tools.
 
-<img alt="" src=images/multitransform_example.png  style="width   *600px;"> 
+<img alt="" src=images/multitransform_example.png  style="width:600px;"> 
 *A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurences, followed by a PolarPattern with 8 occurrences.*
 
 ## Usage
@@ -23,17 +23,17 @@ The available transformations are   * <img alt="" src=images/PartDesign_Mirrored
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool   *
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
     -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
 4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens   * select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
+5.  If no features were selected the **Select feature** [task panel](Task_panel.md) opens: select one or more (hold down the **Ctrl** key) from the list and press the **OK** button.
 6.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button at the top to finish.
 
 ### Edit
 
-1.  Do one of the following   *
+1.  Do one of the following:
     -   Double-click the MultiTransform object in the [Tree view](Tree_view.md).
     -   Right-click the MultiTransform object in the [Tree view](Tree_view.md) and select **Edit MultiTransform** from the context menu.
 2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
@@ -45,12 +45,12 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
 
 1.  Check the **Originals** property of the existing transformations to make sure they have been applied to the same features.
 2.  Select those features in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the tool   *
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Create MultiTransform](PartDesign_MultiTransform.md)** button.
     -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
 4.  The **MultiTransform parameters** [task panel](Task_panel.md) opens.
 5.  Press the **OK** button at the top.
-6.  Edit the **Tranformations** property of the created MultiTransform object   *
+6.  Edit the **Tranformations** property of the created MultiTransform object:
     1.  Click in the field.
     2.  Press the **...** button that appears.
     3.  The **Link** dialog opens.
@@ -60,22 +60,22 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
 
 ## Options
 
--   To add features   *
+-   To add features:
     1.  Press the **Add feature** button.
     2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
     3.  Repeat to add more features.
--   To remove features   *
+-   To remove features:
     1.  Press the **Remove feature** button.
-    2.  Do one of the following   *
+    2.  Do one of the following:
         -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
         -   Select a feature in the list at the top and press the **Del** key.
         -   Right-click a feature in the list at the top and select **Remove** from the context menu.
     3.  Repeat to remove more features.
 -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
--   To add transformations   *
-    1.  If there are existing transformations   * select the transformation after which the new transformation should be added.
+-   To add transformations:
+    1.  If there are existing transformations: select the transformation after which the new transformation should be added.
     2.  Right-click the **Transformations** list.
-    3.  Select one the following options from the context menu   *
+    3.  Select one the following options from the context menu:
         -   
             **Add mirrored transformation**
             
@@ -99,12 +99,12 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
     5.  Adjust the settings to suit.
     6.  Press the **OK** bar at the bottom.
     7.  Repeat to add more transformations.
--   To edit a transformation   *
+-   To edit a transformation:
     1.  Right-click the transformation in the **Transformations** list.
     2.  Select **Edit** from the context menu.
     3.  Adjust the settings to suit.
     4.  Press the **OK** bar at the bottom.
--   To change the order of the transformations   *
+-   To change the order of the transformations:
     1.  Right-click a transformation in the **Transformations** list.
     2.  Select **Move up** or **Move down** from the context menu.
 -   If the **Update view** checkbox is checked the view will update in real time.
@@ -119,14 +119,14 @@ You can use this tool to create a fully parametric part that is symmetrical abou
 
 This could be a 150x100x10mm large mounting plate for a motor with symmetric holes.
 
-<img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width   *400px;">
+<img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width:400px;">
 
-1.  Create a <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Body](PartDesign_Body.md) and add a <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *16px;"> [sketch](PartDesign_NewSketch.md) on one of its base planes.
+1.  Create a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md) and add a <img alt="" src=images/PartDesign_NewSketch.svg  style="width:16px;"> [sketch](PartDesign_NewSketch.md) on one of its base planes.
 2.  In the sketch create geometry for one quadrant of the part (i.e. the upper right quadrant).
     -   Note that the constraints must also only cover a quarter of the part, e.g. instead of the full dimension of {{Value|150mm}} enter {{Value|150/2mm}} or {{Value|75mm}}.
     -   Make sure the sketch is closed by adding lines along the vertical and horizontal axes.
-3.  Extrude the part with <img alt="" src=images/PartDesign_Pad.svg  style="width   *16px;"> [PartDesign Pad](PartDesign_Pad.md).
-4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> **PartDesign MultiTransform**.
+3.  Extrude the part with <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md).
+4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> **PartDesign MultiTransform**.
 5.  The task dialog opens.
 6.  The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the **Add feature** and **Remove feature** buttons.
 7.  Right-click in the **Transformations** field and select **Add mirrored transform** from the context menu.

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Reference
-   Name/es   *Arquitectura Referencia
-   MenuLocation   *Arquitectura → Referencia
-   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso   *[Arquitectura EdificioPieza](Arch_BuildingPart/es.md)
+- GuiCommand:/es
+   Name:Arch Reference
+   Name/es:Arquitectura Referencia
+   MenuLocation:Arquitectura → Referencia
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso:[Arquitectura EdificioPieza](Arch_BuildingPart/es.md)
 ---
 
 # Arch Reference/es
@@ -14,7 +14,7 @@
 
 ## Descripción
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width   *800px;">
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -41,22 +41,22 @@ La herramienta Referencia permite colocar un objeto en el documento actual que c
 
 ## Propiedades
 
--    **Archivo**   * El archivo base sobre el que se construye este componente
+-    **Archivo**: El archivo base sobre el que se construye este componente
 
--    **Pieza**   * La pieza a utilizar del archivo base
+-    **Pieza**: La pieza a utilizar del archivo base
 
--    **Actualizar Colores**   * Si es verdadero, los colores del archivo vinculado se mantendrán actualizados
+-    **Actualizar Colores**: Si es verdadero, los colores del archivo vinculado se mantendrán actualizados
 
 ## Guión
 
-La herramienta Referencia puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función   * 
+La herramienta Referencia puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función: 
 ```python
 makeReference ([file_path,object_name])
 ```
 
 crea un objeto Referencia a partir del objeto dado en el archivo dado.
 
-Ejemplo   * 
+Ejemplo: 
 ```python
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")

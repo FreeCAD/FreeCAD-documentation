@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Std MergeProjects
-   MenuLocation   *File → Merge project...
-   Workbenches   *All
+- GuiCommand:
+   Name:Std MergeProjects
+   MenuLocation:File → Merge project...
+   Workbenches:All
 ---
 
 # Std MergeProjects/en
@@ -28,7 +28,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 ## Preferences
 
--   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 

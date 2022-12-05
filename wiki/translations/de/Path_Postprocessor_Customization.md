@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD verwendet als interne Darstellungen für die erzeugten Pfade so genannte G-Codes. Sie können solche Dinge beschreiben wie   * Geschwindigkeit und Vorschübe, Anhalten des Motors usw\... Aber das Wichtigste sind die Bewegungen, die sie beschreiben. Diese Bewegungen sind ziemlich einfach   * Sie können gerade Linien oder Kreisbögen sein. Anspruchsvollere Kurven wie B-Splines werden bereits von FreeCADs <img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) angenähert.
+FreeCAD verwendet als interne Darstellungen für die erzeugten Pfade so genannte G-Codes. Sie können solche Dinge beschreiben wie: Geschwindigkeit und Vorschübe, Anhalten des Motors usw\... Aber das Wichtigste sind die Bewegungen, die sie beschreiben. Diese Bewegungen sind ziemlich einfach: Sie können gerade Linien oder Kreisbögen sein. Anspruchsvollere Kurven wie B-Splines werden bereits von FreeCADs <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) angenähert.
 
 
 </div>
@@ -22,7 +22,7 @@ FreeCAD verwendet als interne Darstellungen für die erzeugten Pfade so genannte
 
 <div class="mw-translate-fuzzy">
 
-Viele Fräsen verwenden ebenfalls G-Codes zur Steuerung des Fräsprozesses. Sie mögen fast wie die internen Codes aussehen, aber es kann einige Unterschiede geben   *
+Viele Fräsen verwenden ebenfalls G-Codes zur Steuerung des Fräsprozesses. Sie mögen fast wie die internen Codes aussehen, aber es kann einige Unterschiede geben:
 
 -   die Maschine kann eine spezielle Startsequenz haben
 -   es kann eine spezielle Stoppsequenz haben
@@ -57,7 +57,7 @@ Der Pfad in FreeCAD würde wie folgt aussehen. Bitte beachte den kleinen blauen 
 
 <div class="mw-translate-fuzzy">
 
-Du kannst dir dann die Datei anschauen und sie mit der Ausgabe bestehender Postprozessoren wie **linux_cnc_post.py** oder **grbl_post.py** und versuche selbst, sie anzupassen, oder lade deine auf das Pfadforum <https   *//forum.freecadweb.org/viewforum.php?f=15> hoch, um Hilfe zu bekommen.
+Du kannst dir dann die Datei anschauen und sie mit der Ausgabe bestehender Postprozessoren wie **linux_cnc_post.py** oder **grbl_post.py** und versuche selbst, sie anzupassen, oder lade deine auf das Pfadforum <https://forum.freecadweb.org/viewforum.php?f=15> hoch, um Hilfe zu bekommen.
 
 
 </div>
@@ -72,7 +72,7 @@ Für ein Dateiformat **<filename>** sollte der Postprozessor den Namen **<filena
 
 </div>
 
-The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.   *
+The new name should be reflected at the head of the parser arguments list in the **<filename>_post.py** file, e.g.:
 
 
 {{Code|lang=text|code=
@@ -86,7 +86,7 @@ Wenn du testest, leg es in dein Makroverzeichnis. Wenn es gut funktioniert, erw�
 
 <div class="mw-translate-fuzzy">
 
-Zum Vergleich kannst du dir die Postprozessoren ansehen, die mit deiner FreeCAD Installation geliefert werden. Sie befinden sich unter dem Mod Verzeichnis in Path/PathScripts/post. Weit verbreitet sind die Postprozessoren [linuxcnc](http   *//linuxcnc.org/) und [grbl](https   *//github.com/grbl/grbl). Das Studium ihres Codes kann hilfreiche Einblicke geben.
+Zum Vergleich kannst du dir die Postprozessoren ansehen, die mit deiner FreeCAD Installation geliefert werden. Sie befinden sich unter dem Mod Verzeichnis in Path/PathScripts/post. Weit verbreitet sind die Postprozessoren [linuxcnc](http://linuxcnc.org/) und [grbl](https://github.com/grbl/grbl). Das Studium ihres Codes kann hilfreiche Einblicke geben.
 
 -   Unter Linux lautet der Pfad /usr/share/freecad/Mod/Path/PathScripts/post
 
@@ -109,8 +109,8 @@ Beim ansehen von linuxcnc_post.py, siehst du die Exportfunktion (ab 0.19.20514 i
 
 
 ```python
-def export(objectslist, filename, argstring)   *
-    # pylint   * disable=global-statement
+def export(objectslist, filename, argstring):
+    # pylint: disable=global-statement
     ...
     gcode = ""
     ...
@@ -121,7 +121,7 @@ sammelt es Schritt für Schritt die verarbeiteten G-Codes in der Variablen \"gco
 
 
 ```python
-def parse(pathobj)   *
+def parse(pathobj):
     ...
     out = ""
     lastcommand = None
@@ -133,7 +133,7 @@ def parse(pathobj)   *
 
 
 ```python
-        for c in pathobj.Path.Commands   *
+        for c in pathobj.Path.Commands:
 
             command = c.Name
 ```
@@ -149,7 +149,7 @@ Du wirst sehen, dass beide Funktionen auch die Funktion \"Zeilennummer()\" aufru
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_Post.svg  style="width   *24px;"> [Pfad PostProzess](Path_Post/de.md)
+-   <img alt="" src=images/Path_Post.svg  style="width:24px;"> [Pfad PostProzess](Path_Post/de.md)
 
 
 </div>

@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Панельный контур
-   Name   *Arch_Panel_Cut
-   MenuLocation   *Arch → Инструменты панелирования → Панельный контур
-   Workbenches   *[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
-   Shortcut   ***P** **C**
-   Version   *0.17
-   SeeAlso   *[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md), [Компоновка](Arch_Nest/ru.md)
+- GuiCommand:/ru
+   Name/ru:Панельный контур
+   Name:Arch_Panel_Cut
+   MenuLocation:Arch → Инструменты панелирования → Панельный контур
+   Workbenches:[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
+   Shortcut:**P** **C**
+   Version:0.17
+   SeeAlso:[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md), [Компоновка](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Cut/ru
@@ -18,7 +18,7 @@
 
 Данный инструмент создает плоский контур [Панели](Arch_Panel/ru.md) в 3D виде документа, который в дальнейшем, можно добавить в [панельный лист](Arch_Panel_Sheet/ru.md) или напрямую экспортировать в формат [DXF](Draft_DXF/ru.md). Объекты созданные с помощью инструмента \"Контур панели\" также поддерживаются в [верстаке Path](Path_Workbench/ru.md).
 
-<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
 ## Применение
 
@@ -38,40 +38,40 @@
 
 ### Данные
 
--    **Source**   * Объект [Панель](Arch_Panel/ru.md) отображаемый в этом вырезе.
+-    **Source**: Объект [Панель](Arch_Panel/ru.md) отображаемый в этом вырезе.
 
--    **Tag Text**   * Текст для отображения. Может быть %tag%, %label% или %description% для отображения тега или метки панели.
+-    **Tag Text**: Текст для отображения. Может быть %tag%, %label% или %description% для отображения тега или метки панели.
 
--    **Tag Size**   * Размер текста у тега.
+-    **Tag Size**: Размер текста у тега.
 
--    **Tag Position**   * Положение тега. Укажите (0,0,0) для автоматического положения по центру
+-    **Tag Position**: Положение тега. Укажите (0,0,0) для автоматического положения по центру
 
--    **Tag Rotation**   * Угол поворота тега.
+-    **Tag Rotation**: Угол поворота тега.
 
--    **Font File**   * Шрифт текста тега.
+-    **Font File**: Шрифт текста тега.
 
--    **Make Face**   * Если значение равно True, то панель является гранью детали, в противоположном случае является контуром сформированным из граней детали.
+-    **Make Face**: Если значение равно True, то панель является гранью детали, в противоположном случае является контуром сформированным из граней детали.
 
 ### Вид
 
--    **Margin**   * Поле отступа, которое может отображаться за пределами контура панели.
+-    **Margin**: Поле отступа, которое может отображаться за пределами контура панели.
 
--    **Show Margin**   * Включает/выключает отображение полей.
+-    **Show Margin**: Включает/выключает отображение полей.
 
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Panel Cut tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Panel Cut tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
 -   Creates a `View` object (2D projection) from the existing `panel`.
 
-Пример   * 
+Пример: 
 ```python
 import FreeCAD, Draft, Arch
 

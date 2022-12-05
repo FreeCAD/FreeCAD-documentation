@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch MergeWalls
-   Name/it   *Unisci Pareti
-   MenuLocation   *Arch → Utilità → Unisci Pareti
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Shortcut   *
-   SeeAlso   *[Parete](Arch_Wall/it.md)
+- GuiCommand:/it
+   Name:Arch MergeWalls
+   Name/it:Unisci Pareti
+   MenuLocation:Arch → Utilità → Unisci Pareti
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Parete](Arch_Wall/it.md)
 ---
 
 # Arch MergeWalls/it
@@ -35,16 +35,16 @@ Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src=
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   * 
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Draft, Arch
 

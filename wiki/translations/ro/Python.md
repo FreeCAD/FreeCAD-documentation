@@ -13,7 +13,7 @@ FreeCAD a fost proiectat inițial pentru a lucra cu Python 2. Multe funcții luc
 
 {{TOCright}}
 
-[Python](https   *//www.python.org) este un limbaj de programare cu scop general, care este foarte frecvent utilizat în aplicații mari pentru a automatiza anumite sarcini prin crearea de scripturi sau [macros](macros/ro.md).
+[Python](https://www.python.org) este un limbaj de programare cu scop general, care este foarte frecvent utilizat în aplicații mari pentru a automatiza anumite sarcini prin crearea de scripturi sau [macros](macros/ro.md).
 
 În programul FreeCAD, codul Python poate fi folosit pentru a crea diverse elemente programabil, fără a fi nevoie să faceți clic pe interfața grafică a utilizatorului. În plus, multe instrumente și ateliere de lucru ale programului FreeCAD sunt programate în Python.
 
@@ -24,15 +24,15 @@ A se vedea [Introduction to Python](Introduction_to_Python/ro.md) pentru a afla 
 
 <div class="mw-translate-fuzzy">
 
-Atunci când se scrie codul în Python, este de preferat să se urmeze [PEP8   * Style Guide for Python Code](https   *//www.python.org/dev/peps/pep-0008/).
+Atunci când se scrie codul în Python, este de preferat să se urmeze [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
 
 
 </div>
 
-These documents present explanations in a more user-friendly way   *
+These documents present explanations in a more user-friendly way:
 
--   [How to Write Beautiful Python Code With PEP 8](https   *//realpython.com/python-pep8/)
--   [Documenting Python Code   * A Complete Guide](https   *//realpython.com/documenting-python-code/).
+-   [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
+-   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/).
 
 ## Convenții
 
@@ -45,7 +45,7 @@ Aceasta este o semnătură tipică a funcției
 Wire = make_wire(pointslist, closed=False, placement=None, face=None, support=None)
 ```
 
--   Argumentele cu perechi cheie-valoare sunt opționale, cu valoarea implicită indicată în semnătură. Aceasta înseamnă că următoarele apeluri sunt echivalente   *
+-   Argumentele cu perechi cheie-valoare sunt opționale, cu valoarea implicită indicată în semnătură. Aceasta înseamnă că următoarele apeluri sunt echivalente:
 
 
 ```python
@@ -57,9 +57,9 @@ Wire = make_wire(pointslist)
 ```
 
 
-   *   În acest exemplu, primul argument nu are o valoare implicită, așa că trebuie întotdeauna inclus.
+:   În acest exemplu, primul argument nu are o valoare implicită, așa că trebuie întotdeauna inclus.
 
--   Atunci când argumentele sunt date cu cheia explicită, argumentele opționale pot fi date în orice ordine. Aceasta înseamnă că următoarele apeluri sunt echivalente   *
+-   Atunci când argumentele sunt date cu cheia explicită, argumentele opționale pot fi date în orice ordine. Aceasta înseamnă că următoarele apeluri sunt echivalente:
 
 
 ```python
@@ -139,11 +139,6 @@ pointslist = [p1, p2, p3, p4]
 Wire = Draft.make_wire(pointslist, closed=True, face=True)
 Structure = Arch.make_structure(Wire, name="Big pillar")
 ```
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *API](Category_API.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

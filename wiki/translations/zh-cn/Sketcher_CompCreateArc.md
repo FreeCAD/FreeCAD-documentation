@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher Arcs
-   Icon   *Sketcher_CompCreateArc.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:
+   Name:Sketcher Arcs
+   Icon:Sketcher_CompCreateArc.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
 # Sketcher CompCreateArc/zh-cn
@@ -17,8 +17,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_CreateArc.png  style="width   *32px;"> [利用中点与端点来创建弧](Sketcher_CreateArc.md)    * 通过拾取三个点：中点、起始角度与终点角度来绘制一条弧。
--   <img alt="" src=images/Sketcher_CreateArc3Point.png  style="width   *32px;"> [利用端点与弧上的点来创建弧](Sketcher_Create3PointArc.md)    * 通过拾取三个点：弧上的起始点、终点与弧上另一点来绘制一条弧。
+-   <img alt="" src=images/Sketcher_CreateArc.png  style="width:32px;"> [利用中点与端点来创建弧](Sketcher_CreateArc.md) : 通过拾取三个点：中点、起始角度与终点角度来绘制一条弧。
+-   <img alt="" src=images/Sketcher_CreateArc3Point.png  style="width:32px;"> [利用端点与弧上的点来创建弧](Sketcher_Create3PointArc.md) : 通过拾取三个点：弧上的起始点、终点与弧上另一点来绘制一条弧。
 
 
 </div>

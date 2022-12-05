@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std PerspectiveCamera
-   Name/fr   *Std Vue en perspective
-   MenuLocation   *Affichage → Vue en perspective
-   Workbenches   *Tous
-   Shortcut   ***V** **P**
-   SeeAlso   *[Std Vue orthographique](Std_OrthographicCamera/fr.md)
+- GuiCommand:/fr
+   Name:Std PerspectiveCamera
+   Name/fr:Std Vue en perspective
+   MenuLocation:Affichage → Vue en perspective
+   Workbenches:Tous
+   Shortcut:**V** **P**
+   SeeAlso:[Std Vue orthographique](Std_OrthographicCamera/fr.md)
 ---
 
 # Std PerspectiveCamera/fr
@@ -19,9 +19,9 @@ La commande **Std Vue en perspective** fait passer la vision du mode actif [vue 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_PerspectiveCamera.svg" width=16px> Vue en perspective** dans le menu.
-    -   Utilisez le raccourci clavier   * **V** then **P**.
+    -   Utilisez le raccourci clavier: **V** then **P**.
 
 ## Remarques
 
@@ -29,12 +29,12 @@ La commande **Std Vue en perspective** fait passer la vision du mode actif [vue 
 
 ## Préférences
 
--   Le type de vue peut être modifié dans les préférences   * **Edition → Préférences... → Affichage → Vue 3D → Type de caméra**. Le type sélectionné sera utilisé pour toutes les vues 3D de tous les documents ouverts et également pour les nouveaux documents. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+-   Le type de vue peut être modifié dans les préférences: **Edition → Préférences... → Affichage → Vue 3D → Type de caméra**. Le type sélectionné sera utilisé pour toutes les vues 3D de tous les documents ouverts et également pour les nouveaux documents. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Stairs
-   Name/es   *Arch Stairs
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   MenuLocation   *Arch → Stairs
-   Shortcut   ***S** **R**
+- GuiCommand:/es
+   Name:Arch Stairs
+   Name/es:Arch Stairs
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   MenuLocation:Arch → Stairs
+   Shortcut:**S** **R**
 ---
 
 # Arch Stairs/es
@@ -27,12 +27,12 @@ La herramienta de escaleras le permite construir automáticamente varios tipos d
 
 <div class="mw-translate-fuzzy">
 
-Consulte la entrada [Stairs en wikipedia](http   *//en.wikipedia.org/wiki/Stairs) para obtener una definición de los diferentes términos utilizados para describir las partes de las escaleras.
+Consulte la entrada [Stairs en wikipedia](http://en.wikipedia.org/wiki/Stairs) para obtener una definición de los diferentes términos utilizados para describir las partes de las escaleras.
 
 
 </div>
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -74,29 +74,29 @@ Presiona el botón **<img src="images/Arch_Stairs.png" width=32px> Escaleras
 
 {{TitleProperty|Segment and Parts}}
 
--    **Abs Top|Vector**   * (read-only) The absolute top level the stairs lead to.
+-    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
 
--    **Last Segment|Link**   * Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
+-    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    **Outline Left|VectorList**   * The left outline of the stairs.
+-    **Outline Left|VectorList**: The left outline of the stairs.
 
--    **Outline Left All|VectorList**   * The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
 
--    **Outline Right|VectorList**   * The right outline of the stairs.
+-    **Outline Right|VectorList**: The right outline of the stairs.
 
--    **Outline Right All|VectorList**   * The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
 
--    **Railing Height Left|Length**   * Height of the left railing of the stairs or landing.
+-    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
 
--    **Railing Height Right|Length**   * Height of the right railing of the stairs or landing.
+-    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
 
--    **Railing Left|String**   * Name of the left railing object.
+-    **Railing Left|String**: Name of the left railing object.
 
--    **Railing Offset Left|Length**   * Offset of the left railing from the edge of the stairs or landing.
+-    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
 
--    **Railing Offset Right|Length**   * Offset of the right railing from the edge of the stairs or landing.
+-    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
 
--    **Railing Right|String**   * Name of the right railing object.
+-    **Railing Right|String**: Name of the right railing object.
 
 
 {{TitleProperty|Stairs}}
@@ -104,15 +104,15 @@ Presiona el botón **<img src="images/Arch_Stairs.png" width=32px> Escaleras
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Align}}   * La alineación de estas escaleras en su línea base, si corresponde.
+-    {{PropertyData/es|Align}}: La alineación de estas escaleras en su línea base, si corresponde.
 
--    {{PropertyData/es|Base}}   * La línea base de estas escaleras, si hay alguna.
+-    {{PropertyData/es|Base}}: La línea base de estas escaleras, si hay alguna.
 
--    {{PropertyData/es|Height}}   * La altura total de estas escaleras, si no se basa en una línea de base, o la línea de base es horizontal.
+-    {{PropertyData/es|Height}}: La altura total de estas escaleras, si no se basa en una línea de base, o la línea de base es horizontal.
 
--    {{PropertyData/es|Length}}   * La longitud total de estas escaleras si no se define una línea de base.
+-    {{PropertyData/es|Length}}: La longitud total de estas escaleras si no se define una línea de base.
 
--    {{PropertyData/es|Width}}   * El ancho de estas escaleras.
+-    {{PropertyData/es|Width}}: El ancho de estas escaleras.
 
 
 </div>
@@ -128,15 +128,15 @@ Escalones
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Nosing}}   * El tamaño de la nariz.
+-    {{PropertyData/es|Nosing}}: El tamaño de la nariz.
 
--    {{PropertyData/es|Number of Steps}}   * La cantidad de escalones (peralte) en estas escaleras.
+-    {{PropertyData/es|Number of Steps}}: La cantidad de escalones (peralte) en estas escaleras.
 
--    {{PropertyData/es|Riser Height}}   * La altura de los peraltes
+-    {{PropertyData/es|Riser Height}}: La altura de los peraltes
 
--    {{PropertyData/es|Tread Depth}}   * La profundidad de las huellas.
+-    {{PropertyData/es|Tread Depth}}: La profundidad de las huellas.
 
--    {{PropertyData/es|Tread Thickness}}   * El grosor de las huellas.
+-    {{PropertyData/es|Tread Thickness}}: El grosor de las huellas.
 
 
 </div>
@@ -152,17 +152,17 @@ Estructura
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Landings}}   * El tipo de rellanos.
+-    {{PropertyData/es|Landings}}: El tipo de rellanos.
 
--    {{PropertyData/es|Stringer Offset}}   * El desplazamiento entre el borde de las escaleras y la estructura.
+-    {{PropertyData/es|Stringer Offset}}: El desplazamiento entre el borde de las escaleras y la estructura.
 
--    {{PropertyData/es|Stringer Width}}   * El ancho de los largueros.
+-    {{PropertyData/es|Stringer Width}}: El ancho de los largueros.
 
--    {{PropertyData/es|Structure}}   * El tipo de estructura de estas escaleras.
+-    {{PropertyData/es|Structure}}: El tipo de estructura de estas escaleras.
 
--    {{PropertyData/es|Structure Thickness}}   * El espesor de la estructura.
+-    {{PropertyData/es|Structure Thickness}}: El espesor de la estructura.
 
--    {{PropertyData/es|Winders}}   * Tipo de escalones no rectangulares
+-    {{PropertyData/es|Winders}}: Tipo de escalones no rectangulares
 
 
 </div>
@@ -176,8 +176,8 @@ Estructura
 
 -   No disponible antes de la versión 0.14 de FreeCAD
 -   Solo escaleras rectas están disponibles en este momento
--   Ver la entrada [foro](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=6534) para las escaleras en círculo.
--   Ver el [anuncio del foro](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4564).
+-   Ver la entrada [foro](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) para las escaleras en círculo.
+-   Ver el [anuncio del foro](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564).
 
 
 </div>
@@ -195,7 +195,7 @@ Estructura
 
 <div class="mw-translate-fuzzy">
 
-Las escaleras se pueden crear a partir de scripts de Python y [macros](macros/es.md) utilizando la siguiente función   *
+Las escaleras se pueden crear a partir de scripts de Python y [macros](macros/es.md) utilizando la siguiente función:
 
 
 </div>
@@ -214,7 +214,7 @@ Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=No
 
 </div>
 
-Ejemplo   * 
+Ejemplo: 
 ```python
 import Arch
 
@@ -226,11 +226,6 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 </div>
-
-
- 
-
-[Category   *Arch/es](Category   *Arch/es.md)
 
 
 

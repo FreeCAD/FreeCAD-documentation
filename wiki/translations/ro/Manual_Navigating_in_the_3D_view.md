@@ -1,5 +1,5 @@
 # Manual:Navigating in the 3D view/ro
-{{Manual   *TOC/ro}}
+{{Manual:TOC/ro}}
 
 ### O vorbă despre spațiul 3D 
 
@@ -11,14 +11,14 @@ Dacă acesta este primul dvs. contact cu o aplicație 3D, va trebui să înțele
 
 </div>
 
-Spațiul FreeCAD 3D este un spațiu euclidian [Euclidean space](https   *//en.wikipedia.org/wiki/Euclidean_space). Este un punct de origine și trei axe   * X, Y și Z. Dacă vă uitați la scena dvs. de sus, în mod convențional, axa X indică spre dreapta, axa Y spre spate și axa Z în sus. În colțul din dreapta jos al vizualizării FreeCAD, vizionați mereu scena   *
+Spațiul FreeCAD 3D este un spațiu euclidian [Euclidean space](https://en.wikipedia.org/wiki/Euclidean_space). Este un punct de origine și trei axe: X, Y și Z. Dacă vă uitați la scena dvs. de sus, în mod convențional, axa X indică spre dreapta, axa Y spre spate și axa Z în sus. În colțul din dreapta jos al vizualizării FreeCAD, vizionați mereu scena:
 
 ![](images/Axes_orientation.png )
 
 
 <div class="mw-translate-fuzzy">
 
-Fiecare punct al fiecărui obiect care există în acest spațiu poate fi localizat prin coordonatele sale (x, y, z). De exemplu, un punct cu coordonate (2, 3, 1), se va situa la 2 unități pe axa X, 3 unități pe axa Y și 1 unitate pe axa Z   *
+Fiecare punct al fiecărui obiect care există în acest spațiu poate fi localizat prin coordonatele sale (x, y, z). De exemplu, un punct cu coordonate (2, 3, 1), se va situa la 2 unități pe axa X, 3 unități pe axa Y și 1 unitate pe axa Z:
 
 
 </div>
@@ -40,7 +40,7 @@ Puteți privi acea scenă din orice unghi, ca și cum ați ține o cameră foto.
 
 <div class="mw-translate-fuzzy">
 
-Navigarea în vizualizarea 3D FreeCAD se poate face cu un mouse, cu un dispozitiv Navigator spațial, tastatură, touchpad sau o combinație a acestora. FreeCAD implementează mai multe moduri de navigare [navigation modes](http   *//www.freecadweb.org/wiki/index.php?title=Mouse_Model), care determină cum cele 3 operații de manipulare a vederii sunt utilizate în procesul de operare (pan, rotire și zoom). Modurile de navigare sunt accesate din ecranul Preferințe sau direct făcând clic dreapta oriunde în vizualizarea 3D   *
+Navigarea în vizualizarea 3D FreeCAD se poate face cu un mouse, cu un dispozitiv Navigator spațial, tastatură, touchpad sau o combinație a acestora. FreeCAD implementează mai multe moduri de navigare [navigation modes](http://www.freecadweb.org/wiki/index.php?title=Mouse_Model), care determină cum cele 3 operații de manipulare a vederii sunt utilizate în procesul de operare (pan, rotire și zoom). Modurile de navigare sunt accesate din ecranul Preferințe sau direct făcând clic dreapta oriunde în vizualizarea 3D:
 
 
 </div>
@@ -56,7 +56,7 @@ Navigarea în vizualizarea 3D FreeCAD se poate face cu un mouse, cu un dispoziti
 
 <div class="mw-translate-fuzzy">
 
-Fiecare dintre aceste moduri alocă diferite butoane mouse-ului sau combinații de mouse-uri sau tastaturi mouse-ul pentru aceste patru operații. Următorul tabel prezintă principalele moduri disponibile   *
+Fiecare dintre aceste moduri alocă diferite butoane mouse-ului sau combinații de mouse-uri sau tastaturi mouse-ul pentru aceste patru operații. Următorul tabel prezintă principalele moduri disponibile:
 
 
 </div>
@@ -78,7 +78,7 @@ Fiecare dintre aceste moduri alocă diferite butoane mouse-ului sau combinații 
 
 #### Keyboard Navigation 
 
-În mod alternativ, unele comenzi de la tastatură sunt întotdeauna disponibile, indiferent de modul de navigare   *
+În mod alternativ, unele comenzi de la tastatură sunt întotdeauna disponibile, indiferent de modul de navigare:
 
 
 <div class="mw-translate-fuzzy">
@@ -128,7 +128,7 @@ Obiectele din vizualizarea 3D pot fi selectate făcând clic pe ele cu ajutorul 
 
 </div>
 
-Poate fi activat și un panou numit \"Selection view\", disponibil din meniul Vizualizare, care vă arată ce este selectat în prezent   *
+Poate fi activat și un panou numit \"Selection view\", disponibil din meniul Vizualizare, care vă arată ce este selectat în prezent:
 
 ![](images/Selection_view.jpg )
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM ConstraintSelfWeight
-   MenuLocation   *Model → Mechanical Constraints → Constraint self weight
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM ConstraintSelfWeight
+   MenuLocation:Model → Mechanical Constraints → Constraint self weight
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintSelfWeight
@@ -14,14 +14,14 @@ Constraint self weight defines gravity acceleration 9,81 m/s\^2 acting on the wh
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [FEM ConstraintSelfWeight](FEM_ConstraintSelfWeight.md)** button.
     -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Constraint self weight** option from the menu.
 2.  You can modify the direction of gravitation by changing its vector coordinates in the property bar of newly created ConstraintSelfWeight object.
 
 ## Scripting
 
-New object   *
+New object:
 
  
 ```python
@@ -29,14 +29,14 @@ import ObjectsFem
 ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
-Add object to the analysis named Analysis   *
+Add object to the analysis named Analysis:
 
  
 ```python
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
-Example   *
+Example:
 
  
 ```python
@@ -56,7 +56,7 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 Acceleration constant can be edited by hand modification after generating CalculiX input file.
 
-Example of lines in .inp file   *
+Example of lines in .inp file:
 
  
 ```python

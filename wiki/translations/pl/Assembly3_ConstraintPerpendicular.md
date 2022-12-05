@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Assembly3 ConstraintPerpendicular
-   Icon   *Assembly_ConstraintPerpendicular.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:
+   Name:Assembly3 ConstraintPerpendicular
+   Icon:Assembly_ConstraintPerpendicular.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPerpendicular/pl
@@ -11,7 +11,7 @@
 
 This tool builds a link between two objects of an assembly and matches their orientation. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
 
-Assuming the first object is already locked in place by the <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *24px;"> [Lock constraint](Assembly3_ConstraintLock.md) then the following object is moved to a position where both z-axes are perpendicular.
+Assuming the first object is already locked in place by the <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:24px;"> [Lock constraint](Assembly3_ConstraintLock.md) then the following object is moved to a position where both z-axes are perpendicular.
 
 The offset of their origins in x-, y- and z-direction and the angles between the x-, and y-axes are not defined. Related to the first object the following object can still move along the x-, y- and z-axis and spin around both z-axes. This is leaving 5 degrees of freedom (DOFs) for each link unconstrained.
 

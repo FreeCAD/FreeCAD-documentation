@@ -24,14 +24,14 @@ Este tutorial explica como utilizar FreeCAD y el entorno de simulación de Robot
 
 ## Abrir un archivo o crear uno con FreeCAD 
 
-El tutorial está basado en un archivo STEP de un Stäubli TX40 (TX40-HB.stp). Puedes descargar el archivo de <https   *//secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html>. Sin embargo, aunque aún no he tenido tiempo para comprobarlo, el método debería también aplicarse a un modelo creado completamente en FreeCAD. Después de abrir el archivo deberías tener esto   *
+El tutorial está basado en un archivo STEP de un Stäubli TX40 (TX40-HB.stp). Puedes descargar el archivo de <https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html>. Sin embargo, aunque aún no he tenido tiempo para comprobarlo, el método debería también aplicarse a un modelo creado completamente en FreeCAD. Después de abrir el archivo deberías tener esto:
 
-<img alt="" src=images/staeubli_step_import.png  style="width   *1024px;">
+<img alt="" src=images/staeubli_step_import.png  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Observa, que en la importación, el robot es creado en 8 formas, directamente en la raíz del árbol del documento. La estructura del archivo VRML exportado debe cambiarse si se utilizan grupos. Las formas están ordenadas desde la base a la herramienta. La última forma contiene los ejes de rotación de todos los ejes del robot. Los nombres de las formas son dados de forma correlativa (de momento, marzo de 2011, FreeCAD no importa los nombres incluidos en los archivos STEP)   *
+Observa, que en la importación, el robot es creado en 8 formas, directamente en la raíz del árbol del documento. La estructura del archivo VRML exportado debe cambiarse si se utilizan grupos. Las formas están ordenadas desde la base a la herramienta. La última forma contiene los ejes de rotación de todos los ejes del robot. Los nombres de las formas son dados de forma correlativa (de momento, marzo de 2011, FreeCAD no importa los nombres incluidos en los archivos STEP):
 
 
 </div>
@@ -60,7 +60,7 @@ Cambia el "modo de visualización" de cada forma, excepto TX40_HB007, de "línea
 
 ## Medición de características geométricas 
 
-Para construir la tabla Denavit-Hartenberg (mira <http   *//www.freecadweb.org/wiki/index.php?title=6-Axis_Robot>) y preparar el archivo VRML, necesitas obtener las características del robot. De momento, la herramienta de medición de FreeCAD aún no está disponible, puedes utilizar los ejes incluidos en TX40_HB007 (las coordenadas son indicadas en la parte inferior izquierda cuando apuntas un objeto con el ratón) o tienes que utilizar la consola de Python para obtener algo de información sobre la geometría. Observa que la tabla DH-table sólo es requerida si necesitas utilizar cinemática inversa, por ejemplo obtener las coordenadas cartesianas o conducir el robot con coordenadas cartesianas. La tabla DH-table para este robot es la siguiente (mm, deg y deg/s)   *
+Para construir la tabla Denavit-Hartenberg (mira <http://www.freecadweb.org/wiki/index.php?title=6-Axis_Robot>) y preparar el archivo VRML, necesitas obtener las características del robot. De momento, la herramienta de medición de FreeCAD aún no está disponible, puedes utilizar los ejes incluidos en TX40_HB007 (las coordenadas son indicadas en la parte inferior izquierda cuando apuntas un objeto con el ratón) o tienes que utilizar la consola de Python para obtener algo de información sobre la geometría. Observa que la tabla DH-table sólo es requerida si necesitas utilizar cinemática inversa, por ejemplo obtener las coordenadas cartesianas o conducir el robot con coordenadas cartesianas. La tabla DH-table para este robot es la siguiente (mm, deg y deg/s):
 
 
 </div>
@@ -74,7 +74,7 @@ Para construir la tabla Denavit-Hartenberg (mira <http   *//www.freecadweb.org/w
   5   0     q5        0     90    -120   133.5   1135
   6   65    q6        0     0     -270   270     1575
 
-El archivo CSV es entonces   *
+El archivo CSV es entonces:
 
  a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
 0  ,   -90, 320,     0,      1,      180,     -180, 555
@@ -89,7 +89,7 @@ El archivo CSV es entonces   *
 
 ## Exportar a VRML 
 
-Exportar el documento a un archivo VRML. La estructura del archivo VRML es la siguiente   *
+Exportar el documento a un archivo VRML. La estructura del archivo VRML es la siguiente:
 
 
 </div>
@@ -144,7 +144,7 @@ Puedes observar que tenemos 8 grupos independientes correspondientes a las 8 for
 
 ## Preparación del archivo VRML 
 
-Todas las formas en el archivo VRML son expresadas en el cuadro base, independientemente de cada otra. Para el entorno de simulación de Robots, necesitamos crear una estructura donde un movimiento de una forma induzca un movimiento de todas las formas situadas después en la estructura. La ubicación de las formas será relativa a la forma precedente, así necesitamos incluir algunas traducciones desde el sistema de referencia absoluto a los relativos. Las traducciones se describen en la siguiente imagen   *
+Todas las formas en el archivo VRML son expresadas en el cuadro base, independientemente de cada otra. Para el entorno de simulación de Robots, necesitamos crear una estructura donde un movimiento de una forma induzca un movimiento de todas las formas situadas después en la estructura. La ubicación de las formas será relativa a la forma precedente, así necesitamos incluir algunas traducciones desde el sistema de referencia absoluto a los relativos. Las traducciones se describen en la siguiente imagen:
 
 
 </div>
@@ -153,12 +153,12 @@ Todas las formas en el archivo VRML son expresadas en el cuadro base, independie
 
 Con
 
-   *   A=(0, 0, 168)
-   *   B=(0, 107.8, 320)
-   *   C=(0, 104.15, 545)
-   *   D=(0, 35, 601)
-   *   E=(0, 35, 770)
-   *   F=(0, 35, 835)
+:   A=(0, 0, 168)
+:   B=(0, 107.8, 320)
+:   C=(0, 104.15, 545)
+:   D=(0, 35, 601)
+:   E=(0, 35, 770)
+:   F=(0, 35, 835)
 
 Cojamos el ejemplo de el eje 4 entre ELBOW y FOREARM, situado en D=(xd, yd, zd). El anclaje para el eje de FreeCAD es 
 
@@ -169,7 +169,7 @@ Cojamos el ejemplo de el eje 4 entre ELBOW y FOREARM, situado en D=(xd, yd, zd).
 
 <div class="mw-translate-fuzzy">
 
-Este corresponde a la rotación alrededor del eje Y. En el modelo de CAD, la rotación es alrededor del eje Z. Así, necesitamos una rotación alrededor del eje X de $\pi$ antes de la definición del eje en FreeCAD y de $-\pi$ después de ella. También, se necesita una traslación de (-xd, -yd, -zd) antes de la correspondencia del grupo a la definición de FOREARM para expresarlo centrado en el cuadro de referencia relativa en D. Esto significa que la traslación de (xd, yd, zd) debe insertarse antes de la primera rotación. Al final, el archivo VRML de la definición de ELBOW a la definición de FOREARM se parecerá a esto   *
+Este corresponde a la rotación alrededor del eje Y. En el modelo de CAD, la rotación es alrededor del eje Z. Así, necesitamos una rotación alrededor del eje X de $\pi$ antes de la definición del eje en FreeCAD y de $-\pi$ después de ella. También, se necesita una traslación de (-xd, -yd, -zd) antes de la correspondencia del grupo a la definición de FOREARM para expresarlo centrado en el cuadro de referencia relativa en D. Esto significa que la traslación de (xd, yd, zd) debe insertarse antes de la primera rotación. Al final, el archivo VRML de la definición de ELBOW a la definición de FOREARM se parecerá a esto:
 
 
 </div>
@@ -204,7 +204,7 @@ Este corresponde a la rotación alrededor del eje Y. En el modelo de CAD, la rot
 
 <div class="mw-translate-fuzzy">
 
-Al final del documento, deben insertarse los corchetes de cierre apropiados   * " \]}}}}," para cada uno de los 6 ejes. Al final, el documento se parecerá a esto (No sé si puedo vincular el archivo aquí debido al copyright)   *
+Al final del documento, deben insertarse los corchetes de cierre apropiados: " \]}}}}," para cada uno de los 6 ejes. Al final, el documento se parecerá a esto (No sé si puedo vincular el archivo aquí debido al copyright):
 
 
 </div>
@@ -345,7 +345,7 @@ Group {
 
 <div class="mw-translate-fuzzy">
 
-Aquí está un parche para conseguir el archivo VRML adecuado para la simulación del robot   *
+Aquí está un parche para conseguir el archivo VRML adecuado para la simulación del robot:
 
 
 </div>
@@ -443,12 +443,6 @@ Aquí está un parche para conseguir el archivo VRML adecuado para la simulació
 >       ]}}}},
 >       ]}}}},
 >       ]
-
-
-
-
-
-[Category   *Robot](Category_Robot.md)
 
 
 

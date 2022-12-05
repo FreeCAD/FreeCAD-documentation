@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher NewSketch
-   Name/pl   *Tworzenie szkicu
-   MenuLocation   *Sketch → Utwórz szkic
-   Workbenches   *[Sketcher](Sketcher_Workbench/pl.md)
-   SeeAlso   *[Nowy szkic](PartDesign_NewSketch.md), [Zmień orientację szkicu...](Sketcher_ReorientSketch/pl.md)
+- GuiCommand:/pl
+   Name:Sketcher NewSketch
+   Name/pl:Tworzenie szkicu
+   MenuLocation:Sketch → Utwórz szkic
+   Workbenches:[Sketcher](Sketcher_Workbench/pl.md)
+   SeeAlso:[Nowy szkic](PartDesign_NewSketch.md), [Zmień orientację szkicu...](Sketcher_ReorientSketch/pl.md)
 ---
 
 # Sketcher NewSketch/pl
@@ -13,11 +13,11 @@
 
 W ten sposób powstanie nowy [szkic](Sketcher_Workbench/pl.md).
 
-Należy pamiętać, że Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt części](PartDesign_Workbench/pl.md) ma własne polecenie [utwórz nowy szkic](PartDesign_NewSketch.md), podczas pracy z obiektem [Projekt części   * zawartość](PartDesign_Body/pl.md) zaleca się używanie tego narzędzia.
+Należy pamiętać, że Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) ma własne polecenie [utwórz nowy szkic](PartDesign_NewSketch.md), podczas pracy z obiektem [Projekt części: zawartość](PartDesign_Body/pl.md) zaleca się używanie tego narzędzia.
 
 ## Użycie
 
-Kliknięcie na ikonę bez *(wstępnie)* wybranej powierzchni spowoduje wyświetlenie okna dialogowego z pytaniem, czy szkic powinien zostać narysowany na   *
+Kliknięcie na ikonę bez *(wstępnie)* wybranej powierzchni spowoduje wyświetlenie okna dialogowego z pytaniem, czy szkic powinien zostać narysowany na:
 
 -   planie - XY
 -   planie - XZ

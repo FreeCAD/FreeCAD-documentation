@@ -1,11 +1,11 @@
 # Draft Drawing/it
 ---
-- GuiCommand   */it
-   Name   *Draft Drawing
-   Name/it   *Disegno
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Disegno
-   SeeAlso   *[TechDraw DraftView](TechDraw_DraftView/it.md), [Vista 2D](Draft_Shape2DView/it.md)---
+- GuiCommand:/it
+   Name:Draft Drawing
+   Name/it:Disegno
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Disegno
+   SeeAlso:[TechDraw DraftView](TechDraw_DraftView/it.md), [Vista 2D](Draft_Shape2DView/it.md)---
 
 
 </div>
@@ -30,7 +30,7 @@ Questo strumento funziona in modo simile allo strumento [Vista di Drawing](Drawi
 
 This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md) and the [TechDraw DraftView](TechDraw_DraftView.md) command instead.
 
-<img alt="" src=images/Draft_drawing_example.jpg  style="width   *640px;">
+<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">

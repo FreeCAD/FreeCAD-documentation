@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Изменить внешний вид линий
-   Name   *TechDraw_DecorateLine
-   MenuLocation   *TechDraw → Change Appearance of Line(s)
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
+- GuiCommand:/ru
+   Name/ru:Изменить внешний вид линий
+   Name:TechDraw_DecorateLine
+   MenuLocation:TechDraw → Change Appearance of Line(s)
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
 ---
 
 # TechDraw DecorateLine/ru
@@ -14,13 +14,13 @@
 
 The **TechDraw DecorateLine** tool changes the appearance of Edges.
 
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
 
 
 
 *Sample Edges before decoration*
 
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
 
 
 
@@ -39,7 +39,7 @@ The DecorateLine tool has no properties, as it is not a Document Object.
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher Create Ellipse by center
-   Icon   *Sketcher_CreateEllipse.png
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   MenuLocation   *Sketch → Sketcher geometries → Create ellipse by center
-   Version   *0.15
-   SeeAlso   *[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
+- GuiCommand:
+   Name:Sketcher Create Ellipse by center
+   Icon:Sketcher_CreateEllipse.png
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   MenuLocation:Sketch → Sketcher geometries → Create ellipse by center
+   Version:0.15
+   SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---
 
 # Sketcher CreateEllipseByCenter/ro
@@ -15,12 +15,12 @@
 
 ## Descriere
 
-Acest instrument desenează o elipsă prin alegerea a 3 puncte   * centrul, sfârșitul semiaxei majore, semiaxa minoră. Când porniți instrumentul, indicatorul mouse-ului se modifică într-o cruce albă cu o pictogramă ca o elipsă roșie. Pe lângă acestea, coordonatele sunt afișate în timp real.
+Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârșitul semiaxei majore, semiaxa minoră. Când porniți instrumentul, indicatorul mouse-ului se modifică într-o cruce albă cu o pictogramă ca o elipsă roșie. Pe lângă acestea, coordonatele sunt afișate în timp real.
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci." src=images/Sketcher_EllipseExample1.png‎  style="width   *500px;">
+<img alt="The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci." src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
 </div>

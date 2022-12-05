@@ -6,7 +6,7 @@
 
 Un **Comando** è ciò che viene eseguito quando si preme un pulsante della barra degli strumenti o si digita una scorciatoia da tastiera. Può essere un\'azione molto semplice, come cambiare il livello di zoom della vista 3D o ruotare il punto di vista oppure un sistema complesso che apre le finestre di dialogo e attende che l\'utente esegua delle specifiche attività.
 
-Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina [   *Category   *Command Reference](   *Category_Command_Reference.md) se originale inglese, e nella pagina [   *Category   *Command_Reference/it](   *Category   *Command_Reference/it.md) per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script [Python](Python/it.md) o dalla [console Python](Python_console/it.md), eseguendo   *
+Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina [:Category:Command Reference](:Category_Command_Reference.md) se originale inglese, e nella pagina [:Category:Command_Reference/it](:Category:Command_Reference/it.md) per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script [Python](Python/it.md) o dalla [console Python](Python_console/it.md), eseguendo:
 
 
 ```python
@@ -29,8 +29,8 @@ Esempio di definizione di un comando C++, di solito definito seguendo la struttu
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
 
-StdCmdMyCommand   *   *StdCmdMyCommand()
-     * Command("Std_My_Command")
+StdCmdMyCommand::StdCmdMyCommand()
+  : Command("Std_My_Command")
 {
     sGroup        = QT_TR_NOOP("File");
     sMenuText     = QT_TR_NOOP("My Command");
@@ -41,18 +41,18 @@ StdCmdMyCommand   *   *StdCmdMyCommand()
     sAccel        = "Ctrl+A";
 }
 
-void StdCmdExport   *   *activated(int iMsg)
+void StdCmdExport::activated(int iMsg)
 {
     // place here the code to be executed when the command is ran
 }
 
-bool StdCmdMyCommand   *   *isActive(void)
+bool StdCmdMyCommand::isActive(void)
 {
     // here you have a chance to return true or false depending if your command must be shown as active or inactive (greyed).
 }
 
 // the command must be "registered" in FreeCAD's command system
-CommandManager &rcCmdMgr = Application   *   *Instance->commandManager();
+CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
@@ -63,25 +63,25 @@ Esempio di definizione di un comando Python, esso può essere posizionato in una
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 
-class MyCommand   *
+class MyCommand:
     """Explanation of the command."""
 
-    def __init__(self)   *
+    def __init__(self):
         """Initialize variables for the command that must exist at all times."""
         pass
 
-    def GetResources(self)   *
+    def GetResources(self):
         """Return a dictionary with data that will be used by the button or menu item."""
-        return {'Pixmap'   * 'MyCommand.svg',
-                'Accel'   * "Ctrl+A",
-                'MenuText'   * QT_TRANSLATE_NOOP("My_Command", "My Command"),
-                'ToolTip'   * QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
+        return {'Pixmap': 'MyCommand.svg',
+                'Accel': "Ctrl+A",
+                'MenuText': QT_TRANSLATE_NOOP("My_Command", "My Command"),
+                'ToolTip': QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
 
-    def Activated(self)   *
+    def Activated(self):
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def IsActive(self)   *
+    def IsActive(self):
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 
@@ -92,11 +92,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 ## Esempi
 
 Vedere [Funzione per disegnare delle linee](Line_drawing_function/it.md).
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

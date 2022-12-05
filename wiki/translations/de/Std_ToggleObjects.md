@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std ToggleObjects
-   Name/de   *Std ObjekteUmschalten
-   MenuLocation   *Ansicht → Sichtbarkeit → Alle Objekte umkehren
-   Workbenches   *Alle
-   SeeAlso   *[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+- GuiCommand:/de
+   Name:Std ToggleObjects
+   Name/de:Std ObjekteUmschalten
+   MenuLocation:Ansicht → Sichtbarkeit → Alle Objekte umkehren
+   Workbenches:Alle
+   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ToggleObjects/de
@@ -28,7 +28,7 @@ Der Befehl **Std ObjekteUmschalten** schaltet die Sichtbarkeit aller Objekte, di
 ## Skripten
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

@@ -1,4 +1,4 @@
-# <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width   *64px;"> Assembly3 Workbench/it
+# <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/it
 
 
 {{TOCright}}
@@ -24,7 +24,7 @@ Le caratteristiche principali del banco da lavoro Assembly3 sono
 -   **hierarchical assemblies**. Come nella vita reale, un assemblaggio meccanico può essere costituito da sottoinsiemi. Questi potrebbero consistere di nuovo in sottoinsiemi e così via.
 -   **assembly freeze**. Poiché la CPU può gestire solo un numero limitato di vincoli simultanei in tempo reale, il congelamento di un assieme permette di utilizzare i vincoli anche per assiemi di grandi dimensioni. Congelando gli assiemi finiti o i vincoli che non devono rimanere dinamici (ad es. parti saldate, bullonate o incollate), questi vengono esclusi dai calcoli di aggiornamento e considerati geometria fissa dal solutore Assembly3.
 
-       *   Si noti che altri approcci offrono soluzioni diverse a questo problema, per esempio <img alt="" src=images/Assembly4_workbench_icon.svg  style="width   *24px;"> [Assembly4 Workbench](Assembly4_Workbench.md).
+    :   Si noti che altri approcci offrono soluzioni diverse a questo problema, per esempio <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbench](Assembly4_Workbench.md).
 
 
 </div>
@@ -39,7 +39,7 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 <div class="mw-translate-fuzzy">
 
 
-   *   La **barra degli strumenti principale** contiene strumenti che coprono le caratteristiche più utilizzate del banco di lavoro. I suggerimenti forniranno scorciatoie da tastiera.
+:   La **barra degli strumenti principale** contiene strumenti che coprono le caratteristiche più utilizzate del banco di lavoro. I suggerimenti forniranno scorciatoie da tastiera.
     -   aggiungere una cartella di assemblaggio
     -   gruppo di oggetti
     -   creare un collegamento. Questo è disponibile anche in un menu contestuale
@@ -50,15 +50,15 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
     -   tool2 per spostare parti in 3D, questo è il classico strumento disponibile in FreeCAD
     -   Spostamento rapido. Questo vincola la parte selezionata nell\'albero al cursore del mouse. Cambierà la posizione della parte quando si clicca.
 
-           *   Spesso le parti aggiunte sono impilate l\'una sull\'altra nell\'origine. Utilizzare questa funzione per afferrare una parte che non si vede.
+        :   Spesso le parti aggiunte sono impilate l\'una sull\'altra nell\'origine. Utilizzare questa funzione per afferrare una parte che non si vede.
     -   Sblocco per le parti bloccate. Pulsante a levetta. Quando questo non è selezionato è possibile spostare le parti che hanno un vincolo \"Bloccato\".
     -   Attivare la visibilità. Questo attiva/disattiva la visibilità della parte selezionata.
 
-           *   Si noti che questo è diverso dall\'uso dello spazio. L\'uso dello spazio con elementi selezionati da un sottoinsieme nella vista 3D spesso non si comporta come previsto. Utilizzare questa funzione in questi casi (o la scorciatoia A-Space)
+        :   Si noti che questo è diverso dall\'uso dello spazio. L\'uso dello spazio con elementi selezionati da un sottoinsieme nella vista 3D spesso non si comporta come previsto. Utilizzare questa funzione in questi casi (o la scorciatoia A-Space)
     -   Tracciare il movimento delle parti (TBD)
     -   Calcolo automatico. Di solito è abilitata.
 
-           *   Può essere non selezionato quando si riparano vincoli o si fissano parti in cui il solutore dà un messaggio *non convergente* (ad esempio ruotando la parte di 180deg)
+        :   Può essere non selezionato quando si riparano vincoli o si fissano parti in cui il solutore dà un messaggio *non convergente* (ad esempio ruotando la parte di 180deg)
     -   Smart-Recompute. Di solito è abilitato.
     -   Element Auto Fixing. Caratteristica sperimentale in 0.19_pre
     -   Element Style. Questo ha due impostazioni
@@ -73,91 +73,91 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
     -   Spostare l\'elemento selezionato dell\'albero verso l\'alto
     -   Spostare l\'elemento selezionato dell\'albero verso il basso
 
-           *   Permette di ordinare parti, elementi o vincoli nell\'albero. Gli elementi si muovono (dall\'alto verso il basso e viceversa). Funziona solo per una singola selezione.
+        :   Permette di ordinare parti, elementi o vincoli nell\'albero. Gli elementi si muovono (dall\'alto verso il basso e viceversa). Funziona solo per una singola selezione.
     -   Moltiplicare il vincolo. Questo può essere selezionato se sono presenti più parti ed elementi adatti. Viene utilizzato ad esempio per assegnare più elementi di fissaggio dello stesso tipo in più fori con un unico vincolo.
 
 
 </div>
 
 
-   *   <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_Import.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_Move.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_Trace.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width   *28px;">
+:   <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Import.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Move.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   The **Main Toolbar** contains tools that cover the most often used features of the workbench. The tooltips will give the keyboard short cuts.
+:   The **Main Toolbar** contains tools that cover the most often used features of the workbench. The tooltips will give the keyboard short cuts.
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width   *32px;"> [Create assembly](Assembly3_CreateAssembly.md)   * Add an assembly folder
+  - <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:32px;"> [Create assembly](Assembly3_CreateAssembly.md): Add an assembly folder
 
-   ** <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width   *32px;"> [Group objects](Assembly3_GroupObjects.md)   * Group objects
+  - <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:32px;"> [Group objects](Assembly3_GroupObjects.md): Group objects
 
-   ** <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width   *32px;"> [Create element](Assembly3_CreateElement.md)   * Create element.
+  - <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:32px;"> [Create element](Assembly3_CreateElement.md): Create element.
 
-   ** Import from STEP. This has two settings
+  - Import from STEP. This has two settings
 
-   **\* <img alt="" src=images/Assembly_Import.svg‎‎  style="width   *32px;"> [Import from STEP](Assembly3_ImportFromSTEP.md)   * Import STEP files
+  -\* <img alt="" src=images/Assembly_Import.svg‎‎  style="width:32px;"> [Import from STEP](Assembly3_ImportFromSTEP.md): Import STEP files
 
-   **\* <img alt="" src=images/Assembly_ImportMulti.svg‎‎  style="width   *32px;"> [Import as multi-document](Assembly3_ImportMultiDocument.md)   * Import assemblies from STEP into separate documents
+  -\* <img alt="" src=images/Assembly_ImportMulti.svg‎‎  style="width:32px;"> [Import as multi-document](Assembly3_ImportMultiDocument.md): Import assemblies from STEP into separate documents
 
-   ** <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width   *32px;"> [Resolve constraints](Assembly3_ResolveConstraints.md)   * Resolve constraints
+  - <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:32px;"> [Resolve constraints](Assembly3_ResolveConstraints.md): Resolve constraints
 
-   ** <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width   *32px;"> [Quick solve](Assembly3_QuickSolve.md)   * Quick resolve constraints
+  - <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:32px;"> [Quick solve](Assembly3_QuickSolve.md): Quick resolve constraints
 
-   ** <img alt="" src=images/Assembly_Move.svg‎‎  style="width   *32px;"> [Move part](Assembly3_MovePart.md)   * Move parts in 3D, this is specific to Assembly3
+  - <img alt="" src=images/Assembly_Move.svg‎‎  style="width:32px;"> [Move part](Assembly3_MovePart.md): Move parts in 3D, this is specific to Assembly3
 
-   ** <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width   *32px;"> [Axial move](Assembly3_AxialMove.md)   * Axial move parts in 3D, this is the classical tool available elsewhere in FreeCAD
+  - <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Axial move](Assembly3_AxialMove.md): Axial move parts in 3D, this is the classical tool available elsewhere in FreeCAD
 
-   ** <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width   *32px;"> [Quick move](Assembly3_QuickMove.md)   * This will attach the part selected in the tree to the mouse cursor. It will change the position of the part when you click.
+  - <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Quick move](Assembly3_QuickMove.md): This will attach the part selected in the tree to the mouse cursor. It will change the position of the part when you click.
 
-   **   * Often added parts are stacked upon each other in the origin. Use this function to grab a part you can not see.
+  -: Often added parts are stacked upon each other in the origin. Use this function to grab a part you can not see.
 
-   ** <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width   *32px;"> [Lock mover](Assembly3_LockMover.md)   * Lock mover for fixed part. Toggle Button. When this is un-selected you can move the parts that have a \"Locked\" constraint.
+  - <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:32px;"> [Lock mover](Assembly3_LockMover.md): Lock mover for fixed part. Toggle Button. When this is un-selected you can move the parts that have a \"Locked\" constraint.
 
-   ** <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width   *32px;"> [Toggle part visibility](Assembly3_TogglePartVisibility.md)   * This toggles the visiblity of the selected part on/off.
+  - <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:32px;"> [Toggle part visibility](Assembly3_TogglePartVisibility.md): This toggles the visiblity of the selected part on/off.
 
-   **   * Note that this differs from using space. Using space with selected items from a sub-assembly in the 3D view often does not behave as expected. Use this function in those cases (or shortcut A-Space)
+  -: Note that this differs from using space. Using space with selected items from a sub-assembly in the 3D view often does not behave as expected. Use this function in those cases (or shortcut A-Space)
 
-   ** <img alt="" src=images/Assembly_Trace.svg‎‎  style="width   *32px;"> [Trace part move](Assembly3_TracePartMove.md)   * Trace part move (TBD)
+  - <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Trace part move](Assembly3_TracePartMove.md): Trace part move (TBD)
 
-   ** <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width   *32px;"> [Auto recompute](Assembly3_AutoRecompute.md)   * Auto recompute. Usually enabled.
+  - <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:32px;"> [Auto recompute](Assembly3_AutoRecompute.md): Auto recompute. Usually enabled.
 
-   **   * May be un-selected when repairing constraints or fixing parts where the solver gives a *\"do not converge\"* message (e.g. by turning the part 180deg)
+  -: May be un-selected when repairing constraints or fixing parts where the solver gives a *\"do not converge\"* message (e.g. by turning the part 180deg)
 
-   ** <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width   *32px;"> [Smart recompute](Assembly3_SmartRecompute.md)   * Smart recompute. Usually enabled.
+  - <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:32px;"> [Smart recompute](Assembly3_SmartRecompute.md): Smart recompute. Usually enabled.
 
-   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Auto fix element](Assembly3_AutoFixElement.md)   * Element Auto Fixing. Experimental feature in 0.19_pre
+  - <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:32px;"> [Auto fix element](Assembly3_AutoFixElement.md): Element Auto Fixing. Experimental feature in 0.19_pre
 
-   ** Element Style. This has two settings
+  - Element Style. This has two settings
 
-   **\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width   *32px;"> [Auto element visibility](Assembly3_AutoElementVisibility.md)   * Auto element visibility
+  -\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:32px;"> [Auto element visibility](Assembly3_AutoElementVisibility.md): Auto element visibility
 
-   **\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width   *32px;"> [Show element coordinate system](Assembly3_ShowElementCS.md)   * Show element coordinate system
+  -\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Show element coordinate system](Assembly3_ShowElementCS.md): Show element coordinate system
 
-   ** Workplane and origin. Adds a workplane, placement or origin. A part must be selected. This has five settings
+  - Workplane and origin. Adds a workplane, placement or origin. A part must be selected. This has five settings
 
-   **\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width   *32px;"> [Add workplane](Assembly3_AddWorkplane.md)   * Add workplane
+  -\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Add workplane](Assembly3_AddWorkplane.md): Add workplane
 
-   **\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width   *32px;"> [Add XZ workplane](Assembly3_AddXZWorkplane.md)   * Add XZ workplane
+  -\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [Add XZ workplane](Assembly3_AddXZWorkplane.md): Add XZ workplane
 
-   **\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width   *32px;"> [Add ZY workplane](Assembly3_AddZYWorkplane.md)   * Add YZ workplane
+  -\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [Add ZY workplane](Assembly3_AddZYWorkplane.md): Add YZ workplane
 
-   **\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width   *32px;"> [Add placement](Assembly3_AddPlacement.md)   * Add placement
+  -\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Add placement](Assembly3_AddPlacement.md): Add placement
 
-   **\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width   *32px;"> [Add Origin](Assembly3_AddOrigin.md)   * Add Origin
+  -\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width:32px;"> [Add Origin](Assembly3_AddOrigin.md): Add Origin
 
-   ** <img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width   *32px;"> [Move item up](Assembly3_MoveItemUp.md)   * Move selected tree item up
+  - <img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:32px;"> [Move item up](Assembly3_MoveItemUp.md): Move selected tree item up
 
-   ** <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width   *32px;"> [Move item down](Assembly3_MoveItemDown.md)   * Move selected tree item down
+  - <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:32px;"> [Move item down](Assembly3_MoveItemDown.md): Move selected tree item down
 
-   **   * Allows to sort Parts, Elements or Constraints in the tree. Element roll over (top to bottom and vice versa). Only works for a single selection.
+  -: Allows to sort Parts, Elements or Constraints in the tree. Element roll over (top to bottom and vice versa). Only works for a single selection.
 
-   ** <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width   *32px;"> [Multiply constraint](Assembly3_MultiplyConstraint.md)   * Multiply Constraint. This can be selected if multiple parts and suitable Elements are present.
+  - <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Multiply constraint](Assembly3_MultiplyConstraint.md): Multiply Constraint. This can be selected if multiple parts and suitable Elements are present.
 
-   **   * It is used e.g. to assign multiple fasteners of the same type into multiple holes with one constraint.
+  -: It is used e.g. to assign multiple fasteners of the same type into multiple holes with one constraint.
 
 
 </div>
@@ -168,96 +168,96 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 <div class="mw-translate-fuzzy">
 
-   ** \"Bloccare\" il primissimo vincolo. In ogni assemblaggio una parte deve essere bloccata per agire come parte base. Bloccare non significa altro che vincolare questa parte in 6DOF alla sua posizione e orientamento attuali.
+  - \"Bloccare\" il primissimo vincolo. In ogni assemblaggio una parte deve essere bloccata per agire come parte base. Bloccare non significa altro che vincolare questa parte in 6DOF alla sua posizione e orientamento attuali.
 
 
 </div>
 
 
-   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
+:   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   Some tools are actually a menu for more tools.
+:   Some tools are actually a menu for more tools.
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *32px;"> [Locked](Assembly3_ConstraintLock.md)   * Add a \"Locked\" constraint to fix one or more parts.
+  - <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:32px;"> [Locked](Assembly3_ConstraintLock.md): Add a \"Locked\" constraint to fix one or more parts.
 
-   **   * You must select a geometry element of the part.
+  -: You must select a geometry element of the part.
 
-   **   * If you fix a vertex or an edge the part is still free to rotate around the vertex or edge.
+  -: If you fix a vertex or an edge the part is still free to rotate around the vertex or edge.
 
-   **   * Fixing a face will completely lock the part.
+  -: Fixing a face will completely lock the part.
 
-   ** <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *32px;"> [Plane Alignment](Assembly3_ConstraintAlignment.md)   * Add a \"Plane alignment\" constraint to align planar faces of two or more parts.
+  - <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:32px;"> [Plane Alignment](Assembly3_ConstraintAlignment.md): Add a \"Plane alignment\" constraint to align planar faces of two or more parts.
 
-   **   * The faces become coplanar or parallel with an optional distance.
+  -: The faces become coplanar or parallel with an optional distance.
 
-   ** <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *32px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)   * Add a \"Plane coincidence\" constraint to coincide planar faces of two or more parts.
+  - <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:32px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md): Add a \"Plane coincidence\" constraint to coincide planar faces of two or more parts.
 
-   **   * The faces are coincided at their centers with an optional distance.
+  -: The faces are coincided at their centers with an optional distance.
 
-   ** Attachment. This has two settings
+  - Attachment. This has two settings
 
-   **\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Attachment](Assembly3_ConstraintAttachment.md)   * Add an \"Attachment\" constraint to attach two parts with the selected geometry elements.
+  -\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:32px;"> [Attachment](Assembly3_ConstraintAttachment.md): Add an \"Attachment\" constraint to attach two parts with the selected geometry elements.
 
-   **\*   * This constraint completely fixes the parts relative to each other.
+  -\*: This constraint completely fixes the parts relative to each other.
 
-   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width   *32px;"> [AttachmentOffset](Assembly3_ConstraintAttachmentOffset.md)   * Same as \"Attachment\" constraint, but maintaining the current relative placement of the involved parts by applying an element offset.
+  -\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width:32px;"> [AttachmentOffset](Assembly3_ConstraintAttachmentOffset.md): Same as \"Attachment\" constraint, but maintaining the current relative placement of the involved parts by applying an element offset.
 
-   **\*   * This constraint completely fixes the parts relative to each other.
+  -\*: This constraint completely fixes the parts relative to each other.
 
-   ** <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *32px;"> [Axial Alignment](Assembly3_ConstraintAxial.md)   * Add an \"Axial alignment\" constraint to align edges/faces of two or more parts.
+  - <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:32px;"> [Axial Alignment](Assembly3_ConstraintAxial.md): Add an \"Axial alignment\" constraint to align edges/faces of two or more parts.
 
-   **   * The constraint accepts
+  -: The constraint accepts
 
-   **   *   * linear edges, which become collinear,
+  -:: linear edges, which become collinear,
 
-   **   *   * planar faces, which are aligned using their surface normal axis,
+  -:: planar faces, which are aligned using their surface normal axis,
 
-   **   *   * and cylindrical face, which are aligned using the axial direction.
+  -:: and cylindrical face, which are aligned using the axial direction.
 
-   **   * Different types of geometry elements can be mixed.
+  -: Different types of geometry elements can be mixed.
 
-   ** <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *32px;"> [Same orientation](Assembly3_ConstraintSameOrientation.md)   * Add a \"Same orientation\" constraint to align faces of two or more parts.
+  - <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:32px;"> [Same orientation](Assembly3_ConstraintSameOrientation.md): Add a \"Same orientation\" constraint to align faces of two or more parts.
 
-   **   * The planes are aligned to have the same orientation (i.e. rotation)
+  -: The planes are aligned to have the same orientation (i.e. rotation)
 
-   ** <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *32px;"> [Multi parallel](Assembly3_ConstraintMultiParallel.md)   * Add a \"Multi parallel\" constraint to make planar faces or linear edges of two or more parts parallel.
+  - <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:32px;"> [Multi parallel](Assembly3_ConstraintMultiParallel.md): Add a \"Multi parallel\" constraint to make planar faces or linear edges of two or more parts parallel.
 
-   ** <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *32px;"> [Angle](Assembly3_ConstraintAngle.md)   * Add an \"Angle\" constraint to set the angle of planar faces or linear edges of two parts.
+  - <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:32px;"> [Angle](Assembly3_ConstraintAngle.md): Add an \"Angle\" constraint to set the angle of planar faces or linear edges of two parts.
 
-   ** <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *32px;"> [Perpendicular](Assembly3_ConstraintPerpendicular.md)   * Add a \"Perpendicular\" constraint to make planar faces or linear edges of two parts perpendicular.
+  - <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:32px;"> [Perpendicular](Assembly3_ConstraintPerpendicular.md): Add a \"Perpendicular\" constraint to make planar faces or linear edges of two parts perpendicular.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *32px;"> [Points coincident](Assembly3_ConstraintPointsCoincident.md)   * Add a \"Point coincident\" constraint to coincide two points in 2D or 3D.
+  - <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:32px;"> [Points coincident](Assembly3_ConstraintPointsCoincident.md): Add a \"Point coincident\" constraint to coincide two points in 2D or 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *32px;"> [Point on plane](Assembly3_ConstraintPointInPlane.md)   * Add a \"Point on plane\" to constrain one or more point onto a plane.
+  - <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:32px;"> [Point on plane](Assembly3_ConstraintPointInPlane.md): Add a \"Point on plane\" to constrain one or more point onto a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *32px;"> [Point on line](Assembly3_ConstraintPointOnLine.md)   * Add a \"Point on line\" to constrain a point onto a line in 2D or 3D.
+  - <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:32px;"> [Point on line](Assembly3_ConstraintPointOnLine.md): Add a \"Point on line\" to constrain a point onto a line in 2D or 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *32px;"> [Point on circle](Assembly3_ConstraintPointOnCircle.md)   * Add a \"Point on circle\" to constrain one or more points on to a clyndrical surface defined by a cricle.
+  - <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:32px;"> [Point on circle](Assembly3_ConstraintPointOnCircle.md): Add a \"Point on circle\" to constrain one or more points on to a clyndrical surface defined by a cricle.
 
-   **   * Note that you must select a point (any geometry element can define a point), and then select the circle (or clyndrical surface),
+  -: Note that you must select a point (any geometry element can define a point), and then select the circle (or clyndrical surface),
 
-   **   * after which you can add more points to your selection if you want.
+  -: after which you can add more points to your selection if you want.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *32px;"> [Points distance](Assembly3_ConstraintPointsDistance.md)   * Add a \"Points distance\" to constrain the distance of two or more points.
+  - <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:32px;"> [Points distance](Assembly3_ConstraintPointsDistance.md): Add a \"Points distance\" to constrain the distance of two or more points.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *32px;"> [Point plane distance](Assembly3_ConstraintPointPlaneDistance.md)   * Add a \"Point plane distance\" to constrain the distance between one or more points and a plane.
+  - <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:32px;"> [Point plane distance](Assembly3_ConstraintPointPlaneDistance.md): Add a \"Point plane distance\" to constrain the distance between one or more points and a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *32px;"> [Point line distance](Assembly3_ConstraintPointLineDistance.md)   * Add a \"Point line distance\" to constrain the distance between a point and a linear edge in 2D or 3D.
+  - <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:32px;"> [Point line distance](Assembly3_ConstraintPointLineDistance.md): Add a \"Point line distance\" to constrain the distance between a point and a linear edge in 2D or 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *32px;"> [Symmetric](Assembly3_ConstraintSymmetric.md)   * Add a \"Symmetric\" constraint to make geometry elements of two parts symmetric about a plane.
+  - <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:32px;"> [Symmetric](Assembly3_ConstraintSymmetric.md): Add a \"Symmetric\" constraint to make geometry elements of two parts symmetric about a plane.
 
-   **   * The supported elements are linear edge and planar face.
+  -: The supported elements are linear edge and planar face.
 
-   ** <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *32px;"> [More](Assembly3_ConstraintMore.md)   * Toggle toolbars for more constraints
+  - <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [More](Assembly3_ConstraintMore.md): Toggle toolbars for more constraints
 
-   **   * Not really a constraint but a toggle switch to show/hide the **Additional Constraints Toolbars**.
+  -: Not really a constraint but a toggle switch to show/hide the **Additional Constraints Toolbars**.
 
 
 </div>
@@ -267,88 +267,79 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 #### Additional Constraints Toolbars 
 
-   *   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width   *28px;"> (Assembly3 Constraints2)
+:   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
 
 
 
 
-   *   <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width   *28px;"> (Assembly3 Sketch Constraints)
+:   <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:28px;"> (Assembly3 Sketch Constraints)
 
 
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   You can enable these by selecting the **<img src="images/Assembly_ConstraintMore.svg‎‎" width=16px> [More](Assembly3_ConstraintMore.md)** button on the Main Constraints toolbar.
+:   You can enable these by selecting the **<img src="images/Assembly_ConstraintMore.svg‎‎" width=16px> [More](Assembly3_ConstraintMore.md)** button on the Main Constraints toolbar.
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width   *32px;"> [Point distance](Assembly3_ConstraintPointDistance.md)   * Add a \"Point distance\" to constrain the distance of two points in 2D or 3D.
+  - <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:32px;"> [Point distance](Assembly3_ConstraintPointDistance.md): Add a \"Point distance\" to constrain the distance of two points in 2D or 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width   *32px;"> [Equal angle](Assembly3_ConstraintEqualAngle.md)   * Add an \"Equal angle\" to equate the angles between two lines or normals.
+  - <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:32px;"> [Equal angle](Assembly3_ConstraintEqualAngle.md): Add an \"Equal angle\" to equate the angles between two lines or normals.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width   *32px;"> [Points symmetric](Assembly3_ConstraintPointsSymmetric.md)   * Add a \"Points symmetric\" constraint to make two points symmetric about a plane.
+  - <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:32px;"> [Points symmetric](Assembly3_ConstraintPointsSymmetric.md): Add a \"Points symmetric\" constraint to make two points symmetric about a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> () [Symmetric horizontal](Assembly3_ConstraintSymmetricHorizontal.md)   * Symmetric horizontal
+  - <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> () [Symmetric horizontal](Assembly3_ConstraintSymmetricHorizontal.md): Symmetric horizontal
 
-   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> () [Symmetric vertical](Assembly3_ConstraintSymmetricVertical.md)   * Symmetric vertical
+  - <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> () [Symmetric vertical](Assembly3_ConstraintSymmetricVertical.md): Symmetric vertical
 
-   ** <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width   *32px;"> [Symmetric line](Assembly3_ConstraintSymmetricLine.md)   * Add a \"Symmetric line\" constraint to make two points symmetric about a line.
+  - <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:32px;"> [Symmetric line](Assembly3_ConstraintSymmetricLine.md): Add a \"Symmetric line\" constraint to make two points symmetric about a line.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width   *32px;"> [Points horizontal](Assembly3_ConstraintPointsHorizontal.md)   * Add a \"Points horizontal\" constraint to make two points horizontal with each other when projected onto a plane.
+  - <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:32px;"> [Points horizontal](Assembly3_ConstraintPointsHorizontal.md): Add a \"Points horizontal\" constraint to make two points horizontal with each other when projected onto a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width   *32px;"> [Points vertical](Assembly3_ConstraintPointsVertical.md)   * Add a \"Points vertical\" constraint to make two points vertical with each other when projected onto a plane.
+  - <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:32px;"> [Points vertical](Assembly3_ConstraintPointsVertical.md): Add a \"Points vertical\" constraint to make two points vertical with each other when projected onto a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width   *32px;"> [Line horizontal](Assembly3_ConstraintLineHorizontal.md)   *Add a \"Line horizontal\" constraint to make a line segment horizontal when projected onto a plane.
+  - <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:32px;"> [Line horizontal](Assembly3_ConstraintLineHorizontal.md):Add a \"Line horizontal\" constraint to make a line segment horizontal when projected onto a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width   *32px;"> [Line vertical](Assembly3_ConstraintLineVertical.md)   * Add a \"Line vertical\" constraint to make a line segment vertical when projected onto a plane.
+  - <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:32px;"> [Line vertical](Assembly3_ConstraintLineVertical.md): Add a \"Line vertical\" constraint to make a line segment vertical when projected onto a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width   *32px;"> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md)   * Add an \"Arc line tangent\" constraint to make a line tangent to an arc at the start or end point of the arc.
+  - <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:32px;"> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md): Add an \"Arc line tangent\" constraint to make a line tangent to an arc at the start or end point of the arc.
 
-   ** <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width   *32px;"> [Sketch plane](Assembly3_ConstraintSketchPlane.md)   * Add a \"Sketch plane\" to define the work plane of any draft element inside or following this constraint.
+  - <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:32px;"> [Sketch plane](Assembly3_ConstraintSketchPlane.md): Add a \"Sketch plane\" to define the work plane of any draft element inside or following this constraint.
 
-   **   * Add an empty \"Sketch plane\" to undefine the previous work plane.
+  -: Add an empty \"Sketch plane\" to undefine the previous work plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width   *32px;"> [Line length](Assembly3_ConstraintLineLength.md)   * Add a \"Line length\" constrain the length of a non-subdivided Draft.Wire.
+  - <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width:32px;"> [Line length](Assembly3_ConstraintLineLength.md): Add a \"Line length\" constrain the length of a non-subdivided Draft.Wire.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width   *32px;"> [Equal length](Assembly3_ConstraintEqualLength.md)   * Add an \"Equal length\" constraint to make two lines of the same length.
+  - <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width:32px;"> [Equal length](Assembly3_ConstraintEqualLength.md): Add an \"Equal length\" constraint to make two lines of the same length.
 
-   ** <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width   *32px;"> [Length ratio](Assembly3_ConstraintLengthRatio.md)   * Add a \"Length ratio\" to constrain the length ratio of two lines.
+  - <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width:32px;"> [Length ratio](Assembly3_ConstraintLengthRatio.md): Add a \"Length ratio\" to constrain the length ratio of two lines.
 
-   ** <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width   *32px;"> [Length difference](Assembly3_ConstraintLengthDifference.md)   * Add a \"Length difference\" to constrain the length difference of two lines.
+  - <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width:32px;"> [Length difference](Assembly3_ConstraintLengthDifference.md): Add a \"Length difference\" to constrain the length difference of two lines.
 
-   ** <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width   *32px;"> [Length Equal Point Line Distance](Assembly3_ConstraintLengthEqualPointLineDistance.md)   * Add a \"Length Equal Point Line Distance\" to constrain the distance
+  - <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width:32px;"> [Length Equal Point Line Distance](Assembly3_ConstraintLengthEqualPointLineDistance.md): Add a \"Length Equal Point Line Distance\" to constrain the distance
 
-   **   * between a point and a line to be the same as the length of a another line.
+  -: between a point and a line to be the same as the length of a another line.
 
-   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> ( <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width   *32px;"> )[Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength.md)   * Add an \"Equal Line Arc Length\" constraint to make a line of the same length as an arc.
+  - <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> ( <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width:32px;"> )[Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength.md): Add an \"Equal Line Arc Length\" constraint to make a line of the same length as an arc.
 
-   ** <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width   *32px;"> [Mid point](Assembly3_ConstraintMidPoint.md)   * Add a \"Mid point\" to constrain a point to the middle point of a line.
+  - <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width:32px;"> [Mid point](Assembly3_ConstraintMidPoint.md): Add a \"Mid point\" to constrain a point to the middle point of a line.
 
-   ** <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width   *32px;"> [Diameter](Assembly3_ConstraintDiameter.md)   * Add a \"Diameter\" to constrain the diameter of a circle/arc.
+  - <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width:32px;"> [Diameter](Assembly3_ConstraintDiameter.md): Add a \"Diameter\" to constrain the diameter of a circle/arc.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width   *32px;"> [Equal radius](Assembly3_ConstraintEqualRadius.md)   * Add an \"Equal radius\" constraint to make two circles/arcs of the same radius.
+  - <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width:32px;"> [Equal radius](Assembly3_ConstraintEqualRadius.md): Add an \"Equal radius\" constraint to make two circles/arcs of the same radius.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width   *32px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance.md)   * Add a \"Points project distance\" to constrain the distance of two points projected on a line.
+  - <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width:32px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance.md): Add a \"Points project distance\" to constrain the distance of two points projected on a line.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width   *32px;"> [Equal point line distance](Assembly3_ConstraintEqualPointLineDistance.md)   * Add an \"Equal point line distance\" to constrain the distance
+  - <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width:32px;"> [Equal point line distance](Assembly3_ConstraintEqualPointLineDistance.md): Add an \"Equal point line distance\" to constrain the distance
 
-   **   * between a point and a line to be the same as the distance between another point and line.
+  -: between a point and a line to be the same as the distance between another point and line.
 
-   ** <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width   *32px;"> [Colinear](Assembly3_ConstraintColinear.md)   * Add a \"Colinear\" constraint to make two lines collinear.
-
-
-</div>
+  - <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Colinear](Assembly3_ConstraintColinear.md): Add a \"Colinear\" constraint to make two lines collinear.
 
 
 </div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-   *   Le **Barre dei vincoli** saranno l\'interfaccia principale utilizzata per l\'assemblaggio delle parti. Sono grigie di default, ma vengono attivate una volta selezionata almeno una faccia, una linea o un punto di una parte. Generalmente si selezionano gli elementi che devono essere uniti e poi si seleziona il tipo di vincolo. Le diverse cornici colorate contrassegnano le diverse caratteristiche dei vincoli   * se è possibile aggiungere più di 2 elementi in 2D/3D. Una descrizione dettagliata si trova nel wiki di Gibhub.
 
 
 </div>
@@ -357,9 +348,18 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 <div class="mw-translate-fuzzy">
 
 
-   *   <img alt="" src=images/Assembly3_ToolbarNavigation.jpg  style="width   *100px;">
-   *   *Barra degli strumenti di navigazione*
-   *   Queste funzioni sono utili quando si lavora con un assemblaggio con una gerarchia di file esterni collegati
+:   Le **Barre dei vincoli** saranno l\'interfaccia principale utilizzata per l\'assemblaggio delle parti. Sono grigie di default, ma vengono attivate una volta selezionata almeno una faccia, una linea o un punto di una parte. Generalmente si selezionano gli elementi che devono essere uniti e poi si seleziona il tipo di vincolo. Le diverse cornici colorate contrassegnano le diverse caratteristiche dei vincoli: se è possibile aggiungere più di 2 elementi in 2D/3D. Una descrizione dettagliata si trova nel wiki di Gibhub.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+:   <img alt="" src=images/Assembly3_ToolbarNavigation.jpg  style="width:100px;">
+:   *Barra degli strumenti di navigazione*
+:   Queste funzioni sono utili quando si lavora con un assemblaggio con una gerarchia di file esterni collegati
     -   Selezionare l\'oggetto pezzo corrispondente nel gruppo di relazioni
     -   Selezionare l\'oggetto collegato
     -   Selezionare l\'oggetto link più profondo
@@ -371,16 +371,16 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   Theses functions are useful when working with an assembly with a hierarchy of linked external files
+:   Theses functions are useful when working with an assembly with a hierarchy of linked external files
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width   *32px;"> [Go to relation](Assembly3_GoToRelation.md)   * Reveals the Relations group (hidden by default) and selects a relation object.
+  - <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:32px;"> [Go to relation](Assembly3_GoToRelation.md): Reveals the Relations group (hidden by default) and selects a relation object.
 
-   ** <img alt="" src=images/Std_LinkSelectLinked.svg  style="width   *32px;"> [Select linked object](Std_LinkSelectLinked.md)   * Selects the linked object and switches to its document. <small>(v0.19)</small> 
+  - <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Select linked object](Std_LinkSelectLinked.md): Selects the linked object and switches to its document. <small>(v0.19)</small> 
 
-   ** <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width   *32px;"> [Select linked final](Std_LinkSelectLinkedFinal.md)   * Selects the deepest linked object and switches to its document. <small>(v0.19)</small> 
+  - <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Select linked final](Std_LinkSelectLinkedFinal.md): Selects the deepest linked object and switches to its document. <small>(v0.19)</small> 
 
 
 </div>
@@ -392,37 +392,37 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 <div class="mw-translate-fuzzy">
 
 
-   *   <img alt="" src=images/Assembly3_ToolbarMeasurement.jpg  style="width   *100px;">
-   *   *Barra degli strumenti di misura*
-   *   La **Barra degli strumenti di misura** aggiunge funzioni per misurare le distanze tra due punti, un punto e una retta o un punto e una faccia. Lo strumento *Misura angolo* traccia l\'angolo tra due facce o rette. Non esiste una funzione per misurare un raggio o un diametro.
-   *   Gli strumenti di misura sopravvivono ai cambiamenti del pezzo, ad esempio la distanza tra i bordi di un cubo quando il cubo viene ridimensionato. Come i vincoli, i calcoli sono fatti in tempo reale e aggiornati ad ogni cambiamento. Dietro le quinte, la funzione è molto simile alla funzione [vincoli](#Constraints.md). La distanza o l\'angolo viene calcolata tra [elementi](#Elements.md) come per i[vincoli](#Constraints.md). Il visualizzatore nell\'albero funziona allo stesso modo.
+:   <img alt="" src=images/Assembly3_ToolbarMeasurement.jpg  style="width:100px;">
+:   *Barra degli strumenti di misura*
+:   La **Barra degli strumenti di misura** aggiunge funzioni per misurare le distanze tra due punti, un punto e una retta o un punto e una faccia. Lo strumento *Misura angolo* traccia l\'angolo tra due facce o rette. Non esiste una funzione per misurare un raggio o un diametro.
+:   Gli strumenti di misura sopravvivono ai cambiamenti del pezzo, ad esempio la distanza tra i bordi di un cubo quando il cubo viene ridimensionato. Come i vincoli, i calcoli sono fatti in tempo reale e aggiornati ad ogni cambiamento. Dietro le quinte, la funzione è molto simile alla funzione [vincoli](#Constraints.md). La distanza o l\'angolo viene calcolata tra [elementi](#Elements.md) come per i[vincoli](#Constraints.md). Il visualizzatore nell\'albero funziona allo stesso modo.
 
 
 </div>
 
 
-   *   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width   *28px;">
+:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   The **Measurement toolbar** adds functions to measure the distance or the angle between two objects
+:   The **Measurement toolbar** adds functions to measure the distance or the angle between two objects
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width   *32px;"> [Measure points](Assembly3_MeasurePoints.md)   * Add a \"Measure points\" to measure the distance of two points in 2D or 3D.
+  - <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Measure points](Assembly3_MeasurePoints.md): Add a \"Measure points\" to measure the distance of two points in 2D or 3D.
 
-   ** <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width   *32px;"> [Measure point to line](Assembly3_MeasurePointLine.md)   * Add a \"Measure point to line\" to measure the distance between a point and a linear edge in 2D or 3D.
+  - <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Measure point to line](Assembly3_MeasurePointLine.md): Add a \"Measure point to line\" to measure the distance between a point and a linear edge in 2D or 3D.
 
-   ** <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width   *32px;"> [Measure point to plane](Assembly3_MeasurePointPlane.md)   * Add a \"Measure point to plane\" to measure the distance between a point and a plane.
+  - <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Measure point to plane](Assembly3_MeasurePointPlane.md): Add a \"Measure point to plane\" to measure the distance between a point and a plane.
 
-   ** <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width   *32px;"> [Measure angle](Assembly3_MeasureAngle.md)   * Add a \"Measure angle\" to measure the angle of planar faces or linear edges of two parts.
+  - <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Measure angle](Assembly3_MeasureAngle.md): Add a \"Measure angle\" to measure the angle of planar faces or linear edges of two parts.
 
-   *   There is no function to measure a radius or diameter.
-   *   The measurement tools survive part changes, e.g. the distance between edges of a cube when the cube is re-sized.
-   *   As the constraints the calculations are done in real time and updated upon any change. Behind the scenes, the function is very similar to the [constraints](#Constraints.md). The distance or angle is calculated between [Elements](#Elements.md) in the same way as for [constraints](#Constraints.md). The display in the tree works in the same way.
+:   There is no function to measure a radius or diameter.
+:   The measurement tools survive part changes, e.g. the distance between edges of a cube when the cube is re-sized.
+:   As the constraints the calculations are done in real time and updated upon any change. Behind the scenes, the function is very similar to the [constraints](#Constraints.md). The distance or angle is calculated between [Elements](#Elements.md) in the same way as for [constraints](#Constraints.md). The display in the tree works in the same way.
 
 
 </div>
@@ -448,7 +448,7 @@ Il progettista utilizza i vincoli per ottenere il risultato desiderato nella rel
 <div class="mw-translate-fuzzy">
 
 
-   *   Nota   * Se il risolutore incontra una combinazione che non può essere risolta, darà un errore. È molto difficile per il risolutore scoprire cosa ha causato il problema, quindi tipicamente da questo errore dato non sarà chiaro *dove* è il problema. In assemblaggi più grandi questo può portare a ricerche complesse del problema. Purtroppo non c\'è un modo semplice per evitarlo. Tuttavia, aiuta essere pienamente consapevoli di come funziona il sistema (.e.g. vedi [Elementi](#Elements.md) qui sotto), utilizzare nomi chiari per tutti i componenti coinvolti e aggiungere vincoli aggiuntivi solo quando il risolutore risolve l\'assemblaggio corrente. Molto utile per rintracciare un problema è la funzione \"ContexMenu/Deactivate\" di ogni Vincolo.
+:   Nota: Se il risolutore incontra una combinazione che non può essere risolta, darà un errore. È molto difficile per il risolutore scoprire cosa ha causato il problema, quindi tipicamente da questo errore dato non sarà chiaro *dove* è il problema. In assemblaggi più grandi questo può portare a ricerche complesse del problema. Purtroppo non c\'è un modo semplice per evitarlo. Tuttavia, aiuta essere pienamente consapevoli di come funziona il sistema (.e.g. vedi [Elementi](#Elements.md) qui sotto), utilizzare nomi chiari per tutti i componenti coinvolti e aggiungere vincoli aggiuntivi solo quando il risolutore risolve l\'assemblaggio corrente. Molto utile per rintracciare un problema è la funzione \"ContexMenu/Deactivate\" di ogni Vincolo.
 
 
 </div>
@@ -458,35 +458,35 @@ Assembly3 I vincoli definiscono le restrizioni nella posizione o nell\'orientame
 
 <div class="mw-translate-fuzzy">
 
--   Fissa 6 DOF, lascia 0 DOF   *
-    -   **Lock**   * Il blocco del vincolo fissa tutti i DOF per una faccia. Dovrebbe essere usato per una parte di base in ogni assemblaggio. Si può anche attivare la funzione \"MoveLock\" (nella barra degli strumenti) in modo che il pezzo non possa essere spostato accidentalmente. Normalmente non importa quale faccia/linea/punto si usa per fissare un pezzo. Si noti inoltre che il blocco è valido solo per l\'assemblaggio diretto, cioè nel caso di un sottoinsieme l\'assemblaggio principale richiederebbe comunque una parte bloccata.
-    -   **Attachment**   * Rende i sistemi di coordinate di entrambi gli elementi uguali per tutti gli assi. Questa è la funzione più comoda per il calcolo e dovrebbe essere usata dove possibile. Si noti che si potrebbero usare le proprietà degli elementi per compensare gli offset e gli angoli se i due [elementi](#Elements.md) non sono perfettamente allineati.
--   Fissa 5 DOF, lascia 1 DOF   *
-    -   **Plane Coincident**   * fissa Tx,Ty,Tz, Rx,Ry. Solo Rz è libero. Rimane la rotazione intorno al normale che passa attraverso il *centro del piano*.
--   Fissa 4 DOF, lascia 2 DOF   *
-    -   **Axial Alignment**   * fissa Tx,Ty, Rx,Ry. Solo Tz, Rz sono liberi. Rimangono la rotazione intorno all\'asse della figura e la traslazione lungo questo stesso asse. Due vincoli *PointOnLine* (se i due punti sono diversi) danno lo stesso risultato. Come anche i vincoli\''Colinear\''.
-    -   **PointOnLine**   * In questo modo si elimina la traslazione e la rotazione lungo le normali verso la linea di riferimento. Sono consentite solo la traslazione e la rotazione lungo l\'asse della linea.
--   Fissa 3 DOF, lascia 3 DOF   *
-    -   **Same Orientation**   * fissa Rx,Rz,Rz. Tutte le T rimangono libere.
-    -   **Points Coincident**   * fissa Tx,Ty,Tz. Tutte le R rimangono libere.
+-   Fissa 6 DOF, lascia 0 DOF:
+    -   **Lock**: Il blocco del vincolo fissa tutti i DOF per una faccia. Dovrebbe essere usato per una parte di base in ogni assemblaggio. Si può anche attivare la funzione \"MoveLock\" (nella barra degli strumenti) in modo che il pezzo non possa essere spostato accidentalmente. Normalmente non importa quale faccia/linea/punto si usa per fissare un pezzo. Si noti inoltre che il blocco è valido solo per l\'assemblaggio diretto, cioè nel caso di un sottoinsieme l\'assemblaggio principale richiederebbe comunque una parte bloccata.
+    -   **Attachment**: Rende i sistemi di coordinate di entrambi gli elementi uguali per tutti gli assi. Questa è la funzione più comoda per il calcolo e dovrebbe essere usata dove possibile. Si noti che si potrebbero usare le proprietà degli elementi per compensare gli offset e gli angoli se i due [elementi](#Elements.md) non sono perfettamente allineati.
+-   Fissa 5 DOF, lascia 1 DOF:
+    -   **Plane Coincident**: fissa Tx,Ty,Tz, Rx,Ry. Solo Rz è libero. Rimane la rotazione intorno al normale che passa attraverso il *centro del piano*.
+-   Fissa 4 DOF, lascia 2 DOF:
+    -   **Axial Alignment**: fissa Tx,Ty, Rx,Ry. Solo Tz, Rz sono liberi. Rimangono la rotazione intorno all\'asse della figura e la traslazione lungo questo stesso asse. Due vincoli *PointOnLine* (se i due punti sono diversi) danno lo stesso risultato. Come anche i vincoli\''Colinear\''.
+    -   **PointOnLine**: In questo modo si elimina la traslazione e la rotazione lungo le normali verso la linea di riferimento. Sono consentite solo la traslazione e la rotazione lungo l\'asse della linea.
+-   Fissa 3 DOF, lascia 3 DOF:
+    -   **Same Orientation**: fissa Rx,Rz,Rz. Tutte le T rimangono libere.
+    -   **Points Coincident**: fissa Tx,Ty,Tz. Tutte le R rimangono libere.
     -   **PointOnPoint** Il vincolo elimina le 3 traslazioni.
-    -   **Plane Alignment**   * fissa Tz, Rx,Ry. In movimento il piano e Rz. Questo elimina la traslazione lungo il piano normale verso il piano di riferimento e le due rotazioni intorno agli assi di questo piano.
--   Fissa 2 DOF, lascia 4 DOF   *
-    -   **Multi Parallel**   * fissa Rx,Ry. rimangono tutte le T e le Rz. Questo elimina le due rotazioni intorno agli assi del piano di riferimento.
--   Fissa 1 DOF, lascia 5 DOF   *
-    -   **Points in Plane**   * Fissa Tz. Questo elimina la traslazione lungo il piano normale verso il piano di riferimento.
-    -   **Points Distance**   * fissa la distanza tra le origini dell\'elemento.
+    -   **Plane Alignment**: fissa Tz, Rx,Ry. In movimento il piano e Rz. Questo elimina la traslazione lungo il piano normale verso il piano di riferimento e le due rotazioni intorno agli assi di questo piano.
+-   Fissa 2 DOF, lascia 4 DOF:
+    -   **Multi Parallel**: fissa Rx,Ry. rimangono tutte le T e le Rz. Questo elimina le due rotazioni intorno agli assi del piano di riferimento.
+-   Fissa 1 DOF, lascia 5 DOF:
+    -   **Points in Plane**: Fissa Tz. Questo elimina la traslazione lungo il piano normale verso il piano di riferimento.
+    -   **Points Distance**: fissa la distanza tra le origini dell\'elemento.
 
-           *   Questo ti dà più libertà rispetto a *Points in Plane*
+        :   Questo ti dà più libertà rispetto a *Points in Plane*
 
 Altro
 
--   **Points on Circle**   * fissa Tz e parzialmente Tx,Ty. Congela la traslazione del punto (o più punti) su un cerchio o su un\'area del disco. Devi scegliere il cerchio per secondo. Questo lascia tutte le rotazioni libere e dà una traslazione limitata nel piano di riferimento del cerchio.
+-   **Points on Circle**: fissa Tz e parzialmente Tx,Ty. Congela la traslazione del punto (o più punti) su un cerchio o su un\'area del disco. Devi scegliere il cerchio per secondo. Questo lascia tutte le rotazioni libere e dà una traslazione limitata nel piano di riferimento del cerchio.
 
 
 </div>
 
-\'\'   * Nota   * Nella seguente lista Tx,Ty,Tz e Rx,Ry,Rz sono usati per descrivere le traslazioni e le rotazioni dei sistemi di coordinate di riferimento dell\'elemento interessato. Questo non è sempre esatto o completamente definito, ad esempio quando è coinvolta una linea non è definito se corre in X, Y o qualsiasi altro angolo in mezzo. Il sistema è usato per un breve e facile comparazione a favore di una definizione corretta ma più complessa. Quindi Z è generalmente la direzione normale di tutte le facce coinvolte. Sentitevi liberi di modificarla con un approccio migliore con una migliore leggibilità\".
+\'\': Nota: Nella seguente lista Tx,Ty,Tz e Rx,Ry,Rz sono usati per descrivere le traslazioni e le rotazioni dei sistemi di coordinate di riferimento dell\'elemento interessato. Questo non è sempre esatto o completamente definito, ad esempio quando è coinvolta una linea non è definito se corre in X, Y o qualsiasi altro angolo in mezzo. Il sistema è usato per un breve e facile comparazione a favore di una definizione corretta ma più complessa. Quindi Z è generalmente la direzione normale di tutte le facce coinvolte. Sentitevi liberi di modificarla con un approccio migliore con una migliore leggibilità\".
 
 [Torna all\'inizio](#top.md)
 
@@ -499,7 +499,7 @@ Elements è un termine specifico usato nel banco di lavoro Assembly3 ed è impor
 
 Vediamo un esempio
 
-   *   Creare un nuovo file e aggiungere dal banco di lavoro Part un cubo e un cilindro.Impileremo il cilindro sul cubo. Prima fissiamo la parte base, nel nostro caso il cubo. Selezioniamo la faccia inferiore del cubo e selezioniamo i vincoli \"Bloccato\" (prima icona nei Vincoli [barra degli strumenti](#Toolbars.md)). Selezionare la faccia superiore del cilindro e la faccia superiore del cubo. Quindi selezionare il vincolo \"Plane Coincident\". Ora il cilindro viene spostato nel cubo e nell\'albero è stata aggiunta una nuova foglia con due nodi figli sotto \"Constraints\". Inoltre gli stessi due nodi figli sono stati aggiunti sotto \"Elements\". Se il cilindro si trova all\'interno del cubo invece che sopra il cubo, correggiamo prima questo   * sotto \'Constraints\' selezionate il nodo figlio che mostra la faccia del cilindro e con un clic destro del mouse nel menu contestuale selezionate \'Flip Part\'. Ora il cilindro è impilato sul cubo.
+:   Creare un nuovo file e aggiungere dal banco di lavoro Part un cubo e un cilindro.Impileremo il cilindro sul cubo. Prima fissiamo la parte base, nel nostro caso il cubo. Selezioniamo la faccia inferiore del cubo e selezioniamo i vincoli \"Bloccato\" (prima icona nei Vincoli [barra degli strumenti](#Toolbars.md)). Selezionare la faccia superiore del cilindro e la faccia superiore del cubo. Quindi selezionare il vincolo \"Plane Coincident\". Ora il cilindro viene spostato nel cubo e nell\'albero è stata aggiunta una nuova foglia con due nodi figli sotto \"Constraints\". Inoltre gli stessi due nodi figli sono stati aggiunti sotto \"Elements\". Se il cilindro si trova all\'interno del cubo invece che sopra il cubo, correggiamo prima questo: sotto \'Constraints\' selezionate il nodo figlio che mostra la faccia del cilindro e con un clic destro del mouse nel menu contestuale selezionate \'Flip Part\'. Ora il cilindro è impilato sul cubo.
 
 
 </div>
@@ -517,8 +517,8 @@ La chiave per capire è che il vincolo opera sui collegamenti agli elementi nell
 
 Torniamo all\'esempio precedente
 
-   *   Nota   * assicurarsi di aver aggiunto il vincolo \"Lock\" al cubo o questo sembrerà disorientante
-   *   Nella finestra CAD selezionare un\'altra faccia del cubo. Ora lavoriamo solo nella vista ad albero. Andate con il mouse nell\'albero dove il cubo deve apparire selezionato. Trascinare il cubo nella cartella \"Elements\". Trascinatelo sul nome \'Elements\', in nessun altro punto della cartella vedremo in seguito il motivo. Dovreste vedere che un altro Elemento viene aggiunto alla lista degli \'Elementi\'. Ora selezionate nella cartella \'Constraints\' il nodo figlio della faccia del cubo nel vincolo \"Plane Coincident\" e cancellatelo. Il Vincolo mostrerà un punto esclamativo poiché manca un elemento. Si noti che cancellando l\'elemento in Constraint non lo abbiamo cancellato dalla lista. Questo perché nel vincolo c\'era solo un link all\'Elemento. Ora prendiamo l\'Elemento appena aggiunto nella lista \'Elements\' e lo trasciniamo sul vincolo \"Plane Coincident\". Ora il cilidro si sposta sull\'altra faccia che abbiamo selezionato. Potremmo aver bisogno di selezionare di nuovo \'Flip Part nel menu contestuale\' se il cilindro è di nuovo all\'interno del cubo.
+:   Nota: assicurarsi di aver aggiunto il vincolo \"Lock\" al cubo o questo sembrerà disorientante
+:   Nella finestra CAD selezionare un\'altra faccia del cubo. Ora lavoriamo solo nella vista ad albero. Andate con il mouse nell\'albero dove il cubo deve apparire selezionato. Trascinare il cubo nella cartella \"Elements\". Trascinatelo sul nome \'Elements\', in nessun altro punto della cartella vedremo in seguito il motivo. Dovreste vedere che un altro Elemento viene aggiunto alla lista degli \'Elementi\'. Ora selezionate nella cartella \'Constraints\' il nodo figlio della faccia del cubo nel vincolo \"Plane Coincident\" e cancellatelo. Il Vincolo mostrerà un punto esclamativo poiché manca un elemento. Si noti che cancellando l\'elemento in Constraint non lo abbiamo cancellato dalla lista. Questo perché nel vincolo c\'era solo un link all\'Elemento. Ora prendiamo l\'Elemento appena aggiunto nella lista \'Elements\' e lo trasciniamo sul vincolo \"Plane Coincident\". Ora il cilidro si sposta sull\'altra faccia che abbiamo selezionato. Potremmo aver bisogno di selezionare di nuovo \'Flip Part nel menu contestuale\' se il cilindro è di nuovo all\'interno del cubo.
 
 
 </div>
@@ -532,7 +532,7 @@ L\'esempio ha mostrato che senza rimuovere il vincolo possiamo cambiare gli Elem
 -   è possibile utilizzare un elemento della lista in diversi vincoli.
 -   È possibile utilizzare la finestra delle proprietà di un elemento per aggiungere **Offset**. Nell\'esempio questo potrebbe spostare il cilindro sulla faccia del cubo.
 -   è possibile utilizzare il pulsante \"Show Element Coordinate System\" nella barra degli strumenti principale per vedere le funzioni \'Menu contestuale/Flip Part\' e \'Menu contestuale/Flip Element\'. Assicuratevi di guardare cosa succede nella finestra delle proprietà.
--   è possibile aggiungere un vincolo in un ordine completamente diverso   * Per prima cosa aggiungere alcuni elementi alla \'Lista degli elementi\' (la denominazione è utile, es. \"Cube Top Face\" o \"Cube Front Face\"), poi aggiungere un vincolo senza selezionare nulla - sarà un vincolo vuoto. Quindi trascinare gli Elementi dalla lista \'Elements\'. Il risultato è lo stesso di quello che abbiamo fatto nel primo esempio. Dopo aver fatto questo esercizio, la natura di come funzionano i vincoli con gli Elementi dovrebbe essere chiara.
+-   è possibile aggiungere un vincolo in un ordine completamente diverso: Per prima cosa aggiungere alcuni elementi alla \'Lista degli elementi\' (la denominazione è utile, es. \"Cube Top Face\" o \"Cube Front Face\"), poi aggiungere un vincolo senza selezionare nulla - sarà un vincolo vuoto. Quindi trascinare gli Elementi dalla lista \'Elements\'. Il risultato è lo stesso di quello che abbiamo fatto nel primo esempio. Dopo aver fatto questo esercizio, la natura di come funzionano i vincoli con gli Elementi dovrebbe essere chiara.
 -   potete cambiare un vincolo esistente tra elementi esistenti semplicemente selezionando un elemento diverso nella Finestra delle proprietà/ConstraintType.
 
 
@@ -569,9 +569,9 @@ Il [Assembly3 Workbench](Assembly3_Workbench.md) è in fase di sviluppo e non è
 
 <div class="mw-translate-fuzzy">
 
-Si può provare in due modi   *
+Si può provare in due modi:
 
--   Uno speciale fork di FreeCAD realizzata da realthunder; vedi [FreeCAD_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Questo fork si basa su un particolare commit del ramo master di FreeCAD, ma ha anche caratteristiche aggiuntive attualmente non presenti nel ramo master. Dato che questo fork è basato su un particolare snapshot di sviluppo, non ha le ultime caratteristiche unite quotidianamente al ramo master.
+-   Uno speciale fork di FreeCAD realizzata da realthunder; vedi [FreeCAD_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Questo fork si basa su un particolare commit del ramo master di FreeCAD, ma ha anche caratteristiche aggiuntive attualmente non presenti nel ramo master. Dato che questo fork è basato su un particolare snapshot di sviluppo, non ha le ultime caratteristiche unite quotidianamente al ramo master.
 -   Lo sviluppo [AppImage](AppImage.md); questo si basa sul ramo master corrente, e include le dipendenze necessarie per lavorare con Assembly3 come il solutore SolveSpace.
 
 
@@ -597,8 +597,8 @@ Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più sempli
 <div class="mw-translate-fuzzy">
 
 
-   *   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width   *600px;">
-   *   *Risultato finale del primo esempio. Nell\'immagine è selezionato il banco di lavoro Assembly3 Worksbench, quindi sono visibili le sue barre degli strumenti multiple. Si noti che la \"TabBar\" verticale a sinistra della vista ad albero è un AddOn Workbench che non è contenuto nel FreeCAD standard (ma può essere installato con l\'Addon-Manager)*\'.
+:   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
+:   *Risultato finale del primo esempio. Nell\'immagine è selezionato il banco di lavoro Assembly3 Worksbench, quindi sono visibili le sue barre degli strumenti multiple. Si noti che la \"TabBar\" verticale a sinistra della vista ad albero è un AddOn Workbench che non è contenuto nel FreeCAD standard (ma può essere installato con l\'Addon-Manager)*\'.
 
 
 </div>
@@ -611,7 +611,7 @@ Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più sempli
 -   Selezionare Part Workbench e aggiungere un cilindro e un cubo
 -   Salva il file con il nome del file che preferisci. Chiudere e aprire il file.
 
-       *   La vista ad albero dovrebbe avere questo aspetto
+    :   La vista ad albero dovrebbe avere questo aspetto
 
 
 ```python
@@ -625,11 +625,11 @@ Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più sempli
 
 -   Ora disegnare e rilasciare con il mouse sia *Cilindro* che *Cubo* nella cartella *Parts*. Verranno spostati in quella cartella.
 
-       *   Questo è il modo più veloce. Si noti che il modo *migliore*\' è quello di aprire il menu contestuale su entrambi e selezionare *ContetxMenu/LinkActions/MakeLink*. Questo aggiunge due file di link. Poi trascina i file di collegamento nella cartella *Parts*. Per casi semplici come questo non ha molta importanza.
+    :   Questo è il modo più veloce. Si noti che il modo *migliore*\' è quello di aprire il menu contestuale su entrambi e selezionare *ContetxMenu/LinkActions/MakeLink*. Questo aggiunge due file di link. Poi trascina i file di collegamento nella cartella *Parts*. Per casi semplici come questo non ha molta importanza.
 -   Cliccare entrambe le superfici superiori di Cylinder e Cube (tenere premuto Ctrl)
 -   Selezionare assembly Workbench. Selezionare \"PlaceCoincident\" dalla [Barra dei vincoli principali](#Toolbar.md).
 
-       *   Ora le parti dovrebbero essere unite l\'una all\'altra e il vostro albero dovrebbe avere questo aspetto
+    :   Ora le parti dovrebbero essere unite l\'una all\'altra e il vostro albero dovrebbe avere questo aspetto
 
 
 ```python
@@ -648,14 +648,14 @@ Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più sempli
 
 -   Cliccare con il tasto destro del mouse su uno dei due \"\_Element\" e selezionare \"Flip Part\".
 
-       *   Ora il Cilindro dovrebbe essere sopra la scatola. Se il tutto è sottosopra, tornare indietro e selezionare \"Flip Part\" sull\'altro elemento.
+    :   Ora il Cilindro dovrebbe essere sopra la scatola. Se il tutto è sottosopra, tornare indietro e selezionare \"Flip Part\" sull\'altro elemento.
 
-Abbiamo omesso un passo importante che dovrebbe essere fatto negli assemblaggi più grandi   * bloccare una parte base. Ciò significa definire una parte che non deve essere spostata da vincoli. Nel vostro caso per questo usiamo il cubo   *
+Abbiamo omesso un passo importante che dovrebbe essere fatto negli assemblaggi più grandi: bloccare una parte base. Ciò significa definire una parte che non deve essere spostata da vincoli. Nel vostro caso per questo usiamo il cubo:
 
 -   Selezionare la faccia inferiore del cubo. Solo la faccia inferiore, non l\'intero cubo.
 -   selezionare il vincolo \"Lock\" dalla barra degli strumenti dei vincoli
 
-       *   L\'albero di montaggio finito dovrebbe apparire come nell\'immagine qui sopra
+    :   L\'albero di montaggio finito dovrebbe apparire come nell\'immagine qui sopra
 
 Fatto.
 Se volete nell\'albero potete spostare verso l\'alto il vincolo \"Bloccato\". Utilizzare il pulsante \"MoveItemUp\" nella barra [Barra degli strumenti principale](#Toolbar.md).
@@ -663,44 +663,44 @@ Se volete nell\'albero potete spostare verso l\'alto il vincolo \"Bloccato\". Ut
 
 </div>
 
-The tree view should look like this (0.20.pre and Link Branch)   *
+The tree view should look like this (0.20.pre and Link Branch):
 
-<img alt="" src=images/Assembly3_Example-Tree-01.png  style="width   *300px;"> <img alt="" src=images/Assembly3_Example-Tree-02.png  style="width   *280px;">
+<img alt="" src=images/Assembly3_Example-Tree-01.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-02.png  style="width:280px;">
 
 -   Now *Drag&Drop* with the mouse both **Cylinder** and **Cube** onto the **Parts** folder. They are moved into that folder.
 
-       *   That is the quickest way and suitable for simple cases like this. A better way is via the use of link objects   *
-       *   Select **Cube** and **Cylinder** and then **<img src="images/Std_LinkMake.svg" width=16px> [Make link](Std_LinkMake.md)** either from the **Context menu** (-\> LinkActions -\> MakeLink) or the **Structure** panel.
-       *   This adds two link objects. Then *Drag&Drop* the link objects to the **Parts** folder.
+    :   That is the quickest way and suitable for simple cases like this. A better way is via the use of link objects:
+    :   Select **Cube** and **Cylinder** and then **<img src="images/Std_LinkMake.svg" width=16px> [Make link](Std_LinkMake.md)** either from the **Context menu** (-\> LinkActions -\> MakeLink) or the **Structure** panel.
+    :   This adds two link objects. Then *Drag&Drop* the link objects to the **Parts** folder.
 -   Click both top surfaces of **Cylinder** and **Cube** (keep Ctrl pressed (Cmd on a Mac))
--   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [Assembly3](Assembly3_Workbench.md) workbench
+-   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) workbench
 -   Select **<img src="images/Assembly_ConstraintCoincidence.svg‎‎" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)** from the [Main constraints toolbar](#Main_Constraints_Toolbar.md).
 
-Now the parts should be joined into each other and your tree should look like this (0.20.pre and Link Branch)   *
+Now the parts should be joined into each other and your tree should look like this (0.20.pre and Link Branch):
 
-<img alt="" src=images/Assembly3_Example-Tree-03.png  style="width   *300px;"> <img alt="" src=images/Assembly3_Example-Tree-04.png  style="width   *280px;">
+<img alt="" src=images/Assembly3_Example-Tree-03.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-04.png  style="width:280px;">
 
 -   Right click **\_Element** (either of the two) and select **Flip Part**.
 
 Now the **Cylinder** should be on top of the **Cube**. If the whole thing is upside down, go back and select **Flip Part** on the other element.
 
-   *   We omitted one important step that should be done in larger assemblies   * Locking a base part.
-   *   That means to define one part that should not be moved by constraints. In this example we use the **Cube** for that   *
+:   We omitted one important step that should be done in larger assemblies: Locking a base part.
+:   That means to define one part that should not be moved by constraints. In this example we use the **Cube** for that:
     -   Select the lower face of the **Cube**. Only the lower face, not the whole **Cube**
     -   select the **<img src="images/Assembly_ConstraintLock.svg‎‎" width=16px> [Locked](Assembly3_ConstraintLock.md)** constraint from the [Main constraints toolbar](#Main_Constraints_Toolbar.md)
 
 Done.
 
-The finished assembly tree should look like (0.20.pre and Link Branch)   *
+The finished assembly tree should look like (0.20.pre and Link Branch):
 
-<img alt="" src=images/Assembly3_Example-Tree-05.png  style="width   *300px;"> <img alt="" src=images/Assembly3_Example-Tree-06.png  style="width   *280px;">   *
+<img alt="" src=images/Assembly3_Example-Tree-05.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-06.png  style="width:280px;">:
 
 If you like you can move the **Locked** constraint upwards in the tree. Use the **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Move item up](Assembly3_MoveItemUp.md)** button on the [Main toolbar](#Main_Toolbar.md) for that.
 
 
 <div class="mw-translate-fuzzy">
 
-Nota   * tutti i nuovi file esterni devono essere salvati, chiusi e riaperti almeno una volta, in modo che Assembly3 possa trovarlo. Senza fare questo FreeCAD non può dare una gestione dei file al Workbench Assembly3 e non può trovare il nuovo pezzo. Quando tutte le parti sono nello stesso file, è necessario salvare e riaprire il file.
+Nota: tutti i nuovi file esterni devono essere salvati, chiusi e riaperti almeno una volta, in modo che Assembly3 possa trovarlo. Senza fare questo FreeCAD non può dare una gestione dei file al Workbench Assembly3 e non può trovare il nuovo pezzo. Quando tutte le parti sono nello stesso file, è necessario salvare e riaprire il file.
 
 
 </div>
@@ -713,9 +713,9 @@ Il montaggio3 non offre l\'Offset con i vincoli nel modo in cui lo fanno [A2plus
 
 -   Aggiungere l\'offset nelle proprietà [Vincolo](#Constraint.md) di un [Elemento](#Elements.md).
 
-       *   è possibile scegliere quale dei due utilizzare.
+    :   è possibile scegliere quale dei due utilizzare.
 
-Esempio   *
+Esempio:
 
 -   Aggiungere 2 cubi ad un gruppo e selezionare le loro facce laterali.
 -   selezionare \"PlaneCoincident\". I cubi saranno attaccati l\'uno all\'interno dell\'altro.
@@ -738,7 +738,7 @@ Questo accade spesso quando le parti sono eccessivamente vincolate, cioè più d
 
 Il modo più semplice per trovare il problema è cliccare sui vincoli rilevanti nell\'albero e selezionare *Menu contestuale/Disable* e ricalcolare. È utile conoscere gli ultimi vincoli aggiunti prima che il risolutore fallisca e semplicemente annullarli.
 
-Nota   * poiché l\'Assemblaggio3 cerca di compensare le parti eccessivamente vincolate dietro le quinte, a volte il problema è innescato solo da un nuovo vincolo, ma la causa alla radice è da qualche altra parte. Prima di cancellare tutto e ricominciare da capo, ricordate che potete riutilizzare gli Elementi. Se li avete nominati potete identificare gli elementi richiesti e ricostruire i vincoli senza usare affatto la vista 3D. Vedi [Elementi](#Elements.md) sopra
+Nota: poiché l\'Assemblaggio3 cerca di compensare le parti eccessivamente vincolate dietro le quinte, a volte il problema è innescato solo da un nuovo vincolo, ma la causa alla radice è da qualche altra parte. Prima di cancellare tutto e ricominciare da capo, ricordate che potete riutilizzare gli Elementi. Se li avete nominati potete identificare gli elementi richiesti e ricostruire i vincoli senza usare affatto la vista 3D. Vedi [Elementi](#Elements.md) sopra
 
 [Torna all\'inizio](#top.md)
 
@@ -746,7 +746,7 @@ Nota   * poiché l\'Assemblaggio3 cerca di compensare le parti eccessivamente vi
 
 Quando una parte viene rimossa o quando un nome di file cambia, l\'assemblaggio si rompe, non può più essere risolto e il risolutore emetterà il messaggio \"Vincoli incoerenti\". Il risolutore contrassegnerà nell\'albero Elementi e Vincoli non validi con un punto interrogativo.
 
-Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e gli elementi non validi, importare la nuova parte e rifare tutto. Ma c\'è un modo migliore   *
+Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e gli elementi non validi, importare la nuova parte e rifare tutto. Ma c\'è un modo migliore:
 
 -   Rinominare un file
     1.  Utilizzare un file manager e copiare il file che si desidera rinominare. Poi date il nuovo nome alla copia.
@@ -763,7 +763,7 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 -   Sostituire una parte con un\'altra
 
-       *   *ovviamente è necessario che sia abbastanza simile alla parte originale tanto che i vincoli originali hanno ancora un senso*
+    :   *ovviamente è necessario che sia abbastanza simile alla parte originale tanto che i vincoli originali hanno ancora un senso*
 
     1.  Cancellare la vecchia parte dall\'albero. Anche il file può essere cancellato.
     2.  I vincoli e gli elementi della vecchia parte non sono più validi. Aprire la lista dei vincoli o degli elementi nell\'albero.
@@ -794,15 +794,15 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 -   L\'utilizzo di assemblaggi gerarchici aiuta ad evitare problemi di risoluzione e a mantenere il modello fluido. È possibile congelare un sottoassieme con un clic e risparmiare facilmente le risorse della CPU (utilizzare il menu contestuale nell\'albero). Quando si carica un assemblaggio l\'assieme3 non ha bisogno di aprire file esterni per i sottoinsiemi congelati, il che mantiene l\'albero compatto.
 -   È molto utile per abituarsi a dare un nome agli elementi e ai vincoli. Usare il tasto **F2** per farlo rapidamente nella struttura ad albero. Troverete molto utili gli strumenti di ordinamento dell\'albero nella barra degli strumenti principale. Un insieme con i vincoli e con elementi con nome completo è più facilmente comprensibile per le altre persone o per voi stessi quando guardate un file vecchio.
 
-       *   Esempi di nomi di vincoli per una tabella potrebbero essere \"Align_FrontLegs\", \"Align_FrameBottom-LegTops\" e i nomi degli elementi potrebbero essere \"Leg1_Top\" o \"TableTop_Front\", \"TableTop_Left\".
+    :   Esempi di nomi di vincoli per una tabella potrebbero essere \"Align_FrontLegs\", \"Align_FrameBottom-LegTops\" e i nomi degli elementi potrebbero essere \"Leg1_Top\" o \"TableTop_Front\", \"TableTop_Left\".
 -   Si noti che una volta aperti i file esterni da un assemblaggio non è possibile chiuderli nuovamente senza chiudere l\'assemblaggio. Poiché l\'assemblaggio tiene aperti i file in backgound, la scheda può scomparire, ma il file rimane visibile nell\'albero. Se si dispone di più sottoinsiemi, diventa quasi impossibile chiudere i singoli file. Questo approccio potrebbe cambiare, ma fino ad allora un possibile metodo potrebbe essere quello di utilizzare regolarmente i comandi *File/Salva tutto* e *File/Chiudi tutto* per ripulire la struttura ad albero prima di lavorare su un altro sottoinsieme.
 
-       *   \'\'Esempio   * si consideri di avere una grande macchina CNC con un gruppo principale e un sottoinsieme per ogni modulo. Una volta aperto l\'assemblaggio principale, si possono aprire letteralmente centinaia di file fino a un singolo cuscinetto a sfere. Prima di lavorare sul sottoinsieme del quadro elettrico della macchina è una buona idea salvare e chiudere tutti i file per ottenere un albero vuoto. Poi aprire solo il sottoinsieme per il quadro elettrico. Questo aprirà tutti i file di cui ha bisogno, ma solo quelli.
+    :   \'\'Esempio: si consideri di avere una grande macchina CNC con un gruppo principale e un sottoinsieme per ogni modulo. Una volta aperto l\'assemblaggio principale, si possono aprire letteralmente centinaia di file fino a un singolo cuscinetto a sfere. Prima di lavorare sul sottoinsieme del quadro elettrico della macchina è una buona idea salvare e chiudere tutti i file per ottenere un albero vuoto. Poi aprire solo il sottoinsieme per il quadro elettrico. Questo aprirà tutti i file di cui ha bisogno, ma solo quelli.
 -   L\'utilizzo di file esterni rende più facile il riutilizzo di una parte o il cambio di versione di una parte con sistemi come git o subversion. Il flusso di lavoro in FreeCAD con Assembly è simile a quello dei file che hanno tutte le parti nello stesso file. Per lo scambio frequente di file con altre parti, i file singoli potrebbero essere più convenienti.
 -   Moltiplicare le parti collegate. Se si aggiunge un collegamento nell\'insieme, questo avrà un valore di proprietà denominato \"Element Count\", predefinito 0. Se lo si imposta a 3 si ottengono 3 istanze di quella parte. Saranno aggiunte in una sottocartella e possono essere usate come parti completamente separate. Usate questa funzione per mantenere bassa l\'impronta dei dati del vostro file, perché la parte viene salvata solo una volta. Ogni istanza contiene solo le differenze.
--   Inserire più parti, ad es. viti, con un clic. Consultare il [Assembly3 Wiki3 Wiki](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) sul sito di Github. Questa non è solo una funzione sbalorditiva (anche un po\' magica), ma davvero molto utile.
+-   Inserire più parti, ad es. viti, con un clic. Consultare il [Assembly3 Wiki3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) sul sito di Github. Questa non è solo una funzione sbalorditiva (anche un po\' magica), ma davvero molto utile.
 
--   L\'utilizzo del [TabBar Workbench](https   *//github.com/triplus/TabBar) accelera il lavoro con il montaggio. Questo aggiunge una barra degli strumenti con un pulsante per ogni banco di lavoro. È possibile ordinare la barra degli strumenti e metterla dove si vuole. Molte persone la mettono in verticale sul lato sinistro, proprio accanto alla vista ad albero. Avere Assembly3, Part, PartDesign e altri banchi da lavoro, spesso usati, vicino alla parte superiore, passare da uno all\'altro diventa estremamente facile.
+-   L\'utilizzo del [TabBar Workbench](https://github.com/triplus/TabBar) accelera il lavoro con il montaggio. Questo aggiunge una barra degli strumenti con un pulsante per ogni banco di lavoro. È possibile ordinare la barra degli strumenti e metterla dove si vuole. Molte persone la mettono in verticale sul lato sinistro, proprio accanto alla vista ad albero. Avere Assembly3, Part, PartDesign e altri banchi da lavoro, spesso usati, vicino alla parte superiore, passare da uno all\'altro diventa estremamente facile.
 
 [Torna all\'inizio](#top.md)
 
@@ -812,19 +812,14 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 <div class="mw-translate-fuzzy">
 
 -   [App Link](App_Link/it.md) oggetto che fa funzionare Assembly3.
--   [FreeCAD_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) archivio e documentazione.
--   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
--   [Test tutorial for Assembly 3 WB](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
--   [Current Assembly Status](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)
+-   [FreeCAD_assembly3](https://github.com/realthunder/FreeCAD_assembly3) archivio e documentazione.
+-   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
+-   [Test tutorial for Assembly 3 WB](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
+-   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ambienti complementari](External_workbenches/it.md)
 
 
 </div>
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

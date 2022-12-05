@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Прямая арматура
-   Name   *Arch_Rebar_Straight
-   MenuLocation   *Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
-   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar BOM](Arch_Rebar_BOM/ru.md)
+- GuiCommand:/ru
+   Name/ru:Прямая арматура
+   Name:Arch_Rebar_Straight
+   MenuLocation:Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
+   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar BOM](Arch_Rebar_BOM/ru.md)
 ---
 
 # Arch Rebar Straight/ru
@@ -24,9 +24,9 @@
 
 The [Arch Straight Rebar](Arch_Rebar_Straight.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Two sets of straight reinforcement bars inside an [Arch Structure](Arch_Structure.md)*
 
 ## Применение
@@ -42,37 +42,37 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 9.  Click **OK** or **Apply** to generate the rebars.
 10. Click **Cancel** to exit the task panel.
 
-<img alt="" src=images/StraightRebarDialog.png  style="width   *250px;"> 
+<img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Taskview panel for the Arch Rebar Straight tool*
 
 ## Свойства
 
--    **Orientation**   * It decides the orientation of the rebar (like a bottom, top, right and left).
+-    **Orientation**: It decides the orientation of the rebar (like a bottom, top, right and left).
 
--    **Front Cover**   * The distance between rebar and selected face.
+-    **Front Cover**: The distance between rebar and selected face.
 
--    **Right Cover**   * The distance between the right end of the rebar to right face of the structure.
+-    **Right Cover**: The distance between the right end of the rebar to right face of the structure.
 
--    **Left Cover**   * The distance between the left end of the rebar to the left face of the structure.
+-    **Left Cover**: The distance between the left end of the rebar to the left face of the structure.
 
--    **Cover along**   * These property facilities the user to specify either top or bottom cover.
+-    **Cover along**: These property facilities the user to specify either top or bottom cover.
 
--    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
 
--    **Top Cover**   * The distance between rebar from the top face of the structure.
+-    **Top Cover**: The distance between rebar from the top face of the structure.
 
--    **Amount**   * The amount of rebars.
+-    **Amount**: The amount of rebars.
 
--    **Spacing**   * The distance between the axes of each bar.
+-    **Spacing**: The distance between the axes of each bar.
 
 ## Программирование
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Straight Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The Straight Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -194,7 +194,7 @@ editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-Пример   * 
+Пример: 
 ```python
 import StraightRebar
 
@@ -210,14 +210,6 @@ StraightRebar.editStraightRebar(Rebar3, 50, ("Right Side", 20), 100, 100,
 StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
                                 24, True, 7, "Vertical")
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

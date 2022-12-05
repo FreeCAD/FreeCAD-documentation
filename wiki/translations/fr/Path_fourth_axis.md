@@ -3,7 +3,7 @@
 
 ## Description
 
-Ces fonctionnalités expérimentales permettent le fraisage de quatre axes [faces](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=36773) et [35867 poches](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=)
+Ces fonctionnalités expérimentales permettent le fraisage de quatre axes [faces](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) et [35867 poches](https://forum.freecadweb.org/viewtopic.php?f=15&t=)
 
 Ces fonctionnalités sont en cours de développement. Des bogues peuvent exister. Merci pour vos commentaires et tests.
 
@@ -11,11 +11,11 @@ Ces fonctionnalités sont en cours de développement. Des bogues peuvent exister
 
 Idéalement, passez à la version 0.19.16502 ou supérieure.
 
-Téléchargez ces scripts   *
+Téléchargez ces scripts:
 
--   PathProfileFaces.py [disponible ici](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=36773) et
--   PathAreaOp.py [ici](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867)
--   PathPocketShape.py from [ici aussi](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867) (pour des opérations de poches)
+-   PathProfileFaces.py [disponible ici](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) et
+-   PathAreaOp.py [ici](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
+-   PathPocketShape.py from [ici aussi](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867) (pour des opérations de poches)
 
 Placez-les dans votre répertoire FreeCAD/Mod/Path/PathScripts, \* après \* renommer vos originaux pour les conserver en toute sécurité. Renommez les nouveaux scripts aux noms de script d\'origine. Redémarrez FreeCAD et amusez-vous.
 
@@ -23,7 +23,7 @@ Placez-les dans votre répertoire FreeCAD/Mod/Path/PathScripts, \* après \* ren
 
 ## Limitations
 
-Les opérations actuelles du 4ème axe ne gèrent pas les rotations complexes/composées   * celles impliquant X et Y simultanément.
+Les opérations actuelles du 4ème axe ne gèrent pas les rotations complexes/composées: celles impliquant X et Y simultanément.
 
 Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4ème axe dans la branche de publication. Tous les paramètres associés se trouvent dans l\'onglet Données de la section Affichage des propriétés pour chaque opération individuelle prise en charge.
 

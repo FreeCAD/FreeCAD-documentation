@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewStatusBar
-   Name/pl   *Std   * Pasek stanu
-   Empty   *1
-   MenuLocation   *Widok → Pasek stanu
-   Workbenches   *Wszystkie
+- GuiCommand:/pl
+   Name:Std ViewStatusBar
+   Name/pl:Std: Pasek stanu
+   Empty:1
+   MenuLocation:Widok → Pasek stanu
+   Workbenches:Wszystkie
 ---
 
 # Std ViewStatusBar/pl

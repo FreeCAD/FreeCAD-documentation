@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Path SelectLoop
-   MenuLocation   *Path → Finish Selecting Loop
-   Workbenches   *[Path](Path_Workbench.md)
-   Shortcut   ***P** **L**
-   SeeAlso   *
+- GuiCommand:
+   Name:Path SelectLoop
+   MenuLocation:Path → Finish Selecting Loop
+   Workbenches:[Path](Path_Workbench.md)
+   Shortcut:**P** **L**
+   SeeAlso:
 ---
 
 # Path SelectLoop/pt-br
@@ -16,10 +16,10 @@ The **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_S
 ## Usage
 
 1.  Select two edges that share a common vertex.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop.md)** button.
     -   Select the **Path → <img src="images/Path_SelectLoop.svg" width=16px> Finish Selecting Loop** option from the menu.
-    -   Use the keyboard shortcut   * **P** then **L**.
+    -   Use the keyboard shortcut: **P** then **L**.
 3.  The remaining edges of the loop are added to the selection.
 
 ## Notes

@@ -1,7 +1,5 @@
 # Category:Help/fr
-Category   *Help/fr
-
-[Category   *Categories/fr](Category   *Categories/fr.md)
+Category:Help/fr
 
 ### Contents
 

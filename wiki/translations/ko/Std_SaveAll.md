@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ko
-   Name   *Std SaveAll
-   Name/ko   *표준 모두 저장
-   MenuLocation   *파일 → 모두 저장
-   Workbenches   *모두
-   SeeAlso   *[표준 저장](Std_Save.md)
+- GuiCommand:/ko
+   Name:Std SaveAll
+   Name/ko:표준 모두 저장
+   MenuLocation:파일 → 모두 저장
+   Workbenches:모두
+   SeeAlso:[표준 저장](Std_Save.md)
 ---
 
 # Std SaveAll/ko
@@ -24,12 +24,12 @@
 
 ## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다   * **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 

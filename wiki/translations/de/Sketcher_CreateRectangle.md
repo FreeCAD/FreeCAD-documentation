@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher CreateRectangle
-   Name/de   *Sketcher RechteckErstellen
-   MenuLocation   *Sketch → Skizzengeometrien → Rechteck erstellen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***G** **R**
-   SeeAlso   *[Sketcher Abgerundetes Rechteck erstellen](Sketcher_CreateOblong/de.md), [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
+- GuiCommand:/de
+   Name:Sketcher CreateRectangle
+   Name/de:Sketcher RechteckErstellen
+   MenuLocation:Sketch → Skizzengeometrien → Rechteck erstellen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **R**
+   SeeAlso:[Sketcher Abgerundetes Rechteck erstellen](Sketcher_CreateOblong/de.md), [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
 ---
 
 # Sketcher CreateRectangle/de
@@ -20,7 +20,7 @@ Um ein Rechteck über einen Mittelpunkt und einen Kantenpunkt zu definieren, ver
 
 ## Anwendung
 
--   Nach Drücken der <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> *Rechteck erstellen* Werkzeugleisten Taste, klicke einmal, um die erste Ecke zu setzen, bewege dann die Maus und klicke ein zweites Mal, um die gegenüberliegende Ecke zu setzen.
+-   Nach Drücken der <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> *Rechteck erstellen* Werkzeugleisten Taste, klicke einmal, um die erste Ecke zu setzen, bewege dann die Maus und klicke ein zweites Mal, um die gegenüberliegende Ecke zu setzen.
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 

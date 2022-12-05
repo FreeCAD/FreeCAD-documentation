@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *FEM MaterialSolid
-   Name/de   *FEM MaterialFeststoff
-   MenuLocation   *Modell → Materiallien → Material für Feststoffe
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   ***M** **S**
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM MaterialSolid
+   Name/de:FEM MaterialFeststoff
+   MenuLocation:Modell → Materiallien → Material für Feststoffe
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Shortcut:**M** **S**
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialSolid/de
@@ -19,10 +19,10 @@ Fügt einem Teil Materialeigenschaften hinzu.
 
 ## Anwendung
 
-1.  Zur Erstellung eines neuen MaterialSolid-Objekts hat man folgende Möglichkeiten   *
+1.  Zur Erstellung eines neuen MaterialSolid-Objekts hat man folgende Möglichkeiten:
     -   Die Schaltfläche **<img src="images/FEM_MaterialSolid.svg" width=16px> [FEM MaterialFeststoff](FEM_MaterialSolid/de.md)** drücken.
     -   Den Menüeintrag **Modell → Materialien → <img src="images/FEM_MaterialSolid.svg" width=16px> Material für Feststoffe** auswählen.
-2.  Ein existierendes MaterialSolid-Objekt ändern   *
+2.  Ein existierendes MaterialSolid-Objekt ändern:
     -   Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md).
 3.  Der Aufgabenbereich FEM-Materialwird geöffnet.
 4.  Ein Material auswählen. Für eine mechanische Analyse ist **CalculiX-Steel** eine passende Auswahl.
@@ -33,7 +33,7 @@ Fügt einem Teil Materialeigenschaften hinzu.
 
 ## Hinweise
 
-1.  Der mechanische Werkstoff verwendet die \*MATERIAL Karte in CalculiX. Einzelheiten über den mechanischen Werkstoff werden unter <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html> erläutert.
+1.  Der mechanische Werkstoff verwendet die \*MATERIAL Karte in CalculiX. Einzelheiten über den mechanischen Werkstoff werden unter <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html> erläutert.
 
 
 

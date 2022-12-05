@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw Symbol
-   Name/de   *TechDraw Symbol
-   MenuLocation   *TechDraw → SVG-Zeichnungselement einfügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso   *[TechDraw Vorlagen](TechDraw_Templates/de.md), [Draft SVG](Draft_SVG/de.md)
+- GuiCommand:/de
+   Name:TechDraw Symbol
+   Name/de:TechDraw Symbol
+   MenuLocation:TechDraw → SVG-Zeichnungselement einfügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Draft SVG](Draft_SVG/de.md)
 ---
 
 # TechDraw Symbol/de
@@ -13,7 +13,7 @@
 
 Das Symbolwerkzeug fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf dem Zeichnungsblatt ein. Dieses Symbol kann alles sein, was als Erläuterung zur Zeichnung beiträgt und nicht weiter verändert werden muss.
 
-<img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Kompassrose zum Zeichnungsblatt hinzugefügt; dieses Symbol erhält man durch Installation der Erweiterung "symbols_library" mit dem [Addon-Manager](Std_AddonMgr/de.md)*
 
 ## Anwendung
@@ -40,17 +40,17 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Drawing view}}
 
--    {{PropertyData/de|Editable Texts}}   * Liste der editierbaren Texte, falls vorhanden.
+-    {{PropertyData/de|Editable Texts}}: Liste der editierbaren Texte, falls vorhanden.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Symbol kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
+Das Werkzeug Symbol kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
-sym = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSymbol','TestSymbol')
+sym = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewSymbol','TestSymbol')
 rc = page.addView(anno)
 f = open(unicode(symbolFileSpec,'utf-8'),'r')
 svg = f.read()

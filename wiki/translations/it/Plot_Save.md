@@ -1,6 +1,6 @@
 # Plot Save/it
 ---
-- GuiCommand   */it   Name   *Plot Save   Name/it   *Salva grafico   Workbenches   *[[Plot_Workbench/it   Grafico]]|MenuLocation   *Grafico  → Salva grafico---
+- GuiCommand:/it   Name:Plot Save   Name/it:Salva grafico   Workbenches:[[Plot_Workbench/it   Grafico]]|MenuLocation:Grafico  → Salva grafico---
 
 
 </div>
@@ -17,7 +17,7 @@ Lo strumento **Salva grafico** salva il grafico attivo nella posizione desiderat
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Usage
 
@@ -41,9 +41,9 @@ Selezionare l\'immagine che si desidera salvare utilizzando le schede nella vist
 
 ## Opzioni
 
--   **Percorso del file**   * È possibile impostare il percorso dell\'immagine in uscita (compresa l\'estensione del formato), anche inserendolo nella riga di testo.
--   **Dimensioni**   * È possibile specificare la larghezza e l\'altezza dell\'immagine (pollici).
--   **dpi**   * È possibile impostare la risoluzione dell\'immagine (punti per pollice). La risoluzione finale (in pixel) è data dalla moltiplicazione di larghezza e altezza per dpi.
+-   **Percorso del file**: È possibile impostare il percorso dell\'immagine in uscita (compresa l\'estensione del formato), anche inserendolo nella riga di testo.
+-   **Dimensioni**: È possibile specificare la larghezza e l\'altezza dell\'immagine (pollici).
+-   **dpi**: È possibile impostare la risoluzione dell\'immagine (punti per pollice). La risoluzione finale (in pixel) è data dalla moltiplicazione di larghezza e altezza per dpi.
 
 
 </div>
@@ -60,9 +60,7 @@ Selezionare l\'immagine che si desidera salvare utilizzando le schede nella vist
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

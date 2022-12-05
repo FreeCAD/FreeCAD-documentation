@@ -1,11 +1,11 @@
-# <img alt="Std Base icon" src=images/Freecad.svg  style="width   *64px;"> Std Tools Menu/ro
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/ro
 
 
 {{TOCright}}
 
 ## Introduction
 
-The **Std Tools Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md)   *
+The **Std Tools Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
 
 
 <div class="mw-translate-fuzzy">
@@ -20,7 +20,7 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 ## Tools
 
-The following tools are available in this menu   *
+The following tools are available in this menu:
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +33,7 @@ The following tools are available in this menu   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_ViewScreenShot.png  style="width   *24px;"> [Save picture](Std_ViewScreenShot.md) ia un instantaneu/captură a(l) ferestrei 3D actuale.
+<img alt="" src=images/Std_ViewScreenShot.png  style="width:24px;"> [Save picture](Std_ViewScreenShot.md) ia un instantaneu/captură a(l) ferestrei 3D actuale.
 
 
 </div>
@@ -62,9 +62,9 @@ The following tools are available in this menu   *
 
 </div>
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width   *32px;"> [Measure distance](Std_MeasureDistance.md)   * Creates an object to measures and display a distance.
+-   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Measure distance](Std_MeasureDistance.md): Creates an object to measures and display a distance.
 
--   <img alt="" src=images/Std_TextDocument.svg  style="width   *32px;"> [Add text document](Std_TextDocument.md)   * Creates an object capable of holding text.
+-   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;"> [Add text document](Std_TextDocument.md): Creates an object capable of holding text.
 
 
 <div class="mw-translate-fuzzy">
@@ -90,7 +90,7 @@ The following tools are available in this menu   *
 
 </div>
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width   *32px;"> [Addon manager](Std_AddonMgr.md)   * Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
 
 
 
@@ -98,9 +98,7 @@ The following tools are available in this menu   *
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

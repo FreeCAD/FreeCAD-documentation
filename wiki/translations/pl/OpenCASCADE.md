@@ -7,13 +7,13 @@
 
 Klasy geometryczne OCCT są w większości zaimplementowane i udostępnione w programie FreeCAD za pośrednictwem środowiska pracy [Część](Part_Workbench/pl.md), od którego zależy większość innych [środowisk pracy](Workbenches/pl.md). Udostępnia on także wewnętrzne funkcje odczytu i zapisu różnych formatów plików, takich jak STEP i IGES, oraz wykonywania rzutów 2D, które mogą być używane do tworzenia rysunków technicznych w środowisku pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
-<img alt="" src=images/Part_Workbench_relationships.svg  style="width   *600px;">
+<img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
 
 *OpenCASCADE dostarcza podstawowe klasy geometryczne i funkcje rysunkowe do środowiska pracy [Część](Part_Workbench/pl.md), które są następnie wykorzystywane przez wszystkie grupy robocze w programie FreeCAD.*
 
-OpenCASCADE nie powinien być mylony z [OpenSCAD](https   *//www.openscad.org/), który jest innym projektem open source do budowy modeli 3D, dostępnym poprzez środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md).
+OpenCASCADE nie powinien być mylony z [OpenSCAD](https://www.openscad.org/), który jest innym projektem open source do budowy modeli 3D, dostępnym poprzez środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md).
 
 OpenCASCADE jest wolnym oprogramowaniem podlegającym warunkom licencji GNU Lesser General Public License *(LGPL)* w wersji 2.1 z dodatkowym wyjątkiem.
 
@@ -43,48 +43,43 @@ W terminologii OpenCascade rozróżniamy geometryczne prymitywy i kształty powi
 
 Podsumowując, prymitywy geometryczne to **bezkształtne** elementy konstrukcyjne, podczas gdy kształty [topologiczne](Part_TopoShape/pl.md) to realne obiekty zbudowane w ich oparciu.
 
-Pełna lista wszystkich elementów pierwotnych i kształtów znajduje się w [dokumentacji OCC](https   *//dev.opencascade.org/resources/documentation) (Alternatywnie   * [sourcearchive.com](https   *//www.opencascade.com/doc/occt-7.4.0/refman/html/)) i szukaj **Geom\_\*** *(dla prymitywów geometrycznych)* i **TopoDS\_\*** *(dla kształtów)*. Tam możesz również przeczytać więcej o różnicach między nimi. Należy pamiętać, że oficjalna dokumentacja OCC nie jest dostępna online (musisz pobrać archiwum) i jest skierowana głównie do programistów, a nie do użytkowników końcowych. Ale mam nadzieję, że znajdziesz wystarczająco dużo informacji, aby zacząć tutaj. Zobacz również [Podręcznik użytkownika danych modelowania](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+Pełna lista wszystkich elementów pierwotnych i kształtów znajduje się w [dokumentacji OCC](https://dev.opencascade.org/resources/documentation) (Alternatywnie: [sourcearchive.com](https://www.opencascade.com/doc/occt-7.4.0/refman/html/)) i szukaj **Geom\_\*** *(dla prymitywów geometrycznych)* i **TopoDS\_\*** *(dla kształtów)*. Tam możesz również przeczytać więcej o różnicach między nimi. Należy pamiętać, że oficjalna dokumentacja OCC nie jest dostępna online (musisz pobrać archiwum) i jest skierowana głównie do programistów, a nie do użytkowników końcowych. Ale mam nadzieję, że znajdziesz wystarczająco dużo informacji, aby zacząć tutaj. Zobacz również [Podręcznik użytkownika danych modelowania](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
 
 > *Na bardzo wysokim poziomie topologia mówi, z jakich części składa się obiekt i jakie są logiczne relacje między nimi. Kształt tworzony jest z określonego zestawu powierzchni. Powierzchnia jest ograniczona pewnym zestawem krawędzi. Dwie powierzchnie sąsiadują ze sobą, jeśli mają wspólną krawędź.*
 
-> *Sama topologia nie określa wielkości, krzywizny ani lokalizacji 3D żadnego z tych elementów. Jednak każdy element topologii wie o swojej podstawowej geometrii. Każda ściana wie, na jakiej powierzchni się znajduje. Krawędź wie, na jakiej krzywej leży. Geometria wie o krzywiznach i położeniu w przestrzeni.* - [Source](https   *//www.opencascade.com/content/geometry-and-topology)
+> *Sama topologia nie określa wielkości, krzywizny ani lokalizacji 3D żadnego z tych elementów. Jednak każdy element topologii wie o swojej podstawowej geometrii. Każda ściana wie, na jakiej powierzchni się znajduje. Krawędź wie, na jakiej krzywej leży. Geometria wie o krzywiznach i położeniu w przestrzeni.* - [Source](https://www.opencascade.com/content/geometry-and-topology)
 
 
 <hr />
 
-> *W ten sposób Topologia definiuje związek pomiędzy prostymi bryłami geometrycznymi, które mogą być łączone razem, aby reprezentować złożone kształty.* - [Podręcznik użytkownika danych modelowania](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
+> *W ten sposób Topologia definiuje związek pomiędzy prostymi bryłami geometrycznymi, które mogą być łączone razem, aby reprezentować złożone kształty.* - [Podręcznik użytkownika danych modelowania](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
 
 ![](images/ClassTopoDS_Shape_inherit_graph.png )
 
-**Note   *** Tylko 3 typy obiektów topologicznych mają reprezentacje geometryczne - wierzchołek, krawędź i powierzchnia *([źródło](https   *//opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html))*.
+**Note:** Tylko 3 typy obiektów topologicznych mają reprezentacje geometryczne - wierzchołek, krawędź i powierzchnia *([źródło](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html))*.
 
-Typy geometryczne można podzielić na dwie główne grupy   * krzywe i powierzchnie. Z krzywych *(linii, okręgu, \...)* można bezpośrednio zbudować krawędź, z powierzchni *(płaszczyzna, cylinder, \...)* można zbudować ścianę. Na przykład, pierwotna linia geometryczna jest nieograniczona, tzn. jest zdefiniowana wektorem bazowym i wektorem kierunku, podczas gdy jej reprezentacja kształtu musi być czymś ograniczonym np. przez punkt początkowy i końcowy. A kostka - bryła - może być utworzone przez sześć ograniczonych płaszczyzn.
+Typy geometryczne można podzielić na dwie główne grupy: krzywe i powierzchnie. Z krzywych *(linii, okręgu, \...)* można bezpośrednio zbudować krawędź, z powierzchni *(płaszczyzna, cylinder, \...)* można zbudować ścianę. Na przykład, pierwotna linia geometryczna jest nieograniczona, tzn. jest zdefiniowana wektorem bazowym i wektorem kierunku, podczas gdy jej reprezentacja kształtu musi być czymś ograniczonym np. przez punkt początkowy i końcowy. A kostka - bryła - może być utworzone przez sześć ograniczonych płaszczyzn.
 
 Z krawędzi lub ściany można również powrócić do jej pierwotnego geometrycznego odpowiednika.
 
 Zatem z kształtów można budować bardzo złożone części lub, odwrotnie, wyodrębniać wszystkie kształty podrzędne, z których składa się bardziej złożony kształt.
 
-<img alt="" src=images/Part_TopoShape_relationships.svg  style="width   *600px;">
+<img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
 
 
 
-*`Part   *   *TopoShape* jest klasą obiektu geometrycznego, który jest widoczny na ekranie. Zasadniczo wszystkie Środowiska pracy wykorzystują te kształty [TopoShapes](Part_TopoShape.md) wewnętrznie, aby budować i wyświetlać krawędzie, ściany i bryły.`
+*`Part::TopoShape* jest klasą obiektu geometrycznego, który jest widoczny na ekranie. Zasadniczo wszystkie Środowiska pracy wykorzystują te kształty [TopoShapes](Part_TopoShape.md) wewnętrznie, aby budować i wyświetlać krawędzie, ściany i bryły.`
 
 ## Powiązane
 
--   OpenCASCADE Technology (OCCT) [strona główna](http   *//www.opencascade.com)
--   OCCT [portal deweloperski](https   *//dev.opencascade.org/)
--   OCCT [najnowsze wydanie](https   *//www.opencascade.com/content/latest-release)
--   OCCT [repozytorium git](https   *//git.dev.opencascade.org/gitweb/?p=occt.git)
--   OpenCASCADE Community Edition (OCE) [repozytorium git](https   *//github.com/tpaviot/oce)
--   w Wikipedii [http   *//en.wikipedia.org/wiki/Open_Cascade_Technology Open Cascade Technology OCCT](http   *//en.wikipedia.org/wiki/Open_Cascade_Technology_Open_Cascade_Technology_OCCT.md)
+-   OpenCASCADE Technology (OCCT) [strona główna](http://www.opencascade.com)
+-   OCCT [portal deweloperski](https://dev.opencascade.org/)
+-   OCCT [najnowsze wydanie](https://www.opencascade.com/content/latest-release)
+-   OCCT [repozytorium git](https://git.dev.opencascade.org/gitweb/?p=occt.git)
+-   OpenCASCADE Community Edition (OCE) [repozytorium git](https://github.com/tpaviot/oce)
+-   w Wikipedii [http://en.wikipedia.org/wiki/Open_Cascade_Technology Open Cascade Technology OCCT](http://en.wikipedia.org/wiki/Open_Cascade_Technology_Open_Cascade_Technology_OCCT.md)
 -   Słownik pojęć, [Open CASCADE](Glossary/pl#Open_CASCADE.md)
--   Śledzenie błędów OCCT w bugtrackerze programu FreeCAD [*(wątek)*](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=20264)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
+-   Śledzenie błędów OCCT w bugtrackerze programu FreeCAD [*(wątek)*](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 
 
 

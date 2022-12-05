@@ -23,7 +23,7 @@ Tous les ajouts au travail, y compris les modifications et les copies d\'opérat
 
 ## Quelle est la différence entre Clearance Height et Safe Height? 
 
-Des informations plus détaillées sont disponible sur [Modèle   * Profondeurs/Hauteurs](Template   *Depths/Heights/fr.md).
+Des informations plus détaillées sont disponible sur [Modèle: Profondeurs/Hauteurs](Template:Depths/Heights/fr.md).
 
 [En haut](#top.md)
 
@@ -31,7 +31,7 @@ Des informations plus détaillées sont disponible sur [Modèle   * Profondeurs/
 
 Le SetupSheet est un masque de saisie dédié, contenu dans un Job, modifié dans la vue Property, seulement accessible depuis Path workbench. Il fournit une méthode pour configurer les éléments d\'un Job en utilisant les Values et les Expressions du SetupSheet aux utilisateurs experts.
 
-Les entrées courantes pour Depths, Heights, et Tool Controllers comprennent   *
+Les entrées courantes pour Depths, Heights, et Tool Controllers comprennent:
 
 1.  Final Depth Expression \-- OpFinalDepth
 2.  Start Depth Expression \-- OpStartDepth
@@ -83,7 +83,7 @@ OpenCamLibrary n\'est pas intégrée à FreeCAD pour s\'assurer qu\'aucune viola
 
 Pour les Pocket Operations, le point de départ (Start Point) par défaut est en XYZ = 000 et est toujours validé mais il peut aussi être configuré dans la fenêtre Property. Les Operations Pocket et Facing sont pré-selectionnées en Climb plutôt qu\'en Cut Mode conventionnel dans l\'onglet Operation.
 
-Pour les opérations de style Contour, l\'onglet Opération comporte une entrée \"Direction\" qui peut être configurée comme CW (sens horaire) ou CCW (anti sens horaire), ce qui définit la direction de la coupe. Pour référence    *
+Pour les opérations de style Contour, l\'onglet Opération comporte une entrée \"Direction\" qui peut être configurée comme CW (sens horaire) ou CCW (anti sens horaire), ce qui définit la direction de la coupe. Pour référence :
 
 1.  Cut Side = Extérieur, Cut Direction = CCW, coupe de montée
 2.  Côté coupe = extérieur, direction de la coupe = CW, coupe conventionnelle
@@ -159,7 +159,7 @@ Si les lignes de trajectoire cachent le résultat de la simulation, leur visibil
 
 ## Quelle est la signification des couleurs des lignes des trajectoires? 
 
-Les couleurs des lignes Path sont définies dans l\'onglet Édition-\>Préférence\...-\>Path-\>GUI\--\>Couleurs par défaut. Les couleurs par défaut incluent    *
+Les couleurs des lignes Path sont définies dans l\'onglet Édition-\>Préférence\...-\>Path-\>GUI\--\>Couleurs par défaut. Les couleurs par défaut incluent :
 
 1.  Vert pour les trajectoires normales.
 2.  Rouge pour les trajectoires rapides.
@@ -211,7 +211,7 @@ L\'atelier Path a changé radicalement de FreeCAD v0.16 à v0.17, et toutes les 
 
 ## Pourquoi les arcs ne sont pas ronds mais sont constitués d\'un ensemble de lignes droites? 
 
-Il s\'agit seulement un problème d\'affichage de la trajectoire. Vous pouvez modifier cela dans les préférences    * chargez l\'atelier Path.
+Il s\'agit seulement un problème d\'affichage de la trajectoire. Vous pouvez modifier cela dans les préférences : chargez l\'atelier Path.
 
 1.  ouvrez Préférences-\>Path-\>Job Preferences
 2.  réglez les valeurs de *Default Geometry Tolerance* et *Default Curve Accuracy* à de petites valeurs mais pas à 0, par exemple à 0.01mm.

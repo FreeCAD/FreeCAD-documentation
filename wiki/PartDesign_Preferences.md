@@ -1,20 +1,20 @@
 # PartDesign Preferences
 ## Introduction
 
-The <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Workbench](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) use the same preferences. They can be found in the <img alt="" src=images/Preferences-part_design.svg  style="width   *24px;"> **Part/Part design** section of the [Preferences editor](Preferences_Editor.md). This section will only be available if one of the workbenches has been loaded in the current FreeCAD session.
+The <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) use the same preferences. They can be found in the <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part design** section of the [Preferences editor](Preferences_Editor.md). This section will only be available if one of the workbenches has been loaded in the current FreeCAD session.
 
 ## Available preferences 
 
-There are four tabs   * General, Shape view, Shape appearance and Measure.
+There are four tabs: General, Shape view, Shape appearance and Measure.
 
 ### General
 
-On the *General* tab you can specify the following   *
+On the *General* tab you can specify the following:
 
 +++
 | Name                                                                    | Description                                                                                                                                                                                                             |
 +=========================================================================+=========================================================================================================================================================================================================================+
-|                                                          | If checked, the [Boundary representation](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md). |
+|                                                          | If checked, the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md). |
 | **Automatically check model after boolean operation**       |                                                                                                                                                                                                                         |
 |                                                                      |                                                                                                                                                                                                                         |
 +++
@@ -31,16 +31,16 @@ On the *General* tab you can specify the following   *
 
 ### Shape view 
 
-On the *Shape view* tab you can specify the following   *
+On the *Shape view* tab you can specify the following:
 
 +++
 | Name                                                                  | Description                                                                                                                                                                                                                      |
 +=======================================================================+==================================================================================================================================================================================================================================+
-|                                                        | Maximum [linear deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface.            |
+|                                                        | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface.            |
 | **Maximum deviation depending on the model bounding box** |                                                                                                                                                                                                                                  |
 |                                                                    |                                                                                                                                                                                                                                  |
 +++
-|                                                        | Maximum [angular deflection](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section. |
+|                                                        | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section. |
 | **Maximum angular deflection**                            |                                                                                                                                                                                                                                  |
 |                                                                    |                                                                                                                                                                                                                                  |
 +++
@@ -49,7 +49,7 @@ On the *Shape view* tab you can specify the following   *
 
 ### Shape appearance 
 
-On the *Shape appearance* tab you can specify the following   *
+On the *Shape appearance* tab you can specify the following:
 
 +++
 | Name                               | Description                                                                                                                                                                                                               |
@@ -86,7 +86,7 @@ On the *Shape appearance* tab you can specify the following   *
 | **Two-side rendering** |                                                                                                                                                                                                                           |
 |                                 |                                                                                                                                                                                                                           |
 +++
-|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command   *                                              |
+|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command:                                              |
 | **Text color**         |                                                                                                                                                                                                                           |
 |                                                                                                                 |
 |                                    |                                                                                                                                                                                                                           |
@@ -99,7 +99,7 @@ On the *Shape appearance* tab you can specify the following   *
 
 These preferences control the appearance of measurements created with the [Measure tools](Part_Workbench#Measure.md) available in the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md).
 
-On the *Measure* tab (<small>(v1.0)</small> ) you can specify the following   *
+On the *Measure* tab (<small>(v1.0)</small> ) you can specify the following:
 
 +++
 | Name                                     | Description                                                          |
@@ -141,18 +141,16 @@ On the *Measure* tab (<small>(v1.0)</small> ) you can specify the following   *
 
 ## Tesselation
 
-In order to display an object efficiently its surface is [tesselated](https   *//en.wikipedia.org/wiki/Tessellation_(computer_graphics)), i.e. it is displayed with some small deviations from it real surface. This applies not only to PartDesign models, but also to other objects in FreeCAD.
+In order to display an object efficiently its surface is [tesselated](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), i.e. it is displayed with some small deviations from it real surface. This applies not only to PartDesign models, but also to other objects in FreeCAD.
 
 There is a lower limit for the tesselation of 0.01%. If you really want to spend the additional time you can reduce the lower limit even further by opening the menu **Tools → Edit parameters...** This opens the parameter editor where you navigate to **BaseApp → Preferences → Mod → Part**.
 
-Right click on **Mesh deviation** choose in the context menu **Change value**. Set the value to the minimum tesselation of your choice. Please keep in mind that the value is in %, i.e. for a value of 0.005% you have to enter \"0.00005\". The smallest value possible is 1e-7. **Note   *** In the preferences menu you will still see 0.01% even if you set a lower value.
+Right click on **Mesh deviation** choose in the context menu **Change value**. Set the value to the minimum tesselation of your choice. Please keep in mind that the value is in %, i.e. for a value of 0.005% you have to enter \"0.00005\". The smallest value possible is 1e-7. **Note:** In the preferences menu you will still see 0.01% even if you set a lower value.
 
 
 
 
- {{PartDesign Tools navi}} 
-
-[Category   *Preferences](Category_Preferences.md)
+ {{PartDesign Tools navi}}
 
 
 

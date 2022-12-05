@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */de
-   Name   *Part Wedge
-   Name/de   *Part Keil
-   MenuLocation   *Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Keil
-   Workbenches   *[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso   *[Part Grundelemente](Part_Primitives/de.md)
+- GuiCommand:/de
+   Name:Part Wedge
+   Name/de:Part Keil
+   MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Keil
+   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Wedge/de
 
 ## Beschreibung
 
-Ein <img alt="" src=images/Part_Wedge.svg  style="width   *24px;"> **Part Keil** ist ein parametrischer Volumenkörper, der mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Er besteht aus vier bis sechs ebene Flächen. Er wird über virtuelle vorder- und rückseitige Hauptflächen definiert, auf denen jeweils eine rechteckige Fläche (Vorgabe), eine einzige gerade Kante oder ein einzelner Punkt erstellt wird. Diese Grundformen definieren die vier drei- oder vierseitigen Flächen, die sie verbinden. Der entstehende Volumenkörper ist nur dann ein echter Keil, wenn eine der Grundformen eine rechteckige Fläche und die andere eine gerade Kante ist. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegen die virtuellen vorder- und rückseitigen Hauptflächen des Keils ebenenparallel zur XZ-Ebene und die Kanten der Grundformen sind parallel zu der X- oder Z-Achse. Alle seiner Koordinaten beziehen sich auf dieses Koordinatensystem.
+Ein <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Keil** ist ein parametrischer Volumenkörper, der mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Er besteht aus vier bis sechs ebene Flächen. Er wird über virtuelle vorder- und rückseitige Hauptflächen definiert, auf denen jeweils eine rechteckige Fläche (Vorgabe), eine einzige gerade Kante oder ein einzelner Punkt erstellt wird. Diese Grundformen definieren die vier drei- oder vierseitigen Flächen, die sie verbinden. Der entstehende Volumenkörper ist nur dann ein echter Keil, wenn eine der Grundformen eine rechteckige Fläche und die andere eine gerade Kante ist. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegen die virtuellen vorder- und rückseitigen Hauptflächen des Keils ebenenparallel zur XZ-Ebene und die Kanten der Grundformen sind parallel zu der X- oder Z-Achse. Alle seiner Koordinaten beziehen sich auf dieses Koordinatensystem.
 
-<img alt="" src=images/Part_Wedge_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Anwendung
 
@@ -31,9 +31,9 @@ Ein Part-Keil-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten er
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Part-Keil-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
+Ein Part-Keil-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 ### Daten
 
@@ -45,41 +45,41 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Wedge}}
 
--    **Xmin|Distance**   * The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **Ymin|Distance**   * The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **Zmin|Distance**   * The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **X2min|Distance**   * The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+-    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Z2min|Distance**   * The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+-    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Xmax|Distance**   * The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+-    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **Ymax|Distance**   * The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+-    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
 
--    **Zmax|Distance**   * The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+-    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **X2max|Distance**   * The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+-    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
--    **Z2max|Distance**   * The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+-    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
 ## Skripten
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Wedge can be created with the {{Incode|addObject()}} method of the document   *
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
 
 
 ```python
-wedge = FreeCAD.ActiveDocument.addObject("Part   *   *Wedge", "myWedge")
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
 ```
 
 -   Where {{Incode|"myWedge"}} is the name for the object.
 -   The function returns the newly created object.
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -87,7 +87,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-wedge = doc.addObject("Part   *   *Wedge", "myWedge")
+wedge = doc.addObject("Part::Wedge", "myWedge")
 wedge.Xmin = 1
 wedge.Ymin = 2
 wedge.Zmin = 3

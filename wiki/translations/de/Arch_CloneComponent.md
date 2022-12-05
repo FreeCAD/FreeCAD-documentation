@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Arch CloneComponent
-   Name/de   *Arch KloneKomponente‏‎‏‎
-   MenuLocation   *Arch → Dienstprogramme → Klone Komponente
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***C** **C**
-‏‎   SeeAlso   *[Draft Klonen](Draft_Clone/de.md), [Arch Komponente](Arch_Component/de.md)
-   Icon   *Arch_Component_Clone.svg
+- GuiCommand:/de
+   Name:Arch CloneComponent
+   Name/de:Arch KloneKomponente‏‎‏‎
+   MenuLocation:Arch → Dienstprogramme → Klone Komponente
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**C** **C**
+‏‎   SeeAlso:[Draft Klonen](Draft_Clone/de.md), [Arch Komponente](Arch_Component/de.md)
+   Icon:Arch_Component_Clone.svg
 ---
 
 # Arch CloneComponent/de

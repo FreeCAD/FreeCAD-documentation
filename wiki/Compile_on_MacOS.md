@@ -11,7 +11,7 @@ These instructions have been tested on macOS Catalina with standard XCode 11.6. 
 
 This page serves as a quick start, and is not intended to be comprehensive with regard to describing all the available build options.
 
-If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https   *//github.com/FreeCAD/FreeCAD/releases).
+If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https://github.com/FreeCAD/FreeCAD/releases).
 
 ## Install Prerequisites 
 
@@ -19,11 +19,11 @@ The following software must be installed to support the build process.
 
 ### Homebrew Package Manager 
 
-Homebrew is a command line based package manager for macOS. The [Homebrew main page](https   *//brew.sh/) provides an installation command line that you simply paste into a terminal window.
+Homebrew is a command line based package manager for macOS. The [Homebrew main page](https://brew.sh/) provides an installation command line that you simply paste into a terminal window.
 
 ### CMake
 
-CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https   *//www.cmake.org/downloadDownload).
+CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https://www.cmake.org/downloadDownload).
 
 ## Install Dependencies 
 
@@ -39,9 +39,9 @@ brew install --only-dependencies freecad
 
 {{Incode|brew install}}
 
-may take quite a while, so you may want go grab a beverage.    *-).
+may take quite a while, so you may want go grab a beverage. :-).
 
-Alternately, you can install the individual dependencies manually by installing the following packages using {{Incode|brew install ...}}   *
+Alternately, you can install the individual dependencies manually by installing the following packages using {{Incode|brew install ...}}:
 
 -    `cmake`
     
@@ -80,7 +80,7 @@ Alternately, you can install the individual dependencies manually by installing 
 
 -    `coin3d`\- Note that as of this writing (Nov. 2022) this will install an unusable version of pyside@2 as a dependency.
 
-There are several packages that are only available when you have tapped the freecad cask   * you must do that (`brew tap freecad/freecad`). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use `brew install ...`, install the following packages   *
+There are several packages that are only available when you have tapped the freecad cask: you must do that (`brew tap freecad/freecad`). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use `brew install ...`, install the following packages:
 
 -    `freecad/freecad/pyside2@5.15.5`
     
@@ -94,16 +94,16 @@ There are several packages that are only available when you have tapped the free
 -    `freecad/freecad/netgen`
     
 
-You will also need to \"link\" PySide and Shiboken   *
+You will also need to \"link\" PySide and Shiboken:
 
 
 ```python
 brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
 ```
 
-In some cases the packages installed by Homebrew do not use the same Python version   * for example, at the time of this writing PySide2 uses Python 3.10, but boost-python3 uses Python 3.11. While it is possible to \"roll back\" the more advanced version (so that in this case boost-python3 uses Python 3.10) this is an advanced operation, and in many cases it is best to wait for an update to the other package. If you want to pursue that path anyway, look at the \"brew extract\" command, which you can use to extract a formula into a new cask (typically freecad/freecad). You can then edit that formula as needed.
+In some cases the packages installed by Homebrew do not use the same Python version: for example, at the time of this writing PySide2 uses Python 3.10, but boost-python3 uses Python 3.11. While it is possible to \"roll back\" the more advanced version (so that in this case boost-python3 uses Python 3.10) this is an advanced operation, and in many cases it is best to wait for an update to the other package. If you want to pursue that path anyway, look at the \"brew extract\" command, which you can use to extract a formula into a new cask (typically freecad/freecad). You can then edit that formula as needed.
 
-You will need to set the path to Qt   * Qt5 is currently supported, while support for Qt6 is a work-in-progress. Set FREECAD_QT_VERSION to \"Auto\" or \"5\" to select Qt5 (the default). On the command line, use something like   *
+You will need to set the path to Qt: Qt5 is currently supported, while support for Qt6 is a work-in-progress. Set FREECAD_QT_VERSION to \"Auto\" or \"5\" to select Qt5 (the default). On the command line, use something like:
 
 
 ```python
@@ -137,7 +137,7 @@ The following command will clone the FreeCAD git repository into a directory cal
 
  
 ```python
-git clone https   *//github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Create the build folder.
@@ -162,7 +162,7 @@ Next, we will run CMake to generate the build configuration. Several options mus
   FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                 Required.
   BUILD_FEM_NETGEN           1 (BOOL)                                 Required if choosing to build the FEM tools.
 
-Note   * Command line to generate CMAKE_PREFIX_PATH   *
+Note: Command line to generate CMAKE_PREFIX_PATH:
 
 
 
@@ -174,7 +174,7 @@ ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/
 
 Open the CMake app, and fill in the source and build folder fields. In this example, it would be **/Users/username/FreeCAD/FreeCAD-git** for the source, and **/Users/username/FreeCAD/build** for the build folder.
 
-Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note   * You will need to check the **Advanced** checkbox to get all of the options.
+Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the **Advanced** checkbox to get all of the options.
 
 Set options from the table above, then click **Configure** again and then **Generate**.
 
@@ -252,14 +252,7 @@ When using CMake versions older than 3.1.0, it\'s necessary to set CMake variabl
 
 ### Additional Build Instructions 
 
-FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https   *//github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
-
-
-
-
- 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
 
 
 

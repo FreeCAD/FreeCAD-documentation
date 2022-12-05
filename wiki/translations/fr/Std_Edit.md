@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std_Edit
-   Name/fr   *Std Bascule mode édition
-   MenuLocation   *Édition → Basculer le mode d'édition
-   Workbenches   *Tous
-   SeeAlso   *[Std Mode d'édition](Std_UserEditMode/fr.md)
+- GuiCommand:/fr
+   Name:Std_Edit
+   Name/fr:Std Bascule mode édition
+   MenuLocation:Édition → Basculer le mode d'édition
+   Workbenches:Tous
+   SeeAlso:[Std Mode d'édition](Std_UserEditMode/fr.md)
 ---
 
 # Std Edit/fr
@@ -15,7 +15,7 @@ La commande **Std Bascule mode édition** active ou désactive le mode d\'éditi
 
 ## Utilisation
 
-1.  Si aucun objet n\'est en mode édition    * sélectionnez un seul objet.
+1.  Si aucun objet n\'est en mode édition : sélectionnez un seul objet.
 2.  Sélectionnez l\'option **Édition → <img src="images/Std_Edit.svg" width=16px> Basculer le mode d'édition** dans le menu.
 3.  Soit le mode d\'édition par défaut de l\'objet sélectionné est activé, soit le mode d\'édition existant est désactivé.
 
@@ -29,7 +29,7 @@ La commande **Std Bascule mode édition** active ou désactive le mode d\'éditi
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
@@ -42,7 +42,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-Le deuxième argument est l\'EditMode. Les options suivantes sont disponibles    *
+Le deuxième argument est l\'EditMode. Les options suivantes sont disponibles :
 
 
 ```python

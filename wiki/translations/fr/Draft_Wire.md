@@ -1,35 +1,35 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft Wire
-   Name/fr   *Draft Polyligne
-   MenuLocation   *Draft → Polyligne
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut   ***P** **L**
-   Version   *0.7
-   SeeAlso   *[Draft Ligne](Draft_Line/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
+- GuiCommand:/fr
+   Name:Draft Wire
+   Name/fr:Draft Polyligne
+   MenuLocation:Draft → Polyligne
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**P** **L**
+   Version:0.7
+   SeeAlso:[Draft Ligne](Draft_Line/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
 ---
 
 # Draft Wire/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> **Draft Polyligne** [crée](#Cr.C3.A9er.md) une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [joindre](#Joindre.md) des [Draft Lignes](Draft_Line/fr.md) et des Draft Polylignes.
+La commande <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polyligne** [crée](#Cr.C3.A9er.md) une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [joindre](#Joindre.md) des [Draft Lignes](Draft_Line/fr.md) et des Draft Polylignes.
 
 Les coins d\'une Draft Polyligne peuvent être effilés (arrondis) ou chanfreinés en modifiant respectivement sa propriété **Fillet Radius** ou **Chamfer Size**. Il est également possible de subdiviser les bords d\'une Draft Polyligne en modifiant sa propriété **Subdivisions**.
 
-<img alt="" src=images/Draft_Polyline_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Une polyligne définie par plusieurs points*
 
 ## Créer
 
 ### Utilisation
 
-Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
-    -   Utilisez le raccourci clavier    * **P** puis **L**.
+    -   Utilisez le raccourci clavier : **P** puis **L**.
 2.  Le panneau de tâches **Polyline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
@@ -58,10 +58,10 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 1.  Les extrémité des [Draft Lignes](Draft_Line/fr.md) et/ou des Draft Polylignes à joindre doivent coïncider exactement. Si nécessaire, ajustez d\'abord les points pour vous assurer que c\'est le cas.
 2.  Sélectionnez deux ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou des Draft Polylignes.
-3.  Il existe plusieurs façons de lancer la commande    *
+3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
-    -   Utilisez le raccourci clavier    * **P** puis **L**.
+    -   Utilisez le raccourci clavier : **P** puis **L**.
 
 ## Remarques
 
@@ -71,44 +71,44 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Préférences
 
-Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées    * **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli    * **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
+-   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
 ## Propriétés
 
-Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Polyligne est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Draft Polyligne est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (en lecture seule) spécifie la surface de la face générée par la ligne. La valeur sera {{value|0.0}} si **Make Face** est `False` ou si la face ne peut être créée.
+-    **Area|Area**: (en lecture seule) spécifie la surface de la face générée par la ligne. La valeur sera {{value|0.0}} si **Make Face** est `False` ou si la face ne peut être créée.
 
 -    **Base|Link**
     
 
--    **Chamfer Size|Length**   * spécifie la longueur des chanfreins aux coins de la ligne.
+-    **Chamfer Size|Length**: spécifie la longueur des chanfreins aux coins de la ligne.
 
--    **Closed|Bool**   * spécifie si la ligne est fermée ou non. Si la ligne est initialement ouverte, cette valeur est `False`. Si vous lui attribuez la valeur `True`, un segment de la ligne sera dessiné pour fermer la ligne. Si la ligne est initialement fermée, cette valeur est `True`, la mettre à `False` supprimera le dernier segment de la ligne et rendra la ligne ouverte.
+-    **Closed|Bool**: spécifie si la ligne est fermée ou non. Si la ligne est initialement ouverte, cette valeur est `False`. Si vous lui attribuez la valeur `True`, un segment de la ligne sera dessiné pour fermer la ligne. Si la ligne est initialement fermée, cette valeur est `True`, la mettre à `False` supprimera le dernier segment de la ligne et rendra la ligne ouverte.
 
--    **End|VectorDistance**   * spécifie le dernier point de la ligne.
+-    **End|VectorDistance**: spécifie le dernier point de la ligne.
 
--    **lignelet Radius|Length**   * spécifie le rayon des filets aux brisures de la ligne.
+-    **lignelet Radius|Length**: spécifie le rayon des filets aux brisures de la ligne.
 
--    **Length|Length**   * (en lecture seule) spécifie la longueur totale de la ligne.
+-    **Length|Length**: (en lecture seule) spécifie la longueur totale de la ligne.
 
--    **Make Face|Bool**   * spécifie si la ligne fait une face ou non. Si c\'est `True`, une face est créée, sinon seuls les bords sont considérés comme faisant partie de l\'objet. Cette propriété ne fonctionne que si **Closed** est `True` et si la ligne ne s\'auto-intersecte pas.
+-    **Make Face|Bool**: spécifie si la ligne fait une face ou non. Si c\'est `True`, une face est créée, sinon seuls les bords sont considérés comme faisant partie de l\'objet. Cette propriété ne fonctionne que si **Closed** est `True` et si la ligne ne s\'auto-intersecte pas.
 
--    **Points|VectorList**   * spécifie les points de la ligne dans son système de coordonnées local.
+-    **Points|VectorList**: spécifie les points de la ligne dans son système de coordonnées local.
 
--    **Start|VectorDistance**   * spécifie le premier point de la ligne.
+-    **Start|VectorDistance**: spécifie le premier point de la ligne.
 
--    **Subdivisions|Integer**   * spécifie le nombre de subdivisions pour chaque arête de la ligne. Si la valeur est {{value|1}}, chaque bord sera divisé en {{value|2}} segments égaux. Les subdivisions sont appliquées avant les chanfreins et les ligneets.
+-    **Subdivisions|Integer**: spécifie le nombre de subdivisions pour chaque arête de la ligne. Si la valeur est {{value|1}}, chaque bord sera divisé en {{value|2}} segments égaux. Les subdivisions sont appliquées avant les chanfreins et les ligneets.
 
 -    **Tool|Link**
     
@@ -118,19 +118,19 @@ Un objet Draft Polyligne est dérivé d\'un [Part Part2DObject](Part_Part2DObjec
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**   * spécifie la taille du symbole affiché à l\'extrémité de la ligne.
+-    **Arrow Size|Length**: spécifie la taille du symbole affiché à l\'extrémité de la ligne.
 
--    **Arrow Type|Enumeration**   * spécifie le type de symbole affiché à l\'extrémité de la ligne, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: spécifie le type de symbole affiché à l\'extrémité de la ligne, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
 
--    **End Arrow|Bool**   * spécifie s\'il faut afficher un symbole à la fin de la ligne, afin qu\'elle puisse être utilisée comme ligne d\'annotation.
+-    **End Arrow|Bool**: spécifie s\'il faut afficher un symbole à la fin de la ligne, afin qu\'elle puisse être utilisée comme ligne d\'annotation.
 
--    **Pattern|Enumeration**   * spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir la face de la ligne fermée. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est à {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir la face de la ligne fermée. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est à {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+-    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer une Draft Polyligne, utilisez la méthode `make_wire` ({{Version/fr|0.19}}) du module Draft. Cette méthode remplace la méthode dépréciée `makeWire`.
 
@@ -147,7 +147,7 @@ wire = make_wire(Part.Wire, closed=False, placement=None, face=None, support=Non
 -   Si un `placement` est `None`, la courbe est créée à l\'origine.
 -   Si `face` est réglé sur `True`, et que le fil est fermé, le fil fera une face, c\'est-à-dire qu\'elle apparaîtra remplie.
 
-Exemple    *
+Exemple :
 
 
 ```python

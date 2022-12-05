@@ -1,8 +1,6 @@
 # Category:Start/fr
 This category lists pages related to the [Start Workbench/fr](Start_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

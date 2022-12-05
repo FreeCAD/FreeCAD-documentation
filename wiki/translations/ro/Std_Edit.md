@@ -1,6 +1,6 @@
 # Std Edit/ro
 ---
-- GuiCommand   *   Name   *Std Edit   MenuLocation   *[[Std_Edit_Menu   Edit]] → Toggle Editmode|Workbenches   *All   SeeAlso   *...---
+- GuiCommand:   Name:Std Edit   MenuLocation:[[Std_Edit_Menu   Edit]] → Toggle Editmode|Workbenches:All   SeeAlso:...---
 
 
 </div>
@@ -23,7 +23,7 @@ Această comandă permite intrarea sau ieșirea din modul de editare al unui obi
 
 ## Usage
 
-1.  If no object is in edit mode   * select a single object.
+1.  If no object is in edit mode: select a single object.
 2.  Select the **Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode** option from the menu.
 3.  Either the default edit mode of the selected object is activated or the existing edit mode deactivated.
 
@@ -43,14 +43,14 @@ Această comandă permite intrarea sau ieșirea din modul de editare al unui obi
 </div>
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Aceasta intră în modul de editare al unui obiect determinat   *
+Aceasta intră în modul de editare al unui obiect determinat:
 
 
 </div>
@@ -62,7 +62,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available   *
+The second argument is the EditMode. The following options are available:
 
 0 = Default
 1 = Transform
@@ -72,7 +72,7 @@ The second argument is the EditMode. The following options are available   *
 
 <div class="mw-translate-fuzzy">
 
-Aceasta închide modul de editare   *
+Aceasta închide modul de editare:
 
 
 </div>

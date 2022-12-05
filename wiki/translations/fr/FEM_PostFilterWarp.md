@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM PostFilterWarp
-   Name/fr   *FEM Filtre des déformations
-   MenuLocation   *Résultats → Filtre des déformations
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM PostFilterWarp
+   Name/fr:FEM Filtre des déformations
+   MenuLocation:Résultats → Filtre des déformations
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterWarp/fr
@@ -22,7 +22,7 @@ Le résultat sera le même qu\'avec le curseur *Déplacement* de la boîte de di
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
-2.  Lancez la commande soit en    *
+2.  Lancez la commande soit en :
     -   Appuyant sur le bouton **<img src="images/FEM_PostFilterWarp.svg" width=16px> '''Filtre des déformations'''**.
     -   Utiliser le menu **Résultats → <img src="images/FEM_PostFilterWarp.svg" width=16px> Filtre des déformations**.
 3.  Ajustez les **Résultats** options d\'affichage comme pour le [Pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Masquez ce pipeline pour voir l\'effet d\'un filtre des déformations.

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ReorientSketch
-   Name/de   *Sketcher SkizzeAnordnen
-   MenuLocation   *Sketch → Skizze neu Anordnen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso   *[Sketcher SkizzeZuordnen](Sketcher_MapSketch/de.md), [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+- GuiCommand:/de
+   Name:Sketcher ReorientSketch
+   Name/de:Sketcher SkizzeAnordnen
+   MenuLocation:Sketch → Skizze neu Anordnen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[Sketcher SkizzeZuordnen](Sketcher_MapSketch/de.md), [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # Sketcher ReorientSketch/de
@@ -16,7 +16,7 @@ Ermöglicht es dir, eine Skizze von einer Fläche zu lösen und sie an einer der
 ## Anwendung
 
 1.  Die Skizze, die neu ausgerichtet werden soll, in der Baumansicht auswählen.
-2.  Den Menüeintrag **Sketch → [<img src=images/Sketcher_ReorientSketch.svg style="width   *16px"> [Skizze neu ausrichten...](Sketcher_ReorientSketch/de.md)** auswählen.
+2.  Den Menüeintrag **Sketch → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Skizze neu ausrichten...](Sketcher_ReorientSketch/de.md)** auswählen.
 3.  Ein Menü wird geöffnet und erfragt, ob die Skizze von ihrer Fläche gelöst werden soll.
 4.  Die Auswahl von **Ja** öffnet dasselbe Menü wie **Sketch → Skizze erstellen**.
 5.  Die Skizze kann an eine der Hauptebenen angehängt werden.

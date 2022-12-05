@@ -7,23 +7,23 @@ Jedes TechDraw-Zeichnungsblatt (Page-Objekt) basiert auf einer Vorlage (Template
 
 Die Vorlage kann auch editierbare Textfelder für Attribute wie *Titel*, *Untertitel*, *Autor*, *Datum*, *Maßstab*, *Gewicht\",*Zeichnungsnummer*und*Blatt\'\'.
 
-Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer Anwendung wie [Inkscape](https   *//de.wikipedia.org/wiki/Inkscape) erstellt und geändert werden können.
+Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer Anwendung wie [Inkscape](https://de.wikipedia.org/wiki/Inkscape) erstellt und geändert werden können.
 
 ## Eigenschaften
 
--    **Orientation**   * Hoch- oder Querformat
+-    **Orientation**: Hoch- oder Querformat
 
--    **Width**   * Blattbreite in mm
+-    **Width**: Blattbreite in mm
 
--    **Height**   * Blatthöhe in mm
+-    **Height**: Blatthöhe in mm
 
--    **Page Result**   * Eine Kopie der originalen Vorlagendatei einschließlich aller Änderungen an editierbaren Texten. Dies erlaubt Anwendern, die möglicherweise keine Kopie der Vorlagendatei haben, die Seite wie vorgesehen anzuzeigen. Für Endanwender in der Regel nicht nützlich.
+-    **Page Result**: Eine Kopie der originalen Vorlagendatei einschließlich aller Änderungen an editierbaren Texten. Dies erlaubt Anwendern, die möglicherweise keine Kopie der Vorlagendatei haben, die Seite wie vorgesehen anzuzeigen. Für Endanwender in der Regel nicht nützlich.
 
--    **Template**   * a) Ein Verweis auf die Kopie der ursprünglichen Vorlagendatei, die in dieser \*.FCStd Datei eingebunden ist. b) Ein Dateipfad zu einer auf dem aktuellen Rechner vorhandenen Vorlage. Auf das Dateiauswahl-Zeichen (\...) klicken, um zu einer anderen Vorlage zu wechseln.
+-    **Template**: a) Ein Verweis auf die Kopie der ursprünglichen Vorlagendatei, die in dieser \*.FCStd Datei eingebunden ist. b) Ein Dateipfad zu einer auf dem aktuellen Rechner vorhandenen Vorlage. Auf das Dateiauswahl-Zeichen (\...) klicken, um zu einer anderen Vorlage zu wechseln.
 
 ## Eine andere Vorlagendatei auswählen 
 
-Um eine andere Vorlage einer Zeichnung auszuwählen   *
+Um eine andere Vorlage einer Zeichnung auszuwählen:
 
 1.  Die gewünschte Seite in der [Baumansicht](Tree_view/de.md) ermitteln.
 2.  Den Knoten des Zeichnungsblattes (Page-Objekt) aufklappen, wenn nötig.
@@ -62,11 +62,11 @@ Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_
 -   TechDraw-Vorlagen sind nicht vollständig austauschbar mit [Drawing-Vorlagen](Drawing_templates/de.md).
 -   Im allgemeinen funktionieren die Drawing-Vorlagen in TechDraw, es können jedoch Probleme mit editierbaren Texten auftreten.
 
--   Svg-Transformationsanweisungen **werden Probleme verursachen** in benutzerdefinierten Vorlagen. Siehe eine Stackoverflow-Diskussion unter [removing transform clauses in SVG files](https   *//stackoverflow.com/questions/13329125/removing-transforms-in-svg-files) (engl.).
+-   Svg-Transformationsanweisungen **werden Probleme verursachen** in benutzerdefinierten Vorlagen. Siehe eine Stackoverflow-Diskussion unter [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files) (engl.).
 
--   Die Anweisung **xml   *space=\"preserve\"** verursacht manchmal Probleme mit der Textgröße und -positionierung. Es ist am besten, diese Anweisung zu vermeiden bzw. aus dem SVG-Code der benutzerdefinierten Vorlage entfernen.
+-   Die Anweisung **xml:space=\"preserve\"** verursacht manchmal Probleme mit der Textgröße und -positionierung. Es ist am besten, diese Anweisung zu vermeiden bzw. aus dem SVG-Code der benutzerdefinierten Vorlage entfernen.
 
--   Vorlagen funktionieren am besten, wenn sie keinen überflüssigen SVG-Code enthalten (von manchen als \"SVG-Müll\" bezeichnet). Es gibt einen guten Artikel über [Entfernen von Müll aus SVG hier](https   *//freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). Der Artikel ist auf Russisch.
+-   Vorlagen funktionieren am besten, wenn sie keinen überflüssigen SVG-Code enthalten (von manchen als \"SVG-Müll\" bezeichnet). Es gibt einen guten Artikel über [Entfernen von Müll aus SVG hier](https://freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). Der Artikel ist auf Russisch.
 
 
 

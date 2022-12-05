@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Draft PointArray
-   Name/de   *Entwurf Punktanordnung
-   MenuLocation   *Änderung → Anordnungswerkzeuge → Punktanordnung
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Version   *0.18
-   SeeAlso   *[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarAnordnung](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [Entwurf PfadAnordnung](Draft_PathArray/de.md), [Entwurf PfadVerweisAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md)
+- GuiCommand:/de
+   Name:Draft PointArray
+   Name/de:Entwurf Punktanordnung
+   MenuLocation:Änderung → Anordnungswerkzeuge → Punktanordnung
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Version:0.18
+   SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarAnordnung](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [Entwurf PfadAnordnung](Draft_PathArray/de.md), [Entwurf PfadVerweisAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft PointArray/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Der <img alt="" src=images/Draft_PointArray.svg  style="width   *24px;"> **Entwurf PunktAnordnung** Befehl erzeugt eine regelmäßige Anordnung aus einem ausgewählten Objekt, indem er Kopien an den Punkten aus einer [Punkt Verbund](#Punkt_Verbund.md) platziert. Verwende stattdessen den Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md), um eine effizientere [Verweis](App_Link/de.md) Anordnung zu erzeugen. Bis auf den Typ der erzeugten Anordnung, Verweis Anordnung oder regulärer Anordnung, ist der Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md) identisch mit diesem Befehl.
+Der <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Entwurf PunktAnordnung** Befehl erzeugt eine regelmäßige Anordnung aus einem ausgewählten Objekt, indem er Kopien an den Punkten aus einer [Punkt Verbund](#Punkt_Verbund.md) platziert. Verwende stattdessen den Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md), um eine effizientere [Verweis](App_Link/de.md) Anordnung zu erzeugen. Bis auf den Typ der erzeugten Anordnung, Verweis Anordnung oder regulärer Anordnung, ist der Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md) identisch mit diesem Befehl.
 
 
 </div>
@@ -35,14 +35,14 @@ The point object can be any object with a shape and vertices (including a [Std P
 
 In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
 
-<img alt="" src=images/Draft_PointArray_Example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Entwurf PunktAnordnung*
 
 ## Anwendung
 
 1.  Wähle das Objekt aus, das du anordnen möchtest.
 2.  Füge das [Punkt Verbund](#Punkt_Verbund.md) Objekt zur Auswahl hinzu.
-3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_PointArray.svg" width=16px> [Entwurf PunktAnordnung](Draft_PointArray/de.md)** Schaltfläche.
     -   Wähle den **Änderung → Werkzeuge Anordnung → <img src="images/Draft_PointArray.svg" width=16px> Punktanordnung** aus dem Menü.
 4.  Die Anordnung wird erzeugt.
@@ -53,23 +53,23 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 
 <div class="mw-translate-fuzzy">
 
-Eine Punktverbindung ist ein Objekt, das einen oder mehrere Punkte enthält. Dies sind die unterstützten Punktverbindungen und wie sie erstellt werden können   *
+Eine Punktverbindung ist ein Objekt, das einen oder mehrere Punkte enthält. Dies sind die unterstützten Punktverbindungen und wie sie erstellt werden können:
 
--   [Part Verbund](Part_Compound/de.md)   * Erzeugen einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
--   Zeichnungsblock   * Erzeuge einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), markiere diese und rufe den Befehl [Entwurf Heraufstufen](Draft_Upgrade/de.md) auf.
--   [Skizzierer Skizze](Sketcher_NewSketch/de.md)   * Erstelle eine [Skizze](Sketcher_NewSketch/de.md) und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
+-   [Part Verbund](Part_Compound/de.md): Erzeugen einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
+-   Zeichnungsblock: Erzeuge einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), markiere diese und rufe den Befehl [Entwurf Heraufstufen](Draft_Upgrade/de.md) auf.
+-   [Skizzierer Skizze](Sketcher_NewSketch/de.md): Erstelle eine [Skizze](Sketcher_NewSketch/de.md) und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
 
 
 </div>
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschafteneditor](property_editor/de.md).
+Siehe auch: [Eigenschafteneditor](property_editor/de.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Eine [PunktAnordnung](Draft_PointArray/de.md) ist abgeleitet von einer l[Part Formelement](Part_Feature/de.md) (Klasse `Part   *   *Feature`) abgeleitet, daher teilt es alle Eigenschaften von letzterem. Zusätzlich zu den im [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften besitzt die PunktAnordnung im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften.
+Eine [PunktAnordnung](Draft_PointArray/de.md) ist abgeleitet von einer l[Part Formelement](Part_Feature/de.md) (Klasse `Part::Feature`) abgeleitet, daher teilt es alle Eigenschaften von letzterem. Zusätzlich zu den im [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften besitzt die PunktAnordnung im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften.
 
 
 </div>
@@ -114,15 +114,15 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Objects}}
 
--    **Base|Link**   * specifies the object to duplicate in the array.
+-    **Base|Link**: specifies the object to duplicate in the array.
 
--    **Count|Integer**   * (read-only) specifies the number of elements in the array. This number is determined by the number of points in the **Point Object**.
+-    **Count|Integer**: (read-only) specifies the number of elements in the array. This number is determined by the number of points in the **Point Object**.
 
--    **Expand Array|Bool**   * specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+-    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 
--    **Extra Placement|Placement**   *    * specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
+-    **Extra Placement|Placement**: : specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
 
--    **Point Object|Link**   * specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
+-    **Point Object|Link**: specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
 
 ### Ansicht
 
@@ -143,7 +143,7 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**   * this is an inherited property that appears in the Selection group for other arrays
+-    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
 
 -    **Shape Material|Material**
     
@@ -165,16 +165,16 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**   * this is an inherited property.
+-    **Proxy|PythonObject|Hidden**: this is an inherited property.
 
 
 {{TitleProperty|Display Options}}
 
 The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
 
--    **Bounding Box|Bool**   * this property is not inherited by Link arrays.
+-    **Bounding Box|Bool**: this property is not inherited by Link arrays.
 
--    **Display Mode|Enumeration**   * for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be   * {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -185,9 +185,9 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * not used.
+-    **Pattern|Enumeration**: not used.
 
--    **Pattern Size|Float**   * not used.
+-    **Pattern Size|Float**: not used.
 
 
 {{TitleProperty|Object style}}
@@ -196,7 +196,7 @@ The properties in this group are not inherited by Link arrays.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen einer Punktanordnung verwende die Methode `make_point_array` ({{Version/de|0.19}}) des Entwurf Moduls. Diese Methode ersetzt die veraltete Methode `makePointArray`.
 
@@ -213,7 +213,7 @@ point_array = make_point_array(base_object, point_object, extra=None, use_link=T
 
 -   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -228,7 +228,7 @@ p1 = Draft.make_point(App.Vector(1500, 0, 0))
 p2 = Draft.make_point(App.Vector(2500, 0, 0))
 p3 = Draft.make_point(App.Vector(2000, 1000, 0))
 
-compound = doc.addObject("Part   *   *Compound", "Compound")
+compound = doc.addObject("Part::Compound", "Compound")
 compound.Links = [p1, p2, p3]
 
 point_array = Draft.make_point_array(polygon, compound)

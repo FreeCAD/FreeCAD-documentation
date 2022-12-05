@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *FEM MaterialEditor
-   Name/it   *Editor dei materiali
-   MenuLocation   *Modello → Materiali → Editor dei materiali
-   Workbenches   *[FEM](FEM_Workbench/it.md)
-   Shortcut   *
-   SeeAlso   *[Tutorial FEM](FEM_tutorial/it.md)
+- GuiCommand:/it
+   Name:FEM MaterialEditor
+   Name/it:Editor dei materiali
+   MenuLocation:Modello → Materiali → Editor dei materiali
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM MaterialEditor/it
@@ -33,31 +33,31 @@ L\'editor dei materiali consente di modificare e salvare le informazioni contenu
 
 ## Utilizzo
 
-All\'editor dei materiale attualmente si può accedere da   *
+All\'editor dei materiale attualmente si può accedere da:
 
 
 <div class="mw-translate-fuzzy">
 
--   Ambiente Arch   *
+-   Ambiente Arch:
     -   Dal pulsante **Edit material** del pannello di creazione dei [nuovi materiali](Arch_SetMaterial/it.md) del modulo [Arch](Arch_Workbench/it.md)
--   Ambiente FEM   *
+-   Ambiente FEM:
     -   Dal menu Modello → Materiali → Material editor
     -   Dall\'icona Material editor
--   Via python   *
+-   Via python:
 
 
 </div>
 
 ## Opzioni
 
--   **Browser button**   * Apre il contenuto della proprietà URL in un browser
--   **Material card**   * Permette di scegliere un preset per riempire i campi
--   **Open**   * Apre un file .FCMat
--   **Save as**   * Salva il contenuto dell\'editor come un nuovo file .FCMat
--   **Preview**   * Nn ancora implementato
--   **Properties editor**   * Permette di modificare il contenuto delle proprietà del materiale
--   **Add property**   * Permette di aggiungere una nuova proprietà personalizzata
--   **Delete property**   * Elimina una proprietà selezionata. Possono essere eliminate solo le proprietà personalizzate
+-   **Browser button**: Apre il contenuto della proprietà URL in un browser
+-   **Material card**: Permette di scegliere un preset per riempire i campi
+-   **Open**: Apre un file .FCMat
+-   **Save as**: Salva il contenuto dell\'editor come un nuovo file .FCMat
+-   **Preview**: Nn ancora implementato
+-   **Properties editor**: Permette di modificare il contenuto delle proprietà del materiale
+-   **Add property**: Permette di aggiungere una nuova proprietà personalizzata
+-   **Delete property**: Elimina una proprietà selezionata. Possono essere eliminate solo le proprietà personalizzate
 
 
 {{Arch Tools navi/it}}

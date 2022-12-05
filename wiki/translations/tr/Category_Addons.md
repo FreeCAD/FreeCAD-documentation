@@ -1,8 +1,6 @@
 # Category:Addons/tr
 Bu sayfa, bu wikide bir sayfaya sahip harici ek çalışma tezgahlarını listeler. Eklentiler, topluluk tarafından katkıda bulunan modüller veya tezgahlardır ve standart FreeCAD\'in bir parçası değildir.
 
-[Category   *Categories](Category_Categories.md)
-
 ### Contents
 
 |     |     |     |

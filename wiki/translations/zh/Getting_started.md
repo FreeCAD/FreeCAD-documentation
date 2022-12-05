@@ -14,7 +14,7 @@
 
 FreeCAD是一种3D[参数化建模程序](About_FreeCAD/zh.md)。它主要用于机械设计，对所有需要精确建模3D物体并能够控制建模过程的情况都适用。
 
-FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list/zh.md)。 它仍有一些功能缺失，但对于多数业余爱好者和许多小型工厂来说它足够强大。在[FreeCAD论坛](http   *//forum.freecadweb.org/index.php)有一个由热情的用户组成的快速增长的社区，在那你可以发现许多用FreeCAD开发的项目[示例](https   *//forum.freecadweb.org/viewforum.php?f=24)。也可以看看[FreeCAD 产品应用](FreeCAD_used_in_production/zh.md)。
+FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list/zh.md)。 它仍有一些功能缺失，但对于多数业余爱好者和许多小型工厂来说它足够强大。在[FreeCAD论坛](http://forum.freecadweb.org/index.php)有一个由热情的用户组成的快速增长的社区，在那你可以发现许多用FreeCAD开发的项目[示例](https://forum.freecadweb.org/viewforum.php?f=24)。也可以看看[FreeCAD 产品应用](FreeCAD_used_in_production/zh.md)。
 
 像所有开源项目，FreeCAD依靠它的社区的成长、收集功能以及修复缺陷。所以在使用FreeCAD的时候不要忘记这一点，如果你愿意，你可以 [捐献并以各种方式](Donate.md)[帮助FreeCAD](help_FreeCAD/zh.md)，例如编写文档以及进行翻译工作。
 
@@ -30,12 +30,12 @@ FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list
 
 ## 浏览界面
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;"> 
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
 *0.19版标准界面。*
 
 
@@ -45,17 +45,17 @@ FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list
 **在 [界面](Interface.md)中查看完整说明.**
 
 
-   *   1\. The [主视图区域](main_view_area.md), 包含各种Tabbed标签窗口, 主要是 [3D 视图](3D_view.md)。
-   *   2\. [三D视图](3D_view.md),显示文件中的几何对象.
-   *   3\. [树视图](tree_view.md) ([组合视图的一部分](combo_view.md)), 显示文档中对象的层次结构和构造历史； 它还可以显示激活的命令的[任务面板](task_panel.md)。
-   *   4\. [属性编辑器](property_editor.md)（[组合视图的一部分](combo_view.md)），允许查看和修改所选对象的属性。
-   *   5\. [选择视图](selection_view.md)，表示所选择的对象（顶点，边缘，面）或对象的子元素。
-   *   6\. [报告视图](report_view.md)（或输出窗口），显示信息，警告和错误。
-   *   7\. [ Python控制台](Python_console.md)，在这里所有命令的执行都被打印出来，并可以在其中输入[ Python代码](Python.md)。
-   *   8\. [状态栏](status_bar.md)，其中会显示一些消息和工具提示。
-   *   9\. 工具栏所在的工具栏区域。
-   *   10\. [工作台选择器](Std_Workbench.md)，在其中选择[工作台](workbenches.md)。
-   *   11\. [标准菜单](Standard_Menu.md)，包含程序的基本操作。
+:   1\. The [主视图区域](main_view_area.md), 包含各种Tabbed标签窗口, 主要是 [3D 视图](3D_view.md)。
+:   2\. [三D视图](3D_view.md),显示文件中的几何对象.
+:   3\. [树视图](tree_view.md) ([组合视图的一部分](combo_view.md)), 显示文档中对象的层次结构和构造历史； 它还可以显示激活的命令的[任务面板](task_panel.md)。
+:   4\. [属性编辑器](property_editor.md)（[组合视图的一部分](combo_view.md)），允许查看和修改所选对象的属性。
+:   5\. [选择视图](selection_view.md)，表示所选择的对象（顶点，边缘，面）或对象的子元素。
+:   6\. [报告视图](report_view.md)（或输出窗口），显示信息，警告和错误。
+:   7\. [ Python控制台](Python_console.md)，在这里所有命令的执行都被打印出来，并可以在其中输入[ Python代码](Python.md)。
+:   8\. [状态栏](status_bar.md)，其中会显示一些消息和工具提示。
+:   9\. 工具栏所在的工具栏区域。
+:   10\. [工作台选择器](Std_Workbench.md)，在其中选择[工作台](workbenches.md)。
+:   11\. [标准菜单](Standard_Menu.md)，包含程序的基本操作。
 
 
 <div class="mw-translate-fuzzy">
@@ -68,12 +68,12 @@ FreeCAD界面背后的主要概念是它被分成 [工作台](workbenches.md)。
 
 <div class="mw-translate-fuzzy">
 
-当你启动FreeCAD的时候，你将会看到启动中心。下面你看到的是0.18版的启动中心   *
+当你启动FreeCAD的时候，你将会看到启动中心。下面你看到的是0.18版的启动中心:
 
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -88,7 +88,7 @@ FreeCAD界面背后的主要概念是它被分成 [工作台](workbenches.md)。
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD有许多不同的[鼠标操控模式可用](Mouse_Model.md), 选择不同的操控模式会改变你使用鼠标操控3D视图中对象和改变3D视图方式。操控模式有一个是特别为触控板设计的[触控板](Mouse_Model#Touchpad_Navigation.md), 该模式下鼠标中键不可用. 下列表格中描述了默认操控模式，叫做**CAD操作** (你可以通过在3D视图的空白处右键单击跳出的菜单中进行选择以迅速改变当前操控   *)
+FreeCAD有许多不同的[鼠标操控模式可用](Mouse_Model.md), 选择不同的操控模式会改变你使用鼠标操控3D视图中对象和改变3D视图方式。操控模式有一个是特别为触控板设计的[触控板](Mouse_Model#Touchpad_Navigation.md), 该模式下鼠标中键不可用. 下列表格中描述了默认操控模式，叫做**CAD操作** (你可以通过在3D视图的空白处右键单击跳出的菜单中进行选择以迅速改变当前操控:)
 
 
 </div>
@@ -97,7 +97,7 @@ FreeCAD有许多不同的[鼠标操控模式可用](Mouse_Model.md), 选择不�
 
 ## 和FreeCAD一起迈进的第一步
 
-Freecad的关注点是让你能够制作高精度的3D模型，对这些模型保持严格的控制（能够回溯建模历史并更改参数），并最终建立这些模型（通过3D打印、CNC加工甚至施工现场）。因此，它与其他一些用于其他目的的3D应用程序非常不同，例如动画电影或游戏。它的学习曲线可能很陡，特别是如果这是你第一次接触三维建模。如果你学习的过程在某个点上被卡住了，不要忘记[freecad论坛](http   *//forum.freecadweb.org/index.php)上友好的用户社区可能很快就能帮你解决问题。
+Freecad的关注点是让你能够制作高精度的3D模型，对这些模型保持严格的控制（能够回溯建模历史并更改参数），并最终建立这些模型（通过3D打印、CNC加工甚至施工现场）。因此，它与其他一些用于其他目的的3D应用程序非常不同，例如动画电影或游戏。它的学习曲线可能很陡，特别是如果这是你第一次接触三维建模。如果你学习的过程在某个点上被卡住了，不要忘记[freecad论坛](http://forum.freecadweb.org/index.php)上友好的用户社区可能很快就能帮你解决问题。
 
 
 <div class="mw-translate-fuzzy">
@@ -133,7 +133,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 </div>
 
-这些使用草图绘制的二维形状在零件设计工作台中被大量使用，例如创建三维体，或在对象的面上绘制图形，然后从其主体中按该图形形状掏出空心。以下是一个典型的零件设计工作流   *
+这些使用草图绘制的二维形状在零件设计工作台中被大量使用，例如创建三维体，或在对象的面上绘制图形，然后从其主体中按该图形形状掏出空心。以下是一个典型的零件设计工作流:
 
 1.  创建新草图
 2.  绘制闭合形状（确保所有点都已连接）
@@ -147,7 +147,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 以上操作会给你如下的结果：
 
-<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 你随时可以选择原始草图并对其进行修改，或者更改"填充"或"挖槽"操作的拉伸参数以更新最终对象。
 
@@ -164,7 +164,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 <div class="mw-translate-fuzzy">
 
-[制图工作台为你提供了与传统二维制图CAD应用程序](Draft_Workbench.md)（[autocad](https   *//en.wikipedia.org/wiki/autocad)）中类似的二维制图工具。然而，二维制图远超Freecad所能及的范围，请不要期待着能在这里找到这些专用应用程序提供的全套工具。大多数制图工具不仅在二维平面中工作，而且在整个三维空间中工作，并且受益于特殊的辅助系统，如[工作面和](Draft_SelectPlane.md)[对象捕捉](Draft_Snap.md)。
+[制图工作台为你提供了与传统二维制图CAD应用程序](Draft_Workbench.md)（[autocad](https://en.wikipedia.org/wiki/autocad)）中类似的二维制图工具。然而，二维制图远超Freecad所能及的范围，请不要期待着能在这里找到这些专用应用程序提供的全套工具。大多数制图工具不仅在二维平面中工作，而且在整个三维空间中工作，并且受益于特殊的辅助系统，如[工作面和](Draft_SelectPlane.md)[对象捕捉](Draft_Snap.md)。
 
 
 </div>
@@ -172,7 +172,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 <div class="mw-translate-fuzzy">
 
-\[arch module\|建筑工作台\]向freecad添加了[bim](http   *//en.wikipedia.org/wiki/building_information_modeling)工具，允许您使用参数化对象构建建筑模型。建筑工作台广泛依赖于其他模块，如制图和草图。所有制图工具也都存在于Arch工作台中，并且大多数Arch工具都使用制图工作台的帮助系统。
+\[arch module\|建筑工作台\]向freecad添加了[bim](http://en.wikipedia.org/wiki/building_information_modeling)工具，允许您使用参数化对象构建建筑模型。建筑工作台广泛依赖于其他模块，如制图和草图。所有制图工具也都存在于Arch工作台中，并且大多数Arch工具都使用制图工作台的帮助系统。
 
 
 </div>
@@ -189,7 +189,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 你将得到如下结果：
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 更多信息见[指南页面](Tutorials.md).
 
@@ -232,8 +232,6 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 
 {{Userdocnavi/zh}}
-
-[Category   *User Documentation/zh](Category   *User_Documentation/zh.md)
 
 
 

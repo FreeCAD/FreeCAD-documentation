@@ -3,12 +3,12 @@
 |Name=View Rotation
 |Icon=Macro_View_Rotation.png
 |Translate=View Rotation
-|Description=Makro bietet eine grafische Benutzeroberfläche, mit der die Objekte in der Ansicht präzise gedreht werden können.<br />Download the [http   *//forum.freecadweb.org/download/file.php?id=453 Icon] of the macro.<br />
+|Description=Makro bietet eine grafische Benutzeroberfläche, mit der die Objekte in der Ansicht präzise gedreht werden können.<br />Download the [http://forum.freecadweb.org/download/file.php?id=453 Icon] of the macro.<br />
 |Author=Joe Dowsett
 |Version=1.0
 |Date=2012-01-04
 |FCVersion=All
-|Download=[http   *//forum.freecadweb.org/download/file.php?id=453 Icons Package]<br />[https   *//www.freecadweb.org/wiki/images/a/af/Macro_View_Rotation.png Icon ToolBar]
+|Download=[http://forum.freecadweb.org/download/file.php?id=453 Icons Package]<br />[https://www.freecadweb.org/wiki/images/a/af/Macro_View_Rotation.png Icon ToolBar]
 |SeeAlso=[Macro Rotate View](Macro_Rotate_View/de.md)<br />[Macro FCCamera](Macro_FCCamera/de.md)
 }}
 
@@ -17,18 +17,18 @@
 Über diese GUI kann die Ansicht präziser gedreht werden als bei Verwendung der Maus. Die Rotation richtet sich nach den Achsen, die in Bezug auf den Benutzer festgelegt sind, und nicht auf die Objekte. Das Ziel besteht jedoch darin, dass sich die Objekte um ihre ungefähre gemeinsame Mitte herum drehen, anstatt um die Ansichtsmitte Die GUI befindet sich standardmäßig rechts oben auf dem Bildschirm. Dieses Verhalten kann durch Bearbeiten geändert werden
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
 
-<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width   *480px;">  Mit drei Symbolen werden die Drehrichtungen symbolisiert. Eine ZIP-Datei mit diesen Symbolen finden Sie [here](http   *//forum.freecadweb.org/download/file.php?id=453), die Bilder sollten sich in dem Ordner befinden, der Ihre Makros enthält. Bitte zögern Sie nicht, bessere beizutragen!
+<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Mit drei Symbolen werden die Drehrichtungen symbolisiert. Eine ZIP-Datei mit diesen Symbolen finden Sie [here](http://forum.freecadweb.org/download/file.php?id=453), die Bilder sollten sich in dem Ordner befinden, der Ihre Makros enthält. Bitte zögern Sie nicht, bessere beizutragen!
 
 ## Code
 
-Die neueste Version des Makros finden Sie unter [ViewRotation.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist der [Addon-Manager](Std_AddonMgr/de.md).
+Die neueste Version des Makros finden Sie unter [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist der [Addon-Manager](Std_AddonMgr/de.md).
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 
 **Macro View Rotation.FCMacro** {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 #
 # FreeCAD macro ViewRotation.
 # This GUI allows the view to be rotated with more precision than when using
@@ -37,7 +37,7 @@ ToolBar Icon ![](images/Macro_View_Rotation.png )
 # approximate shared centre rather than the view centre.
 # The GUI defaults to the top right of the screen, this behaviour can be
 # changed by editing.
-# [http   *//forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012 View+Rotation]
+# [http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012 View+Rotation]
 
 from __future__ import division
 
@@ -46,8 +46,8 @@ __Comment__ = 'This GUI allows the view to be rotated precisely'
 __Author__ = 'Joe Dowsett'
 __Version__ = '1.0'
 __License__ = 'CC-BY-3.0'
-__Web__ = 'https   *//www.freecadweb.org/wiki/Macro_View_Rotation'
-__Wiki__ = 'https   *//www.freecadweb.org/wiki/Macro_View_Rotation'
+__Web__ = 'https://www.freecadweb.org/wiki/Macro_View_Rotation'
+__Wiki__ = 'https://www.freecadweb.org/wiki/Macro_View_Rotation'
 __Icon__ = ''
 __Help__ = 'Rotation is according to axes fixed with respect to the user.'
 __Status__ = ''
@@ -65,15 +65,15 @@ import FreeCAD as app
 import FreeCADGui as gui
 
 
-def get_macro_dir()   *
+def get_macro_dir():
     """Return the directory where macros are located"""
     default_macro_dir = os.path.join(app.ConfigGet('UserAppData'), 'Macro')
-    return app.ParamGet('User parameter   *BaseApp/Preferences/Macro').GetString('MacroPath', default_macro_dir)
+    return app.ParamGet('User parameter:BaseApp/Preferences/Macro').GetString('MacroPath', default_macro_dir)
 
 
-def find_centre()   *
+def find_centre():
     doc = app.activeDocument()
-    if doc is None   *
+    if doc is None:
         return app.Vector(0, 0, 0)
 
     xmax = 0
@@ -82,17 +82,17 @@ def find_centre()   *
     ymin = 0
     zmax = 0
     zmin = 0
-    for obj in doc.Objects   *
-        try   *
-            if obj.TypeId[   *4] == 'Mesh'   *
+    for obj in doc.Objects:
+        try:
+            if obj.TypeId[:4] == 'Mesh':
                 box = obj.Mesh.BoundBox
-            elif obj.TypeId[   *6] == 'Points'   *
+            elif obj.TypeId[:6] == 'Points':
                 box = obj.Points.BoundBox
-            elif obj.TypeId[   *4] == 'Part'   *
+            elif obj.TypeId[:4] == 'Part':
                 box = obj.Shape.BoundBox
-            else   *
+            else:
                 continue
-        except AttributeError   *
+        except AttributeError:
             continue
         xmax = max(xmax, box.XMax)
         xmin = min(xmin, box.XMin)
@@ -104,13 +104,13 @@ def find_centre()   *
     return app.Vector((xmax + xmin) / 2, (ymax + ymin) / 2, (zmax + zmin) / 2)
 
 
-class RotateGui(QtGui.QWidget)   *
-    def __init__(self)   *
+class RotateGui(QtGui.QWidget):
+    def __init__(self):
         super(RotateGui, self).__init__()
         self.init_ui()
         self.init_rotate()
 
-    def init_ui(self)   *
+    def init_ui(self):
         macro_dir = get_macro_dir()
         self.sliders = []
         self.line_edits = []
@@ -118,7 +118,7 @@ class RotateGui(QtGui.QWidget)   *
         vbox = QtGui.QVBoxLayout()
 
         icons = ('ViewRotationRight.png', 'ViewRotationUp.png', 'ViewRotationOut.png')
-        for icon in icons   *
+        for icon in icons:
             slider = QtGui.QSlider(QtCore.Qt.Horizontal, self)
             slider.setFocusPolicy(QtCore.Qt.NoFocus)
             slider.setSingleStep(5)
@@ -169,7 +169,7 @@ class RotateGui(QtGui.QWidget)   *
         self.setWindowTitle('Rotate view')
         self.show()
 
-    def init_rotate(self)   *
+    def init_rotate(self):
         self.internal = False
         self.current = 0
 
@@ -186,24 +186,24 @@ class RotateGui(QtGui.QWidget)   *
         self.config_direction(0)
 
 
-    def reset(self)   *
+    def reset(self):
         # Reset the view to the original one.
         self.cam.orientation = self.original_view
         self.cam.position = self.original_pos
         self.internal = True
-        for sld in self.sliders   *
+        for sld in self.sliders:
             sld.setValue(0)
         self.internal = False
-        for tbox in self.line_edits   *
+        for tbox in self.line_edits:
             tbox.setText("0")
         self.config_direction(0)
 
-    def cancel(self)   *
+    def cancel(self):
         self.reset()
         self.close()
 
 
-    def config_direction(self, i)   *
+    def config_direction(self, i):
         # Evaluate the vectors corresponding to the three directions for the
         # current view, and assign the i-th one to self.direction.
         self.view = self.cam.orientation.getValue()
@@ -222,10 +222,10 @@ class RotateGui(QtGui.QWidget)   *
 
         self.direction = [self.right, self.up, self.out][i]
 
-    def check(self, i)   *
+    def check(self, i):
         # Check if the direction of rotation has changed, if so then set
         # previous slider & textbox to zero, and setup the new direction.
-        if i != self.current   *
+        if i != self.current:
             self.internal = True
             self.sliders[self.current].setValue(0)
             self.line_edits[self.current].setText("0")
@@ -233,7 +233,7 @@ class RotateGui(QtGui.QWidget)   *
             self.current = i
             self.config_direction(i)
 
-    def rotate(self, value)   *
+    def rotate(self, value):
         # Carry out the desired rotation about self.direction.
         val = value*pi/180.0
         rot = coin.SbRotation(self.direction, -val)
@@ -242,27 +242,27 @@ class RotateGui(QtGui.QWidget)   *
         self.cam.orientation = nrot
         self.cam.position = prot
 
-    def valueChange(self, value)   *
+    def valueChange(self, value):
         # Respond to the change in value of a slider, update the corresponding
         # text box, check for a direction change then rotate
         # if the value was changed internally, ignore event.
-        if self.internal   *
+        if self.internal:
             return
 
         sender = self.sender()
-        for i in range(3)   *
-            if sender == self.sliders[i]   *
+        for i in range(3):
+            if sender == self.sliders[i]:
                 break
         self.line_edits[i].setText(str(value))
         self.check(i)
         self.rotate(value)
 
-    def valueEntered(self)   *
+    def valueEntered(self):
         # Respond to a value being entered in a text box, updating the
         # corresponding slider, check for direction change then rotate.
         sender = self.sender()
-        for i in range(3)   *
-            if sender == self.line_edits[i]   *
+        for i in range(3):
+            if sender == self.line_edits[i]:
                 break
         value = int(self.line_edits[i].text())
         self.internal = True
@@ -271,7 +271,7 @@ class RotateGui(QtGui.QWidget)   *
         self.check(i)
         self.rotate(value)
 
-if __name__ == '__main__'   *
+if __name__ == '__main__':
     # We need to set a variable, otherwise, the dialog doesn't appear.
     rotate = RotateGui()
 
@@ -287,7 +287,7 @@ am Ende der Funktion \'initUI\'. Die ersten beiden Argumente (rechts-300, 0) (Ze
 
 ## Diskussionsseite
 
-[View+Rotation](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+[View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
 
 
 

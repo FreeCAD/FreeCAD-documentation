@@ -1,6 +1,6 @@
 # Part Section/ro
 ---
-- GuiCommand   *   Name   *Part Section   MenuLocation   *Part → Section   Workbenches   *[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso   *[Cross-sections](Part_SectionCross.md)---
+- GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:[Cross-sections](Part_SectionCross.md)---
 
 
 </div>
@@ -43,30 +43,30 @@ Extrage o secțiune din intersecția a două forme selectate, cea de-a doua serv
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Base|Link**   * Link to the first object.
+-    **Base|Link**: Link to the first object.
 
--    **Tool|Link**   * Link to the second object.
+-    **Tool|Link**: Link to the second object.
 
 
 {{Properties_Title|Boolean}}
 
--    **History|ShapeHistory|hidden**   * \"Shape history\".
+-    **History|ShapeHistory|hidden**: \"Shape history\".
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Section}}
 
--    **Approximation|Bool**   * Approximate the output edges.
+-    **Approximation|Bool**: Approximate the output edges.
 
 ## Legături
 

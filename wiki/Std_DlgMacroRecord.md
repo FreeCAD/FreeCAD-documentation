@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std DlgMacroRecord
-   MenuLocation   *Macro → Macro recording...
-   Workbenches   *All
-   SeeAlso   *[Std MacroStopRecord](Std_MacroStopRecord.md)
+- GuiCommand:
+   Name:Std DlgMacroRecord
+   MenuLocation:Macro → Macro recording...
+   Workbenches:All
+   SeeAlso:[Std MacroStopRecord](Std_MacroStopRecord.md)
 ---
 
 # Std DlgMacroRecord
@@ -17,7 +17,7 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std DlgMacroRecord](Std_DlgMacroRecord.md)** button.
     -   Select the **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Macro recording...** option from the menu.
 2.  The Macro recording dialog box opens.
@@ -26,13 +26,13 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 5.  The **Stop** button does not work at this time.
 6.  Press the **Record** button to close the dialog box and start the recording session.
 7.  Perform the actions you want to record.
-8.  To end the recording session do one of the following   *
+8.  To end the recording session do one of the following:
     -   Press the **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** button.
     -   Select the **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Stop macro recording** option from the menu.
 
 ## Options
 
--   When the Macro recording dialog box is displayed   * press **Esc** or the **Cancel** button to abort the command.
+-   When the Macro recording dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
 
 ## Notes
 
@@ -41,8 +41,8 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 
 ## Preferences
 
--   The macro path can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
--   In most cases it is undesirable to record actions that do not change the model   * under **Edit → Preferences... → General → Macro → GUI commands** do one of the following   *
+-   The macro path can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → General → Macro → GUI commands** do one of the following:
     -   To exclude these actions uncheck the {{CheckBox|FALSE|Record GUI commands}} checkbox.
     -   To include them as comments only check both the {{CheckBox|TRUE|Record GUI commands}} and {{CheckBox|TRUE|Record as comment}} checkboxes.
 

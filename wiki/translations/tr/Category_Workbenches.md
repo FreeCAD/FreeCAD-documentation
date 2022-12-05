@@ -1,8 +1,6 @@
 # Category:Workbenches/tr
 Bu kategori de FreeCAD\'deki tezgahlar listelenmektedir.
 
-[Category   *User Documentation/tr](Category   *User_Documentation/tr.md)
-
 ### Contents
 
 |     |     |     |

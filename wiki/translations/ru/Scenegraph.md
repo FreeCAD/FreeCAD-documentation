@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Геометрия которая появляется в [трёхмерных видах](3D_view/ru.md) FreeCAD, получается с помощью библиотек [Coin3d](https   *//ru.wikipedia.org/wiki/Coin3D). Coin3D это реализация стандарта [OpenInventor](https   *//ru.wikipedia.org/wiki/Open_Inventor). [OpenCASCADE](https   *//ru.wikipedia.org/wiki/Open_Cascade_Technology) тоже поддерживает схожую функциональность, но при создании FreeCAD было решено не использовать встроенный в OpenCASCADE просмотрщик, а скорее перейти на более производительный Coin3D. Для изучения этой библиотеки рекомендуется книга [Open Inventor Mentor](http   *//www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/).
+Геометрия которая появляется в [трёхмерных видах](3D_view/ru.md) FreeCAD, получается с помощью библиотек [Coin3d](https://ru.wikipedia.org/wiki/Coin3D). Coin3D это реализация стандарта [OpenInventor](https://ru.wikipedia.org/wiki/Open_Inventor). [OpenCASCADE](https://ru.wikipedia.org/wiki/Open_Cascade_Technology) тоже поддерживает схожую функциональность, но при создании FreeCAD было решено не использовать встроенный в OpenCASCADE просмотрщик, а скорее перейти на более производительный Coin3D. Для изучения этой библиотеки рекомендуется книга [Open Inventor Mentor](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/).
 
 
 </div>
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[OpenInventor](https   *//ru.wikipedia.org/wiki/Open_Inventor) это язык описания [трёхмерной сцены](https   *//ru.wikipedia.org/wiki/Граф_сцены). Сцена, описанная в OpenInventor, затем отрисовывается OpenGL на вашем экране. Об этом заботится Coin3D, поэтому программисту не надо иметь дело со сложными вызовами OpenGL, он может просто предоставить корректный (работающий) код OpenInventor. Большим преимуществом является то, что OpenInventor это широко известный и хорошо задокументированный стандарт.
+[OpenInventor](https://ru.wikipedia.org/wiki/Open_Inventor) это язык описания [трёхмерной сцены](https://ru.wikipedia.org/wiki/Граф_сцены). Сцена, описанная в OpenInventor, затем отрисовывается OpenGL на вашем экране. Об этом заботится Coin3D, поэтому программисту не надо иметь дело со сложными вызовами OpenGL, он может просто предоставить корректный (работающий) код OpenInventor. Большим преимуществом является то, что OpenInventor это широко известный и хорошо задокументированный стандарт.
 
 
 </div>
@@ -32,7 +32,7 @@
 
 <div class="mw-translate-fuzzy">
 
-OpenInventor записывает трехмерную сцену в форме [древа сцен](https   *//ru.wikipedia.org/wiki/Граф_сцены), как показано ниже   *
+OpenInventor записывает трехмерную сцену в форме [древа сцен](https://ru.wikipedia.org/wiki/Граф_сцены), как показано ниже:
 
 
 </div>
@@ -45,7 +45,7 @@ OpenInventor записывает трехмерную сцену в форме 
 
 
 *
-Рисунок, взятый с сайта [http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
+Рисунок, взятый с сайта [http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
 
 
 </div>
@@ -53,7 +53,7 @@ OpenInventor записывает трехмерную сцену в форме 
 
 <div class="mw-translate-fuzzy">
 
-Дерево сцен в openInventor описывает все части трёхмерной сцены, такие как геометрия, цвета, материалы, освещение, и т.д. и организует все эти данные в удобной и четкой структуре. Все что угодно может быть сгруппировано в субструктуры, позволяя вам организовывать содержание вашей сцены тем способом, который вам нравится. Вот пример файла в формате openInventor   *
+Дерево сцен в openInventor описывает все части трёхмерной сцены, такие как геометрия, цвета, материалы, освещение, и т.д. и организует все эти данные в удобной и четкой структуре. Все что угодно может быть сгруппировано в субструктуры, позволяя вам организовывать содержание вашей сцены тем способом, который вам нравится. Вот пример файла в формате openInventor:
 
 
 </div>
@@ -97,7 +97,7 @@ Separator {
 
 <div class="mw-translate-fuzzy">
 
-Если вы заинтересованы в получении дополнительной информации о openInventor, отправляйтесь напрямую к самому известному руководству   * [Inventor mentor](http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html).
+Если вы заинтересованы в получении дополнительной информации о openInventor, отправляйтесь напрямую к самому известному руководству: [Inventor mentor](http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html).
 
 
 </div>
@@ -115,7 +115,7 @@ Separator {
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD обладает несколькими инструментами для просмотра и изменения openInventor кода. На пример, нижеследующий код на python отобразит openInventor представление выбранного объекта   *
+FreeCAD обладает несколькими инструментами для просмотра и изменения openInventor кода. На пример, нижеследующий код на python отобразит openInventor представление выбранного объекта:
 
 
 </div>
@@ -138,15 +138,7 @@ print viewprovider.toString()
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https   *//github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https://github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
 
 
 

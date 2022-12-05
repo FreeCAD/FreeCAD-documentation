@@ -1,8 +1,6 @@
 # Category:BIM/ja
 This category is for pages related to building information management (BIM).
 
-[Category   *User Documentation/ja](Category   *User_Documentation/ja.md)
-
 ### Contents
 
 |     |     |     |

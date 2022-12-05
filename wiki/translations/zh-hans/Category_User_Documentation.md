@@ -1,8 +1,6 @@
 # Category:User Documentation/zh-hans
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-[Category   *Documentation/zh-hans](Category   *Documentation/zh-hans.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */de
-   Name   *FEM Analysis
-   Name/de   *FEM Analyse
-   MenuLocation   *Modell → Analyse-Container‏‎
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   ***S** **A**
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM Analysis
+   Name/de:FEM Analyse
+   MenuLocation:Modell → Analyse-Container‏‎
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Shortcut:**S** **A**
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM Analysis/de
 
 ## Beschreibung
 
-Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Objekte einer Finite Element Analyse aufnimmt. Es ist obligatorisch, einen Analysecontainer zu haben, der alle benötigten Objekte enthält. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt   *
+Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Objekte einer Finite Element Analyse aufnimmt. Es ist obligatorisch, einen Analysecontainer zu haben, der alle benötigten Objekte enthält. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt:
 
 -   Ein [Material](FEM_MaterialSolid/de.md)
 -   Randbedingungen zur [Befestigung](FEM_ConstraintFixed/de.md) (Einspannung)
@@ -20,7 +20,7 @@ Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Obj
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_Analysis.svg" width=16px> [Analyse-Container](FEM_Analysis/de.md)** drücken.
     -   Den Menüeintrag **Modell → <img src="images/FEM_Analysis.svg" width=16px> Analyse-Container‏‎** auswählen.
     -   Das Tastaturkürzel **S** dann **A**.
@@ -34,7 +34,7 @@ Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Obj
 
 ## Eigenschaften
 
--    **OutpuDir**   * Gibt das Arbeitsverzeichnis der Analyse an
+-    **OutpuDir**: Gibt das Arbeitsverzeichnis der Analyse an
 
 ## Skripten
 
@@ -63,7 +63,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Beispiele   * 
+Beispiele: 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

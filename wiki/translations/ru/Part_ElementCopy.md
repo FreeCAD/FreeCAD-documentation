@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать копию элемента формы
-   Name   *Part_ElementCopy
-   MenuLocation   *Деталь → Создать копию → Создать копию элемента формы
-   Workbenches   *[Part](Part_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
+- GuiCommand:/ru
+   Name/ru:Создать копию элемента формы
+   Name:Part_ElementCopy
+   MenuLocation:Деталь → Создать копию → Создать копию элемента формы
+   Workbenches:[Part](Part_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part ElementCopy/ru
@@ -20,7 +20,7 @@ To produce complete non-parametric copies of the objects use **<img src="images/
 ## Применение
 
 1.  Select a vertex, edge, or face of an object for which you wish to make a copy.
-2.  Go to the menu **Part → Create a copy → [<img src=images/Part_ElementCopy.svg style="width   *16px"> [Create shape element copy](Part_ElementCopy.md)**.
+2.  Go to the menu **Part → Create a copy → [<img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy.md)**.
 
 ## Свойства
 

@@ -3,10 +3,10 @@ FreeCAD поддерживает некоторые специальные вх�
 
 ## Поддерживаемая аппаратура 
 
--   3Dconnexion [SpaceNavigator](http   *//www.3dconnexion.com/products/spacenavigator.html)
-    -   Инструкции по установке   * [3Dconnexion input devices/ru](3Dconnexion_input_devices/ru.md)
+-   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
+    -   Инструкции по установке: [3Dconnexion input devices/ru](3Dconnexion_input_devices/ru.md)
 
-[category   *Documentation](category_Documentation.md)
+[category:Documentation](category_Documentation.md)
 
 
 

@@ -1,13 +1,13 @@
 # Macro Zoom1 1
 {{Macro
-|Name=Zoom 1   *1
+|Name=Zoom 1:1
 |Icon=Zoom1_1.svg
-|Description=1   *1 Zooming so objects appear their actual size on the screen.
+|Description=1:1 Zooming so objects appear their actual size on the screen.
 |Author=TheMarkster
 |Version=1.0
 |Date=2021-11-9
 |FCVersion=Python3+
-|Download=[https   *//wiki.freecadweb.org/File   *Zoom1_1.svg ToolBar Icon]
+|Download=[https://wiki.freecadweb.org/File:Zoom1_1.svg ToolBar Icon]
 }}
 
 ## Description
@@ -36,14 +36,14 @@ Care must be taken when holding up objects or attempting to measure things on th
 
 ## Script
 
-The macro icon  <img alt="" src=images/Zoom1_1.svg  style="width   *48px;">
+The macro icon  <img alt="" src=images/Zoom1_1.svg  style="width:48px;">
 
 **Zoom1_1.FCMacro**
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
-#Zoom 1   *1 macro
+# -*- coding: utf-8 -*-
+#Zoom 1:1 macro
 #2021, by <TheMarkster>, based on work of kisolre
 #Attempts to zoom 3D view such that objects on the screen
 #appear to be their actual size
@@ -60,7 +60,7 @@ from PySide import QtGui, QtCore
 
 __version__ = "1.0"
 
-def zoomActual(tweak=1.0)   *
+def zoomActual(tweak=1.0):
     gv = av.graphicsView()
     height = gv.heightMM()
     width = gv.widthMM()
@@ -68,21 +68,21 @@ def zoomActual(tweak=1.0)   *
     node.height.setValue(tweak*min(width,height))
 
 doc = FreeCAD.ActiveDocument
-if not doc   *
+if not doc:
     doc = FreeCAD.newDocument()
     FreeCAD.Console.PrintMessage("No document, creating one.\n")
 av = FreeCADGui.activeView()
-pg = FreeCAD.ParamGet("User parameter   *Plugins/Zoom1_1_Macro")
+pg = FreeCAD.ParamGet("User parameter:Plugins/Zoom1_1_Macro")
 tweak = pg.GetFloat("Tweak",1.0)
-if hasattr(av,"graphicsView") and hasattr(av.getCameraNode(),"height")   *
+if hasattr(av,"graphicsView") and hasattr(av.getCameraNode(),"height"):
     zoomActual(tweak)
     modifiers = QtGui.QApplication.keyboardModifiers()
-    if modifiers == QtCore.Qt.ControlModifier   *
+    if modifiers == QtCore.Qt.ControlModifier:
         visible = [obj for obj in doc.Objects if hasattr(obj,"ViewObject") and obj.ViewObject.Visibility == True]
-        for obj in doc.Objects   *
-            if hasattr(obj,"ViewObject")   *
+        for obj in doc.Objects:
+            if hasattr(obj,"ViewObject"):
                 obj.ViewObject.Visibility = False
-        cube = doc.addObject("Part   *   *Box","TemporaryCalibrationCube")
+        cube = doc.addObject("Part::Box","TemporaryCalibrationCube")
         cube.Length = cube.Height = cube.Width = 100
         cube.ViewObject.DisplayMode = "Shaded"
         av.viewFront()
@@ -100,25 +100,25 @@ You can move this dialog if necessary, but be sure not to zoom\n\
 in or out before measuring the cube. If the cube does not fit\n\
 cancel this dialog, resize the 3D view, and try again.\n\
 \n\
-Enter measured Cube Width or Height (in MM)   *n"
+Enter measured Cube Width or Height (in MM):\n"
         win = FreeCADGui.getMainWindow()
         title = "Zoom1_1 macro v"+__version__
         dlg = QtGui.QInputDialog()
         usertweak,ok = dlg.getDouble(win,title,text,100.0)
         doc.removeObject(cube.Name)
-        for obj in visible   *
+        for obj in visible:
             obj.ViewObject.Visibility = True
-        if not ok   *
+        if not ok:
             FreeCAD.Console.PrintMessage("Canceled, keeping current tweak value\n")
-        else   *
+        else:
             tweak = usertweak/100.0
             pg.SetFloat("Tweak", tweak)
             zoomActual(tweak)
-    FreeCAD.Console.PrintMessage("Zoom 1   *1 macro -- Ctrl + execute to calibrate, if necessary\n")
+    FreeCAD.Console.PrintMessage("Zoom 1:1 macro -- Ctrl + execute to calibrate, if necessary\n")
     FreeCAD.Console.PrintMessage("Tweak = "+str(tweak)+"\n")
-elif not hasattr(av.getCameraNode(),"height")   *
-    FreeCAD.Console.PrintError("Error   * Only orthographic camera types are supported.\n")
-else   *
+elif not hasattr(av.getCameraNode(),"height"):
+    FreeCAD.Console.PrintError("Error: Only orthographic camera types are supported.\n")
+else:
     FreeCAD.Console.PrintError("Error acquiring QGraphicsView. You might need to update your version of FreeCAD.\n")
 }}
 

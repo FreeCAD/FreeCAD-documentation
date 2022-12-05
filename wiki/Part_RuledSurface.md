@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part RuledSurface
-   MenuLocation   *Part → RuledSurface
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part MakeFace](Part_MakeFace.md)
+- GuiCommand:
+   Name:Part RuledSurface
+   MenuLocation:Part → RuledSurface
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part MakeFace](Part_MakeFace.md)
 ---
 
 # Part RuledSurface
@@ -16,8 +16,8 @@ Create ruled surface
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
-    -   Press the <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> [Part RuledSurface](Part_RuledSurface.md) button
+1.  There are several ways to invoke the command:
+    -   Press the <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) button
     -   Use the **Part → RuledSurface** entry in the Part menu
 
 ## Notes

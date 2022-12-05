@@ -1,7 +1,7 @@
 # Release notes 0.12/ru
-Это краткое изложение наиболее интересных изменений произошедших в последней версии FreeCAD. Для получения подробной списка изменений смотри [сюда](http   *//www.freecadweb.org/tracker/changelog_page.php).
+Это краткое изложение наиболее интересных изменений произошедших в последней версии FreeCAD. Для получения подробной списка изменений смотри [сюда](http://www.freecadweb.org/tracker/changelog_page.php).
 
-Предыдущие версии   * [0.11](Release_notes_0.11.md)
+Предыдущие версии: [0.11](Release_notes_0.11.md)
 
 ### Стартовая страница 
 
@@ -11,7 +11,7 @@
 
 ### Sketcher & PartDesign 
 
-<img alt="" src=images/Rim_bling.png  style="width   *800px;">
+<img alt="" src=images/Rim_bling.png  style="width:800px;">
 
 -   [Инструментарий эскизов](Sketcher_Workbench.md) подвергся серьезным изменениям по сравнению с предыдущей версией, и теперь он основывается на новом решателе ограничений, написанном для этой задачи с нуля . Инструментарий эскизов теперь может выполнять практически все операции 2D черчения [Чертежного модуля](Draft_Workbench.md) и обладает широким спектром ограничений для элементов эскиза.
 
@@ -23,9 +23,9 @@
 
 ![](images/Arch_screenshot.jpg )
 
--   Архитектурный модуль также обладает возможность импорта из [IFC](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) , экспорта и импорта из [DAE (collada)](http   *//en.wikipedia.org/wiki/Collada), и специального экспортера в [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) который больше подходит для архитектурных моделей, чем стандартный тип файлов.
+-   Архитектурный модуль также обладает возможность импорта из [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) , экспорта и импорта из [DAE (collada)](http://en.wikipedia.org/wiki/Collada), и специального экспортера в [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) который больше подходит для архитектурных моделей, чем стандартный тип файлов.
 
--   В Архитектурный модуль также включена растущая коллекция инструментов упрощающих работу с Mesh(полигональными) объектами из других приложений таких как [Blender](http   *//www.blender.org) . Mesh объекты, если они хорошо смоделированы, могут быть легко и автоматически превращены в чистые формы, и затем в параметрические Arch объекты.
+-   В Архитектурный модуль также включена растущая коллекция инструментов упрощающих работу с Mesh(полигональными) объектами из других приложений таких как [Blender](http://www.blender.org) . Mesh объекты, если они хорошо смоделированы, могут быть легко и автоматически превращены в чистые формы, и затем в параметрические Arch объекты.
 
 ### Черчение
 
@@ -45,8 +45,6 @@
 
 
 {{languages | {{en|Release_notes_0.12}} {{es|Release_notes_0.12/es}} {{fr|Release_notes_0.12/fr}} {{it|Release_notes_0.12/it}} {{pl|Release_notes_0.12/pl}} }}
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

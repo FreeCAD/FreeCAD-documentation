@@ -1,9 +1,9 @@
 # Online Help Toc/fr
-Ceci est la table des matières utilisée pour la construction automatique du **système d'aide en ligne** de FreeCAD. Une version imprimable de ce manuel est aussi disponible sur la page [diffusion de versions](https   *//github.com/FreeCAD/FreeCAD/releases). Si vous avez des questions ou avez besoin d\'aide pour FreeCAD, veuillez consulter la [page d\'aide](Help/fr.md), y compris les forums et les groupes de discussion.
+Ceci est la table des matières utilisée pour la construction automatique du **système d'aide en ligne** de FreeCAD. Une version imprimable de ce manuel est aussi disponible sur la page [diffusion de versions](https://github.com/FreeCAD/FreeCAD/releases). Si vous avez des questions ou avez besoin d\'aide pour FreeCAD, veuillez consulter la [page d\'aide](Help/fr.md), y compris les forums et les groupes de discussion.
 
-Il existe une autre table des matières pour le [Manuel    * Introduction à FreeCAD](Manual   *Introduction/fr.md).
+Il existe une autre table des matières pour le [Manuel : Introduction à FreeCAD](Manual:Introduction/fr.md).
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Introduction
     -   [Bienvenue](Online_Help_Startpage/fr.md)
@@ -24,30 +24,30 @@ Il existe une autre table des matières pour le [Manuel    * Introduction à Fre
 
 -   Les [Ateliers](Workbenches/fr.md)
 
--   -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Outils standard pour tous les Ateliers](Std_Base/fr.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Atelier Arch](Arch_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> [Atelier Draft](Draft_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Atelier FEM](FEM_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> [Atelier Image](Image_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> [Atelier Inspection](Inspection_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> [Atelier Mesh](Mesh_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> [Atelier OpenSCAD](OpenSCAD_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [Atelier Part](Part_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Atelier Path](Path_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Plot.svg  style="width   *32px;"> [Atelier Plot](Plot_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> [Atelier Points](Points_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> [Atelier Raytracing](Raytracing_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> [Atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> [Atelier Robot](Robot_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> [Atelier Ship](Ship_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Atelier Sketcher](Sketcher_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> [Atelier Spreadsheet](Spreadsheet_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> [Atelier Start](Start_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> [Atelier Surface](Surface_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> [Atelier TechDraw](TechDraw_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [Atelier Test](Testing/fr.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;"> [Atelier Web](Web_Workbench/fr.md)
+-   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Outils standard pour tous les Ateliers](Std_Base/fr.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Atelier Arch](Arch_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Atelier Draft](Draft_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Atelier Image](Image_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Atelier Inspection](Inspection_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Atelier Mesh](Mesh_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [Atelier OpenSCAD](OpenSCAD_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Atelier Part](Part_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Atelier Path](Path_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Plot.svg  style="width:32px;"> [Atelier Plot](Plot_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Atelier Points](Points_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Atelier Raytracing](Raytracing_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Atelier Robot](Robot_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Atelier Ship](Ship_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Atelier Sketcher](Sketcher_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Atelier Spreadsheet](Spreadsheet_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Atelier Start](Start_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Atelier Surface](Surface_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Atelier TechDraw](TechDraw_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Atelier Test](Testing/fr.md)
+    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Atelier Web](Web_Workbench/fr.md)
     -   [Ateliers externes](External_workbenches/fr.md)
 
 -   [Liste des commandes de FreeCAD](List_of_Commands/fr.md)
@@ -105,17 +105,12 @@ Il existe une autre table des matières pour le [Manuel    * Introduction à Fre
         -   [Création d\'atelier](Workbench_creation/fr.md)
         -   [Modules Python supplémentaires](Extra_python_modules/fr.md)
     -   [Documentation du code source](Source_documentation/fr.md)
-    -   [API](https   *//www.freecadweb.org/api/)
+    -   [API](https://www.freecadweb.org/api/)
 
 -   Crédits
     -   [Contributeurs](Contributors/fr.md)
 
 -   [Glossaire](Glossary/fr.md)
-
-
-
-
-[Category   *Documentation](Category_Documentation.md)
 
 
 

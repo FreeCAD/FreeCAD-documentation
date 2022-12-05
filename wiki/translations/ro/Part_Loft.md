@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Part Loft
-   Name/ro   *Part Loft
-   MenuLocation   *Part → Loft...
+- GuiCommand:/ro
+   Name:Part Loft
+   Name/ro:Part Loft
+   MenuLocation:Part → Loft...
 |
-   Workbenches   *[Part](Part_Workbench/ro.md)
-   SeeAlso   *[Part Sweep](Part_Sweep/ro.md)
+   Workbenches:[Part](Part_Workbench/ro.md)
+   SeeAlso:[Part Sweep](Part_Sweep/ro.md)
 ---
 
 # Part Loft/ro
@@ -44,7 +44,7 @@ Dacă \"Solid\" are valoarea \"true\" FreeCAD creează un solid dacă profilele 
 
 <div class="mw-translate-fuzzy">
 
-Dacă este true\" , \"Ruled\" FreeCAD creează o fațetă, fațetele sau solidele din suprafețele riglate. [Ruled surface page on Wikipedia.](http   *//en.wikipedia.org/wiki/Ruled_surface)
+Dacă este true\" , \"Ruled\" FreeCAD creează o fațetă, fațetele sau solidele din suprafețele riglate. [Ruled surface page on Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
 
 
 </div>
@@ -135,7 +135,7 @@ Instrumentul Loft este în Atelierul Part Workbench, meniul Part -\> Loft\... sa
 
 <div class="mw-translate-fuzzy">
 
-In the \"Tasks\" will be two lists   * \"node / wire\" and \"free form\".
+In the \"Tasks\" will be two lists: \"node / wire\" and \"free form\".
 
 
 </div>
@@ -169,7 +169,7 @@ The selected items must be of the same type.
 
 <div class="mw-translate-fuzzy">
 
-Tip   * the active / selected items in the list are displayed in the 3D area as active / selected.
+Tip: the active / selected items in the list are displayed in the 3D area as active / selected.
 
 
 </div>

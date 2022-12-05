@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Assembly3 ConstraintEqualLength
-   Name/fr   *Assembly3 Contrainte égalité longueur
-   Icon   *Assembly_ConstraintEqualLength.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Assembly3 ConstraintEqualLength
+   Name/fr:Assembly3 Contrainte égalité longueur
+   Icon:Assembly_ConstraintEqualLength.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintEqualLength/fr
@@ -22,9 +22,9 @@ La valeur de la longueur de la première ligne sélectionnée est égale à la v
 2.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintEqualLength.svg" width=16px> [Equal length](Assembly3_ConstraintEqualLength/fr.md)**.
 3.  Appuyez sur le bouton **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Solve constraints](Assembly3_ResolveConstraints/fr.md)** ou sur le bouton **<img src="images/Assembly_QuickSolve.svg" width=16px> [Quick solve](Assembly3_QuickSolve/fr.md)** pour recalculer.
 
-   *   
+:   
 
-       *   (si **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute/fr.md)** et **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute/fr.md)** sont désactivés).
+    :   (si **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute/fr.md)** et **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute/fr.md)** sont désactivés).
 
 
 

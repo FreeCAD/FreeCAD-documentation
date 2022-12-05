@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std TransformManip
-   Name/de   *Std Bewegen
-   MenuLocation   *Rechtsklick auf ein Objekt in der Baumansicht → Transformieren
+- GuiCommand:/de
+   Name:Std TransformManip
+   Name/de:Std Bewegen
+   MenuLocation:Rechtsklick auf ein Objekt in der Baumansicht → Transformieren
 Bearbeiten → Transformieren
-   Workbenches   *Alle
-   SeeAlso   *[Std Basis](Std_Base/de.md)
+   Workbenches:Alle
+   SeeAlso:[Std Basis](Std_Base/de.md)
 ---
 
 # Std TransformManip/de
@@ -28,7 +28,7 @@ Mit diesem Werkzeug können Rotations- und/oder Verschiebungswerte von Objekten 
 
 -   Sobald das Objekt in der [3D-Ansicht](3D_view/de.md) verschoben/gedreht wird, werden diese Änderungen übernommen.
 -   Es gibt keine Taste zum Abbrechen. Durch Betätigen der **OK**-Schaltfläche wird nur die Anwendung verlassen.
--   Es ist möglich, durch Beätigen der Schaltfläche <img alt="" src=images/Std_Undo.svg  style="width   *20px;"> [Std Rückgängig](Std_Undo/de.md) nachträglich zurückzubauen.
+-   Es ist möglich, durch Beätigen der Schaltfläche <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Std Rückgängig](Std_Undo/de.md) nachträglich zurückzubauen.
 
 Die Wertefelder sind für inkrementellen Parameter, jedoch nicht für absolute Werte.
 

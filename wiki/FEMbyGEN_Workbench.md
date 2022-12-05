@@ -1,4 +1,4 @@
-# <img alt="FEMbyGEN Workbench icon" src=images/FEMbyGEN.svg  style="width   *64px;"> FEMbyGEN Workbench
+# <img alt="FEMbyGEN Workbench icon" src=images/FEMbyGEN.svg  style="width:64px;"> FEMbyGEN Workbench
 
  
 
@@ -6,7 +6,7 @@
 
 FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best solution by showing the structural behavior of your designs on screen for parametric analysis and multiple loading situations.
 
- <img alt="" src=images/Generative_Design.png  style="width   *512px;"> 
+ <img alt="" src=images/Generative_Design.png  style="width:512px;"> 
 
 ### Intended work-flow 
 
@@ -41,11 +41,11 @@ FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best s
 
 ### Addon Manager 
 
-FEMbyGEN can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu.
+FEMbyGEN can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu.
 
 FEMbyGEN is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**.
 
-The FEMbyGEN code is hosted and developed [FEMbyGEN on GitHub.com](https   *//github.com/Serince/FEMbyGEN).
+The FEMbyGEN code is hosted and developed [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN).
 
 ### Manual
 
@@ -57,14 +57,10 @@ See [How to install additional workbenches](How_to_install_additional_workbenche
 
 ## References
 
--   Author   * Serdar Ince, Ögeday Yavuz, Rahul Jhuree
--   Source code   * [FEMbyGEN on GitHub.com](https   *//github.com/Serince/FEMbyGEN)
--   FreeCAD Forum   * <https   *//forum.freecadweb.org/viewtopic.php?p=626306>
--   Report bugs   * Please report bugs at [FEMbyGEN on GitHub.com](https   *//github.com/Serince/FEMbyGEN/issues)
-
-
-
-[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+-   Author: Serdar Ince, Ögeday Yavuz, Rahul Jhuree
+-   Source code: [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN)
+-   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?p=626306>
+-   Report bugs: Please report bugs at [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN/issues)
 
 
 

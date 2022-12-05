@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std Edit
-   Name/de   *Std Bearbeiten
-   MenuLocation   *Bearbeiten → Umschalten Bearbeitungsmodus
-   Workbenches   *Alle
-   SeeAlso   *[Std BenutzerBearbeitungsModus](Std_UserEditMode/de.md)
+- GuiCommand:/de
+   Name:Std Edit
+   Name/de:Std Bearbeiten
+   MenuLocation:Bearbeiten → Umschalten Bearbeitungsmodus
+   Workbenches:Alle
+   SeeAlso:[Std BenutzerBearbeitungsModus](Std_UserEditMode/de.md)
 ---
 
 # Std Edit/de
@@ -15,7 +15,7 @@ Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus e
 
 ## Anwendung
 
-1.  Falls kein Objekt im Bearbeitungsmodus ist   * wähle ein einzelnes Objekt.
+1.  Falls kein Objekt im Bearbeitungsmodus ist: wähle ein einzelnes Objekt.
 2.  Wähle die **Bearbeiten → <img src="images/Std_Edit.svg" width=16px> Bearbeitungsmodus umschalten**-Option aus dem Menü.
 3.  Entweder wird der vorgegebene Bearbeitungsmodus des gewählten Objekts aktiviert oder der bestehende Bearbeitungsmodus wird deaktiviert.
 
@@ -29,7 +29,7 @@ Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus e
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -42,7 +42,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-Das zweite Argument ist der EditMode. Die folgenden Optionen sind verfügbar   *
+Das zweite Argument ist der EditMode. Die folgenden Optionen sind verfügbar:
 
 0 = Default
 1 = Transform

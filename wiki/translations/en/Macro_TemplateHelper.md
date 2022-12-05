@@ -15,50 +15,50 @@ This macro generates a TechDraw template on the fly and inserts it into the acti
 
 If you wish, you can fill the space between the title block and the upper border of the drawing area with a BOM. You choose how many lines you need or if you fill the whole space.
 
-<img alt="" src=images/Macro_TemplateHelper_A3+BOM.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_TemplateHelper_A3+BOM.png  style="width:480px;"> 
 *Page with macro generated template, ISO A3 + bill of material*
 
 ## Usage
 
 1.  Open a FreeCAD file or add a new one.
-2.  Find the macro file in your macro directory using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Macros\...](Std_DlgMacroExecute.md) and select it.
+2.  Find the macro file in your macro directory using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macros\...](Std_DlgMacroExecute.md) and select it.
 
-       *   (The Script section below describes how to put it there.)
+    :   (The Script section below describes how to put it there.)
 3.  Press **Execute** to start the macro.
 4.  Select the page format.
 5.  Select the language for the title block.
-6.  If you need a BOM change the number of rows   *
+6.  If you need a BOM change the number of rows:
 
-       *   You can use the right mouse button to reset to 0 or
-       *   to set the maximum number of rows that fits on your chosen page size.
+    :   You can use the right mouse button to reset to 0 or
+    :   to set the maximum number of rows that fits on your chosen page size.
 7.  Click **OK** to finish.
 
 ## Dialogue window 
 
-<img alt="" src=images/Macro_TemplateHelper_DiaWin.png  style="width   *240px;"> 
+<img alt="" src=images/Macro_TemplateHelper_DiaWin.png  style="width:240px;"> 
 *Dialogue window on launch*
 
-<img alt="" src=images/Macro_TemplateHelper_DiaLang.png  style="width   *240px;"> 
+<img alt="" src=images/Macro_TemplateHelper_DiaLang.png  style="width:240px;"> 
 *Language options*
 
-English is default and just one version, but maybe someone likes to distinguish \'merican and bri\'ish English in the future\...    *-D
+English is default and just one version, but maybe someone likes to distinguish \'merican and bri\'ish English in the future\... :-D
 
-<img alt="" src=images/Macro_TemplateHelper_DiaSize.png  style="width   *240px;"> 
+<img alt="" src=images/Macro_TemplateHelper_DiaSize.png  style="width:240px;"> 
 *Format options*
 
-<img alt="" src=images/Macro_TemplateHelper_DiaBOM.png  style="width   *240px;"> 
+<img alt="" src=images/Macro_TemplateHelper_DiaBOM.png  style="width:240px;"> 
 *BOM options*
 
 ## Script
 
-The Macro should be found in the macro directory. To put it there, you need to   *
+The Macro should be found in the macro directory. To put it there, you need to:
 
 1.  Select the macro below (from **#! pyth\...** to **\...main()**).
 2.  Copy the selection.
-3.  Create a new macro file using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Macros\...](Std_DlgMacroExecute.md) and select **Create**.
+3.  Create a new macro file using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macros\...](Std_DlgMacroExecute.md) and select **Create**.
 4.  Type in the name (TemplateHelper) and select **OK**. (*.FCMacro* is added automatically.)
 5.  Paste the clipboard content into the Editor window.
-6.  Press <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *16px;"> [Execute macro](Std_DlgMacroExecuteDirect.md) to start the macro.
+6.  Press <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> [Execute macro](Std_DlgMacroExecuteDirect.md) to start the macro.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -71,14 +71,14 @@ The Macro should be found in the macro directory. To put it there, you need to  
 
 {{MacroCode|code=
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 <FBXL5>, LGPL
 # Thanks to WRS for some very helpful suggestions.
 """
 This script generates or overwrites a TechDraw Template file (MyTemplate.svg)
 and then adds it to the active FreeCAD document.
 
-GUI section   *
+GUI section:
 1. It reads the Language parameter from the preferences to customise the
    user interface (DE and EN are finished and I tried my best with IT and FR)
 2. It checks if you have assigned a template directory in your TechDraw preferences yet!
@@ -93,20 +93,20 @@ GUI section   *
    of rows which was set when the format was chosen.
 7. You can choose to cancel or to execute the creation.
 
-Template creation   *
+Template creation:
 8. A template file (MyTemplate.svg) will be generated and
    saved into your template directory. (You can use it like any other template
    or save it for later reuse until it is overwritten by the next macro run)
 
-Insertion sction   *
+Insertion sction:
 9.  It adds new page object and a new temlate object to the active FreeCAD file.
 10. "MyTemplate.svg" is loaded into the templated object.
-11. Some editable texts are altered depending on allready existing pages   *
-    On all first page   *
+11. Some editable texts are altered depending on allready existing pages:
+    On all first page:
     - author's name
     - date of creation (current date)
     - format
-    On any but the first page these are copied from the first page to the current   *
+    On any but the first page these are copied from the first page to the current:
     - Owner's details
     - Copyright info
     - Title and part number
@@ -124,11 +124,11 @@ Some entries could be handled by follow-up macros now.
     The previously generated editable texts will slip to the
 !!! current positions of the newly generated ones
 
-I have tried to follow this naming rule   *
- class names   *    CamelCase
- function names   * mixedCase
- constant names   * ALL_CAPITAL + underscore
- variable names   * lower_case + underscore
+I have tried to follow this naming rule:
+ class names:    CamelCase
+ function names: mixedCase
+ constant names: ALL_CAPITAL + underscore
+ variable names: lower_case + underscore
 """
 
 __Name__= "Template Helper"
@@ -138,13 +138,13 @@ __Version__ = "00.01.00"
 __Date__    = "2021-06-20"
 __License__ = "LGPL-2.0-or-later as FreeCAD"
 __Web__ = ""
-__Wiki__ = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_TemplateHelper"
+__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_TemplateHelper"
 __Icon__  = ""
 __IconW__  = ""
 __Help__ = "Start the macro and see what happens"
 __Status__ = "Alpha"
 __Requires__ = "FreeCAD >= 0.19 + Python3 "
-__Communication__ = "http   *//www.freecadweb.org/wiki/index.php?title=User   * FBXL5"
+__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User: FBXL5"
 __Files__ = ""
 
 # imports and constants
@@ -155,7 +155,7 @@ from PySide2.QtWidgets import (QDialog, QPushButton, QLabel, QComboBox,
 
 # - SVG creation -
 
-class ToteBag   *
+class ToteBag:
     pass
 # This class is empty to act as a container for several variables
 
@@ -165,24 +165,24 @@ title_block = ToteBag()  #- one bag for title block static texts
 bom_list = ToteBag()     #- one bag for bill of material
 owner_data = ToteBag()   #- one bag for owner's data and copyright info
 
-class InputWindow(QDialog)   *
+class InputWindow(QDialog):
     """
     docstring for InputWindow.
     """
-    def __init__(self)   *
+    def __init__(self):
         super(InputWindow, self).__init__()
         self.initUI()
 
-    def initUI(self)   *
+    def initUI(self):
         # set some defaut values
         #- Get the path to the template folder that is set in the FreeCAD parameters
-        parameter_path = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Mod/TechDraw/Files")
+        parameter_path = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/TechDraw/Files")
         template_path = parameter_path.GetString("TemplateDir")
         template_name = "MyTemplate.svg"
         #- Link template_path and template_name for any OS
         self.template_file = os.path.join(template_path, template_name)
 
-        parameter_path = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/General")
+        parameter_path = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/General")
         app_language = parameter_path.GetString("Language")
         self.setWindowTexts(app_language)
 
@@ -194,24 +194,24 @@ class InputWindow(QDialog)   *
         self.setWindowTitle(self.text_window)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
-        if template_path == ""   *
+        if template_path == "":
             # create some labels
             self.text_template_directory = ("" +
             "You haven't assigned a template directory \n" +
             "in your TechDraw preferences yet! \n\n" +
-            "Have a look at   * \n Preferenes \n - TechDraw \n - " +
+            "Have a look at: \n Preferenes \n - TechDraw \n - " +
             "General \n - Template Directory")
             self.label_format = QLabel(self.text_template_directory, self)
             self.label_format.setStyleSheet("""
-                background-color   * #f0ddbb;
-                font-size   * 14px;
+                background-color: #f0ddbb;
+                font-size: 14px;
                 """)
             #- OK button
             self.ok_button = QPushButton(self.text_ok, self)
             self.ok_button.clicked.connect(self.onCancel)
             self.ok_button.move(200, 300)
 
-        elif FreeCAD.activeDocument() == None   *
+        elif FreeCAD.activeDocument() == None:
             # create some labels
             self.text_template_directory = ("" +
             "No active FreeCAD file found! \n\n" +
@@ -219,15 +219,15 @@ class InputWindow(QDialog)   *
             "launching this macro. \n")
             self.label_format = QLabel(self.text_template_directory, self)
             self.label_format.setStyleSheet("""
-                background-color   * #f0ddbb;
-                font-size   * 22px;
+                background-color: #f0ddbb;
+                font-size: 22px;
                 """)
             #- OK button
             self.ok_button = QPushButton(self.text_ok, self)
             self.ok_button.clicked.connect(self.onCancel)
             self.ok_button.move(200, 300)
 
-        else   *
+        else:
             # create some labels
             self.label_format = QLabel(self.text_format, self)
             self.label_format.move(20, 90)
@@ -296,8 +296,8 @@ class InputWindow(QDialog)   *
         # now make the window visible
         self.show()
 
-    def setWindowTexts(self, lang)   *
-        if lang == "German"   *
+    def setWindowTexts(self, lang):
+        if lang == "German":
             self.text_format   = "Gewünschtes Blattformat \nauswählen"
             self.text_language = "Sprache für Schriftfeld \nund Stückliste auswählen"
             self.text_bom      = ("Bei Bedarf \nAnzahl erforderlicher"+
@@ -314,7 +314,7 @@ class InputWindow(QDialog)   *
             self.tooltip_language = "Sprache des Schriftfeldes auswählen"
             self.tooltip_bom      = ("Die Anzahl der \nStücklistenzeilen"+
             " \neingeben oder  mit \nder rechten Maustaste \n\"Keine\" oder \n\"Maximal\" auswählen")
-        elif lang == "French"   *
+        elif lang == "French":
             self.text_format   = "Sélectionnez le format \nde page de votre choix"
             self.text_language = "Sélectionnez language de le \ncartouche et la liste des pièces"
             self.text_bom      = "Entrer nombre de lignes \npour la liste des pièces, \nau besoin"
@@ -329,7 +329,7 @@ class InputWindow(QDialog)   *
             self.tooltip_language = "Select language of the title block"
             self.tooltip_bom      = ("Enter the number \nof BOM rows or use \n"+
             "right mouse buton \nto select \"Aucun\" or \n\"Maximum\"")
-        elif lang == "Italian"   *
+        elif lang == "Italian":
             self.text_format   = "Selezionare il formato \ndesiderato"
             self.text_language = "Selezionare lingua del \ncartiglio e la lista dei pezzi"
             self.text_bom      = "Inserire numero delle linee \nper la lista dei pezzi, \nall'occorrenza"
@@ -344,7 +344,7 @@ class InputWindow(QDialog)   *
             self.tooltip_language = "Select language of the title block"
             self.tooltip_bom      = ("Enter the number \nof BOM rows or use \n"+
             "right mouse buton \nto select \"Nessuno\" or \n\"Massimo\"")
-        else   *
+        else:
             self.text_format   = "Select desired \nsheet format"
             self.text_language = "Select language for \nthe title block and BOM"
             self.text_bom      = "Enter number of rows \nfor a BOM, if required"
@@ -360,74 +360,74 @@ class InputWindow(QDialog)   *
             self.tooltip_bom      = ("Enter the number \nof BOM rows or use \n"+
             "right mouse buton \nto select \"None\" or \n\"Maximum\"")
 
-    def onPopupFormat(self, selected_text)   *
+    def onPopupFormat(self, selected_text):
         self.result_format = selected_text
-        # WRS suggestion   *
+        # WRS suggestion:
         max_row = 0
-        #print("Format   * ", selected_text)
-        if selected_text == "ISO A4"   *
+        #print("Format: ", selected_text)
+        if selected_text == "ISO A4":
             max_row = 34
-        elif selected_text =="ISO A3"   *
+        elif selected_text =="ISO A3":
             max_row = 34
-        elif selected_text =="ISO A2"   *
+        elif selected_text =="ISO A2":
             max_row = 54
-        elif selected_text =="ISO A1"   *
+        elif selected_text =="ISO A1":
             max_row = 83
-        elif selected_text =="ISO A0"   *
+        elif selected_text =="ISO A0":
             max_row = 125
 
-        elif selected_text =="ANSI A"   *
+        elif selected_text =="ANSI A":
             max_row = 31
-        elif selected_text =="ANSI B"   *
+        elif selected_text =="ANSI B":
             max_row = 31
-        elif selected_text =="ANSI C"   *
+        elif selected_text =="ANSI C":
             max_row = 56
-        elif selected_text =="ANSI D"   *
+        elif selected_text =="ANSI D":
             max_row = 78
-        elif selected_text =="ANSI E"   *
+        elif selected_text =="ANSI E":
             max_row = 128
 
-        elif selected_text =="Arch A"   *
+        elif selected_text =="Arch A":
             max_row = 35
-        elif selected_text =="Arch B"   *
+        elif selected_text =="Arch B":
             max_row = 35
-        elif selected_text =="Arch C"   *
+        elif selected_text =="Arch C":
             max_row = 61
-        elif selected_text =="Arch D"   *
+        elif selected_text =="Arch D":
             max_row = 86
-        elif selected_text =="Arch E"   *
+        elif selected_text =="Arch E":
             max_row = 137
-        elif selected_text =="Arch E1"   *
+        elif selected_text =="Arch E1":
             max_row = 111
-        else   *
+        else:
             max_row = 0
 
         self.input_BOM_rows.setMaximum(max_row) # max. value for selectd format
         self.input_BOM_rows.setValue(0)         # reset default value
 
-    def onPopupLanguage(self, selected_text)   *
+    def onPopupLanguage(self, selected_text):
         self.result_language = selected_text
 
-    def onBOMAction1(self)   *
+    def onBOMAction1(self):
         # no bill of material
         self.input_BOM_rows.setValue(0)
-    def onBOMAction2(self)   *
+    def onBOMAction2(self):
         # max. rows for selected format
         self.input_BOM_rows.setValue(self.input_BOM_rows.maximum())
 
-    def onCancel(self)   *
+    def onCancel(self):
         self.result = "Cancelled"
         self.close()
-    def onOk(self)   *
+    def onOk(self):
         self.result = "OK"
         self.close()
 
 #- set values according to ISO, ANSI, Arch
-def setBorderValues(format)   *
+def setBorderValues(format):
     # customise values if needed
     # I assume ANSI and Arch need different values but as long as I'm not sure
     # these settings are quite redundant but are not removed
-    if format[0   *3] == "ANS"   *
+    if format[0:3] == "ANS":
         borders.drawing_area_top    = 10 # distance from page boundary
         borders.drawing_area_bottom = 10
         borders.drawing_area_left   = 20
@@ -436,7 +436,7 @@ def setBorderValues(format)   *
         borders.sheet_frame_bottom  = 5
         borders.sheet_frame_left    = 5
         borders.sheet_frame_right   = 5
-    elif format[0   *3] == "Arc"   *
+    elif format[0:3] == "Arc":
         borders.drawing_area_top    = 10 # distance from page boundary
         borders.drawing_area_bottom = 10
         borders.drawing_area_left   = 20
@@ -445,7 +445,7 @@ def setBorderValues(format)   *
         borders.sheet_frame_bottom  = 5
         borders.sheet_frame_left    = 5
         borders.sheet_frame_right   = 5
-    else   *
+    else:
         borders.drawing_area_top    = 10 # distance from page boundary
         borders.drawing_area_bottom = 10
         borders.drawing_area_left   = 20
@@ -455,110 +455,110 @@ def setBorderValues(format)   *
         borders.sheet_frame_left    = 5
         borders.sheet_frame_right   = 5
 
-def setSheetDimensions(format)   *
-    if format[0   *3] == "ANS"   *
-        if format[-1   *] == "A"   *
+def setSheetDimensions(format):
+    if format[0:3] == "ANS":
+        if format[-1:] == "A":
             sheet_format.width  = "216"
             sheet_format.height = "279"
-        elif format[-1   *] == "B"   *
+        elif format[-1:] == "B":
             sheet_format.width  = "432"
             sheet_format.height = "279"
-        elif format[-1   *] == "C"   *
+        elif format[-1:] == "C":
             sheet_format.width  = "559"
             sheet_format.height = "432"
-        elif format[-1   *] == "D"   *
+        elif format[-1:] == "D":
             sheet_format.width  = "864"
             sheet_format.height = "559"
-        else   * # E
+        else: # E
             sheet_format.width  = "1118"
             sheet_format.height = "864"
-    elif format[0   *3] == "Arc"   *
-        if format[-1   *] == "A"   *
+    elif format[0:3] == "Arc":
+        if format[-1:] == "A":
             sheet_format.width  = "229"
             sheet_format.height = "305"
-        elif format[-1   *] == "B"   *
+        elif format[-1:] == "B":
             sheet_format.width  = "457"
             sheet_format.height = "305"
-        elif format[-1   *] == "C"   *
+        elif format[-1:] == "C":
             sheet_format.width  = "610"
             sheet_format.height = "457"
-        elif format[-1   *] == "D"   *
+        elif format[-1:] == "D":
             sheet_format.width  = "914"
             sheet_format.height = "610"
-        elif format[-1   *] == "E"   *
+        elif format[-1:] == "E":
             sheet_format.width  = "1219"
             sheet_format.height = "914"
-        else   * # E1
+        else: # E1
             sheet_format.width  = "1067"
             sheet_format.height = "762"
-    else   * # ISO
-        if format[-1   *] == "4"   *
+    else: # ISO
+        if format[-1:] == "4":
             sheet_format.width  = "210"
             sheet_format.height = "297"
-        elif format[-1   *] == "3"   *
+        elif format[-1:] == "3":
             sheet_format.width  = "420"
             sheet_format.height = "297"
-        elif format[-1   *] == "2"   *
+        elif format[-1:] == "2":
             sheet_format.width  = "594"
             sheet_format.height = "420"
-        elif format[-1   *] == "1"   *
+        elif format[-1:] == "1":
             sheet_format.width  = "841"
             sheet_format.height = "594"
-        else   * # A0
+        else: # A0
             sheet_format.width  = "1189"
             sheet_format.height = "841"
     print(format, sheet_format.width, sheet_format.height)
 
-def setTitleBlockStaticTexts(language)   *
+def setTitleBlockStaticTexts(language):
     # Labels for the text entry fields in chosen language
-    if language == "DE"   *
-        title_block.author_name      = "Ersteller   *"
-        title_block.date_of_creation = "Datum   *"
-        title_block.supervisor_name  = "Prüfer   *"
-        title_block.date_of_approval = "Datum   *"
-        title_block.sheet_format     = "Format   *"
-        title_block.sheet_scale      = "Maßstab   *"
-        title_block.weight           = "Gewicht   *"
-        title_block.owner            = "Eigentümer   *"
-        title_block.version          = "Version   *"
-        title_block.sheet_count      = "Blatt   *"
-    elif language == "FR"   *
-        title_block.author_name      = "Dessinateur   *"
-        title_block.date_of_creation = "Date   *"
-        title_block.supervisor_name  = "Validé par   *"
-        title_block.date_of_approval = "Date   *"
-        title_block.sheet_format     = "Format   *"
-        title_block.sheet_scale      = "Échelle   *"
-        title_block.weight           = "Poids   *"
-        title_block.owner            = "Société   *"
-        title_block.version          = "Version   *"
-        title_block.sheet_count      = "Feuille   *"
-    elif language == "IT"   *
-        title_block.author_name      = "Nome Progettista   *"
-        title_block.date_of_creation = "Data   *"
-        title_block.supervisor_name  = "Supervisore   *"
-        title_block.date_of_approval = "Data   *"
-        title_block.sheet_format     = "Formato   *"
-        title_block.sheet_scale      = "Scala   *"
-        title_block.weight           = "Peso   *"
-        title_block.owner            = "Ditta   *"
-        title_block.version          = "Numero di Versione   *"
-        title_block.sheet_count      = "Pagina   *"
-    else   *
-        title_block.author_name      = "Author Name   *"
-        title_block.date_of_creation = "Date   *"
-        title_block.supervisor_name  = "Supervisor Name   *"
-        title_block.date_of_approval = "Date   *"
-        title_block.sheet_format     = "Format   *"
-        title_block.sheet_scale      = "Scale   *"
-        title_block.weight           = "Weight   *"
-        title_block.owner            = "Owner   *"
-        title_block.version          = "Version   *"
-        title_block.sheet_count      = "Sheet   *"
+    if language == "DE":
+        title_block.author_name      = "Ersteller:"
+        title_block.date_of_creation = "Datum:"
+        title_block.supervisor_name  = "Prüfer:"
+        title_block.date_of_approval = "Datum:"
+        title_block.sheet_format     = "Format:"
+        title_block.sheet_scale      = "Maßstab:"
+        title_block.weight           = "Gewicht:"
+        title_block.owner            = "Eigentümer:"
+        title_block.version          = "Version:"
+        title_block.sheet_count      = "Blatt:"
+    elif language == "FR":
+        title_block.author_name      = "Dessinateur:"
+        title_block.date_of_creation = "Date:"
+        title_block.supervisor_name  = "Validé par:"
+        title_block.date_of_approval = "Date:"
+        title_block.sheet_format     = "Format:"
+        title_block.sheet_scale      = "Échelle:"
+        title_block.weight           = "Poids:"
+        title_block.owner            = "Société:"
+        title_block.version          = "Version:"
+        title_block.sheet_count      = "Feuille:"
+    elif language == "IT":
+        title_block.author_name      = "Nome Progettista:"
+        title_block.date_of_creation = "Data:"
+        title_block.supervisor_name  = "Supervisore:"
+        title_block.date_of_approval = "Data:"
+        title_block.sheet_format     = "Formato:"
+        title_block.sheet_scale      = "Scala:"
+        title_block.weight           = "Peso:"
+        title_block.owner            = "Ditta:"
+        title_block.version          = "Numero di Versione:"
+        title_block.sheet_count      = "Pagina:"
+    else:
+        title_block.author_name      = "Author Name:"
+        title_block.date_of_creation = "Date:"
+        title_block.supervisor_name  = "Supervisor Name:"
+        title_block.date_of_approval = "Date:"
+        title_block.sheet_format     = "Format:"
+        title_block.sheet_scale      = "Scale:"
+        title_block.weight           = "Weight:"
+        title_block.owner            = "Owner:"
+        title_block.version          = "Version:"
+        title_block.sheet_count      = "Sheet:"
 
-def setBillOfMaterialTexts(language)   *
+def setBillOfMaterialTexts(language):
     # Labels for the BOM bottom line in chosen language
-    if language == "DE"   *
+    if language == "DE":
         bom_list.position = "Pos."
         bom_list.amount   = "Menge"
         bom_list.unit     = "Einheit"
@@ -567,7 +567,7 @@ def setBillOfMaterialTexts(language)   *
         bom_list.material = "Werkstoff"
         bom_list.mass     = "Masse"
         bom_list.remark   = "Bemerkung"
-    else   *
+    else:
         bom_list.position = "Pos."
         bom_list.amount   = "Amount"
         bom_list.unit     = "Unit"
@@ -578,46 +578,46 @@ def setBillOfMaterialTexts(language)   *
         bom_list.remark   = "Remark"
 
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y)   *
+def svgrect(width,height,x,y):
     svg_line=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svg_line
 
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2)   *
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
+def svgpath(x1,y1,x2,y2):
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
         svg_line=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else   *
+    else:
         svg_line=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svg_line
 
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue)   *
+def svgtext(posX,posY,strValue):
     svg_line=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svg_line
 
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue)   *
-    svg_line=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue):
+    svg_line=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svg_line
 
 #- Create a file and insert a header line
-def createSvgFile(file_path)   *
+def createSvgFile(file_path):
     t=open(file_path,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def startSvg(file_path)   *
+def startSvg(file_path):
     t=open(file_path,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def createSheet(file_path)   *
+def createSheet(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -629,17 +629,17 @@ def createSheet(file_path)   *
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def endSvg(file_path)   *
+def endSvg(file_path):
     t=open(file_path,"a")
     t.write("</svg>")
     t.close
 
 #- Frame creation
-def createFrame(file_path)   *
+def createFrame(file_path):
     t=open(file_path,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
-stroke-linecap   *round\">\n")
+    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
+stroke-linecap:round\">\n")
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -682,11 +682,11 @@ stroke-linecap   *round\">\n")
     t.close
 
 #- Indexes and folding marks creation
-def createDecoration(file_path)   *
+def createDecoration(file_path):
     t = open(file_path,"a")
     t.write("    <g id=\"index-separators\"\n")
-    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.25;\
-stroke-linecap   *round\">\n")
+    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.25;\
+stroke-linecap:round\">\n")
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -714,16 +714,16 @@ stroke-linecap   *round\">\n")
     indexLower=str(int(drawingHeight)+dAT-5)
 
     #- centre and middle markings of drawing area
-    if sWidth=="210"   * # format=="DIN-A4"   *
+    if sWidth=="210": # format=="DIN-A4":
         indexLeft=str(dAL)
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-15")+"\n")
-    elif sWidth=="420"   * # format=="DIN-A3"   *
+    elif sWidth=="420": # format=="DIN-A3":
         indexLeft=str(dAL+5)
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-20")+"\n")
         t.write("        "+svgpath(indexRight,indexMiddle,"h"," 10")+"\n")
-    else    *
+    else :
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
         t.write("        "+svgpath(indexCenter,indexLower,"v"," 10")+"\n")
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-10")+"\n")
@@ -737,19 +737,19 @@ stroke-linecap   *round\">\n")
 
     #- set number of horizontal and vertical indexes
     # this needs to be extended for American formats
-    if sWidth=="420"   * # format=="DIN-A3"   *
+    if sWidth=="420": # format=="DIN-A3":
         indexCountX=8
         indexCountY=6
-    elif sWidth=="594"   * # format=="DIN-A2"   *
+    elif sWidth=="594": # format=="DIN-A2":
         indexCountX=12
         indexCountY=8
-    elif sWidth=="841"   * # format=="DIN-A1"   *
+    elif sWidth=="841": # format=="DIN-A1":
         indexCountX=16
         indexCountY=12
-    elif sWidth=="1189"   * # format=="DIN-A0"   *
+    elif sWidth=="1189": # format=="DIN-A0":
         indexCountX=24
         indexCountY=16
-    else    *
+    else :
         indexCountX=0
         indexCountY=0
 
@@ -760,7 +760,7 @@ stroke-linecap   *round\">\n")
 
     #- horizontal index separators
     max=int(indexCountX/2-1)
-    for value in range(0,max)   *
+    for value in range(0,max):
         indexX=str(floatCenter+(value+1)*50)
         t.write("        "+svgpath(indexX,indexUpper,"v"," -5")+"\n")
         t.write("        "+svgpath(indexX,indexLower,"v","  5")+"\n")
@@ -770,7 +770,7 @@ stroke-linecap   *round\">\n")
 
     #- vertical index separators
     max=int(indexCountY/2-1)
-    for value in range(0,max)   *
+    for value in range(0,max):
         indexY=str(floatMiddle+(value+1)*50)
         t.write("        "+svgpath(indexLeft, indexY,"h"," -5")+"\n")
         t.write("        "+svgpath(indexRight,indexY,"h","  5")+"\n")
@@ -781,8 +781,8 @@ stroke-linecap   *round\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"indexes\"\n")
-    t.write("      style=\"font-size   *3.5;text-anchor   *middle;fill   *#000000;\
-    font-family   *osifont\">\n")
+    t.write("      style=\"font-size:3.5;text-anchor:middle;fill:#000000;\
+    font-family:osifont\">\n")
 
     #- position point values of indexes
     indexLeft=str(dAL-sFL/2)
@@ -792,7 +792,7 @@ stroke-linecap   *round\">\n")
 
     #- horizontal indexes, numbers
     max=int(indexCountX/2)
-    for value in range(0,max)   *
+    for value in range(0,max):
         indexX=str(floatCenter+value*50+25)
         t.write("        "+svgtext(indexX,indexUpper,str(int(indexCountX/2+value+1)))+"\n")
         t.write("        "+svgtext(indexX,indexLower,str(int(indexCountX/2+value+1)))+"\n")
@@ -802,12 +802,12 @@ stroke-linecap   *round\">\n")
 
     #- vertical indexes, letters
     max=int(indexCountY/2)
-    for value in range(0,max)   *
+    for value in range(0,max):
         indexY=str(floatMiddle+value*50+25)
-        if int(indexCountY/2+value+1)>9    *  # to avoid the letter J
+        if int(indexCountY/2+value+1)>9 :  # to avoid the letter J
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+2)))+"\n")
-        else    *
+        else :
             t.write("        "+svgtext(indexLeft,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
             t.write("        "+svgtext(indexRight,indexY,chr(64+int(indexCountY/2+value+1)))+"\n")
         indexY=str(floatMiddle-value*50-25)
@@ -818,22 +818,22 @@ stroke-linecap   *round\">\n")
 
     #- puncher mark
     t.write("    <g id=\"puncher mark\"\n")
-    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
-    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
-    if sWidth in["1189", "841", "594"]    * # A3 and A4 have extended middle markings
+    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
+    stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    if sWidth in["1189", "841", "594"] : # A3 and A4 have extended middle markings
         t.write("        "+svgpath(str(dAL-sFL),str(int(sHeight)-(297/2)),"h","-10")+"\n")
     t.write("    </g>\n\n")
 
     #- folding marks
     t.write("    <g id=\"folding marks\"\n")
-    t.write("      style=\"fill   *none;stroke   *#b0b0b0;stroke-width   *0.25;\
-    stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
-    if sWidth=="420"   * # DIN-A3
+    t.write("      style=\"fill:none;stroke:#b0b0b0;stroke-width:0.25;\
+    stroke-linecap:miter;stroke-miterlimit:4\">\n")
+    if sWidth=="420": # DIN-A3
         t.write("        "+svgpath("125",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("125",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("230",str(dAT-sFT),"v","-5")+"\n")
         t.write("        "+svgpath("230",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
-    elif sWidth=="594"   * # DIN-A2
+    elif sWidth=="594": # DIN-A2
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("402",str(dAT-sFT),"v"," -5")+"\n")
@@ -841,7 +841,7 @@ stroke-linecap   *round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","123","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(sWidth)-dAR+sFR),"123","h","  5")+"\n")
-    elif sWidth=="841"   * # DIN-A1
+    elif sWidth=="841": # DIN-A1
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -851,7 +851,7 @@ stroke-linecap   *round\">\n")
         t.write("        "+svgpath("105",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("  5","297","h"," -5")+"\n")
         t.write("        "+svgpath(str(int(sWidth)-dAR+sFR),"297","h","  5")+"\n")
-    elif sWidth=="1189"   * # DIN-A0
+    elif sWidth=="1189": # DIN-A0
         t.write("        "+svgpath("210",str(dAT-sFT),"v"," -5")+"\n")
         t.write("        "+svgpath("210",str(int(sHeight)-dAB+sFB),"v","  5")+"\n")
         t.write("        "+svgpath("400",str(dAT-sFT),"v"," -5")+"\n")
@@ -872,7 +872,7 @@ stroke-linecap   *round\">\n")
     t.close
 
 #- Title block movable
-def createTitleBlock(file_path)   *
+def createTitleBlock(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -901,8 +901,8 @@ def createTitleBlock(file_path)   *
     t.write("      \n\n")
     #- title block
     t.write("      <g id=\"titleblock-frame\"\n")
-    t.write("        style=\"fill   *none;stroke   *#000000;stroke-width   *0.35;\
-stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
+stroke-linecap:miter;stroke-miterlimit:4\">\n")
     t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0"," -4","h","155")+"\n")
@@ -925,8 +925,8 @@ stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     t.write("      </g>\n")
     #- small texts, left-aligned
     t.write("      <g id=\"titleblock-text-non-editable\"\n")
-    t.write("        style=\"font-size   *2.5;text-anchor   *start;fill   *#000000;\
-font-family   *osifont\">\n")
+    t.write("        style=\"font-size:2.5;text-anchor:start;fill:#000000;\
+font-family:osifont\">\n")
     t.write("        "+svgtext("  1.5","-60  ", tb_author)+"\n")
     t.write("        "+svgtext("  1.5","-52  ", tb_created)+"\n")
     t.write("        "+svgtext("  1.5","-43.5 ", tb_supervisor)+"\n")
@@ -940,8 +940,8 @@ font-family   *osifont\">\n")
     t.write("      </g>\n")
     #- revision indexes, centered
     t.write("      <g id=\"titleblock-revision-indexes\"\n")
-    t.write("        style=\"font-size   *5.0;text-anchor   *middle;fill   *#000000;\
-font-family   *osifont\">\n")
+    t.write("        style=\"font-size:5.0;text-anchor:middle;fill:#000000;\
+font-family:osifont\">\n")
     t.write("        "+svgtext("157.5"," -1.5  ","A")+"\n")
     t.write("        "+svgtext("157.5"," -8.5  ","B")+"\n")
     t.write("        "+svgtext("157.5","-15.5  ","C")+"\n")
@@ -957,7 +957,7 @@ font-family   *osifont\">\n")
     t.close
 
 #- Title block editable texts
-def createEditableText(file_path)   *
+def createEditableText(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -971,15 +971,15 @@ def createEditableText(file_path)   *
 
     t=open(file_path,"a")
     t.write("    <g id=\"titleblock-editable-owner\"\n")
-    t.write("      style=\"font-size   *3.5;text-anchor   *start;fill   *#0000d0;\
-font-family   *osifont\">\n")
+    t.write("      style=\"font-size:3.5;text-anchor:start;fill:#0000d0;\
+font-family:osifont\">\n")
 
     t.write("      "+FCeditext("Owner",str(edX+65),str(edY-27.0),"Owner")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-address\"\n")
-    t.write("      style=\"font-size   *2.5;text-anchor   *start;fill   *#0000d0;\
-font-family   *osifont\">\n")
+    t.write("      style=\"font-size:2.5;text-anchor:start;fill:#0000d0;\
+font-family:osifont\">\n")
     t.write("      "+FCeditext("Address-1",str(edX+65),str(edY-23.5),"Address1")+"\n")
     t.write("      "+FCeditext("Address-2",str(edX+65),str(edY-20.0),"Address2")+"\n")
     t.write("      "+FCeditext("MailTo",   str(edX+65),str(edY-16.5),"MailTo")+"\n")
@@ -987,8 +987,8 @@ font-family   *osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-medium\"\n")
-    t.write("      style=\"font-size   *5;text-anchor   *start;fill   *#0000d0;\
-font-family   *osifont\">\n")
+    t.write("      style=\"font-size:5;text-anchor:start;fill:#0000d0;\
+font-family:osifont\">\n")
     t.write("      "+FCeditext("Author",    str(edX+2),  str(edY-55.0),"Author")+"\n")
     t.write("      "+FCeditext("AuDate",    str(edX+7),  str(edY-47.5),"YYYY/MM/DD")+"\n")
     t.write("      "+FCeditext("Supervisor",str(edX+2),  str(edY-38.5),"Supervisor")+"\n")
@@ -1007,24 +1007,24 @@ font-family   *osifont\">\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-centered\"\n")
-    t.write("      style=\"font-size   *5;text-anchor   *middle;fill   *#0000d0;\
-font-family   *osifont\">\n")
+    t.write("      style=\"font-size:5;text-anchor:middle;fill:#0000d0;\
+font-family:osifont\">\n")
     t.write("      "+FCeditext("Format", str(edX+12), str(edY-21),"A3")+"\n")
     t.write("      "+FCeditext("Sheets", str(edX+148),str(edY-8), "1 / 1")+"\n")
-    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1    * 1")+"\n")
+    t.write("      "+FCeditext("Scale",  str(edX+12), str(edY-8), "1 : 1")+"\n")
     t.write("      "+FCeditext("Weight", str(edX+35), str(edY-8), "___ kg")+"\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"titleblock-editable-Large\"\n")
-    t.write("      style=\"font-size   *7;text-anchor   *start;fill   *#0000d0;\
-font-family   *osifont\">\n")
+    t.write("      style=\"font-size:7;text-anchor:start;fill:#0000d0;\
+font-family:osifont\">\n")
     t.write("      "+FCeditext("Title",   str(edX+62),str(edY-50),"Drawing Title")+"\n")
     t.write("      "+FCeditext("PtNumber",str(edX+62),str(edY-32),"Part Number")+"\n")
     t.write("    </g>\n\n")
     t.close
 
 #- Title block Freecad logo
-def createFreecadLogo(file_path)   *
+def createFreecadLogo(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -1034,7 +1034,7 @@ def createFreecadLogo(file_path)   *
 
     t=open(file_path,"a")
     t.write("    <g id=\"freecad-logo-F\"\n")
-    t.write("      style=\"display   *inline\"\n")
+    t.write("      style=\"display:inline\"\n")
     t.write("      stroke=\"#000000\"\n")
     t.write("      stroke-width=\"0.25\"\n")
     t.write("      fill=\"rgb(255, 50, 50)\"\n")
@@ -1047,7 +1047,7 @@ v-1.3661 h-1.396 v-1.4745 h3.4391 v-2.5441 l-5.4135 -0.005z\"/>\n")
     t.write("    </g>\n")
 
     t.write("    <g id=\"freecad-logo-Cog\"\n")
-    t.write("      style=\"display   *inline\"\n")
+    t.write("      style=\"display:inline\"\n")
     t.write("      stroke=\"#000000\"\n")
     t.write("      stroke-width=\"0.25\"\n")
     t.write("      fill=\"rgb(50, 50, 255)\"\n")
@@ -1073,7 +1073,7 @@ m-0.5715 1.2244 0.23576 0.13679 0.20426 0.18519 0.16353 0.22101 0.11763 0.24572 
     t.close
 
 #- Symbol for first angle projection
-def createProjectionSymbol(file_path)   *
+def createProjectionSymbol(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -1081,11 +1081,11 @@ def createProjectionSymbol(file_path)   *
     dAB = borders.drawing_area_bottom
     dAR = borders.drawing_area_right
     # order top and side symbols
-    if projectionGroupAngle() == 1   *
+    if projectionGroupAngle() == 1:
         # Third angle projection
         top_offset  = "-3.5"
         side_offset =  "3.5"
-    else   *
+    else:
         # First angle projection
         top_offset  =  "3.5"
         side_offset = "-3.5"
@@ -1130,7 +1130,7 @@ def createProjectionSymbol(file_path)   *
     t.write("    </g>\n\n")
     t.close
 
-def createBOMLines(file_path,bom_rows)   *
+def createBOMLines(file_path,bom_rows):
     #- set sheet dimensions
     sWidth  = sheet_format.width
     sHeight = sheet_format.height
@@ -1138,9 +1138,9 @@ def createBOMLines(file_path,bom_rows)   *
     dAB = borders.drawing_area_bottom
     dAR = borders.drawing_area_right
 
-    if bom_rows == 0   *
+    if bom_rows == 0:
         return
-    else   *
+    else:
         max_rows = (int(bom_rows)+1)
 
     stX=int(sWidth)-dAR-180
@@ -1149,15 +1149,15 @@ def createBOMLines(file_path,bom_rows)   *
     t=open(file_path,"a")
     t.write("    <g id=\"bill-of-material\">\n")
     # BOM base line
-    t.write("      <g style=\"stroke   *#000000;stroke-width   *0.35;stroke-linecap   *round\">\n")
-    if sWidth=="210"   * # format=="DIN-A4"   *
+    t.write("      <g style=\"stroke:#000000;stroke-width:0.35;stroke-linecap:round\">\n")
+    if sWidth=="210": # format=="DIN-A4":
         t.write("        "+svgpath(str(stX),str(stY-8)," 180","  0 ")+"\n")
-    else    *
+    else :
         t.write("        "+svgpath(str(stX),str(stY-8)," 180","  0 ")+"\n")
         t.write("        "+svgpath(str(stX),str(stY)  ,"   0"," -8 ")+"\n")
     t.write("      </g>\n")
     # Field separators
-    t.write("      <g style=\"stroke   *#000000;stroke-width   *0.18;stroke-linecap   *round\">\n")
+    t.write("      <g style=\"stroke:#000000;stroke-width:0.18;stroke-linecap:round\">\n")
     t.write("        "+svgpath(str(stX+ 10),str(stY),"v","  -8")+"\n")
     t.write("        "+svgpath(str(stX+ 20),str(stY),"v","  -8")+"\n")
     t.write("        "+svgpath(str(stX+ 30),str(stY),"v","  -8")+"\n")
@@ -1168,7 +1168,7 @@ def createBOMLines(file_path,bom_rows)   *
     t.write("      </g>\n")
     # Non-editable Texts
     t.write("      <g id=\"BOM-h35-non-editable\"\n")
-    t.write("        style=\"font-family   *osifont;font-size   *3.5;text-anchor   *middle;fill   *#000000\">\n")
+    t.write("        style=\"font-family:osifont;font-size:3.5;text-anchor:middle;fill:#000000\">\n")
     t.write("        "+svgtext(str(stX+  5),str(stY-4),bom_list.position)+"\n")
     t.write("        "+svgtext(str(stX+ 15),str(stY-4),bom_list.amount)+"\n")
     t.write("        "+svgtext(str(stX+ 25),str(stY-4),bom_list.unit)+"\n")
@@ -1184,15 +1184,15 @@ def createBOMLines(file_path,bom_rows)   *
     #stY=int(sHeight)-dAB-72
     stY -= 8
 
-    for value in range(1,max_rows)   *
-        t.write("        <g style=\"stroke   *#000000;stroke-width   *0.35;stroke-linecap   *round\">\n")
-        if sWidth=="210"   * # format=="DIN-A4"   *
+    for value in range(1,max_rows):
+        t.write("        <g style=\"stroke:#000000;stroke-width:0.35;stroke-linecap:round\">\n")
+        if sWidth=="210": # format=="DIN-A4":
             t.write("          "+svgpath(str(stX),str(stY-6)," 180","  0 ")+"\n")
-        else    *
+        else :
             t.write("          "+svgpath(str(stX),str(stY-6)," 180","  0 ")+"\n")
             t.write("          "+svgpath(str(stX),str(stY)  ,"   0"," -6 ")+"\n")
         t.write("        </g>\n")
-        t.write("        <g style=\"stroke   *#000000;stroke-width   *0.18;stroke-linecap   *round\">\n")
+        t.write("        <g style=\"stroke:#000000;stroke-width:0.18;stroke-linecap:round\">\n")
         t.write("          "+svgpath(str(stX+ 10),str(stY),"v","  -6")+"\n")
         t.write("          "+svgpath(str(stX+ 20),str(stY),"v","  -6")+"\n")
         t.write("          "+svgpath(str(stX+ 30),str(stY),"v","  -6")+"\n")
@@ -1203,20 +1203,20 @@ def createBOMLines(file_path,bom_rows)   *
         t.write("        </g>\n")
         # Editable Texts
         t.write("        <g id=\"BOM-editable-left-aligned\"\n")
-        t.write("          style=\"font-family   *osifont;font-size   *3.5;text-anchor   *start;fill   *#0000d0\">\n")
+        t.write("          style=\"font-family:osifont;font-size:3.5;text-anchor:start;fill:#0000d0\">\n")
         t.write("          "+FCeditext("Partname"+str(value),str(stX+32),str(stY-2),"-")+"\n")
         t.write("          "+FCeditext("PartNumber"+str(value),str(stX+62),str(stY-2),"-")+"\n")
         t.write("          "+FCeditext("Material"+str(value),str(stX+122),str(stY-2),"-")+"\n")
         t.write("          "+FCeditext("Remark"+str(value),str(stX+162),str(stY-2),"-")+"\n")
         t.write("        </g>\n")
         t.write("        <g id=\"BOM-editable-right-aligned\"\n")
-        t.write("          style=\"font-family   *osifont;font-size   *3.5;text-anchor   *end;fill   *#0000d0\">\n")
+        t.write("          style=\"font-family:osifont;font-size:3.5;text-anchor:end;fill:#0000d0\">\n")
         t.write("          "+FCeditext("Position"+str(value),str(stX+9),str(stY-2),str(value))+"\n")
         t.write("          "+FCeditext("Amount"+str(value),str(stX+19),str(stY-2),"-")+"\n")
         t.write("          "+FCeditext("Mass"+str(value),str(stX+159),str(stY-2),"-")+"\n")
         t.write("        </g>\n")
         t.write("        <g id=\"BOM-editable-centered\"\n")
-        t.write("          style=\"font-family   *osifont;font-size   *3.5;text-anchor   *middle;fill   *#0000d0\">\n")
+        t.write("          style=\"font-family:osifont;font-size:3.5;text-anchor:middle;fill:#0000d0\">\n")
         t.write("          "+FCeditext("Unit"+str(value),str(stX+25),str(stY-2),"-")+"\n")
         t.write("        </g>\n")
         stY=stY-6
@@ -1225,57 +1225,57 @@ def createBOMLines(file_path,bom_rows)   *
     t.write("    </g>\n\n")
     t.close
 
-def existingPages(document)   *
+def existingPages(document):
     # this counts existing pages in the active document
     number_of_pages=0
-    for entry in document.Objects   *
-        if entry.Name[   *4] == "Page"   *
+    for entry in document.Objects:
+        if entry.Name[:4] == "Page":
             number_of_pages += 1
     return number_of_pages
 
-def updateSheetTotal(total_pages, document)   *
+def updateSheetTotal(total_pages, document):
     # update the number of sheets on earlier sheets
     count_down = total_pages
-    while count_down > 1   *
+    while count_down > 1:
         count_down -= 1
-        if count_down < 10   *
+        if count_down < 10:
             # insert leading zero
             current_page = ("Page"+ "0"+ str(count_down))
-        else   *
+        else:
             current_page = ("Page"+ str(count_down))
 
         editable_texts = document.getObject(current_page).Template.EditableTexts
         editable_texts["Sheets"]     = (str(count_down) + "/" + str(total_pages))
         document.getObject(current_page).Template.EditableTexts = editable_texts
 
-def setOwnerData()   *
+def setOwnerData():
     owner_data.company   = "Owner / Company"
     owner_data.address1  = "Address-1"
     owner_data.address2  = "Address-1"
     owner_data.mailTo    = "Info@theCompany.com"
     owner_data.copyright = "All rights reserved"
 
-def getAuthor()   *
+def getAuthor():
     # Reads the user name from the preferences settings
-    parameter_path = App.ParamGet("User parameter   *BaseApp/Preferences/Document")
+    parameter_path = App.ParamGet("User parameter:BaseApp/Preferences/Document")
     author_name = parameter_path.GetString("prefAuthor")
-    if author_name == ""   *
+    if author_name == "":
         author_name = "not set yet"
     return author_name
 
-def projectionGroupAngle()   *
+def projectionGroupAngle():
     # Reads the projection convention from the preferences settings
-    parameter_path = App.ParamGet("User parameter   *BaseApp/Preferences/Mod/TechDraw/General")
+    parameter_path = App.ParamGet("User parameter:BaseApp/Preferences/Mod/TechDraw/General")
     projection_angle = parameter_path.GetInt("ProjectionAngle")
     return projection_angle
 
-def main()   *
+def main():
     # Gui to select some presets
     form = InputWindow()
     form.exec_()
-    if form.result == "Cancelled"   *
+    if form.result == "Cancelled":
         pass
-    else   *
+    else:
         template_file = form.template_file
         setBorderValues(form.result_format)
         setSheetDimensions(form.result_format)
@@ -1304,30 +1304,30 @@ def main()   *
         how_many = existingPages(active_doc)
         how_many += 1 # for the following new page
         #- Define the new page's name (with only 2 trailing digits)
-        if how_many < 10   *
+        if how_many < 10:
             # insert leading zero
             new_page = ("Page"+ "0"+ str(how_many))
-        else   *
+        else:
             new_page = ("Page"+ str(how_many))
 
         # set template number according to page number
-        new_template = ('Template' + new_page[4   *])
+        new_template = ('Template' + new_page[4:])
         # add a page object to the active document
-        active_doc.addObject('TechDraw   *   *DrawPage',new_page)
+        active_doc.addObject('TechDraw::DrawPage',new_page)
         # add a template object to the active document
-        active_doc.addObject('TechDraw   *   *DrawSVGTemplate',new_template)
+        active_doc.addObject('TechDraw::DrawSVGTemplate',new_template)
         # load the svg template into the template object
         active_doc.getObject(new_template).Template = template_file
         # add the template object to the page's object list
         active_doc.getObject(new_page).Template = active_doc.getObject(new_template)
         #create entries on first page or copy from first page
         #- check for arch formats
-        if form.result_format[   *4] == "Arch"   *
+        if form.result_format[:4] == "Arch":
             sheet_format = form.result_format
-        else   *
-            sheet_format = form.result_format[-2   *]
+        else:
+            sheet_format = form.result_format[-2:]
 
-        if how_many == 1   *
+        if how_many == 1:
             setOwnerData()
             # update entries on first sheet
             editable_texts = active_doc.getObject(new_page).Template.EditableTexts
@@ -1355,12 +1355,12 @@ def main()   *
             #editable_texts["Revision-I"] = "______"
             editable_texts["Format"]     = sheet_format
             #editable_texts["Sheets"]     = "1 / 1"
-            #editable_texts["Scale"]      = "1    * 1"
+            #editable_texts["Scale"]      = "1 : 1"
             #editable_texts["Weight"]     = "Weight"
             #editable_texts["Title"]      = "Title"
             #editable_texts["PtNumber"]   = "Part number"
             active_doc.getObject(new_page).Template.EditableTexts = editable_texts
-        else   *
+        else:
             # copy some entries from first sheet that are identical on all sheets
             existing_texts = active_doc.Page01.Template.EditableTexts
             editable_texts = active_doc.getObject(new_page).Template.EditableTexts
@@ -1396,7 +1396,7 @@ def main()   *
             updateSheetTotal(how_many, active_doc)
 
         # rename 'Page' according to the title block label
-        active_doc.getObject(new_page).Label = (title_block.sheet_count[   *-1] + " " + new_page[4   *])
+        active_doc.getObject(new_page).Label = (title_block.sheet_count[:-1] + " " + new_page[4:])
         # open the page object for editing
         active_doc.getObject(new_page).ViewObject.doubleClicked()
 

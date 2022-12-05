@@ -1,8 +1,6 @@
 # Category:Mesh/cs
 This category lists pages related to the [Mesh_Workbench/cs](Mesh_Workbench/cs.md).
 
-[Category   *Workbenches/cs](Category   *Workbenches/cs.md)
-
 ### Contents
 
 |     |     |     |

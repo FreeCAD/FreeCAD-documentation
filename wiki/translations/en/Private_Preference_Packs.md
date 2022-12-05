@@ -1,9 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *Custom Repositories
-   Level   *Intermediate/Advanced
-   Author   *drmacro
-   FCVersion   *1.0 or above
-   Files   *[TBD]
+- TutorialInfo:   Topic:Custom Repositories
+   Level:Intermediate/Advanced
+   Author:drmacro
+   FCVersion:1.0 or above
+   Files:[TBD]
 ---
 
 # Private Preference Packs/en
@@ -22,7 +22,7 @@ See also [Preference Packs](Preference_Packs.md).
 
 Begin by adding a custom repository. Go to **Edit → Preferences → Addon manager options** and click the **+** button to open the **Custom repository** dialog.
 
-<img alt="" src=images/Preferences_AM_addrepo.png  style="width   *400px;">
+<img alt="" src=images/Preferences_AM_addrepo.png  style="width:400px;">
 
 ### Custom repository dialog 
 
@@ -30,15 +30,15 @@ Enter the URL of the github repository and the branch.
 
 ![](images/Preferences_AM_customrepo.png )
 
-In this example I have added   *
+In this example I have added:
 
-<https   *//github.com/macdroid53/ZolkoBase>
+<https://github.com/macdroid53/ZolkoBase>
 
 Click **OK** when complete.
 
 ### Preferences with custom repository added 
 
-<img alt="" src=images/Preferences_AM_after.png  style="width   *400px;">
+<img alt="" src=images/Preferences_AM_after.png  style="width:400px;">
 
 Click **OK** when complete.
 
@@ -46,13 +46,13 @@ Click **OK** when complete.
 
 The custom pack can now be installed using **Tools → Addon manager**.
 
-<img alt="" src=images/PreferencePack_in_AM.png  style="width   *400px;">
+<img alt="" src=images/PreferencePack_in_AM.png  style="width:400px;">
 
 ## Apply the preference pack 
 
 Once installed go to **Edit → Preferences → General**, find the preference pack, and click **Apply**. Follow any instructions offered.
 
-<img alt="" src=images/PeferencesPP_apply.png  style="width   *400px;">
+<img alt="" src=images/PeferencesPP_apply.png  style="width:400px;">
 
 
 

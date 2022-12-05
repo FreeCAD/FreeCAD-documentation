@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Builder
-   MenuLocation   *Part → Shape builder...
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Primitives](Part_Primitives.md)
+- GuiCommand:
+   Name:Part Builder
+   MenuLocation:Part → Shape builder...
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
 # Part Builder/zh-cn
@@ -55,7 +55,7 @@
 
 </div>
 
-This tool can create the following objects   *
+This tool can create the following objects:
 
 ### Edge from two vertices 
 

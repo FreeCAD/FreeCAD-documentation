@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *OpenSCAD ExplodeGroup
-   MenuLocation   *OpenSCAD → Explode Group‏‎
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
+- GuiCommand:
+   Name:OpenSCAD ExplodeGroup
+   MenuLocation:OpenSCAD → Explode Group‏‎
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
 # OpenSCAD ExplodeGroup/en
@@ -14,7 +14,7 @@ This feature explodes a fusion or a compound back to single parts applying rando
 ## Usage
 
 1.  Select fusion/compound to be exploded
-2.  Click on <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width   *32px;"> or choose **OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Explode Group** from the top menu.
+2.  Click on <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> or choose **OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Explode Group** from the top menu.
 
 ## Limitations
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */tr
-   Name   *Path Helix
-   Name/tr   *CNC G-Kodu Helezon
-   Workbenches   *[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation   *CNC G-Kodu → Helezon
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/tr
+   Name:Path Helix
+   Name/tr:CNC G-Kodu Helezon
+   Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
+   MenuLocation:CNC G-Kodu → Helezon
+   Shortcut:
+   SeeAlso:
 ---
 
 # Path Helix/tr
@@ -55,11 +55,11 @@ Empty
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

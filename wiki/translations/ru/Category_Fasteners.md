@@ -1,8 +1,6 @@
 # Category:Fasteners/ru
 В данном списке содержатся страницы документации для [верстака Fasteners](Fasteners_Workbench/ru.md), который является [внешним верстаком](External_workbenches/ru.md).
 
-[Category   *External Workbenches](Category_External_Workbenches.md)
-
 ### Contents
 
 |     |     |     |

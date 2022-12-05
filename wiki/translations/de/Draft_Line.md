@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Line
-   Name/de   *Entwurf Linie
-   MenuLocation   *Entwurf → Linie
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch Arbeitsbereich](Arch_Workbench/de.md)
-   Shortcut   ***L** **I**
-   Version   *0.7
-   SeeAlso   *[Entwurf Draht](Draft_Wire/de.md), [Entwurf Punkt](Draft_Point/de.md)
+- GuiCommand:/de
+   Name:Draft Line
+   Name/de:Entwurf Linie
+   MenuLocation:Entwurf → Linie
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch Arbeitsbereich](Arch_Workbench/de.md)
+   Shortcut:**L** **I**
+   Version:0.7
+   SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf Punkt](Draft_Point/de.md)
 ---
 
 # Draft Line/de
@@ -26,7 +26,7 @@ Das Linienwerkzeug erzeugt eine gerade Linie, die durch zwei Punkte definiert is
 
 A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,12 +40,12 @@ A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 
 ## Anwendung
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **<img src="images/Draft_Line.svg" width=16px> [Entwurf Linie](Draft_Line/de.md)** Schaltfläche, oder verwende **Entwurf** → **<img src="images/Draft_Line.svg" width=16px> [Linie](Draft_Line/de.md)** aus dem oberen Menü oder verwende die Tastaturkürzel   * **L**, dann **I**.
+1.  Drücke die **<img src="images/Draft_Line.svg" width=16px> [Entwurf Linie](Draft_Line/de.md)** Schaltfläche, oder verwende **Entwurf** → **<img src="images/Draft_Line.svg" width=16px> [Linie](Draft_Line/de.md)** aus dem oberen Menü oder verwende die Tastaturkürzel: **L**, dann **I**.
 2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
 3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
 
@@ -87,10 +87,10 @@ Die Linie kann durch doppelklicken des Elements in der Baumansicht geändert wer
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box   * **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
@@ -113,7 +113,7 @@ Ein Linienobjekt teilt alle Eigenschaften eines **<img src="images/Draft_Wire.sv
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Draft API](Draft_API/de.md) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
 
@@ -123,7 +123,7 @@ Ein Linienobjekt teilt alle Eigenschaften eines **<img src="images/Draft_Wire.sv
 
 <div class="mw-translate-fuzzy">
 
-Das Linienwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion angesprochen werden   *
+Das Linienwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion angesprochen werden:
 
 
 </div>
@@ -139,7 +139,7 @@ line = make_line(Shape)
 -   Erstellt ein `Line` Objekt aus einem `Part.LineSegment`.
 -   Erzeugt ein `Line` Objekt vom ersten Knoten bis zum letzten Knoten der angegebenen `Shape`.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

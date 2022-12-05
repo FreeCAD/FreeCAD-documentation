@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Floor
-   Name/de   *Arch Geschoss
-   MenuLocation   *Architektur → Stockwerk
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***L** **V**
-   SeeAlso   *[Arch Gebäude](Arch_Building/de.md), [Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
+- GuiCommand:/de
+   Name:Arch Floor
+   Name/de:Arch Geschoss
+   MenuLocation:Architektur → Stockwerk
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**L** **V**
+   SeeAlso:[Arch Gebäude](Arch_Building/de.md), [Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
 ---
 
 # Arch Floor/de
@@ -19,7 +19,7 @@ Beginnend mit <small>(v0.18)</small>  wird das Arch Geschoss komplett aus dem [A
 ## Anwendung
 
 1.  Wähle optional ein oder mehrere Objekte aus, die in deinem neuen Geschoss enthalten sein sollen.
-2.  Rufe den Befehl Architektur Geschoss auf mehrere Arten auf   *
+2.  Rufe den Befehl Architektur Geschoss auf mehrere Arten auf:
     -   Drücken der **<img src="images/Arch_Floor.svg" width=16px> [Arch Geschoss](Arch_Floor/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwendung der **L**, dann **V** Tastaturkürzel.
     -   Verwendung des **Architektur → Geschoss** Eintrags im oberen Menü.
@@ -36,18 +36,18 @@ Ein Arch Geschoss Objekt teilt alle Eigenschaften eines [Arch Gebäudeteils](Arc
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Etagen-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   * 
+Das Etagen-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
 
 -   Erzeugt ein `Floor`-Objekt aus `objectslist`, einer Liste von Objekten.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

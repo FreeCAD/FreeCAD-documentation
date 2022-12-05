@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Assembly3 ConstraintAngle
-   Icon   *Assembly_ConstraintAngle.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:
+   Name:Assembly3 ConstraintAngle
+   Icon:Assembly_ConstraintAngle.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintAngle/pl
@@ -26,12 +26,12 @@ The constraint accepts straight edges and planar faces.
 
 ## Notes
 
-2D   * This constraint seems to be the only way to control an angle in a skeleton sketch (2D kinematic assembly); Prove me wrong, PLEASE!
+2D: This constraint seems to be the only way to control an angle in a skeleton sketch (2D kinematic assembly); Prove me wrong, PLEASE!
 
 -   Its **Angle|Angle** property allows any positive value, but 0° and 180° exactly are puzzling the solver.
 -   It flips direction if angles greater than 180° are used and as a result 135° and 225° give the same positions for the involved elements.
 
-   *   It is useless if you want to simulate a full rotation and so ruins the principle of using a skeleton sketch for a lot of kinematic tasks such as driving a piston by a rotating crank coupled with a con-rod.
+:   It is useless if you want to simulate a full rotation and so ruins the principle of using a skeleton sketch for a lot of kinematic tasks such as driving a piston by a rotating crank coupled with a con-rod.
 
 
 

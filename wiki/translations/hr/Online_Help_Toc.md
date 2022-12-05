@@ -1,12 +1,12 @@
 # Online Help Toc/hr
-Ovo je sadržaj koji se koristi za automatsku izgradnju sustava pomoći u FreeCAD-u. Verzija za ispis (printanje) ovog priručnika je dostupna na [releases page](https   *//github.com/FreeCAD/FreeCAD/releases) na Engleskom jeziku. Ako imate bilo kakvih pitanja ili vam je potrebna pomoć sa FreeCAD-om, molimo pogledajte [Stranica pomoći](Help/hr.md), uključujući forume i grupe za chat.
+Ovo je sadržaj koji se koristi za automatsku izgradnju sustava pomoći u FreeCAD-u. Verzija za ispis (printanje) ovog priručnika je dostupna na [releases page](https://github.com/FreeCAD/FreeCAD/releases) na Engleskom jeziku. Ako imate bilo kakvih pitanja ili vam je potrebna pomoć sa FreeCAD-om, molimo pogledajte [Stranica pomoći](Help/hr.md), uključujući forume i grupe za chat.
 
-Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual   *Introduction/hr.md).
+Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual:Introduction/hr.md).
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 
 </div>
@@ -45,7 +45,7 @@ Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual   *Introduction
 <div class="mw-translate-fuzzy">
 
 -   The [Radne površine](Workbenches/hr.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Arhitektura](Arch_Workbench/hr.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arhitektura](Arch_Workbench/hr.md)
     -   [(Draft) Nacrt](Draft_Workbench/hr.md)
     -   [Crtež](Drawing_Workbench/hr.md)
     -   [FEM Moduli](FEM_Workbench/hr.md)
@@ -158,11 +158,6 @@ Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual   *Introduction
     -   [Suradnici](Contributors/hr.md)
 
 -   [Objašnjenje Pojmova](Glossary/hr.md)
-
-
-
-
-[Category   *Documentation](Category_Documentation.md)
 
 
 

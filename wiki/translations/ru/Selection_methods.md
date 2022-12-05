@@ -3,7 +3,7 @@
 
 ## Обзор
 
-[Методы выбора](Selection_methods/ru.md) в FreeCAD позволяют выбирать объекты в [интерфейсе FreeCAD](Interface/ru.md)   * таких как [3D view](3D_view/ru.md), [древе проекта](Tree_view/ru.md), [вид выбора](Selection_view/ru.md) и других диалогах. Некоторые методы выбора зависят от конкретной рабочей среды и задокументированы в соответствующей документации по рабочей среде.
+[Методы выбора](Selection_methods/ru.md) в FreeCAD позволяют выбирать объекты в [интерфейсе FreeCAD](Interface/ru.md): таких как [3D view](3D_view/ru.md), [древе проекта](Tree_view/ru.md), [вид выбора](Selection_view/ru.md) и других диалогах. Некоторые методы выбора зависят от конкретной рабочей среды и задокументированы в соответствующей документации по рабочей среде.
 
 ## Трёхмерный вид 
 
@@ -92,7 +92,7 @@ Gui.Selection.Filter
 
 
 ```python
-Gui.Selection.addSelectionGate("SELECT Part   *   *Feature SUBELEMENT Edge")
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 ```
 
 Смотрите [Документацию по исходным кодам](Source_documentation/ru.md) и [Std PythonHelp](Std_PythonHelp/ru.md) для получения дополнительной помощи по использованию этих инструментов.

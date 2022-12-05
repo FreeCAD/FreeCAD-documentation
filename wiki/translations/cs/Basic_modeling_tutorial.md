@@ -1,12 +1,12 @@
 # Basic modeling tutorial/cs
 ---
-- TutorialInfo   */cs
-   Topic   * Introduction to modelling
-   Level   * Beginner
-   Time   * 15 minutes
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/cs
+   Topic: Introduction to modelling
+   Level: Beginner
+   Time: 15 minutes
+   Author:
+   FCVersion:
+   Files:
 }}
 
 ## Introduction
@@ -30,7 +30,7 @@ Rozdělanou práci ukládejte často a občas ji uložte pod jiným jménem, zí
 
 ## Úvod do modelovacích technik 
 
-První (a základní) technika modelování těles je [Constructive Solid Geometry (CSG)](http   *//en.wikipedia.org/wiki/Constructive_solid_geometry). Pracujete se základními tvary jako jsou kostky, válce, koule a kužely a konstruujete z nich požadované tvary jejich kombinací, odečítáním jednoho tvaru od druhého nebo jejich protínáním. Tyto nástroje jsou součástí [Pracovní plochy Díl](Part_Workbench/cs.md). Můžete také uplatnit transformace tvarů, jako jsou zaoblení nebo úkosy hran. Tyto nástroje jsou také v [Pracovní ploše Díl](Part_Workbench/cs.md).
+První (a základní) technika modelování těles je [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Pracujete se základními tvary jako jsou kostky, válce, koule a kužely a konstruujete z nich požadované tvary jejich kombinací, odečítáním jednoho tvaru od druhého nebo jejich protínáním. Tyto nástroje jsou součástí [Pracovní plochy Díl](Part_Workbench/cs.md). Můžete také uplatnit transformace tvarů, jako jsou zaoblení nebo úkosy hran. Tyto nástroje jsou také v [Pracovní ploše Díl](Part_Workbench/cs.md).
 
 
 </div>
@@ -45,12 +45,12 @@ Takže začněme tak, že si vyzkoušíme udělat nějaké železné nohy ke sto
 ## 1.metoda - Konstrukční geometrie těles 
 
 -   Začněte na [pracovní ploše Díl](Part_Workbench/cs.md) (menu **Pohled \> Pracovní plocha \> Díl**)
--   Klikněte na tlačítko <img alt="" src=images/Part_Box.png  style="width   *32px;"> [Box](Part_Box/cs.md) pro vytvoření boxu (kostky)
+-   Klikněte na tlačítko <img alt="" src=images/Part_Box.png  style="width:32px;"> [Box](Part_Box/cs.md) pro vytvoření boxu (kostky)
 -   Změnte jho rozměry tak, že jej vyberete buď ve 3D prostoru nebo kliknutím na něj v záložce Projektu vlevo, potom
 -   klikněte na záložku Data dole v okně Projektu a změňte hodnoty výšky, délky a šířky na 750mm, 50 a 50 *(viz. Obr. 1.1)*
 -   Stejným způsobem vytvořte druhý box, ale s hodnotami 750, 40 a 40mm. Ve výchozím postavení bude tento box překrývat ten první. *(viz. Obr. 1.2)*
--   Teď odečtete druhý box od prvního. Vyberte ten první (nazvaný Box), potom druhý (nazvaný Box001), pozor, pořadí výběru je důležitét! (ujistěte se, že oba tvary jsou vybrány v okně stromu projektu. Pamatujte si jednu věc   * v navigačním módu Invertor - Vynálezce, nefunguje kombinace Ctrl + klik pro vícenásobný výběr. [Switch](Mouse_Model.md) to either CAD or Blender selection.)
--   On the Part Workbench toolbar, click on the <img alt="" src=images/Part_Cut.png  style="width   *32px;"> [Cut](Part_Cut.md) tool.
+-   Teď odečtete druhý box od prvního. Vyberte ten první (nazvaný Box), potom druhý (nazvaný Box001), pozor, pořadí výběru je důležitét! (ujistěte se, že oba tvary jsou vybrány v okně stromu projektu. Pamatujte si jednu věc: v navigačním módu Invertor - Vynálezce, nefunguje kombinace Ctrl + klik pro vícenásobný výběr. [Switch](Mouse_Model.md) to either CAD or Blender selection.)
+-   On the Part Workbench toolbar, click on the <img alt="" src=images/Part_Cut.png  style="width:32px;"> [Cut](Part_Cut.md) tool.
 
 
 </div>
@@ -84,7 +84,7 @@ Nechcete úhelník orientovaný takto? Potřebujete pouze změnit umístění bo
 
 <div class="mw-translate-fuzzy">
 
-Mimochodem, můžeme přidat zaoblení, tak bude úhelník více realistický. Použijeme nástroj <img alt="" src=images/Part_Fillet.png  style="width   *32px;"> [Zaoblení](Part_Fillet/cs.md). 
+Mimochodem, můžeme přidat zaoblení, tak bude úhelník více realistický. Použijeme nástroj <img alt="" src=images/Part_Fillet.png  style="width:32px;"> [Zaoblení](Part_Fillet/cs.md). 
 *(Obr. 1.6)*
 
 
@@ -105,7 +105,7 @@ Tato metoda vyžaduje začít kreslení 2D profilu. Musíte aktivovat [pracovní
 
 <div class="mw-translate-fuzzy">
 
-Dále potřebujeme nastavit [pracovní rovinu](Draft_SelectPlane/cs.md). Podle verze FreeCADu máte přímo pod nástrojovým pruhem vpravo tlačítko \"None\". Klikněte na ně a vlevo se objeví hned za \"aktivní příkaz\"   * Vyberte rovinu Odstup, potom textové pole a několik dalších tlačítek. Předpokládejme, že chcete začít profil v půdorysu, stiskněte XY. Tlačítko \"None\" nyní bude ukazovat \"Top\" jako aktivní rovinu. [Podívejte se na poznámku.](#DraftPlaneButton.md)
+Dále potřebujeme nastavit [pracovní rovinu](Draft_SelectPlane/cs.md). Podle verze FreeCADu máte přímo pod nástrojovým pruhem vpravo tlačítko \"None\". Klikněte na ně a vlevo se objeví hned za \"aktivní příkaz\": Vyberte rovinu Odstup, potom textové pole a několik dalších tlačítek. Předpokládejme, že chcete začít profil v půdorysu, stiskněte XY. Tlačítko \"None\" nyní bude ukazovat \"Top\" jako aktivní rovinu. [Podívejte se na poznámku.](#DraftPlaneButton.md)
 
 Vyberte nástroj ![](images/Draft_Wire.png ) [Drát (lomená čára)](Draft_Wire/cs.md), potom začněte kreslit tvar použitím textových polí pro pozice X a Y. Mělo by být zakliknuto políčko \"Relativně\" i políčko \"Vyplněno\".
 
@@ -115,13 +115,13 @@ Vyberte nástroj ![](images/Draft_Wire.png ) [Drát (lomená čára)](Draft_Wire
 
 <div class="mw-translate-fuzzy">
 
--   1\. bod   * 0,0
--   2\. bod   * 50,0
--   3\. bod   * 0,10
--   4\. bod   * -40,0
--   5\. bod   * 0,40
--   6\. bod   * -10,0
--   7\. bod nebudeme zadávat, lepší je kliknout na tlačítko \"Uzavřít\" pro uzavření profilu. Teď bychom měli mít profil, označený \"Drát\" v záložce okna stromu projektu   *
+-   1\. bod: 0,0
+-   2\. bod: 50,0
+-   3\. bod: 0,10
+-   4\. bod: -40,0
+-   5\. bod: 0,40
+-   6\. bod: -10,0
+-   7\. bod nebudeme zadávat, lepší je kliknout na tlačítko \"Uzavřít\" pro uzavření profilu. Teď bychom měli mít profil, označený \"Drát\" v záložce okna stromu projektu:
 
 
 </div>
@@ -153,7 +153,7 @@ Aktivujte [pracovní plochu Díl](Part_Workbench/cs.md).
 
 <div class="mw-translate-fuzzy">
 
-Klikněte na nástroj <img alt="" src=images/Part_Extrude.png  style="width   *32px;"> [Vysunout](Part_Extrude/cs.md).
+Klikněte na nástroj <img alt="" src=images/Part_Extrude.png  style="width:32px;"> [Vysunout](Part_Extrude/cs.md).
 
 
 </div>
@@ -168,12 +168,12 @@ Na záložce Úkoly vlevo vyberte objekt **Drát**. Potom zadejte požadovanou d
 
 ![Obr. 1.8 Vysunutý objekt](images/Tutorial-normand08.jpg )
 
-U této metody mám drobné varování ve srovnání s první   * pro úpravu tvaru musíte upravit Drát a to není tak jednoduché jako u předešlé metody.
+U této metody mám drobné varování ve srovnání s první: pro úpravu tvaru musíte upravit Drát a to není tak jednoduché jako u předešlé metody.
 
 
 <div class="mw-translate-fuzzy">
 
-A je ještě několik dalších způsobů jak to udělat! Doufám, že tyto dva příklady Vám pomohou začít. Určitě cestou narazíte na pár zádrhelů (I já jsem narazil, když jsem se učil FreeCAD a to mám zkušenosti s 3D CAD aplikacemi), ale neváhejte se zeptat na [FreeCAD fóru](http   *//forum.freecadweb.org)!
+A je ještě několik dalších způsobů jak to udělat! Doufám, že tyto dva příklady Vám pomohou začít. Určitě cestou narazíte na pár zádrhelů (I já jsem narazil, když jsem se učil FreeCAD a to mám zkušenosti s 3D CAD aplikacemi), ale neváhejte se zeptat na [FreeCAD fóru](http://forum.freecadweb.org)!
 
 
 </div>
@@ -181,12 +181,12 @@ A je ještě několik dalších způsobů jak to udělat! Doufám, že tyto dva 
 
 <div id="DraftPlaneButton">
 
-Poznámka k tlačítku Pracovní rovina Kreslení   *
+Poznámka k tlačítku Pracovní rovina Kreslení:
 
 
 </div>
 
-Označení na tlačítku Vašeho FreeCADu může být jiné v závislosti na verzi a také na tom co jste dělali předtím. Označení tlačítka může být   * \"top\", \"front\", \"side\", \"None\" nebo Vektor reprezentovaný jako d(0.0,0.0,1.0). Také může být prázdný, Například   *
+Označení na tlačítku Vašeho FreeCADu může být jiné v závislosti na verzi a také na tom co jste dělali předtím. Označení tlačítka může být: \"top\", \"front\", \"side\", \"None\" nebo Vektor reprezentovaný jako d(0.0,0.0,1.0). Také může být prázdný, Například:
 
 ![Výběr roviny None](images/DraftPlaneNone.png )
 

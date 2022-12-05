@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Part Compound‏‎
-   Name/de   *Part Verbund
-   MenuLocation   *Formteil → Verbund → Erzeuge Verbund
-   Workbenches   *[Part](Part_Workbench/de.md)
-   Version   *0.14
-   SeeAlso   *[Part Verschmelzen](Part_Fuse/de.md), [Part VerbundFiltern](Part_CompoundFilter/de.md), [Part VerbundSprengen](Part_ExplodeCompound/de.md)
+- GuiCommand:/de
+   Name:Part Compound‏‎
+   Name/de:Part Verbund
+   MenuLocation:Formteil → Verbund → Erzeuge Verbund
+   Workbenches:[Part](Part_Workbench/de.md)
+   Version:0.14
+   SeeAlso:[Part Verschmelzen](Part_Fuse/de.md), [Part VerbundFiltern](Part_CompoundFilter/de.md), [Part VerbundSprengen](Part_ExplodeCompound/de.md)
 ---
 
 # Part Compound/de
@@ -33,7 +33,7 @@ Dieser Befehl erzeugt einen Verbund aus jeder Art topologischer Formen. Dies kö
 
 hinzugefügt werden sollen
 
-1.  Wähle den **Formteil → Verbund → Erzeuge Verbund** Eintrag im Part Menü oder klicke auf die <img alt="" src=images/Part_Compound.svg  style="width   *24px;"> Schaltfläche.
+1.  Wähle den **Formteil → Verbund → Erzeuge Verbund** Eintrag im Part Menü oder klicke auf die <img alt="" src=images/Part_Compound.svg  style="width:24px;"> Schaltfläche.
 
 
 </div>

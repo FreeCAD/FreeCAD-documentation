@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft Apply
-   Name/fr   *Draft Appliquer le style
-   MenuLocation   *Utilitaire → Appliquer le style en cours
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Draft Définir le style](Draft_SetStyle/fr.md)
+- GuiCommand:/fr
+   Name:Draft Apply
+   Name/fr:Draft Appliquer le style
+   MenuLocation:Utilitaire → Appliquer le style en cours
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Draft Définir le style](Draft_SetStyle/fr.md)
 ---
 
 # Draft ApplyStyle/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_ApplyStyle.svg  style="width   *24px;"> **Draft Appliquer le style** applique les paramètres de style en cours aux objets sélectionnés.
+La commande <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft Appliquer le style** applique les paramètres de style en cours aux objets sélectionnés.
 
-Cette commande ne gère actuellement que cinq des paramètres proposés par la commande [Draft Définir le style](Draft_SetStyle/fr.md)    *
+Cette commande ne gère actuellement que cinq des paramètres proposés par la commande [Draft Définir le style](Draft_SetStyle/fr.md) :
 
 -    **Couleur de ligne**
     

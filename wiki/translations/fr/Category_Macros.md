@@ -1,8 +1,6 @@
 # Category:Macros/fr
 Cette catégorie contient des macros qui permettent d\'étendre les fonctionnalités de votre installation de FreeCAD.
 
-[Category   *Categories/fr](Category   *Categories/fr.md)
-
 ### Contents
 
 |     |     |     |

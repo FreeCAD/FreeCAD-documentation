@@ -11,7 +11,7 @@ Miba es un modo de embeber información sobre el espacio 3D en una imagen 2D. Es
 
 </div>
 
-Una especificación detallada puedes encontrarla aquí   * <http   *//miba.juergen-riegel.net/>
+Una especificación detallada puedes encontrarla aquí: <http://miba.juergen-riegel.net/>
 
 ## Miba in FreeCAD 
 
@@ -20,12 +20,12 @@ Una especificación detallada puedes encontrarla aquí   * <http   *//miba.juerg
 
 ## Miba en FreeCAD 
 
-Si seleccionas un formato de archivo que tenga esta capacidad que hemos comentado (JPG y PNG) puedes escoger escribir un comentario o insertar la información MIBA en los campos de comentarios (por defecto)   *
+Si seleccionas un formato de archivo que tenga esta capacidad que hemos comentado (JPG y PNG) puedes escoger escribir un comentario o insertar la información MIBA en los campos de comentarios (por defecto):
 
 
 </div>
 
-<img alt="" src=images/Save_picture.png  style="width   *600px;">
+<img alt="" src=images/Save_picture.png  style="width:600px;">
 
 ## Creación de imágenes Miba pictures por archivos de guión 
 
@@ -34,25 +34,23 @@ Si seleccionas un formato de archivo que tenga esta capacidad que hemos comentad
 import Part,PartGui
 
 # loading test part
-Part.open("C   */Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp")
+Part.open("C:/Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp")
 
-OutDir = "c   */temp/"
+OutDir = "c:/temp/"
 Gui.ActiveDocument.ActiveView.setAnimationEnabled(False)
 
 # creating images with different Views, Cameras and sizes
-for p in ["PerspectiveCamera", "OrthographicCamera"]   *
+for p in ["PerspectiveCamera", "OrthographicCamera"]:
     Gui.SendMsgToActiveView(p)
-    for f in ["ViewAxo", "ViewFront", "ViewTop"]   *
+    for f in ["ViewAxo", "ViewFront", "ViewTop"]:
         Gui.SendMsgToActiveView(f)
-        for x, y in [[500, 500], [1000, 3000], [3000, 1000], [3000, 3000], [8000, 8000]]   *
+        for x, y in [[500, 500], [1000, 3000], [3000, 1000], [3000, 3000], [8000, 8000]]:
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + "Blade_" + p + "_" + f + "_" + str(x) + "_" + str(y) + ".jpg", x, y, "White")
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + "Blade_" + p + "_" + f + "_" + str(x) + "_" + str(y) + ".png", x, y, "Transparent")
 
 # close active document
 App.closeDocument(App.ActiveDocument.Name)
 ```
-
-[Category   *User_Documentation](Category_User_Documentation.md)
 
 
 

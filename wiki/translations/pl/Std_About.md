@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Std About
-   Name/pl   *Std   * Informacje o FreeCAD
-   Workbenches   *Wszystkie
-   MenuLocation   *Pomoc → Informacje o FreeCAD
+- GuiCommand:/pl
+   Name:Std About
+   Name/pl:Std: Informacje o FreeCAD
+   Workbenches:Wszystkie
+   MenuLocation:Pomoc → Informacje o FreeCAD
 ---
 
 # Std About/pl
@@ -20,13 +20,13 @@ Polecenie **Informacje o FreeCAD** otwiera okno dialogowe, w którym wyświetlan
 *Okienko dialogowe Informacje o FreeCAD*
 
 
-**'''UWAGA'''   * Nie rób zrzutu ekranu tego okna dialogowego! Zamiast tego naciśnij przycisk <br>**Skopiuj do schowka**, a następnie wklej te informacje w swoim żądaniu pomocy.**
+**'''UWAGA''': Nie rób zrzutu ekranu tego okna dialogowego! Zamiast tego naciśnij przycisk <br>**Skopiuj do schowka**, a następnie wklej te informacje w swoim żądaniu pomocy.**
 
 ## Użycie
 
 1.  Wybierz opcję z menu **Pomoc → <img src="images/Std_About.svg" width=16px> Informacje o FreeCAD**.
-2.  Wybierz jedną z zakładek   * **O Programie**, **Licencja** lub **Biblioteki**.
-3.  Zawsze, gdy musisz podać informacje o wersji FreeCAD, wykonaj następujące czynności   *
+2.  Wybierz jedną z zakładek: **O Programie**, **Licencja** lub **Biblioteki**.
+3.  Zawsze, gdy musisz podać informacje o wersji FreeCAD, wykonaj następujące czynności:
     -   Naciśnij przycisk **Skopiuj do schowka** na zakładce **O programie**.
     -   Wklej te informacje w swoim zgłoszeniu pomocy.
     -   Nie dołączaj zrzutu ekranu okna dialogowego.
@@ -34,22 +34,22 @@ Polecenie **Informacje o FreeCAD** otwiera okno dialogowe, w którym wyświetlan
 
 ### Informacje o 
 
-Zakładka O programie pokazuje informacje o używanej wersji programu FreeCAD, numerze rewizji, systemie operacyjnym oraz niektóre szczegóły dotyczące obsługiwanych bibliotek, [Python](Python/pl.md), Qt, Coin i OCCT. Podczas zwracania się o pomoc na forum [FreeCAD](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=2264) lub zgłaszania błędów należy koniecznie podać te informacje.
+Zakładka O programie pokazuje informacje o używanej wersji programu FreeCAD, numerze rewizji, systemie operacyjnym oraz niektóre szczegóły dotyczące obsługiwanych bibliotek, [Python](Python/pl.md), Qt, Coin i OCCT. Podczas zwracania się o pomoc na forum [FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=3&t=2264) lub zgłaszania błędów należy koniecznie podać te informacje.
 
 Aby uzyskać informacje o rozwiązywaniu problemów, naciśnij przycisk **Skopiuj do schowka**, a następnie wklej te informacje tam, gdzie są potrzebne.
 
-OS   * Ubuntu 18.04.3 LTS (ubuntu   *GNOME/ubuntu)
-Word size of OS   * 64-bit
-Word size of FreeCAD   * 64-bit
-Version   * 0.19.18984 (Git)
-Build type   * Unknown
-Branch   * master
-Hash   * c251caa934597d4b32def43ca8ac2ab479931d73
-Python version   * 3.6.9
-Qt version   * 5.9.5
-Coin version   * 4.0.0a
-OCC version   * 7.3.0
-Locale   * English/UnitedStates (en_US)
+OS: Ubuntu 18.04.3 LTS (ubuntu:GNOME/ubuntu)
+Word size of OS: 64-bit
+Word size of FreeCAD: 64-bit
+Version: 0.19.18984 (Git)
+Build type: Unknown
+Branch: master
+Hash: c251caa934597d4b32def43ca8ac2ab479931d73
+Python version: 3.6.9
+Qt version: 5.9.5
+Coin version: 4.0.0a
+OCC version: 7.3.0
+Locale: English/UnitedStates (en_US)
 
 ### Zasłużeni
 
@@ -57,7 +57,7 @@ Zakładka Zasłużeni pokazuje listę osób, które przyczyniły się do powstan
 
 ### Licencja
 
-FreeCAD jest licencjonowany zgodnie z warunkami [GNU Lesser General Public License 2](https   *//en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) *(LGPL 2)*. Pełny tekst tej licencji znajduje się tutaj. Zobacz stronę [licencja](Licence/pl.md), aby uzyskać więcej szczegółów.
+FreeCAD jest licencjonowany zgodnie z warunkami [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) *(LGPL 2)*. Pełny tekst tej licencji znajduje się tutaj. Zobacz stronę [licencja](Licence/pl.md), aby uzyskać więcej szczegółów.
 
 Ponieważ FreeCAD korzysta z zewnętrznych bibliotek, mogą one mieć własne warunki licencjonowania. Zapoznaj się z ich konkretnymi licencjami dostępnymi na stronie [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md).
 
@@ -70,9 +70,7 @@ Na karcie Biblioteki znajduje się lista zewnętrznych bibliotek używanych prze
 
 
 
-{{Std Base navi}}  
-
-[Category   *Common Questions](Category_Common_Questions.md)
+{{Std Base navi}}
 
 
 

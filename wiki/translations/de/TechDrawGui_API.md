@@ -1,9 +1,9 @@
 # TechDrawGui API/de
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation].** Diese Funktionen sind Teil des [TechDraw-Arbeitsbereichs](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) oder mit dem [Python](Python/de.md)-Interpreter verwendet werden, sobald das TechDrawGui importiert wurde.
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].** Diese Funktionen sind Teil des [TechDraw-Arbeitsbereichs](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) oder mit dem [Python](Python/de.md)-Interpreter verwendet werden, sobald das TechDrawGui importiert wurde.
 
 Siehe die [TechDraw API](TechDraw_API/de.md) für weitere Funktionen.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD
 import TechDrawGui
@@ -26,7 +26,7 @@ TechDrawGui.exportPageAsSvg(p, f)
 
 {{APIFunction|copyActiveViewToSvgFile|document, filePath, (options)|eine Kopie der aktiven Ansicht für "document" in der Datei "filePath" speichern|double (estimated scale)}}
 
-Optionen   *
+Optionen:
 
 -   width - float - Breite des erzeugten svg in mm
 -   height - float - Höhe des erzeugten svg in mm
@@ -41,9 +41,7 @@ Optionen   *
 
 {{TechDraw Tools navi
 
-}}  
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
+}}
 
 
 

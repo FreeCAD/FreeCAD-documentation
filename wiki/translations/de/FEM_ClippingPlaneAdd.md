@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ClippingPlaneAdd
-   Name/de   *FEM SchnittebeneHinzufügen
-   MenuLocation   *Dienstprogramme → Schnittebene auf Oberfläche
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM ClippingPlaneAdd
+   Name/de:FEM SchnittebeneHinzufügen
+   MenuLocation:Dienstprogramme → Schnittebene auf Oberfläche
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ClippingPlaneAdd/de
@@ -19,9 +19,9 @@ The clipping plane is the same you get when using the feature [Toggle Clip Plane
 
 To create a clipping plane, either use the toolbar button **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Clipping plane on face'''** or the menu **Utilities → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Clipping plane on face**. It is possible to have several clipping planes.
 
-Despite the plane is persistent, it will not appear in the [document tree](Tree_view.md). The plane appears in the model view like this   *
+Despite the plane is persistent, it will not appear in the [document tree](Tree_view.md). The plane appears in the model view like this:
 
-<img alt="" src=images/FEM_Clipping-Plane-Example.png  style="width   *400px;">
+<img alt="" src=images/FEM_Clipping-Plane-Example.png  style="width:400px;">
 
 To move the plane, click on the big white cuboid that is perpendicular to the plane and keep the mouse button pressed while the mouse is moved.
 

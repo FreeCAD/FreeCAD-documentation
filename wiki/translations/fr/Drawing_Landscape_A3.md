@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Drawing Landscape A3
-   Name/fr   *Drawing Feuille A3 Paysage
-   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation   *Drawing → Insérer une nouvelle mise en plan → Feuille A3 paysage
-   Shortcut   *
+- GuiCommand:/fr
+   Name:Drawing Landscape A3
+   Name/fr:Drawing Feuille A3 Paysage
+   Workbenches:[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation:Drawing → Insérer une nouvelle mise en plan → Feuille A3 paysage
+   Shortcut:
 ---
 
 # Drawing Landscape A3/fr
@@ -15,9 +15,9 @@ Un objet **Page** est ajouté à l\'arborescence de la vue Projet, avec un icôn
 
 Pour ouvrir la visionneuse afin de visionner la page, simplement double-cliquer sur l\'objet **Page**, ou encore faire un clic droit → Afficher la mise en plan. La page sera ouverte dans un nouvel onglet. Vous pouvez fermer cet onglet puis l\'ouvrir à n\'importe quel moment de la même manière.
 
-Si la page ne s\'affiche pas, cliquer sur l\'icône Rafraîchir <img alt="" src=images/view-refresh.png  style="width   *16px;"> de la barre d\'outils principale, aller dans le menu *Édition → Rafraîchir*, ou encore faire le raccourci-clavier **CTRL+R**.
+Si la page ne s\'affiche pas, cliquer sur l\'icône Rafraîchir <img alt="" src=images/view-refresh.png  style="width:16px;"> de la barre d\'outils principale, aller dans le menu *Édition → Rafraîchir*, ou encore faire le raccourci-clavier **CTRL+R**.
 
-<img alt="" src=images/Drawing_Page.png  style="width   *500px;">
+<img alt="" src=images/Drawing_Page.png  style="width:500px;">
 
 ### Options
 

@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Rebar UShape
-   Name/ro   *Arch Rebar UShape
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   *None
-   SeeAlso   *[LShape Rebar](Arch_Rebar_LShape/ro.md)
-   Addon   *Reinforcement
+- GuiCommand:/ro
+   Name:Arch Rebar UShape
+   Name/ro:Arch Rebar UShape
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:None
+   SeeAlso:[LShape Rebar](Arch_Rebar_LShape/ro.md)
+   Addon:Reinforcement
 ---
 
 # Arch Rebar Straight/ro
@@ -28,14 +28,14 @@ Instrumentul **<img src="images/Arch_Rebar_Straight.png" width=16px> Straight Re
 
 The [Arch Straight Rebar](Arch_Rebar_Straight.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/StraightRebar.png  style="width   *800px;">
+<img alt="" src=images/StraightRebar.png  style="width:800px;">
 
 
 </div>
@@ -60,28 +60,28 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-<img alt="" src=images/StraightRebarDialog.png  style="width   *250px;"> 
+<img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Taskview panel for the Arch Rebar Straight tool*
 
 ## Proprietăți
 
--    **Orientation**   * Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
+-    **Orientation**: Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
 
--    **Front Cover**   * Distanța dintre armături și fațetele selectate.
+-    **Front Cover**: Distanța dintre armături și fațetele selectate.
 
--    **Right Cover**   * Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
+-    **Right Cover**: Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
 
--    **Left Cover**   * Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
+-    **Left Cover**: Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
 
--    **Bottom Cover**   * Distanța dintre armătură și fațeta de jos a structurii.
+-    **Bottom Cover**: Distanța dintre armătură și fațeta de jos a structurii.
 
--    **Top Cover**   * Distanța dintre armătură și fața superioară a structurii.
+-    **Top Cover**: Distanța dintre armătură și fața superioară a structurii.
 
--    **Rounding**   * O valoare de rotunjire care trebuie aplicată colțurilor barelor, exprimată în raport cu diametrul acestora.
+-    **Rounding**: O valoare de rotunjire care trebuie aplicată colțurilor barelor, exprimată în raport cu diametrul acestora.
 
--    **Amount**   * Cantitatea de armătură
+-    **Amount**: Cantitatea de armătură
 
--    **Spacing**   * Distnța dintre acele fiecărei bare.
+-    **Spacing**: Distnța dintre acele fiecărei bare.
 
 ## Scripting
 
@@ -96,7 +96,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **<img src="images/Arch_Rebar_Straight.png" width=16px> Straight Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python prin utilizarea următoarei funcții   *
+Instrumentul **<img src="images/Arch_Rebar_Straight.png" width=16px> Straight Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python prin utilizarea următoarei funcții:
 
 
 </div>
@@ -227,7 +227,7 @@ editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-Example   * 
+Example: 
 ```python
 import StraightRebar
 
@@ -249,11 +249,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 </div>
-
-
- 
-
-[Category   *Arch/ro](Category   *Arch/ro.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

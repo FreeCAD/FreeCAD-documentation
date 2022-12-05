@@ -1,8 +1,6 @@
 # Category:Surface/ro
 This category lists pages related to the [Surface Workbench/ro](Surface_Workbench/ro.md).
 
-[Category   *Workbenches/ro](Category   *Workbenches/ro.md)
-
 ### Contents
 
 |     |     |     |

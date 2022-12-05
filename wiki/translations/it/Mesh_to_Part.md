@@ -3,7 +3,7 @@
 
 ## Convertire oggetti Parte in Mesh 
 
-La conversione di oggetti di alto livello come le [forme di Parte](Part_Workbench/it.md) in oggetti semplici come gli [oggetti Mesh](Mesh_Workbench/it.md) è una operazione piuttosto semplice, nella quale tutte le facce di un oggetto Parte vengono triangolate (suddivise in maglie di una rete). Il risultato di tale triangolazione (tassellatura) viene poi utilizzato per costruire un oggetto mesh   *
+La conversione di oggetti di alto livello come le [forme di Parte](Part_Workbench/it.md) in oggetti semplici come gli [oggetti Mesh](Mesh_Workbench/it.md) è una operazione piuttosto semplice, nella quale tutte le facce di un oggetto Parte vengono triangolate (suddivise in maglie di una rete). Il risultato di tale triangolazione (tassellatura) viene poi utilizzato per costruire un oggetto mesh:
 
 
 ```python
@@ -14,9 +14,9 @@ shp = obj.Shape
 faces = []
 
 triangles = shp.tessellate(1) # the number represents the precision of the tessellation
-for tri in triangles[1]   *
+for tri in triangles[1]:
     face = []
-    for i in tri   *
+    for i in tri:
         face.append(triangles[0][i])
     faces.append(face)
 
@@ -24,7 +24,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 ```
 
-Esempio alternativo   *   *
+Esempio alternativo::
 
 
 ```python
@@ -34,7 +34,7 @@ import MeshPart
 obj = FreeCADGui.Selection.getSelection()[0] # a Part object must be preselected
 shp = obj.Shape
 
-mesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh.Mesh = MeshPart.meshFromShape(
         Shape=shp,
         LinearDeflection=0.01,
@@ -48,7 +48,7 @@ La conversione delle mesh in oggetti parte è un\'operazione comune. Molto spess
 
 Convertire gli oggetti mesh in oggetti di livello superiore, come sono gli oggetti gestiti dal [Ambiente Parte](Part_Workbench/it.md) di FreeCAD non è un\'operazione facile. L\'oggetto Mesh può contenere migliaia di triangoli (per esempio quando è generato da uno scanner 3D), e manipolare solidi costituiti dallo stesso numero di facce sarebbe estremamente difficile. Quindi, in genere, si desidera ottimizzare l\'oggetto durante la conversione.
 
-FreeCAD attualmente offre due metodi per convertire mesh in oggetti Parte. Il primo metodo è una semplice conversione, diretta, senza alcuna ottimizzazione   *
+FreeCAD attualmente offre due metodi per convertire mesh in oggetti Parte. Il primo metodo è una semplice conversione, diretta, senza alcuna ottimizzazione:
 
 
 ```python
@@ -62,7 +62,7 @@ solid = Part.makeSolid(shape)
 Part.show(solid)
 ```
 
-Il secondo metodo offre la possibilità di considerare complanari le sfaccettature delle maglie quando l\'angolo tra di loro è inferiore a un certo valore, riducendo il numero di facce nel risultato finale   *
+Il secondo metodo offre la possibilità di considerare complanari le sfaccettature delle maglie quando l\'angolo tra di loro è inferiore a un certo valore, riducendo il numero di facce nel risultato finale:
 
 
 ```python
@@ -75,22 +75,22 @@ mesh = obj.Mesh
 segments = mesh.getPlanarSegments(0.00001) # use rather strict tolerance here
 faces = []
 
-for i in segments   *
-    if len(i) > 0   *
+for i in segments:
+    if len(i) > 0:
         # a segment can have inner holes
         wires = MeshPart.wireFromSegment(mesh, i)
         # we assume that the exterior boundary is that one with the biggest bounding box
-        if len(wires) > 0   *
+        if len(wires) > 0:
             ext = None
             max_length=0
-            for i in wires   *
-                if i.BoundBox.DiagonalLength > max_length   *
+            for i in wires:
+                if i.BoundBox.DiagonalLength > max_length:
                     max_length = i.BoundBox.DiagonalLength
                     ext = i
 
             wires.remove(ext)
             # all interior wires mark a hole and must reverse their orientation, otherwise Part.Face fails
-            for i in wires   *
+            for i in wires:
                 i.reverse()
 
             # make sure that the exterior wires comes as first in the list
@@ -103,8 +103,6 @@ Part.show(solid)
 
 
  {{Mesh Tools navi}}
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Perpendicular
-   Name/de   *Entwurf Senkrecht
-   MenuLocation   *Entwurf → [Fangen](Draft_Snap/de.md) → Senkrecht
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_Snap_Lock/de.md)
+- GuiCommand:/de
+   Name:Draft Snap Perpendicular
+   Name/de:Entwurf Senkrecht
+   MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Senkrecht
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Perpendicular/de

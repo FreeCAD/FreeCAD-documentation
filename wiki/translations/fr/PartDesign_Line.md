@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *PartDesign Line
-   Name/fr   *PartDesign Ligne de référence
-   MenuLocation   *Part Design → Créer une référence → Créer une ligne de référence
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign Point de référence](PartDesign_Point/fr.md), [Plan de référence](PartDesign_Plane/fr.md)
+- GuiCommand:/fr
+   Name:PartDesign Line
+   Name/fr:PartDesign Ligne de référence
+   MenuLocation:Part Design → Créer une référence → Créer une ligne de référence
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   Version:0.17
+   SeeAlso:[PartDesign Point de référence](PartDesign_Point/fr.md), [Plan de référence](PartDesign_Plane/fr.md)
 ---
 
 # PartDesign Line/fr
@@ -14,7 +14,7 @@
 
 Crée une **Ligne de référence** qui peut être utilisée comme référence pour les esquisses, les autres géométries de référence ou les fonctions. Par exemple, elle peut être utilisée comme axe de révolution pour les fonctions Révolution et Rainure circulaire.
 
-<img alt="" src=images/datum_line.png  style="width   *600px;"> 
+<img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Deux lignes de référence à travers les coins opposés du cube se rencontrent au centre de la masse.*
 
 ## Utilisation
@@ -33,11 +33,11 @@ Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cl
 
 ## Propriétés
 
--    **MapMode**   * répertorie le mode d\'ancrage utilisé.
+-    **MapMode**: répertorie le mode d\'ancrage utilisé.
 
--    **Attachment Offset**   * applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
+-    **Attachment Offset**: applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
 
--    **Label**   * nom donné à l\'objet, ce nom peut être changé à la convenance.
+-    **Label**: nom donné à l\'objet, ce nom peut être changé à la convenance.
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Выбрать всё
-   Name   *Std_SelectAll
-   MenuLocation   *Правка → Выбрать всё
-   Workbenches   *Все
-   SeeAlso   *[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md)
+- GuiCommand:/ru
+   Name/ru:Выбрать всё
+   Name:Std_SelectAll
+   MenuLocation:Правка → Выбрать всё
+   Workbenches:Все
+   SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md)
 ---
 
 # Std SelectAll/ru

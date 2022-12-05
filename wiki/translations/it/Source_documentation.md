@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Il codice sorgente di FreeCAD è commentato per consentire la generazione automatica della documentazione html con [Doxygen](http   *//www.doxygen.org). Questo vale sia per la parte C++ che per la parte Python del codice sorgente di FreeCAD.
+Il codice sorgente di FreeCAD è commentato per consentire la generazione automatica della documentazione html con [Doxygen](http://www.doxygen.org). Questo vale sia per la parte C++ che per la parte Python del codice sorgente di FreeCAD.
 
 
 </div>
@@ -21,14 +21,14 @@ Il codice sorgente di FreeCAD è commentato per consentire la generazione automa
 
 <div class="mw-translate-fuzzy">
 
-La documentazione online del sorgente si trova in <http   *//www.freecadweb.org/api/>
+La documentazione online del sorgente si trova in <http://www.freecadweb.org/api/>
 
 
 </div>
 
 Compiling the API documentation follows the same general steps as compiling the FreeCAD executable, as indicated in the [Compile on Linux](Compile_on_Linux.md) page.
 
-<img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width:800px;">
 
 
 
@@ -60,7 +60,7 @@ Then follow the same steps you would do to compile FreeCAD, as described on the 
 
 
 ```python
-git clone https   *//github.com/FreeCAD/FreeCAD.git freecad-source
+git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
 cd freecad-build
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
@@ -84,7 +84,7 @@ si possono consultare i file HTML risultanti iniziando da Doc/SourceDocu/html/in
 freecad-build/doc/SourceDocu/html/
 ```
 
-The point of entrance to the documentation is the `index.html` file, which you can open with a web browser   * 
+The point of entrance to the documentation is the `index.html` file, which you can open with a web browser: 
 ```python
 xdg-open freecad-build/doc/SourceDocu/html/index.html
 ```
@@ -92,26 +92,26 @@ xdg-open freecad-build/doc/SourceDocu/html/index.html
 
 <div class="mw-translate-fuzzy">
 
-La DevDoc è molto ingombrante, se graphviz è installato sul sistema, genera un volume dei dati maggiore di 2Gb. Un\'alternativa, può invece essere generata una versione più piccola (\~ 500Mb), che è la versione utilizzata in <http   *//www.freecadweb.org/api/> e che si ottiene con   *
+La DevDoc è molto ingombrante, se graphviz è installato sul sistema, genera un volume dei dati maggiore di 2Gb. Un\'alternativa, può invece essere generata una versione più piccola (\~ 500Mb), che è la versione utilizzata in <http://www.freecadweb.org/api/> e che si ottiene con:
 
 
 </div>
 
 ### Reduced documentation 
 
-The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https   *//freecad.github.io/SourceDoc/). 
+The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https://freecad.github.io/SourceDoc/). 
 ```python
 make -j$(nproc --ignore=2) WebDoc
 ```
 
-The documentation on the [FreeCAD API website](https   *//freecad.github.io/SourceDoc/) is produced automatically from <https   *//github.com/FreeCAD/SourceDoc> . Anyone can rebuild it and submit a pull request   *
+The documentation on the [FreeCAD API website](https://freecad.github.io/SourceDoc/) is produced automatically from <https://github.com/FreeCAD/SourceDoc> . Anyone can rebuild it and submit a pull request:
 
--   Fork the repo at <https   *//github.com/FreeCAD/SourceDoc>
--   on your machine   * clone the FreeCAD code (if you haven\'t yet), create a build dir for the doc, and clone the above SourceDoc repo inside. That SourceDoc will be updated when you rebuild the doc, and you\'ll be able to commit & push the results afterwards   *
+-   Fork the repo at <https://github.com/FreeCAD/SourceDoc>
+-   on your machine: clone the FreeCAD code (if you haven\'t yet), create a build dir for the doc, and clone the above SourceDoc repo inside. That SourceDoc will be updated when you rebuild the doc, and you\'ll be able to commit & push the results afterwards:
 
 
 ```python
-git clone https   *//github.com/FreeCAD/FreeCAD
+git clone https://github.com/FreeCAD/FreeCAD
 cd FreeCAD
 mkdir build
 cd build
@@ -131,7 +131,7 @@ git push
 
 <div class="mw-translate-fuzzy">
 
-In alternativa, la documentazione viene generata di volta in volta ed è accessibile su sourceforge [quí](http   *//free-cad.sf.net/SrcDocu/index.html)
+In alternativa, la documentazione viene generata di volta in volta ed è accessibile su sourceforge [quí](http://free-cad.sf.net/SrcDocu/index.html)
 
 
 </div>
@@ -143,12 +143,12 @@ Sui sistemi Unix, è possibile collegare la documentazione del codice sorgente d
 
 <div class="mw-translate-fuzzy">
 
--   Su Debian e sistemi derivati   *
+-   Su Debian e sistemi derivati:
 
-   *   \- Installare il pacchetto libcoin60-doc
-   *   \- Decomprimere il file /usr/share/doc/libcoin60-doc/html/coin.tag.gz
-   *   \- Rigenerare la documentazione del codice sorgente
-   *   E si è pronti per navigare offline.
+:   \- Installare il pacchetto libcoin60-doc
+:   \- Decomprimere il file /usr/share/doc/libcoin60-doc/html/coin.tag.gz
+:   \- Rigenerare la documentazione del codice sorgente
+:   E si è pronti per navigare offline.
 
 
 </div>
@@ -170,12 +170,12 @@ Essentially, a comment block, starting with `/**` or `///` for C++, or `##` for 
 /**
  * Returns the name of the workbench object.
  */
-std   *   *string name() const;
+std::string name() const;
 
 /**
  * Set the name to the workbench object.
  */
-void setName(const std   *   *string&);
+void setName(const std::string&);
 
 /// remove the added TaskWatcher
 void removeTaskWatcher(void);
@@ -189,11 +189,6 @@ void removeTaskWatcher(void);
 
 
 </div>
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

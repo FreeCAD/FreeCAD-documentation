@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft_PointArray
-   Name/it   *Serie su punti
-   Icon   *Draft_PointArray.svg
-   MenuLocation   *Modificche → Strumenti serie →  Serie su punti
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version   *0.18
-   SeeAlso   *[Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md), [Clona](Draft_Clone/it.md)
+- GuiCommand:/it
+   Name:Draft_PointArray
+   Name/it:Serie su punti
+   Icon:Draft_PointArray.svg
+   MenuLocation:Modificche → Strumenti serie →  Serie su punti
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version:0.18
+   SeeAlso:[Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md), [Clona](Draft_Clone/it.md)
 ---
 
 # Draft PointArray/it
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_PointArray.svg  style="width   *16px;"> Serie su punti posiziona le copie di una forma selezionata lungo vari punti selezionati.
+Lo strumento <img alt="" src=images/Draft_PointArray.svg  style="width:16px;"> Serie su punti posiziona le copie di una forma selezionata lungo vari punti selezionati.
 
 
 </div>
@@ -36,7 +36,7 @@ The point object can be any object with a shape and vertices (including a [Std P
 
 In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
 
-<img alt="" src=images/Draft_PointArray_Example.png  style="width   *400px;">
+<img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -67,18 +67,18 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 
 L\'oggetto composto di punti può essere creato in diversi modi.
 
--   Creare vari **[<img src=images/Draft_Point.svg style="width   *16px"> [punti Draft](Draft_Point/it.md)** o **[<img src=images/Part_Point.svg style="width   *16px"> [punti Part](Part_Point/it.md)**, e poi premere **[<img src=images/Part_Compound.svg style="width   *16px"> [Crea un composto](Part_Compound/it.md)** per creare il composto .
+-   Creare vari **[<img src=images/Draft_Point.svg style="width:16px"> [punti Draft](Draft_Point/it.md)** o **[<img src=images/Part_Point.svg style="width:16px"> [punti Part](Part_Point/it.md)**, e poi premere **[<img src=images/Part_Compound.svg style="width:16px"> [Crea un composto](Part_Compound/it.md)** per creare il composto .
 -   Creare i punti con il metodo precedente ma invece di creare un composto usare **<img src="images/Draft_Upgrade.svg" width=16px> [Upgrade](Draft_Upgrade/it.md)** per creare un \"Blocco\".
--   Creare uno **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Schizzo](Sketch/it.md)**, e dentro aggiungere vari punti.
+-   Creare uno **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Schizzo](Sketch/it.md)**, e dentro aggiungere vari punti.
 
 
 </div>
 
 ## Proprietà
 
-See also   * [Property editor](property_editor.md).
+See also: [Property editor](property_editor.md).
 
-A Draft PointArray object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated   *
+A Draft PointArray object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
 
 ### Data
 
@@ -126,13 +126,13 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 {{TitleProperty|Objects}}
 
--    **Base|Link**   * l\'oggetto da duplicare; deve avere una [Part TopoShape](Part_TopoShape/it.md).
+-    **Base|Link**: l\'oggetto da duplicare; deve avere una [Part TopoShape](Part_TopoShape/it.md).
 
--    **Count|Integer**   * (sola lettura) specifica il numero di copie nella serie. Questa proprietà è di sola lettura perché il numero di copie è determinato dal numero di punti all\'interno di **Point Object**.
+-    **Count|Integer**: (sola lettura) specifica il numero di copie nella serie. Questa proprietà è di sola lettura perché il numero di copie è determinato dal numero di punti all\'interno di **Point Object**.
 
--    **Extra Placement|Placement**   * specifica un [posizionamento](Placement/it.md) aggiuntivo, traslazione e rotazione, che verrà applicato a ciascuna copia della serie. Ogni copia appare normalmente con la stessa rotazione dell\'oggetto **Base**; con questa proprietà è possibile fornire una rotazione aggiuntiva o contrastare la rotazione originale e apportare piccole modifiche alla posizione delle copie. <small>(v0.19)</small> 
+-    **Extra Placement|Placement**: specifica un [posizionamento](Placement/it.md) aggiuntivo, traslazione e rotazione, che verrà applicato a ciascuna copia della serie. Ogni copia appare normalmente con la stessa rotazione dell\'oggetto **Base**; con questa proprietà è possibile fornire una rotazione aggiuntiva o contrastare la rotazione originale e apportare piccole modifiche alla posizione delle copie. <small>(v0.19)</small> 
 
--    **Point Object|Link**   * specifica un oggetto composto di punti che indicano dove verranno visualizzate le copie dell\'oggetto **Base**. L\'oggetto composto deve avere una proprietà **Links**, **Components**, o **Geometry**, e contenere almeno un elemento con gli attributi **X**, **Y**, e **Z**.
+-    **Point Object|Link**: specifica un oggetto composto di punti che indicano dove verranno visualizzate le copie dell\'oggetto **Base**. L\'oggetto composto deve avere una proprietà **Links**, **Components**, o **Geometry**, e contenere almeno un elemento con gli attributi **X**, **Y**, e **Z**.
 
 
 </div>
@@ -156,7 +156,7 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**   * this is an inherited property that appears in the Selection group for other arrays
+-    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
 
 -    **Shape Material|Material**
     
@@ -178,16 +178,16 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**   * this is an inherited property.
+-    **Proxy|PythonObject|Hidden**: this is an inherited property.
 
 
 {{TitleProperty|Display Options}}
 
 The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
 
--    **Bounding Box|Bool**   * this property is not inherited by Link arrays.
+-    **Bounding Box|Bool**: this property is not inherited by Link arrays.
 
--    **Display Mode|Enumeration**   * for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be   * {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -198,9 +198,9 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * not used.
+-    **Pattern|Enumeration**: not used.
 
--    **Pattern Size|Float**   * not used.
+-    **Pattern Size|Float**: not used.
 
 
 {{TitleProperty|Object style}}
@@ -215,7 +215,7 @@ The properties in this group are not inherited by Link arrays.
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -225,7 +225,7 @@ The properties in this group are not inherited by Link arrays.
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento PointArray può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento PointArray può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -254,7 +254,7 @@ point_array = make_point_array(base_object, point_object, extra=None, use_link=T
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python
@@ -269,7 +269,7 @@ p1 = Draft.make_point(App.Vector(1500, 0, 0))
 p2 = Draft.make_point(App.Vector(2500, 0, 0))
 p3 = Draft.make_point(App.Vector(2000, 1000, 0))
 
-compound = doc.addObject("Part   *   *Compound", "Compound")
+compound = doc.addObject("Part::Compound", "Compound")
 compound.Links = [p1, p2, p3]
 
 point_array = Draft.make_point_array(polygon, compound)

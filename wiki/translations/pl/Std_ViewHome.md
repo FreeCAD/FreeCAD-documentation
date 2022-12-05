@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewHome
-   Name/pl   *Std   * Widok domyślny
-   MenuLocation   *Widok → Widoki standardowe → Widok domyślny
-   Workbenches   *wszystkie
-   Shortcut   ***Home**
-   Version   *0.19
-   SeeAlso   *[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewHome
+   Name/pl:Std: Widok domyślny
+   MenuLocation:Widok → Widoki standardowe → Widok domyślny
+   Workbenches:wszystkie
+   Shortcut:**Home**
+   Version:0.19
+   SeeAlso:[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)
 ---
 
 # Std ViewHome/pl
@@ -17,14 +17,14 @@ Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym okni
 
 ## Użycie
 
-1.  Istnieje kilka sposobów wywołania tego polecenia   *
+1.  Istnieje kilka sposobów wywołania tego polecenia:
     -   Wybierz opcję **Widok → Widoki standardowe → <img src="images/Std_ViewHome.svg" width=16px> Widok domyślny** z menu.
     -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewHome.svg" width=16px> Widok domyślny** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
-    -   Użyj skrótu klawiaturowego   * **Home**.
+    -   Użyj skrótu klawiaturowego: **Home**.
 
 ## Ustawienia
 
--   Domyślne ustawienie ujęcia widoku można dostosować w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Domyślna orientacja ujęcia widoku**. Zobacz również [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
+-   Domyślne ustawienie ujęcia widoku można dostosować w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Domyślna orientacja ujęcia widoku**. Zobacz również [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
 
 
 

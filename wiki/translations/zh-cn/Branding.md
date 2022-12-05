@@ -15,33 +15,33 @@
 
 ## 通用
 
-大部分的品牌化都是在**MainCmd.cpp**或**MainGui.cpp**中完成的。这些项目生成FreeCAD的可执行文件。要制作自己的品牌，只需复制Main或MainGui项目，并给可执行文件自己的名称，例如**FooApp.exe**。 对于新外观最重要的设置在main()函数的一个地方。下面是控制品牌化的代码部分   *
+大部分的品牌化都是在**MainCmd.cpp**或**MainGui.cpp**中完成的。这些项目生成FreeCAD的可执行文件。要制作自己的品牌，只需复制Main或MainGui项目，并给可执行文件自己的名称，例如**FooApp.exe**。 对于新外观最重要的设置在main()函数的一个地方。下面是控制品牌化的代码部分:
 
  C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
-    App   *   *Application   *   *Config()["ExeName"] = "FooApp";
-    App   *   *Application   *   *Config()["ExeVersion"] = "0.7";
+    App::Application::Config()["ExeName"] = "FooApp";
+    App::Application::Config()["ExeVersion"] = "0.7";
 
     // set the banner (for loging and console)
-    App   *   *Application   *   *Config()["CopyrightInfo"] = sBanner;
-    App   *   *Application   *   *Config()["AppIcon"] = "FooAppIcon";
-    App   *   *Application   *   *Config()["SplashScreen"] = "FooAppSplasher";
-    App   *   *Application   *   *Config()["StartWorkbench"] = "Part design";
-    App   *   *Application   *   *Config()["HiddenDockWindow"] = "Property editor";
-    App   *   *Application   *   *Config()["SplashAlignment" ] = "Bottom|Left";
-    App   *   *Application   *   *Config()["SplashTextColor" ] = "#000000"; // black
+    App::Application::Config()["CopyrightInfo"] = sBanner;
+    App::Application::Config()["AppIcon"] = "FooAppIcon";
+    App::Application::Config()["SplashScreen"] = "FooAppSplasher";
+    App::Application::Config()["StartWorkbench"] = "Part design";
+    App::Application::Config()["HiddenDockWindow"] = "Property editor";
+    App::Application::Config()["SplashAlignment" ] = "Bottom|Left";
+    App::Application::Config()["SplashTextColor" ] = "#000000"; // black
 
     // Inits the Application 
-    App   *   *Application   *   *Config()["RunMode"] = "Gui";
-    App   *   *Application   *   *init(argc,argv);
+    App::Application::Config()["RunMode"] = "Gui";
+    App::Application::init(argc,argv);
 
-    Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
+    Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 
-    Gui   *   *Application   *   *initApplication();
-    Gui   *   *Application   *   *runApplication();
-    App   *   *Application   *   *destruct();
+    Gui::Application::initApplication();
+    Gui::Application::runApplication();
+    App::Application::destruct();
 
     return 0;
 }
@@ -53,23 +53,23 @@ int main( int argc, char ** argv )
 
 ## 图像
 
-Image resources are compiled into FreeCAD using [Qt\'s resource system](http   *//qt-project.org/doc/qt-4.8/resources.html). Therefore you have to write a **.qrc** file, an XML-based file format that lists image files on the disk but also any other kind of resource files. To load the compiled resources inside the application you have to add a line
+Image resources are compiled into FreeCAD using [Qt\'s resource system](http://qt-project.org/doc/qt-4.8/resources.html). Therefore you have to write a **.qrc** file, an XML-based file format that lists image files on the disk but also any other kind of resource files. To load the compiled resources inside the application you have to add a line
 
 
 ```python
 Q_INIT_RESOURCE(FooApp); 
 ```
 
-into the main() function. Alternatively, if you have an image in XPM format you can directly include it into your **main.cpp** and add the following line to register it   *
+into the main() function. Alternatively, if you have an image in XPM format you can directly include it into your **main.cpp** and add the following line to register it:
 
 
 ```python
-Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
+Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
 ## Branding XML 
 
-In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called **branding.xml** and put it into the installation directory of FreeCAD. Here is an example with all supported tags   *
+In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called **branding.xml** and put it into the installation directory of FreeCAD. Here is an example with all supported tags:
 
  XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,14 +94,6 @@ In FreeCAD there is also a method supported without writing a customized main() 
 
 
 All listed tags are optional.
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

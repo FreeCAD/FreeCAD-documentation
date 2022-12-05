@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This page collects information on the [CalculiX](http   *//www.calculix.de/) finite element solver, the default solver in the **<img src="images/Workbench_FEM.svg" width=24px> [FEM Workbench](FEM_Workbench.md)** for structural and thermo-mechanical analysis as of FreeCAD 0.17. Depending on the operating system you are working with, you\'ll need to install CalculiX before running your first simulation. Please see [FEM Install](FEM_Install.md).
+This page collects information on the [CalculiX](http://www.calculix.de/) finite element solver, the default solver in the **<img src="images/Workbench_FEM.svg" width=24px> [FEM Workbench](FEM_Workbench.md)** for structural and thermo-mechanical analysis as of FreeCAD 0.17. Depending on the operating system you are working with, you\'ll need to install CalculiX before running your first simulation. Please see [FEM Install](FEM_Install.md).
 
 The solver is able to do linear and non-linear calculations, for static, dynamic, and thermal problems. The solver operates on an Abaqus input file (`.inp`), which means it can be used with different pre-processors that support this format. The program includes its own graphical preprocessor which, however, is not used by FreeCAD, only the solver itself.
 
@@ -11,7 +11,7 @@ CalculiX is designed to run on Unix platforms like Linux and Irix computers but 
 
 ## Integration with FreeCAD 
 
-Interaction between the [FEM Workbench](FEM_Workbench.md) and CalculiX is done through writing and reading text files. The sequence of operations is as follows   *
+Interaction between the [FEM Workbench](FEM_Workbench.md) and CalculiX is done through writing and reading text files. The sequence of operations is as follows:
 
 1.  A CalculiX input file is created with details required to run the simulation
 2.  The CalculiX solver is started with this input file
@@ -25,9 +25,9 @@ The [FEM Control Solver](FEM_SolverControl.md) tool manages the whole process. U
 The input file that CalculiX uses can be prepared and edited before the solver is started. The units used in the input file are independent of the units set in FreeCAD; they will always be millimeters (mm) and Newton (N).
 
 
-**(ToDo   * check this. What happens with the mesh if inch is used in FreeCAD? As density was introduced, with this we have kg and s and no longer N?! how about this?!)**
+**(ToDo: check this. What happens with the mesh if inch is used in FreeCAD? As density was introduced, with this we have kg and s and no longer N?! how about this?!)**
 
-The CalculiX interface supports the following objects   *
+The CalculiX interface supports the following objects:
 
 ### FEM Elements 
 
@@ -49,7 +49,7 @@ The CalculiX interface supports the following objects   *
 
 ## Postprocessing interface 
 
-The FEM Workbench loads CalculiX results into a [result object](FEM_ResultShow.md) which will contain   *
+The FEM Workbench loads CalculiX results into a [result object](FEM_ResultShow.md) which will contain:
 
 -   Displacements
 -   Stresses
@@ -70,8 +70,6 @@ Reaction forces can be found in ccx_dat_file which contains reaction force compo
 {{FEM Tools navi
 
 }}
-
-[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *EM FHInputFile
-   MenuLocation   *EM → FHInputFile
-   Workbenches   *[EM](EM_Workbench.md)
-   Shortcut   ***E** **I**
-   Version   *0.17
-   SeeAlso   *[EM FHSolver](EM_FHSolver.md)
+- GuiCommand:
+   Name:EM FHInputFile
+   MenuLocation:EM → FHInputFile
+   Workbenches:[EM](EM_Workbench.md)
+   Shortcut:**E** **I**
+   Version:0.17
+   SeeAlso:[EM FHSolver](EM_FHSolver.md)
 ---
 
 # EM FHInputFile/en
@@ -16,7 +16,7 @@ The FHInputFile tool creates the input FastHenry file based on the Document EM w
 
 ## Usage
 
-To create a FastHenry input file   *
+To create a FastHenry input file:
 
 1.  Create one [EM FHSolver](EM_FHSolver.md) object and other EM workbench objects representing the 3D geometry as required for your model.
 2.  Press the **<img src="images/EM_FHInputFile.svg" width=16px> [EM FHInputFile](EM_FHInputFile.md)** button, or press **E** then **I** keys.
@@ -30,11 +30,11 @@ To create a FastHenry input file   *
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHInputFile command can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The FHInputFile command can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -47,9 +47,9 @@ node = createFHInputFile(doc=None,filename=None,folder=None)
 
 -    `filename`is the filename to use. If not passed as an argument, the **Filename** property of the FHSolver object contained in the document will be used. If the **Folder** string in the FHSolver object is empty, the function builds a filename concatenating the document name with the default extension `EMFHSOLVER_DEF_FILENAME`.
 
--    `folder`is the folder where the file will be stored. If not passed as an argument, the **Folder** property of the FHSolver object contained in the document will be used. If the **Folder** string in the FHSolver object is empty, the function defaults to the user\'s home path (e.g. in Windows \"C   *Documents and Settings\\username\\My Documents\", in Linux \"/home/username\")
+-    `folder`is the folder where the file will be stored. If not passed as an argument, the **Folder** property of the FHSolver object contained in the document will be used. If the **Folder** string in the FHSolver object is empty, the function defaults to the user\'s home path (e.g. in Windows \"C:\\Documents and Settings\\username\\My Documents\", in Linux \"/home/username\")
 
-Example   *
+Example:
 
 
 ```python

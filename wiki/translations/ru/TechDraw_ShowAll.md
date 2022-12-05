@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Показать/скрыть невидимые края
-   Name   *TechDraw_ShowAll
-   MenuLocation   *TechDraw → ShowAll
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Изменить внешний вид линий](TechDraw_DecorateLine/ru.md)
+- GuiCommand:/ru
+   Name/ru:Показать/скрыть невидимые края
+   Name:TechDraw_ShowAll
+   MenuLocation:TechDraw → ShowAll
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Изменить внешний вид линий](TechDraw_DecorateLine/ru.md)
 ---
 
 # TechDraw ShowAll/ru
@@ -27,7 +27,7 @@ The ShowAll tool has no properties, as it is not a Document Object.
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

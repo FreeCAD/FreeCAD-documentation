@@ -1,9 +1,9 @@
 # Integrate Cycles renderer
-**Cycles Renderer was added by Yorik in 2019! Please check out the [https   *//github.com/FreeCAD/FreeCAD-render FreeCAD-Render WB]**
+**Cycles Renderer was added by Yorik in 2019! Please check out the [https://github.com/FreeCAD/FreeCAD-render FreeCAD-Render WB]**
 
 ## Outline
 
-[Cycles](https   *//www.blender.org/manual/render/cycles/) is [Blender](http   *//www.blender.org)\'s new realistic renderer. Cycles has also been made [standalone](https   *//wiki.blender.org/index.php/Dev   *Source/Render/Cycles/Standalone), and several other 3D modelers such as Rhino and Cinema4D are beginning to use it too.
+[Cycles](https://www.blender.org/manual/render/cycles/) is [Blender](http://www.blender.org)\'s new realistic renderer. Cycles has also been made [standalone](https://wiki.blender.org/index.php/Dev:Source/Render/Cycles/Standalone), and several other 3D modelers such as Rhino and Cinema4D are beginning to use it too.
 
 As the [Raytracing Workbench](Raytracing_Workbench.md) of FreeCAD is already made to support several render engines, it is fairly easy to add a new one.
 
@@ -35,9 +35,7 @@ Since direct modeling is a huge area in constant evolution, the work done in thi
 
 Medium
 
-## Additional Information 
-
-[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
+## Additional Information
 
 
 

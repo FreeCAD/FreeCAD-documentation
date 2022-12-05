@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch SetMaterial
-   Name/es   *Arch SetMaterial
-   MenuLocation   *Arch → Set material...
-   Workbenches   *[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
-   Shortcut   ***M** **T**
+- GuiCommand:/es
+   Name:Arch SetMaterial
+   Name/es:Arch SetMaterial
+   MenuLocation:Arch → Set material...
+   Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
+   Shortcut:**M** **T**
 ---
 
 # Arch SetMaterial/es
@@ -46,29 +46,29 @@ Las herramientas Material permiten agregar [materials](Material.md) al documento
 
 ## Opciones
 
--   Al crear un nuevo material, un panel de tareas le permite establecer diferentes opciones   *
+-   Al crear un nuevo material, un panel de tareas le permite establecer diferentes opciones:
 
 ![](images/Arch_materials_02.jpg )
 
 
 <div class="mw-translate-fuzzy">
 
--   **Elegir predefinido**   * elija uno de los materiales preestablecidos, para usarlo tal cual, o para adaptarlo modificando los campos a continuación
--   **Nombre**   * elija un nombre para el material
--   **Botón Editar**   * Esto abre el material actual en [Material editor](FEM_MaterialEditor.md) de FreeCAD, lo que le permite editar muchas propiedades adicionales y agregar sus propias propiedades personalizadas
--   **Descripción**   * Una descripción más detallada del material
--   **Color**   * un color de pantalla para el material, que se aplicará a todos los objetos que usen ese material
--   **Código**   * un nombre y número de referencia de un sistema de especificación como [Masterformat](https   *//en.wikipedia.org/wiki/MasterFormat) o [Omniclass](http   *//www.omniclass.org/) .
--   **Botón del navegador de códigos**   * Aún no implementado   * permitirá abrir la referencia en un navegador web
--   **URL**   * una URL donde se puede encontrar más información sobre el material
--   **Botón URL**   * abre la URL en un navegador web
+-   **Elegir predefinido**: elija uno de los materiales preestablecidos, para usarlo tal cual, o para adaptarlo modificando los campos a continuación
+-   **Nombre**: elija un nombre para el material
+-   **Botón Editar**: Esto abre el material actual en [Material editor](FEM_MaterialEditor.md) de FreeCAD, lo que le permite editar muchas propiedades adicionales y agregar sus propias propiedades personalizadas
+-   **Descripción**: Una descripción más detallada del material
+-   **Color**: un color de pantalla para el material, que se aplicará a todos los objetos que usen ese material
+-   **Código**: un nombre y número de referencia de un sistema de especificación como [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) o [Omniclass](http://www.omniclass.org/) .
+-   **Botón del navegador de códigos**: Aún no implementado: permitirá abrir la referencia en un navegador web
+-   **URL**: una URL donde se puede encontrar más información sobre el material
+-   **Botón URL**: abre la URL en un navegador web
 
 
 </div>
 
 ## Relation to IFC 
 
-This roughly corresponds to [IfcMaterial](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
+This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 
 
 <div class="mw-translate-fuzzy">

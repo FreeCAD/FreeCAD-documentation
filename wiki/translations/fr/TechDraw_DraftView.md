@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw DraftView
-   Name/fr   *TechDraw Vue d'un objet Draft
-   MenuLocation   *TechDraw → Insérer un objet de l'atelier Draft
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md), [Draft](Draft_Workbench/fr.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
+- GuiCommand:/fr
+   Name:TechDraw DraftView
+   Name/fr:TechDraw Vue d'un objet Draft
+   MenuLocation:TechDraw → Insérer un objet de l'atelier Draft
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Draft](Draft_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
 ---
 
 # TechDraw DraftView/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
+L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Éléments Draft tels que des cercles et des réseaux importés dans une page de dessin TechDraw*
@@ -30,7 +30,7 @@ L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> 
 -   La création d\'une Vue d\'un objet Draft d\'une coupe traitera de manière récursive tous les objets trouvés dans cette coupe. La vue est mise à jour automatiquement lorsque le contenu de la coupe change.
 -   Il n\'y a pas de suppression de ligne cachée. Chaque face trouvée dans le ou les objets manipulés sera simplement projetée le long du vecteur Direction, aucune action spécifique n\'est entreprise lorsque les faces se chevauchent.
 -   La Vue d\'un objet Draft prend également en charge tous les objets Draft qui ne sont pas basés Part, tels que les cotes et les textes.
--   La couleur, la largeur et le motif des lignes peuvent être spécifiés dans les propriétés. Les motifs de ligne peuvent être affinés en donnant directement une valeur [stroke-dasharray](https   *//www.w3.org/TR/SVG/painting.html#StrokeProperties), telle que 3,5.
+-   La couleur, la largeur et le motif des lignes peuvent être spécifiés dans les propriétés. Les motifs de ligne peuvent être affinés en donnant directement une valeur [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties), telle que 3,5.
 -   Les surfaces projetées sont remplies de la couleur de la surface.
 
 ## Propriétés
@@ -42,21 +42,21 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 {{TitleProperty|Drawing view}}
 
--    **Source|Link**   * l\'objet Draft à afficher.
+-    **Source|Link**: l\'objet Draft à afficher.
 
--    **Line Width|Float**   * largeur des lignes, indépendamment de l\'échelle.
+-    **Line Width|Float**: largeur des lignes, indépendamment de l\'échelle.
 
--    **Font Size|Float**   * taille de tous les textes apparaissant dans cette vue (textes et dimensions).
+-    **Font Size|Float**: taille de tous les textes apparaissant dans cette vue (textes et dimensions).
 
--    **Direction|Vector**   * direction de projection à utiliser.
+-    **Direction|Vector**: direction de projection à utiliser.
 
--    **Color|Color**   * couleur des lignes.
+-    **Color|Color**: couleur des lignes.
 
--    **Line Style|String**   * style de ligne à utiliser pour cette vue. Peut être {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} ou un modèle de ligne SVG comme {{Value|0.20,0.20}}.
+-    **Line Style|String**: style de ligne à utiliser pour cette vue. Peut être {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} ou un modèle de ligne SVG comme {{Value|0.20,0.20}}.
 
--    **Line Spacing|Float**   * espacement à utiliser entre les lignes de textes pour les textes multilignes.
+-    **Line Spacing|Float**: espacement à utiliser entre les lignes de textes pour les textes multilignes.
 
--    **Override Style|Bool**   * si `True`, la couleur, la largeur et le style des lignes de cette vue remplaceront ceux de l\'objet rendu.
+-    **Override Style|Bool**: si `True`, la couleur, la largeur et le style des lignes de cette vue remplaceront ceux de l\'objet rendu.
 
 ## Remarques
 
@@ -64,13 +64,13 @@ La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Vue d\'un objet Draft peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
+L\'outil Vue d\'un objet Draft peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
 
 ```python
-dv = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDraft','TestDraft')
+dv = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDraft','TestDraft')
 dv.Source = myDraftbject
 rc = page.addView(dv)
 ```

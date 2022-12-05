@@ -1,8 +1,6 @@
 # Category:Robot/zh-tw
 This category lists pages related to the [Robot Workbench/zh-tw](Robot_Workbench/zh-tw.md).
 
-[Category   *Workbenches/zh-tw](Category   *Workbenches/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

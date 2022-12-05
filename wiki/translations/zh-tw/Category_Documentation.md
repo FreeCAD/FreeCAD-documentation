@@ -1,8 +1,6 @@
 # Category:Documentation/zh-tw
 This category groups all of the FreeCAD documentation
 
-[Category   *Categories/zh-tw](Category   *Categories/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

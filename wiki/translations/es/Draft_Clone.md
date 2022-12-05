@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Draft Clone
-   Name/es   *Borrador Clon
-   MenuLocation   *Modificación → Clon
-   Workbenches   *[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***C** **L**
-   SeeAlso   *[Borrador Escalar](Draft_Scale/es.md)
+- GuiCommand:/es
+   Name:Draft Clone
+   Name/es:Borrador Clon
+   MenuLocation:Modificación → Clon
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**C** **L**
+   SeeAlso:[Borrador Escalar](Draft_Scale/es.md)
 ---
 
 # Draft Clone/es
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-El <img alt="" src=images/Draft_Clone.svg  style="width   *24px;"> comando **Borrador Clon** crea copias enlazadas, clones, de los objetos seleccionados. La forma de un clon es paramétrica, se actualizará si su objeto fuente cambia. Pero un clon tiene su propia posición, rotación y escala, y sus propias [Ver propiedades](Property_editor/es.md). Para los objetos [Arquitectura](Arch_Workbench/es.md) el comando crea un tipo especial de clon   * un clon Arquitectura.
+El <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> comando **Borrador Clon** crea copias enlazadas, clones, de los objetos seleccionados. La forma de un clon es paramétrica, se actualizará si su objeto fuente cambia. Pero un clon tiene su propia posición, rotación y escala, y sus propias [Ver propiedades](Property_editor/es.md). Para los objetos [Arquitectura](Arch_Workbench/es.md) el comando crea un tipo especial de clon: un clon Arquitectura.
 
 
 </div>
@@ -31,38 +31,38 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 
 </div>
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Borrador Clon junto a su objeto de origen*
 
 ## Utilización
 
 1.  Opcionalmente selecciona uno o más objetos.
-2.  Hay varias formas de invocar el comando   *
+2.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_Clone.svg" width=16px> [Borrador Clon](Draft_Clone/es.md)**.
     -   Seleccione la opción **Modificación → <img src="images/Draft_Clone.svg" width=16px> Clon** en el menú.
-    -   Utilice el atajo de teclado   * **C** y luego **L**.
-3.  Si aún no ha seleccionado un objeto   * seleccione un objeto en la [Vista 3D](3D_view/es.md).
+    -   Utilice el atajo de teclado: **C** y luego **L**.
+3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 
 ## Propiedades
 
-Ver también   * [Editor de propiedades](property_editor/es.md).
+Ver también: [Editor de propiedades](property_editor/es.md).
 
-Un objeto creado con el comando Clonar Borrador deriva de un [Pieza Pieza2DObjeto](Part_Part2DObject/es.md), de un objeto [Pieza Característica](Part_Feature/es.md) o, si se crea un Arch Clone, del tipo de objeto del objeto fuente. Hereda todas las propiedades de ese objeto. Un clon derivado de uno de los dos primeros objetos también tiene las siguientes propiedades adicionales   *
+Un objeto creado con el comando Clonar Borrador deriva de un [Pieza Pieza2DObjeto](Part_Part2DObject/es.md), de un objeto [Pieza Característica](Part_Feature/es.md) o, si se crea un Arch Clone, del tipo de objeto del objeto fuente. Hereda todas las propiedades de ese objeto. Un clon derivado de uno de los dos primeros objetos también tiene las siguientes propiedades adicionales:
 
 ### Datos
 
 
 {{TitleProperty|Borrador}}
 
--    **Fusible|Bool**   * especifica si las formas superpuestas en el clon se fusionan o no.
+-    **Fusible|Bool**: especifica si las formas superpuestas en el clon se fusionan o no.
 
--    **Objetos|ListaEnlacesGlobal**   * especifica los objetos que se clonan.
+-    **Objetos|ListaEnlacesGlobal**: especifica los objetos que se clonan.
 
--    **Escala|Vector**   * especifica los factores de escala X, Y y Z.
+-    **Escala|Vector**: especifica los factores de escala X, Y y Z.
 
 ## Guión
 
-Ver también   * [Documentación de la API autogenerada](https   *//freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para crear un clon utilice el método `make_clone` ({{Version/es|0.19}}) del módulo Draft. Este método sustituye al método obsoleto `clone`.
 
@@ -85,7 +85,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 </div>
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

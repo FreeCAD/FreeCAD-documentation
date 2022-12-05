@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewRear
-   Name/pl   *Std   * Widok od tyłu
-   MenuLocation   *Widok → Widoki standardowe → Od tyłu
-   Workbenches   *wszystkie
-   Shortcut   ***4**
-   SeeAlso   *[Widok od dołu](Std_ViewBottom/pl.md), [Widok od lewej](Std_ViewLeft/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewRear
+   Name/pl:Std: Widok od tyłu
+   MenuLocation:Widok → Widoki standardowe → Od tyłu
+   Workbenches:wszystkie
+   Shortcut:**4**
+   SeeAlso:[Widok od dołu](Std_ViewBottom/pl.md), [Widok od lewej](Std_ViewLeft/pl.md)
 ---
 
 # Std ViewRear/pl
@@ -19,16 +19,16 @@ Polecenie **Widok od tyłu** ustawia ujęcie widoku w aktywnym oknie [widoku 3D]
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_ViewRear.svg" width=16px> [Od tyłu](Std_ViewRear/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewRear.svg" width=16px> Od tyłu**.
     -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRear.svg" width=16px> Od tyłu**.
-    -   Użyj skrótu klawiaturowego   * **4**.
+    -   Użyj skrótu klawiaturowego: **4**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

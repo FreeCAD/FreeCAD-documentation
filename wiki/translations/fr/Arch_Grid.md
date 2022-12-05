@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Grid
-   Name/fr   *Arch Grille
-   MenuLocation   *Arch → Outils pour les axes → Grille
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md)
+- GuiCommand:/fr
+   Name:Arch Grid
+   Name/fr:Arch Grille
+   MenuLocation:Arch → Outils pour les axes → Grille
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md)
 ---
 
 # Arch Grid/fr
@@ -15,7 +15,7 @@ L\'outil **<img src="images/Arch_Grid.svg" width=16px> [Arch Grille](Arch_Grid/f
 
 La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu\'un [Dessin](Draft_Workbench/fr.md) ou une [Esquisse](Sketcher_Workbench/fr.md) sont nécessaires, mais elle peut aussi se comporter comme un [Arch Système d\'axes](Arch_AxisSystem/fr.md) et être utilisée pour propager le placement d\'autres objets Arch.
 
-<img alt="" src=images/Arch_Grid_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;"> 
 *Un tableau de colonnes, un système de garde-corps et une fenêtre, chacun basé sur un objet [Grille](Arch_Grid/fr.md).*
 
 ## Utilisation
@@ -30,43 +30,43 @@ La grille est un objet 2D et peut donc être utilisée partout où une forme 2D,
 
 -   Une largeur de colonne ou une hauteur de ligne de 0 signifie que sa taille sera automatiquement adaptée à la largeur / hauteur totale de la grille.
 -   Les cellules peuvent être fusionnées et non fusionnées en les sélectionnant et en cliquant sur le bouton approprié.
--   Lorsqu\'elle est utilisée comme propriété **Axis** (axes) des autres objets Arch, la grille pilotera le positionnement de ces objets. La propriété **Points Output** (Points de sortie) définit la manière dont les autres objets sont placés sur la grille   * Au niveau des sommets, des points médians ou des centres de faces.
+-   Lorsqu\'elle est utilisée comme propriété **Axis** (axes) des autres objets Arch, la grille pilotera le positionnement de ces objets. La propriété **Points Output** (Points de sortie) définit la manière dont les autres objets sont placés sur la grille: Au niveau des sommets, des points médians ou des centres de faces.
 -   En définissant les propriétés **Auto Height** (Hauteur Auto) ou **Auto Width** (Largeur Auto) sur une valeur différente de zéro, le nombre total de lignes / colonnes et leurs hauteurs / largeurs individuelles est ignoré. Au lieu de cela, le nombre maximal de colonnes ou de lignes de la largeur / hauteur automatique donnée est automatiquement créé.
 
 ## Propriétés
 
--    **Lignes**   * Le nombre de lignes
+-    **Lignes**: Le nombre de lignes
 
--    **Colonnes**   * Le nombre de colonnes
+-    **Colonnes**: Le nombre de colonnes
 
--    **Taille des Lignes**   * Les tailles pour les lignes
+-    **Taille des Lignes**: Les tailles pour les lignes
 
--    **Taille des Colonnes**   * Les tailles des colonnes
+-    **Taille des Colonnes**: Les tailles des colonnes
 
--    **Points de sortie**   * Le type de points 3D produits par cet objet de grille
+-    **Points de sortie**: Le type de points 3D produits par cet objet de grille
 
--    **Largeur**   * La largeur totale de cette grille
+-    **Largeur**: La largeur totale de cette grille
 
--    **Hauteur**   * La hauteur totale de cette grille
+-    **Hauteur**: La hauteur totale de cette grille
 
--    **Largeur Auto**   * Crée des divisions de colonnes automatiques (définies sur 0 pour désactiver)
+-    **Largeur Auto**: Crée des divisions de colonnes automatiques (définies sur 0 pour désactiver)
 
--    **Hauteur Auto**   * Crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
+-    **Hauteur Auto**: Crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
 
--    **Reorient**   * En mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
+-    **Reorient**: En mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
 
 En mode Point centre d\'arête, si la grille doit réorienter ses doublures le long des normales aux arêtes ou non
 
--    **Hidden Faces**   * Les indices des faces à cacher
+-    **Hidden Faces**: Les indices des faces à cacher
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Grille peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante    *
+L\'outil Grille peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python

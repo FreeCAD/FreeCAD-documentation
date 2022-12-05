@@ -1,8 +1,6 @@
 # Category:User Documentation/zh-hant
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-[Category   *Documentation/zh-hant](Category   *Documentation/zh-hant.md)
-
 ### Contents
 
 |     |     |     |

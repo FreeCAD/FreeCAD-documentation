@@ -8,14 +8,14 @@
 </div>
 
 
-{{Manual   *TOC/zh-cn}}
+{{Manual:TOC/zh-cn}}
 
-CSG 代表[构造实体几何](https   *//en.wikipedia.org/wiki/Constructive_solid_geometry)，描述了使用实体 3D 几何的最基本方式，即使用诸如并集、差集、或交集之类的布尔运算，向实体对象添加和移除部分实体，达成创建复杂对象的目的。
+CSG 代表[构造实体几何](https://en.wikipedia.org/wiki/Constructive_solid_geometry)，描述了使用实体 3D 几何的最基本方式，即使用诸如并集、差集、或交集之类的布尔运算，向实体对象添加和移除部分实体，达成创建复杂对象的目的。
 
 
 <div class="mw-translate-fuzzy">
 
-本手册前面提到，一方面，FreeCAD 可以处理多种类型的几何体；另一方面，我们使用 FreeCAD 设计的 3D 对象，是真实世界的对象。因此，这里首选的、最有用的类型，毫无疑问，是实体，是 [BREP](https   *//en.wikipedia.org/wiki/Boundary_representation) 几何体，主要由[Part 工作台来处理](Part_Workbench.md)。 [多边形网格](https   *//en.wikipedia.org/wiki/Polygon_mesh)仅由点和三角形构成，与此不同，BREP 对象的面由数学曲线定义，无论缩放比例如何，都保证有绝对的精度。
+本手册前面提到，一方面，FreeCAD 可以处理多种类型的几何体；另一方面，我们使用 FreeCAD 设计的 3D 对象，是真实世界的对象。因此，这里首选的、最有用的类型，毫无疑问，是实体，是 [BREP](https://en.wikipedia.org/wiki/Boundary_representation) 几何体，主要由[Part 工作台来处理](Part_Workbench.md)。 [多边形网格](https://en.wikipedia.org/wiki/Polygon_mesh)仅由点和三角形构成，与此不同，BREP 对象的面由数学曲线定义，无论缩放比例如何，都保证有绝对的精度。
 
 
 </div>
@@ -24,7 +24,7 @@ CSG 代表[构造实体几何](https   *//en.wikipedia.org/wiki/Constructive_sol
 
 两者之间的差异，类似于位图和矢量图像之间的差异。与位图图像一样，多边形网格的曲面划分为一系列的点。如果你贴近观察，或者将它打印得非常大，你会发现它不是曲面而是切面。在矢量图像和 BREP 数据里，曲线上任何点的位置都不会存储在几何体中，而是在运行中即时精确计算。
 
-在 FreeCAD 中，所有基于 BREP 的几何都由另一个开源软件 [OpenCasCade](https   *//en.wikipedia.org/wiki/Open_Cascade_Technology) 处理。FreeCAD 与 OpenCasCade 内核之间的主要接口是 Part 工作台。大多数其他工作台在 Part 工作台的基础上构建其功能。
+在 FreeCAD 中，所有基于 BREP 的几何都由另一个开源软件 [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology) 处理。FreeCAD 与 OpenCasCade 内核之间的主要接口是 Part 工作台。大多数其他工作台在 Part 工作台的基础上构建其功能。
 
 其他工作台通常提供了更高级的工具来构建和操作几何体，实际上都操纵的是 Part 对象，因此非常有必要了解这些对象的内部工作机制，并且能够使用 Part 工具。一些更智能的工具无法正确解决的问题，Part 工具因为更简单，经常可以帮你解决。
 
@@ -45,7 +45,7 @@ CSG 代表[构造实体几何](https   *//en.wikipedia.org/wiki/Constructive_sol
 
 <div class="mw-translate-fuzzy">
 
--   按下 <img alt="" src=images/Part_Box.png  style="width   *16px;"> **Cube** 按钮
+-   按下 <img alt="" src=images/Part_Box.png  style="width:16px;"> **Cube** 按钮
 -   选择 Cube，然后设置以下属性（在 **Data** 选项卡中）：
     -   长度：80mm（或 8cm，或 0.8m，FreeCAD 可以使用任何单位）
     -   宽度：80mm
@@ -66,7 +66,7 @@ CSG 代表[构造实体几何](https   *//en.wikipedia.org/wiki/Constructive_sol
 
 <div class="mw-translate-fuzzy">
 
-现在我们可以从另一个中减去一个：选择**第一个**，即**保留**的那个，然后，按下 CTRL 键，选择**另一个**，即将被**减去**的那个（顺序很重要），然后按下 <img alt="" src=images/Part_Cut.png  style="width   *16px;"> **Cut** 按钮。
+现在我们可以从另一个中减去一个：选择**第一个**，即**保留**的那个，然后，按下 CTRL 键，选择**另一个**，即将被**减去**的那个（顺序很重要），然后按下 <img alt="" src=images/Part_Cut.png  style="width:16px;"> **Cut** 按钮。
 
 
 </div>
@@ -75,7 +75,7 @@ CSG 代表[构造实体几何](https   *//en.wikipedia.org/wiki/Constructive_sol
 
 注意创建的对象，称为"Cut"。"Cut"仍然包含我们用作运算子的两个立方体。实际上，文档中仍然存在两个"Cube\"，仅被隐藏并在树视图中的"Cut"对象的分组中，仍然可以通过展开"Cut"对象旁边的箭头来选择它们。如果需要，可以右键单击来将它们显示出来，或更改它们的属性。
 
-You can use Cut -tool and other Boolean tools also through \"Combo view\" with <img alt="" src=images/Part_Boolean.svg  style="width   *16px;"> [Boolean](Part_Boolean.md). It gives more explicit but longer way to do it.
+You can use Cut -tool and other Boolean tools also through \"Combo view\" with <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [Boolean](Part_Boolean.md). It gives more explicit but longer way to do it.
 
 -   我们复制基础立方体 6 次，创建另外三个脚。由于它仍然复制在剪贴板里，可以简单地粘贴（Ctrl + V）6次。
 
@@ -97,11 +97,11 @@ You can use Cut -tool and other Boolean tools also through \"Combo view\" with <
 
 <div class="mw-translate-fuzzy">
 
--   我们使用相同的 Cut 方法为螺钉打孔。由于需要 8 个洞，每个脚两个，我们本来可以制作 8 个物体作减法。然而让我们探索一下其他方法，制作4个管子，这些管子被两个脚重复使用。所以让我们用 <img alt="" src=images/Part_Cylinder.png  style="width   *16px;"> **Cylinder** 创建四个管子。这次同样的，你可以先造一个，然后作复制。给所有圆柱体的半径设为 6mm。需要旋转它们，这也是通过 Data 选项卡下的**Placement** 属性完成的。*（ **注意**：在设置 Angle*之前*更改 Axis 属性，否则旋转不会生效）* ：
-    -   Cylinder   * height   * 130cm, angle   * 90°, axis   * x   *0,y   *1,z   *0, position   * x   *-10mm, y   *40mm, z   *72cm
-    -   Cylinder001   * height   * 130cm, angle   * 90°, axis   * x   *0,y   *1,z   *0, position   * x   *-10mm, y   *84cm, z   *72cm
-    -   Cylinder002   * height   * 90cm, angle   * 90°, axis   * x   *-1,y   *0,z   *0, position   * x   *40mm, y   *-10mm, z   *70cm
-    -   Cylinder003   * height   * 90cm, angle   * 90°, axis   * x   *-1,y   *0,z   *0, position   * x   *124cm, y   *-10mm, z   *70cm
+-   我们使用相同的 Cut 方法为螺钉打孔。由于需要 8 个洞，每个脚两个，我们本来可以制作 8 个物体作减法。然而让我们探索一下其他方法，制作4个管子，这些管子被两个脚重复使用。所以让我们用 <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> **Cylinder** 创建四个管子。这次同样的，你可以先造一个，然后作复制。给所有圆柱体的半径设为 6mm。需要旋转它们，这也是通过 Data 选项卡下的**Placement** 属性完成的。*（ **注意**：在设置 Angle*之前*更改 Axis 属性，否则旋转不会生效）* ：
+    -   Cylinder: height: 130cm, angle: 90°, axis: x:0,y:1,z:0, position: x:-10mm, y:40mm, z:72cm
+    -   Cylinder001: height: 130cm, angle: 90°, axis: x:0,y:1,z:0, position: x:-10mm, y:84cm, z:72cm
+    -   Cylinder002: height: 90cm, angle: 90°, axis: x:-1,y:0,z:0, position: x:40mm, y:-10mm, z:70cm
+    -   Cylinder003: height: 90cm, angle: 90°, axis: x:-1,y:0,z:0, position: x:124cm, y:-10mm, z:70cm
 
 
 </div>
@@ -130,7 +130,7 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 
 <div class="mw-translate-fuzzy">
 
--   下面安装几颗螺丝。有一个由 FreeCAD 社区成员开发的非常有用的插件，称为[紧固件](https   *//github.com/shaise/FreeCAD_FastenersWB)，你可以在[FreeCAD 插件](https   *//github.com/FreeCAD/FreeCAD-addons)库中找到。这使得插入螺钉变得非常容易。其他工作台的安装很容易，在插件页面上有说明。
+-   下面安装几颗螺丝。有一个由 FreeCAD 社区成员开发的非常有用的插件，称为[紧固件](https://github.com/shaise/FreeCAD_FastenersWB)，你可以在[FreeCAD 插件](https://github.com/FreeCAD/FreeCAD-addons)库中找到。这使得插入螺钉变得非常容易。其他工作台的安装很容易，在插件页面上有说明。
 -   Fasteners 工作台安装完毕并重新启动 FreeCAD 后，它将显示在工作台列表中，可以切换进去。要在一个孔中添加螺钉，首先选择这个孔的圆形边缘。
 
 
@@ -149,7 +149,7 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 如上所述，FreeCAD 中不仅可以选择整个对象，还可以选择其中的一部分，例如螺孔的圆形边框。现在是时候快速了解一下在 FreeCAD 内部如何构建 Part 对象了。生成 Part 几何体的每个工作台都基于以下内容：
 
 -   **顶点**：是构建所有其它对象用的点（通常是端点）。例如，一条线段有两个顶点。
--   **边**：是线性的几何体，如直线，圆弧，椭圆或 [NURBS](https   *//en.wikipedia.org/wiki/Non-uniform_rational_B-spline) 曲线，通常有两个顶点，但是某些特殊情况下只有一个（例如一个封闭的圆圈）。
+-   **边**：是线性的几何体，如直线，圆弧，椭圆或 [NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) 曲线，通常有两个顶点，但是某些特殊情况下只有一个（例如一个封闭的圆圈）。
 -   **线**：是在端点相连接的一系列边，可以包含任何类型的边，可以闭合，也可以不闭合。
 -   **面**：可以是平面的或弯曲的，可以由一个闭合的线所形成，作为面的边界，或者在面具有孔的情况下，由多个边来形成面。
 -   **壳**：只是在边相连接的一组面，可以是开放的，也可以是封闭的。
@@ -164,7 +164,7 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 
 **下载**
 
--   本练习中生成的文件：https   *//github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd
+-   本练习中生成的文件：https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd
 
 **延伸阅读**
 
@@ -172,8 +172,8 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 <div class="mw-translate-fuzzy">
 
 -   [Part 工作台](Part_Workbench.md)
--   [FreeCAD 插件库](https   *//github.com/FreeCAD/FreeCAD-addons)
--   [Fasteners 工作台](https   *//github.com/shaise/FreeCAD_FastenersWB)
+-   [FreeCAD 插件库](https://github.com/FreeCAD/FreeCAD-addons)
+-   [Fasteners 工作台](https://github.com/shaise/FreeCAD_FastenersWB)
 
 
 </div>
@@ -186,8 +186,6 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 
 
 </div>
-
-[Category   *Tutorials](Category_Tutorials.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM MeshRegion
-   Name/fr   *FEM Région de maillage FEM
-   MenuLocation   *Maillage → Région de maillage FEM
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM MeshRegion
+   Name/fr:FEM Région de maillage FEM
+   MenuLocation:Maillage → Région de maillage FEM
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshRegion/fr
@@ -17,13 +17,13 @@ Le réaffinement du maillage a l\'avantage de permettre une simulation précise 
 
 ## Utilisation
 
-1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
-    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshRegion.svg  style="width   *32px;">.
+1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
+    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;">.
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et sélectionnez l\'option **Maillage →  <img src="images/FEM_MeshRegion.svg" width=32px> Région de maillage FEM** dans le menu.
 2.  Modifiez la taille maximale des éléments pour la région.
 3.  Cliquez sur le bouton **OK**.
 4.  Fermez la tâche.
-5.  Résultat    * Vous devriez maintenant voir un nouvel objet `FEMMeshRegion` sous l\'objet `FEMMeshGMSH` (voir exemple #3 ci-dessous) dans votre conteneur d\'analyse actif.
+5.  Résultat : Vous devriez maintenant voir un nouvel objet `FEMMeshRegion` sous l\'objet `FEMMeshGMSH` (voir exemple #3 ci-dessous) dans votre conteneur d\'analyse actif.
 6.  Double-cliquez sur l\'objet parent `FEMMeshGMSH` dans votre arborescence de modèle et appuyez sur **Appliquer** pour forcer un recalcul de maillage.
 7.  Fermez la tâche.
 
@@ -33,22 +33,22 @@ Vous pouvez créer autant de maillages différents que nécessaire.
 
 ## Exemples visuels 
 
-<img alt="" src=images/FEMMeshRegion_Example1.png style="width   *300px;"> 
-*Exemple 1    * le maillage FEM grossier initial par GMSH*
+<img alt="" src=images/FEMMeshRegion_Example1.png style="width:300px;"> 
+*Exemple 1 : le maillage FEM grossier initial par GMSH*
 
-<img alt="" src=images/FEMMeshRegion_Example2.png  style="width   *300px;"> 
-*Exemple 2    * après application d'un raffinement du maillage à l'aide de deux régions de maillage FEM, le grand trou est raffiné à une taille d'élément maximale de 3 mm, le petit trou est raffiné à 1 mm.*
+<img alt="" src=images/FEMMeshRegion_Example2.png  style="width:300px;"> 
+*Exemple 2 : après application d'un raffinement du maillage à l'aide de deux régions de maillage FEM, le grand trou est raffiné à une taille d'élément maximale de 3 mm, le petit trou est raffiné à 1 mm.*
 
-<img alt="" src=images/FEMMeshRegion_Example3.png  style="width   *300px;"> 
-*Exemple 3    * un exemple simple de la vue en arborescence résultante*
+<img alt="" src=images/FEMMeshRegion_Example3.png  style="width:300px;"> 
+*Exemple 3 : un exemple simple de la vue en arborescence résultante*
 
 ## Remarques
 
-L\'ordre dans lequel les régions sont affichées dans la [vue en arborescence](Tree_view/fr.md) peut modifier le résultat du maillage. Voir [fil de forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=41955)
+L\'ordre dans lequel les régions sont affichées dans la [vue en arborescence](Tree_view/fr.md) peut modifier le résultat du maillage. Voir [fil de forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=41955)
 
 ## En relation 
 
--   \"Mesh Regions for a Better Analysis\" - Tutoriel vidéo par Joko Engineering ([lien](https   *//www.youtube.com/watch?v=X5RVe2SDPvw))
+-   \"Mesh Regions for a Better Analysis\" - Tutoriel vidéo par Joko Engineering ([lien](https://www.youtube.com/watch?v=X5RVe2SDPvw))
 
 
 

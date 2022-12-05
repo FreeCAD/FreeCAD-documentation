@@ -1,5 +1,5 @@
 # Category:External Workbenches/hr
-[Category   *Workbenches/hr](Category   *Workbenches/hr.md) [Category   *Addons/hr](Category   *Addons/hr.md)
+
 
 ### Contents
 

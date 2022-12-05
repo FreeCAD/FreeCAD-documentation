@@ -17,18 +17,18 @@ Per ulteriori informazioni riguardo la manipolazione degli oggetti vedere [Std T
 
 ## Selezionare uno stile di navigazione 
 
-1.  Effettuare una delle seguenti operazioni   *
-    -   Premere il bottone **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** sulla [barra di stato](Status_bar/it.md).
+1.  Effettuare una delle seguenti operazioni:
+    -   Premere il bottone **[<img src=images/NavigationCAD_dark.svg style="width:16px">** sulla [barra di stato](Status_bar/it.md).
     -   Cliccare su un area vuota della [vista 3D](3D_view/it.md), e selezionare **Stile di navigazione** dal menu contestuale.
     -   Utilizzare l\'[Editor delle preferenze](Preferences_Editor/it#Navigation.md). Dal menu selezionare **Modifica → Preferenze** e poi **Visualizzazione → Navigazione → Navigazione 3D**.
 2.  Seleziona uno stile dalla lista.
-3.  Facoltativamente cambiare lo **Stile Orbita**   * premere il bottone **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** sulla [barra di Stato](Status_bar/it.md) e poi scegliere **Impostazioni → Stile Orbita**. Vedere l\'[Editor delle Preferenze](Preferences_Editor/it#Navigazione.md).
+3.  Facoltativamente cambiare lo **Stile Orbita**: premere il bottone **[<img src=images/NavigationCAD_dark.svg style="width:16px">** sulla [barra di Stato](Status_bar/it.md) e poi scegliere **Impostazioni → Stile Orbita**. Vedere l\'[Editor delle Preferenze](Preferences_Editor/it#Navigazione.md).
 
 ## Stili di navigazione disponibili 
 
 ### Navigazione Blender 
 
-La navigazione Blender si basa sul modello [Blender](https   *//www.blender.org).
+La navigazione Blender si basa sul modello [Blender](https://www.blender.org).
 
 
 {{Blender Navigation/it
@@ -62,17 +62,17 @@ Questo è lo stile di navigazione predefinito. Consente all\'utente un semplice 
 
 Tenere premuto **Ctrl** per selezionare più oggetti.
 |Pan_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
-|Pan_mode_text=Modalità Traslazione   * tenere premuto il tasto **Ctrl**, premere il tasto destro del mouse una volta, quindi muovere il puntatore.
+|Pan_mode_text=Modalità Traslazione: tenere premuto il tasto **Ctrl**, premere il tasto destro del mouse una volta, quindi muovere il puntatore.
 |Zoom_text=Usare la rotellina del mouse per zoommare avanti e indietro.
 
 Facendo clic sul pulsante centrale del mouse, la vista viene nuovamente centrata sulla posizione del cursore.
-|Zoom_mode_text=Modalità zoom   * tenere premuti i tasti **Ctrl** e **Shift**, premere il pulsante destro del mouse una volta, quindi spostare il puntatore.
+|Zoom_mode_text=Modalità zoom: tenere premuti i tasti **Ctrl** e **Shift**, premere il pulsante destro del mouse una volta, quindi spostare il puntatore.
 |Rotate_view_text=Tenere premuto il pulsante centrale del mouse, quindi premere e tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.
 
 Se i pulsanti vengono rilasciati prima di interrompere il movimento del mouse, la visualizzazione continua la [rotazione](spinning/it.md), se l'azione è abilitata.
 
 Un doppio clic con il pulsante centrale del mouse imposta un nuovo centro di rotazione.
-|Rotate_view_mode_text=Modalità rotazione   * tenere premuto il tasto **Shift**, premere il tasto destro del mouse una volta, quindi spostare il puntatore.
+|Rotate_view_mode_text=Modalità rotazione: tenere premuto il tasto **Shift**, premere il tasto destro del mouse una volta, quindi spostare il puntatore.
 |Rotate_view_alt_text=Tenere premuto il pulsante centrale del mouse, e tenere premuto il pulsante destro del mouse, quindi spostare il puntatore.
 
 Con questo metodo il pulsante centrale del mouse può essere rilasciato dopo aver tenuto premuto il pulsante destro del mouse.
@@ -133,7 +133,7 @@ In alternativa, utilizzare la rotellina del mouse per ingrandire e ridurre.
 
 ### Navigazione OpenCascade 
 
-La navigazione OpenCascade si basa sul modello [OpenCascade](https   *//www.opencascade.com/).
+La navigazione OpenCascade si basa sul modello [OpenCascade](https://www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -152,7 +152,7 @@ In alternativa, tenere premuto **Ctrl** e il tasto sinistro del mouse, quindi sp
 
 ### Navigazione OpenInventor 
 
-La Navigazione OpenInventor (formalmente Inventor) si basa sul modello [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor). Per selezionare gli oggetti, è necessario tenere premuto il tasto **Shift** o **Ctrl**.
+La Navigazione OpenInventor (formalmente Inventor) si basa sul modello [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Per selezionare gli oggetti, è necessario tenere premuto il tasto **Shift** o **Ctrl**.
 
 Questo stile non è basato su Autodesk Inventor.
 
@@ -175,7 +175,7 @@ In alternativa, tenere premuto il pulsante centrale del mouse, quindi premere e 
 
 ### Navigazione OpenSCAD 
 
-La Navigazione OpenSCAD si basa sul modello [OpenSCAD](https   *//openscad.org/).
+La Navigazione OpenSCAD si basa sul modello [OpenSCAD](https://openscad.org/).
 
 
 {{Version/it|0.20}}
@@ -195,7 +195,7 @@ La Navigazione OpenSCAD si basa sul modello [OpenSCAD](https   *//openscad.org/)
 
 ### Navigazione Revit 
 
-La Navigazione Revit si basa sul modello [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
+La Navigazione Revit si basa sul modello [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -217,7 +217,7 @@ In alternativa, tenere premuto il pulsante centrale del mouse, e tenere premuto 
 
 ### Navigazione TinkerCAD 
 
-La Navigazione TinkerCAD si basa sul modello [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
+La Navigazione TinkerCAD si basa sul modello [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
 
 
 {{Version/it|0.20}}
@@ -262,11 +262,11 @@ FreeCAD supporta anche i [dispositivi di input 3D](3D_input_devices/it.md).
 
 ## Navigazione consigliata per macOS 
 
-Sui MacBook con trackpad la navigazione gestuale funziona molto bene, ma i gesti hanno un significato speciale   *
+Sui MacBook con trackpad la navigazione gestuale funziona molto bene, ma i gesti hanno un significato speciale:
 
--   Zoom   * trascina con due dita.
--   Ruota   * trascina con tre dita.
--   Panoramica   * **Ctrl** + tre dita.
+-   Zoom: trascina con due dita.
+-   Ruota: trascina con tre dita.
+-   Panoramica: **Ctrl** + tre dita.
 
 ## Sviluppo di una navigazione personalizzata 
 

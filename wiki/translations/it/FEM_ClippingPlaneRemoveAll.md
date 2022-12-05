@@ -1,6 +1,6 @@
 # FEM ClippingPlaneRemoveAll/it
 ---
-- GuiCommand   */it   Name   *FEM ClippingPlaneRemoveAll   Name/it   *FEM ClippingPlaneRemoveAll   Icon   *Fem-clipping-plane-remove-all.svg   MenuLocation   * Utilità → Rimuovi tutti i piani di ritaglio   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it   Name:FEM ClippingPlaneRemoveAll   Name/it:FEM ClippingPlaneRemoveAll   Icon:Fem-clipping-plane-remove-all.svg   MenuLocation: Utilità → Rimuovi tutti i piani di ritaglio   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -17,7 +17,7 @@ Da fare
 
 ## Usage
 
-Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
+Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
 
 
 <div class="mw-translate-fuzzy">

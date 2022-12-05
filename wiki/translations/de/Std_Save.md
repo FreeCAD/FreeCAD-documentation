@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std Save
-   Name/de   *Std Speichern
-   MenuLocation   *Datei → Speichern
-   Workbenches   *Alle
-   Shortcut   ***Ctrl**+**S**
-   SeeAlso   *[Std SpeichernUnter](Std_SaveAs/de.md), [Std KopieSpeichern](Std_SaveCopy/de.md), [Std AllesSpeichern](Std_SaveAll/de.md)
+- GuiCommand:/de
+   Name:Std Save
+   Name/de:Std Speichern
+   MenuLocation:Datei → Speichern
+   Workbenches:Alle
+   Shortcut:**Ctrl**+**S**
+   SeeAlso:[Std SpeichernUnter](Std_SaveAs/de.md), [Std KopieSpeichern](Std_SaveCopy/de.md), [Std AllesSpeichern](Std_SaveAll/de.md)
 ---
 
 # Std Save/de
@@ -16,15 +16,15 @@ Der Befehl **Std Speichern** speichert das aktive Dokument.
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_Save.svg" width=16px> [Speichern](Std_Save/de.md)** drücken.
     -   Den Menüeintrag **Datei → <img src="images/Std_Save.svg" width=16px> Speichern** auswählen.
     -   Das Tastaturkürzel **Ctrl**+**S**.
-2.  Für neue Dokumente   * Einen Dateinamen im Dialogfeld eintragen und die Schaltfläche **Speichern** drücken.
+2.  Für neue Dokumente: Einen Dateinamen im Dialogfeld eintragen und die Schaltfläche **Speichern** drücken.
 
 ## Optionen
 
--   Für neue Dokumente   * **Esc** oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
+-   Für neue Dokumente: **Esc** oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
 ## Hinweise
 
@@ -32,12 +32,12 @@ Der Befehl **Std Speichern** speichert das aktive Dokument.
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

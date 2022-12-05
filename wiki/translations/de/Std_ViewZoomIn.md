@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name/de   *Std ViewZoomIn
-   MenuLocation   *Ansicht → Zoom‏‎ → Vergrößern
-   Workbenches   *Alle
-   Shortcut   ***Strg** + **+**
-   SeeAlso   *[Szd Verkleinern](Std_ViewZoomOut/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
+- GuiCommand:/de
+   Name/de:Std ViewZoomIn
+   MenuLocation:Ansicht → Zoom‏‎ → Vergrößern
+   Workbenches:Alle
+   Shortcut:**Strg** + **+**
+   SeeAlso:[Szd Verkleinern](Std_ViewZoomOut/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
 ---
 
 # Std ViewZoomIn/de
@@ -15,7 +15,7 @@ Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansi
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Wähle die Option **Ansicht → Zoom‏‎ → <img src="images/Std_ViewZoomIn.svg" width=16px> Vergrößern** aus dem Menü
     -   Benutze den Tastaturkurzbefehl **Strg** + **+**.
 
@@ -25,12 +25,12 @@ Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansi
 
 ## Einstellungen
 
--   Der Zoomfaktor kann in den Einstellungen geändert werden   * **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+-   Der Zoomfaktor kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

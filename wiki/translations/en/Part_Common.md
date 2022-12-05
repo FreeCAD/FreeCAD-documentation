@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Common
-   MenuLocation   *Part → Boolean → Common
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Fuse](Part_Fuse.md)
+- GuiCommand:
+   Name:Part Common
+   MenuLocation:Part → Boolean → Common
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Fuse](Part_Fuse.md)
 ---
 
 # Part Common/en
@@ -19,7 +19,7 @@ Extracts the common part (intersection) between selected Part objects. This oper
 
 ## Supported inputs 
 
-Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples   * stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
 
 

@@ -1,12 +1,7 @@
 # Changelog/pl
-Dziennik zmian FreeCAD jest prowadzony na naszym trackerze Mantis   *
+Dziennik zmian FreeCAD jest prowadzony na naszym trackerze Mantis:
 
-<http   *//www.freecadweb.org/tracker/changelog_page.php>
-
-
-
-
-[Category   *Administration](Category_Administration.md) [Category   *Developer](Category_Developer.md)
+<http://www.freecadweb.org/tracker/changelog_page.php>
 
 
 

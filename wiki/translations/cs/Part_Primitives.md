@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Primitives
-   MenuLocation   *Part → Create primitives...
-   Workbenches   *[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso   *[Part Builder](Part_Builder.md)
+- GuiCommand:
+   Name:Part Primitives
+   MenuLocation:Part → Create primitives...
+   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso:[Part Builder](Part_Builder.md)
 ---
 
 # Part Primitives/cs
@@ -18,14 +18,14 @@ Nástroj pro vytváření různých parametrických geometrických tvarů,
 
 </div>
 
-<img alt="" src=images/Part_Primitives_example.png  style="width   *600px;"> 
+<img alt="" src=images/Part_Primitives_example.png  style="width:600px;"> 
 *The primitives that can be created with the command*
 
 ## Usage
 
 ### Create
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Part Primitives](Part_Primitives.md)** button.
     -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
 2.  The **Geometric Primitives** task panel opens.
@@ -45,7 +45,7 @@ Nástroj pro vytváření různých parametrických geometrických tvarů,
 4.  The object is dynamically updated in the [3D view](3D_view.md).
 5.  Press the **OK** button.
 
-The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std TransformManip](Std_TransformManip.md) command.
+The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
 
 <div class="mw-translate-fuzzy">
@@ -58,47 +58,47 @@ The properties of a Part Primitive can also be changed in the [Property editor](
     -   [Kouli](Part_Sphere/cs.md)
     -   [Elipsoid](Part_Ellipsoid/cs.md)
     -   [Torus (vypadá jako nafouknutá duše z kola)](Part_Torus/cs.md)
-    -   [Hranol](Part_Prism/cs.md) <small>(v0.14)</small> \*   *
+    -   [Hranol](Part_Prism/cs.md) <small>(v0.14)</small> \*:
     -   [Klín](Part_Wedge/cs.md)
     -   [Šroubovice](Part_Helix/cs.md)
-    -   [Spirála](Part_Spiral/cs.md) <small>(v0.14)</small> \*   *
+    -   [Spirála](Part_Spiral/cs.md) <small>(v0.14)</small> \*:
     -   [Kružnice](Part_Circle/cs.md)
     -   [Elipsa](Part_Ellipse/cs.md)
     -   [Přímka](Part_Line/cs.md) (Hrana)
     -   [Bod](Part_Point/cs.md) (Vrchol)
-    -   [Pravidelný mnohoúhelník](Part_RegularPolygon/cs.md) <small>(v0.14)</small> \*   *
+    -   [Pravidelný mnohoúhelník](Part_RegularPolygon/cs.md) <small>(v0.14)</small> \*:
 
 
 </div>
 
-The following primitives can be created   *
+The following primitives can be created:
 
--   <img alt="" src=images/Part_Plane.svg  style="width   *32px;"> [Plane](Part_Plane.md)   * Creates a plane.
--   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width   *32px;"> [Box](Part_Box.md)   * Creates a box. This object can also be created with the <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Box](Part_Box.md) tool.
--   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width   *32px;"> [Cylinder](Part_Cylinder.md)   * Creates a cylinder. This object can also be created with the <img alt="" src=images/Part_Cylinder.svg  style="width   *32px;"> [Cylinder](Part_Cylinder.md) tool.
--   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width   *32px;"> [Cone](Part_Cone.md)   * Creates a cone. This object can also be created with the <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Cone](Part_Cone.md) tool.
--   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width   *32px;"> [Sphere](Part_Sphere.md)   * Creates a sphere. This object can also be created with the <img alt="" src=images/Part_Sphere.svg  style="width   *32px;"> [Sphere](Part_Sphere.md) tool.
--   <img alt="" src=images/Part_Ellipsoid.svg  style="width   *32px;"> [Ellipsoid](Part_Ellipsoid.md)   * Creates a ellipsoid.
--   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width   *32px;"> [Torus](Part_Torus.md)   * Creates a torus. This object can also be created with the <img alt="" src=images/Part_Torus.svg  style="width   *32px;"> [Torus](Part_Torus.md) tool.
--   <img alt="" src=images/Part_Prism.svg  style="width   *32px;"> [Prism](Part_Prism.md)   * Creates a prism.
--   <img alt="" src=images/Part_Wedge.svg  style="width   *32px;"> [Wedge](Part_Wedge.md)   * Creates a wedge.
--   <img alt="" src=images/Part_Helix.svg  style="width   *32px;"> [Helix](Part_Helix.md)   * Creates a helix.
--   <img alt="" src=images/Part_Spiral.svg  style="width   *32px;"> [Spiral](Part_Spiral.md)   * Creates a spiral.
--   <img alt="" src=images/Part_Circle.svg  style="width   *32px;"> [Circle](Part_Circle.md)   * Creates a circular arc.
--   <img alt="" src=images/Part_Ellipse.svg  style="width   *32px;"> [Ellipse](Part_Ellipse.md)   * Creates an elliptical arc.
--   <img alt="" src=images/Part_Point.svg  style="width   *32px;"> [Point](Part_Point.md)   * Creates a point.
--   <img alt="" src=images/Part_Line.svg  style="width   *32px;"> [Line](Part_Line.md)   * Creates a line.
--   <img alt="" src=images/Part_RegularPolygon.svg  style="width   *32px;"> [Regular polygon](Part_RegularPolygon.md)   * Creates a regular polygon.
+-   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane.md): Creates a plane.
+-   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Box](Part_Box.md): Creates a box. This object can also be created with the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) tool.
+-   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md): Creates a cylinder. This object can also be created with the <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md) tool.
+-   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone.md): Creates a cone. This object can also be created with the <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone.md) tool.
+-   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphere](Part_Sphere.md): Creates a sphere. This object can also be created with the <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphere](Part_Sphere.md) tool.
+-   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid.md): Creates a ellipsoid.
+-   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus. This object can also be created with the <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md) tool.
+-   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prism](Part_Prism.md): Creates a prism.
+-   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Wedge](Part_Wedge.md): Creates a wedge.
+-   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix.md): Creates a helix.
+-   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spiral](Part_Spiral.md): Creates a spiral.
+-   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Circle](Part_Circle.md): Creates a circular arc.
+-   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse.md): Creates an elliptical arc.
+-   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point.md): Creates a point.
+-   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Line](Part_Line.md): Creates a line.
+-   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Regular polygon](Part_RegularPolygon.md): Creates a regular polygon.
 
 ## Notes
 
--   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width   *16px;"> [Part Tube](Part_Tube.md).
+-   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-There is a Python script to test the creation of the primitives. It can be run from the [Python console](Python_console.md)   *
+There is a Python script to test the creation of the primitives. It can be run from the [Python console](Python_console.md):
 
 
 ```python
@@ -106,14 +106,14 @@ import parttests.part_test_objects as pto
 pto.create_test_file("example_file")
 ```
 
-This script is located in the installation directory of the program, and can be examined to see how the basic primitives are built   *
+This script is located in the installation directory of the program, and can be examined to see how the basic primitives are built:
 
 
 ```python
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-It can be used as input for the program as well   *
+It can be used as input for the program as well:
 
 
 ```python

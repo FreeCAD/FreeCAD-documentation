@@ -9,7 +9,7 @@ Ta strona wiki dokumentuje różne aspekty uruchamiania FreeCAD w konsoli bez w�
 
 Ponieważ nie jest możliwe utworzenie lub dostęp do [dostawcy widoku](Viewprovider/pl.md) w trybie bez użycia GUI. Co jest możliwe, to załadowanie `FreeCADGui` w trybie bez GUI, ale nie ma możliwości dostępu do dokumentu GUI, ponieważ nie zostanie on utworzony i w konsekwencji nie będzie istniał żaden dostawca widoku.
 
-Możliwe jest jednak stworzenie [Scenogramu](Scenegraph/pl.md) reprezentacji obiektu   *
+Możliwe jest jednak stworzenie [Scenogramu](Scenegraph/pl.md) reprezentacji obiektu:
 
 
 {{Code|lang=python|code=
@@ -18,26 +18,26 @@ from pivy import coin
 
 Gui.setupWithoutGUI()
 doc = App.newDocument()
-obj = doc.addObject("Part   *   *Box","Box")
+obj = doc.addObject("Part::Box","Box")
 doc.recompute()
 view = Gui.subgraphFromObject(obj)
 }}
 
-Zobacz   * [wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=481586#p481586).
+Zobacz: [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=481586#p481586).
 
 ## Przykłady
 
 ### Przeszukiwanie modułów FreeCAD 
 
-1.  Otwórz terminal i wpisz   *
+1.  Otwórz terminal i wpisz:
 
-       *   
+    :   
         `$ /path/to/FreeCAD -c`
         
 
-           *   lub
+        :   lub
 
-       *   
+    :   
         `$ /ścieżka/do/FreeCADCmd`
         
 2.  Powłoka Python uruchomi się z promptem. Wpisz `help()`.
@@ -48,8 +48,6 @@ Zobacz   * [wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=10&
 
 -   [Osadzanie FreeCAD](Embedding_FreeCAD/pl#U.C5.BCywanie_FreeCAD_bez_GUI.md)
 -   [Uruchomienie i Konfiguracja](Start_up_and_Configuration/pl#Uruchamianie_FreeCAD_bez_GUI.md)
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

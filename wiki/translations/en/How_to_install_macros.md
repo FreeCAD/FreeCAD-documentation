@@ -1,9 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *Programming
-   Level   *Medium programmer
-   Time   *15 minutes
-   FCVersion   *All
-   Author   *[Mario52](User_Mario52.md)
+- TutorialInfo:   Topic:Programming
+   Level:Medium programmer
+   Time:15 minutes
+   FCVersion:All
+   Author:[Mario52](User_Mario52.md)
 ---
 
 # How to install macros/en
@@ -22,24 +22,24 @@ While Python scripts normally have the `.py` extension, FreeCAD macros should ha
 
 See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to learn about writing macros.
 
-Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
+Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
 ## The Macro menu and toolbar 
 
 ### Toolbar
 
--   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Stop macro recording](Std_MacroStopRecord.md)
--   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Macros\...](Std_DlgMacroExecute.md)
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md)
+-   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md)
+-   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute.md)
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md)
 
 ### Menu
 
 Besides the tools in the toolbar, the following functions are also available in the **Macro** menu.
 
 -   [Attach to remote debugger](Std_MacroAttachDebugger.md)
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width   *32px;"> [Debug macro](Std_MacroStartDebug.md)
--   <img alt="" src=images/Std_MacroStopDebug.svg  style="width   *32px;"> [Stop debugging](Std_MacroStopDebug.md)
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md)
+-   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Stop debugging](Std_MacroStopDebug.md)
 -   [Step over](Std_MacroStepOver.md)
 -   [Step into](Std_MacroStepInto.md)
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md)
@@ -70,13 +70,13 @@ where `$ROOT_DIR` is a top level directory searched by FreeCAD on startup.
 The `$ROOT_DIR` could be a system wide directory, in which case the macro is installed for all users.
 
 -   On Linux it is usually `/usr/share/freecad/`
--   On Windows it is usually `C   *Program Files\FreeCAD\`
+-   On Windows it is usually `C:\Program Files\FreeCAD\`
 -   On Mac OSX it is usually `/Applications/FreeCAD/`
 
 The `$ROOT_DIR` could be a particular user\'s directory.
 
 -   On Linux it is usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
--   On Windows it is usually `C   *Users\username\AppData\FreeCAD\`
+-   On Windows it is usually `C:\Users\username\AppData\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
 ### Configuring the user directory 
@@ -88,27 +88,27 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 2\. Set the appropriate `User macros location`.
 
--   Linux   * usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
--   Windows   * usually `C   *Users\username\AppData\Roaming\FreeCAD\`
--   MacOS   * usually `/Users/username/Library/Preferences/FreeCAD/`
+-   Linux: usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
+-   Windows: usually `C:\Users\username\AppData\Roaming\FreeCAD\`
+-   MacOS: usually `/Users/username/Library/Preferences/FreeCAD/`
 
 ![](images/Dxf_Importer_Install_02.png ) 
 *align=center|Setting of the macros directory*
 
 3\. Navigate to that directory in your computer.
 
--   Linux   * paste the address into your file manager, \"Nautilus\" or other. You may have to press **Ctrl**+**H** to make the hidden directory `.FreeCAD/` visible.
--   Windows   * paste the address into your \"File explorer\" and confirm.
--   MacOS   * locate the folder in the \"Finder\" or paste the address into a \"File explorer\"; remember the `file   *///` prefix in the \"File explorer\" for a file on disk.
+-   Linux: paste the address into your file manager, \"Nautilus\" or other. You may have to press **Ctrl**+**H** to make the hidden directory `.FreeCAD/` visible.
+-   Windows: paste the address into your \"File explorer\" and confirm.
+-   MacOS: locate the folder in the \"Finder\" or paste the address into a \"File explorer\"; remember the `file:///` prefix in the \"File explorer\" for a file on disk.
 
 ![](images/Dxf_Importer_Install_03.png ) 
 *align=center|Accessing the macros directory in the operating system*
 
 4\. Add macro files to this directory.
 
--   Linux   * leave the file manager open, and bookmark the location for faster access.
--   Windows   * leave open the file explorer.
--   MacOS   * either leave a \"Finder\" window open, or bookmark the location in your \"File explorer\", or set up an \"Alias\" to point to it, or drag the folder into the \"SideBar\" of the \"Finder\" so it is there to use from other programs such as text editors.
+-   Linux: leave the file manager open, and bookmark the location for faster access.
+-   Windows: leave open the file explorer.
+-   MacOS: either leave a \"Finder\" window open, or bookmark the location in your \"File explorer\", or set up an \"Alias\" to point to it, or drag the folder into the \"SideBar\" of the \"Finder\" so it is there to use from other programs such as text editors.
 
 ![](images/Dxf_Importer_Install_04.png ) 
 *align=center|Macros directory*
@@ -129,15 +129,15 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 ### Automatic method 
 
-Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros) repository.
+Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
 
 <div class="mw-collapsible-content">
 
-In past versions of FreeCAD you could use two automated ways to install macros and other addons   *
+In past versions of FreeCAD you could use two automated ways to install macros and other addons:
 
--   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
--   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
+-   [addons_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
+-   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
 
 The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
 
@@ -157,11 +157,11 @@ For macros that are relatively small, 300 lines or less, the code can be copied 
 
 <div class="mw-collapsible-content">
 
-We will use <img alt="" src=images/Part_Prism_Apothem.svg  style="width   *24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI.md) as an example.
+We will use <img alt="" src=images/Part_Prism_Apothem.svg  style="width:24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI.md) as an example.
 
 1\. Go to the macro wiki page, which should be listed in [Macros recipes](Macros_recipes.md).
 
-If there is a custom icon download it; click on it with the right mouse button and select `Save image as...`; place the icon in the macros directory. This icon can be used as a shortcut for the macro in a [custom toolbar](Customize_Toolbars.md). The default icon is <img alt="" src=images/Text-x-python.png  style="width   *24px;">.
+If there is a custom icon download it; click on it with the right mouse button and select `Save image as...`; place the icon in the macros directory. This icon can be used as a shortcut for the macro in a [custom toolbar](Customize_Toolbars.md). The default icon is <img alt="" src=images/Text-x-python.png  style="width:24px;">.
 
 ![](images/Macro_Install_HowTo_28.png ) 
 *align=center|Downloading the icon from the macro page*
@@ -243,18 +243,18 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 ### Manual method 2. Add a macro file from a compressed .zip file 
 
-Some macros are too big that it\'s inconvenient to copy and paste them into the macro editor, or they cannot be hosted in the wiki. In this case, the code may be hosted somewhere else, in a Github repository, or in the [FreeCAD forum](https   *//forum.freecadweb.org/). The code may also be compressed into a `.zip` file, tarball `.tar.xz`, or other type of archive if it contains several files. If the code is distributed in this way, the archive should be extracted and the files placed in the macros directory.
+Some macros are too big that it\'s inconvenient to copy and paste them into the macro editor, or they cannot be hosted in the wiki. In this case, the code may be hosted somewhere else, in a Github repository, or in the [FreeCAD forum](https://forum.freecadweb.org/). The code may also be compressed into a `.zip` file, tarball `.tar.xz`, or other type of archive if it contains several files. If the code is distributed in this way, the archive should be extracted and the files placed in the macros directory.
 
 
 <div class="mw-collapsible-content">
 
-We will use <img alt="" src=images/Text-x-python.png  style="width   *24px;"> [Macro screw maker](Macro_screw_maker1_2.md) as an example.
+We will use <img alt="" src=images/Text-x-python.png  style="width:24px;"> [Macro screw maker](Macro_screw_maker1_2.md) as an example.
 
-1\. Download the compressed code from the forum, [Screw Maker](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
+1\. Download the compressed code from the forum, [Screw Maker](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
 
 You need to use a decompressor to get the internal files.
 
--   For Windows you can use an application like [7-zip](http   *//www.7-zip.org/) or [L-Zarc](http   *//www.kanmandet.dk/?p=37) or [quickzip](http   *//www.quickzip.org/quickzip51.html).
+-   For Windows you can use an application like [7-zip](http://www.7-zip.org/) or [L-Zarc](http://www.kanmandet.dk/?p=37) or [quickzip](http://www.quickzip.org/quickzip51.html).
 -   For Linux you can use a command from the terminal
 
 
@@ -299,7 +299,7 @@ unzip your_file.zip -d your_directory
 
 9\. The macro now runs. Select the desired options, and click the **Create** button.
 
-<img alt="" src=images/Macro_Install_HowTo_08.png  style="width   *640px;"> 
+<img alt="" src=images/Macro_Install_HowTo_08.png  style="width:640px;"> 
 *align=center|The macro in action; select the desired options, and press Create when ready*
 
 ![](images/Macro_Install_HowTo_30.png ) 
@@ -325,7 +325,7 @@ on Windows
 
 
 ```python
-"C   *Program Files\FreeCAD\bin\FreeCAD.exe" "C   *Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"
+"C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"
 ```
 
 on Linux
@@ -355,11 +355,11 @@ This section describes some errors that may be encountered when copying and past
 
 <div class="mw-collapsible-content">
 
-A typical indentation error looks like this   *
+A typical indentation error looks like this:
 
 
 ```python
-<unknown exception traceback><type 'exceptions.IndentationError'>   * ('expected an indented block', ('C   */Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self)   *n'))
+<unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
 
 #### Example 1 
@@ -402,7 +402,7 @@ However, when the selection is pasted into the macro editor, undesirable indenta
 
 In this case, the initial spaces need to be removed. This can be done with a specialized text editor to quickly decrease the indentation of the lines.
 
-In Windows, [Notepad++](http   *//notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
+In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
 
 ![](images/Macro_Install_HowTo_16.png ) 
 *align=center|Python code with the correct indentation*
@@ -459,7 +459,7 @@ print("Hello World!")
 
 #### Enabling the report view 
 
-To see the information displayed in the console you should   *
+To see the information displayed in the console you should:
 
 1\. Go to the menu **View → Panels**.
 
@@ -492,11 +492,11 @@ FreeCAD may need to be configured so the `print()` function of [Python](Python.m
 ![](images/Macro_Install_HowTo_36.png ) 
 *align=center|Output window preferences*
 
-3\. Check both boxes   *
+3\. Check both boxes:
 
--   <img alt="" src=images/Case_a_cocher_O.png  style="width   *16px;"> Redirect internal Python output to report view
+-   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Redirect internal Python output to report view
 
--   <img alt="" src=images/Case_a_cocher_O.png  style="width   *16px;"> Redirect internal Python errors to report view
+-   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Redirect internal Python errors to report view
 
 and then press the **OK** button.
 
@@ -511,11 +511,6 @@ and then press the **OK** button.
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

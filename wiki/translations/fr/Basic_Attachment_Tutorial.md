@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   *   Topic   *Ancrage
-   Level   * Débutant et intermédiaire
-   Author   *Bance
-   Time   *1 heure
-   FCVersion   * V0.17 ou au delà
-   Files   *[https   *//github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+- TutorialInfo:   Topic:Ancrage
+   Level: Débutant et intermédiaire
+   Author:Bance
+   Time:1 heure
+   FCVersion: V0.17 ou au delà
+   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
 ---
 
 # Basic Attachment Tutorial/fr
@@ -17,16 +17,16 @@
 
 Ce tutoriel devrait servir d\'introduction à [Part Ancrage](Part_EditAttachment/fr.md). Il n\'est pas exhaustif mais nous espérons qu\'il aidera les utilisateurs à se familiariser avec.
 
-Ancrage est un utilitaire pour attacher un objet à un autre. Cela lie les propriétés de placement des deux objets, l\'objet ancré suivra alors l\'original (si son placement est modifié.) L\'accent est mis sur l\'atelier Part Design et l\'ancrage d\'esquisses à d\'autres esquisses. Il s\'agit d\'une méthode recommandée pour créer des modèles [*stables*](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md). Écrit pour la V0.19, mais devrait être valide pour toute version V0.17 et ultérieure. Cependant, les choses peuvent différer dans certains détails. Le modèle original a été conçu par Md. Aminul Islam et téléchargé à partir d\'ici    * <https   *//grabcad.com/library/50-cad-exercise-drawing-1>
+Ancrage est un utilitaire pour attacher un objet à un autre. Cela lie les propriétés de placement des deux objets, l\'objet ancré suivra alors l\'original (si son placement est modifié.) L\'accent est mis sur l\'atelier Part Design et l\'ancrage d\'esquisses à d\'autres esquisses. Il s\'agit d\'une méthode recommandée pour créer des modèles [*stables*](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md). Écrit pour la V0.19, mais devrait être valide pour toute version V0.17 et ultérieure. Cependant, les choses peuvent différer dans certains détails. Le modèle original a été conçu par Md. Aminul Islam et téléchargé à partir d\'ici : <https://grabcad.com/library/50-cad-exercise-drawing-1>
 
 ## Prérequis
 
-Avant de démarrer ce tutoriel l\'utilisateur doit    *
+Avant de démarrer ce tutoriel l\'utilisateur doit :
 
 1.  Utiliser la version 0.17 ou supérieure.
 2.  Être à l\'aise pour naviguer dans la [Vue 3D](3D_view/fr.md).
 3.  Être capable de créer et de contraindre une [esquisse](Sketcher_Workbench/fr.md).
-4.  Avoir une connaissance de base de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md).
+4.  Avoir une connaissance de base de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md).
 5.  Avoir une connaissance de base des [Expressions](Expressions/fr.md).
 
 ## Objectifs
@@ -79,7 +79,7 @@ Faire de même pour le sous-titre Position. Modifier le décalage X à 80 mm et 
 
 Le décalage d\'ancrage est généralement utilisé en conjonction avec des expressions pour offrir une position paramétrique parallèle au plan, par exemple pour positionner une esquisse sur la face supérieure d\'un bloc, en utilisant une expression (Pad.Length) pour le décalage axe Z.
 
-L\'esquisse peut maintenant être extrudée <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;">, supposons que la hauteur de l\'extrusion doit être la même que la largeur de l\'esquisse. Dans la boîte de dialogue **Pad parameters**, sélectionnez la case **Length**, appuyez sur **<nowiki>=</nowiki>** ou sélectionnez l\'icône de fonction <img alt="" src=images/Bound-expression.svg  style="width   *24px;"> et tapez \"**Sketch.Constraints.width**\", cette expression devrait donné \"40 mm\", puis cocher **Symmetric to plane** et appuyez sur la touche **OK**.
+L\'esquisse peut maintenant être extrudée <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, supposons que la hauteur de l\'extrusion doit être la même que la largeur de l\'esquisse. Dans la boîte de dialogue **Pad parameters**, sélectionnez la case **Length**, appuyez sur **<nowiki>=</nowiki>** ou sélectionnez l\'icône de fonction <img alt="" src=images/Bound-expression.svg  style="width:24px;"> et tapez \"**Sketch.Constraints.width**\", cette expression devrait donné \"40 mm\", puis cocher **Symmetric to plane** et appuyez sur la touche **OK**.
 
 ![centre\|La protrusion de base](images/BasePad2.png )
 
@@ -89,7 +89,7 @@ Faites une nouvelle esquisse, choisissez le plan que vous voulez (nous allons de
 
 Dessinez le triangle, rendez les deux côtés égaux et contraignez sa longueur de la même manière que vous l\'avez fait pour la longueur du pavé, mais cette fois, faites la formule \"**Sketch.Constraints.width/2**\".
 
-Il devrait rester deux degrés de liberté, à savoir la position par rapport à l\'origine. Fixez l\'un des coins à l\'origine de sorte que l\'esquisse ressemble à ceci   *
+Il devrait rester deux degrés de liberté, à savoir la position par rapport à l\'origine. Fixez l\'un des coins à l\'origine de sorte que l\'esquisse ressemble à ceci:
 
 ![centre\|Le premier triangle](images/IsoscelesSketch.png )
 
@@ -103,7 +103,7 @@ Nous allons maintenant changer le mode d\'ancrage de l\'esquisse dans notre mod�
 
 Sélectionnez la protrusion et rendez-la invisible, et rendez BaseSketch visible. Nous devons voir BaseSketch et nous voulons masquer la protrusion afin d\'éviter de faire des sélections incorrectes.
 
-La vue 3D devrait ressembler à quelque chose comme ceci    *
+La vue 3D devrait ressembler à quelque chose comme ceci :
 
 ![centre\|Deux esquisses](images/TwoSketches.png )
 
@@ -153,7 +153,7 @@ Vous pouvez maintenant [découper](PartDesign_Pocket/fr.md) l\'esquisse.
 
 ### Un pas plus loin 
 
-Créez l\'esquisse suivante, les dimensions doivent être des expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") et elle doit être contrainte à l\'origine au sommet adjacent à l\'hypoténuse et son côté le plus court. (Dans l\'esquisse vide, si vous connaissez la **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)**, vous pouvez l\'utiliser pour faire une copie de l\'esquisse \'IsoscelesSketch\' et modifiez ses paramètres en conséquence.)
+Créez l\'esquisse suivante, les dimensions doivent être des expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") et elle doit être contrainte à l\'origine au sommet adjacent à l\'hypoténuse et son côté le plus court. (Dans l\'esquisse vide, si vous connaissez la **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)**, vous pouvez l\'utiliser pour faire une copie de l\'esquisse \'IsoscelesSketch\' et modifiez ses paramètres en conséquence.)
 
 Renommer l\'esquisse RightAngleTriangleSketch.
 
@@ -173,7 +173,7 @@ Si vous avez choisi la mauvaise ligne, changez-la maintenant. Si le triangle poi
 
 Le RightAngleTriangleSketch est maintenant dans une position qui nous donnera la bonne géométrie après une opération de pocket, mais nous pouvons être un peu inventifs ici et positionner l\'esquisse de manière à ce qu\'il nous soit plus facile d\'attacher plus tard la géométrie. Nous allons déplacer notre esquisse au milieu de la ligne afin qu\'elle nous fournisse un sommet en haut du [chanfrein](Glossary/fr#C.md) d\'angle.
 
-Dans la boîte de dialogue d\'attachement, nous allons changer le mode d\'ancrage de [**Normal à une arête**](Part_EditAttachment/fr#Normal_.C3.A0_une_ar.C3.AAte.md) à [Inertie 2-3](Part_EditAttachment/fr#Inertie_2-3.md). Cela changera la position au centre de la ligne, cela dépasse le cadre de ce tutoriel pour décrire tous les modes d\'ancrage, leurs descriptions peuvent être trouvées à la page <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part Ancrage](Part_EditAttachment/fr.md). Il est clair qu\'inertia 2-3 utilise le centre de masse et fait l\'affaire ici.
+Dans la boîte de dialogue d\'attachement, nous allons changer le mode d\'ancrage de [**Normal à une arête**](Part_EditAttachment/fr#Normal_.C3.A0_une_ar.C3.AAte.md) à [Inertie 2-3](Part_EditAttachment/fr#Inertie_2-3.md). Cela changera la position au centre de la ligne, cela dépasse le cadre de ce tutoriel pour décrire tous les modes d\'ancrage, leurs descriptions peuvent être trouvées à la page <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Part Ancrage](Part_EditAttachment/fr.md). Il est clair qu\'inertia 2-3 utilise le centre de masse et fait l\'affaire ici.
 
 ![centre\|Boîte de dialogue Attachment en mode Inertia 2-3](images/ADInertia.png )
 
@@ -194,7 +194,7 @@ En général il vaut mieux positionner nos esquisses simplement avec des modes d
 FreeCAD fournit un certain nombre de moyens de le faire.
 
 1.  [Attachment Offset](Part_Part2DObject/fr#Property_Attachment_Offset.md) permet le positionnement par rapport aux coordonnées locales du point d\'ancrage. (où l\'origine de l\'esquisse positionnée est attachée).
-2.  [Map Path](Part_Part2DObject/fr#Property_Map_Path.md) (Propriété dans l\'onglet Données avec l\'option Afficher tout activée)    * permet le positionnement le long d\'une arête sélectionnée.
+2.  [Map Path](Part_Part2DObject/fr#Property_Map_Path.md) (Propriété dans l\'onglet Données avec l\'option Afficher tout activée) : permet le positionnement le long d\'une arête sélectionnée.
 3.  [Flip Sides/Map Reversed](Part_Part2DObject/fr#Property_Map_Reversed.md). Miroir effectif de l\'esquisse.
 
 Pour notre esquisse finale, nous l\'attacherons arbitrairement et corrigerons sa position à l\'aide des modificateurs répertoriés ci-dessus.
@@ -205,7 +205,7 @@ Renommer le sketch FinalSketch.
 
 ![centre\|FinalSketch](images/RightAngleTriangle.png )
 
-Notez que FinalSketch a été contrainte à l\'origine différemment. Sinon, nous aurions pu utiliser **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)** mais l\'esquisse ne contient que trois lignes et cinq contraintes.
+Notez que FinalSketch a été contrainte à l\'origine différemment. Sinon, nous aurions pu utiliser **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)** mais l\'esquisse ne contient que trois lignes et cinq contraintes.
 
 Une fois encore, nous devons masquer le solide, dans ce cas Pocket001, et nous assurer que les deux esquisses sont visibles pour la sélection (BaseSketch et FinalSketch).
 

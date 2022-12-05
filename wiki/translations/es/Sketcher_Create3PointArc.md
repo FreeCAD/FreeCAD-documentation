@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Sketcher Create3PointArc
-   Name/es   *Croquizador CrearArco3Puntos
-   MenuLocation   *Croquis → Geometrías Croqizador → Crear arco por tres puntos
-   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/es
+   Name:Sketcher Create3PointArc
+   Name/es:Croquizador CrearArco3Puntos
+   MenuLocation:Croquis → Geometrías Croqizador → Crear arco por tres puntos
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Sketcher Create3PointArc/es
@@ -15,7 +15,7 @@
 
 ## Descripción
 
-Esta herramienta dibuja un arco eligiendo tres puntos   * el punto inicial, el punto final y un punto del arco.
+Esta herramienta dibuja un arco eligiendo tres puntos: el punto inicial, el punto final y un punto del arco.
 
 ## Utilización
 

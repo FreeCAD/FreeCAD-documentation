@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw  Dimension Diameter
-   Name/it   *Diametro
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation   *TechDraw → Diametro
-   Shortcut   *
-   SeeAlso   *[Raggio](TechDraw_RadiusDimension/it.md)
+- GuiCommand:/it
+   Name:TechDraw  Dimension Diameter
+   Name/it:Diametro
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Diametro
+   Shortcut:
+   SeeAlso:[Raggio](TechDraw_RadiusDimension/it.md)
 ---
 
 # TechDraw DiameterDimension/it
@@ -25,7 +25,7 @@ La dimensione può essere applicata a qualsiasi parte circolare del disegno. Ini
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width   *130px;"> 
+<img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width:130px;"> 
 *Misurazione di un cerchio, indicando il diametro*
 
 ## Utilizzo
@@ -66,21 +66,21 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dimension Diameter può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Dimension Diameter può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
 dim1.Type = "Diameter"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

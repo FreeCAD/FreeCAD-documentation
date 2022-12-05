@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */de
-   Topic   *TechDraw-Vorlagen erzeugen mittels Python-Macro
-   Level   *Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
-   FCVersion   * 0.19.1 und neuer
-   Time   *(noch nicht bekannt)
-   Author   *[FBXL5](User_FBXL5.md)
+- TutorialInfo:/de
+   Topic:TechDraw-Vorlagen erzeugen mittels Python-Macro
+   Level:Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
+   FCVersion: 0.19.1 und neuer
+   Time:(noch nicht bekannt)
+   Author:[FBXL5](User_FBXL5.md)
 ---
 
 # TechDraw TemplateGenerator/de
@@ -27,12 +27,12 @@ Die Vorlagen sind SVG-Dateien, daher muss ein Makro einige Zeilen SVG-Kode (eine
 
 ## Struktur einer einfachen leeren Seite 
 
-Das SVG-Format ist eine Untermenge des XML-Formats. Daher besteht eine SVG-Datei, wie auch jede XML-Datei, aus zwei Teilen   *
+Das SVG-Format ist eine Untermenge des XML-Formats. Daher besteht eine SVG-Datei, wie auch jede XML-Datei, aus zwei Teilen:
 
 -   Einem Kopf mit eine Formatdeklaration
 -   Einem Körper, der die Informationen darüber enthält, was anzuzeigen ist und wo es platziert wird
 
-   *   (Ich weiß nicht, warum die Kopfzeile enthalten sein soll; die SVG-Datei funktioniert auch ohne sie als Vorlagedatei)
+:   (Ich weiß nicht, warum die Kopfzeile enthalten sein soll; die SVG-Datei funktioniert auch ohne sie als Vorlagedatei)
 
 ### Kopf
 
@@ -50,8 +50,8 @@ Der Körper startet mit einem öffnenden Tag, der Informationen über Namensräu
 
 {{Code|lang=xml|code=
 <svg
-  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
-  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -59,15 +59,15 @@ Der Körper startet mit einem öffnenden Tag, der Informationen über Namensräu
 }}
 
 
-   *   **xmlns=**\"<http   *//www.w3.org/2000/svg>\"   * Externer Verweis auf den XML-Namensraum, um Standard-XML-Befehle nachzuschlagen.
-   *   **version=**\"1.1\"   * Die verwendete XML-Version ist 1.1
-   *   **xmlns   *freecad=**\"[Svg-Namensraum](https   *//wiki.freecadweb.org/index.php?title=Svg_Namespace)\"   * Externer Verweis auf FreeCADs Namensraumerweiterung zum Nachschlagen spezieller Befehle, die nur innerhalb einer FreeCAD-Umgebung verwendet werden, wie z.B. editierbare Texte.
-   *   \"freecad   *" wird Attributnamen vorangestellt, damit sie durch die besagten speziellen Befehle verarbeitet werden.
-   *   **width=**\"420mm\"   * Breite der Zeichenfläche
-   *   **height=**\"297mm\"   * Höhe der Zeichenfläche
-   *   **viewBox=**\"0 0 420 297\"   * Position der oberen linken Ecke (0;0) und der unteren rechten Ecke (420;297) im SVG-Konstruktionsraum (in SVG-Einheiten).
-   *   Width, height, and viewBox, in dieser Kombination, setzen 1 SVG-Einheit gleich 1 mm, für das gesamte Dokument. Von jetzt an kann die Maßeinheit weggelassen werden.
-   *   In diesem Falle ergeben 420 und 297 eine A3-Seite. Diese Werte werden angepasst, um andere Seitenformate zu erzeugen.
+:   **xmlns=**\"<http://www.w3.org/2000/svg>\": Externer Verweis auf den XML-Namensraum, um Standard-XML-Befehle nachzuschlagen.
+:   **version=**\"1.1\": Die verwendete XML-Version ist 1.1
+:   **xmlns:freecad=**\"[Svg-Namensraum](https://wiki.freecadweb.org/index.php?title=Svg_Namespace)\": Externer Verweis auf FreeCADs Namensraumerweiterung zum Nachschlagen spezieller Befehle, die nur innerhalb einer FreeCAD-Umgebung verwendet werden, wie z.B. editierbare Texte.
+:   \"freecad:\" wird Attributnamen vorangestellt, damit sie durch die besagten speziellen Befehle verarbeitet werden.
+:   **width=**\"420mm\": Breite der Zeichenfläche
+:   **height=**\"297mm\": Höhe der Zeichenfläche
+:   **viewBox=**\"0 0 420 297\": Position der oberen linken Ecke (0;0) und der unteren rechten Ecke (420;297) im SVG-Konstruktionsraum (in SVG-Einheiten).
+:   Width, height, and viewBox, in dieser Kombination, setzen 1 SVG-Einheit gleich 1 mm, für das gesamte Dokument. Von jetzt an kann die Maßeinheit weggelassen werden.
+:   In diesem Falle ergeben 420 und 297 eine A3-Seite. Diese Werte werden angepasst, um andere Seitenformate zu erzeugen.
 
 Für eine leere DIN-A3-Seite im Querformat war das alles.
 
@@ -75,8 +75,8 @@ Für eine leere DIN-A3-Seite im Querformat war das alles.
 {{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
-  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">
@@ -91,7 +91,7 @@ Der Benutzer sollte bereits einen Vorlagenordner ausgewählt haben. Sein Pfad is
 
 
 {{Code| |code=
-parameter_path = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Mod/TechDraw/Files")
+parameter_path = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/TechDraw/Files")
 template_path = parameter_path.GetString("TemplateDir")
 template_name = "MyTemplate.svg"
 template_file = os.path.join(template_path, template_name)
@@ -114,12 +114,12 @@ Dieses Makro zeigt das Prinzip, wie eine SVG-Datei zusammengestellt werden kann.
 
 {{Code| |code=
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
 #- Get the path to the template folder that is set in the FreeCAD parameters
-parameter_path = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Mod/TechDraw/Files")
+parameter_path = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/TechDraw/Files")
 template_path = parameter_path.GetString("TemplateDir")
 template_name = "MyTemplate.svg"
 #- Link template_path and template_name for any OS
@@ -129,22 +129,22 @@ template_file = os.path.join(template_path, template_name)
 
 #- Create a file and insert a header line
 #   (with t as the space saving variant of template)
-def CreateSvgFile(filePath)   *
+def CreateSvgFile(filePath):
     t=open(filePath,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath)   *
+def StartSvg(filePath):
     t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight)   *
+def CreateSheet(filePath,shWidth,shHeight):
     t=open(filePath,"a")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
@@ -153,7 +153,7 @@ def CreateSheet(filePath,shWidth,shHeight)   *
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath)   *
+def EndSvg(filePath):
     t=open(filePath,"a")
     t.write("</svg>")
     t.close
@@ -179,25 +179,25 @@ EndSvg(template_file)
 </div>
 
 
-   *   Das Hauptprinzip ist   *
+:   Das Hauptprinzip ist:
     -   eine Datei zum Schreiben zu öffnen und so als ersten Schritt eine leere SVG-Datei anzulegen, eine Kopfzeile zu schreiben und die Datei zu schließen
     -   und danach wiederholt die Datei zum Anhängen weiterer Segmente zu öffnen und nach erfolgtem Anhängen wieder zu schließen.
-   *   
-   *   Das Makro besteht aus mehreren Funktionen, die vom Hauptprogramm aufgerufen werden. .
-   *   Zusätzliche Funktionen können vor der EndSvg-Funktion eingefügt werden und die dazugehörigen Aufrufe werden vor dem EndSvg()-Aufruf eingesetzt.
-   *   Man muss auf die Anzahl der Leerzeichen achten, die mit den Schreiboperationen erzeugt werden, und damit auf den korrekten Zeileneinzug.
+:   
+:   Das Makro besteht aus mehreren Funktionen, die vom Hauptprogramm aufgerufen werden. .
+:   Zusätzliche Funktionen können vor der EndSvg-Funktion eingefügt werden und die dazugehörigen Aufrufe werden vor dem EndSvg()-Aufruf eingesetzt.
+:   Man muss auf die Anzahl der Leerzeichen achten, die mit den Schreiboperationen erzeugt werden, und damit auf den korrekten Zeileneinzug.
 
 ### \... zum Erstellen einer Seite mit ein paar Strichen 
 
-Um aus einer leeren Seite eine Zeichnung zu machen, braucht man   *
+Um aus einer leeren Seite eine Zeichnung zu machen, braucht man:
 
-   ** Rahmen, d.h. Rechtecke, die mit der Anweisung **rect** erstellt werden
+  - Rahmen, d.h. Rechtecke, die mit der Anweisung **rect** erstellt werden
 
-   ** ein Schriftfeld und noch etwas mehr, das aus Linien besteht, die mit der Anweisung **path** erstellt werden
+  - ein Schriftfeld und noch etwas mehr, das aus Linien besteht, die mit der Anweisung **path** erstellt werden
 
-   ** einfache Texte für Indizes und die Benennungen der Schriftfeldzellen
+  - einfache Texte für Indizes und die Benennungen der Schriftfeldzellen
 
-   ** editierbare Texte für z.B. Sachnummer und Benennung
+  - editierbare Texte für z.B. Sachnummer und Benennung
 
 Diese graphischen Elemente werden normalerweise mehrfach benutzt, daher werden für die erzeugenden Kodes Funktionen erstellt.
 
@@ -208,7 +208,7 @@ Um ein Rechteck zu zeichnen, muss die Funktion **svgrect** aufgerufen und die We
 
 {{Code| |code=
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y)   *
+def svgrect(width,height,x,y):
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 }}
@@ -224,10 +224,10 @@ Jeder Pfad beginnt am Ursprung und die erste Aktion ist eine Bewegung mit \"ange
 
 {{Code| |code=
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2)   *
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
+def svgpath(x1,y1,x2,y2):
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
         svgLine=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else   *
+    else:
         svgLine=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svgLine
 }}
@@ -241,7 +241,7 @@ Um etwas Text zu zeichnen, muss die Funktion **svgtext** aufgerufen und die Koor
 
 {{Code| |code=
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue)   *
+def svgtext(posX,posY,strValue):
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 }}
@@ -257,8 +257,8 @@ FreeCAD erzeugt ein Dictionary-Objekt für jede hinzugefügte Vorlage, und jeder
 
 {{Code| |code=
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue)   *
-    svgLine=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue):
+    svgLine=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svgLine
 }}
@@ -274,11 +274,11 @@ Und am Ende steht der schließende Gruppen-Tag, gefolgt von einer Anweisung zum 
 
 {{Code| |code=
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight)   *
+def CreateFrame(filePath,shWidth,shHeight):
     t=open(filePath,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
-stroke-linecap   *round\">\n")
+    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
+stroke-linecap:round\">\n")
     # inner Frame, drawing area
     #- upper left corner
     drawingX=str(20)
@@ -314,12 +314,12 @@ Dieses Makro fügt ein paar grundlegende graphische Elemente hinzu, die für ric
 
 {{Code| |code=
 #! python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # (c) 2021 Your name LGPL
 #
 #
 #- Get the path to the template folder that is set in the FreeCAD parameters
-parameter_path = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Mod/TechDraw/Files")
+parameter_path = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/TechDraw/Files")
 template_path = parameter_path.GetString("TemplateDir")
 template_name = "MyTemplate.svg"
 #- Link template_path and template_name for any OS
@@ -329,22 +329,22 @@ template_file = os.path.join(template_path, template_name)
 
 #- Create a file and insert a header line
 #   (with t as the space saving variant of template)
-def CreateSvgFile(filePath)   *
+def CreateSvgFile(filePath):
     t=open(filePath,"w") # w = write, overwrites existing files
     t.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>")
     t.close
 
 #- Create opening svg-tag
 #   Namespace section
-def StartSvg(filePath)   *
+def StartSvg(filePath):
     t=open(filePath,"a") # a = append, new lines are added at the end of an existing file
     t.write("\n"+"\n")
     t.write("<svg\n")
-    t.write("  xmlns=\"http   *//www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns   *freecad=\"http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
+    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
-def CreateSheet(filePath,shWidth,shHeight)   *
+def CreateSheet(filePath,shWidth,shHeight):
     t=open(filePath,"a")
     t.write("  width =\""+shWidth+"mm\"\n")
     t.write("  height=\""+shHeight+"mm\"\n")
@@ -353,41 +353,41 @@ def CreateSheet(filePath,shWidth,shHeight)   *
     # identical values for width and height and Viewbox' width and height will synchronise mm and svg-units
 
 #- Create closing svg-tag
-def EndSvg(filePath)   *
+def EndSvg(filePath):
     t=open(filePath,"a")
     t.write("</svg>")
     t.close
 
 #- Function to generate an svg-instruction to draw a rectangle with the given values
-def svgrect(width,height,x,y)   *
+def svgrect(width,height,x,y):
     svgLine=("<rect width=\""+width+"\" height=\""+height+"\" x=\""+x+"\" y=\""+y+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to draw a path element (line) with the given values
-def svgpath(x1,y1,x2,y2)   *
-    if x2=="v" or x2=="V" or x2=="h" or x2=="H"   *
+def svgpath(x1,y1,x2,y2):
+    if x2=="v" or x2=="V" or x2=="h" or x2=="H":
         svgLine=("<path d=\"m "+x1+","+y1+" "+x2+" "+y2+"\" />")
-    else   *
+    else:
         svgLine=("<path d=\"m "+x1+","+y1+" l "+x2+","+y2+"\" />")
     return svgLine
 
 #- Function to generate an svg-instruction to place a text element with the given values
-def svgtext(posX,posY,strValue)   *
+def svgtext(posX,posY,strValue):
     svgLine=("<text x=\""+posX+"\" y=\""+posY+"\">"+strValue+"</text>")
     return svgLine
 
 #- Function to generate an svg-instruction to place an editable text element with the given values
-def FCeditext(entryName,posX,posY,strValue)   *
-    svgLine=("<text freecad   *editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
+def FCeditext(entryName,posX,posY,strValue):
+    svgLine=("<text freecad:editable=\""+entryName+"\" x=\""+posX+"\" y=\""+posY \
     +"\">  <tspan>"+strValue+"</tspan>  </text>")
     return svgLine
 
 #- Frame creation
-def CreateFrame(filePath,shWidth,shHeight)   *
+def CreateFrame(filePath,shWidth,shHeight):
     t=open(filePath,"a")
     t.write("    <g id=\"drawing-frame\"\n")
-    t.write("      style=\"fill   *none;stroke   *#000000;stroke-width   *0.5;\
-stroke-linecap   *round\">\n")
+    t.write("      style=\"fill:none;stroke:#000000;stroke-width:0.5;\
+stroke-linecap:round\">\n")
     # inner Frame, drawing area
     #- upper left corner
     drawingX=str(20)
@@ -410,7 +410,7 @@ stroke-linecap   *round\">\n")
     t.close
 
 #- Title block movable
-def CreateTitleBlock(filePath,shWidth,shHeight)   *
+def CreateTitleBlock(filePath,shWidth,shHeight):
 
     #- lower left corner
     tbX=str(int(shWidth)-10-180) # 180 according to DIN EN ISO 7200
@@ -421,8 +421,8 @@ def CreateTitleBlock(filePath,shWidth,shHeight)   *
     t.write("      transform=\"translate("+tbX+","+tbY+")\">\n")
     #- title block
     t.write("      <g id=\"titleblock-frame\"\n")
-    t.write("        style=\"fill   *none;stroke   *#000000;stroke-width   *0.35;\
-stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
+    t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
+stroke-linecap:miter;stroke-miterlimit:4\">\n")
     t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0","-30","h","155")+"\n")
@@ -430,8 +430,8 @@ stroke-linecap   *miter;stroke-miterlimit   *4\">\n")
     t.write("      </g>\n")
     #- small texts, left-aligned
     t.write("      <g id=\"titleblock-text-non-editable\"\n")
-    t.write("        style=\"font-size   *5.0;text-anchor   *start;fill   *#000000;\
-font-family   *osifont\">\n")
+    t.write("        style=\"font-size:5.0;text-anchor:start;fill:#000000;\
+font-family:osifont\">\n")
     t.write("        "+svgtext("  4.5","-43.5 ","Some static text")+"\n")
     t.write("        "+svgtext("  4.5","-13.5 ","More static text")+"\n")
     t.write("      </g>\n")
@@ -440,7 +440,7 @@ font-family   *osifont\">\n")
     t.close
 
 #- Title block editable texts
-def CreateEditableText(filePath,shWidth,shHeight)   *
+def CreateEditableText(filePath,shWidth,shHeight):
 
     #- offsets for editable texts
     edX=int(shWidth)-10-180 # 180 according to DIN EN ISO 7200
@@ -448,8 +448,8 @@ def CreateEditableText(filePath,shWidth,shHeight)   *
 
     t=open(filePath,"a")
     t.write("    <g id=\"titleblock-editable-texts\"\n")
-    t.write("      style=\"font-size   *7.0;text-anchor   *start;fill   *#0000d0;\
-font-family   *osifont\">\n")
+    t.write("      style=\"font-size:7.0;text-anchor:start;fill:#0000d0;\
+font-family:osifont\">\n")
     t.write("      "+FCeditext("EdiText-1",str(edX+60),str(edY-43.5),"Some editable text")+"\n")
     t.write("      "+FCeditext("EdiText-2",str(edX+60),str(edY-13.5),"More editable text")+"\n")
     t.write("    </g>\n\n")
@@ -472,20 +472,20 @@ EndSvg(template_file)
 # At this point a new SVG-file is generated and saved
 }}
 
-Und das ist der SVG-Kode aus diesem Makro   *
+Und das ist der SVG-Kode aus diesem Makro:
 
 
 {{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <svg
-  xmlns="http   *//www.w3.org/2000/svg" version="1.1"
-  xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
   width ="420mm"
   height="297mm"
   viewBox="0 0 420 297">
     <g id="drawing-frame"
-      style="fill   *none;stroke   *#000000;stroke-width   *0.5;stroke-linecap   *round">
+      style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round">
       <rect width="390" height="277" x="20" y="10" />
       <rect width="400" height="287" x="15" y="5" />
     </g>
@@ -493,23 +493,23 @@ Und das ist der SVG-Kode aus diesem Makro   *
     <g id="titleblock"
       transform="translate(230,287)">
       <g id="titleblock-frame"
-        style="fill   *none;stroke   *#000000;stroke-width   *0.35;stroke-linecap   *miter;stroke-miterlimit   *4">
+        style="fill:none;stroke:#000000;stroke-width:0.35;stroke-linecap:miter;stroke-miterlimit:4">
         <path d="m   0,  0 l   0,-63" />
         <path d="m   0,-63 l 180,  0" />
         <path d="m   0,-30 h 155" />
         <path d="m 155,  0 v -63" />
       </g>
       <g id="titleblock-text-non-editable"
-        style="font-size   *5.0;text-anchor   *start;fill   *#000000;font-family   *osifont">
+        style="font-size:5.0;text-anchor:start;fill:#000000;font-family:osifont">
         <text x="  4.5" y="-43.5 ">Some static text</text>
         <text x="  4.5" y="-13.5 ">More static text</text>
       </g>
     </g>
 
     <g id="titleblock-editable-texts"
-      style="font-size   *7.0;text-anchor   *start;fill   *#0000d0;font-family   *osifont">
-      <text freecad   *editable="EdiText-1" x="290" y="243.5">  <tspan>Some editable text</tspan>  </text>
-      <text freecad   *editable="EdiText-2" x="290" y="273.5">  <tspan>More editable text</tspan>  </text>
+      style="font-size:7.0;text-anchor:start;fill:#0000d0;font-family:osifont">
+      <text freecad:editable="EdiText-1" x="290" y="243.5">  <tspan>Some editable text</tspan>  </text>
+      <text freecad:editable="EdiText-2" x="290" y="273.5">  <tspan>More editable text</tspan>  </text>
     </g>
 
 </svg>
@@ -521,7 +521,7 @@ Und das ist der SVG-Kode aus diesem Makro   *
 
 </div>
 
-Und so soll es aussehen, wenn sie (die Vorlage) eingefügt wurde (mit vergrößertem Schriftfeld)   *
+Und so soll es aussehen, wenn sie (die Vorlage) eingefügt wurde (mit vergrößertem Schriftfeld):
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
 

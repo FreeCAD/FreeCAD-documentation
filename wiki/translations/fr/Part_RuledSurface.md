@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Part RuledSurface
-   Name/fr   *Part Surface Réglée
-   MenuLocation   *Part → Créer une surface réglée
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Créer une face](Part_MakeFace/fr.md)
+- GuiCommand:/fr
+   Name:Part RuledSurface
+   Name/fr:Part Surface Réglée
+   MenuLocation:Part → Créer une surface réglée
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Créer une face](Part_MakeFace/fr.md)
 ---
 
 # Part RuledSurface/fr
@@ -17,8 +17,8 @@ Crée une surface réglée.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> [Créer un surface réglée](Part_RuledSurface/fr.md)
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Créer un surface réglée](Part_RuledSurface/fr.md)
     -   Utilisez l\'entrée **Part → Créer un surface réglée** dans le menu Part
 
 ## Remarques

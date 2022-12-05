@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintPressure
-   Name/de   *FEM RandbedingungDruck
-   MenuLocation   *Modell → Mechanische Randbedingungen → Randbedingung Druck
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM RandbedingungKraft](FEM_ConstraintForce/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintPressure
+   Name/de:FEM RandbedingungDruck
+   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Druck
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM RandbedingungKraft](FEM_ConstraintForce/de.md)
 ---
 
 # FEM ConstraintPressure/de
@@ -15,7 +15,7 @@ Wendet eine Druckbeschränkung auf eine Fläche an.
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Randbedingung Druck](FEM_ConstraintPressure/de.md)** drücken.
     -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintPressure.svg" width=16px> Randbedingung Druck** auswählen.
 2.  Auf die Schaltfläche **Hinzufügen** klicken und Flächen in der [3D-Ansicht](3D_view/de.md) auswählen.
@@ -26,7 +26,7 @@ Wendet eine Druckbeschränkung auf eine Fläche an.
 
 -   Die Verteilung des Drucks auf die Fläche ist immer gleichmäßig und immer senkrecht zur Fläche.
 
--   Pressure on faces   * <https   *//github.com/FreeCAD/FreeCAD/issues/5699>
+-   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

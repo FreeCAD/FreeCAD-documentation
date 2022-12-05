@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Remove
-   Name/ro   *Arch Remove
-   MenuLocation   *Arch → Remove
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[[Arch Add]]
+- GuiCommand:/ro
+   Name:Arch Remove
+   Name/ro:Arch Remove
+   MenuLocation:Arch → Remove
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[[Arch Add]]
 ---
 
 # Arch Remove/ro
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentele de eliminare vă permit să efectuați două tipuri de operații   *
+Instrumentele de eliminare vă permit să efectuați două tipuri de operații:
 
 -   Eliminați o subcomponentă dintr-un obiect Arch, de exemplu, scoateți o cutie adăugată pe un perete, ca în exemplul [Arch Add](Arch_Add.md)
 -   Scoateți un obiect bazat pe [shape](Part_Workbench.md) dintr-o componentă Arch, cum ar fi [wall](Arch_Wall.md) sau [structure](Arch_Structure.md)
@@ -27,7 +27,7 @@ Instrumentele de eliminare vă permit să efectuați două tipuri de operații  
 
 The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 
 <div class="mw-translate-fuzzy">
 
-1.  Selectați o subcomponentă în interiorul unui obiect Arch, **sau**   *
+1.  Selectați o subcomponentă în interiorul unui obiect Arch, **sau**:
 2.  Selectați obiectul (obiectele) care trebuie scos, apoi componenta Arch din care trebuie să fie scăzută (componenta Arch trebuie să fie ultimul lucru pe care l-ați selectat)
 3.  Apăsați butonul **<img src="images/Arch_Remove.png" width=16px> '''Remove'''
 **
@@ -72,7 +72,7 @@ Or
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Remove poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție   *
+Instrumentul Remove poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție:
 
 
 </div>
@@ -87,19 +87,19 @@ removeComponents(objectsList, host=None)
 
 -   elimină componenta dată sau componentele din lista dată de la părinți ei. Dacă este specificat un obiect gazdă, această funcție va încerca să adauge componentele ca găuri la obiectul gazdă.
 
-Exemplu   *
+Exemplu:
 
 
 </div>
 
-Example   * 
+Example: 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

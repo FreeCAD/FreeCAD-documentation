@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh RemoveCompByHand
-   Name/pl   *Siatka   * Usuń elementy Interaktywnie
-   MenuLocation   *Siatki → Usuń elementy ręcznie ...
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso   *[Usuń elementy](Mesh_RemoveComponents/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
+- GuiCommand:/pl
+   Name:Mesh RemoveCompByHand
+   Name/pl:Siatka: Usuń elementy Interaktywnie
+   MenuLocation:Siatki → Usuń elementy ręcznie ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Usuń elementy](Mesh_RemoveComponents/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
 ---
 
 # Mesh RemoveCompByHand/pl
@@ -16,7 +16,7 @@ Polecenie **Usuń fragmenty ręcznie** usuwa wskazane elementy z obiektów siatk
 ## Użycie
 
 1.  Fragment odnosi się do kompletnej grupy połączonych powierzchni. Zazwyczaj obiekt siatki zawiera pojedynczy fragment. Ale, na przykład po użyciu polecenia [Scal](Mesh_Merge/pl.md), obiekt siatki może zawierać wiele fragmentów.
-2.  Polecenie używa koloru czerwonego do zaznaczania wybranych fragmentów. Aby je prawidłowo zobaczyć   *
+2.  Polecenie używa koloru czerwonego do zaznaczania wybranych fragmentów. Aby je prawidłowo zobaczyć:
     -   
         **Tryb wyświetlania**
         

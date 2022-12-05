@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   * Analisi Elementi Finiti
-   Level   * Base
-   Time   * 10 minuti
-   Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   *Berndhahnebach Bernd]
-   FCVersion   *0.16.6377 o superiore
-   Files   *
+- TutorialInfo:/it
+   Topic: Analisi Elementi Finiti
+   Level: Base
+   Time: 10 minuti
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.16.6377 o superiore
+   Files:
 ---
 
 # FEM CalculiX Cantilever 3D/it
@@ -32,7 +32,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic10.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
 
 ## Requirements
 
@@ -64,7 +64,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic11.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic11.png  style="width:700px;">
 
 ### Activate the analysis container 
 
@@ -74,12 +74,12 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 ### Attivare il contenitore delle analisi 
 
 -   Per lavorare con una analisi, prima si deve attivarla.
--   Nella vista ad albero fare clic destro su <img alt="" src=images/Fem_Analysis.png  style="width   *32px;"> Analisi meccanica → Attiva analisi
+-   Nella vista ad albero fare clic destro su <img alt="" src=images/Fem_Analysis.png  style="width:32px;"> Analisi meccanica → Attiva analisi
 
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic12.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
 
 ### Analysis container and its objects 
 
@@ -90,15 +90,15 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 -   Se viene attivata l\'analisi FreeCAD cambia l\'ambiente corrente in FEM.
 -   Per eseguire un\'analisi meccanica statica sono necessari almeno 5 oggetti.
--   <img alt="" src=images/Fem_Analysis.svg  style="width   *32px;"> contenitore dell\'analisi
+-   <img alt="" src=images/Fem_Analysis.svg  style="width:32px;"> contenitore dell\'analisi
 
-1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> un solutore
-2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *32px;"> un materiale
-3.  <img alt="" src=images/Fem_ConstraintFixed.svg  style="width   *32px;"> un vincolo fissaggio
-4.  <img alt="" src=images/Fem_ConstraintForce.svg  style="width   *32px;"> un vincolo forza
-5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width   *32px;"> un oggetto mesh FEM
+1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> un solutore
+2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> un materiale
+3.  <img alt="" src=images/Fem_ConstraintFixed.svg  style="width:32px;"> un vincolo fissaggio
+4.  <img alt="" src=images/Fem_ConstraintForce.svg  style="width:32px;"> un vincolo forza
+5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> un oggetto mesh FEM
 
--   In questo esempio sono inclusi anche i risultati quindi c\'è un sesto oggetto, cioè i risultati <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;">.
+-   In questo esempio sono inclusi anche i risultati quindi c\'è un sesto oggetto, cioè i risultati <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">.
 
 
 </div>
@@ -112,7 +112,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 -   Assicurarsi che l\'analisi sia attivata.
 -   Assicurarsi che l\'analisi contenga ancora l\'oggetto risultato, altrimenti basta ricaricare il file di esempio.
--   Nella barra degli strumenti fare clic sull\'icona <img alt="" src=images/FEM_ShowResult.png  style="width   *16px;"> [Mostra risultati](FEM_ResultShow/it.md)
+-   Nella barra degli strumenti fare clic sull\'icona <img alt="" src=images/FEM_ShowResult.png  style="width:16px;"> [Mostra risultati](FEM_ResultShow/it.md)
 -   Nella scheda Azioni scegliere z-Displacement. Mostra -88.443 mm nella direzione z negativo.
 -   Questo ha senso dal momento che anche la forza è in direzione Z negativo.
 -   Attivare la casella di controllo \"Mostra\", a fianco del cursore in basso per visualizzare lo spostamento.
@@ -122,7 +122,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic13.png  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
 ### Purging Results 
 
@@ -132,7 +132,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 ### Eliminare i risultati 
 
 -   Assicurarsi che l\'analisi sia attivata.
--   Per rimuovere i risultati selezionare nella barra l\'icona <img alt="" src=images/FEM_PurgeResults.png  style="width   *32px;"> [Elimina risultati](FEM_ResultsPurge/it.md)
+-   Per rimuovere i risultati selezionare nella barra l\'icona <img alt="" src=images/FEM_PurgeResults.png  style="width:32px;"> [Elimina risultati](FEM_ResultsPurge/it.md)
 
 
 </div>
@@ -144,7 +144,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 ### Eseguire la FEA 
 
--   Nella vista ad albero fare doppio click sull\'oggetto solver <img alt="" src=images/FEM_Solver.png  style="width   *32px;">.
+-   Nella vista ad albero fare doppio click sull\'oggetto solver <img alt="" src=images/FEM_Solver.png  style="width:32px;">.
 -   Nella finestra Azioni dell\'oggetto risolutore accertarsi che sia selezionata l\'analisi statica.
 -   Nella stessa scheda, cliccare su \"Scrivi il file .inp\". Attendere che nella finestra del rapporto compaia la scritta \"write completed\".
 -   Cliccare su **Esegui CalculiX**. Poiché questa è una breve analisi dovrebbe essere eseguita in meno di un secondo.
@@ -157,7 +157,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic14.png  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic14.png  style="width:400px;">
 
 ### Running the FEA the fast Way 
 
@@ -166,8 +166,8 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 ### Eseguire velocemente la FEA 
 
--   Nella vista ad albero selezionare l\'oggetto risolutore <img alt="" src=images/FEM_Solver.png  style="width   *32px;"> dell\'analisi <img alt="" src=images/FEM_Analysis.png  style="width   *32px;">.
--   Nella barra degli strumenti cliccare sull\'icona <img alt="" src=images/FEM_RunCalculiXccx.png  style="width   *32px;"> [Analisi rapida](FEM_SolverRun/it.md).
+-   Nella vista ad albero selezionare l\'oggetto risolutore <img alt="" src=images/FEM_Solver.png  style="width:32px;"> dell\'analisi <img alt="" src=images/FEM_Analysis.png  style="width:32px;">.
+-   Nella barra degli strumenti cliccare sull\'icona <img alt="" src=images/FEM_RunCalculiXccx.png  style="width:32px;"> [Analisi rapida](FEM_SolverRun/it.md).
 -   Viene scritto il file Calculix di input, viene attivato Calculix e viene creato l\'oggetto risultato.
 
 
@@ -180,32 +180,32 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 ### Modificare la Direzione e il Valore del carico 
 
--   Nella vista ad albero selezionare l\'oggetto mesh FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width   *32px;"> e premere il tasto spazio.
-    -   **Risultato   *** L\'oggetto mesh FEM viene nascosto, e rimane visibile solo il modello geometrico.
+-   Nella vista ad albero selezionare l\'oggetto mesh FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> e premere il tasto spazio.
+    -   **Risultato:** L\'oggetto mesh FEM viene nascosto, e rimane visibile solo il modello geometrico.
 -   Nella vista ad albero fare doppio click sull\'oggetto \"Vincolo forza\" per aprire la sua finestra Azioni.
 -   Nella finestra Azioni cambiare il valore del carico 500000000 N = 500 MN (nella finestra Azioni l\'unità di misura della forza deve essere in N)
 -   Cliccare sul pulsante **Direzione**.
 -   Sul modello geometrico Cliccare su uno dei bordi lunghi in direzione x.
-    -   **Risultato   *** Le frecce rosse della forza cambiano direzione e si orientano in direzione x. Esse mostrano la direzione fissata.
+    -   **Risultato:** Le frecce rosse della forza cambiano direzione e si orientano in direzione x. Esse mostrano la direzione fissata.
 -   Dato che la tensione deve essere applicata nel verso opposto bisogna attivare il controllo \"Reverse direction\".
 -   Le frecce rosse della forza cambiano il loro verso.
 -   Fare clic su **OK** nella finestra delle Azioni.
 
-<img alt="" src=images/FEM_example01_pic05.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic05.jpg  style="width:700px;">
 
--   Attivare la visibilità della mesh FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width   *32px;"> selezionandola nella vista ad albero e premendo il tasto spazio.
+-   Attivare la visibilità della mesh FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> selezionandola nella vista ad albero e premendo il tasto spazio.
 -   Abbiamo già visto come attivare un\'analisi e come visualizzare i risultati.
 -   La deformazione in direzione x dovrebbe essere di 19.05 mm.
 
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic15.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic15.png  style="width:700px;">
 
 -   You know how to trigger an analysis and how to visualize results already.
 -   The deformation in x-direction should be 18.95 mm.
 
-<img alt="" src=images/FEM_example01_pic16.png  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
 ## What next? 
 

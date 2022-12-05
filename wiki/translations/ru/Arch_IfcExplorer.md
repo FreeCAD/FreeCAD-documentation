@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch IfcExplorer
-   Name/ru   *Arch IfcExplorer
-   MenuLocation   *Архитектура → Утилиты → Исследователь Ifc
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   SeeAlso   *[Arch IFC](Arch_IFC/ru.md)
+- GuiCommand:/ru
+   Name:Arch IfcExplorer
+   Name/ru:Arch IfcExplorer
+   MenuLocation:Архитектура → Утилиты → Исследователь Ifc
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   SeeAlso:[Arch IFC](Arch_IFC/ru.md)
 ---
 
 # Arch IfcExplorer/ru
@@ -30,17 +30,17 @@
 
 </div>
 
-<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width   *800px;">
+<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
-   *   
+:   
     
 *Ifc Explorer with several properties*
     
 
 ## Usage
 
-1.  Invoke the Ifc Explorer via   *
-    -   Pressing the <img alt="" src=images/Arch_IfcExplorer.svg  style="width   *24px;"> button
+1.  Invoke the Ifc Explorer via:
+    -   Pressing the <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;"> button
     -   Using the **Arch → Utilities → Ifc Explorer** entry from the Arch dropdown menu.
 
 
@@ -51,11 +51,6 @@
 
 
 </div>
-
-
- 
-
-[Category   *BIM](Category_BIM.md)
 
 
 

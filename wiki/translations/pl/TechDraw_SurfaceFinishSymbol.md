@@ -1,22 +1,22 @@
 ---
-- GuiCommand   */pl
-   Name   *TechDraw SurfaceFinishSymbol
-   Name/pl   *Rysunek Techniczny   * Symbol wykończenia powierzchni
-   MenuLocation   *Rysunek Techniczny → Dodaj symbol wykończenia powierzchni
-   Workbenches   *[środowisko pracy Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version   *0.21
+- GuiCommand:/pl
+   Name:TechDraw SurfaceFinishSymbol
+   Name/pl:Rysunek Techniczny: Symbol wykończenia powierzchni
+   MenuLocation:Rysunek Techniczny → Dodaj symbol wykończenia powierzchni
+   Workbenches:[środowisko pracy Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version:0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/pl
 
 ## Opis
 
-Narzędzie <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *24px;"> **Rysunek Techniczny** dodaje symbol wykończenia powierzchni do strony.
+Narzędzie <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **Rysunek Techniczny** dodaje symbol wykończenia powierzchni do strony.
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample1.png  style="width   *330px;"> 
+<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample1.png  style="width:330px;"> 
 *Panel zadań z wybranym stylem ISO. Po prawej stronie utworzony symbol.*
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width   *330px;"> 
+<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width:330px;"> 
 *Panel zadań z wybranym stylem ASME. Po prawej stronie utworzony symbol.*
 
 ## Użycie

@@ -1,6 +1,6 @@
 # Std ViewFitAll/ro
 ---
-- GuiCommand   *   Name   *Std ViewFitAll   MenuLocation   *[|Workbenches   *All   Shortcut   *   SeeAlso   *[[Std_ViewFitSelection|Fit Selection](Std_View_Menu___View]]_→_Standard_views‏‎_→_FitAll.md)---
+- GuiCommand:   Name:Std ViewFitAll   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Std_ViewFitSelection|Fit Selection](Std_View_Menu___View]]_→_Standard_views‏‎_→_FitAll.md)---
 
 
 </div>
@@ -22,17 +22,17 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 
 ## Utilizare
 
-Click pe <img alt="" src=images/Std_ViewFitAll.png  style="width   *32px;"> sau alegeți ** View** → ** Standard views** → **<img src="images/Std_ViewFitAll.png" width=32px> Fit all** din meniul de sus/top.
+Click pe <img alt="" src=images/Std_ViewFitAll.png  style="width:32px;"> sau alegeți ** View** → ** Standard views** → **<img src="images/Std_ViewFitAll.png" width=32px> Fit all** din meniul de sus/top.
 Comanda este de asemenea disponibilă în vizualizarea 3D (și nu are nimic pre-selectat).
 
 
 </div>
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the menu.
     -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **V** then **F**.
+    -   Use the keyboard shortcut: **V** then **F**.
 
 ## Notes
 
@@ -41,7 +41,7 @@ Comanda este de asemenea disponibilă în vizualizarea 3D (și nu are nimic pre-
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

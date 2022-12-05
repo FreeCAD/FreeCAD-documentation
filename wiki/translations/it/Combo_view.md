@@ -3,10 +3,10 @@
 
 ## Introduzione
 
-La [vista combinata](combo_view/it.md) è uno dei pannelli principali nell\'interfaccia di FreeCAD. Di default si trova sul lato sinistro dello schermo. È composta da due parti   *
+La [vista combinata](combo_view/it.md) è uno dei pannelli principali nell\'interfaccia di FreeCAD. Di default si trova sul lato sinistro dello schermo. È composta da due parti:
 
--   la [parte superiore](Combo_view/it#Sezione_superiore.md) che contiene due schede   * **Modello** e **Azioni**
--   la [parte inferiore](Combo_view/it#Sezione_inferiore.md) che mostra l\'[editor delle proprietà](property_editor/it.md). Essa contiene due schede   * le proprietà **Vista** e **Dati**. L\'[editor delle proprietà](property_editor/it.md) viene visualizzato solo quando è attiva la scheda **Modello**, ovvero quando è visibile la [vista ad albero](tree_view/it.md).
+-   la [parte superiore](Combo_view/it#Sezione_superiore.md) che contiene due schede: **Modello** e **Azioni**
+-   la [parte inferiore](Combo_view/it#Sezione_inferiore.md) che mostra l\'[editor delle proprietà](property_editor/it.md). Essa contiene due schede: le proprietà **Vista** e **Dati**. L\'[editor delle proprietà](property_editor/it.md) viene visualizzato solo quando è attiva la scheda **Modello**, ovvero quando è visibile la [vista ad albero](tree_view/it.md).
 
 
 **Nota.**
@@ -19,11 +19,11 @@ La scheda **Modello** mostra la [vista ad albero](tree_view/it.md), che è una r
 
 La scheda **Azioni** contiene il [pannello delle azioni](task_panel/it.md), che mostra diverse azioni a seconda dell\'ambiente di lavoro attivo e dello strumento attivo.
 
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width   *" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="600px;">
+<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
 
-*La vista combinata ha due schede   * la scheda Modello che mostra e controlla la [vista ad albero](tree_view/it.md) e l'[editor delle proprietà](property_editor/it.md), e la scheda Azioni che mostra e controlla il [pannello delle azioni](task_panel/it.md).*
+*La vista combinata ha due schede: la scheda Modello che mostra e controlla la [vista ad albero](tree_view/it.md) e l'[editor delle proprietà](property_editor/it.md), e la scheda Azioni che mostra e controlla il [pannello delle azioni](task_panel/it.md).*
 
 ## Sezione inferiore 
 
@@ -33,7 +33,7 @@ La parte inferiore della vista combinata mostra l\'[editor delle proprietà](pro
 
 -   La scheda **Dati** mostra le proprietà parametriche degli oggetti, quelle che definiscono le forme geometriche.
 
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width   *" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width   *" height="600px;">
+<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
 
 
 

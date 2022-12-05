@@ -1,6 +1,6 @@
 # Part Mirror/it
 ---
-- GuiCommand   */it   Name   *Part_Mirror   Name/it   *Specchia   MenuLocation   *Parte → Specchia...   Workbenches   *[[Part_Workbench/it   Parte]]|SeeAlso   *---
+- GuiCommand:/it   Name:Part_Mirror   Name/it:Specchia   MenuLocation:Parte → Specchia...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
 
 
 </div>
@@ -15,7 +15,7 @@ Crea un nuovo oggetto (un duplicato) di un oggetto di tipo **Parte** che è una 
 
 </div>
 
-Esempio   *
+Esempio:
 
 ![L\'oggetto originale](images/PARTMirrorBeforev11.png )
 

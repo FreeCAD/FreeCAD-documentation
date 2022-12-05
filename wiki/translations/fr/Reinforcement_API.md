@@ -1,5 +1,5 @@
 # Reinforcement API/fr
-**(Novembre 2018) L'[extension Reinforcement](Reinforcement_Addon/fr.md) est développé séparément de l'[atelier Arch](Arch_Workbench/fr.md). Son code et son API sont hébergés dans le dépôt [https   *//github.com/amrit3701/FreeCAD-Reinforcement FreeCAD-Reinforcement], distinct du dépôt principal FreeCAD.**
+**(Novembre 2018) L'[extension Reinforcement](Reinforcement_Addon/fr.md) est développé séparément de l'[atelier Arch](Arch_Workbench/fr.md). Son code et son API sont hébergés dans le dépôt [https://github.com/amrit3701/FreeCAD-Reinforcement FreeCAD-Reinforcement], distinct du dépôt principal FreeCAD.**
 
 Voir aussi [Arch API](Arch_API/fr.md) pour les principales fonctions de l\'[atelier Arch](Arch_Workbench/fr.md).
 
@@ -12,11 +12,6 @@ import BentShapeRebar
 import Stirrup
 import HelicalRebar
 ```
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Reinforcement](Category_Reinforcement.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

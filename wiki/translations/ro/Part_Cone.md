@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Part Cone
-   Name/ro   *Part Cone
-   MenuLocation   *Part -> Cone
+- GuiCommand:/ro
+   Name:Part Cone
+   Name/ro:Part Cone
+   MenuLocation:Part -> Cone
 |
-   Workbenches   *[Part](Part_Workbench/ro.md), Complete
-   SeeAlso   *[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
+   Workbenches:[Part](Part_Workbench/ro.md), Complete
+   SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
 # Part Cone/ro
@@ -27,7 +27,7 @@ Un con parametric trunchiat este un element tip primitivă geometrică disponibi
 
 The default Part Cone is truncated. It can be turned into a full, untruncated, cone by changing its **Radius1** or **Radius2** property to zero. It can be turned into a segment of a cone by changing its **Angle** property.
 
-<img alt="" src=images/Part_Cone_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
 
 ## Usage
 
@@ -36,7 +36,7 @@ The default Part Cone is truncated. It can be turned into a full, untruncated, c
 
 ## Cum se folosește 
 
-În atelierul Part click pe iconița <img alt="" src=images/Part_Cone.png  style="width   *32px;">.
+În atelierul Part click pe iconița <img alt="" src=images/Part_Cone.png  style="width:32px;">.
 
 
 </div>
@@ -49,7 +49,7 @@ A Part Cone object created with the [scripting example](#Scripting.md) below is 
 
 ## Notes
 
--   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+-   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +68,7 @@ A Part Cone object created with the [scripting example](#Scripting.md) below is 
 |                                                                          |                                                                                                                                                    |
 |                                                                          | #### Posizione                                                                                                                                     |
 |                                                                          |                                                                                                                                                    |
-|                                                                          | Espandere la voce Posizione per stabilire   *                                                                                                         |
+|                                                                          | Espandere la voce Posizione per stabilire:                                                                                                         |
 |                                                                          |                                                                                                                                                    |
 |                                                                          | -   punto di posizionamento nella vista 3D,                                                                                                        |
 |                                                                          | -   direzione dell\'asse del cono, x, y, z o definita dall\'utente.                                                                                |
@@ -91,9 +91,9 @@ A Part Cone object created with the [scripting example](#Scripting.md) below is 
 
 </div>
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Part Cone object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A Part Cone object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -105,29 +105,29 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Cone}}
 
--    **Radius1|Length**   * The radius of the bottom face of the cone. Can be {{Value|0mm}} if **Radius2** is larger than {{Value|0mm}}. The default is {{Value|2mm}}.
+-    **Radius1|Length**: The radius of the bottom face of the cone. Can be {{Value|0mm}} if **Radius2** is larger than {{Value|0mm}}. The default is {{Value|2mm}}.
 
--    **Radius2|Length**   * The radius of the top face of the cone. Can be {{Value|0mm}} if **Radius1** is larger than {{Value|0mm}}. The default is {{Value|4mm}}.
+-    **Radius2|Length**: The radius of the top face of the cone. Can be {{Value|0mm}} if **Radius1** is larger than {{Value|0mm}}. The default is {{Value|4mm}}.
 
--    **Height|Length**   * The height of the cone. The default is {{Value|10mm}}.
+-    **Height|Length**: The height of the cone. The default is {{Value|10mm}}.
 
--    **Angle|Angle**   * The angle of the circular arc that defines the top and bottom face of the cone. Valid range   * {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cone.
+-    **Angle|Angle**: The angle of the circular arc that defines the top and bottom face of the cone. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cone.
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Cone can be created with the {{Incode|addObject()}} method of the document   *
+A Part Cone can be created with the {{Incode|addObject()}} method of the document:
 
 
 ```python
-cone = FreeCAD.ActiveDocument.addObject("Part   *   *Cone", "myCone")
+cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 ```
 
 -   Where {{Incode|"myCone"}} is the name for the object.
 -   The function returns the newly created object.
 
-Example   *
+Example:
 
 
 ```python
@@ -135,7 +135,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-cone = doc.addObject("Part   *   *Cone", "myCone")
+cone = doc.addObject("Part::Cone", "myCone")
 cone.Radius1 = 5
 cone.Radius2 = 10
 cone.Height = 50

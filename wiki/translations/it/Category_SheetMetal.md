@@ -1,8 +1,6 @@
 # Category:SheetMetal/it
 This page collects the documentation pages for the [SheetMetal Workbench/it](SheetMetal_Workbench/it.md), one of the [external workbenches/it](external_workbenches/it.md).
 
-[Category   *External Workbenches](Category_External_Workbenches.md)
-
 ### Contents
 
 |     |     |     |

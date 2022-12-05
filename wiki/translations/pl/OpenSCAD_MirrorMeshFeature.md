@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *OpenSCAD MirrorMeshFeature
-   MenuLocation   *OpenSCAD → Mirror Mesh Feature
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso   *[Part Mirror](Part_Mirror.md)
+- GuiCommand:
+   Name:OpenSCAD MirrorMeshFeature
+   MenuLocation:OpenSCAD → Mirror Mesh Feature
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso:[Part Mirror](Part_Mirror.md)
 ---
 
 # OpenSCAD MirrorMeshFeature/pl
@@ -27,7 +27,7 @@ Creates a new mirrored mesh object, mirrored about the selected axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python   *
+-   The function can be accessed via python:
 
 
 ```python

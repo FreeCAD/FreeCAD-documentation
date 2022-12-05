@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Web BrowserBack
-   Name/fr   *Web Page précédente
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso   *
+- GuiCommand:/fr
+   Name:Web BrowserBack
+   Name/fr:Web Page précédente
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso:
 ---
 
 # Web BrowserBack/fr
 
 ## Description
 
-Utilisez la commande <img alt="" src=images/Web_BrowserBack.svg  style="width   *24px;"> **Web Page précédente** pour aller à la page précédente dans la liste des pages web visitées.
+Utilisez la commande <img alt="" src=images/Web_BrowserBack.svg  style="width:24px;"> **Web Page précédente** pour aller à la page précédente dans la liste des pages web visitées.
 
 ## Utilisation
 

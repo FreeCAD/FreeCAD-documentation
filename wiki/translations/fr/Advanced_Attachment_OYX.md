@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */fr
-   Topic   *Ancrage
-   Level   *Intermédiaire/avancé
-   Author   *drmacro
-   Time   *1 heure
-   FCVersion   *0.19 ou supérieure
-   Files   *[A définir]
+- TutorialInfo:/fr
+   Topic:Ancrage
+   Level:Intermédiaire/avancé
+   Author:drmacro
+   Time:1 heure
+   FCVersion:0.19 ou supérieure
+   Files:[A définir]
 ---
 
 # Advanced Attachment OYX/fr
@@ -14,7 +14,7 @@
 
 
 
-<img alt="" src=images/AttOYX_Setup.png  style="width   *800px;"> 
+<img alt="" src=images/AttOYX_Setup.png  style="width:800px;"> 
 *Les objets en position initiale*
 
 ## Introduction
@@ -31,43 +31,43 @@ Deux autres esquisses comprennent une géométrie qui sera utilisée pour reposi
 
 ## Discussion
 
-Le mode d\'ancrage Aligner O-Y-X est défini comme suit dans [Part Ancrage](Part_EditAttachment/fr.md)    * *Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes de plan vertical et horizontal vers le sommet/long de la ligne*. Elle indique également qu\'il existe plusieurs combinaisons de référence.
+Le mode d\'ancrage Aligner O-Y-X est défini comme suit dans [Part Ancrage](Part_EditAttachment/fr.md) : *Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes de plan vertical et horizontal vers le sommet/long de la ligne*. Elle indique également qu\'il existe plusieurs combinaisons de référence.
 
-   *; Combinaisons de référence   *
+:; Combinaisons de référence:
 
-   *   sommet, sommet, sommet
-   *   sommet, sommet, arête
-   *   sommet, arête, sommet
-   *   sommet, arête, arête
-   *   sommet, sommet
-   *   sommet, arête
+:   sommet, sommet, sommet
+:   sommet, sommet, arête
+:   sommet, arête, sommet
+:   sommet, arête, arête
+:   sommet, sommet
+:   sommet, arête
 
 Commençons par *Sommet, Sommet, Sommet* (*Vertex, Vertex, Vertex*).
 
-Si nous faisons correspondre la définition à la référence    *
+Si nous faisons correspondre la définition à la référence :
 
 Le premier sommet sélectionné positionnera l\'origine de l\'esquisse sur le sommet sélectionné.
 
 Le deuxième sommet sélectionné alignera l\'axe vertical de l\'esquisse (dans la configuration de la démo, cet axe est indiqué par **Y**).
 
-Ainsi, si nous sélectionnons le sommet supérieur/gauche de l\'arête jaune (comme on le voit dans le cadre plus grand de droite) et le sommet inférieur/droit de l\'arête jaune, l\'esquisse est positionnée comme ceci    *
+Ainsi, si nous sélectionnons le sommet supérieur/gauche de l\'arête jaune (comme on le voit dans le cadre plus grand de droite) et le sommet inférieur/droit de l\'arête jaune, l\'esquisse est positionnée comme ceci :
 
-<img alt="" src=images/AttOYX_vv.png  style="width   *800px;">
+<img alt="" src=images/AttOYX_vv.png  style="width:800px;">
 
-   *; Remarques    *
+:; Remarques :
 
-   *   L\'option Aligner O-Y-X est sélectionnée dans la boîte de dialogue Ancrage.
-   *   L\'origine de l\'esquisse se trouve maintenant au sommet supérieur gauche/supérieur de la ligne jaune.
-   *   L\'axe Y de l\'esquisse est maintenant aligné avec la ligne jaune.
-   *   L\'axe Z de l\'esquisse est perpendiculaire à la ligne jaune.
+:   L\'option Aligner O-Y-X est sélectionnée dans la boîte de dialogue Ancrage.
+:   L\'origine de l\'esquisse se trouve maintenant au sommet supérieur gauche/supérieur de la ligne jaune.
+:   L\'axe Y de l\'esquisse est maintenant aligné avec la ligne jaune.
+:   L\'axe Z de l\'esquisse est perpendiculaire à la ligne jaune.
 
-Maintenant, si nous ajoutons une troisième référence en sélectionnant le sommet supérieur de l\'arête orange, la situation devient la suivante    *
+Maintenant, si nous ajoutons une troisième référence en sélectionnant le sommet supérieur de l\'arête orange, la situation devient la suivante :
 
-<img alt="" src=images/AttOYX_vvv.png  style="width   *800px;">
+<img alt="" src=images/AttOYX_vvv.png  style="width:800px;">
 
-   *; Remarques    *
+:; Remarques :
 
-   *   L\'axe X de l\'esquisse est maintenant aligné dans la direction du sommet sélectionné de l\'arête orange.
+:   L\'axe X de l\'esquisse est maintenant aligné dans la direction du sommet sélectionné de l\'arête orange.
 
 
 

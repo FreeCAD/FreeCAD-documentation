@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Rocket Ejection Charge Calculator
-   Name/fr   *Rocket Calcul charge d'éjection
-   Icon   *Rocket_Calculator.svg
-   MenuLocation   *Rocket → Calculators → Ejection Charge Calculator
-   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Rocket Ejection Charge Calculator
+   Name/fr:Rocket Calcul charge d'éjection
+   Icon:Rocket_Calculator.svg
+   MenuLocation:Rocket → Calculators → Ejection Charge Calculator
+   Workbenches:[Rocket](Rocket_Workbench/fr.md)
+   Version:0.19
 ---
 
 # Rocket Ejection Charge Calculator/fr
@@ -15,17 +15,17 @@
 
 **Ce calculateur ne donne qu'une estimation de la quantité de poudre nécessaire. Une quantité trop importante ou trop faible peut entraîner l'échec de la récupération ou endommager votre fusée<br>'''TOUJOURS''' faire un essai au sol de votre fusée avant le vol**
 
-L\'éjection se produit lorsque la chambre contenant le système de récupération est pressurisée avec une force suffisante pour éjecter le système de récupération de la chambre. La force nécessaire peut varier en fonction d\'un certain nombre de facteurs    *
+L\'éjection se produit lorsque la chambre contenant le système de récupération est pressurisée avec une force suffisante pour éjecter le système de récupération de la chambre. La force nécessaire peut varier en fonction d\'un certain nombre de facteurs :
 
-   ** Diamètre et volume du tube du corps
+  - Diamètre et volume du tube du corps
 
-   ** Masse du système de nez et de récupération
+  - Masse du système de nez et de récupération
 
-   ** Méthode d\'éjection, par exemple, les systèmes de piston nécessitent moins de pression
+  - Méthode d\'éjection, par exemple, les systèmes de piston nécessitent moins de pression
 
-   ** Présence de goupilles de cisaillement utilisés pour empêcher la séparation de la traînée
+  - Présence de goupilles de cisaillement utilisés pour empêcher la séparation de la traînée
 
-   ** Ajustement du système de récupération dans le tube de corps
+  - Ajustement du système de récupération dans le tube de corps
 
 En tant que tel, ce calculateur ne vous donnera qu\'une estimation de départ. Une quantité de poudre trop faible entraînera l\'échec de l\'éjection et de la récupération. Trop de poudre peut endommager la fusée ou le système de récupération, ce qui peut également entraîner l\'échec de la récupération. Il est **TOUJOURS** nécessaire de faire un test au sol avant de faire voler votre fusée.
 
@@ -39,7 +39,7 @@ Les essais au sol doivent commencer à l\'extrémité inférieure de la plage re
 
 ![](images/Calc_ejection_charge.png )
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Rocket_Calculator.svg" width=16px> [Ejection Charge Calculator](Rocket_Ejection_Charge_Calculator/fr.md)** .
     -   Sélectionnez l\'option **Rocket → Calculatrices → <img src="images/Rocket_Calculator.svg" width=16px> Ejection Charge Calculator** dans le menu.
 2.  Saisissez le poids de votre fusée et les paramètres de votre parachute.
@@ -77,19 +77,11 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 ## Références
 
-1.  <http   *//vernk.com/EjectionChargeSizing.htm>
-2.  <https   *//www.insanerocketry.com/blackpowder.html>
-3.  <https   *//rocketrycalculator.com/rocketry-calculator/bp-estimator>
-4.  <http   *//www.rockethead.net/black_powder_calculator.htm>
-5.  <http   *//hararocketry.org/hara/resources/how-to-size-ejection-charge/>
-
-
-
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+1.  <http://vernk.com/EjectionChargeSizing.htm>
+2.  <https://www.insanerocketry.com/blackpowder.html>
+3.  <https://rocketrycalculator.com/rocketry-calculator/bp-estimator>
+4.  <http://www.rockethead.net/black_powder_calculator.htm>
+5.  <http://hararocketry.org/hara/resources/how-to-size-ejection-charge/>
 
 
 

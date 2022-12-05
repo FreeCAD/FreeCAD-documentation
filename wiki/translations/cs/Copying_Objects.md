@@ -19,7 +19,7 @@ Objekty [Dokumentu](Document_structure.md) mohou být propojeny na jiné objekty
 
 ![](images/Copy_past_duplicate.png )
 
-Please consider that the copy-pasted objects are not dependent on the original. If you want dependent clones please use <img alt="" src=images/Draft_Clone.svg  style="width   *24px;"> [Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width   *24px;"> [Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need neither a dependent clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width   *24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
+Please consider that the copy-pasted objects are not dependent on the original. If you want dependent clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Draft Workbench\'s Clone](Draft_Clone.md) or <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [Part Design Workbench\'s Clone](PartDesign_Clone.md). If you need neither a dependent clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
 
 ## Copying Linked Objects 
 
@@ -46,11 +46,11 @@ Po operaci Kopírovat/Vložit nemusí být zřejmé kde jsou zkopírované objek
 
 ## Další metody 
 
-Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro další inspiraci se podívejte na   *
+Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro další inspiraci se podívejte na:
 
--   Návrh dílu   * [Zrcadlo](PartDesign_Mirrored.md), [Lineární vzor](PartDesign_LinearPattern.md), [Polární vzor](PartDesign_PolarPattern.md), [MultiTransformace](PartDesign_MultiTransform.md)
--   Díl   * [Zrcadlo](Part_Mirror.md)
--   Výkres   * [Pole](Draft_Array.md),[Klon](Draft_Clone.md)
+-   Návrh dílu: [Zrcadlo](PartDesign_Mirrored.md), [Lineární vzor](PartDesign_LinearPattern.md), [Polární vzor](PartDesign_PolarPattern.md), [MultiTransformace](PartDesign_MultiTransform.md)
+-   Díl: [Zrcadlo](Part_Mirror.md)
+-   Výkres: [Pole](Draft_Array.md),[Klon](Draft_Clone.md)
 
 ## Poznámky
 

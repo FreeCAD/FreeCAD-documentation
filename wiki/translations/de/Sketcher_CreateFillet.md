@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher CreateFillet
-   Name/de   *Sketcher VerrundungErstellen
-   MenuLocation   *Sketch → Skizzengeometrie → Verrundung erstellen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***G** **F** **F**
-   SeeAlso   *[Sketcher PunktVerrundungErstellen](Sketcher_CreatePointFillet/de.md)
+- GuiCommand:/de
+   Name:Sketcher CreateFillet
+   Name/de:Sketcher VerrundungErstellen
+   MenuLocation:Sketch → Skizzengeometrie → Verrundung erstellen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **F** **F**
+   SeeAlso:[Sketcher PunktVerrundungErstellen](Sketcher_CreatePointFillet/de.md)
 ---
 
 # Sketcher CreateFillet/de
@@ -20,7 +20,7 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 
 ## Anwendung
 
-1.  Die Schaltfläche **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [Verrundung](Sketcher_CreateFillet/de.md)** drücken.
+1.  Die Schaltfläche **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [Verrundung](Sketcher_CreateFillet/de.md)** drücken.
 
 2.  Einen Knoten, der zwei nicht parallele Linien verbindet auswählen oder zwei Linien, die nicht parallel verlaufen auswählen.
 

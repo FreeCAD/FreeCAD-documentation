@@ -1,6 +1,6 @@
 # Path Pocket 3D/it
 ---
-- GuiCommand   */it   Name   *Path 3DPocket   Name/it   *Cavità 3D   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Cavità 3D   Shortcut   *   SeeAlso   *---
+- GuiCommand:/it   Name:Path 3DPocket   Name/it:Cavità 3D   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Cavità 3D   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -50,7 +50,7 @@ Questo strumento crea una nuova operazione Cavità 3D. Una tasca 3D tiene conto 
 -   Use the **Adaptive Pocket Finish** property to attempt to minimize air milling below a 3D Pocket in cases where the pocket is a hole through the model.
 -   Use the **Adaptive Pocket Start** property to attempt to minimize air milling upon entry to the pocket. For example, look at the sample image above in the [Description](Path_Pocket_3D#Description.md) section of this page. In order to reduce the air milling above that 3D Pocket, toggle this property to True and the paths will begin closer to the pocket, much nearer to where the pocket actually begins. See the following image and note the difference in the path start height. The air milling is reduced.
 
-<img alt="Sample image of 3D Pocket operation used to clear cylindrical battery holder with the Adaptive Pocket Start enabled in order to reduce air milling upon entry." src=images/3D_Pocket_Sample_Adaptive_Start.png  style="width   *600px;">
+<img alt="Sample image of 3D Pocket operation used to clear cylindrical battery holder with the Adaptive Pocket Start enabled in order to reduce air milling upon entry." src=images/3D_Pocket_Sample_Adaptive_Start.png  style="width:600px;">
 
 -   If you wish to process the entire model and stock as a whole, use the **Process Stock Area** property set to True with no Base Geometry selected.
 
@@ -61,147 +61,147 @@ Questo strumento crea una nuova operazione Cavità 3D. Una tasca 3D tiene conto 
 
 {{TitleProperty|Base}}
 
-Note   * It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
+Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
--    **Placement**   * Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
 
     -   
         **Angle**
         
-           * Angle in degrees applied to rotation of the object around Axis property value
+        : Angle in degrees applied to rotation of the object around Axis property value
 
     -   
         **Axis**
         
-           * Axis(one or multiple) around which to rotate the object, set in sub-properties   * x, y, z
+        : Axis(one or multiple) around which to rotate the object, set in sub-properties: x, y, z
 
         -   
             **X**
             
-               * x axis value
+            : x axis value
 
         -   
             **Y**
             
-               * y axis value
+            : y axis value
 
         -   
             **Z**
             
-               * z axis value
+            : z axis value
 
     -   
         **Position**
         
-           * Position of the object, set in sub-properties   * x, y, z - with respect to the origin (or origin of parent object container)
+        : Position of the object, set in sub-properties: x, y, z - with respect to the origin (or origin of parent object container)
 
         -   
             **X**
             
-               * x distance value
+            : x distance value
 
         -   
             **Y**
             
-               * y distance value
+            : y distance value
 
         -   
             **Z**
             
-               * z distance value
+            : z distance value
 
--    **Label**   * User-provided name of the object (UTF-8)
+-    **Label**: User-provided name of the object (UTF-8)
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**   * The height needed to clear clamps and obstructions
+-    **Clearance Height**: The height needed to clear clamps and obstructions
 
--    **Final Depth**   * Final Depth of Tool- lowest value in Z
+-    **Final Depth**: Final Depth of Tool- lowest value in Z
 
--    **Finish Depth**   * Maximum material removed on final pass.
+-    **Finish Depth**: Maximum material removed on final pass.
 
--    **Safe Height**   * The above which Rapid motions are allowed.
+-    **Safe Height**: The above which Rapid motions are allowed.
 
--    **Start Depth**   * Starting Depth of Tool- first cut depth in Z
+-    **Start Depth**: Starting Depth of Tool- first cut depth in Z
 
--    **Step Down**   * Incremental Step Down of Tool
+-    **Step Down**: Incremental Step Down of Tool
 
 
 {{TitleProperty|Face}}
 
--    **Offset Pattern**   * Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
+-    **Offset Pattern**: Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
 
 
 {{TitleProperty|Path}}
 
--    **Active**   * make False, to prevent operation from generating code
+-    **Active**: make False, to prevent operation from generating code
 
--    **Base**   * The base geometry for this operation
+-    **Base**: The base geometry for this operation
 
--    **Comment**   * An optional comment for this Operation
+-    **Comment**: An optional comment for this Operation
 
--    **Coolant Mode**   * The coolant mode for this operation.
+-    **Coolant Mode**: The coolant mode for this operation.
 
--    **Cycle Time**   * The cycle time estimation for this operation.
+-    **Cycle Time**: The cycle time estimation for this operation.
 
--    **Tool Controller**   * Defines the Tool controller used in the Operation
+-    **Tool Controller**: Defines the Tool controller used in the Operation
 
--    **User Label**   * User assigned label
+-    **User Label**: User assigned label
 
 
 {{TitleProperty|Pocket}}
 
--    **Adaptive Pocket Finish**   * Use adaptive algorithm to eliminate excessive air milling below planar pocket bottom.
+-    **Adaptive Pocket Finish**: Use adaptive algorithm to eliminate excessive air milling below planar pocket bottom.
 
--    **Adaptive Pocket Start**   * Use adaptive algorithm to eliminate excessive air milling above planar pocket top.
+-    **Adaptive Pocket Start**: Use adaptive algorithm to eliminate excessive air milling above planar pocket top.
 
--    **Cut Mode**   * The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)
+-    **Cut Mode**: The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)
 
--    **Extra Offset**   * Extra offset to apply to the operation. Direction is operation dependent.
+-    **Extra Offset**: Extra offset to apply to the operation. Direction is operation dependent.
 
--    **Handle Multiple Features**   * Choose how to process multiple Base Geometry features.
+-    **Handle Multiple Features**: Choose how to process multiple Base Geometry features.
 
--    **Keep Tool Down**   * Attempts to avoid unnecessary retractions.
+-    **Keep Tool Down**: Attempts to avoid unnecessary retractions.
 
--    **Min Travel**   * Use 3D Sorting of Path
+-    **Min Travel**: Use 3D Sorting of Path
 
--    **Process Stock Area**   * Process the model and stock in an operation with no Base Geometry selected.
+-    **Process Stock Area**: Process the model and stock in an operation with no Base Geometry selected.
 
--    **Start At**   * Start pocketing at center or boundary
+-    **Start At**: Start pocketing at center or boundary
 
--    **Step Over**   * Percent of cutter diameter to step over on each pass
+-    **Step Over**: Percent of cutter diameter to step over on each pass
 
--    **Zig Zag Angle**   * Angle of the zigzag pattern
+-    **Zig Zag Angle**: Angle of the zigzag pattern
 
 
 {{TitleProperty|Rotation}}
 
-Note   * Rotation is not available for 3D Pocket as of 0.19.
+Note: Rotation is not available for 3D Pocket as of 0.19.
 
--    **Enable Rotation**   * Enable rotation to gain access to pockets or areas not normal to Z axis.
+-    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
 
 {{TitleProperty|Start Point}}
 
--    **Start Point**   * The custom start point for the path of this operation.
+-    **Start Point**: The custom start point for the path of this operation.
 
     -   
         **X**
         
-           * x distance value
+        : x distance value
 
     -   
         **Y**
         
-           * y distance value
+        : y distance value
 
     -   
         **Z**
         
-           * z distance value
+        : z distance value
 
--    **Use Start Point**   * Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
+-    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
 ### View
 
@@ -210,11 +210,11 @@ Empty
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

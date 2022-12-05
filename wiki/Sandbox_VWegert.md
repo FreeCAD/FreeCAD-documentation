@@ -6,8 +6,6 @@ This is a sandbox page to try out Wiki formatting code.
   Cell by Position   =Spreadsheet042.B5        =\<\>.B5
   Cell by Alias      =Spreadsheet042.MyAlias   =\<\>.MyAlias
 
-[Category   *Sandbox](Category_Sandbox.md)
-
 
 
 ---

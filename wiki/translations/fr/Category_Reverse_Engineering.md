@@ -1,8 +1,6 @@
 # Category:Reverse Engineering/fr
 Cette catégorie répertorie les pages liées à [Reverse Engineering Workbench/fr](Reverse_Engineering_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

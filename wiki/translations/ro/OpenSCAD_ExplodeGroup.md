@@ -1,6 +1,6 @@
 # OpenSCAD ExplodeGroup/ro
 ---
-- GuiCommand   *   Name   *OpenSCAD ExplodeGroup   MenuLocation   *OpenSCAD → Explode Group‏‎   |Workbenches   *[[OpenSCAD Workbench   OpenSCAD]]|Shortcut   *none   SeeAlso   *
+- GuiCommand:   Name:OpenSCAD ExplodeGroup   MenuLocation:OpenSCAD → Explode Group‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:
 
 
 </div>
@@ -25,7 +25,7 @@ Acest instrument descompune o fuziune/îmbinare sau un compus și îl converteș
 ## Utilizare
 
 1.  Select fusion/compound to be exploded
-2.  Click on <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width   *32px;"> or choose ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.png" width=32px> Explode Group** from the top menu.
+2.  Click on <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width:32px;"> or choose ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.png" width=32px> Explode Group** from the top menu.
 
 
 </div>

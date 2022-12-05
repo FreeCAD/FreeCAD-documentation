@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Design456 Tweak
-   MenuLocation   *Design456_Tools → 3DTools → Tweak
-   Workbenches   *[Design456](Design456_Workbench.md)
-   Shortcut   *None
-   SeeAlso   *
+- GuiCommand:
+   Name:Design456 Tweak
+   MenuLocation:Design456_Tools → 3DTools → Tweak
+   Workbenches:[Design456](Design456_Workbench.md)
+   Shortcut:None
+   SeeAlso:
 ---
 
 # Design456 Tweak
@@ -26,9 +26,7 @@ The tool is removed form Design456WB due to the limitations.
 
 {{Design456 Tools navi
 
-}} 
-
-[Category   *External Command Reference](Category_External_Command_Reference.md)
+}}
 
 
 

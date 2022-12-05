@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Fence
-   Name/it   *Recinzione
-   MenuLocation   *Arch → Recinzione
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:Arch Fence
+   Name/it:Recinzione
+   MenuLocation:Arch → Recinzione
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Version:0.19
 ---
 
 # Arch Fence/it
@@ -22,7 +22,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_Fence_description_example.png  style="width   *600px;">
+<img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
 ## Utilizzo
 
@@ -56,15 +56,15 @@ Per ora lo strumento assume quanto segue.
 
 ### Dati
 
--    **Path**   * il percorso che la recinzione deve seguire
+-    **Path**: il percorso che la recinzione deve seguire
 
--    **Post**   * un singolo piantone della recinzione da ripetere
+-    **Post**: un singolo piantone della recinzione da ripetere
 
--    **Section**   * una singola campata da ripetere
+-    **Section**: una singola campata da ripetere
 
--    **Number Of Posts**   * il numero totale dei piantoni utilizzati per costruire la recinzione. Questo è calcolato automaticamente.
+-    **Number Of Posts**: il numero totale dei piantoni utilizzati per costruire la recinzione. Questo è calcolato automaticamente.
 
--    **Number Of Sections**   * il numero totale di campate utilizzate per costruire la recinzione. Questo è calcolato automaticamente.
+-    **Number Of Sections**: il numero totale di campate utilizzate per costruire la recinzione. Questo è calcolato automaticamente.
 
 
 </div>
@@ -76,7 +76,7 @@ Per ora lo strumento assume quanto segue.
 
 ### Vista
 
--    **Use Original Colors**   * Quando impostata su `True` la recinzione utilizza i colori della sezione e del piantone originale. Altrimenti utilizza il ShapeColor della recinzione.
+-    **Use Original Colors**: Quando impostata su `True` la recinzione utilizza i colori della sezione e del piantone originale. Altrimenti utilizza il ShapeColor della recinzione.
 
 
 </div>
@@ -84,14 +84,14 @@ Per ora lo strumento assume quanto segue.
 ## Notes
 
 -   Arch Fence was introduced in FC v0.19 by user furti.
--   [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
+-   [Forum thread](https://forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
 
 ## Script
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Recinzione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Recinzione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -122,13 +122,13 @@ parts.append(Part.makeBox(2000, 50, 30))
 parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector(0, 15, 30)))
 parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector(1980, 15, 30)))
 
-for i in range(8)   *
+for i in range(8):
     parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector((2000 / 9 * (i + 1)) - 10, 15, 30)))
 
 Part.show(Part.makeCompound(parts), "Fence_section")
 fence_section = FreeCAD.ActiveDocument.Fence_section
 
-sketch = FreeCAD.ActiveDocument.addObject("Sketcher   *   *SketchObject", "Path")
+sketch = FreeCAD.ActiveDocument.addObject("Sketcher::SketchObject", "Path")
 sketch.Placement = FreeCAD.Placement(FreeCAD.Vector(0, 0, 0), FreeCAD.Rotation(0, 0, 0, 1))
 sketch.addGeometry(Part.LineSegment(FreeCAD.Vector(0, 0, 0), FreeCAD.Vector(20000, 0, 0)), False)
 sketch.addGeometry(Part.LineSegment(FreeCAD.Vector(20000, 0, 0), FreeCAD.Vector(20000, 20000, 0)), False)

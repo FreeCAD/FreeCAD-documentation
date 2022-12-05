@@ -1,9 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *2D Drafting
-   Level   *Intermediate
-   Author   *Mark Stephen ([Quick61](User_Quick61.md))
-   Time   *An hour or less
-   FCVersion   *0.14.3700 or greater
+- TutorialInfo:   Topic:2D Drafting
+   Level:Intermediate
+   Author:Mark Stephen ([Quick61](User_Quick61.md))
+   Time:An hour or less
+   FCVersion:0.14.3700 or greater
 ---
 
 # Drawing Template HowTo/pl
@@ -36,7 +36,7 @@ Begin with a new document within Inkscape. Referring to the FreeCAD Wiki page on
 
 In Inkscape, pull down the File menu and select Document Properties You should now see the Document Properties window. Edit the Width and Height as mentioned and insure that the Units is set to px.
 
-<img alt="" src=images/Inkscape_Template_tut_1.png  style="width   *780px;">
+<img alt="" src=images/Inkscape_Template_tut_1.png  style="width:780px;">
 
 You should now have an Inkscape document that is 279px wide and 216px high. Now proceed to add a border.
 
@@ -94,12 +94,12 @@ Opening the SVG file with your text editor you will see the following.
 
 ![](images/Kate1.png )
 
-### The "xmlns   *freecad" Tag 
+### The "xmlns:freecad" Tag 
 
 The first thing is to insert the following line into the document. This line is the SVG namespace declaration and must be provided so that all SVG elements are identified as belonging to the SVG namespace.
 
  XML
-xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
 This line is added immediately following the first
@@ -141,7 +141,7 @@ The first tag is the Working space tag and is formatted as follows.
 
 
 
-Where X1, Y1, X2, Y2 are defined as   *
+Where X1, Y1, X2, Y2 are defined as:
 
 -   X1 is the X axis distance from the left edge of the page to the left side of the Border.
 -   Y1 is the Y axis distance from the top edge of the page the the top of the Border.
@@ -156,13 +156,13 @@ So for this tutorial template, the Working space tag will be.
 
 #### The Title block Tag 
 
-The next tag will be the Title block tag and is formatted as follows   *
+The next tag will be the Title block tag and is formatted as follows:
 
  html
 
 
 
-Where X1a, Y1a, X2a, Y2a are defined as   *
+Where X1a, Y1a, X2a, Y2a are defined as:
 
 -   X1a is the X axis distance from the left edge of the page to the left side of the Title block
 -   Y1a is the Y axis distance from the top edge of the page the the top of the Title block
@@ -171,21 +171,21 @@ Where X1a, Y1a, X2a, Y2a are defined as   *
 -   X1a \<= X1 or X2a \>= X2
 -   Y1a \<= Y1 or Y2a \>= Y2
 
-Again, referencing the template created with this tutorial, the title block tag will be as follows   *
+Again, referencing the template created with this tutorial, the title block tag will be as follows:
 
  html
 
 
 
-Placing these two tags, in proper order at the top of the document looks like this   *
+Placing these two tags, in proper order at the top of the document looks like this:
 
 ![](images/Kate3.png )
 
-### The freecad   *editable Tag 
+### The freecad:editable Tag 
 
-Adding the freecad   *editable tags into the SVG document allows FreeCAD to access the defined text blocks for editing. For those blocks of text that you wish to be editable from within FreeCAD, do the following.
+Adding the freecad:editable tags into the SVG document allows FreeCAD to access the defined text blocks for editing. For those blocks of text that you wish to be editable from within FreeCAD, do the following.
 
-Search down through the SVG document until you find the section that contains the text you wish to have editable. When making the template, you placed these in a group, and as a result, they should appear within the document as a group as well. Once this group of text elements is located, you will add the line freecad   *editable=" " to each text block where the text that you wish to make editable is contained within the quote marks. Place them as shown for all four lines of text to be editable.
+Search down through the SVG document until you find the section that contains the text you wish to have editable. When making the template, you placed these in a group, and as a result, they should appear within the document as a group as well. Once this group of text elements is located, you will add the line freecad:editable=" " to each text block where the text that you wish to make editable is contained within the quote marks. Place them as shown for all four lines of text to be editable.
 
 ![](images/Kate4.png )
 
@@ -218,8 +218,8 @@ Below is the finished SVG template. Since it is in SVG format, you can save and 
 
 The two tools used in this tutorial were Inkscape and Kate. They can be found by following the links provided below.
 
--   [Inkscape](http   *//www.inkscape.org/)
--   [Kate](http   *//kate-editor.org/)
+-   [Inkscape](http://www.inkscape.org/)
+-   [Kate](http://kate-editor.org/)
 
 
 {{Drawing Tools navi

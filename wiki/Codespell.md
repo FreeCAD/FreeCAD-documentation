@@ -1,7 +1,7 @@
 # Codespell
 ## Description
 
-Codespell ([website](https   *//github.com/codespell-project/codespell)) is a CLI application that checks source code for misspellings.
+Codespell ([website](https://github.com/codespell-project/codespell)) is a CLI application that checks source code for misspellings.
 
 It\'s important to run it from time to time on the FreeCAD codebase.
 
@@ -14,9 +14,7 @@ codespell -q 3 -L aci,ake,aline,alle,alledges,alocation,als,ang,anid,apoints,ba,
 
 ## Related
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12833&start=50#p332225>
-
-[Category   * Developer Documentation](Category__Developer_Documentation.md) [Category   * 3rd Party](Category__3rd_Party.md)
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=12833&start=50#p332225>
 
 
 

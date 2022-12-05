@@ -1,8 +1,6 @@
 # Category:Ship/fr
 Cette catégorie répertorie les pages liées à [Ship Workbench/fr](Ship_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

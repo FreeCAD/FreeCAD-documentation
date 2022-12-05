@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name/de   *Std MakroStartFehlersuche
-   MenuLocation   *Makro → Fehlersuchmakro
-   Workbenches   *Alle
-   Shortcut   ***F6**
-   SeeAlso   *[Std MakroFehlersucheAnhalten](Std_MacroStopDebug/de.md)
+- GuiCommand:/de
+   Name/de:Std MakroStartFehlersuche
+   MenuLocation:Makro → Fehlersuchmakro
+   Workbenches:Alle
+   Shortcut:**F6**
+   SeeAlso:[Std MakroFehlersucheAnhalten](Std_MacroStopDebug/de.md)
 ---
 
 # Std MacroStartDebug/de

@@ -1,16 +1,16 @@
 ---
-- GuiCommand   */pl
-   Name   *Std SelectVisibleObjects
-   Name/pl   *Std   * Wybierz widoczne obiekty
-   MenuLocation   *Widok → Widoczność → Wybierz widoczne obiekty
-   Workbenches   *wszystkie
+- GuiCommand:/pl
+   Name:Std SelectVisibleObjects
+   Name/pl:Std: Wybierz widoczne obiekty
+   MenuLocation:Widok → Widoczność → Wybierz widoczne obiekty
+   Workbenches:wszystkie
 ---
 
 # Std SelectVisibleObjects/pl
 
 ## Opis
 
-Polecenie **Wybierz widoczne obiekty** zaznacza wszystkie widoczne obiekty. Zauważ, że dla każdej [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części zostaną wybrane typowo dwa obiekty   * sama bryła i jej obiekt **Czubek**.
+Polecenie **Wybierz widoczne obiekty** zaznacza wszystkie widoczne obiekty. Zauważ, że dla każdej [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części zostaną wybrane typowo dwa obiekty: sama bryła i jej obiekt **Czubek**.
 
 ## Użycie
 

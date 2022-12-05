@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2013-12-24
 |FCVersion=Tutte versione
-|Download=[https   *//www.freecadweb.org/wiki/images/b/bf/Macro_Rectellipse.png Icona per la ToolBar]
+|Download=[https://www.freecadweb.org/wiki/images/b/bf/Macro_Rectellipse.png Icona per la ToolBar]
 }}
 
 ## Descrizione
@@ -29,21 +29,21 @@ from __future__ import division # allows floating point division from integers
 import FreeCAD, Part, math
 from FreeCAD import Base
 
-class RectEllipseShape   *
-   def __init__(self, obj)   *
-      ''' Add the properties   * Radius, Eccentricity, Height, Segments (see Property View) '''
-      obj.addProperty("App   *   *PropertyLength","a","Rectellipse","A - horizontal radius").a = 16.0
-      obj.addProperty("App   *   *PropertyLength","b","Rectellipse","B - vertical radius").b = 9.0
-      obj.addProperty("App   *   *PropertyFloat","n","Rectellipse","N ").n=0.2
-      obj.addProperty("App   *   *PropertyBool","createFace","Rectellipse","Wheter to create a face or not").createFace=True
+class RectEllipseShape:
+   def __init__(self, obj):
+      ''' Add the properties: Radius, Eccentricity, Height, Segments (see Property View) '''
+      obj.addProperty("App::PropertyLength","a","Rectellipse","A - horizontal radius").a = 16.0
+      obj.addProperty("App::PropertyLength","b","Rectellipse","B - vertical radius").b = 9.0
+      obj.addProperty("App::PropertyFloat","n","Rectellipse","N ").n=0.2
+      obj.addProperty("App::PropertyBool","createFace","Rectellipse","Wheter to create a face or not").createFace=True
       obj.Proxy = self
 
-   def onChanged(self, fp, prop)   *
-      if prop == "a" or prop == "b" or prop == "n" or prop == "segments" or prop == "height" or prop == "createFace"   *
+   def onChanged(self, fp, prop):
+      if prop == "a" or prop == "b" or prop == "n" or prop == "segments" or prop == "height" or prop == "createFace":
          #if one of these is changed
          self.execute(fp)
 
-   def execute(self, fp)   *
+   def execute(self, fp):
       r1=fp.a
       r2=fp.b
       s=fp.n
@@ -63,16 +63,16 @@ class RectEllipseShape   *
       curve.setPole(6,FreeCAD.Vector(r1,r2,z),w)
       curve.setPole(7,FreeCAD.Vector(r1,0,z),1)
       curve.setPole(8,FreeCAD.Vector(r1,-r2,z),w)
-      if fp.createFace == True   *
+      if fp.createFace == True:
          fp.Shape = Part.Face(Part.Wire(curve.toShape()))
-      else   *
+      else:
          fp.Shape = curve.toShape()
 
-def makeRectellipseBlock()   *
+def makeRectellipseBlock():
    doc = FreeCAD.activeDocument()
-   if doc == None   *
+   if doc == None:
       doc = FreeCAD.newDocument()
-   obj=doc.addObject("Part   *   *FeaturePython","RectEllipseShape") #add object to document
+   obj=doc.addObject("Part::FeaturePython","RectEllipseShape") #add object to document
    obj.Label = "RectEllipsse"
    RectEllipseShape(obj)
    obj.ViewObject.Proxy=0
@@ -81,7 +81,7 @@ def makeRectellipseBlock()   *
    viewObject.DisplayMode = "Flat Lines"
    obj.Shape.check()
 
-if __name__ == "__main__"   *
+if __name__ == "__main__":
    #feature will be generated after macro execution
    makeRectellipseBlock()
 
@@ -89,7 +89,7 @@ if __name__ == "__main__"   *
 
 ## Link
 
-[Ottieni il codice da Github.](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ParametricObjectCreation/Rectellipse.FCMacro)
+[Ottieni il codice da Github.](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ParametricObjectCreation/Rectellipse.FCMacro)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Mesh Export
-   Name/fr   *Mesh Exporter le maillage
-   MenuLocation   *Maillages → Exporter le maillage...
-   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso   *[Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
+- GuiCommand:/fr
+   Name:Mesh Export
+   Name/fr:Mesh Exporter le maillage
+   MenuLocation:Maillages → Exporter le maillage...
+   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso:[Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
 ---
 
 # Mesh Export/fr
@@ -16,7 +16,7 @@ La commande **Exporter un maillage** exporte un objet maillé dans un format de 
 ## Utilisation
 
 1.  Sélectionnez un seul objet maillé.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Export.svg" width=16px> [Exporter le maillage...](Mesh_Export/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
@@ -30,11 +30,11 @@ La commande **Exporter un maillage** exporte un objet maillé dans un format de 
 
 ## Préférences
 
--   Le dernier emplacement de fichier utilisé est stocké   * **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
-Voir aussi   * [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi: [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
 Pour exporter des objets (y compris des objets maillés) dans un format de fichier maillé, utilisez la méthode `export` du module Mesh.
 
@@ -45,7 +45,7 @@ import Mesh
 
 doc = FreeCAD.ActiveDocument
 
-Mesh.export([doc.Cone, doc.Cylinder], 'D   */testfiles/mymodel.stl')
+Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 ```
 
 

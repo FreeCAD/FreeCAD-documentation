@@ -1,8 +1,6 @@
 # Category:Screenshots/pt
 This category lists pages with screenshots.
 
-[Category   *Documentation/pt](Category   *Documentation/pt.md)
-
 ### Contents
 
 |     |     |     |

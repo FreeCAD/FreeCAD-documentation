@@ -1,5 +1,5 @@
 # Category:Reinforcement/ru
-[Category   *Arch/ru](Category   *Arch/ru.md) [Category   *Workbenches/ru](Category   *Workbenches/ru.md)
+
 
 ### Contents
 

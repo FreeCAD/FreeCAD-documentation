@@ -1,16 +1,16 @@
 ---
-- GuiCommand   */de
-   Name   *Part Revolve
-   Name/de   *Part Drehen
-   MenuLocation   *Formteil → Drehen
-   Workbenches   *[Part](Part_Workbench/de.md)
+- GuiCommand:/de
+   Name:Part Revolve
+   Name/de:Part Drehen
+   MenuLocation:Formteil → Drehen
+   Workbenches:[Part](Part_Workbench/de.md)
 ---
 
 # Part Revolve/de
 
 ## Beschreibung
 
-Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen sind erlaubt und führen zu den angegebenen Ausgabeformen   *
+Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen sind erlaubt und führen zu den angegebenen Ausgabeformen:
 
   Eingabeform   Ausgabeform
    

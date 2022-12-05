@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher CreateCircle
-   Name/pl   *Szkicownik   * Utwórz okrąg
-   MenuLocation   *Szkic → Elementy geometryczne szkicownika → Utwórz okrąg
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut   ***G** **C**
-   SeeAlso   *[Łuk](Sketcher_CompCreateArc/pl.md)
+- GuiCommand:/pl
+   Name:Sketcher CreateCircle
+   Name/pl:Szkicownik: Utwórz okrąg
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz okrąg
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**G** **C**
+   SeeAlso:[Łuk](Sketcher_CompCreateArc/pl.md)
 ---
 
 # Sketcher CreateCircle/pl
 
 ## Opis
 
-Narzędzie to rysuje okrąg, wybierając dwa punkty   * środek i punkt wzdłuż promienia. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną ikoną koła. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
+Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż promienia. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną ikoną koła. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
 
 ![](images/Sketcher_CircleExample1.png‎ )
 

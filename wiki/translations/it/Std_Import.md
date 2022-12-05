@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Std_Import
-   Name/it   *Importa
-   Empty   *1
-   MenuLocation   *File → Importa...
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**I**
-   SeeAlso   *[Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
+- GuiCommand:/it
+   Name:Std_Import
+   Name/it:Importa
+   Empty:1
+   MenuLocation:File → Importa...
+   Workbenches:All
+   Shortcut:**Ctrl**+**I**
+   SeeAlso:[Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
 ---
 
 # Std Import/it
@@ -23,9 +23,9 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 
 <div class="mw-translate-fuzzy">
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **File → Importa...** dal menu.
-    -   Usare la scorciatoia da tastiera   * **Ctrl**+**I**.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**I**.
 2.  Facoltativamente, selezionare il formato file corretto nella finestra di dialogo.
 3.  Selezionare un file.
 4.  Premere il pulsante **Apri**.
@@ -52,8 +52,8 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 ## Preferenze
 
 -   Vedere [Preferenze di Importa e esporta](Import_Export_Preferences/it.md).
--   L\'ultima posizione del file utilizzato è memorizzata in   * {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
--   L\'ultimo filtro di importazione utilizzato è memorizzato in   * {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileImportFilter}}.
+-   L\'ultima posizione del file utilizzato è memorizzata in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
+-   L\'ultimo filtro di importazione utilizzato è memorizzato in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileImportFilter}}.
 
 
 <div class="mw-translate-fuzzy">
@@ -67,9 +67,7 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 
 {{Std Base navi
 
-}}  
-
-[Category   *File_Formats](Category_File_Formats.md)
+}}
 
 
 

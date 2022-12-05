@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Snap Intersection
-   Name/it   *Intersezione
-   MenuLocation   *Draft → [Ancoraggio](Draft_Snap/it.md) → Intersezione
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut   *
-   SeeAlso   *[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+- GuiCommand:/it
+   Name:Draft Snap Intersection
+   Name/it:Intersezione
+   MenuLocation:Draft → [Ancoraggio](Draft_Snap/it.md) → Intersezione
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Intersection/it
@@ -23,7 +23,7 @@ Questa modalità di aggancio consente di selezionare il punto di intersezione di
 
 </div>
 
-This snap option will also find apparent intersections of (extended) straight edges if <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *16px;"> [Draft Snap WorkingPlane](Draft_Snap_WorkingPlane.md) is active as well.
+This snap option will also find apparent intersections of (extended) straight edges if <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [Draft Snap WorkingPlane](Draft_Snap_WorkingPlane.md) is active as well.
 
 ![](images/Draft_Snap_Intersection_example.png )
 

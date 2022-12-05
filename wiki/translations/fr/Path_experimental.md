@@ -3,7 +3,7 @@
 
 ## Description
 
-L\'atelier Path contient un ensemble de commandes cachées. Elles sont cachées par défaut car elles sont expérimentales. Une commande peut être considérée comme expérimentale pour l\'une des raisons suivantes    *
+L\'atelier Path contient un ensemble de commandes cachées. Elles sont cachées par défaut car elles sont expérimentales. Une commande peut être considérée comme expérimentale pour l\'une des raisons suivantes :
 
 -   Elle est incomplète.
 -   Elle présente des bogues.
@@ -19,25 +19,23 @@ Pour accéder aux commandes expérimentales masquées dans de l\'atelier Path, l
 
 1.  Ouvrez le [Editeur des paramètres](Std_DlgParameter/fr.md) via **Outils → Editer Paramètres ...**
 2.  Une fois dans l\'éditeur, le chemin est **BaseApp → Preferences → Mod → Path**
-3.  Pour activer les commandes [Path Zone d\'usinage](Path_Area/fr.md) et [Path Zone de travail plane](Path_Area_Workplane/fr.md)    *
+3.  Pour activer les commandes [Path Zone d\'usinage](Path_Area/fr.md) et [Path Zone de travail plane](Path_Area_Workplane/fr.md) :
     -   Cliquez bouton droit de la souris dans la zone de liste des paramètres et sélectionnez **Nouveau → Nouvel article booléen** dans le menu contextuel.
-    -   Nommez le nouveau paramètre    * `EnableAdvancedOCLFeatures`. (sensible à la casse).
+    -   Nommez le nouveau paramètre : `EnableAdvancedOCLFeatures`. (sensible à la casse).
     -   Définissez-le à `True`.
-4.  Pour activer les autres commandes expérimentales    *
+4.  Pour activer les autres commandes expérimentales :
     -   Sélectionnez à nouveau **Nouveau → Nouvel article booléen** dans le menu contextuel.
-    -   Nommez le nouveau paramètre    * `EnableExperimentalFeatures`. (sensible à la casse).
+    -   Nommez le nouveau paramètre : `EnableExperimentalFeatures`. (sensible à la casse).
     -   Définissez-le à `True`.
 5.  Enregistrez les paramètres.
 6.  Redémarrez FreeCAD.
 
 ## Information Supplémentaire 
 
-En savoir plus sur les commandes expérimentales spécifiques sur les [pages du wiki qui renvoient à celle-ci](https   *//www.freecadweb.org/wiki/Special   *WhatLinksHere/Path_experimental).
+En savoir plus sur les commandes expérimentales spécifiques sur les [pages du wiki qui renvoient à celle-ci](https://www.freecadweb.org/wiki/Special:WhatLinksHere/Path_experimental).
 
 
- {{Path Tools navi}} 
-
-[Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
+ {{Path Tools navi}}
 
 
 

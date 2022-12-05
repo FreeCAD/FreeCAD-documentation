@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Std RandomColor
-   Name/pl   *Std   * Kolor losowy
-   MenuLocation   *Widok → Nadaj kolor losowo
-   Workbenches   *wszystkie
+- GuiCommand:/pl
+   Name:Std RandomColor
+   Name/pl:Std: Kolor losowy
+   MenuLocation:Widok → Nadaj kolor losowo
+   Workbenches:wszystkie
 ---
 
 # Std RandomColor/pl
@@ -15,7 +15,7 @@ Polecenie **Nadaj kolor losowo** stosuje losowy **Kolor kształtu** do wybranych
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Wybierz opcję z menu **Widok → <img src="images/Std_RandomColor.svg" width=16px> Nadaj kolor losowo**.
     -   Wybierz opcję **<img src="images/Std_RandomColor.svg" width=16px> Nadaj kolor losowo** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md) *(zobacz zrzut ekranu)* lub okna [Widoku 3D](3D_view.md).
 

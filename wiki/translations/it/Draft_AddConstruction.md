@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft AddConstruction
-   Name/it   *Aggiungi al gruppo Costruzione
-   MenuLocation   *Draft → Utilità → Aggiungi al gruppo Costruzione
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version   *0.17
-   SeeAlso   *[Modalità costruzione](Draft_ToggleConstructionMode/it.md), [Aggiungi al gruppo](Draft_AddToGroup/it.md)
+- GuiCommand:/it
+   Name:Draft AddConstruction
+   Name/it:Aggiungi al gruppo Costruzione
+   MenuLocation:Draft → Utilità → Aggiungi al gruppo Costruzione
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version:0.17
+   SeeAlso:[Modalità costruzione](Draft_ToggleConstructionMode/it.md), [Aggiungi al gruppo](Draft_AddToGroup/it.md)
 ---
 
 # Draft AddConstruction/it
@@ -39,7 +39,7 @@ Questo comando aggiunge gli oggetti selezionati al [Gruppo costruzione](Draft_To
 
 <div class="mw-translate-fuzzy">
 
-È anche possibile aggiungere oggetti usando **<img src="images/Draft_AddToGroup.svg" width=16px> [Aggiungi al gruppo](Draft_AddToGroup/it.md)** a un   *
+È anche possibile aggiungere oggetti usando **<img src="images/Draft_AddToGroup.svg" width=16px> [Aggiungi al gruppo](Draft_AddToGroup/it.md)** a un:
 
 -    **<img src="images/Std_Group.svg" width=16px> [Gruppo standard](Std_Group/it.md)
 **

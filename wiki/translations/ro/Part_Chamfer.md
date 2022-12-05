@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Part Chamfer
-   Name/ro   *Part Chamfer
-   MenuLocation   *Part → Chamfer
-   Workbenches   *[Part](Part_Workbench/ro.md), Complete
-   SeeAlso   *
+- GuiCommand:/ro
+   Name:Part Chamfer
+   Name/ro:Part Chamfer
+   MenuLocation:Part → Chamfer
+   Workbenches:[Part](Part_Workbench/ro.md), Complete
+   SeeAlso:
 ---
 
 # Part Chamfer/ro
@@ -41,7 +41,7 @@
 
 ## Utilisation
 
-Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File   *Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
+Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File:Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
 Si la forme n\'a pas été sélectionnée au préalable, sélectionnez-la dans la **liste déroulante** du panneau des Tâches.
 Sélectionnez le type de congé (Chanfrein), soit rayon constant (par défaut), ou rayon variable.
 Sélectionnez les arêtes, soit dans la vue 3D, ou en les cochant, dans la liste du panneau des Tâches.
@@ -69,31 +69,31 @@ Un șanfren de lungime variabilă va avea marginile care pot fi setate la distan
 
 ### Vue combinée → Tâche 
 
-<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width   *240px;"> {{TitleTasks|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitleProperty|Forme}}
+<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitleTasks|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitleProperty|Forme}}
 
--    {{OngletTache|Forme sélectionnée}}   * Si une forme a été sélectionnée, elle est automatiquement affichée. Si aucune forme n\'est sélectionnée, vous pouvez sélectionner votre forme dans cette boîte déroulante. Cette boîte déroulante <img alt="" src=images/Tache_PartFillet_Fillet_fr_00.png  style="width   *96px;">, liste toutes les formes qui peuvent être utilisées par l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, vous pouvez sélectionner votre forme dans cette liste, (ou avant de sélectionner l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, directement dans la fenêtre 3D, et, elle sera automatiquement affichée). (Défaut, **Aucune sélection**).
+-    {{OngletTache|Forme sélectionnée}}: Si une forme a été sélectionnée, elle est automatiquement affichée. Si aucune forme n\'est sélectionnée, vous pouvez sélectionner votre forme dans cette boîte déroulante. Cette boîte déroulante <img alt="" src=images/Tache_PartFillet_Fillet_fr_00.png  style="width:96px;">, liste toutes les formes qui peuvent être utilisées par l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, vous pouvez sélectionner votre forme dans cette liste, (ou avant de sélectionner l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, directement dans la fenêtre 3D, et, elle sera automatiquement affichée). (Défaut, **Aucune sélection**).
 
 
 {{TitleProperty|Paramètres de congé}}
 
--    ** Tous **   * Sélectionne toutes les arêtes de la forme sélectionnée.
+-    ** Tous **: Sélectionne toutes les arêtes de la forme sélectionnée.
 
--    ** Aucun **   * Décoche toutes les arêtes de la forme sélectionnée.
+-    ** Aucun **: Décoche toutes les arêtes de la forme sélectionnée.
     Chaque arête peut être cochée séparément.
 
--    {{OngletTache|Type de congé}}   * Cette option, vous permet de choisir le type de chanfrein a effectuer, <img alt="" src=images/Tache_PartFillet_Rayon_fr_00.png  style="width   *96px;">, **Rayon constant**, ou **Rayon variable**. (Défaut, **Rayon constant**).
+-    {{OngletTache|Type de congé}}: Cette option, vous permet de choisir le type de chanfrein a effectuer, <img alt="" src=images/Tache_PartFillet_Rayon_fr_00.png  style="width:96px;">, **Rayon constant**, ou **Rayon variable**. (Défaut, **Rayon constant**).
 
 Sur cette exemple l\'option est réglée sur **[Rayon constant](#Chanfrein_symétrique.md)**, et, un seul réglage de rayon est possible.
 
--    {{OngletTache|Rayon}}   * Réglage du paramètre rayon, ici un seul rayon, pour un **Rayon constant**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **symétrique**.
+-    {{OngletTache|Rayon}}: Réglage du paramètre rayon, ici un seul rayon, pour un **Rayon constant**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **symétrique**.
 
 
 
 
-<img alt="Tâche options Chanfrein" src=images/Part_Chamfer_fr_06.png  style="width   *240px;">
+<img alt="Tâche options Chanfrein" src=images/Part_Chamfer_fr_06.png  style="width:240px;">
 Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asymétrique.md)**, et, deux réglages de rayons sont demandés.
 
--    {{OngletTache|Rayon}}   * Réglage des paramètres rayon, ici deux rayons sont a entrer, **Rayon initial**, et, **Rayon final**, pour avoir un **Rayon variable**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **asymétrique**. (Défaut, **Rayon constant**).
+-    {{OngletTache|Rayon}}: Réglage des paramètres rayon, ici deux rayons sont a entrer, **Rayon initial**, et, **Rayon final**, pour avoir un **Rayon variable**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **asymétrique**. (Défaut, **Rayon constant**).
 
 
 
@@ -114,41 +114,41 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 
 ### Vue combinée → Propriétés Vue 
 
-<img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width   *240px;"> {{PartOngletVue_2/fr}} 
+<img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width:240px;"> {{PartOngletVue_2/fr}} 
 
 ### Vue combinée → Propriétés Données 
 
-<img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width   *240px;">
+<img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
 
 {{TitleProperty|Base}}
 
--    {{ProprieteDonnees|Label}}   * Label donné à la forme, modifiable à volonté.
+-    {{ProprieteDonnees|Label}}: Label donné à la forme, modifiable à volonté.
 
--    {{ProprieteDonnees|Placement}}   * \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Angle, Axis**, et, **Position** ci dessous.
-    Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
+-    {{ProprieteDonnees|Placement}}: \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Angle, Axis**, et, **Position** ci dessous.
+    Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
 
--    {{ProprieteDonnees|Angle}}   * Angle de rotation par rapport aux coordonnées **X, Y, Z**. (Défaut, **0,00°**).
+-    {{ProprieteDonnees|Angle}}: Angle de rotation par rapport aux coordonnées **X, Y, Z**. (Défaut, **0,00°**).
 
--    {{ProprieteDonnees|Axis}}   * Cette option spécifie l\'axe des axes autour desquels la pièce de révolution créée doit être pivotée **PAS RÉVOLUTIONNÉE** (la valeur exacte du pivotement est défini par l\'option **Angle** ci-dessus).
+-    {{ProprieteDonnees|Axis}}: Cette option spécifie l\'axe des axes autour desquels la pièce de révolution créée doit être pivotée **PAS RÉVOLUTIONNÉE** (la valeur exacte du pivotement est défini par l\'option **Angle** ci-dessus).
 
 Cette option demande trois arguments, qui sont passés sous forme de nombres dans les cases de la boîte à outils, définissants les coordonnées **x, y ou z**, .
 La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'angle de chaque axe.
-**Par exemple    *** nous déterminons un angle de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, **\" 15° dans l\'axe x \"** et **\" 30° dans l\'axe y \"**.
+**Par exemple :** nous déterminons un angle de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, **\" 15° dans l\'axe x \"** et **\" 30° dans l\'axe y \"**.
 
-   ** {{ProprieteDonnees| X }}    * Angle à donner dans la direction **X** . (Défaut, **0,00**).
+  - {{ProprieteDonnees| X }} : Angle à donner dans la direction **X** . (Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Y }}    * Angle à donner dans la direction **Y** . (Défaut, **0,00**).
+  - {{ProprieteDonnees| Y }} : Angle à donner dans la direction **Y** . (Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Z }}    * Angle à donner dans la direction **Z** . (Défaut, **1,00**).
+  - {{ProprieteDonnees| Z }} : Angle à donner dans la direction **Z** . (Défaut, **1,00**).
 
--    {{ProprieteDonnees|Position}}   * **\[0,00 0,00 0,00\]** récapitulation des coordonnées de position, par rapport coordonnée d\'origine **0,00 0,00 0,00**.
+-    {{ProprieteDonnees|Position}}: **\[0,00 0,00 0,00\]** récapitulation des coordonnées de position, par rapport coordonnée d\'origine **0,00 0,00 0,00**.
 
-   ** {{ProprieteDonnees| X }}    * Déplacement à donner dans la direction **X** .(Défaut, **0,00**).
+  - {{ProprieteDonnees| X }} : Déplacement à donner dans la direction **X** .(Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Y }}    * Déplacement à donner dans la direction **Y** .(Défaut, **0,00**).
+  - {{ProprieteDonnees| Y }} : Déplacement à donner dans la direction **Y** .(Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Z }}    * Déplacement à donner dans la direction **Z** .(Défaut, **0,00**). 
+  - {{ProprieteDonnees| Z }} : Déplacement à donner dans la direction **Z** .(Défaut, **0,00**). 
 
 
 </div>
@@ -162,11 +162,11 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 {{Properties_Title|Base}}
 
--    **Base**   * The shape onto which the chamfer is to be applied.
+-    **Base**: The shape onto which the chamfer is to be applied.
 
--    **Placement**   * Specifies the orientation and position of the shape in the 3D space.
+-    **Placement**: Specifies the orientation and position of the shape in the 3D space.
 
--    **Label**   * Label given to the object. Change to suit your needs.
+-    **Label**: Label given to the object. Change to suit your needs.
 
 
 
@@ -175,50 +175,50 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 ### Vue combinée → Propriétés Vue 
 
-<img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width   *240px;"> {{PartOngletVue_2/fr}} 
+<img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width:240px;"> {{PartOngletVue_2/fr}} 
 
 ### Vue combinée → Propriétés Données 
 
-<img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width   *240px;">
+<img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
 
 {{TitleProperty|Base}}
 
--    {{ProprieteDonnees|Label}}   * Label donné à la forme, modifiable à volonté.
+-    {{ProprieteDonnees|Label}}: Label donné à la forme, modifiable à volonté.
 
--    {{ProprieteDonnees|Placement}}   * \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Angle, Axis**, et, **Position** ci dessous.
-    Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
+-    {{ProprieteDonnees|Placement}}: \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Angle, Axis**, et, **Position** ci dessous.
+    Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
 
--    {{ProprieteDonnees|Angle}}   * Angle de rotation par rapport aux coordonnées **X, Y, Z**. (Défaut, **0,00°**).
+-    {{ProprieteDonnees|Angle}}: Angle de rotation par rapport aux coordonnées **X, Y, Z**. (Défaut, **0,00°**).
 
--    {{ProprieteDonnees|Axis}}   * Cette option spécifie l\'axe des axes autour desquels la pièce de révolution créée doit être pivotée **PAS RÉVOLUTIONNÉE** (la valeur exacte du pivotement est défini par l\'option **Angle** ci-dessus).
+-    {{ProprieteDonnees|Axis}}: Cette option spécifie l\'axe des axes autour desquels la pièce de révolution créée doit être pivotée **PAS RÉVOLUTIONNÉE** (la valeur exacte du pivotement est défini par l\'option **Angle** ci-dessus).
 
 Cette option demande trois arguments, qui sont passés sous forme de nombres dans les cases de la boîte à outils, définissants les coordonnées **x, y ou z**, .
 La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'angle de chaque axe.
-**Par exemple    *** nous déterminons un angle de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, **\" 15° dans l\'axe x \"** et **\" 30° dans l\'axe y \"**.
+**Par exemple :** nous déterminons un angle de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, **\" 15° dans l\'axe x \"** et **\" 30° dans l\'axe y \"**.
 
-   ** {{ProprieteDonnees| X }}    * Angle à donner dans la direction **X** . (Défaut, **0,00**).
+  - {{ProprieteDonnees| X }} : Angle à donner dans la direction **X** . (Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Y }}    * Angle à donner dans la direction **Y** . (Défaut, **0,00**).
+  - {{ProprieteDonnees| Y }} : Angle à donner dans la direction **Y** . (Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Z }}    * Angle à donner dans la direction **Z** . (Défaut, **1,00**).
+  - {{ProprieteDonnees| Z }} : Angle à donner dans la direction **Z** . (Défaut, **1,00**).
 
--    {{ProprieteDonnees|Position}}   * **\[0,00 0,00 0,00\]** récapitulation des coordonnées de position, par rapport coordonnée d\'origine **0,00 0,00 0,00**.
+-    {{ProprieteDonnees|Position}}: **\[0,00 0,00 0,00\]** récapitulation des coordonnées de position, par rapport coordonnée d\'origine **0,00 0,00 0,00**.
 
-   ** {{ProprieteDonnees| X }}    * Déplacement à donner dans la direction **X** .(Défaut, **0,00**).
+  - {{ProprieteDonnees| X }} : Déplacement à donner dans la direction **X** .(Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Y }}    * Déplacement à donner dans la direction **Y** .(Défaut, **0,00**).
+  - {{ProprieteDonnees| Y }} : Déplacement à donner dans la direction **Y** .(Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Z }}    * Déplacement à donner dans la direction **Z** .(Défaut, **0,00**). 
+  - {{ProprieteDonnees| Z }} : Déplacement à donner dans la direction **Z** .(Défaut, **0,00**). 
 
 
 </div>
 
 ## Limitations
 
-Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Fillet](Part_Fillet.md).
+Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md).
 
-Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.20) it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
+Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.20) it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
 
 ## Scripting
 
@@ -228,12 +228,12 @@ Also note that the Chamfer feature is affected by the [Topological naming proble
 ## Script
 
 Instrumentul Chamfer poate fi utilizat în [macros](macros.md) și din consolă python prin adăugarea unui obiect Chamfer în document. Cet outil applique des **![](images/)_[chanfreins](Part_Chamfer/fr.md)**, sur les arêtes sélectionnées d\'un objet. Une boite de dialogue vous permet de choisir sur quels objets, et, sur quelles arêtes travailler.
-<img alt="Chanfreins" src=images/Part_Chamfer_fr_01.png  style="width   *480px;">
+<img alt="Chanfreins" src=images/Part_Chamfer_fr_01.png  style="width:480px;">
 
 
 ## Utilisation 
 
-Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File   *Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
+Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File:Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
 Si la forme n\'a pas été sélectionnée au préalable, sélectionnez-la dans la **liste déroulante** du panneau des Tâches.
 Sélectionnez le type de congé (Chanfrein), soit rayon constant (par défaut), ou rayon variable.
 Sélectionnez les arêtes, soit dans la vue 3D, ou en les cochant, dans la liste du panneau des Tâches.
@@ -243,31 +243,31 @@ Réglez la valeur du rayon, puis cliquez **OK** pour valider.
 
 ### Vue combinée → Tâche 
 
-<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width   *240px;"> {{TitleTasks|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitleProperty|Forme}}
+<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitleTasks|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitleProperty|Forme}}
 
--    {{OngletTache|Forme sélectionnée}}   * Si une forme a été sélectionnée, elle est automatiquement affichée. Si aucune forme n\'est sélectionnée, vous pouvez sélectionner votre forme dans cette boîte déroulante. Cette boîte déroulante <img alt="" src=images/Tache_PartFillet_Fillet_fr_00.png  style="width   *96px;">, liste toutes les formes qui peuvent être utilisées par l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, vous pouvez sélectionner votre forme dans cette liste, (ou avant de sélectionner l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, directement dans la fenêtre 3D, et, elle sera automatiquement affichée). (Défaut, **Aucune sélection**).
+-    {{OngletTache|Forme sélectionnée}}: Si une forme a été sélectionnée, elle est automatiquement affichée. Si aucune forme n\'est sélectionnée, vous pouvez sélectionner votre forme dans cette boîte déroulante. Cette boîte déroulante <img alt="" src=images/Tache_PartFillet_Fillet_fr_00.png  style="width:96px;">, liste toutes les formes qui peuvent être utilisées par l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, vous pouvez sélectionner votre forme dans cette liste, (ou avant de sélectionner l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, directement dans la fenêtre 3D, et, elle sera automatiquement affichée). (Défaut, **Aucune sélection**).
 
 
 {{TitleProperty|Paramètres de congé}}
 
--    ** Tous **   * Sélectionne toutes les arêtes de la forme sélectionnée.
+-    ** Tous **: Sélectionne toutes les arêtes de la forme sélectionnée.
 
--    ** Aucun **   * Décoche toutes les arêtes de la forme sélectionnée.
+-    ** Aucun **: Décoche toutes les arêtes de la forme sélectionnée.
     Chaque arête peut être cochée séparément.
 
--    {{OngletTache|Type de congé}}   * Cette option, vous permet de choisir le type de chanfrein a effectuer, <img alt="" src=images/Tache_PartFillet_Rayon_fr_00.png  style="width   *96px;">, **Rayon constant**, ou **Rayon variable**. (Défaut, **Rayon constant**).
+-    {{OngletTache|Type de congé}}: Cette option, vous permet de choisir le type de chanfrein a effectuer, <img alt="" src=images/Tache_PartFillet_Rayon_fr_00.png  style="width:96px;">, **Rayon constant**, ou **Rayon variable**. (Défaut, **Rayon constant**).
 
 Sur cette exemple l\'option est réglée sur **[Rayon constant](#Chanfrein_symétrique.md)**, et, un seul réglage de rayon est possible.
 
--    {{OngletTache|Rayon}}   * Réglage du paramètre rayon, ici un seul rayon, pour un **Rayon constant**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **symétrique**.
+-    {{OngletTache|Rayon}}: Réglage du paramètre rayon, ici un seul rayon, pour un **Rayon constant**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **symétrique**.
 
 
 
 
-<img alt="Tâche options Chanfrein" src=images/Part_Chamfer_fr_06.png  style="width   *240px;">
+<img alt="Tâche options Chanfrein" src=images/Part_Chamfer_fr_06.png  style="width:240px;">
 Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asymétrique.md)**, et, deux réglages de rayons sont demandés.
 
--    {{OngletTache|Rayon}}   * Réglage des paramètres rayon, ici deux rayons sont a entrer, **Rayon initial**, et, **Rayon final**, pour avoir un **Rayon variable**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **asymétrique**. (Défaut, **Rayon constant**).
+-    {{OngletTache|Rayon}}: Réglage des paramètres rayon, ici deux rayons sont a entrer, **Rayon initial**, et, **Rayon final**, pour avoir un **Rayon variable**, pour un **![](images/)_[chanfrein](Part_Chamfer/fr.md)** **asymétrique**. (Défaut, **Rayon constant**).
 
 
 
@@ -276,41 +276,41 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 
 ### Vue combinée → Propriétés Vue 
 
-<img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width   *240px;"> {{PartOngletVue_2/fr}} 
+<img alt="Propriétés Vue Chanfrein" src=images/Part_Chamfer_fr_03.png  style="width:240px;"> {{PartOngletVue_2/fr}} 
 
 ### Vue combinée → Propriétés Données 
 
-<img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width   *240px;">
+<img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
 
 {{TitleProperty|Base}}
 
--    {{ProprieteDonnees|Label}}   * Label donné à la forme, modifiable à volonté.
+-    {{ProprieteDonnees|Label}}: Label donné à la forme, modifiable à volonté.
 
--    {{ProprieteDonnees|Placement}}   * \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Angle, Axis**, et, **Position** ci dessous.
-    Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
+-    {{ProprieteDonnees|Placement}}: \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Angle, Axis**, et, **Position** ci dessous.
+    Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
 
--    {{ProprieteDonnees|Angle}}   * Angle de rotation par rapport aux coordonnées **X, Y, Z**. (Défaut, **0,00°**).
+-    {{ProprieteDonnees|Angle}}: Angle de rotation par rapport aux coordonnées **X, Y, Z**. (Défaut, **0,00°**).
 
--    {{ProprieteDonnees|Axis}}   * Cette option spécifie l\'axe des axes autour desquels la pièce de révolution créée doit être pivotée **PAS RÉVOLUTIONNÉE** (la valeur exacte du pivotement est défini par l\'option **Angle** ci-dessus).
+-    {{ProprieteDonnees|Axis}}: Cette option spécifie l\'axe des axes autour desquels la pièce de révolution créée doit être pivotée **PAS RÉVOLUTIONNÉE** (la valeur exacte du pivotement est défini par l\'option **Angle** ci-dessus).
 
 Cette option demande trois arguments, qui sont passés sous forme de nombres dans les cases de la boîte à outils, définissants les coordonnées **x, y ou z**, .
 La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'angle de chaque axe.
-**Par exemple    *** nous déterminons un angle de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, **\" 15° dans l\'axe x \"** et **\" 30° dans l\'axe y \"**.
+**Par exemple :** nous déterminons un angle de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, **\" 15° dans l\'axe x \"** et **\" 30° dans l\'axe y \"**.
 
-   ** {{ProprieteDonnees| X }}    * Angle à donner dans la direction **X** . (Défaut, **0,00**).
+  - {{ProprieteDonnees| X }} : Angle à donner dans la direction **X** . (Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Y }}    * Angle à donner dans la direction **Y** . (Défaut, **0,00**).
+  - {{ProprieteDonnees| Y }} : Angle à donner dans la direction **Y** . (Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Z }}    * Angle à donner dans la direction **Z** . (Défaut, **1,00**).
+  - {{ProprieteDonnees| Z }} : Angle à donner dans la direction **Z** . (Défaut, **1,00**).
 
--    {{ProprieteDonnees|Position}}   * **\[0,00 0,00 0,00\]** récapitulation des coordonnées de position, par rapport coordonnée d\'origine **0,00 0,00 0,00**.
+-    {{ProprieteDonnees|Position}}: **\[0,00 0,00 0,00\]** récapitulation des coordonnées de position, par rapport coordonnée d\'origine **0,00 0,00 0,00**.
 
-   ** {{ProprieteDonnees| X }}    * Déplacement à donner dans la direction **X** .(Défaut, **0,00**).
+  - {{ProprieteDonnees| X }} : Déplacement à donner dans la direction **X** .(Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Y }}    * Déplacement à donner dans la direction **Y** .(Défaut, **0,00**).
+  - {{ProprieteDonnees| Y }} : Déplacement à donner dans la direction **Y** .(Défaut, **0,00**).
 
-   ** {{ProprieteDonnees| Z }}    * Déplacement à donner dans la direction **Z** .(Défaut, **0,00**). 
+  - {{ProprieteDonnees| Z }} : Déplacement à donner dans la direction **Z** .(Défaut, **0,00**). 
 
 ## Exemple
 
@@ -319,7 +319,7 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 <center>
 
-Image   *Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modifier, Image   *Part_Fillet_fr_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
+Image:Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modifier, Image:Part_Fillet_fr_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
 
 
 </center>
@@ -328,7 +328,7 @@ Image   *Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modif
 
 <center>
 
-Image   *Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image   *Part_Chamfer_fr_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
+Image:Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image:Part_Chamfer_fr_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
 
 
 </center>
@@ -337,7 +337,7 @@ Image   *Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfre
 
 <center>
 
-Image   *Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image   *Part_Chamfer_fr_12.png\|Modifions notre rayon à **5 mm**,
+Image:Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image:Part_Chamfer_fr_12.png\|Modifions notre rayon à **5 mm**,
 
 
 </center>
@@ -346,7 +346,7 @@ Image   *Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image   *Part_C
 
 <center>
 
-Image   *Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image   *Part_Chamfer_fr_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
+Image:Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image:Part_Chamfer_fr_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
 
 
 </center>
@@ -356,7 +356,7 @@ Image   *Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type
 
 <center>
 
-Image   *Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifier. Image   *Part_Chamfer_fr_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
+Image:Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifier. Image:Part_Chamfer_fr_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
 
 
 </center>
@@ -365,7 +365,7 @@ Image   *Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifi
 
 <center>
 
-Image   *Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image   *Part_Chamfer_fr_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
+Image:Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image:Part_Chamfer_fr_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
 
 
 </center>
@@ -374,7 +374,7 @@ Image   *Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de
 
 <center>
 
-Image   *Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Image   *Part_Chamfer_fr_20.png\|et, **20 mm** pour le rayon d\'arrivée.
+Image:Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Image:Part_Chamfer_fr_20.png\|et, **20 mm** pour le rayon d\'arrivée.
 
 
 </center>
@@ -383,7 +383,7 @@ Image   *Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Ima
 
 <center>
 
-Image   *Part_Chamfer_fr_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image   *Part_Chamfer_fr_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
+Image:Part_Chamfer_fr_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image:Part_Chamfer_fr_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
 Si vous cliquez sur la flèche, vous pouvez voir les formes d\'origine, qui ont servi dans l\'opération de **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**.
 Les formes originales peuvent être effacées, pour ne conserver que le produit final.
 
@@ -391,18 +391,18 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part_Chamfer/fr](Image   *Part_Chamfer.png.md) 
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part_Chamfer/fr](Image:Part_Chamfer.png.md) 
 
-**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
+**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
-### Voici quelques différences    * 
+### Voici quelques différences : 
 
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
--   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
--   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
+-   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
+-   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
 
 
 
@@ -410,7 +410,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 </div>
 
-**Exemplu de Script   ***
+**Exemplu de Script:**
 
 ## Exemple 
 
@@ -419,7 +419,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 <center>
 
-Image   *Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modifier, Image   *Part_Fillet_fr_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
+Image:Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modifier, Image:Part_Fillet_fr_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
 
 
 </center>
@@ -428,7 +428,7 @@ Image   *Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modif
 
 <center>
 
-Image   *Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image   *Part_Chamfer_fr_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
+Image:Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image:Part_Chamfer_fr_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
 
 
 </center>
@@ -437,7 +437,7 @@ Image   *Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfre
 
 <center>
 
-Image   *Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image   *Part_Chamfer_fr_12.png\|Modifions notre rayon à **5 mm**,
+Image:Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image:Part_Chamfer_fr_12.png\|Modifions notre rayon à **5 mm**,
 
 
 </center>
@@ -446,7 +446,7 @@ Image   *Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image   *Part_C
 
 <center>
 
-Image   *Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image   *Part_Chamfer_fr_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
+Image:Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image:Part_Chamfer_fr_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
 
 
 </center>
@@ -456,7 +456,7 @@ Image   *Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type
 
 <center>
 
-Image   *Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifier. Image   *Part_Chamfer_fr_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
+Image:Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifier. Image:Part_Chamfer_fr_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
 
 
 </center>
@@ -465,7 +465,7 @@ Image   *Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifi
 
 <center>
 
-Image   *Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image   *Part_Chamfer_fr_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
+Image:Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image:Part_Chamfer_fr_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
 
 
 </center>
@@ -474,7 +474,7 @@ Image   *Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de
 
 <center>
 
-Image   *Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Image   *Part_Chamfer_fr_20.png\|et, **20 mm** pour le rayon d\'arrivée.
+Image:Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Image:Part_Chamfer_fr_20.png\|et, **20 mm** pour le rayon d\'arrivée.
 
 
 </center>
@@ -483,7 +483,7 @@ Image   *Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Ima
 
 <center>
 
-Image   *Part_Chamfer_fr_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image   *Part_Chamfer_fr_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
+Image:Part_Chamfer_fr_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image:Part_Chamfer_fr_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
 Si vous cliquez sur la flèche, vous pouvez voir les formes d\'origine, qui ont servi dans l\'opération de **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**.
 Les formes originales peuvent être effacées, pour ne conserver que le produit final.
 
@@ -491,18 +491,18 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part_Chamfer/fr](Image   *Part_Chamfer.png.md) 
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part_Chamfer/fr](Image:Part_Chamfer.png.md) 
 
-**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
+**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
-### Voici quelques différences    * 
+### Voici quelques différences : 
 
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
--   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
--   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
+-   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
+-   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
 
 
 
@@ -510,9 +510,9 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -532,12 +532,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Example Script Explanation   ***
+**Example Script Explanation:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -551,7 +551,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 ```
 
 -   Adaugă un obiect nou în documentul Chamfer (din modulul Part) cu etichetă\"myChamfer\".

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM FemMesh2Mesh
-   MenuLocation   *Mesh → FEM mesh to mesh
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM FemMesh2Mesh
+   MenuLocation:Mesh → FEM mesh to mesh
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM FemMesh2Mesh/pl
@@ -16,15 +16,15 @@ This tool converts surfaces of 3D elements of a selected FEM mesh to mesh, or co
 
 1.  Select a FEM mesh object.
 2.  Optionally also select the FEM results.
-3.  There are several ways to invoke the command   *
+3.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [FEM mesh to mesh](FEM_FemMesh2Mesh.md)** button.
     -   Select the **Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> FEM mesh to mesh** option from the menu.
 
 ## Scripting
 
-**Note**   * The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
+**Note**: The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
 
-When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code   *
+When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 
 
 ```python
@@ -36,7 +36,7 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-The cantilever example   *
+The cantilever example:
 
 
 ```python

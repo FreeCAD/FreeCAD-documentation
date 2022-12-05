@@ -1,6 +1,6 @@
 # Part SimpleCopy/ro
 ---
-- GuiCommand   */ro   Name   *Part CreateSimpleCopy‏‎   Name/ro   *Part CreateSimpleCopy‏‎   MenuLocation   *Part → Create simple copy   Workbenches   *[SeeAlso   *[[Draft_Clone/ro   Clone](Part_Workbench/ro___Part]].md), [Copy](Std_Copy/ro.md), [Duplicate Selection](Std_DuplicateSelection/ro.md)|Icon   *Tree_Part.svg---
+- GuiCommand:/ro   Name:Part CreateSimpleCopy‏‎   Name/ro:Part CreateSimpleCopy‏‎   MenuLocation:Part → Create simple copy   Workbenches:[SeeAlso:[[Draft_Clone/ro   Clone](Part_Workbench/ro___Part]].md), [Copy](Std_Copy/ro.md), [Duplicate Selection](Std_DuplicateSelection/ro.md)|Icon:Tree_Part.svg---
 
 
 </div>

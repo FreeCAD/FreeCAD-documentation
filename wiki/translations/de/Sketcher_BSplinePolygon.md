@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher BSplinePolygon
-   Name/de   *Sketcher BSplinePolygon
-   MenuLocation   *Sketch → B-Spline-Werkzeuge →B-Spline-Kontrollpolygon ein- / ausblenden
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Version   *0.17
-   SeeAlso   *[Sketcher CompCreateBSpline](Sketcher_CompCreateBSpline/de.md)
+- GuiCommand:/de
+   Name:Sketcher BSplinePolygon
+   Name/de:Sketcher BSplinePolygon
+   MenuLocation:Sketch → B-Spline-Werkzeuge →B-Spline-Kontrollpolygon ein- / ausblenden
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[Sketcher CompCreateBSpline](Sketcher_CompCreateBSpline/de.md)
 ---
 
 # Sketcher BSplinePolygon/de
@@ -20,7 +20,7 @@ Blendet die Darstellung des steuernden Polygons einer B-Spline-Kurve ein oder au
 ## Anwendung
 
 1.  Eine B-Spline-Kurve auswählen.
-2.  Die Schaltfläche **[<img src=images/Sketcher_BSplinePolygon.svg style="width   *16px"> [B-Spline-Kontrollpolygon ein- / ausblenden](Sketcher_BSplinePolygon/de.md)** drücken.
+2.  Die Schaltfläche **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [B-Spline-Kontrollpolygon ein- / ausblenden](Sketcher_BSplinePolygon/de.md)** drücken.
 
 
 

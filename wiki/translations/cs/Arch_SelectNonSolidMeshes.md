@@ -1,6 +1,6 @@
 # Arch SelectNonSolidMeshes/cs
 ---
-- GuiCommand   */cs   Name   *Arch SelectNonSolidMeshes   Name/cs   *SelectNonSolidMeshes   Workbenches   *[MenuLocation   *Arch → Utilities → Select non solid   SeeAlso   *[[Arch MeshToShape/cs|Arch MeshToShape](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:/cs   Name:Arch SelectNonSolidMeshes   Name/cs:SelectNonSolidMeshes   Workbenches:[MenuLocation:Arch → Utilities → Select non solid   SeeAlso:[[Arch MeshToShape/cs|Arch MeshToShape](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifold](http   *//en.wikipedia.org/wiki/Manifold)) sítě ve vybraných skupinách objektů [Síť](Mesh_Workbench.md).
+Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifold](http://en.wikipedia.org/wiki/Manifold)) sítě ve vybraných skupinách objektů [Síť](Mesh_Workbench.md).
 
 
 </div>

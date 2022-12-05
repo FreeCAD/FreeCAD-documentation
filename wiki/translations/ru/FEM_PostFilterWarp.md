@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM PostFilterWarp
-   Name/ru   *FEM PostCreateWarpVectorFilter
-   MenuLocation   * Results → Wrap vector filter
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM PostFilterWarp
+   Name/ru:FEM PostCreateWarpVectorFilter
+   MenuLocation: Results → Wrap vector filter
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterWarp/ru
@@ -26,7 +26,7 @@ The result will be the same like with the *Displacement* slider of the [result s
 ## Применение
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
-2.  Invoke the command either by   *
+2.  Invoke the command either by:
     -   Pressing the button **<img src="images/FEM_PostFilterWarp.svg" width=16px> '''Warp filter'''** button.
     -   Using the menu **Results → <img src="images/FEM_PostFilterWarp.svg" width=16px> Warp filter**.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Warp Filter.

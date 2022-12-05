@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Std ToggleSelectability
-   Name/de   *Std AuswählbarkeitUmschalten
-   MenuLocation   *Ansicht → Sichtbarkeit → Selektierbarkeit an/aus
-   Workbenches   *Alle
+- GuiCommand:/de
+   Name:Std ToggleSelectability
+   Name/de:Std AuswählbarkeitUmschalten
+   MenuLocation:Ansicht → Sichtbarkeit → Selektierbarkeit an/aus
+   Workbenches:Alle
 ---
 
 # Std ToggleSelectability/de
@@ -15,7 +15,7 @@ Der Befehl **Std AuswählbarkeitUmschalten** schaltet die Auswählbarkeit von Ob
 ## Anwendung
 
 1.  Select one or more objects.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Select the **View → Visibility → <img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the menu.
     -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
     -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the 3D view context menu.
@@ -27,7 +27,7 @@ Der Befehl **Std AuswählbarkeitUmschalten** schaltet die Auswählbarkeit von Ob
 ## Skripten
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -39,9 +39,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Selectable == True   *
+if obj.Selectable == True:
   obj.Selectable = False
-else   *
+else:
   obj.Selectable = True
 ```
 

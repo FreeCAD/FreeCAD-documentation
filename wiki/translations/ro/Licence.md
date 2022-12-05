@@ -3,23 +3,23 @@
 
 ## Licențe utilizate sub FreeCAD 
 
-FreeCAD utilizează două licențe diferite, una pentru aplicația în sine și una pentru documentație   *
+FreeCAD utilizează două licențe diferite, una pentru aplicația în sine și una pentru documentație:
 
-**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia_LGPL.md)** Toate sursele de cod FreeCAD poate fi găsit aici [official Git repository](https   *//github.com/FreeCAD/FreeCAD)
+**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia_LGPL.md)** Toate sursele de cod FreeCAD poate fi găsit aici [official Git repository](https://github.com/FreeCAD/FreeCAD)
 
 
 <div class="mw-translate-fuzzy">
 
-**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http   *//creativecommons.org/licenses/by/3.0/)** For the documentation on <http   *//www.freecadweb.org>
+**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http://creativecommons.org/licenses/by/3.0/)** For the documentation on <http://www.freecadweb.org>
 
 
 </div>
 
-See FreeCAD\'s [debian copyright file](http   *//sourceforge.net/p/free-cad/code/ci/master/tree/package/debian/copyright) pentru mai multe detalii despre licențele utilizate de diferitele componente open source găsite în FreeCAD
+See FreeCAD\'s [debian copyright file](http://sourceforge.net/p/free-cad/code/ci/master/tree/package/debian/copyright) pentru mai multe detalii despre licențele utilizate de diferitele componente open source găsite în FreeCAD
 
 ## Impactul licențelor 
 
-Mai jos este o explicație mai prietenoasă despre ceea ce înseamnă licența LGPL pentru dvs.   *
+Mai jos este o explicație mai prietenoasă despre ceea ce înseamnă licența LGPL pentru dvs.:
 
 #### Toți utilizatorii 
 
@@ -40,7 +40,7 @@ Puteți utiliza FreeCAD ca bază pentru a vă dezvolta propria aplicație sau o 
 
 #### Commercial developers 
 
-Puteți utiliza FreeCAD ca bază pentru propria aplicație și nu sunteți forțați să creați aplicația dvs. ca open source. Cu toate acestea, LGPL necesită două elemente de bază   * 1) să informeze în mod clar utilizatorii că aplicația dvs. utilizează FreeCAD și FreeCAD este licențiată de LGPL și 2) să vă separați în mod clar propria aplicație de componentele FreeCAD. Acest lucru se face de obicei printr-o legătură dinamică cu componentele FreeCAD, permițând utilizatorilor să o modifice sau să pună la dispoziția utilizatorilor codul sursă al FreeCAD, precum și modificările aduse de dvs la acesta. Veți primi sprijin de la dezvoltatorii FreeCAD, atâta timp cât acest ajutor nu este pe o "stradă cu sens unic".
+Puteți utiliza FreeCAD ca bază pentru propria aplicație și nu sunteți forțați să creați aplicația dvs. ca open source. Cu toate acestea, LGPL necesită două elemente de bază: 1) să informeze în mod clar utilizatorii că aplicația dvs. utilizează FreeCAD și FreeCAD este licențiată de LGPL și 2) să vă separați în mod clar propria aplicație de componentele FreeCAD. Acest lucru se face de obicei printr-o legătură dinamică cu componentele FreeCAD, permițând utilizatorilor să o modifice sau să pună la dispoziția utilizatorilor codul sursă al FreeCAD, precum și modificările aduse de dvs la acesta. Veți primi sprijin de la dezvoltatorii FreeCAD, atâta timp cât acest ajutor nu este pe o "stradă cu sens unic".
 
 
 </div>
@@ -82,11 +82,6 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

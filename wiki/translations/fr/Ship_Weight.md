@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Ship Weight
-   Name/fr   *Ship Poids
-   MenuLocation   *Weights → Create a new ship weight
-   Workbenches   *[Ship](Ship_Workbench/fr.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/fr
+   Name:Ship Weight
+   Name/fr:Ship Poids
+   MenuLocation:Weights → Create a new ship weight
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Ship Weight/fr
@@ -38,7 +38,7 @@ Les poids solides/volumétriques sont caractérisés par la densité du matéria
 
 Le niveau d\'abstraction suivant est celui des poids basés sur la surface. Ce niveau d\'abstraction peut être considéré pour les assiettes, ou en général pour tout élément de surface ayant une petite largeur.
 
-<img alt="" src=images/Thin_Plate.png  style="width   *200px;"> 
+<img alt="" src=images/Thin_Plate.png  style="width:200px;"> 
 *Vue schématique d'une plaque mince*
 
 Si la géométrie sélectionnée ne contient pas de solides mais des surfaces, c\'est ce type d\'abstraction qui sera appliqué, en éliminant les lignes et les sommets.
@@ -49,7 +49,7 @@ Les poids des surfaces sont caractérisés par leur densité surfacique (en kg/m
 
 Le niveau d\'abstraction suivant est celui des poids basés sur les lignes. Ce niveau d\'abstraction peut être envisagé pour les poutres, ou en général pour tout élément dont la section transversale est petite par rapport à la dimension longitudinale.
 
-<img alt="" src=images/Thin_Beam.png  style="width   *200px;"> 
+<img alt="" src=images/Thin_Beam.png  style="width:200px;"> 
 *Vue schématique d'une poutre mince*
 
 Si aucun solide ou surface ne peut être trouvé dans la géométrie sélectionnée, mais que des arêtes/lignes sont bien présentes, c\'est ce type d\'abstraction qui sera appliqué. Les sommets sont en effet éliminés.
@@ -66,14 +66,6 @@ Les poids ponctuels sont caractérisés par leur masse (en kg, ou toute autre un
 
 -   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
 -   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
-
-
-
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

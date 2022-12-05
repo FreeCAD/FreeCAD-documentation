@@ -1,6 +1,6 @@
 # Path Copy/ro
 ---
-- GuiCommand   *   Name   *Path Copy   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Path Modification → Copy   Shortcut   *P,Y   SeeAlso   *---
+- GuiCommand:   Name:Path Copy   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Path Modification → Copy   Shortcut:P,Y   SeeAlso:---
 
 
 </div>
@@ -23,7 +23,7 @@ Acest instrument creează o copie a traiectoriei selectate
 
 ## Proprietăți
 
--    **Base**   * The base path to be copied
+-    **Base**: The base path to be copied
 
 ## Opţiuni
 

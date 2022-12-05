@@ -11,7 +11,7 @@ Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei W
 
 </div>
 
-<img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
 
@@ -20,7 +20,7 @@ Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei W
 ## Meldungen
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Konsole API](Console_API/de.md), und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -36,28 +36,28 @@ Die Berichtsansicht zeigt Meldungen der internen FreeCAD `Console` Klasse an.
 
 Diese Funktionen können direkt von der [Python Konsole](Python_console/de.md) oder von [Makros](Macros/de.md) und benutzerdefinierten Arbeitsbereichen aus verwendet werden.
 
-<img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
 
 
 
-*Beispielmeldungen in der Berichtsansicht   * eine allgemeine Meldung, eine Warnung, ein Fehler und eine protokollierte Meldung.*
+*Beispielmeldungen in der Berichtsansicht: eine allgemeine Meldung, eine Warnung, ein Fehler und eine protokollierte Meldung.*
 
 ## Maßnahmen
 
 
 <div class="mw-translate-fuzzy">
 
-Rechtsklick auf die Berichtsansicht zeigt einige Befehle   *
+Rechtsklick auf die Berichtsansicht zeigt einige Befehle:
 
--    **Optionen**   * Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
+-    **Optionen**: Protokollierung, Warnung, Fehler, Python Ausgabe umleiten, Python Fehler umleiten, zum Ende gehen.
 
--    **Kopieren**   * speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
+-    **Kopieren**: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
 
--    **Alles markieren**   * wählt den gesamten Text in der Berichtsansicht aus.
+-    **Alles markieren**: wählt den gesamten Text in der Berichtsansicht aus.
 
--    **Löschen**   * löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
+-    **Löschen**: löscht alle Meldungen in der Berichtsansicht. Dies ist nützlich, wenn du eine Fehlersuche bei einem Werkzeug durchführen willst, das Meldungen in der Berichtsansicht ausgibt, und sicher sein willst, dass keine alten Meldungen von früheren Werkzeugen vorhanden sind.
 
--    **Speichern als**   * speichert die Meldungen in der Berichtsansicht in einer Textdatei.
+-    **Speichern als**: speichert die Meldungen in der Berichtsansicht in einer Textdatei.
 
 
 </div>

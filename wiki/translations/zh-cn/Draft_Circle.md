@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Draft Circle
-   MenuLocation   *Drafting → Circle
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut   ***C** **I**
-   Version   *0.7
-   SeeAlso   *[Draft Arc](Draft_Arc.md), [Draft Arc 3Points](Draft_Arc_3Points.md)
+- GuiCommand:
+   Name:Draft Circle
+   MenuLocation:Drafting → Circle
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**C** **I**
+   Version:0.7
+   SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Arc 3Points](Draft_Arc_3Points.md)
 ---
 
 # Draft Circle/zh-cn
@@ -30,7 +30,7 @@
 
 </div>
 
-<img alt="" src=images/Draft_Circle_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +44,7 @@
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -91,17 +91,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -113,15 +113,15 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### 数据
 
--    **First Angle**   * 指定圆形的起始角度；此值通常为0°.
+-    **First Angle**: 指定圆形的起始角度；此值通常为0°.
 
--    **Last Angle**   * 指定圆形的结束角度；此值通常为0°。
+-    **Last Angle**: 指定圆形的结束角度；此值通常为0°。
 
--    **Radius**   * 指定圆形的半径。
+-    **Radius**: 指定圆形的半径。
 
--    **Make Face**   * 指定此工具绘制的是圆面还是圆形。如果值为`True`则创建一个面，否则仅是创建一个圆周。只有绘制完整的圆形时，本属性才会生效。
+-    **Make Face**: 指定此工具绘制的是圆面还是圆形。如果值为`True`则创建一个面，否则仅是创建一个圆周。只有绘制完整的圆形时，本属性才会生效。
 
-   *   对于完整的圆形而言，**First Angle** 与**Last Angle**应当有着相同的值；否则，显示的将是一个[弧线](Draft_Arc.md)。0°与 360°并非相同的值，因此若采用这两个值，则绘制的圆无法构成一个面。
+:   对于完整的圆形而言，**First Angle** 与**Last Angle**应当有着相同的值；否则，显示的将是一个[弧线](Draft_Arc.md)。0°与 360°并非相同的值，因此若采用这两个值，则绘制的圆无法构成一个面。
 
 
 </div>
@@ -136,9 +136,9 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### 视图
 
--    **Pattern**   * 指定[底图图案](Draft_Pattern.md)，用它来填充圆面。只有当**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时本属性才能生效。
+-    **Pattern**: 指定[底图图案](Draft_Pattern.md)，用它来填充圆面。只有当**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时本属性才能生效。
 
--    **Pattern Size**   * 指定[底图图案的大小](Draft_Pattern.md)。
+-    **Pattern Size**: 指定[底图图案的大小](Draft_Pattern.md)。
 
 
 </div>
@@ -151,7 +151,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 ## 脚本
 
 
-**参见   ***
+**参见:**
 
 [Draft API](Draft_API.md) 与 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
 

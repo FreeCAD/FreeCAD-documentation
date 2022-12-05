@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std HideSelection
-   Name/pl   *Std   * Ukryj zaznaczone
-   MenuLocation   *Widok → Widoczność → Ukryj zaznaczone
-   Workbenches   *wszystkie
-   SeeAlso   *[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+- GuiCommand:/pl
+   Name:Std HideSelection
+   Name/pl:Std: Ukryj zaznaczone
+   MenuLocation:Widok → Widoczność → Ukryj zaznaczone
+   Workbenches:wszystkie
+   SeeAlso:[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std HideSelection/pl
@@ -16,7 +16,7 @@ Polecenie **Ukryj zaznaczone** ukrywa widoczność wybranych obiektów w oknie [
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz z menu opcję **Widok → Widoczność → <img src="images/Std_HideSelection.svg" width=16px> Ukryj zaznaczone**.
     -   Wybierz opcję z menu kontekstowego **<img src="images/Std_HideSelection.svg" width=16px> Ukryj zaznaczone** [Widoku drzewa](Tree_view/pl.md). Opcja ta nie jest dostępna w środowisku pracy [Projekt Części](PartDesign_Workbench/pl.md).
 
@@ -31,7 +31,7 @@ Polecenie **Ukryj zaznaczone** ukrywa widoczność wybranych obiektów w oknie [
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

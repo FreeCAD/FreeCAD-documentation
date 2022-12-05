@@ -7,7 +7,7 @@ The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this pag
 
  ![](images/Navigation_Cube_Example.png ) 
 
-The Navigation Cube consists of a number of parts   *
+The Navigation Cube consists of a number of parts:
 
 -   The [main cube](#Main_cube.md)
 -   Six [directional arrows](#Directional_arrows.md)
@@ -21,11 +21,11 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces   * 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces: 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 ### Directional arrows 
 
-There are six directional arrows   * four triangular arrowheads and two curved arrows. Clicking one of the triangular arrows will rotate the [3D view](3D_view.md) around a line perpendicular to the direction of the arrow. Clicking a curved arrow will rotate the [3D view](3D_view.md) around the view direction.
+There are six directional arrows: four triangular arrowheads and two curved arrows. Clicking one of the triangular arrows will rotate the [3D view](3D_view.md) around a line perpendicular to the direction of the arrow. Clicking a curved arrow will rotate the [3D view](3D_view.md) around the view direction.
 
 ### Reverse view button 
 
@@ -33,15 +33,15 @@ Clicking the round button in the top right corner of the Navigation Cube will ro
 
 ### Mini-cube menu 
 
-Clicking the small cube in the bottom right corner of the Navigation Cube will bring up a menu with the following options   *
+Clicking the small cube in the bottom right corner of the Navigation Cube will bring up a menu with the following options:
 
--    **[Orthographic](Std_OrthographicCamera.md)**   * switches to an orthographic view.
+-    **[Orthographic](Std_OrthographicCamera.md)**: switches to an orthographic view.
 
--    **[Perspective](Std_PerspectiveCamera.md)**   * switches to a perspective view.
+-    **[Perspective](Std_PerspectiveCamera.md)**: switches to a perspective view.
 
--    **[Isometric](Std_ViewIsometric.md)**   * switches to an isometric view.
+-    **[Isometric](Std_ViewIsometric.md)**: switches to an isometric view.
 
--    **[Zoom to fit](Std_ViewFitAll.md)**   * zooms and pans the camera so that all visible objects fit inside the view.
+-    **[Zoom to fit](Std_ViewFitAll.md)**: zooms and pans the camera so that all visible objects fit inside the view.
 
 ## Customization
 
@@ -51,18 +51,11 @@ The entire Navigation Cube can be moved by pressing the mouse anywhere on the ma
 
 ### Preferences
 
-The Navigation Cube is controlled by several preferences   * **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+The Navigation Cube is controlled by several preferences: **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ### Advanced options 
 
 The [CubeMenu](Interface_Customization#CubeMenu.md) external workbench provides easier access to several more advanced customization options.
-
-
-
-
- 
-
-[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

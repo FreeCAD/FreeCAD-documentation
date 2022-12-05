@@ -8,7 +8,7 @@ Estas funciones son parte del módulo de Draft (Borrador) y pueden utilizarse en
 
 These functions are part of the [Draft Workbench](Draft_Workbench.md) and can be used in [macros](macros.md) and from the [Python](Python.md) console once the `Draft` module has been imported.
 
-Ejemplo   * 
+Ejemplo: 
 ```python
 import FreeCAD, Draft
 
@@ -82,14 +82,6 @@ Draft.move(myrect, mydistance)
 
 
 {{APIFunction/es|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|Crea una representación SVG de los objetos dados. El atributo linemodifier es un factor de escala (en porcentajes) para el ancho de línea, y textmodifier para la altura del texto. También puedes opcionalmente proporcionar una tupla de vectores para definir una proyección plana, en otro caso la geometrís se proyectará sobre el plano XY.|Una cadena de texto conteniendo una representación SVG del objeto dado.}}
-
-
- 
-
-
-
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

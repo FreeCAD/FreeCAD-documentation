@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Sketcher Circles
-   Name/ru   *Создать окружность
-   Icon   *Sketcher_CompCreateCircle.png
-   MenuLocation   *Нет (только на панели инструментов)
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+- GuiCommand:/ru
+   Name:Sketcher Circles
+   Name/ru:Создать окружность
+   Icon:Sketcher_CompCreateCircle.png
+   MenuLocation:Нет (только на панели инструментов)
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CompCreateCircle/ru
@@ -18,8 +18,8 @@
 
 ## Типы окружностей 
 
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Создать окружность](Sketcher_CreateCircle/ru.md)    * Создать окружность, по двум точкам   * центру и радиусу.
--   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Создать окружность по трём точкам](Sketcher_Create3PointCircle/ru.md)    * Создать окружность, по трём точкам касательным окружности.
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Создать окружность](Sketcher_CreateCircle/ru.md) : Создать окружность, по двум точкам: центру и радиусу.
+-   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Создать окружность по трём точкам](Sketcher_Create3PointCircle/ru.md) : Создать окружность, по трём точкам касательным окружности.
 
 
 

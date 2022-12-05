@@ -1,6 +1,6 @@
 # PartDesign Revolution/it
 ---
-- GuiCommand   */it   Name   *PartDesign Revolution   Name/it   *Rivoluzione   MenuLocation   *PartDesign → Rivoluzione   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:/it   Name:PartDesign Revolution   Name/it:Rivoluzione   MenuLocation:PartDesign → Rivoluzione   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
 
 </div>
@@ -22,7 +22,7 @@ Lo strumento **Rivoluzione** crea un solido ruotando uno schizzo selezionato o u
 
 <div class="mw-translate-fuzzy">
 
-*Sopra   * lo schizzo (A) è ruotato di 270 gradi in senso antiorario attorno all\'asse (B); a destra è mostrato il solido risultante (C).*
+*Sopra: lo schizzo (A) è ruotato di 270 gradi in senso antiorario attorno all\'asse (B); a destra è mostrato il solido risultante (C).*
 
 
 </div>
@@ -63,12 +63,12 @@ Durante la creazione di una rivoluzione, il dialogo **Parametri rivoluzione** pe
 |                                                                                  | |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               | |
 |                                                                                  | |                                                                                        | Questa opzione specifica l\'asse attorno al quale deve essere ruotato lo schizzo.                                                                                                                                                                                                                                                                                                                             | |
 |                                                                                  | |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               | |
-|                                                                                  | |                                                                                        | -   **Asse verticale dello schizzo**   * seleziona l\'asse verticale dello schizzo.                                                                                                                                                                                                                                                                                                                              | |
-|                                                                                  | |                                                                                        | -   **Asse orizzontale dello schizzo**   * seleziona l\'asse orizzontale dello schizzo.                                                                                                                                                                                                                                                                                                                          | |
-|                                                                                  | |                                                                                        | -   **Sketch axis**   * v0.16 e precedenti seleziona una linea di costruzione contenuta nello schizzo utilizzato da Rivoluzione. La prima linea di costruzione creata nello schizzo viene etichettata *Schizzo asse 0*. L\'elenco a discesa contiene un asse dello schizzo personalizzato per ogni linea di costruzione.                    | |
-|                                                                                  | |                                                                                        | -   **Linea di costruzione**   * v0.17 e successive seleziona una linea di costruzione contenuta nello schizzo utilizzato da Rivoluzione. L\'elenco a discesa contiene una voce per ogni linea di costruzione. La prima linea di costruzione creata nello schizzo verrà etichettata *Linea di costruzione 1*.                              | |
-|                                                                                  | |                                                                                        | -   **Asse (X/Y/Z) di base**   * v0.17 e successive seleziona l\'asse X, Y o Z dell\'origine del corpo;                                                                                                                                                                                                                                    | |
-|                                                                                  | |                                                                                        | -   **Seleziona riferimento\...**   * v0.17 e successive consente di selezionre un bordo del corpo o una [linea di riferimento](PartDesign_Line/it.md) nella vista 3D.                                                                                                                                                             | |
+|                                                                                  | |                                                                                        | -   **Asse verticale dello schizzo**: seleziona l\'asse verticale dello schizzo.                                                                                                                                                                                                                                                                                                                              | |
+|                                                                                  | |                                                                                        | -   **Asse orizzontale dello schizzo**: seleziona l\'asse orizzontale dello schizzo.                                                                                                                                                                                                                                                                                                                          | |
+|                                                                                  | |                                                                                        | -   **Sketch axis**: v0.16 e precedenti seleziona una linea di costruzione contenuta nello schizzo utilizzato da Rivoluzione. La prima linea di costruzione creata nello schizzo viene etichettata *Schizzo asse 0*. L\'elenco a discesa contiene un asse dello schizzo personalizzato per ogni linea di costruzione.                    | |
+|                                                                                  | |                                                                                        | -   **Linea di costruzione**: v0.17 e successive seleziona una linea di costruzione contenuta nello schizzo utilizzato da Rivoluzione. L\'elenco a discesa contiene una voce per ogni linea di costruzione. La prima linea di costruzione creata nello schizzo verrà etichettata *Linea di costruzione 1*.                              | |
+|                                                                                  | |                                                                                        | -   **Asse (X/Y/Z) di base**: v0.17 e successive seleziona l\'asse X, Y o Z dell\'origine del corpo;                                                                                                                                                                                                                                    | |
+|                                                                                  | |                                                                                        | -   **Seleziona riferimento\...**: v0.17 e successive consente di selezionre un bordo del corpo o una [linea di riferimento](PartDesign_Line/it.md) nella vista 3D.                                                                                                                                                             | |
 |                                                                                  | |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                               | |
 |                                                                                  | |                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                     | |
 |                                                                                  | |                                                                                        | </div>                                                                                                                                                                                                                                                                                                                                                                                                        | |
@@ -110,22 +110,22 @@ Durante la creazione di una rivoluzione, il dialogo **Parametri rivoluzione** pe
 
 Sotto sono riportate le proprietà che possono essere definite dopo la creazione della funzione. Le proprietà *Base* e *Axis* non sono editabili.
 
--    {{PropertyData/it|Angle}}   * angolo di rotazione. vedere [Angolo](#Angolo.md).
+-    {{PropertyData/it|Angle}}: angolo di rotazione. vedere [Angolo](#Angolo.md).
 
--    {{PropertyData/it|Label}}   * etichetta data all\'operazione, può essere cambiata a piacere.
+-    {{PropertyData/it|Label}}: etichetta data all\'operazione, può essere cambiata a piacere.
 
--    {{PropertyData/it|Midplane}}   * true o false. Vedere [Simmetrica al piano](#Simmetrica_al_piano.md).
+-    {{PropertyData/it|Midplane}}: true o false. Vedere [Simmetrica al piano](#Simmetrica_al_piano.md).
 
--    {{PropertyData/it|Reversed}}   * true o false. Vedere [Invertita](#Invertita.md).
+-    {{PropertyData/it|Reversed}}: true o false. Vedere [Invertita](#Invertita.md).
 
--    {{PropertyData/it|Refine}}   * v0.17 e successive true o false. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
+-    {{PropertyData/it|Refine}}: v0.17 e successive true o false. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
 
 ## Esempi
 
 
 <div class="mw-translate-fuzzy">
 
-![Esempio di Rivoluzione creata utilizzando una linea di costruzione come asse di rivoluzione   * In questa immagine l\'angolo è di 75° e la rivoluzione è attorno alla linea di costruzione (Sketch axis 0)](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg ) 
+![Esempio di Rivoluzione creata utilizzando una linea di costruzione come asse di rivoluzione: In questa immagine l\'angolo è di 75° e la rivoluzione è attorno alla linea di costruzione (Sketch axis 0)](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg ) 
 
 
 </div>
@@ -137,7 +137,7 @@ Sotto sono riportate le proprietà che possono essere definite dopo la creazione
 
 ## Link utili 
 
-Un [esempio](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3674) dettagliato di utlizzo disponibile nel forum.
+Un [esempio](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) dettagliato di utlizzo disponibile nel forum.
 
 
 </div>

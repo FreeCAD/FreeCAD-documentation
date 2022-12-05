@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/5/51/SelectVisible.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/5/51/SelectVisible.png ToolBar Icon]
 }}
 
 ## Description
@@ -22,7 +22,7 @@ Copy the macro in your macros\' folder and run (see [How to install macros](How_
 
 ## Code
 
-The latest version of the macro is to be found at <https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
+The latest version of the macro is to be found at <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
 
  ToolBar Icon ![](images/SelectVisible.png )
 
@@ -31,8 +31,8 @@ The latest version of the macro is to be found at <https   *//github.com/FreeCAD
 
 __Name__ = 'Select Visible'
 __Comment__ = 'All visible objects in the tree will be selected'
-__Web__ = 'http   *//www.freecadweb.org/wiki/Macro_SelectVisible'
-__Wiki__ = 'http   *//www.freecadweb.org/wiki/Macro_SelectVisible'
+__Web__ = 'http://www.freecadweb.org/wiki/Macro_SelectVisible'
+__Wiki__ = 'http://www.freecadweb.org/wiki/Macro_SelectVisible'
 __Icon__ = 'SelectVisible.svg'
 __Help__ = 'All visible objects in the tree and only these will be selected'
 __Author__ = 'galou_breizh'
@@ -45,12 +45,12 @@ import FreeCADGui as Gui
 
 doc = App.activeDocument()
 
-if not doc   *
-    App.Console.PrintWarning('SelectVisible   * no active document')
-else   *
+if not doc:
+    App.Console.PrintWarning('SelectVisible: no active document')
+else:
     Gui.Selection.clearSelection()
-    for o in doc.Objects   *
-        if o.ViewObject.Visibility   *
+    for o in doc.Objects:
+        if o.ViewObject.Visibility:
             Gui.Selection.addSelection(o)
 }}
 

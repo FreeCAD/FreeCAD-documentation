@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *FEM MaterialSolid
-   MenuLocation   *Model → Materials → Material for solid
-   Workbenches   *[FEM](FEM_Workbench.md)
-   Shortcut   ***M** **S**
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM MaterialSolid
+   MenuLocation:Model → Materials → Material for solid
+   Workbenches:[FEM](FEM_Workbench.md)
+   Shortcut:**M** **S**
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MaterialSolid/pl
@@ -18,10 +18,10 @@ Adds material properties to a part.
 
 ## Usage
 
-1.  To create a new MaterialSolid object do one of the following   *
+1.  To create a new MaterialSolid object do one of the following:
     -   Press the **<img src="images/FEM_MaterialSolid.svg" width=16px> [FEM MaterialSolid](FEM_MaterialSolid.md)** button.
     -   Select the **Model → Materials → <img src="images/FEM_MaterialSolid.svg" width=16px> Material for solid‏‎** option from the menu.
-2.  To edit an existing MaterialSolid object   *
+2.  To edit an existing MaterialSolid object:
     -   Double-click it in the [Tree view](Tree_view.md).
 3.  The FEM material task panel opens.
 4.  Select a material. For engineering mechanical analysis, **CalculiX-Steel** is a typical option.
@@ -32,7 +32,7 @@ Adds material properties to a part.
 
 ## Notes
 
-1.  The mechanical material uses the \*MATERIAL card in CalculiX. Details about the mechanical material is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
+1.  The mechanical material uses the \*MATERIAL card in CalculiX. Details about the mechanical material is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
 

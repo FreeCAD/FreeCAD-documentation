@@ -3,7 +3,7 @@
 
 ## Описание
 
-[Portable Document Format](https   *//en.wikipedia.org/wiki/PDF) (PDF) is a file format developed by Adobe in the 1990s to present documents, including text and images.
+[Portable Document Format](https://en.wikipedia.org/wiki/PDF) (PDF) is a file format developed by Adobe in the 1990s to present documents, including text and images.
 
 PDF is based on the PostScript language, which is a vector-based format to describe pages. In this sense it\'s similar to [SVG](SVG.md), as it allows scaling a drawing to any size without losing its shape or amount of details.
 
@@ -19,14 +19,9 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
 
 ## Related
 
--   See also   * <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export.md) and <img alt="" src=images/Std_PrintPdf.svg  style="width   *24px;"> [Std PrintPdf](Std_PrintPdf.md).
+-   See also: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) and <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [Std PrintPdf](Std_PrintPdf.md).
 
 -   For [power users](Power_users_hub.md), there is an option to utilize the [Python console](Python_console.md) to export a PDF.
-
-
-
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

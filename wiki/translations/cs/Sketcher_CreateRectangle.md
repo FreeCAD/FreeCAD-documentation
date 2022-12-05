@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/cs
 ---
-- GuiCommand   */cs   Name   *Sketcher CreateRectangle   Name/cs   *Skicář Obdélník   Workbenches   *[Shortcut   *R   MenuLocation   *Náčrt → Skicář Konstrukce → Vytvořit Obdélník   SeeAlso   *[[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:/cs   Name:Sketcher CreateRectangle   Name/cs:Skicář Obdélník   Workbenches:[Shortcut:R   MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit Obdélník   SeeAlso:[[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>

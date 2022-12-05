@@ -11,9 +11,5 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Complete](Category_Complete.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Complete](Category_Complete.md) > Artwork Complete/de

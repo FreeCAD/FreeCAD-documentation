@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   */es   Topic   *Modeling   Level   *Beginner   Author   *HarryGeier ([[User   *HarryGeier   HarryGeier]])|Time   *Less than an hour   FCVersion   *0.17 or higher   Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+- TutorialInfo:/es   Topic:Modeling   Level:Beginner   Author:HarryGeier ([[User:HarryGeier   HarryGeier]])|Time:Less than an hour   FCVersion:0.17 or higher   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
 ---
 
 # Basic Part Design Tutorial/es
@@ -24,7 +24,7 @@ Este tutorial presenta al nuevo usuario algunas de las herramientas y técnicas 
 
 ![](images/Tut17_final_refined.png )
 
-Un video de todo el proceso esta aquí   * <https   *//youtu.be/geIrH1cOCzc>
+Un video de todo el proceso esta aquí: <https://youtu.be/geIrH1cOCzc>
 
 
 <div class="mw-translate-fuzzy">
@@ -73,26 +73,26 @@ Primero, asegúrese de estar en el Anbiente de trabajo Part Design. Una vez all�
 
 Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego construiremos el sólido dentro del cuerpo comenzando con un [sketch](Glossary#Sketch.md).  
 
-1.  Haga clic en ![ 32px](images/_PartDesign_Body.png ) [Create new body](PartDesign_Body.md) para crear y activar un nuevo contenedor de cuerpo. \"Nota   * este paso puede ser omitido. Al crear un boceto, si no se encuentra un cuerpo existente, se creará y activará automáticamente uno nuevo\".
-2.  Haga clic en <img alt="" src=images/PartDesign_NewSketch.png  style="width   *32px;"> [Create new sketch](PartDesign_NewSketch.md). Esto creará el boceto/sketch dentro del cuerpo recién creado.
+1.  Haga clic en ![ 32px](images/_PartDesign_Body.png ) [Create new body](PartDesign_Body.md) para crear y activar un nuevo contenedor de cuerpo. \"Nota: este paso puede ser omitido. Al crear un boceto, si no se encuentra un cuerpo existente, se creará y activará automáticamente uno nuevo\".
+2.  Haga clic en <img alt="" src=images/PartDesign_NewSketch.png  style="width:32px;"> [Create new sketch](PartDesign_NewSketch.md). Esto creará el boceto/sketch dentro del cuerpo recién creado.
 3.  Necesitamos definir dónde se adjuntará el boceto/sketch. Lo adjuntaremos a un plano desde el [Origin](Glossary#Origin.md) del Cuerpo.
-4.  En la pestaña Tareas de la vista Combo, seleccione **YZ_Plane** en la lista y presione {{KEY | OK}}   *
+4.  En la pestaña Tareas de la vista Combo, seleccione **YZ_Plane** en la lista y presione {{KEY | OK}}:
 
 
 </div>
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
-*Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
+1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
+*Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
+2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**:
 
-<img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
+<img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
 
 <div class="mw-translate-fuzzy">
 
-\"Nota   * es posible que el botón OK no esté visible si el panel lateral no es lo suficientemente ancho. Puede hacerlo más ancho arrastrando su borde derecho. Coloque el puntero del mouse sobre el borde; cuando el puntero se convierta en una flecha bidireccional, mantenga presionado el botón izquierdo del mouse y arrastre\".
+\"Nota: es posible que el botón OK no esté visible si el panel lateral no es lo suficientemente ancho. Puede hacerlo más ancho arrastrando su borde derecho. Coloque el puntero del mouse sobre el borde; cuando el puntero se convierta en una flecha bidireccional, mantenga presionado el botón izquierdo del mouse y arrastre\".
 
 
 </div>
@@ -100,7 +100,7 @@ Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego c
 
 <div class="mw-translate-fuzzy">
 
-Una vez que hace clic en Aceptar, FreeCAD cambia automáticamente a [ Sketcher workbench](Sketcher_Workbench.md) y abre el boceto/sketch en modo de edición   *
+Una vez que hace clic en Aceptar, FreeCAD cambia automáticamente a [ Sketcher workbench](Sketcher_Workbench.md) y abre el boceto/sketch en modo de edición:
 
 
 </div>
@@ -119,13 +119,13 @@ A continuación, deberá usar la herramienta ![ 32px](images/_Sketcher_CreatePol
 
 </div>
 
-*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+*NOTE: Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Seleccione las dos líneas horizontales con el mouse haciendo clic en ellas, y una vez seleccionada, haga clic en la restricción horizontal ![ 32px](images/_Constraint_Horizontal.png ).
-2.  Seleccione la línea vertical a la derecha y luego haga clic en la restricción vertical <img alt="" src=images/Constraint_Vertical.png  style="width   *32px;">.
+2.  Seleccione la línea vertical a la derecha y luego haga clic en la restricción vertical <img alt="" src=images/Constraint_Vertical.png  style="width:32px;">.
 3.  Seleccione los puntos de inicio y fin de su polilínea y haga clic en la restricción de coincidencia ![ 32px](images/_Constraint_PointOnPoint.png ) para cerrar la polilínea.
 4.  Seleccione la línea horizontal inferior y la línea vertical derecha y aplique ![ 32px](images/_Constraint_EqualLength.png ) restricción de igualdad.
 5.  Seleccione la línea horizontal o vertical y aplique la correspondiente restricción de distancia vertical ![ 32px](images/_Constraint_HorizontalDistance.png ) horizontal o ![ 32px](images/_Constraint_VerticalDistance.png ) y asígnele un valor de 26 mm .
@@ -147,7 +147,7 @@ Ahora en la vista combinada, haga clic en el botón Cerrar para salir del modo d
 
 </div>
 
-Un video de los pasos utilizados en esta parte del tutorial está aquí   * <https   *//youtu.be/cUyPnCMeTgg>
+Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/cUyPnCMeTgg>
 
 ### Features with pocket and external geometry 
 
@@ -184,7 +184,7 @@ Después de seleccionar la cara, haga clic en el ícono Nuevo boceto en la barra
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Right click to end the External geometry mode
-2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Constrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
+2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Constrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
 
 ![](images/tut17_slote_constrained.png )
 
@@ -199,14 +199,14 @@ Una vez hecho esto, haga clic en el botón Cerrar en la parte superior de la pes
 
 <div class="mw-translate-fuzzy">
 
-Para la próxima operación, asegúrese de que esté seleccionado \"Pocket/hueco\" en la vista Model tree y, una vez hecho, haga clic en <img alt="" src=images/PartDesign_Mirrored.png  style="width   *32px;"> la función Espejo en la barra de herramientas o desde el menú Part Design. En el cuadro de diálogo Espejo en el Combo View, seleccione Eje de boceto horizontal en el Plane pulldown menu. Luego haz clic en OK. La función Mirror funciona de esta manera porque la característica base de nuestro modelo fue implementada en ambos sentidos desde el plano horizontal en la primera operación con el boceto base. Si todo ha ido bien, ahora deberías tener una parte que se parece a la imagen de abajo después de que orbites alrededor del frente.
+Para la próxima operación, asegúrese de que esté seleccionado \"Pocket/hueco\" en la vista Model tree y, una vez hecho, haga clic en <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> la función Espejo en la barra de herramientas o desde el menú Part Design. En el cuadro de diálogo Espejo en el Combo View, seleccione Eje de boceto horizontal en el Plane pulldown menu. Luego haz clic en OK. La función Mirror funciona de esta manera porque la característica base de nuestro modelo fue implementada en ambos sentidos desde el plano horizontal en la primera operación con el boceto base. Si todo ha ido bien, ahora deberías tener una parte que se parece a la imagen de abajo después de que orbites alrededor del frente.
 
 
 </div>
 
 ![](images/tut17_profilewithslots.png )
 
-Un video de los pasos utilizados en esta parte del tutorial está aquí   * <https   *//youtu.be/wiGXV9G7mrM>
+Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/wiGXV9G7mrM>
 
 ### Features with pad and external geometry 
 
@@ -244,7 +244,7 @@ Una vez más, use la función Espejo para obtener la segunda pad. Primero asegú
 
 ![](images/tut17_profilewithsideblocks.png )
 
-Un video de los pasos utilizados en esta parte del tutorial está aquí   * <https   *//youtu.be/Ido1owp8ubc>
+Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/Ido1owp8ubc>
 
 ### Feature with pocket and external geometry 
 
@@ -295,7 +295,7 @@ En este punto, si tuviéramos que simplemente ahuecar este boceto, el orificio r
 
 Queremos que el orificio sea perpendicular a la cara posterior, pero las dimensiones proyectadas no son las dimensiones de 17 mm x 17 mm que se dan en el dibujo. Ahora, podemos hacer los cálculos y calcular las dimensiones necesarias, o podemos usar las herramientas provistas en FreeCAD para hacer esa proyección para nosotros.
 
-Un video de los pasos utilizados en esta parte del tutorial está aquí   * <https   *//youtu.be/x4d5nZPWCLQ>
+Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/x4d5nZPWCLQ>
 
 
 <div class="mw-translate-fuzzy">
@@ -338,13 +338,13 @@ En este punto, verá algunas líneas que provienen de las características de in
 
 ![](images/Tut17_refine.png ) ![](images/Tut17_final_refined.png )
 
-Un video de estos pasos del tutorial está aquí   * <https   *//youtu.be/UYI0gvxCYeI>
+Un video de estos pasos del tutorial está aquí: <https://youtu.be/UYI0gvxCYeI>
 
 Este tutorial y tu modelo están completos.
 
 ## Recursos Adicionales 
 
--   Archivo de FreeCAD para comparación (hecho con 0.17) [Descarga](https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
+-   Archivo de FreeCAD para comparación (hecho con 0.17) [Descarga](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)
 
 
 {{PartDesign Tools navi

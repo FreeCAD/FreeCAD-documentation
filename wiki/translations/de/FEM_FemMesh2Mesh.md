@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM FemMesh2Mesh
-   Name/de   *FEM FemNetzZuNetz
-   MenuLocation   *Mesh → FEM mesh to mesh
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM FemMesh2Mesh
+   Name/de:FEM FemNetzZuNetz
+   MenuLocation:Mesh → FEM mesh to mesh
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM FemMesh2Mesh/de
@@ -17,15 +17,15 @@ This tool converts surfaces of 3D elements of a selected FEM mesh to mesh, or co
 
 1.  Ein FEM-mesh-Objekt auswählen
 2.  Optionally also select the FEM results.
-3.  Es gibt mehrereMöglichkeiten den Befehl aufzurufen   *
+3.  Es gibt mehrereMöglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [FEM-Netz zu Netz](FEM_FemMesh2Mesh/de.md)** drücken.
     -   Den Menüeintrag **Netz → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> FEM-Netz zu Netz** auswählen.
 
 ## Skripten
 
-**Note**   * The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
+**Note**: The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
 
-When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code   *
+When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 
 
 ```python
@@ -37,7 +37,7 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-The cantilever example   *
+The cantilever example:
 
 
 ```python

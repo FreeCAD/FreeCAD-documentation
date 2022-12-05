@@ -1,11 +1,11 @@
-# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width   *64px;"> Std Windows Menu/ru
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Windows Menu/ru
 
 
 {{TOCright}}
 
 ## Введение
 
-Меню \"Окна\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md)   *
+Меню \"Окна\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md):
 
 
 {{StdMenu
@@ -29,19 +29,19 @@
 
 ## Инструменты
 
-В этом меню доступны следующие инструменты   *
+В этом меню доступны следующие инструменты:
 
--   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width   *32px;"> [Следующее](Std_ActivateNextWindow/ru.md)   * Активирует следующее окно.
+-   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Следующее](Std_ActivateNextWindow/ru.md): Активирует следующее окно.
 
--   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width   *32px;"> [Предыдущее](Std_ActivatePrevWindow/ru.md)   * Активирует предыдущее окно.
+-   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Предыдущее](Std_ActivatePrevWindow/ru.md): Активирует предыдущее окно.
 
--   <img alt="" src=images/Std_TileWindows.svg  style="width   *32px;"> [Плиткой](Std_TileWindows/ru.md)   * Располагает окна \"плиткой\".
+-   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Плиткой](Std_TileWindows/ru.md): Располагает окна \"плиткой\".
 
--   <img alt="" src=images/Std_CascadeWindows.svg  style="width   *32px;"> [Каскад](Std_CascadeWindows/ru.md)   * Располагает окна каскадом.
+-   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Каскад](Std_CascadeWindows/ru.md): Располагает окна каскадом.
 
--   [Упорядочить иконки](Std_ArrangeIcons/ru.md)   * Упорядочивает иконки (Устаревшая команда).
+-   [Упорядочить иконки](Std_ArrangeIcons/ru.md): Упорядочивает иконки (Устаревшая команда).
 
--   [Окна\...](Std_Windows/ru.md)   * Открывает список окон доступных для выбора.
+-   [Окна\...](Std_Windows/ru.md): Открывает список окон доступных для выбора.
 
 
 
@@ -49,9 +49,7 @@
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

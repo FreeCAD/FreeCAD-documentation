@@ -1,12 +1,12 @@
 ---
-- GuiCommand   *
-   Name   *FEM ConstraintElectrostaticPotential
-   Name/ru   *FEM ConstraintElectrostaticPotential
-   Icon   *Fem-constraint-electrostatic-potential.svg
-   MenuLocation   * Model → Electrostatic Constraints → Constraint Electrostatic Potential
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:
+   Name:FEM ConstraintElectrostaticPotential
+   Name/ru:FEM ConstraintElectrostaticPotential
+   Icon:Fem-constraint-electrostatic-potential.svg
+   MenuLocation: Model → Electrostatic Constraints → Constraint Electrostatic Potential
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintElectrostaticPotential/ru
@@ -29,15 +29,15 @@ Creates a FEM constraint for the electrostatic potential. To be used together wi
 
 ## Опции
 
-The dialog offers the following settings   *
+The dialog offers the following settings:
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 
--   **Potential**   * The electric potential in V.
--   **Potential Constant**   * Option to set a constant potential.
--   **Farfield / Electric infinity**   * Option to make spherical approximation that the volume above the face extends to infinity.
--   **Calculate Electric Force**   * Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
--   **Capacity Body   ***   * Counter of the body (or face) with a capacitance.
+-   **Potential**: The electric potential in V.
+-   **Potential Constant**: Option to set a constant potential.
+-   **Farfield / Electric infinity**: Option to make spherical approximation that the volume above the face extends to infinity.
+-   **Calculate Electric Force**: Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
+-   **Capacity Body:**: Counter of the body (or face) with a capacitance.
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ViewFitSelection
-   Name/fr   *Std Affiche la sélection
-   MenuLocation   *Affichage →  Vues standards → Affiche la sélection
-   Workbenches   *Tous
-   Shortcut   ***V** **S**
-   SeeAlso   *[Std Tout afficher](Std_ViewFitAll/fr.md)
+- GuiCommand:/fr
+   Name:Std ViewFitSelection
+   Name/fr:Std Affiche la sélection
+   MenuLocation:Affichage →  Vues standards → Affiche la sélection
+   Workbenches:Tous
+   Shortcut:**V** **S**
+   SeeAlso:[Std Tout afficher](Std_ViewFitAll/fr.md)
 ---
 
 # Std ViewFitSelection/fr
@@ -17,16 +17,16 @@ La commande **Std Affiche la sélection** effectue un zoom et un panoramique sur
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewFitSelection.svg" width=16px> [Affiche le contenu de la sélection](Std_ViewFitSelection/fr.md)**.
     -   Sélectionnez l\'option **Affichage →  Vues standards → <img src="images/Std_ViewFitSelection.svg" width=16px> Affiche la sélection** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_ViewFitSelection.svg" width=16px> Affiche le contenu de la sélection** dans le menu contextuel [Vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier   * **V** then **S**.
+    -   Utilisez le raccourci clavier: **V** then **S**.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_Placement
-   Name/it   *Posizionamento
-   MenuLocation   *Modifica → Posizionamento...
-   Workbenches   *Tutti
-   SeeAlso   *[Allinea](Std_Alignment/it.md), [Azioni di posizionamento](Tasks_Placement/it.md), [Posizionamento](Placement/it.md)
+- GuiCommand:/it
+   Name:Std_Placement
+   Name/it:Posizionamento
+   MenuLocation:Modifica → Posizionamento...
+   Workbenches:Tutti
+   SeeAlso:[Allinea](Std_Alignment/it.md), [Azioni di posizionamento](Tasks_Placement/it.md), [Posizionamento](Placement/it.md)
 ---
 
 # Std Placement/it
@@ -27,7 +27,7 @@ Il comando **Posizionamento** visualizza la [scheda azioni](Task_panel/it.md) pe
 1.  Selezionare un singolo oggetto. L\'oggetto deve avere una [proprietà](Property_editor/it.md) **Placement**.
 2.  Selezionare l\'opzione **Modifica → Posizionamento...** dal menu.
 3.  Modificare uno o più parametri di traslazione e rotazione.
-4.  Effettuare una delle seguenti operazioni   *
+4.  Effettuare una delle seguenti operazioni:
     -   Premere il pulsante **OK** per applicare le modifiche e chiudere il pannello delle azioni.
     -   Premere il pulsante **Applica** per applicare le modifiche, ma tenere aperto il pannello delle azioni per ulteriori modifiche.
 
@@ -50,20 +50,20 @@ The dialog can also be launched by clicking on the ellipsis button **...** that 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
 Vedere il [tutorial di script Python](Python_scripting_tutorial/it#Vettori_e_posizionamenti.md).
 
-A placement is internally defined by a matrix; in many cases it is simpler to represent it by means of two components, a `Base` point (vector), and a `Rotation` value. The `Rotation` itself has different representations; it can be entirely defined by the value of a \"[quaternion](https   *//en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, but it can also be described by a rotation `Axis` (unit vector) and a rotation `Angle` (radians).
+A placement is internally defined by a matrix; in many cases it is simpler to represent it by means of two components, a `Base` point (vector), and a `Rotation` value. The `Rotation` itself has different representations; it can be entirely defined by the value of a \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, but it can also be described by a rotation `Axis` (unit vector) and a rotation `Angle` (radians).
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part   *   *Cylinder", "Cylinder")
+obj = doc.addObject("Part::Cylinder", "Cylinder")
 
 print(obj.Placement)
 # Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]

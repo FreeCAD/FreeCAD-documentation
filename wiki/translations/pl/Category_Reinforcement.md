@@ -1,5 +1,5 @@
 # Category:Reinforcement/pl
-[Category   *Arch](Category_Arch.md) [Category   *Workbenches](Category_Workbenches.md)
+
 
 ### Contents
 

@@ -42,9 +42,7 @@ This GSoC project idea aims to add specific functionality to take advantage of R
 
 Medium
 
-### Additional Information 
-
-[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md) [Category   *Path](Category_Path.md) [Category   *Robot](Category_Robot.md)
+### Additional Information
 
 
 

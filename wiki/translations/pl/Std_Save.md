@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Save
-   Name/pl   *Std   * Zapisz
-   MenuLocation   *Plik → Zapisz
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl** + **S**
-   SeeAlso   *[Zapisz jako ...](Std_SaveAs/pl.md), [Zapisz jako kopię...](Std_SaveCopy/pl.md), [Zapisz wszystkie](Std_SaveAll/pl.md)
+- GuiCommand:/pl
+   Name:Std Save
+   Name/pl:Std: Zapisz
+   MenuLocation:Plik → Zapisz
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **S**
+   SeeAlso:[Zapisz jako ...](Std_SaveAs/pl.md), [Zapisz jako kopię...](Std_SaveCopy/pl.md), [Zapisz wszystkie](Std_SaveAll/pl.md)
 ---
 
 # Std Save/pl
@@ -16,15 +16,15 @@ Polecenie **Zapisz** powoduje zapisanie aktywnego dokumentu.
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_Save.svg" width=16px> [Zapisz](Std_Save.md)**.
     -   Wybierz z menu opcję **Plik → <img src="images/Std_Save.svg" width=16px> Zapisz ...** opcję z menu.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **S**.
-2.  W przypadku nowych dokumentów   * wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **S**.
+2.  W przypadku nowych dokumentów: wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
 
 ## Opcje
 
--   W przypadku zapisywania nowego dokumentu   * naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+-   W przypadku zapisywania nowego dokumentu: naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
 ## Uwagi
 
@@ -32,12 +32,12 @@ Polecenie **Zapisz** powoduje zapisanie aktywnego dokumentu.
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

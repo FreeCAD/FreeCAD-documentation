@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ko
-   Name   *Std Placement
-   Name/ko   *표준 배치
-   MenuLocation   *편집 → 위치 설정...
-   Workbenches   *모두
-   SeeAlso   *[표준 정렬](Std_Alignment/ko.md), [배치 작업](Tasks_Placement/ko.md), [배치](Placement/ko.md)
+- GuiCommand:/ko
+   Name:Std Placement
+   Name/ko:표준 배치
+   MenuLocation:편집 → 위치 설정...
+   Workbenches:모두
+   SeeAlso:[표준 정렬](Std_Alignment/ko.md), [배치 작업](Tasks_Placement/ko.md), [배치](Placement/ko.md)
 ---
 
 # Std Placement/ko
@@ -24,7 +24,7 @@
 1.  [속성 편집기에](Property_editor/ko.md) **Placement** 속성이 있는 단일 개체를 선택합니다.
 2.  메뉴에서 **편집 → 배치...** 옵션을 선택합니다.
 3.  이동 과 회전 파라미터를 변경합니다.
-4.  다음 중 하나를 수행합니다   *
+4.  다음 중 하나를 수행합니다:
     -   변경 사항을 적용하고 작업 패널을 닫으려면 **확인** 버튼을 누르십시오.
     -   변경 사항을 적용하되 추가 변경을 위해 작업 패널을 열어두려면 **적용** 버튼을 누르십시오.
 5.  작업을 중지하려면 **Esc** 키나 **취소** 버튼을 누르십시오. 적용하지 않은 변경 사항은 모두 실행 취소됩니다.
@@ -44,20 +44,20 @@
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 
 [파이썬 스크립트 자습서를](Python_scripting_tutorial/ko#벡터_및_배치.md) 참조하십시오.
 
-배치는 내부적으로 매트릭스로 정의됩니다. 대부분의 경우 `Base` 점(벡터)과 `Rotation` 값 이라는 두 가지 구성 요소를 사용하여 표현하면 더 간단합니다. `Rotation` 자체는 다른 표현법이 있습니다. \"[사원수(quaternion)](https   *//en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`로 완전히 정의할 수 있지만 회전 `Axis` (유닛 벡터) 및 회전 `Angle` (라디안)으로 기술할 수도 있습니다.
+배치는 내부적으로 매트릭스로 정의됩니다. 대부분의 경우 `Base` 점(벡터)과 `Rotation` 값 이라는 두 가지 구성 요소를 사용하여 표현하면 더 간단합니다. `Rotation` 자체는 다른 표현법이 있습니다. \"[사원수(quaternion)](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`로 완전히 정의할 수 있지만 회전 `Axis` (유닛 벡터) 및 회전 `Angle` (라디안)으로 기술할 수도 있습니다.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part   *   *Cylinder", "Cylinder")
+obj = doc.addObject("Part::Cylinder", "Cylinder")
 
 print(obj.Placement)
 # Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]

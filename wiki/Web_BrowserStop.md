@@ -1,16 +1,16 @@
 ---
-- GuiCommand   *
-   Name   *Web BrowserStop
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso   *
+- GuiCommand:
+   Name:Web BrowserStop
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso:
 ---
 
 # Web BrowserStop
 
 ## Description
 
-Use the <img alt="" src=images/Web_BrowserStop.svg  style="width   *24px;"> **Web BrowserStop** command to stop loading the current web page.
+Use the <img alt="" src=images/Web_BrowserStop.svg  style="width:24px;"> **Web BrowserStop** command to stop loading the current web page.
 
 ## Usage
 

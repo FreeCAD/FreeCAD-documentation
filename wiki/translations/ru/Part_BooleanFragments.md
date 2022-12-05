@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Part BooleanFragments
-   Name/ru   *Part BooleanFragments
-   MenuLocation   *Деталь → Разделить → Boolean Fragments
-   Workbenches   *[Part](Part_Workbench/ru.md)
-   SeeAlso   *[Part XOR](Part_Slice/ru___Part_Slice]],_[[Part_XOR/ru.md), [Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)|Version   *0.17.8053
+- GuiCommand:/ru
+   Name:Part BooleanFragments
+   Name/ru:Part BooleanFragments
+   MenuLocation:Деталь → Разделить → Boolean Fragments
+   Workbenches:[Part](Part_Workbench/ru.md)
+   SeeAlso:[Part XOR](Part_Slice/ru___Part_Slice]],_[[Part_XOR/ru.md), [Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)|Version:0.17.8053
 ---
 
 # Part BooleanFragments/ru
@@ -34,9 +34,9 @@
 
 </div>
 
-У инструмента три режима   * \"Standard\", \"Split\", and \"CompSolid\".
+У инструмента три режима: \"Standard\", \"Split\", and \"CompSolid\".
 
-«Standard» и «Split» различаются действием инструмента на рёбра, оболочки и составные тела   * если «Split», они разделяются; если «Standard», они остаются вместе (получают дополнительные сегменты).
+«Standard» и «Split» различаются действием инструмента на рёбра, оболочки и составные тела: если «Split», они разделяются; если «Standard», они остаются вместе (получают дополнительные сегменты).
 
 Компаундная структура в режимах «Standard» и «Split» следует компаундной структуре на входе. То есть, если вы обработаете два компаунда, каждый из которых содержит сферу, как в примере выше, результат также будет содержать два компаунда, каждый из которых содержит куски изначально входившей в них сферы. Это значит, что общий кусок будет повторен в результате дважды. Только если обе входные сферы не входят в компаунды, результат будет содержать общий кусок единожды.
 
@@ -49,8 +49,8 @@
 
 1.  Выбрать объекты для пересечения.
     Порядок выделения не важен, поскольку действие инструмента симметрично. Достаточно выделить по одной подфигуре каждого объекта (например, лица). Вы также можете выбрать соединение, содержащее все соединяемые фигуры, например [Массив](Draft_Array/ru.md).
-2.  Вызвать команду Part BooleanFragments несколькими способами   *
-    -   Нажатие кнопки <img alt="" src=images/Part_BooleanFragments.svg  style="width   *24px;"> на панели инструментов
+2.  Вызвать команду Part BooleanFragments несколькими способами:
+    -   Нажатие кнопки <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> на панели инструментов
     -   Использование пункта **Деталь → Разделить → Boolean Fragments** в меню Деталь
 
 
@@ -69,18 +69,18 @@
 
 {{TitleProperty|Boolean Fragments}}
 
--    **Objects**   * список объектов для пересечения. Обычно требуется как минимум два объекта, но подойдет и одно соединение, содержащее пересекаемые формы. (начиная с FreeCAD v0.17.8053, это свойство не отображается в редакторе свойств и доступно только через Python).
+-    **Objects**: список объектов для пересечения. Обычно требуется как минимум два объекта, но подойдет и одно соединение, содержащее пересекаемые формы. (начиная с FreeCAD v0.17.8053, это свойство не отображается в редакторе свойств и доступно только через Python).
 
--    **Mode**   * «Standard», «Split» или «CompSolid». «Standard» - по умолчанию. «Standard» и «Split» отличаются действием инструмента на фигуры типа агрегирования   * если «Split», они разделяются; в противном случае они хранятся вместе (получаются дополнительные сегменты).
+-    **Mode**: «Standard», «Split» или «CompSolid». «Standard» - по умолчанию. «Standard» и «Split» отличаются действием инструмента на фигуры типа агрегирования: если «Split», они разделяются; в противном случае они хранятся вместе (получаются дополнительные сегменты).
 
--    **Tolerance**   * значение \"нечеткости\". Это дополнительный допуск, который следует применять при поиске пересечений в дополнение к допускам, сохраненным во входных формах.
+-    **Tolerance**: значение \"нечеткости\". Это дополнительный допуск, который следует применять при поиске пересечений в дополнение к допускам, сохраненным во входных формах.
 
 ## Детали реализации 
 
 
 <div class="mw-translate-fuzzy">
 
-Инструмент «Boolean Fragments» в «Стандартном режиме» - это общий оператор Fuse (GFA) из OpenCascade. Он принимает комбинацию, вероятно, всех типов фигур, а логика вывода довольно запутанная. Смотрите [Руководство пользователя OpenCascade   * логические операции](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
+Инструмент «Boolean Fragments» в «Стандартном режиме» - это общий оператор Fuse (GFA) из OpenCascade. Он принимает комбинацию, вероятно, всех типов фигур, а логика вывода довольно запутанная. Смотрите [Руководство пользователя OpenCascade: логические операции](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 
 
 </div>
@@ -89,25 +89,25 @@
 
 ## Программирование
 
-Инструмент можно использовать в [макросах](macros/ru.md) и из консоли Python, используя следующую функцию   *
+Инструмент можно использовать в [макросах](macros/ru.md) и из консоли Python, используя следующую функцию:
 
 **BOPTools.SplitFeatures.makeBooleanFragments(name)**
 
 -   Создает пустую функцию BooleanFragments. Свойство «Объекты» должно быть назначено впоследствии явно.
 -   Возвращает вновь созданный объект.
 
-BooleanFragments также может применяться к простым формам, без необходимости наличия объекта документа, с помощью   * {{code|code=
+BooleanFragments также может применяться к простым формам, без необходимости наличия объекта документа, с помощью: {{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 
-# OR, for Standard mode   *
+# OR, for Standard mode:
 
 list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
-pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1   *], tolerance)
+pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
 # pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence 
 }} Это может быть полезно для создания пользовательских сценариев Python.
 
-Пример   * {{code|code=
+Пример: {{code|code=
 import BOPTools.SplitFeatures
 j = BOPTools.SplitFeatures.makeBooleanFragments(name= 'BooleanFragments')
 j.Objects = FreeCADGui.Selection.getSelection() 

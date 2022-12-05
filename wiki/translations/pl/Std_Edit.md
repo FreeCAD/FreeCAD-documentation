@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Edit
-   Name/pl   *Edycja
-   MenuLocation   *Edycja → Przełącz tryb edycji
-   Workbenches   *Wszystkie
-   SeeAlso   *[Tryb edycji dla uzytkownika](Std_UserEditMode/pl.md)
+- GuiCommand:/pl
+   Name:Std Edit
+   Name/pl:Edycja
+   MenuLocation:Edycja → Przełącz tryb edycji
+   Workbenches:Wszystkie
+   SeeAlso:[Tryb edycji dla uzytkownika](Std_UserEditMode/pl.md)
 ---
 
 # Std Edit/pl
 
 ## Opis
 
-Polecenie **Std   * Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
+Polecenie **Std: Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
 
 ## Użycie
 
-1.  Jeśli żaden obiekt nie znajduje się w trybie edycji   * wybierz pojedynczy obiekt.
+1.  Jeśli żaden obiekt nie znajduje się w trybie edycji: wybierz pojedynczy obiekt.
 2.  Wybierz z menu **Edycja → <img src="images/Std_Edit.svg" width=16px> Przełącz tryb edycji**.
 3.  Aktywowany jest domyślny tryb edycji wybranego obiektu lub dezaktywowany dotychczasowy tryb edycji.
 
@@ -31,7 +31,7 @@ Polecenie **Std   * Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
@@ -44,7 +44,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-Drugim argumentem jest Tryb edycji. Dostępne są następujące opcje   *
+Drugim argumentem jest Tryb edycji. Dostępne są następujące opcje:
 
 0 = Domyślnie
 1 = Przekształcenie

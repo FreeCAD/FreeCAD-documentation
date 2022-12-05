@@ -1,6 +1,6 @@
 # Sketcher MapSketch/it
 ---
-- GuiCommand   */it   Name   *Sketcher MapSketch   Name/it   *Mappa Schizzo   Workbenches   *[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation   *Part design → Mappa schizzo su faccia   SeeAlso   *[Crea nuovo schizzo](Sketcher_NewSketch/it.md)---
+- GuiCommand:/it   Name:Sketcher MapSketch   Name/it:Mappa Schizzo   Workbenches:[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation:Part design → Mappa schizzo su faccia   SeeAlso:[Crea nuovo schizzo](Sketcher_NewSketch/it.md)---
 
 
 </div>
@@ -17,13 +17,13 @@ Mappa uno **Schizzo già esistente nel progetto** su una faccia planare selezion
 
 </div>
 
-Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimappa uno schizzo esistente alla faccia di un solido o di una funzione PartDesign. Casi d\'uso tipici sono   *
+Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimappa uno schizzo esistente alla faccia di un solido o di una funzione PartDesign. Casi d\'uso tipici sono:
 
 -   Lo schizzo è stato creato su un piano standard (XY, XZ, YZ) e si desidera mapparlo sulla faccia di un solido al fine di costruire una funzione su di esso.
 -   Lo schizzo è stato mappato su una faccia di un solido, ma è necessario associarlo ad una faccia diversa.
 -   Riparazione di un modello rovinato.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
 ## Utilizzo
 

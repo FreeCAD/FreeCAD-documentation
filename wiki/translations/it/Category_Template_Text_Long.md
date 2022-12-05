@@ -5,8 +5,6 @@ These templates should not be used. The long textual elements should be placed o
 
 These long pages should not be transcluded; rather, the information should be placed in a page, and other pages should link to that information.
 
-[Category   *Template/it](Category   *Template/it.md)
-
 ### Contents
 
 |     |     |     |

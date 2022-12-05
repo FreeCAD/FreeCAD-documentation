@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Assembly3 ConstraintPointsHorizontal
-   Name/fr   *Assembly3 Contrainte alignement horizontal
-   Icon   *Assembly_ConstraintPointsHorizontal.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Assembly3 ConstraintPointsHorizontal
+   Name/fr:Assembly3 Contrainte alignement horizontal
+   Icon:Assembly_ConstraintPointsHorizontal.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointsHorizontal/fr

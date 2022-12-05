@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Pipe   Name/ro   *Arch   * Pipe/Țeavă
-   MenuLocation   *Arch → Pipe Tools → Pipe
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   ***P** **I**
-   Version   *0.17
-   SeeAlso   *[Arch PipeConnector](Arch_PipeConnector/ro.md), [Arch Equipment](Arch_Equipment/ro.md)
+- GuiCommand:/ro
+   Name:Arch Pipe   Name/ro:Arch: Pipe/Țeavă
+   MenuLocation:Arch → Pipe Tools → Pipe
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:**P** **I**
+   Version:0.17
+   SeeAlso:[Arch PipeConnector](Arch_PipeConnector/ro.md), [Arch Equipment](Arch_Equipment/ro.md)
 ---
 
 # Arch Pipe/ro
@@ -50,13 +50,13 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 ## Proprietăți
 
--    **Length**   * Setează lungimea acestei țevi,când nu se bazează pe un filament
+-    **Length**: Setează lungimea acestei țevi,când nu se bazează pe un filament
 
--    **Diameter**   * Diametrul acestei țevi, când nu se bazează pe un profil
+-    **Diameter**: Diametrul acestei țevi, când nu se bazează pe un profil
 
--    **Base**   * Filamentul de bază al acestei țevi, dacă există unul
+-    **Base**: Filamentul de bază al acestei țevi, dacă există unul
 
--    **Profile**   * Profilul de bază a acestei țevi. Dacă nu este specificat, țeava este cilindrică.
+-    **Profile**: Profilul de bază a acestei țevi. Dacă nu este specificat, țeava este cilindrică.
 
 ## Fluxul de lucru tipic 
 
@@ -67,7 +67,7 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 <div class="mw-translate-fuzzy">
 
--   Echipamentele Arch au acum o proprietate nouă **SnapPoints**, care este o listă de vectori 3D. Acest lucru vă permite să adăugați puncte de fixare personalizate, pe care le puteți activa când noul buton [ Draft Special](Draft_Snap_Special.md) este activat. În prezent, această proprietate este disponibilă numai pentru Python. În cazul de mai sus am adăugat un nou punct de fixare la ieșirea aparatului de spălare. Vectorii din SnapPoints apar pe model ca puncte albe   *
+-   Echipamentele Arch au acum o proprietate nouă **SnapPoints**, care este o listă de vectori 3D. Acest lucru vă permite să adăugați puncte de fixare personalizate, pe care le puteți activa când noul buton [ Draft Special](Draft_Snap_Special.md) este activat. În prezent, această proprietate este disponibilă numai pentru Python. În cazul de mai sus am adăugat un nou punct de fixare la ieșirea aparatului de spălare. Vectorii din SnapPoints apar pe model ca puncte albe:
 
 
 </div>
@@ -79,14 +79,14 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 <div class="mw-translate-fuzzy">
 
--   Cu noul Snap Snap Special Snap Special, puteți acum să accesați aceste puncte personalizate   *
+-   Cu noul Snap Snap Special Snap Special, puteți acum să accesați aceste puncte personalizate:
 
 
 </div>
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Acum, putem trage tuburile noastre folosind Linii de Proiectare, Proiectoare sau Schițe. Cea mai bună metodă, totuși, este utilizarea numai a liniilor de proiectare   *
+-   Acum, putem trage tuburile noastre folosind Linii de Proiectare, Proiectoare sau Schițe. Cea mai bună metodă, totuși, este utilizarea numai a liniilor de proiectare:
 
 ![](images/Arch_pipe_example_04.jpg )
 
@@ -98,7 +98,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   Acum putem crea conexiuni selectând 2 sau 3 tuburi coincidente și apăsați butonul [Arch PipeConnector](Arch_PipeConnector.md). Dacă sunt selectate 3 țevi, două dintre ele trebuie să fie aliniate pentru a crea un element (T)   *
+-   Acum putem crea conexiuni selectând 2 sau 3 tuburi coincidente și apăsați butonul [Arch PipeConnector](Arch_PipeConnector.md). Dacă sunt selectate 3 țevi, două dintre ele trebuie să fie aliniate pentru a crea un element (T):
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -117,7 +117,7 @@ Este de asemenea posibil să se creeze Arch Pipes fără o linie de bază, în a
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Pipe poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
+Instrumentul Pipe poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
 
 
 </div>

@@ -1,6 +1,6 @@
 # Arch Site/ro
 ---
-- GuiCommand   *   Name   *Arch Site   Workbenches   *[MenuLocation   *Arch → Site   Shortcut   *S I   SeeAlso   *[[Arch Floor|Arch Floor](Arch_Workbench/ro___Arch]].md), [Arch Building](Arch_Building.md)---
+- GuiCommand:   Name:Arch Site   Workbenches:[MenuLocation:Arch → Site   Shortcut:S I   SeeAlso:[[Arch Floor|Arch Floor](Arch_Workbench/ro___Arch]].md), [Arch Building](Arch_Building.md)---
 
 
 </div>
@@ -31,8 +31,8 @@ Site-ul Arch este un obiect special care combină proprietățile unui obiect st
 
 <div class="mw-translate-fuzzy">
 
--   After creating a site, you can add more objects to it by drag and dropping them in the Tree View or by using the <img alt="" src=images/Arch_Add.png  style="width   *16px;"> [Arch Add](Arch_Add.md) tool. This only determines which object is part of the given site, and has no effect on the terrain itself.
--   You can remove objects from a site by drag and dropping them out of it the Tree View or by using the <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> [Arch Remove](Arch_Remove.md) tool
+-   After creating a site, you can add more objects to it by drag and dropping them in the Tree View or by using the <img alt="" src=images/Arch_Add.png  style="width:16px;"> [Arch Add](Arch_Add.md) tool. This only determines which object is part of the given site, and has no effect on the terrain itself.
+-   You can remove objects from a site by drag and dropping them out of it the Tree View or by using the <img alt="" src=images/Arch_Remove.png  style="width:16px;"> [Arch Remove](Arch_Remove.md) tool
 -   You can add a terrain object by editing the Site\'s **Terrain** property. The terrain must be an open shell or surface.
 -   You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Subtractions or Additions groups. The objects must be solids.
 -   The **Extrusion Vector** property can be used to solve some problems that can appear when working with subtractions and additions. In order to perform those additions/subtractions, the terrain surface is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might therefore be able to remedy the problem by changing this to a different value.
@@ -47,65 +47,65 @@ Site-ul Arch este un obiect special care combină proprietățile unui obiect st
 
 <div class="mw-translate-fuzzy">
 
--    **Terrain**   * The base terrain of this site
+-    **Terrain**: The base terrain of this site
 
--    **Address**   * The street and housenumber of this site
+-    **Address**: The street and housenumber of this site
 
--    **Postal Code**   * The postal or zip code of this site
+-    **Postal Code**: The postal or zip code of this site
 
--    **City**   * The city of this site
+-    **City**: The city of this site
 
--    **Country**   * The country of this site
+-    **Country**: The country of this site
 
--    **Latitude**   * The latitude of this site
+-    **Latitude**: The latitude of this site
 
--    **Longitude**   * The longitude of this site
+-    **Longitude**: The longitude of this site
 
--    **Url**   * An url that shows this site in a mapping website
+-    **Url**: An url that shows this site in a mapping website
 
--    **Projected Area**   * The area of the projection of this object onto the XY plane
+-    **Projected Area**: The area of the projection of this object onto the XY plane
 
--    **Perimeter**   * The perimeter length of this terrain
+-    **Perimeter**: The perimeter length of this terrain
 
--    **Addition Volume**   * The volume of earth to be added to this terrain
+-    **Addition Volume**: The volume of earth to be added to this terrain
 
--    **Subtraction Volume**   * The volume of earth to be removed from this terrain
+-    **Subtraction Volume**: The volume of earth to be removed from this terrain
 
--    **Extrusion Vector**   * An extrusion vector to use when performing boolean operations
+-    **Extrusion Vector**: An extrusion vector to use when performing boolean operations
 
--    **Remove Splitter**   * Remove splitters from the resulting shape
+-    **Remove Splitter**: Remove splitters from the resulting shape
 
--    **North Deviation**   * The angle between the true North and the north direction in this document
+-    **North Deviation**: The angle between the true North and the north direction in this document
 
--    **Solar Diagram**   * Shows or hides the solar diagram
+-    **Solar Diagram**: Shows or hides the solar diagram
 
--    **Solar Diagram Color**   * The color of the solar diagram
+-    **Solar Diagram Color**: The color of the solar diagram
 
--    **Solar Diagram Position**   * The position of the solar diagram
+-    **Solar Diagram Position**: The position of the solar diagram
 
--    **Solar Diagram Scale**   * The scale of the solar diagram
+-    **Solar Diagram Scale**: The scale of the solar diagram
 
 
 </div>
 
 ### View
 
--    **Solar Diagram**   * Shows or hides the solar diagram
+-    **Solar Diagram**: Shows or hides the solar diagram
 
--    **Solar Diagram Color**   * The color of the solar diagram
+-    **Solar Diagram Color**: The color of the solar diagram
 
--    **Solar Diagram Position**   * The position of the solar diagram
+-    **Solar Diagram Position**: The position of the solar diagram
 
--    **Solar Diagram Scale**   * The scale of the solar diagram
+-    **Solar Diagram Scale**: The scale of the solar diagram
 
--    **Wind Rose**   * Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
+-    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
 
 ## Typical workflow 
 
 
 <div class="mw-translate-fuzzy">
 
-Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part -\> Create Shape from Mesh\...**. Then, create a Site object, and set its **Terrain** property to the Part we just created   *
+Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part -\> Create Shape from Mesh\...**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
 
 
 </div>
@@ -131,12 +131,12 @@ The site geometry will be recomputed and the areas, perimeter, and volumes prope
 
 <div class="mw-translate-fuzzy">
 
-If [pysolar](http   *//pysolar.org/) is installed on your system, Arch Sites can display a solar diagram. For this, **Longitude**, **Latitude** and **NorthDeviation** properties must be correctly set, and **SolarDiagram** view property turned on. <small>(v0.17)</small> 
+If [pysolar](http://pysolar.org/) is installed on your system, Arch Sites can display a solar diagram. For this, **Longitude**, **Latitude** and **NorthDeviation** properties must be correctly set, and **SolarDiagram** view property turned on. <small>(v0.17)</small> 
 
 
 </div>
 
-**Note**   * If you don\'t have Ladybug, [pysolar](http   *//pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https   *//github.com/ladybug-tools/ladybug).
+**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -153,7 +153,7 @@ If [pysolar](http   *//pysolar.org/) is installed on your system, Arch Sites can
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Site poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
+Instrumentul Site poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
 
 
 </div>
@@ -211,7 +211,7 @@ FreeCAD.ActiveDocument.recompute()
 
 <div class="mw-translate-fuzzy">
 
-O diagramă de însorire poate fi creată cu    *
+O diagramă de însorire poate fi creată cu :
 
 
 </div>
@@ -222,7 +222,7 @@ Node = makeSolarDiagram(longitude, latitude, scale=1, complete=False)
 ```
 
 -   Creates a solar diagram as a Pivy node, using `longitude` and `latitude`, with an optional `scale`.
--   If `complete` is `True`, the 12 months are drawn, which shows the full solar [analemma](https   *//en.wikipedia.org/wiki/Analemma).
+-   If `complete` is `True`, the 12 months are drawn, which shows the full solar [analemma](https://en.wikipedia.org/wiki/Analemma).
 
 
 ```python

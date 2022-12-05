@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Std_Redo
-   Name/ru   *Вернуть
-   MenuLocation   *Правка → Вернуть
-   Workbenches   *Все
-   Shortcut   ***Ctrl**+**Y**
-   SeeAlso   *[Отмена](Std_Undo/ru.md)
+- GuiCommand:/ru
+   Name:Std_Redo
+   Name/ru:Вернуть
+   MenuLocation:Правка → Вернуть
+   Workbenches:Все
+   Shortcut:**Ctrl**+**Y**
+   SeeAlso:[Отмена](Std_Undo/ru.md)
 ---
 
 # Std Redo/ru
@@ -16,11 +16,11 @@
 
 ## Применение
 
-1.  Существует несколько способов для вызова данной команды   *
+1.  Существует несколько способов для вызова данной команды:
     -   Нажатием кнопки **<img src="images/Std_Redo.svg" width=16px> [Вернуть](Std_Redo/ru.md)** на панели инструментов.
     -   Вызовом через меню **Правка → <img src="images/Std_Redo.svg" width=16px> Вернуть
 **
-    -   Используя комбинацию клавиш клавиатуры   * **Ctrl**+**Y**.
+    -   Используя комбинацию клавиш клавиатуры: **Ctrl**+**Y**.
 
 ## Опции
 
@@ -34,7 +34,7 @@
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

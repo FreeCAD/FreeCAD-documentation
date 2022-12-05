@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Nest
-   Name/it   *Nido
-   MenuLocation   *Arch → Strumenti pannello → Nido
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   SeeAlso   *[Pannello](Arch_Panel/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md)
+- GuiCommand:/it
+   Name:Arch Nest
+   Name/it:Nido
+   MenuLocation:Arch → Strumenti pannello → Nido
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   SeeAlso:[Pannello](Arch_Panel/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md)
 ---
 
 # Arch Nest/it
@@ -17,14 +17,14 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Arch_Nest.svg  style="width   *16px;"> Nido consente di selezionare una forma piatta destinata ad essere un contenitore e una serie di altre forme piatte da organizzare all\'interno dello spazio definito dalla forma del contenitore. Tipicamente questo è necessario per le operazioni CNC, in cui si desidera tagliare una serie di pezzi da un pannello di base e si devono organizzare tali pezzi nel modo più compatto possibile in modo che occupino meno spazio sul pannello.
+Lo strumento <img alt="" src=images/Arch_Nest.svg  style="width:16px;"> Nido consente di selezionare una forma piatta destinata ad essere un contenitore e una serie di altre forme piatte da organizzare all\'interno dello spazio definito dalla forma del contenitore. Tipicamente questo è necessario per le operazioni CNC, in cui si desidera tagliare una serie di pezzi da un pannello di base e si devono organizzare tali pezzi nel modo più compatto possibile in modo che occupino meno spazio sul pannello.
 
 
 </div>
 
 L\'algoritmo sottostante allo strumento Nido è in continua evoluzione e al momento non è completamente ottimizzato. In futuro le prestazioni di questo strumento dovrebbero migliorare molto.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
 
 *L\'immagine sopra mostra una serie di forme prima e dopo l\'operazione di annidamento.*
 
@@ -48,7 +48,7 @@ L\'algoritmo sottostante allo strumento Nido è in continua evoluzione e al mome
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *800px;"> 
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width:800px;"> 
 *Il pannello Azioni per lo strumento [Nido](Arch_Nest/it.md)*
 
 

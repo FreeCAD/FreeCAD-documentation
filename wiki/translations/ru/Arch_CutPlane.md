@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch CutPlane
-   Name/ru   *Arch CutPlane
-   MenuLocation   *Архитектура → Срезать по плоскости образца
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   SeeAlso   *[Удалить компонент](Arch_Remove/ru.md)
+- GuiCommand:/ru
+   Name:Arch CutPlane
+   Name/ru:Arch CutPlane
+   MenuLocation:Архитектура → Срезать по плоскости образца
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   SeeAlso:[Удалить компонент](Arch_Remove/ru.md)
 ---
 
 # Arch CutPlane/ru
@@ -14,16 +14,16 @@
 
 ## Описание
 
-Инструмент Cut Plane позволяет обрезать объект Arch в соответствии с плоскостью   *
+Инструмент Cut Plane позволяет обрезать объект Arch в соответствии с плоскостью:
 
 -   Вы можете обрезать объект Arch выделенной гранью, нормальной или противоположной плоскости фасада.
 -   Это создаёт для объекта Arch компонент для вычитания CutVolume
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
 
 
 
-*Left   * Before applying the CutPlane tool. Middle   * resulting wall after the cut is done. Right   * yet another optional result*
+*Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is done. Right: yet another optional result*
 
 ## Применение
 
@@ -35,11 +35,11 @@
 ## Программирование
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
@@ -57,7 +57,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`specifies on which side of the `FaceObject` a volume will be created; this volume will then be used to subtract from the `archObject`. If `sideFace` is `0` it will create a volume in the rear of the face, otherwise it create it in front of the face.
 
-Пример   * 
+Пример: 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

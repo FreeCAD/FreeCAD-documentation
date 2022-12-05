@@ -8,9 +8,9 @@
 </div>
 
 
-{{Manual   *TOC/zh-cn}}
+{{Manual:TOC/zh-cn}}
 
-FreeCAD 使用 [Qt 框架](https   *//en.wikipedia.org/wiki/Qt_(software))绘制和管理其界面。 该框架广泛用于很多应用程序，因此 FreeCAD 的界面非常经典，没有特别的难以理解之处。大多数按钮都是标准按钮，可以在您希望的位置找到，例如：**文件→打开，编辑→粘贴**，等等。这是FreeCAD 第一次打开时的外观，安装后，显示启动中心。
+FreeCAD 使用 [Qt 框架](https://en.wikipedia.org/wiki/Qt_(software))绘制和管理其界面。 该框架广泛用于很多应用程序，因此 FreeCAD 的界面非常经典，没有特别的难以理解之处。大多数按钮都是标准按钮，可以在您希望的位置找到，例如：**文件→打开，编辑→粘贴**，等等。这是FreeCAD 第一次打开时的外观，安装后，显示启动中心。
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 
@@ -79,7 +79,7 @@ FreeCAD 的界面可深度自定义。所有面板和工具栏都可以移动到
 -   [FreeCAD 入门](Getting_started/zh-cn.md)
 -   [自定义界面](Interface_Customization/zh-cn.md)
 -   [工作台](Workbenches/zh-cn.md)
--   [关于 Python 的更多信息](https   *//www.python.org)
+-   [关于 Python 的更多信息](https://www.python.org)
 
 
 <div class="mw-translate-fuzzy">

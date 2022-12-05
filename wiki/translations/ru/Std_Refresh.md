@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Обновить
-   Name   *Std_Refresh
-   MenuLocation   *Правка → Обновить
-   Workbenches   *Все
-   Shortcut   ***F5**
+- GuiCommand:/ru
+   Name/ru:Обновить
+   Name:Std_Refresh
+   MenuLocation:Правка → Обновить
+   Workbenches:Все
+   Shortcut:**F5**
 ---
 
 # Std Refresh/ru
@@ -15,10 +15,10 @@ The **Std Refresh** command recomputes the active document. The command is disab
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** button.
     -   Select the **Edit → <img src="images/Std_Refresh.svg" width=16px> Refresh** option from the menu.
-    -   Use the keyboard shortcut   * **F5**.
+    -   Use the keyboard shortcut: **F5**.
 
 ## Опции
 
@@ -27,12 +27,12 @@ The **Std Refresh** command recomputes the active document. The command is disab
 
 ## Примечания
 
--   For a macro that will recompute the active document see   * [Macro ForceRecompute](Macro_ForceRecompute.md).
+-   For a macro that will recompute the active document see: [Macro ForceRecompute](Macro_ForceRecompute.md).
 
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

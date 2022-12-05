@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Mesh ImportMesh‏‎
-   Name/de   *Polygonnetz Import
-   MenuLocation   *Polygonnetze → Polygonnetz importieren...
-   Workbenches   *[Polygonnetze](Mesh_Workbench/de.md)
-   SeeAlso   *[Std Import](Std_Import/de.md),[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md)
+- GuiCommand:/de
+   Name:Mesh ImportMesh‏‎
+   Name/de:Polygonnetz Import
+   MenuLocation:Polygonnetze → Polygonnetz importieren...
+   Workbenches:[Polygonnetze](Mesh_Workbench/de.md)
+   SeeAlso:[Std Import](Std_Import/de.md),[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md)
 ---
 
 # Mesh Import/de
@@ -15,7 +15,7 @@ Der Befehl **Polygonnetz Import** importiert Geometrie aus einem Netzdateiformat
 
 ## Anwendung
 
-#\* Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+#\* Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 
 #\* Drücke den **<img src="images/Mesh_Import.svg" width=16px> [Polygonnetz Import](Mesh_Import/de.md)**.
 
@@ -29,26 +29,26 @@ Der Befehl **Polygonnetz Import** importiert Geometrie aus einem Netzdateiformat
 
 ## Supported file formats 
 
-The command supports   * stl, ast, bms, obj, off, iv, ply, nas and bdf files. For the NASTRAN (nas/bdf) file format, only GRID, CTRIA3 and CQUAD4 cards are supported.
+The command supports: stl, ast, bms, obj, off, iv, ply, nas and bdf files. For the NASTRAN (nas/bdf) file format, only GRID, CTRIA3 and CQUAD4 cards are supported.
 
 ## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert   * **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Eigenschaften
 
-Siehe   * [Polygonnetz Formelement](Mesh_Feature/de.md).
+Siehe: [Polygonnetz Formelement](Mesh_Feature/de.md).
 
 ## Skripten
 
-Siehe auch   * [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
 
 Um eine Polygonnetzdatei zu importieren, verwende die Methode `Einfügen` des Polygonnetz Moduls.
 
 
 ```python
 import Mesh
-Mesh.insert('D   */testfiles/cylinder.stl')
+Mesh.insert('D:/testfiles/cylinder.stl')
 ```
 
 

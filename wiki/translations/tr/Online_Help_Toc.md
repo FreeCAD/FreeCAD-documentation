@@ -1,7 +1,7 @@
 # Online Help Toc/tr
 <div class="mw-translate-fuzzy">
 
-Burada FreeCAD\'te On-line Yardım Sistemi için İçerik tablosu bulunmaktadır. Ayrıca bu kılavuzun yazdırılabilir sürümü [Sürümler sayfasında](https   *//github.com/FreeCAD/FreeCAD/releases) mevcuttur.
+Burada FreeCAD\'te On-line Yardım Sistemi için İçerik tablosu bulunmaktadır. Ayrıca bu kılavuzun yazdırılabilir sürümü [Sürümler sayfasında](https://github.com/FreeCAD/FreeCAD/releases) mevcuttur.
 
 
 </div>
@@ -169,11 +169,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 
 </div>
-
-
-
-
-[Category   *Documentation/tr](Category   *Documentation/tr.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

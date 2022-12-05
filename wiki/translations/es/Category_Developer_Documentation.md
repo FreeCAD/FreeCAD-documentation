@@ -1,8 +1,6 @@
 # Category:Developer Documentation/es
 Esta categoría recopila documentación de artículos principalmente dirigidos a los programadores
 
-[Category   *Documentation/es](Category   *Documentation/es.md)
-
 ### Contents
 
 |     |     |     |

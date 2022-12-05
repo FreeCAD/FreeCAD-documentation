@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_DependencyGraph
-   Name/it   *Grafico delle dipendenze
-   Empty   *1
-   MenuLocation   *Strumenti → Grafico delle dipendenze...
-   Workbenches   *Tutti
+- GuiCommand:/it
+   Name:Std_DependencyGraph
+   Name/it:Grafico delle dipendenze
+   Empty:1
+   MenuLocation:Strumenti → Grafico delle dipendenze...
+   Workbenches:Tutti
 ---
 
 # Std DependencyGraph/it
@@ -26,12 +26,12 @@ Può essere utile per analizzare un documento di FreeCAD e localizzare le biforc
 
 Il grafico delle dipendenze è uno strumento di pura visualizzazione, quindi non può essere modificato, Si aggiorna automaticamente se vengono apportate delle modifiche al modello.
 
-<img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;"> 
+<img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Esempio di grafico delle dipendenze con un corpo di PartDesign a sinistra e un oggetto creato con le operazioni di Parte a destra*
 
 ## Installazione
 
-Per utilizzare il grafico delle dipendenze, si deve prima installare un software di terze parti chiamato [Graphviz](http   *//graphviz.org/). Se Graphviz non è installato in precedenza o è installato in una posizione non convenzionale, FreeCAD visualizza il seguente dialogo   *
+Per utilizzare il grafico delle dipendenze, si deve prima installare un software di terze parti chiamato [Graphviz](http://graphviz.org/). Se Graphviz non è installato in precedenza o è installato in una posizione non convenzionale, FreeCAD visualizza il seguente dialogo:
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -40,7 +40,7 @@ Per utilizzare il grafico delle dipendenze, si deve prima installare un software
 
 <div class="mw-translate-fuzzy">
 
-Scaricare l\'installatore **graphviz-2.xx.msi** dalla pagina [Graphviz Download](https   *//graphviz.gitlab.io/_pages/Download/Download_windows.html) e lanciarlo per eseguire l\'installazione.
+Scaricare l\'installatore **graphviz-2.xx.msi** dalla pagina [Graphviz Download](https://graphviz.gitlab.io/_pages/Download/Download_windows.html) e lanciarlo per eseguire l\'installazione.
 
 
 </div>
@@ -50,7 +50,7 @@ Scaricare l\'installatore **graphviz-2.xx.msi** dalla pagina [Graphviz Download]
 
 <div class="mw-translate-fuzzy">
 
-È possibile installare graphviz usando [Homebrew](https   *//brew.sh/)   *
+È possibile installare graphviz usando [Homebrew](https://brew.sh/):
 
 
 </div>
@@ -102,7 +102,7 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ### Linux
 
-Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto graphviz dai repository. Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando   *
+Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto graphviz dai repository. Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando:
 
 
 {{Code|lang=text|code=
@@ -133,7 +133,7 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ## Salva
 
-È possibile salvare un grafico delle dipendenze   *
+È possibile salvare un grafico delle dipendenze:
 
 1.  Assicurarsi che la scheda del grafico delle dipendenze sia in primo piano.
 2.  Selezionare l\'opzione **File → [Salva](Std_Save/it.md)** o **File → [Salva con nome](Std_SaveAs/it.md)** dal menu.
@@ -178,9 +178,7 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 {{Std Base navi
 
-}} 
-
-[Category   *3rd Party](Category_3rd_Party.md)
+}}
 
 
 

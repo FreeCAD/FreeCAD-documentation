@@ -1,8 +1,6 @@
 # Category:Std Base/fr
 Cette catégorie répertorie les pages associées à [Std Base](Std_Base/fr.md), qui collecte les commandes du système de base qui n\'appartiennent à aucun des ateliers.
 
-[Category   *User_Documentation/fr](Category   *User_Documentation/fr.md)
-
 ### Contents
 
 |     |     |     |

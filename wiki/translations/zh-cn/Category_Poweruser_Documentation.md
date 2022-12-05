@@ -1,8 +1,6 @@
 # Category:Poweruser Documentation/zh-cn
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-[Category   *Documentation/zh-cn](Category   *Documentation/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

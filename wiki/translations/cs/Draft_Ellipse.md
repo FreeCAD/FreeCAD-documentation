@@ -1,6 +1,6 @@
 # Draft Ellipse/cs
 ---
-- GuiCommand   */cs   Name   *Draft_Ellipse   Name/cs   *Kreslení Elipsa   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> Elipsa   Shortcut   *E L   SeeAlso   *[Kreslení Kružnice](Draft_Circle/cs.md)---
+- GuiCommand:/cs   Name:Draft_Ellipse   Name/cs:Kreslení Elipsa   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Elipsa   Shortcut:E L   SeeAlso:[Kreslení Kružnice](Draft_Circle/cs.md)---
 
 
 </div>
@@ -17,19 +17,19 @@ Nástroj Elipsa vytvoří elipsu v aktuální [pracovní rovině](Draft_SelectPl
 
 A Draft Ellipse can be turned into an elliptical arc by setting its **First Angle** and **Last Angle** properties to different values.
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -68,17 +68,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Vlastnosti
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -88,13 +88,13 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
--    **Velký poloměr**   * Velký poloměr elipsy
+-    **Velký poloměr**: Velký poloměr elipsy
 
--    **Malý poloměr**   * Malý poloměr elipsy
+-    **Malý poloměr**: Malý poloměr elipsy
 
--    **Vzor**   * Určuje šrafovací vzor, kterým má elipsa být vyplněna
+-    **Vzor**: Určuje šrafovací vzor, kterým má elipsa být vyplněna
 
--    **Rozměr vzoru**   * Určuje velikost šrafovacího vzoru
+-    **Rozměr vzoru**: Určuje velikost šrafovacího vzoru
 
 
 </div>
@@ -104,9 +104,9 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the ellipse. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the ellipse. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -115,7 +115,7 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ## Skriptování
 
-Nástroj Elipsa může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Elipsa může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -138,7 +138,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python

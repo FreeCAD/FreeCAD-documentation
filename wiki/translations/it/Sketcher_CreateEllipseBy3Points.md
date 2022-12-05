@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Sketcher CreateEllipseBy3Points
-   Name/it   *Ellisse da tre punti
-   Icon   *Sketcher_CreateEllipse_3points.png
-   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation   *Sketch → Geometrie → Ellisse da 3 punti
-   Version   *0.15
-   SeeAlso   *[Ellisse da centro ...](Sketcher_CreateEllipseByCenter/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse ...](Sketcher_CreateArcOfEllipse/it.md)
+- GuiCommand:/it
+   Name:Sketcher CreateEllipseBy3Points
+   Name/it:Ellisse da tre punti
+   Icon:Sketcher_CreateEllipse_3points.png
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation:Sketch → Geometrie → Ellisse da 3 punti
+   Version:0.15
+   SeeAlso:[Ellisse da centro ...](Sketcher_CreateEllipseByCenter/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse ...](Sketcher_CreateArcOfEllipse/it.md)
 ---
 
 # Sketcher CreateEllipseBy3Points/it
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento disegna un\'ellisse selezionando tre punti   * (1) Periasse (Primo incrocio del diametro maggiore con l\'ellisse), (2) apoasse (Secondo incrocio del diametro maggiore con l\'ellisse), (3) un punto su un lato del diametro più lungo (a) che definisce il raggio minore (b). (c) è il centro risultante e (f) sono i punti focali.
+Questo strumento disegna un\'ellisse selezionando tre punti: (1) Periasse (Primo incrocio del diametro maggiore con l\'ellisse), (2) apoasse (Secondo incrocio del diametro maggiore con l\'ellisse), (3) un punto su un lato del diametro più lungo (a) che definisce il raggio minore (b). (c) è il centro risultante e (f) sono i punti focali.
 
 
 </div>
@@ -41,7 +41,7 @@ Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce b
 
 <div class="mw-translate-fuzzy">
 
-Premere il pulsante **[<img src=images/Sketcher_CreateEllipse_3points.png style="width   *24px"> '''Ellisse da 3 punti'''**.
+Premere il pulsante **[<img src=images/Sketcher_CreateEllipse_3points.png style="width:24px"> '''Ellisse da 3 punti'''**.
 
 -   Il pr\* imo clic nella vista 3D imposta un punto che definisce l\'incrocio del diametro maggiore con l\'ellisse (periasse). Il secondo clic nella vista 3D imposta un punto che definisce l\'incrocio del diametro maggiore con l\'ellisse opposta al punto centrale (apoasse). Il terzo clic imposta un punto sull\'ellisse che definisce il raggio minore.
 

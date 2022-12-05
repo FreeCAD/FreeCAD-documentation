@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewFitAll
-   Name/pl   *Std   * Dopasuj wszystko
-   MenuLocation   *Widok → Widoki standardowe → Dopasuj wszystko
-   Workbenches   *wszystkie
-   Shortcut   ***V** → **F**
-   SeeAlso   *[Widok dopasowany do wyboru](Std_ViewFitSelection/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewFitAll
+   Name/pl:Std: Dopasuj wszystko
+   MenuLocation:Widok → Widoki standardowe → Dopasuj wszystko
+   Workbenches:wszystkie
+   Shortcut:**V** → **F**
+   SeeAlso:[Widok dopasowany do wyboru](Std_ViewFitSelection/pl.md)
 ---
 
 # Std ViewFitAll/pl
@@ -17,11 +17,11 @@ Polecenie **Przybliż i dopasuj wszystko** powiększa i przesuwa ujęcie widoku 
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_ViewFitAll.svg" width=16px> [Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFitAll.svg" width=16px> Przybliż i dopasuj wszystko**.
     -   Wybierz z menu opcję **<img src="images/Std_ViewFitAll.svg" width=16px> Przybliż i dopasuj wszystko** z menu kontekstowego w oknie [widoku 3D](3D_view/pl.md).
-    -   Użyj skrótu klawiaturowego   * **V**, a następnie **F**.
+    -   Użyj skrótu klawiaturowego: **V**, a następnie **F**.
 
 ## Uwagi
 
@@ -30,7 +30,7 @@ Polecenie **Przybliż i dopasuj wszystko** powiększa i przesuwa ujęcie widoku 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

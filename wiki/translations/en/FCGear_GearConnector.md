@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *FCGear GearConnector
-   MenuLocation   *Gear → Combine two gears
-   Workbenches   *[FCGear](FCGear_Workbench.md)
-   Shortcut   *None
-   Version   *1.0
-   SeeAlso   *
+- GuiCommand:
+   Name:FCGear GearConnector
+   MenuLocation:Gear → Combine two gears
+   Workbenches:[FCGear](FCGear_Workbench.md)
+   Shortcut:None
+   Version:1.0
+   SeeAlso:
 ---
 
 # FCGear GearConnector/en
@@ -14,13 +14,13 @@
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Select two elements of matching teeth (See [Notes](#Notes.md))   *
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  Select two elements of matching teeth (See [Notes](#Notes.md)):
     -   The first must be a spur gear or an internal gear.
     -   The second can be a spur gear, or a rack
-3.  There are several ways to invoke the command   *
-    -   Press the **[<img src=images/FCGear_GearConnector.svg style="width   *16px"> [Combine two gears](FCGear_GearConnector.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_GearConnector.svg style="width   *16px"> Combine two gears** option from the menu.
+3.  There are several ways to invoke the command:
+    -   Press the **[<img src=images/FCGear_GearConnector.svg style="width:16px"> [Combine two gears](FCGear_GearConnector.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_GearConnector.svg style="width:16px"> Combine two gears** option from the menu.
 4.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
@@ -30,11 +30,6 @@
 The selection order determines whether the second element can roll around the first element when the property **angle1** is changed.
 
 ## Scripting
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

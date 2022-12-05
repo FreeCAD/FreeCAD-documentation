@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Std Part
-   Name/es   *Std Pieza
-   MenuLocation   *Ninguna
-   Workbenches   *Todos
-   Version   *0.17
-   SeeAlso   *[Std Grupo](Std_Group/es.md), [Cuerpo PartDesign](PartDesign_Body/es.md)
+- GuiCommand:/es
+   Name:Std Part
+   Name/es:Std Pieza
+   MenuLocation:Ninguna
+   Workbenches:Todos
+   Version:0.17
+   SeeAlso:[Std Grupo](Std_Group/es.md), [Cuerpo PartDesign](PartDesign_Body/es.md)
 ---
 
 # Std Part/es
@@ -13,7 +13,7 @@
 ## Descripción
 
 
-**[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part.md)**
+**[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**
 
 (internamente llamado [App Part](App_Part.md)) es un contenedor de propósito general que mantiene juntos un grupo de objetos para que puedan moverse juntos como una unidad en la [vista 3D](3D_view/es.md).
 
@@ -35,13 +35,13 @@ Part se encuentra en la barra de herramientas Estructura que se muestra en todos
 
 </div>
 
-The **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[<img src=images/Std_Group.svg style="width   *16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [Tree view](Tree_view.md) organized.
+The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [Tree view](Tree_view.md) organized.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
 
-*Left   * elements inside a Std Part in the [Tree view](Tree_view.md). Right   * objects positioned in space, referred to the Origin of the Std Part.*
+*Left: elements inside a Std Part in the [Tree view](Tree_view.md). Right: objects positioned in space, referred to the Origin of the Std Part.*
 
 
 <div class="mw-translate-fuzzy">
@@ -69,7 +69,7 @@ The **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part.m
 
 ## Propiedades
 
-The [Std Part](Std_Part.md), internally called [App Part](App_Part.md) (`App   *   *Part` class), is derived from the [App GeoFeature](App_GeoFeature.md) (`App   *   *GeoFeature` class) and inherits all its properties. It also has several additional properties. Notably properties that help it manage information in the context of an assembly, for example, **Type**, **Id**, **License**, **LicenseURL** and **Group**.
+The [Std Part](Std_Part.md), internally called [App Part](App_Part.md) (`App::Part` class), is derived from the [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) and inherits all its properties. It also has several additional properties. Notably properties that help it manage information in the context of an assembly, for example, **Type**, **Id**, **License**, **LicenseURL** and **Group**.
 
 These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
@@ -81,17 +81,17 @@ These are the properties available in the [property editor](Property_editor.md).
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData | Id}}   * ID (Número de pieza) del artículo. Este campo es opcional.
+-    {{PropertyData | Id}}: ID (Número de pieza) del artículo. Este campo es opcional.
 
--    {{PropertyData | License}}   * la licencia bajo la cual se lanza la Part.
+-    {{PropertyData | License}}: la licencia bajo la cual se lanza la Part.
 
--    {{PropertyData | License URL}}   * la dirección web donde se pueden encontrar los términos de licencia.
+-    {{PropertyData | License URL}}: la dirección web donde se pueden encontrar los términos de licencia.
 
--    {{PropertyData | Placement}}   * especifica la orientación y la posición de la Part en el espacio 3D. Ver [Placement](Placement.md).
+-    {{PropertyData | Placement}}: especifica la orientación y la posición de la Part en el espacio 3D. Ver [Placement](Placement.md).
 
--    {{PropertyData | Label}}   * la label/etiqueta es el nombre dado a la operación. Este nombre se puede cambiar a su conveniencia.
+-    {{PropertyData | Label}}: la label/etiqueta es el nombre dado a la operación. Este nombre se puede cambiar a su conveniencia.
 
--    {{PropertyData | Group}}   * enumera los objetos a los que se hace referencia.
+-    {{PropertyData | Group}}: enumera los objetos a los que se hace referencia.
 
 
 </div>
@@ -101,18 +101,18 @@ These are the properties available in the [property editor](Property_editor.md).
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**   * {{value|Group}}.
+-    **Display Mode|Enumeration**: {{value|Group}}.
 
--    **Show In Tree|Bool**   * if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
+-    **Show In Tree|Bool**: if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
 
--    **Visibility|Bool**   * if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
+-    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
 
 
 {{TitleProperty|Selection}}
 
--    **On Top When Selected|Enumeration**   * {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+-    **On Top When Selected|Enumeration**: {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    **Selection Style|Enumeration**   * {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
+-    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
 
 ## Detailed explanation 
 
@@ -128,7 +128,7 @@ Un documento de FreeCAD puede contener varias Part. Solo una Part puede estar ac
 
 An open document can contain multiple Parts. But only one Part can be active. The active Part is displayed in the [tree view](Tree_view.md) with the background color specified by the **Active container** value in the [preferences editor](Preferences_Editor#Colors.md) (by default, light blue). It will also be shown with bold text.
 
-To activate or de-activate a Part   *
+To activate or de-activate a Part:
 
 -   Double click on it on the [Tree view](Tree_view.md), or
 -   Open the context menu (right click) and select **Toggle active part**.
@@ -155,15 +155,15 @@ The Origin consists of the three standard axes (X, Y, Z) and three standard plan
 
 
 
-*Left   * Part Origin in the [Tree view](Tree_view.md). Right   * representation of the Origin elements in the [3D view](3D_view.md).*
+*Left: Part Origin in the [Tree view](Tree_view.md). Right: representation of the Origin elements in the [3D view](3D_view.md).*
 
 
-**Note   ***
+**Note:**
 
-the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App   *   *Origin` class), while the axes and planes are objects of type `App   *   *Line` and `App   *   *Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
+the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App::Origin` class), while the axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
 
 
-**Note 2   ***
+**Note 2:**
 
 all elements inside the Part are referenced to the Part\'s Origin which means that the Part can be moved and rotated in reference to the global coordinate system without affecting the placement of the elements inside.
 
@@ -180,12 +180,12 @@ La visibilidad de la Part reemplaza la visibilidad de cualquier objeto que conte
 The Part\'s visibility supersedes the visibility of any object it contains. If the Part is hidden, the objects it contains will be hidden as well, even if their individual **Visibility** property is set to `True`. If the Part is visible, then each object\'s **Visibility** determines whether the object is shown or not.
 
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
-*The visibility of the Std Part determines whether the objects grouped under it are shown in the [3D view](3D_view.md) or not. Left   * the Part is hidden, so none of the objects will be shown in the [3D view](3D_view.md). Right   * the Part is visible, so each object controls its own visibility.*
+*The visibility of the Std Part determines whether the objects grouped under it are shown in the [3D view](3D_view.md) or not. Left: the Part is hidden, so none of the objects will be shown in the [3D view](3D_view.md). Right: the Part is visible, so each object controls its own visibility.*
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
 
@@ -198,57 +198,57 @@ A Std Part ([App Part](App_Part.md)) is created with the `addObject()` method of
 import FreeCAD as App
 
 doc = App.newDocument()
-part = App.ActiveDocument.addObject("App   *   *Part", "Part")
+part = App.ActiveDocument.addObject("App::Part", "Part")
 
-obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
 part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-You cannot create a scripted `App   *   *Part`. However, you can add `App   *   *Part` behavior to a scripted `Part   *   *FeaturePython` object by using the following code   *
+You cannot create a scripted `App::Part`. However, you can add `App::Part` behavior to a scripted `Part::FeaturePython` object by using the following code:
 
 
 ```python
-class MyGroup(object)   *
-    def __init__(self, obj=None)   *
+class MyGroup(object):
+    def __init__(self, obj=None):
         self.Object = obj
-        if obj   *
+        if obj:
             self.attach(obj)
 
-    def __getstate__(self)   *
+    def __getstate__(self):
         return
 
-    def __setstate__(self, _state)   *
+    def __setstate__(self, _state):
         return
 
-    def attach(self, obj)   *
-        obj.addExtension("App   *   *OriginGroupExtensionPython")
-        obj.Origin = FreeCAD.ActiveDocument.addObject("App   *   *Origin", "Origin")
+    def attach(self, obj):
+        obj.addExtension("App::OriginGroupExtensionPython")
+        obj.Origin = FreeCAD.ActiveDocument.addObject("App::Origin", "Origin")
 
-    def onDocumentRestored(self, obj)   *
+    def onDocumentRestored(self, obj):
         self.Object = obj
 
-class ViewProviderMyGroup(object)   *
-    def __init__(self, vobj=None)   *
-        if vobj   *
+class ViewProviderMyGroup(object):
+    def __init__(self, vobj=None):
+        if vobj:
             vobj.Proxy = self
             self.attach(vobj)
-        else   *
+        else:
             self.ViewObject = None
 
-    def attach(self, vobj)   *
-        vobj.addExtension("Gui   *   *ViewProviderOriginGroupExtensionPython")
+    def attach(self, vobj):
+        vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self)   *
+    def __getstate__(self):
         return None
 
-    def __setstate__(self, _state)   *
+    def __setstate__(self, _state):
         return None
 
-App.ActiveDocument.addObject("Part   *   *FeaturePython",
+App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
                              group.MyGroup(),
                              group.ViewProviderMyGroup(),

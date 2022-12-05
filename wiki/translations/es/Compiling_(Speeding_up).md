@@ -13,7 +13,7 @@ Instalar `ccache` para almacenar en caché las construcciones.
 
 Cuando se utiliza `cmake` para configurar la compilación, se puede deshabilitar la compilación de ciertos bancos de trabajo que no se necesitan en este momento. Esto es útil si sólo necesita probar algunos ambientes de trabajo.
 
-Por ejemplo, para evitar la construcción de los ambientes de trabajo FEM y Malla   *
+Por ejemplo, para evitar la construcción de los ambientes de trabajo FEM y Malla:
 
 
 ```python
@@ -26,7 +26,7 @@ Utiliza `cmake-gui`, `cmake-curses-gui`, o `cmake-qt-gui` para mostrar todas las
 
 Después de la configuración con `cmake`, el programa `make` lanza el compilador C++ real para trabajar en los archivos de código fuente. Se puede acelerar la compilación trabajando en varios archivos al mismo tiempo. Esto se consigue con la opción `-j` de `make`, que denota el número de \"trabajos\" o comandos de compilación que se ejecutan simultáneamente. Esta opción es un número entero.
 
-Ejecuta cuatro comandos de compilación en paralelo   *
+Ejecuta cuatro comandos de compilación en paralelo:
 
 
 ```python
@@ -50,14 +50,6 @@ make -j$(nproc --ignore=2)
 ## distcc
 
 El programa `distcc` puede utilizarse para realizar la compilación distribuida de código C y C++ en varias máquinas de una red.
-
-
-
-
-
-
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

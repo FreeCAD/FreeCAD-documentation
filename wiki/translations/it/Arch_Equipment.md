@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Equipment
-   Name/it   *Arredo
-   MenuLocation   *Arch → Arredo
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Shortcut   ***E** **Q**
-   SeeAlso   *[3 viste da mesh](Arch_3Views/it.md)
+- GuiCommand:/it
+   Name:Arch Equipment
+   Name/it:Arredo
+   MenuLocation:Arch → Arredo
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:**E** **Q**
+   SeeAlso:[3 viste da mesh](Arch_3Views/it.md)
 ---
 
 # Arch Equipment/it
@@ -59,11 +59,11 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 
 ## Proprietà
 
--    {{PropertyData/it|Model}}   * Una descrizione del modello di questo arredo.
+-    {{PropertyData/it|Model}}: Una descrizione del modello di questo arredo.
 
--    {{PropertyData/it|Url}}   * Un URL della pagina del prodotto dove si possono trovare maggiori informazioni su questo arredo.
+-    {{PropertyData/it|Url}}: Un URL della pagina del prodotto dove si possono trovare maggiori informazioni su questo arredo.
 
--    {{PropertyData/it|Mesh}}   * Una rappresentazione [Mesh](Mesh_Workbench/it.md) da utilizzare per questo arredo. Quando è impostata, diventa disponibile la modalità di visualizzazione **Mesh**.
+-    {{PropertyData/it|Mesh}}: Una rappresentazione [Mesh](Mesh_Workbench/it.md) da utilizzare per questo arredo. Quando è impostata, diventa disponibile la modalità di visualizzazione **Mesh**.
 
 
 <div class="mw-translate-fuzzy">
@@ -71,7 +71,7 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -79,14 +79,14 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 </div>
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Arredo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Arredo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -100,11 +100,11 @@ Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 -   Se viene dato un `placement`, esso viene utilizzato.
 -   Restituisce `None` se l\'operazione fallisce.
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 500
 Box.Width = 2000
 Box.Height = 600

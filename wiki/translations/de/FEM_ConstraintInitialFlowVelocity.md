@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintInitialFlowVelocity
-   Name/de   *FEM RandbedingungInitialeFließgeschwindigkeit
-   MenuLocation   *Modell → Strömungs-Randbedingungen → Randbedingung initiale Fließgeschwindigkeit
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM RandbedingungFließgeschwindigkeit](FEM_ConstraintFlowVelocity/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintInitialFlowVelocity
+   Name/de:FEM RandbedingungInitialeFließgeschwindigkeit
+   MenuLocation:Modell → Strömungs-Randbedingungen → Randbedingung initiale Fließgeschwindigkeit
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM RandbedingungFließgeschwindigkeit](FEM_ConstraintFlowVelocity/de.md)
 ---
 
 # FEM ConstraintInitialFlowVelocity/de
@@ -21,7 +21,7 @@ Erstellt eine Startbedingung einer Fließgeschwindigkeit für die Strömungsanal
 
 <div class="mw-translate-fuzzy">
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [Randbedingung initiale Fließgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md)** drücken.
     -   Den Menüeintrag **Modell → Strömungs-Randbedingungen → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Randbedingung initiale Fließgeschwindigkeit** auswählen.
 2.  Den Startwert der Fließgeschwindigkeit für die Analyse eingeben.

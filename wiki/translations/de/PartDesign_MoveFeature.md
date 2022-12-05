@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */de
-   Name   *PartDesign MoveFeature
-   Name/de   *PartDesign FormelementVerschieben
-   MenuLocation   *Kontextmenü → Objekt in anderen Körper verschieben
-   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign ArbeitspositionFestlegen](PartDesign_MoveTip/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)
+- GuiCommand:/de
+   Name:PartDesign MoveFeature
+   Name/de:PartDesign FormelementVerschieben
+   MenuLocation:Kontextmenü → Objekt in anderen Körper verschieben
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[PartDesign ArbeitspositionFestlegen](PartDesign_MoveTip/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)
 ---
 
 # PartDesign MoveFeature/de
 
 ## Beschreibung
 
-<img alt="" src=images/PartDesign_MoveFeature.svg  style="width   *24px;"> [Objekt in anderen Körper verschieben](PartDesign_MoveFeature/de.md), Wie dieser Befehl im Kontextmenü heißt, erlaubt es Objekte von einem Körper in einen anderen Körper zu verschieben. Die verschobenen Objekte werden direkt unter der Arbeitsposition des anderen Körpers eingefügt. Skizzen, Bezugselemente und Formelemente werden unterstützt.
+<img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> [Objekt in anderen Körper verschieben](PartDesign_MoveFeature/de.md), Wie dieser Befehl im Kontextmenü heißt, erlaubt es Objekte von einem Körper in einen anderen Körper zu verschieben. Die verschobenen Objekte werden direkt unter der Arbeitsposition des anderen Körpers eingefügt. Skizzen, Bezugselemente und Formelemente werden unterstützt.
 
 ## Anwendung
 

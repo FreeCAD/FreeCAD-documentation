@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Scripting
-   Level   *Base
-   Time   *
-   Author   *onekk Carlo
-   FCVersion   *0.19
-   Files   *
+- TutorialInfo:/it
+   Topic:Scripting
+   Level:Base
+   Time:
+   Author:onekk Carlo
+   FCVersion:0.19
+   Files:
 ---
 
 # Scripts/it
@@ -27,7 +27,7 @@ Purtroppo le informazioni che riguardano lo scripting nella documentazione di Fr
 
 Il primo ostacolo ad un semplice approccio allo scripting deriva dal fatto che non esiste un modo per accedere direttamente all\'editor Python interno a FreeCAD, con un comando di menù od un\'icona nella barra degli strumenti, sapendo però che FreeCAD apre un file con estensione `.py` nell\'editor Python interno, il trucco più semplice è quello di creare usando il proprio editor di testo preferito, un file e poi aprirlo in FreeCAD con **File → Apri**.
 
-Per fare le cose con un minimo di stile, il file deve essere scritto con un certo ordine. L\'editor di FreeCAD possiede una buona \"evidenziazione di sintassi\" che manca a molti editor come Windows Notepad o altri editor di Linux di base, per cominciare basta scrivere queste poche righe   *
+Per fare le cose con un minimo di stile, il file deve essere scritto con un certo ordine. L\'editor di FreeCAD possiede una buona \"evidenziazione di sintassi\" che manca a molti editor come Windows Notepad o altri editor di Linux di base, per cominciare basta scrivere queste poche righe:
 
 
 ```python
@@ -40,7 +40,7 @@ Per fare le cose con un minimo di stile, il file deve essere scritto con un cert
 
 Salvatele con un nome significativo e con estensione `.py` e caricate il file ottenuto in FreeCAD, con il comando **File → Apri**.
 
-Un esempio minimale che contiene tutto quanto necessario per uno script è mostrato in questa porzione di codice, che potete usare come modello per quasi ogni vostro futuro script   *
+Un esempio minimale che contiene tutto quanto necessario per uno script è mostrato in questa porzione di codice, che potete usare come modello per quasi ogni vostro futuro script:
 
 
 ```python
@@ -58,23 +58,23 @@ from math import pi, sin, cos
 DOC = FreeCAD.activeDocument()
 DOC_NAME = "Pippo"
 
-def clear_doc()   *
+def clear_doc():
     """
     Clear the active document deleting all the objects
     """
-    for obj in DOC.Objects   *
+    for obj in DOC.Objects:
         DOC.removeObject(obj.Name)
 
-def setview()   *
+def setview():
     """Rearrange View"""
     FreeCAD.Gui.SendMsgToActiveView("ViewFit")
     FreeCAD.Gui.activeDocument().activeView().viewAxometric()
 
-if DOC is None   *
+if DOC is None:
     FreeCAD.newDocument(DOC_NAME)
     FreeCAD.setActiveDocument(DOC_NAME)
     DOC = FreeCAD.activeDocument()
-else   *
+else:
     clear_doc()
 
 # EPS= tolerance to use to cut the parts
@@ -82,7 +82,7 @@ EPS = 0.10
 EPS_C = EPS * -0.5
 ```
 
-Nel codice qui sopra sono presenti alcuni trucchi   *
+Nel codice qui sopra sono presenti alcuni trucchi:
 
 -    `import FreeCAD`Questa linea serve per importare FreeCAD all\'interno dell\'interprete Python, può sembrare superfluo, ma non lo è.
 
@@ -92,8 +92,8 @@ Cominciamo con un piccolo script che fa un piccolo lavoro, ma mostra la potenza 
 
 
 ```python
-def cubo(nome, lung, larg, alt)   *
-    obj_b = DOC.addObject("Part   *   *Box", nome)
+def cubo(nome, lung, larg, alt):
+    obj_b = DOC.addObject("Part::Box", nome)
     obj_b.Length = lung
     obj_b.Width = larg
     obj_b.Height = alt
@@ -121,8 +121,8 @@ Niente di eccezionale? Vero, ma da qualcosa dobbiamo pure incominciare, possiamo
 
 
 ```python
-def base_cyl(nome, ang, rad, alt )   *
-    obj = DOC.addObject("Part   *   *Cylinder", nome)
+def base_cyl(nome, ang, rad, alt ):
+    obj = DOC.addObject("Part::Cylinder", nome)
     obj.Angle = ang
     obj.Radius = rad
     obj.Height = altDOC.recompute()
@@ -131,7 +131,7 @@ def base_cyl(nome, ang, rad, alt )   *
 
 ```
 
-Anche qui nulla di eccezionale. Notiamo alcune cose nella costruzione del codice   *
+Anche qui nulla di eccezionale. Notiamo alcune cose nella costruzione del codice:
 
 -   L\'assenza degli usuali riferimenti ad `App.`, presenti in molta documentazione che parla di scripting, è pienamente voluto, in futuro si potrà riusare il codice per accedere a FreeCAD come un modula da un interprete Python esterno, la cosa non è proprio facilissima da AppImage, ma con qualche accortezza è possibile. Di più facendo riferimento al motto di Python \"esplicito è meglio che implicito\", `App.` non indica molto bene da dove arrivano i metodi che si usano.
 -   Notate l\'uso della \"costante\" DOC assegnata al documento attivo in `DOC` = `FreeCAD.activeDocument()`; `activeDocument()` ovviamente non è una \"costante\", ma dal punto di vista semantico è il nostro \"documento attivo\", da qui l\'uso della convenzione di Pyhton del nome \"TUTTO MAIUSCOLO\" per le \"costanti\", senza considerare che `DOC` è molto pià corto che `FreeCAD.activeDocument()`.
@@ -140,12 +140,12 @@ Anche qui nulla di eccezionale. Notiamo alcune cose nella costruzione del codice
 
 Ora cosa dobbiamo fare con questi oggetti?
 
-Introduciamo ora le operazioni booleane. Un esempio per cominciare, mettendo queste linee dopo `base_cyl(...`, si crea un metodo che esegue una operazione di \"Fusione\" conosciuta anche come \"Unione\"   *
+Introduciamo ora le operazioni booleane. Un esempio per cominciare, mettendo queste linee dopo `base_cyl(...`, si crea un metodo che esegue una operazione di \"Fusione\" conosciuta anche come \"Unione\":
 
 
 ```python
-def fuse_obj(nome, obj_0, obj_1)   *
-    obj = DOC.addObject("Part   *   *Fuse", nome)
+def fuse_obj(nome, obj_0, obj_1):
+    obj = DOC.addObject("Part::Fuse", nome)
     obj.Base = obj_0
     obj.Tool = obj_1
     obj.Refine = True
@@ -156,7 +156,7 @@ def fuse_obj(nome, obj_0, obj_1)   *
 
 Anche qui nulla di eccezionale, notate comunque l\'uniformità nel metodo di scrittura; Questo approccio è molto più lineare di quello usato in molti altri Tutorial, aiuta molto ad incrementare la leggibilità del codice e anche quando si vuole fare copia e incolla
 
-Usiamo ora queste geometrie, cancellate le linee di codice dopo `# objects definition` e inserite queste linee   *
+Usiamo ora queste geometrie, cancellate le linee di codice dopo `# objects definition` e inserite queste linee:
 
 
 ```python
@@ -171,7 +171,7 @@ fuse_obj("Fusione", obj, obj1)
 setview()
 ```
 
-Lanciate lo script con la freccia verde e vedrete nella vista 3D, qualcosa che assomiglia all\'immagine qui sotto   *
+Lanciate lo script con la freccia verde e vedrete nella vista 3D, qualcosa che assomiglia all\'immagine qui sotto:
 
 ![cube and cylinder](images/Cucil.png )
 
@@ -188,7 +188,7 @@ FreeCAD offre un\'ampia scelta di modi con cui specificare questa proprietà, mo
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 ```
 
-Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il concetto di \"punto di riferimento\" della geometria. In altri termini, il punto dal quale l\'oggetto viene costruito da parte di FreeCAD, riportiamo in questa tabella, copiata direttamente da [Placement](Placement/it.md)   *
+Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il concetto di \"punto di riferimento\" della geometria. In altri termini, il punto dal quale l\'oggetto viene costruito da parte di FreeCAD, riportiamo in questa tabella, copiata direttamente da [Placement](Placement/it.md):
 
   Oggetto                              Punto di riferimento
    
@@ -201,25 +201,25 @@ Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il 
 
 Questa informazione va tenuta ben presente specie quando si applica una rotazione.
 
-Qulche esempio ci aiuterà a capire meglio il concetto, cancellate le linee di codice dopo il metodo `base_cyl` ed inserite la porzione di codice qui sotto   *
+Qulche esempio ci aiuterà a capire meglio il concetto, cancellate le linee di codice dopo il metodo `base_cyl` ed inserite la porzione di codice qui sotto:
 
 
 ```python
-def sfera(nome, rad)   *
-    obj = DOC.addObject("Part   *   *Sphere", nome)
+def sfera(nome, rad):
+    obj = DOC.addObject("Part::Sphere", nome)
     obj.Radius = radDOC.recompute()
 
     return obj   
 
-def mfuse_obj(nome, objs)   *
-    obj = DOC.addObject("Part   *   *MultiFuse", nome)
+def mfuse_obj(nome, objs):
+    obj = DOC.addObject("Part::MultiFuse", nome)
     obj.Shapes = objs
     obj.Refine = True
     DOC.recompute()
 
     return obj
 
-def aeroplano()   *
+def aeroplano():
 
     lung_fus = 30
     diam_fus = 5
@@ -256,10 +256,10 @@ aeroplano()
 setview()
 ```
 
-Illustriamo meglio alcuni punti del codice   *
+Illustriamo meglio alcuni punti del codice:
 
 -   Abbiamo definito un metodo per creare una sfera, abbiamo usado la definizione più semplice, definendo solo il raggio.
--   Abbiamo introdotto una seconda forma per l**\'Unione** o la **Fusione** come dir si voglia, quella che permette di fondere più oggetti, niente di speciale rispetto a **Part   *   *Fuse** viene definita come **Part   *Multifuse**, notate che possiede solo una proprietà `Shapes` dove abbiamo messo una **tupla** contenente gli oggetti da fondere, avremmo potuto se necessario passare una **lista**.
+-   Abbiamo introdotto una seconda forma per l**\'Unione** o la **Fusione** come dir si voglia, quella che permette di fondere più oggetti, niente di speciale rispetto a **Part::Fuse** viene definita come **Part:Multifuse**, notate che possiede solo una proprietà `Shapes` dove abbiamo messo una **tupla** contenente gli oggetti da fondere, avremmo potuto se necessario passare una **lista**.
 -   Abbiamo definito una geometria complessa **aeroplano**, e lo abbiamo fatto in modo **\"parametrico\"**, cioè definendo alcuni parametri e calcolando in modo automatico, attraverso la definizione di alcune formule, molti dei valori che definiscono la geometria finale.
 -   Abbiamo definito qualche proprietà `Placement` per i vari componenti base della geometria e abbiamo definito la parte `Rotation` della proprietà `Placement` usando la scrittura *Yaw-Pitch-Roll*. Notate l\'ultimo componente `Vector(0,0, pos_ali)`, questo definisce il \"centro di rotazione\" della geometria finale.
 
@@ -269,7 +269,7 @@ Illustriamo meglio alcuni punti del codice   *
 
 Potete facilmente notare che l\'aereo ruota attorno al suo \"baricentro\" detto anche \"centro di gravità\", che ho fissato nel centro delle ali, una posizione abbastanza \"naturale\", potete comunque piazzarlo dove più vi aggrada o vi serve.
 
-Il primo `Vector(0,0,0)` è il vettore di Traslazione (o di posizionamento), che qui non abbiamo usato, però se sostituite la riga `aeroplano()` con le linee seguenti   *
+Il primo `Vector(0,0,0)` è il vettore di Traslazione (o di posizionamento), che qui non abbiamo usato, però se sostituite la riga `aeroplano()` con le linee seguenti:
 
 
 ```python
@@ -278,7 +278,7 @@ obj_f = aeroplano()
 print(obj_F.Placement)
 ```
 
-Potete leggere nella finestra Report questo testo   *
+Potete leggere nella finestra Report questo testo:
 
 
 ```python
@@ -289,7 +289,7 @@ Cosa è successo?
 
 FreeCAD ha \"tradotto\" il posizionamento passato con `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)`, che specificava tre componenti **Translazione**, **Rotazione** e *centro di rotazione**nel suo valore \"interno\" che possiede solo due componenti,**Translazione**e**Rotazione*\'.
 
-Potete facilmente inserire nel codice del metodo `aeroplano(...` una istruzione che stampi `pos_ali`, e vedrete che vale   *
+Potete facilmente inserire nel codice del metodo `aeroplano(...` una istruzione che stampi `pos_ali`, e vedrete che vale:
 
 
 ```python
@@ -299,14 +299,6 @@ pos ali =  21.0
 In parole povere, il *\'centro di rotazione* della geometria è posizionato a `Vector(0, 0, 21)`, ma non è mostrato attraverso l\'interfaccia grafica nella vista Dati, può essere specificato come valore nella proprietà `Placement`, ma non può essere facilmente recuperato.
 
 Questo è il significato dell\'aggettivo \"delicato\" che ho usato precedentemente nel testo per definire la proprietà `Placement`.
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

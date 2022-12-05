@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Rebar ColumnReinforcement
-   Name/fr   *Arch Rebar Armature 2x6
-   MenuLocation   *Arch → Rebar tools → Column Reinforcement ou 3D/BIM → Reinforcement → Column Reinforcement
-   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar](Arch_Rebar/fr.md), [Arch Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md), [Arch Rebar Poutres](Arch_Rebar_BeamReinforcement/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Arch Rebar ColumnReinforcement
+   Name/fr:Arch Rebar Armature 2x6
+   MenuLocation:Arch → Rebar tools → Column Reinforcement ou 3D/BIM → Reinforcement → Column Reinforcement
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar](Arch_Rebar/fr.md), [Arch Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md), [Arch Rebar Poutres](Arch_Rebar_BeamReinforcement/fr.md)
+   Version:0.19
 ---
 
 # Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr
@@ -16,9 +16,9 @@ L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) p
 
 L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
+Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
 
 
@@ -29,14 +29,14 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 1\. Sélectionnez n\'importe quelle face d\'un objet **<img src="images/_Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md) précédemment créé.**.
 2. Ensuite, sélectionnez **<img src="images/_Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement/fr.md)** dans les outils d\'armature.
 3. Une boîte de dialogue apparaîtra à l\'écran, comme indiqué ci-dessous.
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;">
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 
 
 
 *Boîte de dialogue pour l'outil Arch Rebar ColumnReinforcement*
 
 4\. Sélectionnez le type de ferraillage de colonne TwoTiesSixRebars dans le menu déroulant situé à droite.
-<img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width   *700px;">
+<img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width:700px;">
 
 
 
@@ -44,7 +44,7 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 5\. Donnez des entrées pour les données relatives aux liens.
 6. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
-<img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width   *700px;">
+<img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width:700px;">
 
 
 
@@ -56,56 +56,56 @@ Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Ties   ***
+**Ties:**
 
--    {{PropertyData/fr|Left Cover}}   * La distance entre l\'extrémité gauche de l\'attache et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'attache et la face gauche de la structure.
 
--    {{PropertyData/fr|Right Cover}}   * La distance entre l\'extrémité droite de l\'attache et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'attache et la face droite de la structure.
 
--    {{PropertyData/fr|Top Cover}}   * La distance entre l\'attache et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}: La distance entre l\'attache et la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'attache et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'attache et la face inférieure de la structure.
 
--    {{PropertyData/fr|Offset}}   * La distance entre l\'attache et la face supérieure / inférieure de la structure.
+-    {{PropertyData/fr|Offset}}: La distance entre l\'attache et la face supérieure / inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}   * Diamètre de l\'attache.
+-    {{PropertyData/fr|Diameter}}: Diamètre de l\'attache.
 
--    {{PropertyData/fr|Bent Angle}}   * L\'angle plié définit l\'angle aux extrémités d\'une attache .
+-    {{PropertyData/fr|Bent Angle}}: L\'angle plié définit l\'angle aux extrémités d\'une attache .
 
--    {{PropertyData/fr|Extension Factor}}   * Le facteur d\'extension définit la longueur de la fin de l\'attache, exprimée en diamètre.
+-    {{PropertyData/fr|Extension Factor}}: Le facteur d\'extension définit la longueur de la fin de l\'attache, exprimée en diamètre.
 
--    {{PropertyData/fr|Number}}   * Le nombre d\'attache.
+-    {{PropertyData/fr|Number}}: Le nombre d\'attache.
 
--    {{PropertyData/fr|Spacing}}   * La distance entre les axes de chaque attache.
+-    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque attache.
 
--    {{PropertyData/fr|Ties Sequence}}   * La séquence des attaches de haut en bas par rapport à la vue de face.
+-    {{PropertyData/fr|Ties Sequence}}: La séquence des attaches de haut en bas par rapport à la vue de face.
 
-**Main Rebars    *** Les barres d\'armature sont présentes aux coins de l\'attache
+**Main Rebars :** Les barres d\'armature sont présentes aux coins de l\'attache
 
--    {{PropertyData/fr|Rebar Type}}   * Type d\'armature principale.
+-    {{PropertyData/fr|Rebar Type}}: Type d\'armature principale.
 
--    {{PropertyData/fr|Hook Orientation}}   * Orientation des crochets en forme de L.
+-    {{PropertyData/fr|Hook Orientation}}: Orientation des crochets en forme de L.
 
--    {{PropertyData/fr|Hook Extend Along}}   * Direction pour l\'extension du crochet.
+-    {{PropertyData/fr|Hook Extend Along}}: Direction pour l\'extension du crochet.
 
--    {{PropertyData/fr|Hook Extension}}   * Longueur du crochet des barres d\'armature.
+-    {{PropertyData/fr|Hook Extension}}: Longueur du crochet des barres d\'armature.
 
--    {{PropertyData/fr|Rounding}}   * Une valeur d\'arrondi à appliquer aux coins des barres d\'armature en forme de L, exprimée en fois le diamètre.
+-    {{PropertyData/fr|Rounding}}: Une valeur d\'arrondi à appliquer aux coins des barres d\'armature en forme de L, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Top Offset}}   * La distance entre les barres d\'armature de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Offset}}: La distance entre les barres d\'armature de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Offset}}   * La distance entre les barres d\'armature de la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Offset}}: La distance entre les barres d\'armature de la face inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}   * Diamètre des armatures principales.
+-    {{PropertyData/fr|Diameter}}: Diamètre des armatures principales.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/fr.md).
 
-L'outil ColumnReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante    *
+L'outil ColumnReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 ### Créer deux attaches Six Rebars 
 
@@ -158,7 +158,7 @@ RebarGroup = makeTwoTiesSixRebars(
 
 -    `main_rebars_type`est le type de\'armature principale. il peut s\'agir de `"StraightRebar"` ou de `"LShapeRebar"`.
 
--    `hook_orientation`spécifie l\'orientation du hook en forme de LShaped ; il peut s\'agir de   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` ou `"Bottom Left"`.
+-    `hook_orientation`spécifie l\'orientation du hook en forme de LShaped ; il peut s\'agir de: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` ou `"Bottom Left"`.
 
 -    `hook_extend_along`spécifie la direction de l\'extension du hook ; il peut s\'agir de `"x-axis"` ou `"y-axis"`.
 
@@ -335,14 +335,6 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
     facename=None,
 )
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

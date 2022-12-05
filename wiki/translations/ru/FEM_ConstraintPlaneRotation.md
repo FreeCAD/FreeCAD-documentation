@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Ограничить вращение плоскости
-   Name   *FEM_ConstraintPlaneRotation
-   MenuLocation   *Модель → Geometrical Constraints → Ограничить вращение плоскости
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   SeeAlso   *[Ограничение преобразования](FEM_ConstraintTransform/ru.md)
+- GuiCommand:/ru
+   Name/ru:Ограничить вращение плоскости
+   Name:FEM_ConstraintPlaneRotation
+   MenuLocation:Модель → Geometrical Constraints → Ограничить вращение плоскости
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   SeeAlso:[Ограничение преобразования](FEM_ConstraintTransform/ru.md)
 ---
 
 # FEM ConstraintPlaneRotation/ru
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/FEM_ConstraintPlaneRotation.png  style="width   *32px;"> или выберите **Model** → **Механические ограничения** → **<img src="images/FEM_ConstraintPlaneRotation.png" width=32px> Вращение плоскости ограничения** из верхнего меню.
+1.  Нажмите на <img alt="" src=images/FEM_ConstraintPlaneRotation.png  style="width:32px;"> или выберите **Model** → **Механические ограничения** → **<img src="images/FEM_ConstraintPlaneRotation.png" width=32px> Вращение плоскости ограничения** из верхнего меню.
 2.  Выберите в [трёхмерном виде](3D_view/ru.md) объект, к которому должно применяться ограничение, которое может быть гранью.
 
 
@@ -40,7 +40,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Ограничение использует в CalculiX карту \*MPC. Ограничения расчёта теплопередачи описаны в <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  Ограничение использует в CalculiX карту \*MPC. Ограничения расчёта теплопередачи описаны в <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 </div>

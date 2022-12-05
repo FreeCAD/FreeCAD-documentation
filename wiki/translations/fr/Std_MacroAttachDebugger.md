@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std MacroAttachDebugger
-   Name/fr   *Std Débogueur distant
-   Empty   *1
-   MenuLocation   *Macro → Attacher au débogueur distant...
-   Workbenches   *Tous
+- GuiCommand:/fr
+   Name:Std MacroAttachDebugger
+   Name/fr:Std Débogueur distant
+   Empty:1
+   MenuLocation:Macro → Attacher au débogueur distant...
+   Workbenches:Tous
 ---
 
 # Std MacroAttachDebugger/fr

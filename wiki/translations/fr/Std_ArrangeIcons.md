@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ArrangeIcons
-   Name/fr   *Std Organiser les icônes
-   Empty   *1
-   MenuLocation   *Fenêtre → Organiser les icônes
-   Workbenches   *Tous
-   SeeAlso   *[Std Mosaïque](Std_TileWindows/fr.md)
+- GuiCommand:/fr
+   Name:Std ArrangeIcons
+   Name/fr:Std Organiser les icônes
+   Empty:1
+   MenuLocation:Fenêtre → Organiser les icônes
+   Workbenches:Tous
+   SeeAlso:[Std Mosaïque](Std_TileWindows/fr.md)
 ---
 
 # Std ArrangeIcons/fr

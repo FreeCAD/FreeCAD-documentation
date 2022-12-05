@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ConnectLines
-   Name/de   *Sketcher LinienVerbinden
-   MenuLocation   *Skizze → Skizzen-Werkzeuge → Kanten verbinden
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***Z** **J**
-   Version   *0.15
-   SeeAlso   *[Sketcher KoinzidenzFestlegen](Sketcher_ConstrainCoincident/de.md)
+- GuiCommand:/de
+   Name:Sketcher ConnectLines
+   Name/de:Sketcher LinienVerbinden
+   MenuLocation:Skizze → Skizzen-Werkzeuge → Kanten verbinden
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**Z** **J**
+   Version:0.15
+   SeeAlso:[Sketcher KoinzidenzFestlegen](Sketcher_ConstrainCoincident/de.md)
 ---
 
 # Sketcher ConnectLines/de
@@ -18,10 +18,10 @@ Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf E
 ## Anwendung
 
 1.  Nicht verbundene Elemente in der [3D-Ansicht](3D_view/de.md) oder im [Aufgabenbereich](Task_panel/de.md) auf der linken Seite des Bildschirms auswählen.
-2.  Rufe den Befehl auf verschiedene Weise auf   *
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConnectLines.svg style="width   *16px">[Linien verbinden](Sketcher_ConnectLines/de.md)** drücken.
+2.  Rufe den Befehl auf verschiedene Weise auf:
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConnectLines.svg style="width:16px">[Linien verbinden](Sketcher_ConnectLines/de.md)** drücken.
     -   Das Tastaturkürzel **Z** dann **J**.
-    -   Verwende den **Skizze→ Skizzen-Werkzeuge → [<img src=images/Sketcher_ConnectLines.svg style="width   *16px">  Linien verbinden** Eintrag aus dem oberen Menü.
+    -   Verwende den **Skizze→ Skizzen-Werkzeuge → [<img src=images/Sketcher_ConnectLines.svg style="width:16px">  Linien verbinden** Eintrag aus dem oberen Menü.
 
 ## Hinweise
 

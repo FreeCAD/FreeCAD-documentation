@@ -1,8 +1,6 @@
 # Category:Developer Documentation/ko
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/ko](Category   *Documentation/ko.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewCreate
-   Name/pl   *Std   * Utwórz widok
-   MenuLocation   *Widok → Utwórz nowy widok
-   Workbenches   *wszystkie
-   SeeAlso   *[Zablokuj / Odblokuj widok](Std_ViewDockUndockFullscreen/pl.md), [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewCreate
+   Name/pl:Std: Utwórz widok
+   MenuLocation:Widok → Utwórz nowy widok
+   Workbenches:wszystkie
+   SeeAlso:[Zablokuj / Odblokuj widok](Std_ViewDockUndockFullscreen/pl.md), [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
 ---
 
 # Std ViewCreate/pl

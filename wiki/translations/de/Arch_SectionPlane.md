@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch SectionPlane
-   Name/de   *Arch SchnittEbene
-   MenuLocation   *Arch → Schnittebene
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***S** **P**
-   SeeAlso   *[Entwurf Form2DAnsicht](Draft_Shape2DView/de.md), [TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
+- GuiCommand:/de
+   Name:Arch SectionPlane
+   Name/de:Arch SchnittEbene
+   MenuLocation:Arch → Schnittebene
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**S** **P**
+   SeeAlso:[Entwurf Form2DAnsicht](Draft_Shape2DView/de.md), [TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
 ---
 
 # Arch SectionPlane/de
@@ -16,7 +16,7 @@ Dieses Werkzeug platziert im aktuellen Dokument eine Schnittebene \"Ding\", die 
 
 Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu musst du eine [TechDraw ArchAnsicht](TechDraw_ArchView/de.md) erzeugen, um eine Ansicht auf einer [TechDraw StandardSeite](TechDraw_Workbench/de.md) zu erzeugen.
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
 ## Anwendung
 
@@ -33,31 +33,31 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 -   Wenn ein Schnittebenenobjekt ausgewählt ist, verwendedas [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) Werkzeug, um ein Formobjekt zu erstellen, das die Schnittansicht im Dokument darstellt.
 
-<img alt="" src=images/Arch_Section_example2.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
 -   Erstelle [Zeichnungs EntwurfsAnsichten](Draft_Drawing/de.md), wenn du mit dem [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) arbeitest, oder [TechDraw ArchAnsicht](TechDraw_ArchView/de.md), wenn du den [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) verwendest.
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
 -   Die Schnittebene kann auch verwendet werden, um die gesamte 3D Ansicht zu zeigen, die von einer unendlichen Ebene geschnitten wird. Dies ist nur visuell und hat keinen Einfluss auf die Geometrie der geschnittenen Objekte.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
 ## Eigenschaften
 
--    **Nur Festkörper**   * Wenn dies True ist, werden nicht-feste Objekte in der Einstellung nicht berücksichtigt.
+-    **Nur Festkörper**: Wenn dies True ist, werden nicht-feste Objekte in der Einstellung nicht berücksichtigt.
 
--    **Anzeige Länge**   * Die Länge des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
+-    **Anzeige Länge**: Die Länge des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
 
--    **Anzeige Höhe**   * Die Höhe des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
+-    **Anzeige Höhe**: Die Höhe des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
 
--    **Pfeilgröße**   * Die Größe der Pfeile des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
+-    **Pfeilgröße**: Die Größe der Pfeile des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
 
--    **Schnittansicht**   * Wenn dies `True` ist, wird die gesamte 3D Ansicht an der Stelle dieser Schnittebene geschnitten.
+-    **Schnittansicht**: Wenn dies `True` ist, wird die gesamte 3D Ansicht an der Stelle dieser Schnittebene geschnitten.
 
--    **Clipansicht**   * Wenn dies `True` ist, wird die Ansicht auf die Anzeigehöhe und -länge der Schnittebene zugeschnitten. Dadurch wird die Schnittebene effektiv zu einer orthografischen Kamera, wodurch das Sichtfeld begrenzt wird. <small>(v0.19)</small> 
+-    **Clipansicht**: Wenn dies `True` ist, wird die Ansicht auf die Anzeigehöhe und -länge der Schnittebene zugeschnitten. Dadurch wird die Schnittebene effektiv zu einer orthografischen Kamera, wodurch das Sichtfeld begrenzt wird. <small>(v0.19)</small> 
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
 
@@ -65,16 +65,16 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 ## Kleine Verbesserungen 
 
--   Das manuelle Hinzufügen einer Eigenschaft namens **RotateSolidRender** des Typs **App   *   *PropertyAngle** zu den Schnittebene **Ansicht**-Eigenschaften (rechtsklicke in die Ansicht-Eigenschaften → Alle anzeigen, rechtsklicke erneut → Eigenschaft hinzufügen) erlaubt es, das Render-Objekt zu drehen, wenn der Volumenkörper-Modus benutzt wird. Dies ist sinnvoll, wenn eine gerenderte Ansicht bspw. sowohl Arch- als auch Draft-Element enthält und die Arch-Elemente im Verhältnis zu den Draft-Elementen gedreht sind. {{version/de|0.19}}
+-   Das manuelle Hinzufügen einer Eigenschaft namens **RotateSolidRender** des Typs **App::PropertyAngle** zu den Schnittebene **Ansicht**-Eigenschaften (rechtsklicke in die Ansicht-Eigenschaften → Alle anzeigen, rechtsklicke erneut → Eigenschaft hinzufügen) erlaubt es, das Render-Objekt zu drehen, wenn der Volumenkörper-Modus benutzt wird. Dies ist sinnvoll, wenn eine gerenderte Ansicht bspw. sowohl Arch- als auch Draft-Element enthält und die Arch-Elemente im Verhältnis zu den Draft-Elementen gedreht sind. {{version/de|0.19}}
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das SchnittEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, in dem die folgende Funktion verwendet wird   *
+Das SchnittEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, in dem die folgende Funktion verwendet wird:
 
 
 ```python
@@ -83,7 +83,7 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 
 -   Erzeugt ein `Schnitt` Objekt aus `Objektliste`, die eine Liste von Objekten ist.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

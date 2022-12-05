@@ -23,7 +23,7 @@
 
 ## Verfügbare Muster 
 
-Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concrete.svg\|concrete Image   *Cross.svg\|cross Image   *Cuprous.svg\|cuprous Image   *Diagonal1.svg\|diagonal1 Image   *Diagonal2.svg\|diagonal2 Image   *Earth.svg\|earth Image   *General_steel.svg\|general_steel Image   *Glass.svg\|glass Image   *Hatch45L.svg\|hatch45L Image   *Hatch45R.svg\|hatch45R Image   *Hbone.svg\|hbone Image   *Line.svg\|line Image   *Plastic.svg\|plastic Image   *Plus.svg\|plus Image   *Simple.svg\|simple Image   *Solid.svg\|solid Image   *Square.svg\|square Image   *Steel.svg\|steel Image   *Titanium.svg\|titanium Image   *Wood.svg\|wood Image   *Woodgrain.svg\|woodgrain Image   *Zinc.svg\|zinc
+Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General_steel.svg\|general_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
 ## Hinweise
 
@@ -32,11 +32,11 @@ Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concret
 
 ## Einstellungen
 
-Siehe auch   * [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   Um ein Verzeichnis mit zusätzlichen SVG-Mustern anzugeben   * **Bearbeiten → Einstellungen... → Entwurf → Visuelle Einstellungen → Ablageort alternativer SVG-Muster**. Wähle eine Datei im Verzeichnis aus und entferne dann den Dateinamen im Eingabefeld für die Einstellungen, so dass nur der Pfad übrig bleibt. Nach dem Ändern dieser Voreinstellung musst du FreeCAD neu starten.
+-   Um ein Verzeichnis mit zusätzlichen SVG-Mustern anzugeben: **Bearbeiten → Einstellungen... → Entwurf → Visuelle Einstellungen → Ablageort alternativer SVG-Muster**. Wähle eine Datei im Verzeichnis aus und entferne dann den Dateinamen im Eingabefeld für die Einstellungen, so dass nur der Pfad übrig bleibt. Nach dem Ändern dieser Voreinstellung musst du FreeCAD neu starten.
 -   Der Menüeintrag **Bearbeiten → Einstellungen... → Entwurf → Visuelle Einstellungen →  Auflösung des SVG-Musters** wird nicht verwendet.
--   um die {{PropertyView/de|Pattern Size}}, die für neue Objekte verwendet wird zu ändern   * **Bearbeiten → Einstellungen... → Entwurf → Visuelle Einstellungen → Standardgröße des SVG-Musters**.
+-   um die {{PropertyView/de|Pattern Size}}, die für neue Objekte verwendet wird zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Visuelle Einstellungen → Standardgröße des SVG-Musters**.
 
 
 

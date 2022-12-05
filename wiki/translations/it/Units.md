@@ -1,14 +1,14 @@
 # Units/it
 {{TOCright}}
 
-Alcune letture sulle unità di misura   *
+Alcune letture sulle unità di misura:
 
--   [Metrologia](http   *//it.wikipedia.org/wiki/Metrologia)
--   [Sistema Internazionale di Misura SI](http   *//it.wikipedia.org/wiki/Sistema_internazionale_di_unit%C3%A0_di_misura)
--   [Sistema imperiale britannico](http   *//it.wikipedia.org/wiki/Sistema_imperiale_britannico)
--   [SI derived unit](http   *//en.wikipedia.org/wiki/SI_derived_unit) (in italiano si trovano nella stessa pagina del SI)
--   [Grado d\'arco - Unità angolari](http   *//it.wikipedia.org/wiki/Grado_d%27arco)
--   [Unità implementate in OCC](https   *//github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
+-   [Metrologia](http://it.wikipedia.org/wiki/Metrologia)
+-   [Sistema Internazionale di Misura SI](http://it.wikipedia.org/wiki/Sistema_internazionale_di_unit%C3%A0_di_misura)
+-   [Sistema imperiale britannico](http://it.wikipedia.org/wiki/Sistema_imperiale_britannico)
+-   [SI derived unit](http://en.wikipedia.org/wiki/SI_derived_unit) (in italiano si trovano nella stessa pagina del SI)
+-   [Grado d\'arco - Unità angolari](http://it.wikipedia.org/wiki/Grado_d%27arco)
+-   [Unità implementate in OCC](https://github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
 ## Esempi
 

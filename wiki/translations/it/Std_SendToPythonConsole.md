@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std_SendToPythonConsole
-   Name/it   *Invia alla console Python
-   MenuLocation   *Modifica → Invia alla console Python
-   Workbenches   *Tutti
-   Shortcut   ***Ctrl**+**Maiusc**+**P**
-   Version   *0.19
+- GuiCommand:/it
+   Name:Std_SendToPythonConsole
+   Name/it:Invia alla console Python
+   MenuLocation:Modifica → Invia alla console Python
+   Workbenches:Tutti
+   Shortcut:**Ctrl**+**Maiusc**+**P**
+   Version:0.19
 ---
 
 # Std SendToPythonConsole/it
@@ -20,7 +20,7 @@ Il comando **Invia alla console Python** crea una variabile nel [console Python]
 
 </div>
 
-Depending on the selected object and its selected subshapes, if any, the following variables are created   *
+Depending on the selected object and its selected subshapes, if any, the following variables are created:
 
 +++
 | Variable name   | Referenced object(s)                                                                                                                                    |
@@ -33,12 +33,12 @@ Depending on the selected object and its selected subshapes, if any, the followi
 | {{Incode|lnk}}  |                                                                                                                                                         |
 |              |                                                                                                                                                         |
 +++
-|  | Depending on the selected object   *                                                                                                                       |
+|  | Depending on the selected object:                                                                                                                       |
 | {{Incode|obj}}  | The selected object itself (if the selected object is not a Link)                                                                                       |
 |              | The Linked object (if the selected object is a Link)                                                                                                    |
 +++
-|  | Depending on the type of {{Incode|obj}}   *                                                                                                  |
-| {{Incode|shp}}  | The {{Incode|Shape}} property of {{Incode|obj}} (for objects derived from the {{Incode|Part   *   *Feature}} class) |
+|  | Depending on the type of {{Incode|obj}}:                                                                                                  |
+| {{Incode|shp}}  | The {{Incode|Shape}} property of {{Incode|obj}} (for objects derived from the {{Incode|Part::Feature}} class) |
 |              | The {{Incode|Mesh}} property of {{Incode|obj}} (for Mesh objects)                                                           |
 |                 | The {{Incode|Points}} property of {{Incode|obj}} (for Points objects)                                                       |
 +++
@@ -52,9 +52,9 @@ Depending on the selected object and its selected subshapes, if any, the followi
 +++
 
 >>> ### Begin command Std_SendToPythonConsole
->>> try   *
+>>> try:
 >>>     del(doc,lnk,obj,shp,sub,subs)
->>> except Exception   *
+>>> except Exception:
 >>>     pass
 >>> 
 >>> doc = App.getDocument("Unnamed")
@@ -70,7 +70,7 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 
 
-*Esempio di output   * è stato selezionato un bordo di un [cubo di Part](Part_Box/it.md)*
+*Esempio di output: è stato selezionato un bordo di un [cubo di Part](Part_Box/it.md)*
 
 
 </div>
@@ -81,10 +81,10 @@ Depending on the selected object and its selected subshapes, if any, the followi
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un singolo oggetto.
-2.  Esistono diversi modi per invocare il comando   *
+2.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_SendToPythonConsole.svg" width=16px> Invia alla console Python** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_SendToPythonConsole.svg" width=16px> Invia alla console Python** dal menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
-    -   Usare la scorciatoia da tastiera   * **Ctrl**+**Maiusc**+**P**.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**Maiusc**+**P**.
 
 
 </div>
@@ -93,9 +93,9 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 -   All previously created variables are deleted each time the command is run.
 
--   If the selected object is a Link ({{Incode|App   *   *Link}}) and the Linked object is derived from the {{Incode|Part   *   *Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code   *
+-   If the selected object is a Link ({{Incode|App::Link}}) and the Linked object is derived from the {{Incode|Part::Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code:
 
-   *   
+:   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
     

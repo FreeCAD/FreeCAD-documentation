@@ -1,14 +1,14 @@
 # Units/fr
 {{TOCright}}
 
-Un peu de lecture sur les unités    *
+Un peu de lecture sur les unités :
 
--   [Métrologie](https   *//fr.wikipedia.org/wiki/M%C3%A9trologie)
--   [Système international d\'unités](https   *//fr.wikipedia.org/wiki/Système_international_d'unités)
--   [Système d\'unités impériales](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_d%27unit%C3%A9s_imp%C3%A9riales)
--   [Unité dérivée du Système international](https   *//fr.wikipedia.org/wiki/Unités_dérivées_du_système_international)
--   [Degré (angle)](https   *//fr.wikipedia.org/wiki/Degré_(angle))
--   [Unités implémentées dans OCC](https   *//github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
+-   [Métrologie](https://fr.wikipedia.org/wiki/M%C3%A9trologie)
+-   [Système international d\'unités](https://fr.wikipedia.org/wiki/Système_international_d'unités)
+-   [Système d\'unités impériales](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27unit%C3%A9s_imp%C3%A9riales)
+-   [Unité dérivée du Système international](https://fr.wikipedia.org/wiki/Unités_dérivées_du_système_international)
+-   [Degré (angle)](https://fr.wikipedia.org/wiki/Degré_(angle))
+-   [Unités implémentées dans OCC](https://github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
 ## Exemples
 

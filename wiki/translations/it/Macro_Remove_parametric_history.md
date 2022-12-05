@@ -8,14 +8,14 @@
 |Version=0.1
 |Date=2011-08-01
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/b/b7/Macro_Remove_parametric_history.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/b/b7/Macro_Remove_parametric_history.png ToolBar Icon]
 }}
 
 ## Descrizione
 
 Questa operazione rimuove tutte le associazioni parametriche da un oggetto, lasciandolo come *muto*.
 
-Prima e dopo    *
+Prima e dopo :
 
 ![](images/RPH_before.png )
 
@@ -34,7 +34,7 @@ originalObject = FreeCAD.ActiveDocument.ActiveObject
 newShape = originalObject.Shape.copy()
 newName = FreeCAD.ActiveDocument.ActiveObject.Name
 FreeCAD.ActiveDocument.removeObject(newName)
-newObject = FreeCAD.ActiveDocument.addObject("Part   *   *Feature",newName)
+newObject = FreeCAD.ActiveDocument.addObject("Part::Feature",newName)
 newObject.Shape = newShape
 
 }}

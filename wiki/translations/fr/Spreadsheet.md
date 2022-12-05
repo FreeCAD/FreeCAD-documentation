@@ -5,8 +5,8 @@ Une [feuille de calcul](spreadsheet/fr.md) est une page qui contient des lignes 
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *16px;"> [Atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
-2.  Appuyez sur **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md)** pour créer une nouvelle feuille.
+1.  Basculez vers l\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
+2.  Appuyez sur **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md)** pour créer une nouvelle feuille.
 3.  Modifiez le contenu des cellules.
 4.  Fermez l\'onglet de la feuille de calcul lorsque vous avez terminé, les valeurs sont enregistrées automatiquement lorsque vous les tapez.
 

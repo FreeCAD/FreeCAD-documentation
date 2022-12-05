@@ -1,8 +1,6 @@
 # Category:Workbenches/pt-br
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/pt-br](Category   *User_Documentation/pt-br.md)
-
 ### Contents
 
 |     |     |     |

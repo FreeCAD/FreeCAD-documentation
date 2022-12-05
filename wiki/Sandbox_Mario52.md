@@ -10,10 +10,10 @@
                import sys
                
                ##                ####new2
-               pathFile           = os.path.dirname(SaveName) + "/"        #= C   */Provisoire400/
+               pathFile           = os.path.dirname(SaveName) + "/"        #= C:/Provisoire400/
                formatFichier = os.path.splitext(SaveName)[1]            #=  .png
                SaveName      = os.path.splitext(SaveName)[0]            #  /home/kubuntu/.FreeCAD/Macro/Texture_007_H
-               SaveNameformatFichier = SaveName + formatFichier   #= C   */Provisoire400/image3D.png
+               SaveNameformatFichier = SaveName + formatFichier   #= C:/Provisoire400/image3D.png
                
                print(SaveName) 
                print(formatFichier)
@@ -22,7 +22,7 @@
                ##                ####new2
                print("__________________________")
 
-OS   * Ubuntu 20.10 (KDE/plasma) Word size of OS   * 64-bit Word size of FreeCAD   * 64-bit Version   * 0.19.23578 (Git) AppImage Build type   * Release Branch   * master Hash   * 50c3cbf00579dc4941ca743c25720d016b0453ce Python version   * 3.8.6 Qt version   * 5.12.5 Coin version   * 4.0.0 OCC version   * 7.4.0
+OS: Ubuntu 20.10 (KDE/plasma) Word size of OS: 64-bit Word size of FreeCAD: 64-bit Version: 0.19.23578 (Git) AppImage Build type: Release Branch: master Hash: 50c3cbf00579dc4941ca743c25720d016b0453ce Python version: 3.8.6 Qt version: 5.12.5 Coin version: 4.0.0 OCC version: 7.4.0
 
 
 {{Mario52|FALSE|runCommand}}
@@ -48,10 +48,6 @@ totoche
 {{Mario52}}
 
 totoche
-
- 
-
-[Category   *Sandbox](Category_Sandbox.md)
 
 
 

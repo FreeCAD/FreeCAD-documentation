@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std ShowObjects
-   MenuLocation   *View → Visibility → Show all objects
-   Workbenches   *All
-   SeeAlso   *[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std HideObjects](Std_HideObjects.md)
+- GuiCommand:
+   Name:Std ShowObjects
+   MenuLocation:View → Visibility → Show all objects
+   Workbenches:All
+   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---
 
 # Std ShowObjects
@@ -24,7 +24,7 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

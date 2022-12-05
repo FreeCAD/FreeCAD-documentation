@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh EvaluateSolid
-   Name/pl   *Siatka   * Sprawdź siatkę bryły
-   MenuLocation   *Siatki → Analizuj → Sprawdź siatkę bryły
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso   *[Zaznacz siatki niebryłowe](Arch_SelectNonSolidMeshes/pl.md)
+- GuiCommand:/pl
+   Name:Mesh EvaluateSolid
+   Name/pl:Siatka: Sprawdź siatkę bryły
+   MenuLocation:Siatki → Analizuj → Sprawdź siatkę bryły
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Zaznacz siatki niebryłowe](Arch_SelectNonSolidMeshes/pl.md)
 ---
 
 # Mesh EvaluateSolid/pl
@@ -16,7 +16,7 @@ Polecenie **Sprawdź siatkę bryły** sprawdza, czy obiekt siatkowy jest jednoli
 ## Użycie
 
 1.  Zaznacz pojedynczy obiekt siatki.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_EvaluateSolid.svg" width=16px> [Sprawdź siatkę bryły](Mesh_EvaluateSolid/pl.md)**.
     -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_EvaluateSolid.svg" width=16px> Sprawdź siatkę bryły**.
 3.  Otworzy się okno dialogowe **Siatka bryły** informujące, że wybrany obiekt siatki jest ciągły lub nie.

@@ -1,7 +1,7 @@
 # Start Preferences/pl
-Ekran preferencji środowiska pracy <img alt="środowisko pracy Start" src=images/Workbench_Start.svg  style="width   *24px;"> [Start](Start_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → Start**. Ta sekcja jest dostępna tylko po odwiedzeniu stanowiska pracy lub po załadowaniu go za pomocą zakładki *Dostępne środowiska pracy* w sekcji **Środowiska pracy**.
+Ekran preferencji środowiska pracy <img alt="środowisko pracy Start" src=images/Workbench_Start.svg  style="width:24px;"> [Start](Start_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → Start**. Ta sekcja jest dostępna tylko po odwiedzeniu stanowiska pracy lub po załadowaniu go za pomocą zakładki *Dostępne środowiska pracy* w sekcji **Środowiska pracy**.
 
-Istnieje tylko jedna zakładka   * **Opcje strony startowej** w sekcji **Start**. Na tej karcie można skonfigurować następujące elementy   *
+Istnieje tylko jedna zakładka: **Opcje strony startowej** w sekcji **Start**. Na tej karcie można skonfigurować następujące elementy:
 
 +++
 | Nazwa                                                      | Opis                                                                                                                                                                                                                                                           |
@@ -89,9 +89,7 @@ Istnieje tylko jedna zakładka   * **Opcje strony startowej** w sekcji **Start**
 
 {{Start Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

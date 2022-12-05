@@ -1,6 +1,6 @@
 # Arch CloseHoles/sv
 ---
-- GuiCommand   */sv   Name   *Arch CloseHoles   Name/sv   *Arch CloseHoles   Workbenches   *[MenuLocation   *Arch → Utilities → Close Holes   SeeAlso   *[[Arch Check/sv|Arch Check](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:/sv   Name:Arch CloseHoles   Name/sv:Arch CloseHoles   Workbenches:[MenuLocation:Arch → Utilities → Close Holes   SeeAlso:[[Arch Check/sv|Arch Check](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>
@@ -22,21 +22,21 @@ This tool identifies holes (circular sequence of open edges) in a [Shape](Part_W
 
 </div>
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
+This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 solid = closeHole(shape)
 ```
 
 -   Closes a hole in a `shape`, which is a `Part.Shape`, and returns the new `solid` object.
 
-Example   * 
+Example: 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

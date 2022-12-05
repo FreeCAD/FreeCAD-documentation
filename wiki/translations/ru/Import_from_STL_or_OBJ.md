@@ -14,15 +14,15 @@ In this tutorial we will cover how to import STL/OBJ files in FreeCAD. Since the
 
 ## Sample part 
 
-For this tutorial you can use your own STL file or create a demo file by doing this   *
+For this tutorial you can use your own STL file or create a demo file by doing this:
 
 -   Open FreeCAD
 -   Create a new document
 -   Switch to the mesh workbench
--   Insert a torus by clicking on **Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...**, choosing settings like   *
-    -   Radius1   * 10 mm
-    -   Radius2   * 2 mm
-    -   Sampling   * 50
+-   Insert a torus by clicking on **Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...**, choosing settings like:
+    -   Radius1: 10 mm
+    -   Radius2: 2 mm
+    -   Sampling: 50
 -   Click on **Create** and then on **Close**
 -   Save your file with **File** → **Save** to get a FreeCAD-File containing a mesh object
 
@@ -34,8 +34,8 @@ Basically, FreeCAD would import any STL/OBJ-File. But our goal is to have a soli
 FreeCAD's aim is not to be a good mesh modeler, it is designed to be a solid modeler. FreeCAD has some capabilities for mesh operation in mesh workbench and OpenSCAD workbench (some operations need OpenSCAD to be installed and configured in the FreeCAD-preferences).
 Some users like to use third-party software for cleaning and repairing meshes, for example
 
--   [Netfabb Basic](http   *//www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free for personal use (automatic mesh repair available)
--   [Meshlab](http   *//meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
+-   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free for personal use (automatic mesh repair available)
+-   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
 
 In this tutorial we will use the mesh workbench within FreeCAD to clean/repair/verify the mesh of our sample file.
 
@@ -58,7 +58,7 @@ Harmonizing normals of a mesh object can be done by
 -   Selecting your mesh object in the tree view
 -   Choose **Meshes** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Harmonize normals** from the top menu.
 
-Tip   * By choosing the mesh object in the tree view, going to the view tab in the property view and changing \"Lighting\" from \"Two Side\" to \"One Side\" you can identify triangles with flipped normals. If the normals point into the mesh the triangle will be shown in black.
+Tip: By choosing the mesh object in the tree view, going to the view tab in the property view and changing \"Lighting\" from \"Two Side\" to \"One Side\" you can identify triangles with flipped normals. If the normals point into the mesh the triangle will be shown in black.
 
 ### Closing holes 
 
@@ -78,7 +78,7 @@ Another method of manually closing holes in your mesh object would be
 
 ## Conversion mesh to solid 
 
--   Switch to <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Workbench](Part_Workbench.md)
+-   Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
 -   Make sure your mesh object is selected in the tree view, otherwise select it
 -   Choose **Part** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Create shape from mesh ...** from top menu
 -   Specify tolerance for sewing shape (0,1 is default)
@@ -96,11 +96,6 @@ Since the created solid has no history and no editable features (like a simple c
 
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 -   [Import Export](Import_Export.md)
-
-
- 
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

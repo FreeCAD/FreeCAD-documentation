@@ -1,16 +1,16 @@
 ---
-- GuiCommand   *
-   Name   *Web BrowserNext
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso   *
+- GuiCommand:
+   Name:Web BrowserNext
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso:
 ---
 
 # Web BrowserNext
 
 ## Description
 
-Use the <img alt="" src=images/Web_BrowserNext.svg  style="width   *24px;"> **Web BrowserNext** command to go to the next page in the list of visited web pages.
+Use the <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **Web BrowserNext** command to go to the next page in the list of visited web pages.
 
 ## Usage
 

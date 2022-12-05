@@ -29,14 +29,9 @@ kcachegrind /tmp/callgrind.out
 
 ## Ressources
 
--   [The Python profilers](https   *//docs.python.org/3/library/profile.html), `cProfile` et `python`.
--   [pyprof2calltree](https   *//pypi.org/project/pyprof2calltree/) à PyPI; dépôt [pyprof2calltree](https   *//github.com/pwaller/pyprof2calltree/).
--   [FreeCAD\'s Python profiling tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44785).
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+-   [The Python profilers](https://docs.python.org/3/library/profile.html), `cProfile` et `python`.
+-   [pyprof2calltree](https://pypi.org/project/pyprof2calltree/) à PyPI; dépôt [pyprof2calltree](https://github.com/pwaller/pyprof2calltree/).
+-   [FreeCAD\'s Python profiling tutorial](https://forum.freecadweb.org/viewtopic.php?f=10&t=44785).
 
 
 

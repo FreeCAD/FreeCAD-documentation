@@ -1,8 +1,6 @@
 # Category:External Workbenches/pt
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-[Category   *Workbenches/pt](Category   *Workbenches/pt.md) [Category   *Addons/pt](Category   *Addons/pt.md)
-
 ### Contents
 
 |     |     |     |

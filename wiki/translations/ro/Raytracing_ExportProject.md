@@ -1,6 +1,6 @@
 # Raytracing ExportProject/ro
 ---
-- GuiCommand   *   Name   *Raytracing ExportProject   MenuLocation   *Raytracing → ExportProject   |Workbenches   *[[Raytracing_Workbench   Raytracing]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Raytracing ExportProject   MenuLocation:Raytracing → ExportProject   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -25,7 +25,7 @@ Exportă proiectul raytracing selectat într-un fișier.
 ## Utilizare
 
 1.  Selectați proiectul raytracing în vizualizarea arborescentă.
-2.  Click pe <img alt="" src=images/Raytracing_ExportProject.png  style="width   *32px;"> sau alegeți ** Raytracing** → **<img src="images/Raytracing_ExportProject.png" width=32px> Export project...** din meniul principal.
+2.  Click pe <img alt="" src=images/Raytracing_ExportProject.png  style="width:32px;"> sau alegeți ** Raytracing** → **<img src="images/Raytracing_ExportProject.png" width=32px> Export project...** din meniul principal.
 
 
 </div>

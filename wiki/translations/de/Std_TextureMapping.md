@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Std TextureMapping
-   Name/de   *Std Texturabbildung
-   MenuLocation   *Ansicht → Texturabbildung...
-   Workbenches   *Alle
+- GuiCommand:/de
+   Name:Std TextureMapping
+   Name/de:Std Texturabbildung
+   MenuLocation:Ansicht → Texturabbildung...
+   Workbenches:Alle
 ---
 
 # Std TextureMapping/de

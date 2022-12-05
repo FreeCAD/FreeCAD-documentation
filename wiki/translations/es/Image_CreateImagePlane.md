@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Image CreateImagePlane
-   MenuLocation   *
-   Workbenches   *[Image](Image_Workbench.md)
-   SeeAlso   *[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
+- GuiCommand:
+   Name:Image CreateImagePlane
+   MenuLocation:
+   Workbenches:[Image](Image_Workbench.md)
+   SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
 
 # Image CreateImagePlane/es
@@ -29,20 +29,20 @@ If no offset is given to the image initially, its position can still be adjusted
 
 {{Properties Title|Base}}
 
--    **Position**   * specifies the coordinates of the base point of the image plane.
+-    **Position**: specifies the coordinates of the base point of the image plane.
 
--    **Angle**   * specifies the angle of rotation of the image plane.
+-    **Angle**: specifies the angle of rotation of the image plane.
 
--    **Axis**   * specifies the axis used for the rotation angle.
+-    **Axis**: specifies the axis used for the rotation angle.
 
 
 {{Properties Title|Image Plane}}
 
--    **Image File**   * specifies the image to use for this plane.
+-    **Image File**: specifies the image to use for this plane.
 
--    **XSize**   * specifies the width of the image plane.
+-    **XSize**: specifies the width of the image plane.
 
--    **YSize**   * specifies the height of the image plane.
+-    **YSize**: specifies the height of the image plane.
 
 
 <div class="mw-translate-fuzzy">

@@ -1,22 +1,22 @@
 ---
-- GuiCommand   *
-   Name   *Mesh RemeshGmsh
-   MenuLocation   *Meshes → Refinement...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[Mesh FromPartShape](Mesh_FromPartShape.md)
+- GuiCommand:
+   Name:Mesh RemeshGmsh
+   MenuLocation:Meshes → Refinement...
+   Workbenches:[Mesh](Mesh_Workbench.md)
+   Version:0.19
+   SeeAlso:[Mesh FromPartShape](Mesh_FromPartShape.md)
 ---
 
 # Mesh RemeshGmsh/en
 
 ## Description
 
-The **Mesh RemeshGmsh** command remeshes a mesh object using the [Gmsh](https   *//gmsh.info/) mesher. The new mesh can be finer or coarser.
+The **Mesh RemeshGmsh** command remeshes a mesh object using the [Gmsh](https://gmsh.info/) mesher. The new mesh can be finer or coarser.
 
 ## Usage
 
 1.  Select a single mesh object.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Mesh RemeshGmsh](Mesh_RemeshGmsh.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Refinement...** option from the menu.
 3.  The **Remesh by gmsh** task panel opens.
@@ -31,7 +31,7 @@ The **Mesh RemeshGmsh** command remeshes a mesh object using the [Gmsh](https   
 
 ## Properties
 
-See   * [Mesh Feature](Mesh_Feature.md).
+See: [Mesh Feature](Mesh_Feature.md).
 
 
 

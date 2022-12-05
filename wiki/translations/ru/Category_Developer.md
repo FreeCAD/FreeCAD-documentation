@@ -1,8 +1,6 @@
 # Category:Developer/ru
 This category contains articles that are relevant for developers.
 
-[Category   *Categories/ru](Category   *Categories/ru.md)
-
 ### Contents
 
 |     |     |     |

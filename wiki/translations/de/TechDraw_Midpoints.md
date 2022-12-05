@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw Midpoints
-   Name/de   *TechDraw Mittenpunkte
-   MenuLocation   *TechDraw → Knoten hinzufügen → Mittenpunktknoten hinzufügen
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Kosmetik Knoten](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
+- GuiCommand:/de
+   Name:TechDraw Midpoints
+   Name/de:TechDraw Mittenpunkte
+   MenuLocation:TechDraw → Knoten hinzufügen → Mittenpunktknoten hinzufügen
+   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Version:0.19
+   SeeAlso:[TechDraw Kosmetik Knoten](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
 ---
 
 # TechDraw Midpoints/de
@@ -14,7 +14,7 @@
 
 Das Mittenpunkte Werkzeug fügt kosmetische [Knoten (=Vertices)](Glossary/de#V.md) an den Mittenpunkten einer oder mehrerer Kanten hinzu.
 
-<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
 *Kosmetische Knoten an Kantenmittenpunkten*
 
 ## Anwendung
@@ -31,7 +31,7 @@ Kosmetische Knoten haben keine eigenen Eigenschaften, da sie keine Dokumentobjek
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Kosmetikknoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Python](Python/de.md) Konsole zugänglich. Dieser Schnipsel entfernt alle Kosmetikknoten aus der Ansicht.
 

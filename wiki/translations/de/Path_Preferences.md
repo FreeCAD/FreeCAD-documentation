@@ -8,7 +8,7 @@ Der Einstellungsbildschirm der [Pfad Arbeitsbereich](Path_Workbench/de.md) befin
 
 <div class="mw-translate-fuzzy">
 
-Es gibt drei Reiter   * Auftragseinstellungen, Aufmachungen und Pfadfarben.
+Es gibt drei Reiter: Auftragseinstellungen, Aufmachungen und Pfadfarben.
 
 
 </div>
@@ -18,7 +18,7 @@ Es gibt drei Reiter   * Auftragseinstellungen, Aufmachungen und Pfadfarben.
 
 <div class="mw-translate-fuzzy">
 
-Es gibt drei Abschnitte   * Allgemein, Nachbearbeiter und Einrichtung.
+Es gibt drei Abschnitte: Allgemein, Nachbearbeiter und Einrichtung.
 
 
 </div>
@@ -63,9 +63,7 @@ Es gibt drei Abschnitte   * Allgemein, Nachbearbeiter und Einrichtung.
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

@@ -1,20 +1,20 @@
 # WikiPages/ru
 {{TOCright}}
 
-This page is an extension of the [Help   *Editing](Help_Editing.md) page and gives common guidelines for writing and updating the FreeCAD wiki documentation. It summarizes several discussions and brainstorming sessions
+This page is an extension of the [Help:Editing](Help_Editing.md) page and gives common guidelines for writing and updating the FreeCAD wiki documentation. It summarizes several discussions and brainstorming sessions
 
 ## Прежде чем начать 
 
 
 <div class="mw-translate-fuzzy">
 
--   Эта вики - документация основана на [MediaWiki](https   *//www.mediawiki.org/wiki/MediaWiki), это программное обеспечение, абсолютно аналогичное [Википедии](https   *//ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0). Если вы до этого вносили правки в Википедию, то редактирование вики-страниц FreeCAD для вас должно быть легкой задачей.
--   В отличие от Википедии, вики FreeCAD защищена от записи, чтобы избежать спама. Вы должны запросить учетную запись [на форуме](http   *//forum.freecadweb.org/viewtopic.php?f=21&t=6830).
--   Если вы никогда раньше не использовали программное обеспечение wiki, пожалуйста, прочитайте [Help   *Editing](Help_Editing.md), чтобы ознакомиться с используемой разметкой.
--   Для расширенного использования программного обеспечения wiki см. [MediaWiki Справка   *Содержание](https   *//www.mediawiki.org/wiki/Help   *Contents/ru). Не все функции MediaWiki доступны в этой вики FreeCAD, но многие из них доступны.
+-   Эта вики - документация основана на [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), это программное обеспечение, абсолютно аналогичное [Википедии](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0). Если вы до этого вносили правки в Википедию, то редактирование вики-страниц FreeCAD для вас должно быть легкой задачей.
+-   В отличие от Википедии, вики FreeCAD защищена от записи, чтобы избежать спама. Вы должны запросить учетную запись [на форуме](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830).
+-   Если вы никогда раньше не использовали программное обеспечение wiki, пожалуйста, прочитайте [Help:Editing](Help_Editing.md), чтобы ознакомиться с используемой разметкой.
+-   Для расширенного использования программного обеспечения wiki см. [MediaWiki Справка:Содержание](https://www.mediawiki.org/wiki/Help:Contents/ru). Не все функции MediaWiki доступны в этой вики FreeCAD, но многие из них доступны.
 -   Нам нравится, чтобы документация была легкой для чтения, поэтому избегайте использования сложных функций. Пусть все будет просто.
--   Используйте песочницу для тестирования кода, например, [FreeCADDocu   *Sandbox](FreeCADDocu_Sandbox.md) или конкретную страницу с вашим именем [Sandbox   *Yourname](Sandbox_Yourname.md).
--   Пожалуйста, обратите внимание на переводы. Вики FreeCAD использует поддержку автоматического перевода для предоставления страниц на многих языках. Для каждой страницы может существовать несколько языковых версий. На многих страницах вы увидите теги, такие как <translate>...</translate> и множество отдельных тегов, таких как . Последние создаются системой перевода. Они связывают заголовки и абзацы со своими переведенными версиями. Вы не должны изменять их, так как это разрушит эти ссылки. Однако можно перемещать абзацы или изменять формулировки до тех пор, пока теги остаются с ними. Если вы удаляете заголовок или абзац, вы также должны удалить принадлежащий ему тег. Пожалуйста, имейте в виду, что изменения в существующих заголовках и абзацах влияют на текущие переводы. Ваши изменения должны быть действительно важны, чтобы этого стоить. Не беспокойтесь при добавлении нового материала, потому что система автоматически добавит новые теги после ваших изменений. Для получения дополнительной информации см. [Локализация](Localisation/ru.md) и оригинал [Mediawiki   *Пример страницы для перевода](https   *//www.mediawiki.org/wiki/Help   *Extension   *Translate/Page_translation_example/ru).
+-   Используйте песочницу для тестирования кода, например, [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md) или конкретную страницу с вашим именем [Sandbox:Yourname](Sandbox_Yourname.md).
+-   Пожалуйста, обратите внимание на переводы. Вики FreeCAD использует поддержку автоматического перевода для предоставления страниц на многих языках. Для каждой страницы может существовать несколько языковых версий. На многих страницах вы увидите теги, такие как <translate>...</translate> и множество отдельных тегов, таких как . Последние создаются системой перевода. Они связывают заголовки и абзацы со своими переведенными версиями. Вы не должны изменять их, так как это разрушит эти ссылки. Однако можно перемещать абзацы или изменять формулировки до тех пор, пока теги остаются с ними. Если вы удаляете заголовок или абзац, вы также должны удалить принадлежащий ему тег. Пожалуйста, имейте в виду, что изменения в существующих заголовках и абзацах влияют на текущие переводы. Ваши изменения должны быть действительно важны, чтобы этого стоить. Не беспокойтесь при добавлении нового материала, потому что система автоматически добавит новые теги после ваших изменений. Для получения дополнительной информации см. [Локализация](Localisation/ru.md) и оригинал [Mediawiki:Пример страницы для перевода](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example/ru).
 
 
 </div>
@@ -26,20 +26,20 @@ This page is an extension of the [Help   *Editing](Help_Editing.md) page and giv
 При описании FreeCAD старайтесь быть краткими, избегать повторений и излагать свои мысли по существу. Опишите, то что FreeCAD \"может сделать\", а не то, что он \"не может\". Также избегайте разговорных выражений, таких напримаер как \"пара\",\"около того\",\"вроде\". Когда имеете дело с неопределенным числом, пишите \"некоторое значение\" или укажите корректное количество.
 
 Пример плохого описания
-   *   [Верстак PartDesign](PartDesign_Workbench/ru.md)   * верстак PartDesign, это верстак для проектирования деталей который предоставляет инструменты для моделирования сложных твердых деталей.
+:   [Верстак PartDesign](PartDesign_Workbench/ru.md): верстак PartDesign, это верстак для проектирования деталей который предоставляет инструменты для моделирования сложных твердых деталей.
 
 
 
 
 
 Пример хорошего описания
-   *   [Верстак PartDesign](PartDesign_Workbench/ru.md)   * предоставляет инструменты для проектирования сложных твердых тел.
+:   [Верстак PartDesign](PartDesign_Workbench/ru.md): предоставляет инструменты для проектирования сложных твердых тел.
 
 ### Централизованная информация 
 
 Избегайте дублирования одной и той же информации в разных местах. Вставьте информацию на новую страницу и добавьте ссылку на эту страницу с других страниц, которым требуется эта информация.
 
-Do not use transclusion of pages ([Help   *Editing#Templates and transcluding pages](Help   *Editing#Templates_and_transcluding_pages.md)), as this makes the wiki difficult to translate. Use only the templates described below in [#Templates](#Templates.md).
+Do not use transclusion of pages ([Help:Editing#Templates and transcluding pages](Help:Editing#Templates_and_transcluding_pages.md)), as this makes the wiki difficult to translate. Use only the templates described below in [#Templates](#Templates.md).
 
 ### Стиллизирование
 
@@ -55,7 +55,7 @@ Once the work is done, please don\'t forget to remove the flags!
 
 ## Примеры
 
-To quickly get familiar with the structure and style of the FreeCAD wiki look at the model page   * [GuiCommand model](GuiCommand_model.md).
+To quickly get familiar with the structure and style of the FreeCAD wiki look at the model page: [GuiCommand model](GuiCommand_model.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -67,18 +67,18 @@ To quickly get familiar with the structure and style of the FreeCAD wiki look at
 
 The [User hub](User_hub.md) provides a [Table of Contents](Online_Help_Toc.md). This is used as the main reference for automatically building the offline help you can reach from FreeCAD, as well as the offline PDF documentation.
 
-The [Template   *Docnav](Template_Docnav.md) is used to sequentially link pages, following the structure of the [Table of Contents](Online_Help_Toc.md). See [#Templates](#Templates.md) for a list of all templates.
+The [Template:Docnav](Template_Docnav.md) is used to sequentially link pages, following the structure of the [Table of Contents](Online_Help_Toc.md). See [#Templates](#Templates.md) for a list of all templates.
 
 ### Названия Страниц 
 
-Page names should be short and they should use title case   * every word should begin with a capital letter, unless they are articles, prepositions, conjunctions, or other grammatical particles (f.e. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\').
+Page names should be short and they should use title case: every word should begin with a capital letter, unless they are articles, prepositions, conjunctions, or other grammatical particles (f.e. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\').
 
 
 <div class="mw-translate-fuzzy">
 
 
-Плохое название для страницы   *
-   *   Конструкция Аэропланов AeroCompany
+Плохое название для страницы:
+:   Конструкция Аэропланов AeroCompany
 
 
 </div>
@@ -87,33 +87,33 @@ Page names should be short and they should use title case   * every word should 
 <div class="mw-translate-fuzzy">
 
 
-Хорошее название   *
-   *   Конструкция аэропланов AeroCompany
+Хорошее название:
+:   Конструкция аэропланов AeroCompany
 
 
 </div>
 
-The names of top level workbench pages must have this format   * XYZ Workbench, where XYZ is the name of the workbench, for example [PartDesign Workbench](PartDesign_Workbench.md). And the names of pages describing the commands (or tools) belonging to a workbench must have this format   * XYZ Command, for example [PartDesign Pad](PartDesign_Pad.md). Note that you should use the command name as it occurs in the source code.
+The names of top level workbench pages must have this format: XYZ Workbench, where XYZ is the name of the workbench, for example [PartDesign Workbench](PartDesign_Workbench.md). And the names of pages describing the commands (or tools) belonging to a workbench must have this format: XYZ Command, for example [PartDesign Pad](PartDesign_Pad.md). Note that you should use the command name as it occurs in the source code.
 
 ### Заголовки
 
-Paragraph headings should be short and use sentence case   * all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
+Paragraph headings should be short and use sentence case: all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
 
 ### Ссылки
 
 Вы должны использовать оригинальное название ссылки, если это возможно. Это уточняет страницу, на которую ссылается печатная или offline документация. Пожалуйста, избегайте бессмысленных слов для ссылки.
 
 Плохая ссылка
-   *   Для получения более подробной информации по рисованию 2D объектов кликните [тута](Draft_Workbench/ru.md).
+:   Для получения более подробной информации по рисованию 2D объектов кликните [тута](Draft_Workbench/ru.md).
 
 
 
 
 
 Хорошая ссылка
-   *   Для получения более подробной информации о рисовании 2D обратитесь к [верстаку Draft](Draft_Workbench/ru.md).
+:   Для получения более подробной информации о рисовании 2D обратитесь к [верстаку Draft](Draft_Workbench/ru.md).
 
-Предпочтительным форматом для ссылки является   *
+Предпочтительным форматом для ссылки является:
 
 
 <div class="mw-translate-fuzzy">
@@ -123,7 +123,7 @@ Paragraph headings should be short and use sentence case   * all words except th
 
 </div>
 
-После перевода   *
+После перевода:
 
 
 <div class="mw-translate-fuzzy">
@@ -135,41 +135,41 @@ Paragraph headings should be short and use sentence case   * all words except th
 
 Note that for the part before the | character, the actual link, case is relevant. If your page name is Name_of_page the link will fail if you type Name_of_Page (upper case P). Before the | character all spaces should be replaced by underscores (_). This is to assist translators using translation software, without the underscores the link would be translated by the software which is undesirable.
 
-To link to a certain paragraph add a # sign and its headings to the page name. Example   *
+To link to a certain paragraph add a # sign and its headings to the page name. Example:
 
 [WikiPages](WikiPages#Links.md)
 
-После перевода   *
+После перевода:
 
 [WikiPages](WikiPages/fr#Liens.md)
 
-Within the same page you can omit the page name. Example   *
+Within the same page you can omit the page name. Example:
 
 [Links](#Links.md)
 
-To link to the top of the page you can use   *
+To link to the top of the page you can use:
 
 </translate>{{Top}}<translate>
 
 This template should automatically display the correct text depending on the language of the page. A link to the top of the page is especially useful for long pages as it allows the user to quickly jump back to the table of content. You can put it at the end of each paragraph. Make sure there is an empty line before and after the template.
 
 Image link
-   *   <img alt="Optional text that is shown when you hover the image\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
+:   <img alt="Optional text that is shown when you hover the image\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width:24px;">
 
-To use an image as a link   *
+To use an image as a link:
 
 ![](images/)
 
 Image link + text link
-   *   <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> [Draft Wire](Draft_Wire.md)
+:   <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md)
 
-If you leave out the optional text the link itself will be shown when the image is hovered, which is preferable, and you should also add a text link after the image link   *
+If you leave out the optional text the link itself will be shown when the image is hovered, which is preferable, and you should also add a text link after the image link:
 
 ![](images/)_[Draft_Wire](Draft_Wire.md)
 
 ### Страницы верстаков 
 
-A top level workbench page should start with   *
+A top level workbench page should start with:
 
 -   A description of what the workbench is used for.
 -   An image to illustrate the description.
@@ -202,9 +202,9 @@ For examples visit the [Tutorials](Tutorials.md) page.
 
 <div class="mw-collapsible-content">
 
-Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help   *Editing#Templates_and_transcluding_pages](Help   *Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
+Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help:Editing#Templates_and_transcluding_pages](Help:Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special:PrefixIndex/Template:](Special:PrefixIndex/Template:.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
 
-Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help   *Templates](https   *//www.mediawiki.org/wiki/Help   *Templates) to learn more.
+Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help:Templates](https://www.mediawiki.org/wiki/Help:Templates) to learn more.
 
 ### Простейшие шаблоны 
 
@@ -295,7 +295,7 @@ Click on the template link to see the usage instructions for a template, and to 
 |                                                                                                               | {{Obsolete|0.19}}                      |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
-| [Version/ru](Template   *Version/ru.md)                                                                  |                         | Используйте его, чтобы указать, что функция была введена в указанной версии FreeCAD.                                                                                                                                                                                                           |
+| [Version/ru](Template:Version/ru.md)                                                                  |                         | Используйте его, чтобы указать, что функция была введена в указанной версии FreeCAD.                                                                                                                                                                                                           |
 |                                                                                                               | {{Version/ru|0.18}}                    |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
@@ -326,7 +326,7 @@ These templates require more input parameters, or produce a block of text with a
 | [Prettytable](Template_Prettytable.md)                                                   | This table                                                                                                                   | Use it to format tables such as this one. Additional table properties can be added.                                                                                                                                                                                                                                       |
 ++++
 | [Caption](Template_Caption.md)                                                           |                                                                                                                    | Use it to add an explanation below an image. It can be left aligned or center aligned.                                                                                                                                                                                                                                    |
-|                                                                                                  | <div style="width   *400px;">                                                                                                   |                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                  | <div style="width:400px;">                                                                                                   |                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                  |                                                                                                                           |                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                  |                                                                                                               |                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                  | 
@@ -341,7 +341,7 @@ These templates require more input parameters, or produce a block of text with a
 | [Code](Template_Code.md)                                                                 |                                                                                                               | Use it to include multi-line code examples with a monospace font. The default language is Python, but other languages can be specified.                                                                                                                                                                                   |
 |                                                                                                  | 
 ```pythonimport FreeCAD```                                                                                                 |                                                                                                                                                                                                                                                                                                                           |
-|                                                                                                  |                                                                                                                           | [Python](Python.md) code should adhere to the general recommendations established by [PEP8   * Style Guide for Python Code](https   *//www.python.org/dev/peps/pep-0008/). In particular, parentheses should immediately follow the function name, and a space should follow a comma. This makes the code more readable |
+|                                                                                                  |                                                                                                                           | [Python](Python.md) code should adhere to the general recommendations established by [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). In particular, parentheses should immediately follow the function name, and a space should follow a comma. This makes the code more readable |
 ++++
 | [Fake heading](Template_Fake_heading.md)                                                 |                                                                                                               | Use it to create a heading that will not be automatically included in the table of contents.                                                                                                                                                                                                                              |
 |                                                                                                  | {{Fake heading|Heading|2}}                                                                                                   |                                                                                                                                                                                                                                                                                                                           |
@@ -369,7 +369,7 @@ These templates require more input parameters, or produce a block of text with a
 |                                                                                                  |                                                                                                            |                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                  |                                                                                                                           |                                                                                                                                                                                                                                                                                                                           |
 ++++
-| [Softredirect](Template_Softredirect.md)                                                 |                                                                                                                              | Use it instead of the normal redirect, when you are redirecting to a special page (such as Media   * or Category   *), in which cases the normal redirect is disabled.                                                                                                                                                          |
+| [Softredirect](Template_Softredirect.md)                                                 |                                                                                                                              | Use it instead of the normal redirect, when you are redirecting to a special page (such as Media: or Category:), in which cases the normal redirect is disabled.                                                                                                                                                          |
 ++++
 | [Quote](Template_Quote.md)                                                               |                                                                                                               | Use it to create a box of text with a literal quote and reference.                                                                                                                                                                                                                                                        |
 |                                                                                                  | {{Quote|text=Cry "Havoc" and let slip the dogs of war.|sign=William Shakespeare|source=''Julius Caesar'', act III, scene I}} |                                                                                                                                                                                                                                                                                                                           |
@@ -396,7 +396,7 @@ These templates require more input parameters, or produce a block of text with a
 
 Избегайте анимированных картинок (GIF) на страницах общей справки. Анимации и видео следует зарезервировать для учебных пособий, не предназначенных для использования в качестве offline документации в формате PDF.
 
-Изображения можно загрузить через [Special   *Upload](Special   *Upload/ru.md) страницу.
+Изображения можно загрузить через [Special:Upload](Special:Upload/ru.md) страницу.
 
 ### Name
 
@@ -404,7 +404,7 @@ Give meaningful names to your images. If you have an image that showcases the ch
 
 ### Снимки с экрана 
 
-Рекомендуемые размеры для снимков экрана   *   *
+Рекомендуемые размеры для снимков экрана::
 
 -   400x200 (или ширина=400 и высота\<=200) для страниц [описывающих команнды Gui](GuiCommand_model/ru.md), чтобы изображение помещалось в левой части страницы, а также для других стандартных снимков.
 -   600x400 (или ширина=600 и высота\<=400), для страниц [описывающих команнды Gui](GuiCommand_model/ru.md), только когда вам действительно нужно изображение большего размера, и при этом старйтесь уместить изображение в левой части страницы, а также для других стандартных снимков.
@@ -414,7 +414,7 @@ Give meaningful names to your images. If you have an image that showcases the ch
 
 Вы не должны зависеть от пользовательской конфигурации вашего рабочего стола или операционной системы при создании скриншотов, по возможности рекомендуется использовать визуальные настройки интерфейса FreeCAD по умолчанию.
 
-To create a screenshots you can use the options provided by your operating system, or one of these macros   * <img alt="" src=images/Snip.png  style="width   *24px;"> [Macro Snip](Macro_Snip.md) and <img alt="" src=images/Macro_Screen_Wiki.png  style="width   *24px;"> [Macro Screen Wiki](Macro_Screen_Wiki.md).
+To create a screenshots you can use the options provided by your operating system, or one of these macros: <img alt="" src=images/Snip.png  style="width:24px;"> [Macro Snip](Macro_Snip.md) and <img alt="" src=images/Macro_Screen_Wiki.png  style="width:24px;"> [Macro Screen Wiki](Macro_Screen_Wiki.md).
 
 ### Text
 
@@ -442,11 +442,11 @@ As per general consensus, the reference page in the wiki is the English page, wh
 
 The FreeCAD wiki supports a translation extension that allows managing translations between pages easier; for details, see [Localisation Translating the wiki](Localisation#Translating_the_wiki.md).
 
-Other useful resources are   *
+Other useful resources are:
 
--   [ISO language codes](http   *//en.wikipedia.org/wiki/List_of_ISO_639-1_codes) to identify the two-letter code for a particular language that you want to translate to.
--   [Google Translate](http   *//translate.google.com/) for help with translations.
--   [Deepl translator](https   *//www.deepl.com/translator) for help with translations.
+-   [ISO language codes](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) to identify the two-letter code for a particular language that you want to translate to.
+-   [Google Translate](http://translate.google.com/) for help with translations.
+-   [Deepl translator](https://www.deepl.com/translator) for help with translations.
 
 ## Несколько советов для переводчиков 
 
@@ -461,7 +461,7 @@ Other useful resources are   *
     |SeeAlso=[FEM tutorial](FEM_tutorial.md)
     }}
 
-Translated   *
+Translated:
 
     {{GuiCommand/fr
     |Name=FEM EquationFlux
@@ -477,7 +477,7 @@ Translated   *
 
     {{FEM_Tools_navi}}
 
-Translated   *
+Translated:
 
     {{FEM_Tools_navi/fr}}
 
@@ -485,7 +485,7 @@ Translated   *
 
     [Part Module](Part_Module.md)
 
-Translated   *
+Translated:
 
     [Atelier Part](Part_Module/fr.md)
 
@@ -493,15 +493,15 @@ Translated   *
 
     
 
-Translated   *
+Translated:
 
     
 
-Example with icons   *
+Example with icons:
 
     
 
-Translated   *
+Translated:
 
     
 
@@ -515,16 +515,16 @@ Translated   *
 
 ### Create pages 
 
-Before creating a new page you should first check if a similar page already exists. If that is the case it is usually better to edit that existing page instead. When in doubt please open a topic in the [Wiki forum](https   *//forum.freecadweb.org/viewforum.php?f=21) first.
+Before creating a new page you should first check if a similar page already exists. If that is the case it is usually better to edit that existing page instead. When in doubt please open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21) first.
 
-To create a new page do one of the following   *
+To create a new page do one of the following:
 
--   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_New_Page, and click on \'create this page\'.
+-   Visit the URL with the desired page name, for example: https://wiki.freecadweb.org/My_New_Page, and click on \'create this page\'.
 -   Do a wiki search for the page name, and click on the red text in \'Create the page \"My New Page\" on this wiki!\'.
 
 ### Rename pages 
 
-Since FreeCAD is a project under permanent development, it is sometimes necessary to revise the content of the wiki. If the names of commands are changed in the source code, the wiki pages documenting them have to be renamed as well. This can only be done by wiki administrators. To inform them, open a topic in the [Wiki forum](https   *//forum.freecadweb.org/viewforum.php?f=21) and list the necessary renaming operation in this form   *
+Since FreeCAD is a project under permanent development, it is sometimes necessary to revise the content of the wiki. If the names of commands are changed in the source code, the wiki pages documenting them have to be renamed as well. This can only be done by wiki administrators. To inform them, open a topic in the [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21) and list the necessary renaming operation in this form:
 
     old name         new name
     Old_page_name_1  New_page_name_1
@@ -533,13 +533,13 @@ Since FreeCAD is a project under permanent development, it is sometimes necessar
 
 ### Удаление файлов и страниц 
 
-В случае, если вам нужно удалить файл, перейдите на его страницу (https   *//www.freecadweb.org/wiki/File   ****.***) и отредактируйте его. Независимо от того, является ли страница пустой или нет, добавьте это в качестве первого элемента   * {{Delete}} и прямо под ним опишите, почему страница должна быть удалена. Помимо этого, откройте тему в [Вики-форуме](https   *//forum.freecadweb.org/viewforum.php?f=21).
+В случае, если вам нужно удалить файл, перейдите на его страницу (https://www.freecadweb.org/wiki/File:***.***) и отредактируйте его. Независимо от того, является ли страница пустой или нет, добавьте это в качестве первого элемента: {{Delete}} и прямо под ним опишите, почему страница должна быть удалена. Помимо этого, откройте тему в [Вики-форуме](https://forum.freecadweb.org/viewforum.php?f=21).
 
 Для страниц процедура идентичная.
 
 ## Обсуждение
 
-The [Development/Wiki subforum](http   *//forum.freecadweb.org/viewforum.php?f=21) in the [FreeCAD forum](https   *//forum.freecadweb.org) provides a dedicated space for discussing wiki topics, the wiki appearance and anything else related to the wiki. Direct your questions and suggestions there.
+The [Development/Wiki subforum](http://forum.freecadweb.org/viewforum.php?f=21) in the [FreeCAD forum](https://forum.freecadweb.org) provides a dedicated space for discussing wiki topics, the wiki appearance and anything else related to the wiki. Direct your questions and suggestions there.
 
 ## Терминология - стратегия именования 
 
@@ -553,8 +553,6 @@ The [Development/Wiki subforum](http   *//forum.freecadweb.org/viewforum.php?f=2
 -   [Français](French_Translation.md)
 -   [Deutsch](German_Translation.md)
 -   [Polish](Polish_Translation.md)
-
-[Category   *Documentation](Category_Documentation.md) [Category   *Wiki](Category_Wiki.md) [Category   *Wiki Documentation](Category_Wiki_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

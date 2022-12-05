@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Вставить подробный Вид
-   Name   *TechDraw_DetailView
-   MenuLocation   *TechDraw → Вставить подробный Вид
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso   *[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
+- GuiCommand:/ru
+   Name/ru:Вставить подробный Вид
+   Name:TechDraw_DetailView
+   MenuLocation:TechDraw → Вставить подробный Вид
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw DetailView/ru
@@ -35,40 +35,40 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Detail}}
 
--    **Base View|Link**   * The view on which this Detail view is based.
+-    **Base View|Link**: The view on which this Detail view is based.
 
--    **Anchor Point|Vector**   * The center of the Detail view within the **Base View**.
+-    **Anchor Point|Vector**: The center of the Detail view within the **Base View**.
 
--    **Radius|Float**   * The size of the area in the **Base View** that is displayed in the Detail view.
+-    **Radius|Float**: The size of the area in the **Base View** that is displayed in the Detail view.
 
--    **Reference|String**   * An identifier for the Detail view in the **Base View**.
+-    **Reference|String**: An identifier for the Detail view in the **Base View**.
 
 ## Properties Base View 
 
-A Detail view inherits all applicable properties of the view specified as **Base View**. In the properties of this view you can change the appearance of the detail outline   *
+A Detail view inherits all applicable properties of the view specified as **Base View**. In the properties of this view you can change the appearance of the detail outline:
 
--    **Highlight Adjust**   * Clockwise rotation angle of the Detail view.
+-    **Highlight Adjust**: Clockwise rotation angle of the Detail view.
 
--    **Highlight Line Color**   * Line color for the outline shape. Default setting for this is the setting **Detail Highlight** in the [TechDraw preferences](TechDraw_Preferences.md).
+-    **Highlight Line Color**: Line color for the outline shape. Default setting for this is the setting **Detail Highlight** in the [TechDraw preferences](TechDraw_Preferences.md).
 
--    **Highlight Line Style**   * Line style for the outline shape. Default setting for this is the setting **Detail Highlight Style** in the [TechDraw preferences](TechDraw_Preferences.md).
+-    **Highlight Line Style**: Line style for the outline shape. Default setting for this is the setting **Detail Highlight Style** in the [TechDraw preferences](TechDraw_Preferences.md).
 
 ## Примечания
 
--   [A good discussion about setting the Anchor](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+-   [A good discussion about setting the Anchor](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Detail tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Detail tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
+Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 ...TBA
 ```
 

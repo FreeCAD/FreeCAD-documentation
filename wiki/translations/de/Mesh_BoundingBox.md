@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Mesh BoundingBox‏‎
-   Name/de   *Netz BegrenzungsRahmen
-   MenuLocation   *Netze → Analyse → Begrenzungsinfo...
-   Workbenches   *[Netze](Mesh_Workbench/de.md)
+- GuiCommand:/de
+   Name:Mesh BoundingBox‏‎
+   Name/de:Netz BegrenzungsRahmen
+   MenuLocation:Netze → Analyse → Begrenzungsinfo...
+   Workbenches:[Netze](Mesh_Workbench/de.md)
 ---
 
 # Mesh BoundingBox/de
@@ -15,7 +15,7 @@ Der **Netz BegrenzungsRahmen** Befehl zeigt die Begrenzungsrahmen Koordinaten ei
 ## Anwendung
 
 1.  Wähle ein einzelnes Netzobjekt.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen   *
+2.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Mesh_BoundingBox.svg" width=16px> [Netze Begrenzungsrahmen](Mesh_BoundingBox/de.md)**-Schaltfläche
     -   Wähle die **Netze → Analyse → <img src="images/Mesh_BoundingBox.svg" width=16px> Begrenzungsinfo...**-Option aus dem Menü.
 3.  Das **Begrenzungen**-Dialogfeld öffnet sich, zeigt die Koordinaten der Begrenzungsrahmen des Objekts an.

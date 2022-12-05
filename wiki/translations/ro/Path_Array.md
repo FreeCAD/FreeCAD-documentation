@@ -1,6 +1,6 @@
 # Path Array/ro
 ---
-- GuiCommand   *   Name   *Path Array   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Path Modification → Array   Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Path Array   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Path Modification → Array   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -27,11 +27,11 @@ Acest instrument creează o nouă cale duplicând o altă cale de mai multe ori 
 
 <div class="mw-translate-fuzzy">
 
--    **Type**   * Matricea de tip (polară, liniară una sau două direcții)
+-    **Type**: Matricea de tip (polară, liniară una sau două direcții)
 
--    **Offset**   * The spacing between the array copies for each direction
+-    **Offset**: The spacing between the array copies for each direction
 
--    **Copies**   * Numărul de copii pentru fiecare direcție
+-    **Copies**: Numărul de copii pentru fiecare direcție
 
 
 </div>
@@ -39,11 +39,11 @@ Acest instrument creează o nouă cale duplicând o altă cale de mai multe ori 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

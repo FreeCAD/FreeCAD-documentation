@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *OpenSCAD ResizeMeshFeature
-   Name/fr   *OpenSCAD Redimensionner le maillage
-   MenuLocation   *OpenSCAD → Redimensionnement du maillage...
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:OpenSCAD ResizeMeshFeature
+   Name/fr:OpenSCAD Redimensionner le maillage
+   MenuLocation:OpenSCAD → Redimensionnement du maillage...
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD ResizeMeshFeature/fr
@@ -27,7 +27,7 @@ Crée un nouvel objet maillé redimensionné avec un dimensionnement indépendan
 ## Remarques
 
 -   La fonction ne modifie pas le maillage existant mais renvoie un nouveau maillage.
--   La fonction est accessible via python   *
+-   La fonction est accessible via python:
 
 
 ```python

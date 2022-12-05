@@ -1,5 +1,5 @@
 # Category:External Command Reference/pl
-Ta kategoria umieszcza wszystkie **zewnętrzne** polecenia środowiska oddzielone od wewnętrznych [   *Category   *Command_Reference](   *Category_Command_Reference.md).
+Ta kategoria umieszcza wszystkie **zewnętrzne** polecenia środowiska oddzielone od wewnętrznych [:Category:Command_Reference](:Category_Command_Reference.md).
 
 ### Contents
 

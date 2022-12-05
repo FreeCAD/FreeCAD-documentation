@@ -2,7 +2,7 @@
 Each operating system has its own page for compiling FreeCAD in the [Online Help Documentation](Online_Help_Toc.md).
 
      
-   <img alt="" src=images/Windows.png  style="width   *" height="32px;">   <img alt="" src=images/Linux.png  style="width   *" height="32px;">    <img alt="" src=images/Mac.png  style="width   *" height="32px;">     [Compile on Docker container](Compile_on_Docker.md)
+   <img alt="" src=images/Windows.png  style="width:" height="32px;">   <img alt="" src=images/Linux.png  style="width:" height="32px;">    <img alt="" src=images/Mac.png  style="width:" height="32px;">     [Compile on Docker container](Compile_on_Docker.md)
    [Compile on Windows](Compile_on_Windows.md)    [Compile on Linux](Compile_on_Linux.md)    [Compile on MacOS](Compile_on_MacOS.md)   [Compile on Docker container](Compile_on_Docker.md)
      
 
@@ -15,10 +15,6 @@ To compile FreeCAD without its graphic user interface use the [FreeCAD Docker CL
 To compile the programming documentation, see [Source documentation](Source_documentation.md).
 
 To learn to use revision control system and contribute code see [Source code management](Source_code_management.md).
-
- 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

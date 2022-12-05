@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Mesh_FillupHoles
-   Name/it   *Riempi i buchi
-   MenuLocation   *Mesh → Riempi i buchi...
-   Workbenches   *[Mesh](Mesh_Workbench/it.md)
-   SeeAlso   *[Chiudi il buco](Mesh_FillInteractiveHole/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
+- GuiCommand:/it
+   Name:Mesh_FillupHoles
+   Name/it:Riempi i buchi
+   MenuLocation:Mesh → Riempi i buchi...
+   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   SeeAlso:[Chiudi il buco](Mesh_FillInteractiveHole/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
 ---
 
 # Mesh FillupHoles/it

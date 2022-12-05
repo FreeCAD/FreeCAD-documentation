@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Sketcher CreateRegularPolygon
-   Name/es   *Croquizador CrearPolígonoRegular
-   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation   *Dibujar → Dibujar geometrías → Crear un polígono regular
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/es
+   Name:Sketcher CreateRegularPolygon
+   Name/es:Croquizador CrearPolígonoRegular
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation:Dibujar → Dibujar geometrías → Crear un polígono regular
+   Shortcut:
+   SeeAlso:
 ---
 
 # Sketcher CreateRegularPolygon/es
@@ -25,7 +25,7 @@ Draws a regular polygon inscribed in a construction geometry circle. When starti
 
 </div>
 
-1.  After pressing the **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width   *16px"> [Create regular polygon](Sketcher_CreateRegularPolygon.md)** button, define the number of sides of the polygon in the pop up box and confirm by pressing the **OK** button.
+1.  After pressing the **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width:16px"> [Create regular polygon](Sketcher_CreateRegularPolygon.md)** button, define the number of sides of the polygon in the pop up box and confirm by pressing the **OK** button.
 2.  Click once to set the center, then move the mouse and click a second time to set one of the vertices.
 3.  Pressing **Esc** or clicking the right mouse button cancels the function.
 

@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */de
-   Name   *Draft FlipDimension
-   Name/de   *Draft MaßKippen
-   MenuLocation   *Änderung → Bemaßung umkehren
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+- GuiCommand:/de
+   Name:Draft FlipDimension
+   Name/de:Draft MaßKippen
+   MenuLocation:Änderung → Bemaßung umkehren
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 
 # Draft FlipDimension/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_FlipDimension.svg  style="width   *24px;"> **Draft MaßKippen** schwenkt die Maßzahlen (Maßtexte) ausgewählter [Draft-Maße](Draft_Dimension/de.md) 180° um die Maßlinie. Es kann verwendet werden, um Maße zu korrigieren, die gespiegelt erscheinen. Der Befehl funktioniert nicht ordentlich mit Winkelmaßen.
+Der Befehl <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft MaßKippen** schwenkt die Maßzahlen (Maßtexte) ausgewählter [Draft-Maße](Draft_Dimension/de.md) 180° um die Maßlinie. Es kann verwendet werden, um Maße zu korrigieren, die gespiegelt erscheinen. Der Befehl funktioniert nicht ordentlich mit Winkelmaßen.
 
 ## Anwendung
 
 1.  Ein oder mehrere [Draft-Maße](Draft_Dimension/de.md) auswählen.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_FlipDimension.svg" width=16px> [Bemaßung umkehren](Draft_FlipDimension/de.md)** drücken.
     -   Den Menüeintrag **Änderung → <img src="images/Draft_FlipDimension.svg" width=16px> Bemaßung umkehren** auswählen.
 
@@ -25,11 +25,11 @@ Der Befehl <img alt="" src=images/Draft_FlipDimension.svg  style="width   *24px;
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Um ein [Draft Maß](Draft_Dimension/de.md) zu kippen, invertiert man seine Eigenschaft `Normal`.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

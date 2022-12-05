@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */zh-cn
-   Name/zh-cn   *映射草图至面...
-   Name   *Sketcher_MapSketch
-   MenuLocation   *Part Design/Sketch → 映射草图至面...
-   Workbenches   *[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
-   SeeAlso   *[创建草图](Sketcher_NewSketch/zh-cn.md)
+- GuiCommand:/zh-cn
+   Name/zh-cn:映射草图至面...
+   Name:Sketcher_MapSketch
+   MenuLocation:Part Design/Sketch → 映射草图至面...
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso:[创建草图](Sketcher_NewSketch/zh-cn.md)
 ---
 
 # Sketcher MapSketch/zh-cn
@@ -27,7 +27,7 @@
 -   草图被映射至实体的某个特定面上，而您却需要把它映射至另一个不同的面上。
 -   修复一个坏掉的模型。
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
 ## Usage
 

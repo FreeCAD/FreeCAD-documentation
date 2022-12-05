@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Part Compound‏‎
-   Name/es   *Pieza Compuesto‏‎
-   MenuLocation   *Pieza → Hacer Compuesto
-   Workbenches   *[Pieza](Part_Workbench/es.md)
-   Version   *0.14
-   SeeAlso   *[Pieza Unión](Part_Union/es.md), [Pieza Filtro compuesto](Part_CompoundFilter/es.md), [Pieza Explotar compuesto](Part_ExplodeCompound/es.md)
+- GuiCommand:/es
+   Name:Part Compound‏‎
+   Name/es:Pieza Compuesto‏‎
+   MenuLocation:Pieza → Hacer Compuesto
+   Workbenches:[Pieza](Part_Workbench/es.md)
+   Version:0.14
+   SeeAlso:[Pieza Unión](Part_Union/es.md), [Pieza Filtro compuesto](Part_CompoundFilter/es.md), [Pieza Explotar compuesto](Part_ExplodeCompound/es.md)
 ---
 
 # Part Compound/es
@@ -28,7 +28,7 @@ Este comando crea un compuesto de cualquier tipo de formas topológicas. Pueden 
 ## Usage
 
 1.  Mark the topological shapes to be added to the compound in the [tree view](Tree_view.md)
-2.  Choose **Part → Compound → Make Compound** entry in the Part menu or click on the <img alt="" src=images/Part_Compound.svg  style="width   *24px;"> button.
+2.  Choose **Part → Compound → Make Compound** entry in the Part menu or click on the <img alt="" src=images/Part_Compound.svg  style="width:24px;"> button.
 
 ## Notes
 

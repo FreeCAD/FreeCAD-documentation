@@ -8,7 +8,7 @@
 
 ## Verktygssida
 
-För allt seriös mjukvaruutveckling så behöver du verktyg. Här är en lista på verktyg som vi använder för att utveckla FreeCAD   *
+För allt seriös mjukvaruutveckling så behöver du verktyg. Här är en lista på verktyg som vi använder för att utveckla FreeCAD:
 
 
 </div>
@@ -24,7 +24,7 @@ För allt seriös mjukvaruutveckling så behöver du verktyg. Här är en lista 
 
 #### Qt-Toolkit 
 
-Qt-toolkit är en fantastisk, plattformsoberoende designverktyg för att skapa gränssnitt. den finns i FreeCAD\'s [LibPack](Third_Party_Libraries/sv.md), men kan också laddas ned på [Qt project](http   *//qt-project.org/downloads).
+Qt-toolkit är en fantastisk, plattformsoberoende designverktyg för att skapa gränssnitt. den finns i FreeCAD\'s [LibPack](Third_Party_Libraries/sv.md), men kan också laddas ned på [Qt project](http://qt-project.org/downloads).
 
 
 </div>
@@ -36,7 +36,7 @@ Qt-toolkit är en fantastisk, plattformsoberoende designverktyg för att skapa g
 
 #### InkScape 
 
-Bra vektorritningsprogram. Följer SVG standarden och används till att rita ikoner och bilder. Hämta det på [www.inkscape.org](http   *//www.inkscape.org).
+Bra vektorritningsprogram. Följer SVG standarden och används till att rita ikoner och bilder. Hämta det på [www.inkscape.org](http://www.inkscape.org).
 
 
 </div>
@@ -65,18 +65,18 @@ Inte mycket att säga om Gnu Image Manipulation Program. Förutom att det kan ha
 
 </div>
 
-Hämta GIMP här   * [www.gimp.org](http   *//www.gimp.org/)
+Hämta GIMP här: [www.gimp.org](http://www.gimp.org/)
 
 #### Gitkraken
 
-This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research   *
+This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
 
 -   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
 -   [Source code management](Source_code_management.md)
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website   * [obsproject.com](https   *//obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
 
 #### OpenCamLib
 
@@ -97,7 +97,7 @@ Ett helt öppen källkod UML program. Det har många funktioner från de stora, 
 
 <div class="mw-translate-fuzzy">
 
-Ladda ned här   * [staruml.sourceforge.net](http   *//staruml.sourceforge.net/en/)
+Ladda ned här: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
 
 
 </div>
@@ -119,7 +119,7 @@ Fastän VC8 är för C++ utveckling, så är det inte något stort steg från Vi
 
 <div class="mw-translate-fuzzy">
 
-Så Express varianten är svår att hitta. Men du kan försöka med [denna länk](http   *//msdn.microsoft.com/vstudio/express/visualc/default.aspx)
+Så Express varianten är svår att hitta. Men du kan försöka med [denna länk](http://msdn.microsoft.com/vstudio/express/visualc/default.aspx)
 
 
 </div>
@@ -136,7 +136,7 @@ Så Express varianten är svår att hitta. Men du kan försöka med [denna länk
 
 </div>
 
-Se [camstudio.org](http   *//camstudio.org/) för detaljer.
+Se [camstudio.org](http://camstudio.org/) för detaljer.
 
 ### Verktyg på Linux 
 
@@ -150,11 +150,6 @@ ATTGÖRA
 
 
 </div>
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

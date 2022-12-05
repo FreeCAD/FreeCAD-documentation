@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Axis
-   Name/de   *Arch Achse
-   MenuLocation   *Arch → Achsenwerkzeuge → Achse
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***A** **X**
-   SeeAlso   *[Arch AchsenSystem](Arch_AxisSystem/de.md), [Arch Gitter](Arch_Grid/de.md)
+- GuiCommand:/de
+   Name:Arch Axis
+   Name/de:Arch Achse
+   MenuLocation:Arch → Achsenwerkzeuge → Achse
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**A** **X**
+   SeeAlso:[Arch AchsenSystem](Arch_AxisSystem/de.md), [Arch Gitter](Arch_Grid/de.md)
 ---
 
 # Arch Axis/de
@@ -14,7 +14,7 @@
 
 Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)** Werkzeug ermöglicht es dir, eine Reihe von Achsen im aktuellen Dokument zu platzieren. Der Abstand und der Winkel zwischen den Achsen ist anpassbar, ebenso wie der Nummerierungsstil. Die Achsen dienen hauptsächlich als Referenzen, auf die Objekte gefangen werden, können aber auch zusammen mit **<img src="images/Arch_Axis_System.svg" width=16px> [Arch Achsensystem](Arch_AxisSystem.md)** verwendet werden. Sie können auch von anderen Architekturobjekten referenziert werden, um parametrische Anordnungen, z.B. von Trägern oder Stützen, zu erstellen. **<img src="images/Arch_Grid.svg" width=16px> [Arch Gitter](Arch_Grid/de.md)** können auch an Stellen von Achsen verwendet werden.
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Zwei Achsenobjekte, die rechtwinklig zueinander ausgerichtet sind, um ein Raster zu erzeugen*
 
 ## Anwendung
@@ -32,21 +32,21 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)*
 
 ## Eigenschaften
 
--    {{PropertyData/de|Länge}}   * die Länge der Achsen
+-    {{PropertyData/de|Länge}}: die Länge der Achsen
 
--    **Limit**   * Falls größer als Null, wird jede Achse als zwei Linien in der gegebenen Länge dargestellt anstatt als eine durchgehende Linie <small>(v0.20)</small> 
+-    **Limit**: Falls größer als Null, wird jede Achse als zwei Linien in der gegebenen Länge dargestellt anstatt als eine durchgehende Linie <small>(v0.20)</small> 
 
--    {{PropertyView/de|Blasengröße}}   * die Größe der Achsenblasen
+-    {{PropertyView/de|Blasengröße}}: die Größe der Achsenblasen
 
--    {{PropertyView/de|Nummerierungsstil}}   * Wie die Achsen nummeriert sind   * 1,2,3, A,B,C, usw..
+-    {{PropertyView/de|Nummerierungsstil}}: Wie die Achsen nummeriert sind: 1,2,3, A,B,C, usw..
 
--    {{PropertyView/de|Blasenposition}}   * Wo die Blase auf der Achse platziert ist   * Am Startpunkt, Endpunkt, beide oder keiner.
+-    {{PropertyView/de|Blasenposition}}: Wo die Blase auf der Achse platziert ist: Am Startpunkt, Endpunkt, beide oder keiner.
 
--    {{PropertyView/de|Schriftname}}   * Einen Schrifttyp, um die Blasennummer und/oder eine Beschriftung anzubringen
+-    {{PropertyView/de|Schriftname}}: Einen Schrifttyp, um die Blasennummer und/oder eine Beschriftung anzubringen
 
--    {{PropertyView/de|Schriftgröße}}   * nur die Größe des Beschriftungstextes (der Blasentext wird durch die Blasengröße bestimmt)
+-    {{PropertyView/de|Schriftgröße}}: nur die Größe des Beschriftungstextes (der Blasentext wird durch die Blasengröße bestimmt)
 
--    {{PropertyView/de|Beschriftung anzeigen}}   * Schaltet die Anzeige der Etikettentexte ein/aus
+-    {{PropertyView/de|Beschriftung anzeigen}}: Schaltet die Anzeige der Etikettentexte ein/aus
 
 ## Verwendung als Abschnittsmarkierung 
 
@@ -55,18 +55,18 @@ Durch setzen der **Blasenposition**-Eigenschaft auf **Pfeil links/rechts** oder 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Achsenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion angesprochen werden   * 
+Das Achsenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion angesprochen werden: 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```
 
 -   Erzeugt ein `Axes` Objekt basierend auf der gegebenen Anzahl `num` der Achsen und dem Abstand `size` zwischen benachbarten Achsen.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

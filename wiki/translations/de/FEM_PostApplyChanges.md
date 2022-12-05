@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM PostApplyChanges
-   Name/de   *FEM NachbereitungÄnderungenAnwenden
-   MenuLocation   * Ergebnisse → Änderungen auf Pipeline anwenden
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[Std Aktualisieren](Std_Refresh/de.md), [NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md)
+- GuiCommand:/de
+   Name:FEM PostApplyChanges
+   Name/de:FEM NachbereitungÄnderungenAnwenden
+   MenuLocation: Ergebnisse → Änderungen auf Pipeline anwenden
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[Std Aktualisieren](Std_Refresh/de.md), [NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md)
 ---
 
 # FEM PostApplyChanges/de

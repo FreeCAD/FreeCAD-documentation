@@ -5,7 +5,7 @@
 
 ### Accès aux propriétés de Placement 
 
-Les attributs de la fonction Placement d\'un objet peuvent être accessibles et modifiables de 3 façons    *
+Les attributs de la fonction Placement d\'un objet peuvent être accessibles et modifiables de 3 façons :
 
 ![Panneau de l\'éditeur de propriétés](images/PlacementPropertiesv10-800x800.png ) 
 
@@ -15,7 +15,7 @@ Les attributs de la fonction Placement d\'un objet peuvent être accessibles et 
 
 ## Formes de Placement 
 
-Le placement est stocké en interne sous la forme d\'une position et d\'une rotation (axe et angle de rotation transformés en un [quaternion](https   *//fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Bien qu\'il existe plusieurs façons de spécifier une rotation, par exemple avec un centre de rotation, celui-ci n\'est utilisé que pour affecter le calcul de la rotation et n\'est pas stocké pour des opérations ultérieures. De même, si un axe de rotation de (1,1,1) est spécifié, il peut être normalisé lorsqu\'il est stocké dans le quaternion et apparaître sous la forme (0.58, 0.58, 0.58) lorsque l\'on parcourt l\'objet ultérieurement.
+Le placement est stocké en interne sous la forme d\'une position et d\'une rotation (axe et angle de rotation transformés en un [quaternion](https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Bien qu\'il existe plusieurs façons de spécifier une rotation, par exemple avec un centre de rotation, celui-ci n\'est utilisé que pour affecter le calcul de la rotation et n\'est pas stocké pour des opérations ultérieures. De même, si un axe de rotation de (1,1,1) est spécifié, il peut être normalisé lorsqu\'il est stocké dans le quaternion et apparaître sous la forme (0.58, 0.58, 0.58) lorsque l\'on parcourt l\'objet ultérieurement.
 
 ### Angle, axe et position 
 
@@ -25,24 +25,24 @@ La première forme de **Placement** fixe l\'emplacement d\'un objet dans l\'espa
 
 **Angle = r** est un scalaire indiquant la quantité de rotation de l\'objet autour de l**\'Axe**. Saisi en degrés, mais stocké en interne en radians.
 
-**Axe = (ax,ay,az)** est un vecteur décrivant l\'axe de rotation (voir la note sur l\'axe de rotation). Les exemples sont   *
+**Axe = (ax,ay,az)** est un vecteur décrivant l\'axe de rotation (voir la note sur l\'axe de rotation). Les exemples sont:
 
    (1,0,0)       ==> sur l'axe **X**
    (0,1,0)       ==> sur l'axe **Y**
    (0,0,1)       ==> sur l'axe **Z**
    (0.71,0.71,0) ==> sur l'alignement **y=x**
 
-Notez qu\'il est également possible de translater (déplacer) un objet le long de cet axe de rotation (mouvement axial) en entrant la distance à déplacer dans la boîte de dialogue {{SpinBox|Axial   * 0.0mm}} et en cliquant sur **Appliquer l'axe**. (Une façon d'envisager un mouvement axial consiste à penser à un avion avec une hélice en train de tourner sur son nez. L'hélice tourne autour d'un axe de rotation tandis que l'avion se déplace le long du même axe.) Les valeurs du vecteur peuvent être considérées comme la quantité relative de mouvement qui sera appliquée dans cette direction. Par exemple, dans le cas y = x (0.71,0.71,0), la valeur contenue dans le spinbox Axial est appliquée de la même manière aux directions X et Y, mais aucun mouvement ne se produit dans la direction Z.
+Notez qu\'il est également possible de translater (déplacer) un objet le long de cet axe de rotation (mouvement axial) en entrant la distance à déplacer dans la boîte de dialogue {{SpinBox|Axial: 0.0mm}} et en cliquant sur **Appliquer l'axe**. (Une façon d'envisager un mouvement axial consiste à penser à un avion avec une hélice en train de tourner sur son nez. L'hélice tourne autour d'un axe de rotation tandis que l'avion se déplace le long du même axe.) Les valeurs du vecteur peuvent être considérées comme la quantité relative de mouvement qui sera appliquée dans cette direction. Par exemple, dans le cas y = x (0.71,0.71,0), la valeur contenue dans le spinbox Axial est appliquée de la même manière aux directions X et Y, mais aucun mouvement ne se produit dans la direction Z.
 
 **Position = (x,y,z)** est un vecteur décrivant le point à partir duquel la géométrie de l\'objet sera calculée (en fait, une \"origine locale\" de l\'objet). Notez que dans les scripts, Placement.Base est utilisé pour désigner le composant Position d\'un emplacement. L\'éditeur de propriétés appelle cette valeur **Position** et le panneau des tâches Placement l\'appelle **Translation**.
 
 ### Position avec Lacet, Tangage et Roulis 
 
-![Panneau des tâches de placement   * {{ComboBox|Angles d'Euler}} sélectionné](images/PlacementDialogv10b.png ) 
+![Panneau des tâches de placement: {{ComboBox|Angles d'Euler}} sélectionné](images/PlacementDialogv10b.png ) 
 
 **Placement = \[Position, Lacet-Tangage-Roulis\]**
 
-La deuxième forme de **Placement** fixe l\'emplacement d\'un objet dans l\'espace avec une **Position** (comme dans la première forme), mais décrit son orientation en utilisant [Angles de lacet, de tangage et de roulis (Yaw, Pitch et Roll)](https   *//fr.wikipedia.org/wiki/Axes_de_rotation_d%27un_a%C3%A9ronef). Ces angles sont parfois appelés [angles d\'Euler](https   *//fr.wikipedia.org/wiki/Angles_d%27Euler) ou angles de Tait-Bryan. Lacet, Tangage et Roulis sont des termes courants de l\'aviation pour l\'orientation (ou l\'attitude) d\'un corps.
+La deuxième forme de **Placement** fixe l\'emplacement d\'un objet dans l\'espace avec une **Position** (comme dans la première forme), mais décrit son orientation en utilisant [Angles de lacet, de tangage et de roulis (Yaw, Pitch et Roll)](https://fr.wikipedia.org/wiki/Axes_de_rotation_d%27un_a%C3%A9ronef). Ces angles sont parfois appelés [angles d\'Euler](https://fr.wikipedia.org/wiki/Angles_d%27Euler) ou angles de Tait-Bryan. Lacet, Tangage et Roulis sont des termes courants de l\'aviation pour l\'orientation (ou l\'attitude) d\'un corps.
 
 **Position = (x,y,z)** est un vecteur décrivant le point à partir duquel la géométrie de l\'objet sera calculée (en fait, une \"origine locale\" pour l\'objet).
 
@@ -74,7 +74,7 @@ App.Rotation(10,20,30) = angle d\'Euler
 
 **Placement = Matrice**
 
-La troisième forme de **Placement**, décrit la position de l\'objet et l\'orientation avec une matrice de transformation affine de 4 x 4 ([Transformation Affine](http   *//fr.wikipedia.org/w/index.php?title=Application_affine&action=submit)).
+La troisième forme de **Placement**, décrit la position de l\'objet et l\'orientation avec une matrice de transformation affine de 4 x 4 ([Transformation Affine](http://fr.wikipedia.org/w/index.php?title=Application_affine&action=submit)).
 
 **Matrice** =
 
@@ -98,9 +98,9 @@ Toutefois, si les éléments de chaque section s'appliquent généralement à l'
 
 La case à cocher **Appliquer les modifications incrémentiels** au placement de l\'objet est utile lorsque les translations/rotations doivent être effectuées par rapport à la position/attitude en cours de l\'objet, plutôt que par rapport à la position/attitude d\'origine. En cochant cette case, les champs de saisie de la boîte de dialogue sont remis à zéro, mais l\'orientation ou l\'emplacement de l\'objet n\'est pas modifié. Les entrées ultérieures modifient l\'orientation/l\'emplacement, mais sont appliquées à partir de la position actuelle de l\'objet. L\'activation de cette case à cocher est également utile lorsque vous utilisez le bouton Points sélectionnés, car elle permet parfois d\'éviter des changements de placement indésirables.
 
-PS    * depuis la version 0.17, un nouvel objet Part a été introduit, cet objet a son placement, et l\'objet Placement créé dans l\'objet Part est incrémenté avec le Part placement. <small>(v0.17)</small> 
+PS : depuis la version 0.17, un nouvel objet Part a été introduit, cet objet a son placement, et l\'objet Placement créé dans l\'objet Part est incrémenté avec le Part placement. <small>(v0.17)</small> 
 
-Pour obtenir le Part Placement, utilisez ce code    *
+Pour obtenir le Part Placement, utilisez ce code :
 
 
 ```python
@@ -108,7 +108,7 @@ import Draft, Part
 sel = FreeCADGui.Selection.getSelection()
 print(sel[0].Placement)
 print(sel[0].getGlobalPlacement())   # return the GlobalPlacement
-print(sel[0].getParentGeoFeatureGroup()) # return the GeoFeatureGroup, ex   *  Body or a Part.
+print(sel[0].getParentGeoFeatureGroup()) # return the GeoFeatureGroup, ex:  Body or a Part.
 print("____________________")
 ```
 
@@ -116,42 +116,42 @@ Le bouton **Points sélectionnés** est utilisé pour renseigner les repères da
 
 Considérons d'abord le cas simple de la sélection d'un point. Le flux de travail consiste d\'abord à sélectionner le point souhaité, puis à cliquer sur le bouton **Points sélectionnés**. Les coordonnées du point sélectionné seront utilisées pour renseigner les spinboxes X, Y et Z dans la section **Centre**. Désormais, toute rotation effectuée sur l\'objet concerne ce centre de rotation.
 
-Considérons maintenant le cas de la sélection de 2 points. Vous sélectionneriez les 2 points souhaités, puis cliquez sur le bouton **Points sélectionnés**. Les coordonnées du point médian entre les 2 points sélectionnés sont placées dans les boîtes de défilement X, Y et Z dans la section **Centre**. Désormais, toute rotation effectuée sur l\'objet concerne ce centre de rotation. Mais en plus de la configuration de la section **Centre**, un axe personnalisé (défini par l\'utilisateur) est également ajouté à l\'élément **Axis** de la section **Rotation**. (Remarque   * si vous étiez en mode de rotation Euler, le mode passe en rotation avec un mode axe et le nouvel axe personnalisé est sélectionné comme axe de rotation actuel.) Désormais, toute rotation effectuée à l\'aide du nouvel axe personnalisé correspond à cet axe. de rotation. En prime, la distance est mesurée entre les 2 points sélectionnés et cette information est donnée dans la vue Rapport. (Remarque   * maintenez la touche Maj enfoncée tout en cliquant sur le bouton **Points sélectionnés** pour copier la mesure de distance dans le presse-papiers.) En saisissant cette distance dans le spinbox Axial de la section **Traduction**, le bouton **Appliquer l\'axe** vous permet de translater (déplacer) l\'objet de sorte que le premier point sélectionné occupe maintenant les coordonnées occupées par le deuxième point sélectionné (au moment où le bouton **Points sélectionnés** a été cliqué).
+Considérons maintenant le cas de la sélection de 2 points. Vous sélectionneriez les 2 points souhaités, puis cliquez sur le bouton **Points sélectionnés**. Les coordonnées du point médian entre les 2 points sélectionnés sont placées dans les boîtes de défilement X, Y et Z dans la section **Centre**. Désormais, toute rotation effectuée sur l\'objet concerne ce centre de rotation. Mais en plus de la configuration de la section **Centre**, un axe personnalisé (défini par l\'utilisateur) est également ajouté à l\'élément **Axis** de la section **Rotation**. (Remarque: si vous étiez en mode de rotation Euler, le mode passe en rotation avec un mode axe et le nouvel axe personnalisé est sélectionné comme axe de rotation actuel.) Désormais, toute rotation effectuée à l\'aide du nouvel axe personnalisé correspond à cet axe. de rotation. En prime, la distance est mesurée entre les 2 points sélectionnés et cette information est donnée dans la vue Rapport. (Remarque: maintenez la touche Maj enfoncée tout en cliquant sur le bouton **Points sélectionnés** pour copier la mesure de distance dans le presse-papiers.) En saisissant cette distance dans le spinbox Axial de la section **Traduction**, le bouton **Appliquer l\'axe** vous permet de translater (déplacer) l\'objet de sorte que le premier point sélectionné occupe maintenant les coordonnées occupées par le deuxième point sélectionné (au moment où le bouton **Points sélectionnés** a été cliqué).
 
-Considérons maintenant le cas de la sélection de 3 points. Vous sélectionneriez les 3 points désirés, puis cliquez sur le bouton **Points sélectionnés**. Les coordonnées du premier point sélectionné (l\'ordre de sélection est très important ici) sont placées dans les boîtes de sélection X, Y et Z de la section **Centre**. Puisque 3 points définissent un plan, FreeCAD peut en tirer parti et utiliser ces 3 points pour créer un nouvel axe de rotation personnalisé (défini par l\'utilisateur) qui est normal (perpendiculaire) à ce plan défini. Comme avec 2 points sélectionnés, la distance entre les points est également affichée dans la Vue rapport, mais cette fois, il s'agit de la distance entre les 2e et 3e points sélectionnés. (Remarque   * maintenez la touche Maj enfoncée tout en cliquant sur le bouton **Points sélectionnés** \-- Maj + clic \-- pour copier la mesure de l\'angle dans le presse-papiers.) De plus, l\'angle entre les deuxième et troisième points est également mesuré et affiché dans la vue du rapport. En entrant cet angle dans la zone de sélection **Angle** de la section **Rotation**, nous pouvons faire pivoter l\'objet de manière très précise, de sorte que le deuxième point sélectionné est maintenant aligné sur les coordonnées occupées par le troisième point sélectionné. (Remarque    * vous pouvez augmenter le nombre de chiffres utilisés, dans le menu Édition -\> Préférences -\> Général -\> Unités -\> Nombre de décimales si vous désirez plus de précision).
+Considérons maintenant le cas de la sélection de 3 points. Vous sélectionneriez les 3 points désirés, puis cliquez sur le bouton **Points sélectionnés**. Les coordonnées du premier point sélectionné (l\'ordre de sélection est très important ici) sont placées dans les boîtes de sélection X, Y et Z de la section **Centre**. Puisque 3 points définissent un plan, FreeCAD peut en tirer parti et utiliser ces 3 points pour créer un nouvel axe de rotation personnalisé (défini par l\'utilisateur) qui est normal (perpendiculaire) à ce plan défini. Comme avec 2 points sélectionnés, la distance entre les points est également affichée dans la Vue rapport, mais cette fois, il s'agit de la distance entre les 2e et 3e points sélectionnés. (Remarque: maintenez la touche Maj enfoncée tout en cliquant sur le bouton **Points sélectionnés** \-- Maj + clic \-- pour copier la mesure de l\'angle dans le presse-papiers.) De plus, l\'angle entre les deuxième et troisième points est également mesuré et affiché dans la vue du rapport. En entrant cet angle dans la zone de sélection **Angle** de la section **Rotation**, nous pouvons faire pivoter l\'objet de manière très précise, de sorte que le deuxième point sélectionné est maintenant aligné sur les coordonnées occupées par le troisième point sélectionné. (Remarque : vous pouvez augmenter le nombre de chiffres utilisés, dans le menu Édition -\> Préférences -\> Général -\> Unités -\> Nombre de décimales si vous désirez plus de précision).
 
 ## Exemples
 
-Rotations autour d\'un seul axe    *
+Rotations autour d\'un seul axe :
 
-<img alt="Avant rotation" src=images/RotationAboutZBefore.png  style="width   *600px;"> Avant rotation (vue de dessus) 
+<img alt="Avant rotation" src=images/RotationAboutZBefore.png  style="width:600px;"> Avant rotation (vue de dessus) 
 
-<img alt="Après rotation autour de l\'axe Z" src=images/RotationAboutZAfter.png  style="width   *600px;"> Après rotation autour de l\'axe Z (vue de dessus) 
+<img alt="Après rotation autour de l\'axe Z" src=images/RotationAboutZAfter.png  style="width:600px;"> Après rotation autour de l\'axe Z (vue de dessus) 
 
-<img alt="Après rotation avec l\'axe y=x" src=images/RotationAboutYXAfter.png  style="width   *600px;"> Après rotation avec l\'axe y=x (vue droite) 
+<img alt="Après rotation avec l\'axe y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> Après rotation avec l\'axe y=x (vue droite) 
 
-Rotation avec point central décalé    *
+Rotation avec point central décalé :
 
-<img alt="Avant rotation" src=images/RotationOffsetBefore.png  style="width   *600px;"> Avant rotation (vue de dessus) 
+<img alt="Avant rotation" src=images/RotationOffsetBefore.png  style="width:600px;"> Avant rotation (vue de dessus) 
 
-<img alt="Après rotation autour de l\'axe Z" src=images/RotationOffsetAfter.png  style="width   *600px;"> Après rotation autour de l\'axe Z (vue de dessus) 
+<img alt="Après rotation autour de l\'axe Z" src=images/RotationOffsetAfter.png  style="width:600px;"> Après rotation autour de l\'axe Z (vue de dessus) 
 
-Rotation en utilisant les angles d\'Euler    *
+Rotation en utilisant les angles d\'Euler :
 
-<img alt="Avant rotation" src=images/RotationEulerBefore.png  style="width   *600px;"> Avant rotation 
+<img alt="Avant rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Avant rotation 
 
-<img alt="Après rotation" src=images/RotationEulerAfter.png  style="width   *600px;"> Après rotation 
+<img alt="Après rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Après rotation 
 
 ## Placement.Base versus Définition d\'une forme 
 
-La fonction placement n\'est pas le seul moyen de positionnement d\'une forme dans l\'espace. Notez la console Python dans cette image    *
+La fonction placement n\'est pas le seul moyen de positionnement d\'une forme dans l\'espace. Notez la console Python dans cette image :
 
 ![2 formes avec le même Placement](images/2Placements800.png )
 
-Les deux cubes ont la même valeur de Placement, mais sont à des emplacements différents ! C\'est parce que les 2 formes sont définies par des sommets différents (courbes et formes plus complexes). Pour les 2 formes dans l\'illustration ci-dessus    *
+Les deux cubes ont la même valeur de Placement, mais sont à des emplacements différents ! C\'est parce que les 2 formes sont définies par des sommets différents (courbes et formes plus complexes). Pour les 2 formes dans l\'illustration ci-dessus :
 
  >>> ev = App.ActiveDocument.Extrude.Shape.Vertexes
- >>> for v in ev   * print(v.X,",",v.Y,",",v.Z)
+ >>> for v in ev: print(v.X,",",v.Y,",",v.Z)
  ...
  30.0,30.0,0.0
  30.0,30.0,10.0
@@ -162,7 +162,7 @@ Les deux cubes ont la même valeur de Placement, mais sont à des emplacements d
  30.0,40.0,0.0
  30.0,40.0,10.0
  >>> e1v = App.ActiveDocument.Extrude001.Shape.Vertexes
- >>> for v in e1v   * print(v.X,",",v.Y,",",v.Z)
+ >>> for v in e1v: print(v.X,",",v.Y,",",v.Z)
  ...
  0.0,10.0,0.0
  0.0,10.0,10.0
@@ -188,7 +188,7 @@ Nous voulons faire tourner le cube autour de son axe vertical (c\'est à dire lo
 
 ![Après rotation](images/LocalZAfter2.png ) 
 
-Dans un script, nous ferions    *
+Dans un script, nous ferions :
 
 
 ```python
@@ -203,7 +203,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)       # make a new Placement object
 obj.Placement = newplace                           # spin the box
 ```
 
-Même script avec le fichier exemple [RotateCoG2.fcstd](http   *//forum.freecadweb.org/download/file.php?id=1651) (la discussion sur le [forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052))
+Même script avec le fichier exemple [RotateCoG2.fcstd](http://forum.freecadweb.org/download/file.php?id=1651) (la discussion sur le [forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052))
 
 
 ```python
@@ -220,7 +220,7 @@ obj.Placement = newplace                            # spin the box
 
 ## Utilisation du placement dans les expressions 
 
-Dans les expressions, il est possible d\'utiliser les composants du placement par exemple pour accéder au composant x de l\'objet nommé \"Cube\"    *
+Dans les expressions, il est possible d\'utiliser les composants du placement par exemple pour accéder au composant x de l\'objet nommé \"Cube\" :
 
 
 ```python
@@ -245,7 +245,7 @@ L\'axe de rotation est accessible par
 
 où souvent une de ces valeurs vaut 1 alors que les autres valent 0.
 
-Vous pouvez également utiliser tout le Placement dans une seule expression   * Faites un clic droit sur la propriété Placement dans l\'éditeur de propriétés, sélectionnez \"show all\" puis des propriétés supplémentaires s\'afficheront. Si vous cliquez à nouveau avec le bouton droit sur Placement, le menu contextuel comprendra Expression, sélectionnez Expression puis la boîte de dialogue Expression s\'ouvrira et tout ce que vous tapez ira dans la propriété Placement plutôt que dans ses propriétés enfants.
+Vous pouvez également utiliser tout le Placement dans une seule expression: Faites un clic droit sur la propriété Placement dans l\'éditeur de propriétés, sélectionnez \"show all\" puis des propriétés supplémentaires s\'afficheront. Si vous cliquez à nouveau avec le bouton droit sur Placement, le menu contextuel comprendra Expression, sélectionnez Expression puis la boîte de dialogue Expression s\'ouvrira et tout ce que vous tapez ira dans la propriété Placement plutôt que dans ses propriétés enfants.
 
 Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous devez entrer de cette manière pour Sketch l\'expression
 
@@ -256,13 +256,13 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 ![Définition du Placement entier dans une seule expression](images/PlacementInExpression.png ) 
 
-**REMARQUE    *** Il est également possible de *créer* des objets Placement dans les expressions. Voir la page [Expressions](Expressions/fr#Placement.md) pour plus de détails.
+**REMARQUE :** Il est également possible de *créer* des objets Placement dans les expressions. Voir la page [Expressions](Expressions/fr#Placement.md) pour plus de détails.
 
 ## Remarques
 
 -   Les propriétés de Placement de l\'onglet Données sont désactivées pour les objets qui sont attachés à un autre objet. Le décalage de rattachement doit être modifié à la place.
--   Axis et Angle peuvent également être exprimés en un [quaternion](http   *//fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l%27espace).
--   Le point de référence d\'un objet (FreeCAD.Placement.Base) varie en fonction de l\'objet. Quelques exemples d\'objets courants    *
+-   Axis et Angle peuvent également être exprimés en un [quaternion](http://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l%27espace).
+-   Le point de référence d\'un objet (FreeCAD.Placement.Base) varie en fonction de l\'objet. Quelques exemples d\'objets courants :
 
   Objet                                   Point de référence
    
@@ -279,7 +279,7 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 ## En savoir plus 
 
--   Ce tutoriel    * [Aéroplane](Aeroplane/fr.md) traite largement des mécanismes de modifications de position d\'un objet.
+-   Ce tutoriel : [Aéroplane](Aeroplane/fr.md) traite largement des mécanismes de modifications de position d\'un objet.
 
 
 

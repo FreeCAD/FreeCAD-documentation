@@ -1,8 +1,8 @@
 ---
-- GuiCommand   */de
-   Name/de   *Punkte Zusammenführen
-   MenuLocation   *Punkte → Punktwolken zusammenführen
-   Workbenches   *[Punkte](Points_Workbench/de.md)
+- GuiCommand:/de
+   Name/de:Punkte Zusammenführen
+   MenuLocation:Punkte → Punktwolken zusammenführen
+   Workbenches:[Punkte](Points_Workbench/de.md)
 ---
 
 # Points Merge/de

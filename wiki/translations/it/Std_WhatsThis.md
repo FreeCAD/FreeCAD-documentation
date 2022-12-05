@@ -1,6 +1,6 @@
 # Std WhatsThis/it
 ---
-- GuiCommand   */it   Name   *Std WhatsThis   Name/it   *Cos'è questo?   MenuLocation   *[|Workbenches   *Tutti   Shortcut   *Maiusc+F1   SeeAlso   *[[Std OnlineHelp/it|Aiuto](Std_Help_Menu/it___Help]]_→_Cos'è_questo?‏‎.md)---
+- GuiCommand:/it   Name:Std WhatsThis   Name/it:Cos'è questo?   MenuLocation:[|Workbenches:Tutti   Shortcut:Maiusc+F1   SeeAlso:[[Std OnlineHelp/it|Aiuto](Std_Help_Menu/it___Help]]_→_Cos'è_questo?‏‎.md)---
 
 
 </div>
@@ -15,7 +15,7 @@ Questo strumento fornisce informazioni su un comando selezionato aprendo offline
 
 </div>
 
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
 
 
 <div class="mw-translate-fuzzy">
@@ -28,7 +28,7 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https 
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **[<img src=images/Std_WhatsThis.png style="width   *16px"> [Cos'è questo?](Std_WhatsThis/it.md)**.
+1.  Premere il pulsante **[<img src=images/Std_WhatsThis.png style="width:16px"> [Cos'è questo?](Std_WhatsThis/it.md)**.
 2.  Fare clic su un\'icona della barra degli strumenti o su una voce del menu.
 
 

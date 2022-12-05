@@ -1,6 +1,6 @@
 # Draft Upgrade/cs
 ---
-- GuiCommand   */cs   Name   *Draft Upgrade   Name/cs   *Kreslení Vylepšení   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení → Aktualizace   Shortcut   *U P   SeeAlso   *[Kreslení Degradace](Draft_Downgrade/cs.md)---
+- GuiCommand:/cs   Name:Draft Upgrade   Name/cs:Kreslení Vylepšení   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Aktualizace   Shortcut:U P   SeeAlso:[Kreslení Degradace](Draft_Downgrade/cs.md)---
 
 
 </div>
@@ -15,7 +15,7 @@ Tento nástroj vylepší vybrané objekty jiným způsobem. Není-li vybrán ž�
 
 </div>
 
-<img alt="" src=images/Draft_Upgrade_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *An open non-editable wire is upgraded to a closed wire, and then to a face. A closed non-editable square wire is also upgraded to a face. The two faces are then upgraded to create a compound, which is finally upgraded to a single editable Draft Wire.*
 
 ## Použití
@@ -47,7 +47,7 @@ Tento nástroj vylepší vybrané objekty jiným způsobem. Není-li vybrán ž�
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Vylepšení může být použit ze skriptů Pythonu a z [maker](macros/cs.md) takto   *
+Nástroj Vylepšení může být použit ze skriptů Pythonu a z [maker](macros/cs.md) takto:
 
 
 </div>
@@ -62,13 +62,13 @@ upgrade_list = upgrade(objects, delete=False, force=None)
 
 -   Vylepší daný objekt(y) (může to být objekt nebo seznam objektů).
 -   Je-li delete True, jsou staré objekty smazány.
--   Atribut force může být využit pro určení požadovaného způsobu vylepšení. Může to být   * makeCompound, closeGroupWires, makeSolid, closeWire, turnToParts, makeFusion, makeShell, makeFaces, draftify, joinFaces, makeSketchFace, makeWires
+-   Atribut force může být využit pro určení požadovaného způsobu vylepšení. Může to být: makeCompound, closeGroupWires, makeSolid, closeWire, turnToParts, makeFusion, makeShell, makeFaces, draftify, joinFaces, makeSketchFace, makeWires
 -   Vrací adresář obsahující dva seznamy, seznam nových objektů a seznam objektů ke smazání
 
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python

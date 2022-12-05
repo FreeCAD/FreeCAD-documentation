@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Rebar BentShape
-   Name/fr   *Arch Rebar Armature cintrée
-   MenuLocation   *Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement → Bent-Shape Rebar
-   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en étrier](Arch_Rebar_Stirrup/fr.md), 
+- GuiCommand:/fr
+   Name:Arch Rebar BentShape
+   Name/fr:Arch Rebar Armature cintrée
+   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement → Bent-Shape Rebar
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en étrier](Arch_Rebar_Stirrup/fr.md), 
 ---
 
 # Arch Rebar BentShape/fr
@@ -16,9 +16,9 @@ L\'outil [Rebar Armature cintrée](Arch_Rebar_BentShape/fr.md) permet à l\'util
 
 L\'outil [BentShape Rebar](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
 *Deux jeux de barres de ferraillage pliées à l'intérieur d'une [Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
@@ -43,7 +43,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 9.  Cliquez sur **Cancel** pour quitter le panneau de tâches.
 
-   *   <img alt="" src=images/BentShapeDialog.png  style="width   *250px;">
+:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
 
@@ -51,34 +51,34 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}   * Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
+-    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}   * La distance entre l\'armature et la face sélectionnée.
+-    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Left Cover}}   * La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Right Cover}}   * La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}   * La distance entre l\'armature et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Anchor Length}}   * Il s\'agit de la longueur de la forme courbée de l\'armature .
+-    {{PropertyData/fr|Anchor Length}}: Il s\'agit de la longueur de la forme courbée de l\'armature .
 
--    {{PropertyData/fr|Bent Angle}}   * Il définit l\'angle de cintrage de l\'armature.
+-    {{PropertyData/fr|Bent Angle}}: Il définit l\'angle de cintrage de l\'armature.
 
--    {{PropertyData/fr|Amount}}   * La quantité de barres d\'armature.
+-    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}   * La distance entre les axes de chaque barre.
+-    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature cintrée peut être utilisé dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante    * 
+L\'outil Armature cintrée peut être utilisé dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -123,7 +123,7 @@ Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 
 ### Modifier la barre 
 
-Vous pouvez changer les propriétés de la barre d'armature avec la fonction suivante   *
+Vous pouvez changer les propriétés de la barre d'armature avec la fonction suivante:
 
 
 ```python
@@ -148,14 +148,6 @@ BentShapeRebar.editBentShapeRebar(Rebar, 50, 20, 20, 20,
 BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
                                   12, 35, 100, 155, 2, True, 6, "Top")
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

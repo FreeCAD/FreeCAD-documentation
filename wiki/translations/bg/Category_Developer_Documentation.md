@@ -1,8 +1,6 @@
 # Category:Developer Documentation/bg
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/bg](Category   *Documentation/bg.md) [Category   *Categories/bg](Category   *Categories/bg.md)
-
 ### Contents
 
 |     |     |     |

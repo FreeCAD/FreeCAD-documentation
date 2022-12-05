@@ -1,6 +1,6 @@
 # Robot SetHomePos/de
 ---
-- GuiCommand   */de   Name   *Robot SetHomePos   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Roboter → Setzen Sie die Ausgangsposition---
+- GuiCommand:/de   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Roboter → Setzen Sie die Ausgangsposition---
 
 
 </div>
@@ -21,7 +21,7 @@ Setzt die aktuelle Position/Richtung des selektierten Roboters aus Ausgangsposit
 #### Anwendung
 
 1.  Selektieren Sie den Roboter in der Baumansicht oder der 3D-Ansicht
-2.  Klicken Sie <img alt="" src=images/Robot_SetHomePos.png  style="width   *32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_SetHomePos.png" width=32px> Setzen Sie die Ausgangsposition** aus dem Top-Menü.
+2.  Klicken Sie <img alt="" src=images/Robot_SetHomePos.png  style="width:32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_SetHomePos.png" width=32px> Setzen Sie die Ausgangsposition** aus dem Top-Menü.
 
 
 </div>

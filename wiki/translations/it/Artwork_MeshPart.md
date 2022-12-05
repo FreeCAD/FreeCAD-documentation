@@ -15,9 +15,5 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Mesh](Category_Mesh.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/it

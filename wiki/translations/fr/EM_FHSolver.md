@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */fr
-   Name   *EM FHSolver
-   Name/fr   *EM Solveur FH
-   MenuLocation   *EM → FHSolver
-   Workbenches   *[EM](EM_Workbench/fr.md)
-   Shortcut   ***E** **X**
-   Version   *0.17
-   SeeAlso   *[EM  Fichier entrée FH](EM_FHInputFile/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
+- GuiCommand:/fr
+   Name:EM FHSolver
+   Name/fr:EM Solveur FH
+   MenuLocation:EM → FHSolver
+   Workbenches:[EM](EM_Workbench/fr.md)
+   Shortcut:**E** **X**
+   Version:0.17
+   SeeAlso:[EM  Fichier entrée FH](EM_FHInputFile/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
 ---
 
 # EM FHSolver/fr
@@ -23,7 +23,7 @@ L\'outil Solveur FH insère un objet de type Solveur FH.
 
 ## Utilisation
 
-Pour insérer un objet de type Solveur FH dans le document   *
+Pour insérer un objet de type Solveur FH dans le document:
 
 1.  Appuyez sur le bouton **<img src="images/EM_FHSolver.svg" width=16px> [EM FHSolver](EM_FHSolver/fr.md)** ou appuyez sur les touches **E** puis **X**.
 
@@ -35,36 +35,36 @@ Pour insérer un objet de type Solveur FH dans le document   *
 
 ## Propriétés
 
--    **Units**   * le \'.units\' de FastHenry. Chaque unité dans FreeCad sera une unité de l\'unité de mesure correspondante dans FastHenry. Remarque   * cela signifie que vous pouvez par exemple avoir un dessin 3D dans FreeCAD avec des unités définies en mètres, et spécifier une unité de mesure différente pour FastHenry, par ex. millimètres. Ainsi, la valeur \'1.0m\' dans FreeCAD sera en fait \'1.0mm\' pour la simulation FastHenry.
+-    **Units**: le \'.units\' de FastHenry. Chaque unité dans FreeCad sera une unité de l\'unité de mesure correspondante dans FastHenry. Remarque: cela signifie que vous pouvez par exemple avoir un dessin 3D dans FreeCAD avec des unités définies en mètres, et spécifier une unité de mesure différente pour FastHenry, par ex. millimètres. Ainsi, la valeur \'1.0m\' dans FreeCAD sera en fait \'1.0mm\' pour la simulation FastHenry.
 
--    **Sigma**   * la conductivité de segment par défaut (paramètre de segment \'sigma\' dans l\'instruction FastHenry \'.default\')
+-    **Sigma**: la conductivité de segment par défaut (paramètre de segment \'sigma\' dans l\'instruction FastHenry \'.default\')
 
--    **nhinc**   * le nombre par défaut de filaments dans le sens de la hauteur (paramètre de segment \'nhinc\' dans l\'instruction FastHenry \'.default\')
+-    **nhinc**: le nombre par défaut de filaments dans le sens de la hauteur (paramètre de segment \'nhinc\' dans l\'instruction FastHenry \'.default\')
 
--    **nwinc**   * le nombre par défaut de filaments dans le sens de la largeur (paramètre de segment \'nwinc\' dans l\'instruction FastHenry \'.default\')
+-    **nwinc**: le nombre par défaut de filaments dans le sens de la largeur (paramètre de segment \'nwinc\' dans l\'instruction FastHenry \'.default\')
 
--    **rh**   * le rapport par défaut des filaments adjacents dans le sens de la hauteur (paramètre de segment \'rh\' dans l\'instruction FastHenry \'.default\')
+-    **rh**: le rapport par défaut des filaments adjacents dans le sens de la hauteur (paramètre de segment \'rh\' dans l\'instruction FastHenry \'.default\')
 
--    **rw**   * le rapport par défaut des filaments adjacents dans le sens de la hauteur (paramètre de segment \'rw\' dans l\'instruction FastHenry \'.default\')
+-    **rw**: le rapport par défaut des filaments adjacents dans le sens de la hauteur (paramètre de segment \'rw\' dans l\'instruction FastHenry \'.default\')
 
--    **fmin**   * la fréquence de simulation la plus basse (paramètre de segment \'fmin\' dans l\'instruction FastHenry \'.freq\')
+-    **fmin**: la fréquence de simulation la plus basse (paramètre de segment \'fmin\' dans l\'instruction FastHenry \'.freq\')
 
--    **fmax**   * la fréquence de simulation la plus élevée (paramètre de segment \'fmax\' dans l\'instruction FastHenry \'.freq\')
+-    **fmax**: la fréquence de simulation la plus élevée (paramètre de segment \'fmax\' dans l\'instruction FastHenry \'.freq\')
 
--    **ndec**   * le nombre de points de fréquence souhaités par décennie (paramètre de segment \'ndec\' dans l\'instruction FastHenry \'.freq\')
+-    **ndec**: le nombre de points de fréquence souhaités par décennie (paramètre de segment \'ndec\' dans l\'instruction FastHenry \'.freq\')
 
--    **Folder**   * le chemin du dossier pour exporter le fichier au format de fichier d\'entrée FastHenry
+-    **Folder**: le chemin du dossier pour exporter le fichier au format de fichier d\'entrée FastHenry
 
--    **Filename**   * le nom du fichier de simulation lors de l\'exportation au format de fichier d\'entrée FastHenry
+-    **Filename**: le nom du fichier de simulation lors de l\'exportation au format de fichier d\'entrée FastHenry
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Solveur FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   *
+L\'outil Solveur FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
 
 ```python
@@ -73,7 +73,7 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -   Crée un objet `FHSolver`.
 
--    `units`est l\'unité de mesure FastHenry. Chaque unité dans FreeCad sera une unité de l\'unité de mesure correspondante dans FastHenry. Les valeurs autorisées sont   * \"km\", \"m\", \"cm\", \"mm\", \"um\", \"in\", \"mils\". La valeur par défaut est `EMFHSOLVER_DEFUNITS`
+-    `units`est l\'unité de mesure FastHenry. Chaque unité dans FreeCad sera une unité de l\'unité de mesure correspondante dans FastHenry. Les valeurs autorisées sont: \"km\", \"m\", \"cm\", \"mm\", \"um\", \"in\", \"mils\". La valeur par défaut est `EMFHSOLVER_DEFUNITS`
 
 -    `sigma`est la conductivité par défaut du flotteur. La valeur par défaut est `EMFHSOLVER_DEF_SEGSIGMA`.
 
@@ -91,13 +91,13 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -    `ndec`est la valeur flottante définissant le nombre de points de fréquence par décennie qui seront simulés.
 
--    `folder`est le dossier dans lequel le fichier FastHenry sera enregistré. Par défaut, le chemin d\'accès à la maison de l\'utilisateur (par exemple sous Windows \"C   *Documents and Settings\\username\\My Documents\", in Linux \"/home/username\").
+-    `folder`est le dossier dans lequel le fichier FastHenry sera enregistré. Par défaut, le chemin d\'accès à la maison de l\'utilisateur (par exemple sous Windows \"C:\\Documents and Settings\\username\\My Documents\", in Linux \"/home/username\").
 
 -    `filename`est le nom du fichier qui sera exporté. La valeur par défaut est `EMFHSOLVER_DEF_FILENAME`.
 
 -    `name`est le nom de l\'objet
 
-Exemple   *
+Exemple:
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std DrawStyle
-   MenuLocation   *View → Draw style → ...
-   Workbenches   *All
-   Shortcut   ***V** **1** - **V** **7**
-   SeeAlso   *[Std SelBoundingBox](Std_SelBoundingBox.md)
+- GuiCommand:
+   Name:Std DrawStyle
+   MenuLocation:View → Draw style → ...
+   Workbenches:All
+   Shortcut:**V** **1** - **V** **7**
+   SeeAlso:[Std SelBoundingBox](Std_SelBoundingBox.md)
 ---
 
 # Std DrawStyle/en
@@ -15,57 +15,57 @@ The **Std DrawStyle** command can override the effect of the **Display Mode** [p
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Click on the black down arrow to the right of the **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Std DrawStyle](Std_DrawStyle.md)** button and select a style from the flyout.
     -   In the menu go to **View → Draw style** and select a style.
     -   In the [3D view](3D_view.md) context menu go to **Draw style** and select a style.
-    -   Use one of the keyboard shortcut   * **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
+    -   Use one of the keyboard shortcut: **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
 
 ## Available draw styles 
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *24px;"> As is 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> As is 
 
 The **As is** style does not override the **Display Mode** of objects.
 
 ![](images/Std_DrawStyleAsIs_example.png ) 
-*4 identical objects each with a different Display Mode (from left to right   * 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
+*4 identical objects each with a different Display Mode (from left to right: 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *24px;"> Points 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Points 
 
 The **Points** style overrides the **Display Mode** of objects. This style matches the \'Points\' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
 
 ![](images/Std_DrawStylePoints_example.png ) 
 *The same objects with the 'Points' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> Wireframe 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Wireframe 
 
 The **Wireframe** style overrides the **Display Mode** of objects. This style matches the \'Wireframe\' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
 
 ![](images/Std_DrawStyleWireframe_example.png ) 
 *The same objects with the 'Wireframe' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width   *24px;"> Hidden line 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Hidden line 
 
 The **Hidden line** style overrides the **Display Mode** of objects. Objects are displayed as if converted to triangular meshes.
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
 *The same objects with the 'Hidden line' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width   *24px;"> No shading 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> No shading 
 
 The **No shading** style overrides the **Display Mode** of objects. Vertices, edges and faces are displayed in solid colors.
 
 ![](images/Std_DrawStyleNoShading_example.png ) 
 *The same objects with the 'No shading' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width   *24px;"> Shaded 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Shaded 
 
 The **Shaded** style overrides the **Display Mode** of objects. This style matches the \'Shaded\' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
 
 ![](images/Std_DrawStyleShaded_example.png ) 
 *The same objects with the 'Shaded' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width   *24px;"> Flat lines 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Flat lines 
 
 The **Flat lines** style overrides the **Display Mode** of objects. This style matches the \'Flat lines\' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
 
@@ -75,7 +75,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 ## Notes
 
 -   Objects in a [3D view](3D_view.md) also have a **Draw Style** property. This property controls the linetype used for the edges. The Std DrawStyle command does not override this property.
--   For a macro to toggle between two draw styles see   * [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
+-   For a macro to toggle between two draw styles see: [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
 
 
 

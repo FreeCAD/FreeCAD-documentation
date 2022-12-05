@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Web BrowserStop
-   Name/fr   *Web Arrêter le chargement
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso   *
+- GuiCommand:/fr
+   Name:Web BrowserStop
+   Name/fr:Web Arrêter le chargement
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso:
 ---
 
 # Web BrowserStop/fr
 
 ## Description
 
-Utilisez la commande <img alt="" src=images/Web_BrowserStop.svg  style="width   *24px;"> **Web Arrêter le chargement** pour arrêter le chargement de la page web en cours.
+Utilisez la commande <img alt="" src=images/Web_BrowserStop.svg  style="width:24px;"> **Web Arrêter le chargement** pour arrêter le chargement de la page web en cours.
 
 ## Utilisation
 

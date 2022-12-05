@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Std TextureMapping
-   Name/fr   *Std Mappage de textures
-   MenuLocation   *Affichage → Mappage de texture...
-   Workbenches   *Tous
+- GuiCommand:/fr
+   Name:Std TextureMapping
+   Name/fr:Std Mappage de textures
+   MenuLocation:Affichage → Mappage de texture...
+   Workbenches:Tous
 ---
 
 # Std TextureMapping/fr

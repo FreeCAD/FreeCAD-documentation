@@ -1,6 +1,6 @@
 # Robot SetDefaultValues/de
 ---
-- GuiCommand   */de   Name   *Robot SetDefaultValues   Workbenches   *[[Robot_Workbench/de   Robot]]|MenuLocation   *Roboter → Festlegen von Standardwerten---
+- GuiCommand:/de   Name:Robot SetDefaultValues   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Festlegen von Standardwerten---
 
 
 </div>

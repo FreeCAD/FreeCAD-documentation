@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */fr
-   Topic   *Modélisation 2D
-   Level   *Intermédiaire
-   Author   *Mark Stephen ([Quick61](User_Quick61.md))
-   Time   *Moins d'une heure
-   FCVersion   *0.14.3700 ou plus
+- TutorialInfo:/fr
+   Topic:Modélisation 2D
+   Level:Intermédiaire
+   Author:Mark Stephen ([Quick61](User_Quick61.md))
+   Time:Moins d'une heure
+   FCVersion:0.14.3700 ou plus
 ---
 
 # Drawing Template HowTo/fr
@@ -36,7 +36,7 @@ Commençons avec un nouveau document dans Inkscape. En se référant sur la page
 
 Après avoir exécuté Inkscape, déroulez le menu fichier et sélectionnez **Propriétés du Document**, vous devriez voir la fenêtre des propriétés du document. Modifiez la largeur et la hauteur comme indiqué et assurez vous que le px (pixel) est l\'unité.
 
-<img alt="" src=images/Inkscape_Template_tut_1.png  style="width   *780px;">
+<img alt="" src=images/Inkscape_Template_tut_1.png  style="width:780px;">
 
 Vous devriez maintenant avoir un document Inkscape qui est de 279px large et haute de 216px. Maintenant procédons pour ajouter une bordure.
 
@@ -94,12 +94,12 @@ Ouvrez le fichier SVG avec votre éditeur de texte, vous verrez le texte suivant
 
 ![](images/Kate1.png )
 
-### Le Tag \"xmlns   *freecad\" 
+### Le Tag \"xmlns:freecad\" 
 
 La première chose à faire est d\'insérer la ligne suivante dans le document. Cette ligne est la déclaration **SVG_namespace** et doit être fournie afin que tous les éléments SVG soient identifiés comme appartenant à **SVG_namespace**
 
  XML
-xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
 Cette ligne est ajoutée immédiatement après la première balise
@@ -141,7 +141,7 @@ La première balise est la balise **Working space** et est formatée comme suit.
 
 
 
-Où X1, Y1, X2, Y2 sont définis comme    *
+Où X1, Y1, X2, Y2 sont définis comme :
 
 -   X1 est la distance de l\'axe X du bord gauche de la page sur le côté gauche de la bordure.
 -   Y1 est la distance de l\'axe Y du bord supérieur de la page le haut de la bordure.
@@ -156,13 +156,13 @@ Donc pour la feuille de ce tutoriel, la balise sera **Working space**.
 
 #### La balise Title block 
 
-La balise suivante est la balise **Title block** et est formatée comme suit    *
+La balise suivante est la balise **Title block** et est formatée comme suit :
 
  html
 
 
 
-Où X1a, Y1a, X2a Y2a sont définis comme   *
+Où X1a, Y1a, X2a Y2a sont définis comme:
 
 -   X1a est la distance de l\'axe X du bord gauche de la page sur au bord gauche du cartouche
 -   Y1a est la distance de l\'axe Y du bord supérieur de la page au bord supérieur du cartouche
@@ -170,21 +170,21 @@ Où X1a, Y1a, X2a Y2a sont définis comme   *
 -   Y2a est la distance de l\'axe Y du bord supérieur de la page au bord inférieur du cartouche
 -   X1a \< = X 1 ou X2a \> = 2 X \* Y1a \< = Y1 ou Y2a \> = Y2
 
-Pour, la balise qui référence le cartouche créé avec ce tutoriel, elle est défini comme suit    *
+Pour, la balise qui référence le cartouche créé avec ce tutoriel, elle est défini comme suit :
 
  html
 
 
 
-La position des deux balises, dans l\'ordre et en haut du document ressemble à ceci    *
+La position des deux balises, dans l\'ordre et en haut du document ressemble à ceci :
 
 ![](images/Kate3.png )
 
-### La balise freecad   *editable 
+### La balise freecad:editable 
 
-Ajouter la balise **freecad   *editable** permet à FreeCAD d\'accéder aux blocs de textes modifiables définis pour l\'édition dans le document SVG. Pour modifier les blocs de textes que vous souhaitez modifier à partir de FreeCAD, procédez comme suit.
+Ajouter la balise **freecad:editable** permet à FreeCAD d\'accéder aux blocs de textes modifiables définis pour l\'édition dans le document SVG. Pour modifier les blocs de textes que vous souhaitez modifier à partir de FreeCAD, procédez comme suit.
 
-Cherchez vers le bas dans le document SVG jusqu\'à trouver la section qui contient le texte que vous souhaitez modifier. Lorsque vous avez effectué votre feuille, vous les avez placés dans un groupe, et par conséquent, ils doivent apparaître dans le document aussi comme un groupe. Les groupes sont délimités par les balises **\<g . . . . \<g/\>**. Une fois que ce groupe d\'éléments de textes est trouvé, vous allez ajouter la ligne **freecad   *editable = \"\"** la variable de chaque bloc de texte que vous souhaitez modifier est contenu entre guillemets. Placez la ligne comme indiqué pour les quatre lignes de texte modifiables.
+Cherchez vers le bas dans le document SVG jusqu\'à trouver la section qui contient le texte que vous souhaitez modifier. Lorsque vous avez effectué votre feuille, vous les avez placés dans un groupe, et par conséquent, ils doivent apparaître dans le document aussi comme un groupe. Les groupes sont délimités par les balises **\<g . . . . \<g/\>**. Une fois que ce groupe d\'éléments de textes est trouvé, vous allez ajouter la ligne **freecad:editable = \"\"** la variable de chaque bloc de texte que vous souhaitez modifier est contenu entre guillemets. Placez la ligne comme indiqué pour les quatre lignes de texte modifiables.
 
 ![](images/Kate4.png )
 
@@ -217,8 +217,8 @@ Vous trouverez ci-dessous le modèle SVG terminé. Comme il est au format SVG, v
 
 Les deux outils utilisés dans ce tutoriel sont Inkscape et Kate. Ils peuvent être trouvés en cliquant sur les liens ci-dessous.
 
--   [Inkscape](http   *//www.inkscape.org/)
--   [Kate](http   *//kate-editor.org/)
+-   [Inkscape](http://www.inkscape.org/)
+-   [Kate](http://kate-editor.org/)
 
 
 {{Drawing Tools navi

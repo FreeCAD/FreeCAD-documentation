@@ -1,11 +1,11 @@
 # Developer hub/it
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;">
+{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
 
 
 
 Questo è il posto giusto per contribuire allo sviluppo del software di FreeCAD.
 
-Queste pagine sono in fase iniziale di sviluppo. Se non è possibile trovare le informazioni cercate, o se da altre parti si trovano informazioni utili non collegate, si prega di lasciare un commento nella pagina delle [discussioni nel forum](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) in modo che qualcuno se ne possa occupare (oppure, modificare direttamente questa pagina).
+Queste pagine sono in fase iniziale di sviluppo. Se non è possibile trovare le informazioni cercate, o se da altre parti si trovano informazioni utili non collegate, si prega di lasciare un commento nella pagina delle [discussioni nel forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) in modo che qualcuno se ne possa occupare (oppure, modificare direttamente questa pagina).
 
 ## Developer Documentation 
 
@@ -14,7 +14,7 @@ Queste pagine sono in fase iniziale di sviluppo. Se non è possibile trovare le 
 
 ## Documentazione per gli sviluppatori 
 
-La documentazione per gli sviluppatori comprende le seguenti sezioni   *
+La documentazione per gli sviluppatori comprende le seguenti sezioni:
 
 
 </div>
@@ -24,7 +24,7 @@ La documentazione per gli sviluppatori comprende le seguenti sezioni   *
 
 <div class="mw-translate-fuzzy">
 
-### Fare da soli   * Compilare FreeCAD 
+### Fare da soli: Compilare FreeCAD 
 
 -   [Gestione del codice sorgente](Source_code_management/it.md)
 -   [Trovare assistenza](Tracker/it.md) per quando si ha un problema o si pensa di aver trovato un bug
@@ -98,12 +98,12 @@ Il [Packaging](Packaging/it.md) consiste nel prendere i binari compilati e i fil
 
 ### Guida per gli sviluppatori del modulo 
 
-[FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide)   * Si tratta di un ebook in fase di scrittura su GitHub, si prega di creare una biforcazione e di inviare una richiesta di pull per contribuire.
+[FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): Si tratta di un ebook in fase di scrittura su GitHub, si prega di creare una biforcazione e di inviare una richiesta di pull per contribuire.
 
 
 </div>
 
-Capitoli   *
+Capitoli:
 
 -   Overview and Software Architecture
 -   Source code structure
@@ -116,7 +116,7 @@ Capitoli   *
 -   Module testing and debugging
 -   Contribute code with git
 
-L\'ultima anteprima del pdf può essere scaricata dalla [cartella dei pdf](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) di questo repo git
+L\'ultima anteprima del pdf può essere scaricata dalla [cartella dei pdf](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) di questo repo git
 
 ### Moduli interni 
 
@@ -124,10 +124,10 @@ L\'ultima anteprima del pdf può essere scaricata dalla [cartella dei pdf](https
 
 OpenCascade è una piattaforma di sviluppo software per la modellazione 3D di superfici e solidi, lo scambio di dati CAD e la visualizzazione, principalmente sotto forma di librerie C++.
 
--   [Roman Lygin\'s tutorials](http   *//opencascade.wikidot.com/romansarticles)
--   [Full Online Documentation](https   *//dev.opencascade.org/doc/overview/html/index.html)
--   [Reference Manual](https   *//dev.opencascade.org/doc/refman/html/index.html)
--   [Il wiki di openCascade](http   *//opencascade.wikidot.com)
+-   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
+-   [Full Online Documentation](https://dev.opencascade.org/doc/overview/html/index.html)
+-   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
+-   [Il wiki di openCascade](http://opencascade.wikidot.com)
 
 #### Formato dei file 
 
@@ -141,13 +141,13 @@ OpenCascade è una piattaforma di sviluppo software per la modellazione 3D di su
 
 #### Solutore di Sketcher 
 
--   [Sketcher Solver Architecture Booklet](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https   *//github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
--   [PlaneGCS solver](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
--   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192).
+-   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
+-   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
+-   [Recent Several Sketcher improvements](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
 
-Il risolutore di sketcher non è perfetto, in quanto vi sono alcuni problemi con la precisione numerica quando si utilizzano valori elevati, vedere [Adventure of fixing sketcher solver for large sketches](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+Il risolutore di sketcher non è perfetto, in quanto vi sono alcuni problemi con la precisione numerica quando si utilizzano valori elevati, vedere [Adventure of fixing sketcher solver for large sketches](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
 
-Lo sviluppo di una nuova architettura di risolutore potrebbe migliorare il modo in cui il risolutore viene utilizzato sia in [Sketcher](Sketcher_Workbench/it.md), sia per l\'assemblaggio di corpi 3D. Vedere [Reimplementing constraint solver](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=40525).
+Lo sviluppo di una nuova architettura di risolutore potrebbe migliorare il modo in cui il risolutore viene utilizzato sia in [Sketcher](Sketcher_Workbench/it.md), sia per l\'assemblaggio di corpi 3D. Vedere [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
 ## Roadmap
 
@@ -167,19 +167,14 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 ## Community
 
--   [IRC channel](irc   *//chat.freenode.net/freecad) ,synchronized with [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https   *//forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
 
 -   [Piano di sviluppo](Development_roadmap/it.md)
 
 ## Crediti
 
 [ Collaboratori](Contributors/it.md)
-
-
-
-
-[Category   *Hubs](Category_Hubs.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

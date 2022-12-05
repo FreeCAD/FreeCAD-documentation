@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ViewDockUndockFullscreen
-   Name/fr   *Std Fenêtre document détachée
-   Empty   *1
-   MenuLocation   *Affichage → Fenêtre Document‏‎ → Dockée/Non dockée
-   Workbenches   *Tous
-   Shortcut   ***V** **D** / **V** **U**
-   SeeAlso   *[Std Plein écran](Std_ViewFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
+- GuiCommand:/fr
+   Name:Std ViewDockUndockFullscreen
+   Name/fr:Std Fenêtre document détachée
+   Empty:1
+   MenuLocation:Affichage → Fenêtre Document‏‎ → Dockée/Non dockée
+   Workbenches:Tous
+   Shortcut:**V** **D** / **V** **U**
+   SeeAlso:[Std Plein écran](Std_ViewFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
 ---
 
 # Std ViewDockUndockFullscreen/fr
@@ -27,10 +27,10 @@ L\'option de menu **Docked** place la [vue 3D](3D_view/fr.md) active dans l\'int
 ### Utilisation
 
 1.  Activez une vue 3D non ancrée.
-2.  Il existe plusieurs façons d\'invoquer l\'option   *
-    -   S\'il n\'y a pas de vues 3D ancrées   * sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Dockée** dans le menu.
+2.  Il existe plusieurs façons d\'invoquer l\'option:
+    -   S\'il n\'y a pas de vues 3D ancrées: sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Dockée** dans le menu.
     -   Sélectionnez l\'option **Fenêtre Document‏‎ → Dockée** dans le menu contextuel de la vue 3D.
-    -   Utilisez le raccourci clavier   * **V** puis **D**.
+    -   Utilisez le raccourci clavier: **V** puis **D**.
 
 ## Undocked
 
@@ -41,10 +41,10 @@ L\'option de menu **Undocked** sépare la [vue 3D](3D_view/fr.md) active de l\'i
 ### Utilisation 
 
 1.  Activez une vue 3D ancrée.
-2.  Il existe plusieurs façons d\'invoquer l\'option   *
+2.  Il existe plusieurs façons d\'invoquer l\'option:
     -   Sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Non dockée** dans le menu.
     -   Sélectionnez l\'option **Fenêtre Document‏‎ → Non dockée** dans le menu contextuel de la vue 3D.
-    -   Utilisez le raccourci clavier   * **V** puis **U**.
+    -   Utilisez le raccourci clavier: **V** puis **U**.
 
 ## Remarques
 

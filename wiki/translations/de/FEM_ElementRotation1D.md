@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM ElementRotation1D
-   MenuLocation   *Model → Element Geometry → Beam rotation
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM ElementRotation1D
+   MenuLocation:Model → Element Geometry → Beam rotation
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ElementRotation1D/de
@@ -14,7 +14,7 @@ Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse 
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Trägerrotation](FEM_ElementRotation1D/de.md)** drücken.
     -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementRotation1D.svg" width=16px> Trägerrotation** auswählen.
 2.  Den Winkel festlegen, um den das Balkenprofil gedreht wird.

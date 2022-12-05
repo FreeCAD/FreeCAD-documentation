@@ -1,8 +1,8 @@
-# <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width   *64px;"> OpenSCAD Workbench/tr
+# <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/tr
 
 ## Introduction
 
-The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http   *//www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
 
 It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
@@ -17,14 +17,14 @@ This workbench contains functions to modify the CSG feature tree and repair mode
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-In openSUSE this is done by   *
+In openSUSE this is done by:
 
 
 ```python
 sudo zypper install python3-ply
 ```
 
-In Debian/Ubuntu based systems this is done like the following   *
+In Debian/Ubuntu based systems this is done like the following:
 
 
 ```python
@@ -44,38 +44,38 @@ The OpenSCAD language allows the use of variables and loops. It allows you to sp
 
 ## Tools
 
--   <img alt="" src=images/OpenSCAD_ColorCodeShape.png  style="width   *32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md)   * Change the color of selected or all shapes based on their validity.
--   <img alt="" src=images/OpenSCAD_ReplaceObject.png  style="width   *32px;"> [Replace Object](OpenSCAD_ReplaceObject.md)   * Replace an object in the feature tree.
--   <img alt="" src=images/OpenSCAD_RemoveSubtree.png  style="width   *32px;"> [Remove Subtree](OpenSCAD_RemoveSubtree.md)   * Removes the selected objects and all children that are not referenced from other objects.
--   <img alt="" src=images/OpenSCAD_RefineShapeFeature.png  style="width   *32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md)   * Create Refine Shape Feature.
--   <img alt="" src=images/OpenSCAD_IncreaseTolerance.png  style="width   *32px;"> [Increase Tolerance Feature](OpenSCAD_IncreaseTolerance.md)   * Increases tolerance of edges/faces/vertex of selected object(s).
--   <img alt="" src=images/OpenSCAD_Edgestofaces.png  style="width   *32px;"> [Convert Edges To Faces](OpenSCAD_Edgestofaces.md)   * Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
--   <img alt="" src=images/OpenSCAD_ExpandPlacements.png  style="width   *32px;"> [Expand Placements](OpenSCAD_ExpandPlacements.md)   * Expand all placements downwards the FeatureTree.
--   <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width   *32px;"> [Explode Group](OpenSCAD_ExplodeGroup.md)   * Explodes fused part primitives.
--   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.png  style="width   *32px;"> [Add OpenSCAD Element](OpenSCAD_AddOpenSCADElement.md)   * Add an OpenSCAD element by entering OpenSCAD code into the task panel.
--   <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width   *32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean.md)   * Creates new mesh object by boolean operation from shapes.
--   <img alt="" src=images/OpenSCAD_Hull.png  style="width   *32px;"> [Hull](OpenSCAD_Hull.md)   * Apllies a hull to selected shapes.
--   <img alt="" src=images/OpenSCAD_Minkowski.png  style="width   *32px;"> [Minkowski](OpenSCAD_Minkowski.md)   * Applies a minkowski sum to selected shapes.
+-   <img alt="" src=images/OpenSCAD_ColorCodeShape.png  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md): Change the color of selected or all shapes based on their validity.
+-   <img alt="" src=images/OpenSCAD_ReplaceObject.png  style="width:32px;"> [Replace Object](OpenSCAD_ReplaceObject.md): Replace an object in the feature tree.
+-   <img alt="" src=images/OpenSCAD_RemoveSubtree.png  style="width:32px;"> [Remove Subtree](OpenSCAD_RemoveSubtree.md): Removes the selected objects and all children that are not referenced from other objects.
+-   <img alt="" src=images/OpenSCAD_RefineShapeFeature.png  style="width:32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md): Create Refine Shape Feature.
+-   <img alt="" src=images/OpenSCAD_IncreaseTolerance.png  style="width:32px;"> [Increase Tolerance Feature](OpenSCAD_IncreaseTolerance.md): Increases tolerance of edges/faces/vertex of selected object(s).
+-   <img alt="" src=images/OpenSCAD_Edgestofaces.png  style="width:32px;"> [Convert Edges To Faces](OpenSCAD_Edgestofaces.md): Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
+-   <img alt="" src=images/OpenSCAD_ExpandPlacements.png  style="width:32px;"> [Expand Placements](OpenSCAD_ExpandPlacements.md): Expand all placements downwards the FeatureTree.
+-   <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width:32px;"> [Explode Group](OpenSCAD_ExplodeGroup.md): Explodes fused part primitives.
+-   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.png  style="width:32px;"> [Add OpenSCAD Element](OpenSCAD_AddOpenSCADElement.md): Add an OpenSCAD element by entering OpenSCAD code into the task panel.
+-   <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width:32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean.md): Creates new mesh object by boolean operation from shapes.
+-   <img alt="" src=images/OpenSCAD_Hull.png  style="width:32px;"> [Hull](OpenSCAD_Hull.md): Apllies a hull to selected shapes.
+-   <img alt="" src=images/OpenSCAD_Minkowski.png  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski.md): Applies a minkowski sum to selected shapes.
 
--   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width   *32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md)   * Change the color of selected or all shapes based on their validity.
--   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width   *32px;"> [Replace Object](OpenSCAD_ReplaceObject.md)   * Replace an object in the feature tree.
--   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width   *32px;"> [Remove Subtree](OpenSCAD_RemoveSubtree.md)   * Removes the selected objects and all children that are not referenced from other objects.
--   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md)   * Create Refine Shape Feature.
--   <img alt="" src=images/OpenSCAD_MirrorMeshFeature.svg  style="width   *32px;"> [Mirror Mesh Feature](OpenSCAD_MirrorMeshFeature.md)   * Create Mirror Mesh Feature.
--   <img alt="" src=images/OpenSCAD_ScaleMeshFeature.svg  style="width   *32px;"> [Scale Mesh Feature](OpenSCAD_ScaleMeshFeature.md)   * Scale a Mesh Feature.
--   <img alt="" src=images/OpenSCAD_ResizeMeshFeature.svg  style="width   *32px;"> [Resize Mesh Feature](OpenSCAD_ResizeMeshFeature.md)   * Resize a Mesh Feature.
--   <img alt="" src=images/OpenSCAD_IncreaseToleranceFeature.svg  style="width   *32px;"> [Increase Tolerance Feature](OpenSCAD_IncreaseToleranceFeature.md)   * Increases tolerance of edges/faces/vertex of selected object(s).
--   <img alt="" src=images/OpenSCAD_Edgestofaces.svg  style="width   *32px;"> [Convert Edges To Faces](OpenSCAD_Edgestofaces.md)   * Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
--   <img alt="" src=images/OpenSCAD_ExpandPlacements.svg  style="width   *32px;"> [Expand Placements](OpenSCAD_ExpandPlacements.md)   * Expand all placements downwards the FeatureTree.
--   <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width   *32px;"> [Explode Group](OpenSCAD_ExplodeGroup.md)   * Explodes fused part primitives.
--   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.svg  style="width   *32px;"> [Add OpenSCAD Element](OpenSCAD_AddOpenSCADElement.md)   * Add an OpenSCAD element by entering OpenSCAD code into the task panel.
--   <img alt="" src=images/OpenSCAD_MeshBoolean.svg  style="width   *32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean.md)   * Creates new mesh object by boolean operation from shapes.
--   <img alt="" src=images/OpenSCAD_Hull.svg  style="width   *32px;"> [Hull](OpenSCAD_Hull.md)   * Applies a hull to selected shapes.
--   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width   *32px;"> [Minkowski](OpenSCAD_Minkowski.md)   * Applies a minkowski sum to selected shapes.
+-   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md): Change the color of selected or all shapes based on their validity.
+-   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Replace Object](OpenSCAD_ReplaceObject.md): Replace an object in the feature tree.
+-   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> [Remove Subtree](OpenSCAD_RemoveSubtree.md): Removes the selected objects and all children that are not referenced from other objects.
+-   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md): Create Refine Shape Feature.
+-   <img alt="" src=images/OpenSCAD_MirrorMeshFeature.svg  style="width:32px;"> [Mirror Mesh Feature](OpenSCAD_MirrorMeshFeature.md): Create Mirror Mesh Feature.
+-   <img alt="" src=images/OpenSCAD_ScaleMeshFeature.svg  style="width:32px;"> [Scale Mesh Feature](OpenSCAD_ScaleMeshFeature.md): Scale a Mesh Feature.
+-   <img alt="" src=images/OpenSCAD_ResizeMeshFeature.svg  style="width:32px;"> [Resize Mesh Feature](OpenSCAD_ResizeMeshFeature.md): Resize a Mesh Feature.
+-   <img alt="" src=images/OpenSCAD_IncreaseToleranceFeature.svg  style="width:32px;"> [Increase Tolerance Feature](OpenSCAD_IncreaseToleranceFeature.md): Increases tolerance of edges/faces/vertex of selected object(s).
+-   <img alt="" src=images/OpenSCAD_Edgestofaces.svg  style="width:32px;"> [Convert Edges To Faces](OpenSCAD_Edgestofaces.md): Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
+-   <img alt="" src=images/OpenSCAD_ExpandPlacements.svg  style="width:32px;"> [Expand Placements](OpenSCAD_ExpandPlacements.md): Expand all placements downwards the FeatureTree.
+-   <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> [Explode Group](OpenSCAD_ExplodeGroup.md): Explodes fused part primitives.
+-   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.svg  style="width:32px;"> [Add OpenSCAD Element](OpenSCAD_AddOpenSCADElement.md): Add an OpenSCAD element by entering OpenSCAD code into the task panel.
+-   <img alt="" src=images/OpenSCAD_MeshBoolean.svg  style="width:32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean.md): Creates new mesh object by boolean operation from shapes.
+-   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Hull](OpenSCAD_Hull.md): Applies a hull to selected shapes.
+-   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski.md): Applies a minkowski sum to selected shapes.
 
 ## Preferences
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width   *32px;"> [Preferences](OpenSCAD_Preferences.md)   * preferences available for the OpenSCAD tools.
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferences](OpenSCAD_Preferences.md): preferences available for the OpenSCAD tools.
 
 ## Limitations
 
@@ -89,7 +89,7 @@ Importing OpenSCAD code with texts requires that the fonts that are used are pro
 
 Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
 
-It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name)   *
+It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name):
 
     TESTFONT="NameOfFont";
     linear_extrude(0.001) {
@@ -112,9 +112,9 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 ## Links
 
--   The official OpenSCAD project source code repository hosted on [GitHub](https   *//github.com/openscad/openscad)
--   Open tickets tagged \"OpenSCAD\" on the [FreeCAD Github issue tracker](https   *//github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). There are also tickets on the now archived [mantis bugtracker](https   *//freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
--   Models tagged with \"OpenSCAD\" on [Thingiverse](http   *//www.thingiverse.com/tag   *openscad)
+-   The official OpenSCAD project source code repository hosted on [GitHub](https://github.com/openscad/openscad)
+-   Open tickets tagged \"OpenSCAD\" on the [FreeCAD Github issue tracker](https://github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). There are also tickets on the now archived [mantis bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
+-   Models tagged with \"OpenSCAD\" on [Thingiverse](http://www.thingiverse.com/tag:openscad)
 
 
 <div class="mw-translate-fuzzy">
@@ -128,9 +128,7 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 {{OpenSCAD Tools navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

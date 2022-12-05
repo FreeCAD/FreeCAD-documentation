@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Mesh_CrossSections
-   Name/it   *Sezioni
-   MenuLocation   *Mesh → Taglio → Sezioni...
-   Workbenches   *[Mesh](Mesh_Workbench/it.md)
-   SeeAlso   *[Sezione da mesh e piano](Mesh_SectionByPlane/it.md)
+- GuiCommand:/it
+   Name:Mesh_CrossSections
+   Name/it:Sezioni
+   MenuLocation:Mesh → Taglio → Sezioni...
+   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   SeeAlso:[Sezione da mesh e piano](Mesh_SectionByPlane/it.md)
 ---
 
 # Mesh CrossSections/it
@@ -22,7 +22,7 @@ Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le se
 2.  Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_CrossSections.svg" width=16px> Sezioni..** dal menu.
 3.  Si apre il pannello delle azioni **Sezioni**.
 4.  I piani che verranno utilizzati per creare le sezioni trasversali sono indicati nella [vista 3D](3D_view/it.md) e verranno aggiornati in base agli input del pannello delle azioni.
-5.  Selezionare il **Piano guida**   *
+5.  Selezionare il **Piano guida**:
     -   
         **XY**
         
@@ -35,21 +35,21 @@ Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le se
         **YZ**
         
 6.  Specificare la **Posizione** del piano guida dall\'origine. La posizione predefinita si basa sul centro del cuboide contenitore degli oggetti mesh selezionati. La scelta di un diverso **Piano guida** o la selezione della casella di controllo **Sezioni** reimposta la **Posizione** a questo valore predefinito.
-7.  Se necessario, selezionare la casella di controllo **Sezioni** per creare più sezioni trasversali   *
+7.  Se necessario, selezionare la casella di controllo **Sezioni** per creare più sezioni trasversali:
     -   
         **Su entrambi i lati**
         
-           * se selezionata, le sezioni trasversali vengono create su entrambi i lati del piano di guida.
+        : se selezionata, le sezioni trasversali vengono create su entrambi i lati del piano di guida.
 
     -   
         **Numero di sezioni**
         
-           * il numero di sezioni trasversali.
+        : il numero di sezioni trasversali.
 
     -   
         **Distanza**
         
-           * la distanza tra le sezioni trasversali. Il valore predefinito si basa sulle dimensioni del riquadro di delimitazione, sull\'opzione **Su entrambi i lati** e sul valore di **Numero di sezioni**. La modifica del valore di **Numero di sezioni** reimposta la **Distanza** a questo valore predefinito. La modifica dell\'opzione **Su entrambi i lati** ricalcola la **Distanza** ({{value|*2.0}} o {{value|*0.5}}). Notare che la casella di immissione potrebbe essere disattivata, ma il valore può essere effettivamente modificato.
+        : la distanza tra le sezioni trasversali. Il valore predefinito si basa sulle dimensioni del riquadro di delimitazione, sull\'opzione **Su entrambi i lati** e sul valore di **Numero di sezioni**. La modifica del valore di **Numero di sezioni** reimposta la **Distanza** a questo valore predefinito. La modifica dell\'opzione **Su entrambi i lati** ricalcola la **Distanza** ({{value|*2.0}} o {{value|*0.5}}). Notare che la casella di immissione potrebbe essere disattivata, ma il valore può essere effettivamente modificato.
 
     -   Facoltativamente, selezionare la casella di controllo **Collega bordi se la distanza è inferiore a** e specificare un valore.
 8.  Premere il pulsante **Applica** per creare l\'insieme di sezioni trasversali.
@@ -61,7 +61,7 @@ Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le se
 
 ## Proprietà
 
-Vedere   * [Funzioni Part](Part_Feature/it.md).
+Vedere: [Funzioni Part](Part_Feature/it.md).
 
 
 <div class="mw-translate-fuzzy">

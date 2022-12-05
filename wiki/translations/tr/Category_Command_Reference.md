@@ -1,8 +1,6 @@
 # Category:Command Reference/tr
 This category contains the help pages of each of FreeCAD command.
 
-[Category   *Categories/tr](Category   *Categories/tr.md)
-
 ### Contents
 
 |     |     |     |

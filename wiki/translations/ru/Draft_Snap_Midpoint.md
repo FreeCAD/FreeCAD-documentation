@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Draft Midpoint
-   Name/ru   *Draft Midpoint
-   MenuLocation   *Черчение → [Привязка](Draft_Snap/ru.md) → Середина
-   Workbenches   *[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/ru
+   Name:Draft Midpoint
+   Name/ru:Draft Midpoint
+   MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Середина
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Draft Snap Midpoint/ru

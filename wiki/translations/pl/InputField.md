@@ -7,9 +7,5 @@ Pozostaje do wykonania\...
 
 
 
-[Category   *Developer](Category_Developer.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > InputField/pl

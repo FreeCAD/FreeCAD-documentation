@@ -7,10 +7,10 @@
 |Version=1.0
 |Date=2015-01-21
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/4/45/Macro_Python_Assistant_Window.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/4/45/Macro_Python_Assistant_Window.png ToolBar Icon]
 }}
 
-Uno dei potenti aspetti di Python è la sua Console che serve sia come dispositivo di output che da interprete dinamico del codice sorgente. La macro Python Assistant Window (in seguito denominata \'PAW\') fornisce ulteriori funzionalità alla console Python. {{Codeextralink|http   *//pastebin.com/raw/2m0u94Z1}} <img alt="" src=images/PythonAssistantWindowScreenSnapshot.jpg  style="width   *500px;">
+Uno dei potenti aspetti di Python è la sua Console che serve sia come dispositivo di output che da interprete dinamico del codice sorgente. La macro Python Assistant Window (in seguito denominata \'PAW\') fornisce ulteriori funzionalità alla console Python. {{Codeextralink|http://pastebin.com/raw/2m0u94Z1}} <img alt="" src=images/PythonAssistantWindowScreenSnapshot.jpg  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -22,16 +22,16 @@ Essendo un ambiente di sviluppo moderno, Python presenta diversi vantaggi rispet
 
 </div>
 
-Nonostante la sua potenza, appare subito evidente che la console Python ha due inconvenienti   *
+Nonostante la sua potenza, appare subito evidente che la console Python ha due inconvenienti:
 
 -   la console ha delle dimensioni limitate e per vedere i risultati del lavoro fatto poco tempo prima può essere necessario scorrere di parecchio la schermata. I risultati non sono andati persi, ma sono scomodi da recuperare
 -   la console si azzera ogni volta che si chiude una sessione di FreeCAD, e ad ogni avvio di FreeCAD la console è vuota (a parte il messaggio di avvio di Python)
 
-La PAW fornisce quanto segue   *
+La PAW fornisce quanto segue:
 
 -   è persistente tra le sessioni FreeCAD, da essa le cose non \"scompaiono\", a meno che l\'utente le rimuova
--   ha un menù contestuale che permette di   *
-    -   eseguire le operazioni standard di editazione   * Copia & Incolla & Seleziona tutto
+-   ha un menù contestuale che permette di:
+    -   eseguire le operazioni standard di editazione: Copia & Incolla & Seleziona tutto
     -   copiare una selezione nella Console Python
     -   copiare l\'intero contenuto della PAW nella Console Python
     -   aggiungere il contenuto della Console Python alla PAW
@@ -48,15 +48,15 @@ Tutto il codice di pythonAssistantWindow.FCMacro è contenuto in una macro, quin
 -   per informazioni su come installare il codice delle macro vedere la pagina [Come installare le macro](How_to_install_macros/it.md)
 -   per informazioni su come installarla abbinata a un pulsante in una barra degli strumenti vedere la pagina [Personalizzare la barra degli strumenti](Customize_Toolbars/it.md)
 
-Nota   * Per coordinare la memoria persistente all\'interno di FreeCAD viene utilizzata una variabile globale.
+Nota: Per coordinare la memoria persistente all\'interno di FreeCAD viene utilizzata una variabile globale.
 
-Nota   * Nella directory \"UserAppData\" viene usato un file di testo per memorizzare il contenuto testuale della PAW tra le sessioni di FreeCAD.
+Nota: Nella directory \"UserAppData\" viene usato un file di testo per memorizzare il contenuto testuale della PAW tra le sessioni di FreeCAD.
 
 ## Uso
 
 La PAW si utilizza meglio se ha un pulsante su una barra degli strumenti. Può anche essere eseguita dal menu Macro o incollando il codice nella Console Python, ma queste ultime due opzioni riducono notevolmente la sua facilità d\'uso.
 
-Quando si avvia FreeCAD l\'unica traccia della PAW è un pulsante sulla barra degli strumenti. Cliccando sul pulsante   *
+Quando si avvia FreeCAD l\'unica traccia della PAW è un pulsante sulla barra degli strumenti. Cliccando sul pulsante:
 
 -   si apre la PAW nell\'angolo in basso a destra
     -   secondo le impostazioni predefinite occupa circa 1/3 della larghezza e dell\'altezza dello schermo, il resto può essere utilizzato dalla finestra principale FreeCAD
@@ -66,7 +66,7 @@ Quando si avvia FreeCAD l\'unica traccia della PAW è un pulsante sulla barra de
 -   quando si chiude la PAW il suo contenuto viene scritto nel file e la finestra scompare - non vi è alcun dialogo di conferma
 -   viceversa, se si esce da FreeCAD (Menu -\> Esci) appare una finestra di dialogo che chiede se si vuole salvare le modifiche non salvate nella PAW
 
-La maggior parte della funzionalità della PAW sono fornite dal menu contestuale, le opzioni sono   *
+La maggior parte della funzionalità della PAW sono fornite dal menu contestuale, le opzioni sono:
 
 -   Copy
     - fornisce la funzione standard di Copia
@@ -91,8 +91,8 @@ La maggior parte della funzionalità della PAW sono fornite dal menu contestuale
 -   Reduce multiple blank lines to single blank lines
     - compatta il testo, eliminando le righe vuote multiple
 -   Alter GUI settings
-    - porta in primo piano una finestra modale con tre controlli   *
--   <img alt="" src=images/PythonAssistantWindowGui2.jpg  style="width   *500px;">
+    - porta in primo piano una finestra modale con tre controlli:
+-   <img alt="" src=images/PythonAssistantWindowGui2.jpg  style="width:500px;">
     -   un cursore per impostare la percentuale della larghezza dello schermo dedicata alla PAW (ricordando che c\'è una larghezza limite al di sotto della quale la finestra principale di FreeCAD non scende)
     -   un cursore per impostare la percentuale dell\'altezza dello schermo dedicata alla PAW
     -   una coppia di pulsanti di opzione per indicare se la PAW deve essere posizionata nella parte superiore o inferiore del lato sinistro dello schermo
@@ -100,7 +100,7 @@ La maggior parte della funzionalità della PAW sono fornite dal menu contestuale
     - il contenuto della finestra PAW viene scritto in un file selezionato dall\'utente - il contenuto della PAW non viene alterato
 -   Close window
     - la finestra PAW viene chiusa e il contenuto scritto in un file a memoria persistente
-    Nota   * Non appare alcun dialogo, il salvataggio avviene automaticamente
+    Nota: Non appare alcun dialogo, il salvataggio avviene automaticamente
 
 ## Interfaccia utente 
 
@@ -139,7 +139,7 @@ nessuno (fino ad ora)
 ## Script
 
 
-**'''Se il listato dello script non finisce con le informazioni sulla versione FreeCAD e ultima riga non è "thus ends the macro..." significa che il Wiki ne ha mangiato una parte e quindi si deve scaricarlo o copiarlo da [[http   *//pastebin.com/raw.php?i=2m0u94Z1 unabbreviated script on pastebin.com]]'''**
+**'''Se il listato dello script non finisce con le informazioni sulla versione FreeCAD e ultima riga non è "thus ends the macro..." significa che il Wiki ne ha mangiato una parte e quindi si deve scaricarlo o copiarlo da [[http://pastebin.com/raw.php?i=2m0u94Z1 unabbreviated script on pastebin.com]]'''**
 
 ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
 
@@ -168,7 +168,7 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
     # 'pawAtBottomFlag' specifies if the Python Assistant Window is at the top or the bottom
     # The Python Assistant Window is automatically placed at the left,
     # so pawWidthPercent = 26, pawHeightPercent = 41, pawAtBottomFlag = False will cause the
-    # following   *
+    # following:
     # 1) the main FreeCAD window will be placed in the upper left corner of the screen,
     #    it's height will be 100% of the screen height,
     #    it's width will be 74% (=100%-26%) of the screen
@@ -190,13 +190,13 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
 
     # UI Class definitions
 
-    class PythonAssistantWindow(QtGui.QMainWindow)   *
+    class PythonAssistantWindow(QtGui.QMainWindow):
         """"""
-        def __init__(self, pythonTextToEdit)   *
+        def __init__(self, pythonTextToEdit):
             self.textIn = pythonTextToEdit
             super(PythonAssistantWindow, self).__init__()
             self.initUI(pythonTextToEdit)
-        def initUI(self, pythonTextToEdit)   *
+        def initUI(self, pythonTextToEdit):
             """Constructor"""
             # set default return value and pointer to subsequent child window
             self.result         = userCancelled
@@ -206,9 +206,9 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             self.pawWinWidth    = pawWidthPercentInitial/100.0 * availableWidth
             self.pawWinHeight   = pawHeightPercentInitial/100.0 * availableHeight
             self.left           = screenWidth - self.pawWinWidth
-            if pawAtBottomFlagInitial   *
+            if pawAtBottomFlagInitial:
                 self.top        = screenHeight - self.pawWinHeight
-            else   *
+            else:
                 self.top        = 0     
             self.editorHeight   = self.pawWinHeight
             # set dimensions for main FreeCAD window
@@ -334,16 +334,16 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             #
             self.show()
         #
-        def onMenuDivider(self)   *
+        def onMenuDivider(self):
             # just a divider in the menu so we don't do anything
             pass
-        def onClear(self)   *
+        def onClear(self):
             # clear editing field
             self.text_editor.clear()
-        def onPaste(self)   *
+        def onPaste(self):
             # paste contents of system copy/paste buffer into QPlainTextEdit field
             self.text_editor.paste()
-        def onAppendFromConsole(self)   *
+        def onAppendFromConsole(self):
             # copy text from "Python console"
             mainWindow  = FreeCADGui.getMainWindow()
             pcDW        = mainWindow.findChild(QtGui.QDockWidget, "Python console")
@@ -352,10 +352,10 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             self.text_editor.appendPlainText(copyFromConsoleText)
             self.text_editor.appendPlainText("")
             self.text_editor.appendPlainText(consoleStr)
-        def onCopy(self)   *
+        def onCopy(self):
             # copy selected text to system copy/paste buffer
             self.text_editor.copy()
-        def onCopySelectionToConsole(self)   *
+        def onCopySelectionToConsole(self):
             # copy selected text to "Python console"
             mainWindow  = FreeCADGui.getMainWindow()
             pcDW        = mainWindow.findChild(QtGui.QDockWidget, "Python console")
@@ -363,94 +363,94 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             #
             cursor      = self.text_editor.textCursor()
             cursorText  = self.text_editor.toPlainText()
-            textToCopy = cursorText[cursor.selectionStart()   *cursor.selectionEnd()]
-            if len(textToCopy)>0   *
+            textToCopy = cursorText[cursor.selectionStart():cursor.selectionEnd()]
+            if len(textToCopy)>0:
                 pcPTE.appendPlainText(textToCopy)
-        def onCopyToConsole(self)   *
+        def onCopyToConsole(self):
             # copy text to "Python console"
             mainWindow  = FreeCADGui.getMainWindow()
             pcDW        = mainWindow.findChild(QtGui.QDockWidget, "Python console")
             pcPTE       = pcDW.findChild(QtGui.QPlainTextEdit, "Python console")
             pcPTE.appendPlainText(copyToConsoleText)
             pcPTE.appendPlainText()
-        def onInsertMarker(self)   *
+        def onInsertMarker(self):
             # insert marker
             self.text_editor.insertPlainText(markerText)
-        def onStripPrefix(self)   *
+        def onStripPrefix(self):
             # strip out ">>> " from text edit window
             self.text_editor.selectAll()
-            if len(self.text_editor.toPlainText())>0   *
+            if len(self.text_editor.toPlainText())>0:
                 self.text_editor.selectAll()
                 tmp = self.text_editor.toPlainText()
                 self.text_editor.clear()
                 self.text_editor.appendPlainText(tmp.replace(">>> ",""))
-        def onReduceBlankLines(self)   *
+        def onReduceBlankLines(self):
             # reduce multiple blank lines to single blank lines
             contents = self.text_editor.toPlainText()
             self.text_editor.clear()
             self.text_editor.appendPlainText(os.linesep.join([s for s in contents.splitlines() if s]))
-        def onSelectMarkers(self)   *
+        def onSelectMarkers(self):
             cursor      = self.text_editor.textCursor()
             cursorText  = self.text_editor.toPlainText()
             bNum = cursor.blockNumber(); cNum = cursor.columnNumber()
             pos = cursor.position(); cursorTextLength = len(cursorText)
             occurrences = [i for i in range(len(cursorText)) if cursorText.startswith(markerText, i)]
-            if len(occurrences)==0   *
+            if len(occurrences)==0:
                 self.alertWindow = QtGui.QMessageBox()
                 self.alertWindow.setText("There are no markers...")
                 self.alertWindow.show()
-            elif len(occurrences)==1   *
+            elif len(occurrences)==1:
                 hdrStart = occurrences[0]
                 hdrEnd = hdrStart + markerTextLength
-                if pos<hdrStart   *
+                if pos<hdrStart:
                     selectStart = 0; selectEnd = hdrStart
                     self.cursor.setPosition(selectStart)
                     self.cursor.setPosition(selectEnd, QtGui.QTextCursor.KeepAnchor)
                     self.text_editor.setTextCursor(self.cursor)
-                if pos>hdrEnd   *
+                if pos>hdrEnd:
                     selectStart = hdrEnd; selectEnd = cursorTextLength
                     self.cursor.setPosition(selectStart)
                     self.cursor.setPosition(selectEnd, QtGui.QTextCursor.KeepAnchor)
                     self.text_editor.setTextCursor(self.cursor)
-            else   *
+            else:
                 startOccurrences = list(); endOccurrences = list(occurrences)
-                for i in range(len(occurrences))   *
+                for i in range(len(occurrences)):
                     startOccurrences.append(occurrences[i] + markerTextLength + 1)
                 startOccurrences.insert( 0, 0)
                 endOccurrences.insert( len(occurrences), cursorTextLength)
-                for i in range(len(occurrences)+1)   *
-                    if startOccurrences[i]<pos<endOccurrences[i]   *
-                        if i==0   *
+                for i in range(len(occurrences)+1):
+                    if startOccurrences[i]<pos<endOccurrences[i]:
+                        if i==0:
                             selectStart = startOccurrences[i]
-                        else   *
+                        else:
                             selectStart = startOccurrences[i]-1
                         selectEnd = endOccurrences[i]
                         self.cursor.setPosition(selectStart)
                         self.cursor.setPosition(selectEnd, QtGui.QTextCursor.KeepAnchor)
                         self.text_editor.setTextCursor(self.cursor)
                         break
-        def onSelectAll(self)   *
+        def onSelectAll(self):
             self.text_editor.selectAll()
-        def onCloseWindow(self)   *
+        def onCloseWindow(self):
             self.close()
-        def onSettings(self)   *
+        def onSettings(self):
             # get new width (as %), height (as %), vertical flag
             self.childWindow = GetGuiConfigParams(self)
             pass
-        def onTextChanged(self)   *
+        def onTextChanged(self):
             FreeCAD.PythonAssistantWindowStatus[1] = True
-        def onCursorPosition(self)   *
-            #print ("Line   * {} | Column   * {}".format(
+        def onCursorPosition(self):
+            #print ("Line: {} | Column: {}".format(
             #   self.text_editor.textCursor().blockNumber(),
             #   self.text_editor.textCursor().columnNumber()))
             #print self.text_editor.textCursor().position()+self.text_editor.textCursor().columnNumber()
             pass
-        def onSaveAsFile(self)   *
+        def onSaveAsFile(self):
             filePath = QtGui.QFileDialog.getSaveFileName(parent=None,caption="Save contents as",dir=expanduser("~"),filter="*.txt")
             file = open(filePath[0],"w")
             file.write(self.text_editor.toPlainText())
             file.close()
-        def closeEvent(self,event)   *
+        def closeEvent(self,event):
             # write out contents for next session
             file = open(persistenceFile,"w")
             file.write(self.text_editor.toPlainText())
@@ -459,13 +459,13 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             del FreeCAD.PythonAssistantWindowStatus
             self.close()
 
-    class GetGuiConfigParams(QtGui.QMainWindow)   *
+    class GetGuiConfigParams(QtGui.QMainWindow):
         """"""
-        def __init__(self, parentWindow)   *
+        def __init__(self, parentWindow):
             self.parentWindow = parentWindow
             super(GetGuiConfigParams, self).__init__()
             self.initUI(parentWindow)
-        def initUI(self, parentWindow)   *
+        def initUI(self, parentWindow):
             """Constructor"""
             self.result                         = userCancelled
             # grab geometry from our parent so we can tell if user has changed values
@@ -510,7 +510,7 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             self.rb2 = QtGui.QRadioButton("Window at Bottom",self)
             self.rb2.toggle() # set default value
             self.rb2.clicked.connect(self.onRb2)
-            if self.parentWindow.geometry().y()==0   *
+            if self.parentWindow.geometry().y()==0:
                 self.rb1.toggle()
             # cancel button
             cancelButton = QtGui.QPushButton('Cancel', self)
@@ -542,18 +542,18 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             self.setCentralWidget(centralWidget)
             #
             self.show()
-        def widthSliderChangeValue(self, value)   *
+        def widthSliderChangeValue(self, value):
             self.widthSliderValue = value
-        def heightSliderChangeValue(self, value)   *
+        def heightSliderChangeValue(self, value):
             self.heightSliderValue = value
-        def onRb1(self)   *
+        def onRb1(self):
             pass
-        def onRb2(self)   *
+        def onRb2(self):
             pass
-        def onCancel(self)   *
+        def onCancel(self):
             self.result = userCancelled
             self.close()
-        def onOk(self)   *
+        def onOk(self):
             self.result = "OK"
             # the two slider values are the width and height of the Python Assistant Window
             # resize main FreeCAD window
@@ -562,9 +562,9 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             # resize the PAW window
             newPawWidth         = availableWidth-freeCadMainWidth
             newPawHeight        = (self.heightSliderValue/100.0) * availableHeight
-            if self.rb1.isChecked()   *
+            if self.rb1.isChecked():
                 newPawTop       = 0
-            else   *
+            else:
                 newPawTop       = availableHeight - newPawHeight
             self.parentWindow.setGeometry(freeCadMainWidth+interWindowGap, newPawTop, newPawWidth-interWindowGap, newPawHeight)
             self.close()
@@ -575,14 +575,14 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             
     # Function definitions
 
-    def onFreeCADShutdown()   *
+    def onFreeCADShutdown():
         # this will be invoked when FreeCAD is told to shut down
         #QtGui.QMessageBox.information(None,"","FreeCAD shutting down")
-        if FreeCAD.PythonAssistantWindowStatus[1]   *
+        if FreeCAD.PythonAssistantWindowStatus[1]:
             reply = QtGui.QMessageBox.question(None, "",
                 "The Python Assistant Window has changes, do you want to save them?",
                 QtGui.QMessageBox.Yes | QtGui.QMessageBox.No, QtGui.QMessageBox.No)
-            if reply == QtGui.QMessageBox.Yes   *
+            if reply == QtGui.QMessageBox.Yes:
                 # write out contents for next session
                 file = open(persistenceFile,"w")
                 file.write(FreeCAD.PythonAssistantWindowStatus[0].text_editor.toPlainText())
@@ -610,9 +610,9 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
     availableWidth      = QtGui.QDesktopWidget().availableGeometry().width()
     availableHeight     = QtGui.QDesktopWidget().availableGeometry().height()
 
-    if not hasattr(FreeCAD,"PythonAssistantWindowStatus")   *
+    if not hasattr(FreeCAD,"PythonAssistantWindowStatus"):
         previousContents = ""
-        if os.path.isfile(persistenceFile)   *
+        if os.path.isfile(persistenceFile):
             # read contents of last session
             file = open(persistenceFile,"r")
             previousContents = file.read()
@@ -622,21 +622,21 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
         # save pointer to window so it can be located again and Raised when it becomes obscured
         FreeCAD.PythonAssistantWindowStatus = [None, False]
         FreeCAD.PythonAssistantWindowStatus[0] = form
-    else   *
+    else:
         # window is open so Raise it so it is visible
         FreeCAD.PythonAssistantWindowStatus[0].raise_()
         pass
     #
-    #OS   * Mac OS X
-    #Word size   * 64-bit
-    #Version   * 0.14.3703 (Git)
-    #Branch   * releases/FreeCAD-0-14
-    #Hash   * c6edd47334a3e6f209e493773093db2b9b4f0e40
-    #Python version   * 2.7.5
-    #Qt version   * 4.8.6
-    #Coin version   * 3.1.3
-    #SoQt version   * 1.5.0
-    #OCC version   * 6.7.0
+    #OS: Mac OS X
+    #Word size: 64-bit
+    #Version: 0.14.3703 (Git)
+    #Branch: releases/FreeCAD-0-14
+    #Hash: c6edd47334a3e6f209e493773093db2b9b4f0e40
+    #Python version: 2.7.5
+    #Qt version: 4.8.6
+    #Coin version: 3.1.3
+    #SoQt version: 1.5.0
+    #OCC version: 6.7.0
     #
     #thus ends the macro...
 

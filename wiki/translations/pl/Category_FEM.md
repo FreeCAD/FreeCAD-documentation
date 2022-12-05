@@ -1,8 +1,6 @@
 # Category:FEM/pl
 This category lists pages related to the [FEM Workbench/pl](FEM_Workbench/pl.md).
 
-[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
-
 ### Contents
 
 |     |     |     |

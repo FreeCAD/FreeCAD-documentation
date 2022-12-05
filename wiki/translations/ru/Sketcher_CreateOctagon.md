@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Восьмиугольник
-   Name   *Sketcher_CreateOctagon
-   MenuLocation   *Эскиз → Геометрия эскиза → Восьмиугольник
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***G** **P** **8**
-   Version   *0.15
+- GuiCommand:/ru
+   Name/ru:Восьмиугольник
+   Name:Sketcher_CreateOctagon
+   MenuLocation:Эскиз → Геометрия эскиза → Восьмиугольник
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **P** **8**
+   Version:0.15
 ---
 
 # Sketcher CreateOctagon/ru
@@ -18,7 +18,7 @@
 
 ## Применение
 
--   После нажатия кнопки **[<img src=images/Sketcher_CreateOctagon.svg style="width   *16px"> [Восьмиугольник](Sketcher_CreateOctagon.md)**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
+-   После нажатия кнопки **[<img src=images/Sketcher_CreateOctagon.svg style="width:16px"> [Восьмиугольник](Sketcher_CreateOctagon.md)**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 -   Нажатие **Esc** или правой кнопки мыши закрывает функцию.
 
 ## Примечания

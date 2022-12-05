@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Draft SubelementHighlight
-   Name/de   *Entwurf UnterelementMarkieren
-   MenuLocation   *Änderung → Unterelement markieren
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut   ***H** **S**
-   Version   *0.19
-   SeeAlso   *[Entwurf Bewegen](Draft_Move/de.md), [Entwurf Drehen](Draft_Rotate/de.md), [Entwurf Skalieren](Draft_Scale/de.md)
+- GuiCommand:/de
+   Name:Draft SubelementHighlight
+   Name/de:Entwurf UnterelementMarkieren
+   MenuLocation:Änderung → Unterelement markieren
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut:**H** **S**
+   Version:0.19
+   SeeAlso:[Entwurf Bewegen](Draft_Move/de.md), [Entwurf Drehen](Draft_Rotate/de.md), [Entwurf Skalieren](Draft_Scale/de.md)
 ---
 
 # Draft SubelementHighlight/de
@@ -16,7 +16,7 @@
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width   *24px;"> **Entwurf UnterelementMarkieren** Befehl markiert ausgewählte Objekte oder die Basisobjekte ausgewählter Objekte temporär hervor. Er ist in Verbindung mit dem Unterelementmodus des Befehls [Entwurf Bewegen](Draft_Move/de.md), dem Befehl [Entwurf Drehen](Draft_Rotate/de.md) oder dem Befehl [Entwurf Skalieren](Draft_Scale/de.md) zu verwenden. Zurzeit funktioniert der Unterelementmodus nur bei [Entwurf Linien](Draft_Line/de.md) und [Entwurf WDrähte](Draft_Wire/de.md) richtig.
+Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> **Entwurf UnterelementMarkieren** Befehl markiert ausgewählte Objekte oder die Basisobjekte ausgewählter Objekte temporär hervor. Er ist in Verbindung mit dem Unterelementmodus des Befehls [Entwurf Bewegen](Draft_Move/de.md), dem Befehl [Entwurf Drehen](Draft_Rotate/de.md) oder dem Befehl [Entwurf Skalieren](Draft_Scale/de.md) zu verwenden. Zurzeit funktioniert der Unterelementmodus nur bei [Entwurf Linien](Draft_Line/de.md) und [Entwurf WDrähte](Draft_Wire/de.md) richtig.
 
 ![](images/Draft_SubelementHighlight_example.png ) 
 *Eine Architektur Wand, deren Basis, ein Entwurf Draht, wurde markiert*
@@ -27,7 +27,7 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width   *24px;"
 <div class="mw-translate-fuzzy">
 
 1.  Wähle ein Objekt.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_SubelementHighlight.svg" width=16px> [UnterelementMarkieren](Draft_SubelementHighlight/de.md)** Schaltfläche
     -   Verwende den **D** dann **E** Tastaturkürzel
     -   Verwende den **Änderung → UnterelementMarkieren** Eintrag im Menü Entwurf

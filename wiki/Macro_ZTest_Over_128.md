@@ -10,7 +10,7 @@
 |Version=3.0
 |Date=2019-06-14
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/c/c1/Macro_ZTest_Over_128.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/c/c1/Macro_ZTest_Over_128.png ToolBar Icon]
 }}
 
 ## Description
@@ -28,7 +28,7 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
 **Macro_ZTest_Over_128.FCMacro**
 
 
-    # -*- coding   * utf-8 -*-
+    # -*- coding: utf-8 -*-
     from __future__ import unicode_literals
 
     #this macro is only used by programmers
@@ -37,13 +37,13 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
 
     __title__   = "Macro_ZTest_Over_128"
     __author__  = "Programmer"
-    __url__     = "https   *//www.freecadweb.org/wiki/Main_Page"
-    __Wiki__    = "https   *//www.freecadweb.org/wiki/Macro_ZTest_Over_128"
+    __url__     = "https://www.freecadweb.org/wiki/Main_Page"
+    __Wiki__    = "https://www.freecadweb.org/wiki/Macro_ZTest_Over_128"
     __version__ = "03.00"
     __date__    = "2019/06/14"
 
 
-    try   *
+    try:
         print()
         print("chr()_____________________________1")
         print(chr(176))    #degree
@@ -55,10 +55,10 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         print(chr(194))    #capital A circonflex
         print(chr(196))    #capital A trema
         print(chr(197))    #capital A ring
-    except Exception   *
+    except Exception:
         FreeCAD.Console.PrintError("ERROR mode 1" + "\n")
 
-    try   *
+    try:
         print()
         print("str(chr(176))_____________________2")
         print(str(chr(176)))    #degree
@@ -70,10 +70,10 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         print(str(chr(194)))    #capital A circonflex
         print(str(chr(196)))    #capital A trema
         print(str(chr(197)))    #capital A ring
-    except Exception   *
+    except Exception:
         FreeCAD.Console.PrintError("ERROR mode 2" + "\n")
 
-    try   *
+    try:
         print()
         print("b'\xc2\xb0'.decode('utf-8')_______3")
         print(b'\xc2\xb0'.decode('utf-8'))    #degree
@@ -85,10 +85,10 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         print(b'\xc3\x82'.decode('utf-8'))    #capital A circonflex
         print(b'\xc3\x83'.decode('utf-8'))    #capital A trema
         print(b'\xc3\x85'.decode('utf-8'))    #capital A ring
-    except Exception   *
+    except Exception:
         FreeCAD.Console.PrintError("ERROR mode 3" + "\n")
 
-    try   *
+    try:
         print()
         print("b'\xb0'.decode('iso8859')_________4")
         print(b'\xb0'.decode('iso8859'))    #degree
@@ -100,10 +100,10 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         print(b'\xc2'.decode('iso8859'))    #capital A circonflex
         print(b'\xc3'.decode('iso8859'))    #capital A trema
         print(b'\xc5'.decode('iso8859'))    #capital A ring
-    except Exception   *
+    except Exception:
         FreeCAD.Console.PrintError("ERROR mode 4" + "\n")
 
-    try   *
+    try:
         print()
         print("car_______________________________5")
         print("°")    #degree
@@ -115,11 +115,11 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         print("Â")    #capital A circonflex
         print("Ã")    #capital A tilde
         print("Ä")    #capital A trema
-        print("Å")    #capital A ringexcept Exception   *
-    except Exception   *
+        print("Å")    #capital A ringexcept Exception:
+    except Exception:
         FreeCAD.Console.PrintError("ERROR mode 5" + "\n")
 
-    try   *
+    try:
         print()
         print("u'car'.encode('utf-8')____________6")
         print(u"°".encode('utf-8'))    #degree
@@ -131,7 +131,7 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         print(u"Â".encode('utf-8'))    #capital A circonflex
         print(u"Ã".encode('utf-8'))    #capital A trema
         print(u"Å".encode('utf-8'))    #capital A ring
-    except Exception   *
+    except Exception:
         FreeCAD.Console.PrintError("ERROR mode 6" + "\n")
 
     print("End_______________________________")
@@ -139,7 +139,7 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
     import sys
     import PySide
     from PySide import QtGui, QtCore
-    class fen()   *
+    class fen():
         label = QtGui.QLabel("FreeCAD")
         label.setGeometry(500, 300, 100, 100)
         label.setWindowFlags( QtCore.Qt.WindowStaysOnTopHint |  QtCore.Qt.CustomizeWindowHint | QtCore.Qt.FramelessWindowHint) 

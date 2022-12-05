@@ -1,6 +1,6 @@
 # Part CheckGeometry/ro
 ---
-- GuiCommand   *   Name   *Part CheckGeometry‏‎   MenuLocation   *Part → Check geometry   Workbenches   *[[Part Workbench   Part]]|SeeAlso   *---
+- GuiCommand:   Name:Part CheckGeometry‏‎   MenuLocation:Part → Check geometry   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
 
 
 </div>
@@ -27,7 +27,7 @@ Instrumentul este disponibil în bara de lucru Part din meniul Part sau cu buton
 
 </div>
 
-Results will be reported in the [Task panel](Task_panel.md). If the check produced errors   * click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
+Results will be reported in the [Task panel](Task_panel.md). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
 ## Options
 
@@ -40,7 +40,7 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 <div class="mw-translate-fuzzy">
 
-Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), apoi urmați acești pași   * Tools menu \> Edit Parameters \> Preferences \> Mod \> Part \> CheckGeometry apoi, în panoul din dreapta, faceți dublu clic sub valoarea pentru parametrul RunBOPCheck și setați la true, apoi faceți clic pe Save on disk, închideți și reporniți. Vedeți captura de ecran de mai jos.
+Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), apoi urmați acești pași: Tools menu \> Edit Parameters \> Preferences \> Mod \> Part \> CheckGeometry apoi, în panoul din dreapta, faceți dublu clic sub valoarea pentru parametrul RunBOPCheck și setați la true, apoi faceți clic pe Save on disk, închideți și reporniți. Vedeți captura de ecran de mai jos.
 
 
 </div>
@@ -51,12 +51,12 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
 
 ## Shape Content 
 
-In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object   *
+In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object:
 
 -   Checked object
 -   Shape type
--   Number of geometric entities   * vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
--   Geometric and mass properties   *
+-   Number of geometric entities: vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
+-   Geometric and mass properties:
     -   Area
     -   Volume
     -   Mass

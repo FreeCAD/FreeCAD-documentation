@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std FreeCADFAQ
-   Name/de   *Std FreeCADFAQ
-   MenuLocation   *Hilfe → FreeCAD FAQ
-   Workbenches   *Alle
-   SeeAlso   *[Std FreeCADWebseite](Std_FreeCADWebsite/de.md), [Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md)
+- GuiCommand:/de
+   Name:Std FreeCADFAQ
+   Name/de:Std FreeCADFAQ
+   MenuLocation:Hilfe → FreeCAD FAQ
+   Workbenches:Alle
+   SeeAlso:[Std FreeCADWebseite](Std_FreeCADWebsite/de.md), [Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md)
 ---
 
 # Std FreeCADFAQ/de
@@ -13,7 +13,7 @@
 
 Der Befehl **Std FreeCADFAQ** öffnet die (engl.) Seite \"Frequently asked questions\" im voreingestellten Internet-Browser (Dort können verschiedene Landessprachen ausgewählt werden). Der Befehl erfordert eine funktionierende Internetverbindung.
 
-Aktuell verweist dieser Befehl auf die Seite [<https   *//wiki.freecad.org/Frequently_asked_questions>](https   *//wiki.freecad.org/Frequently_asked_questions).
+Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/Frequently_asked_questions>](https://wiki.freecad.org/Frequently_asked_questions).
 
 ## Anwendung
 

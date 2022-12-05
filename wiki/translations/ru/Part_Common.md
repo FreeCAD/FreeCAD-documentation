@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Part Common
-   Name/ru   *Пересечение
-   MenuLocation   *Деталь → Булевы операции → Пересечение
-   Workbenches   *[Part](Part_Workbench/ru.md)
-   SeeAlso   *[Part Boolean](Part_Boolean/ru.md), [Part Cut](Part_Cut/ru.md), [Part Fuse](Part_Fuse/ru.md)
+- GuiCommand:/ru
+   Name:Part Common
+   Name/ru:Пересечение
+   MenuLocation:Деталь → Булевы операции → Пересечение
+   Workbenches:[Part](Part_Workbench/ru.md)
+   SeeAlso:[Part Boolean](Part_Boolean/ru.md), [Part Cut](Part_Cut/ru.md), [Part Fuse](Part_Fuse/ru.md)
 ---
 
 # Part Common/ru
@@ -31,7 +31,7 @@ Extracts the common part (intersection) between selected Part objects. This oper
 
 ## Supported inputs 
 
-Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples   * stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
 
 

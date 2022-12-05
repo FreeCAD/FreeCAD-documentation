@@ -1,9 +1,9 @@
 # Release notes 0.11/fr
 # Notes de version 0.11 
 
-Ceci est un sommaire des plus importants changements et nouvelles fonctionnalités disponibles dans la version 0.11 de FreeCAD. La liste complète est disponible [ici](http   *//www.freecadweb.org/tracker/changelog_page.php).
+Ceci est un sommaire des plus importants changements et nouvelles fonctionnalités disponibles dans la version 0.11 de FreeCAD. La liste complète est disponible [ici](http://www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD011.png  style="width:800px;">
 
 Une capture d\'écran de la version 0.11
 
@@ -11,7 +11,7 @@ Une capture d\'écran de la version 0.11
 
 ### Général
 
--   Le [Projet de traduction FreeCAD](http   *//crowdin.net/project/freecad) a reçu une aide précieuse de beaucoup de volontaires de par le monde et FreeCAD est désormais livré en pas moins de 15 langues    * anglais, allemand, français, italien, suédois, espagnol, portugais, russe, ukrainien, norvégien, afrikaans, finnois, chinois simplifié, croate et néerlandais. Plusieurs autres langues sont en cours d\'élaboration pour les prochaines versions.
+-   Le [Projet de traduction FreeCAD](http://crowdin.net/project/freecad) a reçu une aide précieuse de beaucoup de volontaires de par le monde et FreeCAD est désormais livré en pas moins de 15 langues : anglais, allemand, français, italien, suédois, espagnol, portugais, russe, ukrainien, norvégien, afrikaans, finnois, chinois simplifié, croate et néerlandais. Plusieurs autres langues sont en cours d\'élaboration pour les prochaines versions.
 
 ![](images/release011-translation.jpg )
 
@@ -30,7 +30,7 @@ Une capture d\'écran de la version 0.11
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Exemples   * [Démo de l\'Esquisseur](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [Démo de Conception de pièces](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Exemples: [Démo de l\'Esquisseur](http://www.youtube.com/watch?v=hvXupH5bA0E) • [Démo de Conception de pièces](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Simulation de robot 
 
@@ -42,7 +42,7 @@ Une capture d\'écran de la version 0.11
 
 -   L\'accrochage a été grandement optimisé et fonctionne maintenant très rapidement, même sur des objets complexes.
 -   L\'outil \"Trimex\" permet maintenant d\'extruder des faces simples, offrant ainsi un raccourci pratique à l\'outil Extrusion de l\'atelier Pièce.
--   La méthodologie de la planche à dessin vers la mise en plan a aussi été optimisée    * tous les objets créés avec l\'atelier Planche à dessin peuvent être maintenant placées dans une mise en plan, et ils offrent tous les mêmes possibilités de modification que les objets pièces standards, offrant la possibilité de changer leur position sur la feuille, les faire pivoter et redimensionner à la volée. Ils offrent aussi quelques fonctionnalités supplémentaires, comme le remplissage par hachures.
+-   La méthodologie de la planche à dessin vers la mise en plan a aussi été optimisée : tous les objets créés avec l\'atelier Planche à dessin peuvent être maintenant placées dans une mise en plan, et ils offrent tous les mêmes possibilités de modification que les objets pièces standards, offrant la possibilité de changer leur position sur la feuille, les faire pivoter et redimensionner à la volée. Ils offrent aussi quelques fonctionnalités supplémentaires, comme le remplissage par hachures.
 
 ![](images/release011-draft-drawing.jpg )
 
@@ -56,7 +56,7 @@ Une capture d\'écran de la version 0.11
 -   L\'atelier Planche à dessin s\'est aussi dotée d\'une [API](Draft_API/fr.md) Python.
 -   L\'importation DXF supporte maintenant les attributs de blocs
 
-![](images/Movie.png ) Exemples    * [Démo de la Planche à dessin](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Exemples : [Démo de la Planche à dessin](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Images
 
@@ -68,8 +68,6 @@ Une capture d\'écran de la version 0.11
 
 
 {{languages/fr | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

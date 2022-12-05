@@ -1,8 +1,6 @@
 # Category:Fasteners
 This page collects the documentation pages for the [Fasteners_Workbench](Fasteners_Workbench.md), one of the [External_workbenches](External_workbenches.md).
 
-[Category   *External Workbenches](Category_External_Workbenches.md)
-
 ### Contents
 
 |     |     |     |

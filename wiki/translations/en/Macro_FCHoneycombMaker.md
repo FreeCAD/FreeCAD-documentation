@@ -7,7 +7,7 @@
 |Version=2020.10.30
 |Date=2020-10-30
 |FCVersion=0.17 and above
-|Download=[https   *//www.freecadweb.org/wiki/images/2/2d/FCHoneycombMakerIcon.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/2/2d/FCHoneycombMakerIcon.png ToolBar Icon]
 }}
 
 ## Description
@@ -16,7 +16,7 @@ This macro creates a parametric honeycomb grid. The parametric properties are co
 
 ![](images/Honeycombmaker-pd-screenshot.png )
 
-You could also change the base object for the honeycomb grid to achieve other interesting arrays, such as this egg crate by changing the base hexagon object with an egg-shaped ellipsoid   *
+You could also change the base object for the honeycomb grid to achieve other interesting arrays, such as this egg crate by changing the base hexagon object with an egg-shaped ellipsoid:
 
 ![](images/Honeycombmaker-screenshot8.png ) 
 
@@ -28,7 +28,7 @@ ToolBar Icon ![](images/FCHoneycombMakerIcon.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 ***************************************************************************
 *   Copyright (c) 2018-2019 <TheMarkster>                                 *
@@ -43,7 +43,7 @@ ToolBar Icon ![](images/FCHoneycombMakerIcon.png )
 *   This software is distributed in the hope that it will be useful,      *
 *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
 *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
-*   GNU Library General Public License at http   *//www.gnu.org/licenses     *
+*   GNU Library General Public License at http://www.gnu.org/licenses     *
 *   for more details.                                                     *
 *                                                                         *
 *   For more information about the GNU Library General Public License     *
@@ -64,8 +64,8 @@ including hexagon radius, separation between hexagons, etc., can be modified via
 
 __title__ = "FCHoneycombMaker"
 __author__ = "TheMarkster"
-__url__ = "https   *//github.com/mwganson/FCHoneycombMaker"
-__Wiki__ = "https   *//github.com/mwganson/FCHoneycombMaker/blob/master/README.md"
+__url__ = "https://github.com/mwganson/FCHoneycombMaker"
+__Wiki__ = "https://github.com/mwganson/FCHoneycombMaker/blob/master/README.md"
 __date__ = "2020.10.30" #year.month.date
 __version__ = __date__
 
@@ -88,7 +88,7 @@ PLATE_HEIGHT = 5
 FreeCAD.Console.PrintMessage ('\nFCHoneycombMaker v'+__version__+'\n')
 
 
-def makeHexagonSketch(sketchName)   *
+def makeHexagonSketch(sketchName):
     #would use the polygon tool, but is buggy and sometimes creates squares instead of hexagons, so the manual way
     sketch = App.ActiveDocument.getObject(sketchName)
 #we just place the vertices any old where and then constrain them into place later
@@ -127,17 +127,17 @@ def makeHexagonSketch(sketchName)   *
 
 
 
-if not App.ActiveDocument   *
+if not App.ActiveDocument:
     App.newDocument()
-if hasattr(App.ActiveDocument,"EditMe")   *
-    raise StandardError("FCHoneycombMaker Error   * Please run only once per document.  Create a new document and try again.\n")
+if hasattr(App.ActiveDocument,"EditMe"):
+    raise StandardError("FCHoneycombMaker Error: Please run only once per document.  Create a new document and try again.\n")
 
-worksheet = App.ActiveDocument.addObject("Spreadsheet   *   *Sheet", "EditMe")
+worksheet = App.ActiveDocument.addObject("Spreadsheet::Sheet", "EditMe")
 worksheet.setColumnWidth('A',150)
 set = worksheet.set
 
-worksheet.mergeCells('A11   *G25')
-msg1 = """Instructions   *
+worksheet.mergeCells('A11:G25')
+msg1 = """Instructions:
 
 You should only run the macro once unless you want to start again from scratch.
 
@@ -166,53 +166,53 @@ and countX and countY variables to arrange the hexagon arrays to your liking.
 set('A13', msg1)
 
 
-aliases={'radius'   *'B2', 'separation'   *'B3', 'width'   *'B4', 'length'   *'B5', 'height'   *'B6', 'tweakX'   *'B8','tweakY'   *'B9','tweakZ'   *'B10',
-'xInterval'   *'E2', 'yInterval'   *'E3', 'firstX'   *'E4', 'firstY'   *'E5','countX'   *'E6', 'countY'   *'E7','array2XPos'   *'E8','array2YPos'   *'E9',
+aliases={'radius':'B2', 'separation':'B3', 'width':'B4', 'length':'B5', 'height':'B6', 'tweakX':'B8','tweakY':'B9','tweakZ':'B10',
+'xInterval':'E2', 'yInterval':'E3', 'firstX':'E4', 'firstY':'E5','countX':'E6', 'countY':'E7','array2XPos':'E8','array2YPos':'E9',
 
  }
 
-for k,v in aliases.items()   *
+for k,v in aliases.items():
    worksheet.setAlias(v,k)
 
 
 
 set('A1', 'User Variables')
 set('D1','Calculated Values')
-set('A2', 'Hexagon Radius   *')
+set('A2', 'Hexagon Radius:')
 set(aliases['radius'], str(RADIUS))
-set('A3', 'Hexagon Separation   *')
+set('A3', 'Hexagon Separation:')
 set(aliases['separation'], str(SEPARATION))
-set('A4', 'Grid Width   *')
+set('A4', 'Grid Width:')
 set(aliases['width'], str(PLATE_WIDTH))
-set('A5', 'Grid Length   *')
+set('A5', 'Grid Length:')
 set(aliases['length'], str(PLATE_LENGTH))
-set('A6', 'Grid Height   *')
+set('A6', 'Grid Height:')
 set(aliases['height'], str(PLATE_HEIGHT))
-set('A8', 'Tweak X   *')
+set('A8', 'Tweak X:')
 set(aliases['tweakX'],u'0')
-set('A9', 'Tweak Y   *')
+set('A9', 'Tweak Y:')
 set(aliases['tweakY'],u'0')
-set('A10', 'Tweak Z   *')
+set('A10', 'Tweak Z:')
 set(aliases['tweakZ'],u'0')
 
 
 
 
-set('D2','X Interval   *')
+set('D2','X Interval:')
 set(aliases['xInterval'],'=2*sin(60deg)*(B2*2+(B3-0.267949*B2))')
-set('D3', 'Y Interval   *')
+set('D3', 'Y Interval:')
 set(aliases['yInterval'], '=2*B2+(B3-0.267949*B2)' )
-set('D4', 'First X   *')
+set('D4', 'First X:')
 set(aliases['firstX'], '=B2')
-set('D5', 'First Y   *')
+set('D5', 'First Y:')
 set(aliases['firstY'], '=B2')
-set('D6', 'Count X   *')
+set('D6', 'Count X:')
 set(aliases['countX'], '=round((B5) / E2) + 2')
-set('D7', 'Count Y   *')
+set('D7', 'Count Y:')
 set(aliases['countY'], '=round((B4) / E3) + 2')
-set ('D8', 'Array2 XPos   *')
+set ('D8', 'Array2 XPos:')
 set (aliases['array2XPos'], '=sin(60deg)*(B2*2+B3-0.26794899999999999*B2)')
-set ('D9', 'Array2 YPos   *')
+set ('D9', 'Array2 YPos:')
 set (aliases['array2YPos'],'=E3/2')
 
 
@@ -232,14 +232,14 @@ countX = int((PLATE_WIDTH) / xInterval)
 
 
 
-App.ActiveDocument.addObject("Part   *   *RegularPolygon","HoneycombHexagon")
+App.ActiveDocument.addObject("Part::RegularPolygon","HoneycombHexagon")
 App.ActiveDocument.HoneycombHexagon.Polygon=6
 App.ActiveDocument.HoneycombHexagon.setExpression('Circumradius','EditMe.radius')
 hexagonObject = App.ActiveDocument.getObject("HoneycombHexagon")
 Gui.ActiveDocument.getObject("HoneycombHexagon").Visibility=False
 
 
-extrudedHexagonObject = App.ActiveDocument.addObject('Part   *   *Extrusion', 'ExtrudedHexagon')
+extrudedHexagonObject = App.ActiveDocument.addObject('Part::Extrusion', 'ExtrudedHexagon')
 extrudedHexagonObject.Base = hexagonObject
 extrudedHexagonObject.setExpression('LengthFwd','EditMe.height')
 extrudedHexagonObject.Solid=True
@@ -250,10 +250,10 @@ extrudedHexagonObject.setExpression('Placement.Base.z', 'EditMe.tweakZ')
 
 xvector = App.Vector(xInterval,0,0)
 yvector = App.Vector(0, yInterval,0)
-if not hasattr(Draft,"make_ortho_array")   *
+if not hasattr(Draft,"make_ortho_array"):
     row1Array = Draft.makeArray(extrudedHexagonObject, xvector,yvector,countX,countY,name="HoneycombArray1")
     row2Array = Draft.makeArray(extrudedHexagonObject, xvector,yvector,countX,countY,name="HoneycombArray2")
-else   *
+else:
     row1Array = Draft.make_ortho_array(extrudedHexagonObject, v_x=xvector,v_y=yvector,n_x=countX,n_y=countY,use_link=False)
     row2Array = Draft.make_ortho_array(extrudedHexagonObject, v_x=xvector,v_y=yvector,n_x=countX,n_y=countY,use_link=False)
 App.ActiveDocument.recompute()
@@ -272,13 +272,13 @@ row2Array.setExpression('IntervalY.y','EditMe.yInterval')
 row2Array.setExpression('NumberX','EditMe.countX')
 row2Array.setExpression('NumberY','EditMe.countY')
 
-App.activeDocument().addObject("Part   *   *MultiFuse","Fused_Arrays")
+App.activeDocument().addObject("Part::MultiFuse","Fused_Arrays")
 #App.activeDocument().Fused_Arrays.Shapes = [App.activeDocument().HoneycombArray1,App.activeDocument().HoneycombArray2,]
 App.activeDocument().Fused_Arrays.Shapes = [row1Array,row2Array,]
-if not hasattr(Draft,"make_ortho_array")   *
+if not hasattr(Draft,"make_ortho_array"):
     Gui.activeDocument().HoneycombArray1.Visibility=False
     Gui.activeDocument().HoneycombArray2.Visibility=False
-else   *
+else:
     row1Array.Visibility=False
     row2Array.Visibility=False
 
@@ -286,26 +286,26 @@ else   *
 window = QtGui.QApplication.activeWindow()
 items=('Part Design Workbench Body','Part Workbench Object')
 item,ok = QtGui.QInputDialog.getItem(window, "Select object type", "Select your object type.  It can be a Part Design body or a Part Cut object.", items, 0, False)
-if ok   *
-    if item == items[0]   * #PD Body
+if ok:
+    if item == items[0]: #PD Body
 
-        App.ActiveDocument.addObject("Part   *   *Plane", "HoneycombPlane")
+        App.ActiveDocument.addObject("Part::Plane", "HoneycombPlane")
         App.ActiveDocument.HoneycombPlane.setExpression('Length', u'EditMe.length')
         App.ActiveDocument.HoneycombPlane.setExpression('Width', u'EditMe.width')
         App.ActiveDocument.HoneycombPlane.setExpression('Placement.Base.x', u'EditMe.array2XPos + EditMe.radius * 2')
         App.ActiveDocument.HoneycombPlane.setExpression('Placement.Base.y', u'EditMe.array2YPos + EditMe.radius * 2')
 
-        App.activeDocument().addObject("Part   *   *Cut","BaseFeatureFace")
+        App.activeDocument().addObject("Part::Cut","BaseFeatureFace")
         App.ActiveDocument.getObject("BaseFeatureFace").ViewObject.Visibility=False
         App.activeDocument().BaseFeatureFace.Base = App.activeDocument().HoneycombPlane
         App.activeDocument().BaseFeatureFace.Tool = App.activeDocument().Fused_Arrays
         Gui.activeDocument().HoneycombPlane.Visibility=False
         Gui.activeDocument().Fused_Arrays.Visibility=False
         App.ActiveDocument.recompute()
-        App.activeDocument().addObject('PartDesign   *   *Body','HoneycombBody')
+        App.activeDocument().addObject('PartDesign::Body','HoneycombBody')
         App.activeDocument().HoneycombBody.BaseFeature = App.activeDocument().BaseFeatureFace
         Gui.activeView().setActiveObject('pdHoneycombBody', App.activeDocument().HoneycombBody)
-        App.activeDocument().HoneycombBody.newObject("PartDesign   *   *Pad","HoneycombPad")
+        App.activeDocument().HoneycombBody.newObject("PartDesign::Pad","HoneycombPad")
         App.activeDocument().HoneycombPad.Profile = (App.activeDocument().BaseFeature, ["Face1"])
         App.activeDocument().HoneycombPad.Length = 10.0
         App.ActiveDocument.recompute()
@@ -320,10 +320,10 @@ if ok   *
         App.ActiveDocument.HoneycombPad.Offset = 0.000000
         App.ActiveDocument.recompute()
         Gui.activeDocument().resetEdit()
-    else   * #Part object
+    else: #Part object
         #plate = Part.makeBox(PLATE_WIDTH,PLATE_LENGTH,PLATE_HEIGHT)
         #plate = Part.makeBox(worksheet.B4, worksheet.B5, worksheet.B6)
-        App.ActiveDocument.addObject("Part   *   *Box", "Plate")
+        App.ActiveDocument.addObject("Part::Box", "Plate")
         plateObject = App.ActiveDocument.getObject("Plate")
         App.ActiveDocument.Plate.setExpression('Length', u'EditMe.length')
         App.ActiveDocument.Plate.setExpression('Width', u'EditMe.width')
@@ -331,7 +331,7 @@ if ok   *
         App.ActiveDocument.Plate.setExpression('Placement.Base.x', u'EditMe.array2XPos + EditMe.radius * 2')
         App.ActiveDocument.Plate.setExpression('Placement.Base.y', u'EditMe.array2YPos + EditMe.radius * 2')
 
-        App.activeDocument().addObject("Part   *   *Cut","HoneycombGrid")
+        App.activeDocument().addObject("Part::Cut","HoneycombGrid")
         App.activeDocument().HoneycombGrid.Base = App.activeDocument().Plate
         App.activeDocument().HoneycombGrid.Tool = App.activeDocument().Fused_Arrays
         Gui.activeDocument().Plate.Visibility=False
@@ -345,15 +345,15 @@ Gui.SendMsgToActiveView("ViewFit")
 
 ## Link
 
-Full documentation at [<https   *//github.com/mwganson/FCHoneycombMaker>](https   *//github.com/mwganson/FCHoneyMaker)
+Full documentation at [<https://github.com/mwganson/FCHoneycombMaker>](https://github.com/mwganson/FCHoneyMaker)
 
-Feature announcement topic at forum conversation [FCHoneycombMaker Macro](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=37490)
+Feature announcement topic at forum conversation [FCHoneycombMaker Macro](https://forum.freecadweb.org/viewtopic.php?f=9&t=37490)
 
-Other similar Honeycomb [Honeycomb Array](https   *//forum.freecadweb.org/viewtopic.php?t=11008)
+Other similar Honeycomb [Honeycomb Array](https://forum.freecadweb.org/viewtopic.php?t=11008)
 
 ## Version
 
-2019-07-04    * first
+2019-07-04 : first
 
 
 

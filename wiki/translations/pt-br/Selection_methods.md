@@ -3,7 +3,7 @@
 
 ## Visão geral 
 
-Os métodos de seleção no FreeCAD permitem a seleção de objetos no [FreeCAD Interface](Interface/pt-br.md)   * tais como [vista 3D](3D_view/pt-br.md), [vista em árvore](Tree_view/pt-br.md), [métodos de seleção](Selection_view/pt-br.md), [vista de seleção](Selection_view/pt-br.md), e outros diálogos. Alguns métodos de seleção são específicos das bancadas de trabalho e estão documentados na documentação específica das bancadas de trabalho.
+Os métodos de seleção no FreeCAD permitem a seleção de objetos no [FreeCAD Interface](Interface/pt-br.md): tais como [vista 3D](3D_view/pt-br.md), [vista em árvore](Tree_view/pt-br.md), [métodos de seleção](Selection_view/pt-br.md), [vista de seleção](Selection_view/pt-br.md), e outros diálogos. Alguns métodos de seleção são específicos das bancadas de trabalho e estão documentados na documentação específica das bancadas de trabalho.
 
 ## Vista 3D 
 
@@ -27,9 +27,9 @@ O terceiro clique estende a seleção a seu objeto \'container\' ([PartDesign Bo
 
 ### Comandos de seleção 
 
--   Para selecionar todos os objetos   * [Std Std_SelectAll](Std_SelectAll/pt-br.md).
--   Para encaixotar selecione vários objetos principais   * [Std Std BoxSelection](Std_BoxSelection/pt-br.md).
--   Para encaixotar selecione várias faces   * [Std BoxElementSelection](Std_BoxElementSelection/pt-br.md) ou [Part BoxSelection](Part_BoxSelection/pt-br.md).
+-   Para selecionar todos os objetos: [Std Std_SelectAll](Std_SelectAll/pt-br.md).
+-   Para encaixotar selecione vários objetos principais: [Std Std BoxSelection](Std_BoxSelection/pt-br.md).
+-   Para encaixotar selecione várias faces: [Std BoxElementSelection](Std_BoxElementSelection/pt-br.md) ou [Part BoxSelection](Part_BoxSelection/pt-br.md).
 
 ## Vista de seleção 
 
@@ -82,7 +82,7 @@ O comando `addSelectionGate` restringe o usuário de selecionar objetos não esp
 
 
 ```python
-Gui.Selection.addSelectionGate("SELECT Part   *   *Feature SUBELEMENT Edge")
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 ```
 
 Consulte a [Documentação do código-fonte](Source_documentation/pt-br.md) e [Ajuda Padrão do Python](Std_PythonHelp/pt-br.md) para obter mais ajuda sobre o uso dessas ferramentas.

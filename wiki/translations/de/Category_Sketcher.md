@@ -1,8 +1,6 @@
 # Category:Sketcher/de
 Diese Kategorie listet Seiten auf, die sich auf den [Sketcher-Arbeitsbereich](Sketcher_Workbench/de.md) beziehen.
 
-[Category   *Workbenches/de](Category   *Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

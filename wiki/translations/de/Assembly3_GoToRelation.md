@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 GoToRelation
-   Name/de   *Assembly3 ZurBeziehungGehen
-   Icon   *Assembly_GotoRelation.svg
-   MenuLocation   *Assembly3 → Go to relation
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
-   Shortcut   ***A** **R**
+- GuiCommand:/de
+   Name:Assembly3 GoToRelation
+   Name/de:Assembly3 ZurBeziehungGehen
+   Icon:Assembly_GotoRelation.svg
+   MenuLocation:Assembly3 → Go to relation
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Shortcut:**A** **R**
 ---
 
 # Assembly3 GoToRelation/de
@@ -18,9 +18,9 @@ Die Beziehungsgruppe ist die vierte Gruppe im Baugruppenbaum und ist standardmä
 
 Das Ergebnis (hervorgehobene Objekte) hängt von den ausgewählten Objekten ab.
 
-   *   Ein Part-Objekt auswählen, um das Beziehungsobjekt mit den zugehörigen Bedingungen zu finden.
-   *   Ein Element auswählen, um das Bauteil zu finden, zu dem es gehört.
-   *   Eine Bedingung auswählen, um die verknüpften Bauteile zu finden.
+:   Ein Part-Objekt auswählen, um das Beziehungsobjekt mit den zugehörigen Bedingungen zu finden.
+:   Ein Element auswählen, um das Bauteil zu finden, zu dem es gehört.
+:   Eine Bedingung auswählen, um die verknüpften Bauteile zu finden.
 
 ## Anwendung
 

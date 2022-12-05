@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Wall
-   Name/ro   *Arch Wall
-   MenuLocation   *Arch → Wall
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   ***W** **A**
-   SeeAlso   *[Arch Structure](Arch_Structure/ro.md)
+- GuiCommand:/ro
+   Name:Arch Wall
+   Name/ro:Arch Wall
+   MenuLocation:Arch → Wall
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:**W** **A**
+   SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---
 
 # Arch Wall/ro
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument construiește un obiect tip perete de la zero sau deasupra oricărui altul obeict tip [shape](Part_Workbench.md)-based sau [mesh](Mesh_Workbench.md)-based.Un perete poate fi construit fără obiect de bază, caz în care acesta se comportă ca un volum cubic, utilizând proprietăți de lungime, lățime și înălțime. Când este construit pe o formă existentă, un perete se poate baza pe   *
+Acest instrument construiește un obiect tip perete de la zero sau deasupra oricărui altul obeict tip [shape](Part_Workbench.md)-based sau [mesh](Mesh_Workbench.md)-based.Un perete poate fi construit fără obiect de bază, caz în care acesta se comportă ca un volum cubic, utilizând proprietăți de lungime, lățime și înălțime. Când este construit pe o formă existentă, un perete se poate baza pe:
 
 
 </div>
@@ -34,7 +34,7 @@ Acest instrument construiește un obiect tip perete de la zero sau deasupra oric
 
 </div>
 
-<img alt="" src=images/Arch_Wall_example.jpg  style="width   *780px;"> 
+<img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
 *Walls built from a line, a wire, a face, a solid, and a sketch*
 
 
@@ -86,7 +86,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 -   Walls share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 -   The height, width and alignment of a wall can be set during drawing, via the task panel
--   When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties   * If they have the same width, height and alignment, and if the option \"join base sketches\" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
+-   When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option \"join base sketches\" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
 -   Press **X**, **Y** or **Z** after the first point to constrain the second point on the given axis.
 -   To enter coordinates manually, simply enter the numbers, then press **ENTER** between each X, Y and Z component.
 -   Press **R** or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
@@ -110,12 +110,12 @@ Snapping funcționează un pic diferit cu pereții arcului decât alte obiecte A
 
 </div>
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;">
+<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;">
+<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;">
 
 
 </div>
@@ -125,25 +125,25 @@ Snapping funcționează un pic diferit cu pereții arcului decât alte obiecte A
 
 <div class="mw-translate-fuzzy">
 
-Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbench.md) și au, de asemenea, următoarele proprietăți suplimentare   *
+Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbench.md) și au, de asemenea, următoarele proprietăți suplimentare:
 
--    {{PropertyData | Align}}   * Alinierea peretelui pe linia de bază   * Stânga, dreapta sau centru
+-    {{PropertyData | Align}}: Alinierea peretelui pe linia de bază: Stânga, dreapta sau centru
 
--    {{PropertyData | Base}}   * Obiectul de bază pe care este construit acest perete
+-    {{PropertyData | Base}}: Obiectul de bază pe care este construit acest perete
 
--    {{PropertyData | Face}}   * Indicele feței de la obiectul de bază de folosit. Dacă vaue nu este setat sau 0, întregul obiect este utilizat
+-    {{PropertyData | Face}}: Indicele feței de la obiectul de bază de folosit. Dacă vaue nu este setat sau 0, întregul obiect este utilizat
 
--    {{PropertyData | Force Wire}}   * Dacă este adevărat, iar peretele se bazează pe o față, se folosește numai firul frontal al feței, rezultând un perete care se învecinează cu fața
+-    {{PropertyData | Force Wire}}: Dacă este adevărat, iar peretele se bazează pe o față, se folosește numai firul frontal al feței, rezultând un perete care se învecinează cu fața
 
--    {{PropertyData | Lungime}}   * lungimea peretelui (nu este utilizată atunci când peretele se bazează pe un obiect)
+-    {{PropertyData | Lungime}}: lungimea peretelui (nu este utilizată atunci când peretele se bazează pe un obiect)
 
--    {{PropertyData | Lățime}}   * Lățimea peretelui (nu este utilizată atunci când peretele se bazează pe o față)
+-    {{PropertyData | Lățime}}: Lățimea peretelui (nu este utilizată atunci când peretele se bazează pe o față)
 
--    {{PropertyData | Height}}   * Înălțimea peretelui (nu se utilizează atunci când peretele se bazează pe un solid). Dacă nu este dată nici o înălțime, iar peretele se află în interiorul unui obiect [ floor](Arch_Floor/ro.md) cu înălțimea definită, peretele va lua în mod automat valoarea înălțimii podelei.
+-    {{PropertyData | Height}}: Înălțimea peretelui (nu se utilizează atunci când peretele se bazează pe un solid). Dacă nu este dată nici o înălțime, iar peretele se află în interiorul unui obiect [ floor](Arch_Floor/ro.md) cu înălțimea definită, peretele va lua în mod automat valoarea înălțimii podelei.
 
--    {{PropertyData | Normal}}   * O direcție de extrudare pentru perete. Dacă este setată la (0,0,0), direcția de extrudare este automată.
+-    {{PropertyData | Normal}}: O direcție de extrudare pentru perete. Dacă este setată la (0,0,0), direcția de extrudare este automată.
 
--    {{PropertyData | Offset}}   * Aceasta specifică distanța dintre perete și linia de bază. Funcționează numai dacă proprietatea Align (Aliniere) este setată la dreapta sau la stânga.
+-    {{PropertyData | Offset}}: Aceasta specifică distanța dintre perete și linia de bază. Funcționează numai dacă proprietatea Align (Aliniere) este setată la dreapta sau la stânga.
 
 
 </div>
@@ -151,21 +151,21 @@ Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbe
 
 <small>(v0.18)</small> 
 
--    **Make Blocks**   * Enable this to make the wall generate blocks
+-    **Make Blocks**: Enable this to make the wall generate blocks
 
--    **Block Length**   * The length of each block
+-    **Block Length**: The length of each block
 
--    **Block Height**   * The height of each block
+-    **Block Height**: The height of each block
 
--    **Offset First**   * The horizontal offset of the first line of blocks
+-    **Offset First**: The horizontal offset of the first line of blocks
 
--    **Offset Second**   * The horizontal offset of the second line of blocks
+-    **Offset Second**: The horizontal offset of the second line of blocks
 
--    **Joint**   * The size of the joints between each block
+-    **Joint**: The size of the joints between each block
 
--    **Count Entire**   * The number of entire blocks (read-only)
+-    **Count Entire**: The number of entire blocks (read-only)
 
--    **Count Broken**   * The number of broken blocks (read-only)
+-    **Count Broken**: The number of broken blocks (read-only)
 
 ## Scripting
 
@@ -180,7 +180,7 @@ Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbe
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Wall tool poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
+Instrumentul Wall tool poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
 
 
 </div>
@@ -221,11 +221,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
- 
-
-[Category   *Arch/ro](Category   *Arch/ro.md)
 
 
 

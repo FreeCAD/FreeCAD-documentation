@@ -1,8 +1,6 @@
 # Category:Test Framework/pl
 This category lists pages related to the [Test Framework Workbench](Testing.md).
 
-[Category   *Workbenches/pl](Category   *Workbenches/pl.md) [Category   *User_Documentation/pl](Category   *User_Documentation/pl.md) [Category   *Testing/pl](Category   *Testing/pl.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,8 +1,6 @@
 # Category:BIM
 This category is for pages related to Building Information Management (BIM). The BIM workbench is an [external workbench]([[external_workbenches.md).
 
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *External Workbenches](Category_External_Workbenches.md)
-
 ### Contents
 
 |     |     |     |

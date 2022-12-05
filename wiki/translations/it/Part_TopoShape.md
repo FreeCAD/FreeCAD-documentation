@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-Una [Part TopoShape](Part_TopoShape.md), o formalmente una `Part   *   *TopoShape`, è una classe che definisce una \"forma topologica\" parametrica nel software. Gli oggetti del documento che mostrano qualcosa nella [vista 3D](3D_view/it.md) normalmente hanno una TopoShape.
+Una [Part TopoShape](Part_TopoShape.md), o formalmente una `Part::TopoShape`, è una classe che definisce una \"forma topologica\" parametrica nel software. Gli oggetti del documento che mostrano qualcosa nella [vista 3D](3D_view/it.md) normalmente hanno una TopoShape.
 
 
 <div class="mw-translate-fuzzy">
@@ -19,21 +19,21 @@ Another type of class is that of [meshes](Mesh.md); this class is not very param
 
 
 
-*Left   * parametric [Part TopoShape](Part_TopoShape.md) defined by properties. Right   * non-parametric [mesh](Mesh.md), defined by vertices and triangular surfaces.*
+*Left: parametric [Part TopoShape](Part_TopoShape.md) defined by properties. Right: non-parametric [mesh](Mesh.md), defined by vertices and triangular surfaces.*
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `Part   *   *TopoShape* è incorporata nell'oggetto {{incode|Part   *   *Feature` e da lì viene propagata a tutti gli oggetti che ne derivano.}}
+*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `Part::TopoShape* è incorporata nell'oggetto {{incode|Part::Feature` e da lì viene propagata a tutti gli oggetti che ne derivano.}}
 
 ## Utilizzo
 
 TopoShape è un oggetto assegnato ad alcuni [App DocumentObjects](App_DocumentObject/it.md).
 
-In particolare, l\'oggetto base che gestisce questi tipi di forme è la [Part Feature](Part_Feature/it.md) (classe `Part   *   *Feature`). Tutti gli oggetti derivati da questa classe avranno accesso a una Part TopoShape.
+In particolare, l\'oggetto base che gestisce questi tipi di forme è la [Part Feature](Part_Feature/it.md) (classe `Part::Feature`). Tutti gli oggetti derivati da questa classe avranno accesso a una Part TopoShape.
 
-Alcuni degli oggetti più importanti con Part TopoShape sono i seguenti   *
+Alcuni degli oggetti più importanti con Part TopoShape sono i seguenti:
 
 -   Qualsiasi solido primitivo creato con [Part](Part_Workbench/it.md).
 -   Qualsiasi [Corpo di PartDesign](PartDesign_Body/it.md) e [PartDesign Feature](PartDesign_Feature/it.md) creati con [PartDesign](PartDesign_Workbench/it.md).
@@ -44,16 +44,16 @@ Alcuni degli oggetti più importanti con Part TopoShape sono i seguenti   *
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
 
-Tutti gli oggetti derivati da `Part   *   *Feature` avranno un [Part TopoShape](Part_TopoShape/it.md), che è normalmente accessibile dal suo attributo `Shape`. 
+Tutti gli oggetti derivati da `Part::Feature` avranno un [Part TopoShape](Part_TopoShape/it.md), che è normalmente accessibile dal suo attributo `Shape`. 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("Part   *   *Box", "Box")
+obj = App.ActiveDocument.addObject("Part::Box", "Box")
 print(obj.Shape)
 ```
 

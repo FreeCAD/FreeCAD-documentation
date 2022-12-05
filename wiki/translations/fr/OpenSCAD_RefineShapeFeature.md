@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *OpenSCAD RefineShapeFeature
-   Name/fr   *OpenSCAD Affiner la forme
-   MenuLocation   *OpenSCAD → Affiner la forme
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso   *[Part Affiner la forme](Part_RefineShape.md)
+- GuiCommand:/fr
+   Name:OpenSCAD RefineShapeFeature
+   Name/fr:OpenSCAD Affiner la forme
+   MenuLocation:OpenSCAD → Affiner la forme
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso:[Part Affiner la forme](Part_RefineShape.md)
 ---
 
 # OpenSCAD RefineShapeFeature/fr
@@ -25,7 +25,7 @@ Nettoie les arêtes résiduelles. Après une opération booléenne, certaines ar
 ## Limitations
 
 -   L\'algorithme de raffinement ne fonctionne que sur les coques (shell). Par conséquent, il itère sur les coques de la forme originale, puis pour chaque coque, il crée une nouvelle coque avec des faces jointes autant que possible. Cela signifie que si votre forme originale est seulement une face, un fil, une arête ou un sommet, alors l\'algorithme ne fait rien.
--   À l\'opposé de l\'outil <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Part Affiner la forme](Part_RefineShape/fr.md) de l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Atelier Part](Part_Workbench/fr.md), cette fonctionnalité se met à jour lorsque les formes sous-jacentes sont modifiées.
+-   À l\'opposé de l\'outil <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part Affiner la forme](Part_RefineShape/fr.md) de l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md), cette fonctionnalité se met à jour lorsque les formes sous-jacentes sont modifiées.
 
 ## Remarques
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Part Measure Toggle 3D
-   Name/fr   *Part Basculer 3D
-   MenuLocation   *Mesure → Basculer 3D‏‎
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
+- GuiCommand:/fr
+   Name:Part Measure Toggle 3D
+   Name/fr:Part Basculer 3D
+   MenuLocation:Mesure → Basculer 3D‏‎
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---
 
 # Part Measure Toggle 3D/fr
@@ -15,8 +15,8 @@ Cet outil bascule la visibilité des mesures linéaires (rouge) et angulaires (b
 
 ## Utilisation
 
-1.  Lancez la commande de plusieurs manières    *
-    -   Appuyez sur le bouton **[<img src=images/Part_Measure_Toggle_3D.svg style="width   *16px"> '''Basculer 3D‏‎'''**.
+1.  Lancez la commande de plusieurs manières :
+    -   Appuyez sur le bouton **[<img src=images/Part_Measure_Toggle_3D.svg style="width:16px"> '''Basculer 3D‏‎'''**.
     -   Utilisez la **Mesure → Basculer 3D‏‎**
 
 

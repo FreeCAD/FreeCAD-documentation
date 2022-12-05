@@ -1,5 +1,5 @@
 # Silk Workbench/it
-} <img alt="" src=images/Silk_workbench_icon.svg  style="width   *240px;"> 
+} <img alt="" src=images/Silk_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icona dell'ambiente aggiuntivo Silk*
 
 ## Descrizione
@@ -11,22 +11,17 @@ Silk è un [ambiente complementare](External_workbenches/it.md) che crea superfi
 
 ## Installazione
 
-Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr/it.md) che si trova sotto il menu **Strumenti → Addon Manager**.
+Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md) che si trova sotto il menu **Strumenti → Addon Manager**.
 
 ## Riferimenti
 
--   Author   * \@edwardvmills
--   Source   * <https   *//github.com/edwardvmills/Silk>
--   Docs   * <http   *//edwardvmills.github.io/NURBSlib_EVM/> & <https   *//github.com/edwardvmills/Silk/wiki>
--   Thread   * <https   *//forum.freecadweb.org/viewtopic.php?t=23243>
--   Issues   * <https   *//github.com/edwardvmills/Silk/issues>
+-   Author: \@edwardvmills
+-   Source: <https://github.com/edwardvmills/Silk>
+-   Docs: <http://edwardvmills.github.io/NURBSlib_EVM/> & <https://github.com/edwardvmills/Silk/wiki>
+-   Thread: <https://forum.freecadweb.org/viewtopic.php?t=23243>
+-   Issues: <https://github.com/edwardvmills/Silk/issues>
 
 ## Strumenti
-
-
-
-
-[Category   *Silk](Category_Silk.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

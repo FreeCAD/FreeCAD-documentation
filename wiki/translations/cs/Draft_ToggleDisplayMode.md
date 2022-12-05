@@ -1,6 +1,6 @@
 # Draft ToggleDisplayMode/cs
 ---
-- GuiCommand   */cs   Name   *Draft ToggleDisplayMode   Name/cs   *Přepnout zobrazovací mód   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení → Utility → Přepnout zobrazovací mód   Shortcut   *Shift + Space---
+- GuiCommand:/cs   Name:Draft ToggleDisplayMode   Name/cs:Přepnout zobrazovací mód   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Utility → Přepnout zobrazovací mód   Shortcut:Shift + Space---
 
 
 </div>
@@ -17,7 +17,7 @@ Tento nástroj přepíná zobrazení vybraného objektu(ů) mezi Drátovým zobr
 
 </div>
 
-<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;"> 
 *On the left the larger cube obstructs the cube behind it. On the right the Display Mode of the larger cube is set to Wireframe making it possible to select a face belonging to the smaller cube.*
 
 ## Usage

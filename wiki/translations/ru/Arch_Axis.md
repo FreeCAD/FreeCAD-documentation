@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch Axis
-   Name/ru   *Arch Axis
-   MenuLocation   *Arch → Axis
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***A** **X**
-   SeeAlso   *[Axis System](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
+- GuiCommand:/ru
+   Name:Arch Axis
+   Name/ru:Arch Axis
+   MenuLocation:Arch → Axis
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**A** **X**
+   SeeAlso:[Axis System](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
 ---
 
 # Arch Axis/ru
@@ -23,7 +23,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Два разных объекта осей расположены перпендикулярно друг другу для создания сетки*
 
 ## Применение
@@ -51,19 +51,19 @@
 
 <div class="mw-translate-fuzzy">
 
--    **Length**   * Длина осей
+-    **Length**: Длина осей
 
--    **Bubble Size**   * Размер кружков осей
+-    **Bubble Size**: Размер кружков осей
 
--    **Numeration style**   * Как оси будут пронумерованы   * 1,2,3, A,B,C, etc\...
+-    **Numeration style**: Как оси будут пронумерованы: 1,2,3, A,B,C, etc\...
 
--    **Bubble Position**   * В каком месте оси кружек будет располагаться   * В начальной точке, в конечной, обоих или нигде.
+-    **Bubble Position**: В каком месте оси кружек будет располагаться: В начальной точке, в конечной, обоих или нигде.
 
--    **Font Name**   * Шрифт отображающий номер в кружочке или/и метки
+-    **Font Name**: Шрифт отображающий номер в кружочке или/и метки
 
--    **Font Size**   * Размер текстовых меток (размер текста в кружечках контролирует размер кружечков осей)
+-    **Font Size**: Размер текстовых меток (размер текста в кружечках контролирует размер кружечков осей)
 
--    **Show Labels**   * Включает/отключает отображение текстовых меток
+-    **Show Labels**: Включает/отключает отображение текстовых меток
 
 
 </div>
@@ -75,18 +75,18 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 ## Скрипты
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md)
 
-The Axis tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Axis tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```
 
 -   Creates an `Axes` object from the given number (`num`) of axes, and `size`, the interval between each axis.
 
-Пример   *
+Пример:
 
 
 ```python

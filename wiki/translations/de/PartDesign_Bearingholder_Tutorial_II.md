@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */de
-   Topic   *Modellierung
-   Level   *Erfahrene Anwender
-   Author   *NormandC
-   FCVersion   *0.19.23300 oder höher
-   Files   *
+- TutorialInfo:/de
+   Topic:Modellierung
+   Level:Erfahrene Anwender
+   Author:NormandC
+   FCVersion:0.19.23300 oder höher
+   Files:
 ---
 
 # PartDesign Bearingholder Tutorial II/de
@@ -15,9 +15,9 @@
 
 
 
-**Dieses Tutorial wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Seit April 2016 sind diese Funktionen in die Vorentwicklungsversion 0.17 integriert, die [https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre hier] verfügbar ist.
+**Dieses Tutorial wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Seit April 2016 sind diese Funktionen in die Vorentwicklungsversion 0.17 integriert, die [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre hier] verfügbar ist.
 <br />
-Bitte beachte, dass sich diese Version von FreeCAD noch in einem frühen Entwicklungsstadium befindet. Außerdem muss dieses Tutorium möglicherweise aktualisiert werden. Wenn du an der Überprüfung und Aktualisierung teilnehmen möchtest, poste bitte in den Wiki Abschnitt des [http   *//forum.freecadweb.org forum].**
+Bitte beachte, dass sich diese Version von FreeCAD noch in einem frühen Entwicklungsstadium befindet. Außerdem muss dieses Tutorium möglicherweise aktualisiert werden. Wenn du an der Überprüfung und Aktualisierung teilnehmen möchtest, poste bitte in den Wiki Abschnitt des [http://forum.freecadweb.org forum].**
 
 ![Lagergehäuse Tutorium - Fertiges Lagergehäuse (oben)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 
@@ -31,11 +31,11 @@ Dies ist der zweite Teil des Tutoriums. Es wird der so genannte \"Multikörper\"
 
 Selbstverständlich musst du zum Durcharbeiten dieses Tutorials den PartDesign Arbeitsbereich aktivieren.
 
-~~Du findest meine Version des von diesem Tutorium erstellten Teils [http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 hier](http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_hier.md).~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
+~~Du findest meine Version des von diesem Tutorium erstellten Teils [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 hier](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_hier.md).~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
 
 ## Konstruktionsdaten
 
-Das Gehäuse sollte in der Lage sein, ein Lager mit einem Durchmesser von 90 mm und einer Breite von bis zu 33 mm aufzunehmen (z.B. DIN 630 Typ 2308 mit einem Innendurchmesser von 40 mm). Das Lager erfordert eine Schulterhöhe von mindestens 4,5 mm im Halter (und auf der Welle). Der obere Teil des Gehäuses wird mit zwei 12mm Schrauben an der Unterseite verschraubt. Der Kopf einer solchen Schraube benötigt einen Freiraum von mindestens 20 mm Durchmesser. Auf beiden Seiten des Lagers sollte eine Nut vorhanden sein, die einen Standard-Wellendichtring DIN 3760 aufnehmen kann   * 38x55x7 oder 40x55x7 auf der einen Seite, 50x68x8 auf der anderen Seite.
+Das Gehäuse sollte in der Lage sein, ein Lager mit einem Durchmesser von 90 mm und einer Breite von bis zu 33 mm aufzunehmen (z.B. DIN 630 Typ 2308 mit einem Innendurchmesser von 40 mm). Das Lager erfordert eine Schulterhöhe von mindestens 4,5 mm im Halter (und auf der Welle). Der obere Teil des Gehäuses wird mit zwei 12mm Schrauben an der Unterseite verschraubt. Der Kopf einer solchen Schraube benötigt einen Freiraum von mindestens 20 mm Durchmesser. Auf beiden Seiten des Lagers sollte eine Nut vorhanden sein, die einen Standard-Wellendichtring DIN 3760 aufnehmen kann: 38x55x7 oder 40x55x7 auf der einen Seite, 50x68x8 auf der anderen Seite.
 
 Das Gehäuse wird ein Sandguss mit einer Mindestwandstärke von 5 mm, einem Entformungswinkel von 2 Grad und einem minimalen Verrundungsradius von 3 mm sein.
 
@@ -45,7 +45,7 @@ Das Gehäuse wird ein Sandguss mit einer Mindestwandstärke von 5 mm, einem Entf
 
 ## Der Hauptkörper 
 
-![Skizze des ersten Polsters\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Erstelle einen neuen Körper und mache ihn aktiv. Die Skizze für den ersten Block ist rechts abgebildet. Er wird auf einer Bezugsebene mit einem Versatz von 5 mm (Wandstärke) von der Skelettfläche platziert, die die Seite eines der tragenden Dichtungsringe markiert. Da alle wichtigen Maße vom Skelett abgenommen werden, gibt es nur drei Maße   * Die Bearbeitungszugabe (3 mm) an der Basis als Versatz zur XY Ebene, die 5 mm Wanddicke vom Außendurchmesser des Skeletts und der Entformungswinkel von zwei Grad. Zwei erzeugen die 5mm Bemaßung, du musst zuerst den Außenkreis (Radius 45mm) der Skelettgeometrie als Außengeometrie im Skizzierer auswählen und dann eine tangential zu diesem Kreis und in einem Winkel von zwei Grad gebundene Konstruktionslinie einfügen.
+![Skizze des ersten Polsters\|thumb\|right\|400px](images/HolderTop2-3.jpg ) Erstelle einen neuen Körper und mache ihn aktiv. Die Skizze für den ersten Block ist rechts abgebildet. Er wird auf einer Bezugsebene mit einem Versatz von 5 mm (Wandstärke) von der Skelettfläche platziert, die die Seite eines der tragenden Dichtungsringe markiert. Da alle wichtigen Maße vom Skelett abgenommen werden, gibt es nur drei Maße: Die Bearbeitungszugabe (3 mm) an der Basis als Versatz zur XY Ebene, die 5 mm Wanddicke vom Außendurchmesser des Skeletts und der Entformungswinkel von zwei Grad. Zwei erzeugen die 5mm Bemaßung, du musst zuerst den Außenkreis (Radius 45mm) der Skelettgeometrie als Außengeometrie im Skizzierer auswählen und dann eine tangential zu diesem Kreis und in einem Winkel von zwei Grad gebundene Konstruktionslinie einfügen.
 
 Du fragst dich wahrscheinlich, warum sich am unteren Ende jedes Bogens dieses kleine gerade Segment befindet. Dieses Segment sorgt dafür, dass auf den Bögen ein Entformungswinkel von 2 Grad entsteht. Das mag nach viel Arbeit für einen sehr kleinen Nutzen aussehen, aber viele CAD Programme (und vielleicht eines Tages auch FreeCAD) haben Werkzeuge, die ein Volumenmodell in verschiedenen Farben hervorheben und dir sofort alle Flächen anzeigt, bei denen der Entformungswinkel nicht korrekt ist. Du willst nicht, dass das mit deinem Modell passiert, besonders nachdem du viele Verrundungen angebracht hast!
 ![Das erste Polster\|thumb\|right\|400px](images/HolderTop2-4.jpg ) Wenn du die Skizze angefertigt hast (was wegen der 2 Grad Tangentiallinien etwas knifflig ist), erstelle daraus ein Polster, das sich bis zur anderen Seite der Skelettgeometrie erstreckt, wiederum mit einem Versatz von 5 mm zur Seitenfläche. du brauchst diesmal keine Bezugsebene zu erzeugen, der \"bis zur Fläche\" Modus des Polster Dialogs bietet die Eingabe eines Versatzes an.
@@ -87,10 +87,6 @@ Für den Rest der soaneneden Bearbeitung erzeuge einen neuen Körper. Der Boden 
 ## Teil Eins 
 
 [PartDesign Lagergehäuse Tutorium I](PartDesign_Bearingholder_Tutorial_I/de.md)
-
-
-
-[Category   *Tutorials](Category_Tutorials.md)
 
 
 

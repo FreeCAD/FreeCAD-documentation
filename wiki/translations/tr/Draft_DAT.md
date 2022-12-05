@@ -21,11 +21,6 @@ Bu formata farklı lehçeler var, bu yüzden bu içe aktarma modülü neredeyse 
 </div>
 
 
- 
-
-[Category   *User Documentation/tr](Category   *User_Documentation/tr.md) [Category   *File Formats](Category_File_Formats.md)
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/tr

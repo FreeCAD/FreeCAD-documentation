@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ConstraintGear
-   Name/fr   *FEM Contrainte d'engrenage
-   MenuLocation   *Modèle → Contraintes sans solveur → Contrainte d'engrenage
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Contrainte de roulement](FEM_ConstraintBearing/fr.md), [FEM Contrainte de poulie](FEM_ConstraintPulley/fr.md)
+- GuiCommand:/fr
+   Name:FEM ConstraintGear
+   Name/fr:FEM Contrainte d'engrenage
+   MenuLocation:Modèle → Contraintes sans solveur → Contrainte d'engrenage
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Contrainte de roulement](FEM_ConstraintBearing/fr.md), [FEM Contrainte de poulie](FEM_ConstraintPulley/fr.md)
 ---
 
 # FEM ConstraintGear/fr

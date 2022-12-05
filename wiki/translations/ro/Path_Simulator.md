@@ -1,6 +1,6 @@
 # Path Simulator/ro
 ---
-- GuiCommand   *   Name   *Path Simulator   Workbenches   *[MenuLocation   *Path → CAM Simulator   SeeAlso   *[[Path_Inspect|Path Inspect](Path_Workbench___Path]].md) ---
+- GuiCommand:   Name:Path Simulator   Workbenches:[MenuLocation:Path → CAM Simulator   SeeAlso:[[Path_Inspect|Path Inspect](Path_Workbench___Path]].md) ---
 
 
 </div>
@@ -41,13 +41,13 @@ Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale ins
 
 </div>
 
--    **Playback Speed**   * The speed of the simulation playback, in G-Code lines/second
+-    **Playback Speed**: The speed of the simulation playback, in G-Code lines/second
 
--    **Accuracy**   * The accuracy of the simulation expressed as a percentage indicating the simulations deviation from the Job. For interactive simulation, reducing accuracy to 0.3 works much faster.
+-    **Accuracy**: The accuracy of the simulation expressed as a percentage indicating the simulations deviation from the Job. For interactive simulation, reducing accuracy to 0.3 works much faster.
 
--    **Job**   * The Job used as the basis of the simulation
+-    **Job**: The Job used as the basis of the simulation
 
--    **Operation List**   * The list of Operations selected for inclusion in the simulation.
+-    **Operation List**: The list of Operations selected for inclusion in the simulation.
 
 
 

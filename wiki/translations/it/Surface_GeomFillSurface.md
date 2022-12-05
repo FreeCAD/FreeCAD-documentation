@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Surface_GeomFillSurface
-   Name/it   *Surface GeomFillSurface
-   MenuLocation   *Surface → Fill boundary curves
-   Workbenches   *[Surface](Surface_Workbench/it.md)
-   Version   *0.17
+- GuiCommand:/it
+   Name:Surface_GeomFillSurface
+   Name/it:Surface GeomFillSurface
+   MenuLocation:Surface → Fill boundary curves
+   Workbenches:[Surface](Surface_Workbench/it.md)
+   Version:0.17
 ---
 
 # Surface GeomFillSurface/it
@@ -14,27 +14,27 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Surface_GeomFillSurface.svg  style="width   *16px;"> [Surface GeomFillSurface](Surface_GeomFillSurface/it.md) crea una superficie da due, tre o quattro bordi, cercando di creare una transizione graduale tra di loro.
+Lo strumento <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:16px;"> [Surface GeomFillSurface](Surface_GeomFillSurface/it.md) crea una superficie da due, tre o quattro bordi, cercando di creare una transizione graduale tra di loro.
 
 
 </div>
 
-<img alt="" src=images/Surface_GeomFillSurface_4_edges.png  style="width   *330px;"> <img alt="" src=images/Surface_GeomFillSurface_4_edges_example.png  style="width   *330px;">
+<img alt="" src=images/Surface_GeomFillSurface_4_edges.png  style="width:330px;"> <img alt="" src=images/Surface_GeomFillSurface_4_edges_example.png  style="width:330px;">
 
-<img alt="" src=images/Surface_GeomFillSurface_3_edges.png  style="width   *330px;"> <img alt="" src=images/Surface_GeomFillSurface_3_edges_example.png  style="width   *330px;">
+<img alt="" src=images/Surface_GeomFillSurface_3_edges.png  style="width:330px;"> <img alt="" src=images/Surface_GeomFillSurface_3_edges_example.png  style="width:330px;">
 
-<img alt="" src=images/Surface_GeomFillSurface_2_edges.png  style="width   *330px;"> <img alt="" src=images/Surface_GeomFillSurface_2_edges_example.png  style="width   *330px;">
+<img alt="" src=images/Surface_GeomFillSurface_2_edges.png  style="width:330px;"> <img alt="" src=images/Surface_GeomFillSurface_2_edges_example.png  style="width:330px;">
 
 
 
-*Left   * edges that are used to generate a surface with the [GeomFillSurface](Surface_GeomFillSurface.md) tool, 4 connected edges, 3 connected edges, and 2 disconnected edges. Right   * resulting surface from using the 4, 3, and 2 edges, respectively.*
+*Left: edges that are used to generate a surface with the [GeomFillSurface](Surface_GeomFillSurface.md) tool, 4 connected edges, 3 connected edges, and 2 disconnected edges. Right: resulting surface from using the 4, 3, and 2 edges, respectively.*
 
 ## Utilizzo
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **[<img src=images/Surface_GeomFillSurface.svg style="width   *16px"> [Fill boundary curves](Surface_GeomFillSurface/it.md)**.
+1.  Premere il pulsante **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface/it.md)**.
 2.  Selezionare i bordi nella vista 3D. I bordi devono connettersi per dare un profilo chiuso.
 3.  Impostare le opzioni e premere **OK**.
 
@@ -42,7 +42,7 @@ Lo strumento <img alt="" src=images/Surface_GeomFillSurface.svg  style="width   
 </div>
 
 
-**Note   ***
+**Note:**
 
 once created, it is not possible to apply additional constraints to the created surface.
 
@@ -51,14 +51,14 @@ once created, it is not possible to apply additional constraints to the created 
 
 <div class="mw-translate-fuzzy">
 
-Sono disponibili tre diversi stili di riempimento   * Curved, [Coons](https   *//en.wikipedia.org/wiki/Coons_patch), Stretch.
+Sono disponibili tre diversi stili di riempimento: Curved, [Coons](https://en.wikipedia.org/wiki/Coons_patch), Stretch.
 
 
 </div>
 
 ## Proprietà
 
-A [Surface GeomFillSurface](Surface_GeomFillSurface.md) (`Surface   *   *GeomFillSurface` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part   *   *Feature` class, through the `Part   *   *Spline` subclass), therefore it shares all the latter\'s properties.
+A [Surface GeomFillSurface](Surface_GeomFillSurface.md) (`Surface::GeomFillSurface` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
 
@@ -73,7 +73,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 {{PropertyData/it|Fill Type}}
 
-   * L\'algoritmo di riempimento applicato
+: L\'algoritmo di riempimento applicato
 
 -   Curved -- lo stile con le porzioni più arrotondate.
 -   Coons -- uno stile arrotondato con meno profondità di Curva
@@ -87,17 +87,17 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 {{TitleProperty|Base}}
 
--    **Control Points|Bool**   * it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
+-    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
 
 ## Twisting of the surface 
 
-The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid [Shape](Part_TopoShape.md); this can be verified with **[<img src=images/Part_CheckGeometry.svg style="width   *16px"> [Part CheckGeometry](Part_CheckGeometry.md)**.
+The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid [Shape](Part_TopoShape.md); this can be verified with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)**.
 
 For example, if two curves have the points 
 ```python
 curve1 = [a, b, c, d]
 curve2 = [e, f, g]
-``` and the resulting surface after using **[<img src=images/Surface_GeomFillSurface.svg style="width   *16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** or **[<img src=images/Surface_Sections.svg style="width   *16px"> [Sections](Surface_Sections.md)** is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
+``` and the resulting surface after using **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** or **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections.md)** is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
 
 Either 
 ```python
@@ -115,17 +115,17 @@ In practical terms this means that all edges used to generate a surface should b
 
 When the surface\'s **Lighting** property is {{Value|One side}}, a face will be painted completely black if its normal direction points into the [3D view](3D_view.md) (away from the current viewer), indicating a flipped face with respect to the other colored faces.
 
-<img alt="" src=images/Surface_twisting_example_smooth.png  style="width   *330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width   *330px;"> 
-*Left   * the boundary edges are oriented in the same direction, and thus the generated surface is smooth. Right   * the boundary edges have opposite directions, and thus the generated surface twists on itself, resulting in self-intersections.*
+<img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;"> 
+*Left: the boundary edges are oriented in the same direction, and thus the generated surface is smooth. Right: the boundary edges have opposite directions, and thus the generated surface twists on itself, resulting in self-intersections.*
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Surface GeomFillSurface tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface   *   *GeomFillSurface` object.
+The Surface GeomFillSurface tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::GeomFillSurface` object.
 
 -   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryList` property of the object.
 -   The type of algorithm must be assigned like a string to the `FillType` property.
@@ -156,7 +156,7 @@ points4 = [d, App.Vector(-140, 0, 45), a]
 obj4 = Draft.make_bspline(points4)
 doc.recompute()
 
-surf = doc.addObject("Surface   *   *GeomFillSurface", "Surface")
+surf = doc.addObject("Surface::GeomFillSurface", "Surface")
 surf.BoundaryList = [(obj1, "Edge1"),
                      (obj2, "Edge1"),
                      (obj3, "Edge1"),

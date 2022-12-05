@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-[IfcOpenShell](IfcOpenShell/de.md) ist eine Open Source (LGPL 3) Softwarebibliothek , die Entwicklern hilft, mit dem Dateiformat [industry foundation classes](http   *//www.buildingsmart-tech.org/specifications/ifc-overview) ([IFC](Arch_IFC/de.md)) zu arbeiten. Das IFC Dateiformat kann verwendet werden, um Gebäude und Konstruktionsdaten zu beschreiben. Das Format wird häufig für [Bauwerksdatenmodellierung](https   *//de.wikipedia.org/wiki/Building_Information_Modeling) (engl.   * building information modelling) (BIM) verwendet, z. B. für mechanische Belastungsanalysen und Studien zur thermischen und energetischen Effizienz. IfcOpenShell ist in erster Linie eine Sammlung von C++ Bibliotheken, da es jedoch [Python](Python/de.md) Bindungen besitzt, kann es in Programme wie FreeCAD und Blender integriert werden.
+[IfcOpenShell](IfcOpenShell/de.md) ist eine Open Source (LGPL 3) Softwarebibliothek , die Entwicklern hilft, mit dem Dateiformat [industry foundation classes](http://www.buildingsmart-tech.org/specifications/ifc-overview) ([IFC](Arch_IFC/de.md)) zu arbeiten. Das IFC Dateiformat kann verwendet werden, um Gebäude und Konstruktionsdaten zu beschreiben. Das Format wird häufig für [Bauwerksdatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling) (engl.: building information modelling) (BIM) verwendet, z. B. für mechanische Belastungsanalysen und Studien zur thermischen und energetischen Effizienz. IfcOpenShell ist in erster Linie eine Sammlung von C++ Bibliotheken, da es jedoch [Python](Python/de.md) Bindungen besitzt, kann es in Programme wie FreeCAD und Blender integriert werden.
 
 IfcOpenShell verwendet intern [OpenCASCADE](OpenCASCADE/de.md), um die implizite Geometrie in IFC Dateien in explizite Geometrie zu konvertieren, die andere CAD Pakete verstehen können, z. B. STEP, [OBJ](Arch_OBJ/de.md) und [DAE](Arch_DAE/de.md).
 
@@ -23,7 +23,7 @@ IfcOpenShell kann auf verschiedene Arten installiert werden, je nach Betriebssys
 
 ### Pip
 
-The easiest way to install IfcOpenShell is using [pip](https   *//pypi.org/project/pip/). Once pip is installed on your system, you can [install](https   *//datatofish.com/install-package-python-using-pip/) IfcOpenShell easily by issuing from a terminal window   *
+The easiest way to install IfcOpenShell is using [pip](https://pypi.org/project/pip/). Once pip is installed on your system, you can [install](https://datatofish.com/install-package-python-using-pip/) IfcOpenShell easily by issuing from a terminal window:
 
 
 ```python
@@ -51,7 +51,7 @@ Beachte jedoch, dass Pakete, die von vielen Linux Repositorien bereitgestellt we
 
 Es gibt ein spezielles Repositorium des IfcOpenShell Projekts, das regelmäßig die IfcOpenShell Bibliotheken für verschiedene Systeme (Linux, Windows, MacOS), Architekturen (32-bit und 64-bit) und Python Versionen (2.7, 3.x) kompiliert. Um diese vorkompilierten Bibliotheken zu verwenden, musst du die richtige Version auswählen, die zu deinem Betriebssystem, deiner Architektur und den Haupt- und Nebenziffern für das [Python](Python/de.md), das mit FreeCAD verwendet wird, passt. Das bedeutet, dass die ersten beiden Nummern übereinstimmen müssen (Python 3.6 und 3.7 werden als unterschiedliche Versionen angesehen), während die dritte Nummer (micro) keine Rolle spielt (Python 3.6.5 und 3.6.12 werden aus Kompatibilitätsgründen als gleich angesehen).
 
-1.  Begib dich in das Bau Repositorium [IfcOpenBot/IfcOpenShell](https   *//github.com/IfcOpenBot/IfcOpenShell). Dieses Repositorium ist nicht für die Entwicklung gedacht, es enthält nur eine Kopie des Hauptrepositorys sowie vorkompilierte Pakete.
+1.  Begib dich in das Bau Repositorium [IfcOpenBot/IfcOpenShell](https://github.com/IfcOpenBot/IfcOpenShell). Dieses Repositorium ist nicht für die Entwicklung gedacht, es enthält nur eine Kopie des Hauptrepositorys sowie vorkompilierte Pakete.
 2.  Zum Zeitpunkt dieses Beitrags (2020) enthält der Hauptzweig des IfcOpenShell Projekts nicht den neuesten Code, daher müssen wir den gewünschten Zweig auswählen, zum Beispiel `v0.6.0`.
 3.  Klicke auf die Commit Nummer, wodurch du zur Liste der Commits für den Zweig gelangst, z. B. `IfcOpenBot/IfcOpenShell/commits/v0.6.0`.
 4.  Gehe in der Historie zurück, bis du einen Commit findest, der einen Kommentar hat. Dies zeigt den Zeitpunkt an, an dem die vorkompilierten Bibliotheken freigegeben wurden.
@@ -59,7 +59,7 @@ Es gibt ein spezielles Repositorium des IfcOpenShell Projekts, das regelmäßig 
 6.  Das heruntergeladene Paket muss extrahiert werden, und das extrahierte Verzeichnis muss in den Python Suchpfad gelegt werden, um die neuen Module zu finden.
 
 
-**Hinweis   ***
+**Hinweis:**
 
 Die folgenden Beispiele gehen von einem Debian/Ubuntu basierten System aus, aber die allgemeine Vorgehensweise sollte auch für andere Betriebssysteme funktionieren.
 
@@ -107,7 +107,7 @@ sudo rm -rf /usr/local/lib/python3.6/dist-packages/ifcopenshell/
 
 Das Kompilieren von IfcOpenShell wird nur für fortgeschrittene Benutzer empfohlen. Der Prozess ähnelt dem [Kompilieren von FreeCAD unter Linux](Compile_on_Linux/de.md), wenn du dies bereits gemacht hast, verfügst du möglicherweise bereits über die notwendigen Voraussetzungen wie die [OpenCASCADE\'s](OpenCASCADE/de.md) Entwicklungsdateien. Der Prozess verwendet das CMake Konfigurationswerkzeug, um eine benutzerdefinierte `Makefile` für die Verwendung mit dem Make Werkzeug zu erzeugen.
 
-Die allgemeinen Anweisungen sind im [IfcOpenShell-Repository](https   *//github.com/IfcOpenShell/IfcOpenShell) umrissen und lauten wie folgt   *
+Die allgemeinen Anweisungen sind im [IfcOpenShell-Repository](https://github.com/IfcOpenShell/IfcOpenShell) umrissen und lauten wie folgt:
 
 1.  Hol dir den Quellcode von IfcOpenShell aus seinem Hauptrepository.
 2.  Sammle alle Abhängigkeiten für die Kompilierung, einschließlich eines C++ Kompilierers, CMake und Make, sowie die Entwicklungsdateien für Boost, libxml2, [OpenCASCADE](OpenCASCADE/de.md), SWIG, Python und OpenCOLLADA (optional). Die meisten dieser Komponenten sind rein optional, für die Verwendung mit FreeCAD sollten sie jedoch alle installiert sein. OpenCOLLADA ist optional, da es nur [DAE](Arch_DAE/de.md) Unterstützung für das `IfcConvert` Binärformat bietet.
@@ -115,7 +115,7 @@ Die allgemeinen Anweisungen sind im [IfcOpenShell-Repository](https   *//github.
 4.  Installiere das `ifcopenshell` [Python](Python/de.md) Modul in das entsprechende `site-packages/` Verzeichnis, damit es von FreeCAD gefunden wird.
 
 
-**Hinweis   ***
+**Hinweis:**
 
 Die folgenden Beispiele gehen von einem Debian/Ubuntu basierten System aus, aber die allgemeine Vorgehensweise sollte auch für andere Betriebssysteme funktionieren. Zum Beispiel befinden sich unter Debian gemeinsam genutzte Bibliotheken normalerweise in `/usr/lib/x86_64-linux-gnu/`, während dies bei anderen Distributionen `/usr/lib64/` sein kann, so dass die Pfade entsprechend angepasst werden sollten.
 
@@ -130,7 +130,7 @@ Hol dir den Quellcode des Projekts und leg ihn in einem eigenen Verzeichnis ab, 
 
 Zum Zeitpunkt dieses Schreibens (2020) enthält der Hauptzweig des IfcOpenShell Projekts nicht den neuesten Code, sodass wir einen bestimmten Zweig klonen müssen. 
 ```python
-git clone https   *//github.com/IfcOpenShell/IfcOpenShell -b v0.6.0 IfcOpenShell-source
+git clone https://github.com/IfcOpenShell/IfcOpenShell -b v0.6.0 IfcOpenShell-source
 ```
 
 ### OpenCASCADE
@@ -154,12 +154,12 @@ Installiere die Entwicklungsdateien von OpenCOLLADA.
 sudo apt install opencollada-dev
 ```
 
-Wenn die Dateien in deiner Distribution zu alt sind, kannst du die Bibliotheken auch selbst kompilieren. Die Vorgehensweise ist im Haupt Repositorium, [KhronosGroup/OpenCOLLADA](https   *//github.com/KhronosGroup/OpenCOLLADA), beschrieben und ist sehr einfach, da nur die Entwicklungsdateien `libpcre3` und `libxml2` benötigt werden.
+Wenn die Dateien in deiner Distribution zu alt sind, kannst du die Bibliotheken auch selbst kompilieren. Die Vorgehensweise ist im Haupt Repositorium, [KhronosGroup/OpenCOLLADA](https://github.com/KhronosGroup/OpenCOLLADA), beschrieben und ist sehr einfach, da nur die Entwicklungsdateien `libpcre3` und `libxml2` benötigt werden.
 
 
 ```python
 sudo apt install libpcre3-dev libxml2-dev
-git clone https   *//github.com/KhronosGroup/OpenCOLLADA OpenCOLLADA-source
+git clone https://github.com/KhronosGroup/OpenCOLLADA OpenCOLLADA-source
 
 mkdir -p OpenCOLLADA-build
 cd OpenCOLLADA-build
@@ -276,7 +276,7 @@ In einem typischen Debian/Ubuntu System kannst du diese Zeile verwenden, um die 
 cmake -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu -DLIBXML2_INCLUDE_DIR=/usr/include/libxml2 -DLIBXML2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libxml2.so -DUSERSPACE_PYTHON_PREFIX=ON ../IfcOpenShell-source/cmake/
 ```
 
-Ohne OpenCOLLADA   * 
+Ohne OpenCOLLADA: 
 ```python
 cmake -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu -DCOLLADA_SUPPORT=FALSE -DLIBXML2_INCLUDE_DIR=/usr/include/libxml2 -DLIBXML2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libxml2.so -DUSERSPACE_PYTHON_PREFIX=ON ../IfcOpenShell-source/cmake/
 ```
@@ -379,7 +379,7 @@ sudo rm -rf $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 
 Die Kompilierung der gesamten IfcOpenShell Distribution erzeugt Binärdateien wie `IfcConvert` und `IfcGeomServer`, sowie viele statische Bibliotheken (`lib*.a`) im Bau Verzeichnis. Für FreeCAD benötigen wir jedoch nur das `ifcopenshell` Python Modul. Dieses Modul ist keine einzelne Datei, sondern ein \"Paket\", also ein Verzeichnis mit verschiedenen Dateien. Dieses `ifcopenshell` Paket wird aus den Python Wrappern, die innerhalb von `IfcOpenShell-build/ifcwrap/` gebaut wurden, und aus den Python Modulen im ursprünglichen Quellverzeichnis `IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/` zusammengesetzt.
 
--   Erzeugt durch den Kompiliervorgang   *
+-   Erzeugt durch den Kompiliervorgang:
 
 
 ```python
@@ -387,7 +387,7 @@ Die Kompilierung der gesamten IfcOpenShell Distribution erzeugt Binärdateien wi
 ../IfcOpenShell-build/ifcwrap/_ifcopenshell_wrapper.so
 ```
 
--   Vorhanden im Quellverzeichnis   *
+-   Vorhanden im Quellverzeichnis:
 
 
 ```python
@@ -407,7 +407,7 @@ Nun kann dieses Verzeichnis in das benutzerspezifische oder Systemverzeichnis `s
 mv -t $HOME/.local/lib/python3.6/site-packages/ ifcopenshell/
 ```
 
--   Vorhanden im Quellverzeichnis   *
+-   Vorhanden im Quellverzeichnis:
 
 
 ```python
@@ -427,13 +427,13 @@ Jetzt sollte das Modul `ifcopenshell` verfügbar sein, um von einer [Python Kons
 
 Die IfcOpenShell Bibliothek enthält tatsächlich einen kleinen grafischen Betrachter für IFC Dateien, der PyQt5 und PythonOCC verwendet.
 
-Um diesen Betrachter von der Python Konsole aus zu starten, muss die Klasse `application` instanziiert und gestartet werden   * 
+Um diesen Betrachter von der Python Konsole aus zu starten, muss die Klasse `application` instanziiert und gestartet werden: 
 ```python
 from ifcopenshell.geom.app import application
 application().start()
 ```
 
-Wenn die Bibliothek bereits installiert ist, kann das gesamte Modul auch über das Terminal ausgeführt werden   * 
+Wenn die Bibliothek bereits installiert ist, kann das gesamte Modul auch über das Terminal ausgeführt werden: 
 ```python
 python3 /home/user/.local/lib/python3.6/site-packages/ifcopenshell/geom/app.py
 ```
@@ -444,26 +444,24 @@ Zum Zeitpunkt der Erstellung dieses Artikels (2020) wurde nur die für die [Open
 
 Das IfcOpenShell Projekt hat auch \"IFC Pipeline\" entwickelt, ein selbstgehostetes IFC Verarbeitungs- und Visualisierungsprogramm. Es bietet auch eine kleine Webanwendung, die Datei Uploads akzeptiert, die jeder verwenden kann. Das bedeutet, dass du zur Visualisierung von IFC Daten weder IfcOpenShell noch andere Viewer lokal installiert haben musst; Du kannst einfach deine IFC Datei in dieses System laden und das Ergebnis sehen.
 
--   Online Betrachter   * <https   *//view.ifcopenshell.org/>
--   Repositorium   * [AECgeeks/ifc-pipeline](https   *//github.com/AECgeeks/ifc-pipeline)
+-   Online Betrachter: <https://view.ifcopenshell.org/>
+-   Repositorium: [AECgeeks/ifc-pipeline](https://github.com/AECgeeks/ifc-pipeline)
 
 ## Weitere Informationen 
 
--   Webseite   * [ifcopenshell.org](http   *//ifcopenshell.org/)
--   Code Repositorium   * [IfcOpenShell/IfcOpenShell](https   *//github.com/IfcOpenShell/IfcOpenShell)
--   Akademie mit Beispielen und Artikeln   * [academy.ifcopenshell.org](http   *//academy.ifcopenshell.org/)
--   [IfcOpenShell online Betrachter](https   *//view.ifcopenshell.org/)
--   OSArch Gemeinschaft mit Ressourcen für Open Source Architektur   * [wiki.OSArch.org](https   *//wiki.osarch.org/index.php?title=Main_Page)
--   [Installation von IfcOpenShell](https   *//forum.freecadweb.org/viewtopic.php?f=39&t=48971); Hauptdiskussion im Forum.
--   [IFC Installation](https   *//forum.freecadweb.org/viewtopic.php?f=39&t=12368&start=10#p117883); alte Diskussion im Forum.
--   [IfcPlusPlus kompiliert auf Gentoo - Fragen und Alternativen?](https   *//forum.freecadweb.org/viewtopic.php?f=39&t=33254)
+-   Webseite: [ifcopenshell.org](http://ifcopenshell.org/)
+-   Code Repositorium: [IfcOpenShell/IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)
+-   Akademie mit Beispielen und Artikeln: [academy.ifcopenshell.org](http://academy.ifcopenshell.org/)
+-   [IfcOpenShell online Betrachter](https://view.ifcopenshell.org/)
+-   OSArch Gemeinschaft mit Ressourcen für Open Source Architektur: [wiki.OSArch.org](https://wiki.osarch.org/index.php?title=Main_Page)
+-   [Installation von IfcOpenShell](https://forum.freecadweb.org/viewtopic.php?f=39&t=48971); Hauptdiskussion im Forum.
+-   [IFC Installation](https://forum.freecadweb.org/viewtopic.php?f=39&t=12368&start=10#p117883); alte Diskussion im Forum.
+-   [IfcPlusPlus kompiliert auf Gentoo - Fragen und Alternativen?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
 -   [Compiling IfcOpenShell for MacOS](Import/Export_IFC_-_compiling_IfcOpenShell.md); eine ältere Anleitung, die den allgemeinen Prozess beschreibt. Sie wird möglicherweise nicht mehr benötigt, da IfcOpenShell jetzt dank [Conda](Conda/de.md) zusammen mit FreeCAD verteilt wird.
--   Welche Seiten verlinken auf [diese Seite](Special   *WhatLinksHere/IfcOpenShell/de.md).
+-   Welche Seiten verlinken auf [diese Seite](Special:WhatLinksHere/IfcOpenShell/de.md).
 
 
- {{FEM Tools navi}} 
-
-[Category   *BIM](Category_BIM.md) [Category   *3rd Party](Category_3rd_Party.md)
+ {{FEM Tools navi}}
 
 
 

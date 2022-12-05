@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ko
-   Name   *Std Edit
-   Name/ko   *표준 편집 모드 전환
-   MenuLocation   *편집 → 편집 모드 전환
-   Workbenches   *모두
+- GuiCommand:/ko
+   Name:Std Edit
+   Name/ko:표준 편집 모드 전환
+   MenuLocation:편집 → 편집 모드 전환
+   Workbenches:모두
 ---
 
 # Std Edit/ko
@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  편집 모드인 개체가 없다면   * 단일 개체를 선택합니다.
+1.  편집 모드인 개체가 없다면: 단일 개체를 선택합니다.
 2.  메뉴에서 **편집 → <img src="images/Std_Edit.svg" width=16px> 편집 모드 전환** 옵션을 선택합니다.
 3.  선택한 개체의 편집 모드가 활성화되거나 기존 편집 모드가 비활성화 됩니다.
 
@@ -43,7 +43,7 @@
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 
@@ -56,7 +56,7 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available   *
+The second argument is the EditMode. The following options are available:
 
 0 = Default
 1 = Transform

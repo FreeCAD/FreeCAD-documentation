@@ -1,8 +1,6 @@
 # Category:Wiki/tr
 This category contains all documents that relate to the Wiki/tr.
 
-[Category   *Administration/tr](Category   *Administration/tr.md) [Category   *Categories/tr](Category   *Categories/tr.md) [Category   *Documentation/tr](Category   *Documentation/tr.md)
-
 ### Contents
 
 |     |     |     |

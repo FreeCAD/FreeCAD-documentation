@@ -1,8 +1,6 @@
 # Category:Plot/pt
 This category lists pages related to the [Plot Workbench/pt](Plot_Workbench/pt.md).
 
-[Category   *Workbenches/pt](Category   *Workbenches/pt.md)
-
 ### Contents
 
 |     |     |     |

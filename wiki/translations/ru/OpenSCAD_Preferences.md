@@ -6,7 +6,7 @@
 
 </div>
 
-There is only one tab   * General settings.
+There is only one tab: General settings.
 
 
 <div class="mw-translate-fuzzy">
@@ -23,9 +23,7 @@ There is only one tab   * General settings.
 
 {{OpenSCAD Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

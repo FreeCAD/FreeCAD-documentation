@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM ClippingPlaneRemoveAll
-   Name/ru   *FEM ClippingPlaneRemoveAll
-   Icon   *Fem-clipping-plane-remove-all.svg
-   MenuLocation   * Utility → Clipping Plane Remove All
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM ClippingPlaneRemoveAll
+   Name/ru:FEM ClippingPlaneRemoveAll
+   Icon:Fem-clipping-plane-remove-all.svg
+   MenuLocation: Utility → Clipping Plane Remove All
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ClippingPlaneRemoveAll/ru
@@ -20,7 +20,7 @@ Removes all existing [clipping planes](FEM_ClippingPlaneAdd.md).
 
 ## Usage
 
-Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
+Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
 
 
 <div class="mw-translate-fuzzy">

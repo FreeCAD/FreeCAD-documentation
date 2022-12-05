@@ -1,4 +1,4 @@
-# <img alt="Icono del ambiente de trabajo Nave" src=images/Workbench_Ship.svg  style="width   *64px;"> Ship Workbench/es
+# <img alt="Icono del ambiente de trabajo Nave" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/es
 
 
 {{TOCright}}
@@ -8,7 +8,7 @@
 
 <div class="mw-translate-fuzzy">
 
-El <img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> de FreeCAD [Ambiente de trabajo Náutico](Ship_Workbench/es.md) se utiliza para crear estructuras comunes a los barcos.
+El <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> de FreeCAD [Ambiente de trabajo Náutico](Ship_Workbench/es.md) se utiliza para crear estructuras comunes a los barcos.
 
 
 </div>
@@ -20,11 +20,11 @@ El <img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> de FreeCAD
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="Cargador de ejemplos de geometrias de naves" src=images/Ship_Load.svg  style="width   *32px;"> [Cargador de ejemplos de geometrias de naves](Ship_Geometries_Examples/es.md)
--   <img alt="Herramienta de Creación de casos de naves" src=images/Ship_Logo.svg  style="width   *32px;"> [Creación de casos de naves](Ship_New/es.md)
--   <img alt="Herramienta de dibujo de líneas de naves" src=images/Ship_OutlineDraw.svg  style="width   *32px;"> [Dibujo de líneas](Ship_Outline/es.md)
--   <img alt="Herramienta de curva de área seccional" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width   *32px;"> [Curva de área](Ship_Area/es.md)
--   <img alt="Icono de la herramienta hidrostática" src=images/Ship_Hydrostatics.png  style="width   *32px;"> [Hidrostática](Ship_Hydrostatics/es.md)
+-   <img alt="Cargador de ejemplos de geometrias de naves" src=images/Ship_Load.svg  style="width:32px;"> [Cargador de ejemplos de geometrias de naves](Ship_Geometries_Examples/es.md)
+-   <img alt="Herramienta de Creación de casos de naves" src=images/Ship_Logo.svg  style="width:32px;"> [Creación de casos de naves](Ship_New/es.md)
+-   <img alt="Herramienta de dibujo de líneas de naves" src=images/Ship_OutlineDraw.svg  style="width:32px;"> [Dibujo de líneas](Ship_Outline/es.md)
+-   <img alt="Herramienta de curva de área seccional" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Curva de área](Ship_Area/es.md)
+-   <img alt="Icono de la herramienta hidrostática" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Hidrostática](Ship_Hydrostatics/es.md)
 
 
 </div>
@@ -34,11 +34,11 @@ El <img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> de FreeCAD
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="Weights definition tool" src=images/FreeCAD-Ship-WeightIco.png  style="width   *32px;">   * [Definición de Cargas](Ship_Weight.md)
--   <img alt="Tank creation tool" src=images/FreeCAD-Ship-TankIco.png  style="width   *32px;">   * [Herramienta de creación de cisterna](Ship_TankNew.md)
--   <img alt="Tank capacity curve tool" src=images/Ship_TankCapacity.png  style="width   *32px;">   * [Curva de capacidad de una cisterna](Ship_TankCapacity.md)
--   <img alt="Load conditions" src=images/Ship_Loading.png  style="width   *32px;">   * [Condiciones de carga](Ship_Loading.md)
--   <img alt="Plot GZ curve" src=images/Ship_PlotGZ.png  style="width   *32px;">   * [Curva de gráfico GZ](Ship_PlotGZ.md)
+-   <img alt="Weights definition tool" src=images/FreeCAD-Ship-WeightIco.png  style="width:32px;">: [Definición de Cargas](Ship_Weight.md)
+-   <img alt="Tank creation tool" src=images/FreeCAD-Ship-TankIco.png  style="width:32px;">: [Herramienta de creación de cisterna](Ship_TankNew.md)
+-   <img alt="Tank capacity curve tool" src=images/Ship_TankCapacity.png  style="width:32px;">: [Curva de capacidad de una cisterna](Ship_TankCapacity.md)
+-   <img alt="Load conditions" src=images/Ship_Loading.png  style="width:32px;">: [Condiciones de carga](Ship_Loading.md)
+-   <img alt="Plot GZ curve" src=images/Ship_PlotGZ.png  style="width:32px;">: [Curva de gráfico GZ](Ship_PlotGZ.md)
 
 
 </div>
@@ -60,14 +60,9 @@ El Ambiente de Trabajo Nave no se mantenía desde la v0.17 pero ha sido resucita
 
 ## Referencias
 
--   Desarrollador   * José Luis Cercós Pita ([\@sanguinariojoe](https   *//github.com/sanguinariojoe))
--   Github   * <https   *//github.com/FreeCAD/freecad.ship>
--   Discusión   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=60885>
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Ship](Category_Ship.md)
+-   Desarrollador: José Luis Cercós Pita ([\@sanguinariojoe](https://github.com/sanguinariojoe))
+-   Github: <https://github.com/FreeCAD/freecad.ship>
+-   Discusión: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
 
 

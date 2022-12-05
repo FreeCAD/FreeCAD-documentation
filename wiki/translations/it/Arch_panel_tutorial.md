@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   * Modellare un pannello in Arch
-   Level   * Base
-   Time   * 60 minuti
-   Author   * Yorik
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic: Modellare un pannello in Arch
+   Level: Base
+   Time: 60 minuti
+   Author: Yorik
+   FCVersion:
+   Files:
 ---
 
 # Arch panel tutorial/it
@@ -14,35 +14,35 @@
 
 
 
-Questo è un cross-post (duplicato) del [tutorial](http   *//opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originariamente scritto per [Open-Source Ecology](http   *//opensourceecology.org).
+Questo è un cross-post (duplicato) del [tutorial](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originariamente scritto per [Open-Source Ecology](http://opensourceecology.org).
 
 ## Presentazione di FreeCAD 
 
-<img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width   *800px;">
+<img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width:800px;">
 
 FreeCAD è un modellatore 3D parametrico. La modellazione parametrica consente di modificare facilmente il proprio progetto andando all\'indietro nello storico del modello e cambiando i suoi parametri. FreeCAD è open source (licenza LGPL) e molto modulare, permette estensioni molto avanzate e la personalizzazione, specialmente grazie al suo intenso uso del linguaggio Python.
 
--   Sito Web di FreeCAD   * <http   *//www.freecadweb.org/?lang=it>
--   Wiki della documentazione di FreeCAD   * <http   *//www.freecadweb.org/wiki/index.php?title=Main_Page/it>
--   Gli ambienti di lavoro di FreeCAD   * <http   *//www.freecadweb.org/wiki/index.php?title=Workbench_Concept/it>
--   Forum di FreeCAD   * <http   *//forum.freecadweb.org/>
--   Iniziare con FreeCAD   * <http   *//www.freecadweb.org/wiki/index.php?title=Getting_started/it>
--   Tutorial di Architettura   * <http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial/it>
+-   Sito Web di FreeCAD: <http://www.freecadweb.org/?lang=it>
+-   Wiki della documentazione di FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Main_Page/it>
+-   Gli ambienti di lavoro di FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept/it>
+-   Forum di FreeCAD: <http://forum.freecadweb.org/>
+-   Iniziare con FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started/it>
+-   Tutorial di Architettura: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial/it>
 
 ## Installare FreeCAD 
 
 È possibile installare l\'ultima versione stabile (ad oggi, maggio 2015, la versione 0.15) o una versione di sviluppo (attualmente la 0.16). In realtà, le versioni di sviluppo di FreeCAD sono solitamente abbastanza stabili, e si è fortemente incoraggiati a provare una versione di sviluppo, se non c\'è uno specifico motivo per non farlo. Dato che lo sviluppo di FreeCAD è abbastanza veloce, e se viene scaricato manualmente, bisogna controllare di tanto in tanto e reinstallarlo o aggiornarlo per beneficiare di tutti i miglioramenti.
 
--   Su Windows   * Scaricare la versione più recente per la propria versione di Windows (32 o 64 bit) da <https   *//github.com/FreeCAD/FreeCAD/releases>. Fare doppio clic sul file per installarlo.
--   Su Mac OS   * Scaricare la versione più recente da <https   *//github.com/FreeCAD/FreeCAD/releases>. Fare doppio clic sul file per installarlo.
--   Su Ubuntu   * In genere la versione di FreeCAD fornita da Ubuntu è superata, perciò si consiglia di utilizzare al suo posto il PPA mantenuto dalla comunità di FreeCAD. Per installarlo, aprire l\'applicazione "Software Sources" di Ubuntu, e aggiungere alle sorgenti del software i ppa   *freecad-maintainers/freecad-stable per la versione stabile, o il ppa   *freecad-maintainers/freecad-daily per la versione di sviluppo.
--   Su altre piattaforme   * Sulla maggior parte delle distribuzioni principali di Linux (Debian, Fedora, ecc), FreeCAD è incluso nei repository software ufficiali. Potrebbe però non essere sempre la versione più aggiornata. Se la versione necessaria non è disponibile, l\'unica opzione è quella di compilare FreeCAD da soli (le istruzioni sono sul sito di FreeCAD)
+-   Su Windows: Scaricare la versione più recente per la propria versione di Windows (32 o 64 bit) da <https://github.com/FreeCAD/FreeCAD/releases>. Fare doppio clic sul file per installarlo.
+-   Su Mac OS: Scaricare la versione più recente da <https://github.com/FreeCAD/FreeCAD/releases>. Fare doppio clic sul file per installarlo.
+-   Su Ubuntu: In genere la versione di FreeCAD fornita da Ubuntu è superata, perciò si consiglia di utilizzare al suo posto il PPA mantenuto dalla comunità di FreeCAD. Per installarlo, aprire l\'applicazione "Software Sources" di Ubuntu, e aggiungere alle sorgenti del software i ppa:freecad-maintainers/freecad-stable per la versione stabile, o il ppa:freecad-maintainers/freecad-daily per la versione di sviluppo.
+-   Su altre piattaforme: Sulla maggior parte delle distribuzioni principali di Linux (Debian, Fedora, ecc), FreeCAD è incluso nei repository software ufficiali. Potrebbe però non essere sempre la versione più aggiornata. Se la versione necessaria non è disponibile, l\'unica opzione è quella di compilare FreeCAD da soli (le istruzioni sono sul sito di FreeCAD)
 
 ## Contenuti opzionali aggiuntivi 
 
--   Abilitare l\'importazione e l\'esportazione IFC   * Per importare ed esportare i progetti nel formato di file IFC, FreeCAD si basa sull\'importatore IfcOpenShell, che è necessario installare separatamente da <http   *//ifcopenshell.org/python.html>. Accertarsi di scegliere una versione basata su una versione di Python2.7 che sia la stessa versione di Python utilizzata da FreeCAD.
--   Ambiente Drawing dimensioning   * Un ambiente di lavoro aggiuntivo per FreeCAD che offre molti strumenti utili per aggiungere le quote e le annotazioni ai fogli di disegno 2D di FreeCAD   * <https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning> (le istruzioni di installazione sono nella pagina web)
--   Ambiente Assembly2   * Un ambiente di lavoro aggiuntivo per FreeCAD che offre una serie di strumenti di base per l\'assemblaggio   * <https   *//github.com/hamish2014/FreeCAD_assembly2> (le istruzioni di installazione sono nella pagina web)
+-   Abilitare l\'importazione e l\'esportazione IFC: Per importare ed esportare i progetti nel formato di file IFC, FreeCAD si basa sull\'importatore IfcOpenShell, che è necessario installare separatamente da <http://ifcopenshell.org/python.html>. Accertarsi di scegliere una versione basata su una versione di Python2.7 che sia la stessa versione di Python utilizzata da FreeCAD.
+-   Ambiente Drawing dimensioning: Un ambiente di lavoro aggiuntivo per FreeCAD che offre molti strumenti utili per aggiungere le quote e le annotazioni ai fogli di disegno 2D di FreeCAD: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (le istruzioni di installazione sono nella pagina web)
+-   Ambiente Assembly2: Un ambiente di lavoro aggiuntivo per FreeCAD che offre una serie di strumenti di base per l\'assemblaggio: <https://github.com/hamish2014/FreeCAD_assembly2> (le istruzioni di installazione sono nella pagina web)
 
 ## Suggerimenti per un avvio rapido 
 
@@ -62,11 +62,11 @@ FreeCAD è un\'applicazione molto tecnica, e la sua curva di apprendimento può 
 
 -   Anche se FreeCAD può importare e lavorare con gli oggetti mesh (ambiente Mesh), esso è sostanzialmente progettato per funzionare con un tipo più avanzato di oggetti chiamato BREP, che viene utilizzato dalla maggior parte dei suoi ambienti (Parte, PartDesign, Draft, Sketcher, Arch). Durante l\'importazione dei file basati su mesh (.dae, .orb, .stl \...) di solito è necessario convertire questi oggetti in BREP prima di poterli usare per fare qualcosa di interessante. Comunque i formati di file basati su solidi (.step, .iges), al momento dell\'importazione in FreeCAD, producono direttamente gli oggetti BREP. Anche i formati 2D (.dxf, svg) producono dei contenuti BREP.
 
--   FreeCAD ha diversi modi, o modalità, di utilizzare i tasti del mouse. Queste modalità possono essere impostate nelle preferenze e modificabili al volo con un clic destro sullo sfondo della vista 3D. Essi sono descritti in <http   *//www.freecadweb.org/wiki/index.php?title=Mouse_Model/it>. I modi più adatti per il lavoro CAD sono CAD o Gestures.
+-   FreeCAD ha diversi modi, o modalità, di utilizzare i tasti del mouse. Queste modalità possono essere impostate nelle preferenze e modificabili al volo con un clic destro sullo sfondo della vista 3D. Essi sono descritti in <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model/it>. I modi più adatti per il lavoro CAD sono CAD o Gestures.
 
-## Esercizio   * modellare un pannello del tetto 
+## Esercizio: modellare un pannello del tetto 
 
-Per mostrare un tipico flusso di lavoro in FreeCAD, cercheremo di modellare un pannello del tetto come descritto in <http   *//opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Per fare questo, inizieremo disegnando i vari pezzi in uno schizzo 2D vincolato, poi ci avvantaggeremo dello speciale oggetto Finestra di Arch, che è in grado di costruire oggetti 3D complessi da uno schizzo 2D contenente i contorni di vari pezzi. Infine, dato che quello che ci serve non è una finestra, ma un pannello del tetto, ci basterà semplicemente convertire il nostro oggetto Finestra in un altro tipo di oggetto Arch.
+Per mostrare un tipico flusso di lavoro in FreeCAD, cercheremo di modellare un pannello del tetto come descritto in <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Per fare questo, inizieremo disegnando i vari pezzi in uno schizzo 2D vincolato, poi ci avvantaggeremo dello speciale oggetto Finestra di Arch, che è in grado di costruire oggetti 3D complessi da uno schizzo 2D contenente i contorni di vari pezzi. Infine, dato che quello che ci serve non è una finestra, ma un pannello del tetto, ci basterà semplicemente convertire il nostro oggetto Finestra in un altro tipo di oggetto Arch.
 
 ### 1. Aprire FreeCAD, quindi impostare le unità di misura preferite in \"imperial\" 
 
@@ -110,7 +110,7 @@ A seconda del sistema, FreeCAD potrebbe cominciare a essere lento nell\'elaborar
 
 ### 8. Calcolare la distanza tra i 7 pezzi di rinforzo e impostare i loro vincoli verticali. 
 
-Nel nostro caso, la lunghezza totale è di 192 pollici, meno i due pezzi laterali (2 x 2 pollici) e i due rinforzi angolari (2 x 6 pollici), = 192 -- (4 + 12) = 176. Sottraendo i 7 pezzi di rinforzo ( 7 x 2 ) si ottiene = 162. Dividendo questo per 8 si ottiene lo spazio tra ogni rinforzo   * 20.25.
+Nel nostro caso, la lunghezza totale è di 192 pollici, meno i due pezzi laterali (2 x 2 pollici) e i due rinforzi angolari (2 x 6 pollici), = 192 -- (4 + 12) = 176. Sottraendo i 7 pezzi di rinforzo ( 7 x 2 ) si ottiene = 162. Dividendo questo per 8 si ottiene lo spazio tra ogni rinforzo: 20.25.
 
 ![](images/Arch_panel_tutorial_08.jpg )
 
@@ -122,13 +122,13 @@ Sul pannello di destra (Scheda Azioni della Vista combinata -\> Messaggi del sol
 
 Questo non è indispensabile in assoluto, ma è sempre meglio tenere traccia della esatta posizione degli oggetti (ora c\'è la certezza che l\'angolo è nel punto (0,0)). Questo può essere utile in seguito nel caso in cui qualcosa vada storto, o ci sia bisogno di capire la posizione di un oggetto costruito su questo disegno,.
 
-Ora lo schizzo di base è costruito e si può premere il pulsante \"Chiudi\"   *
+Ora lo schizzo di base è costruito e si può premere il pulsante \"Chiudi\":
 
 ![](images/Arch_panel_tutorial_10.jpg )
 
 ### 10. Passare all\'ambiente Arch e, con il disegno selezionato, premere il tasto \"Finestra\" 
 
-Il disegno scompare e uno dei suoi rettangoli viene estruso leggermente in un pezzo solido   *
+Il disegno scompare e uno dei suoi rettangoli viene estruso leggermente in un pezzo solido:
 
 ![](images/Arch_panel_tutorial_11.jpg )
 
@@ -138,7 +138,7 @@ Anche se questo sembra sbagliato, avviene semplicemente perché lo strumento Fin
 
 ![](images/Arch_panel_tutorial_12.jpg )
 
-Facendo doppio clic sulla finestra, il suo schizzo di base diventa di nuovo visibile, e si accede alla sua interfaccia di modifica   * A sinistra c\'è un elenco dei contorni presenti nello schizzo di base, a destra ci sono i pezzi solidi costruiti su tali schizzi.
+Facendo doppio clic sulla finestra, il suo schizzo di base diventa di nuovo visibile, e si accede alla sua interfaccia di modifica: A sinistra c\'è un elenco dei contorni presenti nello schizzo di base, a destra ci sono i pezzi solidi costruiti su tali schizzi.
 
 Iniziare la rimozione del pezzo di \"Default\".
 
@@ -150,7 +150,7 @@ Per attribuire i materiali alla finestra viene utilizzato il valore \"Type\" (no
 
 Quindi premere il pulsante \"Crea componente\". A volte FreeCAD non riesce a indovinare la direzione dell\'estrusione, e si deve quindi editare il componente e cambiare il valore di 6 pollici in -6 pollici.
 
-Ripetere questa operazione per tutti i pezzi necessari   *
+Ripetere questa operazione per tutti i pezzi necessari:
 
 ![](images/Arch_panel_tutorial_14.jpg )
 
@@ -166,7 +166,7 @@ Possiamo quindi modificare di nuovo la finestra, e aggiungere i nuovi componenti
 
 ![](images/Arch_panel_tutorial_15.jpg )
 
-Ora si può creare un altro componente basato sullo stesso contorno, per aggiungere un altro pannello alla struttura. Questa volta, dare un offset di 6,05 pollici. Finalmente il pannello è completo   *
+Ora si può creare un altro componente basato sullo stesso contorno, per aggiungere un altro pannello alla struttura. Questa volta, dare un offset di 6,05 pollici. Finalmente il pannello è completo:
 
 ![](images/Arch_panel_tutorial_16.jpg )
 

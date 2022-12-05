@@ -17,22 +17,22 @@
 
 </div>
 
-The current supported external solvers are   *
+The current supported external solvers are:
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [CalculiX](FEM_SolverCalculixCxxtools.md)
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Elmer](FEM_SolverElmer.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Mystran](FEM_SolverMystran.md) <small>(v0.20)</small> 
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Z88](FEM_SolverZ88.md)
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran.md) <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88.md)
 
 ## Общее
 
-On the *General* tab you can specify the following   *
+On the *General* tab you can specify the following:
 
 ![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-On the *Gmsh* tab you can specify the following   *
+On the *Gmsh* tab you can specify the following:
 
 +++
 | Name                                               | Description                                                                                                           |
@@ -50,19 +50,19 @@ On the *Gmsh* tab you can specify the following   *
 
 ## CalculiX
 
-On the *CalculiX* tab you can specify the following   *
+On the *CalculiX* tab you can specify the following:
 
 ![](images/Preference_Fem_Tab_02.png )
 
 ## Elmer
 
-On the *Elmer* tab you can specify the following   *
+On the *Elmer* tab you can specify the following:
 
 +++
 | Name                                                            | Description                                                                                                                                     |
 +=================================================================+=================================================================================================================================================+
 |                                                  | If checked, FreeCAD will look for the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md) in known (usual) directories |
-| **ElmerGrid   * Search in known binary directories**   |                                                                                                                                                 |
+| **ElmerGrid: Search in known binary directories**   |                                                                                                                                                 |
 |                                                              |                                                                                                                                                 |
 +++
 |                                                  | The path to the the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md)                                                |
@@ -70,7 +70,7 @@ On the *Elmer* tab you can specify the following   *
 |                                                              |                                                                                                                                                 |
 +++
 |                                                  | If checked, FreeCAD will look for the solver binary of [Elmer](FEM_SolverElmer.md) in known (usual) directories                         |
-| **ElmerSolver   * Search in known binary directories** |                                                                                                                                                 |
+| **ElmerSolver: Search in known binary directories** |                                                                                                                                                 |
 |                                                              |                                                                                                                                                 |
 +++
 |                                                  | The path to the the solver binary of [Elmer](FEM_SolverElmer.md)                                                                        |
@@ -82,7 +82,7 @@ On the *Elmer* tab you can specify the following   *
 
 ## Mystran
 
-On the *Mystran* tab you can specify the following   *
+On the *Mystran* tab you can specify the following:
 
 +++
 | Name                                               | Description                                                                                                              |
@@ -100,7 +100,7 @@ On the *Mystran* tab you can specify the following   *
 
 ## Z88
 
-On the *Z88* tab you can specify the following   *
+On the *Z88* tab you can specify the following:
 
 +++
 | Name                                               | Description                                                                                                                                                                                                               |
@@ -130,7 +130,7 @@ On the *Z88* tab you can specify the following   *
 
 ## Material
 
-On the *Material* tab you can specify the following   *
+On the *Material* tab you can specify the following:
 
 +++
 | Name                                                                                          | Description                                                                                                                                                                                           |
@@ -161,9 +161,7 @@ On the *Material* tab you can specify the following   *
 
 {{FEM Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

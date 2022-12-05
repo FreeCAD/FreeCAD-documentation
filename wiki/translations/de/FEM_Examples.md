@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */de
-   Name   *FEM Examples
-   Name/de   *FEM Beispiele
-   MenuLocation   *Dienstprogramme → Freie FEM-Beispiele
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM Examples
+   Name/de:FEM Beispiele
+   MenuLocation:Dienstprogramme → Freie FEM-Beispiele
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM Examples/de
 
 ## Beschreibung
 
-[FEM Beispiele](FEM_Examples/de.md) öffnet eine grafische Schnittstelle, die es erlaubt, auf die verschiedenen im Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench/de.md) enthaltenen Beispiele zuzugreifen.
+[FEM Beispiele](FEM_Examples/de.md) öffnet eine grafische Schnittstelle, die es erlaubt, auf die verschiedenen im Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md) enthaltenen Beispiele zuzugreifen.
 
 ![](images/FEM_Example_gui.png ) 
 *Der Auswahldialog FEM examples*

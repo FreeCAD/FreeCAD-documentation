@@ -7,26 +7,26 @@
 |Version=1.1
 |Date=2022-07-28
 |FCVersion=
-|Download=[https   *//www.freecadweb.org/wiki/images/e/e4/Macro_Unfold_Box.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/e/e4/Macro_Unfold_Box.png ToolBar Icon]
 }}
 
 ## Description
 
 The macro allows to unfold the surfaces of a box of any shape and to draw them on a page.
 
-<img alt="" src=images/Macro_unfoldBox1.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_unfoldBox1.png  style="width:480px;"> 
 *Macro Unfold Box*
 
 ## Installation
 
 Available in the [Addon manager](Std_AddonMgr.md).
 
-Forum topic   * [Macro for unfolding box surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4587).
+Forum topic: [Macro for unfolding box surfaces](http://forum.freecadweb.org/viewtopic.php?f=17&t=4587).
 
 ## Options
 
 -   Scale manually or automatically.
--   Page format   * A4/A3, cartridge (cf FreeCAD templates).
+-   Page format: A4/A3, cartridge (cf FreeCAD templates).
 -   Group drawings on the same page if possible.
 -   Sew the edges of the pieces or not.
 
@@ -59,14 +59,14 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 
 **Macro_unfoldBox.FCMacro**
 
-    # -*- coding   * utf-8 -*-
+    # -*- coding: utf-8 -*-
     """
     FreeCAD Macro unfoldBox.
 
     Unfolding of planar surfaces
     """
     ##################################################
-    # SEE https   *//wiki.freecadweb.org/Macro_Unfold_Box
+    # SEE https://wiki.freecadweb.org/Macro_Unfold_Box
     # ***************************************************************************
     # *                                                                         *
     # *   Copyright (c) 2013 - DoNovae/Herve BAILLY <hbl13@donovae.com>         *
@@ -96,8 +96,8 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
     __Version__ = '1.1'
     __Date__ = '2022-07-28'
     __License__ = 'LGPL-2.0-or-later'
-    __Web__ = 'https   *//wiki.freecad.org/Macro_Unfold_Box'
-    __Wiki__ = 'https   *//wiki.freecad.org/Macro_Unfold_Box'
+    __Web__ = 'https://wiki.freecad.org/Macro_Unfold_Box'
+    __Wiki__ = 'https://wiki.freecad.org/Macro_Unfold_Box'
     __Icon__ = ''
     __Help__ = ('Select surfaces, Explode them (cf Draft menu Downgrade), '
                 'Select the exploded surfaces, Execute the macro')
@@ -129,7 +129,7 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
     v1.0.1 (2020-03-10) - on wiki
     v1.0   (2013-09-14) - on wiki
 
-    note   *
+    note:
     - unfolding occasionally work as expected, but mostly not
     - anyone is free to improve functionality
 
@@ -158,18 +158,18 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
     #####################################
 
 
-    def errorDialog(msg)   *
+    def errorDialog(msg):
         diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical, 'Error Message', msg)
         diag.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         diag.exec_()
 
 
-    def proceed()   *
+    def proceed():
         QtGui.QApplication.setOverrideCursor(QtCore.Qt.WaitCursor)
 
         PrintMessage('===========================================\n')
-        PrintMessage('unfoldBox   * start.\n')
-        try   *
+        PrintMessage('unfoldBox: start.\n')
+        try:
             file_name = fields_l[0].text()
             makedwg = makedwg_check.isChecked()
             leglay = leglay_check.isChecked()
@@ -179,17 +179,17 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             cartridge = cartridge_check.isChecked()
             onedrawing = onedrawing_check.isChecked()
             sewed = sewed_check.isChecked()
-            PrintMessage('unfoldBox.file_name   * {}\n'.format(file_name))
-            PrintMessage('unfoldBox.makedwg   * {}\n'.format(makedwg))
-            PrintMessage('unfoldBox.leglay   * {}\n'.format(leglay))
-            PrintMessage('unfoldBox.scale   * {}\n'.format(scale))
-            PrintMessage('unfoldBox.scale_check   * {}\n'.format(scale_auto))
-            PrintMessage('unfoldBox.a3_check   * {}\n'.format(a3))
-            PrintMessage('unfoldBox.cartridge   * {}\n'.format(cartridge))
-            PrintMessage('unfoldBox.onedrawing   * {}\n'.format(onedrawing))
-            PrintMessage('unfoldBox.sewed   * {}\n'.format(sewed))
-        except   *
-            msg = 'unfoldBox   * wrong inputs...\n'
+            PrintMessage('unfoldBox.file_name: {}\n'.format(file_name))
+            PrintMessage('unfoldBox.makedwg: {}\n'.format(makedwg))
+            PrintMessage('unfoldBox.leglay: {}\n'.format(leglay))
+            PrintMessage('unfoldBox.scale: {}\n'.format(scale))
+            PrintMessage('unfoldBox.scale_check: {}\n'.format(scale_auto))
+            PrintMessage('unfoldBox.a3_check: {}\n'.format(a3))
+            PrintMessage('unfoldBox.cartridge: {}\n'.format(cartridge))
+            PrintMessage('unfoldBox.onedrawing: {}\n'.format(onedrawing))
+            PrintMessage('unfoldBox.sewed: {}\n'.format(sewed))
+        except:
+            msg = 'unfoldBox: wrong inputs...\n'
             PrintError(msg)
             errorDialog(msg)
 
@@ -198,142 +198,142 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 
         ## Get selection
         sel = FreeCADGui.Selection.getSelection()
-        if not sel or len(sel) < 2   *
-            PrintMessage('unfoldBox   * requires at least 2 selected faces, ending.\n')
+        if not sel or len(sel) < 2:
+            PrintMessage('unfoldBox: requires at least 2 selected faces, ending.\n')
             return
 
         doc = FreeCAD.ActiveDocument
 
         objnames_l=[]
-        grp = doc.addObject('App   *   *DocumentObjectGroup', str(file_name))
-        for objid in range(len(sel))   *
+        grp = doc.addObject('App::DocumentObjectGroup', str(file_name))
+        for objid in range(len(sel)):
             obj = Draft.make_clone(sel[objid])
             grp.addObject(obj)
             objnames_l.append([ obj, sel[objid].Name ])
 
         doc.recompute()
         unfold = unfoldBox(doc)
-        if sewed   *
+        if sewed:
             objnames_l = unfold.done(objnames_l)
             grp.addObject(objnames_l[0][0])
-        else   *
-            for objid in range(len(objnames_l))   *
+        else:
+            for objid in range(len(objnames_l)):
                 unfold.moveXY(objnames_l[objid][0])
 
-        if not makedwg   *
+        if not makedwg:
             return
 
-        if leglay   *
+        if leglay:
             idx = 0
-            while len(objnames_l) > 0   *
+            while len(objnames_l) > 0:
                 draw = Drawing2dLegacy(scale, scale_auto, a3,
                                        cartridge, onedrawing,
                                        doc.Name, 'Page'+str(idx))
                 objnames_l = draw.all_(objnames_l)
                 idx += 1
-                PrintMessage('unfoldBox   * obj_l= {}\n'.format(len(objnames_l)))
-        else   *
+                PrintMessage('unfoldBox: obj_l= {}\n'.format(len(objnames_l)))
+        else:
             draw = Drawing2d(scale, scale_auto, a3, cartridge)
             draw.drawpage(objnames_l[0], "{}Page".format(file_name))
 
-        PrintMessage('unfoldBox   * end.\n')
+        PrintMessage('unfoldBox: end.\n')
         PrintMessage('===========================================\n')
 
 
-    def close()   *
+    def close():
         DialogBox.hide()
 
 
-    def getType(obj)   *
+    def getType(obj):
         return type(obj).__name__
 
-    def mkmm(l)   *
+    def mkmm(l):
         return Units.Quantity(l, Units.Length)
 
-    class unfoldBox   *
-        def __init__(self, doc)   *
+    class unfoldBox:
+        def __init__(self, doc):
             PrintMessage('unfoldBox.unfoldBox\n')
             self.doc = doc
             self.LIMIT = 0.0001
 
-        def done(self, objnames_l)   *
+        def done(self, objnames_l):
             tree_l = self.makeTree(objnames_l)
-            for idx in range(len(objnames_l))   *
+            for idx in range(len(objnames_l)):
                 face = objnames_l[idx]
                 self.moveXY(face[0])
             self.sew(objnames_l, tree_l)
             return self.fusion(objnames_l)
 
-        def getEndPoints(self, edge)   *
+        def getEndPoints(self, edge):
             return [v.Point for v in edge.Vertexes]
 
-        def makeTree(self, objnames_l)   *
+        def makeTree(self, objnames_l):
             ## Initialisation of tree_l.
             tree_l = []
-            for k in range(len(objnames_l))   *
+            for k in range(len(objnames_l)):
                 facek = objnames_l[k][0]
                 facekEdges = facek.Shape.Edges
                 facek_l = []
-                for i in range(len(facekEdges))   *
-                    if False and getType(facekEdges[i].Curve) != 'GeomLineSegment'   *
+                for i in range(len(facekEdges)):
+                    if False and getType(facekEdges[i].Curve) != 'GeomLineSegment':
                         ## this is a no-op...
                         facek_l.append([-1, -1])
-                    else   *
+                    else:
                         ## Search face link to the ith edge
                         #vki0 = facekEdges[i].Curve.StartPoint
                         #vki1 = facekEdges[i].Curve.EndPoint
                         vki0, vki1 = self.getEndPoints(facekEdges[i])
                         found = False
-                        for l in range(k+1, len(objnames_l))   *
+                        for l in range(k+1, len(objnames_l)):
                             facel = objnames_l[l][0]
                             facelEdges = facel.Shape.Edges
-                            for j in range(len(facelEdges))   *
+                            for j in range(len(facelEdges)):
                                 #vlj0 = facelEdges[j].Curve.StartPoint
                                 #vlj1 = facelEdges[j].Curve.EndPoint
                                 vlj0, vlj1 = self.getEndPoints(facelEdges[j])
                                 if (vki0.isEqual(vlj0, self.LIMIT)
-                                    and vki1.isEqual(vlj1, self.LIMIT))   *
+                                    and vki1.isEqual(vlj1, self.LIMIT)):
                                     arelinked = False
                                     isfacek = isfacel = False
-                                    for kk in range(k-1)   *
-                                        for ii in range(len(tree_l[kk]))   *
+                                    for kk in range(k-1):
+                                        for ii in range(len(tree_l[kk])):
                                             isfacek = tree_l[kk][ii][0] == k
                                             isfacel = tree_l[kk][ii][0] == l
-                                        if isfacek and isfacel   *
+                                        if isfacek and isfacel:
                                             arelinked = True
                                             break
-                                    if not arelinked   *
+                                    if not arelinked:
                                         facek_l.append([l, j])
                                         found = True
                                         break
-                                if found   *
+                                if found:
                                     break
-                    if not found   *
+                    if not found:
                         facek_l.append([-1, -1])
                 tree_l.append(facek_l)
             return tree_l
 
-        def sew(self, objnames_l, tree_l)   *
+        def sew(self, objnames_l, tree_l):
             placed_l = []
-            for k in range(len(tree_l))   *
+            for k in range(len(tree_l)):
                 iskplaced = False
-                for p in range(len(placed_l))   *
+                for p in range(len(placed_l)):
                     iskplaced = placed_l[p] == k
-                if not iskplaced   *
+                if not iskplaced:
                     placed_l.append(k)
                 facek = tree_l[k]
                 objk = objnames_l[k][0]
-                for i in range(len(facek))   *
+                for i in range(len(facek)):
                     edgeki = facek[i]
-                    l, j = edgeki[   *2]
+                    l, j = edgeki[:2]
                     islplaced = False
-                    for p in range(len(placed_l))   *
-                        if placed_l[p] == l   *
+                    for p in range(len(placed_l)):
+                        if placed_l[p] == l:
                             islplaced = True
                             break
-                    if not islplaced   *
+                    if not islplaced:
                         placed_l.append(l)
-                    if l >= 0 and not (islplaced and iskplaced)   *
+                    if l >= 0 and not (islplaced and iskplaced):
                         iskplaced = True
                         ## Move facel.edgelj to facek.edgeki.
                         objl = objnames_l[l][0]
@@ -348,21 +348,21 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                         alpk = vk.getAngle(vl) * 180 / math.pi
                         alpl = vl.getAngle(vk) * 180 / math.pi
                         self.isPlanZ(objk)
-                        if islplaced   *
+                        if islplaced:
                             Draft.move(objk, vlj0.sub(vki0))
-                        else   *
+                        else:
                             Draft.move(objl, vki0.sub(vlj0))
                         self.isPlanZ(objk)
 
-                        if math.fabs(vk.dot(Vector(-vl.y, vl.x, 0))) > self.LIMIT   *
-                            if islplaced   *
+                        if math.fabs(vk.dot(Vector(-vl.y, vl.x, 0))) > self.LIMIT:
+                            if islplaced:
                                 Draft.rotate(objk, -alpl, vlj0, self.vecto(vl, vk))
-                            else   *
+                            else:
                                 Draft.rotate(objl, -alpk, vki0, self.vecto(vk, vl))
-                        elif vk.dot(vl) < 0   *
-                            if islplaced   *
+                        elif vk.dot(vl) < 0:
+                            if islplaced:
                                 Draft.rotate(objk, 180, vlj0, self.vecto(vl, Vector(-vl.y, vl.x, 0)))
-                            else   *
+                            else:
                                 Draft.rotate(objl, 180, vki0, self.vecto(vk, Vector(-vk.y, vk.x, 0)))
                         ## Verifications.
                         #vki0 = objk.Shape.Edges[i].Curve.StartPoint
@@ -380,22 +380,22 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                         L = max(bbl.XMax, bbk.XMax) - min(bbl.XMin, bbk.XMin)
                         W = max(bbl.YMax, bbk.YMax) - min(bbl.YMin, bbk.YMin)
                         S1 = L * W
-                        if islplaced   *
+                        if islplaced:
                             Draft.rotate(objk, 180, vlj0, vl)
-                        else   *
+                        else:
                             Draft.rotate(objl, 180, vki0, vk)
                         bbl, bbk = objl.Shape.BoundBox, objk.Shape.BoundBox
                         L = max(bbl.XMax, bbk.XMax) - min(bbl.XMin, bbk.XMin)
                         W = max(bbl.YMax, bbk.YMax) - min(bbl.YMin, bbk.YMin)
                         S2 = L * W
-                        if S2 <= S1   *
-                            if islplaced   *
+                        if S2 <= S1:
+                            if islplaced:
                                 Draft.rotate(objk, 180, vlj0, vl)
-                            else   *
+                            else:
                                 Draft.rotate(objl, 180, vki0, vk)
                         self.isPlanZ(objk)
 
-        def isPlanZ(self, obj)   *
+        def isPlanZ(self, obj):
             bb = obj.Shape.BoundBox
             L = bb.XMax - bb.XMin
             W = bb.YMax - bb.YMin
@@ -403,12 +403,12 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             return H < self.LIMIT
 
 
-        def fusion(self, objnames_l)   *
+        def fusion(self, objnames_l):
             ## Init.
             obj_l, objna_l =[], []
             obj0, name = objnames_l[0]
-            objfuse = self.doc.addObject('Part   *   *MultiFuse', 'Unfolding')
-            for k in range(len(objnames_l))   *
+            objfuse = self.doc.addObject('Part::MultiFuse', 'Unfolding')
+            for k in range(len(objnames_l)):
                 objk = objnames_l[k][0]
                 obj_l.append(objk)
 
@@ -417,21 +417,21 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             objna_l.append([objfuse, name])
             return objna_l
 
-        def get2Vectors(self, shape)   *
+        def get2Vectors(self, shape):
             """not used in v1.1"""
             v0, v1 = Vector(), Vector()
 
             edges = shape.Edges
-            for idx in range(len(edges) - 1)   *
+            for idx in range(len(edges) - 1):
                 e1, e2 = edges[idx], edges[idx + 1]
                 ## .EndPoint errors out...
                 va = e1.Curve.EndPoint.sub(e1.Curve.StartPoint)
                 vb = e2.Curve.EndPoint.sub(e2.Curve.StartPoint)
-                if vb.sub(va).Length > v1.sub(v0).Length   *
+                if vb.sub(va).Length > v1.sub(v0).Length:
                     v0, v1 = self.vect_copy(va), self.vect_copy(vb)
             return [v0, v1]
 
-        def vecto(self, vect1, vect2)   *
+        def vecto(self, vect1, vect2):
             '''Function vecto.'''
             v = Vector()
             v.x = vect1.y * vect2.z - vect1.z * vect2.y
@@ -439,18 +439,18 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             v.z = vect1.x * vect2.y - vect1.y * vect2.x
             return v
 
-        def vect_copy(self, vect)   *
+        def vect_copy(self, vect):
             '''Return a copy of vector.'''
             return vect.add(Vector())
 
-        def moveXY(self, obj)   *
+        def moveXY(self, obj):
             ## Move to origin
             bb = obj.Shape.BoundBox
             Draft.move(obj, Vector(-bb.XMin, -bb.YMin, -bb.ZMin))
 
             ## Find 2 vectors defining the plan of surface
             #tab = self.get2Vectors(obj.Shape)
-            #v0, v1 = tab[   *2]
+            #v0, v1 = tab[:2]
             #norm = self.vecto(v0, v1)
             #norm.normalize()
             ## above gives null vector, and errors out...
@@ -469,11 +469,11 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 
             ## Rotate.
             nx, ny, nz = (math.fabs(xyz) for xyz in norm)
-            if nx < self.LIMIT and nz < self.LIMIT   *
+            if nx < self.LIMIT and nz < self.LIMIT:
                 Draft.rotate(obj, 90, Vector(0, 0, 0), Vector(1, 0, 0))
-            elif ny < self.LIMIT and nz < self.LIMIT   *
+            elif ny < self.LIMIT and nz < self.LIMIT:
                 Draft.rotate(obj, 90, Vector(0, 0, 0), Vector(0, 1, 0))
-            else   *
+            else:
                 ## Rotate following the angle to the normal direction of the plan.
                 oz = Vector(0, 0, 1)
                 alp = oz.getAngle(norm) * 180 / math.pi
@@ -487,37 +487,37 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             Draft.move(obj, Vector(0, 0, -obj.Shape.BoundBox.ZMin))
 
 
-    class Scale   *
+    class Scale:
         """keeps autoscaling to integers"""
-        def __init__(self, scale)   *
+        def __init__(self, scale):
             self.scale = scale if scale >= 1 else 1 / scale
             self.scale = int(self.scale)
             self.inverted = scale >= 1
 
-        def get(self)   *
-            if self.inverted   *
-                return self.scale, '{}   *1'.format(self.scale)
-            else   *
-                return 1/self.scale, '1   *{}'.format(self.scale)
+        def get(self):
+            if self.inverted:
+                return self.scale, '{}:1'.format(self.scale)
+            else:
+                return 1/self.scale, '1:{}'.format(self.scale)
 
 
-    class Drawing2d   *
-        def __init__(self, scale, scale_auto, a3, cartridge)   *
+    class Drawing2d:
+        def __init__(self, scale, scale_auto, a3, cartridge):
             """techdraw based layout for one page only"""
             self.scale = scale
             self.scale_auto = scale_auto
             self.a3 = a3
             self.cartridge = cartridge
-            if a3   *
+            if a3:
                 self.WH = 420, 297
-            else   *
+            else:
                 self.WH = 297, 210
             self.doc = FreeCAD.ActiveDocument
 
-        def newPage(self, page_name)   *
+        def newPage(self, page_name):
             freecad_dir = os.path.join(FreeCAD.getResourceDir(), dwgtpl)
-            page = self.doc.addObject('TechDraw   *   *DrawPage', page_name)
-            template = self.doc.addObject('TechDraw   *   *DrawSVGTemplate', 'Template')
+            page = self.doc.addObject('TechDraw::DrawPage', page_name)
+            template = self.doc.addObject('TechDraw::DrawSVGTemplate', 'Template')
             size = 'A3' if self.a3 else 'A4'
             frame = 'TD' if self.cartridge else '_blank'
             template.Template = freecad_dir + '/{}_Landscape{}.svg'.format(size, frame)
@@ -525,13 +525,13 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 
             return page
 
-        def drawpage(self, objname, page_name)   *
+        def drawpage(self, objname, page_name):
             page = self.newPage(page_name)
             faceset, name = objname
 
             bb = faceset.Shape.BoundBox
             ## bb does not auto-update, have to pick up new bb after manipulation
-            if bb.YLength > bb.XLength   * ## auto rotate
+            if bb.YLength > bb.XLength: ## auto rotate
                 Draft.rotate(faceset, 90)
                 bb = faceset.Shape.BoundBox
 
@@ -546,14 +546,14 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             bb.scale(scale, scale, 1) ## faceset in xy-plane
 
 
-            TopView = self.doc.addObject('TechDraw   *   *DrawViewPart', 'TopView')
+            TopView = self.doc.addObject('TechDraw::DrawViewPart', 'TopView')
             page.addView(TopView)
             TopView.Source = faceset
             TopView.Direction = (0, 0, 1)
             TopView.XDirection = (1, 0, 0)
             TopView.Scale = scale
 
-            Text = self.doc.addObject('TechDraw   *   *DrawViewAnnotation', name)
+            Text = self.doc.addObject('TechDraw::DrawViewAnnotation', name)
             page.addView(Text)
             Text.Text = name
             Text.recompute() # for size
@@ -566,9 +566,9 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             FreeCADGui.runCommand('TechDraw_ToggleFrame', 0)
 
 
-    class Drawing2dLegacy   *
+    class Drawing2dLegacy:
         def __init__(self, scale, scale_auto, a3, cartridge, onedrawing,
-                     drawing_name, page_name)   *
+                     drawing_name, page_name):
             """Function __init__
 
             - scale
@@ -588,37 +588,37 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
             self.cartridge = cartridge
             self.onedrawing = onedrawing
             self.marge = 6
-            if self.a3   *
+            if self.a3:
                 self.L, self.H = 420, 297
-            else   *
+            else:
                 self.L, self.H = 297, 210
             self.page_name = page_name
             self.drawing_name = drawing_name
             self.doc = FreeCAD.ActiveDocument
 
-        def newPage(self)   *
+        def newPage(self):
             freecad_dir = os.path.join(FreeCAD.getResourceDir(), dwgtpllegacy)
-            page = self.doc.addObject('Drawing   *   *FeaturePage', self.page_name)
+            page = self.doc.addObject('Drawing::FeaturePage', self.page_name)
             size = 'A3' if self.a3 else 'A4'
             frame = '' if self.cartridge else '_plain'
             page.Template = freecad_dir + '/{}_Landscape{}.svg'.format(size, frame)
             return page
 
-        def all_(self, objnames_l)   *
+        def all_(self, objnames_l):
             obj_l = []
-            for objid in range(len(objnames_l))   *
-                if objid == 0 or not self.onedrawing   *
+            for objid in range(len(objnames_l)):
+                if objid == 0 or not self.onedrawing:
                     self.newPage()
                 obj_l.extend(self.done(objid, objnames_l[objid]))
             return obj_l
 
-        def done(self, id_, objname)   *
+        def done(self, id_, objname):
             ## Init.
             obj_l = []
             obj, objname = objname
             bb = obj.Shape.BoundBox
             xmax, ymax = bb.XMax - bb.XMin, bb.YMax - bb.YMin
-            if ymax > xmax   *
+            if ymax > xmax:
                 Draft.rotate(obj, 90)
                 bb = obj.Shape.BoundBox
 
@@ -629,12 +629,12 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 
             scale = min((self.L-4*self.marge) / xmax, (self.H-4*self.marge) / ymax)
 
-            if (not self.scale_auto) or (self.onedrawing)   *
+            if (not self.scale_auto) or (self.onedrawing):
                 scale = self.scale
 
-            if id_ == 0 or not self.onedrawing   *
+            if id_ == 0 or not self.onedrawing:
                 ## Init.
-                PrintMessage('Drawing2d   * init\n')
+                PrintMessage('Drawing2d: init\n')
                 self.TopX_H = self.TopY_H = self.marge * 2
                 TopX, TopY = self.TopX_H, self.TopY_H
                 self.TopX_H = self.TopX_H + xmax * scale + self.marge
@@ -646,11 +646,11 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                 self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
                 self.TopY_V = self.marge * 2
 
-            elif self.onedrawing   *
-                if self.TopX_H + xmax * scale < self.L   *
-                    if self.TopY_H + ymax * scale + self.marge*2 < self.H   *
+            elif self.onedrawing:
+                if self.TopX_H + xmax * scale < self.L:
+                    if self.TopY_H + ymax * scale + self.marge*2 < self.H:
                         ## H Add at right on same horizontal line.
-                        PrintMessage('Drawing2d   * horizontal\n')
+                        PrintMessage('Drawing2d: horizontal\n')
                         TopX, TopY = self.TopX_H, self.TopY_H
                         self.TopX_H = self.TopX_H + xmax * scale + self.marge
                         self.TopX_Hmax = max(self.TopX_Hmax, self.TopX_H)
@@ -659,11 +659,11 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                         self.TopX_Vmax = max(self.TopX_Hmax, self.TopX_Vmax)
                         self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
                         self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
-                    else   *
+                    else:
                         ## V Add at right on same horizontal line
-                        PrintMessage('Drawing2d   * vertival\n')
+                        PrintMessage('Drawing2d: vertival\n')
                         if (self.TopX_V + ymax * scale + 2 * self.marge < self.L
-                            and self.TopY_V + xmax * scale + 2*self.marge < self.H)   *
+                            and self.TopY_V + xmax * scale + 2*self.marge < self.H):
                             Draft.rotate(obj, 90)
                             bb = obj.Shape.BoundBox
                             Draft.move(obj, Vector(-bb.XMin, -bb.YMin, 0))
@@ -672,13 +672,13 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                             self.TopX_V = self.TopX_V + ymax * scale + self.marge
                             self.TopY_Vmax = max(self.TopY_Vmax,
                                                  self.TopY_V + xmax * scale + self.marge)
-                        else   *
+                        else:
                             obj_l.append([obj, 'name'])
                             return obj_l
-                else   *
+                else:
                     ## H Carriage return.
-                    if (self.TopY_Hmax + ymax * scale + self.marge*2 < self.H)   *
-                        msg = 'Drawing2d   * carriage return   * {} > {}\n'
+                    if (self.TopY_Hmax + ymax * scale + self.marge*2 < self.H):
+                        msg = 'Drawing2d: carriage return: {} > {}\n'
                         PrintMessage(msg.format(self.TopY_H + ymax * scale, self.H))
                         TopX = self.marge*2
                         TopY = self.TopY_Hmax
@@ -688,12 +688,12 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                         self.TopY_Hmax = self.TopY_Hmax + ymax*scale+self.marge
                         self.TopX_Vmax = max(self.TopX_Vmax, self.TopX_Hmax)
                         self.TopX_V = max(self.TopX_Vmax, self.TopX_V)
-                    else   *
+                    else:
                         ## V Add at right on same horizontal line.
-                        msg = 'Drawing2d   * vertical   * {}, {}\n'
+                        msg = 'Drawing2d: vertical: {}, {}\n'
                         PrintMessage(msg.format(self.TopX_V, self.TopX_Vmax))
                         if (self.TopX_V + ymax * scale + 2*self.marge < self.L
-                            and self.TopY_V + xmax * scale + 2*self.marge < self.H)   *
+                            and self.TopY_V + xmax * scale + 2*self.marge < self.H):
                             Draft.rotate(obj, 90)
                             bb = obj.Shape.BoundBox
                             Draft.move(obj, Vector(-bb.XMin, -bb.YMin, 0))
@@ -701,20 +701,20 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
                             self.TopX_V = self.TopX_V + ymax * scale + self.marge
                             self.TopY_Vmax = max(self.TopY_Vmax,
                                                  self.TopY_V + xmax * scale + self.marge)
-                        else   *
+                        else:
                             obj_l.append([obj, 'name'])
                             return obj_l
 
             page = self.doc.getObject(self.page_name)
 
             ## Drawing wb (untouched)
-            Text = self.doc.addObject('Drawing   *   *FeatureViewAnnotation', objname + '_txt')
+            Text = self.doc.addObject('Drawing::FeatureViewAnnotation', objname + '_txt')
             Text.Text = objname
             Text.X = TopX + xmax / 2 * scale
             Text.Y = TopY + ymax / 2 * scale
             Text.Scale = 7 if self.a3 else 5
 
-            TopView = self.doc.addObject('Drawing   *   *FeatureViewPart', 'TopView')
+            TopView = self.doc.addObject('Drawing::FeatureViewPart', 'TopView')
             TopView.Source = obj
             TopView.Direction = (0.0, 0.0, 1)
             TopView.Rotation = 0
@@ -743,7 +743,7 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
     la = QtGui.QVBoxLayout(DialogBox)
 
     # Input fields.
-    for id_ in range(len(fields))   *
+    for id_ in range(len(fields)):
         la.addWidget(QtGui.QLabel(fields[id_][0]))
         fields_l.append(QtGui.QLineEdit(fields[id_][1]))
         la.addWidget(fields_l[id_])

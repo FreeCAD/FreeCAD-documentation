@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Mirror
-   Name/ro   *Draft Mirror
-   MenuLocation   *Draft → Mirror
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso   *[Draft Scale](Draft_Scale/ro.md)
+- GuiCommand:/ro
+   Name:Draft Mirror
+   Name/ro:Draft Mirror
+   MenuLocation:Draft → Mirror
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   SeeAlso:[Draft Scale](Draft_Scale/ro.md)
 ---
 
 # Draft Mirror/ro
@@ -19,26 +19,26 @@
 
 ## Descriere
 
-Acest instrument produce o copie în oglindă a unui obiect selectat, utilizând un obiect [Mirror Object](Part_Mirror/ro.md). Copia este legată parametric de obiectul original   * dacă se modifică obiectul original, copia oglindă se modifică și ea, dar rămâne oglindită.
+Acest instrument produce o copie în oglindă a unui obiect selectat, utilizând un obiect [Mirror Object](Part_Mirror/ro.md). Copia este legată parametric de obiectul original: dacă se modifică obiectul original, copia oglindă se modifică și ea, dar rămâne oglindită.
 
 
 </div>
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
 
-<img alt="" src=images/Draft_Mirror_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Mirror_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -76,22 +76,22 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Properties
 
-See also   * [Property editor](property_editor.md).
+See also: [Property editor](property_editor.md).
 
-A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
--    **Source|Link**   * specifies the object that is mirrored.
+-    **Source|Link**: specifies the object that is mirrored.
 
 
 {{TitleProperty|Plane}}
@@ -101,9 +101,9 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 ## Proprietăți
 
--    **Base**   * Baza punctului planului de simetrie
+-    **Base**: Baza punctului planului de simetrie
 
--    **Normal**   * Direcția normală la planul de simetrie
+-    **Normal**: Direcția normală la planul de simetrie
 
 
 </div>
@@ -115,7 +115,7 @@ A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Fea
 
 ## Script-Programre 
 
-Unealta Clone poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare   *
+Unealta Clone poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 
 
 </div>
@@ -131,7 +131,7 @@ mirrored_list = mirror(objlist, p1, p2)
 <div class="mw-translate-fuzzy">
 
 -   Realizează oglinda (obiectelor) obiectului dat peste un plan definit de o linie de la p1 la p2 și paralel cu vizualizarea curentă
--   Rezultatul este un obiect `Part   *   *Mirroring`
+-   Rezultatul este un obiect `Part::Mirroring`
 -   Dacă obiectul original se modifică, obiectul final se schimbă și el, dar rămâne oglindit
 
 

@@ -1,23 +1,23 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar Dimensioning
-   MenuLocation   *Arch → Rebar
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   SeeAlso   *[Reinforcement Drawing](Arch_Rebar_Drawing.md), [Reinforcement Addon](Reinforcement_Addon.md)
-   Version   *0.19
+- GuiCommand:
+   Name:Arch Rebar Dimensioning
+   MenuLocation:Arch → Rebar
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   SeeAlso:[Reinforcement Drawing](Arch_Rebar_Drawing.md), [Reinforcement Addon](Reinforcement_Addon.md)
+   Version:0.19
 ---
 
 # Arch Rebar Dimensioning/de
 
-Please Note   * The below work is present in develop branch of Reinforcement workbench [here](https   *//github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
+Please Note: The below work is present in develop branch of Reinforcement workbench [here](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
 
 ## Beschreibung
 
 The [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md) tool allows the user to create dimensioning for reinforcing bars in [Reinforcement Drawing](Arch_Rebar_Drawing.md).
 
-This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width   *1000px;">
+<img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:1000px;">
 
 
 
@@ -33,11 +33,11 @@ from ReinforcementDrawing.make_reinforcement_drawing import (
     makeStructuresReinforcementDrawing,
 )
 
-for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
+for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
     struct_drawing_page_dict = makeStructuresReinforcementDrawing(
         view=view, perform_dimensioning=True
     )
-    for drawing_page in struct_drawing_page_dict.values()   *
+    for drawing_page in struct_drawing_page_dict.values():
         drawing_view = drawing_page.Views[0]
         drawing_view.setExpression(
             "LeftOffset",
@@ -58,74 +58,74 @@ A Rebar Dimensioning SVG View object.
 
 ### Eigenschaften
 
--    **ParentDrawingView**   * The parent ReinforcementDrawingView object containing drawing of [Rebar](Arch_Rebar.md) object.
+-    **ParentDrawingView**: The parent ReinforcementDrawingView object containing drawing of [Rebar](Arch_Rebar.md) object.
 
--    **Rebar**   * The [Rebar](Arch_Rebar.md) object to perform dimensioning.
+-    **Rebar**: The [Rebar](Arch_Rebar.md) object to perform dimensioning.
 
--    **WayPointsType**   * The WayPoints type of dimension line. It can be \"Automatic\" (to automatically perform dimensioning of [Rebar](Arch_Rebar.md) object) or \"Custom\" to use **WayPoints** to perform dimensioning.
+-    **WayPointsType**: The WayPoints type of dimension line. It can be \"Automatic\" (to automatically perform dimensioning of [Rebar](Arch_Rebar.md) object) or \"Custom\" to use **WayPoints** to perform dimensioning.
 
--    **WayPoints**   * A list of vector points to be used to generate dimension line.
+-    **WayPoints**: A list of vector points to be used to generate dimension line.
 
--    **TextPositionType**   * The position type of dimension text. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\".
+-    **TextPositionType**: The position type of dimension text. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\".
 
--    **DimensionFormat**   * The dimension label format.
+-    **DimensionFormat**: The dimension label format.
 
-   Example   * "%M %C⌀%D,span=%S"
-   Here   * %M -> Rebar.Mark
+   Example: "%M %C⌀%D,span=%S"
+   Here: %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
 
--    **Font**   * The font family of dimension label.
+-    **Font**: The font family of dimension label.
 
--    **FontSize**   * The font size of dimension label.
+-    **FontSize**: The font size of dimension label.
 
--    **StrokeWidth**   * The stroke width of dimension line.
+-    **StrokeWidth**: The stroke width of dimension line.
 
--    **LineStyle**   * The stroke style of dimension line. It can be \"Continuous\", \"Dash\", \"Dot\", \"DashDot\" or \"DashDotDot\".
+-    **LineStyle**: The stroke style of dimension line. It can be \"Continuous\", \"Dash\", \"Dot\", \"DashDot\" or \"DashDotDot\".
 
--    **LineColor**   * The color of dimension line.
+-    **LineColor**: The color of dimension line.
 
--    **TextColor**   * The color of dimension label.
+-    **TextColor**: The color of dimension label.
 
--    **LineStartSymbol**   * The start symbol of dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
+-    **LineStartSymbol**: The start symbol of dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
 
--    **LineEndSymbol**   * The end symbol of dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
+-    **LineEndSymbol**: The end symbol of dimension line. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\".
 
--    **LineMidPointSymbol**   * The mid points symbol of dimension line. It can be \"Tick\", \"Dot\" or \"None\".
+-    **LineMidPointSymbol**: The mid points symbol of dimension line. It can be \"Tick\", \"Dot\" or \"None\".
 
--    **DimensionLeftOffset**   * The left offset for automated reinforcement dimensioning.
+-    **DimensionLeftOffset**: The left offset for automated reinforcement dimensioning.
 
--    **DimensionRightOffset**   * The right offset for automated reinforcement dimensioning.
+-    **DimensionRightOffset**: The right offset for automated reinforcement dimensioning.
 
--    **DimensionTopOffset**   * The top offset for automated reinforcement dimensioning.
+-    **DimensionTopOffset**: The top offset for automated reinforcement dimensioning.
 
--    **DimensionBottomOffset**   * The bottom offset for automated reinforcement dimensioning.
+-    **DimensionBottomOffset**: The bottom offset for automated reinforcement dimensioning.
 
--    **SingleRebar_LineStartSymbol**   * The dimension line start symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_LineStartSymbol**: The dimension line start symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **SingleRebar_LineEndSymbol**   * The dimension line end symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_LineEndSymbol**: The dimension line end symbol, in case of single rebar is visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_LineStartSymbol**   * The dimension line start symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_LineStartSymbol**: The dimension line start symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_LineEndSymbol**   * The dimension line end symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_LineEndSymbol**: The dimension line end symbol, in case of multiple rebars are visible. It can be \"FilledArrow\", \"Tick\", \"Dot\" or \"None\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **SingleRebar_OuterDimension**   * It specifies if dimension lines are to be outside of reinforcement drawing, in case of single rebar is visible. It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_OuterDimension**: It specifies if dimension lines are to be outside of reinforcement drawing, in case of single rebar is visible. It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_OuterDimension**   * It specifies if dimension lines are to be outside of reinforcement drawing, in case of multiple rebars are visible. It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_OuterDimension**: It specifies if dimension lines are to be outside of reinforcement drawing, in case of multiple rebars are visible. It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **SingleRebar_TextPositionType**   * It specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **SingleRebar_TextPositionType**: It specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
--    **MultiRebar_TextPositionType**   * It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
+-    **MultiRebar_TextPositionType**: It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
 ## Skripten
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md), [Reinforcement Drawing](Arch_Rebar_Drawing.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions   *
+The [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following functions:
 
 ### Create Reinforcement Dimensioning Object 
 
@@ -166,12 +166,12 @@ dimension_object = makeReinforcementDimensioningObject(
 
 -    `parent_drawing_view`is the `ReinforcementDrawingView` object containing drawing of `rebar` object.
 
--    `drawing_page`is the object of type TechDraw   *   *DrawPage used to show `parent_drawing_view`.
+-    `drawing_page`is the object of type TechDraw::DrawPage used to show `parent_drawing_view`.
 
 -    `dimension_label_format`is the format used for dimension label.
 
-   Example   * "%M %C⌀%D,span=%S"
-   Here   * %M -> Rebar.Mark
+   Example: "%M %C⌀%D,span=%S"
+   Here: %M -> Rebar.Mark
          %C -> Rebar.Amount
          %D -> Rebar.Diameter
          %S -> Rebar span length
@@ -186,7 +186,7 @@ dimension_object = makeReinforcementDimensioningObject(
 
 -    `dimension_line_color`is the color of dimension line.
 
-   Format   * (r, g, b)
+   Format: (r, g, b)
    r, g, b value should be between 0 to 1, so you may need to divide value of r, g, b by 255 to get its value between 0 to 1
    Make sure r, g, b must be float
 
@@ -320,7 +320,7 @@ makeReinforcementDimensioningObject(
 )
 
 # Create Reinforcement Dimensioning for all visible rebars in drawing view
-for visible_rebar in visible_rebars   *
+for visible_rebar in visible_rebars:
     makeReinforcementDimensioningObject(
         visible_rebar,
         parent_drawing_view,
@@ -347,14 +347,6 @@ for visible_rebar in visible_rebars   *
         dimension_multi_rebar_text_position_type="MidOfLine",
     )
 ```
-
-
-
-
-
-
-
-[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

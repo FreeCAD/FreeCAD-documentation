@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Acesta este un scurt tutorial pentru cei nou veniți în Python. [Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29) is an open-source, multiplatform [programming language](http   *//en.wikipedia.org/wiki/Programming_language). Python are mai multe caracteristici care o fac foarte diferită de alte limbaje și este foarte accesibil utilizatorilor noi ca tine   *
+Acesta este un scurt tutorial pentru cei nou veniți în Python. [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29) is an open-source, multiplatform [programming language](http://en.wikipedia.org/wiki/Programming_language). Python are mai multe caracteristici care o fac foarte diferită de alte limbaje și este foarte accesibil utilizatorilor noi ca tine:
 
 
 </div>
@@ -43,7 +43,7 @@ De obicei, când scrieți programe de calculator, deschideți pur și simplu un 
 
 <div class="mw-translate-fuzzy">
 
-Întregul proces, în Python, poate fi făcut transparent în interiorul interpretrului Python. Interpretorul este o fereastră Python cu un prompt de comandă, unde puteți introduce pur și simplu codul Python. Dacă instalați Python pe computerul dvs. (descărcați-l din [Python website](http   *//www.python.org) dacă sunteți pe Windows sau Mac, instalați-l din depozitul de pachete dacă sunteți pe GNU / Linux), veți avea un interpretor Python în meniul de pornire. Însă FreeCAD are și un interpretor Python în fereastra inferioară   *
+Întregul proces, în Python, poate fi făcut transparent în interiorul interpretrului Python. Interpretorul este o fereastră Python cu un prompt de comandă, unde puteți introduce pur și simplu codul Python. Dacă instalați Python pe computerul dvs. (descărcați-l din [Python website](http://www.python.org) dacă sunteți pe Windows sau Mac, instalați-l din depozitul de pachete dacă sunteți pe GNU / Linux), veți avea un interpretor Python în meniul de pornire. Însă FreeCAD are și un interpretor Python în fereastra inferioară:
 
 
 </div>
@@ -69,7 +69,7 @@ De obicei, când scrieți programe de calculator, deschideți pur și simplu un 
 
 <div class="mw-translate-fuzzy">
 
-Interpretorul arată versiune Python, apoi un simbol \>\>\> , care este promptul comenzii, chiar așa, unde introduceți codul Python. Scrierea unui cod în interpretor este simplă   * o linie este o instrucțiune. Când apăsați Enter, linia de cod va fi executată (după ce a fost compilată instant și netransparent pentru user). De exemplu, încercați să scrieți acest lucru   *
+Interpretorul arată versiune Python, apoi un simbol \>\>\> , care este promptul comenzii, chiar așa, unde introduceți codul Python. Scrierea unui cod în interpretor este simplă: o linie este o instrucțiune. Când apăsați Enter, linia de cod va fi executată (după ce a fost compilată instant și netransparent pentru user). De exemplu, încercați să scrieți acest lucru:
 
 
 </div>
@@ -82,7 +82,7 @@ print("hello")
 
 <div class="mw-translate-fuzzy">
 
-print este un cuvânt cheie în Python care înseamnă ca, bineînțeles, că printezi ceva pe ecran. Când apeși Enter, operația este executată , și mesajul \"hello\" este afișat. Dacă faci o greșeală, să scriem de exemplu   *
+print este un cuvânt cheie în Python care înseamnă ca, bineînțeles, că printezi ceva pe ecran. Când apeși Enter, operația este executată , și mesajul \"hello\" este afișat. Dacă faci o greșeală, să scriem de exemplu:
 
 
 </div>
@@ -103,7 +103,7 @@ Python îți va spune că nu știe ce este hello . Ghilimelele \" spun despre co
 
 <div class="mw-translate-fuzzy">
 
-Interpretorul Python dispune de asemenea de un sistem integrat de help. Încercați să tastați   *
+Interpretorul Python dispune de asemenea de un sistem integrat de help. Încercați să tastați:
 
 
 </div>
@@ -137,7 +137,7 @@ Acum că stăpânim total interpretorul nostru , putem începe lucrurile serioas
 
 <div class="mw-translate-fuzzy">
 
-Desigur, tipărirea lui \"hello\" nu este foarte interesantă. Mai interesant este să imprimați lucruri pe care nu le cunoșteați înainte sau să lăsați Python să le găsească pentru dvs. Aici vine conceptul de variabilă. O variabilă este pur și simplu o valoare pe care o stocați sub un nume. De exemplu, tastați   *
+Desigur, tipărirea lui \"hello\" nu este foarte interesantă. Mai interesant este să imprimați lucruri pe care nu le cunoșteați înainte sau să lăsați Python să le găsească pentru dvs. Aici vine conceptul de variabilă. O variabilă este pur și simplu o valoare pe care o stocați sub un nume. De exemplu, tastați:
 
 
 </div>
@@ -151,7 +151,7 @@ print(a)
 
 <div class="mw-translate-fuzzy">
 
-Presupun că ați înțeles ce sa întâmplat, am \"salvat\" șirul \"hello\" într-o variabilă care poartă numele \"a\". Acum, \"a\" nu mai este un nume necunoscut! Putem să o folosim oriunde, de exemplu în comanda de afișare pe ecran. Putem folosi orice nume dorim, trebuie doar să urmați câteva reguli simple, cum ar fi nu folosiți spații sau punctuație. De exemplu, am putea scrie   *
+Presupun că ați înțeles ce sa întâmplat, am \"salvat\" șirul \"hello\" într-o variabilă care poartă numele \"a\". Acum, \"a\" nu mai este un nume necunoscut! Putem să o folosim oriunde, de exemplu în comanda de afișare pe ecran. Putem folosi orice nume dorim, trebuie doar să urmați câteva reguli simple, cum ar fi nu folosiți spații sau punctuație. De exemplu, am putea scrie:
 
 
 </div>
@@ -165,7 +165,7 @@ print(hello)
 
 <div class="mw-translate-fuzzy">
 
-Vedeți? acum hello nu mai este un cuvânt nedefinit. Dacă, printr-un ghinion teribil, alegem un nume care există deja în Python? Să presupunem că dorim să stocăm șirul nostru sub numele \"print\"   *
+Vedeți? acum hello nu mai este un cuvânt nedefinit. Dacă, printr-un ghinion teribil, alegem un nume care există deja în Python? Să presupunem că dorim să stocăm șirul nostru sub numele \"print\":
 
 
 </div>
@@ -181,7 +181,7 @@ print(myVariable)
 
 <div class="mw-translate-fuzzy">
 
-Noi am schimbat valoarea myVariable. Putem copia de asemenea variabile   *
+Noi am schimbat valoarea myVariable. Putem copia de asemenea variabile:
 
 
 </div>
@@ -225,7 +225,7 @@ Desigur, trebuie să știți că programarea este utilă pentru a trata toate ti
 
 <div class="mw-translate-fuzzy">
 
-Întotdeauna putem verifica tipul de date al unei variabile folosind cuvântul cheie special Python type()   *
+Întotdeauna putem verifica tipul de date al unei variabile folosind cuvântul cheie special Python type():
 
 
 </div>
@@ -255,7 +255,7 @@ type(firstNumber)
 
 <div class="mw-translate-fuzzy">
 
-Acest lucru este mult mai interesant, nu-i așa? Acum avem un calculator puternic! Uită-te la cât de bine funcționează, Python știe că 10 și 20 sunt numere întregi. Deci, ele sunt stocate ca \"int\", iar Python poate face cu ele tot ce poate face cu numere întregi. Uită-te la rezultatele de acest lucru   *
+Acest lucru este mult mai interesant, nu-i așa? Acum avem un calculator puternic! Uită-te la cât de bine funcționează, Python știe că 10 și 20 sunt numere întregi. Deci, ele sunt stocate ca \"int\", iar Python poate face cu ele tot ce poate face cu numere întregi. Uită-te la rezultatele de acest lucru:
 
 
 </div>
@@ -270,7 +270,7 @@ print(firstNumber + secondNumber)
 
 <div class="mw-translate-fuzzy">
 
-Vedeți? L-am forțat pe Python să considere că cele două variabile nu sunt numere, ci simple piese de text. Python poate adăuga două bucăți de text împreună, dar nu va încerca să afle nici o sumă. Dar am vorbit despre numere întregi. Există și numere cu virgulă. Diferența este că numerele întregi nu au o parte zecimală, în timp ce numerele cu virgulă flotantă pot avea o parte zecimală   *
+Vedeți? L-am forțat pe Python să considere că cele două variabile nu sunt numere, ci simple piese de text. Python poate adăuga două bucăți de text împreună, dar nu va încerca să afle nici o sumă. Dar am vorbit despre numere întregi. Există și numere cu virgulă. Diferența este că numerele întregi nu au o parte zecimală, în timp ce numerele cu virgulă flotantă pot avea o parte zecimală:
 
 
 </div>
@@ -286,7 +286,7 @@ print("var2 is of type ", type(var2))
 
 <div class="mw-translate-fuzzy">
 
-Int și Floats pot fi amestecate fără probleme   *
+Int și Floats pot fi amestecate fără probleme:
 
 
 </div>
@@ -301,7 +301,7 @@ print(type(total))
 
 <div class="mw-translate-fuzzy">
 
-Desigur, totalul are zecimale, nu? Apoi, Python a decis automat că rezultatul este un număr cuzecimale. În mai multe cazuri, cum ar fi acesta, Python decide automat ce tip este de utilizat. În alte cazuri, nu. De exemplu   *
+Desigur, totalul are zecimale, nu? Apoi, Python a decis automat că rezultatul este un număr cuzecimale. În mai multe cazuri, cum ar fi acesta, Python decide automat ce tip este de utilizat. În alte cazuri, nu. De exemplu:
 
 
 </div>
@@ -316,7 +316,7 @@ print(varA + varB)
 
 <div class="mw-translate-fuzzy">
 
-Acest lucru ne va da o eroare, varA este un șir și varB este un int, iar Python nu știe ce să facă. Cu toate acestea, putem forța Python să convertească între tipuri   *
+Acest lucru ne va da o eroare, varA este un șir și varB este un int, iar Python nu știe ce să facă. Cu toate acestea, putem forța Python să convertească între tipuri:
 
 
 </div>
@@ -331,7 +331,7 @@ print(varA + str(varB))
 
 <div class="mw-translate-fuzzy">
 
-Acum, ambele sunt șiruri, operația funcționează! Rețineți că am \"convetit\" varB în șir la momentul afișării, dar nu am schimbat varB în sine. Dacă vrem să transformăm varB permanent într-un șir, ar trebui să o facem așa   *
+Acum, ambele sunt șiruri, operația funcționează! Rețineți că am \"convetit\" varB în șir la momentul afișării, dar nu am schimbat varB în sine. Dacă vrem să transformăm varB permanent într-un șir, ar trebui să o facem așa:
 
 
 </div>
@@ -344,7 +344,7 @@ varB = str(varB)
 
 <div class="mw-translate-fuzzy">
 
-Putem de asemenea să utilizăm int() și float() pentru a converti în întreg și cu virgulă mobilă dacă dorim   *
+Putem de asemenea să utilizăm int() și float() pentru a converti în întreg și cu virgulă mobilă dacă dorim:
 
 
 </div>
@@ -373,7 +373,7 @@ print(type(varA))
 
 <div class="mw-translate-fuzzy">
 
-avem exact același rezultat. Asta pentru că suntem în interpretor și totul este afișat automat. Când scriem programe mai complexe care rulează în afara interpretorului, nu se vor imprima automat, deci va trebui să folosim comanda de afișare. De acum încolo, haideți să-l oprim aici, va merge mai repede. Deci putem scrie pur și simplu   *
+avem exact același rezultat. Asta pentru că suntem în interpretor și totul este afișat automat. Când scriem programe mai complexe care rulează în afara interpretorului, nu se vor imprima automat, deci va trebui să folosim comanda de afișare. De acum încolo, haideți să-l oprim aici, va merge mai repede. Deci putem scrie pur și simplu:
 
 
 </div>
@@ -392,7 +392,7 @@ myVar
 
 <div class="mw-translate-fuzzy">
 
-Un alt tip de date interesant este formată de către liste. O listă este pur și simplu o colecție de alte date. În același mod în care definim un șir de text folosind \"\", definim o listă folosind \[\]   *
+Un alt tip de date interesant este formată de către liste. O listă este pur și simplu o colecție de alte date. În același mod în care definim un șir de text folosind \"\", definim o listă folosind \[\]:
 
 
 </div>
@@ -408,7 +408,7 @@ myMixedList = ["hello", 345, 34.567]
 
 <div class="mw-translate-fuzzy">
 
-Vedeți că poate conține orice tip de date. Listele sunt foarte utile deoarece puteți grupa împreună variabilele. Puteți face apoi tot felul de lucruri din cadrul grupului, de exemplu, numărarea acestora   *
+Vedeți că poate conține orice tip de date. Listele sunt foarte utile deoarece puteți grupa împreună variabilele. Puteți face apoi tot felul de lucruri din cadrul grupului, de exemplu, numărarea acestora:
 
 
 </div>
@@ -421,7 +421,7 @@ len(myOtherList)
 
 <div class="mw-translate-fuzzy">
 
-sau recuperarea unui articol dintr-o listă   *
+sau recuperarea unui articol dintr-o listă:
 
 
 </div>
@@ -435,7 +435,7 @@ myFriendsName = myOtherList[1]
 
 <div class="mw-translate-fuzzy">
 
-Veți vedea că în timp ce comanda len () returnează numărul total de elemente dintr-o listă, poziția lor din listă începe cu 0. Primul element dintr-o listă este întotdeauna la poziția 0, așa că în \"myOtherList\", \"Bob\" va fi în poziția 2. Putem face mult mai mult cu listele, puteți citi [here](http   *//www.diveintopython.net/native_data_types/lists.html), ca de exemplu sortarea conținutului, ștergerea sau adăugarea elementelor.
+Veți vedea că în timp ce comanda len () returnează numărul total de elemente dintr-o listă, poziția lor din listă începe cu 0. Primul element dintr-o listă este întotdeauna la poziția 0, așa că în \"myOtherList\", \"Bob\" va fi în poziția 2. Putem face mult mai mult cu listele, puteți citi [here](http://www.diveintopython.net/native_data_types/lists.html), ca de exemplu sortarea conținutului, ștergerea sau adăugarea elementelor.
 
 
 </div>
@@ -443,7 +443,7 @@ Veți vedea că în timp ce comanda len () returnează numărul total de element
 
 <div class="mw-translate-fuzzy">
 
-Un lucru amuzant și interesant este acela că   * un șir de text este foarte asemănător cu o listă de caractere! Încercați să faceți acest lucru   *
+Un lucru amuzant și interesant este acela că: un șir de text este foarte asemănător cu o listă de caractere! Încercați să faceți acest lucru:
 
 
 </div>
@@ -466,7 +466,7 @@ De obicei, ceea ce puteți face cu listele se poate face și cu șiruri de carac
 
 <div class="mw-translate-fuzzy">
 
-Outside strings, ints, floats and lists, există mai multe tipuri de date încorporate, cum ar fi [dictionaries](http   *//www.diveintopython.net/native_data_types/index.html#d0e5174), sau care le puteți crea ca pe propriile tipuri de date cu [classes](http   *//www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm).
+Outside strings, ints, floats and lists, există mai multe tipuri de date încorporate, cum ar fi [dictionaries](http://www.diveintopython.net/native_data_types/index.html#d0e5174), sau care le puteți crea ca pe propriile tipuri de date cu [classes](http://www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm).
 
 
 </div>
@@ -479,7 +479,7 @@ Outside strings, ints, floats and lists, există mai multe tipuri de date încor
 
 <div class="mw-translate-fuzzy">
 
-O mare utilizare rece a listelor este, de asemenea, navigarea prin ele și să facă ceva cu fiecare element. De exemplu, uitați-vă la acest lucru   *
+O mare utilizare rece a listelor este, de asemenea, navigarea prin ele și să facă ceva cu fiecare element. De exemplu, uitați-vă la acest lucru:
 
 
 </div>
@@ -487,14 +487,14 @@ O mare utilizare rece a listelor este, de asemenea, navigarea prin ele și să f
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for dalton in alldaltons   *
+for dalton in alldaltons:
     print(dalton + " Dalton")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Am iterat(jargonul informatic) prin lista noastră cu comanda \"for \... in \...\" și am făcut ceva cu fiecare dintre ele. Rețineți sintaxa specială   * comanda **for** se termină cu **   *** indicând că următorul lucru va fi un bloc al uneia sau mai multor comenzi. În interpretor, imediat după ce ați introdus linia de comandă care se termină cu   *, promptul de comandă se va schimba la \... Notați sintaxa particulară a buclei , comanda se termină cu un \"    * \" ceea ce indică lui Python că urmarea va fi un bloc de una sau mai multe comenzi.
+Am iterat(jargonul informatic) prin lista noastră cu comanda \"for \... in \...\" și am făcut ceva cu fiecare dintre ele. Rețineți sintaxa specială: comanda **for** se termină cu **:** indicând că următorul lucru va fi un bloc al uneia sau mai multor comenzi. În interpretor, imediat după ce ați introdus linia de comandă care se termină cu:, promptul de comandă se va schimba la \... Notați sintaxa particulară a buclei , comanda se termină cu un \" : \" ceea ce indică lui Python că urmarea va fi un bloc de una sau mai multe comenzi.
 
 
 </div>
@@ -518,7 +518,7 @@ Indentarea este cool, deoarece ajută la lizibilitatea programului. Dacă utiliz
 
 <div class="mw-translate-fuzzy">
 
-Comenzile for-in pot fi folosite pentru mai multe lucruri care trebuie efectuate mai mult decât o dată. Acesta poate fi, de exemplu, combinat cu comanda range()   *
+Comenzile for-in pot fi folosite pentru mai multe lucruri care trebuie efectuate mai mult decât o dată. Acesta poate fi, de exemplu, combinat cu comanda range():
 
 
 </div>
@@ -528,7 +528,7 @@ Comenzile for-in pot fi folosite pentru mai multe lucruri care trebuie efectuate
 serie = range(1, 11)
 total = 0
 print("sum")
-for number in serie   *
+for number in serie:
     print(number)
     total = total + number
 print("")
@@ -546,7 +546,7 @@ print(total)
 
 <div class="mw-translate-fuzzy">
 
-Dacă veți tasta în interpretor **help(range)** veți vedea   * 
+Dacă veți tasta în interpretor **help(range)** veți vedea: 
 ```python
 range(...)
     range(stop) -> list of integers
@@ -563,19 +563,19 @@ range(...)
     range(start, stop[, step]) -> list of integers
 ```
 
-Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`   *
+Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`:
 
 
 ```python
 number = 1000
-for i in range(0, 180 * number, int(0.5 * number))   *
+for i in range(0, 180 * number, int(0.5 * number)):
     print(float(i) / number)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Sau lucruri mai complexe ca de exemplu   *
+Sau lucruri mai complexe ca de exemplu:
 
 
 </div>
@@ -583,14 +583,14 @@ Sau lucruri mai complexe ca de exemplu   *
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for n in range(4)   *
+for n in range(4):
     print(alldaltons[n], " is Dalton number ", n)
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Vedeți că și comanda range () are acea particularitate ciudată că începe cu 0 (dacă nu specificați numărul de început) și că ultimul său număr va fi unul mai mic decât numărul de sfârșit pe care îl specificați. Aceasta este, bineînțeles, așa pentru că funcționează bine cu alte comenzi Python. De exemplu   *
+Vedeți că și comanda range () are acea particularitate ciudată că începe cu 0 (dacă nu specificați numărul de început) și că ultimul său număr va fi unul mai mic decât numărul de sfârșit pe care îl specificați. Aceasta este, bineînțeles, așa pentru că funcționează bine cu alte comenzi Python. De exemplu:
 
 
 </div>
@@ -599,14 +599,14 @@ Vedeți că și comanda range () are acea particularitate ciudată că începe c
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
 total = len(alldaltons)
-for n in range(total)   *
+for n in range(total):
     print(alldaltons[n])
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-O altă utilizare interesantă a blocurilor indentate este cu comanda if. IF execută un bloc de cod numai dacă o anumită condiție este îndeplinită, de exemplu   *
+O altă utilizare interesantă a blocurilor indentate este cu comanda if. IF execută un bloc de cod numai dacă o anumită condiție este îndeplinită, de exemplu:
 
 
 </div>
@@ -614,21 +614,21 @@ O altă utilizare interesantă a blocurilor indentate este cu comanda if. IF exe
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Joe" in alldaltons   *
+if "Joe" in alldaltons:
     print("We found that Dalton!!!")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-Desigur, aceasta va imprima întotdeauna prima propoziție, dar încercați să înlocuiți a doua linie prin   *
+Desigur, aceasta va imprima întotdeauna prima propoziție, dar încercați să înlocuiți a doua linie prin:
 
 
 </div>
 
 
 ```python
-if "Lucky" in alldaltons   *
+if "Lucky" in alldaltons:
 ```
 
 
@@ -636,7 +636,7 @@ if "Lucky" in alldaltons   *
 
 Apoi nimic nu este afișat. De asemenea, putem specifica o altă afirmație
 
-   *   
+:   
 
 
 </div>
@@ -644,9 +644,9 @@ Apoi nimic nu este afișat. De asemenea, putem specifica o altă afirmație
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Lucky" in alldaltons   *
+if "Lucky" in alldaltons:
     print("We found that Dalton!!!")
-else   *
+else:
     print("Such Dalton doesn't exist!")
 ```
 
@@ -658,14 +658,14 @@ else   *
 
 <div class="mw-translate-fuzzy">
 
-Sunt câteva comenzi standard [standard Python commands](http   *//docs.python.org/reference/lexical_analysis.html#identifiers). În versiunea actuală a Python, există aproximativ 30, iar noi deja știm mai multe dintre ele. Dar imaginați-vă dacă am putea să ne inventăm propriile comenzi? Ei bine, putem, și este extrem de ușor. De fapt, majoritatea modulelor suplimentare pe care le puteți conecta la instalarea dvs. Python faceți exact acest lucru, adăugând comenzi pe care le puteți utiliza. O comandă personalizată în Python se numește o funcție și se face astfel   *
+Sunt câteva comenzi standard [standard Python commands](http://docs.python.org/reference/lexical_analysis.html#identifiers). În versiunea actuală a Python, există aproximativ 30, iar noi deja știm mai multe dintre ele. Dar imaginați-vă dacă am putea să ne inventăm propriile comenzi? Ei bine, putem, și este extrem de ușor. De fapt, majoritatea modulelor suplimentare pe care le puteți conecta la instalarea dvs. Python faceți exact acest lucru, adăugând comenzi pe care le puteți utiliza. O comandă personalizată în Python se numește o funcție și se face astfel:
 
 
 </div>
 
 
 ```python
-def printsqm(myValue)   *
+def printsqm(myValue):
     print(str(myValue) + " square meters")
 
 printsqm(45)
@@ -674,7 +674,7 @@ printsqm(45)
 
 <div class="mw-translate-fuzzy">
 
-Extrem de simplu   * comanda def () definește o nouă funcție. Dă-i un nume, iar în paranteză definiți argumente pe care le vom folosi în funcția noastră. Argumentele sunt date care vor fi transmise funcției. De exemplu, uitați-vă la comanda len (). Dacă scrieți len () singur, Python vă va spune că are nevoie de un argument. Asta este, vrei len () ceva, nu? Apoi, de exemplu, veți scrie len (myList) și veți obține lungimea myList. Ei bine, lista mea este un argument să-l treci la funcția len (). Funcția len () este definită astfel încât să știe ce să facă cu ceea ce este transmis acesteia. La fel cum am făcut aici.
+Extrem de simplu: comanda def () definește o nouă funcție. Dă-i un nume, iar în paranteză definiți argumente pe care le vom folosi în funcția noastră. Argumentele sunt date care vor fi transmise funcției. De exemplu, uitați-vă la comanda len (). Dacă scrieți len () singur, Python vă va spune că are nevoie de un argument. Asta este, vrei len () ceva, nu? Apoi, de exemplu, veți scrie len (myList) și veți obține lungimea myList. Ei bine, lista mea este un argument să-l treci la funcția len (). Funcția len () este definită astfel încât să știe ce să facă cu ceea ce este transmis acesteia. La fel cum am făcut aici.
 
 
 </div>
@@ -682,7 +682,7 @@ Extrem de simplu   * comanda def () definește o nouă funcție. Dă-i un nume, 
 
 <div class="mw-translate-fuzzy">
 
-Numele \"myValue\" poate fi orice, și va fi utilizat numai în interiorul funcției rexpective. Este doar un nume pe care îl oferiți argumentului, astfel încât să puteți face ceva cu el, dar servește și pentru a spune funcției câte argumente să așteptați. De exemplu, dacă faceți acest lucru   *
+Numele \"myValue\" poate fi orice, și va fi utilizat numai în interiorul funcției rexpective. Este doar un nume pe care îl oferiți argumentului, astfel încât să puteți face ceva cu el, dar servește și pentru a spune funcției câte argumente să așteptați. De exemplu, dacă faceți acest lucru:
 
 
 </div>
@@ -695,14 +695,14 @@ printsqm(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-Va exista o eroare. Funcția noastră a fost programată să primească un singur argument, dar a primit două, 45 și 34. Am putea să facem ceva în felul următor   *
+Va exista o eroare. Funcția noastră a fost programată să primească un singur argument, dar a primit două, 45 și 34. Am putea să facem ceva în felul următor:
 
 
 </div>
 
 
 ```python
-def sum(val1, val2)   *
+def sum(val1, val2):
     total = val1 + val2
     return total
 
@@ -712,7 +712,7 @@ myTotal = sum(45, 34)
 
 <div class="mw-translate-fuzzy">
 
-Am făcut o funcție care primește două argumente, le însumează și returnează acea valoare. Returnarea a ceva este foarte utilă, deoarece putem face ceva cu rezultatul, cum ar fi stocarea în variabila myTotal. Bineînțeles, din moment ce suntem în interpretor și totul este afișat, faci   *
+Am făcut o funcție care primește două argumente, le însumează și returnează acea valoare. Returnarea a ceva este foarte utilă, deoarece putem face ceva cu rezultatul, cum ar fi stocarea în variabila myTotal. Bineînțeles, din moment ce suntem în interpretor și totul este afișat, faci:
 
 
 </div>
@@ -725,7 +725,7 @@ Am făcut o funcție care primește două argumente, le însumează și returnea
 
 <div class="mw-translate-fuzzy">
 
-Acum că avem o idee completă de cum lucrează Python, vom avea nevoie de un ultim lucru   * Cum să lucrăm cu fișiere și cu module.
+Acum că avem o idee completă de cum lucrează Python, vom avea nevoie de un ultim lucru: Cum să lucrăm cu fișiere și cu module.
 
 
 </div>
@@ -733,7 +733,7 @@ Acum că avem o idee completă de cum lucrează Python, vom avea nevoie de un ul
 
 <div class="mw-translate-fuzzy">
 
-Până acum, am scris linii de instrucțiuni Python în linie în interpretor, nu-i așa? Dacă am putea scrie câteva rânduri împreună și le-am fi executat imediat? Cu siguranță ar fi mai ușor să facem lucruri mai complexe. Și ne-am putea salva munca. Și asta este extrem de ușor. Pur și simplu deschideți un editor de text (cum ar fi notepad-ul din Windows, sub Linux   * gedit, emacs sau vi) și scrieți toate liniile dvs. Python, la fel cum le scrieți în interpretor, cu indentări etc. , Apoi salvați fișierul undeva, de preferință cu o extensie .py. Asta e, aveți un program Python complet. Desigur, există editori mult mai buni decât notepad-ul, dar aceasta este doar să vă arătăm că un program Python nu este altceva decât un fișier text.
+Până acum, am scris linii de instrucțiuni Python în linie în interpretor, nu-i așa? Dacă am putea scrie câteva rânduri împreună și le-am fi executat imediat? Cu siguranță ar fi mai ușor să facem lucruri mai complexe. Și ne-am putea salva munca. Și asta este extrem de ușor. Pur și simplu deschideți un editor de text (cum ar fi notepad-ul din Windows, sub Linux: gedit, emacs sau vi) și scrieți toate liniile dvs. Python, la fel cum le scrieți în interpretor, cu indentări etc. , Apoi salvați fișierul undeva, de preferință cu o extensie .py. Asta e, aveți un program Python complet. Desigur, există editori mult mai buni decât notepad-ul, dar aceasta este doar să vă arătăm că un program Python nu este altceva decât un fișier text.
 
 
 </div>
@@ -741,14 +741,14 @@ Până acum, am scris linii de instrucțiuni Python în linie în interpretor, n
 
 <div class="mw-translate-fuzzy">
 
-Pentru a face Python să execute acel program, există sute de moduri. În Windows, pur și simplu faceți clic dreapta pe fișierul dvs., deschideți-l cu Python și executați-l. Dar o puteți executa și din interpretorul Python. Pentru aceasta, interpretorul trebuie să știe unde este programul dvs. .py. În FreeCAD, cel mai simplu mod este să plasați programul într-un loc în care interpretul Python al FreeCAD îl cunoaște în mod implicit, ca de exemplu FreeCAD\'s bin folder, sau orice folder Mod. (In Linux, aveți probabil un director /home//.FreeCAD/Mod, haideți să-i adăugăm un subdirector to that called scripts unde vom pune fișierul text.) Presupunem că scriem fișierul de maniera   *
+Pentru a face Python să execute acel program, există sute de moduri. În Windows, pur și simplu faceți clic dreapta pe fișierul dvs., deschideți-l cu Python și executați-l. Dar o puteți executa și din interpretorul Python. Pentru aceasta, interpretorul trebuie să știe unde este programul dvs. .py. În FreeCAD, cel mai simplu mod este să plasați programul într-un loc în care interpretul Python al FreeCAD îl cunoaște în mod implicit, ca de exemplu FreeCAD\'s bin folder, sau orice folder Mod. (In Linux, aveți probabil un director /home//.FreeCAD/Mod, haideți să-i adăugăm un subdirector to that called scripts unde vom pune fișierul text.) Presupunem că scriem fișierul de maniera:
 
 
 </div>
 
 
 ```python
-def sum(a,b)   *
+def sum(a,b):
     return a + b
 
 print("myTest.py succesfully loaded")
@@ -757,7 +757,7 @@ print("myTest.py succesfully loaded")
 
 <div class="mw-translate-fuzzy">
 
-Și noi salvăm asta ca pe myTest.py în direcotrul nostru FreeCAD/bin directory (sau în Linux la /home//.FreeCAD/Mod/scripts.) Acum , hai să pornim FreeCAD, și în fereastra interpretorului, scrie    *
+Și noi salvăm asta ca pe myTest.py în direcotrul nostru FreeCAD/bin directory (sau în Linux la /home//.FreeCAD/Mod/scripts.) Acum , hai să pornim FreeCAD, și în fereastra interpretorului, scrie :
 
 
 </div>
@@ -770,7 +770,7 @@ import myTest
 
 <div class="mw-translate-fuzzy">
 
-fără extensia .py . Aceasta va executa pur și simplu conținutul fișierului, linie cu linie, ca și cum l-am fi scris în interpret. Se va crea funcția sumă, iar mesajul va fi imprimat. Există o mare diferență   * comanda de import este făcută nu numai pentru a executa programe scrise în fișiere, ca și pentru ale noastre, dar și pentru a încărca funcțiile din interior, astfel încât acestea să devină disponibile în interpretor. Fișierele care conțin funcții, precum cele ale noastre, sunt numite module.
+fără extensia .py . Aceasta va executa pur și simplu conținutul fișierului, linie cu linie, ca și cum l-am fi scris în interpret. Se va crea funcția sumă, iar mesajul va fi imprimat. Există o mare diferență: comanda de import este făcută nu numai pentru a executa programe scrise în fișiere, ca și pentru ale noastre, dar și pentru a încărca funcțiile din interior, astfel încât acestea să devină disponibile în interpretor. Fișierele care conțin funcții, precum cele ale noastre, sunt numite module.
 
 
 </div>
@@ -778,7 +778,7 @@ fără extensia .py . Aceasta va executa pur și simplu conținutul fișierului,
 
 <div class="mw-translate-fuzzy">
 
-În mod normal când scrii o funcție sum() in interpreter, noi o executăm simplu ca   *
+În mod normal când scrii o funcție sum() in interpreter, noi o executăm simplu ca:
 
 
 </div>
@@ -791,7 +791,7 @@ sum(14, 45)
 
 <div class="mw-translate-fuzzy">
 
-La el am făcut și noi. Atunci când importăm un modul care conține funcția sum(), sintaxa este puțin diferită. Noi facem   *
+La el am făcut și noi. Atunci când importăm un modul care conține funcția sum(), sintaxa este puțin diferită. Noi facem:
 
 
 </div>
@@ -812,7 +812,7 @@ Asta e, modulul este importat ca un \"container\", și cu toate funcțiile sale 
 
 <div class="mw-translate-fuzzy">
 
-De asemenea, putem importa funcția sum() direct în spațiul principal al interpretorului, astfel   *
+De asemenea, putem importa funcția sum() direct în spațiul principal al interpretorului, astfel:
 
 
 </div>
@@ -826,7 +826,7 @@ sum(12, 54)
 
 <div class="mw-translate-fuzzy">
 
-Practic, toate modulele se comportă așa. Importați un modul, apoi puteți utiliza funcțiile sale   * module.function(argument). Aproape toate modulele fac acest lucru   * definesc funcții, noi tipuri de date și clase pe care le puteți utiliza în interpretor sau în propriile module Python, deoarece nimic nu vă împiedică să importați alte module în modulul dvs.!
+Practic, toate modulele se comportă așa. Importați un modul, apoi puteți utiliza funcțiile sale: module.function(argument). Aproape toate modulele fac acest lucru: definesc funcții, noi tipuri de date și clase pe care le puteți utiliza în interpretor sau în propriile module Python, deoarece nimic nu vă împiedică să importați alte module în modulul dvs.!
 
 
 </div>
@@ -834,7 +834,7 @@ Practic, toate modulele se comportă așa. Importați un modul, apoi puteți uti
 
 <div class="mw-translate-fuzzy">
 
-Un ultim lucru extrem de util. Cum știm ce module avem, ce funcții există și cum să le folosim (adică, ce argumente au nevoie)? Am văzut deja că Python are o funcție help(). Face   *
+Un ultim lucru extrem de util. Cum știm ce module avem, ce funcții există și cum să le folosim (adică, ce argumente au nevoie)? Am văzut deja că Python are o funcție help(). Face:
 
 
 </div>
@@ -882,7 +882,7 @@ print(math.sin.__doc__)
 
 <div class="mw-translate-fuzzy">
 
-Și în cele din urmă o bombonică   * Când lucrăm la un modul nou sau existent, este mai bine să înlocuiți extensia de fișier cu py cum ar fi   * myModule.FCMacro =\> myModule.py. Vrem adesea să o testeze astfel încât să o încărcăm ca mai sus.
+Și în cele din urmă o bombonică: Când lucrăm la un modul nou sau existent, este mai bine să înlocuiți extensia de fișier cu py cum ar fi: myModule.FCMacro =\> myModule.py. Vrem adesea să o testeze astfel încât să o încărcăm ca mai sus.
 
 
 </div>
@@ -896,14 +896,14 @@ importlib.reload(myTest)
 
 <div class="mw-translate-fuzzy">
 
-Cu toate acestea, există două alternative   * în cadrul macro-ului se utilizează funcțiile exec sau execfile ale lui Python.
+Cu toate acestea, există două alternative: în cadrul macro-ului se utilizează funcțiile exec sau execfile ale lui Python.
 
 
 </div>
 
 
 ```python
-exec(open("C   */PathToMyMacro/myMacro.FCMacro").read())
+exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
 
@@ -930,7 +930,7 @@ dir()
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
--   Much more information about Python can be found in the [official Python tutorial](https   *//docs.python.org/3/tutorial/index.html) and the [official Python reference](https   *//docs.python.org/3/reference/).
+-   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
 
 {{Top}}
@@ -943,11 +943,6 @@ dir()
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

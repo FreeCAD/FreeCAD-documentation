@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Draft Snap Endpoint
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso   *[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
+- GuiCommand:
+   Name:Draft Snap Endpoint
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
 # Draft Snap Endpoint/zh-cn

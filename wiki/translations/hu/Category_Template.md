@@ -1,9 +1,7 @@
 # Category:Template/hu
 This category contains all templates.
 
-See also [UncategorizedTemplates](Special   *UncategorizedTemplates/hu.md).
-
-[Category   *Categories/hu](Category   *Categories/hu.md)
+See also [UncategorizedTemplates](Special:UncategorizedTemplates/hu.md).
 
 ### Contents
 

@@ -1,25 +1,25 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Wall
-   Name/it   *Muro
-   MenuLocation   *Architettura → Muro
-   Workbenches   *[Architettura](Arch_Workbench/it.md)
-   Shortcut   ***W** **A**
-   SeeAlso   *[Struttura](Arch_Structure/it.md)
+- GuiCommand:/it
+   Name:Arch Wall
+   Name/it:Muro
+   MenuLocation:Architettura → Muro
+   Workbenches:[Architettura](Arch_Workbench/it.md)
+   Shortcut:**W** **A**
+   SeeAlso:[Struttura](Arch_Structure/it.md)
 ---
 
 # Arch Wall/it
 
 ## Descrizione
 
-Questo strumento crea un oggetto Muro utilizzando come base una [forma](Part_Workbench/it.md) o oggetto [mesh](Mesh_Workbench/it.md). Un muro può essere costruito anche senza alcun oggetto di base, nel qual caso si comporta come un *volume cubico*, utilizzando le proprietà lunghezza, larghezza e altezza. Quando è costruito usando una forma esistente, un muro può essere basato su   *
+Questo strumento crea un oggetto Muro utilizzando come base una [forma](Part_Workbench/it.md) o oggetto [mesh](Mesh_Workbench/it.md). Un muro può essere costruito anche senza alcun oggetto di base, nel qual caso si comporta come un *volume cubico*, utilizzando le proprietà lunghezza, larghezza e altezza. Quando è costruito usando una forma esistente, un muro può essere basato su:
 
 -   Un **oggetto lineare 2D**, come ad esempio una linea, un arco, una spezzata o uno schizzo, in questo caso è possibile modificarne lo spessore, l\'allineamento (a destra, a sinistra o al centro) e l\'altezza. La proprietà length non ha alcun effetto.
 -   Una **faccia** o una superficie piana, nel qual caso si può modificare solo l\'altezza. Le proprietà Lunghezza e larghezza non hanno alcun effetto. Se la faccia di base è verticale, invece, il muro utilizza la proprietà larghezza invece di altezza, e consente di costruire pareti usando lo spazio come oggetto o studi della massa.
 -   Un **solido**, nel qual caso non è possibile cambiare nulla. Il muro utilizza semplicemente il solido base come sua forma.
 -   Un **mesh**, nel qual caso il mesh deve essere un solido chiuso, cioè un solido manifold.
 
-<img alt="" src=images/Arch_Wall_example.jpg  style="width   *780px;"> 
+<img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
 *Pareti costruite su un segmento, su una spezzata, su una faccia, su un solido e su uno schizzo.*
 
 Agli oggetti Muro si possono anche applicare *Aggiunte* o *Sottrazioni*. Le Aggiunte sono altri oggetti le cui forme sono unite alla forma Muro in lavorazione, mentre le Sottrazioni sono forme che vengono eliminate.
@@ -64,58 +64,58 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 
 Con i muri dell\'ambiente Arch l\'aggancio funziona un po\' diversamente da come funziona con gli altri oggetti di Arch e di Draft. Quando un muro è basato su un oggetto l\'aggancio crea un ancoraggio all\'oggetto base, e non alla geometria muro, consentendo di allineare facilmente i muri tramite le loro linee base. Quando invece si desidera agganciare la geometria muro, premere **Ctrl** per trasferire l\'ancoraggio all\'oggetto muro.
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;"> 
+<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Seconda parete che si collega perpendicolarmente alla prima*
 
 ## Proprietà
 
-Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.md), e hanno anche le seguenti proprietà supplementari   *
+Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.md), e hanno anche le seguenti proprietà supplementari:
 
--    {{ProprietaDati|Align}}   * L\'allineamento del muro sulla sua linea di base   * a sinistra, a destra o al centro
+-    {{ProprietaDati|Align}}: L\'allineamento del muro sulla sua linea di base: a sinistra, a destra o al centro
 
--    {{ProprietaDati|Base}}   * L\'oggetto di base su cui è costruito il muro
+-    {{ProprietaDati|Base}}: L\'oggetto di base su cui è costruito il muro
 
--    {{ProprietaDati|Face}}   * L\'indice della faccia dell\'oggetto base da usare. Se il valore non è impostato o è 0, viene utilizzato l\'intero oggetto
+-    {{ProprietaDati|Face}}: L\'indice della faccia dell\'oggetto base da usare. Se il valore non è impostato o è 0, viene utilizzato l\'intero oggetto
 
--    {{ProprietaDati|Force Wire}}   * Se è True, e il muro si basa su una faccia, viene usato solo il perimetro della faccia, ottenendo un muro confinante con la faccia
+-    {{ProprietaDati|Force Wire}}: Se è True, e il muro si basa su una faccia, viene usato solo il perimetro della faccia, ottenendo un muro confinante con la faccia
 
--    {{ProprietaDati|Length}}   * La lunghezza del muro (non utilizzato quando il muro è basato su un oggetto)
+-    {{ProprietaDati|Length}}: La lunghezza del muro (non utilizzato quando il muro è basato su un oggetto)
 
--    {{ProprietaDati|Width}}   * La larghezza del muro (non utilizzato quando il muro è basato su una faccia).
+-    {{ProprietaDati|Width}}: La larghezza del muro (non utilizzato quando il muro è basato su una faccia).
 
--    {{ProprietaDati|Height}}   * L\'altezza del muro (non utilizzato quando il muro è basato su un solido). Se non viene data l\'altezza e il muro è inserito in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, il muro assume automaticamente il valore dell\'altezza del piano.
+-    {{ProprietaDati|Height}}: L\'altezza del muro (non utilizzato quando il muro è basato su un solido). Se non viene data l\'altezza e il muro è inserito in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, il muro assume automaticamente il valore dell\'altezza del piano.
 
--    {{ProprietaDati|Normal}}   * La direzione di estrusione per il muro. Se è impostata a (0,0,0), la direzione di estrusione è automatica.
+-    {{ProprietaDati|Normal}}: La direzione di estrusione per il muro. Se è impostata a (0,0,0), la direzione di estrusione è automatica.
 
--    {{ProprietaDati|Offset}}   * Specifica la distanza tra il muro e la sua linea base. Funziona solo se la proprietà Align è impostata a destra o a sinistra.
+-    {{ProprietaDati|Offset}}: Specifica la distanza tra il muro e la sua linea base. Funziona solo se la proprietà Align è impostata a destra o a sinistra.
 
 
 {{Version/it|0.18}}
 
--    {{PropertyData/it|Make Blocks}}   * Abilita questo per far sì che il muro generi blocchi
+-    {{PropertyData/it|Make Blocks}}: Abilita questo per far sì che il muro generi blocchi
 
--    {{PropertyData/it|Block Length}}   * La lunghezza di ciascun blocco
+-    {{PropertyData/it|Block Length}}: La lunghezza di ciascun blocco
 
--    {{PropertyData/it|Block Height}}   * L\'altezza di ogni blocco
+-    {{PropertyData/it|Block Height}}: L\'altezza di ogni blocco
 
--    {{PropertyData/it|Offset First}}   * L\'offset orizzontale della prima riga di blocchi
+-    {{PropertyData/it|Offset First}}: L\'offset orizzontale della prima riga di blocchi
 
--    {{PropertyData/it|Offset Second}}   * L\'offset orizzontale della seconda riga di blocchi
+-    {{PropertyData/it|Offset Second}}: L\'offset orizzontale della seconda riga di blocchi
 
--    {{PropertyData/it|Joint}}   * La dimensione delle articolazioni tra ciascun blocco
+-    {{PropertyData/it|Joint}}: La dimensione delle articolazioni tra ciascun blocco
 
--    {{PropertyData/it|Count Entire}}   * Il numero di interi blocchi (sola lettura)
+-    {{PropertyData/it|Count Entire}}: Il numero di interi blocchi (sola lettura)
 
--    {{PropertyData/it|Count Broken}}   * Il numero di blocchi interrotti (sola lettura)
+-    {{PropertyData/it|Count Broken}}: Il numero di blocchi interrotti (sola lettura)
 
 ## Scripting
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Muro può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Muro può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python
@@ -130,7 +130,7 @@ Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Cente
 
 -   Se l\'operazione fallisce restituisce `None`.
 
-Esempio   *
+Esempio:
 
 
 ```python

@@ -1,8 +1,6 @@
 # Category:Std Base
 This category list pages related to the [Std Base](Std_Base.md), which collects commands from the base system which do not belong to any of the workbenches.
 
-[Category   *User_Documentation](Category_User_Documentation.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,8 +1,6 @@
 # Category:Poweruser Documentation/bg
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-[Category   *Documentation/bg](Category   *Documentation/bg.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher External
-   Name/pl   *Szkicownik   * Geometria zewnętrzna
-   MenuLocation   *Szkic → Elementy geometryczne szkicownika → Geometria zewnętrzna
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut   ***X**
-   SeeAlso   *[Tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
+- GuiCommand:/pl
+   Name:Sketcher External
+   Name/pl:Szkicownik: Geometria zewnętrzna
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Geometria zewnętrzna
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**X**
+   SeeAlso:[Tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
 ---
 
 # Sketcher External/pl
@@ -14,14 +14,14 @@
 
 Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> [Geometria zewnętrzna](Sketcher_External/pl.md)** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
 
-Ostrzeżenie   * użycie tego narzędzia do łączenia z wygenerowaną geometrią *(bryłą)* może prowadzić do nieoczekiwanych wyników z powodu [Problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md). Zobacz również [Porady dotyczące tworzenia stabilnych modeli](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md).
+Ostrzeżenie: użycie tego narzędzia do łączenia z wygenerowaną geometrią *(bryłą)* może prowadzić do nieoczekiwanych wyników z powodu [Problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md). Zobacz również [Porady dotyczące tworzenia stabilnych modeli](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md).
 
-<FILE   *Sketcher_ExternalEsempio1.png>
+<FILE:Sketcher_ExternalEsempio1.png>
 
 ## Użycie
 
 -   Utwórz nowy szkic lub otwórz istniejący szkic.
--   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width   *16px"> [Geometria zewnętrzna](Sketcher_External/pl.md)**.
+-   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width:16px"> [Geometria zewnętrzna](Sketcher_External/pl.md)**.
 -   Wybierz krawędź lub wierzchołek, do którego chcesz łączyć w szkicu.
 -   Naciśnij klawisz **Esc** lub wybierz inne narzędzie, aby zatrzymać importowanie geometrii do szkicu.
 
@@ -63,15 +63,15 @@ Poniżej znajduje się szkic zmapowawany na górną ścianę bryły utworzonej z
 
 W tym przypadku są one używane jako referencje dla wiązań stycznych z obwodami jednego okręgu. Są one również używane jako referencje dla wiązania poziomego i pionowego w celu umiejscowienia środka drugiego okręgu względem końca i góry Wyciągnięcia.
 
-<FILE   *Sketcher_ExternalEsempio2.png>
+<FILE:Sketcher_ExternalEsempio2.png>
 
 To jest ten sam szkic w trybie edycji, z ukrytym wyciągnięciem, na którym jest on zmapowany.
 
-<FILE   *Sketcher_ExternalEsempio4.png>
+<FILE:Sketcher_ExternalEsempio4.png>
 
 Gdy edycja szkicu jest zamknięta, zewnętrzne linie Geometrii nie są widoczne.
 
-<FILE   *Sketcher_ExternalEsempio3.png>
+<FILE:Sketcher_ExternalEsempio3.png>
 
 
 

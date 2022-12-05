@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw ToggleFrame
-   Name/de   *TechDraw UmschaltenRahmen
-   MenuLocation   *TechDraw → Ansichtsrahmen ein-/ausschalten
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso   *[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
+- GuiCommand:/de
+   Name:TechDraw ToggleFrame
+   Name/de:TechDraw UmschaltenRahmen
+   MenuLocation:TechDraw → Ansichtsrahmen ein-/ausschalten
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw ToggleFrame/de
@@ -13,7 +13,7 @@
 
 Das Werkzeug schaltet die Umrandungen in den Ansichten und Anmerkungen, sowie die Anzeige der Fangpunkte usw. ein oder aus.
 
-<img alt="" src=images/TechDraw_ToggleFrame.png  style="width   *400px;"> 
+<img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
 *links Umrandung eingeschaltet, rechts Umrandung ausgeschaltet*
 
 ## Anwendung
@@ -33,7 +33,7 @@ Du kannst die Größe der Knotenpunkte im [TechDraw Einstellungen/Maßstabs Reit
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 

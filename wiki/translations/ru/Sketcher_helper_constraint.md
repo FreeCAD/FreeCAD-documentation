@@ -1,7 +1,7 @@
 # Sketcher helper constraint/ru
 ## Overview
 
-<img alt="Example of a helper constraint (Constraint5 - point on circle) for a tangent constraint (Constraint6; in tangent-via-point mode). Only one helper constraint is used in this case, since the point of tangency is the endpoint of ellipse\'s major diameter, which inherently lies on the ellipse." src=images/Sketcher_helper_constraint_example1.png  style="width   *500px;">
+<img alt="Example of a helper constraint (Constraint5 - point on circle) for a tangent constraint (Constraint6; in tangent-via-point mode). Only one helper constraint is used in this case, since the point of tangency is the endpoint of ellipse\'s major diameter, which inherently lies on the ellipse." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">
 
 Helper constraint is a regular sketcher constraint that is needed as a part of a more complex constraint, but is exposed in user interface to assist dealing with redundancy. For example, for [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md) constraint, the two lines that represent rays of light need to be connected ([coincident constraint](Sketcher_ConstrainCoincident.md)), and the joint must lie on the interface ([Point On Object constraint](Sketcher_ConstrainPointOnObject.md)).
 
@@ -9,7 +9,7 @@ Helper constraints are added automatically when they are needed. The decision fo
 
 If this happens (a helper constraint is missing, and the required conditions is not satisfied otherwise), the complex constraint will be broken. It will do something, but the actual behavior is undefined. Such a broken constraint can be repaired by adding the missing helper constraint manually.
 
-Helper constraints are currently required for   *
+Helper constraints are currently required for:
 
 -   [Constraint Tangent](Sketcher_ConstrainTangent.md) (in tangent-via-point mode; two point-on-object constraints are needed)
 -   [Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md) (in perpendicular-via-point mode; two point-on-object constraints are needed)
@@ -18,7 +18,7 @@ Helper constraints are currently required for   *
 
 ## Scripting
 
-When constraints requiring helpers are added from Python, no helper constraints are automatically added. One can replicate the automatic decision-making of the UI commands in a script by testing the following functions, specifically added for the purpose and used in the UI routines   * 
+When constraints requiring helpers are added from Python, no helper constraints are automatically added. One can replicate the automatic decision-making of the UI commands in a script by testing the following functions, specifically added for the purpose and used in the UI routines: 
 ```python
 Sketch.isPointOnCurve(icurve,x,y)
 ``` isPointOnCurve tests if a virtual point, given by sketch coordinates x,y (float values), happens to satisfy a virtual point-on-object constraint - i.e. lies on curve specified by curve index icurve. Returns True if the point is on curve, and False if it doesn\'t.

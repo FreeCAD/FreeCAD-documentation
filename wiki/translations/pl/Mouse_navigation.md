@@ -11,20 +11,20 @@ Więcej informacji na temat manipulowania obiektami znajdziesz na stronie [Przem
 
 ## Wybór stylu nawigacji 
 
-1.  Wykonaj jedną z następujących czynności   *
-    -   Naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width   *16px">** na pasku [Statusu](Status_bar/pl.md)
+1.  Wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width:16px">** na pasku [Statusu](Status_bar/pl.md)
     -   Kliknij prawym przyciskiem myszy pusty obszar w oknie [widoku 3D](3D_view/pl.md), a następnie wybierz **Style nawigacji** z menu kontekstowego.
     -   Użyj [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md). W menu wybierz **Edycja → Preferencje**, a następnie **Wyświetlanie → Nawigacja → Styl nawigacji w przestrzeni 3D**.
 2.  Wybierz styl z listy.
-3.  Opcjonalnie zmień styl **Techniki orbitalnej**   * naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width   *24px">** w pasku [Statusu](Status_bar/pl.md), a następnie wybierz **Ustawienia  → Technika orbitalna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
+3.  Opcjonalnie zmień styl **Techniki orbitalnej**: naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width:24px">** w pasku [Statusu](Status_bar/pl.md), a następnie wybierz **Ustawienia  → Technika orbitalna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 4.  Opcjonalnie zmień **Tryb obracania**. Zobacz [Edytor preferencji](Preferences_Editor/pl.md).
-5.  Jeśli wybrano styl nawigacji **CAD**   * opcjonalnie zmień ustawienie **Włącz animację**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
+5.  Jeśli wybrano styl nawigacji **CAD**: opcjonalnie zmień ustawienie **Włącz animację**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 
 ## Dostępne style nawigacji 
 
 ### Blender
 
-Styl nawigacji Blendera był wzorowany na [Blender](https   *//www.blender.org).
+Styl nawigacji Blendera był wzorowany na [Blender](https://www.blender.org).
 
 
 {{Blender Navigation
@@ -58,17 +58,17 @@ Jest to domyślny styl nawigacji. Pozwala on użytkownikowi na prostą kontrolę
 
 Przytrzymanie przycisku **Ctrl** umożliwia wybór wielu obiektów.
 |Pan_text=Trzymając wciśnięty środkowy przycisk myszy, przesuń kursor.
-|Pan_mode_text=Tryb przesuwania   * przytrzymaj wciśnięty klawisz **Ctrl**, naciśnij raz prawy przycisk myszy, a następnie przesuń wskaźnik.
+|Pan_mode_text=Tryb przesuwania: przytrzymaj wciśnięty klawisz **Ctrl**, naciśnij raz prawy przycisk myszy, a następnie przesuń wskaźnik.
 |Zoom_text=Użyj rolki myszy, aby przybliżyć lub oddalić widok.
 
 Kliknięcie środkowego przycisku myszy ponownie wyśrodkowuje widok na pozycję kursora.
-|Zoom_mode_text=Tryb powiększania   * Przytrzymaj wciśnięty klawisz **Ctrl** oraz **Shift** Naciśnij jednokrotnie prawy przycisk myszy, a następnie przesuń wskaźnik.
+|Zoom_mode_text=Tryb powiększania: Przytrzymaj wciśnięty klawisz **Ctrl** oraz **Shift** Naciśnij jednokrotnie prawy przycisk myszy, a następnie przesuń wskaźnik.
 |Rotate_view_text=Przytrzymaj wciśnięty środkowy przycisk myszy, a następnie przytrzymaj wciśnięty lewy przycisk myszy, kolejnie przesuń kursor.
 
 Jeśli przyciski zostaną zwolnione przed zatrzymaniem ruchu myszy, obracanie widoku jest kontynuowane, jeśli opcja ta jest włączona.
 
 Podwójne kliknięcie środkowym przyciskiem myszy ustawia nowy punkt obrotu.
-|Rotate_view_mode_text=Tryb obracania   * Przytrzymaj klawisz **Shift**, naciśnij raz prawy przycisk myszy, a następnie przesuń kursor.
+|Rotate_view_mode_text=Tryb obracania: Przytrzymaj klawisz **Shift**, naciśnij raz prawy przycisk myszy, a następnie przesuń kursor.
 |Rotate_view_alt_text=Przytrzymaj środkowy przycisk myszy, a następnie naciśnij i przytrzymaj prawy przycisk myszy, po czym przesuń kursor.
 
 W tej metodzie środkowy przycisk myszy może zostać puszczony po naciśnięciu prawego przycisku myszy.
@@ -129,7 +129,7 @@ Opcjonalnie można użyć kółka myszy, aby powiększyć lub pomniejszyć obraz
 
 ### OpenCascade
 
-Styl nawigacji OpenCascade był wzorowany na [OpenCascade](https   *//www.opencascade.com/).
+Styl nawigacji OpenCascade był wzorowany na [OpenCascade](https://www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -148,7 +148,7 @@ Ewentualnie przytrzymaj klawisz **Ctrl** i lewy przycisk myszy, a następnie prz
 
 ### OpenInventor
 
-Nawigacja OpenInventor *(dawniej Inventor)* została wymodelowana na podstawie [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor). Aby móc wybrać obiekty kursorem myszki, należy dodatkowo przytrzymać klawisz **Shift** lub **Ctrl**.
+Nawigacja OpenInventor *(dawniej Inventor)* została wymodelowana na podstawie [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Aby móc wybrać obiekty kursorem myszki, należy dodatkowo przytrzymać klawisz **Shift** lub **Ctrl**.
 
 Ten styl nie jest oparty na nawigacji Autodesk Inventor.
 
@@ -170,7 +170,7 @@ Alternatywnie można przytrzymać środkowy przycisk myszy, następnie nacisną�
 
 ### OpenSCAD
 
-Styl nawigacji w programie OpenSCAD był wzorowany na [OpenSCAD](https   *//openscad.org/).
+Styl nawigacji w programie OpenSCAD był wzorowany na [OpenSCAD](https://openscad.org/).
 
 
 {{Version/pl|0.20}}
@@ -191,7 +191,7 @@ Ewentualnie przytrzymaj klawisz **Shift** i prawy przycisk myszki, a następnie 
 
 ### Revit
 
-Styl nawigacji Revit był wzorowany na stylu [Revit Autodesk](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
+Styl nawigacji Revit był wzorowany na stylu [Revit Autodesk](https://en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -213,7 +213,7 @@ Ewentualnie przytrzymaj środkowy przycisk myszy, a następnie naciśnij i przyt
 
 ### TinkerCAD
 
-Styl nawigacji TinkerCAD był wzorowany na stylu [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
+Styl nawigacji TinkerCAD był wzorowany na stylu [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
 
 
 {{Version/pl|0.20}}
@@ -259,11 +259,11 @@ FreeCAD obsługuje również niektóre [urządzenia wejściowe 3D](3D_input_devi
 
 ## Polecana nawigacja dla macOS 
 
-W komputerach MacBook z gładzikiem nawigacja za pomocą gestów działa bardzo dobrze, ale gesty mają specjalne znaczenie   *
+W komputerach MacBook z gładzikiem nawigacja za pomocą gestów działa bardzo dobrze, ale gesty mają specjalne znaczenie:
 
--   Powiększenie   * przeciągnij dwoma palcami,
--   Obrót   * przeciągnij trzema palcami,
--   Przesuwanie   * **Ctrl** + trzy palce.
+-   Powiększenie: przeciągnij dwoma palcami,
+-   Obrót: przeciągnij trzema palcami,
+-   Przesuwanie: **Ctrl** + trzy palce.
 
 ## Opracowanie własnego schematu nawigacji 
 

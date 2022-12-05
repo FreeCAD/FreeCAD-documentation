@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   */ro   Topic   *Programming   Level   *Medium programmer   Time   *15 minutes   FCVersion   *All   Author   *[r-frank](User   *R-Frank.md)
+- TutorialInfo:/ro   Topic:Programming   Level:Medium programmer   Time:15 minutes   FCVersion:All   Author:[r-frank](User:R-Frank.md)
 ---
 
 # How to install additional workbenches/ro
@@ -53,21 +53,21 @@ How to install additional workbenches and addons on Windows
 ### Obsolete
 
 
-**Note   ***
+**Note:**
 
 using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Std_AddonMgr.md) in all systems is the recommended way.
 
 
 <div class="mw-translate-fuzzy">
 
-Utilizați [addons-installer from Github](https   *//github.com/FreeCAD/FreeCAD-addons).
+Utilizați [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
 Pe durata Google Summer of Code 2016 studentul Mandeep Singh a început lucrul la o versiune îmbunătățită
-versiunea ([available here](https   *//github.com/mandeeps708/PluginManager)) dara această vrsiune necesită muncă suplimentară înainte de a fi integrată pe deplin în FreeCAD.
+versiunea ([available here](https://github.com/mandeeps708/PluginManager)) dara această vrsiune necesită muncă suplimentară înainte de a fi integrată pe deplin în FreeCAD.
 
 
 </div>
 
-During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https   *//github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
+During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https://github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
 
 ### Manual Install 
 
@@ -85,7 +85,7 @@ During Google Summer of Code 2016 student Mandeep Singh started work on an impro
 -   download the workbench from github by clicking on the button "clone or download" on the github page (upper right corner) and choosing \"Download ZIP\"
 -   unpack the downloaded archive on your local hard disk
 -   within FreeCAD, locate the macro path by choosing "Edit \> Preferences \> General \> Macro" and look for the "Macro path"
--   supposed your Windows-Login is "User-Name" the default macro path is "C   *User-Name\\Appdata\\Roaming\\FreeCAD"
+-   supposed your Windows-Login is "User-Name" the default macro path is "C:\\User-Name\\Appdata\\Roaming\\FreeCAD"
 -   within the macro-directory create (if not already present) a folder called "Mod"
 -   within the folder mod create a folder with the name of the workbench, for example "Assembly2"
 -   now move the unpacked files and sub-folders of the workbench to the just created workbench-folder
@@ -139,7 +139,7 @@ How to install additional workbenches and addons on Linux
 
 <div class="mw-translate-fuzzy">
 
-Adăugând [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ubuntu/ppa) în interiorul ppa-manager.
+Adăugând [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) în interiorul ppa-manager.
 Instalarea atelierelor via manager packet.
 
 
@@ -153,7 +153,7 @@ Instalarea atelierelor via manager packet.
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
-$ git clone https   *//github.com/hamish2014/FreeCAD_assembly2.git
+$ git clone https://github.com/hamish2014/FreeCAD_assembly2.git
 ```
 
 
@@ -227,7 +227,7 @@ How to install additional workbenches and addons on MacOS
 ### Manual Installation 
 
 
-**Note   ***
+**Note:**
 
 This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
@@ -262,15 +262,10 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 -   Workbench still not showing up ? In FreeCAD, choose "Tools \> Customize \> Workbenches" and make sure it is not set to invisible
 -   **Notes for users with 32-bit system and FreeCAD 0.16.6706**. After attempts to install, the additional Workbenches may not be available. In this case
     -   hold the Report panel open while starting FreeCAD, and read the error
-    -   urmăriți firul discuțiilor pe forumul acesta   * <http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933>
+    -   urmăriți firul discuțiilor pe forumul acesta: <http://forum.freecadweb.org/viewtopic.php?t=12839#p102933>
 
 
 </div>
-
-
- 
-
-[Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

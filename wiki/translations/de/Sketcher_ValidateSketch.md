@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ValidateSketch
-   Name/de   *Sketcher SkizzeÜberprüfen
-   MenuLocation   *Sketch → Skizze überprüfen…
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso   *[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md), [Problem der topologischen Benennung](Topological_naming_problem/de.md)
+- GuiCommand:/de
+   Name:Sketcher ValidateSketch
+   Name/de:Sketcher SkizzeÜberprüfen
+   MenuLocation:Sketch → Skizze überprüfen…
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md), [Problem der topologischen Benennung](Topological_naming_problem/de.md)
 ---
 
 # Sketcher ValidateSketch/de
@@ -18,16 +18,16 @@ Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze z
 
 ## Anwendung
 
-1.  Dieses Werkzeug kann nicht für eine Skizze verwendet werden, die sich im Bearbeitungsmodus befindet. Verlasse bei Bedarf den Bearbeitungsmodus, indem du einen der folgenden Schritte ausführst   *
+1.  Dieses Werkzeug kann nicht für eine Skizze verwendet werden, die sich im Bearbeitungsmodus befindet. Verlasse bei Bedarf den Bearbeitungsmodus, indem du einen der folgenden Schritte ausführst:
 
--   Drücke die **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Taste.
+-   Drücke die **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Taste.
 
 #\* Drücke die Schaltfläche **Schließen** am oberen Rand des [Aufgabenpaneels](Task_panel/de.md).
 
-#\* Verwende das Tastaturkürzel   * **Esc** (falls in den [Skizzierer Einstellungen](Sketcher_Preferences/de#Allgemein.md) aktiviert).
+#\* Verwende das Tastaturkürzel: **Esc** (falls in den [Skizzierer Einstellungen](Sketcher_Preferences/de#Allgemein.md) aktiviert).
 
 1.  Wähle die zu prüfende Skizze in der [Baumansicht](Tree_view/de.md) oder durch Klicken auf eine ihrer Kanten in der [3D Ansicht](3D_view/de.md) aus.
-2.  Führe einen der folgenden Schritte aus, um das Dienstprogramm \"Skizze validieren\" zu öffnen   *
+2.  Führe einen der folgenden Schritte aus, um das Dienstprogramm \"Skizze validieren\" zu öffnen:
 
 -   Wähle im Menü die Option **Skizze → Skizze validieren...**.
 
@@ -69,7 +69,7 @@ Entartete Geometrie kann durch Löseraktionen in einer Skizze entstehen.
 
 Wenn zum Beispiel eine Linie gezwungen wird, sich zu verkürzen, um fast ein Punkt zu bilden.
 
-Andere Beispiele   * eine Linie der Länge Null oder ein Kreis/Bogen mit dem Radius Null.
+Andere Beispiele: eine Linie der Länge Null oder ein Kreis/Bogen mit dem Radius Null.
 
 ### Umgekehrte Äussere Geometrie 
 

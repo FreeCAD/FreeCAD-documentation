@@ -7,8 +7,8 @@
 |Date=2021-03-10
 |Version=2.0.1
 |FCVersion={{VersionPlus/fr|0.17}}
-|Download=[https   *//github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
-|Links=[https   *//github.com/melwyncarlo/AeroFoil Github personnel- AeroFoil]<br>[https   *//github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation Github FC- AeroFoil]<br>[https   *//forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
+|Download=[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
+|Links=[https://github.com/melwyncarlo/AeroFoil Github personnel- AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation Github FC- AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
 }}
 
 ## Description
@@ -35,7 +35,7 @@ La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire d\'add
 
 ####  Fonctionnalités supplémentaires {{VersionPlus/fr|0.19}} 
 
-Propriétés de l\'objet AeroFoil *(en lecture seulement)*    *
+Propriétés de l\'objet AeroFoil *(en lecture seulement)* :
 {{Properties Title|Base}}
 
 -    {{PropertyData/fr|Airfoil Type|String}}
@@ -50,24 +50,24 @@ Propriétés de l\'objet AeroFoil *(en lecture seulement)*    *
 -    {{PropertyData/fr|Number Of Points|Integer}}
     
 
-\[\[<File   *AeroFoil-output-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-output-types.gif>\|
+\[\[<File:AeroFoil-output-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-output-types.gif>\|
 
 
-<div style="text-align   * center">
+<div style="text-align: center">
 
-Légende    * types de sortie de la macro AeroFoil
+Légende : types de sortie de la macro AeroFoil
 
 
 </div>
 
 \]\]
 
-\[\[<File   *AeroFoil-input-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-input-types.gif>\|
+\[\[<File:AeroFoil-input-types.gif%7Cframe%7Ccenter%7Calt=AeroFoil-input-types.gif>\|
 
 
-<div style="text-align   * center">
+<div style="text-align: center">
 
-Légende    * types d\'entrée de la macro AeroFoil
+Légende : types d\'entrée de la macro AeroFoil
 
 
 </div>
@@ -78,26 +78,26 @@ Légende    * types d\'entrée de la macro AeroFoil
 
 ####  Linux
 
-AeroFoil peut être installé manuellement, comme sous Windows, ou en utilisant le terminal de commande et ses commandes appropriées, comme indiqué dans le fichier [INSTALL](https   *//raw.githubusercontent.com/melwyncarlo/AeroFoil/main/INSTALL.sh).
+AeroFoil peut être installé manuellement, comme sous Windows, ou en utilisant le terminal de commande et ses commandes appropriées, comme indiqué dans le fichier [INSTALL](https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/INSTALL.sh).
 
-Par défaut, le terminal de commande Linux peut être lancé en appuyant simultanément sur les touches suivantes du clavier    *
+Par défaut, le terminal de commande Linux peut être lancé en appuyant simultanément sur les touches suivantes du clavier :
 
 **Control** + **Alt** + **T**
 
 ####  Windows
 
-AeroFoil peut être installé à l\'aide des deux étapes suivantes    *
+AeroFoil peut être installé à l\'aide des deux étapes suivantes :
 
-1.  Téléchargez le fichier [AeroFoil.zip](https   *//github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true).
+1.  Téléchargez le fichier [AeroFoil.zip](https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true).
 2.  Extrayez le contenu du fichier ZIP dans l\'emplacement du répertoire de la macro utilisateur de FreeCAD.
 
-Par défaut, le répertoire de la macro utilisateur de FreeCAD doit être situé à    *
+Par défaut, le répertoire de la macro utilisateur de FreeCAD doit être situé à :
 
-C   */Users/User_Name/AppData/Roaming/FreeCAD/Macro
+C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
 ## Utilisation
 
-L\'AeroFoil peut être chargé en effectuant les étapes suivantes    *
+L\'AeroFoil peut être chargé en effectuant les étapes suivantes :
 
 1.  Lancez l\'application **FreeCAD**.
 2.  Allez dans **Macro → Macros ...**.
@@ -115,10 +115,10 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
           
    
 
-####  Conseils à garder à l\'esprit pendant l\'utilisation    * 
+####  Conseils à garder à l\'esprit pendant l\'utilisation : 
 
 1.  Pour les profils NACA, les deux derniers chiffres (combinés) ne peuvent pas avoir une valeur nulle ; l\'épaisseur ne peut pas être une valeur nulle.
-2.  Les profils NACA à 5 chiffres sont limités aux modèles suivants (\'XX\' indique les deux derniers chiffres, l\'épaisseur, du profil)    *
+2.  Les profils NACA à 5 chiffres sont limités aux modèles suivants (\'XX\' indique les deux derniers chiffres, l\'épaisseur, du profil) :
     -   210XX
     -   220XX
     -   221XX
@@ -139,12 +139,12 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
 11. L\'augmentation des paramètres **refine** et **quantity** augmente le temps de calcul et les ressources.
 12. La longueur absolue de l\'accord, en millimètres, ne peut être inférieure à **1mm**.
 
-\[\[<File   *AeroFoil-preset-functions.png%7Cframe%7Ccenter%7Calt=AeroFoil-preset-functions.png>\|
+\[\[<File:AeroFoil-preset-functions.png%7Cframe%7Ccenter%7Calt=AeroFoil-preset-functions.png>\|
 
 
-<div style="text-align   * center">
+<div style="text-align: center">
 
-Légende    * caractéristiques et fonctions prédéfinies
+Légende : caractéristiques et fonctions prédéfinies
 
 
 </div>
@@ -161,13 +161,13 @@ __Author__        = "Melwyncarlo"
 __Version__       = "2.0.0"
 __Date__          = "2021-03-09"
 __Comment__       = "AeroFoil creates airfoil curves and faces using pre-defined models, algebraic functions, and DAT or CSV Files"
-__Web__           = "https   *//github.com/melwyncarlo/AeroFoil"
-__Wiki__          = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
+__Web__           = "https://github.com/melwyncarlo/AeroFoil"
+__Wiki__          = "http://www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
 __Icon__          = "AeroFoil_UI_Files/AeroFoil.svg"
 __Help__          = "Click on the AeroFoil button/macro, and follow the instructions in the subsequent dialog boxes."
 __Status__        = "stable"
 __Requires__      = "Freecad >= v0.17"
-__Communication__ = "https   *//github.com/melwyncarlo/AeroFoil/issues"
+__Communication__ = "https://github.com/melwyncarlo/AeroFoil/issues"
 __Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, AeroFoil_UI_Files/AeroFoil_NACA4Digit_Dialog.ui, \
 AeroFoil_UI_Files/AeroFoil_NACA5Digit_Dialog.ui, AeroFoil_UI_Files/AeroFoil_CurvesInput_Dialog.ui, \
 AeroFoil_UI_Files/AeroFoil_PointsInput_Dialog.ui, AeroFoil_UI_Files/AeroFoil_DATInput_Dialog.ui, \
@@ -177,44 +177,44 @@ AeroFoil_UI_Files/AeroFoil_mfb_img.gif, AeroFoil_UI_Files/AeroFoil.svg"
 
 
 
-#  OS   * Ubuntu 18.04.5 LTS
-#  Word size of OS   * 64-bit
-#  Word size of FreeCAD   * 64-bit
-#  Version   * 0.18.4.
-#  Build type   * Release
-#  Python version   * 3.6.8
-#  Qt version   * 5.9.5
-#  Coin version   * 4.0.0a
-#  OCC version   * 7.3.0
-#  Locale   * English/UnitedKingdom (en_GB)
+#  OS: Ubuntu 18.04.5 LTS
+#  Word size of OS: 64-bit
+#  Word size of FreeCAD: 64-bit
+#  Version: 0.18.4.
+#  Build type: Release
+#  Python version: 3.6.8
+#  Qt version: 5.9.5
+#  Coin version: 4.0.0a
+#  OCC version: 7.3.0
+#  Locale: English/UnitedKingdom (en_GB)
 
-#  OS   * Ubuntu 18.04.5 LTS (LXDE/Lubuntu)
-#  Word size of OS     * 64-bit
-#  Word size of FreeCAD   * 64-bit
-#  Version   * 0.19
-#  Build type   * Release
-#  Branch   * unknown
-#  Hash   * 32200b604d421c4dad527fe587a7d047cf953b4f
-#  Python version   * 3.6.9
-#  Qt version   * 5.9.5
-#  Coin versio   * 4.0.0a
-#  OCC version   * 7.3.0
-#  Locale   * English/UnitedKingdom (en_GB)
+#  OS: Ubuntu 18.04.5 LTS (LXDE/Lubuntu)
+#  Word size of OS  : 64-bit
+#  Word size of FreeCAD: 64-bit
+#  Version: 0.19
+#  Build type: Release
+#  Branch: unknown
+#  Hash: 32200b604d421c4dad527fe587a7d047cf953b4f
+#  Python version: 3.6.9
+#  Qt version: 5.9.5
+#  Coin versio: 4.0.0a
+#  OCC version: 7.3.0
+#  Locale: English/UnitedKingdom (en_GB)
 
 
 
 }}
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
 
 ## Liens
 
-\[1\] [Dépôt Github d\'AeroFoil](https   *//github.com/melwyncarlo/AeroFoil)
-\[2\] [Dépôt Github des macros FreeCAD - AeroFoil](https   *//github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation)
-\[3\] [Page de discussion du forum FreeCAD - AeroFoil](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=56162)
-\[4\] [Airfoil Tools](http   *//airfoiltools.com/) contient environ 1 638 profils aérodynamiques différents.
-\[5\] [UIUC Airfoil Coordinates Database](https   *//m-selig.ae.illinois.edu/ads/coord_database.html) contient près de 1 600 profils aérodynamiques différents.
+\[1\] [Dépôt Github d\'AeroFoil](https://github.com/melwyncarlo/AeroFoil)
+\[2\] [Dépôt Github des macros FreeCAD - AeroFoil](https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation)
+\[3\] [Page de discussion du forum FreeCAD - AeroFoil](https://forum.freecadweb.org/viewtopic.php?f=22&t=56162)
+\[4\] [Airfoil Tools](http://airfoiltools.com/) contient environ 1 638 profils aérodynamiques différents.
+\[5\] [UIUC Airfoil Coordinates Database](https://m-selig.ae.illinois.edu/ads/coord_database.html) contient près de 1 600 profils aérodynamiques différents.
 
 
 

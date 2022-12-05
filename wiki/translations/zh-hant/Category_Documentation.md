@@ -1,8 +1,6 @@
 # Category:Documentation/zh-hant
 This category groups all of the FreeCAD documentation
 
-[Category   *Categories/zh-hant](Category   *Categories/zh-hant.md)
-
 ### Contents
 
 |     |     |     |

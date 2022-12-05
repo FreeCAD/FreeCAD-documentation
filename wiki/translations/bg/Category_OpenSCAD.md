@@ -1,8 +1,6 @@
 # Category:OpenSCAD/bg
 This category lists pages related to the [OpenSCAD_Workbench/bg](OpenSCAD_Workbench/bg.md).
 
-[Category   *Workbenches/bg](Category   *Workbenches/bg.md)
-
 ### Contents
 
 |     |     |     |

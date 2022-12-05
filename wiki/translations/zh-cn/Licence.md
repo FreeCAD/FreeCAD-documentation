@@ -5,17 +5,17 @@
 
 FreeCAD有两种不同的许可, 一个用于应用程序本身, 另一个用于文档：
 
-**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia_LGPL.md)**用于所有FreeCAD的源代码。所谓源代码，即包含于[官方Git仓库](https   *//github.com/FreeCAD/FreeCAD)里的那些。
+**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia_LGPL.md)**用于所有FreeCAD的源代码。所谓源代码，即包含于[官方Git仓库](https://github.com/FreeCAD/FreeCAD)里的那些。
 
 
 <div class="mw-translate-fuzzy">
 
-**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http   *//creativecommons.org/licenses/by/3.0/)**用于http   *//www.freecadweb.org上的文档。
+**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http://creativecommons.org/licenses/by/3.0/)**用于http://www.freecadweb.org上的文档。
 
 
 </div>
 
-FreeCAD中的不同组件可以使用不同的许可，有关其详细信息, 请参阅FreeCAD的[debian版权文件](https   *//github.com/FreeCAD/FreeCAD/blob/master/package/debian/copyright)。
+FreeCAD中的不同组件可以使用不同的许可，有关其详细信息, 请参阅FreeCAD的[debian版权文件](https://github.com/FreeCAD/FreeCAD/blob/master/package/debian/copyright)。
 
 ## 许可证的影响
 
@@ -60,7 +60,7 @@ FreeCAD中的不同组件可以使用不同的许可，有关其详细信息, �
 
 <div class="mw-translate-fuzzy">
 
-我选择了[LGPL](http   *//en.wikipedia.org/wiki/LGPL)作为这个项目的许可协议，我知道LGPL的利与弊，我将给你解释一下做这个决定的原因。
+我选择了[LGPL](http://en.wikipedia.org/wiki/LGPL)作为这个项目的许可协议，我知道LGPL的利与弊，我将给你解释一下做这个决定的原因。
 
 
 </div>
@@ -71,14 +71,6 @@ FreeCAD是一个库和一个应用的混合体，所以要求GPL协议就显得�
 
 
 {{Quote|Jürgen Riegel|15 October 2006}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

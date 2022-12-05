@@ -8,7 +8,7 @@
 |Version=2022.03.15
 |Date=2022-03-15
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
 }}
 
 ## Descrizione
@@ -25,7 +25,7 @@ Questi fili possono essere rinominati per ripristinare le impostazioni di FreeCA
 
 Prima di rinominare i file si dovrebbe uscire da FreeCAD , quindi riavviare FreeCAD in seguito. Se la ridenominazione dei file non ha risolto il problema riscontrato, è possibile eliminare i nuovi file creati da FreeCAD e rinominare i file originali con i loro nomi originali per ripristinare le impostazioni precedenti. È inoltre possibile eliminare in modo sicuro i file rinominati quando si è certi di non averne più bisogno o di volerli conservare, ma si consiglia di rinominarli anziché eliminarli finché non si è certi che non sono più necessari.
 
-Nota   * la macro non rinomina i file e non apporta modifiche alle impostazioni. Trova semplicemente la posizione di questi file, copia quella posizione negli Appunti e (tenta di) aprire la cartella contenente questi file utilizzando il browser di file predefinito.
+Nota: la macro non rinomina i file e non apporta modifiche alle impostazioni. Trova semplicemente la posizione di questi file, copia quella posizione negli Appunti e (tenta di) aprire la cartella contenente questi file utilizzando il browser di file predefinito.
 
 ## Script
 
@@ -35,15 +35,15 @@ Icona barra strumenti ![](images/Macro_findConfigFiles.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 import FreeCAD
 import subprocess, os 
 from PySide import QtCore,QtGui
 import platform 
 __title__ = "findConfigFiles"
 __author__ = "TheMarkster"
-__url__ = "https   *//www.freecadweb.org/wiki/Macro_findConfigFiles"
-__Wiki__ = "http   *//www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
+__url__ = "https://www.freecadweb.org/wiki/Macro_findConfigFiles"
+__Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
 __date__ = "2022.03.15" 
 __version__ = __date__
 
@@ -66,7 +66,7 @@ msgBox.addButton("Copy to Clipboard and Open",QtGui.QMessageBox.ApplyRole)
 #HTML tags are part of the source -- do not edit
 #thanks to user C4e for help with the paragraph formatting
 msg = """
- These files are located here on your system   *
+ These files are located here on your system:
  <p>
     <b><font color = 'blue'>""" + userFolder + """</font></b>
  </p>
@@ -76,7 +76,7 @@ msg = """
  If it doesn't work you can always go back and rename them back to their original names.
  </p>
  <p>
- To reset your configuration settings, exit FreeCAD and rename these 2 files   *
+ To reset your configuration settings, exit FreeCAD and rename these 2 files:
  <ul>
     <li><b><font color='blue'>system.cfg</font></b>
     <li><b><font color = 'blue'>user.cfg</font></b>
@@ -97,23 +97,23 @@ msg = """
 
 msgBox.setText(msg)
 ok = msgBox.exec_()
-if ok==0   *
+if ok==0:
     clipboard.setText(userFolder)
-if ok == QtGui.QMessageBox.Ok or ok==0   *
-    if 'Windows' in sys   *
+if ok == QtGui.QMessageBox.Ok or ok==0:
+    if 'Windows' in sys:
         subprocess.Popen('start explorer.exe '+userFolder, shell=True)
-    elif 'Linux' in sys   *
+    elif 'Linux' in sys:
         os.system("xdg-open '%s'" % userFolder)
-    elif 'Darwin' in sys   *
+    elif 'Darwin' in sys:
         subprocess.Popen(["open", userFolder])
-    else   *
+    else:
         msgBox = QtGui.QMessageBox()
         msg = "We were unable to determine your platform, and thus cannot open your '+userFolder+' for you, but you can still do it manually.\n"
         msgBox.exec_()}}
 
 ## Vincolo
 
-Il foro [findConfigFiles macro](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=29888)
+Il foro [findConfigFiles macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29888)
 
 
 

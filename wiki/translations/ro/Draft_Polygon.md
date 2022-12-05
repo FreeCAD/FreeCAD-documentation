@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Polygon
-   Name/ro   *Draft Polygon
-   MenuLocation   *Draft → Polygon
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut   ***P** **G**
-   Version   *0.7
+- GuiCommand:/ro
+   Name:Draft Polygon
+   Name/ro:Draft Polygon
+   MenuLocation:Draft → Polygon
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**P** **G**
+   Version:0.7
 ---
 
 # Draft Polygon/ro
@@ -27,19 +27,19 @@ Instrumentul poligon creează un poligon regulat prin alegerea a două puncte, c
 
 A Draft Polygon can be switched from inscribed to circumscribed by changing its **Draw Mode** property. The corners of a Draft Polygon can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively.
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -81,10 +81,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
 
 
@@ -92,56 +92,56 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 ## Proprietăți
 
--    {{PropertyData/ro|Radius}}   * Raza cercului definitoriu
+-    {{PropertyData/ro|Radius}}: Raza cercului definitoriu
 
--    {{PropertyData/ro|Draw Mode}}   * Specifică dacă poligonul este înscris sau circumscris în jurul cercului definitoriu
+-    {{PropertyData/ro|Draw Mode}}: Specifică dacă poligonul este înscris sau circumscris în jurul cercului definitoriu
 
--    {{PropertyData/ro|Faces Number}}   * Numărul laturilor poligonului
+-    {{PropertyData/ro|Faces Number}}: Numărul laturilor poligonului
 
--    {{PropertyData/ro|Chamfer Size}}   * Specifică dimensiunea colțurilor zimțate
+-    {{PropertyData/ro|Chamfer Size}}: Specifică dimensiunea colțurilor zimțate
 
--    {{PropertyData/ro|Fillet Radius}}   * Specifică o rază de curbură pentru a da colțurilor dreptunghiului
+-    {{PropertyData/ro|Fillet Radius}}: Specifică o rază de curbură pentru a da colțurilor dreptunghiului
 
--    {{PropertyData/ro|Make Face}}   * Umple poligonul cu o față
+-    {{PropertyData/ro|Make Face}}: Umple poligonul cu o față
 
--    {{PropertyView/ro|Pattern}}   * Specifică un model de trasare pentru a umple firul cu
+-    {{PropertyView/ro|Pattern}}: Specifică un model de trasare pentru a umple firul cu
 
--    {{PropertyView/ro|Dimensiune model}}   * Specifică dimensiunea șablonului de trasare
+-    {{PropertyView/ro|Dimensiune model}}: Specifică dimensiunea șablonului de trasare
 
 
 </div>
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    **Area|Area**: (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
 
--    **Chamfer Size|Length**   * specifies the length of the chamfers at the corners of the polygon.
+-    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the polygon.
 
--    **Draw Mode|Enumeration**   * specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
+-    **Draw Mode|Enumeration**: specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
 
--    **Faces Number|Integer**   * specifies the number of sides of the polygon.
+-    **Faces Number|Integer**: specifies the number of sides of the polygon.
 
--    **Fillet Radius|Length**   * specifies the radius of the fillets at the corners of the polygon.
+-    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the polygon.
 
--    **Make Face|Bool**   * specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    **Make Face|Bool**: specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
 
--    **Radius|Length**   * specifies the radius of the circle that defines the polygon.
+-    **Radius|Length**: specifies the radius of the circle that defines the polygon.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -150,7 +150,7 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ## Script-Programare 
 
-Instrumentul Polygon poate fi utilizat în [macros](macros/ro.md) și din consola python utilizând următoarea funcție   *
+Instrumentul Polygon poate fi utilizat în [macros](macros/ro.md) și din consola python utilizând următoarea funcție:
 
 
 </div>

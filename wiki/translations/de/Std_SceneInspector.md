@@ -1,8 +1,8 @@
 ---
-- GuiCommand   */de
-   Name/de   *Std SzenenInspektor
-   MenuLocation   *Werkzeuge → Szenen Inspektor...
-   Workbenches   *Alle
+- GuiCommand:/de
+   Name/de:Std SzenenInspektor
+   MenuLocation:Werkzeuge → Szenen Inspektor...
+   Workbenches:Alle
 ---
 
 # Std SceneInspector/de

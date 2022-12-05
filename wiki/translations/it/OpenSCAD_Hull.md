@@ -1,6 +1,6 @@
 # OpenSCAD Hull/it
 ---
-- GuiCommand   */it   Name   *OpenSCAD Hull   Name/it   *Hull   MenuLocation   *OpenSCAD → Hull‏‎   |Workbenches   *[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/it   Name:OpenSCAD Hull   Name/it:Hull   MenuLocation:OpenSCAD → Hull‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 Inviluppo convesso di Hull
 
-Consultare <http   *//en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations> sau <http   *//doc.cgal.org/latest/Convex_hull_2/index.html>
+Consultare <http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations> sau <http://doc.cgal.org/latest/Convex_hull_2/index.html>
 
 ## Descrizione
 
@@ -35,7 +35,7 @@ Example of a hull operation performed on two cylinders
 ## Uso
 
 1.  Selezionare le forme nella vista ad albero o nella vista 3D
-2.  Cliccare su <img alt="" src=images/OpenSCAD_Hull.png  style="width   *32px;"> o scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_Hull.png" width=32px> Hull** nel menu in alto.
+2.  Cliccare su <img alt="" src=images/OpenSCAD_Hull.png  style="width:32px;"> o scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_Hull.png" width=32px> Hull** nel menu in alto.
 
 
 </div>

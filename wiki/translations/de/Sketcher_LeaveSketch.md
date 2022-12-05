@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher LeaveSketch
-   Name/de   *Sketcher Skizze verlassen
-   MenuLocation   *Sketch → SkizzeVerlassen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso   *[Sketcher SkizzeBearbeiten](Sketcher_EditSketch/de.md)
+- GuiCommand:/de
+   Name:Sketcher LeaveSketch
+   Name/de:Sketcher Skizze verlassen
+   MenuLocation:Sketch → SkizzeVerlassen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[Sketcher SkizzeBearbeiten](Sketcher_EditSketch/de.md)
 ---
 
 # Sketcher LeaveSketch/de
@@ -15,11 +15,11 @@ Mit dem Befehl **SkizzeVerlassen** wird der Skizzenbearbeitungsmodus verlassen u
 
 ## Anwendung
 
-Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
 
 -   Die Schaltfläche ** Schließen** am oberen Rand des [Aufgabenbereichs](Task_panel/de.md) drücken.
--   Die Schaltfläche **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** drücken
--   Den Menüeintrag **Skizze → [<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> Skizze verlassen** auswählen.
+-   Die Schaltfläche **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** drücken
+-   Den Menüeintrag **Skizze → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Skizze verlassen** auswählen.
 
 
 

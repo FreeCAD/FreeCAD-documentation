@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Part RefineShape
-   Name/pl   *Część   * Udoskonal kształt
-   MenuLocation   *Część → Utwórz kopię → Udoskonal kształt
-   Workbenches   *[Część](Part_Workbench/pl.md)
-   SeeAlso   *[Szybka kopia](Part_SimpleCopy/pl.md), [Przekształcona kopia](Part_TransformedCopy/pl.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
+- GuiCommand:/pl
+   Name:Part RefineShape
+   Name/pl:Część: Udoskonal kształt
+   MenuLocation:Część → Utwórz kopię → Udoskonal kształt
+   Workbenches:[Część](Part_Workbench/pl.md)
+   SeeAlso:[Szybka kopia](Part_SimpleCopy/pl.md), [Przekształcona kopia](Part_TransformedCopy/pl.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
 ---
 
 # Part RefineShape/pl
@@ -28,9 +28,9 @@ Po niektórych operacjach logicznych, takich jak [Połączenie](Part_Fuse/pl.md)
 
 Od {{VersionPlus/pl|0.19}} rezultat ten jest domyślny dla parametrycznej *(połączonej)* kopii.
 
-To zachowanie można zmienić w <img alt="" src=images/Std_DlgParameter.svg  style="width   *24px;"> [Edytorze parametrów](Std_DlgParameter/pl.md)   *
+To zachowanie można zmienić w <img alt="" src=images/Std_DlgParameter.svg  style="width:24px;"> [Edytorze parametrów](Std_DlgParameter/pl.md):
 
-1.  Przejdź do grupy podrzędnej   * `BaseApp/Preferences/Mod/Part`
+1.  Przejdź do grupy podrzędnej: `BaseApp/Preferences/Mod/Part`
 2.  Zmień wartość parametru `ParametricRefine` typu `Boolean` na {{FALSE/pl}}, aby uzyskać stare zachowanie *(niezależna kopia)*.
 
 Zobacz inne parametry na stronie [Dostrajanie parametrów](Fine-tuning/pl.md).
@@ -43,11 +43,11 @@ Zobacz inne parametry na stronie [Dostrajanie parametrów](Fine-tuning/pl.md).
 ## Ograniczenia
 
 -   Algorytm udoskonalania działa tylko na powłokach. Dlatego wykonuje iterację po powłokach kształtu wejściowego, a następnie dla każdej powłoki tworzy nową powłokę z połączonymi ścianami, jeśli to możliwe. Oznacza to, że jeśli twój kształt wejściowy jest tylko powierzchnią, polilinią , krawędzią lub wierzchołkiem, to algorytm nie zrobi nic.
--   W przeciwieństwie do narzędzia <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *24px;"> [OpenSCAD   * Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md), narzędzie <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Udoskonal kształt](Part_RefineShape/pl.md) środowiska Część nie będzie samoczynnie aktualizować bryły, gdy zostaną zmienione kształty poprzedzające.
+-   W przeciwieństwie do narzędzia <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD: Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md), narzędzie <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Udoskonal kształt](Part_RefineShape/pl.md) środowiska Część nie będzie samoczynnie aktualizować bryły, gdy zostaną zmienione kształty poprzedzające.
 
 ## Tworzenie skryptów 
 
-Polecenie środowiska Python służące do dopracowania kształtu jest następujące   *
+Polecenie środowiska Python służące do dopracowania kształtu jest następujące:
 
 
 ```python

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */es
-   Name   *Arch MultiMaterial
-   Name/es   *Arch MultiMaterial
-   MenuLocation   *Arch → Multi-Material
-   Workbenches   *[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench.md)
+- GuiCommand:/es
+   Name:Arch MultiMaterial
+   Name/es:Arch MultiMaterial
+   MenuLocation:Arch → Multi-Material
+   Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench.md)
 ---
 
 # Arch MultiMaterial/es
@@ -23,7 +23,7 @@ La herramienta Multi-Material define una lista de [materiales](Material.md) con 
 
 ![](images/Arch_multimaterial_example.png )
 
-No todos los objetos Arch actualmente pueden hacer uso de múltiples materiales, y el uso que hacen de ellos difiere. Actualmente   *
+No todos los objetos Arch actualmente pueden hacer uso de múltiples materiales, y el uso que hacen de ellos difiere. Actualmente:
 
 
 <div class="mw-translate-fuzzy">
@@ -52,7 +52,7 @@ No todos los objetos Arch actualmente pueden hacer uso de múltiples materiales,
 
 ![](images/Arch_multimaterial_panel.png )
 
-Al crear o editar un material múltiple haciendo doble clic en el árbol, están disponibles las siguientes opciones   *
+Al crear o editar un material múltiple haciendo doble clic en el árbol, están disponibles las siguientes opciones:
 
 
 <div class="mw-translate-fuzzy">
@@ -71,7 +71,7 @@ Al crear o editar un material múltiple haciendo doble clic en el árbol, están
 
 ## Relation to IFC 
 
-This roughly corresponds to a combination of [IfcMaterialLayerSet](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
+This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
 ## Limitations
 

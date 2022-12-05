@@ -1,20 +1,20 @@
-# <img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/es
+# <img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/es
 
 
 {{TOCright}}
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> [Ambiente de trabajo Imagen](Image_Workbench/es.md) gestiona diferentes tipos de imágenes [bitmap](bitmap/es.md), y te permite abrirlas en FreeCAD.
+El <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Ambiente de trabajo Imagen](Image_Workbench/es.md) gestiona diferentes tipos de imágenes [bitmap](bitmap/es.md), y te permite abrirlas en FreeCAD.
 
 ## Herramientas
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Image_Open.svg  style="width   *32px;"> [Abrir](Image_Open/es.md)   * abrir una imagen en un nuevo viewport.
--   <img alt="" src=images/Image-import-to-plane.svg  style="width   *32px;"> [Importar al plano](Image_CreateImagePlane/es.md)   * importar una imagen a un plano en la vista 3D.
--   <img alt="" src=images/Image-scale.svg  style="width   *32px;"> [Escalar](Image_Scaling/es.md)   * escalar una imagen importada a un plano.
+-   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Abrir](Image_Open/es.md): abrir una imagen en un nuevo viewport.
+-   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Importar al plano](Image_CreateImagePlane/es.md): importar una imagen a un plano en la vista 3D.
+-   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Escalar](Image_Scaling/es.md): escalar una imagen importada a un plano.
 
 
 </div>
@@ -47,9 +47,7 @@ El relleno de la imagen puede establecerse durante la importación, o modificars
 
 {{Image Tools navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

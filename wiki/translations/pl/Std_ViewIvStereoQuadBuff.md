@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewIvStereoQuadBuff
-   Name/pl   *Std   * Widok poczwórny bufor stereo
-   MenuLocation   *Widok → Widok trójwymiarowy → Poczwórny bufor stereo
-   Workbenches   *wszystkie
-   SeeAlso   *[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewIvStereoQuadBuff
+   Name/pl:Std: Widok poczwórny bufor stereo
+   MenuLocation:Widok → Widok trójwymiarowy → Poczwórny bufor stereo
+   Workbenches:wszystkie
+   SeeAlso:[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---
 
 # Std ViewIvStereoQuadBuff/pl
 
 ## Opis
 
-Polecenie **Poczwórny bufor stereo** zmienia aktywny [widok 3D](3D_view/pl.md) na tryb widoku stereo z poczwórnym buforem. Do korzystania z tego trybu stereo wymagana jest specjalna karta graficzna, specjalny monitor i [okulary z przysłoną](https   *//en.wikipedia.org/wiki/Active_shutter_3D_system).
+Polecenie **Poczwórny bufor stereo** zmienia aktywny [widok 3D](3D_view/pl.md) na tryb widoku stereo z poczwórnym buforem. Do korzystania z tego trybu stereo wymagana jest specjalna karta graficzna, specjalny monitor i [okulary z przysłoną](https://en.wikipedia.org/wiki/Active_shutter_3D_system).
 
 ## Użycie
 
@@ -19,12 +19,12 @@ Polecenie **Poczwórny bufor stereo** zmienia aktywny [widok 3D](3D_view/pl.md) 
 
 ## Ustawienia
 
--   Odległość między oczami można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
+-   Odległość między oczami można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

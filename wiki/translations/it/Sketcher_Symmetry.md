@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Sketcher Symmetry
-   Name/it   *Simmetria
-   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation   *Sketch → Strumenti → Simmetria
-   Version   *0.16
+- GuiCommand:/it
+   Name:Sketcher Symmetry
+   Name/it:Simmetria
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation:Sketch → Strumenti → Simmetria
+   Version:0.16
 ---
 
 # Sketcher Symmetry/it

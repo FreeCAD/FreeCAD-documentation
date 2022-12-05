@@ -1,6 +1,6 @@
 # Part Section/es
 ---
-- GuiCommand   */es   Name   *Part_Section   MenuLocation   *Pieza → Sección   Workbenches   *[Complete](Part_Workbench___Part]],_[[Complete_Workbench/es.md)|SeeAlso   *[SectionCross](Part_SectionCross/es.md)---
+- GuiCommand:/es   Name:Part_Section   MenuLocation:Pieza → Sección   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench/es.md)|SeeAlso:[SectionCross](Part_SectionCross/es.md)---
 
 
 </div>
@@ -25,40 +25,40 @@ Extrae una sección de la intersección de las dos formas seleccionadas, la segu
 
 1.  Select two objects.
 2.  The first object will be the **Base** of the Section, but the selection order has no impact on the result.
-3.  There are several ways to invoke the command   *
+3.  There are several ways to invoke the command:
     -   Press the **![](images/)_[Section](Part_Section.md)** button.
     -   Select the **Part → ![](images/)_Section**_option_from_the_menu.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Base|Link**   * Link to the first object.
+-    **Base|Link**: Link to the first object.
 
--    **Tool|Link**   * Link to the second object.
+-    **Tool|Link**: Link to the second object.
 
 
 {{Properties_Title|Boolean}}
 
--    **History|ShapeHistory|hidden**   * \"Shape history\".
+-    **History|ShapeHistory|hidden**: \"Shape history\".
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Section}}
 
--    **Approximation|Bool**   * Approximate the output edges.
+-    **Approximation|Bool**: Approximate the output edges.
 
 ## Links
 
-To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width   *16px;"> [Cross-sections](Part_CrossSections.md).
+To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width:16px;"> [Cross-sections](Part_CrossSections.md).
 
 
 

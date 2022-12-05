@@ -1,8 +1,6 @@
 # Category:Path/ro
 This category lists pages related to the [PartDesign Workbench/ro](PartDesign_Workbench/ro.md).
 
-[Category   *Workbenches/ro](Category   *Workbenches/ro.md)
-
 ### Contents
 
 |     |     |     |

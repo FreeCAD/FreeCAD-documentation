@@ -1,8 +1,6 @@
 # Category:Addons/ro
 Această pagină afișează addon la atelierele care au o pagină în acest wiki. Addon sunt module sau ateliere de lucru cu care contribuie comunitatea și nu fac parte din FreeCAD standard.
 
-[Category   *Categories](Category_Categories.md)
-
 ### Contents
 
 |     |     |     |

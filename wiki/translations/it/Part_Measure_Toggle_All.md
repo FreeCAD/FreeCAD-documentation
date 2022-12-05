@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */it
-   Name   *Part Measure Toggle All
-   Name/it   *Attiva/Disattiva tutto
-   MenuLocation   *[Misure](Std_Measure_Menu/it.md) → Attiva/Disattiva tutto‏‎
-   Workbenches   *[Part](Part_Workbench/it.md)
+- GuiCommand:/it
+   Name:Part Measure Toggle All
+   Name/it:Attiva/Disattiva tutto
+   MenuLocation:[Misure](Std_Measure_Menu/it.md) → Attiva/Disattiva tutto‏‎
+   Workbenches:[Part](Part_Workbench/it.md)
 ---
 
 # Part Measure Toggle All/it
@@ -23,14 +23,14 @@ Questo strumento attiva o disattiva la visibilità di tutte le misurazioni nella
 
 </div>
 
-<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width   *400px;">
+<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width:400px;">
 
 ## Usage
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **[<img src=images/Part_Measure_Toggle_All.png style="width   *24px"> '''Attiva/disattiva tutto'''**.
+1.  Premere il pulsante **[<img src=images/Part_Measure_Toggle_All.png style="width:24px"> '''Attiva/disattiva tutto'''**.
 
 
 </div>

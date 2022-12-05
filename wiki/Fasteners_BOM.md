@@ -1,23 +1,23 @@
 ---
-- GuiCommand   *
-   Name   *Fasteners BOM
-   MenuLocation   *Fasteners → Generate BOM
-   Workbenches   *[Fasteners](Fasteners_Workbench.md)
-   SeeAlso   *[Spreadsheet Workbench](Spreadsheet_Workbench.md)
+- GuiCommand:
+   Name:Fasteners BOM
+   MenuLocation:Fasteners → Generate BOM
+   Workbenches:[Fasteners](Fasteners_Workbench.md)
+   SeeAlso:[Spreadsheet Workbench](Spreadsheet_Workbench.md)
 ---
 
 # Fasteners BOM
 
 ## Description
 
-The <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
+The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
 
- <img alt="" src=images/Fasteners_BOM_Example.png  style="width   *650px;">  
+ <img alt="" src=images/Fasteners_BOM_Example.png  style="width:650px;">  
 *A model with a Fasteners BOM spreadsheet*
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** option from the menu.
 2.  A Fasteners BOM spreadsheet is created.
@@ -30,9 +30,7 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fastener
 
 
 
- {{Fasteners Tools navi}} 
-
-[Category   *External Command Reference](Category_External_Command_Reference.md)
+ {{Fasteners Tools navi}}
 
 
 

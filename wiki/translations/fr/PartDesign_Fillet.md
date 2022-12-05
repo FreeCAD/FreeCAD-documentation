@@ -1,29 +1,29 @@
 ---
-- GuiCommand   */fr
-   Name   *PartDesign Fillet
-   Name/fr   *PartDesign Congé 
-   MenuLocation   *Part Design → Appliquer une fonction d'habillage → Congé
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso   *[PartDesign Chanfrein](PartDesign_Chamfer/fr.md)
+- GuiCommand:/fr
+   Name:PartDesign Fillet
+   Name/fr:PartDesign Congé 
+   MenuLocation:Part Design → Appliquer une fonction d'habillage → Congé
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso:[PartDesign Chanfrein](PartDesign_Chamfer/fr.md)
 ---
 
 # PartDesign Fillet/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **PartDesign Congé** crée des filets (arrondis) sur les bords sélectionnés d\'un objet. Il ajoute un objet **Fillet** au document avec sa représentation correspondante dans la [Vue en arborescence](Tree_view/fr.md).
+L\'outil <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **PartDesign Congé** crée des filets (arrondis) sur les bords sélectionnés d\'un objet. Il ajoute un objet **Fillet** au document avec sa représentation correspondante dans la [Vue en arborescence](Tree_view/fr.md).
 
 ## Utilisation
 
 ### Ajouter un congé 
 
 1.  Vous pouvez éventuellement [activer](PartDesign_Body/fr#Statut_actif.md) le corps recevant les congés.
-2.  Il existe plusieurs façons de sélectionner les bords recevant le congé    *
+2.  Il existe plusieurs façons de sélectionner les bords recevant le congé :
     -   Sélectionnez une ou plusieurs arêtes du corps individuellement.
     -   Sélectionnez une ou plusieurs faces du corps pour sélectionner toutes leurs arêtes.
     -   Sélectionnez un élément (généralement le dernier élément) du corps pour sélectionner toutes ses arêtes. {{Version/fr|0.20}}
 3.  Pour une chaîne d\'arêtes connectées tangentiellement, une seule arête doit être sélectionnée, le congé se propage le long de la chaîne.
-4.  Il y a plusieurs façons de lancer l\'outil    *
+4.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le **<img src="images/PartDesign_Fillet.svg" width=16px> [Congé](PartDesign_Fillet/fr.md)**.
     -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Fillet.svg" width=16px> Congé** dans le menu.
 5.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
@@ -32,7 +32,7 @@ L\'outil <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> *
 
 ### Modifier un congé 
 
-1.  Effectuez l\'une des opérations suivantes    *
+1.  Effectuez l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet Fillet dans la [Vue en arborescence](Tree_view/fr.md).
     -   Cliquez avec le bouton droit de la souris sur l\'objet Fillet dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier le congé** dans le menu contextuel.
 2.  Le [Panneau des tâches](Task_panel/fr.md) des **Paramètres du congé** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
@@ -40,12 +40,12 @@ L\'outil <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> *
 
 ## Options
 
--   Pour ajouter des arêtes, effectuez l\'une des opérations suivantes    *
+-   Pour ajouter des arêtes, effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **Ajouter** pour commencer à sélectionner des arêtes et/ou des faces dans la [Vue 3D](3D_view/fr.md).
-    -   Pour sélectionner toutes les arêtes restantes, procédez comme suit    *
+    -   Pour sélectionner toutes les arêtes restantes, procédez comme suit :
         1.  Si nécessaire, appuyez sur le bouton **Ajouter**.
         2.  Utilisez le raccourci clavier **Ctrl**+**Shift**+**A**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Ajouter toutes les arêtes** dans le menu contextuel. {{Version/fr|0.20}}
--   Pour supprimer des bords, effectuez l\'une des opérations suivantes    *
+-   Pour supprimer des bords, effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **Supprimer** pour commencer à désélectionner les arêtes et/ou les faces dans la [Vue 3D](3D_view/fr.md). Les éléments sélectionnés sont surlignés en violet.
     -   Sélectionnez un ou plusieurs éléments dans la liste et appuyez sur la touche **Suppr**, ou cliquez avec le bouton droit de la souris sur la liste et sélectionnez **Enlever** dans le menu contextuel.
 -   Définissez le **Rayon** du congé.
@@ -58,63 +58,63 @@ L\'outil <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> *
 
 ## Propriétés
 
-Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Congé est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Part Congé est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
--    **Base|LinkSub**   * Lien vers les arêtes et les faces sélectionnées de l\'élément parent. Peut être un lien vers l\'élément parent uniquement si **Use All Edges** est `True`.
+-    **Base|LinkSub**: Lien vers les arêtes et les faces sélectionnées de l\'élément parent. Peut être un lien vers l\'élément parent uniquement si **Use All Edges** est `True`.
 
--    **Support Transform|Bool**   * Si `True`, la forme du congé de l\'élément parent additif/soustractif sera utilisée lorsque l\'objet congé est inclus dans un [motif](PartDesign_Workbench/fr#Outils_de_transformation.md), sinon seule la forme du congé sera utilisée. La valeur par défaut est `False`.
+-    **Support Transform|Bool**: Si `True`, la forme du congé de l\'élément parent additif/soustractif sera utilisée lorsque l\'objet congé est inclus dans un [motif](PartDesign_Workbench/fr#Outils_de_transformation.md), sinon seule la forme du congé sera utilisée. La valeur par défaut est `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Lien vers l\'élément parent.
+-    **Base Feature|Link|hidden**: Lien vers l\'élément parent.
 
--    **_ Body|LinkHidden|hidden**   * Lien vers le corps du parent.
+-    **_ Body|LinkHidden|hidden**: Lien vers le corps du parent.
 
 
 {{Properties_Title|Fillet}}
 
--    **Radius|QuantityConstraint**   * Le rayon du congé. La valeur par défaut est {{value|1 mm}}.
+-    **Radius|QuantityConstraint**: Le rayon du congé. La valeur par défaut est {{value|1 mm}}.
 
--    **Use All Edges|Bool**   * Si `True`, tous les bords de l\'élément sont pourvus de congés et les bords spécifiés par **Base** sont ignorés. La valeur par défaut est `False`.
+-    **Use All Edges|Bool**: Si `True`, tous les bords de l\'élément sont pourvus de congés et les bords spécifiés par **Base** sont ignorés. La valeur par défaut est `False`.
 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * Si `True`, les arêtes redondantes sont supprimées du résultat de l\'opération. La valeur par défaut est déterminée par la préférence **Automatically refine model after sketch-based operation**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+-    **Refine|Bool**: Si `True`, les arêtes redondantes sont supprimées du résultat de l\'opération. La valeur par défaut est déterminée par la préférence **Automatically refine model after sketch-based operation**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 ## Problèmes connus 
 
 Les congés, chanfreins et autres fonctionnalités opérant sur les corps solides dépendent du noyau [OpenCASCADE](OpenCASCADE/fr.md) Technology (OCCT) sous-jacent utilisé par FreeCAD. Le noyau OCCT a parfois du mal à gérer les arêtes vives qui coïncident, là où deux faces se rencontrent. Si tel est le cas, FreeCAD peut se bloquer sans explication.
 
-S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de logs comme celui-ci après un crash    *
+S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de logs comme celui-ci après un crash :
 
 
 {{code|lang=text|code=
-#1  0x7fff63d660ba in BRep_Tool   *   *Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
-#2  0x7fff63d69546 in BRep_Tool   *   *Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
-#3  0x7fff71f4fef5 in ChFi3d_Builder   *   *PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
-#4  0x7fff71f58307 in ChFi3d_Builder   *   *PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
-#5  0x7fff71ef6218 in ChFi3d_Builder   *   *PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
-#6  0x7fff71ef71d1 in ChFi3d_Builder   *   *Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
-#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer   *   *Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
-#8  0x7fff723be48e in PartDesign   *   *Chamfer   *   *execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
+#1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
+#2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
+#3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
+#4  0x7fff71f58307 in ChFi3d_Builder::PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
+#5  0x7fff71ef6218 in ChFi3d_Builder::PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
+#6  0x7fff71ef71d1 in ChFi3d_Builder::Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
+#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer::Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
+#8  0x7fff723be48e in PartDesign::Chamfer::execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
 ...
 }}
 
 Cette sortie fait référence à des fonctions des bibliothèques OCCT. Si ce type de crash se produit, le problème doit être signalé et résolu dans OCCT plutôt que dans FreeCAD.
 
-Voir les discussions du forum pour plus d\'informations    *
+Voir les discussions du forum pour plus d\'informations :
 
--   [Bug Chamfer bigger than 2mm crashes freecad](https   *//forum.freecadweb.org/viewtopic.php?p=263818#p263818)
--   [Segfault when using part design fillet](https   *//forum.freecadweb.org/viewtopic.php?p=264827#p264827)
+-   [Bug Chamfer bigger than 2mm crashes freecad](https://forum.freecadweb.org/viewtopic.php?p=263818#p263818)
+-   [Segfault when using part design fillet](https://forum.freecadweb.org/viewtopic.php?p=264827#p264827)
 
 ### Dénomination topologique 
 

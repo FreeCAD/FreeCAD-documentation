@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Part Compound‏‎
-   Name/pl   *Część   * Złożenie
-   MenuLocation   *Część → Złożenie
-   Workbenches   *[Część](Part_Workbench/pl.md)
-   Version   *0.14
-   SeeAlso   *[Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
+- GuiCommand:/pl
+   Name:Part Compound‏‎
+   Name/pl:Część: Złożenie
+   MenuLocation:Część → Złożenie
+   Workbenches:[Część](Part_Workbench/pl.md)
+   Version:0.14
+   SeeAlso:[Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
 ---
 
 # Part Compound/pl
@@ -17,7 +17,7 @@ To polecenie tworzy złożenie obiektów o topologicznym kształcie, takich jak 
 ## Użycie
 
 1.  Zaznacz w [widoku drzewa](Tree_view/pl.md) drzewa kształty topologiczne, które mają zostać dodane do złożenia,
-2.  Wybierz z menu **Część → Złożenie → Utwórz kształt złożony** lub kliknij na przycisk <img alt="" src=images/Part_Compound.svg  style="width   *24px;">
+2.  Wybierz z menu **Część → Złożenie → Utwórz kształt złożony** lub kliknij na przycisk <img alt="" src=images/Part_Compound.svg  style="width:24px;">
 
 ## Uwagi
 

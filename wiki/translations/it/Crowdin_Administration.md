@@ -21,12 +21,12 @@
 
 </div>
 
-<img alt="" src=images/Crowdin_Filter_Strings.png  style="width   *500px;">
+<img alt="" src=images/Crowdin_Filter_Strings.png  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crowdin_Filter_Strings.png  style="width   *300px;"> Il filtraggio delle stringhe è una funzione utile per revisori e manager. Permette di ordinare in modo efficace molte stringhe di traduzione, per esempio mostra solo le stringhe che sono state contrassegnate come \'mancanti di informazioni più contestuali\' o \'stringa sorgente errata\'. Questo servizio che i traduttori stanno facendo per FreeCAD fornisce un ulteriore livello di test di garanzia della qualità. Molti errori di battitura, problemi di grammatica e persino bug possono essere scoperti controllando le stringhe di traduzione. Gli utenti contrassegnano queste stringhe problematiche in modo che possiamo rispondere e alla fine risolverle.
+<img alt="" src=images/Crowdin_Filter_Strings.png  style="width:300px;"> Il filtraggio delle stringhe è una funzione utile per revisori e manager. Permette di ordinare in modo efficace molte stringhe di traduzione, per esempio mostra solo le stringhe che sono state contrassegnate come \'mancanti di informazioni più contestuali\' o \'stringa sorgente errata\'. Questo servizio che i traduttori stanno facendo per FreeCAD fornisce un ulteriore livello di test di garanzia della qualità. Molti errori di battitura, problemi di grammatica e persino bug possono essere scoperti controllando le stringhe di traduzione. Gli utenti contrassegnano queste stringhe problematiche in modo che possiamo rispondere e alla fine risolverle.
 
 
 </div>
@@ -39,7 +39,7 @@
 
 </div>
 
-<img alt="" src=images/Crowdin_keyboard_shortcuts.png  style="width   *300px;">
+<img alt="" src=images/Crowdin_keyboard_shortcuts.png  style="width:300px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -49,31 +49,31 @@
 
 </div>
 
-**Nota importante   *** fare attenzione a non introdurre errori nelle stringhe di traduzione generate da pressioni di tasti inaffidabili che avrebbero dovuto essere una scorciatoia da tastiera.
+**Nota importante:** fare attenzione a non introdurre errori nelle stringhe di traduzione generate da pressioni di tasti inaffidabili che avrebbero dovuto essere una scorciatoia da tastiera.
 
-**Frequently used shortcuts   ***
+**Frequently used shortcuts:**
 
--   Copy source translation   * **Alt**+**C**
--   Save translation   * **Ctrl**+**Enter**
--   Approve translation   * **Alt**+**L** (relevant for proofreaders)
+-   Copy source translation: **Alt**+**C**
+-   Save translation: **Ctrl**+**Enter**
+-   Approve translation: **Alt**+**L** (relevant for proofreaders)
 
 ## Fix translation issues 
 
-If you notice a string in the FreeCAD UI that is not translated do the following   *
+If you notice a string in the FreeCAD UI that is not translated do the following:
 
 1.  If you are not sure to which workbench the string belongs, first locate it in the FreeCAD source code. On Linux you can use {{Incode|grep -r "English text" *}}.
-2.  For example, if the string is {{Incode|"Solver Calculix Standard"}} you will find this file   * **src/Mod/Fem/femcommands/commands.py**, and you will know that the string belongs to the FEM workbench.
-3.  Now search for this string on Crowdin. If your language is French visit <https   *//crowdin.com/project/freecad/fr>, go to the FEM workbench, and check if it is there and translated.
-4.  There two possibilities   *
-    1.  The string is not on Crowdin because it has not been picked up by the script that gathers strings from the FreeCAD source code and packs them into **.ts** files. There can be two reasons for this   *
+2.  For example, if the string is {{Incode|"Solver Calculix Standard"}} you will find this file: **src/Mod/Fem/femcommands/commands.py**, and you will know that the string belongs to the FEM workbench.
+3.  Now search for this string on Crowdin. If your language is French visit <https://crowdin.com/project/freecad/fr>, go to the FEM workbench, and check if it is there and translated.
+4.  There two possibilities:
+    1.  The string is not on Crowdin because it has not been picked up by the script that gathers strings from the FreeCAD source code and packs them into **.ts** files. There can be two reasons for this:
         -   The string is not properly handled by {{Incode|translate()}} code (or {{Incode|QT_TRANSLATE_NOOP()}} code for special cases like command names), that means there is a problem that must be solved in the source code.
         -   Everything seems normal, but the gathering script has a problem with that specific string, which can happen as it has many bugs.
-    2.  The string is on Crowdin. There are several possibilities then   *
+    2.  The string is on Crowdin. There are several possibilities then:
         -   It might be that the latest Crowdin strings have not yet been merged. You can check if that\'s the case by searching for the string (see above), and check if it appears in the translated **.ts** files. In our example {{Incode|"Solver Calculix Standard"}} would then be found in **src/Mod/Fem/Gui/Resources/translations/Fem_fr.ts**. This indicates that the translated string is in the FreeCAD source and everything should be fine in the next build.
-        -   If the string is still missing in the next build, the problem is more complex and we\'ll need to do some debugging   *
+        -   If the string is still missing in the next build, the problem is more complex and we\'ll need to do some debugging:
             1.  Check in the source file if the original string is handled by {{Incode|translate()}} or {{Incode|QT_TRANSLATE_NOOP()}}.
             2.  Verify that the context matches what is on Crowdin.
-            3.  In case of {{Incode|QT_TRANSLATE_NOOP()}}, there are several particular cases. For commands, the context must be the exact command name, the same as used in {{Incode|FreeCADGui.runCommand()}}. For properties it must be {{Incode|"App   *   *Property"}}. For the names of menus and toolbars it must be {{Incode|"Workbench"}}.
+            3.  In case of {{Incode|QT_TRANSLATE_NOOP()}}, there are several particular cases. For commands, the context must be the exact command name, the same as used in {{Incode|FreeCADGui.runCommand()}}. For properties it must be {{Incode|"App::Property"}}. For the names of menus and toolbars it must be {{Incode|"Workbench"}}.
 
 
 <div class="mw-translate-fuzzy">
@@ -92,11 +92,6 @@ If you notice a string in the FreeCAD UI that is not translated do the following
 
 
 </div>
-
-
-
-
-[Category   *Administration](Category_Administration.md)
 
 
 

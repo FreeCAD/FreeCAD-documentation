@@ -1,19 +1,19 @@
 # Developer hub/de
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;">
+{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
 
 
 
 Dies ist die Stelle, wenn Du zur Entwicklung der FreeCAD-Software beitragen möchtest.
 
-Diese Seiten sind in einem frühen Stadium. Wenn Du nicht die Informationen findest, nach denen Du suchst oder hilfreiche Informationen an anderer Stelle gefunden hast, auf die wir nicht verwiesen haben, dann hinterlasse bitte einen Kommentar im [Forum](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) und jemand wird danach gucken (oder wenn Du magst, kannst Du diese Seite selbst ändern!).
+Diese Seiten sind in einem frühen Stadium. Wenn Du nicht die Informationen findest, nach denen Du suchst oder hilfreiche Informationen an anderer Stelle gefunden hast, auf die wir nicht verwiesen haben, dann hinterlasse bitte einen Kommentar im [Forum](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) und jemand wird danach gucken (oder wenn Du magst, kannst Du diese Seite selbst ändern!).
 
 ## Entwicklerdokumentation
 
-Die Entwicklerdokumentation umfasst die folgenden Abschnitte   *
+Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
 ### FreeCAD kompilieren 
 
--   [Github Repo](https   *//github.com/FreeCAD/FreeCAD). Wenn du neu bei Git bist, lies [Quellcode Verwaltung](Source_code_management/de.md)
+-   [Github Repo](https://github.com/FreeCAD/FreeCAD). Wenn du neu bei Git bist, lies [Quellcode Verwaltung](Source_code_management/de.md)
 -   [Kompilieren mit Docker](Compile_on_Docker.md)
 -   [Kompilieren auf Windows](Compile_on_Windows/de.md)
 -   [Komplieren auf Unix](Compile_on_Linux/de.md)
@@ -62,9 +62,9 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte   *
 
 ### Modul Entwicklerhandbuch 
 
-[FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide)   * Dies ist ein ebook gerade auf github geschrieben , bitte teilen und pull request senden, um beizutragen.
+[FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): Dies ist ein ebook gerade auf github geschrieben , bitte teilen und pull request senden, um beizutragen.
 
-Kapitel   *
+Kapitel:
 
 -   Überblick und Software Architektur
 -   Quellcode Struktur
@@ -77,7 +77,7 @@ Kapitel   *
 -   Modul Test und Fehlersuche
 -   Code beitragen mit git
 
-Die neueste pdf Vorschau kann aus dem [pdf-Ordner](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) dieses Git Repos heruntergeladen werden.
+Die neueste pdf Vorschau kann aus dem [pdf-Ordner](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) dieses Git Repos heruntergeladen werden.
 
 ### Internas
 
@@ -85,24 +85,24 @@ Die neueste pdf Vorschau kann aus dem [pdf-Ordner](https   *//github.com/qingfen
 
 OpenCascade ist eine Software Entwicklungsplattform für 3D Oberflächen- und Volumenmodellierung, CAD Datenaustausch und Visualisierung, meist in Form von C++ Bibliotheken.
 
--   [Roman Lygins Tutorien](http   *//opencascade.wikidot.com/romansarticles)
--   [Komplette Online Dokumentation](https   *//dev.opencascade.org/cdoc/overview/html/index.html)
--   [Referenzhandbuch](https   *//dev.opencascade.org/doc/refman/html/index.html)
--   [The openCascade wiki](http   *//opencascade.wikidot.com) (Enthält gegenwärtig ?? Chinesischen Spam)
+-   [Roman Lygins Tutorien](http://opencascade.wikidot.com/romansarticles)
+-   [Komplette Online Dokumentation](https://dev.opencascade.org/cdoc/overview/html/index.html)
+-   [Referenzhandbuch](https://dev.opencascade.org/doc/refman/html/index.html)
+-   [The openCascade wiki](http://opencascade.wikidot.com) (Enthält gegenwärtig ?? Chinesischen Spam)
 
 #### Dateiformat
 
-[File Format FCStd](File_Format_FCStd/de.md). Bei den mit FreeCAD erstellten Dateien handelt es sich um `.zip` Dateien, die die [BREP](https   *//de.wikipedia.org/wiki/Boundary_Representation/de.md)-Geometrie sowie XML-Daten zur Beschreibung des Dokuments enthalten.
+[File Format FCStd](File_Format_FCStd/de.md). Bei den mit FreeCAD erstellten Dateien handelt es sich um `.zip` Dateien, die die [BREP](https://de.wikipedia.org/wiki/Boundary_Representation/de.md)-Geometrie sowie XML-Daten zur Beschreibung des Dokuments enthalten.
 
 #### Skizzierer Löser 
 
--   [Sketcher Solver Architecture Booklet](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=36355) (Forum Thread), [source](https   *//github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
--   [PlaneGCS solver](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) im FreeCAD Quellcode; wichtige Dateien sind [GCS.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) und [SubSystem.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
--   [Einige jüngste Skizzierer Verbesserungen](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192).
+-   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (Forum Thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
+-   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) im FreeCAD Quellcode; wichtige Dateien sind [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) und [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
+-   [Einige jüngste Skizzierer Verbesserungen](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
 
-Der Skizzierer Löser ist nicht perfekt, da es einige Probleme mit numerischer Präzision bei der Verwendung großer Werte gibt, siehe [Abenteuer der Fixierung des Skizzierer Lösers für große Skizzen](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+Der Skizzierer Löser ist nicht perfekt, da es einige Probleme mit numerischer Präzision bei der Verwendung großer Werte gibt, siehe [Abenteuer der Fixierung des Skizzierer Lösers für große Skizzen](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
 
-Die Entwicklung einer neuen Löserarchitektur könnte die Verwendung des Lösers sowohl in der [Sketcher Arbeitsbereich](Sketcher_Workbench/de.md) als auch für die Montage von 3D Körpern verbessern. Siehe [Reimplementieren des Beschränkungslösers](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=40525).
+Die Entwicklung einer neuen Löserarchitektur könnte die Verwendung des Lösers sowohl in der [Sketcher Arbeitsbereich](Sketcher_Workbench/de.md) als auch für die Montage von 3D Körpern verbessern. Siehe [Reimplementieren des Beschränkungslösers](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
 ## Fahrplan
 
@@ -112,19 +112,14 @@ FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen
 
 ## Gemeinschaft
 
--   [IRC Kanal](irc   *//chat.freenode.net/freecad) ,synchronisiert mit [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
--   [Entwicklungsforum](https   *//forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC Kanal](irc://chat.freenode.net/freecad) ,synchronisiert mit [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Entwicklungsforum](https://forum.freecadweb.org/viewforum.php?f=6)
 
 -   [Entwicklungsfahrplan](Development_roadmap/de.md)
 
 ## Danksagungen
 
 [Mitwirkende](Contributors/de.md)
-
-
-
-
-[Category   *Hubs](Category_Hubs.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

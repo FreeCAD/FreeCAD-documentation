@@ -1,7 +1,7 @@
 # FreeCADGui API/it
-**(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https   *//www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
+**(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
 
-Questo modulo è la controparte del modulo FreeCAD. Contiene tutto ciò che riguarda l\'interfaccia utente e le viste 3D. Esempio   * 
+Questo modulo è la controparte del modulo FreeCAD. Contiene tutto ciò che riguarda l\'interfaccia utente e le viste 3D. Esempio: 
 ```python
 import FreeCAD as App
 import FreeCADGui as Gui
@@ -65,11 +65,6 @@ gui_doc.activateWorkbench("myWorkbench")
 
 
 {{APIFunction|updateGui| |Aggiorna la finestra principale e tutte le sue finestre| }}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

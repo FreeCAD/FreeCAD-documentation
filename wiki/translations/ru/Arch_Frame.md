@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Каркас
-   Name   *Arch_Frame
-   MenuLocation   *Arch → Каркас
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***F** **R**
-   SeeAlso   *[Стена](Arch_Wall/ru.md), [Структура](Arch_Structure/ru.md)
+- GuiCommand:/ru
+   Name/ru:Каркас
+   Name:Arch_Frame
+   MenuLocation:Arch → Каркас
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**F** **R**
+   SeeAlso:[Стена](Arch_Wall/ru.md), [Структура](Arch_Structure/ru.md)
 ---
 
 # Arch Frame/ru
@@ -20,7 +20,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -44,15 +44,15 @@
 
 ## Свойства
 
--    **Base**   * The layout this frame is based on.
+-    **Base**: The layout this frame is based on.
 
--    **Profile**   * The profile this frame is based on.
+-    **Profile**: The profile this frame is based on.
 
--    **Align**   * Specifies if the profile must be rotated to have its normal axis aligned with each edge.
+-    **Align**: Specifies if the profile must be rotated to have its normal axis aligned with each edge.
 
--    **Offset**   * An optional distance between the layout object and the frame object.
+-    **Offset**: An optional distance between the layout object and the frame object.
 
--    **Rotation**   * The rotation of the profile around its extrusion axis.
+-    **Rotation**: The rotation of the profile around its extrusion axis.
 
 ## Программирование
 
@@ -62,14 +62,14 @@
 ## Программирование 
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 </div>
 
-The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Frame = makeFrame(baseobj, profile)
 ```
@@ -85,7 +85,7 @@ Frame = makeFrame(baseobj, profile)
         
         is an extrudable 2D object containing faces or closed wires.
 
-Пример   * 
+Пример: 
 ```python
 import Draft, Arch
 

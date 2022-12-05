@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Polygon
-   Name/tr   *Çokgen
-   MenuLocation   *Taslak → Çokgen
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut   ***P** **G**
-   SeeAlso   *[Çember](Draft_Circle/tr.md)
-   Version   *0.7
+- GuiCommand:/tr
+   Name:Draft Polygon
+   Name/tr:Çokgen
+   MenuLocation:Taslak → Çokgen
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**P** **G**
+   SeeAlso:[Çember](Draft_Circle/tr.md)
+   Version:0.7
 ---
 
 # Draft Polygon/tr
@@ -34,7 +34,7 @@
 
 </div>
 
-<img alt="" src=images/Draft_polygon_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +47,7 @@
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -97,17 +97,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
 
 ## Özellikler
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -119,17 +119,17 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Veri
 
--    {{PropertyData/tr|Radius}}   * Çokgeni tanımlayan dairenin yarıçapını belirtir.
+-    {{PropertyData/tr|Radius}}: Çokgeni tanımlayan dairenin yarıçapını belirtir.
 
--    {{PropertyData/tr|Draw Mode}}   * Çokgenin bir daire içine mi yazıldığını yoksa bir daire içine mi yazıldığını belirtir.
+-    {{PropertyData/tr|Draw Mode}}: Çokgenin bir daire içine mi yazıldığını yoksa bir daire içine mi yazıldığını belirtir.
 
--    {{PropertyData/tr|Faces Number}}   * Çokgenin kenar sayısını belirtir.
+-    {{PropertyData/tr|Faces Number}}: Çokgenin kenar sayısını belirtir.
 
--    {{PropertyData/tr|Chamfer Size}}   * Çokgenin köşelerinde oluşturulan olukların (düz bölümler) boyutunu belirtir.
+-    {{PropertyData/tr|Chamfer Size}}: Çokgenin köşelerinde oluşturulan olukların (düz bölümler) boyutunu belirtir.
 
--    {{PropertyData/tr|Fillet Radius}}   * Çokgenin köşelerinde oluşturulan filetoların (yay parçaları) yarıçapını belirtir.
+-    {{PropertyData/tr|Fillet Radius}}: Çokgenin köşelerinde oluşturulan filetoların (yay parçaları) yarıçapını belirtir.
 
--    {{PropertyData/tr|Make Face}}   * şeklin bir yüz yapıp yapmamasını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir.
+-    {{PropertyData/tr|Make Face}}: şeklin bir yüz yapıp yapmamasını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir.
 
 
 </div>
@@ -144,9 +144,9 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Görünüm
 
--    {{PropertyView/tr|Pattern}}   * Çokgenin yüzünü doldurmak için bir [Taslak Deseni](Draft_Pattern.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Pattern}}: Çokgenin yüzünü doldurmak için bir [Taslak Deseni](Draft_Pattern.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Pattern Size}}   * [Desen](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
+-    {{PropertyView/tr|Pattern Size}}: [Desen](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
 
 
 </div>
@@ -159,7 +159,7 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 ## Betik
 
 
-**Ayrıca bkz.   ***
+**Ayrıca bkz.:**
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -169,7 +169,7 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
-Çokgen aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
+Çokgen aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
 
 
 </div>
@@ -194,7 +194,7 @@ polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=No
 
 </div>
 
-Örnek   * 
+Örnek: 
 ```python
 import FreeCAD as App
 import Draft

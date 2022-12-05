@@ -1,9 +1,9 @@
 # Vector API/pl
-**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https   *//www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
 Wektory są używane dosłownie wszędzie w programie FreeCAD.
 
-Przykład   * 
+Przykład: 
 ```python
 v=FreeCAD.Vector()
 v=FreeCAD.Vector(1,0,0)
@@ -63,11 +63,6 @@ print v3.Length
 
 
 {{APIProperty|z|współrzędna z wektora.}}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

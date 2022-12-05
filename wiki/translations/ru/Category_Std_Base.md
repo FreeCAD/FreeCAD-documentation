@@ -1,8 +1,6 @@
 # Category:Std Base/ru
 This category list pages related to the [Std Base](Std_Base/ru.md), which collects commands from the base system which do not belong to any of the workbenches.
 
-[Category   *User_Documentation/ru](Category   *User_Documentation/ru.md)
-
 ### Contents
 
 |     |     |     |

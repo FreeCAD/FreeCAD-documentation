@@ -1,8 +1,6 @@
 # Category:Workbenches/zh-cn
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/zh-cn](Category   *User_Documentation/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

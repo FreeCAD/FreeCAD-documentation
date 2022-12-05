@@ -1,6 +1,6 @@
 # Sketcher CreateSlot/es
 ---
-- GuiCommand   */es   Name   *Sketcher CreateSlot   Name/es   *Sketcher CreateSlot   Workbenches   *[[Sketcher Workbench/es   Sketcher]]|MenuLocation   *Sketch → Sketcher geometries → Create slot   Shortcut   *   SeeAlso   *---
+- GuiCommand:/es   Name:Sketcher CreateSlot   Name/es:Sketcher CreateSlot   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create slot   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -15,7 +15,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 ## Usage
 
--   After pressing the <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *24px;"> **Create slot** toolbar button, click once to set the center of one semicircle, then move the mouse and click a second time to set center of the other semicircle.
+-   After pressing the <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Create slot** toolbar button, click once to set the center of one semicircle, then move the mouse and click a second time to set center of the other semicircle.
 -   Holding **Ctrl** when creating the second point will constrain the slot to be drawn horizontally or vertically <small>(v0.20)</small> 
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 

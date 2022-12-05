@@ -1,8 +1,6 @@
 # Category:Command Reference/ru
 Эта категория содержит страницы помощи для команд FreeCAD, переведённые (хотя бы частично) на русский язык. Страницы на английском языке смотрите [ здесь](List_of_Commands.md).
 
-[Category   *Categories/ru](Category   *Categories/ru.md)
-
 ### Contents
 
 |     |     |     |

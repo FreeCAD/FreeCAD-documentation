@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Вставить объект верстака Draft
-   Name   *TechDraw_DraftView
-   MenuLocation   *TechDraw → Вставить объект верстака Draft
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md), [Draft](Draft_Workbench/ru.md)
-   SeeAlso   *[Вставить объект верстака Arch](TechDraw_ArchView/ru.md)
+- GuiCommand:/ru
+   Name/ru:Вставить объект верстака Draft
+   Name:TechDraw_DraftView
+   MenuLocation:TechDraw → Вставить объект верстака Draft
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Draft](Draft_Workbench/ru.md)
+   SeeAlso:[Вставить объект верстака Arch](TechDraw_ArchView/ru.md)
 ---
 
 # TechDraw DraftView/ru
 
 ## Описание
 
-The <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See [Notes](#Notes.md).
+The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See [Notes](#Notes.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Draft elements like circles and arrays imported into a TechDraw drawing page*
@@ -28,7 +28,7 @@ The <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [Draf
 -   Creating a DraftView of a layer will recursively handle all objects found in that layer. The View is updated automatically when the contents of the layer changes
 -   There is no hidden line removal. Each face found in the handled object(s) will simply be projected along the Direction vector, no specific action is taken when faces overlap
 -   The Draft View also supports all Draft objects that are not Part-based, such as dimensions and texts
--   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https   *//www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
+-   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
 -   Projected faces are filled with the face color
 
 ## Свойства
@@ -40,21 +40,21 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Draft view}}
 
--    **Source|Link**   * The Draft object to be displayed.
+-    **Source|Link**: The Draft object to be displayed.
 
--    **Line Width|Float**   * The width of the lines, independently of the scale.
+-    **Line Width|Float**: The width of the lines, independently of the scale.
 
--    **Font Size|Float**   * The size of all texts appearing in this view (texts and dimensions).
+-    **Font Size|Float**: The size of all texts appearing in this view (texts and dimensions).
 
--    **Direction|Vector**   * The projection direction to use.
+-    **Direction|Vector**: The projection direction to use.
 
--    **Color|Color**   * The color of lines.
+-    **Color|Color**: The color of lines.
 
--    **Line Style|String**   * A line style to use for this view. Can be {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} or an SVG line pattern like {{Value|0.20,0.20}}.
+-    **Line Style|String**: A line style to use for this view. Can be {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} or an SVG line pattern like {{Value|0.20,0.20}}.
 
--    **Line Spacing|Float**   * The spacing to use between lines of texts for multiline texts.
+-    **Line Spacing|Float**: The spacing to use between lines of texts for multiline texts.
 
--    **Override Style|Bool**   * If `True`, line color, width and style of this view will override those of the rendered object.
+-    **Override Style|Bool**: If `True`, line color, width and style of this view will override those of the rendered object.
 
 
 <div class="mw-translate-fuzzy">
@@ -69,15 +69,15 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The New Draft tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The New Draft tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-dv = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDraft','TestDraft')
+dv = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDraft','TestDraft')
 dv.Source = myDraftbject
 rc = page.addView(dv)
 ```

@@ -1,6 +1,6 @@
 # Part BooleanFragments/it
 ---
-- GuiCommand   */it   Name   *Part BooleanFragments   Name/it   *Frammenti booleani   MenuLocation   *Part → Dividi → Frammenti booleani   Workbenches   *[SeeAlso   *[[Part_Slice/it   Affetta in composto](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Congiungi](Part_CompJoinFeatures/it.md), [Operazione booleana](Part_Boolean/it.md)|Version   *0.17.8053---
+- GuiCommand:/it   Name:Part BooleanFragments   Name/it:Frammenti booleani   MenuLocation:Part → Dividi → Frammenti booleani   Workbenches:[SeeAlso:[[Part_Slice/it   Affetta in composto](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Congiungi](Part_CompJoinFeatures/it.md), [Operazione booleana](Part_Boolean/it.md)|Version:0.17.8053---
 
 
 </div>
@@ -27,9 +27,9 @@ La forma in uscita è sempre un composto. Il contenuto del composto dipende dai 
 
 </div>
 
-Lo strumento dispone di tre modalità   * \"Standard\", \"Split\", e \"CompSolid\".
+Lo strumento dispone di tre modalità: \"Standard\", \"Split\", e \"CompSolid\".
 
-Le modalità \"Standard\" e \"Split\" differiscono per l\'azione dello strumento su wire, shell e compsolid   * se si usa \"Split\", essi sono separati; se si usa \"Standard\", essi sono mantenuti insieme (si ottengono dei segmenti in più).
+Le modalità \"Standard\" e \"Split\" differiscono per l\'azione dello strumento su wire, shell e compsolid: se si usa \"Split\", essi sono separati; se si usa \"Standard\", essi sono mantenuti insieme (si ottengono dei segmenti in più).
 
 La struttura del composto nelle modalità \"Split\" e \"Standard\" segue la struttura dei composti in ingresso. Cioè, se si forniscono due composti, ciascuno contenente una sfera come su nell\'esempio precedente, anche il risultato contiene due composti, ciascuno contenente i pezzi della sfera originariamente contenuta. Ciò significa che nel risultato il pezzo comune è ripetuto due volte. Solo se le sfere in ingresso sono entrambi dei non composti, il risultato contiene il pezzo comune una volta sola.
 
@@ -60,11 +60,11 @@ Viene creato un oggetto parametrico Boolean Fragments. Vengono nascosti gli ogge
 
 {{TitleProperty|Boolean Fragments}}
 
--    **Objects**   * Elenco degli oggetti da intersecare. Generalmente, sono necessari almeno due oggetti, ma va anche bene un unico composto contenente le forme di intersecare. (da FreeCAD v0.17.8053, questa proprietà non viene visualizzata nell\'editor delle proprietà, e si può accedere solo tramite Python).
+-    **Objects**: Elenco degli oggetti da intersecare. Generalmente, sono necessari almeno due oggetti, ma va anche bene un unico composto contenente le forme di intersecare. (da FreeCAD v0.17.8053, questa proprietà non viene visualizzata nell\'editor delle proprietà, e si può accedere solo tramite Python).
 
--    **Mode**   * \"Standard\", \"Split\", o \"CompSolid\". \"Standard\" è il default. Standard e Split differiscono per l\'azione dello strumento sull\'aggregazione delle forme; se \"Split\", essi sono separati; se \"Standard\", essi sono mantenuti insieme (si ottengono dei segmenti in più).
+-    **Mode**: \"Standard\", \"Split\", o \"CompSolid\". \"Standard\" è il default. Standard e Split differiscono per l\'azione dello strumento sull\'aggregazione delle forme; se \"Split\", essi sono separati; se \"Standard\", essi sono mantenuti insieme (si ottengono dei segmenti in più).
 
--    **Tolerance**   * valore di \"confusione\". Questa è una tolleranza supplementare da applicare durante la ricerca delle intersezioni, oltre alle tolleranze memorizzate nelle forme in ingresso.
+-    **Tolerance**: valore di \"confusione\". Questa è una tolleranza supplementare da applicare durante la ricerca delle intersezioni, oltre alle tolleranze memorizzate nelle forme in ingresso.
 
 ## Implementation details 
 
@@ -73,7 +73,7 @@ Viene creato un oggetto parametrico Boolean Fragments. Vengono nascosti gli ogge
 
 ## Dettagli dell\'implementazione 
 
-Lo strumento Boolean Fragments in \"Modalità Standard\" è un General Fuse Operator (GFA) di OpenCascade. Esso accetta una combinazione di tutti tipi di forme probabili, e la logica dell\'output è piuttosto complicata. Vedere [OpenCascade user guide   * Boolean operations](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
+Lo strumento Boolean Fragments in \"Modalità Standard\" è un General Fuse Operator (GFA) di OpenCascade. Esso accetta una combinazione di tutti tipi di forme probabili, e la logica dell\'output è piuttosto complicata. Vedere [OpenCascade user guide: Boolean operations](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 
 
 </div>
@@ -85,7 +85,7 @@ Per le modalità \"Split\" e \"CompSolid\", la post-elaborazione in più è fatt
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione   *
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione:
 
 
 </div>
@@ -95,18 +95,18 @@ Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console 
 -   Crea una funzione BooleanFragments vuota. Le proprietà \'Objects\' devono essere assegnate in modo esplicito, in seguito.
 -   Restituisce l\'oggetto appena creato.
 
-BooleanFragments può essere applicato anche a forme piane, senza la necessità di avere un document object, attraverso   * {{code|code=
+BooleanFragments può essere applicato anche a forme piane, senza la necessità di avere un document object, attraverso: {{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 
-# OR, for Standard mode   *
+# OR, for Standard mode:
 
 list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
-pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1   *], tolerance)
+pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
 # pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence 
 }} Questo può essere utile per creare delle funzioni personalizzate con script Python.
 
-Esempio   * {{code|code=
+Esempio: {{code|code=
 import BOPTools.SplitFeatures
 j = BOPTools.SplitFeatures.makeBooleanFragments(name= 'BooleanFragments')
 j.Objects = FreeCADGui.Selection.getSelection() 

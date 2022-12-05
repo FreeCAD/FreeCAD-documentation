@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Snap Grid
-   Name/tr   *Taslak Izgara
-   MenuLocation   *Taslak → [Snapping](Draft_Snap/tr.md) → Izgara
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso   *[IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
+- GuiCommand:/tr
+   Name:Draft Snap Grid
+   Name/tr:Taslak Izgara
+   MenuLocation:Taslak → [Snapping](Draft_Snap/tr.md) → Izgara
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   SeeAlso:[IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
 ---
 
 # Draft Snap Grid/tr
@@ -59,8 +59,8 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
--   To use the grid select   * **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
+-   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
 
 <div class="mw-translate-fuzzy">

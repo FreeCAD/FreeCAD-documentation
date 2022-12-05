@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher CreatePointFillet
-   MenuLocation   *Sketch → Sketcher geometries → Create corner-preserving fillet
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***G** **F** **P**
-   Version   *0.19
-   SeeAlso   *[Sketcher CreateFillet](Sketcher_CreateFillet.md)
+- GuiCommand:
+   Name:Sketcher CreatePointFillet
+   MenuLocation:Sketch → Sketcher geometries → Create corner-preserving fillet
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **F** **P**
+   Version:0.19
+   SeeAlso:[Sketcher CreateFillet](Sketcher_CreateFillet.md)
 ---
 
 # Sketcher CreatePointFillet/en

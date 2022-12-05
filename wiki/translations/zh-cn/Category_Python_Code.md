@@ -1,8 +1,6 @@
 # Category:Python Code/zh-cn
 This category contains python code examples for FreeCAD
 
-[Category   *Categories/zh-cn](Category   *Categories/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

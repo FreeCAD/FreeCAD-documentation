@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Le geometrie che appaiono nelle viste 3D di FreeCAD sono visualizzate (renderizzate) dalla libreria [Coin3d](http   *//en.wikipedia.org/wiki/Coin3D). Coin3D è un\'implementazione delle funzionalità standard di [OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor). Anche il software [openCascade](http   *//en.wikipedia.org/wiki/Open_CASCADE) fornisce queste funzionalità, ma, fin dagli inizi dello sviluppo di FreeCAD, è stato deciso di non utilizzare il visualizzatore di OpenCascade e di sostituirlo con il software Coin3D in quanto più performante. Un buon modo per conoscere questa libreria è quello di consultare il manuale [Open Inventor Mentor](http   *//www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/).
+Le geometrie che appaiono nelle viste 3D di FreeCAD sono visualizzate (renderizzate) dalla libreria [Coin3d](http://en.wikipedia.org/wiki/Coin3D). Coin3D è un\'implementazione delle funzionalità standard di [OpenInventor](http://en.wikipedia.org/wiki/Open_Inventor). Anche il software [openCascade](http://en.wikipedia.org/wiki/Open_CASCADE) fornisce queste funzionalità, ma, fin dagli inizi dello sviluppo di FreeCAD, è stato deciso di non utilizzare il visualizzatore di OpenCascade e di sostituirlo con il software Coin3D in quanto più performante. Un buon modo per conoscere questa libreria è quello di consultare il manuale [Open Inventor Mentor](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/).
 
 
 </div>
@@ -16,7 +16,7 @@ Le geometrie che appaiono nelle viste 3D di FreeCAD sono visualizzate (renderizz
 
 <div class="mw-translate-fuzzy">
 
-[OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor) è in realtà un linguaggio di descrizione della scena 3D. La scena descritta in OpenInventor viene renderizzata (visualizzata) sul vostro schermo con OpenGL. Coin3D si occupa di questo processo, quindi non è necessario che il programmatore tratti complesse chiamate a OpenGL, ma deve solo fornire un codice OpenInventor valido. Il principale vantaggio è che OpenInventor è uno standard molto conosciuto e ben documentato.
+[OpenInventor](http://en.wikipedia.org/wiki/Open_Inventor) è in realtà un linguaggio di descrizione della scena 3D. La scena descritta in OpenInventor viene renderizzata (visualizzata) sul vostro schermo con OpenGL. Coin3D si occupa di questo processo, quindi non è necessario che il programmatore tratti complesse chiamate a OpenGL, ma deve solo fornire un codice OpenInventor valido. Il principale vantaggio è che OpenInventor è uno standard molto conosciuto e ben documentato.
 
 
 </div>
@@ -32,7 +32,7 @@ Sostanzialmente, uno dei lavori più importanti che FreeCAD esegue per noi consi
 
 <div class="mw-translate-fuzzy">
 
-OpenInventor descrive una scena 3D in forma di [scena grafica](http   *//en.wikipedia.org/wiki/Scene_graph) (Scenegraph), come quello seguente   *
+OpenInventor descrive una scena 3D in forma di [scena grafica](http://en.wikipedia.org/wiki/Scene_graph) (Scenegraph), come quello seguente:
 
 
 </div>
@@ -42,7 +42,7 @@ OpenInventor descrive una scena 3D in forma di [scena grafica](http   *//en.wiki
 
 <div class="mw-translate-fuzzy">
 
-![](images/Scenegraph.gif ) immagine da [Inventor mentor](http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html)
+![](images/Scenegraph.gif ) immagine da [Inventor mentor](http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html)
 
 
 </div>
@@ -50,7 +50,7 @@ OpenInventor descrive una scena 3D in forma di [scena grafica](http   *//en.wiki
 
 <div class="mw-translate-fuzzy">
 
-Un grafo di scena di OpenInventor è una struttura di tipo \"grafico ad albero\" e descrive tutto ciò che fa parte di una scena 3D, come ad esempio la geometria, i colori, i materiali, le luci, ecc, e organizza tutti i dati in una struttura gerarchica, pratica e chiara. Tutto può essere raggruppato in sotto-strutture (nodi-figlio), il che consente di organizzare i contenuti della scena più o meno nel modo desiderato. Ecco un esempio di un file di OpenInventor   *
+Un grafo di scena di OpenInventor è una struttura di tipo \"grafico ad albero\" e descrive tutto ciò che fa parte di una scena 3D, come ad esempio la geometria, i colori, i materiali, le luci, ecc, e organizza tutti i dati in una struttura gerarchica, pratica e chiara. Tutto può essere raggruppato in sotto-strutture (nodi-figlio), il che consente di organizzare i contenuti della scena più o meno nel modo desiderato. Ecco un esempio di un file di OpenInventor:
 
 
 </div>
@@ -100,7 +100,7 @@ Per organizzare la una scena, sono disponibili molti altri tipi di elementi, com
 
 <div class="mw-translate-fuzzy">
 
-Se siete interessati a saperne di più su OpenInventor, consultate direttamente il suo manuale più famoso   * il libro [Inventor mentor](http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html).
+Se siete interessati a saperne di più su OpenInventor, consultate direttamente il suo manuale più famoso: il libro [Inventor mentor](http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html).
 
 
 </div>
@@ -124,7 +124,7 @@ Potere accedere al direttamente al grafico di scena presenta comunque molti vant
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD dispone di diversi strumenti per visualizzare o modificare il codice OpenInventor. Ad esempio, il seguente codice Python mostra la rappresentazione OpenInventor di un oggetto selezionato   *
+FreeCAD dispone di diversi strumenti per visualizzare o modificare il codice OpenInventor. Ad esempio, il seguente codice Python mostra la rappresentazione OpenInventor di un oggetto selezionato:
 
 
 </div>
@@ -147,15 +147,7 @@ Inoltre, c\'è anche un modulo Python che consente l\'accesso completo a tutto q
 
 ## Esempi di codifica 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https   *//github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https://github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
 
 
 

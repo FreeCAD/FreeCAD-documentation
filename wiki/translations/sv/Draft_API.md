@@ -8,7 +8,7 @@ Dessa funktioner är en del av Skissmodulen och kan användas i skript och makro
 
 These functions are part of the [Draft Workbench](Draft_Workbench.md) and can be used in [macros](macros.md) and from the [Python](Python.md) console once the `Draft` module has been imported.
 
-Exempel   * 
+Exempel: 
 ```python
 import FreeCAD, Draft
 
@@ -82,14 +82,6 @@ Draft.move(myrect, mydistance)
 
 
 {{APIFunction|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|Skapar en SVG representation av det givna objektet. linemodifier attributet är en skalfaktor (i procent) för linjebredd, och textmodifier för textstorlek. Du kan alternativt också ange en tupel med vektorer för att definiera ett projektionsplan, annars så kommer geometrin att projiceras på XY planet.|en sträng som innehåller en SVG representation av det givna objektet.}}
-
-
- 
-
-
-
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

@@ -1,24 +1,24 @@
 ---
-- GuiCommand   */es
-   Name   *WebTools Sketchfab
-   Name/es   *HerramientasWeb Sketchfab
-   MenuLocation   *HerramientasWeb → Sketchfab
-   Workbenches   *[HerramientasWeb](WebTools_Workbench/es.md)
+- GuiCommand:/es
+   Name:WebTools Sketchfab
+   Name/es:HerramientasWeb Sketchfab
+   MenuLocation:HerramientasWeb → Sketchfab
+   Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
 ---
 
 # WebTools Sketchfab/es
 
 ## Descripción
 
-Esta herramienta le permite exportar y subir objetos a su cuenta [SketchFab](http   *//www.sketchfab.com). {{Version/es|0.17}}
+Esta herramienta le permite exportar y subir objetos a su cuenta [SketchFab](http://www.sketchfab.com). {{Version/es|0.17}}
 
 ![](images/Sketchfab_exporter.jpg )
 
 ## Utilización
 
-1.  Crea tú mismo una cuenta en [SketchFab](http   *//www.sketchfab.com) si aún no tienes una. Las cuentas gratuitas están bien, las cuentas de pago añaden más características como la posibilidad de tener modelos privados y mayores tamaños máximos de subida
+1.  Crea tú mismo una cuenta en [SketchFab](http://www.sketchfab.com) si aún no tienes una. Las cuentas gratuitas están bien, las cuentas de pago añaden más características como la posibilidad de tener modelos privados y mayores tamaños máximos de subida
 2.  Prepara un modelo que quieras subir
-3.  Haz clic en <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> de la barra de herramientas principal en el [Ambiente de trabajo HerramientasWeb](WebTools_Workbench/es.md)
+3.  Haz clic en <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> de la barra de herramientas principal en el [Ambiente de trabajo HerramientasWeb](WebTools_Workbench/es.md)
 4.  Rellene los campos. El nombre y la clave API son obligatorios
 5.  Haga clic en el botón \"Cargar\".
 

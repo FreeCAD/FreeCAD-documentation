@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Truss
-   Name/fr   *Arch Ferme
-   MenuLocation   *Arch → Ferme
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Arch Truss
+   Name/fr:Arch Ferme
+   MenuLocation:Arch → Ferme
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   Version:0.19
 ---
 
 # Arch Truss/fr
 
 ## Description
 
-L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https   *//fr.wikipedia.org/wiki/Treillis_(assemblage)) à partir d\'un objet linéaire sélectionné (positionnez une [Draft Ligne](Draft_Line/fr.md) ou [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
+L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wikipedia.org/wiki/Treillis_(assemblage)) à partir d\'un objet linéaire sélectionné (positionnez une [Draft Ligne](Draft_Line/fr.md) ou [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
 
-<img alt="" src=images/Arch_Truss_example.png  style="width   *600px;">
+<img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
 ## Utilisation
 
@@ -38,46 +38,46 @@ L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https   *//fr.
 
 ### Données
 
--    **TrussAngle**   * angle du treillis
+-    **TrussAngle**: angle du treillis
 
--    **SlantType**   * type oblique du treillis
+-    **SlantType**: type oblique du treillis
 
--    **Normal**   * direction normale du treillis
+-    **Normal**: direction normale du treillis
 
--    **HeightStart**   * hauteur du treillis à la position de départ
+-    **HeightStart**: hauteur du treillis à la position de départ
 
--    **HeightEnd**   * hauteur du treillis à la position finale
+-    **HeightEnd**: hauteur du treillis à la position finale
 
--    **StrutStartOffset**   * décalage de démarrage facultatif pour la jambe de force supérieure
+-    **StrutStartOffset**: décalage de démarrage facultatif pour la jambe de force supérieure
 
--    **StrutEndOffset**   * décalage de fin facultatif pour la jambe supérieure
+-    **StrutEndOffset**: décalage de fin facultatif pour la jambe supérieure
 
--    **StrutHeight**   * hauteur des principaux éléments supérieur et inférieur du treillis
+-    **StrutHeight**: hauteur des principaux éléments supérieur et inférieur du treillis
 
--    **StrutWidth**   * largeur des principaux éléments supérieur et inférieur du treillis
+-    **StrutWidth**: largeur des principaux éléments supérieur et inférieur du treillis
 
--    **RodType**   * type de l\'élément central du treillis
+-    **RodType**: type de l\'élément central du treillis
 
--    **RodDirection**   * direction des tiges
+-    **RodDirection**: direction des tiges
 
--    **RodSize**   * diamètre ou côté des tiges
+-    **RodSize**: diamètre ou côté des tiges
 
--    **RodSections**   * nombre de sectionss de tiges
+-    **RodSections**: nombre de sectionss de tiges
 
--    **RodEnd**   * si le treillis a une tige à son extrémité ou non
+-    **RodEnd**: si le treillis a une tige à son extrémité ou non
 
--    **RodMode**   * comment dessiner les tiges
+-    **RodMode**: comment dessiner les tiges
 
 ## Script
 
-L\'outil Ferme peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    *
+L\'outil Ferme peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
 Truss = makeFence([baseobj])
 ```
 
-Exemple   *
+Exemple:
 
 
 ```python

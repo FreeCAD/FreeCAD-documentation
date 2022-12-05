@@ -7,7 +7,7 @@
 |Version=00.03
 |Date=2022/03/29
 |FCVersion=0.18 and more
-|Download=[https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
+|Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
 }}
 
@@ -16,14 +16,14 @@
 Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume \... in different units (metric and imperial) in a toolBar. The information to be displayed is parametrizable in the Parameter of FreeCAD.
 
 
-{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
 
 ## Usage
 
-After run the macro, go to Menu → Tools → Edit parameters \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar
+After run the macro, go to Menu → Tools → Edit parameters \... :BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar
 
 and check the info to display.
 
@@ -31,20 +31,20 @@ The complete info hare displayed in the ToolTip window, the checked option is vi
 
 Use the button reset after change one option in the parameter window.
 
-The Unit size can be selected    * km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+The Unit size can be selected : km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
 ![FCInfo_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
 *FCInfo_ToolBar the info toolTip*
 
 ## Options
 
-The options are located in the Parameter of FreeCAD   *
+The options are located in the Parameter of FreeCAD:
 
-*Menu → Tools → Edit parameters \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar*
+*Menu → Tools → Edit parameters \... :BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar*
 
 -   ***switch_User_ToolbarIconSize***
-    -   if = `False`   * the icon toolBar respect the FreeCAD value for the icon size
-    -   if = `True`   * the icon take the values of the variable **seT_User_sizeIconX** and **seT_User_sizeIconY**
+    -   if = `False`: the icon toolBar respect the FreeCAD value for the icon size
+    -   if = `True`: the icon take the values of the variable **seT_User_sizeIconX** and **seT_User_sizeIconY**
 
 -   ***seT_User_sizeIconX***
     -   set the value X of the Icon
@@ -62,7 +62,7 @@ The options are located in the Parameter of FreeCAD   *
     -   Work With the Preselectiond, update the data in real time
 
 -   ***seT_User_StyleSheetColorToolBar***
-    -   set the color of the toolBar in HTML format example    * **#F8E6E0**
+    -   set the color of the toolBar in HTML format example : **#F8E6E0**
     -   if the value is **0** the toolBar take the system color
 
 -   ***seT_User_DecimalValue***
@@ -78,39 +78,39 @@ The options are located in the Parameter of FreeCAD   *
     -   display the SubElementName ()
 
 -   ***switch_User_Display_ShapeType***
-    -   display the Shape type (TyS   *)
+    -   display the Shape type (TyS:)
 
 -   ***switch_User_Display_TypeId***
-    -   display the TypeId (TyI   *)
+    -   display the TypeId (TyI:)
 
 -   ***switch_User_Display_RadiusObject***
-    -   display the radius and the diameter (r   *) \[D   *]
+    -   display the radius and the diameter (r:) \[D:\]
 
 -   ***switch_User_Display_LengthObject***
     -   display the Length of the edge selected or the Perimeter of the face selected
-        -   (L   *) display the Length of the wire, edge, line selected
-        -   (P   *) display the Perimeter if the face is selected
+        -   (L:) display the Length of the wire, edge, line selected
+        -   (P:) display the Perimeter if the face is selected
 
 -   ***switch_User_Display_SommeAllEdgesObject***
-    -   display the somme of the all edge of the object selected (Se   *)
+    -   display the somme of the all edge of the object selected (Se:)
 
 -   ***switch_User_Display_NumberFacesMesh***
-    -   display the number of Faces of the Mesh object (Nf   *)
+    -   display the number of Faces of the Mesh object (Nf:)
 
 -   ***switch_User_Display_NumberPointsMeshPoints***
-    -   display the number of points of the Mesh object (Np   *)
+    -   display the number of points of the Mesh object (Np:)
 
 -   ***switch_User_Display_NumberEdgesMesh***
-    -   display the number of edges of the Mesh object (Ne   *)
+    -   display the number of edges of the Mesh object (Ne:)
 
 -   ***switch_User_Display_AreaObject***
-    -   display the area of the object (A   *)
+    -   display the area of the object (A:)
 
 -   ***switch_User_Display_AreaSubObject***
-    -   display the area of the face selected (Af   *)
+    -   display the area of the face selected (Af:)
 
 -   ***switch_User_Display_VolumeObject***
-    -   display the volume of the object (V   *)
+    -   display the volume of the object (V:)
 
 -   ***switch_User_Display_BsplineObject***
     -   display the number of node of the Bspline selected
@@ -121,13 +121,13 @@ The options are located in the Parameter of FreeCAD   *
 
 -   ***switch_User_Display_CentreObject***
     -   display the center of the circle (if one circle is detected) or of the object selected
-        -   (Ce   *) display the center of circle (if detected), face, edge \... BBoxCenter of face, edge \... Sub selection\" + \"\\n\\n\")
+        -   (Ce:) display the center of circle (if detected), face, edge \... BBoxCenter of face, edge \... Sub selection\" + \"\\n\\n\")
 
 -   ***switch_User_Display_CentreBoundBoxObject***
-    -   display the boundingBox center of the object (BBCe   *)
+    -   display the boundingBox center of the object (BBCe:)
 
 -   ***switch_User_Display_Position***
-    -   display the coordinates point mouse pointed (Pos   *)
+    -   display the coordinates point mouse pointed (Pos:)
 
 -   ***switch_User_NotInfoOnBeginning***
     -   if it is `False` the info (this information) is displayed
@@ -150,11 +150,11 @@ In your shortcut *verify your right path*
 
 \"Complete_path_of_FreeCAD\" \"Complete_path_of_the_macro.FCMacro\"
 
-example   *
+example:
 
 
 ```python
-"C   */FreeCAD_0.20.26858_Win-LPv12.5.4_vc17.x-x86-64/bin/FreeCAD.exe" "C   */Users/User/AppData/Roaming/FreeCAD/Macro/FCInfo_ToolBar.FCMacro"
+"C:/FreeCAD_0.20.26858_Win-LPv12.5.4_vc17.x-x86-64/bin/FreeCAD.exe" "C:/Users/User/AppData/Roaming/FreeCAD/Macro/FCInfo_ToolBar.FCMacro"
 ```
 
 #### in Mod directory 
@@ -163,13 +163,13 @@ example   *
 2.  Create the *FCInfo_ToolBar* directory
 3.  Copy the macro FCInfo_ToolBar.FCMacro (copy not move) in the *FCInfo_ToolBar* directory and rename it in FCInfo_ToolBar.py
 4.  Create a file named InitGui.py
-5.  Paste the code in InitGui.py   *
+5.  Paste the code in InitGui.py:
 
 
 ```python
-#### FC Version   * 0.1 #16/02/2022
+#### FC Version: 0.1 #16/02/2022
 #### Mario52
-#### FCInfo_ToolBar    * mini FCInfo ####
+#### FCInfo_ToolBar : mini FCInfo ####
 #
 import importlib
 from importlib import reload
@@ -178,15 +178,15 @@ App = FreeCAD
 Gui = FreeCADGui
 
 
-switch_User_NotRunAuto = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").GetBool("switch_User_NotRunAuto")
+switch_User_NotRunAuto = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").GetBool("switch_User_NotRunAuto")
 ## switch_User_NotRunAuto 0 (False) = run the macro in begin
 ## switch_User_NotRunAuto 1 (True)  = not run automatic the macro
 
 
-if switch_User_NotRunAuto == False   *
+if switch_User_NotRunAuto == False:
     import FCInfo_ToolBar
     #reload(FCInfo_ToolBar)
-    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").SetBool("switch_User_NotRunAuto", False)
+    FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").SetBool("switch_User_NotRunAuto", False)
     #FreeCAD.Console.PrintMessage("InitGui Ok FCInfo_ToolBar" + "\n")
 ```
 
@@ -199,15 +199,15 @@ enjoy
 
 ## Link
 
-The forum discussion [Feature request   * coordinates display](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=66294)
+The forum discussion [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
 
-version   * (00.02 +) 00.03 2022/03/22    * add somme all edges
+version: (00.02 +) 00.03 2022/03/22 : add somme all edges
 
-version   * 00.02 2022/03/14    * add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
+version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 
-version   * 00.01 2022/02/16    *
+version: 00.01 2022/02/16 :
 
 
 

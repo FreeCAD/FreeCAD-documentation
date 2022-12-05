@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw Quadrants
-   Name/it   *Quadrante
-   MenuLocation   *TechDraw → Aggiungi vertici → Quadrante
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Punti mediani](TechDraw_Midpoints/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:TechDraw Quadrants
+   Name/it:Quadrante
+   MenuLocation:TechDraw → Aggiungi vertici → Quadrante
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Punti mediani](TechDraw_Midpoints/it.md)
+   Version:0.19
 ---
 
 # TechDraw Quadrants/it
@@ -17,7 +17,7 @@
 
 Lo strumento Quadrante aggiunge dei [vertici cosmetici](TechDraw_CosmeticVertex/it.md) nei punti a 90/180/270° di un bordo circolare. Il vertice di 0° dovrebbe già essere presente come vertice geometrico.
 
-<img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
 *Vertici cosmetici nei punti del quadrante di un cerchio
 *
 
@@ -27,7 +27,7 @@ Lo strumento Quadrante aggiunge dei [vertici cosmetici](TechDraw_CosmeticVertex/
 2.  Premere il pulsante **<img src="images/TechDraw_Quadrants.svg" width=16px> Quadrante**.
 3.  I vertici cosmetici vengono aggiunti nei punti quarti del bordo.
 
-**Nota   *** Questo strumento può essere utilizzato su qualsiasi bordo, non solo sui cerchi.
+**Nota:** Questo strumento può essere utilizzato su qualsiasi bordo, non solo sui cerchi.
 
 Per eliminare un vertice di un quadrante, selezionarlo e utilizzare il pulsante della barra degli strumenti **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)**.
 
@@ -41,7 +41,7 @@ I vertici cosmetici non hanno proprietà proprie, in quanto non sono dei Documen
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

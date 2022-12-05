@@ -3,10 +3,6 @@ This is the documentation of the FreeCAD \'InputField\' widgets, which get used 
 
 ToDo\...
 
- 
-
-[Category   *Developer](Category_Developer.md)
-
 
 
 ---

@@ -1,14 +1,14 @@
 ---
-- TutorialInfo   */it
-   Topic   * Part
-   Level   * Base
-   Time   * 1 ora
-   Author   *Andrewbuck40
-   FCVersion   *0.14.3700
-   Files   *
+- TutorialInfo:/it
+   Topic: Part
+   Level: Base
+   Time: 1 ora
+   Author:Andrewbuck40
+   FCVersion:0.14.3700
+   Files:
 }}
 
-<img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width   *600px;">
+<img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:600px;">
 
 Questa è una guida introduttiva alla modellazione in FreeCAD.
 
@@ -41,9 +41,9 @@ Notare che dopo aver selezionato l\'ambiente di lavoro, la barra degli strumenti
 
 Nel modulo parte si vedono diversi pulsanti per creare degli oggetti primitivi del tipo cubo, sfera, cono, ecc.
 
-Fare clic sul pulsante <img alt="" src=images/Part_Box.png  style="width   *16px;"> *Cubo* per aggiungerne uno alla scena.
+Fare clic sul pulsante <img alt="" src=images/Part_Box.png  style="width:16px;"> *Cubo* per aggiungerne uno alla scena.
 
-Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri che vengono impostati quando la forma primitiva viene aggiunta alla scena. Si può provare ad aggiungerne una forma per tipo e vedere come si presentano. Le primitive possono essere rimosse dalla scena selezionandole e premendo il tasto di cancellazione. Ci sono due modi per selezionare gli oggetti   * è possibile usare il tasto sinistro del mouse su di loro nella vista 3D, oppure è possibile cliccare sul loro nome nella vista ad albero alla sinistra. In entrambi i metodi, tenere premuto **Ctrl** durante la selezione permette la selezione multipla. È possibile ingrandire la visualizzazione 3D con la rotellina del mouse. Per spostare la vista, premere il tasto centrale e trascinare. Per ruotare la vista premere e tenere premuto il pulsante centrale del mouse e contemporaneamente premere e tenere premuto il pulsante sinistro del mouse, quindi trascinare il mouse e eseguire la rotazione. Si può anche fare un click con il pulsante centrale in un punto all\'interno di un oggetto 3D per produrre la rotazione dello spazio 3D intorno a quel punto. Inoltre, i numeri 1-6 e il numero 0 del tastierino numerico visualizzano la scena secondo le viste standard (dall\'alto, da sinistra, assonometrica, ecc.). Dedicare un paio di minuti per prendere confidenza con la manipolazione della visualizzazione 3D.
+Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri che vengono impostati quando la forma primitiva viene aggiunta alla scena. Si può provare ad aggiungerne una forma per tipo e vedere come si presentano. Le primitive possono essere rimosse dalla scena selezionandole e premendo il tasto di cancellazione. Ci sono due modi per selezionare gli oggetti: è possibile usare il tasto sinistro del mouse su di loro nella vista 3D, oppure è possibile cliccare sul loro nome nella vista ad albero alla sinistra. In entrambi i metodi, tenere premuto **Ctrl** durante la selezione permette la selezione multipla. È possibile ingrandire la visualizzazione 3D con la rotellina del mouse. Per spostare la vista, premere il tasto centrale e trascinare. Per ruotare la vista premere e tenere premuto il pulsante centrale del mouse e contemporaneamente premere e tenere premuto il pulsante sinistro del mouse, quindi trascinare il mouse e eseguire la rotazione. Si può anche fare un click con il pulsante centrale in un punto all\'interno di un oggetto 3D per produrre la rotazione dello spazio 3D intorno a quel punto. Inoltre, i numeri 1-6 e il numero 0 del tastierino numerico visualizzano la scena secondo le viste standard (dall\'alto, da sinistra, assonometrica, ecc.). Dedicare un paio di minuti per prendere confidenza con la manipolazione della visualizzazione 3D.
 
 
 </div>
@@ -52,7 +52,7 @@ Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri 
 <div class="mw-translate-fuzzy">
 
 
-   *   *Ulteriori letture   * [Navigazione 3D](Mouse_Model/it.md)*
+:   *Ulteriori letture: [Navigazione 3D](Mouse_Model/it.md)*
 
 
 </div>
@@ -63,11 +63,11 @@ Selezionare il cubo cliccando su di esso nella vista ad albero e poi fare clic s
 
 Nella scheda dei dati è possibile modificare le proprietà dell\'oggetto selezionato nella vista ad albero. Sempre nella stessa scheda, secondo il tipo di oggetto selezionato, si devono impostare differenti parametri. Per un cubo (scatola) servono 3 vettori, uno per la sua posizione nello spazio 3D, un altro per il suo orientamento e un terzo per definire le sue dimensioni. Per una sfera si deve specificare il suo punto centrale, e il raggio. I coni hanno un raggio, una altezza e la posizione, e così via.
 
-In questo caso si sta costruendo un piccolo blocco motore a due cilindri quindi impostare la dimensione e la posizione del cubo con i seguenti valori (accertarsi di impostare correttamente i valori X,Y,Z di *Posizione*, mentre per quelli di *Asse*, che impostano l\'asse di rotazione, vanno bene i valori di default)   *
+In questo caso si sta costruendo un piccolo blocco motore a due cilindri quindi impostare la dimensione e la posizione del cubo con i seguenti valori (accertarsi di impostare correttamente i valori X,Y,Z di *Posizione*, mentre per quelli di *Asse*, che impostano l\'asse di rotazione, vanno bene i valori di default):
 
-   *   {\    class   *wikitable border=1
+:   {\    class:wikitable border=1
 
-\|- \| X   * 0.0 mm \|\| Lunghezza   * 140.0 mm \|- \| Y   * -40.0 mm \|\| Larghezza   * 80.0 mm \|- \| Z   * 0.0 mm \|\| Altezza   * 110.0 mm \|- \|}
+\|- \| X: 0.0 mm \|\| Lunghezza: 140.0 mm \|- \| Y: -40.0 mm \|\| Larghezza: 80.0 mm \|- \| Z: 0.0 mm \|\| Altezza: 110.0 mm \|- \|}
 
 Dopo aver dimensionato correttamente il blocco motore, dare al progetto un nome più descrittivo. Selezionarlo nella vista ad albero e usare il tasto destro del mouse per rinominarlo oppure premere il tasto **F2**. Chiamare **Billetta** questa parte.
 
@@ -78,15 +78,15 @@ Dopo aver dimensionato correttamente il blocco motore, dare al progetto un nome 
 
 Ora si procede praticando il foro del primo cilindro in tutta la lunghezza del blocco motore. Per fare questo, occorre aggiungere al modello un cilindro con la forma che si desidera asportare e poi eseguire una operazione booleana per *sottrarre* il materiale dal blocco.
 
-Fare clic sul pulsante aggiungi <img alt="" src=images/Part_Cylinder.png  style="width   *16px;"> *Cilindro* per creare un nuovo cilindro, quindi selezionarlo nella vista ad albero e impostarne le proprietà come segue   *
+Fare clic sul pulsante aggiungi <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> *Cilindro* per creare un nuovo cilindro, quindi selezionarlo nella vista ad albero e impostarne le proprietà come segue:
 
 
 </div>
 
 
-   *   {\    class   *wikitable border=1
+:   {\    class:wikitable border=1
 
-\|- \| X   * 40.0 mm \|\| Altezza   * 110.0 mm \|- \| Y   * 0.0 mm \|\| Raggio   * 25.0 mm \|- \| Z   * 0.0 mm \|\| \|- \|}
+\|- \| X: 40.0 mm \|\| Altezza: 110.0 mm \|- \| Y: 0.0 mm \|\| Raggio: 25.0 mm \|- \| Z: 0.0 mm \|\| \|- \|}
 
 Se le proprietà sono impostate correttamente, si vedono le estremità circolari del cilindro sulle facce superiore ed inferiore del blocco motore.
 
@@ -106,14 +106,14 @@ Dopo che il secondo cilindro è ubicato correttamente è possibile vedere il suo
 
 ### Forare il Blocco 
 
-<img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width   *300px;">
+<img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
 
 
 <div class="mw-translate-fuzzy">
 
 Ora che entrambi i cilindri sono posizionati essi vanno utilizzati per forare il blocco in modo appropriato. Per fare questo si applicano le *Operazioni Booleane* sulle 3 primitive. Iniziare creando una unione dei due cilindri in modo da poterli sottrarre contemporaneamente, come gruppo, dal blocco.
 
-Selezionare *Cilindro 1* nella vista ad albero con *CTRL + Tasto sinistro* poi nello stesso modo selezionare anche *Cilindro 2*. Ora premere il pulsante <img alt="" src=images/Part_Fuse.png  style="width   *16px;"> *Unione* per fondere gli oggetti in uno solo.
+Selezionare *Cilindro 1* nella vista ad albero con *CTRL + Tasto sinistro* poi nello stesso modo selezionare anche *Cilindro 2*. Ora premere il pulsante <img alt="" src=images/Part_Fuse.png  style="width:16px;"> *Unione* per fondere gli oggetti in uno solo.
 
 Notare che nella vista ad albero, ora è presente un nuovo oggetto chiamato *Fusion*. Facendo clic sulla freccia accanto a Fusion si vedono i due cilindri, ma essi non sono accessibili.
 
@@ -121,7 +121,7 @@ Rinominare il blocco con *Cilindri* al posto di Fusion, così in seguito sarà p
 
 A questo punto si deve forare il blocco motore.
 
-Selezionare *Billetta* e quindi selezionare anche *Cilindri* poi premere il pulsante <img alt="" src=images/Part_Cut.png  style="width   *16px;"> *Taglia* (Differenza).
+Selezionare *Billetta* e quindi selezionare anche *Cilindri* poi premere il pulsante <img alt="" src=images/Part_Cut.png  style="width:16px;"> *Taglia* (Differenza).
 
 I due oggetti selezionati sono di nuovo uniti come per una operazione di unione e il singolo oggetto risultante viene chiamato *Cut* (che è bene rinominare in *Billetta Forata*). Premere il tasto 2 del tastierino numerico per ottenere la vista dall\'alto e poter guardare dall\'altra parte del blocco motore dritto verso il basso attraverso i cilindri, quindi con *Tasto centrale + Tasto sinistro (entrambi premuti) + Trascinare* ruotare e osservare il blocco motore. Il risultato dovrebbe essere simile alla figura a destra.
 
@@ -147,21 +147,21 @@ Ora che i cilindri sono stati scavati si può capire facilmente uno dei vantaggi
 
 Ora si tratta di lavorare sul basamento sotto al monoblocco.
 
-Aggiungere un nuovo box o cubo, rinominarlo **Billetta Basamento**, e assegnargli le seguenti proprietà   *
+Aggiungere un nuovo box o cubo, rinominarlo **Billetta Basamento**, e assegnargli le seguenti proprietà:
 
-   *   {\| class=wikitable border=1
+:   {\| class=wikitable border=1
 
-\|- \| X   * 0.0 mm \|\| Lunghezza   * 140.0 mm \|- \| Y   * -50.0 mm \|\| Larghezza   * 100.0 mm \|- \| Z   * -85.0 mm \|\| Altezza   * 85.0 mm \|- \|}
+\|- \| X: 0.0 mm \|\| Lunghezza: 140.0 mm \|- \| Y: -50.0 mm \|\| Larghezza: 100.0 mm \|- \| Z: -85.0 mm \|\| Altezza: 85.0 mm \|- \|}
 
 Per tenere separata la parte basamento è possibile attribuirgli un colore diverso. Per cambiare il colore fare clic destro sull\'oggetto nella vista ad albero e modificarlo. È possibile assegnare all\'oggetto un colore personalizzato o un colore casuale (scegliere nuovamente casuale se il colore attuale non piace).
 
-Aggiungere un altro cubo denominato *Taglio di accoppiamento*, e assegnargli le seguenti proprietà   *
+Aggiungere un altro cubo denominato *Taglio di accoppiamento*, e assegnargli le seguenti proprietà:
 
-   *   {\| class=wikitable border=1
+:   {\| class=wikitable border=1
 
-\|- \| X   * 0.0 mm \|\| Lunghezza   * 140.0 mm \|- \| Y   * -40.0 mm \|\| Larghezza   * 80.0 mm \|- \| Z   * -85.0 mm \|\| Altezza   * 30.0 mm \|- \|}
+\|- \| X: 0.0 mm \|\| Lunghezza: 140.0 mm \|- \| Y: -40.0 mm \|\| Larghezza: 80.0 mm \|- \| Z: -85.0 mm \|\| Altezza: 30.0 mm \|- \|}
 
-poi ritagliare il *Taglio di accoppiamento* dalla **Billetta Basamento** (selezionare prima Billetta Basamento)   *
+poi ritagliare il *Taglio di accoppiamento* dalla **Billetta Basamento** (selezionare prima Billetta Basamento):
 
 Rinominare il risultante oggetto *Cut* in **Basamento scavato**.
 
@@ -169,11 +169,11 @@ Rinominare il risultante oggetto *Cut* in **Basamento scavato**.
 
 Il prossimo taglio è semi-circolare e serve per alloggiare nel basamento l\'albero a gomiti. Si inizia con un cilindro, però l\'orientamento predefinito del cilindro è verticale, mentre quì ne serve uno orizzontale. Questo significa che si deve capire come ruotare il cilindro per allinearlo correttamente con il motore. Guardando gli assi guida nell\'angolo in basso a destra della finestra 3D si vede che l\'albero motore deve essere collocato lungo l\'asse x positivo. Rispetto alla posizione iniziale è quindi necessario ruotare il cilindro di 90 gradi attorno ad un asse parallelo all\'asse y della scena. Questa operazione permette anche di capire quali parametri si devono inserire per il cilindro.
 
-Creare un cilindro chiamato **Scavo per l\'albero** e attribuirgli le seguenti proprietà (notare che ora si devono specificare i parametri di orientamento, nello stesso modo usato prima per le dimensioni degli alesaggi dei cilindri)   *
+Creare un cilindro chiamato **Scavo per l\'albero** e attribuirgli le seguenti proprietà (notare che ora si devono specificare i parametri di orientamento, nello stesso modo usato prima per le dimensioni degli alesaggi dei cilindri):
 
-   *   {\| class=wikitable border=1
+:   {\| class=wikitable border=1
 
-\|- \| Axis X   * 0.0 mm \|\| Angolo   * 90.0 gradi \|- \| Axis Y   * 1.0 mm \|\| \|- \| Axis Z   * 0.0 mm \|\| \|- \| Position X   * 0.0 mm \|\| Altezza   * 140.0 mm \|- \| Position Y   * 0.0 mm \|\| Raggio   * 20.0 mm \|- \| Position Z   * -55.0 mm \|\| \|- \|}
+\|- \| Axis X: 0.0 mm \|\| Angolo: 90.0 gradi \|- \| Axis Y: 1.0 mm \|\| \|- \| Axis Z: 0.0 mm \|\| \|- \| Position X: 0.0 mm \|\| Altezza: 140.0 mm \|- \| Position Y: 0.0 mm \|\| Raggio: 20.0 mm \|- \| Position Z: -55.0 mm \|\| \|- \|}
 
 Asportare lo **Scavo per l\'albero** dal **Basamento scavato** e rinominare il risultante oggetto in **Basamento con alloggiamento**.
 
@@ -184,21 +184,21 @@ Asportare lo **Scavo per l\'albero** dal **Basamento scavato** e rinominare il r
 
 Infine si devono asportare 2 cubi, per consentire il passaggio delle bielle dal blocco motore all\'albero motore attraverso il basamento.
 
-Creare due oggetti chiamati *Cubo intagliatore 1* e *Cubo intagliatore 2* con le seguenti proprietà   *
+Creare due oggetti chiamati *Cubo intagliatore 1* e *Cubo intagliatore 2* con le seguenti proprietà:
 
 
 </div>
 
 
-   *   {\| class=wikitable border=1
+:   {\| class=wikitable border=1
 
-\|- \| X   * 15.0 mm \|\| Lunghezza   * 50.0 mm \|- \| Y   * -25.0 mm \|\| Larghezza   * 50.0 mm \|- \| Z   * -55.0 mm \|\| Altezza   * 55.0 mm \|- \|}
+\|- \| X: 15.0 mm \|\| Lunghezza: 50.0 mm \|- \| Y: -25.0 mm \|\| Larghezza: 50.0 mm \|- \| Z: -55.0 mm \|\| Altezza: 55.0 mm \|- \|}
 
-   *   {\| class=wikitable border=1
+:   {\| class=wikitable border=1
 
-\|- \| X   * 75.0 mm \|\| Lunghezza   * 50.0 mm \|- \| Y   * -25.0 mm \|\| Larghezza   * 50.0 mm \|- \| Z   * -55.0 mm \|\| Altezza   * 55.0 mm \|- \|}
+\|- \| X: 75.0 mm \|\| Lunghezza: 50.0 mm \|- \| Y: -25.0 mm \|\| Larghezza: 50.0 mm \|- \| Z: -55.0 mm \|\| Altezza: 55.0 mm \|- \|}
 
-<img alt="" src=images/_Engine_Block_Tutorial_-_Crankcase.png  style="width   *300px;">
+<img alt="" src=images/_Engine_Block_Tutorial_-_Crankcase.png  style="width:300px;">
 
 Unire i due cubi in un oggetto chiamato *Cubi intagliatori*, poi asportare questo oggetto da *Basamento con alloggiamento*, chiamando *Carter* il risultato finale.
 
@@ -217,7 +217,7 @@ Per i fori dei bulloni della testa e per la forma del blocco motore sono usate i
 
 ### Entrare in modalità Disegno 2D 
 
-La prima cosa da fare è passare all\'ambiente di lavoro Disegno 2D, per fare questo dalla modalità Parte è possibile selezionare *Disegno 2D* nel menu a tendina in alto che attualmente riporta la voce *Parte*. Quando non si riesce a trovare la casella a discesa (non tutti gli ambienti di lavoro mostrano questa la casella) è possibile selezionare un ambiente con *Visualizza -\> Ambienti*. Anche se il disegno da eseguire è un disegno 2D, si lavora nella finestra 3D dicendo a FreeCAD in quale piano deve proiettare i disegni. Quando si seleziona l\'ambiente Disegno 2D viene mostrata la barra degli strumenti di questo ambiente e nella parte destra immediatamente sopra della vista 3D vengono visualizzate varie icone. Per impostare il piano di lavoro (piano di proiezione dei disegni) fare clic sul pulsante dell\'icona più a sinistra in cui è presente una delle seguenti voci {none, top, front, size o d(\..., \..., \...)}. Dopo aver cliccato su tale pulsante, sul lato sinistro della barra appaiono i comandi di selezione del piano composti da una casella di testo per inserire un offset, e altri 5 pulsanti   * XY, XZ, YZ, Vista, e None. I primi tre sono la vista dall\'alto, la vista anteriore e la vista laterale. La voce Vista utilizza il piano perpendicolare alla direzione di visualizzazione (piano di vista dell\'osservatore). L\'ultimo (None) non proietta in un piano e permette di definire tutte le coordinate XYZ di ogni punto che si disegna. In questa esercitazione serve impostare un piano orizzontale scostato di 110 (digitare il valore e premere Invio) poi fare clic sul pulsante XY per proiettare il disegno sul piano XY, collocato a 110 millimetri sull\'asse Z e che corrisponde alla faccia superiore del blocco motore.
+La prima cosa da fare è passare all\'ambiente di lavoro Disegno 2D, per fare questo dalla modalità Parte è possibile selezionare *Disegno 2D* nel menu a tendina in alto che attualmente riporta la voce *Parte*. Quando non si riesce a trovare la casella a discesa (non tutti gli ambienti di lavoro mostrano questa la casella) è possibile selezionare un ambiente con *Visualizza -\> Ambienti*. Anche se il disegno da eseguire è un disegno 2D, si lavora nella finestra 3D dicendo a FreeCAD in quale piano deve proiettare i disegni. Quando si seleziona l\'ambiente Disegno 2D viene mostrata la barra degli strumenti di questo ambiente e nella parte destra immediatamente sopra della vista 3D vengono visualizzate varie icone. Per impostare il piano di lavoro (piano di proiezione dei disegni) fare clic sul pulsante dell\'icona più a sinistra in cui è presente una delle seguenti voci {none, top, front, size o d(\..., \..., \...)}. Dopo aver cliccato su tale pulsante, sul lato sinistro della barra appaiono i comandi di selezione del piano composti da una casella di testo per inserire un offset, e altri 5 pulsanti: XY, XZ, YZ, Vista, e None. I primi tre sono la vista dall\'alto, la vista anteriore e la vista laterale. La voce Vista utilizza il piano perpendicolare alla direzione di visualizzazione (piano di vista dell\'osservatore). L\'ultimo (None) non proietta in un piano e permette di definire tutte le coordinate XYZ di ogni punto che si disegna. In questa esercitazione serve impostare un piano orizzontale scostato di 110 (digitare il valore e premere Invio) poi fare clic sul pulsante XY per proiettare il disegno sul piano XY, collocato a 110 millimetri sull\'asse Z e che corrisponde alla faccia superiore del blocco motore.
 
 Ora che si è detto a FreeCAD in quale piano deve disegnare si può iniziare a progettare la guarnizione della testata.
 
@@ -243,7 +243,7 @@ Infine, la modalità Disegno 2D permette di agganciare (fare lo snap) parti del 
 
 Dopo che il corretto piano di proiezione e la visualizzazione sono impostati si aggiungono gli elementi di disegno 2D nello stesso modo usato per aggiungere le primitive.
 
-Fare clic sul pulsante <img alt="" src=images/Draft_Circle.png  style="width   *16px;"> *Cerchio* e muovere il mouse nella vista 3D.
+Fare clic sul pulsante <img alt="" src=images/Draft_Circle.png  style="width:16px;"> *Cerchio* e muovere il mouse nella vista 3D.
 
 A questo punto è necessario fornire a FreeCAD la posizione XY per il centro del cerchio, e il valore del raggio. In entrambi i casi è possibile inserire i dati con il mouse (seguendo le istruzioni nella barra di stato in basso a sinistra), oppure digitare i valori nelle caselle di immissione di testo che appaiono sopra la vista ad albero.
 
@@ -264,13 +264,13 @@ Per aggiungere un cerchio, ripristinare la vista dall\'alto del motore, fare cli
 
 Pare che X = 10, Y = 30, sia una buona posizione per il cerchio (notare che la coordinata Z deve essere disattivata, se non lo è si deve impostare correttamente il piano come descritto nella sezione precedente, premendo *Esc* si annulla il disegno del cerchio).
 
-Ora che si sa come determinare facilmente le coordinate degli elementi del disegno si può progettare un modello di bullone o altre forme 2D per ulteriori parti, quali i canali del circuito dei fluidi, scanalature, ecc. Per i primi 3 bulloni di un lato della testata usare le seguenti coordinate   *
+Ora che si sa come determinare facilmente le coordinate degli elementi del disegno si può progettare un modello di bullone o altre forme 2D per ulteriori parti, quali i canali del circuito dei fluidi, scanalature, ecc. Per i primi 3 bulloni di un lato della testata usare le seguenti coordinate:
 
 Notare che durante la digitazione dei valori nelle caselle si può premere Invio per passare alla casella successiva, inoltre è meglio spostare il mouse fuori dalla vista 3D prima di iniziare a digitare le coordinate in quanto il movimento del mouse può sovrascrivere i numeri che sono già stati inseriti nei campi di immissione di testo. Inoltre, su alcuni sistemi, per qualche motivo, ci sono problemi con la digitazione dei cerchi che hanno la loro coordinata Z impostata a 12.5, se succede questo, è possibile impostare il piano di proiezione del disegno su *Nessuno* e quindi immettere manualmente le coordinate Z che per i cerchi deve essere 110. Infine, durante la creazione dei cerchi, accertarsi di attivare la casella *Riempito* altrimenti quando essi si estrudono creano solo tubi e non cilindri solidi.
 
-   *   {\| class=wikitable border=1
+:   {\| class=wikitable border=1
 
-\|- \| X1   * 10 \|\| Y1   * 25 \|\| Raggio   * 2.5 mm \|- \| X2   * 70 \|\| Y2   * 25 \|\| Raggio   * 2.5 mm \|- \| X3   * 130 \|\| Y3   * 25 \|\| Raggio   * 2.5 mm \|}
+\|- \| X1: 10 \|\| Y1: 25 \|\| Raggio: 2.5 mm \|- \| X2: 70 \|\| Y2: 25 \|\| Raggio: 2.5 mm \|- \| X3: 130 \|\| Y3: 25 \|\| Raggio: 2.5 mm \|}
 
 
 <div class="mw-translate-fuzzy">
@@ -287,7 +287,7 @@ Chiamare i cerchi *Bullone 1* *Bullone 2* e *Bullone 3*.
 
 ### L\'altro lato del Blocco 
 
-Ora che i primi tre bulloni sono situati su un lato del motore, servono altri tre bulloni speculari sul lato opposto, ci sono tre modi per ottenere questo   *
+Ora che i primi tre bulloni sono situati su un lato del motore, servono altri tre bulloni speculari sul lato opposto, ci sono tre modi per ottenere questo:
 
 -   Si può continuare ad aggiungere cerchi come fatto per i primi tre e variare solo la coordinata Y in modo da posizionare i bulloni sul lato opposto del motore.
 
@@ -307,7 +307,7 @@ Quindi, anche se in questo caso è un po *esagerato*, gli altri bulloni sono rea
 
 Tornare in Ambiente Parte tramite *Visualizza -\> Ambienti* (notare che si può anche sempre passare all\'ambiente *Completo* per vedere tutti gli strumenti contemporaneamente, e per non commutare ripetutamente l\'ambiente).
 
-Selezionare i tre cerchi dei bulloni nella vista ad albero, e quindi premere il pulsante <img alt="" src=images/Part_Mirror.png  style="width   *16px;"> *Specchio*.
+Selezionare i tre cerchi dei bulloni nella vista ad albero, e quindi premere il pulsante <img alt="" src=images/Part_Mirror.png  style="width:16px;"> *Specchio*.
 
 Quando si preme il pulsante specchio si dovrebbe vedere un nuovo pannello pop-up chiamato *Vista Combinata* nel pannello sotto la vista ad albero. Molti strumenti hanno bisogno di ulteriori input prima di poter eseguire le operazioni e la Vista Combinata consente di immettere questi parametri. È possibile ridimensionare il pannello della Vista combinata trascinando in sù o in giù la linea di divisione che lo separa dalle proprietà.
 
@@ -330,12 +330,12 @@ Per iniziare, passare alla vista dall\'alto del blocco motore, nascondere il car
 
 Il pulsante \'Modalità di costruzione\' si presenta come una spatola o cazzuola e si trova appena sopra l\'angolo superiore a destra della vista 3D. La Modalità costruzione funziona esattamente come la Modalità normale tranne che tutti gli oggetti di disegno 2D creati in modalità costruzione vengono tracciati in un colore diverso e sono automaticamente inseriti in un gruppo distinto della vista ad albero; questo permette di nascondere i disegni guida e lasciare visibili solo gli elementi reali, quali le marcature dei fori dei bulloni, e di nascondere il gruppo di costruzione, inoltre, permette anche di eliminare tutti gli oggetti guida eliminando solo il corrispondente gruppo.
 
-   *   *Ulteriori letture   * [Modalità Costruzione](Draft_ToggleConstructionMode/it.md)*
+:   *Ulteriori letture: [Modalità Costruzione](Draft_ToggleConstructionMode/it.md)*
 
 
 <div class="mw-translate-fuzzy">
 
-Ora che il piano di disegno è impostato correttamente e si è in Modalità costruzione, fare clic sul pulsante <img alt="" src=images/Draft_Polygon.png  style="width   *16px;"> *Poligono* e muovere il mouse lungo il bordo del cilindro sinistro tenendo premuto il tasto CTRL.
+Ora che il piano di disegno è impostato correttamente e si è in Modalità costruzione, fare clic sul pulsante <img alt="" src=images/Draft_Polygon.png  style="width:16px;"> *Poligono* e muovere il mouse lungo il bordo del cilindro sinistro tenendo premuto il tasto CTRL.
 
 Notare che viene agganciato un punto nero, sul bordo o al centro del cilindro, secondo la posizione del mouse sulla circonferenza.
 
@@ -352,7 +352,7 @@ Infine aggiungere gli stessi due poligoni sopra il cilindro di destra (centrato 
 
 </div>
 
-<img alt="" src=images/_Engine_Block_Tutorial_-_Spline.png  style="width   *300px;">
+<img alt="" src=images/_Engine_Block_Tutorial_-_Spline.png  style="width:300px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -361,7 +361,7 @@ Al termine si dovrebbe avere due \"forme a 8\" che circondano i cilindri ed i bu
 
 Quando i poligoni di guida sono posizionati si può cominciare disegnare la curva spline che definisce la forma esterna del blocco motore. Dal momento che questa curva sarà parte dell\'oggetto finale è possibile disattivare la *Modalità costruzione* facendo clic sullo stesso pulsante premuto per attivarla.
 
-Cliccare ora sul pulsante <img alt="" src=images/Draft_BSpline.png  style="width   *16px;"> *BSpline* e iniziare a disegnare la Polilinea con *CTRL + clic sinistro* in ogni luogo in cui si desidera aggiungere un punto di controllo per la curva spline.
+Cliccare ora sul pulsante <img alt="" src=images/Draft_BSpline.png  style="width:16px;"> *BSpline* e iniziare a disegnare la Polilinea con *CTRL + clic sinistro* in ogni luogo in cui si desidera aggiungere un punto di controllo per la curva spline.
 
 E\' bene che il primo punto di controllo sia sul punto più a sinistra del poligono guida interno del cilindro sinistro.
 
@@ -377,7 +377,7 @@ A destra si può vedere come dovrebbe essere la curva spline prima di premere il
 
 
 
-<img alt="" src=images/_Engine_Block_Tutorial_-_Spline_Edit_Mode.png  style="width   *300px;">
+<img alt="" src=images/_Engine_Block_Tutorial_-_Spline_Edit_Mode.png  style="width:300px;">
 
 Nella precedente immagine, i punti di controllo non sono visibili quindi è stato aggiunto un secondo screenshot che mostra la spline finita in modalità di modifica (cliccare sul pulsante *Modifica* per attivare o disattivare la modifica dell\'oggetto selezionato, accertarsi di disattivarlo dopo le modifiche o semplicemente saltare questo passaggio se si è soddisfatti della forma del proprio blocco motore). Inoltre, notare che c\'è una discontinuità sul bordo più a sinistra della curva spline, anche se è chiusa bene, questo è un bug nel comportamento del programma che attualmente è corretto, come risultato la curva spline può essere leggermente diversa se si si esegue una versione più recente del software.
 
@@ -388,7 +388,7 @@ Nella precedente immagine, i punti di controllo non sono visibili quindi è stat
 
 Ora si è prossimi al disegno finale del motore.
 
-Ritornare nell\'ambiente Parte e fare clic sul pulsante <img alt="" src=images/Part_Extrude.png  style="width   *16px;"> *Estrudi Schizzo*.
+Ritornare nell\'ambiente Parte e fare clic sul pulsante <img alt="" src=images/Part_Extrude.png  style="width:16px;"> *Estrudi Schizzo*.
 
 Nella casella combinata che si apre, utilizzare *CTRL + Tasto sinistro* per selezionare i 6 bulloni della testa e la curva spline per l\'estrusione.
 
@@ -407,7 +407,7 @@ Espandere il progetto e visualizzare i componenti principali (il *Blocco forato*
 
 </div>
 
-<img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width   *300px;">
+<img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:300px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -418,7 +418,7 @@ Selezionare le 6 estrusioni dei fori per i bulloni nella vista ad albero e unirl
 
 Quindi selezionare il *Blocco forato* e i *Fori per i bulloni della testa* in questo ordine ed eseguire la foratura (come si è fatto per i fori dei cilindri), nominare il risultato del *Taglio* con *Blocco con fori dei bulloni*.
 
-Infine, selezionare il *Blocco con fori dei bulloni* e la *Spline estrusa* poi premere il pulsante <img alt="" src=images/Part_Common.png  style="width   *16px;"> *Intersezione*, quindi nominare il risultato *Blocco motore*.
+Infine, selezionare il *Blocco con fori dei bulloni* e la *Spline estrusa* poi premere il pulsante <img alt="" src=images/Part_Common.png  style="width:16px;"> *Intersezione*, quindi nominare il risultato *Blocco motore*.
 
 L\'oggetto finale dovrebbe essere simile a quello dell\'immagine di destra.
 

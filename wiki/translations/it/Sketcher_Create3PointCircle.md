@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Sketcher Create3PointCircle
-   Name/it   *Crea cerchio da 3 punti
-   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation   *Sketch → Geometrie → Cerchio da tre punti
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/it
+   Name:Sketcher Create3PointCircle
+   Name/it:Crea cerchio da 3 punti
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation:Sketch → Geometrie → Cerchio da tre punti
+   Shortcut:
+   SeeAlso:
 ---
 
 # Sketcher Create3PointCircle/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width   *32px;"> disegna un cerchio passante per tre punti selezionati dall\'utente nella vista 3D. Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce bianca con l\'icona arco rosso.
+Questo strumento <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> disegna un cerchio passante per tre punti selezionati dall\'utente nella vista 3D. Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce bianca con l\'icona arco rosso.
 
 Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizione, aggiornate in tempo reale.
 

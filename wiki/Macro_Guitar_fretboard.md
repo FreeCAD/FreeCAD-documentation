@@ -7,7 +7,7 @@
 |Version=0.4
 |Date=2020-01-09
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/b/be/Macro_Guitar_fretboard.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/b/be/Macro_Guitar_fretboard.png ToolBar Icon]
 |SeeAlso=[Macro_Guitar_Nut](Macro_Guitar_Nut.md) <img src="images/Macro_Guitar_Nut.png" width=24px>
 }}
 
@@ -29,29 +29,29 @@ The ToolBar Icon ![Macro_Guitar_fretboard](images/Macro_Guitar_fretboard.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'dialog.ui'
 #
-# Created   * Sat Jan 14 00   *33   *37 2012
-#      by   * PyQt4 UI code generator 4.9
+# Created: Sat Jan 14 00:33:37 2012
+#      by: PyQt4 UI code generator 4.9
 #      
 # WARNING! All changes made in this file will be lost!
 #
 #
 ###################################### FREECAD Macro - Draw fretboard guitar #############################################
-# ressource    *                                                                                                            #
-# Freecad dialog creation    * http   *//sourceforge.net/apps/mediawiki/free-cad/index.php?title=Dialog_creation               #
-# Topological data scripting    * http   *//sourceforge.net/apps/mediawiki/free-cad/index.php?title=Topological_data_scripting #
-# Fret slot theory    * http   *//www.jpbourgeois.org/guitar/frets.htm                                                         #
+# ressource :                                                                                                            #
+# Freecad dialog creation : http://sourceforge.net/apps/mediawiki/free-cad/index.php?title=Dialog_creation               #
+# Topological data scripting : http://sourceforge.net/apps/mediawiki/free-cad/index.php?title=Topological_data_scripting #
+# Fret slot theory : http://www.jpbourgeois.org/guitar/frets.htm                                                         #
 #                                                                                                                        #
 # For personal use only and / or non-profit use                                                                          #
 # (C)2012 By LEPINE Florent                                                                                              #
 # (C)2020 By Jeff Siddall                                                                                                #
 # V0.1  -  2012/03/18                                                                                                    #
-# V0.2  -  2018/01/25    * PySide                                                                                           #
-# V0.3  -  2019/07/03    * Adaptation for 0.18                                                                              #
-# V0.4  -  2020/01/08    * Major refactor to add multiscale frets and zerofret (Jeff Siddall)                               #
+# V0.2  -  2018/01/25 : PySide                                                                                           #
+# V0.3  -  2019/07/03 : Adaptation for 0.18                                                                              #
+# V0.4  -  2020/01/08 : Major refactor to add multiscale frets and zerofret (Jeff Siddall)                               #
 # Special thanks to FreeCAD team                                                                                         #
 #                                                                                                                        #
 ##########################################################################################################################
@@ -78,10 +78,10 @@ from PySide import QtCore, QtGui
 import FreeCAD, Part, math
 from FreeCAD import Base, Vector
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    _fromUtf8 = lambda s   * s
+except AttributeError:
+    _fromUtf8 = lambda s: s
 
 
 
@@ -90,21 +90,21 @@ except AttributeError   *
    ################################################################################################
 
 # Function to return the X-value for a given fret
-def fretx(fret, scalelen, offset)   *
+def fretx(fret, scalelen, offset):
     xvalue = (scalelen * (1 - (0.5 ** (float(fret) / 12)))) + offset
 
     return(xvalue)
 
 
 # Function to return the neck edge Y-value for a given X value
-def edgey(xvalue, nutwidth, edgetan)   *
+def edgey(xvalue, nutwidth, edgetan):
     yvalue = (xvalue * edgetan) + (nutwidth / 2)
 
     return(yvalue)
 
 
 # Function to return the fret X-axis crossing value for a given fret
-def fretxcross(fret, scalelen1, scalelen2, perpscalediff)   *
+def fretxcross(fret, scalelen1, scalelen2, perpscalediff):
     offset = perpscalediff / 2
     fret1x = fretx(fret, scalelen1, offset)   
     fret2x = fretx(fret, scalelen2, -offset)
@@ -114,7 +114,7 @@ def fretxcross(fret, scalelen1, scalelen2, perpscalediff)   *
 
 
 # Function to return the fret angle tangent for a given fret
-def frettan(fret, scalelen1, scalelen2, perpscalediff, nutwidth, edgetan)   *
+def frettan(fret, scalelen1, scalelen2, perpscalediff, nutwidth, edgetan):
     offset = perpscalediff / 2
     fret1x = fretx(fret, scalelen1, offset)   
     fret2x = fretx(fret, scalelen2, -offset)
@@ -129,8 +129,8 @@ def frettan(fret, scalelen1, scalelen2, perpscalediff, nutwidth, edgetan)   *
    ################################################################################################
 
 
-class Ui_Dialog(object)   *
-    def setupUi(self, Dialog)   *
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
         Dialog.setObjectName(_fromUtf8("Dialog"))
         Dialog.resize(600, 491)
         self.label_zerofret = QtGui.QLabel(Dialog)
@@ -172,7 +172,7 @@ class Ui_Dialog(object)   *
         self.lineEdit_nutradius.setObjectName(_fromUtf8("lineEdit_nutradius"))
         self.label_nutradius = QtGui.QLabel(Dialog)
         self.label_nutradius.setGeometry(QtCore.QRect(10, 190, 431, 24))
-        self.label_nutradius.setToolTip(_fromUtf8("Measured where the middle of the nut/zero fret crosses the neck centerline.  To convert to mm from inches multiply by 25.4.  Ex   * 7.5 in = 191 mm."))
+        self.label_nutradius.setToolTip(_fromUtf8("Measured where the middle of the nut/zero fret crosses the neck centerline.  To convert to mm from inches multiply by 25.4.  Ex: 7.5 in = 191 mm."))
         self.label_nutradius.setObjectName(_fromUtf8("label_nutradius"))
         self.lineEdit_perpfret = QtGui.QLineEdit(Dialog)
         self.lineEdit_perpfret.setGeometry(QtCore.QRect(460, 110, 51, 24))
@@ -193,7 +193,7 @@ class Ui_Dialog(object)   *
         self.lineEdit_bridgeradius.setObjectName(_fromUtf8("lineEdit_bridgeradius"))
         self.label_bridgeradius = QtGui.QLabel(Dialog)
         self.label_bridgeradius.setGeometry(QtCore.QRect(10, 210, 431, 24))
-        self.label_bridgeradius.setToolTip(_fromUtf8("Measured at neck centerline at saddles. To convert to mm from inches multiply by 25.4.  Ex   * 25 in = 635 mm."))
+        self.label_bridgeradius.setToolTip(_fromUtf8("Measured at neck centerline at saddles. To convert to mm from inches multiply by 25.4.  Ex: 25 in = 635 mm."))
         self.label_bridgeradius.setObjectName(_fromUtf8("label_bridgeradius"))
         self.label_thicknessboard = QtGui.QLabel(Dialog)
         self.label_thicknessboard.setGeometry(QtCore.QRect(10, 90, 431, 24))
@@ -386,7 +386,7 @@ class Ui_Dialog(object)   *
 
 
 
-    def retranslateUi(self, Dialog)   *
+    def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(_fromUtf8("Multiscale Compound Fretboard Maker"))
         self.label_zerofret.setText(_fromUtf8("Use zero fret - Utilisez z" + chr(233) + "ro frette"))
         self.checkBox_zerofret.setChecked(True)
@@ -450,8 +450,8 @@ class Ui_Dialog(object)   *
     ############################################################################################
 
 
-    def createFretboard(self)   *
-        try   *
+    def createFretboard(self):
+        try:
             #################################################################
             ####### first we check if valid numbers have been entered #######
             #################################################################
@@ -475,16 +475,16 @@ class Ui_Dialog(object)   *
             nutslotdepth = float(self.lineEdit_nutslotdepth.text())                     # profondeur du sillet
 
 
-        except ValueError   *
+        except ValueError:
             print( "Error! values must be valid numbers!")
             return None
 
 
-        else   *
-            if self.checkBox_zerofret.checkState() == 0   *
+        else:
+            if self.checkBox_zerofret.checkState() == 0:
                 zerofret = 0
                 nutslotwidth = float(nutslotwidth)
-            else   *
+            else:
                 zerofret = 1
                 nutslotwidth = 0.0
 
@@ -598,18 +598,18 @@ class Ui_Dialog(object)   *
             cleanfretboard = ftextrude.common(fbextrude)
             #Part.show(cleanfretboard)
 
-            if zerofret   *
+            if zerofret:
                 ########################################################################
                 print("4 - Skipping nut because zerofret was selected")
                 print("5 - Skipping nut because zerofret was selected")
                 ########################################################################
 
-            else   *
+            else:
                 ########################################################################
                 print("4 - Make nut")
                 ########################################################################
                 ########                      Nut Vector                          ######
-                vnt1x = -(bridgewidth * zerofrettan)                                    # nut crosses centerline at x=0, y=0 and nut slot needs to be wider than fretboard (i.e.   * bridgewidth)
+                vnt1x = -(bridgewidth * zerofrettan)                                    # nut crosses centerline at x=0, y=0 and nut slot needs to be wider than fretboard (i.e.: bridgewidth)
                 vnt1 = Vector(vnt1x, bridgewidth, thicknessboard)
                 vnt2 = Vector(-vnt1x, -bridgewidth, thicknessboard)
                 vnt3x = -vnt1x - adjnutslotwidth
@@ -660,17 +660,17 @@ class Ui_Dialog(object)   *
             i=0
             incnfret = 0
 
-            if (zerofret)   *
+            if (zerofret):
                 incnfret = -1                                                           # use a zero fret if enabled
 
 
-            while (incnfret < nfret)   *                                                   # draw all frets
+            while (incnfret < nfret):                                                   # draw all frets
                 incnfret = incnfret + 1                 
                 incxcross = fretxcross(incnfret, scalelen1, scalelen2, perpscalediff)
                 incfrettan = frettan(incnfret, scalelen1, scalelen2, perpscalediff, nutwidth, edgetan)
                 incfretangle = math.atan(incfrettan)
 
-                print("      Fret " + str(incnfret) + "   * " + str(round(incxcross,2)) + " mm at " + str(round(math.degrees(incfretangle),1)) + " degrees")
+                print("      Fret " + str(incnfret) + ": " + str(round(incxcross,2)) + " mm at " + str(round(math.degrees(incfretangle),1)) + " degrees")
 
                 adjfretslotwidth = fretslotwidth/math.cos(incfretangle) / 2             # adjust for fret slot being on an angle
 
@@ -678,7 +678,7 @@ class Ui_Dialog(object)   *
                 ##############             Fret slot ne X                ############
                 #####################################################################         
 
-                # make slots much larger than required (i.e.   * twice the bridgewidth) initially, then cut later
+                # make slots much larger than required (i.e.: twice the bridgewidth) initially, then cut later
                 fretend1x = incxcross - (incfrettan * bridgewidth)
                 fretend2x = incxcross + (incfrettan * bridgewidth)
                 vnfs1 = Vector((fretend1x - adjfretslotwidth), bridgewidth, 0)
@@ -689,25 +689,25 @@ class Ui_Dialog(object)   *
                 nslotwire = Part.makePolygon(pointslistvnfs)
                 nslotextrude = Part.Face(nslotwire)
                  
-                while (i < 1 )   *
+                while (i < 1 ):
                     i = i + 1  
                     nslot = nslotextrude.extrude(Vector(0,0,thicknessboard*2))
-                else   *
+                else:
                     nslot2 = nslotextrude.extrude(Vector(0,0,thicknessboard*2))
                     nslot = nslot.fuse(nslot2) 
                 
-            else   *
+            else:
 
                 nslot3 = fbextrudefs.common(nslot)                                      # assembling all part (radius, bottom and fret)
                 nslot4 = fretslotradius.common(nslot3)
 
-                if zerofret   *
+                if zerofret:
                     nslot5 = cleanfretboard.cut(nslot4)    
-                else   *
+                else:
                     nslot5 = fretboardnut.cut(nslot4)    
 
                 #Part.show(fretboardfinal)
-                objet_fretboard = App.ActiveDocument.addObject("Part   *   *Feature","Fretboard")
+                objet_fretboard = App.ActiveDocument.addObject("Part::Feature","Fretboard")
                 objet_fretboard.Shape = nslot5
 
                 print("End of fretboard")
@@ -718,7 +718,7 @@ class Ui_Dialog(object)   *
             ########################################################################
             Plane_scale_length = Part.makePlane(thicknessboard * 2 , (bridgewidth + (stringmargin1 + stringmargin2)), Vector(((scalelen1 + scalelen2) / 2), ((bridgewidth / 2) + ((stringmargin1 + stringmargin2) /2)),0), Vector(1,0,0)) #makePlane(length,width,[start_pnt,dir_normal])
             #Part.show (Plane_scale_length)
-            objet_diapason = App.ActiveDocument.addObject("Part   *   *Feature","Scale/Diapason")
+            objet_diapason = App.ActiveDocument.addObject("Part::Feature","Scale/Diapason")
             objet_diapason.Shape = Plane_scale_length
 
 
@@ -726,8 +726,8 @@ class Ui_Dialog(object)   *
             self.dialog.hide()
 
 
-class Fretboard()   *
-    if App.ActiveDocument is None    *                                                     # create new document called 'Fretboard' if no document is open
+class Fretboard():
+    if App.ActiveDocument is None :                                                     # create new document called 'Fretboard' if no document is open
         doc = App.newDocument("Fretboard")
     dialog = QtGui.QWidget() 
     dialog.ui = Ui_Dialog()
@@ -740,13 +740,13 @@ class Fretboard()   *
 
 ## Link
 
-[Guitar fretboard macro / guitar body](https   *//forum.freecadweb.org/viewtopic.php?f=24&t=5827)  
+[Guitar fretboard macro / guitar body](https://forum.freecadweb.org/viewtopic.php?f=24&t=5827)  
 
 ## Version
 
--   Version 0.1    * 2012-03-16
--   Version 0.2    * 2018-01-25    * convert to PySide
--   Version 0.4    * 2020-01-09    * major refactor to add multiscale frets and zero fret
+-   Version 0.1 : 2012-03-16
+-   Version 0.2 : 2018-01-25 : convert to PySide
+-   Version 0.4 : 2020-01-09 : major refactor to add multiscale frets and zero fret
 
 
 

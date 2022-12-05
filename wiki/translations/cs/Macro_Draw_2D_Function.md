@@ -8,13 +8,13 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png ToolBar Icon]
 }}
 
 ## Description
 
 Použijete k nakreslení funkce popsané \"rovnicí\" \[z=F(x)\] (Z-X rovina). Příklad ukázaný zde generuje parabolu.
-Nemá žádné dialogové okno. Je potřeba definovat    *
+Nemá žádné dialogové okno. Je potřeba definovat :
 F = proměnná použitá ve funkci,
 X = iniciační hodnota x,
 Nb = počet kroků,
@@ -43,15 +43,15 @@ X=-500
 Nb=10
 Step=1000/Nb
 Y=0
-for I in range(Nb)   *
+for I in range(Nb):
     XX=X+Step 
     Z=X*X/(4*F)
     ZZ=XX*XX/(4*F)
-    if I==0   *
+    if I==0:
         print( "Le test est vrai !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))
         WWire=Part.Wire([nomme])
-    else    *
+    else :
         print( "Le test est 2 !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))      
         WWire=Part.Wire([WWire,nomme])

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Sketcher_MapSketch
-   Name/ru   *Разместить эскиз на грани
-   MenuLocation   *Part Design/Sketch →  Разместить эскиз на грани...
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso   *[Создать эскиз](Sketcher_NewSketch/ru.md)
+- GuiCommand:/ru
+   Name:Sketcher_MapSketch
+   Name/ru:Разместить эскиз на грани
+   MenuLocation:Part Design/Sketch →  Разместить эскиз на грани...
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Создать эскиз](Sketcher_NewSketch/ru.md)
 ---
 
 # Sketcher MapSketch/ru
@@ -13,13 +13,13 @@
 
 Этот инструмент размещает созданный эскиз на грани фигуры. Элементы PartDesign, созданные из этого эскиза, будут объединены с базовым телом при использовании добавочных операций (Выдавливание, Вращение) или вычтены из базового тела в случае вычитающих операций (Вырез, Паз).
 
-Обратите внимание, что этот инструмент не используется для создания новых эскизов. Он только размещает или переназначает существующий эскиз на грань тела или элемент PartDesign-а. Типичные случаи использования   *
+Обратите внимание, что этот инструмент не используется для создания новых эскизов. Он только размещает или переназначает существующий эскиз на грань тела или элемент PartDesign-а. Типичные случаи использования:
 
 -   Эскиз был создан на стандартной плоскости (XY, XZ, YZ), и вы хотите разместить его на грани твердого тела, чтобы построить из него элемент.
 -   Эскиз был размещен на определенной грани твердого тела, но необходимо его перенести на другую грань.
 -   Ремонт сломанной модели.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
 ## Применение
 

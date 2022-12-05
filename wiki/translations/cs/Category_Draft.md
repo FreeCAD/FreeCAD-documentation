@@ -1,8 +1,6 @@
 # Category:Draft/cs
 This category list pages related to the \"User_Documentation/cs\" and \"Workbenches/cs\"
 
-[Category   *User Documentation/cs](Category   *User_Documentation/cs.md) [Category   *Workbenches/cs](Category   *Workbenches/cs.md)
-
 ### Contents
 
 |     |     |     |

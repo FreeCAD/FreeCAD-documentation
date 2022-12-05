@@ -12,7 +12,7 @@ L\'utente **chrisb** ha scritto un lungo manuale di riferimento di 70 pagine per
 
 <div class="mw-translate-fuzzy">
 
-Il manuale è in costante evoluzione, in quanto alcune sezioni vengono riviste e aggiornate in base allo sviluppo che si verifica in [Sketcher](Sketcher_Workbench/it.md). Il manuale originale è stato scritto per FreeCAD 0.17, poi è stato aggiornato per 0.18 e ora per 0.19. L\'ultimo manuale è disponibile nel forum, [Tutorial di Sketcher](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104).
+Il manuale è in costante evoluzione, in quanto alcune sezioni vengono riviste e aggiornate in base allo sviluppo che si verifica in [Sketcher](Sketcher_Workbench/it.md). Il manuale originale è stato scritto per FreeCAD 0.17, poi è stato aggiornato per 0.18 e ora per 0.19. L\'ultimo manuale è disponibile nel forum, [Tutorial di Sketcher](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104).
 
 
 </div>
@@ -24,7 +24,7 @@ Due to the evolving nature of the manual, the document is also known as the \"Sk
 
 ## Indice
 
-The general structure of the manual is   *
+The general structure of the manual is:
 
 -   Basics
     -   Create a sketch

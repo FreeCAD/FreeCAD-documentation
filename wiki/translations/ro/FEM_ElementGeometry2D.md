@@ -1,6 +1,6 @@
 # FEM ElementGeometry2D/ro
 ---
-- GuiCommand   *   Name   *FEM ElementGeometry2D   MenuLocation   *Model →Shell plate tickness   |Workbenches   *[Shortcut   *C,S   SeeAlso   *[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name:FEM ElementGeometry2D   MenuLocation:Model →Shell plate tickness   |Workbenches:[Shortcut:C,S   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -23,7 +23,7 @@
 
 </div>
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [FEM ElementGeometry2D](FEM_ElementGeometry2D.md)** button.
     -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
 2.  Define a thickness parameter.
@@ -38,7 +38,7 @@
 
 **Thickness**
 
-   * specifies the thickness of the shell.
+: specifies the thickness of the shell.
 
 ## Scripting
 

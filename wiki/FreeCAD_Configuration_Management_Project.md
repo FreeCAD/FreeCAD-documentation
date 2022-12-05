@@ -32,9 +32,7 @@ This work will provide experience in the packaging and distribution of multi-pla
 
 Medium
 
-### Additional Information 
-
-[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
+### Additional Information
 
 
 

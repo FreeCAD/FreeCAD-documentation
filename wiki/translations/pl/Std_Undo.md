@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Undo
-   Name/pl   *Std   * Cofnij
-   MenuLocation   *Edycja → Cofnij
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl**+**Z**
-   SeeAlso   *[Przywróć](Std_Redo/pl.md)
+- GuiCommand:/pl
+   Name:Std Undo
+   Name/pl:Std: Cofnij
+   MenuLocation:Edycja → Cofnij
+   Workbenches:wszystkie
+   Shortcut:**Ctrl**+**Z**
+   SeeAlso:[Przywróć](Std_Redo/pl.md)
 ---
 
 # Std Undo/pl
@@ -16,10 +16,10 @@ Polecenie **Cofnij** cofa ostatnią czynność
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Std_Undo.svg" width=16px> [Cofnij](Std_Undo.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Undo.svg" width=16px> Cofnij**.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **Z**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **Z**.
 
 ## Opcje
 
@@ -33,7 +33,7 @@ Polecenie **Cofnij** cofa ostatnią czynność
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

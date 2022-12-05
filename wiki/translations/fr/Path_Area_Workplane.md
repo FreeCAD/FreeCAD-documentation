@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Path Area Workplane
-   Name/fr   *Path Zone de travail plane
-   MenuLocation   *Path → Plan de travail de la zone
-   Workbenches   *[Path](Path_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Path Area Workplane
+   Name/fr:Path Zone de travail plane
+   MenuLocation:Path → Plan de travail de la zone
+   Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
 # Path Area Workplane/fr
@@ -33,11 +33,11 @@ Vide
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Exemple   *
+Exemple:
 
 
 ```python

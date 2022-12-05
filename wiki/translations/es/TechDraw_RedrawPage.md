@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *TechDraw RedrawPage
-   MenuLocation   *TechDraw → Redraw Page
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
-   Version   *0.19
+- GuiCommand:
+   Name:TechDraw RedrawPage
+   MenuLocation:TechDraw → Redraw Page
+   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Version:0.19
 ---
 
 # TechDraw RedrawPage/es

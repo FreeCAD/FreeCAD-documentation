@@ -1,6 +1,6 @@
 # Path ToolLibraryEdit/it
 ---
-- GuiCommand   */it   Name   *Path ToolLibraryEdit   Name/it   *Gestione utensili   Workbenches   *[[Path Workbench/it   Path]]|MenuLocation   *Path → Gestione utensili   Shortcut   *P,T   SeeAlso   *---
+- GuiCommand:/it   Name:Path ToolLibraryEdit   Name/it:Gestione utensili   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Gestione utensili   Shortcut:P,T   SeeAlso:---
 
 
 </div>
@@ -22,19 +22,19 @@ Serve per selezionare lo strumento che si desidera utilizzare nella lavorazione.
 
 <div class="mw-translate-fuzzy">
 
-La gestione è semplice   *
+La gestione è semplice:
 
--   Import\...   * Importa una tabella utensili da un file XML. {{Note|Avviso | Attualmente questo è in parte rovinato e non funziona se non si è mai usato un file xml prima.}}
--   Export\...   * Esporta la tabella degli utensili in un file XML.
--   New Tool   * Apre una finestra di dialogo in cui si può inserire i parametri dell\'utensile. Vedere Nuovo utensile
--   Delete   * cancella le linee attualmente selezionate. {{Note| Avvertenza | Gli strumenti vengono cancellati dalla tabella degli utensili anche se si annulla la finestra di dialogo}}
--   Move up   * Non è possibile modificare il numero dello strumento, ma è possibile spostare la linea selezionata verso l\'alto per diminuirne il numero
--   Move down   * È possibile spostare la linea selezionata verso il basso per aumentare il numero dell\'utensile
+-   Import\...: Importa una tabella utensili da un file XML. {{Note|Avviso | Attualmente questo è in parte rovinato e non funziona se non si è mai usato un file xml prima.}}
+-   Export\...: Esporta la tabella degli utensili in un file XML.
+-   New Tool: Apre una finestra di dialogo in cui si può inserire i parametri dell\'utensile. Vedere Nuovo utensile
+-   Delete: cancella le linee attualmente selezionate. {{Note| Avvertenza | Gli strumenti vengono cancellati dalla tabella degli utensili anche se si annulla la finestra di dialogo}}
+-   Move up: Non è possibile modificare il numero dello strumento, ma è possibile spostare la linea selezionata verso l\'alto per diminuirne il numero
+-   Move down: È possibile spostare la linea selezionata verso il basso per aumentare il numero dell\'utensile
 
 
 </div>
 
--   Create Tool Controller(s)   * Quando si seleziona una o più caselle di controllo a sinistra nell\'elenco degli strumenti, questo pulsante diventa attivo. Cliccando, gli strumenti selezionati vengono inseriti nella lavorazione corrente.
+-   Create Tool Controller(s): Quando si seleziona una o più caselle di controllo a sinistra nell\'elenco degli strumenti, questo pulsante diventa attivo. Cliccando, gli strumenti selezionati vengono inseriti nella lavorazione corrente.
 
 ## Utilizzo
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ConstraintSelfWeight
-   Name/fr   *FEM Contrainte de poids propre
-   MenuLocation   *Modèle → Contraintes mécaniques → Contrainte de poids propre
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutorie](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM ConstraintSelfWeight
+   Name/fr:FEM Contrainte de poids propre
+   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de poids propre
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutorie](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintSelfWeight/fr
@@ -15,14 +15,14 @@ La contrainte de propre poids est définie par l\'accélération gravitationnell
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
 2.  \* Appuyez sur le bouton **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)**.
 3.  \* Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Contrainte de poids propre** dans le menu.
 4.  Vous pouvez modifier la direction de la gravitation en modifiant ses coordonnées vectorielles dans la barre de propriétés du nouvel objet ConstraintSelfWeight.
 
 ## Script
 
-Nouvel objet    *
+Nouvel objet :
 
 
 ```python
@@ -30,14 +30,14 @@ import ObjectsFem
 ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
-Ajoutez un objet à l\'analyse nommée Analysis    *
+Ajoutez un objet à l\'analyse nommée Analysis :
 
 
 ```python
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
-Exemple    *
+Exemple :
 
 
 ```python
@@ -57,7 +57,7 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 La constante d\'accélération peut être modifiée manuellement à la suite de la génération du fichier d\'entrée CalculiX.
 
-Exemple de lignes dans le fichier .inp    *
+Exemple de lignes dans le fichier .inp :
 
 
 ```python

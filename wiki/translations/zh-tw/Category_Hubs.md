@@ -1,8 +1,6 @@
 # Category:Hubs/zh-tw
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-[Category   *Categories/zh-tw](Category   *Categories/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

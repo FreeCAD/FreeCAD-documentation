@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft ShowSnapBar
-   Name/de   *Draft ShowSnapBar
-   MenuLocation   *Werkzeuge → Fangen-Symbolleisten einblenden
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Draft Fangen](Draft_Snap/de.md)
+- GuiCommand:/de
+   Name:Draft ShowSnapBar
+   Name/de:Draft ShowSnapBar
+   MenuLocation:Werkzeuge → Fangen-Symbolleisten einblenden
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft Fangen](Draft_Snap/de.md)
 ---
 
 # Draft ShowSnapBar/de
@@ -33,7 +33,7 @@ Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die
 
 ## Hinweise
 
--   Like any toolbar the Draft Snap toolbar can be toggled using these methods   *
+-   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
     -   Select the **View → Toolbars → Draft Snap** option from the menu.
     -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 

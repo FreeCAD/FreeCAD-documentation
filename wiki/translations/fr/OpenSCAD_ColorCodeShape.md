@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *OpenSCAD ColorCodeShape
-   Name/fr   *OpenSCAD ColorCodeShape‏‎
-   MenuLocation   *OpenSCAD → ColorCodeShape‏‎
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:OpenSCAD ColorCodeShape
+   Name/fr:OpenSCAD ColorCodeShape‏‎
+   MenuLocation:OpenSCAD → ColorCodeShape‏‎
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD ColorCodeShape/fr
@@ -16,7 +16,7 @@
 
 ## Remarques
 
--   Source   * <https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/OpenSCAD/colorcodeshapes.py>
+-   Source: <https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/OpenSCAD/colorcodeshapes.py>
 
 
 

@@ -3,7 +3,7 @@
 
 Bauingenieurwesen ist eine breite Kategorie von Ingenieurwissenschaften und umfasst mehrere Fachgebiete, vor allem Umwelt (Abwasser), Geotechnik, Transport und Bauwesen. Gegenwärtig liegt der Schwerpunkt der Bestrebungen im Bauingenieurwesen in FreeCAD auf dem Verkehrswesen, genauer gesagt auf der 3D Gestaltung von Straßen.
 
-Derzeit sind nur zwei Komponenten des Bauingenieurwesens in FreeCAD vertreten   *
+Derzeit sind nur zwei Komponenten des Bauingenieurwesens in FreeCAD vertreten:
 
 1.  [Arbeitsbereich Bewehrung](Arch_Rebar/de.md)
 2.  [Arbeitsbereich Verkehrswesen](Transportation_Workbench/de.md)
@@ -12,9 +12,9 @@ Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbe
 
 ## Verwandte Forumsbeiträge 
 
--   Implementierung von Funktionen im Bauingenieurwesen (Verkehrsingenieurwesen) [Beitrag](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22277).
--   Bauingenieurwesen Konstruktionsfunktionen [Beitrag](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=6973)
--   Beitrag der die FreeCAD & QGIS Integration verfolgt [Beitrag](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22390)
+-   Implementierung von Funktionen im Bauingenieurwesen (Verkehrsingenieurwesen) [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277).
+-   Bauingenieurwesen Konstruktionsfunktionen [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=6973)
+-   Beitrag der die FreeCAD & QGIS Integration verfolgt [Beitrag](https://forum.freecadweb.org/viewtopic.php?f=8&t=22390)
 
 ## ZuTun
 
@@ -26,11 +26,6 @@ Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbe
 
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Arbeitsbereiche](Workbenches/de.md)
-
-
-
-
-[Category   *Documentation](Category_Documentation.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md)
 
 
 

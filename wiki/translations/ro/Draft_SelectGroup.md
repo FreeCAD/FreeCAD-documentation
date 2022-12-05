@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Draft SelectGroup
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation   *Draft → Utilities → Select group
-   Shortcut   *
-   SeeAlso   *[Draft AddToGroup](Draft_AddToGroup.md), [Std Group](Std_Group.md)
+- GuiCommand:
+   Name:Draft SelectGroup
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft → Utilities → Select group
+   Shortcut:
+   SeeAlso:[Draft AddToGroup](Draft_AddToGroup.md), [Std Group](Std_Group.md)
 ---
 
 # Draft SelectGroup/ro
@@ -48,7 +48,7 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 ## Legături
 
 -   [Document structure](Document_structure.md)
--   [Organizing your model](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
+-   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
 </div>

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *TechDraw 2PointCosmeticLine
-   Name/pl   *Dodaj linię kosmetyczną wytyczoną przez dwa punkty
-   MenuLocation   *Rysunek Techniczny → Dodaj Linię → Dodaj linię środkową pomiędzy dwoma punktami
-   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version   *0.19
-   SeeAlso   *[Dodaj linię środkową do ściany](TechDraw_FaceCenterLine/pl.md), [Dodaj linię środkową pomiędzy dwoma liniami](TechDraw_2LineCenterLine/pl.md)
+- GuiCommand:/pl
+   Name:TechDraw 2PointCosmeticLine
+   Name/pl:Dodaj linię kosmetyczną wytyczoną przez dwa punkty
+   MenuLocation:Rysunek Techniczny → Dodaj Linię → Dodaj linię środkową pomiędzy dwoma punktami
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version:0.19
+   SeeAlso:[Dodaj linię środkową do ściany](TechDraw_FaceCenterLine/pl.md), [Dodaj linię środkową pomiędzy dwoma liniami](TechDraw_2LineCenterLine/pl.md)
 ---
 
 # TechDraw 2PointCosmeticLine/pl
@@ -14,7 +14,7 @@
 
 Narzędzie **Dodaj linię kosmetyczną wytyczoną przez dwa punkty** dodaje linię kosmetyczną pomiędzy dwoma wierzchołkami *(punktami)*. Wierzchołki mogą być rozmieszczone zarówno w przestrzeni 2D jak i 3D. Wynikowa linia może być użyta do wymiarowania. Obecność linii może być modyfikowana za pomocą narzędzia [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
 
@@ -29,7 +29,7 @@ Narzędzie **Dodaj linię kosmetyczną wytyczoną przez dwa punkty** dodaje lini
 
 ## Edycja linii kosmetycznej 
 
-Aby zmienić punkty końcowe linii kosmetycznej   *
+Aby zmienić punkty końcowe linii kosmetycznej:
 
 1.  Wybierz linię kosmetyczną.
 2.  Naciśnij przycisk **<img src="images/TechDraw-line2points.svg" width=16px> Dodaj linię kosmetyczną wytyczoną przez dwa punkty**.
@@ -38,7 +38,7 @@ Aby zmienić punkty końcowe linii kosmetycznej   *
 
 Aby usunąć linię kosmetyczną należy użyć narzędzia **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
 
-Aby zmienić widok linii kosmetycznej, użyj narzędzia <img alt="" src=images/TechDraw_DecorateLine.svg  style="width   *16px;"> [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
+Aby zmienić widok linii kosmetycznej, użyj narzędzia <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
 
 ## Właściwości
 
@@ -46,7 +46,7 @@ Linie kosmetyczne nie mają własnych właściwości, ponieważ nie są obiektam
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Linie kosmetyczne można tworzyć za pomocą metod makeCosmeticLine(v1, v2) lub makeCosmeticLine3d(v1, v2) w DrawViewPart.
 

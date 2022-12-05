@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Shape2DView
-   Name/ro   *Draft Shape2DView
-   MenuLocation   *Draft -> Shape 2D View
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+- GuiCommand:/ro
+   Name:Draft Shape2DView
+   Name/ro:Draft Shape2DView
+   MenuLocation:Draft -> Shape 2D View
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
 # Draft Shape2DView/ro
@@ -41,15 +41,15 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 ## How to produce plans and sections with different linewidths 
 
-<img alt="" src=images/Draft_shape2dview_example_plan.png  style="width   *700px;">
+<img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
 Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](Arch_SectionPlane.md). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
 
 ## Proprietăți
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -59,19 +59,19 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData | Proiectare}}   * direcția proiecției.
+-    {{PropertyData | Proiectare}}: direcția proiecției.
 
--    {{PropertyData | Mod de proiecție}}   * Modul de proiecție   * fețe solide, individuale sau tăieturi.
+-    {{PropertyData | Mod de proiecție}}: Modul de proiecție: fețe solide, individuale sau tăieturi.
 
--    {{PropertyData | In Place}}   * Dacă este adevărat, atunci când se utilizează Cutlines sau Cutfaces mode (doar [Arch SectionPlane](Arch_SectionPlane.md)), rezultatul va apărea la locația planului tăiat în loc de planul de masă {{Version | 0.17 }}
+-    {{PropertyData | In Place}}: Dacă este adevărat, atunci când se utilizează Cutlines sau Cutfaces mode (doar [Arch SectionPlane](Arch_SectionPlane.md)), rezultatul va apărea la locația planului tăiat în loc de planul de masă {{Version | 0.17 }}
 
--    {{PropertyData | HiddenLines}}   * Afișează linii ascunse sau nu
+-    {{PropertyData | HiddenLines}}: Afișează linii ascunse sau nu
 
--    {{PropertyData | Tessellation}}   * Tessellate Ellipses și BSplines în segmente de linie
+-    {{PropertyData | Tessellation}}: Tessellate Ellipses și BSplines în segmente de linie
 
--    {{PropertyData | Lungimea segmentului}}   * mărimea segmentelor dacă Tessellation este activată
+-    {{PropertyData | Lungimea segmentului}}: mărimea segmentelor dacă Tessellation este activată
 
--    {{PropertyData | Numai vizibil}}   * Dacă este adevărat, această vizualizare va fi recuperată numai dacă este vizibilă
+-    {{PropertyData | Numai vizibil}}: Dacă este adevărat, această vizualizare va fi recuperată numai dacă este vizibilă
 
 
 </div>
@@ -81,9 +81,9 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * not used.
+-    **Pattern|Enumeration**: not used.
 
--    **Pattern Size|Float**   * not used.
+-    **Pattern Size|Float**: not used.
 
 ## Scripting
 
@@ -98,7 +98,7 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 <div class="mw-translate-fuzzy">
 
-InstrumentulDraft Shape2DView poate fi utilizat în [macros](macros.md) și de la consola Python folosind următoarele funcții   *
+InstrumentulDraft Shape2DView poate fi utilizat în [macros](macros.md) și de la consola Python folosind următoarele funcții:
 
 
 </div>
@@ -119,7 +119,7 @@ shape2dview = make_shape2dview(baseobj, projectionVector=None, facenumbers=[])
 
 </div>
 
-Change the `ProjectionMode` property of the created object if required. It can be   * `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` or `"Solid faces"`.
+Change the `ProjectionMode` property of the created object if required. It can be: `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` or `"Solid faces"`.
 
 Exempluː
 
@@ -130,7 +130,7 @@ import Draft
 
 doc = App.newDocument()
 
-box = doc.addObject("Part   *   *Box", "Box")
+box = doc.addObject("Part::Box", "Box")
 box.Length = 2300
 box.Width = 500
 box.Height = 1000

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std Redo
-   MenuLocation   *Edit → Redo
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**Y**
-   SeeAlso   *[Std Undo](Std_Undo.md)
+- GuiCommand:
+   Name:Std Redo
+   MenuLocation:Edit → Redo
+   Workbenches:All
+   Shortcut:**Ctrl**+**Y**
+   SeeAlso:[Std Undo](Std_Undo.md)
 ---
 
 # Std Redo/en
@@ -15,10 +15,10 @@ The **Std Redo** command reverses the action of the [Std Undo](Std_Undo.md) comm
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button.
     -   Select the **Edit → <img src="images/Std_Redo.svg" width=16px> Redo** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**Y**.
+    -   Use the keyboard shortcut: **Ctrl**+**Y**.
 
 ## Options
 
@@ -32,7 +32,7 @@ The **Std Redo** command reverses the action of the [Std Undo](Std_Undo.md) comm
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

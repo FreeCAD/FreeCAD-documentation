@@ -1,33 +1,33 @@
 ---
-- GuiCommand   */pl
-   Name   *Draft Line
-   Name/pl   *Rysunek roboczy   * Linia
-   MenuLocation   *Kreślenie → Linia
-   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut   ***L** **I**
-   Version   *0.7
-   SeeAlso   *[Polilinia](Draft_Wire/pl.md)
+- GuiCommand:/pl
+   Name:Draft Line
+   Name/pl:Rysunek roboczy: Linia
+   MenuLocation:Kreślenie → Linia
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut:**L** **I**
+   Version:0.7
+   SeeAlso:[Polilinia](Draft_Wire/pl.md)
 ---
 
 # Draft Line/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> **Linia** środowiska Rysunek Roboczy, tworzy linię prostą.
+Polecenie <img alt="" src=images/Draft_Line.svg  style="width:24px;"> **Linia** środowiska Rysunek Roboczy, tworzy linię prostą.
 
 Linia środowiska Rysunek Roboczy jest w rzeczywistości [polilinią](Draft_Wire/pl.md) z tylko dwoma punktami.
 
-<img alt="" src=images/Draft_Line_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Line_example.jpg  style="width:400px;"> 
 *Linia utworzona przez dwa punkty*
 
 ## Użycie
 
 Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Line.svg" width=16px> [Utwórz linię ...](Draft_Line.md)**.
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Line.svg" width=16px> Linia** opcję z menu.
-    -   Użyj skrótu klawiaturowego   * **L**, a następnie **I**.
+    -   Użyj skrótu klawiaturowego: **L**, a następnie **I**.
 2.  Otworzy się panel zadań **Linia**. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
@@ -53,10 +53,10 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Ustawienia
 
-Zobacz także strony   * [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów   * **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zmienić wartość początkową trybu wypełnienia   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
 -   Jeśli opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [Linia](Part_Line/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
 
 ## Właściwości
@@ -65,7 +65,7 @@ Zobacz stronę [polilinia](Draft_Wire/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć linię użyj metody `make_line` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeLine`.
 
@@ -80,7 +80,7 @@ line = make_line(Shape)
 -   Tworzy obiekt `Line` z `Part.LineSegment`.
 -   Tworzy obiekt `Line` od pierwszego do ostatniego wierzchołka danego `Shape`.
 
-Przykład   *
+Przykład:
 
 
 ```python

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std FreeCADPowerUserHub
-   MenuLocation   *Help → Python scripting documentation
-   Workbenches   *All
-   SeeAlso   *[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+- GuiCommand:
+   Name:Std FreeCADPowerUserHub
+   MenuLocation:Help → Python scripting documentation
+   Workbenches:All
+   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
 ---
 
 # Std FreeCADPowerUserHub/pt-br
@@ -12,7 +12,7 @@
 
 The **Std FreeCADPowerUserHub** command opens the FreeCAD Power users documentation page in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https   *//wiki.freecad.org/Power_users_hub>](https   *//wiki.freecad.org/Power_users_hub).
+Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](https://wiki.freecad.org/Power_users_hub).
 
 ## Usage
 

@@ -1,8 +1,6 @@
 # Category:User Documentation/de
 Diese Kategorie enthält Artikel über die Benutzung von FreeCAD. Es ist auch die zentrale Download-Liste für die Online-Dokumentation von FreeCAD.
 
-[Category   *Documentation/de](Category   *Documentation/de.md) [Category   *Categories/de](Category   *Categories/de.md)
-
 ### Contents
 
 |     |     |     |

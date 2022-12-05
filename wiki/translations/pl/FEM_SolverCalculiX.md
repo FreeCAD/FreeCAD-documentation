@@ -1,17 +1,17 @@
 ---
-- GuiCommand   *
-   Name   *FEM SolverCalculiX
-   MenuLocation   *Solve → Solver CalculiX (new framework)
-   Workbenches   *[FEM](FEM_Workbench.md)
-   Shortcut   ***S** **C**
-   SeeAlso   *[FEM CalculiX](FEM_CalculiX.md), [FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM SolverCalculiX
+   MenuLocation:Solve → Solver CalculiX (new framework)
+   Workbenches:[FEM](FEM_Workbench.md)
+   Shortcut:**S** **C**
+   SeeAlso:[FEM CalculiX](FEM_CalculiX.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM SolverCalculiX/pl
 
 ## Description
 
-The **Solver CalculiX (new framework)** command creates a SolverCalculix object, which uses the same framework as Elmer and Z88 solvers (the code is not visible for the user). It is preferred to use the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) because it contains extra checks, e.g. showing the elements with nonpositive Jacobian which might cause solution difficulties.
+The **Solver CalculiX (new framework)** command creates a SolverCalculix object, which uses the same framework as Elmer and Z88 solvers (the code is not visible for the user). It is preferred to use the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) because it contains extra checks, e.g. showing the elements with nonpositive Jacobian which might cause solution difficulties.
 
 ## Usage
 

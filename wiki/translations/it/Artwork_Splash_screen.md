@@ -51,8 +51,6 @@ Queste sono le schermate iniziali che sono state utilizzate per ogni versione de
 
 ![](images/Splashscreen09.png )
 
-[Category   *Artwork](Category_Artwork.md)
-
 
 
 ---

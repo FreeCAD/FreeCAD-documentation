@@ -1,4 +1,4 @@
-# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width   *64px;"> Image Workbench/zh-cn
+# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/zh-cn
 
 
 {{TOCright}}
@@ -15,9 +15,9 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Image-import.svg  style="width   *32px;"> [Open](Image_Open.md)   * 在新的视口中打开图像。
--   <img alt="" src=images/Image-import-to-plane.svg  style="width   *32px;"> [Import to plane](Image_CreateImagePlane.md)   * 将图像导入至3D视图中的平面内。
--   <img alt="" src=images/Image-scale.svg  style="width   *32px;"> [Scaling](Image_Scaling.md)   * 对导入至平面内的图像进行缩放处理。
+-   <img alt="" src=images/Image-import.svg  style="width:32px;"> [Open](Image_Open.md): 在新的视口中打开图像。
+-   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Import to plane](Image_CreateImagePlane.md): 将图像导入至3D视图中的平面内。
+-   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Scaling](Image_Scaling.md): 对导入至平面内的图像进行缩放处理。
 
 
 </div>
@@ -25,7 +25,7 @@
 ## 特性
 
 -   与[草图相似](Sketcher_Workbench.md)，我们可将导入的图像附于XY，XZ或YZ主平面之一，并为之调整正、负偏移值。
--   导入图像的比例关系为1像素   *1毫米。
+-   导入图像的比例关系为1像素:1毫米。
 -   建议导入具有合理分辨率的图像。
 
 ## Workflow
@@ -50,9 +50,7 @@
 
 {{Image Tools navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

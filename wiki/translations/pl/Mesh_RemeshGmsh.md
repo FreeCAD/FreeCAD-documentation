@@ -1,23 +1,23 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh RemeshGmsh
-   Name/pl   *Siatka   * Ulepsz przez Gmsh
-   MenuLocation   *Siatki → Ulepszanie ...
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
-   Version   *0.19
-   SeeAlso   *[Siatka z kształtu](Mesh_FromPartShape/pl.md)
+- GuiCommand:/pl
+   Name:Mesh RemeshGmsh
+   Name/pl:Siatka: Ulepsz przez Gmsh
+   MenuLocation:Siatki → Ulepszanie ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Version:0.19
+   SeeAlso:[Siatka z kształtu](Mesh_FromPartShape/pl.md)
 ---
 
 # Mesh RemeshGmsh/pl
 
 ## Opis
 
-Polecenie **Ulepsz \...** ponownie przetwarza obiekt siatkowy przy użyciu generatora siatek [Gmsh](https   *//gmsh.info/). Nowa siatka może być drobniejsza lub grubsza.
+Polecenie **Ulepsz \...** ponownie przetwarza obiekt siatkowy przy użyciu generatora siatek [Gmsh](https://gmsh.info/). Nowa siatka może być drobniejsza lub grubsza.
 
 ## Użycie
 
 1.  Wybierz pojedynczy obiekt siatki.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Ulepsz ...](Mesh_RemeshGmsh/pl.md)**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Ulepsz ...**.
 3.  Otwiera się panel zadań **Ponów tworzenie siatki przez Gmsh**.
@@ -32,7 +32,7 @@ Polecenie **Ulepsz \...** ponownie przetwarza obiekt siatkowy przy użyciu gener
 
 ## Właściwości
 
-Zapoznaj się z informacjami na stronie   * [cecha siatki](Mesh_Feature/pl.md).
+Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 

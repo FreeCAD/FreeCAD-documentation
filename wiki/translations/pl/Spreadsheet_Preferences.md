@@ -1,9 +1,9 @@
 # Spreadsheet Preferences/pl
 {{TOCright}}
 
-Preferencje dla środowiska pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) *({{Version/pl|0.20}})* można znaleźć w [Edytorze preferencji](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje ...**, a następnie **Arkusz Kalkulacyjny**. Sekcja ta jest dostępna tylko po otwarciu dokumentu zawierającego obiekt arkusza kalkulacyjnego, po odwiedzeniu środowiska pracy lub po załadowaniu środowiska pracy za pomocą karty *Dostępne środowiska pracy* w sekcji **Środowiska pracy**.
+Preferencje dla środowiska pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) *({{Version/pl|0.20}})* można znaleźć w [Edytorze preferencji](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje ...**, a następnie **Arkusz Kalkulacyjny**. Sekcja ta jest dostępna tylko po otwarciu dokumentu zawierającego obiekt arkusza kalkulacyjnego, po odwiedzeniu środowiska pracy lub po załadowaniu środowiska pracy za pomocą karty *Dostępne środowiska pracy* w sekcji **Środowiska pracy**.
 
-Istnieje tylko jedna karta   * *Arkusz kalkulacyjny* w zakładce **Arkusz Kalkulacyjny**. Na tej karcie można zdefiniować następujące elementy   *
+Istnieje tylko jedna karta: *Arkusz kalkulacyjny* w zakładce **Arkusz Kalkulacyjny**. Na tej karcie można zdefiniować następujące elementy:
 
 +++
 | Nazwa                           | Opis                                                            |
@@ -32,9 +32,7 @@ Istnieje tylko jedna karta   * *Arkusz kalkulacyjny* w zakładce **Arkusz Kalkul
 
 {{Spreadsheet_Tools_navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

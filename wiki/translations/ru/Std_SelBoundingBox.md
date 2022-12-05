@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Std SelBoundingBox
-   Name/ru   *Std SelBoundingBox
-   MenuLocation   *Вид → Bounding box
-   Workbenches   *All
-   SeeAlso   *[Std DrawStyle](Std_DrawStyle/ru.md)
+- GuiCommand:/ru
+   Name:Std SelBoundingBox
+   Name/ru:Std SelBoundingBox
+   MenuLocation:Вид → Bounding box
+   Workbenches:All
+   SeeAlso:[Std DrawStyle](Std_DrawStyle/ru.md)
 ---
 
 # Std SelBoundingBox/ru
@@ -18,18 +18,18 @@ The **Std SelBoundingBox** command toggles the global bounding box highlighting 
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)** button.
     -   Select the **View → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box** option from the menu.
 
 ## Настройки
 
-The related setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. It is a boolean value, the default is `False`.
+The related setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. It is a boolean value, the default is `False`.
 
 ## Scripting
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
@@ -39,10 +39,10 @@ To change the ShowSelectionBoundingBox setting use the `SetBool` method of the a
 ```python
 import FreeCAD, FreeCADGui
 
-grp = FreeCAD.ParamGet('User parameter   *BaseApp/Preferences/View')
-if grp.GetBool('ShowSelectionBoundingBox')   *
+grp = FreeCAD.ParamGet('User parameter:BaseApp/Preferences/View')
+if grp.GetBool('ShowSelectionBoundingBox'):
   grp.SetBool('ShowSelectionBoundingBox',False)
-else   *
+else:
   grp.SetBool('ShowSelectionBoundingBox',True)
 
 FreeCADGui.updateCommands()

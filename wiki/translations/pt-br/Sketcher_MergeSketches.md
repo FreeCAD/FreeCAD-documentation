@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher MergeSketches
-   MenuLocation   *Sketch → Merge sketches
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Version   *0.15
+- GuiCommand:
+   Name:Sketcher MergeSketches
+   MenuLocation:Sketch → Merge sketches
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Version:0.15
 ---
 
 # Sketcher MergeSketches/pt-br

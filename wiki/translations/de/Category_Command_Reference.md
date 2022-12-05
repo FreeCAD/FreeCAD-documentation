@@ -4,8 +4,6 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 
 {{docnav/de|[Der Arbeitsbereich Roboter](Robot_Workbench/de.md)|[Tutorials](Tutorials/de.md)}}
 
-[Category   *Categories/de](Category   *Categories/de.md)
-
 ### Contents
 
 |     |     |     |

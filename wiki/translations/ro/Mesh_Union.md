@@ -1,6 +1,6 @@
 # Mesh Union/ro
 ---
-- GuiCommand   *   Name   *Mesh Union‏‎   MenuLocation   *Meshes → Boolean → Union   Workbenches   *[Shortcut   *   SeeAlso   *[[Mesh_Merge|Merge](Mesh_Workbench___Mesh]].md)---
+- GuiCommand:   Name:Mesh Union‏‎   MenuLocation:Meshes → Boolean → Union   Workbenches:[Shortcut:   SeeAlso:[[Mesh_Merge|Merge](Mesh_Workbench___Mesh]].md)---
 
 
 </div>
@@ -30,7 +30,7 @@ Comanda creează o nouă plasă separată cu toate fațetele externe la toate oc
 
 <div class="mw-translate-fuzzy">
 
-Exemplu   * Cub fuzionat cu o sferă
+Exemplu: Cub fuzionat cu o sferă
 
 
 </div>
@@ -50,7 +50,7 @@ Exemplu   * Cub fuzionat cu o sferă
 
 ## Properties
 
-See   * [Mesh Feature](Mesh_Feature.md).
+See: [Mesh Feature](Mesh_Feature.md).
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh Evaluation
-   Name/pl   *Siatka   * Analiza
-   MenuLocation   *Siatki → Analizuj → Oceń i napraw siatkę ...
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+- GuiCommand:/pl
+   Name:Mesh Evaluation
+   Name/pl:Siatka: Analiza
+   MenuLocation:Siatki → Analizuj → Oceń i napraw siatkę ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh Evaluation/pl
@@ -18,11 +18,11 @@ Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
 ## Użycie
 
 1.  Opcjonalnie wybierz pojedynczy obiekt siatki.
-2.  Polecenie można wywołać na kilka sposobów   *
+2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Mesh_Evaluation.svg" width=16px> [Analizuj](Mesh_Evaluation.md)**.
     -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_Evaluation.svg" width=16px>Oceń i napraw siatkę ...**.
 3.  Otwiera się okno dialogowe **Oceń i napraw siatkę**.
-4.  Opcjonalnie naciśnij przycisk **Ustawienia ...**, aby zmienić następujące ustawienia   *
+4.  Opcjonalnie naciśnij przycisk **Ustawienia ...**, aby zmienić następujące ustawienia:
     -   
         **Sprawdzanie miejsc technologicznie niewykonalnych**
         
@@ -34,7 +34,7 @@ Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
     -   
         **Uznaj za uszkodzone tylko powierzchnie nie tworzące obszaru ''(zero area faces)''**
         
-5.  Jeśli nie wybrałeś jeszcze obiektu siatki   * wybierz go z listy rozwijanej w górnej części okna dialogowego.
+5.  Jeśli nie wybrałeś jeszcze obiektu siatki: wybierz go z listy rozwijanej w górnej części okna dialogowego.
 6.  Okno dialogowe zawiera siedem lub osiem *(jeśli włączona jest opcja **Włącz sprawdzanie fałd na powierzchni**)* opcji testowych.
 7.  Nie używaj pól wyboru, zostaną one zaznaczone automatycznie, jeśli zostaną znalezione błędy.
 8.  Naciśnij dowolny z przycisków **Analizuj**, aby rozpocząć test.
@@ -49,13 +49,13 @@ Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
 ## Uwagi
 
 -   Naprawa siatki może oznaczać, że problematyczne elementy zostaną usunięte z siatki, co spowoduje powstanie dziur. Dziury można zamknąć za pomocą poleceń [Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md) i [Dodaj element](Mesh_AddFacet/pl.md).
--   Zobacz [ten post na forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252), aby uzyskać wyjaśnienie struktury danych siatki. Ta informacja może pomóc zrozumieć, dlaczego w danej siatce występują problemy.
+-   Zobacz [ten post na forum](https://forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252), aby uzyskać wyjaśnienie struktury danych siatki. Ta informacja może pomóc zrozumieć, dlaczego w danej siatce występują problemy.
 
 ## Ustawienia
 
--   Ustawienie **Sprawdzanie miejsc technologicznie niewykonalnych** jest zapisywane   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
--   Ustawienie **Włącz sprawdzanie fałd na powierzchni** jest zapisywane   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
--   Ustawienie **Uznaj za uszkodzone tylko powierzchnie nie tworzące obszaru** jest zapisywane   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
+-   Ustawienie **Sprawdzanie miejsc technologicznie niewykonalnych** jest zapisywane: **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
+-   Ustawienie **Włącz sprawdzanie fałd na powierzchni** jest zapisywane: **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
+-   Ustawienie **Uznaj za uszkodzone tylko powierzchnie nie tworzące obszaru** jest zapisywane: **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
 
 
 

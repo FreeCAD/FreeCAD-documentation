@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/de
 ---
-- GuiCommand   */de   Name   *Robot RestoreHomePos   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Roboter → zur Ausgangsposition bewegen---
+- GuiCommand:/de   Name:Robot RestoreHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Roboter → zur Ausgangsposition bewegen---
 
 
 </div>
@@ -25,7 +25,7 @@ Lässt den selektierten Roboter zu seiner Ausgangsposition zurückkehren.
 #### Anwendung
 
 1.  Selektieren Sie den Roboter in der Baumansicht oder der 3D-Ansicht
-2.  Klicken Sie <img alt="" src=images/Robot_RestoreHomePos.png  style="width   *32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_RestoreHomePos.png" width=32px> zur Ausgangsposition bewegen** aus dem Top-Menü.
+2.  Klicken Sie <img alt="" src=images/Robot_RestoreHomePos.png  style="width:32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_RestoreHomePos.png" width=32px> zur Ausgangsposition bewegen** aus dem Top-Menü.
 
 
 </div>

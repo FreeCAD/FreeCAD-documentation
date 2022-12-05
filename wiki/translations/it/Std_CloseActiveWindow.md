@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Std_CloseActiveWindow
-   Name/it   *Chiudi
-   Empty   *1
-   MenuLocation   *File → Chiudi
-   Workbenches   *Tutti
-   Shortcut   ***Ctrl**+**F4**
-   SeeAlso   *[Chiudi tutto](Std_CloseAll/it.md)
+- GuiCommand:/it
+   Name:Std_CloseActiveWindow
+   Name/it:Chiudi
+   Empty:1
+   MenuLocation:File → Chiudi
+   Workbenches:Tutti
+   Shortcut:**Ctrl**+**F4**
+   SeeAlso:[Chiudi tutto](Std_CloseAll/it.md)
 ---
 
 # Std CloseActiveWindow/it
@@ -23,11 +23,11 @@ Il comando **Chiudi** chiude la finestra attiva. Per chiudere un documento, tutt
 
 <div class="mw-translate-fuzzy">
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Selezionare **File → Chiudi** dal menu.
-    -   Usare la scorciatoia da tastiera   * **Ctrl**+**F4**.
-2.  Per chiudere un documento   * ripetere questo per tutte le finestre che appartengono al documento.
-3.  Quando si chiude l\'ultima finestra di un documento che non è stato salvato, una finestra di dialogo chiede se si vuole salvarlo   *
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**F4**.
+2.  Per chiudere un documento: ripetere questo per tutte le finestre che appartengono al documento.
+3.  Quando si chiude l\'ultima finestra di un documento che non è stato salvato, una finestra di dialogo chiede se si vuole salvarlo:
     -   Premere il pulsante **Salva** Se necessario, inserire prima un nome per il file.
     -   Premere il pulsante **Tralascia** per eliminare il documento e perdere tutte le modifiche.
 
@@ -36,7 +36,7 @@ Il comando **Chiudi** chiude la finestra attiva. Per chiudere un documento, tutt
 
 ## Opzioni
 
--   Quando viene visualizzata la finestra di dialogo   * premere **Esc** o il pulsante **Annulla** per annullare il comando.
+-   Quando viene visualizzata la finestra di dialogo: premere **Esc** o il pulsante **Annulla** per annullare il comando.
 
 ## Note
 
@@ -45,12 +45,12 @@ Il comando **Chiudi** chiude la finestra attiva. Per chiudere un documento, tutt
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

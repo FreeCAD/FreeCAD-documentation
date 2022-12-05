@@ -14,20 +14,20 @@ L\'obiettivo di BOLTS è quello di costruire una libreria gratuita e open-source
 
 BOLTS fornisce un widget per FreeCAD che permette di inserire le parti nel documento attivo. I modelli e le dimensioni di una parte possono essere selezionate nel widget dove la parte è descritta da una etichetta.
 
-<img alt="" src=images/freecad-bearing.png  style="width   *480px;"> 
+<img alt="" src=images/freecad-bearing.png  style="width:480px;"> 
 *Il widget BOLTS e un cuscinetto da BOLTS*
 
 ## Script
 
-Maggiori informazioni su BOLTS si trovano sulla sua pagina web [www.bolts-library.org](https   *//www.bolts-library.org/en/index.html) e il suo github [<https   *//github.com/boltsparts>](https   *//github.com/boltsparts).
+Maggiori informazioni su BOLTS si trovano sulla sua pagina web [www.bolts-library.org](https://www.bolts-library.org/en/index.html) e il suo github [<https://github.com/boltsparts>](https://github.com/boltsparts).
 
-Il github fornisce anche un repo [BOLTSFC](https   *//github.com/boltsparts/BOLTSFC) che è direttamente installabile in FreeCAD..
+Il github fornisce anche un repo [BOLTSFC](https://github.com/boltsparts/BOLTSFC) che è direttamente installabile in FreeCAD..
 
-**nota**   * BOLTSFC fa anche parte di [FreeCAD addons](https   *//github.com/FreeCAD/FreeCAD-addons) e può essere installato dalla macro installatrice degli addons
+**nota**: BOLTSFC fa anche parte di [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) e può essere installato dalla macro installatrice degli addons
 
 ## Utilizzo
 
-Le istruzioni dettagliate si trovano nella [Documentation section](https   *//github.com/boltsparts/BOLTSFC/blob/master/README.md) della pagina web   *
+Le istruzioni dettagliate si trovano nella [Documentation section](https://github.com/boltsparts/BOLTSFC/blob/master/README.md) della pagina web:
 
 -   How to install BOLTS for FreeCAD
 -   How to setup a toolbar button for BOLTS
@@ -35,7 +35,7 @@ Le istruzioni dettagliate si trovano nella [Documentation section](https   *//gi
 
 ## Contribuire
 
-Una libreria di Parti che sia utile per una vasta gamma di persone può essere realizzata solo attraverso uno sforzo della comunità. Ci sono molte possibilità e diversi modi per [contribuire](https   *//boltsparts.github.io/en/contribute.html) a BOLTS.
+Una libreria di Parti che sia utile per una vasta gamma di persone può essere realizzata solo attraverso uno sforzo della comunità. Ci sono molte possibilità e diversi modi per [contribuire](https://boltsparts.github.io/en/contribute.html) a BOLTS.
 
 
 

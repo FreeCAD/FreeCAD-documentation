@@ -1,6 +1,6 @@
 # PartDesign SubtractiveBox/ro
 ---
-- GuiCommand   *   Name   *PartDesign SubtractiveBox   Workbenches   *[MenuLocation   *Part Design → Create a subtractive primitive → Subtractive box   Shortcut   *None   SeeAlso   *[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractiveBox   Workbenches:[MenuLocation:Part Design → Create a subtractive primitive → Subtractive box   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Inserts a subtractive box in the active Body. Its shape is subtracted from the existing solid.
 
-![](images/PartDesign_SubtractiveBox_example.png ) *On the left   * active body (A) shown in grey and subtractive box (B) shown in transparent red; result on the right.*
+![](images/PartDesign_SubtractiveBox_example.png ) *On the left: active body (A) shown in grey and subtractive box (B) shown in transparent red; result on the right.*
 
 
 <div class="mw-translate-fuzzy">
@@ -22,7 +22,7 @@ Inserts a subtractive box in the active Body. Its shape is subtracted from the e
 
 <div class="mw-translate-fuzzy">
 
-1.  Apăsați butonul **<img src="images/PartDesign_SubtractiveBox.png" width=24px> '''Subtractive Box'''**. **Notă**   * Subtractive Box este partea a meniului iconițelor etichetat *Create a subtractive primitive*.
+1.  Apăsați butonul **<img src="images/PartDesign_SubtractiveBox.png" width=24px> '''Subtractive Box'''**. **Notă**: Subtractive Box este partea a meniului iconițelor etichetat *Create a subtractive primitive*.
 
 După lansarea FreeCAD, caseta Subtractive este cea afișată în bara de instrumente. Dacă este afișat un primitiv diferit, faceți clic pe săgeata în jos, în afară de pictogramă, și selectați caseta Subtractor din meniu.
 
@@ -38,7 +38,7 @@ După lansarea FreeCAD, caseta Subtractive este cea afișată în bara de instru
 
 <div class="mw-translate-fuzzy">
 
-The Box can be edited after its creation in two ways   *
+The Box can be edited after its creation in two ways:
 
 -   Double-clicking it in the Model tree, or by right-clicking and selecting **Edit primitive** in the contextual menu; this brings up the Primitive parameters.
 -   Via the [Property editor](Property_editor.md).
@@ -51,15 +51,15 @@ The Box can be edited after its creation in two ways   *
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**   * definește modul de tașamante ca și Attachment Offset. A se vedea [Part EditAttachment](Part_EditAttachment.md).
+-    **Attachment**: definește modul de tașamante ca și Attachment Offset. A se vedea [Part EditAttachment](Part_EditAttachment.md).
 
--    **Label**   * Label given to the Box object. Change to suit your needs.
+-    **Label**: Label given to the Box object. Change to suit your needs.
 
--    **Length**   * the Box\'s dimension in the X-direction.
+-    **Length**: the Box\'s dimension in the X-direction.
 
--    **Width**   * the Box\'s dimension in the Y-direction.
+-    **Width**: the Box\'s dimension in the Y-direction.
 
--    **Height**   *dimensiunea Casetei/Box pe direcția Z-direction.
+-    **Height**:dimensiunea Casetei/Box pe direcția Z-direction.
 
 
 </div>

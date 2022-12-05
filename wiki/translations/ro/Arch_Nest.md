@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Nest   Name/ro   *Arch Nest
-   MenuLocation   *Arch → Panel tools → Nest
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   SeeAlso   *[[Arch Panel/ro]], [[Arch Panel Sheet/ro]]
+- GuiCommand:/ro
+   Name:Arch Nest   Name/ro:Arch Nest
+   MenuLocation:Arch → Panel tools → Nest
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]]
 ---
 
 # Arch Nest/ro
@@ -23,7 +23,7 @@ Instrumentul Nest permite selectarea unei forme plate pentru a fi un container �
 
 Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție constantă și, în prezent, nu este pe deplin optimizat. În viitor, performanța acestui instrument ar trebui să devină mult mai bună.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
 
 *Imaginea de mai sus prezintă o serie de forme înainte și după operația de cuibărit*
 
@@ -48,7 +48,7 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width:600px;">
 
 
 </div>

@@ -1,8 +1,6 @@
 # Category:BIM/ro
 This category is for pages related to building information management (BIM).
 
-[Category   *User Documentation/ro](Category   *User_Documentation/ro.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,5 +1,5 @@
 # Manual
-1.  Redirect   *[Manual   *Introduction](Manual_Introduction.md)
+1.  Redirect:[Manual:Introduction](Manual_Introduction.md)
 
 
 

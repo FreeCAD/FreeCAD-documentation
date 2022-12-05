@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Mesh BoundingBox
-   MenuLocation   *Meshes → Analyze → Boundings info...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
+- GuiCommand:
+   Name:Mesh BoundingBox
+   MenuLocation:Meshes → Analyze → Boundings info...
+   Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BoundingBox/en
@@ -14,7 +14,7 @@ The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh ob
 ## Usage
 
 1.  Select a single mesh object.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_BoundingBox.svg" width=16px> [Mesh BoundingBox](Mesh_BoundingBox.md)** button.
     -   Select the **Meshes → Analyze → <img src="images/Mesh_BoundingBox.svg" width=16px> Boundings info...** option from the menu.
 3.  The **Boundings** dialog box opens showing the coordinates of the object\'s bounding box.

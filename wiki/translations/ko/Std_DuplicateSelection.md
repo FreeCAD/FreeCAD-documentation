@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ko
-   Name   *Std DuplicateSelection
-   Name/ko   *표준 개체 복제
-   MenuLocation   *편집 → 개체 복제
-   Workbenches   *모두
-   SeeAlso   *[표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md)
+- GuiCommand:/ko
+   Name:Std DuplicateSelection
+   Name/ko:표준 개체 복제
+   MenuLocation:편집 → 개체 복제
+   Workbenches:모두
+   SeeAlso:[표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md)
 ---
 
 # Std DuplicateSelection/ko

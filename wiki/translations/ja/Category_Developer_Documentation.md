@@ -1,8 +1,6 @@
 # Category:Developer Documentation/ja
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/ja](Category   *Documentation/ja.md)
-
 ### Contents
 
 |     |     |     |

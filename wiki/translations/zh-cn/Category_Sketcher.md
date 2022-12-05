@@ -1,8 +1,6 @@
 # Category:Sketcher/zh-cn
 This category lists pages related to the [Sketcher Workbench/zh-cn](Sketcher_Workbench/zh-cn.md).
 
-[Category   *Workbenches/zh-cn](Category   *Workbenches/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

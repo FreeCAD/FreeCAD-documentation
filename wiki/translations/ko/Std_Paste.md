@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ko
-   Name   *Std Paste
-   Name/ko   *표준 붙여넣기
-   MenuLocation   *편집 → 붙여넣기
-   Workbenches   *모두
-   Shortcut   ***Ctrl**+**V**
-   SeeAlso   *[표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
+- GuiCommand:/ko
+   Name:Std Paste
+   Name/ko:표준 붙여넣기
+   MenuLocation:편집 → 붙여넣기
+   Workbenches:모두
+   Shortcut:**Ctrl**+**V**
+   SeeAlso:[표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
 ---
 
 # Std Paste/ko
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  이 명령을 실행하는 방법은 여러가지입니다   *
+1.  이 명령을 실행하는 방법은 여러가지입니다:
     -   
         **<img src="images/Std_Paste.svg" width=16px> [표준 붙여넣기](Std_Paste/ko.md)
 **
@@ -30,7 +30,7 @@
 
     -   [트리 보기의](Tree_view/ko.md) 상황에 맞는 메뉴에서 **<img src="images/Std_Paste.svg" width=16px> 붙여넣기** 옵션을 선택합니다. 이 옵션은 기존에 선택한 개체가 있을 때에만 사용할 수 있습니다.
 
-    -   단축키를 사용합니다   * **Ctrl**+**V**.
+    -   단축키를 사용합니다: **Ctrl**+**V**.
 
 
 </div>

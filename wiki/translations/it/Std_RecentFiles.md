@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std_RecentFiles
-   Name/it   *File recenti
-   Empty   *1
-   MenuLocation   *File → File recenti
-   Workbenches   *Tutti
-   SeeAlso   *[Apri](Std_Open/it.md), [Importa](Std_Import/it.md)
+- GuiCommand:/it
+   Name:Std_RecentFiles
+   Name/it:File recenti
+   Empty:1
+   MenuLocation:File → File recenti
+   Workbenches:Tutti
+   SeeAlso:[Apri](Std_Open/it.md), [Importa](Std_Import/it.md)
 ---
 
 # Std RecentFiles/it
@@ -26,7 +26,7 @@ L\'opzione di menu **File recenti** visualizza un elenco di file recenti che pos
 ## Preferenze
 
 -   Il numero massimo di file nell\'elenco dei file recenti è determinato dall\'impostazione **Strumenti → Modifica parametri ... → BaseApp → Preferenze → File recenti → File recenti**. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Generale.md).
--   L\'ultima posizione del file utilizzato è memorizzata in   * {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
+-   L\'ultima posizione del file utilizzato è memorizzata in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
 
 
 

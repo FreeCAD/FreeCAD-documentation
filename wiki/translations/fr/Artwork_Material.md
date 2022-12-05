@@ -9,8 +9,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 ![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
 
-[Category   *Artwork](Category_Artwork.md)
-
 
 
 ---

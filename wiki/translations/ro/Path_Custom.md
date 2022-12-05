@@ -1,6 +1,6 @@
 # Path Custom/ro
 ---
-- GuiCommand   *   Name   *Path Custom   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Partial Commands → Custom   Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Path Custom   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Custom   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -11,9 +11,9 @@ Acest instrument introduce un obiect traiectorie care constă din cod G personal
 
 Deoarece comanda G-Code personalizată nu oferă nicio legătură cu un controler de scule, dacă o sculă este utilizată de codul G personalizat, indicele instrumentului trebuie să fie scris împreună cu codul de pornire M, pentru a fi transmis Postprocesorul. Acest lucru asigură că modificările și pornirea instrumentului vor fi generate în mod corespunzător.
 
-De exemplu, pentru a transmite Postprocesorului că instrumentul utilizat în operațiunea G-Cod personalizat are indicele Tool 6 și o viteză a arborelui de 10.000, introduceți următorul cod la începutul operațiunii Custom G Code   *
+De exemplu, pentru a transmite Postprocesorului că instrumentul utilizat în operațiunea G-Cod personalizat are indicele Tool 6 și o viteză a arborelui de 10.000, introduceți următorul cod la începutul operațiunii Custom G Code:
 
-(T6   * 4mm Endmill)
+(T6: 4mm Endmill)
 
 M6 T6
 
@@ -37,7 +37,7 @@ a noului obiect creat. Consulatați pagina [Path scripting](Path_scripting
 
 ## Proprietăți
 
--    **G Code**   * Comenzile G Code personalizate pentru a construi calea
+-    **G Code**: Comenzile G Code personalizate pentru a construi calea
 
 
 

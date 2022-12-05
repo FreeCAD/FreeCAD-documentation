@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Паз
-   Name   *Sketcher_CreateSlot
-   MenuLocation   *Эскиз → Геометрия эскиза → Создать паз
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+- GuiCommand:/ru
+   Name/ru:Паз
+   Name:Sketcher_CreateSlot
+   MenuLocation:Эскиз → Геометрия эскиза → Создать паз
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CreateSlot/ru
@@ -24,7 +24,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   После нажатия кнопки <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *24px;"> **Паз** на панели инструментов, укажите центр одного полукруга кликом мыши, затем переместите мышь и сделайте второй клик, чтобы задать конечную точку второго полукруга.
+-   После нажатия кнопки <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Паз** на панели инструментов, укажите центр одного полукруга кликом мыши, затем переместите мышь и сделайте второй клик, чтобы задать конечную точку второго полукруга.
 -   Нажатие **Esc** или нажатие правой кнопки мыши отменяет данную функцию.
 
 

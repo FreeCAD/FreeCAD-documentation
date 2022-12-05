@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Std PythonHelp
-   Name/ru   *Std PythonHelp
-   MenuLocation   *Help → Automatic python modules documentation
-   Workbenches   *All
-   SeeAlso   *[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/ru.md)
+- GuiCommand:/ru
+   Name:Std PythonHelp
+   Name/ru:Std PythonHelp
+   MenuLocation:Help → Automatic python modules documentation
+   Workbenches:All
+   SeeAlso:[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/ru.md)
 ---
 
 # Std PythonHelp/ru
@@ -13,7 +13,7 @@
 
 The **Std PythonHelp** command starts a web server that communicates with the system\'s default Internet browser over a local socket. The web server displays information about the available [Python](Python.md) modules, classes and functions of FreeCAD. The required pages are generated automatically.
 
-The web server is based on Python\'s [pydoc](https   *//docs.python.org/3.8/library/pydoc.html#module-pydoc) module, and thus extracts the docstrings of Python files (`.py`), and textual documentation defined in the Python wrappers (`.xml`) which expose the underlying C++ code.
+The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) module, and thus extracts the docstrings of Python files (`.py`), and textual documentation defined in the Python wrappers (`.xml`) which expose the underlying C++ code.
 
 ## Применение
 

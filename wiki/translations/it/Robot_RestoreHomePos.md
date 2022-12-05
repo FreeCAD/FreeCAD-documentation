@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/it
 ---
-- GuiCommand   */it   Name   *Robot RestoreHomePos   Name/it   *Sposta alla posizione di partenza   Workbenches   *[[Robot_Workbench/it   Robot]]|MenuLocation   *Robot → Sposta alla posizione di partenza---
+- GuiCommand:/it   Name:Robot RestoreHomePos   Name/it:Sposta alla posizione di partenza   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Sposta alla posizione di partenza---
 
 
 </div>
@@ -25,7 +25,7 @@ Sposta il robot selezionato nella sua posizione iniziale.
 #### Uso
 
 1.  Selezionare il robot nella vista ad albero o nella vista 3D
-2.  Cliccare su <img alt="" src=images/Robot_RestoreHomePos.png  style="width   *32px;"> o scegliere ** Robot** → **<img src="images/Robot_RestoreHomePos.png" width=32px> Sposta alla posizione iniziale** dal menu in alto.
+2.  Cliccare su <img alt="" src=images/Robot_RestoreHomePos.png  style="width:32px;"> o scegliere ** Robot** → **<img src="images/Robot_RestoreHomePos.png" width=32px> Sposta alla posizione iniziale** dal menu in alto.
 
 
 </div>

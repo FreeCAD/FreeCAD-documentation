@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Path DressupDragKnife
-   MenuLocation   *Path → Path Dressup → DragKnife Dressup
-   Workbenches   *[Path](Path_Workbench.md)
-   SeeAlso   *[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md)
+- GuiCommand:
+   Name:Path DressupDragKnife
+   MenuLocation:Path → Path Dressup → DragKnife Dressup
+   Workbenches:[Path](Path_Workbench.md)
+   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md)
 ---
 
 # Path DressupDragKnife/en
@@ -17,7 +17,7 @@ This tool dresses up an existing path to add corner actions and edge extensions 
 ## Usage
 
 1.  Select a contour or profile path [Path](Path_Workbench.md) objects
-2.  click the <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *16px;"> [Dragknife Dress-up](Path_DressupDragKnife.md) menu item
+2.  click the <img alt="" src=images/Path_DressupDragKnife.svg  style="width:16px;"> [Dragknife Dress-up](Path_DressupDragKnife.md) menu item
 
 ## Options
 

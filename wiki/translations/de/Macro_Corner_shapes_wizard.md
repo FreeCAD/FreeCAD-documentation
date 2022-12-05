@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion= <= 0.17
-|Download=[https   *//www.freecadweb.org/wiki/images/6/60/Macro_Corner_shapes_wizard.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/6/60/Macro_Corner_shapes_wizard.png ToolBar Icon]
 }}
 
 ## Beschreibung
@@ -25,10 +25,10 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
 **Macro_Corner_shapes_wizard.FCMacro**
 
-    # -*- coding   *utf-8 -*-
+    # -*- coding:utf-8 -*-
      
     #####################################
-    # Importation de fonctions externes    *
+    # Importation de fonctions externes :
      
     #from os import *
     import FreeCAD, FreeCADGui, Part, Draft, math, MeshPart, Mesh, Drawing
@@ -39,44 +39,44 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     Gui=FreeCADGui
      
     ##################################
-    # Défnition Class    *
+    # Défnition Class :
      
-    class Corniere   *
-       def __init__(self, obj)   *
-          obj.addProperty("App   *   *PropertyLength","L1","Corniere","Largeur 1").L1=20.0
-          obj.addProperty("App   *   *PropertyLength","L2","Corniere","Largeur 2").L2=20.0
-          obj.addProperty("App   *   *PropertyLength","e1","Corniere","Epaisseur 1").e1=2.0
-          #obj.addProperty("App   *   *PropertyLength","e2","Corniere","Epaisseur 2").e2=2.0
-          obj.addProperty("App   *   *PropertyLength","Longueur","Corniere","Longueur").Longueur=200.0
+    class Corniere:
+       def __init__(self, obj):
+          obj.addProperty("App::PropertyLength","L1","Corniere","Largeur 1").L1=20.0
+          obj.addProperty("App::PropertyLength","L2","Corniere","Largeur 2").L2=20.0
+          obj.addProperty("App::PropertyLength","e1","Corniere","Epaisseur 1").e1=2.0
+          #obj.addProperty("App::PropertyLength","e2","Corniere","Epaisseur 2").e2=2.0
+          obj.addProperty("App::PropertyLength","Longueur","Corniere","Longueur").Longueur=200.0
           obj.Proxy = self
      
-       def execute(self, fp)   *
+       def execute(self, fp):
           P1=Base.Vector(fp.e1,fp.e1,0)
           S1=Part.makeBox(fp.L1,fp.L2,fp.Longueur)
           S2=Part.makeBox(fp.L1-fp.e1,fp.L2-fp.e1,fp.Longueur,P1)
           fp.Shape=S1.cut(S2)   
      
     ##################################
-    # Défnition locale de fonctions    *
+    # Défnition locale de fonctions :
      
      
-    def proceed()   *
+    def proceed():
        QtGui.qApp.setOverrideCursor(QtCore.Qt.WaitCursor)
      
-       if FreeCAD.ActiveDocument==None   *
+       if FreeCAD.ActiveDocument==None:
           FreeCAD.newDocument("Corniere")
      
        oldDocumentObjects=App.ActiveDocument.Objects
      
-       try   *
+       try:
           QL1 = float(l1.text())   
           QL2 = float(l2.text())
           Qe = float(l3.text())
           QLongueur = float(l4.text())
-       except   *
+       except:
           FreeCAD.Console.PrintError("Wrong input! Only numbers allowed...\n")
      
-       Cor=FreeCAD.ActiveDocument.addObject("Part   *   *FeaturePython","Corniere")
+       Cor=FreeCAD.ActiveDocument.addObject("Part::FeaturePython","Corniere")
        Corniere(Cor)
        Cor.ViewObject.Proxy=0
        Cor.L1=QL1
@@ -93,11 +93,11 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
      
        dialog.hide()
      
-    def hide()   *
+    def hide():
      
        dialog.hide()
      
-    def Plan(obj)   *
+    def Plan(obj):
      
        ObjetProjete=obj.Shape
      
@@ -105,9 +105,9 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
        TailleY=ObjetProjete.BoundBox.YLength
        TailleZ=ObjetProjete.BoundBox.ZLength
      
-       page = App.activeDocument().addObject('Drawing   *   *FeaturePage','Page')
+       page = App.activeDocument().addObject('Drawing::FeaturePage','Page')
        page.Template = App.getResourceDir()+'Mod/Drawing/Templates/A3_Landscape.svg'   
-       vueprofil = App.activeDocument().addObject('Drawing   *   *FeatureViewPart','VueProfil')
+       vueprofil = App.activeDocument().addObject('Drawing::FeatureViewPart','VueProfil')
        vueprofil.Source = obj
        vueprofil.Direction = (0.0,0.0,1.0)
        vueprofil.Scale = 1.0
@@ -115,7 +115,7 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
        vueprofil.Y = 50.0
        page.addObject(vueprofil)
      
-       vuegauche = App.activeDocument().addObject('Drawing   *   *FeatureViewPart','Vuegauche')
+       vuegauche = App.activeDocument().addObject('Drawing::FeatureViewPart','Vuegauche')
        vuegauche.Source = obj
        vuegauche.Direction = (-1.0,0.0,0.0)
        vuegauche.ShowHiddenLines = True
@@ -125,7 +125,7 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
        vuegauche.Y = 50.0
        page.addObject(vuegauche)
      
-       vuedessus = App.activeDocument().addObject('Drawing   *   *FeatureViewPart','Vuedessus')
+       vuedessus = App.activeDocument().addObject('Drawing::FeatureViewPart','Vuedessus')
        vuedessus.Source = obj
        vuedessus.Direction = (0.0,-1.0,0.0)
        vuedessus.ShowHiddenLines = True
@@ -135,7 +135,7 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
        vuedessus.Y = 50.0+TailleX/2+TailleY+TailleX
        page.addObject(vuedessus)
      
-       vueiso = App.activeDocument().addObject('Drawing   *   *FeatureViewPart','VueIso')
+       vueiso = App.activeDocument().addObject('Drawing::FeatureViewPart','VueIso')
        vueiso.Source = obj
        vueiso.Direction = (-1.0,-1.0,0.5)
        vueiso.Scale = 1.0

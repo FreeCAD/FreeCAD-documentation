@@ -14,7 +14,7 @@ Il menu principale standard di FreeCAD consente di accedere agli strumenti che v
 
 ## Sottomenu
 
-Il menu standard è composto da sette sottomenu   *
+Il menu standard è composto da sette sottomenu:
 
 -   [File](Std_File_Menu/it.md) Il menu File fornisce gli strumenti relativi all\'input e all\'output del file.
 -   [Modifica](Std_Edit_Menu/it.md) Il menu Modifica fornisce gli strumenti per modificare il modello.

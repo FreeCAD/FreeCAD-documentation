@@ -1,8 +1,6 @@
 # Category:FEM/zh-cn
 This category lists pages related to the [FEM Workbench/zh-cn](FEM_Workbench/zh-cn.md).
 
-[Category   *Workbenches/zh-cn](Category   *Workbenches/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

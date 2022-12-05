@@ -10,7 +10,7 @@ Wenn du FreeCAD installierst, solltest du sowohl Qt als auch PySide als Teil des
 
 <div class="mw-translate-fuzzy">
 
-In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt Bindung für Python, aber 2013 ([1dc122dc9a](https   *//github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine zulässigere [Lizenz](licence/de.md) hat.
+In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt Bindung für Python, aber 2013 ([1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine zulässigere [Lizenz](licence/de.md) hat.
 
 
 </div>
@@ -18,16 +18,16 @@ In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt Bindung für Python,
 
 <div class="mw-translate-fuzzy">
 
-Für weitere Informationen siehe   *
+Für weitere Informationen siehe:
 
--   [Wikipedia   *PySide](http   *//en.wikipedia.org/wiki/PySide)
--   [Unterschiede zwischen PySide und PyQt](http   *//qt-project.org/wiki/Differences_Between_PySide_and_PyQt)
+-   [Wikipedia:PySide](http://en.wikipedia.org/wiki/PySide)
+-   [Unterschiede zwischen PySide und PyQt](http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt)
 
 
 </div>
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
-*Mit PySide erstellte Beispiele. Links   * ein einfacher Dialog. Rechts   * ein komplexerer Dialog mit Diagrammen.*
+*Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*
 
 ## PySide in FreeCAD mit Qt5 
 
@@ -69,20 +69,12 @@ Es gibt einige Unterschiede in der Behandlung von Widgets in Qt4 (PySide) und Qt
 
 Die PySide Dokumentation bezieht sich auf die Klassen im Python Stil; da Qt jedoch ursprünglich eine C++ Bibliothek ist, sollten dieselben Informationen auch in der entsprechenden C++ Referenz verfügbar sein.
 
--   [Qt Module](https   *//doc.qt.io/qtforpython/modules.html) verfügbar von PySide2 (Qt5).
--   [Alle Qt Klassen nach Modulen](https   *//doc.qt.io/qt-5/modules-cpp.html) in Qt5 für C++.
--   [Qt-Module](https   *//deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) verfügbar von PySide (Qt4).
+-   [Qt Module](https://doc.qt.io/qtforpython/modules.html) verfügbar von PySide2 (Qt5).
+-   [Alle Qt Klassen nach Modulen](https://doc.qt.io/qt-5/modules-cpp.html) in Qt5 für C++.
+-   [Qt-Module](https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) verfügbar von PySide (Qt4).
 
 
 {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

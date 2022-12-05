@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher LeaveSketch
-   Name/pl   *Szkicownik   * Zamknij edycję szkicu
-   MenuLocation   *Szkic / Projekt części → Opuść szkic
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso   *[Edytuj szkic](Sketcher_EditSketch/pl.md)
+- GuiCommand:/pl
+   Name:Sketcher LeaveSketch
+   Name/pl:Szkicownik: Zamknij edycję szkicu
+   MenuLocation:Szkic / Projekt części → Opuść szkic
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Edytuj szkic](Sketcher_EditSketch/pl.md)
 ---
 
 # Sketcher LeaveSketch/pl
@@ -15,11 +15,11 @@ Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [pan
 
 ## Użycie
 
-1.  Jest kilka sposobów, by wywołać to narzędzie   *
+1.  Jest kilka sposobów, by wywołać to narzędzie:
 
 -   Naciśnij przycisk **Zamknij** znajdujący się w górnej części [panelu zadań](Task_panel/pl.md).
--   Naciśnij przycisk **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Opuść szkic](Sketcher_LeaveSketch/pl.md)**.
--   Wybierz z menu opcję **Szkic → [<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> Opuść szkic**.
+-   Naciśnij przycisk **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Opuść szkic](Sketcher_LeaveSketch/pl.md)**.
+-   Wybierz z menu opcję **Szkic → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Opuść szkic**.
 
 
 

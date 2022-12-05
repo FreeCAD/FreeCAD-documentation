@@ -1,7 +1,7 @@
 # Arch OBJ
 ## Description
 
-Additionally to the standard FreeCAD [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) exporter, the [Arch Workbench](Arch_Workbench.md) features an alternative exporter that exports coplanar faces as whole OBJ faces, instead of triangulating [Shape](Shape.md)-based objects, like the standard exporter does.
+Additionally to the standard FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) exporter, the [Arch Workbench](Arch_Workbench.md) features an alternative exporter that exports coplanar faces as whole OBJ faces, instead of triangulating [Shape](Shape.md)-based objects, like the standard exporter does.
 
 ## Exporting without GUI 
 
@@ -23,10 +23,10 @@ mesh = MeshPart.meshFromShape(Shape=shape, LinearDeflection=0.1, Segments=True)
 
 face_colors = [(0, 0, 0)] * mesh.CountFacets
 
-for i in range(mesh.countSegments())   *
+for i in range(mesh.countSegments()):
     color = shape_colors[i]
     segm = mesh.getSegment(i)
-    for j in segm   *
+    for j in segm:
         face_colors[j] = color
 
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
@@ -34,19 +34,12 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 ## More information 
 
--   [Convert STEP to Wavefront OBJ with colors of faces](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37452)
+-   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
 ## Tutorials
 
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
-
-
-
-
-  
-
-[Category   *File Formats](Category_File_Formats.md)
 
 
 

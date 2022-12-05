@@ -1,8 +1,6 @@
 # Category:Template/fr
 This category contains all the Templates
 
-[Category   *Categories/fr](Category   *Categories/fr.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Part JoinConnect
-   Name/de   *Part Verbinden
-   MenuLocation   *Formteil → Verbinden → Objekte verbinden
-   Workbenches   *[Part](Part_Workbench/de.md)
-   Version   *0.16
-   SeeAlso   *[Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+- GuiCommand:/de
+   Name:Part JoinConnect
+   Name/de:Part Verbinden
+   MenuLocation:Formteil → Verbinden → Objekte verbinden
+   Workbenches:[Part](Part_Workbench/de.md)
+   Version:0.16
+   SeeAlso:[Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinConnect/de
@@ -21,7 +21,7 @@ Das Werkzeug Verbinden verbindet die Innenbereiche von zwei Hohlkörpern (z.B. R
 1.  Wähle die zu verbindenden Objekte aus.
     Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Teilform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Draft_OrthoArray/de/Draft rechtwinklige Anordnung](Draft_OrthoArray/de/Draft_rechtwinklige_Anordnung.md).
 2.  Rufe den Befehl Part FügenVerbinden auf.
-    -   Drücke die <img alt="" src=images/Part_JoinConnect.svg  style="width   *24px;"> [Part FügeVerbinden](Part_JoinConnect/de.md)-Schaltfläche in der Part-Werkzeugleiste
+    -   Drücke die <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part FügeVerbinden](Part_JoinConnect/de.md)-Schaltfläche in der Part-Werkzeugleiste
     -   Benutze den **Part → Join → Connect objects**-Eintrag im Part-Menü
 
 
@@ -43,20 +43,20 @@ Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausge
 
 {{TitleProperty|Verbindung}}
 
--    **Objects**   * Liste der zu verbindenden Objekte. Im Allgemeinen werden mindestens zwei Objekte benötigt, aber ein einziger Verbund, der die zu verbindenden Formen enthält, reicht ebenfalls aus. (ab FreeCAD v0.17.8053 wird diese Eigenschaft nicht mehr im Eigenschaftseditor angezeigt und kann nur über Python aufgerufen werden).
+-    **Objects**: Liste der zu verbindenden Objekte. Im Allgemeinen werden mindestens zwei Objekte benötigt, aber ein einziger Verbund, der die zu verbindenden Formen enthält, reicht ebenfalls aus. (ab FreeCAD v0.17.8053 wird diese Eigenschaft nicht mehr im Eigenschaftseditor angezeigt und kann nur über Python aufgerufen werden).
 
--    {{PropertyData/de|Verfeinern}}   * Legt fest, ob die Operation [Verfeinern](Part_RefineShape/de.md) auf die endgültige Form angewendet werden soll oder nicht. Der Standardwert wird durch ein Kontrollkästchen \'Form nach boolescher Operation automatisch verfeinern\' in den PartDesign Einstellungen bestimmt.
+-    {{PropertyData/de|Verfeinern}}: Legt fest, ob die Operation [Verfeinern](Part_RefineShape/de.md) auf die endgültige Form angewendet werden soll oder nicht. Der Standardwert wird durch ein Kontrollkästchen \'Form nach boolescher Operation automatisch verfeinern\' in den PartDesign Einstellungen bestimmt.
 
--    {{PropertyData/de|Toleranz}}   * \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingabeformen gespeicherten Toleranzen anzuwenden ist.
+-    {{PropertyData/de|Toleranz}}: \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingabeformen gespeicherten Toleranzen anzuwenden ist.
 
 
 </div>
 
 ## Beispiel
 
-1.  Erstelle ein Rohr, indem Du [Dicke](Part_Thickness/de.md) auf einen [Zylinder](Part_Cylinder/de.md) anwendest   *
+1.  Erstelle ein Rohr, indem Du [Dicke](Part_Thickness/de.md) auf einen [Zylinder](Part_Cylinder/de.md) anwendest:
     ![320px](images/JoinFeatures_Example_step1.png)
-2.  Erstelle ein weiteres Rohr mit kleinerem Durchmesser und platziere es so, dass es die Wand des ersten Rohres durchdringt   *
+2.  Erstelle ein weiteres Rohr mit kleinerem Durchmesser und platziere es so, dass es die Wand des ersten Rohres durchdringt:
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Wähle das erste Rohr und das zweite Rohr aus und klicke auf die Option \"Objekte verbinden\" in der Symbolleiste der Verbindungswerkzeuge.
     ![320px](images/JoinFeatures_Example_step3_Connect.png)
@@ -99,7 +99,7 @@ Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichti
 
 <div class="mw-translate-fuzzy">
 
-Die Fügewerkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden   *
+Die Fügewerkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden:
 
 
 </div>
@@ -109,13 +109,13 @@ Die Fügewerkzeuge können in [macros/de](macros/de.md) und von der Python-Konso
 -   Erstellt eine leere Verbindungsfunktion. Die Eigenschaft \'Objekte\' muss anschließend explizit zugewiesen werden.
 -   Liefert das neu erstellte Objekt.
 
-Verbinden kann auch auf einfache Formen angewendet werden, ohne dass ein Dokumentenobjekt benötigt wird   *
+Verbinden kann auch auf einfache Formen angewendet werden, ohne dass ein Dokumentenobjekt benötigt wird:
 
 **Part.BOPTools.JoinAPI.connect(list_of_shapes, tolerance = 0.0)**
 
 Dies kann nützlich sein, um benutzerdefinierte Python Skriptfunktionen zu erstellen.
 
-Beispiel   *
+Beispiel:
 
 
 {{code|code=
@@ -124,7 +124,7 @@ j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
-Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/BOPTools/JoinFeatures.py** ([GitHub link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/BOPTools/JoinFeatures.py** ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign AdditivePipe
-   MenuLocation   *Part Design → Create an additive feature → Additive pipe
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md), [PartDesign SubtractivePipe](PartDesign_SubtractivePipe.md)
+- GuiCommand:
+   Name:PartDesign AdditivePipe
+   MenuLocation:Part Design → Create an additive feature → Additive pipe
+   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Version:0.17
+   SeeAlso:[PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md), [PartDesign SubtractivePipe](PartDesign_SubtractivePipe.md)
 ---
 
 # PartDesign AdditivePipe/tr
@@ -14,7 +14,7 @@
 **Additive Pipe** creates a solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. If the Body already contains features, the additive pipe will be merged to them.
 
 ![](images/PartDesign_AdditivePipe_example.svg ) 
-*On the left   * cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
+*On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
 
 ## Usage
 
@@ -37,20 +37,20 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 ## Options
 
-**Section Transformation**   *
+**Section Transformation**:
 
 -   Select **Constant** to use a single profile
 -   Select **Multisection** to use multiple profiles
 
-**Section Orientation**   *
+**Section Orientation**:
 
 -   Standard
 
-       *   This keeps the cross section shape perpendicular to the path. This is the default setting.
+    :   This keeps the cross section shape perpendicular to the path. This is the default setting.
 -   Fixed
     -   Orientation set by first profile and constant throughout. This deactivates the alignment to the path normal vector. That means that the cross-section shape will not rotate with the path. Sweep along a circle to see the effect.
 -   Frenet
-    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
+    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
 -   Auxiliary
     -   Specify secondary path to guide pipe.
     -   For each point **P** along the sweep path, there will be a corresponding point **Q** on the auxiliary path.
@@ -67,32 +67,32 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 ## Properties
 
--    **Label**   * name given to the operation, this name can be changed at convenience.
+-    **Label**: name given to the operation, this name can be changed at convenience.
 
--    **Refine**   * true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
 
--    **Sections**   * lists the sections used.
+-    **Sections**: lists the sections used.
 
--    **Spine Tangent**   * true or false (default). True extends the path to include tangent edges.
+-    **Spine Tangent**: true or false (default). True extends the path to include tangent edges.
 
--    **Auxiliary Spine Tangent**   * true or false (default). True extends the auxiliary path to include tangent edges.
+-    **Auxiliary Spine Tangent**: true or false (default). True extends the auxiliary path to include tangent edges.
 
--    **Auxiliary Curvelinear**   * true or false (default). True calculates normal between equidistant points on both spines.
+-    **Auxiliary Curvelinear**: true or false (default). True calculates normal between equidistant points on both spines.
 
--    **Mode**   * profile mode. See [Options](#Options.md).
+-    **Mode**: profile mode. See [Options](#Options.md).
 
--    **Binormal**   * binormal vector for corresponding orientation mode.
+-    **Binormal**: binormal vector for corresponding orientation mode.
 
--    **Transition**   * transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
+-    **Transition**: transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
 
--    **Transformation**   * *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
+-    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
 ## Notes
 
 -   To better control the shape of the pipe, it is recommended that all cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
 -   You can pipe from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
 -   When you select a [vertex](Glossary#V.md) as section, it must be the last section of the pipe. Otherwise the pipe body would consist of two solids connected at a single point. This would violates the CAD kernel\'s definition of a 3D object. You can change the order of the sections by dragging them in the list.
--   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **[<img src=images/PartDesign_SubShapeBinder.svg style="width   *16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
+-   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 -   The path must not contain branches or T-junctions etc. Loops are allowed.
 -   It can lead to issues if the cross-section is not perpendicular to the path in 3D.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.

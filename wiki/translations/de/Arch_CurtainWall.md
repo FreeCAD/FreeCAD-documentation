@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */de
-   Name   *Arch CurtainWall
-   Name/de   *Arch Vorhangfassade
-   MenuLocation   *Arch → Vorhandene Fassade
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***C** **W**
-   Version   *0.19
-   SeeAlso   *[Arch Wand](Arch_Wall/de.md), [Arch Gitter](Arch_Grid/de.md)
+- GuiCommand:/de
+   Name:Arch CurtainWall
+   Name/de:Arch Vorhangfassade
+   MenuLocation:Arch → Vorhandene Fassade
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**C** **W**
+   Version:0.19
+   SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Gitter](Arch_Grid/de.md)
 ---
 
 # Arch CurtainWall/de
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt eine [Vorhangfassade](https   *//de.wikipedia.org/wiki/Vorhangfassade), indem es eine Grundfläche in viereckige Flächen unterteilt, dann vertikale Pfosten an den vertikalen Kanten und horizontale Pfosten an den horizontalen Kanten erzeugt und die Zwischenräume zwischen den Pfosten mit Paneelen füllt.
+Dieses Werkzeug erstellt eine [Vorhangfassade](https://de.wikipedia.org/wiki/Vorhangfassade), indem es eine Grundfläche in viereckige Flächen unterteilt, dann vertikale Pfosten an den vertikalen Kanten und horizontale Pfosten an den horizontalen Kanten erzeugt und die Zwischenräume zwischen den Pfosten mit Paneelen füllt.
 
-<img alt="" src=images/Arch_CurtainWall_example.png  style="width   *780px;">
+<img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
 
 Vorhangwände können aus jeder Art von bestehendem Objekt erstellt werden, wobei alle Flächen des Objekts unterteilt werden. Es funktioniert daher am besten, wenn es mit einem Objekt verwendet wird, das nur eine Fläche hat. Typischerweise würdest du zuerst eine Fläche erstellen, vorzugsweise mit genau 4 Kanten, die den Bereich repräsentiert, den du mit einer Vorhangwand füllen möchtest, und dann das Werkzeug anwenden.
 
@@ -88,56 +88,56 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 <div class="mw-translate-fuzzy">
 
-Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) Objekten und habe ebenfalls die folgenden zusätzlichen Eigenschaften   *
+Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) Objekten und habe ebenfalls die folgenden zusätzlichen Eigenschaften:
 
 
 </div>
 
--    {{PropertyData/de|Vertical Mullion Number}}   *Die Anzahl der vertikalen Pfosten
+-    {{PropertyData/de|Vertical Mullion Number}}:Die Anzahl der vertikalen Pfosten
 
--    {{PropertyData/de|Vertical Mullion Alignment}}   * Ob das Profil der vertikalen Fenster-Riegel zur Oberfläche ausgerichtet wird
+-    {{PropertyData/de|Vertical Mullion Alignment}}: Ob das Profil der vertikalen Fenster-Riegel zur Oberfläche ausgerichtet wird
 
--    {{PropertyData/de|Vertical Sections}}   * Die Anzahl der vertikalen Teile dieser Vorhangfassade
+-    {{PropertyData/de|Vertical Sections}}: Die Anzahl der vertikalen Teile dieser Vorhangfassade
 
--    {{PropertyData/de|Vertical Mullion Height}}   * Die Höhe der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
+-    {{PropertyData/de|Vertical Mullion Height}}: Die Höhe der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    {{PropertyData/de|Vertical Mullion Width}}   * Die Breite der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
+-    {{PropertyData/de|Vertical Mullion Width}}: Die Breite der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    {{PropertyData/de|Vertical Mullion Profile}}   * Ein Profil für vertikale Fassaden-Riegel (deaktiviert vertikale Riegel-Abmessungen)
+-    {{PropertyData/de|Vertical Mullion Profile}}: Ein Profil für vertikale Fassaden-Riegel (deaktiviert vertikale Riegel-Abmessungen)
 
--    {{PropertyData/de|Horizontal Mullion Number}}   * Die Anzahl der horizontalen Pfosten
+-    {{PropertyData/de|Horizontal Mullion Number}}: Die Anzahl der horizontalen Pfosten
 
--    {{PropertyData/de|Horizontal Mullion Alignment}}   * Ob das Profil der horizontalen Fenster-Riegel zur Oberfläche ausgerichtet wird
+-    {{PropertyData/de|Horizontal Mullion Alignment}}: Ob das Profil der horizontalen Fenster-Riegel zur Oberfläche ausgerichtet wird
 
--    {{PropertyData/de|Horizontal Sections}}   * Die Anzahl der horizontalen Teile dieser Vorhangfassade
+-    {{PropertyData/de|Horizontal Sections}}: Die Anzahl der horizontalen Teile dieser Vorhangfassade
 
--    {{PropertyData/de|Horizontal Mullion Height}}   * Die Höhe der horizontalen Fassaden-Riegel, falls kein Profil ausgewählt wird
+-    {{PropertyData/de|Horizontal Mullion Height}}: Die Höhe der horizontalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    {{PropertyData/de|Horizontal Mullion Width}}   * Die Breite der horizontalen Fassaden-Riegel, falls kein Profil ausgewählt wird
+-    {{PropertyData/de|Horizontal Mullion Width}}: Die Breite der horizontalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    {{PropertyData/de|Horizontal Mullion Profile}}   * Ein Profil für horizontale Fassaden-Riegel (deaktiviert horizontale Riegel-Abmessungen)
+-    {{PropertyData/de|Horizontal Mullion Profile}}: Ein Profil für horizontale Fassaden-Riegel (deaktiviert horizontale Riegel-Abmessungen)
 
--    {{PropertyData/de|Diagonal Mullion Number}}   * Die Anzahl der diagonalen Pfosten
+-    {{PropertyData/de|Diagonal Mullion Number}}: Die Anzahl der diagonalen Pfosten
 
--    {{PropertyData/de|Diagonal Mullion Size}}   * Die Größe der diagonalen Fassaden-Riegel, falls kein Profil ausgewählt wird
+-    {{PropertyData/de|Diagonal Mullion Size}}: Die Größe der diagonalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    {{PropertyData/de|Diagonal Mullion Profile}}   * Ein Profil für diagonale Fassaden-Riegel (deaktiviert diagonale Riegel-Abmessungen)
+-    {{PropertyData/de|Diagonal Mullion Profile}}: Ein Profil für diagonale Fassaden-Riegel (deaktiviert diagonale Riegel-Abmessungen)
 
--    {{PropertyData/de|Panel Number}}   * Die Anzahl der Paneele
+-    {{PropertyData/de|Panel Number}}: Die Anzahl der Paneele
 
--    {{PropertyData/de|Panel Thickness}}   * Die Dicke der Paneele
+-    {{PropertyData/de|Panel Thickness}}: Die Dicke der Paneele
 
--    {{PropertyData/de|Swap Horizontal Vertical}}   * Tauscht horizontale und vertikale Linien
+-    {{PropertyData/de|Swap Horizontal Vertical}}: Tauscht horizontale und vertikale Linien
 
--    {{PropertyData/de|Refine}}   * Führt Subtraktionen zwischen Komponenten aus, so dass keine Überlappungen bestehen
+-    {{PropertyData/de|Refine}}: Führt Subtraktionen zwischen Komponenten aus, so dass keine Überlappungen bestehen
 
--    {{PropertyData/de|Center Profiles}}   * Profil über Kanten zentrieren oder nicht
+-    {{PropertyData/de|Center Profiles}}: Profil über Kanten zentrieren oder nicht
 
--    {{PropertyData/de|Vertical Direction}}   * Die vom Objekt benutzte Referenz, um vertikale/horizontale Richtungen zu ermitteln. Halte es nah an der Richtung deiner Vorhangfassade
+-    {{PropertyData/de|Vertical Direction}}: Die vom Objekt benutzte Referenz, um vertikale/horizontale Richtungen zu ermitteln. Halte es nah an der Richtung deiner Vorhangfassade
 
--    {{PropertyData/de|Height}}   * Die Höhe dieser Vorhangfassade, falls sie auf einem linearen Objekt basiert
+-    {{PropertyData/de|Height}}: Die Höhe dieser Vorhangfassade, falls sie auf einem linearen Objekt basiert
 
--    {{PropertyData/de|Host}}   * Das Ursprungsobjekt dieser Vorhangfassade. Die Vorhangfassade erscheint in der Baumansicht eingebettet im Ursprungsobjekt (keine andere Aktion wird durchgeführt)
+-    {{PropertyData/de|Host}}: Das Ursprungsobjekt dieser Vorhangfassade. Die Vorhangfassade erscheint in der Baumansicht eingebettet im Ursprungsobjekt (keine andere Aktion wird durchgeführt)
 
 ## Erstellen von Vorhangfassaden 
 
@@ -149,7 +149,7 @@ Vorhangfassaden sind praktisch in Verbindung mit [Arch Wänden](Arch_Wall/de.md)
 
 </div>
 
-<img alt="" src=images/Frame_wall_example.png  style="width   *780px;">
+<img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 
 Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade basierend auf der gleichen Basislinie, gibt der Wand dann ein Mehrfachmaterial, das einen leeren Platz lässt, wo die Vorhangfassade platziert wird.
 
@@ -173,14 +173,14 @@ Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Das Vorhangfassaden Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
+Das Vorhangfassaden Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
 
 
 </div>
@@ -190,7 +190,7 @@ Das Vorhangfassaden Werkzeug kann in [Makros](macros/de.md) und aus der [Python]
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -199,7 +199,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part   *   *Extrusion','Extrusion')
+baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

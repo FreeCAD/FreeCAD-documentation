@@ -5,14 +5,14 @@ You can use this tool to create a fully parametric part that is symmetrical abou
 
 This could be a 150x100x10mm large mounting plate for a motor with symmetric holes.
 
-<img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width   *400px;">
+<img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width:400px;">
 
-1.  Create a <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Body](PartDesign_Body.md) and add a <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *16px;"> [sketch](PartDesign_NewSketch.md) on one of its base planes.
+1.  Create a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md) and add a <img alt="" src=images/PartDesign_NewSketch.svg  style="width:16px;"> [sketch](PartDesign_NewSketch.md) on one of its base planes.
 2.  In the sketch create geometry for one quadrant of the part (i.e. the upper right quadrant).
     -   Note that the constraints must also only cover a quarter of the part, e.g. instead of the full dimension of {{Value|150mm}} enter {{Value|150/2mm}} or {{Value|75mm}}.
     -   Make sure the sketch is closed by adding lines along the vertical and horizontal axes.
-3.  Extrude the part with <img alt="" src=images/PartDesign_Pad.svg  style="width   *16px;"> [PartDesign Pad](PartDesign_Pad.md).
-4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> 
+3.  Extrude the part with <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md).
+4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> 
 **PartDesign MultiTransform**
 5.  The task dialog opens.
 6.  The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the **Add feature** or **Remove feature** buttons.

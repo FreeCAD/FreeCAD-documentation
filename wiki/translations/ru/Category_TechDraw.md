@@ -1,8 +1,6 @@
 # Category:TechDraw/ru
 This category lists pages related to the [TechDraw Workbench/ru](TechDraw_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
-
 ### Contents
 
 |     |     |     |

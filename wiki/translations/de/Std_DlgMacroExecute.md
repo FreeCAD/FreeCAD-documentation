@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std DlgMacroExecute
-   Name/de   *Std DlgMakroAusführen
-   MenuLocation   *Makro → Makros...
-   Workbenches   *Alle
-   SeeAlso   *[Std MakroDirektAusführen](Std_DlgMacroExecuteDirect/de.md)
+- GuiCommand:/de
+   Name:Std DlgMacroExecute
+   Name/de:Std DlgMakroAusführen
+   MenuLocation:Makro → Makros...
+   Workbenches:Alle
+   SeeAlso:[Std MakroDirektAusführen](Std_DlgMacroExecuteDirect/de.md)
 ---
 
 # Std DlgMacroExecute/de
@@ -18,7 +18,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)** drücken.
     -   Den Menüeintrag **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Makros...** auswählen.
 2.  Das Dialogfenster Makro ausführen wird geöffnet. Siehe [Optionen](#Optionen.md).
@@ -33,7 +33,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 ### Systemmakros
 
-   *   Der Reiter **Systemmakros** wird derzeit nicht verwendet.
+:   Der Reiter **Systemmakros** wird derzeit nicht verwendet.
 
 ### Speicherort der Benutzermakros 
 
@@ -42,7 +42,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 ### Ausführen
 
-1.  To execute a macro do one of the following   *
+1.  To execute a macro do one of the following:
     -   Select the macro in the list and press the **Execute** button.
     -   Double-click the macro in the list.
 2.  The dialog box closes.
@@ -103,7 +103,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 ## Einstellungen
 
--   The user macros location can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

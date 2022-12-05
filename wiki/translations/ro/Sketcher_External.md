@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Sketcher External
-   Name/ro   *Sketcher External
-   Workbenches   *[Sketcher](Sketcher_Workbench/ro.md)
-   Shortcut   *X
-   MenuLocation   *Sketch → Sketcher geometries → Sketcher External
-   SeeAlso   *[ConstructionMode](Sketcher_ToggleConstruction/ro.md)
+- GuiCommand:/ro
+   Name:Sketcher External
+   Name/ro:Sketcher External
+   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
+   Shortcut:X
+   MenuLocation:Sketch → Sketcher geometries → Sketcher External
+   SeeAlso:[ConstructionMode](Sketcher_ToggleConstruction/ro.md)
 ---
 
 # Sketcher External/ro
@@ -25,7 +25,7 @@ Instrumentul de geometrie externă Sketcher( External Geometry) este folosit atu
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
-<FILE   *Sketcher_ExternalEsempio1.png>
+<FILE:Sketcher_ExternalEsempio1.png>
 
 
 <div class="mw-translate-fuzzy">
@@ -102,15 +102,15 @@ Mai jos este o schiță desenată pe fața superioară a unui solid creat dintr-
 
 În acest caz, ele sunt folosite ca referință pentru constrângerile de tangență cu circumferința unui cerc. Ele sunt, de asemenea, utilizate ca referință pentru o constrângere orizontală și verticală pentru a localiza centrul celui de-al doilea cerc în raport cu capătul și vârful obiectului.
 
-<FILE   *Sketcher_ExternalEsempio2.png>
+<FILE:Sketcher_ExternalEsempio2.png>
 
 Aceasta este aceeași schiță în modul de editare, cu Pad-ul pe care este mapată ascunsă.
 
-<FILE   *Sketcher_ExternalEsempio4.png>
+<FILE:Sketcher_ExternalEsempio4.png>
 
 When the sketch edit mode is closed, External Geometry lines are not visible.
 
-<FILE   *Sketcher_ExternalEsempio3.png>
+<FILE:Sketcher_ExternalEsempio3.png>
 
 
 <div class="mw-translate-fuzzy">
@@ -121,9 +121,7 @@ When the sketch edit mode is closed, External Geometry lines are not visible.
 
 {{Sketcher_Tools_navi
 
-}} 
-
-[Category   *Sketcher/ro](Category   *Sketcher/ro.md)
+}}
 
 
 

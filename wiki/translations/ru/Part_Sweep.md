@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */ru
-   Name   *Part_Sweep
-   Name/ru   *Развёртка
-   MenuLocation   *Деталь → Развёртка
-   Workbenches   *[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso   *[Лофт](Part_Loft/ru.md)
+- GuiCommand:/ru
+   Name:Part_Sweep
+   Name/ru:Развёртка
+   MenuLocation:Деталь → Развёртка
+   Workbenches:[Верстак Part](Part_Workbench/ru.md)
+   SeeAlso:[Лофт](Part_Loft/ru.md)
 ---
 
 # Part Sweep/ru
 
 ## Описание
 
-Инструмент <img alt="" src=images/Part_Sweep.svg  style="width   *24px;"> [построения профиля по траектории](Part_Sweep/ru.md) позволяет создать   * грань, оболочку или твёрдое тело из одного или последовательности нескольких контуров, путем смещения их вдоль заданной траектории.
+Инструмент <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [построения профиля по траектории](Part_Sweep/ru.md) позволяет создать: грань, оболочку или твёрдое тело из одного или последовательности нескольких контуров, путем смещения их вдоль заданной траектории.
 
-В отличии от похожего инструмента <img alt="" src=images/Part_Loft.svg  style="width   *24px;"> [Лофт](Part_Loft/ru.md), в данный инструмент добавлена траектория для определения направления смещения контуров.
+В отличии от похожего инструмента <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Лофт](Part_Loft/ru.md), в данный инструмент добавлена траектория для определения направления смещения контуров.
 
 ![](images/Part_Sweep_simple.png ) *Контур и траектория для построения твердого тела (A) результат построения профиля по заданной траектории (B).*
 
@@ -21,9 +21,9 @@
 
 1.  Press the **<img src="images/Part_Sweep.svg" width=16px> '''Sweep'''** button. This opens the Sweep parameters in the [Task panel](Task_panel.md).
 2.  In the *Available Profiles* left column (previously *Vertex/Edge/Wire/Face* in v0.16), click on the element to be used as sweep profile, then click on the right arrow to place it in the *Selected profiles* right column (previously *Sweep* in v0.16). Repeat if more than one profile is desired. Use the up and down arrows to reorder the selected profiles.
-3.  Click on the **Sweep Path** button, then choose either mode of selection   *
-    -   *Single segment selection*   * select one or more contiguous edges in the [3D view](3D_view.md) (press **CTRL** for multiple selection) and click **Done**. The sweep will only be generated along the selected edges.
-    -   *Complete path selection*   * switch to the Model tab, select the 2D object to be used as path in the tree, switch back to the [Task panel](Task_panel.md) and click **Done**. The sweep will be generated along all the contiguous edges found in the 2D object.
+3.  Click on the **Sweep Path** button, then choose either mode of selection:
+    -   *Single segment selection*: select one or more contiguous edges in the [3D view](3D_view.md) (press **CTRL** for multiple selection) and click **Done**. The sweep will only be generated along the selected edges.
+    -   *Complete path selection*: switch to the Model tab, select the 2D object to be used as path in the tree, switch back to the [Task panel](Task_panel.md) and click **Done**. The sweep will be generated along all the contiguous edges found in the 2D object.
 4.  Define options [Solid](#Solid.md) and [Frenet](#Frenet.md).
 5.  Click **OK**
 
@@ -55,11 +55,11 @@
 
 ### Frenet
 
-<img alt="" src=images/Sweep-frenet-comp.png  style="width   *500px;">
+<img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
 Параметр \"Frenet\" (устанавливается, если отметить бокс \"Френе\") управляет тем, как ориентация профиля изменяется по пути следования. Если \"Frenet\" равен \"false\", ориентация профиля остаётся неизменной от точки к точке. Итоговый профиль имеет минимально возможное кручение. Упрощённо, когда профиль идёт вдоль винтовой линии, это приводит к тому, что ориентация профиля медленно сползает (поворачивается) вслед за спиралью. Установка \"Frenet\" в \"true\" предотвращает это сползание.
 
-Если \"Frenet\" равен \"true\", ориентация профиля вычисляется на базе местной кривизны и касательной к пути. Это сохраняет ориентацию профиля постоянной при кручении вдоль винтовой линии (поскольку вектор кривизны прямой спирали всегда указывает на их оси). Тем не менее, если путь не винтовой, результирующая форма в некоторых случаях будет содержать странные кручения. Дальнейшую информацию смотрите в [Frenet Serret formulas](http   *//ru.wikipedia.org/wiki/Трёхгранник_Френе).
+Если \"Frenet\" равен \"true\", ориентация профиля вычисляется на базе местной кривизны и касательной к пути. Это сохраняет ориентацию профиля постоянной при кручении вдоль винтовой линии (поскольку вектор кривизны прямой спирали всегда указывает на их оси). Тем не менее, если путь не винтовой, результирующая форма в некоторых случаях будет содержать странные кручения. Дальнейшую информацию смотрите в [Frenet Serret formulas](http://ru.wikipedia.org/wiki/Трёхгранник_Френе).
 
 ### Transition
 

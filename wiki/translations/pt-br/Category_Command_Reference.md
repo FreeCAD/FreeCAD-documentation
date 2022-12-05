@@ -1,8 +1,6 @@
 # Category:Command Reference/pt-br
 This category contains the help pages of each of FreeCAD command.
 
-[Category   *Categories/pt-br](Category   *Categories/pt-br.md)
-
 ### Contents
 
 |     |     |     |

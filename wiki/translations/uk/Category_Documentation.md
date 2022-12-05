@@ -1,8 +1,6 @@
 # Category:Documentation/uk
 This category groups all of the FreeCAD documentation
 
-[Category   *Categories/uk](Category   *Categories/uk.md)
-
 ### Contents
 
 |     |     |     |

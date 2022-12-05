@@ -1,13 +1,13 @@
 # Release notes 0.11/de
-Dies ist eine Zusammenfassung der wichtigsten Änderungen und Neuerungen der Ausgabe 0.11 von FreeCAD. Eine komplette Liste befindet sich [hier](http   *//www.freecadweb.org/tracker/changelog_page.php).
+Dies ist eine Zusammenfassung der wichtigsten Änderungen und Neuerungen der Ausgabe 0.11 von FreeCAD. Eine komplette Liste befindet sich [hier](http://www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD011.png  style="width:800px;">
 
 Ein Bildschirmfoto der Version 0.11
 
 ### Allgemein
 
--   Das [FreeCAD Übersetzungsprojekt](http   *//crowdin.net/project/freecad) erfuhr große Unterstützung durch viele Menschen auf der ganzen Welt und nun kann FreeCAD mit nicht weniger als 15 Sprachen ausgeliefert werden   * Englisch, Deutsch, Französisch, Italienisch, Schwedisch, Spanisch, Portugiesisch, Russisch, Ukrainisch, Norwegisch, Afrikaans, Finnisch, Chinesisch, Kroatisch und Niederländisch. An vielen weiteren Sprachen für die nächste Ausgabe wird gearbeitet.
+-   Das [FreeCAD Übersetzungsprojekt](http://crowdin.net/project/freecad) erfuhr große Unterstützung durch viele Menschen auf der ganzen Welt und nun kann FreeCAD mit nicht weniger als 15 Sprachen ausgeliefert werden: Englisch, Deutsch, Französisch, Italienisch, Schwedisch, Spanisch, Portugiesisch, Russisch, Ukrainisch, Norwegisch, Afrikaans, Finnisch, Chinesisch, Kroatisch und Niederländisch. An vielen weiteren Sprachen für die nächste Ausgabe wird gearbeitet.
 
 ![](images/release011-translation.jpg )
 
@@ -25,7 +25,7 @@ Ein Bildschirmfoto der Version 0.11
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Beispiele   * [Skizzierer Demo](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [TeilKonstruktion Demo](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Beispiele: [Skizzierer Demo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [TeilKonstruktion Demo](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Roboter-Simulation 
 
@@ -51,7 +51,7 @@ Ein Bildschirmfoto der Version 0.11
 -   The Draft workbench also gained a python [API](Draft_API.md).
 -   The DXF importer now support block attributes
 
-![](images/Movie.png ) Examples   * [Draft module demo](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Examples: [Draft module demo](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Images
 
@@ -63,8 +63,6 @@ Ein Bildschirmfoto der Version 0.11
 
 
 {{languages/de | {{en|Release_notes_0.11}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

@@ -1,7 +1,7 @@
 # Release notes 0.15/it
-FreeCAD 0.15 è stato rilasciato il giorno 8 Aprile 2015. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in   * [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.15 è stato rilasciato il giorno 8 Aprile 2015. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
-<img alt="" src=images/Spark-Plug-Plane.jpg  style="width   *1024px;">
+<img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
 
 
 <center>
@@ -27,13 +27,13 @@ Il nuovo sistema di [unità di misura](Quantity/it.md) di FreeCAD, introdotto co
 
 -   Ora Importa/Exporta dispone di una propria tabella nella sezione in Modifica \> Preferenze. Tutti i formati di file sono raggruppati nella propria scheda per agevolare la definizione delle opzioni.
 -   Le scorciatoie da tastiera personalizzate ora accettano combinazioni fino a 4 tasti.
--   Ora FreeCAD [supporta VR Occulus Rift device](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=7715).
--   Supporto di barre degli strumenti personalizzate globali   * Oltre ad aggiungere delle barre degli strumenti personalizzate con i propri strumenti per ogni ambiente di lavoro, ora è anche possibile aggiungere barre degli strumenti personalizzate che rimangono presenti in tutti gli ambienti.
+-   Ora FreeCAD [supporta VR Occulus Rift device](http://forum.freecadweb.org/viewtopic.php?f=9&t=7715).
+-   Supporto di barre degli strumenti personalizzate globali: Oltre ad aggiungere delle barre degli strumenti personalizzate con i propri strumenti per ogni ambiente di lavoro, ora è anche possibile aggiungere barre degli strumenti personalizzate che rimangono presenti in tutti gli ambienti.
 -   Nuovo Lib Pack per Windows, con l\'ultima versione di OCE 0.17
 
 ## Ambiente Part 
 
--   Sono stati aggiunti alcuni nuovi elementi geometrici   * Parabola, Arco di parabola, Iperbole e Arco di iperbole
+-   Sono stati aggiunti alcuni nuovi elementi geometrici: Parabola, Arco di parabola, Iperbole e Arco di iperbole
 
 ## Ambienti Part Design e Sketcher 
 
@@ -60,13 +60,13 @@ La visualizzazione delle proprietà degli oggetti di Schizzo è stata migliorata
 ### Altre migliorie minori 
 
 -   Sono stati aggiunti diversi poligoni regolari a schizzo
--   Sono stati aggiunti dei nuovi vincoli   * il vincolo Simmetria perpendicolare agli assi di simmetria
+-   Sono stati aggiunti dei nuovi vincoli: il vincolo Simmetria perpendicolare agli assi di simmetria
 
 ## Ambiente Spreadsheet 
 
 L\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md) è stato completamente ricodificato. Ora FreeCAD possiede un editor di fogli di calcolo a regola d\'arte, robusto e ricco di funzionalità. Un paio di funzionalità presenti nella versione precedente di questo ambiente sono state rimosse, come ad esempio il controller di proprietà, ma questo è un problema complesso che richiede altro tempo per progettarlo correttamente. Al momento, tuttavia, il nuovo foglio di calcolo offre già delle possibilità di gran lunga migliori delle precenti per raccogliere i dati dal modello.
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *640px;">
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:640px;">
 
 ## Ambiente Draft 
 
@@ -91,7 +91,7 @@ Il sistema utilizzato fino ad ora per esportare le pagine di Disegno in DXF era 
 
 ![](images/Drawing-dxf-export.jpg )
 
-Nel file DXF, le diverse viste sono collocate come blocchi scalati. Questo consente di ripristinare rapidamente la scala 1   * 1.
+Nel file DXF, le diverse viste sono collocate come blocchi scalati. Questo consente di ripristinare rapidamente la scala 1: 1.
 
 ### Altre migliorie minori 
 
@@ -101,9 +101,9 @@ Nel file DXF, le diverse viste sono collocate come blocchi scalati. Questo conse
 
 ### Aggiornato l\'importatore/esportatore IFC 
 
-L\'importatore [IFC](Arch_IFC/it.md) di FreeCAD ha ricevuto un sacco di lavoro e test, e un aggiornamento massivo. Il vecchio importatore, basato su python, è stato disabilitato, ma è ancora utilizzabile dalla console python, e FreeCAD ora utilizza esclusivamente e intensamente quello nuovo, bleeding-edge [version 5](http   *//ifcopenshell.org/python.html) ([read more](http   *//ifcopenshell.org/pythonOCC/example1/) about it) di [IfcOpenShell](http   *//ifcopenshell.org/) che ora è disponibile per tutte le piattaforme principali (assicuratevi di scaricare la versione che corrisponde alla versione di python utilizzata per l\'installazione di FreeCAD). Ora beneficiamo di una importazione o esportazione molto più veloce e affidabile, di un codice molto più semplice e più chiaro (leggi   * più semplice da estendere), e anche di alcuni prodotti aggiuntivi, come un miglior supporto per gli oggetti basati su curve e proprietà IFC.
+L\'importatore [IFC](Arch_IFC/it.md) di FreeCAD ha ricevuto un sacco di lavoro e test, e un aggiornamento massivo. Il vecchio importatore, basato su python, è stato disabilitato, ma è ancora utilizzabile dalla console python, e FreeCAD ora utilizza esclusivamente e intensamente quello nuovo, bleeding-edge [version 5](http://ifcopenshell.org/python.html) ([read more](http://ifcopenshell.org/pythonOCC/example1/) about it) di [IfcOpenShell](http://ifcopenshell.org/) che ora è disponibile per tutte le piattaforme principali (assicuratevi di scaricare la versione che corrisponde alla versione di python utilizzata per l\'installazione di FreeCAD). Ora beneficiamo di una importazione o esportazione molto più veloce e affidabile, di un codice molto più semplice e più chiaro (leggi: più semplice da estendere), e anche di alcuni prodotti aggiuntivi, come un miglior supporto per gli oggetti basati su curve e proprietà IFC.
 
-### Nuova funzionalità   * Tagliare un oggetto con piano 
+### Nuova funzionalità: Tagliare un oggetto con piano 
 
 La nuova funzionalità [Taglia con un piano](Arch_CutPlane/it.md) permette di tagliare un oggetto secondo un piano definito dalla faccia di un altro oggetto. È possibile tagliare l\'oggetto dietro o davanti al piano scelto.
 
@@ -117,9 +117,9 @@ Lo strumento [Tetto](Arch_Roof/it.md) è stato completamente rifatto e ora rende
 
 ### Pannelli
 
-All\'ambiente [Architettura](Arch_Workbench/it.md) è stato aggiunto un nuovo oggetto [Pannello](Arch_Panel/it.md). Esso consente di creare tutti i tipi di oggetti simili a dei pannelli, ed è particolarmente utile per la costruzione di pannelli come quelli dei progetti [wikihouse](http   *//www.wikihouse.cc/) oppure [popup house](http   *//www.popup-house.com/).
+All\'ambiente [Architettura](Arch_Workbench/it.md) è stato aggiunto un nuovo oggetto [Pannello](Arch_Panel/it.md). Esso consente di creare tutti i tipi di oggetti simili a dei pannelli, ed è particolarmente utile per la costruzione di pannelli come quelli dei progetti [wikihouse](http://www.wikihouse.cc/) oppure [popup house](http://www.popup-house.com/).
 
-<img alt="" src=images/Arch_Panel_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Panel_example.jpg  style="width:640px;">
 
 ### Arredamento
 
@@ -131,27 +131,25 @@ Il nuovo oggetto [Arredo](Arch_Equipment/it.md) è stato progettato per aggiunge
 
 ## Moduli esterni 
 
-C\'è anche stato un lavoro molto interessante su nuovi ambienti e sulle macro, che non sono (ancora!) integrati nel codice sorgente di FreeCAD, ma che sono facili da installare su una installazione di FreeCAD 0,15 esistente. Le istruzioni sono disponibili sulle seguenti pagine   *
+C\'è anche stato un lavoro molto interessante su nuovi ambienti e sulle macro, che non sono (ancora!) integrati nel codice sorgente di FreeCAD, ma che sono facili da installare su una installazione di FreeCAD 0,15 esistente. Le istruzioni sono disponibili sulle seguenti pagine:
 
 ### Assembly2
 
-L\'ambiente [Assembly 2 workbench](https   *//github.com/hamish2014/FreeCAD_assembly2) fornisce gli strumenti per creare degli assemblaggi di più parti, ed è una buona alternativa all\'ambiente ufficiale di Assemblaggio che è ancora in fase di sviluppo (vedere [questa discussione nel forum](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=8577)).
+L\'ambiente [Assembly 2 workbench](https://github.com/hamish2014/FreeCAD_assembly2) fornisce gli strumenti per creare degli assemblaggi di più parti, ed è una buona alternativa all\'ambiente ufficiale di Assemblaggio che è ancora in fase di sviluppo (vedere [questa discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=10&t=8577)).
 
 ![](images/Assembly2_example.jpg )
 
 ### Drawing Dimensioning 
 
-L\'ambiente [Drawing dimensioning](https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning) aggiunge dei potenti strumenti di quotatura e di annotazione per l\'ambiente Disegno (vedere [questa discussione nel forum](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
+L\'ambiente [Drawing dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) aggiunge dei potenti strumenti di quotatura e di annotazione per l\'ambiente Disegno (vedere [questa discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
 
 ### Work Features 
 
-La macro [WorkFeature](https   *//github.com/Rentlau/WorkFeature) aggiunge una vasta gamma di oggetti di aiuto, come i piani di allineamento e gli assi, e gli strumenti che consentono di posizionare e allineare gli oggetti lungo tali oggetti di supporto (vedere [questa discussione nel forum](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
+La macro [WorkFeature](https://github.com/Rentlau/WorkFeature) aggiunge una vasta gamma di oggetti di aiuto, come i piani di allineamento e gli assi, e gli strumenti che consentono di posizionare e allineare gli oggetti lungo tali oggetti di supporto (vedere [questa discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
 
-<img alt="" src=images/WF.png  style="width   *640px;">
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
+<img alt="" src=images/WF.png  style="width:640px;">
 
 
 

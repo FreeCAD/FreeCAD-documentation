@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Raytracing Lux
-   MenuLocation   *Raytracing → New Luxrender project‏‎
-   Workbenches   *[Raytracing](Raytracing_Workbench.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:
+   Name:Raytracing Lux
+   MenuLocation:Raytracing → New Luxrender project‏‎
+   Workbenches:[Raytracing](Raytracing_Workbench.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Raytracing Lux
@@ -15,7 +15,7 @@ Insert new LuxRender project in the document.
 
 ## Usage
 
-1.  Click on the black \"down\"-icon after <img alt="" src=images/Raytracing_Lux.svg  style="width   *32px;"> to select between the different pre-defined templates
+1.  Click on the black \"down\"-icon after <img alt="" src=images/Raytracing_Lux.svg  style="width:32px;"> to select between the different pre-defined templates
 2.  Or choose **Raytracing** → **New Luxrender project** and one of the pre-defined templates from the top menu.
 3.  A new LuxRender project will be created named \"LuxProject\"
 

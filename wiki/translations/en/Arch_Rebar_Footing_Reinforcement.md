@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar Footing Reinforcement
-   MenuLocation   *Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing Reinforcement
-   Workbenches   *[Arch](Arch_Workbench.md)
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md)
+- GuiCommand:
+   Name:Arch Rebar Footing Reinforcement
+   MenuLocation:Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing Reinforcement
+   Workbenches:[Arch](Arch_Workbench.md)
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md)
 ---
 
 # Arch Rebar Footing Reinforcement/en
@@ -12,7 +12,7 @@
 
 The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 ![](images/Isometric_view_of_Columns_footing.png ) 
 *An Example of Footing reinforcement in Footing [Arch Structure](Arch_Structure.md)*
@@ -59,7 +59,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 ![](images/Main_Rebar_input_fields_for_column_footing.png ) 
 *Dialog Box for input fields of Main rebars in columns of Footing Reinforcement *
 
-Note   * step 9 and 10 are required, only if secondary rebars check is enable in step 6.
+Note: step 9 and 10 are required, only if secondary rebars check is enable in step 6.
 
 9\. Click next or click on XDir Secondary rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
 
@@ -76,141 +76,141 @@ Note   * step 9 and 10 are required, only if secondary rebars check is enable in
 
 ## Properties
 
-**Properties for Rebars in Parallel Direction to selected face in footing Reinforcement   ***
+**Properties for Rebars in Parallel Direction to selected face in footing Reinforcement:**
 
--   {{ PropertyData\|Mesh Cover Along}}   * It represent alignment of rebar mesh along top and/or bottom face of structure. It can have three values \"Top\", \"Bottom\" and \"Both\".
--   {{ PropertyData\|Rebar Type}}   * Type of rebar for parallel rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
--   {{ PropertyData\|Front Cover}}   * The distance between parallel rebar and selected face.
--   {{ PropertyData\|Left Cover}}   * The distance between the left end of the parallel rebar to the left face of the structure.
--   {{ PropertyData\|Right Cover}}   * The distance between the right end of the parallel rebar to right face of the structure.
--   {{ PropertyData\|Bottom Cover}}   * The distance between parallel rebars from the bottom face of the structure.
--   {{ PropertyData\|Top Cover}}   * The distance between parallel rebars from the top face of the structure.
--   {{ PropertyData\|Rear Cover}}   * Rear cover for footing reinforcement of parallel rebars.
--   {{ PropertyData\|Rounding}}   * A rounding value to be applied to the corners of the bars, expressed in times of diameter of parallel rebars.
--   {{ PropertyData\|Diameter}}   * Diameter of parallel rebars
--   {{ PropertyData\|Amount}}   * It contains count of parallel rebars.
--   {{ PropertyData\|Spacing}}   * It contains spacing between parallel rebars.
+-   {{ PropertyData\|Mesh Cover Along}}: It represent alignment of rebar mesh along top and/or bottom face of structure. It can have three values \"Top\", \"Bottom\" and \"Both\".
+-   {{ PropertyData\|Rebar Type}}: Type of rebar for parallel rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
+-   {{ PropertyData\|Front Cover}}: The distance between parallel rebar and selected face.
+-   {{ PropertyData\|Left Cover}}: The distance between the left end of the parallel rebar to the left face of the structure.
+-   {{ PropertyData\|Right Cover}}: The distance between the right end of the parallel rebar to right face of the structure.
+-   {{ PropertyData\|Bottom Cover}}: The distance between parallel rebars from the bottom face of the structure.
+-   {{ PropertyData\|Top Cover}}: The distance between parallel rebars from the top face of the structure.
+-   {{ PropertyData\|Rear Cover}}: Rear cover for footing reinforcement of parallel rebars.
+-   {{ PropertyData\|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times of diameter of parallel rebars.
+-   {{ PropertyData\|Diameter}}: Diameter of parallel rebars
+-   {{ PropertyData\|Amount}}: It contains count of parallel rebars.
+-   {{ PropertyData\|Spacing}}: It contains spacing between parallel rebars.
 
-**Properties for Rebars in Cross Direction to selected face in footing Reinforcement   ***
+**Properties for Rebars in Cross Direction to selected face in footing Reinforcement:**
 
--    **Rebar Type**   * Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
+-    **Rebar Type**: Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
 
--    **Front Cover**   * The distance between cross rebar and cross_face (face perpendicular to selected face).
+-    **Front Cover**: The distance between cross rebar and cross_face (face perpendicular to selected face).
 
--    **Left Cover**   * The distance between the left end of the cross rebar to the left face of the structure.
+-    **Left Cover**: The distance between the left end of the cross rebar to the left face of the structure.
 
--    **Right Cover**   * The distance between the right end of the cross rebar to right face of the structure.
+-    **Right Cover**: The distance between the right end of the cross rebar to right face of the structure.
 
--    **Bottom Cover**   * The distance between cross rebars from the bottom face of the structure.
+-    **Bottom Cover**: The distance between cross rebars from the bottom face of the structure.
 
--    **Top Cover**   * The distance between cross rebars from the top face of the structure.
+-    **Top Cover**: The distance between cross rebars from the top face of the structure.
 
--    **Rear Cover**   * Rear cover for footing reinforcement of cross rebars.
+-    **Rear Cover**: Rear cover for footing reinforcement of cross rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
+-    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
 
--    **Diameter**   * Diameter of cross rebars
+-    **Diameter**: Diameter of cross rebars
 
--    **Amount**   * It contains count of cross rebars.
+-    **Amount**: It contains count of cross rebars.
 
--    **Spacing**   * It contains spacing between cross rebars.
+-    **Spacing**: It contains spacing between cross rebars.
 
-**Properties for Columns in footing Reinforcement   ***
+**Properties for Columns in footing Reinforcement:**
 
--    **Front Cover**   * Distance between selected face and columns.
+-    **Front Cover**: Distance between selected face and columns.
 
--    **Left Cover**   * Distance between left face and columns.
+-    **Left Cover**: Distance between left face and columns.
 
--    **Right Cover**   * Distance between right face and columns.
+-    **Right Cover**: Distance between right face and columns.
 
--    **Rear Cover**   * Distance between rear face and columns.
+-    **Rear Cover**: Distance between rear face and columns.
 
--    **Column Width**   * Width of column.
+-    **Column Width**: Width of column.
 
--    **Column Length**   * Length of column.
+-    **Column Length**: Length of column.
 
--    **X direction column amount**   * It contains count of columns in x direction. If X direction amount radio button is enabled.
+-    **X direction column amount**: It contains count of columns in x direction. If X direction amount radio button is enabled.
 
--    **X direction column spacing**   * It contains spacing between columns in x direction. If X direction spacing radio button is enabled.
+-    **X direction column spacing**: It contains spacing between columns in x direction. If X direction spacing radio button is enabled.
 
--    **Y direction column amount**   * It contains count of columns in y direction. If Y direction amount radio button is enabled.
+-    **Y direction column amount**: It contains count of columns in y direction. If Y direction amount radio button is enabled.
 
--    **Y direction column spacing**   * It contains spacing between columns in y direction. If Y direction spacing radio button is enabled.
+-    **Y direction column spacing**: It contains spacing between columns in y direction. If Y direction spacing radio button is enabled.
 
--    **Add Secondary Rebars**   * If checked add secoundary x and y direction rebars in columns.
+-    **Add Secondary Rebars**: If checked add secoundary x and y direction rebars in columns.
 
-**Properties for Ties in Columns of footing Reinforcement   ***
+**Properties for Ties in Columns of footing Reinforcement:**
 
--    **Top Cover**   * Top cover for ties outside footing from Main Rebars end.
+-    **Top Cover**: Top cover for ties outside footing from Main Rebars end.
 
--    **Bottom Cover **   * Bottom cover of ties from Bottom of Main Rebars in footing near mesh.
+-    **Bottom Cover **: Bottom cover of ties from Bottom of Main Rebars in footing near mesh.
 
--    **Diameter**   * Diameter of ties.
+-    **Diameter**: Diameter of ties.
 
--    **Bent Angle**   * Bent angle for ties.
+-    **Bent Angle**: Bent angle for ties.
 
--    **Extension Factor**   * Extension factor for ties extended edge.
+-    **Extension Factor**: Extension factor for ties extended edge.
 
--    **Tie Number**   * It contains count of rebars or spacing between ties, if Number radio button is enabled.
+-    **Tie Number**: It contains count of rebars or spacing between ties, if Number radio button is enabled.
 
--    **Tie Spacing**   * It contains the spacing between ties, if Spacing radio button is enabled.
+-    **Tie Spacing**: It contains the spacing between ties, if Spacing radio button is enabled.
 
-**Properties for Main Rebars in Columns of footing Reinforcement   ***
+**Properties for Main Rebars in Columns of footing Reinforcement:**
 
--    **Rabar Type**   * Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'.
+-    **Rabar Type**: Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'.
 
--    **Hook Orientation**   * Hook orientation of main rebars in columns if main rabar type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    **Hook Orientation**: Hook orientation of main rebars in columns if main rabar type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
--    **Hook Extend Along**   * Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
+-    **Hook Extend Along**: Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
 
--    **Hook Extension**   * It specifies length of hook of main rebar (LShapeRebar).
+-    **Hook Extension**: It specifies length of hook of main rebar (LShapeRebar).
 
--    **Rebar Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the Main Rebar Diameter.
+-    **Rebar Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the Main Rebar Diameter.
 
--    **Top Offset**   * Top offset of main rebars in column outside footing Top face.
+-    **Top Offset**: Top offset of main rebars in column outside footing Top face.
 
--    **Diameter**   * Diameter of main rebars in columns.
+-    **Diameter**: Diameter of main rebars in columns.
 
-**Properties for X Direction Rebars in Columns of footing Reinforcement   ***
+**Properties for X Direction Rebars in Columns of footing Reinforcement:**
 
 Rebars along x-direction except main rebars
 
--    **Rebar Type**   * Type of x-direction rebars in a column.It has two values, \'StraightRebar\' and \'LShapeRebar\'.
+-    **Rebar Type**: Type of x-direction rebars in a column.It has two values, \'StraightRebar\' and \'LShapeRebar\'.
 
--    **Hook Orientation**   * Orientation of L-Shaped rebar hooks.It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    **Hook Orientation**: Orientation of L-Shaped rebar hooks.It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
--    **Hook Extension**   * Length of hook of L-Shape rebars.
+-    **Hook Extension**: Length of hook of L-Shape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the L-Shape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the L-Shape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Number#Diameter**   * Number#Diameter set of the x-direction rebars.
+-    **Number#Diameter**: Number#Diameter set of the x-direction rebars.
 
-**Properties for Y Direction Rebars in Columns of footing Reinforcement   ***
+**Properties for Y Direction Rebars in Columns of footing Reinforcement:**
 
 Rebars along y-direction except main rebars
 
--    **Rebar Type**   * Type of y-direction rebars. It has two values, \'StraightRebar\' and \'LShapeRebar\'.
+-    **Rebar Type**: Type of y-direction rebars. It has two values, \'StraightRebar\' and \'LShapeRebar\'.
 
--    **Hook Orientation**   * Orientation of LShaped hooks. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    **Hook Orientation**: Orientation of LShaped hooks. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
--    **Hook Extension**   * Length of hook of L-Shape rebars.
+-    **Hook Extension**: Length of hook of L-Shape rebars.
 
--    **Rounding**   * A rounding value to be applied to the corners of the L-Shape rebars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the L-Shape rebars, expressed in times the diameter.
 
--    **Top Offset**   * The distance between rebar from the top face of the structure.
+-    **Top Offset**: The distance between rebar from the top face of the structure.
 
--    **Number#Diameter**   * Number#Diameter set of the y-direction rebars.
+-    **Number#Diameter**: Number#Diameter set of the y-direction rebars.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Footing Reinforcement tool can be used from the [Python](Python.md) console by using the following function   *
+The Footing Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
 
 ### Create Footing Reinforcement 
 
@@ -292,115 +292,115 @@ footingReinforcementGroup = makeFootingReinforcement(
 -   Creates a `footingReinforcementGroup` object from the given `structure`, which is a Footing [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
     -   If no `structure` nor `facename` are given, it will take the user selected face as input.
 
-**Properties for Rebars in Parallel Direction to selected face   ***
+**Properties for Rebars in Parallel Direction to selected face:**
 
--    `parallel_rebar_type`   * Type of rebar for parallel rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
+-    `parallel_rebar_type`: Type of rebar for parallel rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
 
--    `parallel_front_cover`   * The distance between parallel rebar and selected face.
+-    `parallel_front_cover`: The distance between parallel rebar and selected face.
 
--    `parallel_rear_cover`   * Rear cover for footing reinforcement of parallel rebars.
+-    `parallel_rear_cover`: Rear cover for footing reinforcement of parallel rebars.
 
--    `parallel_left_cover`   * The distance between the left end of the parallel rebar to the left face of the structure.
+-    `parallel_left_cover`: The distance between the left end of the parallel rebar to the left face of the structure.
 
--    `parallel_right_cover`   * The distance between the right end of the parallel rebar to right face of the structure.
+-    `parallel_right_cover`: The distance between the right end of the parallel rebar to right face of the structure.
 
--    `parallel_top_cover`   * The distance between parallel rebars from the top face of the structure.
+-    `parallel_top_cover`: The distance between parallel rebars from the top face of the structure.
 
--    `parallel_bottom_cover`   * The distance between parallel rebars from the bottom face of the structure.
+-    `parallel_bottom_cover`: The distance between parallel rebars from the bottom face of the structure.
 
--    `parallel_diameter`   * Diameter of parallel rebars.
+-    `parallel_diameter`: Diameter of parallel rebars.
 
--    `parallel_amount_spacing_check`   * If is set to True, then value of parallel_amount_spacing_value is used as rebars count else parallel_amount_spacing_value\'s value is used as spacing in parallel rebars.
+-    `parallel_amount_spacing_check`: If is set to True, then value of parallel_amount_spacing_value is used as rebars count else parallel_amount_spacing_value\'s value is used as spacing in parallel rebars.
 
--    `parallel_amount_spacing_value`   * It contains count of rebars or spacing between parallel rebars based on value of amount_spacing_check.
+-    `parallel_amount_spacing_value`: It contains count of rebars or spacing between parallel rebars based on value of amount_spacing_check.
 
--    `parallel_rounding`   * A rounding value to be applied to the corners of the bars, expressed in times the parallel_diameter.
+-    `parallel_rounding`: A rounding value to be applied to the corners of the bars, expressed in times the parallel_diameter.
 
--    `parallel_l_shape_hook_orintation`   * It represents orintation of hook of parallel L-Shape rebar if parallel_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
+-    `parallel_l_shape_hook_orintation`: It represents orintation of hook of parallel L-Shape rebar if parallel_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
 
-**Properties for Rebars in Cross Direction to selected face   ***
+**Properties for Rebars in Cross Direction to selected face:**
 
--    `cross_rebar_type`   * Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
+-    `cross_rebar_type`: Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
 
--    `cross_front_cover`   * The distance between cross rebar and cross_face (face perpendicular to selected face).
+-    `cross_front_cover`: The distance between cross rebar and cross_face (face perpendicular to selected face).
 
--    `cross_rear_cover`   * Rear cover for footing reinforcement of cross rebars.
+-    `cross_rear_cover`: Rear cover for footing reinforcement of cross rebars.
 
--    `cross_left_cover`   * The distance between the left end of the cross rebar to the left face of the structure.
+-    `cross_left_cover`: The distance between the left end of the cross rebar to the left face of the structure.
 
--    `cross_right_cover`   * The distance between the right end of the rebar to right face of the structure relative to cross_face.
+-    `cross_right_cover`: The distance between the right end of the rebar to right face of the structure relative to cross_face.
 
--    `cross_top_cover`   * The distance between cross rebar from the top face of the structure.
+-    `cross_top_cover`: The distance between cross rebar from the top face of the structure.
 
--    `cross_bottom_cover`   * The distance between cross rebar from the bottom face of the structure.
+-    `cross_bottom_cover`: The distance between cross rebar from the bottom face of the structure.
 
--    `cross_diameter`   * Diameter of cross rebars.
+-    `cross_diameter`: Diameter of cross rebars.
 
--    `cross_amount_spacing_check`   * If is set to True, then value of cross_amount_spacing_value is used as rebars count else cross_amount_spacing_value\'s value is used as spacing in rebars.
+-    `cross_amount_spacing_check`: If is set to True, then value of cross_amount_spacing_value is used as rebars count else cross_amount_spacing_value\'s value is used as spacing in rebars.
 
--    `cross_amount_spacing_value`   * It contains count of rebars or spacing between rebars based on value of cross_amount_spacing_check.
+-    `cross_amount_spacing_value`: It contains count of rebars or spacing between rebars based on value of cross_amount_spacing_check.
 
--    `cross_rounding`   * A rounding value to be applied to the corners of the bars, expressed in times the cross_diameter.
+-    `cross_rounding`: A rounding value to be applied to the corners of the bars, expressed in times the cross_diameter.
 
--    `cross_l_shape_hook_orintation`   * It represents orintation of hook of cross L-Shape rebar if cross_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
+-    `cross_l_shape_hook_orintation`: It represents orintation of hook of cross L-Shape rebar if cross_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
 
-**Properties for Columns in footing Reinforcement   ***
+**Properties for Columns in footing Reinforcement:**
 
--    `column_front_cover`   * Distance between selected face and columns.
+-    `column_front_cover`: Distance between selected face and columns.
 
--    `column_left_cover`   * Distance between left face and columns.
+-    `column_left_cover`: Distance between left face and columns.
 
--    `column_right_cover`   * Distance between right face and right columns.
+-    `column_right_cover`: Distance between right face and right columns.
 
--    `column_rear_cover`   * Distance between rear face and rear columns.
+-    `column_rear_cover`: Distance between rear face and rear columns.
 
--    `column_width`   * Width of columns.
+-    `column_width`: Width of columns.
 
--    `column_length`   * Length of columns.
+-    `column_length`: Length of columns.
 
--    `xdir_column_amount_spacing_check`   * If is set to True, then value of xdir_column_amount_spacing_value is used as columns count else xdir_column_amount_spacing_value\'s value is used as spacing between columns in x direction.
+-    `xdir_column_amount_spacing_check`: If is set to True, then value of xdir_column_amount_spacing_value is used as columns count else xdir_column_amount_spacing_value\'s value is used as spacing between columns in x direction.
 
--    `xdir_column_amount_spacing_value`   * It contains count of columns or spacing between columns in x direction based on value of xdir_column_amount_spacing_check.
+-    `xdir_column_amount_spacing_value`: It contains count of columns or spacing between columns in x direction based on value of xdir_column_amount_spacing_check.
 
--    `ydir_column_amount_spacing_check`   * If is set to True, then value of ydir_column_amount_spacing_value is used as columns count else ydir_column_amount_spacing_value\'s value is used as spacing between columns in y direction.
+-    `ydir_column_amount_spacing_check`: If is set to True, then value of ydir_column_amount_spacing_value is used as columns count else ydir_column_amount_spacing_value\'s value is used as spacing between columns in y direction.
 
--    `ydir_column_amount_spacing_value`   * It contains count of columns or spacing between columns in y direction based on value of ydir_column_amount_spacing_check.
+-    `ydir_column_amount_spacing_value`: It contains count of columns or spacing between columns in y direction based on value of ydir_column_amount_spacing_check.
 
--    `column_sec_rebar_check`   * If True add secondary x and y direction rebars in columns.
+-    `column_sec_rebar_check`: If True add secondary x and y direction rebars in columns.
 
-**Properties for Ties of columns in footing Reinforcement   ***
+**Properties for Ties of columns in footing Reinforcement:**
 
--    `tie_top_cover`   *Top cover for ties outside footing from Main Rebars end.
+-    `tie_top_cover`:Top cover for ties outside footing from Main Rebars end.
 
--    `tie_bottom_cover`   *Bottom cover of ties from Bottom of Main Rebars in footing near mesh.
+-    `tie_bottom_cover`:Bottom cover of ties from Bottom of Main Rebars in footing near mesh.
 
--    `tie_bent_angle`   *Bent angle for ties.
+-    `tie_bent_angle`:Bent angle for ties.
 
--    `tie_extension_factor`   *Extension factor for ties extended edge.
+-    `tie_extension_factor`:Extension factor for ties extended edge.
 
--    `tie_diameter`   *Diameter of ties.
+-    `tie_diameter`:Diameter of ties.
 
--    `tie_number_spacing_check`   *If is set to True, then value of tie_number_spacing_value is used as ties count else tie_number_spacing_value\'s value is used as spacing in ties.
+-    `tie_number_spacing_check`:If is set to True, then value of tie_number_spacing_value is used as ties count else tie_number_spacing_value\'s value is used as spacing in ties.
 
--    `tie_number_spacing_value`   *It contains count of ties or spacing between ties based on value of tie_number_spacing_check.
+-    `tie_number_spacing_value`:It contains count of ties or spacing between ties based on value of tie_number_spacing_check.
 
-**Properties for Main rebar of columns in footing Reinforcement   ***
+**Properties for Main rebar of columns in footing Reinforcement:**
 
--    `column_main_rebar_diameter`   *Diameter of main rebars in columns.
+-    `column_main_rebar_diameter`:Diameter of main rebars in columns.
 
--    `column_main_rebars_t_offset`   *Top offset of main rebars in column outside footing.
+-    `column_main_rebars_t_offset`:Top offset of main rebars in column outside footing.
 
--    `column_main_hook_extend_along`   *Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
+-    `column_main_hook_extend_along`:Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
 
--    `column_l_main_rebar_rounding`   *A rounding value to be applied to the corners of the bars, expressed in times the column_main_rebar_diameter.
+-    `column_l_main_rebar_rounding`:A rounding value to be applied to the corners of the bars, expressed in times the column_main_rebar_diameter.
 
--    `column_main_hook_extension`   *It specifies length of hook of main rebar (LShapeRebar).
+-    `column_main_hook_extension`:It specifies length of hook of main rebar (LShapeRebar).
 
--    `column_main_rebars_type`   *Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'. Default is StraightRebar.
+-    `column_main_rebars_type`:Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'. Default is StraightRebar.
 
--    `column_main_hook_orientation`   *Hook orientation of main rebars in columns if column_main_rebars_type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    `column_main_hook_orientation`:Hook orientation of main rebars in columns if column_main_rebars_type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
-**Properties for Secondary X and Y direction Rebar of columns in footing Reinforcement   ***
+**Properties for Secondary X and Y direction Rebar of columns in footing Reinforcement:**
 
 -    `column_sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) that defines offset distances (or hight) for the secondary x-direction and y-direction rebars with respect to the top faces of the structure, respectively.
 
@@ -414,13 +414,13 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
-**Common Properties for Footing Reinforcement   ***
+**Common Properties for Footing Reinforcement:**
 
--    `mesh_cover_along`   * It can have three values \"Top\", \"Bottom\" and \"Both\". It represent alignment of rebar mesh along top and/or bottom face of structure.
+-    `mesh_cover_along`: It can have three values \"Top\", \"Bottom\" and \"Both\". It represent alignment of rebar mesh along top and/or bottom face of structure.
 
--    `structure`   * Arch structure object. Default is None
+-    `structure`: Arch structure object. Default is None
 
--    `facename`   * selected face of structure. Default is None
+-    `facename`: selected face of structure. Default is None
 
 ### Edition of Footing Reinforcement 
 
@@ -505,14 +505,6 @@ footingReinforcementGroup = editFootingReinforcement(
 -    `footingReinforcementGroup`is a previously created `Footing Reinforcement` group object.
 
 -   The other parameters are the same as required by the `makeFootingReinforcement()` function.
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

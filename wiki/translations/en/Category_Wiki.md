@@ -1,5 +1,5 @@
 # Category:Wiki/en
-[Category   *Administration/en](Category   *Administration/en.md) [Category   *Categories/en](Category   *Categories/en.md) [Category   *Documentation/en](Category   *Documentation/en.md)
+
 
 ### Contents
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Part Helix
-   Name/ru   *Винтовая Спираль
-   MenuLocation   *Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Спираль
-   Workbenches   *[Part(Деталь)](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
-   SeeAlso   *[Примитивы](Part_Primitives/ru.md)
+- GuiCommand:/ru
+   Name:Part Helix
+   Name/ru:Винтовая Спираль
+   MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Спираль
+   Workbenches:[Part(Деталь)](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   SeeAlso:[Примитивы](Part_Primitives/ru.md)
 ---
 
 # Part Helix/ru
@@ -18,14 +18,14 @@
 <div class="mw-translate-fuzzy">
 
 
-**[<img src=images/Part_Helix.svg style="width   *16px"> [Спираль](Part_Helix/ru.md)**
+**[<img src=images/Part_Helix.svg style="width:16px"> [Спираль](Part_Helix/ru.md)**
 
 создаёт геометрический примитив в форме спирали, которая задаётся радиусом, шагом и общей высотой.
 
 
 </div>
 
-<img alt="" src=images/Part_Helix_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
 
 ## Применение
 
@@ -48,16 +48,16 @@ A Part Helix object created with the [scripting example](#Scripting.md) below is
 
 <div class="mw-translate-fuzzy">
 
-Обычно винтовая спираль используется для [создания резьб](Thread_for_Screw_Tutorial/ru.md) в сочетании с закрытым профилем и операцией **<img src="images/Part_Sweep.svg" width=16px> [Развёртка(Sweep)](Part_Sweep/ru.md)** детали. Этот процесс работает практически так же как и в [верстаке PartDesign ](PartDesign_Workbench/ru.md) с помощью инструмента **[<img src=images/PartDesign_AdditivePipe.svg style="width   *16px"> [PartDesign Аддитивная(добавочная) труба](PartDesign_AdditivePipe/ru.md)**.
+Обычно винтовая спираль используется для [создания резьб](Thread_for_Screw_Tutorial/ru.md) в сочетании с закрытым профилем и операцией **<img src="images/Part_Sweep.svg" width=16px> [Развёртка(Sweep)](Part_Sweep/ru.md)** детали. Этот процесс работает практически так же как и в [верстаке PartDesign ](PartDesign_Workbench/ru.md) с помощью инструмента **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Аддитивная(добавочная) труба](PartDesign_AdditivePipe/ru.md)**.
 
 
 </div>
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -69,36 +69,36 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Coordinate System}}
 
--    **Local Coord|Enumeration**   * The [handedness](https   *//en.wikipedia.org/wiki/Screw_thread), or direction, of the helix   * {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
+-    **Local Coord|Enumeration**: The [handedness](https://en.wikipedia.org/wiki/Screw_thread), or direction, of the helix: {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
 
 
 {{TitleProperty|Helix}}
 
--    **Pitch|Length**   * The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
+-    **Pitch|Length**: The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
 
--    **Height|Length**   * The height of the helix. The default is {{Value|2mm}}.
+-    **Height|Length**: The height of the helix. The default is {{Value|2mm}}.
 
--    **Radius|Length**   * The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
+-    **Radius|Length**: The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
 
--    **Segment Length|QuantityConstraint**   * The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
+-    **Segment Length|QuantityConstraint**: The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
 
--    **Angle|Angle**   * The angle that defines of the outer shape of the helix. Valid range   * {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
+-    **Angle|Angle**: The angle that defines of the outer shape of the helix. Valid range: {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Helix can be created with the {{Incode|addObject()}} method of the document   *
+A Part Helix can be created with the {{Incode|addObject()}} method of the document:
 
 
 ```python
-helix = FreeCAD.ActiveDocument.addObject("Part   *   *Helix", "myHelix")
+helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
 ```
 
 -   Where {{Incode|"myHelix"}} is the name for the object.
 -   The function returns the newly created object.
 
-Example   *
+Example:
 
 
 ```python
@@ -106,7 +106,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-helix = doc.addObject("Part   *   *Helix", "myHelix")
+helix = doc.addObject("Part::Helix", "myHelix")
 helix.Pitch = 2
 helix.Height = 3
 helix.Radius = 4

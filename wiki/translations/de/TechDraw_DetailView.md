@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw DetailView
-   Name/de   *TechDraw Detailansicht
-   MenuLocation   *TechDraw → Detailansicht einfügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
+- GuiCommand:/de
+   Name:TechDraw DetailView
+   Name/de:TechDraw Detailansicht
+   MenuLocation:TechDraw → Detailansicht einfügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw DetailView/de
@@ -39,37 +39,37 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
 
 {{TitleProperty|Detail}}
 
--    {{PropertyData/de|Base View|Link}}   * Die Ansicht auf der diese Detailansicht basiert.
+-    {{PropertyData/de|Base View|Link}}: Die Ansicht auf der diese Detailansicht basiert.
 
--    {{PropertyData/de|Anchor Point|Vector}}   * Der Mittelpunkt der Detailansicht innerhalb der {{PropertyData/de|Base View}}.
+-    {{PropertyData/de|Anchor Point|Vector}}: Der Mittelpunkt der Detailansicht innerhalb der {{PropertyData/de|Base View}}.
 
--    {{PropertyData/de|Radius|Float}}   * Die Größe des Bereichs in der {{PropertyData/de|Base View}}, der in der Detailansicht dargestellt wird.
+-    {{PropertyData/de|Radius|Float}}: Die Größe des Bereichs in der {{PropertyData/de|Base View}}, der in der Detailansicht dargestellt wird.
 
--    {{PropertyData/de|Reference|String}}   * Ein Bezeichner für die Detailansicht in der {{PropertyData/de|Base View}}.
+-    {{PropertyData/de|Reference|String}}: Ein Bezeichner für die Detailansicht in der {{PropertyData/de|Base View}}.
 
 ## Eigenschaften Basisansicht 
 
-Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden   *
+Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden:
 
--    {{PropertyView/de|Einstellung Hervorheben}}   * Drehwinkel der Detailansicht im Uhrzeigersinn.
+-    {{PropertyView/de|Einstellung Hervorheben}}: Drehwinkel der Detailansicht im Uhrzeigersinn.
 
--    {{PropertyView/de|Linienfarbe Hervorheben}}   * Linienfarbe für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorheben** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+-    {{PropertyView/de|Linienfarbe Hervorheben}}: Linienfarbe für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorheben** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
 
--    {{PropertyView/de|Linienstil Hervorheben}}   * Linienstil für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorhebungsstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+-    {{PropertyView/de|Linienstil Hervorheben}}: Linienstil für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorhebungsstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
 
 ## Hinweise
 
--   [Eine gute Aussprache über das Setzen des Ankers](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+-   [Eine gute Aussprache über das Setzen des Ankers](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Detailwerkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
+Das Detailwerkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
 
 
 ```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
+Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 ...TBA
 ```
 

@@ -1,8 +1,6 @@
 # Category:Template:Doc/cs
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-[Category   *Template/cs](Category   *Template/cs.md)
-
 ### Contents
 
 |     |     |     |

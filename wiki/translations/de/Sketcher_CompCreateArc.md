@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher Arcs
-   Name/de   *Sketcher AuswahlBogenErstellen
-   Icon   *Sketcher_CompCreateArc.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+- GuiCommand:/de
+   Name:Sketcher Arcs
+   Name/de:Sketcher AuswahlBogenErstellen
+   Icon:Sketcher_CompCreateArc.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateArc/de
@@ -15,8 +15,8 @@
 
 ## Bogenarten
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width   *32px;"> [BogenErstellen](Sketcher_CreateArc/de.md)   * Zeichnet einen Bogen, indem drei Punkte ausgewählt werden   * der Mittelpunkt, der Startpunkt entlang des Radius und der Endpunktl.
--   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width   *32px;"> [BogenDurch3PunkteErstellen](Sketcher_Create3PointArc/de.md)   * Zeichnet einen Bogen, indem drei Punkte ausgewählt werden   * der Startpunkt, der Endpunkt und ein Punkt auf dem Bogen.
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [BogenErstellen](Sketcher_CreateArc/de.md): Zeichnet einen Bogen, indem drei Punkte ausgewählt werden: der Mittelpunkt, der Startpunkt entlang des Radius und der Endpunktl.
+-   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [BogenDurch3PunkteErstellen](Sketcher_Create3PointArc/de.md): Zeichnet einen Bogen, indem drei Punkte ausgewählt werden: der Startpunkt, der Endpunkt und ein Punkt auf dem Bogen.
 
 
 

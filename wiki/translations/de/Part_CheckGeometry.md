@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Part CheckGeometry‏‎
-   Name/de   *Part GeometriePrüfen
-   MenuLocation   *Formteil → Geometrie überprüfen
-   Workbenches   *[Part](Part_Workbench/de.md)
+- GuiCommand:/de
+   Name:Part CheckGeometry‏‎
+   Name/de:Part GeometriePrüfen
+   MenuLocation:Formteil → Geometrie überprüfen
+   Workbenches:[Part](Part_Workbench/de.md)
 ---
 
 # Part CheckGeometry/de
@@ -15,11 +15,11 @@ Das Werkzeug **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Geomet
 ## Anwendung
 
 1.  Ein Teil auswählen (dabei darauf achten, das gesamte Teil auszuwählen und nicht nur eine Fläche, um zu prüfen, ob es ein gültiger Volumenkörper ist)
-2.  Das Werkzeug aufrufen, durch eine der folgenden Möglichkeiten   *
+2.  Das Werkzeug aufrufen, durch eine der folgenden Möglichkeiten:
     -   Die Schaltfläche **<img src="images/Part_CheckGeometry.svg" width=16px> Geometrie überprüfen** anklicken, die sich in der Werkzeugleiste des Arbeitsbereichs Part befindet.
     -   Den Meinüeintrag **Formteil → <img src="images/Part_CheckGeometry.svg" width=16px> Geometrie überprüfen** im Hauptmenü auswählen.
 
-Ergebnisse werden im [Aufgabenbereich](Task_panel/de.md) aufgeführt. Wenn die Prüfung einen Fehler anzeigt   * Im Reportfenster eine bestimmte Fehlernachricht anklicken und das entsprechende geometrische Objekt (Kante, Fläche usw.) wird in der [3D-Ansicht](3D_view/de.md) hervorgehoben.
+Ergebnisse werden im [Aufgabenbereich](Task_panel/de.md) aufgeführt. Wenn die Prüfung einen Fehler anzeigt: Im Reportfenster eine bestimmte Fehlernachricht anklicken und das entsprechende geometrische Objekt (Kante, Fläche usw.) wird in der [3D-Ansicht](3D_view/de.md) hervorgehoben.
 
 ## Optionen
 
@@ -37,12 +37,12 @@ Wenn aktiviert, werden alle gefundenen Fehler auch im [Ausgabefenster](Report_vi
 
 ## Form-Inhalt 
 
-In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object   *
+In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object:
 
 -   Checked object
 -   Shape type
--   Number of geometric entities   * vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
--   Geometric and mass properties   *
+-   Number of geometric entities: vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
+-   Geometric and mass properties:
     -   Area
     -   Volume
     -   Mass

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Image CreateImagePlane
-   Name/it   *Piano immagine
-   Icon   *Image CreateImagePlane.svg
-   MenuLocation   *Barre degli strumenti → Crea un'immagine planare nello spazio 3D
-   Workbenches   *[Image](Image_Workbench/it.md)
-   SeeAlso   *[Apri immagine](Image_Open/it.md), [Scala immagine](Image_Scaling/it.md)
+- GuiCommand:/it
+   Name:Image CreateImagePlane
+   Name/it:Piano immagine
+   Icon:Image CreateImagePlane.svg
+   MenuLocation:Barre degli strumenti → Crea un'immagine planare nello spazio 3D
+   Workbenches:[Image](Image_Workbench/it.md)
+   SeeAlso:[Apri immagine](Image_Open/it.md), [Scala immagine](Image_Scaling/it.md)
 ---
 
 # Image CreateImagePlane/it
@@ -64,11 +64,11 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 {{Properties Title|Base}}
 
--    **Position**   * specifica le coordinate del punto base del piano dell\'immagine.
+-    **Position**: specifica le coordinate del punto base del piano dell\'immagine.
 
--    **Angle**   * specifica l\'angolo di rotazione del piano dell\'immagine.
+-    **Angle**: specifica l\'angolo di rotazione del piano dell\'immagine.
 
--    **Axis**   * specifica l\'asse utilizzato per l\'angolo di rotazione.
+-    **Axis**: specifica l\'asse utilizzato per l\'angolo di rotazione.
 
 
 </div>
@@ -82,11 +82,11 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 {{Properties Title|Image Plane}}
 
--    **XSize**   * specifica la larghezza del piano dell\'immagine.
+-    **XSize**: specifica la larghezza del piano dell\'immagine.
 
--    **YSize**   * specifica l\'altezza del piano dell\'immagine.
+-    **YSize**: specifica l\'altezza del piano dell\'immagine.
 
--    **Image Plane**   * specifica l\'immagine da usare per questo piano.
+-    **Image Plane**: specifica l\'immagine da usare per questo piano.
 
 
 </div>

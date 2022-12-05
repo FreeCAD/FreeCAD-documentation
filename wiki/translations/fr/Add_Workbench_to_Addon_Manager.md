@@ -5,68 +5,68 @@
 
 Ces instructions expliquent, étape par étape, comment ajouter un atelier Python au [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
-Conditions requises    *
+Conditions requises :
 
 -   Un dépôt git local.
--   Un dépôt git distant. Les hôtes git pris en charge sont [GitHub](https   *//github.com), [GitLab](https   *//about.gitlab.com/), [Framagit](https   *//framagit.org/public/projects) et [Debian Salsa](https   *//salsa.debian.org/public).
+-   Un dépôt git distant. Les hôtes git pris en charge sont [GitHub](https://github.com), [GitLab](https://about.gitlab.com/), [Framagit](https://framagit.org/public/projects) et [Debian Salsa](https://salsa.debian.org/public).
 -   Git doit être installé.
 
 ## Activer le mode développeur 
 
-1.  Ouvrez l\'[Éditeur de préférences](Preferences_Editor/fr.md)    * sélectionnez l\'option **Édition → <img src="images/Std_DlgPreferences.svg" width=16px> Préférences...** dans le menu.
+1.  Ouvrez l\'[Éditeur de préférences](Preferences_Editor/fr.md) : sélectionnez l\'option **Édition → <img src="images/Std_DlgPreferences.svg" width=16px> Préférences...** dans le menu.
 2.  Sélectionnez l\'option **<img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire des extensions** dans la barre de gauche.
 3.  Dans l\'onglet **Options du gestionnaire des extensions**, cochez la case **Activer le mode développeur des extensions**. Cela activera le bouton **Outils du développeur...** dans le gestionnaire des extensions.
 4.  Appuyez sur le bouton **OK** pour fermer l\'éditeur de préférences.
 
 ## Créer le fichier package.xml 
 
-1.  Ouvrez le [Gestionnaire des extensions](Std_AddonMgr/fr.md)    * sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire des extensions** dans le menu.
+1.  Ouvrez le [Gestionnaire des extensions](Std_AddonMgr/fr.md) : sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire des extensions** dans le menu.
 2.  Appuyez sur le bouton **Outils du développeur...**.
 3.  La boîte de dialogue **Outils pour le développeur d'extensions** s\'ouvre.
-    <img alt="" src=images/Addon_Manager_Addon_Developer_Tools_Dialog.png  style="width   *350px;">
-4.  Saisissez les éléments suivants    *
+    <img alt="" src=images/Addon_Manager_Addon_Developer_Tools_Dialog.png  style="width:350px;">
+4.  Saisissez les éléments suivants :
     -   
         **Chemin vers l'extension**
         
-           * chemin vers le dépôt git local.
+        : chemin vers le dépôt git local.
 
     -   
         **Nom de l’extension**
         
-           * ce nom apparaîtra dans les listes du gestionnaire des extensions.
+        : ce nom apparaîtra dans les listes du gestionnaire des extensions.
 
     -   
         **Description**
         
-           * idem.
+        : idem.
 
     -   
         **Version**
         
-           * idem.
+        : idem.
 
     -   
         **URL du dépôt**
         
-           * idem.
+        : idem.
 
     -   
         **Branche principale**
         
-           * idem.
+        : idem.
 
     -   
         **URL du README**
         
-           * recommandé.
+        : recommandé.
 
     -   
         **Icône**
         
-           * l\'icône doit faire partie du dépôt.
+        : l\'icône doit faire partie du dépôt.
 5.  Appuyez sur le bouton **<img src="images/List-add.svg" width=16px>** au bas de la boîte de dialogue.
 6.  La boîte de dialogue **Élément de contenu** s\'ouvre.
-    <img alt="" src=images/Addon_Manager_Content_Item_Dialog.png  style="width   *350px;">
+    <img alt="" src=images/Addon_Manager_Content_Item_Dialog.png  style="width:350px;">
 7.  Le **Type de contenu** doit être défini sur {{Value|Atelier}}.
 8.  Cochez la case **C'est le seul élément de l'extension**.
 9.  Saisissez le nom de la classe **Atelier**. Il s\'agit du nom de classe spécifié dans le fichier **InitGui.py**.
@@ -78,7 +78,7 @@ Conditions requises    *
 
 ## Ajouter l\'atelier au fichier .gitmodules 
 
-1.  Faites un fork <https   *//github.com/FreeCAD/FreeCAD-addons>.
+1.  Faites un fork <https://github.com/FreeCAD/FreeCAD-addons>.
 2.  Créez une nouvelle branche.
 3.  Modifiez le fichier **.gitmodules** pour inclure votre nouvelle extension, par ordre alphabétique.
 4.  Poussez la nouvelle branche vers GitHub.
@@ -87,9 +87,7 @@ Conditions requises    *
 ## Voir aussi 
 
 -   [Création d\'atelier](Workbench_creation/fr.md)
--   [Métadonnées du package](Package_Metadata.md)    * informations détaillées sur le fichier **package.xml**.
-
-[Category   *Addons](Category_Addons.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
+-   [Métadonnées du package](Package_Metadata.md) : informations détaillées sur le fichier **package.xml**.
 
 
 

@@ -1,6 +1,6 @@
 # Robot InsertWaypointPre/es
 ---
-- GuiCommand   */es   Name   *Robot InsertWaypointPre   Name/es   *Robot InsertWaypointPre   Workbenches   *[[Robot_Workbench/es   Robot]]|MenuLocation   *Robot → Insert in trajectory---
+- GuiCommand:/es   Name:Robot InsertWaypointPre   Name/es:Robot InsertWaypointPre   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Insert in trajectory---
 
 
 </div>
@@ -19,10 +19,10 @@ Depending on the used navigation style preselecting may vary.
 
 ## Notes
 
-Selectable objects are   *
+Selectable objects are:
 
 -   Corners of solids
--   Points inserted via the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md)
+-   Points inserted via the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md)
 -   Endpoints of sketch-elements such as lines, arcs (sketch must be visible)
 
 

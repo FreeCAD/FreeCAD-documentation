@@ -1,8 +1,6 @@
 # Category:Documentation/hr
 This category groups all of the FreeCAD documentation
 
-[Category   *Categories/hr](Category   *Categories/hr.md)
-
 ### Contents
 
 |     |     |     |

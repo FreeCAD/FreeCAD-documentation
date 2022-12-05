@@ -1,23 +1,23 @@
 ---
-- GuiCommand   *
-   Name   *Path ToolBitLibraryOpen
-   MenuLocation   *Path → ToolBit Library editor
-   Workbenches   *[Path](Path_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[Path ToolBitDock](Path_ToolBitDock.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
+- GuiCommand:
+   Name:Path ToolBitLibraryOpen
+   MenuLocation:Path → ToolBit Library editor
+   Workbenches:[Path](Path_Workbench.md)
+   Version:0.19
+   SeeAlso:[Path ToolBitDock](Path_ToolBitDock.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
 ---
 
 # Path ToolBitLibraryOpen/en
 
 ## Description
 
-The **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [ToolBit Library editor](Path_ToolBitLibraryOpen.md)**   *
+The **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [ToolBit Library editor](Path_ToolBitLibraryOpen.md)**:
 
 ![](images/Toolbitmanager.png )
 
 The library manager (shown above) is the dialog for creating, managing, and organize toolbits. Launching the library manager from either the Path menu or from the \'manager\' button in the dock will display the manager as a modal dialog.
 
-From here the user can perform all task related to toolbit management    *
+From here the user can perform all task related to toolbit management :
 
 -   Select a default library
 -   Create/edit/delete Toolbits
@@ -46,7 +46,7 @@ The close button (7) at bottom right will dismiss the tool library manager. Any 
 
 ### Manage Toolbits 
 
-1.  There are several ways to open the Toolbit Library Manager   *
+1.  There are several ways to open the Toolbit Library Manager:
     -   Select the **Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> ToolBit Library editor** option from the menu.
     -   Open the Toolbit dock as described above and press the **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** button to open the Library manager.
 2.  Select a library from the list.
@@ -57,29 +57,29 @@ The close button (7) at bottom right will dismiss the tool library manager. Any 
 
 ## Editing Toolbits 
 
-There are several ways to edit the toolbits and library   *
+There are several ways to edit the toolbits and library:
 
 A. By clicking the column headers of the library you can sort the toolbit library. The library will retain the sort and use it in the dock.
 
-   *   ![](images/Librarysort.png )
-   *   
+:   ![](images/Librarysort.png )
+:   
     
 *Sort the toolbit library via the column headers*
     
 
 B. By doubleclicking in the first column you can edit the toolbit number. This will be the default tool number used when creating a new tool controller. It is possible to use the same number for multiple toolbits.
 
-   *   ![](images/Edittoolnumber.png )
-   *   
+:   ![](images/Edittoolnumber.png )
+:   
     
 *Double click first column to edit toolbit number*
     
 
 C. Double clicking anywhere else in the row will open the toolbit editing panel. From here you can edit other properties of the toolbit.
 
-   *   ![](images/Editingpanel.png )
+:   ![](images/Editingpanel.png )
 
-       *   
+    :   
         
 *Open toolbit editing panel by clicking anywhere else in the row.*
         

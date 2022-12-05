@@ -21,22 +21,22 @@
 
 <div class="mw-translate-fuzzy">
 
-[PySide](http   *//en.wikipedia.org/wiki/PySide) è il legame tra Python e la multi-piattaforma GUI degli strumenti di Qt. FreeCAD usa PySide all\'interno di Python per tutti gli effetti GUI (Interfaccia grafica per l\'utente). PySide è una alternativa al pacchetto PyQt che è stato utilizzato in precedenza da FreeCAD per la sua GUI. PySide ha una licenza più permissiva. Per maggiori informazioni sulla differenza vedere [Differences Between PySide and PyQt](http   *//qt-project.org/wiki/Differences_Between_PySide_and_PyQt).
+[PySide](http://en.wikipedia.org/wiki/PySide) è il legame tra Python e la multi-piattaforma GUI degli strumenti di Qt. FreeCAD usa PySide all\'interno di Python per tutti gli effetti GUI (Interfaccia grafica per l\'utente). PySide è una alternativa al pacchetto PyQt che è stato utilizzato in precedenza da FreeCAD per la sua GUI. PySide ha una licenza più permissiva. Per maggiori informazioni sulla differenza vedere [Differences Between PySide and PyQt](http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt).
 
 
 </div>
 
 When you install FreeCAD, you should get both Qt and PySide as part of the package. If you are [compiling](Compiling.md) yourself then you must verify that these two libraries are installed in order for FreeCAD to run correctly. Of course, PySide will only work if Qt is present.
 
-In the past, FreeCAD used PyQt, another Qt binding for Python, but in 2013 ([commit 1dc122dc9a](https   *//github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) the project migrated to PySide because it has a more permissible [license](licence.md).
+In the past, FreeCAD used PyQt, another Qt binding for Python, but in 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) the project migrated to PySide because it has a more permissible [license](licence.md).
 
-For more information see   *
+For more information see:
 
--   [Wikipedia   *PySide](https   *//en.wikipedia.org/wiki/PySide)
--   [Differences Between PySide and PyQt](https   *//wiki.qt.io/Differences_Between_PySide_and_PyQt)
+-   [Wikipedia:PySide](https://en.wikipedia.org/wiki/PySide)
+-   [Differences Between PySide and PyQt](https://wiki.qt.io/Differences_Between_PySide_and_PyQt)
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
-*Examples created with PySide. Left   * a simple dialog. Right   * a more complex dialog with graphs.*
+*Examples created with PySide. Left: a simple dialog. Right: a more complex dialog with graphs.*
 
 ## PySide in FreeCAD with Qt5 
 
@@ -101,9 +101,9 @@ There are some differences in handling of widgets in Qt4 (PySide) and Qt5 (PySid
 
 The PySide documentation refers to the Python-style classes; however, since Qt is originally a C++ library, the same information should be available in the corresponding C++ reference.
 
--   [Qt Modules](https   *//doc.qt.io/qtforpython/modules.html) available from PySide2 (Qt5).
--   [All Qt classes by module](https   *//doc.qt.io/qt-5/modules-cpp.html) in Qt5 for C++.
--   [Qt Modules](https   *//deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) available from PySide (Qt4).
+-   [Qt Modules](https://doc.qt.io/qtforpython/modules.html) available from PySide2 (Qt5).
+-   [All Qt classes by module](https://doc.qt.io/qt-5/modules-cpp.html) in Qt5 for C++.
+-   [Qt Modules](https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) available from PySide (Qt4).
 
 
 {{Top}}
@@ -116,11 +116,6 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

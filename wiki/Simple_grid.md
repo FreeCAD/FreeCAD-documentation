@@ -1,9 +1,9 @@
 # Simple grid
 Simple configurable and toggleable grid for FreeCAD
 
-<img alt="" src=images/simple_grid.png  style="width   *800px;">
+<img alt="" src=images/simple_grid.png  style="width:800px;">
 
-In order to configure it you should open the macro and change the variables at your desire. The following shows the available variables and their defaults   *
+In order to configure it you should open the macro and change the variables at your desire. The following shows the available variables and their defaults:
 
 *size_x = 100*
 
@@ -29,11 +29,7 @@ In order to configure it you should open the macro and change the variables at y
 
 ## GitHub download 
 
-[<https   *//github.com/pgilfernandez/FreeCAD_Simple_grid>](https   *//github.com/pgilfernandez/FreeCAD_Simple_grid)
-
-
-
-[Category   *Macros](Category_Macros.md)
+[<https://github.com/pgilfernandez/FreeCAD_Simple_grid>](https://github.com/pgilfernandez/FreeCAD_Simple_grid)
 
 
 

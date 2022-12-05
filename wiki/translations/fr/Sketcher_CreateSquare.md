@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher CreateSquare
-   Name/fr   *Sketcher Carré
-   MenuLocation   *Sketch → Géométries d'esquisse → Créer un carré
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***G** **P** **4**
-   Version   *0.15
+- GuiCommand:/fr
+   Name:Sketcher CreateSquare
+   Name/fr:Sketcher Carré
+   MenuLocation:Sketch → Géométries d'esquisse → Créer un carré
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **P** **4**
+   Version:0.15
 ---
 
 # Sketcher CreateSquare/fr
@@ -18,7 +18,7 @@ Dessine un carré inscrit dans un cercle de géométrie de construction. Au dém
 
 ## Utilisation
 
--   Après avoir cliqué sur le bouton **[<img src=images/Sketcher_CreateSquare.svg style="width   *16px"> [Créer un carré](Sketcher_CreateSquare/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet du carré.
+-   Après avoir cliqué sur le bouton **[<img src=images/Sketcher_CreateSquare.svg style="width:16px"> [Créer un carré](Sketcher_CreateSquare/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet du carré.
 -   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour quitter la fonction.
 
 ## Remarques

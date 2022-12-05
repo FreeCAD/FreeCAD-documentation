@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Part Builder
-   Name/fr   *Part Générateur de forme
-   MenuLocation   *Part → Générateur de forme
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand:/fr
+   Name:Part Builder
+   Name/fr:Part Générateur de forme
+   MenuLocation:Part → Générateur de forme
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Builder/fr
@@ -15,7 +15,7 @@ Outil pour créer des formes plus complexes à partir de diverses primitives gé
 
 ## Utilisation
 
-Cet outil peut créer les objets suivants    *
+Cet outil peut créer les objets suivants :
 
 ### Arête à partir de deux sommets 
 
@@ -65,9 +65,9 @@ Cet outil peut créer les objets suivants    *
 
 ## Remarques
 
-Un flux de travail possible pourrait être   *
+Un flux de travail possible pourrait être:
 
--   Dessiner un modèle filaire de votre forme à l\'aide des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [atelier Draft](Draft_Workbench/fr.md) (par exemple, ligne et fil).
+-   Dessiner un modèle filaire de votre forme à l\'aide des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) (par exemple, ligne et fil).
 -   Créer toutes les faces avec \"face à partir des bords\"
 -   Créer une \"coque à partir de faces\"
 -   Créer un \"solide à partir d\'une coque\"

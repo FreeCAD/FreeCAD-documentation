@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Текстурирование
-   Name   *Std_TextureMapping
-   MenuLocation   *Вид → Текстурирование...
-   Workbenches   *Все
+- GuiCommand:/ru
+   Name/ru:Текстурирование
+   Name:Std_TextureMapping
+   MenuLocation:Вид → Текстурирование...
+   Workbenches:Все
 ---
 
 # Std TextureMapping/ru

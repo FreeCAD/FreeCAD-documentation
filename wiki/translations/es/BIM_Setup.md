@@ -1,16 +1,16 @@
 ---
-- GuiCommand   *Addon
-   Name   *BIM Setup
-   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon   *BIM
-   MenuLocation   *Manage → Setup
+- GuiCommand:Addon
+   Name:BIM Setup
+   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon:BIM
+   MenuLocation:Manage → Setup
 ---
 
 # BIM Setup/es
 
 ## Descripción
 
-<img alt="" src=images/BIM_setup_screenshot.png  style="width   *1024px;">
+<img alt="" src=images/BIM_setup_screenshot.png  style="width:1024px;">
 
 El sistema de preferencias de FreeCAD, ubicado en el menú **Editar -\> Preferencias**, es muy complejo. El **diálogo de configuración BIM** ofrece una versión simplificada del mismo, al reunir algunas de las configuraciones de preferencias más utilizadas para el trabajo BIM en una sola pantalla. Cambiar cualquiera de las opciones de preferencias tiene el mismo efecto que cambiar la configuración correspondiente en Editar -\> Preferencias.
 

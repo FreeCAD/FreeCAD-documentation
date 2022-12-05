@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Truss
-   Name/it   *Arch Truss
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   MenuLocation   *Arch → Travatura
-   Version   *0.19
+- GuiCommand:/it
+   Name:Arch Truss
+   Name/it:Arch Truss
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   MenuLocation:Arch → Travatura
+   Version:0.19
 ---
 
 # Arch Truss/it
@@ -17,12 +17,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https   *//en.wikipedia.org/wiki/Truss), sia da un oggetto lineare selezionato (posta su una [Linea di Draft](Draft_Line/it.md) o uno \[\[Sketcher_NewSketch/it\|Schizzo\] \]), o da zero se non viene selezionato alcun oggetto all\'avvio del comando.
+Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://en.wikipedia.org/wiki/Truss), sia da un oggetto lineare selezionato (posta su una [Linea di Draft](Draft_Line/it.md) o uno \[\[Sketcher_NewSketch/it\|Schizzo\] \]), o da zero se non viene selezionato alcun oggetto all\'avvio del comando.
 
 
 </div>
 
-<img alt="" src=images/Arch_Truss_example.png  style="width   *600px;">
+<img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
 ## Utilizzo
 
@@ -59,42 +59,42 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https   *
 
 ### Dati
 
--    **TrussAngle**   * L\'angolo della capriata
+-    **TrussAngle**: L\'angolo della capriata
 
--    **SlantType**   * Il tipo inclinato di questa capriata
+-    **SlantType**: Il tipo inclinato di questa capriata
 
--    **Normal**   * La direzione normale di questa capriata
+-    **Normal**: La direzione normale di questa capriata
 
--    **HeightStart**   * L\'altezza della capriata nel punto iniziale
+-    **HeightStart**: L\'altezza della capriata nel punto iniziale
 
--    **HeightEnd**   * L\'altezza della capriata nel punto finale
+-    **HeightEnd**: L\'altezza della capriata nel punto finale
 
--    **StrutStartOffset**   * Un offset iniziale opzionale per il montante superiore
+-    **StrutStartOffset**: Un offset iniziale opzionale per il montante superiore
 
--    **StrutEndOffset**   * Un offset finale opzionale per il montante superiore
+-    **StrutEndOffset**: Un offset finale opzionale per il montante superiore
 
--    **StrutHeight**   * L\'altezza degli elementi superiori e inferiori principali della capriata
+-    **StrutHeight**: L\'altezza degli elementi superiori e inferiori principali della capriata
 
--    **StrutWidth**   * La larghezza degli elementi superiore e inferiore principali della capriata
+-    **StrutWidth**: La larghezza degli elementi superiore e inferiore principali della capriata
 
--    **RodType**   * Il tipo di elemento centrale della capriata
+-    **RodType**: Il tipo di elemento centrale della capriata
 
--    **RodDirection**   * La direzione delle aste
+-    **RodDirection**: La direzione delle aste
 
--    **RodSize**   * Il diametro o il lato delle aste
+-    **RodSize**: Il diametro o il lato delle aste
 
--    **RodSections**   * Il numero di sezioni dell\'asta
+-    **RodSections**: Il numero di sezioni dell\'asta
 
--    **RodEnd**   * Se la capriata ha un\'asta al suo punto finale o no
+-    **RodEnd**: Se la capriata ha un\'asta al suo punto finale o no
 
--    **RodMode**   * Come disegnare le aste
+-    **RodMode**: Come disegnare le aste
 
 ## Script
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Travatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Travatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -104,7 +104,7 @@ Lo strumento Travatura può essere utilizzato nelle [macro](macros/it.md) e dall
 Truss = makeFence([baseobj])
 ```
 
-Esempio   *
+Esempio:
 
 
 ```python

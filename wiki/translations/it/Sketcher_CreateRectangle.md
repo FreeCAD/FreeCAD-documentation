@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/it
 ---
-- GuiCommand   */it   Name   *Sketcher CreateRectangle   Name/it   *Rettangolo   Workbenches   *[MenuLocation   *Sketch → Geometrie → Rettangolo   Shortcut   ***R**   SeeAlso   *[[Sketcher CreatePolyline/it|Polilinea](Sketcher_Workbench/it___Sketcher]].md)---
+- GuiCommand:/it   Name:Sketcher CreateRectangle   Name/it:Rettangolo   Workbenches:[MenuLocation:Sketch → Geometrie → Rettangolo   Shortcut:**R**   SeeAlso:[[Sketcher CreatePolyline/it|Polilinea](Sketcher_Workbench/it___Sketcher]].md)---
 
 
 </div>
@@ -28,7 +28,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 <div class="mw-translate-fuzzy">
 
--   Dopo aver premuto il pulsante <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> Rettangolo, selezionare il primo vertice nell\'area della vista 3D, o su un oggetto esistente, poi spostare il puntatore e selezionare il vertice opposto. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
+-   Dopo aver premuto il pulsante <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> Rettangolo, selezionare il primo vertice nell\'area della vista 3D, o su un oggetto esistente, poi spostare il puntatore e selezionare il vertice opposto. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
 -   Premere il tasto **Esc**, o cliccare sul tasto destro del mouse, per annullare l\'operazione.
 
 

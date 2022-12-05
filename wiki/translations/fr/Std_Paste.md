@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std_Paste
-   Name/fr   *Std Coller
-   MenuLocation   *Edition → Coller
-   Workbenches   *Tous
-   Shortcut   ***Ctrl** + **V**
-   SeeAlso   *[Std Couper](Std_Cut/fr.md), [Std Copier](Std_Copy/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
+- GuiCommand:/fr
+   Name:Std_Paste
+   Name/fr:Std Coller
+   MenuLocation:Edition → Coller
+   Workbenches:Tous
+   Shortcut:**Ctrl** + **V**
+   SeeAlso:[Std Couper](Std_Cut/fr.md), [Std Copier](Std_Copy/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
 ---
 
 # Std Paste/fr
@@ -16,10 +16,10 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Sélectionnez l\'option **Edition → <img src="images/Std_Paste.svg" width=16px> Coller** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_Paste.svg" width=16px> Coller** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md). Notez que cette option n\'est disponible que lorsqu\'un objet sortant a été sélectionné.
-    -   Utilisez le raccourci clavier   * **Ctrl**+**V**.
+    -   Utilisez le raccourci clavier: **Ctrl**+**V**.
 
 ## Remarques
 

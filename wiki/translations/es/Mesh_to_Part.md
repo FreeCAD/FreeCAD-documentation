@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La conversión de objetos de alto nivel, tales como [formas de Piezas](Part_Workbench/es.md) en objetos más simples como [mallas](Mesh_Workbench/es.md) es una operación bastante sencilla, en la que todas las caras de un objeto Pieza son triangularizadas. El resultado de esa triangulación (o teselado) se utiliza para construir una malla   *
+La conversión de objetos de alto nivel, tales como [formas de Piezas](Part_Workbench/es.md) en objetos más simples como [mallas](Mesh_Workbench/es.md) es una operación bastante sencilla, en la que todas las caras de un objeto Pieza son triangularizadas. El resultado de esa triangulación (o teselado) se utiliza para construir una malla:
 
 
 </div>
@@ -26,9 +26,9 @@ shp = obj.Shape
 faces = []
 
 triangles = shp.tessellate(1) # the number represents the precision of the tessellation
-for tri in triangles[1]   *
+for tri in triangles[1]:
     face = []
-    for i in tri   *
+    for i in tri:
         face.append(triangles[0][i])
     faces.append(face)
 
@@ -36,7 +36,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 ```
 
-Alternative example   *
+Alternative example:
 
 
 ```python
@@ -46,7 +46,7 @@ import MeshPart
 obj = FreeCADGui.Selection.getSelection()[0] # a Part object must be preselected
 shp = obj.Shape
 
-mesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh.Mesh = MeshPart.meshFromShape(
         Shape=shp,
         LinearDeflection=0.01,
@@ -81,7 +81,7 @@ La conversión de las mallas a esos objetos de nivel superior (manejados por el 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD actualmente ofrece dos métodos para convertir mallas en piezas. El primer método es una conversión sencilla, directa, sin ningún tipo de optimización   *
+FreeCAD actualmente ofrece dos métodos para convertir mallas en piezas. El primer método es una conversión sencilla, directa, sin ningún tipo de optimización:
 
 
 </div>
@@ -101,7 +101,7 @@ Part.show(solid)
 
 <div class="mw-translate-fuzzy">
 
-El segundo método ofrece la posibilidad de considerar coplanares las facetas de malla que forman entre si un pequeño ángulo. Esto permite la construcción de formas mucho más simples   *
+El segundo método ofrece la posibilidad de considerar coplanares las facetas de malla que forman entre si un pequeño ángulo. Esto permite la construcción de formas mucho más simples:
 
 
 </div>
@@ -117,22 +117,22 @@ mesh = obj.Mesh
 segments = mesh.getPlanarSegments(0.00001) # use rather strict tolerance here
 faces = []
 
-for i in segments   *
-    if len(i) > 0   *
+for i in segments:
+    if len(i) > 0:
         # a segment can have inner holes
         wires = MeshPart.wireFromSegment(mesh, i)
         # we assume that the exterior boundary is that one with the biggest bounding box
-        if len(wires) > 0   *
+        if len(wires) > 0:
             ext = None
             max_length=0
-            for i in wires   *
-                if i.BoundBox.DiagonalLength > max_length   *
+            for i in wires:
+                if i.BoundBox.DiagonalLength > max_length:
                     max_length = i.BoundBox.DiagonalLength
                     ext = i
 
             wires.remove(ext)
             # all interior wires mark a hole and must reverse their orientation, otherwise Part.Face fails
-            for i in wires   *
+            for i in wires:
                 i.reverse()
 
             # make sure that the exterior wires comes as first in the list
@@ -145,8 +145,6 @@ Part.show(solid)
 
 
  {{Mesh Tools navi}}
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

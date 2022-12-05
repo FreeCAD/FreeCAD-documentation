@@ -1,6 +1,6 @@
 # PartDesign Thickness/ro
 ---
-- GuiCommand   *   Name   *PartDesign Thickness   Workbenches   *[MenuLocation   *Part Design → Thickness   Shortcut   *None   SeeAlso   *[[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign Thickness   Workbenches:[MenuLocation:Part Design → Thickness   Shortcut:None   SeeAlso:[[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -15,7 +15,7 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 
 </div>
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
 *Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
 
 
@@ -42,12 +42,12 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 </div>
 
 
-   *   *Remember*   *
+:   *Remember*:
     -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
 
 ### Edit a thickness 
 
-1.  Do one of the following   *
+1.  Do one of the following:
     -   Double-click the Thickness object in the [Tree view](Tree_view.md)
     -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
@@ -58,15 +58,15 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 
 <div class="mw-translate-fuzzy">
 
--   **Thickness**   * Grosimea peretelui obiectului rezultat. Definiți valoarea dorită.
+-   **Thickness**: Grosimea peretelui obiectului rezultat. Definiți valoarea dorită.
 -   **Mode**
-    -   *Skin*   * Selectați această opțiune dacă doriți pentru a obține un articol ca o vază, fără capac, dar cu fund
-    -   *Pipe*   * Selectați această opțiune dacă doriți să obțineți un obiect ca o țeavă, fără cap și fără fund. În acest caz, poate fi convenabil să selectați fațele care trebuie șterse înainte de a porni instrumentul. Ajutați-vă cu vizualizări predefinite sau utilizați tastele numerice.
-    -   *Recto Verso*   *
+    -   *Skin*: Selectați această opțiune dacă doriți pentru a obține un articol ca o vază, fără capac, dar cu fund
+    -   *Pipe*: Selectați această opțiune dacă doriți să obțineți un obiect ca o țeavă, fără cap și fără fund. În acest caz, poate fi convenabil să selectați fațele care trebuie șterse înainte de a porni instrumentul. Ajutați-vă cu vizualizări predefinite sau utilizați tastele numerice.
+    -   *Recto Verso*:
 -   **Join Type**
-    -   *Arc*   * îndepărtează marginile exterioare și creează o curbă cu o rază egală cu grosimea definită.
-    -   *Intersection*   *când fațele sunt decalate spre exterior, marginile ascuțite sunt păstrate între faațete.
--   **Make thickness inwards**   * când sunt bifate, fațetșe sunt deplasate spre interior.
+    -   *Arc*: îndepărtează marginile exterioare și creează o curbă cu o rază egală cu grosimea definită.
+    -   *Intersection*:când fațele sunt decalate spre exterior, marginile ascuțite sunt păstrate între faațete.
+-   **Make thickness inwards**: când sunt bifate, fațetșe sunt deplasate spre interior.
 
 
 </div>
@@ -85,43 +85,43 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
+-    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
+-    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    **Base Feature|Link|hidden**: Link to the parent feature.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+-    **_ Body|LinkHidden|hidden**: Link to the parent body.
 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Thickness}}
 
--    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
+-    **Value|Length**: \"Thickness value\". Default: {{value|1 mm}}.
 
--    **Mode|Enumeration**   * \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+-    **Mode|Enumeration**: \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
 
--    **Join|Enumeration**   * \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+-    **Join|Enumeration**: \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
 
--    **Reversed|Bool**   * \"Apply the thickness towards the solids interior\". Default   * `False`.
+-    **Reversed|Bool**: \"Apply the thickness towards the solids interior\". Default: `False`.
 
--    **Intersection|Bool**   * \"Enable intersection-handling\". Default   * `False`.
+-    **Intersection|Bool**: \"Enable intersection-handling\". Default: `False`.
 
 
 

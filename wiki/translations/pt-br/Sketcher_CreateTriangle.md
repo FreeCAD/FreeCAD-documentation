@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher CreateTriangle
-   MenuLocation   *Sketch → Sketcher geometries → Create equilateral triangle
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***G** **P** **3**
-   Version   *0.15
+- GuiCommand:
+   Name:Sketcher CreateTriangle
+   MenuLocation:Sketch → Sketcher geometries → Create equilateral triangle
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **P** **3**
+   Version:0.15
 ---
 
 # Sketcher CreateTriangle/pt-br
@@ -17,7 +17,7 @@ Draws a equilateral triangle inscribed in a construction geometry circle. When s
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreateTriangle.svg style="width   *16px"> [Create equilateral triangle](Sketcher_CreateTriangle.md)** button.
+1.  Press the **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Create equilateral triangle](Sketcher_CreateTriangle.md)** button.
 2.  Click once to set the center.
 3.  Move the mouse and click a second time to set one of the vertices.
 4.  Pressing **Esc** or clicking the right mouse button cancels the function.

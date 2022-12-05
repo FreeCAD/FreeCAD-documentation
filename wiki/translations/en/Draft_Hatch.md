@@ -1,26 +1,26 @@
 ---
-- GuiCommand   *
-   Name   *Draft Hatch
-   MenuLocation   *Drafting → Hatch
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut   ***H** **A**
-   Version   *0.20
-   SeeAlso   *[Draft Pattern](Draft_Pattern.md)
+- GuiCommand:
+   Name:Draft Hatch
+   MenuLocation:Drafting → Hatch
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**H** **A**
+   Version:0.20
+   SeeAlso:[Draft Pattern](Draft_Pattern.md)
 ---
 
 # Draft Hatch/en
 
 ## Description
 
-The <img alt="" src=images/Draft_Hatch.svg  style="width   *24px;"> **Draft Hatch** command creates hatches on the planar faces of a selected object.
+The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch** command creates hatches on the planar faces of a selected object.
 
 ## Usage
 
 1.  Select an object with faces. Only the planar faces of the object will be hatched.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Draft Hatch](Draft_Hatch.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
-    -   Use the keyboard shortcut   * **H** then **A**.
+    -   Use the keyboard shortcut: **H** then **A**.
 3.  The **Hatch** task panel opens. See [Options](#Options.md) for more information.
 4.  Press the **OK** button to finish the command.
 
@@ -38,7 +38,7 @@ When the hatch pattern for a face is calculated it is temporarily translated to 
 
 If all faces of the selected object are on the global XY plane you can switch off this default behavior by setting the **Translate** property of the Draft Hatch to `False`. The hatch pattern is then aligned with the origin and the X axis of the global coordinate system. For faces on the XY plane with straight edges the **Translate** property can be used to switch between absolute (on the left in the image) and relative (on the right in the image) patterns.
 
-<img alt="" src=images/Draft_Hatch_alignment.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Hatch_alignment.png  style="width:400px;"> 
 *
 Two Draft Wires with hatches.<br>
 The wires were created in a CCW direction starting from the bottom left point.<br>
@@ -49,48 +49,48 @@ For the Draft Hatch on the right it is set to true.
 ## Notes
 
 -   For now the advice is to download a PAT file. Many can be found online. You can for example do a web search for **acad.pat** or **acadiso.pat**.
--   A small PAT file is installed with FreeCAD   * **<program_folder>/data/Mod/TechDraw/PAT/FCPAT.pat**, where **<program_folder>** is the FreeCAD program folder   *
+-   A small PAT file is installed with FreeCAD: **<program_folder>/data/Mod/TechDraw/PAT/FCPAT.pat**, where **<program_folder>** is the FreeCAD program folder:
     -   On Linux it is usually **/usr/share/freecad**.
-    -   On Windows it is usually **C   *Program Files\FreeCAD**.
+    -   On Windows it is usually **C:\Program Files\FreeCAD**.
     -   On macOS it is usually **/Applications/FreeCAD**.
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
-The following preferences are involved   *
+The following preferences are involved:
 
--   PAT file   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → FilePattern**.
--   Pattern   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → NamePattern**.
--   Scale   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
--   Rotation   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
+-   PAT file: **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → FilePattern**.
+-   Pattern: **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → NamePattern**.
+-   Scale: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
+-   Rotation: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Hatch object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A Draft Hatch object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Hatch}}
 
--    **Base|Link**   * specifies the object whose faces are hatched.
+-    **Base|Link**: specifies the object whose faces are hatched.
 
--    **File|File**   * specifies the PAT file.
+-    **File|File**: specifies the PAT file.
 
--    **Pattern|String**   * specifies the pattern name.
+-    **Pattern|String**: specifies the pattern name.
 
--    **Rotation|Angle**   * specifies the rotation of the pattern.
+-    **Rotation|Angle**: specifies the rotation of the pattern.
 
--    **Scale|Float**   * specifies the scale of the pattern.
+-    **Scale|Float**: specifies the scale of the pattern.
 
--    **Translate|Bool**   * specifies if the faces are temporarily translated to the global XY plane during the hatching process. Setting it to `False` may give wrong results for non-XY faces.
+-    **Translate|Bool**: specifies if the faces are temporarily translated to the global XY plane during the hatching process. Setting it to `False` may give wrong results for non-XY faces.
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft Hatch use the `make_hatch` method of the Draft module.
 
@@ -99,7 +99,7 @@ To create a Draft Hatch use the `make_hatch` method of the Draft module.
 hatch = make_hatch(baseobject, filename, pattern, scale, rotation)
 ```
 
-Example   *
+Example:
 
 
 ```python

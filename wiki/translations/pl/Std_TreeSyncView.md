@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std TreeSyncView
-   Name/pl   *Std   * Synchronizuj widok
-   MenuLocation   *Widok → Akcje widoku drzewa → Synchronizuj widok
-   Workbenches   *wszystkie
-   Shortcut   ***T** **1**
-   Version   *0.19
+- GuiCommand:/pl
+   Name:Std TreeSyncView
+   Name/pl:Std: Synchronizuj widok
+   MenuLocation:Widok → Akcje widoku drzewa → Synchronizuj widok
+   Workbenches:wszystkie
+   Shortcut:**T** **1**
+   Version:0.19
 ---
 
 # Std TreeSyncView/pl
@@ -16,14 +16,14 @@ Polecenie **Synchronizuj widok drzewa** przełącza [Widok drzewa](Tree_view/pl.
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Synchronizuj widok** z menu podręcznego. Uwaga   * obraz przycisku będzie się zmieniał w zależności od wybranej opcji.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Synchronizuj widok** z menu podręcznego. Uwaga: obraz przycisku będzie się zmieniał w zależności od wybranej opcji.
     -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSyncView.svg" width=16px> Synchronizuj wwidok**.
-    -   Użyj skrótu klawiaturowego   * **T**, a następnie **1**.
+    -   Użyj skrótu klawiaturowego: **T**, a następnie **1**.
 
 ## Ustawienia
 
-Tryb Synchronizacja widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md)   * **Edycja → Preferencje ... → Ogólne → Zaznaczanie**.
+Tryb Synchronizacja widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md): **Edycja → Preferencje ... → Ogólne → Zaznaczanie**.
 
 
 

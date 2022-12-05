@@ -1,5 +1,5 @@
 # Drawing Documentation/ro
-Această pagină documentează înțelegerea de către jcc242 a modulului Desen. Acesta include fișiere și caracteristici pe care le lucrează în prezent și este posibil să nu fie încă în ramura master. Sursa pentru aceste fișiere este pe [lui Github](https   *//github.com/jcc242/FreeCAD), dar aveți grijă, deoarece este foarte instabilă!
+Această pagină documentează înțelegerea de către jcc242 a modulului Desen. Acesta include fișiere și caracteristici pe care le lucrează în prezent și este posibil să nu fie încă în ramura master. Sursa pentru aceste fișiere este pe [lui Github](https://github.com/jcc242/FreeCAD), dar aveți grijă, deoarece este foarte instabilă!
 
 ## Baza (Mod/Drawing) 
 
@@ -27,7 +27,7 @@ Initializes the various namespaces and modules and stuff used in the drawing mod
 
 ### DrawingExport.cpp
 
-Two classes   * SVGOutput and DXFOutput. They both contain methods to put out the code in their respective language. Typically require an object of the appropriate typedef, and sometimes some additional identifier information.
+Two classes: SVGOutput and DXFOutput. They both contain methods to put out the code in their respective language. Typically require an object of the appropriate typedef, and sometimes some additional identifier information.
 
 ### FeatureClip.cpp
 
@@ -71,11 +71,11 @@ Just #include \"PreCompiled.h\"
 
 The constructor just runs the execute() method to update it\'s stuff
 
-invertY   * since SVG does its y-axis backwards to every other coordinate system in the world, we must invert it when converting from a FreeCAD part to an SVG projection for the Drawing view.
+invertY: since SVG does its y-axis backwards to every other coordinate system in the world, we must invert it when converting from a FreeCAD part to an SVG projection for the Drawing view.
 
-getSVG   * fetches the SVG code from the DrawingExport stuff. Formats depending on type of line (hidden or not and some other stuff I need to figure out).
+getSVG: fetches the SVG code from the DrawingExport stuff. Formats depending on type of line (hidden or not and some other stuff I need to figure out).
 
-getDXF   * same as getSVG except for DXF format.
+getDXF: same as getSVG except for DXF format.
 
 ## Gui
 
@@ -105,13 +105,13 @@ Creates the task dialog for placing the orthographic views!
 
 Does a lot of the calculations for where to position stuff (automatic calculations as well, it seems).
 
-Takes the input from the TaskOrthoViews gui and does stuff with it. Uses the single inheritance method talked about [on the qt website](http   *//doc.qt.digia.com/qt/designer-using-a-ui-file.html).
+Takes the input from the TaskOrthoViews gui and does stuff with it. Uses the single inheritance method talked about [on the qt website](http://doc.qt.digia.com/qt/designer-using-a-ui-file.html).
 
 ### ViewProviderPage.cpp
 
 Constructor adds some properties for the view stuff. Destructor does nothing. Attaches something (attaches what? attaches the view to the page?) sets and gets display modes (what are display modes? what do they do and what are possible options?) Does something about updating some kind of data has a context menu that says \"Show drawing\", figure out what this means Has a thing for double clicking to select the view (I think?)
 
-showDrawingView seems to do some work on settings things up   * gets the current document, sets the window icon and title, adds it to the main window (of FreeCAD?)
+showDrawingView seems to do some work on settings things up: gets the current document, sets the window icon and title, adds it to the main window (of FreeCAD?)
 
 ### ViewProviderView.cpp
 
@@ -129,16 +129,14 @@ CanvasView is the actual QGraphicsScene object and DrawingView processes a list 
 
 ## Adăugarea de comenzi la Drawing Workbench 
 
-4 pași simpli   *
+4 pași simpli:
 
 1.  Adăugați o clasă la Command.cpp. Urmați-i pe ceilalți pentru un exemplu de formatare.
 2.  Adăugați din nou un titlu, o pictogramă, o sugestie, etc., urmați clasele existente în command.cpp
 3.  Adăugați clasa în partea de jos a Command.cpp
 4.  Adăugați informațiile dvs. la Workbench.cpp, acest lucru va indica modulului FreeCAD / Drawing unde să plasați pictogramele definite în command.cpp în interfața reală freecad (barele de instrumente, dropdown-urile etc.)
 
-{{Drawing Tools navi}} 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md)
+{{Drawing Tools navi}}
 
 
 

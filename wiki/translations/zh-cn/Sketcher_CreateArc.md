@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher CreateArc
-   MenuLocation   *Sketch → Sketcher geometries → Create arc by center
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***G** **A**
-   SeeAlso   *[Sketcher Circle](Sketcher_CompCreateCircle.md)
+- GuiCommand:
+   Name:Sketcher CreateArc
+   MenuLocation:Sketch → Sketcher geometries → Create arc by center
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **A**
+   SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle.md)
 ---
 
 # Sketcher CreateArc/zh-cn
@@ -15,7 +15,7 @@
 
 在开启此工具时，鼠标指针将变为一个附有红色弧图标的白色十字。而指针的坐标也会实时显示在侧。
 
-<img alt="中点已选择完毕，正在通过移动鼠标来设置半径‎" src=images/Sketcher_ArcExample1.png ) ![中点与起始角度已经选定，正在通过移动鼠标来设置终点角度](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
+<img alt="中点已选择完毕，正在通过移动鼠标来设置半径‎" src=images/Sketcher_ArcExample1.png ) ![中点与起始角度已经选定，正在通过移动鼠标来设置终点角度](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
 
 
 <div class="mw-translate-fuzzy">

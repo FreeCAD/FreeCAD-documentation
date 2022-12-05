@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std PrintPdf
-   Name/pl   *Std   * Eksportuj do PDF
-   MenuLocation   *Plik→ Eksportuj do PDF ...
-   Workbenches   *All
-   SeeAlso   *[Wydrukuj](Std_Print/pl.md), [Exportuj ](Std_Export/pl.md), [Zrzut ekranu](Std_ViewScreenShot/pl.md)
+- GuiCommand:/pl
+   Name:Std PrintPdf
+   Name/pl:Std: Eksportuj do PDF
+   MenuLocation:Plik→ Eksportuj do PDF ...
+   Workbenches:All
+   SeeAlso:[Wydrukuj](Std_Print/pl.md), [Exportuj ](Std_Export/pl.md), [Zrzut ekranu](Std_ViewScreenShot/pl.md)
 ---
 
 # Std PrintPdf/pl
@@ -31,7 +31,7 @@ Polecenie **Std PrintPdf** jest przeznaczone głównie do tworzenia plików [PDF
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

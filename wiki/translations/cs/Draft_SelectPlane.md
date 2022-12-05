@@ -1,6 +1,6 @@
 # Draft SelectPlane/cs
 ---
-- GuiCommand   */cs   Name   *Draft SelectPlane   Name/cs   *Kreslení VýběrRoviny   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> Utility -> Výběr roviny---
+- GuiCommand:/cs   Name:Draft SelectPlane   Name/cs:Kreslení VýběrRoviny   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Výběr roviny---
 
 
 </div>
@@ -12,51 +12,51 @@
 
 ## Popis
 
-Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelskou rovinu ve 3D, na které se bude realizovat následujíci kreslicí příkaz. Pro definování pracovní roviny existuje několik metod   *
+Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelskou rovinu ve 3D, na které se bude realizovat následujíci kreslicí příkaz. Pro definování pracovní roviny existuje několik metod:
 
 -   Z vybrané plochy
 -   Z aktuálního pohledu
--   Z předvolby   * horní, přední nebo boční
+-   Z předvolby: horní, přední nebo boční
 -   Žádná, v tomto případě je pracovní rovina automaticky adaptována podle aktuálního pohledu, kde spouštíte příkaz nebo na ploše, pokud začínáte kreslení na existující ploše.
 
 
 </div>
 
-<img alt="" src=images/WorkingPlane_example.png  style="width   *400px;"> 
+<img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Shapes created on different working planes*
 
 ## Usage with pre-selection 
 
-1.  Do one of the following   *
-    -   Select a single object. The following objects are supported   *
-        -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md)   * the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
+1.  Do one of the following:
+    -   Select a single object. The following objects are supported:
+        -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md): the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
         -   [Arch BuildingParts](Arch_BuildingPart.md).
         -   [Arch SectionPlanes](Arch_SectionPlane.md).
-        -   [Std Parts](Std_Part.md)   * to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
+        -   [Std Parts](Std_Part.md): to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
         -   [Part Feature](Part_Feature.md) objects that have a single face. [Part Planes](Part_Plane.md) for example.
         -   Objects that are not [Part Feature](Part_Feature.md) objects and have a **Placement** property.
-    -   Select one or more subelements. You can select   *
+    -   Select one or more subelements. You can select:
         -   A flat face.
         -   Three vertices.
         -   A circular edge.
         -   Two straight edges that are co-planar but not co-linear.
         -   A straight edge and a vertex that does not lie on the (extended) edge.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut   * **W** then **P**.
+    -   Use the keyboard shortcut: **W** then **P**.
 3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
 ## Usage with post-selection 
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut   * **W** then **P**.
+    -   Use the keyboard shortcut: **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following   *
+3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select   *
+    -   Select one or more subelements. You can select:
         -   A flat face.
         -   Three vertices.
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
@@ -64,10 +64,10 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 
 ## Usage with presets 
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut   * **W** then **P**.
+    -   Use the keyboard shortcut: **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Press any of the buttons to finish the command.
 4.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
@@ -79,7 +79,7 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 
 ## Volby
 
--   Pro nastavení pracovní roviny na existující plochu   * vyberte existující objekt ve 3D pohledu a potom stiskněte tlačítko **<img src="images/Draft_SelectPlane.png" width=16px> [VýběrRoviny](Draft_SelectPlane/cs.md)
+-   Pro nastavení pracovní roviny na existující plochu: vyberte existující objekt ve 3D pohledu a potom stiskněte tlačítko **<img src="images/Draft_SelectPlane.png" width=16px> [VýběrRoviny](Draft_SelectPlane/cs.md)
 **
 -   Stisknutí tlačítka **'''POHLED'''** nastaví pracovní rovinu jako je rovina pohledu, kolmo k osám kamery a procházející počátkem (0,0,0).
 -   Stisknutí tlačítka **'''ŽÁDNÁ'''** zruší nastavení aktuální pracovní roviny. Následující 2D operace budou závislé na pohledu.
@@ -96,11 +96,11 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 -   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
 
@@ -117,7 +117,7 @@ Objekt pracovní roviny může být snadno vyvořen a manipulován ve skriptech 
 
 <div class="mw-translate-fuzzy">
 
-Můžete také přistupovat na aktuální pracovní rovinu Kreslení   *
+Můžete také přistupovat na aktuální pracovní rovinu Kreslení:
 
 
 </div>
@@ -142,7 +142,7 @@ Gui.Snapper.toggleGrid()
 
 <div class="mw-translate-fuzzy">
 
-Příklad   *
+Příklad:
 
 
 </div>

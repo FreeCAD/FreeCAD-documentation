@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Arch MultiMaterial
-   MenuLocation   *Arch → Material tools → Multi-Material
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version   *0.17
-   SeeAlso   *[Arch SetMaterial](Arch_SetMaterial.md), [Arch CompSetMaterial](Arch_CompSetMaterial.md)
+- GuiCommand:
+   Name:Arch MultiMaterial
+   MenuLocation:Arch → Material tools → Multi-Material
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version:0.17
+   SeeAlso:[Arch SetMaterial](Arch_SetMaterial.md), [Arch CompSetMaterial](Arch_CompSetMaterial.md)
 ---
 
 # Arch MultiMaterial/pl
@@ -15,11 +15,11 @@ The Multi-Material tool defines a list of [materials](Material.md) with, for eac
 
 ![](images/Arch_multimaterial_example.png )
 
-Not all Arch objects can currently make use of multi-materials, and the use they do of it differs. Currently   *
+Not all Arch objects can currently make use of multi-materials, and the use they do of it differs. Currently:
 
--   <img alt="" src=images/Arch_Wall.svg  style="width   *24px;"> [Walls](Arch_Wall.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer wall
--   <img alt="" src=images/Arch_Window.svg  style="width   *24px;"> [Windows](Arch_Window.md) with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
--   <img alt="" src=images/Arch_Panel.svg  style="width   *24px;"> [Panels](Arch_Panel.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
+-   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Walls](Arch_Wall.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer wall
+-   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Windows](Arch_Window.md) with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
+-   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Panels](Arch_Panel.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
 
 ## Usage
 
@@ -32,7 +32,7 @@ Not all Arch objects can currently make use of multi-materials, and the use they
 
 ![](images/Arch_multimaterial_panel.png )
 
-Upon creating or editing a multi-material by double-clicking it in the tree, the following options are available   *
+Upon creating or editing a multi-material by double-clicking it in the tree, the following options are available:
 
 -   **Duplicate** another existing Multi-Material from the same document. This only copies the values over, and doesn\'t link the two multi-materials in any way.
 -   The **Name** field will also set the material object\'s Label
@@ -45,7 +45,7 @@ Upon creating or editing a multi-material by double-clicking it in the tree, the
 
 ## Relation to IFC 
 
-This roughly corresponds to a combination of [IfcMaterialLayerSet](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
+This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
 ## Limitations
 

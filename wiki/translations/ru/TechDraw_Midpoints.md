@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Добавить вершины по центрам граней
-   Name   *TechDraw_Midpoints
-   MenuLocation   *TechDraw → Добавить Вершины → Add Midpoints Vertices
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
+- GuiCommand:/ru
+   Name/ru:Добавить вершины по центрам граней
+   Name:TechDraw_Midpoints
+   MenuLocation:TechDraw → Добавить Вершины → Add Midpoints Vertices
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
 ---
 
 # TechDraw Midpoints/ru
@@ -14,7 +14,7 @@
 
 The Midpoints tool adds Cosmetic [Vertices](Glossary#V.md) at the midpoints of one or more Edges.
 
-<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_CosmeticMidpoint_Sample.png  style="width:250px;"> 
 *Cosmetic Vertices at midpoints of Edges*
 
 ## Применение
@@ -32,7 +32,7 @@ Cosmetic Vertices have no properties of their own, as they are not Document Obje
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

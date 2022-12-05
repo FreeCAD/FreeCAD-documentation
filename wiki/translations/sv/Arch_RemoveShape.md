@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */sv
-   Name   *Arch RemoveShape
-   Name/sv   *Arch RemoveShape
-   Workbenches   *[Arch](Arch_Workbench/sv.md)
-   MenuLocation   *Arch → Utilities → Remove Shape
-   SeeAlso   *[MeshToShape](Arch_SplitMesh]],_[[Arch_MeshToShape/sv.md)
+- GuiCommand:/sv
+   Name:Arch RemoveShape
+   Name/sv:Arch RemoveShape
+   Workbenches:[Arch](Arch_Workbench/sv.md)
+   MenuLocation:Arch → Utilities → Remove Shape
+   SeeAlso:[MeshToShape](Arch_SplitMesh]],_[[Arch_MeshToShape/sv.md)
 ---
 
 # Arch RemoveShape/sv
@@ -32,7 +32,7 @@ This tool attempts at removing the inner cubic shape of an **<img src="images/Ar
 
 </div>
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 removeShape(objs, mark=True)
 ```
@@ -48,7 +48,7 @@ removeShape(objs, mark=True)
 ```python
 import FreeCAD, Draft, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000

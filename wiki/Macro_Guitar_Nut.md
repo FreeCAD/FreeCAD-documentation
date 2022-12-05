@@ -2,12 +2,12 @@
 {{Macro
 |Name=Macro Guitar Nut
 |Icon=Macro_Guitar_Nut.png
-|Description=Create [https   *//wikipedia.org/wiki/Guitar#Nut guitar nuts].<br/>FreeCAD macro that will create complex guitar nut shapes.<br/>Specifically it can create a nut with the bottom of the string slots at the desired height above a fretboard of the desired radius. The diameter of each string is configurable and the slots can be configured to account for the width needed to prevent binding. See the [Usage](#Usage.md) section for more details.
+|Description=Create [https://wikipedia.org/wiki/Guitar#Nut guitar nuts].<br/>FreeCAD macro that will create complex guitar nut shapes.<br/>Specifically it can create a nut with the bottom of the string slots at the desired height above a fretboard of the desired radius. The diameter of each string is configurable and the slots can be configured to account for the width needed to prevent binding. See the [Usage](#Usage.md) section for more details.
 |Author=jsiddall
 |Version=0.1
 |Date=2020-01-27
 |FCVersion=All
-|Download=[https   *//wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png ToolBar icon]
+|Download=[https://wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png ToolBar icon]
 |SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard.md)
 }}
 
@@ -37,7 +37,7 @@ The diameter of each string is configurable and the slots can be made a configur
 
 ## Script
 
-ToolBar icon <img alt="" src=images/Macro_Guitar_Nut.png  style="width   *64px;">
+ToolBar icon <img alt="" src=images/Macro_Guitar_Nut.png  style="width:64px;">
 
  **GuitarNut.FCMacro**
 
@@ -65,8 +65,8 @@ __Files__ = ''
 import FreeCAD, Part, math
 from FreeCAD import Base, Vector
 
-class Nut()   *
-    if App.ActiveDocument is None   *
+class Nut():
+    if App.ActiveDocument is None:
         # Create new document called "Nut" if there is no open document
         doc = App.newDocument("Nut")
 
@@ -115,15 +115,15 @@ outsidestringavgradius = (stringthickness[strings - 1] + stringthickness[0]) / 2
 centerspacing = center1 - center2
 
 # Find the string spacings for both spacing models
-if equalcenters   *
+if equalcenters:
     # Calculate the correct spacing for equal spaced strings
     stringspacing = centerspacing / (strings - 1)
 
-else   *
+else:
     # Calculate the space between strings
     totalstringwidth = 0
     stringindex1 = 0
-    while (stringindex1 < strings)   *
+    while (stringindex1 < strings):
         totalstringwidth = totalstringwidth + stringthickness[stringindex1]
         stringindex1 = stringindex1 + 1
 
@@ -136,10 +136,10 @@ nutshape = Part.makeBox(width, length, ((fretboardmaxheight + stringheight) * 2)
 print("Creating nut top surface")
 # Make a sphere to shape the top of the nut, which should pass through  each string center
 # Because the thickness of the strings varies, the Y-position of the sphere needs to be compensated
-# The fretboard "z" portion is   *
+# The fretboard "z" portion is:
 fretboardz = radius - (((radius ** 2) - ((centerspacing / 2) ** 2)) ** 0.5)
 
-# The formula to calculate the effective radius of the center of outside strings is   *
+# The formula to calculate the effective radius of the center of outside strings is:
 # r^2 = z^2 + y^2
 # r^2 = ((r - (outsidestringradiusdiff + fretboardz))^2) + ((centerspacing/2)^2)
 # r^2 = r^2 - 2r*(outsidestringradiusdiff + fretboardz) + ((outsidestringradiusdiff + fretboardz)^2) + (centerspacing^2)
@@ -158,29 +158,29 @@ nutshape = nutshape.common(top)
 cumulativestringwidth = 0 # Add up the amount of string thickness for equal spacing
 
 # Build the slots
-while (stringindex < strings)   *
+while (stringindex < strings):
     print("Creating slot for string " + str(stringindex))
     ypos = 0
 
-    if equalcenters   *
+    if equalcenters:
         # For equal centers move each string over by the fixed amount of stringspacing
         ypos = center1 - (stringindex * stringspacing)
 
-    else   *
+    else:
         # For equal spacing adjust for the thickness of each string
 
         # Add up the cumulative string thickness
-        if stringindex == 0   *
+        if stringindex == 0:
             # For the first string the thickness is already included in center1 so don't add anything
             cumulativestringwidth = 0
 
-        else   *
+        else:
             # Add half the previous string and half this string
             cumulativestringwidth = cumulativestringwidth + (stringthickness[stringindex] / 2) + (stringthickness[stringindex - 1] / 2)
 
         ypos = center1 - (stringindex * stringspacing) - cumulativestringwidth
 
-    zstartpos = (((radius ** 2) - (ypos ** 2)) ** 0.5) - radius + fretboardmaxheight + stringheight + (stringthickness[stringindex] / 2) + slotmargin # Cartesian coordinate formula   * z = sqrt(r^2 - y^2)
+    zstartpos = (((radius ** 2) - (ypos ** 2)) ** 0.5) - radius + fretboardmaxheight + stringheight + (stringthickness[stringindex] / 2) + slotmargin # Cartesian coordinate formula: z = sqrt(r^2 - y^2)
     # calculate the end of the slot based on the string break angle 
     zendpos = zstartpos - (math.tan(math.radians(breakangle)) * width)
 
@@ -196,7 +196,7 @@ while (stringindex < strings)   *
     nutshape = nutshape.cut(slotextrude)
     stringindex = stringindex + 1
 
-nut = App.ActiveDocument.addObject("Part   *   *Feature","Nut")
+nut = App.ActiveDocument.addObject("Part::Feature","Nut")
 nut.Shape = nutshape
 print("Finished creating nut")
 }}
@@ -205,7 +205,7 @@ print("Finished creating nut")
 
 ## Link
 
-Forum discussion [Guitar fretboard macro / guitar body](https   *//forum.freecadweb.org/viewtopic.php?f=24&t=5827&)
+Forum discussion [Guitar fretboard macro / guitar body](https://forum.freecadweb.org/viewtopic.php?f=24&t=5827&)
 
 
 

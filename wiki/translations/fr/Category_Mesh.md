@@ -1,8 +1,6 @@
 # Category:Mesh/fr
 Cette catégorie répertorie les pages liées à l\'[Atelier maille](Mesh_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std OrthographicCamera
-   Name/pl   *Std   * Widok ortogonalny
-   MenuLocation   *Widok → Widok ortogonalny
-   Workbenches   *wszystkie
-   Shortcut   ***V** → **O**
-   SeeAlso   *[Widok perspektywy](Std_PerspectiveCamera/pl.md)
+- GuiCommand:/pl
+   Name:Std OrthographicCamera
+   Name/pl:Std: Widok ortogonalny
+   MenuLocation:Widok → Widok ortogonalny
+   Workbenches:wszystkie
+   Shortcut:**V** → **O**
+   SeeAlso:[Widok perspektywy](Std_PerspectiveCamera/pl.md)
 ---
 
 # Std OrthographicCamera/pl
@@ -19,9 +19,9 @@ Polecenie **Widok ortogonalny** przełącza ujęcie widoku w aktywnym oknie [wid
 
 ## Użycie
 
-1.  Istnieje kilka sposobów wywołania tego polecenia   *
+1.  Istnieje kilka sposobów wywołania tego polecenia:
     -   Wybierz z menu opcję **Widok → <img src="images/Std_OrthographicCamera.svg" width=16px> Widok ortogonalny**.
-    -   Użyj skrótu klawiaturowego   * **V** kolejnie **O**.
+    -   Użyj skrótu klawiaturowego: **V** kolejnie **O**.
 
 ## Uwagi
 
@@ -29,12 +29,12 @@ Polecenie **Widok ortogonalny** przełącza ujęcie widoku w aktywnym oknie [wid
 
 ## Ustawienia
 
--   Typ ujęcia widoku można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
+-   Typ ujęcia widoku można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

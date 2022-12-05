@@ -1,8 +1,6 @@
 # Category:Arch/cs
 Pages relating to Architectural and Building Information Management
 
-[Category   *User Documentation/cs](Category   *User_Documentation/cs.md) [Category   *BIM/cs](Category   *BIM/cs.md)
-
 ### Contents
 
 |     |     |     |

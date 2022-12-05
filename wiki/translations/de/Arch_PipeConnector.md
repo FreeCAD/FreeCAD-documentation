@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Arch PipeConnector
-   Name/de   *Arch RohrVerbinder
-   MenuLocation   *Arch → Pipe tools → Rohr Verbinder
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***P** **C**
-   Version   *0.17
-   SeeAlso   *[Arch Rohr](Arch_Pipe/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
+- GuiCommand:/de
+   Name:Arch PipeConnector
+   Name/de:Arch RohrVerbinder
+   MenuLocation:Arch → Pipe tools → Rohr Verbinder
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**P** **C**
+   Version:0.17
+   SeeAlso:[Arch Rohr](Arch_Pipe/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
 ---
 
 # Arch PipeConnector/de
@@ -34,7 +34,7 @@ Dieses Werkzeug ermöglicht eine Eck- oder T-Stück Verbindung zwischen zwei ode
 
 ## Eigenschaften
 
--    **Radius**   * Der Krümmungsradius dieses Verbinders
+-    **Radius**: Der Krümmungsradius dieses Verbinders
 
 ## Typischer Arbeitsablauf 
 
@@ -54,7 +54,7 @@ Siehe die Information auf [Arch Rohr](Arch_Pipe/de.md) für den Arbeitsablauf zu
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -64,7 +64,7 @@ Siehe die Information auf [Arch Rohr](Arch_Pipe/de.md) für den Arbeitsablauf zu
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug Rohrverbinder kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, durch anwenden der folgende Funktion   *
+Das Werkzeug Rohrverbinder kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, durch anwenden der folgende Funktion:
 
 
 </div>
@@ -83,7 +83,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 
 </div>
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD, Draft, Arch
 

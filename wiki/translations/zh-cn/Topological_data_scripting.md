@@ -23,12 +23,12 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 
 ### 类图
 
-这是零件模块中最关键类的 [统一建模语言（Unified Modeling Language (UML)）](http   *//en.wikipedia.org/wiki/Unified_Modeling_Language)概述： ![零件模块中的Python类](images/Part_Classes.jpg )
+这是零件模块中最关键类的 [统一建模语言（Unified Modeling Language (UML)）](http://en.wikipedia.org/wiki/Unified_Modeling_Language)概述： ![零件模块中的Python类](images/Part_Classes.jpg )
 
 
 </div>
 
-This is a [Unified Modeling Language (UML)](http   *//en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module   * ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
+This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +45,7 @@ This is a [Unified Modeling Language (UML)](http   *//en.wikipedia.org/wiki/Unif
 
 </div>
 
-The geometric objects are the building blocks of all topological objects   *
+The geometric objects are the building blocks of all topological objects:
 
 -   **Geom** Base class of the geometric objects.
 -   **Line** A straight line in 3D, defined by starting point and end point.
@@ -75,7 +75,7 @@ FreeCAD中有下列可用的拓扑数据类型：
 
 </div>
 
-The following topological data types are available   *
+The following topological data types are available:
 
 -   **Compound** A group of any type of topological objects.
 -   **Compsolid** A composite solid is a set of solids connected by their faces. It expands the notions of WIRE and SHELL to solids.
@@ -210,7 +210,7 @@ L2 = Part.LineSegment(V3, V4)
 
 </div>
 
-The last step is to put the geometric base elements together and bake a topological shape   *
+The last step is to put the geometric base elements together and bake a topological shape:
 
 
 ```python
@@ -230,7 +230,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 </div>
 
-Now extrude the wire in a direction and make an actual 3D shape   *
+Now extrude the wire in a direction and make an actual 3D shape:
 
 
 ```python
@@ -267,7 +267,7 @@ Part.show(P)
 
 </div>
 
-You can easily create basic topological objects with the `make...()` methods from the Part module   *
+You can easily create basic topological objects with the `make...()` methods from the Part module:
 
 
 ```python
@@ -280,15 +280,15 @@ Part.show(b)
 
 其他可用的make\...()方法：
 
--   **makeBox(l,w,h)**   * 在点p（？）处创建一个维数为(l,w,h)且指向方向d（？）的立方体
--   **makeCircle(radius)**   * 以指定的半径创建一个圆形
--   **makeCone(radius1,radius2,height)**   * 以指定的两个半径与高度创建一个圆锥体（圆台）
--   **makeCylinder(radius,height)**   * 以指定的半径与高度创建一个圆柱体
--   **makeLine((x1,y1,z1),(x2,y2,z2))**   * 根据两点创建一条线段
--   **makePlane(length,width)**   * 利用指定的长度与宽度创建一个平面
--   **makePolygon(list)**   * 根据指定的点集创建一个多边形
--   **makeSphere(radius)**   * 利用指定的半径创建一个球体
--   **makeTorus(radius1,radius2)**   * 利用指定的两个半径创建一个圆环体
+-   **makeBox(l,w,h)**: 在点p（？）处创建一个维数为(l,w,h)且指向方向d（？）的立方体
+-   **makeCircle(radius)**: 以指定的半径创建一个圆形
+-   **makeCone(radius1,radius2,height)**: 以指定的两个半径与高度创建一个圆锥体（圆台）
+-   **makeCylinder(radius,height)**: 以指定的半径与高度创建一个圆柱体
+-   **makeLine((x1,y1,z1),(x2,y2,z2))**: 根据两点创建一条线段
+-   **makePlane(length,width)**: 利用指定的长度与宽度创建一个平面
+-   **makePolygon(list)**: 根据指定的点集创建一个多边形
+-   **makeSphere(radius)**: 利用指定的半径创建一个球体
+-   **makeTorus(radius1,radius2)**: 利用指定的两个半径创建一个圆环体
 
 请参考[Part API页来查阅零件模块中的完整可用方法列表](Part_API.md)。
 
@@ -308,7 +308,7 @@ Part.show(b)
 
 </div>
 
-First we need to import the FreeCAD and Part modules so we can use their contents in Python   *
+First we need to import the FreeCAD and Part modules so we can use their contents in Python:
 
 
 ```python
@@ -324,12 +324,12 @@ import Part
 
 #### 创建一个向量
 
-在构建几何图形的过程中， [向量](http   *//en.wikipedia.org/wiki/Euclidean_vector) 是提供最关键信息的对象类型之一。向量属性中通常都有3个数字（但并非总是如此）：即直角坐标系中的3种坐标分量：x、y、z。您可以按下列方式来创建一个向量：
+在构建几何图形的过程中， [向量](http://en.wikipedia.org/wiki/Euclidean_vector) 是提供最关键信息的对象类型之一。向量属性中通常都有3个数字（但并非总是如此）：即直角坐标系中的3种坐标分量：x、y、z。您可以按下列方式来创建一个向量：
 
 
 </div>
 
-[Vectors](http   *//en.wikipedia.org/wiki/Euclidean_vector) are one of the most important pieces of information when building shapes. They usually contain three numbers (but not necessarily always)   * the X, Y and Z cartesian coordinates. You create a vector like this   *
+[Vectors](http://en.wikipedia.org/wiki/Euclidean_vector) are one of the most important pieces of information when building shapes. They usually contain three numbers (but not necessarily always): the X, Y and Z cartesian coordinates. You create a vector like this:
 
 
 ```python
@@ -364,7 +364,7 @@ print(myVertex.Point)
 
 </div>
 
-An edge is nothing but a line with two vertices   *
+An edge is nothing but a line with two vertices:
 
 
 ```python
@@ -406,7 +406,7 @@ edge.CenterOfMass
 
 </div>
 
-So far we created an edge object, but it doesn\'t appear anywhere on the screen. This is because the FreeCAD 3D scene only displays what you tell it to display. To do that, we use this simple method   *
+So far we created an edge object, but it doesn\'t appear anywhere on the screen. This is because the FreeCAD 3D scene only displays what you tell it to display. To do that, we use this simple method:
 
 
 ```python
@@ -434,7 +434,7 @@ Part.show(edge)
 
 </div>
 
-A wire is a multi-edge line and can be created from a list of edges or even a list of wires   *
+A wire is a multi-edge line and can be created from a list of edges or even a list of wires:
 
 
 ```python
@@ -483,7 +483,7 @@ wire2.isClosed()
 
 </div>
 
-Only faces created from closed wires will be valid. In this example, wire3 is a closed wire but wire2 is not (see above)   *
+Only faces created from closed wires will be valid. In this example, wire3 is a closed wire but wire2 is not (see above):
 
 
 ```python
@@ -522,13 +522,13 @@ sface.isValid()
 
 </div>
 
-A circle can be created like this   *
+A circle can be created like this:
 
 
 ```python
 circle = Part.makeCircle(10)
 circle.Curve
-> Circle (Radius    * 10, Position    * (0, 0, 0), Direction    * (0, 0, 1))
+> Circle (Radius : 10, Position : (0, 0, 0), Direction : (0, 0, 1))
 ```
 
 如果您想以特定的位置与方向来创建它，则可：
@@ -537,7 +537,7 @@ circle.Curve
 ```python
 ccircle = Part.makeCircle(10, App.Vector(10, 0, 0), App.Vector(1, 0, 0))
 ccircle.Curve
-> Circle (Radius    * 10, Position    * (10, 0, 0), Direction    * (1, 0, 0))
+> Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
 ```
 
 
@@ -620,7 +620,7 @@ arc = Part.Arc(circle,0,pi)
 
 </div>
 
-A polygon is simply a wire with multiple straight edges. The `makePolygon()` function takes a list of points and creates a wire through those points   *
+A polygon is simply a wire with multiple straight edges. The `makePolygon()` function takes a list of points and creates a wire through those points:
 
 
 ```python
@@ -640,11 +640,11 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 </div>
 
-Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a `Part.BezierCurve()` from a series of `FreeCAD.Vector()` points. Note   * when \"getting\" and \"setting\" a single pole or weight, indices start at 1, not 0.
+Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a `Part.BezierCurve()` from a series of `FreeCAD.Vector()` points. Note: when \"getting\" and \"setting\" a single pole or weight, indices start at 1, not 0.
 
 
 ```python
-def makeBCurveEdge(Points)   *
+def makeBCurveEdge(Points):
    geomCurve = Part.BezierCurve()
    geomCurve.setPoles(Points)
    edge = Part.Edge(geomCurve)
@@ -664,7 +664,7 @@ def makeBCurveEdge(Points)   *
 
 </div>
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
+A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction:
 
 
 ```python
@@ -705,7 +705,7 @@ plane.BoundBox
 
 </div>
 
-There are several ways to create an ellipse   *
+There are several ways to create an ellipse:
 
 
 ```python
@@ -802,7 +802,7 @@ Part.show(eli.toShape())
 
 </div>
 
-Using `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 and angle = 360. Consider a torus as small circle sweeping along a big circle. Radius1 is the radius of the big circle, radius2 is the radius of the small circle, pnt is the center of the torus and dir is the normal direction. angle1 and angle2 are angles in degrees for the small circle; the last angle parameter is to make a section of the torus   *
+Using `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 and angle = 360. Consider a torus as small circle sweeping along a big circle. Radius1 is the radius of the big circle, radius2 is the radius of the small circle, pnt is the center of the torus and dir is the normal direction. angle1 and angle2 are angles in degrees for the small circle; the last angle parameter is to make a section of the torus:
 
 
 ```python
@@ -955,7 +955,7 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 </div>
 
-Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way   *
+Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way:
 
 
 ```python
@@ -984,7 +984,7 @@ myShape.translate(App.Vector(2, 0, 0))
 
 </div>
 
-To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle   *
+To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle:
 
 
 ```python
@@ -1003,7 +1003,7 @@ myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 
 </div>
 
-A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example   *
+A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example:
 
 
 ```python
@@ -1059,7 +1059,7 @@ myShape.transformGeometry(myMat)
 
 </div>
 
-Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`   *
+Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`:
 
 
 ```python
@@ -1089,7 +1089,7 @@ myShape=myShape.transformGeometry(myMat)
 
 </div>
 
-Subtracting a shape from another one is called \"cut\" in FreeCAD and is done like this   *
+Subtracting a shape from another one is called \"cut\" in FreeCAD and is done like this:
 
 
 ```python
@@ -1111,7 +1111,7 @@ diff = cylinder.cut(sphere)
 
 </div>
 
-The same way, the intersection between two shapes is called \"common\" and is done this way   *
+The same way, the intersection between two shapes is called \"common\" and is done this way:
 
 
 ```python
@@ -1133,7 +1133,7 @@ common = cylinder1.common(cylinder2)
 
 </div>
 
-Union is called \"fuse\" and works the same way   *
+Union is called \"fuse\" and works the same way:
 
 
 ```python
@@ -1183,7 +1183,7 @@ section.Edges
 
 </div>
 
-Extrusion is the act of \"pushing\" a flat shape in a certain direction, resulting in a solid body. Think of a circle becoming a tube by \"pushing it out\"   *
+Extrusion is the act of \"pushing\" a flat shape in a certain direction, resulting in a solid body. Think of a circle becoming a tube by \"pushing it out\":
 
 
 ```python
@@ -1219,7 +1219,7 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 </div>
 
-You can easily explore the topological data structure   *
+You can easily explore the topological data structure:
 
 
 ```python
@@ -1259,7 +1259,7 @@ v.Point
 
 </div>
 
-In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length   *
+In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length:
 
 
 ```python
@@ -1322,12 +1322,12 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ```python
-for o in Gui.Selection.getSelectionEx()   *
+for o in Gui.Selection.getSelectionEx():
     print(o.ObjectName)
-    for s in o.SubElementNames   *
-        print("name   * ", s)
-        for s in o.SubObjects   *
-            print("object   * ", s)
+    for s in o.SubElementNames:
+        print("name: ", s)
+        for s in o.SubObjects:
+            print("object: ", s)
 ```
 
 利用以下脚本来统计选中对象的边长总和：
@@ -1335,11 +1335,11 @@ for o in Gui.Selection.getSelectionEx()   *
 
 ```python
 length = 0.0
-for o in Gui.Selection.getSelectionEx()   *
-    for s in o.SubObjects   *
+for o in Gui.Selection.getSelectionEx():
+    for s in o.SubObjects:
         length += s.Length
 
-print("Length of the selected edges   * ", length)
+print("Length of the selected edges: ", length)
 ```
 
 
@@ -1350,12 +1350,12 @@ print("Length of the selected edges   * ", length)
 
 ## 完整的示例：OCC瓶子
 
-我们可以在[OpenCasCade技术教程](http   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1)找到一个典型示例，其内容是如何构建一个瓶子。这对于FreeCAD而言也是个不错的练手机会。事实上，如果您同时随以下示例以及上述OCC页面进行对比学习，便会洞悉OCC结构是如何有效地实现于FreeCAD中的。以下完整脚本亦包含在FreeCAD安装内容中（在Mod/Part文件夹里），可通过在python解释器中输入下列代码来进行调用：
+我们可以在[OpenCasCade技术教程](http://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1)找到一个典型示例，其内容是如何构建一个瓶子。这对于FreeCAD而言也是个不错的练手机会。事实上，如果您同时随以下示例以及上述OCC页面进行对比学习，便会洞悉OCC结构是如何有效地实现于FreeCAD中的。以下完整脚本亦包含在FreeCAD安装内容中（在Mod/Part文件夹里），可通过在python解释器中输入下列代码来进行调用：
 
 
 </div>
 
-A typical example found on the [OpenCasCade Technology website](https   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the **Mod/Part** folder) and can be called from the Python interpreter by typing   *
+A typical example found on the [OpenCasCade Technology website](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the **Mod/Part** folder) and can be called from the Python interpreter by typing:
 
 
 ```python
@@ -1385,7 +1385,7 @@ For the purpose of this tutorial we will consider a reduced version of the scrip
 import FreeCAD as App
 import Part, math
 
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt1=App.Vector(-myWidth / 2., 0, 0)
     aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
     aPnt3=App.Vector(0, -myThickness / 2., 0)
@@ -1455,7 +1455,7 @@ import Part, math
 
 
 ```python
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt1=App.Vector(-myWidth / 2., 0, 0)
     aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
     aPnt3=App.Vector(0, -myThickness / 2., 0)
@@ -1721,14 +1721,6 @@ s.read("test.stp")
 
 
 {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

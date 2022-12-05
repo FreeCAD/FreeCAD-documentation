@@ -11,13 +11,13 @@
 
 Cette page décrit l\'architecture ToolBit (Outil coupant) utilisée dans l\'[atelier Path](Path_Workbench/fr.md) qui est devenu le système par défaut de FreeCAD v 0.19. Pour l\'ancien système d\'outils voir [Path Gestionnaire d\'outils](Path_ToolLibraryEdit/fr.md). Les outils de l\'atelier Path sont gérés différemment de ceux des autres logiciels de FAO.
 
-Il y a plusieurs concepts que l\'utilisateur doit comprendre    *
+Il y a plusieurs concepts que l\'utilisateur doit comprendre :
 
--   [Path Formes d\'outils](Path_ToolShape/fr.md)    * ce sont des modèles pour créer des outils. Les Formes d\'outil sont des documents FreeCAD qui modélisent l\'outil en utilisant des contraintes nommées. La forme d\'outil est un modèle d\'outil *abstrait* à partir duquel sont créées les instances d\'outils (appelées toolbits ou outils coupants). Par exemple, toutes les fraises partageront le même fichier Forme d\'outil.
+-   [Path Formes d\'outils](Path_ToolShape/fr.md) : ce sont des modèles pour créer des outils. Les Formes d\'outil sont des documents FreeCAD qui modélisent l\'outil en utilisant des contraintes nommées. La forme d\'outil est un modèle d\'outil *abstrait* à partir duquel sont créées les instances d\'outils (appelées toolbits ou outils coupants). Par exemple, toutes les fraises partageront le même fichier Forme d\'outil.
 
--   [Path Outils coupants](Path_ToolBit/fr.md)    * ce sont des instances d\'une forme d\'outil. Un outil coupant aura des valeurs *spécifiques* pour chacune des contraintes nommées dans la forme de l\'outil. Un outil coupant est utilisé dans un travail de trajectoire par le biais d\'un contrôleur d\'outils (Tool Controller). Le même outil coupant peut exister dans plusieurs bibliothèques.
+-   [Path Outils coupants](Path_ToolBit/fr.md) : ce sont des instances d\'une forme d\'outil. Un outil coupant aura des valeurs *spécifiques* pour chacune des contraintes nommées dans la forme de l\'outil. Un outil coupant est utilisé dans un travail de trajectoire par le biais d\'un contrôleur d\'outils (Tool Controller). Le même outil coupant peut exister dans plusieurs bibliothèques.
 
--   [Path Bibliothèque des outils](Path_ToolBit_Library/fr.md)    * contient une collection arbitraire d\'outils coupants . Les outils spécifiques d\'une bibliothèque sont entièrement laissés à la discrétion de l\'utilisateur. Cas d\'utilisation possibles pour les bibliothèques    *
+-   [Path Bibliothèque des outils](Path_ToolBit_Library/fr.md) : contient une collection arbitraire d\'outils coupants . Les outils spécifiques d\'une bibliothèque sont entièrement laissés à la discrétion de l\'utilisateur. Cas d\'utilisation possibles pour les bibliothèques :
     -   Un utilisateur amateur peut n\'avoir qu\'une seule bibliothèque pour tous les outils qu\'il possède.
     -   Une bibliothèque peut contenir tous les outils utilisés pour un matériau spécifique comme l\'aluminium ou le bois.
     -   Une bibliothèque peut contenir des outils pour travailler sur un matériau spécifique.
@@ -36,10 +36,10 @@ L\'utilisateur interagit avec le système de gestion des outils par le biais d\'
 
 ## Organisation
 
-Lorsque FreeCAD est installé, un exemple de hiérarchie de bibliothèques d\'outils et d\'outils coupants est créé dans le répertoire d\'installation à    *
+Lorsque FreeCAD est installé, un exemple de hiérarchie de bibliothèques d\'outils et d\'outils coupants est créé dans le répertoire d\'installation à :
 
 -   Sous Linux, il s\'agit généralement de **/usr/lib64/FreeCAD/Mod/Path/Tools**.
--   Sous Windows, il s\'agit généralement de **C   *Program Files\FreeCAD\Mod\Path\Tools**.
+-   Sous Windows, il s\'agit généralement de **C:\Program Files\FreeCAD\Mod\Path\Tools**.
 -   Sous macOS, il s\'agit généralement de **/Applications/FreeCAD.app/Contents/Resources/Mod/Path/Tools**.
 
 
@@ -83,13 +83,13 @@ L\'intégration d\'un outil de coupe ou d\'un outil dans une Path Tâche en vue 
 
 #### Création d\'une nouvelle forme d\'outil 
 
-   *   Suivez les instructions décrites dans la section [Utilisation](Path_ToolShape/fr#Utilisation.md) de la page [Path Forme d\'outil](Path_ToolShape/fr.md) pour créer une forme d\'outil personnalisée.
+:   Suivez les instructions décrites dans la section [Utilisation](Path_ToolShape/fr#Utilisation.md) de la page [Path Forme d\'outil](Path_ToolShape/fr.md) pour créer une forme d\'outil personnalisée.
 
 ### Chargement ou création d\'un outil coupant 
 
 Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer un [outil coupant](Path_ToolBit/fr.md) en utilisant la forme d\'outil (profil).
 
-1.  Dans l\'<img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [atelier Path](Path_Workbench/fr.md), faites **Path → Create Tool**.
+1.  Dans l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), faites **Path → Create Tool**.
 2.  Dans le panneau de tâches de création d\'[outil coupant](Path_ToolBit/fr.md) qui s\'affiche, donnez un nom au nouvel outil et sélectionnez le fichier de forme d\'outil correspondant comme base de ce nouvel outil.
 3.  Une vignette de la forme d\'outil sélectionnée devrait apparaître avec une liste de paramètres.
 4.  Réglez les paramètres de l\'embout comme vous le souhaitez.
@@ -99,7 +99,7 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 ### Sauvegarder le nouvel outil coupant 
 
 1.  Localisez et sélectionnez le nouvel outil dans l\'arbre des objets de la fenêtre principale de FreeCAD.
-2.  Dans la barre de menu de l\'<img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [atelier Path](Path_Workbench/fr.md), sélectionnez **Path → Save Tool as...**.
+2.  Dans la barre de menu de l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), sélectionnez **Path → Save Tool as...**.
 3.  Une fenêtre contextuelle s\'affiche.
 4.  Allez jusqu\'au dossier dans lequel vous souhaitez enregistrer le nouveau fichier de l\'outil coupant.
 5.  Saisissez un nom de fichier pour l\'outil coupant.
@@ -107,7 +107,7 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 
 ### Enregistrement de l\'outil coupant dans une bibliothèque d\'outils 
 
-1.  Dans l\'<img alt="" src=images/Workbench_Path.svg  style="width   *24px;"> [atelier Path](Path_Workbench/fr.md), faites **Path → Gestionnaire des outils coupants**.
+1.  Dans l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), faites **Path → Gestionnaire des outils coupants**.
 2.  La fenêtre [Gestionnaire d\'outils](Path_ToolBitLibraryOpen/fr.md) s\'ouvre.
 3.  En haut de cette fenêtre, vérifiez ou définissez le chemin d\'accès au dossier contenant vos bibliothèques d\'outils existantes, ou l\'emplacement où vous souhaitez stocker vos bibliothèques d\'outils.
 4.  Sous le chemin d\'accès, à gauche, se trouve la zone de liste des bibliothèques d\'outils. Cliquez sur une bibliothèque d\'outils existante que vous souhaitez utiliser comme destination pour votre nouvel outil coupant ou cliquez sur l\'icône verte plus pour créer une nouvelle bibliothèque d\'outils dans le dossier identifié ci-dessus.

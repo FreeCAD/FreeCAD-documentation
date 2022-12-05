@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Split
-   Name/it   *Dividi
-   MenuLocation   *Draft → Dividi
-   Workbenches   *[Draft](Draft_Workbench/it.md)
-   Shortcut   ***S** **P**
-   Version   *0.18
-   SeeAlso   *[Unisci](Draft_Join/it.md)
+- GuiCommand:/it
+   Name:Draft Split
+   Name/it:Dividi
+   MenuLocation:Draft → Dividi
+   Workbenches:[Draft](Draft_Workbench/it.md)
+   Shortcut:**S** **P**
+   Version:0.18
+   SeeAlso:[Unisci](Draft_Join/it.md)
 ---
 
 # Draft Split/it
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Split.svg  style="width   *16px;"> Dividi tenta di dividere un contorno esistente su uno spigolo o un punto specificato.
+Lo strumento <img alt="" src=images/Draft_Split.svg  style="width:16px;"> Dividi tenta di dividere un contorno esistente su uno spigolo o un punto specificato.
 
 
 </div>
@@ -40,7 +40,7 @@ Lo strumento <img alt="" src=images/Draft_Split.svg  style="width   *16px;"> Div
 
 <div class="mw-translate-fuzzy">
 
-La controparte di questo strumento è l\'operazione <img alt="" src=images/Draft_Join.svg  style="width   *16px;"> [Unisci](Draft_Join/it.md).
+La controparte di questo strumento è l\'operazione <img alt="" src=images/Draft_Join.svg  style="width:16px;"> [Unisci](Draft_Join/it.md).
 
 
 </div>
@@ -53,7 +53,7 @@ La controparte di questo strumento è l\'operazione <img alt="" src=images/Draft
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -63,7 +63,7 @@ La controparte di questo strumento è l\'operazione <img alt="" src=images/Draft
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dividi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Dividi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -79,7 +79,7 @@ split(wire, newPoint, edgeIndex)
 
 -    `edgeIndex`index of the edge where the split should occur (1-based).
 
-Example   *
+Example:
 
 
 ```python

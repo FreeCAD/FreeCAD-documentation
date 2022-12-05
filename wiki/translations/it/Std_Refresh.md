@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_Refresh
-   Name/it   *Aggiorna
-   MenuLocation   *Modifica → Aggiorna
-   Workbenches   *Tutti
-   Shortcut   ***F5**
+- GuiCommand:/it
+   Name:Std_Refresh
+   Name/it:Aggiorna
+   MenuLocation:Modifica → Aggiorna
+   Workbenches:Tutti
+   Shortcut:**F5**
 ---
 
 # Std Refresh/it
@@ -15,10 +15,10 @@ Il comando **Aggiorna** ricalcola il documento attivo. Il comando è disabilitat
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Refresh.svg" width=16px> Aggiorna**.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Refresh.svg" width=16px> Aggiorna** dal menu.
-    -   Usare la scorciatoia da tastiera   * **F5**.
+    -   Usare la scorciatoia da tastiera: **F5**.
 
 ## Opzioni
 
@@ -33,12 +33,12 @@ Il comando **Aggiorna** ricalcola il documento attivo. Il comando è disabilitat
 
 ## Note
 
--   Per una macro che ricalcola il documento attivo, consultare   * [Macro ForceRecompute](Macro_ForceRecompute/it.md).
+-   Per una macro che ricalcola il documento attivo, consultare: [Macro ForceRecompute](Macro_ForceRecompute/it.md).
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

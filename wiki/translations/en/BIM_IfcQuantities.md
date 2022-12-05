@@ -1,17 +1,17 @@
 ---
-- GuiCommand   *Addon
-   Name   *BIM IfcQuantities
-   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon   *BIM
-   MenuLocation   *Manage → IFC Quantities
-   SeeAlso   *[[BIM IfcElements]],[[BIM IfcProperties]]
+- GuiCommand:Addon
+   Name:BIM IfcQuantities
+   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon:BIM
+   MenuLocation:Manage → IFC Quantities
+   SeeAlso:[[BIM IfcElements]],[[BIM IfcProperties]]
 ---
 
 # BIM IfcQuantities/en
 
 ## Description
 
-<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width   *1024px;">
+<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
 
 The IFC quantities manager allows you to check the **explicit quantities** attached to objects, to be exported to IFC.
 

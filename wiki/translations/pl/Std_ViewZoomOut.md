@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewZoomOut
-   Name/pl   *Std   * Oddal widok
-   MenuLocation   *Widok → Powiększenie → Oddal
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl** + **-**
-   SeeAlso   *[Przybliż](Std_ViewZoomIn/pl.md), [Powiększ obszar](Std_ViewBoxZoom/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewZoomOut
+   Name/pl:Std: Oddal widok
+   MenuLocation:Widok → Powiększenie → Oddal
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **-**
+   SeeAlso:[Przybliż](Std_ViewZoomIn/pl.md), [Powiększ obszar](Std_ViewBoxZoom/pl.md)
 ---
 
 # Std ViewZoomOut/pl
@@ -16,9 +16,9 @@ Polecenie **Oddal** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](
 
 ## Użycie
 
-1.  Istnieje kilka sposobów wywołania tego polecenia   *
+1.  Istnieje kilka sposobów wywołania tego polecenia:
     -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewZoomOut.svg" width=16px> Oddal**.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **-**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **-**.
 
 ## Uwagi
 
@@ -26,12 +26,12 @@ Polecenie **Oddal** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](
 
 ## Ustawienia
 
--   Współczynnik powiększenia można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
+-   Współczynnik powiększenia można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

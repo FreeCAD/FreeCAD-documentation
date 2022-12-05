@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM PostFilterDataAlongLine
-   Name/fr   *FEM Filtre d'écrêtage selon une ligne
-   MenuLocation   *Résultats → Filtre d'écrêtage selon une ligne
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM PostFilterDataAlongLine
+   Name/fr:FEM Filtre d'écrêtage selon une ligne
+   MenuLocation:Résultats → Filtre d'écrêtage selon une ligne
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterDataAlongLine/fr
@@ -20,7 +20,7 @@ Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé ou un autre filtre.
-2.  Lancez la commande soit en    *
+2.  Lancez la commande soit en :
     -   Appuyant sur le bouton **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> '''Filtre d'écrêtage selon une ligne'''**.
     -   Utilisant le menu **Résultats → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Filtre d'écrêtage selon une ligne**.
 3.  Spécifiez les coordonnées de deux points définissant la ligne le long de laquelle les résultats doivent être évalués. En option, appuyez sur le bouton **Sélectionner les points** et choisissez les points manuellement sur la surface du maillage.

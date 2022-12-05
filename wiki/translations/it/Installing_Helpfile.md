@@ -3,7 +3,7 @@
 
 ## Help module 
 
-**Note   *** The FreeCAD offline help files, described below, are being retired. The help system of FreeCAD is now managed by the [Help Addon](https   *//github.com/yorikvanhavre/FreeCAD-Help), which you can install via the [Addon manager](Std_AddonMgr.md). The Help Addon is able to access online documentation, without the need to download anything, or an offline, downloadable copy of the documentation, which can also be installed via the Addon manager.
+**Note:** The FreeCAD offline help files, described below, are being retired. The help system of FreeCAD is now managed by the [Help Addon](https://github.com/yorikvanhavre/FreeCAD-Help), which you can install via the [Addon manager](Std_AddonMgr.md). The Help Addon is able to access online documentation, without the need to download anything, or an offline, downloadable copy of the documentation, which can also be installed via the Addon manager.
 
 ## File della Guida di FreeCAD 
 
@@ -19,12 +19,12 @@ Le traduzioni della community sono incoraggiate, quindi la documentazione offlin
 
 ## Scaricare i file di aiuto 
 
-Una documentazione offline funzionante è costituita da almeno due file   * **freecad.qhc** la configurazione Qt del file di aiuto e **freecad.qch** il file di aiuto Qt compresso. Sono uniti in un archivio ZIP.
+Una documentazione offline funzionante è costituita da almeno due file: **freecad.qhc** la configurazione Qt del file di aiuto e **freecad.qch** il file di aiuto Qt compresso. Sono uniti in un archivio ZIP.
 
 
 <div class="mw-translate-fuzzy">
 
-I file della guida possono essere scaricati da   * <https   *//github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD.0_18.Offline.Doc.7z>
+I file della guida possono essere scaricati da: <https://github.com/FreeCAD/FreeCAD/releases/download/0.18.1/FreeCAD.0_18.Offline.Doc.7z>
 
 
 </div>
@@ -37,7 +37,7 @@ In futuro potranno essere installati da FreeCAD con [Addon Manager](Std_AddonMgr
 
 </div>
 
-I file della guida hanno sempre gli stessi nomi   * **freecad.qhc** e **freecad.qch**. Per avere una versione diversa dei file della guida, è necessario installarli in directory diverse. In caso di download manuale, è sufficiente archiviare il file zip localmente ed estrarre l\'archivio nella directory desiderata.
+I file della guida hanno sempre gli stessi nomi: **freecad.qhc** e **freecad.qch**. Per avere una versione diversa dei file della guida, è necessario installarli in directory diverse. In caso di download manuale, è sufficiente archiviare il file zip localmente ed estrarre l\'archivio nella directory desiderata.
 
 ## Registrare la documentazione 
 
@@ -45,7 +45,7 @@ Il sistema di documentazione di FreeCAD utilizza Qt Assistant. Nel caso in cui i
 
 L\'organizzazione attuale della guida offline consente di attivare solo un file della guida. Non è quindi possibile avere file di aiuto in diverse lingue accessibili contemporaneamente da FreeCAD.
 
-Per rendere attiva un\'altra documentazione di FreeCAD, è necessario applicare i seguenti passaggi   *
+Per rendere attiva un\'altra documentazione di FreeCAD, è necessario applicare i seguenti passaggi:
 
 -   In FreeCAD fare clic nel menu **Aiuto → Aiuto**. Dovrebbe aprirsi il programma Qt Assistant.
 -   In Qt-assistant cliccare sul menu **Modifica → Preferenze**.
@@ -63,8 +63,8 @@ Per rendere attiva un\'altra documentazione di FreeCAD, è necessario applicare 
 
 Difficulties may arise when trying to install the documentation packages on Ubuntu (for example, `freecad-doc` or `freecad-daily-doc`). If this is found to be the case, then executing the following steps will enable you to have offline documentation.
 
--   Download the **freecad.qhc** and **freecad.qch** help files from <https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z> and extract them using 7zip.
--   Alternatively, you can instead get the development versions of the **freecad.qhc** and **freecad.qch** help files from [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Doc). You will need to [concatenate](http   *//man7.org/linux/man-pages/man1/cat.1.html) the .part files together   * `cat freecad.qch.part00 freecad.qch.part01 freecad.qch.part02 freecad.qch.part03 > freecad.qch`.
+-   Download the **freecad.qhc** and **freecad.qch** help files from <https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z> and extract them using 7zip.
+-   Alternatively, you can instead get the development versions of the **freecad.qhc** and **freecad.qch** help files from [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Doc). You will need to [concatenate](http://man7.org/linux/man-pages/man1/cat.1.html) the .part files together: `cat freecad.qch.part00 freecad.qch.part01 freecad.qch.part02 freecad.qch.part03 > freecad.qch`.
 -   With administrative privileges (e.g., `sudo`), copy or move **freecad.qhc** and **freecad.qch** to **/usr/share/doc/freecad-doc/**. If you are using `freecad-daily`, this will instead be **/usr/share/doc/freecad-daily-doc/**.
 
 

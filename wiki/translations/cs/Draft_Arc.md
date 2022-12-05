@@ -1,6 +1,6 @@
 # Draft Arc/cs
 ---
-- GuiCommand   */cs   Name   *Draft_Arc   Name/cs   *Kreslení oblouk   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení → Oblouk   Shortcut   *A R   SeeAlso   *[Kreslení kružnice](Draft_Circle/cs.md)---
+- GuiCommand:/cs   Name:Draft_Arc   Name/cs:Kreslení oblouk   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Oblouk   Shortcut:A R   SeeAlso:[Kreslení kružnice](Draft_Circle/cs.md)---
 
 
 </div>
@@ -10,21 +10,21 @@
 
 ## Popis
 
-Nástroj Oblouk vytváří oblouk v aktuální [pracovní rovině](Draft_SelectPlane/cs.md) zadáním čtyř bodů   * střed, poloměr, počáteční a koncový bod nebo zadáním tečen nebo kombinací obou způsobů. Použije se [tloušťka čáry a barva](Draft_Linestyle/cs.md) předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Kružnice](Draft_Circle/cs.md), ale přidává počáteční a koncový úhel.
+Nástroj Oblouk vytváří oblouk v aktuální [pracovní rovině](Draft_SelectPlane/cs.md) zadáním čtyř bodů: střed, poloměr, počáteční a koncový bod nebo zadáním tečen nebo kombinací obou způsobů. Použije se [tloušťka čáry a barva](Draft_Linestyle/cs.md) předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Kružnice](Draft_Circle/cs.md), ale přidává počáteční a koncový úhel.
 
 
 </div>
 
-The <img alt="" src=images/Draft_Arc.svg  style="width   *24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
+The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;"> 
 *Arc defined by four points, center, radius, initial point of arc and final point of arc*
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +50,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Volby
 
--   Základní použití nástroje Oblouk je zadání čtyř bodů   * střed, bod na obvodu, který definuje poloměr, třetí bod definující začátek oblouku a čtvrtý bod definující jeho konec.
+-   Základní použití nástroje Oblouk je zadání čtyř bodů: střed, bod na obvodu, který definuje poloměr, třetí bod definující začátek oblouku a čtvrtý bod definující jeho konec.
 -   Stisknutím **ALT** můžete vybrat tečnu místo zadávání bodu čímž definujete základní kružnici oblouku. Tím můžete zkonstruovat několik typů kružnic výběrem jedné, dvou nebo tří tečen.
 -   Směr oblouku závisí na pohybu myši. Jestli s ní po zadání třetího bodu začnete pohybovat ve směru hodinových ručiček, Váš oblouk bude vytvořen ve stejném směru. Chcete-li oblouk v opačném směru, jednoduše se myší vracejte přes třetí bod proti směru hodinových ručiček tak dlouho až se oblouk začne kreslit v opačném směru.
 -   Chcete-li zadat souřadnice ručně jednoduše zadejte číslo a potom stiskněte **ENTER** mezi každou z komponent X, Y a Z.
@@ -69,9 +69,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
@@ -81,11 +81,11 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 ## Vlastnosti
 
--    **Poloměr**   * Poloměr oblouku
+-    **Poloměr**: Poloměr oblouku
 
--    **Počáteční úhel**   * Úhel počátečního bodu oblouku
+-    **Počáteční úhel**: Úhel počátečního bodu oblouku
 
--    **Koncový úhel**   * Úhel koncového bodu oblouku
+-    **Koncový úhel**: Úhel koncového bodu oblouku
 
 
 </div>
@@ -97,14 +97,14 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 ## Skriptování
 
-Nástroj Kružnice může být použít i pro vytváření oblouků v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce, přidáním dodatečných argumentů   *
+Nástroj Kružnice může být použít i pro vytváření oblouků v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce, přidáním dodatečných argumentů:
 
 
 </div>
 
 To create a Draft Arc use the `make_circle` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeCircle` method.
 
-Example   *
+Example:
 
 
 ```python

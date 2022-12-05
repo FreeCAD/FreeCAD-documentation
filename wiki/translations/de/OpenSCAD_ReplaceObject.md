@@ -1,6 +1,6 @@
 # OpenSCAD ReplaceObject/de
 ---
-- GuiCommand   */de   Name   *OpenSCAD ReplaceObject   Name/de   *Objekt ersetzen   MenuLocation   *OpenSCAD → Objekt ersetzen   |Workbenches   *[[OpenSCAD_Workbench/de   OpenSCAD]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/de   Name:OpenSCAD ReplaceObject   Name/de:Objekt ersetzen   MenuLocation:OpenSCAD → Objekt ersetzen   |Workbenches:[[OpenSCAD_Workbench/de   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -25,7 +25,7 @@ Ersetzen eines Objektes im Strukturbaum.
 ## Benutzung
 
 1.  Wähle in der korrekten Reihenfolge altes, neues und Eltern-Objekt in der Baumansicht aus.
-2.  Klicke auf <img alt="" src=images/OpenSCAD_ReplaceObject.png  style="width   *32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_ReplaceObject.png" width=32px> Replace Object** aus dem Hauptmenü aus.
+2.  Klicke auf <img alt="" src=images/OpenSCAD_ReplaceObject.png  style="width:32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_ReplaceObject.png" width=32px> Replace Object** aus dem Hauptmenü aus.
 
 
 </div>

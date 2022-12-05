@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Snap Ortho
-   Name/it   *Ortogonale
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation   *Draft → [Snap](Draft_Snap/it.md) → Ortogonale
-   Shortcut   *
-   SeeAlso   *[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+- GuiCommand:/it
+   Name:Draft Snap Ortho
+   Name/it:Ortogonale
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation:Draft → [Snap](Draft_Snap/it.md) → Ortogonale
+   Shortcut:
+   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Ortho/it

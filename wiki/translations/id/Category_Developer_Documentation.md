@@ -1,8 +1,6 @@
 # Category:Developer Documentation/id
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/id](Category   *Documentation/id.md)
-
 ### Contents
 
 |     |     |     |

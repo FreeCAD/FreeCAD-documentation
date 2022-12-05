@@ -1,8 +1,6 @@
 # Category:Part/hr
 This category lists pages related to the [Part Workbench/hr](Part_Workbench/hr.md).
 
-[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
-
 ### Contents
 
 |     |     |     |

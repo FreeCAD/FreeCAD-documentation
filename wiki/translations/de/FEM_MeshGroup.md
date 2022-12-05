@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *FEM MeshGroup
-   MenuLocation   * Mesh → FEM mesh group
-   Workbenches   *[FEM](FEM_Workbench.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM MeshGroup
+   MenuLocation: Mesh → FEM mesh group
+   Workbenches:[FEM](FEM_Workbench.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MeshGroup/de
@@ -17,9 +17,9 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 
 ## Anwendung
 
-1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)
+1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)
 2.  Then select the Mesh object in the [Tree view](Tree_view.md) and either
-    -   Press the <img alt="" src=images/FEM_MeshGroup.svg  style="width   *24px;"> button in the FEM toolbar
+    -   Press the <img alt="" src=images/FEM_MeshGroup.svg  style="width:24px;"> button in the FEM toolbar
     -   Select the **Mesh → <img src="images/FEM_MeshGroup.svg" width=24px> FEM mesh group** option from the drop-down menu.
 3.  Select whether the group is named or labeled
     -   If **Name** is selected, the name of the MeshGroup is used when exporting the mesh.
@@ -27,7 +27,7 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 4.  Click the **OK** button.
 5.  Close the task.
 
-       *   Result   * You now should see a new `FEMMeshGroup` object under the `FEMMeshGMSH` object in your active analysis container.
+    :   Result: You now should see a new `FEMMeshGroup` object under the `FEMMeshGMSH` object in your active analysis container.
 6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation / relabeling.
 7.  Close the task.
 

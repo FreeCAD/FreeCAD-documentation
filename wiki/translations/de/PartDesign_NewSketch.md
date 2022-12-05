@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *PartDesign NewSketch
-   Name/de   *PartDesign NeueSkizze
-   MenuLocation   *Part Design → Skizze erstellen
-   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
-   Version   *0.17
-   SeeAlso   *[Skizzierer NeueSkizze](Sketcher_NewSketch/de.md)
+- GuiCommand:/de
+   Name:PartDesign NewSketch
+   Name/de:PartDesign NeueSkizze
+   MenuLocation:Part Design → Skizze erstellen
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[Skizzierer NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # PartDesign NewSketch/de
@@ -17,11 +17,11 @@
 
 Dieses Werkzeug erzeugt eine neue Skizze und erzeugt - falls es keinen gibt - einen neuen [PartDesign Körper](PartDesign_Body/de.md), der die Skizze enthält. Anschließend wird die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) automatisch geöffnet.
 
-Wenn Modelle unter Verwendung des [PartDesign Arbeitsbereichs](PartDesign_Workbench/de.md) erzeugt werden sollte dieses Werkzeug gegenüber dem entsprechenden **[<img src=images/Sketcher_NewSketch.svg style="width   *16px">[Sketcher Neue Skizze](Sketcher_NewSketch/de.md)** Werkzeug aus dem [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) bevorzugt werden.
+Wenn Modelle unter Verwendung des [PartDesign Arbeitsbereichs](PartDesign_Workbench/de.md) erzeugt werden sollte dieses Werkzeug gegenüber dem entsprechenden **[<img src=images/Sketcher_NewSketch.svg style="width:16px">[Sketcher Neue Skizze](Sketcher_NewSketch/de.md)** Werkzeug aus dem [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) bevorzugt werden.
 
 ## Anwendung
 
-1.  Die **[<img src=images/PartDesign_NewSketch.svg style="width   *24px">** Schaltfläche in der PartDesign Werkzeugleiste klicken.
+1.  Die **[<img src=images/PartDesign_NewSketch.svg style="width:24px">** Schaltfläche in der PartDesign Werkzeugleiste klicken.
 
 2.  Im Aufgabenreiter wird der **Element auswählen**-Diaglog angezeigt. Hier kann eine der Ebenen oder die 3D-Ansicht, die für eine besser Sichtbarkeit anders ausgerichtet werden kann, gewählt werden.
 
@@ -38,28 +38,28 @@ Wenn Modelle unter Verwendung des [PartDesign Arbeitsbereichs](PartDesign_Workbe
 
 -   The *Select feature* Dialog defines the features of the new sketch
 
-   *   
+:   
 
-       *   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width   *300px;">
-       *   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
+    :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
+    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body\'\'
 
 Dialog-Einstellungen
 
--   Koordinatensystemkasten   * definiert die Ausrichtung der Skizzierebene
--   Kontrollkästchen *Verwendete Funktionen Zulassen*   * *ZuTun*
+-   Koordinatensystemkasten: definiert die Ausrichtung der Skizzierebene
+-   Kontrollkästchen *Verwendete Funktionen Zulassen*: *ZuTun*
 
-   *   Optionen für externe Funktionen zulassen
+:   Optionen für externe Funktionen zulassen
 
--   Von anderen Körpern desselben Teils   * alle im selben Körper verwendeten Elemente können referenziert werden
--   Von anderen Teilen oder freien Features   * *TBD*
--   Unabhängige Kopie erstellen   * alle anderen Elemente werden separate Kopien sein, d.h. sie werden sich nicht ändern, wenn sich das Original ändert.
--   Abhängige Kopie erstellen   * die Elemente werden Kopien sein, aber eine Abhängigkeit zu den Originalelementen wird beibehalten. Dies ist im Grunde die Verwendung eines [Formbinder](PartDesign_ShapeBinder/de.md)
--   Querverweis erstellen   * Die verknüpften Elemente sind keine Kopien, sondern verweisen auf die Originalelemente, z. B. eine Masterskizze. Alle Änderungen werden auf diese Skizze übertragen
+-   Von anderen Körpern desselben Teils: alle im selben Körper verwendeten Elemente können referenziert werden
+-   Von anderen Teilen oder freien Features: *TBD*
+-   Unabhängige Kopie erstellen: alle anderen Elemente werden separate Kopien sein, d.h. sie werden sich nicht ändern, wenn sich das Original ändert.
+-   Abhängige Kopie erstellen: die Elemente werden Kopien sein, aber eine Abhängigkeit zu den Originalelementen wird beibehalten. Dies ist im Grunde die Verwendung eines [Formbinder](PartDesign_ShapeBinder/de.md)
+-   Querverweis erstellen: Die verknüpften Elemente sind keine Kopien, sondern verweisen auf die Originalelemente, z. B. eine Masterskizze. Alle Änderungen werden auf diese Skizze übertragen
 
 
 <div class="mw-translate-fuzzy">
 
-Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) zu referenzieren, verwende die beiden Funktionen <img alt="" src=images/Sketcher_External.svg  style="width   *32px;"> [Externe Geometrie](Sketcher_External/de.md) und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width   *32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
+Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) zu referenzieren, verwende die beiden Funktionen <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md) und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
 
 
 </div>
@@ -69,9 +69,9 @@ Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) z
 
 <div class="mw-translate-fuzzy">
 
--    **Abbildungsmodus**   * der Skizze an einem anderen Objekt, normalerweise einer Ebene oder Fläche. Es können aber auch andere Objekttypen sein. Einmal in das Feld klicken, um eine Schaltfläche **...** anzuzeigen und dann diesen anklicken. Es öffnet sich der [Anhängendialog](Part_EditAttachment/de.md). Wenn der Modus *deaktiviert* ist, dann ist die Positions-Eigenschaft zur Bearbeitung freigegeben.
+-    **Abbildungsmodus**: der Skizze an einem anderen Objekt, normalerweise einer Ebene oder Fläche. Es können aber auch andere Objekttypen sein. Einmal in das Feld klicken, um eine Schaltfläche **...** anzuzeigen und dann diesen anklicken. Es öffnet sich der [Anhängendialog](Part_EditAttachment/de.md). Wenn der Modus *deaktiviert* ist, dann ist die Positions-Eigenschaft zur Bearbeitung freigegeben.
 
--    **Positonierung**   * steuert die Ausrichtung der Skizze im 3D-Raum; siehe [Positionierung](Std_EditPlacement/de.md). Dies ist gesperrt, wenn die Skizze über die Abbildungs-Eigenschaft angehängt ist.
+-    **Positonierung**: steuert die Ausrichtung der Skizze im 3D-Raum; siehe [Positionierung](Std_EditPlacement/de.md). Dies ist gesperrt, wenn die Skizze über die Abbildungs-Eigenschaft angehängt ist.
 
 
 </div>

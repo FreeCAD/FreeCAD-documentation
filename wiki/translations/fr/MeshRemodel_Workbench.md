@@ -1,4 +1,4 @@
-# <img alt="Icône de l\'atelier externe MeshRemodel" src=images/MeshRemodel_workbench_icon.svg  style="width   *64px;"> MeshRemodel Workbench/fr
+# <img alt="Icône de l\'atelier externe MeshRemodel" src=images/MeshRemodel_workbench_icon.svg  style="width:64px;"> MeshRemodel Workbench/fr
 
 
 {{TOCright}}
@@ -9,17 +9,12 @@ MeshRemodel est un [Atelier externe](External_workbenches/fr.md) avec lequel on 
 
 ## Installation
 
-Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 
 ## Liens
 
--   Code source hébergé sur GitHub    * [github.com](https   *//github.com/mwganson/MeshRemodel)
--   [Documentation officielle complète](https   *//github.com/mwganson/MeshRemodel/blob/master/README.md)
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+-   Code source hébergé sur GitHub : [github.com](https://github.com/mwganson/MeshRemodel)
+-   [Documentation officielle complète](https://github.com/mwganson/MeshRemodel/blob/master/README.md)
 
 
 

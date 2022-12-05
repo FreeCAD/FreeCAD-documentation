@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Placement
-   Name/pl   *Std   * Umiejscowienie
-   MenuLocation   *Edycja → Umiejscowienie ...
-   Workbenches   *wszystkie
-   SeeAlso   *[Wyrównanie](Std_Alignment/pl.md), [Umiejscowienie](Placement/pl.md)
+- GuiCommand:/pl
+   Name:Std Placement
+   Name/pl:Std: Umiejscowienie
+   MenuLocation:Edycja → Umiejscowienie ...
+   Workbenches:wszystkie
+   SeeAlso:[Wyrównanie](Std_Alignment/pl.md), [Umiejscowienie](Placement/pl.md)
 ---
 
 # Std Placement/pl
 
 ## Opis
 
-Polecenie **Std   * Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Umiejscowienia dla wybranego obiektu.
+Polecenie **Std: Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Umiejscowienia dla wybranego obiektu.
 
 ![](images/Std_Placement_taskpanel.png ) 
 *Panel zadań funkcji umiejscowienie*
@@ -21,7 +21,7 @@ Polecenie **Std   * Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md)
 1.  Zaznacz pojedynczy obiekt, który ma właściwość **Umiejscowienie** w [edytorze właściwości](Property_editor/pl.md).
 2.  Wybierz z menu opcję **Edycja → Umiejscowienie ...**.
 3.  Zmień jeden lub więcej parametrów przesunięcia i obrotu.
-4.  Wykonaj jedną z następujących czynności   *
+4.  Wykonaj jedną z następujących czynności:
     -   Naciśnij przycisk **OK**, aby zastosować zmiany i zamknąć panel zadań.
     -   Naciśnij przycisk **Zastosuj**, aby zastosować zmiany, ale zachować panel zadań otwarty dla dalszych zmian.
 5.  Naciśnij klawisz **Esc** lub przycisk **Anuluj**, aby przerwać operację. Spowoduje to cofnięcie wszystkich zmian, które nie zostały zastosowane.
@@ -35,20 +35,20 @@ Okno dialogowe można również uruchomić, klikając przycisk z wielokropkiem *
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
 Zobacz również stronę [Tworzenie skryptów Python](Python_scripting_tutorial/pl#Wektory_i_umiejscowienia.md).
 
-Umiejscowienie jest wewnętrznie zdefiniowane przez macierz. W wielu przypadkach prościej jest przedstawić je za pomocą dwóch składników, punktu *(wektora)* `Baza` i wartości `Obrót`. Sam `Obrót` ma różne reprezentacje. Może być całkowicie zdefiniowany przez wartość \"[quaternion](https   *//en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, ale może być również opisana przez rotację `Oś` *(wektor jednostkowy)* oraz rotację `Kąt` *(radiany)*.
+Umiejscowienie jest wewnętrznie zdefiniowane przez macierz. W wielu przypadkach prościej jest przedstawić je za pomocą dwóch składników, punktu *(wektora)* `Baza` i wartości `Obrót`. Sam `Obrót` ma różne reprezentacje. Może być całkowicie zdefiniowany przez wartość \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, ale może być również opisana przez rotację `Oś` *(wektor jednostkowy)* oraz rotację `Kąt` *(radiany)*.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part   *   *Cylinder", "Cylinder")
+obj = doc.addObject("Part::Cylinder", "Cylinder")
 
 print(obj.Placement)
 # Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]

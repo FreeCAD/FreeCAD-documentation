@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Path Area Workplane
-   MenuLocation   *Path → Area workplane
-   Workbenches   *[Path](Path_Workbench.md)
+- GuiCommand:
+   Name:Path Area Workplane
+   MenuLocation:Path → Area workplane
+   Workbenches:[Path](Path_Workbench.md)
 ---
 
 # Path Area Workplane/pt-br
@@ -32,11 +32,11 @@ Empty
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

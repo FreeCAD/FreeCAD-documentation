@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std PrintPreview
-   Name/de   *Std Druckvorschau
-   MenuLocation   *Datei → Druckvorschau
-   Workbenches   *Alle
-   Shortcut   *Strg+P
-   SeeAlso   *[Drucken](Std_Print/de.md)
+- GuiCommand:/de
+   Name:Std PrintPreview
+   Name/de:Std Druckvorschau
+   MenuLocation:Datei → Druckvorschau
+   Workbenches:Alle
+   Shortcut:Strg+P
+   SeeAlso:[Drucken](Std_Print/de.md)
 ---
 
 # Std PrintPreview/de

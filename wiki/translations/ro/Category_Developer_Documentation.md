@@ -1,8 +1,6 @@
 # Category:Developer Documentation/ro
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/ro](Category   *Documentation/ro.md)
-
 ### Contents
 
 |     |     |     |

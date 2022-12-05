@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Ellipse
-   Name/tr   *Elips
-   MenuLocation   *Taslak → Elips
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut   ***E** **L**
-   SeeAlso   *[Çember](Draft_Circle/tr.md), [Yay](Draft_Arc/tr.md)
-   Version   *0.7
+- GuiCommand:/tr
+   Name:Draft Ellipse
+   Name/tr:Elips
+   MenuLocation:Taslak → Elips
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**E** **L**
+   SeeAlso:[Çember](Draft_Circle/tr.md), [Yay](Draft_Arc/tr.md)
+   Version:0.7
 ---
 
 # Draft Ellipse/tr
@@ -32,7 +32,7 @@ Bu araç, başlangıç ve bitiş açılarını belirleyerek eliptik yaylar oluş
 
 </div>
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +45,7 @@ Bu araç, başlangıç ve bitiş açılarını belirleyerek eliptik yaylar oluş
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -86,17 +86,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Özellikler
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -108,19 +108,19 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Veri
 
--    {{PropertyData/tr|First Angle}}   * elipsin ilk noktasının açısını belirtir; normalde 0°.
+-    {{PropertyData/tr|First Angle}}: elipsin ilk noktasının açısını belirtir; normalde 0°.
 
--    {{PropertyData/tr|Last Angle}}   * elipsin son noktasının açısını belirtir; normalde 0°.
+-    {{PropertyData/tr|Last Angle}}: elipsin son noktasının açısını belirtir; normalde 0°.
 
--    {{PropertyData/tr|Major Radius}}   * elipsin ana yarıçapını belirtir.
+-    {{PropertyData/tr|Major Radius}}: elipsin ana yarıçapını belirtir.
 
--    {{PropertyData/tr|Minor Radius}}   * elipsin küçük yarıçapını belirtir.
+-    {{PropertyData/tr|Minor Radius}}: elipsin küçük yarıçapını belirtir.
 
-   *   Her iki yarıçap da aynı değere sahipse, elips bir [Taslak Çember](Draft_Circle/tr.md) ile aynı görünür.
+:   Her iki yarıçap da aynı değere sahipse, elips bir [Taslak Çember](Draft_Circle/tr.md) ile aynı görünür.
 
--    {{PropertyData/tr|Make Face}}   * Elipsin bir yüz yapıp yapmayacağını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir. Bu özellik, yalnızca şekil tam bir elips ise çalışır.
+-    {{PropertyData/tr|Make Face}}: Elipsin bir yüz yapıp yapmayacağını belirtir. Eğer `True` ise bir yüz yaratılır, aksi takdirde sadece çevre nesnenin bir parçası olarak kabul edilir. Bu özellik, yalnızca şekil tam bir elips ise çalışır.
 
-   *   Tam bir elips olması için {{PropertyData/tr|First Angle}} ve {{PropertyData/tr|Last Angle}} aynı değere sahip olmalıdır; Aksi takdirde, eliptik bir yay görüntülenir. 0° ve 360° değerleri aynı olarak kabul edilir.
+:   Tam bir elips olması için {{PropertyData/tr|First Angle}} ve {{PropertyData/tr|Last Angle}} aynı değere sahip olmalıdır; Aksi takdirde, eliptik bir yay görüntülenir. 0° ve 360° değerleri aynı olarak kabul edilir.
 
 
 </div>
@@ -135,9 +135,9 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Görünüm
 
--    {{PropertyView/tr|Desen}}   * şeklin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Yüz yapmak}} `True` ise ve {{PropertyView/tr|Ekran modu}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Desen}}: şeklin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Yüz yapmak}} `True` ise ve {{PropertyView/tr|Ekran modu}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Desen boyutu}}   * [Desen](Draft_Pattern/tr.md) \'inin boyutunu belirtir.
+-    {{PropertyView/tr|Desen boyutu}}: [Desen](Draft_Pattern/tr.md) \'inin boyutunu belirtir.
 
 
 </div>
@@ -150,7 +150,7 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 ## Betik
 
 
-**Ayrıca bkz.   ***
+**Ayrıca bkz.:**
 
 [Taslak API](Draft_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -160,7 +160,7 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 <div class="mw-translate-fuzzy">
 
-Elips aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
+Elips aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
 
 
 </div>
@@ -181,7 +181,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 
 </div>
 
-Örnek   *
+Örnek:
 
 
 ```python

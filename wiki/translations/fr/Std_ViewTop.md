@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ViewTop
-   Name/fr   *Std Vue de dessus
-   MenuLocation   *Affichage → Vues standards → Dessus
-   Workbenches   *Tous
-   Shortcut   ***2**
-   SeeAlso   *[Std Vue de face](Std_ViewFront/fr.md), [Std Vue droite](Std_ViewRight/fr.md)
+- GuiCommand:/fr
+   Name:Std ViewTop
+   Name/fr:Std Vue de dessus
+   MenuLocation:Affichage → Vues standards → Dessus
+   Workbenches:Tous
+   Shortcut:**2**
+   SeeAlso:[Std Vue de face](Std_ViewFront/fr.md), [Std Vue droite](Std_ViewRight/fr.md)
 ---
 
 # Std ViewTop/fr
@@ -19,16 +19,16 @@ La **Std Vue de dessus** place la caméra dans la [vue 3D](3D_view/fr.md) dans l
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewTop.svg" width=16px> [Dessus](Std_ViewTop/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewTop.svg" width=16px> Dessus** dans le menu.
     -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewTop.svg" width=16px> Dessus** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier   * **2**.
+    -   Utilisez le raccourci clavier: **2**.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

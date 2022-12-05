@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch AxisSystem
-   Name/fr   *Arch Système d'axes
-   MenuLocation   *Arch → Outils pour les axes → Système d'axes
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
+- GuiCommand:/fr
+   Name:Arch AxisSystem
+   Name/fr:Arch Système d'axes
+   MenuLocation:Arch → Outils pour les axes → Système d'axes
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
 # Arch AxisSystem/fr
@@ -15,7 +15,7 @@ L\'outil [Système d\'axes](Arch_AxisSystem/fr.md) vous permet de combiner 2 ou 
 
 Ceci est utile pour définir les points d\'intersection entre les différents axes. Les objets Arch peuvent ensuite utiliser ce système pour dupliquer leur forme sur les différents points d\'intersection.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
 *Trois objets [Arch Axes](Arch_Axis/fr.md) combinés en un [Système d'axes](Arch_AxisSystem/fr.md). Un objet [Arch Structure](Arch_Structure/fr.md) utilise ce système comme propriété **Axis* pour que sa forme soit dupliquée à chaque point d'intersection.**
 
 ## Utilisation
@@ -34,18 +34,18 @@ Ceci est utile pour définir les points d\'intersection entre les différents ax
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Système d\'Axes peut être utilisé dans une [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   * 
+L\'outil Système d\'Axes peut être utilisé dans une [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante: 
 ```python
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 ```
 
 -   Crée un objet `AxisSystem` à partir de l\'objet `axes` qui est un seul [Arch Axe](Arch_Axis/fr.md) ou une liste d\'entre eux.
 
-Exemple   * 
+Exemple: 
 ```python
 import Draft, Arch
 

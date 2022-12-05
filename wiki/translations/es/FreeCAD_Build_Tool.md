@@ -18,15 +18,15 @@ Se puede utilizar para simplificar algunas tareas frecuentes de construcción, d
 
 ## Utilización
 
-Con [Python](wikipedia   *Python_(programming_language).md) correctamente instalado, *fcbt* se puede invocar por el comando 
+Con [Python](wikipedia:Python_(programming_language).md) correctamente instalado, *fcbt* se puede invocar por el comando 
 ```python
 python fbct.py
-``` Muestra un menú, donde puedes seleccionar la tarea para el que lo quieres utilizar   * 
+``` Muestra un menú, donde puedes seleccionar la tarea para el que lo quieres utilizar: 
 ```python
 FreeCAD Build Tool
- Usage   *
+ Usage:
     fcbt <command name> [command parameter]
- possible commands are   *
+ possible commands are:
   - DistSrc         (DS)   Build a source Distr. of the current source tree
   - DistBin         (DB)   Build a binary Distr. of the current source tree
   - DistSetup       (DI)   Build a Setup Distr. of the current source tree
@@ -35,7 +35,7 @@ FreeCAD Build Tool
   - NextBuildNumber (NBN)  Increase the Build Number of this Version
   - CreateModule    (CM)   Insert a new FreeCAD Module (Workbench) in the module directory
  
- For help on the modules type   *
+ For help on the modules type:
    fcbt <command name> ?
 ```
 
@@ -89,11 +89,6 @@ El comando \"CM\" [crea un nuevo módulo de aplicación](Module_Creation/es.md).
 
 
 </div>
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

@@ -75,7 +75,7 @@ Additional strategies
 
 Some parts require multiple setups to complete. Each setup is represented by a separate job but no structure links them together other than the top-level document. This is insufficient because the document may contain multiple parts that have completely independent manufacturing steps/jobs/setups.
 
-Commercial CNC users usually produce a document called a [\'setup sheet\'](https   *//www.cnccookbook.com/art-setup-sheet/) which describes to the CNC operator how to set up the machine in order to manufacture the part. This \'setup sheet\' is not at all related to the Path setupsheet concept. It is a human-readable document meant to communicate assumptions and notes required to correctly execute the gcode. The setup sheet usually contains the following information   *
+Commercial CNC users usually produce a document called a [\'setup sheet\'](https://www.cnccookbook.com/art-setup-sheet/) which describes to the CNC operator how to set up the machine in order to manufacture the part. This \'setup sheet\' is not at all related to the Path setupsheet concept. It is a human-readable document meant to communicate assumptions and notes required to correctly execute the gcode. The setup sheet usually contains the following information:
 
 -   tools required
 -   lowest z level
@@ -91,11 +91,11 @@ Commercial CNC users usually produce a document called a [\'setup sheet\'](https
 
 ## Low Level Libraries 
 
-Path makes use of several libraries to generate toolpaths based on part geometry. These include libarea/patharea/clipper, [Open CASCADE Technology](https   *//dev.opencascade.org/doc/overview/html/), and [OpenCamLib](https   *//github.com/aewallin/opencamlib). Other libraries are available and more will likely be written in the future. We should include these whenever possible and when a native (OCCT) solution is unavailable.
+Path makes use of several libraries to generate toolpaths based on part geometry. These include libarea/patharea/clipper, [Open CASCADE Technology](https://dev.opencascade.org/doc/overview/html/), and [OpenCamLib](https://github.com/aewallin/opencamlib). Other libraries are available and more will likely be written in the future. We should include these whenever possible and when a native (OCCT) solution is unavailable.
 
-[Openvoronoi](https   *//github.com/aewallin/openvoronoi) is one library that is available and license compatible. At present, it does not build for python3 and isn\'t packaged for distribution with FreeCAD. Making openvoronoi available would allow v-carving operation and possibly some other interesting toolpaths.
+[Openvoronoi](https://github.com/aewallin/openvoronoi) is one library that is available and license compatible. At present, it does not build for python3 and isn\'t packaged for distribution with FreeCAD. Making openvoronoi available would allow v-carving operation and possibly some other interesting toolpaths.
 
-[Deepnest](https   *//github.com/Jack000/Deepnest) or an equivalent nesting/bin packing library would allow us to efficiently arrange parts in a cut-sheet to minimize stock usage.
+[Deepnest](https://github.com/Jack000/Deepnest) or an equivalent nesting/bin packing library would allow us to efficiently arrange parts in a cut-sheet to minimize stock usage.
 
 ## Path Modifications 
 
@@ -123,7 +123,7 @@ Many old machines have an extremely limited capacity for gcode. While physically
 
 -   Tip up Prediction / avoidance
 
-When 2D cutting (laser/waterjet/plasma) of material supported on a grating, small parts cut out of the main stock can \'tip up\' creating a crash hazard for the cutting tool during subsequent moves. Being able to predict these events or avoid them by ordering paths would be desirable. ([Further reading](https   *//shopfloorlasers.com/nesting-software/263-heads-up))
+When 2D cutting (laser/waterjet/plasma) of material supported on a grating, small parts cut out of the main stock can \'tip up\' creating a crash hazard for the cutting tool during subsequent moves. Being able to predict these events or avoid them by ordering paths would be desirable. ([Further reading](https://shopfloorlasers.com/nesting-software/263-heads-up))
 
 -   Visualization of remaining material after each operation could be improved
 
@@ -142,9 +142,7 @@ The following list is not individual bugs but shows how Path is inconsistent in 
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Roadmap](Category_Roadmap.md)
+}}
 
 
 

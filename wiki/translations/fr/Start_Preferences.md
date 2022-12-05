@@ -1,7 +1,7 @@
 # Start Preferences/fr
-Les préférences pour l\'<img alt="" src=images/Workbench_Start.svg  style="width   *24px;"> [atelier Start](Start_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Edition → Préférences...** puis **Start**. Cette section n\'est disponible qu\'après avoir visité l\'atelier ou après avoir chargé l\'atelier via l\'onglet *Ateliers disponibles* de la section **Ateliers**.
+Les préférences pour l\'<img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [atelier Start](Start_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Edition → Préférences...** puis **Start**. Cette section n\'est disponible qu\'après avoir visité l\'atelier ou après avoir chargé l\'atelier via l\'onglet *Ateliers disponibles* de la section **Ateliers**.
 
-Il n\'y a qu\'un seul onglet    * *Options de la page de démarrage* dans la section **Start**. Dans cet onglet, vous pouvez spécifier les éléments suivants    *
+Il n\'y a qu\'un seul onglet : *Options de la page de démarrage* dans la section **Start**. Dans cet onglet, vous pouvez spécifier les éléments suivants :
 
 +++
 | Nom                                                                 | Description                                                                                                                                                                                                                                                                        |
@@ -93,9 +93,7 @@ Il n\'y a qu\'un seul onglet    * *Options de la page de démarrage* dans la sec
 
 {{Start Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

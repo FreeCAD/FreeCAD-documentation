@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Surface Filling
-   Name/fr   *Surface Remplissage
-   MenuLocation   *Surface → Filling...
-   Workbenches   *[Surface](Surface_Workbench/fr.md)
-   Version   *0.17
+- GuiCommand:/fr
+   Name:Surface Filling
+   Name/fr:Surface Remplissage
+   MenuLocation:Surface → Filling...
+   Workbenches:[Surface](Surface_Workbench/fr.md)
+   Version:0.17
 ---
 
 # Surface Filling/fr
@@ -12,20 +12,20 @@
 ## Description
 
 
-**[<img src=images/Surface_Filling.svg style="width   *16px"> [Surface Remplissage](Surface_Filling/fr.md)**
+**[<img src=images/Surface_Filling.svg style="width:16px"> [Surface Remplissage](Surface_Filling/fr.md)**
 
 crée une surface à partir d\'une série d\'arêtes de délimitation connectées. La courbure de la surface peut être contrôlée en outre par des bords et des sommets non délimités, ainsi que par une surface de support.
 
 La géométrie de base peut appartenir à des courbes créées avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi à des objets solides tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md) ou l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
-<img alt="" src=images/Surface_Filling_example.png  style="width   *600px;"> 
+<img alt="" src=images/Surface_Filling_example.png  style="width:600px;"> 
 *Deux surfaces remplies délimitées par quatre arêtes situées sur le plan XY. La surface de droite est en plus contrôlée par une arête non délimitée.*
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **[<img src=images/Surface_Filling.svg style="width   *16px"> [Remplissage](Surface_Filling/fr.md)**.
+1.  Appuyez sur le bouton **[<img src=images/Surface_Filling.svg style="width:16px"> [Remplissage](Surface_Filling/fr.md)**.
 2.  Le panneau de tâches **Boundaries** s\'ouvre. Voir [Options](#Options.md).
-3.  Sélectionnez deux ou plusieurs bords dans la [Vue 3D](3D_view/fr.md)    *
+3.  Sélectionnez deux ou plusieurs bords dans la [Vue 3D](3D_view/fr.md) :
     -   Il n\'est pas nécessaire d\'appuyer sur le bouton **Ajouter une arête** dans la section **Limites** à ce moment-là.
     -   Les arêtes doivent être sélectionnées dans un ordre consécutif.
     -   Les arêtes doivent être connectées, mais la frontière complète ne doit pas nécessairement être fermée.
@@ -39,19 +39,19 @@ La géométrie de base peut appartenir à des courbes créées avec l\'[atelier 
 
 ## Options
 
--   Dans la section **Limites**, vous pouvez spécifier une surface de support et les bords des limites    *
+-   Dans la section **Limites**, vous pouvez spécifier une surface de support et les bords des limites :
     -   Appuyez sur le bouton **Surface de support** et sélectionnez une face dans la [Vue 3D](3D_view/fr.md) pour ajouter une surface de support.
-        -   Cliquez sur l\'icône <img alt="" src=images/Edit-cleartext.svg  style="width   *16px;"> pour supprimer la surface de support.
+        -   Cliquez sur l\'icône <img alt="" src=images/Edit-cleartext.svg  style="width:16px;"> pour supprimer la surface de support.
     -   Appuyez une fois sur le bouton **Ajouter une arête** pour commencer à sélectionner les arêtes de délimitation dans la [Vue 3D](3D_view/fr.md).
-    -   Il existe plusieurs façons de désélectionner les arêtes de délimitation    *
+    -   Il existe plusieurs façons de désélectionner les arêtes de délimitation :
         -   Appuyez une fois sur le bouton **Supprimer l'arête** pour commencer à désélectionner les arêtes dans la [Vue 3D](3D_view/fr.md).
         -   Sélectionnez un bord dans la liste et appuyez sur **Supprimer**.
         -   Cliquez avec le bouton droit de la souris sur un bord de la liste et sélectionnez **Remove** dans le menu contextuel.
 
--   Dans la section **Contraintes d'arêtes**, il est possible de spécifier des arêtes non limites    *
+-   Dans la section **Contraintes d'arêtes**, il est possible de spécifier des arêtes non limites :
     -   Les options de sélection sont similaires à celles des arêtes limites.
 
--   Dans la section **Contraintes de sommets**, il est possible de spécifier des sommets non-bornés    *
+-   Dans la section **Contraintes de sommets**, il est possible de spécifier des sommets non-bornés :
     -   Les options de sélection sont similaires à celles des arêtes limites.
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler l\'opération.
@@ -61,10 +61,10 @@ La géométrie de base peut appartenir à des courbes créées avec l\'[atelier 
 
 **Support surface**
 
-agit comme une contrainte supplémentaire pour la surface. L\'exemple simple suivant vous donnera une idée de la façon dont cela fonctionne    *
+agit comme une contrainte supplémentaire pour la surface. L\'exemple simple suivant vous donnera une idée de la façon dont cela fonctionne :
 
-1.  Dans l\'<img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [atelier Part](Part_Workbench/fr.md), créez un <img alt="" src=images/Part_Cylinder.svg  style="width   *16px;">[cylindre](Part_Cylinder/fr.md) et définissez **Angle** à {{Value|180°}}.
-2.  Passez à l\'<img alt="" src=images/Workbench_Surface.svg  style="width   *16px;"> [atelier Surface](Surface_Workbench/fr.md) et appuyez sur **[<img src=images/Surface_Filling.svg style="width   *16px"> [Remplissage](Surface_Filling/fr.md)**.
+1.  Dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [atelier Part](Part_Workbench/fr.md), créez un <img alt="" src=images/Part_Cylinder.svg  style="width:16px;">[cylindre](Part_Cylinder/fr.md) et définissez **Angle** à {{Value|180°}}.
+2.  Passez à l\'<img alt="" src=images/Workbench_Surface.svg  style="width:16px;"> [atelier Surface](Surface_Workbench/fr.md) et appuyez sur **[<img src=images/Surface_Filling.svg style="width:16px"> [Remplissage](Surface_Filling/fr.md)**.
 3.  Sélectionnez les deux bords semi-circulaires et les deux bords droits qui les relient.
 4.  Le résultat correspond aux quatre arêtes limites, mais la forme intérieure est très différente de la face cylindrique.
 5.  Editez l\'objet Surface et pour la **Support surface** sélectionnez la face cylindrique.
@@ -72,7 +72,7 @@ agit comme une contrainte supplémentaire pour la surface. L\'exemple simple sui
 
 ## Propriétés
 
-[Surface Remplissage](Surface_Filling/fr.md) (classe `Surface   *   *Filling`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part   *   *Feature` via la sous-classe `Part   *   *Spline`), elle partage donc toutes les propriétés de cette dernière.
+[Surface Remplissage](Surface_Filling/fr.md) (classe `Surface::Filling`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
@@ -81,61 +81,61 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 {{TitleProperty|Filling}}
 
--    {{PropertyData/fr|Boundary Edges|LinkSubList}}   * bords de frontière; C0 est requis pour les arêtes sans face correspondante.
+-    {{PropertyData/fr|Boundary Edges|LinkSubList}}: bords de frontière; C0 est requis pour les arêtes sans face correspondante.
 
--    {{PropertyData/fr|Boundary Faces|StringList}}   *
+-    {{PropertyData/fr|Boundary Faces|StringList}}:
 
--    {{PropertyData/fr|Boundary Order|IntegerList}}   * ordre de contrainte sur les faces limites; {{Value|0}}, {{Value|1}} et {{Value|2}} sont possibles.
+-    {{PropertyData/fr|Boundary Order|IntegerList}}: ordre de contrainte sur les faces limites; {{Value|0}}, {{Value|1}} et {{Value|2}} sont possibles.
 
--    {{PropertyData/fr|Bords non liés|LinkSubList}}   * bords de contrainte non liés; C0 est requis pour les arêtes sans face correspondante.
+-    {{PropertyData/fr|Bords non liés|LinkSubList}}: bords de contrainte non liés; C0 est requis pour les arêtes sans face correspondante.
 
--    {{PropertyData/fr|Unbound Faces|StringList}}   *
+-    {{PropertyData/fr|Unbound Faces|StringList}}:
 
--    {{PropertyData/fr|Unbound Order|IntegerList}}   * ordre de contrainte sur les faces non liées; {{Value|0}}, {{Value|1}} et {{Value|2}} sont possibles.
+-    {{PropertyData/fr|Unbound Order|IntegerList}}: ordre de contrainte sur les faces non liées; {{Value|0}}, {{Value|1}} et {{Value|2}} sont possibles.
 
--    {{PropertyData/fr|Free Faces|LinkSubList}}   * contrainte libre sur une face.
+-    {{PropertyData/fr|Free Faces|LinkSubList}}: contrainte libre sur une face.
 
--    {{PropertyData/fr|Free Order|IntegerList}}   * ordre de contrainte sur les faces libres.
+-    {{PropertyData/fr|Free Order|IntegerList}}: ordre de contrainte sur les faces libres.
 
--    {{PropertyData/fr|Points|LinkSubList}}   * points de contrainte sur la surface.
+-    {{PropertyData/fr|Points|LinkSubList}}: points de contrainte sur la surface.
 
--    {{PropertyData/fr|Initial Face|LinkSub}}   * surface initiale à utiliser.
+-    {{PropertyData/fr|Initial Face|LinkSub}}: surface initiale à utiliser.
 
--    {{PropertyData/fr|Degree|Integer}}   * degré de départ, la valeur par défaut est {{Value|3}}.
+-    {{PropertyData/fr|Degree|Integer}}: degré de départ, la valeur par défaut est {{Value|3}}.
 
--    {{PropertyData/fr|Points On Curve|Integer}}   * nombre de points sur une arête pour la contrainte.
+-    {{PropertyData/fr|Points On Curve|Integer}}: nombre de points sur une arête pour la contrainte.
 
--    {{PropertyData/fr|Iterations|Integer}}   * nombre d\'itérations, la valeur par défaut est {{Value|2}}.
+-    {{PropertyData/fr|Iterations|Integer}}: nombre d\'itérations, la valeur par défaut est {{Value|2}}.
 
--    {{PropertyData/fr|Anisotropy|Bool}}   * il vaut par défaut `False`.
+-    {{PropertyData/fr|Anisotropy|Bool}}: il vaut par défaut `False`.
 
--    {{PropertyData/fr|Tolerance2d|Float}}   * tolérance 2D, la valeur par défaut est {{Value|0.0}}.
+-    {{PropertyData/fr|Tolerance2d|Float}}: tolérance 2D, la valeur par défaut est {{Value|0.0}}.
 
--    {{PropertyData/fr|Tolerance3d|Float}}   * tolérance 3D, la valeur par défaut est {{Value|0.0}}.
+-    {{PropertyData/fr|Tolerance3d|Float}}: tolérance 3D, la valeur par défaut est {{Value|0.0}}.
 
--    {{PropertyData/fr|Tol Angular|Float}}   * tolérance G1, la valeur par défaut est {{Value|0.01}}.
+-    {{PropertyData/fr|Tol Angular|Float}}: tolérance G1, la valeur par défaut est {{Value|0.01}}.
 
--    {{PropertyData/fr|Tol Curvature|Float}}   * tolérance G2, la valeur par défaut est {{Value|0.10}}.
+-    {{PropertyData/fr|Tol Curvature|Float}}: tolérance G2, la valeur par défaut est {{Value|0.10}}.
 
--    {{PropertyData/fr|Maximum Degree|Integer}}   * degré maximum de la courbe, la valeur par défaut est {{Value|8}}.
+-    {{PropertyData/fr|Maximum Degree|Integer}}: degré maximum de la courbe, la valeur par défaut est {{Value|8}}.
 
--    {{PropertyData/fr|Maximum Segments|Integer}}   * nombre maximum de segments, la valeur par défaut est {{Value|9}}.
+-    {{PropertyData/fr|Maximum Segments|Integer}}: nombre maximum de segments, la valeur par défaut est {{Value|9}}.
 
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Control Points|Bool}}   * la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
+-    {{PropertyView/fr|Control Points|Bool}}: la valeur par défaut est `False`. Mis à `True`, elle affichera une superposition avec les points de contrôle de la surface.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Remplissage de Surface peut être utilisé dans [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en ajoutant l\'objet `Surface    *   * Filling`.
+L\'outil Remplissage de Surface peut être utilisé dans [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en ajoutant l\'objet `Surface :: Filling`.
 
 -   Les arêtes à utiliser pour définir la surface doivent être affectées en tant que [LinkSubList](LinkSubList/fr.md) à la propriété `BoundaryEdges` de l\'objet.
 -   Les arêtes et les sommets auxiliaires doivent être affectés en tant que [LinkSubLists](LinkSubList/fr.md) aux propriétés `UnboundEdges` et `Points` de l\'objet.
@@ -166,7 +166,7 @@ points4 = [d, App.Vector(-2, -18, 0), a]
 obj4 = Draft.make_bspline(points4)
 doc.recompute()
 
-surf = doc.addObject("Surface   *   *Filling", "Surface")
+surf = doc.addObject("Surface::Filling", "Surface")
 surf.BoundaryEdges = [(obj1, "Edge1"),
                       (obj2, "Edge1"),
                       (obj3, "Edge1"),

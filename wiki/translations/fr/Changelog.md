@@ -1,12 +1,7 @@
 # Changelog/fr
-Le suivi des changements FreeCAD est assuré sur notre tracker mantis    *
+Le suivi des changements FreeCAD est assuré sur notre tracker mantis :
 
-<http   *//www.freecadweb.org/tracker/changelog_page.php>
-
-
-
-
-[Category   *Administration](Category_Administration.md) [Category   *Developer](Category_Developer.md)
+<http://www.freecadweb.org/tracker/changelog_page.php>
 
 
 

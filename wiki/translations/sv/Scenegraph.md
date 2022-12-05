@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Den geometri som syns i FreeCAD\'s #D vyer är renderade av Coin3D biblioteket. Coin3D är en implementering av [OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor) standarden. openCascade mjukvaran erbjuder också samma funktionalitet, men det beslöts när FreeCAD påbörjades att inte använda openCascade\'s inbyggda visare utan istället använda sig av den snabbare coin3D mjukvaran.
+Den geometri som syns i FreeCAD\'s #D vyer är renderade av Coin3D biblioteket. Coin3D är en implementering av [OpenInventor](http://en.wikipedia.org/wiki/Open_Inventor) standarden. openCascade mjukvaran erbjuder också samma funktionalitet, men det beslöts när FreeCAD påbörjades att inte använda openCascade\'s inbyggda visare utan istället använda sig av den snabbare coin3D mjukvaran.
 
 
 </div>
@@ -16,7 +16,7 @@ Den geometri som syns i FreeCAD\'s #D vyer är renderade av Coin3D biblioteket. 
 
 <div class="mw-translate-fuzzy">
 
-[OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor) är egentligen ett 3D scen beskrivningsspråk. Den scen som beskrivs i renderas sedan av OpenGL på din skärm. Coin3D gör arbetet med detta, så programmeraren inte behöver bry sig om komplexa openGL anrop, programmeraren behöver bara förse den med giltig OpenInventor kod. Den stora fördelen är att openInventor är en mycket välkänd och väldokumenterad standard.
+[OpenInventor](http://en.wikipedia.org/wiki/Open_Inventor) är egentligen ett 3D scen beskrivningsspråk. Den scen som beskrivs i renderas sedan av OpenGL på din skärm. Coin3D gör arbetet med detta, så programmeraren inte behöver bry sig om komplexa openGL anrop, programmeraren behöver bara förse den med giltig OpenInventor kod. Den stora fördelen är att openInventor är en mycket välkänd och väldokumenterad standard.
 
 
 </div>
@@ -32,7 +32,7 @@ Ett av de stora jobben som FreeCAD gör för dig är att översätta openCascade
 
 <div class="mw-translate-fuzzy">
 
-OpenInventor beskriver en 3D scen i formen av en [scenegraph](http   *//en.wikipedia.org/wiki/Scene_graph), som den nedan   *
+OpenInventor beskriver en 3D scen i formen av en [scenegraph](http://en.wikipedia.org/wiki/Scene_graph), som den nedan:
 
 
 </div>
@@ -42,7 +42,7 @@ OpenInventor beskriver en 3D scen i formen av en [scenegraph](http   *//en.wikip
 
 <div class="mw-translate-fuzzy">
 
-![](images/Scenegraph.gif ) image from [Inventor mentor](http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html)
+![](images/Scenegraph.gif ) image from [Inventor mentor](http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html)
 
 
 </div>
@@ -50,7 +50,7 @@ OpenInventor beskriver en 3D scen i formen av en [scenegraph](http   *//en.wikip
 
 <div class="mw-translate-fuzzy">
 
-En openInventor scengraf beskriver allt som utgör en 3D scen, som geometri, färger, material, ljus, etc, och organiserar all den data i smidig och klar struktur. Allting kan grupperas till sub-strukturer, vilket tillåter dig att organisera ditt sceninnehåll så som du vill. Här är ett exempel på en openInventor fil   *
+En openInventor scengraf beskriver allt som utgör en 3D scen, som geometri, färger, material, ljus, etc, och organiserar all den data i smidig och klar struktur. Allting kan grupperas till sub-strukturer, vilket tillåter dig att organisera ditt sceninnehåll så som du vill. Här är ett exempel på en openInventor fil:
 
 
 </div>
@@ -100,7 +100,7 @@ Vi har också många andra elementtyper för att organisera vår scen, som grupp
 
 <div class="mw-translate-fuzzy">
 
-Om du är intresserad av att lära dig mer om openInventor, hoppa direkt till dess berömdaste referens, [Inventor mentor](http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html).
+Om du är intresserad av att lära dig mer om openInventor, hoppa direkt till dess berömdaste referens, [Inventor mentor](http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html).
 
 
 </div>
@@ -124,7 +124,7 @@ Men det finns många fördelar med att kunna komma åt scengrafen direkt. Vi kan
 
 <div class="mw-translate-fuzzy">
 
-Själva FreeCAD har flera verktyg för att se eller ändra openInventor kod. Till exempel, följande pythonkod kommer att visa openInventor representationen av ett valt objekt   *
+Själva FreeCAD har flera verktyg för att se eller ändra openInventor kod. Till exempel, följande pythonkod kommer att visa openInventor representationen av ett valt objekt:
 
 
 </div>
@@ -147,7 +147,7 @@ Men vi har också en python modul som tillåter komplett åtkomst till allt som 
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https   *//github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https://github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -157,11 +157,6 @@ See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for t
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

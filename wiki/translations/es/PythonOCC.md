@@ -29,13 +29,13 @@ PythonOCC debe ser compilado desde la fuente. Para ello es necesario obtener los
 
 Junto con OCCT 7.4, PythonOCC requiere dependencias bastante recientes como Python 3.7, CMake 3.12, y SWIG 3.0.11. Python 2 ya no está soportado.
 
-También es posible instalar bibliotecas precompiladas de PythonOCC usando [Conda](Conda/es.md). Para más información e instrucciones de compilación, ver el repositorio principal del proyecto, [tpaviot/pythonocc-core](https   *//github.com/tpaviot/pythonocc-core).
+También es posible instalar bibliotecas precompiladas de PythonOCC usando [Conda](Conda/es.md). Para más información e instrucciones de compilación, ver el repositorio principal del proyecto, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).
 
 ## Compilation
 
-You can also self compile pythonOCC (see [instructions](https   *//github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Below is the procedure for Debian/Ubuntu using distro-provided opencascade packages   *
+You can also self compile pythonOCC (see [instructions](https://github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Below is the procedure for Debian/Ubuntu using distro-provided opencascade packages:
 
-    git clone git   *//github.com/tpaviot/pythonocc-core.git pythonocc
+    git clone git://github.com/tpaviot/pythonocc-core.git pythonocc
     cd pythonocc
     mkdir build
     cd build
@@ -44,15 +44,10 @@ You can also self compile pythonOCC (see [instructions](https   *//github.com/tp
 
 ## Más información 
 
--   Página del proyecto   * [pythonocc.org](http   *//www.pythonocc.org/)
--   La nueva versión es compatible con la OCCT 7.4, [tpaviot/pythonocc-core](https   *//github.com/tpaviot/pythonocc-core).
--   Versión anterior compatible con OCE 0.18, la edición comunitaria de la OCCT 6.9.x, [tpaviot/pythonocc](https   *//github.com/tpaviot/pythonocc).
--   [IfcPlusPlus compilado en Gentoo - ¿preguntas y alternativas?](https   *//forum.freecadweb.org/viewtopic.php?f=39&t=33254)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+-   Página del proyecto: [pythonocc.org](http://www.pythonocc.org/)
+-   La nueva versión es compatible con la OCCT 7.4, [tpaviot/pythonocc-core](https://github.com/tpaviot/pythonocc-core).
+-   Versión anterior compatible con OCE 0.18, la edición comunitaria de la OCCT 6.9.x, [tpaviot/pythonocc](https://github.com/tpaviot/pythonocc).
+-   [IfcPlusPlus compilado en Gentoo - ¿preguntas y alternativas?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
 
 
 

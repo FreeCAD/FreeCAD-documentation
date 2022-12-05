@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Path Simulator
-   MenuLocation   *Path → CAM Simulator
-   Workbenches   *[Path](Path_Workbench.md)
-   Shortcut   ***P** **M**
-   SeeAlso   *[Path Inspect](Path_Inspect.md)
+- GuiCommand:
+   Name:Path Simulator
+   MenuLocation:Path → CAM Simulator
+   Workbenches:[Path](Path_Workbench.md)
+   Shortcut:**P** **M**
+   SeeAlso:[Path Inspect](Path_Inspect.md)
 ---
 
 # Path Simulator/zh
@@ -43,13 +43,13 @@
 
 </div>
 
--    **回放速度**   *虚拟回放速度，以G-Code行/秒为单位。
+-    **回放速度**:虚拟回放速度，以G-Code行/秒为单位。
 
--    **精度**   * 模拟精度由指示模拟偏离实际作业的百分比来表现。对于交互式模拟，将精度减少到0.3工作速度最快。
+-    **精度**: 模拟精度由指示模拟偏离实际作业的百分比来表现。对于交互式模拟，将精度减少到0.3工作速度最快。
 
--    **作业**   * 用于模拟基础的作业。
+-    **作业**: 用于模拟基础的作业。
 
--    **操作表**   * 包含在模拟中的操作清单。
+-    **操作表**: 包含在模拟中的操作清单。
 
 
 

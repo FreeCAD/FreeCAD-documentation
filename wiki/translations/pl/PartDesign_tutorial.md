@@ -1,18 +1,18 @@
 ---
-- TutorialInfo   */pl
-   Topic   * Szkicowanie
-   Level   * Początkujący
-   Time   * 15 minut
-   Author   *[http   *//freecadweb.org/wiki/index.php?title=User   *Drei Drei]
-   FCVersion   *0.16 lub nowszy
-   Files   * Nie dołączono
+- TutorialInfo:/pl
+   Topic: Szkicowanie
+   Level: Początkujący
+   Time: 15 minut
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 lub nowszy
+   Files: Nie dołączono
 }}
 
 ## Wprowadzenie
 
 Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy w środowisku pracy [Projekt Części](PartDesign_Workbench/pl.md). Czytelnik zobaczy jak tworzyć obiekty 3D na podstawie szkiców, wykonywać operacje odejmowania oraz jak powielać określone cechy we wzorze.
 
-<img alt="" src=images/Sketcher_tutorial_result.png  style="width   *480px;">
+<img alt="" src=images/Sketcher_tutorial_result.png  style="width:480px;">
 
 ### Wymagania
 
@@ -25,21 +25,21 @@ Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy w 
 
 Celem środowiska roboczego **Projekt Części** jest umożliwienie użytkownikowi tworzenia geometrii w przestrzeni 3D. W związku z tym jest ono wyposażone w narzędzia do wykorzystania szkiców i przekształcania ich w obiekty 3D.
 
-Aby to osiągnąć, istnieją dwa narzędzia   * <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Wyciągnij](PartDesign_Pad/pl.md) oraz <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Wyciągnij przez obrót](PartDesign_Revolution/pl.md). Obok ich subtraktywnych odpowiedników *(<img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> [kieszeń](PartDesign_Pocket/pl.md) i <img alt="" src=images/PartDesign_Groove.svg  style="width   *32px;"> [rowek](PartDesign_Groove/pl.md))* tworzą większość typowych akcji używanych przez to środowisko pracy.
+Aby to osiągnąć, istnieją dwa narzędzia: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Wyciągnij](PartDesign_Pad/pl.md) oraz <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij przez obrót](PartDesign_Revolution/pl.md). Obok ich subtraktywnych odpowiedników *(<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [kieszeń](PartDesign_Pocket/pl.md) i <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [rowek](PartDesign_Groove/pl.md))* tworzą większość typowych akcji używanych przez to środowisko pracy.
 
 1.  Przełącz się do środowiska produkcyjnego Projekt Części.
-2.  Z zaznaczonym szkicem w oknie [widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[Zawartość](File   *PartDesign_Body.svg   16px]] [[PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę XY i naciśnij przycisk **OK**. Szkic powinien pojawić się teraz wewnątrz zawartości.
-3.  Wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).
+2.  Z zaznaczonym szkicem w oknie [widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[Zawartość](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę XY i naciśnij przycisk **OK**. Szkic powinien pojawić się teraz wewnątrz zawartości.
+3.  Wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).
 4.  Ustaw odległość na {{SpinBox   5 mm }}.
 5.  Naciśnij na przycisk **OK**.
 
-Innym sposobem na tworzenie geometrii 3D jest narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
+Innym sposobem na tworzenie geometrii 3D jest narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
 
-<img alt="" src=images/PartDesign_revolution_exercise.png  style="width   *480px;">
+<img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
 
-1.  Utwórz nową zawartość narzędziem **[Projekt Części Zawartość](File   *PartDesign_Body.svg   16px]] [[PartDesign_Body/pl.md)**, a następnie szkic na podstawie powyższego obrazka.
+1.  Utwórz nową zawartość narzędziem **[Projekt Części Zawartość](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/pl.md)**, a następnie szkic na podstawie powyższego obrazka.
 2.  Szkic może znajdować się na dowolnej płaszczyźnie, ale powinien przylegać do osi poziomej.
-3.  Wybierz narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
+3.  Wybierz narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
 4.  Ustaw parametr **Oś** na wartość {{ComboBox   Pozioma oś szkicu}}.
 5.  Ustaw kąt na 360°.
 
@@ -48,8 +48,8 @@ Innym sposobem na tworzenie geometrii 3D jest narzędzie <img alt="" src=images/
 Zaczniemy od utworzenia szkicu z kształtem, który chcemy odjąć.
 
 1.  Wybierz górną płaską powierzchnię \"wyciągnięcia przez obrót\".
-2.  Wybierz <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> [Utwórz nowy szkic](Sketcher_NewSketch/pl.md).
-3.  Wybierz narzędzie <img alt="" src=images/Sketcher_External.svg  style="width   *32px;"> [Geometria zewnętrzna](Sketcher_External/pl.md).
+2.  Wybierz <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Utwórz nowy szkic](Sketcher_NewSketch/pl.md).
+3.  Wybierz narzędzie <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria zewnętrzna](Sketcher_External/pl.md).
 4.  Zbliż się do krawędzi wyciągnięcia. Łuk powinien być podświetlony.
 5.  Wybierz łuk. W szkicu powinien zostać on wyświetlony innym kolorze.
 6.  Utwórz sześciokąt o środku w tym samym punkcie co łuk i ustaw promień okręgu pomocniczego na 5mm.
@@ -66,12 +66,12 @@ Po utworzeniu elementu 3D możliwe jest utworzenie odniesień do niego w szkicu.
 # PartDesign tutorial/pl
 
  
-<img alt="" src=images/PartDesign_pocket_exercise.png  style="width   *480px;">
+<img alt="" src=images/PartDesign_pocket_exercise.png  style="width:480px;">
 
 Następnie przejdziemy do zastosowania funkcji **Kieszeń**.
 
 1.  Wybierz szkic.
-2.  Wybierz narzędzie <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;">. [Kieszeń](PartDesign_Pocket/pl.md).
+2.  Wybierz narzędzie <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;">. [Kieszeń](PartDesign_Pocket/pl.md).
 3.  Ustaw parametr **Typ** na wartość {{ComboBox|Przez wszystkie}}.
 
 #### Cechy tworzone wzorami 
@@ -88,7 +88,7 @@ Przypomnij sobie profil wyciągany, który został utworzony na początku tego p
 Zamiast tworzyć okrąg dla każdego otworu w szkicu, wprowadzimy pojęcie **Cechy wzorca**. Narzędzia te działają na zasadzie powielania elementu, który został już utworzony i który chcemy odtworzyć w układzie liniowym lub kołowym. Użyjemy kombinacji **liniowych** i **biegunowych**\' cech wzoru symulacyjnie, aby uzyskać końcowy detal.
 
 1.  W [widoku drzewa](Tree_view/pl.md) wybierz element **Kieszeń**, który właśnie utworzyliśmy.
-2.  Wybierz narzędzie <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Utwórz cechę wielokrotnej transformacji](PartDesign_MultiTransform/pl.md)
+2.  Wybierz narzędzie <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Utwórz cechę wielokrotnej transformacji](PartDesign_MultiTransform/pl.md)
 
 W oknie [widoku połączonego](Combo_view/pl.md) jesteśmy teraz proszeni o wprowadzenie obiektów do **Transformacji**, którą chcemy uzyskać. Zauważ, że w sekcji **Parametry Transformacji wielokrotnej** widzimy, że FreeCAD zidentyfikował Kieszeń jako **Cechę bazową**, a w drugiej części okienka proszeni jesteśmy o **Kliknięcie prawym przyciskiem myszy** w celu wprowadzenia cech wzoru.
 
@@ -104,7 +104,7 @@ W oknie [widoku połączonego](Combo_view/pl.md) jesteśmy teraz proszeni o wpro
 
 Po wykonaniu tego zadania powinieneś mieć następujący wynik.
 
-<img alt="" src=images/PartDesign_multitransform_exercise.png  style="width   *480px;">
+<img alt="" src=images/PartDesign_multitransform_exercise.png  style="width:480px;">
 
 Jeśli nie, edytuj ponownie operację Transformacja wielokrotna, klikając na niej dwukrotnie w widoku drzewa. Sprawdź obie cechy wzoru, aby wykryć konieczne modyfikacje, takie jak **Oś** oraz czy **Kierunek** musi zostać odwrócony.
 

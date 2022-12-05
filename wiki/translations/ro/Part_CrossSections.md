@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part CrossSections
-   MenuLocation   *Part → Cross-sections...
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Section](Part_Section.md)
+- GuiCommand:
+   Name:Part CrossSections
+   MenuLocation:Part → Cross-sections...
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Section](Part_Section.md)
 ---
 
 # Part CrossSections/ro
@@ -27,10 +27,10 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
 <div class="mw-translate-fuzzy">
 
 1.  Select a shape.
-2.  Press the **[<img src=images/Part_SectionCross.png style="width   *24px"> '''Cross-sections'''** button.
+2.  Press the **[<img src=images/Part_SectionCross.png style="width:24px"> '''Cross-sections'''** button.
 3.  Define the guiding plane.
 4.  Define the position (height of the cross-section).
-5.  Optionally, check **Sections** to create more than one cross-section   *
+5.  Optionally, check **Sections** to create more than one cross-section:
     -   Checking *On both sides* will distribute the cross-sections on each side of the guiding plane location.
     -   Set the count.
 6.  Press **OK**.

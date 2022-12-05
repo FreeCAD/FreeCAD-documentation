@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Draft_ToggleDisplayMode
-   Name/es   *Draft_ToggleDisplayMode
-   MenuLocation   *Croquis → Opciones de visualización → Alternar modo de visualización
-   Workbenches   *[Croquis](Draft_Workbench/es.md),[Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***Shift**+**Space**
+- GuiCommand:/es
+   Name:Draft_ToggleDisplayMode
+   Name/es:Draft_ToggleDisplayMode
+   MenuLocation:Croquis → Opciones de visualización → Alternar modo de visualización
+   Workbenches:[Croquis](Draft_Workbench/es.md),[Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**Shift**+**Space**
 ---
 
 # Draft ToggleDisplayMode/es
@@ -24,7 +24,7 @@ Esta herramienta conmuta la visualización de los objetos seleccionados entre Wi
 
 </div>
 
-<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;"> 
 *On the left the larger cube obstructs the cube behind it. On the right the Display Mode of the larger cube is set to Wireframe making it possible to select a face belonging to the smaller cube.*
 
 ## Usage

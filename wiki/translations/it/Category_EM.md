@@ -1,8 +1,6 @@
 # Category:EM/it
 This category list pages related to the [EM Workbench/it](EM_Workbench/it.md) which is one of the [external workbenches/it](external_workbenches/it.md).
 
-[Category   *External Workbenches/it](Category   *External_Workbenches/it.md) [Category   *User Documentation/it](Category   *User_Documentation/it.md)
-
 ### Contents
 
 |     |     |     |

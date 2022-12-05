@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Path ExportTemplate
-   MenuLocation   *Path → Export Template
-   Workbenches   *[Path](Path_Workbench.md)
-   SeeAlso   *[Path SetupSheet](Path_SetupSheet.md)
+- GuiCommand:
+   Name:Path ExportTemplate
+   MenuLocation:Path → Export Template
+   Workbenches:[Path](Path_Workbench.md)
+   SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
 ---
 
 # Path ExportTemplate/en
@@ -32,8 +32,8 @@ The **Edit → Preferences... → Path → Job Preferences tab, Defaults → Tem
 
 ## Stock
 
--   Extent   * Stock Size
--   Placement   * Stock Location
+-   Extent: Stock Size
+-   Placement: Stock Location
 
 ## Setup Sheet 
 

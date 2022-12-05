@@ -1,8 +1,6 @@
 # Category:TechDraw/ro
 This category lists pages related to the [TechDraw Workbench/ro](TechDraw_Workbench/ro.md).
 
-[Category   *Workbenches/ro](Category   *Workbenches/ro.md)
-
 ### Contents
 
 |     |     |     |

@@ -15,19 +15,19 @@ The result of adding the two vectors, tip to tail is given by
 
 v1.add(v2)
 
-but much more conveniently by   *
+but much more conveniently by:
 
 v1 + v2
 
 because the + operator has been overloaded, resulting in the vector Vector(5, 7, 9)
 
-We can also subtract vectors, and multiply or divide them by scalars, so we can write   *
+We can also subtract vectors, and multiply or divide them by scalars, so we can write:
 
 2*v2 - v1/2
 
 obtaining Vector(7.5, 9, 10.5)
 
-The length of the vector v1 is given by Pythagoras\' theorem (in 3D)   *
+The length of the vector v1 is given by Pythagoras\' theorem (in 3D):
 
 
 ```python 
@@ -39,11 +39,11 @@ or much more conveniently by the builtin method
 
 v1.Length
 
-We can use a vector to represent a direction in space. For this purpose, since the (non-zero!) length of the vector is then immaterial, it is customary to use unit vectors, whose length is 1. (In FreeCAD dialogs for axes, you can use un-normalized directions. The code normalizes them for you.) We can create a unit vector by normalizing any vector in the desired direction   *
+We can use a vector to represent a direction in space. For this purpose, since the (non-zero!) length of the vector is then immaterial, it is customary to use unit vectors, whose length is 1. (In FreeCAD dialogs for axes, you can use un-normalized directions. The code normalizes them for you.) We can create a unit vector by normalizing any vector in the desired direction:
 
 v1.normalize() # unit vector in the direction of v1
 
-This gives us alternative way of creating vectors. If we\'d like, for instance, to create a vector in the direction of v1 with the length of v2, we could use   *
+This gives us alternative way of creating vectors. If we\'d like, for instance, to create a vector in the direction of v1 with the length of v2, we could use:
 
 v2.Length * v1.normalize()
 
@@ -51,11 +51,11 @@ v2.Length * v1.normalize()
 
 Other than addition and subtraction, there are other geometrically meaningful ways of combining two vectors.
 
-One is the [dot product](https   *//en.wikipedia.org/wiki/Dot_product)
+One is the [dot product](https://en.wikipedia.org/wiki/Dot_product)
 
 v1.dot(v2) # or v2.dot(v1)
 
-In terms of components, if v1 = Vector(v1x, v1y, v1z) and v2 = Vector(v2x, v2y, v2z), then v1.dot(v2) = v1x*v2x + v1y*v2y + v1z*v2z Alternatively, this can be shown to be equal to the product of their two lengths with the cosine of the angle between them. It is thus, in some sense, the projection of one vector on the other. It can be used to calculate the angle between the two (non-zero) vectors   *
+In terms of components, if v1 = Vector(v1x, v1y, v1z) and v2 = Vector(v2x, v2y, v2z), then v1.dot(v2) = v1x*v2x + v1y*v2y + v1z*v2z Alternatively, this can be shown to be equal to the product of their two lengths with the cosine of the angle between them. It is thus, in some sense, the projection of one vector on the other. It can be used to calculate the angle between the two (non-zero) vectors:
 
 angle = math.acos(v1.dot(v2)/(v1.Length * v2.Length))
 
@@ -65,21 +65,21 @@ this method is built in to FreeCAD as
 
 angle = v1.getAngle(v2)
 
-The [cross product](https   *//en.wikipedia.org/wiki/Cross_product) of two vectors v1 and v2 creates a third vector, perpendicular to both of them, that is, normal to the plane containing v1 and v2 In component form, v1.cross(v2) = Vector(v1y*v2z - v1z*v2y, v1z*v2x - v1x*v2z, v1x*v2y - v1y*v2x) Its length is given by the product of the lengths of v1 and v2 with the sine of the angle between them. It thus vanishes if v1 and v2 are parallel.
+The [cross product](https://en.wikipedia.org/wiki/Cross_product) of two vectors v1 and v2 creates a third vector, perpendicular to both of them, that is, normal to the plane containing v1 and v2 In component form, v1.cross(v2) = Vector(v1y*v2z - v1z*v2y, v1z*v2x - v1x*v2z, v1x*v2y - v1y*v2x) Its length is given by the product of the lengths of v1 and v2 with the sine of the angle between them. It thus vanishes if v1 and v2 are parallel.
 
 Another way of visualizing this is that the length of v1.cross(v2) is the area of the parallelogram defined by v1 and v2. Note that v1.cross(v2)and v2.cross(v1) have opposite signs, but v1.dot(v2) and v2.dot(v1)are equal.
 
-A test to check if, within numerical error, two (non-zero) vectors are parallel could be written   *
+A test to check if, within numerical error, two (non-zero) vectors are parallel could be written:
 
 
 ```python 
-def isParallel(v1, v2)   *     
+def isParallel(v1, v2):     
     return (v1.cross(v2)).Length &lt;= 1e-7 * v1.Length *  v2.Length
 ```
 
 Similarly, 
 ```python 
-def isPerpendicular(v1, v2)   *
+def isPerpendicular(v1, v2):
     return v1.dot(v2) &lt;= 1e-7 * v1.Length * v2.Length
 ``` tests for orthogonality.
 
@@ -101,7 +101,7 @@ represents a rotation of theta about the unit_vector axis. It is unlikely you wi
 
 Uses Euler Angles. (see below)
 
-​ <https   *//wiki.freecadweb.org/Placement>
+​ <https://wiki.freecadweb.org/Placement>
 
 \-- Vector (rotation axis) and float (rotation angle)
 
@@ -117,7 +117,7 @@ The 3x3 submatrix in the top-left is the rotation part. The rest represents (unu
 
 \-- 9 floats (3x3 matrix)
 
-See <https   *//en.wikipedia.org/wiki/Rotation_matrix#In_three_dimensions>
+See <https://en.wikipedia.org/wiki/Rotation_matrix#In_three_dimensions>
 
 \-- 3 vectors + optional string
 
@@ -125,7 +125,7 @@ rot = FreeCAD.Rotation(Vector(0,1,0),Vector(-1,0,0),Vector(0,0,1),'ZXY')
 
 for example, rotates x-\>y, y-\>-x and z-\>z . The target triad need not be orthogonal (or even normalized), the optional string \'ZXY\' gives the priority order of the calculation. Here the Z-axis is mapped as given by the third argument, the X-axis target is orthogonalized to the result, and the Y axis target is ignored. The new Y-axis is constructed by the right hand rule from the constructed axes.
 
-Of these, axis and angle is the most commonly used rotation constructor. To rotate v1 around the axis given by v2 by 30 degrees, we would use   *
+Of these, axis and angle is the most commonly used rotation constructor. To rotate v1 around the axis given by v2 by 30 degrees, we would use:
 
 
 ```python
@@ -138,7 +138,7 @@ Note that we input the angle in degrees, but if we query it with rot.Angle we ge
 
 ### Successive rotations and Euler Angles 
 
-See <https   *//wiki.freecadweb.org/Placement#Position_and_Yaw.2C_Pitch_and_Roll>
+See <https://wiki.freecadweb.org/Placement#Position_and_Yaw.2C_Pitch_and_Roll>
 
 One of the properties of quaternions that makes them so useful is that the product of two quaternions represents the result of succesive rotations to which they correspond. The order matters! The result of two rotations is generally not the same if the rotations are made in the reverse order.
 
@@ -189,7 +189,7 @@ Note that the rot1.isSame(rot2, tolerance) method tests True if rot1 and rot2 cr
 
 #### slerp (Spherical Linear Interpolation.) 
 
-This is a function widely used in animation. Suppose you wanted to smoothly rotate an object from one orientation, rot1 to another, rot2. You would need to create a series of intermediate orientations. rot1.slerp(rot2, 0.3) creates a rotation 30% of the way between the two. As a simple example   *
+This is a function widely used in animation. Suppose you wanted to smoothly rotate an object from one orientation, rot1 to another, rot2. You would need to create a series of intermediate orientations. rot1.slerp(rot2, 0.3) creates a rotation 30% of the way between the two. As a simple example:
 
 
 ```python 
@@ -199,16 +199,16 @@ rotbetween = rot1.slerp(rot2, 0.3)
 rotbetween.Angle # pi/4 = 45 degrees = 30 + 0.3*(80 - 30)
 ```
 
-This example is simple because rot1 and rot2 happen to have the same axis. Slerp works in the general case. [](https   *//en.wikipedia.org/wiki/Slerp)
+This example is simple because rot1 and rot2 happen to have the same axis. Slerp works in the general case. [](https://en.wikipedia.org/wiki/Slerp)
 
 #### sclerp (Interpolating Placements) 
 
-This function interpolates both rotation and displacement - again invaluable for animation. For example   * 
+This function interpolates both rotation and displacement - again invaluable for animation. For example: 
 ```python 
 p1 = App.Placement(App.Vector(0,0,0), App.Rotation(0, 0, 0))
 p2 = App.Placement(App.Vector(1,0,0), App.Rotation(0, 0, 90))
 p = p1.sclerp(p2, 0.3) # => Placement [Pos=(0.3,0,0), Yaw-Pitch-Roll=(0,0,27)]
-``` See [here](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=40046) for related functions and use in expressions.
+``` See [here](https://forum.freecadweb.org/viewtopic.php?f=9&t=40046) for related functions and use in expressions.
 
 #### Offset rotations 
 
@@ -220,7 +220,7 @@ newP = C + Rotation.multVec(P -  C)
 
 Placements can do this with a third *center* Argument Placement(BaseVector, Rotation, Center) represents a *Rotation* about *Center* followed by a displacement of *BaseVector*.
 
-Constructing from first principles, we see   * 
+Constructing from first principles, we see: 
 ```python 
 baseVector = App.Vector(50,0,0)
 axis = App.Vector(1, 1, 1)
@@ -253,7 +253,7 @@ The plane is defined by v1, any point on it, and v2, the direction of the normal
 
 ### Vectors in 2D 
 
-FreeCAD has a subsystem for creating 2D objects in the Part.Geom2d module. It uses a two component vector class App.Base.Vector2d. 3D vectors are in App.Vector See [here](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=567377#p567377) for some usage information of Part.Geom2d.
+FreeCAD has a subsystem for creating 2D objects in the Part.Geom2d module. It uses a two component vector class App.Base.Vector2d. 3D vectors are in App.Vector See [here](https://forum.freecadweb.org/viewtopic.php?style=3&p=567377#p567377) for some usage information of Part.Geom2d.
 
 ## Placement
 
@@ -272,17 +272,17 @@ lcscoord = App.Vector(0, 10, 0)
 ccscoord = rot * lcscoord #or rot.multiply(lcscoord) => App.Vector(0, 0, 10) 
 ```
 
-We can test of two placements are equal within numerical tolerance with   *
+We can test of two placements are equal within numerical tolerance with:
 
 
 ```python
-def placements_same(pl1, pl2, tol = 1e-7)   *
+def placements_same(pl1, pl2, tol = 1e-7):
     return pl1.Rotation.isSame(pl2.Rotation, tol) and pl1.Base.isEqual(pl2.Base, tol)   
 ```
 
 #### Compound placement 
 
-![Nested placements](images/Sample_Assembly_structure.png ) The document **macroplacement**, whose tree-view is illustrated above, contains two objects, **Body** and **Cube**. The **Part** container\'s location in the document\'s global coordinate system (GCS) is given by its Placement property. Likewise, **Part001**\'s location **Part**\'s LCS is given by its Placement. The global placements of the objects are determined by multiplying the chain of placements, starting from the root. Note that the features inside the Body container (Pad) have the placement of the Body. FCstd file is [here.](https   *//forum.freecadweb.org/download/file.php?id=172998)
+![Nested placements](images/Sample_Assembly_structure.png ) The document **macroplacement**, whose tree-view is illustrated above, contains two objects, **Body** and **Cube**. The **Part** container\'s location in the document\'s global coordinate system (GCS) is given by its Placement property. Likewise, **Part001**\'s location **Part**\'s LCS is given by its Placement. The global placements of the objects are determined by multiplying the chain of placements, starting from the root. Note that the features inside the Body container (Pad) have the placement of the Body. FCstd file is [here.](https://forum.freecadweb.org/download/file.php?id=172998)
 
 
 ```python
@@ -314,7 +314,7 @@ gplBodyNew1 = doc.getObject('Body').getGlobalPlacement()  # new placement
 placements_same(gplBodyNew, gplBodyNew1) #  returns True - it works!
 ```
 
-See also [forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=64608) and [getting getGlobalPlacement for linked objects](https   *//forum.freecadweb.org/viewtopic.php?p=569083#p569083)
+See also [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=64608) and [getting getGlobalPlacement for linked objects](https://forum.freecadweb.org/viewtopic.php?p=569083#p569083)
 
 #### Interpolating Placements. 
 
@@ -338,9 +338,9 @@ box = doc.getObject('Box')
 box.Shape.Vertexes[3].Point # returns the coordinates of Vertex004 including its placement
 pli = box.Placement.inverse()
 pli * box.Shape.Vertexes[3].Point  # returns the LCS coordinates of Vertex004 by undoing the placement
-``` Part workbench objects behave differently from others for historical reasons. **Point** for Part objects includes their placement. See [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=27821&sid=ed6ead0ccdffb9836043e548919759a5#p225497)
+``` Part workbench objects behave differently from others for historical reasons. **Point** for Part objects includes their placement. See [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=27821&sid=ed6ead0ccdffb9836043e548919759a5#p225497)
 
-Using the Gui, on selecting a vertex   * 
+Using the Gui, on selecting a vertex: 
 ```python
 sel = Gui.Selection.getSelectionEx()
 sel[0].SubObjects[0].Point #returns the LCS coordinates of picked Vertex (including placement if a Part, as above)
@@ -349,22 +349,20 @@ sel[0].Object.Placement # object placement
 ```
 
 Possible code correcting for placement of part objects {{Code|code =
-def getLCSVertex(sel)   *
+def getLCSVertex(sel):
     '''return coordinates of selected vertex in local coordinate system'''
     pt = sel[0].SubObjects[0].Point
-    if sel[0].Object.TypeId[0   *6] == 'Part   *   *'   *
+    if sel[0].Object.TypeId[0:6] == 'Part::':
         return sel[0].Object.Placement.inverse() * pt
-    else   *
+    else:
         return pt
 }}
 
 ### References
 
-<https   *//wiki.freecadweb.org/Placement>
+<https://wiki.freecadweb.org/Placement>
 
-<https   *//github.com/FreeCAD/FreeCAD/blob/5d49bf78de785a536f941f1a6d06d432582a95d3/src/Base/Rotation.cpp>
-
-[Category   *Sandbox](Category_Sandbox.md)
+<https://github.com/FreeCAD/FreeCAD/blob/5d49bf78de785a536f941f1a6d06d432582a95d3/src/Base/Rotation.cpp>
 
 
 

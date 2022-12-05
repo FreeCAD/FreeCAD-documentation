@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Um Zugriff auf das Modul `Mesh` zu erhalten, musst du es zuerst importieren   *
+Um Zugriff auf das Modul `Mesh` zu erhalten, musst du es zuerst importieren:
 
 
 ```python
@@ -12,21 +12,21 @@ import Mesh
 
 ## Erstellung
 
-Um ein leeres Netz Objekt zu erstellen, benutze einfach den Standard Konstruktor   *
+Um ein leeres Netz Objekt zu erstellen, benutze einfach den Standard Konstruktor:
 
 
 ```python
 mesh = Mesh.Mesh()
 ```
 
-Du kannst auch ein Objekt aus einer Datei erstellen   *
+Du kannst auch ein Objekt aus einer Datei erstellen:
 
 
 ```python
-mesh = Mesh.Mesh("D   */temp/Something.stl")
+mesh = Mesh.Mesh("D:/temp/Something.stl")
 ```
 
-Oder erstelle es aus einer Reihe von durch ihre Eckpunkte beschriebenen Dreiecken   *
+Oder erstelle es aus einer Reihe von durch ihre Eckpunkte beschriebenen Dreiecken:
 
 
 ```python
@@ -44,7 +44,7 @@ Der Netz-Kernel kümmert sich um die Schaffung einer topologisch richtigen Daten
 
 ## Modellieren
 
-Um regelmäßige Geometrien zu erstellen, kannst Du eine der `create*()` Methoden verwenden. Ein Torus kann zum Beispiel wie folgt erstellt werden   *
+Um regelmäßige Geometrien zu erstellen, kannst Du eine der `create*()` Methoden verwenden. Ein Torus kann zum Beispiel wie folgt erstellt werden:
 
 
 ```python
@@ -54,7 +54,7 @@ Mesh.show(m)
 
 Die ersten beiden Parameter definieren die Radien des Torus und der dritte Parameter ist ein Teilabtastfaktor dafür, wie viele Dreiecke erzeugt werden. Je höher dieser Wert, desto glatter das Netz.
 
-Das `Netz` Modul bietet auch drei boolesche Methoden   * `vereinigen()`, `kreuzung()` und `differenz()`   *
+Das `Netz` Modul bietet auch drei boolesche Methoden: `vereinigen()`, `kreuzung()` und `differenz()`:
 
 
 ```python
@@ -69,7 +69,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-Hier ist ein Beispiel, das eine Pipe mit der Methode `difference()` erstellt   *
+Hier ist ein Beispiel, das eine Pipe mit der Methode `difference()` erstellt:
 
 
 ```python
@@ -81,7 +81,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh   *   *Feature", "Pipe")
+obj = d.addObject("Mesh::Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 ```
@@ -91,11 +91,9 @@ doc.recompute()
 
 ## Hinweise
 
-Eine umfangreiche, wenn auch schwer zu bedienende Quelle für auf Mesh bezogenes Skripten sind die Einheitstestkripte des `Mesh` Moduls. In diesen Komponententests werden buchstäblich alle Methoden aufgerufen und alle Eigenschaften/Attribute optimiert. Wenn Du also kühn genug bist, schau Dir das [Komponententestmodul](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup) an.
+Eine umfangreiche, wenn auch schwer zu bedienende Quelle für auf Mesh bezogenes Skripten sind die Einheitstestkripte des `Mesh` Moduls. In diesen Komponententests werden buchstäblich alle Methoden aufgerufen und alle Eigenschaften/Attribute optimiert. Wenn Du also kühn genug bist, schau Dir das [Komponententestmodul](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup) an.
 
-Siehe auch   * [Mesh API](Mesh_API/de.md) {{Top}}  {{Mesh Tools navi}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+Siehe auch: [Mesh API](Mesh_API/de.md) {{Top}}  {{Mesh Tools navi}}
 
 
 

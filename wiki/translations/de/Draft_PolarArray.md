@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Draft PolarArray
-   Name/de   *Draft PolarAnordnung
-   MenuLocation   *Entwurf → Polare Anordnung
-   Workbenches   *[Entwurf](Draft_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[Anordnung](Draft_Array/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
+- GuiCommand:/de
+   Name:Draft PolarArray
+   Name/de:Draft PolarAnordnung
+   MenuLocation:Entwurf → Polare Anordnung
+   Workbenches:[Entwurf](Draft_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[Anordnung](Draft_Array/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
 ---
 
 # Draft PolarArray/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das **[<img src=images/Draft_PolarArray.svg style="width   *16px"> [Entwurf PolarAnordnung](Draft_PolarArray/de.md)** Werkzeug erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang eines Umfangs.
+Das **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Entwurf PolarAnordnung](Draft_PolarArray/de.md)** Werkzeug erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang eines Umfangs.
 
 
 </div>
@@ -31,7 +31,7 @@ Dieses Werkzeug kann für 2D Formen verwendet werden, die mit dem [Entwurf Arbei
 
 </div>
 
-<img alt="" src=images/Draft_PolarArray_example.png  style="width   *400px;">
+<img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,13 +45,13 @@ Dieses Werkzeug kann für 2D Formen verwendet werden, die mit dem [Entwurf Arbei
 
 ## Anwendung
 
-See also   * [Draft Snap](Draft_Snap.md).
+See also: [Draft Snap](Draft_Snap.md).
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Wähleein Objekt aus, von dem du die Polaranordnung erstellen möchtest.
-2.  Drücke die **[<img src=images/Draft_PolarArray.svg style="width   *16px"> [Polar Anordnung](Draft_PolarArray.md)** Schaltfläche. Wenn kein Objekt ausgewählt ist, wird das [Aufgabenpaneel](task_panel/de.md) geöffnet, aber du musst trotzdem ein Objekt auswählen, um fortzufahren.
+2.  Drücke die **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Polar Anordnung](Draft_PolarArray.md)** Schaltfläche. Wenn kein Objekt ausgewählt ist, wird das [Aufgabenpaneel](task_panel/de.md) geöffnet, aber du musst trotzdem ein Objekt auswählen, um fortzufahren.
 3.  Wähle den Polarwinkel, der bestimmt, wo sich das letzte Element der Anordnung befindet.
 4.  Wähle die Anzahl der Elemente in der Anordnung. Minimum von 2, Maximum von 99.
 5.  Wähle das Zentrum der Rotationsachse. Du kannst auf die [3D Ansicht](3D_view/de.md) klicken, um gleichzeitig die Position des Rotationszentrums festzulegen und den Befehl abzuschließen.
@@ -79,7 +79,7 @@ See also   * [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-Hinweise   *
+Hinweise:
 
 -   Standardmäßig ist die Rotationsachse die positive Z Achse {{Value|(0, 0, 1)}}. Dies kann im [Eigenschaftseditor](property_editor/de.md) geändert werden, nachdem das Objekt erzeugt wurde.
 -   Der Polarwinkel ist positiv im Gegenuhrzeigersinn und negativ im Uhrzeigersinn.
@@ -91,9 +91,9 @@ Hinweise   *
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Eigenschaften
 
@@ -111,7 +111,7 @@ Siehe das **<img src="images/Draft_Array.svg" width=16px> [OrthoAnordnung](Draft
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -123,19 +123,19 @@ Siehe das **<img src="images/Draft_Array.svg" width=16px> [OrthoAnordnung](Draft
 
 <div class="mw-translate-fuzzy">
 
-Das Anordnungswerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
+Das Anordnungswerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
 
 
 </div>
 
-The main method   *
+The main method:
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrapper for polar arrays is   *
+The wrapper for polar arrays is:
 
 
 ```python
@@ -163,7 +163,7 @@ array = make_polar_array(base_object,
 
 </div>
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -188,7 +188,7 @@ To create a non-parametric polar array use the `array` method of the Draft modul
 array(objectslist, center, angle, number)
 ```
 
-Example   *
+Example:
 
 
 ```python

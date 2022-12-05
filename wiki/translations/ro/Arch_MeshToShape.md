@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch MeshToShape
-   Name/ro   *Arch MeshToShape
-   MenuLocation   *Arch → Utilities → Mesh to Shape
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   SeeAlso   *[Arch SplitMesh](Arch_SplitMesh/ro.md), [Arch RemoveShape](Arch_RemoveShape/ro.md)
+- GuiCommand:/ro
+   Name:Arch MeshToShape
+   Name/ro:Arch MeshToShape
+   MenuLocation:Arch → Utilities → Mesh to Shape
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   SeeAlso:[Arch SplitMesh](Arch_SplitMesh/ro.md), [Arch RemoveShape](Arch_RemoveShape/ro.md)
 ---
 
 # Arch MeshToShape/ro
@@ -17,12 +17,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument convertește un obiect selectat [ Mesh](Mesh_Workbench.md) într-un obiect [ Shape](Part_Workbench.md). Notă   * Acest instrument este optimizat pentru obiectele cu fețe plate (fără curbe). Instrumentul corespunzător din [Part Workbench](Part_Workbench.md) poate fi mai potrivit pentru obiectele care conțin suprafețe curbe.
+Acest instrument convertește un obiect selectat [ Mesh](Mesh_Workbench.md) într-un obiect [ Shape](Part_Workbench.md). Notă: Acest instrument este optimizat pentru obiectele cu fețe plate (fără curbe). Instrumentul corespunzător din [Part Workbench](Part_Workbench.md) poate fi mai potrivit pentru obiectele care conțin suprafețe curbe.
 
 
 </div>
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width   *16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
 
 ## Cum se folosește 
 
@@ -52,7 +52,7 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument poate fi utilizat în [macros](macros.md) și din consola Python utilizând următoarea funcție   *
+Acest instrument poate fi utilizat în [macros](macros.md) și din consola Python utilizând următoarea funcție:
 
 
 </div>
@@ -70,11 +70,11 @@ Transformă o plasă într-op formă, unind fațetele coplanare.
 
 </div>
 
-Example   * 
+Example: 
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
-Box = FreeCAD.ActiveDocument.addObject("Mesh   *   *Cube", "Cube")
+Box = FreeCAD.ActiveDocument.addObject("Mesh::Cube", "Cube")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000

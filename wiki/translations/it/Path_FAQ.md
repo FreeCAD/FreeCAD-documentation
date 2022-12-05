@@ -70,7 +70,7 @@ Tutte le aggiunte alla lavorazione, comprese le modifiche e le copie di operazio
 
 <div class="mw-translate-fuzzy">
 
-Informazioni dettagliate sono disponibili in [ Profondità e Altezze](Template   *Depths/Heights/it.md).
+Informazioni dettagliate sono disponibili in [ Profondità e Altezze](Template:Depths/Heights/it.md).
 
 
 </div>
@@ -96,7 +96,7 @@ Il SetupSheet è un foglio di calcolo dedicato, contenuto in una lavorazione, mo
 
 <div class="mw-translate-fuzzy">
 
-Gli ingressi correnti per Profondità, Altezza e Gestione utensile includono   *
+Gli ingressi correnti per Profondità, Altezza e Gestione utensile includono:
 
 1.  Final Depth Expression \-- OpFinalDepth \-- Espressione della profondità finale dell\'operazione
 2.  Start Depth Expression \-- OpStartDepth \-- Espressione della profondità iniziale dell\'operazione
@@ -202,7 +202,7 @@ Per le operazioni tasca, il punto di partenza assume come valore predefinito XYZ
 
 <div class="mw-translate-fuzzy">
 
-Per le operazioni di tipo Contorno, la scheda Operazione ha un input \"Direzione\" che può essere configurato come CW o CCW (rispettivamente orario o antiorario), che definisce la direzione di taglio. Per riferimento   *
+Per le operazioni di tipo Contorno, la scheda Operazione ha un input \"Direzione\" che può essere configurato come CW o CCW (rispettivamente orario o antiorario), che definisce la direzione di taglio. Per riferimento:
 
 1.  Cut Side = Esteno, Direzione di taglio = CCW, taglio discorde
 2.  Cut Side = Esteno, Direzione di taglio = CW, taglio convenzionale, concorde
@@ -224,7 +224,7 @@ Nelle operazioni di sfacciatura è possibile specificare la tolleranza del mater
 
 Nelle operazioni Contornatura e Tasca, l\'Extra Offset ha lo stesso scopo.
 
-Questi input sono preziosi, consentendo funzionalità tra cui   *
+Questi input sono preziosi, consentendo funzionalità tra cui:
 
 1.  Definire le passate di sgrossatura, in conbinazione con i campi di immissione Profondità.
 2.  Specificare il sovrametallo per le operazioni di sfacciatura
@@ -357,7 +357,7 @@ Se le linee del percorso oscurano il risultato della simulazione, la loro visibi
 
 <div class="mw-translate-fuzzy">
 
-I colori delle linee del percorso sono definiti nella tabella dei colori in Modifica-\>Preferenze\...-\>Path-\>Path. I colori predefiniti sono   *
+I colori delle linee del percorso sono definiti nella tabella dei colori in Modifica-\>Preferenze\...-\>Path-\>Path. I colori predefiniti sono:
 
 1.  Verde per i percorsi normali.
 2.  Rosso per i percorsi in rapida.
@@ -439,7 +439,7 @@ Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei 
 
 <div class="mw-translate-fuzzy">
 
-[https   *//www.freecadweb.org/wiki/Path_scripting Path scripting](https   *//www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
+[https://www.freecadweb.org/wiki/Path_scripting Path scripting](https://www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
 
 
 </div>
@@ -472,7 +472,7 @@ Il workbench Path è stato modificato drasticamente da FreeCAD v0.16 a v0.17, e 
 
 ## Why are arcs not round, but are made of a set of straight lines? 
 
-This is only a matter of displaying the path. You can change this in the preferences   * Load Path workbench.
+This is only a matter of displaying the path. You can change this in the preferences: Load Path workbench.
 
 1.  open Preferences-\>Path-\>Job Preferences
 2.  set the values for *Default Geometry Tolerance* and *Default Curve Accuracy* to small values but not to 0, e.g. to 0.01mm.

@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Points Convert
-   MenuLocation   *Points → Convert to points...
-   Workbenches   *[Points](Points_Workbench.md)
+- GuiCommand:
+   Name:Points Convert
+   MenuLocation:Points → Convert to points...
+   Workbenches:[Points](Points_Workbench.md)
 ---
 
 # Points Convert/pl
@@ -30,25 +30,25 @@ Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the fol
 
 {{TitleProperty|Structured points}}
 
--    **Height|Integer**   * the number of unique Y coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
+-    **Height|Integer**: the number of unique Y coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
 
--    **Width|Integer**   * the number of unique X coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
+-    **Width|Integer**: the number of unique X coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
 
 #### Data hidden 
 
 
 {{TitleProperty|Base}}
 
--    **Points|PointsKernel**   * a Points PointsKernel associated with this object.
+-    **Points|PointsKernel**: a Points PointsKernel associated with this object.
 
--    **Normal|NormalList**   * a list of normals. This property is only available for point clouds created with the [Points Convert](Points_Convert.md) command from mesh objects or shape objects with faces.
+-    **Normal|NormalList**: a list of normals. This property is only available for point clouds created with the [Points Convert](Points_Convert.md) command from mesh objects or shape objects with faces.
 
 ### View
 
 
 {{TitleProperty|Base}}
 
--    **Point Size|FloatConstraint**   * the size in pixels of the points in the [3D view](3D_view.md).
+-    **Point Size|FloatConstraint**: the size in pixels of the points in the [3D view](3D_view.md).
 
 
 

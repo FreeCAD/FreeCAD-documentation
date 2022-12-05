@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Sketcher ValidateSketch
-   Name/es   *Croquizador ValidarCroquis
-   MenuLocation   *Croquizador → Validar Croquis
-   Workbenches   *[Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
-   SeeAlso   *[Croquizador RestringirCoincidencia](Sketcher_ConstrainCoincident/es.md), [Problema de denominación topológica](Topological_naming_problem/es.md)
+- GuiCommand:/es
+   Name:Sketcher ValidateSketch
+   Name/es:Croquizador ValidarCroquis
+   MenuLocation:Croquizador → Validar Croquis
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
+   SeeAlso:[Croquizador RestringirCoincidencia](Sketcher_ConstrainCoincident/es.md), [Problema de denominación topológica](Topological_naming_problem/es.md)
 ---
 
 # Sketcher ValidateSketch/es
@@ -18,14 +18,14 @@ La utilidad **Validar croquis** puede utilizarse para analizar y reparar un croq
 
 ## Utilización
 
-1.  This tool cannot be used on a sketch that is in edit mode. If required exit edit mode by doing one of the following   *
-    -   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button.
+1.  This tool cannot be used on a sketch that is in edit mode. If required exit edit mode by doing one of the following:
+    -   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button.
     -   Press the **Close** button at the top of the [Task panel](Task_panel.md).
-    -   Use the keyboard shortcut   * **Esc** (if enabled in the [Sketcher Preferences](Sketcher_Preferences#General.md)).
+    -   Use the keyboard shortcut: **Esc** (if enabled in the [Sketcher Preferences](Sketcher_Preferences#General.md)).
 2.  Select the sketch to be validated from the [Tree view](Tree_view.md) or by clicking on one of its edges in the [3D view](3D_view.md).
-3.  To open the validate sketch utility do one of the following   *
+3.  To open the validate sketch utility do one of the following:
     -   Select the **Sketch → Validate sketch...** option from the menu.
-    -   Press the **[<img src=images/Sketcher_ValidateSketch.svg style="width   *16px"> [Validate sketch](Sketcher_ValidateSketch.md)** button (not available in the [PartDesign Workbench](PartDesign_Workbench.md)).
+    -   Press the **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Validate sketch](Sketcher_ValidateSketch.md)** button (not available in the [PartDesign Workbench](PartDesign_Workbench.md)).
 4.  See [Options](#Options.md) below for the available operations.
 5.  Press the **Close** button when done.
 
@@ -59,7 +59,7 @@ Degenerated geometry can result from solver actions in a sketch.
 
 For instance, if a line is forced to shorten to become almost a point.
 
-Other examples   * a zero length line or zero radius circle/arc.
+Other examples: a zero length line or zero radius circle/arc.
 
 ### Geometría externa invertida 
 

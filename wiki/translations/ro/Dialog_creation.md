@@ -6,14 +6,14 @@
 
 <div class="mw-translate-fuzzy">
 
-In această pagină vă vom expune cum se construiește o casetă de dialog Qt Dialog cu [Qt Designer](http   *//qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s instrumentul oficial pentru proiectarea interfețelor, apoi se convertesc în codul Pytohn, ca mai apoi să fie utilizat în interiorul FreeCAD. Voi presupune în exemplul acesta că știți cum se editează și se rulează deja scripturile Python și că puteți face lucruri simple într-o fereastră terminală, cum ar fi navigarea, etc. Trebuie să fi instalat, firește, pyqt.
+In această pagină vă vom expune cum se construiește o casetă de dialog Qt Dialog cu [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s instrumentul oficial pentru proiectarea interfețelor, apoi se convertesc în codul Pytohn, ca mai apoi să fie utilizat în interiorul FreeCAD. Voi presupune în exemplul acesta că știți cum se editează și se rulează deja scripturile Python și că puteți face lucruri simple într-o fereastră terminală, cum ar fi navigarea, etc. Trebuie să fi instalat, firește, pyqt.
 
 
 </div>
 
 In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created **.ui** files directly into the program.
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width   *600px;"> 
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
 
@@ -21,24 +21,24 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 ## Proiectarea dialogului 
 
-In aplicațiile CAD , proiectarea unei bune interfețe user UI (User Interface) este foarte importantă. Despre tot ce va face utilizatorul va fi prin intermediul unei interfețe   * citirea casetelor de dialog, apăsarea butoanelor, alegerea între pictograme etc. De aceea este foarte important să vă gândiți cu atenție la ceea ce doriți să faceți, cum doriți să se comporte utilizatorul, și cum va fi fluxul de activități al acțiunii dvs.
+In aplicațiile CAD , proiectarea unei bune interfețe user UI (User Interface) este foarte importantă. Despre tot ce va face utilizatorul va fi prin intermediul unei interfețe: citirea casetelor de dialog, apăsarea butoanelor, alegerea între pictograme etc. De aceea este foarte important să vă gândiți cu atenție la ceea ce doriți să faceți, cum doriți să se comporte utilizatorul, și cum va fi fluxul de activități al acțiunii dvs.
 
 
 </div>
 
-In CAD applications, designing a good UI (User Interface) is very important. About everything the user will do will be through some piece of interface   * reading dialog boxes, pressing buttons, choosing between icons, etc. So it is very important to think carefully to what you want to do, how you want the user to behave, and how will be the workflow of your action.
+In CAD applications, designing a good UI (User Interface) is very important. About everything the user will do will be through some piece of interface: reading dialog boxes, pressing buttons, choosing between icons, etc. So it is very important to think carefully to what you want to do, how you want the user to behave, and how will be the workflow of your action.
 
-Există câteva concepte pe care trebuie să le cunoașteți atunci când proiectați interfața   *
+Există câteva concepte pe care trebuie să le cunoașteți atunci când proiectați interfața:
 
--   [Modal/non-modal dialogs](http   *//en.wikipedia.org/wiki/Modal_window)   * Un dialog modal apare în fața ecranului, oprind acțiunea ferestrei principale, forțând utilizatorului să răspundă la dialog, în timp ce un dialog non-modal nu vă oprește să lucrați pe fereastra principală. În unele cazuri, prima este mai bună, în alte cazuri nu.
--   Identificarea cerințelor și a opțiunilor   * Asigurați-vă că utilizatorul știe ce trebuie să facă. Etichetați totul cu o descriere adecvată, utilizați sfaturi pentru sfaturi, etc.
--   Separarea comenzilor de parametrii   * Aceasta se face de obicei cu butoanele și câmpurile de introducere a textului. Utilizatorul știe că dacă faceți clic pe un buton veți produce o acțiune în timp ce modificați o valoare în interiorul unui câmp de text, veți schimba un parametru undeva. În prezent, totuși, utilizatorii cunosc de obicei bine ce este un buton, ce este un câmp de intrare etc. Setul de instrumente de interfață pe care îl folosim, Qt, este un set de instrumente de ultimă oră și nu ne vom teme prea mult despre clarificarea lucrurilor, deoarece vor fi deja foarte clare de la sine.
+-   [Modal/non-modal dialogs](http://en.wikipedia.org/wiki/Modal_window): Un dialog modal apare în fața ecranului, oprind acțiunea ferestrei principale, forțând utilizatorului să răspundă la dialog, în timp ce un dialog non-modal nu vă oprește să lucrați pe fereastra principală. În unele cazuri, prima este mai bună, în alte cazuri nu.
+-   Identificarea cerințelor și a opțiunilor: Asigurați-vă că utilizatorul știe ce trebuie să facă. Etichetați totul cu o descriere adecvată, utilizați sfaturi pentru sfaturi, etc.
+-   Separarea comenzilor de parametrii: Aceasta se face de obicei cu butoanele și câmpurile de introducere a textului. Utilizatorul știe că dacă faceți clic pe un buton veți produce o acțiune în timp ce modificați o valoare în interiorul unui câmp de text, veți schimba un parametru undeva. În prezent, totuși, utilizatorii cunosc de obicei bine ce este un buton, ce este un câmp de intrare etc. Setul de instrumente de interfață pe care îl folosim, Qt, este un set de instrumente de ultimă oră și nu ne vom teme prea mult despre clarificarea lucrurilor, deoarece vor fi deja foarte clare de la sine.
 
-Deci, acum că am definit bine ce vom face, este timpul să deschidem designerul qt. Să proiectăm un dialog foarte simplu, după cum urmează   *
+Deci, acum că am definit bine ce vom face, este timpul să deschidem designerul qt. Să proiectăm un dialog foarte simplu, după cum urmează:
 
 ![](images/Qttestdialog.jpg )
 
-Apoi, vom folosi acest dialog în FreeCAD pentru a produce un plan dreptunghiular. S-ar putea să nu fie foarte util să produci planuri dreptunghiulare, dar va fi ușor să le schimbi mai târziu pentru a face lucruri mai complexe. Când îl deschideți, Designer Qt arată astfel   *
+Apoi, vom folosi acest dialog în FreeCAD pentru a produce un plan dreptunghiular. S-ar putea să nu fie foarte util să produci planuri dreptunghiulare, dar va fi ușor să le schimbi mai târziu pentru a face lucruri mai complexe. Când îl deschideți, Designer Qt arată astfel:
 
 ![](images/Qtdesigner-screenshot.jpg )
 
@@ -61,7 +61,7 @@ Rețineți că selectăm aici niște controale foarte simple, dar Qt are mai mul
 
 <div class="mw-translate-fuzzy">
 
-Este vorba despre tot ce trebuie să facem în Qt Designer. Un ultim lucru, totuși, să redenumim toate elementele noastre cu nume mai ușor, deci va fi mai ușor să le identificăm în scenariile noastre   *
+Este vorba despre tot ce trebuie să facem în Qt Designer. Un ultim lucru, totuși, să redenumim toate elementele noastre cu nume mai ușor, deci va fi mai ușor să le identificăm în scenariile noastre:
 
 
 </div>
@@ -70,12 +70,12 @@ Este vorba despre tot ce trebuie să facem în Qt Designer. Un ultim lucru, totu
 
 ## Traducerea dialogului nostru în python 
 
-Acum, hai să salvăm widget-ul undeva. Acesta va fi salvat ca un fișier .ui, pe care îl vom converti cu ușurință în scriptul python cu pyuic. Sub Windows, programul pyuic este livrat cu pyqt (pentru a fi verificat), sub Linux probabil că va trebui să îl instalați separat plecând de la managerul de pachete (pe sistemele bazate pe debian, face parte din pachetul pyqt4-dev-tools). Pentru a face conversia, va trebui să deschideți o fereastră de terminal (sau sub Windows o fereastră cu prompt de comandă ), să navigați la locul unde ați salvat fișierul .ui și să emiteți/tastați   * 
+Acum, hai să salvăm widget-ul undeva. Acesta va fi salvat ca un fișier .ui, pe care îl vom converti cu ușurință în scriptul python cu pyuic. Sub Windows, programul pyuic este livrat cu pyqt (pentru a fi verificat), sub Linux probabil că va trebui să îl instalați separat plecând de la managerul de pachete (pe sistemele bazate pe debian, face parte din pachetul pyqt4-dev-tools). Pentru a face conversia, va trebui să deschideți o fereastră de terminal (sau sub Windows o fereastră cu prompt de comandă ), să navigați la locul unde ați salvat fișierul .ui și să emiteți/tastați: 
 ```python
 pyuic mywidget.ui > mywidget.py
-``` În Windows pyuic.py este localizat in \"C   *Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" Pentru conversie creați un batch file numit \"compQt4.bat   * 
+``` În Windows pyuic.py este localizat in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" Pentru conversie creați un batch file numit \"compQt4.bat: 
 ```python
-@"C   *Python27\python" "C   *Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
+@"C:\Python27\python" "C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
 ``` In consola Dos tastează fără extensie 
 ```python
 compQt4 myUiFile
@@ -91,9 +91,9 @@ sudo ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-
 ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app /Applications
 ```
 
-In Linux    * to do
+In Linux : to do
 
-Deoarece FreeCAD s-a depărtat treptat de PyQt după versiunea 0.13, în favoarea [PySide](http   *//qt-project.org/wiki/PySide) (Alegeți-vă PySide install [building/building PySide](http   *//pyside.readthedocs.org/en/latest)), pentru a face fișierul bazat pe PySide acum trebuie să utilizați   *
+Deoarece FreeCAD s-a depărtat treptat de PyQt după versiunea 0.13, în favoarea [PySide](http://qt-project.org/wiki/PySide) (Alegeți-vă PySide install [building/building PySide](http://pyside.readthedocs.org/en/latest)), pentru a face fișierul bazat pe PySide acum trebuie să utilizați:
 
 
 ```python
@@ -103,35 +103,35 @@ pyside-uic mywidget.ui -o mywidget.py
 
 <div class="mw-translate-fuzzy">
 
-In Windows uic.py este localizat in \"C   *Python27\\Lib\\site-packages\\PySide\\scripts\\uic.py\" Pentru a crea un fișier batch \"compSide.bat\"   *
+In Windows uic.py este localizat in \"C:\\Python27\\Lib\\site-packages\\PySide\\scripts\\uic.py\" Pentru a crea un fișier batch \"compSide.bat\":
 
-    @"C   *Python27\python" "C   *Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
+    @"C:\Python27\python" "C:\Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
 
 In consola Dos tastați fără extensie
 
     compSide myUiFile
 
-Into Linux    * to do
+Into Linux : to do
 
 
 </div>
 
 
 ```python
-@"C   *Python27\python" "C   *Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
+@"C:\Python27\python" "C:\Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
 ```
 
 In the DOS console type without extension 
 ```python
 compSide myUiFile
-``` Into Linux    * to do
+``` Into Linux : to do
 
-Pe unele sisteme programul este numit pyuic4 în loc de pyuic. Acest lucru va transforma pur și simplu fișierul .ui într-un script python. Dacă deschidem fișierul mywidget.py, conținutul său este foarte ușor de înțeles   * 
+Pe unele sisteme programul este numit pyuic4 în loc de pyuic. Acest lucru va transforma pur și simplu fișierul .ui într-un script python. Dacă deschidem fișierul mywidget.py, conținutul său este foarte ușor de înțeles: 
 ```python
 from PySide import QtCore, QtGui
 
-class Ui_Dialog(object)   *
-    def setupUi(self, Dialog)   *
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(187, 178)
         self.title = QtGui.QLabel(Dialog)
@@ -143,13 +143,13 @@ class Ui_Dialog(object)   *
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-   def retranslateUi(self, Dialog)   *
+   def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` După cum vedeți, are o structură foarte simplă   * este creată o clasă numită Ui_Dialog, care stochează elementele de interfață ale widget-ului nostru. Această clasă are două metode, una pentru configurarea widget-ului și una pentru traducerea conținutului său, care este parte din mecanismul general Qt pentru traducerea elementelor de interfață. Metoda de configurare creează pur și simplu, unul câte unul, widget-urile așa cum le-am definit în Qt Designer și le stabilește opțiunile așa cum am decis mai devreme. Apoi, întreaga interfață este tradusă și, în sfârșit, sloturile se conectează (vom vorbi despre asta mai târziu).
+``` După cum vedeți, are o structură foarte simplă: este creată o clasă numită Ui_Dialog, care stochează elementele de interfață ale widget-ului nostru. Această clasă are două metode, una pentru configurarea widget-ului și una pentru traducerea conținutului său, care este parte din mecanismul general Qt pentru traducerea elementelor de interfață. Metoda de configurare creează pur și simplu, unul câte unul, widget-urile așa cum le-am definit în Qt Designer și le stabilește opțiunile așa cum am decis mai devreme. Apoi, întreaga interfață este tradusă și, în sfârșit, sloturile se conectează (vom vorbi despre asta mai târziu).
 
-Acum putem crea un nou widget și putem folosi această clasă pentru a crea interfața sa. Putem vedea deja widget-ul nostru în acțiune, punând fișierul mywidget.py într-un loc în care va fi găsit de către FreeCAD (în directorul bin FreeCAD sau în oricare dintre subdirectoarele Mod) și, în interpretul Python FreeCAD, facem   * 
+Acum putem crea un nou widget și putem folosi această clasă pentru a crea interfața sa. Putem vedea deja widget-ul nostru în acțiune, punând fișierul mywidget.py într-un loc în care va fi găsit de către FreeCAD (în directorul bin FreeCAD sau în oricare dintre subdirectoarele Mod) și, în interpretul Python FreeCAD, facem: 
 ```python
 from PySide import QtGui
 import mywidget
@@ -157,28 +157,28 @@ d = QtGui.QWidget()
 d.ui = mywidget.Ui_Dialog()
 d.ui.setupUi(d)
 d.show()
-``` Și dialogul nostru va apărea! Rețineți că interpretorul nostru Python funcționează încă, avem o fereastră de dialog nemodal. Deci, pentru a o închide, putem (în afară de a face clic pe iconița/pictograma ei apropiată, desigur) să facem   * 
+``` Și dialogul nostru va apărea! Rețineți că interpretorul nostru Python funcționează încă, avem o fereastră de dialog nemodal. Deci, pentru a o închide, putem (în afară de a face clic pe iconița/pictograma ei apropiată, desigur) să facem: 
 ```python
 d.hide()
 ```
 
 ## Hai să facem ceva cu fereastra noastră de dialog 
 
-Acum, că putem afișa și ascunde fereasta noastră de dialog, trebuie doar să adăugăm o ultimă parte   * Să faci ceva! Dacă explorați un pic designerul Qt, veți descoperi rapid o întreagă secțiune numită \"semnale și sloturi\". Practic, funcționează astfel   * elementele de pe widget-urile dvs. (în terminologia Qt, aceste elemente sunt ele însele widget-uri) pot trimite semnale. Aceste semnale diferă în funcție de tipul de widget. De exemplu, un buton poate trimite un semnal atunci când este apăsat și când este eliberat. Aceste semnale pot fi conectate la sloturi, care pot fi funcționalități speciale ale altor widgeturi (de exemplu, un dialog are un slot \"închis\" la care puteți conecta semnalul de la un buton de închidere) sau pot fi funcții personalizate. Documentația [PyQt Reference Documentation](http   *//www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) afișează toate widgeturile qt, ce pot face ele și ce semnale pot trimite etc.
+Acum, că putem afișa și ascunde fereasta noastră de dialog, trebuie doar să adăugăm o ultimă parte: Să faci ceva! Dacă explorați un pic designerul Qt, veți descoperi rapid o întreagă secțiune numită \"semnale și sloturi\". Practic, funcționează astfel: elementele de pe widget-urile dvs. (în terminologia Qt, aceste elemente sunt ele însele widget-uri) pot trimite semnale. Aceste semnale diferă în funcție de tipul de widget. De exemplu, un buton poate trimite un semnal atunci când este apăsat și când este eliberat. Aceste semnale pot fi conectate la sloturi, care pot fi funcționalități speciale ale altor widgeturi (de exemplu, un dialog are un slot \"închis\" la care puteți conecta semnalul de la un buton de închidere) sau pot fi funcții personalizate. Documentația [PyQt Reference Documentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) afișează toate widgeturile qt, ce pot face ele și ce semnale pot trimite etc.
 
-Ceea ce vom face aici este crearea unei noi funcții care va crea un plan definit pe înălțime și lățime și pentru conectarea acelei funcții la semnalul emis de butonul apăsat \"Creare!\". Deci, să începem cu importul modulelor noastre FreeCAD, punând următoarea linie în partea de sus a scriptului, unde deja importăm QtCore și QtGui   * 
+Ceea ce vom face aici este crearea unei noi funcții care va crea un plan definit pe înălțime și lățime și pentru conectarea acelei funcții la semnalul emis de butonul apăsat \"Creare!\". Deci, să începem cu importul modulelor noastre FreeCAD, punând următoarea linie în partea de sus a scriptului, unde deja importăm QtCore și QtGui: 
 ```python
 import FreeCAD, Part
-``` Apoi, hai să adăugăm o nouă funție la a noastră Ui_Dialog class   * 
+``` Apoi, hai să adăugăm o nouă funție la a noastră Ui_Dialog class: 
 ```python
-def createPlane(self)   *
-    try   *
+def createPlane(self):
+    try:
         # first we check if valid numbers have been entered
         w = float(self.width.text())
         h = float(self.height.text())
-    except ValueError   *
+    except ValueError:
         print("Error! Width and Height values must be valid numbers!")
-    else   *
+    else:
         # create a face from 4 points
         p1 = FreeCAD.Vector(0,0,0)
         p2 = FreeCAD.Vector(w,0,0)
@@ -189,18 +189,18 @@ def createPlane(self)   *
         myface = Part.Face(mywire)
         Part.show(myface)
         self.hide()
-``` Apoi, trebuie să informăm Qt pentru a conecta butonul la funcție, plasând următoarea linie înainte QtCore.QMetaObject.connectSlotsByName(Dialog)   * 
+``` Apoi, trebuie să informăm Qt pentru a conecta butonul la funcție, plasând următoarea linie înainte QtCore.QMetaObject.connectSlotsByName(Dialog): 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` Aceasta, după cum vedeți, conectează semnalul pressed() pus de obiectul creat (butonul \"Creare!\"), Într-un slot numit createPlane, pe care tocmai l-am definit. Gata, asta e! Acum, ca tușă finală, putem adăuga o mică funcție pentru a crea dialogul, va fi mai ușor de apelat. În afara clasei Ui_Dialog, să adăugăm acest cod   * 
+``` Aceasta, după cum vedeți, conectează semnalul pressed() pus de obiectul creat (butonul \"Creare!\"), Într-un slot numit createPlane, pe care tocmai l-am definit. Gata, asta e! Acum, ca tușă finală, putem adăuga o mică funcție pentru a crea dialogul, va fi mai ușor de apelat. În afara clasei Ui_Dialog, să adăugăm acest cod: 
 ```python
-class plane()   *
-   def __init__(self)   *
+class plane():
+   def __init__(self):
        self.d = QtGui.QWidget()
        self.ui = Ui_Dialog()
        self.ui.setupUi(self.d)
        self.d.show()
-``` (Python amintește   * the \_\_init\_\_ method of a class este executată automat ori de câte ori este creat un obiect nou!) Apoi, de la FreeCAD, avem nevoie doar de   * 
+``` (Python amintește: the \_\_init\_\_ method of a class este executată automat ori de câte ori este creat un obiect nou!) Apoi, de la FreeCAD, avem nevoie doar de: 
 ```python
 import mywidget
 myDialog = mywidget.plane()
@@ -208,20 +208,20 @@ myDialog = mywidget.plane()
 
 ## Scriptul complet 
 
-Acesta este scriptul complet, pentru referințe   * 
+Acesta este scriptul complet, pentru referințe: 
 ```python
 # Form implementation generated from reading ui file 'mywidget.ui'
 #
-# Created   * Mon Jun  1 19   *09   *10 2009
-#      by   * PyQt4 UI code generator 4.4.4
-# Modified for PySide 16   *02   *2015 
+# Created: Mon Jun  1 19:09:10 2009
+#      by: PyQt4 UI code generator 4.4.4
+# Modified for PySide 16:02:2015 
 # WARNING! All changes made in this file will be lost!
 
 from PySide import QtCore, QtGui
 import FreeCAD, Part 
 
-class Ui_Dialog(object)   *
-   def setupUi(self, Dialog)   *
+class Ui_Dialog(object):
+   def setupUi(self, Dialog):
        Dialog.setObjectName("Dialog")
        Dialog.resize(187, 178)
        self.title = QtGui.QLabel(Dialog)
@@ -247,21 +247,21 @@ class Ui_Dialog(object)   *
        QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
        QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-   def retranslateUi(self, Dialog)   *
+   def retranslateUi(self, Dialog):
        Dialog.setWindowTitle("Dialog")
        self.title.setText("Plane-O-Matic")
        self.label_width.setText("Width")
        self.label_height.setText("Height")
        self.create.setText("Create!")
        print("tyty")
-   def createPlane(self)   *
-       try   *
+   def createPlane(self):
+       try:
            # first we check if valid numbers have been entered
            w = float(self.width.text())
            h = float(self.height.text())
-       except ValueError   *
+       except ValueError:
            print("Error! Width and Height values must be valid numbers!")
-       else   *
+       else:
            # create a face from 4 points
            p1 = FreeCAD.Vector(0,0,0)
            p2 = FreeCAD.Vector(w,0,0)
@@ -272,8 +272,8 @@ class Ui_Dialog(object)   *
            myface = Part.Face(mywire)
            Part.show(myface)
 
-class plane()   *
-  def __init__(self)   *
+class plane():
+  def __init__(self):
       self.d = QtGui.QWidget()
       self.ui = Ui_Dialog()
       self.ui.setupUi(self.d)
@@ -298,7 +298,7 @@ class plane()   *
 
 ## Relevant links 
 
--   [Manual   *Creating interface tools](Manual_Creating_interface_tools.md)
+-   [Manual:Creating interface tools](Manual_Creating_interface_tools.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -308,11 +308,6 @@ class plane()   *
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

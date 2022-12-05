@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher Create Rectangles
-   Name/fr   *Sketcher Rectangles
-   Icon   *Sketcher_CompCreateRectangles.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Version   *0.20
+- GuiCommand:/fr
+   Name:Sketcher Create Rectangles
+   Name/fr:Sketcher Rectangles
+   Icon:Sketcher_CompCreateRectangles.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Version:0.20
 ---
 
 # Sketcher CompCreateRectangles/fr
@@ -16,9 +16,9 @@
 
 ## Types de rectangles 
 
--   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [Rectangle](Sketcher_CreateRectangle/fr.md)    * Dessine un rectangle à partir de 2 points opposés.
--   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *32px;"> [Rectangle centré](Sketcher_CreateRectangle_Center/fr.md)    * Dessine un rectangle à partir d\'un point central et d\'un point du bord. {{Version/fr|0.20}}
--   <img alt="" src=images/Sketcher_CreateOblong.svg  style="width   *32px;"> [Rectangle arrondi](Sketcher_CreateOblong/fr.md)    * Dessine un rectangle arrondi à partir de 2 points opposés. {{Version/fr|0.20}}
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle/fr.md) : Dessine un rectangle à partir de 2 points opposés.
+-   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Rectangle centré](Sketcher_CreateRectangle_Center/fr.md) : Dessine un rectangle à partir d\'un point central et d\'un point du bord. {{Version/fr|0.20}}
+-   <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rectangle arrondi](Sketcher_CreateOblong/fr.md) : Dessine un rectangle arrondi à partir de 2 points opposés. {{Version/fr|0.20}}
 
 
 

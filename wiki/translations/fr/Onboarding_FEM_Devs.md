@@ -96,11 +96,11 @@ Le code FEM se trouve dans `src/Mod/Fem`.
 
 ### Conventions de codage 
 
-Veuillez consulter le fichier [coding_conventions.md](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) sur le dépôt de FreeCAD.
+Veuillez consulter le fichier [coding_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) sur le dépôt de FreeCAD.
 
 ## Ajout de nouveaux solveurs FEM 
 
-Un nouveau solveur FEM nécessite les éléments suivants    *
+Un nouveau solveur FEM nécessite les éléments suivants :
 
 -   Exportateur de maillage
 -   Importateur de résultats
@@ -111,12 +111,12 @@ Un nouveau solveur FEM nécessite les éléments suivants    *
 -   Un test unitaire pour l\'écriture du solveur. Le mieux est de prendre le cantilever ccx. Ceci est disponible pour tous les types d\'éléments de maillage.
 -   Boire une ou deux bières
 
-Voir aussi    *
+Voir aussi :
 
--   [Ajouter un tutoriel sur le solveur FEM](Sandbox   *Add_FEM_Solver_Tutorial/fr.md).
+-   [Ajouter un tutoriel sur le solveur FEM](Sandbox:Add_FEM_Solver_Tutorial/fr.md).
 -   [Tutoriel FEM Module d\'extension](Extend_FEM_Module/fr.md)
--   Les efforts d\'implémentation du solveur [oofem](https   *//github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem).
--   Les efforts de mise en œuvre du solveur \[<https   *//github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\].
+-   Les efforts d\'implémentation du solveur [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem).
+-   Les efforts de mise en œuvre du solveur \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\].
 
 ## Écrire des tests unitaires 
 
@@ -125,18 +125,16 @@ A définir
 ## Informatif
 
 -   [Encapsuler une classe Cplusplus dans Python](Wrapping_a_Cplusplus_class_in_Python/fr.md)
--   [Tutoriel   * Ajouter des équations FEM](Add_FEM_Equation_Tutorial/fr.md)
+-   [Tutoriel: Ajouter des équations FEM](Add_FEM_Equation_Tutorial/fr.md)
 -   [Tutoriel Ajout d\'un bouton dans la barre d\'outils FEM](Add_Button_to_FEM_Toolbar_Tutorial/fr.md)
 
 ## En relation 
 
--   Bugs FEM dans le [bugtracker de FreeCAD](https   *//tracker.freecadweb.org/set_project.php?project_id=4;14).
--   Ouvrir les commentaires FEM [FIXME](https   *//github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) dans le code source de FreeCAD
--   Ouvrez les commentaires FEM [TODO](https   *//github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) dans le code source de FreeCAD.
--   [Discussion sur le fil de discussion original](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=60574) pour cette page wiki.
+-   Bugs FEM dans le [bugtracker de FreeCAD](https://tracker.freecadweb.org/set_project.php?project_id=4;14).
+-   Ouvrir les commentaires FEM [FIXME](https://github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) dans le code source de FreeCAD
+-   Ouvrez les commentaires FEM [TODO](https://github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) dans le code source de FreeCAD.
+-   [Discussion sur le fil de discussion original](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) pour cette page wiki.
 -   [atelier FEM](FEM_Workbench/fr.md)
-
-[Category   *FEM](Category_FEM.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

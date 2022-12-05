@@ -1,8 +1,6 @@
 # Category:User Documentation/tr
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-[Category   *Documentation/tr](Category   *Documentation/tr.md)
-
 ### Contents
 
 |     |     |     |

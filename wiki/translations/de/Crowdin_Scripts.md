@@ -3,13 +3,13 @@
 
 ## Verwalten von Übersetzungen für FreeCAD 
 
-FreeCAD nutzt den Übersetzungsdienst [Crowdin](https   *//crowdin.com/project/freecad) um Übesetzungen zu verwalten.
+FreeCAD nutzt den Übersetzungsdienst [Crowdin](https://crowdin.com/project/freecad) um Übesetzungen zu verwalten.
 
-Es gibt 3 Skripten in FreeCAD/src/Tools die zur Verwaltung von Übersetzungsdateien verwendet werden   *
+Es gibt 3 Skripten in FreeCAD/src/Tools die zur Verwaltung von Übersetzungsdateien verwendet werden:
 
-1.  updatets.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
-2.  updatecrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
-3.  updatefromcrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
+1.  updatets.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
+2.  updatecrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
+3.  updatefromcrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
 
 ### Hinweise
 
@@ -21,11 +21,11 @@ Es gibt 3 Skripten in FreeCAD/src/Tools die zur Verwaltung von Übersetzungsdate
 
 Das updatets.py Skript erzeugt \'.ts\'-Dateien (Qt Translation Source Files) in Deinem lokalen FreeCAD/-Verzeichnis.
 
-Es ist eingebunden in   * python2 updatets.py
+Es ist eingebunden in: python2 updatets.py
 
 ### updatecrowdin.py
 
-Das updatecrowdin.py Skript schiebt Änderungen aus Deinem lokalen FreeCAD/-Verzeichnis zu crowdin (3rd party translation crowdsource translation service). Das Skript unterstützt aktuell 4 Argumente   *
+Das updatecrowdin.py Skript schiebt Änderungen aus Deinem lokalen FreeCAD/-Verzeichnis zu crowdin (3rd party translation crowdsource translation service). Das Skript unterstützt aktuell 4 Argumente:
 
 -   updatecrowdin.py status gibt den Status der Übersetzungen aus;
 -   updatecrowdin.py update aktualisiert in crowdin die aktuelle Version der \'.ts\'-Dateien, die im Quellcode gefunden werden;
@@ -39,7 +39,7 @@ Das updatefromcrowdin.py Skript schiebt Änderungen aus crowdin auf Dein lokales
 ## Die neuesten Begriffe (strings) nach crowdin senden 
 
 -   nur auf Linux getestet;
--   es muss eine \'.credentials\'-Datei im lokalen /home/YourUser Vezeichnis existieren. Diese einfache Textdatei enthält nur eine Zeile mit dem API-Schlüssel (key), den man von <https   *//crowdin.com/project/freecad/settings#api> bekommt (nur für Administratoren)
+-   es muss eine \'.credentials\'-Datei im lokalen /home/YourUser Vezeichnis existieren. Diese einfache Textdatei enthält nur eine Zeile mit dem API-Schlüssel (key), den man von <https://crowdin.com/project/freecad/settings#api> bekommt (nur für Administratoren)
 -   das Repository muß sauber sein (git pull, git stash, wenn erforderlich);
 -   cd /path/to/freecad-source-code/src/Tools
 -   \'python updatets.py\' befüllt alle \'.ts\'-Dateien aus dem Quellcode mit den neuesten Begriffen (strings)
@@ -50,7 +50,7 @@ Das updatefromcrowdin.py Skript schiebt Änderungen aus crowdin auf Dein lokales
 ## Die neuesten Übersetzungen aus crowdin zusammenführen 
 
 -   nur auf Linux getestet;
--   es muss eine \'.credentials\'-Datei im lokalen /home/YourUser Vezeichnis existieren. Diese einfache Textdatei enthält nur eine Zeile mit dem API-Schlüssel (key), den man von <https   *//crowdin.com/project/freecad/settings#api> bekommt (nur für Administratoren)
+-   es muss eine \'.credentials\'-Datei im lokalen /home/YourUser Vezeichnis existieren. Diese einfache Textdatei enthält nur eine Zeile mit dem API-Schlüssel (key), den man von <https://crowdin.com/project/freecad/settings#api> bekommt (nur für Administratoren)
 -   das Repository muß sauber sein (git pull, git stash, wenn erforderlich);
 -   cd /path/to/freecad-source-code/src/Tools
 -   \'python updatecrowdin.py build\' (erstellt eine zip-Datei auf crowdin mit allen Dateien (dies kann eine Weile dauern). Dieser Schritt kann auch auf der crowdin-Website ausgeführt werden.
@@ -86,11 +86,6 @@ Das updatefromcrowdin.py Skript schiebt Änderungen aus crowdin auf Dein lokales
 -   [Übersetzungen](Localisation/de.md)
 -   [crowdin - Verwaltung](Crowdin_Administration/de.md)
 -   [Freigabeprozess](Release_process.md)
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

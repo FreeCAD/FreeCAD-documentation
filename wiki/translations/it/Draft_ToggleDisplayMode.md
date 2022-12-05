@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft ToggleDisplayMode
-   Name/it   *Aspetto
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Utilità → Cambia la visualizzazione
-   Shortcut   ***Maiusc** + **Spazio**
-   SeeAlso   *[Gestire la visibilità](Std_ToggleVisibility/it.md)
+- GuiCommand:/it
+   Name:Draft ToggleDisplayMode
+   Name/it:Aspetto
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Utilità → Cambia la visualizzazione
+   Shortcut:**Maiusc** + **Spazio**
+   SeeAlso:[Gestire la visibilità](Std_ToggleVisibility/it.md)
 ---
 
 # Draft ToggleDisplayMode/it
@@ -23,7 +23,7 @@ Questo strumento imposta la proprietà **Display Mode** dell\'oggetto selezionat
 
 </div>
 
-<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width   *400px;">
+<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">

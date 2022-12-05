@@ -1,8 +1,6 @@
 # Category:Obsolete Workbenches/de
 Diese Kategorie zeigt eine Liste der veralteten Arbeitsbereiche, d.h. Arbeitsbereiche, die alt sind und nicht gewartet werden und durch andere Arbeitsbereich ersetzt wurden.
 
-[Category   *Workbenches/de](Category   *Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

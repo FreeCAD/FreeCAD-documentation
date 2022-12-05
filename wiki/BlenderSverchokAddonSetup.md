@@ -13,13 +13,13 @@ Both Blender and FreeCAD version continue to change and may different on any giv
 
 ### Debian 11 
 
-(Note   * on this machine I build multiple flavors of FreeCAD. Here I discuss my install/build of FreeCAD source retrieved and built from github daily. I run FreeCAD from the build directory and do not install, i.e. I never run 'make install' .)
+(Note: on this machine I build multiple flavors of FreeCAD. Here I discuss my install/build of FreeCAD source retrieved and built from github daily. I run FreeCAD from the build directory and do not install, i.e. I never run 'make install' .)
 
 This PC has Python 3.9.2.
 
 Blender is at 2.93.3. In the Addons section sverchok nodes (1.0.1) are installed in the usual way. But, there is no path specified for FreeCAD python. On the Addons Blender/sverchok setup line for FreeCAD it says 'FreeCAD package is available'.
 
-At the Python console in Blender (Shift-F4) the following commands produce   *
+At the Python console in Blender (Shift-F4) the following commands produce:
 
 
 ```python
@@ -33,13 +33,13 @@ import Part; Part.__file__
 '~/fc-daily-build-occt77/Mod/Part/Part.so'
 ```
 
-(Note   * the tide represents the users home directory)
+(Note: the tide represents the users home directory)
 
-(Note   * so the modules that Python finds are in the build folder in my home directory.) (Note   * Modules PartDesign and freecad don\'t have .so files, but, Part does.)
+(Note: so the modules that Python finds are in the build folder in my home directory.) (Note: Modules PartDesign and freecad don\'t have .so files, but, Part does.)
 
-If python sys.path is used to see the path it searches   *
+If python sys.path is used to see the path it searches:
 
-(Note   * in this particular case, it works with nothing specified in the Blender Preferences Sverchok addons FreeCAD path. This happens on this particular PC because the Python path includes the required FreeCAD modules.)
+(Note: in this particular case, it works with nothing specified in the Blender Preferences Sverchok addons FreeCAD path. This happens on this particular PC because the Python path includes the required FreeCAD modules.)
 
 
 ```python

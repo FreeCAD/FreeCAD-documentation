@@ -5,11 +5,11 @@
 
 The preferences screen of the [Path Workbench](Path_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Path**.
 
-There are four tabs   * [Job preferences](#Job_preferences.md), [Dressups](#Dressups.md), [GUI](#GUI.md) and [Advanced](#Advanced.md).
+There are four tabs: [Job preferences](#Job_preferences.md), [Dressups](#Dressups.md), [GUI](#GUI.md) and [Advanced](#Advanced.md).
 
 ## Job preferences 
 
-There are four sections   * General, Post processor, Setup and Tools.
+There are four sections: General, Post processor, Setup and Tools.
 
 ### Job preferences → General 
 
@@ -45,9 +45,7 @@ There are four sections   * General, Post processor, Setup and Tools.
 
 {{Path_Tools_navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

@@ -1,8 +1,6 @@
 # Category:User Documentation/zh-cn
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-[Category   *Documentation/zh-cn](Category   *Documentation/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

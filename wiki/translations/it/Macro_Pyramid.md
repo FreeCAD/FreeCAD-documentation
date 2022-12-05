@@ -7,7 +7,7 @@
 |Version=01.01
 |Date=2019-11-10
 |FCVersion=All
-|Download=[https   *//raw.githubusercontent.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons/master/icons/pyramid.svg Icon ToolBar]
+|Download=[https://raw.githubusercontent.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons/master/icons/pyramid.svg Icon ToolBar]
 |SeeAlso=[Macro Polyhedrons](Macro_Polyhedrons/it.md) <img src="images/Dodecahedron.svg" width=24px>
 }}
 
@@ -19,28 +19,28 @@ Questa macro crea una piramide parametrica.
 -   Tutti i parametri possono essere regolati.
 -   È possibile creare piramidi con una punta perfetta.
 
-Nota   *
+Nota:
 
 Se si è interessati anche ai poliedri, si può anche utilizzare Macro Polyhedrons.
-Se si è interessati esiste l\'ambiente esterno [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (link github) che contiene la stessa funzione.
+Se si è interessati esiste l\'ambiente esterno [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (link github) che contiene la stessa funzione.
 
 ![](images/Polyhedrons.png )
 
 
 
-*Esempio di creazione con il workbench esterno [https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (github link) che contiene la stessa funzione.*
+*Esempio di creazione con il workbench esterno [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (github link) che contiene la stessa funzione.*
 
 ## Utilizzo
 
--   Installazione   * utilizza Tools / Addon manager / Macro\'s <img alt="" src=images/AddonManager.svg  style="width   *24px;"> per installare la macro.
+-   Installazione: utilizza Tools / Addon manager / Macro\'s <img alt="" src=images/AddonManager.svg  style="width:24px;"> per installare la macro.
 -   Una volta installato, aprire il Menu → Macro → Macro. Fare clic su pyramid.py e quindi fare clic sul pulsante {{button|esegui}}.
 -   Appare una piramide a nodi, simile al cono di Part
 -   Modificare i parametri proprio come con il cono di Part.
---   Vedere le informazioni su [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+--   Vedere le informazioni su [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
 ## Script
 
-Icon ToolBar <img alt="" src=images/Pyramidicon.svg  style="width   *64px;">
+Icon ToolBar <img alt="" src=images/Pyramidicon.svg  style="width:64px;">
 
 **pyramid.py**
 
@@ -83,45 +83,45 @@ import math
 
 
 
-def create(obj_name)   *
-    obj=FreeCAD.ActiveDocument.addObject("Part   *   *FeaturePython",obj_name) 
+def create(obj_name):
+    obj=FreeCAD.ActiveDocument.addObject("Part::FeaturePython",obj_name) 
     fpo = Pyramid(obj)
     ViewProviderBox(obj.ViewObject)  
     FreeCAD.ActiveDocument.recompute()
     return fpo
 
 
-def horizontal_regular_polygon_vertexes(sidescount,radius,z, startangle = 0)   *
+def horizontal_regular_polygon_vertexes(sidescount,radius,z, startangle = 0):
     vertexes = []
-    if radius != 0    *
-        for i in range(0,sidescount+1)   *
+    if radius != 0 :
+        for i in range(0,sidescount+1):
             angle = 2 * math.pi * i / sidescount + math.pi + startangle
             vertex = (radius * math.cos(angle), radius * math.sin(angle), z)
             vertexes.append(vertex)
-    else   *
+    else:
         vertex = (0,0,z)
         vertexes.append(vertex)
     return vertexes
 
 
-def horizontal_regular_pyramid_vertexes(sidescount,radius,z, startangle = 0)   *
+def horizontal_regular_pyramid_vertexes(sidescount,radius,z, startangle = 0):
     vertexes = []
     odd = 0
-    if (sidescount % 2) == 0   *
+    if (sidescount % 2) == 0:
         odd = 1
-    if radius != 0    *
-        for i in range(0,sidescount+1)   *
+    if radius != 0 :
+        for i in range(0,sidescount+1):
             angle = 2 * math.pi * i / sidescount + (math.pi * (odd/sidescount + 1/2)) + startangle * math.pi / 180
             vertex = (radius * math.cos(angle), radius * math.sin(angle), z)
             vertexes.append(vertex)
-    else   *
+    else:
         vertex = (0,0,z)
         vertexes.append(vertex)
     return vertexes
 
 # =========================================================================== 
 
-class Pyramid   *
+class Pyramid:
  
     radius1value = 0
     radius2value = 0
@@ -130,19 +130,19 @@ class Pyramid   *
     side2value = 0
     anglez = 0
 
-    def __init__(self, obj, sidescount = 5,radius_bottom = 2 , radius_top = 4, height = 10, angz = 0)   *
-        obj.addProperty("App   *   *PropertyLength","Radius1","Pyramid","Radius of the pyramid").Radius1=radius_bottom
-        obj.addProperty("App   *   *PropertyLength","Radius2","Pyramid","Radius of the pyramid").Radius2=radius_top
-        obj.addProperty("App   *   *PropertyLength","Height","Pyramid","Height of the pyramid").Height = height
-        obj.addProperty("App   *   *PropertyInteger","Sidescount","Pyramid","Sidescount of the pyramid").Sidescount = sidescount
-        obj.addProperty("App   *   *PropertyLength","Sidelength1","Pyramid","Sidelength1 of the pyramid")
-        obj.addProperty("App   *   *PropertyLength","Sidelength2","Pyramid","Sidelength2 of the pyramid")
-        obj.addProperty("App   *   *PropertyAngle","Z_rotation","Pyramid","alfa angle around Z").Z_rotation = angz
+    def __init__(self, obj, sidescount = 5,radius_bottom = 2 , radius_top = 4, height = 10, angz = 0):
+        obj.addProperty("App::PropertyLength","Radius1","Pyramid","Radius of the pyramid").Radius1=radius_bottom
+        obj.addProperty("App::PropertyLength","Radius2","Pyramid","Radius of the pyramid").Radius2=radius_top
+        obj.addProperty("App::PropertyLength","Height","Pyramid","Height of the pyramid").Height = height
+        obj.addProperty("App::PropertyInteger","Sidescount","Pyramid","Sidescount of the pyramid").Sidescount = sidescount
+        obj.addProperty("App::PropertyLength","Sidelength1","Pyramid","Sidelength1 of the pyramid")
+        obj.addProperty("App::PropertyLength","Sidelength2","Pyramid","Sidelength2 of the pyramid")
+        obj.addProperty("App::PropertyAngle","Z_rotation","Pyramid","alfa angle around Z").Z_rotation = angz
 
         obj.Proxy = self
 
         
-    def execute (self,obj)   *
+    def execute (self,obj):
               
         sidescount = int(obj.Sidescount)
         angle = 2 * math.pi / sidescount
@@ -153,21 +153,21 @@ class Pyramid   *
         height = float(obj.Height)
         anglez = float(obj.Z_rotation)
 
-        if radius_bottom != self.radius1value or sidescount != self.sidescountvalue   *
+        if radius_bottom != self.radius1value or sidescount != self.sidescountvalue:
             obj.Sidelength1 = radius_bottom * math.sin(angle/2) * 2
             self.radius1value = radius_bottom
             self.side1value = float(obj.Sidelength1)
-        elif sidelength_bottom != self.side1value   *
+        elif sidelength_bottom != self.side1value:
             self.radius1value = float(obj.Sidelength1 / 2) / math.sin(angle/2) 
             obj.Radius1 = self.radius1value
             radius_bottom = self.radius1value
             self.side1value = float(obj.Sidelength1)
 
-        if radius_top != self.radius2value or sidescount != self.sidescountvalue   * 
+        if radius_top != self.radius2value or sidescount != self.sidescountvalue: 
             obj.Sidelength2 = radius_top * math.sin(angle/2) * 2
             self.radius2value = float(radius_top)
             self.side2value = float(obj.Sidelength2)
-        elif sidelength_top != self.side2value   *
+        elif sidelength_top != self.side2value:
             self.radius2value = float(obj.Sidelength2 / 2) / math.sin(angle/2) 
             obj.Radius2 = self.radius2value
             radius_top = self.radius2value
@@ -175,27 +175,27 @@ class Pyramid   *
             
         self.sidescountvalue = sidescount
         faces = []
-        if radius_bottom == 0 and radius_top == 0   *
+        if radius_bottom == 0 and radius_top == 0:
             FreeCAD.Console.PrintMessage("Both radiuses are zero" + "\n")
-        else   *
+        else:
             vertexes_bottom = horizontal_regular_pyramid_vertexes(sidescount,radius_bottom,0     ,anglez)
             vertexes_top    = horizontal_regular_pyramid_vertexes(sidescount,radius_top   ,height,anglez)
 
-            if radius_bottom != 0   *
+            if radius_bottom != 0:
                 polygon_bottom = Part.makePolygon(vertexes_bottom)
                 face_bottom = Part.Face(polygon_bottom)
                 faces.append(face_bottom)
-            if radius_top != 0   *    
+            if radius_top != 0:    
                 polygon_top = Part.makePolygon(vertexes_top)
                 face_top = Part.Face(polygon_top)
                 faces.append(face_top)
 
-            for i in range(sidescount)   *            
-                if radius_top == 0   *
+            for i in range(sidescount):            
+                if radius_top == 0:
                     vertexes_side=[vertexes_bottom[i],vertexes_bottom[i+1],vertexes_top[0],vertexes_bottom[i]]
-                elif radius_bottom == 0   *
+                elif radius_bottom == 0:
                     vertexes_side=[vertexes_bottom[0],vertexes_top[i+1],vertexes_top[i],vertexes_bottom[0]]
-                else   *
+                else:
                     vertexes_side=[vertexes_bottom[i],vertexes_bottom[i+1],vertexes_top[i+1],vertexes_top[i],vertexes_bottom[i]]
                 polygon_side=Part.makePolygon(vertexes_side)
                 faces.append(Part.Face(polygon_side))
@@ -207,29 +207,29 @@ class Pyramid   *
 
 # ===========================================================================    
 
-class ViewProviderBox   *
-    def __init__(self, obj)   *
+class ViewProviderBox:
+    def __init__(self, obj):
         obj.Proxy = self
 
-    def attach(self, obj)   *
+    def attach(self, obj):
         return
 
-    def updateData(self, fp, prop)   *
+    def updateData(self, fp, prop):
         return
 
-    def getDisplayModes(self,obj)   *
+    def getDisplayModes(self,obj):
         return "As Is"
         
-    def getDefaultDisplayMode(self)   *
+    def getDefaultDisplayMode(self):
         return "As Is"
 
-    def setDisplayMode(self,mode)   *
+    def setDisplayMode(self,mode):
         return "As Is"
 
-    def onChanged(self, vobj, prop)   *
+    def onChanged(self, vobj, prop):
         pass
         
-    def getIcon(self)   *
+    def getIcon(self):
         return """
         /* XPM */
         static char * xpm[] = {
@@ -276,15 +276,15 @@ class ViewProviderBox   *
         "                                ",
         "                                "};
         """
-    def __getstate__(self)   *
+    def __getstate__(self):
         return None
 
-    def __setstate__(self,state)   *
+    def __setstate__(self,state):
         return None
        
 # ===========================================================================    
 
-if FreeCAD.ActiveDocument == None   *
+if FreeCAD.ActiveDocument == None:
     FreeCAD.newDocument()
 
 create ("Pyramid")
@@ -294,7 +294,7 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 ## Vincolo
 
-La discussione sul forum [Macros for pyramids and polyhedrons](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=40485&p=344116&hilit=Eddyverl#p344116)
+La discussione sul forum [Macros for pyramids and polyhedrons](https://forum.freecadweb.org/viewtopic.php?f=22&t=40485&p=344116&hilit=Eddyverl#p344116)
 
 
 

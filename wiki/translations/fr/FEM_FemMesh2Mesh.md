@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM FemMesh2Mesh
-   Name/fr   *FEM Maillage FEM à maillage
-   MenuLocation   *Maillage → Maillage FEM à maillage
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM FemMesh2Mesh
+   Name/fr:FEM Maillage FEM à maillage
+   MenuLocation:Maillage → Maillage FEM à maillage
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM FemMesh2Mesh/fr
@@ -17,15 +17,15 @@ Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélection
 
 1.  Sélectionnez un objet FEM maillage.
 2.  Vous pouvez également sélectionner les résultats FEM.
-3.  Il existe plusieurs façons de lancer la commande    *
+3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md)**.
     -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** dans le menu.
 
 ## Script
 
-**Remarque**    * le paramètre *scale* est {{Version/fr|1.0}}. Pour les anciennes versions de FreeCAD, il faut l\'omettre de votre code.
+**Remarque** : le paramètre *scale* est {{Version/fr|1.0}}. Pour les anciennes versions de FreeCAD, il faut l\'omettre de votre code.
 
-Si vous avez seulement besoin du facteur d\'échelle de déplacement, vérifiez le nom de votre objet de maillage et le facteur d\'échelle dans le code suivant    *
+Si vous avez seulement besoin du facteur d\'échelle de déplacement, vérifiez le nom de votre objet de maillage et le facteur d\'échelle dans le code suivant :
 
 
 ```python
@@ -37,7 +37,7 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-L\'exemple du cantilever    *
+L\'exemple du cantilever :
 
 
 ```python

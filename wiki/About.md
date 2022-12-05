@@ -1,8 +1,6 @@
 # About
 1.  REDIRECT [Std_About](Std_About.md)
 
-[Category   *Redirects](Category_Redirects.md)
-
 
 
 ---

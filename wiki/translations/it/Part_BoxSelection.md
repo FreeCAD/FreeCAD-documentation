@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Part BoxSelection
-   Name/it   *Part BoxSelection
-   MenuLocation   *Part → Box di selezione
-   Workbenches   *[Part](Part_Workbench/it.md)
-   SeeAlso   *[Box di selezione](Std_BoxSelection/it.md), [Selezione elementi](Std_BoxElementSelection/it.md), [Seleziona tutto](Std_SelectAll/it.md)
+- GuiCommand:/it
+   Name:Part BoxSelection
+   Name/it:Part BoxSelection
+   MenuLocation:Part → Box di selezione
+   Workbenches:[Part](Part_Workbench/it.md)
+   SeeAlso:[Box di selezione](Std_BoxSelection/it.md), [Selezione elementi](Std_BoxElementSelection/it.md), [Seleziona tutto](Std_SelectAll/it.md)
 ---
 
 # Part BoxSelection/it

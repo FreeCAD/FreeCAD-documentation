@@ -1,8 +1,6 @@
 # Category:Python Code/tr
 This category contains python code examples for FreeCAD
 
-[Category   *Categories/tr](Category   *Categories/tr.md)
-
 ### Contents
 
 |     |     |     |

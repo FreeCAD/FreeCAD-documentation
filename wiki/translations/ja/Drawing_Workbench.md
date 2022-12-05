@@ -1,7 +1,7 @@
 # Drawing Workbench/ja
 **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
-<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width   *128px;">
+<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
 
 ## Introduction
 
@@ -10,37 +10,37 @@
 
 {{TOCright}}
 
-<img alt="" src=images/Drawing_extraction.png  style="width   *600px;">
+<img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
 ## GUIツール
 
 2D図面を作成、設定、エキスポートするためのツールです。
 
--   <img alt="" src=images/Drawing_New.png  style="width   *32px;"> [スケーラブルベクターグラフィックを開く](Drawing_Open_SVG/jp.md)   * SVGファイルとして保存されている図面を開きます
+-   <img alt="" src=images/Drawing_New.png  style="width:32px;"> [スケーラブルベクターグラフィックを開く](Drawing_Open_SVG/jp.md): SVGファイルとして保存されている図面を開きます
 
--   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [A3図面の新規作成](Drawing_Landscape_A3/jp.md)   * FreeCADのデフォルトのA3テンプレートから新しい図面を作成します
+-   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [A3図面の新規作成](Drawing_Landscape_A3/jp.md): FreeCADのデフォルトのA3テンプレートから新しい図面を作成します
 
--   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [ビューの挿入](Drawing_View/jp.md)   * アクティブな図面上に選択されたオブジェクトのビューを挿入します
+-   <img alt="" src=images/Drawing_View.png  style="width:32px;"> [ビューの挿入](Drawing_View/jp.md): アクティブな図面上に選択されたオブジェクトのビューを挿入します
 
--   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Annotation](Drawing_Annotation.md)   * Adds an annotation to the current drawing sheet
+-   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Annotation](Drawing_Annotation.md): Adds an annotation to the current drawing sheet
 
--   <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Clip](Drawing_Clip.md)   * Adds a clip group to the current drawing sheet
+-   <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Clip](Drawing_Clip.md): Adds a clip group to the current drawing sheet
 
--   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Open Browser](Drawing_Openbrowser.md)   * Opens a preview of the current sheet in the browser
+-   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Open Browser](Drawing_Openbrowser.md): Opens a preview of the current sheet in the browser
 
--   <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Ortho Views](Drawing_Orthoviews.md)   * Automatically creates orthographic views of an object on the current drawing sheet
+-   <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Ortho Views](Drawing_Orthoviews.md): Automatically creates orthographic views of an object on the current drawing sheet
 
--   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Symbol](Drawing_Symbol.md)   * Adds the contents of a SVG file as a symbol on the current drawing sheet
+-   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol.md): Adds the contents of a SVG file as a symbol on the current drawing sheet
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft View](Draft_Drawing.md)   * Inserts a special Draft view of the selected object in the current drawing sheet
+-   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft View](Draft_Drawing.md): Inserts a special Draft view of the selected object in the current drawing sheet
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md)   * Inserts a view of a selected spreadsheet in the current drawing sheet
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width:32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md): Inserts a view of a selected spreadsheet in the current drawing sheet
 
--   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [図面の保存](Drawing_Save/jp.md)   * 現在の図面をSVGファイルとして保存します
+-   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [図面の保存](Drawing_Save/jp.md): 現在の図面をSVGファイルとして保存します
 
--   [Project Shape](Drawing_ProjectShape.md)   * Creates a projection of the selected object (Source) in the 3D view.
+-   [Project Shape](Drawing_ProjectShape.md): Creates a projection of the selected object (Source) in the 3D view.
 
--    **Note   ***the [Draft Drawing](Draft_Drawing.md) tool is used with [Draft objects](Draft_Workbench.md). It has some additional capabilities over the Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
+-    **Note:**the [Draft Drawing](Draft_Drawing.md) tool is used with [Draft objects](Draft_Workbench.md). It has some additional capabilities over the Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
 
 ## Workflow
 
@@ -70,7 +70,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 ## External links 
 
--   [Intro to mechanical drawing on Youtube - by Normal Universe](https   *//www.youtube.com/watch?v=1Hm5Zyjmjac)
+-   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
 
@@ -78,9 +78,7 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 {{Drawing Tools navi
 
-}} 
-
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
+}}
 
 
 

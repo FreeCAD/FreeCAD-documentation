@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Points Convert
-   Name/fr   *Points Conversion
-   MenuLocation   *Points → Convertir en points...
-   Workbenches   *[Points](Points_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Points Convert
+   Name/fr:Points Conversion
+   MenuLocation:Points → Convertir en points...
+   Workbenches:[Points](Points_Workbench/fr.md)
 ---
 
 # Points Convert/fr
@@ -31,25 +31,25 @@ Les objets nuage de points sont des objets [App GeoFeature](App_GeoFeature/fr.md
 
 {{TitleProperty|Structured points}}
 
--    {{PropertyData/fr|Height|Integer}}   * le nombre de coordonnées Y uniques dans le nuage de points. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Structure](Points_Structure/fr.md).
+-    {{PropertyData/fr|Height|Integer}}: le nombre de coordonnées Y uniques dans le nuage de points. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Structure](Points_Structure/fr.md).
 
--    {{PropertyData/fr|Width|Integer}}   * le nombre de coordonnées X uniques dans le nuage de points. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Structure](Points_Structure/fr.md).
+-    {{PropertyData/fr|Width|Integer}}: le nombre de coordonnées X uniques dans le nuage de points. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Structure](Points_Structure/fr.md).
 
 #### Données cachées 
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Points|PointsKernel}}   * un point PointsKernel associé à cet objet.
+-    {{PropertyData/fr|Points|PointsKernel}}: un point PointsKernel associé à cet objet.
 
--    {{PropertyData/fr|Normal|NormalList}}   * une liste de normales. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Conversion](Points_Convert/fr.md) à partir d\'objets maillés ou d\'objets de forme avec des faces.
+-    {{PropertyData/fr|Normal|NormalList}}: une liste de normales. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Conversion](Points_Convert/fr.md) à partir d\'objets maillés ou d\'objets de forme avec des faces.
 
 ### Vue
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyView/fr|Point Size|FloatConstraint}}   * la taille en pixels des points dans la [Vue 3D](3D_view/fr.md).
+-    {{PropertyView/fr|Point Size|FloatConstraint}}: la taille en pixels des points dans la [Vue 3D](3D_view/fr.md).
 
 
 

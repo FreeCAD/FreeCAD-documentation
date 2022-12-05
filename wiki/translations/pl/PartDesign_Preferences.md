@@ -3,20 +3,20 @@
 
 ## Wprowadzenie
 
-Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md) oraz <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt części](PartDesign_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w <img alt="" src=images/Preferences-part_design.svg  style="width   *24px;"> sekcji [Edytora ustawień](Preferences_Editor/pl.md) **Projekt Części**. Sekcja ta będzie dostępna tylko wtedy, gdy w bieżącej sesji programu FreeCAD załadowano jedno z tych środowisk pracy.
+Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> sekcji [Edytora ustawień](Preferences_Editor/pl.md) **Projekt Części**. Sekcja ta będzie dostępna tylko wtedy, gdy w bieżącej sesji programu FreeCAD załadowano jedno z tych środowisk pracy.
 
 ## Dostępne ustawienia 
 
-Dostępne są cztery zakładki   * Ogólne, Widok kształtu, Wygląd kształtu i Wymiarowanie.
+Dostępne są cztery zakładki: Ogólne, Widok kształtu, Wygląd kształtu i Wymiarowanie.
 
 ### Ogólne
 
-W zakładce **Ogólne** można zdefiniować następujące parametry   *
+W zakładce **Ogólne** można zdefiniować następujące parametry:
 
 +++
 | Nazwa                                                                                  | Opis                                                                                                                                                                                                                                      |
 +========================================================================================+===========================================================================================================================================================================================================================================+
-|                                                                         | Jeśli opcja jest zaznaczona, [reprezentacja granicy](https   *//en.wikipedia.org/wiki/Boundary_representation) *(BRep)* modelu jest [weryfikowana](Part_CheckGeometry/pl.md) po [operacjach logicznych](Part_Boolean/pl.md). |
+|                                                                         | Jeśli opcja jest zaznaczona, [reprezentacja granicy](https://en.wikipedia.org/wiki/Boundary_representation) *(BRep)* modelu jest [weryfikowana](Part_CheckGeometry/pl.md) po [operacjach logicznych](Part_Boolean/pl.md). |
 | **Automatycznie sprawdź model po zakończeniu operacji logicznej**          |                                                                                                                                                                                                                                           |
 |                                                                                     |                                                                                                                                                                                                                                           |
 +++
@@ -33,16 +33,16 @@ W zakładce **Ogólne** można zdefiniować następujące parametry   *
 
 ### Widok kształtu 
 
-W zakładce *Widok kształtu* można zdefiniować następujące parametry   *
+W zakładce *Widok kształtu* można zdefiniować następujące parametry:
 
 +++
 | Nazwa                                                                                | Opis                                                                                                                                                                                                                                 |
 +======================================================================================+======================================================================================================================================================================================================================================+
-|                                                                       | Maksymalne [odchylenie liniowe](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) [teselowanych](#Tesselacja.md) obiektów od ich powierzchni.                 |
+|                                                                       | Maksymalne [odchylenie liniowe](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) [teselowanych](#Tesselacja.md) obiektów od ich powierzchni.                 |
 | **Maksymalne dopuszczalne odchylenie w zależności od ramki otaczającej** |                                                                                                                                                                                                                                      |
 |                                                                                   |                                                                                                                                                                                                                                      |
 +++
-|                                                                       | Maksymalne [odchylenie kątowe](https   *//www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) od jednej sekcji [teselowanego](#Tesselacja.md) obiektu do następnej sekcji. |
+|                                                                       | Maksymalne [odchylenie kątowe](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) od jednej sekcji [teselowanego](#Tesselacja.md) obiektu do następnej sekcji. |
 | **Maksymalne odchylenie kątowe**                                         |                                                                                                                                                                                                                                      |
 |                                                                                   |                                                                                                                                                                                                                                      |
 +++
@@ -51,7 +51,7 @@ W zakładce *Widok kształtu* można zdefiniować następujące parametry   *
 
 ### Wygląd kształtu 
 
-W zakładce *Wygląd kształtu* można zdefiniować następujące parametry   *
+W zakładce *Wygląd kształtu* można zdefiniować następujące parametry:
 
 +++
 | Nazwa                                    | Opis                                                                                                                                                                                                                                                                   |
@@ -88,9 +88,9 @@ W zakładce *Wygląd kształtu* można zdefiniować następujące parametry   *
 | **Rendering dwustronny**     |                                                                                                                                                                                                                                                                        |
 |                                       |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Kolor tekstu w adnotacjach na dokumentach. Obecnie nie ma okna dialogowego umożliwiającego dodawanie adnotacji do dokumentów. Adnotacje można dodawać wyłącznie za pomocą poleceń w konsoli Python   *                                                                    |
+|                           | Kolor tekstu w adnotacjach na dokumentach. Obecnie nie ma okna dialogowego umożliwiającego dodawanie adnotacji do dokumentów. Adnotacje można dodawać wyłącznie za pomocą poleceń w konsoli Python:                                                                    |
 | **Kolor tekstu**             |                                                                                                                                                                                                                                                                        |
-|                                       | obj = App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                                                                       |
+|                                       | obj = App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                                                                       |
 |                                          |                                                                                                                                                                                                                                                                        |
 |                                          | Konsole można aktywować w menu **Widok → Panele → konsola Python**.                                                                                                                                                                          |
 +++
@@ -101,7 +101,7 @@ W zakładce *Wygląd kształtu* można zdefiniować następujące parametry   *
 
 Te preferencje kontrolują wygląd miar utworzonych za pomocą narzędzi [Pomiaru](Part_Module/pl#Pomiary.md) dostępnych w środowiskach pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md).
 
-W zakładce **Wymiarowanie** *({{Version/pl|1.0}})* można wybrać następujące narzędzia   *
+W zakładce **Wymiarowanie** *({{Version/pl|1.0}})* można wybrać następujące narzędzia:
 
 +++
 | Nazwa                               | Opcje                                                               |
@@ -143,11 +143,11 @@ W zakładce **Wymiarowanie** *({{Version/pl|1.0}})* można wybrać następujące
 
 ## Tesselacja
 
-W celu efektywnego wyświetlania obiektu jego powierzchnia jest [tesselowana](https   *//en.wikipedia.org/wiki/Tessellation_(computer_graphics)), tzn. jest wyświetlana z pewnymi niewielkimi odchyleniami od jego rzeczywistej powierzchni. Dotyczy to nie tylko modeli środowiska Projekt Części, ale także innych obiektów w programie FreeCAD.
+W celu efektywnego wyświetlania obiektu jego powierzchnia jest [tesselowana](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), tzn. jest wyświetlana z pewnymi niewielkimi odchyleniami od jego rzeczywistej powierzchni. Dotyczy to nie tylko modeli środowiska Projekt Części, ale także innych obiektów w programie FreeCAD.
 
 Dolna granica teselacji wynosi 0,01%. Jeśli naprawdę chcesz poświęcić dodatkowy czas, możesz jeszcze bardziej zmniejszyć dolną granicę, otwierając menu **Przybory → Edycja parametrów ...**. Otworzy to edytor parametrów, gdzie przechodzimy do **BaseApp → Preferences → Mod → Part**.
 
-Kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu kontekstowego **Zmień wartość elementu**. Ustaw wartość na wybraną minimalną teselację. Należy pamiętać, że wartość podawana jest w %, tzn. dla wartości 0,005% należy wpisać \"0,00005\". Najmniejsza możliwa wartość to 1e-7. **Uwaga   *** W menu preferencji nadal będzie widoczna wartość 0,01%, nawet jeśli ustawisz niższą wartość.
+Kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu kontekstowego **Zmień wartość elementu**. Ustaw wartość na wybraną minimalną teselację. Należy pamiętać, że wartość podawana jest w %, tzn. dla wartości 0,005% należy wpisać \"0,00005\". Najmniejsza możliwa wartość to 1e-7. **Uwaga:** W menu preferencji nadal będzie widoczna wartość 0,01%, nawet jeśli ustawisz niższą wartość.
 
 
 
@@ -155,9 +155,7 @@ Kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu 
 
 {{PartDesign Tools navi
 
-}} 
-
-[Category   *Preferences](Category_Preferences.md)
+}}
 
 
 

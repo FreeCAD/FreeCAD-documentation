@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ViewFront
-   Name/fr   *Std Vue de face
-   MenuLocation   *Affichage → Vues standards → Face
-   Workbenches   *Tous
-   Shortcut   ***1**
-   SeeAlso   *[Std Vue de dessus](Std_ViewTop/fr.md), [Std Vue droite](Std_ViewRight/fr.md)
+- GuiCommand:/fr
+   Name:Std ViewFront
+   Name/fr:Std Vue de face
+   MenuLocation:Affichage → Vues standards → Face
+   Workbenches:Tous
+   Shortcut:**1**
+   SeeAlso:[Std Vue de dessus](Std_ViewTop/fr.md), [Std Vue droite](Std_ViewRight/fr.md)
 ---
 
 # Std ViewFront/fr
@@ -19,16 +19,16 @@ La **Std Vue de face** place la caméra dans la [vue 3D](3D_view/fr.md) dans la 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewFront.svg" width=16px> [Face](Std_ViewFront/fr.md)**.
     -   Sélectionnez l\'option {{MenuCommand |Affichage → Vues standards → <img src="images/Std_ViewFront.svg" width=16px> Face}} dans le menu.
     -   Sélectionnez l\'option {{MenuCommand |Vues standards → <img src="images/Std_ViewFront.svg" width=16px> Face}} dans le menu contextuel de la [vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier   * **1**.
+    -   Utilisez le raccourci clavier: **1**.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

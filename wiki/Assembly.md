@@ -7,11 +7,11 @@ In FreeCAD the word \"[Assembly](Assembly.md)\" is normally used to refer to a [
 
 For example, a bolt, a washer and a nut are three separate bodies that when put together comprise an assembly.
 
- <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width   *" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width   *" height="200px;"> 
+ <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
 
 
 
-*Left   * three individual contiguous solids, each of them modelled by a [PartDesign Body](PartDesign_Body.md). Right   * the individual Bodies put together inside a [Std Part](Std_Part.md) to create an assembly.*
+*Left: three individual contiguous solids, each of them modelled by a [PartDesign Body](PartDesign_Body.md). Right: the individual Bodies put together inside a [Std Part](Std_Part.md) to create an assembly.*
 
 ## Usage
 
@@ -22,16 +22,16 @@ In general terms, you don\'t need special tools to create assemblies, you just n
 To position the bodies where you want them, you can
 
 -   use the [Std TransformManip](Std_TransformManip.md) tool,
--   use the <img alt="" src=images/Std_Placement.svg  style="width   *16px;"> [Std Placement](Std_Placement.md) dialog, or
+-   use the <img alt="" src=images/Std_Placement.svg  style="width:16px;"> [Std Placement](Std_Placement.md) dialog, or
 -   modify the [placement](Placement.md) property directly in the [property editor](Property_editor.md).
 
 You may use one of the pseudo-assembly [external workbenches](external_workbenches.md), like Lattice2, Manipulator, Part-o-magic, or WorkFeature, to help you find intersections, measure distances, and distribute your objects in the desired way.
 
-In general, the **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part.md)** object was designed to serve as the basic building block to create assemblies. This object is used to group several [bodies](body.md) and move them together as a unit, that is, as a sub-assembly. Then this sub-assembly can be placed next to, or used inside of other sub-assemblies in order to create the final assembly.
+In general, the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** object was designed to serve as the basic building block to create assemblies. This object is used to group several [bodies](body.md) and move them together as a unit, that is, as a sub-assembly. Then this sub-assembly can be placed next to, or used inside of other sub-assemblies in order to create the final assembly.
 
 ### Constrained assembly 
 
-You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width   *24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width   *24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
+You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
 
 The assembly workbenches use constraints and expressions to create relationships between the objects in your model, in order to mathematically tie the objects in place, for example, \"this face should stick to this other face\", \"this cylinder should be concentric to that circle\", \"this point should follow this edge\", etc.
 
@@ -45,9 +45,7 @@ Please note that assembly workbenches are generally incompatible with each other
 
 The assembly workbenches continue development, and it is expected that at some point one assembly workbench will emerge as the \"official\" one. This could happen by promoting one of the current assembly workbenches, or by combining them to produce a more complete solution.
 
- {{Std Base navi}} {{Document objects navi}} 
-
-[Category   *Glossary](Category_Glossary.md)
+ {{Std Base navi}} {{Document objects navi}}
 
 
 

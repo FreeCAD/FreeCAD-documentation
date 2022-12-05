@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Il formato [Collada (DAE)](http   *//en.wikipedia.org/wiki/COLLADA) è un formato di file standard per lo scambio di dati Mesh.
+Il formato [Collada (DAE)](http://en.wikipedia.org/wiki/COLLADA) è un formato di file standard per lo scambio di dati Mesh.
 
 Il [Modulo Architettura](Arch_Workbench/it.md) può importare mesh da file .DAE, ed esportare elementi di Architettura e altri oggetti basati su [forme](Part_Workbench/it.md) (ad esempio gli oggetti Parte) in file .DAE.
 
@@ -28,7 +28,7 @@ Notare che gli oggetti importati sono oggetti [Mesh](Mesh_Workbench/it.md), e de
 
 <div class="mw-translate-fuzzy">
 
-La funzionalità di importazione di Collada nel modulo Architettura dipende da [pycollada](http   *//pycollada.github.io/). Se non è installato nel sistema, l\'importazione o esportazione di Collada è disabilitata.
+La funzionalità di importazione di Collada nel modulo Architettura dipende da [pycollada](http://pycollada.github.io/). Se non è installato nel sistema, l\'importazione o esportazione di Collada è disabilitata.
 
 
 </div>
@@ -45,11 +45,6 @@ La funzionalità di importazione di Collada nel modulo Architettura dipende da [
 
 
 </div>
-
-
- 
-
-[Category   *File Formats](Category_File_Formats.md)
 
 
 

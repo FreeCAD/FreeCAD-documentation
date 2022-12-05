@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать окружность по трём точкам
-   Name   *Sketcher_Create3PointCircle
-   MenuLocation   *Sketch → Геометрия эскиза → Создать окружность по трём точкам
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***G** **3** **C**
-   SeeAlso   *
+- GuiCommand:/ru
+   Name/ru:Создать окружность по трём точкам
+   Name:Sketcher_Create3PointCircle
+   MenuLocation:Sketch → Геометрия эскиза → Создать окружность по трём точкам
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **3** **C**
+   SeeAlso:
 ---
 
 # Sketcher Create3PointCircle/ru
 
 ## Описание
 
-Данный <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *16px;"> инструмент позволяет создать окружность по трём точкам. При запуске инструмента указатель мыши меняется на белый крест с красным кружком. Кроме того, координаты отображаются в режиме реального времени.
+Данный <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> инструмент позволяет создать окружность по трём точкам. При запуске инструмента указатель мыши меняется на белый крест с красным кружком. Кроме того, координаты отображаются в режиме реального времени.
 
 ## Применение
 

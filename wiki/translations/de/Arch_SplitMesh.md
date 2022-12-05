@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Arch SplitMesh
-   Name/de   *Arch NetzAufteilen
-   MenuLocation   *Arch → Dienstprogramme → Netz zerlegen
-   Workbenches   *[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-   SeeAlso   *[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+- GuiCommand:/de
+   Name:Arch SplitMesh
+   Name/de:Arch NetzAufteilen
+   MenuLocation:Arch → Dienstprogramme → Netz zerlegen
+   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md)
+   SeeAlso:[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch SplitMesh/de
@@ -26,7 +26,7 @@ Diese Werkzeug teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in se
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -36,7 +36,7 @@ Diese Werkzeug teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in se
 
 <div class="mw-translate-fuzzy">
 
-Das NetzAufteilen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion verwendet werden   *
+Das NetzAufteilen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion verwendet werden:
 
 
 </div>
@@ -51,14 +51,14 @@ new_list = splitMesh(obj, mark=True)
 
 -   Teilt das gegebene Netzobjekt `obj` in einzelne Bestandteile.
 
--   Falls `mark` auf `True` gesetzt ist, werden [nicht-mannigfaltige](https   *//de.wikipedia.org/wiki/Mannigfaltigkeit) Komponenten rot dargestellt.
+-   Falls `mark` auf `True` gesetzt ist, werden [nicht-mannigfaltige](https://de.wikipedia.org/wiki/Mannigfaltigkeit) Komponenten rot dargestellt.
 
 -    `new_list`ist eine Liste aller einzelnen Komponenten, aus denen das Netz besteht.
 
 
 </div>
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -71,7 +71,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 

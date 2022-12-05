@@ -1,6 +1,6 @@
 # OpenSCAD MeshBoolean/it
 ---
-- GuiCommand   */it   Name   *OpenSCAD MeshBoolean   Name/it   *Booleane su Mesh   MenuLocation   *OpenSCAD → Booleane su Mesh...‏‎   |Workbenches   *[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/it   Name:OpenSCAD MeshBoolean   Name/it:Booleane su Mesh   MenuLocation:OpenSCAD → Booleane su Mesh...‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -22,7 +22,7 @@ Crea un nuovo oggetto mesh con un\'operazione booleana sulle forme.
 ## Uso
 
 1.  Selezionare le forme nella vista ad albero.
-2.  Cliccare su <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width   *32px;"> o scegliere **OpenSCAD** → **<img src="images/OpenSCAD_MeshBoolean.png" width=32px> Mesh Booleana ...** dal menu in alto.
+2.  Cliccare su <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width:32px;"> o scegliere **OpenSCAD** → **<img src="images/OpenSCAD_MeshBoolean.png" width=32px> Mesh Booleana ...** dal menu in alto.
 3.  Selezionare l\'operazione da eseguire sulle forme.
 4.  Selezionare ** Esegui**
 

@@ -1,6 +1,6 @@
 # Std Copy/ro
 ---
-- GuiCommand   *   Name   *Std Copy   MenuLocation   *[Shortcut   *Ctrl+C   Workbenches   *All   SeeAlso   *[[Std_Paste|Paste](Std_Edit_Menu___Edit]]_→_Copy.md), [Duplicate Selection](Std_DuplicateSelection.md)---
+- GuiCommand:   Name:Std Copy   MenuLocation:[Shortcut:Ctrl+C   Workbenches:All   SeeAlso:[[Std_Paste|Paste](Std_Edit_Menu___Edit]]_→_Copy.md), [Duplicate Selection](Std_DuplicateSelection.md)---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 ## Descriere
 
-Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File   *Std_Copy.png.md) [copie](Std_Copy/fr.md)** este implicată în replicarea obiectelor [Document](Document_structure.md). It places the currently selected objects into the \"clipboard\" for later use by the [Paste](Std_Paste.md) command. Obiectele pot fi copiate între Documente.
+Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File:Std_Copy.png.md) [copie](Std_Copy/fr.md)** este implicată în replicarea obiectelor [Document](Document_structure.md). It places the currently selected objects into the \"clipboard\" for later use by the [Paste](Std_Paste.md) command. Obiectele pot fi copiate între Documente.
 
 
 </div>
@@ -25,7 +25,7 @@ Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File   *Std_Copy.png.md) [co
 ## Cum se folosește 
 
 1.  Selectați Object(ul)ele de replicat.
-2.  Press the **[16px|Copy](File   *Std_Copy.png.md)** icon, **ctrl** + **C** keys or use menu choices Edit → Copy.
+2.  Press the **[16px|Copy](File:Std_Copy.png.md)** icon, **ctrl** + **C** keys or use menu choices Edit → Copy.
 
 
 </div>

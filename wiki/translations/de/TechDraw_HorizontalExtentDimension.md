@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw Dimension Horizontal Extent
-   Name/de   *TechDraw MaßHorizontaleAusdehnung
-   MenuLocation   *TechDraw → Bemaßungen → Maß für die horizontale Ausdehnung einfügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikaleAusdehnung](TechDraw_VerticalExtentDimension/de.md)
+- GuiCommand:/de
+   Name:TechDraw Dimension Horizontal Extent
+   Name/de:TechDraw MaßHorizontaleAusdehnung
+   MenuLocation:TechDraw → Bemaßungen → Maß für die horizontale Ausdehnung einfügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikaleAusdehnung](TechDraw_VerticalExtentDimension/de.md)
 ---
 
 # TechDraw HorizontalExtentDimension/de
@@ -14,7 +14,7 @@
 
 Das Werkzeug MaßHorizontaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width   *400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Horizontale Ausdehnung Bemaßen von BSpline Fläche*
 
 ## Anwendung
@@ -33,13 +33,13 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md). Ausn
 
 ### Daten
 
--    {{PropertyData/de|MeasureType}}   * `True` - basierend auf 3D Geometrie oder \"Projizierter Geometrie\" auf der Zeichnung. Normalerweise nicht direkt vom Endbenutzer beeinflusst. Noch nicht implementiert für Bemaßung Horizontale Ausdehnung.
+-    {{PropertyData/de|MeasureType}}: `True` - basierend auf 3D Geometrie oder \"Projizierter Geometrie\" auf der Zeichnung. Normalerweise nicht direkt vom Endbenutzer beeinflusst. Noch nicht implementiert für Bemaßung Horizontale Ausdehnung.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug MaßHorizontaleAusdehnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
+Das Werkzeug MaßHorizontaleAusdehnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python

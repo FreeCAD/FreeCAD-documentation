@@ -17,7 +17,7 @@
 
 ### Accessing the Placement Attribute 
 
-An object\'s Placement attributes can be accessed and modified in 3 ways   *
+An object\'s Placement attributes can be accessed and modified in 3 ways:
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ An object\'s Placement attributes can be accessed and modified in 3 ways   *
 
 ## 指定方位的方式
 
-方位属性在内部实现会存作位置、旋转（旋转轴与旋转角度会被转换为对应的四元数[1](https   *//en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)）两种属性。指定旋转有若干种方式，例如，若指定了一个旋转中心，这将仅会对旋转计算造成影响，而并不会为后续计算而存储此值。类似地，如果指定了旋转轴(1,1,1)，可能会在把它保存于一个四元数中的时候将其进行归一化处理，从而在后续浏览此对象时，其值将表现为(0.58, 0.58, 0.58)。
+方位属性在内部实现会存作位置、旋转（旋转轴与旋转角度会被转换为对应的四元数[1](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)）两种属性。指定旋转有若干种方式，例如，若指定了一个旋转中心，这将仅会对旋转计算造成影响，而并不会为后续计算而存储此值。类似地，如果指定了旋转轴(1,1,1)，可能会在把它保存于一个四元数中的时候将其进行归一化处理，从而在后续浏览此对象时，其值将表现为(0.58, 0.58, 0.58)。
 
 
 </div>
@@ -122,7 +122,7 @@ An object\'s Placement attributes can be accessed and modified in 3 ways   *
 
 <div class="mw-translate-fuzzy">
 
-这种指定**Placement**的第二种形式，除了用Position属性（与第一种形式中的意义相同）来修改目标对象的空间位置之外，还将以Yaw（偏转）、Pitch（俯仰）与Roll（滚动）3种角度([Yaw, Pitch, Roll](http   *//en.wikipedia.org/wiki/Yaw,_pitch,_and_roll))来描述其朝向。这些角度有时被称为欧拉角（Euler angles）或Tait-Bryan角([欧拉角](http   *//en.wikipedia.org/wiki/Euler_angles))。Yaw、Pitch与Roll为航空学中描述物体朝向（姿态）的常用术语。
+这种指定**Placement**的第二种形式，除了用Position属性（与第一种形式中的意义相同）来修改目标对象的空间位置之外，还将以Yaw（偏转）、Pitch（俯仰）与Roll（滚动）3种角度([Yaw, Pitch, Roll](http://en.wikipedia.org/wiki/Yaw,_pitch,_and_roll))来描述其朝向。这些角度有时被称为欧拉角（Euler angles）或Tait-Bryan角([欧拉角](http://en.wikipedia.org/wiki/Euler_angles))。Yaw、Pitch与Roll为航空学中描述物体朝向（姿态）的常用术语。
 
 
 </div>
@@ -174,7 +174,7 @@ App.Rotation(10,20,30) = 欧拉角
 
 </div>
 
-第三种指定**Placement**的方式是利用一个4x4仿射变换矩阵进行描述([仿射变换](http   *//en.wikipedia.org/wiki/Affine_transformation))。
+第三种指定**Placement**的方式是利用一个4x4仿射变换矩阵进行描述([仿射变换](http://en.wikipedia.org/wiki/Affine_transformation))。
 
 **Matrix** =
 
@@ -208,9 +208,9 @@ But while the elements within each section generally apply to the purpose of tha
 
 The **Apply incremental changes to object placement** tick box is useful when translations/rotations are to be made relative the object\'s current position/attitude, rather than to the original position/attitude. Ticking this box resets the dialogue input fields to zero, but does not change the object\'s orientation or location. Subsequent entries do change the orientation/location, but are applied from the object\'s current position. Enabling this checkbox is also useful when using the Selected points button as it can sometimes prevent undesired placement changes.
 
-PS   * since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small> 
+PS: since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small> 
 
-To obtain the Part Placement use this code   *
+To obtain the Part Placement use this code:
 
 
 ```python
@@ -218,7 +218,7 @@ import Draft, Part
 sel = FreeCADGui.Selection.getSelection()
 print(sel[0].Placement)
 print(sel[0].getGlobalPlacement())   # return the GlobalPlacement
-print(sel[0].getParentGeoFeatureGroup()) # return the GeoFeatureGroup, ex   *  Body or a Part.
+print(sel[0].getParentGeoFeatureGroup()) # return the GeoFeatureGroup, ex:  Body or a Part.
 print("____________________")
 ```
 
@@ -226,42 +226,42 @@ print("____________________")
 
 Let us first consider the simple case of selecting 1 point. The workflow is to first select the desired point, then click the **Selected points** button. The coordinates of the selected point will be used to populate the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will about this center of rotation.
 
-Now consider the case of selecting 2 points. You would select the 2 desired points, and then click the **Selected points** button. The coordinates of the midpoint between the 2 selected points get placed into the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will be about this center of rotation. But in addition to setting up the **Center** section coordinates a custom (user-defined) axis is also added to the **Axis** element within the **Rotation** section. (Note   * if you were in Euler rotation mode, the mode gets switched to Rotation with an axis mode and the new custom axis is selected as the current axis of rotation.) Now any rotation done using the new custom axis will be about this axis of rotation. As an added bonus, the distance is measured between the 2 selected points, and this information is given in the Report View. (Note   * Hold down the Shift key while clicking the **Selected points** button to copy the distance measurement to the clipboard.) By entering this distance into the Axial spinbox in the **Translation** section and clicking the **Apply axial** button you can translate (move) the object so that the first selected point now occupies the coordinates occupied by the second selected point (at the time the **Selected points** button was clicked).
+Now consider the case of selecting 2 points. You would select the 2 desired points, and then click the **Selected points** button. The coordinates of the midpoint between the 2 selected points get placed into the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will be about this center of rotation. But in addition to setting up the **Center** section coordinates a custom (user-defined) axis is also added to the **Axis** element within the **Rotation** section. (Note: if you were in Euler rotation mode, the mode gets switched to Rotation with an axis mode and the new custom axis is selected as the current axis of rotation.) Now any rotation done using the new custom axis will be about this axis of rotation. As an added bonus, the distance is measured between the 2 selected points, and this information is given in the Report View. (Note: Hold down the Shift key while clicking the **Selected points** button to copy the distance measurement to the clipboard.) By entering this distance into the Axial spinbox in the **Translation** section and clicking the **Apply axial** button you can translate (move) the object so that the first selected point now occupies the coordinates occupied by the second selected point (at the time the **Selected points** button was clicked).
 
-Now consider the case of selecting 3 points. You would select the 3 desired points, and then click the **Selected points** button. The coordinates of the first selected point (order of selection is very important here) get placed into the X, Y, and Z spinboxes within the **Center** section. Since 3 points define a plane FreeCAD is able to take advantage of that and use those 3 points to create a new custom (user-defined) axis of rotation that is normal (perpendicular) to that defined plane. As with 2 selected points, the distance between points is also shown in the Report View, but this time it is the distance between the 2nd and 3rd selected points. (Note   * Hold down the Shift key while clicking **Selected points** button \-- Shift + Click \-- to copy the angle measurement to the clipboard.) Additionally, the angle between the 2nd and 3rd points is also measured and displayed in the Report View. By entering this angle into the **Angle** spinbox within the **Rotation** section we can very precisely rotate the object such that now the 2nd selected point is in alignment with the coordinates occupied by the 3rd selected point. (Note   * you might want to increase the number of digits used within the Edit menu -\> Preferences -\> General -\> Units -\> Number of decimals spinbox if you desire more precision.)
+Now consider the case of selecting 3 points. You would select the 3 desired points, and then click the **Selected points** button. The coordinates of the first selected point (order of selection is very important here) get placed into the X, Y, and Z spinboxes within the **Center** section. Since 3 points define a plane FreeCAD is able to take advantage of that and use those 3 points to create a new custom (user-defined) axis of rotation that is normal (perpendicular) to that defined plane. As with 2 selected points, the distance between points is also shown in the Report View, but this time it is the distance between the 2nd and 3rd selected points. (Note: Hold down the Shift key while clicking **Selected points** button \-- Shift + Click \-- to copy the angle measurement to the clipboard.) Additionally, the angle between the 2nd and 3rd points is also measured and displayed in the Report View. By entering this angle into the **Angle** spinbox within the **Rotation** section we can very precisely rotate the object such that now the 2nd selected point is in alignment with the coordinates occupied by the 3rd selected point. (Note: you might want to increase the number of digits used within the Edit menu -\> Preferences -\> General -\> Units -\> Number of decimals spinbox if you desire more precision.)
 
 ## Examples
 
-Rotations about a single axis   *
+Rotations about a single axis:
 
-<img alt="Before Rotation" src=images/RotationAboutZBefore.png  style="width   *600px;"> Before Rotation (top view) 
+<img alt="Before Rotation" src=images/RotationAboutZBefore.png  style="width:600px;"> Before Rotation (top view) 
 
-<img alt="After Rotation about Z" src=images/RotationAboutZAfter.png  style="width   *600px;"> After Rotation about Z (top view) 
+<img alt="After Rotation about Z" src=images/RotationAboutZAfter.png  style="width:600px;"> After Rotation about Z (top view) 
 
-<img alt="After Rotation about y=x" src=images/RotationAboutYXAfter.png  style="width   *600px;"> After Rotation about y=x (right view) 
+<img alt="After Rotation about y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> After Rotation about y=x (right view) 
 
-Rotation with offset centre point   *
+Rotation with offset centre point:
 
-<img alt="Before Rotation" src=images/RotationOffsetBefore.png  style="width   *600px;"> Before Rotation (top view) 
+<img alt="Before Rotation" src=images/RotationOffsetBefore.png  style="width:600px;"> Before Rotation (top view) 
 
-<img alt="After Rotation about Z" src=images/RotationOffsetAfter.png  style="width   *600px;"> After Rotation about Z (top view) 
+<img alt="After Rotation about Z" src=images/RotationOffsetAfter.png  style="width:600px;"> After Rotation about Z (top view) 
 
-Rotation using Euler angles   *
+Rotation using Euler angles:
 
-<img alt="Before Rotation" src=images/RotationEulerBefore.png  style="width   *600px;"> Before Rotation 
+<img alt="Before Rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Before Rotation 
 
-<img alt="After Rotation" src=images/RotationEulerAfter.png  style="width   *600px;"> After Rotation 
+<img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> After Rotation 
 
 ## Placement.Base vs Shape Definition 
 
-Placement is not the only way to position a shape in space. Note the Python console in this image   *
+Placement is not the only way to position a shape in space. Note the Python console in this image:
 
 ![2 Shapes with Same Placement](images/2Placements800.png ) 
 
-Both cubes have the same value for Placement, but are in different locations! This is because the 2 shapes are defined by different vertices (curves in more complex shapes). For the 2 shapes in the above illustration   *
+Both cubes have the same value for Placement, but are in different locations! This is because the 2 shapes are defined by different vertices (curves in more complex shapes). For the 2 shapes in the above illustration:
 
  >>> ev = App.ActiveDocument.Extrude.Shape.Vertexes
- >>> for v in ev   * print(v.X,",",v.Y,",",v.Z)
+ >>> for v in ev: print(v.X,",",v.Y,",",v.Z)
  ...
  30.0,30.0,0.0
  30.0,30.0,10.0
@@ -272,7 +272,7 @@ Both cubes have the same value for Placement, but are in different locations! Th
  30.0,40.0,0.0
  30.0,40.0,10.0
  >>> e1v = App.ActiveDocument.Extrude001.Shape.Vertexes
- >>> for v in e1v   * print(v.X,",",v.Y,",",v.Z)
+ >>> for v in e1v: print(v.X,",",v.Y,",",v.Z)
  ...
  0.0,10.0,0.0
  0.0,10.0,10.0
@@ -298,7 +298,7 @@ We wish to spin the box around it\'s own vertical centre line (ie local Z), whil
 
 ![After Rotation](images/LocalZAfter2.png ) 
 
-In a script, we would do   *
+In a script, we would do:
 
 
 ```python
@@ -313,7 +313,7 @@ newplace = FreeCAD.Placement(pos,rot,centre)       # make a new Placement object
 obj.Placement = newplace                           # spin the box
 ```
 
-Same script with the file example [RotateCoG2.fcstd](http   *//forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052))
+Same script with the file example [RotateCoG2.fcstd](http://forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052))
 
 
 ```python
@@ -330,7 +330,7 @@ obj.Placement = newplace                            # spin the box
 
 ## Using Placement in expressions 
 
-In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\"   *
+In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\":
 
 
 ```python
@@ -355,7 +355,7 @@ The axis of rotation can be accessed with
 
 where often one of these values is 1 while the others are 0.
 
-You can also use the whole Placement in a single expression   * Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
+You can also use the whole Placement in a single expression: Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
 
 To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression
 
@@ -366,13 +366,13 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 ![Setting the whole Placement in one expression](images/PlacementInExpression.png ) 
 
-**NOTE   *** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
+**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
 
 ## Notes
 
 -   The Placement properties in the Data tab are disabled for objects which are attached to some other object. The Attachment Offset has to be edited instead.
--   Axis and Angle can also be expressed as a [quaternion](http   *//en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
--   The reference point of an object varies depending on the object. Some examples for common objects   *
+-   Axis and Angle can also be expressed as a [quaternion](http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
+-   The reference point of an object varies depending on the object. Some examples for common objects:
 
   Object                           Reference Point
    
@@ -389,7 +389,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 ## More
 
--   This tutorial   * [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
+-   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
 
 

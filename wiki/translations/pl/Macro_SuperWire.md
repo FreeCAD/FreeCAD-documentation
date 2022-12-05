@@ -7,7 +7,7 @@
 |Version=0.1
 |Date=2012-05-22
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/e/e3/Macro_SuperWire.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/e/e3/Macro_SuperWire.png ToolBar Icon]
 }}
 
 ## Description
@@ -25,23 +25,23 @@ ToolBar Icon ![](images/Macro_SuperWire.png )
 
 {{MacroCode|code=
 import FreeCAD,FreeCADGui,Part
-try   *
+try:
     import DraftGeomUtils as fcgeo
-except   *
+except:
     from draftlibs import fcgeo
 
 sel = FreeCADGui.Selection.getSelection()
-if not sel   *
+if not sel:
    FreeCAD.Console.PrintWarning("Select something first!")
-else   *
+else:
    elist = []
-   for obj in sel   *
-       if hasattr(obj,"Shape")   *
+   for obj in sel:
+       if hasattr(obj,"Shape"):
            elist.append(obj.Shape.Edges[0])
    wire = fcgeo.superWire(elist)
-   if wire   *
+   if wire:
        Part.show(wire)
-   else   *
+   else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 }}
 

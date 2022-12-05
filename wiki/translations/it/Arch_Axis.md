@@ -1,11 +1,11 @@
 # Arch Axis/it
 ---
-- GuiCommand   */it
-   Name   *Arch Axis
-   Name/it   *Assi
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   MenuLocation   *Arch → Assi   Shortcut   ***A** **X**
-   SeeAlso   *[Sistema di assi](Arch_AxisSystem/it.md), [Griglia](Arch_Grid/it.md)---
+- GuiCommand:/it
+   Name:Arch Axis
+   Name/it:Assi
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   MenuLocation:Arch → Assi   Shortcut:**A** **X**
+   SeeAlso:[Sistema di assi](Arch_AxisSystem/it.md), [Griglia](Arch_Grid/it.md)---
 
 
 </div>
@@ -15,12 +15,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width   *16px;"> Assi permette di posizionare una serie di assi nel documento corrente. La distanza e l\'angolo tra gli assi è personalizzabile, così come lo stile di numerazione. Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma possono anche essere utilizzati in combinazione con dei <img alt="" src=images/Arch_Axis_System.svg  style="width   *16px;"> [Sistemi di assi](Arch_AxisSystem/it.md), e possono anche essere referenziati da altri oggetti Arch per creare schiere parametriche, ad esempio di travi o colonne. Al posto degli assi si può anche usare una <img alt="" src=images/Arch_Grid.svg  style="width   *16px;"> [Griglia](Arch_Grid/it.md).
+Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> Assi permette di posizionare una serie di assi nel documento corrente. La distanza e l\'angolo tra gli assi è personalizzabile, così come lo stile di numerazione. Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma possono anche essere utilizzati in combinazione con dei <img alt="" src=images/Arch_Axis_System.svg  style="width:16px;"> [Sistemi di assi](Arch_AxisSystem/it.md), e possono anche essere referenziati da altri oggetti Arch per creare schiere parametriche, ad esempio di travi o colonne. Al posto degli assi si può anche usare una <img alt="" src=images/Arch_Grid.svg  style="width:16px;"> [Griglia](Arch_Grid/it.md).
 
 
 </div>
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Due assi posizionati perpendicolarmente tra loro per creare una griglia
 *
 
@@ -49,19 +49,19 @@ Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width   *16px;"> Assi 
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Length}}   * La lunghezza degli assi
+-    {{PropertyData/it|Length}}: La lunghezza degli assi
 
--    {{PropertyView/it|Bubble Size}}   * La dimensione dei cerchi di numerazione degli assi
+-    {{PropertyView/it|Bubble Size}}: La dimensione dei cerchi di numerazione degli assi
 
--    {{PropertyView/it|Numeration style}}   * Lo stile di numerazione degli assi   * 1,2,3, A, B, C, ecc.
+-    {{PropertyView/it|Numeration style}}: Lo stile di numerazione degli assi: 1,2,3, A, B, C, ecc.
 
--    {{PropertyView/it|Bubble Position}}   * Dove la bolla è posizionata sull\'asse   * al punto iniziale, endpoint, entrambi o nessuno.
+-    {{PropertyView/it|Bubble Position}}: Dove la bolla è posizionata sull\'asse: al punto iniziale, endpoint, entrambi o nessuno.
 
--    {{PropertyView/it|Font Name}}   * Un font per disegnare il numero della bolla e/o le etichette
+-    {{PropertyView/it|Font Name}}: Un font per disegnare il numero della bolla e/o le etichette
 
--    {{PropertyView/it|Font Size}}   * Solo la dimensione del testo dell\'etichetta (il testo della bolla è controllato dalla dimensione della bolla)
+-    {{PropertyView/it|Font Size}}: Solo la dimensione del testo dell\'etichetta (il testo della bolla è controllato dalla dimensione della bolla)
 
--    {{PropertyView/it|Show Labels}}   * Attiva/disattiva la visualizzazione dei testi delle etichette
+-    {{PropertyView/it|Show Labels}}: Attiva/disattiva la visualizzazione dei testi delle etichette
 
 
 </div>
@@ -73,18 +73,18 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Assi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   * 
+Lo strumento Assi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```
 
 -   Crea un oggetto `Axes` con un dato numero (`num`) di assi e un intervallo `size` tra ciascun asse.
 
-Esempio   *
+Esempio:
 
 
 ```python

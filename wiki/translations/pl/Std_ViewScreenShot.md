@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewScreenShot
-   Name/pl   *Std   * Zapisz zrzut ekranu
-   MenuLocation   *Przybory → Zapisz obrazek ...
-   Workbenches   *All
-   SeeAlso   *[Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewScreenShot
+   Name/pl:Std: Zapisz zrzut ekranu
+   MenuLocation:Przybory → Zapisz obrazek ...
+   Workbenches:All
+   SeeAlso:[Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
 ---
 
 # Std ViewScreenShot/pl
@@ -13,7 +13,7 @@
 
 Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie pliku graficznego, zrzutu ekranu, z aktywnego okna [widoku 3D](3D_view/pl.md).
 
-<img alt="" src=images/Save_picture.png  style="width   *800px;"> 
+<img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *Okno dialogowe '''Zapisz obraz''' po naciśnięciu przycisku ''Rozszerz''.*
 
 ## Użycie
@@ -34,7 +34,7 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 ### Właściwości obrazu 
 
-1.  Wybierz opcję z listy rozwijanej **Tło**   *
+1.  Wybierz opcję z listy rozwijanej **Tło**:
     -   
         {{Value|Bieżące}}
         
@@ -52,21 +52,21 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
         {{Value|Przezroczyste}}
         
         Nie wszystkie formaty obrazów obsługują przezroczystość.
-2.  Wybierz opcję z listy rozwijanej **Metoda tworzenia**   *
+2.  Wybierz opcję z listy rozwijanej **Metoda tworzenia**:
     -   
         {{Value|Pozaekranowy (Nowy)}}
         
-        Jest to metoda domyślna. Ta metoda obsługuje [antyaliasing](https   *//en.wikipedia.org/wiki/Multisample_anti-aliasing). *\'Informacje techniczne   * Najważniejszymi klasami dla tej metody są Qt\'s QOffscreenSurface i QOpenGLFramebufferObject.*
+        Jest to metoda domyślna. Ta metoda obsługuje [antyaliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). *\'Informacje techniczne: Najważniejszymi klasami dla tej metody są Qt\'s QOffscreenSurface i QOpenGLFramebufferObject.*
 
     -   
         {{Value|Pozaekranowy (Stary)}}
         
-        Ta metoda nie działa w wielu nowoczesnych systemach Linux, ponieważ opiera się na sterowniku graficznym. Metoda ta nie obsługuje antyaliasingu. *Informacje techniczne   * Jest to prawdziwa metoda renderowania poza ekranem, która wykorzystuje tylko funkcje z biblioteki Coin3d.*
+        Ta metoda nie działa w wielu nowoczesnych systemach Linux, ponieważ opiera się na sterowniku graficznym. Metoda ta nie obsługuje antyaliasingu. *Informacje techniczne: Jest to prawdziwa metoda renderowania poza ekranem, która wykorzystuje tylko funkcje z biblioteki Coin3d.*
 
     -   
         {{Value|Bufor ramki (standardowy)}}
         
-        Ta metoda obsługuje antyaliasing. *Informacje techniczne   * Jeśli antyaliasing jest wyłączony, metoda ta wczytuje obraz bezpośrednio z renderera grafiki, w przeciwnym razie renderuje do bufora ramki i stamtąd pobiera obraz. Kluczową częścią tej metody jest klasa QOpenGLFramebufferObject firmy Qt.*
+        Ta metoda obsługuje antyaliasing. *Informacje techniczne: Jeśli antyaliasing jest wyłączony, metoda ta wczytuje obraz bezpośrednio z renderera grafiki, w przeciwnym razie renderuje do bufora ramki i stamtąd pobiera obraz. Kluczową częścią tej metody jest klasa QOpenGLFramebufferObject firmy Qt.*
 
     -   
         {{Value|Bufor ramki (jak jest)}}
@@ -77,7 +77,7 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 1.  Wybierz opcję {{RadioButton|TRUE|Wstaw MIBA}}, aby dodać informacje [MIBA](MIBA.md) do pliku. Nie wszystkie formaty obrazów to obsługują.
 2.  Lub wybierz opcję {{RadioButton|TRUE|Wstaw komentarz}} i wpisz komentarz w polu tekstowym, aby osadzić komentarz w pliku. Nie wszystkie formaty obrazów obsługują tę funkcję.
-3.  Zaznacz pole wyboru {{CheckBox|TRUE|Dodaj znak wodny}}, aby dodać znak wodny. Znak wodny jest umieszczany w lewym dolnym rogu obrazu i zawiera logo i nazwę programu FreeCAD nad głównym adresem URL programu FreeCAD   * [www.freecadweb.org](http   *//www.freecadweb.org).
+3.  Zaznacz pole wyboru {{CheckBox|TRUE|Dodaj znak wodny}}, aby dodać znak wodny. Znak wodny jest umieszczany w lewym dolnym rogu obrazu i zawiera logo i nazwę programu FreeCAD nad głównym adresem URL programu FreeCAD: [www.freecadweb.org](http://www.freecadweb.org).
 
 ## Uwagi
 
@@ -86,8 +86,8 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 ## Ustawienia
 
--   Tło widoku 3D można zmienić w preferencjach   * **Edycja → Preferencje ... → Wyświetlanie → Kolory → Kolor tła**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
--   Aby zmienić antyaliasing widoku 3D   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Renderowanie → Wygładzanie**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Widok_3D.md).
+-   Tło widoku 3D można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Kolory → Kolor tła**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
+-   Aby zmienić antyaliasing widoku 3D: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Renderowanie → Wygładzanie**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Widok_3D.md).
 
 ## Tworzenie skryptów 
 
@@ -95,7 +95,7 @@ Istnieje możliwość tworzenia zrzutów ekranu za pomocą kodu środowiska Pyth
 
 
 ```python
-Gui.ActiveDocument.ActiveView.saveImage('C   */temp/test.png',1656,783,'Current')
+Gui.ActiveDocument.ActiveView.saveImage('C:/temp/test.png',1656,783,'Current')
 ```
 
 Ten skrypt zapisuje serię zrzutów ekranu o różnych rozmiarach i z różnych kierunków. Zmieniany jest także typ ujęcia widoku - ortograficzny lub perspektywiczny.
@@ -104,15 +104,15 @@ Ten skrypt zapisuje serię zrzutów ekranu o różnych rozmiarach i z różnych 
 ```python
 import Part, PartGui
 # Loading test part
-Part.open('C   */Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
-OutDir = 'C   */temp/'
+Part.open('C:/Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
+OutDir = 'C:/temp/'
  
 # Creating images with different Views, Cameras and sizes
-for p in ['PerspectiveCamera','OrthographicCamera']   *
+for p in ['PerspectiveCamera','OrthographicCamera']:
     Gui.SendMsgToActiveView(p)
-    for f in ['ViewAxo','ViewFront','ViewTop']   *
+    for f in ['ViewAxo','ViewFront','ViewTop']:
         Gui.SendMsgToActiveView(f)
-        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]   *
+        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]:
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.jpg',x,y,'White')
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.png',x,y,'Transparent')
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Rocket LaunchLug
-   MenuLocation   *Rocket → Launch Guides → Launch Lug
-   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
-   Version   *0.19
+- GuiCommand:
+   Name:Rocket LaunchLug
+   MenuLocation:Rocket → Launch Guides → Launch Lug
+   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
+   Version:0.19
 ---
 
 # Rocket LaunchLug/en
@@ -14,7 +14,7 @@ A launch lug is a small tube attached to the side of the rocket that allows the 
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_LaunchLug.svg" width=16px> [Launch Lug](Rocket_LaunchLug.md)** button.
     -   Select the **Rocket → Launch Guides→ <img src="images/Rocket_LaunchLug.svg" width=16px> Launch Lug** option from the menu.
     -   Double click on a Launch Lug object in the [Tree view](Tree_view.md).
@@ -25,32 +25,24 @@ A launch lug is a small tube attached to the side of the rocket that allows the 
 
 {{TitleProperty|Launch Lug}}
 
--    **Inner Diameter**   * The diameter of the inside of the launch lug
+-    **Inner Diameter**: The diameter of the inside of the launch lug
 
--    **Length**   * The length of the launch lug
+-    **Length**: The length of the launch lug
 
--    **Outer Diameter**   * The diameter of the outside of the launch lug
+-    **Outer Diameter**: The diameter of the outside of the launch lug
 
 
 {{TitleProperty|Rocket Component}}
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Description**   * Description of the component
+-    **Description**: Description of the component
 
--    **Manufacturer**   * Manufacturer when known
+-    **Manufacturer**: Manufacturer when known
 
--    **Material**   * Material when known
+-    **Material**: Material when known
 
--    **Part Number**   * Manufacturer part number
-
-
-
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+-    **Part Number**: Manufacturer part number
 
 
 

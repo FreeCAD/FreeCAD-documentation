@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Sketcher EditSketch
-   Name/it   *Modifica Sketch
-   Workbenches   *[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation   *Sketch → Modifica schizzo
-   SeeAlso   *[Esci](Sketcher_LeaveSketch/it.md)
+- GuiCommand:/it
+   Name:Sketcher EditSketch
+   Name/it:Modifica Sketch
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation:Sketch → Modifica schizzo
+   SeeAlso:[Esci](Sketcher_LeaveSketch/it.md)
 ---
 
 # Sketcher EditSketch/it

@@ -11,7 +11,7 @@ Această pagină adună diferite formate de fișiere care pot fi importate sau e
 
 ## Related
 
-See the following pages for additional information   *
+See the following pages for additional information:
 
 -   [Import Export Preferences](Import_Export_Preferences.md)
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
@@ -69,14 +69,6 @@ See the following pages for additional information   *
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

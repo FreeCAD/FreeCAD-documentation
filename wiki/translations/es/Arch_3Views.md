@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Arch 3Views
-   Name/es   *Arch 3Views
-   MenuLocation   *Arch → Utilities → 3 Views from mesh
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/es
+   Name:Arch 3Views
+   Name/es:Arch 3Views
+   MenuLocation:Arch → Utilities → 3 Views from mesh
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Arch 3Views/es
@@ -31,11 +31,11 @@
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
+This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
@@ -46,7 +46,7 @@ shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False,
 
 Use `Part.show()` to display the resulting flat shape.
 
-Example   * 
+Example: 
 ```python
 import FreeCAD, Draft, Arch, Mesh, MeshPart
 
@@ -57,7 +57,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 FreeCAD.ActiveDocument.recompute()

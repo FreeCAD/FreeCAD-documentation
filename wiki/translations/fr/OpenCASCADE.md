@@ -7,13 +7,13 @@
 
 Les classes géométriques d\'OCCT sont pour la plupart implémentées et rendues disponibles dans FreeCAD via l\'[atelier Part](Part_Workbench/fr.md), dont dépendent la plupart des autres [ateliers](Workbenches/fr.md). Il fournit également des fonctions internes pour lire et écrire différents formats de fichiers comme STEP et IGES, et pour effectuer des projections 2D, qui peuvent être utilisées pour créer des dessins techniques dans l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
-<img alt="" src=images/Part_Workbench_relationships.svg  style="width   *600px;">
+<img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
 
 *OpenCASCADE fournit les classes géométriques de base et les fonctions de dessin à l'[atelier Part](Part_Workbench/fr.md) qui sont ensuite utilisées par tous les ateliers de FreeCAD.*
 
-OpenCASCADE ne doit pas être confondu avec [OpenSCAD](https   *//www.openscad.org/), qui est un autre projet open source pour construire des modèles 3D et qui est accessible via l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md).
+OpenCASCADE ne doit pas être confondu avec [OpenSCAD](https://www.openscad.org/), qui est un autre projet open source pour construire des modèles 3D et qui est accessible via l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md).
 
 OpenCASCADE est un logiciel libre régi par les termes de la GNU Lesser General Public License (LGPL) version 2.1 avec une exception supplémentaire.
 
@@ -43,48 +43,43 @@ Dans la terminologie OpenCascade, nous faisons la distinction entre les primitiv
 
 Pour résumer, les primitives géométriques sont des blocs de construction \"informes\", tandis que les [entités géométriques spatialessont](Part_TopoShape/fr.md) les véritables formes construites sur ces blocs.
 
-Une liste complète de toutes les primitives et formes se réfère à la [documentation OCC](https   *//dev.opencascade.org/resources/documentation) (Alternative   * [sourcearchive.com](https   *//www.opencascade.com/doc/occt-7.4.0/refman/html/)) et recherchez **Geom\_\*** (pour les primitives géométriques) et **TopoDS\_\*** (pour les formes). Là, vous pouvez également en savoir plus sur les différences entre eux. Veuillez noter que la documentation officielle de l\'OCC n\'est pas disponible en ligne (vous devez télécharger une archive) et est principalement destinée aux programmeurs, pas aux utilisateurs finaux. Mais j\'espère que vous trouverez suffisamment d\'informations pour commencer ici. Voir également [Guide de l\'utilisateur des données de modélisation](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
+Une liste complète de toutes les primitives et formes se réfère à la [documentation OCC](https://dev.opencascade.org/resources/documentation) (Alternative: [sourcearchive.com](https://www.opencascade.com/doc/occt-7.4.0/refman/html/)) et recherchez **Geom\_\*** (pour les primitives géométriques) et **TopoDS\_\*** (pour les formes). Là, vous pouvez également en savoir plus sur les différences entre eux. Veuillez noter que la documentation officielle de l\'OCC n\'est pas disponible en ligne (vous devez télécharger une archive) et est principalement destinée aux programmeurs, pas aux utilisateurs finaux. Mais j\'espère que vous trouverez suffisamment d\'informations pour commencer ici. Voir également [Guide de l\'utilisateur des données de modélisation](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html).
 
 > *À un niveau très élevé, la topologie indique de quelles pièces un objet est fait et les relations logiques entre elles. Une forme est constituée d\'un certain ensemble de faces. Une face est délimitée par un certain ensemble d\'arêtes. Deux faces sont adjacentes si elles partagent une arête commune.*
 
-> *La topologie seule ne vous indique pas la taille, la courbure ou les emplacements 3D de ces pièces. Cependant, chaque élément de la topologie connaît sa géométrie sous-jacente. Une face sait sur quelle surface elle se trouve. Un bord sait sur quelle courbe il se trouve. La géométrie connaît la courbure et l\'emplacement dans l\'espace.* - [Source](https   *//www.opencascade.com/content/geometry-and-topology)
+> *La topologie seule ne vous indique pas la taille, la courbure ou les emplacements 3D de ces pièces. Cependant, chaque élément de la topologie connaît sa géométrie sous-jacente. Une face sait sur quelle surface elle se trouve. Un bord sait sur quelle courbe il se trouve. La géométrie connaît la courbure et l\'emplacement dans l\'espace.* - [Source](https://www.opencascade.com/content/geometry-and-topology)
 
 
 <hr />
 
-> *Ainsi, la topologie définit la relation entre des entités géométriques simples qui peuvent être liées entre elles pour représenter des formes complexes.* - [Modeling Data User\'s Guide](https   *//www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
+> *Ainsi, la topologie définit la relation entre des entités géométriques simples qui peuvent être liées entre elles pour représenter des formes complexes.* - [Modeling Data User\'s Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
 
 ![](images/ClassTopoDS_Shape_inherit_graph.png )
 
-**Remarque    *** Seuls 3 types d\'objets topologiques ont des représentations géométriques - sommet, arête et face ([Source](https   *//opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
+**Remarque :** Seuls 3 types d\'objets topologiques ont des représentations géométriques - sommet, arête et face ([Source](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
 
-Les types géométriques peuvent en fait être divisés en deux groupes principaux   * les courbes et les surfaces. Sur les courbes (ligne, cercle\...) vous pouvez directement créer une arête, sur les surfaces (plan, cylindre\...) une face peut être construite. Par exemple, la ligne primitive géométrique est illimitée, c\'est à dire qu\'elle est définie par un vecteur de base et un vecteur directeur tandis que la forme associée (et représentée) doit être quelque chose de limité par un début et de fin. Et un cube \-- un solide \-- peut être créée par six plans limités.
+Les types géométriques peuvent en fait être divisés en deux groupes principaux: les courbes et les surfaces. Sur les courbes (ligne, cercle\...) vous pouvez directement créer une arête, sur les surfaces (plan, cylindre\...) une face peut être construite. Par exemple, la ligne primitive géométrique est illimitée, c\'est à dire qu\'elle est définie par un vecteur de base et un vecteur directeur tandis que la forme associée (et représentée) doit être quelque chose de limité par un début et de fin. Et un cube \-- un solide \-- peut être créée par six plans limités.
 
 A partir d\'une arête ou d\'une face, on peut aussi revenir à son équivalent géométrique primitif.
 
 Ainsi, à partir de formes, vous pouvez créer des pièces très complexes ou, inversement, extraire toutes les sous-formes dont une forme plus complexe est constituée.
 
-<img alt="" src=images/Part_TopoShape_relationships.svg  style="width   *600px;">
+<img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
 
 
 
-*La classe `Part   *   *TopoShape* est l'objet géométrique visible à l'écran. Essentiellement, tous les ateliers utilisent ces [TopoShapes](Part_TopoShape/fr.md) en interne pour créer et afficher des arêtes, des faces et des solides.`
+*La classe `Part::TopoShape* est l'objet géométrique visible à l'écran. Essentiellement, tous les ateliers utilisent ces [TopoShapes](Part_TopoShape/fr.md) en interne pour créer et afficher des arêtes, des faces et des solides.`
 
 ## En relation 
 
--   OpenCASCADE Technology (OCCT) [site principale](http   *//www.opencascade.com)
--   OCCT [portail de développement](https   *//dev.opencascade.org/)
--   OCCT [dernière version](https   *//www.opencascade.com/content/latest-release)
--   OCCT [dépôt git](https   *//git.dev.opencascade.org/gitweb/?p=occt.git)
--   OpenCASCADE Community Edition (OCE) [dépôt git](https   *//github.com/tpaviot/oce)
--   [Open Cascade Technology OCCT](https   *//fr.wikipedia.org/wiki/Open_CASCADE_Technology) sur Wikipedia
+-   OpenCASCADE Technology (OCCT) [site principale](http://www.opencascade.com)
+-   OCCT [portail de développement](https://dev.opencascade.org/)
+-   OCCT [dernière version](https://www.opencascade.com/content/latest-release)
+-   OCCT [dépôt git](https://git.dev.opencascade.org/gitweb/?p=occt.git)
+-   OpenCASCADE Community Edition (OCE) [dépôt git](https://github.com/tpaviot/oce)
+-   [Open Cascade Technology OCCT](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) sur Wikipedia
 -   Glossaire, [Open CASCADE](Glossary/fr#Open_CASCADE.md)
--   Suivi des bogues OCCT dans le bugtracker de FreeCAD [(fil du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=20264)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
+-   Suivi des bogues OCCT dans le bugtracker de FreeCAD [(fil du forum)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 
 
 

@@ -1,6 +1,6 @@
 # Draft Clone/ro
 ---
-- GuiCommand   *   Name   *Draft Clone   Workbenches   *[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation   *Draft → Clone   SeeAlso   *[Draft Scale](Draft_Scale.md)---
+- GuiCommand:   Name:Draft Clone   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Clone   SeeAlso:[Draft Scale](Draft_Scale.md)---
 
 
 </div>
@@ -19,12 +19,12 @@ Acest instrument produce o clonă (o copie legată parametric de obiectul origin
 
 The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md). Clones of 2D objects can be used in [PartDesign Bodies](PartDesign_Body.md).
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Clone_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;">
 
 
 </div>
@@ -45,9 +45,9 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 ## Properties
 
-See also   * [Property editor](property_editor.md).
+See also: [Property editor](property_editor.md).
 
-An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties   *
+An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
 
 ### Data
 
@@ -59,9 +59,9 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 ## Proprietăți
 
--    {{PropertyData | Scale}}   * Specifică un factor de scară opțional pentru clonă
+-    {{PropertyData | Scale}}: Specifică un factor de scară opțional pentru clonă
 
--    {{PropertyData | Fuse}}   * Dacă această clonă utilizează mai multe obiecte, aceasta specifică dacă rezultatul este o fuziune sau o combinație {{Version | 0.17}}
+-    {{PropertyData | Fuse}}: Dacă această clonă utilizează mai multe obiecte, aceasta specifică dacă rezultatul este o fuziune sau o combinație {{Version | 0.17}}
 
 -   Rezultatul instrumentului [Draft Scale](Draft_Scale.md) este, de asemenea, o clonă
 
@@ -77,7 +77,7 @@ An object created with the Draft Clone command is derived from a [Part Part2DObj
 
 ## Script-Programre 
 
-Instrumentul Clone poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare   *
+Instrumentul Clone poate fi folosită în [macro-uri](macros/ro.md) şi de la consola Python cu ajutorul funcţiei următoare:
 
 
 </div>

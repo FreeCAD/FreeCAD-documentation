@@ -1,8 +1,6 @@
 # Category:Python Code/ja
 This category contains python code examples for FreeCAD
 
-[Category   *Categories/ja](Category   *Categories/ja.md)
-
 ### Contents
 
 |     |     |     |

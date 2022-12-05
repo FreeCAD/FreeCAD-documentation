@@ -14,15 +14,15 @@ In diesem Tutorium werden wir behandeln, wie STL/OBJ-Dateien in FreeCAD importie
 
 ## Musterteil
 
-Für dieses Tutorium kannst Du Deine eigene STL Datei verwenden oder auf diese Weise eine Demodatei erstellen   *
+Für dieses Tutorium kannst Du Deine eigene STL Datei verwenden oder auf diese Weise eine Demodatei erstellen:
 
 -   Öffne FreeCAD
 -   Erstelle ein neues Dokument
 -   Wechsle zum Netz Arbeitsbereich
--   Füge einen Torus durch Klicken auf **Netze** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regelmäßiger Volumenkörper... ** ein, Einstellungen wählen wie   *
-    -   Radius1   * 10 mm
-    -   Radius2   * 2 mm
-    -   Stichprobenahme   * 50
+-   Füge einen Torus durch Klicken auf **Netze** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regelmäßiger Volumenkörper... ** ein, Einstellungen wählen wie:
+    -   Radius1: 10 mm
+    -   Radius2: 2 mm
+    -   Stichprobenahme: 50
 -   Klicke auf **Erstellen** und dann auf **Schließen**
 -   Speichere deine Datei mit **Datei** → **Speichern**, um eine FreeCAD Datei zu erhalten, die ein Netzobjekt enthält
 
@@ -34,8 +34,8 @@ Grunsätzlich importiert FreeCAD jede STL/OBJ-Datei. Aber unser Ziel ist es, ein
 FreeCAD strebt nicht danach ein guter Netz Modellierer zu sein, es will ein guter Volumen Modellierer sein. FreeCAD verfügt über einige Funktionen für den Netzeinsatz im Netz Arbeitsbereich und dem OpenSCAD Arbeitsbereich (für einige Operationen muss OpenSCAD installiert und in den FreeCAD Einstellungen konfiguriert sein).
 Einige Benutzer verwenden gerne Software von Drittanbietern für die Bereinigung und Reparatur von Netzen, zum Beispiel
 
--   [Netfabb Basic](http   *//www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - frei zur privaten Nutzung (automatische Netzrepaeratur verfügbar)
--   [Meshlab](http   *//meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
+-   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - frei zur privaten Nutzung (automatische Netzrepaeratur verfügbar)
+-   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
 
 In diesem Tutorium werden wir den Netz Arbeitsbereich in FreeCAD benutzen, um das Netz unserer Musterdatei zu bereinigen/reparieren/überprüfen.
 
@@ -58,7 +58,7 @@ Die Harmonisierung der Normalen eines Netzobjekts kann wie folgt durchgeführt w
 -   Auswahl deines Netzobjekts in der Baumansicht
 -   Wähle **Netze** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Normalen harmonisieren** aus dem oberen Menü.
 
-Tip   * Durch Wahl des Netzobjekts in der Baumansicht, zum Ansichtsreiter in der Eigenschaftsansicht gehen und \"Beleuchtung\" von \"Zwei Seiten\" auf \"Eine Seite\" wechseln, kannst du Dreiecke mit umgeklappten Normalen identifizieren. Wenn die Normalen in das Netz zeigen, wird das Dreieck schwarz dargestellt.
+Tip: Durch Wahl des Netzobjekts in der Baumansicht, zum Ansichtsreiter in der Eigenschaftsansicht gehen und \"Beleuchtung\" von \"Zwei Seiten\" auf \"Eine Seite\" wechseln, kannst du Dreiecke mit umgeklappten Normalen identifizieren. Wenn die Normalen in das Netz zeigen, wird das Dreieck schwarz dargestellt.
 
 ### Löcher schließen 
 
@@ -78,7 +78,7 @@ Eine andere Methode, Löcher in deinem Netzobjekt manuell zu schließen, wäre
 
 ## Umwandlung Netz zu Volumenkörper 
 
--   Wechsle zu <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Arbeitsbereich](Part_Workbench/de.md)
+-   Wechsle zu <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md)
 -   Stelle sicher, dass dein Netzobjekt in der Baumansicht ausgewählt ist, ansonsten wähle es
 -   Wähle **Formteil** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Form aus Netz erzeugen ...** aus dem oberen Menü
 -   Toleranz für Form nähen angeben (0,1 ist Standard)
@@ -93,11 +93,6 @@ Da der erzeugte Festkörper keine Historie und keine bearbeitbaren Formelemente 
 
 -   [Export nach STL oder OBJ](Export_to_STL_or_OBJ/de.md)
 -   [Import Export](Import_Export/de.md)
-
-
- 
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

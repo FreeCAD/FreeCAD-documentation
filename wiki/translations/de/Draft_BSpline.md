@@ -1,33 +1,33 @@
 ---
-- GuiCommand   */de
-   Name   *Draft BSpline
-   Name/de   *Entwurf BSpline
-   MenuLocation   *Entwurf → BSpline
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut   ***B** **S**
-   Version   *0.7
-   SeeAlso   *[Entwurf Polygonzug](Draft_Wire/de.md), [Entwurf Bézkurve](Draft_BezCurve/de.md)
+- GuiCommand:/de
+   Name:Draft BSpline
+   Name/de:Entwurf BSpline
+   MenuLocation:Entwurf → BSpline
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut:**B** **S**
+   Version:0.7
+   SeeAlso:[Entwurf Polygonzug](Draft_Wire/de.md), [Entwurf Bézkurve](Draft_BezCurve/de.md)
 ---
 
 # Draft BSpline/de
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> **Entwurf BSpline** Befehl erstellt eine [B-Spline Kurve](https   *//de.wikipedia.org/wiki/Spline#B-Splines) aus mehreren Punkten.
+Der <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Entwurf BSpline** Befehl erstellt eine [B-Spline Kurve](https://de.wikipedia.org/wiki/Spline#B-Splines) aus mehreren Punkten.
 
 Der Entwurf BSpline Befehl legt die **exakten Punkte** fest, durch die die Kurve verlaufen soll. Die [Entwurf BezKurve](Draft_BezCurve/de.md) und [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) Befehle hingegen verwenden **Kontrollpunkte**, um die Position und Krümmung des Splines zu definieren.
 
-<img alt="" src=images/Draft_bspline_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
 *Spline festgelegt durch mehrere Punkte*
 
 ## Anwendung
 
-Siehe auch   * [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
 
-1.  Es gibt mehrere Wege, den Befehl aufzurufen   *
+1.  Es gibt mehrere Wege, den Befehl aufzurufen:
 2.  Drücke die **<img src="images/Draft_BSpline.svg" width=16px> [ Entwurf BSpline](Draft_BSpline/de.md)** Schaltfläche.
     -   Wähle die **Entwerfen → <img src="images/Draft_BSpline.svg" width=16px> B-Spline** Option aus dem Menü.
-    -   Verwende das Tastaturkürzel   * **B** dann **S**.
+    -   Verwende das Tastaturkürzel: **B** dann **S**.
 3.  Das **B-spline** Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 4.  Nimm den ersten Punkt in der in der [3D Ansicht](3D_view/de.md) oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 5.  Nimm weitere Punkte in der [3D Ansicht](3D_view/de.md) oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
@@ -63,50 +63,50 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 ## Einstellungen
 
-Siehe auch   * [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
+Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden   * **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
--   Um den Anfangswert des Füllmodus zu ändern   * **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
+-   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
+-   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Entwurf BSpline Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
+Ein Entwurf BSpline Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 ### Daten
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (nur Lesezugriff) gibt den Bereich der Fläche des Splines an. Der Wert ist {{value|0.0}}, wenn **Make Face** auf `False` steht oder die Fläche nicht erstellt werden kann.
+-    **Area|Area**: (nur Lesezugriff) gibt den Bereich der Fläche des Splines an. Der Wert ist {{value|0.0}}, wenn **Make Face** auf `False` steht oder die Fläche nicht erstellt werden kann.
 
--    **Closed|Bool**   * gibt an, ob der Spline geschlossen ist oder nicht. Wenn der Spline anfänglich offen ist, ist dieser Wert `False`, wenn er auf `True` gesetzt wird, wird ein Kurvensegment gezeichnet, um den Spline zu schließen. Wenn der Spline anfänglich geschlossen ist, ist dieser Wert `True`, wenn man ihn auf `False` setzt, wird das letzte Kurvensegment entfernt und der Spline wird offen.
+-    **Closed|Bool**: gibt an, ob der Spline geschlossen ist oder nicht. Wenn der Spline anfänglich offen ist, ist dieser Wert `False`, wenn er auf `True` gesetzt wird, wird ein Kurvensegment gezeichnet, um den Spline zu schließen. Wenn der Spline anfänglich geschlossen ist, ist dieser Wert `True`, wenn man ihn auf `False` setzt, wird das letzte Kurvensegment entfernt und der Spline wird offen.
 
--    **Make Face|Bool**   * gibt an, ob der Spline eine Fläche bildet oder nicht. Wenn es `True` ist, wird eine Fläche erstellt, ansonsten wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn **Closed** `True` ist und wenn der Spline sich nicht selbst schneidet.
+-    **Make Face|Bool**: gibt an, ob der Spline eine Fläche bildet oder nicht. Wenn es `True` ist, wird eine Fläche erstellt, ansonsten wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn **Closed** `True` ist und wenn der Spline sich nicht selbst schneidet.
 
--    **Parameterization|Float**   * beeinflusst die Form des Splines.
+-    **Parameterization|Float**: beeinflusst die Form des Splines.
 
--    **Points|VectorList**   * gibt die Punkte des Splines in seinem lokalen Koordinatensystem an.
+-    **Points|VectorList**: gibt die Punkte des Splines in seinem lokalen Koordinatensystem an.
 
 ### Ansicht
 
 
 {{TitleProperty|Draft}}
 
--    **Pfeilgröße|Länge**   * legt die Größe des Symbols fest, das am Ende des Splines angezeigt wird.
+-    **Pfeilgröße|Länge**: legt die Größe des Symbols fest, das am Ende des Splines angezeigt wird.
 
--    **Pfeiltyp|Nummerierung**   * gibt die Art des Symbols an, das am Ende des Splines angezeigt wird, das kann {{value|Punkt}}, {{value|Kreis}}, {{value|Pfeil}}, {{value|Häkchen}} oder {{value|Häkchen-2}} sein.
+-    **Pfeiltyp|Nummerierung**: gibt die Art des Symbols an, das am Ende des Splines angezeigt wird, das kann {{value|Punkt}}, {{value|Kreis}}, {{value|Pfeil}}, {{value|Häkchen}} oder {{value|Häkchen-2}} sein.
 
--    **Pfeilende|Bool**   * gibt an, ob ein Symbol am Ende des Splines angezeigt werden soll, so dass er als Anmerkungslinie verwendet werden kann.
+-    **Pfeilende|Bool**: gibt an, ob ein Symbol am Ende des Splines angezeigt werden soll, so dass er als Anmerkungslinie verwendet werden kann.
 
--    **Muster|Nummerierung**   * legt das [Entwurf Muster](Draft_Pattern/de.md) fest, mit dem die Fläche des geschlossenen Splines gefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn **Make Face** `True` ist und wenn **Display Mode** {{value|Flat Lines}} ist.
+-    **Muster|Nummerierung**: legt das [Entwurf Muster](Draft_Pattern/de.md) fest, mit dem die Fläche des geschlossenen Splines gefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn **Make Face** `True` ist und wenn **Display Mode** {{value|Flat Lines}} ist.
 
--    **Muster Größe|Float**   * gibt die Größe des [Entwurf Muster](Draft_Pattern/de.md) an.
+-    **Muster Größe|Float**: gibt die Größe des [Entwurf Muster](Draft_Pattern/de.md) an.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Um einen Entwurf BSpline zu erstellen, verwende die Methode `make_bspline` ({{Version/de|0.19}}) des Entwurf Moduls. Diese Methode ersetzt die veraltete `makeBSpline` Methode.
 
@@ -123,7 +123,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
 -   Wenn `placement` `None` ist, wird der Spline am Ursprung erstellt.
 -   Wenn `face` `True` ist, und der Spline geschlossen ist, bildet der Spline eine Fläche, d. h. er erscheint gefüllt.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

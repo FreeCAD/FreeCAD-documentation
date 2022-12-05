@@ -1,8 +1,6 @@
 # Category:Std Base/ro
 This category list pages related to the [Std Base](Std_Base/ro.md), which collects commands from the base system which do not belong to any of the workbenches.
 
-[Category   *User_Documentation/ro](Category   *User_Documentation/ro.md)
-
 ### Contents
 
 |     |     |     |

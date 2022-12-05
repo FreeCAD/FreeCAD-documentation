@@ -1,8 +1,6 @@
 # Category:Arch/hr
 Pages relating to Architectural and Building Information Management
 
-[Category   *User Documentation/hr](Category   *User_Documentation/hr.md) [Category   *BIM/hr](Category   *BIM/hr.md)
-
 ### Contents
 
 |     |     |     |

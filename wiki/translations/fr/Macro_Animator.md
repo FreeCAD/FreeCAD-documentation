@@ -7,23 +7,23 @@
 |Version=0.2022.06.04
 |Date=2022-06-04
 |FCVersion=Versions en Python 3
-|Download=[https   *//wiki.freecadweb.org/File   *Animator.svg Icône de la barre d'outils]
-|Links=[https   *//github.com/mwganson/animator Documentation complète sur Github]
+|Download=[https://wiki.freecadweb.org/File:Animator.svg Icône de la barre d'outils]
+|Links=[https://github.com/mwganson/animator Documentation complète sur Github]
 }}
 
 ## Description
 
 Animator permet de créer très facilement des animations pour vos modèles agissant sur diverses propriétés. Les propriétés prises en charge disponibles sont conservées dans une liste déroulante pour votre commodité. Sélectionnez la propriété à animer et double-cliquez sur l\'objet Animator pour lancer l\'animation. Double-cliquez à nouveau pour arrêter l\'animation ou la laisser se terminer. Par défaut, 100 images sont utilisées avec la valeur de départ de la propriété = 0 et un incrément de 1.0 par itération dans la boucle. Tout ceci est facilement configurable à partir de la vue des propriétés.
 
-La documentation complète se trouve sur github    * [Animator](https   *//github.com/mwganson/animator).
+La documentation complète se trouve sur github : [Animator](https://github.com/mwganson/animator).
 
-<img alt="" src=images/Animator_scr1.png  style="width   *600px;"> 
+<img alt="" src=images/Animator_scr1.png  style="width:600px;"> 
 *Copie d'écran de la Macro Animator*
 
 ## Légende
 
 
-{{Codeextralink|https   *//gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358/raw/2965067307fff92c28b75deb079f0a3158940804/Animator.FCMacro|Animator.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358/raw/2965067307fff92c28b75deb079f0a3158940804/Animator.FCMacro|Animator.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Animator.svg )
 
@@ -32,7 +32,7 @@ Icône de la barre d\'outils ![](images/Animator.svg )
 **Macro Animator.FCMacro**
 
 
-{{CodeDownload|https   *//gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358|Animator.FCMacro}}
+{{CodeDownload|https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358|Animator.FCMacro}}
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std_Save
-   Name/it   *Salva
-   MenuLocation   *File → Salva
-   Workbenches   *Tutti
-   Shortcut   ***Ctrl**+**S**
-   SeeAlso   *[Salva con nome](Std_SaveAs/it.md), [Salva una copia](Std_SaveaCopy/it.md), [Salva tutto](Std_SaveAll/it.md)
+- GuiCommand:/it
+   Name:Std_Save
+   Name/it:Salva
+   MenuLocation:File → Salva
+   Workbenches:Tutti
+   Shortcut:**Ctrl**+**S**
+   SeeAlso:[Salva con nome](Std_SaveAs/it.md), [Salva una copia](Std_SaveaCopy/it.md), [Salva tutto](Std_SaveAll/it.md)
 ---
 
 # Std Save/it
@@ -19,15 +19,15 @@ Il comando **Salva** salva il documento attivo.
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Save.svg" width=16px> '''Salva'''**.
     -   Selezionare l\'opzione **File → <img src="images/Std_Save.svg" width=16px> Salva** dal menu.
-    -   Usare la scorciatoia da tastiera   * **Ctrl**+**S**.
-2.  Per i nuovi documenti   * immettere un nome file nella finestra di dialogo e premere il pulsante **Salva**.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**S**.
+2.  Per i nuovi documenti: immettere un nome file nella finestra di dialogo e premere il pulsante **Salva**.
 
 ## Opzioni
 
--   Per i nuovi documenti   * premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
+-   Per i nuovi documenti: premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
 
 ## Note
 
@@ -35,12 +35,12 @@ Il comando **Salva** salva il documento attivo.
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

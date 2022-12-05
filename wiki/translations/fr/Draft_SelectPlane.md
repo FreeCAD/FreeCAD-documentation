@@ -1,54 +1,54 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft SelectPlane
-   Name/fr   *Draft Plan de travail
-   MenuLocation   *Utilitaires → Sélectionner un plan
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut   ***W** **P**
-   SeeAlso   *[Draft Objet Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md)
+- GuiCommand:/fr
+   Name:Draft SelectPlane
+   Name/fr:Draft Plan de travail
+   MenuLocation:Utilitaires → Sélectionner un plan
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**W** **P**
+   SeeAlso:[Draft Objet Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md)
 ---
 
 # Draft SelectPlane/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width   *24px;"> **Draft Plan de travail** sélectionne le Draft plan de travail en cours. Il s\'agit du plan dans la [vue 3D](3D_view/fr.md) où les nouveaux objets [Draft](Draft_Workbench/fr.md) sont créés. Un nouveau plan de travail peut être basé sur l\'une des nombreuses [présélections](#Utilisation_avec_les_pr.C3.A9s.C3.A9lections.md) ou sur une sélection. La sélection peut être créée avant ([présélection](#Utilisation_avec_pr.C3.A9s.C3.A9lection.md)) ou après ([post-sélection](#Utilisation_avec_post-s.C3.A9lection.md)) le lancement de la commande.
+La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft Plan de travail** sélectionne le Draft plan de travail en cours. Il s\'agit du plan dans la [vue 3D](3D_view/fr.md) où les nouveaux objets [Draft](Draft_Workbench/fr.md) sont créés. Un nouveau plan de travail peut être basé sur l\'une des nombreuses [présélections](#Utilisation_avec_les_pr.C3.A9s.C3.A9lections.md) ou sur une sélection. La sélection peut être créée avant ([présélection](#Utilisation_avec_pr.C3.A9s.C3.A9lection.md)) ou après ([post-sélection](#Utilisation_avec_post-s.C3.A9lection.md)) le lancement de la commande.
 
-<img alt="" src=images/WorkingPlane_example.png  style="width   *400px;"> 
+<img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Formes créées sur différents plans de travail*
 
 ## Utilisation avec présélection 
 
-1.  Faites l\'une des choses suivantes    *
-    -   Sélectionnez un seul objet. Les objets suivants sont pris en charge    *
-        -   [Draft Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md)    * la **View Data** (position de la caméra) et la {{PropertyView/fr|Visibility Map}} (la visibilité enregistrée des objets) du proxy plan de travail sont également restaurées.
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez un seul objet. Les objets suivants sont pris en charge :
+        -   [Draft Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md) : la **View Data** (position de la caméra) et la {{PropertyView/fr|Visibility Map}} (la visibilité enregistrée des objets) du proxy plan de travail sont également restaurées.
         -   [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
         -   [Arch Plan de section](Arch_SectionPlane/fr.md).
-        -   Les objets [Std Parts](Std_Part/fr.md)    * pour éviter de sélectionner des sous-éléments, il est conseillé de les sélectionner dans la [Vue en arborescence](Tree_view/fr.md).
+        -   Les objets [Std Parts](Std_Part/fr.md) : pour éviter de sélectionner des sous-éléments, il est conseillé de les sélectionner dans la [Vue en arborescence](Tree_view/fr.md).
         -   Les objets [Part Feature](Part_Feature/fr.md) qui ont une seule face. Les [Part Plans](Part_Plane/fr.md) par exemple.
         -   Les objets qui ne sont pas des objets [Part Feature](Part_Feature/fr.md) et qui ont une propriété **Placement**.
-    -   Sélectionnez un ou plusieurs sous-éléments. Vous pouvez sélectionner    *
+    -   Sélectionnez un ou plusieurs sous-éléments. Vous pouvez sélectionner :
         -   Une face plane.
         -   Trois sommets.
         -   Une arête circulaire.
         -   Deux arêtes droites qui sont coplanaires mais pas colinéaires.
         -   Une arête droite et un sommet qui ne se trouve pas sur l\'arête (étendue).
-2.  Il existe plusieurs façons d\'invoquer la commande    *
+2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_SelectPlane.svg" width=16px> [Sélectionnez un plan](Draft_SelectPlane/fr.md)** de [Draft La barre](Draft_Tray/fr.md). En fonction du plan de travail actuel, ce bouton peut avoir un aspect différent.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan** dans le menu.
-    -   Utilisez le raccourci clavier    * **W** puis **P**.
+    -   Utilisez le raccourci clavier : **W** puis **P**.
 3.  Le plan de travail et le bouton de [Draft La barre](Draft_Tray/fr.md) sont mis à jour.
 
 ## Utilisation avec post-sélection 
 
-1.  Il y a plusieurs façons d\'invoquer la commande    *
+1.  Il y a plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le **<img src="images/Draft_SelectPlane.svg" width=16px> [Sélectionnez un plan](Draft_SelectPlane/fr.md)** de [Draft La barre](Draft_Tray/fr.md). En fonction du plan de travail actuel, ce bouton peut avoir un aspect différent.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan** dans le menu.
-    -   Utilisez le raccourci clavier    * **W** puis **P**.
+    -   Utilisez le raccourci clavier : **W** puis **P**.
 2.  Le panneau de tâches **Préparation du plan** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Effectuez l\'une des opérations suivantes    *
+3.  Effectuez l\'une des opérations suivantes :
     -   Sélectionnez un seul objet. Voir le [paragraphe précédent](#Utilisation_avec_présélection.md) pour les objets pris en charge.
-    -   Sélectionner un ou plusieurs sous-éléments. Vous pouvez sélectionner    *
+    -   Sélectionner un ou plusieurs sous-éléments. Vous pouvez sélectionner :
         -   Une face plane.
         -   Trois sommets.
 4.  Cliquez n\'importe où dans la [Vue 3D](3D_view/fr.md) pour confirmer la sélection et terminer la commande.
@@ -56,10 +56,10 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width   *24px;"
 
 ## Utilisation avec les présélections 
 
-1.  Il y a plusieurs façons de lancer la commande    *
+1.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_SelectPlane.svg" width=16px> [Sélectionnez un plan](Draft_SelectPlane/fr.md)** de [Draft La barre](Draft_Tray/fr.md). En fonction du plan de travail actuel, ce bouton peut avoir un aspect différent.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan** dans le menu.
-    -   Utilisez le raccourci clavier    * **W** puis **P**.
+    -   Utilisez le raccourci clavier : **W** puis **P**.
 2.  Le panneau de tâches **Préparation du plan** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Appuyez sur l\'un des boutons pour terminer la commande.
 4.  Le plan de travail et le bouton de [Draft La barre](Draft_Tray/fr.md) sont mis à jour.
@@ -104,17 +104,17 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width   *24px;"
 
 ## Préférences
 
-Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Les paramètres de la grille dans le panneau des tâches ainsi que plusieurs autres paramètres de la grille sont disponibles en tant que préférences    * **Edition → Préférences... → Draft → Grille et aimantation → Grille**.
+-   Les paramètres de la grille dans le panneau des tâches ainsi que plusieurs autres paramètres de la grille sont disponibles en tant que préférences : **Edition → Préférences... → Draft → Grille et aimantation → Grille**.
 -   Pour utiliser la grille, **Edition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille** doit être sélectionnée. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
--   Le rayon d\'aimantation peut également être modifié à la volée (voir [Draft Accrochage](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)) ou en modifiant    * **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   Le rayon d\'aimantation peut également être modifié à la volée (voir [Draft Accrochage](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)) ou en modifiant : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-Si l\'[atelier Draft](Draft_Workbench/fr.md) est actif, l\'objet de l\'application FreeCAD possède une propriété `DraftWorkingPlane` qui stocke le plan de travail Draft en cours. Vous pouvez accéder à cette propriété et lui appliquer des transformations    *
+Si l\'[atelier Draft](Draft_Workbench/fr.md) est actif, l\'objet de l\'application FreeCAD possède une propriété `DraftWorkingPlane` qui stocke le plan de travail Draft en cours. Vous pouvez accéder à cette propriété et lui appliquer des transformations :
 
 
 ```python
@@ -133,7 +133,7 @@ Gui.Snapper.toggleGrid()
 Gui.Snapper.toggleGrid()
 ```
 
-Il est également possible de créer des plans indépendamment du plan de travail Draft. Cela peut être utile pour les calculs et les projections    *
+Il est également possible de créer des plans indépendamment du plan de travail Draft. Cela peut être utile pour les calculs et les projections :
 
 
 ```python

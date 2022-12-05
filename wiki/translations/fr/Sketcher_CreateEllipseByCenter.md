@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher CreateEllipseByCenter
-   Name/fr   *Sketcher Ellipse par son centre
-   MenuLocation   *Sketch → Géométries d'esquisse → Créer une ellipse par son centre
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***G** **E** **E**
-   Version   *0.15
-   SeeAlso   *[Sketcher Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher CreateEllipseByCenter
+   Name/fr:Sketcher Ellipse par son centre
+   MenuLocation:Sketch → Géométries d'esquisse → Créer une ellipse par son centre
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **E** **E**
+   Version:0.15
+   SeeAlso:[Sketcher Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
 ---
 
 # Sketcher CreateEllipseByCenter/fr
 
 ## Description
 
-Cet outil dessine une ellipse en choisissant trois points   * le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
+Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
 
-<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width   *500px;">
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
 

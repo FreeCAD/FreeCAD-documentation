@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Reference
-   Name/ro   *Arch Reference
-   MenuLocation   *Arch → Reference
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   *
-   SeeAlso   *[[Arch BuildingPart]]
+- GuiCommand:/ro
+   Name:Arch Reference
+   Name/ro:Arch Reference
+   MenuLocation:Arch → Reference
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:
+   SeeAlso:[[Arch BuildingPart]]
 ---
 
 # Arch Reference/ro
@@ -15,7 +15,7 @@
 
 ## Descriere
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width   *800px;">
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -60,18 +60,18 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 ## Proprietăți
 
--    **File**   * Fișierul de bază pe care se bazează această componentă
+-    **File**: Fișierul de bază pe care se bazează această componentă
 
--    **Part**   *Partea care trebuie utilizată din fișierul de bază
+-    **Part**:Partea care trebuie utilizată din fișierul de bază
 
--    **Update Colors**   * Dacă este adevărat, culorile fișierului conectat/link vor fi menținete actualizate
+-    **Update Colors**: Dacă este adevărat, culorile fișierului conectat/link vor fi menținete actualizate
 
 ## Scrip-Programare 
 
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Reference poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție   *
+Instrumentul Reference poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție:
 
 
 </div>

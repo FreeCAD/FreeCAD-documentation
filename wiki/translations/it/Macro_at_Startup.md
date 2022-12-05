@@ -14,7 +14,7 @@ Questa documentazione spiega come impostare una macro in modo che venga eseguita
 
 <div class="mw-translate-fuzzy">
 
-Prima di iniziare, bisogna considerare le seguenti cose    *
+Prima di iniziare, bisogna considerare le seguenti cose :
 
 -   L\'esecuzione automatica di macro all\'avvio può essere considerata un rischio per la sicurezza. Si devono eseguire solo delle macro fidate e testate in precedenza.
 -   Per seguire questa procedura bisogna avere alcune nozioni di Python e di codifica.
@@ -45,7 +45,7 @@ In genere, una macro non è pensata e fatta per essere eseguita all\'avvio, quin
 
 <div class="mw-translate-fuzzy">
 
-Prendere in considerazione la macro sottostante, memorizzata nella propria cartella \'Macro\' con il nome \'MySuperMacro.FCMacro\'   *
+Prendere in considerazione la macro sottostante, memorizzata nella propria cartella \'Macro\' con il nome \'MySuperMacro.FCMacro\':
 
 
 </div>
@@ -54,9 +54,9 @@ Prendere in considerazione la macro sottostante, memorizzata nella propria carte
     from PySide import QtGui
 
     ## Definition section (classes, functions, ...)
-    class MyMsgBox(QtGui.QMessageBox)   *
+    class MyMsgBox(QtGui.QMessageBox):
 
-        def __init__(self)   *
+        def __init__(self):
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Main instruction section
@@ -65,7 +65,7 @@ Prendere in considerazione la macro sottostante, memorizzata nella propria carte
 
 <div class="mw-translate-fuzzy">
 
-Tutte le macro presentano generalmente una struttura simile con prima sezione di importazione, quindi una sezione di definizione e infine una sezione di istruzione principale. Ci concentreremo su quest\'ultima sezione perché le istruzioni principali sono in realtà quelle che \'eseguono\' la macro (sono abbastanza facili da individuare perché cominciano all\'inizio della riga). Nel passaggio successivo, bisogna importare la macro a livello di codice, quindi eseguirla. Questo non può essere fatto con la struttura effettiva della macro. Per poterlo fare, bisogna racchiudere le istruzioni principali in una funzione \--eg. run()\-- quindi assicurarsi che questa funzione sia ancora chiamata quando la macro viene eseguita manualmente dall\'utente. Se non si è completamente sicuri di ciò che si sta facendo, è meglio lavorare su una copia della macro (anche per conservare l\'originale della macro). Il file originale deve essere modificato come segue   *
+Tutte le macro presentano generalmente una struttura simile con prima sezione di importazione, quindi una sezione di definizione e infine una sezione di istruzione principale. Ci concentreremo su quest\'ultima sezione perché le istruzioni principali sono in realtà quelle che \'eseguono\' la macro (sono abbastanza facili da individuare perché cominciano all\'inizio della riga). Nel passaggio successivo, bisogna importare la macro a livello di codice, quindi eseguirla. Questo non può essere fatto con la struttura effettiva della macro. Per poterlo fare, bisogna racchiudere le istruzioni principali in una funzione \--eg. run()\-- quindi assicurarsi che questa funzione sia ancora chiamata quando la macro viene eseguita manualmente dall\'utente. Se non si è completamente sicuri di ciò che si sta facendo, è meglio lavorare su una copia della macro (anche per conservare l\'originale della macro). Il file originale deve essere modificato come segue:
 
 
 </div>
@@ -75,17 +75,17 @@ Tutte le macro presentano generalmente una struttura simile con prima sezione di
     import FreeCAD as App
     import FreeCADGui as Gui
 
-    class MyMsgBox(QtGui.QMessageBox)   *
+    class MyMsgBox(QtGui.QMessageBox):
 
-        def __init__(self)   *
+        def __init__(self):
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Enclose the main instructions in a function
-    def run()   *
+    def run():
         MyMsgBox()
 
     ## Ensure main instructions are still called in case of manual run
-    if __name__ == '__main__'   *
+    if __name__ == '__main__':
         run()
 
 Ovviamente se la funzione \'run()\' esiste già nella macro, si può usare qualsiasi altro nome. Ora la macro è pronta per essere integrata nell\'avvio di FreeCAD.
@@ -101,14 +101,14 @@ Ovviamente se la funzione \'run()\' esiste già nella macro, si può usare quals
 
 <div class="mw-translate-fuzzy">
 
-Innanzitutto creare una nuova cartella nella cartella \"Mod\" dell\'utente, ad esempio \"MacroStartup\". Copiare la macro modificata in questa cartella appena creata e rinominala con un\'estensione \'.py\' se questo non è ancora il caso (nota che se sviluppi la macro da solo, può essere nominata con l\'estensione \".py\" anche in la cartella \"Macro\" in modo che non sia necessario rinominare durante la copia). Infine, creare nella stessa cartella un file chiamato \"InitGui.py\" in cui inserire il seguente codice   *
+Innanzitutto creare una nuova cartella nella cartella \"Mod\" dell\'utente, ad esempio \"MacroStartup\". Copiare la macro modificata in questa cartella appena creata e rinominala con un\'estensione \'.py\' se questo non è ancora il caso (nota che se sviluppi la macro da solo, può essere nominata con l\'estensione \".py\" anche in la cartella \"Macro\" in modo che non sia necessario rinominare durante la copia). Infine, creare nella stessa cartella un file chiamato \"InitGui.py\" in cui inserire il seguente codice:
 
 
 </div>
 
-    def runStartupMacros(name)   *
+    def runStartupMacros(name):
         # Do not run when NoneWorkbench is activated because UI isn't yet completely there
-        if name != "NoneWorkbench"   *
+        if name != "NoneWorkbench":
             # Run macro only once by disconnecting the signal at first call
             FreeCADGui.getMainWindow().workbenchActivated.disconnect(runStartupMacros)
 
@@ -157,11 +157,6 @@ Notare che se la macro originale è stata scaricata tramite Addon Manager, nel c
 ## Related
 
 -   [LazyLoader](Extra_python_modules#LazyLoader.md) is a Python module that allows deferred loading.
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ViewBottom
-   Name/fr   *Std Vue de dessous
-   MenuLocation   *Affichage → Vues standards → Dessous
-   Workbenches   *Tous
-   Shortcut   ***5**
-   SeeAlso   *[Std Vue de l'arrière](Std_ViewRear/fr.md), [Std Vue gauche](Std_ViewLeft/fr.md)
+- GuiCommand:/fr
+   Name:Std ViewBottom
+   Name/fr:Std Vue de dessous
+   MenuLocation:Affichage → Vues standards → Dessous
+   Workbenches:Tous
+   Shortcut:**5**
+   SeeAlso:[Std Vue de l'arrière](Std_ViewRear/fr.md), [Std Vue gauche](Std_ViewLeft/fr.md)
 ---
 
 # Std ViewBottom/fr
@@ -19,16 +19,16 @@ La **Std Vue de dessous** place la caméra dans la [vue 3D](3D_view/fr.md) dans 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Std_ViewBottom.svg" width=16px> [Dessous](Std_ViewBottom/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standard → <img src="images/Std_ViewBottom.svg" width=16px> Dessous** dans le menu.
     -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewBottom.svg" width=16px> Dessous** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
-    -   Utilisez le raccourci clavier   * **5**.
+    -   Utilisez le raccourci clavier: **5**.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std_DrawStyle
-   Name/it   *Stile di disegno
-   MenuLocation   *Visualizza → Stile di disegno
-   Workbenches   *Tutti
-   Shortcut   ***V** **1** - **V** **7**
-   SeeAlso   *[Box contenitore](Std_SelBoundingBox/it.md)
+- GuiCommand:/it
+   Name:Std_DrawStyle
+   Name/it:Stile di disegno
+   MenuLocation:Visualizza → Stile di disegno
+   Workbenches:Tutti
+   Shortcut:**V** **1** - **V** **7**
+   SeeAlso:[Box contenitore](Std_SelBoundingBox/it.md)
 ---
 
 # Std DrawStyle/it
@@ -16,18 +16,18 @@ Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà]
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Fare clic sulla freccia nera verso il basso a destra del pulsante **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Stile di disegno](Std_DrawStyle/it.md)** e selezionare uno stile dal riquadro a comparsa.
     -   Andare nel menu **Visualizza → Stile di disegno** e scegliere uno stile.
     -   Nel menu contestuale [Vista 3D](3D_view/it.md) andare in **Stile di disegno** e selezionare uno stile.
-    -   Usare una delle scorciatoie da tastiera   * **V** e poi **1**, **2**, **3**, **4**, **5**, **6** o **7**.
+    -   Usare una delle scorciatoie da tastiera: **V** e poi **1**, **2**, **3**, **4**, **5**, **6** o **7**.
 
 ## Stili di disegno disponibili 
 
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *32px;"> Come è 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> Come è 
 
 
 </div>
@@ -35,12 +35,12 @@ Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà]
 Lo stile **Come è** non sovrascrive la proprietà **Display Mode** (Modalità di visualizzazione) degli oggetti.
 
 ![](images/Std_DrawStyleAsIs_example.png ) 
-*4 oggetti identici ciascuno con una modalità di visualizzazione diversa (da sinistra a destra   * 'Punti', 'Reticolo', 'Ombreggiato' e 'Facce piene') con lo stile di disegno 'Come è' applicato*
+*4 oggetti identici ciascuno con una modalità di visualizzazione diversa (da sinistra a destra: 'Punti', 'Reticolo', 'Ombreggiato' e 'Facce piene') con lo stile di disegno 'Come è' applicato*
 
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *32px;"> Punti 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Punti 
 
 
 </div>
@@ -53,7 +53,7 @@ Lo stile **Punti** sovrascrive la proprietà **Display Mode** degli oggetti. Que
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *32px;"> Reticolo 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> Reticolo 
 
 
 </div>
@@ -66,7 +66,7 @@ Lo stile **Reticolo** sovrascrive la proprietà **Display Mode** degli oggetti. 
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width   *32px;"> Linee nascoste 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Linee nascoste 
 
 
 </div>
@@ -79,7 +79,7 @@ Lo stile **Linee nascoste** sovrascrive la proprietà **Display Mode** degli ogg
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width   *32px;"> Senza ombre 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> Senza ombre 
 
 
 </div>
@@ -92,7 +92,7 @@ Lo stile **Senza ombre** sovrascrive la proprietà **Display Mode** degli oggett
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width   *32px;"> Ombreggiato 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> Ombreggiato 
 
 
 </div>
@@ -105,7 +105,7 @@ Lo stile **Ombreggiato** sovrascrive la proprietà **Display Mode** degli oggett
 
 <div class="mw-translate-fuzzy">
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width   *32px;"> Facce piene 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Facce piene 
 
 
 </div>
@@ -118,7 +118,7 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 ## Note
 
 -   Gli oggetti nella [Vista 3D](3D_view/it.md) hanno anche una proprietà **Draw Style** (stile di disegno). Questa proprietà controlla il tipo di linea utilizzato per i bordi. Il comando Std DrawStyle non sostituisce questa proprietà.
--   Per una macro per alternare tra due stili di disegno, vedere   * [Macro Stile di disegno](Macro_Toggle_Drawstyle/it.md).
+-   Per una macro per alternare tra due stili di disegno, vedere: [Macro Stile di disegno](Macro_Toggle_Drawstyle/it.md).
 
 
 <div class="mw-translate-fuzzy">

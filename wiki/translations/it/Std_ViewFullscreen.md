@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std ViewFullscreen
-   Name/it   *Schermo intero
-   MenuLocation   *Visualizza → Finestra del documento → Schermo intero
-   Workbenches   *Tutti
-   Shortcut   ***F11**
-   SeeAlso   *[Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista principale a schermo intero](Std_MainFullscreen/it.md)
+- GuiCommand:/it
+   Name:Std ViewFullscreen
+   Name/it:Schermo intero
+   MenuLocation:Visualizza → Finestra del documento → Schermo intero
+   Workbenches:Tutti
+   Shortcut:**F11**
+   SeeAlso:[Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista principale a schermo intero](Std_MainFullscreen/it.md)
 ---
 
 # Std ViewFullscreen/it
@@ -17,10 +17,10 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
 ## Usage
 
 1.  Activate the correct 3D view.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Select the **View → Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the menu. This option does not work if you want to switch off fullscreen mode and there are other docked 3D views.
     -   Select the **Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **F11**.
+    -   Use the keyboard shortcut: **F11**.
 
 ## Notes
 

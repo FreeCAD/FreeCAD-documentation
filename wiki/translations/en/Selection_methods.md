@@ -3,7 +3,7 @@
 
 ## Overview
 
-[Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md)   * such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
+[Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
 
 ## 3D view 
 
@@ -21,9 +21,9 @@ The third click extends the selection to its container object ([PartDesign Body]
 
 ### Selection commands 
 
--   To select all objects   * [Std SelectAll](Std_SelectAll.md).
--   To box select multiple main objects   * [Std BoxSelection](Std_BoxSelection.md).
--   To box select multiple faces   * [Std BoxElementSelection](Std_BoxElementSelection.md) or [Part BoxSelection](Part_BoxSelection.md).
+-   To select all objects: [Std SelectAll](Std_SelectAll.md).
+-   To box select multiple main objects: [Std BoxSelection](Std_BoxSelection.md).
+-   To box select multiple faces: [Std BoxElementSelection](Std_BoxElementSelection.md) or [Part BoxSelection](Part_BoxSelection.md).
 
 ## Selection view 
 
@@ -76,7 +76,7 @@ The command `addSelectionGate` restricts the user from selecting objects not spe
 
 
 ```python
-Gui.Selection.addSelectionGate("SELECT Part   *   *Feature SUBELEMENT Edge")
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 ```
 
 See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.

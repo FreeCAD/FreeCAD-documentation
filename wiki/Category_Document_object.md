@@ -1,8 +1,6 @@
 # Category:Document object
 This category lists pages related to objects derived from the base [App DocumentObject](App_DocumentObject.md).
 
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
-
 ### Contents
 
 |     |     |     |

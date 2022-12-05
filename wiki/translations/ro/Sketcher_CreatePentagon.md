@@ -1,6 +1,6 @@
 # Sketcher CreatePentagon/ro
 ---
-- GuiCommand   */ro   Name   *Sketcher CreatePentagon   Name/ro   *Sketcher CreatePentagon   Workbenches   *[[Sketcher Workbench/ro   Sketcher]]|MenuLocation   *Sketch → Sketcher geometries → Create pentagon   Shortcut   *   SeeAlso   *---
+- GuiCommand:/ro   Name:Sketcher CreatePentagon   Name/ro:Sketcher CreatePentagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create pentagon   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -22,7 +22,7 @@ Desenează un pentagon înscris într-un cerc geometric. Când pornește instrum
 
 <div class="mw-translate-fuzzy">
 
--   După ce se apăsă butonul **[<img src=images/Sketcher_CreatePentagon.png style="width   *16px"> Create pentagon**, click o dată pentru defini centrul , apoi se glisează mouse-ul și se face click a doua oară pentru a stabili unul dintre vârfuri.
+-   După ce se apăsă butonul **[<img src=images/Sketcher_CreatePentagon.png style="width:16px"> Create pentagon**, click o dată pentru defini centrul , apoi se glisează mouse-ul și se face click a doua oară pentru a stabili unul dintre vârfuri.
 -   Apăsând **Esc** sau click pe butonul dreapta al mouse-ului pentru a abandona funcția.
 
 

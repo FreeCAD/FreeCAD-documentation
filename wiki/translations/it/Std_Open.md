@@ -1,6 +1,6 @@
 # Std Open/it
 ---
-- GuiCommand   */it   Name   *Std_Open   Name/it   *Apri   MenuLocation   *File → Apri   Workbenches   *Tutti   Shortcut   ***Ctrl**+**O**   SeeAlso   *[Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
+- GuiCommand:/it   Name:Std_Open   Name/it:Apri   MenuLocation:File → Apri   Workbenches:Tutti   Shortcut:**Ctrl**+**O**   SeeAlso:[Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
 
 ## Descrizione
 
@@ -8,10 +8,10 @@ Il comando **Apri** apre un file. Se il file non è un file FreeCAD nativo (\*.F
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_Open.svg" width=16px> '''Apri'''**.
     -   Selezionare l\'opzione **File → <img src="images/Std_Open.svg" width=16px> Apri...** dal menu.
-    -   Usare la scorciatoia da tastiera   * **Ctrl**+**O**.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**O**.
 2.  Facoltativamente, selezionare il formato file corretto nella finestra di dialogo.
 3.  Selezionare un file.
 4.  Premere il pulsante **Apri**.
@@ -22,12 +22,12 @@ Il comando **Apri** apre un file. Se il file non è un file FreeCAD nativo (\*.F
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

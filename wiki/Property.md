@@ -3,11 +3,11 @@
 
 A [property](Property.md) is a piece of information like a number or a text string that is attached to a FreeCAD document or an object in a document. Public properties can be viewed and modified in the [Property editor](Property_editor.md).
 
-Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [FeaturePython Custom Properties](FeaturePython_Custom_Properties.md) and [PropertyLink   * InList and OutList](PropertyLink__InList_and_OutList.md)
+Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [FeaturePython Custom Properties](FeaturePython_Custom_Properties.md) and [PropertyLink: InList and OutList](PropertyLink__InList_and_OutList.md)
 
 ## All property types 
 
-Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system   *
+Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system:
 
  
 ```python
@@ -72,21 +72,21 @@ Volume
 
 Internally, the property name is prefixed with  
 ```python
-App   *   *PropertyBool
-App   *   *PropertyFloat
-App   *   *PropertyFloatList
+App::PropertyBool
+App::PropertyFloat
+App::PropertyFloatList
 ...
 ```
 
 Remember that these are property **types**. A single object may have many properties of the same type, but with different names.
 
-For example   *
+For example:
 
  
 ```python
-obj.addProperty("App   *   *PropertyFloat", "Length")
-obj.addProperty("App   *   *PropertyFloat", "Width")
-obj.addProperty("App   *   *PropertyFloat", "Height")
+obj.addProperty("App::PropertyFloat", "Length")
+obj.addProperty("App::PropertyFloat", "Width")
+obj.addProperty("App::PropertyFloat", "Height")
 ```
 
 This indicates an object with three properties of type \"Float\", named \"Length\", \"Width\", and \"Height\", respectively.
@@ -94,28 +94,28 @@ This indicates an object with three properties of type \"Float\", named \"Length
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD scripting basics](FreeCAD_Scripting_Basics.md)
 
 A [scripted object](scripted_objects.md) is created first, and then properties are assigned.  
 ```python
-obj = App.ActiveDocument.addObject("Part   *   *Feature", "CustomObject")
+obj = App.ActiveDocument.addObject("Part::Feature", "CustomObject")
 
-obj.addProperty("App   *   *PropertyFloat", "Velocity", "Parameter", "Body speed")
-obj.addProperty("App   *   *PropertyBool", "VelocityEnabled", "Parameter", "Enable body speed")
+obj.addProperty("App::PropertyFloat", "Velocity", "Parameter", "Body speed")
+obj.addProperty("App::PropertyBool", "VelocityEnabled", "Parameter", "Enable body speed")
 ```
 
 In general, **Data** properties are assigned by using the object\'s `addProperty()` method. On the other hand, **View** properties are normally provided automatically by the parent object from which the scripted object is derived.
 
-For example   *
+For example:
 
--   Deriving from `App   *   *FeaturePython` provides only 4 **View** properties   * \"Display Mode\", \"On Top When Selected\", \"Show In Tree\", and \"Visibility\".
--   Deriving from `Part   *   *Feature` provides 17 **View** properties   * the previous four, plus \"Angular Deflection\", \"Bounding Box\", \"Deviation\", \"Draw Style\", \"Lighting\", \"Line Color\", \"Line Width\", \"Point Color\", \"Point Size\", \"Selectable\", \"Selection Style\", \"Shape Color\", and \"Transparency\".
+-   Deriving from `App::FeaturePython` provides only 4 **View** properties: \"Display Mode\", \"On Top When Selected\", \"Show In Tree\", and \"Visibility\".
+-   Deriving from `Part::Feature` provides 17 **View** properties: the previous four, plus \"Angular Deflection\", \"Bounding Box\", \"Deviation\", \"Draw Style\", \"Lighting\", \"Line Color\", \"Line Width\", \"Point Color\", \"Point Size\", \"Selectable\", \"Selection Style\", \"Shape Color\", and \"Transparency\".
 
 Nevertheless,  
 ```python
-obj.ViewObject.addProperty("App   *   *PropertyBool", "SuperVisibility", "Base", "Make the object glow")
+obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
 ## Source code 
@@ -131,10 +131,6 @@ They are imported and initialized in  {{Code|lang=cpp|code=
 #include "PropertyPythonObject.h"
 #include "PropertyExpressionEngine.h"
 }}
-
-  
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

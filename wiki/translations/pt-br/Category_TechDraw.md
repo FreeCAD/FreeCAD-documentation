@@ -1,8 +1,6 @@
 # Category:TechDraw/pt-br
 This category lists pages related to the [TechDraw Workbench/pt-br](TechDraw_Workbench/pt-br.md).
 
-[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
-
 ### Contents
 
 |     |     |     |

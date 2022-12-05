@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Part_Chamfer
-   Name/it   *Smussa
-   MenuLocation   *Parte → Smussa...
-   Workbenches   *[Parte](Part_Workbench/it.md)
-   SeeAlso   *[Raccorda...](Part_Fillet/it.md)
+- GuiCommand:/it
+   Name:Part_Chamfer
+   Name/it:Smussa
+   MenuLocation:Parte → Smussa...
+   Workbenches:[Parte](Part_Workbench/it.md)
+   SeeAlso:[Raccorda...](Part_Fillet/it.md)
 ---
 
 # Part Chamfer/it
@@ -78,11 +78,11 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 {{Properties_Title|Base}}
 
--    **Base**   * La forma su cui lo smusso deve essere applicato.
+-    **Base**: La forma su cui lo smusso deve essere applicato.
 
--    **Placement**   * Specifica l\'orientamento e la posizione della forma nello spazio 3D.
+-    **Placement**: Specifica l\'orientamento e la posizione della forma nello spazio 3D.
 
--    **Label**   * L\'etichetta che attiva l\'oggetto. Modificabile secondo le esigenze.
+-    **Label**: L\'etichetta che attiva l\'oggetto. Modificabile secondo le esigenze.
 
 
 
@@ -97,7 +97,7 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 ## Limitazioni
 
-Lo smusso potrebbe non fare nulla se il risultato tocca o attraversa il bordo adiacente successivo. Quindi, se non si ottiene il risultato atteso, provare con un valore inferiore. Lo stesso vale per il <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Raccordo](Part_Fillet/it.md) di Part.
+Lo smusso potrebbe non fare nulla se il risultato tocca o attraversa il bordo adiacente successivo. Quindi, se non si ottiene il risultato atteso, provare con un valore inferiore. Lo stesso vale per il <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Raccordo](Part_Fillet/it.md) di Part.
 
 
 </div>
@@ -122,14 +122,14 @@ Lo strumento smusso può essere utilizzato nelle [macro](macros/it.md) e dalla c
 
 </div>
 
-**Esempio di Script   ***
+**Esempio di Script:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -149,12 +149,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Descrizione dell\'esempio   ***
+**Descrizione dell\'esempio:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -162,7 +162,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 ```
 
 -   Aggiunge al documento un nuovo oggetto di tipo Smusso (del modulo Parte) con l\'etichetta \"myChamfer\".

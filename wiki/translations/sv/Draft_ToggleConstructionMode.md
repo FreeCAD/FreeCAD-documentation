@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/sv
 ---
-- GuiCommand   */sv   Name   *Draft ToggleConstructionMode   Name/sv   *Draft ToggleConstructionMode   Workbenches   *[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation   *Draft -> Utilities -> Toggle construction mode---
+- GuiCommand:/sv   Name:Draft ToggleConstructionMode   Name/sv:Draft ToggleConstructionMode   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Toggle construction mode---
 
 
 </div>
@@ -24,22 +24,22 @@ The Draft module features a construction mode, which allows to draw certain obje
 
 </div>
 
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md)** button in the [Draft Tray](Draft_Tray.md). This button is depressed if Draft construction mode is currently on.
     -   Select the **Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode** option from the menu.
-    -   Use the keyboard shortcut   * **C** then **M**.
+    -   Use the keyboard shortcut: **C** then **M**.
 2.  The button in the [Draft Tray](Draft_Tray.md) is updated.
 
 ## Notes
@@ -48,8 +48,8 @@ The Draft module features a construction mode, which allows to draw certain obje
 
 ## Preferences
 
--   To change the label of the construction group   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
--   To change the color that is used   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
+-   To change the label of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
+-   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
 
 

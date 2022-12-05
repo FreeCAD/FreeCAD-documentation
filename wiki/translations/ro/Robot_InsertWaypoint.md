@@ -1,6 +1,6 @@
 # Robot InsertWaypoint/ro
 ---
-- GuiCommand   *   Name   *Robot InsertWaypoint   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Insert in trajectory   Shortcut   *A   SeeAlso   *
+- GuiCommand:   Name:Robot InsertWaypoint   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Insert in trajectory   Shortcut:A   SeeAlso:
 
 
 </div>
@@ -25,7 +25,7 @@ Inserează un punct din poziția curentă a robotului (instrument) în traiector
 #### Utilizare
 
 1.  Selectați robotul și traiectoria în vizualizarea arborescentă
-2.  Click pe <img alt="" src=images/Robot_InsertWaypoint.png  style="width   *32px;"> sau alegeți ** Robot** → **<img src="images/Robot_InsertWaypoint.png" width=32px> Insert in trajectory** din meniul principal.
+2.  Click pe <img alt="" src=images/Robot_InsertWaypoint.png  style="width:32px;"> sau alegeți ** Robot** → **<img src="images/Robot_InsertWaypoint.png" width=32px> Insert in trajectory** din meniul principal.
 
 
 </div>
@@ -37,7 +37,7 @@ Inserează un punct din poziția curentă a robotului (instrument) în traiector
 
 #### Note
 
-Mișcarea botului este dată de   *
+Mișcarea botului este dată de:
 
 1.  Selecția robotului
 2.  Selectarea/Comutarea la \"Tasks\"-Panel

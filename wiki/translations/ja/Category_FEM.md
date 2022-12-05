@@ -1,8 +1,6 @@
 # Category:FEM/ja
 This category lists pages related to the [FEM Workbench/ja](FEM_Workbench/ja.md).
 
-[Category   *Workbenches/ja](Category   *Workbenches/ja.md)
-
 ### Contents
 
 |     |     |     |

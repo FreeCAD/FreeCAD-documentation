@@ -1,8 +1,6 @@
 # Category:Robot/id
 This category lists pages related to the [Robot Workbench/id](Robot_Workbench/id.md).
 
-[Category   *Workbenches/id](Category   *Workbenches/id.md)
-
 ### Contents
 
 |     |     |     |

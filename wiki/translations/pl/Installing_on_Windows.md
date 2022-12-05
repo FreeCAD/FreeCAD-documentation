@@ -9,12 +9,12 @@
 
 ## Instalacja standardowa 
 
-Najprostszym sposobem na zainstalowanie najnowszej stabilnej wersji FreeCAD jest użycie instalatora   *
+Najprostszym sposobem na zainstalowanie najnowszej stabilnej wersji FreeCAD jest użycie instalatora:
 
 
 {{DownloadWindowsStable}}
 
-Jeśli chcesz pobrać wersję rozwojową, która może być niestabilna, zobacz stronę [Pobieranie kompilacji tygodniowych](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
+Jeśli chcesz pobrać wersję rozwojową, która może być niestabilna, zobacz stronę [Pobieranie kompilacji tygodniowych](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
 Po pobraniu pliku .exe Instalatora, kliknij jego ikonę dwukrotnie, aby uruchomić proces instalacji.
 
@@ -22,75 +22,75 @@ Poniżej znajduje się więcej informacji na temat opcji technicznych. Większo�
 
 ## Instalacja dla wszystkich użytkowników systemu Windows 
 
-Domyślnie program FreeCAD zostanie zainstalowany dla użytkownika, który uruchomi instalator. Jeśli użytkownik ten posiada jedynie uprawnienia użytkownika, domyślną ścieżką instalacji jest   *
+Domyślnie program FreeCAD zostanie zainstalowany dla użytkownika, który uruchomi instalator. Jeśli użytkownik ten posiada jedynie uprawnienia użytkownika, domyślną ścieżką instalacji jest:
 
-   *   
-    **C   *Users\<username\\AppData\Local\Programy\FreeCAD X.YY**
+:   
+    **C:\\Users\<username\\AppData\Local\Programy\FreeCAD X.YY**
     
 
 Jeśli instalator jest uruchamiany przez użytkownika z uprawnieniami administratora lub ty uruchamiasz go jako administrator, możesz wybrać, czy FreeCAD ma być zainstalowany dla wszystkich użytkowników systemu, czy tylko dla Ciebie. Domyślnie instalator jest uruchamiany dla wszystkich użytkowników systemu.
 
-W przypadku instalacji dla wszystkich użytkowników, domyślna ścieżka instalacji to   *
+W przypadku instalacji dla wszystkich użytkowników, domyślna ścieżka instalacji to:
 
-   *   
-    **C   *Program Files\FreeCAD X.YY**
+:   
+    **C:\Program Files\FreeCAD X.YY**
     
 
 ## Cicha instalacja 
 
-Aby zainstalować program FreeCAD po cichu, można uruchomić instalator z wiersza poleceń   *
+Aby zainstalować program FreeCAD po cichu, można uruchomić instalator z wiersza poleceń:
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S
 }}
 
-Dla wszystkich opcji zostaną zastosowane ustawienia domyślne. W ten sposób można określić niestandardową ścieżkę instalacji   *
+Dla wszystkich opcji zostaną zastosowane ustawienia domyślne. W ten sposób można określić niestandardową ścieżkę instalacji:
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S /D=A path to FreeCAD with spaces
 }}
 
-Domyślnie, nawet w przypadku cichej instalacji, podczas sprawdzania instalatora pod kątem uszkodzeń zostanie wyświetlone krótkotrwałe okno dialogowe. To tak zwane cykliczne sprawdzanie poprawności trwa najwyżej kilka sekund. Aby wyłączyć sprawdzanie poprawności   *
+Domyślnie, nawet w przypadku cichej instalacji, podczas sprawdzania instalatora pod kątem uszkodzeń zostanie wyświetlone krótkotrwałe okno dialogowe. To tak zwane cykliczne sprawdzanie poprawności trwa najwyżej kilka sekund. Aby wyłączyć sprawdzanie poprawności:
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S /NCRC
 }}
 
-Uwaga   * ta flaga {{Incode|/NCRC}} jest **niezalecana**, ponieważ sprawdzanie poprawności zapewnia, że instalator został np. całkowicie pobrany.
+Uwaga: ta flaga {{Incode|/NCRC}} jest **niezalecana**, ponieważ sprawdzanie poprawności zapewnia, że instalator został np. całkowicie pobrany.
 
 ## Chocolatey
 
 W celu przeprowadzenia aktualizacji oprogramowania zaleca się jednak używanie menedżera pakietów, takiego jak **Chocolatey**.
-Możesz zainstalować Chocolatey, postępując zgodnie z [instrukcjami](https   *//chocolatey.org/install), a następnie otworzyć terminal PowerShell jako administrator i uruchomić proces aktualizacji   *
+Możesz zainstalować Chocolatey, postępując zgodnie z [instrukcjami](https://chocolatey.org/install), a następnie otworzyć terminal PowerShell jako administrator i uruchomić proces aktualizacji:
 
 
 {{Code|lang=text|code=
 choco install freecad
 }}
 
-Raz na jakiś czas można zaktualizować oprogramowanie poprzez   *
+Raz na jakiś czas można zaktualizować oprogramowanie poprzez:
 
 
 {{Code|lang=text|code=
 choco upgrade freecad
 }}
 
-Aby uzyskać najnowszą wersję dostępną w repozytorium Chocolatey. W przypadku wystąpienia jakichkolwiek problemów z pakietem Chocolatey, możesz skontaktować się z opiekunami na stronie [o tutaj](https   *//chocolatey.org/packages/freecad).
+Aby uzyskać najnowszą wersję dostępną w repozytorium Chocolatey. W przypadku wystąpienia jakichkolwiek problemów z pakietem Chocolatey, możesz skontaktować się z opiekunami na stronie [o tutaj](https://chocolatey.org/packages/freecad).
 
 ## Deinstalacja
 
-Aby odinstalować program FreeCAD, najlepiej jest użyć narzędzi Windows do odinstalowywania oprogramowania. Można też bezpośrednio uruchomić dezinstalator. To jest ten plik   *
+Aby odinstalować program FreeCAD, najlepiej jest użyć narzędzi Windows do odinstalowywania oprogramowania. Można też bezpośrednio uruchomić dezinstalator. To jest ten plik:
 
-   *   
+:   
     **Uninstall-FreeCAD.exe**
     
 
 Można go znaleźć w folderze, w którym zainstalowany jest program FreeCAD.
 
-Odinstalowanie programu można także wykonać za pomocą wiersza poleceń   *
+Odinstalowanie programu można także wykonać za pomocą wiersza poleceń:
 
 
 {{Code|lang=text|code=

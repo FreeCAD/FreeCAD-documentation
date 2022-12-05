@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Image Open
-   Name/it   *Apri immagine
-   Icon   *Image Open.svg
-   MenuLocation   *None
-   Workbenches   *[Image](Image_Workbench/it.md)
-   SeeAlso   *[Piano immagine](Image_CreateImagePlane/it.md), [Scala immagine](Image_Scaling/it.md)
+- GuiCommand:/it
+   Name:Image Open
+   Name/it:Apri immagine
+   Icon:Image Open.svg
+   MenuLocation:None
+   Workbenches:[Image](Image_Workbench/it.md)
+   SeeAlso:[Piano immagine](Image_CreateImagePlane/it.md), [Scala immagine](Image_Scaling/it.md)
 ---
 
 # Image Open/it

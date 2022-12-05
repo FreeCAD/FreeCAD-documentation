@@ -1,4 +1,4 @@
-# <img alt="" src=images/MOOC_workbench_icon.svg  style="width   *240px;">  MOOC Workbench/it
+# <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;">  MOOC Workbench/it
 *align=center|The FreeCAD MOOC External Workbench Icon*
 
 ## Descrizione
@@ -17,7 +17,7 @@ MOOC è un [ambiente esternoh](External_workbenches/it.md) con cui è possibile 
 -   Currently only in French (and hard-coded).
 -   Only compatible with FreeCAD Py3 and Qt5 (PySide2)
 -   LGPLv2 (or similar) code funded by Europe through IMT and EESAB.
--   Modular   * This workbench was created with the intention that the addition of tutorials and evaluations was modular. In other words, one has to add a tutorial in the **lessons** folder or an evaluation in the **exercises** folder to show up in the respective tool.
+-   Modular: This workbench was created with the intention that the addition of tutorials and evaluations was modular. In other words, one has to add a tutorial in the **lessons** folder or an evaluation in the **exercises** folder to show up in the respective tool.
 
 
 <div class="mw-translate-fuzzy">
@@ -27,7 +27,7 @@ Le esercitazioni **Interattive** (anche chiamate Player) sono esercizi guidati s
 
 </div>
 
-<img alt="" src=images/MOOC_Player_Dialog_Context.png  style="width   *1024px;"> 
+<img alt="" src=images/MOOC_Player_Dialog_Context.png  style="width:1024px;"> 
 *align=center|MOOC Player Dialog within FreeCAD GUI* ![](images/MOOC_Player_Dialog.png ) 
 *MOOC Player Dialog close up*
 
@@ -39,7 +39,7 @@ Le esercitazioni **Interattive** (anche chiamate Player) sono esercizi guidati s
 
 </div>
 
-<img alt="" src=images/MOOC_Grader_Dialog.png  style="width   *1024px;"> 
+<img alt="" src=images/MOOC_Grader_Dialog.png  style="width:1024px;"> 
 *align=center|The MOOC Grader Dialog*
 
 ## Installazione
@@ -58,7 +58,7 @@ ATM this workbench is only available in the French language.
 
 ## Technical Details 
 
-From a technical point of view, the workbench is composed of   *
+From a technical point of view, the workbench is composed of:
 
 -   an \"API\" that contains the code that analyzes the document (**MoocChecker.py**)
 -   the code that executes the tutorials in the \"lessons\" folder (**MoocPlayer.py**)
@@ -75,8 +75,8 @@ From a technical point of view, the workbench is composed of   *
 
 <div class="mw-translate-fuzzy">
 
--   Codice sorgente ospitato su Framagit   * [1](https   *//framagit.org/freecad-france/mooc-workbench)
--   Official complete [2](https   *//framagit.org/freecad-france/mooc-workbench#mooc-workbench)
+-   Codice sorgente ospitato su Framagit: [1](https://framagit.org/freecad-france/mooc-workbench)
+-   Official complete [2](https://framagit.org/freecad-france/mooc-workbench#mooc-workbench)
 
 
 </div>
@@ -85,14 +85,9 @@ From a technical point of view, the workbench is composed of   *
 
 Gli ambienti di FreeCAD sono facili da programmare in [Python](Python/it.md), quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
 
-La pagina [Ambienti complementari](external_workbenches/it.md) contiene alcune informazioni e tutorial su alcuni di loro, e il progetto [FreeCAD Addons](https   *//github.com/FreeCAD/FreeCAD-addons) mira a raccoglierli e renderli facilmente installabili dall\'interno di FreeCAD.
+La pagina [Ambienti complementari](external_workbenches/it.md) contiene alcune informazioni e tutorial su alcuni di loro, e il progetto [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) mira a raccoglierli e renderli facilmente installabili dall\'interno di FreeCAD.
 
 Sono in fase di sviluppo ulteriori nuovi ambienti.
-
-
- 
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

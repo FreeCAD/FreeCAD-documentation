@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std TransformManip
-   MenuLocation   *Right-click on an object in the tree view → Transform
+- GuiCommand:
+   Name:Std TransformManip
+   MenuLocation:Right-click on an object in the tree view → Transform
 Edit → Transform
-   Workbenches   *All
-   SeeAlso   *[Std Base](Std_Base.md)
+   Workbenches:All
+   SeeAlso:[Std Base](Std_Base.md)
 ---
 
 # Std TransformManip/en
@@ -27,7 +27,7 @@ This tool allows you to apply rotation increments or translation increments to a
 
 -   As soon as you rotate/move the object in the [3D view](3D_view.md), changes are applied.
 -   There is no Cancel button. Pressing **OK** only serves to exit the utility.
--   It\'s possible to <img alt="" src=images/Std_Undo.svg  style="width   *20px;"> [undo](Std_Undo.md) changes afterwards.
+-   It\'s possible to <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [undo](Std_Undo.md) changes afterwards.
 -   The value boxes are for increments, not absolute values.
 
 

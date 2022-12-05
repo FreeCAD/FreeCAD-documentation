@@ -1,16 +1,16 @@
 # Mesh Intersection/it
 ---
-- GuiCommand   */it
-   Name   *Mesh_Intersection
-   Name/it   *Intersezione‏‎‏‎
-   MenuLocation   *Mesh → Operazione booleana → Intersezione
-   Workbenches   *[Mesh](Mesh_Workbench/it.md)---
+- GuiCommand:/it
+   Name:Mesh_Intersection
+   Name/it:Intersezione‏‎‏‎
+   MenuLocation:Mesh → Operazione booleana → Intersezione
+   Workbenches:[Mesh](Mesh_Workbench/it.md)---
 
 ## Descrizione
 
 Il comando **Intersezione** crea un nuovo oggetto mesh non parametrico, un [Mesh Feature](Mesh_Feature/it.md), che è l\'intersezione (parte comune) di due oggetti mesh.
 
-Per utilizzare questo comando bisogna che [OpenSCAD](http   *//www.openscad.org/) sia installato e il percorso del suo eseguibile sia impostato nelle [preferenze di OpenSCAD](OpenSCAD_Preferences/it.md).
+Per utilizzare questo comando bisogna che [OpenSCAD](http://www.openscad.org/) sia installato e il percorso del suo eseguibile sia impostato nelle [preferenze di OpenSCAD](OpenSCAD_Preferences/it.md).
 
 ![](images/Mesh_Intersection_example.png ) 
 *A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'intersezione (parte comune) di quegli oggetti*

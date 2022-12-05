@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Assembly3 ConstraintAttachmentOffset
-   Name/fr   *Assembly3 Contrainte décalage d'accrochage
-   Icon   *Assembly_ConstraintAttachmentOffset.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Assembly3 ConstraintAttachmentOffset
+   Name/fr:Assembly3 Contrainte décalage d'accrochage
+   Icon:Assembly_ConstraintAttachmentOffset.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintAttachmentOffset/fr

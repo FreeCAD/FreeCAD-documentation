@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Part_Common
-   Name/fr   *Part Intersection
-   MenuLocation   *Part → Opération booléenne → Intersection 
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Union](Part_Fuse/fr.md)
+- GuiCommand:/fr
+   Name:Part_Common
+   Name/fr:Part Intersection
+   MenuLocation:Part → Opération booléenne → Intersection 
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Union](Part_Fuse/fr.md)
 ---
 
 # Part Common/fr
@@ -20,7 +20,7 @@ Extrait la partie commune (intersection) entre les objets Part sélectionnés. C
 
 ## Entrées supportées 
 
-Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). Exemples    * les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
+Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 
 
 

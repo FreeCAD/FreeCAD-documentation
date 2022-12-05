@@ -1,8 +1,6 @@
 # Category:Plot/ro
 This category lists pages related to the [Plot Workbench/ro](Plot_Workbench/ro.md).
 
-[Category   *Workbenches/ro](Category   *Workbenches/ro.md)
-
 ### Contents
 
 |     |     |     |

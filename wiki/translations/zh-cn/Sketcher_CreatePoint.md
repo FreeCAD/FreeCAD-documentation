@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher CreatePoint
-   MenuLocation   *Sketch → Sketcher geometries → Create point
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Shortcut   ***G** **Y**
+- GuiCommand:
+   Name:Sketcher CreatePoint
+   MenuLocation:Sketch → Sketcher geometries → Create point
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **Y**
 ---
 
 # Sketcher CreatePoint/zh-cn
@@ -18,7 +18,7 @@
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE   *Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
 
 
 <div class="mw-translate-fuzzy">

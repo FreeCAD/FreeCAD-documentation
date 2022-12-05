@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Arch 3Views
-   Name/it   *3 Viste da mesh
-   MenuLocation   *Arch → Utilità → 3 Viste da mesh
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   SeeAlso   *[Dividi Mesh](Arch_SplitMesh/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
+- GuiCommand:/it
+   Name:Arch 3Views
+   Name/it:3 Viste da mesh
+   MenuLocation:Arch → Utilità → 3 Viste da mesh
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   SeeAlso:[Dividi Mesh](Arch_SplitMesh/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
 ---
 
 # Arch 3Views/it
@@ -49,14 +49,14 @@ Notare che le viste prodotte sono degli oggetti indipendenti, non hanno legami t
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 </div>
 
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   * 
+Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
@@ -67,7 +67,7 @@ shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False,
 
 Usare `Part.show()` per visualizzare la forma piatta risultante.
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Draft, Arch, Mesh, MeshPart
 
@@ -78,7 +78,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 FreeCAD.ActiveDocument.recompute()

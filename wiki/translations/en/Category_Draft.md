@@ -1,8 +1,6 @@
 # Category:Draft/en
 This category list pages related to the [Draft Workbench](Draft_Workbench.md).
 
-[Category   *User Documentation/en](Category   *User_Documentation/en.md) [Category   *Workbenches/en](Category   *Workbenches/en.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */it
-   Name   *Std ViewIvStereoInterleavedRows
-   Name/it   *Stereo a righe interlacciate
-   MenuLocation   *Visualizza → Stereo → Stereo a righe interlacciate
-   Workbenches   *Tutti
-   SeeAlso   *[Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo quad buffer](Std_ViewIvStereoQuadBuff/it.md),  [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md), [Stereo Off](Std_ViewIvStereoOff/it.md)
+- GuiCommand:/it
+   Name:Std ViewIvStereoInterleavedRows
+   Name/it:Stereo a righe interlacciate
+   MenuLocation:Visualizza → Stereo → Stereo a righe interlacciate
+   Workbenches:Tutti
+   SeeAlso:[Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo quad buffer](Std_ViewIvStereoQuadBuff/it.md),  [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md), [Stereo Off](Std_ViewIvStereoOff/it.md)
 ---
 
 # Std ViewIvStereoInterleavedRows/it
 
 ## Descrizione
 
-The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https   *//en.wikipedia.org/wiki/Polarized_3D_system) are requires.
+The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) are requires.
 
 ## Utilizzo
 
@@ -19,12 +19,12 @@ The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_
 
 ## Preferenze
 
--   The eye to eye distance can be changed in the preferences   * **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The eye to eye distance can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

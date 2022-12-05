@@ -7,7 +7,7 @@ Le Drawing Exchange Format (DXF) est un format de données CAO propriétaire dé
 
 Il existe de nombreuses versions du format DXF. Vous entendrez parler de certaines versions clés, comme la R12 (de 1992) ou la R14 (de 1997, qui comportait des splines). Les versions ultérieures du format DXF comportent des éléments 3D mais ceux-ci sont rarement utilisés ou mis en œuvre. La façon dont vous utilisez DXF pour partager des données CAO entre programmes dépend principalement des limitations et des bogues des lecteurs/importateurs et des rédacteurs/exportateurs correspondants. Ceux-ci sont rarement bien documentés et peuvent être une grande source de frustration.
 
-Si vous éditez des fichiers DXF et que vous souhaitez qu\'ils restent quasiment identiques lorsque vous les enregistrez, nous vous recommandons d\'utiliser [LibreCAD](https   *//fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https   *//fr.wikipedia.org/wiki/QCad) car les structures de données internes de ces programmes sont compatibles avec les objets du fichier DXF.
+Si vous éditez des fichiers DXF et que vous souhaitez qu\'ils restent quasiment identiques lorsque vous les enregistrez, nous vous recommandons d\'utiliser [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad) car les structures de données internes de ces programmes sont compatibles avec les objets du fichier DXF.
 
 Dans FreeCAD, les lecteurs DXF doivent traduire la géométrie (par exemple, les formes de spline) du fichier DXF dans les représentations internes spécifiques de l\'atelier.
 
@@ -21,7 +21,7 @@ Si vous utilisez la géométrie importée pour créer des formes 3D dans l\'atel
 
 ### Importateur DXF en C++ 
 
-Cette implémentation est une mise en œuvre rapide, mais elle ignore les fonctionnalités qu'elle ne reconnaît pas, telles que les splines DXF. En outre, il ne peut importer de la géométrie dans le Draft Workbench que sous forme d\'entrées individuelles dans l\'arborescence du modèle. Celles-ci peuvent avoir les couleurs lues à partir du fichier si vous cochez pour activer cette option. Pour plus d\'informations, voir [ce post dans le forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=32493).
+Cette implémentation est une mise en œuvre rapide, mais elle ignore les fonctionnalités qu'elle ne reconnaît pas, telles que les splines DXF. En outre, il ne peut importer de la géométrie dans le Draft Workbench que sous forme d\'entrées individuelles dans l\'arborescence du modèle. Celles-ci peuvent avoir les couleurs lues à partir du fichier si vous cochez pour activer cette option. Pour plus d\'informations, voir [ce post dans le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
 
 ### Importateur DXF en Python 
 
@@ -38,11 +38,6 @@ Gardez un œil sur le forum FreeCAD ou sur la [Liste des macros](Macros_recipes/
 ## Sauvegarder au format DXF 
 
 Outre les options du menu Edition → Préférences, l\'[Atelier TechDraw](TechDraw_Workbench/fr.md) peut également exporter des pages de dessin au format DXF à l'aide de la fonction [TechDraw Exporter au format DXF](TechDraw_ExportPageDXF/fr.md).
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Draft](Category_Draft.md) [Category   *TechDraw](Category_TechDraw.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

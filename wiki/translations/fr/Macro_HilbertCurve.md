@@ -3,7 +3,7 @@
 |Name=HilbertCurve
 |Description=Cette macro crée un fil courbe de Hilbert en 2 ou 3 dimensions avec de nombreuses itérations. 
 |Author=Simone Bignetti
-|Download=[https   *//wiki.freecadweb.org/images/6/69/Hilbert_curve_icon.png icône pour la barre des outils]
+|Download=[https://wiki.freecadweb.org/images/6/69/Hilbert_curve_icon.png icône pour la barre des outils]
 |Date=2021-02-13
 |Version=1.2.0
 |FCVersion= 0.16 to 0.19
@@ -11,15 +11,15 @@
 
 ## Description
 
-Cette macro crée un fil [Courbe de Hilbert](https   *//fr.wikipedia.org/wiki/Courbe_de_Hilbert) en 2 ou 3 dimensions avec de nombreuses itérations.
+Cette macro crée un fil [Courbe de Hilbert](https://fr.wikipedia.org/wiki/Courbe_de_Hilbert) en 2 ou 3 dimensions avec de nombreuses itérations.
 
 ## Utilisation
 
 1.  Démarrez la macro dans un document FreeCAD.
-2.  Dans la boîte de dialogue qui s\'ouvre, choisissez les paramètres de la courbe de Hilbert   *
-    -   Sélectionnez si la courbe doit être à 2 dimensions   * {{CheckBox|TRUE|2D}}, ou 3 dimensions   * {{CheckBox|FALSE|3D}}.
+2.  Dans la boîte de dialogue qui s\'ouvre, choisissez les paramètres de la courbe de Hilbert:
+    -   Sélectionnez si la courbe doit être à 2 dimensions: {{CheckBox|TRUE|2D}}, ou 3 dimensions: {{CheckBox|FALSE|3D}}.
     -   Spécifiez le nombre d\'itérations {{SpinBox|1}}. *Attention!* L\'augmentation du nombre d\'itérations augmentera également le temps de calcul.
-    -   Spécifiez la longueur du segment de fil   * {{SpinBox|10.00}}.
+    -   Spécifiez la longueur du segment de fil: {{SpinBox|10.00}}.
 3.  Cliquez sur **OK** pour créer le fil ou sur **CANCEL** pour quitter la macro.
 
 ![Le fil Hilbert en 3D et 2 itérations.](images/HilbertCurveWire.png )
@@ -40,7 +40,7 @@ Icône de la barre d\'outils ![](images/Hilbert_curve_icon.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # Copyright (c) 2020 Simone Bignetti, Gottolengo Italy (simone.b)
 #
@@ -69,13 +69,13 @@ __Author__  = 'Simone Bignetti'
 __Version__ = '1.2.0'
 __Date__    = '2020-12-29'
 __License__ = 'GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999'
-__Web__ = 'https   *//wiki.freecadweb.org/Macro_HilbertCurve'
-__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_HilbertCurve'
+__Web__ = 'https://wiki.freecadweb.org/Macro_HilbertCurve'
+__Wiki__ = 'https://wiki.freecadweb.org/Macro_HilbertCurve'
 __Icon__ = 'HilbertCurve.svg'
 __Help__ = 'Choose the dimensions of the wire, the number of the iterations and the length of the wire segment.'
 __Status__ = 'Stable'
 __Requires__ = ''
-__Communication__ = 'https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53781'
+__Communication__ = 'https://forum.freecadweb.org/viewtopic.php?f=22&t=53781'
 __Files__ = 'HilbertCurve.svg'
 
 
@@ -86,15 +86,15 @@ import Draft
 # For the gui
 from PySide import QtGui, QtCore
 
-class HilbertCurve   *
+class HilbertCurve:
     """The class of the Hilbert curve.By this class it's possible to create a wire
     of a fractal Hilbert curve with
     a fixed number of dimensions and iterations.
-    """def __init__(self, dimensions, iterations)   *
+    """def __init__(self, dimensions, iterations):
         """Initialize the Hilbert curve.
-        Args   *
-            iterations (int)   * iterations to use in constructing the curve
-            dimensions (int)   * number of dimensions
+        Args:
+            iterations (int): iterations to use in constructing the curve
+            dimensions (int): number of dimensions
         """
 
         self.dimensions = dimensions
@@ -111,33 +111,33 @@ class HilbertCurve   *
         # number of points
         self.number_of_points = 2 ** (self.iterations * self.dimensions)
 
-    def point_from_distance(self, distance)   *
+    def point_from_distance(self, distance):
         """Return a point in n-dimensional space given a distance along a the curve.
-        Args   *
-            distance (int)   * integer distance along the curve
-        Returns   *
-            point (iterable of ints)   * an n-dimensional vector of length dimensions where
+        Args:
+            distance (int): integer distance along the curve
+        Returns:
+            point (iterable of ints): an n-dimensional vector of length dimensions where
             each component value is between 0 and 2**iterations-1.
         """
 
         bit_string = format(distance, 'b').zfill(self.iterations * self.dimensions)  # zero filled binary distance
-        point = [int(bit_string[i   *   *self.dimensions], 2) for i in range(self.dimensions)]  # transpose of distance
+        point = [int(bit_string[i::self.dimensions], 2) for i in range(self.dimensions)]  # transpose of distance
 
-        # Gray decode   * point = point xor (point / 2)
+        # Gray decode: point = point xor (point / 2)
         gray = point[self.dimensions-1] >> 1
-        for i in range(self.dimensions-1, 0, -1)   *
+        for i in range(self.dimensions-1, 0, -1):
             point[i] ^= point[i-1]
         point[0] ^= gray
 
         # Undo excess work
         q = 2
-        while q != (2 << (self.iterations-1))   *
+        while q != (2 << (self.iterations-1)):
             p = q - 1
-            for i in range(self.dimensions-1, -1, -1)   *
-                if point[i] & q   *
+            for i in range(self.dimensions-1, -1, -1):
+                if point[i] & q:
                     # invert
                     point[0] ^= p
-                else   *
+                else:
                     # exchange
                     gray = (point[0] ^ point[i]) & p
                     point[0] ^= gray
@@ -146,41 +146,41 @@ class HilbertCurve   *
 
         return point
 
-    def get_min_distance(self)   *
+    def get_min_distance(self):
         """Return the minimum distance along the curve."""
         return self.min_distance
 
-    def get_max_distance(self)   *
+    def get_max_distance(self):
         """Return the maximum distance along the curve."""
         return self.max_distance
 
-    def get_min_coordinate(self)   *
+    def get_min_coordinate(self):
         """Return the minimum coordinate value in any dimension."""
         return self.min_coordinate
 
-    def get_max_coordinate(self)   *
+    def get_max_coordinate(self):
         """Return the maximum coordinate value in any dimension."""
         return self.max_coordinate
 
-    def get_number_of_points(self)   *
+    def get_number_of_points(self):
         """Return the number of points in the curve."""
         return self.number_of_points
 
-    def get_points(self)   *
+    def get_points(self):
         """Return the list of points in the curve."""
         points = []
-        for point_number in range(self.number_of_points)   *
+        for point_number in range(self.number_of_points):
             points.append(self.point_from_distance(point_number))
         return points
 
-    def __str__(self)   *
+    def __str__(self):
         return f"HilbertCurve(dimensions={self.dimensions}, iterations={self.iterations})"
 
-    def __repr__(self)   *
+    def __repr__(self):
         return self.__str__()
 
 
-class Hilbert_Dialog(QtGui.QDialog)   *
+class Hilbert_Dialog(QtGui.QDialog):
     """The dialog for the Hilbert curveThis class opens in FreeCAD a dialog to input
     the number of dimensions and the number of iterations
     to create the Hilbert curve.
@@ -188,11 +188,11 @@ class Hilbert_Dialog(QtGui.QDialog)   *
     CANCEL quit the macro.
     """
 
-    def __init__(self)   *
+    def __init__(self):
         super(Hilbert_Dialog, self).__init__()
         self.setupUi()
 
-    def setupUi(self)   *
+    def setupUi(self):
         self.dimensions = 2
         self.iterations = 3
 
@@ -210,7 +210,7 @@ class Hilbert_Dialog(QtGui.QDialog)   *
         titleBox.addWidget(subtitleLabel)
         titleBox.insertStretch(-1)
 
-        dimensionsLabel = QtGui.QLabel("Number of dimensions   * ")  # Number of dimensions
+        dimensionsLabel = QtGui.QLabel("Number of dimensions: ")  # Number of dimensions
         self.twoDradioButton = QtGui.QRadioButton()
         self.twoDradioButton.setText("2D")
         self.twoDradioButton.setChecked(True)
@@ -221,11 +221,11 @@ class Hilbert_Dialog(QtGui.QDialog)   *
         dimensionsBox.addWidget(self.twoDradioButton)
         dimensionsBox.addWidget(self.threeDradioButton)
 
-        iterationsLabel = QtGui.QLabel("Iterations   *")  # Iterations  and length spins in a grid
+        iterationsLabel = QtGui.QLabel("Iterations:")  # Iterations  and length spins in a grid
         self.iterationsSpin = QtGui.QSpinBox()
         self.iterationsSpin.setMinimum(1)
         self.iterationsSpin.setMaximum(10)
-        lengthLabel = QtGui.QLabel("Length   *")
+        lengthLabel = QtGui.QLabel("Length:")
         self.lengthSpin = QtGui.QDoubleSpinBox()
         self.lengthSpin.setMinimum(1.0)
         self.lengthSpin.setMaximum(999999.000000000000000)
@@ -258,10 +258,10 @@ class Hilbert_Dialog(QtGui.QDialog)   *
         Appuyez sur « CTRL-ENTER » pour confirmer et passer au message suivant, « ALT-SHIFT-D » pour sauter, « ALT-SHIFT-B » pour fournir un résumé ou maintenir « ALT » pour voir d’autres raccourcis.
 Ajouter une documentation
 
-    def onOkButton(self)   *
-        if self.twoDradioButton.isChecked()   *
+    def onOkButton(self):
+        if self.twoDradioButton.isChecked():
             dimensions = 2
-        else   *
+        else:
             dimensions = 3
         iterations = self.iterationsSpin.value()
         length = self.lengthSpin.value()
@@ -271,18 +271,18 @@ Ajouter une documentation
         pl.Rotation.Q = (0.0, 0.0, 0.0, 1.0)
         pl.Base = app.Vector(0.0, 0.0, 0.0)
         vectors = []
-        if dimensions == 2   *
-            for point in points   *
+        if dimensions == 2:
+            for point in points:
                 vectors.append(app.Vector(point[0]*length, point[1]*length, 0.0))
-        else   *
-            for point in points   *
+        else:
+            for point in points:
                 vectors.append(app.Vector(point[0]*length, point[1]*length, point[2]*length))
         wire = Draft.makeWire(vectors, placement=pl, closed=False, face=False, support=None)
         wire.Label = "Hilbert"
         Draft.autogroup(wire)
         self.close()
 
-    def onCancelButton(self)   *
+    def onCancelButton(self):
         self.close()
 
 

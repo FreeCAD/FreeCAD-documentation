@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh EvaluateFacet
-   Name/pl   *Sitka   * Informacje o powierzchni
-   MenuLocation   *Siatki → Analizuj → Informacja o powierzchni
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+- GuiCommand:/pl
+   Name:Mesh EvaluateFacet
+   Name/pl:Sitka: Informacje o powierzchni
+   MenuLocation:Siatki → Analizuj → Informacja o powierzchni
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh EvaluateFacet/pl
@@ -12,8 +12,8 @@
 
 Polecenie **Informacje o powierzchni** pokazuje informacje o ścianach obiektów siatkowych.
 
-Mesh   * Ellipsoid Facet 3631   * Points   * <1817, 1818, 1866>, Neighbours   * <3534, 3632, 3630>
-Triangle   * <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797], [1.964574, -0.047063, 0.748046]>
+Mesh: Ellipsoid Facet 3631: Points: <1817, 1818, 1866>, Neighbours: <3534, 3632, 3630>
+Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797], [1.964574, -0.047063, 0.748046]>
 
 
 
@@ -22,13 +22,13 @@ Triangle   * <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.99279
 ## Użycie
 
 1.  Wskazane jest włączenie okna [Widoku raportu](Report_view/pl.md). Polecenie wyświetli tam szczegółowe informacje.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_EvaluateFacet.svg" width=16px> [Informacje o powierzchni](Mesh_EvaluateFacet/pl.md)**.
     -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_EvaluateFacet.svg" width=16px> Informacje o powierzchni**.
 3.  Kursor zmienia się na ikonę pipety.
 4.  Wybierz ścianę obiektu siatkowego.
 5.  Jej indeks zostanie wyświetlony w oknie [widoku 3D](3D_view.md).
-6.  W oknie Widoku raportu wyświetlane są dodatkowe informacje   *
+6.  W oknie Widoku raportu wyświetlane są dodatkowe informacje:
     -   Wewnętrzna nazwa obiektu siatkowego.
     -   Indeks wybranej ściany.
     -   Indeksy trzech punktów ściany.

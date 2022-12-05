@@ -1,6 +1,6 @@
 # Arch Building/sv
 ---
-- GuiCommand   */sv   Name   *Arch Building   Name/sv   *Arch Building   Workbenches   *[[Arch_Workbench/sv   Arch]]|MenuLocation   *Arch → Building   Shortcut   *B U   SeeAlso   *---
+- GuiCommand:/sv   Name:Arch Building   Name/sv:Arch Building   Workbenches:[[Arch_Workbench/sv   Arch]]|MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:---
 
 
 </div>
@@ -22,23 +22,23 @@ Byggnad är en speciell typ av FreeCAD group objekt som är tänkt att innehåll
 
 ## Properties
 
--    **Building Type**   * The type of this building, to choose from a list
+-    **Building Type**: The type of this building, to choose from a list
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```
 
 -   Creates a `Building` object from `objectslist`, which is a list of objects, or `baseobj`, which is a `Shape`.
 
-Example   *
+Example:
 
 
 ```python

@@ -1,6 +1,6 @@
 # Path DressupDragKnife/ro
 ---
-- GuiCommand   *   Name   *Path DressupTag   Workbenches   *[MenuLocation   *Path → Path Dressup → Dragknife Dress-up   SeeAlso   *[[Path_DressupTag|Path DressupTag](Path_Workbench___Path]].md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md) ---
+- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → Dragknife Dress-up   SeeAlso:[[Path_DressupTag|Path DressupTag](Path_Workbench___Path]].md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md) ---
 
 
 </div>
@@ -29,7 +29,7 @@ Acest instrument îmbracă o cale existentă pentru a adăuga acțiuni de colț 
 <div class="mw-translate-fuzzy">
 
 1.  Selectați un contur sau profil de traiectorie [Path](Path_Workbench.md) objects
-2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [Dragknife Dress-up](Path_DressupDragKnife.md)
+2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [Dragknife Dress-up](Path_DressupDragKnife.md)
 
 
 </div>

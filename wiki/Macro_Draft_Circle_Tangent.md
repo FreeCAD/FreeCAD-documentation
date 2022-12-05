@@ -23,9 +23,9 @@ Through the [Addon manager](Std_AddonMgr.md).
 
 ## Version
 
-v0.2 2022-11-27    * Fixed draft point selection in Tree view.
+v0.2 2022-11-27 : Fixed draft point selection in Tree view.
 
-v0.1 2022-11-21    * First release.
+v0.1 2022-11-21 : First release.
 
 ## Code
 
@@ -34,7 +34,7 @@ v0.1 2022-11-21    * First release.
 
 {{MacroCode|code=
 #!/usr/bin/env python3
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # ***************************************************************************
 # *   Copyright (c) 2022 heda <heda @ freecad forum>                        *
@@ -67,7 +67,7 @@ __Version__ = '0.2'
 __Date__ = '2022-11-27'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = ''
-__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_Draft_Circle_Tangent'
+__Wiki__ = 'https://wiki.freecadweb.org/Macro_Draft_Circle_Tangent'
 __Icon__ = ''
 __Help__ = 'Select and launch.'
 __Status__ = 'functional'
@@ -89,7 +89,7 @@ for circle and circle the angles are calculated,
 one can also construct the tangents in a similar way to
 circle/point way, i.e. intersections by additional construction circles
 
-note   * tesselation often makes the true tangent not look like a true tangent
+note: tesselation often makes the true tangent not look like a true tangent
 this is to not overload rendering for larger projects
 one can change the viewsetting deviation for the circle to minimum (0.01)
 if one wants to better view the true tangent, if so, better turn that back
@@ -102,32 +102,32 @@ from math import sin, cos, pi, atan2, acos, asin
 import Draft
 
 doc = App.ActiveDocument
-cgroup = doc.addObject('App   *   *DocumentObjectGroup','Construction')
+cgroup = doc.addObject('App::DocumentObjectGroup','Construction')
 Vector, Placement = App.Vector, App.Placement
 RotZero = Placement().Rotation
 
-def get_curve(obj)   *
+def get_curve(obj):
     return obj.Shape.Edge1.Curve
 
-def point2vector(pt)   *
+def point2vector(pt):
     return pt.toShape().Point
 
-def get_intersection_points(obj1, obj2)   *
+def get_intersection_points(obj1, obj2):
     doc.recompute()
     i1, i2 = get_curve(obj1).intersect(get_curve(obj2))
     return (point2vector(p) for p in (i1, i2))
 
-def add_construction(obj)   *
+def add_construction(obj):
     _ = cgroup.addObject(obj)
 
-def mk_line(v1, v2, construction=True)   *
+def mk_line(v1, v2, construction=True):
     line = Draft.make_line(v1, v2)
-    if construction   *
+    if construction:
         line.ViewObject.DrawStyle = 'Dashdot'
         add_construction(line)
     return line
 
-def mk_circle(centre, radius)   *
+def mk_circle(centre, radius):
     circle = Draft.make_circle(radius, Placement(centre, RotZero), False)
     circle.ViewObject.DrawStyle = 'Dashed'
     add_construction(circle)
@@ -139,27 +139,27 @@ SINGLE = False
 msg = ('select exactly 2 items, 2 (draft) circles '
         'or 1 (draft) circle and one vertex or (draft) point')
 selection = Gui.Selection.getSelection()
-if len(selection) == 2   *
+if len(selection) == 2:
     s1, s2 = selection
     r1, r2 = (hasattr(r, 'Radius') for r in selection)
-    if r1 and r2   *
+    if r1 and r2:
         c1s, c2s = s1, s2
-    elif not r1 and not r2   *
+    elif not r1 and not r2:
         raise RunTimeWarning(msg)
-    else   *
+    else:
         SINGLE = True
         circle = s1 if r1 else s2
         sx1, sx2 = Gui.Selection.getSelectionEx()
         sx = sx2 if r1 else sx1
-        if sx.PickedPoints   *
+        if sx.PickedPoints:
             point, = sx.PickedPoints
-        else   * # it is a draft point selected in tree view
+        else: # it is a draft point selected in tree view
             point = sx.Object.Shape.Point
     
-else   *
+else:
     raise RunTimeWarning(msg)
 
-if SINGLE   *
+if SINGLE:
 
     o = circle.Placement.Base
     op = point - o
@@ -172,12 +172,12 @@ if SINGLE   *
     tangent2 = mk_line(point, v2, False)
 
 
-else   *
+else:
 
     # c1 is the larger one
-    if c1s.Radius >= c2s.Radius   *
+    if c1s.Radius >= c2s.Radius:
         c1, c2 = c1s, c2s
-    else   *
+    else:
         c1, c2 = c2s, c1s
 
     c1c, c2c = c1.Placement.Base, c2.Placement.Base

@@ -1,13 +1,13 @@
 ---
-- GuiCommand   */pl
+- GuiCommand:/pl
 
-   Name   *Std ViewDockUndockFullscreen
-   Nam/pl   *Std   * Zadokuj / Oddokuj okno
-   Empty   *1
-   MenuLocation   *Widok → Okno dokumentu → Zadokowany / Niezadokowany
-   Workbenches   *wszystkie
-   Shortcut   ***V** **D** / **V** **U**
-   SeeAlso   *[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
+   Name:Std ViewDockUndockFullscreen
+   Nam/pl:Std: Zadokuj / Oddokuj okno
+   Empty:1
+   MenuLocation:Widok → Okno dokumentu → Zadokowany / Niezadokowany
+   Workbenches:wszystkie
+   Shortcut:**V** **D** / **V** **U**
+   SeeAlso:[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
 ---
 
 # Std ViewDockUndockFullscreen/pl
@@ -28,10 +28,10 @@ Opcja menu **Zadokowany** powoduje zadokowanie aktywnego okna [widoku 3D](3D_vie
 ## Użycie
 
 1.  Aktywuj odłączone okno widoku 3D.
-2.  Opcję można wywołać na kilka sposobów   *
-    -   Jeśli nie ma zadokowanych widoków 3D   * wybierz z menu opcję **Widok → Okno dokumentu → Zadokowany**.
+2.  Opcję można wywołać na kilka sposobów:
+    -   Jeśli nie ma zadokowanych widoków 3D: wybierz z menu opcję **Widok → Okno dokumentu → Zadokowany**.
     -   Wybierz opcję **Okno dokumentu → Zadokowany** z menu kontekstowego okna widoku 3D.
-    -   Użyj skrótu klawiaturowego   * **V**, a następnie **D**.
+    -   Użyj skrótu klawiaturowego: **V**, a następnie **D**.
 
 ## Odblokowane
 
@@ -42,10 +42,10 @@ Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D
 ## Użycie 
 
 1.  Aktywuj okno widoku 3D.
-2.  Opcję można wywołać na kilka sposobów   *
-    -   Jeśli nie ma zadokowanych widoków 3D   * wybierz z menu opcję **Widok → Okno dokumentu → Niezadokowany**.
+2.  Opcję można wywołać na kilka sposobów:
+    -   Jeśli nie ma zadokowanych widoków 3D: wybierz z menu opcję **Widok → Okno dokumentu → Niezadokowany**.
     -   Wybierz opcję **Okno dokumentu → Niezadokowany** z menu kontekstowego okna widoku 3D.
-    -   Użyj skrótu klawiaturowego   * **V**, a następnie **U**.
+    -   Użyj skrótu klawiaturowego: **V**, a następnie **U**.
 
 ## Uwagi
 

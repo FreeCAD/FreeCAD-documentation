@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std ToggleObjects
-   MenuLocation   *View → Visibility → Toggle all objects
-   Workbenches   *All
-   SeeAlso   *[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
+- GuiCommand:
+   Name:Std ToggleObjects
+   MenuLocation:View → Visibility → Toggle all objects
+   Workbenches:All
+   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---
 
 # Std ToggleObjects/en
@@ -27,7 +27,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

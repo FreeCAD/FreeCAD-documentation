@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Part JoinCutout
-   MenuLocation   *Part → Join → Cutout for Object
-   Workbenches   *[Part](Part_Workbench.md)
-   Version   *0.16
-   SeeAlso   *[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+- GuiCommand:
+   Name:Part JoinCutout
+   MenuLocation:Part → Join → Cutout for Object
+   Workbenches:[Part](Part_Workbench.md)
+   Version:0.16
+   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
 # Part JoinCutout/ro
@@ -22,7 +22,7 @@ Coutout tool creates a cutout in a walled object (e.g., a pipe) to fit another w
 
 </div>
 
-The <img alt="" src=images/Part_JoinCutout.svg  style="width   *24px;"> [Part JoinCutout](Part_JoinCutout.md) tool creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
+The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) tool creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
@@ -61,13 +61,13 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 
 {{TitleProperty|Base}}
 
--    **Base**   * Reference to base object (the one to make the cutout in). The object should be a single solid.
+-    **Base**: Reference to base object (the one to make the cutout in). The object should be a single solid.
 
--    **Tool**   * Reference to tool object (the object that is to fit into the cutout). The object can be a single solid, or a [valid compound](Part_MakeCompound.md) of solids.
+-    **Tool**: Reference to tool object (the object that is to fit into the cutout). The object can be a single solid, or a [valid compound](Part_MakeCompound.md) of solids.
 
--    **Mode**   * The mode of operation, equals \'Cutout\' (Changing that will transform the tool into another Part_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
+-    **Mode**: The mode of operation, equals \'Cutout\' (Changing that will transform the tool into another Part_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
 
--    **Refine**   * Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
+-    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
 
 </div>
@@ -79,9 +79,9 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 
 ## Examplu
 
-1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md)   *
+1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
     ![320px](images/JoinFeatures_Example_step1.png)
-2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe   *
+2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Select the first pipe, then the second pipe (order of selection is important), and click the \'Cutout for object\' option from the Join tools dropdown toolbar button.
     ![320px](images/JoinFeatures_Example_step3_Cutout.png)
@@ -109,7 +109,7 @@ Algoritmii din spatele instrumentelor de conectare sunt destul de simple, iar î
 
 </div>
 
-2\. The resulting compound is filtered   * only the largest solid is kept.
+2\. The resulting compound is filtered: only the largest solid is kept.
 
 
 <div class="mw-translate-fuzzy">
@@ -136,7 +136,7 @@ Algoritmii din spatele instrumentelor de conectare sunt destul de simple, iar î
 
 ## Programare-Script 
 
-Instrumentul Join poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție   *
+Instrumentul Join poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție:
 
 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```

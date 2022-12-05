@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw LandmarkDimension
-   Name/it   *Quota da punti di riferimento
-   MenuLocation   *TechDraw → Quota da punti di riferimento
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:TechDraw LandmarkDimension
+   Name/it:Quota da punti di riferimento
+   MenuLocation:TechDraw → Quota da punti di riferimento
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
+   Version:0.19
 ---
 
 # TechDraw LandmarkDimension/it
@@ -65,21 +65,21 @@ Quota da punti di riferimento non introduce nuove proprietà.
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Quota da punti di riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Quota da punti di riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
 dim1.Type = "Distance"
 dim1.References2D=[(TDView, 'Vertex1')]
 dim1.References3D=[(Point3d1, 'Vertex1')]

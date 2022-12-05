@@ -5,8 +5,6 @@ Diese Vorlagen erzeugen kleine Textstücke, die für die Transklusion geeignet s
 
 Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit der Übersetzungserweiterung übersetzt werden können.
 
-[Category   *Template/de](Category   *Template/de.md)
-
 ### Contents
 
 |     |     |     |

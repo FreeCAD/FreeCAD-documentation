@@ -3,8 +3,6 @@
 
 Questa categoria recensisce le pagine di aiuto di tutti i comandi di FreeCAD.
 
-[Category   *Categories/it](Category   *Categories/it.md)
-
 ### Contents
 
 |     |     |     |

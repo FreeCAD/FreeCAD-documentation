@@ -1,7 +1,7 @@
 # Arch Preferences/fr
 Les préférences de l\'[Atelier Arch](Arch_Workbench/fr.md) se trouvent dans [Éditeur de préférences](Preferences_Editor/fr.md), dans le menu **Édition → Préférences → Arch**.
 
-Il existe deux onglets    * Paramètres généraux et Valeurs par défaut.
+Il existe deux onglets : Paramètres généraux et Valeurs par défaut.
 
 ## Paramètres généraux 
 
@@ -10,14 +10,6 @@ Il existe deux onglets    * Paramètres généraux et Valeurs par défaut.
 ## Valeurs par défaut 
 
 ![](images/Preference_Arch_Tab_02.png )
-
-
-
-
-
- 
-
-[Category   *Preferences](Category_Preferences.md)
 
 
 

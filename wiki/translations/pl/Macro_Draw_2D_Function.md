@@ -7,20 +7,20 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion=Wszystkie
-|Download=[https   *//www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png ikonka paska narzędzi]
+|Download=[https://www.freecadweb.org/wiki/images/3/36/Macro_Draw_2D_Function.png ikonka paska narzędzi]
 }}
 
 ## Opis
 
-Użyj jej do narysowania funkcji opisanej *równaniem \[z=F(x)\]* (płaszczyzna Z-X). Przykład wykonany tutaj generuje parabolę. Nie ma okna dialogowego. Wymaga zdefiniowania   *
+Użyj jej do narysowania funkcji opisanej *równaniem \[z=F(x)\]* (płaszczyzna Z-X). Przykład wykonany tutaj generuje parabolę. Nie ma okna dialogowego. Wymaga zdefiniowania:
 
-   *   F = zmienna używana w funkcji,
+:   F = zmienna używana w funkcji,
 
 X = wartość początkowa x,
 
-   *   Nb = liczba kroków,
-   *   Z = funkcja wyrażona przez x
-   *   ZZ = funkcja wyrażona przez xx
+:   Nb = liczba kroków,
+:   Z = funkcja wyrażona przez x
+:   ZZ = funkcja wyrażona przez xx
 
 ## Tworzenie skryptów 
 
@@ -44,15 +44,15 @@ X=-500
 Nb=10
 Step=1000/Nb
 Y=0
-for I in range(Nb)   *
+for I in range(Nb):
     XX=X+Step 
     Z=X*X/(4*F)
     ZZ=XX*XX/(4*F)
-    if I==0   *
+    if I==0:
         print( "Le test est vrai !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))
         WWire=Part.Wire([nomme])
-    else    *
+    else :
         print( "Le test est 2 !")
         nomme=Part.makeLine((X,Y,Z),(XX,Y,ZZ))      
         WWire=Part.Wire([WWire,nomme])

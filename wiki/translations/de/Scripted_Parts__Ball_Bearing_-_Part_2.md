@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */de
-   Topic   * Part Scripting - Ball Bearing #2
-   Level   * Beginner
-   Time   * 30 min
-   Author   *r-frank
-   FCVersion   *0.16.6706
-   Files   *
+- TutorialInfo:/de
+   Topic: Part Scripting - Ball Bearing #2
+   Level: Beginner
+   Time: 30 min
+   Author:r-frank
+   FCVersion:0.16.6706
+   Files:
 }}
 
 ### Einleitung
@@ -13,8 +13,8 @@
 Dieses Tutorial ist gedacht als Einführung wie man Modelle erstellt mit Hilfe von Python Skripten innerhalb von FreeCAD.
 Dieses Tutorial erklärt wie man ein Kugellager erstellt mittels Sizzen, die dann rotiert werden.
 Der Code wird ein neues FreeCAD-Dokument erstellen mit 12 einzelnen Körpern (Innerer Ring, äußerer Ring und 10 Kugeln).
-Das Ergebnis sieht so aus   *
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
+Das Ergebnis sieht so aus:
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
 ### Arbeitsablauf
 
@@ -24,7 +24,7 @@ Es gibt nur wenige Unterschiede.
 
 -   Zeichne die grundlegende Figur des äußeren Ringes bestehend aus vier Linien und vier Kreisbögen.
 
-<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width   *150px;">
+<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width:150px;">
 
 -   Verbinde die Elemente und upgrade Sie zu einem Draht (wire)
 -   Upgrade des wires zu einer Fläche
@@ -55,7 +55,7 @@ Dann fügen wir eine boolsche Verschneidung hinzu und wir haben die komplette Fo
 
 ### Einfügen der Kugeln 
 
-Der korrekte skizzen-basierende Ablauf um die Kugeln einzufügen wäre wie folgt   *
+Der korrekte skizzen-basierende Ablauf um die Kugeln einzufügen wäre wie folgt:
 \*Zeichne einen Halbkreis mit dem Zentrum im Nullpunkt und zeichne eine Linie, die die offene Seite des Halbkreises schließt.
 
 -   Wandle die zwei Elemente in einen Draht (wire) um, upgrade zur Fläche und rotiere um die Z-Achse, um eine Kugel zu erhalten
@@ -68,19 +68,19 @@ Also benutzen wir dieselbe Methode wie in Teil 1.
 
 ### Links
 
-[Skriptgenerierte Objekte](Scripted_objects/de.md)   * Diese Wiki-Seite erklärt die Grundlagen für part scripting
-[Topologisches Datenskripten](Topological_data_scripting/de.md)   * Ein Tutorial für die Grundlagen des part scriptings
-[Skriptgenerierte Teile   * Kugellager - Teil 1](Scripted_Parts   *_Ball_Bearing_-_Part_1/de.md)   * Erstellen des Modelles mittels Grundkörpern
-[Bearings from scripted sketches](http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)   * Basis für dieses Tutorial, vielen Dank an JMG \...
+[Skriptgenerierte Objekte](Scripted_objects/de.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
+[Topologisches Datenskripten](Topological_data_scripting/de.md): Ein Tutorial für die Grundlagen des part scriptings
+[Skriptgenerierte Teile: Kugellager - Teil 1](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md): Erstellen des Modelles mittels Grundkörpern
+[Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Basis für dieses Tutorial, vielen Dank an JMG \...
 
 ### Code
 
 
-{{Code   code   *
+{{Code   code:
 ## Ball-bearing Skript
 ## 11.08.2016 von r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## basierend auf dem ball bearing script by JMG
-## (http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
+## (http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
 #
 #um Grundkoerper einzufuegen
 import Part
@@ -158,7 +158,7 @@ IR=IR.cut(GRi)
 Part.show(IR)
 #
 #Kugeln einfuegen#
-for i in range(NBall)   *
+for i in range(NBall):
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -177,9 +177,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+}}
 
 
 

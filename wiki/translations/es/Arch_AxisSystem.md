@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch AxisSystem
-   Name/es   *Arch AxisSystem
-   MenuLocation   *Arch → Axis System
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   SeeAlso   *[Arch Axis](Arch_Axis/es.md), [Grid](Arch_Grid/es.md)
+- GuiCommand:/es
+   Name:Arch AxisSystem
+   Name/es:Arch AxisSystem
+   MenuLocation:Arch → Axis System
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   SeeAlso:[Arch Axis](Arch_Axis/es.md), [Grid](Arch_Grid/es.md)
 ---
 
 # Arch AxisSystem/es
@@ -24,7 +24,7 @@ La herramienta Sistema de ejes le permite combinar 2 o 3 objetos [Arch Axis](Arc
 
 This is useful to define the intersection points between the different axes. Arch objects can then use this system to duplicate their shape on the different intersection points.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +79,7 @@ This is useful to define the intersection points between the different axes. Arc
 
 <div class="mw-translate-fuzzy">
 
-La herramienta del sistema ejes puede utilizarse en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función   *
+La herramienta del sistema ejes puede utilizarse en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función:
 
 
 </div>
@@ -97,7 +97,7 @@ Hace un sistema de eje basado en la lista dada de [Arch Axis](Arch_Axis/es.md)
 
 </div>
 
-Ejemplo   * 
+Ejemplo: 
 ```python
 import Draft, Arch
 

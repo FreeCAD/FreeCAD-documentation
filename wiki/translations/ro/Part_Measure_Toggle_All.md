@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Part Measure Toggle All
-   MenuLocation   *Measure → Toggle All
-   Workbenches   *[Part](Part_Workbench.md)
+- GuiCommand:
+   Name:Part Measure Toggle All
+   MenuLocation:Measure → Toggle All
+   Workbenches:[Part](Part_Workbench.md)
 ---
 
 # Part Measure Toggle All/ro
@@ -20,7 +20,7 @@
 
 </div>
 
-<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width   *400px;">
+<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width:400px;">
 
 ## Usage
 

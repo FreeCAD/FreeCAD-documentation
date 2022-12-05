@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Wall
-   Name/es   *Arquitectura Muro
-   MenuLocation   *Arquitectura → Muro
-   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***W** **A**
-   SeeAlso   *[Arquitectura Estructura](Arch_Structure/es.md)
+- GuiCommand:/es
+   Name:Arch Wall
+   Name/es:Arquitectura Muro
+   MenuLocation:Arquitectura → Muro
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**W** **A**
+   SeeAlso:[Arquitectura Estructura](Arch_Structure/es.md)
 ---
 
 # Arch Wall/es
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta construye un objeto Muro desde cero o sobre cualquier otro objeto basado en el [forma](Part_Workbench/es.md) o en el [malla](Mesh_Workbench/es.md). Un muro puede construirse sin ningún objeto base, en cuyo caso se comporta como un volumen cúbico, utilizando las propiedades de longitud, anchura y altura. Cuando se construye sobre una forma existente, un muro puede estar basado en   *
+Esta herramienta construye un objeto Muro desde cero o sobre cualquier otro objeto basado en el [forma](Part_Workbench/es.md) o en el [malla](Mesh_Workbench/es.md). Un muro puede construirse sin ningún objeto base, en cuyo caso se comporta como un volumen cúbico, utilizando las propiedades de longitud, anchura y altura. Cuando se construye sobre una forma existente, un muro puede estar basado en:
 
 
 </div>
@@ -28,7 +28,7 @@ Esta herramienta construye un objeto Muro desde cero o sobre cualquier otro obje
 -   Un **sólido**, en cuyo caso las propiedades de longitud, anchura y altura no tienen ningún efecto. El muro simplemente utiliza el sólido subyacente como su forma.
 -   Una **malla**\', en cuyo caso la malla subyacente debe ser un sólido cerrado y múltiple.
 
-<img alt="" src=images/Arch_Wall_example.jpg  style="width   *780px;"> 
+<img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
 *Muros construidos a partir de una línea, un cable, una cara, un sólido y un boceto*
 
 Los muros también pueden tener adiciones o sustracciones. Las adiciones son otros objetos cuyas formas se unen en la forma de este Muro, mientras que las sustracciones se restan. Las adiciones y sustracciones se pueden añadir con las herramientas [Arco Añadir](Arch_Add.md) y [Arco Quitar](Arch_Remove.md). Las adiciones y sustracciones no influyen en los parámetros de los muros, como la altura y la anchura, que aún pueden modificarse. Los muros también pueden tener su altura automática, si están incluidos en un objeto de nivel superior como [floors](Arch_Floor.md). La altura debe mantenerse en 0, entonces el muro adoptará la altura especificada en el objeto padre.
@@ -59,7 +59,7 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 
 -   Los muros comparten las propiedades y comportamientos comunes de todos los [Arquitectura Componentes](Arch_Component/es.md)
 -   La altura, ancho y alineación de un muro se pueden definir mientras se dibuja, por medio del panel de tareas
--   Cuando se ajusta un muro a otro ya existente, ambos se unen en uno. El modo en que dos muros se unen depende de sus propiedades   * Si tienen el mismo ancho, altura y alineación, el muro resultante será un objeto basado en un croquis compuesto por varios segmentos. En otro caso, el segundo muro se añadirá al primero como una adicción.
+-   Cuando se ajusta un muro a otro ya existente, ambos se unen en uno. El modo en que dos muros se unen depende de sus propiedades: Si tienen el mismo ancho, altura y alineación, el muro resultante será un objeto basado en un croquis compuesto por varios segmentos. En otro caso, el segundo muro se añadirá al primero como una adicción.
 -   Presiona **X**, **Y** o **Z** después del primer punto para restringir el segundo punto a un eje dado.
 -   Para introducir coordenadas manualmente, simplemente introduce los números y presiona **Enter** entre cada componente X, Y y Z.
 -   Presiona **R** o activa la casilla de selección para activar / desactivar el botón **'''Relativas'''**. Si el modo Relativas está activado, las coordenadas del segundo punto serán relativas al primero. Si no es así, serán absolutas, indicadas a partir del origen de coordenadas (0,0,0).
@@ -75,7 +75,7 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 
 El ajuste funciona un poco diferente con los muros de Arquitectura que con otros objetos de Arquitectura y Borrador. Si un muro tiene un objeto base, el ajuste se anclará al objeto base, en lugar de a la geometría del muro, lo que permite alinear fácilmente los muros por su línea base. Sin embargo, si quiere ajustarse específicamente a la geometría del muro, pulsando **Ctrl** cambiará el ajuste al objeto muro.
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;"> 
+<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Segunda muro que se ajuste perpendicularmente a la primera*
 
 ## Propiedades
@@ -83,25 +83,25 @@ El ajuste funciona un poco diferente con los muros de Arquitectura que con otros
 
 <div class="mw-translate-fuzzy">
 
-Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbench/es.md) y también tienen las siguientes propiedades adicionales   *
+Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbench/es.md) y también tienen las siguientes propiedades adicionales:
 
--    {{PropertyData/es|Align}}   * La alineación del muro en su línea base   * izquierda, derecha o centro
+-    {{PropertyData/es|Align}}: La alineación del muro en su línea base: izquierda, derecha o centro
 
--    {{PropertyData/es|Base}}   * El objeto base sobre el que está construido este muro
+-    {{PropertyData/es|Base}}: El objeto base sobre el que está construido este muro
 
--    {{PropertyData/es|Face}}   * El índice de la cara desde el objeto base a usar. Si el valor no está establecido o es 0, se usa el objeto completo
+-    {{PropertyData/es|Face}}: El índice de la cara desde el objeto base a usar. Si el valor no está establecido o es 0, se usa el objeto completo
 
--    {{PropertyData/es|Force Wire}}   * Si es verdadero, y el muro se basa en una cara, solo se usa el borde de la cara, lo que da como resultado una pared que bordea la cara
+-    {{PropertyData/es|Force Wire}}: Si es verdadero, y el muro se basa en una cara, solo se usa el borde de la cara, lo que da como resultado una pared que bordea la cara
 
--    {{PropertyData/es|Length}}   * La longitud del muro (no se usa cuando el muro está basada en un objeto)
+-    {{PropertyData/es|Length}}: La longitud del muro (no se usa cuando el muro está basada en un objeto)
 
--    {{PropertyData/es|Width}}   * El ancho del muro (no se usa cuando el muro se basa en una cara)
+-    {{PropertyData/es|Width}}: El ancho del muro (no se usa cuando el muro se basa en una cara)
 
--    {{PropertyData/es|Height}}   * La altura del muro (no se usa cuando el muro está basado en un sólido). Si no se da altura, y el muro está dentro de un objeto [floor](Arch_Floor/es.md) con su altura definida, la pared tomará automáticamente el valor de la altura del piso/floor.
+-    {{PropertyData/es|Height}}: La altura del muro (no se usa cuando el muro está basado en un sólido). Si no se da altura, y el muro está dentro de un objeto [floor](Arch_Floor/es.md) con su altura definida, la pared tomará automáticamente el valor de la altura del piso/floor.
 
--    {{PropertyData/es|Normal}}   * Una dirección de extrusión para el muro. Si se establece en (0,0,0), la dirección de extrusión es automática.
+-    {{PropertyData/es|Normal}}: Una dirección de extrusión para el muro. Si se establece en (0,0,0), la dirección de extrusión es automática.
 
--    {{PropertyData/es|Offset}}   * Esto especifica la distancia entre el muro y su línea base. Funciona solo si la propiedad Align está configurada a Derecha o Izquierda.
+-    {{PropertyData/es|Offset}}: Esto especifica la distancia entre el muro y su línea base. Funciona solo si la propiedad Align está configurada a Derecha o Izquierda.
 
 
 </div>
@@ -109,21 +109,21 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 
 {{Version/es|0.18}}
 
--    {{PropertyData/es|Make Blocks}}   * Habilita esto para hacer que el muro genere bloques
+-    {{PropertyData/es|Make Blocks}}: Habilita esto para hacer que el muro genere bloques
 
--    {{PropertyData/es|Block Length}}   * La longitud de cada bloque
+-    {{PropertyData/es|Block Length}}: La longitud de cada bloque
 
--    {{PropertyData/es|Block Height}}   * La altura de cada bloque
+-    {{PropertyData/es|Block Height}}: La altura de cada bloque
 
--    {{PropertyData/es|Offset First}}   * El desplazamiento horizontal de la primera línea de bloques
+-    {{PropertyData/es|Offset First}}: El desplazamiento horizontal de la primera línea de bloques
 
--    {{PropertyData/es|Offset Second}}   * El desplazamiento horizontal de la segunda línea de bloques
+-    {{PropertyData/es|Offset Second}}: El desplazamiento horizontal de la segunda línea de bloques
 
--    {{PropertyData/es|Joint}}   * El tamaño de las juntas entre cada bloque
+-    {{PropertyData/es|Joint}}: El tamaño de las juntas entre cada bloque
 
--    {{PropertyData/es|Count Entire}}   * La cantidad de bloques enteros (solo lectura)
+-    {{PropertyData/es|Count Entire}}: La cantidad de bloques enteros (solo lectura)
 
--    {{PropertyData/es|Count Broken}}   * La cantidad de bloques rotos (solo lectura)
+-    {{PropertyData/es|Count Broken}}: La cantidad de bloques rotos (solo lectura)
 
 ## Scripting
 
@@ -133,7 +133,7 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 ## Guión
 
 
-**Ver también   ***
+**Ver también:**
 
 [Borrador API](Arch_API/es.md) y [Fundamentos de Guión FreeCAD](FreeCAD_Scripting_Basics/es.md).
 
@@ -143,7 +143,7 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Wall se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función   *
+La herramienta Wall se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función:
 
 
 </div>
@@ -161,7 +161,7 @@ Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Cente
 
 -   Devuelve `None` si la operación falla.
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Offset
-   Name/de   *Entwurf Versetzen
-   MenuLocation   *Entwurf → Versetzen
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut   ***O** **S**
-   SeeAlso   *[Part 2D Versatz](Part_Offset2D/de.md)
+- GuiCommand:/de
+   Name:Draft Offset
+   Name/de:Entwurf Versetzen
+   MenuLocation:Entwurf → Versetzen
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**O** **S**
+   SeeAlso:[Part 2D Versatz](Part_Offset2D/de.md)
 ---
 
 # Draft Offset/de
@@ -23,7 +23,7 @@ Das Versatzwerkzeug verschiebt das ausgewählte Objekt um einen bestimmten Absta
 
 </div>
 
-<img alt="" src=images/Draft_Offset_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -37,7 +37,7 @@ Das Versatzwerkzeug verschiebt das ausgewählte Objekt um einen bestimmten Absta
 
 ## Anwendung
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -60,8 +60,8 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 -   Halte **Alt** gedrückt, während du den Punkt auswählst, um ebenfalls den Kopiermodus umzuschalten. Die **Alt** gedrückt halten, erlaubt dir versetzte Kopien platzieren; loslassen **Alt**, um den Vorgang abzuschließen und alle versetzten Formen zu sehen.
 -   Klicke auf das \"OCC-Stil\" Kontrollkästchen, um den Modus \"OCC\" umzuschalten. Dadurch wird ein Versatz von beiden Seiten eines Liniensegments erzeugt, wodurch eine besonders geschlossene Form mit abgerundeten Kanten an den Enden der Segmente entsteht.
 
-   *   
-    **Hinweis   ***Bei diesem Stil werden die Originalsegmente entfernt, verwende also den Kopiermodus, um die Originalkanten zu erhalten.
+:   
+    **Hinweis:**Bei diesem Stil werden die Originalsegmente entfernt, verwende also den Kopiermodus, um die Originalkanten zu erhalten.
 
 -   Halte **Ctrl** während des Versatzes gedrückt, um [Fangen](Draft_Snap/de.md) deinen Punkt unabhängig vom Abstand an die nächstgelegene Fangposition zu zwingen.
 -   Halte **Shift** gedrückt, um den Versatzabstand in Bezug auf das aktuelle Segment beizubehalten und zu vermeiden, dass ein anderer Bezug gewählt wird.
@@ -77,9 +77,9 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of the distance   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 
@@ -89,7 +89,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -99,7 +99,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird   *
+Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird:
 
 
 </div>
@@ -119,14 +119,14 @@ offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 -   Wenn `bind` gleich `True` ist und vorausgesetzt, das Drahtobjekt ist offen, werden der ursprüngliche und der versetzte Draht an ihren Endpunkten miteinander verbunden und bilden eine Fläche.
     -   Wenn `sym` `True` ist, muss `bind` ebenfalls `True` sein, und der Versatz wird auf beiden Seiten des Drahtes vorgenommen, wobei die Gesamtbreite die Länge des gegebenen Vektors ist.
 
--   Wenn `occ` `True` ist, wird ein Versatz im OCC-Stil verwendet   * es wird von beiden Seiten versetzt, dann werden die neuen Drähte zusammengebunden und die Ecken abgerundet.
+-   Wenn `occ` `True` ist, wird ein Versatz im OCC-Stil verwendet: es wird von beiden Seiten versetzt, dann werden die neuen Drähte zusammengebunden und die Ecken abgerundet.
 
 -    `Offsetobj`wird mit dem ursprünglichen Versatzobjekt oder mit der neuen Kopie zurückgegeben.
 
 
 </div>
 
-Beispiel   *
+Beispiel:
 
 
 ```python

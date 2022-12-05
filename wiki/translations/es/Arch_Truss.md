@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Truss
-   Name/es   *Arquitectura Armadura
-   MenuLocation   *Arquitectura → Armadura
-   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
-   Version   *0.19
+- GuiCommand:/es
+   Name:Arch Truss
+   Name/es:Arquitectura Armadura
+   MenuLocation:Arquitectura → Armadura
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   Version:0.19
 ---
 
 # Arch Truss/es
@@ -17,12 +17,12 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1](https   *//es.wikipedia.org/wiki/Armadura_(estructura)), bien a partir de un objeto lineal seleccionado (mientas que una [Línea de Borrador](Draft_Line/es.md) o [Boceto](Sketcher_NewSketch/es.md)), o bien desde cero, si no hay ningún objeto seleccionado al lanzar el comando.
+La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1](https://es.wikipedia.org/wiki/Armadura_(estructura)), bien a partir de un objeto lineal seleccionado (mientas que una [Línea de Borrador](Draft_Line/es.md) o [Boceto](Sketcher_NewSketch/es.md)), o bien desde cero, si no hay ningún objeto seleccionado al lanzar el comando.
 
 
 </div>
 
-<img alt="" src=images/Arch_Truss_example.png  style="width   *600px;">
+<img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
 ## Utilización
 
@@ -45,46 +45,46 @@ La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1]
 
 ### Datos
 
--    **TrussAngle**   * The angle of the truss
+-    **TrussAngle**: The angle of the truss
 
--    **SlantType**   * The slant type of this truss
+-    **SlantType**: The slant type of this truss
 
--    **Normal**   * The normal direction of this truss
+-    **Normal**: The normal direction of this truss
 
--    **HeightStart**   * The height of the truss at the start position
+-    **HeightStart**: The height of the truss at the start position
 
--    **HeightEnd**   * The height of the truss at the end position
+-    **HeightEnd**: The height of the truss at the end position
 
--    **StrutStartOffset**   * An optional start offset for the top strut
+-    **StrutStartOffset**: An optional start offset for the top strut
 
--    **StrutEndOffset**   * An optional end offset for the top strut
+-    **StrutEndOffset**: An optional end offset for the top strut
 
--    **StrutHeight**   * The height of the main top and bottom elements of the truss
+-    **StrutHeight**: The height of the main top and bottom elements of the truss
 
--    **StrutWidth**   * The width of the main top and bottom elements of the truss
+-    **StrutWidth**: The width of the main top and bottom elements of the truss
 
--    **RodType**   * The type of the middle element of the truss
+-    **RodType**: The type of the middle element of the truss
 
--    **RodDirection**   * The direction of the rods
+-    **RodDirection**: The direction of the rods
 
--    **RodSize**   * The diameter or side of the rods
+-    **RodSize**: The diameter or side of the rods
 
--    **RodSections**   * The number of rod sections
+-    **RodSections**: The number of rod sections
 
--    **RodEnd**   * If the truss has a rod at its endpoint or not
+-    **RodEnd**: If the truss has a rod at its endpoint or not
 
--    **RodMode**   * How to draw the rods
+-    **RodMode**: How to draw the rods
 
 ## Archivos de guión 
 
-The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
 Truss = makeFence([baseobj])
 ```
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Part Loft
-   Name   *Part Ausformung
-   MenuLocation   *Formteil → Ausformung...
-   Workbenches   *[Part](Part_Workbench/de.md)
-   Version   *0.13
-   SeeAlso   *[Part Austragung](Part_Sweep/de.md)
+- GuiCommand:/de
+   Name:Part Loft
+   Name:Part Ausformung
+   MenuLocation:Formteil → Ausformung...
+   Workbenches:[Part](Part_Workbench/de.md)
+   Version:0.13
+   SeeAlso:[Part Austragung](Part_Sweep/de.md)
 ---
 
 # Part Loft/de
@@ -17,7 +17,7 @@
 
 ## Überblick
 
-Das FreeCAD-Ausformungswerkzeug (engl.   * Loft) wird verwendet, um aus zwei oder mehr Konturen eine Fläche, Schale oder eine feste Form zu erstellen. Die Konturen können ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Begrenzungen und Schwierigkeiten](Part_Loft#Limitations_and_complications.md), siehe unten, jedoch können die Konturen aus den Grundkörpern des Part Arbeitsbereichs, den Funktionen des Draft Arbeitsbereichs und einer Skizze stammen.
+Das FreeCAD-Ausformungswerkzeug (engl.: Loft) wird verwendet, um aus zwei oder mehr Konturen eine Fläche, Schale oder eine feste Form zu erstellen. Die Konturen können ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Begrenzungen und Schwierigkeiten](Part_Loft#Limitations_and_complications.md), siehe unten, jedoch können die Konturen aus den Grundkörpern des Part Arbeitsbereichs, den Funktionen des Draft Arbeitsbereichs und einer Skizze stammen.
 
 
 </div>
@@ -41,7 +41,7 @@ Wenn \"Festkörper\" \"wahr\" ist, erstellt FreeCAD einen Festkörper, falls die
 
 <div class="mw-translate-fuzzy">
 
-Wenn \"Regel\" \"wahr\" ist, erstellt FreeCAD eine Fläche, Flächen oder einen Festkörper aus geordneten Flächen. [Regelfläche auf Wikipedia.](https   *//de.wikipedia.org/wiki/Regelfl%C3%A4che)
+Wenn \"Regel\" \"wahr\" ist, erstellt FreeCAD eine Fläche, Flächen oder einen Festkörper aus geordneten Flächen. [Regelfläche auf Wikipedia.](https://de.wikipedia.org/wiki/Regelfl%C3%A4che)
 
 
 </div>
@@ -120,7 +120,7 @@ Das Ausformungswerkzeug befindet sich im Part Arbeitsbereich, Menü Formteil -\>
 
 <div class="mw-translate-fuzzy">
 
-In den \"Aufgaben\" befinden sich zwei Listen   * \"Knoten / Draht\" und \"freie Form\".
+In den \"Aufgaben\" befinden sich zwei Listen: \"Knoten / Draht\" und \"freie Form\".
 
 
 </div>
@@ -151,7 +151,7 @@ Danach wird mit dem blauen Pfeil dieser Eintrag in die Liste der \"freien Formen
 
 Die ausgewählten Einträge müssen vom gleichen Typ sein.
 
-Hinweis   * Die aktiven/ausgewählten Einträge in der Liste werden im 3D-Bereich als aktiv/ausgewählt angezeigt.
+Hinweis: Die aktiven/ausgewählten Einträge in der Liste werden im 3D-Bereich als aktiv/ausgewählt angezeigt.
 
 ### Command complete 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Path Array
-   Name/fr   *Path Réseau
-   MenuLocation   *Path → Modification du parcours → Réseau
-   Workbenches   *[Path](Path_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Path Array
+   Name/fr:Path Réseau
+   MenuLocation:Path → Modification du parcours → Réseau
+   Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
 # Path Array/fr
@@ -22,20 +22,20 @@ Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fo
 
 ## Propriétés
 
--    **Type**   * type de réseau (polaire, linéaire dans une ou deux directions)
+-    **Type**: type de réseau (polaire, linéaire dans une ou deux directions)
 
--    **Offset**   * espace entre les copies du réseau pour chaque direction
+-    **Offset**: espace entre les copies du réseau pour chaque direction
 
--    **Copies**   * nombre de copies (sans compter l\'original) pour chaque direction
+-    **Copies**: nombre de copies (sans compter l\'original) pour chaque direction
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Exemple    *
+Exemple :
 
 
 ```python

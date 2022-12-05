@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 ConstraintAngle
-   Name/de   *Assembly3 WinkelFestlegen
-   Icon   *Assembly_ConstraintAngle.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand:/de
+   Name:Assembly3 ConstraintAngle
+   Name/de:Assembly3 WinkelFestlegen
+   Icon:Assembly_ConstraintAngle.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintAngle/de
@@ -27,12 +27,12 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen.
 
 ## Hinweise
 
-2D   * Diese Randbedingung scheint die einzige Möglichkeit zu sein, einen Winkel in einer Skelettskizze zu steuern (2D kinematischer Zusammenbau); Kann das BITTE jemand wiederlegen?
+2D: Diese Randbedingung scheint die einzige Möglichkeit zu sein, einen Winkel in einer Skelettskizze zu steuern (2D kinematischer Zusammenbau); Kann das BITTE jemand wiederlegen?
 
 -   Ihre {{PropertyData/de|Angle|Angle}} erlaubt jeden positiven Wert, aber genau 0° und 180° verwirren den Löser.
 -   Die Richtung wird umgekehrt, wenn Winkel größer als 180° angegeben werden und daraus ergibt sich für 135° und 225° die gleiche Position für die beteiligten Elemente.
 
-   *   Sie ist nutzlos, wenn man eine komplette Drehung simulieren möchte und ruiniert so das Prinzip eine Skelettskizze zu verwenden für sehr viele kinematische Anwendungen, wie z. B. einen Kolben mit einer Kurbel, verbunden über ein Pleuel, anzutreiben.
+:   Sie ist nutzlos, wenn man eine komplette Drehung simulieren möchte und ruiniert so das Prinzip eine Skelettskizze zu verwenden für sehr viele kinematische Anwendungen, wie z. B. einen Kolben mit einer Kurbel, verbunden über ein Pleuel, anzutreiben.
 
 
 

@@ -1,8 +1,6 @@
 # Category:Raytracing/ru
 This category lists pages related to the [Raytracing Workbench/ru](Raytracing_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
-
 ### Contents
 
 |     |     |     |

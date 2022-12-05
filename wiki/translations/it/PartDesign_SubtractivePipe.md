@@ -1,6 +1,6 @@
 # PartDesign SubtractivePipe/it
 ---
-- GuiCommand   */it   Name   *PartDesign SubtractivePipe   Name/it   *Sweep sottrattivo   Workbenches   *[MenuLocation   *Part Design → Sweep sottrattivo   Shortcut   *None   Version   *0.17   SeeAlso   *[[PartDesign AdditivePipe/it|Sweep additivo](PartDesign_Workbench/it___PartDesign]].md), [Loft sottrattivo](PartDesign_SubtractiveLoft/it.md)---
+- GuiCommand:/it   Name:PartDesign SubtractivePipe   Name/it:Sweep sottrattivo   Workbenches:[MenuLocation:Part Design → Sweep sottrattivo   Shortcut:None   Version:0.17   SeeAlso:[[PartDesign AdditivePipe/it|Sweep additivo](PartDesign_Workbench/it___PartDesign]].md), [Loft sottrattivo](PartDesign_SubtractiveLoft/it.md)---
 
 
 </div>
@@ -24,7 +24,7 @@
 2.  Nel dialogo **Selezione della funzione**, selezionare uno schizzo da utilizzare come prima sezione trasversale e poi fare clic **OK**.
     -   In alternativa, è possibile selezionare un singolo schizzo prima di premere il pulsante Sweep sottrattivo.
 3.  In **Parametri di sweep** sotto **Profilo**, premere il pulsante **Oggetto**.
-4.  Selezionare nella vista 3D lo schizzo da utilizzare come percorso   *
+4.  Selezionare nella vista 3D lo schizzo da utilizzare come percorso:
     -   In alternativa, è possibile selezionare i bordi del corpo premendo **Aggiungi bordo** e selezionando i bordi nella vista 3D.
 5.  Per utilizzare più di una sezione trasversale, sotto **Trasformazione della sezione** impostare la Modalità di trasformazione in *Multisezione*; premere **Aggiungi sezione** quindi selezionare uno schizzo nella vista 3D. Ripetere l\'operazione per ogni sezione trasversale aggiuntiva.
 6.  Impostare le opzioni, se necessario, e poi fare clic su **OK**.
@@ -34,19 +34,19 @@
 
 ## Opzioni
 
-**Section Transformation**   *
+**Section Transformation**:
 
 -   Select **Constant** to use a single profile
 -   Select **Multisection** to use multiple profiles
 
-**Section Orientation**   *
+**Section Orientation**:
 
 -   Standard
     -   This keeps the cross section shape perpendicular to the path. This is the default setting.
 -   Fixed
     -   Orientation set by first profile and constant throughout. This deactivates the alignment to the path normal vector. That means that the cross-section shape will not rotate with the path. Sweep along a circle to see the effect.
 -   Frenet
-    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https   *//en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
+    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
 -   Auxiliary
     -   Specify secondary path to guide pipe.
     -   For each point **P** along the sweep path, there will be a corresponding point **Q** on the auxiliary path.
@@ -66,25 +66,25 @@
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Label}}   * nome dato all\'operazione, questo nome può essere cambiato a piacere.
+-    {{PropertyData/it|Label}}: nome dato all\'operazione, questo nome può essere cambiato a piacere.
 
--    {{PropertyData/it|Refine}}   * vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
+-    {{PropertyData/it|Refine}}: vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
 
--    {{PropertyData/it|Sections}}   * elenca le sezioni utilizzate.
+-    {{PropertyData/it|Sections}}: elenca le sezioni utilizzate.
 
--    {{PropertyData/it|Spine Tangent}}   * vero o falso (predefinito). True estende il percorso per includere i bordi tangenti.
+-    {{PropertyData/it|Spine Tangent}}: vero o falso (predefinito). True estende il percorso per includere i bordi tangenti.
 
--    {{PropertyData/it|Auxiliary Spine Tangent}}   * vero o falso (predefinito). Vero estende il percorso ausiliario per includere i bordi tangenti.
+-    {{PropertyData/it|Auxiliary Spine Tangent}}: vero o falso (predefinito). Vero estende il percorso ausiliario per includere i bordi tangenti.
 
--    {{PropertyData/it|Auxiliary Curvelinear}}   * vero o falso (predefinito). True calcola la normale tra i punti equidistanti su entrambe le dorsali.
+-    {{PropertyData/it|Auxiliary Curvelinear}}: vero o falso (predefinito). True calcola la normale tra i punti equidistanti su entrambe le dorsali.
 
--    {{PropertyData/it|Mode}}   * modalità di profilo. Vedere [Opzioni](#Opzioni.md).
+-    {{PropertyData/it|Mode}}: modalità di profilo. Vedere [Opzioni](#Opzioni.md).
 
--    {{PropertyData/it|Binormal}}   * vettore binomiale per la corrispondente modalità di orientamento.
+-    {{PropertyData/it|Binormal}}: vettore binomiale per la corrispondente modalità di orientamento.
 
--    {{PropertyData/it|Transition}}   * modalità di transizione. Le opzioni sono *Trasformato*, *Angolo retto* o *Angolo arrotondato*.
+-    {{PropertyData/it|Transition}}: modalità di transizione. Le opzioni sono *Trasformato*, *Angolo retto* o *Angolo arrotondato*.
 
--    {{PropertyData/it|Transformation}}   * *Costante* usa una singola sezione trasversale. *Multisezione* utilizza due o più sezioni trasversali. *Lineare*, *S-shape* e *Interpolazione* al momento non sono funzionanti.
+-    {{PropertyData/it|Transformation}}: *Costante* usa una singola sezione trasversale. *Multisezione* utilizza due o più sezioni trasversali. *Lineare*, *S-shape* e *Interpolazione* al momento non sono funzionanti.
 
 
 </div>

@@ -1,8 +1,6 @@
 # Category:Points/fr
 This category lists pages related to the [Points Workbench/fr](Points_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

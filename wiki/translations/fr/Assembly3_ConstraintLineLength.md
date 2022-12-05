@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Assembly3 ConstraintLineLength
-   Name/fr   *Assembly3 Contrainte longueur ligne
-   Icon   *Assembly_ConstraintLineLength.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Assembly3 ConstraintLineLength
+   Name/fr:Assembly3 Contrainte longueur ligne
+   Icon:Assembly_ConstraintLineLength.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintLineLength/fr

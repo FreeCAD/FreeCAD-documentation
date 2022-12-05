@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft Snap Dimensions
-   Name/tr   *Taslak Boyutlar
-   MenuLocation   *Taslak → [Yakalama](Draft_Snap/tr.md) → Boyutlar
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/tr
+   Name:Draft Snap Dimensions
+   Name/tr:Taslak Boyutlar
+   MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Boyutlar
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Draft Snap Dimensions/tr
@@ -25,7 +25,7 @@ Taslak boyutunu oluşturan üç satırdan birini yakalamanızı sağlar.
 
 </div>
 
-<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
 *Temporary dimensions show the position of the cursor*
 
 ### Kullanım
@@ -38,8 +38,8 @@ Taslak boyutunu oluşturan üç satırdan birini yakalamanızı sağlar.
 For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 1.  Optionally change the [working plane](Draft_SelectPlane.md).
-2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-3.  If **Draft Snap Dimensions** is not active do one of the following   *
+2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
+3.  If **Draft Snap Dimensions** is not active do one of the following:
     -   Press the **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** button in the Draft snap toolbar.
     -   Press the **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
 4.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.

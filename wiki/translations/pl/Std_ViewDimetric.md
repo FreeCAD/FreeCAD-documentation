@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewDimetric
-   Name/pl   *Std   * Widok dimetryczny
-   MenuLocation   *Widok → Widoki standardowe → Aksonometryczny → Dimetryczny
-   Workbenches   *wszystkie
-   SeeAlso   *[Widok izometryczny](Std_ViewIsometric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewDimetric
+   Name/pl:Std: Widok dimetryczny
+   MenuLocation:Widok → Widoki standardowe → Aksonometryczny → Dimetryczny
+   Workbenches:wszystkie
+   SeeAlso:[Widok izometryczny](Std_ViewIsometric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
 ---
 
 # Std ViewDimetric/pl
 
 ## Opis
 
-Polecenie **Widok dimetryczny** zmienia ustawienie ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md), aby uzyskać widok [dimetryczny](https   *//en.wikipedia.org/wiki/Axonometric_projection#Three_types). Aby uzyskać realnie dimetryczny widok, okno widoku 3D powinno być w trybie [ortogonalnym](Std_OrthographicCamera/pl.md), ale polecenie działa również, jeśli widok jest ustawiony w trybie [perspektywy](Std_PerspectiveCamera/pl.md).
+Polecenie **Widok dimetryczny** zmienia ustawienie ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md), aby uzyskać widok [dimetryczny](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types). Aby uzyskać realnie dimetryczny widok, okno widoku 3D powinno być w trybie [ortogonalnym](Std_OrthographicCamera/pl.md), ale polecenie działa również, jeśli widok jest ustawiony w trybie [perspektywy](Std_PerspectiveCamera/pl.md).
 
 ![](images/Std_ViewDimetric_example.svg ) 
 *[Symbol osi](Std_AxisCross/pl.md) i sześcian w rzucie dimetrycznym*
@@ -23,7 +23,7 @@ Polecenie **Widok dimetryczny** zmienia ustawienie ujęcia widoku w aktywnym okn
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

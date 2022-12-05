@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintBearing
-   Name/de   *FEM RandbedingungWälzlager
-   MenuLocation   *Modell → Randbedingungen ohne Solver → Randbedingung Wälzlager
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM Randbedingung Zahnrad](FEM_ConstraintGear/de.md), [FEM Randbedingung Rolle](FEM_ConstraintPulley/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintBearing
+   Name/de:FEM RandbedingungWälzlager
+   MenuLocation:Modell → Randbedingungen ohne Solver → Randbedingung Wälzlager
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Randbedingung Zahnrad](FEM_ConstraintGear/de.md), [FEM Randbedingung Rolle](FEM_ConstraintPulley/de.md)
 ---
 
 # FEM ConstraintBearing/de

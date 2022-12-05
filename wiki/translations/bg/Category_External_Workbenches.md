@@ -1,8 +1,6 @@
 # Category:External Workbenches/bg
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-[Category   *Workbenches/bg](Category   *Workbenches/bg.md) [Category   *Addons/bg](Category   *Addons/bg.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Удалить компонент
-   Name/ru   *Arch Remove
-   MenuLocation   *Архитектура → Удалить компонент
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   SeeAlso   *[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Добавить компонент](Arch_Add/ru.md)
+- GuiCommand:/ru
+   Name:Удалить компонент
+   Name/ru:Arch Remove
+   MenuLocation:Архитектура → Удалить компонент
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Добавить компонент](Arch_Add/ru.md)
 ---
 
 # Arch Remove/ru
@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Инструменты «Удалить» позволяют выполнять 2 вида операций   *
+Инструменты «Удалить» позволяют выполнять 2 вида операций:
 
 -   Удалите подкомпонент из объекта Arch, например, удалите поле, добавленное к стене, например, в примере **<img src="images/Arch_Add.svg" width=16px> [[Arch Add]]
 **
@@ -26,7 +26,7 @@
 
 The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -49,11 +49,11 @@ Or
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -61,14 +61,14 @@ removeComponents(objectsList, host=None)
 -   Removes the given objects in `objectsList` from their parents.
 -   If a `host` object is specified, this function will try adding the objects in `objectsList` as holes to the `host`.
 
-Пример   * 
+Пример: 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

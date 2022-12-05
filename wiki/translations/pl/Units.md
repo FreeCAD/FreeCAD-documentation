@@ -1,14 +1,14 @@
 # Units/pl
 {{TOCright}}
 
-Oto kilka lektur na temat jednostek   *
+Oto kilka lektur na temat jednostek:
 
--   [Metrologia](http   *//en.wikipedia.org/wiki/Metrology)
--   [System SI](http   *//en.wikipedia.org/wiki/International_System_of_Units)
--   [Jednostki brytyjskie](http   *//en.wikipedia.org/wiki/Imperial_units)
--   [Jednostki pochodne SI](http   *//en.wikipedia.org/wiki/SI_derived_unit)
--   [jednostki kątowe](http   *//en.wikipedia.org/wiki/Degree_%28angle%29)
--   [jednostka wdrożona w OCC](https   *//github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
+-   [Metrologia](http://en.wikipedia.org/wiki/Metrology)
+-   [System SI](http://en.wikipedia.org/wiki/International_System_of_Units)
+-   [Jednostki brytyjskie](http://en.wikipedia.org/wiki/Imperial_units)
+-   [Jednostki pochodne SI](http://en.wikipedia.org/wiki/SI_derived_unit)
+-   [jednostki kątowe](http://en.wikipedia.org/wiki/Degree_%28angle%29)
+-   [jednostka wdrożona w OCC](https://github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
 ## Przykłady
 

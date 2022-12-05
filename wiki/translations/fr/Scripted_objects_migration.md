@@ -12,13 +12,13 @@ Les [Objets créés par script](Scripted_objects/fr.md) sont reconstruits à cha
     </Properties>
     <Objects Count="1" Dependencies="1">
         <ObjectDeps Name="Custom" Count="0"/>
-        <Object type="Part   *   *FeaturePython" name="Custom" id="2715" Touched="1" />
+        <Object type="Part::FeaturePython" name="Custom" id="2715" Touched="1" />
     </Objects>
     <ObjectData Count="1">
         <Object name="Custom">
             <Properties Count="9" TransientCount="0">
                 ...
-                <Property name="Proxy" type="App   *   *PropertyPythonObject" status="1">
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
                     <Python value="eyJUeXBlIjogIkN1c3RvbSJ9" encoded="yes" module="old_module" class="OldObject"/>
                 </Property>
                 ...
@@ -28,9 +28,9 @@ Les [Objets créés par script](Scripted_objects/fr.md) sont reconstruits à cha
 </Document>
 }}
 
-Concentrez-vous particulièrement sur cette partie    * {{Code|lang=xml|code=
+Concentrez-vous particulièrement sur cette partie : {{Code|lang=xml|code=
                 ...
-                <Property name="Proxy" type="App   *   *PropertyPythonObject" status="1">
+                <Property name="Proxy" type="App::PropertyPythonObject" status="1">
                     <Python value="eyJUeXBlIjogIkN1c3RvbSJ9" encoded="yes" module="old_module" class="OldObject"/>
                 </Property>
                 ...
@@ -47,16 +47,16 @@ Toutefois, une raison valable pour déplacer ou renommer le module ou la classe 
 Un ancien objet est défini dans un module qui se trouve à la racine de l\'atelier. 
 ```python
 # old_module.py
-class OldObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "Area")
+class OldObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "Area")
         obj.Length = 15
         obj.Area = 300
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -68,10 +68,10 @@ import old_module
 doc = App.newDocument()
 doc.FileName = "my_document.FCStd"
 
-obj = doc.addObject("Part   *   *FeaturePython", "Custom")
+obj = doc.addObject("Part::FeaturePython", "Custom")
 old_module.OldObject(obj)
 
-if App.GuiUp   *
+if App.GuiUp:
     obj.ViewObject.Proxy = 1
 
 doc.recompute()
@@ -92,18 +92,18 @@ Une session de [console Python](Python_console/fr.md) avec les propriétés de b
 Considérons maintenant que l\'atelier est restructuré, de sorte que les classes ne se trouvent pas seulement dans le répertoire racine, mais plutôt dans un répertoire **objects**. Les ateliers complexes qui comportent de nombreux types d\'objets différents devraient être structurés en répertoires comprenant des objets, des interfaces [viewproviders](Viewprovider/fr.md), [Commandes Gui](Command/fr.md), [Panneau des tâches](Task_panel/fr.md), etc. 
 ```python
 # objects/new_module.py
-class NewObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "GeneralArea")
-        obj.addProperty("App   *   *PropertyInteger", "Divisions")
+class NewObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "GeneralArea")
+        obj.addProperty("App::PropertyInteger", "Divisions")
         obj.Length = 30
         obj.GeneralArea = 600
         obj.Divisions = 4
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -147,7 +147,7 @@ Désormais, si le document est enregistré et rouvert, il recherchera automatiqu
 
 
 {{Code|lang=bash|code=
-<class 'ModuleNotFoundError'>   * No module named 'old_module'
+<class 'ModuleNotFoundError'>: No module named 'old_module'
 }}
 
 S\'il n\'est pas possible, de manière réaliste, de migrer tous les anciens objets, par exemple parce que l\'ancien module a été utilisé dans un atelier pendant de nombreuses années, alors **old_module.py** doit être conservé aussi longtemps qu\'il est jugé nécessaire pour donner aux utilisateurs la possibilité de migrer leurs objets.
@@ -156,15 +156,15 @@ S\'il n\'est pas possible, de manière réaliste, de migrer tous les anciens obj
 
 **Avantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> C\'est la méthode la plus simple qui nécessite juste de rediriger une ancienne classe vers une nouvelle classe.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Les anciennes propriétés sont conservées tant que la nouvelle classe ne les surcharge pas.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> C\'est une bonne chose si l\'ancienne et la nouvelle classe ont les mêmes propriétés (gèrent le même type de données) mais que seul leur nom de module ou de classe est différent.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> C\'est la méthode la plus simple qui nécessite juste de rediriger une ancienne classe vers une nouvelle classe.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Les anciennes propriétés sont conservées tant que la nouvelle classe ne les surcharge pas.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> C\'est une bonne chose si l\'ancienne et la nouvelle classe ont les mêmes propriétés (gèrent le même type de données) mais que seul leur nom de module ou de classe est différent.
 
 **Inconvénients**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> La nouvelle classe conserve les anciennes propriétés de l\'objet, ce qui n\'est pas toujours souhaité.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Les nouvelles propriétés ou les propriétés renommées ne sont pas gérées, donc l\'objet sera chargé mais il peut ne pas montrer le comportement correct de la nouvelle classe.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> L\'ancien module peut devoir être conservé indéfiniment pour migrer tous les anciens objets créés dans le passé.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> La nouvelle classe conserve les anciennes propriétés de l\'objet, ce qui n\'est pas toujours souhaité.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Les nouvelles propriétés ou les propriétés renommées ne sont pas gérées, donc l\'objet sera chargé mais il peut ne pas montrer le comportement correct de la nouvelle classe.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> L\'ancien module peut devoir être conservé indéfiniment pour migrer tous les anciens objets créés dans le passé.
 
 ## Méthode 2. Migration lors de la restauration du document 
 
@@ -178,32 +178,32 @@ import objects.new_module as new_module
 import viewp.new_view as new_view
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
+class OldObject:
+    def onDocumentRestored(self, obj):
         new_module.NewObject(obj)
         _wrn("New proxy class used\n")
 
-        if App.GuiUp   *
+        if App.GuiUp:
             new_view.ViewProviderNew(obj.ViewObject)
             _wrn("New viewprovider class used\n")
 ```
 
 Un exemple plus complexe vérifie d\'abord que la classe proxy est du type que nous recherchons, et ne procède à la migration que si c\'est le bon type. 
 ```python
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj, "Proxy") and obj.Proxy.Type == "Custom"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj, "Proxy") and obj.Proxy.Type == "Custom":
             _module = str(obj.Proxy.__class__)
             _module = _module.lstrip("<class '").rstrip("'>")
 
-            if _module == "old_module.OldObject"   *
+            if _module == "old_module.OldObject":
                 self._migrate(obj)
 
-    def _migrate(self, obj)   *
+    def _migrate(self, obj):
         _wrn("New proxy class used\n")
         new_module.NewObject(obj)
 
-        if App.GuiUp   *
+        if App.GuiUp:
             new_view.ViewProviderNew(obj.ViewObject)
             _wrn("New viewprovider class used\n")
 ```
@@ -227,15 +227,15 @@ Les anciennes propriétés étaient `Area` et `Length` ; les nouvelles propriét
 
 **Avantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Cette méthode nous permet de vérifier que la classe que nous migrons est la bonne, au lieu de simplement rediriger vers une classe plus récente.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Similaire à la méthode 1, les anciennes propriétés sont conservées tant que la nouvelle classe ne les surcharge pas.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Contrairement à la méthode 1, les nouvelles propriétés sont toujours ajoutées, cependant si elles ont le même nom, elles seront renommées.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> La migration n\'est pas immédiate, on peut encore manipuler les informations, ou imprimer des messages pendant que l\'objet se charge.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Cette méthode nous permet de vérifier que la classe que nous migrons est la bonne, au lieu de simplement rediriger vers une classe plus récente.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Similaire à la méthode 1, les anciennes propriétés sont conservées tant que la nouvelle classe ne les surcharge pas.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Contrairement à la méthode 1, les nouvelles propriétés sont toujours ajoutées, cependant si elles ont le même nom, elles seront renommées.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> La migration n\'est pas immédiate, on peut encore manipuler les informations, ou imprimer des messages pendant que l\'objet se charge.
 
 **Inconvénients**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Elle est plus verbeuse que la méthode 1 car nous devons implémenter la méthode `onDocumentRestored` pour migrer l\'objet.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Il ajoute toujours les nouvelles propriétés, donc il peut créer des propriétés dupliquées dans le cas où les nouvelles propriétés ont le même nom que les anciennes propriétés. Ceci doit être géré manuellement.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Elle est plus verbeuse que la méthode 1 car nous devons implémenter la méthode `onDocumentRestored` pour migrer l\'objet.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Il ajoute toujours les nouvelles propriétés, donc il peut créer des propriétés dupliquées dans le cas où les nouvelles propriétés ont le même nom que les anciennes propriétés. Ceci doit être géré manuellement.
 
 ## Méthode 3. Migration lors de la restauration du document, manipulation manuelle des propriétés 
 
@@ -249,8 +249,8 @@ import objects.new_module as new_module
 import viewp.new_view as new_view
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
+class OldObject:
+    def onDocumentRestored(self, obj):
         old = dict()
         old["Area"] = obj.Area
         old["Length"] = obj.Length
@@ -263,7 +263,7 @@ class OldObject   *
         obj.Length = old["Length"]
         _wrn("New proxy class used; properties migrated\n")
 
-        if App.GuiUp   *
+        if App.GuiUp:
             vobj = obj.ViewObject
             old = dict()
 
@@ -299,13 +299,13 @@ Comme la propriété `Divisions` n\'existait pas dans l\'ancienne classe, rien n
 
 **Avantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Similaire à la méthode 2, cette méthode nous permet de vérifier que la classe que nous migrons est la bonne.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Nous avons le contrôle total de ce qu\'il faut faire avec les anciennes propriétés. Typiquement, elles seront supprimées afin qu\'il n\'y ait pas de collision de noms avec les nouvelles propriétés ajoutées. Ainsi nous évitons les propriétés dupliquées.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> En sauvegardant les anciennes valeurs, nous pouvons manipuler les informations de l\'étape de restauration comme nous le souhaitons, et affecter les valeurs correspondantes aux nouvelles propriétés.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Similaire à la méthode 2, cette méthode nous permet de vérifier que la classe que nous migrons est la bonne.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Nous avons le contrôle total de ce qu\'il faut faire avec les anciennes propriétés. Typiquement, elles seront supprimées afin qu\'il n\'y ait pas de collision de noms avec les nouvelles propriétés ajoutées. Ainsi nous évitons les propriétés dupliquées.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> En sauvegardant les anciennes valeurs, nous pouvons manipuler les informations de l\'étape de restauration comme nous le souhaitons, et affecter les valeurs correspondantes aux nouvelles propriétés.
 
 **Inconvénients**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Cette méthode est très verbeuse par rapport aux précédentes, car nous devons implémenter la méthode `onDocumentRestored`, et traiter chacune des propriétés individuellement (enregistrer la valeur, supprimer la propriété, réassigner la valeur). Ceci est problématique si l\'objet que nous voulons migrer possède de nombreuses propriétés, ou si leurs valeurs doivent être transformées de manière très spéciale.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Cette méthode est très verbeuse par rapport aux précédentes, car nous devons implémenter la méthode `onDocumentRestored`, et traiter chacune des propriétés individuellement (enregistrer la valeur, supprimer la propriété, réassigner la valeur). Ceci est problématique si l\'objet que nous voulons migrer possède de nombreuses propriétés, ou si leurs valeurs doivent être transformées de manière très spéciale.
 
 ## Addendum A. Créer les propriétés uniquement si elles n\'existent pas déjà 
 
@@ -314,22 +314,22 @@ L\'un des inconvénients de la méthode 2 est qu\'elle essaiera toujours d\'ajou
 Pour améliorer cette méthode, la nouvelle classe peut également être modifiée pour n\'ajouter les propriétés que si elles n\'existent pas déjà sous le même nom. 
 ```python
 # objects/new_module.py
-class NewObject   *
-    def __init__(self, obj)   *
-        if not hasattr(obj, "Length")   *
-            obj.addProperty("App   *   *PropertyLength", "Length")
+class NewObject:
+    def __init__(self, obj):
+        if not hasattr(obj, "Length"):
+            obj.addProperty("App::PropertyLength", "Length")
             obj.Length = 30
-        if not hasattr(obj, "GeneralArea")   *
-            obj.addProperty("App   *   *PropertyArea", "GeneralArea")
+        if not hasattr(obj, "GeneralArea"):
+            obj.addProperty("App::PropertyArea", "GeneralArea")
             obj.GeneralArea = 600
-        if not hasattr(obj, "Divisions")   *
-            obj.addProperty("App   *   *PropertyInteger", "Divisions")
+        if not hasattr(obj, "Divisions"):
+            obj.addProperty("App::PropertyInteger", "Divisions")
             obj.Divisions = 4
 
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -352,11 +352,11 @@ La méthode 3 n\'a pas besoin de cet addendum à la nouvelle classe car les anci
 
 **Avantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> L\'objet conservera toutes les propriétés précédentes, mais en plus il gagnera de nouvelles propriétés sans répétition.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> L\'objet conservera toutes les propriétés précédentes, mais en plus il gagnera de nouvelles propriétés sans répétition.
 
 **Inconvénients**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Comme la méthode 2, elle ne traite toujours pas les propriétés renommées. Les anciennes propriétés doivent être supprimées manuellement.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Comme la méthode 2, elle ne traite toujours pas les propriétés renommées. Les anciennes propriétés doivent être supprimées manuellement.
 
 ## Addendum B. Migration de différentes versions de l\'ancien objet 
 
@@ -365,11 +365,11 @@ La méthode 3 est la plus complexe car les propriétés sont traitées individue
 Si, dès le début, nous créons une propriété qui contient le numéro de version de notre objet, nous pourrons utiliser ce numéro à l\'avenir pour effectuer une migration spécifique de cette version vers une autre. Nous définissons la propriété comme étant en lecture seule, de sorte que nous ne pouvons pas l\'écraser dans l\'[Éditeur de propriétés](Property_editor/fr.md), bien qu\'elle soit toujours accessible depuis la [console Python](Python_console/fr.md). 
 ```python
 # old_module.py
-class OldObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "Area")
-        obj.addProperty("App   *   *PropertyString", "Version")
+class OldObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "Area")
+        obj.addProperty("App::PropertyString", "Version")
         obj.setEditorMode("Version", 1)
         obj.Length = 15
         obj.Area = 300
@@ -377,7 +377,7 @@ class OldObject   *
         obj.Proxy = self
         self.Type = "Custom"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -388,15 +388,15 @@ import FreeCAD as App
 import objects.new_module as new_module
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj, "Version") and obj.Version   *
-            if obj.Version == "0.18"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj, "Version") and obj.Version:
+            if obj.Version == "0.18":
                 _migrate_from_018(obj)
-            elif obj.Version == "0.19"   *
+            elif obj.Version == "0.19":
                 _migrate_from_019(obj)
 
-def _migrate_from_018(obj)   *
+def _migrate_from_018(obj):
     old = dict()
     old["Area"] = obj.Area
     old["Length"] = obj.Length
@@ -411,7 +411,7 @@ def _migrate_from_018(obj)   *
     obj.Version = "0.20"
     _wrn("New proxy class used; properties migrated\n")
 
-def _migrate_from_019(obj)   *
+def _migrate_from_019(obj):
     ...
 ```
 
@@ -421,22 +421,22 @@ Nous ne sauvegardons pas la valeur `Version` car nous définirons un nouveau num
 
 **Avantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Nous avons un contrôle total sur ce qu\'il faut faire avec les anciennes propriétés, et sur la façon d\'effectuer la migration.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Nous pouvons implémenter une méthode particulière pour migrer une version particulière de l\'ancien objet.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Nous avons un contrôle total sur ce qu\'il faut faire avec les anciennes propriétés, et sur la façon d\'effectuer la migration.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Nous pouvons implémenter une méthode particulière pour migrer une version particulière de l\'ancien objet.
 
 **Inconvénients**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Cette méthode est très verbeuse car nous devons avoir une idée claire de la façon de traiter chacune des propriétés de chaque \"version\" que nous voulons migrer. Si notre objet possède de nombreuses versions différentes créées au fil des ans, nous devrons peut-être préparer une longue liste de méthodes pour les faire migrer vers l\'objet le plus récent.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Cette méthode est très verbeuse car nous devons avoir une idée claire de la façon de traiter chacune des propriétés de chaque \"version\" que nous voulons migrer. Si notre objet possède de nombreuses versions différentes créées au fil des ans, nous devrons peut-être préparer une longue liste de méthodes pour les faire migrer vers l\'objet le plus récent.
 
 ## Addendum B2. Utilisation des attributs internes de la classe au lieu des propriétés 
 
 Au lieu d\'utiliser une [propriété](property/fr.md) de l\'objet pour contenir l\'information de version, nous pouvons utiliser un attribut de la classe. De cette façon, nous \"cachons\" l\'information sur la version, car les propriétés sont normalement publiques et visibles dans l\'[éditeur de propriétés](property_editor/fr.md), alors que les attributs de classe ne peuvent être manipulés qu\'à partir de la [console Python](Python_console/fr.md). Les attributs de classe peuvent être sauvegardés et restaurés comme expliqué dans [Sauvegarde des attributs des objets scripts](Scripted_objects_saving_attributes/fr.md). 
 ```python
 # old_module.py
-class OldObject   *
-    def __init__(self, obj)   *
-        obj.addProperty("App   *   *PropertyLength", "Length")
-        obj.addProperty("App   *   *PropertyArea", "Area")
+class OldObject:
+    def __init__(self, obj):
+        obj.addProperty("App::PropertyLength", "Length")
+        obj.addProperty("App::PropertyArea", "Area")
         obj.Length = 15
         obj.Area = 300
         obj.Proxy = self
@@ -444,7 +444,7 @@ class OldObject   *
         self.Type = "Custom"
         self.ver = "0.18"
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         pass
 ```
 
@@ -462,13 +462,13 @@ import FreeCAD as App
 import objects.new_module as new_module
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj.Proxy, "ver") and obj.Proxy.ver   *
-            if obj.Proxy.ver == "0.18"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj.Proxy, "ver") and obj.Proxy.ver:
+            if obj.Proxy.ver == "0.18":
                 _migrate_from_018(obj)
 
-def _migrate_from_018(obj)   *
+def _migrate_from_018(obj):
     old = dict()
     old["Area"] = obj.Area
     old["Length"] = obj.Length
@@ -495,13 +495,13 @@ import FreeCAD as App
 import objects.new_module as new_module
 _wrn = App.Console.PrintWarning
 
-class OldObject   *
-    def onDocumentRestored(self, obj)   *
-        if hasattr(obj, "Version") and obj.Version   *
-            if obj.Version == "0.18"   *
+class OldObject:
+    def onDocumentRestored(self, obj):
+        if hasattr(obj, "Version") and obj.Version:
+            if obj.Version == "0.18":
                 _migrate_from_018(obj)
 
-def _migrate_from_018(obj)   *
+def _migrate_from_018(obj):
     old = dict()
     old["Area"] = obj.Area
     obj.removeProperty("Area")
@@ -515,42 +515,37 @@ def _migrate_from_018(obj)   *
 
 Comme nous le voyons dans l\'exemple, l\'ancienne propriété `Area` est supprimée et migrée vers la nouvelle propriété `GeneralArea` comme d\'habitude. Nous n\'avons pas besoin de supprimer `Length` ni `Version` parce que dans la nouvelle classe ils sont toujours utilisés avec le même nom, et ils ne seront pas créés à nouveau (addendum A). Comme nous ne voulons pas modifier `Length`, cette propriété n\'est pas touchée du tout ; elle est migrée vers la nouvelle classe en silence. Par contre, nous mettons à jour `Version` avec la nouvelle valeur. Nous omettons la migration des propriétés de [viewprovider](viewprovider/fr.md) mais elle suit le même schéma.
 
-Cela devrait fonctionner comme la méthode 3, c\'est-à-dire que les anciennes propriétés sont supprimées et que seules les nouvelles propriétés restent dans le nouvel objet. La seule différence est que nous omettons de supprimer et de recréer les propriétés qui portent le même nom. Ce processus devrait fonctionner tant que l\'ancienne [propriété](property/fr.md) et la nouvelle [propriété](property/fr.md) ont le même type (par exemple, `App   *   *PropertyLength` ou `App   *   *PropertyArea`), de sorte que l\'ancienne propriété peut transmettre sa valeur directement. Cependant, si la nouvelle propriété a un type différent de l\'ancienne, l\'ancienne propriété doit être supprimée, sinon l\'ancienne propriété écrasera complètement la nouvelle, ce qui n\'est probablement pas ce que nous voulons car la nouvelle classe s\'attendra au nouveau type et non à l\'ancien.
+Cela devrait fonctionner comme la méthode 3, c\'est-à-dire que les anciennes propriétés sont supprimées et que seules les nouvelles propriétés restent dans le nouvel objet. La seule différence est que nous omettons de supprimer et de recréer les propriétés qui portent le même nom. Ce processus devrait fonctionner tant que l\'ancienne [propriété](property/fr.md) et la nouvelle [propriété](property/fr.md) ont le même type (par exemple, `App::PropertyLength` ou `App::PropertyArea`), de sorte que l\'ancienne propriété peut transmettre sa valeur directement. Cependant, si la nouvelle propriété a un type différent de l\'ancienne, l\'ancienne propriété doit être supprimée, sinon l\'ancienne propriété écrasera complètement la nouvelle, ce qui n\'est probablement pas ce que nous voulons car la nouvelle classe s\'attendra au nouveau type et non à l\'ancien.
 
 ### Avantages et inconvénients 
 
 **Avantages**
 
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Comme la méthode 3, cette méthode nous permet un contrôle complet de la migration des anciennes informations.
--   <img alt="" src=images/Edit_OK.svg  style="width   *24px;"> Nous évitons d\'écrire du code qui supprime et recrée des propriétés dont le nom est identique.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Comme la méthode 3, cette méthode nous permet un contrôle complet de la migration des anciennes informations.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Nous évitons d\'écrire du code qui supprime et recrée des propriétés dont le nom est identique.
 
 **Inconvénients**
 
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Comme la méthode 3, cette méthode est encore très verbeuse car nous devons manipuler les propriétés avec soin.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *24px;"> Si une nouvelle [propriété](property/fr.md) et une ancienne [propriété](property/fr.md) partagent le même nom, la nouvelle propriété sera écrasée, ce qui peut être un comportement indésirable, surtout si les deux propriétés ont des types différents. Dans ce cas, la suppression de l\'ancienne propriété et la migration manuelle de sa valeur sont toujours nécessaires.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Comme la méthode 3, cette méthode est encore très verbeuse car nous devons manipuler les propriétés avec soin.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Si une nouvelle [propriété](property/fr.md) et une ancienne [propriété](property/fr.md) partagent le même nom, la nouvelle propriété sera écrasée, ce qui peut être un comportement indésirable, surtout si les deux propriétés ont des types différents. Dans ce cas, la suppression de l\'ancienne propriété et la migration manuelle de sa valeur sont toujours nécessaires.
 
 ## Résumé
 
-Chacune des méthodes a une utilisation recommandée    *
+Chacune des méthodes a une utilisation recommandée :
 
 -   Méthode 1. Le module est déplacé ou renommé mais les propriétés sont les mêmes. Redirection simple des classes car les propriétés n\'ont pas besoin d\'être modifiées du tout.
 -   Méthode 2+A. Scénarios de migration simples. Affichage d\'un message lorsque l\'objet est migré d\'une classe à une autre. Les propriétés sont du même type et n\'ont pas besoin d\'être modifiées du tout.
 -   Méthode 3, 3+A ou 3+B. Scénarios de migration complexes. Contrôle total des propriétés, suppression des anciennes propriétés et ajout de nouvelles propriétés. Un identifiant pour connaître la version de l\'objet est utile pour choisir la bonne fonction pour effectuer la migration (Addendum B ou B2).
 
-Évitez de préférence les méthodes suivantes    *
+Évitez de préférence les méthodes suivantes :
 
 -   Méthode 2. Les propriétés seront dupliquées si la nouvelle classe ne vérifie pas les propriétés existantes (Addendum A).
 -   Méthode 3+C. A n\'utiliser que lorsque les anciennes propriétés et les nouvelles propriétés sont du même type. Sinon, utilisez la méthode 3 ou 3+B pour supprimer les anciennes propriétés, et traitez-les exactement comme il se doit.
 
 ## Liens
 
--   [Migrer et mettre à jour les anciens objets scriptés](https   *//forum.freecadweb.org/viewtopic.php?t=42948)
--   [Migrer les anciens objets scriptés](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=46218)
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+-   [Migrer et mettre à jour les anciens objets scriptés](https://forum.freecadweb.org/viewtopic.php?t=42948)
+-   [Migrer les anciens objets scriptés](https://forum.freecadweb.org/viewtopic.php?f=18&t=46218)
 
 
 

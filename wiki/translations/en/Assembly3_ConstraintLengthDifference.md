@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Assembly3 ConstraintLengthDifference
-   Icon   *Assembly_ConstraintLengthDifference.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:
+   Name:Assembly3 ConstraintLengthDifference
+   Icon:Assembly_ConstraintLengthDifference.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLengthDifference/en
@@ -15,7 +15,7 @@ It links the length of the 2D line with the length of either another 2D line or 
 
 The length value of the first selected line equals the length value of the second line plus a difference value.
 
-   *   (Or the length value of the second selected line equals the length value of the first line minus a difference value.)
+:   (Or the length value of the second selected line equals the length value of the first line minus a difference value.)
 
 ## Usage
 
@@ -24,9 +24,9 @@ The length value of the first selected line equals the length value of the secon
 3.  Set the **Difference** value in the properties panel.
 4.  Press the **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Solve constraints](Assembly3_ResolveConstraints.md)** or the **<img src="images/Assembly_QuickSolve.svg" width=16px> [Quick solve](Assembly3_QuickSolve.md)** button to recompute
 
-   *   
+:   
 
-       *   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
+    :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
 
 

@@ -1,5 +1,5 @@
 # API documentation/cs
-1.  REDIRECT [   *Category   *API/cs](   *Category   *API/cs.md)
+1.  REDIRECT [:Category:API/cs](:Category:API/cs.md)
 
 
 

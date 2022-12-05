@@ -1,8 +1,6 @@
 # Category:Drawing/sv
 This category lists pages related to the [Drawing Workbench/sv](Drawing_Workbench/sv.md).
 
-[Category   *Obsolete Workbenches/sv](Category   *Obsolete_Workbenches/sv.md)
-
 ### Contents
 
 |     |     |     |

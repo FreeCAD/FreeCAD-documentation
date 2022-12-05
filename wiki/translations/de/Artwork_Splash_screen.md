@@ -51,8 +51,6 @@ Dieses sind die Splash-Screens, die für die jeweilige Programmversion verwendet
 
 ![](images/Splashscreen09.png )
 
-[Category   *Artwork](Category_Artwork.md)
-
 
 
 ---

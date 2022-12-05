@@ -1,15 +1,15 @@
 ---
-- GuiCommand   *
-   Name   *Draft Snap Near
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso   *[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
+- GuiCommand:
+   Name:Draft Snap Near
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
 # Draft Snap Near/pt-br
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *24px;"> **Draft Snap Near** option snaps to the nearest point on faces and edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Snap Near** option snaps to the nearest point on faces and edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
 *Snapping the second point of a line to the nearest point on an edge*
@@ -18,8 +18,8 @@ The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *24px;"> **Dr
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-2.  If **Draft Snap Near** is not active do one of the following   *
+1.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
+2.  If **Draft Snap Near** is not active do one of the following:
     -   Press the **<img src="images/Draft_Snap_Near.svg" width=16px>** button in the Draft snap toolbar.
     -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Near.svg" width=16px> Snap Near** option.
 3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.

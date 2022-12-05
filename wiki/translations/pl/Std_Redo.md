@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Redo
-   Name/pl   *Std   * Przywróć
-   MenuLocation   *Edycja → Przywróć
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl** + **Y**
-   SeeAlso   *[Cofnij](Std_Undo/pl.md)
+- GuiCommand:/pl
+   Name:Std Redo
+   Name/pl:Std: Przywróć
+   MenuLocation:Edycja → Przywróć
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **Y**
+   SeeAlso:[Cofnij](Std_Undo/pl.md)
 ---
 
 # Std Redo/pl
@@ -16,10 +16,10 @@ Polecenie **Ponów** odwraca działanie polecenia [Cofnij](Std_Undo/pl.md).
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Std_Redo.svg" width=16px> [Ponów](Std_Redo/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Redo.svg" width=16px> Ponów**.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **Y**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **Y**.
 
 ## Opcje
 
@@ -33,7 +33,7 @@ Polecenie **Ponów** odwraca działanie polecenia [Cofnij](Std_Undo/pl.md).
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

@@ -1,6 +1,6 @@
 # Arch SplitMesh/cs
 ---
-- GuiCommand   */cs   Name   *Arch SplitMesh   Name/cs   *Arch Rozděl síť   Workbenches   *[MenuLocation   *Arch → Utilities → Split Mesh   SeeAlso   *[[Arch SelectNonSolidMeshes/cs|Arch SelectNonSolidMeshes](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:/cs   Name:Arch SplitMesh   Name/cs:Arch Rozděl síť   Workbenches:[MenuLocation:Arch → Utilities → Split Mesh   SeeAlso:[[Arch SelectNonSolidMeshes/cs|Arch SelectNonSolidMeshes](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -45,7 +45,7 @@ Tento nástroj rozdělí vybrané [Síťové](Mesh_Workbench.md) objekty do jeji
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Rozděl síť může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Rozděl síť může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -63,7 +63,7 @@ rozdělí vybraný síťový objekt do oddělených komponent.
 
 </div>
 
-Example   *
+Example:
 
 
 ```python
@@ -76,7 +76,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 

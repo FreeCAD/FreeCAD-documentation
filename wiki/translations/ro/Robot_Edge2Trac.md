@@ -1,6 +1,6 @@
 # Robot Edge2Trac/ro
 ---
-- GuiCommand   *   Name   *Robot Edge2Trac   Workbenches   *[[Robot_Workbench   Robot]]|MenuLocation   *Robot → Edge to trajectory---
+- GuiCommand:   Name:Robot Edge2Trac   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Edge to trajectory---
 
 
 </div>
@@ -25,7 +25,7 @@ Inserează un nou obiect care descompune muchiile într-o traiectorie.
 #### Utilizare
 
 1.  Puteți selecta muchiile unor forme/solide
-2.  Click pe <img alt="" src=images/Robot_Edge2Trac.png  style="width   *32px;"> or choose ** Robot** → **<img src="images/Robot_Edge2Trac.png" width=32px> Edge to Trajectory...** din meniul principal.
+2.  Click pe <img alt="" src=images/Robot_Edge2Trac.png  style="width:32px;"> or choose ** Robot** → **<img src="images/Robot_Edge2Trac.png" width=32px> Edge to Trajectory...** din meniul principal.
 3.  Un meniu contextual va apărea în partea stângă
 
 

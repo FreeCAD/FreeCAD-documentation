@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher constrain arc or circle
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:
+   Name:Sketcher constrain arc or circle
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
 # Sketcher CompConstrainRadDia/en
@@ -13,11 +13,11 @@
 
 ## Types of constraints for an arc or a circle 
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Radius](Sketcher_ConstrainRadius.md)   * Defines the radius of a selected arc or circle by constraining the radius.
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Radius](Sketcher_ConstrainRadius.md): Defines the radius of a selected arc or circle by constraining the radius.
 
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Diameter](Sketcher_ConstrainDiameter.md)   * Defines the diameter of a selected arc or circle by constraining the diameter.
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of a selected arc or circle by constraining the diameter.
 
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam.md)   * Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc).
+-   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam.md): Automatically defines radius/diameter of a selected arc or circle (weight for a B-spline pole, diameter for a complete circle, radius for an arc).
 
 
 

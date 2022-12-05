@@ -1,8 +1,6 @@
 # Category:Plot/tr
 This category lists pages related to the [Plot Workbench/tr](Plot_Workbench/tr.md).
 
-[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
-
 ### Contents
 
 |     |     |     |

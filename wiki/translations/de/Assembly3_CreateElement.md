@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 CreateElement
-   Name/de   *Assembly3 ElementAnlegen
-   Icon   *Assembly_New_Element.svg
-   MenuLocation   *Assembly3 → Create element
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
-   Shortcut   ***A** **E**
+- GuiCommand:/de
+   Name:Assembly3 CreateElement
+   Name/de:Assembly3 ElementAnlegen
+   Icon:Assembly_New_Element.svg
+   MenuLocation:Assembly3 → Create element
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Shortcut:**A** **E**
 ---
 
 # Assembly3 CreateElement/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width   *24px;"> [Element anlegen](Assembly3_CreateElement/de.md) legt neue Elemente von ausgewählten Objekten an.
+Der Befehl <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> [Element anlegen](Assembly3_CreateElement/de.md) legt neue Elemente von ausgewählten Objekten an.
 
 Er kann benutzt werden, um **Elemente** vorzubereiten, bevor Festlegungen angewendet werden.  Dies kann nützlich sein, um z.B. verdeckte Geometrie auszuwählen. Wenn ein Objekt erst einmal durch ein Element repräsentiert wird, kann es einfach über sein Baugruppenbaumobjekt erreicht werden.
 

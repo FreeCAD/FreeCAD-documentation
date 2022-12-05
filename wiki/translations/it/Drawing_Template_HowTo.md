@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   */it   Topic   *Disegno 2D   Level   *Intermedio   Author   *Mark Stephen ([[User   *Quick61   Quick61]])|Time   *Circa un'ora   FCVersion   *0.14.3700 o superiore
+- TutorialInfo:/it   Topic:Disegno 2D   Level:Intermedio   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Circa un'ora   FCVersion:0.14.3700 o superiore
 ---
 
 # Drawing Template HowTo/it
@@ -45,11 +45,11 @@ Questo tutorial presuppone che il lettore abbia una conoscenza di base di Inksca
 
 ### Impostare la pagina 
 
-Iniziare creando un nuovo documento in Inkscape. In riferimento alla pagina del Wiki di FreeCAD sul disegno di modelli   * un pixel = un millimetro. Questo significa che per creare un modello adatto a una pagina con dimensioni ANSI A (letter size), che è di 216mm X 279mm, il modello deve avere le dimensioni di 216px X 279px. Per orientare la pagina in senso orizzontale, questi numeri devono essere invertiti. In questa esercitazione, viene utilizzato l\'orientamento orizzontale. La pagina è perciò definita con 279px per la larghezza e 216px per l\'altezza.
+Iniziare creando un nuovo documento in Inkscape. In riferimento alla pagina del Wiki di FreeCAD sul disegno di modelli: un pixel = un millimetro. Questo significa che per creare un modello adatto a una pagina con dimensioni ANSI A (letter size), che è di 216mm X 279mm, il modello deve avere le dimensioni di 216px X 279px. Per orientare la pagina in senso orizzontale, questi numeri devono essere invertiti. In questa esercitazione, viene utilizzato l\'orientamento orizzontale. La pagina è perciò definita con 279px per la larghezza e 216px per l\'altezza.
 
 In Inkscape, aprire il menu \"File\" e selezionare \"Proprietà del documento\", si dovrebbe vedere la finestra delle Proprietà del documento. Modificare la larghezza e l\'altezza come detto prima e verificare che l\'unità impostata sia px.
 
-<img alt="" src=images/Inkscape_Template_tut_1.png  style="width   *780px;">
+<img alt="" src=images/Inkscape_Template_tut_1.png  style="width:780px;">
 
 Ora si dispone di un documento Inkscape che è largo 279px e alto 216px. Si può procedere e inserire il bordo.
 
@@ -59,7 +59,7 @@ Quindi, creare il bordo. Sebbene ai fini di questa esercitazione non sia indispe
 
 Usare lo strumento "Disegna tracciati e linee dritte" , e selezionare la Modalità "Crea una sequenza di segmenti parassiali", creare un rettangolo entro i confini del documento. Quando il rettangolo è chiuso, cliccare sullo strumento \"Seleziona e trasforma oggetti\". Ora il rettangolo dovrebbe apparire selezionato. In caso contrario, utilizzare lo strumento e selezionarlo.
 
-Utilizzare le coordinate orizzontali e verticali di impostazione della selezione, insieme alle impostazioni di Larghezza e Altezza della selezione, per posizionare il rettangolo del bordo a 10 unità, (px) dai lati del documento. Inserire i seguenti valori   * per X inserire 10, per Y inserire 10, per W inserire 259, e per H inserire 196. Osservare che questi valori impostano l\'angolo inferiore sinistro del rettangolo disegnato a 10 unità dal lato sinistro e 10 unità dal lato inferiore dell\'angolo inferiore sinistro della pagina. Inserendo Larghezza e Altezza si dimensiona e si centra il rettangolo nel bordo del documento.
+Utilizzare le coordinate orizzontali e verticali di impostazione della selezione, insieme alle impostazioni di Larghezza e Altezza della selezione, per posizionare il rettangolo del bordo a 10 unità, (px) dai lati del documento. Inserire i seguenti valori: per X inserire 10, per Y inserire 10, per W inserire 259, e per H inserire 196. Osservare che questi valori impostano l\'angolo inferiore sinistro del rettangolo disegnato a 10 unità dal lato sinistro e 10 unità dal lato inferiore dell\'angolo inferiore sinistro della pagina. Inserendo Larghezza e Altezza si dimensiona e si centra il rettangolo nel bordo del documento.
 
 ![](images/Inkscape_Template_tut_2.png )
 
@@ -67,7 +67,7 @@ Utilizzare le coordinate orizzontali e verticali di impostazione della selezione
 
 Ora è possibile costruire un riquadro delle iscrizioni o cartiglio. È la zona dove viene inserito il testo modificabile con Drawing quando il modello viene utilizzato in FreeCAD. Questo tutorial utilizza un esempio semplice. Il cartiglio può essere semplice o complesso quanto si vuole.
 
-In questo esempio di cartiglio contiene   * Nome del progetto, Data, Scala, e Autore. Viene posizionato nell\'angolo in basso a destra del bordo.
+In questo esempio di cartiglio contiene: Nome del progetto, Data, Scala, e Autore. Viene posizionato nell\'angolo in basso a destra del bordo.
 
 Iniziare tracciando un rettangolo qualsiasi entro i bordi del documento. Costruirlo nello stesso modo in cui si è costruito il bordo. Poi dividerlo in 4 parti a piacere. Terminata la costruzione, selezionare il rettangolo e le linee di suddivisione, renderli un gruppo, posizionarlo a X = 169, Y = 10 e dimensionarlo con W = 100, H = 50, nello stesso modo usato per il bordo.
 
@@ -75,7 +75,7 @@ Iniziare tracciando un rettangolo qualsiasi entro i bordi del documento. Costrui
 
 ### Il testo fisso 
 
-A questo punto si possono inserire nel cartiglio i blocchi di testo fissi. Sono   * Nome del progetto, Data, Scala, e Autore. Per fare questo, basta selezionare lo strumento testo, fare clic da qualche parte nel documento e digitare il testo, usando un blocco diverso per ogni nome. Quindi, fare clic sullo strumento testo, poi nel documento, selezionare la dimensione appropriata del carattere, (la dimensione 6 per questo esempio) e digitare \"Nome del progetto\". Spostare il puntatore in una nuova posizione, fare di nuovo clic per iniziare un nuovo blocco di testo e digitare \"Data\". Fare la stessa cosa per Scala, e Autore. Ora, utilizzando lo strumento di selezione, spostare i singoli blocchi di testo, trascinandoli o utilizzando i tasti freccia, per sistemarli nelle posizioni desiderate.
+A questo punto si possono inserire nel cartiglio i blocchi di testo fissi. Sono: Nome del progetto, Data, Scala, e Autore. Per fare questo, basta selezionare lo strumento testo, fare clic da qualche parte nel documento e digitare il testo, usando un blocco diverso per ogni nome. Quindi, fare clic sullo strumento testo, poi nel documento, selezionare la dimensione appropriata del carattere, (la dimensione 6 per questo esempio) e digitare \"Nome del progetto\". Spostare il puntatore in una nuova posizione, fare di nuovo clic per iniziare un nuovo blocco di testo e digitare \"Data\". Fare la stessa cosa per Scala, e Autore. Ora, utilizzando lo strumento di selezione, spostare i singoli blocchi di testo, trascinandoli o utilizzando i tasti freccia, per sistemarli nelle posizioni desiderate.
 
 Quando i blocchi di testo sono posizionati correttamente devono essere selezionati, insieme al cartiglio e resi un gruppo. In questo modo il cartiglio e il testo fisso diventano un blocco unico.
 
@@ -83,7 +83,7 @@ Quando i blocchi di testo sono posizionati correttamente devono essere seleziona
 
 ### Il testo editabile 
 
-Ora si possono aggiungere i blocchi di testo modificabili con FreeCAD. Creare e posizionare il testo modificabile nello stesso modo usato per il testo fisso. Si può digitare   * NOME, DATA, SCALA, AUTORE, e impostare la dimensione 8. Quando il testo è inserito, selezionare i 4 campi di testo che si desidera siano modificabile e renderli un gruppo separato. Non includerli nel gruppo del cartiglio o del bordo. Con questa parte si è definito il testo modificabile, ma dopo aver aggiunto al modello anche la parte grafica, si deve poi completare il processo di creazione del testo modificabile con FreeCAD. Terminiamo aggiungendo al modello solo una piccola parte grafica.
+Ora si possono aggiungere i blocchi di testo modificabili con FreeCAD. Creare e posizionare il testo modificabile nello stesso modo usato per il testo fisso. Si può digitare: NOME, DATA, SCALA, AUTORE, e impostare la dimensione 8. Quando il testo è inserito, selezionare i 4 campi di testo che si desidera siano modificabile e renderli un gruppo separato. Non includerli nel gruppo del cartiglio o del bordo. Con questa parte si è definito il testo modificabile, ma dopo aver aggiunto al modello anche la parte grafica, si deve poi completare il processo di creazione del testo modificabile con FreeCAD. Terminiamo aggiungendo al modello solo una piccola parte grafica.
 
 ![](images/Inkscape_Template_tut_5.png )
 
@@ -107,12 +107,12 @@ Aprendo il file SVG con l\'editor di testo si vede quanto segue.
 
 ![](images/Kate1.png )
 
-### Il tag "xmlns   *freecad" 
+### Il tag "xmlns:freecad" 
 
 La prima cosa da fare è inserire nel documento la riga sottostante. Questa riga è la dichiarazione \"SVG namespace\" e deve essere fornita affinché tutti gli elementi SVG siano identificati come appartenenti a SVG namespace.
 
  XML
-xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
 
@@ -174,7 +174,7 @@ Se si utilizzano entrambi i tag, il tag Working space deve apparire per primo e 
 
 <div class="mw-translate-fuzzy">
 
-Il primo tag è il tag Working space ed è formattato in questo modo   *
+Il primo tag è il tag Working space ed è formattato in questo modo:
 
 
 </div>
@@ -183,14 +183,14 @@ Il primo tag è il tag Working space ed è formattato in questo modo   *
 
 
 
-Dove   *
+Dove:
 
 -   X1 è la distanza sull\'asse X del lato sinistro del bordo dal lato sinistro della pagina.
 -   Y1 è la distanza sull\'asse Y del lato inferiore del bordo dal lato inferiore della pagina.
 -   X2 è la distanza sull\'asse X del lato destro del bordo dal lato sinistro della pagina.
 -   Y2 è la distanza sull\'asse Y del lato superiore del bordo dal lato inferiore della pagina.
 
-Quindi, per questo modello di esercitazione, il tag Working space è   *
+Quindi, per questo modello di esercitazione, il tag Working space è:
 
  html
 
@@ -201,7 +201,7 @@ Quindi, per questo modello di esercitazione, il tag Working space è   *
 
 <div class="mw-translate-fuzzy">
 
-Il tag successivo è il tag Title block ed è formattato in questo modo   *
+Il tag successivo è il tag Title block ed è formattato in questo modo:
 
 
 </div>
@@ -210,7 +210,7 @@ Il tag successivo è il tag Title block ed è formattato in questo modo   *
 
 
 
-Dove   *
+Dove:
 
 -   X1a è la distanza sull\'asse X del lato sinistro del cartiglio dal lato sinistro della pagina.
 -   Y1a è la distanza sull\'asse Y del lato inferiore del cartiglio dal lato inferiore della pagina.
@@ -219,21 +219,21 @@ Dove   *
 -   X1a \<= X1 o X2a \>= X2
 -   Y1a \<= Y1 o Y2a \>= Y2
 
-In questo caso, sempre in riferimento al modello creato con questo tutorial, il tag Title block è   *
+In questo caso, sempre in riferimento al modello creato con questo tutorial, il tag Title block è:
 
  html
 
 
 
-Posizionando questi due tag, in modo corretto nella parte superiore il documento appare simile al seguente   *
+Posizionando questi due tag, in modo corretto nella parte superiore il documento appare simile al seguente:
 
 ![](images/Kate3.png )
 
-### Il tag freecad   *editable 
+### Il tag freecad:editable 
 
-Aggiungendo nel documento SVG il tag freecad   *editable si permette a FreeCAD di accedere ai blocchi di testo definiti per editarli. Per i blocchi di testo che si desidera siano modificabile con FreeCAD, effettuare le seguenti operazioni.
+Aggiungendo nel documento SVG il tag freecad:editable si permette a FreeCAD di accedere ai blocchi di testo definiti per editarli. Per i blocchi di testo che si desidera siano modificabile con FreeCAD, effettuare le seguenti operazioni.
 
-Cercare nel documento SVG fino a trovare la sezione che contiene il testo che si desidera definire modificabile. Quando si è creato il modello, il testo è stato inserito in un gruppo, e di conseguenza, anche all\'interno del documento dovrebbe apparire in un gruppo. Quando si trova questo gruppo di elementi di testo, aggiungere la riga freecad   *editable=" " ad ogni blocco di testo dove il testo che si desidera rendere modificabile è contenuto all\'interno delle virgolette. Inserire la riga come indicato per tutte le quattro righe di testo da rendere modificabili.
+Cercare nel documento SVG fino a trovare la sezione che contiene il testo che si desidera definire modificabile. Quando si è creato il modello, il testo è stato inserito in un gruppo, e di conseguenza, anche all\'interno del documento dovrebbe apparire in un gruppo. Quando si trova questo gruppo di elementi di testo, aggiungere la riga freecad:editable=" " ad ogni blocco di testo dove il testo che si desidera rendere modificabile è contenuto all\'interno delle virgolette. Inserire la riga come indicato per tutte le quattro righe di testo da rendere modificabili.
 
 ![](images/Kate4.png )
 
@@ -267,8 +267,8 @@ Sotto è riportato il modello SVG finito. Siccome è in formato SVG, è possibil
 
 I due strumenti utilizzati in questa esercitazione sono Inkscape e Kate. Si possono trovare ai link riportati di seguito.
 
--   [Inkscape](http   *//www.inkscape.org/)
--   [Kate](http   *//kate-editor.org/)
+-   [Inkscape](http://www.inkscape.org/)
+-   [Kate](http://kate-editor.org/)
 
 
 {{Drawing Tools navi

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw ClipGroupRemove
-   Name/fr   *TechDraw Suppression vue d'une fenêtre de rognage
-   MenuLocation   *TechDraw → Supprimer la vue de la fenêtre de rognage
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso   *[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md)
+- GuiCommand:/fr
+   Name:TechDraw ClipGroupRemove
+   Name/fr:TechDraw Suppression vue d'une fenêtre de rognage
+   MenuLocation:TechDraw → Supprimer la vue de la fenêtre de rognage
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso:[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md)
 ---
 
 # TechDraw ClipGroupRemove/fr

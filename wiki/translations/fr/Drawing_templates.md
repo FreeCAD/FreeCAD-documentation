@@ -6,11 +6,11 @@
 
 ## Création d\'une feuille SVG 
 
-Créer des modèles pour le module de dessin est très facile. Voir aussi le tutoriel [Drawing Template    * Comment faire](Drawing_Template_HowTo/fr.md). Les modèles sont des fichiers svg, créés avec n\'importe quelle application capable d\'exporter des fichiers svg, tels que [Inkscape](http   *//www.inkscape.org). Cependant, vous devrez souvent ouvrir le fichier svg dans un éditeur de texte par la suite, afin de respecter les règles suivantes. Seulement deux règles doivent être suivies   *
+Créer des modèles pour le module de dessin est très facile. Voir aussi le tutoriel [Drawing Template : Comment faire](Drawing_Template_HowTo/fr.md). Les modèles sont des fichiers svg, créés avec n\'importe quelle application capable d\'exporter des fichiers svg, tels que [Inkscape](http://www.inkscape.org). Cependant, vous devrez souvent ouvrir le fichier svg dans un éditeur de texte par la suite, afin de respecter les règles suivantes. Seulement deux règles doivent être suivies:
 
 ### Règles de base 
 
--   Un pixel = un millimètre. Vous pouvez avoir la taille de la page spécifiée à l\'intérieur de la balise d\'ouverture<svg>, sans unités ou avec \"mm\". Par exemple, ces deux formes sont valides   *
+-   Un pixel = un millimètre. Vous pouvez avoir la taille de la page spécifiée à l\'intérieur de la balise d\'ouverture<svg>, sans unités ou avec \"mm\". Par exemple, ces deux formes sont valides:
 
  html
 width="1067mm"
@@ -24,13 +24,13 @@ width="1067"
 height = "762"
 
 
-Bien que svg supporte les pouces (\"42in\"), ceux-ci ne sont actuellement pas supportés par FreeCAD, donc il est toujours préférable d\'avoir la taille de votre page svg spécifiée en millimètres. L\'attribut \"viewBox\" doit avoir la même valeur, par exemple   *
+Bien que svg supporte les pouces (\"42in\"), ceux-ci ne sont actuellement pas supportés par FreeCAD, donc il est toujours préférable d\'avoir la taille de votre page svg spécifiée en millimètres. L\'attribut \"viewBox\" doit avoir la même valeur, par exemple:
 
  html
 viewBox="0 0 1067 762"
 
 
--   Vous devez insérer, quelque part dans votre code svg, l\'endroit où vous voulez que le contenu du dessin apparaisse (par exemple à la fin du fichier, juste avant la dernière balise \</ svg\>), la ligne suivante   *
+-   Vous devez insérer, quelque part dans votre code svg, l\'endroit où vous voulez que le contenu du dessin apparaisse (par exemple à la fin du fichier, juste avant la dernière balise \</ svg\>), la ligne suivante:
 
  html
 
@@ -40,9 +40,9 @@ Ce texte ci-dessus (qui est en fait un commentaire XML) doit se trouver sur une 
 
 ### Espace de noms 
 
--   Plusieurs objets (en particulier ceux créés avec la commande [Draft Dessin](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape   *
+-   Plusieurs objets (en particulier ceux créés avec la commande [Draft Dessin](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape:
 
-xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
+xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
 ### Bloc de titre 
 
@@ -54,7 +54,7 @@ Pour définir la bordure, la ligne suivante doit apparaître avant la balise  da
 
 
 
-Où X1, Y1, X2, Y2 sont définies comme suit   *
+Où X1, Y1, X2, Y2 sont définies comme suit:
 
 -   X1 est la distance sur l\'axe X entre le bord gauche de la page et le côté gauche de la bordure.
 -   Y1 est la distance sur l\'axe Y entre le bord supérieur de la page et le haut de la bordure.
@@ -69,7 +69,7 @@ Pour définir le cartouche, la ligne suivante doit être insérée avant la bali
 
 
 
-Où X1a, Y1a, X2a Y2a sont définies comme suit   *
+Où X1a, Y1a, X2a Y2a sont définies comme suit:
 
 -   X1a est la distance sur l\'axe X du bord gauche de la page au côté gauche du bloc Titre
 -   Y1a est la distance sur l\'axe Y du bord supérieur de la page au sommet du bloc Titre
@@ -80,7 +80,7 @@ Où X1a, Y1a, X2a Y2a sont définies comme suit   *
 
 ![](images/XY_Title_v2.svg )
 
-Voici un exemple de code qui définit les zones Espace de travail et Bloc de titre à insérer avant la balise . Vous n\'avez pas besoin de spécifier un cartouche, mais si vous le faites, vous devez le définir sur la ligne suivante immédiatement après l\'espace de travail   *
+Voici un exemple de code qui définit les zones Espace de travail et Bloc de titre à insérer avant la balise . Vous n\'avez pas besoin de spécifier un cartouche, mais si vous le faites, vous devez le définir sur la ligne suivante immédiatement après l\'espace de travail:
 
  html
 
@@ -89,7 +89,7 @@ Voici un exemple de code qui définit les zones Espace de travail et Bloc de tit
 
 Afin d\'avoir une impression à la bonne échelle, la taille réelle du texte doit être fixée dans les attributs width et height de la section SVG-Tag. L\'unité du document doit être donnée en (px), et doit être donnée dans l\'attribut viewBox.
 
-Ce qui suit doit être formaté comme dans l\'exemple ci-dessous où   *
+Ce qui suit doit être formaté comme dans l\'exemple ci-dessous où:
 
 -   xxx = pixel width
 -   yyy = pixel height
@@ -110,7 +110,7 @@ Par conséquence, si vous créez vos propres templates au format SVG, et que vou
 
 Les modèles DXF peuvent être créés avec n\'importe quelle application qui produit des fichiers au format DXF, comme LibreCAD. Vous devez ensuite les éditer avec un éditeur de texte, et ajouter deux lignes supplémentaires, une au début ou à la fin de la section BLOCKS, et l\'autre au début ou à la fin de la section ENTITIES, entre ces deux lignes se trouve l\'espace où FreeCAD va ajouter ses propres blocs et entités.
 
-Un modèle (feuille de dessin) très simple ressemble à ceci   *
+Un modèle (feuille de dessin) très simple ressemble à ceci:
 
     999
     FreeCAD DXF exporter v0.15
@@ -147,70 +147,68 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 ## Modèles A3 
 
-### A3 classique    * 
+### A3 classique : 
 
-<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
+<img alt="" src=images/A3_Classic.svg  style="width:800px;">
 
-### A3 vide    * 
+### A3 vide : 
 
-<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
+<img alt="" src=images/A3_Clean.svg  style="width:800px;">
 
-### A3 moderne    * 
+### A3 moderne : 
 
-<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
+<img alt="" src=images/A3_Modern.svg  style="width:800px;">
 
-### A3 vitrine    * 
+### A3 vitrine : 
 
-<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
+<img alt="" src=images/A3_Showcase.svg  style="width:800px;">
 
-### A3 paysage anglais    * 
+### A3 paysage anglais : 
 
-<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
+<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
 
 ## A4 Templates 
 
-### Landscape   *
+### Landscape:
 
-<img alt="" src=images/A4_Landscape_english.svg  style="width   *800px;">
+<img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
 
-### A4 Portrait 1 english   * 
+### A4 Portrait 1 english: 
 
-<img alt="" src=images/A4_Portrait_1_english.svg  style="width   *400px;">
+<img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
 
 ## US Letter Templates 
 
-### US Letter Landscape   * 
+### US Letter Landscape: 
 
-<img alt="" src=images/US_Letter_landscape.svg  style="width   *800px;">
+<img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
 
-### US Letter portrait   * 
+### US Letter portrait: 
 
-<img alt="" src=images/US_Letter_portrait.svg  style="width   *400px;">
+<img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
 
-### US Letter ds Landscape   * 
+### US Letter ds Landscape: 
 
-<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width   *800px;">
+<img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
-### US Legal ds Landscape   * 
+### US Legal ds Landscape: 
 
-<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width   *800px;">
+<img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
-### US Ledger ds Landscape   * 
+### US Ledger ds Landscape: 
 
-<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width   *800px;">
+<img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
 
 ## Autres standards disponibles 
 
--   [ANSI templates](ANSI_templates/fr.md)   * au standard American National Standards Institute [ANSI](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute)
--   [Arch templates](Arch_templates/fr.md)   * au standard American National Standards Institute [Arch](http   *//en.wikipedia.org/wiki/American_National_Standards_Institute)
--   [Misc templates](Misc_templates/fr.md)   * Autres modèles
+-   [ANSI templates](ANSI_templates/fr.md): au standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
+-   [Arch templates](Arch_templates/fr.md): au standard American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
+-   [Misc templates](Misc_templates/fr.md): Autres modèles
 
 
 {{Drawing Tools navi
 
-}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Documentation](Category_Documentation.md)
+}}
 
 
 

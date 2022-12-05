@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Ship New‏‎
-   Name/de   *Schiff Neu‏‎
-   Icon   *Ship_Instance.svg
-   MenuLocation   *Schiffskonstruktion → Ein neues Schiff erstellen
-   Workbenches   *[Schiff](Ship_Workbench/de.md)|
+- GuiCommand:/de
+   Name:Ship New‏‎
+   Name/de:Schiff Neu‏‎
+   Icon:Ship_Instance.svg
+   MenuLocation:Schiffskonstruktion → Ein neues Schiff erstellen
+   Workbenches:[Schiff](Ship_Workbench/de.md)|
 Shortcut=
-   SeeAlso   *
+   SeeAlso:
 ---
 
 # Ship CreateShip/de
@@ -18,7 +18,7 @@ Shortcut=
 
 Erstelle ein neues Schiff oder eine neue Schiffsinstanz.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account   *
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account:
 
 -   All hull geometry must be provided (including symmetric bodies).
 -   Starboard geometry must be included at negatives *y* domain.
@@ -32,7 +32,7 @@ Ship works over **Ship entities**, that must be created on top of provided geome
 
 <div class="mw-translate-fuzzy">
 
-Um eine **Schiffsinstanz** (auch bekannt als   * ein neues Schiff) zu erstellen, wähle die Geometrie s60 und führe das **Schiffserstellungswerkzeug** aus {{MenuCommand/de|Schiffskonstruktion → Neues Schiff erstellen}}
+Um eine **Schiffsinstanz** (auch bekannt als: ein neues Schiff) zu erstellen, wähle die Geometrie s60 und führe das **Schiffserstellungswerkzeug** aus {{MenuCommand/de|Schiffskonstruktion → Neues Schiff erstellen}}
 
 
 </div>
@@ -45,11 +45,11 @@ Die meisten relevanten Schiffsdaten müssen eingeführt werden (das Schiff verwe
 
 ## Schiffsdaten
 
-Hier müssen die wichtigsten Abmessungen aufgeführt werden   *
+Hier müssen die wichtigsten Abmessungen aufgeführt werden:
 
--   Länge   * Länge zwischen den Loten, 25,5 m für dieses Schiff.
--   Breite   * Gesamte Schiffsbreite, 3,389 m für dieses Schiff.
--   Tiefgang   * Entwurfstiefgang, 1,0 m für dieses Schiff.
+-   Länge: Länge zwischen den Loten, 25,5 m für dieses Schiff.
+-   Breite: Gesamte Schiffsbreite, 3,389 m für dieses Schiff.
+-   Tiefgang: Entwurfstiefgang, 1,0 m für dieses Schiff.
 
 ![](images/FreeCAD-Ship-S60ShipCreationFront.png ) ![Frontansichtsanmerkungen](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -73,7 +73,7 @@ Breitenanmerkungen.
 
 </center>
 
-Dasselbe Verfahren gilt für die Breitenpassung. Hinweis   * Dieser angeforderte Wert ist die gesamte Breite, aber die Anmerkung bezieht sich nur auf die Steuerbordhälfte des Schiffes.
+Dasselbe Verfahren gilt für die Breitenpassung. Hinweis: Dieser angeforderte Wert ist die gesamte Breite, aber die Anmerkung bezieht sich nur auf die Steuerbordhälfte des Schiffes.
 
 Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit dem Namen **Schiff** im Dialogfeld *Kennzeichen & Attribute* erstellt. Wir brauchen die Geometrie nicht mehr, du kannst sie also ausblenden.
 
@@ -90,11 +90,6 @@ Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit
 
 
 </div>
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

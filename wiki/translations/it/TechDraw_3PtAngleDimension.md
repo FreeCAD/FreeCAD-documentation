@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw Dimension Angle3Pt
-   Name/it   *Angolo da 3 punti
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation   *TechDraw → Angolo da 3 punti
-   Shortcut   *
-   SeeAlso   *[Angolo](TechDraw_AngleDimension/it.md)
+- GuiCommand:/it
+   Name:TechDraw Dimension Angle3Pt
+   Name/it:Angolo da 3 punti
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Angolo da 3 punti
+   Shortcut:
+   SeeAlso:[Angolo](TechDraw_AngleDimension/it.md)
 ---
 
 # TechDraw 3PtAngleDimension/it
@@ -18,13 +18,13 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width   *24px;"> Angolo da 3 punti aggiunge una dimensione angolare a una vista. La dimensione può essere specificata selezionando tre vertici su una vista. 
+Lo strumento <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:24px;"> Angolo da 3 punti aggiunge una dimensione angolare a una vista. La dimensione può essere specificata selezionando tre vertici su una vista. 
 **Notare che il secondo dei tre vertici è l\'apice dell\'angolo**. Inizialmente viene indicato il valore dell\'angolo proiettato (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'angolo 3D effettivo utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)**
 
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width   *200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
 *Misurare l'angolo tra due linee rette usando tre vertici; il secondo vertice è l'apice dell'angolo*
 
 ## Utilizzo
@@ -47,7 +47,7 @@ To change the properties of a dimension object either double-clicking it in the 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width   *16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>
@@ -65,21 +65,21 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dimension Angle3Pt può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Dimension Angle3Pt può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
 dim1.Type = "Angle3Pt"
 dim1.References2D=[(view1, 'Vertex1',(view1, 'Vertex4'),(view1, 'Vertex2'))]
 rc = page.addView(dim1)

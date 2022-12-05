@@ -1,7 +1,7 @@
 # Release notes 0.17/ro
-<div id="itsfree" style="text-align   *left;color   *black;background   *#f6f6f6;margin   *1em 7em;padding   *0.5em 2em;border   *2px solid #a7d7f9;">
+<div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
-*Aceasată ediție FreeCAD este dedicată prietenului nostru Roland Frank [who left us in 2017](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=25673). A fost un membru activ și bine-apreciat a forumului FreeCAD, și tutorialele sale de la [Learn FreeCAD](https   *//www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) și [BPLFRE](https   *//www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) de pe canalul Youtube au ajutate mulți oameni să facă primii pași în FreeCAD.*
+*Aceasată ediție FreeCAD este dedicată prietenului nostru Roland Frank [who left us in 2017](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). A fost un membru activ și bine-apreciat a forumului FreeCAD, și tutorialele sale de la [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) și [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) de pe canalul Youtube au ajutate mulți oameni să facă primii pași în FreeCAD.*
 
 
 </div>
@@ -9,35 +9,35 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.17 a fost lansat în 06 April, 2018, puteți să-l descărcați de pe [Download](Download.md) page. Acesta este un sumar a celor mai interesante schimbări. Lista completă a schimbărilor poate fi găsită în [MantisBT bugtracker FC 0.17 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=73).
+FreeCAD 0.17 a fost lansat în 06 April, 2018, puteți să-l descărcați de pe [Download](Download.md) page. Acesta este un sumar a celor mai interesante schimbări. Lista completă a schimbărilor poate fi găsită în [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
 
 Notele despre edițiile mai vechi din FreeCAD pot fi găsite în [Getting started](Getting_started.md).
 
 
 </div>
 
-<img alt="" src=images/Release017_Title.jpg  style="width   *800px;"> 
-*Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
+<img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
+*Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
 ## Repere
 
-Au trecut 2 ani de la ediția precedentă 0.16, dar echipa FreeCAD nu a rămas inactivă în această perioadă. Mai mult de 6.800 de revizuiri au fost adăugate în codul sursă al lui FreeCAD. Pentru comparație, acest lucru este de peste trei ori munca făcută între v0.16 și v0.15! Cele mai multe ateliere de lucru existente au beneficiat de îmbunătățiri și au fost adăugate două ateliere de lucru complet noi. Module noi au fost dezvoltate de către comunitate. Unele dintre cele mai importante   *
+Au trecut 2 ani de la ediția precedentă 0.16, dar echipa FreeCAD nu a rămas inactivă în această perioadă. Mai mult de 6.800 de revizuiri au fost adăugate în codul sursă al lui FreeCAD. Pentru comparație, acest lucru este de peste trei ori munca făcută între v0.16 și v0.15! Cele mai multe ateliere de lucru existente au beneficiat de îmbunătățiri și au fost adăugate două ateliere de lucru complet noi. Module noi au fost dezvoltate de către comunitate. Unele dintre cele mai importante:
 
 **Atelierul PartDesign**a fost complet revizuit. Un nou container al Corpului deține un lanț de caracteristici și ridică cerința de mapare a schițelor la fațetele plane. Instrumentele noi pentru a crea geometria de referință (referință), cum ar fi punctele, axele și planurile, fac PartDesign mult mai versatil. ![](images/PartDesign_Body_tree.png )
 
 
 <div class="mw-translate-fuzzy">
 
-Noul [Addon Manager](Std_AddonMgr.md) disponibil din Tools menu (care înainte era disponibil ca [addons installer macro](https   *//github.com/FreeCAD/FreeCAD-addons)) face instalrea și actulaizarea modulelor add-on și macros mult mai facilă și standardizată în Windows, Mac OS X și Linux.
+Noul [Addon Manager](Std_AddonMgr.md) disponibil din Tools menu (care înainte era disponibil ca [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) face instalrea și actulaizarea modulelor add-on și macros mult mai facilă și standardizată în Windows, Mac OS X și Linux.
 
 
 </div>
 
-<img alt="" src=images/Addon_manager_v017.png  style="width   *300px;">
+<img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
-**Sketcher** suportă acum crearea de curbeB-spline cu mai mult acăi și mijloace de control a curbelor și afișarea a informațiilor despre curbe. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width   *300px;">
+**Sketcher** suportă acum crearea de curbeB-spline cu mai mult acăi și mijloace de control a curbelor și afișarea a informațiilor despre curbe. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
-Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și tot odată furnizează mai multe caracteristici decât vechiul Atelier Drawing . <img alt="" src=images/TechDraw_Workbench_Example.png  style="width   *300px;">
+Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și tot odată furnizează mai multe caracteristici decât vechiul Atelier Drawing . <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;">
 
 ## General
 
@@ -60,14 +60,14 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 -   Proiectul FreeCAD recunoaște contribuțiile comunității sale prin adăugarea unei file Credits în dialogul \"About FreeCAD\". Licențele noi și lista cu librăriile sub licență FreeCAD și furnizează informații despre bibliotecile terțe utilizate.
 
-<img alt="" src=images/AboutFreeCAD_Credits.png  style="width   *300px;">
+<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
 
 ## Atelierul Arch 
 
 
 <div class="mw-translate-fuzzy">
 
--   Noul instrument [Arch Schedule](Arch_Schedule.md)   * Acest instrument a fost complet rescris , și oferă acum mai multă flexibilitate pentru a aduna date din document într-o spreadsheet, folosind diferite chestionări , ca numărarea tuturor obiectelor de un anumit tip, sau însumarea volumului total unei anumite categorii de obiecte.
+-   Noul instrument [Arch Schedule](Arch_Schedule.md): Acest instrument a fost complet rescris , și oferă acum mai multă flexibilitate pentru a aduna date din document într-o spreadsheet, folosind diferite chestionări , ca numărarea tuturor obiectelor de un anumit tip, sau însumarea volumului total unei anumite categorii de obiecte.
 
 
 </div>
@@ -84,7 +84,7 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 -   During the [Google Summer of Code](Google_Summer_of_Code.md) 2017 edition, to which FreeCAD participated, the [Arch Rebar](Arch_Rebar.md) tool was greatly extended and gained a friendly User Interface to easily add several standard types of Reinforcement bars to your concrete structures.
 
-<img alt="" src=images/Arch_Rebar_preview.png  style="width   *640px;">
+<img alt="" src=images/Arch_Rebar_preview.png  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +94,7 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 </div>
 
-<img alt="" src=images/Arch_Door_preview.png  style="width   *640px;">
+<img alt="" src=images/Arch_Door_preview.png  style="width:640px;">
 
 -   [Arch Axis](Arch_Axis.md) tools have also been rewritten, and allow more complex systems by combining different series of axes together. They can also be customized to show different kinds of situations such as levels.
 
@@ -136,12 +136,12 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 ## Atelierul Desen 2D 
 
--   [Autogroup system](Draft_AutoGroup.md)   * Atelierul Draft are acum un buton de grupare automată pe bara principală de instrumente. Când este activată, toate obiectele nou create în Draft și Arch vor fi automat plasate în acel grup.
+-   [Autogroup system](Draft_AutoGroup.md): Atelierul Draft are acum un buton de grupare automată pe bara principală de instrumente. Când este activată, toate obiectele nou create în Draft și Arch vor fi automat plasate în acel grup.
 
 
 <div class="mw-translate-fuzzy">
 
--   [Slope tool](Draft_Slope.md)   * When used on a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md), this tool will allow you to give it a given slope/inclination. That is, the intermediate and end points will get a lower Z value, so the whole object gets a constant inclination. This is useful to use Lines or Wires as bases for objects that needs a precise inclination, such as roof panes or sewer pipes.
+-   [Slope tool](Draft_Slope.md): When used on a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md), this tool will allow you to give it a given slope/inclination. That is, the intermediate and end points will get a lower Z value, so the whole object gets a constant inclination. This is useful to use Lines or Wires as bases for objects that needs a precise inclination, such as roof panes or sewer pipes.
 
 
 </div>
@@ -149,17 +149,17 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 <div class="mw-translate-fuzzy">
 
--   [Working Plane proxies](Draft_SetWorkingPlaneProxy.md)   * When working with [Draft working planes](Draft_SelectPlane.md), you often need to store working plane locations that you use often. This is now possible by placing one of those proxies in your document. It will remember the current working plane location, and can also restore the current view and/or objects visibility.
+-   [Working Plane proxies](Draft_SetWorkingPlaneProxy.md): When working with [Draft working planes](Draft_SelectPlane.md), you often need to store working plane locations that you use often. This is now possible by placing one of those proxies in your document. It will remember the current working plane location, and can also restore the current view and/or objects visibility.
 
 
 </div>
 
-<img alt="" src=images/Draft_WP_preview.png  style="width   *640px;">
+<img alt="" src=images/Draft_WP_preview.png  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
 
--   [Draft Stretch](Draft_Stretch.md)   * The Draft workbench now has a stretch tool, that allows to move vertices of several Draft objects at once.
+-   [Draft Stretch](Draft_Stretch.md): The Draft workbench now has a stretch tool, that allows to move vertices of several Draft objects at once.
 
 
 </div>
@@ -167,12 +167,12 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 <div class="mw-translate-fuzzy">
 
--   [Draft Label](Draft_Label.md)   * With this tool, one can place labels in the document, which as composed of a piece of text and a leader line that can be free or stick to a specific object. The text can be made to display a custom piece of text, or automatically display the contents of a property of the target object.
+-   [Draft Label](Draft_Label.md): With this tool, one can place labels in the document, which as composed of a piece of text and a leader line that can be free or stick to a specific object. The text can be made to display a custom piece of text, or automatically display the contents of a property of the target object.
 
 
 </div>
 
-<img alt="" src=images/Draft_Label_Preview.png  style="width   *640px;">
+<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
 
 ## Atelierul AnalizaElementuluiFinit 
 
@@ -187,11 +187,11 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
     -   **GUI clear mesh tool** clears the mesh but keeps all mesh adjustments. This is very handy if files should be shared.
     -   **GUI print mesh info tool** print all kind of mesh informations.
     -   **GUI mesh view provider** is able to display quad face mesh as well as hexaeder, pentaeder and pyramid mesh elements.
-    -   **Mesh data model** was updated to SMESH to version 7.7.1 <https   *//github.com/FreeCAD/FreeCAD/commit/666a3e5a>
+    -   **Mesh data model** was updated to SMESH to version 7.7.1 <https://github.com/FreeCAD/FreeCAD/commit/666a3e5a>
     -   **Mesh API** was extended to read mesh group data out of the FreeCAD SMESH FEM mesh data by Python. This was the base for the Gmsh group object.
     -   **Mesh API** was extended to export mesh groups to Abaqus and CalculiX inp file format.
     -   **FEM mesh 2 mesh tool** converts a surface of a volume mesh into a mesh for FreeCAD\'s mesh module.
-    -   **Mesh problems   *** Non-positive Jacobians are an often seen problem in FEM meshes. Elements which have non-positive Jacobians in CalculiX solver are colored in FreeCAD.
+    -   **Mesh problems:** Non-positive Jacobians are an often seen problem in FEM meshes. Elements which have non-positive Jacobians in CalculiX solver are colored in FreeCAD.
     -   **Fenics** Import and export of Fenics mesh format has been added.
 
 
@@ -213,9 +213,9 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 -   Solver
     -   **Solver frame work** was written from scratch during a Google Summer of Code project.
-    -   Support for FEM solver software **ElmerFEM**, <https   *//www.csc.fi/web/elmer>, was added.
+    -   Support for FEM solver software **ElmerFEM**, <https://www.csc.fi/web/elmer>, was added.
     -   Inside the solver frame work the analysis type can be chosen by an **equation object** (Elmer solver only, ATM.)
-    -   Basic support for FEM solver software **Z88**, <https   *//en.z88.de/z88os/>, was added.
+    -   Basic support for FEM solver software **Z88**, <https://en.z88.de/z88os/>, was added.
     -   **CalculiX** was ported to the solver frame work. The ccxtools solver object remains in FreeCAD FEM because it is very well tested and has extended pre checks.
 
 -   Calculix analysis
@@ -261,23 +261,23 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 -   Some Pictures
 
-<img alt="" src=images/bridge-all.png  style="width   *640px;"> <img alt="" src=images/bridge-detail.png  style="width   *640px;">
+<img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
 
 ## Atelierul Piese 
 
 -   Kernelul de modelare geometrică Open Cascade a fost actualizat de la 6.8.0 la 7.2.0 (actuala versiune OCC poate depinde de platformă / distro). Această versiune aduce o mulțime de corecții de eroare în operațiile booleene, algoritmul de eliminare a liniei ascunse, precum și permiterea adăugării de noi caracteristici la atelierul Piese.
 
--   New features   * [Boolean Fragments](Part_BooleanFragments.md), [Slice](Part_Slice.md) and [XOR](Part_XOR.md).
+-   New features: [Boolean Fragments](Part_BooleanFragments.md), [Slice](Part_Slice.md) and [XOR](Part_XOR.md).
 
 -   Thanks to the new features above, composite solids (compsolids) can now be created in FreeCAD. They are of great use in FEM.
 
 -   [Connect](Part_JoinConnect.md) performance and reliability were improved, and the tool was made more versatile.
 
--   New feature   * [2D Offset](Part_Offset2D.md), to offset planar wires.
+-   New feature: [2D Offset](Part_Offset2D.md), to offset planar wires.
 
--   Enhancement   * [Part Extrude](Part_Extrude.md) tool now supports parametric Normal direction, direction controlled by linked edge, reversing, 2nd length, 2nd taper angle, and symmetric. Also, Make Solid checkbox is now checked automatically if you open dialog and the selected object is a closed wire (e.g., a sketch).
+-   Enhancement: [Part Extrude](Part_Extrude.md) tool now supports parametric Normal direction, direction controlled by linked edge, reversing, 2nd length, 2nd taper angle, and symmetric. Also, Make Solid checkbox is now checked automatically if you open dialog and the selected object is a closed wire (e.g., a sketch).
 
--   Enhancement   * [Part Revolve](Part_Revolve.md) tool now supports parametric link to revolution axis.
+-   Enhancement: [Part Revolve](Part_Revolve.md) tool now supports parametric link to revolution axis.
 
 
 <div class="mw-translate-fuzzy">
@@ -291,7 +291,7 @@ Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și
 
 ## Atelierul PartDesign 
 
-Atelierul PartDesign a suferit schimbări masive, fructul eforturilor combinare a mai multor dezvoltatori de-a lungul unei perioade de peste 5 ani. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width   *800px;">
+Atelierul PartDesign a suferit schimbări masive, fructul eforturilor combinare a mai multor dezvoltatori de-a lungul unei perioade de peste 5 ani. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -301,7 +301,7 @@ Atelierul PartDesign a suferit schimbări masive, fructul eforturilor combinare 
 
 </div>
 
--   New additive and subtractive features   * [Primitives](PartDesign_CompPrimitiveAdditive.md), [Loft](PartDesign_AdditiveLoft.md), [Sweep](PartDesign_AdditivePipe.md), [Thickness](PartDesign_Thickness.md).
+-   New additive and subtractive features: [Primitives](PartDesign_CompPrimitiveAdditive.md), [Loft](PartDesign_AdditiveLoft.md), [Sweep](PartDesign_AdditivePipe.md), [Thickness](PartDesign_Thickness.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -349,9 +349,9 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 
 -   External geometry links are no longer limited to only the object the sketch is mapped to. Geometry from other sketches is supported. External geometry links can be created within a Part container, or a Body container, or even a whole project if Part and Body containers are not used.
 
--   Visibility automation   * now, when you start editing a sketch, objects depending on it are automatically hidden to unclutter the view, and objects used for external geometry links are automatically shown; old visibilities are restored as you close the sketch.
+-   Visibility automation: now, when you start editing a sketch, objects depending on it are automatically hidden to unclutter the view, and objects used for external geometry links are automatically shown; old visibilities are restored as you close the sketch.
 
--   New constraint continuous creation mode   * constraint tools are now active even without any element selected. Press a constraint, then select objects to apply the constraint to.
+-   New constraint continuous creation mode: constraint tools are now active even without any element selected. Press a constraint, then select objects to apply the constraint to.
 
 -   New arc of hyperbola and arc of parabola creation tools.
 
@@ -400,7 +400,7 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 
 <div class="mw-translate-fuzzy">
 
-[TechDraw](TechDraw_Workbench.md) este un nou atelier de lucru pentru crearea unor desene tehnice și care are ca scop înlocuirea bătrânului atelier Drawing. FreeCAD v0.17 este încă livrat împreună cu atelierul de lucru Drawing, astfel încât să puteți deschide și să editați fișierele care conțin pagini de Drawing, dar Drawing va fi eliminat treptat într-o versiune ulterioară. Unele dintre lucrurile noi interesante pe care TechDraw le aduce sunt   *
+[TechDraw](TechDraw_Workbench.md) este un nou atelier de lucru pentru crearea unor desene tehnice și care are ca scop înlocuirea bătrânului atelier Drawing. FreeCAD v0.17 este încă livrat împreună cu atelierul de lucru Drawing, astfel încât să puteți deschide și să editați fișierele care conțin pagini de Drawing, dar Drawing va fi eliminat treptat într-o versiune ulterioară. Unele dintre lucrurile noi interesante pe care TechDraw le aduce sunt:
 
 
 </div>
@@ -410,8 +410,8 @@ Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat elimina
 -   Better line type management (hard, smooth, iso, seam). Better hidden line removal thanks to an updated [OCC](Glossary#OCC.md) library.
 -   Section view, detail view creation.
 -   Better template management.
--   Dimensioning is now supported, through multiple dimensioning tools   * horizontal, vertical, length, radial, diameter, angular.
--   Decoration tools   * hatching, hatching compatible to Autodesk PAT specification, symbols, images.
+-   Dimensioning is now supported, through multiple dimensioning tools: horizontal, vertical, length, radial, diameter, angular.
+-   Decoration tools: hatching, hatching compatible to Autodesk PAT specification, symbols, images.
 
 ## Module Adiționale 
 
@@ -422,26 +422,24 @@ Câteva dintre noile module pe care comunitatea le-a creat.
 
 <div class="mw-translate-fuzzy">
 
--   [Curves](https   *//github.com/tomate44/CurvesWB), a collection of tools to create and edit NURBS curves and surfaces.
+-   [Curves](https://github.com/tomate44/CurvesWB), a collection of tools to create and edit NURBS curves and surfaces.
 
 
 </div>
 
--   [Nurbs](https   *//github.com/microelly2/freecad-nurbs), a collection of scripts for managing freeform surfaces and curves.
+-   [Nurbs](https://github.com/microelly2/freecad-nurbs), a collection of scripts for managing freeform surfaces and curves.
 
--   [Silk](https   *//github.com/edwardvmills/Silk), a collection of NURBS surface modeling tools focused on low degree and seam continuity.
+-   [Silk](https://github.com/edwardvmills/Silk), a collection of NURBS surface modeling tools focused on low degree and seam continuity.
 
 -   [Flamingo Workbench](Flamingo_Workbench.md), a set of customized FreeCAD commands and objects that help to speed-up the drawing of frames and pipelines.
 
 -   [Civil Engineering/Transportation Workbench](Civil_Engineering_Workbench.md)
 
--   [GDT](https   *//github.com/juanvanyo/FreeCAD-GDT), geometric dimensioning and tolerancing (GD&T).
+-   [GDT](https://github.com/juanvanyo/FreeCAD-GDT), geometric dimensioning and tolerancing (GD&T).
 
--   [InventorLoader](https   *//github.com/jmplonka/InventorLoader) to import Autodesk Inventor files (in progress).
+-   [InventorLoader](https://github.com/jmplonka/InventorLoader) to import Autodesk Inventor files (in progress).
 
--   [Kicad StepUp Workbench](https   *//www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
+-   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
 
 

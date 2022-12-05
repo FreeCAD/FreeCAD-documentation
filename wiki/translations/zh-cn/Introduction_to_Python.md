@@ -3,7 +3,7 @@
 
 ## 概述
 
-这是适合[Python](http   *//en.wikipedia.org/wiki/Python_%28programming_language%29)新手的一篇简短指南。Python是一个开源、多平台的 [编程语言](http   *//en.wikipedia.org/wiki/Programming_language)。Python有几种不同于其他常见语言的特性，使之与众不同，而且还易于对此毫无经验的人使用：
+这是适合[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)新手的一篇简短指南。Python是一个开源、多平台的 [编程语言](http://en.wikipedia.org/wiki/Programming_language)。Python有几种不同于其他常见语言的特性，使之与众不同，而且还易于对此毫无经验的人使用：
 
 -   它被设计为一种易于常人阅读的语言，使之相对容易阅读和理解。
 -   它是一种解释型语言，这意味着不必在运行前进行编译。Python代码可以被立即运行，甚至可以逐行运行。
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-在整个处理流程中，Python解释器的内部工作原理对用户而言都是透明的。所谓的解释器是一种附有命令提示符的Python窗口，在此，您可以方便地输入Python代码。如果您在自己的计算机上安装了Python(如果系统为Windows或Mac，从[Python website](http   *//www.python.org)下载；如果系统是GNU/Linux，则借助软件包资料库（package repository）进行安装), 您可从开始菜单中开启Python解释器。但是，FreeCAD中的下方窗口中也集成了Python解释器：
+在整个处理流程中，Python解释器的内部工作原理对用户而言都是透明的。所谓的解释器是一种附有命令提示符的Python窗口，在此，您可以方便地输入Python代码。如果您在自己的计算机上安装了Python(如果系统为Windows或Mac，从[Python website](http://www.python.org)下载；如果系统是GNU/Linux，则借助软件包资料库（package repository）进行安装), 您可从开始菜单中开启Python解释器。但是，FreeCAD中的下方窗口中也集成了Python解释器：
 
 
 </div>
@@ -404,7 +404,7 @@ myFriendsName = myOtherList[1]
 
 <div class="mw-translate-fuzzy">
 
-可以看到，len()命令返回的是列表中元素的总数，且它们在列表中的"位置"是以0开始计算的。列表中第一项的位置总为0，因此，在myOtherList列表中，\"Bob\"位居第2。我们可以对列表进行更多的操作，例如对元素进行排序、增减其中的元素，这可以参考[这里（已废？）](http   *//www.diveintopython.net/native_data_types/lists.html)。
+可以看到，len()命令返回的是列表中元素的总数，且它们在列表中的"位置"是以0开始计算的。列表中第一项的位置总为0，因此，在myOtherList列表中，\"Bob\"位居第2。我们可以对列表进行更多的操作，例如对元素进行排序、增减其中的元素，这可以参考[这里（已废？）](http://www.diveintopython.net/native_data_types/lists.html)。
 
 
 </div>
@@ -435,7 +435,7 @@ myvar[2]
 
 <div class="mw-translate-fuzzy">
 
-除了字符串、整数、浮点数与列表之外，Python中还有更多其他的内建数据类型，例如[dictionaries](http   *//www.diveintopython.net/native_data_types/index.html#d0e5174)，或者，您甚至可以通过[类](http   *//www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm)创建自己的数据类型。
+除了字符串、整数、浮点数与列表之外，Python中还有更多其他的内建数据类型，例如[dictionaries](http://www.diveintopython.net/native_data_types/index.html#d0e5174)，或者，您甚至可以通过[类](http://www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm)创建自己的数据类型。
 
 
 </div>
@@ -456,14 +456,14 @@ myvar[2]
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for dalton in alldaltons   *
+for dalton in alldaltons:
     print(dalton + " Dalton")
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-我们利用\"for \... in \...\"命令迭代（iterate，编程术语）列表中的每一项，并针对每项执行特定操作。注意到这特殊的语法：**for**命令以**   ***作为结尾，表示下面为单个或多个命令所构成的执行块。 在解释器中，在输入以   *结尾的命令行后，命令提示符将变为\...这意味着Python知道(   *)行后必有更多的输入内容。
+我们利用\"for \... in \...\"命令迭代（iterate，编程术语）列表中的每一项，并针对每项执行特定操作。注意到这特殊的语法：**for**命令以**:**作为结尾，表示下面为单个或多个命令所构成的执行块。 在解释器中，在输入以:结尾的命令行后，命令提示符将变为\...这意味着Python知道(:)行后必有更多的输入内容。
 
 
 </div>
@@ -497,7 +497,7 @@ for-in命令可用于将某些操作执行多次的情况。例如，它可以�
 serie = range(1, 11)
 total = 0
 print("sum")
-for number in serie   *
+for number in serie:
     print(number)
     total = total + number
 print("")
@@ -532,12 +532,12 @@ range(...)
     range(start, stop[, step]) -> list of integers
 ```
 
-Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`   *
+Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`:
 
 
 ```python
 number = 1000
-for i in range(0, 180 * number, int(0.5 * number))   *
+for i in range(0, 180 * number, int(0.5 * number)):
     print(float(i) / number)
 ```
 
@@ -552,7 +552,7 @@ for i in range(0, 180 * number, int(0.5 * number))   *
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-for n in range(4)   *
+for n in range(4):
     print(alldaltons[n], " is Dalton number ", n)
 ```
 
@@ -568,7 +568,7 @@ for n in range(4)   *
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
 total = len(alldaltons)
-for n in range(total)   *
+for n in range(total):
     print(alldaltons[n])
 ```
 
@@ -583,7 +583,7 @@ for n in range(total)   *
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Joe" in alldaltons   *
+if "Joe" in alldaltons:
     print("We found that Dalton!!!")
 ```
 
@@ -597,13 +597,13 @@ if "Joe" in alldaltons   *
 
 
 ```python
-if "Lucky" in alldaltons   *
+if "Lucky" in alldaltons:
 ```
 
 
 <div class="mw-translate-fuzzy">
 
-这样就不会打印任何内容了。我们也可以使用一个else   *语句（字符串有问题？(Dalton-\>Lucky?)）：
+这样就不会打印任何内容了。我们也可以使用一个else:语句（字符串有问题？(Dalton-\>Lucky?)）：
 
 
 </div>
@@ -611,9 +611,9 @@ if "Lucky" in alldaltons   *
 
 ```python
 alldaltons = ["Joe", "William", "Jack", "Averell"]
-if "Lucky" in alldaltons   *
+if "Lucky" in alldaltons:
     print("We found that Dalton!!!")
-else   *
+else:
     print("Such Dalton doesn't exist!")
 ```
 
@@ -625,14 +625,14 @@ else   *
 
 <div class="mw-translate-fuzzy">
 
-这里列出了 [Python的标准命令](http   *//docs.python.org/reference/lexical_analysis.html#identifiers)。在Python的最新版本中，大约存在30条命令，我们刚刚尝试了其中的一部分。但是，您是否曾想过"发明"自己的命令？答案是：是的，我们可以，而且还相当简单。事实上，向Python添加其他的模块做的就是这件事：这些模块向Python增添了可供您使用的命令。自定义命令在Python中被称为函数，实现方法如下：
+这里列出了 [Python的标准命令](http://docs.python.org/reference/lexical_analysis.html#identifiers)。在Python的最新版本中，大约存在30条命令，我们刚刚尝试了其中的一部分。但是，您是否曾想过"发明"自己的命令？答案是：是的，我们可以，而且还相当简单。事实上，向Python添加其他的模块做的就是这件事：这些模块向Python增添了可供您使用的命令。自定义命令在Python中被称为函数，实现方法如下：
 
 
 </div>
 
 
 ```python
-def printsqm(myValue)   *
+def printsqm(myValue):
     print(str(myValue) + " square meters")
 
 printsqm(45)
@@ -669,7 +669,7 @@ printsqm(45, 34)
 
 
 ```python
-def sum(val1, val2)   *
+def sum(val1, val2):
     total = val1 + val2
     return total
 
@@ -715,7 +715,7 @@ myTotal = sum(45, 34)
 
 
 ```python
-def sum(a,b)   *
+def sum(a,b):
     return a + b
 
 print("myTest.py succesfully loaded")
@@ -870,7 +870,7 @@ importlib.reload(myTest)
 
 
 ```python
-exec(open("C   */PathToMyMacro/myMacro.FCMacro").read())
+exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
 
@@ -897,18 +897,10 @@ dir()
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
--   Much more information about Python can be found in the [official Python tutorial](https   *//docs.python.org/3/tutorial/index.html) and the [official Python reference](https   *//docs.python.org/3/reference/).
+-   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
 
 {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

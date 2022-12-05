@@ -1,6 +1,6 @@
 # Mesh Union/de
 ---
-- GuiCommand   */de   Name   *Mesh Union‏‎   MenuLocation   *Netze → Boolsche Verknüpfung → Vereinigung   Workbenches   *[Shortcut   *   SeeAlso   *[[Mesh_Merge|Merge](Mesh_Workbench/de___Netz]].md)---
+- GuiCommand:/de   Name:Mesh Union‏‎   MenuLocation:Netze → Boolsche Verknüpfung → Vereinigung   Workbenches:[Shortcut:   SeeAlso:[[Mesh_Merge|Merge](Mesh_Workbench/de___Netz]].md)---
 
 
 </div>
@@ -30,7 +30,7 @@ Der Befehl erzeugt ein neues separates Netz mit allen Außenflächen aller selek
 
 <div class="mw-translate-fuzzy">
 
-Beispiel   * Würfel verschmolzen mit einer Kugel
+Beispiel: Würfel verschmolzen mit einer Kugel
 
 
 </div>
@@ -50,7 +50,7 @@ Beispiel   * Würfel verschmolzen mit einer Kugel
 
 ## Properties
 
-See   * [Mesh Feature](Mesh_Feature.md).
+See: [Mesh Feature](Mesh_Feature.md).
 
 
 <div class="mw-translate-fuzzy">

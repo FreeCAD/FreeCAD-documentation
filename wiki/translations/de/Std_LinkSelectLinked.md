@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std LinkSelectLinked
-   Name/de   *Std ZumVerknüpftenObjektGehen
-   MenuLocation   *''None''
-   Workbenches   *All
-   Version   *0.19
-   SeeAlso   *[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/de.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/de.md), [Std SelBack](Std_SelBack/de.md), [Std SelForward](Std_SelForward/de.md)
+- GuiCommand:/de
+   Name:Std LinkSelectLinked
+   Name/de:Std ZumVerknüpftenObjektGehen
+   MenuLocation:''None''
+   Workbenches:All
+   Version:0.19
+   SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/de.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/de.md), [Std SelBack](Std_SelBack/de.md), [Std SelForward](Std_SelForward/de.md)
 ---
 
 # Std LinkSelectLinked/de

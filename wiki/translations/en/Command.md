@@ -6,7 +6,7 @@
 
 A [command](Command.md) is what is being executed when you press a toolbar button or type a keyboard shortcut. It can be a very simple action, like changing the zoom level of the [3D view](3D_view.md) or rotating the point of view, or a complex system that will open dialog boxes and wait for the user to perform specific tasks.
 
-Each FreeCAD command has a unique name, that appears in the [   *Category   *Command Reference](   *Category_Command_Reference.md) page. Commands can be launched by a toolbar button, a menu item, or from a [python](Python.md) script or the [Python console](Python_console.md), by running   *
+Each FreeCAD command has a unique name, that appears in the [:Category:Command Reference](:Category_Command_Reference.md) page. Commands can be launched by a toolbar button, a menu item, or from a [python](Python.md) script or the [Python console](Python_console.md), by running:
 
 
 ```python
@@ -29,8 +29,8 @@ Example of a C++ command definition, usually defined following the structure **M
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
 
-StdCmdMyCommand   *   *StdCmdMyCommand()
-     * Command("Std_My_Command")
+StdCmdMyCommand::StdCmdMyCommand()
+  : Command("Std_My_Command")
 {
     sGroup        = QT_TR_NOOP("File");
     sMenuText     = QT_TR_NOOP("My Command");
@@ -41,18 +41,18 @@ StdCmdMyCommand   *   *StdCmdMyCommand()
     sAccel        = "Ctrl+A";
 }
 
-void StdCmdExport   *   *activated(int iMsg)
+void StdCmdExport::activated(int iMsg)
 {
     // place here the code to be executed when the command is ran
 }
 
-bool StdCmdMyCommand   *   *isActive(void)
+bool StdCmdMyCommand::isActive(void)
 {
     // here you have a chance to return true or false depending if your command must be shown as active or inactive (greyed).
 }
 
 // the command must be "registered" in FreeCAD's command system
-CommandManager &rcCmdMgr = Application   *   *Instance->commandManager();
+CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
@@ -63,25 +63,25 @@ Example of a Python command definition, it can be placed in a directory like **M
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 
-class MyCommand   *
+class MyCommand:
     """Explanation of the command."""
 
-    def __init__(self)   *
+    def __init__(self):
         """Initialize variables for the command that must exist at all times."""
         pass
 
-    def GetResources(self)   *
+    def GetResources(self):
         """Return a dictionary with data that will be used by the button or menu item."""
-        return {'Pixmap'   * 'MyCommand.svg',
-                'Accel'   * "Ctrl+A",
-                'MenuText'   * QT_TRANSLATE_NOOP("My_Command", "My Command"),
-                'ToolTip'   * QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
+        return {'Pixmap': 'MyCommand.svg',
+                'Accel': "Ctrl+A",
+                'MenuText': QT_TRANSLATE_NOOP("My_Command", "My Command"),
+                'ToolTip': QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
 
-    def Activated(self)   *
+    def Activated(self):
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def IsActive(self)   *
+    def IsActive(self):
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 
@@ -92,11 +92,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 ## Examples
 
 See [Line drawing function](Line_drawing_function.md).
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

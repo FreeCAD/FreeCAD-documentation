@@ -1,8 +1,6 @@
 # Category:Mesh/de
 This category lists pages related to the [Mesh_Workbench/de](Mesh_Workbench/de.md).
 
-[Category   *Workbenches/de](Category   *Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

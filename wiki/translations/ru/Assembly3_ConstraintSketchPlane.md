@@ -1,8 +1,8 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Assembly3 ConstraintSketchPlane
-   Icon   *Assembly_ConstraintSketchPlane.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/ru.md)
+- GuiCommand:/ru
+   Name/ru:Assembly3 ConstraintSketchPlane
+   Icon:Assembly_ConstraintSketchPlane.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/ru.md)
 ---
 
 # Assembly3 ConstraintSketchPlane/ru
@@ -21,9 +21,9 @@
 **
 3.  Нажмите кнопку **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Sketch plane](Assembly3_ConstraintSketchPlane/ru.md)
 **
-4.  Переключитесь на <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Верстак Draft](Draft_Workbench/ru.md) для добавления контента
+4.  Переключитесь на <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Верстак Draft](Draft_Workbench/ru.md) для добавления контента
 
-   *   При существующей непустой сборке шаги 1 и 2 можно пропустить и любой элемент плоской грани можно использовать в качестве рабочей плоскости для плоскости эскиза.
+:   При существующей непустой сборке шаги 1 и 2 можно пропустить и любой элемент плоской грани можно использовать в качестве рабочей плоскости для плоскости эскиза.
 
 
 

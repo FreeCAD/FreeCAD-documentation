@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Arch_PipeConnector
-   Name   *Arch_PipeConnector
-   MenuLocation   *Arch → Pipe Tools → Pipe Connector
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***P** **C**
-   Version   *0.17
-   SeeAlso   *[Arch Pipe](Arch_Pipe/ru.md), [Оборудование](Arch_Equipment/ru.md)
+- GuiCommand:/ru
+   Name/ru:Arch_PipeConnector
+   Name:Arch_PipeConnector
+   MenuLocation:Arch → Pipe Tools → Pipe Connector
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**P** **C**
+   Version:0.17
+   SeeAlso:[Arch Pipe](Arch_Pipe/ru.md), [Оборудование](Arch_Equipment/ru.md)
 ---
 
 # Arch PipeConnector/ru
@@ -39,7 +39,7 @@
 
 ## Свойства
 
--    **Radius**   * Радиус кривизны этого соединителя
+-    **Radius**: Радиус кривизны этого соединителя
 
 ## Типичный рабочий процесс 
 
@@ -54,14 +54,14 @@
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Инструмент «Коннектор труб» может использоваться в [макросах](Macros/ru.md) и на консоли python с помощью следующей функции   *
+Инструмент «Коннектор труб» может использоваться в [макросах](Macros/ru.md) и на консоли python с помощью следующей функции:
 
 
 </div>
@@ -74,7 +74,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Пример   * 
+Пример: 
 ```python
 import FreeCAD, Draft, Arch
 

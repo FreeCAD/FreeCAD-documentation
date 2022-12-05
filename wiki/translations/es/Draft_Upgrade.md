@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Draft Upgrade
-   Name/es   *Borrador Elevar
-   MenuLocation   *Modificación → Elevar
-   Workbenches   *[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***U** **P**
-   SeeAlso   *[Borrador Rebajar](Draft_Downgrade/es.md)
+- GuiCommand:/es
+   Name:Draft Upgrade
+   Name/es:Borrador Elevar
+   MenuLocation:Modificación → Elevar
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**U** **P**
+   SeeAlso:[Borrador Rebajar](Draft_Downgrade/es.md)
 ---
 
 # Draft Upgrade/es
@@ -15,22 +15,22 @@
 
 <div class="mw-translate-fuzzy">
 
-El <img alt="" src=images/Draft_Upgrade.svg  style="width   *24px;"> comando **Borrador Elevar** eleva objetos 2D seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, fusionar elementos y crear caras. Vale la pena intentar elevar una selección varias veces para ver si se puede obtener un mejor resultado. Vea el ejemplo de la imagen. Tenga en cuenta que no todos los objetos pueden ser elevados. Este comando es la contraparte del comando [Borrador Rebajar](Draft_Downgrade/es.md).
+El <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> comando **Borrador Elevar** eleva objetos 2D seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, fusionar elementos y crear caras. Vale la pena intentar elevar una selección varias veces para ver si se puede obtener un mejor resultado. Vea el ejemplo de la imagen. Tenga en cuenta que no todos los objetos pueden ser elevados. Este comando es la contraparte del comando [Borrador Rebajar](Draft_Downgrade/es.md).
 
 
 </div>
 
-<img alt="" src=images/Draft_Upgrade_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Un hilo abierto no editable se elevar en un hilo cerrado y luego en una cara. Un hilo cuadrado cerrado no editable también se elevar en una cara. Las dos caras se actualizan para crear un compuesto, que finalmente se elevado a un único borrador de hilo editable.*
 
 ## Utilización
 
 1.  Opcionalmente selecciona uno o más objetos.
-2.  Hay varias vías para invocar el comando   *
+2.  Hay varias vías para invocar el comando:
     -   Pulsar el **<img src="images/Draft_Upgrade.svg" width=16px> [Borrador Elevar](Draft_Upgrade/es.md)**.
     -   Seleccione la opción **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Elevar** en el menú.
-    -   Utilice el atajo de teclado   * **U** y luego **P**.
-3.  Si aún no ha seleccionado un objeto   * seleccione un objeto en la [Vista 3D](3D_view/es.md).
+    -   Utilice el atajo de teclado: **U** y luego **P**.
+3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 
 ## Notas
 
@@ -38,7 +38,7 @@ El <img alt="" src=images/Draft_Upgrade.svg  style="width   *24px;"> comando **B
 
 ## Guión
 
-Ver también   * [Documentación de la API autogenerada](https   *//freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para elevar objetos utilice el método `upgrade` del módulo Borrador.
 
@@ -51,11 +51,11 @@ upgrade_list = upgrade(objects, delete=False, force=None)
 
 -   Si `delete` es `True` se borran los objetos de origen.
 
--    `force`fuerza una determinada forma de elevación llamando a una función interna específica. Puede ser   * `"makeCompound"`, `"closeGroupWires"`, `"makeSolid"`, `"closeWire"`, `"turnToParts"`, `"makeFusion"`, `"makeShell"`, `"makeFaces"`, `"draftify"`, `"joinFaces"`, `"makeSketchFace"`, `"makeWires"` o `"turnToLine"`.
+-    `force`fuerza una determinada forma de elevación llamando a una función interna específica. Puede ser: `"makeCompound"`, `"closeGroupWires"`, `"makeSolid"`, `"closeWire"`, `"turnToParts"`, `"makeFusion"`, `"makeShell"`, `"makeFaces"`, `"draftify"`, `"joinFaces"`, `"makeSketchFace"`, `"makeWires"` o `"turnToLine"`.
 
--   Se devuelve `upgrade_list`. Es una lista que contiene dos listas   * una lista de objetos nuevos y una lista de objetos a eliminar. Si `delete` es `True` la segunda lista está vacía.
+-   Se devuelve `upgrade_list`. Es una lista que contiene dos listas: una lista de objetos nuevos y una lista de objetos a eliminar. Si `delete` es `True` la segunda lista está vacía.
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python

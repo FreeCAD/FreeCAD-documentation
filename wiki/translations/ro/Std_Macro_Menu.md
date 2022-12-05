@@ -1,11 +1,11 @@
-# <img alt="Std Base icon" src=images/Freecad.svg  style="width   *64px;"> Std Macro Menu/ro
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/ro
 
 
 {{TOCright}}
 
 ## Introduction
 
-The **Std Macro Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md)   *
+The **Std Macro Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
 
 
 {{StdMenu
@@ -36,7 +36,7 @@ The **Std Macro Menu** is one of the 7 sub-menus in the [standard menu](Standard
 
 ## Tools
 
-The following tools are available in this menu   *
+The following tools are available in this menu:
 
 
 <div class="mw-translate-fuzzy">
@@ -62,7 +62,7 @@ The following tools are available in this menu   *
 
 </div>
 
--   Recent macros   * shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md). <small>(v0.19)</small> 
+-   Recent macros: shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md). <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +72,7 @@ The following tools are available in this menu   *
 
 </div>
 
--   [Attach to remote debugger\...](Std_MacroAttachDebugger.md)   * Attaches FreeCAD to a remote debugger.
+-   [Attach to remote debugger\...](Std_MacroAttachDebugger.md): Attaches FreeCAD to a remote debugger.
 
 
 <div class="mw-translate-fuzzy">
@@ -120,9 +120,7 @@ The following tools are available in this menu   *
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

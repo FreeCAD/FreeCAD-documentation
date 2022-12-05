@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Справа
-   Name   *Std_ViewRight
-   MenuLocation   *Вид → Стандартные виды‏‎ → Справа
-   Workbenches   *Все
-   Shortcut   ***3**
-   SeeAlso   *[Спереди](Std_ViewFront/ru.md), [Сверху](Std_ViewTop/ru.md)
+- GuiCommand:/ru
+   Name/ru:Справа
+   Name:Std_ViewRight
+   MenuLocation:Вид → Стандартные виды‏‎ → Справа
+   Workbenches:Все
+   Shortcut:**3**
+   SeeAlso:[Спереди](Std_ViewFront/ru.md), [Сверху](Std_ViewTop/ru.md)
 ---
 
 # Std ViewRight/ru
@@ -19,16 +19,16 @@ The **Std ViewRight** command points the camera in the active [3D view](3D_view.
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_ViewRight.svg" width=16px> [Std ViewRight](Std_ViewRight.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewRight.svg" width=16px> Right** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewRight.svg" width=16px> Right** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **3**.
+    -   Use the keyboard shortcut: **3**.
 
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

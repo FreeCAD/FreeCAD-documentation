@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std SelBack
-   MenuLocation   *
-   Workbenches   *All
-   Version   *0.19
-   SeeAlso   *[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
+- GuiCommand:
+   Name:Std SelBack
+   MenuLocation:
+   Workbenches:All
+   Version:0.19
+   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
 ---
 
 # Std SelBack/en

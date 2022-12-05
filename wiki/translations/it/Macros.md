@@ -7,7 +7,7 @@ Le macro sono un modo pratico per riprodurre delle azioni complesse in FreeCAd. 
 
 Sebbene gli script Python abbiano normalmente l\'estensione `.py`, le macro di FreeCAD dovrebbero avere l\'estensione `.FCMacro`. Una raccolta di macro scritte da utenti esperti si trova nella pagina [raccolta di macro](macros_recipes/it.md).
 
-Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più sul linguaggio di programmazione [Python](Python/it.md) e sulla scrittura di macro. In particolare, si dovrebbe iniziare con queste pagine   *
+Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più sul linguaggio di programmazione [Python](Python/it.md) e sulla scrittura di macro. In particolare, si dovrebbe iniziare con queste pagine:
 
 -   [Introduzione a Python](Introduction_to_Python/it.md)
 -   [Guida agli Script Python](Python_scripting_tutorial/it.md)
@@ -15,9 +15,9 @@ Vedere l\'[Hub degli utenti esperti](Power_users_hub/it.md) per saperne di più 
 
 ## Come funzionano 
 
-Abilitare l\'output della console nel menu **Modifica → Preferenze → Generale → Macro → Mostra lo script dei comandi nella console Python**. Si noterà che in FreeCAD, ogni azione eseguita, come premere un pulsante, genera un comando Python. Questi comandi possono essere registrati in una macro. Lo strumento principale per creare macro è la barra degli strumenti delle macro   * ![](images/Macros_toolbar.jpg ). Su di esso ci sono 4 pulsanti   * Registra una macro, interrompi la registrazione, modifica e riproduci la macro corrente.
+Abilitare l\'output della console nel menu **Modifica → Preferenze → Generale → Macro → Mostra lo script dei comandi nella console Python**. Si noterà che in FreeCAD, ogni azione eseguita, come premere un pulsante, genera un comando Python. Questi comandi possono essere registrati in una macro. Lo strumento principale per creare macro è la barra degli strumenti delle macro: ![](images/Macros_toolbar.jpg ). Su di esso ci sono 4 pulsanti: Registra una macro, interrompi la registrazione, modifica e riproduci la macro corrente.
 
-È molto semplice da usare   * premere il pulsante di registrazione, dare un nome alla macro, quindi eseguire alcune azioni. Al termine, fare clic sul pulsante Interrompi registrazione, e le azioni compiute vengono salvate. Ora è possibile accedere alla finestra di dialogo delle macro utilizzando il pulsante Modifica,
+È molto semplice da usare: premere il pulsante di registrazione, dare un nome alla macro, quindi eseguire alcune azioni. Al termine, fare clic sul pulsante Interrompi registrazione, e le azioni compiute vengono salvate. Ora è possibile accedere alla finestra di dialogo delle macro utilizzando il pulsante Modifica,
 
 ![](images/Macros_it.png ) 
 *Finestra di dialogo Macro, che elenca le macro disponibili nel sistema*
@@ -46,7 +46,7 @@ Vedere [Come installare le macro](How_to_install_macros/it.md) per una descrizio
 
 ## Repositorio di macro 
 
-Ci sono due posti principali per le macro. Il primo è il repository di macro ufficiale sottoposto a revisione paritaria su [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). La seconda è la pagina [Raccolta di macro](Macros_recipes/it.md) da cui puoi scegliere alcune utili macro da aggiungere alla tua installazione di FreeCAD. Le macro di entrambi i repository possono essere installate tramite [Addon Manager](Std_AddonMgr/it.md) direttamente da FreeCAD.
+Ci sono due posti principali per le macro. Il primo è il repository di macro ufficiale sottoposto a revisione paritaria su [GitHub](https://github.com/FreeCAD/FreeCAD-macros). La seconda è la pagina [Raccolta di macro](Macros_recipes/it.md) da cui puoi scegliere alcune utili macro da aggiungere alla tua installazione di FreeCAD. Le macro di entrambi i repository possono essere installate tramite [Addon Manager](Std_AddonMgr/it.md) direttamente da FreeCAD.
 
 ## Informazioni aggiuntive 
 
@@ -59,14 +59,6 @@ Ci sono due posti principali per le macro. Il primo è il repository di macro uf
 
 -   [Come installare le macro](How_to_install_macros/it.md)
 -   [Come installare Ambienti di lavoro aggiuntivi](How_to_install_additional_workbenches/it.md)
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

@@ -1,8 +1,6 @@
 # Category:Workbenches/zh-hant
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/zh-hant](Category   *User_Documentation/zh-hant.md)
-
 ### Contents
 
 |     |     |     |

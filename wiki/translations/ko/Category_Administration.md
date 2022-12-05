@@ -1,8 +1,6 @@
 # Category:Administration/ko
 This category contains articles and categories about wiki administrative subjects.
 
-[Category   *Categories/ko](Category   *Categories/ko.md)
-
 ### Contents
 
 |     |     |     |

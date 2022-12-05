@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ConstraintDisplacement
-   Name/fr   *FEM Contrainte de déplacement
-   MenuLocation   *Modèle → Contraintes mécaniques → Contrainte de déplacement
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   Shortcut   *
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM ConstraintDisplacement
+   Name/fr:FEM Contrainte de déplacement
+   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de déplacement
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintDisplacement/fr
@@ -16,7 +16,7 @@ Crée une contrainte FEM pour un déplacement imposé d\'un objet sélectionné 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Contrainte de déplacement** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée, qui peut être un sommet (coin), une arête ou une face.
@@ -25,8 +25,8 @@ Crée une contrainte FEM pour un déplacement imposé d\'un objet sélectionné 
 ## Remarques
 
 -   La contrainte utilise la carte \*BOUNDARY dans CalculiX.
--   Fixer un degré de liberté est expliqué à l\'adresse <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>.
--   Imposer un déplacement pour un degré de liberté est expliqué à l\'adresse <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>.
+-   Fixer un degré de liberté est expliqué à l\'adresse <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>.
+-   Imposer un déplacement pour un degré de liberté est expliqué à l\'adresse <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>.
 
 
 

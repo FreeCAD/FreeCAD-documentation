@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std TreeSelection
-   MenuLocation   *View → TreeView actions → Go to selection
-   Workbenches   *All
-   Shortcut   ***T** **G**
-   Version   *0.19
+- GuiCommand:
+   Name:Std TreeSelection
+   MenuLocation:View → TreeView actions → Go to selection
+   Workbenches:All
+   Shortcut:**T** **G**
+   Version:0.19
 ---
 
 # Std TreeSelection
@@ -18,11 +18,11 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 ## Usage
 
 1.  Select one or more objects in a 3D view.
-2.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **<img src="images/Std_TreeSelection.svg" width=16px> Go to selection** option from the flyout. Note   * the button image will change depending on the selected option.
+2.  There are several ways to invoke the command:
+    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **<img src="images/Std_TreeSelection.svg" width=16px> Go to selection** option from the flyout. Note: the button image will change depending on the selected option.
     -   Select the **View → TreeView actions → <img src="images/Std_TreeSelection.svg" width=16px> Go to selection** option from the menu.
     -   Select the **<img src="images/Std_TreeSelection.svg" width=16px> Go to selection** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **T** then **G**.
+    -   Use the keyboard shortcut: **T** then **G**.
 
 
 

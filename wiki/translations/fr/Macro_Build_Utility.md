@@ -6,7 +6,7 @@
 |Version=1.0
 |Date=2015-01-21
 |FCVersion=Toutes
-|Download=[https   *//www.freecadweb.org/wiki/images/8/87/Macro_Build_Utility.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/8/87/Macro_Build_Utility.png ToolBar Icon]
 }}
 
 ## Description
@@ -24,11 +24,11 @@ Tout le code pour buildUtility.FCMacro est dans une macro. L\'installation consi
 
 L\'utilitaire de construction fonctionne sur les mêmes principes que les fichiers de construction utilisés pour assembler des systèmes logiciels volumineux (comme FreeCAD). Un éditeur de texte est utilisé pour créer un fichier texte qui respecte les formats requis par l\'utilitaire de génération. L\'utilitaire de construction lit ensuite chaque ligne du fichier texte et exécute les actions spécifiées par ce fichier texte.
 
-La macro demande à l\'utilisateur un \"fichier de construction\". Il analyse ensuite le fichier de construction, il existe 3 types de lignes   *
+La macro demande à l\'utilisateur un \"fichier de construction\". Il analyse ensuite le fichier de construction, il existe 3 types de lignes:
 
 -   lignes commençant par le caractère de commentaire \"#\", qui sont ignorées en tant que commentaires ou remarques
 -   lignes commençant par le caractère de sous-fichier \"@\" qui sont ignorées
-     Remarque    * le caractère \"@\" est destiné à une amélioration future lorsque les fichiers de construction inférieurs seront gérés.
+     Remarque : le caractère \"@\" est destiné à une amélioration future lorsque les fichiers de construction inférieurs seront gérés.
 -   toutes les autres lignes pouvant être un fichier de projet ou un sous-répertoire
 
 L\'extension de fichier pour le fichier Build Utility est \".FCBld\". Ceci afin que les fichiers ne soient pas mélangés avec d\'autres utilisations et applications.
@@ -71,10 +71,10 @@ ToolBar Icon ![](images/Macro_Build_Utility.png )
 # routine to read in a build file and merge all specified projects
 """
 This function asks the user for a "build file". It then parses that build file, there
-are 3 legal line types   *
+are 3 legal line types:
 - lines starting with the comment character "#" which are ignored
 - lines starting with the subfile character "@" which are ignored
-    Note   *   the "@" character is for future enhancement when sub-build files 
+    Note:   the "@" character is for future enhancement when sub-build files 
             will be handled
 - all other lines which may be a project file or a subfolder (sub-directory)
 If the line is a subfolder then the project file is read from that subfolder.
@@ -84,7 +84,7 @@ The document is not saved at the end, this is left for the user if desired.
 If the file does not exist then the file name is Printed to the Report view
 """
 """
-Example file   *
+Example file:
 #this is a sample build file
 #==============================
 @sub-build-files - not presently inplemented
@@ -132,7 +132,7 @@ fcFileExtensionLen = -6
 
 # code ***********************************************************************************
 buildFilePathName=QtGui.QFileDialog.getOpenFileName()[0]
-if len(buildFilePathName) > 0   *
+if len(buildFilePathName) > 0:
     # set up a new empty "build_target" document
     FreeCAD.newDocument(buildTargetDocument)
     FreeCAD.setActiveDocument(buildTargetDocument)
@@ -140,42 +140,42 @@ if len(buildFilePathName) > 0   *
     guiDoc=FreeCADGui.ActiveDocument
     #
     lastFileSeparator = buildFilePathName.rindex(fileSeparator)
-    buildFilePath = buildFilePathName[   * lastFileSeparator]
-    buildFileName = buildFilePathName[lastFileSeparator +1   *]
+    buildFilePath = buildFilePathName[: lastFileSeparator]
+    buildFileName = buildFilePathName[lastFileSeparator +1:]
     #
     buildFileContents = open(buildFilePathName,"r")
     buildFileLines = buildFileContents.readlines()
     buildFileContents.close()
     #
-    for line in buildFileLines   *
-        if line[0] == commentTag   *
+    for line in buildFileLines:
+        if line[0] == commentTag:
             # line of internal comment
             pass
-        elif line[0] == subfileTag   *
+        elif line[0] == subfileTag:
             # line of sub-build-file (not presently implemented)
             pass
-        else   *
+        else:
             # a line which should specify a FreeCAD project file
             # - may be preceded by a sub-directory e.g. "./subdir309/"
             # - project file may be missing file extension
             #
             # if line break at end of file spec then remove
-            if line[-1   *] == lineFeed   *
-                line = line[   *-1]
-            if line[-1   *] == carriageReturn   *
-                line = line[   *-1]
+            if line[-1:] == lineFeed:
+                line = line[:-1]
+            if line[-1:] == carriageReturn:
+                line = line[:-1]
             # if no FreeCAD project file extension supplied then append one
             # make an uppercase comparison in case of mixed case
             tempLine = fcFileExtension + line.upper()
-            if fcFileExtensionUC != tempLine[fcFileExtensionLen   *]   *
+            if fcFileExtensionUC != tempLine[fcFileExtensionLen:]:
                 line = line + fcFileExtension
             # if there is a leading subdirectory then remove "./" from beginning
-            if subfolder[0   *2] == line[0   *2]   *
-                line = line[2   *]
+            if subfolder[0:2] == line[0:2]:
+                line = line[2:]
             projectFileSpec = str(buildFilePath) + str("/") + str(line)
-            if os.path.exists(projectFileSpec)   *
+            if os.path.exists(projectFileSpec):
                 guiDoc.mergeProject(projectFileSpec)
-            else   *
+            else:
                 FreeCAD.Console.PrintMessage('project file "' + projectFileSpec + '" not found' + "\n")
 
     # set view back to "build_target", it is up to user to save it (if they want)
@@ -185,16 +185,16 @@ if len(buildFilePathName) > 0   *
     FreeCADGui.SendMsgToActiveView("ViewFit")
     FreeCADGui.activeDocument().activeView().viewAxometric()
 #
-#OS   * Mac OS X
-#Word size   * 64-bit
-#Version   * 0.14.3703 (Git)
-#Branch   * releases/FreeCAD-0-14
-#Hash   * c6edd47334a3e6f209e493773093db2b9b4f0e40
-#Python version   * 2.7.5
-#Qt version   * 4.8.6
-#Coin version   * 3.1.3
-#SoQt version   * 1.5.0
-#OCC version   * 6.7.0
+#OS: Mac OS X
+#Word size: 64-bit
+#Version: 0.14.3703 (Git)
+#Branch: releases/FreeCAD-0-14
+#Hash: c6edd47334a3e6f209e493773093db2b9b4f0e40
+#Python version: 2.7.5
+#Qt version: 4.8.6
+#Coin version: 3.1.3
+#SoQt version: 1.5.0
+#OCC version: 6.7.0
 #
 #thus ends the macro...
 }}
@@ -205,7 +205,7 @@ Vous travaillez avec d\'autres services de votre entreprise pour utiliser FreeCA
 
 Il y a beaucoup de chemins de dossiers à taper afin que vous puissiez entrer les commandes dans le fichier texte de Build Utility, ce qui signifie que vous pouvez l\'exécuter en un simple clic sur un bouton de la barre d\'outils.
 
-<img alt="" src=images/MacroBuildUtilityTreeDiagram.jpg  style="width   *500px;">
+<img alt="" src=images/MacroBuildUtilityTreeDiagram.jpg  style="width:500px;">
 
 Le contenu du fichier de construction \"buildFile.FCBld\" présenté ci-dessous montre la structure de fichier du projet décrit ci-dessus.
 
@@ -234,7 +234,7 @@ zebra
 ./externalModules/red/level3/yellow
 ```
 
-Un résumé du fichier et de la façon dont il est traité est   *
+Un résumé du fichier et de la façon dont il est traité est:
 
 -   les deux premières lignes sont traitées comme des commentaires et tout ce qui suit le caractère initial du signe dièse est ignoré
 

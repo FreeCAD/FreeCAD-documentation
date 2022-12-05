@@ -1,6 +1,6 @@
 # Path Helix/ro
 ---
-- GuiCommand   *   Name   *Path Helix   Workbenches   *[[Path Workbench   Path]]|MenuLocation   *Path → Helix   Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Path Helix   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Helix   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -47,11 +47,11 @@ Empty
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Arch Panel Cut
-   Name/it   *Arch Panel Cut
-   MenuLocation   *Arch → Strumenti pannello → Sagoma pannello
-   Workbenches   *[Arch](Arch_Workbench/it.md)
-   Shortcut   ***P** **C**
-   SeeAlso   *[Pannello](Arch_Panel/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md), [Nido](Arch_Nest/it.md), [Ambiente Path](Path_Workbench/it.md)
+- GuiCommand:/it
+   Name:Arch Panel Cut
+   Name/it:Arch Panel Cut
+   MenuLocation:Arch → Strumenti pannello → Sagoma pannello
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:**P** **C**
+   SeeAlso:[Pannello](Arch_Panel/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md), [Nido](Arch_Nest/it.md), [Ambiente Path](Path_Workbench/it.md)
 ---
 
 # Arch Panel Cut/it
@@ -23,7 +23,7 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
 ## Uso
 
@@ -61,19 +61,19 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 ### Dati
 
--    {{PropertyData/it|Source}}   * L\'oggetto [Pannello](Arch_Panel/it.md) mostrato da questa sagoma
+-    {{PropertyData/it|Source}}: L\'oggetto [Pannello](Arch_Panel/it.md) mostrato da questa sagoma
 
--    {{PropertyData/it|Tag Text}}   * Il testo da visualizzare. Può essere %tag%, %label% or %description% per visualizzare il tag del pannello o l\'etichetta
+-    {{PropertyData/it|Tag Text}}: Il testo da visualizzare. Può essere %tag%, %label% or %description% per visualizzare il tag del pannello o l\'etichetta
 
--    {{PropertyData/it|Tag Size}}   * La dimensione del testo tag
+-    {{PropertyData/it|Tag Size}}: La dimensione del testo tag
 
--    {{PropertyData/it|Tag Position}}   * La posizione del testo tag. Tenere (0,0,0) per la posizionarlo automaticamente nel centro
+-    {{PropertyData/it|Tag Position}}: La posizione del testo tag. Tenere (0,0,0) per la posizionarlo automaticamente nel centro
 
--    {{PropertyData/it|Tag Rotation}}   * La rotazione del testo tag
+-    {{PropertyData/it|Tag Rotation}}: La rotazione del testo tag
 
--    {{PropertyData/it|Font File}}   * Il carattere del testo tag
+-    {{PropertyData/it|Font File}}: Il carattere del testo tag
 
--    {{PropertyData/it|Make Face}}   * Se è True, il pannello è una Part Face, altrimenti è una Part Wire
+-    {{PropertyData/it|Make Face}}: Se è True, il pannello è una Part Face, altrimenti è una Part Wire
 
 
 </div>
@@ -85,9 +85,9 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 ### Vista
 
--    {{PropertyView/it|Margin}}   * Un margine che può essere visualizzato all\'esterno della sagoma del pannello
+-    {{PropertyView/it|Margin}}: Un margine che può essere visualizzato all\'esterno della sagoma del pannello
 
--    {{PropertyView/it|Show Margin}}   * Attiva o disattiva la visualizzazione del margine
+-    {{PropertyView/it|Show Margin}}: Attiva o disattiva la visualizzazione del margine
 
 
 </div>
@@ -100,7 +100,7 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -110,7 +110,7 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Sagoma pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Sagoma pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -121,7 +121,7 @@ View = makePanelCut(panel, name="PanelView")```
 
 -   Crea un oggetto `View` (proiezione 2D) dal `panel` esistente.
 
-Esempio   * 
+Esempio: 
 ```python
 import FreeCAD, Draft, Arch
 

@@ -1,8 +1,6 @@
 # Category:Macros/ru
 Эта категория содержит макросы для расширения функциональности Вашей установки FreeCAD
 
-[Category   *Categories/ru](Category   *Categories/ru.md)
-
 ### Contents
 
 |     |     |     |

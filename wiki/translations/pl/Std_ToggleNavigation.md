@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ToggleNavigation
-   Name/pl   *Std   * Przełącz tryb nawigacja / edycja
-   MenuLocation   *Widok → Przełącz tryb nawigacja / edycja
-   Workbenches   *wszystkie
-   Shortcut   ***Esc**
+- GuiCommand:/pl
+   Name:Std ToggleNavigation
+   Name/pl:Std: Przełącz tryb nawigacja / edycja
+   MenuLocation:Widok → Przełącz tryb nawigacja / edycja
+   Workbenches:wszystkie
+   Shortcut:**Esc**
 ---
 
 # Std ToggleNavigation/pl
@@ -13,13 +13,13 @@
 
 Polecenie **Przełącz tryb nawigacji** jest przeznaczone do pewnych operacji inspekcji i pewnych interaktywnych operacji edycji siatki. Operacje te są dość *wymagające* i dlatego polegają na trybie edycji, podczas którego większość opcji nawigacyjnych jest wyłączona. Za pomocą tego polecenia można tymczasowo przełączyć się z trybu edycji do trybu nawigacji, a po zmianie [widoku 3D](3D_view/pl.md), przełączyć się z powrotem do trybu edycji.
 
-Nie należy mylić tego polecenia z poleceniem [Std   * Edycja](Std_Edit/pl.md).
+Nie należy mylić tego polecenia z poleceniem [Std: Edycja](Std_Edit/pl.md).
 
 ## Użycie
 
-*Przykład demonstrujący polecenie   **
+*Przykład demonstrujący polecenie:*
 
-1.  Przełącz się na środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width   *16px;"> [Siatka](Mesh_Workbench/pl.md)
+1.  Przełącz się na środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Siatka](Mesh_Workbench/pl.md)
 2.  Wybierz opcję z menu **Siatki → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Bryła pierwotna ...**.
 3.  Otworzy się okno dialogowe Bryła pierwotna.
 4.  Wybierz **elipsoidę** z listy rozwijanej.
@@ -36,13 +36,13 @@ Nie należy mylić tego polecenia z poleceniem [Std   * Edycja](Std_Edit/pl.md).
 15. Jeśli najedziesz na punkt graniczny, pojawi się żółty znacznik, a kliknięcie lewym przyciskiem myszy spowoduje jego zaznaczenie.
 16. Opcjonalnie wybierz jeszcze dwa punkty i dodaj trójkąt do siatki.
 17. Znajdujesz się teraz w trybie edycji i niemożliwe jest obracanie lub przesuwanie widoku 3D, chociaż powiększanie nadal działa.
-18. Wywołaj polecenie **Przełącz tryb nawigacji** aby przełączyć się w tryb nawigacji   *
+18. Wywołaj polecenie **Przełącz tryb nawigacji** aby przełączyć się w tryb nawigacji:
     -   W tym celu z menu wybierz opcję **Widok → <img src="images/Std_ToggleNavigation.svg" width=16px> Przełącz tryb nawigacji / edycji**.
-    -   Lub użyj skrótu klawiaturowego   * **Esc**.
+    -   Lub użyj skrótu klawiaturowego: **Esc**.
 19. Teraz możesz obracać i przesuwać widok 3D, ale nie możesz wybrać punktów, aby dodać trójkąty.
-20. Wywołaj polecenie **Przełącz tryb nawigacji**, aby powrócić do trybu edycji   *
+20. Wywołaj polecenie **Przełącz tryb nawigacji**, aby powrócić do trybu edycji:
     -   Wybierz opcję z menu **Widok → <img src="images/Std_ToggleNavigation.svg" width=16px> Przełącz tryb nawigacji / edycji**.
-    -   Albo użyj skrótu klawiaturowego   * **Esc**.
+    -   Albo użyj skrótu klawiaturowego: **Esc**.
 21. Możesz ponownie wybrać punkty i dodać trójkąty.
 22. Kliknij prawym przyciskiem myszy w oknie widoku 3D i wybierz z menu kontekstowego **Zakończ**, aby zakończyć działanie polecenia [Dodaj element](Mesh_AddFacet/pl.md).
 

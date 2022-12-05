@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Fillet
-   MenuLocation   *Part → Fillet
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Chamfer](Part_Chamfer.md)
+- GuiCommand:
+   Name:Part Fillet
+   MenuLocation:Part → Fillet
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Chamfer](Part_Chamfer.md)
 ---
 
 # Part Fillet
@@ -25,13 +25,13 @@ This tool creates fillets (rounds) on the selected edges of a shape. A dialog al
 
 ## Part Fillet VS. PartDesign Fillet 
 
-There is another fillet tool in the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign workbench](PartDesign_Workbench.md). Please note that their operation is quite different. Check out the <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> [PartDesign Fillet](PartDesign_Fillet.md) reference page for more details on their differences.
+There is another fillet tool in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign workbench](PartDesign_Workbench.md). Please note that their operation is quite different. Check out the <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Fillet](PartDesign_Fillet.md) reference page for more details on their differences.
 
 ## Notes on application of Part Fillet 
 
-Part Fillet might do nothing if the result would touch or cross the next adjacent edge. Consequently, if you do not obtain the expected result, try with a smaller **Radius** value. This is the same for <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Part Chamfer](Part_Chamfer.md).
+Part Fillet might do nothing if the result would touch or cross the next adjacent edge. Consequently, if you do not obtain the expected result, try with a smaller **Radius** value. This is the same for <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Part Chamfer](Part_Chamfer.md).
 
-The fillet tool sometimes fails when trying to fillet complex shapes. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems   *
+The fillet tool sometimes fails when trying to fillet complex shapes. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems:
 
 -   Where possible leave filleting a part until the part is completely generated. This will minimize interaction of fillets with subsequent Boolean operations;
 -   Use the **Part → Check Geometry** to check for any errors in the shape geometry and correct;

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher CreateLine
-   Name/de   *Sketcher LinieErstellen
-   MenuLocation   *Sketch → Skizzengeometrien → Linie erstellen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   *L
-   SeeAlso   *[Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
+- GuiCommand:/de
+   Name:Sketcher CreateLine
+   Name/de:Sketcher LinieErstellen
+   MenuLocation:Sketch → Skizzengeometrien → Linie erstellen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:L
+   SeeAlso:[Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
 ---
 
 # Sketcher CreateLine/de

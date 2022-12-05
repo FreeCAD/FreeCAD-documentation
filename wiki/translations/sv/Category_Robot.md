@@ -1,8 +1,6 @@
 # Category:Robot/sv
 This category lists pages related to the [Robot Workbench/sv](Robot_Workbench/sv.md).
 
-[Category   *Workbenches/sv](Category   *Workbenches/sv.md)
-
 ### Contents
 
 |     |     |     |

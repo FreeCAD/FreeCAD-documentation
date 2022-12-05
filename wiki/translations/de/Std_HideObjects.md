@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std HideObjects
-   Name/de   *Std ObjekteAusblenden
-   MenuLocation   *Ansicht → Sichtbarkeit → Alle Objekte ausblenden
-   Workbenches   *Alle
-   SeeAlso   *[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md)
+- GuiCommand:/de
+   Name:Std HideObjects
+   Name/de:Std ObjekteAusblenden
+   MenuLocation:Ansicht → Sichtbarkeit → Alle Objekte ausblenden
+   Workbenches:Alle
+   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md)
 ---
 
 # Std HideObjects/de
@@ -26,7 +26,7 @@ Der Befehl **Std ObjekteAusblenden** blendet alle Objekte, die zum aktiven Dokum
 ## Skripten
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

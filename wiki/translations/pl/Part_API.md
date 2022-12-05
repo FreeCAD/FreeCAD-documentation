@@ -1,8 +1,8 @@
 # Part API/pl
 {{VeryImportantMessage
-|''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https   *//www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
+|''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
-Moduł Część jest bezpośrednim połączeniem pomiędzy programem FreeCAD a jądrem OpenCasCade. Dostarcza on głównie [kształty topologiczne](TopoShape_API/pl.md), który jest głównym typem obiektu używanym przez OpenCascade. Moduł Część zawiera również wiele funkcji ułatwiających tworzenie i manipulowanie kształtami topologicznymi. Przykład   * 
+Moduł Część jest bezpośrednim połączeniem pomiędzy programem FreeCAD a jądrem OpenCasCade. Dostarcza on głównie [kształty topologiczne](TopoShape_API/pl.md), który jest głównym typem obiektu używanym przez OpenCascade. Moduł Część zawiera również wiele funkcji ułatwiających tworzenie i manipulowanie kształtami topologicznymi. Przykład: 
 ```python
 import Part
 mycube = Part.makeBox(2,2,2)
@@ -67,7 +67,7 @@ Part.show(mycube)
 {{APIFunction|makeRuledSurface|Edge or Wire,Edge or Wire|Tworzy powierzchnię obrysowaną z dwóch krawędzi lub linii łamanych. Jeśli używane są linie łamane, to muszą one mieć taką samą liczbę krawędzi.|the created shape}}
 
 
-{{APIFunction|makeShell|list|Tworzy powłokę z listy ścian.    Uwaga   * Wynikowa powłoka powinna być foremna.   Powłoki inne niż foremne nie są dobrze obsługiwane.|the created shape}}
+{{APIFunction|makeShell|list|Tworzy powłokę z listy ścian.    Uwaga: Wynikowa powłoka powinna być foremna.   Powłoki inne niż foremne nie są dobrze obsługiwane.|the created shape}}
 
 
 {{APIFunction|makeSolid|Part.Shape|Tworzy bryłę z powłok wewnątrz kształtu.|the created shape}}
@@ -89,11 +89,6 @@ Part.show(mycube)
 
 
 {{APIFunction|show|shape|Dodaje kształt do aktywnego dokumentu lub tworzy go, jeśli dokument nie istnieje.| }}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

@@ -3,13 +3,13 @@
 
 ## Gestire le traduzioni per FreeCAD 
 
-Per gestire le traduzioni FreeCAD utilizza un servizio di traduzione di terzi chiamato [Crowdin](https   *//crowdin.com/project/freecad).
+Per gestire le traduzioni FreeCAD utilizza un servizio di traduzione di terzi chiamato [Crowdin](https://crowdin.com/project/freecad).
 
-In FreeCAD/src/Tools ci sono 3 script che sono usati per gestire i file di traduzione   *
+In FreeCAD/src/Tools ci sono 3 script che sono usati per gestire i file di traduzione:
 
-1.  updatets.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
-2.  updatecrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
-3.  updatefromcrowdin.py [(github source)](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
+1.  updatets.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatets.py)
+2.  updatecrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
+3.  updatefromcrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
 
 ### Note
 
@@ -21,11 +21,11 @@ In FreeCAD/src/Tools ci sono 3 script che sono usati per gestire i file di tradu
 
 Lo script updatets.py crea i file .ts nella directory locale FreeCAD/. Genera i file .ts (Qt Translation Source File).
 
-Viene invocato con   * python2 updatets.py
+Viene invocato con: python2 updatets.py
 
 ### updatecrowdin.py
 
-Lo script updatecrowdin.py trasferisce le modifiche dalla directory locale FreeCAD/ a Crowdin (Servizio di traduzione crowdsource di traduzione di terze parti). Lo script attualmente supporta 4 argomenti   *
+Lo script updatecrowdin.py trasferisce le modifiche dalla directory locale FreeCAD/ a Crowdin (Servizio di traduzione crowdsource di traduzione di terze parti). Lo script attualmente supporta 4 argomenti:
 
 -   updatecrowdin.py status stampa uno stato delle traduzioni
 -   updatecrowdin.py update aggiorna Crowdin alla versione corrente dei file .ts trovati nel codice sorgente
@@ -39,7 +39,7 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 ## Inviare le stringhe più recenti a crowdin 
 
 -   Testato solo su Linux
--   È necessario un file .credentials nella propria directory /home/YourUser. Questo file è un semplice file di testo contenente solo una riga, che è la chiave API che si trova su <https   *//crowdin.com/project/freecad/settings#api> (solo per gli amministratori)
+-   È necessario un file .credentials nella propria directory /home/YourUser. Questo file è un semplice file di testo contenente solo una riga, che è la chiave API che si trova su <https://crowdin.com/project/freecad/settings#api> (solo per gli amministratori)
 -   Accertarsi che il proprio repository sia pulito (git pull, git stash se necessario)
 -   cd /path/to/freecad-source-code/src/Tools
 -   python updatets.py (riempie tutti i file .ts trovati nella sorgente con le stringhe più recenti)
@@ -50,7 +50,7 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 ## Unire le ultime traduzioni da crowdin 
 
 -   Testato solo su Linux
--   È necessario un file .credentials nella propria directory /home/YourUser. Questo file è un semplice file di testo contenente solo una riga, che è la chiave API che si trova su <https   *//crowdin.com/project/freecad/settings#api> (solo per gli amministratori)
+-   È necessario un file .credentials nella propria directory /home/YourUser. Questo file è un semplice file di testo contenente solo una riga, che è la chiave API che si trova su <https://crowdin.com/project/freecad/settings#api> (solo per gli amministratori)
 -   Accertarsi che il proprio repository sia pulito (git pull, git stash se necessario)
 -   cd /path/to/freecad-source-code/src/Tools
 -   python updatecrowdin.py build (crea un file zip nel sito di crowdin con tutti i file, può richiedere un po \'di tempo. Questo passaggio può essere fatto anche sul sito Web di crowdin)
@@ -86,11 +86,6 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 -   [Localizzazione](Localisation/it.md)
 -   [Crowdin Administration](Crowdin_Administration/it.md)
 -   [Release process](Release_process/it.md)
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

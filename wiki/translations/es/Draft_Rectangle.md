@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */es
-   Name   *Draft Rectangle
-   Name/es   *Draft Rectangle
-   MenuLocation   *Croquis →  Rectángulo
-   Workbenches   *[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***R** **E**
-   Version   *0.7
-   SeeAlso   *[Cubo](Part_Box/es.md)
+- GuiCommand:/es
+   Name:Draft Rectangle
+   Name/es:Draft Rectangle
+   MenuLocation:Croquis →  Rectángulo
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**R** **E**
+   Version:0.7
+   SeeAlso:[Cubo](Part_Box/es.md)
 ---
 
 # Draft Rectangle/es
@@ -30,19 +30,19 @@ La herramienta rectángulo crea un rectángulo indicando dos puntos de su diagon
 
 The corners of a Draft Rectangle can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide a Draft Rectangle by changing its **Columns** and/or **Rows** property.
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -85,10 +85,10 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
 
 
@@ -96,70 +96,70 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 ## Propiedades
 
--    **Length**   * Especifica la longitud del rectángulo
+-    **Length**: Especifica la longitud del rectángulo
 
--    **Width**   * Especifica el ancho del rectángulo
+-    **Width**: Especifica el ancho del rectángulo
 
--    **Fillet Radius**   * Especifica el radio de curvatura a dar a las esquinas del rectángulo
+-    **Fillet Radius**: Especifica el radio de curvatura a dar a las esquinas del rectángulo
 
--    {{PropertyData | Fillet Radius}}   * especifica el radio del filete de 90 grados en cada esquina del rectángulo
-
- 
-
--    {{PropertyData | Rows}}   * divide el rectángulo (horizontalmente) en filas de igual tamaño. Todo el rectángulo es 1 fila, por defecto
+-    {{PropertyData | Fillet Radius}}: especifica el radio del filete de 90 grados en cada esquina del rectángulo
 
  
 
--    {{PropertyData | Columns}}   * divide el rectángulo (verticalmente) en columnas de igual tamaño. Todo el rectángulo es 1 columna, por defecto.
+-    {{PropertyData | Rows}}: divide el rectángulo (horizontalmente) en filas de igual tamaño. Todo el rectángulo es 1 fila, por defecto
 
--    {{PropertyData | Make Face}}   * llena el rectángulo con una cara
+ 
 
--    **Texture Image**   * Permite indicar la ruta de una imagen a ser mapeada sobre el rectángulo. Depende de ti dar al rectángulo la misma proporción que a la imagen si quieres evitar distorsiones. Dejándolo en blanco se eliminará la imagen.
+-    {{PropertyData | Columns}}: divide el rectángulo (verticalmente) en columnas de igual tamaño. Todo el rectángulo es 1 columna, por defecto.
 
--    {{PropertyView | Pattern}}   * especifica un patrón de sombreado para rellenar el cable.
+-    {{PropertyData | Make Face}}: llena el rectángulo con una cara
+
+-    **Texture Image**: Permite indicar la ruta de una imagen a ser mapeada sobre el rectángulo. Depende de ti dar al rectángulo la misma proporción que a la imagen si quieres evitar distorsiones. Dejándolo en blanco se eliminará la imagen.
+
+-    {{PropertyView | Pattern}}: especifica un patrón de sombreado para rellenar el cable.
 
   +
 
--    {{PropertyView | Pattern Size}}   * especifica el tamaño del patrón de sombreado
+-    {{PropertyView | Pattern Size}}: especifica el tamaño del patrón de sombreado
 
 
 </div>
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the area of the face of the rectangle. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    **Area|Area**: (read-only) specifies the area of the face of the rectangle. The value will be {{value|0.0}} if **Make Face** if `False`.
 
--    **Chamfer Size|Length**   * specifies the length of the chamfers at the corners of the rectangle.
+-    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the rectangle.
 
--    **Columns|Integer**   * specifies the number of equal-sized columns in which the rectangle is divided.
+-    **Columns|Integer**: specifies the number of equal-sized columns in which the rectangle is divided.
 
--    **Fillet Radius|Length**   * specifies the radius of the fillets at the corners of the rectangle.
+-    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the rectangle.
 
--    **Height|Distance**   * specifies the height of the rectangle.
+-    **Height|Distance**: specifies the height of the rectangle.
 
--    **Length|Distance**   * specifies the length of the rectangle.
+-    **Length|Distance**: specifies the length of the rectangle.
 
--    **Make Face|Bool**   * specifies if the rectangle makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    **Make Face|Bool**: specifies if the rectangle makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
 
--    **Rows|Integer**   * specifies the number of equal-sized rows in which the rectangle is divided.
+-    **Rows|Integer**: specifies the number of equal-sized rows in which the rectangle is divided.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the rectangle. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the rectangle. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
--    **Texture Image|File**   * specifies the path of the image file to be mapped onto the face of the rectangle. Blanking this property will remove the image. The rectangle should have the same proportions as the image to avoid distortions.
+-    **Texture Image|File**: specifies the path of the image file to be mapped onto the face of the rectangle. Blanking this property will remove the image. The rectangle should have the same proportions as the image to avoid distortions.
 
 ## Scripting
 
@@ -168,7 +168,7 @@ A Draft Rectangle object is derived from a [Part Part2DObject](Part_Part2DObject
 
 ## Archivos de guión 
 
-La herramienta rectángulo puede utilizarse en [macros](macros/es.md) y desde la consola de [Python](Python.md) utilizando la siguiente función   *
+La herramienta rectángulo puede utilizarse en [macros](macros/es.md) y desde la consola de [Python](Python.md) utilizando la siguiente función:
 
 
 </div>
@@ -192,7 +192,7 @@ rectangle = make_rectangle(length, height, placement=None, face=None, support=No
 
 </div>
 
-Ejemplo   * 
+Ejemplo: 
 ```python
 import FreeCAD as App
 import Draft

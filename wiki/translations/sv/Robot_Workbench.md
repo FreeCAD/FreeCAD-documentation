@@ -1,17 +1,17 @@
 # Robot Workbench/sv
-**The Robot Workbench is unmaintained. If you have experience with the topic and are interested in maintaining it, please state your intention in the developer's section of the [https   *//forum.freecadweb.org/index.php FreeCAD forum].
+**The Robot Workbench is unmaintained. If you have experience with the topic and are interested in maintaining it, please state your intention in the developer's section of the [https://forum.freecadweb.org/index.php FreeCAD forum].
 
 The reason this workbench is still in the master source code is because this workbench is programmed in C++. If this workbench could be programmed in Python, then it could be made an [external workbench](external_workbenches.md) and it could be moved to a separate repository.
 **
 
 ## Introduction
 
-<img alt="Robot workbench icon" src=images/Workbench_Robot.svg  style="width   *128px;">
+<img alt="Robot workbench icon" src=images/Workbench_Robot.svg  style="width:128px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar, som t.ex. [Kuka](http   *//kuka.com/). Denna arbetsbänk är ett pågående arbete för att implementera ett off-line programmeringsverktyg för [Robot_6-Axis](Robot_6-Axis/sv.md) industrirobotar i FreeCAD. You can do following tasks   *
+Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar, som t.ex. [Kuka](http://kuka.com/). Denna arbetsbänk är ett pågående arbete för att implementera ett off-line programmeringsverktyg för [Robot_6-Axis](Robot_6-Axis/sv.md) industrirobotar i FreeCAD. You can do following tasks:
 
 -   set up a simulation environment with a robot and work pieces
 -   create and fill up trajectories
@@ -22,7 +22,7 @@ Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar,
 
 </div>
 
-You can do the following tasks   *
+You can do the following tasks:
 
 -   Set up a simulation environment with a robot and work pieces.
 -   Create and fill up movement trajectories.
@@ -33,7 +33,7 @@ You can do the following tasks   *
 
 <div class="mw-translate-fuzzy">
 
-Du kan hitta ett exempel här   * [Example files](https   *//github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py) or try the [Robot tutorial](Robot_tutorial.md).
+Du kan hitta ett exempel här: [Example files](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py) or try the [Robot tutorial](Robot_tutorial.md).
 
 
 </div>
@@ -41,7 +41,7 @@ Du kan hitta ett exempel här   * [Example files](https   *//github.com/FreeCAD/
 
 {{TOCright}}
 
-<img alt="" src=images/Robot_Workbench_example.jpg  style="width   *500px;">
+<img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
 ## Tools
 
@@ -51,11 +51,11 @@ Here the principal commands you can use to create a robot set-up.
 
 The tools to create and manage the 6-Axis robots
 
--   <img alt="" src=images/Robot_CreateRobot.svg  style="width   *30px;"> [Create a robot](Robot_CreateRobot.md)   * Insert a new robot into the scene
--   <img alt="" src=images/Robot_Simulate.svg  style="width   *30px;"> [Simulate a trajectory](Robot_Simulate.md)   * Opens the simulation dialog and lets you simulate
--   <img alt="" src=images/Robot_Export.svg  style="width   *30px;"> [Export a trajectory](Robot_Export.md)   * Export a robot program file
--   <img alt="" src=images/Robot_SetHomePos.svg  style="width   *30px;"> [Set home position](Robot_SetHomePos.md)   * Set the home position of a robot
--   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width   *30px;"> [Restore home position](Robot_RestoreHomePos.md)   * move the robot to its home position
+-   <img alt="" src=images/Robot_CreateRobot.svg  style="width:30px;"> [Create a robot](Robot_CreateRobot.md): Insert a new robot into the scene
+-   <img alt="" src=images/Robot_Simulate.svg  style="width:30px;"> [Simulate a trajectory](Robot_Simulate.md): Opens the simulation dialog and lets you simulate
+-   <img alt="" src=images/Robot_Export.svg  style="width:30px;"> [Export a trajectory](Robot_Export.md): Export a robot program file
+-   <img alt="" src=images/Robot_SetHomePos.svg  style="width:30px;"> [Set home position](Robot_SetHomePos.md): Set the home position of a robot
+-   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width:30px;"> [Restore home position](Robot_RestoreHomePos.md): move the robot to its home position
 
 ### Trajectories
 
@@ -63,24 +63,24 @@ Tools to create and manipulate trajectories. There are two kinds, the parametric
 
 #### Non parametric trajectories 
 
--   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *30px;"> [Create a trajectory](Robot_CreateTrajectory.md)   * Inserts a new empty trajectory-object into the scene
--   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width   *30px;"> [Set the default orientation](Robot_SetDefaultOrientation.md)   * Set the orientation way-points gets created by default
--   <img alt="" src=images/Robot_SetDefaultValues.svg  style="width   *30px;"> [Set the default speed parameter](Robot_SetDefaultValues.md)   * Set the default values for way-point creation
--   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width   *30px;"> [Insert a waypoint](Robot_InsertWaypoint.md)   * Insert a way-point from the current robot position into a trajectory
--   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width   *30px;"> [Insert a waypoint preselected](Robot_InsertWaypointPre.md)   * Insert a way-point from the current mouse position into a trajectory
+-   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Create a trajectory](Robot_CreateTrajectory.md): Inserts a new empty trajectory-object into the scene
+-   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Set the default orientation](Robot_SetDefaultOrientation.md): Set the orientation way-points gets created by default
+-   <img alt="" src=images/Robot_SetDefaultValues.svg  style="width:30px;"> [Set the default speed parameter](Robot_SetDefaultValues.md): Set the default values for way-point creation
+-   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Insert a waypoint](Robot_InsertWaypoint.md): Insert a way-point from the current robot position into a trajectory
+-   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Insert a waypoint preselected](Robot_InsertWaypointPre.md): Insert a way-point from the current mouse position into a trajectory
 
 #### Parametric trajectories 
 
--   <img alt="" src=images/Robot_Edge2Trac.svg  style="width   *30px;"> [Create a trajectory out of edges](Robot_Edge2Trac.md)   * Insert a new object which decompose edges to a trajectory
--   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width   *30px;"> [Dress-up a trajectory](Robot_TrajectoryDressUp.md)   * Lets you override one or more properties of a trajectory
--   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width   *30px;"> [Trajectory compound](Robot_TrajectoryCompound.md)   * Create a compound out of some single trajectories
+-   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Create a trajectory out of edges](Robot_Edge2Trac.md): Insert a new object which decompose edges to a trajectory
+-   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Dress-up a trajectory](Robot_TrajectoryDressUp.md): Lets you override one or more properties of a trajectory
+-   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Trajectory compound](Robot_TrajectoryCompound.md): Create a compound out of some single trajectories
 
 
 <div class="mw-translate-fuzzy">
 
 ## Skript
 
-Detta avsnitt är genererat från   * <https   *//github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py> Du kan använda den filen direkt, om du vill.
+Detta avsnitt är genererat från: <https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py> Du kan använda den filen direkt, om du vill.
 
 
 </div>
@@ -104,9 +104,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
 {{Robot Tools navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

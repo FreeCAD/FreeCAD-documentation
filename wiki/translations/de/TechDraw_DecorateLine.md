@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw DecorateLine
-   Name/de   *TechDraw LiniendarstellungÄndern
-   MenuLocation   *TechDraw → Liniendarstellung ändern
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
+- GuiCommand:/de
+   Name:TechDraw DecorateLine
+   Name/de:TechDraw LiniendarstellungÄndern
+   MenuLocation:TechDraw → Liniendarstellung ändern
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
 ---
 
 # TechDraw DecorateLine/de
@@ -14,13 +14,13 @@
 
 Das Werkzeug Liniendarstellung ändern ändert die Darstellung von Kanten.
 
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width   *180px;">
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
 
 
 
 *Beispielkanten vor der Änderung*
 
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width   *180px;">
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
 
 
 
@@ -38,7 +38,7 @@ Das Werkzeug Liniendarstellung hat keine Eigenschaften, da es kein Dokumentobjek
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Liniendarstellung ändern ist zur Zeit noch nicht aus [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole zu erreichen.
 

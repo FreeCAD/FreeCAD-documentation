@@ -6,8 +6,6 @@ Esta es la **categoría de nivel superior** que contiene las principales categor
 -   todas las *categorías* que *no están clasificadas*, utiliza el [listado de categorías no clasificadas](Special_Uncategorizedcategories.md).
 -   todas las *imágenes* que *no están clasificadas*, utiliza el [listado de imágenes no clasificadas](Special_Uncategorizedimages.md).
 
-[Category   *Categories/es](Category   *Categories/es.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Thickness
-   MenuLocation   *Part → Thickness
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Offset](Part_Offset.md)
+- GuiCommand:
+   Name:Part Thickness
+   MenuLocation:Part → Thickness
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Offset](Part_Offset.md)
 ---
 
 # Part Thickness/ro
@@ -48,21 +48,21 @@ Instrumentul **Thickness** funcționează pe forme solide și le trasnformă în
 
 ## Opțiuni
 
--   Thickness   * Grosimea peretelui obiectului rezultat, este setat la valoarea dorită
+-   Thickness: Grosimea peretelui obiectului rezultat, este setat la valoarea dorită
     -   A positive value will offset the faces outward
     -   A negative value will offset the faces inward
 -   Mode
-    -   Skin   * Select this option if you want to get an item like a vase, headless but with the bottom
-    -   Pipe   * Select this option if you want to get an object like a pipe, headless and bottomless. In this case it may be convenient to select the faces to be deleted before you start the tool. Helping with predefined views buttons or use the numeric keys.
-    -   RectoVerso   *
+    -   Skin: Select this option if you want to get an item like a vase, headless but with the bottom
+    -   Pipe: Select this option if you want to get an object like a pipe, headless and bottomless. In this case it may be convenient to select the faces to be deleted before you start the tool. Helping with predefined views buttons or use the numeric keys.
+    -   RectoVerso:
 -   Join Type
-    -   Arc   * removes the outer edges and create a fillet with a radius equal to the thickness defined
-    -   Tangent   *
-    -   Intersection   *
--   Intersection   *
--   Self-intersection   * Enables self-intersection
--   Face / Done   * Select the faces to be removed, then click Done
--   Update view   * Actualizează automat vizualizarea în timp real
+    -   Arc: removes the outer edges and create a fillet with a radius equal to the thickness defined
+    -   Tangent:
+    -   Intersection:
+-   Intersection:
+-   Self-intersection: Enables self-intersection
+-   Face / Done: Select the faces to be removed, then click Done
+-   Update view: Actualizează automat vizualizarea în timp real
 
 
 </div>
@@ -86,7 +86,7 @@ Uneori, pe o anumită formă produc rezultate bizare. Salvați munca înainte de
 
 ## Legături
 
-Un bun exemplu de cum se utilizează acest instrument găsiți pe forum   * [Re   * Help designing a simple enclosure](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+Un bun exemplu de cum se utilizează acest instrument găsiți pe forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
 
 
 </div>
@@ -100,7 +100,7 @@ Un bun exemplu de cum se utilizează acest instrument găsiți pe forum   * [Re 
 3.  Click on the **<img src="images/Part_Thickness.svg" width=16px> Thickness
 ** button (no need to change default settings) and press **OK**
 
-Notes   *
+Notes:
 
 -   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead <small>(v0.19)</small> 
 -   Select the cylinder\'s top surface only to create a receptacle

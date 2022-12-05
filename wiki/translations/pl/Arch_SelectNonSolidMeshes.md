@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */pl
-   Name   *Arch SelectNonSolidMeshes
-   Name/pl   *Architektura   * Wybierz siatki niebryłowe
-   MenuLocation   *Architektura → Narzędzia → Wybierz siatki niebryłowe
-   Workbenches   *[Architektura](Arch_Workbench/pl.md)
-   SeeAlso   *[Podziel siatkę](Arch_SplitMesh/pl.md), [Siatka na kształt](Arch_MeshToShape/pl.md)
+- GuiCommand:/pl
+   Name:Arch SelectNonSolidMeshes
+   Name/pl:Architektura: Wybierz siatki niebryłowe
+   MenuLocation:Architektura → Narzędzia → Wybierz siatki niebryłowe
+   Workbenches:[Architektura](Arch_Workbench/pl.md)
+   SeeAlso:[Podziel siatkę](Arch_SplitMesh/pl.md), [Siatka na kształt](Arch_MeshToShape/pl.md)
 ---
 
 # Arch SelectNonSolidMeshes/pl
 
 ## Opis
 
-Narzędzie to identyfikuje i wybiera siatki niebryłowe *(non-[manifold](http   *//en.wikipedia.org/wiki/Manifold))* w wybranej grupie zaznaczonych obiektów <img alt="Mesh_Workbench/pl" src=images/Workbench_Mesh.svg  style="width   *24px;"> [siatki](Mesh_Workbench/pl.md).
+Narzędzie to identyfikuje i wybiera siatki niebryłowe *(non-[manifold](http://en.wikipedia.org/wiki/Manifold))* w wybranej grupie zaznaczonych obiektów <img alt="Mesh_Workbench/pl" src=images/Workbench_Mesh.svg  style="width:24px;"> [siatki](Mesh_Workbench/pl.md).
 
 ## Użycie
 

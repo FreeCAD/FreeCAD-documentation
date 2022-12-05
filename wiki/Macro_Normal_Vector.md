@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2016-09-26
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/8/8b/Macro_Normal_Vector.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/8/8b/Macro_Normal_Vector.png ToolBar Icon]
 }}
 
 ## Description
@@ -36,7 +36,7 @@ Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
 
 ## Link
 
-[Link to dicussion thread (german)](http   *//forum.freecadweb.org/viewtopic.php?f=13&t=10959)
+[Link to dicussion thread (german)](http://forum.freecadweb.org/viewtopic.php?f=13&t=10959)
 
 
 

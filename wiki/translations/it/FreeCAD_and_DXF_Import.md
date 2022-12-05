@@ -40,7 +40,7 @@ Se non è ancora installato, andare al menu **Modifica → Preferenze → Import
 
 <div class="mw-translate-fuzzy">
 
-Per FreeCAD 0.14 o versione più vecchie è necessario installarle manualmente   *
+Per FreeCAD 0.14 o versione più vecchie è necessario installarle manualmente:
 
 
 </div>
@@ -50,7 +50,7 @@ Per FreeCAD 0.14 o versione più vecchie è necessario installarle manualmente  
 
 <div class="mw-translate-fuzzy">
 
-1.  Andare a [Yorik\'s Github account](https   *//github.com/yorikvanhavre/Draft-dxf-importer) e scaricare questi file (sul lato destro si può scegliere \"download as ZIP\").
+1.  Andare a [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) e scaricare questi file (sul lato destro si può scegliere \"download as ZIP\").
 2.  Mettere i file nella cartella delle macro.
 
 -   In Ubuntu, normalmente la cartella si trova in
@@ -61,7 +61,7 @@ La directory è nascosta. Potrebbe essere necessario renderla visibile.
 
 -   In Windows, la directory standard delle macro è
 
-C   *Users\your_user_name\AppData\Roaming\FreeCAD
+C:\Users\your_user_name\AppData\Roaming\FreeCAD
 
 
 </div>
@@ -69,7 +69,7 @@ C   *Users\your_user_name\AppData\Roaming\FreeCAD
 
 <div class="mw-translate-fuzzy">
 
-Tutorial   * [Installare l\'importatore DXF](Dxf_Importer_Install/it.md)
+Tutorial: [Installare l\'importatore DXF](Dxf_Importer_Install/it.md)
 
 
 </div>
@@ -79,15 +79,15 @@ Tutorial   * [Installare l\'importatore DXF](Dxf_Importer_Install/it.md)
 
 ## Trucchi e consigli 
 
-A volte sembra che i file DXF non importino nulla anche se in programmi CAD 2D-DXF si aprono senza problemi. In questo caso, si può provare   *
+A volte sembra che i file DXF non importino nulla anche se in programmi CAD 2D-DXF si aprono senza problemi. In questo caso, si può provare:
 
 1.  andare in Modifica → Preferenze → Import/Export → DXF/DWG e deselezionare l\'opzione \"Unisci geometria\" e riprovare.
 2.  Ricordate che forse ora non avrete i punti finali delle linee coincidenti. Si dovrà farli coincidere da soli.
 3.  Potete farlo con il comando \"Close Shape\" nel workbench Sketcher (con la versione 0.15) oppure è possibile applicare i vincoli manualmente
 
-Potete anche provare   *
+Potete anche provare:
 
-1.  andare in Modifica → Preferenze → Draft → Generali e regolare il valore di \"Tolerance\" (default   * 0,05)
+1.  andare in Modifica → Preferenze → Draft → Generali e regolare il valore di \"Tolerance\" (default: 0,05)
 2.  Riprovare
 
 
@@ -95,19 +95,17 @@ Potete anche provare   *
 
 Sometimes DXF Files don\'t import although they open in other CAD-Programs without problems.
 
-You can try   *
+You can try:
 
 1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
 2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
 3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
 
-You can also try   *
+You can also try:
 
-1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default   * 0,05) and try again.
+1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default: 0,05) and try again.
 
 For an overview of all DXF related preferences see [Import Export Preferences](Import_Export_Preferences#DXF.md).
-
-[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

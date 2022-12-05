@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintTemperature
-   Name/de   *FEM RandbedingungTemperatur
-   MenuLocation   *Modell → Thermische Randbedingungen → Randbedingung Temperatur 
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintTemperature
+   Name/de:FEM RandbedingungTemperatur
+   MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Temperatur 
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Shortcut:
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintTemperature/de
@@ -16,7 +16,7 @@ Creates a FEM constraint for a temperature boundary condition.
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Randbedingung Temperatur](FEM_ConstraintTemperature/de.md)** drücken.
     -   Den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Randbedingung Temperatur** auswählen.
 2.  In der [3D-Ansicht](3D_view/de.md) die Objekte auswählen, auf die die Randbedingung angewendet werden soll; diese können Knoten (Ecken), Kanten oder Flächen sein.
@@ -28,7 +28,7 @@ By default the constraint defines a temperature. By using the option **Concentra
 
 ## Hinweise
 
--   The temperature constraint uses the \*BOUNDARY card in CalculiX. the temperature constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+-   The temperature constraint uses the \*BOUNDARY card in CalculiX. the temperature constraint is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
 
 
 

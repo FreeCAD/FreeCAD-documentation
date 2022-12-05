@@ -2,13 +2,13 @@
 ## Einführung
 
 
-**Hinweis   ***
+**Hinweis:**
 
 für alle Symbole im Quellbaum, siehe [Illustrationen](Artwork/de.md).
 
-Ein FreeCAD Symbol wird aus 6 Elementen zusammengesetzt, die man sich mit dem Akronym SALCHO merken kann   * **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline. (deutsch   * *Strich*, *Ausrichtung*, *Beleuchtung*, *Farbe*, *Hervorhebung*, *Kontur*)
+Ein FreeCAD Symbol wird aus 6 Elementen zusammengesetzt, die man sich mit dem Akronym SALCHO merken kann: **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline. (deutsch: *Strich*, *Ausrichtung*, *Beleuchtung*, *Farbe*, *Hervorhebung*, *Kontur*)
 
-Hier ist ein konkretes, wenn auch willkürliches Beispiel   *
+Hier ist ein konkretes, wenn auch willkürliches Beispiel:
 
 ![](images/FreeCAD_icon_example_details.svg )
 
@@ -23,12 +23,12 @@ Hier ist ein konkretes, wenn auch willkürliches Beispiel   *
 
 In den folgenden Abschnitten werden diese Elemente ausführlicher erläutert.
 
-Dieses Symbol wird wie folgt angezeigt   *
+Dieses Symbol wird wie folgt angezeigt:
 
    
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width   *64px;">   64 px, Originalgröße, große Schaltflächen.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width   *32px;">   32 px, mittlere Größe, normale Schaltflächen.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width   *16px;">   16 px, geringe Größe, wie sie in der [Baumansicht](Tree_view/de.md) erscheint.
+  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;">   64 px, Originalgröße, große Schaltflächen.
+  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;">   32 px, mittlere Größe, normale Schaltflächen.
+  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;">   16 px, geringe Größe, wie sie in der [Baumansicht](Tree_view/de.md) erscheint.
    
 
 ## Farben
@@ -36,23 +36,23 @@ Dieses Symbol wird wie folgt angezeigt   *
 
 **Obligatorisch**
 
-FreeCAD verwendet eine Palette, die der [Tango Palette](https   *//web.archive.org/web/20190921043652/http   *//tango.freedesktop.org/tango_icon_theme_guidelines) nachempfunden ist. Jede Hauptfarbe gibt es in 4 Farbtönen   * Highlight, Base, Dark und Outline. Beachte, dass die Umrisslinie nicht komplett schwarz ist, sondern eine sehr dunkle Variante der Grundfarbe.
+FreeCAD verwendet eine Palette, die der [Tango Palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines) nachempfunden ist. Jede Hauptfarbe gibt es in 4 Farbtönen: Highlight, Base, Dark und Outline. Beachte, dass die Umrisslinie nicht komplett schwarz ist, sondern eine sehr dunkle Variante der Grundfarbe.
 
 ![](images/Green_tones.PNG ) 
 *Beispiel für eine 4 Ton Farbfamilie (Chamäleon)*
 
-Siehe [FreeCAD Palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) für die gesamte Bandbreite. Eine Auswahl einiger Schlüsselfarben.
+Siehe [FreeCAD Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) für die gesamte Bandbreite. Eine Auswahl einiger Schlüsselfarben.
 
       
                                                                                                                                                           Verwende die gelben Farbtöne für Werkzeuge, die Objekte erstellen; für ein Beispiel siehe [Teil](Part_Workbench/de.md) und [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
-  style=\"background-color   *#729fcf;\|   style=\"background-color   *#3465a4;\|   style=\"background-color   *#204a87;\|   style=\"background-color   *#0b1521;\|   Verwende die Blautöne für Werkzeuge, die Objekte verändern; für ein Beispiel siehe [Teil](Part_Workbench/de.md) und [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
-  style=\"background-color   *#34e0e2\|    style=\"background-color   *#16d0d2\|    style=\"background-color   *#06989a\|    style=\"background-color   *#042a2a\|    Verwende die blaugrünen Farbtöne für ansichtsbezogene Werkzeuge; für ein Beispiel siehe das [Ansichtsmenü](Std_View_Menu/de.md).
-  style=\"background-color   *#ef2929\|    style=\"background-color   *#cc0000\|    style=\"background-color   *#a40000\|    style=\"background-color   *#280000\|    Verwende die roten Töne für Werkzeuge, die sich auf Beschränkungen beziehen; für ein Beispiel siehe [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md).
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Verwende die Blautöne für Werkzeuge, die Objekte verändern; für ein Beispiel siehe [Teil](Part_Workbench/de.md) und [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Verwende die blaugrünen Farbtöne für ansichtsbezogene Werkzeuge; für ein Beispiel siehe das [Ansichtsmenü](Std_View_Menu/de.md).
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Verwende die roten Töne für Werkzeuge, die sich auf Beschränkungen beziehen; für ein Beispiel siehe [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md).
       
 
    
-  style=\"width   * 25%;\|Warum sollte ich mich auf diese Farben begrenzen?   Die Einschränkung auf eine bestimmte Farbpalette hilft, eine heterogene Ikonographie zu vermeiden und verbessert die Lesbarkeit bei vielen Symbolen.
-  Wie verwende ich die FreeCAD Palette?                                    Die Installation [der Palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) ist so einfach wie [Kopiere dir sie in deinen Inkscape Palettenordner](https   *//inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
+  style=\"width: 25%;\|Warum sollte ich mich auf diese Farben begrenzen?   Die Einschränkung auf eine bestimmte Farbpalette hilft, eine heterogene Ikonographie zu vermeiden und verbessert die Lesbarkeit bei vielen Symbolen.
+  Wie verwende ich die FreeCAD Palette?                                    Die Installation [der Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) ist so einfach wie [Kopiere dir sie in deinen Inkscape Palettenordner](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
 
 ## Gitter und Strichbreite 
@@ -62,14 +62,14 @@ Siehe [FreeCAD Palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV
 
 FreeCAD Symbole haben eine nominale Größe von 64 Pixeln, sowohl in der Breite als auch in der Höhe. Bei der Erstellung oder Bearbeitung, vergewissere dich, dass die Dokumentgröße 64 x 64 beträgt, wobei die Einheit Pixel (px) ist. Ein innerer Rand von 2px Leerraum rund um den Dokumentbereich ist nützlich, da er Effekte wie Anti-Aliasing (Verwischung der Kanten) verhindert. Das heißt, der nutzbare Raum für das Symbol sollte als 60 x 60 betrachtet werden, und die Ränder sollten leer gelassen werden.
 
-<img alt="" src=images/FreeCAD_icon_size.svg  style="width   *128px;"> 
+<img alt="" src=images/FreeCAD_icon_size.svg  style="width:128px;"> 
 *Zeichne das Symbol innerhalb des blauen Bereichs und alles wird gut funktionieren.*
 
 Es wird auch dringend empfohlen, ein visuelles Gitter zu verwenden, das alle Pixel eine Nebenrasterlinie und alle 2 Pixel eine Hauptrasterlinie aufweist. Die Striche des Symbols sollten an den Schnittpunkten des Nebenrasters ausgerichtet werden.
 
 Striche sollten nicht \"dünner\" als 2px sein, mit abgerundeten Köpfen und Ecken in den meisten Fällen. Striche können *dicker* sein, aber sie sollten vorzugsweise ein Vielfaches von 2px sein, um die Skalierung Unschärfe zu minimieren.
 
-<img alt="" src=images/FreeCAD_icon_stroke_2px.svg  style="width   *320px;"> 
+<img alt="" src=images/FreeCAD_icon_stroke_2px.svg  style="width:320px;"> 
 *Raster mit Strichen, die ein Vielfaches von 2px sind.*
 
    
@@ -84,7 +84,7 @@ Striche sollten nicht \"dünner\" als 2px sein, mit abgerundeten Köpfen und Eck
 
 Gestützt auf die Hauptfarbe des Symbols stelle sicher, dass es, wie bereits erwähnt, eine dunkle Umrandung von 2 px gibt. Dies funktioniert zusammen mit der Hervorhebung, um einen guten Formkontrast auf mehreren Hintergrundtönen zu gewährleisten.
 
-<img alt="" src=images/Draft_Point.svg  style="width   *" height="128px;"> <img alt="" src=images/Draft_Point_backgrounds.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Point.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Point_backgrounds.svg  style="width:" height="128px;"> 
 *Der dunkle Rand des Symbols ist der Umriss.*
 
    
@@ -99,7 +99,7 @@ Gestützt auf die Hauptfarbe des Symbols stelle sicher, dass es, wie bereits erw
 
 Füge einen internen Strich von 2px unter Verwendung der Hervorhebungsfarbe hinzu, um zu helfen, dass die Außenlinie hervorspringt. Auf dunklen Hintergründen ist es diese Hervorhebung, die dem Symbol die Form gibt.
 
-<img alt="" src=images/Draft_Move.svg  style="width   *" height="128px;"> <img alt="" src=images/Draft_Move_backgrounds.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Move.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Move_backgrounds.svg  style="width:" height="128px;"> 
 *Die helle Hervorhebung hilft bei dunklen Hintergründen.*
 
    
@@ -114,25 +114,25 @@ Füge einen internen Strich von 2px unter Verwendung der Hervorhebungsfarbe hinz
 
 Gemäß den Tango Richtlinien solltest du beim Hinzufügen eines Beleuchtungsverlaufseffekts versuchen, es so aussehen zu lassen, als käme das Licht von links oben. Dazu fügst du die Farbe für die Lichter oben links und die Farbe für die Basis oder Dunkelheit unten rechts hinzu. Beachte, dass nur Palettenfarben verwendet werden.
 
-<img alt="" src=images/Draft_Clone.svg  style="width   *" height="128px;"> <img alt="" src=images/Draft_Clone_backgrounds.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Clone.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Clone_backgrounds.svg  style="width:" height="128px;"> 
 *Subtiler Lichteffekt von links oben kommend.*
 
    
-  style=\"width   *25%;\|Warum Beleuchtung verwenden?   Beleuchtung ist nur eine weitere Möglichkeit, Symbole miteinander zu verbinden und sicherzustellen, dass es verschiedene Stufen von [\"value\"](https   *//en.wikipedia.org/wiki/Lightness) gibt, um ihre Lesbarkeit zu verbessern. Vorausgesetzt, der Umriss und die Hervorhebung sind vorhanden, kann dies als optional betrachtet werden.
+  style=\"width:25%;\|Warum Beleuchtung verwenden?   Beleuchtung ist nur eine weitere Möglichkeit, Symbole miteinander zu verbinden und sicherzustellen, dass es verschiedene Stufen von [\"value\"](https://en.wikipedia.org/wiki/Lightness) gibt, um ihre Lesbarkeit zu verbessern. Vorausgesetzt, der Umriss und die Hervorhebung sind vorhanden, kann dies als optional betrachtet werden.
   Wie kann ich das einhalten?                        Stelle die Füllung auf einen linearen oder radialen Farbverlauf ein. In Inkscape ist dies in den Strich- und Fülleinstellungen möglich; mit \"F2\" kann man die Knoten des Farbverlaufs verschieben, um sicherzustellen, dass sie im richtigen Winkel stehen.
    
 
 ## Empfohlenes Aufzeichnungsformat 
 
-Alle Symbole sollten im Format [SVG](SVG/de.md) mit einer Vektorbildanwendung, wie beispielsweise [Inkscape](http   *//inkscape.org), erstellt werden. Dies erleichtert die Anwendung von Änderungen und die Ableitung zusätzlicher Symbole im selben Anwendungsbereich.
+Alle Symbole sollten im Format [SVG](SVG/de.md) mit einer Vektorbildanwendung, wie beispielsweise [Inkscape](http://inkscape.org), erstellt werden. Dies erleichtert die Anwendung von Änderungen und die Ableitung zusätzlicher Symbole im selben Anwendungsbereich.
 
 Wenn Symbole für die direkte Verwendung durch FreeCAD (in einer \*.qrc-Datei) übertragen werden, speichere sie als \"Reines SVG\". Dies reduziert die Größe des Symbols und spart Festplatten- und Speicherplatz.
 
 ## Abschließende Bemerkungen 
 
-Denke daran   *   * **SALCHO**, Stroke, Alignment, Lighting, Colour, Highlight, Outline
+Denke daran:: **SALCHO**, Stroke, Alignment, Lighting, Colour, Highlight, Outline
 
-Hier sind einige Tips, um Deine Arbeit zu überprüfen   *
+Hier sind einige Tips, um Deine Arbeit zu überprüfen:
 
 ### Größe prüfen 
 
@@ -145,7 +145,7 @@ Inkscape verfügt über ein praktisches Werkzeug, um dein Symbol in verschiedene
 3.  Mache dasselbe, aber dieses Mal mit der hellsten Farbe.
 4.  Sieht das immer noch gut aus? Sehr gut. Umrisse und Hervorhebungen wurden richtig eingesetzt. Andernfalls passe die Umrißlinie an.
 
-<img alt="" src=images/Draft_Move_backgrounds_outline.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Move_backgrounds_outline.svg  style="width:" height="128px;"> 
 *Testen des Symbols vor der dunkelsten und der hellsten Farbe als Hintergrund*
 
    
@@ -161,14 +161,11 @@ Inkscape verfügt über ein praktisches Werkzeug, um dein Symbol in verschiedene
 
 Ein Graustufenbild erlaubt dir Kontrastprobleme leichter zu erkennen, da nur eine Mischung aus Schwarz und Weiß vorhanden ist. Das Testen von Graustufenbildern ist auch für farbenblinde Benutzer von Vorteil. Wenn sie die Details in einem Graustufenbild erkennen können, dann ist der Kontrast des vollfarbigen Bildes wahrscheinlich auch gut.
 
-<img alt="" src=images/Draft_Move_contrast_grayscale.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Move_contrast_grayscale.svg  style="width:" height="128px;"> 
 *Prüfung des Symbolkontrasts in Graustufen*
 
    
   Ich kann nicht alle Details ausmachen.   Die von Ihnen gewählten Farben haben einen schlechten Wertkontrast. Versuche, Farben zu verwenden, die in deiner 4 Ton Palette weiter voneinander entfernt sind, d. h. ein helles Grün neben einem hellen Gelb wird schwer zu erkennen sein.
-   
-
-[Category   *Artwork](Category_Artwork.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

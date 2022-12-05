@@ -5,7 +5,7 @@
 
 Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
 
-<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width   *" height="550px;">
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
 
 
@@ -31,7 +31,7 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 *Aufgabenbereich, der beim Bearbeiten einer [Arch Komponente](Arch_Component/de.md) geöffnet wird. Der Aufgabenbereich wartet darauf, dass der Benutzer Objekte auswählt, die der Komponente hinzugefügt oder von ihr subtrahiert werden können.*
 
-**Hinweis   *** Bitte beachte, dass der Wechsel vom **Aufgaben** Reiter zum **Modell** Reiter den aktiven Befehl nicht beendet; die Aufgabe läuft weiterhin im Hintergrund. Der Benutzer ist dafür verantwortlich, den aktiven Befehl ordnungsgemäß zu beenden oder abzubrechen, bevor er eine andere Aufgabe startet; eine laufende Aufgabe zu verlassen, kann beim Versuch, andere Werkzeuge zu starten, zu Fehlern führen.
+**Hinweis:** Bitte beachte, dass der Wechsel vom **Aufgaben** Reiter zum **Modell** Reiter den aktiven Befehl nicht beendet; die Aufgabe läuft weiterhin im Hintergrund. Der Benutzer ist dafür verantwortlich, den aktiven Befehl ordnungsgemäß zu beenden oder abzubrechen, bevor er eine andere Aufgabe startet; eine laufende Aufgabe zu verlassen, kann beim Versuch, andere Werkzeuge zu starten, zu Fehlern führen.
 
 ## Hinweise
 
@@ -42,16 +42,16 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 **Bitte diesen Abschnitt neuformulieren und aktualisieren.**
 
-Siehe [Forumsbeitrag](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aufruf, den ein Aufgaben Dialog Widget verwenden kann, um die Aufgabenansicht zu schließen. Es kann mit \"this-\>close()\" geschlossen werden, aber das schließt nur den unteren Teil der Ansicht, nicht die Ansicht selbst.
+Siehe [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aufruf, den ein Aufgaben Dialog Widget verwenden kann, um die Aufgabenansicht zu schließen. Es kann mit \"this-\>close()\" geschlossen werden, aber das schließt nur den unteren Teil der Ansicht, nicht die Ansicht selbst.
 
-Verwendung von Python   * 
+Verwendung von Python: 
 ```python
 Gui.Control.closeDialog()
 ```
 
-Verwendung von C++   * 
+Verwendung von C++: 
 ```python
-Gui   *   *Control().closeDialog();
+Gui::Control().closeDialog();
 ```
 
 

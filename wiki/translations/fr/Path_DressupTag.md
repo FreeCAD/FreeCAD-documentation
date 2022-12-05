@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Path DressupTag
-   Name/fr   *Path Attaches
-   MenuLocation   *Path → Trajectoires additionelles → Attaches
-   Workbenches   *[Path](Path_Workbench/fr.md)
-   SeeAlso   *[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Lame rotative](Path_DressupDragKnife/fr.md)
+- GuiCommand:/fr
+   Name:Path DressupTag
+   Name/fr:Path Attaches
+   MenuLocation:Path → Trajectoires additionelles → Attaches
+   Workbenches:[Path](Path_Workbench/fr.md)
+   SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupTag/fr
@@ -13,12 +13,12 @@
 
 Cet outil ajoute au tracé existant (généralement un tracé de découpe de contour 2D) un certains nombres d\'attaches qui maintiennent la pièce en place. Sans elles, une partie (qui n\'est pas fixée à la base) risque de s\'envoler de manière incontrôlable lors de la coupe finale. Les attaches sont destinées à être cassées à la main (ou à l'aide d'un ciseau) puis ébarbées à la lime.
 
-Une vidéo expliquant cette fonctionnalité est disponible à l\'adresse suivante    * <https   *//www.youtube.com/watch?v=JZ4prlR6sps>
+Une vidéo expliquant cette fonctionnalité est disponible à l\'adresse suivante : <https://www.youtube.com/watch?v=JZ4prlR6sps>
 
 ## Utilisation
 
 1.  Sélectionnez un contour ou un profil d\'objets [Path](Path_Workbench/fr.md)
-2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_Dressup.svg  style="width   *16px;"> [Attaches](Path_DressupTag/fr.md)
+2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_Dressup.svg  style="width:16px;"> [Attaches](Path_DressupTag/fr.md)
 
 ## Options
 

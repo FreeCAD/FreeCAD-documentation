@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *FEM ResultsPurge
-   Name/it   *Azzera risultati
-   MenuLocation   *Risultati → Azzera risultati
-   Workbenches   *[FEM](FEM_Workbench/it.md)
-   Shortcut   ***R** **P**
-   SeeAlso   *[Tutorial FEM](FEM_tutorial/it.md)
+- GuiCommand:/it
+   Name:FEM ResultsPurge
+   Name/it:Azzera risultati
+   MenuLocation:Risultati → Azzera risultati
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**R** **P**
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ResultsPurge/it
@@ -24,8 +24,8 @@ If you only want to delete a result object and keep the result mesh, create a co
 
 <div class="mw-translate-fuzzy">
 
-1.  I diversi modi per richiamare il comando Azzera risultati   *
-    -   Premere il pulsante <img alt="" src=images/FEM_PurgeResults.png  style="width   *24px;">
+1.  I diversi modi per richiamare il comando Azzera risultati:
+    -   Premere il pulsante <img alt="" src=images/FEM_PurgeResults.png  style="width:24px;">
     -   Usare la scorciatoia da tastiera **S** **S**
     -   Usare **Risultati → Azzera risultati**
 

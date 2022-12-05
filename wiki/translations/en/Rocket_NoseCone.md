@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Rocket NoseCone
-   MenuLocation   *Rocket → Nose Cone
-   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
-   Version   *0.19
+- GuiCommand:
+   Name:Rocket NoseCone
+   MenuLocation:Rocket → Nose Cone
+   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
+   Version:0.19
 ---
 
 # Rocket NoseCone/en
@@ -14,7 +14,7 @@ Nose cones come in a variety of shapes and sizes, most of which are difficult to
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_NoseCone.svg" width=16px> [Nose Cone](Rocket_NoseCone.md)** button.
     -   Select the **Rocket → <img src="images/Rocket_NoseCone.svg" width=16px> Nose Cone** option from the menu.
     -   Double click on a Nose Cone object in the [Tree view](Tree_view.md).
@@ -24,16 +24,16 @@ Nose cones come in a variety of shapes and sizes, most of which are difficult to
 
 ### Nose Cone Types 
 
-The theory behind the various nose cone shapes is explained here   * [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design)
+The theory behind the various nose cone shapes is explained here: [Nose cone design](https://en.wikipedia.org/wiki/Nose_cone_design)
 
-Supported nose cone types include   *
+Supported nose cone types include:
 
 -   Cone.
 
 ![](images/NC_Cone_small.png ) 
 *Conical*
 
--   Blunted Cone. For all blunted shapes, the tip is spherically rounded with a specified diameter. The length is the actual length of the nose and not the virtual length described in the [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design) reference.
+-   Blunted Cone. For all blunted shapes, the tip is spherically rounded with a specified diameter. The length is the actual length of the nose and not the virtual length described in the [Nose cone design](https://en.wikipedia.org/wiki/Nose_cone_design) reference.
 
 ![](images/NC_Blunted_Cone_small.png ) 
 *Spherically Blunted Cone*
@@ -43,7 +43,7 @@ Supported nose cone types include   *
 ![](images/NC_Ogive_small.png ) 
 *Ogive*
 
--   Blunted Ogive. For all blunted shapes, the tip is spherically rounded with a specified diameter. The length is the actual length of the nose and not the virtual length described in the [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design) reference.
+-   Blunted Ogive. For all blunted shapes, the tip is spherically rounded with a specified diameter. The length is the actual length of the nose and not the virtual length described in the [Nose cone design](https://en.wikipedia.org/wiki/Nose_cone_design) reference.
 
 ![](images/NC_Blunted_Ogive_small.png ) 
 *Spherically Blunted Ogive*
@@ -91,23 +91,23 @@ Supported nose cone types include   *
 
 ### Nose Cone Styles 
 
-Nose cones can be drawn in one of 3 styles   *
+Nose cones can be drawn in one of 3 styles:
 
--   Solid   * The cone is constructed as a solid piece, such as out of balsa wood.
+-   Solid: The cone is constructed as a solid piece, such as out of balsa wood.
 
 ![](images/NC_Solid_small.png )
 
--   Hollow   * The cone is hollow on the inside having a specified thickness. The end is not sealed.
+-   Hollow: The cone is hollow on the inside having a specified thickness. The end is not sealed.
 
 ![](images/NC_Hollow_small.png )
 
--   Capped   * Similar to hollow, except the end is sealed.
+-   Capped: Similar to hollow, except the end is sealed.
 
 ![](images/NC_Capped_small.png )
 
 ### Shoulders
 
-Nose cones can be created with or without shoulders   *
+Nose cones can be created with or without shoulders:
 
 ![](images/NC_Ogive_small.png ) 
 *Ogive with shoulder*
@@ -120,56 +120,48 @@ Nose cones can be created with or without shoulders   *
 
 {{TitleProperty|Nose Cone}}
 
--    **Blunted Diameter**   * The diameter of the spherical portion at the tip of the nose
+-    **Blunted Diameter**: The diameter of the spherical portion at the tip of the nose
 
--    **Coefficient**   * Combined with the Nose Type, this defines the shape of the nose cone, see [Options](#Options.md)
+-    **Coefficient**: Combined with the Nose Type, this defines the shape of the nose cone, see [Options](#Options.md)
 
--    **Diameter**   * The diameter of the base of the nose cone
+-    **Diameter**: The diameter of the base of the nose cone
 
--    **Length**   * The length of the nose cone without the shoulder. For all blunted shapes, the length is the actual length of the nose and not the virtual length described in the [Nose cone design](https   *//en.wikipedia.org/wiki/Nose_cone_design) reference.
+-    **Length**: The length of the nose cone without the shoulder. For all blunted shapes, the length is the actual length of the nose and not the virtual length described in the [Nose cone design](https://en.wikipedia.org/wiki/Nose_cone_design) reference.
 
--    **Nose Style**   * Defines the style of the nose cone, see [Options](#Options.md)
+-    **Nose Style**: Defines the style of the nose cone, see [Options](#Options.md)
 
--    **Nose Type**   * Defines the shape of the nose cone using the coefficient when required, see [Options](#Options.md)
+-    **Nose Type**: Defines the shape of the nose cone using the coefficient when required, see [Options](#Options.md)
 
--    **Ogive Diameter**   * The diameter of the Ogive circle. This is only required for the Secant Ogive nose cone type
+-    **Ogive Diameter**: The diameter of the Ogive circle. This is only required for the Secant Ogive nose cone type
 
--    **Resolution**   * Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
+-    **Resolution**: Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
 
--    **Shoulder**   * True when the Nose Cone includes a shoulder
+-    **Shoulder**: True when the Nose Cone includes a shoulder
 
--    **Shoulder Diameter**   * The diameter of the shoulder. This must be less than the radius of the Nose Cone
+-    **Shoulder Diameter**: The diameter of the shoulder. This must be less than the radius of the Nose Cone
 
--    **Shoulder Length**   * The length of the shoulder
+-    **Shoulder Length**: The length of the shoulder
 
--    **Shoulder Thickness**   * When the Nose Style is hollow or capped, this will determine the wall thickness of the shoulder
+-    **Shoulder Thickness**: When the Nose Style is hollow or capped, this will determine the wall thickness of the shoulder
 
--    **Thickness**   * When the Nose Style is hollow or capped, this will determine the wall thickness of the nose cone
+-    **Thickness**: When the Nose Style is hollow or capped, this will determine the wall thickness of the nose cone
 
 
 {{TitleProperty|Rocket Component}}
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Description**   * Description of the component
+-    **Description**: Description of the component
 
--    **Manufacturer**   * Manufacturer when known
+-    **Manufacturer**: Manufacturer when known
 
--    **Material**   * Material when known
+-    **Material**: Material when known
 
--    **Part Number**   * Manufacturer part number
+-    **Part Number**: Manufacturer part number
 
 ## Tutorials and Learning 
 
-[Rocket Workbench Nose Cones](https   *//youtu.be/zwLgie2E4Ts) Tutorial on YouTube
-
-
-
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+[Rocket Workbench Nose Cones](https://youtu.be/zwLgie2E4Ts) Tutorial on YouTube
 
 
 

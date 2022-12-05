@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft WireToBSpline
-   Name/ro   *Draft WireToBSpline
-   MenuLocation   *Drafting →  Wire to BSpline
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+- GuiCommand:/ro
+   Name:Draft WireToBSpline
+   Name/ro:Draft WireToBSpline
+   MenuLocation:Drafting →  Wire to BSpline
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
 # Draft WireToBSpline/ro
@@ -21,7 +21,7 @@ Acest instrument convertește un filament [Wires](Draft_Wire.md) într-o funcți
 
 </div>
 
-<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
 *Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
 
 
@@ -59,7 +59,7 @@ Acest instrument convertește un filament [Wires](Draft_Wire.md) într-o funcți
 
 <div class="mw-translate-fuzzy">
 
-Nu este disponibil, dar crearea unui obiect nou cu punctele dintr-un altul este ușor, de exemplu   *
+Nu este disponibil, dar crearea unui obiect nou cu punctele dintr-un altul este ușor, de exemplu:
 
 
 </div>
@@ -67,7 +67,7 @@ Nu este disponibil, dar crearea unui obiect nou cu punctele dintr-un altul este 
 
 <div class="mw-translate-fuzzy">
 
--   Dacă obiectul activ este un filament   *
+-   Dacă obiectul activ este un filament:
 
 
 </div>

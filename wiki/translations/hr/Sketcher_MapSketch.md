@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher MapSketch
-   MenuLocation   *Part Design/Sketch → Map sketch to face...
-   Workbenches   *[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso   *[Sketcher New sketch](Sketcher_NewSketch.md)
+- GuiCommand:
+   Name:Sketcher MapSketch
+   MenuLocation:Part Design/Sketch → Map sketch to face...
+   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso:[Sketcher New sketch](Sketcher_NewSketch.md)
 ---
 
 # Sketcher MapSketch/hr
@@ -12,13 +12,13 @@
 
 This tool maps an existing sketch onto the face of a shape. PartDesign features created from this sketch will be fused with the underlying solid for additive features (Pad, Revolution) or be subtracted from the underlying solid in case of subtractive features (Pocket, Groove).
 
-Please note that this tool is not used to create new sketches. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are   *
+Please note that this tool is not used to create new sketches. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are:
 
 -   The sketch was created on a standard plane (XY, XZ, YZ) and you want to map it to the face of a solid in order to build a feature upon it.
 -   The sketch was mapped on a specific face of a solid but you need to map it to a different face.
 -   Repairing a broken model.
 
-<img alt="" src=images/Sketcher_MapSketch_00.png  style="width   *480px;">
+<img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
 ## Usage
 

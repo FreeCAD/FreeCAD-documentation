@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   * Analisi agli elementi finiti
-   Level   * Intermedio
-   Time   * 30 minuti
-   Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   *Berndhahnebach Bernd]
-   FCVersion   *0.18.15985 o superiore
-   Files   *
+- TutorialInfo:/it
+   Topic: Analisi agli elementi finiti
+   Level: Intermedio
+   Time: 30 minuti
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.18.15985 o superiore
+   Files:
 ---
 
 # FEM Tutorial Python/it
@@ -16,9 +16,9 @@
 
 ## Introduzione
 
-Questo tutorial ha lo scopo di mostrare come una semplice analisi agli elementi finiti (\"FEA\"\'\') nell\'[Ambiente FEM](FEM_Workbench/it.md) <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> di FreeCAD viene eseguita utilizzando Python. Per questo esempio verrà utilizzato il modello del tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
+Questo tutorial ha lo scopo di mostrare come una semplice analisi agli elementi finiti (\"FEA\"\'\') nell\'[Ambiente FEM](FEM_Workbench/it.md) <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> di FreeCAD viene eseguita utilizzando Python. Per questo esempio verrà utilizzato il modello del tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
 
-<img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic00.jpg  style="width:700px;">
 
 ### Requirements
 
@@ -54,7 +54,7 @@ doc = App.newDocument("Scripted_CalculiX_Cantilever3D")
 
 # part
 import Part
-box_obj = doc.addObject('Part   *   *Box', 'Box')
+box_obj = doc.addObject('Part::Box', 'Box')
 box_obj.Height = box_obj.Width = 1000
 box_obj.Length = 8000
 
@@ -112,7 +112,7 @@ analysis_object.addObject(force_constraint)
 ```
 
 
-<div class="mw-collapsible mw-collapsed toccolours" style="width   *750px ">
+<div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
 
 ### FEM mesh (manual) 
 
@@ -129,7 +129,7 @@ Questa sezione contiene il codice mesh FEM. Espanderla per visualizzare i conten
 
 <div class="mw-translate-fuzzy">
 
-**Nota   *** Controllare la sezione [Informazioni aggiuntive](FEM_Tutorial_Python/it#Informazioni_aggiuntive.md) di seguito per sapere come creare uno script per la generazione di mesh con GMSH o oggetti mesh Netgen.
+**Nota:** Controllare la sezione [Informazioni aggiuntive](FEM_Tutorial_Python/it#Informazioni_aggiuntive.md) di seguito per sapere come creare uno script per la generazione di mesh con GMSH o oggetti mesh Netgen.
 
 
 </div>
@@ -455,7 +455,7 @@ femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
 # add it to the analysis
-femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
+femmesh_obj = doc.addObject('Fem::FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
 ```
@@ -487,7 +487,7 @@ analysis_object.addObject(femmesh_obj)
 
 
 ```python
-mesh = doc.addObject('Fem   *   *FemMeshShapeNetgenObject', 'FEMMeshNetgen')
+mesh = doc.addObject('Fem::FemMeshShapeNetgenObject', 'FEMMeshNetgen')
 mesh.Shape = doc.Box
 mesh.MaxSize = 1000
 mesh.Fineness = "Moderate"
@@ -513,7 +513,7 @@ doc.recompute()
 
 <div class="mw-translate-fuzzy">
 
-Per eseguire l\'analisi con Python, è necessario creare un\'istanza del modulo `ccxtools`. Una volta che questa istanza è stata creata, ci sono due modi per eseguire l\'analisi   *.
+Per eseguire l\'analisi con Python, è necessario creare un\'istanza del modulo `ccxtools`. Una volta che questa istanza è stata creata, ci sono due modi per eseguire l\'analisi:.
 
 1.  Eseguire tutti i processi contemporaneamente (vedere la sottostante sezione [\"Tutto in uno\"](FEM_Tutorial_Python/it#Eseguire_l.27analisi_tutto_in_uno.md))
 2.  Eseguire i processi uno dopo l\'altro (vedere la sottostante sezione [\"Passo a passo\"](FEM_Tutorial_Python/it#Passo_a_passo.md))
@@ -523,7 +523,7 @@ Se nel documento è presente una sola analisi e un solo risolutore nell\'analisi
 
 </div>
 
-L\'attivazione di un\'analisi utilizzando Python funziona in questo modo   *
+L\'attivazione di un\'analisi utilizzando Python funziona in questo modo:
 
 
 ```python
@@ -558,7 +558,7 @@ fea.update_objects()
 fea.setup_working_dir()
 fea.setup_ccx()
 message = fea.check_prerequisites()
-if not message   *
+if not message:
     fea.purge_results()
     fea.write_inp_file()
     # on error at inp file writing, the inp file path "" was returned (even if the file was written)
@@ -566,7 +566,7 @@ if not message   *
     # fea.inp_file_name = '/tmp/FEMWB/FEMMeshGmsh.inp'
     fea.ccx_run()
     fea.load_results()
-else   *
+else:
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
     print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
@@ -578,8 +578,8 @@ else   *
 
 ```python
 # show some results
-for m in analysis_object.Group   *
-    if m.isDerivedFrom('Fem   *   *FemResultObject')   *
+for m in analysis_object.Group:
+    if m.isDerivedFrom('Fem::FemResultObject'):
         result_object = m
         break
 
@@ -600,7 +600,7 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 
 ##### Netgen 
 
-Uno script per oggetti mesh Netgen è stato provato in [\"Parametrized FEM study\"](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (discussione del forum secondario FEM di FreeCAD), ma presenta alcune limitazioni.
+Uno script per oggetti mesh Netgen è stato provato in [\"Parametrized FEM study\"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (discussione del forum secondario FEM di FreeCAD), ma presenta alcune limitazioni.
 
 
 </div>
@@ -612,10 +612,10 @@ Uno script per oggetti mesh Netgen è stato provato in [\"Parametrized FEM study
 
 ##### GMSH 
 
-Al contrario l\'oggetto mesh GMSH supporta pienamente lo script Python. Vedere nel forum le discussioni   *
+Al contrario l\'oggetto mesh GMSH supporta pienamente lo script Python. Vedere nel forum le discussioni:
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
--   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
+-   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
+-   <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
 
 </div>
@@ -627,7 +627,7 @@ Al contrario l\'oggetto mesh GMSH supporta pienamente lo script Python. Vedere n
 
 #### Script per analisi multipla 
 
-Vedere nel forum il post   * <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
+Vedere nel forum il post: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
 
 </div>
@@ -641,14 +641,14 @@ Vedere nel forum il post   * <http   *//forum.freecadweb.org/viewtopic.php?f=18&
 
 ##### Script per i risultati 
 
-Vedere nel forum i post   *
+Vedere nel forum i post:
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → scale factor in standard result object
--   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
--   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#p149043>
--   <http   *//forum.freecadweb.org/viewtopic.php?t=18415#p144028>
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorare solo un elemento
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → resettare tutti i risultati, mostrare la grandezza dello spostamento colorato
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → scale factor in standard result object
+-   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
+-   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#p149043>
+-   <http://forum.freecadweb.org/viewtopic.php?t=18415#p144028>
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorare solo un elemento
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → resettare tutti i risultati, mostrare la grandezza dello spostamento colorato
 
 
 </div>
@@ -660,9 +660,9 @@ Vedere nel forum i post   *
 
 ##### Oggetto del risultato Vtk 
 
-Vedere il post nel forum   *
+Vedere il post nel forum:
 
--   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
 
 </div>
@@ -674,7 +674,7 @@ Vedere il post nel forum   *
 
 ##### Modalità console 
 
-La scrittura del file di input in modalità console di FreeCAD (senza Gui) può essere eseguita in modalità test. A questo proposito vedere questo [post nel forum](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) per maggiori dettagli e sperimentazione.
+La scrittura del file di input in modalità console di FreeCAD (senza Gui) può essere eseguita in modalità test. A questo proposito vedere questo [post nel forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) per maggiori dettagli e sperimentazione.
 
 
 </div>
@@ -686,15 +686,13 @@ La scrittura del file di input in modalità console di FreeCAD (senza Gui) può 
 
 ## Appendice
 
-Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipare al [sottoforum FEM di FreeCAD](https   *//forum.freecadweb.org/viewforum.php?f=18).
+Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipare al [sottoforum FEM di FreeCAD](https://forum.freecadweb.org/viewforum.php?f=18).
 
 
 </div>
 
 
- {{FEM Tools navi}} 
-
-[Category   *Python Code](Category_Python_Code.md)
+ {{FEM Tools navi}}
 
 
 

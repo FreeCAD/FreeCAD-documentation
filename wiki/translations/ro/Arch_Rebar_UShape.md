@@ -1,12 +1,12 @@
 ---
-- GuiCommand   *Addon/ro
-   Name   *Arch Rebar UShape
-   Name/ro   *Arch Rebar UShape
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   *None
-   SeeAlso   *[LShape Rebar](Arch_Rebar_LShape/ro.md)
-   Addon   *Reinforcement
+- GuiCommand:Addon/ro
+   Name:Arch Rebar UShape
+   Name/ro:Arch Rebar UShape
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:None
+   SeeAlso:[LShape Rebar](Arch_Rebar_LShape/ro.md)
+   Addon:Reinforcement
 ---
 
 # Arch Rebar UShape/ro
@@ -26,14 +26,14 @@ Instrumentul **<img src="images/UShapeRebar.png" width=16px> UShape Rebar** perm
 
 The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Footing_UShapeRebar.png  style="width   *800px;">
+<img alt="" src=images/Footing_UShapeRebar.png  style="width:800px;">
 
 
 </div>
@@ -46,7 +46,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1.  Creați un element [structure](Arch_Structure.md)
 2.  Selectați orice fațetă a structurii
 3.  Apoi selectați butonul **<img src="images/UShapeRebar.png" width=16px> UShape Rebar** dintre instrumentele penru armături/rebar tools
-4.  Un task panel contextual va apărea în stânga ecranului după cum se vede în ecranul de mai jos <img alt="" src=images/UShapeDialog.png  style="width   *250px;">
+4.  Un task panel contextual va apărea în stânga ecranului după cum se vede în ecranul de mai jos <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 5.  Selectați orientarea dorită
 6.  Dați datele inițiale cum ar fi capacul frontal, capacul lateral din dreapta, capacul din partea stângă, capacul inferior, capacul superior, factorul de rotunjire și diametrul barei
 7.  Selectați modul de distribuție sau mărimea spațiului
@@ -59,7 +59,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-   *   <img alt="" src=images/UShapeDialog.png  style="width   *250px;">
+:   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 
 
 
@@ -67,23 +67,23 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Proprietăți
 
--    **Orientation**   * Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
+-    **Orientation**: Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
 
--    **Front Cover**   * Distanța dintre armături și fațetele selectate.
+-    **Front Cover**: Distanța dintre armături și fațetele selectate.
 
--    **Right Cover**   * Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
+-    **Right Cover**: Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
 
--    **Left Cover**   * Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
+-    **Left Cover**: Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
 
--    **Bottom Cover**   * Distanța dintre armătură și fațeta de jos a structurii.
+-    **Bottom Cover**: Distanța dintre armătură și fațeta de jos a structurii.
 
--    **Top Cover**   * Distanța dintre armătură și fața superioară a structurii.
+-    **Top Cover**: Distanța dintre armătură și fața superioară a structurii.
 
--    **Rounding**   * O valoare de rotunjire care trebuie aplicată colțurilor barelor, exprimată în raport cu diametrul acestora.
+-    **Rounding**: O valoare de rotunjire care trebuie aplicată colțurilor barelor, exprimată în raport cu diametrul acestora.
 
--    **Amount**   * Cantitatea de armătură
+-    **Amount**: Cantitatea de armătură
 
--    **Spacing**   * Distnța dintre acele fiecărei bare.
+-    **Spacing**: Distnța dintre acele fiecărei bare.
 
 ## Scripting
 
@@ -98,7 +98,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **<img src="images/UShapeRebar.png" width=16px> UShape Rebar** poate fi utilizat în [macros](macros.md) și din consola Python prin utilizarea următoarea funcție   *
+Instrumentul **<img src="images/UShapeRebar.png" width=16px> UShape Rebar** poate fi utilizat în [macros](macros.md) și din consola Python prin utilizarea următoarea funcție:
 
 
 </div>
@@ -113,7 +113,7 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 
 <div class="mw-translate-fuzzy">
 
--   Armătura UShape Rebar are patru orientări diferite   *
+-   Armătura UShape Rebar are patru orientări diferite:
     -   Bottom
     -   Top
     -   Right
@@ -128,7 +128,7 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 
 <div class="mw-translate-fuzzy">
 
-Exemplu   * Crearea unei armături tip bară în U.
+Exemplu: Crearea unei armături tip bară în U.
 
 
 </div>
@@ -189,11 +189,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 
 </div>
-
-
- 
-
-[Category   *Arch/ro](Category   *Arch/ro.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

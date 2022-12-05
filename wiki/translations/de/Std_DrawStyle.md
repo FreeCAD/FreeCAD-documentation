@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std DrawStyle
-   Name/de   *Std DrawStyle
-   MenuLocation   *Ansicht → Darstellungsart → ...
-   Workbenches   *Alle
-   Shortcut   ***V** **1** - **V** **7**
-   SeeAlso   *[Std SelBoundingBox](Std_SelBoundingBox/de.md)
+- GuiCommand:/de
+   Name:Std DrawStyle
+   Name/de:Std DrawStyle
+   MenuLocation:Ansicht → Darstellungsart → ...
+   Workbenches:Alle
+   Shortcut:**V** **1** - **V** **7**
+   SeeAlso:[Std SelBoundingBox](Std_SelBoundingBox/de.md)
 ---
 
 # Std DrawStyle/de
@@ -16,7 +16,7 @@ Der Befehl **Std Darstellungsart** kann den Effekt der {{PropertyView/de|Display
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Ein Klick auf den schwarzen Abwärtspfeil rechts von der Schaltfläche **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Std Darstellungsart](Std_DrawStyle/de.md)** und eine Darstellungsart aus dem Ausklappmenü wählen.
     -   Den Menüeintrag **Ansicht → Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
     -   Im Kontextmenü der [3D-Ansicht](3D_view/de.md) die Option **Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
@@ -24,49 +24,49 @@ Der Befehl **Std Darstellungsart** kann den Effekt der {{PropertyView/de|Display
 
 ## Verfügbare Darstellungsarten 
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *24px;"> Original 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> Original 
 
 Die Darstellungsart **Original** überlagert nicht die {{PropertyView/de|Display Mode}} von Objekten.
 
 ![](images/Std_DrawStyleAsIs_example.png ) 
-*4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts   * 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'*
+*4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts: 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'*
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *24px;"> Punkte 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Punkte 
 
 Die Darstellungsart **Punkte** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode \'Points\'. Knoten werden in deckenden Farben dargestellt. Kanten und Flächen werden nicht dargestellt.
 
 ![](images/Std_DrawStylePoints_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert*
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> Wireframe 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Wireframe 
 
 The **Wireframe** style overrides the **Display Mode** of objects. This style matches the \'Wireframe\' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
 
 ![](images/Std_DrawStyleWireframe_example.png ) 
 *The same objects with the 'Wireframe' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width   *24px;"> Hidden line 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Hidden line 
 
 The **Hidden line** style overrides the **Display Mode** of objects. Objects are displayed as if converted to triangular meshes.
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
 *The same objects with the 'Hidden line' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width   *24px;"> No shading 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> No shading 
 
 The **No shading** style overrides the **Display Mode** of objects. Vertices, edges and faces are displayed in solid colors.
 
 ![](images/Std_DrawStyleNoShading_example.png ) 
 *The same objects with the 'No shading' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width   *24px;"> Shaded 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Shaded 
 
 The **Shaded** style overrides the **Display Mode** of objects. This style matches the \'Shaded\' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
 
 ![](images/Std_DrawStyleShaded_example.png ) 
 *The same objects with the 'Shaded' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width   *24px;"> Flat lines 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Flat lines 
 
 The **Flat lines** style overrides the **Display Mode** of objects. This style matches the \'Flat lines\' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
 
@@ -76,7 +76,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 ## Hinweise
 
 -   Objekte in einer [3D-Ansicht](3D_view/de.md) besitzen auch eine {{PropertyView/de|Draw Style}}. Diese Eigenschaft bestimmt die Linienart, die für die Kanten verwendet wird. Der Befehl Std Darstellungsart überlagert diese Eigenschaft nicht.
--   Ein Makro zum Umschalten zwischen zwei Darstellungsarten findet sich unter   * [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
+-   Ein Makro zum Umschalten zwischen zwei Darstellungsarten findet sich unter: [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
 
 
 

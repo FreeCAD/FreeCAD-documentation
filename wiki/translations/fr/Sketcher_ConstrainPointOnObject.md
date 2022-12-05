@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher ConstrainPointOnObject
-   Name/fr   *Sketcher Contrainte point sur objet
-   MenuLocation   *Sketch → Contraintes d'esquisse  → Contrainte point sur objet
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***O**
-   SeeAlso   *[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher ConstrainPointOnObject
+   Name/fr:Sketcher Contrainte point sur objet
+   MenuLocation:Sketch → Contraintes d'esquisse  → Contrainte point sur objet
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**O**
+   SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
 ---
 
 # Sketcher ConstrainPointOnObject/fr
@@ -17,14 +17,14 @@ Appose un point sur un autre objet tel qu\'une ligne, un arc ou un axe d\'esquis
 ## Utilisation
 
 1.  Sélectionnez un point et un bord dans n\'importe quel ordre.
-2.  Il existe plusieurs façons de lancer cette commande    *
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)** dans la barre d\'outils.
+2.  Il existe plusieurs façons de lancer cette commande :
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **O**.
-    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> Contrainte point sur objet**.
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Contrainte point sur objet**.
 
 ## Script
 
-La contrainte peut être créée à partir de [macros](Macros/fr.md) et de la console [Python](Python/fr.md) à l\'aide de la commande suivante   *
+La contrainte peut être créée à partir de [macros](Macros/fr.md) et de la console [Python](Python/fr.md) à l\'aide de la commande suivante:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

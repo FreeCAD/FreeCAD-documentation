@@ -1,8 +1,6 @@
 # Category:Mesh/zh-cn
 This category lists pages related to the [Mesh_Workbench/zh-cn](Mesh_Workbench/zh-cn.md).
 
-[Category   *Workbenches/zh-cn](Category   *Workbenches/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

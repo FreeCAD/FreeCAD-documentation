@@ -5,8 +5,6 @@ Ces modèles produisent de petits morceaux de texte qui conviennent à la transc
 
 Les longs textes doivent être placés dans la page elle-même, de manière à pouvoir être traduits avec l\'extension de traduction.
 
-[Category   *Template/fr](Category   *Template/fr.md)
-
 ### Contents
 
 |     |     |     |

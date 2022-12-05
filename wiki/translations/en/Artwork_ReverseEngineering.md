@@ -15,9 +15,5 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Reverse Engineering](Category_Reverse_Engineering.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/en

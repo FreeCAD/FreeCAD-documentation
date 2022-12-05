@@ -1,8 +1,6 @@
 # Category:Wiki/ru
 This category contains all documents that relate to the Wiki/ru.
 
-[Category   *Administration/ru](Category   *Administration/ru.md) [Category   *Categories/ru](Category   *Categories/ru.md) [Category   *Documentation/ru](Category   *Documentation/ru.md)
-
 ### Contents
 
 |     |     |     |

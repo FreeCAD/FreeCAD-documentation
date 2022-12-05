@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ko
-   Name   *Std Open
-   Name/ko   *표준 열기
-   MenuLocation   *파일 → 열기...
-   Workbenches   *모두
-   Shortcut   ***Ctrl**+**O**
-   SeeAlso   *[표준 가져오기](Std_Import/ko.md), [표준 새 파일](Std_New/ko.md)
+- GuiCommand:/ko
+   Name:Std Open
+   Name/ko:표준 열기
+   MenuLocation:파일 → 열기...
+   Workbenches:모두
+   Shortcut:**Ctrl**+**O**
+   SeeAlso:[표준 가져오기](Std_Import/ko.md), [표준 새 파일](Std_New/ko.md)
 ---
 
 # Std Open/ko
@@ -25,7 +25,7 @@
 
     -   메뉴에서 **파일 → <img src="images/Std_Open.svg" width=16px> 열기...** 옵션을 선택합니다.
 
-    -   단축키를 사용합니다   * **Ctrl**+**O**.
+    -   단축키를 사용합니다: **Ctrl**+**O**.
 
 2.  필요하다면 알맞는 파일 형식을 대화상자에서 선택합니다.
 
@@ -40,12 +40,12 @@
 
 ## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다   * **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 

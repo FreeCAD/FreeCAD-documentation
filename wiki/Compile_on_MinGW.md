@@ -7,7 +7,7 @@ This guide will walk through the steps necessary to build FreeCAD on Windows usi
 
 ### Before you start 
 
-Download and install [MSYS2](https   *//www.msys2.org) if you have not already. When launching MSYS2, use the \"MSYS2 MinGW 64-bit\" runtime unless you know what you are doing and have a specific reason not to. If you use the UCRT console, make sure to adapt your installation to use the UCRT packages instead.
+Download and install [MSYS2](https://www.msys2.org) if you have not already. When launching MSYS2, use the \"MSYS2 MinGW 64-bit\" runtime unless you know what you are doing and have a specific reason not to. If you use the UCRT console, make sure to adapt your installation to use the UCRT packages instead.
 
 
 
@@ -29,7 +29,7 @@ before proceeding.
 
 In all of the following steps, when prompted by MSYS2\'s shell, accept the default installations of everything by pressing \"Enter\" when asked.
 
-First, install the mingw-w64 GCC toolchain   *
+First, install the mingw-w64 GCC toolchain:
 
 
 
@@ -39,7 +39,7 @@ First, install the mingw-w64 GCC toolchain   *
 
 This will probably take several minutes to complete, as the compiler toolchain is quite large.
 
-Install git   *
+Install git:
 
 
 
@@ -51,15 +51,15 @@ Close your current console window and relaunch the MSYS2 MinGW 64 console (in a 
 
 ### Check out the FreeCAD sources 
 
-To get the FreeCAD source code, clone it from the main git repository   *
+To get the FreeCAD source code, clone it from the main git repository:
 
 
 
-    git clone https   *//github.com/FreeCAD/FreeCAD
+    git clone https://github.com/FreeCAD/FreeCAD
 
 
 
-If you do not want to compile the latest HEAD, once you have the source you can check out a specific tag   *
+If you do not want to compile the latest HEAD, once you have the source you can check out a specific tag:
 
 
 
@@ -68,12 +68,12 @@ If you do not want to compile the latest HEAD, once you have the source you can 
 
 
 
-Or a specific pull request (in this example, PR 1234)   *
+Or a specific pull request (in this example, PR 1234):
 
 
 
     cd FreeCAD
-    git fetch origin pull/1234/head   *pr/1234
+    git fetch origin pull/1234/head:pr/1234
     git checkout pr/1234
 
 
@@ -84,7 +84,7 @@ Note that not all versions can be compiled on MSYS2, several changes were requir
 
 FreeCAD depends on many 3rd-party libraries for its functionality. They may be installed individually, or as a single unified command.
 
-Now, install the following required dependencies using pacman   *
+Now, install the following required dependencies using pacman:
 -   mingw-w64-x86_64-opencascade
 -   mingw-w64-x86_64-xerces-c
 -   mingw-w64-x86_64-qt5
@@ -104,7 +104,7 @@ Now, install the following required dependencies using pacman   *
 
 
 
-The following is a single command to install everything in the list above   *
+The following is a single command to install everything in the list above:
 
 
 
@@ -114,7 +114,7 @@ The following is a single command to install everything in the list above   *
 
 ### Build FreeCAD 
 
-Make a directory for the build   * note this is typically not a subdirectory of the source directory (it is often useful to be able to delete either the source or the build directory independently).
+Make a directory for the build: note this is typically not a subdirectory of the source directory (it is often useful to be able to delete either the source or the build directory independently).
 
 
 
@@ -123,7 +123,7 @@ Make a directory for the build   * note this is typically not a subdirectory of 
 
 
 
-Run cMake   *
+Run cMake:
 
 
 
@@ -131,17 +131,11 @@ Run cMake   *
 
 
 
-And finally   *
+And finally:
 
 
 
     cmake --build ./
-
-
-
- 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

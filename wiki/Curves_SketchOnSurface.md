@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Curves SketchOnSurface
-   MenuLocation   *Surfaces → Sketch on Surface
-   Workbenches   *[Curves](Curves_Workbench.md)
+- GuiCommand:
+   Name:Curves SketchOnSurface
+   MenuLocation:Surfaces → Sketch on Surface
+   Workbenches:[Curves](Curves_Workbench.md)
 ---
 
 # Curves SketchOnSurface
@@ -11,29 +11,29 @@
 
 This tool maps a sketch onto a face, like a label on a bottle. The sketch must be actually attached to a face (see Sketch.Support). The `Map` mode of the sketch has no effect on the result.
 
-<img alt="" src=images/Curves_SketchOnSurface_demo.png  style="width   *600" height="400px;"> 
-*Above   * shows the `Sketch_On_Surface* object applied to the cylinder face (left) and the source sketch in edit mode (right)`
+<img alt="" src=images/Curves_SketchOnSurface_demo.png  style="width:600" height="400px;"> 
+*Above: shows the `Sketch_On_Surface* object applied to the cylinder face (left) and the source sketch in edit mode (right)`
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  There are 2 methods to use the SketchOnSurface tool   *
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
+2.  There are 2 methods to use the SketchOnSurface tool:
 
-    You already have a sketch that you want to map on a face   *
+    You already have a sketch that you want to map on a face:
 
     1.  Attach the sketch to the target face.
     2.  Edit the sketch and add a Construction (blue) rectangle around the geometries. This rectangle will be the parametric bounds of the face.
     3.  Exit edit mode.
     4.  Select the sketch.
-    5.  Activate SketchOnSurface by either   *
-        -   Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width   *24px;"> button
+    5.  Activate SketchOnSurface by either:
+        -   Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width:24px;"> button
         -   Using the **Surfaces → Sketch on Surface** entry in the Curves menu
 
-    You have no sketch to map yet   *
+    You have no sketch to map yet:
 
     1.  Select the target face in the [3D view](3D_view.md)
-    2.  Activate SketchOnSurface by either   *
-        -   Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width   *24px;"> button
+    2.  Activate SketchOnSurface by either:
+        -   Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width:24px;"> button
         -   Using the **Surfaces → Sketch on Surface** entry in the Curves menu
     3.  A Sketch_On_Surface object appears in the [Tree view](Tree_view.md).
     4.  Expand this object to make the Mapped_Sketch appear below.
@@ -42,10 +42,10 @@ This tool maps a sketch onto a face, like a label on a bottle. The sketch must b
 
 ## Options
 
--   Fill Extrusion   * When the Thickness value is not null, this will generate lofting faces (the blue faces in the above screenshot).
--   Fill Faces   * This will fill all the geometrical figures closed in faces (the red faces in the above screenshot).
--   Offset   * This will push the shapes mapped above into the target face. Do not put an offset greater than the thickness, it makes the face disappear on the inside.
--   Thickness   * If not null, this will give thickness to the surfaces created above.
+-   Fill Extrusion: When the Thickness value is not null, this will generate lofting faces (the blue faces in the above screenshot).
+-   Fill Faces: This will fill all the geometrical figures closed in faces (the red faces in the above screenshot).
+-   Offset: This will push the shapes mapped above into the target face. Do not put an offset greater than the thickness, it makes the face disappear on the inside.
+-   Thickness: If not null, this will give thickness to the surfaces created above.
 
 ## Notes
 

@@ -1,6 +1,6 @@
 # Arch SplitMesh/sv
 ---
-- GuiCommand   */sv   Name   *Arch SplitMesh   Name/sv   *Arch SplitMesh   Workbenches   *[MenuLocation   *Arch → Utilities → Split Mesh   SeeAlso   *[[Arch SelectNonSolidMeshes/sv|Arch SelectNonSolidMeshes](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:/sv   Name:Arch SplitMesh   Name/sv:Arch SplitMesh   Workbenches:[MenuLocation:Arch → Utilities → Split Mesh   SeeAlso:[[Arch SelectNonSolidMeshes/sv|Arch SelectNonSolidMeshes](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>
@@ -17,11 +17,11 @@ This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate c
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The SplitMesh tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The SplitMesh tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -30,11 +30,11 @@ new_list = splitMesh(obj, mark=True)
 
 -   Splits the given mesh object (`obj`) into separated components.
 
--   If `mark` is `True` [non-manifold](https   *//en.wikipedia.org/wiki/Manifold) components will be painted red.
+-   If `mark` is `True` [non-manifold](https://en.wikipedia.org/wiki/Manifold) components will be painted red.
 
 -    `new_list`is a list of all the individual components that make the mesh.
 
-Example   *
+Example:
 
 
 ```python
@@ -47,7 +47,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 

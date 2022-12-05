@@ -14,7 +14,7 @@ O FreeCAD é uma [aplicação de modelação paramétrica](About_FreeCAD.md) 3D 
 
 <div class="mw-translate-fuzzy">
 
-O FreeCAD continua numa fase inicial de desenvolvimento, pelo que, apesar de já oferecer uma larga lista (que continua a crescer) de [funcionalidades](Feature_list.md), muito continua a faltar, especialmente quando comparado com soluções comerciais, pelo que pode não ser considerado suficientemente desenvolvido para utilização em ambiente de produção. Ainda assim, existe uma [comunidade](http   *//forum.freecadweb.org/index.php) em rápido crescimento de utilizadores entusiastas, e podem ser já encontrados [muitos exemplos](https   *//forum.freecadweb.org/viewforum.php?f=24) de projetos de qualidade desenvolvidos com o FreeCAD.
+O FreeCAD continua numa fase inicial de desenvolvimento, pelo que, apesar de já oferecer uma larga lista (que continua a crescer) de [funcionalidades](Feature_list.md), muito continua a faltar, especialmente quando comparado com soluções comerciais, pelo que pode não ser considerado suficientemente desenvolvido para utilização em ambiente de produção. Ainda assim, existe uma [comunidade](http://forum.freecadweb.org/index.php) em rápido crescimento de utilizadores entusiastas, e podem ser já encontrados [muitos exemplos](https://forum.freecadweb.org/viewforum.php?f=24) de projetos de qualidade desenvolvidos com o FreeCAD.
 
 
 </div>
@@ -27,7 +27,7 @@ Tal como todos os projetos \"open-source\", O projeto FreeCAD não é um trabalh
 
 </div>
 
-See also   *
+See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [Tutorials](Tutorials.md)
@@ -51,12 +51,12 @@ Antes de mais (se ainda não o fez) transfira e instale o FreeCAD. Veja a págin
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
 
 
 </div>
@@ -85,12 +85,12 @@ O conceito principal por detrás da interface do FreeCAD é a separação em [ b
 
 <div class="mw-translate-fuzzy">
 
-Quando você inicia o FreeCAD, pela primeira vez, é apresentada a página inicial do FreeCAD   *
+Quando você inicia o FreeCAD, pela primeira vez, é apresentada a página inicial do FreeCAD:
 
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -105,7 +105,7 @@ A página inicial do FreeCAD permite saltar rapidamente para uma das bancada de 
 
 <div class="mw-translate-fuzzy">
 
-O FreeCAD tem disponíveis quatro diferentes [modos de navegação](Mouse_Model.md), estes alteram a forma como usa o seu rato para interagir com os objetos nas vista 3D ou com a própria vista. Um deles foi especificamente feito para [touchpads](Mouse_Model#Touchpad_Navigation/pt.md), onde o botão do meio do rato não é utilizado. A tabela seguinte descreve o modo predefinido, chamado **Navegação CAD** (Pode mudar rapidamente o modo de navegação clicando com o botão direito do rato numa área vazia da vista 3D)   *
+O FreeCAD tem disponíveis quatro diferentes [modos de navegação](Mouse_Model.md), estes alteram a forma como usa o seu rato para interagir com os objetos nas vista 3D ou com a própria vista. Um deles foi especificamente feito para [touchpads](Mouse_Model#Touchpad_Navigation/pt.md), onde o botão do meio do rato não é utilizado. A tabela seguinte descreve o modo predefinido, chamado **Navegação CAD** (Pode mudar rapidamente o modo de navegação clicando com o botão direito do rato numa área vazia da vista 3D):
 
 
 </div>
@@ -123,7 +123,7 @@ Existem também diversas vistas predefinidas (vista de cima, vista de frente, et
 
 <div class="mw-translate-fuzzy">
 
-O objetivo do FreeCAD é permitir fazer modelos 3D de alta precisão, manter o controlo apertado destes modelos (sendo capaz recuar no histórico da modelação e alterar parâmetros), para eventualmente construir esses modelos (via 3D printing, maquinação CNC ou até construção em estaleiro). É portanto muito diferente de algumas outras aplicações 3D feitas com outros propósitos, tais como animação ou jogos. A sua curva de aprendizagem pode ser íngreme, especialmente se for o seu primeiro contacto com a modelação 3D. Se ficar encalhado em certo ponto, não se esqueça da comunidade amigável de utilizadores no [FreeCAD forum](http   *//forum.freecadweb.org/index.php) que será capaz de o ajudar rapidamente.
+O objetivo do FreeCAD é permitir fazer modelos 3D de alta precisão, manter o controlo apertado destes modelos (sendo capaz recuar no histórico da modelação e alterar parâmetros), para eventualmente construir esses modelos (via 3D printing, maquinação CNC ou até construção em estaleiro). É portanto muito diferente de algumas outras aplicações 3D feitas com outros propósitos, tais como animação ou jogos. A sua curva de aprendizagem pode ser íngreme, especialmente se for o seu primeiro contacto com a modelação 3D. Se ficar encalhado em certo ponto, não se esqueça da comunidade amigável de utilizadores no [FreeCAD forum](http://forum.freecadweb.org/index.php) que será capaz de o ajudar rapidamente.
 
 
 </div>
@@ -131,7 +131,7 @@ O objetivo do FreeCAD é permitir fazer modelos 3D de alta precisão, manter o c
 
 <div class="mw-translate-fuzzy">
 
-A bancada de trabalho que começará a utilizar depende do tipo de trabalho que precisa de fazer   * se vai trabalhar em modelos de mecânica, ou mais genericamente quaisquer objetos de pequena escala, vai querer provavelmente experimentar a [Bancada de trabalho PartDesign (desenho de peças) ](PartDesign_Workbench/pt.md). Se vai trabalhar em 2D, então mude para a [bancada de trabalho Draft (traço) ](Draft_Workbench/pt.md), ou a [ bancada de trabalho Sketch (esboço)](Sketcher_Workbench/pt.md) se precisar de restrições. Se quer fazer BIM, lance a [ Bancada de trabalho Arch (arquitetura)](Arch_Workbench/pt.md). Se trabalha em desenho de barcos, existe a bancada especial [Bancada de trabalho Ship](Ship_Workbench/pt.md) para si. E se vem do universo do OpenSCAD, experimente a [ bancada de trabalho OpenSCAD](OpenSCAD_Workbench/pt.md).
+A bancada de trabalho que começará a utilizar depende do tipo de trabalho que precisa de fazer: se vai trabalhar em modelos de mecânica, ou mais genericamente quaisquer objetos de pequena escala, vai querer provavelmente experimentar a [Bancada de trabalho PartDesign (desenho de peças) ](PartDesign_Workbench/pt.md). Se vai trabalhar em 2D, então mude para a [bancada de trabalho Draft (traço) ](Draft_Workbench/pt.md), ou a [ bancada de trabalho Sketch (esboço)](Sketcher_Workbench/pt.md) se precisar de restrições. Se quer fazer BIM, lance a [ Bancada de trabalho Arch (arquitetura)](Arch_Workbench/pt.md). Se trabalha em desenho de barcos, existe a bancada especial [Bancada de trabalho Ship](Ship_Workbench/pt.md) para si. E se vem do universo do OpenSCAD, experimente a [ bancada de trabalho OpenSCAD](OpenSCAD_Workbench/pt.md).
 
 
 </div>
@@ -162,7 +162,7 @@ A bancada de trabalho \"PartDesign\" faz uso intensivo de outra bancada de traba
 
 </div>
 
-Estas formas 2D feitas com o \"sketcher\" são muito usadas na bancada de trabalho \"PartDesign\", por exemplo para criar um volume 3D , ou para desenhar áreas nas faces de objetos que serão depois escavadas ao volume principal. Este é um fluxo de trabalho típico do \"PartDesign\"   *
+Estas formas 2D feitas com o \"sketcher\" são muito usadas na bancada de trabalho \"PartDesign\", por exemplo para criar um volume 3D , ou para desenhar áreas nas faces de objetos que serão depois escavadas ao volume principal. Este é um fluxo de trabalho típico do \"PartDesign\":
 
 1.  Criar um novo sketch (esboço)
 2.  desenhar uma forma fechada (assegure-se de que todos os pontos estão unidos)
@@ -174,9 +174,9 @@ Estas formas 2D feitas com o \"sketcher\" são muito usadas na bancada de trabal
 8.  Fechar o sketch (esboço)
 9.  Criar um pocket (bolso) a partir do segundo sketch (esboço), no primeiro objeto
 
-Obtendo um objeto como este   *
+Obtendo um objeto como este:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 A qualquer altura, pode selecionar o sketch (esboço) original e modificá-lo, ou alterar os parâmetros de extrusão das operações \"pad\" ou \"pocket\", atualizando assim o objeto final.
 
@@ -193,7 +193,7 @@ As [bancadas de trabalho \"Draft\" (traço)](Draft_Workbench/pt.md) e [Bancada d
 
 <div class="mw-translate-fuzzy">
 
-A [Bancada de trabalho Draft (traço)](Draft_Workbench/pt.md) oferece ferramentas 2D parecidas com as que se encontram nas aplicações CAD tradicionais como o [AutoCAD](https   *//en.wikipedia.org/wiki/AutoCAD). Contudo , O desenho 2D está longe de ser o objetivo do FreeCAD, por isso, não espere encontrar o conjunto completo de ferramentas que essas aplicações dedicadas oferecem. Muitas das ferramentas do \"Draft\" funcionam não só em 2D como na totalidade do espaço 3D, e beneficia de um sistema de ajuda especial como o [Planos de trabalho](Draft_SelectPlane.md) e [\"object snapping\"](Draft_Snap.md).
+A [Bancada de trabalho Draft (traço)](Draft_Workbench/pt.md) oferece ferramentas 2D parecidas com as que se encontram nas aplicações CAD tradicionais como o [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Contudo , O desenho 2D está longe de ser o objetivo do FreeCAD, por isso, não espere encontrar o conjunto completo de ferramentas que essas aplicações dedicadas oferecem. Muitas das ferramentas do \"Draft\" funcionam não só em 2D como na totalidade do espaço 3D, e beneficia de um sistema de ajuda especial como o [Planos de trabalho](Draft_SelectPlane.md) e [\"object snapping\"](Draft_Snap.md).
 
 
 </div>
@@ -201,12 +201,12 @@ A [Bancada de trabalho Draft (traço)](Draft_Workbench/pt.md) oferece ferramenta
 
 <div class="mw-translate-fuzzy">
 
-A [bancada de trabalho \"Arch\" (Arquitetura)](Arch_Workbench/pt.md) acrescenta ferramentas [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) ao FreeCAD, permitindo construir modelos de arquitetura com objetos paramétricos. A bancada de trabalho \"Arch\" (Arquitetura) depende muito de outros módulos como o \"Draft\" (traço) e \"Sketcher\" (esboço). Todas as ferramentas do \"Draft\" estão também presentes bancada de trabalho \"Arch\" (Arquitetura), e muitas ferramentas \"Arch\" fazem uso dos sistemas de apoio e ajuda do \"Draft\".
+A [bancada de trabalho \"Arch\" (Arquitetura)](Arch_Workbench/pt.md) acrescenta ferramentas [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) ao FreeCAD, permitindo construir modelos de arquitetura com objetos paramétricos. A bancada de trabalho \"Arch\" (Arquitetura) depende muito de outros módulos como o \"Draft\" (traço) e \"Sketcher\" (esboço). Todas as ferramentas do \"Draft\" estão também presentes bancada de trabalho \"Arch\" (Arquitetura), e muitas ferramentas \"Arch\" fazem uso dos sistemas de apoio e ajuda do \"Draft\".
 
 
 </div>
 
-O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura) e \"Draft\" (traço) será   *
+O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura) e \"Draft\" (traço) será:
 
 1.  Desenhar algumas linhas com a ferramenta de **Linha** \"Draft\"
 2.  Selecionar cada linha e clicar na ferramenta **Parede** para construir uma parede em cada uma delas
@@ -216,9 +216,9 @@ O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura)
 6.  criar uma janela clicando na ferramenta **Janela**, selecionar uma predefinição no painel, e depois clicar na face de uma parede
 7.  Adicionar cotas dimensionais selecionando primeiro o plano de trabalho se necessário, e depois usando a ferramenta **Dimensão** do \"Draft\"
 
-Obtendo isto   *
+Obtendo isto:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -234,10 +234,10 @@ O Freecad, sendo um software open source, dá a possibilidade de complementar as
 
 O princípio [Extensões](Addon/pt.md) é baseado no desenvolvimento de um complemento da bancada de trabalho. Qualquer utilizador pode desenvolver uma função que considere faltar para as suas próprias necessidades ou, em última instância, para a comunidade. Com o fórum, o utilizador pode solicitar uma opinião ou ajuda. Ele pode partilhar, ou não, o objeto de seu desenvolvimento de acordo com as regras de direitos autorais a definir. Gratuito para ela/ele. Para desenvolver, o utilizador tem disponíveis funções de [scripting](Power_users_hub/pt.md).
 
-Existem dois tipos de addons   *
+Existem dois tipos de addons:
 
-1.  [Macros](Macros/pt.md)   * pequenos trechos de código Python que adicionam uma nova ferramenta ou funcionalidade. As macros normalmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um objecto em particular. Se muitas dessas macros são agrupadas dentro de um directório, o directório inteiro pode ser distribuído como uma nova bancada de trabalho.
-2.  [Bancadas de trabalho externas](External_workbenches/pt.md)   * colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [Bancadas de trabalho externas](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
+1.  [Macros](Macros/pt.md): pequenos trechos de código Python que adicionam uma nova ferramenta ou funcionalidade. As macros normalmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um objecto em particular. Se muitas dessas macros são agrupadas dentro de um directório, o directório inteiro pode ser distribuído como uma nova bancada de trabalho.
+2.  [Bancadas de trabalho externas](External_workbenches/pt.md): colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [Bancadas de trabalho externas](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
 
 ## Programação (Scripting) 
 
@@ -254,27 +254,19 @@ E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ progr
 
 <div class="mw-translate-fuzzy">
 
--   [Notas de lançamento da versão 0.17](Release_notes_0.17/pt.md)    * Veja o que há de novo na versão 0.17 do FreeCAD
--   [Notas de lançamento da versão0.16](Release_notes_0.16/pt.md)    * Veja o que há de novo na versão 0.16 do FreeCAD
+-   [Notas de lançamento da versão 0.17](Release_notes_0.17/pt.md) : Veja o que há de novo na versão 0.17 do FreeCAD
+-   [Notas de lançamento da versão0.16](Release_notes_0.16/pt.md) : Veja o que há de novo na versão 0.16 do FreeCAD
 -   \[\[Release notes 0.15/pt\|Notas de lançamento da versão
 
-0.15\]\]    * Veja o que há de novo na versão 0.15 do FreeCAD
+0.15\]\] : Veja o que há de novo na versão 0.15 do FreeCAD
 
--   [Notas de lançamento da versão 0.14](Release_notes_0.14.md)    * Veja o que há de novo na versão 0.14 do FreeCAD
--   [Notas de lançamento da versão 0.13](Release_notes_0.13.md)    * Veja o que há de novo na versão 0.13 do FreeCAD
--   [Notas de lançamento da versão 0.12](Release_notes_0.12.md)    * Veja o que há de novo na versão 0.12 do FreeCAD
--   [Notas de lançamento da versão 0.11](Release_notes_0.11.md)    * Veja o que há de novo na versão 0.11 do FreeCAD
+-   [Notas de lançamento da versão 0.14](Release_notes_0.14.md) : Veja o que há de novo na versão 0.14 do FreeCAD
+-   [Notas de lançamento da versão 0.13](Release_notes_0.13.md) : Veja o que há de novo na versão 0.13 do FreeCAD
+-   [Notas de lançamento da versão 0.12](Release_notes_0.12.md) : Veja o que há de novo na versão 0.12 do FreeCAD
+-   [Notas de lançamento da versão 0.11](Release_notes_0.11.md) : Veja o que há de novo na versão 0.11 do FreeCAD
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *User Documentation/pt](Category   *User_Documentation/pt.md)
 
 
 

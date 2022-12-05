@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Arch
-   Level   *Avanzato
-   Time   *120 minuti
-   Author   *Pablo Gil
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic:Arch
+   Level:Avanzato
+   Time:120 minuti
+   Author:Pablo Gil
+   FCVersion:
+   Files:
 ---
 
 # Import/Export IFC - compiling IfcOpenShell/it
@@ -34,7 +34,7 @@ Dato che mi è stato molto difficile scoprire come fare per avere una copia di I
 
 ## Passaggi
 
-1\. Scaricare o clonare l\'intero progetto GitHub da <https   *//github.com/IfcOpenShell/IfcOpenShell> (sarà sempre l\'ultima versione)
+1\. Scaricare o clonare l\'intero progetto GitHub da <https://github.com/IfcOpenShell/IfcOpenShell> (sarà sempre l\'ultima versione)
 
 
 </div>
@@ -42,7 +42,7 @@ Dato che mi è stato molto difficile scoprire come fare per avere una copia di I
 
 <div class="mw-translate-fuzzy">
 
-2\. Da un terminale andare nella cartella **/nix/** e lanciare lo script. In OSX si può fare con   * 
+2\. Da un terminale andare nella cartella **/nix/** e lanciare lo script. In OSX si può fare con: 
 ```python
 ./build-all.sh
 ``` Ci vorranno da 30 fino a 120 minuti per compilare tutto. Non è il modo più intelligente di compilare IfcOpenShell ma questo semplice script compila tutte le dipendenze, le versioni di Python, etc.
@@ -53,7 +53,7 @@ Dato che mi è stato molto difficile scoprire come fare per avere una copia di I
 
 <div class="mw-translate-fuzzy">
 
-3\. Una volta completato (viene stampato qualcosa di simile a \"Built IfcOpenShell\...\" e torna al prompt) si ha una nuova cartella **/IfcOpenShell/build/** piena di file e cartelle. Dalla mia esperienza personale, tempo fa lo script nix \"build-all.sh\" non si è concluso con successo, ma dopo, con gli aggiornamenti più recenti, ha funzionato bene, quindi penso che potrebbe capitare qualcosa di simile nel caso in cui lo sviluppo vada avanti. .. In questo modo. ora c\'è tutto il necessario, ma si deve fare un certo lavoro manuale per farlo funzionare   * 4. Aprire FreeCAD, aprire la console Python e la Vista Report. Quindi scrivere nella console Python quanto segue   * 
+3\. Una volta completato (viene stampato qualcosa di simile a \"Built IfcOpenShell\...\" e torna al prompt) si ha una nuova cartella **/IfcOpenShell/build/** piena di file e cartelle. Dalla mia esperienza personale, tempo fa lo script nix \"build-all.sh\" non si è concluso con successo, ma dopo, con gli aggiornamenti più recenti, ha funzionato bene, quindi penso che potrebbe capitare qualcosa di simile nel caso in cui lo sviluppo vada avanti. .. In questo modo. ora c\'è tutto il necessario, ma si deve fare un certo lavoro manuale per farlo funzionare: 4. Aprire FreeCAD, aprire la console Python e la Vista Report. Quindi scrivere nella console Python quanto segue: 
 ```python
 import sys
 print sys.path
@@ -62,11 +62,11 @@ print sys.path
 
 </div>
 
-4\. Open FreeCAD and open the [Python console](Python_console.md) and [Report view](Report_view.md). Then write into the Python console the following   * 
+4\. Open FreeCAD and open the [Python console](Python_console.md) and [Report view](Report_view.md). Then write into the Python console the following: 
 ```python
 import sys
 print sys.path
-``` You will get a looooong line with all the paths that FreeCAD reads. You may be able to install IfcOpenShell in any of them but I suggest you to place it inside one where you find a **/site-packages/** after a **/Python/** or **/python-something/**. In my case it was **/Library/Python/2.7/site-packages**. (Note   * you will find paths inside your app directory but I suggest you to not use them because then IfcOpenShell will only be available for this app)
+``` You will get a looooong line with all the paths that FreeCAD reads. You may be able to install IfcOpenShell in any of them but I suggest you to place it inside one where you find a **/site-packages/** after a **/Python/** or **/python-something/**. In my case it was **/Library/Python/2.7/site-packages**. (Note: you will find paths inside your app directory but I suggest you to not use them because then IfcOpenShell will only be available for this app)
 
 
 <div class="mw-translate-fuzzy">
@@ -76,9 +76,9 @@ print sys.path
 
 </div>
 
-6\. Aprire una nuova finestra del browser dei file e navigare nel progetto GitHub scaricato   * **/IfcOpenShell/src/ifcopenshell-python/** e copiare l\'intera cartella **/ifcopenshell/**
+6\. Aprire una nuova finestra del browser dei file e navigare nel progetto GitHub scaricato: **/IfcOpenShell/src/ifcopenshell-python/** e copiare l\'intera cartella **/ifcopenshell/**
 
-7\. Incollarla all\'interno della cartella **/site-packages/**. Ora si dovrebbe avere qualcosa di simile a   * 
+7\. Incollarla all\'interno della cartella **/site-packages/**. Ora si dovrebbe avere qualcosa di simile a: 
 ```python
 /site-packages/ifcopenshell/__init__.py
 /site-packages/ifcopenshell/entity_instance.py
@@ -93,7 +93,7 @@ print sys.path
 
 <div class="mw-translate-fuzzy">
 
-8\. Ora dobbiamo trovare due file all\'interno della cartella /build/ , essi sono   * 
+8\. Ora dobbiamo trovare due file all\'interno della cartella /build/ , essi sono: 
 ```python
 _ifcopenshell_wrapper.so
 ifcopenshell_wrapper.py
@@ -102,7 +102,7 @@ ifcopenshell_wrapper.py
 
 </div>
 
-9\. Ora copiare i file che si trovano all\'interno del percorso corrispondente alla propria versione di Python. Nel mio caso   * 
+9\. Ora copiare i file che si trovano all\'interno del percorso corrispondente alla propria versione di Python. Nel mio caso: 
 ```python
 /IfcOpenShell/build/Darwin/x86_64/build/ifcopenshell/[b]python-2.7[/b].10/ifcwrap/
 ```
@@ -115,7 +115,7 @@ ifcopenshell_wrapper.py
 
 </div>
 
-11\. Controllare se tutto è a posto   * 
+11\. Controllare se tutto è a posto: 
 ```python
 /site-packages/ifcopenshell/__init__.py                  (1)
 /site-packages/ifcopenshell/entity_instance.py           (1)
@@ -136,9 +136,9 @@ ifcopenshell_wrapper.py
 
 ## Test
 
-Ora che è installato, controlliamo se tutto funziona come previsto   *
+Ora che è installato, controlliamo se tutto funziona come previsto:
 
-12.1 nella console Python scrivere   * 
+12.1 nella console Python scrivere: 
 ```python
 import ifcopenshell
 from ifcopenshell import geom
@@ -147,7 +147,7 @@ from ifcopenshell import geom
 
 <div class="mw-translate-fuzzy">
 
-12.2 Andare nel Manuale FreeCAD di Yorik, a fondo pagina e scaricare i seguenti file per fare un test   * 
+12.2 Andare nel Manuale FreeCAD di Yorik, a fondo pagina e scaricare i seguenti file per fare un test: 
 ```python
 house.FCStd
 house.ifc
@@ -187,18 +187,13 @@ Cheers
 
 ## Link
 
-La discussione nel Forum [qui](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=17536)
+La discussione nel Forum [qui](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
 
 
 </div>
 
--   Related forum thread [discussion](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=17536)
+-   Related forum thread [discussion](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
 -   [IfcOpenShell](IfcOpenShell.md)
-
-
-
-
-[Category   *BIM](Category_BIM.md) [Category   *Arch](Category_Arch.md) [Category   *3rd Party](Category_3rd_Party.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

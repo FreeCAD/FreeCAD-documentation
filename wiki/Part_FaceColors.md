@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part FaceColors
-   MenuLocation   *Context menu → Set colors
-   Workbenches   *[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso   *[Std Appearance](Std_SetAppearance.md)
+- GuiCommand:
+   Name:Part FaceColors
+   MenuLocation:Context menu → Set colors
+   Workbenches:[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso:[Std Appearance](Std_SetAppearance.md)
 ---
 
 # Part FaceColors
@@ -14,30 +14,23 @@ The **FaceColors** feature allows you to define a color for each face or surface
 
 ## Usage
 
-To color faces   *
+To color faces:
 
 1.  Right-click on an object in the [tree view](Tree_view.md). If the object supports the *FaceColors* feature, there is a context menu entry **Set colors\...** and you can click on it.
-2.  To select face(s)   *
+2.  To select face(s):
     -   For a single face simply click on it.
-    -   To select multiple faces   *
+    -   To select multiple faces:
         -   Keep **Ctrl** pressed and click on several faces.
         -   Or click the **Box selection** button in the task panel. You can then drag a selection rectangle in the [3D view](3D_view.md) with the mouse. Every face that is partly inside the rectangle will be selected.
-3.  Choose a color for the selected faces in the task panel. <small>(v0.20)</small>    * The color can also get a transparency by setting the *Alpha channel*.
+3.  Choose a color for the selected faces in the task panel. <small>(v0.20)</small> : The color can also get a transparency by setting the *Alpha channel*.
 4.  Click the **OK** button to close the task panel and accept the changes.
 
-To reset all face colors   *
+To reset all face colors:
 
 1.  Click **Set to default**. This sets the colors of all faces of the part to the default color. The button works instantly, i.e. you can not revert this with the **Cancel** button.
 
 ![](images/Part_FaceColors-dialog.png ) 
 *The FaceColors task panel*
-
-
-
-
-  
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Command_Reference](Category_Command_Reference.md)
 
 
 

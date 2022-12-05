@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */fr
-   Topic   *Programmation
-   Level   *Programmeur moyen
-   Time   *15 minutes
-   FCVersion   *Toutes versions
-   Author   *[r-frank](User   *R-Frank.md)
-   Files   *aucun
+- TutorialInfo:/fr
+   Topic:Programmation
+   Level:Programmeur moyen
+   Time:15 minutes
+   FCVersion:Toutes versions
+   Author:[r-frank](User:R-Frank.md)
+   Files:aucun
 ---
 
 # How to install additional workbenches/fr
@@ -19,9 +19,9 @@
 Les utilisateurs expérimentés ont étendu FreeCAD avec divers [ateliers externes](external_workbenches/fr.md) personnalisés qui ne sont pas intégrés dans le code source principal mais qui sont faciles à installer sur une distribution FreeCAD existante. Ici, nous allons couvrir les méthodes d\'installation pour les différents systèmes d\'exploitation.
 
 
-**Remarque   ***
+**Remarque:**
 
-à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire des extensions**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire des extensions ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package **.zip**.
+à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire des extensions**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire des extensions ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package **.zip**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -36,25 +36,25 @@ Comment installer des ateliers et des modules complémentaires supplémentaires 
 ### Obsolète
 
 
-**Remarque    ***
+**Remarque :**
 
-l\'utilisation de \"addons-installer\" n\'est plus recommandé. L\'utilisation du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) qui se trouve dans tous les systèmes est la manière recommandée.
+l\'utilisation de \"addons-installer\" n\'est plus recommandé. L\'utilisation du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) qui se trouve dans tous les systèmes est la manière recommandée.
 
-Utilisez [addons-installer from Github](https   *//github.com/FreeCAD/FreeCAD-addons).
+Utilisez [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
 
-Au cours de Google Summer of Code 2016, l\'étudiant Mandeep Singh a commencé à travailler sur une version améliorée ([disponible ici](https   *//github.com/mandeeps708/PluginManager)) mais cette version doit encore être améliorée avant de pouvoir être pleinement intégrée à FreeCAD.
+Au cours de Google Summer of Code 2016, l\'étudiant Mandeep Singh a commencé à travailler sur une version améliorée ([disponible ici](https://github.com/mandeeps708/PluginManager)) mais cette version doit encore être améliorée avant de pouvoir être pleinement intégrée à FreeCAD.
 
 ### Installation manuelle 
 
 
-**Remarque    ***
+**Remarque :**
 
-cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
+cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
 
 -   Téléchargez l\'atelier depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
 -   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et recherchez le «Chemin de la macro»
--   Supposons que votre connexion Windows est «*nom_utilisateur*», le chemin par défaut de la macro est **%APPDATA%\FreeCAD\** qui est couramment **C   *Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD**
+-   Supposons que votre connexion Windows est «*nom_utilisateur*», le chemin par défaut de la macro est **%APPDATA%\FreeCAD\** qui est couramment **C:\Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD**
 -   Dans le répertoire-macro, créez (s\'il n\'est pas déjà présent) un dossier appelé \"**Mod**\"
 -   Dans le dossier Mod, créez un dossier avec le nom de l\'atelier, par exemple "Curves"
 -   Déplacez maintenant les fichiers et sous-dossiers décompressés de l\'atelier dans le dossier de l\'atelier qui vient d\'être créé.
@@ -82,7 +82,7 @@ Comment installer des ateliers et des modules complémentaires supplémentaires 
 
 ### Utiliser git 
 
-Ajout de [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ubuntu/ppa) dans le gestionnaire ppa.
+Ajout de [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) dans le gestionnaire ppa.
 Installation des ateliers via le gestionnaire de paquets synaptique.
 
 
@@ -90,10 +90,10 @@ Installation des ateliers via le gestionnaire de paquets synaptique.
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
-$ git clone  https   *//github.com/tomate44/CurvesWB.git
+$ git clone  https://github.com/tomate44/CurvesWB.git
 ```
 
-Dans FreeCAD, vous aurez maintenant une nouvel atelier appelé \"CurvesWB\". Une fois installé, utilisez git pour les mises à jour   *
+Dans FreeCAD, vous aurez maintenant une nouvel atelier appelé \"CurvesWB\". Une fois installé, utilisez git pour les mises à jour:
 
 
 ```python
@@ -105,9 +105,9 @@ $ rm *.pyc
 ### Installation manuelle 
 
 
-**Remarque    ***
+**Remarque :**
 
-cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
+cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
 
 -   Téléchargez le plan de travail depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
@@ -137,17 +137,17 @@ Comment installer des ateliers et des modules complémentaires supplémentaires 
 ### Installation manuelle 
 
 
-**Remarque   ***
+**Remarque:**
 
-cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
+cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
 
-Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Workbench/fr.md) comme atelier externe que vous souhaitez installer   *
+Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Workbench/fr.md) comme atelier externe que vous souhaitez installer:
 
 -   Choisissez et téléchargez le référentiel git de votre plan de travail externe choisi sous forme de fichier ZIP
--   Il y a deux endroits possibles pour l\'atelier \"Mods\" de votre extension    *
+-   Il y a deux endroits possibles pour l\'atelier \"Mods\" de votre extension :
 
-1.  Tous les utilisateurs    * **/Applications/FreeCAD.app/Contents/Resources/Mod**.
-2.  Utilisateur en cours uniquement    * **/Users/myusername/Library/Preferences/FreeCAD/Mod**.
+1.  Tous les utilisateurs : **/Applications/FreeCAD.app/Contents/Resources/Mod**.
+2.  Utilisateur en cours uniquement : **/Users/myusername/Library/Preferences/FreeCAD/Mod**.
 
 -   Si vous utilisez Finder pour naviguer manuellement vers l\'emplacement Tous les utilisateurs dans Applications, vous devrez
     -   aller dans **/Applications**\" et sélectionner FreeCAD.app
@@ -169,12 +169,7 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
 -   Allez dans **Outils → Personnaliser... → Ateliers** et assurez-vous que l\'atelier n\'est pas défini sur invisible.
 -   Avec les systèmes 32 bits et FreeCAD 0.16.6706, après les tentatives d\'installation, les ateliers supplémentaires peuvent ne pas être disponibles. Dans ce cas
     -   gardez la [Vue rapport](Report_view/fr.md) ouverte lors du démarrage de FreeCAD et lisez l\'erreur,
-    -   voir ce fil de discussion du forum [Assembly2 dans la version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
-
-
- 
-
-[Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+    -   voir ce fil de discussion du forum [Assembly2 dans la version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
 

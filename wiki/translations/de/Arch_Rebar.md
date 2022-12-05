@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Rebar
-   Name/de   *Architektur Bewehrung oder 3D/BIM-Verstärkung
-   MenuLocation   *Architektur → Bewehrung
-   Workbenches   *[Architektur](Arch_Workbench/de.md),[BIM](BIM_Workbench/de.md)
-   Shortcut   ***R** **B**
-   SeeAlso   *[Architektur Struktur](Arch_Structure/de.md), [Verstärkungserweiterung](Reinforcement_Workbench/de.md)
+- GuiCommand:/de
+   Name:Arch Rebar
+   Name/de:Architektur Bewehrung oder 3D/BIM-Verstärkung
+   MenuLocation:Architektur → Bewehrung
+   Workbenches:[Architektur](Arch_Workbench/de.md),[BIM](BIM_Workbench/de.md)
+   Shortcut:**R** **B**
+   SeeAlso:[Architektur Struktur](Arch_Structure/de.md), [Verstärkungserweiterung](Reinforcement_Workbench/de.md)
 ---
 
 # Arch Rebar/de
@@ -15,31 +15,31 @@
 
 ## Beschreibung
 
-Das [Architektur Bewehrung](Arch_Rebar/de.md) Werkzeug erlaubt es, [Bewehrungsstäbe](https   *//de.wikipedia.org/wiki/Bewehrungsstahl) in [Struktur](Arch_Structure/de.md) Objekten zu platzieren.
+Das [Architektur Bewehrung](Arch_Rebar/de.md) Werkzeug erlaubt es, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) in [Struktur](Arch_Structure/de.md) Objekten zu platzieren.
 
 Das [Arch Bewehrung](Arch_Rebar/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
 Bewehrungsobjekte basieren auf 2D Profilen wie [Entwurfsobjekten](Draft_Workbench/de.md) und [Skizzen](Sketcher_Workbench/de.md), die auf einer Fläche des Strukturobjekts gezeichnet werden müssen. Nach der Erstellung kannst du die Eigenschaften des Bewehrungsstabs anpassen, einschließlich der Anzahl und des Durchmessers der Stäbe und des Versatzabstands zwischen ihnen und den Flächen des Strukturelements.
 
-<img alt="" src=images/Arch_Rebar_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Strukturobjekt mit zwei auf seinen Flächen gezeichneten Skizzen, die dann in zwei Sätze von Bewehrungsobjekten umgewandelt werden*
 
 ## Verfügbare Erweiterung 
 
-Das Bewehrungswerkzeug wird durch den Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) erweitert, der über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert wird. Die zusätzlich verfügbaren Bewehrungstypen der Erweiterung sind   *
+Das Bewehrungswerkzeug wird durch den Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) erweitert, der über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert wird. Die zusätzlich verfügbaren Bewehrungstypen der Erweiterung sind:
 
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width   *32px;"> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width   *32px;"> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width   *32px;"> [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width   *32px;"> [Gebogener Formstab](Arch_Rebar_BentShape/de.md)
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width   *32px;"> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width   *32px;"> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
+-   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)
+-   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)
+-   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
+-   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Gebogener Formstab](Arch_Rebar_BentShape/de.md)
+-   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
+-   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
 
 ## Anwendung
 
-1.  Wechsle zum <img alt="" src=images/Workbench_Arch.svg  style="width   *16px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md)
+1.  Wechsle zum <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md)
 2.  Erstelle ein **<img src="images/Arch_Structure.svg" width=16px> [Architektur Struktur](Arch_Structure/de.md)** Element
-3.  Wechsle zum <img alt="" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md).
+3.  Wechsle zum <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md).
 4.  Wähle eine Fläche des Strukturelements.
 5.  Drücke die **<img src="images/Sketcher_NewSketch.png" width=16px> [Neue Skizze](Sketcher_NewSketch/de.md)** Schaltfläche, um eine neue Skizze auf der gewählten Fläche zu erstellen.
 6.  Zeichne das Balkendiagramm.
@@ -61,28 +61,28 @@ Obwohl ein Bewehrungsstab normalerweise in einem Architekturelement verwendet wi
 
 ## Eigenschaften
 
--    {{PropertyData/de|Anzahl}}   * Die Anzahl von Stäben.
+-    {{PropertyData/de|Anzahl}}: Die Anzahl von Stäben.
 
--    {{PropertyData/de|Durchmesser}}   * Der Durchmesser der Stäbe.
+-    {{PropertyData/de|Durchmesser}}: Der Durchmesser der Stäbe.
 
--    {{PropertyData/de|Richtung}}   * Die Richtung (und Länge), über die die Stäbe verteilt werden müssen. Wenn der Wert (0,0,0) ist, wird die Richtung automatisch abhängig vom Host-Strukturobjekt gesetzt
+-    {{PropertyData/de|Richtung}}: Die Richtung (und Länge), über die die Stäbe verteilt werden müssen. Wenn der Wert (0,0,0) ist, wird die Richtung automatisch abhängig vom Host-Strukturobjekt gesetzt
 
--    {{PropertyData/de|Versatzbeginn}}   * Der Versatzabstand zwischen dem Rand des Strukturobjekts und dem ersten Stab.
+-    {{PropertyData/de|Versatzbeginn}}: Der Versatzabstand zwischen dem Rand des Strukturobjekts und dem ersten Stab.
 
--    {{PropertyData/de|Versatzende}}   * Der Versatzabstand zwischen dem Rand des Strukturobjekts und dem letzten Stab.
+-    {{PropertyData/de|Versatzende}}: Der Versatzabstand zwischen dem Rand des Strukturobjekts und dem letzten Stab.
 
--    {{PropertyData/de|Verrundung}}   * Ein Verrundungswert in den Ecken der Stäbe, ausgedrückt als das Vielfache des Durchmessers.
+-    {{PropertyData/de|Verrundung}}: Ein Verrundungswert in den Ecken der Stäbe, ausgedrückt als das Vielfache des Durchmessers.
 
--    {{PropertyData/de|Leerraum}}   * Der Abstand zwischen den Achsen jedes Stabs.
+-    {{PropertyData/de|Leerraum}}: Der Abstand zwischen den Achsen jedes Stabs.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Bewehrungsstabwerkzeug kann in [Makros](macros/de.md) und aus der [PythonKonsole](Python/de.md) aus mit folgender Funktion verwendet werden   * 
+Das Bewehrungsstabwerkzeug kann in [Makros](macros/de.md) und aus der [PythonKonsole](Python/de.md) aus mit folgender Funktion verwendet werden: 
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
@@ -94,7 +94,7 @@ Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=Non
         , `amount` und `offset` werden verwendet, um die Charakteristiken der Stäbe zu definieren.
 -   Falls `diameter` (Durchmesser), `amount` (Menge) oder `offset` (Abstand) nicht angegeben sind, werden die Standardwerte aus den [Arch Einstellungen](Arch_Preferences/de.md) verwendet.
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -106,7 +106,7 @@ FreeCAD.ActiveDocument.recompute()
 
 p1 = FreeCAD.Vector(-400, 400, 0)
 p2 = FreeCAD.Vector(400, 400, 0)
-Sketch = FreeCAD.ActiveDocument.addObject('Sketcher   *   *SketchObject', 'Sketch')
+Sketch = FreeCAD.ActiveDocument.addObject('Sketcher::SketchObject', 'Sketch')
 Sketch.MapMode = "FlatFace"
 Sketch.Support = [(Structure, "Face6")]
 Sketch.addGeometry(Part.LineSegment(p1, p2))
@@ -126,11 +126,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
- 
-
-[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

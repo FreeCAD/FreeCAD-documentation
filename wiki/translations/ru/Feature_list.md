@@ -24,23 +24,23 @@
 
 ## Основные функции 
 
--   ![](images/Feature1.jpg ) Полное **геометрическое ядро**, основанное на [OpenCasCade](http   *//ru.wikipedia.org/wiki/Open_CASCADE_Technology), позволяет производить сложные трёхмерные операции над сложными типами форм, со встроенной поддержкой таких понятий, как   * [Граничное представление](https   *//ru.wikipedia.org/wiki/Граничное_представление) (boundary representation, BREP), Кривые и поверхности [неоднородных рациональных B-сплайнов](https   *//ru.wikipedia.org/wiki/NURBS) (Non-uniform rational basis spline, NURBS), широкий спектр геометрических объектов, булевы операции над фигурами или [сопряжения](http   *//en.wikipedia.org/wiki/Fillet_%28mechanics%29) и встроенную поддержку форматов [STEP](https   *//ru.wikipedia.org/wiki/STEP_(стандарт)) и [IGES](https   *//ru.wikipedia.org/wiki/IGES) 
+-   ![](images/Feature1.jpg ) Полное **геометрическое ядро**, основанное на [OpenCasCade](http://ru.wikipedia.org/wiki/Open_CASCADE_Technology), позволяет производить сложные трёхмерные операции над сложными типами форм, со встроенной поддержкой таких понятий, как: [Граничное представление](https://ru.wikipedia.org/wiki/Граничное_представление) (boundary representation, BREP), Кривые и поверхности [неоднородных рациональных B-сплайнов](https://ru.wikipedia.org/wiki/NURBS) (Non-uniform rational basis spline, NURBS), широкий спектр геометрических объектов, булевы операции над фигурами или [сопряжения](http://en.wikipedia.org/wiki/Fillet_%28mechanics%29) и встроенную поддержку форматов [STEP](https://ru.wikipedia.org/wiki/STEP_(стандарт)) и [IGES](https://ru.wikipedia.org/wiki/IGES) 
 -   ![](images/Feature3.jpg ) **Полностью параметрическая** модель данных. Объекты FreeCAD параметрические в основе, то есть их форма может полностью зависеть от [параметров](Property/ru.md) или даже зависеть от других объектов, все изменения пересчитываются по запросу, и записываются в стеке отмен-возвратов. Легко могут быть добавлены новые объекты, которые могут быть даже [написаны на python](Scripted_objects/ru.md)
 -   ![](images/Feature4.jpg ) **Модульная архитектура**, позволяющая добавлять функциональность через плагины (модули). Эти расширения могут быть комплексными и программироваться на C++, или простыми как [скрипты Python](Power_users_hub/ru.md) или записываемые самостоятельно [макросы](macros/ru.md). У Вас есть полный доступ из встроенного интерпретатора **Python**, макросов или внешних сценариев к практически любой части FreeCAD, позволяя [создавать и изменять геометрию](Topological_data_scripting/ru.md), двумерное и объёмное представление этой геометрии ([scenegraph](scenegraph/ru.md)) или даже [интерфейс FreeCAD](PySide/ru.md) 
--   ![](images/Feature5.jpg ) Импорт/экспорт в **стандартные форматы**, такие как   * [STEP](http   *//ru.wikipedia.org/wiki/STEP_(стандарт)), [IGES](http   *//ru.wikipedia.org/wiki/IGES), [OBJ](http   *//ru.wikipedia.org/wiki/Obj), [файла) STL](http   *//ru.wikipedia.org/wiki/STL_(формат), [DXF](http   *//ru.wikipedia.org/wiki/DXF), [SVG](http   *//ru.wikipedia.org/wiki/SVG),[U3D](http   *//ru.wikipedia.org/wiki/Universal_3D), [DAE](https   *//ru.wikipedia.org/wiki/COLLADA), [IFC](https   *//ru.wikipedia.org/wiki/Industry_Foundation_Classes), [OFF](http   *//people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](https   *//ru.wikipedia.org/wiki/NX_CAE), [VRML](https   *//ru.wikipedia.org/wiki/VRML), кроме собственного формата FreeCAD **[Fcstd](Fcstd_file_format/ru.md)**. Уровень совместимости между FreeCAD и данными форматами может различаться, поскольку зависит от поддерживающего их модуля.
+-   ![](images/Feature5.jpg ) Импорт/экспорт в **стандартные форматы**, такие как: [STEP](http://ru.wikipedia.org/wiki/STEP_(стандарт)), [IGES](http://ru.wikipedia.org/wiki/IGES), [OBJ](http://ru.wikipedia.org/wiki/Obj), [файла) STL](http://ru.wikipedia.org/wiki/STL_(формат), [DXF](http://ru.wikipedia.org/wiki/DXF), [SVG](http://ru.wikipedia.org/wiki/SVG),[U3D](http://ru.wikipedia.org/wiki/Universal_3D), [DAE](https://ru.wikipedia.org/wiki/COLLADA), [IFC](https://ru.wikipedia.org/wiki/Industry_Foundation_Classes), [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](https://ru.wikipedia.org/wiki/NX_CAE), [VRML](https://ru.wikipedia.org/wiki/VRML), кроме собственного формата FreeCAD **[Fcstd](Fcstd_file_format/ru.md)**. Уровень совместимости между FreeCAD и данными форматами может различаться, поскольку зависит от поддерживающего их модуля.
 -   ![](images/Feature7.jpg ) Модуль [эскизирования](Sketcher_Workbench/ru.md) со встроенным вычислителем ограничений, позволяющий создавать эскизы с геометрически ограниченными двухмерными формами. Создаваемые с помощью Sketcher двумерные геометрические фигуры с ограничениями могут использоваться как база для построения других объектов FreeCAD. 
 -   ![](images/Feature9.jpg ) Модуль [робототехники](Robot_Workbench/ru.md), позволяющий изучать движение роботов в графическом интерфейсе. 
 -   ![](images/Feature8.jpg )Удобный новый модуль для создания [традиционных чертежей](TechDraw_Workbench/ru.md) с опциями вроде видов детализации, сечений, образмеривания и других, которые позволяют создать двумерный вид вашей трёхмерной модели. Эти модули создают листы, готовые к экспорту в SVG или PDF. Так же есть более старый [модуль черчения](Drawing_Workbench/ru.md) с его небогатыми возможностями графического интерфейса, но мощной функциональностью через Python.
--   ![](images/Feature-raytracing.jpg ) Модуль [рендеринга](Raytracing_Workbench/ru.md) может экспортировать 3D объекты для рендеринга во внешние программы. Пока что он поддерживает только [POV-Ray](https   *//ru.wikipedia.org/wiki/POV-Ray) и [LuxRender](https   *//ru.wikipedia.org/wiki/LuxRender)
--   ![](images/Feature-arch.jpg ) Модуль [архитектуры](Arch_Workbench/ru.md) позволяет работать по процессу [информационного моделирования здания](http   *//ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM), при совместимости со спецификацией [IFC](http   *//ru.wikipedia.org/wiki/Industry_Foundation_Classes). 
--   ![](images/Feature-CAM.jpg ) [Модуль Path](Path_Workbench/ru.md) посвящён [автоматизации механической обработки](https   *//ru.wikipedia.org/wiki/CAM) (Computer-aided manufacturing, CAM), например, фрезерования, и может выводить, показывать и настраивать [G-код](https   *//ru.wikipedia.org/wiki/G-code).
+-   ![](images/Feature-raytracing.jpg ) Модуль [рендеринга](Raytracing_Workbench/ru.md) может экспортировать 3D объекты для рендеринга во внешние программы. Пока что он поддерживает только [POV-Ray](https://ru.wikipedia.org/wiki/POV-Ray) и [LuxRender](https://ru.wikipedia.org/wiki/LuxRender)
+-   ![](images/Feature-arch.jpg ) Модуль [архитектуры](Arch_Workbench/ru.md) позволяет работать по процессу [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM), при совместимости со спецификацией [IFC](http://ru.wikipedia.org/wiki/Industry_Foundation_Classes). 
+-   ![](images/Feature-CAM.jpg ) [Модуль Path](Path_Workbench/ru.md) посвящён [автоматизации механической обработки](https://ru.wikipedia.org/wiki/CAM) (Computer-aided manufacturing, CAM), например, фрезерования, и может выводить, показывать и настраивать [G-код](https://ru.wikipedia.org/wiki/G-code).
 -   ![](images/Feature_spreadsheet.png ) Интегрированный обработчик [электронных таблиц](Spreadsheet_Workbench/ru.md) и [выражений](Expressions/ru.md), который может использоваться для управления моделями через формулы и централизованной организации данных моделей.
 
 ## Общие функции 
 
 -   **кроссплатформенность**. FreeCAD запускается и ведёт себя точно также на Windows, Linux, macOS и других платформах.
 
--   **полностью графическое приложение**. FreeCAD обладает законченным Графическим Интерфейсом Пользователя, основанном на инструментарии [Qt](https   *//www.qt.io/), с 3D просмотрщиком, основанным на [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor), позволяющим быстро отрисовывать 3D сцены c весьма доступным представлением SceneGraf.
+-   **полностью графическое приложение**. FreeCAD обладает законченным Графическим Интерфейсом Пользователя, основанном на инструментарии [Qt](https://www.qt.io/), с 3D просмотрщиком, основанным на [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor), позволяющим быстро отрисовывать 3D сцены c весьма доступным представлением SceneGraf.
 
 -   **может работать, как консольное приложение из командной строки**. В режиме командной строки FreeCAD запускается без графического интерфейса, но со всеми инструментами геометрии. В этом режиме он требует относительно мало памяти и может быть использован, например, в качестве сервера для создания содержимого другим приложениям.
 
@@ -54,7 +54,7 @@
 
 -   **создание параметрических примитивов**. Примитивы вроде куба, сферы, цилиндра и т.д. могут создаваться определением их геометрических ограничений.
 
--   **операции по графическому изменению**. FreeCAD может выполнять перемещение, вращение, масштабирование, отражение, смещение (простое или описанное в [Jung/Shin/Choi](https   *//www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) или изменение формы в любой плоскости трёхмерного пространства.
+-   **операции по графическому изменению**. FreeCAD может выполнять перемещение, вращение, масштабирование, отражение, смещение (простое или описанное в [Jung/Shin/Choi](https://www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) или изменение формы в любой плоскости трёхмерного пространства.
 
 -   **[конструктивная блочная геометрия](Constructive_solid_geometry/ru.md) (булевы операции)**. FreeCAD может выполнять операции конструктивной блочной геометрии (объединение, разность, пересечение).
 
@@ -72,7 +72,7 @@
 
 -   **ориентация на транзакции**. Стек отмен/возвратов хранит транзакции документа, а не одиночные действия, что позволяет каждому инструменту точно определить, что должно быть отменено или переделано.
 
--   **встроенная инфраструктура [сценариев](Scripting/ru.md)**. FreeCAD обладает встроенными [Python](http   *//www.python.org/) интерпретатором, с API, которые охватывают практически любую часть предложения, интерфейса, геометрии и представления этой геометрии в 3D просмотрщике. Интерпретатор может запускать как сложные сценарии, так и одиночные команды, целые модули могут быть полностью запрограммированы на Python.
+-   **встроенная инфраструктура [сценариев](Scripting/ru.md)**. FreeCAD обладает встроенными [Python](http://www.python.org/) интерпретатором, с API, которые охватывают практически любую часть предложения, интерфейса, геометрии и представления этой геометрии в 3D просмотрщике. Интерпретатор может запускать как сложные сценарии, так и одиночные команды, целые модули могут быть полностью запрограммированы на Python.
 
 -   **встроенная консоль Python**. Интерпретатор Python включает консоль с подсвечиванием синтаксиса, автодополнением и просмотром классов. Команды Python могут быть выполнены прямо в FreeCAD и напрямую возвращать результаты, позволяя программистам тестировать работу на ходу, раскрывая содержимое модулей FreeCAD\'а и легко изучая его внутренности.
 
@@ -82,7 +82,7 @@
 
 -   **составной (основанный на ZIP) формат хранения документов**. Документы FreeCAD сохраняются с расширением **.[FCStd](File_Format_FCStd/ru.md)**. Он может содержать множество различных типов информации, таких как геометрия, сценарии или иконки миниатюр. Файл **.FCStd** представляет собой архив zip, так что сохранённый файл FreeCAD уже сжат по умолчанию.
 
--   **полностью настраиваемый/сценарируемый Графический Интерфейс Пользователя**. Основанный на [Qt](https   *//www.qt.io) интерфейс FreeCAD полностью доступен из интерпретатора Python. Помимо простых функций самого FreeCAD предоставляются инструментарии, а также полный доступ к структуре Qt. Пользователь может выполнять любые операции с ГИП, такие как создание, документирование, изменение и удаление виджетов и панелей инструментов.
+-   **полностью настраиваемый/сценарируемый Графический Интерфейс Пользователя**. Основанный на [Qt](https://www.qt.io) интерфейс FreeCAD полностью доступен из интерпретатора Python. Помимо простых функций самого FreeCAD предоставляются инструментарии, а также полный доступ к структуре Qt. Пользователь может выполнять любые операции с ГИП, такие как создание, документирование, изменение и удаление виджетов и панелей инструментов.
 
 -   **миниатюры**. (пока только в Linux системах) Значки документа FreeCAD, показывающие содержимое файла в большинстве файловых менеджеров таких как Nautilus в Gnome.
 
@@ -97,11 +97,6 @@
 |[О FreeCAD](About_FreeCAD/ru.md)
 |[Установка в Windows](Installing_on_Windows/ru.md)
 }}
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

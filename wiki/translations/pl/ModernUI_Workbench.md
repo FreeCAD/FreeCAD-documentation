@@ -1,14 +1,14 @@
 # ModernUI Workbench/pl
 }
 
-<img alt="Ikonka FreeCAD dla środowiska Nowoczesny UI" src=images/ModernUI_workbench_icon.svg  style="width   *128px;">
+<img alt="Ikonka FreeCAD dla środowiska Nowoczesny UI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}
 
 ## Wprowadzenie
 
-Środowisko pracy [Nowoczesny UI](ModernUI_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md), które zastępuje standardowy interfejs użytkownika. Posiada ono nowoczesne funkcje, takie jak   *
+Środowisko pracy [Nowoczesny UI](ModernUI_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md), które zastępuje standardowy interfejs użytkownika. Posiada ono nowoczesne funkcje, takie jak:
 
 -   Każde środowisko pracy posiada swoją zakładkę wstążki.
 -   zakładka **Modern UI** zastępuje menu główne.
@@ -17,8 +17,8 @@
 
 ## Ustawienia
 
--   Autor   * Hakan Seven
--   Kod źródłowy na portalu github   * [Source code Modern-UI](https   *//github.com/HakanSeven12/Modern-UI)
+-   Autor: Hakan Seven
+-   Kod źródłowy na portalu github: [Source code Modern-UI](https://github.com/HakanSeven12/Modern-UI)
 
 ## Ograniczenia i rozwiązywanie problemów 
 
@@ -28,9 +28,9 @@
 
 ## Instalacja
 
-Instalację wykonaj za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
+Instalację wykonaj za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-Uwaga   * Aby odinstalować, musisz utworzyć makro i wykonać je. Jeśli nie czujesz się pewnie w tej kwestii, rozważ możliwość zaniechania instalacji.
+Uwaga: Aby odinstalować, musisz utworzyć makro i wykonać je. Jeśli nie czujesz się pewnie w tej kwestii, rozważ możliwość zaniechania instalacji.
 
 Uruchamianie Nowoczesnego UI w samodzielnym katalogu
 
@@ -38,7 +38,7 @@ Aby łatwo przetestować Nowoczesny UI bez zakłócania standardowej konfiguracj
 
 #### Linux
 
-Dla przykładu   *
+Dla przykładu:
 
     $ mkdir modernUI  # new directory that contains Modern UI
     $ cd modernUI
@@ -54,19 +54,19 @@ Nie ma jeszcze odpowiednich instrukcji dla systemu Windows, jednak procedura ta 
 
 ## Odinstalowanie
 
-Szczegółowe instrukcje można znaleźć na [GitHub](https   *//github.com/HakanSeven12/Modern-UI#uninstallation).
+Szczegółowe instrukcje można znaleźć na [GitHub](https://github.com/HakanSeven12/Modern-UI#uninstallation).
 
-1.  Deinstalacja za pomocą <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
+1.  Deinstalacja za pomocą <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
 2.  Uruchom ponownie FreeCAD.
-3.  Utwórz makro z tym kodem   *```python
+3.  Utwórz makro z tym kodem:```python
     from PySide2 import QtCore, QtGui, QtWidgets
     mw = FreeCADGui.getMainWindow()
     mw.menuBar().show()
      
     WBList = FreeCADGui.listWorkbenches()
-    for WB in WBList   *
+    for WB in WBList:
         FreeCADGui.activateWorkbench(WB)
-        for tb in mw.findChildren(QtWidgets.QToolBar)   *
+        for tb in mw.findChildren(QtWidgets.QToolBar):
             tb.show()
     
 ```
@@ -75,14 +75,9 @@ Szczegółowe instrukcje można znaleźć na [GitHub](https   *//github.com/Haka
 
 ## Odnośniki internetowe 
 
--   Forum FreeCAD   * <https   *//forum.freecadweb.org/viewtopic.php?f=34&t=44937>
--   Zgłaszanie błędów   * <https   *//github.com/HakanSeven12/Modern-UI>
--   Patreon (aby wesprzeć autora)   * <https   *//www.patreon.com/HakanSeven12>
-
-
-
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+-   Forum FreeCAD: <https://forum.freecadweb.org/viewtopic.php?f=34&t=44937>
+-   Zgłaszanie błędów: <https://github.com/HakanSeven12/Modern-UI>
+-   Patreon (aby wesprzeć autora): <https://www.patreon.com/HakanSeven12>
 
 
 

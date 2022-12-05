@@ -1,31 +1,31 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft AddToGroup
-   Name/fr   *Draft Déplacer vers un groupe
-   MenuLocation   *Utilitaires → Déplacer vers le groupe...
-   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Std Créer un groupe](Std_Group/fr.md), [Draft Nommer un groupe](Draft_AddNamedGroup/fr.md), [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md)
+- GuiCommand:/fr
+   Name:Draft AddToGroup
+   Name/fr:Draft Déplacer vers un groupe
+   MenuLocation:Utilitaires → Déplacer vers le groupe...
+   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Std Créer un groupe](Std_Group/fr.md), [Draft Nommer un groupe](Draft_AddNamedGroup/fr.md), [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md)
 ---
 
 # Draft AddToGroup/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_AddToGroup.svg  style="width   *24px;"> **Draft Déplacer vers le groupe** déplace les objets vers un [Std Groupe](Std_Group/fr.md). Elle peut aussi dégrouper des objets.
+La commande <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Déplacer vers le groupe** déplace les objets vers un [Std Groupe](Std_Group/fr.md). Elle peut aussi dégrouper des objets.
 
 Dans la version 0.20 de FreeCAD, la commande peut également gérer les objets de type groupe [Arch](Arch_Workbench/fr.md).
 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Il existe plusieurs façons de lancer la commande    *
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_AddToGroup.svg" width=16px> [Déplacer vers le groupe...](Draft_AddToGroup/fr.md)**.
     -   Sélectionnez le bouton **Utilitaires → <img src="images/Draft_AddToGroup.svg" width=16px> [Déplacer vers le groupe...](Draft_AddToGroup/fr.md)** dans le menu.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddToGroup.svg" width=16px> Déplacer vers le groupe... ** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
-3.  Un menu s\'affiche près du curseur. Effectuez l\'une des opérations suivantes    *
+3.  Un menu s\'affiche près du curseur. Effectuez l\'une des opérations suivantes :
     -   Sélectionnez **Dégrouper** pour déplacer les objets hors du ou des groupes dans lesquels ils se trouvent.
     -   Sélectionnez le groupe vers lequel vous voulez déplacer les objets.
-    -   Sélectionnez **+ Ajouter un nouveau groupe** pour déplacer les objets vers un nouveau groupe    * {{Version/fr|0.20}}
+    -   Sélectionnez **+ Ajouter un nouveau groupe** pour déplacer les objets vers un nouveau groupe : {{Version/fr|0.20}}
         1.  Le panneau de tâches **Ajouter un groupe** s\'ouvre.
         2.  Saisissez un **Nom du groupe**.
         3.  Appuyez sur le bouton **OK**.

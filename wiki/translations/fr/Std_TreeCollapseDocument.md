@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std TreeCollapseDocument
-   Name/fr   *Std Arborescence Réduire développer
-   MenuLocation   *Affichage → Configuration de l'arborescence → Réduire/développer
-   Workbenches   *Tous
-   Version   *0.19
-   SeeAlso   *[Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md)
+- GuiCommand:/fr
+   Name:Std TreeCollapseDocument
+   Name/fr:Std Arborescence Réduire développer
+   MenuLocation:Affichage → Configuration de l'arborescence → Réduire/développer
+   Workbenches:Tous
+   Version:0.19
+   SeeAlso:[Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md)
 ---
 
 # Std TreeCollapseDocument/fr
@@ -16,13 +16,13 @@ La commande **Std Réduire développer** bascule la [vue en arborescence](tree_v
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Réduire/développer** dans le menu déroulant. Remarque   * l\'image du bouton changera en fonction de l\'option sélectionnée.
+1.  Il existe plusieurs façons d\'appeler la commande:
+    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Réduire/développer** dans le menu déroulant. Remarque: l\'image du bouton changera en fonction de l\'option sélectionnée.
     -   Sélectionnez l\'option **Affichage → Configuration de l'arborescence → <img src="images/Std_TreeCollapseDocument.svg" width=16px> Réduire/développer** dans le menu.
 
 ## Préférences
 
-Le mode de l\'arborescence est enregistré   * **Outils → Editer paramètres... → BaseApp → Preferences → TreeView → DocumentMode**. Il s\'agit d\'une valeur entière. Les valeurs possibles sont `0` (SingleDocument- un seul document), `1` (MultiDocument - plusieurs documents) ou `2` (CollapseDocument - Réduire les documents). La valeur par défaut est `2`.
+Le mode de l\'arborescence est enregistré: **Outils → Editer paramètres... → BaseApp → Preferences → TreeView → DocumentMode**. Il s\'agit d\'une valeur entière. Les valeurs possibles sont `0` (SingleDocument- un seul document), `1` (MultiDocument - plusieurs documents) ou `2` (CollapseDocument - Réduire les documents). La valeur par défaut est `2`.
 
 
 

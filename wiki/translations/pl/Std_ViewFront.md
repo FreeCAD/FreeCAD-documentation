@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewFront
-   Name/pl   *Std   * Widok od przodu
-   MenuLocation   *Widok → Widoki standardowe → Od przodu
-   Workbenches   *wszystkie
-   Shortcut   ***1**
-   SeeAlso   *[Widok od góry](Std_ViewTop/pl.md), [Widok od prawej](Std_ViewRight/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewFront
+   Name/pl:Std: Widok od przodu
+   MenuLocation:Widok → Widoki standardowe → Od przodu
+   Workbenches:wszystkie
+   Shortcut:**1**
+   SeeAlso:[Widok od góry](Std_ViewTop/pl.md), [Widok od prawej](Std_ViewRight/pl.md)
 ---
 
 # Std ViewFront/pl
@@ -19,16 +19,16 @@ Polecenie **Widok od przodu** ustawia ujęcie widoku w aktywnym oknie [widoku 3D
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_ViewFront.svg" width=16px> [Od przodu](Std_ViewFront/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFront.svg" width=16px> Od przodu**.
     -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewFront.svg" width=16px> Od przodu**.
-    -   Użyj skrótu klawiaturowego   * **1**.
+    -   Użyj skrótu klawiaturowego: **1**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

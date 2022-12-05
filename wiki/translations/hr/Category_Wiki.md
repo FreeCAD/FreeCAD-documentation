@@ -1,8 +1,6 @@
 # Category:Wiki/hr
 This category contains all documents that relate to the Wiki.
 
-[Category   *Administration/hr](Category   *Administration/hr.md) [Category   *Categories/hr](Category   *Categories/hr.md) [Category   *Documentation/hr](Category   *Documentation/hr.md)
-
 ### Contents
 
 |     |     |     |

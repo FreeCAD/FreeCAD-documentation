@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Robot SetHomePos
-   Name/fr   *Robot Position de départ
-   MenuLocation   *Robot → Définir la position de départ
-   Workbenches   *[Robot](Robot_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Robot SetHomePos
+   Name/fr:Robot Position de départ
+   MenuLocation:Robot → Définir la position de départ
+   Workbenches:[Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot SetHomePos/fr
@@ -15,7 +15,7 @@ Définit la position/orientation actuelle du robot sélectionné comme position 
 ## Utilisation
 
 1.  Sélectionnez le robot dans la [Vue en arborescence](Tree_view/fr.md) ou dans la [Vue 3D](3D_view/fr.md).
-2.  Cliquez sur <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> ou choisissez **Robot**. → **<img src="images/Robot_SetHomePos.svg" width=32px> Définir la position de départ** dans le menu supérieur.
+2.  Cliquez sur <img alt="" src=images/Robot_SetHomePos.svg  style="width:32px;"> ou choisissez **Robot**. → **<img src="images/Robot_SetHomePos.svg" width=32px> Définir la position de départ** dans le menu supérieur.
 
 #### Notes
 

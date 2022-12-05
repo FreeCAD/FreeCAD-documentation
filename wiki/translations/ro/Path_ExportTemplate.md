@@ -1,6 +1,6 @@
 # Path ExportTemplate/ro
 ---
-- GuiCommand   *   Name   *Path ExportTemplate   Workbenches   *[MenuLocation   *Path → Export Template   SeeAlso   *[[Path_SetupSheet|Path SetupSheet](Path_Workbench___Path]].md) ---
+- GuiCommand:   Name:Path ExportTemplate   Workbenches:[MenuLocation:Path → Export Template   SeeAlso:[[Path_SetupSheet|Path SetupSheet](Path_Workbench___Path]].md) ---
 
 
 </div>
@@ -30,7 +30,7 @@ Tab-ul Edit-\>Preferences\...-\>Path-\>Job Preferences tab, Defaults-\>Template 
 
 Crearea unui Șablon
 
-1.  Din interiorul oricărui Job configurat, invokați comanda <img alt="" src=images/Path-ExportTemplate.png  style="width   *16px;"> [Export Template](Path_ExportTemplate.md) din Path-\>menu, sau prin right-clicking nodul Job în vizualizarea Combo .
+1.  Din interiorul oricărui Job configurat, invokați comanda <img alt="" src=images/Path-ExportTemplate.png  style="width:16px;"> [Export Template](Path_ExportTemplate.md) din Path-\>menu, sau prin right-clicking nodul Job în vizualizarea Combo .
 2.  Selectați elementele pentru incizie din dialogul de configurare a Export Template .
 3.  Click OK și salvați șablonul. Numele Șablonului trebuie să urmeze modelul job\_.json Când este afișat în combobox de selectare, job\_ prefix și extensia vor fi afișate. Accesul în Atelierul Path necesită salvarea modelelor în Directorul Macro sau Directorul Path, așa cum sunt configurate în Path Preferences.
 
@@ -60,8 +60,8 @@ Crearea unui Șablon
 
 ## Stock 
 
--   Extent   * Stock Size
--   Placement   * Stock Location
+-   Extent: Stock Size
+-   Placement: Stock Location
 
 
 </div>

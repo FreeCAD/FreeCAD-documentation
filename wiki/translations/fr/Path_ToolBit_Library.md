@@ -23,28 +23,28 @@ L\'outil coupant n\'a pas d\'identifiant propre. L\'identifiant est une proprié
 
 ## Exportation
 
-Une bibliothèque d\'outil coupants peut être exportée pour créer une [LinuxCNC Table d\'outils](http   *//wiki.linuxcnc.org/cgi-bin/wiki.pl?ToolTable) (.tbl).
+Une bibliothèque d\'outil coupants peut être exportée pour créer une [LinuxCNC Table d\'outils](http://wiki.linuxcnc.org/cgi-bin/wiki.pl?ToolTable) (.tbl).
 
 ## Structure JSON 
 
 
 {{Code|
 {
-  "tools"   * [
+  "tools": [
     {
-      "nr"   * 1,
-      "path"   * "t1.fctb"
+      "nr": 1,
+      "path": "t1.fctb"
     },
     {
-      "nr"   * 2,
-      "path"   * "t2.fctb"
+      "nr": 2,
+      "path": "t2.fctb"
     },
     {
-      "nr"   * 3,
-      "path"   * "t3.fctb"
+      "nr": 3,
+      "path": "t3.fctb"
     }
   ],
-  "version"   * 1
+  "version": 1
 }
 }}
 

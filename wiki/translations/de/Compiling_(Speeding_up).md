@@ -13,7 +13,7 @@ Installiere `ccache` zur Bau Zwischenspeicherung.
 
 Wenn `cmake` zur Konfiguration der Bauten verwendet werden, kannst du die Kompilierung bestimmter Arbeitsbereiche deaktivieren, die du im Moment möglicherweise nicht benötigst. Dies ist nützlich, wenn du nur einige wenige Arbeitsbereiche testen musst.
 
-Zum Beispiel, um den Bau der FEM- und Polygonnetz Arbeitsbereiche zu vermeiden   *
+Zum Beispiel, um den Bau der FEM- und Polygonnetz Arbeitsbereiche zu vermeiden:
 
 
 ```python
@@ -26,7 +26,7 @@ Verwende `cmake-gui`, `cmake-curses-gui`, oder `cmake-qt-gui`, um alle mögliche
 
 Nach der Konfiguration mit `cmake` startet das Programm `make` den eigentlichen C++-Compiler, um an den Quelltextdateien zu arbeiten. Du kannst die Kompilierung beschleunigen, indem du an verschiedenen Dateien gleichzeitig arbeitest. Dies wird mit der Option `-j` von `make` erreicht, die die Anzahl der gleichzeitig ausgeführten \"Jobs\" oder Kompilierungsbefehle angibt. Diese Option ist eine Ganzzahl.
 
-Führe vier Kompilierungsbefehle parallel aus   *
+Führe vier Kompilierungsbefehle parallel aus:
 
 
 ```python
@@ -50,14 +50,6 @@ make -j$(nproc --ignore=2)
 ## distcc
 
 Das Programm `distcc` kann verwendet werden, um eine verteilte Kompilierung von C- und C++-Code über mehrere Maschinen in einem Netzwerk durchzuführen.
-
-
-
-
-
-
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

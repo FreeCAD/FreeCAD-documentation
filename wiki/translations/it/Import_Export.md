@@ -5,7 +5,7 @@ Questa pagina elenca i vari formati di file che FreeCAD può importare ed esport
 
 ## Correlazioni
 
-Per maggiori informazioni consultare queste pagine   *
+Per maggiori informazioni consultare queste pagine:
 
 -   [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
@@ -38,7 +38,7 @@ Per maggiori informazioni consultare queste pagine   *
   \*.csg         OpenSCAD Constructive Solid Geometry format                                                                                                                  [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
   \*.csv         Comma-separated values spreadsheet                                                                                                                           [Std Import](Std_Import.md), [Spreadsheet Import](Spreadsheet_Import.md)           [Spreadsheet Export](Spreadsheet_Export.md)
   \*.cur         Image format                                                                                                                                                 [Image CreateImagePlane](Image_CreateImagePlane.md)                                        [Std ViewScreenShot](Std_ViewScreenShot.md)
-  \*.dae         Collada format. For Linux users   * External pyCollada module required.                                                                                         [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
+  \*.dae         Collada format. For Linux users: External pyCollada module required.                                                                                         [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
   \*.dat         Common airfoil data                                                                                                                                          [Std Import](Std_Import.md)                                                                no
   \*.dat         FEM mesh                                                                                                                                                     [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
   \*.dwg         AutoCAD native format. Only 2D geometry is supported. External software required.                                                                            [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
@@ -52,7 +52,7 @@ Per maggiori informazioni consultare queste pagine   *
   \*.html        Web 3D format                                                                                                                                                no                                                                                                 [Std Export](Std_Export.md)
   \*.icns        Image format                                                                                                                                                 [Image CreateImagePlane](Image_CreateImagePlane.md)                                        [Std ViewScreenShot](Std_ViewScreenShot.md)
   \*.ico         Image format                                                                                                                                                 [Image CreateImagePlane](Image_CreateImagePlane.md)                                        [Std ViewScreenShot](Std_ViewScreenShot.md)
-  \*.ifc         Industry Foundation Classes exchange format for BIM models. For Linux users   * External IfcOpenShell module required.                                          [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
+  \*.ifc         Industry Foundation Classes exchange format for BIM models. For Linux users: External IfcOpenShell module required.                                          [Std Import](Std_Import.md)                                                                [Std Export](Std_Export.md)
   \*.iges        Older solid-based format                                                                                                                                     [Std Import](Std_Import.md), [Part Import](Part_Import.md)                         [Std Export](Std_Export.md), [Part Export](Part_Export.md)
   \*.igs         Older solid-based format                                                                                                                                     [Std Import](Std_Import.md), [Part Import](Part_Import.md)                         [Std Export](Std_Export.md), [Part Export](Part_Export.md)
   \*.inc         Povray format                                                                                                                                                [Std Import](Std_Import.md)                                                                no
@@ -128,14 +128,6 @@ Per maggiori informazioni consultare queste pagine   *
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

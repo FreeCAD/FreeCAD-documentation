@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */pl
-   Topic   *Programowanie
-   Level   *Średniozaawansowany
-   Time   *15 minut
-   FCVersion   *Wszystkie
-   Author   *[r-frank](User   *R-Frank.md)
-   Files   *brak
+- TutorialInfo:/pl
+   Topic:Programowanie
+   Level:Średniozaawansowany
+   Time:15 minut
+   FCVersion:Wszystkie
+   Author:[r-frank](User:R-Frank.md)
+   Files:brak
 ---
 
 # How to install additional workbenches/pl
@@ -19,9 +19,9 @@
 Power users have extended FreeCAD with various custom [external workbenches](external_workbenches.md) that are not integrated into the core source code but are easy to install on an existing FreeCAD distribution. Here we will cover the installation methods for the different operating systems.
 
 
-**Note   ***
+**Note:**
 
-starting from version 0.17, FreeCAD features an <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn\'t work but you have access to the workbench downloaded as a **.zip** package.
+starting from version 0.17, FreeCAD features an <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn\'t work but you have access to the workbench downloaded as a **.zip** package.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -36,25 +36,25 @@ How to install additional workbenches and addons on Windows
 ### Obsolete
 
 
-**Note   ***
+**Note:**
 
 using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Std_AddonMgr.md) in all systems is the recommended way.
 
-Use the [addons-installer from Github](https   *//github.com/FreeCAD/FreeCAD-addons).
+Use the [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
 
-During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https   *//github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
+During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https://github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
 
 ### Manual Install 
 
 
-**Note   ***
+**Note:**
 
 This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
 -   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
 -   Unpack the downloaded archive on your local hard disk
 -   Within FreeCAD, locate the macro path by choosing **Edit → Preferences → General → Macro** and look for the "Macro path"
--   Supposed your Windows-Login is "*username*" the default macro path is **%APPDATA%\FreeCAD\** which is usually **C   *Users\''username''\Appdata\Roaming\FreeCAD**
+-   Supposed your Windows-Login is "*username*" the default macro path is **%APPDATA%\FreeCAD\** which is usually **C:\Users\''username''\Appdata\Roaming\FreeCAD**
 -   Within the macro-directory create (if not already present) a folder called "**Mod**"
 -   Within the Mod folder, create a folder with the name of the workbench, for example "Curves"
 -   Now move the unpacked files and sub-folders of the workbench to the just created workbench-folder
@@ -82,7 +82,7 @@ How to install additional workbenches and addons on Linux
 
 ### Using git 
 
-Adding the [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ubuntu/ppa) within the ppa-manager.
+Adding the [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) within the ppa-manager.
 Installing the workbenches via synaptic packet manager.
 
 
@@ -90,10 +90,10 @@ Installing the workbenches via synaptic packet manager.
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
-$ git clone  https   *//github.com/tomate44/CurvesWB.git
+$ git clone  https://github.com/tomate44/CurvesWB.git
 ```
 
-In FreeCAD you will now have a new workbench-entry called \"CurvesWB\". Once installed, use git to upgrade to the latest version   *
+In FreeCAD you will now have a new workbench-entry called \"CurvesWB\". Once installed, use git to upgrade to the latest version:
 
 
 ```python
@@ -105,7 +105,7 @@ $ rm *.pyc
 ### Manual Installation 
 
 
-**Note   ***
+**Note:**
 
 This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
@@ -137,17 +137,17 @@ How to install additional workbenches and addons on MacOS
 ### Manual Installation 
 
 
-**Note   ***
+**Note:**
 
 This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
-For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_Workbench.md) as the external workbench you want to install   *
+For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_Workbench.md) as the external workbench you want to install:
 
 -   Choose and download the git repository of your chosen external workbench as a ZIP file
--   There are two possible locations for your Addon workbench \'Mods\'   *
+-   There are two possible locations for your Addon workbench \'Mods\':
 
-1.  All Users   * **/Applications/FreeCAD.app/Contents/Resources/Mod**
-2.  Current user only   * **/Users/myusername/Library/Preferences/FreeCAD/Mod**
+1.  All Users: **/Applications/FreeCAD.app/Contents/Resources/Mod**
+2.  Current user only: **/Users/myusername/Library/Preferences/FreeCAD/Mod**
 
 -   If you use Finder to navigate manually to the All Users location in Applications you will need to
     -   go to **/Applications**\" and select FreeCAD.app
@@ -169,12 +169,7 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
 -   Go to **Tools → Customize → Workbenches** and make sure the workbench is not set to invisible.
 -   With 32-bit systems and FreeCAD 0.16.6706, after attempts to install, the additional Workbenches may not be available. In this case
     -   keep the [report view](report_view.md) open while starting FreeCAD, and read the error,
-    -   see this forum thread [Assembly2 in Version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
-
-
- 
-
-[Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+    -   see this forum thread [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
 

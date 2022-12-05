@@ -1,6 +1,6 @@
 # OpenSCAD RemoveSubtree/ro
 ---
-- GuiCommand   *   Name   *OpenSCAD RemoveSubtree‏‎    MenuLocation   *OpenSCAD → RemoveSubtree   |Workbenches   *[[OpenSCAD Workbench   OpenSCAD]]|Shortcut   *none   SeeAlso   *
+- GuiCommand:   Name:OpenSCAD RemoveSubtree‏‎    MenuLocation:OpenSCAD → RemoveSubtree   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:
 
 
 </div>
@@ -25,7 +25,7 @@ Elimină obiectele selectate și toți copiii care nu sunt menționați de alte 
 ## Utilizare
 
 1.  Selectați obiectul de șters/elimint.
-2.  Click pe <img alt="" src=images/OpenSCAD_RemoveSubtree.png  style="width   *32px;"> or choose ** OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.png" width=32px> Remove Objects and their children** din meniul principal.
+2.  Click pe <img alt="" src=images/OpenSCAD_RemoveSubtree.png  style="width:32px;"> or choose ** OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.png" width=32px> Remove Objects and their children** din meniul principal.
 
 
 </div>

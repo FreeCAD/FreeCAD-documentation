@@ -1,8 +1,6 @@
 # Category:Wiki/de
 Diese Kategorie zeigt eine Liste von Seiten, die zum Wiki/de gehören.
 
-[Category   *Administration/de](Category   *Administration/de.md) [Category   *Categories/de](Category   *Categories/de.md) [Category   *Documentation/de](Category   *Documentation/de.md)
-
 ### Contents
 
 |     |     |     |

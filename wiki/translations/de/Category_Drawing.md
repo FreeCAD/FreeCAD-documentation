@@ -1,8 +1,6 @@
 # Category:Drawing/de
 Diese Kategorie zeigt eine Liste der Seiten, die zum [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) gehören.
 
-[Category   *Obsolete Workbenches/de](Category   *Obsolete_Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

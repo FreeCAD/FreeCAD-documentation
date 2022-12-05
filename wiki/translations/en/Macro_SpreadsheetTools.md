@@ -2,23 +2,23 @@
 {{Macro
 |Name=Macro SpreadsheetTools
 |Icon=Macro_SpreadsheetTools.png
-|Description=This macro helps managing cells inside FreeCAD's Spreadsheet-workbench. It helps managing cells inside FreeCAD's Spreadsheet-workbench. With its help one is able to   *Cut/delete data and/or alias information, Copy data and/or an alias information, Paste data and/or alias information
+|Description=This macro helps managing cells inside FreeCAD's Spreadsheet-workbench. It helps managing cells inside FreeCAD's Spreadsheet-workbench. With its help one is able to:Cut/delete data and/or alias information, Copy data and/or an alias information, Paste data and/or alias information
 |Author=Wilfried Hortschitz
 |Version=0.2.08
 |Date=2017-11-03
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/3/35/Macro_SpreadsheetTools.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/3/35/Macro_SpreadsheetTools.png ToolBar Icon]
 }}
 
 ## Description
 
-This macro helps managing cells inside FreeCAD\'s Spreadsheet-workbench. It helps managing cells inside FreeCAD\'s Spreadsheet-workbench. With its help one is able to   *
+This macro helps managing cells inside FreeCAD\'s Spreadsheet-workbench. It helps managing cells inside FreeCAD\'s Spreadsheet-workbench. With its help one is able to:
 
 -   Cut/delete data and/or alias information in the selected area of cells.
 -   Copy data and/or an alias information in the selected area of cells to clipboard.
 -   Paste data and/or alias information in the selected area of cells from clipboard.
 
-More information might be found on FreeCAD forums   * <http   *//forum.freecadweb.org/> and particular on <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=20508&hilit=spreadsheet#p158443> and on Github on <https   *//github.com/HoWilgh/FCSpreadsheetTools/blob/master/README.md> .
+More information might be found on FreeCAD forums: <http://forum.freecadweb.org/> and particular on <https://forum.freecadweb.org/viewtopic.php?f=22&t=20508&hilit=spreadsheet#p158443> and on Github on <https://github.com/HoWilgh/FCSpreadsheetTools/blob/master/README.md> .
 
 ![](images/Screenshot_from_2017-09-02_20-01-49.png )
 
@@ -41,19 +41,19 @@ ToolBar Icon ![](images/Macro_SpreadsheetTools.png )
 # ============================================================================================================
 # version v0.2.08 !!! This is beta version code so backup your data first!!! The author assumes no liability for data loss.
 #
-# Macro developed for FreeCAD (http   *//www.freecadweb.org/).
-# This macro helps managing cells inside FreeCAD Spreadsheet workbench. It is able to   *
+# Macro developed for FreeCAD (http://www.freecadweb.org/).
+# This macro helps managing cells inside FreeCAD Spreadsheet workbench. It is able to:
 #        - Cut/delete data and/or alias fields in a selected area of cells
 #        - Copy data and/or alias fields in a selected area of cells to clipboard
 #        - Paste data and/or alias fields in a selected area of cells from cliboard
-# More information might be found on FreeCAD forums   * http   *//forum.freecadweb.org/
+# More information might be found on FreeCAD forums: http://forum.freecadweb.org/
 #
 #
 # LICENSE
 # ============================================================================================================
 #
 # This work is licensed under GNU Lesser General Public License (LGPL).
-# To view a copy of this license, visit https   *//www.gnu.org/licenses/lgpl-3.0.html.
+# To view a copy of this license, visit https://www.gnu.org/licenses/lgpl-3.0.html.
 # 
 # ============================================================================================================
 __title__   = "Spreadsheet_tools"
@@ -81,7 +81,7 @@ import string
 *Working* Paste from clipboard
 *Working* Copy and paste alias
 
-TODO   *
+TODO:
 * Check if something is overwritten and show a warning.
 * Use shortcuts like Ctrl-c.
 * Test if pandas is installed and offer import-export if available.
@@ -89,25 +89,25 @@ TODO   *
 * Right click menu??
 * Copy and paste formating???
 
-Known limitations   *
+Known limitations:
 * Does work only with one opened FC-Spreadsheet.
 * A cell has to be selected before selecting one of the options of Spreadsheet_tools.
 * Does not work on merged cells.
 '''
 
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    def _fromUtf8(s)   *
+except AttributeError:
+    def _fromUtf8(s):
         return s
 
-try   *
+try:
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig)   *
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError   *
-    def _translate(context, text, disambig)   *
+except AttributeError:
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
 
@@ -115,17 +115,17 @@ except AttributeError   *
 alphabet_list = list(string.ascii_uppercase)
 
 column_list = [] # is filled with A, B, C,.... AA, AB, AC,...
-for i in range(0,26)   *
+for i in range(0,26):
     column_list.append(alphabet_list[i])
 
-for i in range(0,26)   *
-    for j in range(0,26)   *
+for i in range(0,26):
+    for j in range(0,26):
         column_list.append(alphabet_list[i] + alphabet_list[j])
 
 
-class Spreadsheet_Tools(QtGui.QDialog)   *
+class Spreadsheet_Tools(QtGui.QDialog):
     """"""
-    def __init__(self, MainWindow)   *
+    def __init__(self, MainWindow):
         super(Spreadsheet_Tools, self).__init__()
         self.window = MainWindow
 
@@ -140,7 +140,7 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
         self.init_UI()
 
 
-    def init_UI(self)   *
+    def init_UI(self):
         FreeCAD.Console.PrintMessage("init_UI")
 
         option3Button = QtGui.QPushButton("Copy to clipboard")
@@ -206,15 +206,15 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
         self.setWindowTitle("Pick a Button")
 
 
-    def get_selection(self)   *
+    def get_selection(self):
 
         mw = FreeCADGui.getMainWindow()
         mdiarea = mw.findChild(QtGui.QMdiArea)
 
         subw = mdiarea.subWindowList()
 
-        for i in subw   *
-            if i.widget().metaObject().className() == "SpreadsheetGui   *   *SheetView"   *
+        for i in subw:
+            if i.widget().metaObject().className() == "SpreadsheetGui::SheetView":
                 sheet = i.widget()
 
                 table = sheet.findChild(QtGui.QTableView)
@@ -246,7 +246,7 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
         self.le_row = le_row
 
 
-    def delete_selection(self)   *
+    def delete_selection(self):
         # Delete selection
         self.get_selection()
 
@@ -256,135 +256,135 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
         columns = range(self.fe_col, self.le_col+1)
 
 
-        for row in rows   *
-            for column in columns   *
+        for row in rows:
+            for column in columns:
                 cell = column_list[column] + str(row+1)
-                if self.checkBox_1.isChecked()   *
+                if self.checkBox_1.isChecked():
                     App.ActiveDocument.Spreadsheet.set(cell, str(' ') )
-                if self.checkBox_2.isChecked()   *
-                    try   *
+                if self.checkBox_2.isChecked():
+                    try:
                         App.ActiveDocument.Spreadsheet.setAlias(cell, None)
-                    except   *
+                    except:
                         FreeCAD.Console.PrintMessage("\nCould not delete alias.")
-                if self.checkBox_3.isChecked()   *
-                    try   *
+                if self.checkBox_3.isChecked():
+                    try:
                         App.ActiveDocument.Spreadsheet.set(cell, '')
-                    except   *
+                    except:
                         FreeCAD.Console.PrintMessage("\nCould not delete formatting.")
 
         App.activeDocument().recompute()
 
 
-    def cut_delete_selection(self)   *
+    def cut_delete_selection(self):
         # Cut selection
         self.copy_to_clipboard()
         self.delete_selection()
 
 
-    def paste_from_clipboard(self)   *
+    def paste_from_clipboard(self):
         # Paste from clipboard
 
         self.get_selection()
 
         clipboard = QtGui.QApplication.clipboard()
 
-        if clipboard.mimeData().hasText()   *
+        if clipboard.mimeData().hasText():
 
             cbtext = clipboard.mimeData().text()
             cbtext_split = [s.split('\t') for s in cbtext.splitlines()]
 
-            if self.checkBox_1.isChecked() and self.checkBox_2.isChecked() and self.checkBox_3.isChecked()   *
+            if self.checkBox_1.isChecked() and self.checkBox_2.isChecked() and self.checkBox_3.isChecked():
 
                 n_cells = len(cbtext_split)/3
 
                 index_col = self.fe_col
-                for n_line, line in zip(range(n_cells), cbtext_split[0   *n_cells])   *
-                    for n_word, col in zip(range(len(line)), line)   *
+                for n_line, line in zip(range(n_cells), cbtext_split[0:n_cells]):
+                    for n_word, col in zip(range(len(line)), line):
                         cell = column_list[index_col+n_word] + str(self.fe_row+n_line+1)
                         App.ActiveDocument.Spreadsheet.set(cell, str(col) )
 
-                for n_line, line in zip(range(n_cells), cbtext_split[n_cells   *n_cells*2])   *
-                    for n_word, col in zip(range(len(line)), line)   *
+                for n_line, line in zip(range(n_cells), cbtext_split[n_cells:n_cells*2]):
+                    for n_word, col in zip(range(len(line)), line):
                         cell = column_list[index_col+n_word] + str(self.fe_row+n_line+1)
-                        try   *
+                        try:
                             App.ActiveDocument.Spreadsheet.setAlias(cell, str(col))
-                        except   *
+                        except:
                             FreeCAD.Console.PrintMessage("\nCould not set/paste alias.")
 
-                for n_line, line in zip(range(n_cells), cbtext_split[n_cells*2   *])   *
-                    for n_word, col in zip(range(len(line)), line)   *
+                for n_line, line in zip(range(n_cells), cbtext_split[n_cells*2:]):
+                    for n_word, col in zip(range(len(line)), line):
                         cell = column_list[index_col+n_word] + str(self.fe_row+n_line+1)
                         import ast
                         col = ast.literal_eval(col)
 
-                        try   *
-                            if not(col['style'] == 'None')   *
+                        try:
+                            if not(col['style'] == 'None'):
                                 eval("App.ActiveDocument.Spreadsheet.setStyle('"+cell+"', "+col['style']+")")
-                            if not(col['alignment'] == 'None')   *
+                            if not(col['alignment'] == 'None'):
                                 eval("App.ActiveDocument.Spreadsheet.setAlignment('"+cell+"', "+col['alignment']+")")
-                        except   *
+                        except:
                             FreeCAD.Console.PrintMessage("\nCould not set formatting (style, alignment).")
 
-                        try   *
-                            if not(col['foreground'] == 'None')   *
+                        try:
+                            if not(col['foreground'] == 'None'):
                                 App.ActiveDocument.Spreadsheet.setForeground(cell, ast.literal_eval(col['foreground']))
-                            if not(col['background'] == 'None')   *
+                            if not(col['background'] == 'None'):
                                 eval("App.ActiveDocument.Spreadsheet.setBackground('"+cell+"', "+col['background']+")")
-                        except   *
+                        except:
                             FreeCAD.Console.PrintMessage("\nCould not set formatting ( background, foreground).")
 
-                        try   *
-                            if not(col['contents'] == '')   *
+                        try:
+                            if not(col['contents'] == ''):
                                 App.ActiveDocument.Spreadsheet.set(cell, col['contents'])
-                            if not(col['displayunit'] == 'None')   *
+                            if not(col['displayunit'] == 'None'):
                                 App.ActiveDocument.Spreadsheet.setDisplayUnit(cell, col['displayunit'])
-                        except   *
+                        except:
                             FreeCAD.Console.PrintMessage("\nCould not set formatting (displayunit and contents).")
 
 
-            if self.checkBox_1.isChecked() and (not self.checkBox_2.isChecked())   *
+            if self.checkBox_1.isChecked() and (not self.checkBox_2.isChecked()):
                 n_cells = len(cbtext_split)
 
                 index_col = self.fe_col
-                for n_line, line in zip(range(n_cells), cbtext_split[0   *n_cells])   *
-                    for n_word, col in zip(range(len(line)), line)   *
+                for n_line, line in zip(range(n_cells), cbtext_split[0:n_cells]):
+                    for n_word, col in zip(range(len(line)), line):
                         cell = column_list[index_col+n_word] + str(self.fe_row+n_line+1)
                         App.ActiveDocument.Spreadsheet.set(cell, str(col) )
 
-            if (not self.checkBox_1.isChecked()) and self.checkBox_2.isChecked()   *
+            if (not self.checkBox_1.isChecked()) and self.checkBox_2.isChecked():
                 n_cells = len(cbtext_split)
 
                 index_col = self.fe_col
-                for n_line, line in zip(range(n_cells), cbtext_split[0   *n_cells])   *
-                    for n_word, col in zip(range(len(line)), line)   *
+                for n_line, line in zip(range(n_cells), cbtext_split[0:n_cells]):
+                    for n_word, col in zip(range(len(line)), line):
                         cell = column_list[index_col+n_word] + str(self.fe_row+n_line+1)
-                        try   *
+                        try:
                             App.ActiveDocument.Spreadsheet.setAlias(cell, str(col))
-                        except   *
+                        except:
                             FreeCAD.Console.PrintMessage("\nCould not set/paste alias.")
 
             App.activeDocument().recompute()
 
-        else   *
+        else:
             clipboard.setText(tr("Cannot display data! No proper information stored in clipboard."))
 
 
-    def copy_to_clipboard(self)   *
+    def copy_to_clipboard(self):
         # Copy to clipboard
 
         self.get_selection()
 
-        if len(self.ind) > 0   *
+        if len(self.ind) > 0:
             # sort select indexes into rows and columns
             previous = self.ind[0]
             columns = []
             rows = []
             clipboard = ""
 
-            if self.checkBox_1.isChecked()   *
+            if self.checkBox_1.isChecked():
 
-                for index in self.ind   *
-                    if previous.column() != index.column()   *
+                for index in self.ind:
+                    if previous.column() != index.column():
                         columns.append(rows)
                         rows = []
                     rows.append(index.data())
@@ -402,13 +402,13 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
                 # add rows and columns to clipboard
                 nrows = len(cell_content[0])
                 ncols = len(cell_content)
-                for r in xrange(nrows)   *
-                    for c in xrange(ncols)   *
-                        if cell_content[c][r] is not None   *
+                for r in xrange(nrows):
+                    for c in xrange(ncols):
+                        if cell_content[c][r] is not None:
                             clipboard += cell_content[c][r]
-                        else   *
+                        else:
                             clipboard += ''
-                        if c != (ncols-1)   *
+                        if c != (ncols-1):
                             clipboard += '\t'
                     clipboard += '\n'
 
@@ -417,10 +417,10 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
             rows_alias = []
             clipboard_alias = ""
 
-            if self.checkBox_2.isChecked()   *
+            if self.checkBox_2.isChecked():
 
-                for index in self.ind   *
-                    if previous_alias.column() != index.column()   *
+                for index in self.ind:
+                    if previous_alias.column() != index.column():
                         columns_alias.append(rows_alias)
                         rows_alias = []
 
@@ -438,13 +438,13 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
                 # add rows and columns to clipboard
                 nrows = len(cell_content_alias[0])
                 ncols = len(cell_content_alias)
-                for r in xrange(nrows)   *
-                    for c in xrange(ncols)   *
-                        if cell_content_alias[c][r] is not None   *
+                for r in xrange(nrows):
+                    for c in xrange(ncols):
+                        if cell_content_alias[c][r] is not None:
                             clipboard_alias += cell_content_alias[c][r]
-                        else   *
+                        else:
                             clipboard_alias += ''
-                        if c != (ncols-1)   *
+                        if c != (ncols-1):
                             clipboard_alias += '\t'
                     clipboard_alias += '\n'
 
@@ -453,22 +453,22 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
             rows_formatting = []
             clipboard_formatting = ""
 
-            if self.checkBox_3.isChecked()   *
+            if self.checkBox_3.isChecked():
 
-                for index in self.ind   *
-                    if previous_formatting.column() != index.column()   *
+                for index in self.ind:
+                    if previous_formatting.column() != index.column():
                         columns_formatting.append(rows_formatting)
                         rows_formatting = []
 
                     idx_col = index.column()
                     idx_row = index.row()
                     idx_alphanum = column_list[idx_col] + str(idx_row+1)
-                    formatting_dict = {'style'   *str(App.ActiveDocument.Spreadsheet.getStyle(idx_alphanum)),
-                                        'foreground'   *str(App.ActiveDocument.Spreadsheet.getForeground(idx_alphanum)),
-                                        'background'   *str(App.ActiveDocument.Spreadsheet.getBackground(idx_alphanum)),
-                                        'contents'   *str(App.ActiveDocument.Spreadsheet.getContents(idx_alphanum)),
-                                        'displayunit'   *str(App.ActiveDocument.Spreadsheet.getDisplayUnit(idx_alphanum)),
-                                        'alignment'   *str(App.ActiveDocument.Spreadsheet.getAlignment(idx_alphanum))}
+                    formatting_dict = {'style':str(App.ActiveDocument.Spreadsheet.getStyle(idx_alphanum)),
+                                        'foreground':str(App.ActiveDocument.Spreadsheet.getForeground(idx_alphanum)),
+                                        'background':str(App.ActiveDocument.Spreadsheet.getBackground(idx_alphanum)),
+                                        'contents':str(App.ActiveDocument.Spreadsheet.getContents(idx_alphanum)),
+                                        'displayunit':str(App.ActiveDocument.Spreadsheet.getDisplayUnit(idx_alphanum)),
+                                        'alignment':str(App.ActiveDocument.Spreadsheet.getAlignment(idx_alphanum))}
                     rows_formatting.append(formatting_dict)
 
                     previous_formatting = index
@@ -480,14 +480,14 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
                 # add rows and columns to clipboard
                 nrows = len(cell_content_formatting[0])
                 ncols = len(cell_content_formatting)
-                for r in xrange(nrows)   *
-                    for c in xrange(ncols)   *
+                for r in xrange(nrows):
+                    for c in xrange(ncols):
 
-                        if cell_content_formatting[c][r] is not None   *
+                        if cell_content_formatting[c][r] is not None:
                             clipboard_formatting += str( cell_content_formatting[c][r] )
-                        else   *
+                        else:
                             clipboard_formatting += ''
-                        if c != (ncols-1)   *
+                        if c != (ncols-1):
                             clipboard_formatting += '\t'
 
                     clipboard_formatting += '\n'
@@ -496,7 +496,7 @@ class Spreadsheet_Tools(QtGui.QDialog)   *
             sys_clip = QtGui.QApplication.clipboard()
             sys_clip.setText(clipboard + clipboard_alias + clipboard_formatting)
 
-    def close_dialog(self)   *
+    def close_dialog(self):
         self.close()
 
 MainWindow = QtGui.QMainWindow()

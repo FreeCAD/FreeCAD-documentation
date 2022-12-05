@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_DlgPreferences
-   Name/it   *Preferenze
-   MenuLocation   *Modifica → Preferenze...
-   Workbenches   *Tutti
-   SeeAlso   *[Editor delle preferenze](Preferences_Editor/it.md)
+- GuiCommand:/it
+   Name:Std_DlgPreferences
+   Name/it:Preferenze
+   MenuLocation:Modifica → Preferenze...
+   Workbenches:Tutti
+   SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
 ---
 
 # Std DlgPreferences/it

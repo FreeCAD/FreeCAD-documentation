@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ru
-   Topic   *Plot workbench
-   Level   *Intermediate
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/ru
+   Topic:Plot workbench
+   Level:Intermediate
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # Plot MultiAxes tutorial/ru
@@ -22,10 +22,10 @@
 
 Please complete the [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot Workbench here](Plot_Workbench.md).
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width   *600px;"> 
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;"> 
 *Multiaxes plot example*
 
-In the image you can see the result that we will approximately obtain. Following this tutorial you will learn   *
+In the image you can see the result that we will approximately obtain. Following this tutorial you will learn:
 
 -   How to create a multiaxes Plot from the [Python console](Python_console.md).
 -   How to edit axes properties.
@@ -38,7 +38,7 @@ As we did in the [previous tutorial](Plot_Basic_tutorial.md) we will use the [Py
 
 ### Creating plot data 
 
-In this example we will plot 3 functions, the two used in the [previous tutorial](Plot_Basic_tutorial.md), and a new polynomial one. The range of the polynomial function is different from the other functions therefore new axes are required. The next commands will create the data arrays for us   *
+In this example we will plot 3 functions, the two used in the [previous tutorial](Plot_Basic_tutorial.md), and a new polynomial one. The range of the polynomial function is different from the other functions therefore new axes are required. The next commands will create the data arrays for us:
 
 
 ```python
@@ -59,16 +59,16 @@ We will plot the trigonometrical functions using the main axes. If all your axes
 
 
 ```python
-try   *
+try:
     from FreeCAD.Plot import Plot
-except ImportError   *
+except ImportError:
     from freecad.plot import Plot
 
 Plot.plot(t,s,r"$\sin\left( 2 \pi t \right)$")
 Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 ```
 
-In this example we pass the series labels for the legend directly. Note that the label strings have the *r* prefix in order to prevent Python from trying to interpret special characters (the *\\* symbol is used frequently in [LaTeX](http   *//www.latex-project.org) syntax).
+In this example we pass the series labels for the legend directly. Note that the label strings have the *r* prefix in order to prevent Python from trying to interpret special characters (the *\\* symbol is used frequently in [LaTeX](http://www.latex-project.org) syntax).
 
 Before we can plot the polynomial function, we need to create new axes. In the [Plot Workbench](Plot_Workbench.md) new axes are automatically selected as the active ones, and new plots will be associated with these axes.
 
@@ -91,7 +91,7 @@ The [Plot Workbench](Plot_Workbench.md) provides a tool to modify the properties
 
 With the [axes tool](Plot_Axes.md) you can add or remove axes, and set the active axes, which are then used if you plot more data.
 
-To change the size of the first axes set, associated with the trigonometrical functions, it has to be activated first by changing the active axes from 1 to 0. We can then move the horizontal and vertical dimension sliders to reduce its size (try to emulate the example). We also need to change the alignment of the axes   * select top and right respectively.
+To change the size of the first axes set, associated with the trigonometrical functions, it has to be activated first by changing the active axes from 1 to 0. We can then move the horizontal and vertical dimension sliders to reduce its size (try to emulate the example). We also need to change the alignment of the axes: select top and right respectively.
 
 ### Configuring series 
 
@@ -109,12 +109,12 @@ As already mentioned the legend will be positioned relative last axes set. If yo
 
 When it comes to setting the axes [labels](Plot_Labels.md) we again have to deal with our two axes sets. But since labels are usually set for all axes, the procedure is the same as described in the [previous tutorial](Plot_Basic_tutorial.md). The [Plot Workbench](Plot_Workbench.md) allows you to set a title per axes set. In this case we only want to set a title for the last, the biggest, axes set.
 
-**Axes 0   ***
+**Axes 0:**
 
 -   X Label = \$t\$
 -   Y Label = \$\\mathrm{f} \\left( t \\right)\$
 
-**Axes 1   ***
+**Axes 1:**
 
 -   Title = Multiaxes example
 -   X Label = \$x\$
@@ -138,9 +138,7 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}} {{Plot_Tools_navi}}
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std Open
-   Name/de   *Std Öffnen
-   MenuLocation   *Datei → Öffnen...
-   Workbenches   *Alle
-   Shortcut   ***Strg**+**O**
-   SeeAlso   *[Std Import](Std_Import/de.md), [Std Neu](Std_New/de.md)
+- GuiCommand:/de
+   Name:Std Open
+   Name/de:Std Öffnen
+   MenuLocation:Datei → Öffnen...
+   Workbenches:Alle
+   Shortcut:**Strg**+**O**
+   SeeAlso:[Std Import](Std_Import/de.md), [Std Neu](Std_New/de.md)
 ---
 
 # Std Open/de
@@ -16,7 +16,7 @@ Der Befehl **Std Öffnen** öffnet eine Datei. Wenn die Datei keine native FreeC
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_Open.svg" width=16px> [Öffnen...](Std_Open/de.md)** drücken.
     -   Den Menüeintrag **Datei → <img src="images/Std_Open.svg" width=16px> Öffnen...** auswählen.
     -   Das Tastaturkürzel **Ctrl**+**O**.
@@ -30,12 +30,12 @@ Der Befehl **Std Öffnen** öffnet eine Datei. Wenn die Datei keine native FreeC
 
 ## Einstellungen
 
--   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Skripten
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

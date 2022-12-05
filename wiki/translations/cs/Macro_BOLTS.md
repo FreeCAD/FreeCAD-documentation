@@ -21,7 +21,7 @@ Cílem BOLTSu je vytvořit bezplatné a svobodné knihovny dílů pro CAD aplika
 
 BOLTS pro FreeCAD poskytuje widgety (věcičky,pomůcky), které umožňují vkládat díly do aktivního dokumentu. Rozměry a varianty dílu mohou být vybrány ve widgetu a dílu je přiřazen popisek.
 
-<img alt="" src=images/freecad-bearing.png  style="width   *480px;"> 
+<img alt="" src=images/freecad-bearing.png  style="width:480px;"> 
 *The BOLTS widget and a bearing from BOLTS*
 
 
@@ -29,7 +29,7 @@ BOLTS pro FreeCAD poskytuje widgety (věcičky,pomůcky), které umožňují vkl
 
 ## Script
 
-Více informací o BOLTSu najdete na jeho [webové stránce](https   *//github.com/berndhahnebach/BOLTSFC/tree/bc582ca724773ffe5cbd9f1b7e01df482e011e88/BOLTS/bolttools).
+Více informací o BOLTSu najdete na jeho [webové stránce](https://github.com/berndhahnebach/BOLTSFC/tree/bc582ca724773ffe5cbd9f1b7e01df482e011e88/BOLTS/bolttools).
 
 
 </div>
@@ -37,7 +37,7 @@ Více informací o BOLTSu najdete na jeho [webové stránce](https   *//github.c
 
 <div class="mw-translate-fuzzy">
 
-Webová stránka taky poskytuje [BOLTSFC](https   *//github.com/berndhahnebach/BOLTSFC/tree/bc582ca724773ffe5cbd9f1b7e01df482e011e88), které BOLTSFC aktuálně obsahuje, včetně výkresů a tabulek s rozměry.
+Webová stránka taky poskytuje [BOLTSFC](https://github.com/berndhahnebach/BOLTSFC/tree/bc582ca724773ffe5cbd9f1b7e01df482e011e88), které BOLTSFC aktuálně obsahuje, včetně výkresů a tabulek s rozměry.
 
 
 </div>
@@ -45,7 +45,7 @@ Webová stránka taky poskytuje [BOLTSFC](https   *//github.com/berndhahnebach/B
 
 <div class="mw-translate-fuzzy">
 
-**poznámka**   * BOLTS je také součástí [FreeCAD addons](https   *//github.com/FreeCAD/FreeCAD-addons) a může být nainstalován z makra instalátoru addons
+**poznámka**: BOLTS je také součástí [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) a může být nainstalován z makra instalátoru addons
 
 
 </div>
@@ -55,7 +55,7 @@ Webová stránka taky poskytuje [BOLTSFC](https   *//github.com/berndhahnebach/B
 
 ## Použití
 
-Detailní instrukce jsou v [Dokumentační sekci](http   *//www.bolts-library.org/en/docs/index.html) webové stránky   *
+Detailní instrukce jsou v [Dokumentační sekci](http://www.bolts-library.org/en/docs/index.html) webové stránky:
 
 -   Jak nainstalovat BOLTS pro FreeCAD
 -   Jak nastavit tlačítko pro BOLTS v nástrojovém pruhu
@@ -69,7 +69,7 @@ Detailní instrukce jsou v [Dokumentační sekci](http   *//www.bolts-library.or
 
 ## Příspějte
 
-Knihovna dílů, která je užitečná pro široký okruh lidí, může být realizována pouze jako dílo celé komunity. Je mnoho možností [contribute jak přispět](http   *//www.bolts-library.org/en/contribute.html) BOLTSu mnoha různými způsoby.
+Knihovna dílů, která je užitečná pro široký okruh lidí, může být realizována pouze jako dílo celé komunity. Je mnoho možností [contribute jak přispět](http://www.bolts-library.org/en/contribute.html) BOLTSu mnoha různými způsoby.
 
 
 </div>

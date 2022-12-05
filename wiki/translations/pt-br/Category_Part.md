@@ -1,8 +1,6 @@
 # Category:Part/pt-br
 This category lists pages related to the [Part Workbench/pt-br](Part_Workbench/pt-br.md).
 
-[Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
-
 ### Contents
 
 |     |     |     |

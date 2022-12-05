@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */pl
-   Topic   *Poradnik   * Podstawy środowiska pracy Wykres
-   Level   *Początkujący
-   Time   *
-   Author   *
-   FCVersion   *-
-   Files   *
+- TutorialInfo:/pl
+   Topic:Poradnik: Podstawy środowiska pracy Wykres
+   Level:Początkujący
+   Time:
+   Author:
+   FCVersion:-
+   Files:
 ---
 
 # Plot Basic tutorial/pl
@@ -16,17 +16,17 @@
 
 W tym poradniku dowiemy się, jak wykonać podstawowy wykres przy użyciu środowiska pracy [Wykres](Plot_Workbench/pl.md) i konsoli [Python](Python_console/pl.md).
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;"> 
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;"> 
 *Przykład prostego wykresu*
 
-Na poprzednim obrazku możesz zobaczyć rezultat, jaki w przybliżeniu uzyskamy. Po tym poradniku nauczysz się   *
+Na poprzednim obrazku możesz zobaczyć rezultat, jaki w przybliżeniu uzyskamy. Po tym poradniku nauczysz się:
 
 -   Jak utworzyć wykres w konsoli [Python](Python_console/pl.md).
 -   Jak wykreślić kilka danych w konsoli [Python](Python_console/pl.md).
--   Jak wyświetlić <img alt="" src=images/Plot_Grid.svg  style="width   *24px;"> [linie siatki](Plot_Grid/pl.md).
--   Jak wyświetlić <img alt="" src=images/Plot_Legend.svg  style="width   *24px;"> [legendę](Plot_Legend/pl.md).
--   Jak edytować <img alt="" src=images/Plot_Series.svg  style="width   *24px;"> [etykiety serii](Plot_Series/pl.md), wprowadzając tekst w [LaTeX](http   *//www.latex-project.org).
--   Jak edytować <img alt="" src=images/Plot_Labels.svg  style="width   *24px;"> [etykiety osi](Plot_Labels/pl.md), wprowadzając tekst w edytorze [LaTeX](http   *//www.latex-project.org).
+-   Jak wyświetlić <img alt="" src=images/Plot_Grid.svg  style="width:24px;"> [linie siatki](Plot_Grid/pl.md).
+-   Jak wyświetlić <img alt="" src=images/Plot_Legend.svg  style="width:24px;"> [legendę](Plot_Legend/pl.md).
+-   Jak edytować <img alt="" src=images/Plot_Series.svg  style="width:24px;"> [etykiety serii](Plot_Series/pl.md), wprowadzając tekst w [LaTeX](http://www.latex-project.org).
+-   Jak edytować <img alt="" src=images/Plot_Labels.svg  style="width:24px;"> [etykiety osi](Plot_Labels/pl.md), wprowadzając tekst w edytorze [LaTeX](http://www.latex-project.org).
 -   Jak edytować style serii.
 -   Jak zapisać swój wykres.
 
@@ -36,28 +36,28 @@ Aby wykreślić dane nie musisz tworzyć nowego dokumentu FreeCAD, wystarczy, ż
 
 ### Tworzenie dokumentu wykresu 
 
-Wykresy są specjalnymi dokumentami, które można utworzyć ręcznie w celu późniejszego dodania danych, lub pozwolić, aby środowisko pracy utworzyło je automatycznie w momencie rozpoczęcia wykreślania danych. Tworzenie własnych dokumentów wykresów ma dwie zalety   *
+Wykresy są specjalnymi dokumentami, które można utworzyć ręcznie w celu późniejszego dodania danych, lub pozwolić, aby środowisko pracy utworzyło je automatycznie w momencie rozpoczęcia wykreślania danych. Tworzenie własnych dokumentów wykresów ma dwie zalety:
 
 -   Możesz ustawić etykietę okna dokumentu.
 -   Możesz łatwo kontrolować, na którym dokumencie wykreślać dane.
 
-Aby utworzyć nowy dokument działki wystarczy uruchomić następujące komendy   *
+Aby utworzyć nowy dokument działki wystarczy uruchomić następujące komendy:
 
 
 ```python
-try   *
+try:
     from FreeCAD.Plot import Plot
-except ImportError   *
+except ImportError:
     from freecad.plot import Plot
 
 Plot.figure("TrigonometricTest")
 ```
 
-W wersji FreeCAD 0.19 wymagane jest zainstalowanie środowiska pracy <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Wykres](Plot_Workbench/pl.md) za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md), natomiast od wersji 0.20 FreeCAD nie wymaga już zewnętrznego dodatku do wykonywania wykresów. Powyższe polecenia utworzą nową zakładkę w [głównym oknie](Main_view_area/pl.md) o nazwie **TrigonometricTest**. Nowo utworzony dokument posiada już zestaw osi. Każdy dokument wykresu posiada co najmniej jeden zestaw osi.
+W wersji FreeCAD 0.19 wymagane jest zainstalowanie środowiska pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md), natomiast od wersji 0.20 FreeCAD nie wymaga już zewnętrznego dodatku do wykonywania wykresów. Powyższe polecenia utworzą nową zakładkę w [głównym oknie](Main_view_area/pl.md) o nazwie **TrigonometricTest**. Nowo utworzony dokument posiada już zestaw osi. Każdy dokument wykresu posiada co najmniej jeden zestaw osi.
 
 ### Funkcje rysowania 
 
-Można również rozpocząć pracę od tego miejsca, ponieważ, jak już wyjaśniono, polecenie plot utworzy w razie potrzeby nowy dokument. Następną rzeczą, którą musimy zrobić, jest utworzenie danych dla funkcji sinus i cosinus, które chcemy wykreślić   *
+Można również rozpocząć pracę od tego miejsca, ponieważ, jak już wyjaśniono, polecenie plot utworzy w razie potrzeby nowy dokument. Następną rzeczą, którą musimy zrobić, jest utworzenie danych dla funkcji sinus i cosinus, które chcemy wykreślić:
 
 
 ```python
@@ -68,13 +68,13 @@ s = [math.sin(2.0*math.pi*tt) for tt in t]
 c = [math.cos(2.0*math.pi*tt) for tt in t]
 ```
 
-Spowoduje to utworzenie 3 tablic danych *(ze 101 punktami)*   *
+Spowoduje to utworzenie 3 tablic danych *(ze 101 punktami)*:
 
 -   *t* = Czas w sekundach.
 -   *s* = Funkcja sinus.
 -   *c* = funkcja cosinus.
 
-W celu wykreślenia obu funkcji wystarczy uruchomić kolejne komendy   *
+W celu wykreślenia obu funkcji wystarczy uruchomić kolejne komendy:
 
 
 ```python
@@ -107,14 +107,14 @@ Za pomocą narzędzia [serii](Plot_Series/pl.md) możesz edytować niektóre par
 ![](images/Plot_Series.svg‎ ) 
 *Ikonka narzędzia konfiguracji serii*
 
-Najpierw wybierz serię, którą chcesz edytować, na przykład zaczniemy od pierwszej. Odznacz opcje {{CheckBox|Brak etykiety}} i ustaw tę etykietę   *
+Najpierw wybierz serię, którą chcesz edytować, na przykład zaczniemy od pierwszej. Odznacz opcje {{CheckBox|Brak etykiety}} i ustaw tę etykietę:
 
 
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
-Ponieważ [matplotlib](http   *//matplotlib.org/) obsługuje [LaTeX](http   *//www.latex-project.org), możesz ustawić wszystkie etykiety i tytuły, które chcesz, za jego pomocą. Ustaw następującą etykietę na drugą serię   *
+Ponieważ [matplotlib](http://matplotlib.org/) obsługuje [LaTeX](http://www.latex-project.org), możesz ustawić wszystkie etykiety i tytuły, które chcesz, za jego pomocą. Ustaw następującą etykietę na drugą serię:
 
 
 ```python
@@ -132,7 +132,7 @@ Za pomocą narzędzia [Etykiety](Plot_Labels/pl.md) można ustawić etykiety prz
 ![](images/Plot_Labels.svg‎ ) 
 *Ikonka narzędzia Ustaw etykiety*
 
-Ustaw te dane   *
+Ustaw te dane:
 
 -   Title = Przykład funkcji trygonometrycznych
 -   X Label = \$t\$
@@ -154,9 +154,7 @@ Możesz ustawić rozmiar obrazu wyjściowego w calach, na przykład możemy usta
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}} {{Plot_Tools_navi}}
 
 
 

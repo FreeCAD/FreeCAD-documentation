@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher B-splines
-   Name/de   *Sketcher AuswahlBSplineErstellen
-   Icon   *Sketcher_CompCreateBSpline.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Version   *0.17
+- GuiCommand:/de
+   Name:Sketcher B-splines
+   Name/de:Sketcher AuswahlBSplineErstellen
+   Icon:Sketcher_CompCreateBSpline.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Version:0.17
 ---
 
 # Sketcher CompCreateBSpline/de
@@ -16,8 +16,8 @@
 
 ## B-Spline-Typen 
 
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-Spline erstellen](Sketcher_CreateBSpline/de.md)    * Zeichnet eine B-Spline-Kurve über ihre Kontrollpunkte.
--   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width   *32px;"> [Geschlossenen B-Spline erstellen](Sketcher_CreatePeriodicBSpline/de.md)    * Zeichnet eine periodische (geschlossene) B-Spline-Kurve über ihre Kontrollpunkte.
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-Spline erstellen](Sketcher_CreateBSpline/de.md) : Zeichnet eine B-Spline-Kurve über ihre Kontrollpunkte.
+-   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Geschlossenen B-Spline erstellen](Sketcher_CreatePeriodicBSpline/de.md) : Zeichnet eine periodische (geschlossene) B-Spline-Kurve über ihre Kontrollpunkte.
 
 
 

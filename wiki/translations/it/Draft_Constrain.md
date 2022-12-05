@@ -8,7 +8,7 @@
 
 ## Descrizione
 
-Gli strumenti <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft](Draft_Workbench/it.md) consentono di selezionare punti, distanze, raggi e angoli graficamente facendo clic sulla vista 3D con il puntatore.
+Gli strumenti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) consentono di selezionare punti, distanze, raggi e angoli graficamente facendo clic sulla vista 3D con il puntatore.
 
 
 </div>
@@ -70,10 +70,10 @@ Alcuni strumenti, come [Offset](Draft_Offset/it.md) e [Tronca/Estendi](Draft_Tri
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default **Constrain mod** key, **Shift**, can be changed   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
--   The **X**, **Y** and **Z** shortcuts can be changed   * **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
+-   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
+-   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw 2LineCenterLine
-   Name/de   *TechDraw 2LinienMittelLinie
-   MenuLocation   *TechDraw → Linien hinzufügen → Mittellinie zwischen 2 Linien hinzufügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Punkten](TechDraw_2PointCenterLine/de.md)
+- GuiCommand:/de
+   Name:TechDraw 2LineCenterLine
+   Name/de:TechDraw 2LinienMittelLinie
+   MenuLocation:TechDraw → Linien hinzufügen → Mittellinie zwischen 2 Linien hinzufügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Punkten](TechDraw_2PointCenterLine/de.md)
 ---
 
 # TechDraw 2LineCenterLine/de
@@ -14,7 +14,7 @@
 
 Das 2LinienMittelLinie Werkzeug fügt eine Mittellinie zwischen zwei Kanten hinzu.
 
-<img alt="" src=images/CL2LinesSample.png  style="width   *350px;">
+<img alt="" src=images/CL2LinesSample.png  style="width:350px;">
 
 
 
@@ -42,26 +42,26 @@ Eine der Befehlsschaltflächen für die Mittellinie ( **<img src="images/TechDra
 
 Mittellinien haben keine eigenen Eigenschaften, da sie keine Objekte innerhalb der Zeichnung sind. Sie besitzen Attribute die im zugehörigen Dialogfeld geändert werden können.
 
--   **Orientation**   *
-    -   **Vertikal**   * Erzwingt eine vertikale Mittellinie
-    -   **Horizontal**   * Erzwingt eine Mittellinie horizontal
-    -   **Ausgerichtet**   * Folgt der allgemeinen Richtung von Kante für 2 Kanten Mittellinie
--   **Shift Horizontal**   * Verschiebt die Mittellinie nach links oder rechts von ihrer normalen Position
--   **Shift Vertical**   * Verschiebt die Mittellinie aus ihrer normalen Position nach oben oder unten
--   **Rotate**   * Dreht die Mittellinie um ihren Mittelpunkt (Grad. + gegen den Uhrzeigersinn, - im Uhrzeigersinn)
--   **Extend By**   * Macht die Mittellinie um diesen Betrag länger
--   **Color**   * Farbe der Mittellinie
--   **Weight**   * Dicke der Mittellinie
--   **Style**   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Durchgehend, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Strich, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Punkt, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> StrichPunkt, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> StrichPunktPunkt
--   **Enden Umklappen**   * Klappt Endpunkte für die Erstellung wie unten beschrieben um (Attribut entfernt für FreeCAD 0.20)
+-   **Orientation**:
+    -   **Vertikal**: Erzwingt eine vertikale Mittellinie
+    -   **Horizontal**: Erzwingt eine Mittellinie horizontal
+    -   **Ausgerichtet**: Folgt der allgemeinen Richtung von Kante für 2 Kanten Mittellinie
+-   **Shift Horizontal**: Verschiebt die Mittellinie nach links oder rechts von ihrer normalen Position
+-   **Shift Vertical**: Verschiebt die Mittellinie aus ihrer normalen Position nach oben oder unten
+-   **Rotate**: Dreht die Mittellinie um ihren Mittelpunkt (Grad. + gegen den Uhrzeigersinn, - im Uhrzeigersinn)
+-   **Extend By**: Macht die Mittellinie um diesen Betrag länger
+-   **Color**: Farbe der Mittellinie
+-   **Weight**: Dicke der Mittellinie
+-   **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Durchgehend, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Strich, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punkt, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> StrichPunkt, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> StrichPunktPunkt
+-   **Enden Umklappen**: Klappt Endpunkte für die Erstellung wie unten beschrieben um (Attribut entfernt für FreeCAD 0.20)
 
 ## Enden Umklappen 
 
-<img alt="Darstellung zur Erstellung einer Mittellinie" src=images/TD-CenterLineFlip.png  style="width   *350px;"> Die Mittellinie zwischen zwei schrägen Linien (Linie 1 und Linie 2), wird erstellt aus den Mittelpunkten (m0 und m1) der Verbindunsglinien der Endpunkte der beiden Linien - siehe Darstellung. Abhängig von den gewählten Endpunkten ergeben sich mehrere Möglichkeiten für die Verbindungslinien. Das Attribut **Flip Ends** klappt die Weise um, wie Verbindungslinien gezeichnet werden. In FreeCAD 0.20 wird die Punktreihenfolge automatisch festgelegt, so dass das **Flip Ends**-Attribut nicht länger notwendig ist.
+<img alt="Darstellung zur Erstellung einer Mittellinie" src=images/TD-CenterLineFlip.png  style="width:350px;"> Die Mittellinie zwischen zwei schrägen Linien (Linie 1 und Linie 2), wird erstellt aus den Mittelpunkten (m0 und m1) der Verbindunsglinien der Endpunkte der beiden Linien - siehe Darstellung. Abhängig von den gewählten Endpunkten ergeben sich mehrere Möglichkeiten für die Verbindungslinien. Das Attribut **Flip Ends** klappt die Weise um, wie Verbindungslinien gezeichnet werden. In FreeCAD 0.20 wird die Punktreihenfolge automatisch festgelegt, so dass das **Flip Ends**-Attribut nicht länger notwendig ist.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Mittellinien sind zur Zeit noch nicht zugänglich über [Makros](Macros/de.md) und die [Python](Python/de.md) Konsole.
 

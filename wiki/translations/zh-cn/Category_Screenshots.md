@@ -1,8 +1,6 @@
 # Category:Screenshots/zh-cn
 This category lists pages with screenshots.
 
-[Category   *Documentation/zh-cn](Category   *Documentation/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

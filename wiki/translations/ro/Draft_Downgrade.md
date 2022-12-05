@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Draft Downgrade
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation   *Draft → Downgrade
-   Shortcut   *D N
-   SeeAlso   *[Draft Upgrade](Draft_Upgrade.md)
+- GuiCommand:
+   Name:Draft Downgrade
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation:Draft → Downgrade
+   Shortcut:D N
+   SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
 ---
 
 # Draft Downgrade/ro
@@ -22,7 +22,7 @@ Acest instrument downgradează/ retrogradează/ descompune/ explodează obiectel
 
 </div>
 
-<img alt="" src=images/Draft_Downgrade_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Two overlapping faces are downgraded to a Part Cut object, which is downgraded to a face. That face is then downgraded to a closed wire, which is finally downgraded to separate edges.*
 
 
@@ -56,7 +56,7 @@ Acest instrument downgradează/ retrogradează/ descompune/ explodează obiectel
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Downgrade poate fi folosit în scripturile python și [macros](macros.md) utilizând următoarea funcție   *
+Instrumentul Downgrade poate fi folosit în scripturile python și [macros](macros.md) utilizând următoarea funcție:
 
 
 </div>
@@ -71,7 +71,7 @@ downgrade_list = downgrade(objects, delete=False, force=None)
 
 -   Downgradează obiectul/e dat/e (poate fi un obiect sau o listă de obiecte).
 -   Dacă ștergerea este True, obiectele vechi sunt șterse.
--   Atributul de forță poate fi folosit pentru a forța un anumit mod de dezasambalre. Acesta poate fi   * explode, shapify, subtr, splitFaces, cut2, getWire, splitWires.
+-   Atributul de forță poate fi folosit pentru a forța un anumit mod de dezasambalre. Acesta poate fi: explode, shapify, subtr, splitFaces, cut2, getWire, splitWires.
 -   Returnează un dicționar care conține două liste, o listă de obiecte noi și o listă de obiecte care trebuie șterse
 
 
@@ -97,7 +97,7 @@ add_list2, delete_list2 = Draft.downgrade(compound, delete=False)
 face = add_list2[0]
 add_list3, delete_list3 = Draft.downgrade(face, delete=False)
 
-box = doc.addObject("Part   *   *Box", "Box")
+box = doc.addObject("Part::Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

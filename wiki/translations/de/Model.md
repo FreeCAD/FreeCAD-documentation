@@ -16,9 +16,7 @@ Allgemein gesprochen, kann das Wort \"[Zeichnung](Drawing.md)\" das gleiche bede
 
 {{Document objects navi
 
-}} 
-
-[Category   *Glossary](Category_Glossary.md)
+}}
 
 
 

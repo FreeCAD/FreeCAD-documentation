@@ -1,8 +1,6 @@
 # Category:OpenSCAD/de
 Diese Kategorie zeigt eine Liste von Seiten, die zum [OpenSCAD-Arbeitsbereich](OpenSCAD_Workbench/de.md) gehören.
 
-[Category   *Workbenches/de](Category   *Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

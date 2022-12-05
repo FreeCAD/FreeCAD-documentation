@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */pl
-   Name   *Draft Wire
-   Name/pl   *Rysunek Roboczy   * Linia łamana
-   MenuLocation   *Kreślenie → Linia łamana
-   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut   ***P** **L**
+- GuiCommand:/pl
+   Name:Draft Wire
+   Name/pl:Rysunek Roboczy: Linia łamana
+   MenuLocation:Kreślenie → Linia łamana
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut:**P** **L**
 ---
 
 # Draft Wire/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> **Rysunek Roboczy   * Linia łamana** [tworzy](#Utwórz.md) polilinię, czyli sekwencję kilku połączonych segmentów linii. Polecenie to może być również użyte do [łączenia](#Przyłącz.md) [linii](Draft_Line/pl.md) i polilinii.
+Polecenie <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Rysunek Roboczy: Linia łamana** [tworzy](#Utwórz.md) polilinię, czyli sekwencję kilku połączonych segmentów linii. Polecenie to może być również użyte do [łączenia](#Przyłącz.md) [linii](Draft_Line/pl.md) i polilinii.
 
 Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściwości {{PropertyData/pl|Promień zaokrąglenia}} lub {{PropertyData/pl|Rozmiar fazki}}. Możliwe jest również dzielenie krawędzi polilinii poprzez zmianę jego właściwości {{PropertyData/pl|Podziały}}.
 
-<img alt="" src=images/Draft_Polyline_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Linia zdefiniowana przez wiele punktów*
 
 ## Utwórz
@@ -24,10 +24,10 @@ Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściw
 
 Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Wire.svg" width=16px> [Utwórz wielopunktową linię ...](Draft_Wire/pl.md)**.
     -   Wybierz opcję z menu **Kreślenie → <img src="images/Draft_Wire.svg" width=16px> Polilinia**.
-    -   Użyj skrótu klawiaturowego   * **P**, a następnie **L**.
+    -   Użyj skrótu klawiaturowego: **P**, a następnie **L**.
 2.  Otworzy się panel zadań **Polilinia**. Zobacz [opcje](#Opcje.md) aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 4.  Wybierz dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i wciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
@@ -56,10 +56,10 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 1.  Punkty końcowe [linii](Draft_Line/pl.md) i/lub polilinii, które mają być połączone muszą się dokładnie pokrywać. Jeśli jest to wymagane, najpierw dopasuj punkty, aby to zapewnić.
 2.  Wybierz dwie lub więcej [linii](Draft_Line/pl.md) i/lub polilinii.
-3.  Istnieje kilka sposobów na wywołanie polecenia   *
+3.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Wire.svg" width=16px> [Utwórz wielopunktową linię](Draft_Wire/pl.md)**.
     -   Wybierz opcję w menu **Kreślenie → <img src="images/Draft_Wire.svg" width=16px> Polilinia**.
-    -   Użyj skrótu klawiaturowego   * **P**, a następnie **L**.
+    -   Użyj skrótu klawiaturowego: **P**, a następnie **L**.
 
 ## Uwagi
 
@@ -69,44 +69,44 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Ustawienia
 
-Zobacz także strony   * [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów   * **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zmienić wartość początkową trybu wypełnienia   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
 
 ## Właściwości
 
-Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt polilinia wywodzi się z obiektu [Część   * Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
+Obiekt polilinia wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 ### Dane
 
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    {{PropertyData/pl|Obszar|Area}}   * *(tylko do odczytu)* Określa powierzchnię polilinii. Wartość będzie wynosić {{value|0.0}} jeśli {{PropertyData/pl|Utwórz powierzchnię}} przyjmuje wartość {{False}} lub powierzchnia nie może zostać utworzona.
+-    {{PropertyData/pl|Obszar|Area}}: *(tylko do odczytu)* Określa powierzchnię polilinii. Wartość będzie wynosić {{value|0.0}} jeśli {{PropertyData/pl|Utwórz powierzchnię}} przyjmuje wartość {{False}} lub powierzchnia nie może zostać utworzona.
 
 -    {{PropertyData/pl|Podstawowa|Link}}
     
 
--    {{PropertyData/pl|Wielkość fazki|Length}}   * określa długość fazek na rogach polilinii.
+-    {{PropertyData/pl|Wielkość fazki|Length}}: określa długość fazek na rogach polilinii.
 
--    {{PropertyData/pl|Zamknięta|Bool}}   * określa czy polilinia jest zamknięta czy nie. Jeśli polilinia jest początkowo otwarta, wartość ta wynosi `False`, ustawienie jej na `True` spowoduje narysowanie segmentu linii zamykającego polilinię. Jeśli polilinia jest początkowo zamknięta, wartość ta wynosi `True`, a ustawienie jej na `False` spowoduje usunięcie ostatniego segmentu i otwarcie polilinii.
+-    {{PropertyData/pl|Zamknięta|Bool}}: określa czy polilinia jest zamknięta czy nie. Jeśli polilinia jest początkowo otwarta, wartość ta wynosi `False`, ustawienie jej na `True` spowoduje narysowanie segmentu linii zamykającego polilinię. Jeśli polilinia jest początkowo zamknięta, wartość ta wynosi `True`, a ustawienie jej na `False` spowoduje usunięcie ostatniego segmentu i otwarcie polilinii.
 
--    {{PropertyData/pl|Koniec|VectorDistance}}   * określa punkt końcowy polilinii.
+-    {{PropertyData/pl|Koniec|VectorDistance}}: określa punkt końcowy polilinii.
 
--    {{PropertyData/pl|Promień zaokrąglenia|Length}}   * określa promień zaokrągleń na rogach polilinii.
+-    {{PropertyData/pl|Promień zaokrąglenia|Length}}: określa promień zaokrągleń na rogach polilinii.
 
--    {{PropertyData/pl|Długość|Length}}   * *(tylko do odczytu)* określa całkowitą długość przewodu.
+-    {{PropertyData/pl|Długość|Length}}: *(tylko do odczytu)* określa całkowitą długość przewodu.
 
--    {{PropertyData/pl|Utwórz powierzchnię|Bool}}   * określa czy polilinia tworzy ścianę, czy też nie. Jeśli posiada wartość `True`, to tworzona jest powierzchnia, w przeciwnym razie tylko krawędzie są uważane za część obiektu. Właściwość ta działa tylko wtedy, gdy {{PropertyData/pl|Closed}} ma wartość `True` i gdy polilinia nie przecina się samoistnie.
+-    {{PropertyData/pl|Utwórz powierzchnię|Bool}}: określa czy polilinia tworzy ścianę, czy też nie. Jeśli posiada wartość `True`, to tworzona jest powierzchnia, w przeciwnym razie tylko krawędzie są uważane za część obiektu. Właściwość ta działa tylko wtedy, gdy {{PropertyData/pl|Closed}} ma wartość `True` i gdy polilinia nie przecina się samoistnie.
 
--    {{PropertyData/pl|Punkty|VectorList}}   * określa punkty polilinii w jej lokalnym układzie współrzędnych.
+-    {{PropertyData/pl|Punkty|VectorList}}: określa punkty polilinii w jej lokalnym układzie współrzędnych.
 
--    {{PropertyData/pl|Start|VectorDistance}}   * określa punkt początkowy polilinii.
+-    {{PropertyData/pl|Start|VectorDistance}}: określa punkt początkowy polilinii.
 
--    {{PropertyData/pl|Pododdziały|Integer}}   * określa liczbę podziałów dla każdej krawędzi polilinii. Jeśli jest to wartość {{value|1}} każda krawędź zostanie podzielona na równe segmenty o wartości {{value|2}}. Podziały są stosowane przed fazowaniem i zaokrąglaniem.
+-    {{PropertyData/pl|Pododdziały|Integer}}: określa liczbę podziałów dla każdej krawędzi polilinii. Jeśli jest to wartość {{value|1}} każda krawędź zostanie podzielona na równe segmenty o wartości {{value|2}}. Podziały są stosowane przed fazowaniem i zaokrąglaniem.
 
 -    {{PropertyData/pl|Narzędzia|Link}}
     
@@ -116,19 +116,19 @@ Obiekt polilinia wywodzi się z obiektu [Część   * Part2DObject](Part_Part2DO
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    **Rozmiar strzałki|Length**   * określa wielkość symbolu wyświetlanego na końcu polilinii.
+-    **Rozmiar strzałki|Length**: określa wielkość symbolu wyświetlanego na końcu polilinii.
 
--    **Typ strzałki|Enumeration**   * określa typ symbolu wyświetlanego na końcu przewodu, którym może być {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} lub {{value|Tick-2}}.
+-    **Typ strzałki|Enumeration**: określa typ symbolu wyświetlanego na końcu przewodu, którym może być {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} lub {{value|Tick-2}}.
 
--    **Zakończenie strzałki.|Bool**   * określa, czy pokazywać symbol na końcu przewodu, aby można go było użyć jak linii adnotacji.
+-    **Zakończenie strzałki.|Bool**: określa, czy pokazywać symbol na końcu przewodu, aby można go było użyć jak linii adnotacji.
 
--    **Wzór|Enumeration**   * określa rodzaj [wypełnienia](Draft_Pattern/pl.md), którym ma być pokryta powierzchnia zamkniętej linii. Ta właściwość działa tylko wtedy, gdy właściwość {{PropertyData/pl|Utwórz powierzchnię}} ma wartość `True` i gdy {{PropertyView/pl|Display Mode}} ma wartość {{value|Flat Lines}}.
+-    **Wzór|Enumeration**: określa rodzaj [wypełnienia](Draft_Pattern/pl.md), którym ma być pokryta powierzchnia zamkniętej linii. Ta właściwość działa tylko wtedy, gdy właściwość {{PropertyData/pl|Utwórz powierzchnię}} ma wartość `True` i gdy {{PropertyView/pl|Display Mode}} ma wartość {{value|Flat Lines}}.
 
--    **Rozmiar wzoru|Float**   * określa rozmiar [wypełnienia](Draft_Pattern/pl.md).
+-    **Rozmiar wzoru|Float**: określa rozmiar [wypełnienia](Draft_Pattern/pl.md).
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć polilinię użyj metody `make_wire` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeWire`.
 
@@ -145,7 +145,7 @@ wire = make_wire(Part.Wire, closed=False, placement=None, face=None, support=Non
 -   Jeśli `placement` ma wartość `None`, kształt jest tworzony w punkcie początkowym.
 -   Jeśli parametr `face` ma wartość `True`, a polilinia jest zamknięta, to polilinia będzie ścianą, czyli będzie wyglądała na wypełnioną.
 
-Przykład   *
+Przykład:
 
 
 ```python

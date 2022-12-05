@@ -7,11 +7,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Complete/Gui/Resources/icons/
 
- ![](images/CompleteWorkbench.svg ) 
-
- 
-
-[Category   *Artwork](Category_Artwork.md) [Category   *Complete](Category_Complete.md)
+ ![](images/CompleteWorkbench.svg )
 
 
 

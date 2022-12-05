@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Equipment
-   Name/de   *Arch Ausstattung
-   MenuLocation   *Arch → Ausstattung
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***E** **Q**
-   SeeAlso   *[Arch 3 Ansichten](Arch_3Views/de.md)
+- GuiCommand:/de
+   Name:Arch Equipment
+   Name/de:Arch Ausstattung
+   MenuLocation:Arch → Ausstattung
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**E** **Q**
+   SeeAlso:[Arch 3 Ansichten](Arch_3Views/de.md)
 ---
 
 # Arch Equipment/de
@@ -35,20 +35,20 @@ Durch Nutzung des Arch OBJ Exporteurs können alle Ausstattungsobjekte im Netz A
 
 ## Eigenschaften
 
--    {{PropertyData/de|Model}}   * Eine Beschreibung des Modells dieser Ausstattung.
+-    {{PropertyData/de|Model}}: Eine Beschreibung des Modells dieser Ausstattung.
 
--    {{PropertyData/de|Url}}   * Ein URL der Produktseite, wo mehr Informationen zu dieser Ausstattung gefunden werden können.
+-    {{PropertyData/de|Url}}: Ein URL der Produktseite, wo mehr Informationen zu dieser Ausstattung gefunden werden können.
 
--    {{PropertyData/de|Mesh}}   * Eine für diese Ausstattung zu verwendende [Netz](Mesh_Workbench/de.md)-Darstellung. Wenn gesetzt, wird der **Netz**-Anzeige-Modus verfügbar.
+-    {{PropertyData/de|Mesh}}: Eine für diese Ausstattung zu verwendende [Netz](Mesh_Workbench/de.md)-Darstellung. Wenn gesetzt, wird der **Netz**-Anzeige-Modus verfügbar.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Ausstattung kann in [Makros](macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden   * 
+Das Werkzeug Ausstattung kann in [Makros](macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -57,11 +57,11 @@ Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 -   Wenn ein `Placement` angegeben ist, wird es benutzt.
 -   Es liefert `None` zurück, falls die Operation fehlschlägt.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
 Box.Length = 500
 Box.Width = 2000
 Box.Height = 600

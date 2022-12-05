@@ -1,19 +1,19 @@
 # Developer hub/ru
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;">
+{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
 
 
 
 Это раздел для тех, кто хочет принять участие в разработке FreeCAD.
 
-Этот раздел находятся в стадии разработки. Если вы не можете найти информацию, которую ищете, или нашли полезную информацию, на которую мы не сослались, пожалуйста, оставьте комментарий на [форуме](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) и кто-нибудь заглянет в него (или, если вы уверены в своих знаниях, почему бы не отредактировать эту страницу самостоятельно!).
+Этот раздел находятся в стадии разработки. Если вы не можете найти информацию, которую ищете, или нашли полезную информацию, на которую мы не сослались, пожалуйста, оставьте комментарий на [форуме](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) и кто-нибудь заглянет в него (или, если вы уверены в своих знаниях, почему бы не отредактировать эту страницу самостоятельно!).
 
 ## Документация для Разработчиков 
 
-Документация для разработчиков включает в себя следующие разделы   *
+Документация для разработчиков включает в себя следующие разделы:
 
 ### Компиляция FreeCAD 
 
--   [Github репозиторий](https   *//github.com/FreeCAD/FreeCAD). Если вы новичок, в git изучите [управление исходным кодом](Source_code_management/ru.md)
+-   [Github репозиторий](https://github.com/FreeCAD/FreeCAD). Если вы новичок, в git изучите [управление исходным кодом](Source_code_management/ru.md)
 -   [Компиляция с Docker](Compile_on_Docker/ru.md)
 -   [Компиляция в Windows](Compile_on_Windows/ru.md)
 -   [Компиляция в Linux](Compile_on_Linux/ru.md)
@@ -69,9 +69,9 @@
 
 ### Руководство для разработчика модуля 
 
-[FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide)   * This is an ebook under writing on github, please fork and send pull request to contribute.
+[FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide): This is an ebook under writing on github, please fork and send pull request to contribute.
 
-Chapters   *
+Chapters:
 
 -   Overview and Software Architecture
 -   Source code structure
@@ -84,7 +84,7 @@ Chapters   *
 -   Module testing and debugging
 -   Contribute code with git
 
-Latest pdf preview can be downoaded from [pdf folder](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) of this git repo
+Latest pdf preview can be downoaded from [pdf folder](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf) of this git repo
 
 ### Внутренние устройство 
 
@@ -92,10 +92,10 @@ Latest pdf preview can be downoaded from [pdf folder](https   *//github.com/qing
 
 OpenCascade is a software development platform for 3D surface and solid modeling, CAD data exchange, and visualization, mostly in the form of C++ libraries.
 
--   [Roman Lygin\'s tutorials](http   *//opencascade.wikidot.com/romansarticles)
--   [Full Online Documentation](https   *//dev.opencascade.org/cdoc/overview/html/index.html)
--   [Reference Manual](https   *//dev.opencascade.org/doc/refman/html/index.html)
--   [The openCascade wiki](http   *//opencascade.wikidot.com) (currently containing ?? Chinese spam)
+-   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
+-   [Full Online Documentation](https://dev.opencascade.org/cdoc/overview/html/index.html)
+-   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
+-   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
 #### Про формат файла 
 
@@ -109,13 +109,13 @@ OpenCascade is a software development platform for 3D surface and solid modeling
 
 #### Решатель Эскизов (Sketcher solver) 
 
--   [Sketcher Solver Architecture Booklet](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https   *//github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
--   [PlaneGCS solver](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
--   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192).
+-   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
+-   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
+-   [Recent Several Sketcher improvements](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
 
-The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
 
-The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=40525).
+The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
 ## Дорожная карта проекта 
 
@@ -125,19 +125,14 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 ## Сообщество
 
--   [IRC channel](irc   *//chat.freenode.net/freecad) ,synchronized with [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https   *//forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
 
 -   [Development roadmap](Development_roadmap.md)
 
 ## Авторы
 
 [Участники проекта](Contributors/ru.md)
-
-
-
-
-[Category   *Hubs](Category_Hubs.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

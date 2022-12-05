@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Site
-   Name/de   *Arch Grundstück
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   MenuLocation   *Arch → Grundstück
-   Shortcut   ***S** **I**
-   SeeAlso   *[Arch Ebene](Arch_Floor/de.md), [Arch Gebäude](Arch_Building/de.md)
+- GuiCommand:/de
+   Name:Arch Site
+   Name/de:Arch Grundstück
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   MenuLocation:Arch → Grundstück
+   Shortcut:**S** **I**
+   SeeAlso:[Arch Ebene](Arch_Floor/de.md), [Arch Gebäude](Arch_Building/de.md)
 ---
 
 # Arch Site/de
@@ -36,37 +36,37 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ### Daten
 
--    **Gelände**   * Das Basisgelände dieses Baustelle
+-    **Gelände**: Das Basisgelände dieses Baustelle
 
--    **Addresse**   * Die Straße und Hausnummer dieser Baustelle.
+-    **Addresse**: Die Straße und Hausnummer dieser Baustelle.
 
--    **Postanschrift**   * Die Postanschrift oder Postleitzahl dieser Baustelle
+-    **Postanschrift**: Die Postanschrift oder Postleitzahl dieser Baustelle
 
--    **Stadt**   * Die Stadt dieser Baustelle
+-    **Stadt**: Die Stadt dieser Baustelle
 
--    **Land**   * Das Land dieser Baustelle
+-    **Land**: Das Land dieser Baustelle
 
--    **Breitengrad**   * Der Breitengrad dieser Baustelle
+-    **Breitengrad**: Der Breitengrad dieser Baustelle
 
--    **Längengrad**   * Der Längengrad dieser Baustelle
+-    **Längengrad**: Der Längengrad dieser Baustelle
 
--    **Url**   * Eine Url, die diese Baustelle auf einer Kartierungs Webseite zeigt
+-    **Url**: Eine Url, die diese Baustelle auf einer Kartierungs Webseite zeigt
 
--    **Projizierte Fläche**   * Die Fläche der Projektion dieses Objekts auf die XY Ebene
+-    **Projizierte Fläche**: Die Fläche der Projektion dieses Objekts auf die XY Ebene
 
--    **Umfang**   * Die Umfangslänge dieses Geländes
+-    **Umfang**: Die Umfangslänge dieses Geländes
 
--    **Additionsvolumen**   * Das diesem Gelände hinzuzufügende Erdvolumen
+-    **Additionsvolumen**: Das diesem Gelände hinzuzufügende Erdvolumen
 
--    **Subtraktionsvolumen**   * Das Erdvolumen, das von diesem Gelände entfernt werden soll
+-    **Subtraktionsvolumen**: Das Erdvolumen, das von diesem Gelände entfernt werden soll
 
--    **Extrusionsvektor**   * Ein Extrusionsvektor zur Verwendung bei der Durchführung boolescher Operationen
+-    **Extrusionsvektor**: Ein Extrusionsvektor zur Verwendung bei der Durchführung boolescher Operationen
 
--    **Splitter entfernen**   * Splitter aus der resultierenden Form entfernen
+-    **Splitter entfernen**: Splitter aus der resultierenden Form entfernen
 
--    **Deklination**   * Der Winkel zwischen dem wahren Norden und der Nordrichtung in diesem Dokument, d.h. die Y Achse. <small>(v0.18)</small>  Das bedeutet, dass standardmäßig Norden auf die Y Achse und Osten auf die X Achse zeigt; der Winkel wird gegen den Uhrzeigersinn schrittweise erhöht. Diese Eigenschaft war früher als **Nord Abweichung** bekannt.
+-    **Deklination**: Der Winkel zwischen dem wahren Norden und der Nordrichtung in diesem Dokument, d.h. die Y Achse. <small>(v0.18)</small>  Das bedeutet, dass standardmäßig Norden auf die Y Achse und Osten auf die X Achse zeigt; der Winkel wird gegen den Uhrzeigersinn schrittweise erhöht. Diese Eigenschaft war früher als **Nord Abweichung** bekannt.
 
--    **EPW Datei**   * Erlaube das Anhängen einer EPW Datei von der [Ladybug EPW Daten Webseite](https   *//www.ladybug.tools/epwmap/) an diese Baustelle. Dies wird benötigt, um Windrosendiagramme anzuzeigen. <small>(v0.19)</small> 
+-    **EPW Datei**: Erlaube das Anhängen einer EPW Datei von der [Ladybug EPW Daten Webseite](https://www.ladybug.tools/epwmap/) an diese Baustelle. Dies wird benötigt, um Windrosendiagramme anzuzeigen. <small>(v0.19)</small> 
 
 
 </div>
@@ -78,22 +78,22 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ### Ansicht
 
--    **Solardiagram**   * Zeigt das Solardiagramm an oder blendet es aus
+-    **Solardiagram**: Zeigt das Solardiagramm an oder blendet es aus
 
--    **Solardiagram Farbe**   * Die Farbe des Solardiagramms
+-    **Solardiagram Farbe**: Die Farbe des Solardiagramms
 
--    **Solardiagram Position**   * Die Position des Solardiagramms.
+-    **Solardiagram Position**: Die Position des Solardiagramms.
 
--    **Solardiagram Maßstab**   * Der Maßstab des Solardiagramms.
+-    **Solardiagram Maßstab**: Der Maßstab des Solardiagramms.
 
--    **Windrose**   * Zeigt das Windrosendiagramm an oder blendet es aus (erfordert die **EPW Datei** Dateneigenschaft ausgefüllt und das Ladybug Python Modul installiert (siehe unten)
+-    **Windrose**: Zeigt das Windrosendiagramm an oder blendet es aus (erfordert die **EPW Datei** Dateneigenschaft ausgefüllt und das Ladybug Python Modul installiert (siehe unten)
 
 
 </div>
 
 ## Typischer Arbeitsablauf 
 
-Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü {{MenuCommand/de|Teil → Form aus Netz erstellen}} in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil   *
+Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü {{MenuCommand/de|Teil → Form aus Netz erstellen}} in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -110,23 +110,23 @@ Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die 
 
 <div class="mw-translate-fuzzy">
 
-Wenn [Ladybug](https   *//www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Standort](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
+Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Standort](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
 
 
 </div>
 
-**Hinweis**   * Wenn du keinen Ladybug hast, wird [pysolar](http   *//pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https   *//github.com/ladybug-tools/ladybug) installiert werden.
+**Hinweis**: Wenn du keinen Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
 
 ![](images/Freecad-solar-diagram.jpg )
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Baustellenwerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden   *
+Das Baustellenwerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
 
 
 ```python
@@ -135,7 +135,7 @@ Site = makeSite(objectslist=None, baseobj=None, name="Site")
 
 -   Erstellt ein `Baustelle`n Objekt aus `Objekteliste`, die eine Liste von Objekten ist, oder `Basisobj`, das eine `Form` oder `Gelände`.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -178,7 +178,7 @@ Node = makeSolarDiagram(longitude, latitude, scale=1, complete=False)
 ```
 
 -   Erstellt ein Solardiagramm als ein Pivy Knoten unter Verwendung von `Längengrad` und `Breitengrad`, mit einem optionalen `Maßstab`.
--   Wenn `vollständig` `True` ist, werden die 12 Monate gezeichnet, was das vollständige Solardiagramm zeigt [analemma](https   *//en.wikipedia.org/wiki/Analemma).
+-   Wenn `vollständig` `True` ist, werden die 12 Monate gezeichnet, was das vollständige Solardiagramm zeigt [analemma](https://en.wikipedia.org/wiki/Analemma).
 
 
 ```python

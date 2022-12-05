@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать дугу по трём точкам
-   Name   *Sketcher_Create3PointArc
-   MenuLocation   *Sketch → Геометрия эскиза → Создать дугу по трём точкам
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut   ***G** **3** **A**
-   SeeAlso   *
+- GuiCommand:/ru
+   Name/ru:Создать дугу по трём точкам
+   Name:Sketcher_Create3PointArc
+   MenuLocation:Sketch → Геометрия эскиза → Создать дугу по трём точкам
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**G** **3** **A**
+   SeeAlso:
 ---
 
 # Sketcher Create3PointArc/ru
 
 ## Описание
 
-Этот инструмент рисует дугу по трем точкам   * начальной точке, конечной точке и точке на окружности.
+Этот инструмент рисует дугу по трем точкам: начальной точке, конечной точке и точке на окружности.
 
 ## Применение
 

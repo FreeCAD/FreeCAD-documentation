@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Part Section
-   Name/de   *Part Schnittkurve
-   MenuLocation   *Formteil → Schnittkurve
-   Workbenches   *[Part](Part_Workbench/de.md)
-   SeeAlso   *[Part Querschnitte](Part_CrossSections/de.md)
+- GuiCommand:/de
+   Name:Part Section
+   Name/de:Part Schnittkurve
+   MenuLocation:Formteil → Schnittkurve
+   Workbenches:[Part](Part_Workbench/de.md)
+   SeeAlso:[Part Querschnitte](Part_CrossSections/de.md)
 ---
 
 # Part Section/de
@@ -39,37 +39,37 @@ Extrahiert eine Schnittkurve aus der Überschneidung zweier ausgewählter Formen
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Base|Link**   * Link to the first object.
+-    **Base|Link**: Link to the first object.
 
--    **Tool|Link**   * Link to the second object.
+-    **Tool|Link**: Link to the second object.
 
 
 {{Properties_Title|Boolean}}
 
--    **History|ShapeHistory|hidden**   * \"Shape history\".
+-    **History|ShapeHistory|hidden**: \"Shape history\".
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after this boolean operation\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Section}}
 
--    **Approximation|Bool**   * Approximate the output edges.
+-    **Approximation|Bool**: Approximate the output edges.
 
 ## Verknüpfungen
 
 
 <div class="mw-translate-fuzzy">
 
-Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images/Part_CrossSections.svg  style="width   *24px;"> [Querschnitte](Part_CrossSections/de.md).
+Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Querschnitte](Part_CrossSections/de.md).
 
 
 </div>

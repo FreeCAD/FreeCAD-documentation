@@ -1,8 +1,6 @@
 # Category:UnfinishedDocu/cs
 This category contains all Unfinished Documents
 
-[Category   *Administration/cs](Category   *Administration/cs.md) [Category   *Categories/cs](Category   *Categories/cs.md)
-
 ### Contents
 
 |     |     |     |

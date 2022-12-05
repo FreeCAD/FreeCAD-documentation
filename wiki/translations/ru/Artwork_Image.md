@@ -11,9 +11,5 @@
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Image](Category_Image.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Image](Category_Image.md) > Artwork Image/ru

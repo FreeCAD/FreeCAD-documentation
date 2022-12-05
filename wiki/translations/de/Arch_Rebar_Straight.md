@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Rebar Straight
-   Name/de   *Arch Bewehrungsstab gerade
-   MenuLocation   *Arch → Rebar tools → Straight Rebar oder 3D/BIM → Reinforcement tools → Gerade Bewehrung
-   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso   *[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Bewehrung Stückliste](Arch_Rebar_BOM/de.md)
-   Version   *0.17
+- GuiCommand:/de
+   Name:Arch Rebar Straight
+   Name/de:Arch Bewehrungsstab gerade
+   MenuLocation:Arch → Rebar tools → Straight Rebar oder 3D/BIM → Reinforcement tools → Gerade Bewehrung
+   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Bewehrung Stückliste](Arch_Rebar_BOM/de.md)
+   Version:0.17
 ---
 
 # Arch Rebar Straight/de
@@ -36,12 +36,12 @@ Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug ist auch i
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -72,28 +72,28 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 </div>
 
-<img alt="" src=images/StraightRebarDialog.png  style="width   *250px;"> 
+<img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab gerade-Werkzeug*
 
 ## Eigenschaften
 
--    **Orientation**   * Legt die Ausrichtung der Bewehrungsstäbe fest (\"Bottom Right\", \"Bottom Left\", \"Top Right\" und \"Top Left\").
+-    **Orientation**: Legt die Ausrichtung der Bewehrungsstäbe fest (\"Bottom Right\", \"Bottom Left\", \"Top Right\" und \"Top Left\").
 
--    **Front Cover**   * Der Abstand zwischen Bewehrungsstab und gewählter Fläche.
+-    **Front Cover**: Der Abstand zwischen Bewehrungsstab und gewählter Fläche.
 
--    **Right Cover**   * Der Abstand zwischen dem rechten Ende des Bewehrungsstabs bis zur rechten Fläche der Struktur.
+-    **Right Cover**: Der Abstand zwischen dem rechten Ende des Bewehrungsstabs bis zur rechten Fläche der Struktur.
 
--    **Left Cover**   * Der Abstand zwischen dem linken Ende des Bewehrungsstabs bis zur linken Fläche der Struktur.
+-    **Left Cover**: Der Abstand zwischen dem linken Ende des Bewehrungsstabs bis zur linken Fläche der Struktur.
 
--    **Cover along**   * Diese Eigenschaft erlaubt dem Anwender die Auswahl zwischen \"Top Cover\" und \"Bottom Cover\" (Ober- bzw. Unterseite).
+-    **Cover along**: Diese Eigenschaft erlaubt dem Anwender die Auswahl zwischen \"Top Cover\" und \"Bottom Cover\" (Ober- bzw. Unterseite).
 
--    **Bottom Cover**   * Der Abstand zwischen Bewehrungsstab bis zur unteren Fläche der Struktur.
+-    **Bottom Cover**: Der Abstand zwischen Bewehrungsstab bis zur unteren Fläche der Struktur.
 
--    **Top Cover**   * Der Abstand zwischen dem Bewehrungsstab bis zur oberen Fläche der Struktur.
+-    **Top Cover**: Der Abstand zwischen dem Bewehrungsstab bis zur oberen Fläche der Struktur.
 
--    **Amount**   * Die Anzahl der Bewehrungsstäbe.
+-    **Amount**: Die Anzahl der Bewehrungsstäbe.
 
--    **Spacing**   * Der Abstand zwischen den Achsen der Bewehrungsstäbe.
+-    **Spacing**: Der Abstand zwischen den Achsen der Bewehrungsstäbe.
 
 ## Scripting
 
@@ -103,7 +103,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 ## Scripting 
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
@@ -113,7 +113,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 <div class="mw-translate-fuzzy">
 
-Das Gerader Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   *
+Das Gerader Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
 
 
 </div>
@@ -238,7 +238,7 @@ editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
 
 -    `structure`und `facename` können weggelassen werden, so dass die Bewehrung in der ursprünglichen Struktur bleibt.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import StraightRebar
 
@@ -263,11 +263,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -1,6 +1,6 @@
 # Path DressupDogbone/it
 ---
-- GuiCommand   */it   Name   *Path DressupTag   Name/it   *Vestizione Osso di cane   Workbenches   *[MenuLocation   *Path → Vestizione → Osso di cane   SeeAlso   *[[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Trascina lama](Path_DressupDragKnife/it.md) ---
+- GuiCommand:/it   Name:Path DressupTag   Name/it:Vestizione Osso di cane   Workbenches:[MenuLocation:Path → Vestizione → Osso di cane   SeeAlso:[[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Trascina lama](Path_DressupDragKnife/it.md) ---
 
 
 </div>
@@ -21,7 +21,7 @@ Questo strumento veste un percorso esistente per oltrepassare gli angoli negli a
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un contorno o un oggetto profilo [Path](Path_Workbench/it.md)
-2.  cliccare su <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [Vestizione Dogbone](Path_DressupDogbone/it.md)
+2.  cliccare su <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [Vestizione Dogbone](Path_DressupDogbone/it.md)
 
 
 </div>

@@ -1,4 +1,4 @@
-# <img alt="Логотип стандартных инструментов" src=images/Freecad.svg  style="width   *64px;"> Std Base/ru
+# <img alt="Логотип стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Base/ru
 
 
 {{TOCright}}
@@ -35,22 +35,22 @@
 
 ### Дополнительные инструменты 
 
--   <img alt="" src=images/Std_Part.svg  style="width   *32px;"> [\"Создать деталь\"](Std_Part/ru.md)   * Создаёт новую деталь и делает её активной.
--   <img alt="" src=images/Std_Group.svg  style="width   *32px;"> [\"Создать группу\"](Std_Group/ru.md)   * Создаёт новую группу.
--   <img alt="" src=images/Std_LinkMake.svg  style="width   *32px;"> [\"Создать ссылку\"](Std_LinkMake/ru.md)   * Создаёт ссылку. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width   *32px;"> [\"Сделать доп. ссылку\"](Std_LinkMakeRelative/ru.md)   * Создает ссылку на подобъект или подэлемент. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkReplace.svg  style="width   *32px;"> [\"Заменить ссылкой\"](Std_LinkReplace/ru.md)   * Заменяет объект(ы) новой ссылкой(ами). {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkUnlink.svg  style="width   *32px;"> [\"Отвязать\"](Std_LinkUnlink/ru.md)   * Заменяет ссылку(и) на связанный объект(ы). {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkImport.svg  style="width   *32px;"> [\"Импорт ссылок\"](Std_LinkImport/ru.md)   * Импортирует выбранные внешние ссылки. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkImportAll.svg  style="width   *32px;"> [\"Импорт всех ссылок\"](Std_LinkImportAll/ru.md)   * Импортирует все внешние ссылки. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width   *32px;"> [\"Создать группу ссылок\"](Std_LinkMakeGroup/ru.md)   * Создаёт группу ссылок. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width   *32px;"> [\"Перейти к связанному объекту\"](Std_LinkSelectLinked/ru.md)   * Выбирает связанный объект и переключается на документ в котором он находиться. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width   *32px;"> [\"Перейти на самый глубокий связанный объект\"](Std_LinkSelectLinkedFinal/ru.md)   * Выбирает конечный (самый глубокий) связанный объект и переключается на документ в котором он находится. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width   *32px;"> [\"Выбрать все ссылки\"](Std_LinkSelectAllLinks/ru.md)   * Выбирает все ссылки на текущий выбранный объект. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width   *32px;"> [\"Выбрать все экземпляры\"](Std_TreeSelectAllInstances/ru.md)   * Выбирает все экземпляры объекта. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_SelBack.svg  style="width   *32px;"> [\"Назад\"](Std_SelBack/ru.md)   * Вернуться к предидущему сохраненному выбору. {{Version/ru|0.19}}
--   <img alt="" src=images/Std_SelForward.svg  style="width   *32px;"> [\"Вперед\"](Std_SelForward/ru.md)   * Восстанавливает следующий сохраненный выбор. {{Version/ru|0.19}}
--   [\"Выражения\"](Std_Expressions/ru.md)   * Действия с выражениями. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [\"Создать деталь\"](Std_Part/ru.md): Создаёт новую деталь и делает её активной.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [\"Создать группу\"](Std_Group/ru.md): Создаёт новую группу.
+-   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [\"Создать ссылку\"](Std_LinkMake/ru.md): Создаёт ссылку. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [\"Сделать доп. ссылку\"](Std_LinkMakeRelative/ru.md): Создает ссылку на подобъект или подэлемент. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [\"Заменить ссылкой\"](Std_LinkReplace/ru.md): Заменяет объект(ы) новой ссылкой(ами). {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [\"Отвязать\"](Std_LinkUnlink/ru.md): Заменяет ссылку(и) на связанный объект(ы). {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [\"Импорт ссылок\"](Std_LinkImport/ru.md): Импортирует выбранные внешние ссылки. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [\"Импорт всех ссылок\"](Std_LinkImportAll/ru.md): Импортирует все внешние ссылки. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [\"Создать группу ссылок\"](Std_LinkMakeGroup/ru.md): Создаёт группу ссылок. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [\"Перейти к связанному объекту\"](Std_LinkSelectLinked/ru.md): Выбирает связанный объект и переключается на документ в котором он находиться. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [\"Перейти на самый глубокий связанный объект\"](Std_LinkSelectLinkedFinal/ru.md): Выбирает конечный (самый глубокий) связанный объект и переключается на документ в котором он находится. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [\"Выбрать все ссылки\"](Std_LinkSelectAllLinks/ru.md): Выбирает все ссылки на текущий выбранный объект. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [\"Выбрать все экземпляры\"](Std_TreeSelectAllInstances/ru.md): Выбирает все экземпляры объекта. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [\"Назад\"](Std_SelBack/ru.md): Вернуться к предидущему сохраненному выбору. {{Version/ru|0.19}}
+-   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [\"Вперед\"](Std_SelForward/ru.md): Восстанавливает следующий сохраненный выбор. {{Version/ru|0.19}}
+-   [\"Выражения\"](Std_Expressions/ru.md): Действия с выражениями. {{Version/ru|0.19}}
 
 
 
@@ -58,9 +58,7 @@
 
 {{Std Base navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

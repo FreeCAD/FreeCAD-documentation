@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM MeshNetgenFromShape
-   Name/fr   *FEM Maillage FEM à partir d'une forme de Netgen
-   MenuLocation   *Maillage → Maillage FEM à partir d'une forme de Netgen
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM MeshNetgenFromShape
+   Name/fr:FEM Maillage FEM à partir d'une forme de Netgen
+   MenuLocation:Maillage → Maillage FEM à partir d'une forme de Netgen
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshNetgenFromShape/fr
@@ -25,22 +25,22 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 ## Propriétés
 
--    **Max. Size**   * taille maximale de l\'élément en mm.
+-    **Max. Size**: taille maximale de l\'élément en mm.
 
--    **Second order**   * les éléments de second ordre contiennent plus de noeuds par élément. En général, il suffit d\'utiliser un maillage plus grossier pour obtenir la même précision de solution qu\'avec les éléments de premier ordre,
+-    **Second order**: les éléments de second ordre contiennent plus de noeuds par élément. En général, il suffit d\'utiliser un maillage plus grossier pour obtenir la même précision de solution qu\'avec les éléments de premier ordre,
 
     -   true (valueur par défaut) ; éléments de second ordre,
     -   false ; éléments de premier ordre.
 
--    **Fineness**   * définit la finesse du maillage.
+-    **Fineness**: définit la finesse du maillage.
 
--    **Growth Rate**   * définit de combien les éléments adjacents peuvent différer en taille.
+-    **Growth Rate**: définit de combien les éléments adjacents peuvent différer en taille.
 
--    **Nb. Segs per Edge**   * définit le nombre minimum de segments de maille par arête.
+-    **Nb. Segs per Edge**: définit le nombre minimum de segments de maille par arête.
 
--    **Nb. Segs per Radius**   * définit le nombre minimum de segments de maillage par rayon.
+-    **Nb. Segs per Radius**: définit le nombre minimum de segments de maillage par rayon.
 
--    **Optimize**   *
+-    **Optimize**:
 
     -   true (valeur par défaut); applique un algorithme d\'optimisation pour améliorer la qualité du maillage,
     -   false;

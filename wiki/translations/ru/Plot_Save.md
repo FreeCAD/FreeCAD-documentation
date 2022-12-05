@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name   *Plot Save
-   Name/ru   *Plot Save
-   Workbenches   *[Plot](Plot_Workbench/ru.md)
-   MenuLocation   *Plot → Сохранить диаграмму
+- GuiCommand:/ru
+   Name:Plot Save
+   Name/ru:Plot Save
+   Workbenches:[Plot](Plot_Workbench/ru.md)
+   MenuLocation:Plot → Сохранить диаграмму
 ---
 
 # Plot Save/ru
@@ -23,7 +23,7 @@
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Usage
 
@@ -42,9 +42,9 @@
 
 ## Options
 
--   **File path**   * You can set the output image path (including format extension) inserting it at text line too.
--   **Size**   * You can specify output image width and height (inches).
--   **dpi**   * You can set the image resolution (Dots Per Inch). Final resolution (in pixels) will be the multiplication of width and height by dpi.
+-   **File path**: You can set the output image path (including format extension) inserting it at text line too.
+-   **Size**: You can specify output image width and height (inches).
+-   **dpi**: You can set the image resolution (Dots Per Inch). Final resolution (in pixels) will be the multiplication of width and height by dpi.
 
 
 
@@ -52,9 +52,7 @@
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https   *//it.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
+L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https://it.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La finestra di dialogo Personalizza*
@@ -11,7 +11,7 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https   *//it.wikip
 ## Utilizzo
 
 1.  I comandi disponibili nella finestra di dialogo Personalizza dipendono dagli ambienti di lavoro che sono stati caricati nella sessione corrente di FreeCAD. Quindi dovresti prima caricare tutti gli ambienti ai cui comandi vuoi avere accesso.
-2.  Esistono diversi modi per invocare il comando <img alt="" src=images/Std_DlgCustomize.svg  style="width   *16px;"> [Personalizza](Std_DlgCustomize/it.md)   *
+2.  Esistono diversi modi per invocare il comando <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Personalizza](Std_DlgCustomize/it.md):
     -   Selezionare l\'opzione dal menu **Strumenti → <img src="images/Std_DlgCustomize.svg" width=16px> Personalizza...**.
     -   Cliccare col tasto destro sull\'area della barra strumenti e selezionare **<img src="images/Std_DlgCustomize.svg" width=16px> Personalizza...** dal menu contestuale.
 3.  Si apre la finestra di dialogo Personalizza. Per ulteriori informazioni, vedere [Opzioni](#Opzioni.md).
@@ -20,7 +20,7 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https   *//it.wikip
 
 ## Opzioni
 
-Nella finestra di dialogo Personalizza sono disponibili le seguenti schede   *
+Nella finestra di dialogo Personalizza sono disponibili le seguenti schede:
 
 ### Comandi
 
@@ -33,8 +33,8 @@ In questa scheda è possibile sfogliare i comandi disponibili.
 
 1.  Selezionare una categoria di comandi nel pannello **Categoria** a sinistra. Alcune categorie corrispondono alle voci del menu.
 2.  Gli strumenti disponibili nella categoria selezionata sono mostrati nel pannello a destra.
-3.  Passa il mouse su un comando   * appare la descrizione del comando.
-4.  Selezionare un comando   * il testo della sua barra di stato viene visualizzato sotto i due pannelli.
+3.  Passa il mouse su un comando: appare la descrizione del comando.
+4.  Selezionare un comando: il testo della sua barra di stato viene visualizzato sotto i due pannelli.
 
 
 {{Top}}
@@ -184,9 +184,9 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *La scheda Macro*
 
-In questa scheda è possibile impostare i comandi delle macro utente. Una volta impostati, possono essere aggiunti alle barre degli strumenti personalizzate. FreeCAD utilizza una cartella dedicata per le macro utente e solo le macro in quella cartella possono essere impostate. Utilizzare il comando <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Esegui la macro](Std_DlgMacroExecute/it.md) per trovare questa cartella nel sistema.
+In questa scheda è possibile impostare i comandi delle macro utente. Una volta impostati, possono essere aggiunti alle barre degli strumenti personalizzate. FreeCAD utilizza una cartella dedicata per le macro utente e solo le macro in quella cartella possono essere impostate. Utilizzare il comando <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Esegui la macro](Std_DlgMacroExecute/it.md) per trovare questa cartella nel sistema.
 
-Se scarichi una macro con l\'<img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr/it.md), assicurati di scaricare anche il file immagine dell\'icona. La maggior parte delle macro ha un collegamento ad un\'immagine nella pagina delle informazioni, che appare in Addon Manager. Ad esempio, puoi inserire questo file immagine nella cartella delle macro utente.
+Se scarichi una macro con l\'<img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md), assicurati di scaricare anche il file immagine dell\'icona. La maggior parte delle macro ha un collegamento ad un\'immagine nella pagina delle informazioni, che appare in Addon Manager. Ad esempio, puoi inserire questo file immagine nella cartella delle macro utente.
 
 Se vuoi utilizzare una macro scaricata da una fonte diversa dovrai installarla manualmente. Vedi [Come installare le macro](How_to_install_macros/it.md) per maggiori informazioni.
 
@@ -198,7 +198,7 @@ Se vuoi utilizzare una macro scaricata da una fonte diversa dovrai installarla m
 4.  Facoltativamente, inserire un **Testo di stato**. Questo testo apparirà nella [barra di stato](Status_bar/it.md) quando si passa con il mouse sull\'icona della barra degli strumenti.
 5.  Facoltativamente, inserire la pagina wiki per la macro, se disponibile, nella casella di inserimento **Che cos\'è questo**. Inserire il nome della pagina, non l\'URL completo.
 6.  Facoltativamente, inserire una scorciatoia nella casella d\'immissione **Acceleratore**. Vedere [Tastiera](#Tastiera.md) per maggiori informazioni.
-7.  Per aggiungere un\'icona   *
+7.  Per aggiungere un\'icona:
     1.  Premere il pulsante **Pixmap** **...**.
     2.  Si apre la finestra di dialogo Scegli Icona.
     3.  Se necessario, premere il pulsante **Cartella icone...** per aggiungere una cartella di icone.
@@ -223,17 +223,17 @@ Se vuoi utilizzare una macro scaricata da una fonte diversa dovrai installarla m
 
 ### Movimenti Spaceball 
 
-Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere   * [3Dconnexion input devices](3Dconnexion_input_devices/it.md). {{Top}}
+Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnexion input devices](3Dconnexion_input_devices/it.md). {{Top}}
 
 ### Pulsanti Spaceball 
 
-Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere   * [3Dconnexion input devices](3Dconnexion_input_devices/it.md). {{Top}}
+Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnexion input devices](3Dconnexion_input_devices/it.md). {{Top}}
 
 ## Temi
 
-FreeCAD supporta i temi completi dell\'interfaccia, tramite fogli di stile .qss. Il [formato qss](https   *//doc.qt.io/qt-5/stylesheet-syntax.html) è molto simile al [formato css](https   *//it.wikipedia.org/wiki/CSS) utilizzato nelle pagine Web, aggiunge fondamentalmente metodi per fare riferimento ai diversi widget ed elementi dell\'interfaccia Qt. Puoi cambiare il tema predefinito (che prende semplicemente lo stile definito dal tuo sistema desktop) selezionando un **foglio di stile** nel menu [Preferenze di FreeCAD](Preferences_Editor#General.md).
+FreeCAD supporta i temi completi dell\'interfaccia, tramite fogli di stile .qss. Il [formato qss](https://doc.qt.io/qt-5/stylesheet-syntax.html) è molto simile al [formato css](https://it.wikipedia.org/wiki/CSS) utilizzato nelle pagine Web, aggiunge fondamentalmente metodi per fare riferimento ai diversi widget ed elementi dell\'interfaccia Qt. Puoi cambiare il tema predefinito (che prende semplicemente lo stile definito dal tuo sistema desktop) selezionando un **foglio di stile** nel menu [Preferenze di FreeCAD](Preferences_Editor#General.md).
 
-Puoi anche creare il tuo tema se non sei soddisfatto dei temi forniti con FreeCAD, ad esempio modificando un [foglio di stile esistente](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Il tuo nuovo foglio di stile deve essere posizionato in una cartella specifica per essere trovato da FreeCAD   *
+Puoi anche creare il tuo tema se non sei soddisfatto dei temi forniti con FreeCAD, ad esempio modificando un [foglio di stile esistente](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Il tuo nuovo foglio di stile deve essere posizionato in una cartella specifica per essere trovato da FreeCAD:
 
 -    **%APPDATA%/FreeCAD/Gui/Stylesheets**(per Windows). La cartella **%APPDATA%** può essere trovata inserendo {{Incode|App.getUserAppDataDir()}} dalla [console di Python](Python_console/it.md).
 
@@ -246,35 +246,35 @@ Puoi anche creare il tuo tema se non sei soddisfatto dei temi forniti con FreeCA
 
 ## Componenti aggiuntivi 
 
-I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'interfaccia utente. Di seguito sono riportati alcuni componenti aggiuntivi creati dagli utenti nella comunità di FreeCAD. Possono essere scaricati tramite <img alt="" src=images/_Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr/it.md) (nota   * essi sono elencati nella scheda Ambienti).
+I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'interfaccia utente. Di seguito sono riportati alcuni componenti aggiuntivi creati dagli utenti nella comunità di FreeCAD. Possono essere scaricati tramite <img alt="" src=images/_Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md) (nota: essi sono elencati nella scheda Ambienti).
 
 ### CubeMenu
 
--   Github repository   * <https   *//github.com/triplus/CubeMenu>
+-   Github repository: <https://github.com/triplus/CubeMenu>
 
 ### Glass
 
--   Github repository   * <https   *//github.com/triplus/Glass>.
+-   Github repository: <https://github.com/triplus/Glass>.
 
 ### IconThemes
 
--   Github repository   * <https   *//github.com/triplus/IconThemes>
+-   Github repository: <https://github.com/triplus/IconThemes>
 
 ### Launcher
 
--   Github repository   * <https   *//github.com/triplus/Launcher>
+-   Github repository: <https://github.com/triplus/Launcher>
 
 ### PieMenu
 
--   Github repository   * <https   *//github.com/triplus/PieMenu>
+-   Github repository: <https://github.com/triplus/PieMenu>
 
 ### RemBench
 
--   Github repository   * <https   *//github.com/triplus/RemBench>
+-   Github repository: <https://github.com/triplus/RemBench>
 
 ### ShortCut
 
--   Github repository   * <https   *//github.com/triplus/ShortCuts>
+-   Github repository: <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

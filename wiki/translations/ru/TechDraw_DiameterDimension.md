@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Указать диаметр
-   Name   *TechDraw_DiameterDimension
-   MenuLocation   *TechDraw → Размеры → Указать диаметр
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso   *[Указать радиус](TechDraw_RadiusDimension/ru.md)
+- GuiCommand:/ru
+   Name/ru:Указать диаметр
+   Name:TechDraw_DiameterDimension
+   MenuLocation:TechDraw → Размеры → Указать диаметр
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Указать радиус](TechDraw_RadiusDimension/ru.md)
 ---
 
 # TechDraw DiameterDimension/ru
@@ -13,7 +13,7 @@
 
 The Diameter Dimension tool adds a diameter dimension to a View. The dimension may be applied to any circular in the drawing. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
-<img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width   *130px;"> 
+<img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width:130px;"> 
 *Measuring a circle, indicating the diameter*
 
 ## Применение
@@ -36,15 +36,15 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Diameter Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Diameter Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
 dim1.Type = "Diameter"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar ColumnReinforcement
-   MenuLocation   *Reinforcement → Column Reinforcement, Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md), [Arch Rebar](Arch_Rebar.md)
+- GuiCommand:
+   Name:Arch Rebar ColumnReinforcement
+   MenuLocation:Reinforcement → Column Reinforcement, Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version:0.19
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md), [Arch Rebar](Arch_Rebar.md)
 ---
 
 # Arch Rebar Circular ColumnReinforcement/pt-br
@@ -13,9 +13,9 @@
 
 The [Column Reinforcement](Arch_Rebar_Circular_ColumnReinforcement.md) tool allows the user to create reinforcing bars inside a Column [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
 *Circular Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
 
 ## Utilização
@@ -24,12 +24,12 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 2. Then select **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)** from the rebar tools.
 3. A dialog box will pop-out on screen as shown below.
 
-<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;"> 
+<img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;"> 
 *Dialog Box for the Arch Rebar ColumnReinforcement tool*
 
 4\. Select the Circular Column radio button in column reinforcement dialog.
 
-<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width   *700px;"> 
+<img alt="" src=images/CircularColumnReinforcementDialog.png  style="width:700px;"> 
 *Dialog Box for Circular Column Reinforcement*
 
 5\. Give inputs for data related to circular column reinforcement.
@@ -39,38 +39,38 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Propriedades
 
-**Helical Rebars   ***
+**Helical Rebars:**
 
--    **Side Cover**   * The distance between rebar to the curved face.
+-    **Side Cover**: The distance between rebar to the curved face.
 
--    **Top Cover**   * The distance between rebar from the top face of the structure.
+-    **Top Cover**: The distance between rebar from the top face of the structure.
 
--    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
 
--    **Pitch**   * The pitch of a helix is the height of one complete helix turn, measured parallel to the axis of the helix.
+-    **Pitch**: The pitch of a helix is the height of one complete helix turn, measured parallel to the axis of the helix.
 
--    **Diameter**   * Diameter of the rebar.
+-    **Diameter**: Diameter of the rebar.
 
-**Main Rebars   ***
+**Main Rebars:**
 
--    **Top Offset**   * The distance between rebars from the top face of the structure.
+-    **Top Offset**: The distance between rebars from the top face of the structure.
 
--    **Bottom Offset**   * The distance between rebars from the bottom face of the structure.
+-    **Bottom Offset**: The distance between rebars from the bottom face of the structure.
 
--    **Diameter**   * Diameter of the main rebars.
+-    **Diameter**: Diameter of the main rebars.
 
--    **Number**   * The number of main rebars.
+-    **Number**: The number of main rebars.
 
--    **Angle**   * The angular distance between ties.
+-    **Angle**: The angular distance between ties.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
+The ColumnReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
 ### Create Circular Column Reinforcement 
 
@@ -201,14 +201,6 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

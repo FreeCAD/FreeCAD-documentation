@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher ConstrainTangent
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   MenuLocation   *Sketch → Sketcher constraints → Constrain tangent
-   Shortcut   *T
-   SeeAlso   *[Constraint point on object](Sketcher_ConstrainPointOnObject.md)
+- GuiCommand:
+   Name:Sketcher ConstrainTangent
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain tangent
+   Shortcut:T
+   SeeAlso:[Constraint point on object](Sketcher_ConstrainPointOnObject.md)
 ---
 
 # Sketcher ConstrainTangent/ro
@@ -33,7 +33,7 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 ## Cum se folosește 
 
-sunt patru moduri diferite în cae contrângerea poate fi aplicată   *
+sunt patru moduri diferite în cae contrângerea poate fi aplicată:
 
 1.  between two curves (available not for all curves)
 2.  between two endpoints of a curve, making a smooth joint
@@ -43,18 +43,18 @@ sunt patru moduri diferite în cae contrângerea poate fi aplicată   *
 
 </div>
 
-Pentru a aplica constrângerile de tangență, trebuie să urmați pașii   *
+Pentru a aplica constrângerile de tangență, trebuie să urmați pașii:
 
 -   Select two or three entities in the sketch.
 -   Invoke the constraint by clicking its icon on the toolbar, or selecting the menu item, or using keyboard shortcut.
 
 ### Între două curbe (direct tangency) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
 două curbe vor fi făcute tangente, and the point of tangency will be implicit. This mode is applied if two curves were selected.
 
-**Accepted selection   ***
+**Accepted selection:**
 
 -   line + line, circle, arc, ellipse, arc-of-ellipse
 -   circle, arc + circle, arc
@@ -65,7 +65,7 @@ Nu se recomandă reconstruirea punctului de tangență prin crearea unui punct �
 
 ### Între două puncte finale (point-to-point tangency) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -75,27 +75,27 @@ Nu se recomandă reconstruirea punctului de tangență prin crearea unui punct �
 
 </div>
 
-**Accepted selection   ***
+**Accepted selection:**
 
 -   endpoint of line/arc/arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., two endpoints of any two curves)
 
 ### Între curbă și punct final (point-to-curve tangency) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
 În acest mod, un punct final al unei curbe este constrâns să stea pe cealaltă curbă, and the curves are forced tangent at the point. This mode is applied when a curve and an endpoint of another curve were selected.
 
-**Accepted selection   ***
+**Accepted selection:**
 
 -   line, circle, arc, ellipse, arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., any curve + endpoint of any curve)
 
 ### Între două curbe la punct (tangent-via-point) (v0.15) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
 În acest mod, două curbe sunt tangente și punctul de tangență este urmărit. Acest mod se aplică atunci când au fost selectate două curbe și un punct.
 
-**Accepted selection   ***
+**Accepted selection:**
 
 -   any line/curve + any line/curve + any point
 
@@ -115,9 +115,9 @@ Plasarea punctului înaintea aplicării constrângerii este o sugestie pentru re
 
 ### Between two lines (collinear) 
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
-**Accepted selection   ***
+**Accepted selection:**
 
 -   any line/vertex + any line/vertex
 
@@ -126,7 +126,7 @@ Plasarea punctului înaintea aplicării constrângerii este o sugestie pentru re
 
 <div class="mw-translate-fuzzy">
 
-Tangent Constraint poate fi creată din [macros](macros.md) și din consola python folosind următoarele   *
+Tangent Constraint poate fi creată din [macros](macros.md) și din consola python folosind următoarele:
 
 
 </div>
@@ -149,15 +149,15 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
 <div class="mw-translate-fuzzy">
 
-unde   *
+unde:
 
-   ** Sketch is a sketch object
+  - Sketch is a sketch object
 
-   ** icurve1, icurve2 are two integers identifying the curves to be made tangent. The integers are indexes in the sketch (the value, returned by Sketch.addGeometry).
+  - icurve1, icurve2 are two integers identifying the curves to be made tangent. The integers are indexes in the sketch (the value, returned by Sketch.addGeometry).
 
-   ** pointpos1, pointpos2 should be 1 for start point and 2 for end point.
+  - pointpos1, pointpos2 should be 1 for start point and 2 for end point.
 
-   ** geoidpoint and pointpos in TangentViaPoint are the indexes specifying the point of tangency.
+  - geoidpoint and pointpos in TangentViaPoint are the indexes specifying the point of tangency.
 
 
 </div>

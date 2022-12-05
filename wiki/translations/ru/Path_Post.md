@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Path PostProcess
-   Name/ru   *Path PostProcess
-   MenuLocation   *Path → Постобработка
-   Workbenches   *[Path](Path_Workbench/ru.md)
-   Shortcut   ***P** **P**
-   SeeAlso   *
+- GuiCommand:/ru
+   Name:Path PostProcess
+   Name/ru:Path PostProcess
+   MenuLocation:Path → Постобработка
+   Workbenches:[Path](Path_Workbench/ru.md)
+   Shortcut:**P** **P**
+   SeeAlso:
 ---
 
 # Path Post/ru
@@ -34,9 +34,9 @@ The **<img src="images/Path_Post.svg" width=16px> [Post](Path_Post.md)** command
 
 If you want to write your own postprocessor, have a look at the [Path Postprocessor Customization](Path_Postprocessor_Customization.md) page.
 
-**Note   *** Several provided Postprocessors generate suitable code for many CNC controllers, or can be used as templates for modification
+**Note:** Several provided Postprocessors generate suitable code for many CNC controllers, or can be used as templates for modification
 
-Postprocessors contain configuration flags and are designed to be tuned by adding G-Codes and M-Codes to provided definitions for   *
+Postprocessors contain configuration flags and are designed to be tuned by adding G-Codes and M-Codes to provided definitions for:
 
 -   Machine initialization
 -   Job finalization
@@ -46,7 +46,7 @@ Postprocessors contain configuration flags and are designed to be tuned by addin
 
 Postprocessors use [FreeCAD\'s internal G-Code dialect](Path_scripting#The_FreeCAD_Internal_GCode_Format.md) in conjunction with the Postprocessor configuration definitions, to generate Dialect-Correct G-Code for target machines. This allows the Path workbench to generate correct G-Code to target various CNC machine controllers by invoking different Postprocessors.
 
-CNC Machine Controller types include   *
+CNC Machine Controller types include:
 
 -   CNC mills
 -   CNC lathes
@@ -63,11 +63,11 @@ If only one CNC machine is used, or if all CNC machines share a common Postproce
 
 ## Usage
 
-1.  Select a <img alt="" src=images/Path_Job.svg  style="width   *16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the command   *
+1.  Select a <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Job](Path_Job.md) in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_Post.svg" width=16px> [Path Post](Path_Post.md)** button.
     -   Select the **Path → <img src="images/Path_Post.svg" width=16px> Post Process** option from the menu.
-    -   Use the keyboard shortcut   * **P** then **P**.
+    -   Use the keyboard shortcut: **P** then **P**.
 3.  Confirm the **Output File** name and directory
 
 ## Options
@@ -76,7 +76,7 @@ Output file and Postprocessor properties can be set in the [Job](Path_Job.md), a
 
 The provided Postprocessors are written with comments indicating areas containing Flags, Configuration Variables, and Sections of G-Codes and M-Codes that are to be used by the Postprocessor to configure the output.
 
-Typical Configuration True/False Flags include   *
+Typical Configuration True/False Flags include:
 
 -   OUTPUT_COMMENTS (True = Allow, False = Suppress), Used to insert Text Comments in the output G-Code file.
 -   OUTPUT_HEADER (True = Allow, False = Suppress), Used to insert Text Headers in the output G-Code file.
@@ -84,14 +84,14 @@ Typical Configuration True/False Flags include   *
 -   SHOW_EDITOR (True = Allow, False = Suppress), Used to show the output G-Code in a Pop-up window when invoking the Postprocessor.
 -   MODAL (True = Allow, False = Suppress), Used to reduce the number of output G-Code lines by stripping Mode information when the Mode is not changing.
 
-Typical Configuration Variables include   *
+Typical Configuration Variables include:
 
 -   LINENR (Line Number), Used to Set the Line Number index.
 -   UNITS (G20 or G21), Used to explicitly communicate to the target CNC controller what Units to use to interpret the final output file.
 -   MACHINE_NAME (Name of Target CNC Mill), Used to Insert a machine name label in the final output file.
 -   PRECISION, Used to Set the number of digits to include after the decimal place in final output file
 
-Typical Configuration Sections include   *
+Typical Configuration Sections include:
 
 -   PREAMBLE (Code configuration inserted at beginning of the Job)
 -   POSTAMBLE (Code configuration appended to the Job, providing for parking the machine, etc\...)
@@ -99,7 +99,7 @@ Typical Configuration Sections include   *
 
 The **Edit** → **Preferences...** → **Path** → **Job Preferences tab** → **Defaults** → **Path** is used to set the default Postprocessor selected on Job creation. This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
 
-Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** by default   *
+Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** by default:
 
 -   centroid
 -   comparams
@@ -107,7 +107,7 @@ Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** b
 -   dynapath
 -   grbl, including support for bCNC header blocks using Job output argument \--bcnc
 -   jtech (laser)
--   [linuxcnc](http   *//linuxcnc.org/docs/html/gcode/g-code.html#gcode   *g17-g19.1)
+-   [linuxcnc](http://linuxcnc.org/docs/html/gcode/g-code.html#gcode:g17-g19.1)
 -   mach3_mach4
 -   nccad
 -   opensbp

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std_BoxSelection
-   Name/it   *Box di selezione
-   MenuLocation   *Modifica → Box di selezione
-   Workbenches   *Tutti
-   Shortcut   ***Maiusc**+**B**
-   SeeAlso   *[Seleziona elementi](Std_BoxElementSelection/it.md),[Seleziona tutto](Std_SelectAll/it.md),  [Box di selezione di Part](Part_BoxSelection/it.md)
+- GuiCommand:/it
+   Name:Std_BoxSelection
+   Name/it:Box di selezione
+   MenuLocation:Modifica → Box di selezione
+   Workbenches:Tutti
+   Shortcut:**Maiusc**+**B**
+   SeeAlso:[Seleziona elementi](Std_BoxElementSelection/it.md),[Seleziona tutto](Std_SelectAll/it.md),  [Box di selezione di Part](Part_BoxSelection/it.md)
 ---
 
 # Std BoxSelection/it
@@ -16,10 +16,10 @@
 
 ## Utilizzo
 
-1.  Esistono diversi modi per invocare il comando   *
+1.  Esistono diversi modi per invocare il comando:
     -   Selezionare **Modifica → <img src="images/Std_BoxSelection.svg" width=16px> Box di selezione** dal menu.
-    -   Usare la scorciatoia da tastiera   * **Maiusc**+**B**.
-2.  Effettuare una delle seguenti operazioni   *
+    -   Usare la scorciatoia da tastiera: **Maiusc**+**B**.
+2.  Effettuare una delle seguenti operazioni:
     -   Trascinare un rettangolo da sinistra a destra per selezionare le facce il cui centro geometrico si trova all\'interno del rettangolo.
     -   Trascinare un rettangolo da destra a sinistra per selezionare le facce il cui riquadro di delimitazione si trova (parzialmente) all\'interno del rettangolo o che lo toccano.
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Draft WireToBSpline
-   Name/it   *Polilinea in B-spline
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Polilinea in B-spline
-   SeeAlso   *[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
+- GuiCommand:/it
+   Name:Draft WireToBSpline
+   Name/it:Polilinea in B-spline
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Polilinea in B-spline
+   SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
 ---
 
 # Draft WireToBSpline/it
@@ -22,7 +22,7 @@ Questo strumento converte i segmenti di una linea spezzata, qui definita [Polili
 
 </div>
 
-<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -58,7 +58,7 @@ Questo strumento converte i segmenti di una linea spezzata, qui definita [Polili
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -73,7 +73,7 @@ Per lo strumento WireToBSpline non è disponibile un\'interfaccia di programmazi
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

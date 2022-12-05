@@ -1,8 +1,6 @@
 # Category:Ship/ru
 This category lists pages related to the [Ship Workbench/ru](Ship_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
-
 ### Contents
 
 |     |     |     |

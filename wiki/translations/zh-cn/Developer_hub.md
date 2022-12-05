@@ -1,11 +1,11 @@
 # Developer hub/zh-cn
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width   *64px;">
+{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
 
 
 
 如果你对开发FreeCAD软件有兴趣，想贡献于这个项目的开发，这里正有你该了解的内容。
 
-这些页面还处于开发的早起阶段。如果你找不到想看的信息，如果你在别处看到了有用的信息，而我们没有链接在这里，那么请在[论坛](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff)里留下你的评论。会有人仔细看，认真处理它们的（或者，大胆如你，为什么不直接编辑这个页面呢？）。
+这些页面还处于开发的早起阶段。如果你找不到想看的信息，如果你在别处看到了有用的信息，而我们没有链接在这里，那么请在[论坛](http://forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff)里留下你的评论。会有人仔细看，认真处理它们的（或者，大胆如你，为什么不直接编辑这个页面呢？）。
 
 ## 开发者文档
 
@@ -13,7 +13,7 @@
 
 ### 编译 FreeCAD 
 
--   [Github 代码库](https   *//github.com/FreeCAD/FreeCAD). 如果你是git新手, 请阅读[Source code management](Source_code_management.md)
+-   [Github 代码库](https://github.com/FreeCAD/FreeCAD). 如果你是git新手, 请阅读[Source code management](Source_code_management.md)
 -   [用Docker编译](Compile_on_Docker.md)
 -   [在Windows上编译](Compile_on_Windows.md)
 -   [在Linux上编译](Compile_on_Linux.md)
@@ -65,7 +65,7 @@
 
 ### 模块开发者指南
 
-[FreeCAD模块开发指南](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide)：这是一本电子书，在Github上写作。请分支出去，然后发送拉取请求，来为它贡献内容。
+[FreeCAD模块开发指南](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide)：这是一本电子书，在Github上写作。请分支出去，然后发送拉取请求，来为它贡献内容。
 
 
 </div>
@@ -83,7 +83,7 @@
 -   模块测试和纠错
 -   通过git贡献代码
 
-这个git仓库的最新pdf预览版，可以在[pdf文件夹](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf)下载到。
+这个git仓库的最新pdf预览版，可以在[pdf文件夹](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide/tree/master/pdf)下载到。
 
 ### Internals
 
@@ -92,34 +92,34 @@
 
 ### OpenCascade文档
 
--   [Roman Lygin的教程](http   *//opencascade.wikidot.com/romansarticles)
--   [完整的在线文档](https   *//dev.opencascade.org/doc/overview/html/index.html)
--   [参考手册](https   *//dev.opencascade.org/doc/refman/html/index.html)
--   [OpenCascade维基百科](http   *//opencascade.wikidot.com)
+-   [Roman Lygin的教程](http://opencascade.wikidot.com/romansarticles)
+-   [完整的在线文档](https://dev.opencascade.org/doc/overview/html/index.html)
+-   [参考手册](https://dev.opencascade.org/doc/refman/html/index.html)
+-   [OpenCascade维基百科](http://opencascade.wikidot.com)
 
 
 </div>
 
 OpenCascade is a software development platform for 3D surface and solid modeling, CAD data exchange, and visualization, mostly in the form of C++ libraries.
 
--   [Roman Lygin\'s tutorials](http   *//opencascade.wikidot.com/romansarticles)
--   [Full Online Documentation](https   *//dev.opencascade.org/cdoc/overview/html/index.html)
--   [Reference Manual](https   *//dev.opencascade.org/doc/refman/html/index.html)
--   [The openCascade wiki](http   *//opencascade.wikidot.com) (currently containing ?? Chinese spam)
+-   [Roman Lygin\'s tutorials](http://opencascade.wikidot.com/romansarticles)
+-   [Full Online Documentation](https://dev.opencascade.org/cdoc/overview/html/index.html)
+-   [Reference Manual](https://dev.opencascade.org/doc/refman/html/index.html)
+-   [The openCascade wiki](http://opencascade.wikidot.com) (currently containing ?? Chinese spam)
 
 #### File format 
 
-[File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https   *//en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
+[File Format FCStd](File_Format_FCStd.md). The files created with FreeCAD are `.zip` files that include the [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, as well as XML data that describes the document.
 
 #### Sketcher solver 
 
--   [Sketcher Solver Architecture Booklet](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https   *//github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
--   [PlaneGCS solver](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
--   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192).
+-   [Sketcher Solver Architecture Booklet](https://forum.freecadweb.org/viewtopic.php?f=10&t=36355) (forum thread), [source](https://github.com/abdullahtahiriyo/FreeCADBooks/tree/master/FreeCAD_Solver_Architecture) in GitHub.
+-   [PlaneGCS solver](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/) in the FreeCAD source code; important files are [GCS.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/GCS.cpp) and [SubSystem.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Sketcher/App/planegcs/SubSystem.cpp).
+-   [Recent Several Sketcher improvements](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192).
 
-The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=40502).
+The sketcher solver isn\'t perfect, as there are some issues with numerical precision when using large values, see [Adventure of fixing sketcher solver for large sketches](https://forum.freecadweb.org/viewtopic.php?f=10&t=40502).
 
-The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=40525).
+The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https://forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
 ## Roadmap
 
@@ -137,8 +137,8 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 ## Community
 
--   [IRC channel](irc   *//chat.freenode.net/freecad) ,synchronized with [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https   *//forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](irc://chat.freenode.net/freecad) ,synchronized with [gitter channel](https://gitter.im/FreeCAD/FreeCAD)
+-   [Development forum](https://forum.freecadweb.org/viewforum.php?f=6)
 
 
 <div class="mw-translate-fuzzy">
@@ -157,11 +157,6 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 
 </div>
-
-
-
-
-[Category   *Hubs](Category_Hubs.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

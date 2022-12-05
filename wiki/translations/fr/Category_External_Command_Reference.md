@@ -1,5 +1,5 @@
 # Category:External Command Reference/fr
-This categorizes all **external** workbench commands separate from the internal [   *Category   *Command_Reference/fr](   *Category   *Command_Reference/fr.md)
+This categorizes all **external** workbench commands separate from the internal [:Category:Command_Reference/fr](:Category:Command_Reference/fr.md)
 
 ### Contents
 

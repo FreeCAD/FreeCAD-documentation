@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ViewSketch
-   Name/de   * Sketcher SkizzeAnzeigen
-   MenuLocation   * Sketch → Skizze anzeigen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   Shortcut   ***Q** **P**
+- GuiCommand:/de
+   Name:Sketcher ViewSketch
+   Name/de: Sketcher SkizzeAnzeigen
+   MenuLocation: Sketch → Skizze anzeigen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   Shortcut:**Q** **P**
 ---
 
 # Sketcher ViewSketch/de
@@ -17,8 +17,8 @@ Dieses Werkzeug setzt die Modellansicht lotrecht zur Skizzenebene. Das ist sinnv
 
 Solange der Skizzenbearbeitungsmodus aktiv ist, kann man entweder
 
--   Auf das Symbol **[<img src=images/Sketcher_ViewSketch.svg style="width   *16px"> [Skizze anzeigen](Sketcher_ViewSketch/de.md)** in der Werkzeugleiste des Arbeitsbereiches Sketcher oder PartDesign klicken, oder
--   Den Menüeintrag **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width   *16px"> Skizze anzeigen** auswählen.
+-   Auf das Symbol **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Skizze anzeigen](Sketcher_ViewSketch/de.md)** in der Werkzeugleiste des Arbeitsbereiches Sketcher oder PartDesign klicken, oder
+-   Den Menüeintrag **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Skizze anzeigen** auswählen.
 
 
 

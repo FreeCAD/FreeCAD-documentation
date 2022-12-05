@@ -36,37 +36,37 @@ These tools are available in the Draft snap toolbar and in the [Draft snap widge
 
 Note that circular edges do not have to be full circles.
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *32px;"> [Snap Lock](Draft_Snap_Lock.md)   * enables or disables snapping globally.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Snap Lock](Draft_Snap_Lock.md): enables or disables snapping globally.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md)   * snaps to the endpoints of edges.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md)   * snaps to the midpoint of edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width   *32px;"> [Snap Center](Draft_Snap_Center.md)   * snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
 
--   <img alt="" src=images/Draft_Snap_Angle.svg  style="width   *32px;"> [Snap Angle](Draft_Snap_Angle.md)   * snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
--   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersection](Draft_Snap_Intersection.md)   * snaps to the intersection of two edges.
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap Intersection](Draft_Snap_Intersection.md): snaps to the intersection of two edges.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md): snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges.
 
--   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Extension](Draft_Snap_Extension.md)   * snaps to an imaginary line that extends beyond the endpoints of straight edges.
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap Extension](Draft_Snap_Extension.md): snaps to an imaginary line that extends beyond the endpoints of straight edges.
 
--   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width   *32px;"> [Snap Parallel](Draft_Snap_Parallel.md)   * snaps to an imaginary line parallel to straight edges.
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap Parallel](Draft_Snap_Parallel.md): snaps to an imaginary line parallel to straight edges.
 
--   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Snap Special](Draft_Snap_Special.md)   * snaps to special points defined by the object.
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap Special](Draft_Snap_Special.md): snaps to special points defined by the object.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces and edges.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap Near](Draft_Snap_Near.md): snaps to the nearest point on faces and edges.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at multiples of 45°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap Ortho](Draft_Snap_Ortho.md): snaps to imaginary lines that cross the previous point at multiples of 45°.
 
--   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Snap Grid](Draft_Snap_Grid.md)   * snaps to the intersections of grid lines.
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects snap points onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects snap points onto the current [working plane](Draft_SelectPlane.md).
 
--   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md)   * shows temporary X and Y dimensions.
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *32px;"> [Toggle Grid](Draft_ToggleGrid.md)   * switches the grid on or off.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
 
 <div class="mw-translate-fuzzy">
@@ -87,10 +87,10 @@ Note that circular edges do not have to be full circles.
 </div>
 
 ![](images/Draft_Snap_example_cycling_1.png ) 
-*Snap cycling 1   * The red rectangle was created first therefore it has snap priority. Without snap cycling you cannot snap to the green rectangle where it is overlapped by the red rectangle.*
+*Snap cycling 1: The red rectangle was created first therefore it has snap priority. Without snap cycling you cannot snap to the green rectangle where it is overlapped by the red rectangle.*
 
 ![](images/Draft_Snap_example_cycling_2.png ) 
-*Snap cycling 2   * After using the snap cycle key once the green rectangle receives snap priority. Snapping to the midpoint of the overlapped green edge is now possible.*
+*Snap cycling 2: After using the snap cycle key once the green rectangle receives snap priority. Snapping to the midpoint of the overlapped green edge is now possible.*
 
 ## Notes
 
@@ -104,7 +104,7 @@ Aynı anda birçok yakalam yöntemi kullanmak, nesnelerinizi istenen pozisyonlar
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 Note that after changing some preferences you must restart FreeCAD.
 
@@ -113,8 +113,8 @@ Note that after changing some preferences you must restart FreeCAD.
 
 ## Seçenekler
 
--   ![ 32px](images/_Draft_ToggleGrid.svg ) [ Izgara aç/kapa](Draft_ToggleGrid/tr.md)   * Çalışma düzlemi ızgarasını açar veya kapatır.
--   ![ 32px](images/_Draft_Snap_Lock.svg ) [Yakalama aç/kapa](Draft_Snap_Lock/tr.md)   * Tüm çalışma ortamlarında yakalamayı açar veya kapatır.
+-   ![ 32px](images/_Draft_ToggleGrid.svg ) [ Izgara aç/kapa](Draft_ToggleGrid/tr.md): Çalışma düzlemi ızgarasını açar veya kapatır.
+-   ![ 32px](images/_Draft_Snap_Lock.svg ) [Yakalama aç/kapa](Draft_Snap_Lock/tr.md): Tüm çalışma ortamlarında yakalamayı açar veya kapatır.
 -   Bir noktanın yakalama noktası olarak kabul edildiği maksimum mesafe [Seçeneklerde](Draft_Preferences/tr.md) belirtilir ve ayrıca **<nowiki>[</nowiki>** (artır) veya **<nowiki>]</nowiki>**(azalt) tuşuna basılarak anında değiştirilebilir.
 
 

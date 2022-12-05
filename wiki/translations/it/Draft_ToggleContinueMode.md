@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Draft ToggleContinueMode
-   Name/it   *Modalità Continua
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Utilità → Modalità Continua
-   SeeAlso   *[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
+- GuiCommand:/it
+   Name:Draft ToggleContinueMode
+   Name/it:Modalità Continua
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation:Draft → Utilità → Modalità Continua
+   SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
 ---
 
 # Draft ToggleContinueMode/it

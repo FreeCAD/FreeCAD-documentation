@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ro
-   Topic   * Finite Element Analysis
-   Level   * Beginner
-   Time   * 10 minutes
-   Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   *Berndhahnebach Bernd]
-   FCVersion   *0.16.6377 or above
-   Files   *
+- TutorialInfo:/ro
+   Topic: Finite Element Analysis
+   Level: Beginner
+   Time: 10 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.16.6377 or above
+   Files:
 ---
 
 # FEM CalculiX Cantilever 3D/ro
@@ -32,7 +32,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic10.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
 
 ## Requirements
 
@@ -70,7 +70,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic11.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic11.png  style="width:700px;">
 
 ### Activate the analysis container 
 
@@ -80,12 +80,12 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 #### Activați containerul de analiză 
 
 -   Pentru a lucra cu o analiză, analiza trebuie activată.
--   În vizualizarea copacului, faceți clic dreapta pe<img alt="" src=images/FEM_Analysis.png  style="width   *32px;"> MechanicalAnalysis \--\> Activate analysis
+-   În vizualizarea copacului, faceți clic dreapta pe<img alt="" src=images/FEM_Analysis.png  style="width:32px;"> MechanicalAnalysis \--\> Activate analysis
 
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic12.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
 
 ### Analysis container and its objects 
 
@@ -118,7 +118,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 -   Asigurați-vă că analiza este activată.
 -   Asigurați-vă că analiza încă conține obiectul rezultat, dacă nu doar reîncărcați fișierul exemplu.
--   Faceți clic pe bara de instrumente icoanițe pe <img alt="" src=images/FEM_ShowResult.png  style="width   *16px;"> [Show result](FEM_ResultShow.md)
+-   Faceți clic pe bara de instrumente icoanițe pe <img alt="" src=images/FEM_ShowResult.png  style="width:16px;"> [Show result](FEM_ResultShow.md)
 -   În fereastra task-ului alege z-Displacement. Acesta arată -88.443 mm în direcție z-negativă.
 -   Acest lucru are sens, deoarece forța este în direcția negativă, de asemenea.
 -   Activați caseta de selectare în afară de glisorul inferior al afișajului de deplasare.
@@ -128,7 +128,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic13.png  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
 ### Purging Results 
 
@@ -138,7 +138,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 #### Rezultate de curățare 
 
 -   Asigurați-vă că analiza este activată.
--   Pentru a elimina rezultatele selectați în bara de instrumente pictogramă <img alt="" src=images/FEM_PurgeResults.png  style="width   *32px;"> [Purge results](FEM_ResultsPurge.md)
+-   Pentru a elimina rezultatele selectați în bara de instrumente pictogramă <img alt="" src=images/FEM_PurgeResults.png  style="width:32px;"> [Purge results](FEM_ResultsPurge.md)
 
 
 </div>
@@ -165,7 +165,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic14.png  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic14.png  style="width:400px;">
 
 ### Running the FEA the fast Way 
 
@@ -175,7 +175,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 #### Rularea AEF pe calea rapidă 
 
 -   În vizualizarea arborescentă selectați obiectul Solver ![ 32px](images/_FEM_Solver.png ) al analizei ![ 32px](images/_FEM_Analysis.png ).
--   În bara de instrumente iconițe faceți clic pe <img alt="" src=images/FEM_RunCalculiXccx.png  style="width   *32px;"> [Quick Analysis](FEM_SolverRun.md).
+-   În bara de instrumente iconițe faceți clic pe <img alt="" src=images/FEM_RunCalculiXccx.png  style="width:32px;"> [Quick Analysis](FEM_SolverRun.md).
 -   Fișierul de intrare Calculix va fi scris, CalculiX va fi declanșat și obiectul rezultat ar trebui să fie creat.
 
 
@@ -203,9 +203,9 @@ Săgețile roșii ale forței își vor schimba direcția.
 
 -   Faceți clic pe OK în fereastra de activități.
 
-<img alt="" src=images/FEM_example01_pic05.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic05.jpg  style="width:700px;">
 
--   Întoarceți vizibilitatea mesei FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width   *32px;"> pe pagină.
+-   Întoarceți vizibilitatea mesei FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> pe pagină.
 -   Acum știți deja cum să declanșați o analiză și cum să vizualizați rezultatele.
 
 Deformarea în direcția x trebuie să fie de 19,05 mm.
@@ -213,12 +213,12 @@ Deformarea în direcția x trebuie să fie de 19,05 mm.
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic15.png  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic15.png  style="width:700px;">
 
 -   You know how to trigger an analysis and how to visualize results already.
 -   The deformation in x-direction should be 18.95 mm.
 
-<img alt="" src=images/FEM_example01_pic16.png  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
 ## What next? 
 

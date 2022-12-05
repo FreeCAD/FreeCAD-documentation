@@ -1,8 +1,6 @@
 # Category:Mesh/hu
 This category lists pages related to the [Mesh_Workbench/hu](Mesh_Workbench/hu.md).
 
-[Category   *Workbenches/hu](Category   *Workbenches/hu.md)
-
 ### Contents
 
 |     |     |     |

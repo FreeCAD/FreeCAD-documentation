@@ -17,7 +17,7 @@
 
 ### Strumenti
 
-Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un elenco di quelli che usiamo per sviluppare FreeCAD   *
+Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un elenco di quelli che usiamo per sviluppare FreeCAD:
 
 
 </div>
@@ -33,7 +33,7 @@ Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un el
 
 ##### Qt-Toolkit 
 
-Qt-toolkit è uno strumento avanzato per il disegno di interfacce utente indipendente dalla piattaforma. Esso è contenuto in [LibPack](Third_Party_Libraries/it#LibPack.md) di FreeCAD, ma può anche essere scaricato da [Qt project](http   *//qt-project.org/downloads).
+Qt-toolkit è uno strumento avanzato per il disegno di interfacce utente indipendente dalla piattaforma. Esso è contenuto in [LibPack](Third_Party_Libraries/it#LibPack.md) di FreeCAD, ma può anche essere scaricato da [Qt project](http://qt-project.org/downloads).
 
 
 </div>
@@ -45,7 +45,7 @@ Qt-toolkit è uno strumento avanzato per il disegno di interfacce utente indipen
 
 ##### Inkscape 
 
-Grande programma di disegno vettoriale. Aderisce allo standard SVG e viene utilizzato per disegnare icone e immagini. E\' scaricabile da [www.inkscape.org](http   *//www.inkscape.org).
+Grande programma di disegno vettoriale. Aderisce allo standard SVG e viene utilizzato per disegnare icone e immagini. E\' scaricabile da [www.inkscape.org](http://www.inkscape.org).
 
 
 </div>
@@ -74,7 +74,7 @@ Non c\'è molto da dire su **GNU Image Manipulation Program** (Programma di mani
 
 </div>
 
-GIMP è scaricabile da   * [www.gimp.org](http   *//www.gimp.org/)
+GIMP è scaricabile da: [www.gimp.org](http://www.gimp.org/)
 
 #### Gitkraken
 
@@ -83,7 +83,7 @@ GIMP è scaricabile da   * [www.gimp.org](http   *//www.gimp.org/)
 
 #### Gitkraken 
 
-Questa è una GUI git proprietaria che è molto utile per imparare come funziona git se si è interessati a voler contribuire a FreeCAD. Pagine rilevanti da ricercare   *
+Questa è una GUI git proprietaria che è molto utile per imparare come funziona git se si è interessati a voler contribuire a FreeCAD. Pagine rilevanti da ricercare:
 
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
@@ -98,7 +98,7 @@ Questa è una GUI git proprietaria che è molto utile per imparare come funziona
 
 #### OBS Studio 
 
-Software gratuito e open source per registrazione video e live streaming. Maggiori dettagli sul sito ufficiale   * [obsproject.com](https   *//obsproject.com/)
+Software gratuito e open source per registrazione video e live streaming. Maggiori dettagli sul sito ufficiale: [obsproject.com](https://obsproject.com/)
 
 
 </div>
@@ -122,7 +122,7 @@ Un programma UML open source completo di funzionalità. Ha un sacco di funzioni 
 
 <div class="mw-translate-fuzzy">
 
-Scaricarlo da   * [staruml.sourceforge.net](http   *//staruml.sourceforge.net/en/)
+Scaricarlo da: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
 
 
 </div>
@@ -144,7 +144,7 @@ Anche se VC8 è per lo sviluppo in C++ non è migliorato molto da VisualStudio 6
 
 <div class="mw-translate-fuzzy">
 
-L\'edizione Express è difficile da trovare. Si può provare a [questo link](http   *//msdn.microsoft.com/vstudio/express/visualc/default.aspx)
+L\'edizione Express è difficile da trovare. Si può provare a [questo link](http://msdn.microsoft.com/vstudio/express/visualc/default.aspx)
 
 
 </div>
@@ -161,7 +161,7 @@ L\'edizione Express è difficile da trovare. Si può provare a [questo link](htt
 
 </div>
 
-Vedere [camstudio.org](http   *//camstudio.org/) per avere maggiori informazioni.
+Vedere [camstudio.org](http://camstudio.org/) per avere maggiori informazioni.
 
 #### Strumenti in Linux 
 
@@ -175,11 +175,6 @@ Da Fare
 
 
 </div>
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

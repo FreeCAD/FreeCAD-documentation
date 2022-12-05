@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */pl
-   Name   *FEM Analysis
-   Name/pl   *MES Analiza
-   MenuLocation   *Model → Analiza MES
-   Workbenches   *[MES](FEM_Workbench/pl.md)
-   Shortcut   ***S** **A**
-   SeeAlso   *[Poradnik MES](FEM_tutorial/pl.md)
+- GuiCommand:/pl
+   Name:FEM Analysis
+   Name/pl:MES Analiza
+   MenuLocation:Model → Analiza MES
+   Workbenches:[MES](FEM_Workbench/pl.md)
+   Shortcut:**S** **A**
+   SeeAlso:[Poradnik MES](FEM_tutorial/pl.md)
 ---
 
 # FEM Analysis/pl
 
 ## Opis
 
-Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie obiekty analizy elementów skończonych. Konieczne jest posiadanie kontenera analizy, który przechowuje wszystkie potrzebne obiekty. Przynajmniej jeden z poniższych obiektów jest potrzebny do analizy mechanicznej   *
+Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie obiekty analizy elementów skończonych. Konieczne jest posiadanie kontenera analizy, który przechowuje wszystkie potrzebne obiekty. Przynajmniej jeden z poniższych obiektów jest potrzebny do analizy mechanicznej:
 
 -   [materiał](FEM_MaterialSolid/pl.md).
 -   [zdefiniowane ograniczenie](FEM_ConstraintFixed/pl.md).
@@ -20,10 +20,10 @@ Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie o
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/FEM_Analysis.svg" width=16px> [Analiza MES](FEM_Analysis/pl.md)**.
     -   Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Analiza MES**.
-    -   Użyj skrótu klawiaturowego   * **S** następnie **A**.
+    -   Użyj skrótu klawiaturowego: **S** następnie **A**.
 2.  Zostanie utworzona nowa Analiza i ustawiona jako aktywna.
 3.  Inne obiekty mogą być dodawane lub usuwane do kontenera analizy metodą \"przeciągnij i upuść\".
 4.  Aby dodać nowe obiekty MES do dokumentu, analiza musi być aktywna. Podwójne kliknięcie na analizie powoduje jej aktywację.
@@ -34,27 +34,27 @@ Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie o
 
 ## Właściwości
 
--    **OutpuDir**   * Określa katalog roboczy dla analizy.
+-    **OutpuDir**: Określa katalog roboczy dla analizy.
 
 ## Tworzenie skryptów 
 
 większość kodu tutaj jest przestarzała w wersji 0.17.
 
--   Utworzenie nowej analizy   *
+-   Utworzenie nowej analizy:
 
 
 ```python
 MechanicalAnalysis.makeMechanicalAnalysis( name )
 ```
 
--   Dodanie obiektu do analizy   *
+-   Dodanie obiektu do analizy:
 
 
 ```python
 App.ActiveDocument.MechanicalAnalysis.Member = App.ActiveDocument.MechanicalAnalysis.Member + [ (object) ]
 ```
 
--   Usunięcie obiektu z analizy   *
+-   Usunięcie obiektu z analizy:
 
 
 ```python
@@ -63,7 +63,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Przykład   * 
+Przykład: 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

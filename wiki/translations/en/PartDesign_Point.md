@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *PartDesign Point
-   MenuLocation   *Part Design → Create a datum → Create a datum point
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+- GuiCommand:
+   Name:PartDesign Point
+   MenuLocation:Part Design → Create a datum → Create a datum point
+   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Version:0.17
+   SeeAlso:[PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
 ---
 
 # PartDesign Point/en
@@ -32,11 +32,11 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 ## Properties
 
--    **MapMode**   * lists the attachment mode used.
+-    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**   * name given to the object, this name can be changed at convenience.
+-    **Label**: name given to the object, this name can be changed at convenience.
 
 ## Limitations
 

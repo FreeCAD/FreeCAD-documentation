@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2015-08-24
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/a/a2/Macro_GMSH.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/a/a2/Macro_GMSH.png ToolBar Icon]
 |SeeAlso = [FEM Mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)
 }}
 
@@ -16,15 +16,15 @@
 Simple macro to create FEM Meshes by the Mesh Generator GMSH. It is possible to create linear or bilinear (quadratic) Beam-, Shell- and Volumeelements in 
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/GMSHMesh.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/GMSHMesh.FCMacro}}
 
-<img alt="GMSH" src=images/Macro_GMSH00.png  style="width   *480px;">
+<img alt="GMSH" src=images/Macro_GMSH00.png  style="width:480px;">
 
 
 
 ## Script
 
-The macro you can find in the following github repository   * [GMSH Macro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/GMSHMesh.FCMacro)
+The macro you can find in the following github repository: [GMSH Macro](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/GMSHMesh.FCMacro)
 
  ToolBar Icon ![](images/Macro_GMSH.png )
 
@@ -34,13 +34,13 @@ The macro you can find in the following github repository   * [GMSH Macro](https
 
 ## Additional Installations 
 
-GMSH has to be installed. See [gmsh.info](http   *//gmsh.info/). The macro is intended to run on Linux, OSX and Windows operating system. The binary path of GMSH has to be adapted in the macro.
+GMSH has to be installed. See [gmsh.info](http://gmsh.info/). The macro is intended to run on Linux, OSX and Windows operating system. The binary path of GMSH has to be adapted in the macro.
 
 ## Link
 
-The page discussion [GMSH macro](http   *//forum.freecadweb.org/viewtopic.php?t=11182)
+The page discussion [GMSH macro](http://forum.freecadweb.org/viewtopic.php?t=11182)
 
-[See the how to use the macro on YouTube.](https   *//www.youtube.com/watch?v=ZcG5EEUe3yc)
+[See the how to use the macro on YouTube.](https://www.youtube.com/watch?v=ZcG5EEUe3yc)
 
 
 

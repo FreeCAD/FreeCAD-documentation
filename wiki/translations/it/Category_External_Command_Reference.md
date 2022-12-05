@@ -1,5 +1,5 @@
 # Category:External Command Reference/it
-This categorizes all **external** workbench commands separate from the internal [   *Category   *Command_Reference/it](   *Category   *Command_Reference/it.md)
+This categorizes all **external** workbench commands separate from the internal [:Category:Command_Reference/it](:Category:Command_Reference/it.md)
 
 ### Contents
 

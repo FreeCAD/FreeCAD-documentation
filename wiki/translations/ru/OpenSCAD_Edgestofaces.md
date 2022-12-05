@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *OpenSCAD Edgestofaces
-   Name/ru   *OpenSCAD Edgestofaces
-   MenuLocation   *OpenSCAD → Преобразовать грани в поверхности
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut   *нет
-   SeeAlso   *[Draft Upgrade](Draft_Upgrade/ru.md)
+- GuiCommand:/ru
+   Name:OpenSCAD Edgestofaces
+   Name/ru:OpenSCAD Edgestofaces
+   MenuLocation:OpenSCAD → Преобразовать грани в поверхности
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut:нет
+   SeeAlso:[Draft Upgrade](Draft_Upgrade/ru.md)
 ---
 
 # OpenSCAD Edgestofaces/ru
@@ -26,7 +26,7 @@
 
 ## Notes
 
-See also <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Draft Upgrade](Draft_Upgrade.md) for an alternative way to get faces.
+See also <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width:24px;"> [Draft Upgrade](Draft_Upgrade.md) for an alternative way to get faces.
 
 
 

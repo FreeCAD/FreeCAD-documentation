@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
+- GuiCommand:/de
 
-   Name   *Std AnsichtAnkoppelAbkoppelnVollbild
-   Empty   *1
-   MenuLocation   *{{StdMenu|[Ansicht](Std_View_Menu/de.md)}} → Dokumentfenster
-   Workbenches   *Alle
-   SeeAlso   *[Erstelle neue Ansicht‏‎](Std_ViewCreate/de.md), [Bild speichern...](Std_ViewScreenShot/de.md), [Bildschirm einfrieren‏‎](Std_FreezeViews/de.md), [Fenster](Std_Windows_Menu/de.md)
+   Name:Std AnsichtAnkoppelAbkoppelnVollbild
+   Empty:1
+   MenuLocation:{{StdMenu|[Ansicht](Std_View_Menu/de.md)}} → Dokumentfenster
+   Workbenches:Alle
+   SeeAlso:[Erstelle neue Ansicht‏‎](Std_ViewCreate/de.md), [Bild speichern...](Std_ViewScreenShot/de.md), [Bildschirm einfrieren‏‎](Std_FreezeViews/de.md), [Fenster](Std_Windows_Menu/de.md)
 ---
 
 # Std ViewDockUndockFullscreen/de
@@ -26,10 +26,10 @@ Die **Angedockt** Menüoption koppelt die aktive [3D Ansicht](3D_view/de.md) inn
 ### Verwendung
 
 1.  Aktiviere eine abgekoppelte 3D Ansicht.
-2.  Es gibt mehrere Wege, die Option aufzurufen   *
-    -   Wenn es keine angekoppelten 3D Ansichten gibt   * Wähle die {{MenuCommand/de|Ansicht → Dokumentfenster → Angekoppelt}} Option im Menü.
+2.  Es gibt mehrere Wege, die Option aufzurufen:
+    -   Wenn es keine angekoppelten 3D Ansichten gibt: Wähle die {{MenuCommand/de|Ansicht → Dokumentfenster → Angekoppelt}} Option im Menü.
     -   Wähle die {{MenuCommand/de|Dokumentfenster → Angekoppelt}} Option aus dem 3D Kontextmenü der 3D Ansicht.
-    -   Verwende das Tastaturkürzel   * **V** und dann **D**.
+    -   Verwende das Tastaturkürzel: **V** und dann **D**.
 
 ## Abgekoppelt
 
@@ -40,10 +40,10 @@ Die **Abgekoppelt** Menüoption koppelt die aktive [3D Ansicht](3D_view/de.md) i
 ### Verwendung 
 
 1.  Aktiviere eine angekoppelte 3D Ansicht.
-2.  Es gibt mehrere Wege, die Option aufzurufen   *
+2.  Es gibt mehrere Wege, die Option aufzurufen:
     -   Wähle die {{MenuCommand/de|Ansicht → Dokumentfenster → Abgekoppelt}} Option im Menü.
     -   Wähle die {{MenuCommand/de|Dokumentfenster → Abgekoppelt}} Option aus dem 3D Ansichtskontextmenü.
-    -   Verwende das Tastaturkürzel   * **V** dann **U**.
+    -   Verwende das Tastaturkürzel: **V** dann **U**.
 
 ## Hinweise
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw Dimension Radius
-   Name/it   *Raggio
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation   *TechDraw → Raggio
-   Shortcut   *
-   SeeAlso   *[Diametro](TechDraw_DiameterDimension/it.md)
+- GuiCommand:/it
+   Name:TechDraw Dimension Radius
+   Name/it:Raggio
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Raggio
+   Shortcut:
+   SeeAlso:[Diametro](TechDraw_DiameterDimension/it.md)
 ---
 
 # TechDraw RadiusDimension/it
@@ -23,7 +23,7 @@ Lo strumento Raggio aggiunge una dimensione di diametro a una vista. La dimensio
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width   *130px;"> 
+<img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
 *Misurare un cerchio, indicando il raggio*
 
 ## Uso
@@ -64,21 +64,21 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Raggio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Raggio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
 dim1.Type = "Radius"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ro
-   Name   *Std AddonMgr
-   Name/ro   *Addon manager
-   Icon   *AddonManager.svg
-   MenuLocation   *Tools → Addon manager
-   Workbenches   *''None''
-   SeeAlso   *[Macros](Macros/ro.md), [External workbenches](External_workbenches/ro.md)
-   Version   *0.17
+- GuiCommand:/ro
+   Name:Std AddonMgr
+   Name/ro:Addon manager
+   Icon:AddonManager.svg
+   MenuLocation:Tools → Addon manager
+   Workbenches:''None''
+   SeeAlso:[Macros](Macros/ro.md), [External workbenches](External_workbenches/ro.md)
+   Version:0.17
 ---
 
 # Std AddonMgr/ro
@@ -19,12 +19,12 @@
 
 <div class="mw-translate-fuzzy">
 
-[Addon Manager](Std_AddonMgr.md) "-gestionarul de extensii-" este un instrument pentru a instala și administra [external workbenches](external_workbenches/ro.md) atelierele de lucru și [macros](macros/ro.md) oferite de comunitatea FreeCAD. Dacă pachetul [git-python](https   *//github.com/gitpython-developers/GitPython) este instalat pe computer, Managerul de aplicații addon îl va utiliza pentru a actualiza atelierele de lucru instalate, făcând descărcările mai rapide.
+[Addon Manager](Std_AddonMgr.md) "-gestionarul de extensii-" este un instrument pentru a instala și administra [external workbenches](external_workbenches/ro.md) atelierele de lucru și [macros](macros/ro.md) oferite de comunitatea FreeCAD. Dacă pachetul [git-python](https://github.com/gitpython-developers/GitPython) este instalat pe computer, Managerul de aplicații addon îl va utiliza pentru a actualiza atelierele de lucru instalate, făcând descărcările mai rapide.
 
 
 </div>
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or later. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or later. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
 
 
 <div class="mw-translate-fuzzy">
@@ -38,14 +38,14 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 <div class="mw-translate-fuzzy">
 
 -   Deschideți meniul de instrumente **Tools → Addon manager**.
--   Pentru a instala un atelier sau o macro   * derulați în jos lista și selectați atelierul de completare. O scurtă descriere a atelierului suplimentar va fi afișată sub listă, precum și link-ul către pagina complementară. Apoi apăsați butonul **Install/update** pentru a instala noul instrument. Pentru macro-uri, faceți clic pe tab-ul **Macros** și repetați pașii.
+-   Pentru a instala un atelier sau o macro: derulați în jos lista și selectați atelierul de completare. O scurtă descriere a atelierului suplimentar va fi afișată sub listă, precum și link-ul către pagina complementară. Apoi apăsați butonul **Install/update** pentru a instala noul instrument. Pentru macro-uri, faceți clic pe tab-ul **Macros** și repetați pașii.
 -   Pentru a elimina un atelier sau macro parcurgeți lista, selectați atelierul sau add-on și apăsați butonul **Install/update** .
 -   Pentru a actualiza un atelier sau macro parcurgeți, selectați plugin-ul și apăsați butonul **Install/update**.
--   Pentru a verifica actualizările apăsați **[<img src=images/Std_Refresh.png style="width   *16px"> Refresh** Actulaizările disponibile vor fi raportatea în partea de jos a listei. Apăsați **[<img src=images/Std_Refresh.png style="width   *16px"> Refresh** pentru a instala odată toate actualizările
+-   Pentru a verifica actualizările apăsați **[<img src=images/Std_Refresh.png style="width:16px"> Refresh** Actulaizările disponibile vor fi raportatea în partea de jos a listei. Apăsați **[<img src=images/Std_Refresh.png style="width:16px"> Refresh** pentru a instala odată toate actualizările
 
-**Note   *** Notă   * pictograma poate să arate diferit în funcție de sistemul dvs. de operare. Actualizările disponibile vor fi raportate în listă. 
+**Note:** Notă: pictograma poate să arate diferit în funcție de sistemul dvs. de operare. Actualizările disponibile vor fi raportate în listă. 
 
--   Pentru a rula o macrocomandă   * instalați mai întâi macroul dorit, apoi selectați din nou din listă, apoi apăsați butonul **Execute**.
+-   Pentru a rula o macrocomandă: instalați mai întâi macroul dorit, apoi selectați din nou din listă, apoi apăsați butonul **Execute**.
 -   Apăsați butonul **Close** pentru a ieși din manager.
 
 
@@ -53,10 +53,10 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 ## Options
 
-<img alt="" src=images/AddonManager_Main.png  style="width   *600px;">
+<img alt="" src=images/AddonManager_Main.png  style="width:600px;">
 
-1.  The Addon manager provides two view layouts   * \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
-2.  Three different types of addons are supported   * [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
+1.  The Addon manager provides two view layouts: \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
+2.  Three different types of addons are supported: [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
 3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
 4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
 5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [package metadata](Package_Metadata.md) file (or for macros with embedded metadata).
@@ -64,9 +64,9 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
 8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
 
-Clicking on an addon in this view brings up the addon\'s Details page   *
+Clicking on an addon in this view brings up the addon\'s Details page:
 
-<img alt="" src=images/AddonManager_Details.png  style="width   *600px;">
+<img alt="" src=images/AddonManager_Details.png  style="width:600px;">
 
 The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
 
@@ -78,8 +78,8 @@ The preferences for the Addon manager can be found in the [Preferences Editor](P
 
 -   The use of addons is not restricted to the FreeCAD version they were installed from. You will also be able to use them in any other FreeCAD version, supported by the addon, that you may have on your system.
 -   The addons available in the Addon manager are not part of the official FreeCAD program and are not supported by the core FreeCAD development team. You should read the provided information carefully to make sure you know what you are installing.
--   Bug reports and feature requests should be made directly to the creator of the addon by visiting the indicated website. Many addon developers are regular users of the [FreeCAD forum](https   *//forum.freecadweb.org), and can also be contacted there.
--   If the [GitPython](https   *//github.com/gitpython-developers/GitPython) package is installed on your computer the Addon manager will use it, making downloads faster.
+-   Bug reports and feature requests should be made directly to the creator of the addon by visiting the indicated website. Many addon developers are regular users of the [FreeCAD forum](https://forum.freecadweb.org), and can also be contacted there.
+-   If the [GitPython](https://github.com/gitpython-developers/GitPython) package is installed on your computer the Addon manager will use it, making downloads faster.
 -   You can also install addons manually. See [How to install additional workbenches](How_to_install_additional_workbenches.md) and [How to install macros](How_to_install_macros.md).
 
 ## Information for developers 

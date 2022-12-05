@@ -1,6 +1,6 @@
 # PartDesign Revolution/ro
 ---
-- GuiCommand   *   Name   *PartDesign Revolution   Workbenches   *[[PartDesign Workbench   PartDesign]], Complete|MenuLocation   *PartDesign → Revolution---
+- GuiCommand:   Name:PartDesign Revolution   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → Revolution---
 
 
 </div>
@@ -22,7 +22,7 @@ Instrumentul **Revolution** crează un solid prin rotirea schiței selectate sau
 
 <div class="mw-translate-fuzzy">
 
-*Deasupra   * schița (A) este rotită cu 270 grade în sens antiorar/trigonometric în jurul axei (B); rezultând un solid (C), care este afișat în dreapta.*
+*Deasupra: schița (A) este rotită cu 270 grade în sens antiorar/trigonometric în jurul axei (B); rezultând un solid (C), care este afișat în dreapta.*
 
 
 </div>
@@ -69,12 +69,12 @@ Atunci când este crrată o revoluție, dialogul privind **REveolution parameter
 |                                                                                  | |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              | |
 |                                                                                  | |                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                     | |
 |                                                                                  | |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              | |
-|                                                                                  | |                                                                                  | -   **Vertical sketch axis**   * selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                              | |
-|                                                                                  | |                                                                                  | -   **Horizontal sketch axis**   * selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                          | |
-|                                                                                  | |                                                                                  | -   **Sketch axis**   * v0.16 and below selects a construction line contained in the sketch used by the Revolution. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line.                 | |
-|                                                                                  | |                                                                                  | -   **Construction line**   * v0.17 and above selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.                  | |
-|                                                                                  | |                                                                                  | -   **Base (X/Y/Z) axis**   * v0.17 and above selects the X, Y or Z axis of the Body\'s Origin;                                                                                                                                                                                                           | |
-|                                                                                  | |                                                                                  | -   **Select reference\...**   * v0.17 and above allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                   | |
+|                                                                                  | |                                                                                  | -   **Vertical sketch axis**: selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                              | |
+|                                                                                  | |                                                                                  | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                          | |
+|                                                                                  | |                                                                                  | -   **Sketch axis**: v0.16 and below selects a construction line contained in the sketch used by the Revolution. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line.                 | |
+|                                                                                  | |                                                                                  | -   **Construction line**: v0.17 and above selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.                  | |
+|                                                                                  | |                                                                                  | -   **Base (X/Y/Z) axis**: v0.17 and above selects the X, Y or Z axis of the Body\'s Origin;                                                                                                                                                                                                           | |
+|                                                                                  | |                                                                                  | -   **Select reference\...**: v0.17 and above allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                   | |
 |                                                                                  | |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                              | |
 |                                                                                  | |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                    | |
 |                                                                                  | |                                                                                  | </div>                                                                                                                                                                                                                                                                                                                                                                       | |
@@ -116,22 +116,22 @@ Atunci când este crrată o revoluție, dialogul privind **REveolution parameter
 
 Mai jos sunt proprietăți care pot fi definite după crearea funcției. Proprietățile de date \"Base\" și \"Axis\" nu pot fi modificate.
 
--    **Angle**   * angle of rotation. See [Angle](#Angle.md).
+-    **Angle**: angle of rotation. See [Angle](#Angle.md).
 
--    **Label**   * label given to the operation, can be changed at convenience.
+-    **Label**: label given to the operation, can be changed at convenience.
 
--    **Midplane**   * true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
+-    **Midplane**: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
 
--    **Reversed**   * true or false. See [Reversed](#Reversed.md).
+-    **Reversed**: true or false. See [Reversed](#Reversed.md).
 
--    **Refine**   * v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**: v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
 
 ## Exemple
 
 
 <div class="mw-translate-fuzzy">
 
-![Example revolution using a construction line as the Revolution axis   * In this image the angle is 75°, revolution is about the construction line (Sketch axis 0)](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg ) 
+![Example revolution using a construction line as the Revolution axis: In this image the angle is 75°, revolution is about the construction line (Sketch axis 0)](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg ) 
 
 
 </div>
@@ -143,7 +143,7 @@ Mai jos sunt proprietăți care pot fi definite după crearea funcției. Proprie
 
 ## Link uri utile 
 
-Un exemplu [detailed example of use](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3674) are partea practică pe forum.
+Un exemplu [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) are partea practică pe forum.
 
 
 </div>

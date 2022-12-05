@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Std MergeProjects
-   Name/pl   *Std   * Scal projekt
-   MenuLocation   *Plik → Scal projekt ...
-   Workbenches   *wszystkie
+- GuiCommand:/pl
+   Name:Std MergeProjects
+   Name/pl:Std: Scal projekt
+   MenuLocation:Plik → Scal projekt ...
+   Workbenches:wszystkie
 ---
 
 # Std MergeProjects/pl
@@ -29,7 +29,7 @@ Polecenie **Scal projekt** dodaje zawartość pliku FreeCAD do aktywnego dokumen
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Ogólne → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Ogólne → FileOpenSavePath**.
 -   Duplikaty etykiet są dozwolone, jeśli parametr **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawiony na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
 

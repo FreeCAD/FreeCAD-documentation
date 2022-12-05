@@ -1,5 +1,5 @@
 # Artwork Assembly3/fr
-Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthunder    *
+Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthunder :
 
 ## Mod/asm3
 
@@ -26,10 +26,6 @@ Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthun
 ![](images/Assembly_ConstraintPointsProjectDistance.svg ) ![](images/Assembly_ConstraintPointsSymmetric.svg ) ![](images/Assembly_ConstraintPointsVertical.svg ) ![](images/Assembly_ConstraintSketchPlane.svg ) ![](images/Assembly_ConstraintSymmetric.svg ) ![](images/Assembly_ConstraintSymmetricLine.svg ) ![](images/Assembly_ConstraintUnidirectional1.svg ) ![](images/Assembly_ConstraintUnidirectional2.svg ) ![](images/Assembly_MeasureAngle.svg ) ![](images/Assembly_MeasurePointDistance.svg )
 
 ![](images/Assembly_MeasurePointLineDistance.svg ) ![](images/Assembly_MeasurePointPlaneDistance.svg )
-
-
-
-[Category   *Artwork](Category_Artwork.md) [Category   *Assembly](Category_Assembly.md)
 
 
 

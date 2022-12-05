@@ -7,11 +7,9 @@ Ccache (or "ccache") is a compiler cache. It speeds up recompilation by caching 
 
 ### Related Links 
 
--   [ccache website](https   *//ccache.dev/Official)
+-   [ccache website](https://ccache.dev/Official)
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)
 -   [distcc](distcc.md)
-
-[Category   * Developer Documentation](Category__Developer_Documentation.md) [Category   * 3rd Party](Category__3rd_Party.md)
 
 
 

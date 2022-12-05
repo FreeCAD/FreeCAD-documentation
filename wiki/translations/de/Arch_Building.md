@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Building
-   Name/de   *Arch Gebäude
-   MenuLocation   *Arch → Gebäude
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   Shortcut   ***B** **U**
-   SeeAlso   *[Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
+- GuiCommand:/de
+   Name:Arch Building
+   Name/de:Arch Gebäude
+   MenuLocation:Arch → Gebäude
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   Shortcut:**B** **U**
+   SeeAlso:[Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
 ---
 
 # Arch Building/de
@@ -30,23 +30,23 @@ Du kannst jedes GebäudeTeil in ein Gebäude konvertieren, einfach durch ändern
 
 ## Eigenschaften
 
--    {{PropertyData/de|Gebäude Typ}}   * Der Typ des Gebäudes, wählbar aus einer Liste
+-    {{PropertyData/de|Gebäude Typ}}: Der Typ des Gebäudes, wählbar aus einer Liste
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Gebäude Werkzeug kann sowohl in [Makros](macros/de.md) als auch aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   * 
+Das Gebäude Werkzeug kann sowohl in [Makros](macros/de.md) als auch aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```
 
 -   Erzeugt ein `Gebäude` Objekt aus der `Objekteliste`, die entweder eine Liste von Objekten oder oder ein `Basisobj`, das ein `Form` ist.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

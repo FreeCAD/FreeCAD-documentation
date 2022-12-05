@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Rebar Stirrup
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
-   SeeAlso   *[Helical Rebar](Arch_Rebar_Helical/es.md), [Rebar](Arch_Rebar/es.md)
-   Version   *0.17
+- GuiCommand:/es
+   Name:Arch Rebar Stirrup
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
+   SeeAlso:[Helical Rebar](Arch_Rebar_Helical/es.md), [Rebar](Arch_Rebar/es.md)
+   Version:0.17
 ---
 
 # Arch Rebar Stirrup/es
@@ -24,14 +24,14 @@ La herramienta {{KEY | <img src="images/_Arch_Rebar_Stirrup.png_" width= 16px> S
 
 The [Stirrup Rebar](Arch_Rebar_Stirrup.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Stirrup.png  style="width   *800px;">
+<img alt="" src=images/Stirrup.png  style="width:800px;">
 
 
 </div>
@@ -50,7 +50,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1.  Crear un elemento [structure](Arch_Structure/es.md)
 2.  Seleccione cualquier cara de la estructura
 3.  A continuación, seleccione **<img src="images/Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** desde las herramientas de la barra de refuerzo
-4.  Aparecerá un panel de tareas en el lado izquierdo de la pantalla, como se muestra a continuación <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+4.  Aparecerá un panel de tareas en el lado izquierdo de la pantalla, como se muestra a continuación <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 5.  Seleccione la orientación deseada
 6.  Proporcione las entradas como cubierta izquierda, cubierta derecha, cubierta superior, parte inferior, cubierta frontal, ángulo doblado, factor doblado, redondeo y diámetro de la barra de refuerzo
 7.  Seleccione el modo de distribución, ya sea cantidad o espaciado
@@ -63,7 +63,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-   *   <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
@@ -71,23 +71,23 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Propiedades
 
--    {{PropertyData/es|Front Cover}}   * la distancia entre la barra de refuerzo y la cara seleccionada.
+-    {{PropertyData/es|Front Cover}}: la distancia entre la barra de refuerzo y la cara seleccionada.
 
--    {{PropertyData/es|Right Cover}}   * la distancia entre el extremo derecho de la barra de refuerzo a la derecha de la estructura.
+-    {{PropertyData/es|Right Cover}}: la distancia entre el extremo derecho de la barra de refuerzo a la derecha de la estructura.
 
--    {{PropertyData/es|Left Cover}}   * la distancia entre el extremo izquierdo de la barra de refuerzo a la cara izquierda de la estructura.
+-    {{PropertyData/es|Left Cover}}: la distancia entre el extremo izquierdo de la barra de refuerzo a la cara izquierda de la estructura.
 
--    {{PropertyData/es|Bottom Cover}}   * la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
+-    {{PropertyData/es|Bottom Cover}}: la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
 
--    {{PropertyData/es|Top Cover}}   * la distancia entre barras de refuerzo desde la cara superior de la estructura.
+-    {{PropertyData/es|Top Cover}}: la distancia entre barras de refuerzo desde la cara superior de la estructura.
 
--    {{PropertyData/es|Bent Angle}}   * ángulo doblado define el ángulo en los extremos de un estribo.
+-    {{PropertyData/es|Bent Angle}}: ángulo doblado define el ángulo en los extremos de un estribo.
 
--    {{PropertyData/es|Bent Factor}}   * Bent Factor define la longitud del extremo del estribo.
+-    {{PropertyData/es|Bent Factor}}: Bent Factor define la longitud del extremo del estribo.
 
--    {{PropertyData/es|Amount}}   * la cantidad de barras de refuerzo.
+-    {{PropertyData/es|Amount}}: la cantidad de barras de refuerzo.
 
--    {{PropertyData/es|Spacing}}   * la distancia entre los ejes de cada barra.
+-    {{PropertyData/es|Spacing}}: la distancia entre los ejes de cada barra.
 
 
 <div class="mw-translate-fuzzy">
@@ -100,7 +100,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **<img src="images/_Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función   *
+La herramienta **<img src="images/_Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función:
 
 
 </div>
@@ -126,7 +126,7 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 
 <div class="mw-translate-fuzzy">
 
-Ejemplo   * Creando la barra de refuerzo de estribo.
+Ejemplo: Creando la barra de refuerzo de estribo.
 
 
 </div>
@@ -191,11 +191,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

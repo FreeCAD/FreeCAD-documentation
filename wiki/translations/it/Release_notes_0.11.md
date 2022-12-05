@@ -1,9 +1,9 @@
 # Release notes 0.11/it
 # Note di rilascio della versione 0.11 
 
-Questo è un riassunto dei cambiamenti più importanti e delle nuove funzionalità disponibili nella versione 0.11 di FreeCAD. L\'elenco completo si trova [qui](http   *//www.freecadweb.org/tracker/changelog_page.php).
+Questo è un riassunto dei cambiamenti più importanti e delle nuove funzionalità disponibili nella versione 0.11 di FreeCAD. L\'elenco completo si trova [qui](http://www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD011.png  style="width:800px;">
 
 Una schermata della versione 0.11
 
@@ -11,7 +11,7 @@ Una schermata della versione 0.11
 
 ### Generale
 
--   Il [progetto di traduzione di FreeCAD](http   *//crowdin.net/project/freecad) ha ricevuto un grande aiuto da molte persone in tutto il mondo e FreeCAD ora è fornito con almeno 15 lingue   * inglese, tedesco, francese, italiano, svedese, spagnolo, portoghese, russo, ucraino, norvegese, afrikaans, finlandese, cinese semplificato, croato e olandese. Per i prossimi rilasci si sta lavorando con molte altre lingue.
+-   Il [progetto di traduzione di FreeCAD](http://crowdin.net/project/freecad) ha ricevuto un grande aiuto da molte persone in tutto il mondo e FreeCAD ora è fornito con almeno 15 lingue: inglese, tedesco, francese, italiano, svedese, spagnolo, portoghese, russo, ucraino, norvegese, afrikaans, finlandese, cinese semplificato, croato e olandese. Per i prossimi rilasci si sta lavorando con molte altre lingue.
 
 ![](images/release011-translation.jpg )
 
@@ -30,7 +30,7 @@ Una schermata della versione 0.11
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Esempi   * [Demo di Schizzo](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [Demo del modulo Parte](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Esempi: [Demo di Schizzo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [Demo del modulo Parte](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Simulazione di movimenti di Robot 
 
@@ -56,7 +56,7 @@ Una schermata della versione 0.11
 -   Il modulo Draft inoltre incorpora una [API in Python](Draft_API/it.md).
 -   L\'importatore DXF ora supporta gli attributi di blocco
 
-![](images/Movie.png ) Esempi   * [Draft module demo](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Esempi: [Draft module demo](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Immagini
 
@@ -68,8 +68,6 @@ Una schermata della versione 0.11
 
 
 {{languages/it | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

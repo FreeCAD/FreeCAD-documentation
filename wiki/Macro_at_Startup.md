@@ -5,7 +5,7 @@
 
 This documentation will explain how to set up a macro to automatically run at FreeCAD startup.
 
-Before starting, following things shall be considered   *
+Before starting, following things shall be considered:
 
 -   Automatically running macro at startup can be considered a security risk. You should only run macro that you trust and that you previously tested
 -   You probably need some Python and coding notions to follow this procedure
@@ -18,7 +18,7 @@ Before starting, following things shall be considered   *
 
 Generally, it will happen that a macro isn\'t directly compatible with a startup launch and shall be fine-tuned
 
-Consider the below macro that you downloaded from somewhere and is stored in your \'Macro\' folder with name \'MySuperMacro.FCMacro\'   *
+Consider the below macro that you downloaded from somewhere and is stored in your \'Macro\' folder with name \'MySuperMacro.FCMacro\':
 
 
 
@@ -26,9 +26,9 @@ Consider the below macro that you downloaded from somewhere and is stored in you
     from PySide import QtGui
 
     ## Definition section (classes, functions, ...)
-    class MyMsgBox(QtGui.QMessageBox)   *
+    class MyMsgBox(QtGui.QMessageBox):
 
-        def __init__(self)   *
+        def __init__(self):
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Main instruction section
@@ -36,7 +36,7 @@ Consider the below macro that you downloaded from somewhere and is stored in you
 
 
 
-All macros will generally present a similar structure with first import section, then definition section and finally main instruction section. We will focus on this latter because main instructions (they are quite easy to spot because they start at the full beginning of the line) are actually the ones that \'execute\' the macro. For later step, we\'ll need to programmatically import the macro then execute it. This can\'t be done with the actual structure of the macro. To be able to do so, we need to enclose the main instructions in a function \--eg. run()\-- then ensure this function is still called when the macro is manually run by the user. If you\'re not totally sure of what you\'re doing, it is advised to work on a copy of the macro (or you may just want to keep the original macro as is). The original file shall be modified as follows   *
+All macros will generally present a similar structure with first import section, then definition section and finally main instruction section. We will focus on this latter because main instructions (they are quite easy to spot because they start at the full beginning of the line) are actually the ones that \'execute\' the macro. For later step, we\'ll need to programmatically import the macro then execute it. This can\'t be done with the actual structure of the macro. To be able to do so, we need to enclose the main instructions in a function \--eg. run()\-- then ensure this function is still called when the macro is manually run by the user. If you\'re not totally sure of what you\'re doing, it is advised to work on a copy of the macro (or you may just want to keep the original macro as is). The original file shall be modified as follows:
 
 
 
@@ -45,17 +45,17 @@ All macros will generally present a similar structure with first import section,
     import FreeCAD as App
     import FreeCADGui as Gui
 
-    class MyMsgBox(QtGui.QMessageBox)   *
+    class MyMsgBox(QtGui.QMessageBox):
 
-        def __init__(self)   *
+        def __init__(self):
             super(MyMsgBox, self).information(None, "MyTitle", "MyText")
 
     ## Enclose the main instructions in a function
-    def run()   *
+    def run():
         MyMsgBox()
 
     ## Ensure main instructions are still called in case of manual run
-    if __name__ == '__main__'   *
+    if __name__ == '__main__':
         run()
 
 
@@ -64,13 +64,13 @@ Of course if the function \'run()\' already exists in the macro, you can choose 
 
 ### Integrate into FreeCAD startup 
 
-First create a new folder in your user \'Mod\' folder, let\'s say called \'MacroStartup\'. Copy the modified macro into this newly created folder and rename it with a \'.py\' extension if this isn\'t yet the case (notice that if you develop the macro by yourself, it can be named with \'.py\' extension also in the \'Macro\' folder so that you don\'t need to rename when copying). Finally create in the same folder a file called \'InitGui.py\' which contains the following code   *
+First create a new folder in your user \'Mod\' folder, let\'s say called \'MacroStartup\'. Copy the modified macro into this newly created folder and rename it with a \'.py\' extension if this isn\'t yet the case (notice that if you develop the macro by yourself, it can be named with \'.py\' extension also in the \'Macro\' folder so that you don\'t need to rename when copying). Finally create in the same folder a file called \'InitGui.py\' which contains the following code:
 
 
 
-    def runStartupMacros(name)   *
+    def runStartupMacros(name):
         # Do not run when NoneWorkbench is activated because UI isn't yet completely there
-        if name != "NoneWorkbench"   *
+        if name != "NoneWorkbench":
             # Run macro only once by disconnecting the signal at first call
             FreeCADGui.getMainWindow().workbenchActivated.disconnect(runStartupMacros)
 
@@ -115,10 +115,6 @@ Notice that if the original macro was downloaded through the Addon Manager, it w
 ## Related
 
 -   [LazyLoader](Extra_python_modules#LazyLoader.md) is a Python module that allows deferred loading.
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

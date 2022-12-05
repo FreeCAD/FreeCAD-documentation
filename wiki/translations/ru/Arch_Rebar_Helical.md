@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Спиральная арматура
-   Name   *Arch_Rebar_Helical
-   MenuLocation   *Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
-   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md), [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)
+- GuiCommand:/ru
+   Name/ru:Спиральная арматура
+   Name:Arch_Rebar_Helical
+   MenuLocation:Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
+   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md), [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)
 ---
 
 # Arch Rebar Helical/ru
@@ -22,14 +22,14 @@
 
 The [Helical Rebar](Arch_Rebar_Helical.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
+:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/HelicalRebar.png  style="width   *800px;">
+<img alt="" src=images/HelicalRebar.png  style="width:800px;">
 
 
 </div>
@@ -56,7 +56,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 9.  Click **Cancel** to exit the task panel.
 
-   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
+:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
 
@@ -64,15 +64,15 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Свойства
 
--    **Side Cover**   * The distance between rebar to the curved face.
+-    **Side Cover**: The distance between rebar to the curved face.
 
--    **Top Cover**   * The distance between rebar from the top face of the structure.
+-    **Top Cover**: The distance between rebar from the top face of the structure.
 
--    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
 
--    **Pitch**   * The pitch of a helix is the height of one complete helix turn, measured parallel to the axis of the helix.
+-    **Pitch**: The pitch of a helix is the height of one complete helix turn, measured parallel to the axis of the helix.
 
--    **Diameter**   * Diameter of the rebar.
+-    **Diameter**: Diameter of the rebar.
 
 
 <div class="mw-translate-fuzzy">
@@ -82,7 +82,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-The Helical Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
+The Helical Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -133,14 +133,6 @@ import HelicalRebar
 
 HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

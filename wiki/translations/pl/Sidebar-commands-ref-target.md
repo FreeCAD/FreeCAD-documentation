@@ -1,5 +1,5 @@
 # Sidebar-commands-ref-target/pl
-List\_of\_Commands/pl
+List_of_Commands/pl
 
 
 

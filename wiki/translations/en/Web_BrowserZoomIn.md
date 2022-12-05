@@ -1,16 +1,16 @@
 ---
-- GuiCommand   *
-   Name   *Web BrowserZoomIn
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso   *
+- GuiCommand:
+   Name:Web BrowserZoomIn
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso:
 ---
 
 # Web BrowserZoomIn/en
 
 ## Description
 
-Use the <img alt="" src=images/Web_BrowserZoomIn.svg  style="width   *24px;"> **Web BrowserZoomIn** command to zoom in on the current web page.
+Use the <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:24px;"> **Web BrowserZoomIn** command to zoom in on the current web page.
 
 ## Usage
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */fr
-   Name   *Assembly3 ConstraintLineVertical
-   Name/fr   *Assembly3 Contrainte ligne verticale
-   Icon   *Assembly_ConstraintLineVertical.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Assembly3 ConstraintLineVertical
+   Name/fr:Assembly3 Contrainte ligne verticale
+   Icon:Assembly_ConstraintLineVertical.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintLineVertical/fr

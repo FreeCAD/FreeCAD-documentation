@@ -1,6 +1,6 @@
 # Std Redo/ro
 ---
-- GuiCommand   *   Name   *Std Redo   MenuLocation   *[|Workbenches   *All   Shortcut   *Maiusc+Ctrl+Z   SeeAlso   *[[Std_Undo|Undo](Std_Edit_Menu___Edit]]_→_Redo‏‎.md)---
+- GuiCommand:   Name:Std Redo   MenuLocation:[|Workbenches:All   Shortcut:Maiusc+Ctrl+Z   SeeAlso:[[Std_Undo|Undo](Std_Edit_Menu___Edit]]_→_Redo‏‎.md)---
 
 
 </div>
@@ -22,7 +22,7 @@ Această comandă resetează operațiile anulate anterior.
 
 ## Utilizare
 
-1.  Deschideți meniul **Modify**, click pe <img alt="" src=images/Std_Redo.png  style="width   *32px;"> sau alegeți ** Edit** → **<img src="images/Std_Redo.png" width=32px> Redo** din meniul de sus/top.
+1.  Deschideți meniul **Modify**, click pe <img alt="" src=images/Std_Redo.png  style="width:32px;"> sau alegeți ** Edit** → **<img src="images/Std_Redo.png" width=32px> Redo** din meniul de sus/top.
 
 o altă posibilitate este utilizare acombinației de taste {{KEY/it|CTRL+Y}}.
 
@@ -35,10 +35,10 @@ Numărul de operațiuni care pot fi modificate poate fi definit în **Modifica �
 
 </div>
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button.
     -   Select the **Edit → <img src="images/Std_Redo.svg" width=16px> Redo** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**Y**.
+    -   Use the keyboard shortcut: **Ctrl**+**Y**.
 
 ## Options
 
@@ -52,7 +52,7 @@ Numărul de operațiuni care pot fi modificate poate fi definit în **Modifica �
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

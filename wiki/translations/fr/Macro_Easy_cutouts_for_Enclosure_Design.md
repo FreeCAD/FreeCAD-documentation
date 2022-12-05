@@ -7,7 +7,7 @@
 |Version=0.25
 |Date=2016-11-26
 |FCVersion=0.16
-|Download=[https   *//www.freecadweb.org/wiki/images/7/71/Macro_Easy_cutouts_for_Enclosure_Design_icon.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/7/71/Macro_Easy_cutouts_for_Enclosure_Design_icon.png ToolBar Icon]
 }}
 
 ## Description
@@ -16,7 +16,7 @@ Cette macro crée un logement d\'un objet sur un support de façon très aisée
 
 Vous devez juste sélectionner la face qui servira de support et l\'objet à encastrer la macro s\'occupe de créer le logement avec un espace de 0.5 mm (programmé dans la macro)
 
-<img alt="" src=images/easy-cutouts.gif  style="width   *1000px;"> 
+<img alt="" src=images/easy-cutouts.gif  style="width:1000px;"> 
 *Ici une démonstration avec Arduino Uno enclosure*
 
 ## Utilisation
@@ -31,7 +31,7 @@ L\'icône pour votre barre d\'outils ![](images/Macro_Easy_cutouts_for_Enclosure
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # clone, enlarge & center clone-obj to selected obj
 #
  
@@ -45,19 +45,19 @@ import FreeCAD, FreeCADGui, Draft, Part, DraftTools
 from FreeCAD import Base
 
 
-def say(msg)   *
+def say(msg):
     FreeCAD.Console.PrintMessage(msg)
     FreeCAD.Console.PrintMessage('\n')
 
-def sayw(msg)   *
+def sayw(msg):
     FreeCAD.Console.PrintWarning(msg)
     FreeCAD.Console.PrintWarning('\n')
  
-def getNormal(self)   *
+def getNormal(self):
     return self.Object.Shape.Faces[0].normalAt(0,0)
 
 #Init        
-if Gui.ActiveDocument <> None   *
+if Gui.ActiveDocument <> None:
     #say (Gui.ActiveDocument)
 
     cx = 1  # center x -> 1  
@@ -69,62 +69,62 @@ if Gui.ActiveDocument <> None   *
     #selEx = FreeCADGui.Selection.getSelectionEx()
     sel = FreeCADGui.Selection.getSelection()#print sel[0].Label
     #objs = [selobj.Object for selobj in selEx]
-    selF = FreeCADGui.Selection.getSelectionEx()#if len(Gui.Selection.getSelectionEx()[0].SubElementNames) <1   *
-    #    stopif len(sel) > 0   *
+    selF = FreeCADGui.Selection.getSelectionEx()#if len(Gui.Selection.getSelectionEx()[0].SubElementNames) <1:
+    #    stopif len(sel) > 0:
         FreeCADGui.Selection.removeSelection(sel[0])
-    #for o in FreeCADGui.ActiveDocument.getObjects()   *
+    #for o in FreeCADGui.ActiveDocument.getObjects():
     #    FreeCADGui.Selection.removeSelection(o.Name)
     coords = []
     j = 0
-    #if len(sel) == 1   * # only 1 object selected
-    #if len(selF) == 1   * # only 1 object selected
-    if len(sel) > 0   *
-        if len(selF[0].SubElementNames) ==1   *
+    #if len(sel) == 1: # only 1 object selected
+    #if len(selF) == 1: # only 1 object selected
+    if len(sel) > 0:
+        if len(selF[0].SubElementNames) ==1:
             f_names=[]
             f = Draft.makeFacebinder(selF)
             f1=App.ActiveDocument.getObject(f.Name)
             face=0
-            try   *
+            try:
                 norm = f1.Shape.Faces[0].normalAt(0,0)
                 say (norm)
                 face=1
-            except   *
+            except:
                 App.Console.PrintMessage("Select ONLY one single Face of object!"+"\n")
                 # stop
-            if face==1   *
+            if face==1:
                 l = Draft.downgrade(f,delete=False)
                 k = 0; bbM = 0
-                for o in l   *
-                    for w in o   *
+                for o in l:
+                    for w in o:
                         #print w.Name
                         f_names.append (w.Name)
                         say(w.Name)
-                        if "Facebinder" not in w.Name   *
+                        if "Facebinder" not in w.Name:
                             bb=w.Shape.BoundBox
                             bbX=float(bb.XLength)
                             bbY=float(bb.YLength)
                             bbZ=float(bb.ZLength)
                             say (str(bbX)+";"+str(bbY)+";"+str(bbZ))
-                            if bbX > bbM   *
+                            if bbX > bbM:
                                 bbM = bbX; m = k
-                            if bbY > bbM   *
+                            if bbY > bbM:
                                 bbM = bbY; m = k
-                            if bbZ > bbM   *
+                            if bbZ > bbM:
                                 bbM = bbZ; m = k
                         k=k+1
                 print f_names
                 k = 0
                 #f_names=[]
-                for o in l   *
-                    for w in o   *
+                for o in l:
+                    for w in o:
                         say(w.Name)
                         #f_names.append (w.Name)
-                        if k!=m   *
+                        if k!=m:
                             say ( "deleting "+f_names[k] )
                             FreeCAD.ActiveDocument.removeObject(f_names[k])
-                        else   *
+                        else:
                             FreeCADGui.ActiveDocument.getObject(f_names[k]).Visibility=False
-                            f = FreeCAD.ActiveDocument.addObject('Part   *   *Extrusion', 'Extrude_for_cut')
+                            f = FreeCAD.ActiveDocument.addObject('Part::Extrusion', 'Extrude_for_cut')
                             f = FreeCAD.ActiveDocument.getObject(f.Name)
                             f.Base = FreeCAD.ActiveDocument.getObject(f_names[k])
                             f.Dir = norm * extrudeLenght * -1
@@ -162,25 +162,25 @@ if Gui.ActiveDocument <> None   *
                 oripl_Z = float(c[2])
                 coords.append ([oripl_X+bbX/2, oripl_Y+bbY/2, oripl_Z+bbZ/2])
                 App.Console.PrintMessage(str(boundBox_)+"\r\n")
-                App.Console.PrintMessage("BBox              * "+str(bbX)+" x "+str(bbY)+" x "+str(bbZ)+"\r\n")
-                App.Console.PrintMessage("Base Pos          * "+str(oripl_X)+" x "+str(oripl_Y)+" x "+str(oripl_Z)+"\r\n")
-                App.Console.PrintMessage("Center Pos        * "+str(oripl_X+bbX/2)+" x "+str(oripl_Y+bbY/2)+" x "+str(oripl_Z+bbZ/2)+"\r\n")
-                App.Console.PrintMessage("Coords            * "+str(coords[j])+"\r\n")
+                App.Console.PrintMessage("BBox           : "+str(bbX)+" x "+str(bbY)+" x "+str(bbZ)+"\r\n")
+                App.Console.PrintMessage("Base Pos       : "+str(oripl_X)+" x "+str(oripl_Y)+" x "+str(oripl_Z)+"\r\n")
+                App.Console.PrintMessage("Center Pos     : "+str(oripl_X+bbX/2)+" x "+str(oripl_Y+bbY/2)+" x "+str(oripl_Z+bbZ/2)+"\r\n")
+                App.Console.PrintMessage("Coords         : "+str(coords[j])+"\r\n")
             
-                #objC = FreeCAD.ActiveDocument.addObject('Part   *   *AttachableObjectPython', 'Clone_for_cut')
+                #objC = FreeCAD.ActiveDocument.addObject('Part::AttachableObjectPython', 'Clone_for_cut')
                 #objC = FreeCAD.ActiveDocument.getObject(objC.Name)
                 objC=Draft.clone(sel)
-                if bbX!=0   *
+                if bbX!=0:
                     scaleX = (bbX + 2*margin) / bbX
-                else   *
+                else:
                     scaleX = 1
-                if bbY!=0   *
+                if bbY!=0:
                     scaleY = (bbY + 2*margin) / bbY
-                else   *
+                else:
                     scaleY = 1
-                if bbZ!=0   *
+                if bbZ!=0:
                     scaleZ = (bbZ + 2*margin) / bbZ
-                else   *
+                else:
                     scaleZ = 1
                 objC.Scale = (scaleX,scaleY,scaleZ)
                 #Draft.scale(objC,delta=App.Vector(scaleX,scaleY,scaleZ),center=App.Vector(0,0,0),copy=True,legacy=True)
@@ -195,8 +195,8 @@ if Gui.ActiveDocument <> None   *
                 objs = [selobj.Object for selobj in selEx]
                 coords = []
                 j = 0
-                if len(objs) >= 1   *
-                    for obj in objs   *
+                if len(objs) >= 1:
+                    for obj in objs:
                         #s = objs[0].Shape
                         s = obj.Shape
                         
@@ -214,25 +214,25 @@ if Gui.ActiveDocument <> None   *
                         oripl_Z = float(c[2])
                         coords.append ([oripl_X+boundBox_.XLength/2, oripl_Y+boundBox_.YLength/2, oripl_Z+boundBox_.ZLength/2])
                         App.Console.PrintMessage(str(boundBox_)+"\r\n")
-                        App.Console.PrintMessage("BBox              * "+str(boundBox_.XLength)+" x "+str(boundBox_.YLength)+" x "+str(boundBox_.ZLength)+"\r\n")
-                        App.Console.PrintMessage("Base Pos          * "+str(oripl_X)+" x "+str(oripl_Y)+" x "+str(oripl_Z)+"\r\n")
-                        App.Console.PrintMessage("Center Pos        * "+str(oripl_X+boundBox_.XLength/2)+" x "+str(oripl_Y+boundBox_.YLength/2)+" x "+str(oripl_Z+boundBox_.ZLength/2)+"\r\n")
-                        App.Console.PrintMessage("Coords            * "+str(coords[j])+"\r\n")
-                        if j>0   *
-                            if cx==1   *
+                        App.Console.PrintMessage("BBox           : "+str(boundBox_.XLength)+" x "+str(boundBox_.YLength)+" x "+str(boundBox_.ZLength)+"\r\n")
+                        App.Console.PrintMessage("Base Pos       : "+str(oripl_X)+" x "+str(oripl_Y)+" x "+str(oripl_Z)+"\r\n")
+                        App.Console.PrintMessage("Center Pos     : "+str(oripl_X+boundBox_.XLength/2)+" x "+str(oripl_Y+boundBox_.YLength/2)+" x "+str(oripl_Z+boundBox_.ZLength/2)+"\r\n")
+                        App.Console.PrintMessage("Coords         : "+str(coords[j])+"\r\n")
+                        if j>0:
+                            if cx==1:
                                 coordNx=coords[0][0]-coords[j][0]
-                            else   *
+                            else:
                                 coordNx=0
-                            if cy==1   *
+                            if cy==1:
                                 coordNy=coords[0][1]-coords[j][1]
-                            else   *
+                            else:
                                 coordNy=0
-                            if cz==1   *
+                            if cz==1:
                                 coordNz=coords[0][2]-coords[j][2]
-                            else   *
+                            else:
                                 coordNz=0
                             obj.Placement.move(App.Vector(coordNx,coordNy,coordNz))
-                            App.Console.PrintMessage("Moved        * "+str(coordNx)+" "+str(coordNy)+" "+str(coordNz)+"\r\n")
+                            App.Console.PrintMessage("Moved     : "+str(coordNx)+" "+str(coordNy)+" "+str(coordNz)+"\r\n")
                         j=j+1
                     
                         App.Console.PrintMessage("_____________________"+"\r\n")
@@ -242,19 +242,19 @@ if Gui.ActiveDocument <> None   *
                     FreeCADGui.ActiveDocument.getObject(objs[1].Name).Transparency=70
                     App.ActiveDocument.recompute() 
             
-        else   *
+        else:
             App.Console.PrintMessage("Select ONLY one single Face of object!"+"\n")
-    else   *
+    else:
         App.Console.PrintMessage("Select ONLY one single Face of object!"+"\n")
-else   *
+else:
     sayw("no document to work with")   
-    #http   *//forum.freecadweb.org/viewtopic.php?t=4625
+    #http://forum.freecadweb.org/viewtopic.php?t=4625
 
 }}
 
 ## Lien
 
-Forum    * [Easy cutouts for Enclosure Design Macro](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=18488)
+Forum : [Easy cutouts for Enclosure Design Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18488)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Arch Project
-   Name/es   *Arquitectura Proyecto
-   MenuLocation   *Arquitectura → Proyecto
-   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***P** **O**
-   SeeAlso   *[Proyecto Sitio](Arch_Site/es.md), [Proyecto Edificio](Arch_Building/es.md)
+- GuiCommand:/es
+   Name:Arch Project
+   Name/es:Arquitectura Proyecto
+   MenuLocation:Arquitectura → Proyecto
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**P** **O**
+   SeeAlso:[Proyecto Sitio](Arch_Site/es.md), [Proyecto Edificio](Arch_Building/es.md)
 ---
 
 # Arch Project/es
@@ -15,7 +15,7 @@
 
 ## Descripción
 
-El Arquitectura Proyecto es un objeto especial adecuado para añadir una mejor compatibilidad con los archivos [IFC](Arch_IFC/es.md). Cada archivo IFC debe contener una entidad [IfcProject](https   *//standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). El IfcProject se utiliza sobre todo para definir la configuración general del proyecto, como los sistemas de proyección, para la compatibilidad con los SIG, o los sistemas de unidades.
+El Arquitectura Proyecto es un objeto especial adecuado para añadir una mejor compatibilidad con los archivos [IFC](Arch_IFC/es.md). Cada archivo IFC debe contener una entidad [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). El IfcProject se utiliza sobre todo para definir la configuración general del proyecto, como los sistemas de proyección, para la compatibilidad con los SIG, o los sistemas de unidades.
 
 Al exportar un modelo de FreeCAD al formato de archivo IFC, si tu modelo no contiene ningún objeto de Proyecto, se creará automáticamente uno por defecto, que en la mayoría de los casos será suficiente. Sin embargo, es posible que desees poder ajustar la configuración del proyecto, en cuyo caso puede ser útil añadir un objeto de proyecto. Al importar un archivo IFC, siempre se creará un objeto de proyecto. Sin embargo, si no lo utiliza específicamente, puede simplemente eliminarlo después de la importación.
 

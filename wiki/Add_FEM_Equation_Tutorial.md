@@ -1,9 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *Add FEM Equation
-   Level   *Advanced
-   Time   *1 day
-   Author   *[JohnWang](User_JohnWang.md)
-   FCVersion   *0.19
+- TutorialInfo:   Topic:Add FEM Equation
+   Level:Advanced
+   Time:1 day
+   Author:[JohnWang](User_JohnWang.md)
+   FCVersion:0.19
 ---
 
 # Add FEM Equation Tutorial
@@ -16,7 +16,7 @@
 
 In this tutorial we are going to add the **Flow** equation to FreeCAD and implement support for the elmer solver. Please make sure you have read and understood [Extend FEM Module](Extend_FEM_Module.md) before reading this tutorial.
 
-The task can be split into five parts   *
+The task can be split into five parts:
 
 -   **New equation type**. This step must only be done if the equation doesn\'t exist in FreeCAD yet (as opposed to a equation that is already in FreeCAD but not supported by the target solver).
 -   **New equation object**. Adding a concrete document object representing the elmer specific equation.
@@ -26,7 +26,7 @@ The task can be split into five parts   *
 
 ## New equation type 
 
-In this step we are going to modify the following file   *
+In this step we are going to modify the following file:
 -    **src/Mod/Fem/femsolver/equationbase.py**
     
 
@@ -38,23 +38,23 @@ First add the new equation to the {{Incode|equationbase.py}} module. Each equati
 
  
 ```python
-class FlowProxy(BaseProxy)   *
+class FlowProxy(BaseProxy):
     pass
 
-class FlowViewProxy(BaseViewProxy)   *
-    def getIcon(self)   *
-        return "   */icons/FEM_EquationFlow.svg"
+class FlowViewProxy(BaseViewProxy):
+    def getIcon(self):
+        return ":/icons/FEM_EquationFlow.svg"
 ```
 
 ## New Elmer\'s equation object 
 
-In this step we are going to implement the document object. We need to add a new {{Incode|flow.py}} file at   *
+In this step we are going to implement the document object. We need to add a new {{Incode|flow.py}} file at:
 -    **src/Mod/Fem/femsolver/elmer/equations/flow.py**
     
 
 
 
-and modify the following files   *
+and modify the following files:
 -    **src/Mod/Fem/ObjectsFem.py**
     
 
@@ -74,7 +74,7 @@ The flow equation in Elmer is a potentially non-linear equation. This means that
 
 ### Editing files 
 
-After copying {{Incode|heat.py}} to {{Incode|flow.py}}, adjust {{Incode|flow.py}} in these locations   *
+After copying {{Incode|heat.py}} to {{Incode|flow.py}}, adjust {{Incode|flow.py}} in these locations:
 
 -   the name argument of the {{Incode|create}} module function,
 -   the base classes of the {{Incode|Proxy}} class,
@@ -83,19 +83,19 @@ After copying {{Incode|heat.py}} to {{Incode|flow.py}}, adjust {{Incode|flow.py}
 
  
 ```python
-def create(doc, name="'''Flow'''")   *
+def create(doc, name="'''Flow'''"):
     return femutils.createObject(
         doc, name, Proxy, ViewProxy)
 
-class Proxy(nonlinear.Proxy, equationbase.'''Flow'''Proxy)   *
+class Proxy(nonlinear.Proxy, equationbase.'''Flow'''Proxy):
 
-    Type = "Fem   *   *EquationElmer'''Flow'''"
+    Type = "Fem::EquationElmer'''Flow'''"
 
-    def __init__(self, obj)   *
+    def __init__(self, obj):
         super(Proxy, self).__init__(obj)
         obj.Priority = 10
 
-class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy)   *
+class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy):
     pass
 ```
 
@@ -105,11 +105,11 @@ At the moment of writing this tutorial Elmer flow equation doesn\'t have any spe
 
 Finally one has to register a **makeEquationFlow** definition in {{Incode|src/Mod/Fem/ObjectsFem.py}} by duplicating an available entry.
 
-FreeCAD uses **make** to build the program. So we need to register the new module file ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} the way described in [Extend FEM Module](https   *//www.freecadweb.org/wiki/Extend_FEM_Module). The suitable lists can be easily found by searching for existing equation modules files of Elmer.
+FreeCAD uses **make** to build the program. So we need to register the new module file ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} the way described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). The suitable lists can be easily found by searching for existing equation modules files of Elmer.
 
 ## Extend Solver Object 
 
-In this step we are going to modify the following file   *
+In this step we are going to modify the following file:
 -    **src/Mod/Fem/femsolver/elmer/solver.py**
     
 
@@ -127,15 +127,15 @@ from .equations import electrostatic
 ...
 
 _EQUATIONS = {
-    "Heat"   * heat,
-    "Elasticity"   * elasticity,
-+    "Flow"   * flow,
+    "Heat": heat,
+    "Elasticity": elasticity,
++    "Flow": flow,
 }
 ```
 
 ## Extend writer object 
 
-In this step we are going to modify the following file   *
+In this step we are going to modify the following file:
 -    **src/Mod/Fem/femsolver/elmer/writer.py**
     
 
@@ -152,13 +152,13 @@ For every supported equation there are two main methods handling the export of t
 
 
 
-You need to register the {{Incode|_handleFlow}} method inside the {{Incode|Writer}} class   *
+You need to register the {{Incode|_handleFlow}} method inside the {{Incode|Writer}} class:
 
  
 ```python
-class Writer(object)   *
+class Writer(object):
 ...
-    def write(self)   *
+    def write(self):
 ...
         self._handleFlow()
 
@@ -169,7 +169,7 @@ class Writer(object)   *
 
 {{Incode|_handleFlow}}
 
-can control a series of other detailed methods. Our flow equation uses the following detailed methods   *
+can control a series of other detailed methods. Our flow equation uses the following detailed methods:
 -    {{Incode|_handleFlowConstants}}
     
 
@@ -191,11 +191,7 @@ We now finished the function part of the new equation. Next we\'ll connect the n
 
 ## Gui tool to create an equation 
 
-We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial   * [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md).
-
-
-
-[Category   *FEM](Category_FEM.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
+We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md).
 
 
 

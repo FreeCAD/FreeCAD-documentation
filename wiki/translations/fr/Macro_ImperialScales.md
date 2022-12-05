@@ -10,7 +10,7 @@
 
 ## Description
 
-Cette macro fait apparaître une boîte de dialogue contenant une liste d\'échelles d\'arches impériales américaines, extraites de [Archtoolbox CAD Scale Factors](https   *//www.archtoolbox.com/representation/cad/scalefactor.html) avec le facteur correspondant à appliquer aux pages ou aux vues TechDraw. Les facteurs d\'échelle peuvent être double-cliqués et copiés.
+Cette macro fait apparaître une boîte de dialogue contenant une liste d\'échelles d\'arches impériales américaines, extraites de [Archtoolbox CAD Scale Factors](https://www.archtoolbox.com/representation/cad/scalefactor.html) avec le facteur correspondant à appliquer aux pages ou aux vues TechDraw. Les facteurs d\'échelle peuvent être double-cliqués et copiés.
 
 ## Code
 
@@ -19,15 +19,15 @@ Cette macro fait apparaître une boîte de dialogue contenant une liste d\'éche
 
 {{MacroCode|code=
 <nowiki>
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
-class Dialog(QDialog)   *
+class Dialog(QDialog):
 
-    def __init__(self)   *
+    def __init__(self):
 
         QDialog.__init__(self)
         self.resize(221, 413)
@@ -111,7 +111,7 @@ class Dialog(QDialog)   *
 
         QMetaObject.connectSlotsByName(self)
 
-    def retranslateUi(self,dlg=None)   *
+    def retranslateUi(self,dlg=None):
 
         self.setWindowTitle(QCoreApplication.translate("Dialog", u"Arch scale factors", None))
         qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)

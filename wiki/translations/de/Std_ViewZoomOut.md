@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Icon   *Zoom-out.svg
-   Name/de   *Std ViewZoomOut
-   MenuLocation   *Ansicht → Zoom‏‎ → Verkleinern
-   Workbenches   *Alle
-   Shortcut   ***Strg** + **-**
-   SeeAlso   *[Vergrößern](Std_ViewZoomIn/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
+- GuiCommand:/de
+   Icon:Zoom-out.svg
+   Name/de:Std ViewZoomOut
+   MenuLocation:Ansicht → Zoom‏‎ → Verkleinern
+   Workbenches:Alle
+   Shortcut:**Strg** + **-**
+   SeeAlso:[Vergrößern](Std_ViewZoomIn/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
 ---
 
 # Std ViewZoomOut/de
@@ -16,7 +16,7 @@ Der **Std Verkleinern**-Befehl verkleinert die Objekte in der aktiven [3D-Ansich
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Wähle die Option **Ansicht → Zoom‏‎ → <img src="images/Std_ViewZoomOut.svg" width=16px> Verkleinern** aus dem Menü
     -   Benutze den Tastaturkurzbefehl **Strg** + **-**.
 
@@ -26,12 +26,12 @@ Der **Std Verkleinern**-Befehl verkleinert die Objekte in der aktiven [3D-Ansich
 
 ## Einstellungen
 
--   Der Zoomfaktor kann in den Einstellungen geändert werden   * **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+-   Der Zoomfaktor kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

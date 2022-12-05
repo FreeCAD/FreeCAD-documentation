@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *PartDesign Clone
-   Name/ro   *PartDesign Clone
-   Workbenches   *[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation   *Part Design → Create a clone
-   Version   *0.17
-   SeeAlso   *[Draft Clone](Draft_Clone/ro.md)
+- GuiCommand:/ro
+   Name:PartDesign Clone
+   Name/ro:PartDesign Clone
+   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation:Part Design → Create a clone
+   Version:0.17
+   SeeAlso:[Draft Clone](Draft_Clone/ro.md)
 ---
 
 # PartDesign Clone/ro
@@ -32,7 +32,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  In arborescența Model, selectați obiectul de clonat.
-2.  Apăsați butonul **[<img src=images/PartDesign_Clone.png style="width   *24px"> '''Create a clone'''**.
+2.  Apăsați butonul **[<img src=images/PartDesign_Clone.png style="width:24px"> '''Create a clone'''**.
 
 
 </div>
@@ -42,11 +42,11 @@
 
 <div class="mw-translate-fuzzy">
 
--    **Base Feature**   * definește obiectul origina pe care se bazează clona. Pentru a în locuit, apăsați butonul **...** pentru a obține o listă a obiectelor disponibile.
+-    **Base Feature**: definește obiectul origina pe care se bazează clona. Pentru a în locuit, apăsați butonul **...** pentru a obține o listă a obiectelor disponibile.
 
--    **Placement**   * definește orientarea și poziția clonei ăn spașiul 3D. A se vedea[Placement](Placement.md).
+-    **Placement**: definește orientarea și poziția clonei ăn spașiul 3D. A se vedea[Placement](Placement.md).
 
--    **Label**   * numele/eticheta dată obiectului Clonă. Poate fi schimbat dacă vă este necesar.
+-    **Label**: numele/eticheta dată obiectului Clonă. Poate fi schimbat dacă vă este necesar.
 
 
 </div>

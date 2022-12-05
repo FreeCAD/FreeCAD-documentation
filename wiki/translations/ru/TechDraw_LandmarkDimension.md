@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Вставить размер знака
-   Name   *TechDraw_LandmarkDimension
-   MenuLocation   *TechDraw → Размеры → Вставить размер знака
-   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
-   Version   *0.19
-   SeeAlso   *[Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
+- GuiCommand:/ru
+   Name/ru:Вставить размер знака
+   Name:TechDraw_LandmarkDimension
+   MenuLocation:TechDraw → Размеры → Вставить размер знака
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   Version:0.19
+   SeeAlso:[Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
 ---
 
 # TechDraw LandmarkDimension/ru
@@ -39,15 +39,15 @@ Landmark Dimension does not introduce any new properties.
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Landmark Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+The Landmark Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
 dim1.Type = "Distance"
 dim1.References2D=[(TDView, 'Vertex1')]
 dim1.References3D=[(Point3d1, 'Vertex1')]

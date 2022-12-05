@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */tr
-   Name   *Draft AddToGroup
-   Name/tr   *Gruba Ekle
-   MenuLocation   *Taslak → Araçlar → Gruba Ekle
-   Workbenches   *[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso   *[Grup seç](Draft_SelectGroup/tr.md), [Grup](Std_Group/tr.md)
+- GuiCommand:/tr
+   Name:Draft AddToGroup
+   Name/tr:Gruba Ekle
+   MenuLocation:Taslak → Araçlar → Gruba Ekle
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   SeeAlso:[Grup seç](Draft_SelectGroup/tr.md), [Grup](Std_Group/tr.md)
 ---
 
 # Draft AddToGroup/tr

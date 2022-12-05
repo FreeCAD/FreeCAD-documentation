@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Path DressupDragKnife
-   Name/fr   *Path Lame rotative
-   MenuLocation   *Path → Trajectoires additionelles → Lame rotative
-   Workbenches   *[Path](Path_Workbench/fr.md)
-   SeeAlso   *[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md)
+- GuiCommand:/fr
+   Name:Path DressupDragKnife
+   Name/fr:Path Lame rotative
+   MenuLocation:Path → Trajectoires additionelles → Lame rotative
+   Workbenches:[Path](Path_Workbench/fr.md)
+   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md)
 ---
 
 # Path DressupDragKnife/fr
@@ -18,7 +18,7 @@ Cet outil ajoute au tracé existant des actions de coin et des extensions de bor
 ## Utilisation
 
 1.  Sélectionnez un objet contour ou profil [Path](Path_Workbench/fr.md)
-2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *16px;"> [Lame rotative](Path_DressupDragKnife/fr.md)
+2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_DressupDragKnife.svg  style="width:16px;"> [Lame rotative](Path_DressupDragKnife/fr.md)
 
 ## Options
 

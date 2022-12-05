@@ -1,5 +1,5 @@
 # Category:Reinforcement/es
-[Category   *Arch/es](Category   *Arch/es.md) [Category   *Workbenches/es](Category   *Workbenches/es.md)
+
 
 ### Contents
 

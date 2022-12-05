@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Sketcher External
-   Name/es   *Croquizador Externo
-   MenuLocation   *Croquis → Croquizador Geometrías → Croquizador Externo
-   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut   *X
-   SeeAlso   *[Croquizador ModoConstrucción](Sketcher_ToggleConstruction/es.md)
+- GuiCommand:/es
+   Name:Sketcher External
+   Name/es:Croquizador Externo
+   MenuLocation:Croquis → Croquizador Geometrías → Croquizador Externo
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   Shortcut:X
+   SeeAlso:[Croquizador ModoConstrucción](Sketcher_ToggleConstruction/es.md)
 ---
 
 # Sketcher External/es
@@ -25,7 +25,7 @@ Usa la herramienta **<img src="images/Sketcher_External.svg" width=16px> [Geomet
 
 Una nota de precaución, usar esta herramienta para enlazar con la geometría (sólida) generada puede llevar a resultados inesperados debido a [Problema de denominación topológica](Topological_naming_problem/es.md). Vea también [Consejo para modelos estables](Feature_editing/es#Consejo_para_modelos_estables.md).
 
-<FILE   *Sketcher_ExternalEsempio1.png>
+<FILE:Sketcher_ExternalEsempio1.png>
 
 ## Utilización
 
@@ -78,15 +78,15 @@ This, below, is a sketch mapped to the top face of a solid created from a Pad of
 
 In this case they are used as a reference for tangency constraints with the circumferences of one circle. They are also used as the reference for a horizontal and a vertical constraint to locate the centre of the second circle relative to the end and top of the Pad.
 
-<FILE   *Sketcher_ExternalEsempio2.png>
+<FILE:Sketcher_ExternalEsempio2.png>
 
 This is the same sketch in edit mode, with the Pad upon which it is mapped hidden.
 
-<FILE   *Sketcher_ExternalEsempio4.png>
+<FILE:Sketcher_ExternalEsempio4.png>
 
 When the sketch edit mode is closed, external Geometry lines are not visible.
 
-<FILE   *Sketcher_ExternalEsempio3.png>
+<FILE:Sketcher_ExternalEsempio3.png>
 
 
 <div class="mw-translate-fuzzy">

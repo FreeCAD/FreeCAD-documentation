@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_DlgParameter
-   Name/it   *Modifica parametri
-   MenuLocation   *Strumenti → Modifica parametri...
-   Workbenches   *Tutti
-   SeeAlso   *[Editor delle preferenze](Preferences_Editor/it.md)
+- GuiCommand:/it
+   Name:Std_DlgParameter
+   Name/it:Modifica parametri
+   MenuLocation:Strumenti → Modifica parametri...
+   Workbenches:Tutti
+   SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
 ---
 
 # Std DlgParameter/it
@@ -31,7 +31,7 @@ Lavorare con l\'editor dei parametri richiede una certa esperienza. Per i parame
 
 Il pannello di sinistra mostra un albero con gruppi di parametri e sottogruppi.
 
-*Nel menu di scelta rapida del pannello sono disponibili le seguenti opzioni   **
+*Nel menu di scelta rapida del pannello sono disponibili le seguenti opzioni:*
 
 #### Espandi/Riduci
 
@@ -75,7 +75,7 @@ Il pannello di sinistra mostra un albero con gruppi di parametri e sottogruppi.
 
 Il pannello di destra mostra i parametri nel gruppo selezionato nel pannello di sinistra. Se questo gruppo contiene solo sottogruppi, il pannello di destra è vuoto.
 
-*Nel menu di scelta rapida del pannello sono disponibili le seguenti opzioni   **
+*Nel menu di scelta rapida del pannello sono disponibili le seguenti opzioni:*
 
 #### Cambia valore 
 
@@ -157,16 +157,16 @@ Typing a (partial) string in this input box will fully expand the tree in the le
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code   * 
+Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code: 
 ```python
-# get   *
-App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set   *
-App.ParamGet("User parameter   *BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+# get:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
 Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Кольцевая арматура
-   Name   *Arch_Rebar_Stirrup
-   MenuLocation   *Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup
-   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Спиральная арматура](Arch_Rebar_Helical/ru.md)
+- GuiCommand:/ru
+   Name/ru:Кольцевая арматура
+   Name:Arch_Rebar_Stirrup
+   MenuLocation:Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup
+   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Спиральная арматура](Arch_Rebar_Helical/ru.md)
 ---
 
 # Arch Rebar Stirrup/ru
@@ -22,14 +22,14 @@
 
 The [Stirrup Rebar](Arch_Rebar_Stirrup.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Stirrup.png  style="width   *800px;">
+<img alt="" src=images/Stirrup.png  style="width:800px;">
 
 
 </div>
@@ -42,7 +42,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1.  Создайте элемент [structure](Arch_Structure.md)
 2.  Выберите любую грань структуры
 3.  Then select **<img src="images/Arch_Rebar_Stirrup.png" width=16px> Stirrup Rebar** from the rebar tools
-4.  A task panel will pop-out on the left side of the screen as shown below <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+4.  A task panel will pop-out on the left side of the screen as shown below <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 5.  Select the desired orientation
 6.  Give the inputs like left cover, right cover, top cover, bottom, front cover, bent angle, bent factor, rounding and diameter of the rebar
 7.  Select the mode of distribution either amount or spacing
@@ -55,7 +55,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-   *   <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
@@ -63,25 +63,25 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Свойства
 
--    **Front Cover**   *
+-    **Front Cover**:
 
 Расстояние между арматурой и выбранной поверхностью.
 
--    **Right Cover**   * The distance between the right end of the rebar to right face of the structure.
+-    **Right Cover**: The distance between the right end of the rebar to right face of the structure.
 
--    **Left Cover**   * The distance between the left end of the rebar to the left face of the structure.
+-    **Left Cover**: The distance between the left end of the rebar to the left face of the structure.
 
--    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
 
--    **Top Cover**   * The distance between rebar from the top face of the structure.
+-    **Top Cover**: The distance between rebar from the top face of the structure.
 
--    **Bent Angle**   * Bent angle defines the angle at the ends of a stirrup.
+-    **Bent Angle**: Bent angle defines the angle at the ends of a stirrup.
 
--    **Bent Factor**   * Bent Factor defines length of stirrup end.
+-    **Bent Factor**: Bent Factor defines length of stirrup end.
 
--    **Amount**   * The amount of rebars.
+-    **Amount**: The amount of rebars.
 
--    **Spacing**   *Расстояние между осями каждого стержня.
+-    **Spacing**:Расстояние между осями каждого стержня.
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +94,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-Инструмент {{KEY | <img src="images/_Arch_Rebar_Stirrup.png_" width= 16px> Stirrup Rebar}} можно использовать в [macros](macros.md) и на консоли python с помощью следующей функции   *
+Инструмент {{KEY | <img src="images/_Arch_Rebar_Stirrup.png_" width= 16px> Stirrup Rebar}} можно использовать в [macros](macros.md) и на консоли python с помощью следующей функции:
 
 
 </div>
@@ -161,14 +161,6 @@ import Stirrup
 Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
                     100, 4, 14, 8, True, 8)
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

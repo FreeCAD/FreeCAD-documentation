@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ko
-   Name   *Std PerspectiveCamera
-   Name/ko   *표준 원근투영 카메라
-   MenuLocation   *보기 → 원근투영
-   Workbenches   *모두
-   Shortcut   ***V** **P**
-   SeeAlso   *[표준 직교투영 카메라](Std_OrthographicCamera/ko.md)
+- GuiCommand:/ko
+   Name:Std PerspectiveCamera
+   Name/ko:표준 원근투영 카메라
+   MenuLocation:보기 → 원근투영
+   Workbenches:모두
+   Shortcut:**V** **P**
+   SeeAlso:[표준 직교투영 카메라](Std_OrthographicCamera/ko.md)
 ---
 
 # Std PerspectiveCamera/ko
@@ -19,9 +19,9 @@
 
 ## 용법
 
-1.  이 명령을 실행하는 방법은 여러 가지입니다   *
+1.  이 명령을 실행하는 방법은 여러 가지입니다:
     -   메뉴에서 **보기 → <img src="images/Std_PerspectiveCamera.svg" width=16px> 원근투영** 옵션을 선택합니다.
-    -   단축키를 사용합니다   * **V** 를 누른 다음 **P**.
+    -   단축키를 사용합니다: **V** 를 누른 다음 **P**.
 
 ## 비고
 
@@ -29,12 +29,12 @@
 
 ## 환경 설정 
 
--   카메라 유형은 환경 설정에서 변경할 수 있습니다   * **편집 → 환경설정... → Display → 3D 보기 → 카메라 유형**. 선택한 유형은 모든 열린 문서 및 새로 열리는 문서의 3D 보기에 적용됩니다. [환경 설정 편집기를](Preferences_Editor/ko#3D_보기.md) 참조하십시오.
+-   카메라 유형은 환경 설정에서 변경할 수 있습니다: **편집 → 환경설정... → Display → 3D 보기 → 카메라 유형**. 선택한 유형은 모든 열린 문서 및 새로 열리는 문서의 3D 보기에 적용됩니다. [환경 설정 편집기를](Preferences_Editor/ko#3D_보기.md) 참조하십시오.
 
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 

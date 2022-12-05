@@ -7,7 +7,7 @@
 
 Während Python Skripte normalerweise die Dateiendung `.py` haben, sollten FreeCAD Makros die Endung `.FCMacro` haben. Eine Sammlung von Makros, die von erfahrenene Anwendern geschrieben wurden, findet sich auf der [Makrorezepte](macros_recipes/de.md) Seite.
 
-Siehe [Anlaufstelle für Intensivnutzer](Power_users_hub/de.md) um mehr über die [Python](Python/de.md) Programmiersprache und über das Schreiben von Makros zu erfahren. Insbesondere solltest du mit diesen Seiten beginnen   *
+Siehe [Anlaufstelle für Intensivnutzer](Power_users_hub/de.md) um mehr über die [Python](Python/de.md) Programmiersprache und über das Schreiben von Makros zu erfahren. Insbesondere solltest du mit diesen Seiten beginnen:
 
 -   [Einführung in Python](Introduction_to_Python/de.md)
 -   [Python Tutorium Skripten](Python_scripting_tutorial/de.md)
@@ -15,9 +15,9 @@ Siehe [Anlaufstelle für Intensivnutzer](Power_users_hub/de.md) um mehr über di
 
 ## Wie es funktioniert 
 
-Aktiviere die Konsolenausgabe im Menü **Bearbeiten → Einstellungen → Allgemein→ Makro → Skript Befehle in Python Konsole anzeigen**. Du wirst sehen, dass in FreeCAD jede Aktion, die du ausführst, wie z.B. das Drücken einer Schaltfläche, einen Python Befehl ausgibt. Diese Befehle sind das, was in einem Makro aufgezeichnet werden kann. Das Hauptwerkzeug zum Erstellen von Makros ist die Makro Werkzeugleiste   * ![](images/Macros_toolbar.jpg ). Auf ihr hast du 4 Schaltflächen   * Aufnahme, Aufnahme stoppen, Bearbeiten und Abspielen des aktuellen Makros.
+Aktiviere die Konsolenausgabe im Menü **Bearbeiten → Einstellungen → Allgemein→ Makro → Skript Befehle in Python Konsole anzeigen**. Du wirst sehen, dass in FreeCAD jede Aktion, die du ausführst, wie z.B. das Drücken einer Schaltfläche, einen Python Befehl ausgibt. Diese Befehle sind das, was in einem Makro aufgezeichnet werden kann. Das Hauptwerkzeug zum Erstellen von Makros ist die Makro Werkzeugleiste: ![](images/Macros_toolbar.jpg ). Auf ihr hast du 4 Schaltflächen: Aufnahme, Aufnahme stoppen, Bearbeiten und Abspielen des aktuellen Makros.
 
-Es ist sehr einfach zu bedienen   * Drücke die Aufnahmetaste, du wirst aufgefordert, deinem Makro einen Namen zu geben und dann einige Aktionen durchzuführen. Wenn du fertig bist, klicke auf die Schaltfläche Aufzeichnung stoppen, und deine Aktionen werden gespeichert. Du kannst nun mit der Schaltfläche Bearbeiten auf den Makro Dialog zugreifen.
+Es ist sehr einfach zu bedienen: Drücke die Aufnahmetaste, du wirst aufgefordert, deinem Makro einen Namen zu geben und dann einige Aktionen durchzuführen. Wenn du fertig bist, klicke auf die Schaltfläche Aufzeichnung stoppen, und deine Aktionen werden gespeichert. Du kannst nun mit der Schaltfläche Bearbeiten auf den Makro Dialog zugreifen.
 
 ![](images/Macros-DE.png ) 
 *Makro Dialog, der die im System verfügbaren Makros auflistet*
@@ -46,7 +46,7 @@ Siehe [Wie Makros installieren](How_to_install_macros/de.md) für eine ausführl
 
 ## Makro Repositorien 
 
-Es gibt zwei wichtige Anlaufstellen für Makros. Die erste ist das offiziell geprüfte Makro Repository unter [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). Die zweite ist die [Makrorezepte](Macros_recipes/de.md) Seite Dort kannst du einige nützliche Makros finden, die du zu deiner FreeCAD Installation hinzufügen kannst. Makros aus beiden Repositorien können über den [Addon Manager](Std_AddonMgr.md) direkt in FreeCAD installiert werden.
+Es gibt zwei wichtige Anlaufstellen für Makros. Die erste ist das offiziell geprüfte Makro Repository unter [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Die zweite ist die [Makrorezepte](Macros_recipes/de.md) Seite Dort kannst du einige nützliche Makros finden, die du zu deiner FreeCAD Installation hinzufügen kannst. Makros aus beiden Repositorien können über den [Addon Manager](Std_AddonMgr.md) direkt in FreeCAD installiert werden.
 
 ## Zusätzliche Informationen 
 
@@ -59,14 +59,6 @@ Du kannst Erweiterungen manuell installieren, es ist jedoch viel einfacher, einf
 
 -   [Wie man Makros installiert](How_to_install_macros/de.md)
 -   [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md)
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

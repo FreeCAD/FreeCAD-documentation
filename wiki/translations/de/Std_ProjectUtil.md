@@ -1,16 +1,16 @@
 ---
-- GuiCommand   */de
-   Name   *Std ProjectUtil
-   Name/de   *Std ProjektHilfsprogramm
-   MenuLocation   *Werkzeuge → Projekt-Hilfsprogramm...
-   Workbenches   *Alle
+- GuiCommand:/de
+   Name:Std ProjectUtil
+   Name/de:Std ProjektHilfsprogramm
+   MenuLocation:Werkzeuge → Projekt-Hilfsprogramm...
+   Workbenches:Alle
 ---
 
 # Std ProjectUtil/de
 
 ## Beschreibung
 
-Mit dem Befehl **Std ProjektHilfsprogramm** können Dateien aus einer FreeCAD-Projektdatei (***.FCStd**), die eigentlich eine [ZIP](https   *//en.wikipedia.org/wiki/Zip_(file_format))-Datei ist, extrahiert werden und nach manueller Bearbeitung daraus eine neue Projektdatei erstellt werden.
+Mit dem Befehl **Std ProjektHilfsprogramm** können Dateien aus einer FreeCAD-Projektdatei (***.FCStd**), die eigentlich eine [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format))-Datei ist, extrahiert werden und nach manueller Bearbeitung daraus eine neue Projektdatei erstellt werden.
 
 ![](images/Project_utility_en.png ) 
 *Das Dialogfeld Projekt-Hilfsprogramm*
@@ -30,7 +30,7 @@ Mit dem Befehl **Std ProjektHilfsprogramm** können Dateien aus einer FreeCAD-Pr
 
 ### Manuelle Bearbeitungen 
 
-Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdatei miteinander verknüpft sind. Nur die Bearbeitung einer einzelnen Datei führt typischerweise zu Fehlern. Um konsistente Bearbeitungen über mehrere Dateien hinweg vorzunehmen, verwenden Sie einen guten Code-Editor, wie z.B. [Notepad++](http   *//notepad-plus-plus.org/) (für das Windows-Betriebssystem) oder [Notepadqq](https   *//notepadqq.com/s/) (für Linux-Betriebssysteme).
+Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdatei miteinander verknüpft sind. Nur die Bearbeitung einer einzelnen Datei führt typischerweise zu Fehlern. Um konsistente Bearbeitungen über mehrere Dateien hinweg vorzunehmen, verwenden Sie einen guten Code-Editor, wie z.B. [Notepad++](http://notepad-plus-plus.org/) (für das Windows-Betriebssystem) oder [Notepadqq](https://notepadqq.com/s/) (für Linux-Betriebssysteme).
 
 ### Projekt erstellen 
 

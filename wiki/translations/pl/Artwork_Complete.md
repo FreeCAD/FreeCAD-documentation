@@ -11,9 +11,5 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Complete](Category_Complete.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Complete](Category_Complete.md) > Artwork Complete/pl

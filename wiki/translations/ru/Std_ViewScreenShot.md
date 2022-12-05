@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Std ViewScreenShot
-   Name/ru   *Std ViewScreenShot
-   MenuLocation   *Инструменты → Сохранить изображение...
-   Workbenches   *Все
-   SeeAlso   *[Std Print](Std_Print/ru.md), [Std PrintPdf](Std_PrintPdf/ru.md)
+- GuiCommand:/ru
+   Name:Std ViewScreenShot
+   Name/ru:Std ViewScreenShot
+   MenuLocation:Инструменты → Сохранить изображение...
+   Workbenches:Все
+   SeeAlso:[Std Print](Std_Print/ru.md), [Std PrintPdf](Std_PrintPdf/ru.md)
 ---
 
 # Std ViewScreenShot/ru
@@ -16,7 +16,7 @@
 
 The **Std ViewScreenShot** command opens a dialog box to create an image file, a screenshot, from the active [3D view](3D_view.md).
 
-<img alt="" src=images/Save_picture.png  style="width   *800px;"> 
+<img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *The Save picture dialog box after pressing the Extended button*
 
 ## Применение
@@ -37,7 +37,7 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 ### Image properties 
 
-1.  Select an option from the **Background** dropdown list   *
+1.  Select an option from the **Background** dropdown list:
     -   
         {{Value|Current}}
         
@@ -55,21 +55,21 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
         {{Value|Transparent}}
         
         Not all image formats support transparency.
-2.  Select an option from the **Creation method** dropdown list   *
+2.  Select an option from the **Creation method** dropdown list:
     -   
         {{Value|Offscreen (New)}}
         
-        This is the default method. This method supports [anti-aliasing](https   *//en.wikipedia.org/wiki/Multisample_anti-aliasing). *Technical information   * The most important classes for this method are Qt\'s QOffscreenSurface and QOpenGLFramebufferObject.*
+        This is the default method. This method supports [anti-aliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). *Technical information: The most important classes for this method are Qt\'s QOffscreenSurface and QOpenGLFramebufferObject.*
 
     -   
         {{Value|Offscreen (Old)}}
         
-        This method does not work on many modern Linux systems as it relies on the graphics driver. This method does not support anti-aliasing. *Technical information   * This is a real off-screen rendering method that only uses functions from the Coin3d library.*
+        This method does not work on many modern Linux systems as it relies on the graphics driver. This method does not support anti-aliasing. *Technical information: This is a real off-screen rendering method that only uses functions from the Coin3d library.*
 
     -   
         {{Value|Framebuffer (custom)}}
         
-        This method supports anti-aliasing. *Technical information   * If anti-aliasing is off, this method reads the image directly from the graphics renderer, else it renders to a framebuffer and gets the image from there. The key part of this method is Qt\'s QOpenGLFramebufferObject class.*
+        This method supports anti-aliasing. *Technical information: If anti-aliasing is off, this method reads the image directly from the graphics renderer, else it renders to a framebuffer and gets the image from there. The key part of this method is Qt\'s QOpenGLFramebufferObject class.*
 
     -   
         {{Value|Framebuffer (as is)}}
@@ -80,7 +80,7 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 1.  Select the {{RadioButton|TRUE|Insert MIBA}} option to add [MIBA](MIBA.md) information to the file. Not all image formats support this.
 2.  Or select the {{RadioButton|TRUE|Insert comment}} option and type a comment in the text field to embed a comment in the file. Not all image formats support this.
-3.  Check the {{CheckBox|TRUE|Add watermark}} checkbox to add a watermark. The watermark is placed in the lower left corner of the image and consists of the FreeCAD logo and name above the main FreeCAD URL   * [www.freecadweb.org](http   *//www.freecadweb.org).
+3.  Check the {{CheckBox|TRUE|Add watermark}} checkbox to add a watermark. The watermark is placed in the lower left corner of the image and consists of the FreeCAD logo and name above the main FreeCAD URL: [www.freecadweb.org](http://www.freecadweb.org).
 
 ## Примечания
 
@@ -89,8 +89,8 @@ The **Std ViewScreenShot** command opens a dialog box to create an image file, a
 
 ## Настройки
 
--   The 3D view background can be changed in the preferences   * **Edit → Preferences... → Display → Colors → Background color**. See [Preferences Editor](Preferences_Editor#Colors.md).
--   To change the 3D view anti-aliasing   * **Edit → Preferences... → Display → 3D view → Rendering → Anti-Aliasing**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   The 3D view background can be changed in the preferences: **Edit → Preferences... → Display → Colors → Background color**. See [Preferences Editor](Preferences_Editor#Colors.md).
+-   To change the 3D view anti-aliasing: **Edit → Preferences... → Display → 3D view → Rendering → Anti-Aliasing**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 ## Scripting
 
@@ -98,7 +98,7 @@ It is possible to create screenshots with python code.
 
 
 ```python
-Gui.ActiveDocument.ActiveView.saveImage('C   */temp/test.png',1656,783,'Current')
+Gui.ActiveDocument.ActiveView.saveImage('C:/temp/test.png',1656,783,'Current')
 ```
 
 This script saves a series of screenshots of different sizes and from different directions. The camera type, orthographic or perspective, is also changed.
@@ -107,15 +107,15 @@ This script saves a series of screenshots of different sizes and from different 
 ```python
 import Part, PartGui
 # Loading test part
-Part.open('C   */Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
-OutDir = 'C   */temp/'
+Part.open('C:/Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
+OutDir = 'C:/temp/'
  
 # Creating images with different Views, Cameras and sizes
-for p in ['PerspectiveCamera','OrthographicCamera']   *
+for p in ['PerspectiveCamera','OrthographicCamera']:
     Gui.SendMsgToActiveView(p)
-    for f in ['ViewAxo','ViewFront','ViewTop']   *
+    for f in ['ViewAxo','ViewFront','ViewTop']:
         Gui.SendMsgToActiveView(f)
-        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]   *
+        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]:
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.jpg',x,y,'White')
             Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.png',x,y,'Transparent')
 

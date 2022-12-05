@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Plot - Grafico
-   Level   *Base
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic:Plot - Grafico
+   Level:Base
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # Plot Basic tutorial/it
@@ -28,12 +28,12 @@ In questo tutorial impareremo come creare un grafico di base utilizzando il modu
 
 </div>
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="Esempio di grafico" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="Esempio di grafico" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 
 <center>
@@ -49,14 +49,14 @@ Esempio di grafico.
 
 <div class="mw-translate-fuzzy">
 
-Nell\'immagine precedente si può vedere il risultato che si intende ottenere. Questo tutorial descrive   *
+Nell\'immagine precedente si può vedere il risultato che si intende ottenere. Questo tutorial descrive:
 
 -   Come creare un grafico dalla console Python.
 -   Come produrre un grafico da una serie di dati dalla console Python.
 -   Come mostrare le linee della griglia.
 -   Come visualizzare la legenda.
--   Come editare le etichette della serie, usando [LaTeX](http   *//www.latex-project.org).
--   Come modificare le etichette delle assi, usando [LaTeX](http   *//www.latex-project.org).
+-   Come editare le etichette della serie, usando [LaTeX](http://www.latex-project.org).
+-   Come modificare le etichette delle assi, usando [LaTeX](http://www.latex-project.org).
 -   Come modificare gli stili della serie.
 -   Come salvare il grafico.
 
@@ -83,7 +83,7 @@ Per tracciare i dati non è necessario creare un nuovo documento di FreeCAD, è 
 ### Creare un documento di grafico 
 
 I grafici sono documenti speciali che possono essere creati manualmente per inserire i dati in seguito, oppure si può consentire al modulo di crearli automaticamente quando si avvia la stampa dei dati.
-Creare un documento personale per il grafico dà 2 vantaggi   *
+Creare un documento personale per il grafico dà 2 vantaggi:
 
 -   È possibile impostare l\'etichetta del documento.
 -   È possibile controllare facilmente in quale documento sono tracciati i dati (vedere più avanti per maggiori dettagli su questo aspetto).
@@ -94,16 +94,16 @@ Creare un documento personale per il grafico dà 2 vantaggi   *
 
 <div class="mw-translate-fuzzy">
 
-Per creare un nuovo documento grafico lanciare semplicemente i seguenti comandi nel terminale Python   *
+Per creare un nuovo documento grafico lanciare semplicemente i seguenti comandi nel terminale Python:
 
 
 </div>
 
 
 ```python
-try   *
+try:
     from FreeCAD.Plot import Plot
-except ImportError   *
+except ImportError:
     from freecad.plot import Plot
 
 Plot.figure("TrigonometricTest")
@@ -128,7 +128,7 @@ Il nuovo documento appena creato possiede già di un sistema di assi. Ogni docum
 Dato che il comando **Plot** avvia un nuovo documento, a questo punto è possibile iniziare a lavorare.
 Bisogna ricordare che ogni comando del modulo Grafico che viene eseguito aggiunge una serie al grafico creato, questo fino a quando non si crea un nuovo documento, quindi, come regola generale, è bene controllare quali documenti sono aperti.
 
-Ora si possono creare i dati per le funzioni seno e coseno che sono le funzioni che si vogliono tracciare   *
+Ora si possono creare i dati per le funzioni seno e coseno che sono le funzioni che si vogliono tracciare:
 
 
 </div>
@@ -142,7 +142,7 @@ s = [math.sin(2.0*math.pi*tt) for tt in t]
 c = [math.cos(2.0*math.pi*tt) for tt in t]
 ```
 
-Questo crea 3 array di dati (con 101 punti)   *
+Questo crea 3 array di dati (con 101 punti):
 
 -   *t* = Tempo in secondi.
 -   *s* = Funzione seno.
@@ -151,7 +151,7 @@ Questo crea 3 array di dati (con 101 punti)   *
 
 <div class="mw-translate-fuzzy">
 
-Per tracciare entrambe le funzioni basta lanciare i seguenti comandi   *
+Per tracciare entrambe le funzioni basta lanciare i seguenti comandi:
 
 
 </div>
@@ -273,7 +273,7 @@ Icona dello strumento per editare la serie.
 <div class="mw-translate-fuzzy">
 
 In primo luogo selezionare la linea che si desidera modificare, ad esempio, si può iniziare con la prima.
-Deselezionare la casella **No label** (Nessuna etichetta) e impostare questa etichetta   *
+Deselezionare la casella **No label** (Nessuna etichetta) e impostare questa etichetta:
 
 
 </div>
@@ -286,8 +286,8 @@ $y = \sin \left( 2 \pi t \right)$
 
 <div class="mw-translate-fuzzy">
 
-Poiché [LaTeX](http   *//www.latex-project.org) è supportato da [matplotlib](http   *//matplotlib.org) è possibile utilizzarlo per impostare tutte le etichette o i titoli che si desidera.
-Impostare la seguente etichetta per la seconda serie   *
+Poiché [LaTeX](http://www.latex-project.org) è supportato da [matplotlib](http://matplotlib.org) è possibile utilizzarlo per impostare tutte le etichette o i titoli che si desidera.
+Impostare la seguente etichetta per la seconda serie:
 
 
 </div>
@@ -340,7 +340,7 @@ Icona dello strumento di configurazione delle Etichette.
 
 </div>
 
-Impostare i seguenti titoli   *
+Impostare i seguenti titoli:
 
 -   Title = Trigonometric functions example
 -   X Label = \$t\$
@@ -405,9 +405,7 @@ Dpi (punti per pollice) controlla la risoluzione delle immagini, ad esempio util
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}} {{Plot_Tools_navi}}
 
 
 

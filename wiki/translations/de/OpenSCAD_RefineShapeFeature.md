@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *OpenSCAD RefineShapeFeature
-   Name/de   *OpenSCAD RefineShapeFeature
-   MenuLocation   *OpenSCAD → Form Feature verfeinern
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/de.md)
+- GuiCommand:/de
+   Name:OpenSCAD RefineShapeFeature
+   Name/de:OpenSCAD RefineShapeFeature
+   MenuLocation:OpenSCAD → Form Feature verfeinern
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD RefineShapeFeature/de

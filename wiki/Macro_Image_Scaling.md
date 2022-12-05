@@ -2,23 +2,23 @@
 {{Macro
 |Name=Image Scaling
 |Icon=Image_Scaling.svg
-|Description=Scaling of drawings, graphics, diagrams, blueprints and similar 2D images in the Image workbench. It works for images imported as planar images in the 3D space.<br/>Note   * For photos of objects, or images involving objects lying at different distances from the viewpoint, the effect of [https   *//en.wikipedia.org/wiki/Parallax Parallax] (distortion due to "difference in the apparent position of an object viewed along two different lines of sight") must be kept in mind. In the following diagram the 2 blue objects are co-planar with the plane being perpendicular to the user viewpoint and scaling can be used   *
+|Description=Scaling of drawings, graphics, diagrams, blueprints and similar 2D images in the Image workbench. It works for images imported as planar images in the 3D space.<br/>Note: For photos of objects, or images involving objects lying at different distances from the viewpoint, the effect of [https://en.wikipedia.org/wiki/Parallax Parallax] (distortion due to "difference in the apparent position of an object viewed along two different lines of sight") must be kept in mind. In the following diagram the 2 blue objects are co-planar with the plane being perpendicular to the user viewpoint and scaling can be used:
 |Author=JAndersM
 |Version=1.0
 |Date=2016-01-19
 |FCVersion=0.17 and below
-|Download=[https   *//www.freecadweb.org/wiki/images/0/05/Image_Scaling.svg ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/0/05/Image_Scaling.svg ToolBar Icon]
 }}
 
 ## Description
 
 Macro for easy scaling of drawings, graphics, diagrams, blueprints and similar 2D images in the Image workbench. It works for images imported as planar images in the 3D space.
 
-Note   * For photos of objects, or images involving objects lying at different distances from the viewpoint, the effect of [Parallax](https   *//en.wikipedia.org/wiki/Parallax) (distortion due to \"difference in the apparent position of an object viewed along two different lines of sight\") must be kept in mind. In the following diagram the 2 blue objects are co-planar with the plane being perpendicular to the user viewpoint and scaling can be used   *
+Note: For photos of objects, or images involving objects lying at different distances from the viewpoint, the effect of [Parallax](https://en.wikipedia.org/wiki/Parallax) (distortion due to \"difference in the apparent position of an object viewed along two different lines of sight\") must be kept in mind. In the following diagram the 2 blue objects are co-planar with the plane being perpendicular to the user viewpoint and scaling can be used:
 
  ![](images/Perspective.png ) 
 
-In the second diagram, the red and green objects are not co-planar with the 2 blue objects and scaling can not be used. Additionally the fact that the red object is co-planar with 1 blue object can not be determined from the single diagram based on the user viewpoint   * 
+In the second diagram, the red and green objects are not co-planar with the 2 blue objects and scaling can not be used. Additionally the fact that the red object is co-planar with 1 blue object can not be determined from the single diagram based on the user viewpoint: 
 
 ![](images/Parallax.jpg ) 
 
@@ -49,32 +49,32 @@ import DraftTrackers, Draft
 
 __title__   = "Macro Image Scaling"
 __author__  = "JAndersM"
-__url__     = "http   *//www.freecadweb.org/index-fr.html"
+__url__     = "http://www.freecadweb.org/index-fr.html"
 __version__ = "00.01"
 __date__    = "19/01/2016"
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    def _fromUtf8(s)   *
+except AttributeError:
+    def _fromUtf8(s):
         return s
 
-try   *
+try:
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig)   *
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError   *
-    def _translate(context, text, disambig)   *
+except AttributeError:
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-def distance(p1,p2)   *
+def distance(p1,p2):
     dx=p2[0]-p1[0]
     dy=p2[1]-p1[1]
     dz=p2[2]-p1[2]
     return math.sqrt(dx*dx+dy*dy+dz*dz)
     
-class Ui_Dialog(object)   *
-    def setupUi(self, Dialog)   *
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
         self.view = FreeCADGui.ActiveDocument.ActiveView
         self.stack = []
         self.callback = self.view.addEventCallbackPivy(pvy.SoMouseButtonEvent.getClassTypeId(),self.getpoint)
@@ -108,17 +108,17 @@ class Ui_Dialog(object)   *
         self.tracker.on()
         self.dialog.show()
 
-    def retranslateUi(self, Dialog)   *
+    def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(_translate("Dialog", "Dialog", None))
         self.label.setText(_translate("Dialog", "Distance", None))
         self.label1.setText(_translate("Dialog", "Select first point", None))
         
-    def accept(self)   *
+    def accept(self):
         sel = FreeCADGui.Selection.getSelection()
-        try   *
+        try:
             locale=QtCore.QLocale.system()
             d, ok = locale.toFloat(self.lineEdit.text())
-            if not ok   *
+            if not ok:
                 raise ValueError
             s=d/self.distance
             sel[0].XSize.Value=sel[0].XSize.Value*s
@@ -127,36 +127,36 @@ class Ui_Dialog(object)   *
             self.tracker.off()
             self.tracker.finalize()
             self.dialog.hide()
-        except (ValueError, ZeroDivisionError) as e   *
+        except (ValueError, ZeroDivisionError) as e:
             self.label1.setText(_translate("Dialog", "<font color='red'>Enter distance</font>", None))
             return
-        except (IndexError, AttributeError) as e   *
+        except (IndexError, AttributeError) as e:
             self.label1.setText(_translate("Dialog", "<font color='red'>Select ImagePlane</font>", None))
             return
         
-    def reject(self)   *
+    def reject(self):
         self.stack=[]
         self.view.removeEventCallbackPivy(pvy.SoMouseButtonEvent.getClassTypeId(),self.callback)
         self.view.removeEventCallbackPivy(pvy.SoLocation2Event.getClassTypeId(),self.callmouse)
         self.tracker.off()
         self.tracker.finalize()
-        self.dialog.hide()def getmousepoint(self, event_cb)   *
+        self.dialog.hide()def getmousepoint(self, event_cb):
         event = event_cb.getEvent()
-        if len(self.stack)==1   *
+        if len(self.stack)==1:
             pos = event.getPosition()
             point = self.view.getPoint(pos[0],pos[1])
             self.tracker.p2(point)
                
-    def getpoint(self,event_cb)   *
+    def getpoint(self,event_cb):
         event = event_cb.getEvent()           
-        if event.getState() == pvy.SoMouseButtonEvent.DOWN   *
+        if event.getState() == pvy.SoMouseButtonEvent.DOWN:
             pos = event.getPosition()
             point = self.view.getPoint(pos[0],pos[1])
             self.stack.append(point)
             self.label1.setText(_translate("Dialog", "Select second point", None))
-            if len(self.stack)==1   *
+            if len(self.stack)==1:
                 self.tracker.p1(point)
-            elif len(self.stack) == 2   *
+            elif len(self.stack) == 2:
                 self.distance=distance(self.stack[0], self.stack[1])
                 self.tracker.p2(point)
                 self.view.removeEventCallbackPivy(pvy.SoMouseButtonEvent.getClassTypeId(),self.callback)
@@ -175,9 +175,9 @@ ui.setupUi(d)
 
 ## Links
 
--   [Forum discussion](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=13877)
--   [Download zip](http   *//forum.freecadweb.org/download/file.php?id=19542)
--   [Movie created by microelly2](https   *//youtu.be/2iFE40uHrA8)
+-   [Forum discussion](http://forum.freecadweb.org/viewtopic.php?f=22&t=13877)
+-   [Download zip](http://forum.freecadweb.org/download/file.php?id=19542)
+-   [Movie created by microelly2](https://youtu.be/2iFE40uHrA8)
 
 
 

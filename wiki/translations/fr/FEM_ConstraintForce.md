@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ConstraintForce
-   Name/fr   *FEM Contrainte de force
-   MenuLocation   *Modèle → Contraintes mécaniques → Contrainte de force
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Contrainte de pression](FEM_ConstraintPressure/fr.md)
+- GuiCommand:/fr
+   Name:FEM ConstraintForce
+   Name/fr:FEM Contrainte de force
+   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de force
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Contrainte de pression](FEM_ConstraintPressure/fr.md)
 ---
 
 # FEM ConstraintForce/fr
@@ -15,7 +15,7 @@ Cette commande applique une force de valeur donnée \[N\] à la géométrie cibl
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande permettant d\'appliquer une force à une face, une ligne ou un point    *
+1.  Il existe plusieurs façons de lancer la commande permettant d\'appliquer une force à une face, une ligne ou un point :
     -   Cliquez sur **<img src="images/FEM_ConstraintForce.svg" width=16px> [Contrainte de force](FEM_ConstraintForce/fr.md)
 **
     -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintForce.svg" width=16px> Contrainte de force** dans le menu.
@@ -27,9 +27,9 @@ Cette commande applique une force de valeur donnée \[N\] à la géométrie cibl
 4.  Renseignez **Charge [N]** avec une valeur de force en \[N\].
 
 5.  
-    **Direction**   * dans un cas typique, vous laisserez ce champ vide pour appliquer une force dans la direction normale. Vous pouvez inverser la direction de la force en cliquant sur **Inverser la direction**. Dans d\'autres cas, vous devez choisir une face/un plan ou une arête, qui sert de référence pour la direction de la force.
+    **Direction**: dans un cas typique, vous laisserez ce champ vide pour appliquer une force dans la direction normale. Vous pouvez inverser la direction de la force en cliquant sur **Inverser la direction**. Dans d\'autres cas, vous devez choisir une face/un plan ou une arête, qui sert de référence pour la direction de la force.
 
-6.  Cliquez sur **OK** pour terminer et l\'objet **[<img src=images/FEM_ConstraintForce.svg style="width   *24px"> ConstraintForce** est crée.
+6.  Cliquez sur **OK** pour terminer et l\'objet **[<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** est crée.
 
 ![](images/FEM_ConstraintForce_example.JPG )
 

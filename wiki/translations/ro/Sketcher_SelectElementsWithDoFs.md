@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name/ro   *Sketcher Select solver DoFs
-   Icon   *Sketcher SelectElementsWithDoFs.svg
-   MenuLocation   *Sketch → Instrumente pentru schiţe → Select solver DoFs
-   Workbenches   *[Sketcher](Sketcher_Workbench/ro.md)
-   Version   *0.18
+- GuiCommand:/ro
+   Name/ro:Sketcher Select solver DoFs
+   Icon:Sketcher SelectElementsWithDoFs.svg
+   MenuLocation:Sketch → Instrumente pentru schiţe → Select solver DoFs
+   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
+   Version:0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/ro
@@ -18,9 +18,9 @@ This tool is meant to aid in fully constraining a sketch by highlighting in gree
 
 ## Usage
 
-In the Solver messages box located at the top of the [Tasks tab](Task_panel.md), the following message(s) should be displayed   *
+In the Solver messages box located at the top of the [Tasks tab](Task_panel.md), the following message(s) should be displayed:
 
--   In case of an **under-constrainend** sketch   *
+-   In case of an **under-constrainend** sketch:
 
 > Under-constrained sketch with X degrees of freedom
 
@@ -29,7 +29,7 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 1.  The elements which have degrees of freedom are now highlighted in green.
 2.  Click anywhere in the sketch to clear the highlight color.
 
--   In case of a **fully-constrainend** sketch   *
+-   In case of a **fully-constrainend** sketch:
 
 > Fully constrained sketch 
 

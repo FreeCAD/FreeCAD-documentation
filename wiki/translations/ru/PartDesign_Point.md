@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать опорную точку
-   Name   *PartDesign_Point
-   MenuLocation   *Part Design → Create a datum → Создать опорную точку
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
-   Version   *0.17
-   SeeAlso   *[Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+- GuiCommand:/ru
+   Name/ru:Создать опорную точку
+   Name:PartDesign_Point
+   MenuLocation:Part Design → Create a datum → Создать опорную точку
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
+   Version:0.17
+   SeeAlso:[Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign Point/ru
@@ -33,11 +33,11 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 ## Свойства
 
--    **MapMode**   * lists the attachment mode used.
+-    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**   * name given to the object, this name can be changed at convenience.
+-    **Label**: name given to the object, this name can be changed at convenience.
 
 ## Ограничения
 

@@ -1,6 +1,6 @@
 # Std OnlineHelp/it
 ---
-- GuiCommand   */it   Name   *Std OnlineHelp   Name/it   *Aiuto   MenuLocation   *[|Workbenches   *Tutti   Shortcut   *F1   SeeAlso   *[[Std_Help_Menu/it|Menu Aiuto](Std_Help/it___Help]]_→_Aiuto.md), [Cos'è questo?](Std_WhatsThis/it.md), [Documentazione utenti](Std_FreeCADUserHub/it.md)---
+- GuiCommand:/it   Name:Std OnlineHelp   Name/it:Aiuto   MenuLocation:[|Workbenches:Tutti   Shortcut:F1   SeeAlso:[[Std_Help_Menu/it|Menu Aiuto](Std_Help/it___Help]]_→_Aiuto.md), [Cos'è questo?](Std_WhatsThis/it.md), [Documentazione utenti](Std_FreeCADUserHub/it.md)---
 
 
 </div>
@@ -17,7 +17,7 @@ Apre la documentazione della guida in linea in una nuova finestra.
 
 The **Std OnlineHelp** command opens the help documentation. To open the documentation for a specific command, use the [Std WhatsThis](Std_WhatsThis.md) command.
 
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
 
 
 <div class="mw-translate-fuzzy">
@@ -31,9 +31,9 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https 
 </div>
 
 1.  If the Help Addon is not yet available you will be asked to install it via the [Addon Manager](Std_AddonMgr.md).
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Select the **Help → <img src="images/Std_OnlineHelp.svg" width=16px> Help** option from the menu.
-    -   Use the keyboard shortcut   * **F1**.
+    -   Use the keyboard shortcut: **F1**.
 3.  The help documentation opens.
 
 ## Notes

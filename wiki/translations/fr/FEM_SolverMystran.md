@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM SolverMystran
-   Name/fr   *FEM Solveur Mystran
-   MenuLocation   *Solveur → Solveur Mystran
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   Shortcut   ***S** **M**
-   Version   *0.20
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM SolverMystran
+   Name/fr:FEM Solveur Mystran
+   MenuLocation:Solveur → Solveur Mystran
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   Shortcut:**S** **M**
+   Version:0.20
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM SolverMystran/fr
 
 ## Description
 
-La commande [Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le solveur [MYSTRAN](https   *//www.mystran.com). Il peut être utilisé pour    *
+La commande [Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le solveur [MYSTRAN](https://www.mystran.com). Il peut être utilisé pour :
 
 1.  Définir les paramètres d\'analyse
 2.  Sélectionner le répertoire de travail
@@ -25,7 +25,7 @@ A faire
 
 ## Fonction du fichier 
 
-Sous Mod\\Fem\\femsolver\\mystran, il y a ces fichiers    *
+Sous Mod\\Fem\\femsolver\\mystran, il y a ces fichiers :
 
 
 ```python
@@ -41,7 +41,7 @@ solver.py
 tasks.py
 ```
 
-Les fonctions de chaque fichier sont les suivantes    *
+Les fonctions de chaque fichier sont les suivantes :
 
 writer.py - Fichier de contrôle principal
 
@@ -61,11 +61,11 @@ BDF() - Crée un fichier de cas vide.
 
 
 ```python
-$pyNastran   * version=msc
-$pyNastran   * punch=False
-$pyNastran   * encoding=utf-8
-$pyNastran   * nnodes=0
-$pyNastran   * nelements=0
+$pyNastran: version=msc
+$pyNastran: punch=False
+$pyNastran: encoding=utf-8
+$pyNastran: nnodes=0
+$pyNastran: nelements=0
 ENDDATA
 ```
 

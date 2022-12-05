@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Label
-   Name/it   *Etichetta
-   MenuLocation   *Draft → Etichetta
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut   ***D** **L**
-   Version   *0.17
-   SeeAlso   *[Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md)
+- GuiCommand:/it
+   Name:Draft Label
+   Name/it:Etichetta
+   MenuLocation:Draft → Etichetta
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut:**D** **L**
+   Version:0.17
+   SeeAlso:[Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md)
 ---
 
 # Draft Label/it
@@ -34,7 +34,7 @@ Per inserire un elemento di testo più semplice senza una freccia usare [Testo](
 
 </div>
 
-<img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Label_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ Per inserire un elemento di testo più semplice senza una freccia usare [Testo](
 
 ## Utilizzo
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -84,28 +84,28 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-The following label types are available   *
+The following label types are available:
 
 
 <div class="mw-translate-fuzzy">
 
--    **Custom   ***visualizza il contenuto di **Custom Text**.
+-    **Custom:**visualizza il contenuto di **Custom Text**.
 
--    **Name   ***visualizza il nome interno dell\'oggetto destinatario; il nome interno viene assegnato all\'oggetto al momento della sua creazione e rimane fisso per tutta l\'esistenza dell\'oggetto.
+-    **Name:**visualizza il nome interno dell\'oggetto destinatario; il nome interno viene assegnato all\'oggetto al momento della sua creazione e rimane fisso per tutta l\'esistenza dell\'oggetto.
 
--    **Label   ***visualizza l\'etichetta dell\'oggetto destinatario; l\'etichetta dell\'oggetto può essere modificata dall\'utente in qualsiasi momento.
+-    **Label:**visualizza l\'etichetta dell\'oggetto destinatario; l\'etichetta dell\'oggetto può essere modificata dall\'utente in qualsiasi momento.
 
--    **Position   ***visualizza le coordinate del punto base dell\'oggetto, del vertice o del centro di massa del sottoelemento destinatari, se applicabile.
+-    **Position:**visualizza le coordinate del punto base dell\'oggetto, del vertice o del centro di massa del sottoelemento destinatari, se applicabile.
 
--    **Length   ***mostra la lunghezza del sottoelemento di destinazione, se possibile.
+-    **Length:**mostra la lunghezza del sottoelemento di destinazione, se possibile.
 
--    **Area   ***mostra l\'area del sottoelemento di destinazione, se possibile.
+-    **Area:**mostra l\'area del sottoelemento di destinazione, se possibile.
 
--    **Volume   ***mostra il volume dell\'oggetto di destinazione, se possibile.
+-    **Volume:**mostra il volume dell\'oggetto di destinazione, se possibile.
 
--    **Tag   ***mostra l\'attributo `Tag` dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà, come nel caso di tutti gli oggetti[Arch](Arch_Workbench/it.md).
+-    **Tag:**mostra l\'attributo `Tag` dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà, come nel caso di tutti gli oggetti[Arch](Arch_Workbench/it.md).
 
--    **Material   ***mostra l\'etichetta del materiale dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà.
+-    **Material:**mostra l\'etichetta del materiale dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà.
 
 
 </div>
@@ -116,7 +116,7 @@ The following label types are available   *
 <div class="mw-translate-fuzzy">
 
 
-{{emphasis|Nota   *}}
+{{emphasis|Nota:}}
 
 la direzione del segmento retto orizzontale, a destra o a sinistra, allinea automaticamente il testo nella direzione opposta. Se la linea guida sale verticalmente, il testo è allineato a sinistra; se scende verticalmente, è allineato a destra.
 
@@ -125,9 +125,9 @@ la direzione del segmento retto orizzontale, a destra o a sinistra, allinea auto
 
 ## Proprietà
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
+A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
 
 ### Data
 
@@ -139,23 +139,23 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 ### Dati
 
--    **Label Type**   * specifica il tipo di informazioni mostrate da questa etichetta (vedere sotto).
+-    **Label Type**: specifica il tipo di informazioni mostrate da questa etichetta (vedere sotto).
 
--    **Custom Text**   * specifica il blocco di testo da visualizzare quando **Label Type** è impostato su \"Custom\", o l\'etichetta non è parametrica. Il testo è dato come una lista di stringhe; ogni elemento dell\'elenco, separato da una virgola, indica una nuova riga di testo.
+-    **Custom Text**: specifica il blocco di testo da visualizzare quando **Label Type** è impostato su \"Custom\", o l\'etichetta non è parametrica. Il testo è dato come una lista di stringhe; ogni elemento dell\'elenco, separato da una virgola, indica una nuova riga di testo.
 
--    **Text**   * (sola lettura) indica il testo effettivo visualizzato dall\'etichetta, secondo **Label Type**.
+-    **Text**: (sola lettura) indica il testo effettivo visualizzato dall\'etichetta, secondo **Label Type**.
 
--    **Target Point**   * specifica la posizione della punta della linea guida.
+-    **Target Point**: specifica la posizione della punta della linea guida.
 
--    **Straight Direction**   * specifica la direzione del segmento retto della linea guida, orizzontale o verticale.
+-    **Straight Direction**: specifica la direzione del segmento retto della linea guida, orizzontale o verticale.
 
--    **Straight Distance**   * specifica la lunghezza del segmento retto della linea guida, partendo dal punto base del testo. Se la distanza è positiva, la linea guida inizia dal lato destro del testo e il testo si allinea a destra; altrimenti, la linea guida inizia dal lato sinistro del testo e il testo si allinea a sinistra.
+-    **Straight Distance**: specifica la lunghezza del segmento retto della linea guida, partendo dal punto base del testo. Se la distanza è positiva, la linea guida inizia dal lato destro del testo e il testo si allinea a destra; altrimenti, la linea guida inizia dal lato sinistro del testo e il testo si allinea a sinistra.
 
--    **Position**   * specifica il punto base della prima riga del blocco di testo; influenza anche come viene disegnata la linea guida.
+-    **Position**: specifica il punto base della prima riga del blocco di testo; influenza anche come viene disegnata la linea guida.
 
--    **Angle**   * specifica la rotazione della linea di base della prima riga del blocco di testo; influenza anche come viene disegnata la linea guida, poiché non è più orizzontale o verticale.
+-    **Angle**: specifica la rotazione della linea di base della prima riga del blocco di testo; influenza anche come viene disegnata la linea guida, poiché non è più orizzontale o verticale.
 
--    **Axis**   * specifica l\'asse da utilizzare per la rotazione.
+-    **Axis**: specifica l\'asse da utilizzare per la rotazione.
 
 
 </div>
@@ -163,32 +163,32 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Leader}}
 
--    **Points|VectorList**   * specifies the points of the leader.
+-    **Points|VectorList**: specifies the points of the leader.
 
--    **Straight Direction|Enumeration**   * specifies the direction of the first leader segment   * {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
+-    **Straight Direction|Enumeration**: specifies the direction of the first leader segment: {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
 
--    **Straight Distance|Distance**   * specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
+-    **Straight Distance|Distance**: specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
 
 
 {{TitleProperty|Target}}
 
--    **Target|LinkSub**   * specifies the object and optional subelement the label is linked to.
+-    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
 
--    **Target Point|Vector**   * specifies the position of the tip of the leader, which is where the arrow is attached.
+-    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
 ### View
 
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**   * specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the label.
+-    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
@@ -198,27 +198,27 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 ### Vista
 
--    **Text Font**   * specifica il carattere da utilizzare per disegnare il testo. Può essere il nome di un carattere, ad esempio \"Arial\", uno stile predefinito come \"sans\", \"serif\" o \"mono\", una famiglia come \"Arial,Helvetica,sans\" o un nome con uno stile come \"Arial   *Bold\". Se nel sistema non trova il font specificato, ne utilizza uno generico.
+-    **Text Font**: specifica il carattere da utilizzare per disegnare il testo. Può essere il nome di un carattere, ad esempio \"Arial\", uno stile predefinito come \"sans\", \"serif\" o \"mono\", una famiglia come \"Arial,Helvetica,sans\" o un nome con uno stile come \"Arial:Bold\". Se nel sistema non trova il font specificato, ne utilizza uno generico.
 
--    **Text Size**   * specifica la dimensione delle lettere. Se l\'oggetto testo viene creato nella vista ad albero ma non è visibile alcun testo, aumentare la dimensione del testo fino a renderlo visibile.
+-    **Text Size**: specifica la dimensione delle lettere. Se l\'oggetto testo viene creato nella vista ad albero ma non è visibile alcun testo, aumentare la dimensione del testo fino a renderlo visibile.
 
--    **Text Alignment**   * specifica l\'allineamento verticale della linea di base del testo rispetto alla linea guida. Può essere in alto, in mezzo o in basso.
+-    **Text Alignment**: specifica l\'allineamento verticale della linea di base del testo rispetto alla linea guida. Può essere in alto, in mezzo o in basso.
 
--    **Text Color**   * specifica il colore del testo in una tupla RGB (R, G, B).
+-    **Text Color**: specifica il colore del testo in una tupla RGB (R, G, B).
 
--    **Line Width**   * specifica la larghezza della linea guida.
+-    **Line Width**: specifica la larghezza della linea guida.
 
--    **Line Color**   * specifica il colore della linea guida.
+-    **Line Color**: specifica il colore della linea guida.
 
--    **Arrow Size**   * specifica la dimensione del simbolo visualizzato alla fine della linea guida.
+-    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine della linea guida.
 
--    **Arrow Type**   * specifica il tipo di simbolo visualizzato alla fine della linea guida, che può essere dot, circle, arrow, o tick.
+-    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine della linea guida, che può essere dot, circle, arrow, o tick.
 
--    **Frame**   * se è \"Rectangle\" disegna una cornice attorno al testo.
+-    **Frame**: se è \"Rectangle\" disegna una cornice attorno al testo.
 
--    **Line**   * se è `True` visualizza la linea guida; altrimenti visualizza solo il testo e il simbolo finale.
+-    **Line**: se è `True` visualizza la linea guida; altrimenti visualizza solo il testo e il simbolo finale.
 
--    **Display Mode**   * se è \"3D text\" il testo è allineato agli assi della scena, inizialmente situati sul piano XY; se è \"2D text\", il testo è sempre rivolto verso la fotocamera.
+-    **Display Mode**: se è \"3D text\" il testo è allineato agli assi della scena, inizialmente situati sul piano XY; se è \"2D text\", il testo è sempre rivolto verso la fotocamera.
 
 
 </div>
@@ -226,19 +226,19 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Text}}
 
--    **Justification|Enumeration**   * specifies the horizontal alignment of the text   * {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+-    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 
--    **Line Spacing|Float**   * specifies the factor applied to the default line height of the text.
+-    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
 
--    **Max Chars|Integer**   * specifies the maximum number of characters on each line of the text.
+-    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
 
--    **Text Alignment|Enumeration**   * specifies the vertical alignment of the text   * {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+-    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
 
--    **Text Color|Color**   * specifies the color of the text.
+-    **Text Color|Color**: specifies the color of the text.
 
--    **Text Font|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Text Font|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Text Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Text Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Scripting
 
@@ -248,7 +248,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -258,7 +258,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Etichetta può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Etichetta può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -273,7 +273,7 @@ label = make_label(target_point=App.Vector(0, 0, 0),
                    points=None)
 ```
 
-Esempio   *
+Esempio:
 
 
 ```python

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ShowObjects
-   Name/pl   *Std   * Wyświetl wszystkie obiekty
-   MenuLocation   *Widok → Widoczność → Wyświetl wszystkie obiekty
-   Workbenches   *wszystkie
-   SeeAlso   *[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection.md), [Przełącz widoczność wszystkich obiektów](Std_ToggleObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+- GuiCommand:/pl
+   Name:Std ShowObjects
+   Name/pl:Std: Wyświetl wszystkie obiekty
+   MenuLocation:Widok → Widoczność → Wyświetl wszystkie obiekty
+   Workbenches:wszystkie
+   SeeAlso:[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection.md), [Przełącz widoczność wszystkich obiektów](Std_ToggleObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std ShowObjects/pl
@@ -25,7 +25,7 @@ Polecenie **Wyświetl wszystkie obiekty** powoduje wyświetlenie wszystkich obie
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

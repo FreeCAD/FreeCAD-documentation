@@ -1,23 +1,23 @@
 # SheetMetal Workbench/en
 }
 
-<img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width   *128px;">
+<img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}
 
 ## Introduction
 
-<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](External_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
+<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](External_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
 
-Characteristics of sheet metal objects are   *
+Characteristics of sheet metal objects are:
 
 -   They have a constant thickness
 -   They can be unfolded, if they are made of planar walls and cylindrical connections only
 
 The unfolding tool in both of its versions is not restricted to parts made with tools from this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
 
-<img alt="" src=images/SheetMetal_Example.png  style="width   *600px;"> 
+<img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
 *The sheet metal model built with the Sheet Metal add-on (rear); in front of it, the unfolded solid; at the forefront, the unfold sketch with bending lines for export to DXF.*
 
 If the export in DXF is used to control machines (Lasercut for example), you have to modify the DXF to remove the lines showing the folds, as these lines may be used for cutting by the machine.
@@ -28,35 +28,35 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
 ## Tools
 
-A detailed description of the tools can be found [on the author\'s blog](http   *//theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). It\'s a bit outdated now, since some new tools have been added.
+A detailed description of the tools can be found [on the author\'s blog](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). It\'s a bit outdated now, since some new tools have been added.
 
--   <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *32px;"> [Make Base Wall](SheetMetal_AddBase.md)   * Creates a sheet metal base object from a sketch, either a profile or a plate.
+-   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Make Base Wall](SheetMetal_AddBase.md): Creates a sheet metal base object from a sketch, either a profile or a plate.
 
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *32px;"> [Make Wall](SheetMetal_AddWall.md)   * Adds a flange on each selected edge of a base plate. (The flange can be turned into a hem by modifying its angle.)
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Make Wall](SheetMetal_AddWall.md): Adds a flange on each selected edge of a base plate. (The flange can be turned into a hem by modifying its angle.)
 
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width   *32px;"> [Extend Face](SheetMetal_Extrude.md)   * Extends a sheet metal plate at a selected edge face along its normal. (By adding an outline sketch it can be used to create interlocking geometry.)
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Extend Face](SheetMetal_Extrude.md): Extends a sheet metal plate at a selected edge face along its normal. (By adding an outline sketch it can be used to create interlocking geometry.)
 
--   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width   *32px;"> [Fold a Wall](SheetMetal_AddFoldWall.md)   * Folds a face at a chosen line with a specified bend radius.
+-   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Fold a Wall](SheetMetal_AddFoldWall.md): Folds a face at a chosen line with a specified bend radius.
 
--   <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *32px;"> [Unfold](SheetMetal_Unfold.md)   * Flattens a folded sheet metal object and generates an unfold solid and an outline sketch with bend lines (provides a dialog to set parameters).
+-   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Unfold](SheetMetal_Unfold.md): Flattens a folded sheet metal object and generates an unfold solid and an outline sketch with bend lines (provides a dialog to set parameters).
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width   *32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)   * Flattens a folded sheet metal object and generates an unfold solid and an outline sketch with bend lines (if parameters have already been set).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens a folded sheet metal object and generates an unfold solid and an outline sketch with bend lines (if parameters have already been set).
 
--   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width   *32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md)   * Adds a corner relief to a corner.
+-   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md): Adds a corner relief to a corner.
 
--   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width   *32px;"> [Make Relief](SheetMetal_AddRelief.md)   * 1st step to convert a shell object into an unfoldable sheet metal object, adds a relief (cutout) to a corner.
+-   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Make Relief](SheetMetal_AddRelief.md): 1st step to convert a shell object into an unfoldable sheet metal object, adds a relief (cutout) to a corner.
 
--   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width   *32px;"> [Make Junction](SheetMetal_AddJunction.md)   * 2nd step to convert a shell object into an unfoldable sheet metal object, creates an open junction on the edge of two walls.
+-   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Make Junction](SheetMetal_AddJunction.md): 2nd step to convert a shell object into an unfoldable sheet metal object, creates an open junction on the edge of two walls.
 
--   <img alt="" src=images/SheetMetal_AddBend.svg  style="width   *32px;"> [Make Bend](SheetMetal_AddBend.md)   * 3rd step to convert a shell object into an unfoldable sheet metal object, replaces sharp edges with round bends.
+-   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Make Bend](SheetMetal_AddBend.md): 3rd step to convert a shell object into an unfoldable sheet metal object, replaces sharp edges with round bends.
 
--   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width   *32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md)   * Cuts a sketch based hole pattern along the folded walls of a sheet metal object .
+-   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts a sketch based hole pattern along the folded walls of a sheet metal object .
 
--   <img alt="" src=images/SheetMetal_Forming.svg  style="width   *32px;"> [Make Forming in Wall](SheetMetal_Forming.md)   * Embosses shapes with or without holes into a sheet metal plate.
+-   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Embosses shapes with or without holes into a sheet metal plate.
 
 ## Brief description 
 
-This workbench provides tools for the two main tasks   *
+This workbench provides tools for the two main tasks:
 
 -   Create sheet metal objects
 -   Unfold sheet metal objects
@@ -68,22 +68,22 @@ This section is meant to give a rough idea of how to use the supplied tools. Mor
 #### Start with a profile 
 
 1.  Create an open polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal profile.
+2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal profile.
 
 #### Start with a blank 
 
 1.  Create a closed polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width   *16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal blank.
+2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal blank.
 
 #### Start with a PartDesign Pad 
 
 1.  Create a closed polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/PartDesign_Pad.svg  style="width   *16px;"> [PartDesign Pad](PartDesign_Pad.md) command to create a prismatic body.
-3.  The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *16px;"> [PartDesign Thickness](PartDesign_Thickness.md) command will make it an object of constant thickness.
-4.  To make it unfoldable it needs some gaps or connections between the walls   *
-    1.  The <img alt="" src=images/SheetMetal_AddRelief.svg  style="width   *16px;"> [Make Relief](SheetMetal_AddRelief.md) command will cut off selected corners.
-    2.  The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width   *16px;"> [Make Junction](SheetMetal_AddJunction.md) command will create junctions with gaps between adjoining walls that need to be disjoined.
-    3.  The <img alt="" src=images/SheetMetal_AddBend.svg  style="width   *16px;"> [Make Bend](SheetMetal_AddBend.md) command will create cylindrical connections for the remaining walls that need to stay joined.
+2.  Use the <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) command to create a prismatic body.
+3.  The <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) command will make it an object of constant thickness.
+4.  To make it unfoldable it needs some gaps or connections between the walls:
+    1.  The <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Make Relief](SheetMetal_AddRelief.md) command will cut off selected corners.
+    2.  The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> [Make Junction](SheetMetal_AddJunction.md) command will create junctions with gaps between adjoining walls that need to be disjoined.
+    3.  The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> [Make Bend](SheetMetal_AddBend.md) command will create cylindrical connections for the remaining walls that need to stay joined.
 
 Some parameters will be inherited from the parent object(s) but it is better to check the relevant parameters at each stage.
 
@@ -91,24 +91,24 @@ It should now be checked if the resulting sheet metal object can be unfolded. (s
 
 #### Adding more features 
 
-The unfoldable basic sheet metal objects can be extended   *
+The unfoldable basic sheet metal objects can be extended:
 
-1.  Use the <img alt="" src=images/SheetMetal_Extrude.svg  style="width   *16px;"> [Extend Face](SheetMetal_Extrude.md) command to enlarge walls.
-2.  The <img alt="" src=images/SheetMetal_AddWall.svg  style="width   *16px;"> [Make Wall](SheetMetal_AddWall.md) command will add new flanges or hems to the existing object.
-3.  Use the <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width   *16px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md) command to add or reshape corner reliefs.
-4.  The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width   *16px;"> [Fold a Wall](SheetMetal_AddFoldWall.md) command will fold a wall at a chosen line, i.e. it will trimm a wall at said line, relocate the cut away side, and rejoin them with a cylindrical connection.
-5.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width   *16px;"> [Sketch on Sheet metal](SheetMetal_SketchOnSheet.md) command to cut holes into the object starting on a chosen wall and then following the adjoined walls and connections.
-6.  The <img alt="" src=images/SheetMetal_Forming.svg  style="width   *16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command will stamp a shape into a plate (wall).
+1.  Use the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> [Extend Face](SheetMetal_Extrude.md) command to enlarge walls.
+2.  The <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> [Make Wall](SheetMetal_AddWall.md) command will add new flanges or hems to the existing object.
+3.  Use the <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md) command to add or reshape corner reliefs.
+4.  The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> [Fold a Wall](SheetMetal_AddFoldWall.md) command will fold a wall at a chosen line, i.e. it will trimm a wall at said line, relocate the cut away side, and rejoin them with a cylindrical connection.
+5.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet metal](SheetMetal_SketchOnSheet.md) command to cut holes into the object starting on a chosen wall and then following the adjoined walls and connections.
+6.  The <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command will stamp a shape into a plate (wall).
 
-   *   
+:   
 
-       *   After the creation of a WallForming feature the SheetMetal object is **no longer unfoldable**!
+    :   After the creation of a WallForming feature the SheetMetal object is **no longer unfoldable**!
 
 Several tools from other workbenches can be used to add holes or to reshape edges.
 
 ### Unfold a sheet metal object 
 
-To unfold a sheet metal object activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width   *16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
+To unfold a sheet metal object activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
 
 The result will be a 3D object with an optional outline sketch including bend lines.
 
@@ -116,7 +116,7 @@ The result will be a 3D object with an optional outline sketch including bend li
 
 Until tutorial pages are available on this wiki there is an [Examples](SheetMetal_Examples.md) page.
 
-<img alt="" src=images/SheetMetal_Example-01.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width   *100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width   *100px;">
+<img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;">
 
 It contains some hints about [properties](SheetMetal_Examples#SheetMetal_properties.md) as well.
 
@@ -124,12 +124,12 @@ It contains some hints about [properties](SheetMetal_Examples#SheetMetal_propert
 
 -   The workbench is affected by the [topological naming issue](Glossary#Topological_Naming.md) that is inherent to FreeCAD. If an edit of a bend earlier in the history of the part renumbers the faces, then the following bends may be affected and switch faces. If the bend features do not break, you can double-click on it to get a dialog where you can select the proper face in the [3D view](3D_view.md), and update the Bend.
 -   The Unfold tool has some limitations, and will fail in certain complex situations. When it fails, try to select a different face.
--   Frequent case of crash   * take a lot of precautions not to cut in the hinges (the folds) either along the faces or in the angles nor to make holes or notches through the angles.
+-   Frequent case of crash: take a lot of precautions not to cut in the hinges (the folds) either along the faces or in the angles nor to make holes or notches through the angles.
 
 ## Tutorials
 
 
-<div class="mw-collapsible mw-collapsed toccolours" style="width   *800px">
+<div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
 ### Sheet Metal Tutorial by meme2704 
 
@@ -144,7 +144,7 @@ After downloading the extension and install, open it. ![](images/sm1.png )
 
 #### 1st operation 
 
--   Get the base   * use either the workbenches \"part\" or \"draft\", make 1 sketch that will contain all holes and any cuts, extrude this base to the thickness of the sheet.
+-   Get the base: use either the workbenches \"part\" or \"draft\", make 1 sketch that will contain all holes and any cuts, extrude this base to the thickness of the sheet.
 -   Bear in mind that the edges will always be in addition as well as the folding radii.
 
 ![](images/sm2.png )
@@ -156,7 +156,7 @@ After downloading the extension and install, open it. ![](images/sm1.png )
 -   Edge height is 10mm by default, editable from 0.1 to xxxmm.
 -   Bending radius is by default equal to thickness, editable from 0.1 to xxmm (never put 0).
 -   Gap1, gap2 is the withdrawal of the folded edge from the corner of the base (0 accept).
--   Invert default   * false folds to Z +, true to ZReliefd cuts the corner between the fold and the base (inactive if gap = 0).
+-   Invert default: false folds to Z +, true to ZReliefd cuts the corner between the fold and the base (inactive if gap = 0).
 -   Reliefw adds 1 slot between the crop and the edge (inactive if reliefd = 0).
 
 ![](images/sm3.png ) Repeat as many times as there are sides to bend.
@@ -165,9 +165,9 @@ Folding 1 return with use of \"extend\".
 To reduce the space between the 2 edges, use \"extends\".
 Select the thickness and specify the length to add.
 Note that if the extension of the 1st edge is made before the fold of the return, it will not be taken into account, if 1 identical fold is added to the extension, it will appear correct but the unfolding will not be done.
-Folding of 1 2nd edge   *
+Folding of 1 2nd edge:
 Now we must separate the 2 edges otherwise they will merge and unfolding will be impossible.
-\* 1st method   * make 1 withdrawal of 1 edge.
+\* 1st method: make 1 withdrawal of 1 edge.
 
 -   -   Give 1 value slightly greater than gap1 (or gap2), at zero there is still fusion.
 
@@ -228,24 +228,22 @@ How to do ?
 
 ## Videos
 
--   [The Elegant Sheet Metal Workbench](https   *//www.youtube.com/watch?v=xidvQYkC4so) by Joko Engineering
+-   [The Elegant Sheet Metal Workbench](https://www.youtube.com/watch?v=xidvQYkC4so) by Joko Engineering
 
 ## Links
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), the original macro the Unfold tool is based on.
--   [An English and French tutorial in PDF format](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=25002) on the FreeCAD forum.
--   Report bugs/Request features   * <https   *//github.com/shaise/FreeCAD_SheetMetal/issues>.
+-   [An English and French tutorial in PDF format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) on the FreeCAD forum.
+-   Report bugs/Request features: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 
 ## References
 
--   Author   *
-    -   Folding tools   * Copyright 2015-2018 by Shai Seger
-    -   Unfolding tool   * Copyright 2014 by Ulrich Brammer
--   License   * [GPLv3](https   *//www.gnu.org/licenses/gpl-3.0.en.html)
--   Official blog   * [Sheet metal Addon for FreeCAD](http   *//theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
--   Source code on github   * <https   *//github.com/shaise/FreeCAD_SheetMetal>
-
-[Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
+-   Author:
+    -   Folding tools: Copyright 2015-2018 by Shai Seger
+    -   Unfolding tool: Copyright 2014 by Ulrich Brammer
+-   License: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+-   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
+-   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 
 

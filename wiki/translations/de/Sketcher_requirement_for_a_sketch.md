@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */de
-   Topic   *Skizze
-   Level   *Anfänger
-   Author   *[Maker](User_Maker.md)
-   Time   *
-   FCVersion   *
+- TutorialInfo:/de
+   Topic:Skizze
+   Level:Anfänger
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:
 ---
 
 # Sketcher requirement for a sketch/de
@@ -17,16 +17,16 @@
 
 Das Erzeugen eines Körpers im Arbeitsbereich PartDesign ist bereits und **nur** mit Hilfe einer geschlossenen Kurve (Profil) möglich. Die vollständige Bestimmung all ihrer Abmessungen und Eigenschaften (*vollständig beschränkt*) ist dafür noch nicht erforderlich.
 
-Dass eine geschlossene Kurve vorliegt, ist nicht selbstverständlich und nicht erkennbar. Beim Anschluss eines Kreisbogens an eine Gerade z.B. werden die beiden Endpunkte nur übereinander liegend erstellt. Sie müssen mit dem Werkzeug <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [Deckungsgleiche](Sketcher_ConstrainCoincident/de.md) Beschränkung zu einem einzigen, Gerade und Kreisbogen tatsächlich verbindenden Punkt gemacht werden.
+Dass eine geschlossene Kurve vorliegt, ist nicht selbstverständlich und nicht erkennbar. Beim Anschluss eines Kreisbogens an eine Gerade z.B. werden die beiden Endpunkte nur übereinander liegend erstellt. Sie müssen mit dem Werkzeug <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Deckungsgleiche](Sketcher_ConstrainCoincident/de.md) Beschränkung zu einem einzigen, Gerade und Kreisbogen tatsächlich verbindenden Punkt gemacht werden.
 
 ![](images/Skizze2a.png )
 
 
 
 *Eine einfache Skizze. 
-Links   * Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit [<img src=images/_Sketcher_CreatePolyline.svg style="width   *32px"> [Polylinie](Sketcher_CreatePolyline/de.md)) geschlossen. 
-Mitte   * Warnung - ... gebrochene Fläche (gebrochene Kurve). 
-Rechts   * Kurve an den verbleibenden vier Stellen geschlossen (grün)*
+Links: Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polylinie](Sketcher_CreatePolyline/de.md)) geschlossen. 
+Mitte: Warnung - ... gebrochene Fläche (gebrochene Kurve). 
+Rechts: Kurve an den verbleibenden vier Stellen geschlossen (grün)*
 
 Konsequentes parametrisches Arbeiten bedeutet allerdings, dass die Skizze vollständig bestimmt wird.
 

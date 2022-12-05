@@ -1,21 +1,21 @@
 # TechDraw API/de
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die [https   *//www.freecadweb.org/api autogenerierte API Dokumentation].** Diese Funktionen sind Teil des [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, sobald das `TechDraw` Modul importiert wurde.
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die [https://www.freecadweb.org/api autogenerierte API Dokumentation].** Diese Funktionen sind Teil des [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, sobald das `TechDraw` Modul importiert wurde.
 
-Gute Beispiele für grundlegendes TechDraw Skripten findest Du in den [unit test scripts](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
+Gute Beispiele für grundlegendes TechDraw Skripten findest Du in den [unit test scripts](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
 
 Siehe die [TechDrawGui API](TechDrawGui_API/de.md) für weitere Funktionen.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD
 import TechDraw
 
-page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage', 'Page')
-FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate', 'Template')
+page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage', 'Page')
+FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate', 'Template')
 FreeCAD.ActiveDocument.Template.Template = templateFileSpec
 FreeCAD.ActiveDocument.Page.Template = FreeCAD.ActiveDocument.Template
 page.ViewObject.show()
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart', 'View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart', 'View')
 rc = page.addView(view)
 ```
 
@@ -31,7 +31,7 @@ rc = page.addView(view)
 
 {{APIFunction|viewPartAsDxf|DrawViewPart|Return the edges of a DrawViewPart in Dxf format.|String}}
 
-Example   * 
+Example: 
 ```python
 fileSpecDxf = "fcOut.dxf"
 v = App.ActiveDocument.View
@@ -46,14 +46,14 @@ dxfFile.close()
 
 {{APIFunction|viewPartAsSvg|DrawViewPart|Return the edges of a DrawViewPart in Svg format.|String}}
 
-Example   * 
+Example: 
 ```python
 fileSpecSvg = "fcOut.svg"
 v = App.ActiveDocument.View
 s = TechDraw.viewPartAsSvg(v)
 head = '<svg\n' + \
-       '    xmlns="http   *//www.w3.org/2000/svg" version="1.1" \n' + \
-       '    xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace">\n'
+       '    xmlns="http://www.w3.org/2000/svg" version="1.1" \n' + \
+       '    xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace">\n'
 tail = '\n</svg>'
 svgFile = open(fileSpecSvg, "w")
 svgFile.write(head)
@@ -65,7 +65,7 @@ svgFile.close()
 
 {{APIFunction|writeDXFView|DrawViewPart, FileName|Save the DrawViewPart in Dxf.|File}}
 
-Example   * 
+Example: 
 ```python
 import TechDraw
 TechDraw.writeDXFView(myPart,myFileName)
@@ -74,7 +74,7 @@ TechDraw.writeDXFView(myPart,myFileName)
 
 {{APIFunction|writeDXFPage|DrawPage, FileName|Save the DrawPage in Dxf.|File}}
 
-Example   * 
+Example: 
 ```python
 import TechDraw
 TechDraw.writeDXFPage(myPage,myFileName)
@@ -104,15 +104,15 @@ alle KosmetikKnoten aus der Ansicht entfernen. Gibt nichts zurück.
 dvp.clearCosmeticVertices()
 
 KosmetikAnsicht Merkmale
-Tag   * eindeutiger Bezeichner. Zeichenfolge.
-Punkt   * Standort innerhalb der Ansicht. Vektor.
+Tag: eindeutiger Bezeichner. Zeichenfolge.
+Punkt: Standort innerhalb der Ansicht. Vektor.
 
 -   -   
 
 
 ```python
 #!/usr/bin/env python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # Py CosmeticVertex demo
 import FreeCAD
@@ -123,23 +123,23 @@ p = App.Vector(-3.0, -3.0, 0.0)
 
 #make CV
 tag = v.makeCosmeticVertex(p)
-print("t   * {}".format(tag))
+print("t: {}".format(tag))
 
 #retrieve CV
 cv = v.getCosmeticVertex(tag)
-print("cv   * {}".format(cv))
-print("Tag   * {}".format(cv.Tag))
+print("cv: {}".format(cv))
+print("Tag: {}".format(cv.Tag))
 
 
 cv2 = v.getCosmeticVertexBySelection("Vertex4")
-print("New Point   * {}".format(cv2.Point))
+print("New Point: {}".format(cv2.Point))
 
 #make CV from 3d
 p3d = App.Vector(2.0, 2.0, 2.0)
-print("3d point in   * {}".format(p3d))
+print("3d point in: {}".format(p3d))
 tag3d = v.makeCosmeticVertex3d(p3d)
 cv3 = v.getCosmeticVertex(tag3d)
-print("3d point out   * {}".format(cv3.Point))
+print("3d point out: {}".format(cv3.Point))
 ```
 
 #### CosmeticEdge (CE) Routinen, die von Python aus zugänglich sind 
@@ -167,15 +167,15 @@ Löscht alle CosmeticLines aus der Ansicht. Hat keine Rückgabe.
 dvp.clearCosmeticEdges()
 
 CosmeticEdge Attribute
-Tag   * eindeutige Kennung. String.
-Format   * Darstellung Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tuple.
+Tag: eindeutige Kennung. String.
+Format: Darstellung Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tuple.
 
 -   -   
 
 
 ```python
 #!/usr/bin/env python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # Py CosmeticEdge demo
 import FreeCAD
@@ -221,7 +221,7 @@ print(dvp)
 print("making line")
 tag = dvp.makeCosmeticLine(midTop,midBot,style, weight, pyBlue)
 ce = dvp.getCosmeticEdge(tag)
-print("line tag   * {}".format(tag))
+print("line tag: {}".format(tag))
 
 print("making diagonal")
 dvp.makeCosmeticLine(bottomLeft,topRight,solid, weight, pyGreen)
@@ -239,7 +239,7 @@ oldFormat = ce.Format
 newFormat = (dotted,oldFormat[1], pyRed, True)
 ce.Format = newFormat
 
-print("removing CE with tag   * {}".format(tag2))
+print("removing CE with tag: {}".format(tag2))
 dvp.removeCosmeticEdge(tag2)
 
 print("finished")
@@ -259,25 +259,25 @@ Lösche die CenterLine cl aus der Ansicht. Hat keine Rückgabe.
 dvp.removeCenterLine(cl)
 
 CenterLine Attribute
-Tag   * eindeutige Kennung. String. ReadOnly.
-Type   * 0 - Fläche, 1 - 2 Linie, 2 - 2 Punkt. Integer. ReadOnly.
-Mode   * 0 - Vertikal, 1 - Horizontal, 2 - Verbunden. Integer.
-Format   * Sichtbarkeits Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tuple.
-HorizShift   * links/rechts Abstand. Float.
-VertShift   * hoch/tief Abstand. Float.
-Rotation   * Verdrehwinkel in Grad. Float.
-Extension   * Zusätzliche Länge die angefügt wird. Float.
-Flip   * Vertauschen der Reihenfolge der Punkte bei 2 Punkt Mittellinie. Boolean.
-Edges   * Namen der Quelllinien. List of string.
-Faces   * Namen der Quellflächen. List of string.
-Points   * Namen der Quellpunkte (Vertices). List of string.
+Tag: eindeutige Kennung. String. ReadOnly.
+Type: 0 - Fläche, 1 - 2 Linie, 2 - 2 Punkt. Integer. ReadOnly.
+Mode: 0 - Vertikal, 1 - Horizontal, 2 - Verbunden. Integer.
+Format: Sichtbarkeits Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tuple.
+HorizShift: links/rechts Abstand. Float.
+VertShift: hoch/tief Abstand. Float.
+Rotation: Verdrehwinkel in Grad. Float.
+Extension: Zusätzliche Länge die angefügt wird. Float.
+Flip: Vertauschen der Reihenfolge der Punkte bei 2 Punkt Mittellinie. Boolean.
+Edges: Namen der Quelllinien. List of string.
+Faces: Namen der Quellflächen. List of string.
+Points: Namen der Quellpunkte (Vertices). List of string.
 
 -   -   
 
 
 ```python
 #!/usr/bin/env python
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # Py CenterLine demo
 import FreeCAD
@@ -315,7 +315,7 @@ dvp = App.ActiveDocument.View
 print("making face CenterLine")
 tag = dvp.makeCenterLine(faceNames,vMode)
 cline = dvp.getCenterLine(tag)
-print("cline tag   * {}".format(tag))
+print("cline tag: {}".format(tag))
 
 #replace
 print("making new format")
@@ -350,9 +350,7 @@ dvp.requestPaint() Neu zeichnen der Graphik für diese Ansicht.
 
 {{TechDraw Tools navi
 
-}}  
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
+}}
 
 
 

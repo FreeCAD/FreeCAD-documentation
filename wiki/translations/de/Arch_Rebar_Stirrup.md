@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Arch_Rebar_Stirrup   Name/de   *Arch Bewehrungsstab bügelförmig
-   MenuLocation   *Arch → Rebar tools → Stirrup oder 3D/BIM → Reinforcement tools → Bügel
-   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version   *0.17
-   SeeAlso   *[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
+- GuiCommand:/de
+   Name:Arch_Rebar_Stirrup   Name/de:Arch Bewehrungsstab bügelförmig
+   MenuLocation:Arch → Rebar tools → Stirrup oder 3D/BIM → Reinforcement tools → Bügel
+   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
 ---
 
 # Arch Rebar Stirrup/de
@@ -18,9 +18,9 @@ Das [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug erlaubt 
 
 Das [Arch Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Ein Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)*-Objekt
 
 ## Anwendung
@@ -36,7 +36,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
-   *   <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
+:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
 
@@ -44,32 +44,32 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 ## Eigenschaften
 
--    {{PropertyData/de|Front Cover}}   * Der Abstand zwischen Bewehrungsstab und ausgewählter Fläche.
+-    {{PropertyData/de|Front Cover}}: Der Abstand zwischen Bewehrungsstab und ausgewählter Fläche.
 
--    {{PropertyData/de|Right Cover}}   * Der Abstand zwischen dem rechten Ende des Bewehrungsstabs und der rechten Fläche der Struktur.
+-    {{PropertyData/de|Right Cover}}: Der Abstand zwischen dem rechten Ende des Bewehrungsstabs und der rechten Fläche der Struktur.
 
--    {{PropertyData/de|Left Cover}}   * Der Abstand zwischen dem linken Ende des Bewehrungsstabs und der linken Fläche der Struktur.
+-    {{PropertyData/de|Left Cover}}: Der Abstand zwischen dem linken Ende des Bewehrungsstabs und der linken Fläche der Struktur.
 
--    {{PropertyData/de|Bottom Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
+-    {{PropertyData/de|Bottom Cover}}: Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
 
--    {{PropertyData/de|Top Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
+-    {{PropertyData/de|Top Cover}}: Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
 
--    {{PropertyData/de|Bent Angle}}   * Definiert den Winkel zwischen den Enden eines Bügels.
+-    {{PropertyData/de|Bent Angle}}: Definiert den Winkel zwischen den Enden eines Bügels.
 
--    {{PropertyData/de|Bent Factor}}   * Definiert die Länge des Bügelendes.
+-    {{PropertyData/de|Bent Factor}}: Definiert die Länge des Bügelendes.
 
--    {{PropertyData/de|Amount}}   * Die Anzahl von Bewehrungsstäben.
+-    {{PropertyData/de|Amount}}: Die Anzahl von Bewehrungsstäben.
 
--    {{PropertyData/de|Spacing}}   * Der Abstand zwischen den Achsen jedes Bewehrungsstabs.
+-    {{PropertyData/de|Spacing}}: Der Abstand zwischen den Achsen jedes Bewehrungsstabs.
 
 ## Scripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Bügelförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   * 
+Das Bügelförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -147,11 +147,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Mesh_RemoveComponents
-   Name/fr   *Mesh Supprimer des composants
-‎   MenuLocation   *Maillages → Supprimer des composants...
-   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso   *[Mesh Suppression manuelle de composants](Mesh_RemoveCompByHand/fr.md), [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md)
+- GuiCommand:/fr
+   Name:Mesh_RemoveComponents
+   Name/fr:Mesh Supprimer des composants
+‎   MenuLocation:Maillages → Supprimer des composants...
+   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso:[Mesh Suppression manuelle de composants](Mesh_RemoveCompByHand/fr.md), [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md)
 ---
 
 # Mesh RemoveComponents/fr
@@ -18,15 +18,15 @@ La commande **Mesh Supprimer des composants** supprime des composants d\'objets 
 
 ## Utilisation
 
-1.  La commande utilise la couleur rouge pour marquer les faces sélectionnées. Pour les voir correctement    *
+1.  La commande utilise la couleur rouge pour marquer les faces sélectionnées. Pour les voir correctement :
     -   Le **Display Mode** des objets maillés devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
     -   La **Shape Color** des objets maillés ne doit pas être rouge.
-2.  Il existe plusieurs façons d\'appeler la commande    *
+2.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Supprimer des composants...](Mesh_RemoveComponents/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_RemoveComponents.svg" width=16px> Supprimer des composants...** dans le menu.
 3.  Le panneau des tâches **Supprimer des composants** s\'ouvre.
-4.  Utilisez une ou plusieurs des options **Sélectionner** pour sélectionner des faces    *
+4.  Utilisez une ou plusieurs des options **Sélectionner** pour sélectionner des faces :
     -   Appuyez sur le bouton **Région** et tout en maintenant le bouton gauche de la souris, dessinez une région, une spline fermée, dans la [vue 3D](3D_view/fr.md). Les faces qui correspondent aux **Options de la région** et tombent (partiellement) à l\'intérieur de la région seront sélectionnées.
     -   Appuyez sur le bouton **Tous** pour sélectionner tous les faces.
     -   Appuyez sur le bouton **Composants** pour sélectionner tous les composants avec moins que le nombre maximum de faces spécifié. Ici, un composant fait référence à un groupe complet de faces connectées. Un objet maillé contient généralement un seul composant. Mais, par exemple après avoir utilisé la commande [Mesh Fusionner](Mesh_Merge/fr.md), un objet maillé peut contenir plusieurs composants.

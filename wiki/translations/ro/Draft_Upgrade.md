@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Draft Upgrade
-   Name/ro   *Draft Upgrade
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation   *Draft -> Upgrade
-   Shortcut   *U P
-   SeeAlso   *[Draft Downgrade](Draft_Downgrade.md)
+- GuiCommand:
+   Name:Draft Upgrade
+   Name/ro:Draft Upgrade
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft -> Upgrade
+   Shortcut:U P
+   SeeAlso:[Draft Downgrade](Draft_Downgrade.md)
 ---
 
 # Draft Upgrade/ro
@@ -20,7 +20,7 @@ Acest instrument upgradează obiectele selectate în moduri diferite. Dacă nu e
 
 </div>
 
-<img alt="" src=images/Draft_Upgrade_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *An open non-editable wire is upgraded to a closed wire, and then to a face. A closed non-editable square wire is also upgraded to a face. The two faces are then upgraded to create a compound, which is finally upgraded to a single editable Draft Wire.*
 
 ## Cum se folosește 
@@ -52,7 +52,7 @@ Acest instrument upgradează obiectele selectate în moduri diferite. Dacă nu e
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul upgrade poate fi utilizaqt de la consola Python și prin [macros](macros.md), ca de exemplu   *
+Instrumentul upgrade poate fi utilizaqt de la consola Python și prin [macros](macros.md), ca de exemplu:
 
 
 </div>
@@ -67,7 +67,7 @@ upgrade_list = upgrade(objects, delete=False, force=None)
 
 -   Actualizează obiectul/e dat/e, acesta (poate fi un obiect sau o listă de obiecte).
 -   Dacă ștergerea este True, obiectele vechi sunt șterse.
--   Atributul de forță poate fi folosit pentru a forța un anumit mod de modernizare. Poate fi   * makeCompound, closeGroupWires, makeSolid, closeWire, turnToParts, makeFusion, makeShell, makeFaces, draftify, joinFaces, makeSketchFace, makeWires
+-   Atributul de forță poate fi folosit pentru a forța un anumit mod de modernizare. Poate fi: makeCompound, closeGroupWires, makeSolid, closeWire, turnToParts, makeFusion, makeShell, makeFaces, draftify, joinFaces, makeSketchFace, makeWires
 -   Returnează un dicționar care conține două liste, o listă de obiecte noi și o listă de obiecte care trebuie șterse
 
 

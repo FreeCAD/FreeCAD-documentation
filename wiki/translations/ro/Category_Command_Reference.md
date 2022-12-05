@@ -1,8 +1,6 @@
 # Category:Command Reference/ro
 This category contains the help pages of each of FreeCAD command.
 
-[Category   *Categories/ro](Category   *Categories/ro.md)
-
 ### Contents
 
 |     |     |     |

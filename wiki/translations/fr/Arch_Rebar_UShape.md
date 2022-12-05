@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Rebar UShape
-   Name/fr   *Arch Rebar Armature en U
-   MenuLocation   *Arch → Rebar tools → U-Shape Rebar<br>3D/BIM → Reinforcement tools → U-Shape Rebar
-   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en L](Arch_Rebar_LShape/fr.md)
+- GuiCommand:/fr
+   Name:Arch Rebar UShape
+   Name/fr:Arch Rebar Armature en U
+   MenuLocation:Arch → Rebar tools → U-Shape Rebar<br>3D/BIM → Reinforcement tools → U-Shape Rebar
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en L](Arch_Rebar_LShape/fr.md)
 ---
 
 # Arch Rebar UShape/fr
@@ -16,9 +16,9 @@ L\'outil **<img src="images/Arch_Rebar_UShape.svg" width=16px> [Armature en U](A
 
 L\'outil **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape/fr.md)** est aussi intégré dans l\'[atelier BIM](BIM_Workbench.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
 *Deux jeux d'armatures de renforcement en forme de U à l'intérieur d'une [Structure](Arch_Structure/fr.md)*
 
 ## Comment faire 
@@ -45,7 +45,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 10. Cliquez sur **Cancel** pour quitter le panneau de tâches.
 
-   *   <img alt="" src=images/UShapeDialog.png  style="width   *250px;">
+:   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 
 
 
@@ -53,32 +53,32 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
--    **Orientation**   * Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
+-    **Orientation**: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
 
--    **Front Cover**   * La distance entre l\'armature et la face sélectionnée.
+-    **Front Cover**: La distance entre l\'armature et la face sélectionnée.
 
--    **Right Cover**   * La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    **Right Cover**: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    **Left Cover**   * La distance entre l\'extrémité gauche de l\'armature à la face gauche de la structure.
+-    **Left Cover**: La distance entre l\'extrémité gauche de l\'armature à la face gauche de la structure.
 
--    **Bottom Cover**   * La distance entre l\'armature de la face inférieure de la structure.
+-    **Bottom Cover**: La distance entre l\'armature de la face inférieure de la structure.
 
--    **Top Cover**   * La distance entre l\'armature et la face supérieure de la structure.
+-    **Top Cover**: La distance entre l\'armature et la face supérieure de la structure.
 
--    **Rounding**   * Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
+-    **Rounding**: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
 
--    **Amount**   * La quantité de barres d\'armature.
+-    **Amount**: La quantité de barres d\'armature.
 
--    **Spacing**   * La distance entre les axes de chaque barre.
+-    **Spacing**: La distance entre les axes de chaque barre.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature en U peut être utilisé dans les [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante    * 
+L\'outil Armature en U peut être utilisé dans les [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
 ```python
 Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -146,14 +146,6 @@ UShapeRebar.editUShapeRebar(Rebar, 50, 50, 20, 20,
 UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
                             16, 70, 5, True, 5, "Top")
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

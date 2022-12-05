@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */tr
-   Topic   * Robot Tezgahı
-   Level   * Yeni başlayan
-   Time   *
-   Author   *r-frank
-   FCVersion   *0.16.6703
-   Files   *
+- TutorialInfo:/tr
+   Topic: Robot Tezgahı
+   Level: Yeni başlayan
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
 }}
 
 
@@ -31,7 +31,7 @@ Bu eğitim, FreeCAD Sürüm 0.16.6703 veya daha üstü için yazılmıştır. Ya
 
 <div class="mw-translate-fuzzy">
 
-Bu eğitimde [endüstriyel robotlar](http   *//en.wikipedia.org/wiki/Industrial_robot) kullanımı hedeflenmiştir. Mobil veya servis robotları kullanılması hedeflenmemiştir ( [buraya bkz.](Http   *//en.wikipedia.org/wiki/Robot#Modern_robots)).
+Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_robot) kullanımı hedeflenmiştir. Mobil veya servis robotları kullanılması hedeflenmemiştir ( [buraya bkz.](Http://en.wikipedia.org/wiki/Robot#Modern_robots)).
 
 
 </div>

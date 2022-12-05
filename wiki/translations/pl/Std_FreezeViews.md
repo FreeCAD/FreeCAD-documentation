@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std FreezeViews
-   Name/pl   *Std   * Zamroź widok
-   MenuLocation   *Widok → Zamroź widok → ...
-   Workbenches   *Wszystkie
-   SeeAlso   *[Zachowaj widok](Std_StoreWorkingView/pl.md), [Odtwórz widok](Std_RecallWorkingView/pl.md),[Ustaw ujęcie widoku](Std_ViewIvIssueCamPos/pl.md)
+- GuiCommand:/pl
+   Name:Std FreezeViews
+   Name/pl:Std: Zamroź widok
+   MenuLocation:Widok → Zamroź widok → ...
+   Workbenches:Wszystkie
+   SeeAlso:[Zachowaj widok](Std_StoreWorkingView/pl.md), [Odtwórz widok](Std_RecallWorkingView/pl.md),[Ustaw ujęcie widoku](Std_ViewIvIssueCamPos/pl.md)
 ---
 
 # Std FreezeViews/pl
@@ -45,8 +45,8 @@ Opcja menu **Załaduj widoki\...** wczytuje zamrożone widoki z pliku z rozszerz
 
 ### Opcje 
 
--   Jeśli zostanie wyświetlone okno dialogowe Przywróć widoki   * naciśnij klawisz **Esc** lub przycisk **Nie**, aby przerwać wykonywanie polecenia.
--   Jeśli zostanie wyświetlone okno dialogowe Plik   * naciśnij przycisk klawisz **Esc** lub przycisk **Anuluj**, aby przerwać polecenie.
+-   Jeśli zostanie wyświetlone okno dialogowe Przywróć widoki: naciśnij klawisz **Esc** lub przycisk **Nie**, aby przerwać wykonywanie polecenia.
+-   Jeśli zostanie wyświetlone okno dialogowe Plik: naciśnij przycisk klawisz **Esc** lub przycisk **Anuluj**, aby przerwać polecenie.
 
 ## Zamroź widok 
 
@@ -56,9 +56,9 @@ Opcja menu **Zamroź widok** zapisuje bieżące ustawienia ujęcia widoku *(kier
 
 ### Użycie 
 
-1.  Istnieje kilka sposobów na wywołanie tej opcji   *
+1.  Istnieje kilka sposobów na wywołanie tej opcji:
     -   Wybierz z menu opcję **Widok → Zamroź widok → Zamroź widok**.
-    -   Użyj skrótu klawiaturowego   * **Shift**+**F**.
+    -   Użyj skrótu klawiaturowego: **Shift**+**F**.
 2.  Nowy zamrożony widok można wybrać w podmenu **Widok → Zamroź widok**.
 
 ## Wyczyść widoki 
@@ -75,13 +75,13 @@ Opcja menu **Wyczyść widoki** usuwa wszystkie istniejące zamrożone widoki.
 
 ### Opis 
 
-Dla każdego zamrożonego widoku dodana jest opcja **Przywróć widok**, za pomocą której można go przywrócić. Opcje są ponumerowane od   * **Przywróć widok 1** do **Przywróć widok 50**.
+Dla każdego zamrożonego widoku dodana jest opcja **Przywróć widok**, za pomocą której można go przywrócić. Opcje są ponumerowane od: **Przywróć widok 1** do **Przywróć widok 50**.
 
 ### Użycie 
 
-1.  Istnieje kilka sposobów na wywołanie tej opcji   *
+1.  Istnieje kilka sposobów na wywołanie tej opcji:
     -   Wybierz z menu właściwą opcję **Widok → Zamroź widok → Załąduj widoki ...**.
-    -   Dla pierwszych 9 zamrożonych widoków   * użyj skrótu klawiaturowego   * **Ctrl**+**1** - **Ctrl**+**9**.
+    -   Dla pierwszych 9 zamrożonych widoków: użyj skrótu klawiaturowego: **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 

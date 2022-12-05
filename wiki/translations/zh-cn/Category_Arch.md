@@ -1,8 +1,6 @@
 # Category:Arch/zh-cn
 Pages relating to Architectural and Building Information Management
 
-[Category   *User Documentation/zh-cn](Category   *User_Documentation/zh-cn.md) [Category   *BIM/zh-cn](Category   *BIM/zh-cn.md) [Category   *Workbenches/zh-cn](Category   *Workbenches/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

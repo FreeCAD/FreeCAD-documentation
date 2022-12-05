@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Path ExportTemplate
-   Name/de   *Pfad ExportVorlage
-   MenuLocation   *Pfad → Export Vorlage
-   Workbenches   *[Pfad](Path_Workbench/de.md)
-   SeeAlso   *[Pfad EinrichtungsBlatt](Path_SetupSheet.md)
+- GuiCommand:/de
+   Name:Path ExportTemplate
+   Name/de:Pfad ExportVorlage
+   MenuLocation:Pfad → Export Vorlage
+   Workbenches:[Pfad](Path_Workbench/de.md)
+   SeeAlso:[Pfad EinrichtungsBlatt](Path_SetupSheet.md)
 ---
 
 # Path ExportTemplate/de
@@ -33,8 +33,8 @@ Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, 
 
 ## Stock
 
--   Extent   * Stock Size
--   Placement   * Stock Location
+-   Extent: Stock Size
+-   Placement: Stock Location
 
 ## Setup Sheet 
 

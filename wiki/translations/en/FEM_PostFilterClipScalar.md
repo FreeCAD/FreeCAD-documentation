@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM PostFilterClipScalar
-   MenuLocation   *Results → Scalar clip filter
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM PostFilterClipScalar
+   MenuLocation:Results → Scalar clip filter
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterClipScalar/en
@@ -12,18 +12,18 @@
 
 Clips a field using a specified scalar value.
 
-<img alt="" src=images/FEM_Scalar-Clip-Filter-Example.png  style="width   *400px;">
+<img alt="" src=images/FEM_Scalar-Clip-Filter-Example.png  style="width:400px;">
 
 *A scalar clip filter result.The original pipeline is the semi-transparent object.*
 
-A scalar filter can be combined with other filters. Here is for example a scalar filter on a [warp filter](FEM_PostFilterWarp.md) (semi-transparent)   *
+A scalar filter can be combined with other filters. Here is for example a scalar filter on a [warp filter](FEM_PostFilterWarp.md) (semi-transparent):
 
-<img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width   *600px;">
+<img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width:600px;">
 
 ## Usage
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another existing filter.
-2.  Invoke the command either by   *
+2.  Invoke the command either by:
     -   Pressing the button **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> '''Scalar clip filter'''**.
     -   Using the menu **Results → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Scalar clip filter**.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Scalar Clip Filter.

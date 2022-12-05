@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar Helical
-   MenuLocation   *Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md), [Arch Rebar Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)
+- GuiCommand:
+   Name:Arch Rebar Helical
+   MenuLocation:Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md), [Arch Rebar Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)
 ---
 
 # Arch Rebar Helical/en
@@ -15,9 +15,9 @@ The [Helical Rebar](Arch_Rebar_Helical.md) tool allows the user to create a cont
 
 The [Helical Rebar](Arch_Rebar_Helical.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
+:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
 
@@ -45,7 +45,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 9.  Click **Cancel** to exit the task panel.
 
-   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
+:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
 
@@ -53,24 +53,24 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Properties
 
--    **Side Cover**   * The distance between rebar to the curved face.
+-    **Side Cover**: The distance between rebar to the curved face.
 
--    **Top Cover**   * The distance between rebar from the top face of the structure.
+-    **Top Cover**: The distance between rebar from the top face of the structure.
 
--    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
 
--    **Pitch**   * The pitch of a helix is the height of one complete helix turn, measured parallel to the axis of the helix.
+-    **Pitch**: The pitch of a helix is the height of one complete helix turn, measured parallel to the axis of the helix.
 
--    **Diameter**   * Diameter of the rebar.
+-    **Diameter**: Diameter of the rebar.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Helical Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
+The Helical Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -121,14 +121,6 @@ import HelicalRebar
 
 HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

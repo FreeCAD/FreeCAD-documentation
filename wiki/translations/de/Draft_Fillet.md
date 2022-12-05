@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Fillet
-   Name/de   *Entwurf Verrundung
-   MenuLocation   *Entwurf → Verrundung
-   Workbenches   *[Arbeitsbereich Entwurf](Draft_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[Entwurf Linie](Draft_Line/de.md), [Entwurf Draht](Draft_Wire/de.md)
+- GuiCommand:/de
+   Name:Draft Fillet
+   Name/de:Entwurf Verrundung
+   MenuLocation:Entwurf → Verrundung
+   Workbenches:[Arbeitsbereich Entwurf](Draft_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf Draht](Draft_Wire/de.md)
 ---
 
 # Draft Fillet/de
@@ -23,7 +23,7 @@ Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, 
 
 </div>
 
-<img alt="" src=images/Draft_Fillet_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
 *Mehrere Verrundungen und Fasen, die zwischen zwei Linien entstehen*
 
 ## Anwendung
@@ -64,9 +64,9 @@ Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, 
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Daten
 
@@ -76,13 +76,13 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
--    **Start**   * (schreibgeschützt) gibt den Startpunkt an.
+-    **Start**: (schreibgeschützt) gibt den Startpunkt an.
 
--    **End**   * (schreibgeschützt) gibt den Endpunkt an.
+-    **End**: (schreibgeschützt) gibt den Endpunkt an.
 
--    **Length**   * (schreibgeschützt) gibt die Länge des gesamten Segments an.
+-    **Length**: (schreibgeschützt) gibt die Länge des gesamten Segments an.
 
--    **Fillet Radius**   * (schreibgeschützt) Radius, mit dem die Verrundung erstellt wurde.
+-    **Fillet Radius**: (schreibgeschützt) Radius, mit dem die Verrundung erstellt wurde.
 
 
 </div>
@@ -97,11 +97,11 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ### Ansicht 
 
--    {{PropertyView/de|Ende Pfeil}}   * Wenn es `True` ist, zeigt es ein Symbol am letzten Punkt der Linie an, so dass es als Anmerkungslinie verwendet werden kann.
+-    {{PropertyView/de|Ende Pfeil}}: Wenn es `True` ist, zeigt es ein Symbol am letzten Punkt der Linie an, so dass es als Anmerkungslinie verwendet werden kann.
 
--    {{PropertyView/de|Pfeil Größe}}   * Gibt die Größe des Symbols an, das am Ende der Zeile angezeigt wird.
+-    {{PropertyView/de|Pfeil Größe}}: Gibt die Größe des Symbols an, das am Ende der Zeile angezeigt wird.
 
--    **Pfeil Typ**   * gibt den Typ des am Ende der Zeile angezeigten Symbols an, das \"Punkt\", \"Kreis\", \"Pfeil\", \"Haken\", oder \"Haken-2\" sein kann.
+-    **Pfeil Typ**: gibt den Typ des am Ende der Zeile angezeigten Symbols an, das \"Punkt\", \"Kreis\", \"Pfeil\", \"Haken\", oder \"Haken-2\" sein kann.
 
 
 </div>
@@ -112,7 +112,7 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -122,7 +122,7 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-Das Kreis Werkzeug kann sowohl in [Makros](Macros/de.md) als auch aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
+Das Kreis Werkzeug kann sowohl in [Makros](Macros/de.md) als auch aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
 
 
 </div>
@@ -136,7 +136,7 @@ fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
 -   Wenn `chamfer` `True` ist, erzeugt es eine gerade Kante mit der Länge von `radius`, anstatt einer abgerundeten Kante.
 -   Wenn `delete` `True` ist, löscht es die angegebenen `line1` und `line2`, und lässt nur das neue Objekt übrig.
 
-Beispiel   *
+Beispiel:
 
 
 ```python

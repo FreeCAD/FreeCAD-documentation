@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */cs
-   Name   *Arch IfcExplorer
-   Name/cs   *Architektura IfcProhlážeč
-   MenuLocation   *Arch → Utilities → Ifc Explorer
-   Workbenches   *[Architektura](Arch_Workbench/cs.md)
-   SeeAlso   *[[Arch IFC]]
+- GuiCommand:/cs
+   Name:Arch IfcExplorer
+   Name/cs:Architektura IfcProhlážeč
+   MenuLocation:Arch → Utilities → Ifc Explorer
+   Workbenches:[Architektura](Arch_Workbench/cs.md)
+   SeeAlso:[[Arch IFC]]
 ---
 
 # Arch IfcExplorer/cs
@@ -30,17 +30,17 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 
 </div>
 
-<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width   *800px;">
+<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
-   *   
+:   
     
 *Ifc Explorer with several properties*
     
 
 ## Usage
 
-1.  Invoke the Ifc Explorer via   *
-    -   Pressing the <img alt="" src=images/Arch_IfcExplorer.svg  style="width   *24px;"> button
+1.  Invoke the Ifc Explorer via:
+    -   Pressing the <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;"> button
     -   Using the **Arch → Utilities → Ifc Explorer** entry from the Arch dropdown menu.
 
 
@@ -51,11 +51,6 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 
 
 </div>
-
-
- 
-
-[Category   *BIM](Category_BIM.md)
 
 
 

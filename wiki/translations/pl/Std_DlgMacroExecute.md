@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std DlgMacroExecute
-   Name/pl   *Std   * Okno dialogowe Makrodefinicje
-   MenuLocation   *Makrodefinicje → Makrodefinicje ...
-   Workbenches   *wszystkie
-   SeeAlso   *[Wykonaj makrodefinicję w trakcie edycji](Std_DlgMacroExecuteDirect/pl.md)
+- GuiCommand:/pl
+   Name:Std DlgMacroExecute
+   Name/pl:Std: Okno dialogowe Makrodefinicje
+   MenuLocation:Makrodefinicje → Makrodefinicje ...
+   Workbenches:wszystkie
+   SeeAlso:[Wykonaj makrodefinicję w trakcie edycji](Std_DlgMacroExecuteDirect/pl.md)
 ---
 
 # Std DlgMacroExecute/pl
@@ -18,7 +18,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje ...](Std_DlgMacroExecute/pl.md)**.
     -   Wybierz opcję z menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> Makrodefinicje ...**.
 2.  Zostanie otwarte okno dialogowe Wykonaj makro. Zobacz dostępne [Opcje](#Opcje.md).
@@ -33,7 +33,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ### Makrodefinicje systemowe 
 
-   *   Karta **Makrodefinicje systemowe** nie jest obecnie używana.
+:   Karta **Makrodefinicje systemowe** nie jest obecnie używana.
 
 ### Lokalizacja makrodefinicji użytkownika 
 
@@ -42,7 +42,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ### Wykonaj
 
-1.  Aby wykonać dowolną makrodefinicję, należy postępować w jeden z następujących sposobów   *
+1.  Aby wykonać dowolną makrodefinicję, należy postępować w jeden z następujących sposobów:
     -   Zaznacz odpowiednia pozycję na liście i naciśnij przycisk **Wykonaj**.
     -   Kliknij dwukrotnie makrodefinicję z listy.
 2.  Okno dialogowe zostanie zamknięte.
@@ -103,7 +103,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ## Ustawienia
 
-Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach   * **Edycja → Preferencje ... → Ogólne → Makropolecenia → Ścieżka do plików makrodefinicji**. Więcej informacji na ten temat można znaleźć również w [Edytorze ustawień](Preferences_Editor/pl#Makropolecenia.md).
+Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach: **Edycja → Preferencje ... → Ogólne → Makropolecenia → Ścieżka do plików makrodefinicji**. Więcej informacji na ten temat można znaleźć również w [Edytorze ustawień](Preferences_Editor/pl#Makropolecenia.md).
 
 
 

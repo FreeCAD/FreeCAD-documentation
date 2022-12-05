@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Near
-   Name/de   *Entwurf Fang Nächste
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Draft Fang](Draft_Snap/de.md), [Draft Fang Schloss](Draft_Snap_Lock.md)
+- GuiCommand:/de
+   Name:Draft Snap Near
+   Name/de:Entwurf Fang Nächste
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft Fang](Draft_Snap/de.md), [Draft Fang Schloss](Draft_Snap_Lock.md)
 ---
 
 # Draft Snap Near/de
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Die <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *24px;"> **Draft Fang Nächste**-Option rastet am nächsten Punkt zu Flächen oder Kanten ein. Die Flächen und Kanten können zu [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Objekten, aber auch zu Objekten gehören, die mit anderen [Arbeitsbereichen erstellt wurden](Workbenches/de.md).
+Die <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Fang Nächste**-Option rastet am nächsten Punkt zu Flächen oder Kanten ein. Die Flächen und Kanten können zu [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Objekten, aber auch zu Objekten gehören, die mit anderen [Arbeitsbereichen erstellt wurden](Workbenches/de.md).
 
 
 </div>

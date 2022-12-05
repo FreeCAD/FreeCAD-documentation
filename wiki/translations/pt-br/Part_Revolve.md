@@ -1,15 +1,15 @@
 ---
-- GuiCommand   *
-   Name   *Part Revolve
-   MenuLocation   *Part → Revolve
-   Workbenches   *[Part](Part_Workbench.md)
+- GuiCommand:
+   Name:Part Revolve
+   MenuLocation:Part → Revolve
+   Workbenches:[Part](Part_Workbench.md)
 ---
 
 # Part Revolve/pt-br
 
 ## Description
 
-Revolves the selected object around a given axis. The following shape types are allowed, and lead to the listed output shapes   *
+Revolves the selected object around a given axis. The following shape types are allowed, and lead to the listed output shapes:
 
   Input shape   Output shape
    
@@ -25,7 +25,7 @@ A [Sketch](Sketcher_Workbench.md) can be used as well. Solids or compound solids
 
 The Angle argument specifies how far the object is to be turned. The coordinates move the origin of the axis of revolving, relative to the origin of the coordinate system.
 
-If you select a user defined axis, the numbers define the direction of the revolving axis with respect to the coordinate system   * If the Z coordinate is 0 and the Y and X coordinate are non-zero, then the axis will lie in the X-Y-plane. Its angle is such that its tangent is the ratio of the given X and Y coordinates.
+If you select a user defined axis, the numbers define the direction of the revolving axis with respect to the coordinate system: If the Z coordinate is 0 and the Y and X coordinate are non-zero, then the axis will lie in the X-Y-plane. Its angle is such that its tangent is the ratio of the given X and Y coordinates.
 
 ## Notes
 

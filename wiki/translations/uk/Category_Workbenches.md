@@ -1,8 +1,6 @@
 # Category:Workbenches/uk
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/uk](Category   *User_Documentation/uk.md)
-
 ### Contents
 
 |     |     |     |

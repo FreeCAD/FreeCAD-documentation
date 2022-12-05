@@ -1,11 +1,11 @@
-# <img alt="Icona di base" src=images/Freecad.svg  style="width   *64px;"> Std Tools Menu/it
+# <img alt="Icona di base" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/it
 
 
 {{TOCright}}
 
 ## Introduzione
 
-Il menu **Strumenti** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md)   *
+Il menu **Strumenti** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
 
 
 {{StdMenu
@@ -29,16 +29,16 @@ Il menu Strumenti fornisce le funzioni per il debug dei modelli e per personaliz
 
 ## Strumenti
 
-In questo menu sono disponibili i seguenti strumenti   *
+In questo menu sono disponibili i seguenti strumenti:
 
--   <img alt="" src=images/Std_DlgParameter.svg  style="width   *32px;"> [Modifica parametri\...](Std_DlgParameter/it.md)   * apre una finestra di dialogo che consente di accedere ai parametri che controllano il programma.
+-   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Modifica parametri\...](Std_DlgParameter/it.md): apre una finestra di dialogo che consente di accedere ai parametri che controllano il programma.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width   *32px;"> [Salva immagine\...](Std_ViewScreenShot/it.md)   * salva una schermata della [vista 3D](3D_view/it.md) attiva.
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Salva immagine\...](Std_ViewScreenShot/it.md): salva una schermata della [vista 3D](3D_view/it.md) attiva.
 
 
 <div class="mw-translate-fuzzy">
 
--   [Ispettore di scena\...](Std_SceneInspector/it.md)   * visualizza una panoramica dei nodi del grafo della scena della vista 3D attiva.
+-   [Ispettore di scena\...](Std_SceneInspector/it.md): visualizza una panoramica dei nodi del grafo della scena della vista 3D attiva.
 
 
 </div>
@@ -46,7 +46,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Grafico delle dipendenze\...](Std_DependencyGraph/it.md)   * mostra come sono correlate le varie funzioni in un modello.
+-   [Grafico delle dipendenze\...](Std_DependencyGraph/it.md): mostra come sono correlate le varie funzioni in un modello.
 
 
 </div>
@@ -54,28 +54,28 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Utilità di progetto\...](Std_ProjectUtil/it.md)   * aiuta a riparare i file di progetto danneggiati.
+-   [Utilità di progetto\...](Std_ProjectUtil/it.md): aiuta a riparare i file di progetto danneggiati.
 
 
 </div>
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width   *32px;"> [Misura la distanza](Std_MeasureDistance/it.md)   * misura e visualizza la distanza assoluta tra due punti nello spazio 3D.
+-   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Misura la distanza](Std_MeasureDistance/it.md): misura e visualizza la distanza assoluta tra due punti nello spazio 3D.
 
--   <img alt="" src=images/Std_TextDocument.svg  style="width   *32px;"> [Aggiungi un documento testo](Std_TextDocument/it.md)   * aggiunge un oggetto in grado di contenere un testo arbitrario.
+-   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;"> [Aggiungi un documento testo](Std_TextDocument/it.md): aggiunge un oggetto in grado di contenere un testo arbitrario.
 
 
 <div class="mw-translate-fuzzy">
 
--   [Visualizza rotazione oggetti\...](Std_DemoMode/it.md)   * attiva la rotazione del modello nella finestra della vista 3D.
+-   [Visualizza rotazione oggetti\...](Std_DemoMode/it.md): attiva la rotazione del modello nella finestra della vista 3D.
 
 
 </div>
 
--   <img alt="" src=images/Std_UnitsCalculator.svg  style="width   *32px;"> [Calcolatore delle unità\...](Std_UnitsCalculator/it.md)   * apre una calcolatrice per la conversione di unità di misura.
+-   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Calcolatore delle unità\...](Std_UnitsCalculator/it.md): apre una calcolatrice per la conversione di unità di misura.
 
--   <img alt="" src=images/Std_DlgCustomize.svg  style="width   *32px;"> [Personalizza\...](Std_DlgCustomize/it.md)   * permette di modificare menu, tasti di scelta rapida e barre degli strumenti.
+-   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Personalizza\...](Std_DlgCustomize/it.md): permette di modificare menu, tasti di scelta rapida e barre degli strumenti.
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width   *32px;"> [Addon manager](Std_AddonMgr/it.md)   * installa e gestisce gli [ambienti esterni](External_workbenches/it.md) e le [macro](macros/it.md) fornite dalla comunità di FreeCAD.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr/it.md): installa e gestisce gli [ambienti esterni](External_workbenches/it.md) e le [macro](macros/it.md) fornite dalla comunità di FreeCAD.
 
 
 
@@ -83,9 +83,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

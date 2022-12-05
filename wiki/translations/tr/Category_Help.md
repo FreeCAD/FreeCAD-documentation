@@ -1,8 +1,6 @@
 # Category:Help/tr
 Bu kategori, MediaWiki ve düzenleme ile ilgili yardım belgelerini içerir.
 
-[Category   *Categories/tr](Category   *Categories/tr.md)
-
 ### Contents
 
 |     |     |     |

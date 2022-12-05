@@ -1,6 +1,6 @@
 # PartDesign Draft/it
 ---
-- GuiCommand   */it   Name   *PartDesign_Draft   Name/it   *Sformo   MenuLocation   *PartDesign → Sformo   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:/it   Name:PartDesign_Draft   Name/it:Sformo   MenuLocation:PartDesign → Sformo   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
 
 </div>
@@ -75,12 +75,12 @@ Questo strumento crea uno sformo angolare (inclinazione delle facce) sulle facce
 </div>
 
 
-   *   *Remember*   *
+:   *Remember*:
     -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
 
 ### Edit a draft 
 
-1.  Do one of the following   *
+1.  Do one of the following:
     -   Double-click the Draft object in the [Tree view](Tree_view.md).
     -   Right-click the Draft object in the [Tree view](Tree_view.md) and select **Edit Draft** from the context menu.
 2.  The **Draft parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
@@ -88,20 +88,20 @@ Questo strumento crea uno sformo angolare (inclinazione delle facce) sulle facce
 
 ## Options
 
--    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
+-    **Add face**: Add faces to the selection by pressing the **Add face** button and selecting more faces.
 
--    **Remove face**   * Choose a way to remove faces from the selection   *
+-    **Remove face**: Choose a way to remove faces from the selection:
 
     -   Select one or more faces in the list and press the **Del** key or right-click the list and select **Remove** from the context menu.
     -   Press the **Remove face** button. All previously selected faces are highlighted in purple. Select each face to be removed.
 
--    **Draft angle**   * Set the Draft angle either by entering a value or by clicking the up/down arrows.
+-    **Draft angle**: Set the Draft angle either by entering a value or by clicking the up/down arrows.
 
--    **Neutral plane**   * Set the the neutral plane by pressing the **Neutral plane** button and selecting the plane that must not change dimensionally.
+-    **Neutral plane**: Set the the neutral plane by pressing the **Neutral plane** button and selecting the plane that must not change dimensionally.
 
--    **Pull direction**   * Set the the pull direction by pressing the **Pull direction** button, then select an edge. Pull Direction is only effective if the Neutral Plane has been set. Results can be unpredictable.
+-    **Pull direction**: Set the the pull direction by pressing the **Pull direction** button, then select an edge. Pull Direction is only effective if the Neutral Plane has been set. Results can be unpredictable.
 
--    **Reverse pull direction**   * Invert the pull direction by checking the **Reverse pull direction** checkbox. This will toggle the draft between positive and negative angles.
+-    **Reverse pull direction**: Invert the pull direction by checking the **Reverse pull direction** checkbox. This will toggle the draft between positive and negative angles.
 
 ## Notes
 
@@ -109,34 +109,34 @@ Questo strumento crea uno sformo angolare (inclinazione delle facce) sulle facce
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Angle|Angle**   * Cannot be negative. Default   * {{value|1.5 °}}.
+-    **Angle|Angle**: Cannot be negative. Default: {{value|1.5 °}}.
 
--    **Reversed|Bool**   * Default   * `False`.
+-    **Reversed|Bool**: Default: `False`.
 
--    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
+-    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**   * \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default   * `False`.
+-    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**   * Link to the parent feature.
+-    **Base Feature|Link|hidden**: Link to the parent feature.
 
--    **_ Body|LinkHidden|hidden**   * Link to the parent body.
+-    **_ Body|LinkHidden|hidden**: Link to the parent body.
 
 
 {{Properties_Title|Draft}}
 
--    **Neutral Plane|LinkSub**   * Sub-link to the parent feature\'s list containing the neutral plane.
+-    **Neutral Plane|LinkSub**: Sub-link to the parent feature\'s list containing the neutral plane.
 
 -    **Pull Direction|LinkSub**
     
@@ -144,7 +144,7 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 <div class="mw-translate-fuzzy">

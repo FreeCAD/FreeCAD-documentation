@@ -11,7 +11,7 @@
 |Version=5.0
 |Date=2014-08-08
 |FCVersion=All version using Drawing WorkBench
-|Download=[https   *//www.freecadweb.org/wiki/images/0/00/Macro_CartoucheFC_2.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_CartoucheFC_2.png ToolBar Icon]
 }}
 
 
@@ -21,7 +21,7 @@
 
 Toto makro je kompletní aplikace, umožňuje jednoduše vyplňovat všechna pole kazety [A3 Landscape english](Drawing_templates.md)
 
-<img alt="Macro CartoucheFC Modele 2" src=images/Macro_CartoucheFC_Modele_02.png  style="width   *680px;">
+<img alt="Macro CartoucheFC Modele 2" src=images/Macro_CartoucheFC_Modele_02.png  style="width:680px;">
 
 Obrázek představuje hierarchii vyplňování polí obsazených v okně \"textEditable\" v aplikaci FreeCAD
 
@@ -36,9 +36,9 @@ Použití je velmi snadné, spusťte makro a upravte pole.
 
 Okno zůstane nad všemi okny a zobrazuje změny (tato funkce může být nepříjemná, pokud se rozhodnete otevřít nové okno a zůstane nedostupná)
 
-**PS   * Některé znaky jako \$ a \$ nejsou přijaty (a možná i další speciální znaky).**
+**PS: Některé znaky jako \$ a \$ nejsou přijaty (a možná i další speciální znaky).**
 
-Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na francouzské fórum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
+Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na francouzské fórum [Remplir cartouche](http://forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 ## kód
 
@@ -49,7 +49,7 @@ ToolBar Icon ![](images/Macro_CartoucheFC_2.png )
 
 {{MacroCode|code=
 
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 ***************************************************************************
 *   Copyright (c) 2014 <mario52>                                          *
@@ -81,28 +81,28 @@ ToolBar Icon ![](images/Macro_CartoucheFC_2.png )
 # il faut que la page (drawing viewer) s'appelle " Page " qui est le nom par défaut du module Drawing
 # cette macro fonctionne avec la feuille A3_Landscape_ qui possede tous les champs EditableTexts
 # 
-# http   *//www.freecadweb.org/wiki/index.php?title=Drawing_templates
+# http://www.freecadweb.org/wiki/index.php?title=Drawing_templates
 # Fill the area of the cartridge
 # It is necessary that the page (drawing viewer) is called "Page", which is the default name of the Drawing module
 # Python 2.6
 # 08/08/2014 ver 5.0 (pour cartouche modèle 2 (A3 Landscape english)) # PyQt and PySide 
-# Created   *  by mario52
+# Created:  by mario52
 # PyQt and PySide 
 
-#OS   * Windows Vista
-#Word size   * 32-bit
-#Version   * 0.14.3700 (Git)
-#Branch   * releases/FreeCAD-0-14
-#Hash   * 32f5aae0a64333ec8d5d160dbc46e690510c8fe1
-#Python version   * 2.6.2
-#Qt version   * 4.5.2
-#Coin version   * 3.1.0
-#SoQt version   * 1.4.1
+#OS: Windows Vista
+#Word size: 32-bit
+#Version: 0.14.3700 (Git)
+#Branch: releases/FreeCAD-0-14
+#Hash: 32f5aae0a64333ec8d5d160dbc46e690510c8fe1
+#Python version: 2.6.2
+#Qt version: 4.5.2
+#Coin version: 3.1.0
+#SoQt version: 1.4.1
 
-try   *
+try:
     import PyQt4                        # PyQt4
     from PyQt4 import QtCore, QtGui     # PyQt4
-except Exception   *
+except Exception:
     import PySide                       # PySide
     from PySide import QtCore, QtGui    # PySide
 
@@ -110,7 +110,7 @@ import Draft, Part, FreeCAD, math, PartGui, FreeCADGui
 from math import sqrt, pi, sin, cos, asin
 from FreeCAD import Base
 
-def utf8(unio)   *
+def utf8(unio):
     return unicode(unio).encode('UTF8')
 
 global path
@@ -152,31 +152,31 @@ global IRON                   ; IRON           = ""   # lineEdit_035
 
 path = FreeCAD.ConfigGet("AppHomePath")
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    def _fromUtf8(s)   *
+except AttributeError:
+    def _fromUtf8(s):
         return s
-try   *
+try:
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig)   *
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError   *
-    def _translate(context, text, disambig)   *
+except AttributeError:
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-def errorDialog(msg)   *
+def errorDialog(msg):
     # Create a simple dialog QMessageBox
-    # The first argument indicates the icon used   * one of QtGui.QMessageBox.{NoIcon, Information, Warning, Critical, Question} 
+    # The first argument indicates the icon used: one of QtGui.QMessageBox.{NoIcon, Information, Warning, Critical, Question} 
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg)
-    try   *
+    try:
         diag.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint)  # PyQt4 cette fonction met la fenêtre en avant
-    except Exception   *
+    except Exception:
         diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint) # PySide cette fonction met la fenêtre en avant
     #diag.setWindowModality(QtCore.Qt.ApplicationModal) # la fonction a été désactivée pour favoriser "WindowStaysOnTopHint"
     diag.exec_()
 
-try   *
+try:
     Drawn_by = App.activeDocument().getObject("Page").EditableTexts[0]          # lineEdit_001
     DRAWN_BY = App.activeDocument().getObject("Page").EditableTexts[1]          # lineEdit_002
     Controlled_by = App.activeDocument().getObject("Page").EditableTexts[2]     # lineEdit_003
@@ -213,12 +213,12 @@ try   *
     ISO2768_fh = App.activeDocument().getObject("Page").EditableTexts[33]       # lineEdit_034
     IRON = App.activeDocument().getObject("Page").EditableTexts[34]             # lineEdit_035
 
-except   *
+except:
     errorDialog("Error read cartridge")
 
-class Ui_MainWindow(object)   *
+class Ui_MainWindow(object):
 
-    def __init__(self, MainWindow)   *
+    def __init__(self, MainWindow):
         self.window = MainWindow
 
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
@@ -512,10 +512,10 @@ class Ui_MainWindow(object)   *
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow)   *
-        try   *
+    def retranslateUi(self, MainWindow):
+        try:
             MainWindow.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint)  # PyQt4
-        except Exception   *
+        except Exception:
             MainWindow.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint) # PySide
 
         MainWindow.setWindowTitle(_translate("MainWindow", "Cartouche mod 2", None))
@@ -561,26 +561,26 @@ class Ui_MainWindow(object)   *
         self.lineEdit_034.setText(_translate("MainWindow", "ISO2768_fh", None))
         self.lineEdit_035.setText(_translate("MainWindow", "IRON", None))
 
-        self.label_1.setText(_translate("MainWindow", "Scale    *", None))
-        self.label_2.setText(_translate("MainWindow", "Address    *", None))
-        self.label_3.setText(_translate("MainWindow", "Country    *", None))
-        self.label_4.setText(_translate("MainWindow", "Company name    *", None))
-        self.label_5.setText(_translate("MainWindow", "Part name    *", None))
-        self.label_6.setText(_translate("MainWindow", "Project number / id    *", None))
-        self.label_7.setText(_translate("MainWindow", "Size    *", None))
-        self.label_8.setText(_translate("MainWindow", "Notes    *", None))
-        self.label_9.setText(_translate("MainWindow", "Draw by    *", None))
-        self.label_10.setText(_translate("MainWindow", "Controlled by    *", None))
-        self.label_11.setText(_translate("MainWindow", "Date    *", None))
-        self.label_12.setText(_translate("MainWindow", "Controlled 2    *", None))
-        self.label_13.setText(_translate("MainWindow", "Controlled 3    *", None))
-        self.label_14.setText(_translate("MainWindow", "Quantity    *", None))
-        self.label_15.setText(_translate("MainWindow", "Part ID / Number    *", None))
-        self.label_16.setText(_translate("MainWindow", "Fabrication tolerance    *", None))
-        self.label_17.setText(_translate("MainWindow", "Material    *", None))
-        self.label_18.setText(_translate("MainWindow", "Logo    *", None))
+        self.label_1.setText(_translate("MainWindow", "Scale :", None))
+        self.label_2.setText(_translate("MainWindow", "Address :", None))
+        self.label_3.setText(_translate("MainWindow", "Country :", None))
+        self.label_4.setText(_translate("MainWindow", "Company name :", None))
+        self.label_5.setText(_translate("MainWindow", "Part name :", None))
+        self.label_6.setText(_translate("MainWindow", "Project number / id :", None))
+        self.label_7.setText(_translate("MainWindow", "Size :", None))
+        self.label_8.setText(_translate("MainWindow", "Notes :", None))
+        self.label_9.setText(_translate("MainWindow", "Draw by :", None))
+        self.label_10.setText(_translate("MainWindow", "Controlled by :", None))
+        self.label_11.setText(_translate("MainWindow", "Date :", None))
+        self.label_12.setText(_translate("MainWindow", "Controlled 2 :", None))
+        self.label_13.setText(_translate("MainWindow", "Controlled 3 :", None))
+        self.label_14.setText(_translate("MainWindow", "Quantity :", None))
+        self.label_15.setText(_translate("MainWindow", "Part ID / Number :", None))
+        self.label_16.setText(_translate("MainWindow", "Fabrication tolerance :", None))
+        self.label_17.setText(_translate("MainWindow", "Material :", None))
+        self.label_18.setText(_translate("MainWindow", "Logo :", None))
 
-    def on_pushButton01_clicked(self)   *    # Bouton Appliquer # Appli buttom
+    def on_pushButton01_clicked(self):    # Bouton Appliquer # Appli buttom
         Drawn_by = utf8(self.lineEdit_001.text())
         DRAWN_BY = utf8(self.lineEdit_002.text())
         Controlled_by = utf8(self.lineEdit_003.text())
@@ -617,14 +617,14 @@ class Ui_MainWindow(object)   *
         ISO2768_fh = utf8(self.lineEdit_034.text())
         IRON = utf8(self.lineEdit_035.text())
 
-        try   *
+        try:
             FreeCAD.getDocument (App.ActiveDocument.Name).getObject("Page").EditableTexts =[unicode(Drawn_by,'utf-8'), unicode(DRAWN_BY,'utf-8'), unicode(Controlled_by,'utf-8'), unicode(CONTROLLED_BY,'utf-8'), unicode(Date,'utf-8'), unicode(DATE,'utf-8'), unicode(Controlled_2, 'utf-8'), unicode(CONTROLLED_2,'utf-8'), unicode(Controlled_3,'utf-8'), unicode(CONTROLLED_3,'utf-8'), unicode(SCALE,'utf-8'), unicode(MOD,'utf-8'), unicode(COMPANY,'utf-8'), unicode(ADRESS,'utf-8'), unicode(COUNTRY, 'utf-8'), unicode(PART_NAME,'utf-8'), unicode(Project_number,'utf-8'), unicode(A_,'utf-8'), unicode(A__,'utf-8'), unicode(B_,'utf-8'), unicode(B__,'utf-8'), unicode(C_,'utf-8'), unicode(C__,'utf-8'), unicode(D_,'utf-8'), unicode(D__,'utf-8'), unicode(E_,'utf-8'), unicode(E__,'utf-8'), unicode(Quantity,'utf-8'), unicode(Part_ID_number,'utf-8'), unicode(Fabrication_tolerance,'utf-8'), unicode(Material,'utf-8'), unicode(_01,'utf-8'), unicode(_001_001,'utf-8'), unicode(ISO2768_fh,'utf-8'), unicode(IRON,'utf-8'),]  # PyQt4
             App.ActiveDocument.recompute()
-        except Exception   *#
+        except Exception:#
             FreeCAD.getDocument (App.ActiveDocument.Name).getObject("Page").EditableTexts =[Drawn_by.encode('utf-8'), DRAWN_BY.encode('utf-8'), Controlled_by.encode('utf-8'), CONTROLLED_BY.encode('utf-8'), Date.encode('utf-8'), DATE.encode('utf-8'), Controlled_2.encode('utf-8'), CONTROLLED_2.encode('utf-8'), Controlled_3.encode('utf-8'), CONTROLLED_3.encode('utf-8'), SCALE.encode('utf-8'), MOD.encode('utf-8'), COMPANY.encode('utf-8'), ADRESS.encode('utf-8'), COUNTRY.encode('utf-8'), PART_NAME.encode('utf-8'), Project_number.encode('utf-8'), A_.encode('utf-8'), A__.encode('utf-8'), B_.encode('utf-8'), B__.encode('utf-8'), C_.encode('utf-8'), C__.encode('utf-8'), D_.encode('utf-8'), D__.encode('utf-8'), E_.encode('utf-8'), E__.encode('utf-8'), Quantity.encode('utf-8'), Part_ID_number.encode('utf-8'), Fabrication_tolerance.encode('utf-8'), Material.encode('utf-8'), _01.encode('utf-8'), _001_001.encode('utf-8'), ISO2768_fh.encode('utf-8'), IRON.encode('utf-8'),]                                       # PySide
             App.ActiveDocument.recompute()
 
-    def on_pushButton04_clicked(self)   *    # Bouton nettoyer # Clear buttom
+    def on_pushButton04_clicked(self):    # Bouton nettoyer # Clear buttom
 
         Drawn_by = ""             ;self.lineEdit_001.setText("")
         DRAWN_BY = ""             ;self.lineEdit_002.setText("")
@@ -662,7 +662,7 @@ class Ui_MainWindow(object)   *
         ISO2768_fh = ""           ;self.lineEdit_034.setText("")
         IRON = ""                 ;self.lineEdit_035.setText("")
 
-    def on_pushButton03_clicked(self)   *    # Bouton Memo # Memo buttom
+    def on_pushButton03_clicked(self):    # Bouton Memo # Memo buttom
         self.lineEdit_001.setText(Drawn_by)
         self.lineEdit_002.setText(DRAWN_BY)
         self.lineEdit_003.setText(Controlled_by)
@@ -699,7 +699,7 @@ class Ui_MainWindow(object)   *
         self.lineEdit_034.setText(ISO2768_fh)
         self.lineEdit_035.setText(IRON)
 
-    def on_pushButton02_clicked(self)   *    # Bouton Quitter # Quit buttom
+    def on_pushButton02_clicked(self):    # Bouton Quitter # Quit buttom
         App.Console.PrintMessage("End cartridge mod 2\r\n")
         self.window.hide()
 
@@ -711,7 +711,7 @@ MainWindow.show()
 
 ## Verze
 
-5.0    * 08/08/2014
+5.0 : 08/08/2014
 
 
 

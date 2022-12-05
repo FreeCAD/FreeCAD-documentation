@@ -3,7 +3,7 @@ The quantity is a combination of a floating point number and a unit. It is used 
 
 ## General
 
-In a CAD or CAE system it is very important to keep track of the unit of a value. Lots of trouble can arise when mixing up units or calculating results in different systems of units. One famous disaster is the [crash of the Mars Climate Orbiter](http   *//en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure) due to a unit mix-up. Even in the same system of units the units come in lots of different flavours always tailored to the field of use. Simple examples are e.g. velocity in km/h (cars), m/s (robotics) or mm/minute (milling). A CAD system has to keep track of units reliably. Also it has to do calculations with them and check on the right unit for special parameters.
+In a CAD or CAE system it is very important to keep track of the unit of a value. Lots of trouble can arise when mixing up units or calculating results in different systems of units. One famous disaster is the [crash of the Mars Climate Orbiter](http://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure) due to a unit mix-up. Even in the same system of units the units come in lots of different flavours always tailored to the field of use. Simple examples are e.g. velocity in km/h (cars), m/s (robotics) or mm/minute (milling). A CAD system has to keep track of units reliably. Also it has to do calculations with them and check on the right unit for special parameters.
 
 For that reason the FreeCAD Quantity framework was created. It includes all the code and objects to deal with units, unit calculations, user input, conversion to other systems of units and the pretty output of units and values. In the long run no parameter in FreeCAD should be just a number.
 
@@ -11,31 +11,31 @@ For that reason the FreeCAD Quantity framework was created. It includes all the 
 
 The FreeCAD input parser supports a bunch of units and systems of units. FreeCAD supports the Greek letter \'µ\' for micro but also accepts \'u\' as a replacement. A complete list of all supported units can be [found here](Expressions#Units.md).
 
-The detailed specifications you will find in the code   *
+The detailed specifications you will find in the code:
 
--   [Quantity lexer](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
--   [Quantity definitions](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
+-   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
+-   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
 
 ## Internal representation 
 
-All physical units can be expressed as a combination of the seven [SI-Units](http   *//en.wikipedia.org/wiki/International_System_of_Units)   *
+All physical units can be expressed as a combination of the seven [SI-Units](http://en.wikipedia.org/wiki/International_System_of_Units):
 
-<img alt="" src=images/SI-Derived-Units.jpg  style="width   *750px;">
+<img alt="" src=images/SI-Derived-Units.jpg  style="width:750px;">
 
-An easy way to express a unit is an integer array of size 7 (number of base units) that defines what the unit is. The signature of the 7 base units are   *
+An easy way to express a unit is an integer array of size 7 (number of base units) that defines what the unit is. The signature of the 7 base units are:
 
--   LENGTH   * \[1,0,0,0,0,0,0\]
--   MASS   * \[0,1,0,0,0,0,0\]
--   TIME   * \[0,0,1,0,0,0,0\]
--   ELECTRIC CURRENT   * \[0,0,0,1,0,0,0\]
--   THERMODYNAMIC TEMPERATURE   * \[0,0,0,0,1,0,0\]
--   AMOUNT OF SUBSTANCE   * \[0,0,0,0,0,1,0\]
--   LUMINOUS INTENSITY   * \[0,0,0,0,0,0,1\]
+-   LENGTH: \[1,0,0,0,0,0,0\]
+-   MASS: \[0,1,0,0,0,0,0\]
+-   TIME: \[0,0,1,0,0,0,0\]
+-   ELECTRIC CURRENT: \[0,0,0,1,0,0,0\]
+-   THERMODYNAMIC TEMPERATURE: \[0,0,0,0,1,0,0\]
+-   AMOUNT OF SUBSTANCE: \[0,0,0,0,0,1,0\]
+-   LUMINOUS INTENSITY: \[0,0,0,0,0,0,1\]
 
-Using these seven units we are then able to express all derived units defined in [Guide for the Use of the International System of Units (SI)](http   *//physics.nist.gov/cuu/pdf/sp811.pdf) and create new ones as needed such as for instance   *
+Using these seven units we are then able to express all derived units defined in [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) and create new ones as needed such as for instance:
 
--   MASS DENSITY   * \[-3,1,0,0,0,0,0\]
--   AREA   * \[0,2,0,0,0,0,0\]
+-   MASS DENSITY: \[-3,1,0,0,0,0,0\]
+-   AREA: \[0,2,0,0,0,0,0\]
 
 Since angle is physically dimensionless, but nevertheless important to a CAD system we add one more virtual unit for Angle. This makes a vector of 8 in the FreeCAD unit signature.
 
@@ -43,11 +43,11 @@ Since angle is physically dimensionless, but nevertheless important to a CAD sys
 
 Often you are in need of converting values from one system of units to another. For example you have old parameter tables with wired units. In these cases FreeCAD offers a conversion tool called Units-Calculator which helps in translating units.
 
-Its description in detail is here   * [Std_UnitsCalculator](Std_UnitsCalculator.md)
+Its description in detail is here: [Std_UnitsCalculator](Std_UnitsCalculator.md)
 
 ## InputField
 
-The InputField is a QLineEdit derived Qt widget to handle all kinds of user interaction with quantities and parameters. It features the following properties   *
+The InputField is a QLineEdit derived Qt widget to handle all kinds of user interaction with quantities and parameters. It features the following properties:
 
 -   parsing arbitrary value/unit input
 -   checking on the right unit (if given) and give the user feedback
@@ -60,12 +60,12 @@ The InputField is a QLineEdit derived Qt widget to handle all kinds of user inte
 
 The UnitsCalculator uses the InputField already.
 
-Main documentation   * [InputField](InputField.md)
+Main documentation: [InputField](InputField.md)
 
-Code   *
+Code:
 
--   [InputField.h](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
+-   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
+-   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
 
 ## Python scripting 
 
@@ -171,43 +171,43 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
 
 ### User facing values 
 
-Normally in scripts you can use Quantity for all kinds of calculations and checking, but there comes the time you have to output information to the user. You could use getValueAs() to force a certain unit, but normally the user sets his preferred unit-schema in the preferences. This unit-schema does all the translations to the representation the user likes to see. At the moment there are three schemes implemented   *
+Normally in scripts you can use Quantity for all kinds of calculations and checking, but there comes the time you have to output information to the user. You could use getValueAs() to force a certain unit, but normally the user sets his preferred unit-schema in the preferences. This unit-schema does all the translations to the representation the user likes to see. At the moment there are three schemes implemented:
 
--   1   * Internal (mm/kg/s)
--   2   * MKS (m/kg/s)
--   3   * US customary (in/lb)
+-   1: Internal (mm/kg/s)
+-   2: MKS (m/kg/s)
+-   3: US customary (in/lb)
 
 There can be easily additional schemas implemented in the future\...
 
-The Quantity class has two options to use the actual schema translation   *
+The Quantity class has two options to use the actual schema translation:
 
  
 ```python
 from FreeCAD import Units
 
-# Use the translated string   *
+# Use the translated string:
 Units.Quantity('1m').UserString           # '1000 mm' in 1; '1 m' in 2; and '1.09361 yr' in 3
-``` This does the job if you only need a string. But sometimes you need more control, e.g. if you want to have a dialog button which dials up and down. Then you need more information about the translation output. Therefore the getUserPreferred() method of quantity is used   *
+``` This does the job if you only need a string. But sometimes you need more control, e.g. if you want to have a dialog button which dials up and down. Then you need more information about the translation output. Therefore the getUserPreferred() method of quantity is used:
 
  
 ```python
-Units.Quantity('22 m').getUserPreferred() # gets a tuple   *('22 m', 1000.0, 'm')
-Units.Quantity('2  m').getUserPreferred() # Tuple   * ('2000 mm', 1.0, 'mm')
+Units.Quantity('22 m').getUserPreferred() # gets a tuple:('22 m', 1000.0, 'm')
+Units.Quantity('2  m').getUserPreferred() # Tuple: ('2000 mm', 1.0, 'mm')
 ``` Here you get more information using a tuple (three items). You get the string as before, plus the factor of the value and the raw string with only the unit chosen by the translation schema. With this information you can implement a much richer user interaction.
 
-The code of the schema translation can be found here   *
+The code of the schema translation can be found here:
 
--   [Internal](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
+-   [Internal](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
 
 ### Precision
 
-The precision of quantities is within FreeCAD dialogs the number of decimals specified [in the preferences](Preferences_Editor#Units.md). To use this settings for your script (for example in dialogs), you can get it with this code   *  
+The precision of quantities is within FreeCAD dialogs the number of decimals specified [in the preferences](Preferences_Editor#Units.md). To use this settings for your script (for example in dialogs), you can get it with this code:  
 ```python
 import FreeCAD
 
-params = App.ParamGet("User parameter   *BaseApp/Preferences/Units")
+params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
 
@@ -270,10 +270,6 @@ from FreeCAD import Units
  "st"  = Units.Quantity(6.35029318   ,Units.Unit(0,1));    // Stone
  "cwt" = Units.Quantity(50.80234544  ,Units.Unit(0,1));    // hundredweights
 ```
-
-  
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

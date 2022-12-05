@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch IfcExplorer
-   Name/fr   *Arch Explorateur IFC
-   MenuLocation   *Arch → Utilitaires → Explorateur IFC
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Arch IFC](Arch_IFC/fr.md)
+- GuiCommand:/fr
+   Name:Arch IfcExplorer
+   Name/fr:Arch Explorateur IFC
+   MenuLocation:Arch → Utilitaires → Explorateur IFC
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Arch IFC](Arch_IFC/fr.md)
 ---
 
 # Arch IfcExplorer/fr
@@ -15,26 +15,18 @@ L\'[Explorateur IFC](Arch_IfcExplorer/fr.md) est un utilitaire simple pour explo
 
 Le but de cet explorateur est simplement de vous permettre de vérifier ce qui est réellement écrit dans un fichier IFC au cas où vous souhaiteriez vérifier si le contenu a été correctement importé ou exporté vers et depuis une application compatible IFC telle que FreeCAD.
 
-<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width   *800px;">
+<img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
-   *   
+:   
     
 *Explorateur Ifc avec certaines de ses propriétés*
     
 
 ## Utilisation
 
-1.  Lancez l\'Explorateur IFC via   *
-    -   En appuyant sur le bouton <img alt="" src=images/Arch_IfcExplorer.svg  style="width   *24px;">
+1.  Lancez l\'Explorateur IFC via:
+    -   En appuyant sur le bouton <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;">
     -   Utilisation de l\'entrée **Arch → Utilitaires → Explorateur IFC** dans le menu déroulant Arch.
-
-
-
-
-
- 
-
-[Category   *BIM](Category_BIM.md)
 
 
 

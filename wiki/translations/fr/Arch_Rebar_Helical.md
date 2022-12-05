@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Rebar Helical
-   Name/fr   *Arch Rebar Armature hélicoïdale
-   MenuLocation   *Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
-   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)
+- GuiCommand:/fr
+   Name:Arch Rebar Helical
+   Name/fr:Arch Rebar Armature hélicoïdale
+   MenuLocation:Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)
 ---
 
 # Arch Rebar Helical/fr
@@ -16,9 +16,9 @@ L\'outil [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) permet à l\'utilisa
 
 L\'outil [Helical Rebar](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
-   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
+:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
 
@@ -46,7 +46,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 9.  Cliquez sur **Cancel** pour quitter le panneau de tâches.
 
-   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
+:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
 
@@ -54,24 +54,24 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
--    {{PropertyData/fr|SideCover}}   * La distance entre l\'armature et la face incurvée.
+-    {{PropertyData/fr|SideCover}}: La distance entre l\'armature et la face incurvée.
 
--    {{PropertyData/fr|Top Cover}}   * La distance entre l\'armature et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Pitch}}   * Le pas d\'une hélice est la hauteur d\'un tour d\'hélice complet, mesuré parallèlement à l\'axe de l\'hélice.
+-    {{PropertyData/fr|Pitch}}: Le pas d\'une hélice est la hauteur d\'un tour d\'hélice complet, mesuré parallèlement à l\'axe de l\'hélice.
 
--    {{PropertyData/fr|Diameter}}   * Diamètre de l\'armature.
+-    {{PropertyData/fr|Diameter}}: Diamètre de l\'armature.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature hélicoïdale peut être utilisé dans [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante   *
+L\'outil Armature hélicoïdale peut être utilisé dans [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante:
 
 
 ```python
@@ -122,14 +122,6 @@ import HelicalRebar
 
 HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

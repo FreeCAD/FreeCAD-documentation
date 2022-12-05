@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *Arch Window
-   Name/ro   *Arch Window
-   MenuLocation   *Arch → Window
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   ***W** **I**
-   SeeAlso   *[Arch Wall](Arch_Wall/ro.md)
+- GuiCommand:/ro
+   Name:Arch Window
+   Name/ro:Arch Window
+   MenuLocation:Arch → Window
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:**W** **I**
+   SeeAlso:[Arch Wall](Arch_Wall/ro.md)
 ---
 
 # Arch Window/ro
@@ -41,17 +41,17 @@ Toate informațiile aplicabile unui [Arch Window](Arch_Window.md) se aplică și
 
 </div>
 
-<img alt="" src=images/Arch_Window_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_Window_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;">
 
 
 </div>
 
-<img alt="" src=images/Arch_Window_example2.jpg  style="width   *600px;"> 
+<img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
 
 
@@ -87,7 +87,7 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 -   The **$ROOT_DIR** is the user directory where FreeCAD configuration files, macros, and external workbenches are stored. It can be found be entering `FreeCAD.getUserAppDataDir()` in the [Python console](Python_console.md).
     -   On Linux it is usually **/home/username/.local/share/FreeCAD/** (<small>(v0.20)</small> ) or **/home/username/.FreeCAD/** ({{VersionMinus|0.19}})
-    -   On Windows it is usually **C   *Users\username\Application Data\FreeCAD\**
+    -   On Windows it is usually **C:\Users\username\Application Data\FreeCAD\**
     -   On Mac OSX it is usually **/Users/username/Library/Preferences/FreeCAD/**
 -   The subdirectory name **Custom** is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the **Doors** or **Windows** directories.
 
@@ -112,23 +112,23 @@ When creating the sketch, pay close attention to the creation order of the loops
 
 ## Setări prealabile 
 
-Sunt disponibile următoarele presetări   *
+Sunt disponibile următoarele presetări:
 
-Image   *ParametersDoorGlass.svg\|Glass door Image   *ParametersDoorSimple.svg\|Simple door Image   *ParametersWindowDouble.svg\|Double-opening window Image   *ParametersWindowFixed.svg\|Fixed window Image   *ParametersWindowSimple.svg\|Single-opening window Image   *ParametersWindowStash.svg\|Sash-opening window
+Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
 
 ## Construcția de componente 
 
-Ferestrele pot include 3 tipuri de componente   * panouri, cadre și jaluzele. Panourile și jaluzele sunt realizate dintr-un fir închis, care este extrudat, în timp ce cadrele sunt realizate din 2 sau mai multe fire închise,where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties   *
+Ferestrele pot include 3 tipuri de componente: panouri, cadre și jaluzele. Panourile și jaluzele sunt realizate dintr-un fir închis, care este extrudat, în timp ce cadrele sunt realizate din 2 sau mai multe fire închise,where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties:
 
--   **Name**   * Un nume al componentului
--   **Type**   * The type of component. Can be \"Frame\", \"Glass panel\", \"Solid panel\" or \"Louvres\"
--   **Wires**   * A comma-separated list of wires the component is based on
--   **Thickness**   * The extrusion thickness of the component
--   **Z Offset**   * The distance between the component and its base 2D wire(s)
--   **Hinge**   * This allows you to select an edge from the base 2D object, then set that edge as a hinge for this component and the next ones in the list
--   **Opening mode**   * If you defined a hinge in this component or any other earlier in the list, setting the opening mode will allow the window to appear open or to display 2D opening symbols in plan or elevation.
+-   **Name**: Un nume al componentului
+-   **Type**: The type of component. Can be \"Frame\", \"Glass panel\", \"Solid panel\" or \"Louvres\"
+-   **Wires**: A comma-separated list of wires the component is based on
+-   **Thickness**: The extrusion thickness of the component
+-   **Z Offset**: The distance between the component and its base 2D wire(s)
+-   **Hinge**: This allows you to select an edge from the base 2D object, then set that edge as a hinge for this component and the next ones in the list
+-   **Opening mode**: If you defined a hinge in this component or any other earlier in the list, setting the opening mode will allow the window to appear open or to display 2D opening symbols in plan or elevation.
 
-<img alt="" src=images/Arch_Window_options.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
 
 ## Opţiuni
 
@@ -140,7 +140,7 @@ Ferestrele pot include 3 tipuri de componente   * panouri, cadre și jaluzele. P
 -   Add a selected window to a [wall](Arch_Wall.md) by selecting both, then pressing the **<img src="images/Arch_Add.png" width=16px> [[Arch Add]]** button.
 -   Remove a selected window from a [wall](Arch_Wall.md) by selecting the window, then pressing the **<img src="images/Arch_Remove.png" width=16px> [[Arch Remove]]** button.
 -   When using presets, it is often convenient to turn the \"Near\" [Draft Snap](Draft_Snap.md) on, so you can snap your window to an existing face.
--   The hole created by a window in its host object is determined by two properties   * **Hole Depth** and **Hole Wire** (<small>(v0.17)</small> ). The Hole Wire number can be picked in the 3D view from the window\'s task panel available when double-clicking the window in the tree view
+-   The hole created by a window in its host object is determined by two properties: **Hole Depth** and **Hole Wire** (<small>(v0.17)</small> ). The Hole Wire number can be picked in the 3D view from the window\'s task panel available when double-clicking the window in the tree view
 -   Windows poate folosi [ Multi-Materials](Arch_MultiMaterial.md). Fereastra va căuta în Multi-Material -ul atașat pentru straturi de materiale cu același nume pentru fiecare componentă a ferestrei și o folosește dacă este găsită. De exemplu, o componentă numită \"OuterFrame\" va căuta în Multi-Material atașat, pentru un strat de material numit \"OuterFrame\". Dacă se găsește un astfel de strat, materialul său va fi atribuit componentei OuterFrame. Valoarea grosimii stratului de material nu este luată în considerare.
 
 
@@ -151,7 +151,7 @@ Ferestrele pot include 3 tipuri de componente   * panouri, cadre și jaluzele. P
 
 <div class="mw-translate-fuzzy">
 
-A se vedea de asemenea   * [Tutorial for open windows](Tutorial_for_open_windows.md)
+A se vedea de asemenea: [Tutorial for open windows](Tutorial_for_open_windows.md)
 
 
 </div>
@@ -159,28 +159,28 @@ A se vedea de asemenea   * [Tutorial for open windows](Tutorial_for_open_windows
 
 <div class="mw-translate-fuzzy">
 
-Ușile și ferestrele pot apărea parțial sau complet în modelul 3D sau pot fi afișate atât în plan cât și în elevație. Consequently, these will also appear in extracted 2D views generated by [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw Workbench](TechDraw_Workbench.md) or [Drawing Workbench](Drawing_Workbench.md).Pentru a obține acest lucru, cel puțin una dintre componentele ferestrei trebuie să aibă o articulație și un mod de deschidere definit (vezi [#Building components](#Building_components.md) de mai sus). Apoi, folosind proprietățile **Open**,**Symbol Plan**sau**Elevation Symbol**, puteți configura aspectul ferestrei   *
+Ușile și ferestrele pot apărea parțial sau complet în modelul 3D sau pot fi afișate atât în plan cât și în elevație. Consequently, these will also appear in extracted 2D views generated by [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw Workbench](TechDraw_Workbench.md) or [Drawing Workbench](Drawing_Workbench.md).Pentru a obține acest lucru, cel puțin una dintre componentele ferestrei trebuie să aibă o articulație și un mod de deschidere definit (vezi [#Building components](#Building_components.md) de mai sus). Apoi, folosind proprietățile **Open**,**Symbol Plan**sau**Elevation Symbol**, puteți configura aspectul ferestrei:
 
 
 </div>
 
-<img alt="" src=images/Arch_window_openings.png  style="width   *600px;">
+<img alt="" src=images/Arch_window_openings.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="A door showing from left to right the Symbol Plan, Symbol Elevation and Opening properties at work" src=images/Arch_window_openings.png  style="width   *600px;">
+<img alt="A door showing from left to right the Symbol Plan, Symbol Elevation and Opening properties at work" src=images/Arch_window_openings.png  style="width:600px;">
 
 
 </div>
 
 ## Defining window types 
 
-Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md)   *
+Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md):
 
-<img alt="" src=images/Arch_window_type_example.png  style="width   *800px;">
+<img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https   *//github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
 ### Example workflow 
 
@@ -189,7 +189,7 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 -   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
 -   Create an [App Part](App_Part.md), and place all your subcomponents in it
 -   Create a volume to be subtracted from the wall, for example by extruding the base sketch. Add this volume to the App Part. Make sure the volume is turned off
--   If using FreeCAD version 0.19 or later, you can add 3 properties to your App Part, by right-clicking its properties view, and check \"Show All\". Add the following properties (all of them are optional, the group doesn\'t matter)   *
+-   If using FreeCAD version 0.19 or later, you can add 3 properties to your App Part, by right-clicking its properties view, and check \"Show All\". Add the following properties (all of them are optional, the group doesn\'t matter):
     -   **Height** as a PropertyLength and link it, for example, to a vertical constraint of your base sketch
     -   **Width** as a PropertyLength and link it, for example, to a horizontal constraint of your base sketch
     -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
@@ -199,13 +199,13 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
 
-To build a material for type-based windows   *
+To build a material for type-based windows:
 
 -   Create a [multi-material](Arch_MultiMaterial.md)
 -   Create one entry in the multi-material for each component of your App Part. For example, one \"Frame\", one \"Glass panel\" as we used above. Make sure to use the exact same name.
 -   Attribute that multi-material to each of the windows derived from the same type
 
-You can use any other kind of workflow than the one described above, the important points to remember are   *
+You can use any other kind of workflow than the one described above, the important points to remember are:
 
 -   The type object must be one object, no matter the type (App Part, PartDesign Body, Part Compound, or even another Arch Window)
 -   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
@@ -213,25 +213,25 @@ You can use any other kind of workflow than the one described above, the importa
 
 ## Proprietăți
 
--    **Height**   * Înălțimea acestei ferestre
+-    **Height**: Înălțimea acestei ferestre
 
--    **Width**   * The width of this window
+-    **Width**: The width of this window
 
--    **Hole Depth**   * The depth of the hole created by this window in its host object
+-    **Hole Depth**: The depth of the hole created by this window in its host object
 
--    **Hole Wire**   * The number of the wire from the base object that is used to create a hole in the host object of this window. This value can be set graphically when double-clicking the window in the tree view. Setting a value of 0 will make the window automatically pick its biggest wire for the hole.
+-    **Hole Wire**: The number of the wire from the base object that is used to create a hole in the host object of this window. This value can be set graphically when double-clicking the window in the tree view. Setting a value of 0 will make the window automatically pick its biggest wire for the hole.
 
--    **Window Parts**   * A list of strings (5 strings per component, setting the component options above)
+-    **Window Parts**: A list of strings (5 strings per component, setting the component options above)
 
--    **Louvre Width**   * If any of the components is set to \"Louvres\", this property defines the size of the louvre elements
+-    **Louvre Width**: If any of the components is set to \"Louvres\", this property defines the size of the louvre elements
 
--    **Louvre Spacing**   * If any of the components is set to \"Louvres\", this property defines the spacing between the louvre elements
+-    **Louvre Spacing**: If any of the components is set to \"Louvres\", this property defines the spacing between the louvre elements
 
--    **Opening**   * All components that have their opening mode set, and provided a hinge is defined in them or in an earlier component in the list, will appear open by a percentage defined by this value
+-    **Opening**: All components that have their opening mode set, and provided a hinge is defined in them or in an earlier component in the list, will appear open by a percentage defined by this value
 
--    **Symbol Plan**   * Shows 2D opening symbol in plan
+-    **Symbol Plan**: Shows 2D opening symbol in plan
 
--    **Symbol Elevation**   * Shows 2D opening symbol in elevation
+-    **Symbol Elevation**: Shows 2D opening symbol in elevation
 
 ## Scripting
 
@@ -246,7 +246,7 @@ You can use any other kind of workflow than the one described above, the importa
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul pentru ferestre poate fi utilizat în [macro-uri](Macros/ro.md) și din consola [Python](Python.md) utilizând următoarea funcție   *
+Instrumentul pentru ferestre poate fi utilizat în [macro-uri](Macros/ro.md) și din consola [Python](Python.md) utilizând următoarea funcție:
 
 
 </div>
@@ -284,12 +284,12 @@ Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2,
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_Window_example2.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;">
 
 
 </div>
 
-Example   * 
+Example: 
 ```python
 import FreeCAD, Arch
 
@@ -308,11 +308,6 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 </div>
-
-
- 
-
-[Category   *Arch/ro](Category   *Arch/ro.md)
 
 
 

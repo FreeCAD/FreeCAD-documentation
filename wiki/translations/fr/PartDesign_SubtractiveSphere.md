@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *PartDesign SubtractiveSphere
-   Name/fr   *PartDesign Sphère soustractive
-   MenuLocation   *Part Design → Créer une primitive soustractive → Sphère soustractive
-   Workbenches   *[PartDesign](PartDesign_Workbench/fr.md)
-   Version   *0.17
-   SeeAlso   *[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Sphère additif](PartDesign_AdditiveSphere/fr.md)
+- GuiCommand:/fr
+   Name:PartDesign SubtractiveSphere
+   Name/fr:PartDesign Sphère soustractive
+   MenuLocation:Part Design → Créer une primitive soustractive → Sphère soustractive
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   Version:0.17
+   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Sphère additif](PartDesign_AdditiveSphere/fr.md)
 ---
 
 # PartDesign SubtractiveSphere/fr
@@ -18,31 +18,31 @@ Insère une sphère primitive soustractive dans le corps actif. Sa forme est sou
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Sphère soustractive'''**. **Remarque**   * la sphère soustractive fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir la sphère soustractive, cliquez sur la flèche vers le bas et choisissez Sphère soustractive dans le menu.
+1.  Pressez le bouton **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Sphère soustractive'''**. **Remarque**: la sphère soustractive fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir la sphère soustractive, cliquez sur la flèche vers le bas et choisissez Sphère soustractive dans le menu.
 2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquez sur **OK**.
 4.  Une sphère apparaît dans le corps actif.
 
 ## Options
 
-La Sphère peut être éditée après sa création de deux façons    *
+La Sphère peut être éditée après sa création de deux façons :
 
 -   Double-cliquez la dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 ## Propriétés
 
--    **Attachment**   * définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
+-    **Attachment**: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    **Label**   * donne le nom de la sphère, changer si nécessaire.
+-    **Label**: donne le nom de la sphère, changer si nécessaire.
 
--    **Radius**   * rayon de la sphère.
+-    **Radius**: rayon de la sphère.
 
--    **Angle1**   * (nommé *Paramètre V* dans les paramètres de la primitive) troncature inférieure de la sphère, parallèle à la section circulaire (-90 degrés dans une sphère complète).
+-    **Angle1**: (nommé *Paramètre V* dans les paramètres de la primitive) troncature inférieure de la sphère, parallèle à la section circulaire (-90 degrés dans une sphère complète).
 
--    **Angle2**   * (sans nom dans Paramètres de la primitive) troncature supérieure de la sphère, parallèle à la section circulaire (90 degrés dans une sphère complète).
+-    **Angle2**: (sans nom dans Paramètres de la primitive) troncature supérieure de la sphère, parallèle à la section circulaire (90 degrés dans une sphère complète).
 
--    **Angle3**   * (nommé *Paramètre U* dans les paramètres de la primitive) angle de rotation de la section transversale (360 degrés dans une sphère complète).
+-    **Angle3**: (nommé *Paramètre U* dans les paramètres de la primitive) angle de rotation de la section transversale (360 degrés dans une sphère complète).
 
 
 

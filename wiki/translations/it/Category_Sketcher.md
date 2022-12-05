@@ -1,8 +1,6 @@
 # Category:Sketcher/it
 This category includes FreeCAD pages related to Sketcher
 
-[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User_Documentation/it](Category   *User_Documentation/it.md)
-
 ### Contents
 
 |     |     |     |

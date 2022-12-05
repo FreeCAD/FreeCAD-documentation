@@ -36,12 +36,12 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 </div>
 
-The Blender navigation style was modeled after [Blender](https   *//www.blender.org).
+The Blender navigation style was modeled after [Blender](https://www.blender.org).
 
 
 <div class="mw-translate-fuzzy">
 
-Blender Gezinme [Blender](http   *//www.blender.org)\'dan sonra eklendi. Daha önce tek başına fareyle taşıma yapılamıyordu,taşıma için**SHIFT** tuşu kullanılıyordu. 2016\'da bu özellik yenilendi. Hem fare sağ tuşu hem de fare sol tuşu birlikte basılı tutularak taşıma yapılabilir. {{Blender Navigation/tr}}
+Blender Gezinme [Blender](http://www.blender.org)\'dan sonra eklendi. Daha önce tek başına fareyle taşıma yapılamıyordu,taşıma için**SHIFT** tuşu kullanılıyordu. 2016\'da bu özellik yenilendi. Hem fare sağ tuşu hem de fare sol tuşu birlikte basılı tutularak taşıma yapılabilir. {{Blender Navigation/tr}}
 
 
 </div>
@@ -73,17 +73,17 @@ Bu, varsayılan gezinme stilidir. Kullanıcıya görünümün basit bir kontrol�
 
 Hold down **Ctrl** to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode   * hold the **Ctrl** key, press the right mouse button once, then move the pointer.
+|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
 Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode   * hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
+|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
 |Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
 
 If the buttons are released before you stop the mouse motion, the view continues spinning, if this is enabled.
 
 A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode   * hold the **Shift** key, press the right mouse button once, then move the pointer.
+|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer.
 |Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 
 With this method the middle mouse button may be released after the right mouse button is held pressed.
@@ -139,7 +139,7 @@ Alternatively, use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold *
 
 ### OpenCascade navigation 
 
-The OpenCascade navigation style was modeled after [OpenCascade](https   *//www.opencascade.com/).
+The OpenCascade navigation style was modeled after [OpenCascade](https://www.opencascade.com/).
 
 
 {{OpenCascade Navigation
@@ -163,7 +163,7 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ### OpenInventor Gezinme 
 
-OpenInventor\'de (önceden Inventor) gezinme, [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor) den sonra eklendi. (Bu mod Autodesk Inventor\'a dayalı değildir.) Fare tek başına yeterli değildir. Nesneleri seçmek için,**CTRL** tuşunu basılı tutmanız gerekir . {{Inventor Navigation/tr
+OpenInventor\'de (önceden Inventor) gezinme, [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) den sonra eklendi. (Bu mod Autodesk Inventor\'a dayalı değildir.) Fare tek başına yeterli değildir. Nesneleri seçmek için,**CTRL** tuşunu basılı tutmanız gerekir . {{Inventor Navigation/tr
 }}
 
 
@@ -190,7 +190,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 
 ### OpenSCAD navigation 
 
-The OpenSCAD navigation style was modeled after [OpenSCAD](https   *//openscad.org/).
+The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
 
 
 <small>(v0.20)</small> 
@@ -211,7 +211,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 ### Revit navigation 
 
-The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
+The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wiki/Autodesk_Revit).
 
 
 {{Revit Navigation
@@ -233,7 +233,7 @@ Alternatively, hold the middle mouse button, then press and hold the right mouse
 
 ### TinkerCAD navigation 
 
-The TinkerCAD navigation style was modeled after [TinkerCAD](https   *//en.wikipedia.org/wiki/Tinkercad).
+The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
 
 
 <small>(v0.20)</small> 
@@ -289,7 +289,7 @@ FreeCAD, ayrıca bazı [ 3D giriş cihazlarını](3D_input_devices/tr.md) destek
 
 <div class="mw-translate-fuzzy">
 
-Son zamanlarda Mac kullanıcılarından [forum\'da](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) bu fare tuş ve klavye tuş kombinasyonunun beklendiği gibi çalışmadığı bildirildi.Maalesef, geliştiricilerin hiçbiri Mac\'e sahip değil, diğer düzenli katkı yapanlar da yok. Hangi wiki düğmelerinin ve tuş kombinasyonunun işe yaradığını belirlemek için sizin yardımınıza ihtiyacımız var, böylece bu wiki\'yi güncelleyebiliriz.
+Son zamanlarda Mac kullanıcılarından [forum\'da](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) bu fare tuş ve klavye tuş kombinasyonunun beklendiği gibi çalışmadığı bildirildi.Maalesef, geliştiricilerin hiçbiri Mac\'e sahip değil, diğer düzenli katkı yapanlar da yok. Hangi wiki düğmelerinin ve tuş kombinasyonunun işe yaradığını belirlemek için sizin yardımınıza ihtiyacımız var, böylece bu wiki\'yi güncelleyebiliriz.
 
 
 </div>

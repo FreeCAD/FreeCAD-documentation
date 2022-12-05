@@ -1,8 +1,6 @@
 # Category:Developer Documentation/pt-br
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/pt-br](Category   *Documentation/pt-br.md)
-
 ### Contents
 
 |     |     |     |

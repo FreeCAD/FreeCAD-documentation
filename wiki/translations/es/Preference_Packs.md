@@ -9,7 +9,7 @@ A **Preference Pack** is a distributable collection of user preferences (<small>
 
 Most user interaction with installed Preference Packs is via the **General** tab in the **General settings** section of the [Preferences editor](Preferences_Editor.md).
 
-<img alt="" src=images/PreferencePacks_MainInterface.png  style="width   *400px;">
+<img alt="" src=images/PreferencePacks_MainInterface.png  style="width:400px;">
 
 ## Aplicando un paquete instalado 
 
@@ -19,7 +19,7 @@ To apply a Preference Pack, click the **Apply** button next to its name in the *
 
 Packs can be created by hand, or jump-started by using the **Save new...** button in the **General** tab of the [Preferences editor](Preferences_Editor.md). Clicking the button shows a dialog requesting a name for the new pack, and displays a set of checkboxes allowing only a subset of preferences to be stored.
 
-<img alt="" src=images/PreferencePacks_SaveNewPack.png  style="width   *400px;">
+<img alt="" src=images/PreferencePacks_SaveNewPack.png  style="width:400px;">
 
 Because of the way FreeCAD uses preferences internally, only items contained in these template files can be saved automatically using this procedure. Items not included in the template files must be manually included in the pack\'s \*.cfg file. There is no built-in limit to which preferences items may be included in a preference pack, but authors are strongly discouraged from changing a user\'s set language, or from modifying the recent files list, or from changing anything related to a temporary UI state (e.g. the saved size of a resizable window, etc.).
 
@@ -306,7 +306,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 ### Preference Pack structure 
 
-While the core of most Preference Packs is a single configuration file, because of their design for distribution, some auxiliary structure is also required. Four core files define a pack, laid out in the following directory structure (for a Preference Pack named \"SamplePreferencePack\")   *
+While the core of most Preference Packs is a single configuration file, because of their design for distribution, some auxiliary structure is also required. Four core files define a pack, laid out in the following directory structure (for a Preference Pack named \"SamplePreferencePack\"):
 
 -   package.xml
 -   SamplePreferencePack/
@@ -314,9 +314,9 @@ While the core of most Preference Packs is a single configuration file, because 
     -   pre.FCMacro
     -   post.FCMacro
 
-The [Package Metadata](Package_Metadata.md) file, package.xml, defines the name of the Preference Pack, and allows you to assign other metadata items such as a version number, author information, and tags (which are displayed in the main UI as a comma-separated list). For a Preference Pack saved using the GUI as explained above, a single package.xml file is created in the **FREECAD_USER_DATA/SavedPreferencePacks/** directory. This file is used to describe the details such as the name and tags of all user-saved preference packs. To change a pack\'s name or tags, that file must be manually edited with a text editor. It can also provide a template for distributed preference packs   * the author of a distributed pack may choose to start by saving a pack locally, then copying the pack\'s subdirectory and this global package.xml file as a starting point, modifying the copied package.xml file to only reference the pack being packaged for distribution.
+The [Package Metadata](Package_Metadata.md) file, package.xml, defines the name of the Preference Pack, and allows you to assign other metadata items such as a version number, author information, and tags (which are displayed in the main UI as a comma-separated list). For a Preference Pack saved using the GUI as explained above, a single package.xml file is created in the **FREECAD_USER_DATA/SavedPreferencePacks/** directory. This file is used to describe the details such as the name and tags of all user-saved preference packs. To change a pack\'s name or tags, that file must be manually edited with a text editor. It can also provide a template for distributed preference packs: the author of a distributed pack may choose to start by saving a pack locally, then copying the pack\'s subdirectory and this global package.xml file as a starting point, modifying the copied package.xml file to only reference the pack being packaged for distribution.
 
-Other files may also be included in a distribution, depending on what\'s required for the pack. A well-produced preference pack designed for distributing a visual theme called \"DarkSide\" for FreeCAD might look like   *
+Other files may also be included in a distribution, depending on what\'s required for the pack. A well-produced preference pack designed for distributing a visual theme called \"DarkSide\" for FreeCAD might look like:
 
 -   package.xml
 -   resources/
@@ -326,20 +326,20 @@ Other files may also be included in a distribution, depending on what\'s require
     -   DarkSide.cfg
     -   DarkSide.qss
 
-Note the omission of the *pre.FCMacro* and *post.FCMacro* files, which are often unnecessary, as well as the inclusion of an icon (for display by the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md)), and the inclusion of a qss file (which will then be referenced in the *DarkSide.cfg* configuration data file).
+Note the omission of the *pre.FCMacro* and *post.FCMacro* files, which are often unnecessary, as well as the inclusion of an icon (for display by the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md)), and the inclusion of a qss file (which will then be referenced in the *DarkSide.cfg* configuration data file).
 
 The pre- and post- macro files are standard FreeCAD Python macros, and may contain any commands valid in such a macro. If the pre.FCMacro raises an exception (of any type), the application of the preference pack is cancelled. If the post.FCMacro raises an exception (of any type), the application of the pack is rolled back using the backup taken prior to its application. For example, these macros may be used to query the user for license acceptance, or to verify they are happy with the final state of their system after application.
 
-The package.xml file for this example pack might be   *
+The package.xml file for this example pack might be:
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
       <name>DarkSide Theme Package</name>
       <description>A preference pack including a stylesheet and other GUI color information for a Dark mode.</description>
       <version>1.0.0</version>
       <maintainer email="chennes@pioneerlibrarysystem.org">Chris Hennes</maintainer>
       <license file="LICENSE">GPLv3</license>
-      <url type="repository" branch="main">https   *//github.com/chennes/DarkSideThemePackage</url>
+      <url type="repository" branch="main">https://github.com/chennes/DarkSideThemePackage</url>
       <icon>resources/icons/DarkSide.svg</icon>
 
       <content>
@@ -357,15 +357,13 @@ The package.xml file for this example pack might be   *
 
 ### Including templates in your add-on 
 
-Many add-ons have user-specifiable preference information that is added to the user.cfg file. An add-on author may also choose to provide a Preference Pack Template file that lists the user configuration variables that can be automatically saved using the \"Save new pack\" method described above. To include these template files, add-on authors should create a subdirectory in their package called either \"PreferencePackTemplates\" or \"preference_pack_templates\". Within that folder should be one or more \*.cfg files   * each must be a valid, well-formed user.cfg XML file containing one or more configuration variables set to their default values. The name of the file should reflect its purpose, e.g. \"colors.cfg\", \"active_tabs.cfg\", etc. This set of files will be presented to the user when they save a new preference pack, with each file receiving a checkable entry in the list of items to save. The filename is used to generate the UI entry, with underscores replaced by spaces (and the extension omitted).
+Many add-ons have user-specifiable preference information that is added to the user.cfg file. An add-on author may also choose to provide a Preference Pack Template file that lists the user configuration variables that can be automatically saved using the \"Save new pack\" method described above. To include these template files, add-on authors should create a subdirectory in their package called either \"PreferencePackTemplates\" or \"preference_pack_templates\". Within that folder should be one or more \*.cfg files: each must be a valid, well-formed user.cfg XML file containing one or more configuration variables set to their default values. The name of the file should reflect its purpose, e.g. \"colors.cfg\", \"active_tabs.cfg\", etc. This set of files will be presented to the user when they save a new preference pack, with each file receiving a checkable entry in the list of items to save. The filename is used to generate the UI entry, with underscores replaced by spaces (and the extension omitted).
 
 ## Distributing a pack 
 
-Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](Python_console.md) to get this path), in a subdirectory called \"Preference Packs\".
+Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](Python_console.md) to get this path), in a subdirectory called \"Preference Packs\".
 
 See also [Private Preference Packs](Private_Preference_Packs.md).
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

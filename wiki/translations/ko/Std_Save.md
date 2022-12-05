@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ko
-   Name   *Std Save
-   Name/ko   *표준 저장
-   MenuLocation   *파일 → 저장
-   Workbenches   *모두
-   Shortcut   ***Ctrl**+**S**
-   SeeAlso   *[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 사본 저장](Std_SaveCopy/ko.md), [표준 모두 저장](Std_SaveAll/ko.md)
+- GuiCommand:/ko
+   Name:Std Save
+   Name/ko:표준 저장
+   MenuLocation:파일 → 저장
+   Workbenches:모두
+   Shortcut:**Ctrl**+**S**
+   SeeAlso:[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 사본 저장](Std_SaveCopy/ko.md), [표준 모두 저장](Std_SaveAll/ko.md)
 ---
 
 # Std Save/ko
@@ -16,7 +16,7 @@
 
 ## 용법
 
-1.  이 명령어를 실행하는 방법은 여러가지입니다   *
+1.  이 명령어를 실행하는 방법은 여러가지입니다:
     -   
         **<img src="images/Std_Save.svg" width=16px> [표준 저장](Std_Save/ko.md)
 **
@@ -25,7 +25,7 @@
 
     -   메뉴에서 **파일 → <img src="images/Std_Save.svg" width=16px> 저장** 옵션을 선택합니다.
 
-    -   단축키를 사용합니다   * **Ctrl**+**S**.
+    -   단축키를 사용합니다: **Ctrl**+**S**.
 2.  새로 만든 문서라면 대화 상자에서 파일 이름을 입력하고 **저장** 버튼을 누릅니다.
 
 ## 선택 사항 
@@ -38,12 +38,12 @@
 
 ## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다   * **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 

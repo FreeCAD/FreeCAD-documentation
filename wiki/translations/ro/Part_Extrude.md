@@ -1,6 +1,6 @@
 # Part Extrude/ro
 ---
-- GuiCommand   *   Name   *Part Extrude   MenuLocation   *Part → Extrude   Workbenches   *[[Part_Workbench   Part]]|SeeAlso   *---
+- GuiCommand:   Name:Part Extrude   MenuLocation:Part → Extrude   Workbenches:[[Part_Workbench   Part]]|SeeAlso:---
 
 
 </div>
@@ -76,53 +76,17 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
--   **Base**   * the input shape (the shape upon which the Part Extrude was applied)
+-   **Base**: the input shape (the shape upon which the Part Extrude was applied)
 
 
 </div>
 
--   **Dir**   * the direction to extend the shape. If **Dir Mode** is \'Custom\', you can edit **Dir**. Otherwise, **Dir** is read-only, and computed from the linked shape.
+-   **Dir**: the direction to extend the shape. If **Dir Mode** is \'Custom\', you can edit **Dir**. Otherwise, **Dir** is read-only, and computed from the linked shape.
 
 
 <div class="mw-translate-fuzzy">
 
--   **Dir Link**   * parametric link to a edge (line) that sets the direction of extrusion. As of v0.17, this property is not supported by property editor.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Dir Mode**   * sets how **Dir** is controlled. \'Custom\' meand **Dir** is editable. \'Edge\' means Dir is obtained from an edge (line) linked by **Dir Link**. \'Normal\' means Dir is perpendicular to plane of the input shape.
-
-
-</div>
-
--   **Length Fwd**   * The distance to extrude by. If both **Length Fwd** and **Length Rev** are zero, the length of **Dir** vector is used.
-
--   **Length Rev**   * Additional length to extrude against **Dir**.
-
--   **Solid**   * if True, extruding a closed edge or a closed wire will yield a solid. If False, a shell will result.
-
--   **Reversed**   * reverses the extrusion to go against **Dir**.
-
--   **Symmetric**   * if True, extrusion is centered at the input shape, and total length is **Length Fwd**. **Length Rev** is ignored.
-
-
-<div class="mw-translate-fuzzy">
-
--   **Taper Angle** and **Taper Angle Rev**   * applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**). As of v0.17, tapered extrusion is only supported for wires with no holes.
-
-
-</div>
-
--   **Face Maker Class**   * sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
-
-
-<div class="mw-translate-fuzzy">
-
--   **Placement**   * the standard [placement](Placement.md) parameters
+-   **Dir Link**: parametric link to a edge (line) that sets the direction of extrusion. As of v0.17, this property is not supported by property editor.
 
 
 </div>
@@ -130,7 +94,43 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
--   **Label**   * label to be shown in the Model tree (not available on Extrude creation)
+-   **Dir Mode**: sets how **Dir** is controlled. \'Custom\' meand **Dir** is editable. \'Edge\' means Dir is obtained from an edge (line) linked by **Dir Link**. \'Normal\' means Dir is perpendicular to plane of the input shape.
+
+
+</div>
+
+-   **Length Fwd**: The distance to extrude by. If both **Length Fwd** and **Length Rev** are zero, the length of **Dir** vector is used.
+
+-   **Length Rev**: Additional length to extrude against **Dir**.
+
+-   **Solid**: if True, extruding a closed edge or a closed wire will yield a solid. If False, a shell will result.
+
+-   **Reversed**: reverses the extrusion to go against **Dir**.
+
+-   **Symmetric**: if True, extrusion is centered at the input shape, and total length is **Length Fwd**. **Length Rev** is ignored.
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**). As of v0.17, tapered extrusion is only supported for wires with no holes.
+
+
+</div>
+
+-   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Placement**: the standard [placement](Placement.md) parameters
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Label**: label to be shown in the Model tree (not available on Extrude creation)
 
 
 </div>
@@ -142,7 +142,7 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
--   OK   * creates the extrusion, and closes the dialog.
+-   OK: creates the extrusion, and closes the dialog.
 
 
 </div>
@@ -150,7 +150,7 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
--   Close   * closes dialog, without doing anything.
+-   Close: closes dialog, without doing anything.
 
 
 </div>
@@ -158,25 +158,17 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
--   Apply   * creates the extrusion, but does not close the dialog. You can then select another shape in the list on the bottom, and create more extrusions. Clicking Apply may times creates many extrusions.
+-   Apply: creates the extrusion, but does not close the dialog. You can then select another shape in the list on the bottom, and create more extrusions. Clicking Apply may times creates many extrusions.
 
 
 </div>
 
--   \'Direction\' radio buttons   * set the way extrusion direction is computed.
+-   \'Direction\' radio buttons: set the way extrusion direction is computed.
 
 
 <div class="mw-translate-fuzzy">
 
--   \'Select\' button   * click it, and then pick an edge in 3D view. That edge will appear in text field next to the button, in format \"ObjectName   *EdgeN\". You can also type the link manually. Values X,Y,Z will be filled according to the edge direction.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   X, Y, Z buttons   * click X button to set extrusion direction to +X axis. Click it again to set -X axis.
+-   \'Select\' button: click it, and then pick an edge in 3D view. That edge will appear in text field next to the button, in format \"ObjectName:EdgeN\". You can also type the link manually. Values X,Y,Z will be filled according to the edge direction.
 
 
 </div>
@@ -184,20 +176,28 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 <div class="mw-translate-fuzzy">
 
--   X,Y,Z input fields   * set or display the direction vector of extrusion. If both lengths are zero, the length of this vector sets the length of extrusion, and values are always in mm, regardless of unit preferences.
+-   X, Y, Z buttons: click X button to set extrusion direction to +X axis. Click it again to set -X axis.
 
 
 </div>
 
--   Length fields   * set length of extrusion. These input fields have unit support.
 
--   Symmetric   * spreads out the extrusion into both directions, so that the profile remains in the middle.
+<div class="mw-translate-fuzzy">
 
--   Taper Outward Angle   * positive angle means profile is expanded at other end of extrusion.
+-   X,Y,Z input fields: set or display the direction vector of extrusion. If both lengths are zero, the length of this vector sets the length of extrusion, and values are always in mm, regardless of unit preferences.
 
--   Create Solid checkbox   * if checked, extruding a closed wire or edge will yield a solid. It is checked by default, if a closed wire was preselected before invoking Part Extrude.
 
--   Shape list   * here you select, what shapes to extrude. If multiple objects are selected, multiple Extrude objects are created.
+</div>
+
+-   Length fields: set length of extrusion. These input fields have unit support.
+
+-   Symmetric: spreads out the extrusion into both directions, so that the profile remains in the middle.
+
+-   Taper Outward Angle: positive angle means profile is expanded at other end of extrusion.
+
+-   Create Solid checkbox: if checked, extruding a closed wire or edge will yield a solid. It is checked by default, if a closed wire was preselected before invoking Part Extrude.
+
+-   Shape list: here you select, what shapes to extrude. If multiple objects are selected, multiple Extrude objects are created.
 
 ## Notes
 

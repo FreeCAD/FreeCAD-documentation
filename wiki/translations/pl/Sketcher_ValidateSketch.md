@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher ValidateSketch
-   Name/pl   *Szkicownik   * Sprawdź poprawność szkicu
-   MenuLocation   *Sketch → Sprawdź poprawność szkicu ...
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso   *[Szkicownik   * Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Topological naming problem](Topological_naming_problem.md)
+- GuiCommand:/pl
+   Name:Sketcher ValidateSketch
+   Name/pl:Szkicownik: Sprawdź poprawność szkicu
+   MenuLocation:Sketch → Sprawdź poprawność szkicu ...
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   SeeAlso:[Szkicownik: Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Topological naming problem](Topological_naming_problem.md)
 ---
 
 # Sketcher ValidateSketch/pl
@@ -18,14 +18,14 @@ Narzędzie **Sprawdzanie poprawności szkicu** może być używane do analizowan
 
 ## Użycie
 
-1.  Tego narzędzia nie można użyć na szkicu, który jest w trybie edycji. W razie potrzeby wyjdź z trybu edycji, wykonując jedną z następujących czynności   *
-    -   Naciśnij przycisk **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Opuść szkic](Sketcher_LeaveSketch/pl.md)**.
+1.  Tego narzędzia nie można użyć na szkicu, który jest w trybie edycji. W razie potrzeby wyjdź z trybu edycji, wykonując jedną z następujących czynności:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Opuść szkic](Sketcher_LeaveSketch/pl.md)**.
     -   Naciśnij przycisk **Zamknij** w górnej części [panelu zadań](Task_panel/pl.md).
-    -   Użyj skrótu klawiaturowego   * **Esc** *(jeśli opcja jest włączona w [Preferencjach szkicownika](Sketcher_Preferences/pl#Informacje_og.C3.B3lne.md))*.
+    -   Użyj skrótu klawiaturowego: **Esc** *(jeśli opcja jest włączona w [Preferencjach szkicownika](Sketcher_Preferences/pl#Informacje_og.C3.B3lne.md))*.
 2.  W [widoku drzewa](Tree_view/pl.md) wybierz szkic, który ma zostać sprawdzony, lub kliknij jedną z krawędzi w oknie [widoku 3D](3D_view/pl.md).
-3.  Aby otworzyć narzędzie sprawdzania poprawności szkicu, wykonaj jedną z następujących czynności   *
+3.  Aby otworzyć narzędzie sprawdzania poprawności szkicu, wykonaj jedną z następujących czynności:
     -   Wybierz z menu opcję **Sketch → Validate sketch...**.
-    -   Naciśnij przycisk **[<img src=images/Sketcher_ValidateSketch.svg style="width   *16px">. [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md)** *(nie jest dostępny w środowisku pracy [Projekt części](PartDesign_Workbench/pl.md))*.
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px">. [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md)** *(nie jest dostępny w środowisku pracy [Projekt części](PartDesign_Workbench/pl.md))*.
 4.  Zobacz [Opcje](#Opcje.md) poniżej, aby zapoznać się z dostępnymi operacjami.
 5.  Po zakończeniu naciśnij przycisk **Zamknij**.
 
@@ -59,7 +59,7 @@ Zdegenerowana geometria może być wynikiem działania solvera w szkicu.
 
 Na przykład, jeśli linia jest zmuszona do skrócenia długości, tak aby stała się prawie punktem.
 
-Inne przykłady   * linia o zerowej długości lub okrąg/łuk o zerowym promieniu.
+Inne przykłady: linia o zerowej długości lub okrąg/łuk o zerowym promieniu.
 
 ### Odwrócona geometria zewnętrzna 
 

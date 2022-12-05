@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM PostFilterClipScalar
-   Name/fr   *FEM Filtre d'écrêtage scalaire
-   MenuLocation   *Résultats → Filtre d'écrêtage scalaire
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM PostFilterClipScalar
+   Name/fr:FEM Filtre d'écrêtage scalaire
+   MenuLocation:Résultats → Filtre d'écrêtage scalaire
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterClipScalar/fr
@@ -13,18 +13,18 @@
 
 Filtre un champ en utilisant une valeur scalaire spécifiée.
 
-<img alt="" src=images/FEM_Scalar-Clip-Filter-Example.png  style="width   *400px;">
+<img alt="" src=images/FEM_Scalar-Clip-Filter-Example.png  style="width:400px;">
 
 *Un résultat de Filtre d\'écrêtage scalaire.Le pipeline original est l\'objet semi-transparent.*
 
-Un filtre scalaire peut être combiné avec d\'autres filtres. Voici par exemple un filtre scalaire sur un [filtre des déformations](FEM_PostFilterWarp/fr.md) (semi-transparent)    *
+Un filtre scalaire peut être combiné avec d\'autres filtres. Voici par exemple un filtre scalaire sur un [filtre des déformations](FEM_PostFilterWarp/fr.md) (semi-transparent) :
 
-<img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width   *600px;">
+<img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width:600px;">
 
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé ou un autre filtre existant.
-2.  Lancez la commande soit en    *
+2.  Lancez la commande soit en :
     -   Appuyant sur le bouton **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> '''Filtre d'écrêtage scalaire'''**.
     -   Utilisation du menu **Résultats → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Filtre d'écrêtage scalaire**.
 3.  Ajustez les options d\'affichage de **Résultats** comme pour le [pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Masquez ce pipeline pour voir l\'effet d\'un Filtre d\'écrêtage scalaire.

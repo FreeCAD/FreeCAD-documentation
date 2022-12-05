@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher External
-   Name/fr   *Sketcher Géométrie externe
-   MenuLocation   *Sketch → Géométries d'esquisse → Géométrie externe
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***G** **X**
-   SeeAlso   *[Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher External
+   Name/fr:Sketcher Géométrie externe
+   MenuLocation:Sketch → Géométries d'esquisse → Géométrie externe
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **X**
+   SeeAlso:[Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
 # Sketcher External/fr
@@ -16,12 +16,12 @@ L\'outil **<img src="images/Sketcher_External.svg" width=16px> [Géométrie exte
 
 Attention, l\'utilisation de cet outil pour créer un lien vers une géométrie (solide) créée peut conduire à des résultats inattendus en raison du [Problème de dénomination topologique](Topological_naming_problem/fr.md). Voir également [Conseils pour des modèles stables](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md).
 
-<FILE   *Sketcher_ExternalEsempio1.png>
+<FILE:Sketcher_ExternalEsempio1.png>
 
 ## Utilisation
 
 -   Créer une nouvelle esquisse, ou ouvrir une esquisse existante.
--   Cliquer sur le bouton **[<img src=images/Sketcher_External.svg style="width   *16px"> [Géométrie externe](Sketcher_External/fr.md)**.
+-   Cliquer sur le bouton **[<img src=images/Sketcher_External.svg style="width:16px"> [Géométrie externe](Sketcher_External/fr.md)**.
 -   Sélectionner une arête ou un sommet que vous voulez lier dans l\'esquisse.
 -   Appuyer sur **Echap** ou sélectionner un autre outil pour quitter l\'outil.
 
@@ -63,15 +63,15 @@ Ci-dessous, une esquisse appliquée sur la face supérieure d\'un solide créé 
 
 Dans ce cas, elles sont utilisées comme référence pour les contraintes de tangence avec la circonférence d\'un cercle. Elles sont également utilisés comme référence pour des contraintes horizontale et verticale pour localiser le centre du deuxième cercle par rapport au bout et le haut de l\'objet.
 
-<FILE   *Sketcher_ExternalEsempio2.png>
+<FILE:Sketcher_ExternalEsempio2.png>
 
 Voici la même esquisse en mode d\'édition, avec la protrusion sur laquelle elle est appliquée masquée.
 
-<FILE   *Sketcher_ExternalEsempio4.png>
+<FILE:Sketcher_ExternalEsempio4.png>
 
 Lorsque l\'esquisse est fermée, les lignes de géométrie externe ne sont pas visibles.
 
-<FILE   *Sketcher_ExternalEsempio3.png>
+<FILE:Sketcher_ExternalEsempio3.png>
 
 
 

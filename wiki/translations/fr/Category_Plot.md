@@ -1,8 +1,6 @@
 # Category:Plot/fr
 Cette catégorie liste les pages en relation avec l\'[atelier Plot](Plot_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

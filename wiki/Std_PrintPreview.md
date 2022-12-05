@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std PrintPreview
-   MenuLocation   *File → Print preview...
-   Workbenches   *All
-   SeeAlso   *[Std Print](Std_Print.md)
+- GuiCommand:
+   Name:Std PrintPreview
+   MenuLocation:File → Print preview...
+   Workbenches:All
+   SeeAlso:[Std Print](Std_Print.md)
 ---
 
 # Std PrintPreview

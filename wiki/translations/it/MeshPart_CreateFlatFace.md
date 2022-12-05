@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *MeshPart_CreateFlatFace
-   Name/it   *Sviluppa una faccia
-   Empty   *1
-   MenuLocation   *Mesh → Sviluppa una faccia
-   Workbenches   *[Mesh](Mesh_Workbench/it.md)
-   SeeAlso   *[Sviluppa una mesh](MeshPart_CreateFlatMesh/it.md)
+- GuiCommand:/it
+   Name:MeshPart_CreateFlatFace
+   Name/it:Sviluppa una faccia
+   Empty:1
+   MenuLocation:Mesh → Sviluppa una faccia
+   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   SeeAlso:[Sviluppa una mesh](MeshPart_CreateFlatMesh/it.md)
 ---
 
 # MeshPart CreateFlatFace/it
@@ -24,7 +24,7 @@ The **MeshPart CreateFlatFace** command creates a flat representation of a face 
 
 ## Proprietà
 
-Vedere   * [Funzioni Part](Part_Feature/it.md).
+Vedere: [Funzioni Part](Part_Feature/it.md).
 
 
 <div class="mw-translate-fuzzy">

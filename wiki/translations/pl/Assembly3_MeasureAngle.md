@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Assembly3 MeasureAngle
-   Icon   *Assembly_MeasureAngle.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:
+   Name:Assembly3 MeasureAngle
+   Icon:Assembly_MeasureAngle.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 MeasureAngle/pl

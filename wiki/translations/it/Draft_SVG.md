@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Draft SVG è un modulo software utilizzato dai comandi <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Apri](Std_Open/it.md), [Importa](Std_Import/it.md) e [Esporta](Std_Export/it.md) per gestire il formato [SVG](SVG/it.md).
+Draft SVG è un modulo software utilizzato dai comandi <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Apri](Std_Open/it.md), [Importa](Std_Import/it.md) e [Esporta](Std_Export/it.md) per gestire il formato [SVG](SVG/it.md).
 
 
 </div>
@@ -25,7 +25,7 @@ Draft SVG è un modulo software utilizzato dai comandi <img alt="" src=images/St
 
 ## Importazione
 
-Si possono importare i seguenti oggetti SVG   *
+Si possono importare i seguenti oggetti SVG:
 
 -   Oggetti PATH
 -   Oggetti LINE
@@ -37,11 +37,11 @@ Si possono importare i seguenti oggetti SVG   *
 
 ## Limitazioni
 
-FreeCAD non importerà oggetti tracciato che hanno un solo punto ([forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+FreeCAD non importerà oggetti tracciato che hanno un solo punto ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 ## Esportazione
 
-È possibile esportare i seguenti oggetti FreeCAD   *
+È possibile esportare i seguenti oggetti FreeCAD:
 
 -   Linee e spezzate (polilinee)
 -   Archi e circonferenze
@@ -68,7 +68,7 @@ Durante l\'importazione sono rispettati la larghezza, l\'altezza e gli attributi
 
 <div class="mw-translate-fuzzy">
 
-L\'editor di SVG [Inkscape](https   *//inkscape.org/) attualmente funziona solo con documenti con 90 DPI. Non importa quale unità è selezionata in Inkscape. In uscita, tutto deve essere considerato convertito in 90 DPI e **arrotondato** a 6 decimali.
+L\'editor di SVG [Inkscape](https://inkscape.org/) attualmente funziona solo con documenti con 90 DPI. Non importa quale unità è selezionata in Inkscape. In uscita, tutto deve essere considerato convertito in 90 DPI e **arrotondato** a 6 decimali.
 
 Dato che FreeCAD (e lo standard SVG) è agnostico alla precisione di arrotondamento fatta in Inkscape questi valori non sono arrotondati in ingresso. And odd values in millimeter will remain.
 
@@ -82,7 +82,7 @@ Se è necessario importare l\'SVG senza arrotondamenti, lavorare in Unità utent
 
 <div class="mw-translate-fuzzy">
 
-Per ulteriori informazioni, consultare   * [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
 
 
 </div>
@@ -93,7 +93,7 @@ Per ulteriori informazioni, consultare   * [Preferenze di Importa/Esporta](Impor
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -103,7 +103,7 @@ Per ulteriori informazioni, consultare   * [Preferenze di Importa/Esporta](Impor
 
 <div class="mw-translate-fuzzy">
 
-Si possono esportare elementi in SVG usando la seguente funzione   *
+Si possono esportare elementi in SVG usando la seguente funzione:
 
 
 </div>
@@ -113,9 +113,9 @@ Si possono esportare elementi in SVG usando la seguente funzione   *
 importSVG.export(exportList, filename)
 ```
 
--   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
+-   For the Windows OS: use a **/** (forward slash) as the path separator in {{Incode|filename}}.
 
-Esempio   *
+Esempio:
 
 
 ```python
@@ -142,11 +142,6 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 </div>
-
-
- 
-
-[Category   *File Formats](Category_File_Formats.md)
 
 
 

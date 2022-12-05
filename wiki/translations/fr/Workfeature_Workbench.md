@@ -1,4 +1,4 @@
-# <img alt="Icône de l\'atelier Workfeature" src=images/WF_wf.png  style="width   *64px;"> Workfeature Workbench/fr
+# <img alt="Icône de l\'atelier Workfeature" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/fr
 
 
 {{Note|Note|Fusionner avec [Macro WorkFeatures](Macro_WorkFeatures/fr.md)??}}
@@ -17,16 +17,16 @@ Outil utilitaire pour créer
 
 ## Références
 
--   Auteur   * [Rentlau](https   *//github.com/Rentlau)
--   Page d\'accueil   * [WorkFeature](https   *//github.com/Rentlau/WorkFeature)
--   Code source sur github   * [WorkFeature](https   *//github.com/Rentlau/WorkFeature)
+-   Auteur: [Rentlau](https://github.com/Rentlau)
+-   Page d\'accueil: [WorkFeature](https://github.com/Rentlau/WorkFeature)
+-   Code source sur github: [WorkFeature](https://github.com/Rentlau/WorkFeature)
 
 ## Outils
 
 ### Documentation
 
--   Documentation sur les versions [ici](https   *//github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) et
--   Documentation complète [ici](https   *//github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
+-   Documentation sur les versions [ici](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) et
+-   Documentation complète [ici](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
 
 ### Barre d\'outils 
 
@@ -62,19 +62,17 @@ Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_
 
 ## Liens avec l\'atelier Animation 
 
--   Atelier Wiki   *
--   Wiki FreeCAD   *
--   Forum FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
--   Tutoriels   *
--   Vidéos   *
--   Des dossiers   *
--   Signaler les bogues   * veuillez signaler les bogues sur [FreeCAD forum](http   *//forum.freecadweb.org/index.php)
+-   Atelier Wiki:
+-   Wiki FreeCAD:
+-   Forum FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160>
+-   Tutoriels:
+-   Vidéos:
+-   Des dossiers:
+-   Signaler les bogues: veuillez signaler les bogues sur [FreeCAD forum](http://forum.freecadweb.org/index.php)
 
 ## Autres liens intéressants 
 
 -   [Ateliers externes](External_workbenches/fr.md)
-
-[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

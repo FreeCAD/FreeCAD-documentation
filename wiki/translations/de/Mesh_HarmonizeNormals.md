@@ -1,6 +1,6 @@
 # Mesh HarmonizeNormals/de
 ---
-- GuiCommand   */de   Name   *Mesh HarmonizeNormals‏‎   MenuLocation   *Meshes → Harmonize normals   Workbenches   *[[Mesh Workbench/de   Mesh]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/de   Name:Mesh HarmonizeNormals‏‎   MenuLocation:Meshes → Harmonize normals   Workbenches:[[Mesh Workbench/de   Mesh]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -39,7 +39,7 @@ Richte die Normalen eines oder mehrerer Netze aus.
 </div>
 
 -   This command can produce a mesh with flipped normals. The [Mesh FlipNormals](Mesh_FlipNormals.md) command can be used to correct this.
--   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings   * **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See   * [Preferences Editor](Preferences_Editor#3D_View.md).
+-   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See: [Preferences Editor](Preferences_Editor#3D_View.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Sketcher ConstrainDistanceX
-   Name/es   *Restricción de distancia horizontal
-   Workbenches   *[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation   *Sketch → Restricciones de croquis  → Restricción de distancia horizontal
-   Shortcut   *May + H
-   SeeAlso   *[Restricción de longitud](Sketcher_ConstrainDistance/es.md), [Restricción de distancia vertical](Sketcher_ConstrainDistanceY/es.md)
+- GuiCommand:/es
+   Name:Sketcher ConstrainDistanceX
+   Name/es:Restricción de distancia horizontal
+   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation:Sketch → Restricciones de croquis  → Restricción de distancia horizontal
+   Shortcut:May + H
+   SeeAlso:[Restricción de longitud](Sketcher_ConstrainDistance/es.md), [Restricción de distancia vertical](Sketcher_ConstrainDistanceY/es.md)
 ---
 
 # Sketcher ConstrainDistanceX/es
@@ -42,33 +42,33 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 </div>
 
 1.  Pick one or two points or one line.
-2.  Invoke the tool several ways   *
-    -   Press the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width   *16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
+2.  Invoke the tool several ways:
+    -   Press the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
     -   Use the **L** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width   *16px"> Constrain horizontal distance** from the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 
 
 <div class="mw-translate-fuzzy">
 
-**Note   *** the constraint tool can also be started with no prior selection, but will require selection of two points or one line. To set the distance to the origin, the sketch origin point needs to be selected as well. By default the command will be in continue mode to create new constraints; press the right mouse button or **ESC** once to quit the command.
+**Note:** the constraint tool can also be started with no prior selection, but will require selection of two points or one line. To set the distance to the origin, the sketch origin point needs to be selected as well. By default the command will be in continue mode to create new constraints; press the right mouse button or **ESC** once to quit the command.
 
 
 </div>
 
 ## Scripting
 
-Distance from origin   *
+Distance from origin:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices   *
+Distance between two vertices:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Horizontal span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line)   *
+Horizontal span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```

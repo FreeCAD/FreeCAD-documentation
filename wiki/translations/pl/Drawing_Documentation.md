@@ -1,5 +1,5 @@
 # Drawing Documentation/pl
-This page documents jcc242\'s understanding of the Drawing module. It includes files and features that he is currently working on and may not yet be in the master branch. The source for those files is on [his Github](https   *//github.com/jcc242/FreeCAD), but be careful as that is very unstable!
+This page documents jcc242\'s understanding of the Drawing module. It includes files and features that he is currently working on and may not yet be in the master branch. The source for those files is on [his Github](https://github.com/jcc242/FreeCAD), but be careful as that is very unstable!
 
 ## Base (Mod/Drawing) 
 
@@ -27,7 +27,7 @@ Initializes the various namespaces and modules and stuff used in the drawing mod
 
 ### DrawingExport.cpp
 
-Two classes   * SVGOutput and DXFOutput. They both contain methods to put out the code in their respective language. Typically require an object of the appropriate typedef, and sometimes some additional identifier information.
+Two classes: SVGOutput and DXFOutput. They both contain methods to put out the code in their respective language. Typically require an object of the appropriate typedef, and sometimes some additional identifier information.
 
 ### FeatureClip.cpp
 
@@ -71,11 +71,11 @@ Just #include \"PreCompiled.h\"
 
 The constructor just runs the execute() method to update it\'s stuff
 
-invertY   * since SVG does its y-axis backwards to every other coordinate system in the world, we must invert it when converting from a FreeCAD part to an SVG projection for the Drawing view.
+invertY: since SVG does its y-axis backwards to every other coordinate system in the world, we must invert it when converting from a FreeCAD part to an SVG projection for the Drawing view.
 
-getSVG   * fetches the SVG code from the DrawingExport stuff. Formats depending on type of line (hidden or not and some other stuff I need to figure out).
+getSVG: fetches the SVG code from the DrawingExport stuff. Formats depending on type of line (hidden or not and some other stuff I need to figure out).
 
-getDXF   * same as getSVG except for DXF format.
+getDXF: same as getSVG except for DXF format.
 
 ## Gui
 
@@ -105,13 +105,13 @@ Creates the task dialog for placing the orthographic views!
 
 Does a lot of the calculations for where to position stuff (automatic calculations as well, it seems).
 
-Takes the input from the TaskOrthoViews gui and does stuff with it. Uses the single inheritance method talked about [on the qt website](http   *//doc.qt.digia.com/qt/designer-using-a-ui-file.html).
+Takes the input from the TaskOrthoViews gui and does stuff with it. Uses the single inheritance method talked about [on the qt website](http://doc.qt.digia.com/qt/designer-using-a-ui-file.html).
 
 ### ViewProviderPage.cpp
 
 Constructor adds some properties for the view stuff. Destructor does nothing. Attaches something (attaches what? attaches the view to the page?) sets and gets display modes (what are display modes? what do they do and what are possible options?) Does something about updating some kind of data has a context menu that says \"Show drawing\", figure out what this means Has a thing for double clicking to select the view (I think?)
 
-showDrawingView seems to do some work on settings things up   * gets the current document, sets the window icon and title, adds it to the main window (of FreeCAD?)
+showDrawingView seems to do some work on settings things up: gets the current document, sets the window icon and title, adds it to the main window (of FreeCAD?)
 
 ### ViewProviderView.cpp
 
@@ -129,16 +129,14 @@ CanvasView is the actual QGraphicsScene object and DrawingView processes a list 
 
 ## Adding commands to the Drawing Workbench 
 
-4 simple steps   *
+4 simple steps:
 
 1.  Add a class to Command.cpp. Follow the others for an example of the formatting.
 2.  Add a title, icon, tooltip, etc., again, follow the existing classes in command.cpp
 3.  Add your class to the bottom of Command.cpp
 4.  Add your information to Workbench.cpp, this will tell FreeCAD/Drawing module where to place the icons defined in command.cpp in the actual freecad interface (the toolbars, dropdowns, etc.)
 
-{{Drawing Tools navi}} 
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md)
+{{Drawing Tools navi}}
 
 
 

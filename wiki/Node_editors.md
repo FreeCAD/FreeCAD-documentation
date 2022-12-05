@@ -11,27 +11,27 @@ The following is a list of node editors that can or potentially can work in Free
 
 ### PyFlow
 
-<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=36299>
+<https://forum.freecadweb.org/viewtopic.php?f=8&t=36299>
 
 ### Sverchok
 
-<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=51069>
+<https://forum.freecadweb.org/viewtopic.php?f=8&t=51069>
 
-<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=67728>
+<https://forum.freecadweb.org/viewtopic.php?f=8&t=67728>
 
 [BlenderSverchokAddonSetup](BlenderSverchokAddonSetup.md)
 
 ### Pure-Data 
 
-<https   *//forum.freecadweb.org/viewtopic.php?f=24&t=51429>
+<https://forum.freecadweb.org/viewtopic.php?f=24&t=51429>
 
 ### Modelica
 
-<https   *//forum.freecadweb.org/viewtopic.php?f=18&t=32556>
+<https://forum.freecadweb.org/viewtopic.php?f=18&t=32556>
 
 ### DynFreeCAD (Dynamo) 
 
-<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=49910>
+<https://forum.freecadweb.org/viewtopic.php?f=8&t=49910>
 
 
 

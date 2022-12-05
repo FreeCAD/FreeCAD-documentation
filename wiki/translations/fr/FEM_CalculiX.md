@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Cette page rassemble des informations sur le solveur d\'éléments finis [CalculiX](http   *//www.calculix.de/), le solveur par défaut de l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)** pour l\'analyse structurelle et thermo-mécanique à partir de FreeCAD 0.17. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
+Cette page rassemble des informations sur le solveur d\'éléments finis [CalculiX](http://www.calculix.de/), le solveur par défaut de l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)** pour l\'analyse structurelle et thermo-mécanique à partir de FreeCAD 0.17. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
 
 Le solveur est capable de faire des calculs linéaires et non linéaires pour des problèmes statiques, dynamiques et thermiques. Le solveur opère sur un fichier Abaqus (`.inp`), ce qui signifie qu\'il peut être utilisé avec différents pré-processeurs prenant en charge ce format. Le programme inclut son propre préprocesseur graphique qui, toutefois, n'est pas utilisé par FreeCAD, mais uniquement par le solveur lui-même.
 
@@ -11,7 +11,7 @@ CalculiX est conçu pour fonctionner sur les plates-formes Unix telles que les o
 
 ## Intégration à FreeCAD 
 
-L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effectue par l\'écriture et la lecture de fichiers texte. La séquence des opérations est la suivante   *
+L\'interaction entre l\'[atelier FEM](FEM_Workbench/fr.md) et CalculiX s\'effectue par l\'écriture et la lecture de fichiers texte. La séquence des opérations est la suivante:
 
 1.  Un fichier d\'entrée CalculiX est créé avec les détails nécessaires à l\'exécution de la simulation.
 2.  Le solveur CalculiX est démarré avec ce fichier d\'entrée.
@@ -25,9 +25,9 @@ L\'outil [FEM Réglage du solveur](FEM_SolverControl/fr.md) gère l\'ensemble du
 Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD; ils seront toujours millimètres (mm) et Newton (N).
 
 
-**(A faire   * vérifiez ceci. Que se passe-t-il avec le maillage est si l'unité inch est utilisée dans FreeCAD? Parce que la densité a été introduite, avec cela nous avons kg et s et non plus N ?! comment ça?!)**
+**(A faire: vérifiez ceci. Que se passe-t-il avec le maillage est si l'unité inch est utilisée dans FreeCAD? Parce que la densité a été introduite, avec cela nous avons kg et s et non plus N ?! comment ça?!)**
 
-L\'interface CalculiX prend en charge les objets suivants   *
+L\'interface CalculiX prend en charge les objets suivants:
 
 ### Eléments MEF 
 
@@ -49,7 +49,7 @@ L\'interface CalculiX prend en charge les objets suivants   *
 
 ## Interface de post-traitement 
 
-L\'atelier FEM charge les résultats de CalculiX dans l\'[objet résultat](FEM_ResultShow/fr.md) qui contiendra    *
+L\'atelier FEM charge les résultats de CalculiX dans l\'[objet résultat](FEM_ResultShow/fr.md) qui contiendra :
 
 -   Déplacements
 -   Contraintes
@@ -70,8 +70,6 @@ Les forces de réaction se trouvent dans le fichier ccx_dat_file qui contient le
 {{FEM Tools navi
 
 }}
-
-[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

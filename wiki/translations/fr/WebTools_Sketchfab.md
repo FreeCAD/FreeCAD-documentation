@@ -1,27 +1,27 @@
 ---
-- GuiCommand   */fr
-   Name   *WebTools Sketchfab
-   Name/fr   *WebTools Sketchfab
-   MenuLocation   *Web Tools → Sketchfab
+- GuiCommand:/fr
+   Name:WebTools Sketchfab
+   Name/fr:WebTools Sketchfab
+   MenuLocation:Web Tools → Sketchfab
 |
-   Workbenches   *[WebTools](WebTools_Workbench/fr.md)
-   Shortcut   *
-   SeeAlso   *
+   Workbenches:[WebTools](WebTools_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # WebTools Sketchfab/fr
 
 ## Description
 
-Cet outil permet l\'exportation et le téléchargement d\'objets vers votre compte [SketchFab](http   *//www.sketchfab.com). {{Version/fr|0.17}}
+Cet outil permet l\'exportation et le téléchargement d\'objets vers votre compte [SketchFab](http://www.sketchfab.com). {{Version/fr|0.17}}
 
 ![](images/Sketchfab_exporter.jpg )
 
 ## Utilisation
 
-1.  Enregistrez-vous un compte sur [SketchFab](http   *//www.sketchfab.com) si vous n\'en avez pas déjà un. Les comptes gratuits sont suffisants, les comptes payants ajoutent plus de fonctionnalités, comme la possibilité de rendre des modèles privés, ainsi que d\'avoir des tailles de téléchargement maximales plus importantes.
+1.  Enregistrez-vous un compte sur [SketchFab](http://www.sketchfab.com) si vous n\'en avez pas déjà un. Les comptes gratuits sont suffisants, les comptes payants ajoutent plus de fonctionnalités, comme la possibilité de rendre des modèles privés, ainsi que d\'avoir des tailles de téléchargement maximales plus importantes.
 2.  Préparez un modèle que vous voulez télécharger.
-3.  Cliquez sur <img alt="" src=images/WebTools_Sketchfab.svg  style="width   *32px;"> depuis la barre de menu de l\'[atelier WebTools](WebTools_Workbench/fr.md)
+3.  Cliquez sur <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> depuis la barre de menu de l\'[atelier WebTools](WebTools_Workbench/fr.md)
 4.  Remplissez les champs. Les champs *Name* (nom) et *Clé API Sketchfab* sont obligatoires.
 5.  Cliquez sur le bouton \"Upload\".
 

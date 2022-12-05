@@ -7,7 +7,7 @@
 |Version=2.1.2
 |Date=2019-07-16
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/0/0c/Macro_Airfoil_Import_%26_Scale.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/0/0c/Macro_Airfoil_Import_%26_Scale.png ToolBar Icon]
 }}
 
 ## Description
@@ -16,7 +16,7 @@ This Macro, when run, will first provide the user with a file browser to locate 
 
 See also [Common Airfoil Data Import](Common_Airfoil_Data_Import.md)
 
-<img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width   *480px;">
+<img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width:480px;">
 
 ## How To Use - Version 1.5 
 
@@ -44,7 +44,7 @@ File selection is the same as version 1.5. With version 2 you now have the choic
 
 ### Latest
 
-The latest version of the macro is to be found at [AirfoilImportAndScale.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
+The latest version of the macro is to be found at [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
 
 ### Version 2.1.2 
 
@@ -73,9 +73,9 @@ __Author__ = "quick61"
 __Version__ = '2.1.2'
 __Date__ = '2019-07-16'
 __License__ = ''
-__Web__ = "http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5554"
-__Wiki__ = "http   *//www.freecadweb.org/wiki/Macro_Airfoil_Import_%26_Scale"
-__Icon__ = 'https   *//www.freecadweb.org/wiki/images/0/0c/Macro_Airfoil_Import_%26_Scale.png'
+__Web__ = "http://forum.freecadweb.org/viewtopic.php?f=22&t=5554"
+__Wiki__ = "http://www.freecadweb.org/wiki/Macro_Airfoil_Import_%26_Scale"
+__Icon__ = 'https://www.freecadweb.org/wiki/images/0/0c/Macro_Airfoil_Import_%26_Scale.png'
 __Help__ = ''
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.14.3706'
@@ -98,17 +98,17 @@ import importAirfoilDAT
 global filename
 global nameFile
 
-try   *
+try:
     filename, filefilter = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(), 'Open An Airfoil File', '*.dat')
-except Exception   *
-    param = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macro")# macro path
+except Exception:
+    param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
     path = param.GetString("MacroPath","") + "/"                        # macro path
     filename, filefilter = PySide.QtGui.QFileDialog.getOpenFileName(None, "Open An Airfoil File", path, "*.dat")
 
-nameFile = filename.split("/")[-1][   *-4]
+nameFile = filename.split("/")[-1][:-4]
 
-class AirfoilImporterAndScaler()   *
-    def __init__(self)   *
+class AirfoilImporterAndScaler():
+    def __init__(self):
         self.dialog = None
         self.s1 = None
 
@@ -146,28 +146,28 @@ class AirfoilImporterAndScaler()   *
 
 
 
-    def proceed(self)   *
+    def proceed(self):
         global filename
         global nameFile
 
-        if self.radio1.isChecked()   *
-            try   *
+        if self.radio1.isChecked():
+            try:
                 # This produces a scaled Airfoil with a DWire
                 scalefactor=float(self.s1.text())
                 f1=str(filename)
                 importAirfoilDAT.insert(f1,"Unnamed")
-                try   *
+                try:
                     Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
-                except Exception   *
+                except Exception:
                     Draft.scale(App.ActiveDocument.ActiveObject,scale=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0.0,0.0,0.0),copy=False)
                 
                 App.ActiveDocument.ActiveObject.Label = nameFile + "_(DWire)"
 
-            except Exception as e   *
+            except Exception as e:
                 app.Console.PrintError("Error, not a valid .dat file\n")
 
-        if self.radio2.isChecked()   *
-            try   *
+        if self.radio2.isChecked():
+            try:
                 # This produces a scaled Airfoil with a BSpline
                 scalefactor=float(self.s1.text())
                 f1=str(filename)
@@ -175,28 +175,28 @@ class AirfoilImporterAndScaler()   *
                 points = app.ActiveDocument.ActiveObject.Points
                 App.getDocument("Unnamed").removeObject(App.ActiveDocument.ActiveObject.Name)
                 Draft.makeBSpline(points, closed=True)
-                try   *
+                try:
                     Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
-                except Exception   *
-                    for i in range(len(points))   *
+                except Exception:
+                    for i in range(len(points)):
                         Draft.scaleVertex(App.ActiveDocument.ActiveObject, i, App.Vector(scalefactor,scalefactor,scalefactor), App.Vector(0.0,0.0,0.0))
 
                 App.ActiveDocument.ActiveObject.Label = nameFile + "_(BSpline)"
 
-            except   *
+            except:
                 app.Console.PrintError("Error, not a valid .dat file\n")
 
-        try   *    
+        try:    
             # delete the directory created by importAirfoilDAT
-            for obj in App.ActiveDocument.Objects   *
-                if (obj.TypeId == "App   *   *DocumentObjectGroup") and (obj.Name == nameFile)   *
+            for obj in App.ActiveDocument.Objects:
+                if (obj.TypeId == "App::DocumentObjectGroup") and (obj.Name == nameFile):
                     App.getDocument("Unnamed").removeObject(nameFile)
-        except Exception   *
+        except Exception:
             None
 
         self.close()    # close the window
 
-    def close(self)   *
+    def close(self):
         self.dialog.hide()
 
 
@@ -229,10 +229,10 @@ import importAirfoilDAT
 
 filename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open An Airfoil File','*.dat')
 
-class p()   *
+class p():
 
-    def proceed(self)   *
-            try   *
+    def proceed(self):
+            try:
                 
                 # This produces a scaled Airfoil with a DWire
 
@@ -241,15 +241,15 @@ class p()   *
                 importAirfoilDAT.insert(f1,"Unnamed")
                 Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
             
-            except   *
+            except:
                 FreeCAD.Console.PrintError("Error, not a valid .dat file\n")
 
             self.close()
 
-    def close(self)   *
+    def close(self):
         self.dialog.hide()
 
-    def __init__(self)   *
+    def __init__(self):
         self.dialog = None
         self.s1 = None
 
@@ -332,11 +332,11 @@ import importAirfoilDAT
 
 filename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open An Airfoil File','*.dat')
 
-class p()   *
+class p():
 
-    def proceed(self)   *
-        if self.radio1.isChecked()   *
-            try   *
+    def proceed(self):
+        if self.radio1.isChecked():
+            try:
                 
                 # This produces a scaled Airfoil with a DWire
 
@@ -345,13 +345,13 @@ class p()   *
                 importAirfoilDAT.insert(f1,"Unnamed")
                 Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
             
-            except   *
+            except:
                 FreeCAD.Console.PrintError("Error, not a valid .dat file\n")
 
             self.close()
 
-        if self.radio2.isChecked()   *
-            try   *
+        if self.radio2.isChecked():
+            try:
 
                 # This produces a scaled Airfoil with a BSpline
 
@@ -363,16 +363,16 @@ class p()   *
                 Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
                 App.getDocument("Unnamed").removeObject("DWire")
 
-            except   *
+            except:
                 FreeCAD.Console.PrintError("Error, not a valid .dat file\n")
 
             self.close()
 
-    def close(self)   *
+    def close(self):
         self.dialog.hide()
 
 
-    def __init__(self)   *
+    def __init__(self):
         self.dialog = None
         self.s1 = None
 
@@ -446,13 +446,13 @@ import importAirfoilDAT
 # PySide returns a tuple (filename, filter) instead of just a string like in PyQt
 filename, filefilter = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open An Airfoil File','*.dat')
 
-class p()   *
+class p():
  
-    def proceed(self)   *
+    def proceed(self):
         global filename
-        if self.radio1.isChecked()   *
-            #if True   *
-            try   *
+        if self.radio1.isChecked():
+            #if True:
+            try:
  
                 # This produces a scaled Airfoil with a DWire
  
@@ -461,13 +461,13 @@ class p()   *
                 importAirfoilDAT.insert(f1,"Unnamed")
                 Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
  
-            except Exception, e   *
+            except Exception, e:
                 FreeCAD.Console.PrintError("Error, not a valid .dat file\n")
  
             self.close()
  
-        if self.radio2.isChecked()   *
-            try   *
+        if self.radio2.isChecked():
+            try:
  
                 # This produces a scaled Airfoil with a BSpline
  
@@ -479,16 +479,16 @@ class p()   *
                 Draft.scale(App.ActiveDocument.ActiveObject,delta=App.Vector(scalefactor,scalefactor,scalefactor),center=App.Vector(0,0,0),legacy=True)
                 App.getDocument("Unnamed").removeObject("DWire")
  
-            except   *
+            except:
                 FreeCAD.Console.PrintError("Error, not a valid .dat file\n")
  
             self.close()
  
-    def close(self)   *
+    def close(self):
         self.dialog.hide()
  
  
-    def __init__(self)   *
+    def __init__(self):
         self.dialog = None
         self.s1 = None
  
@@ -534,9 +534,9 @@ p()
 
 ## Link
 
-Discussion on [Forum](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5554&p=45137&hilit=Airfoil#p45137)
+Discussion on [Forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=5554&p=45137&hilit=Airfoil#p45137)
 
-[UIUC Applied Aerodynamics Group Departement of Aerospace Engineering](http   *//aerospace.illinois.edu/m-selig/ads/coord_database.html#N)
+[UIUC Applied Aerodynamics Group Departement of Aerospace Engineering](http://aerospace.illinois.edu/m-selig/ads/coord_database.html#N)
 
 
 

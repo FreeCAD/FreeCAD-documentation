@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std FreezeViews
-   Name/fr   *Std Figer l'affichage
-   MenuLocation   *Affichage → Figer l'affichage → ...
-   Workbenches   *Tous
-   SeeAlso   *[Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
-   SeeAlso   *[Std Enregistrer la vue](Std_StoreWorkingView/fr.md), [Std Rappel de vue](Std_RecallWorkingView/fr.md), [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
+- GuiCommand:/fr
+   Name:Std FreezeViews
+   Name/fr:Std Figer l'affichage
+   MenuLocation:Affichage → Figer l'affichage → ...
+   Workbenches:Tous
+   SeeAlso:[Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
+   SeeAlso:[Std Enregistrer la vue](Std_StoreWorkingView/fr.md), [Std Rappel de vue](Std_RecallWorkingView/fr.md), [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
 ---
 
 # Std FreezeViews/fr
@@ -57,9 +57,9 @@ L\'option de menu **Figer l\'affichage** enregistre les paramètres actuels de l
 
 ### Utilisation 
 
-1.  Il existe plusieurs façons de lancer cette option    *
+1.  Il existe plusieurs façons de lancer cette option :
     -   Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
-    -   Utilisez le raccourci clavier    * **Shift**+**F**.
+    -   Utilisez le raccourci clavier : **Shift**+**F**.
 2.  La nouvelle vue figée peut être sélectionnée dans le sous-menu **Affichage → Figer l'affichage**.
 
 ## Effacer les vues 
@@ -76,13 +76,13 @@ L\'option de menu **Effacer les vues** supprime toutes les vues figées existant
 
 ### Description 
 
-Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laquelle elle peut être restaurée. Les options sont numérotées   * **Restore view 1** - **Restore view 50**.
+Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laquelle elle peut être restaurée. Les options sont numérotées: **Restore view 1** - **Restore view 50**.
 
 ### Utilisation 
 
-1.  Il existe plusieurs façons de lancer cette option    *
+1.  Il existe plusieurs façons de lancer cette option :
     -   Sélectionnez l\'option **Affichage → Figer l'affichage → Restaurer la vue** dans le menu.
-    -   Pour les 9 premières vues figées   * utilisez le raccourci clavier    * **Ctrl**+**1** - **Ctrl**+**9**.
+    -   Pour les 9 premières vues figées: utilisez le raccourci clavier : **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 

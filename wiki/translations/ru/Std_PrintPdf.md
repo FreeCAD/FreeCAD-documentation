@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Std PrintPdf
-   Name/ru   *Std PrintPdf
-   MenuLocation   *Файл → Экспортировать Pdf 
-   Workbenches   *All
-   SeeAlso   *[Печать](Std_Print/ru.md), [Экспортировать](Std_Export/ru.md), [Std ViewScreenShot](Std_ViewScreenShot/ru.md)
+- GuiCommand:/ru
+   Name:Std PrintPdf
+   Name/ru:Std PrintPdf
+   MenuLocation:Файл → Экспортировать Pdf 
+   Workbenches:All
+   SeeAlso:[Печать](Std_Print/ru.md), [Экспортировать](Std_Export/ru.md), [Std ViewScreenShot](Std_ViewScreenShot/ru.md)
 ---
 
 # Std PrintPdf/ru
@@ -34,7 +34,7 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 ## Настройки
 
--   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

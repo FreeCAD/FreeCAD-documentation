@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Установка значений по умолчанию
-   Name   *Robot_SetDefaultValues
-   MenuLocation   *Робот → Установка значений по умолчанию
-   Workbenches   *[Robot](Robot_Workbench/ru.md)
+- GuiCommand:/ru
+   Name/ru:Установка значений по умолчанию
+   Name:Robot_SetDefaultValues
+   MenuLocation:Робот → Установка значений по умолчанию
+   Workbenches:[Robot](Robot_Workbench/ru.md)
 ---
 
 # Robot SetDefaultValues/ru
@@ -14,17 +14,17 @@
 
 ## Применение
 
-1.  Выберите в верхнем меню **Робот** → **<img src="images/Robot_SetDefaultValues.svg" width=32px>Установка значений по умолчанию**, чтобы установить   *
+1.  Выберите в верхнем меню **Робот** → **<img src="images/Robot_SetDefaultValues.svg" width=32px>Установка значений по умолчанию**, чтобы установить:
 
-   *   ** скорость
+:  - скорость
 
-   *   ** повторение (режим)
+:  - повторение (режим)
 
-   *   ** ускорение
+:  - ускорение
 
 ## Примечания
 
-Значения программы по умолчанию   *
+Значения программы по умолчанию:
 
 -   скорость = 1 м/с
 -   непрерывный = false

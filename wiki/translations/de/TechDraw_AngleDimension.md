@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw Dimension Angle
-   Name/de   *TechDraw Winkelmaß
-   MenuLocation   *TechDraw → Bemaßungen → Winkelmaß einfügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso   *[TechDraw Winkelmaß3Punkte](TechDraw_3PtAngleDimension/de.md)
+- GuiCommand:/de
+   Name:TechDraw Dimension Angle
+   Name/de:TechDraw Winkelmaß
+   MenuLocation:TechDraw → Bemaßungen → Winkelmaß einfügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso:[TechDraw Winkelmaß3Punkte](TechDraw_3PtAngleDimension/de.md)
 ---
 
 # TechDraw AngleDimension/de
@@ -13,7 +13,7 @@
 
 Das Werkzeug Winkelmaß fügt einer Ansicht ein Winkelmaß hinzu. Das Maß kann der Innenwinkel zweier beliebiger gerader Kanten sein. Das Winkelmaß wird zunächst der projizierte Winkel sein (d.h. wie auf der Zeichnung dargestellt), kann aber mit dem Werkzeug **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D Winkel geändert werden.
 
-<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width   *200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
 *Messen des Winkels zwischen zwei geraden Linien*
 
 ## Anwendung
@@ -35,13 +35,13 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Winkelmaß kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
+Das Werkzeug Winkelmaß kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
 dim1.Type = "Angle"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

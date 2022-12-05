@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */tr
-   Name   *Sketcher NewSketch
-   Name/tr   *Eskiz Oluştur
-   Workbenches   *[Sketcher](Sketcher_Workbench/tr.md)
-   MenuLocation   *Sketch → Eskiz oluştur
-   SeeAlso   *[Eskizi Yüzeye Eşle](Sketcher_MapSketch/tr.md), [Eskizi yeniden yönlendir...](Sketcher_ReorientSketch/tr.md)
+- GuiCommand:/tr
+   Name:Sketcher NewSketch
+   Name/tr:Eskiz Oluştur
+   Workbenches:[Sketcher](Sketcher_Workbench/tr.md)
+   MenuLocation:Sketch → Eskiz oluştur
+   SeeAlso:[Eskizi Yüzeye Eşle](Sketcher_MapSketch/tr.md), [Eskizi yeniden yönlendir...](Sketcher_ReorientSketch/tr.md)
 ---
 
 # Sketcher NewSketch/tr
@@ -22,7 +22,7 @@ Bu komut yeni bir [Eskiz](Sketcher_Workbench/tr.md) oluşturur.
 
 </div>
 
-Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
+Note that the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) has its own [new sketch](PartDesign_NewSketch.md) tool, when working on a [PartDesign body](PartDesign_Body.md) it is preferable to use that tool.
 
 
 <div class="mw-translate-fuzzy">

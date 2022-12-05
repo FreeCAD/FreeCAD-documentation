@@ -1,8 +1,6 @@
 # Category:Template:Navigation/fr
 Cette catégorie répertorie les modèles qui créent des éléments de navigation..
 
-[Category   *Template/fr](Category   *Template/fr.md)
-
 ### Contents
 
 |     |     |     |

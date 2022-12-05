@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Проект
-   Name   *Arch_Project
-   MenuLocation   *Arch → Проект
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***P** **O**
-   SeeAlso   *[Местность](Arch_Site/ru.md), [Здание](Arch_Building/ru.md)
+- GuiCommand:/ru
+   Name/ru:Проект
+   Name:Arch_Project
+   MenuLocation:Arch → Проект
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**P** **O**
+   SeeAlso:[Местность](Arch_Site/ru.md), [Здание](Arch_Building/ru.md)
 ---
 
 # Arch Project/ru
 
 ## Описание
 
-Проект Arch - это специальный объект, предназначенный для улучшения совместимости с [IFC](Arch_IFC/ru.md) файлами. Каждый файл IFC должен содержать [IfcProject](https   *//standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm) сущность. IfcProject в основном используется для определения общих параметров проекта, таких как проекционные системы, для совместимости с GIS или системы единиц измерения.
+Проект Arch - это специальный объект, предназначенный для улучшения совместимости с [IFC](Arch_IFC/ru.md) файлами. Каждый файл IFC должен содержать [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm) сущность. IfcProject в основном используется для определения общих параметров проекта, таких как проекционные системы, для совместимости с GIS или системы единиц измерения.
 
 При экспорте модели FreeCAD в формат файла IFC, если ваша модель не содержит какого-либо объекта проекта, автоматически будет создан объект по умолчанию, чего в большинстве случаев будет достаточно. Однако вы можете захотеть иметь возможность точно настроить параметры проекта, и в этом случае добавление объекта проекта может оказаться полезным. При импорте файла IFC всегда будет создаваться объект проекта. Однако, если вы специально не используете его, вы можете просто удалить его после импорта.
 

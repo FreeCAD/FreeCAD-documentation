@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */zh-cn
-   Name/zh-cn   *查看草图
-   Name   *Sketcher_ViewSketch
-   MenuLocation   *Sketch → 查看草图
-   Workbenches   *[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+- GuiCommand:/zh-cn
+   Name/zh-cn:查看草图
+   Name:Sketcher_ViewSketch
+   MenuLocation:Sketch → 查看草图
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
 ---
 
 # Sketcher ViewSketch/zh-cn
@@ -28,7 +28,7 @@
 
 在处于草图编辑模式下时，可
 
--   点击草图工具栏或零件设计工具栏中的**[16px|View sketch icon](File   *Sketcher_ViewSketch.png.md)'''View Sketch'''**图标，或者
+-   点击草图工具栏或零件设计工具栏中的**[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''View Sketch'''**图标，或者
 -   前往**Sketcher → View sketch**菜单。
 
 

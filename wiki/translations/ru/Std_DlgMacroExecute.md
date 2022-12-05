@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Макрос
-   Name   *Std_DlgMacroExecute
-   MenuLocation   *Макрос → Макросs...
-   Workbenches   *Все
-   SeeAlso   *[Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md)
+- GuiCommand:/ru
+   Name/ru:Макрос
+   Name:Std_DlgMacroExecute
+   MenuLocation:Макрос → Макросs...
+   Workbenches:Все
+   SeeAlso:[Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md)
 ---
 
 # Std DlgMacroExecute/ru
@@ -18,7 +18,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std DlgMacroExecute](Std_DlgMacroExecute.md)** button.
     -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
 2.  The Execute macro dialog box opens. See [Options](#Options.md).
@@ -33,7 +33,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ### Системные макросы 
 
-   *   The **System macros** tab is not used at this time.
+:   The **System macros** tab is not used at this time.
 
 ### Расположение пользовательских макросов 
 
@@ -42,7 +42,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ### Выполнить
 
-1.  To execute a macro do one of the following   *
+1.  To execute a macro do one of the following:
     -   Select the macro in the list and press the **Execute** button.
     -   Double-click the macro in the list.
 2.  The dialog box closes.
@@ -103,7 +103,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Настройки
 
--   The user macros location can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

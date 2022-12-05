@@ -1,6 +1,6 @@
 # Part Revolve/cs
 ---
-- GuiCommand   */cs   Name   *Part Revolve   Name/cs   *Díl Obtáčení   MenuLocation   *Díl -> Obtáčení   Workbenches   *[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso   *---
+- GuiCommand:/cs   Name:Part Revolve   Name/cs:Díl Obtáčení   MenuLocation:Díl -> Obtáčení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Obtáčí vybraný objekt kolem zadané osy. Pro obtáčení jsou povoleny následující typy, výsledky obtáčení jsou uvedeny ve druhém sloupci   *
+Obtáčí vybraný objekt kolem zadané osy. Pro obtáčení jsou povoleny následující typy, výsledky obtáčení jsou uvedeny ve druhém sloupci:
 
 
 </div>
@@ -50,7 +50,7 @@ Argument Úhel specifikuje o kolik stupňů má objekt být otočen. Souřadnice
 
 <div class="mw-translate-fuzzy">
 
-Jestli je vybrána uživetelsky definována osa, čísla definují směr obtáčecí osy vzhledem k souřadnicovému systému   * Je-li souřadnice Z rovna 0 a souřadnice X a Y jsou nenulové, bude osa ležet v rovině XY. Úhel je takový, že jeho směrnice je poměr zadaných souřadnic X a Y.
+Jestli je vybrána uživetelsky definována osa, čísla definují směr obtáčecí osy vzhledem k souřadnicovému systému: Je-li souřadnice Z rovna 0 a souřadnice X a Y jsou nenulové, bude osa ležet v rovině XY. Úhel je takový, že jeho směrnice je poměr zadaných souřadnic X a Y.
 
 
 </div>

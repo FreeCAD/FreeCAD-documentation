@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher Fillets
-   Icon   *Sketcher_CompCreateFillets.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Version   *0.19
+- GuiCommand:
+   Name:Sketcher Fillets
+   Icon:Sketcher_CompCreateFillets.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Version:0.19
 ---
 
 # Sketcher CompCreateFillets/en
@@ -15,9 +15,9 @@
 
 ## Types of fillets 
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Fillet](Sketcher_CreateFillet.md)   * Creates a fillet between two non-parallel lines.
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Fillet](Sketcher_CreateFillet.md): Creates a fillet between two non-parallel lines.
 
--   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
+-   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 

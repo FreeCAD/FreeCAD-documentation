@@ -3,11 +3,9 @@ This category contains all the Templates
 
 Diese Kategorie enthält alle Templates
 
-Den betreffenden Artikeln folgende Zeile anhängen   *
+Den betreffenden Artikeln folgende Zeile anhängen:
 
-<noinclude>[[Category   *Administration/de]] [[Category   *Template/de]]</noinclude>
-
-[Category   *Categories/de](Category   *Categories/de.md)
+<noinclude>[[Category:Administration/de]] [[Category:Template/de]]</noinclude>
 
 ### Contents
 

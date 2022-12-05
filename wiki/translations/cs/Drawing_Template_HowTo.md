@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   */cs   Topic   *2D Drafting   Level   *Intermediate   Author   *Mark Stephen ([[User   *Quick61   Quick61]])|Time   *An hour or less   FCVersion   *0.14.3700 or greater
+- TutorialInfo:/cs   Topic:2D Drafting   Level:Intermediate   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:An hour or less   FCVersion:0.14.3700 or greater
 ---
 
 # Drawing Template HowTo/cs
@@ -44,7 +44,7 @@ Začneme s novým dokumentum v Inkscapu. Podle odkazu ve Wiki stránce FreeCADu 
 
 V Inkscapu rozbalte menu File a vyberte Document Properties, Nyní byste měli vidět okno Document Properties. Upravte šířku a výšku jak bylo zmíněno a ujistěte se, že jednotky jsou nastaveny na pixely.
 
-<img alt="" src=images/Inkscape_Template_tut_1.png  style="width   *780px;">
+<img alt="" src=images/Inkscape_Template_tut_1.png  style="width:780px;">
 
 Nyní byste měli mít dokument Inkscapu který je široký 279px a vysoký 216px. Pokračujeme přidáním rámečku.
 
@@ -62,7 +62,7 @@ Použitím vodorovných a svislých souřadnic u nastavení výběru, podle nast
 
 Nyní vytvoříme popisové pole (Title Block). To je editovatelné pole kam se zapisují informace o výkresu z FreeCADu. Tento výukový program použije jednoduchý příklad. Popisové pole může být jednoduché nebo složité jak si budete přát.
 
-Popisové pole (Title Block) v příkladu bude obsahovat následující údaje   * Název projektu, Datum, Měřítko a Autora. Potom bude umístěno do pravého dolního rohu rámečku.
+Popisové pole (Title Block) v příkladu bude obsahovat následující údaje: Název projektu, Datum, Měřítko a Autora. Potom bude umístěno do pravého dolního rohu rámečku.
 
 Začnete vytvořením obdélníka někde uvnitř rámečku dokumentu. Uděláte to stejným způsobem jako jste udělali rámeček. Potom jej rozdělíte do 4 sekcí jak je vidíte. Když je to provedeno, vyberte obdélník i dělicí čáry a udělejte z nich skupinu a tu potom umístěte na X=169, Y=10 a rozměry W=100 a H=50 stejným způsobem jako rámeček.
 
@@ -108,12 +108,12 @@ Po otevření SVG souboru Vašim textovým editorem uvidíte následující.
 
 ![](images/Kate1.png )
 
-### Značka "xmlns   *freecad" 
+### Značka "xmlns:freecad" 
 
 První věci bude vložení následující řádky do dokumentu. Tento řádek je deklarace jmenného prostoru SVG a musí být zadána aby všechny SVG prvky byly identifikovány jako součást jmenného prostoru SVG.
 
  XML
-xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
 
@@ -174,7 +174,7 @@ První značka je Working space a je utvořena následovně.
 
 
 
-Kde X1, Y1, X2, Y2 jsou definovány jako   *
+Kde X1, Y1, X2, Y2 jsou definovány jako:
 
 -   X1 je vzdálenost od levého okraje stránky k levé straně rámečku v ose X.
 -   Y1 je vzdálenost od horního okraje stránky k horní straně rámečku v ose Y.
@@ -192,7 +192,7 @@ Takže pro tento výukový program šablony bude značka Working space.
 
 <div class="mw-translate-fuzzy">
 
-Další značka bude značka Title block a bude utvořena následovně   *
+Další značka bude značka Title block a bude utvořena následovně:
 
 
 </div>
@@ -201,28 +201,28 @@ Další značka bude značka Title block a bude utvořena následovně   *
 
 
 
-Kde X1a, Y1a, X2a, Y2a jsou definovány jako   *
+Kde X1a, Y1a, X2a, Y2a jsou definovány jako:
 
 -   X1a je vzdálenost od levého okraje stránky k levé straně popisového pole v ose X.
 -   Y1a je vzdálenost od horního okraje stránky k horní straně popisového pole v ose Y.
 -   X2a je vzdálenost od levého okraje stránky k pravé straně popisového pole v ose X.
 -   Y2a je vzdálenost od horního okraje stránky ke spodní straně popisového pole v ose Y.
 
-Ještě jednou, s odkazem na šablonu vytvořenou v tomto výukovém programu, bude značka Title block vypadat takto   *
+Ještě jednou, s odkazem na šablonu vytvořenou v tomto výukovém programu, bude značka Title block vypadat takto:
 
  html
 
 
 
-Umístění těchto dvou značek v požadovaném pořadí na začátku dokumentu vypadá takto   *
+Umístění těchto dvou značek v požadovaném pořadí na začátku dokumentu vypadá takto:
 
 ![](images/Kate3.png )
 
-### Značka freecad   *editable 
+### Značka freecad:editable 
 
-Přidáním značky freecad   *editable do SVG dokumentu umožníme FreeCADu editační přístup k definovaným textovým blokům. U bloků textu, které chcete mít editovatelné z FreeCADu udělejte následující.
+Přidáním značky freecad:editable do SVG dokumentu umožníme FreeCADu editační přístup k definovaným textovým blokům. U bloků textu, které chcete mít editovatelné z FreeCADu udělejte následující.
 
-Prohledejte odshora dolu SVG dokument až najdete sekci, která obsahuje text, který chcete editovat. Když jste vytvářeli šablonu, umístili jste tyto texty do skupiny, výsledkem je pak to, že i v dokumentu se objeví jako skupina. Když skupinu textových prvků najdete, přidáte řádek freecad   *editable=" " ke každému textovému bloku, kde text, který chcete udělat editovatelným je obsažen v uvozovkách. Umístěte jej tak jak je zobrazeno pro všechny čtyři řádky editovatelného textu.
+Prohledejte odshora dolu SVG dokument až najdete sekci, která obsahuje text, který chcete editovat. Když jste vytvářeli šablonu, umístili jste tyto texty do skupiny, výsledkem je pak to, že i v dokumentu se objeví jako skupina. Když skupinu textových prvků najdete, přidáte řádek freecad:editable=" " ke každému textovému bloku, kde text, který chcete udělat editovatelným je obsažen v uvozovkách. Umístěte jej tak jak je zobrazeno pro všechny čtyři řádky editovatelného textu.
 
 ![](images/Kate4.png )
 
@@ -261,8 +261,8 @@ Dále je doončená SVG šablona. Když víte, že je v SVG formátu, můžete j
 
 Dva použité nástroje v tomto výukovém programu byly Inkscape a Kate. Oba můžete nalézt na odkazech uvedených níže.
 
--   [Inkscape](http   *//www.inkscape.org/)
--   [Kate](http   *//kate-editor.org/)
+-   [Inkscape](http://www.inkscape.org/)
+-   [Kate](http://kate-editor.org/)
 
 
 {{Drawing Tools navi

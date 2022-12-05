@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *EM FHEquiv
-   MenuLocation   *EM → FHEquiv
-   Workbenches   *[EM](EM_Workbench.md)
-   Shortcut   ***E** **E**
-   Version   *0.17
-   SeeAlso   *[EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPort](EM_FHPort.md)
+- GuiCommand:
+   Name:EM FHEquiv
+   MenuLocation:EM → FHEquiv
+   Workbenches:[EM](EM_Workbench.md)
+   Shortcut:**E** **E**
+   Version:0.17
+   SeeAlso:[EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPort](EM_FHPort.md)
 ---
 
 # EM FHEquiv
@@ -24,7 +24,7 @@ The FHEquiv tool short-circuits two FHNode objects.
 
 The FHEquiv object is based on the two existing FHNodes that it will short-circuit.
 
-1.  Select two <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [FHNode](EM_FHNode.md) objects
+1.  Select two <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [FHNode](EM_FHNode.md) objects
 2.  Press the **<img src="images/EM_FHEquiv.svg" width=16px> [EM FHEquiv](EM_FHEquiv.md)** button, or press **E** then **E** keys.
 
 ### Remarks
@@ -33,18 +33,18 @@ The FHEquiv object is based on the two existing FHNodes that it will short-circu
 
 ## Properties
 
--    **Node1**   * the first [FHNode](EM_FHNode.md) to short-circuit
+-    **Node1**: the first [FHNode](EM_FHNode.md) to short-circuit
 
--    **Node2**   * the second [FHNode](EM_FHNode.md) to short-circuit
+-    **Node2**: the second [FHNode](EM_FHNode.md) to short-circuit
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHEquiv object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The FHEquiv object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
  
 ```python
@@ -59,7 +59,7 @@ equiv = makeFHEquiv(node1=None,node2=None,name='FHEquiv')
 
 -    `name`is the name of the object
 
-Example   *
+Example:
 
  
 ```python

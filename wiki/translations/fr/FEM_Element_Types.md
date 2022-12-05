@@ -3,21 +3,21 @@
 
 ## Introduction
 
-Cette description est basée sur le format MED décrit dans \[<https   *//hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modèle de données\].
+Cette description est basée sur le format MED décrit dans \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modèle de données\].
 
 ## Élément Segment 
 
-<img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
   Arête   Sommet 1   Sommet 2   Milieu
      
   E1      N1         N2         N3
 
-     * **Arêtes de Seg2 et Seg3**
+  : **Arêtes de Seg2 et Seg3**
 
 ## Élément Triangle 
 
-<img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
 
   Arête   Sommet 1   Sommet 2   Milieu
      
@@ -25,29 +25,29 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   E2      N2         N3         N5
   E3      N3         N1         N6
 
-     * Sommets du Tria3 et Tria6
+  : Sommets du Tria3 et Tria6
 
   Face   Arête 1   Arête 2   Arête 3
      
   F1     E1        E2        E3
 
-     * Face par arêtes du Tria3 et Tria6
+  : Face par arêtes du Tria3 et Tria6
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 1
       
   F1     N1        N2        N3        N1
 
-     * Face par noeuds du Tria3
+  : Face par noeuds du Tria3
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 1
          
   F1     N1        N4        N2        N5        N3        N6        N1
 
-     * Face par Noeud du Tria6
+  : Face par Noeud du Tria6
 
 ## Élément Quadrilatère 
 
-<img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
   Arête   Noeud 1   Noeud 2   Milieu
      
@@ -56,29 +56,29 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   E3      N3        N4        N7
   E4      N4        N1        N8
 
-     * Arêtes du Quad4 et Quad8
+  : Arêtes du Quad4 et Quad8
 
   Face   Arête 1   Arête 2   Arête 3   Arête 4
       
   F1     E1        E2        E3        E4
 
-     * Face par arêtes du Quad4 et Quad8
+  : Face par arêtes du Quad4 et Quad8
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 1
        
   F1     N1        N2        N3        N4        N1
 
-     * Face par noeuds du Quad4
+  : Face par noeuds du Quad4
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 7   Noeud 8   Noeud 1
            
   F1     N1        N5        N2        N6        N3        N7        N4        N8        N1
 
-     * Face par noeuds du Quad8
+  : Face par noeuds du Quad8
 
 ## Élément Tétraèdre 
 
-<img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
 
   Arête   Noeud 1   Noeud 2   Milieu
      
@@ -89,7 +89,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   E5      N2        N4        N9
   E6      N3        N4        N10
 
-     * Arêtes du Tetra4 et Tetra10
+  : Arêtes du Tetra4 et Tetra10
 
   Face   Arête 1   Arête 2   Arête 3
      
@@ -98,7 +98,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F3     E5        -E6       -E2
   F4     E6        -E4       -E3
 
-     * Faces par arêtes du Tetra4 et Tetra10
+  : Faces par arêtes du Tetra4 et Tetra10
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 1
       
@@ -107,7 +107,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F3     N2        N4        N3        N2
   F4     N3        N4        N1        N3
 
-     * Faces par noeuds du Tetra4
+  : Faces par noeuds du Tetra4
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 1
          
@@ -116,11 +116,11 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F3     N2        N9        N4        N10       N3        N6        N2
   F4     N3        N10       N4        N8        N1        N7        N3
 
-     * Faces par noeuds du Tetra10
+  : Faces par noeuds du Tetra10
 
 ## Élément Hexaèdre 
 
-<img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
   Arête   Noeud 1   Noeud 2   Milieu
      
@@ -137,7 +137,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   E11     N3        N7        N19
   E12     N4        N8        N20
 
-     * Arêtes d\'Hexa8 et Hexa20
+  : Arêtes d\'Hexa8 et Hexa20
 
   Face   Arête 1   Arête 2   Arête 3   Arête 4
       
@@ -148,7 +148,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F5     E11       E7        -E12      -E3
   F6     E12       E8        -E9       -E4
 
-     * Faces par arête d\'Hexa8 et Hexa20
+  : Faces par arête d\'Hexa8 et Hexa20
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 1
        
@@ -159,7 +159,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F5     N3        N7        N8        N4        N3
   F6     N4        N8        N5        N1        N4
 
-     * Faces par noeuds d\'Hexa8
+  : Faces par noeuds d\'Hexa8
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 7   Noeud 8   Noeud 1
            
@@ -170,11 +170,11 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F5     N3        N19       N7        N15       N8        N20       N4        N11       N3
   F6     N4        N20       N8        N16       N5        N17       N1        N12       N4
 
-     * Faces par noeud d\'Hexa20
+  : Faces par noeud d\'Hexa20
 
 ## Élément Pentaèdre (prisme) 
 
-<img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
   Arête   Noeud 1   Noeud 2   Milieu
      
@@ -188,7 +188,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   E8      N2        N5        N14
   E9      N3        N6        N15
 
-     * Arêtes du Penta6 et Penta15
+  : Arêtes du Penta6 et Penta15
 
   Face   Arête 1   Arête 2   Arête 3   Arête 4
       
@@ -198,7 +198,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F4     E8        E5        -E9       -E2
   F5     E9        E6        -E7       -E3
 
-     * Faces par arêtes du Penta6 et Penta15
+  : Faces par arêtes du Penta6 et Penta15
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 1
        
@@ -208,7 +208,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F4     N2        N5        N6        N3        N2
   F5     N3        N6        N4        N1        N3
 
-     * Faces par noeuds du of Penta6
+  : Faces par noeuds du of Penta6
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 7   Noeud 8   Noeud 1
            
@@ -218,11 +218,11 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F4     N2        N14       N5        N11       N6        N15       N3        N8        N2
   F5     N3        N15       N6        N12       N4        N13       N1        N9        N3
 
-     * Faces par noeuds du Penta15
+  : Faces par noeuds du Penta15
 
 ## Élément Pyramide 
 
-<img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
   Arête   Noeud 1   Noeud 2   Milieu
      
@@ -235,7 +235,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   E7      N3        N5        N12
   E8      N4        N5        N13
 
-     * Arêtes de Pyra5 et Pyra13
+  : Arêtes de Pyra5 et Pyra13
 
   Face   Arête 1   Arête 2   Arête 3   Arête 4
       
@@ -245,7 +245,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F4     E7        -E8       -E3       \_
   F5     E8        E5        -E4       \_
 
-     * Faces par arêtes de Pyra5 et Pyra13
+  : Faces par arêtes de Pyra5 et Pyra13
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 1
        
@@ -255,7 +255,7 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F4     N3        N5        N4        \_        N3
   F5     N4        N5        N1        \_        N4
 
-     * Faces par noeuds de Pyra5
+  : Faces par noeuds de Pyra5
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 7   Noeud 8   Noeud 1
            
@@ -265,14 +265,12 @@ Cette description est basée sur le format MED décrit dans \[<https   *//hammi.
   F4     N3        N12       N5        N13       N4        N8        \_        \_        N3
   F5     N4        N13       N5        N10       N1        N9        \_        \_        N4
 
-     * Faces par noeuds de Pyra13
+  : Faces par noeuds de Pyra13
 
 
 {{FEM Tools navi
 
-}}  
-
-[Category   *Developer](Category_Developer.md) [Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md)
+}}
 
 
 

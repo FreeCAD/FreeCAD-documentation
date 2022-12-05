@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Std_Open
-   Name/ru   *Открыть...
-   MenuLocation   *[Файл](Std_File_Menu/ru.md) → Открыть...
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**O**
-   SeeAlso   *[Импортировать файл](Std_Import/ru.md),<br>[Создать файл](Std_New/ru.md)
+- GuiCommand:/ru
+   Name:Std_Open
+   Name/ru:Открыть...
+   MenuLocation:[Файл](Std_File_Menu/ru.md) → Открыть...
+   Workbenches:All
+   Shortcut:**Ctrl**+**O**
+   SeeAlso:[Импортировать файл](Std_Import/ru.md),<br>[Создать файл](Std_New/ru.md)
 ---
 
 # Std Open/ru
@@ -16,10 +16,10 @@ The **Std Open** command opens a file. If the file is not a native FreeCAD file 
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Open.svg" width=16px> [Std Open](Std_Open.md)** button.
     -   Select the **File → <img src="images/Std_Open.svg" width=16px> Open...** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**O**.
+    -   Use the keyboard shortcut: **Ctrl**+**O**.
 2.  Optionally select the correct file format in the dialog box.
 3.  Select a file.
 4.  Press the **Open** button.
@@ -30,12 +30,12 @@ The **Std Open** command opens a file. If the file is not a native FreeCAD file 
 
 ## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр   * **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

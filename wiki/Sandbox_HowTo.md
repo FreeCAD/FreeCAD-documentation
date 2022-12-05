@@ -1,5 +1,5 @@
 # Sandbox:HowTo
-Back to [FreeCADDocu   *Sandbox](FreeCADDocu   *Sandbox#HowTo_test.md)
+Back to [FreeCADDocu:Sandbox](FreeCADDocu:Sandbox#HowTo_test.md)
 
 **FreeCAD Wiki HowTo Page**
 
@@ -20,7 +20,7 @@ Here is an empty template to quickly add a HowTo to this page. You need to be lo
      </div>
      </div>
 
-The *Top* link below gets you quickly to the top of the page. It looks in wiki markup like this   * [top](#top.md). For easier navigation in long pages its recommended to include this under your section. Make sure there is an empty line before it.
+The *Top* link below gets you quickly to the top of the page. It looks in wiki markup like this: [top](#top.md). For easier navigation in long pages its recommended to include this under your section. Make sure there is an empty line before it.
 
 [top](#top.md)
 
@@ -122,8 +122,6 @@ In FC 0.18 this does not work. The View are projected from the acutal 3D view, b
 </div>
 
 [top](#top.md)
-
-[Category   *Sandbox](Category_Sandbox.md)
 
 
 

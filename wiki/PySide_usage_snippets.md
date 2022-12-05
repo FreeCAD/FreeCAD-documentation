@@ -11,7 +11,7 @@ These are snippets of code that are useful when [creating interfaces](Dialog_cre
 # change the name to another button, ('''radioButton, checkBox''') as well as the path to the icon,
 
        # Displays an icon on the button PushButton
-       # self.image_01 = "C   *Program Files\FreeCAD0.13\icone01.png" # he name of the icon
+       # self.image_01 = "C:\Program Files\FreeCAD0.13\icone01.png" # he name of the icon
        self.image_01 = path+"icone01.png" # the name of the icon
        icon01 = QtGui.QIcon() 
        icon01.addPixmap(QtGui.QPixmap(self.image_01),QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -29,16 +29,16 @@ self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverse
 self.pushButton.setToolTip(_translate("MainWindow", "Quitter la fonction", None)) # Displays an info button
 
 # This function gives a color button
-self.pushButton.setStyleSheet("background-color   * red") # This function gives a color button
+self.pushButton.setStyleSheet("background-color: red") # This function gives a color button
 
 # This function gives a color to the text of the button
-self.pushButton.setStyleSheet("color    * #ff0000") # This function gives a color to the text of the button
+self.pushButton.setStyleSheet("color : #ff0000") # This function gives a color to the text of the button
 
 # combinaison des deux, bouton et texte
-self.pushButton.setStyleSheet("color    * #ff0000; background-color    * #0000ff;" ) #  combination of the two, button, and text
+self.pushButton.setStyleSheet("color : #ff0000; background-color : #0000ff;" ) #  combination of the two, button, and text
 
 # replace the icon in the main window
-MainWindow.setWindowIcon(QtGui.QIcon('C   *Program Files\FreeCAD0.13\View-C3P.png'))
+MainWindow.setWindowIcon(QtGui.QIcon('C:\Program Files\FreeCAD0.13\View-C3P.png'))
 
 # connects a lineEdit on execute
 self.lineEdit.returnPressed.connect(self.execute) # connects a lineEdit on "def execute" after validation on enter
@@ -60,7 +60,7 @@ self.lineEdit.setText(str(val_X)) # Displays the value in the lineEdit (convert 
        font.setBold(True) # same result with tags "<b>your text</b>" (in quotes)
        self.label_6.setFont(font)
        self.label_6.setObjectName("label_6")
-       self.label_6.setStyleSheet("color    * #ff0000") # This function gives a color to the text
+       self.label_6.setStyleSheet("color : #ff0000") # This function gives a color to the text
        self.label_6.setText(_translate("MainWindow", "Select a view", None))
 ```
 
@@ -68,9 +68,9 @@ self.lineEdit.setText(str(val_X)) # Displays the value in the lineEdit (convert 
 
 ### UTF8
 
-By using the characters with accents, where you get the error   *  
+By using the characters with accents, where you get the error:  
 ```python
-UnicodeDecodeError   * 'utf8' codec can't decode bytes in position 0-2   * invalid data
+UnicodeDecodeError: 'utf8' codec can't decode bytes in position 0-2: invalid data
 ```
 
 Several solutions are possible.  
@@ -82,7 +82,7 @@ DESIGNED_BY = unicode(self.lineEdit_01.text(), 'ISO-8859-1').encode('UTF-8')
 
 or with the procedure  
 ```python
-def utf8(unio)   *
+def utf8(unio):
     return unicode(unio).encode('UTF8')
 ```
 
@@ -90,13 +90,13 @@ def utf8(unio)   *
 
 
 ```python
-UnicodeEncodeError   * 'ascii' codec can't encode character u'\xe9' in position 9   * ordinal not in range(128)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe9' in position 9: ordinal not in range(128)
 ```
 
 
 ```python
 # conversion
-a = u"Nom de l'élément    * "
+a = u"Nom de l'élément : "
 f.write('''a.encode('iso-8859-1')'''+str(element_)+"\n")
 ```
 
@@ -104,7 +104,7 @@ f.write('''a.encode('iso-8859-1')'''+str(element_)+"\n")
 
 or with the procedure  
 ```python
-def iso8859(encoder)   *
+def iso8859(encoder):
     return unicode(encoder).encode('iso-8859-1')
 ```
 
@@ -123,10 +123,6 @@ or
 uniteSs = "mm"+iso8859(unichr(178))
 print(unicode(uniteSs, 'iso8859'))
 ```
-
-  
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

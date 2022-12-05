@@ -1,8 +1,6 @@
 # Category:FEM/bg
 This category lists pages related to the [FEM Workbench/bg](FEM_Workbench/bg.md).
 
-[Category   *Workbenches/bg](Category   *Workbenches/bg.md)
-
 ### Contents
 
 |     |     |     |

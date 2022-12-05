@@ -1,13 +1,13 @@
 # Release notes 0.11/ru
-Здесь приведён список важных изменений и новых функций, доступных в FreeCAD версии 0.11. Полный список находится [здесь](http   *//www.freecadweb.org/tracker/changelog_page.php).
+Здесь приведён список важных изменений и новых функций, доступных в FreeCAD версии 0.11. Полный список находится [здесь](http://www.freecadweb.org/tracker/changelog_page.php).
 
-<img alt="" src=images/FreeCAD011.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD011.png  style="width:800px;">
 
 Снимок экрана версии 0.11.
 
 ### Общее
 
--   [FreeCAD translation Проект](http   *//crowdin.net/project/freecad) получает помощь от многих людей со всего света, и поэтому сейчас FreeCAD переведён на 15 языков   * English, German, French, Italian, Swedish, Spanish, Portuguese, Russian, Ukrainian, Norwegian, Afrikaans, Finnish, Simplified Chinese, Croatian and Dutch. Несколько языков будет добавлено в следующей версии.
+-   [FreeCAD translation Проект](http://crowdin.net/project/freecad) получает помощь от многих людей со всего света, и поэтому сейчас FreeCAD переведён на 15 языков: English, German, French, Italian, Swedish, Spanish, Portuguese, Russian, Ukrainian, Norwegian, Afrikaans, Finnish, Simplified Chinese, Croatian and Dutch. Несколько языков будет добавлено в следующей версии.
 
 ![](images/release011-translation.jpg )
 
@@ -26,7 +26,7 @@
 
 ![](images/release011-sketcher.jpg )
 
-![](images/Movie.png ) Examples   * [Sketcher demo](http   *//www.youtube.com/watch?v=hvXupH5bA0E) • [PartDesign demo](http   *//www.youtube.com/watch?v=7ih9Jp3OAwA)
+![](images/Movie.png ) Examples: [Sketcher demo](http://www.youtube.com/watch?v=hvXupH5bA0E) • [PartDesign demo](http://www.youtube.com/watch?v=7ih9Jp3OAwA)
 
 ### Robot simulation 
 
@@ -52,7 +52,7 @@
 -   The Draft workbench also gained a python [API](Draft_API.md).
 -   The DXF importer now support block attributes
 
-![](images/Movie.png ) Examples   * [Draft module demo](http   *//www.youtube.com/watch?v=Q7cG-LQK8Ps)
+![](images/Movie.png ) Examples: [Draft module demo](http://www.youtube.com/watch?v=Q7cG-LQK8Ps)
 
 ### Images
 
@@ -64,8 +64,6 @@
 
 
 {{languages/ru | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} }}
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ToggleSelectability
-   Name/pl   *Std   * Przełącz możliwość zaznaczenia
-   MenuLocation   *Widok → Widoczność → Przełącz możliwość zaznaczenia
-   Workbenches   *wszystkie
+- GuiCommand:/pl
+   Name:Std ToggleSelectability
+   Name/pl:Std: Przełącz możliwość zaznaczenia
+   MenuLocation:Widok → Widoczność → Przełącz możliwość zaznaczenia
+   Workbenches:wszystkie
 ---
 
 # Std ToggleSelectability/pl
@@ -15,7 +15,7 @@ Polecenie **Przełącz możliwość zaznaczenia** przełącza możliwość wybor
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz z opcję menu **Widok → Widoczność → <img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia**.
     -   Wybierz z opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu podręcznego [Widoku drzewa](Tree_view/pl.md). Opcja ta nie jest dostępna w środowisku pracy [PartDesign Workbench](PartDesign_Workbench/pl.md)
     -   Wybierz opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu kontekstowego widoku 3D.
@@ -27,7 +27,7 @@ Polecenie **Przełącz możliwość zaznaczenia** przełącza możliwość wybor
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
@@ -39,9 +39,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Selectable == True   *
+if obj.Selectable == True:
   obj.Selectable = False
-else   *
+else:
   obj.Selectable = True
 ```
 

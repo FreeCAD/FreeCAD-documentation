@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 ConstraintLengthEqualPointLineDistance
-   Name/de   *Assembly3 LängeGleichPunktLinieAbstand
-   Icon   *Assembly_ConstraintLengthEqualPointLineDistance.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:/de
+   Name:Assembly3 ConstraintLengthEqualPointLineDistance
+   Name/de:Assembly3 LängeGleichPunktLinieAbstand
+   Icon:Assembly_ConstraintLengthEqualPointLineDistance.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLengthEqualPointLineDistance/de
@@ -24,9 +24,9 @@ Der Längenwert der zuerst gewählten Linie ist gleich dem kürzesten Abstand zw
 4.  Schaltfläche **<img src="images/Assembly_ConstraintLengthEqualPointLineDistance.svg" width=16px> [Länge gleich Punkt-Linie-Abstand](Assembly3_ConstraintLengthEqualPointLineDistance/de.md)** drücken.
 5.  Schaltfläche **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Beziehungen berechnen](Assembly3_ResolveConstraints/de.md)** oder **<img src="images/Assembly_QuickSolve.svg" width=16px> [Schnelle Berechnung](Assembly3_QuickSolve/de.md)** drücken, um neu zu berechnen
 
-   *   
+:   
 
-       *   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
+    :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
 
 

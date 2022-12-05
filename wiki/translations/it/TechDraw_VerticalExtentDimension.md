@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw Dimension Vertical Extent
-   Name/it   *Estensione verticale
-   MenuLocation   *TechDraw → Estensione verticale
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Lunghezza](TechDraw_LengthDimension/it.md), [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)
+- GuiCommand:/it
+   Name:TechDraw Dimension Vertical Extent
+   Name/it:Estensione verticale
+   MenuLocation:TechDraw → Estensione verticale
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)
 ---
 
 # TechDraw VerticalExtentDimension/it
@@ -22,7 +22,7 @@ Lo strumento Estensione verticale aggiunge una quota lineare a una vista. La dim
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width   *400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Estensione verticale della faccia BSpline*
 
 ## Utilizzo
@@ -59,19 +59,19 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 
 ### Dati
 
--    **MeasureType**   * `True` - basata sulla geometria 3D o \"Projected\" - basata sul disegno. Normalmente non manipolato direttamente dall\'utente finale. Non ancora implementata per Estensione verticaleale.
+-    **MeasureType**: `True` - basata sulla geometria 3D o \"Projected\" - basata sul disegno. Normalmente non manipolato direttamente dall\'utente finale. Non ancora implementata per Estensione verticaleale.
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Estensione verticale può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Estensione verticale può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>

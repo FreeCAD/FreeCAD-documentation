@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Ambiente Navale
-   Level   *Base
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic:Ambiente Navale
+   Level:Base
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # FreeCAD-Ship s60 tutorial/it
@@ -39,7 +39,7 @@ Potete trovare altre informazioni nella pagina [FreeCAD-Ship](Ship_Workbench/it.
 
 ### Introduzione
 
-FreeCAD-Ship lavora su delle **entità Ship** che devono essere create preventivamente sulla base delle geometrie fornite. La geometria deve essere un solido, o un insieme di solidi, e deve rispettare i seguenti criteri   *
+FreeCAD-Ship lavora su delle **entità Ship** che devono essere create preventivamente sulla base delle geometrie fornite. La geometria deve essere un solido, o un insieme di solidi, e deve rispettare i seguenti criteri:
 
 -   Deve essere fornita tutta la geometria dello scafo (comprese le barche simmetriche).
 -   La geometria di dritta, di tribordo, deve essere posizionata nel dominio *Y negativa*.
@@ -63,7 +63,7 @@ Descrizione dei requisiti della forma base
 
 ### Caricare una geometria della Serie 60 
 
-Per aiutare i nuovi utenti, Ship include una serie di esempi di geometrie, dove si può scegliere tra i seguenti elementi   *
+Per aiutare i nuovi utenti, Ship include una serie di esempi di geometrie, dove si può scegliere tra i seguenti elementi:
 
 -   Serie 60 della Iowa University
 -   Canonica imbarcazione Wigley
@@ -140,11 +140,11 @@ Devono essere introdotti i dati principali della nave (FreeCAD-Ship utilizza un 
 
 ### Dati della nave 
 
-Le dimensioni principali che devono essere introdotte qui   *
+Le dimensioni principali che devono essere introdotte qui:
 
--   *Length*   * lunghezza tra le perpendicolari, 25,5 m per questo scafo.
--   *Beam*   * baglio, larghezza massima della barca, 3,389 m per questo scafo.
--   *Draft*   * immersione, 1.0 m per questo scafo.
+-   *Length*: lunghezza tra le perpendicolari, 25,5 m per questo scafo.
+-   *Beam*: baglio, larghezza massima della barca, 3,389 m per questo scafo.
+-   *Draft*: immersione, 1.0 m per questo scafo.
 
 ![Front view annotations](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -156,7 +156,7 @@ Annotazioni di lunghezza nella vista frontale.
 
 </center>
 
-La distanza tra le perpendicolari dipende dall\'immersione, quindi se non si conosce la lunghezza tra le perpendicolari è possibile impostare l\'immersione e regolare la lunghezza in modo da ottenere l\'intersezione del dritto o ruota di prua (linea superiore della prua) con la [linea di galleggiamento](http   *//it.wikipedia.org/wiki/Linea_di_galleggiamento).
+La distanza tra le perpendicolari dipende dall\'immersione, quindi se non si conosce la lunghezza tra le perpendicolari è possibile impostare l\'immersione e regolare la lunghezza in modo da ottenere l\'intersezione del dritto o ruota di prua (linea superiore della prua) con la [linea di galleggiamento](http://it.wikipedia.org/wiki/Linea_di_galleggiamento).
 
 ![Side view annotations](images/FreeCAD-Ship-S60ShipCreationSide.png )
 
@@ -168,7 +168,7 @@ Annotazioni sulla vista laterale.
 
 </center>
 
-Lo stesso procedimento è valido per il baglio. Si noti che viene richiesto il valore del [baglio maestro](http   *//it.wikipedia.org/wiki/Baglio_%28nautica%29) (larghezza massima) , ma l\'annotazione si riferisce solo alla metà di dritta della barca.
+Lo stesso procedimento è valido per il baglio. Si noti che viene richiesto il valore del [baglio maestro](http://it.wikipedia.org/wiki/Baglio_%28nautica%29) (larghezza massima) , ma l\'annotazione si riferisce solo alla metà di dritta della barca.
 
 
 <div class="mw-translate-fuzzy">
@@ -222,7 +222,7 @@ Icona dello strumento per disegnare il contorno
 
 </div>
 
-Il disegno delle linee è un insieme di sezione sui 3 assi, che alla fine mostreranno la geometria dello scafo in un Piano delle linee. Dobbiamo fornire le linee per le 3 seguenti viste   *
+Il disegno delle linee è un insieme di sezione sui 3 assi, che alla fine mostreranno la geometria dello scafo in un Piano delle linee. Dobbiamo fornire le linee per le 3 seguenti viste:
 
 -   Body Plan (utilizzando le sezioni trasversali)
 -   Sheer Plan (usando le sezioni longitudinali)
@@ -251,7 +251,7 @@ Anteprima della vista delle sezioni trasversali
 
 <div class="mw-translate-fuzzy">
 
-Viene compilata la tabella delle sezioni e si crea un nuovo oggetto chiamato OutlineDraw che permette di visualizzare l\'anteprima delle sezioni adottate. Di solito si producono delle sezioni più ravvicinate nelle zone prossime alla poppa e alla prua, dove la curvatura più pronunciata; per fare questo basta andare alla fine della tabella e fare **doppio clic** nella riga vuota, aggiungere un nuovo valore e premere Invio per confermare. Aggiungere manualmente le seguenti due sezioni   *
+Viene compilata la tabella delle sezioni e si crea un nuovo oggetto chiamato OutlineDraw che permette di visualizzare l\'anteprima delle sezioni adottate. Di solito si producono delle sezioni più ravvicinate nelle zone prossime alla poppa e alla prua, dove la curvatura più pronunciata; per fare questo basta andare alla fine della tabella e fare **doppio clic** nella riga vuota, aggiungere un nuovo valore e premere Invio per confermare. Aggiungere manualmente le seguenti due sezioni:
 
 
 </div>
@@ -287,7 +287,7 @@ Di solito servono 6 linee d\'acqua tra la linea di base e la linea di galleggiam
 
 </div>
 
-Devono essere aggiunte diverse linee d\'acqua supplementari   *
+Devono essere aggiunte diverse linee d\'acqua supplementari:
 
 -   Z~6~ = 1.2 m
 -   Z~7~ = 1.4 m
@@ -300,7 +300,7 @@ Devono essere aggiunte diverse linee d\'acqua supplementari   *
 
 ### Tracciare il piano di costruzione 
 
-Selezionare una scala **1   *100** e premere **Accept** per fare in modo che lo strumento generi le sezioni 3D in un nuovo oggetto.
+Selezionare una scala **1:100** e premere **Accept** per fare in modo che lo strumento generi le sezioni 3D in un nuovo oggetto.
 
 
 </div>
@@ -318,7 +318,7 @@ Sezioni risultanti.
 
 <div class="mw-translate-fuzzy">
 
-Per disegnare queste sezioni si può utilizzare il modulo [Drawing](Drawing_Workbench/it.md)   *
+Per disegnare queste sezioni si può utilizzare il modulo [Drawing](Drawing_Workbench/it.md):
 
 
 </div>
@@ -366,11 +366,11 @@ Quando si esegue questo strumento appare la finestra di dialogo delle azioni e n
 
 ### Dati in ingresso 
 
-Devono essere forniti i valori di Draft e di Trim (Immersione e Assetto) (l\'angolo di rotazione dello scafo attorno a *y* è positivo se l\'immersione di poppa può aumentare). Si possono produrre le curve di diverse aree, a seconda delle condizioni di carico della nave, però si devono eseguire due grafici tipici   *
+Devono essere forniti i valori di Draft e di Trim (Immersione e Assetto) (l\'angolo di rotazione dello scafo attorno a *y* è positivo se l\'immersione di poppa può aumentare). Si possono produrre le curve di diverse aree, a seconda delle condizioni di carico della nave, però si devono eseguire due grafici tipici:
 
--   Curva dell\'area trasversale di progetto   * senza angolo di assetto e utilizzando l\'immersione di progetto, 1,0 m in questo caso.
+-   Curva dell\'area trasversale di progetto: senza angolo di assetto e utilizzando l\'immersione di progetto, 1,0 m in questo caso.
 
--   Curva dell\'area trasversale massima   * senza angolo di assetto e con immersione massima consentita, 2,0 m in questo caso.
+-   Curva dell\'area trasversale massima: senza angolo di assetto e con immersione massima consentita, 2,0 m in questo caso.
 
 
 </div>
@@ -380,16 +380,16 @@ Devono essere forniti i valori di Draft e di Trim (Immersione e Assetto) (l\'ang
 
 ### Dati in uscita 
 
-Alcuni dati rilevanti vengono visualizzati in tempo reale   *
+Alcuni dati rilevanti vengono visualizzati in tempo reale:
 
--   **L**   * Lunghezza fra le perpendicolari, valore impostato al momento della creazione dell\'istanza nave.
--   **B**   * Baglio, larghezza impostata al momento della creazione della nave.
--   **T**   * Immersione attuale della sezione maestra.
--   **Trim**   * Angolo di assetto.
--   **T~AP~**   * Immersione nella perpendicolare avanti, prora.
--   **T~FP~**   * Immersione nella perpendicolare addietro, poppa .
--   **Displacement**   * Dislocamento della nave (considerando acqua salata, quindi dividere per 1,025 per conoscere volume spostato).
--   **XCB**   * Coordinata X del Centro di carena (relativa alla sezione maestra).
+-   **L**: Lunghezza fra le perpendicolari, valore impostato al momento della creazione dell\'istanza nave.
+-   **B**: Baglio, larghezza impostata al momento della creazione della nave.
+-   **T**: Immersione attuale della sezione maestra.
+-   **Trim**: Angolo di assetto.
+-   **T~AP~**: Immersione nella perpendicolare avanti, prora.
+-   **T~FP~**: Immersione nella perpendicolare addietro, poppa .
+-   **Displacement**: Dislocamento della nave (considerando acqua salata, quindi dividere per 1,025 per conoscere volume spostato).
+-   **XCB**: Coordinata X del Centro di carena (relativa alla sezione maestra).
 
 
 </div>
@@ -430,7 +430,7 @@ Icona dello strumento Idrostatica.
 
 Quando questo strumento viene eseguito appare la finestra di dialogo delle azioni per inserire il valore dell\'immersione e l\'angolo di assetto. Solitamente le curve idrostatiche sono presentate in un intervallo di immersione per ogni angolo di assetto. In questo tutorial sarà considerato solo l\'angolo 0 º con un ampio intervallo di immersione, per ogni condizione di carico possibile. Dato che non si conoscono le condizioni di carico che si possono verificare, si considerano diverse possibilità di immersione (Di solito, al fine di ottenere il maggior numero di risoluzioni possibili, gli architetti navali adottano l\'intervallo plausibile per le immersioni).
 
-Quindi impostare i seguenti valori   *
+Quindi impostare i seguenti valori:
 
 -   **Trim** = 0º
 -   **Minimum Draft** = 0.1 m
@@ -466,8 +466,6 @@ Ora si è pronti per continuare la lettura su [Ship](Ship_Workbench/it.md), [qui
 </div>
 
 The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the second chapter of Series 60 from Iowa university ship.
-
-[Category   *Ship](Category_Ship.md)
 
 
 

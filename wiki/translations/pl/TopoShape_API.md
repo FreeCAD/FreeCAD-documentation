@@ -1,13 +1,13 @@
 # TopoShape API/pl
 {{VeryImportantMessage
-|''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https   *//www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
+|''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
-Kształt Topologiczny jest obiektem macierzystym modułu Część. Wszystkie typy kształtów *(polilinia, ściana, bryła, itd\...)* modułu Część są Kształtami Topologicznymi i posiadają następujące atrybuty i metody. Przykład   * 
+Kształt Topologiczny jest obiektem macierzystym modułu Część. Wszystkie typy kształtów *(polilinia, ściana, bryła, itd\...)* modułu Część są Kształtami Topologicznymi i posiadają następujące atrybuty i metody. Przykład: 
 ```python
 import Part
 sh = Part.makeBox(10,10,10)
 print sh.Faces
-for f in sh.Faces   *
+for f in sh.Faces:
    print f.Edges
 ```
 
@@ -147,7 +147,7 @@ for f in sh.Faces   *
 {{APIFunction|makePipeShell|wire|Tworzy przeciągnięcie zdefiniowane przez profile wzdłuż polilinii.|kształt topologiczny}}
 
 
-{{APIFunction|makeShapeFromMesh|mesh|Tworzy kształt złożony z danych siatki. Uwaga   * Powinno być używane tylko dla raczej małych oczek.|kształt topologiczny}}
+{{APIFunction|makeShapeFromMesh|mesh|Tworzy kształt złożony z danych siatki. Uwaga: Powinno być używane tylko dla raczej małych oczek.|kształt topologiczny}}
 
 
 {{APIFunction|makeThickness|list,float,float|Bryłę wydrążoną buduje się z bryły wejściowej i zbioru ścian tej bryły, które mają zostać usunięte. Pozostałe ściany bryły stają się ścianami wydrążonej bryły, a ich grubość jest określana w czasie konstrukcji. Przekazywane argumenty to lista ścian, które mają zostać pominięte, grubość ścian oraz wartość tolerancji.|kształt topologiczny}}
@@ -165,10 +165,10 @@ for f in sh.Faces   *
 {{APIFunction|reverse| |Odwraca orientację tego kształtu.| }}
 
 
-{{APIFunction|revolve|Vector, Vector, float|Obraca kształt wokół osi o zadany stopień. ex   * Part.revolve(Vector(0,0,0),Vector(0,0,1),360) obraca kształt wokół osi Z o 360 stopni.|kształt topologiczny}}
+{{APIFunction|revolve|Vector, Vector, float|Obraca kształt wokół osi o zadany stopień. ex: Part.revolve(Vector(0,0,0),Vector(0,0,1),360) obraca kształt wokół osi Z o 360 stopni.|kształt topologiczny}}
 
 
-{{APIFunction|rotate|Vector<position>, Vector<direction>, float<angle>|Obraca ten kształt o wartość kąta w stopniach wokół osi określonej przez położenie i kierunek. np   * Shp.rotate(Vector(0,0,0),Vector(0,0,1),180) obróć kształt wokół osi Z o 180 stopni.| }}
+{{APIFunction|rotate|Vector<position>, Vector<direction>, float<angle>|Obraca ten kształt o wartość kąta w stopniach wokół osi określonej przez położenie i kierunek. np: Shp.rotate(Vector(0,0,0),Vector(0,0,1),180) obróć kształt wokół osi Z o 180 stopni.| }}
 
 
 {{APIFunction|scale|float<factor>, [Vector<centre>]|Równomiernie skaluje ten kształt o współczynnik. Opcjonalnie określ środek transformacji skalującej.| }}
@@ -186,7 +186,7 @@ for f in sh.Faces   *
 {{APIFunction|toNurbs| |Konwersja kompletnej geometrii kształtu na geometrię NURBS. Na przykład, wszystkie krzywe podpierające krawędzie kształtu bazowego są konwertowane na krzywe złożone, a wszystkie powierzchnie podpierające jego ściany są konwertowane na powierzchnie krzywych złożonych.|krzywa NURBS}}
 
 
-{{APIFunction|transformGeometry|matrix|Stosuje transformację geometryczną na kopii kształtu. Zastosowana transformacja jest zdefiniowana jako macierz 4x4. Podstawowa geometria poniższych kształtów może zmienić się w krzywą, która obsługuje krawędź kształtu, lub powierzchnię, która obsługuje powierzchnię kształtu. Na przykład, okrąg może zostać przekształcony w elipsę podczas stosowania transformacji powinowactwa. Może się również zdarzyć, że okrąg zostanie wtedy przedstawiony jako krzywa złożona. Przekształcenie jest stosowane do wszystkich krzywych, które obsługują krawędzie kształtu oraz do wszystkich powierzchni, które obsługują ściany kształtu. Uwaga   * Jeżeli chcesz przekształcić kształt bez zmiany jego geometrii, użyj metod translate lub rotate.|kształt topologiczny}}
+{{APIFunction|transformGeometry|matrix|Stosuje transformację geometryczną na kopii kształtu. Zastosowana transformacja jest zdefiniowana jako macierz 4x4. Podstawowa geometria poniższych kształtów może zmienić się w krzywą, która obsługuje krawędź kształtu, lub powierzchnię, która obsługuje powierzchnię kształtu. Na przykład, okrąg może zostać przekształcony w elipsę podczas stosowania transformacji powinowactwa. Może się również zdarzyć, że okrąg zostanie wtedy przedstawiony jako krzywa złożona. Przekształcenie jest stosowane do wszystkich krzywych, które obsługują krawędzie kształtu oraz do wszystkich powierzchni, które obsługują ściany kształtu. Uwaga: Jeżeli chcesz przekształcić kształt bez zmiany jego geometrii, użyj metod translate lub rotate.|kształt topologiczny}}
 
 
 {{APIFunction|transformShape|matrix|Stosuje transformację na kształcie bez zmiany geometrii bazowej.| }}
@@ -200,7 +200,7 @@ for f in sh.Faces   *
 Niektóre atrybuty i metody mają zastosowanie tylko do określonych Kształtów Topologicznych. Te elementy mają zastosowanie do krawędzi *(TopoShapeEdge)*.
 
 
-{{APIProperty|FirstParameter|Wartość parametru na jednym końcu Krawędzi. Niekoniecznie na Vertex[0]. [http   *//en.wikipedia.org/wiki/Parametric_equations Patrz równania parametryczne]}}
+{{APIProperty|FirstParameter|Wartość parametru na jednym końcu Krawędzi. Niekoniecznie na Vertex[0]. [http://en.wikipedia.org/wiki/Parametric_equations Patrz równania parametryczne]}}
 
 
 {{APIProperty|LastParameter|Wartość parametru na drugin końcu Krawędzi. Niekoniecznie na  Vertex[1].}}
@@ -225,11 +225,6 @@ Niektóre atrybuty i metody mają zastosowanie tylko do określonych Kształtów
 
 
 {{APIFunction|centerOfCurvatureAt|Float|Zwraca środek (punkt 3D) okręgu oscylującego przy parametrze value.|Vector}}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

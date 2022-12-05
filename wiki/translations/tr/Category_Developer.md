@@ -1,8 +1,6 @@
 # Category:Developer/tr
 This category contains articles that are relevant for developers.
 
-[Category   *Categories/tr](Category   *Categories/tr.md)
-
 ### Contents
 
 |     |     |     |

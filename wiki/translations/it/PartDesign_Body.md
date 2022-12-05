@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *PartDesign Body
-   Name/it   *Corpo
-   MenuLocation   *Part Design → Crea un corpo
-   Workbenches   *[PartDesign](PartDesign_Workbench/it.md)
-   Version   *0.17
-   SeeAlso   *[Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
+- GuiCommand:/it
+   Name:PartDesign Body
+   Name/it:Corpo
+   MenuLocation:Part Design → Crea un corpo
+   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
+   Version:0.17
+   SeeAlso:[Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
 ---
 
 # PartDesign Body/it
@@ -25,29 +25,29 @@ Poiché si suppone che il Corpo sia un [singolo solido contiguo](PartDesign_Body
 </div>
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
-*A sinistra   * la vista ad albero che mostra le funzioni che producono in sequenza la forma finale dell'oggetto. A destra   * l'oggetto finale visibile nella [vista 3D](3D_view/it.md).
+*A sinistra: la vista ad albero che mostra le funzioni che producono in sequenza la forma finale dell'oggetto. A destra: l'oggetto finale visibile nella [vista 3D](3D_view/it.md).
 *
 
 ## Utilizzo
 
-Se non è stato selezionato alcun solido precedente   *
+Se non è stato selezionato alcun solido precedente:
 
 1.  Premere il pulsante **<img src="images/PartDesign_Body.svg" width=16px> [Corpo](PartDesign_Body/it.md)**. Viene creato un corpo vuoto che diventa automaticamente **[attivo](PartDesign_Body/it#Stato_attivo.md)**.
-2.  Ora si può premere **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)** per creare uno [schizzo](Sketch/it.md) nel corpo. In seguito lo schizzo può essere utilizzato per creare una **[<img src=images/PartDesign_Pad.svg style="width   *16px"> [Estrusione](PartDesign_Pad/it.md)**.
-3.  In alternativa, si può aggiungere una [funzione di PartDesign](PartDesign_Feature/it.md) primitiva, ad esempio un **[<img src=images/PartDesign_AdditiveBox.svg style="width   *16px"> [Cubo additivo](PartDesign_AdditiveBox/it.md)**.
+2.  Ora si può premere **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)** per creare uno [schizzo](Sketch/it.md) nel corpo. In seguito lo schizzo può essere utilizzato per creare una **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Estrusione](PartDesign_Pad/it.md)**.
+3.  In alternativa, si può aggiungere una [funzione di PartDesign](PartDesign_Feature/it.md) primitiva, ad esempio un **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [Cubo additivo](PartDesign_AdditiveBox/it.md)**.
 
-Se viene selezionato un oggetto solido   *
+Se viene selezionato un oggetto solido:
 
 1.  Premere il pulsante **<img src="images/PartDesign_Body.svg" width=16px> [Corpo](PartDesign_Body/it.md)**. Viene creato un nuovo Corpo contenente una singola **Base Feature**. Questo elemento Base Feature è un semplice riferimento a un altro oggetto precedentemente creato o importato nel documento. Per maggiori informazioni vedere [Funzione di base](PartDesign_Body/it#Funzione_di_base.md). Non è possibile selezionare un Corpo esistente o una [funzione di PartDesign](PartDesign_Feature/it.md) quando si preme **<img src="images/PartDesign_Body.svg" width=16px> [Corpo](PartDesign_Body/it.md)**.
 
 ### Note
 
--   Se, quando si preme il pulsante **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)** della barra degli strumenti di PartDesign non esiste ancora un corpo, ne viene creato automaticamente uno nuovo. Se esiste già un corpo, esso deve essere reso attivo prima di usare **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)**.
+-   Se, quando si preme il pulsante **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)** della barra degli strumenti di PartDesign non esiste ancora un corpo, ne viene creato automaticamente uno nuovo. Se esiste già un corpo, esso deve essere reso attivo prima di usare **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)**.
 -   Fare doppio clic su Corpo nella [vista ad albero](tree_view/it.md) o aprire il menu di scelta rapida (clic con il tasto destro) e selezionare **Attiva corpo** per attivare o disattivare il corpo. Se un altro corpo è attivo, esso viene disattivato. Per maggiori informazioni vedere [Stato attivo](PartDesign_Body/it#Stato_attivo.md).
 
 ## Proprietà
 
-Un [Corpo di PartDesign](PartDesign_Body/it.md) (classe `PartDesign   *   *Body`) è derivato da una [Part Feature](Part_Feature/it.md) (classe `Part   *   *Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
+Un [Corpo di PartDesign](PartDesign_Body/it.md) (classe `PartDesign::Body`) è derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo di PartDesign ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
 
@@ -56,22 +56,22 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo 
 
 {{TitleProperty|Base}}
 
--    **Tip|Link**   * è la [funzione di PartDesign](PartDesign_Feature/it.md) definita come \"funzione finale\", che è in genere l\'ultima funzione creata nel corpo. La funzione finale indica la forma finale del corpo, che viene mostrata nella [Vista 3D](3D_view/it.md) quando **Display Mode Body** è impostata su `Tip`. Per maggiori informazioni vedere [Tip](PartDesign_Body/it#Tip.md).
+-    **Tip|Link**: è la [funzione di PartDesign](PartDesign_Feature/it.md) definita come \"funzione finale\", che è in genere l\'ultima funzione creata nel corpo. La funzione finale indica la forma finale del corpo, che viene mostrata nella [Vista 3D](3D_view/it.md) quando **Display Mode Body** è impostata su `Tip`. Per maggiori informazioni vedere [Tip](PartDesign_Body/it#Tip.md).
 
--    **Base Feature|Link**   * è una forma esterna usata come prima [funzione di PartDesign](PartDesign_Feature/it.md) nel Corpo. Di solito viene impostata quando si trascina un oggetto solido in un corpo vuoto. Se non viene importato nessun solido in questo modo, questa proprietà rimane vuota. Per maggiori informazioni vedere [Funzione di base](PartDesign_Body/it#Funzione_di_base.md).
+-    **Base Feature|Link**: è una forma esterna usata come prima [funzione di PartDesign](PartDesign_Feature/it.md) nel Corpo. Di solito viene impostata quando si trascina un oggetto solido in un corpo vuoto. Se non viene importato nessun solido in questo modo, questa proprietà rimane vuota. Per maggiori informazioni vedere [Funzione di base](PartDesign_Body/it#Funzione_di_base.md).
 
--    **Placement**   * la posizione dell\'oggetto nella [Vista 3D](3D_view/it.md). Il posizionamento è definito da un punto `Base` (vettore) e una `Rotation` (asse e angolo). Vedere [Posizionamento](Placement/it.md).
+-    **Placement**: la posizione dell\'oggetto nella [Vista 3D](3D_view/it.md). Il posizionamento è definito da un punto `Base` (vettore) e una `Rotation` (asse e angolo). Vedere [Posizionamento](Placement/it.md).
 
--    **Group**   * un elenco di [funzioni di PartDesign](PartDesign_Feature/it.md) nel Corpo
+-    **Group**: un elenco di [funzioni di PartDesign](PartDesign_Feature/it.md) nel Corpo
 
 #### Proprietà dati nascoste 
 
 
 <div class="mw-translate-fuzzy">
 
--    **Origin|Link**   * l\'oggetto [App Origin](App_Origin/it.md) che è il riferimento posizionale per tutti gli elementi elencati nel **Gruppo**.
+-    **Origin|Link**: l\'oggetto [App Origin](App_Origin/it.md) che è il riferimento posizionale per tutti gli elementi elencati nel **Gruppo**.
 
--    **_ Group Touched|Bool**   * se il gruppo viene toccato o no.
+-    **_ Group Touched|Bool**: se il gruppo viene toccato o no.
 
 
 </div>
@@ -83,7 +83,7 @@ Oltre ale proprietà nascoste descritte in [Part Feature](Part_Feature/it.md) il
 
 {{TitleProperty|Base}}
 
--    **Display Mode Body|Enumeration**   * imposta la modalità di visualizzazione nella vista 3D specifica per il corpo in uno dei due tipi.
+-    **Display Mode Body|Enumeration**: imposta la modalità di visualizzazione nella vista 3D specifica per il corpo in uno dei due tipi.
 
     -   
         `Through`
@@ -103,8 +103,8 @@ Il corpo PartDesign è progettato per modellare un singolo solido contiguo. Per 
 
 Quando questi solidi contigui vengono riuniti in un qualche tipo di disposizione, diventano un \"assemblaggio\". In un assemblaggio, gli oggetti non vengono fusi insieme, ma vengono semplicemente \"impilati\" o posizionati uno accanto all\'altro e rimangono singole parti.
 
-<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width   *" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width   *" height="200px;"> 
-*A sinistra   * tre solidi contigui individuali, ciascuno modellato in un Corpo di PartDesign. A destra   * i singoli Corpi riuniti in un'assemblaggio.*
+<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
+*A sinistra: tre solidi contigui individuali, ciascuno modellato in un Corpo di PartDesign. A destra: i singoli Corpi riuniti in un'assemblaggio.*
 
 ### Editazione delle funzioni 
 
@@ -112,16 +112,16 @@ Un corpo di PartDesign è progettato per funzionare creando un solido iniziale, 
 
 Un corpo di PartDesign esegue una [fusione](Part_Fuse/it.md) (unione) automatica degli elementi solidi al suo interno. Ciò significa che (1) i solidi parziali devono toccarsi quando vengono creati e (2) che i solidi disconnessi non sono consentiti.
 
-<img alt="" src=images/PartDesign_Body_two_intersection.png  style="width   *" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width   *" height="200px;"> 
-*A sinistra   * due singoli solidi che si intersecano. A destra   * un singolo corpo di PartDesign creato con due [funzioni additive](PartDesign_Feature/it.md), che vengono automaticamente fuse insieme, quindi invece di intersecarsi, formano un singolo solido contiguo.*
+<img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
+*A sinistra: due singoli solidi che si intersecano. A destra: un singolo corpo di PartDesign creato con due [funzioni additive](PartDesign_Feature/it.md), che vengono automaticamente fuse insieme, quindi invece di intersecarsi, formano un singolo solido contiguo.*
 
 ![](images/PartDesign_Body_non-contiguous.png ) 
-*A sinistra   * due solidi disconnessi; questo non è un corpo PartDesign valido. A destra   * due solidi che si toccano; ciò si traduce in un corpo PartDesign valido. La [funzione](PartDesign_Feature/it.md) più recente deve sempre contattare o intersecare la funzione precedente in modo che sia fusa con essa e diventi un singolo solido contiguo.*
+*A sinistra: due solidi disconnessi; questo non è un corpo PartDesign valido. A destra: due solidi che si toccano; ciò si traduce in un corpo PartDesign valido. La [funzione](PartDesign_Feature/it.md) più recente deve sempre contattare o intersecare la funzione precedente in modo che sia fusa con essa e diventi un singolo solido contiguo.*
 
 
-**Nota   ***
+**Nota:**
 
-altri programmi CAD come Catia consentono solidi non contigui nello stesso \"Corpo\". A partire dalla versione 0.19, FreeCAD non lo consente. Ci sono state delle discussioni nel [forum di FreeCAD](https   *//forum.freecadweb.org/index.php) sulla revoca di questa restrizione, ma non è stata presa alcuna decisione concreta. Se desiderate saperne di più o presentare punti di vista diversi, potete discuterne nel [forum](https   *//forum.freecadweb.org/index.php).
+altri programmi CAD come Catia consentono solidi non contigui nello stesso \"Corpo\". A partire dalla versione 0.19, FreeCAD non lo consente. Ci sono state delle discussioni nel [forum di FreeCAD](https://forum.freecadweb.org/index.php) sulla revoca di questa restrizione, ma non è stata presa alcuna decisione concreta. Se desiderate saperne di più o presentare punti di vista diversi, potete discuterne nel [forum](https://forum.freecadweb.org/index.php).
 
 ## Spiegazione dettagliata delle proprietà 
 
@@ -129,7 +129,7 @@ altri programmi CAD come Catia consentono solidi non contigui nello stesso \"Cor
 
 Un documento aperto può contenere più corpi. Per aggiungere una nuova funzione a un corpo specifico, è necessario renderlo **attivo**. Un corpo attivo vinene visualizzato nella [vista ad albero](tree_view/it.md) con il colore di sfondo specificato dal valore **Active container** nell\'[editor delle preferenze](Preferences_Editor/it#Colori.md) (per impostazione predefinita, blu). Un corpo attivo viene anche mostrato in grassetto.
 
-Per attivare o disattivare un corpo   *
+Per attivare o disattivare un corpo:
 
 -   Fare doppio clic su di esso nella [vista ad albero](tree_view/it.md), oppure
 -   Aprire il menu contestuale (tasto destro) e selezionare **Attiva/disattiva il corpo**.
@@ -147,27 +147,27 @@ L\'attivazione di un corpo commuta automaticamente anche l\'interfaccia nell\'am
 The Origin consists of the three standard axes (X, Y, Z) and three standard planes (XY, XZ and YZ). [Sketches](Sketch.md) and other objects can be attached to these elements when creating them.
 
 1.  Create the Body.
-2.  If the Body is selected in the [tree view](tree_view.md), press **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [New sketch](PartDesign_NewSketch.md)**; the [task panel](task_panel.md) will open to allow selecting one of the planes.
+2.  If the Body is selected in the [tree view](tree_view.md), press **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)**; the [task panel](task_panel.md) will open to allow selecting one of the planes.
 3.  If the Body is not selected, select the Origin instead and make it visible in the [3D view](3D_view.md) by pressing the **Space** bar in the keyboard. Also expand the Origin object to see the axes and planes.
-4.  Select one of the planes, either in the [tree view](tree_view.md) or in the [3D view](3D_view.md), then press **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [New sketch](PartDesign_NewSketch.md)**. The sketch will be created on the chosen plane.
+4.  Select one of the planes, either in the [tree view](tree_view.md) or in the [3D view](3D_view.md), then press **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)**. The sketch will be created on the chosen plane.
 
 The same process can be used when creating auxiliary datum geometry like [PartDesign Lines](PartDesign_Line.md), [PartDesign Planes](PartDesign_Plane.md), and [PartDesign CoordinateSystems](PartDesign_CoordinateSystem.md).
 
 
-**Note   ***
+**Note:**
 
-the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App   *   *Origin` class), while the axes and planes are objects of type `App   *   *Line` and `App   *   *Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
+the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App::Origin` class), while the axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
 
 
-**Note 2   ***
+**Note 2:**
 
 all elements inside the Body are referenced to the Body\'s Origin which means that the Body can be moved and rotated in reference to the global coordinate system without affecting the placement of the elements inside.
 
-<img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width   *" height="400px;">
+<img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
 
-*Left   * PartDesign Body Origin in the [tree view](tree_view.md). Right   * representation of the Origin elements in the [3D view](3D_view.md).*
+*Left: PartDesign Body Origin in the [tree view](tree_view.md). Right: representation of the Origin elements in the [3D view](3D_view.md).*
 
 ### Funzione di base 
 
@@ -176,28 +176,28 @@ La Funzione di base, Base feature, è la prima [Funzione PartDesign](PartDesign_
 ![](images/PartDesign_Body_BaseFeature_tree.png ) 
 *PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
 
-To create the Base Feature   *
+To create the Base Feature:
 
 1.  select a solid shape external to any Body, and
-2.  press **[<img src=images/PartDesign_Body.svg style="width   *16px"> [Body](PartDesign_Body.md)**; this will create a new Body with a single Base Feature.
+2.  press **[<img src=images/PartDesign_Body.svg style="width:16px"> [Body](PartDesign_Body.md)**; this will create a new Body with a single Base Feature.
 
 
-**Note   ***
+**Note:**
 
-you can\'t select an existing Body, or any of its [features](PartDesign_Feature.md), when pressing **[<img src=images/PartDesign_Body.svg style="width   *16px"> [Body](PartDesign_Body.md)**.
+you can\'t select an existing Body, or any of its [features](PartDesign_Feature.md), when pressing **[<img src=images/PartDesign_Body.svg style="width:16px"> [Body](PartDesign_Body.md)**.
 
-If you already have a Body, you can create the Base Feature in this way   *
+If you already have a Body, you can create the Base Feature in this way:
 
 -   in the [tree view](tree_view.md), pick an object, and drag and drop it inside the Body, or
 -   in the [property editor](property_editor.md), edit the value of **Base Feature** by pressing the ellipsis **...**, and choosing an object from the list. In this case you can choose an existing Body to be the Base Feature.
 
 
-**Note   ***
+**Note:**
 
 dragging and dropping only works for Bodies which don\'t have a Base Feature already.
 
 
-**Note 2   ***
+**Note 2:**
 
 if the Body already has several features, when you drag and drop the external solid, the Base Feature will be created at the beginning of the list of features, that is, it will be added to the beginning of the **Group** property.
 
@@ -207,10 +207,10 @@ The Base Feature is entirely optional; it is only present when including an obje
 
 
 
-*Left   * PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](PartDesign_Feature.md) on top. Right   * Body which doesn't have an explicit Base Feature.*
+*Left: PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](PartDesign_Feature.md) on top. Right: Body which doesn't have an explicit Base Feature.*
 
 
-**Note   ***
+**Note:**
 
 If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
 
@@ -228,9 +228,9 @@ La cima o punta (Tip) è la [PartDesign Feature](PartDesign_Feature/it.md) del c
 
 
 
-*Left   * PartDesign Body with full parametric history including intermediate features. Right   * the Tip is the final shape that can be exported from the Body, while omitting the model's history.*
+*Left: PartDesign Body with full parametric history including intermediate features. Right: the Tip is the final shape that can be exported from the Body, while omitting the model's history.*
 
-The Tip is automatically set to the last feature created in the Body. Nevertheless, it can also be set to any of the intermediate features by opening the [tree view](tree_view.md) context menu (right-click) and choosing **[<img src=images/PartDesign_MoveTip.svg style="width   *16px"> [Set tip](PartDesign_MoveTip.md)**, or by changing the Body\'s **Tip** value in the [property editor](property_editor.md).
+The Tip is automatically set to the last feature created in the Body. Nevertheless, it can also be set to any of the intermediate features by opening the [tree view](tree_view.md) context menu (right-click) and choosing **[<img src=images/PartDesign_MoveTip.svg style="width:16px"> [Set tip](PartDesign_MoveTip.md)**, or by changing the Body\'s **Tip** value in the [property editor](property_editor.md).
 
 Changing the Tip in effect rolls back its history, making it possible to add features that should have been added earlier. It also exposes a different shape to external tools.
 
@@ -263,7 +263,7 @@ Una volta completate le operazioni in altri ambienti, non dimenticare di riprist
 
 
 
-*Left   * when "Display Mode Body" is set to `Through* it is possible to select and perform operations with the individual [PartDesign Features](PartDesign_Feature.md); in general, this is not recommended. Right   * when "Display Mode Body" is set to {{incode|Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.}}
+*Left: when "Display Mode Body" is set to `Through* it is possible to select and perform operations with the individual [PartDesign Features](PartDesign_Feature.md); in general, this is not recommended. Right: when "Display Mode Body" is set to {{incode|Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.}}
 
 ### Gestione della visibilità 
 
@@ -272,7 +272,7 @@ La visibilità del corpo prevale sulla visibilità di qualsiasi oggetto in esso 
 Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDesign Feature](PartDesign_Feature.md) (solid result) can be visible at a time. Selecting a hidden feature and pressing the **Space** bar in the keyboard will make it visible, and automatically hide the previously visible feature.
 
 ![](images/PartDesign_Body_Visibility.png ) 
-*PartDesign Body   * multiple [Sketches](Sketch.md) may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
+*PartDesign Body: multiple [Sketches](Sketch.md) may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
 
 ### Attachment
 
@@ -283,22 +283,22 @@ Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDes
 A [PartDesign Feature](PartDesign_Feature.md) that is not attached will be shown with a red overlay symbol next to their icon in the [tree view](tree_view.md).
 
 ![](images/PartDesign_Body_Feature_attachment.png ) 
-*PartDesign Body   * [PartDesign Features](PartDesign_Feature.md) that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
+*PartDesign Body: [PartDesign Features](PartDesign_Feature.md) that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
 
 ### Inheritance
 
-A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `PartDesign   *   *Body`, whose parent is [Part Feature](Part_Feature.md) (`Part   *   *Feature` class) through the intermediate `Part   *   *BodyBase` class, and is augmented with an Origin extension.
+A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `PartDesign::Body`, whose parent is [Part Feature](Part_Feature.md) (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in the program. The `PartDesign   *   *Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part   *   *Feature` object, and has an Origin to control the placement of the features used inside of it.}}
+*Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
 
@@ -311,11 +311,11 @@ Un corpo PartDesign viene creato con il metodo `addObject()` del documento. Quan
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
+obj = App.ActiveDocument.addObject("PartDesign::Body", "Body")
 obj.Label = "Custom label"
 
-feat1 = App.ActiveDocument.addObject("PartDesign   *   *AdditiveBox", "Box")
-feat2 = App.ActiveDocument.addObject("PartDesign   *   *AdditiveCylinder", "Cylinder")
+feat1 = App.ActiveDocument.addObject("PartDesign::AdditiveBox", "Box")
+feat2 = App.ActiveDocument.addObject("PartDesign::AdditiveCylinder", "Cylinder")
 
 obj.addObjects([feat1, feat2])
 App.ActiveDocument.recompute()
@@ -327,8 +327,8 @@ import FreeCAD as App
 import FreeCADGui as Gui
 
 doc = App.newDocument()
-obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
-obj2 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
 
 Gui.ActiveDocument.ActiveView.setActiveObject("pdbody", obj1)
 App.ActiveDocument.recompute()

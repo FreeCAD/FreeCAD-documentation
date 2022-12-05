@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh VertexCurvature
-   Name/pl   *Siatka   * Krzywizna siatki
-   MenuLocation   *Siatki → Wykres krzywizny
-   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso   *[Informacje o krzywiźnie](Mesh_CurvatureInfo/pl.md)
+- GuiCommand:/pl
+   Name:Mesh VertexCurvature
+   Name/pl:Siatka: Krzywizna siatki
+   MenuLocation:Siatki → Wykres krzywizny
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Informacje o krzywiźnie](Mesh_CurvatureInfo/pl.md)
 ---
 
 # Mesh VertexCurvature/pl
@@ -19,7 +19,7 @@ Polecenie **Wykres krzywizny** tworzy obiekty krzywizny dla obiektów siatki. Ob
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów siatki.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Krzywizna siatki](Mesh_VertexCurvature/pl.md)**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny**.
     -   Wybierz opcję **<img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny** z menu podręcznego [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
@@ -33,44 +33,44 @@ Dla obiektu krzywizny siatki następujące właściwości są dostępne w [edyto
 
 {{TitleProperty|Podstawowe}}
 
--    **Etykieta|String**   * edytowalna przez użytkownika nazwa obiektu, dowolny ciąg znaków UTF8.
+-    **Etykieta|String**: edytowalna przez użytkownika nazwa obiektu, dowolny ciąg znaków UTF8.
 
--    **Pochodzenie|Link**   * link do obiektu siatki.
+-    **Pochodzenie|Link**: link do obiektu siatki.
 
 #### Ukryte dane 
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Curv Info|CurvatureList**   * lista informacji o krzywiźnie.
+-    **Curv Info|CurvatureList**: lista informacji o krzywiźnie.
 
--    **Expression Engine|ExpressionEngine**   * lista wyrażeń.
+-    **Expression Engine|ExpressionEngine**: lista wyrażeń.
 
--    **Label2|String**   * opis obiektu edytowalny przez użytkownika, dowolny ciąg znaków UTF8, który może zawierać nowe linie.
+-    **Label2|String**: opis obiektu edytowalny przez użytkownika, dowolny ciąg znaków UTF8, który może zawierać nowe linie.
 
--    **Visibility|Bool**   * jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [widoku 3D](3D_view/pl.md).
+-    **Visibility|Bool**: jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [widoku 3D](3D_view/pl.md).
 
 ### Widok
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Display Mode|Enumeration**   * {{value|Krzywizna bezwzględna}} *(domyślnie)*, {{value|Krzywizna średnia}}, {{value|Krzywizna Gaussa}}, {{value|Krzywizna maksymalna}}, {{value|Krzywizna minimalna}}.
+-    **Display Mode|Enumeration**: {{value|Krzywizna bezwzględna}} *(domyślnie)*, {{value|Krzywizna średnia}}, {{value|Krzywizna Gaussa}}, {{value|Krzywizna maksymalna}}, {{value|Krzywizna minimalna}}.
 
--    **On Top When Selected|Enumeration**   * {{value|Wyłączone}} *(domyślnie)*, {{value|Włączone}}, {{value|Objekt}}, {{value|Element}}.
+-    **On Top When Selected|Enumeration**: {{value|Wyłączone}} *(domyślnie)*, {{value|Włączone}}, {{value|Objekt}}, {{value|Element}}.
 
--    **Selection Style|Enumeration**   * {{value|Kształt}}, {{value|Ramka otaczająca}} *(domyślnie)*.
+-    **Selection Style|Enumeration**: {{value|Kształt}}, {{value|Ramka otaczająca}} *(domyślnie)*.
 
--    **Show In Tree|Bool**   * jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku drzewa](Tree_view/pl.md).
+-    **Show In Tree|Bool**: jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku drzewa](Tree_view/pl.md).
 
--    **Visibility|Bool**   * jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku 3D](3D_view/pl.md).
+-    **Visibility|Bool**: jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku 3D](3D_view/pl.md).
 
 #### Wyświetl ukryte 
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Texture Material|Material**   * [Materiał](App_Material/pl.md) związany z obiektem.
+-    **Texture Material|Material**: [Materiał](App_Material/pl.md) związany z obiektem.
 
 
 

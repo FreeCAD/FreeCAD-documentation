@@ -1,15 +1,15 @@
 # Manual:Navigating in the 3D view/fr
-{{Manual   *TOC/fr}}
+{{Manual:TOC/fr}}
 
 ### Un mot sur l\'espace 3D 
 
 Si c\'est votre premier contact avec une application 3D, vous devez d\'abord saisir certains concepts. Dans le cas contraire, vous pouvez sauter cette section sans problème.
 
-L\'espace FreeCAD 3D est un espace euclidien ([Espace Euclidien](https   *//fr.wikipedia.org/wiki/Espace_euclidien)). Il a un point d\'origine et trois axes   * X, Y et Z. Si vous regardez votre scène d\'en haut, de manière conventionnelle, l\'axe X pointe vers la droite, l'axe Y vers l\'arrière, et l\'axe Z vers le haut. Dans le coin inférieur droit de la vue FreeCAD, vous pouvez toujours voir d\'où vous regardez la scène    *
+L\'espace FreeCAD 3D est un espace euclidien ([Espace Euclidien](https://fr.wikipedia.org/wiki/Espace_euclidien)). Il a un point d\'origine et trois axes: X, Y et Z. Si vous regardez votre scène d\'en haut, de manière conventionnelle, l\'axe X pointe vers la droite, l'axe Y vers l\'arrière, et l\'axe Z vers le haut. Dans le coin inférieur droit de la vue FreeCAD, vous pouvez toujours voir d\'où vous regardez la scène :
 
 ![](images/Axes_orientation.png )
 
-Chaque point de chaque objet de cet espace peut être repéré par ses coordonnées (x, y, z). Par exemple, un point avec des coordonnées (2, 3, 1) se situera à 2 unités sur l\'axe X, 3 unités sur l\'axe Y et 1 unité sur l\'axe Z    *
+Chaque point de chaque objet de cet espace peut être repéré par ses coordonnées (x, y, z). Par exemple, un point avec des coordonnées (2, 3, 1) se situera à 2 unités sur l\'axe X, 3 unités sur l\'axe Y et 1 unité sur l\'axe Z :
 
 ![](images/3dspace_coordinates.jpg )
 
@@ -19,11 +19,11 @@ Vous pouvez regarder cette scène sous n\'importe quel angle comme si vous tenie
 
 #### Navigation à la souris 
 
-La navigation dans la [vue 3D](3D_view/fr.md) FreeCAD peut se faire avec une souris, un périphérique Navigateur spacial, le clavier, un pavé tactile ou une combinaison de ceux-ci. FreeCAD propose plusieurs [modes de navigation](Mouse_navigation/fr.md) qui déterminent comment les trois opérations de manipulation de la vue de base (panoramique, rotation et zoom) sont effectuées, ainsi que la façon de sélectionner des objets sur l\'écran. Les modes de navigation sont accessibles à partir de l\'écran Préférences ou directement en cliquant avec le bouton droit n\'importe où sur la [vue 3D](3D_view/fr.md)   *
+La navigation dans la [vue 3D](3D_view/fr.md) FreeCAD peut se faire avec une souris, un périphérique Navigateur spacial, le clavier, un pavé tactile ou une combinaison de ceux-ci. FreeCAD propose plusieurs [modes de navigation](Mouse_navigation/fr.md) qui déterminent comment les trois opérations de manipulation de la vue de base (panoramique, rotation et zoom) sont effectuées, ainsi que la façon de sélectionner des objets sur l\'écran. Les modes de navigation sont accessibles à partir de l\'écran Préférences ou directement en cliquant avec le bouton droit n\'importe où sur la [vue 3D](3D_view/fr.md):
 
 ![](images/FreeCAD-v0-18-NavigationModePopup.png )
 
-Chacun de ces modes attribue différentes actions aux boutons de la souris ou boutons de souris + combinaison de touches du clavier ou des fonctions à la souris à ces quatre opérations. Le tableau suivant montre les principaux modes disponibles    *
+Chacun de ces modes attribue différentes actions aux boutons de la souris ou boutons de souris + combinaison de touches du clavier ou des fonctions à la souris à ces quatre opérations. Le tableau suivant montre les principaux modes disponibles :
 
 ++++++
 | Mode             | Panoramique                                                                                                                                                                                                                                                                            | Rotation                                                                                                                                                                                                                                                                                   | Zoom                                                                                                                                                                                                                                                                                    | Sélection                                                                                                                                           |
@@ -46,7 +46,7 @@ Chacun de ces modes attribue différentes actions aux boutons de la souris ou bo
 
 #### Navigation par le clavier 
 
-Certaines commandes du clavier sont toujours disponibles et ce, quel que soit le mode de navigation    *
+Certaines commandes du clavier sont toujours disponibles et ce, quel que soit le mode de navigation :
 
 -    **Ctrl**\+ {{ASCII|43}} et **Ctrl** + {{ASCII|22}} pour zoom avant et zoom arrière
 
@@ -54,14 +54,14 @@ Certaines commandes du clavier sont toujours disponibles et ce, quel que soit le
 
 -    **Shift**\+ {{ASCII|17}} et **Shift** + {{ASCII|16}} pour faire pivoter la vue de 90 degrés
 
--   le clavier numérique, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, pour les sept vues standard   *
+-   le clavier numérique, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, pour les sept vues standard:
 
-<img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Isometrique](Std_ViewIsometric/fr.md), <img alt="" src=images/Std_ViewFront.svg  style="width   *24px;"> [Avant](Std_ViewFront/fr.md), <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> [Dessus](Std_ViewTop/fr.md), <img alt="" src=images/Std_ViewRight.svg  style="width   *24px;"> [Droite](Std_ViewRight/fr.md), <img alt="" src=images/Std_ViewRear.svg  style="width   *24px;"> [Arrière](Std_ViewRear/fr.md), <img alt="" src=images/Std_ViewBottom.svg  style="width   *24px;"> [Dessous](Std_ViewBottom/fr.md), et <img alt="" src=images/Std_ViewLeft.svg  style="width   *24px;"> [Gauche](Std_ViewLeft/fr.md)
+<img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometrique](Std_ViewIsometric/fr.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [Avant](Std_ViewFront/fr.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Dessus](Std_ViewTop/fr.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [Droite](Std_ViewRight/fr.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [Arrière](Std_ViewRear/fr.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [Dessous](Std_ViewBottom/fr.md), et <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Gauche](Std_ViewLeft/fr.md)
 
 -    **V**
-    **O**mettra la vue en <img alt="" src=images/View-isometric.svg  style="width   *24px;"> [mode orthographique](Std_OrthographicCamera/fr.md).
+    **O**mettra la vue en <img alt="" src=images/View-isometric.svg  style="width:24px;"> [mode orthographique](Std_OrthographicCamera/fr.md).
 
--   alors que **V****P** mettra la vue en <img alt="" src=images/View-perspective.svg  style="width   *24px;"> [mode en perspective](Std_PerspectiveCamera/fr.md).
+-   alors que **V****P** mettra la vue en <img alt="" src=images/View-perspective.svg  style="width:24px;"> [mode en perspective](Std_PerspectiveCamera/fr.md).
 
 -    **Ctrl**vous permettra de sélectionner plus d\'un objet ou élément
 
@@ -87,13 +87,13 @@ Un petit mini-cube, situé dans le coin inférieur droit de la zone, active un m
 
 Les objets dans la vue 3D peuvent être sélectionnés en cliquant dessus avec la souris (voir détails au-dessus) en fonction du mode de navigation. Un seul clic sélectionnera l\'objet et l\'un de ses sous-composants (arête, face, sommet). Double-cliquer sélectionnera l\'objet et tous ses sous-composants. Vous pouvez sélectionner plus d\'un sous-composant voire différents sous-composants de différents objets en appuyant sur la touche CTRL. Cliquer avec le bouton de sélection sur une partie vide de la vue 3D désélectionnera tout.
 
-Un panneau appelé \"Afficher la Sélection\", disponible dans le menu Affichage, peut également être activé. Il vous montrera la sélection en cours    *
+Un panneau appelé \"Afficher la Sélection\", disponible dans le menu Affichage, peut également être activé. Il vous montrera la sélection en cours :
 
 ![](images/Selection_view.jpg )
 
 Vous pouvez également utiliser l\'affichage de sélection pour sélectionner des objets en recherchant un objet particulier.
 
-**Pour en savoir plus**    *
+**Pour en savoir plus** :
 
 -   [Les modes de navigation FreeCAD](Mouse_navigation/fr.md)
 -   [Le cube de navigation](Navigation_Cube/fr.md)

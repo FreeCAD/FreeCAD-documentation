@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *PartDesign Boolean
-   Name/de   *PartDesign Boolesche Operation
-   MenuLocation   *Part Design → Boolesche Operation
-   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
-   Version   *0.17
+- GuiCommand:/de
+   Name:PartDesign Boolean
+   Name/de:PartDesign Boolesche Operation
+   MenuLocation:Part Design → Boolesche Operation
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   Version:0.17
 ---
 
 # PartDesign Boolean/de
@@ -21,7 +21,7 @@
 
 ## Anwendung
 
-1.  Den [Körper aktivieren](PartDesign_Body/de#Aktiver_Status.md), der das Boolean-Objekt erhalten soll. ***Hinweis**   * Es ist wichtig, dass weder der aktive Körper noch eines der darin enthaltenen Elemente ausgewählt sind!*
+1.  Den [Körper aktivieren](PartDesign_Body/de#Aktiver_Status.md), der das Boolean-Objekt erhalten soll. ***Hinweis**: Es ist wichtig, dass weder der aktive Körper noch eines der darin enthaltenen Elemente ausgewählt sind!*
 
 2.  Die Schaltfläche **<img src="images/PartDesign_Boolean.svg" width=24px> '''Boolesche Operation'''** drücken.
 
@@ -38,27 +38,27 @@ Alternativ können ein oder mehrere Körper vor dem Drücken der Schaltfläche B
 
 ## Optionen
 
--   **Vereinigung   *** Verbindet den/die Werkzeugkörper mit dem aktiven Körper.
--   **Differenz   *** Zieht den/die Werkzeugkörper vom aktiven Körper ab.
--   **Schnitt   *** Extrahiert die Überschneidung der/des gewählten Körper(s) mit dem aktiven Körper.
+-   **Vereinigung:** Verbindet den/die Werkzeugkörper mit dem aktiven Körper.
+-   **Differenz:** Zieht den/die Werkzeugkörper vom aktiven Körper ab.
+-   **Schnitt:** Extrahiert die Überschneidung der/des gewählten Körper(s) mit dem aktiven Körper.
 -   Die Schaltfläche **Körper entfernen** drücken, um einen Körper durch Auswahl in der [3D-Ansicht](3D_view/de.md) zu entfernen.
 
 ## Eigenschaften
 
--    {{PropertyData/de|Type}}   * legt die Boolesche Operation (Vereinigung, Differenz, Schnitt) fest.
+-    {{PropertyData/de|Type}}: legt die Boolesche Operation (Vereinigung, Differenz, Schnitt) fest.
 
--    {{PropertyData/de|Label}}   * Name, der der Operation gegeben wurde, dieser Name kann nach Belieben geändert werden.
+-    {{PropertyData/de|Label}}: Name, der der Operation gegeben wurde, dieser Name kann nach Belieben geändert werden.
 
--    {{PropertyData/de|Group}}   * Listet die Werkzeugkörper auf.
+-    {{PropertyData/de|Group}}: Listet die Werkzeugkörper auf.
 
--    {{PropertyView/de|Display}}   * Setzt einen von zwei Anzeigemodi   *
+-    {{PropertyView/de|Display}}: Setzt einen von zwei Anzeigemodi:
 
-    -   Result (Standard)   * Zeigt das Ergebnis des Boolean-Objekts an. In diesem Modus können die Werkzeugkörper nicht in ihrem ursprünglichen Zustand angezeigt werden, selbst wenn ihre Sichtbarkeit eingeschaltet ist.
-    -   Tools   * zeigt die Werkzeugkörper in ihrem ursprünglichen Zustand an. Dieser Modus ist nützlich, wenn die Werkzeugkörper bearbeitet werden müssen, oder für spätere Bearbeitungen verwendet werden sollen.
+    -   Result (Standard): Zeigt das Ergebnis des Boolean-Objekts an. In diesem Modus können die Werkzeugkörper nicht in ihrem ursprünglichen Zustand angezeigt werden, selbst wenn ihre Sichtbarkeit eingeschaltet ist.
+    -   Tools: zeigt die Werkzeugkörper in ihrem ursprünglichen Zustand an. Dieser Modus ist nützlich, wenn die Werkzeugkörper bearbeitet werden müssen, oder für spätere Bearbeitungen verwendet werden sollen.
 
--    {{PropertyView/de|Selectable}}   * true oder false. Wenn auf \"false\" gesetzt, kann das Objekt nicht in der 3D-Ansicht ausgewählt werden.
+-    {{PropertyView/de|Selectable}}: true oder false. Wenn auf \"false\" gesetzt, kann das Objekt nicht in der 3D-Ansicht ausgewählt werden.
 
--    {{PropertyView/de|Sichtbarkeit}}   * true oder false. Schaltet die Sichtbarkeit des Objekts in der 3D-Ansicht um.
+-    {{PropertyView/de|Sichtbarkeit}}: true oder false. Schaltet die Sichtbarkeit des Objekts in der 3D-Ansicht um.
 
 ## Begrenzungen
 

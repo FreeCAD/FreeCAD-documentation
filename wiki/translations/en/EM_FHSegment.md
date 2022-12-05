@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *EM FHSegment
-   MenuLocation   *EM → FHSegment
-   Workbenches   *[EM](EM_Workbench.md)
-   Shortcut   ***E** **S**
-   Version   *0.17
-   SeeAlso   *[EM FHNode](EM_FHNode.md), [EM FHPath](EM_FHPath.md)
+- GuiCommand:
+   Name:EM FHSegment
+   MenuLocation:EM → FHSegment
+   Workbenches:[EM](EM_Workbench.md)
+   Shortcut:**E** **S**
+   Version:0.17
+   SeeAlso:[EM FHNode](EM_FHNode.md), [EM FHPath](EM_FHPath.md)
 ---
 
 # EM FHSegment/en
@@ -22,23 +22,23 @@ The FHSegment tool inserts a FastHenry segment object.
 
 ## Usage
 
-The FHSegment object can be based on the position of a <img alt="" src=images/Draft_Line.svg  style="width   *16px;"> [Draft Line](Draft_Line.md) object, or on two existing <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [FHNodes](EM_FHNode.md) that will be the FHSegment end points, or you can select the 3D location of the two end points, where two additional FHNodes will be created.
+The FHSegment object can be based on the position of a <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Draft Line](Draft_Line.md) object, or on two existing <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [FHNodes](EM_FHNode.md) that will be the FHSegment end points, or you can select the 3D location of the two end points, where two additional FHNodes will be created.
 
 1.  Press the **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment.md)** button, or press **E** then **S** keys.
 2.  Click a first point on the 3D view, or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> add point** button.
 3.  Click a second point on the 3D view, or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> add point** button.
 
-Alternatively, you can also   *
+Alternatively, you can also:
 
 1.  Select two [FHNode](EM_FHNode.md) objects
 2.  Press the **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment.md)** button, or press **E** then **S** keys.
 
-Or   *
+Or:
 
 1.  Select one or multiple [Draft Line](Draft_Line.md) object(s)
 2.  Press the **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment.md)** button, or press **E** then **S** keys. As many FHSegment objects will be created as the Draft Line objects.
 
-### Remarks   *
+### Remarks:
 
 -   If you create a FHSegment object based on a Draft Line object, you can NOT freely move the FHSegment or the end point FHNodes. The FHSegment will always be constrained to the base object. To change the position of the FHSegment, or of its end point, apply the change to the underlying Draft Line object (the base object is hidden by default, you can show it again by selecting the object in the tree and pressing **Space**.
 
@@ -51,36 +51,36 @@ Or   *
 
 ## Properties
 
--    **Base**   * The base object this component is built upon (a [Draft Line](Draft_Line.md))
+-    **Base**: The base object this component is built upon (a [Draft Line](Draft_Line.md))
 
--    **NodeStart**   * the starting [FHNode](EM_FHNode.md)
+-    **NodeStart**: the starting [FHNode](EM_FHNode.md)
 
--    **NodeEnd**   * the ending [FHNode](EM_FHNode.md)
+-    **NodeEnd**: the ending [FHNode](EM_FHNode.md)
 
--    **Width**   * the FHSegment width (\'w\' segment parameter in FastHenry)
+-    **Width**: the FHSegment width (\'w\' segment parameter in FastHenry)
 
--    **Height**   * the FHSegment height (\'h\' segment parameter in FastHenry)
+-    **Height**: the FHSegment height (\'h\' segment parameter in FastHenry)
 
--    **Sigma**   * the FHSegment conductivity (\'sigma\' segment parameter in FastHenry)
+-    **Sigma**: the FHSegment conductivity (\'sigma\' segment parameter in FastHenry)
 
--    **ww**   * the FHSegment cross-section direction along the width (\'wx\', \'wy\', \'wz\' segment parameter in FastHenry)
+-    **ww**: the FHSegment cross-section direction along the width (\'wx\', \'wy\', \'wz\' segment parameter in FastHenry)
 
--    **nhinc**   * the Number of filaments in the height direction (\'nhinc\' segment parameter in FastHenry)
+-    **nhinc**: the Number of filaments in the height direction (\'nhinc\' segment parameter in FastHenry)
 
--    **nwinc**   * the Number of filaments in the width direction (\'nwinc\' segment parameter in FastHenry)
+-    **nwinc**: the Number of filaments in the width direction (\'nwinc\' segment parameter in FastHenry)
 
--    **rh**   * the ratio of adjacent filaments in the height direction (\'rh\' segment parameter in FastHenry)
+-    **rh**: the ratio of adjacent filaments in the height direction (\'rh\' segment parameter in FastHenry)
 
--    **rw**   * the ratio of adjacent filaments in the width direction (\'rw\' segment parameter in FastHenry)
+-    **rw**: the ratio of adjacent filaments in the width direction (\'rw\' segment parameter in FastHenry)
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHSegment object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The FHSegment object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -101,7 +101,7 @@ segment = makeFHSegment(baseobj=None, nodeStart=None, nodeEnd=None, width=None, 
 
 -    `name`is the name of the object
 
-Example   *
+Example:
 
 
 ```python

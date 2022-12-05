@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ko
-   Name   *Std Cut
-   Name/ko   *표준 잘라내기
-   MenuLocation   *편집 → 잘라내기
-   Workbenches   *모두
-   SeeAlso   *[표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
+- GuiCommand:/ko
+   Name:Std Cut
+   Name/ko:표준 잘라내기
+   MenuLocation:편집 → 잘라내기
+   Workbenches:모두
+   SeeAlso:[표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
 ---
 
 # Std Cut/ko
@@ -21,7 +21,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  스프레드시트에서 하나 이상의 셀을 선택합니다.
-2.  이 명령을 실행하는 방법은 여러가지입니다   *
+2.  이 명령을 실행하는 방법은 여러가지입니다:
     -   
         **<img src="images/Std_Cut.svg" width=16px> [표준 잘라내기](Std_Cut/ko.md)
 **

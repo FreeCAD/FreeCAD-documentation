@@ -3,14 +3,14 @@
 
 FreeCADオンラインヘルプシステムの目次です。ここで参照された記事は、wiki2chm.pyツールによって自動的にFreeCAD.chmファイルに取り込まれます。このツールはsrc/Tools/wiki2chm.pyにあります。このマニュアルの印刷用バージョンも利用できます。
 
-これはFreeCADのオンラインヘルプシステムの自動ビルドに使用される目次です。 このマニュアルの印刷版は、\[[https   *//github.com/FreeCAD/FreeCAD/Releasesリリース\]ページでも利用できます](https   *//github.com/FreeCAD/FreeCAD/Releasesリリース%5Dページでも利用できます)。
+これはFreeCADのオンラインヘルプシステムの自動ビルドに使用される目次です。 このマニュアルの印刷版は、\[[https://github.com/FreeCAD/FreeCAD/Releasesリリース\]ページでも利用できます](https://github.com/FreeCAD/FreeCAD/Releasesリリース%5Dページでも利用できます)。
 
 
 </div>
 
 There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.md).
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Introduction
     -   [Welcome](Online_Help_Startpage.md)
@@ -160,11 +160,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 
 </div>
-
-
-
-
-[Category   *Documentation/ja](Category   *Documentation/ja.md) [Category   *Documentation](Category_Documentation.md)
 
 
 

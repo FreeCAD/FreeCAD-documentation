@@ -1,5 +1,5 @@
 # Category:Command Reference/ja
-[Category   *Categories/ja](Category   *Categories/ja.md)
+
 
 ### Contents
 

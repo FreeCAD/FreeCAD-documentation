@@ -1,4 +1,4 @@
-# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width   *64px;"> Start Workbench/ro
+# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/ro
 
 
 <div class="mw-translate-fuzzy">
@@ -19,7 +19,7 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCad_Start_0.18_documents.png  style="width   *1024px;"> 
+<img alt="" src=images/FreeCad_Start_0.18_documents.png  style="width:1024px;"> 
 *align=center|Start workbench, documents tab*
 
 
@@ -28,7 +28,7 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCad_Start_0.18_help.png  style="width   *1024px;"> 
+<img alt="" src=images/FreeCad_Start_0.18_help.png  style="width:1024px;"> 
 *align=center|Start workbench, help tab*
 
 
@@ -37,7 +37,7 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCad_Start_0.18_activity.png  style="width   *1024px;"> 
+<img alt="" src=images/FreeCad_Start_0.18_activity.png  style="width:1024px;"> 
 *align=center|Start workbench, activity tab*
 
 
@@ -51,11 +51,6 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 
 </div>
-
-
-
-
-[Category   *Start](Category_Start.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

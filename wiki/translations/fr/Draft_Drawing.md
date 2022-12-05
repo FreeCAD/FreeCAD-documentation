@@ -1,22 +1,22 @@
 ---
-- GuiCommand   */fr
-   Name   *Draft Drawing
-   Name/fr   *Draft Dessin
-   Workbenches   *[Drawing](Drawing_Workbench/fr.md), [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[TechDraw Vue d'un objet Draft](TechDraw_DraftView/fr.md)
+- GuiCommand:/fr
+   Name:Draft Drawing
+   Name/fr:Draft Dessin
+   Workbenches:[Drawing](Drawing_Workbench/fr.md), [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso:[TechDraw Vue d'un objet Draft](TechDraw_DraftView/fr.md)
 ---
 
 # Draft Drawing/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Drawing.svg  style="width   *24px;"> **Draft Dessin** insère des vues des objets sélectionnés dans une page de [dessin](Drawing_Workbench/fr.md).
+La commande <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Dessin** insère des vues des objets sélectionnés dans une page de [dessin](Drawing_Workbench/fr.md).
 
 Cette commande est similaire à la commande [Drawing Insérer une vue dans la page](Drawing_View.md) mais est optimisée pour les objets de [Draft](Draft_Workbench/fr.md). Contrairement à cette commande, elle peut gérer des objets spécifiques tels que des [Draft Dimensions](Draft_Dimension/fr.md) et des [Draft Textes](Draft_Text/fr.md), et elle peut faire le rendu des faces.
 
 Cette commande est maintenant obsolète. Utilisez plutôt l\'[atelier TechDraw](TechDraw_Workbench/fr.md) et la commande [TechDraw Vue d\'un objet Draft](TechDraw_DraftView/fr.md).
 
-<img alt="" src=images/Draft_drawing_example.jpg  style="width   *640px;"> 
+<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
 *A gauche, les objets Draft sélectionnés. A droite, les vues de dessin créées.*
 
 ## Utilisation

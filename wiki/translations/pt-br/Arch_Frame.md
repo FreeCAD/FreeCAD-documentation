@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Arch Frame
-   MenuLocation   *Arch → Frame
-   Workbenches   *[Arch](Arch_Workbench.md)
-   Shortcut   ***F** **R**
-   SeeAlso   *[Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md)
+- GuiCommand:
+   Name:Arch Frame
+   MenuLocation:Arch → Frame
+   Workbenches:[Arch](Arch_Workbench.md)
+   Shortcut:**F** **R**
+   SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md)
 ---
 
 # Arch Frame/pt-br
@@ -13,7 +13,7 @@
 
 The **<img src="images/Arch_Frame.svg" width=16px> [Arch Frame](Arch_Frame.md)** tool is used to build all kinds of frame objects based on a profile and a layout. The profile is extruded along the edges of the layout, which can be any 2D object such as a [sketch](Sketcher_Workbench.md), or a [Draft object](Draft_Workbench.md). It is especially useful to create railings, or frame walls. Frame objects can then easily be turned into [wall](Arch_Wall.md) or [structure](Arch_Structure.md) objects.
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;"> 
+<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;"> 
 *Frame object created from a [Draft OrthoArray](Draft_OrthoArray.md) of a [Draft Line](Draft_Line.md), using a [Draft Circle](Draft_Circle.md) as profile*
 
 ## Utilização
@@ -30,24 +30,24 @@ The **<img src="images/Arch_Frame.svg" width=16px> [Arch Frame](Arch_Frame.md)**
 
 ## Propriedades
 
--    **Base**   * The layout this frame is based on.
+-    **Base**: The layout this frame is based on.
 
--    **Profile**   * The profile this frame is based on.
+-    **Profile**: The profile this frame is based on.
 
--    **Align**   * Specifies if the profile must be rotated to have its normal axis aligned with each edge.
+-    **Align**: Specifies if the profile must be rotated to have its normal axis aligned with each edge.
 
--    **Offset**   * An optional distance between the layout object and the frame object.
+-    **Offset**: An optional distance between the layout object and the frame object.
 
--    **Rotation**   * The rotation of the profile around its extrusion axis.
+-    **Rotation**: The rotation of the profile around its extrusion axis.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Frame = makeFrame(baseobj, profile)
 ```
@@ -63,7 +63,7 @@ Frame = makeFrame(baseobj, profile)
         
         is an extrudable 2D object containing faces or closed wires.
 
-Example   * 
+Example: 
 ```python
 import Draft, Arch
 

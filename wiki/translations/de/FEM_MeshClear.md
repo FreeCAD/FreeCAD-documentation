@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM MeshClear
-   Name/de   *FEM NetzLöschen
-   MenuLocation   *Kontextmenü des Mesh-Objekts oder der Baumansicht → FEM-Netz löschen
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM MeshClear
+   Name/de:FEM NetzLöschen
+   MenuLocation:Kontextmenü des Mesh-Objekts oder der Baumansicht → FEM-Netz löschen
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MeshClear/de
@@ -15,7 +15,7 @@ Enables the user to reiniitialize the mesh from the FreeCAD FEM mesh object. The
 
 ## Anwendung
 
-1.  Eins der <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *16px;"> [Netgen-](FEM_MeshNetgenFromShape.md) oder <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *16px;"> [Gmsh-FEM](FEM_MeshGmshFromShape.md)-Mesh-Objekte mit der rechten Maustaste in der [Baumansicht](Tree_view/de.md) anklicken.
+1.  Eins der <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [Netgen-](FEM_MeshNetgenFromShape.md) oder <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [Gmsh-FEM](FEM_MeshGmshFromShape.md)-Mesh-Objekte mit der rechten Maustaste in der [Baumansicht](Tree_view/de.md) anklicken.
 2.  Den Menüeintrag **<img src="images/FEM_MeshClear.svg" width=16px> FEM-Netz löschen** des Kontextmenüs auswählen.
 
 ## Hinweise

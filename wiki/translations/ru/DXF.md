@@ -7,7 +7,7 @@ The Drawing Exchange Format (DXF) is a proprietary CAD data format developed by 
 
 There are many versions of the DXF format. You will hear of certain key versions, such as R12 (from 1992) or R14 (from 1997 which had splines). Later versions of DXF have 3D elements, but these are rarely used or implemented. How you use DXF to share CAD data between programs depends mainly on the limitations and bugs in the corresponding readers/importers and writers/exporters. These are rarely fully documented and can be a great source of frustration.
 
-If you are editing DXF files and want them to remain almost the same when you save them, we recommend you use [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) or [QCad](https   *//en.wikipedia.org/wiki/QCad) because these programs\' internal data structures are compatible with the objects in the DXF file.
+If you are editing DXF files and want them to remain almost the same when you save them, we recommend you use [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) or [QCad](https://en.wikipedia.org/wiki/QCad) because these programs\' internal data structures are compatible with the objects in the DXF file.
 
 In FreeCAD the DXF readers must translate the geometry (e.g., spline shapes) from the DXF file into the specific internal representations of the Workbench.
 
@@ -21,7 +21,7 @@ If you are using the imported geometry to build 3D shapes in the Part Design Wor
 
 ### C++ DXF импортер 
 
-This implementation of fast, but skips features it doesn\'t recognize, such as DXF splines. It also can only import geometry into the Draft Workbench as individual entries in the Model tree. These can have the colors read from the file if you tick to enable this option. For further information, see [this forum post](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=32493).
+This implementation of fast, but skips features it doesn\'t recognize, such as DXF splines. It also can only import geometry into the Draft Workbench as individual entries in the Model tree. These can have the colors read from the file if you tick to enable this option. For further information, see [this forum post](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
 
 ### Python DXF импортер 
 
@@ -38,11 +38,6 @@ Keep an eye out on the FreeCAD forum or in the [Macros recipes](Macros_recipes.m
 ## Сохранение DXF 
 
 In addition to the options under the Edit → Preferences, the [TechDraw Workbench](TechDraw_Workbench.md) can also export drawing pages to DXF using the [TechDraw ExportPageDXF](TechDraw_ExportPageDXF.md) function.
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Draft](Category_Draft.md) [Category   *TechDraw](Category_TechDraw.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

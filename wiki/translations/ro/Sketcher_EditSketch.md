@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher EditSketch
-   Workbenches   *[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation   *Sketch → Edit sketch
+- GuiCommand:
+   Name:Sketcher EditSketch
+   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   MenuLocation:Sketch → Edit sketch
 ---
 
 # Sketcher EditSketch/ro
@@ -50,9 +50,7 @@ Această comandă permite editarea unei schițe deja existente.
 
 {{Sketcher_Tools_navi
 
-}} 
-
-[Category   *Sketcher/ro](Category   *Sketcher/ro.md)
+}}
 
 
 

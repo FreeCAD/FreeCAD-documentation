@@ -38,9 +38,7 @@ This work will provide an introduction to the FreeCAD code base and the use of s
 
 Medium
 
-### Additional Information 
-
-[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
+### Additional Information
 
 
 

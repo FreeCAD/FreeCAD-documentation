@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Path DressupDogbone
-   MenuLocation   *Path → Path Dressup → Dogbone Dressup
-   Workbenches   *[Path](Path_Workbench.md)
-   SeeAlso   *[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md) 
+- GuiCommand:
+   Name:Path DressupDogbone
+   MenuLocation:Path → Path Dressup → Dogbone Dressup
+   Workbenches:[Path](Path_Workbench.md)
+   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md) 
 ---
 
 # Path DressupDogbone
@@ -15,7 +15,7 @@ This tool dresses up an existing path to overcut corners on inside angles of a p
 ## Usage
 
 1.  Select a contour or profile path [Path](Path_Workbench.md) objects
-2.  Click the <img alt="" src=images/Path_DressupDogbone.svg  style="width   *24px;"> [Dogbone Dress-up](Path_DressupDogbone.md) or 
+2.  Click the <img alt="" src=images/Path_DressupDogbone.svg  style="width:24px;"> [Dogbone Dress-up](Path_DressupDogbone.md) or 
 **Path** → **Path Dressup** → **<img src="images/Path_DressupDogbone.svg" width=24px> [Dogbone Dress-up](Path_DressupDogbone.md)**
 
 ## Options

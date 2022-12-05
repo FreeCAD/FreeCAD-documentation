@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std AxisCross
-   Name/de   *Std Achsenkreuz
-   MenuLocation   *Ansicht → Achsenkreuz ein-/ausblenden
-   Workbenches   *Alle
-   Shortcut   ***A** **C**
+- GuiCommand:/de
+   Name:Std AxisCross
+   Name/de:Std Achsenkreuz
+   MenuLocation:Ansicht → Achsenkreuz ein-/ausblenden
+   Workbenches:Alle
+   Shortcut:**A** **C**
 ---
 
 # Std AxisCross/de
@@ -20,23 +20,23 @@ Das Achsenkreuz besteht aus drei Pfeilen, die positiven X-, Y- und Z-Achsen des 
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Wähle die Option **Ansicht → <img src="images/Std_AxisCross.svg" width=16px> Achsenkreuz ein/ausblenden** aus dem Menü.
-    -   Verwende das Tastaturkürzel   * **A** dann **C**.
+    -   Verwende das Tastaturkürzel: **A** dann **C**.
 
 ## Hinweise
 
--   FreeCAD kann einen kleineren Koordinatensystemindikator in der unteren rechten Ecke von 3D-Ansichten anzeigen   *    * **Bearbeiten → Einstellungen... → Anzeige → 3D Viewer → Koordinatensystem in Ecke anzeigen**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D_View.md).
+-   FreeCAD kann einen kleineren Koordinatensystemindikator in der unteren rechten Ecke von 3D-Ansichten anzeigen: : **Bearbeiten → Einstellungen... → Anzeige → 3D Viewer → Koordinatensystem in Ecke anzeigen**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D_View.md).
 -   Der [Navigationswürfel](Navigation_Cube/de.md) enthält ebenfalls einen Koordinatensystemindikator.
 
 ## Einstellungen
 
--   Der Standard für das Achsenkreuz kann in den Einstellungen geändert werden   * **Bearbeiten → Einstellungen... → Anzeige → 3D-Ansicht → Achsenkreuz standardmäßig anzeigen**. Siehe [Voreinstellungseditor](https   *//wiki.freecadweb.org/Preferences_Editor/de#3D_Ansicht.md). {{Version/de|0.19}}
+-   Der Standard für das Achsenkreuz kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Ansicht → Achsenkreuz standardmäßig anzeigen**. Siehe [Voreinstellungseditor](https://wiki.freecadweb.org/Preferences_Editor/de#3D_Ansicht.md). {{Version/de|0.19}}
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

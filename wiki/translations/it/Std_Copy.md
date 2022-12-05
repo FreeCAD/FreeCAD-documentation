@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Std_Copy
-   Name/it   *Copia
-   MenuLocation   *Modifica → Copia
-   Shortcut   ***Ctrl**+**C**
-   Workbenches   *Tutti
-   SeeAlso   *[Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+- GuiCommand:/it
+   Name:Std_Copy
+   Name/it:Copia
+   MenuLocation:Modifica → Copia
+   Shortcut:**Ctrl**+**C**
+   Workbenches:Tutti
+   SeeAlso:[Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
 # Std Copy/it
@@ -17,10 +17,10 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 ## Utilizzo
 
 1.  Selezionare uno o più oggetti.
-2.  Esistono diversi modi per invocare il comando   *
+2.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Copy.svg" width=16px> Copia** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_Copy.svg" width=16px> Copia** dal menu contestuale della [vista ad albero](Tree_view/it.md).
-    -   Usare la scorciatoia da tastiera   * **Ctrl**+**C**.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**C**.
 3.  Se gli oggetti hanno delle dipendenze che non sono state selezionate, una finestra di dialogo chiede di specificare quali devono essere incluse.
 
 ## Note

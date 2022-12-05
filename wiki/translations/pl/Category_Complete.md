@@ -1,8 +1,6 @@
 # Category:Complete/pl
 Ta kategoria zawiera strony związane ze środowiskiem pracy [Complete](Complete_Workbench/pl.md).
 
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,36 +1,36 @@
 ---
-- GuiCommand   */fr
-   Name   *Part Cone
-   Name/fr   *Part Cône
-   MenuLocation   *Part → Primitives → Cône
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand:/fr
+   Name:Part Cone
+   Name/fr:Part Cône
+   MenuLocation:Part → Primitives → Cône
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Cone/fr
 
 ## Description
 
-La commande <img alt="" src=images/Part_Cone.svg  style="width   *24px;"> **Part Cône** crée un solide conique paramétrique. Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure du cône se trouve dans le plan XY avec son centre à l\'origine.
+La commande <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Part Cône** crée un solide conique paramétrique. Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure du cône se trouve dans le plan XY avec son centre à l\'origine.
 
 Le Part Cône par défaut est tronqué. On peut le transformer en un cône complet, non tronqué, en donnant la valeur zéro à sa propriété **Radius1** ou **Radius2**. Il peut être transformé en un segment de cône en modifiant sa propriété **Angle**.
 
-<img alt="" src=images/Part_Cone_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Cone.svg" width=16px> [Cône](Part_Cone/fr.md)**.
     -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône** dans le menu.
 2.  Le cône est créé.
-3.  Vous pouvez éventuellement modifier les dimensions et **Placement** du cône en effectuant l\'une des opérations suivantes    *
-    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md)    *
+3.  Vous pouvez éventuellement modifier les dimensions et **Placement** du cône en effectuant l\'une des opérations suivantes :
+    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
         1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
         2.  Modifiez une ou plusieurs propriétés.
         3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
         4.  Appuyez sur le bouton **OK**.
         5.  Modifiez les propriétés dans la [Éditeur de propriétés](Property_editor/fr.md).
-    -   Changez la **Placement** avec <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+    -   Changez la **Placement** avec <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
 ## Exemple
 
@@ -40,13 +40,13 @@ Un objet Part Cône créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
 ## Remarques
 
--   Un Part Cône peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
+-   Un Part Cône peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
 
 ## Propriétés
 
-Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Cône est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Part Cône est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
@@ -58,29 +58,29 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Cone}}
 
--    **Radius1|Length**   * Le rayon de la face inférieure du cône. Peut être {{Value|0mm}} si **Radius2** est supérieur à {{Value|0mm}}. La valeur par défaut est {{Value|2mm}}.
+-    **Radius1|Length**: Le rayon de la face inférieure du cône. Peut être {{Value|0mm}} si **Radius2** est supérieur à {{Value|0mm}}. La valeur par défaut est {{Value|2mm}}.
 
--    **Radius2|Length**   * Le rayon de la face supérieure du cône. Peut être {{Value|0mm}} si **Radius1** est supérieur à {{Value|0mm}}. La valeur par défaut est {{Value|4mm}}.
+-    **Radius2|Length**: Le rayon de la face supérieure du cône. Peut être {{Value|0mm}} si **Radius1** est supérieur à {{Value|0mm}}. La valeur par défaut est {{Value|4mm}}.
 
--    **Height|Length**   * La hauteur du cône. La valeur par défaut est {{Value|10mm}}.
+-    **Height|Length**: La hauteur du cône. La valeur par défaut est {{Value|10mm}}.
 
--    **Angle|Angle**   * L\'angle de l\'arc de cercle qui définit la face supérieure et inférieure du cône. Plage valide    * {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment de cône.
+-    **Angle|Angle**: L\'angle de l\'arc de cercle qui définit la face supérieure et inférieure du cône. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment de cône.
 
 ## Script
 
-Voir aussi   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Un Part Cône est créé avec la méthode `addObject()` du document    *
+Un Part Cône est créé avec la méthode `addObject()` du document :
 
 
 ```python
-cone = FreeCAD.ActiveDocument.addObject("Part   *   *Cone", "myCone")
+cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 ```
 
 -   Où {{Incode|"myCone"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
-Exemple    *
+Exemple :
 
 
 ```python
@@ -88,7 +88,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-cone = doc.addObject("Part   *   *Cone", "myCone")
+cone = doc.addObject("Part::Cone", "myCone")
 cone.Radius1 = 5
 cone.Radius2 = 10
 cone.Height = 50

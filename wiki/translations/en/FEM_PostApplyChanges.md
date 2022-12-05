@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM PostApplyChanges
-   MenuLocation   *Results → Apply changes to pipeline
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[Std Refresh](Std_Refresh.md), [FEM Filter functions](FEM_PostCreateFunctions.md)
+- GuiCommand:
+   Name:FEM PostApplyChanges
+   MenuLocation:Results → Apply changes to pipeline
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[Std Refresh](Std_Refresh.md), [FEM Filter functions](FEM_PostCreateFunctions.md)
 ---
 
 # FEM PostApplyChanges/en

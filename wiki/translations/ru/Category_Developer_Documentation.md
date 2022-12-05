@@ -1,8 +1,6 @@
 # Category:Developer Documentation/ru
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/ru](Category   *Documentation/ru.md)
-
 ### Contents
 
 |     |     |     |

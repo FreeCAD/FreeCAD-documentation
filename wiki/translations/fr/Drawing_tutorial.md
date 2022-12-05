@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */fr
-   Topic   * Plans / Dessins
-   Level   * Débutant
-   Time   * 15 minutes
-   Author   *[http   *//freecadweb.org/wiki/index.php?title=User   *Drei Drei]
-   FCVersion   *0.16 ou au dessus
-   Files   *
+- TutorialInfo:/fr
+   Topic: Plans / Dessins
+   Level: Débutant
+   Time: 15 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 ou au dessus
+   Files:
 ---
 
 # Drawing tutorial/fr
@@ -18,7 +18,7 @@
 
 Ce tutoriel est destiné à présenter au lecteur le travail de base de l\'[atelier Drawing](Drawing_Workbench/fr.md), ainsi que la plupart des outils disponibles pour créer des plans.
 
-<img alt="" src=images/Drawing_tutorial_result.png  style="width   *480px;">
+<img alt="" src=images/Drawing_tutorial_result.png  style="width:480px;">
 
 ### Exigences
 
@@ -38,7 +38,7 @@ Pour réduire le temps nécessaire à ce tutoriel, il est obligatoire de regroup
 2.  Sélectionnez **Créer un groupe**. Vous pouvez modifier le nom du groupe en double-cliquant sur le **Vue Arborescente**.
 3.  Sélectionnez les éléments que vous souhaitez ajouter et **le glisser** dans le groupe
 
-Créez les groupes suivants   *
+Créez les groupes suivants:
 
 -   Draft_objects
 -   Draft_dimensions
@@ -59,7 +59,7 @@ Les projections sont définies comme la représentation visuelle d\'un objet sur
 
 ##### Projections orthographiques 
 
-Celles-ci sont utilisées dans l\'atelier Ingénierie (en cours de développement)pour spécifier les propriétés d\'un objet qui sera usiné. Il existe deux normes communes   * les projections **Troisième Angle** et **Premier Angle**.
+Celles-ci sont utilisées dans l\'atelier Ingénierie (en cours de développement)pour spécifier les propriétés d\'un objet qui sera usiné. Il existe deux normes communes: les projections **Troisième Angle** et **Premier Angle**.
 
 Pour ce tutoriel, ces projections ne sont pas utilisées car nos objets n\'ont qu\'une représentation significative dans le plan XY
 

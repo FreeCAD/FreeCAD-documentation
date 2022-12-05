@@ -1,5 +1,5 @@
 # Part::Feature
-1.  REDIRECT [Part\_Feature](Part_Feature.md)
+1.  REDIRECT [Part_Feature](Part_Feature.md)
 
 
 

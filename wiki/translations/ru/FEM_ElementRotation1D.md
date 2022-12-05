@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM ElementRotation1D
-   Name/ru   *FEM ElementRotation1D
-   Icon   *Fem-beam-rotation.svg
-   MenuLocation   * Model → Element Geometry → Beam rotation
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM ElementRotation1D
+   Name/ru:FEM ElementRotation1D
+   Icon:Fem-beam-rotation.svg
+   MenuLocation: Model → Element Geometry → Beam rotation
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ElementRotation1D/ru

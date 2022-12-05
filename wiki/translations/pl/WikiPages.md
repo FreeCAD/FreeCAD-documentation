@@ -1,20 +1,20 @@
 # WikiPages/pl
 {{TOCright}}
 
-Ta strona jest rozszerzeniem strony [Pomoc   * Edycja](Help_Editing.md) i podaje wspólne wytyczne dotyczące pisania i aktualizowania dokumentacji wiki FreeCAD. Podsumowuje kilka dyskusji i sesji burzy mózgów.
+Ta strona jest rozszerzeniem strony [Pomoc: Edycja](Help_Editing.md) i podaje wspólne wytyczne dotyczące pisania i aktualizowania dokumentacji wiki FreeCAD. Podsumowuje kilka dyskusji i sesji burzy mózgów.
 
 ## Zanim rozpoczniesz pracę 
 
--   Ta dokumentacja wiki jest oparta na [MediaWiki](https   *//www.mediawiki.org/wiki/MediaWiki), tym samym oprogramowaniu, które zasila [Wikipedię](https   *//en.wikipedia.org/wiki/Main_Page). Jeśli już wcześniej brałeś udział w Wikipedii, edycja stron wiki FreeCAD powinna być łatwa.
--   W przeciwieństwie do Wikipedii, wiki FreeCAD jest zabezpieczona przed pisaniem, aby uniknąć spamu. Musisz poprosić o utworzenie konta na [forum](http   *//forum.freecadweb.org/viewtopic.php?f=21&t=6830).
--   Jeśli nigdy wcześniej nie korzystałeś z oprogramowania wiki, przejdź do [Help   *Editing](Help_Editing.md), aby zapoznać się z znacznikami stosowanymi do edycji stron.
--   Informacje na temat zaawansowanego korzystania z oprogramowania Wiki można znaleźć w [MediaWiki Help   *Contents](https   *//www.mediawiki.org/wiki/Help   *Contents). Nie wszystkie funkcje MediaWiki są dostępne w Wiki FreeCAD, ale wiele z nich jest dostępnych.
+-   Ta dokumentacja wiki jest oparta na [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), tym samym oprogramowaniu, które zasila [Wikipedię](https://en.wikipedia.org/wiki/Main_Page). Jeśli już wcześniej brałeś udział w Wikipedii, edycja stron wiki FreeCAD powinna być łatwa.
+-   W przeciwieństwie do Wikipedii, wiki FreeCAD jest zabezpieczona przed pisaniem, aby uniknąć spamu. Musisz poprosić o utworzenie konta na [forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830).
+-   Jeśli nigdy wcześniej nie korzystałeś z oprogramowania wiki, przejdź do [Help:Editing](Help_Editing.md), aby zapoznać się z znacznikami stosowanymi do edycji stron.
+-   Informacje na temat zaawansowanego korzystania z oprogramowania Wiki można znaleźć w [MediaWiki Help:Contents](https://www.mediawiki.org/wiki/Help:Contents). Nie wszystkie funkcje MediaWiki są dostępne w Wiki FreeCAD, ale wiele z nich jest dostępnych.
 -   Chcemy, aby dokumentacja była przejrzysta i łatwa do odczytania, więc unikaj używania skomplikowanych funkcji. Utrzymuj ją w formie prostej.
--   Użyj piaskownicy do przetestowania swojego kodu, na przykład [FreeCADDocu   *Sandbox](FreeCADDocu_Sandbox.md) lub konkretnej strony o nazwie [Sandbox   *Yourname](Sandbox_Yourname.md).
+-   Użyj piaskownicy do przetestowania swojego kodu, na przykład [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md) lub konkretnej strony o nazwie [Sandbox:Yourname](Sandbox_Yourname.md).
 
-Strony Piaskownicy muszą być umieszczone w kategorii Piaskownica. Robi się to poprzez dodanie składni [[Category   *Sandbox]] na dole kodu wiki.
+Strony Piaskownicy muszą być umieszczone w kategorii Piaskownica. Robi się to poprzez dodanie składni [[Category:Sandbox]] na dole kodu wiki.
 
--   Proszę zwrócić uwagę na tłumaczenia. Wiki FreeCAD używa automatycznej obsługi tłumaczeń, aby dostarczać strony w wielu językach. Dla każdej strony może istnieć wiele wersji językowych. Na wielu stronach zobaczysz znaczniki takie jak <translate>...</translate> oraz wiele pojedynczych znaczników takich jak . Te ostatnie oznaczają tzw. jednostki tłumaczeniowe i są tworzone przez system tłumaczeń, nigdy nie należy ich tworzyć ręcznie. Łączą one nagłówki i akapity z ich przetłumaczonymi wersjami. Nie powinieneś ich zmieniać, ponieważ zniszczyłoby to te linki. Można jednak przenosić akapity lub zmieniać ich brzmienie, o ile znaczniki pozostaną z nimi. Jeśli usuwasz nagłówek lub akapit, powinieneś również usunąć należący do niego znacznik. Należy pamiętać, że zmiany w istniejących nagłówkach i akapitach wpływają na aktualne tłumaczenia. Twoje zmiany powinny być tego warte. Nie musisz się martwić o dodawanie nowych materiałów, ponieważ system automatycznie doda nowe tagi po Twoich zmianach. Więcej informacji można znaleźć na stronie [Lokalizacja](Localisation/pl.md) oraz na oryginalnej stronie [Mediawiki   *Extension   *Translate](https   *//www.mediawiki.org/wiki/Help   *Extension   *Translate/Page_translation_example).
+-   Proszę zwrócić uwagę na tłumaczenia. Wiki FreeCAD używa automatycznej obsługi tłumaczeń, aby dostarczać strony w wielu językach. Dla każdej strony może istnieć wiele wersji językowych. Na wielu stronach zobaczysz znaczniki takie jak <translate>...</translate> oraz wiele pojedynczych znaczników takich jak . Te ostatnie oznaczają tzw. jednostki tłumaczeniowe i są tworzone przez system tłumaczeń, nigdy nie należy ich tworzyć ręcznie. Łączą one nagłówki i akapity z ich przetłumaczonymi wersjami. Nie powinieneś ich zmieniać, ponieważ zniszczyłoby to te linki. Można jednak przenosić akapity lub zmieniać ich brzmienie, o ile znaczniki pozostaną z nimi. Jeśli usuwasz nagłówek lub akapit, powinieneś również usunąć należący do niego znacznik. Należy pamiętać, że zmiany w istniejących nagłówkach i akapitach wpływają na aktualne tłumaczenia. Twoje zmiany powinny być tego warte. Nie musisz się martwić o dodawanie nowych materiałów, ponieważ system automatycznie doda nowe tagi po Twoich zmianach. Więcej informacji można znaleźć na stronie [Lokalizacja](Localisation/pl.md) oraz na oryginalnej stronie [Mediawiki:Extension:Translate](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example).
 
 ## Wytyczne ogólne 
 
@@ -23,20 +23,20 @@ Strony Piaskownicy muszą być umieszczone w kategorii Piaskownica. Robi się to
 Opisując FreeCAD staraj się być zwięzły i konkretny oraz unikaj powtórzeń. Opisuj co FreeCAD *robi*, a nie czego FreeCAD *nie robi*. Unikaj również kolokwialnych wyrażeń takich jak *parę*. Używaj słowa *kilka*, gdy masz do czynienia z nieokreśloną liczbą, lub określ prawidłową ilość.
 
 Opis niewłaściwy
-   *   [PartDesign](PartDesign_Workbench/pl.md)   * Środowisko pracy PartDesign jest stołem roboczym do projektowania części, którego celem jest dostarczenie narzędzi do modelowania złożonych brył części.
+:   [PartDesign](PartDesign_Workbench/pl.md): Środowisko pracy PartDesign jest stołem roboczym do projektowania części, którego celem jest dostarczenie narzędzi do modelowania złożonych brył części.
 
 
 
 
 
 Opis dobry
-   *   [PartDesign](PartDesign_Workbench/pl.md)   * ma na celu dostarczenie narzędzi do modelowania złożonych brył części.
+:   [PartDesign](PartDesign_Workbench/pl.md): ma na celu dostarczenie narzędzi do modelowania złożonych brył części.
 
 ### Scentralizowane informacje 
 
 Należy unikać powielania tych samych informacji w różnych miejscach. Umieść informacje na nowej stronie i łącze do tej strony z innych stron, które wymagają tych informacji.
 
-Nie używaj funkcji przechodzenia stron *([Pomoc   *Edycja#Szablony i transkluzja stron](Help   *Editing#Templates_and_transcluding_pages.md))*, ponieważ utrudnia to tłumaczenie wiki. Używaj tylko szablonów opisanych poniżej w sekcji [#Szablony](#Szablony.md).
+Nie używaj funkcji przechodzenia stron *([Pomoc:Edycja#Szablony i transkluzja stron](Help:Editing#Templates_and_transcluding_pages.md))*, ponieważ utrudnia to tłumaczenie wiki. Używaj tylko szablonów opisanych poniżej w sekcji [#Szablony](#Szablony.md).
 
 ### Stylizacja
 
@@ -52,7 +52,7 @@ Po zakończeniu pracy, proszę nie zapomnieć o usunięciu flag!
 
 ## Przykłady
 
-Aby szybko zapoznać się ze strukturą i stylem Wiki dla FreeCAD zajrzyj na stronę modelu   * [GuiCommand model](GuiCommand_model/pl.md).
+Aby szybko zapoznać się ze strukturą i stylem Wiki dla FreeCAD zajrzyj na stronę modelu: [GuiCommand model](GuiCommand_model/pl.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -64,87 +64,87 @@ Aby szybko zapoznać się ze strukturą i stylem Wiki dla FreeCAD zajrzyj na str
 
 [Centrum użytkownika](User_hub/pl.md) zapewnia [Spis treści](Online_Help_Toc/pl.md). Jest on używany jako główny punkt odniesienia do automatycznego budowania pomocy offline, do której można dotrzeć z programu FreeCAD, jak również dokumentacji offline PDF.
 
-Szablon [Template   *Docnav](Template_Docnav.md) jest używany do sekwencyjnego linkowania stron, zgodnie ze strukturą [Spisu treści pomocy online](Online_Help_Toc/pl.md). Lista wszystkich szablonów znajduje się w sekcji [Szablony](#Szablony.md).
+Szablon [Template:Docnav](Template_Docnav.md) jest używany do sekwencyjnego linkowania stron, zgodnie ze strukturą [Spisu treści pomocy online](Online_Help_Toc/pl.md). Lista wszystkich szablonów znajduje się w sekcji [Szablony](#Szablony.md).
 
 ### Nazwy stron 
 
-Nazwy stron powinny być krótkie, a w tytułach należy stosować wielką literę   * każdy wyraz powinien zaczynać się wielką literą, chyba że są to przedimki, przyimki, spójniki lub inne formy gramatyczne *(np. \"of\", \"on\", \"in\", \"a\", \"an\", \"and\")*.
+Nazwy stron powinny być krótkie, a w tytułach należy stosować wielką literę: każdy wyraz powinien zaczynać się wielką literą, chyba że są to przedimki, przyimki, spójniki lub inne formy gramatyczne *(np. \"of\", \"on\", \"in\", \"a\", \"an\", \"and\")*.
 
-Niewłaściwa nazwa strony   *
-   *   Budowa samolotów AeroCompany
-
-
+Niewłaściwa nazwa strony:
+:   Budowa samolotów AeroCompany
 
 
 
-Prawidłowa nazwa strony   *
-   *   Budowa Samolotów AeroCompany
 
-Nazwy stron środowisk pracy o najwyższym poziomie muszą mieć taki format   * XYZ Workbench, gdzie XYZ jest nazwą środowiska, na przykład [PartDesign Workbench](PartDesign_Workbench/pl.md). A nazwy stron opisujących polecenia *(lub narzędzia)* należące do danego środowiska muszą mieć taki format   * XYZ Command, na przykład [PartDesign Pad](PartDesign_Pad/pl.md). Zwróć uwagę, że powinieneś używać nazwy polecenia tak, jak występuje ona w kodzie źródłowym.
+
+Prawidłowa nazwa strony:
+:   Budowa Samolotów AeroCompany
+
+Nazwy stron środowisk pracy o najwyższym poziomie muszą mieć taki format: XYZ Workbench, gdzie XYZ jest nazwą środowiska, na przykład [PartDesign Workbench](PartDesign_Workbench/pl.md). A nazwy stron opisujących polecenia *(lub narzędzia)* należące do danego środowiska muszą mieć taki format: XYZ Command, na przykład [PartDesign Pad](PartDesign_Pad/pl.md). Zwróć uwagę, że powinieneś używać nazwy polecenia tak, jak występuje ona w kodzie źródłowym.
 
 ### Nagłówki
 
-Nagłówki akapitów powinny być krótkie i zawierać wielkie litery   * wszystkie wyrazy, z wyjątkiem pierwszego i nazw własnych, powinny być pisane małymi literami. Nie należy używać nagłówków H1 (= Heading =) w znacznikach Wiki, ponieważ tytuł strony jest automatycznie dodawany jako główny nagłówek H1.
+Nagłówki akapitów powinny być krótkie i zawierać wielkie litery: wszystkie wyrazy, z wyjątkiem pierwszego i nazw własnych, powinny być pisane małymi literami. Nie należy używać nagłówków H1 (= Heading =) w znacznikach Wiki, ponieważ tytuł strony jest automatycznie dodawany jako główny nagłówek H1.
 
 ### Odnośniki internetowe 
 
 Jeśli to możliwe, powinieneś używać oryginalnej nazwy linku dla linków. Dzięki temu w dokumentacji drukowanej lub offline łatwiej jest znaleźć stronę, do której zastosowano odniesienie. Proszę unikać nieistotnych słów dla linku.
 
 Nieprawidłowy link
-   *   Aby uzyskać więcej informacji na temat rysowania obiektów 2D kliknij [tutaj](Draft_Workbench/pl.md).
+:   Aby uzyskać więcej informacji na temat rysowania obiektów 2D kliknij [tutaj](Draft_Workbench/pl.md).
 
 
 
 
 
 Prawidłowy link
-   *   Więcej informacji na temat rysowania obiektów 2D można znaleźć w Środowisku pracy [Rysunek roboczy](Draft_Workbench/pl.md).
+:   Więcej informacji na temat rysowania obiektów 2D można znaleźć w Środowisku pracy [Rysunek roboczy](Draft_Workbench/pl.md).
 
-Preferowany format linku to   *
+Preferowany format linku to:
 
 [Name of Page](Name_of_Page.md)
 
-przetłumaczone   *
+przetłumaczone:
 
 [Nazwa Strony](Nazwa_Strony/pl.md)
 
 Zauważ, że w przypadku części przed znakiem | istotny jest faktyczny link, wielkość liter. Jeśli nazwa Twojej strony to Name_of_page, link nie powiedzie się, jeśli wpiszesz Name_of_Page *(wielka litera P)*. Przed znakiem | wszystkie spacje należy zastąpić podkreśleniami (_). Ma to na celu pomoc tłumaczom korzystającym z oprogramowania tłumaczącego, bez podkreślników link zostałby przetłumaczony przez oprogramowanie, co jest niepożądane.
 
-Aby połączyć się z konkretnym akapitem, dodaj do nazwy strony znak # i jego nagłówek. Przykład   *
+Aby połączyć się z konkretnym akapitem, dodaj do nazwy strony znak # i jego nagłówek. Przykład:
 
 [WikiPages](WikiPages#Links.md)
 
-przetłumaczone   *
+przetłumaczone:
 
 [Strona Wiki](WikiPages/pl#Odnośniki.md)
 
-W obrębie tej samej strony możesz pominąć nazwę strony. Przykład   *
+W obrębie tej samej strony możesz pominąć nazwę strony. Przykład:
 
 [Links](#Links.md)
 
-Aby przejść do górnej części strony możesz użyć   *
+Aby przejść do górnej części strony możesz użyć:
 
 </translate>{{Top}}<translate>
 
 Szablon ten powinien automatycznie wyświetlać poprawny tekst w zależności od tego w jakim języku dana strona jest napisana. Link do góry strony jest szczególnie przydatny w przypadku długich stron, ponieważ pozwala użytkownikowi szybko przeskoczyć z powrotem do spisu treści. Możesz go umieścić na końcu każdego akapitu. Upewnij się, że przed i po szablonie znajduje się pusta linia.
 
 Link do obrazu
-   *   <img alt="Opcjonalny tekst, który jest wyświetlany po najechaniu kursorem na obszar obrazka\|link=Draft_Wire/pl" src=images/Draft_Wire.svg  style="width   *24px;">.
+:   <img alt="Opcjonalny tekst, który jest wyświetlany po najechaniu kursorem na obszar obrazka\|link=Draft_Wire/pl" src=images/Draft_Wire.svg  style="width:24px;">.
 
-Aby użyć obrazka jako odsyłacza   *
+Aby użyć obrazka jako odsyłacza:
 
 ![](images/)
 
 Link do obrazu + link tekstowy
-   *   <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> [Polilinia](Draft_Wire/pl.md)
+:   <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Polilinia](Draft_Wire/pl.md)
 
-Jeśli pominiesz opcjonalny tekst, sam link zostanie wyświetlony po najechaniu kursorem myszki na obraz, co jest lepszym rozwiązaniem, a także powinieneś dodać link tekstowy po linku do obrazka   *
+Jeśli pominiesz opcjonalny tekst, sam link zostanie wyświetlony po najechaniu kursorem myszki na obraz, co jest lepszym rozwiązaniem, a także powinieneś dodać link tekstowy po linku do obrazka:
 
 ![](images/)_[Polilinia](Draft_Wire/pl.md)
 
 ### Strony Środowisk pracy 
 
-Strona najwyższego poziomu powinna zaczynać się od   *
+Strona najwyższego poziomu powinna zaczynać się od:
 
 -   Opisu do czego służy dane środowisko pracy.
 -   Obrazka ilustrującego opis.
@@ -177,9 +177,9 @@ Przykłady można znaleźć na stronie [Poradniki](Tutorials/pl.md).
 
 <div class="mw-collapsible-content">
 
-Stylizacja stron Wiki FreeCAD jest osiągana poprzez użycie ([szablonów i stron pośrednich](Help   *Editing#Templates_and_transcluding_pages.md)). Zapewniają one standardowy wygląd i sposób działania wszystkich stron, a także umożliwiają zmianę stylu wiki. Możesz zobaczyć pełną listę zdefiniowanych szablonów wchodząc na stronę [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). Ale proszę używaj tylko szablonów wymienionych w tabelach poniżej. Tylko w bardzo szczególnych przypadkach powinieneś używać bezpośrednio znaczników HTML.
+Stylizacja stron Wiki FreeCAD jest osiągana poprzez użycie ([szablonów i stron pośrednich](Help:Editing#Templates_and_transcluding_pages.md)). Zapewniają one standardowy wygląd i sposób działania wszystkich stron, a także umożliwiają zmianę stylu wiki. Możesz zobaczyć pełną listę zdefiniowanych szablonów wchodząc na stronę [Special:PrefixIndex/Template:](Special:PrefixIndex/Template:.md). Ale proszę używaj tylko szablonów wymienionych w tabelach poniżej. Tylko w bardzo szczególnych przypadkach powinieneś używać bezpośrednio znaczników HTML.
 
-Kliknij na link do szablonu, aby zobaczyć instrukcje użycia szablonu oraz jego implementację. Szablony są potężną funkcją oprogramowania MediaWiki. Powinieneś być doświadczonym użytkownikiem wiki, jeśli chcesz proponować dodatki i modyfikacje do istniejących szablonów. Nieprawidłowo zaimplementowane szablony utrudniają tłumaczenie stron na inne języki, dlatego ich użycie powinno być ograniczone do formatowania tekstu, należy unikać dołączania stron. Zobacz [Pomoc MediaWiki   *Szablony](https   *//www.mediawiki.org/wiki/Help   *Templates/pl) aby dowiedzieć się więcej.
+Kliknij na link do szablonu, aby zobaczyć instrukcje użycia szablonu oraz jego implementację. Szablony są potężną funkcją oprogramowania MediaWiki. Powinieneś być doświadczonym użytkownikiem wiki, jeśli chcesz proponować dodatki i modyfikacje do istniejących szablonów. Nieprawidłowo zaimplementowane szablony utrudniają tłumaczenie stron na inne języki, dlatego ich użycie powinno być ograniczone do formatowania tekstu, należy unikać dołączania stron. Zobacz [Pomoc MediaWiki:Szablony](https://www.mediawiki.org/wiki/Help:Templates/pl) aby dowiedzieć się więcej.
 
 ### Proste szablony 
 
@@ -301,7 +301,7 @@ Szablony te wymagają większej ilości parametrów wejściowych, lub generują 
 | [Prettytable](Template_Prettytable.md)                                                   | Ta oto tabela                                                                                                            | Użyj go do formatowania tabel, takich jak ta. Można dodać dodatkowe właściwości tabeli.                                                                                                                                                                                                                                                             |
 ++++
 | [Caption](Template_Caption.md)                                                           |                                                                                                                | Użyj go, aby dodać wyjaśnienie pod obrazem. Możesz ustawić wyrównanie do lewej lub do środka.                                                                                                                                                                                                                                                       |
-|                                                                                                  | <div style="width   *400px;">                                                                                               |                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                  | <div style="width:400px;">                                                                                               |                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                  |                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                  |                                                                                                           |                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                  | 
@@ -316,7 +316,7 @@ Szablony te wymagają większej ilości parametrów wejściowych, lub generują 
 | [Code](Template_Code.md)                                                                 |                                                                                                           | Użyj go, aby dołączyć wielowierszowe przykłady kodu z czcionką monospace. Domyślnym językiem jest Python, ale można podać inne języki.                                                                                                                                                                                                              |
 |                                                                                                  | 
 ```pythonimport FreeCAD```                                                                                             |                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                                                  |                                                                                                                       | Użyty kod [Python](Python/pl.md) powinien stosować się do ogólnych zaleceń ustanowionych przez [PEP8   * Style Guide for Python Code](https   *//www.python.org/dev/peps/pep-0008/). W szczególności, nawiasy powinny następować bezpośrednio po nazwie funkcji, a spacja powinna następować po przecinku. Dzięki temu kod jest bardziej czytelny |
+|                                                                                                  |                                                                                                                       | Użyty kod [Python](Python/pl.md) powinien stosować się do ogólnych zaleceń ustanowionych przez [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). W szczególności, nawiasy powinny następować bezpośrednio po nazwie funkcji, a spacja powinna następować po przecinku. Dzięki temu kod jest bardziej czytelny |
 ++++
 | [Fake heading](Template_Fake_heading.md)                                                 |                                                                                                           | Użyj go, aby utworzyć nagłówek, który nie będzie automatycznie umieszczany w spisie treści.                                                                                                                                                                                                                                                         |
 |                                                                                                  | {{Fake heading|Nagłówek|2}}                                                                                              |                                                                                                                                                                                                                                                                                                                                                     |
@@ -324,7 +324,7 @@ Szablony te wymagają większej ilości parametrów wejściowych, lub generują 
 ++++
 | [GuiCommand](Template_GuiCommand.md)                                                     | Zobacz [Model polecenia GUI](GuiCommand_model/pl.md)                                                             | Za jego pomocą można utworzyć pole z przydatnymi informacjami do dokumentowania poleceń *(narzędzi)* środowiska pracy.                                                                                                                                                                                                                              |
 ++++
-| [TutorialInfo](Template_TutorialInfo.md)                                                 | Zobacz przykład [Poradnik   * Podstawy modelowania](Basic_modeling_tutorial/pl.md)                                  | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [Poradniki](Tutorials/pl.md).                                                                                                                                                                                                                                     |
+| [TutorialInfo](Template_TutorialInfo.md)                                                 | Zobacz przykład [Poradnik: Podstawy modelowania](Basic_modeling_tutorial/pl.md)                                  | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [Poradniki](Tutorials/pl.md).                                                                                                                                                                                                                                     |
 ++++
 | [Macro](Template_Macro.md)                                                               | Zobacz przykład [Macro FlattenWire](Macro_FlattenWire.md)                                                        | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [makrodefinicje](macros/pl.md).                                                                                                                                                                                                                                   |
 ++++
@@ -344,7 +344,7 @@ Szablony te wymagają większej ilości parametrów wejściowych, lub generują 
 |                                                                                                  |                                                                                                        |                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                  |                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                     |
 ++++
-| [Softredirect](Template_Softredirect.md)                                                 |                                                                                                                          | Użyj go zamiast normalnego przekierowania, gdy przekierowujesz na specjalną stronę *(taką jak Media   * lub Kategoria   *)*, w których to przypadkach normalne przekierowanie jest wyłączone.                                                                                                                                                             |
+| [Softredirect](Template_Softredirect.md)                                                 |                                                                                                                          | Użyj go zamiast normalnego przekierowania, gdy przekierowujesz na specjalną stronę *(taką jak Media: lub Kategoria:)*, w których to przypadkach normalne przekierowanie jest wyłączone.                                                                                                                                                             |
 ++++
 | [Quote](Template_Quote.md)                                                               |                                                                                                           | Użyj go, aby utworzyć pole tekstu z dosłownym cytatem i odniesieniem.                                                                                                                                                                                                                                                                               |
 |                                                                                                  | {{Quote|text=Krzyknij "Havoc" i wypuść psy wojny. |sign=William Shakespeare|source=''Juliusz Cezar'', akt III, scena I}} |                                                                                                                                                                                                                                                                                                                                                     |
@@ -371,7 +371,7 @@ Obrazy i zrzuty ekranu są niezbędne do stworzenia kompletnej dokumentacji prog
 
 Unikaj animowanych obrazów *(GIF)* na ogólnych stronach pomocy. Animacje i filmy powinny być zarezerwowane dla samouczków, które nie są przeznaczone do użycia jako dokumentacja PDF offline.
 
-Pliki graficzne mogą być załadowane poprzez stronę [Special   *Upload](Special_Upload.md).
+Pliki graficzne mogą być załadowane poprzez stronę [Special:Upload](Special_Upload.md).
 
 ### Nazwa
 
@@ -379,7 +379,7 @@ Nadawaj obrazkom znaczące nazwy. Jeśli masz obrazek, który pokazuje charakter
 
 ### Zrzut ekranu 
 
-Zalecane rozmiary dla zrzutów ekranu to   *
+Zalecane rozmiary dla zrzutów ekranu to:
 
 -   Natywny 400x200 *(lub szerokość=400 i wysokość\<=200)*, dla stron [command reference](GuiCommand_model.md), aby obrazek zmieścił się w lewej części strony, oraz dla innych standardowych zrzutów.
 -   Natywny 600x400 *(lub szerokość=600 i wysokość\<=400)*, dla stron [command reference](GuiCommand_model.md), kiedy naprawdę potrzebujesz większego obrazka, i nadal pozwalasz obrazkowi zmieścić się w lewej części strony, oraz dla innych standardowych zrzutów.
@@ -389,7 +389,7 @@ Zalecane rozmiary dla zrzutów ekranu to   *
 
 Nie powinieneś polegać na niestandardowej konfiguracji pulpitu lub systemu operacyjnego podczas tworzenia zrzutów ekranu i powinieneś używać domyślnych ustawień wizualnych interfejsu FreeCAD, kiedy tylko jest to możliwe.
 
-Aby utworzyć zrzuty ekranu, możesz użyć opcji dostarczonych przez system operacyjny lub jednej z tych makroinstrukcji   * <img alt="" src=images/Snip.png  style="width   *24px;"> [Macro Snip](Macro_Snip.md) lub <img alt="" src=images/Macro_Screen_Wiki.png  style="width   *24px;"> [Macro Screen Wiki](Macro_Screen_Wiki.md).
+Aby utworzyć zrzuty ekranu, możesz użyć opcji dostarczonych przez system operacyjny lub jednej z tych makroinstrukcji: <img alt="" src=images/Snip.png  style="width:24px;"> [Macro Snip](Macro_Snip.md) lub <img alt="" src=images/Macro_Screen_Wiki.png  style="width:24px;"> [Macro Screen Wiki](Macro_Screen_Wiki.md).
 
 ### Treść
 
@@ -417,11 +417,11 @@ Zgodnie z ogólnym konsensusem, strona referencyjna w Wiki jest stroną angielsk
 
 FreeCAD Wiki wspiera rozszerzenie tłumaczenia, które pozwala na łatwiejsze zarządzanie tłumaczeniami między stronami; szczegóły w [Tłumaczenie dokumentacji Wiki dla FreeCAD](Localisation/pl#T.C5.82umaczenie_dokumentacji_Wiki_dla_FreeCAD.md).
 
-Inne przydatne zasoby to   *
+Inne przydatne zasoby to:
 
--   [Kody ISO języków](http   *//en.wikipedia.org/wiki/List_of_ISO_639-1_codes) aby określić dwuliterowy kod dla danego języka, na który chcesz tłumaczyć.
--   [Google Translate](http   *//translate.google.com/) do pomocy przy tłumaczeniach.
--   [tłumacz Deepl](https   *//www.deepl.com/translator) do pomocy przy tłumaczeniach.
+-   [Kody ISO języków](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) aby określić dwuliterowy kod dla danego języka, na który chcesz tłumaczyć.
+-   [Google Translate](http://translate.google.com/) do pomocy przy tłumaczeniach.
+-   [tłumacz Deepl](https://www.deepl.com/translator) do pomocy przy tłumaczeniach.
 
 ## Kilka wskazówek dla tłumaczy 
 
@@ -436,7 +436,7 @@ Inne przydatne zasoby to   *
     |SeeAlso=[FEM tutorial](FEM_tutorial.md)
     }}
 
-przetłumaczone   *
+przetłumaczone:
 
     {{GuiCommand/fr
     |Name=FEM EquationFlux
@@ -452,7 +452,7 @@ przetłumaczone   *
 
     {{FEM_Tools_navi}}
 
-przetłumaczone   *
+przetłumaczone:
 
     {{FEM_Tools_navi/fr}}
 
@@ -460,7 +460,7 @@ przetłumaczone   *
 
     [Part Module](Part_Module.md)
 
-przetłumaczone   *
+przetłumaczone:
 
     [Atelier Part](Part_Module/fr.md)
 
@@ -468,15 +468,15 @@ przetłumaczone   *
 
     
 
-przetłumaczone   *
+przetłumaczone:
 
     
 
-Przykład z ikonami   *
+Przykład z ikonami:
 
     
 
-przetłumaczone   *
+przetłumaczone:
 
     
 
@@ -490,16 +490,16 @@ przetłumaczone   *
 
 ### Tworzenie stron 
 
-Przed utworzeniem nowej strony powinieneś najpierw sprawdzić, czy podobna strona już istnieje. Jeśli tak, to zazwyczaj lepiej jest edytować istniejącą stronę. W razie wątpliwości najpierw otwórz temat na forum w dziale [Wiki forum](https   *//forum.freecadweb.org/viewforum.php?f=21).
+Przed utworzeniem nowej strony powinieneś najpierw sprawdzić, czy podobna strona już istnieje. Jeśli tak, to zazwyczaj lepiej jest edytować istniejącą stronę. W razie wątpliwości najpierw otwórz temat na forum w dziale [Wiki forum](https://forum.freecadweb.org/viewforum.php?f=21).
 
-Aby utworzyć nową stronę wykonaj jedną z poniższych czynności   *
+Aby utworzyć nową stronę wykonaj jedną z poniższych czynności:
 
--   Odwiedź adres URL z żądaną nazwą strony, na przykład   * https   *//wiki.freecadweb.org/Moja_Nowa_Strona, i kliknij na przycisk *utwórz tą stronę*.
+-   Odwiedź adres URL z żądaną nazwą strony, na przykład: https://wiki.freecadweb.org/Moja_Nowa_Strona, i kliknij na przycisk *utwórz tą stronę*.
 -   Wyszukaj w Wiki nazwę strony i kliknij na czerwony tekst w \'\'Utwórz stronę **Moja Nowa Strona** w tej Wiki!\'.
 
 ### Zmiana nazwy stron 
 
-Ponieważ FreeCAD jest projektem w ciągłym rozwoju, czasami jest konieczne zrewidowanie zawartości Wiki. Jeśli nazwy poleceń są zmieniane w kodzie źródłowym, strony wiki je dokumentujące również muszą być zmieniane. To może być zrobione tylko przez administratorów Wiki. Aby ich o tym poinformować, otwórz temat na forum [forum Wiki](https   *//forum.freecadweb.org/viewforum.php?f=21) i w tym formularzu opisz konieczną operację zmiany nazwy   *
+Ponieważ FreeCAD jest projektem w ciągłym rozwoju, czasami jest konieczne zrewidowanie zawartości Wiki. Jeśli nazwy poleceń są zmieniane w kodzie źródłowym, strony wiki je dokumentujące również muszą być zmieniane. To może być zrobione tylko przez administratorów Wiki. Aby ich o tym poinformować, otwórz temat na forum [forum Wiki](https://forum.freecadweb.org/viewforum.php?f=21) i w tym formularzu opisz konieczną operację zmiany nazwy:
 
     old name         new name
     Old_page_name_1  New_page_name_1
@@ -508,13 +508,13 @@ Ponieważ FreeCAD jest projektem w ciągłym rozwoju, czasami jest konieczne zre
 
 ### Usuwanie plików i stron 
 
-W przypadku, gdy chcesz usunąć plik, przejdź na jego stronę (https   *//www.freecadweb.org/wiki/File   ****.***) i edytuj ją. Nie ważne czy strona jest pusta czy nie, dodaj to jako pierwszy element   * {{Delete}} i bezpośrednio pod nim opisać, dlaczego strona powinna zostać usunięta. Dodatkowo, otwórz temat w dziale [forum Wiki](https   *//forum.freecadweb.org/viewforum.php?f=21).
+W przypadku, gdy chcesz usunąć plik, przejdź na jego stronę (https://www.freecadweb.org/wiki/File:***.***) i edytuj ją. Nie ważne czy strona jest pusta czy nie, dodaj to jako pierwszy element: {{Delete}} i bezpośrednio pod nim opisać, dlaczego strona powinna zostać usunięta. Dodatkowo, otwórz temat w dziale [forum Wiki](https://forum.freecadweb.org/viewforum.php?f=21).
 
 Dla stron procedura jest taka sama.
 
 ## Dyskusja
 
-Subforum [Development/Wiki](http   *//forum.freecadweb.org/viewforum.php?f=21) w [FreeCAD forum](https   *//forum.freecadweb.org) zapewnia dedykowaną przestrzeń do dyskusji na tematy Wiki, wygląd i wszystko inne związane z Wiki. Kieruj tam swoje pytania i sugestie.
+Subforum [Development/Wiki](http://forum.freecadweb.org/viewforum.php?f=21) w [FreeCAD forum](https://forum.freecadweb.org) zapewnia dedykowaną przestrzeń do dyskusji na tematy Wiki, wygląd i wszystko inne związane z Wiki. Kieruj tam swoje pytania i sugestie.
 
 ## Terminologia - Zasady nazewnictwa 
 
@@ -528,8 +528,6 @@ Zobacz [Słownik](Glossary.md)
 -   [francuski](French_Translation.md)
 -   [niemiecki](German_Translation.md)
 -   [polski](Polish_Translation.md)
-
-[Category   *Documentation](Category_Documentation.md) [Category   *Wiki](Category_Wiki.md) [Category   *Wiki Documentation](Category_Wiki_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

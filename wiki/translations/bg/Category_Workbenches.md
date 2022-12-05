@@ -1,8 +1,6 @@
 # Category:Workbenches/bg
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/bg](Category   *User_Documentation/bg.md)
-
 ### Contents
 
 |     |     |     |

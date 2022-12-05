@@ -1,24 +1,24 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM PostCreateFunctionPlane
-   Name/fr   *FEM Filtre fonction plan
-   Icon   *Fem-post-geo-plane.svg
-   MenuLocation   *Résultats → Fonctions de filtrage → Plan
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM PostCreateFunctionPlane
+   Name/fr:FEM Filtre fonction plan
+   Icon:Fem-post-geo-plane.svg
+   MenuLocation:Résultats → Fonctions de filtrage → Plan
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostCreateFunctionPlane/fr
 
 ## Description
 
-La fonction <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;"> **FEM Filtre fonction plan** définit la façon dont un maillage est coupé géométriquement. Elle est utilisée par <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width   *16px;"> [Filtre de découpe selon une fonction](FEM_PostFilterCutFunction/fr.md) et <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *16px;"> [Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).
+La fonction <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> **FEM Filtre fonction plan** définit la façon dont un maillage est coupé géométriquement. Elle est utilisée par <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Filtre de découpe selon une fonction](FEM_PostFilterCutFunction/fr.md) et <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).
 
 ## Utilisation
 
 ### Créer une fonction plan 
 
-1.  Il y a plusieurs façons de créer une fonction    *
+1.  Il y a plusieurs façons de créer une fonction :
     -   Appuyez sur le bouton **<img src="images/Fem-post-geo-plane.svg" width=16px> [Plan](FEM_PostCreateFunctionPlane/fr.md)**.
     -   Sélectionnez l\'option **Résultats → Fonctions de filtrage → <img src="images/Fem-post-geo-plane.svg" width=16px> Plan** dans le menu.
 2.  La fonction Implicit [Panneau des tâches](Task_panel/fr.md) s\'ouvre.
@@ -27,9 +27,9 @@ La fonction <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;
 
 ### Modifier une fonction plan 
 
-Si l\'objet Plan dans la [Vue 3D](3D_view/fr.md) est caché, sélectionnez l\'objet <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;"> Plan dans la [Vue en arborescence](Tree_view/fr.md) et appuyez sur **Espace** pour le rendre visible, comme dans cet exemple    *
+Si l\'objet Plan dans la [Vue 3D](3D_view/fr.md) est caché, sélectionnez l\'objet <img alt="" src=images/Fem-post-geo-plane.svg  style="width:24px;"> Plan dans la [Vue en arborescence](Tree_view/fr.md) et appuyez sur **Espace** pour le rendre visible, comme dans cet exemple :
 
-<img alt="" src=images/FEM_Plane-Cut-Function-Example.png  style="width   *300px;">
+<img alt="" src=images/FEM_Plane-Cut-Function-Example.png  style="width:300px;">
 
 #### Déplacer le plan 
 
@@ -46,7 +46,7 @@ Si l\'objet Plan dans la [Vue 3D](3D_view/fr.md) est caché, sélectionnez l\'ob
 
 ## Remarques
 
--   Les fonctions existantes peuvent être utilisées pour différents filtres et même pour différents <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *16px;"> [pipelines de résultats](FEM_PostPipelineFromResult/fr.md). Il est néanmoins recommandé d\'utiliser un ensemble de fonctions distinct pour chaque pipeline afin de garder la trace des éléments dans la [Vue en arborescence](Tree_view/fr.md).
+-   Les fonctions existantes peuvent être utilisées pour différents filtres et même pour différents <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [pipelines de résultats](FEM_PostPipelineFromResult/fr.md). Il est néanmoins recommandé d\'utiliser un ensemble de fonctions distinct pour chaque pipeline afin de garder la trace des éléments dans la [Vue en arborescence](Tree_view/fr.md).
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Part_Mirror
-   Name/ru   *Зеркальное отражение
-   MenuLocation   *Деталь -> Зеркальное отражение...
-   Workbenches   *[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso   *
+- GuiCommand:/ru
+   Name:Part_Mirror
+   Name/ru:Зеркальное отражение
+   MenuLocation:Деталь -> Зеркальное отражение...
+   Workbenches:[Верстак Part](Part_Workbench/ru.md)
+   SeeAlso:
 ---
 
 # Part Mirror/ru
@@ -19,7 +19,7 @@
 
 </div>
 
-Пример   *
+Пример:
 
 ![Перед](images/PARTMirrorBeforev11.png )
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *OpenSCAD ExplodeGroup
-   Name/de   *OpenSCAD SprengeGruppe
-   MenuLocation   *OpenSCAD → Sprenge Gruppe‏‎
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/de.md)
+- GuiCommand:/de
+   Name:OpenSCAD ExplodeGroup
+   Name/de:OpenSCAD SprengeGruppe
+   MenuLocation:OpenSCAD → Sprenge Gruppe‏‎
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD ExplodeGroup/de
@@ -15,7 +15,7 @@ Diese Funktion sprengt eine Verschmelzung oder einen Verbund zurück in einzelne
 ## Anwendung
 
 1.  Wähle zu sprengende Verschmelzung/Verbund aus
-2.  Klicke auf <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width   *32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Sprenge Gruppe** aus dem oberen Menü.
+2.  Klicke auf <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> oder wähle ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.svg" width=32px> Sprenge Gruppe** aus dem oberen Menü.
 
 ## Begrenzungen
 

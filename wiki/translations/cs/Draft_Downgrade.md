@@ -1,6 +1,6 @@
 # Draft Downgrade/cs
 ---
-- GuiCommand   */cs   Name   *Draft_Downgrade   Name/cs   *Kreslení Degradace   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft → Downgrade   Shortcut   *D N   SeeAlso   *[Draft Upgrade](Draft_Upgrade/cs.md)---
+- GuiCommand:/cs   Name:Draft_Downgrade   Name/cs:Kreslení Degradace   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Downgrade   Shortcut:D N   SeeAlso:[Draft Upgrade](Draft_Upgrade/cs.md)---
 
 
 </div>
@@ -15,7 +15,7 @@ Tento nástroj degraduje vybrané objekty různými způsoby. Není-li vybrán �
 
 </div>
 
-<img alt="" src=images/Draft_Downgrade_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Two overlapping faces are downgraded to a Part Cut object, which is downgraded to a face. That face is then downgraded to a closed wire, which is finally downgraded to separate edges.*
 
 
@@ -49,7 +49,7 @@ Tento nástroj degraduje vybrané objekty různými způsoby. Není-li vybrán �
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Degradace může být použit ve skriptech Pythonu a v [makrech](macros/cs.md) použitím následující funkce   *
+Nástroj Degradace může být použit ve skriptech Pythonu a v [makrech](macros/cs.md) použitím následující funkce:
 
 
 </div>
@@ -64,13 +64,13 @@ downgrade_list = downgrade(objects, delete=False, force=None)
 
 -   Degraduje zadaný objekt(y) (může to být objekt nebo seznam objektů).
 -   Je-li delete True, staré objekty budou smazány.
--   Atribut force může být využit pro určení požadovaného způsobu degradace. Může to být   * explode (oddělení), shapify, subtr(odebrání), splitFaces(rozděl plochy), cut2, getWire, splitWires(rozděl drát).
+-   Atribut force může být využit pro určení požadovaného způsobu degradace. Může to být: explode (oddělení), shapify, subtr(odebrání), splitFaces(rozděl plochy), cut2, getWire, splitWires(rozděl drát).
 -   Vrací katalog obsahující dva seznamy, seznam nových objektů a seznam objektů ke smazání
 
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python
@@ -90,7 +90,7 @@ add_list2, delete_list2 = Draft.downgrade(compound, delete=False)
 face = add_list2[0]
 add_list3, delete_list3 = Draft.downgrade(face, delete=False)
 
-box = doc.addObject("Part   *   *Box", "Box")
+box = doc.addObject("Part::Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

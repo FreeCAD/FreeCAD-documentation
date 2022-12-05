@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *MeshPart CreateFlatFace
-   MenuLocation   *Meshes → Unwrap Face
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
+- GuiCommand:
+   Name:MeshPart CreateFlatFace
+   MenuLocation:Meshes → Unwrap Face
+   Workbenches:[Mesh](Mesh_Workbench.md)
+   SeeAlso:[Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
 ---
 
 # MeshPart CreateFlatFace
@@ -19,7 +19,7 @@ The **MeshPart CreateFlatFace** command creates a flat representation of a face 
 
 ## Properties
 
-See   * [Part Feature](Part_Feature.md).
+See: [Part Feature](Part_Feature.md).
 
 
 

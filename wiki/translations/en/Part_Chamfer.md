@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Chamfer
-   MenuLocation   *Part → Chamfer
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part Fillet](Part_Fillet.md)
+- GuiCommand:
+   Name:Part Chamfer
+   MenuLocation:Part → Chamfer
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Part Fillet](Part_Fillet.md)
 ---
 
 # Part Chamfer/en
@@ -16,7 +16,7 @@ Chamfers the selected edge(s) of an object. A dialog allows you to choose which 
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Chamfer.svg" width=16px> Chamfer** button.
     -   Select the **Part → Chamfer** option from the menu.
 2.  Select the shape to chamfer from the dialog.
@@ -40,33 +40,33 @@ Chamfers the selected edge(s) of an object. A dialog allows you to choose which 
 
 {{Properties_Title|Base}}
 
--    **Base**   * The shape onto which the chamfer is to be applied.
+-    **Base**: The shape onto which the chamfer is to be applied.
 
--    **Placement**   * Specifies the orientation and position of the shape in the 3D space.
+-    **Placement**: Specifies the orientation and position of the shape in the 3D space.
 
--    **Label**   * Label given to the object. Change to suit your needs.
+-    **Label**: Label given to the object. Change to suit your needs.
 
 
 
 
 ## Limitations
 
-Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Fillet](Part_Fillet.md).
+Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md).
 
-Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.20) it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
+Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.20) it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
 
 ## Scripting
 
 The Chamfer tool can by used in [macros](Macros.md) and from the [Python](Python.md) console by adding a Chamfer object to the document.
 
-**Example Script   ***
+**Example Script:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -86,12 +86,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Example Script Explanation   ***
+**Example Script Explanation:**
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -99,7 +99,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
 ```
 
 -   Adds a new object to the document of type Chamfer (from the Part module) with label \"myChamfer\".

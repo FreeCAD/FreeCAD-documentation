@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std ViewBoxZoom
-   MenuLocation   *View → Zoom → Box zoom
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**B**
-   SeeAlso   *[Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
+- GuiCommand:
+   Name:Std ViewBoxZoom
+   MenuLocation:View → Zoom → Box zoom
+   Workbenches:All
+   Shortcut:**Ctrl**+**B**
+   SeeAlso:[Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
 ---
 
 # Std ViewBoxZoom/en
@@ -15,9 +15,9 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Select the **View → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Box zoom** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**B**.
+    -   Use the keyboard shortcut: **Ctrl**+**B**.
 2.  Drag a rectangle in the 3D view.
 
 

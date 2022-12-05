@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/ro
 ---
-- GuiCommand   *   Name   *Draft ToggleConstructionMode   Workbenches   *[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation   *Draft → Utilities → Toggle construction mode   SeeAlso   *[[Draft_AddConstruction]]---
+- GuiCommand:   Name:Draft ToggleConstructionMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Toggle construction mode   SeeAlso:[[Draft_AddConstruction]]---
 
 
 </div>
@@ -17,12 +17,12 @@ Atelierul Draft prezintă un mod de construcție ( ToggleConstructionMode) care 
 
 </div>
 
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;">
 
 
 </div>
@@ -48,8 +48,8 @@ Atelierul Draft prezintă un mod de construcție ( ToggleConstructionMode) care 
 
 ## Preferences
 
--   To change the label of the construction group   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
--   To change the color that is used   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
+-   To change the label of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
+-   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
 
 

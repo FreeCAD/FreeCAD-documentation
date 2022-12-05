@@ -1,8 +1,6 @@
 # Category:FEM/ru
 This category lists pages related to the [FEM Workbench/ru](FEM_Workbench/ru.md).
 
-[Category   *Workbenches/ru](Category   *Workbenches/ru.md)
-
 ### Contents
 
 |     |     |     |

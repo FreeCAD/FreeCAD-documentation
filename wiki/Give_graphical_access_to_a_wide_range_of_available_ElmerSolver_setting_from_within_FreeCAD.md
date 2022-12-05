@@ -5,7 +5,7 @@ This page is dedicated to the description of the [Google Summer of Code 2017](Go
 
 This GSoC project aims at a full integration of ElmerSolver into FreeCAD. Since the graphical user interface of ElmerFEM called ElmerGUI is no more active developed, is the intension to use FreeCAD for geometrical modeling and extended preprocessing and ElmerFEM as external solver.
 
-The goal of this specific project is to implement all necessary objects to completely handle the set-up and execution of multiphysics simulations from within FreeCAD. To handle the variety of solver-settings including boundary- and initial conditions available for ElmerSolver, one has to implement new objects, classes as well as input-GUI "from scratch". Using Projects like ElmerSalomeModule (https   *//github.com/physici/ElmerSalomeModule) as reference point the student has to take care of a wide range of available interwoven settings and preconditions for running multiphysics simulations in FreeCAD using ElmerFEM.
+The goal of this specific project is to implement all necessary objects to completely handle the set-up and execution of multiphysics simulations from within FreeCAD. To handle the variety of solver-settings including boundary- and initial conditions available for ElmerSolver, one has to implement new objects, classes as well as input-GUI "from scratch". Using Projects like ElmerSalomeModule (https://github.com/physici/ElmerSalomeModule) as reference point the student has to take care of a wide range of available interwoven settings and preconditions for running multiphysics simulations in FreeCAD using ElmerFEM.
 
 ## Details
 
@@ -43,9 +43,7 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Hard
 
-### Additional Information 
-
-[Category   *Google Summer of Code](Category_Google_Summer_of_Code.md)
+### Additional Information
 
 
 

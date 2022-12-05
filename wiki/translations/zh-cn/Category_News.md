@@ -1,8 +1,6 @@
 # Category:News/zh-cn
 This category contains articles with news and messages about FreeCAD.
 
-[Category   *Categories/zh-cn](Category   *Categories/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

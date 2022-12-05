@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ru
-   Topic   * Part Scripting - Ball Bearing #2
-   Level   * Beginner
-   Time   * 30 min
-   Author   *r-frank
-   FCVersion   *0.16.6706
-   Files   *
+- TutorialInfo:/ru
+   Topic: Part Scripting - Ball Bearing #2
+   Level: Beginner
+   Time: 30 min
+   Author:r-frank
+   FCVersion:0.16.6706
+   Files:
 }}
 
 ### Introduction
@@ -13,8 +13,8 @@
 This tutorial is meant as a beginner\'s introduction to creating parts with python scripts within FreeCAD.
 This tutorial will cover how to build a ball bearing with a workflow that consists of creating sketches and revolving them.
 The code will produce a new FreeCAD document with 12 shapes (Inner Ring, Outer Ring and 10 balls/spheres).
-It will look like this   *
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width   *400px;">
+It will look like this:
+<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
 
 ### Workflow
 
@@ -24,7 +24,7 @@ Just some small differences.
 
 -   Draw the basic shape of the outer ring consisting of four straight lines and four arcs
 
-<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width   *150px;">
+<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width:150px;">
 
 -   Connect the lines and arcs and upgrade them to one single wire
 -   Upgrade the wire to a face
@@ -55,7 +55,7 @@ Then we apply a boolean cut to the two revolved shapes and we have the complete 
 
 ### Inserting the balls 
 
-The correct sketcher-based workflow of inserting the balls would be   *
+The correct sketcher-based workflow of inserting the balls would be:
 \*Draw an arc (semi-circle) with center being identical with the origin and draw a line closing the \"open\" side of the arc
 
 -   Convert the two elements to a wire, upgrade to a face, revolve around z-axis to get a ball shape
@@ -64,23 +64,23 @@ The correct sketcher-based workflow of inserting the balls would be   *
 -   This repeat-operation could be programmed with a loop
 
 Now this is not effective, inserting primitives and positioning them is easier and faster in this case.
-So we use the same method as in \"[Scripted Parts   * Ball Bearing - Part 1](Scripted_Parts   *_Ball_Bearing_-_Part_1.md)\".
+So we use the same method as in \"[Scripted Parts: Ball Bearing - Part 1](Scripted_Parts:_Ball_Bearing_-_Part_1.md)\".
 
 ### Links
 
-[Scripted objects](Scripted_objects.md)   * The wiki page explaining the basics of scripting
-[Topological data scripting](Topological_data_scripting.md)   * A tutorial for covering basics of scripting
-[Scripted Parts   * Ball Bearing - Part 1](Scripted_Parts   *_Ball_Bearing_-_Part_1.md)   * Doing it with part primitives
-[Bearings from scripted sketches](http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)   * Base for this tutorial, thanks to JMG \...
+[Scripted objects](Scripted_objects.md): The wiki page explaining the basics of scripting
+[Topological data scripting](Topological_data_scripting.md): A tutorial for covering basics of scripting
+[Scripted Parts: Ball Bearing - Part 1](Scripted_Parts:_Ball_Bearing_-_Part_1.md): Doing it with part primitives
+[Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Base for this tutorial, thanks to JMG \...
 
 ### Code
 
 
-{{Code   code   *
+{{Code   code:
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
-## (http   *//linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
+## (http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
 #
 #needed for doing boolean operations
 import Part
@@ -158,7 +158,7 @@ IR=IR.cut(GRi)
 Part.show(IR)
 #
 #Balls#
-for i in range(NBall)   *
+for i in range(NBall):
   Ball=Part.makeSphere(RBall)
   Alpha=(i*2*math.pi)/NBall
   BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
@@ -177,9 +177,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 {{Powerdocnavi
 
-}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+}}
 
 
 

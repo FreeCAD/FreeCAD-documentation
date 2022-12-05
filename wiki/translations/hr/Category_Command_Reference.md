@@ -1,8 +1,6 @@
 # Category:Command Reference/hr
 This category contains the help pages of each of FreeCAD [Command](Command.md).
 
-[Category   *Categories/hr](Category   *Categories/hr.md)
-
 ### Contents
 
 |     |     |     |

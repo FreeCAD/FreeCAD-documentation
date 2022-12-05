@@ -29,7 +29,7 @@ Das Standardmenü bietet Zugriff auf Werkzeuge, die in allen Arbeitsbereichen ve
 
 ## Untermenüs
 
-Das Standardmenü besteht aus 7 Untermenüs   *
+Das Standardmenü besteht aus 7 Untermenüs:
 
 -   Das Menü {{StdMenu|[Datei](Std_File_Menu/de.md)}} stellt Werkzeuge bereit für die Ein- und Ausgabe von Dateien.
 -   Das Menü {{StdMenu|[Bearbeiten](Std_Edit_Menu/de.md)}} stellt Werkzeuge bereit zum Ändern des Modells.

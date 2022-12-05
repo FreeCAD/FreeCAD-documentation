@@ -2,13 +2,13 @@
 ## Introduction
 
 
-**Note   ***
+**Note:**
 
 for all icons in the source tree, see [Artwork](Artwork.md).
 
-A FreeCAD icon is composed of 6 elements which can be remembered by the acronym SALCHO   * **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline.
+A FreeCAD icon is composed of 6 elements which can be remembered by the acronym SALCHO: **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline.
 
-Here\'s a concrete, yet arbitrary example   *
+Here\'s a concrete, yet arbitrary example:
 
 ![](images/FreeCAD_icon_example_details.svg )
 
@@ -23,12 +23,12 @@ Here\'s a concrete, yet arbitrary example   *
 
 The following sections explain these elements with more detail.
 
-This icon is displayed as follows   *
+This icon is displayed as follows:
 
    
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width   *64px;">   64 px, original size, large buttons.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width   *32px;">   32 px, medium size, regular buttons.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width   *16px;">   16 px, small size, as it appears in the [tree view](tree_view.md).
+  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;">   64 px, original size, large buttons.
+  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;">   32 px, medium size, regular buttons.
+  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;">   16 px, small size, as it appears in the [tree view](tree_view.md).
    
 
 ## Colors
@@ -36,23 +36,23 @@ This icon is displayed as follows   *
 
 **Obligatory**
 
-FreeCAD uses a palette adapted from the [Tango palette](https   *//web.archive.org/web/20190921043652/http   *//tango.freedesktop.org/tango_icon_theme_guidelines). Each main color comes in 4 tones   * Highlight, Base, Dark and Outline. Notice that the Outline is not completely black but a very dark variation of the Base.
+FreeCAD uses a palette adapted from the [Tango palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Each main color comes in 4 tones: Highlight, Base, Dark and Outline. Notice that the Outline is not completely black but a very dark variation of the Base.
 
 ![](images/Green_tones.PNG ) 
 *Example of a 4 tone color family (Chameleon)*
 
-See [FreeCAD palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) for the full range. A selection of some key colors.
+See [FreeCAD palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) for the full range. A selection of some key colors.
 
       
                                                                                                                                                           Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
-  style=\"background-color   *#729fcf;\|   style=\"background-color   *#3465a4;\|   style=\"background-color   *#204a87;\|   style=\"background-color   *#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
-  style=\"background-color   *#34e0e2\|    style=\"background-color   *#16d0d2\|    style=\"background-color   *#06989a\|    style=\"background-color   *#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
-  style=\"background-color   *#ef2929\|    style=\"background-color   *#cc0000\|    style=\"background-color   *#a40000\|    style=\"background-color   *#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
       
 
    
-  style=\"width   * 25%;\|Why limit myself to these colors?   Restricting the colors to a defined palette helps avoid heterogeneous iconography and improves readability when there are many icons.
-  How do I use the FreeCAD palette?                        Installing [the palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) is as easy as [copying it into your Inkscape palette folder](https   *//inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
+  style=\"width: 25%;\|Why limit myself to these colors?   Restricting the colors to a defined palette helps avoid heterogeneous iconography and improves readability when there are many icons.
+  How do I use the FreeCAD palette?                        Installing [the palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) is as easy as [copying it into your Inkscape palette folder](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
 
 ## Grid and stroke width 
@@ -62,14 +62,14 @@ See [FreeCAD palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2O
 
 FreeCAD icons have a nominal size of 64 pixels both in width and height. When creating or editing an icon, make sure the document size is 64 x 64 with the units being pixels (px). Leaving an inner 2px margin of empty space all around the document area is useful as it prevents effects like anti-aliasing (blurring of edges). That is, the usable space for the icon should be considered 60 x 60, and the edges should be left empty.
 
-<img alt="" src=images/FreeCAD_icon_size.svg  style="width   *128px;"> 
+<img alt="" src=images/FreeCAD_icon_size.svg  style="width:128px;"> 
 *Draw the icon inside the blue area and everything will work out fine.*
 
 It\'s also strongly recommended to use a visual grid that has a minor grid line every pixel, and a major grid line every 2 pixels. The strokes of the icon should be aligned along the minor grid intersections.
 
 Strokes should be no *thinner* than 2px, with rounded caps and corners in most cases. Strokes can be *thicker*, but they should preferably be a multiple of 2px in order to minimize scaling fuzziness.
 
-<img alt="" src=images/FreeCAD_icon_stroke_2px.svg  style="width   *320px;"> 
+<img alt="" src=images/FreeCAD_icon_stroke_2px.svg  style="width:320px;"> 
 *Grid with strokes that are multiples of 2px.*
 
    
@@ -84,7 +84,7 @@ Strokes should be no *thinner* than 2px, with rounded caps and corners in most c
 
 Basing yourself on the main color of the icon, ensure that there is a dark outline of 2px, as mentioned earlier. This works in unison with the highlight to ensure good form contrast on multiple background tones.
 
-<img alt="" src=images/Draft_Point.svg  style="width   *" height="128px;"> <img alt="" src=images/Draft_Point_backgrounds.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Point.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Point_backgrounds.svg  style="width:" height="128px;"> 
 *The dark edge of the icon is the outline.*
 
    
@@ -99,7 +99,7 @@ Basing yourself on the main color of the icon, ensure that there is a dark outli
 
 Using the Highlight color, add an internal stroke of 2px to help make that outline pop. On dark backgrounds, it\'s this highlight what will be providing the form to the icon.
 
-<img alt="" src=images/Draft_Move.svg  style="width   *" height="128px;"> <img alt="" src=images/Draft_Move_backgrounds.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Move.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Move_backgrounds.svg  style="width:" height="128px;"> 
 *The light highlight helps in dark backgrounds.*
 
    
@@ -114,23 +114,23 @@ Using the Highlight color, add an internal stroke of 2px to help make that outli
 
 As per Tango guidelines, if you\'re adding a gradient lighting effect, try to make it look like the light is coming from the top left. This is done by adding the highlight color up top left and the Base or Dark color bottom right. Notice that only palette colors are used.
 
-<img alt="" src=images/Draft_Clone.svg  style="width   *" height="128px;"> <img alt="" src=images/Draft_Clone_backgrounds.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Clone.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Clone_backgrounds.svg  style="width:" height="128px;"> 
 *Subtle lighting effect coming from top left.*
 
    
-  style=\"width   *25%;\|Why use lighting?   Lighting is just another way to tie icons together and ensure that there are varying levels of [\"value\"](https   *//en.wikipedia.org/wiki/Lightness) to improve their readability. Provided the outline and highlight are present though, it can be considered optional
+  style=\"width:25%;\|Why use lighting?   Lighting is just another way to tie icons together and ensure that there are varying levels of [\"value\"](https://en.wikipedia.org/wiki/Lightness) to improve their readability. Provided the outline and highlight are present though, it can be considered optional
   How do I comply with this?              Set the fill to be a linear or a radial gradient. In Inkscape this is available in the stroke and fill settings; with \"F2\" it is possible to move the nodes of the gradient around to make sure they are at the right angle.
    
 
 ## Recommended recording format 
 
-All icons should be created in [SVG](SVG.md) format with a vector image application, such as [Inkscape](http   *//inkscape.org). This makes it easier to apply changes and derive additional icons in the same application space.
+All icons should be created in [SVG](SVG.md) format with a vector image application, such as [Inkscape](http://inkscape.org). This makes it easier to apply changes and derive additional icons in the same application space.
 
 When committing icons to be used directly by FreeCAD (in a \*.qrc file), save them as \"Plain SVG\". This will reduce the icon size and save the disk and memory space.
 
 ## Closing remarks 
 
-Remember   * **SALCHO**, Stroke, Alignment, Lighting, Color, Highlight, Outline
+Remember: **SALCHO**, Stroke, Alignment, Lighting, Color, Highlight, Outline
 
 Here are some tips to check your work.
 
@@ -145,7 +145,7 @@ Inkscape has a handy tool to check your icon at various sizes. Go to **View → 
 3.  Do the same but this time using the lightest color.
 4.  Still looks OK? Great. Outlines and highlights have been used appropriately. Otherwise, adjust the outline.
 
-<img alt="" src=images/Draft_Move_backgrounds_outline.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Move_backgrounds_outline.svg  style="width:" height="128px;"> 
 *Testing the icon against the darkest and lightest colors as background*
 
    
@@ -161,14 +161,11 @@ Inkscape has a handy tool to check your icon at various sizes. Go to **View → 
 
 A grayscale image allows you to more easily identify problems in contrast, as only a mix of black and white is present. Testing grayscale images is also good for colorblind users. If they can see the details in a grayscale image, then the contrast of the fully colored image is probably good as well.
 
-<img alt="" src=images/Draft_Move_contrast_grayscale.svg  style="width   *" height="128px;"> 
+<img alt="" src=images/Draft_Move_contrast_grayscale.svg  style="width:" height="128px;"> 
 *Testing the icon's contrast in grayscale*
 
    
   I can\'t make out all the details.   The colors you\'ve chosen have poor value contrast. Try using colors that are further apart in your 4 tone palette, that is, a highlight green beside a highlight yellow will be difficult to see, knock one of those colors down to Base or Dark.
-   
-
-[Category   *Artwork](Category_Artwork.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

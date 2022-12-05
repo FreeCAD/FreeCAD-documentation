@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintSelfWeight
-   Name/de   *FEM RandbedingungEigengewicht
-   MenuLocation   *Modell → Mechanische Randbedingungen → Randbedingung Eigengewicht
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintSelfWeight
+   Name/de:FEM RandbedingungEigengewicht
+   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Eigengewicht
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintSelfWeight/de
@@ -15,14 +15,14 @@ Die Randbedingung Eigengewicht legt fest, dass die Erdbeschleunigung von 9,81 m/
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Randbedingung Eigengewicht](FEM_ConstraintSelfWeight.md)** drücken.
     -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Randbedingung Eigengewicht** auswählen.
 2.  Die Richtung der Erdanziehungskraft kann durch Ändern der Vektorkoordinaten im Eigenschafteneditor des neu erstellten ConstraintSelfWeight-Objekts angepasst werden.
 
 ## Skripten
 
-Neues Objekt   *
+Neues Objekt:
 
 
 ```python
@@ -30,14 +30,14 @@ import ObjectsFem
 ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
-Ein Objekt zum Analysis genannten Analyse-Container hinzufügen   *
+Ein Objekt zum Analysis genannten Analyse-Container hinzufügen:
 
 
 ```python
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -57,7 +57,7 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 Die Beschleunigungskonstante kann nach Erstellung der CalculiX-input-Datei von Hand geändert werden.
 
-Beispielzeilen in der .inp-Datei   *
+Beispielzeilen in der .inp-Datei:
 
 
 ```python

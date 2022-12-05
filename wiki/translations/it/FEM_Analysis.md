@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *FEM_Analysis
-   Name/it   *Analisi FEM
-   MenuLocation   *Modello → Contenitore analisi
-   Workbenches   *[FEM](FEM_Workbench/it.md)
-   Shortcut   ***S** **A**
-   SeeAlso   *[Tutorial FEM](FEM_tutorial/it.md)
+- GuiCommand:/it
+   Name:FEM_Analysis
+   Name/it:Analisi FEM
+   MenuLocation:Modello → Contenitore analisi
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**S** **A**
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM Analysis/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Analisi FEM può essere visto come il contenitore di tutti gli oggetti di una Analisi agli elementi finiti. È obbligatorio avere un contenitore Analisi che contenga tutti gli oggetti necessari. Per poter eseguire un\'analisi meccanica serve almeno uno dei seguenti oggetti   *
+Analisi FEM può essere visto come il contenitore di tutti gli oggetti di una Analisi agli elementi finiti. È obbligatorio avere un contenitore Analisi che contenga tutti gli oggetti necessari. Per poter eseguire un\'analisi meccanica serve almeno uno dei seguenti oggetti:
 
 -   [ materiale](FEM_MaterialSolid/it.md)
 -   [ vincolo fissaggio](FEM_ConstraintFixed/it.md)
@@ -45,14 +45,14 @@ Analisi FEM può essere visto come il contenitore di tutti gli oggetti di una An
 <div class="mw-translate-fuzzy">
 
 -   Per ora non ci sono opzioni.
--   L\'analisi in frequenza è in sviluppo. Vedere [1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) per maggiori informazioni.
+-   L\'analisi in frequenza è in sviluppo. Vedere [1](http://forum.freecadweb.org/viewtopic.php?f=18&t=12189) per maggiori informazioni.
 
 
 </div>
 
 ## Proprietà
 
--    **OutpuDir**   * Specifica la directory di lavoro di Analisi
+-    **OutpuDir**: Specifica la directory di lavoro di Analisi
 
 ## Script
 
@@ -87,7 +87,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Esempio   * 
+Esempio: 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

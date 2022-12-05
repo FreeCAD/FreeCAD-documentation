@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Path Area
-   MenuLocation   *Path → Area
-   Workbenches   *[Path](Path_Workbench.md)
+- GuiCommand:
+   Name:Path Area
+   MenuLocation:Path → Area
+   Workbenches:[Path](Path_Workbench.md)
 ---
 
 # Path Area/it
@@ -26,124 +26,124 @@ Empty
 
 {{TitleProperty|Area}}
 
--    **Operation**   * -
+-    **Operation**: -
 
--    **Fill**   * -
+-    **Fill**: -
 
--    **Coplanar**   * -
+-    **Coplanar**: -
 
--    **Reorient**   * -
+-    **Reorient**: -
 
--    **Outline**   * -
+-    **Outline**: -
 
--    **Explode**   * -
+-    **Explode**: -
 
--    **OpenMode**   * -
+-    **OpenMode**: -
 
--    **Deflection**   * -
+-    **Deflection**: -
 
--    **SubjectFill**   * -
+-    **SubjectFill**: -
 
--    **ClipFill**   * -
+-    **ClipFill**: -
 
 
 {{TitleProperty|Base}}
 
--    **Sources**   * -
+-    **Sources**: -
 
--    **Placement**   * -
+-    **Placement**: -
 
--    **Label**   * -
+-    **Label**: -
 
 
 {{TitleProperty|Offset}}
 
--    **Offset**   * -
+-    **Offset**: -
 
--    **ExtraPass**   * -
+-    **ExtraPass**: -
 
--    **Stepover**   * -
+-    **Stepover**: -
 
--    **LastStepover**   * -
+-    **LastStepover**: -
 
--    **JoinType**   * -
+-    **JoinType**: -
 
--    **EndType**   * -
+-    **EndType**: -
 
--    **MiterLimit**   * -
+-    **MiterLimit**: -
 
--    **RoundPrecision**   * -
+-    **RoundPrecision**: -
 
 
 {{TitleProperty|Pocket}}
 
--    **PocketMode**   * -
+-    **PocketMode**: -
 
--    **ToolRadius**   * -
+-    **ToolRadius**: -
 
--    **PocketExtraOffset**   * -
+-    **PocketExtraOffset**: -
 
--    **PocketStepover**   * -
+-    **PocketStepover**: -
 
--    **PocketLastStepover**   * -
+-    **PocketLastStepover**: -
 
--    **FromCenter**   * -
+-    **FromCenter**: -
 
--    **Angle**   * -
+-    **Angle**: -
 
--    **AngleShift**   * -
+-    **AngleShift**: -
 
--    **Shift**   * -
+-    **Shift**: -
 
--    **Thicken**   * -
+-    **Thicken**: -
 
 
 {{TitleProperty|Section}}
 
--    **SectionCount**   * -
+-    **SectionCount**: -
 
--    **Stepdown**   * -
+-    **Stepdown**: -
 
--    **SectionOffset**   * -
+-    **SectionOffset**: -
 
--    **SectionTolerance**   * -
+-    **SectionTolerance**: -
 
--    **SectionMode**   * -
+-    **SectionMode**: -
 
--    **Project**   * -
+-    **Project**: -
 
 
 {{TitleProperty|libarea}}
 
--    **Tolerance**   * -
+-    **Tolerance**: -
 
--    **FitArcs**   * -
+-    **FitArcs**: -
 
--    **Simplify**   * -
+-    **Simplify**: -
 
--    **CleanDistance**   * -
+-    **CleanDistance**: -
 
--    **Accuracy**   * -
+-    **Accuracy**: -
 
--    **Unit**   * -
+-    **Unit**: -
 
--    **MinArcPoints**   * -
+-    **MinArcPoints**: -
 
--    **MaxArcPoints**   * -
+-    **MaxArcPoints**: -
 
--    **ClipperScale**   * -
+-    **ClipperScale**: -
 
 #### Hidden
 
--    **ExpressionEngine**   * -
+-    **ExpressionEngine**: -
 
--    **Label2**   * -
+-    **Label2**: -
 
--    **Shape**   * -
+-    **Shape**: -
 
--    **Visibility**   * -
+-    **Visibility**: -
 
--    **WorkPlane**   * -
+-    **WorkPlane**: -
 
 ### View
 
@@ -152,11 +152,11 @@ Empty
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Example:
 
 
 ```python

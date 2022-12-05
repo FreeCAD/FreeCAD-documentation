@@ -4,12 +4,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Aquí hay algunos enlaces con información sobre unidades   *
+Aquí hay algunos enlaces con información sobre unidades:
 
--   [Sistema Internacional de Unidades SI](http   *//es.wikipedia.org/wiki/Sistema_Internacional_de_Unidades)
--   [Sistema Británico](http   *//en.wikipedia.org/wiki/Imperial_units)
--   [Unidades derivadas del Sistema Internacional](http   *//es.wikipedia.org/wiki/Unidades_derivadas_del_Sistema_Internacional)
--   [Unidades angulares](http   *//es.wikipedia.org/wiki/Grado_sexagesimal)
+-   [Sistema Internacional de Unidades SI](http://es.wikipedia.org/wiki/Sistema_Internacional_de_Unidades)
+-   [Sistema Británico](http://en.wikipedia.org/wiki/Imperial_units)
+-   [Unidades derivadas del Sistema Internacional](http://es.wikipedia.org/wiki/Unidades_derivadas_del_Sistema_Internacional)
+-   [Unidades angulares](http://es.wikipedia.org/wiki/Grado_sexagesimal)
 
 
 </div>
@@ -66,7 +66,7 @@ b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 
 ## Unidades soportadas 
 
-Aquí están las unidades definidas en FreeCAD hasta el momento. Es sencillo añadir una nueva unidad definida por el usuario. La definición está [Aquí](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Base/UnitsApi.l?view=markup).
+Aquí están las unidades definidas en FreeCAD hasta el momento. Es sencillo añadir una nueva unidad definida por el usuario. La definición está [Aquí](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Base/UnitsApi.l?view=markup).
 
 
 </div>

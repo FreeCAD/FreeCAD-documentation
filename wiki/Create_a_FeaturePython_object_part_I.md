@@ -3,10 +3,10 @@
 
 FeaturePython objects (also referred to as [Scripted objects](Scripted_objects.md)) provide the ability to extend FreeCAD with objects that integrate seamlessly into the FreeCAD framework.
 
-This encourages   *
+This encourages:
 
 -   Rapid prototyping of new objects and tools with custom Python classes.
--   Saving and restoring data (also known as serialization) through `App   *   *Property` objects, without embedding any script in the FreeCAD document file.
+-   Saving and restoring data (also known as serialization) through `App::Property` objects, without embedding any script in the FreeCAD document file.
 -   Creative freedom to adapt FreeCAD for any task.
 
 On this page we are going to construct a working example of a FeaturePython custom class, identifying all the major components and gaining an understanding of how everything works as we go along.
@@ -25,20 +25,20 @@ When working with custom classes and FeaturePython objects it is important to kn
 
 FeaturePython Object classes need to act as importable modules in FreeCAD. That means you need to place them in a path that exists in your Python environment (or add it specifically). For the purposes of this tutorial, we\'re going to use the FreeCAD user Macro folder. But if you have another idea in mind, feel free to use that instead.
 
-If you don\'t know where the FreeCAD Macro folder is type `FreeCAD.getUserMacroDir(True)` in FreeCAD\'s [Python console](Python_console.md)   *
+If you don\'t know where the FreeCAD Macro folder is type `FreeCAD.getUserMacroDir(True)` in FreeCAD\'s [Python console](Python_console.md):
 
 -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Macro/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Macro/** ({{VersionMinus|0.19}}).
--   On Windows it is **%APPDATA%\FreeCAD\Macro\**, which is usually **C   *Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
+-   On Windows it is **%APPDATA%\FreeCAD\Macro\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
 -   On Mac OSX it is usually **/Users/<username>/Library/Preferences/FreeCAD/Macro/**.
 
-Now we need to create some folders and files   *
+Now we need to create some folders and files:
 
 -   In the **Macro** folder create a new folder called **fpo**.
--   In the **fpo** folder create an empty file   * **__init__.py**.
+-   In the **fpo** folder create an empty file: **__init__.py**.
 -   In the **fpo** folder, create a new folder called **box**.
--   In the **box** folder create two files   * **__init__.py** and **box.py** (leave both empty for now).
+-   In the **box** folder create two files: **__init__.py** and **box.py** (leave both empty for now).
 
-Your folder structure should look like this   *
+Your folder structure should look like this:
 
 
 
@@ -53,7 +53,7 @@ Macro/
 
 The **fpo** folder provides a nice place to play with new FeaturePython objects and the **box** folder is the module we will be working in. **__init__.py** tells Python that there is an importable module in the folder, and **box.py** will be the class file for our new FeaturePython Object.
 
-With our module paths and files created, let\'s make sure FreeCAD is set up properly   *
+With our module paths and files created, let\'s make sure FreeCAD is set up properly:
 
 -   Start FreeCAD (if you haven\'t done so already).
 -   Enable the [Report view](Report_view.md) (**View → Panels → Report view**).
@@ -65,13 +65,13 @@ Finally, navigate to the **Macro/fpo/box** folder and open **box.py** in your fa
 
 ## A FeaturePython object 
 
-Let\'s get started by writing our class and its constructor   *
+Let\'s get started by writing our class and its constructor:
 
  
 ```python
-class box()   *
+class box():
 
-    def __init__(self, obj)   *
+    def __init__(self, obj):
         """
         Default constructor
         """
@@ -81,11 +81,11 @@ class box()   *
         obj.Proxy = self
 ```
 
-**The `__init__()` method breakdown   ***
+**The `__init__()` method breakdown:**
 
 +++
 |                                | Parameters refer to the Python class itself and the FeaturePython object that it is attached to. |
-| `def __init__(self, obj)   *`           |                                                                                                  |
+| `def __init__(self, obj):`           |                                                                                                  |
 |                                            |                                                                                                  |
 +++
 |                                | String definition of the custom Python type.                                                     |
@@ -97,25 +97,25 @@ class box()   *
 |                                            |                                                                                                  |
 +++
 
-Add the following code at the top of the file   *
+Add the following code at the top of the file:
 
  
 ```python
 import FreeCAD as App
 
-def create(obj_name)   *
+def create(obj_name):
     """
     Object creation method
     """
 
-    obj = App.ActiveDocument.addObject('App   *   *FeaturePython', obj_name)
+    obj = App.ActiveDocument.addObject('App::FeaturePython', obj_name)
 
     box(obj)
 
     return obj
 ```
 
-**The `create()` method breakdown   ***
+**The `create()` method breakdown:**
 
 +++
 |                                       | Standard import for most Python scripts, the App alias is not required.                                                                                                                                                                        |
@@ -143,14 +143,14 @@ The `create()` method is not required, but it provides a nice way to encapsulate
 
 Now we can test our new object. Save your code and return to FreeCAD. Make sure you have opened a new document, you can do this by pressing **Ctrl**+**N** or selecting **File → New**.
 
-In the Python console type the following   *
+In the Python console type the following:
 
  
 ```python
 from fpo.box import box
 ```
 
-Now we need to create our object   *
+Now we need to create our object:
 
  
 ```python
@@ -164,12 +164,12 @@ Note that the icon is gray. FreeCAD is telling us that the object is not able to
 Also note that there is a small blue check mark next to the FeaturePython object in the Tree view. That is because when an object is created or changed it is \"touched\" and needs to be recomputed. Pressing the **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** button will accomplish this. We will add some code to automate this later. 
 
 
-Let\'s look at our object\'s attributes   *  
+Let\'s look at our object\'s attributes:  
 ```python
 dir(mybox)
 ```
 
-This will return   *
+This will return:
 
  
 ```python
@@ -180,14 +180,14 @@ This will return   *
 
 There are a lot of attributes because we\'re accessing the native FreeCAD FeaturePyton object created in the first line of our `create()` method. The `Proxy` property we added in our `__init__()` method is there too.
 
-Let\'s inspect it with the `dir()` method   *
+Let\'s inspect it with the `dir()` method:
 
  
 ```python
 dir(mybox.Proxy)
 ```
 
-This will return   *
+This will return:
 
  
 ```python
@@ -196,14 +196,14 @@ This will return   *
 '__str__', '__subclasshook__', '__weakref__']
 ```
 
-We can see our `Type` property. Let\'s check it   *
+We can see our `Type` property. Let\'s check it:
 
  
 ```python
 mybox.Proxy.Type
 ```
 
-This will return   *
+This will return:
 
  
 ```python
@@ -220,7 +220,7 @@ Now let\'s see if we can make our class a little more interesting, and maybe mor
 
 Properties are the lifeblood of a FeaturePython class. Fortunately, FreeCAD supports [a number of property types](FeaturePython_Custom_Properties.md) for FeaturePython classes. These properties are attached directly to the FeaturePython object and are fully serialized when the file is saved. To avoid having to serialize data yourself, it is advisable to only use these property types.
 
-Adding properties is done using the `add_property()` method. The syntax for the method is   *
+Adding properties is done using the `add_property()` method. The syntax for the method is:
 
 
 
@@ -228,23 +228,23 @@ add_property(type, name, section, description)
 
 
 
-You can view the list of supported properties by typing   *
+You can view the list of supported properties by typing:
 
  
 ```python
 mybox.supportedProperties()
 ```
 
-Let\'s try adding a property to our box class. Switch to your code editor, move to the `__init__()` method, and at the end of the method add   *
+Let\'s try adding a property to our box class. Switch to your code editor, move to the `__init__()` method, and at the end of the method add:
 
  
 ```python
-obj.addProperty('App   *   *PropertyString', 'Description', 'Base', 'Box description').Description = ""
+obj.addProperty('App::PropertyString', 'Description', 'Base', 'Box description').Description = ""
 ```
 
 Note how we\'re using the reference to the (serializable) FeaturePython object `obj`, and not the (non-serializable) Python class instance `self`.
 
-Once you\'re done, save the changes and switch back to FreeCAD. Before we can observe the changes made to our code, we need to reload the module. This can be accomplished by restarting FreeCAD, but restarting FreeCAD every time we edit the code would be inconvenient. To make things easier type the following in the Python console   *
+Once you\'re done, save the changes and switch back to FreeCAD. Before we can observe the changes made to our code, we need to reload the module. This can be accomplished by restarting FreeCAD, but restarting FreeCAD every time we edit the code would be inconvenient. To make things easier type the following in the Python console:
 
  
 ```python
@@ -252,14 +252,14 @@ from importlib import reload
 reload(box)
 ```
 
-With the module reloaded, let\'s see what we get when we create an object   *
+With the module reloaded, let\'s see what we get when we create an object:
 
  
 ```python
 box.create('box_property_test')
 ```
 
-You should see the new box object appear in the Tree view   *
+You should see the new box object appear in the Tree view:
 
 -   Select it and look at the Property editor. There, you should see the *Description* property.
 -   Hover over the property name on the left and the tooltip should appear with the description you provided.
@@ -267,16 +267,16 @@ You should see the new box object appear in the Tree view   *
 
 [top](#top.md)
 
-Let\'s add some more properties. Return to your source code and add the following properties to the `__init__()` method   *
+Let\'s add some more properties. Return to your source code and add the following properties to the `__init__()` method:
 
  
 ```python
-obj.addProperty('App   *   *PropertyLength', 'Length', 'Dimensions', 'Box length').Length = 10.0
-obj.addProperty('App   *   *PropertyLength', 'Width', 'Dimensions', 'Box width').Width = '10 mm'
-obj.addProperty('App   *   *PropertyLength', 'Height', 'Dimensions', 'Box height').Height = '1 cm'
+obj.addProperty('App::PropertyLength', 'Length', 'Dimensions', 'Box length').Length = 10.0
+obj.addProperty('App::PropertyLength', 'Width', 'Dimensions', 'Box width').Width = '10 mm'
+obj.addProperty('App::PropertyLength', 'Height', 'Dimensions', 'Box height').Height = '1 cm'
 ```
 
-And let\'s also add some code to recompute the document automatically. Add the following line above the `return()` statement in the `create()` method    *
+And let\'s also add some code to recompute the document automatically. Add the following line above the `return()` statement in the `create()` method :
 
  
 ```python
@@ -287,21 +287,21 @@ App.ActiveDocument.recompute()
 
  ![ right](images/fpo_box_properties.png ) 
 
-Now, test your changes as follows   *
+Now, test your changes as follows:
 
 -   Save your changes and reload your module.
 -   Delete all objects in the Tree view.
 -   Create a new box object from the Python console by calling `box.create('myBox')`.
 
-Once the box is created and you\'ve checked to make sure it has been recomputed, select the object and look at its properties. You should note two things   *
+Once the box is created and you\'ve checked to make sure it has been recomputed, select the object and look at its properties. You should note two things:
 
--   A new property group   * *Dimensions*.
--   Three new properties   * *Height*, *Length* and *Width*.
+-   A new property group: *Dimensions*.
+-   Three new properties: *Height*, *Length* and *Width*.
 
 Note also how the properties have units. More specifically, they have taken on the linear units set in the user preferences (**Edit → Preference... → General → Units**). 
 
 
-No doubt you noticed that three different values were entered for the dimensions   * a floating-point value (`10.0`) and two different strings (`'10 mm'` and `'1 cm'`). The `App   *   *PropertyLength` type assumes floating-point values are in millimeters, string values are parsed according to the units specified, and in the GUI all values are converted to the units specified in the user preferences (`mm` in the image). This built-in behavior makes the `App   *   *PropertyLength` type ideal for dimensions.
+No doubt you noticed that three different values were entered for the dimensions: a floating-point value (`10.0`) and two different strings (`'10 mm'` and `'1 cm'`). The `App::PropertyLength` type assumes floating-point values are in millimeters, string values are parsed according to the units specified, and in the GUI all values are converted to the units specified in the user preferences (`mm` in the image). This built-in behavior makes the `App::PropertyLength` type ideal for dimensions.
 
 [top](#top.md)
 
@@ -311,19 +311,19 @@ The last element required for a basic FeaturePython object is event trapping. A 
 
 For a complete reference of methods available to implement on FeautrePython classes, see [FeaturePython methods](FeaturePython_methods.md).
 
-Add the following after the `__init__()` function   *
+Add the following after the `__init__()` function:
 
  
 ```python
-def execute(self, obj)   *
+def execute(self, obj):
     """
     Called on document recompute
     """
 
-    print('Recomputing {0   *s} ({1   *s})'.format(obj.Name, self.Type))
+    print('Recomputing {0:s} ({1:s})'.format(obj.Name, self.Type))
 ```
 
-Test the code by again following these steps   *
+Test the code by again following these steps:
 
 -   Save and reload the module.
 -   Delete all objects.
@@ -341,12 +341,12 @@ That\'s it, you now know how to build a basic, functional FeaturePython object!
 ```python
 import FreeCAD as App
 
-def create(obj_name)   *
+def create(obj_name):
     """
     Object creation method
     """
 
-    obj = App.ActiveDocument.addObject('App   *   *FeaturePython', obj_name)
+    obj = App.ActiveDocument.addObject('App::FeaturePython', obj_name)
 
     box(obj)
 
@@ -354,9 +354,9 @@ def create(obj_name)   *
 
     return obj
 
-class box()   *
+class box():
 
-    def __init__(self, obj)   *
+    def __init__(self, obj):
         """
         Default constructor
         """
@@ -365,27 +365,20 @@ class box()   *
 
         obj.Proxy = self
 
-        obj.addProperty('App   *   *PropertyString', 'Description', 'Base', 'Box description').Description = ""
-        obj.addProperty('App   *   *PropertyLength', 'Length', 'Dimensions', 'Box length').Length = 10.0
-        obj.addProperty('App   *   *PropertyLength', 'Width', 'Dimensions', 'Box width').Width = '10 mm'
-        obj.addProperty('App   *   *PropertyLength', 'Height', 'Dimensions', 'Box height').Height = '1 cm'
+        obj.addProperty('App::PropertyString', 'Description', 'Base', 'Box description').Description = ""
+        obj.addProperty('App::PropertyLength', 'Length', 'Dimensions', 'Box length').Length = 10.0
+        obj.addProperty('App::PropertyLength', 'Width', 'Dimensions', 'Box width').Width = '10 mm'
+        obj.addProperty('App::PropertyLength', 'Height', 'Dimensions', 'Box height').Height = '1 cm'
 
-    def execute(self, obj)   *
+    def execute(self, obj):
         """
         Called on document recompute
         """
 
-        print('Recomputing {0   *s} ({1   *s})'.format(obj.Name, self.Type))
+        print('Recomputing {0:s} ({1:s})'.format(obj.Name, self.Type))
 ```
 
 [top](#top.md)
-
-
-
-
-  
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

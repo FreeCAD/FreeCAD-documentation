@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *FEM MeshClear
-   MenuLocation   *Context menu on mesh object → Clear FEM mesh
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM MeshClear
+   MenuLocation:Context menu on mesh object → Clear FEM mesh
+   Workbenches:[FEM](FEM_Workbench.md)
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MeshClear
@@ -14,7 +14,7 @@ Enables the user to reiniitialize the mesh from the FreeCAD FEM mesh object. The
 
 ## Usage
 
-1.  Right-click a <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *16px;"> [Netgen](FEM_MeshNetgenFromShape.md) or <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *16px;"> [Gmsh](FEM_MeshGmshFromShape.md) FEM mesh object in the [Tree view](Tree_view.md).
+1.  Right-click a <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [Netgen](FEM_MeshNetgenFromShape.md) or <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [Gmsh](FEM_MeshGmshFromShape.md) FEM mesh object in the [Tree view](Tree_view.md).
 2.  Select the **<img src="images/FEM_MeshClear.svg" width=16px> Clear FEM mesh** option from the context menu.
 
 ## Notes

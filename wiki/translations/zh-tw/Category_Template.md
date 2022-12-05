@@ -3,8 +3,6 @@ This category contains all the Templates
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
-[Category   *Categories/zh-tw](Category   *Categories/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

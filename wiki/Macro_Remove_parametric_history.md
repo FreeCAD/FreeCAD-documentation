@@ -7,14 +7,14 @@
 |Version=1.0
 |Date=2011-08-01
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/b/b7/Macro_Remove_parametric_history.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/b/b7/Macro_Remove_parametric_history.png ToolBar Icon]
 }}
 
 ## Description
 
 This will remove all parametric associativity from an object, leaving it as a \"dumb\" shape
 
-Before and after   *
+Before and after:
 
 ![](images/RPH_before.png )
 
@@ -35,7 +35,7 @@ originalObject = FreeCAD.ActiveDocument.ActiveObject
 newShape = originalObject.Shape.copy()
 newName = FreeCAD.ActiveDocument.ActiveObject.Name
 FreeCAD.ActiveDocument.removeObject(newName)
-newObject = FreeCAD.ActiveDocument.addObject("Part   *   *Feature",newName)
+newObject = FreeCAD.ActiveDocument.addObject("Part::Feature",newName)
 newObject.Shape = newShape
 
 }}

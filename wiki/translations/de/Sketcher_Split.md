@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher Split
-   Name/de   *Sketcher Teilen
-   MenuLocation   *Sketch → Skizzengeometrien → Kante teilen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***G** **Z**
-   Version   *0.20
-   SeeAlso   *[Sketcher Zuschneiden](Sketcher_Trimming/de.md)
+- GuiCommand:/de
+   Name:Sketcher Split
+   Name/de:Sketcher Teilen
+   MenuLocation:Sketch → Skizzengeometrien → Kante teilen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **Z**
+   Version:0.20
+   SeeAlso:[Sketcher Zuschneiden](Sketcher_Trimming/de.md)
 ---
 
 # Sketcher Split/de
@@ -19,7 +19,7 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 
 ## Anwendung
 
-1.  Die Schaltfläche **[<img src=images/Sketcher_Split.svg style="width   *16px"> [Kante teilen](Sketcher_Split/de.md)** drücken. Der Mauszeiger verwandelt sich in ein weißes Kreuz mit einem roten Teilen-Symbol.
+1.  Die Schaltfläche **[<img src=images/Sketcher_Split.svg style="width:16px"> [Kante teilen](Sketcher_Split/de.md)** drücken. Der Mauszeiger verwandelt sich in ein weißes Kreuz mit einem roten Teilen-Symbol.
 2.  An der Stelle auf eine Kante klicken, an der sie geteilt werden soll.
 3.  Aus den Linien- und Bogenkanten werden zwei neue erstellt, die an dem angeklickten Punkt verbunden werden. Ein Kreis wird in einen Bogen umgewandelt, der denselben Mittelpunkt und dieselben Randbedingungen wie der ursprüngliche Kreis hat.
 4.  Durch Drücken von **Esc** oder der rechten Maustaste wird die Funktion beendet.

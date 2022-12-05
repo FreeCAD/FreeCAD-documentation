@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM ConstraintPressure
-   Name/ru   *FEM ConstraintPressure
-   MenuLocation   *Model → Mechanical Constraints → Constraint pressure
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   SeeAlso   *[FEM Constraint force](FEM_ConstraintForce/ru.md)
+- GuiCommand:/ru
+   Name:FEM ConstraintPressure
+   Name/ru:FEM ConstraintPressure
+   MenuLocation:Model → Mechanical Constraints → Constraint pressure
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   SeeAlso:[FEM Constraint force](FEM_ConstraintForce/ru.md)
 ---
 
 # FEM ConstraintPressure/ru
@@ -18,7 +18,7 @@ Applies a pressure constraint to a face.
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintPressure.svg" width=16px> [FEM ConstraintPressure](FEM_ConstraintPressure.md)** button.
     -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintPressure.svg" width=16px> Constraint pressure** option from the menu.
 2.  Click on **Add reference** and select face in the [3D view](3D_view.md).
@@ -29,7 +29,7 @@ Applies a pressure constraint to a face.
 
 -   Distribution of pressure on face is always uniform and always perpendicular to face.
 
--   Pressure on faces   * <https   *//github.com/FreeCAD/FreeCAD/issues/5699>
+-   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

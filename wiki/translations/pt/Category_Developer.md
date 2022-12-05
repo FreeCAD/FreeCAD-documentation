@@ -1,8 +1,6 @@
 # Category:Developer/pt
 This category contains articles that are relevant for developers.
 
-[Category   *Categories/pt](Category   *Categories/pt.md)
-
 ### Contents
 
 |     |     |     |

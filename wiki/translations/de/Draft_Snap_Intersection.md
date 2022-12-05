@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Intersection
-   Name/de   *Draft Schnittpunkt
-   MenuLocation   *Entwurf → [Fang](Draft_Snap/de.md) → Schnittpunkt
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)
+- GuiCommand:/de
+   Name:Draft Snap Intersection
+   Name/de:Draft Schnittpunkt
+   MenuLocation:Entwurf → [Fang](Draft_Snap/de.md) → Schnittpunkt
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Intersection/de
@@ -22,7 +22,7 @@ Diese Methode fängt am Schnittpunkt zweier Linien oder Bogensegmente.
 
 </div>
 
-This snap option will also find apparent intersections of (extended) straight edges if <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *16px;"> [Draft Snap WorkingPlane](Draft_Snap_WorkingPlane.md) is active as well.
+This snap option will also find apparent intersections of (extended) straight edges if <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [Draft Snap WorkingPlane](Draft_Snap_WorkingPlane.md) is active as well.
 
 ![](images/Draft_Snap_Intersection_example.png )
 

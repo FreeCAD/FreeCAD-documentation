@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Draft Snap Center
-   Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation   *Draft → [Snap](Draft_Snap.md) → Center
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:
+   Name:Draft Snap Center
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft → [Snap](Draft_Snap.md) → Center
+   Shortcut:
+   SeeAlso:
 ---
 
 # Draft Snap Center/ro
@@ -19,7 +19,7 @@
 
 ### Descriere
 
-Ancorează la punctul de centru arce de cerc și cercuri. <img alt="" src=images/Draft_Snap_Center.png  style="width   *400px;">
+Ancorează la punctul de centru arce de cerc și cercuri. <img alt="" src=images/Draft_Snap_Center.png  style="width:400px;">
 
 
 </div>

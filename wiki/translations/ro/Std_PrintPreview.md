@@ -1,6 +1,6 @@
 # Std PrintPreview/ro
 ---
-- GuiCommand   */ro   Name   *Std PrintPreview   Name/ro   *Previzualizare tipărire   Workbenches   *All   MenuLocation   *[Shortcut   *Ctrl+P   SeeAlso   *[[Std Print/ro|Imprimare](Std_File_Menu/ro___File]]_→_Previzualizare_tipărire_.md)---
+- GuiCommand:/ro   Name:Std PrintPreview   Name/ro:Previzualizare tipărire   Workbenches:All   MenuLocation:[Shortcut:Ctrl+P   SeeAlso:[[Std Print/ro|Imprimare](Std_File_Menu/ro___File]]_→_Previzualizare_tipărire_.md)---
 
 
 </div>
@@ -18,7 +18,7 @@ Această funcție vă permite să definiți aspectul paginii care va fi tipărit
 
 ### Utilizare
 
--   Porniți funcția pentru a deschide următorul dialog   *
+-   Porniți funcția pentru a deschide următorul dialog:
 
 ![](images/PrintPreview1.png ) 
 

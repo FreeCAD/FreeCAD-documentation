@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher Fillets
-   Name/de   *Sketcher AuswahlVerrundungErstellen
-   Icon   *Sketcher_CompCreateFillets.png
-   MenuLocation   *Nur Symbolleiste
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Version   *0.19
+- GuiCommand:/de
+   Name:Sketcher Fillets
+   Name/de:Sketcher AuswahlVerrundungErstellen
+   Icon:Sketcher_CompCreateFillets.png
+   MenuLocation:Nur Symbolleiste
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Version:0.19
 ---
 
 # Sketcher CompCreateFillets/de
@@ -16,9 +16,9 @@
 
 ## Verrundungsarten
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Verrundung](Sketcher_CreateFillet/de.md)   * Erstellt einen Bogen zwischen zwei nicht parallelen Linien.
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Verrundung](Sketcher_CreateFillet/de.md): Erstellt einen Bogen zwischen zwei nicht parallelen Linien.
 
--   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Eckenerhaltende Verrundung erstellen](Sketcher_CreatePointFillet/de.md)   * Erstell einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr (virtueller) Schnittpunkt erhalten bleibt.
+-   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Eckenerhaltende Verrundung erstellen](Sketcher_CreatePointFillet/de.md): Erstell einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr (virtueller) Schnittpunkt erhalten bleibt.
 
 
 

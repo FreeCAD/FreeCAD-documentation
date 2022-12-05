@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2014-09-09
 |FCVersion=All
-|Download=The File [http   *//forum.freecadweb.org/download/file.php?id=7628 20140908b_Hinge-1.fcstd]<br />[https   *//www.freecadweb.org/wiki/images/a/a8/Macro_hinge.png ToolBar Icon]
+|Download=The File [http://forum.freecadweb.org/download/file.php?id=7628 20140908b_Hinge-1.fcstd]<br />[https://www.freecadweb.org/wiki/images/a/a8/Macro_hinge.png ToolBar Icon]
 }}
 
 ## Description
@@ -18,13 +18,13 @@ Simulation de pivotement d\'une charnière
 
 ## Utilisation
 
-Ouvrez les deux fichiers (20140908b_Hinge-1.FCMacro et 20140908b_Hinge-1.FCStd) dans FreeCAD avec 2 écrans (Menu   * Fenêtre \> Mosaïque) et lancez la macro ou lancez la macro avec le bouton ![](images/Std_DlgMacroExecuteDirect.svg )
+Ouvrez les deux fichiers (20140908b_Hinge-1.FCMacro et 20140908b_Hinge-1.FCStd) dans FreeCAD avec 2 écrans (Menu: Fenêtre \> Mosaïque) et lancez la macro ou lancez la macro avec le bouton ![](images/Std_DlgMacroExecuteDirect.svg )
 
-<img alt="Charnière" src=images/Hing_01.png  style="width   *300px;">
+<img alt="Charnière" src=images/Hing_01.png  style="width:300px;">
 
 ## Le Fichier 
 
-[20140908b_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
+[20140908b_Hinge-1.fcstd](http://forum.freecadweb.org/download/file.php?id=7628)
 
 ## Script
 
@@ -40,13 +40,13 @@ import time
 
 ii = 0
 pas = 0
-for ii2 in range(180)   *
-    if pas == 0   *
-        if ii > 90   *
+for ii2 in range(180):
+    if pas == 0:
+        if ii > 90:
             pas = 1
         ii += 5
-    else   *
-        if ii < 1   *
+    else:
+        if ii < 1:
             pas = 0
         ii -= 5
    
@@ -59,7 +59,7 @@ for ii2 in range(180)   *
 
 ## Liens
 
-La page de discussion sur le forum [Struggling with LinearPattern (again)](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
+La page de discussion sur le forum [Struggling with LinearPattern (again)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
 
 
 

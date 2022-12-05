@@ -1,6 +1,6 @@
 # Sketcher CreateHexagon/es
 ---
-- GuiCommand   */es   Name   *Sketcher CreateHexagon   Name/es   *Sketcher CreateHexagon   Workbenches   *[[Sketcher Workbench/es   Sketcher]]|MenuLocation   *Sketch → Sketcher geometries → Create hexagon   Shortcut   *   SeeAlso   *---
+- GuiCommand:/es   Name:Sketcher CreateHexagon   Name/es:Sketcher CreateHexagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create hexagon   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -13,7 +13,7 @@ Draws an hexagon inscribed in a construction geometry circle. When starting the 
 
 ## Usage
 
--   After pressing the **[<img src=images/Sketcher_CreateHexagon.svg style="width   *16px"> [Create hexagon](Sketcher_CreateHexagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
+-   After pressing the **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Create hexagon](Sketcher_CreateHexagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 ## Notes

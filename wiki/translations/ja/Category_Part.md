@@ -1,8 +1,6 @@
 # Category:Part/ja
 This category lists pages related to the [Part Workbench/ja](Part_Workbench/ja.md).
 
-[Category   *Workbenches/ja](Category   *Workbenches/ja.md)
-
 ### Contents
 
 |     |     |     |

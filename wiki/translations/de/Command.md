@@ -6,7 +6,7 @@
 
 Ein [Befehl](Command/de.md) ist das, was ausgeführt wird, wenn Du eine Werkzeugleisten Schaltfläche oder einen Tastenkürzel eingibst. Es kann eine sehr einfache Handlung sein, wie den Zoomfaktor in der [3D Ansicht](3D_view/de.md) ändern oder das Drehen des Blickwinkels, oder ein komplexes System, das Dialogfenster öffnet und darauf wartet, dass der Benutzer bestimmte Aufgaben ausführt.
 
-Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der in der [Liste aller Befehle](   *Category   *Command_Reference/de.md)-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem [Python](Python/de.md)-Skript oder der [Python Konsole](Python_console/de.md), ausgeführt werden   *
+Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der in der [Liste aller Befehle](:Category:Command_Reference/de.md)-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem [Python](Python/de.md)-Skript oder der [Python Konsole](Python_console/de.md), ausgeführt werden:
 
 
 ```python
@@ -29,8 +29,8 @@ Beispiel einer C++ Befehlsdefinition, in der Regel definiert nach der Struktur *
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
 
-StdCmdMyCommand   *   *StdCmdMyCommand()
-     * Command("Std_My_Command")
+StdCmdMyCommand::StdCmdMyCommand()
+  : Command("Std_My_Command")
 {
     sGroup        = QT_TR_NOOP("File");
     sMenuText     = QT_TR_NOOP("My Command");
@@ -41,18 +41,18 @@ StdCmdMyCommand   *   *StdCmdMyCommand()
     sAccel        = "Ctrl+A";
 }
 
-void StdCmdExport   *   *activated(int iMsg)
+void StdCmdExport::activated(int iMsg)
 {
     // place here the code to be executed when the command is ran
 }
 
-bool StdCmdMyCommand   *   *isActive(void)
+bool StdCmdMyCommand::isActive(void)
 {
     // here you have a chance to return true or false depending if your command must be shown as active or inactive (greyed).
 }
 
 // the command must be "registered" in FreeCAD's command system
-CommandManager &rcCmdMgr = Application   *   *Instance->commandManager();
+CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
@@ -63,25 +63,25 @@ Beispiel für eine Python Befehlsdefinition, sie kann in einem Verzeichnis wie *
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 
-class MyCommand   *
+class MyCommand:
     """Explanation of the command."""
 
-    def __init__(self)   *
+    def __init__(self):
         """Initialize variables for the command that must exist at all times."""
         pass
 
-    def GetResources(self)   *
+    def GetResources(self):
         """Return a dictionary with data that will be used by the button or menu item."""
-        return {'Pixmap'   * 'MyCommand.svg',
-                'Accel'   * "Ctrl+A",
-                'MenuText'   * QT_TRANSLATE_NOOP("My_Command", "My Command"),
-                'ToolTip'   * QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
+        return {'Pixmap': 'MyCommand.svg',
+                'Accel': "Ctrl+A",
+                'MenuText': QT_TRANSLATE_NOOP("My_Command", "My Command"),
+                'ToolTip': QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
 
-    def Activated(self)   *
+    def Activated(self):
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def IsActive(self)   *
+    def IsActive(self):
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 
@@ -92,11 +92,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 ## Beispiele
 
 Siehe [Linienzeichungsfunktion](Line_drawing_function/de.md).
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

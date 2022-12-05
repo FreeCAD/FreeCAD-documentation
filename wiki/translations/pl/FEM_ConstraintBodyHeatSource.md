@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *FEM ConstraintBodyHeatSource
-   MenuLocation   *Model → Thermal Constraints → Constraint body heat source
-   Workbenches   *[FEM](FEM_Workbench.md)
-   Version   *0.19
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+- GuiCommand:
+   Name:FEM ConstraintBodyHeatSource
+   MenuLocation:Model → Thermal Constraints → Constraint body heat source
+   Workbenches:[FEM](FEM_Workbench.md)
+   Version:0.19
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintBodyHeatSource/pl
@@ -16,29 +16,29 @@ Definiuje wewnętrznie wytworzone ciepło ciała podane w W/kg.
 ## Użycie
 
 1.  Either press the **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> '''FEM ConstraintBodyHeatSource'''** or select the menu **Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Constraint body heat source**.
-2.  Set the value   *
+2.  Set the value:
     -   
         <small>(v1.0)</small> 
         
-           * For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face.
+        : For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face.
 
     -   
         {{VersionMinus|0.20}}
         
-           * Since the constraint has no task dialog, use the [property editor](Property_editor.md) and set the property **Heat Source**.
+        : Since the constraint has no task dialog, use the [property editor](Property_editor.md) and set the property **Heat Source**.
 
 ## Limitation
 
 
 {{VersionMinus|0.20}}
 
-   * The body heat source is applied to the whole model, meaning all bodies of the setup. It is not possible to select an individual body.
+: The body heat source is applied to the whole model, meaning all bodies of the setup. It is not possible to select an individual body.
 
 ## Uwagi
 
 -   To wiązanie działa tylko z solverem Elmer.
--   Więcej informacji można znaleźć w [tym wątku forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) i następujących postach. [Ten wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=28926) może być również przydatny.
--   Przykłady z Elmera można również znaleźć w poradniku [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf).
+-   Więcej informacji można znaleźć w [tym wątku forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) i następujących postach. [Ten wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=28926) może być również przydatny.
+-   Przykłady z Elmera można również znaleźć w poradniku [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf).
 
 
 

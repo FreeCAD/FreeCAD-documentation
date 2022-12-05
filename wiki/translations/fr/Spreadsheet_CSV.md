@@ -1,18 +1,13 @@
 # Spreadsheet CSV/fr
-Le[format CSV](https   *//fr.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) est un format texte brut pour échanger des données de tableur. Il peut généralement être importé et exporté par n\'importe quel tableur tel que LibreOffice ou Microsoft Excel. La lecture et l\'écriture au format csv se fait avec le module csv intégré dans Python [module csv](http   *//docs.python.org/2/library/csv.html).
+Le[format CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) est un format texte brut pour échanger des données de tableur. Il peut généralement être importé et exporté par n\'importe quel tableur tel que LibreOffice ou Microsoft Excel. La lecture et l\'écriture au format csv se fait avec le module csv intégré dans Python [module csv](http://docs.python.org/2/library/csv.html).
 
 ## Importation
 
-L\'importation d\'un fichier.csv dans FreeCAD crée un objet <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *16px;"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md) puis le remplit avec les valeurs du fichier.
+L\'importation d\'un fichier.csv dans FreeCAD crée un objet <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md) puis le remplit avec les valeurs du fichier.
 
 ## Exportation
 
-L\'exportation d\'un objet <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *16px;"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md) vers un fichier.csv écrit simplement toutes les valeurs de l\'objet feuille de calcul. Les fonctions, telles que =A3+B5 sont écrites en tant que fonctions et non en tant que valeurs résultantes.
-
-
- 
-
-[Category   *User_Documentation](Category_User_Documentation.md) [Category   *Spreadsheet](Category_Spreadsheet.md) [Category   *File_Formats](Category_File_Formats.md)
+L\'exportation d\'un objet <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md) vers un fichier.csv écrit simplement toutes les valeurs de l\'objet feuille de calcul. Les fonctions, telles que =A3+B5 sont écrites en tant que fonctions et non en tant que valeurs résultantes.
 
 
 

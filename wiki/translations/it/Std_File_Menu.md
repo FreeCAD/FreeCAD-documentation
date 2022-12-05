@@ -1,11 +1,11 @@
-# <img alt="Icona di base" src=images/Freecad.svg  style="width   *64px;"> Std File Menu/it
+# <img alt="Icona di base" src=images/Freecad.svg  style="width:64px;"> Std File Menu/it
 
 
 {{TOCright}}
 
 ## Introduzione
 
-Il menu **File** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md)   *
+Il menu **File** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
 
 
 {{StdMenu
@@ -32,27 +32,19 @@ Il menu File fornisce strumenti relativi all\'input e all\'output del file.
 
 <div class="mw-translate-fuzzy">
 
-In questo menu sono disponibili i seguenti strumenti   *
+In questo menu sono disponibili i seguenti strumenti:
 
--   <img alt="" src=images/Std_New.svg  style="width   *32px;"> [Nuovo](Std_New/it.md)   * crea un nuovo documento di FreeCAD.
-
-
-</div>
-
--   <img alt="" src=images/Std_New.svg  style="width   *32px;"> [New](Std_New.md)   * Creates a new empty document.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_Open.svg  style="width   *32px;"> [Apri\...](Std_Open/it.md)   * apre un documento o importa i file.
+-   <img alt="" src=images/Std_New.svg  style="width:32px;"> [Nuovo](Std_New/it.md): crea un nuovo documento di FreeCAD.
 
 
 </div>
 
+-   <img alt="" src=images/Std_New.svg  style="width:32px;"> [New](Std_New.md): Creates a new empty document.
+
 
 <div class="mw-translate-fuzzy">
 
--   [Chiudi](Std_Close/it.md)   * chiude la finestra e il documento attivo.
+-   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Apri\...](Std_Open/it.md): apre un documento o importa i file.
 
 
 </div>
@@ -60,19 +52,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Chiudi tutto](Std_CloseAll/it.md)   * chiude tutte le finesttre e tutti i documenti aperti.
-
-
-</div>
-
--   <img alt="" src=images/Std_Save.svg  style="width   *32px;"> [Salva](Std_Save/it.md)   * salva il documento attivo.
-
--   <img alt="" src=images/Std_SaveAs.svg  style="width   *32px;"> [Salva con nome\...](Std_SaveAs/it.md)   * salva con un nuovo nome il documento attivo.
-
-
-<div class="mw-translate-fuzzy">
-
--   [Salva una copia\...](Std_SaveaCopy/it.md)   * salva una copia del documento con un nuovo nome file
+-   [Chiudi](Std_Close/it.md): chiude la finestra e il documento attivo.
 
 
 </div>
@@ -80,7 +60,19 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Salva tutto](Std_SaveAll/it.md)   * salva tutti i documenti aperti.
+-   [Chiudi tutto](Std_CloseAll/it.md): chiude tutte le finesttre e tutti i documenti aperti.
+
+
+</div>
+
+-   <img alt="" src=images/Std_Save.svg  style="width:32px;"> [Salva](Std_Save/it.md): salva il documento attivo.
+
+-   <img alt="" src=images/Std_SaveAs.svg  style="width:32px;"> [Salva con nome\...](Std_SaveAs/it.md): salva con un nuovo nome il documento attivo.
+
+
+<div class="mw-translate-fuzzy">
+
+-   [Salva una copia\...](Std_SaveaCopy/it.md): salva una copia del documento con un nuovo nome file
 
 
 </div>
@@ -88,7 +80,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Ripristina](Std_Revert/it.md)   * ripristina la versione salvata del documento.
+-   [Salva tutto](Std_SaveAll/it.md): salva tutti i documenti aperti.
 
 
 </div>
@@ -96,7 +88,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Importa\...](Std_Import/it.md)   * importa un file nel documento.
+-   [Ripristina](Std_Revert/it.md): ripristina la versione salvata del documento.
 
 
 </div>
@@ -104,7 +96,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Esporta\...](Std_Export/it.md)   * esporta gli oggetti dal documento.
+-   [Importa\...](Std_Import/it.md): importa un file nel documento.
 
 
 </div>
@@ -112,28 +104,36 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 <div class="mw-translate-fuzzy">
 
--   [Unisci progetti\...](Std_MergeProjects/it.md)   * aggiunge al documento gli oggetti da un file FreeCAD.
+-   [Esporta\...](Std_Export/it.md): esporta gli oggetti dal documento.
 
 
 </div>
-
--   <img alt="" src=images/Std_ProjectInfo.svg  style="width   *32px;"> [Informazioni sul progetto\...](Std_ProjectInfo/it.md)   * mostra i dettagli del documento.
-
--   <img alt="" src=images/Std_Print.svg  style="width   *32px;"> [Stampa\...](Std_Print/it.md)   * stampa il documento.
-
--   <img alt="" src=images/Std_PrintPreview.svg  style="width   *32px;"> [Anteprima di stampa\...](Std_PrintPreview/it.md)   * mostra un\'anteprima di stampa.
 
 
 <div class="mw-translate-fuzzy">
 
--   [Esporta PDF\...](Std_PrintPdf/it.md)   * esporta il documento in un file pdf.
+-   [Unisci progetti\...](Std_MergeProjects/it.md): aggiunge al documento gli oggetti da un file FreeCAD.
 
 
 </div>
 
--   [File recenti](Std_RecentFiles/it.md)   * mostra l\'elenco dei file recenti.
+-   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Informazioni sul progetto\...](Std_ProjectInfo/it.md): mostra i dettagli del documento.
 
--   <img alt="" src=images/Std_Quit.svg  style="width   *32px;"> [Esci](Std_Quit/it.md)   * esce dall\'applicazione.
+-   <img alt="" src=images/Std_Print.svg  style="width:32px;"> [Stampa\...](Std_Print/it.md): stampa il documento.
+
+-   <img alt="" src=images/Std_PrintPreview.svg  style="width:32px;"> [Anteprima di stampa\...](Std_PrintPreview/it.md): mostra un\'anteprima di stampa.
+
+
+<div class="mw-translate-fuzzy">
+
+-   [Esporta PDF\...](Std_PrintPdf/it.md): esporta il documento in un file pdf.
+
+
+</div>
+
+-   [File recenti](Std_RecentFiles/it.md): mostra l\'elenco dei file recenti.
+
+-   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Esci](Std_Quit/it.md): esce dall\'applicazione.
 
 
 
@@ -141,9 +141,7 @@ In questo menu sono disponibili i seguenti strumenti   *
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

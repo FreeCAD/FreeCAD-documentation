@@ -1,6 +1,6 @@
 # Sketcher SelectVerticalAxis/it
 ---
-- GuiCommand   */it   Name   *Sketcher SelectVerticalAxis   Name/it   *Seleziona Asse Y   Workbenches   *[[Sketcher Workbench/it   Sketcher]]|MenuLocation   *Sketch → Strumenti → Seleziona l'asse verticale   Shortcut   ***Maiusc**+**Ctrl**+**V**   Version   *0.15---
+- GuiCommand:/it   Name:Sketcher SelectVerticalAxis   Name/it:Seleziona Asse Y   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona l'asse verticale   Shortcut:**Maiusc**+**Ctrl**+**V**   Version:0.15---
 
 
 </div>

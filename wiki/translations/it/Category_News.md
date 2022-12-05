@@ -3,8 +3,6 @@
 
 Questa categoria contiene gli articoli con notizie e informazioni relative a FreeCAD.
 
-[Category   *Categories/it](Category   *Categories/it.md)
-
 ### Contents
 
 |     |     |     |

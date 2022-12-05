@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Mesh SplitComponents
-   Name/fr   *Mesh Éclater par composants
-   MenuLocation   *Maillages → Éclater par composants
-   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso   *[Mesh Fusionner](Mesh_Merge/fr.md)
+- GuiCommand:/fr
+   Name:Mesh SplitComponents
+   Name/fr:Mesh Éclater par composants
+   MenuLocation:Maillages → Éclater par composants
+   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso:[Mesh Fusionner](Mesh_Merge/fr.md)
 ---
 
 # Mesh SplitComponents/fr
@@ -16,14 +16,14 @@ La commande **Mesh Éclater par composants** divise un objet maillé en ses comp
 ## Utilisation
 
 1.  Sélectionnez un seul objet maillé.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_SplitComponents.svg" width=16px> [Eclater par composants](Mesh_SplitComponents/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SplitComponents.svg" width=16px> Eclater par composants** dans le menu.
 
 ## Propriétés
 
-Voir   * [Mesh Feature](Mesh_Feature/fr.md).
+Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

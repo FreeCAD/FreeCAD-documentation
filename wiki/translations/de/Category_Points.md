@@ -1,8 +1,6 @@
 # Category:Points/de
 This category lists pages related to the [Points Workbench/de](Points_Workbench/de.md).
 
-[Category   *Workbenches/de](Category   *Workbenches/de.md)
-
 ### Contents
 
 |     |     |     |

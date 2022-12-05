@@ -1,5 +1,5 @@
 ---
-- TutorialInfo   */it   Topic   *Programmazione   Level   *Medio   Time   *15 minuti   FCVersion   *Tutte   Author   *[[User   *R-Frank   r-frank]]|Files   *none
+- TutorialInfo:/it   Topic:Programmazione   Level:Medio   Time:15 minuti   FCVersion:Tutte   Author:[[User:R-Frank   r-frank]]|Files:none
 ---
 
 # How to install additional workbenches/it
@@ -16,9 +16,9 @@ Gli utenti esperti hanno esteso FreeCAD con vari [ambienti di lavoro esterni](ex
 <div class="mw-translate-fuzzy">
 
 
-**Nota   ***
+**Nota:**
 
-a partire dalla versione 0.17, FreeCAD include un <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr/it.md) nel menu **Strumenti → Addon manager**, che permette di installare sia macro che ambienti di lavoro. Le istruzioni seguenti sono necessarie solo si desidera installare manualmente un ambiente. Ciò potrebbe essere necessario se per qualche motivo Addon Manager non funziona ma si ha accesso all\'ambiente scaricato come pacchetto **.zip**.
+a partire dalla versione 0.17, FreeCAD include un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md) nel menu **Strumenti → Addon manager**, che permette di installare sia macro che ambienti di lavoro. Le istruzioni seguenti sono necessarie solo si desidera installare manualmente un ambiente. Ciò potrebbe essere necessario se per qualche motivo Addon Manager non funziona ma si ha accesso all\'ambiente scaricato come pacchetto **.zip**.
 
 
 </div>
@@ -39,17 +39,17 @@ Come installare ulteriori ambienti e componenti aggiuntivi su Windows
 <div class="mw-translate-fuzzy">
 
 
-**Note   ***
+**Note:**
 
 l\'uso di \"addons-installer\" non è più consigliato. Si consiglia di utilizzare [Addon Manager](Std_AddonMgr/it.md) in tutti i sistemi.
 
 
 </div>
 
-Usare [addons-installer da Github](https   *//github.com/FreeCAD/FreeCAD-addons).
+Usare [addons-installer da Github](https://github.com/FreeCAD/FreeCAD-addons).
 
 Durante il Google Summer of Code 2016 lo studente Mandeep Singh ha iniziato a lavorare su una versione migliore
-([disponibile qui](https   *//github.com/mandeeps708/PluginManager)) ma tale versione necessita di ulteriori lavori prima di poter essere completamente integrata in FreeCAD.
+([disponibile qui](https://github.com/mandeeps708/PluginManager)) ma tale versione necessita di ulteriori lavori prima di poter essere completamente integrata in FreeCAD.
 
 ### Manual Install 
 
@@ -59,7 +59,7 @@ Durante il Google Summer of Code 2016 lo studente Mandeep Singh ha iniziato a la
 ### Installazione manuale 
 
 
-**Note   ***
+**Note:**
 
 Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
 
@@ -69,7 +69,7 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 -   Scaricare il workbench da github cliccando sul pulsante **Clone** o **Download** sulla pagina GitHub (in alto a destra) e scegliendo \"Download ZIP\"
 -   Decomprimere l\'archivio scaricato sul disco rigido locale
 -   All\'interno di FreeCAD, individuare il percorso delle macro scegliendo **Modifica > Preferenze > Generale > Macro** e vedere quale è il "Percorso Macro"
--   Supponendo che il vostro login di Windows sia "*User-Name*" il percorso predefinito delle macro è "C   *User-Name\\Appdata\\Roaming\\FreeCAD"
+-   Supponendo che il vostro login di Windows sia "*User-Name*" il percorso predefinito delle macro è "C:\\User-Name\\Appdata\\Roaming\\FreeCAD"
 -   All\'interno della directory delle macro creare (se non è ancora presente) una cartella chiamata "**Mod**"
 -   All\'interno della cartella Mod creare una cartella con il nome dell\'ambiente, ad esempio "Curves"
 -   Ora spostare i file decompressi e le sottocartelle del Workbench nella cartella dell\'ambiente appena creato
@@ -102,7 +102,7 @@ Come installare ulteriori ambienti e componenti aggiuntivi su Linux
 
 ### Usando git 
 
-Aggiungere il [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ubuntu/ppa) al ppa-manager.
+Aggiungere il [community-ppa](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) al ppa-manager.
 Installare gli ambienti tramite il gestore dei pacchetti synaptic.
 
 
@@ -113,10 +113,10 @@ Installare gli ambienti tramite il gestore dei pacchetti synaptic.
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
-$ git clone https   *//github.com/tomate44/CurvesWB.git
+$ git clone https://github.com/tomate44/CurvesWB.git
 ```
 
-Ora negli ambienti di FreeCAD ci dovrebbe essere una nuova voce denominata \"CurvesWB\". Una volta installato, utilizzare git per l\'aggiornamento alla versione più recente in questo modo   *
+Ora negli ambienti di FreeCAD ci dovrebbe essere una nuova voce denominata \"CurvesWB\". Una volta installato, utilizzare git per l\'aggiornamento alla versione più recente in questo modo:
 
 
 ```python
@@ -133,7 +133,7 @@ $ rm *.pyc
 ### Installazione manuale 
 
 
-**Note   ***
+**Note:**
 
 Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
 
@@ -173,7 +173,7 @@ Come installare ulteriori ambienti e componenti aggiuntivi su MacOS
 ### Installazione manuale 
 
 
-**Note   ***
+**Note:**
 
 Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
 
@@ -183,7 +183,7 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 
 <div class="mw-translate-fuzzy">
 
-Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) come ambieente esterno che da installare   *
+Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) come ambieente esterno che da installare:
 
 -   Scaricare il repository git come file ZIP
 -   Assumendo che FreeCAD sia installato in **/Applications/FreeCAD/v0.xx**, andare in **/Applications/FreeCAD/v0.xx** con il browser, e selezionare FreeCAD.app
@@ -208,12 +208,7 @@ Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) c
 -   Andare in **Strumenti → Personalizza → Ambienti** e assicurarsi che l\'ambiente non sia impostato su invisibile.
 -   Per i sistemi 32-bit e FreeCAD 0.16.6706, dopo un tentativo di installazione, gli ambienti aggiuntivi potrebbero non essere disponibili. In questo caso
     -   tenere aperto il [pannello Report](report_view/it.md) mentre si avvia FreeCAD, e leggere l\'errore,
-    -   vedere nel forum questa discussione   * [Assembly2 in Version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
-
-
- 
-
-[Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+    -   vedere nel forum questa discussione: [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
 

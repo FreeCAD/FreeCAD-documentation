@@ -1,6 +1,6 @@
 # Ship Tank/it
 ---
-- GuiCommand   */it   Name   *Ship TankNew   Name/it   *Nuovo serbatoio   MenuLocation   *Weights → Crea un nuovo serbatoio   |Workbenches   *[[Ship Workbench/it   Ship]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/it   Name:Ship TankNew   Name/it:Nuovo serbatoio   MenuLocation:Weights → Crea un nuovo serbatoio   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -23,14 +23,6 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 -   [Tutorial Ship s60, prima parte ](FreeCAD-Ship_s60_tutorial/it.md)
 -   [Tutorial Ship s60, seconda parte](FreeCAD-Ship_s60_tutorial_(II)/it.md)
-
-
-
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

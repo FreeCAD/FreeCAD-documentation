@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Std DlgMacroExecute
-   MenuLocation   *Macro → Macros...
-   Workbenches   *All
-   SeeAlso   *[Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)
+- GuiCommand:
+   Name:Std DlgMacroExecute
+   MenuLocation:Macro → Macros...
+   Workbenches:All
+   SeeAlso:[Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)
 ---
 
 # Std DlgMacroExecute/en
@@ -17,7 +17,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std DlgMacroExecute](Std_DlgMacroExecute.md)** button.
     -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
 2.  The Execute macro dialog box opens. See [Options](#Options.md).
@@ -32,7 +32,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ### System macros 
 
-   *   The **System macros** tab is not used at this time.
+:   The **System macros** tab is not used at this time.
 
 ### User macros location 
 
@@ -41,7 +41,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ### Execute
 
-1.  To execute a macro do one of the following   *
+1.  To execute a macro do one of the following:
     -   Select the macro in the list and press the **Execute** button.
     -   Double-click the macro in the list.
 2.  The dialog box closes.
@@ -102,7 +102,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

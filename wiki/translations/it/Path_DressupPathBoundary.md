@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Path DressupPathBoundary
-   MenuLocation   *Path → Path Dressup → Boundary Dressup
-   Workbenches   *[Path](Path_Workbench.md)
-   SeeAlso   *[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md)
+- GuiCommand:
+   Name:Path DressupPathBoundary
+   MenuLocation:Path → Path Dressup → Boundary Dressup
+   Workbenches:[Path](Path_Workbench.md)
+   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md)
 ---
 
 # Path DressupPathBoundary/it
@@ -15,7 +15,7 @@ Boundary dress-up allows restricting the extent of a path to a smaller part of t
 ## Usage
 
 1.  Select a path such as contour, profile or pocket operation
-2.  click the <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *16px;"> [Boundary Dress-up](Path_DressupPathBoundary.md) menu item
+2.  click the <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:16px;"> [Boundary Dress-up](Path_DressupPathBoundary.md) menu item
 
 ## Options
 

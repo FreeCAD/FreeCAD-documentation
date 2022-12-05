@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Draft2Sketch
-   Name/it   *Da Draft a Sketch
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Da Draft a Sketch
-   SeeAlso   *[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+- GuiCommand:/it
+   Name:Draft Draft2Sketch
+   Name/it:Da Draft a Sketch
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Da Draft a Sketch
+   SeeAlso:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
 ---
 
 # Draft Draft2Sketch/it
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Draft2Sketch.svg  style="width   *16px;"> [Da Draft a Sketch ](Draft_Draft2Sketch/it.md) converte gli [oggetti di Draft](Draft_Workbench/it.md) in [oggetti di Sketcher](Sketcher_Workbench/it.md), e viceversa.
+Lo strumento <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:16px;"> [Da Draft a Sketch ](Draft_Draft2Sketch/it.md) converte gli [oggetti di Draft](Draft_Workbench/it.md) in [oggetti di Sketcher](Sketcher_Workbench/it.md), e viceversa.
 
 
 </div>
@@ -65,7 +65,7 @@ La conversione di un oggetto che non può essere rappresentato con una combinazi
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -75,7 +75,7 @@ La conversione di un oggetto che non può essere rappresentato con una combinazi
 
 <div class="mw-translate-fuzzy">
 
-Convertire oggetti in schizzo   *
+Convertire oggetti in schizzo:
 
 
 </div>
@@ -85,7 +85,7 @@ Convertire oggetti in schizzo   *
 sketch = make_sketch(objects_list, autoconstraints=False, addTo=None, delete=False, name="Sketch", radiusPrecision=-1, tol=1e-3)
 ```
 
--    `objects_list`contains the objects to be converted. It is either a single object or a list of objects. `Draft` objects, `Part   *   *Feature` objects and `Part.Shape` objects are supported.
+-    `objects_list`contains the objects to be converted. It is either a single object or a list of objects. `Draft` objects, `Part::Feature` objects and `Part.Shape` objects are supported.
 
 -   If `autoconstraints` is `True` coincident constraints are added to nodes belonging to the same source object.
 
@@ -95,7 +95,7 @@ sketch = make_sketch(objects_list, autoconstraints=False, addTo=None, delete=Fal
 
 -    `name`is the name for the new sketch.
 
--    `radiusPrecision`indicates how radius constraints should be handled   *
+-    `radiusPrecision`indicates how radius constraints should be handled:
 
     -   Use `-1` to disable radius constraints.
     -   Use `0` to add individual radius constraints.
@@ -108,7 +108,7 @@ sketch = make_sketch(objects_list, autoconstraints=False, addTo=None, delete=Fal
 
 <div class="mw-translate-fuzzy">
 
-Convertire oggetti in Draft   *
+Convertire oggetti in Draft:
 
 
 </div>
@@ -120,11 +120,11 @@ draftify(objectslist, makeblock=False, delete=True)
 
 -    `objectslist`contains the objects to be converted. It is either a single object or a list of objects.
 
--   If `makeblock` is `True` the converted objects are grouped in a `Part   *   *Part2DObject`.
+-   If `makeblock` is `True` the converted objects are grouped in a `Part::Part2DObject`.
 
 -   If `delete` is `True` the source objects are deleted.
 
-Example   *
+Example:
 
 
 ```python

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Extrude
-   MenuLocation   *Part → Extrude
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
+- GuiCommand:
+   Name:Part Extrude
+   MenuLocation:Part → Extrude
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
 ---
 
 # Part Extrude/zh-cn
@@ -79,41 +79,41 @@
 
 <div class="mw-translate-fuzzy">
 
--   **Base**   * 输入的形状（挤型工具工作时要用到的基本形状）
+-   **Base**: 输入的形状（挤型工具工作时要用到的基本形状）
 
 
 </div>
 
--   **Dir**   * 挤型方向。如果**Dir Mode**为\'Custom\'，您就可以编辑**Dir**。 否则，**Dir**仅为只读，且根据连接形状（linked shape）开始计算。
+-   **Dir**: 挤型方向。如果**Dir Mode**为\'Custom\'，您就可以编辑**Dir**。 否则，**Dir**仅为只读，且根据连接形状（linked shape）开始计算。
 
 
 <div class="mw-translate-fuzzy">
 
--   **Dir Link**   * 以参数化的方式连接至一条边（线），从而设置挤型方向。自v0.17版起，属性编辑器中不在支持此属性。
+-   **Dir Link**: 以参数化的方式连接至一条边（线），从而设置挤型方向。自v0.17版起，属性编辑器中不在支持此属性。
 
 
 </div>
 
--   **Dir Mode**   * 设置如何控制**Dir**参数。\'Custom\'选项意味着**Dir**是可编辑的。\'Edge\'表示Dir要通过**Dir Link**根据一条待连接的边（线）来确定。而\'Normal\'则表示Dir正交于输入形状的所在平面。
+-   **Dir Mode**: 设置如何控制**Dir**参数。\'Custom\'选项意味着**Dir**是可编辑的。\'Edge\'表示Dir要通过**Dir Link**根据一条待连接的边（线）来确定。而\'Normal\'则表示Dir正交于输入形状的所在平面。
 
--   **Length Fwd**   * 挤型的距离。如果**Length Fwd**与**Length Rev**皆为0，则采用**Dir**向量的长度。
+-   **Length Fwd**: 挤型的距离。如果**Length Fwd**与**Length Rev**皆为0，则采用**Dir**向量的长度。
 
--   **Length Rev**   * 另一种与**Dir**方向相反的挤型长度。
+-   **Length Rev**: 另一种与**Dir**方向相反的挤型长度。
 
--   **Solid**   * 如果此项为True，对一条闭合边或一条闭合连线进行挤型，将生成一个对应实体。如果此项为False，则生成一个对应的壳。
+-   **Solid**: 如果此项为True，对一条闭合边或一条闭合连线进行挤型，将生成一个对应实体。如果此项为False，则生成一个对应的壳。
 
--   **Reversed**   * 将挤型对象调转至**Dir**的相反方向。
+-   **Reversed**: 将挤型对象调转至**Dir**的相反方向。
 
--   **Symmetric**   * 如果此项为True，则以输入形状为中心向指定方向及其相反方向进行挤型，且挤型总长度为**Length Fwd**。并忽略**Length Rev**。
+-   **Symmetric**: 如果此项为True，则以输入形状为中心向指定方向及其相反方向进行挤型，且挤型总长度为**Length Fwd**。并忽略**Length Rev**。
 
--   **Taper Angle** and **Taper Angle Rev**   * applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}} Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
+-   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}} Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
 
--   **Face Maker Class**   * sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
+-   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
 
 
 <div class="mw-translate-fuzzy">
 
--   **Placement**   * 标准的[定位参数集](Placement.md)
+-   **Placement**: 标准的[定位参数集](Placement.md)
 
 
 </div>
@@ -121,7 +121,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **Label**   * 显示在模型树中的标签（创建挤型对象后方可使用）
+-   **Label**: 显示在模型树中的标签（创建挤型对象后方可使用）
 
 
 </div>
@@ -133,7 +133,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   OK   * 创建挤型对象，并关闭对话框。
+-   OK: 创建挤型对象，并关闭对话框。
 
 
 </div>
@@ -141,7 +141,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   Close   * 关闭对话框，神马也不做。
+-   Close: 关闭对话框，神马也不做。
 
 
 </div>
@@ -149,14 +149,14 @@
 
 <div class="mw-translate-fuzzy">
 
--   Apply   * 创建挤型对象，却并不关闭此对话框。您可以继续在下侧的列表中选择另一个形状，以此创建更多的挤型对象。点击Apply可以多次创建多个挤型对象。
+-   Apply: 创建挤型对象，却并不关闭此对话框。您可以继续在下侧的列表中选择另一个形状，以此创建更多的挤型对象。点击Apply可以多次创建多个挤型对象。
 
 
 </div>
 
 -   \'Direction\' 单选按钮：设置计算挤型方向的方式。
 
--    **Select**button   * click it, and then pick an edge in [3D view](3D_view.md). That edge will appear in text field next to the button, in format \"ObjectName   *EdgeN\". You can also type the link manually. Values X,Y,Z will be filled according to the edge direction.
+-    **Select**button: click it, and then pick an edge in [3D view](3D_view.md). That edge will appear in text field next to the button, in format \"ObjectName:EdgeN\". You can also type the link manually. Values X,Y,Z will be filled according to the edge direction.
 
 
 <div class="mw-translate-fuzzy">
@@ -166,17 +166,17 @@
 
 </div>
 
--    **X**, **Y**, **Z** input fields   * set or display the direction vector of extrusion. If both lengths are zero, the length of this vector sets the length of extrusion, and values are always in mm, regardless of unit preferences.
+-    **X**, **Y**, **Z** input fields: set or display the direction vector of extrusion. If both lengths are zero, the length of this vector sets the length of extrusion, and values are always in mm, regardless of unit preferences.
 
--   Length fields   * 设置挤型的长度。此输入框支持用户输入的单位。
+-   Length fields: 设置挤型的长度。此输入框支持用户输入的单位。
 
--   Symmetric   * 以对称的方式向指定方向及其反向进行挤型，因此输入形状将位于生成挤型对象的中部。
+-   Symmetric: 以对称的方式向指定方向及其反向进行挤型，因此输入形状将位于生成挤型对象的中部。
 
--   Taper Outward Angle   * positive angle means profile is expanded at other end of extrusion.
+-   Taper Outward Angle: positive angle means profile is expanded at other end of extrusion.
 
--   Create Solid checkbox   * 如果选中此项，对一条闭合的连线或边进行挤型将生成一个对应实体。如果在调用挤型工具之前便提前选中了一条闭合连线，则此项是默认选中的。
+-   Create Solid checkbox: 如果选中此项，对一条闭合的连线或边进行挤型将生成一个对应实体。如果在调用挤型工具之前便提前选中了一条闭合连线，则此项是默认选中的。
 
--   Shape list   * 在此选择待挤型的形状。如果选中了多个形状，则将创建多个挤型对象。
+-   Shape list: 在此选择待挤型的形状。如果选中了多个形状，则将创建多个挤型对象。
 
 ## Notes
 

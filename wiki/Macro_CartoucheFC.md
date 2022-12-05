@@ -7,7 +7,7 @@
 |Version=0.3
 |Date=2014-07-02
 |FCVersion=All version using Drawing Workbench
-|Download=[https   *//www.freecadweb.org/wiki/images/0/0a/Macro_CartoucheFC.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/0/0a/Macro_CartoucheFC.png ToolBar Icon]
 }}
 
 ## Description
@@ -16,17 +16,17 @@ This macro is a complete application, it allows to fill simply all the fields of
 
 The date and time fields are separated by a \"space negative space\" \" - \" and constitute a single line textedit.
 
-<img alt="CartoucheFC" src=images/CartoucheFC.png  style="width   *480px;">
+<img alt="CartoucheFC" src=images/CartoucheFC.png  style="width:480px;">
 
-Fields in red are the **\"freecad   *editable\"** fields, fields in green are annotations inserted in the template.
+Fields in red are the **\"freecad:editable\"** fields, fields in green are annotations inserted in the template.
 [Here](Macro_CartoucheFC_Full.md) the version for the new sheet with all the editable text fields.
 
 ## Usage
 
 **Changing the map in Inkscape can at the moment cause operation problems in the program (where you remove the symbol on the worksheet, same problem with FreeCAD), work on a copy of A3_Landscape.svg.**
-**PS   * Some characters such as & \$ are not accepted (and possibly other special characters).**
+**PS: Some characters such as & \$ are not accepted (and possibly other special characters).**
 
-If you have any questions or want to add a function, you can address you on the french forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
+If you have any questions or want to add a function, you can address you on the french forum [Remplir cartouche](http://forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 \*The window remains above other Windows, thereby controlling the cartridge without leaving the program.
 
 -   Copy the code into a file named **Macro_CartoucheFC.FCMacro** and place it in your usual macros directory.
@@ -34,14 +34,14 @@ If you have any questions or want to add a function, you can address you on the 
 -   At the opening, the program will register in memory all data already present in the cartridge of the sheet (if they are filled), all these data will be automatically returned to using the button ** Memo** and kept in memory until the closure of the programme.
 -   Date button ** D.** and time ** H.** displayed the date and time of the system.
 
-   **The date format depends on the selected symbol **EU** or **US** which determines the regional format. Change does not happen automatically (for the case or you have entered a date manually) you must again click buttons dates if you change the symbol (check before printing).
+  -The date format depends on the selected symbol **EU** or **US** which determines the regional format. Change does not happen automatically (for the case or you have entered a date manually) you must again click buttons dates if you change the symbol (check before printing).
 
 -   The field **A3** is not functional (this program is based on the the A3 of FreeCAD sheet cartridge).
 -   Button **Symbole EU** or US change the meaning of the symbol of projection \"Select your Symbol\" is displayed by default, and then the active symbol appears. Click on the button and check the leaf symbol, click a second time to modify the symbol.
 
-   **The choice of this symbol, affects the date format **EU = dd/MM/yyyy** and **US = MM/dd/yyyy**.
+  -The choice of this symbol, affects the date format **EU = dd/MM/yyyy** and **US = MM/dd/yyyy**.
 
-   ****Attention**   * this command does not pass through the button **Apply** and immediately changes the symbol to each presses on the key, always check if you have the appropriate symbol on your worksheet.
+  -**Attention**: this command does not pass through the button **Apply** and immediately changes the symbol to each presses on the key, always check if you have the appropriate symbol on your worksheet.
 
 -   Button **Clean** Clears all fields in the cartridge. You can revert to the original data using the button **Memo**.
 -   Button **Apply** saves all fields of the cartridge in the sheet. You can revert to the original data using the button **Memo** (except for the regional symbol that works in independent and is effective immediately).
@@ -57,33 +57,33 @@ ToolBar Icon ![](images/Macro_CartoucheFC.png )
 
 {{MacroCode|code=
 
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 # Macro_CartoucheFC.py
 # Remplir les zones du cartouche de la feuille originale de FreeCAD
-# http   *//www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC/fr
+# http://www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC/fr
 # il faut que la page (drawing viewer) s'appelle " Page " qui est le nom par défaut du module Drawing
 # Fill the area of the cartridge
-# http   *//www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC
+# http://www.freecadweb.org/wiki/index.php?title=Macro_CartoucheFC
 # It is necessary that the page (drawing viewer) is called "Page", which is the default name of the Drawing module
 # ver 0.3
-# Created   * 02/07/2014
-# Created   *  by mario52
+# Created: 02/07/2014
+# Created:  by mario52
 # PyQt and PySide 
 
-#OS   * Windows Vista
-#Word size   * 32-bit
-#Version   * 0.14.3700 (Git)
-#Branch   * releases/FreeCAD-0-14
-#Hash   * 32f5aae0a64333ec8d5d160dbc46e690510c8fe1
-#Python version   * 2.6.2
-#Qt version   * 4.5.2
-#Coin version   * 3.1.0
-#SoQt version   * 1.4.1
+#OS: Windows Vista
+#Word size: 32-bit
+#Version: 0.14.3700 (Git)
+#Branch: releases/FreeCAD-0-14
+#Hash: 32f5aae0a64333ec8d5d160dbc46e690510c8fe1
+#Python version: 2.6.2
+#Qt version: 4.5.2
+#Coin version: 3.1.0
+#SoQt version: 1.4.1
 
-try   *
+try:
     import PyQt4
     from PyQt4 import QtCore, QtGui
-except Exception   *
+except Exception:
     import PySide
     from PySide import QtCore, QtGui
 
@@ -95,57 +95,57 @@ global  path
 
 path = FreeCAD.ConfigGet("AppHomePath")
 
-def heure()   *
-    return QtCore.QTime().currentTime().toString('hh   *mm   *ss')
-def dateEu()   *
+def heure():
+    return QtCore.QTime().currentTime().toString('hh:mm:ss')
+def dateEu():
     return QtCore.QDate().currentDate().toString('dd/MM/yyyy') # forme euro
-def dateUs()   *
+def dateUs():
     return QtCore.QDate().currentDate().toString('MM/dd/yyyy') # forme us
-def dateComp()   *
+def dateComp():
     return QtCore.QDate().currentDate().toString('dddd d MMMM yyyy') # Retourne "dimanche 20 Juillet 69"
 
-try   *
+try:
     _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError   *
-    def _fromUtf8(s)   *
+except AttributeError:
+    def _fromUtf8(s):
         return s
-try   *
+try:
     _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig)   *
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError   *
-    def _translate(context, text, disambig)   *
+except AttributeError:
+    def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-def errorDialog(msg)   *
+def errorDialog(msg):
     # Create a simple dialog QMessageBox
-    # The first argument indicates the icon used   * one of QtGui.QMessageBox.{NoIcon, Information, Warning, Critical, Question} 
+    # The first argument indicates the icon used: one of QtGui.QMessageBox.{NoIcon, Information, Warning, Critical, Question} 
     diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg)
-    try   *
+    try:
         diag.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint)  #PyQt4 cette fonction met la fenêtre en avant
-    except Exception   *
+    except Exception:
         diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint) #PySide cette fonction met la fenêtre en avant
     #diag.setWindowModality(QtCore.Qt.ApplicationModal) # la fonction a été désactivée pour favoriser "WindowStaysOnTopHint"
     diag.exec_()
 
-def symbol_EU(depx,depy)   *    #symbol_EU
-    try   *
+def symbol_EU(depx,depy):    #symbol_EU
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_US")
-    except   *
+    except:
         None
-    try   *
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_EU")
-    except   *
+    except:
         None
-    try   *
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("SymbolUS")
-    except   *
+    except:
         None
-    try   *
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("SymbolEU")
-    except   *
+    except:
         None
-    App.activeDocument().addObject('Sketcher   *   *SketchObject','Symbol_EU')
+    App.activeDocument().addObject('Sketcher::SketchObject','Symbol_EU')
     App.activeDocument().Symbol_EU.Placement = App.Placement(App.Vector(0.0,0.0,0.0),App.Rotation(0.000000,0.000000,0.000000,1.000000))
     App.ActiveDocument.Symbol_EU.addGeometry(Part.Line(App.Vector(-7.5,0.0,0.0),App.Vector(20.0,0.0,0.0)))
 
@@ -162,7 +162,7 @@ def symbol_EU(depx,depy)   *    #symbol_EU
     FreeCADGui.getDocument(App.ActiveDocument.Name).getObject("Symbol_EU").LineColor = (0.00,0.00,0.00)
     App.ActiveDocument.recompute()
 
-    App.activeDocument().addObject('Drawing   *   *FeatureViewPart','SymbolEU')
+    App.activeDocument().addObject('Drawing::FeatureViewPart','SymbolEU')
     App.activeDocument().SymbolEU.Source = App.activeDocument().Symbol_EU
     App.activeDocument().SymbolEU.Direction = (0.0,0.0,1.0)
     App.activeDocument().SymbolEU.X = depx
@@ -173,24 +173,24 @@ def symbol_EU(depx,depy)   *    #symbol_EU
 #    App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_EU")
     FreeCADGui.getDocument(App.ActiveDocument.Name).getObject("Symbol_EU").Visibility = False
 
-def symbol_US(depx,depy)   *    #symbol_US
-    try   *
+def symbol_US(depx,depy):    #symbol_US
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_US")
-    except   *
+    except:
         None
-    try   *
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_EU")
-    except   *
+    except:
         None
-    try   *
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("SymbolUS")
-    except   *
+    except:
         None
-    try   *
+    try:
         App.getDocument(App.ActiveDocument.Name).removeObject("SymbolEU")
-    except   *
+    except:
         None
-    App.activeDocument().addObject('Sketcher   *   *SketchObject','Symbol_US')
+    App.activeDocument().addObject('Sketcher::SketchObject','Symbol_US')
     App.activeDocument().Symbol_US.Placement = App.Placement(App.Vector(0.0,0.0,0.0),App.Rotation(0.000000,0.000000,0.000000,1.000000))
     App.ActiveDocument.Symbol_US.addGeometry(Part.Line(App.Vector(-7.5,0.0,0.0),App.Vector(20.0,0.0,0.0)))
 
@@ -207,7 +207,7 @@ def symbol_US(depx,depy)   *    #symbol_US
     FreeCADGui.getDocument(App.ActiveDocument.Name).getObject("Symbol_US").LineColor = (0.00,0.00,0.00)
     App.ActiveDocument.recompute()
 
-    App.activeDocument().addObject('Drawing   *   *FeatureViewPart','SymbolUS')
+    App.activeDocument().addObject('Drawing::FeatureViewPart','SymbolUS')
     App.activeDocument().SymbolUS.Source = App.activeDocument().Symbol_US
     App.activeDocument().SymbolUS.Direction = (0.0,0.0,1.0)
     App.activeDocument().SymbolUS.X = depx
@@ -218,15 +218,15 @@ def symbol_US(depx,depy)   *    #symbol_US
 #    App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_US")
     FreeCADGui.getDocument(App.ActiveDocument.Name).getObject("Symbol_US").Visibility = False
 
-try   *
+try:
     DESIGNED_BY = App.activeDocument().getObject("Page").EditableTexts[0] #lineEdit01 DESIGNED_BY
     CREATION_DATE = App.activeDocument().getObject("Page").EditableTexts[1] #lineEdit02 CREATION_DATE date
-    CREA_DATE = CREATION_DATE[0   *10] # lineEdit02h date
-    CREA_TIME = CREATION_DATE[13   *21] # lineEdit02h heure
+    CREA_DATE = CREATION_DATE[0:10] # lineEdit02h date
+    CREA_TIME = CREATION_DATE[13:21] # lineEdit02h heure
     CHECKED_BY = App.activeDocument().getObject("Page").EditableTexts[2] # lineEdit03
     CHECK_DATE = App.activeDocument().getObject("Page").EditableTexts[3] # lineEdit04 date
-    CHEC_DATE = CHECK_DATE[0   *10] # lineEdit04 date
-    CHEC_TIME = CHECK_DATE[13   *21] # lineEdit04h heure
+    CHEC_DATE = CHECK_DATE[0:10] # lineEdit04 date
+    CHEC_TIME = CHECK_DATE[13:21] # lineEdit04h heure
     SIZE = "A3"  # lineEdit05
     SCALE = App.activeDocument().getObject("Page").EditableTexts[4] # lineEdit06
     WEIGHT = App.activeDocument().getObject("Page").EditableTexts[5] # lineEdit07
@@ -235,55 +235,55 @@ try   *
     TITLE = App.activeDocument().getObject("Page").EditableTexts[8] # textEdit_01
     DESCRIPTION = App.activeDocument().getObject("Page").EditableTexts[9] # textEdit_02
 
-except   *
+except:
     errorDialog("erreur cartouche")
-try   *
-    try   *
+try:
+    try:
         lineEdit18 = App.activeDocument().getObject("Note_I").Text[0] 
-    except   *
+    except:
         lineEdit18 = ""
-    try   *
+    try:
         lineEdit17 = App.activeDocument().getObject("Note_H").Text[0] 
-    except   *
+    except:
         lineEdit17 = ""
-    try   *
+    try:
         lineEdit16 = App.activeDocument().getObject("Note_G").Text[0] 
-    except   *
+    except:
         lineEdit16 = ""
-    try   *
+    try:
         lineEdit15 = App.activeDocument().getObject("Note_F").Text[0] 
-    except   *
+    except:
         lineEdit15 = ""
-    try   *
+    try:
         lineEdit14 = App.activeDocument().getObject("Note_E").Text[0] 
-    except   *
+    except:
         lineEdit14 = ""
-    try   *
+    try:
         lineEdit13 = App.activeDocument().getObject("Note_D").Text[0] 
-    except   *
+    except:
         lineEdit13 = ""
-    try   *
+    try:
         lineEdit12 = App.activeDocument().getObject("Note_C").Text[0] 
-    except   *
+    except:
         lineEdit12 = ""
-    try   *
+    try:
         lineEdit11 = App.activeDocument().getObject("Note_B").Text[0] 
-    except   *
+    except:
         lineEdit11 = ""
-    try   *
+    try:
         lineEdit10 = App.activeDocument().getObject("Note_A").Text[0] 
-    except   *
+    except:
         lineEdit10 = ""
-    try   *
+    try:
         lineEdit20 = App.activeDocument().getObject("CopyRight").Text[0] 
-    except   *
+    except:
         lineEdit20 = ""
-except   *
+except:
     errorDialog("erreur note")
 
-class Ui_MainWindow(object)   *
+class Ui_MainWindow(object):
 
-    def __init__(self, MainWindow)   *
+    def __init__(self, MainWindow):
         self.window = MainWindow
 #___________________________________________________________________________________
 
@@ -645,10 +645,10 @@ class Ui_MainWindow(object)   *
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow)   *
-        try   *
+    def retranslateUi(self, MainWindow):
+        try:
             MainWindow.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint)  # PyQt4 cette fonction met la fenêtre en avant
-        except Exception   *
+        except Exception:
             MainWindow.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint) # PySide cette fonction met la fenêtre en avant
 
         MainWindow.setWindowTitle(_translate("MainWindow", "Cartouche", None))
@@ -664,15 +664,15 @@ class Ui_MainWindow(object)   *
         self.pushButton10.setText(_translate("MainWindow", "Symbole EU", None))
 
 
-        self.label_01.setText(_translate("MainWindow", "Designed by    *", None))
-        self.label_02.setText(_translate("MainWindow", "Date    *", None))
-        self.label_03.setText(_translate("MainWindow", "Checked by    *", None))
-        self.label_04.setText(_translate("MainWindow", "Date    *", None))
-        self.label_05.setText(_translate("MainWindow", "Size    *", None))
-        self.label_06.setText(_translate("MainWindow", "Scale    *", None))
-        self.label_07.setText(_translate("MainWindow", "Weight (Kg)    *", None))
-        self.label_08.setText(_translate("MainWindow", "Drawing number    *", None))
-        self.label_09.setText(_translate("MainWindow", "Sheet    *", None))
+        self.label_01.setText(_translate("MainWindow", "Designed by :", None))
+        self.label_02.setText(_translate("MainWindow", "Date :", None))
+        self.label_03.setText(_translate("MainWindow", "Checked by :", None))
+        self.label_04.setText(_translate("MainWindow", "Date :", None))
+        self.label_05.setText(_translate("MainWindow", "Size :", None))
+        self.label_06.setText(_translate("MainWindow", "Scale :", None))
+        self.label_07.setText(_translate("MainWindow", "Weight (Kg) :", None))
+        self.label_08.setText(_translate("MainWindow", "Drawing number :", None))
+        self.label_09.setText(_translate("MainWindow", "Sheet :", None))
         self.label_10.setText(_translate("MainWindow", "A", None))
         self.label_11.setText(_translate("MainWindow", "B", None))
         self.label_12.setText(_translate("MainWindow", "C", None))
@@ -685,30 +685,30 @@ class Ui_MainWindow(object)   *
         self.label_19.setText(_translate("MainWindow", "Notes", None))
 #______________________________________________________________________________________
     # Boutons
-    def on_pushButton10_clicked(self)   *    # Bouton /Symbole
-        if self.textEdit_03.toPlainText()=="Symbole US"   *
+    def on_pushButton10_clicked(self):    # Bouton /Symbole
+        if self.textEdit_03.toPlainText()=="Symbole US":
             self.pushButton10.setText(_translate("MainWindow", "Symbole US", None))
             self.textEdit_03.setText("Symbole EU")
             symbol_EU(247.5,263.5) #(247.5,263.5)
-        else   *
+        else:
             self.pushButton10.setText(_translate("MainWindow", "Symbole EU", None))
             self.textEdit_03.setText("Symbole US")
             symbol_US(247.5,263.5) #(247.5,263.5)
-    def on_pushButton09_clicked(self)   *    # Bouton /heure document
+    def on_pushButton09_clicked(self):    # Bouton /heure document
         self.lineEdit_04h.setText(str(heure()))
-    def on_pushButton08_clicked(self)   *    # Bouton date/ document
-        if self.textEdit_03.toPlainText()=="Symbole US"   *
+    def on_pushButton08_clicked(self):    # Bouton date/ document
+        if self.textEdit_03.toPlainText()=="Symbole US":
             self.lineEdit_04.setText(str(dateUs()))
-        else   *
+        else:
             self.lineEdit_04.setText(str(dateEu()))
-    def on_pushButton07_clicked(self)   *    # Bouton /heure checked
+    def on_pushButton07_clicked(self):    # Bouton /heure checked
         self.lineEdit_02h.setText(str(heure()))
-    def on_pushButton06_clicked(self)   *    # Bouton date/ checked
-        if self.textEdit_03.toPlainText()=="Symbole US"   *
+    def on_pushButton06_clicked(self):    # Bouton date/ checked
+        if self.textEdit_03.toPlainText()=="Symbole US":
             self.lineEdit_02.setText(str(dateUs()))
-        else   *
+        else:
             self.lineEdit_02.setText(str(dateEu()))
-    def on_pushButton05_clicked(self)   *    # Bouton Appliquer
+    def on_pushButton05_clicked(self):    # Bouton Appliquer
         DESIGNED_BY = self.lineEdit_01.text()     
         CREATION_DATE = self.lineEdit_02.text()+" - "+self.lineEdit_02h.text()
         CHECKED_BY = self.lineEdit_03.text()
@@ -721,117 +721,117 @@ class Ui_MainWindow(object)   *
         TITLE = self.textEdit_01.toPlainText()
         DESCRIPTION = self.textEdit_02.toPlainText()
         SYMBOL = self.textEdit_03.toPlainText()
-        try   *
+        try:
             FreeCAD.getDocument (App.ActiveDocument.Name).getObject("Page").EditableTexts = [unicode(DESIGNED_BY, 'utf-8'), unicode(CREATION_DATE, 'utf-8'), unicode(CHECKED_BY, 'utf-8'), unicode(CHECK_DATE, 'utf-8'), unicode(SCALE, 'utf-8'), unicode(WEIGHT, 'utf-8'), unicode(DRAWING_NUMBER, 'utf-8'), unicode(SHEET, 'utf-8'), unicode(TITLE, 'utf-8'), unicode(DESCRIPTION, 'utf-8'),]
-        except Exception   *
+        except Exception:
             FreeCAD.getDocument (App.ActiveDocument.Name).getObject("Page").EditableTexts = [DESIGNED_BY.encode('utf-8'), CREATION_DATE.encode('utf-8'), CHECKED_BY.encode('utf-8'), CHECK_DATE.encode('utf-8'), SCALE.encode('utf-8'), WEIGHT.encode('utf-8'), DRAWING_NUMBER.encode('utf-8'), SHEET.encode('utf-8'), TITLE.encode('utf-8'), DESCRIPTION.encode('utf-8'),]
 
         #print App.ActiveDocument.Name
-        try   *
+        try:
             App.activeDocument().removeObject('Note_I')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_H')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_G')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_F')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_E')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_D')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_C')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_B')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('Note_A')
-        except   *
+        except:
             None
-        try   *
+        try:
             App.activeDocument().removeObject('CopyRight')
-        except   *
+        except:
             None
-        if self.lineEdit_18.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_I')
+        if self.lineEdit_18.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_I')
             App.activeDocument().Note_I.X = 391.0
             App.activeDocument().Note_I.Y = 232
             App.activeDocument().Note_I.Scale = 3.0
             App.activeDocument().Note_I.Text = str(self.lineEdit_18.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_I)
-        if self.lineEdit_17.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_H')
+        if self.lineEdit_17.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_H')
             App.activeDocument().Note_H.X = 391.0
             App.activeDocument().Note_H.Y = 238.8
             App.activeDocument().Note_H.Scale = 3.0
             App.activeDocument().Note_H.Text = str(self.lineEdit_17.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_H)
-        if self.lineEdit_16.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_G')
+        if self.lineEdit_16.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_G')
             App.activeDocument().Note_G.X = 391.0
             App.activeDocument().Note_G.Y = 245.4
             App.activeDocument().Note_G.Scale = 3.0
             App.activeDocument().Note_G.Text = str(self.lineEdit_16.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_G)
-        if self.lineEdit_15.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_F')
+        if self.lineEdit_15.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_F')
             App.activeDocument().Note_F.X = 391.0
             App.activeDocument().Note_F.Y = 252
             App.activeDocument().Note_F.Scale = 3.0
             App.activeDocument().Note_F.Text = str(self.lineEdit_15.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_F)
-        if self.lineEdit_14.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_E')
+        if self.lineEdit_14.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_E')
             App.activeDocument().Note_E.X = 391.0
             App.activeDocument().Note_E.Y = 258.6
             App.activeDocument().Note_E.Scale = 3.0
             App.activeDocument().Note_E.Text = str(self.lineEdit_14.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_E)
-        if self.lineEdit_13.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_D')
+        if self.lineEdit_13.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_D')
             App.activeDocument().Note_D.X = 391.0
             App.activeDocument().Note_D.Y = 265.2
             App.activeDocument().Note_D.Scale = 3.0
             App.activeDocument().Note_D.Text = str(self.lineEdit_13.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_D)
-        if self.lineEdit_12.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_C')
+        if self.lineEdit_12.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_C')
             App.activeDocument().Note_C.X = 391.0
             App.activeDocument().Note_C.Y = 271.8
             App.activeDocument().Note_C.Scale = 3.0
             App.activeDocument().Note_C.Text =  str(self.lineEdit_12.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_C)
-        if self.lineEdit_11.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_B')
+        if self.lineEdit_11.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_B')
             App.activeDocument().Note_B.X = 391.0
             App.activeDocument().Note_B.Y = 278.4
             App.activeDocument().Note_B.Scale = 3.0
             App.activeDocument().Note_B.Text = str(self.lineEdit_11.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_B)
-        if self.lineEdit_10.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','Note_A')
+        if self.lineEdit_10.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','Note_A')
             App.activeDocument().Note_A.X = 391.0
             App.activeDocument().Note_A.Y = 285.0
             App.activeDocument().Note_A.Scale = 3.0
             App.activeDocument().Note_A.Text = str(self.lineEdit_10.text())
             App.activeDocument().Page.addObject(App.activeDocument().Note_A)
-        if self.lineEdit_20.text() != ""   *
-            App.activeDocument().addObject('Drawing   *   *FeatureViewAnnotation','CopyRight')
+        if self.lineEdit_20.text() != "":
+            App.activeDocument().addObject('Drawing::FeatureViewAnnotation','CopyRight')
             App.activeDocument().CopyRight.X = 221
             App.activeDocument().CopyRight.Y = 286
             App.activeDocument().CopyRight.Scale = 3.0
@@ -840,22 +840,22 @@ class Ui_MainWindow(object)   *
 
         App.ActiveDocument.recompute()
 
-    def on_pushButton04_clicked(self)   *    # Bouton nettoyer
-        try   *
+    def on_pushButton04_clicked(self):    # Bouton nettoyer
+        try:
             App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_US")
-        except   *
+        except:
             None
-        try   *
+        try:
             App.getDocument(App.ActiveDocument.Name).removeObject("Symbol_EU")
-        except   *
+        except:
             None
-        try   *
+        try:
             App.getDocument(App.ActiveDocument.Name).removeObject("SymbolUS")
-        except   *
+        except:
             None
-        try   *
+        try:
             App.getDocument(App.ActiveDocument.Name).removeObject("SymbolEU")
-        except   *
+        except:
             None
         DESIGNED_BY = ""    ;self.lineEdit_01.setText("")
         CREATION_DATE = ""  ;self.lineEdit_02.setText("")
@@ -882,7 +882,7 @@ class Ui_MainWindow(object)   *
         self.lineEdit_18.setText("")
         self.lineEdit_20.setText("")
 
-    def on_pushButton03_clicked(self)   *    # Bouton Memo
+    def on_pushButton03_clicked(self):    # Bouton Memo
         self.lineEdit_01.setText(DESIGNED_BY)
         self.lineEdit_02.setText(CREA_DATE)
         self.lineEdit_02h.setText(CREA_TIME)
@@ -908,10 +908,10 @@ class Ui_MainWindow(object)   *
         self.lineEdit_10.setText(lineEdit10)
         self.lineEdit_20.setText(lineEdit20)
 
-    def on_pushButton02_clicked(self)   *    # Bouton Quitter
+    def on_pushButton02_clicked(self):    # Bouton Quitter
         App.Console.PrintMessage("Terminé\r\n")
         self.window.hide()
-#    def on_pushButton01_clicked(self)   *    # Bouton appel de Position
+#    def on_pushButton01_clicked(self):    # Bouton appel de Position
 #        MainWindow.resize(210, 480)
 #        executer()
 #        MainWindow.resize(810, 480)

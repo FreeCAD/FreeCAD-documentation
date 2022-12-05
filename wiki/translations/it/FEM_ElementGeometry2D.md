@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *FEM_ElementGeometry2D
-   Name/it   *FEM ElementGeometry2D
-   MenuLocation   *Model → Spessore di una lastra
-   Workbenches   *[FEM](FEM_Workbench/it.md)
-   Shortcut   ***C** **S**
-   SeeAlso   *[FEM tutorial](FEM_tutorial/it.md)
+- GuiCommand:/it
+   Name:FEM_ElementGeometry2D
+   Name/it:FEM ElementGeometry2D
+   MenuLocation:Model → Spessore di una lastra
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**C** **S**
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ElementGeometry2D/it
@@ -44,7 +44,7 @@ Spessore di una lastra viene utilizzato per definire lo spessore degli elementi 
 
 **Thickness**
 
-   * specifica lo spessore della shell.
+: specifica lo spessore della shell.
 
 ## Script
 

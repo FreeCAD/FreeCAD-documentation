@@ -1,8 +1,6 @@
 # Category:FEM/tr
 This category lists pages related to the [FEM Workbench/tr](FEM_Workbench/tr.md).
 
-[Category   *Workbenches/tr](Category   *Workbenches/tr.md)
-
 ### Contents
 
 |     |     |     |

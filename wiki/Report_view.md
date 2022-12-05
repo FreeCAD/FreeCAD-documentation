@@ -5,7 +5,7 @@ The [Report view](Report_view.md) is a panel that shows text messages from FreeC
 
 Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Output window** tab of the [Preferences Editor](Preferences_Editor#Output_window.md).
 
- <img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;"> 
+ <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;"> 
 
 
 
@@ -14,7 +14,7 @@ Certain properties of this panel, like color of the text and whether to display 
 ## Messages
 
 
-**See also   ***
+**See also:**
 
 [Console API](Console_API.md), and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -30,50 +30,50 @@ The report view displays messages from the internal FreeCAD `Console` class.
 
 These functions can be used from the [Python console](Python_console.md) directly, or from [macros](Macros.md) and custom workbenches.
 
- <img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;"> 
+ <img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;"> 
 
 
 
-*Example messages in the report view   * a general message, a warning, an error, and a logged message.*
+*Example messages in the report view: a general message, a warning, an error, and a logged message.*
 
 ## Actions
 
-Right clicking the report view opens a context menu with the following commands   *
+Right clicking the report view opens a context menu with the following commands:
 
--    **Options**   *
+-    **Options**:
 
     -   
         **Display message types**
         
-           * see [Preferences Editor](Preferences_Editor#Output_window.md).
+        : see [Preferences Editor](Preferences_Editor#Output_window.md).
 
     -   
         **Show output window on**
         
-           * idem.
+        : idem.
 
     -   
         **Redirect Python output**
         
-           * idem.
+        : idem.
 
     -   
         **Redirect Python errors**
         
-           * idem.
+        : idem.
 
     -   
         **Go to end**
         
-           * if checked the report view will scroll to the bottom when a new message is added.
+        : if checked the report view will scroll to the bottom when a new message is added.
 
--    **Copy**   * stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
+-    **Copy**: stores the selected text in the clipboard for later pasting; it is disabled if nothing is selected.
 
--    **Select all**   * selects all text in the report view.
+-    **Select all**: selects all text in the report view.
 
--    **Clear**   * erases all messages in the report view. This is useful if you want to troubleshoot a tool that prints messages to the report view, and want to be sure there are no old messages from previous tools.
+-    **Clear**: erases all messages in the report view. This is useful if you want to troubleshoot a tool that prints messages to the report view, and want to be sure there are no old messages from previous tools.
 
--    **Save As**   * save the messages in the report view to a text file.
+-    **Save As**: save the messages in the report view to a text file.
 
  {{Interface navi}} {{Std Base navi}}
 

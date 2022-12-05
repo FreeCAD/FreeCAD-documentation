@@ -1,8 +1,6 @@
 # Category:Template:Image
 This category lists templates that add images.
 
-[Category   *Template](Category_Template.md)
-
 ### Contents
 
 |     |     |     |

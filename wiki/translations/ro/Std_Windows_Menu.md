@@ -1,11 +1,11 @@
-# <img alt="Std Base icon" src=images/Freecad.svg  style="width   *64px;"> Std Windows Menu/ro
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Windows Menu/ro
 
 
 {{TOCright}}
 
 ## Introduction
 
-The **menu Windows** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md)   *
+The **menu Windows** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
 
 
 {{StdMenu
@@ -29,12 +29,12 @@ The Windows menu allows switching and rearranging of [Main view area](Main_view_
 
 ## Tools
 
-The following tools are available in this menu   *
+The following tools are available in this menu:
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_WindowNext.png  style="width   *24px;"> Următoarea
+<img alt="" src=images/Std_WindowNext.png  style="width:24px;"> Următoarea
 
 
 </div>
@@ -42,7 +42,7 @@ The following tools are available in this menu   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_WindowPrev.png  style="width   *24px;"> Precedenta
+<img alt="" src=images/Std_WindowPrev.png  style="width:24px;"> Precedenta
 
 
 </div>
@@ -50,7 +50,7 @@ The following tools are available in this menu   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_WindowTileVer.png  style="width   *24px;"> Alăturate (tile)
+<img alt="" src=images/Std_WindowTileVer.png  style="width:24px;"> Alăturate (tile)
 
 
 </div>
@@ -58,7 +58,7 @@ The following tools are available in this menu   *
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_WindowCascade.png  style="width   *24px;"> În Cascadă
+<img alt="" src=images/Std_WindowCascade.png  style="width:24px;"> În Cascadă
 
 
 </div>
@@ -85,9 +85,7 @@ Ferestre\...
 
 {{Std Base navi
 
-}}  
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

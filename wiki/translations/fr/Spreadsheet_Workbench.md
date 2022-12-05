@@ -1,52 +1,52 @@
-# <img alt="Icône de l\'atelier Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width   *64px;"> Spreadsheet Workbench/fr
+# <img alt="Icône de l\'atelier Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/fr
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) vous permet de créer et de modifier des feuilles de calcul, d\'utiliser les données de la feuille de calcul comme paramètres dans un modèle, de remplir la feuille de calcul avec des données extraites d\'un modèle, d\'effectuer des calculs et d\'exporter les données vers d\'autres applications de feuilles de calcul telles que LibreOffice ou Microsoft Excel.
+L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) vous permet de créer et de modifier des feuilles de calcul, d\'utiliser les données de la feuille de calcul comme paramètres dans un modèle, de remplir la feuille de calcul avec des données extraites d\'un modèle, d\'effectuer des calculs et d\'exporter les données vers d\'autres applications de feuilles de calcul telles que LibreOffice ou Microsoft Excel.
 
 
 {{TOCright}}
 
-<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width   *600px;"> 
+<img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Une feuille de tableur avec un certain nombre de cellules remplies de texte et de quantités*
 
 ## Outils
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md)    * créer une nouvelle feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md) : créer une nouvelle feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importer](Spreadsheet_Import/fr.md)    * importer un fichier CSV dans une feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importer](Spreadsheet_Import/fr.md) : importer un fichier CSV dans une feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Exporter](Spreadsheet_Export/fr.md)    * exporter un fichier CSV depuis une feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exporter](Spreadsheet_Export/fr.md) : exporter un fichier CSV depuis une feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md)    * fusionner les cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md) : fusionner les cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Diviser une cellule](Spreadsheet_SplitCell/fr.md)    * diviser les cellules précédemment fusionnées.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Diviser une cellule](Spreadsheet_SplitCell/fr.md) : diviser les cellules précédemment fusionnées.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Alignement à gauche](Spreadsheet_AlignLeft/fr.md)    * aligner le contenu des cellules sélectionnées vers la gauche.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Alignement à gauche](Spreadsheet_AlignLeft/fr.md) : aligner le contenu des cellules sélectionnées vers la gauche.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Alignement au centre](Spreadsheet_AlignCenter/fr.md)    * aligner le contenu des cellules sélectionnées au centre, horizontalement.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Alignement au centre](Spreadsheet_AlignCenter/fr.md) : aligner le contenu des cellules sélectionnées au centre, horizontalement.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Alignement à droite](Spreadsheet_AlignRight/fr.md)    * aligner le contenu des cellules sélectionnées vers la droite.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Alignement à droite](Spreadsheet_AlignRight/fr.md) : aligner le contenu des cellules sélectionnées vers la droite.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Alignement en haut](Spreadsheet_AlignTop/fr.md)    * aligner le contenu des cellules sélectionnées en haut.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Alignement en haut](Spreadsheet_AlignTop/fr.md) : aligner le contenu des cellules sélectionnées en haut.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md)    * aligner le contenu des cellules sélectionnées au centre, verticalement.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md) : aligner le contenu des cellules sélectionnées au centre, verticalement.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md)    * aligner le contenu des cellules sélectionnées vers le bas.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md) : aligner le contenu des cellules sélectionnées vers le bas.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Texte en gras](Spreadsheet_StyleBold/fr.md)    * mettre en gras le contenu des cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Texte en gras](Spreadsheet_StyleBold/fr.md) : mettre en gras le contenu des cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md)    * mettre le contenu des cellules sélectionnées en italique.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md) : mettre le contenu des cellules sélectionnées en italique.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md)    * permettre de souligner le contenu des cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md) : permettre de souligner le contenu des cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Alias](Spreadsheet_SetAlias/fr.md)    * définir l\'alias d\'une cellule sélectionnée.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Alias](Spreadsheet_SetAlias/fr.md) : définir l\'alias d\'une cellule sélectionnée.
 
 -    **Noir**et **Blanc** définissent les couleurs de premier plan et d\'arrière-plan des cellules sélectionnées.
 
 ## Préférences
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Préférences](Spreadsheet_Preferences/fr.md)    * les préférences pour l\'atelier Spreadsheet. {{Version/fr|0.20}}
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Préférences](Spreadsheet_Preferences/fr.md) : les préférences pour l\'atelier Spreadsheet. {{Version/fr|0.20}}
 
 ## Insérer et supprimer des lignes et des colonnes 
 
@@ -58,7 +58,7 @@ Remarquez que la suppression de lignes ou de colonnes contenant des données peu
 
 ## Couper et copier-coller des cellules 
 
-Les opérations couper et copier-coller peuvent être utilisées sur les cellules des feuilles de calcul FreeCAD. Vous pouvez utiliser les raccourcis normaux pour ces opérations    * **Ctrl**+**X**, **Ctrl**+**C** et **Ctrl**+**V** respectivement. Pour sélectionner plusieurs cellules, maintenez la touche **Ctrl** enfoncée tout en sélectionnant, ou maintenez le bouton gauche de la souris enfoncé et faites glisser pour sélectionner une plage de cellules rectangulaires.
+Les opérations couper et copier-coller peuvent être utilisées sur les cellules des feuilles de calcul FreeCAD. Vous pouvez utiliser les raccourcis normaux pour ces opérations : **Ctrl**+**X**, **Ctrl**+**C** et **Ctrl**+**V** respectivement. Pour sélectionner plusieurs cellules, maintenez la touche **Ctrl** enfoncée tout en sélectionnant, ou maintenez le bouton gauche de la souris enfoncé et faites glisser pour sélectionner une plage de cellules rectangulaires.
 
 Les opérations couper et copier stockent le contenu et les propriétés des cellules dans le presse-papiers. L\'opération coller écrit les données de manière à ce que le contenu de la cellule supérieure gauche des données stockées soit déposé dans la cellule active. Les autres contenus stockés sont placés par rapport à cette cellule. Les formules sont mises à jour en conséquence.
 
@@ -68,17 +68,17 @@ Dans la version 0.19 de FreeCAD et antérieures, il y a un bug qui peut provoque
 
 ## Propriétés d\'une cellule 
 
-Les propriétés d\'une cellule de feuille de calcul peuvent être modifiées en cliquant droit sur la cellule et en sélectionnant **Properties...** dans le menu contextuel. La boîte de dialogue suivante s\'affiche    *
+Les propriétés d\'une cellule de feuille de calcul peuvent être modifiées en cliquant droit sur la cellule et en sélectionnant **Properties...** dans le menu contextuel. La boîte de dialogue suivante s\'affiche :
 
 ![](images/SpreadsheetCellPropDialog.png )
 
-Comme mentionné dans les onglets, les propriétés suivantes peuvent être changées    *
+Comme mentionné dans les onglets, les propriétés suivantes peuvent être changées :
 
--   Couleur    * couleur du texte et couleur d\'arrière-plan
--   Alignement    * alignement horizontal et vertical du texte
--   Style    * style du texte    * gras, italique, souligné
--   Affichage unités    * affiche l\'unité de la cellule. Veuillez lire la section [Unités](#Unités.md) ci-dessous.
--   Alias    * définit un [alias](Spreadsheet_SetAlias/fr.md) pour cette cellule. Cet alias peut être utilisé dans les formules de cellule et aussi dans les [expressions](Expressions/fr.md) générales; voir la section [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md) pour plus d\'informations.
+-   Couleur : couleur du texte et couleur d\'arrière-plan
+-   Alignement : alignement horizontal et vertical du texte
+-   Style : style du texte : gras, italique, souligné
+-   Affichage unités : affiche l\'unité de la cellule. Veuillez lire la section [Unités](#Unités.md) ci-dessous.
+-   Alias : définit un [alias](Spreadsheet_SetAlias/fr.md) pour cette cellule. Cet alias peut être utilisé dans les formules de cellule et aussi dans les [expressions](Expressions/fr.md) générales; voir la section [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md) pour plus d\'informations.
 
 ## Expressions dans les cellules 
 
@@ -86,7 +86,7 @@ Une cellule de feuille de calcul peut contenir un nombre, un texte ou une expres
 
 Les expressions de cellules peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir [Limitations actuelles](#Limites_actuelles.md) ci-dessous). Une cellule peut être référencée par son adresse (lettre majuscule de la colonne + numéro de ligne, par exemple B4) ou par son [alias](Spreadsheet_SetAlias/fr.md).
 
-**Remarque    *** les expressions de cellules sont traitées par FreeCAD comme du code de programmation. Par conséquent, lorsque vous modifiez une cellule, le contenu que vous voyez peut ne pas suivre vos paramètres d\'affichage    *
+**Remarque :** les expressions de cellules sont traitées par FreeCAD comme du code de programmation. Par conséquent, lorsque vous modifiez une cellule, le contenu que vous voyez peut ne pas suivre vos paramètres d\'affichage :
 
 -   Le séparateur décimal est toujours un point. Mais les virgules peuvent également être utilisées lors de la saisie des valeurs.
 -   Le nombre de décimales affichées peut différer de vos [paramètres de préférences](Preferences_Editor/fr#Unit.C3.A9s.md).
@@ -111,7 +111,7 @@ FreeCAD vérifie les dépendances cycliques. Voir [limitations courantes](Spread
 
 Comme indiqué ci-dessus, il est possible de référencer les données du modèle CAO dans des expressions de feuille de calcul.
 
-Le tableau suivant montre quelques exemples en supposant que le modèle a une fonctionnalité nommée \"MyCube\"    *
+Le tableau suivant montre quelques exemples en supposant que le modèle a une fonctionnalité nommée \"MyCube\" :
 
 ++++
 | Donnée CAO                                            | Cellule dans la feuille de calcul                        | Résultat                     |
@@ -124,11 +124,11 @@ Le tableau suivant montre quelques exemples en supposant que le modèle a une fo
 |                                                       | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                              |
 |                                                       |                                                       |                              |
 ++++
-| Type de la forme du cube                              |                                           | Chaîne de caractère    * Solid  |
+| Type de la forme du cube                              |                                           | Chaîne de caractère : Solid  |
 |                                                       | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                              |
 |                                                       |                                                       |                              |
 ++++
-| Nom du cube                                           |                                           | Chaîne de caractère    * MyCube |
+| Nom du cube                                           |                                           | Chaîne de caractère : MyCube |
 |                                                       | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                              |
 |                                                       |                                                       |                              |
 ++++
@@ -177,18 +177,18 @@ Bien que vous puissiez utiliser le numéro de ligne et de colonne dans une expre
 
 La modification d\'une feuille de calcul déclenchera un recalcul du modèle 3D, même si les modifications n\'affectent pas le modèle. Pour un modèle complexe, un recalcul peut prendre beaucoup de temps et devoir attendre après chaque édition est bien sûr assez ennuyeux.
 
-Il existe trois solutions pour y remédier    *
+Il existe trois solutions pour y remédier :
 
-1.  Ignorez temporairement les recalculs    *
-    -   Dans la [Vue en arborescence](Tree_view/fr.md), clic droit sur le document <img alt="" src=images/Document.svg  style="width   *24px;"> qui contient la feuille de calcul.
+1.  Ignorez temporairement les recalculs :
+    -   Dans la [Vue en arborescence](Tree_view/fr.md), clic droit sur le document <img alt="" src=images/Document.svg  style="width:24px;"> qui contient la feuille de calcul.
     -   Sélectionnez l\'option **Skip recomputes** dans le menu contextuel.
     -   Il y a un gros inconvénient à cette solution. Les nouvelles valeurs entrées dans la feuille de calcul ne seront pas affichées tant que le document n\'aura pas été recalculé. Au lieu de cela, `#PENDING` est affiché.
     -   Vous pouvez soit recalculer manuellement, en utilisant la commande [Std Rafraîchir](Std_Refresh/fr.md), soit désactiver **Skip recomputes** lorsque vous avez terminé l\'édition.
-2.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul    *
-    -   Téléchargez et exécutez [skipSheet.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
+2.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul :
+    -   Téléchargez et exécutez [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   Cette solution économise quelques étapes par rapport à la première solution, mais présente également l\'inconvénient mentionné.
-3.  Mettez la feuille de calcul dans un [fichier séparé](File_Format_FCStd/fr.md)    *
-    -   Vous pouvez référencer des données de feuille de calcul à partir d\'un fichier externe **.FCStd** avec cette syntaxe   * `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+3.  Mettez la feuille de calcul dans un [fichier séparé](File_Format_FCStd/fr.md) :
+    -   Vous pouvez référencer des données de feuille de calcul à partir d\'un fichier externe **.FCStd** avec cette syntaxe: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   L\'avantage d\'avoir la feuille de calcul dans un autre fichier par rapport à la désactivation des recalculs est que la feuille de calcul elle-même est recalculée.
     -   L\'inconvénient est que le modèle ne recalculera pas automatiquement après les modifications apportées à la feuille de calcul.
     -   Dans le scénario où vous ouvrez d\'abord le fichier \"tableur\", changez une ou plusieurs valeurs puis ouvrez le fichier \"modèle\", il n\'y aura aucune indication que le modèle doit être recalculé. Mais si les deux fichiers sont ouverts, l\'icône [Std Rafraîchir](Std_Refresh/fr.md) se mettra à jour correctement pour le fichier \"modèle\" après les modifications apportées au fichier \"tableur\".
@@ -197,7 +197,7 @@ Il existe trois solutions pour y remédier    *
 
 Le tableur intègre une notion de dimension (unités) associée aux valeurs de cellule. Un numéro entré sans unité associée n\'a pas de dimension. L\'unité doit être entrée immédiatement après la valeur numérique, sans espace intermédiaire. Si un nombre a une unité associée, cette unité sera utilisée dans tous les calculs. Par exemple, la multiplication de deux longueurs avec l\'unité mm donne une surface avec l\'unité mm².
 
-Si une cellule contient une valeur qui représente une dimension, vous devez la saisir avec son unité associée. Bien que dans de nombreux cas simples, on puisse se débrouiller avec une valeur sans dimension, il est déconseillé de ne pas entrer l\'unité. Si une valeur représentant une dimension est entrée sans son unité associée, certaines séquences d\'opérations obligent FreeCAD à alerter sur les unités incompatibles dans une expression lorsqu\'il apparaît que celle-ci doit être validée. (Cela peut être mieux compris en consultant ce [sujet (en)](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) dans les forums FreeCAD.)
+Si une cellule contient une valeur qui représente une dimension, vous devez la saisir avec son unité associée. Bien que dans de nombreux cas simples, on puisse se débrouiller avec une valeur sans dimension, il est déconseillé de ne pas entrer l\'unité. Si une valeur représentant une dimension est entrée sans son unité associée, certaines séquences d\'opérations obligent FreeCAD à alerter sur les unités incompatibles dans une expression lorsqu\'il apparaît que celle-ci doit être validée. (Cela peut être mieux compris en consultant ce [sujet (en)](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) dans les forums FreeCAD.)
 
 Vous pouvez modifier les unités affichées pour la valeur d\'une cellule à l\'aide de la [boîte de dialogue Propriétés de la cellule](#Propri.C3.A9t.C3.A9s_d.27une_cellule.md). Cela ne modifie pas la valeur contenue dans la cellule; cela ne fait que convertir la valeur existante pour l\'affichage. La valeur utilisée pour les calculs ne change pas, et les résultats des formules utilisant cette valeur ne changent pas. Par exemple, une cellule contenant la valeur \"5.08cm\" peut être affichée sous la forme \"2in\" en modifiant la valeur de l\'onglet des unités en \"in\".
 
@@ -209,11 +209,11 @@ Parfois, il peut être souhaitable de supprimer une dimension dans une expressio
 
 ### Format CSV 
 
-Les feuilles de calcul FreeCAD peuvent être importées et exportées au format [CSV](https   *//fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des autres applications de feuilles de calcul telles que Microsoft Excel ou LibreOffice Calc. Voir [Spreadsheet Importer](Spreadsheet_Import/fr.md) et [Spreadsheet Exporter](Spreadsheet_Export/fr.md) pour plus d\'informations.
+Les feuilles de calcul FreeCAD peuvent être importées et exportées au format [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des autres applications de feuilles de calcul telles que Microsoft Excel ou LibreOffice Calc. Voir [Spreadsheet Importer](Spreadsheet_Import/fr.md) et [Spreadsheet Exporter](Spreadsheet_Export/fr.md) pour plus d\'informations.
 
 ### Format XLSX 
 
-Les feuilles de calcul au format Excel XLSX peuvent être importées avec la commande [Std Importer](Std_Import/fr.md) ou la commande [Std Ouvrir](Std_Open/fr.md). Les fonctionnalités suivantes sont prises en charge    *
+Les feuilles de calcul au format Excel XLSX peuvent être importées avec la commande [Std Importer](Std_Import/fr.md) ou la commande [Std Ouvrir](Std_Open/fr.md). Les fonctionnalités suivantes sont prises en charge :
 
 -   Toutes les fonctions qui sont également disponibles dans la feuille de calcul FreeCAD. D\'autres fonctions donnent une erreur dans la cellule correspondante après l\'importation.
 -   Noms d\'alias pour les cellules.
@@ -227,7 +227,7 @@ Pour gérer la mise en page nécessaire à l\'impression, les feuilles de calcul
 
 ## Limites actuelles 
 
-FreeCAD vérifie les dépendances cycliques lorsqu\'il recalcule. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul    * l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
+FreeCAD vérifie les dépendances cycliques lorsqu\'il recalcule. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul : l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
 
 ## Liaison entre cellules 
 
@@ -238,12 +238,12 @@ Il est possible de lier le contenu des cellules à d\'autres cellules du tableur
 
 ### Créer une liaison 
 
-Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2    *
+Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2 :
 
 1.  Sélectionnez la plage de cellules A3-C4.
 2.  Cliquez du bouton droit de la souris et sélectionnez **Lier...** dans le menu contextuel.
 3.  Le dialogue **Lier des cellules de la feuille de calcul** s\'ouvre.
-4.  Définissez la plage B1-D2 pour les **Vers les cellules**    *
+4.  Définissez la plage B1-D2 pour les **Vers les cellules** :
     ![](images/Spreadsheet_binding-dialog.png )
 5.  Appuyez sur **OK**.
 6.  Les cellules liées ont une bordure bleue pour mettre en évidence la liaison.
@@ -267,7 +267,7 @@ Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2
 
 ### Remarques
 
--   L\'option **Masquer la dépendance de la liaison** peut être utilisée pour éviter les problèmes de dépendances cycliques entre les feuilles de calcul. Il est nécessaire de la sélectionner lorsque, par exemple, des cellules de la *Feuille de calcul A* sont liées à la *Feuille de calcul B*, tandis que des cellules de la *Feuille de calcul B* sont à leur tour liées à d\'autres cellules de la *Feuille de calcul A*. Cette option doit être utilisée avec prudence    *
+-   L\'option **Masquer la dépendance de la liaison** peut être utilisée pour éviter les problèmes de dépendances cycliques entre les feuilles de calcul. Il est nécessaire de la sélectionner lorsque, par exemple, des cellules de la *Feuille de calcul A* sont liées à la *Feuille de calcul B*, tandis que des cellules de la *Feuille de calcul B* sont à leur tour liées à d\'autres cellules de la *Feuille de calcul A*. Cette option doit être utilisée avec prudence :
     -   Masquer les dépendances peut être dangereux car des dépendances cassées peuvent endommager votre fichier FreeCAD. Par exemple, lorsque vous supprimez une feuille de calcul, vous ne serez pas averti des dépendances cachées.
     -   Lorsque vous ouvrez un document avec une feuille de calcul contenant une dépendance cachée, vous obtiendrez la feuille de calcul marquée pour être recalculée. Cela est dû au fait qu\'une dépendance cyclique ne peut pas être recalculée automatiquement. Pour recalculer, il faut utiliser l\'outil [Std Rafraichir](Std_Refresh/fr.md).
 -   La liaison des cellules possède une vérification de l\'étendue et vous avertit en cas d\'étendue non concordante. Par exemple, lier des cellules 1x3 à des cellules 3x2 ne peut pas fonctionner car on ne sait pas quelles sont les 3 cellules à utiliser sur les 6 cellules d\'origine.
@@ -279,7 +279,7 @@ Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2
 
 {{Version/fr|0.20}}
 
-Vous pouvez utiliser des tableurs pour créer des tables de configuration avec des ensembles de paramètres prédéfinis pour votre modèle, puis modifier dynamiquement la configuration à utiliser. Consultez [ce message du forum](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183) si vous souhaitez en savoir plus sur les rouages de cette fonctionnalité.
+Vous pouvez utiliser des tableurs pour créer des tables de configuration avec des ensembles de paramètres prédéfinis pour votre modèle, puis modifier dynamiquement la configuration à utiliser. Consultez [ce message du forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) si vous souhaitez en savoir plus sur les rouages de cette fonctionnalité.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -291,20 +291,20 @@ Développez cette section pour un bref tutoriel sur la création d\'une table de
 
 1.  Dans un nouveau document, créez d\'abord un [Std Part](Std_Part/fr.md), puis créez un [Part Cube](Part_Box/fr.md), un [Part Cylindre](Part_Cylinder/fr.md) et une feuille de calcul.
 2.  Le cube et le cylindre sont automatiquement placés dans le conteneur [Std Part](Std_Part/fr.md). Placez manuellement la feuille de calcul dans le conteneur également.
-3.  Dans la feuille de calcul, entrez le contenu comme indiqué ci-dessous. Définissez l\'alias de B2 à {{Value|width}}, C2 à {{Value|length}} et D2 à {{Value|radius}}    *
+3.  Dans la feuille de calcul, entrez le contenu comme indiqué ci-dessous. Définissez l\'alias de B2 à {{Value|width}}, C2 à {{Value|length}} et D2 à {{Value|radius}} :
     ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Liez les [expressions](Expressions/fr.md) {{Value|Spreadsheet.width}} et {{Value|Spreadsheet.length}} aux propriétés de la boîte **Width** et **Length**, respectivement    *
+4.  Liez les [expressions](Expressions/fr.md) {{Value|Spreadsheet.width}} et {{Value|Spreadsheet.length}} aux propriétés de la boîte **Width** et **Length**, respectivement :
     ![](images/Spreadsheet_configuration_table_screenshot_2.png )
 5.  Liez l\'expression {{Value|Spreadsheet.radius}} à la propriété **Radius** du cylindre. Changez également la propriété **Height** du cylindre en {{Value|5 mm}} pour qu\'il soit plus bas que la boîte.
 6.  Clic droit sur la cellule A2 dans la feuille de calcul et sélectionner **Configuration de la table...** dans le menu contextuel.
 7.  La boîte de dialogue **Paramétrer une table de configuration** s\'ouvre.
-8.  Saisissez les éléments suivants    *
+8.  Saisissez les éléments suivants :
     ![](images/Spreadsheet_configuration_table_screenshot_5.png )
 9.  Appuyez sur **OK**.
-10. Une nouvelle propriété appelée **Configuration** est ajoutée au conteneur [Std Part](Std_Part/fr.md) pour choisir la configuration comme indiqué ci-dessous    *
+10. Une nouvelle propriété appelée **Configuration** est ajoutée au conteneur [Std Part](Std_Part/fr.md) pour choisir la configuration comme indiqué ci-dessous :
     ![](images/Spreadsheet_configuration_table_screenshot_6.png )
 
-Vous pouvez utiliser un [Std Lien](Std_LinkMake/fr.md) ou une [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) pour instancier une [instance variante](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) d\'un objet configurable en suivant les étapes suivantes    *
+Vous pouvez utiliser un [Std Lien](Std_LinkMake/fr.md) ou une [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) pour instancier une [instance variante](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) d\'un objet configurable en suivant les étapes suivantes :
 
 1.  Créez un [Std Lien](Std_LinkMake/fr.md) vers le conteneur [Std Part](Std_Part/fr.md) et attribuez à sa propriété **Link Copy On Change** la valeur {{Value|Enabled}}.
 2.  Déplacez le lien vers un nouvel emplacement en modifiant **Placement** afin qu\'il soit plus facile à distinguer de l\'objet d\'origine.
@@ -323,7 +323,7 @@ Des étapes similaires s\'appliquent à une [PartDesign Sous forme liée](PartDe
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet   *   *Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
 sheet.Label = "Dimensions"
 
 sheet.set('A1','10mm')
@@ -342,9 +342,7 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

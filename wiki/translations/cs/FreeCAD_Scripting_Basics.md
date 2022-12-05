@@ -9,11 +9,11 @@ If you are not familiar with Python, we recommend you search for tutorials on th
 
 ### The interpreter 
 
-From the interpreter, you can access all your system-installed Python modules, as well as the built-in FreeCAD modules, and all additional FreeCAD modules you installed later. The screenshot below shows the Python interpreter   *
+From the interpreter, you can access all your system-installed Python modules, as well as the built-in FreeCAD modules, and all additional FreeCAD modules you installed later. The screenshot below shows the Python interpreter:
 
 ![The FreeCAD Python interpreter](images/screenshot_pythoninterpreter.jpg )
 
-From the interpreter, you can execute Python code and browse through the available classes and functions. FreeCAD provides a very handy class browser for exploration of the FreeCAD world   * When you type the name of a known class followed by a period (meaning you want to add something from that class), a class browser window opens, where you can navigate between available subclasses and methods. When you select something, an associated help text (if it exists) is displayed   *
+From the interpreter, you can execute Python code and browse through the available classes and functions. FreeCAD provides a very handy class browser for exploration of the FreeCAD world: When you type the name of a known class followed by a period (meaning you want to add something from that class), a class browser window opens, where you can navigate between available subclasses and methods. When you select something, an associated help text (if it exists) is displayed:
 
 ![The FreeCAD class browser](images/screenshot_classbrowser.jpg )
 
@@ -29,7 +29,7 @@ In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python m
 
 ## Built-in modules 
 
-Since FreeCAD is designed so that it can also be run without a Graphical User Interface (GUI), almost all its functionality is separated into two groups   * Core functionality, named `App`, and GUI functionality, named `Gui`. These two modules can also be accessed from scripts outside of the interpreter, by the names `FreeCAD` and `FreeCADGui` respectively.
+Since FreeCAD is designed so that it can also be run without a Graphical User Interface (GUI), almost all its functionality is separated into two groups: Core functionality, named `App`, and GUI functionality, named `Gui`. These two modules can also be accessed from scripts outside of the interpreter, by the names `FreeCAD` and `FreeCADGui` respectively.
 
 -   In the `App` module you\'ll find everything related to the application itself, like methods for opening or closing files, and to the documents, like setting the active document or listing their contents.
 
@@ -45,28 +45,28 @@ This way of doing things allows a very wide range of uses, like having algorithm
 
 For every `App` object in your document, there exists a corresponding `Gui` object. In fact the document itself has both an `App` and a `Gui` object. This, of course, only applies when you run FreeCAD with its full interface. In the command-line version no GUI exists, so only `App` objects are available. Note that the `Gui` part of objects is re-generated every time an `App` object is marked as \'to be recomputed\' (for example when one of its parameters changes), so any changes made directly to the `Gui` object may be lost.
 
-To access the `App` part of something, you type   *
+To access the `App` part of something, you type:
 
 
 ```python
 myObject = App.ActiveDocument.getObject("ObjectName")
 ```
 
-where `"ObjectName"` is the name of your object. You can also type   *
+where `"ObjectName"` is the name of your object. You can also type:
 
 
 ```python
 myObject = App.ActiveDocument.ObjectName
 ```
 
-To access the `Gui` part of the same object, you type   *
+To access the `Gui` part of the same object, you type:
 
 
 ```python
 myViewObject = Gui.ActiveDocument.getObject("ObjectName")
 ```
 
-where `"ObjectName"` is the name of your object. You can also type   *
+where `"ObjectName"` is the name of your object. You can also type:
 
 
 ```python
@@ -79,28 +79,28 @@ If you are in command-line mode and have no GUI, the last line will return `None
 
 In FreeCAD all your work resides inside documents. A document contains your geometry and can be saved to a file. Several documents can be opened at the same time. The document, like the geometry contained inside, has `App` and `Gui` objects. The `App` object contains your actual geometry definitions, while the `Gui` object contains the different views of your document. You can open several windows, each one viewing your work with a different zoom factor or from a different direction. These views are all part of your document\'s `Gui` object.
 
-To access the `App` part of the currently open (active) document, you type   *
+To access the `App` part of the currently open (active) document, you type:
 
 
 ```python
 myDocument = App.ActiveDocument
 ```
 
-To create a new document, type   *
+To create a new document, type:
 
 
 ```python
 myDocument = App.newDocument("Document Name")
 ```
 
-To access the `Gui` part of the currently open (active) document, you type   *
+To access the `Gui` part of the currently open (active) document, you type:
 
 
 ```python
 myGuiDocument = Gui.ActiveDocument
 ```
 
-To access the current view, you type   *
+To access the current view, you type:
 
 
 ```python
@@ -112,26 +112,26 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Using additional modules 
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http   *//en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
 
 ### Creating objects 
 
-Each module has its own way of dealing with geometry, but one thing they usually all can do is create objects in the document. But the FreeCAD document is also aware of the available object types provided by the modules   *
+Each module has its own way of dealing with geometry, but one thing they usually all can do is create objects in the document. But the FreeCAD document is also aware of the available object types provided by the modules:
 
 
 ```python
 FreeCAD.ActiveDocument.supportedTypes()
 ```
 
-will list all possible objects you can create. For example, let\'s create a mesh (handled by the `Mesh` module) and a part (handled by the `Part` module)   *
+will list all possible objects you can create. For example, let\'s create a mesh (handled by the `Mesh` module) and a part (handled by the `Part` module):
 
 
 ```python
-myMesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "myMeshName")
-myPart = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myPartName")
+myMesh = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "myMeshName")
+myPart = FreeCAD.ActiveDocument.addObject("Part::Feature", "myPartName")
 ```
 
-The first argument is the object type, the second the name of the object. Our two objects look almost the same   * They don\'t contain any geometry yet, and most of their properties are the same when you inspect them with `dir(myMesh)` and `dir(myPart)`. Except for one thing, `myMesh` has a `Mesh` property and `myPart` has a `Shape` property. That is where the Mesh and Part data are stored. For example, let\'s create a `Part` cube and store it in our `myPart` object   *
+The first argument is the object type, the second the name of the object. Our two objects look almost the same: They don\'t contain any geometry yet, and most of their properties are the same when you inspect them with `dir(myMesh)` and `dir(myPart)`. Except for one thing, `myMesh` has a `Mesh` property and `myPart` has a `Shape` property. That is where the Mesh and Part data are stored. For example, let\'s create a `Part` cube and store it in our `myPart` object:
 
 
 ```python
@@ -140,7 +140,7 @@ cube = Part.makeBox(2, 2, 2)
 myPart.Shape = cube
 ```
 
-You could try storing the cube inside the `Mesh` property of the `myMesh` object, but it will return an error. That is because each properties is made to store only a certain type. In a `Mesh` property, you can only save stuff created with the `Mesh` module. Note that most modules also have a shortcut to add their geometry to the document   *
+You could try storing the cube inside the `Mesh` property of the `myMesh` object, but it will return an error. That is because each properties is made to store only a certain type. In a `Mesh` property, you can only save stuff created with the `Mesh` module. Note that most modules also have a shortcut to add their geometry to the document:
 
 
 ```python
@@ -154,7 +154,7 @@ Part.show(cube)
 
 ### Modifying objects 
 
-Modifying an object is done in the same way   *
+Modifying an object is done in the same way:
 
 
 ```python
@@ -163,7 +163,7 @@ cube = Part.makeBox(2, 2, 2)
 myPart.Shape = cube
 ```
 
-Now let\'s change the shape by a bigger one   *
+Now let\'s change the shape by a bigger one:
 
 
 ```python
@@ -176,7 +176,7 @@ myPart.Shape = biggercube
 
 ### Querying objects 
 
-You can always look at the type of an object like this   *
+You can always look at the type of an object like this:
 
 
 ```python
@@ -184,14 +184,14 @@ myObj = FreeCAD.ActiveDocument.getObject("myObjectName")
 print(myObj.TypeId)
 ```
 
-or check if an object is derived from one of the basic ones (Part Feature, Mesh Feature, etc)   *
+or check if an object is derived from one of the basic ones (Part Feature, Mesh Feature, etc):
 
 
 ```python
-print(myObj.isDerivedFrom("Part   *   *Feature"))
+print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the [Category   *API](   *Category_API.md) section. {{Top}}
+Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the  section. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -201,11 +201,6 @@ Now you can really start playing with FreeCAD! For a complete list of available 
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

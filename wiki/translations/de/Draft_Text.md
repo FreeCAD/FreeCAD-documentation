@@ -1,30 +1,30 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Text
-   Name/de   *Draft Text
-   MenuLocation   *Anmerkung → Text
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut   ***T** **E**
-   Version   *0.7
-   SeeAlso   *[Draft Notiz](Draft_Label/de.md), [Draft Textform](Draft_ShapeString/de.md)
+- GuiCommand:/de
+   Name:Draft Text
+   Name/de:Draft Text
+   MenuLocation:Anmerkung → Text
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**T** **E**
+   Version:0.7
+   SeeAlso:[Draft Notiz](Draft_Label/de.md), [Draft Textform](Draft_ShapeString/de.md)
 ---
 
 # Draft Text/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Text.svg  style="width   *24px;"> **Draft Text** erstellt einen mehrzeiligen Text an einem vorgegebenen Punkt.
+Der Befehl <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Text** erstellt einen mehrzeiligen Text an einem vorgegebenen Punkt.
 
 Um stattdessen ein Textelement mit einem Hinweispfeil zu erstellen, verwendet man den Befehl [Draft Notiz](Draft_Label/de.md).
 
-<img alt="" src=images/Draft_Text_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Ein einzelner Punkt, den das Positionieren des Textes erfordert*
 
 ## Anwendung
 
-Siehe auch   * [Draft Fach](Draft_Tray/de.md) and [Draft Fangen](Draft_Snap/de.md).
+Siehe auch: [Draft Fach](Draft_Tray/de.md) and [Draft Fangen](Draft_Snap/de.md).
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Text.svg" width=16px> [Draft Text](Draft_Text.md)** drücken.
     -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Text.svg" width=16px> Text** auswählen.
     -   Das Tastaturkürzel **T** dann **E**.
@@ -57,9 +57,9 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften   *
+Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften:
 
 ### Daten
 
@@ -71,13 +71,13 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 ### Daten 
 
--    {{PropertyData/de|Text}}   * gibt den Inhalt des Textblocks als Liste von Zeichenketten an; jedes Element auf der Liste, durch ein Komma getrennt, zeigt eine neue Zeile an.
+-    {{PropertyData/de|Text}}: gibt den Inhalt des Textblocks als Liste von Zeichenketten an; jedes Element auf der Liste, durch ein Komma getrennt, zeigt eine neue Zeile an.
 
--    {{PropertyData/de|Position}}   * gibt den Basispunkt der ersten Zeile des Textblocks an.
+-    {{PropertyData/de|Position}}: gibt den Basispunkt der ersten Zeile des Textblocks an.
 
--    {{PropertyData/de|Winkel}}   * gibt die Rotation der Grundlinie der ersten Zeile des Textblocks an.
+-    {{PropertyData/de|Winkel}}: gibt die Rotation der Grundlinie der ersten Zeile des Textblocks an.
 
--    {{PropertyData/de|Achse}}   * gibt die Achse an, die für die Rotation verwendet werden soll.
+-    {{PropertyData/de|Achse}}: gibt die Achse an, die für die Rotation verwendet werden soll.
 
 
 </div>
@@ -87,21 +87,21 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**   * specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: specifies the annotation style applied to the text. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**   * specifies the general scaling factor applied to the text.
+-    **Scale Multiplier|Float**: specifies the general scaling factor applied to the text.
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**   * specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
 
 
 {{TitleProperty|Graphics}}
 
--    **Line Color|Color**   * not used.
+-    **Line Color|Color**: not used.
 
--    **Line Width|Float**   * not used.
+-    **Line Width|Float**: not used.
 
 
 {{TitleProperty|Text}}
@@ -111,27 +111,27 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 ### Ansicht 
 
--    {{PropertyView/de|Ansichtsmodus}}   * wenn es sich um \"3D Text\" handelt, wird der Text an den Szenenachsen ausgerichtet, wobei er zunächst auf der XY Ebene liegt; wenn es sich um \"2D Text\" handelt, wird der Text immer der Kamera zugewandt sein.
+-    {{PropertyView/de|Ansichtsmodus}}: wenn es sich um \"3D Text\" handelt, wird der Text an den Szenenachsen ausgerichtet, wobei er zunächst auf der XY Ebene liegt; wenn es sich um \"2D Text\" handelt, wird der Text immer der Kamera zugewandt sein.
 
--    {{PropertyView/de|Schriftartname}}   * gibt die Schriftart an, die zum Zeichnen des Textes verwendet werden soll. Es kann ein Schriftname wie \"Arial\", ein Standardstil wie \"sans\", \"serif\" oder \"mono\", eine Familie wie \"Arial, Helvetica, sans\" oder ein Name mit einem Stil wie \"Arial   *Bold\" sein. Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird stattdessen eine generische Schriftart verwendet.
+-    {{PropertyView/de|Schriftartname}}: gibt die Schriftart an, die zum Zeichnen des Textes verwendet werden soll. Es kann ein Schriftname wie \"Arial\", ein Standardstil wie \"sans\", \"serif\" oder \"mono\", eine Familie wie \"Arial, Helvetica, sans\" oder ein Name mit einem Stil wie \"Arial:Bold\" sein. Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird stattdessen eine generische Schriftart verwendet.
 
--    {{PropertyView/de|Schriftgröße}}   * gibt die Größe der Buchstaben an. Wenn das Textobjekt in der Baumansicht erstellt wird, aber kein Text sichtbar ist, erhöhe die Größe des Textes, bis er sichtbar ist.
+-    {{PropertyView/de|Schriftgröße}}: gibt die Größe der Buchstaben an. Wenn das Textobjekt in der Baumansicht erstellt wird, aber kein Text sichtbar ist, erhöhe die Größe des Textes, bis er sichtbar ist.
 
--    {{PropertyView/de|Ausrichtung}}   * gibt an, ob der Text links, rechts oder in der Mitte des Basispunktes ausgerichtet ist.
+-    {{PropertyView/de|Ausrichtung}}: gibt an, ob der Text links, rechts oder in der Mitte des Basispunktes ausgerichtet ist.
 
--    **Zeilenabstand**   * gibt den Abstand zwischen den Textzeilen an.
+-    **Zeilenabstand**: gibt den Abstand zwischen den Textzeilen an.
 
 
 </div>
 
 ## Skripten
 
-Siehe auch   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Das Textwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
+Das Textwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
 
 
 </div>
@@ -161,7 +161,7 @@ Die Ansichtseigenschaften von `Text` können durch Überschreiben seiner Attribu
 
 </div>
 
-Beispiel   *
+Beispiel:
 
 
 ```python

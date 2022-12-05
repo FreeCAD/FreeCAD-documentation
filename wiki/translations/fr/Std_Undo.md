@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std Undo
-   Name/fr   *Std Annuler
-   MenuLocation   *Édition → Annuler
-   Workbenches   *Tous
-   Shortcut   ***Ctrl**+**Z**
-   SeeAlso   *[Std Rétablir](Std_Redo/fr.md)
+- GuiCommand:/fr
+   Name:Std Undo
+   Name/fr:Std Annuler
+   MenuLocation:Édition → Annuler
+   Workbenches:Tous
+   Shortcut:**Ctrl**+**Z**
+   SeeAlso:[Std Rétablir](Std_Redo/fr.md)
 ---
 
 # Std Undo/fr
@@ -16,10 +16,10 @@ La commande **Std Annuler** annule la dernière action.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande    *
+1.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/Std_Undo.svg" width=16px> [Std  Annuler](Std_Undo/fr.md)**.
     -   Sélectionnez l\'option **Edition → <img src="images/Std_Undo.svg" width=16px> Annuler** dans le menu.
-    -   Utilisez le raccourci clavier    * **Ctrl**+**Z**.
+    -   Utilisez le raccourci clavier : **Ctrl**+**Z**.
 
 ## Options
 
@@ -33,7 +33,7 @@ La commande **Std Annuler** annule la dernière action.
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

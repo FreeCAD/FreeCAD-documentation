@@ -1,6 +1,6 @@
 # Raytracing InsertPart/ro
 ---
-- GuiCommand   *   Name   *Raytracing InsertPart   MenuLocation   *Raytracing → InsertPart‏‎   |Workbenches   *[[Raytracing_Workbench   Raytracing]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:   Name:Raytracing InsertPart   MenuLocation:Raytracing → InsertPart‏‎   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
 
 </div>

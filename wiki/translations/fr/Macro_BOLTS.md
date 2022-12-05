@@ -12,20 +12,20 @@ BOLTS est un projet de construction d\'une bibliothèque de pièces standards li
 
 BOLTS pour FreeCAD offre un widget qui permet d\'insérer des pièces dans le document actif. Les tailles et variantes d\'une pièce peuvent être sélectionnés dans le widget qui affiche une étiquette descriptive de la pièce.
 
-<img alt="" src=images/freecad-bearing.png  style="width   *480px;"> 
+<img alt="" src=images/freecad-bearing.png  style="width:480px;"> 
 *Le widget BOLTS et un roulement de BOLTS*
 
 ## Script
 
-Plus d\'informations sur BOLTS se trouve sur la [www.bolts-library.org](https   *//www.bolts-library.org/en/index.html) et sur github [<https   *//github.com/boltsparts>](https   *//github.com/boltsparts).
+Plus d\'informations sur BOLTS se trouve sur la [www.bolts-library.org](https://www.bolts-library.org/en/index.html) et sur github [<https://github.com/boltsparts>](https://github.com/boltsparts).
 
-La page web fournit également le package [BOLTSFC](https   *//github.com/boltsparts/BOLTSFC) et directement installable dans FreeCAD.
+La page web fournit également le package [BOLTSFC](https://github.com/boltsparts/BOLTSFC) et directement installable dans FreeCAD.
 
-**note**   * BOLTS fait aussi partie des [FreeCAD addons](https   *//github.com/FreeCAD/FreeCAD-addons) et peut être installé depuis AddonInstaller.
+**note**: BOLTS fait aussi partie des [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) et peut être installé depuis AddonInstaller.
 
 ## Utilisation
 
-Les instructions détaillées sur la [section documentation](https   *//github.com/boltsparts/BOLTSFC/blob/master/README.md) ou les pages    *
+Les instructions détaillées sur la [section documentation](https://github.com/boltsparts/BOLTSFC/blob/master/README.md) ou les pages :
 
 -   Comment installer BOLTS dans FreeCAD
 -   Comment configurer la barre d\'outils pour BOLTS
@@ -35,7 +35,7 @@ Les instructions détaillées sur la [section documentation](https   *//github.c
 
 Une bibliothèque de pièces utiles pour un large éventail de personnes n\'est réalisable que par un effort collectif.
 
-Il existe de nombreuses possibilités et façons de [contribuer à BOLTS](https   *//boltsparts.github.io/en/contribute.html).
+Il existe de nombreuses possibilités et façons de [contribuer à BOLTS](https://boltsparts.github.io/en/contribute.html).
 
 
 

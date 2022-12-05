@@ -1,9 +1,9 @@
 ---
-- TutorialInfo   *   Topic   *Sketch
-   Level   *Beginner
-   Author   *[Maker](User_Maker.md)
-   Time   *
-   FCVersion   *
+- TutorialInfo:   Topic:Sketch
+   Level:Beginner
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:
 ---
 
 # Sketcher requirement for a sketch/pt-br
@@ -16,16 +16,16 @@
 
 The creation of a body in the workspace PartDesign is already possible and *only* with the help of a closed curve (profile). The complete determination of all their dimensions and properties (*fully constrained*) is not yet required.
 
-That a closed curve is present, is not self-evident and not recognizable. When connecting a circular arc to a straight line, e.g. The two endpoints are created only one above the other. You must use the <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraint to make a single point that actually connects the line and the arc.
+That a closed curve is present, is not self-evident and not recognizable. When connecting a circular arc to a straight line, e.g. The two endpoints are created only one above the other. You must use the <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraint to make a single point that actually connects the line and the arc.
 
 ![](images/Skizze2a.png )
 
 
 
 *A simple sketch. 
-Left   * Curve only in four places (red, automatic constraints when drawing with [<img src=images/_Sketcher_CreatePolyline.svg style="width   *32px"> [Polyline](Sketcher_CreatePolyline.md)) closed. 
-Middle   * Warning - ... broken face (broken curve). 
-Right   * Curve closed at remaining four places (green)*
+Left: Curve only in four places (red, automatic constraints when drawing with [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polyline](Sketcher_CreatePolyline.md)) closed. 
+Middle: Warning - ... broken face (broken curve). 
+Right: Curve closed at remaining four places (green)*
 
 However, consistent parametric working means that the sketch is completely determined.
 

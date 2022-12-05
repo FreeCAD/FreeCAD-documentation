@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Drawing Symbol
-   Name/fr   *Drawing Symbole
-   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation   *Drawing → Symbole
-   Shortcut   *
+- GuiCommand:/fr
+   Name:Drawing Symbol
+   Name/fr:Drawing Symbole
+   Workbenches:[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation:Drawing → Symbole
+   Shortcut:
 ---
 
 # Drawing Symbol/fr

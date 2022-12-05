@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Уместить всё
-   Name   *Std_ViewFitAll
-   MenuLocation   *Вид → Стандартные виды‏‎ → Уместить всё
-   Workbenches   *Все
-   Shortcut   ***V** **F**
-   SeeAlso   *[Уместить выделенное](Std_ViewFitSelection/ru.md)
+- GuiCommand:/ru
+   Name/ru:Уместить всё
+   Name:Std_ViewFitAll
+   MenuLocation:Вид → Стандартные виды‏‎ → Уместить всё
+   Workbenches:Все
+   Shortcut:**V** **F**
+   SeeAlso:[Уместить выделенное](Std_ViewFitSelection/ru.md)
 ---
 
 # Std ViewFitAll/ru
@@ -16,11 +16,11 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 
 ## Применение
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the menu.
     -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut   * **V** then **F**.
+    -   Use the keyboard shortcut: **V** then **F**.
 
 ## Примечания
 
@@ -29,7 +29,7 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

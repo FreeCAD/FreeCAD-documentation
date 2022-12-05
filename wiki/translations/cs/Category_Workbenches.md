@@ -1,8 +1,6 @@
 # Category:Workbenches/cs
 This category lists workbenches included in FreeCAD.
 
-[Category   *User Documentation/cs](Category   *User_Documentation/cs.md)
-
 ### Contents
 
 |     |     |     |

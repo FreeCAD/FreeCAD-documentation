@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */fr
-   Topic   *Tutoriel de portage Wikihouse
-   Level   *Intermediaire/Avancé
-   Time   *60 minutes
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/fr
+   Topic:Tutoriel de portage Wikihouse
+   Level:Intermediaire/Avancé
+   Time:60 minutes
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # Wikihouse porting tutorial/fr
@@ -16,13 +16,13 @@
 
 ## Introduction
 
-Ce tutoriel va vous montrer comment convertir les fichiers [SketchUp](http   *//www.sketchup.com/) utilisés par le projet [WikiHouse](http   *//wikihouse.cc/) en FreeCAD, en utilisant l\'outil [Arch Panneau](Arch_Panel/fr.md) dans FreeCAD. Le résultat est une copie complète du fichier SketchUp d\'origine, la différence est qu\'il est devenu entièrement paramétrique. Le niveau de paramétrage du fichier final dépend du travail que vous y consacrez, comme expliqué ci-dessous. Mais il est tout à fait possible de faire le travail pas à pas, et de reconstruire le fichier Wikihouse rapidement, et de laisser la plus longue conversion des profils de base aux esquisses pour plus tard.
+Ce tutoriel va vous montrer comment convertir les fichiers [SketchUp](http://www.sketchup.com/) utilisés par le projet [WikiHouse](http://wikihouse.cc/) en FreeCAD, en utilisant l\'outil [Arch Panneau](Arch_Panel/fr.md) dans FreeCAD. Le résultat est une copie complète du fichier SketchUp d\'origine, la différence est qu\'il est devenu entièrement paramétrique. Le niveau de paramétrage du fichier final dépend du travail que vous y consacrez, comme expliqué ci-dessous. Mais il est tout à fait possible de faire le travail pas à pas, et de reconstruire le fichier Wikihouse rapidement, et de laisser la plus longue conversion des profils de base aux esquisses pour plus tard.
 
 Ce tutoriel nécessite une connaissance intermédiaire de FreeCAD, c\'est-à-dire que vous êtes capable de vous repérer entre les différents ateliers et outils, que vous êtes déjà capable de modéliser des objets simples, et surtout que vous êtes à l\'aise avec [Draft Déplacer](Draft_Move/fr.md) et [Draft Pivoter](Draft_Rotate/fr.md). Il utilisera principalement les outils de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md), mais la connaissance de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) deviendra nécessaire lors de la conversion des profils de base en esquisses.
 
-Puisque le projet Wikihouse est ouvert naturellement, les fichiers sont faciles à trouver sur le site Web du projet, mais aussi sur le [SketchUp 3D Warehouse](https   *//3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) ou dans le projet [github repositories](https   *//github.com/wikihouseproject). Le format préféré utilisé par le projet est Sketchup, donc la plupart des fichiers que vous trouverez sont dans ce format.
+Puisque le projet Wikihouse est ouvert naturellement, les fichiers sont faciles à trouver sur le site Web du projet, mais aussi sur le [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) ou dans le projet [github repositories](https://github.com/wikihouseproject). Le format préféré utilisé par le projet est Sketchup, donc la plupart des fichiers que vous trouverez sont dans ce format.
 
-Dans ce didacticiel, nous avons utilisé le fichier [Chassis](https   *//github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) du sous-projet Microhouse de Wikihouse.
+Dans ce didacticiel, nous avons utilisé le fichier [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) du sous-projet Microhouse de Wikihouse.
 
 ## Préparation du fichier Sketchup 
 
@@ -30,13 +30,13 @@ La première chose à faire est d\'ouvrir le fichier dans SketchUp et de supprim
 
 ![](images/Arch_Wikihouse_05.jpg )
 
-Les éléments de la Wikihouse, dans SketchUp, sont réalisés d\'une manière spécifique    * En ajoutant de petites \"pièces\" ensemble afin de créer les différents composants    *
+Les éléments de la Wikihouse, dans SketchUp, sont réalisés d\'une manière spécifique : En ajoutant de petites \"pièces\" ensemble afin de créer les différents composants :
 
 ![](images/Arch_Wikihouse_06.jpg )
 
 Ce n\'est pas ainsi que nous allons procéder dans FreeCAD. Puisque l\'une des fonctions les plus puissantes de FreeCAD est les [esquisses constraintes](Sketcher_Workbench/fr.md), nous ferions mieux d\'en profiter, et de baser tous nos éléments de la Wikihouse sur des esquisses. De cette façon, la modification de n\'importe quelle pièce peut être faite dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md), ce qui est beaucoup plus confortable.
 
-Afin de transformer nos objets SketchUp en croquis FreeCAD, qui peuvent ensuite être utilisés pour créer des objets [Arch Panneau](Arch_Panel/fr.md), nous devons extraire une face plane de chaque pièce de la Wikihouse. L\'épaisseur sera rajoutée plus tard, dans FreeCAD, directement dans les propriétés du panneau d\'arche. De cette façon, nous conserverons également le paramétrage. Pour transformer chaque composant de la Wikihouse en une seule face plate, entrez dans chaque composant en double-cliquant dessus, puis sélectionnez chaque sous-composant, et faites un clic droit → Éclater, jusqu\'à ce que tous les sous-composants soient éclatés, et que votre composant ne soit composé que de faces et d\'arêtes    *
+Afin de transformer nos objets SketchUp en croquis FreeCAD, qui peuvent ensuite être utilisés pour créer des objets [Arch Panneau](Arch_Panel/fr.md), nous devons extraire une face plane de chaque pièce de la Wikihouse. L\'épaisseur sera rajoutée plus tard, dans FreeCAD, directement dans les propriétés du panneau d\'arche. De cette façon, nous conserverons également le paramétrage. Pour transformer chaque composant de la Wikihouse en une seule face plate, entrez dans chaque composant en double-cliquant dessus, puis sélectionnez chaque sous-composant, et faites un clic droit → Éclater, jusqu\'à ce que tous les sous-composants soient éclatés, et que votre composant ne soit composé que de faces et d\'arêtes :
 
 ![](images/Arch_Wikihouse_08.jpg )
 
@@ -50,7 +50,7 @@ Lorsque notre maison est entièrement composée d\'éléments plats, nous pouvon
 
 ## Résolution du problème des doubles faces 
 
-Il existe un problème désagréable pour lequel je n\'ai pas trouvé de meilleure solution    * Les faces des maillages exportés de SketchUp au format .dae sont dupliquées. Chaque face devient en fait deux faces. Le moyen le plus simple que j\'ai trouvé jusqu\'à présent est d\'ouvrir le fichier exporté dans [Blender](http   *//www.blender.org) pour le réparer    *
+Il existe un problème désagréable pour lequel je n\'ai pas trouvé de meilleure solution : Les faces des maillages exportés de SketchUp au format .dae sont dupliquées. Chaque face devient en fait deux faces. Le moyen le plus simple que j\'ai trouvé jusqu\'à présent est d\'ouvrir le fichier exporté dans [Blender](http://www.blender.org) pour le réparer :
 
 1.  Ouvrez le fichier dae dans Blender (**Fichier → Importer → Collada**).
 2.  Sélectionnez un composant et appuyez sur **TAB** pour passer en mode édition.
@@ -64,17 +64,17 @@ Normalement, l\'opération ci-dessus ne devrait pas modifier l\'échelle, mais i
 
 ## Importer et convertir en polylignes 
 
-Remarquez qu\'il peut être plus facile d\'aller par parties et de traiter + exporter les objets groupe par groupe, comme nous l\'avons fait ci-dessous, nous avons exporté seulement la première couche, faite d\'éléments jaunes dans SketchUp. Ces éléments arriveront dans FreeCAD en tant qu\'objets [Mesh](Mesh_Workbench/fr.md)    *
+Remarquez qu\'il peut être plus facile d\'aller par parties et de traiter + exporter les objets groupe par groupe, comme nous l\'avons fait ci-dessous, nous avons exporté seulement la première couche, faite d\'éléments jaunes dans SketchUp. Ces éléments arriveront dans FreeCAD en tant qu\'objets [Mesh](Mesh_Workbench/fr.md) :
 
 ![](images/Arch_Wikihouse_09.jpg )
 
-L\'étape suivante consiste à créer des fils à partir de chacun de nos maillages. Il existe une macro pratique nommée [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) qui fait exactement cela. Installez-la (consultez la page [Macros](Macros/fr.md) pour obtenir des instructions), puis, un par un (vous pouvez les faire tous en même temps, mais cette macro prend un certain temps), convertissez tous nos maillages en objets filaires    *
+L\'étape suivante consiste à créer des fils à partir de chacun de nos maillages. Il existe une macro pratique nommée [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) qui fait exactement cela. Installez-la (consultez la page [Macros](Macros/fr.md) pour obtenir des instructions), puis, un par un (vous pouvez les faire tous en même temps, mais cette macro prend un certain temps), convertissez tous nos maillages en objets filaires :
 
 ![](images/Arch_Wikihouse_10.jpg )
 
-Nous pourrions déjà créer des objets [Arch Panneau](Arch_Panel/fr.md) à partir de chacun de ces objets filiformes, simplement en les sélectionnant et en appuyant sur le bouton [Arch Panneau](Arch_Panel/fr.md). Cependant, leur forme de base ne serait pas paramétrique. Nous avons maintenant plusieurs options    * Nous pouvons transformer chaque composant en une esquisse, à l\'aide de l\'outil [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md), mais il s\'agira d\'esquisses plutôt lourdes, qui risquent de ne pas être très faciles à gérer sur une machine lente, ou nous pouvons transformer chaque fil individuel (le contour et chaque trou) de l\'esquisse en une esquisse distincte. Cela nous permettrait, par exemple, de réutiliser un trou typique, de le faire une seule fois, puis de le dupliquer avec [Draft Clone](Draft_Clone/fr.md) pour faire les autres trous. De cette façon, il suffirait d\'en éditer un pour les éditer tous.
+Nous pourrions déjà créer des objets [Arch Panneau](Arch_Panel/fr.md) à partir de chacun de ces objets filiformes, simplement en les sélectionnant et en appuyant sur le bouton [Arch Panneau](Arch_Panel/fr.md). Cependant, leur forme de base ne serait pas paramétrique. Nous avons maintenant plusieurs options : Nous pouvons transformer chaque composant en une esquisse, à l\'aide de l\'outil [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md), mais il s\'agira d\'esquisses plutôt lourdes, qui risquent de ne pas être très faciles à gérer sur une machine lente, ou nous pouvons transformer chaque fil individuel (le contour et chaque trou) de l\'esquisse en une esquisse distincte. Cela nous permettrait, par exemple, de réutiliser un trou typique, de le faire une seule fois, puis de le dupliquer avec [Draft Clone](Draft_Clone/fr.md) pour faire les autres trous. De cette façon, il suffirait d\'en éditer un pour les éditer tous.
 
-La [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) échoue aussi parfois à trouver des fils fermés à l\'intérieur d\'un maillage, ce qui ne produira pas des panneaux corrects. Une procédure simple pour recomposer les fils d\'un composant est la suivante    *
+La [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) échoue aussi parfois à trouver des fils fermés à l\'intérieur d\'un maillage, ce qui ne produira pas des panneaux corrects. Une procédure simple pour recomposer les fils d\'un composant est la suivante :
 
 1.  Sélectionner le composant, éventuellement cacher tout le reste pour mieux voir
 2.  [Draft Rétrogradez](Draft_Downgrade/fr.md) le. Il sera éclaté en une série d\'arêtes individuelles
@@ -90,7 +90,7 @@ Il y a plusieurs stratégies possibles ici, selon le degré d\'éditabilité et 
 
 ## Convertir en esquisses 
 
-Il est également possible de faire cette partie plus tard, vous pourriez déjà créer des panneaux à partir de chacun des composants, mais voyons déjà comment convertir un objet filaire en un esquisse    *
+Il est également possible de faire cette partie plus tard, vous pourriez déjà créer des panneaux à partir de chacun des composants, mais voyons déjà comment convertir un objet filaire en un esquisse :
 
 1.  Créez une copie de votre objet filaire avec **Ctrl**+**C**, **Ctrl**+**V**. Ainsi, nous pouvons le modifier tout en le gardant à son emplacement correct.
 2.  Déplacez et faites-le pivoter pour qu\'il se trouve dans le plan XY, en utilisant [Draft Déplacer](Draft_Move/fr.md) et [Draft Pivoter](Draft_Rotate/fr.md). Ce n\'est pas indispensable, mais le point suivant échoue parfois autrement
@@ -111,11 +111,11 @@ Après un certain temps, toute notre section Microhouse est terminée.
 
 ![](images/Arch_Wikihouse_01.jpg )
 
-Nous pouvons maintenant créer facilement les panneaux découpés, qui sont des fichiers DXF qui seront envoyés à l\'atelier qui coupera les panneaux réels. La façon la plus simple de procéder est de sélectionner tout ce qui se trouve dans votre document avec **Ctrl**+**A**, puis d\'utiliser l\'outil [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md). Cela produira un objet Panneau découpé pour chaque objet Panneau trouvé dans la sélection. En les séparant, nous obtenons une vue claire de toutes nos pièces    *
+Nous pouvons maintenant créer facilement les panneaux découpés, qui sont des fichiers DXF qui seront envoyés à l\'atelier qui coupera les panneaux réels. La façon la plus simple de procéder est de sélectionner tout ce qui se trouve dans votre document avec **Ctrl**+**A**, puis d\'utiliser l\'outil [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md). Cela produira un objet Panneau découpé pour chaque objet Panneau trouvé dans la sélection. En les séparant, nous obtenons une vue claire de toutes nos pièces :
 
 ![](images/Arch_Wikihouse_02.jpg )
 
-Il faut ensuite \"emboîter\" nos pièces, c\'est-à-dire les déplacer et les faire pivoter pour qu\'elles occupent le plus possible l\'espace d\'un panneau donné, afin de générer le moins de perte matérielle possible. Cette opération doit malheureusement être faite à la main, mais si vous utilisez un projet Wikihouse qui a déjà produit des panneaux découpés, les copier va assez vite    *
+Il faut ensuite \"emboîter\" nos pièces, c\'est-à-dire les déplacer et les faire pivoter pour qu\'elles occupent le plus possible l\'espace d\'un panneau donné, afin de générer le moins de perte matérielle possible. Cette opération doit malheureusement être faite à la main, mais si vous utilisez un projet Wikihouse qui a déjà produit des panneaux découpés, les copier va assez vite :
 
 1.  Pour être sûr que tout restera dans le plan XY, il est conseillé de régler le [Draft Plan de travail](Draft_SelectPlane/fr.md) sur XY (haut).
 2.  Créez un [Arch Panneau de feuille](Arch_Panel_Sheet/fr.md).
@@ -129,11 +129,11 @@ Il faut ensuite \"emboîter\" nos pièces, c\'est-à-dire les déplacer et les f
 10. Cliquez sur le bouton **Ajouter**.
 11. Appuyez sur le bouton **OK**.
 
-Dans la vue des tâches de la feuille de panneau, il y a également un bouton qui vous permet de déplacer les coupes de panneau individuelles après qu\'elles ont été insérées dans la feuille. Après un certain temps, nos feuilles sont prêtes    *
+Dans la vue des tâches de la feuille de panneau, il y a également un bouton qui vous permet de déplacer les coupes de panneau individuelles après qu\'elles ont été insérées dans la feuille. Après un certain temps, nos feuilles sont prêtes :
 
 ![](images/Arch_Wikihouse_03.jpg )
 
-La dernière étape consiste simplement à sélectionner toutes les feuilles, puis à les exporter au format DXF à partir du menu Fichier → Exporter. Le contenu des feuilles sera exporté séparé en différentes couches, avec le même code couleur couramment utilisé par le projet Wikihouse    *
+La dernière étape consiste simplement à sélectionner toutes les feuilles, puis à les exporter au format DXF à partir du menu Fichier → Exporter. Le contenu des feuilles sera exporté séparé en différentes couches, avec le même code couleur couramment utilisé par le projet Wikihouse :
 
 ![](images/Arch_Wikihouse_04.jpg )
 

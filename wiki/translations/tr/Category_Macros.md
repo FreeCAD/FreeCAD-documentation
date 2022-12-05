@@ -1,8 +1,6 @@
 # Category:Macros/tr
 This category contains macros to extend your FreeCAD installation with new functionality
 
-[Category   *Addons](Category_Addons.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Categories](Category_Categories.md)
-
 ### Contents
 
 |     |     |     |

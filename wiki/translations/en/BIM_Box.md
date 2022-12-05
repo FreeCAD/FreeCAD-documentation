@@ -1,19 +1,19 @@
 ---
-- GuiCommand   *Addon
-   Name   *BIM Box
-   Workbenches   *<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon   *BIM
-   MenuLocation   *3D Modeling → Box
-   SeeAlso   *[Part Box](Part_Box.md)
+- GuiCommand:Addon
+   Name:BIM Box
+   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon:BIM
+   MenuLocation:3D Modeling → Box
+   SeeAlso:[Part Box](Part_Box.md)
 ---
 
 # BIM Box/en
 
 ## Description
 
-<img alt="" src=images/BIM_box_screenshot.png  style="width   *1024px;">
+<img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
 
-The BIM Box tool allows you to create a standard [Part Box](Part_Box.md), but instead of creating the object and letting you specify its dimensions and position afterwards, like the original [Part Workbench](Part_Workbench.md) tool does, this tool allows you to place and define the box dimensions graphically when creating the object. Boxes are basic [cuboid](https   *//en.wikipedia.org/wiki/Cuboid) shapes, that can be used as a base of any other kind of BIM object later on.
+The BIM Box tool allows you to create a standard [Part Box](Part_Box.md), but instead of creating the object and letting you specify its dimensions and position afterwards, like the original [Part Workbench](Part_Workbench.md) tool does, this tool allows you to place and define the box dimensions graphically when creating the object. Boxes are basic [cuboid](https://en.wikipedia.org/wiki/Cuboid) shapes, that can be used as a base of any other kind of BIM object later on.
 
 ## Usage
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Mesh BoundingBox
-   Name/pl   *Siatka   * Informacje o granicach
-   MenuLocation   *Siatki → Analizuj → Informacje o granicach ...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
+- GuiCommand:/pl
+   Name:Mesh BoundingBox
+   Name/pl:Siatka: Informacje o granicach
+   MenuLocation:Siatki → Analizuj → Informacje o granicach ...
+   Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BoundingBox/pl
@@ -15,7 +15,7 @@ Polecenie **Informacje o granicach** pokazuje współrzędne ramki otaczającej 
 ## Użycie
 
 1.  Wybierz pojedynczy obiekt siatki.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_BoundingBox.svg" width=16px> [Informacje o granicach ...](Mesh_BoundingBox.md)**.
     -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_BoundingBox.svg" width=16px> Informacje o granicach ...**.
 3.  Otwiera się okno dialogowe **Granice** pokazujące współrzędne pola ograniczającego obiektu.

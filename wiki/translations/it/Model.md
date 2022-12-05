@@ -16,9 +16,7 @@ Nell\'uso informale, il termine \"[Disegno](Drawing.md)\" può essere usato con 
 
 {{Document objects navi
 
-}} 
-
-[Category   *Glossary](Category_Glossary.md)
+}}
 
 
 

@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */ru
-   Name   *Std ViewIvStereoQuadBuff
-   Name/ru   *Std ViewIvStereoQuadBuff
-   MenuLocation   *Вид → Стерео → Четверная буферизация стерео
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff/ru.md)
+- GuiCommand:/ru
+   Name:Std ViewIvStereoQuadBuff
+   Name/ru:Std ViewIvStereoQuadBuff
+   MenuLocation:Вид → Стерео → Четверная буферизация стерео
+   Workbenches:All
+   SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff/ru.md)
 ---
 
 # Std ViewIvStereoQuadBuff/ru
 
 ## Описание
 
-The **Std ViewIvStereoQuadBuff** command changes the active [3D view](3D_view.md) to quad buffer stereo view mode. To use this stereo mode a special graphics card, a special display and [shutter glasses](https   *//en.wikipedia.org/wiki/Active_shutter_3D_system) are requires.
+The **Std ViewIvStereoQuadBuff** command changes the active [3D view](3D_view.md) to quad buffer stereo view mode. To use this stereo mode a special graphics card, a special display and [shutter glasses](https://en.wikipedia.org/wiki/Active_shutter_3D_system) are requires.
 
 ## Применение
 
@@ -19,12 +19,12 @@ The **Std ViewIvStereoQuadBuff** command changes the active [3D view](3D_view.md
 
 ## Настройки
 
--   Расстояние между глаз может быть изменено в настройках   * **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
+-   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
 
 ## Scripting
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 

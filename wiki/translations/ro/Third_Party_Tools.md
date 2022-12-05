@@ -8,7 +8,7 @@
 
 ## Pagina Instrumentelor 
 
-Pentru fiecare dezvoltare serioasă de software aveți nevoie de unelte. Iată o listă de instrumente pe care le folosim pentru a dezvolta FreeCAD   *
+Pentru fiecare dezvoltare serioasă de software aveți nevoie de unelte. Iată o listă de instrumente pe care le folosim pentru a dezvolta FreeCAD:
 
 
 </div>
@@ -24,7 +24,7 @@ Pentru fiecare dezvoltare serioasă de software aveți nevoie de unelte. Iată o
 
 #### Qt-Toolkit 
 
-Qt-toolkit este un instrument de proiectare a interfeței utilizator independent de platformă. Acesta este conținut în [LibPack](Third_Party_Libraries.md) a lui FreeCAD, dar poate fi descărcat de asemenea de la [Qt project](http   *//qt-project.org/downloads).
+Qt-toolkit este un instrument de proiectare a interfeței utilizator independent de platformă. Acesta este conținut în [LibPack](Third_Party_Libraries.md) a lui FreeCAD, dar poate fi descărcat de asemenea de la [Qt project](http://qt-project.org/downloads).
 
 
 </div>
@@ -36,7 +36,7 @@ Qt-toolkit este un instrument de proiectare a interfeței utilizator independent
 
 #### InkScape 
 
-Excelent program de desen vectorial. Aderă la standardul SVG și este folosit pentru a desena Iconițe și Imagini. Luați-l de la [www.inkscape.org](http   *//www.inkscape.org).
+Excelent program de desen vectorial. Aderă la standardul SVG și este folosit pentru a desena Iconițe și Imagini. Luați-l de la [www.inkscape.org](http://www.inkscape.org).
 
 
 </div>
@@ -65,7 +65,7 @@ Nu prea sunt multe de spus despre celebrul Programul de Manipulare a Imaginii Gn
 
 </div>
 
-Get the GIMP here   * [www.gimp.org](http   *//www.gimp.org/)
+Get the GIMP here: [www.gimp.org](http://www.gimp.org/)
 
 #### Gitkraken
 
@@ -74,7 +74,7 @@ Get the GIMP here   * [www.gimp.org](http   *//www.gimp.org/)
 
 ### Gitkraken 
 
-Acesta este un GUI propriu-zis, care este foarte util pentru a afla cum să lucrați dacă sunteți interesat să doriți să contribuiți la FreeCAD. Pagini relevante pentru cercetare   *te to FreeCAD.
+Acesta este un GUI propriu-zis, care este foarte util pentru a afla cum să lucrați dacă sunteți interesat să doriți să contribuiți la FreeCAD. Pagini relevante pentru cercetare:te to FreeCAD.
 
 -   [Gitkraken](Gitkraken.md)
 -   [Github](Github.md)
@@ -84,7 +84,7 @@ Acesta este un GUI propriu-zis, care este foarte util pentru a afla cum să lucr
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website   * [obsproject.com](https   *//obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
 
 #### OpenCamLib
 
@@ -105,7 +105,7 @@ Un program UML de tip Open Source cu funcții complete. El are o mulțime de car
 
 <div class="mw-translate-fuzzy">
 
-Download here   * [staruml.sourceforge.net](http   *//staruml.sourceforge.net/en/)
+Download here: [staruml.sourceforge.net](http://staruml.sourceforge.net/en/)
 
 
 </div>
@@ -127,7 +127,7 @@ Deși VC8 este pentru dezvoltarea în C ++ nu este cu adevărat un pas înainte,
 
 <div class="mw-translate-fuzzy">
 
-Deși, ediția Express este greu de găsit. Dar, ai putea încerca la [this link](http   *//msdn.microsoft.com/vstudio/express/visualc/default.aspx)
+Deși, ediția Express este greu de găsit. Dar, ai putea încerca la [this link](http://msdn.microsoft.com/vstudio/express/visualc/default.aspx)
 
 
 </div>
@@ -144,7 +144,7 @@ CamStudio este instrumentul open source pentru a crea înregistrări video ale e
 
 </div>
 
-See [camstudio.org](http   *//camstudio.org/) for details.
+See [camstudio.org](http://camstudio.org/) for details.
 
 ### Tools on Linux 
 
@@ -158,11 +158,6 @@ TODO
 
 
 </div>
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

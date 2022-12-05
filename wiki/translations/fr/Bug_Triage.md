@@ -6,11 +6,11 @@
 
 {{ColoredParagraph|Triageː
 
-1a    * le tri et la répartition du traitement entre les patients et en particulier les victimes de combats et de catastrophes selon un système de priorités conçu pour maximiser le nombre de survivants
+1a : le tri et la répartition du traitement entre les patients et en particulier les victimes de combats et de catastrophes selon un système de priorités conçu pour maximiser le nombre de survivants
 
-1b    * le tri des patients (comme dans une salle d'urgence) en fonction de l'urgence de leur besoin de soins
+1b : le tri des patients (comme dans une salle d'urgence) en fonction de l'urgence de leur besoin de soins
 
-2    * attribution d'un ordre de priorité aux projets en fonction des domaines dans lesquels les fonds et autres ressources peuvent être utilisés, utilisés le mieux ou le plus susceptibles de réussir
+2 : attribution d'un ordre de priorité aux projets en fonction des domaines dans lesquels les fonds et autres ressources peuvent être utilisés, utilisés le mieux ou le plus susceptibles de réussir
 }}
 
 Le triage des bogues est important pour organiser et hiérarchiser les bogues / fonctionnalités/correctifs par rapport à FreeCAD [Bug Tracker](Tracker/fr.md). Si cette tâche est négligée, un projet peut souffrir de ce qu\'on appelle \"Bugtracker Bloat\", qui consiste essentiellement en une accumulation et une décomposition de tickets négligés. Le triage aide également à identifier les tickets en double qui ont tendance à s\'accumuler, en particulier s\'il existe un problème non résolu de longue date que l\'équipe FC connaît mais ne dispose pas des ressources nécessaires, quelle qu\'en soit la raison.
@@ -29,7 +29,7 @@ En d\'autres termes, le statut **NEW** indique plusieurs choses ː
 2.  Le ticket est toujours en cours, c'est-à-dire que Les Trieurs/développeurs évaluent/clarifient les détails du ticket de l'OP.
 3.  L\'équipe de FreeCAD n\'a pas encore décidé quoi faire avec ce ticket.
 
-Tous les [tickets FreeCAD ouverts avec le statut **NEW**](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=10&hide_status=80).
+Tous les [tickets FreeCAD ouverts avec le statut **NEW**](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=10&hide_status=80).
 
 #### Reconnu
 
@@ -41,9 +41,9 @@ Le billet est en attente sur la base de la participation de OP. Par exemple, il 
 
 Lorsque OP répond, le statut du ticket revient automatiquement à **Nouveau**. Ensuite, le billet doit être réexaminé pour décider de ce qui est nécessaire.
 
-Une discussion plus approfondie sur ce sujet dans le [forum FreeCAD](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=23005).
+Une discussion plus approfondie sur ce sujet dans le [forum FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=10&t=23005).
 
-Tous [open FreeCAD tickets with **FEEDBACK** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=20&hide_status=80) dans le FC bugtracker.
+Tous [open FreeCAD tickets with **FEEDBACK** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=20&hide_status=80) dans le FC bugtracker.
 
 #### Confirmé
 
@@ -54,13 +54,13 @@ Lorsqu\'un ticket est confirmé, il a été soit
 
 Il est maintenant prêt à être assigné à ou par un dev.
 
-Tous [open FreeCAD tickets with **CONFIRMED** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=40&hide_status=80) dans le FC tracker.
+Tous [open FreeCAD tickets with **CONFIRMED** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=40&hide_status=80) dans le FC tracker.
 
 #### Assigné
 
 Explicites, ces tickets ont été attribués à un développeur spécifique.
 
-Tous [open FreeCAD tickets with **ASSIGNED** status](https   *//freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=50&hide_status=80) dans le FC tracker.
+Tous [open FreeCAD tickets with **ASSIGNED** status](https://freecadweb.org/tracker/view_all_set.php?type=1&temporary=y&status=50&hide_status=80) dans le FC tracker.
 
 #### Résolu
 
@@ -141,14 +141,6 @@ Une méthodologie importante pour suivre les tickets par sujet/thème/catégorie
 ## En relation 
 
 [Traqueur de bogues](Tracker/fr.md)
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

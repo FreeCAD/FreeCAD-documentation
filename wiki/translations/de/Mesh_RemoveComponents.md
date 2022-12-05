@@ -1,8 +1,8 @@
 ---
-- GuiCommand   */de
-   Name   *Mesh RemoveComponents   Name/de   *Netze Komponenten entfernen
-‏‎   MenuLocation   *Netze → Komponenten entfernen
-   Workbenches   *[Netze](Mesh_Workbench/de.md)
+- GuiCommand:/de
+   Name:Mesh RemoveComponents   Name/de:Netze Komponenten entfernen
+‏‎   MenuLocation:Netze → Komponenten entfernen
+   Workbenches:[Netze](Mesh_Workbench/de.md)
 ---
 
 # Mesh RemoveComponents/de
@@ -36,14 +36,14 @@ Entfernt Komponenten aus Netzen.
 
 ## Usage
 
-1.  The command uses the color red to mark selected faces. To see them properly   *
+1.  The command uses the color red to mark selected faces. To see them properly:
     -   The **Display Mode** of the mesh objects ideally should be {{Value|Flat lines}}, but should at least show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
     -   The **Shape Color** of the mesh objects should not be red.
-2.  There are several ways to invoke the command   *
+2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Mesh RemoveComponents](Mesh_RemoveComponents.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_RemoveComponents.svg" width=16px> Remove components...** option from the menu.
 3.  The **Remove components** task panel opens.
-4.  Use one or more of the **Select** options to select faces   *
+4.  Use one or more of the **Select** options to select faces:
     -   Press the **Region** button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](3D_view.md). Faces that match the **Region options** and (partially) fall inside the region will be selected.
     -   Press the **All** button to select all faces.
     -   Press the **Components** button to select all components with fewer than the specified maximum number of faces. Here a component refers to a complete group of connected faces. Usually a mesh object contains a single component. But, for example after using the [Mesh Merge](Mesh_Merge.md) command, a mesh object can contain multiple components.

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw LeaderLine
-   Name/fr   *TechDraw Ligne de référence
-   MenuLocation   *TechDraw → Ajouter des lignes → Insérer une ligne de référence à la vue
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Annotation en texte enrichi](TechDraw_RichTextAnnotation/fr.md), [TechDraw Symbole de soudure](TechDraw_WeldSymbol/fr.md), [TechDraw Groupes de lignes](TechDraw_LineGroup/fr.md)
+- GuiCommand:/fr
+   Name:TechDraw LeaderLine
+   Name/fr:TechDraw Ligne de référence
+   MenuLocation:TechDraw → Ajouter des lignes → Insérer une ligne de référence à la vue
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[TechDraw Annotation en texte enrichi](TechDraw_RichTextAnnotation/fr.md), [TechDraw Symbole de soudure](TechDraw_WeldSymbol/fr.md), [TechDraw Groupes de lignes](TechDraw_LineGroup/fr.md)
 ---
 
 # TechDraw LeaderLine/fr
@@ -23,12 +23,12 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
 2.  Appuyez sur le bouton **<img src="images/TechDraw_LeaderLine.svg" width=16px> Insérer une ligne de référence à la vue**. Une boîte de dialogue s\'ouvrira permettant de dessiner la ligne de repère et d\'assigner des symboles de fin à la ligne.
 3.  Cliquez sur **Pick points** puis cliquez dans la page pour définir le point de départ de la ligne.
 4.  Déplacez la souris et cliquez sur un autre point pour créer une ligne. Maintenez la touche Ctrl enfoncée pour obtenir des angles multiples de 22,5°.
-5.  Maintenant, vous pouvez soit   *
+5.  Maintenant, vous pouvez soit:
     1.  terminer le dessin au trait en double-cliquant ou en appuyant sur **Save Points**.
     2.  ajoutez d\'autres points pour définir davantage de segments de ligne.
 6.  Pour terminer la création, appuyez sur **OK** pour fermer la boîte de dialogue.
 
-**Remarque   *** Si vous n\'avez défini aucun point lors de la création de la ligne de référence, une ligne courte sera placée au centre de la vue.
+**Remarque:** Si vous n\'avez défini aucun point lors de la création de la ligne de référence, une ligne courte sera placée au centre de la vue.
 
 ### Édition
 
@@ -39,37 +39,37 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
 
 ## Propriétés
 
--    **X, Y**   * point auquel la ligne de référence est connectée à la vue.
+-    **X, Y**: point auquel la ligne de référence est connectée à la vue.
 
--    **Leader Parent**   * vue à laquelle la ligne est attachée.
+-    **Leader Parent**: vue à laquelle la ligne est attachée.
 
--    **Start Symbol**   * symbole au début   * <img alt="" src=images/Arrownone.svg  style="width   *20px;"> Aucun, <img alt="" src=images/Arrowfilled.svg  style="width   *20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width   *20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width   *20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width   *20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width   *20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width   *20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width   *20px;"> Triangle rempli
+-    **Start Symbol**: symbole au début: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Aucun, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
 
--    **End Symbol**   * symbole de fin de ligne à l\'autre extrémité.
+-    **End Symbol**: symbole de fin de ligne à l\'autre extrémité.
 
--    **WayPoints**   * noeuds sur la ligne de rappel.
+-    **WayPoints**: noeuds sur la ligne de rappel.
 
--    **Scalable**   * mise en échelle de la ligne de référence avec le parent de la ligne de référence.
+-    **Scalable**: mise en échelle de la ligne de référence avec le parent de la ligne de référence.
 
--    **Auto Horizontal**   * force le dernier segment de la ligne de référence à être horizontal.
+-    **Auto Horizontal**: force le dernier segment de la ligne de référence à être horizontal.
 
--    **Color**   * couleur de stylo pour la ligne de référence.
+-    **Color**: couleur de stylo pour la ligne de référence.
 
--    **Line Style**   * 0 Pas de ligne, 1 <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continu, 2 <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Tiret, 3 <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Point , 4 <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> Tiret Point, 5 <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> Tiret Point Point
+-    **Line Style**: 0 Pas de ligne, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continu, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> Tiret, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> Point , 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tiret Point, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tiret Point Point
 
--    **Line Width**   * largeur de la ligne de référence.
+-    **Line Width**: largeur de la ligne de référence.
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Ligne de référence peut être utilisée dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante   *
+L\'outil Ligne de référence peut être utilisée dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
 
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
-leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawLeaderLine','DrawLeaderLine')
+leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawLeaderLine','DrawLeaderLine')
 FreeCAD.activeDocument().myPage.addView(leaderObj)
 FreeCAD.activeDocument().leaderObj.LeaderParent = myBase
 #first waypoint is always (0,0,0)  

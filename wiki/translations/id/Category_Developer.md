@@ -1,8 +1,6 @@
 # Category:Developer/id
 This category contains articles that are relevant for developers.
 
-[Category   *Categories/id](Category   *Categories/id.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */fr
-   Name   *Path Deburr
-   Name/fr   *Path Ebavurage
-   MenuLocation   *Path → Ebavurer
-   Workbenches   *[Path](Path_Workbench/fr.md)
-   Version   *0.18
+- GuiCommand:/fr
+   Name:Path Deburr
+   Name/fr:Path Ebavurage
+   MenuLocation:Path → Ebavurer
+   Workbenches:[Path](Path_Workbench/fr.md)
+   Version:0.18
 ---
 
 # Path Deburr/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Deburr.svg  style="width   *24px;"> **Path Ebavurage** sert principalement à ébavurer un bord.
+L\'outil <img alt="" src=images/Path_Deburr.svg  style="width:24px;"> **Path Ebavurage** sert principalement à ébavurer un bord.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Deburr.svg" width=16px> [Ebavurer](Path_Deburr/fr.md)**.
     -   Sélectionnez l\'option **Path → <img src="images/Path_Deburr.svg" width=16px> Ebavurer** dans le menu.
 2.  Le panneau de tâches **Ebavurer** s\'ouvre. Voir [Options](#Options.md).
@@ -29,19 +29,19 @@ Après avoir sélectionné la géométrie dans la section **Géométrie de base*
 
 Ensuite, vous pouvez vérifier vos profondeurs et hauteurs, comme avec les autres commandes de parcours.
 
-La dernière étape consiste à activer la section **Opération** où vous pouvez spécifier ce qui suit    *
+La dernière étape consiste à activer la section **Opération** où vous pouvez spécifier ce qui suit :
 
--    **Commande d'outil**   * sélectionnez l\'outil à utiliser.
+-    **Commande d'outil**: sélectionnez l\'outil à utiliser.
 
--    **Mode de refroidissement**   * sélectionnez {{Value|Aucun}}, {{Value|Arrosage}} ou {{Value|Brumisateur}}.
+-    **Mode de refroidissement**: sélectionnez {{Value|Aucun}}, {{Value|Arrosage}} ou {{Value|Brumisateur}}.
 
--    **Directions**   * sélectionnez {{Value|Sens horaire}} (CW) ou {{Value|Sens anti-horaire}} (CCW).
+-    **Directions**: sélectionnez {{Value|Sens horaire}} (CW) ou {{Value|Sens anti-horaire}} (CCW).
 
--    **W**   * dimension de votre arête.
+-    **W**: dimension de votre arête.
 
--    **h**   * décalage par rapport au bas de l\'outil. Il s\'agit d\'un dispositif de sécurité car si la pointe dépasse le bord, l\'outil ne coupera plus.
+-    **h**: décalage par rapport au bas de l\'outil. Il s\'agit d\'un dispositif de sécurité car si la pointe dépasse le bord, l\'outil ne coupera plus.
 
-   *   <img alt="Deburring interface with the options" src=images/Path_Deburr_Operations-tab.png  style="width   *300px;">
+:   <img alt="Deburring interface with the options" src=images/Path_Deburr_Operations-tab.png  style="width:300px;">
 
 ## Propriétés
 
@@ -50,61 +50,61 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 {{TitleProperty|Base}}
 
--    **Placement**   *
+-    **Placement**:
 
--    **Label**   * nom d\'utilisateur de l\'objet (UTF-8)
+-    **Label**: nom d\'utilisateur de l\'objet (UTF-8)
 
 
 {{TitleProperty|Deburr}}
 
--    **Direction**   * {{Value|CCW}} ou {{Value|CW}}.
+-    **Direction**: {{Value|CCW}} ou {{Value|CW}}.
 
--    **Entry Point**   * point d\'entrée de l\'opération, s\'il est défini à 2, il ira dans 2 coins par rapport à la valeur par défaut.
+-    **Entry Point**: point d\'entrée de l\'opération, s\'il est défini à 2, il ira dans 2 coins par rapport à la valeur par défaut.
 
--    **Extra depth**   * profondeur supplémentaire (**h** dans le panneau de tâches).
+-    **Extra depth**: profondeur supplémentaire (**h** dans le panneau de tâches).
 
--    **Join||Hidden**   * comment joindre les segments de chanfrein, {{Value|Round}} ou {{Value|Miter}}.
+-    **Join||Hidden**: comment joindre les segments de chanfrein, {{Value|Round}} ou {{Value|Miter}}.
 
--    **Side||Hidden**   * le côté de l\'opération, {{Value|Outside}} ou {{Value|Inside}}.
+-    **Side||Hidden**: le côté de l\'opération, {{Value|Outside}} ou {{Value|Inside}}.
 
--    **Width**   * largeur du chanfrein (**W** dans le panneau des tâches).
+-    **Width**: largeur du chanfrein (**W** dans le panneau des tâches).
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**   * hauteur nécessaire pour dégager les brides et les obstructions (définie par défaut à `OpStockZMax + SetupSheet.ClearanceHeightOffset`).
+-    **Clearance Height**: hauteur nécessaire pour dégager les brides et les obstructions (définie par défaut à `OpStockZMax + SetupSheet.ClearanceHeightOffset`).
 
--    **Safe Height**   * hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (définie à `OpStockZMax + SetupSheet.SafeHeightOffset`).
+-    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (définie à `OpStockZMax + SetupSheet.SafeHeightOffset`).
 
--    **Start Depth**   * profondeur de départ de l\'outil, première profondeur de coupe en Z.
+-    **Start Depth**: profondeur de départ de l\'outil, première profondeur de coupe en Z.
 
--    **Step Down**   * descente incrémentale de l\'outil.
+-    **Step Down**: descente incrémentale de l\'outil.
 
 
 {{TitleProperty|Op Values}}
 
--    **Op Stock ZMax**   * valeur Z maximale du brut.
+-    **Op Stock ZMax**: valeur Z maximale du brut.
 
--    **Op Stock ZMin**   * valeur Z minimale du brut.
+-    **Op Stock ZMin**: valeur Z minimale du brut.
 
--    **Op Tool Diameter**   * diamètre de l\'outil.
+-    **Op Tool Diameter**: diamètre de l\'outil.
 
 
 {{TitleProperty|Path}}
 
--    **Active**   * mis à `False`, pour empêcher l\'opération de générer du code.
+-    **Active**: mis à `False`, pour empêcher l\'opération de générer du code.
 
--    **Base**   * géométrie de base pour cette opération, des arêtes ou une face.
+-    **Base**: géométrie de base pour cette opération, des arêtes ou une face.
 
--    **Comment**   * commentaire facultatif pour cette opération.
+-    **Comment**: commentaire facultatif pour cette opération.
 
--    **Coolant Mode**   * mode de refroidissement pour cette opération.
+-    **Coolant Mode**: mode de refroidissement pour cette opération.
 
--    **Cycle Time**   * durée estimée du cycle pour cette opération.
+-    **Cycle Time**: durée estimée du cycle pour cette opération.
 
--    **Tool Controller**   * contrôleur d\'outil qui sera utilisé pour calculer la trajectoire.
+-    **Tool Controller**: contrôleur d\'outil qui sera utilisé pour calculer la trajectoire.
 
--    **User Label**   * étiquette attribuée par l\'utilisateur.
+-    **User Label**: étiquette attribuée par l\'utilisateur.
 
 
 

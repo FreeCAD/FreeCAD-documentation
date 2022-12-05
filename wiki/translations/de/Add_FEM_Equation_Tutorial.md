@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */de
-   Topic   *FEM Gleichung hinzufügen
-   Level   *Fortgeschritten
-   Time   *1 Tag
-   Author   *[JohnWang](User_JohnWang.md)
-   FCVersion   *0.19
+- TutorialInfo:/de
+   Topic:FEM Gleichung hinzufügen
+   Level:Fortgeschritten
+   Time:1 Tag
+   Author:[JohnWang](User_JohnWang.md)
+   FCVersion:0.19
 ---
 
 # Add FEM Equation Tutorial/de
@@ -27,7 +27,7 @@ Die Aufgabe kann in fünf Teile aufgeteilt werden.
 
 ## Neuer Gleichungstyp 
 
-In diesem Schritt werden wir die folgende Datei modifizieren   *
+In diesem Schritt werden wir die folgende Datei modifizieren:
 
 -    **src/Mod/Fem/femsolver/equationbase.py**
     
@@ -38,22 +38,22 @@ Füge zuerst die neue Gleichung zum `equationbase.py`-Modul hinzu. Jede Gleichun
 
 
 ```python
-class FlowProxy(BaseProxy)   *
+class FlowProxy(BaseProxy):
     pass
 
-class FlowViewProxy(BaseViewProxy)   *
-    def getIcon(self)   *
-        return "   */icons/FEM_EquationFlow.svg"
+class FlowViewProxy(BaseViewProxy):
+    def getIcon(self):
+        return ":/icons/FEM_EquationFlow.svg"
 ```
 
 ## Neues Elmers Gleichungs Objekt 
 
-In diesem Schritt werden wir das Dokumentobjekt implementieren. Wir müssen eine neue Datei {{Incode|flow.py}} hinzufügen unter   *
+In diesem Schritt werden wir das Dokumentobjekt implementieren. Wir müssen eine neue Datei {{Incode|flow.py}} hinzufügen unter:
 
 -    **src/Mod/Fem/femsolver/elmer/equations/flow.py**
     
 
-und die folgenden Dateien ändern   *
+und die folgenden Dateien ändern:
 
 -    **src/Mod/Fem/ObjectsFem.py**
     
@@ -72,7 +72,7 @@ Die Strömungsgleichung ist eine potenziell nicht-lineare Gleichung. Das bedeute
 
 ### Dateien bearbeiten 
 
-Nach dem Kopieren von `heat.py` nach `flow.py` passe letztere Datei an folgenden Stellen an   *
+Nach dem Kopieren von `heat.py` nach `flow.py` passe letztere Datei an folgenden Stellen an:
 
 -   das Namensargument der {{Incode|create}}-Modulfunktion,
 -   die Basisklassen der {{Incode|Proxy}}-Klasse,
@@ -81,19 +81,19 @@ Nach dem Kopieren von `heat.py` nach `flow.py` passe letztere Datei an folgenden
 
 
 ```python
-def create(doc, name="'''Flow'''")   *
+def create(doc, name="'''Flow'''"):
     return femutils.createObject(
         doc, name, Proxy, ViewProxy)
 
-class Proxy(nonlinear.Proxy, equationbase.'''Flow'''Proxy)   *
+class Proxy(nonlinear.Proxy, equationbase.'''Flow'''Proxy):
 
-    Type = "Fem   *   *EquationElmer'''Flow'''"
+    Type = "Fem::EquationElmer'''Flow'''"
 
-    def __init__(self, obj)   *
+    def __init__(self, obj):
         super(Proxy, self).__init__(obj)
         obj.Priority = 10
 
-class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy)   *
+class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy):
     pass
 ```
 
@@ -103,11 +103,11 @@ Zum Zeitpunkt des Schreibens dieses Tutoriums hat die Elmer-Strömungsgleichung 
 
 Schließlich muss man eine **makeEquationFlow**-Definition in {{Incode|src/Mod/Fem/ObjectsFem.py}} durch Duplizieren eines verfügbaren Eintrags registrieren.
 
-FreeCAD benutzt **make** zur Erstellung des Programms. Deshalb müssen wir die neue Moduldatei ({{Incode|flow.py}}) in `src/Mod/Fem/CMakeLists.txt` registrieren, wie in [FEM Modul erweitern](https   *//www.freecadweb.org/wiki/Extend_FEM_Module) beschriebenen. Die passenden Listen lassen sich leicht finden, indem man nach vorhandenen Gleichungsmoduldateien von Elmer sucht.
+FreeCAD benutzt **make** zur Erstellung des Programms. Deshalb müssen wir die neue Moduldatei ({{Incode|flow.py}}) in `src/Mod/Fem/CMakeLists.txt` registrieren, wie in [FEM Modul erweitern](https://www.freecadweb.org/wiki/Extend_FEM_Module) beschriebenen. Die passenden Listen lassen sich leicht finden, indem man nach vorhandenen Gleichungsmoduldateien von Elmer sucht.
 
 ## Löser Objekt erweitern 
 
-In diesem Schritt werden wir die folgenden Dateien modifizieren   *
+In diesem Schritt werden wir die folgenden Dateien modifizieren:
 
 -    **src/Mod/Fem/femsolver/elmer/solver.py**
     
@@ -124,15 +124,15 @@ from .equations import electrostatic
 ...
 
 _EQUATIONS = {
-    "Heat"   * heat,
-    "Elasticity"   * elasticity,
-+    "Flow"   * flow,
+    "Heat": heat,
+    "Elasticity": elasticity,
++    "Flow": flow,
 }
 ```
 
 ## Schreiber Objekt erweitern 
 
-In diesem Schritt werden wir die folgende Datei modifizieren   *
+In diesem Schritt werden wir die folgende Datei modifizieren:
 
 -    **src/Mod/Fem/femsolver/elmer/writer.py**
     
@@ -147,13 +147,13 @@ Für jede unterstützte Gleichung gibt es zwei Methoden für den Export der jewe
 -    {{Incode|_handleFlow}}
     
 
-Du musst die `_handleFlow`-Methode in der `Writer`-Klasse registrieren   *
+Du musst die `_handleFlow`-Methode in der `Writer`-Klasse registrieren:
 
 
 ```python
-class Writer(object)   *
+class Writer(object):
 ...
-    def write(self)   *
+    def write(self):
 ...
         self._handleFlow()
 
@@ -164,7 +164,7 @@ class Writer(object)   *
 
 {{Incode|_handleFlow}}
 
-kann eine Reihe weiterer detaillierter Methoden kontrollieren. Unsere Fließ-Gleichung benutzt die folgenden detaillierten Methoden   *
+kann eine Reihe weiterer detaillierter Methoden kontrollieren. Unsere Fließ-Gleichung benutzt die folgenden detaillierten Methoden:
 
 -    {{Incode|_handleFlowConstants}}
     
@@ -185,9 +185,7 @@ Nun haben wir den Funktionsteil der neuen Gleichung beendet. Nun werden wir die 
 
 ## GUI Werkzeug zum Erstellen einer Gleichung 
 
-Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI anzusprechen, müssen wir eine Schaltfläche erstellen und sie mit der neuen Gleichungsklasse verbinden. Hier ist ein Tutorium   * [Tutorium Schaltfläche zur FEM Werkzeugleiste hinzufügen](Add_Button_to_FEM_Toolbar_Tutorial/de.md).
-
-[Category   *FEM](Category_FEM.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
+Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI anzusprechen, müssen wir eine Schaltfläche erstellen und sie mit der neuen Gleichungsklasse verbinden. Hier ist ein Tutorium: [Tutorium Schaltfläche zur FEM Werkzeugleiste hinzufügen](Add_Button_to_FEM_Toolbar_Tutorial/de.md).
 
 
 

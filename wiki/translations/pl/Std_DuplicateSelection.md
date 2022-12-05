@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std DuplicateSelection
-   Name/pl   *Std   * Powiel zaznaczone
-   MenuLocation   *Edycja → Powiel zaznaczone
-   Workbenches   *All
-   SeeAlso   *[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md)
+- GuiCommand:/pl
+   Name:Std DuplicateSelection
+   Name/pl:Std: Powiel zaznaczone
+   MenuLocation:Edycja → Powiel zaznaczone
+   Workbenches:All
+   SeeAlso:[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md)
 ---
 
 # Std DuplicateSelection/pl

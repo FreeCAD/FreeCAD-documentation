@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Rebar Footing Reinforcement
-   Name/fr   *Arch Rebar Renforts de semelle
-   MenuLocation   *Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing 
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
+- GuiCommand:/fr
+   Name:Arch Rebar Footing Reinforcement
+   Name/fr:Arch Rebar Renforts de semelle
+   MenuLocation:Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing 
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---
 
 # Arch Rebar Footing Reinforcement/fr
@@ -13,7 +13,7 @@
 
 L\'outil [Renforts de semelle](Arch_Rebar_Footing_Reinforcement/fr.md) permet à l\'utilisateur de créer des barres de renforcement à l\'intérieur d\'un objet semelle [Arch Structure](Arch_Structure/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 ![](images/Isometric_view_of_Columns_footing.png ) 
 *Un exemple de renfort de semelle dans une semelle [Arch Structure](Arch_Structure/fr.md)*
@@ -60,7 +60,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 ![](images/Main_Rebar_input_fields_for_column_footing.png ) 
 *Boîte de dialogue pour les champs de saisie des armatures principales dans les colonnes de renfort de la semelle.*
 
-Remarque    * les étapes 9 et 10 ne sont nécessaires que si le contrôle des barres d\'armature secondaires est activé à l\'étape 6.
+Remarque : les étapes 9 et 10 ne sont nécessaires que si le contrôle des barres d\'armature secondaires est activé à l\'étape 6.
 
 9\. Cliquez sur suivant ou cliquez sur XDir Secondary rebar dans la vue en liste et remplissez l\'entrée souhaitée pour les armatures secondaires dans la direction X dans une colonne dans le renfort de la semelle.
 
@@ -77,141 +77,141 @@ Remarque    * les étapes 9 et 10 ne sont nécessaires que si le contrôle des b
 
 ## Propriétés
 
-**Propriétés des barres d\'armature en direction parallèle à la face sélectionnée dans la semelle renforcée    ***
+**Propriétés des barres d\'armature en direction parallèle à la face sélectionnée dans la semelle renforcée :**
 
--   {{ PropertyData\|Mesh Cover Along}}    * représente l\'alignement du maillage des barres d\'armature le long de la face supérieure et/ou inférieure de la structure. Peut avoir trois valeurs    * \"Top\", \"Bottom\" et \"Both\".
--   {{ PropertyData\|Rebar Type}}    * type de barre d\'armature pour les barres d\'armature parallèles pour le renfort de la semelle. Peut avoir trois valeurs    * \'StraightRebar\', \'LShapeRebar\' et \'UShapeRebar\'.
--   {{ PropertyData\|Front Cover}}    * distance entre la barre d\'armature parallèle et la face sélectionnée.
--   {{ PropertyData\|Left Cover}}    * distance entre l\'extrémité gauche de la barre d\'armature parallèle et la face gauche de la structure.
--   {{ PropertyData\|Right Cover}}    * distance entre l\'extrémité droite de la barre d\'armature parallèle et la face droite de la structure.
--   {{ PropertyData\|Bottom Cover}}    * distance entre les barres d\'armature parallèles et la face inférieure de la structure.
--   {{ PropertyData\|Top Cover}}    * distance entre les barres d\'armature parallèles depuis la face supérieure de la structure.
--   {{ PropertyData\|Rear Cover}}    * couverture arrière pour le renfort de la semelle des barres d\'armature parallèles.
--   {{ PropertyData\|Rounding}}    * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre des barres d\'armature parallèles.
--   {{ PropertyData\|Diameter}}    * Diamètre des barres d\'armature parallèles
--   {{ PropertyData\|Amount}}    * contient le nombre de barres d\'armature parallèles.
--   {{ PropertyData\|Spacing}}    * contient l\'espacement entre les barres d\'armature parallèles.
+-   {{ PropertyData\|Mesh Cover Along}} : représente l\'alignement du maillage des barres d\'armature le long de la face supérieure et/ou inférieure de la structure. Peut avoir trois valeurs : \"Top\", \"Bottom\" et \"Both\".
+-   {{ PropertyData\|Rebar Type}} : type de barre d\'armature pour les barres d\'armature parallèles pour le renfort de la semelle. Peut avoir trois valeurs : \'StraightRebar\', \'LShapeRebar\' et \'UShapeRebar\'.
+-   {{ PropertyData\|Front Cover}} : distance entre la barre d\'armature parallèle et la face sélectionnée.
+-   {{ PropertyData\|Left Cover}} : distance entre l\'extrémité gauche de la barre d\'armature parallèle et la face gauche de la structure.
+-   {{ PropertyData\|Right Cover}} : distance entre l\'extrémité droite de la barre d\'armature parallèle et la face droite de la structure.
+-   {{ PropertyData\|Bottom Cover}} : distance entre les barres d\'armature parallèles et la face inférieure de la structure.
+-   {{ PropertyData\|Top Cover}} : distance entre les barres d\'armature parallèles depuis la face supérieure de la structure.
+-   {{ PropertyData\|Rear Cover}} : couverture arrière pour le renfort de la semelle des barres d\'armature parallèles.
+-   {{ PropertyData\|Rounding}} : valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre des barres d\'armature parallèles.
+-   {{ PropertyData\|Diameter}} : Diamètre des barres d\'armature parallèles
+-   {{ PropertyData\|Amount}} : contient le nombre de barres d\'armature parallèles.
+-   {{ PropertyData\|Spacing}} : contient l\'espacement entre les barres d\'armature parallèles.
 
-**Propriétés des armatures dans le sens transversal par rapport à la face sélectionnée dans la semelle renforcée    ***
+**Propriétés des armatures dans le sens transversal par rapport à la face sélectionnée dans la semelle renforcée :**
 
--    **Rebar Type**   * type de barre d\'armature pour les armatures transversales pour le renfort des semelles. Peut avoir trois valeurs    * \'StraightRebar\', \'LShapeRebar\' et \'UShapeRebar\'.
+-    **Rebar Type**: type de barre d\'armature pour les armatures transversales pour le renfort des semelles. Peut avoir trois valeurs : \'StraightRebar\', \'LShapeRebar\' et \'UShapeRebar\'.
 
--    **Front Cover**   * distance entre l\'armature transversale et la face transversale (face perpendiculaire à la face sélectionnée).
+-    **Front Cover**: distance entre l\'armature transversale et la face transversale (face perpendiculaire à la face sélectionnée).
 
--    **Left Cover**   * distance entre l\'extrémité gauche de l\'armature transversale et la face gauche de la structure.
+-    **Left Cover**: distance entre l\'extrémité gauche de l\'armature transversale et la face gauche de la structure.
 
--    **Right Cover**   * distance entre l\'extrémité droite de la barre d\'armature transversale et la face droite de la structure.
+-    **Right Cover**: distance entre l\'extrémité droite de la barre d\'armature transversale et la face droite de la structure.
 
--    **Bottom Cover**   * distance entre les armatures transversales et la face inférieure de la structure.
+-    **Bottom Cover**: distance entre les armatures transversales et la face inférieure de la structure.
 
--    **Top Cover**   * distance entre les barres d\'armature transversales depuis la face supérieure de la structure.
+-    **Top Cover**: distance entre les barres d\'armature transversales depuis la face supérieure de la structure.
 
--    **Rear Cover**   * couverture arrière pour le renforcement de la semelle des armatures transversales.
+-    **Rear Cover**: couverture arrière pour le renforcement de la semelle des armatures transversales.
 
--    **Rounding**   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre des armatures transversales.
+-    **Rounding**: valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre des armatures transversales.
 
--    **Diameter**   * diamètre des armatures transversales
+-    **Diameter**: diamètre des armatures transversales
 
--    **Amount**   * contient le nombre d\'armatures transversales.
+-    **Amount**: contient le nombre d\'armatures transversales.
 
--    **Spacing**   * contient l\'espacement entre les armatures transversales.
+-    **Spacing**: contient l\'espacement entre les armatures transversales.
 
-**Propriétés pour les colonnes dans la semelle renforcée    ***
+**Propriétés pour les colonnes dans la semelle renforcée :**
 
--    **Front Cover**   * distance entre la face sélectionnée et les colonnes.
+-    **Front Cover**: distance entre la face sélectionnée et les colonnes.
 
--    **Couverture gauche**   * distance entre la face gauche et les colonnes.
+-    **Couverture gauche**: distance entre la face gauche et les colonnes.
 
--    **Right Cover**   * distance entre la face droite et les colonnes.
+-    **Right Cover**: distance entre la face droite et les colonnes.
 
--    **Rear Cover**   * distance entre la face arrière et les colonnes.
+-    **Rear Cover**: distance entre la face arrière et les colonnes.
 
--    **Column Width**   * largeur de la colonne.
+-    **Column Width**: largeur de la colonne.
 
--    **Column Length**   * longueur de la colonne.
+-    **Column Length**: longueur de la colonne.
 
--    **X direction column amount**   * contient le nombre de colonnes dans le sens des x. Si le bouton radio Quantité dans le sens X est activé.
+-    **X direction column amount**: contient le nombre de colonnes dans le sens des x. Si le bouton radio Quantité dans le sens X est activé.
 
--    **X direction column spacing**   * contient l\'espacement entre les colonnes dans le sens des x. Si le bouton radio d\'espacement dans le sens X est activé.
+-    **X direction column spacing**: contient l\'espacement entre les colonnes dans le sens des x. Si le bouton radio d\'espacement dans le sens X est activé.
 
--    **Y direction column amount**   * contient le nombre de colonnes dans le sens des y. Si la case d\'option Quantité dans le sens des Y est activée.
+-    **Y direction column amount**: contient le nombre de colonnes dans le sens des y. Si la case d\'option Quantité dans le sens des Y est activée.
 
--    **Y direction column spacing**   * contient l\'espacement entre les colonnes dans le sens des y. Si la case d\'option Espacement dans le sens des Y est activée.
+-    **Y direction column spacing**: contient l\'espacement entre les colonnes dans le sens des y. Si la case d\'option Espacement dans le sens des Y est activée.
 
--    **Add Secondary Rebars**   * si la case est cochée, ajoute des barres secondaires dans les directions x et y dans les colonnes.
+-    **Add Secondary Rebars**: si la case est cochée, ajoute des barres secondaires dans les directions x et y dans les colonnes.
 
-**Propriétés des attaches dans les colonnes de la semelle renforcée    ***
+**Propriétés des attaches dans les colonnes de la semelle renforcée :**
 
--    **Top Cover**   * couverture supérieure pour les liens à l\'extérieur de la semelle à partir de l\'extrémité des barres d\'armature principales.
+-    **Top Cover**: couverture supérieure pour les liens à l\'extérieur de la semelle à partir de l\'extrémité des barres d\'armature principales.
 
--    **Bottom Cover**   * couverture inférieure des attaches à partir du bas des barres d\'armature principales dans la semelle près du treillis.
+-    **Bottom Cover**: couverture inférieure des attaches à partir du bas des barres d\'armature principales dans la semelle près du treillis.
 
--    **Diameter**   * diamètre des attaches.
+-    **Diameter**: diamètre des attaches.
 
--    **Bent Angle**   * angle de pliage des attaches.
+-    **Bent Angle**: angle de pliage des attaches.
 
--    **Extension Factor**   * facteur d\'extension pour le bord étendu des attaches.
+-    **Extension Factor**: facteur d\'extension pour le bord étendu des attaches.
 
--    **Tie Number**   * contient le nombre de barres d\'armature ou l\'espacement entre les attaches, si le bouton radio Number est activé.
+-    **Tie Number**: contient le nombre de barres d\'armature ou l\'espacement entre les attaches, si le bouton radio Number est activé.
 
--    **Tie Spacing**   * contient l\'espacement entre les attaches, si le bouton radio Spacing est activé.
+-    **Tie Spacing**: contient l\'espacement entre les attaches, si le bouton radio Spacing est activé.
 
-**Propriétés des armatures principales des colonnes de la semelle renforcée    ***
+**Propriétés des armatures principales des colonnes de la semelle renforcée :**
 
--    **Type d'armature**   * type d\'armature pour les armatures principales du poteau. Prend deux entrées différentes pour \'StraightRebar\', \'LShapeRebar\'.
+-    **Type d'armature**: type d\'armature pour les armatures principales du poteau. Prend deux entrées différentes pour \'StraightRebar\', \'LShapeRebar\'.
 
--    **Hook Orientation**   * orientation du crochet des barres d\'armature principales dans les colonnes si le type de barre d\'armature principale est LShapeRebar. Prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    **Hook Orientation**: orientation du crochet des barres d\'armature principales dans les colonnes si le type de barre d\'armature principale est LShapeRebar. Prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
--    **Hook Extend Along**   * Direction du crochet de la barre d\'armature principale (LShapeRebar). Il a deux options \"axe x\" et \"axe y\".
+-    **Hook Extend Along**: Direction du crochet de la barre d\'armature principale (LShapeRebar). Il a deux options \"axe x\" et \"axe y\".
 
--    **Hook Extension**   * spécifie la longueur du crochet de la barre d\'armature principale (LShapeRebar).
+-    **Hook Extension**: spécifie la longueur du crochet de la barre d\'armature principale (LShapeRebar).
 
--    **Rebar Rounding**   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre de la barre d\'armature principale.
+-    **Rebar Rounding**: valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre de la barre d\'armature principale.
 
--    **Top Offset**   * décalage supérieur des barres d\'armature principales dans la colonne à l\'extérieur de la face supérieure de la semelle.
+-    **Top Offset**: décalage supérieur des barres d\'armature principales dans la colonne à l\'extérieur de la face supérieure de la semelle.
 
--    **Diameter**   * diamètre des barres d\'armature principales dans les colonnes.
+-    **Diameter**: diamètre des barres d\'armature principales dans les colonnes.
 
-**Propriétés des armatures de direction X dans les colonnes de la semelle renforcée    ***
+**Propriétés des armatures de direction X dans les colonnes de la semelle renforcée :**
 
 Barres le long de la direction x, sauf les barres principales.
 
--    **Rebar Type**   * type de barres d\'armature dans le sens des x d\'une colonne, avec deux valeurs    * \'StraightRebar\' et \'LShapeRebar\'.
+-    **Rebar Type**: type de barres d\'armature dans le sens des x d\'une colonne, avec deux valeurs : \'StraightRebar\' et \'LShapeRebar\'.
 
--    **Hook Orientation**   * prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    **Hook Orientation**: prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
--    **Hook Extension**   * longueur du crochet des barres d\'armature en forme de L.
+-    **Hook Extension**: longueur du crochet des barres d\'armature en forme de L.
 
--    **Rounding**   * valeur d\'arrondi à appliquer aux coins des barres d\'armature en L, exprimée en fois le diamètre.
+-    **Rounding**: valeur d\'arrondi à appliquer aux coins des barres d\'armature en L, exprimée en fois le diamètre.
 
--    **Top Offset**   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
+-    **Top Offset**: distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    **Number#Diameter**   * Jeu de numéros#Diamètre des barres d\'armature dans l\'axe x.
+-    **Number#Diameter**: Jeu de numéros#Diamètre des barres d\'armature dans l\'axe x.
 
-**Propriétés des armatures de direction Y dans les colonnes de la semelle renforcée    ***
+**Propriétés des armatures de direction Y dans les colonnes de la semelle renforcée :**
 
 Barres de renfort le long de la direction y, à l\'exception des barres de renfort principales.
 
--    **Rebar Type**   * type de barres d\'armature dans l\'axe des y. Il a deux valeurs, \'StraightRebar\' et \'LShapeRebar\'.
+-    **Rebar Type**: type de barres d\'armature dans l\'axe des y. Il a deux valeurs, \'StraightRebar\' et \'LShapeRebar\'.
 
--    **Hook Orientation**   * orientation des crochets de type LS. Il prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    **Hook Orientation**: orientation des crochets de type LS. Il prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
--    **Hook Extension**   * longueur du crochet des barres d\'armature en forme de L.
+-    **Hook Extension**: longueur du crochet des barres d\'armature en forme de L.
 
--    **Rounding**   * valeur d\'arrondi à appliquer aux coins des barres d\'armature en L, exprimée en fois le diamètre.
+-    **Rounding**: valeur d\'arrondi à appliquer aux coins des barres d\'armature en L, exprimée en fois le diamètre.
 
--    **Top Offset**   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
+-    **Top Offset**: distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    **Number#Diameter**   * jeu de numéros#Diamètre des barres d\'armature dans la direction y.
+-    **Number#Diameter**: jeu de numéros#Diamètre des barres d\'armature dans la direction y.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Renforts de semelle peut être utilisé à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    *
+L\'outil Renforts de semelle peut être utilisé à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 ### Créer un renfort de semelle 
 
@@ -293,115 +293,115 @@ footingReinforcementGroup = makeFootingReinforcement(
 -   Crée un objet `footingReinforcementGroup` à partir des données `structure`, qui est une [Arch Structure](Arch_Structure/fr.md) et `facename` qui est une face de cette structure.
     -   Si aucun `structure` ou `facename` n\'est donné, il prendra en entrée la face sélectionnée par l\'utilisateur.
 
-**Propriétés des barres d\'armature dans la direction parallèle à la face sélectionnée    ***
+**Propriétés des barres d\'armature dans la direction parallèle à la face sélectionnée :**
 
--    `parallel_rebar_type`   * type de barre d\'armature pour les barres d\'armature parallèles pour le renfort des semelles. Peut avoir trois valeurs    * \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
+-    `parallel_rebar_type`: type de barre d\'armature pour les barres d\'armature parallèles pour le renfort des semelles. Peut avoir trois valeurs : \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
 
--    `parallel_front_cover`   * distance entre la barre d\'armature parallèle et la face sélectionnée.
+-    `parallel_front_cover`: distance entre la barre d\'armature parallèle et la face sélectionnée.
 
--    `parallel_rear_cover`   * couverture arrière pour le renforcement de la semelle des barres d\'armature parallèles.
+-    `parallel_rear_cover`: couverture arrière pour le renforcement de la semelle des barres d\'armature parallèles.
 
--    `parallel_left_cover`   * distance entre l\'extrémité gauche de la barre d\'armature parallèle et la face gauche de la structure.
+-    `parallel_left_cover`: distance entre l\'extrémité gauche de la barre d\'armature parallèle et la face gauche de la structure.
 
--    `parallel_right_cover`   * distance entre l\'extrémité droite de la barre d\'armature parallèle et la face droite de la structure.
+-    `parallel_right_cover`: distance entre l\'extrémité droite de la barre d\'armature parallèle et la face droite de la structure.
 
--    `parallel_top_cover`   * distance entre les barres d\'armature parallèles et la face supérieure de la structure.
+-    `parallel_top_cover`: distance entre les barres d\'armature parallèles et la face supérieure de la structure.
 
--    `parallel_bottom_cover`   * distance entre les barres d\'armature parallèles à partir de la face inférieure de la structure.
+-    `parallel_bottom_cover`: distance entre les barres d\'armature parallèles à partir de la face inférieure de la structure.
 
--    `parallel_diameter`   * diamètre des barres d\'armature parallèles.
+-    `parallel_diameter`: diamètre des barres d\'armature parallèles.
 
--    `parallel_amount_spacing_check`   * mis à True, alors la valeur de parallel_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de parallel_amount_spacing_value est utilisée comme espacement dans les barres parallèles.
+-    `parallel_amount_spacing_check`: mis à True, alors la valeur de parallel_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de parallel_amount_spacing_value est utilisée comme espacement dans les barres parallèles.
 
--    `parallel_amount_spacing_value`   * contient le nombre d\'armatures ou l\'espacement entre les armatures parallèles en fonction de la valeur de amount_spacing_check.
+-    `parallel_amount_spacing_value`: contient le nombre d\'armatures ou l\'espacement entre les armatures parallèles en fonction de la valeur de amount_spacing_check.
 
--    `parallel_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le parallel_diamètre.
+-    `parallel_rounding`: valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le parallel_diamètre.
 
--    `parallel_l_shape_hook_orintation`   * représente l\'orientation du crochet de la barre d\'armature parallèle en forme de L si le type de barre parallèle est LShapeRebar. Peut avoir trois valeurs    * \"Left\", \"Right\", \"Alternate\".
+-    `parallel_l_shape_hook_orintation`: représente l\'orientation du crochet de la barre d\'armature parallèle en forme de L si le type de barre parallèle est LShapeRebar. Peut avoir trois valeurs : \"Left\", \"Right\", \"Alternate\".
 
-**Propriétés des barres d\'armature dans le sens transversal de la face sélectionnée    ***
+**Propriétés des barres d\'armature dans le sens transversal de la face sélectionnée :**
 
--    `cross_rebar_type`   * type de barre d\'armature pour les armatures transversales pour le renforcement des semelles. Peut avoir trois valeurs    * \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
+-    `cross_rebar_type`: type de barre d\'armature pour les armatures transversales pour le renforcement des semelles. Peut avoir trois valeurs : \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
 
--    `cross_front_cover`   * distance entre la barre d\'armature transversale et la face transversale (face perpendiculaire à la face sélectionnée).
+-    `cross_front_cover`: distance entre la barre d\'armature transversale et la face transversale (face perpendiculaire à la face sélectionnée).
 
--    `cross_rear_cover`   * couverture arrière pour le renforcement de la semelle des armatures transversales.
+-    `cross_rear_cover`: couverture arrière pour le renforcement de la semelle des armatures transversales.
 
--    `cross_left_cover`   * distance entre l\'extrémité gauche de l\'armature transversale et la face gauche de la structure.
+-    `cross_left_cover`: distance entre l\'extrémité gauche de l\'armature transversale et la face gauche de la structure.
 
--    `cross_right_cover`   * distance entre l\'extrémité droite de la barre d\'armature et la face droite de la structure par rapport à la face transversale.
+-    `cross_right_cover`: distance entre l\'extrémité droite de la barre d\'armature et la face droite de la structure par rapport à la face transversale.
 
--    `cross_top_cover`   * distance entre la barre d\'armature transversale et la face supérieure de la structure.
+-    `cross_top_cover`: distance entre la barre d\'armature transversale et la face supérieure de la structure.
 
--    `cross_bottom_cover`   * distance entre les barres d\'armature croisées depuis la face inférieure de la structure.
+-    `cross_bottom_cover`: distance entre les barres d\'armature croisées depuis la face inférieure de la structure.
 
--    `cross_diameter`   * diamètre des barres d\'armature transversales.
+-    `cross_diameter`: diamètre des barres d\'armature transversales.
 
--    `cross_amount_spacing_check`   * mis à True, la valeur de cross_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de cross_amount_spacing_value est utilisée comme espacement entre les barres.
+-    `cross_amount_spacing_check`: mis à True, la valeur de cross_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de cross_amount_spacing_value est utilisée comme espacement entre les barres.
 
--    `cross_amount_spacing_value`   * contient le nombre de barres ou l\'espacement entre les barres en fonction de la valeur de cross_amount_spacing_check.
+-    `cross_amount_spacing_value`: contient le nombre de barres ou l\'espacement entre les barres en fonction de la valeur de cross_amount_spacing_check.
 
--    `cross_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross_diameter.
+-    `cross_rounding`: valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross_diameter.
 
--    `cross_l_shape_hook_orintation`   * représente l\'orientation du crochet de la barre d\'armature transversale en forme de L si le type de barre transversale est LShapeRebar. Peut avoir trois valeurs    * \"Left\", \"Right\", \"Alternate\".
+-    `cross_l_shape_hook_orintation`: représente l\'orientation du crochet de la barre d\'armature transversale en forme de L si le type de barre transversale est LShapeRebar. Peut avoir trois valeurs : \"Left\", \"Right\", \"Alternate\".
 
-**Propriétés pour les colonnes dans la semelle renforcée    ***
+**Propriétés pour les colonnes dans la semelle renforcée :**
 
--    `column_front_cover`   * distance entre la face et les colonnes sélectionnées.
+-    `column_front_cover`: distance entre la face et les colonnes sélectionnées.
 
--    `column_left_cover`   * distance entre la face gauche et les colonnes.
+-    `column_left_cover`: distance entre la face gauche et les colonnes.
 
--    `column_right_cover`   * distance entre la face et les colonnes de droite.
+-    `column_right_cover`: distance entre la face et les colonnes de droite.
 
--    `column_rear_cover`   * distance entre la face arrière et les colonnes arrière.
+-    `column_rear_cover`: distance entre la face arrière et les colonnes arrière.
 
--    `column_width`   * largeur des colonnes.
+-    `column_width`: largeur des colonnes.
 
--    `column_length`   * longueur des colonnes.
+-    `column_length`: longueur des colonnes.
 
--    `xdir_column_amount_spacing_check`   * mis à True, alors la valeur de xdir_column_amount_spacing_value est utilisée comme nombre de colonnes, sinon la valeur de xdir_column_amount_spacing_value est utilisée comme espacement entre les colonnes dans la direction x.
+-    `xdir_column_amount_spacing_check`: mis à True, alors la valeur de xdir_column_amount_spacing_value est utilisée comme nombre de colonnes, sinon la valeur de xdir_column_amount_spacing_value est utilisée comme espacement entre les colonnes dans la direction x.
 
--    `xdir_column_amount_spacing_value`   * contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens x en fonction de la valeur de xdir_column_amount_spacing_check.
+-    `xdir_column_amount_spacing_value`: contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens x en fonction de la valeur de xdir_column_amount_spacing_check.
 
--    `ydir_column_amount_spacing_check`   * mis à True, alors la valeur de ydir_column_amount_spacing_value est utilisée comme nombre de colonnes, sinon la valeur de ydir_column_amount_spacing_value est utilisée comme espacement entre les colonnes dans la direction y.
+-    `ydir_column_amount_spacing_check`: mis à True, alors la valeur de ydir_column_amount_spacing_value est utilisée comme nombre de colonnes, sinon la valeur de ydir_column_amount_spacing_value est utilisée comme espacement entre les colonnes dans la direction y.
 
--    `ydir_column_amount_spacing_value`   * contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens des y en fonction de la valeur de ydir_column_amount_spacing_check.
+-    `ydir_column_amount_spacing_value`: contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens des y en fonction de la valeur de ydir_column_amount_spacing_check.
 
--    `column_sec_rebar_check`   * mis à True, ajoute des barres secondaires dans les directions x et y dans les colonnes.
+-    `column_sec_rebar_check`: mis à True, ajoute des barres secondaires dans les directions x et y dans les colonnes.
 
-**Propriétés des attaches dans les colonnes de la semelle renforcée    ***
+**Propriétés des attaches dans les colonnes de la semelle renforcée :**
 
--    `tie_top_cover`   * couverture supérieure des attaches à l\'extérieur de la semelle depuis l\'extrémité des barres d\'armature principales.
+-    `tie_top_cover`: couverture supérieure des attaches à l\'extérieur de la semelle depuis l\'extrémité des barres d\'armature principales.
 
--    `tie_bottom_cover`   * couverture inférieure des attaches à partir du bas des barres d\'armature principales dans la semelle près du treillis.
+-    `tie_bottom_cover`: couverture inférieure des attaches à partir du bas des barres d\'armature principales dans la semelle près du treillis.
 
--    `tie_bent_angle`   * angle de courbure des attaches.
+-    `tie_bent_angle`: angle de courbure des attaches.
 
--    `tie_extension_factor`   * facteur d\'extension du bord étendu des attaches.
+-    `tie_extension_factor`: facteur d\'extension du bord étendu des attaches.
 
--    `tie_diameter`   * diamètre des attaches.
+-    `tie_diameter`: diamètre des attaches.
 
--    `tie_number_spacing_check`   * mis à True, alors la valeur de tie_number_spacing_value est utilisée comme nombre de liens, sinon la valeur de tie_number_spacing_value est utilisée comme espacement dans les liens.
+-    `tie_number_spacing_check`: mis à True, alors la valeur de tie_number_spacing_value est utilisée comme nombre de liens, sinon la valeur de tie_number_spacing_value est utilisée comme espacement dans les liens.
 
--    `tie_number_spacing_value`   * contient le nombre d\'égalités ou l\'espacement entre les égalités en fonction de la valeur de tie_number_spacing_check.
+-    `tie_number_spacing_value`: contient le nombre d\'égalités ou l\'espacement entre les égalités en fonction de la valeur de tie_number_spacing_check.
 
-**Propriétés des armatures principales des colonnes de la semelle renforcée    ***
+**Propriétés des armatures principales des colonnes de la semelle renforcée :**
 
--    `column_main_rebar_diameter`   * diamètre des barres d\'armature principales dans les colonnes.
+-    `column_main_rebar_diameter`: diamètre des barres d\'armature principales dans les colonnes.
 
--    `column_main_rebars_t_offset`   * décalage supérieur des barres d\'armature principales dans la colonne à l\'extérieur de la semelle.
+-    `column_main_rebars_t_offset`: décalage supérieur des barres d\'armature principales dans la colonne à l\'extérieur de la semelle.
 
--    `column_main_hook_extend_along`   * direction du crochet de la barre d\'armature principale (LShapeRebar). Il a deux options \"x-axis\" et \"y-axis\".
+-    `column_main_hook_extend_along`: direction du crochet de la barre d\'armature principale (LShapeRebar). Il a deux options \"x-axis\" et \"y-axis\".
 
--    `column_l_main_rebar_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre de la colonne_main_rebar\_.
+-    `column_l_main_rebar_rounding`: valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre de la colonne_main_rebar\_.
 
--    `column_main_hook_extension`   * indique la longueur du crochet de la barre d\'armature principale (LShapeRebar).
+-    `column_main_hook_extension`: indique la longueur du crochet de la barre d\'armature principale (LShapeRebar).
 
--    `column_main_rebars_type`   * type de barre d\'armature pour les barres d\'armature principales du poteau. Prend deux entrées différentes pour \'StraightRebar\', \'LShapeRebar\'. La valeur par défaut est StraightRebar.
+-    `column_main_rebars_type`: type de barre d\'armature pour les barres d\'armature principales du poteau. Prend deux entrées différentes pour \'StraightRebar\', \'LShapeRebar\'. La valeur par défaut est StraightRebar.
 
--    `column_main_hook_orientation`   * orientation du crochet des barres principales dans les colonnes si column_main_rebars_type est LShapeRebar. Prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    `column_main_hook_orientation`: orientation du crochet des barres principales dans les colonnes si column_main_rebars_type est LShapeRebar. Prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
-**Propriétés pour les directions secondaires X et Y des barres d\'armature des colonnes de la semelle renforcée    ***
+**Propriétés pour les directions secondaires X et Y des barres d\'armature des colonnes de la semelle renforcée :**
 
 -    `column_sec_rebars_t_offset`et `sec_rebars_b_offset` sont des n-uplets (xdir_rebars_t\_offset, ydir_rebars_t\_offset) qui définissent les distances de décalage (ou hauteur) pour les armatures secondaires de direction x et de direction y par rapport aux faces supérieures de la structure, respectivement.
 
@@ -415,13 +415,13 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_sec_hook_extension`est un tuple (xdir_hook_extension, ydir_hook_extension) qui définit la longueur du crochet des barres d\'armature secondaires en forme de LS dans les directions x et y.
 
-**Propriétés communes de la semelle renforcée    ***
+**Propriétés communes de la semelle renforcée :**
 
--    `mesh_cover_along`   * peut avoir trois valeurs    * \"Top\", \"Bottom\" et \"Both\". Représente l\'alignement des mailles d\'armature le long de la face supérieure et/ou inférieure de la structure.
+-    `mesh_cover_along`: peut avoir trois valeurs : \"Top\", \"Bottom\" et \"Both\". Représente l\'alignement des mailles d\'armature le long de la face supérieure et/ou inférieure de la structure.
 
--    `structure`   * objet Arch structure. La valeur par défaut est None.
+-    `structure`: objet Arch structure. La valeur par défaut est None.
 
--    `facename`   * face sélectionnée de la structure. La valeur par défaut est None.
+-    `facename`: face sélectionnée de la structure. La valeur par défaut est None.
 
 ### Edition de Renforts de semelle 
 
@@ -506,14 +506,6 @@ footingReinforcementGroup = editFootingReinforcement(
 -    `footingReinforcementGroup`est un objet groupe `Footing Reinforcement` préalablement créé.
 
 -   Les autres paramètres sont les mêmes que ceux requis par la fonction `makeFootingReinforcement()`.
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

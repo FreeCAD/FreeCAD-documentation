@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *OpenSCAD AddOpenSCADElement
-   Name/de   *OpenSCAD HinzufügenOpenSCADElement
-   Empty   *1
-   MenuLocation   *OpenSCAD -> Hinzufügen OpenSCAD Element
-   Workbenches   *[OpenSCAD](OpenSCAD_Workbench/de.md)
+- GuiCommand:/de
+   Name:OpenSCAD AddOpenSCADElement
+   Name/de:OpenSCAD HinzufügenOpenSCADElement
+   Empty:1
+   MenuLocation:OpenSCAD -> Hinzufügen OpenSCAD Element
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD AddOpenSCADElement/de
@@ -24,12 +24,12 @@ include <../examples/example001.scad>;
 
 ## Installation von OpenSCAD innerhalb von FreeCAD 
 
-**Hinweis   *** OpenSCAD muss auf deinem Computer installiert sein, damit FreeCAD diese Funktionalität nutzen kann
-Installiere OpenSCAD in der für dein Betriebssystem entsprechenden Weise. Siehe [the OpenSCAD web site](https   *//www.openscad.org/) für mehr Informationen
+**Hinweis:** OpenSCAD muss auf deinem Computer installiert sein, damit FreeCAD diese Funktionalität nutzen kann
+Installiere OpenSCAD in der für dein Betriebssystem entsprechenden Weise. Siehe [the OpenSCAD web site](https://www.openscad.org/) für mehr Informationen
 
 FreeCAD needs to be told where to find the OpenSCAD executable
 
--   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
+-   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
 **Menu → View Workbench → OpenSCAD**
 -   Open the preferences dialog **Menu  
     → Edit → Preferences**
@@ -37,9 +37,9 @@ FreeCAD needs to be told where to find the OpenSCAD executable
 -   Click on the button labled **...** in **General Settings → General OpenSCAD Settings → OpenSCAD executable** to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button
 -   Close and restart FreeCAD
 
-   *   **Result   *** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench
+:   **Result:** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench
 
-Hinweis   * Es ist ebenso möglich einen anderen Optionalen Paramter hinzuzufügen, der die maximalen Seiten eines Polygons steuert bevor es als ein Kreis angesehen wird (fn).
+Hinweis: Es ist ebenso möglich einen anderen Optionalen Paramter hinzuzufügen, der die maximalen Seiten eines Polygons steuert bevor es als ein Kreis angesehen wird (fn).
 
 Beginnend mit <small>(v0.14)</small>  sucht FreeCAD nach der OpenSCAD ausführbaren wenn oben genannte Einstellung leer ist.
 

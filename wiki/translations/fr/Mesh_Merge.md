@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Mesh Merge
-   Name/fr   *Mesh Fusionner
-   MenuLocation   *Maillages → Fusionner
-   Workbenches   *[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso   *[Mesh Éclater par composants](Mesh_SplitComponents/fr.md)
+- GuiCommand:/fr
+   Name:Mesh Merge
+   Name/fr:Mesh Fusionner
+   MenuLocation:Maillages → Fusionner
+   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   SeeAlso:[Mesh Éclater par composants](Mesh_SplitComponents/fr.md)
 ---
 
 # Mesh Merge/fr
@@ -16,14 +16,14 @@ La commande **Mesh Fusionner** crée un nouvel objet maillé non paramétrique, 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets maillés.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Mesh_Merge.svg" width=16px> [Fusionner](Mesh_Merge/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Merge.svg" width=16px> Fusionner** dans le menu.
 
 ## Propriétés
 
-Voir   * [Mesh Feature](Mesh_Feature/fr.md).
+Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

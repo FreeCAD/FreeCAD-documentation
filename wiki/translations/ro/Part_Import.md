@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Part Import
-‏‎   MenuLocation   *Part → Import CAD
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Std Import](Std_Import.md)
+- GuiCommand:
+   Name:Part Import
+‏‎   MenuLocation:Part → Import CAD
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:[Std Import](Std_Import.md)
 ---
 
 # Part Import/ro
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument vă permite să a dăugați un fișier [\*.IGES](http   *//en.wikipedia.org/wiki/IGES), [\*.STEP](http   *//en.wikipedia.org/wiki/Step_file), [\*.BREP](http   *//en.wikipedia.org/wiki/BREP) la documentul curent.
+Acest instrument vă permite să a dăugați un fișier [\*.IGES](http://en.wikipedia.org/wiki/IGES), [\*.STEP](http://en.wikipedia.org/wiki/Step_file), [\*.BREP](http://en.wikipedia.org/wiki/BREP) la documentul curent.
 
 
 </div>

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw LeaderLine
-   Name/it   *Linea guida
-   MenuLocation   *TechDraw → Aggiungi linee → Linea guida
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   Version   *0.19
-   SeeAlso   *[Blocco di testo](TechDraw_RichTextAnnotation/it.md), [Simbolo di saldatura](TechDraw_WeldSymbol/it.md), [Gruppi di linee](TechDraw_LineGroup/it.md)
+- GuiCommand:/it
+   Name:TechDraw LeaderLine
+   Name/it:Linea guida
+   MenuLocation:TechDraw → Aggiungi linee → Linea guida
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   Version:0.19
+   SeeAlso:[Blocco di testo](TechDraw_RichTextAnnotation/it.md), [Simbolo di saldatura](TechDraw_WeldSymbol/it.md), [Gruppi di linee](TechDraw_LineGroup/it.md)
 ---
 
 # TechDraw LeaderLine/it
@@ -37,7 +37,7 @@ Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annota
 
 </div>
 
-**Nota   *** Se non è stato definito alcun punto durante la creazione della linea guida, viene posizionata una linea corta al centro della vista.
+**Nota:** Se non è stato definito alcun punto durante la creazione della linea guida, viene posizionata una linea corta al centro della vista.
 
 ### Modifica
 
@@ -48,25 +48,25 @@ Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annota
 
 ## Proprietà
 
--    **X,Y**   * il punto in cui la linea guida è connessa alla vista.
+-    **X,Y**: il punto in cui la linea guida è connessa alla vista.
 
--    **Leader Parent**   * la vista a cui è attaccata la linea guida
+-    **Leader Parent**: la vista a cui è attaccata la linea guida
 
--    **Start Symbol**   * il simbolo all\'inizio   * <img alt="" src=images/Arrownone.svg  style="width   *20px;"> Nessuno, <img alt="" src=images/Arrowfilled.svg  style="width   *20px;"> Freccia piena, <img alt="" src=images/Arrowopen.svg  style="width   *20px;"> freccia aperta, <img alt="" src=images/Arrowtick.svg  style="width   *20px;"> Barra, <img alt="" src=images/Arrowdot.svg  style="width   *20px;"> Punto, <img alt="" src=images/arrowopendot.svg  style="width   *20px;"> Cerchio aperto, <img alt="" src=images/arrowfork.svg  style="width   *20px;"> Biforcazione, <img alt="" src=images/arrowpyramid.svg  style="width   *20px;"> Triangolo pieno
+-    **Start Symbol**: il simbolo all\'inizio: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Nessuno, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Freccia piena, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> freccia aperta, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Barra, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Punto, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cerchio aperto, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Biforcazione, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangolo pieno
 
--    **End Symbol**   * il simbolo alla fine.
+-    **End Symbol**: il simbolo alla fine.
 
--    **WayPoints**   * nodi sulla linea guida.
+-    **WayPoints**: nodi sulla linea guida.
 
--    **Scalable**   * scala la linea guida con Leader Parent.
+-    **Scalable**: scala la linea guida con Leader Parent.
 
--    **Auto Horizontal**   * forza l\'ultimo segmento della linea guida ad essere orizzontale.
+-    **Auto Horizontal**: forza l\'ultimo segmento della linea guida ad essere orizzontale.
 
--    **Color**   * Colore della penna per la linea guida.
+-    **Color**: Colore della penna per la linea guida.
 
--    **Line Style**   * 0 nessuna linea, 1 <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> continua, 2 <img alt="" src=images/Dash-line.svg  style="width   *20px;"> a tratti, 3 <img alt="" src=images/Dot-line.svg  style="width   *20px;"> punti, 4 <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> tratto e punto, 5 <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> tratto e 2 punti
+-    **Line Style**: 0 nessuna linea, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> continua, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> a tratti, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> punti, 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> tratto e punto, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> tratto e 2 punti
 
--    **Line Width**   * Larghezza della linea guida.
+-    **Line Width**: Larghezza della linea guida.
 
 ## Script
 
@@ -74,7 +74,7 @@ Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annota
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -84,7 +84,7 @@ Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annota
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Linea guida può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Linea guida può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -93,7 +93,7 @@ Lo strumento Linea guida può essere utilizzato nelle [macro](macros/it.md) e da
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
-leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawLeaderLine','DrawLeaderLine')
+leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawLeaderLine','DrawLeaderLine')
 FreeCAD.activeDocument().myPage.addView(leaderObj)
 FreeCAD.activeDocument().leaderObj.LeaderParent = myBase
 #first waypoint is always (0,0,0)  

@@ -1,7 +1,7 @@
 # Drawing Workbench/de
 **Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Zeichnung Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
-<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width   *128px;">
+<img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
 
 ## Einführung
 
@@ -10,37 +10,37 @@ Das Zeichnungsmodul erlaubt dir, deine 3D Arbeit zu Papier zu bringen. Das bedeu
 
 {{TOCright}}
 
-<img alt="" src=images/Drawing_extraction.png  style="width   *600px;">
+<img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
 ## Werkzeuge
 
 Diese Werkzeuge ermöglichen das Erstellen, Konfigurieren und exportieren von 2D Zeichnungen
 
--   <img alt="" src=images/Drawing_New.png  style="width   *32px;"> [Skalierbare Vektorgrafik öffnen](Drawing_Open_SVG/de.md)   * Öffnet ein zuvor als SVG Datei gespeichertes Zeichnungsblatt
+-   <img alt="" src=images/Drawing_New.png  style="width:32px;"> [Skalierbare Vektorgrafik öffnen](Drawing_Open_SVG/de.md): Öffnet ein zuvor als SVG Datei gespeichertes Zeichnungsblatt
 
--   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [Neue A3 Querformat Zeichnung](Drawing_Landscape_A3/de.md)   * Erzeugt ein neues Zeichnungsblatt aus FreeCADs Standard A3 Vorlage
+-   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [Neue A3 Querformat Zeichnung](Drawing_Landscape_A3/de.md): Erzeugt ein neues Zeichnungsblatt aus FreeCADs Standard A3 Vorlage
 
--   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Eine Ansicht einfügen](Drawing_View/de.md)   * Fügt eine Ansicht des ausgewählten Objekts in das aktive Zeichnungsblatt ein
+-   <img alt="" src=images/Drawing_View.png  style="width:32px;"> [Eine Ansicht einfügen](Drawing_View/de.md): Fügt eine Ansicht des ausgewählten Objekts in das aktive Zeichnungsblatt ein
 
--   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Anmerkung](Drawing_Annotation/de.md)   * Fügt eine Anmerkung in das aktuelle Zeichnungsblatt ein
+-   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Anmerkung](Drawing_Annotation/de.md): Fügt eine Anmerkung in das aktuelle Zeichnungsblatt ein
 
--   <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Ausschnitt](Drawing_Clip/de.md)   * Fügt eine Ausschnittsgruppe in das aktuelle Zeichnungsblatt ein
+-   <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Ausschnitt](Drawing_Clip/de.md): Fügt eine Ausschnittsgruppe in das aktuelle Zeichnungsblatt ein
 
--   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Browser öffnen](Drawing_Openbrowser/de.md)   * Öffnet eine Vorschau des aktuellen Zeichnungsblatts in den Browser ein
+-   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Browser öffnen](Drawing_Openbrowser/de.md): Öffnet eine Vorschau des aktuellen Zeichnungsblatts in den Browser ein
 
--   <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Orthografische Ansichten einfügen](Drawing_Orthoviews/de.md)   * Orthografische Projektion eines Bauteils in die aktive Zeichnung einfügen
+-   <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Orthografische Ansichten einfügen](Drawing_Orthoviews/de.md): Orthografische Projektion eines Bauteils in die aktive Zeichnung einfügen
 
--   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Symbol](Drawing_Symbol.md)   * Fügt den Inhalt einer SVG-Datei als ein Symbol auf das aktuelle Zeichnungsblatt ein.
+-   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> [Symbol](Drawing_Symbol.md): Fügt den Inhalt einer SVG-Datei als ein Symbol auf das aktuelle Zeichnungsblatt ein.
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft View](Draft_Drawing.md)   * Fügt eine spezielle Entwurfsansicht des ausgewählten Objekts in das aktuelle Zeichenblatt ein.
+-   <img alt="" src=images/Drawing_DraftView.png  style="width:32px;"> [Draft View](Draft_Drawing.md): Fügt eine spezielle Entwurfsansicht des ausgewählten Objekts in das aktuelle Zeichenblatt ein.
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md)   * Fügt eine Ansicht eines ausgewählten Rechenblatts in das aktuelle Zeichenblatt ein.
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width:32px;"> [Spreadsheet View](Drawing_SpreadsheetView.md): Fügt eine Ansicht eines ausgewählten Rechenblatts in das aktuelle Zeichenblatt ein.
 
--   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Speichern](Drawing_Save/de.md)   * Speichert das aktuelle Blatt als SVG-Datei
+-   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Speichern](Drawing_Save/de.md): Speichert das aktuelle Blatt als SVG-Datei
 
--   [Project Shape](Drawing_ProjectShape.md)   * Erstellt eine Projektion des ausgewählten Objekts (Quelle) in der 3D-Ansicht.
+-   [Project Shape](Drawing_ProjectShape.md): Erstellt eine Projektion des ausgewählten Objekts (Quelle) in der 3D-Ansicht.
 
--    **Note   ***das [Draft Drawing](Draft_Drawing/de.md) Werkzeugt wird mit [Draft objects](Draft_Workbench/de.md) verwendet. Es verfügt über einige zusätzliche Funktionen gegenüber den Zeichenwerkzeugen und unterstützt spezifische Objekte wie[Entwurfsbemaßungen](Draft_Dimension/de.md).
+-    **Note:**das [Draft Drawing](Draft_Drawing/de.md) Werkzeugt wird mit [Draft objects](Draft_Workbench/de.md) verwendet. Es verfügt über einige zusätzliche Funktionen gegenüber den Zeichenwerkzeugen und unterstützt spezifische Objekte wie[Entwurfsbemaßungen](Draft_Dimension/de.md).
 
 ## Arbeitsablauf
 
@@ -70,7 +70,7 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 ## Externe Verweise 
 
--   [Einführung in technische Zeichnung auf Youtube - von Normal Universe](https   *//www.youtube.com/watch?v=1Hm5Zyjmjac)
+-   [Einführung in technische Zeichnung auf Youtube - von Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
 
@@ -78,9 +78,7 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 {{Drawing Tools navi
 
-}} 
-
-[Category   *Obsolete Workbenches](Category_Obsolete_Workbenches.md)
+}}
 
 
 

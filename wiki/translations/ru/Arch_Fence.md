@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Ограждение
-   Name   *Arch_Fence
-   MenuLocation   *Arch → Ограждение
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Version   *0.19
+- GuiCommand:/ru
+   Name/ru:Ограждение
+   Name:Arch_Fence
+   MenuLocation:Arch → Ограждение
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Version:0.19
 ---
 
 # Arch Fence/ru
@@ -13,7 +13,7 @@
 
 The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
 
-<img alt="" src=images/Arch_Fence_description_example.png  style="width   *600px;">
+<img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
 ## Применение
 
@@ -36,35 +36,35 @@ For now the tool assumes the following
 
 ### Данные
 
--    **Path**   * The path the fence should follow
+-    **Path**: The path the fence should follow
 
--    **Post**   * A single fence post to repeat
+-    **Post**: A single fence post to repeat
 
--    **Section**   * A single section to repeat
+-    **Section**: A single section to repeat
 
--    **Number Of Posts**   * The total number of posts used to build the fence. This is calculated automatically.
+-    **Number Of Posts**: The total number of posts used to build the fence. This is calculated automatically.
 
--    **Number Of Sections**   * The total number of sections used to build the fence. This is calculated automatically.
+-    **Number Of Sections**: The total number of sections used to build the fence. This is calculated automatically.
 
 ### Вид
 
--    **Use Original Colors**   * When set to `True` the fence will use the colors from the original section and post. Otherwise the ShapeColor of the fence will be used to colorize the fence.
+-    **Use Original Colors**: When set to `True` the fence will use the colors from the original section and post. Otherwise the ShapeColor of the fence will be used to colorize the fence.
 
 ## Примечания
 
 -   Arch Fence was introduced in FC v0.19 by user furti.
--   [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
+-   [Forum thread](https://forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
 
 ## Программирование
 
-The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
 Fence = buildFence(section, post, path)
 ```
 
-Пример   *
+Пример:
 
 
 ```python
@@ -79,13 +79,13 @@ parts.append(Part.makeBox(2000, 50, 30))
 parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector(0, 15, 30)))
 parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector(1980, 15, 30)))
 
-for i in range(8)   *
+for i in range(8):
     parts.append(Part.makeBox(20, 20, 1000 - 60, FreeCAD.Vector((2000 / 9 * (i + 1)) - 10, 15, 30)))
 
 Part.show(Part.makeCompound(parts), "Fence_section")
 fence_section = FreeCAD.ActiveDocument.Fence_section
 
-sketch = FreeCAD.ActiveDocument.addObject("Sketcher   *   *SketchObject", "Path")
+sketch = FreeCAD.ActiveDocument.addObject("Sketcher::SketchObject", "Path")
 sketch.Placement = FreeCAD.Placement(FreeCAD.Vector(0, 0, 0), FreeCAD.Rotation(0, 0, 0, 1))
 sketch.addGeometry(Part.LineSegment(FreeCAD.Vector(0, 0, 0), FreeCAD.Vector(20000, 0, 0)), False)
 sketch.addGeometry(Part.LineSegment(FreeCAD.Vector(20000, 0, 0), FreeCAD.Vector(20000, 20000, 0)), False)

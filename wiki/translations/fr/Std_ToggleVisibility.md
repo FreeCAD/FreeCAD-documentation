@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ToggleVisibility
-   Name/fr   *Std Basculer la visibilité
-   MenuLocation   *Affichage → Visibilité
-   Workbenches   *Tous
-   Shortcut   ***Barre d'espace**
-   SeeAlso   *[Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
+- GuiCommand:/fr
+   Name:Std ToggleVisibility
+   Name/fr:Std Basculer la visibilité
+   MenuLocation:Affichage → Visibilité
+   Workbenches:Tous
+   Shortcut:**Barre d'espace**
+   SeeAlso:[Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
 ---
 
 # Std ToggleVisibility/fr
@@ -20,12 +20,12 @@ La commande **Std Basculer la visibilité** bascule la visibilité des objets da
     -   Les objets invisibles peuvent être sélectionnés dans la [vue en arborescence](Tree_view/fr.md).
     -   Soyez prudent lorsque vous utilisez **Ctrl**+**A** pour sélectionner tous les objets dans l\'arborescence. Cela sélectionnera également les sous-éléments de [PartDesign Corps](PartDesign_Body/fr.md) et les objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md). Dans la plupart des cas, ceux-ci doivent rester invisibles.
     -   Les objets utilisés pour les [Part Opérations booléennes](Part_Boolean/fr.md) sont également sélectionnés lorsque vous utilisez **Ctrl**+**A** dans une vue 3D.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Sélectionnez l\'option **Afficher → <img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu.
     -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu contextuel de l\'arborescence. Cette option n\'est pas disponible dans [Atelier PartDesign](PartDesign_Workbench/fr.md).
     -   Sélectionnez l\'option **<img src="images/Std_ToggleVisibility.svg" width=16px> Basculer la visibilité** dans le menu contextuel de la vue 3D.
-    -   Utilisez le raccourci clavier   * **Barre d'espace**.
+    -   Utilisez le raccourci clavier: **Barre d'espace**.
 
 ## Remarques
 
@@ -38,7 +38,7 @@ La commande **Std Basculer la visibilité** bascule la visibilité des objets da
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
@@ -50,9 +50,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True   *
+if obj.Visibility == True:
   obj.hide()
-else   *
+else:
   obj.show()
 ```
 

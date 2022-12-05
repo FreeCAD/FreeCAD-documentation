@@ -34,10 +34,10 @@ Screenshots/gifs of various formats/sizes
 
 ## Social Media 
 
--   Twitter   * <https   *//www.twitter.com/FreeCADNews>
--   Facebook   * <https   *//www.facebook.com/FreeCAD>
--   Mastodon   * <https   *//fosstodon.org/@FreeCAD>
--   Reddit   * <https   *//www.reddit.com/r/FreeCAD>
+-   Twitter: <https://www.twitter.com/FreeCADNews>
+-   Facebook: <https://www.facebook.com/FreeCAD>
+-   Mastodon: <https://fosstodon.org/@FreeCAD>
+-   Reddit: <https://www.reddit.com/r/FreeCAD>
 
 ## History of FreeCAD
 

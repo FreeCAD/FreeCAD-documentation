@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *TechDraw 2LineCenterLine
-   Name/fr   *TechDraw Ligne centrale entre 2 lignes
-   MenuLocation   *TechDraw → Ajouter des lignes → Ajouter une ligne centrale entre 2 lignes
-   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Ligne centrale à une surface](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine.md)
+- GuiCommand:/fr
+   Name:TechDraw 2LineCenterLine
+   Name/fr:TechDraw Ligne centrale entre 2 lignes
+   MenuLocation:TechDraw → Ajouter des lignes → Ajouter une ligne centrale entre 2 lignes
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[TechDraw Ligne centrale à une surface](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine.md)
 ---
 
 # TechDraw 2LineCenterLine/fr
@@ -14,7 +14,7 @@
 
 L\'outil Ligne centrale entre 2 lignes ajoute une ligne centrale entre deux arêtes.
 
-<img alt="" src=images/CL2LinesSample.png  style="width   *350px;">
+<img alt="" src=images/CL2LinesSample.png  style="width:350px;">
 
 
 
@@ -42,26 +42,26 @@ N\'importe quel bouton de commande de la ligne centrale ( **<img src="images/Tec
 
 Les lignes centrales n\'ont pas de propriétés propres car elles ne sont pas des objets de document. Elles ont des attributs qui peuvent être modifiés via la boîte de dialogue.
 
--   **Orientation**   *
-    -   **Vertical**   * force la ligne centrale à être verticale
-    -   **Horizontal**   * force la ligne centrale à être horizontale
-    -   **Aligned**   * fait suivre la direction générale du bord pour le centre de 2 bords
--   **Shift Horizontal**   * déplace la ligne centrale à gauche ou à droite de sa position normale
--   **Shift Vertical**   * déplace la ligne centrale de sa position normale vers le haut ou le bas
--   **Rotation**   * Fait pivoter la ligne centrale autour de son centre (degrés. + Dans le sens antihoraire, - dans le sens horaire)
--   **Extend By**   * allonger la ligne centrale de ce montant
--   **Color**   * couleur de la ligne centrale
--   **Weight**   * épaisseur de la ligne centrale
--   **Style**   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Continu, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Tiret, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Point, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> Tiret Point, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> Tiret Point Point
--   **Flip ends**   * inverse les points de terminaison pour le cas comme décrit ci-dessous. (attribut supprimé avec FreeCAD 0.20)
+-   **Orientation**:
+    -   **Vertical**: force la ligne centrale à être verticale
+    -   **Horizontal**: force la ligne centrale à être horizontale
+    -   **Aligned**: fait suivre la direction générale du bord pour le centre de 2 bords
+-   **Shift Horizontal**: déplace la ligne centrale à gauche ou à droite de sa position normale
+-   **Shift Vertical**: déplace la ligne centrale de sa position normale vers le haut ou le bas
+-   **Rotation**: Fait pivoter la ligne centrale autour de son centre (degrés. + Dans le sens antihoraire, - dans le sens horaire)
+-   **Extend By**: allonger la ligne centrale de ce montant
+-   **Color**: couleur de la ligne centrale
+-   **Weight**: épaisseur de la ligne centrale
+-   **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continu, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Tiret, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Point, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tiret Point, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tiret Point Point
+-   **Flip ends**: inverse les points de terminaison pour le cas comme décrit ci-dessous. (attribut supprimé avec FreeCAD 0.20)
 
 ## Flip Ends 
 
-<img alt="Esquisse de construction de la ligne médiane" src=images/TD-CenterLineFlip.png  style="width   *350px;"> La ligne centrale entre 2 lignes est tracée entre les points médians (m0 et m1) des lignes qui relient les extrémités des lignes sélectionnées (p0 et p1), voir l\'esquisse. Selon l\'ordre des points, il existe 2 possibilités pour tracer les lignes de connexion. L\'attribut **Flip Ends** inverse la façon dont les lignes de connexion sont dessinées. Dans FreeCAD 0.20, l\'ordre des points est automatiquement déterminé de sorte que l\'attribut **Flip Ends** n\'est plus nécessaire.
+<img alt="Esquisse de construction de la ligne médiane" src=images/TD-CenterLineFlip.png  style="width:350px;"> La ligne centrale entre 2 lignes est tracée entre les points médians (m0 et m1) des lignes qui relient les extrémités des lignes sélectionnées (p0 et p1), voir l\'esquisse. Selon l\'ordre des points, il existe 2 possibilités pour tracer les lignes de connexion. L\'attribut **Flip Ends** inverse la façon dont les lignes de connexion sont dessinées. Dans FreeCAD 0.20, l\'ordre des points est automatiquement déterminé de sorte que l\'attribut **Flip Ends** n\'est plus nécessaire.
 
 ## Script
 
-Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Les lignes centrales ne sont pas accessibles à partir des [macros](Macros/fr.md) ou de la console [Python](Python/fr.md) pour le moment.
 

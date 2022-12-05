@@ -1,4 +1,4 @@
-# <img alt="Icône de l\'atelier externe FEMbyGEN" src=images/FEMbyGEN.svg  style="width   *64px;"> FEMbyGEN Workbench/fr
+# <img alt="Icône de l\'atelier externe FEMbyGEN" src=images/FEMbyGEN.svg  style="width:64px;"> FEMbyGEN Workbench/fr
 
 
 {{TOCright}}
@@ -7,7 +7,7 @@
 
 FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choisir la meilleure solution en montrant le comportement structurel de vos conceptions à l\'écran pour l\'analyse paramétrique et les situations de chargement multiples.
 
-<img alt="" src=images/Generative_Design.png  style="width   *512px;">
+<img alt="" src=images/Generative_Design.png  style="width:512px;">
 
 ### Déroulement des tâches 
 
@@ -42,11 +42,11 @@ FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choi
 
 ### Gestionnaire des extensions 
 
-FEMbyGEN peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addons](Std_AddonMgr/fr.md) de FreeCAD depuis menu **Outils → Gestionnaire d'Addons**.
+FEMbyGEN peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addons](Std_AddonMgr/fr.md) de FreeCAD depuis menu **Outils → Gestionnaire d'Addons**.
 
 FEMbyGEN est en cours de développement actif et sera doté de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant également le menu **Outils → Gestionnaire d'Addons**.
 
-Le code de FEMbyGEN est hébergé et développé ici [FEMbyGEN sur GitHub.com](https   *//github.com/Serince/FEMbyGEN).
+Le code de FEMbyGEN est hébergé et développé ici [FEMbyGEN sur GitHub.com](https://github.com/Serince/FEMbyGEN).
 
 ### Manuellement
 
@@ -58,12 +58,10 @@ Voir [Comment installer des ateliers supplémentaires](How_to_install_additional
 
 ## Références
 
--   Auteur    * Serdar Ince, Ögeday Yavuz, Rahul Jhuree
--   Code source    * [FEMbyGEN sur GitHub.com](https   *//github.com/Serince/FEMbyGEN).
--   Forum de FreeCAD    * <https   *//forum.freecadweb.org/viewtopic.php?p=626306>
--   Rapport de bogues    * veuillez signaler les bogues à l\'adresse [FEMbyGEN sur GitHub.com](https   *//github.com/Serince/FEMbyGEN).
-
-[Category   *Sandbox](Category_Sandbox.md) [Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+-   Auteur : Serdar Ince, Ögeday Yavuz, Rahul Jhuree
+-   Code source : [FEMbyGEN sur GitHub.com](https://github.com/Serince/FEMbyGEN).
+-   Forum de FreeCAD : <https://forum.freecadweb.org/viewtopic.php?p=626306>
+-   Rapport de bogues : veuillez signaler les bogues à l\'adresse [FEMbyGEN sur GitHub.com](https://github.com/Serince/FEMbyGEN).
 
 
 

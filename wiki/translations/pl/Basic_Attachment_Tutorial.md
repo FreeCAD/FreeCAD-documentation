@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */pl
-   Topic   *Dołączanie
-   Level   *Początkujący/Średniozaawansowany
-   Author   *Bance
-   Time   *1 godzina
-   FCVersion   *0.17 lub nowszy
-   Files   *[https   *//github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+- TutorialInfo:/pl
+   Topic:Dołączanie
+   Level:Początkujący/Średniozaawansowany
+   Author:Bance
+   Time:1 godzina
+   FCVersion:0.17 lub nowszy
+   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
 ---
 
 # Basic Attachment Tutorial/pl
@@ -18,7 +18,7 @@
 
 Ten poradnik powinien służyć jako wprowadzenie do pracy z narzędziem [Edytuj mocowanie](Part_EditAttachment/pl.md) środowiska Część, nie jest on wyczerpujący, ale mam nadzieję, że pomoże użytkownikom w eksperymentowaniu.
 
-Mocowanie jest narzędziem służącym do dołączania obiektu do innego. Łączy to właściwości umiejscowienia obu obiektów, dołączony obiekt będzie podążał za oryginalnym *(jeśli jego umiejscowienie zostanie zmienione)*. Skupiamy się na środowisku pracy Projekt Części i dołączaniu szkiców do innych szkiców, jest to zalecana metoda do tworzenia [*stabilnych*](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md) modeli. Funkcjonalność została napisana dla v0.19, ale powinna działać dla każdej wersji 0.17 i późniejszych. Jednakże, niektóre szczegóły mogą się różnić. Oryginalny model został zaprojektowany przez Md. Aminul Islam i został pobrany stąd   *-https   *//grabcad.com/library/50-cad-exercise-drawing-1
+Mocowanie jest narzędziem służącym do dołączania obiektu do innego. Łączy to właściwości umiejscowienia obu obiektów, dołączony obiekt będzie podążał za oryginalnym *(jeśli jego umiejscowienie zostanie zmienione)*. Skupiamy się na środowisku pracy Projekt Części i dołączaniu szkiców do innych szkiców, jest to zalecana metoda do tworzenia [*stabilnych*](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md) modeli. Funkcjonalność została napisana dla v0.19, ale powinna działać dla każdej wersji 0.17 i późniejszych. Jednakże, niektóre szczegóły mogą się różnić. Oryginalny model został zaprojektowany przez Md. Aminul Islam i został pobrany stąd:-https://grabcad.com/library/50-cad-exercise-drawing-1
 
 ## Wymagania wstępne 
 
@@ -27,7 +27,7 @@ Przed przystąpieniem do wykonywania tego poradnika użytkownik powinien
 1.  Używać wersji 0.17 lub nowszej.
 2.  Wygodnie poruszać się w oknie [widoku 3D](3D_view/pl.md).
 3.  Umieć tworzyć i związać [szkic](Sketcher_Workbench/pl.md).
-4.  Posiadać podstawową wiedzę na temat środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
+4.  Posiadać podstawową wiedzę na temat środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 5.  Posiadać podstawową wiedzę na temat [Wyrażeń](Expressions/pl.md).
 
 ## Cele
@@ -81,7 +81,7 @@ Zrób to samo dla podtytułu Pozycja. Zmień wartość odsunięcia X na 80mm, a 
 
 Przesunięcie dołączenia jest często używane w połączeniu z wyrażeniami, aby zaoferować parametryczne położenie równoległe do płaszczyzny, np. pozycjonowanie szkicu na górnej powierzchni podkładki przy użyciu wyrażenia *(Pad.Length)* dla przesunięcia Z.
 
-Szkic może być teraz wyciągnięty <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;">, załóżmy, że wysokość wyciągnięcia powinna być taka sama jak szerokość szkicu. W oknie dialogowym **Parametry wyciągnięcia** wybierz pole **Długość**, naciśnij klawisz **<nowiki>=</nowiki>** lub wybierz ikonę funkcji <img alt="" src=images/Bound-expression.svg  style="width   *24px;"> i wpisz **Sketch.Constraints.szerokość**, to wyrażenie powinno mieć wartość \"40 mm\", następnie zaznacz **Symetrycznie do płaszczyzny** i naciśnij przycisk **OK**.
+Szkic może być teraz wyciągnięty <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, załóżmy, że wysokość wyciągnięcia powinna być taka sama jak szerokość szkicu. W oknie dialogowym **Parametry wyciągnięcia** wybierz pole **Długość**, naciśnij klawisz **<nowiki>=</nowiki>** lub wybierz ikonę funkcji <img alt="" src=images/Bound-expression.svg  style="width:24px;"> i wpisz **Sketch.Constraints.szerokość**, to wyrażenie powinno mieć wartość \"40 mm\", następnie zaznacz **Symetrycznie do płaszczyzny** i naciśnij przycisk **OK**.
 
 ![centre\|Bazowe wyciągnięcie](images/BasePad2.png )
 
@@ -91,7 +91,7 @@ Utwórz nowy szkic, wybierz dowolną płaszczyznę *(docelowo i tak zmienimy jeg
 
 Narysuj trójkąt, zrównaj dwa boki i zwiąż długość w taki sam sposób, jak w przypadku długości wyciągnięcia, tylko tym razem zastosuj formułę **Sketch.Constraints.szerokość/2**.
 
-Powinny pozostać dwa stopnie swobody, czyli położenie względem Odniesienie położenia. Przymocuj jeden z rogów do Odniesienia położenia tak, aby szkic wyglądał następująco   *
+Powinny pozostać dwa stopnie swobody, czyli położenie względem Odniesienie położenia. Przymocuj jeden z rogów do Odniesienia położenia tak, aby szkic wyglądał następująco:
 
 ![centre\|Pierwszy trójkąt](images/IsoscelesSketch.png )
 
@@ -106,7 +106,7 @@ Teraz zmienimy tryb dołączania szkicu w naszym modelu.
 
 Zaznacz wyciągnięcie i uczyń go niewidocznym, a Szkic bazowy uczyń widocznym. Musimy widzieć Szkic bazowy, a chcemy ukryć wyciągnięcie, aby uniknąć popełnienia błędów przy zaznaczaniu.
 
-Obraz w oknie [widoku 3D](3D_view/pl.md) powinien wyglądać tak jak poniżej   *
+Obraz w oknie [widoku 3D](3D_view/pl.md) powinien wyglądać tak jak poniżej:
 
 ![centre\|Dwa szkice](images/TwoSketches.png )
 
@@ -138,7 +138,7 @@ Można go używać z dodatkiem przesunięć, aby precyzyjnie pozycjonować szkic
 
 FreeCAD próbuje przewidzieć tryb dołączania dla Ciebie, i filtruje tryby dostępne dla danego zaznaczenia.
 
-W tym przypadku opcje są następujące   * \"Wyłączone\", [\"**Normalna do krawędzi**\"](Part_EditAttachment/pl#Normalna_do_kraw.C4.99dzi.md) i [\"Bezwładność 2-3\"](Part_EditAttachment/pl#Bezw.C5.82adno.C5.9B.C4.87_2-3.md). Opcja \"Normalnie do krawędzi\" jest pogrubiona i jest uważana za preferowany wybór.
+W tym przypadku opcje są następujące: \"Wyłączone\", [\"**Normalna do krawędzi**\"](Part_EditAttachment/pl#Normalna_do_kraw.C4.99dzi.md) i [\"Bezwładność 2-3\"](Part_EditAttachment/pl#Bezw.C5.82adno.C5.9B.C4.87_2-3.md). Opcja \"Normalnie do krawędzi\" jest pogrubiona i jest uważana za preferowany wybór.
 
 W obszarze powiadomień w górnej części okna dialogowego wyświetlany jest komunikat w kolorze zielonym informujący o używanym trybie.
 
@@ -157,7 +157,7 @@ Teraz można wprowadzić [kieszeń](PartDesign_Pocket/pl.md) do szkicu.
 
 ### O krok dalej 
 
-Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.szerokość**\", \"**Sketch.Constraints.szerokość/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
+Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.szerokość**\", \"**Sketch.Constraints.szerokość/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
 
 Zmień nazwę szkicu na RightAngleTriangleSketch.
 
@@ -177,9 +177,9 @@ Jeśli wybrałeś złą linię, zmień ją teraz. Jeśli trójkąt jest skierowa
 
 Szkic RightAngleTriangleSketch jest teraz w pozycji, która zapewni nam poprawną geometrię po operacji kieszeni, jednak możemy być trochę bardziej pomysłowi i ustawić szkic tak, aby ułatwić sobie dołączenie dalszej geometrii w późniejszym czasie. Przesuniemy nasz szkic na środek linii tak, aby uzyskać wierzchołek w górnej części [fazy](Glossary/pl#C.md) narożnika.
 
-W dialogu dołączania zmienimy tryb dołączania z [\"Normalna do krawędzi\"](Part_EditAttachment/pl#Normalna_do_kraw.C4.99dzi.md) na [\"Bezwładność 2-3\"](Part_EditAttachment/pl#Bezw.C5.82adno.C5.9B.C4.87_2-3.md). To zmieni położenie na środek linii, opisanie wszystkich trybów dołączania wykracza poza zakres tego poradnika, ich opisy można znaleźć na stronie <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Część   * Edytuj mocowanie](Part_EditAttachment/pl.md). Wystarczy powiedzieć, że tryb **inercja 2-3** wykorzystuje środek masy i tutaj spełnia swoje zadanie.
+W dialogu dołączania zmienimy tryb dołączania z [\"Normalna do krawędzi\"](Part_EditAttachment/pl#Normalna_do_kraw.C4.99dzi.md) na [\"Bezwładność 2-3\"](Part_EditAttachment/pl#Bezw.C5.82adno.C5.9B.C4.87_2-3.md). To zmieni położenie na środek linii, opisanie wszystkich trybów dołączania wykracza poza zakres tego poradnika, ich opisy można znaleźć na stronie <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Część: Edytuj mocowanie](Part_EditAttachment/pl.md). Wystarczy powiedzieć, że tryb **inercja 2-3** wykorzystuje środek masy i tutaj spełnia swoje zadanie.
 
-![centre\|Okienko dialogowe   * Dołączanie, tryb Inercja 2-3](images/ADInertia.png )
+![centre\|Okienko dialogowe: Dołączanie, tryb Inercja 2-3](images/ADInertia.png )
 
 ![centre\|szkic RightAngleTriangleSketch, tryb Inertia 2-3](images/3DInertia.png )
 
@@ -210,7 +210,7 @@ Zmień nazwę szkicu na FinalSketch.
 
 ![centre\|FinalSketch](images/RightAngleTriangle.png )
 
-Zauważ, że FinalSketch został związany z punktem odniesienia położenia w inny sposób. W przeciwnym razie moglibyśmy użyć funkcji **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)**, ale szkic ma tylko trzy linie i pięć wiązań.
+Zauważ, że FinalSketch został związany z punktem odniesienia położenia w inny sposób. W przeciwnym razie moglibyśmy użyć funkcji **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)**, ale szkic ma tylko trzy linie i pięć wiązań.
 
 Po raz kolejny musimy ukryć bryłę, w tym przypadku Pocket001, i upewnić się, że oba szkice są widoczne do wyboru *(BaseSketch i FinalSketch)*.
 

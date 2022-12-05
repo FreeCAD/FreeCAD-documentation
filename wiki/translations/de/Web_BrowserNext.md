@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */de
-   Name   *Web BrowserNext
-   Name/de   *Web BrowserNächsteSeite
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso   *
+- GuiCommand:/de
+   Name:Web BrowserNext
+   Name/de:Web BrowserNächsteSeite
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso:
 ---
 
 # Web BrowserNext/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Web_BrowserNext.svg  style="width   *24px;"> **Web BrowserNächsteSeite** ruft die nächste Seite auf der Liste der besuchten Webseiten auf.
+Der Befehl <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **Web BrowserNächsteSeite** ruft die nächste Seite auf der Liste der besuchten Webseiten auf.
 
 ## Anwendung
 

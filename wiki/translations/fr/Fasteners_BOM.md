@@ -1,24 +1,24 @@
 ---
-- GuiCommand   */fr
-   Name   *Fasteners BOM
-   Name/fr   *Fasteners BOM
-   MenuLocation   *Fasteners → Generate BOM
-   Workbenches   *[Fasteners](Fasteners_Workbench/fr.md)
-   SeeAlso   *[Atelier Spreadsheet](Spreadsheet_Workbench/fr.md)
+- GuiCommand:/fr
+   Name:Fasteners BOM
+   Name/fr:Fasteners BOM
+   MenuLocation:Fasteners → Generate BOM
+   Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
+   SeeAlso:[Atelier Spreadsheet](Spreadsheet_Workbench/fr.md)
 ---
 
 # Fasteners BOM/fr
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fasteners BOM** crée une feuille de calcul avec une nomenclature (bill of materials (BOM)) pour les fixations du document.
+La commande <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners BOM** crée une feuille de calcul avec une nomenclature (bill of materials (BOM)) pour les fixations du document.
 
-<img alt="" src=images/Fasteners_BOM_Example.png  style="width   *650px;"> 
+<img alt="" src=images/Fasteners_BOM_Example.png  style="width:650px;"> 
 *Un modèle avec une feuille de tableur Fasteners et sa nomenclature *
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** dans le menu.
 2.  Une feuille de tableur de nomenclature Fasteners est créée.
@@ -34,9 +34,7 @@ La commande <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **
 
 {{Fasteners Tools navi
 
-}} 
-
-[Category   *External Command Reference](Category_External_Command_Reference.md)
+}}
 
 
 

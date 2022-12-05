@@ -10,10 +10,10 @@
 |Version=1.1
 |Date=2018-04-28
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/f/f7/Part_Section.svg ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/f/f7/Part_Section.svg ToolBar Icon]
 }}
 
-<img alt="" src=images/Macro_Section_Screenshot.png  style="width   *1000px;">
+<img alt="" src=images/Macro_Section_Screenshot.png  style="width:1000px;">
 
 L\'outil [Part Section](Part_Section/fr.md) produit des bords avec de continuité et un grand nombre de segments (nœuds), ce qui n\'est pas très approprié pour l\'outil [Sweep](Part_Sweep/fr.md).
 
@@ -21,16 +21,16 @@ Cette macro fait le même travail et extrait les bords de la section du résulta
 
 Requis FreeCAD v0.17+ built against OCC no less than 6.9.0 (tested on 7.0.0).
 
-## Installation   *
+## Installation:
 
-Téléchargez le fichier et sauvez les dans votre répertoire de macros   *
+Téléchargez le fichier et sauvez les dans votre répertoire de macros:
 
-<https   *//github.com/DeepSOIC/FreeCAD-Macros/raw/master/Section/MacroSection.py>
+<https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/Section/MacroSection.py>
 
 ## Utilisation
 
 1.  Sélectionnez deux objets shapes et lancez la macro pour créer la section
-2.  Dans le menu FreeCAD   * Macro → Macros\... → double-cliquez sur MacroSection.FCMacro . Un nouvel objet est créé.
+2.  Dans le menu FreeCAD: Macro → Macros\... → double-cliquez sur MacroSection.FCMacro . Un nouvel objet est créé.
 
 Après avoir exécuté la macro, vous pouvez ajouter un bouton sur votre barre d\'outils. Allez dans Outils → Personnaliser, Barres d\'outils, sélectionnez MacroSection dans la liste déroulante de gauche et ajoutez la commande à l\'une de vos barres d\'outils personnalisées.
 
@@ -75,11 +75,11 @@ Macro Section.
 Alternative implementation of Part Section tool.
 Requires FreeCAD v0.17+ and OCC 6.9.0+
 
-Instructions   *
+Instructions:
 First of all, save this macro as MacroSection.py, into a location from where it can be imported. FC's standard macro location is the best place to do that.
 
 Select two shapes to compute section between.
-Then, in Py console   *
+Then, in Py console:
 
 import MacroSection
 MacroSection.run()
@@ -90,35 +90,35 @@ just run this file as a macro.
 
 Parametric Section object is created.
 '''
-if __name__ == "__main__"   * #being run as a macro
+if __name__ == "__main__": #being run as a macro
     import MacroSection
     MacroSection.run()
 
 import FreeCAD as App
-if App.GuiUp   *
+if App.GuiUp:
     import FreeCADGui as Gui
 import Part
 
-def makeSectionFeature()   *
-    '''makeSectionFeature()   * makes a Section parametric feature object. Returns the new object.'''
-    selfobj = App.ActiveDocument.addObject("Part   *   *FeaturePython","Section")
+def makeSectionFeature():
+    '''makeSectionFeature(): makes a Section parametric feature object. Returns the new object.'''
+    selfobj = App.ActiveDocument.addObject("Part::FeaturePython","Section")
     Section(selfobj)
     ViewProviderSection(selfobj.ViewObject)
     return selfobj
 
-class Section   *
+class Section:
     "The Section feature object"
-    def __init__(self,selfobj)   *
-        selfobj.addProperty("App   *   *PropertyLink","Base","Section","Input shape")
-        selfobj.addProperty("App   *   *PropertyLink","Tool","Section","Input shape")
+    def __init__(self,selfobj):
+        selfobj.addProperty("App::PropertyLink","Base","Section","Input shape")
+        selfobj.addProperty("App::PropertyLink","Tool","Section","Input shape")
         selfobj.Proxy = self
 
-    def execute(self,selfobj)   *
+    def execute(self,selfobj):
         import BOPTools
         import BOPTools.ShapeMerge
         from BOPTools.Utils import HashableShape
         
-        if len(selfobj.Base.Shape.Faces) == 0 or len(selfobj.Tool.Shape.Faces) == 0   *
+        if len(selfobj.Base.Shape.Faces) == 0 or len(selfobj.Tool.Shape.Faces) == 0:
             raise ValueError("Shapes must have at least one face each.")
         sh1 = Part.Compound(selfobj.Base.Shape.Faces)
         sh2 = Part.Compound(selfobj.Tool.Shape.Faces)
@@ -134,59 +134,59 @@ class Section   *
         
         selfobj.Shape = BOPTools.ShapeMerge.mergeWires(edges_to_return)
 
-class ViewProviderSection   *
-    def __init__(self,vobj)   *
+class ViewProviderSection:
+    def __init__(self,vobj):
         vobj.Proxy = self
        
-    def getIcon(self)   *
-        return "   */icons/Part_Section.svg"
+    def getIcon(self):
+        return ":/icons/Part_Section.svg"
 
-    def attach(self, vobj)   *
+    def attach(self, vobj):
         self.ViewObject = vobj
         self.Object = vobj.Object
   
-    def __getstate__(self)   *
+    def __getstate__(self):
         return None
 
-    def __setstate__(self,state)   *
+    def __setstate__(self,state):
         return None
 
-    def claimChildren(self)   *
+    def claimChildren(self):
         return [self.Object.Base, self.Object.Tool]
         
-    def onDelete(self, feature, subelements)   * # subelements is a tuple of strings
-        try   *
+    def onDelete(self, feature, subelements): # subelements is a tuple of strings
+        try:
             self.Object.Base.ViewObject.show()
             self.Object.Tool.ViewObject.show()
-        except Exception as err   *
-            App.Console.PrintError("Error in onDelete   * " + err.message)
+        except Exception as err:
+            App.Console.PrintError("Error in onDelete: " + err.message)
         return True
 
-class CommandMacroSection   *
+class CommandMacroSection:
     "Command to create Section feature"
-    def GetResources(self)   *
-        return {'Pixmap'     * "   */icons/Part_Section.svg",
-                'MenuText'   * "Section",
-                'Accel'   * "",
-                'ToolTip'   * "Macro_Section   * alternative implementation of Part Section tool"}
+    def GetResources(self):
+        return {'Pixmap'  : ":/icons/Part_Section.svg",
+                'MenuText': "Section",
+                'Accel': "",
+                'ToolTip': "Macro_Section: alternative implementation of Part Section tool"}
 
-    def Activated(self)   *
+    def Activated(self):
         run()
-    def IsActive(self)   *
-        if App.ActiveDocument   *
+    def IsActive(self):
+        if App.ActiveDocument:
             return True
-        else   *
+        else:
             return False
 
-if App.GuiUp   *
+if App.GuiUp:
     Gui.addCommand("Macro_Section", CommandMacroSection())
 
-def run()   *
+def run():
     sel = Gui.Selection.getSelectionEx()
-    try   *
-        if len(sel) != 2   *
+    try:
+        if len(sel) != 2:
             raise Exception("Select two shapes to compute section between, first! Then run this macro.")
-        try   *
+        try:
             App.ActiveDocument.openTransaction("Macro Section")
             selfobj = makeSectionFeature()
             selfobj.Base = sel[0].Object
@@ -195,9 +195,9 @@ def run()   *
             selfobj.Tool.ViewObject.hide()
             
             selfobj.Proxy.execute(selfobj)
-        finally   *
+        finally:
             App.ActiveDocument.commitTransaction()
-    except Exception as err   *
+    except Exception as err:
         from PySide import QtGui
         mb = QtGui.QMessageBox()
         mb.setIcon(mb.Icon.Warning)

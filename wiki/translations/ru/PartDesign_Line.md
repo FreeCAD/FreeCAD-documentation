@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Создать опорный отрезок
-   Name   *PartDesign_Line
-   MenuLocation   *Part Design → Create a datum → Создать опорный отрезок
-   Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
-   Version   *0.17
-   SeeAlso   *[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+- GuiCommand:/ru
+   Name/ru:Создать опорный отрезок
+   Name:PartDesign_Line
+   MenuLocation:Part Design → Create a datum → Создать опорный отрезок
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
+   Version:0.17
+   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign Line/ru
@@ -14,7 +14,7 @@
 
 Создает **опорный отрезок**, который можно использовать для размещения эскизов или другой опорной геометрии. Например, его можно использовать в качестве оси симметрии для построения фигур вращения или для выреза пазов (канавок).
 
-<img alt="" src=images/datum_line.png  style="width   *600px;"> 
+<img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Два опорных отрезка, проходящих через противоположные углы параллелепипеда, пересекаются в центре масс.*
 
 ## Применение
@@ -33,11 +33,11 @@ Double-click the DatumLine label in the Model tree or right-click and select **E
 
 ## Свойства
 
--    **MapMode**   * lists the attachment mode used.
+-    **MapMode**: lists the attachment mode used.
 
--    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**   * name given to the object, this name can be changed at convenience.
+-    **Label**: name given to the object, this name can be changed at convenience.
 
 
 

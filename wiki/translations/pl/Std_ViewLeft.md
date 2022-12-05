@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewLeft
-   Name/pl   *Std   * Widok od lewej
-   MenuLocation   *Widok → Widoki standardowe → Od lewej
-   Workbenches   *wszystkie
-   Shortcut   ***6**
-   SeeAlso   *[Widok od tyłu](Std_ViewRear/pl.md), [Widok od tyłu](Std_ViewBottom/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewLeft
+   Name/pl:Std: Widok od lewej
+   MenuLocation:Widok → Widoki standardowe → Od lewej
+   Workbenches:wszystkie
+   Shortcut:**6**
+   SeeAlso:[Widok od tyłu](Std_ViewRear/pl.md), [Widok od tyłu](Std_ViewBottom/pl.md)
 ---
 
 # Std ViewLeft/pl
@@ -19,16 +19,16 @@ Polecenie **Widok od lewej** ustawia ujęcie widoku w aktywnym oknie [widoku 3D]
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_ViewLeft.svg" width=16px> [Od lewej](Std_ViewLeft/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewLeft.svg" width=16px> Od lewej**.
     -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewLeft.svg" width=16px> Od lewej**.
-    -   Użyj skrótu klawiaturowego   * **6**.
+    -   Użyj skrótu klawiaturowego: **6**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

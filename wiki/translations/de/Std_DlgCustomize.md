@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Std DlgCustomize
-   Name/de   *Std DlgAnpassen
-   MenuLocation   *Werkzeuge → Benutzerdefiniert...
-   Workbenches   *Alle
-   SeeAlso   *[Anpassung der Oberfläche](Interface_Customization/de.md)
+- GuiCommand:/de
+   Name:Std DlgCustomize
+   Name/de:Std DlgAnpassen
+   MenuLocation:Werkzeuge → Benutzerdefiniert...
+   Workbenches:Alle
+   SeeAlso:[Anpassung der Oberfläche](Interface_Customization/de.md)
 ---
 
 # Std DlgCustomize/de
@@ -22,7 +22,7 @@ Der Befehl **Std DlgAnpassen** öffnet das Dialogfeld Benutzerdefiniert, das Zug
 ## Anwendung
 
 1.  Die im Dialogfeld \"Benutzerdefiniert\" verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD-Sitzung geladen wurden. Es sollten also zunächst alle Arbeitsbereiche geladen werden, auf deren Befehle man zugreifen möchte.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Den Menüeintrag **Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Benutzerdefiniert...** auswählen.
     -   Mit der rechten Maustaste auf einen Symbolleistenbereich klicken und **<img src="images/Std_DlgCustomize.svg" width=16px> Benutzerdefiniert...** aus dem Kontextmenü auswählen.
 3.  Das Dialogfeld *Benutzerdefiniert* wird geöffnet. Weitere Informationen findet man unter [Anpassung der Oberfläche](Interface_Customization/de#Optionen.md).

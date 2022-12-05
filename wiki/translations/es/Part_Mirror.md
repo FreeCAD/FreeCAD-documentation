@@ -1,6 +1,6 @@
 # Part Mirror/es
 ---
-- GuiCommand   */es   Name   *Part_Mirror   MenuLocation   *Pieza -> Simetría   Workbenches   *Pieza,Completo---
+- GuiCommand:/es   Name:Part_Mirror   MenuLocation:Pieza -> Simetría   Workbenches:Pieza,Completo---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 **Part Mirror** creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), or any plane parallel to a standard plane.
 
-An example   *
+An example:
 
 ![Before](images/PARTMirrorBeforev11.png )
 

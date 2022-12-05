@@ -1,8 +1,6 @@
 # Category:Administration/zh-cn
 This category contains articles and categories about wiki administrative subjects.
 
-[Category   *Categories/zh-cn](Category   *Categories/zh-cn.md)
-
 ### Contents
 
 |     |     |     |

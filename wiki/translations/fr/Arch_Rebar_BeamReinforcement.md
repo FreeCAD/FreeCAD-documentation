@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Rebar BeamReinforcement
-   Name/fr   *Arch Rebar Poutre
-   MenuLocation   *Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement → Beam Reinforcement
-   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version   *0.19
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), 
+- GuiCommand:/fr
+   Name:Arch Rebar BeamReinforcement
+   Name/fr:Arch Rebar Poutre
+   MenuLocation:Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement → Beam Reinforcement
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), 
 ---
 
 # Arch Rebar BeamReinforcement/fr
@@ -16,7 +16,7 @@ L\'outil [Rebar Poutre](Arch_Rebar_BeamReinforcement/fr.md) permet à l\'utilisa
 
 L\'outil [Rebar Poutre](Arch_Rebar_BeamReinforcement.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
@@ -32,7 +32,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 3\. Une boîte de dialogue apparaîtra à l\'écran, comme indiqué ci-dessous.
 
-   *   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width   *700px;">
+:   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:700px;">
 
 
 
@@ -44,7 +44,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 6\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
-   *   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width   *700px;">
+:   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width:700px;">
 
 
 
@@ -55,34 +55,34 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 {{ColoredParagraph|#f8f9fa|
 
-   * Pour éditer la valeur Number#Diameter@Offset value, cliquez sur le bouton d'édition **Edit** en regard du label Number#Diameter@Offset. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour éditer la valeur Number#Diameter@Offset value, cliquez sur le bouton d'édition **Edit** en regard du label Number#Diameter@Offset. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_TopReinforcement_NumberDiameterOffset.png" width=500px>
+:<img src="images/Beam_TopReinforcement_NumberDiameterOffset.png" width=500px>
 
-   * Pour modifier la valeur du type de barre, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Type de barre. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur du type de barre, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Type de barre. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_TopReinforcement_RebarType.png" width=300px>
+:<img src="images/Beam_TopReinforcement_RebarType.png" width=300px>
 
-   * Pour modifier la valeur d'orientation du crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Orientation du crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous
+: Pour modifier la valeur d'orientation du crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Orientation du crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous
 
-   *<img src="images/Beam_TopReinforcement_HookOrientation.png" width=300px>
+:<img src="images/Beam_TopReinforcement_HookOrientation.png" width=300px>
 
-   * Pour modifier la valeur de l'extension de crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette de l'extension de crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur de l'extension de crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette de l'extension de crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_TopReinforcement_HookExtension.png" width=300px>
+:<img src="images/Beam_TopReinforcement_HookExtension.png" width=300px>
 
-   * Pour modifier la valeur d’arrondi de la barre LR, cliquez sur le bouton Edition **Edit** en regard de l’étiquette Arrondi. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur d’arrondi de la barre LR, cliquez sur le bouton Edition **Edit** en regard de l’étiquette Arrondi. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_TopReinforcement_LRebarRounding.png" width=300px>
+:<img src="images/Beam_TopReinforcement_LRebarRounding.png" width=300px>
 
-   * Pour modifier la valeur d'espacement des calques, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Espacement des calques. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur d'espacement des calques, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Espacement des calques. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_TopReinforcement_LayerSpacing.png" width=300px>
+:<img src="images/Beam_TopReinforcement_LayerSpacing.png" width=300px>
 }}
 
 8\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
-   *   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width   *700px;">
+:   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width:700px;">
 
 
 
@@ -92,7 +92,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 10\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
-   *   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width   *700px;">
+:   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width:700px;">
 
 
 
@@ -103,30 +103,30 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 {{ColoredParagraph|#f8f9fa|
 
-   * Pour éditer la valeur Number#Diameter@Offset, cliquez sur le bouton d'édition **Edit** en regard du label Number#Diameter@Offset. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour éditer la valeur Number#Diameter@Offset, cliquez sur le bouton d'édition **Edit** en regard du label Number#Diameter@Offset. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_ShearReinforcement_NumberDiameterOffset.png" width=500px>
+:<img src="images/Beam_ShearReinforcement_NumberDiameterOffset.png" width=500px>
 
-   * Pour modifier la valeur du type de barre, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Type de barre. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur du type de barre, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Type de barre. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_ShearReinforcement_RebarType.png" width=300px>
+:<img src="images/Beam_ShearReinforcement_RebarType.png" width=300px>
 
-   * Pour modifier la valeur d'orientation du crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Orientation du crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur d'orientation du crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette Orientation du crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_ShearReinforcement_HookOrientation.png" width=300px>
+:<img src="images/Beam_ShearReinforcement_HookOrientation.png" width=300px>
 
-   * Pour modifier la valeur de l'extension de crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette de l'extension de crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur de l'extension de crochet, cliquez sur le bouton d'édition **Edit** en regard de l'étiquette de l'extension de crochet. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_ShearReinforcement_HookExtension.png" width=300px>
+:<img src="images/Beam_ShearReinforcement_HookExtension.png" width=300px>
 
-   * Pour modifier la valeur LRebar Rounding , cliquez sur le bouton d'edition **Edit** en regard de l’étiquette Arrondi. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
+: Pour modifier la valeur LRebar Rounding , cliquez sur le bouton d'edition **Edit** en regard de l’étiquette Arrondi. Une boîte de dialogue apparaîtra comme indiqué ci-dessous.
 
-   *<img src="images/Beam_ShearReinforcement_LRebarRounding.png" width=300px>
+:<img src="images/Beam_ShearReinforcement_LRebarRounding.png" width=300px>
 }}
 
 12\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
-   *   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width   *700px;">
+:   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width:700px;">
 
 
 
@@ -140,64 +140,64 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Stirrups (étriers)    ***
+**Stirrups (étriers) :**
 
--    {{PropertyData/fr|Left Cover}}   * La distance entre l\'extrémité gauche de l\'étrier et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'étrier et la face gauche de la structure.
 
--    {{PropertyData/fr|Right Cover}}   * La distance entre l\'extrémité droite de l\'étrier et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'étrier et la face droite de la structure.
 
--    {{PropertyData/fr|Top Cover}}   * La distance entre les étriers de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}: La distance entre les étriers de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}   * La distance entre les étriers de la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}: La distance entre les étriers de la face inférieure de la structure.
 
--    {{PropertyData/fr|Offset}}   * La distance entre l\'étrier et la face sélectionnée/arrière de la structure.
+-    {{PropertyData/fr|Offset}}: La distance entre l\'étrier et la face sélectionnée/arrière de la structure.
 
--    {{PropertyData/fr|Diameter}}   * Diamètre de l\'étrier.
+-    {{PropertyData/fr|Diameter}}: Diamètre de l\'étrier.
 
--    {{PropertyData/fr|Bent Angle}}   * L\'angle plié définit l\'angle aux extrémités d\'un étrier.
+-    {{PropertyData/fr|Bent Angle}}: L\'angle plié définit l\'angle aux extrémités d\'un étrier.
 
--    {{PropertyData/fr|Extension Factor}}   * Le facteur d\'extension définit la longueur de l\'extrémité de l\'étrier, exprimée en fois le diamètre.
+-    {{PropertyData/fr|Extension Factor}}: Le facteur d\'extension définit la longueur de l\'extrémité de l\'étrier, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Number}}   * Le nombre d\'étriers.
+-    {{PropertyData/fr|Number}}: Le nombre d\'étriers.
 
--    {{PropertyData/fr|Spacing}}   * La distance entre les axes de chaque étrier.
+-    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque étrier.
 
-**Top/Bottom Reinforcement Rebars    *** Barres d\'armature présentes sur la face supérieure/inférieure de la poutre
+**Top/Bottom Reinforcement Rebars :** Barres d\'armature présentes sur la face supérieure/inférieure de la poutre
 
--    {{PropertyData/fr|NumberDiameterOffset}}   * Un tuple de Number#Diameter@Offset chaîne. Chaque élément du tuple représente le ferraillage pour chaque nouveau calque.
+-    {{PropertyData/fr|NumberDiameterOffset}}: Un tuple de Number#Diameter@Offset chaîne. Chaque élément du tuple représente le ferraillage pour chaque nouveau calque.
 
--    {{PropertyData/fr|Rebar Type}}   * Liste de tuple de type de barres d\'armature.
+-    {{PropertyData/fr|Rebar Type}}: Liste de tuple de type de barres d\'armature.
 
--    {{PropertyData/fr|Hook Orientation}}   * Liste de tuple d\'orientation des crochets en forme de L.
+-    {{PropertyData/fr|Hook Orientation}}: Liste de tuple d\'orientation des crochets en forme de L.
 
--    {{PropertyData/fr|Hook Extension}}   * Liste des tuple de longueur d\'hameçon de barres d\'armature en forme de L.
+-    {{PropertyData/fr|Hook Extension}}: Liste des tuple de longueur d\'hameçon de barres d\'armature en forme de L.
 
--    {{PropertyData/fr|Rounding}}   * Liste des tuple d\'une valeur d\'arrondi à appliquer aux coins des barres d\'armature LShape, exprimés en diamètre.
+-    {{PropertyData/fr|Rounding}}: Liste des tuple d\'une valeur d\'arrondi à appliquer aux coins des barres d\'armature LShape, exprimés en diamètre.
 
--    {{PropertyData/fr|Layer Spacing}}   * Liste des espacements entre deux couches de renforcement consécutives.
+-    {{PropertyData/fr|Layer Spacing}}: Liste des espacements entre deux couches de renforcement consécutives.
 
-**Left/Right Reinforcement Rebars    *** Barres d\'armature présentes à gauche et à droite de la poutre
+**Left/Right Reinforcement Rebars :** Barres d\'armature présentes à gauche et à droite de la poutre
 
--    {{PropertyData/fr|NumberDiameterOffset}}   * Chaîne de Number#Diameter@Offset pour les barres d\'armature.
+-    {{PropertyData/fr|NumberDiameterOffset}}: Chaîne de Number#Diameter@Offset pour les barres d\'armature.
 
--    {{PropertyData/fr|Rebar Type}}   * Liste des types de barres d\'armature.
+-    {{PropertyData/fr|Rebar Type}}: Liste des types de barres d\'armature.
 
--    {{PropertyData/fr|Hook Orientation}}   * Liste d\'orientation des crochets en forme de L.
+-    {{PropertyData/fr|Hook Orientation}}: Liste d\'orientation des crochets en forme de L.
 
--    {{PropertyData/fr|Hook Extension}}   * Liste des longueurs d\'hameçon des barres d\'armature LShape.
+-    {{PropertyData/fr|Hook Extension}}: Liste des longueurs d\'hameçon des barres d\'armature LShape.
 
--    {{PropertyData/fr|Rounding}}   * Liste d\'une valeur d\'arrondi à appliquer aux coins des armatures LShape, exprimée en fois le diamètre.
+-    {{PropertyData/fr|Rounding}}: Liste d\'une valeur d\'arrondi à appliquer aux coins des armatures LShape, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Rebar Spacing}}   * Espace libre entre les barres d\'armature consécutives.
+-    {{PropertyData/fr|Rebar Spacing}}: Espace libre entre les barres d\'armature consécutives.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L'outil BeamReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante   *
+L'outil BeamReinforcement peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
 ### Créer des étriers à deux pattes 
 
@@ -261,7 +261,7 @@ RebarGroup = makeReinforcement(
 
 -    `top_reinforcement_number_diameter_offset`et `bottom_reinforcement_number_diameter_offset` sont un tuple de la chaîne number_diameter_offset. Chaque élément du tuple représente le ferraillage pour chaque nouvel ensemble.
 
-   Syntaxe    * (
+   Syntaxe : (
                "number1#diameter1@offset1+number2#diameter2@offset2+...",
                "number3#diameter3@offset3+number4#diameter4@offset4+...",
                ...,
@@ -269,7 +269,7 @@ RebarGroup = makeReinforcement(
 
 -    `top_reinforcement_rebar_type`et `bottom_reinforcement_rebar_type` spécifient le type de barres d\'armature supérieure/inférieure.
 
-   Valeurs possibles    *
+   Valeurs possibles :
    1. 'StraightRebar' ou 'LShapeRebar'
 ', ...) et le nombre d'éléments du tuple doivent être égaux au nombre d'ensembles d'armatures.
    3. [
@@ -286,17 +286,17 @@ RebarGroup = makeReinforcement(
 
 -    `top_reinforcement_layer_spacing`et `bottom_reinforcement_layer_spacing` sont l\'espacement entre deux ensembles de ferraillage consécutifs.
 
-   Valeurs possibles    *
+   Valeurs possibles :
 
 , ...) et le nombre d'éléments du tuple doit être égal à un de moins que le nombre d'ensembles.
 
 -    `left_rebars_number_diameter_offset`et `right_rebars_number_diameter_offset` sont une chaîne de number_diameter_offset.
 
-   Syntaxe    * "number1#diameter1@offset1+number2#diameter2@offset2+..."
+   Syntaxe : "number1#diameter1@offset1+number2#diameter2@offset2+..."
 
 -    `left_rebars_type`et `right_rebars_type` spécifient le type de barres d\'armature gauche/droite.
 
-   Valeurs possibles    *
+   Valeurs possibles :
    1. 'StraightRebar' ou 'LShapeRebar'
 ', ...) et chaque élément du tuple représente rabar_type pour chaque ensemble de barres d’armature.
 
@@ -364,14 +364,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
     facename="Face6",
 )
 ```
-
-
-
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

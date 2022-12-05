@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Просмотр эскиза
-   Name   *Sketcher_ViewSketch
-   MenuLocation   *Sketch → Просмотр эскиза
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+- GuiCommand:/ru
+   Name/ru:Просмотр эскиза
+   Name:Sketcher_ViewSketch
+   MenuLocation:Sketch → Просмотр эскиза
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
 # Sketcher ViewSketch/ru
@@ -22,8 +22,8 @@
 
 В режиме редактирования эскиза
 
--   Нажмите на кнопку **[<img src=images/Sketcher_ViewSketch.svg style="width   *16px"> [Просмотр эскиза](Sketcher_ViewSketch/ru.md)** в панели инструментов верстака Sketcher или Part Design, или
--   выберите пункт меню **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width   *16px"> Просмотр эскиза**.
+-   Нажмите на кнопку **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Просмотр эскиза](Sketcher_ViewSketch/ru.md)** в панели инструментов верстака Sketcher или Part Design, или
+-   выберите пункт меню **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Просмотр эскиза**.
 
 
 </div>

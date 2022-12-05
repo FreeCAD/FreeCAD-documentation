@@ -14,15 +14,15 @@ Dans ce tutoriel, nous aborderons comment importer des fichiers STL/OBJ dans Fre
 
 ## Pièce d\'échantillon 
 
-Pour ce tutoriel, vous pouvez utiliser votre propre fichier STL ou créer un fichier de démonstration en procédant comme suit   *
+Pour ce tutoriel, vous pouvez utiliser votre propre fichier STL ou créer un fichier de démonstration en procédant comme suit:
 
 -   Ouvrir FreeCAD
 -   Créer un nouveau document
 -   Passer à l\'atelier Maillage
--   Insérer un tor en cliquant sur **Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Solide Régulier...** en choisissant des paramètres comme   *
-    -   Rayon 1   * 10 mm
-    -   Radius2   * 2 mm
-    -   Échantillonnage   * 50
+-   Insérer un tor en cliquant sur **Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Solide Régulier...** en choisissant des paramètres comme:
+    -   Rayon 1: 10 mm
+    -   Radius2: 2 mm
+    -   Échantillonnage: 50
 -   Cliquez sur **Créer**, puis sur **Fermer**
 -   Enregistrez votre fichier avec **Fichier** → **Sauvegarder** pour obtenir un fichier FreeCAD contenant un objet maillage
 
@@ -34,8 +34,8 @@ Fondamentalement, FreeCAD importerait n\'importe quel fichier STL/OBJ. Mais notr
 Le but de FreeCAD n\'est pas d\'être un bon modélisateur de maillage, il est conçu pour être un modélisateur de solide. FreeCAD dispose de certaines fonctionnalités pour l\'opération de maillage dans un atelier de Maillage et un atelier OpenSCAD (certaines opérations ont besoin d\'OpenSCAD pour être installées et configurées dans les préférences FreeCAD).
 Certains utilisateurs aiment utiliser un logiciel tiers pour nettoyer et réparer des mailles, par exemple
 
--   [Netfabb Basic](http   *//www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - gratuit pour un usage personnel (réparation de maillage automatique disponible)
--   [Meshlab](http   *//meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
+-   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - gratuit pour un usage personnel (réparation de maillage automatique disponible)
+-   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
 
 Dans ce tutoriel, nous utiliserons le l\'atelier de Maillage dans FreeCAD pour nettoyer/réparer/vérifier le maillage de notre fichier exemple.
 
@@ -58,7 +58,7 @@ L\'harmonisation des normales d\'un objet maillé peut être effectuée par
 -   Sélection de votre objet maillage dans l\'arborescence
 -   Choisissez **Meshes** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Harmoniser les normales** dans le menu principal.
 
-Astuce   * En choisissant l\'objet maillage dans l\'arborescence, en allant dans l\'onglet Vue dans la vue de la propriété et en changeant \"Éclairage\" de \"Deux côtés\" sur \"Un côté\", vous pouvez identifier des triangles avec des normales inversées. Si les normales pointent dans le maillage, le triangle sera affiché en noir.
+Astuce: En choisissant l\'objet maillage dans l\'arborescence, en allant dans l\'onglet Vue dans la vue de la propriété et en changeant \"Éclairage\" de \"Deux côtés\" sur \"Un côté\", vous pouvez identifier des triangles avec des normales inversées. Si les normales pointent dans le maillage, le triangle sera affiché en noir.
 
 ### Fermeture des trous 
 
@@ -69,7 +69,7 @@ Vous pouvez également fermer manuellement des trous dans votre objet maillage p
 -   Spécifiez le nombre maximum d\'arêtes à remplir (3 est par défaut)
 -   Étant donné que STL et OBJ sont des mailles constituées de triangles, le nombre d\'arêtes par défaut devrait être suffisant
 
-Une autre méthode de fermeture manuelle des trous dans votre objet maillé serait   *
+Une autre méthode de fermeture manuelle des trous dans votre objet maillé serait:
 
 -   Sélection de votre objet maillage dans l\'arborescence
 -   Choisissez **Meshes** → **<img src="images/Mesh_FillInteractiveHole.svg" width=32px> Close hole** dans le menu principal
@@ -78,7 +78,7 @@ Une autre méthode de fermeture manuelle des trous dans votre objet maillé sera
 
 ## Conversion du maillage en solide 
 
--   Passer à l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [atelier Part](Part_Workbench/fr.md)
+-   Passer à l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 -   Assurez-vous que votre objet maillé est sélectionné dans l\'arborescence, sinon, sélectionnez-le
 -   Choisissez **Pièce** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Create shape from mesh...** dans le menu principal
 -   Précisez la tolérance pour la forme de couture (0,1 est par défaut)
@@ -96,11 +96,6 @@ Une autre méthode de fermeture manuelle des trous dans votre objet maillé sera
 
 -   [Importer un fichier STL ou OBJ](Import_from_STL_or_OBJ/fr.md)
 -   [Import Export](Import_Export/fr.md)
-
-
- 
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

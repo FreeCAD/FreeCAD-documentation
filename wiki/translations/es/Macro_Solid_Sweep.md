@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2011-12-03
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/6/6d/Macro_Solid_Sweep.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/6/6d/Macro_Solid_Sweep.png ToolBar Icon]
 }}
 
 ## Descriptivo
@@ -17,7 +17,7 @@ Esta macro crea un sólido barriendo un perfil 2D a lo largo de una trayectoria 
 
 El sólido resultante no es paramétrico. Si cambias el perfil o la trayectoria, necesitarás ejecutar la macro de nuevo.
 
-<img alt="A few examples of sweeping all using the same oblong section and three kinds of trajectory." src=images/Solid_sweep.png‎  style="width   *500px;">
+<img alt="A few examples of sweeping all using the same oblong section and three kinds of trajectory." src=images/Solid_sweep.png‎  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -38,9 +38,9 @@ El sólido resultante no es paramétrico. Si cambias el perfil o la trayectoria,
 ## Elementos 2D soportados 
 
 -   Contornos
--   <img alt="" src=images/Sketcher_NewSketch.png  style="width   *32px;"> [Croquis](Sketcher_Workbench/es.md)
+-   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Croquis](Sketcher_Workbench/es.md)
 -   ![](images/Draft_BSpline.png ) [BSplines](Draft_BSpline/es.md)
--   Primitivas 2D del menú *Parametricas → <img alt="" src=images/Part_CreatePrimitives.png  style="width   *32px;"> [Crear Primitivas](Part_CreatePrimitives/es.md) \...* (circunferencia, hélice)
+-   Primitivas 2D del menú *Parametricas → <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> [Crear Primitivas](Part_CreatePrimitives/es.md) \...* (circunferencia, hélice)
 
 
 </div>
@@ -66,17 +66,17 @@ from FreeCAD import Base
 
 # get the selected objects, with first selection for the trajectory and second for the section
 s = FreeCADGui.Selection.getSelection()
-try   *
+try:
      shape1=s[0].Shape
      shape2=s[1].Shape
-except   *
+except:
      print "Wrong selection"
 
 traj = Part.Wire([shape1])
 section = Part.Wire([shape2])
 
 # create Part objec in the current document
-myObject=App.ActiveDocument.addObject("Part   *   *Feature","Sweep")
+myObject=App.ActiveDocument.addObject("Part::Feature","Sweep")
 
 # variable makeSolid = 1 to create solid, 0 to create surfaces
 makeSolid = True #1
@@ -92,7 +92,7 @@ myObject.Shape = Sweep
 
 Gracias a [Wmayer](User_Wmayer.md) por su ayuda al escribir esta macro.
 
-Dos ejemplo de uso se pueden ver en [este hilo del foro](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), así como enlaces para descargar archivos FCStd. Utilizando una hélice como trayectoria, un sólido barrido se puede utilizar para crear un tornillo.
+Dos ejemplo de uso se pueden ver en [este hilo del foro](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), así como enlaces para descargar archivos FCStd. Utilizando una hélice como trayectoria, un sólido barrido se puede utilizar para crear un tornillo.
 
 
 

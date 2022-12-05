@@ -9,8 +9,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 ![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
 
-[Category   *Artwork](Category_Artwork.md)
-
 
 
 ---

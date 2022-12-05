@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */fr
-   Name   *Sketcher CreateRectangle
-   Name/fr   *Sketcher Rectangle centré
-   MenuLocation   *Sketch → Géométries d'esquisse → Créer un rectangle centré
-   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut   ***G** **V**
-   Version   * 0.20
-   SeeAlso   *[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
+- GuiCommand:/fr
+   Name:Sketcher CreateRectangle
+   Name/fr:Sketcher Rectangle centré
+   MenuLocation:Sketch → Géométries d'esquisse → Créer un rectangle centré
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **V**
+   Version: 0.20
+   SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
 ---
 
 # Sketcher CreateRectangle Center/fr
@@ -21,7 +21,7 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 ## Utilisation
 
--   Après avoir appuyé sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width   *24px;"> **Rectangle centré**, cliquez une fois pour définir le point central, puis déplacez la souris et cliquez une seconde fois pour définir un point d\'angle.
+-   Après avoir appuyé sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Rectangle centré**, cliquez une fois pour définir le point central, puis déplacez la souris et cliquez une seconde fois pour définir un point d\'angle.
 -   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris annule la fonction.
 
 

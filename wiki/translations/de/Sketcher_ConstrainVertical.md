@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ConstrainVertical
-   Name/de   *Sketcher VertikalFestlegen
-   MenuLocation   *Sketch → Skizzen-Beschränkungen → Vertikal einschränken
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***V**
-   SeeAlso   *[Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
+- GuiCommand:/de
+   Name:Sketcher ConstrainVertical
+   Name/de:Sketcher VertikalFestlegen
+   MenuLocation:Sketch → Skizzen-Beschränkungen → Vertikal einschränken
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**V**
+   SeeAlso:[Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
 ---
 
 # Sketcher ConstrainVertical/de
@@ -17,10 +17,10 @@ Erstellt die Randbedingung VertikalFestlegen für die ausgewählten Linien- oder
 ## Anwendung
 
 1.  Die Linien oder Knoten auswählen, die vertikal festgelegt werden sollen.
-2.  Um den Befehl VertikalFestlegen aufzurufen   *
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> [Vertikal einschränken](Sketcher_ConstrainVertical/de.md)** drücken.
+2.  Um den Befehl VertikalFestlegen aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Vertikal einschränken](Sketcher_ConstrainVertical/de.md)** drücken.
     -   Das Tastaturkürzel **V** verwenden.
-    -   Den Menüeintrag {{MenuCommand/de|Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainVertical.svg style="width   *16px"> Vertikal einschränken}} im Sketch-Menü anklicken.
+    -   Den Menüeintrag {{MenuCommand/de|Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> Vertikal einschränken}} im Sketch-Menü anklicken.
 3.  Alternativ kann das Werkzeug ohne vorherige Auswahl gestartet werden, dann erwartet es eine Auswahl.
 4.  Ein Rechtsklick oder einmal **Esc** drücken, um das Werkzeug zu verlassen.
 

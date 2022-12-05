@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 ConstraintLineHorizontal
-   Name/de   *Assembly3 ConstraintLineHorizontal
-   Icon   *Assembly_ConstraintLineHorizontal.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand:/de
+   Name:Assembly3 ConstraintLineHorizontal
+   Name/de:Assembly3 ConstraintLineHorizontal
+   Icon:Assembly_ConstraintLineHorizontal.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintLineHorizontal/de

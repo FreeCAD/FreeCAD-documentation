@@ -5,11 +5,11 @@
 
 Le attività ripetitive possono essere automatizzate utilizzando robot o bot, ovvero programmi software che operano sul wiki da soli.
 
-The natural and most commonly used robots for wiki sites are provided by MediaWiki, under the package name Pywikibot. See [Manual   *Pywikibot](http   *//www.mediawiki.org/wiki/Manual   *Pywikibot) for the full information.
+The natural and most commonly used robots for wiki sites are provided by MediaWiki, under the package name Pywikibot. See [Manual:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) for the full information.
 
-In a nutshell, Pywikibot is a collection of Python scripts able to use the native wiki API to act on wiki sites. To see the API list for the FreeCAD wiki, visit <http   *//www.freecadweb.org/wiki/api.php>
+In a nutshell, Pywikibot is a collection of Python scripts able to use the native wiki API to act on wiki sites. To see the API list for the FreeCAD wiki, visit <http://www.freecadweb.org/wiki/api.php>
 
-In order to use Pywikibot, you need to   *
+In order to use Pywikibot, you need to:
 
 1.  install the Pywikibot package
 2.  configure Pywikibot to work on the FreeCAD Wiki
@@ -17,11 +17,11 @@ In order to use Pywikibot, you need to   *
 
 There is a wealth of information on how to install, configure and use Pywikibot. However, please be aware that this information, although useful, can be misleading, since it mixes instructions related to two different Pywikibot codebases, and different versions of the Pywikibot scripts collection.
 
-In the following, you will find the basic instructions to set up and use Pywikibot on the FreeCAD wiki. This will allow you to perform the most common tasks. For advanced usage, refer to the [Manual   *Pywikibot](http   *//www.mediawiki.org/wiki/Manual   *Pywikibot), and to the Python source code.
+In the following, you will find the basic instructions to set up and use Pywikibot on the FreeCAD wiki. This will allow you to perform the most common tasks. For advanced usage, refer to the [Manual:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot), and to the Python source code.
 
 ## Installation
 
-Go to <http   *//tools.wmflabs.org/pywikibot/> and download **package/pywikipedia/core.zip** (the project is also under github, gerrit, etc. but this is a simple way to get a full self-contained package).
+Go to <http://tools.wmflabs.org/pywikibot/> and download **package/pywikipedia/core.zip** (the project is also under github, gerrit, etc. but this is a simple way to get a full self-contained package).
 
 Unzip the content in your preferred directory.
 
@@ -35,7 +35,7 @@ You must save the following Python code as a file with the name **user-config.py
 
 
 ```python
-# -*- coding   * cp437  -*-
+# -*- coding: cp437  -*-
 family = 'freecadwiki'
 mylang = 'en'
 usernames['freecadwiki']['en'] = u'<<yourWikiUserName>>'
@@ -43,7 +43,7 @@ usernames['freecadwiki']['en'] = u'<<yourWikiUserName>>'
 console_encoding = 'cp437'
 ```
 
-In the above code   *
+In the above code:
 
 -   replace *\<\>* with your Wiki user name
 -   replace *cp437* with your *console_encoding*. To find out what is your console encoding, for Windows and Linux, launch the Python interpreter, enter {{SystemInput|import sys}} followed by {{SystemInput|print sys.stdout.encoding}}. Python will write your {{SystemOutput|console_encoding}} on the screen.
@@ -52,38 +52,38 @@ Then you must save the following Python code as a file with the name **freecadwi
 
 
 ```python
-# -*- coding   * utf-8  -*-
+# -*- coding: utf-8  -*-
 
-__version__ = '$Id   * 7f3891c3bbbfbd69c0b005de953514803d783d92 $'
+__version__ = '$Id: 7f3891c3bbbfbd69c0b005de953514803d783d92 $'
 
 from pywikibot import family
 
 
 # The MediaWiki family
-# user-config.py   * usernames['mediawiki']['mediawiki'] = 'User name'
-class Family(family.WikimediaFamily)   *
-    def __init__(self)   *
+# user-config.py: usernames['mediawiki']['mediawiki'] = 'User name'
+class Family(family.WikimediaFamily):
+    def __init__(self):
         super(Family, self).__init__()
         self.name = 'freecadwiki'
 
         self.langs = {
-            'en'   * 'www.freecadweb.org',
+            'en': 'www.freecadweb.org',
         }
 
-    def scriptpath(self, code)   *
+    def scriptpath(self, code):
         return 'wiki'
 
-    def path(self, code)   *
+    def path(self, code):
         return '/index.php' #The path of index.php, look at your wiki address. 
      
-    def apipath(self, code)   *
+    def apipath(self, code):
         return '/api.php' #The path of api.php
 
-    def version(self, code)   *
+    def version(self, code):
         # Replace with the actual version being run on your wiki
         return '1.20.3'
 
-    def protocol(self, code)   *
+    def protocol(self, code):
         """
         Can be overridden to return 'https'. Other protocols are not supported.
         """
@@ -119,22 +119,22 @@ This command will log into the wiki
 This command will print a list of all the pages containing a link to SourceForge
 
 
-{{SystemInput|pwb.py listpages.py -weblink   *sourceforge.net}}
+{{SystemInput|pwb.py listpages.py -weblink:sourceforge.net}}
 
 This command will replace all the links to the old SourceForge Forum with a link to the new freecadweb.org-hosted Forum
 
 
-{{SystemInput|pwb.py replace.py -weblink   *sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecadweb.org"}}
 
 This command will print a list of all the pages containing the word \'PartDesign\', starting with the page titled \"2d Drafting Module\" and going on alphabetically
 
 
-{{SystemInput|pwb.py listpages.py -start   *"2d Drafting Module" -grep   *PartDesign}}
+{{SystemInput|pwb.py listpages.py -start:"2d Drafting Module" -grep:PartDesign}}
 
 This command will replace all the secure links to the old SourceForge Forum with a link to the new freecadweb.org-hosted Forum in the translated pages
 
 
-{{SystemInput|pwb.py replace.py -start   *Translations   *! "https   *//sourceforge.net/apps/phpbb/free-cad" "http   *//forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
 
 ## FreeCAD Wiki Related Commands 
 
@@ -151,9 +151,7 @@ List all pages that a specific wiki templates is used in
 Replace a string in all the pages listed in the Arch category (a/k/a )
 
 
-{{SystemInput|python3 pwb.py replace.py -cat   *Arch}}
-
-[Category   *Arch](Category_Arch.md) [Category   *Administration](Category_Administration.md) [Category   *Developer](Category_Developer.md)
+{{SystemInput|python3 pwb.py replace.py -cat:Arch}}
 
 
 

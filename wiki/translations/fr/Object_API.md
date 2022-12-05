@@ -1,7 +1,7 @@
 # Object API/fr
-**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https   *//www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
+**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
 
-Êtant paramétrique, les Objets Documents dans FreeCAD peuvent avoir beaucoup de propriétés supplémentaires, mais ce sont celles de base, présentes dans chaque Objet Document FreeCAD document. Les objets peuvent être récupérés tout simplement par leur nom. Exemple   * 
+Êtant paramétrique, les Objets Documents dans FreeCAD peuvent avoir beaucoup de propriétés supplémentaires, mais ce sont celles de base, présentes dans chaque Objet Document FreeCAD document. Les objets peuvent être récupérés tout simplement par leur nom. Exemple: 
 ```python
 myObj = FreeCAD.ActiveDocument.myObjectName
 print myObj.PropertiesList
@@ -54,11 +54,6 @@ print myObj.PropertiesList
 
 
 {{APIFunction | contact | | Marque l'objet comme modifié (touché) |}}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

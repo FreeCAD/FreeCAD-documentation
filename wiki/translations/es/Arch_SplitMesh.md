@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Arch SplitMesh
-   Name/es   *Arch SplitMesh
-   MenuLocation   *Arquitectura → Utilidades → Dividir malla
-   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso   *[Seleccionar Mallas no sólidas](Arch_SelectNonSolidMeshes/es.md)
+- GuiCommand:/es
+   Name:Arch SplitMesh
+   Name/es:Arch SplitMesh
+   MenuLocation:Arquitectura → Utilidades → Dividir malla
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso:[Seleccionar Mallas no sólidas](Arch_SelectNonSolidMeshes/es.md)
 ---
 
 # Arch SplitMesh/es
@@ -52,7 +52,7 @@ Esta herramienta divide un objeto [Malla](Mesh_Workbench/es.md) seleccionado en 
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante las siguientes funciones   *
+Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante las siguientes funciones:
 
 
 </div>
@@ -66,12 +66,12 @@ new_list = splitMesh(obj, mark=True)
 <div class="mw-translate-fuzzy">
 
 
-   *   Divide el objeto malla dado en sus componentes separados.
+:   Divide el objeto malla dado en sus componentes separados.
 
 
 </div>
 
-Example   *
+Example:
 
 
 ```python
@@ -84,7 +84,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 

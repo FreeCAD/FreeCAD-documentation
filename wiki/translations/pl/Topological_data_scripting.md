@@ -12,11 +12,11 @@ Tutaj wyjaśnimy Ci jak kontrolować środowisko [Część](Part_Workbench/pl.md
 
 ## Schemat klas 
 
-To jest [Unified Modeling Language *(UML)*](http   *//en.wikipedia.org/wiki/Unified_Modeling_Language) przegląd najważniejszych klas modułu Część   * ![klasy Python, modułu Część](images/Part_Classes.jpg ) {{Top}}
+To jest [Unified Modeling Language *(UML)*](http://en.wikipedia.org/wiki/Unified_Modeling_Language) przegląd najważniejszych klas modułu Część: ![klasy Python, modułu Część](images/Part_Classes.jpg ) {{Top}}
 
 ### Geometria
 
-Obiekty geometryczne są elementami składowymi wszystkich obiektów topologicznych   *
+Obiekty geometryczne są elementami składowymi wszystkich obiektów topologicznych:
 
 -   **Geom** Klasa bazowa obiektów geometrycznych.
 -   **Linia** Linia prosta w przestrzeni 3D, zdefiniowana przez punkt początkowy i punkt końcowy.
@@ -28,7 +28,7 @@ Obiekty geometryczne są elementami składowymi wszystkich obiektów topologiczn
 
 ### Topologia
 
-Dostępne są następujące typy danych topologicznych   *
+Dostępne są następujące typy danych topologicznych:
 
 -   **Złożenie** Grupa obiektów topologicznych dowolnego typu.
 -   **Bryła złożona** Bryła złożona to zbiór brył połączonych ścianami. Rozszerza pojęcia WIRE i SHELL na bryły.
@@ -43,7 +43,7 @@ Dostępne są następujące typy danych topologicznych   *
 
 {{Top}}
 
-## Przykład   * Utwórz prostą topologię 
+## Przykład: Utwórz prostą topologię 
 
 ![Linia łamana](images/Wire.png )
 
@@ -53,7 +53,7 @@ Stworzymy teraz topologię poprzez skonstruowanie jej z prostszej geometrii. Jak
 
 Najpierw tworzymy odrębne części geometryczne tej linii łamanej. Upewniamy się, że części, które mają być później połączone, mają wspólne wierzchołki.
 
-Więc najpierw tworzymy punkty   *
+Więc najpierw tworzymy punkty:
 
 
 ```python
@@ -72,7 +72,7 @@ V4 = App.Vector(0, -10, 0)
 
 ![Okrąg](images/Circel.png )
 
-Dla każdego łuku potrzebujemy punktu pomocniczego   *
+Dla każdego łuku potrzebujemy punktu pomocniczego:
 
 
 ```python
@@ -89,7 +89,7 @@ C2 = Part.Arc(V2, VC2, V3)
 
 ![Linia](images/Line.png )
 
-Odcinki linii można utworzyć z dwóch punktów   *
+Odcinki linii można utworzyć z dwóch punktów:
 
 
 ```python
@@ -102,7 +102,7 @@ L2 = Part.LineSegment(V3, V4)
 
 ### Połącz wszystko w całość 
 
-Ostatnim krokiem jest zestawienie geometrycznych elementów bazowych razem i uzyskanie kształtu topologicznego   *
+Ostatnim krokiem jest zestawienie geometrycznych elementów bazowych razem i uzyskanie kształtu topologicznego:
 
 
 ```python
@@ -114,7 +114,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 ### Utwórz graniastosłup 
 
-Teraz wyciągnij linę łamaną w odpowiednim kierunku i stwórz rzeczywisty kształt 3D   *
+Teraz wyciągnij linę łamaną w odpowiednim kierunku i stwórz rzeczywisty kształt 3D:
 
 
 ```python
@@ -137,7 +137,7 @@ Part.show(P)
 
 ## Utwórz podstawowe kształty 
 
-Możesz łatwo tworzyć podstawowe obiekty topologiczne za pomocą metod `make...()` z modułu Część   *
+Możesz łatwo tworzyć podstawowe obiekty topologiczne za pomocą metod `make...()` z modułu Część:
 
 
 ```python
@@ -145,7 +145,7 @@ b = Part.makeBox(100, 100, 100)
 Part.show(b)
 ```
 
-Niektóre dostępne metody `make...()`   *
+Niektóre dostępne metody `make...()`:
 
 -    `makeBox(l, w, h, [p, d])`Tworzy sześcian znajdujący się w punkcie p i skierowany w kierunku d o wymiarach *(l,w,h)*.
 
@@ -169,7 +169,7 @@ Zobacz stronę [skrypty środowiska Część](Part_API/pl.md) aby zobaczyć peł
 
 ## Import modułów 
 
-Najpierw musimy zaimportować moduły FreeCAD i Część, aby móc korzystać z ich zawartości w Pythonie   *
+Najpierw musimy zaimportować moduły FreeCAD i Część, aby móc korzystać z ich zawartości w Pythonie:
 
 
 ```python
@@ -182,14 +182,14 @@ import Part
 
 ### Utwórz wektor 
 
-[Wektory](http   *//en.wikipedia.org/wiki/Euclidean_vector) są jedną z najważniejszych informacji przy tworzeniu kształtów. Zazwyczaj zawierają trzy liczby *(ale niekoniecznie zawsze)*   * współrzędne kartezjańskie X, Y i Z. Tworzysz wektor w ten sposób   *
+[Wektory](http://en.wikipedia.org/wiki/Euclidean_vector) są jedną z najważniejszych informacji przy tworzeniu kształtów. Zazwyczaj zawierają trzy liczby *(ale niekoniecznie zawsze)*: współrzędne kartezjańskie X, Y i Z. Tworzysz wektor w ten sposób:
 
 
 ```python
 myVector = App.Vector(3, 2, 0)
 ```
 
-Właśnie utworzyliśmy wektor o współrzędnych X = 3, Y = 2, Z = 0. W module Part, wektory są używane wszędzie. Kształty części używają również innego rodzaju reprezentacji punktów zwanej Vertex, która jest po prostu kontenerem dla wektora. Dostęp do wektora wierzchołka uzyskujesz w następujący sposób   *
+Właśnie utworzyliśmy wektor o współrzędnych X = 3, Y = 2, Z = 0. W module Part, wektory są używane wszędzie. Kształty części używają również innego rodzaju reprezentacji punktów zwanej Vertex, która jest po prostu kontenerem dla wektora. Dostęp do wektora wierzchołka uzyskujesz w następujący sposób:
 
 
 ```python
@@ -203,7 +203,7 @@ print(myVertex.Point)
 
 ### Utwórz krawędź 
 
-Krawędź to nic innego jak linia z dwoma wierzchołkami   *
+Krawędź to nic innego jak linia z dwoma wierzchołkami:
 
 
 ```python
@@ -212,7 +212,7 @@ edge.Vertexes
 > [<Vertex object at 01877430>, <Vertex object at 014888E0>]
 ```
 
-Uwaga   * Możesz również utworzyć krawędź poprzez przekazanie dwóch wektorów   *
+Uwaga: Możesz również utworzyć krawędź poprzez przekazanie dwóch wektorów:
 
 
 ```python
@@ -222,7 +222,7 @@ line = Part.LineSegment(vec1, vec2)
 edge = line.toShape()
 ```
 
-Możesz znaleźć długość i środek krawędzi w ten sposób   *
+Możesz znaleźć długość i środek krawędzi w ten sposób:
 
 
 ```python
@@ -237,7 +237,7 @@ edge.CenterOfMass
 
 ### Wyświetl kształt na ekranie 
 
-Do tej pory utworzyliśmy obiekt krawędziowy, ale nie pojawia się on nigdzie na ekranie. Dzieje się tak dlatego, że scena 3D FreeCAD wyświetla tylko to, co każesz jej wyświetlić. Aby to zrobić, użyjemy prostej metody   *
+Do tej pory utworzyliśmy obiekt krawędziowy, ale nie pojawia się on nigdzie na ekranie. Dzieje się tak dlatego, że scena 3D FreeCAD wyświetla tylko to, co każesz jej wyświetlić. Aby to zrobić, użyjemy prostej metody:
 
 
 ```python
@@ -248,7 +248,7 @@ Funkcja show tworzy obiekt w naszym dokumencie FreeCAD i przypisuje mu nasz kszt
 
 ### Utwórz linie łamaną 
 
-Linia łamana jest linią o wielu krawędziach i może być utworzona z listy krawędzi lub nawet z listy linii łamanych   *
+Linia łamana jest linią o wielu krawędziach i może być utworzona z listy krawędzi lub nawet z listy linii łamanych:
 
 
 ```python
@@ -267,7 +267,7 @@ Part.show(wire3)
 
 `Part.show(wire3)`
 
-wyświetli 4 krawędzie, z których składa się nasza linia łamana. Inne przydatne informacje mogą być łatwo pobrane   *
+wyświetli 4 krawędzie, z których składa się nasza linia łamana. Inne przydatne informacje mogą być łatwo pobrane:
 
 
 ```python
@@ -286,7 +286,7 @@ wire2.isClosed()
 
 ### Utwórz ścianę 
 
-Tylko ściany utworzone z linii łamanych będą poprawne. W tym przykładzie linia łamana3 jest zamknięta, ale linia łamana2 nie jest *(patrz wyżej)*   *
+Tylko ściany utworzone z linii łamanych będą poprawne. W tym przykładzie linia łamana3 jest zamknięta, ale linia łamana2 nie jest *(patrz wyżej)*:
 
 
 ```python
@@ -308,25 +308,25 @@ Tylko twarze będą posiadać obszar, linie łamane i krawędzie nie. {{Top}}
 
 ### Utwórz okrąg 
 
-Okrąg może być utworzony w ten sposób   *
+Okrąg może być utworzony w ten sposób:
 
 
 ```python
 circle = Part.makeCircle(10)
 circle.Curve
-> Circle (Radius    * 10, Position    * (0, 0, 0), Direction    * (0, 0, 1))
+> Circle (Radius : 10, Position : (0, 0, 0), Direction : (0, 0, 1))
 ```
 
-Jeśli chcesz utworzyć go w określonej pozycji i z określonym kierunkiem   *
+Jeśli chcesz utworzyć go w określonej pozycji i z określonym kierunkiem:
 
 
 ```python
 ccircle = Part.makeCircle(10, App.Vector(10, 0, 0), App.Vector(1, 0, 0))
 ccircle.Curve
-> Circle (Radius    * 10, Position    * (10, 0, 0), Direction    * (1, 0, 0))
+> Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
 ```
 
-okrąg zostanie utworzony w odległości 10 od początku X i będzie skierowany na zewnątrz wzdłuż osi X. Uwaga   * `makeCircle()` akceptuje tylko `App.Vector()` dla parametrów position i parametry jako wektory normalne, a nie krotki. Możesz również utworzyć część okręgu przez podanie kąta początkowego i końcowego   *
+okrąg zostanie utworzony w odległości 10 od początku X i będzie skierowany na zewnątrz wzdłuż osi X. Uwaga: `makeCircle()` akceptuje tylko `App.Vector()` dla parametrów position i parametry jako wektory normalne, a nie krotki. Możesz również utworzyć część okręgu przez podanie kąta początkowego i końcowego:
 
 
 ```python
@@ -335,7 +335,7 @@ arc1 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
 arc2 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180, 360)
 ```
 
-Kąty powinny być podane w stopniach. Jeśli masz radiany, po prostu przekonwertuj je za pomocą wzoru   * `degrees <nowiki>=</nowiki> radians * 180/pi` lub za pomocą modułu `math` Pythona   *
+Kąty powinny być podane w stopniach. Jeśli masz radiany, po prostu przekonwertuj je za pomocą wzoru: `degrees <nowiki>=</nowiki> radians * 180/pi` lub za pomocą modułu `math` Pythona:
 
 
 ```python
@@ -359,7 +359,7 @@ arc_edge = arc.toShape()
 Part.show(arc_edge)
 ```
 
-Funkcja `Arc()` akceptuje tylko `App.Vector()` dla punktów, a nie dla krotek. Możesz również uzyskać łuk używając części okręgu   *
+Funkcja `Arc()` akceptuje tylko `App.Vector()` dla punktów, a nie dla krotek. Możesz również uzyskać łuk używając części okręgu:
 
 
 ```python
@@ -372,7 +372,7 @@ arc = Part.Arc(circle,0,pi)
 
 ### Utwórz wielokąt 
 
-Wielokąt jest po prostu polilinią o wielu prostych krawędziach. Funkcja `makePolygon()` przyjmuje listę punktów i tworzy polilinię przechodzącą przez te punkty   *
+Wielokąt jest po prostu polilinią o wielu prostych krawędziach. Funkcja `makePolygon()` przyjmuje listę punktów i tworzy polilinię przechodzącą przez te punkty:
 
 
 ```python
@@ -384,11 +384,11 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 ### Utwórz krzywą Béziera 
 
-Krzywe Béziera są używane do modelowania gładkich krzywych przy użyciu serii biegunów *(punktów)* i opcjonalnych wag. Poniższa funkcja tworzy krzywą `Part.BezierCurve()` z serii punktów `FreeCAD.Vector()`. Uwaga   * przy \"pobieraniu\" i \"ustawianiu\" pojedynczego bieguna lub wagi, indeksy zaczynają się od 1, a nie od 0.
+Krzywe Béziera są używane do modelowania gładkich krzywych przy użyciu serii biegunów *(punktów)* i opcjonalnych wag. Poniższa funkcja tworzy krzywą `Part.BezierCurve()` z serii punktów `FreeCAD.Vector()`. Uwaga: przy \"pobieraniu\" i \"ustawianiu\" pojedynczego bieguna lub wagi, indeksy zaczynają się od 1, a nie od 0.
 
 
 ```python
-def makeBCurveEdge(Points)   *
+def makeBCurveEdge(Points):
    geomCurve = Part.BezierCurve()
    geomCurve.setPoles(Points)
    edge = Part.Edge(geomCurve)
@@ -400,7 +400,7 @@ def makeBCurveEdge(Points)   *
 
 ### Utwórz płaszczyznę 
 
-Płaszczyzna jest płaską prostokątną powierzchnią. Metoda używana do jej utworzenia to `makePlane(length, width, [start_pnt, dir_normal])`. Domyślnie start_pnt = Vector(0, 0, 0) i dir_normal = Vector(0, 0, 1). Użycie dir_normal = Vector(0, 0, 1) spowoduje utworzenie płaszczyzny zwróconej w dodatnim kierunku osi Z, natomiast dir_normal = Vector(1, 0, 0) utworzy płaszczyznę zwróconą w dodatnim kierunku osi X   *
+Płaszczyzna jest płaską prostokątną powierzchnią. Metoda używana do jej utworzenia to `makePlane(length, width, [start_pnt, dir_normal])`. Domyślnie start_pnt = Vector(0, 0, 0) i dir_normal = Vector(0, 0, 1). Użycie dir_normal = Vector(0, 0, 1) spowoduje utworzenie płaszczyzny zwróconej w dodatnim kierunku osi Z, natomiast dir_normal = Vector(1, 0, 0) utworzy płaszczyznę zwróconą w dodatnim kierunku osi X:
 
 
 ```python
@@ -417,11 +417,11 @@ plane.BoundBox
 
 jest prostopadłościanem zamykającym płaszczyznę o przekątnej zaczynającej się w punkcie (3, 0, 0) i kończącej w punkcie (5, 0, 2). W tym przypadku grubość `BoundBox` wzdłuż osi Y wynosi zero, ponieważ nasz kształt jest całkowicie płaski.
 
-Uwaga   * `makePlane()` akceptuje tylko `App.Vector()` dla start_pnt i dir_normal, a nie krotki. {{Top}}
+Uwaga: `makePlane()` akceptuje tylko `App.Vector()` dla start_pnt i dir_normal, a nie krotki. {{Top}}
 
 ### Utwórz elipsę 
 
-Istnieje kilka sposobów na utworzenie elipsy   *
+Istnieje kilka sposobów na utworzenie elipsy:
 
 
 ```python
@@ -459,7 +459,7 @@ Part.show(eli.toShape())
 
 W powyższym kodzie przekazaliśmy S1, S2 i środek. Podobnie jak `Arc`, `Ellipse` tworzy obiekt elipsy, a nie krawędzi, więc musimy go przekonwertować na krawędź używając `toShape()` do wyświetlenia.
 
-Uwaga   * `Ellipse()` akceptuje tylko `App.Vector()` dla punktów, a nie dla krotek.
+Uwaga: `Ellipse()` akceptuje tylko `App.Vector()` dla punktów, a nie dla krotek.
 
 
 ```python
@@ -471,7 +471,7 @@ Dla powyższego konstruktora elipsy przekazaliśmy center, MajorRadius oraz Mino
 
 ### Utwórz torusa 
 
-Używając `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 i angle = 360. Rozważmy torus jako małe koło, które porusza się po dużym okręgu. Radius1 jest promieniem dużego okręgu, radius2 jest promieniem małego okręgu, pnt jest środkiem torusa, a dir jest kierunkiem normalnej. angle1 i angle2 są kątami w stopniach dla małego okręgu; ostatni parametr angle jest po to, by zrobić przekrój torusa   *
+Używając `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 i angle = 360. Rozważmy torus jako małe koło, które porusza się po dużym okręgu. Radius1 jest promieniem dużego okręgu, radius2 jest promieniem małego okręgu, pnt jest środkiem torusa, a dir jest kierunkiem normalnej. angle1 i angle2 są kątami w stopniach dla małego okręgu; ostatni parametr angle jest po to, by zrobić przekrój torusa:
 
 
 ```python
@@ -555,7 +555,7 @@ Kształty można modyfikować na kilka sposobów. Niektóre z nich to proste ope
 
 ### Przekształcanie kształtu 
 
-Przesunięcie to czynność polegająca na przeniesieniu kształtu z jednego miejsca w drugie. Każdy kształt *(krawędź, ściana, sześcian, itd\...)* może być przesunięty w ten sam sposób   *
+Przesunięcie to czynność polegająca na przeniesieniu kształtu z jednego miejsca w drugie. Każdy kształt *(krawędź, ściana, sześcian, itd\...)* może być przesunięty w ten sam sposób:
 
 
 ```python
@@ -567,7 +567,7 @@ Spowoduje to przesunięcie naszego kształtu \"myShape\" o 2 jednostki w kierunk
 
 ### Obrót kształtu 
 
-Aby obrócić kształt, należy określić środek obrotu, oś i kąt obrotu   *
+Aby obrócić kształt, należy określić środek obrotu, oś i kąt obrotu:
 
 
 ```python
@@ -578,7 +578,7 @@ Powyższy kod obróci kształt o 180 stopni wokół osi Z. {{Top}}
 
 ### Przekształcenia macierzowe 
 
-Macierz jest bardzo wygodnym sposobem przechowywania przekształceń w świecie 3D. W pojedynczej macierzy można ustawić wartości przesunięcia, obrotu i skalowania, które mają być zastosowane do obiektu. Na przykład   *
+Macierz jest bardzo wygodnym sposobem przechowywania przekształceń w świecie 3D. W pojedynczej macierzy można ustawić wartości przesunięcia, obrotu i skalowania, które mają być zastosowane do obiektu. Na przykład:
 
 
 ```python
@@ -587,7 +587,7 @@ myMat.move(App.Vector(2, 0, 0))
 myMat.rotateZ(math.pi/2)
 ```
 
-Uwaga   * Macierze FreeCAD działają w radianach. Ponadto, prawie wszystkie operacje na macierzach, które przyjmują wektor, mogą również przyjmować trzy liczby, więc te dwie linie robią to samo   *
+Uwaga: Macierze FreeCAD działają w radianach. Ponadto, prawie wszystkie operacje na macierzach, które przyjmują wektor, mogą również przyjmować trzy liczby, więc te dwie linie robią to samo:
 
 
 ```python
@@ -595,7 +595,7 @@ myMat.move(2, 0, 0)
 myMat.move(App.Vector(2, 0, 0))
 ```
 
-Kiedy nasza macierz jest już ustalona, możemy ją zastosować do naszego kształtu. FreeCAD udostępnia dwie metody, aby to zrobić   * `transformShape()` oraz `transformGeometry()`. Różnica jest taka, że w przypadku pierwszej z nich mamy pewność, że nie wystąpią żadne deformacje *(patrz poniżej [Skalowanie kształtu](#Skalowanie_kszta.C5.82tu.md))*. Naszą transformację możemy zastosować w ten sposób   *
+Kiedy nasza macierz jest już ustalona, możemy ją zastosować do naszego kształtu. FreeCAD udostępnia dwie metody, aby to zrobić: `transformShape()` oraz `transformGeometry()`. Różnica jest taka, że w przypadku pierwszej z nich mamy pewność, że nie wystąpią żadne deformacje *(patrz poniżej [Skalowanie kształtu](#Skalowanie_kszta.C5.82tu.md))*. Naszą transformację możemy zastosować w ten sposób:
 
 
 ```python
@@ -614,7 +614,7 @@ myShape.transformGeometry(myMat)
 
 ### Skalowanie kształtu 
 
-Skalowanie kształtu jest bardziej niebezpieczną operacją, ponieważ w przeciwieństwie do przesunięcia czy obrotu, skalowanie nierównomierne *(z różnymi wartościami dla X, Y i Z)* może zmienić strukturę kształtu. Na przykład, skalowanie koła z większą wartością w poziomie niż w pionie przekształci je w elipsę, która zachowuje się matematycznie zupełnie inaczej. Do skalowania nie możemy użyć metody `transformShape()`, musimy użyć `transformGeometry()`   *
+Skalowanie kształtu jest bardziej niebezpieczną operacją, ponieważ w przeciwieństwie do przesunięcia czy obrotu, skalowanie nierównomierne *(z różnymi wartościami dla X, Y i Z)* może zmienić strukturę kształtu. Na przykład, skalowanie koła z większą wartością w poziomie niż w pionie przekształci je w elipsę, która zachowuje się matematycznie zupełnie inaczej. Do skalowania nie możemy użyć metody `transformShape()`, musimy użyć `transformGeometry()`:
 
 
 ```python
@@ -630,7 +630,7 @@ myShape=myShape.transformGeometry(myMat)
 
 ### Operacja odjęcia 
 
-Odejmowanie kształtu od innego nazywane jest w FreeCAD \"cięciem\" i odbywa się w następujący sposób   *
+Odejmowanie kształtu od innego nazywane jest w FreeCAD \"cięciem\" i odbywa się w następujący sposób:
 
 
 ```python
@@ -644,7 +644,7 @@ diff = cylinder.cut(sphere)
 
 ### Przecięcie
 
-W ten sam sposób przecięcie dwóch kształtów nazywane jest \"częścią wspólną\" i jest wykonywane w ten sposób   *
+W ten sam sposób przecięcie dwóch kształtów nazywane jest \"częścią wspólną\" i jest wykonywane w ten sposób:
 
 
 ```python
@@ -658,7 +658,7 @@ common = cylinder1.common(cylinder2)
 
 ### Połączenie
 
-Połączenie nazywa się \"scaleniem\" i działa w ten sam sposób   *
+Połączenie nazywa się \"scaleniem\" i działa w ten sam sposób:
 
 
 ```python
@@ -692,7 +692,7 @@ section.Edges
 
 ### Wyciąganie
 
-Wyciąganie to czynność \"wypychania\" płaskiego kształtu w określonym kierunku, w wyniku czego powstaje pełna bryła. Pomyśl o kole, które staje się rurką poprzez \"wypychanie\" go na zewnątrz   *
+Wyciąganie to czynność \"wypychania\" płaskiego kształtu w określonym kierunku, w wyniku czego powstaje pełna bryła. Pomyśl o kole, które staje się rurką poprzez \"wypychanie\" go na zewnątrz:
 
 
 ```python
@@ -700,7 +700,7 @@ circle = Part.makeCircle(10)
 tube = circle.extrude(App.Vector(0, 0, 2))
 ```
 
-Jeśli twój okrąg jest pusty, otrzymasz pustą rurkę. Jeśli twój okrąg jest w rzeczywistości dyskiem z wypełnioną powierzchnią, otrzymasz pełny walec   *
+Jeśli twój okrąg jest pusty, otrzymasz pustą rurkę. Jeśli twój okrąg jest w rzeczywistości dyskiem z wypełnioną powierzchnią, otrzymasz pełny walec:
 
 
 ```python
@@ -714,7 +714,7 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 ## Badanie kształtów 
 
-Możesz łatwo zbadać topologiczną strukturę danych   *
+Możesz łatwo zbadać topologiczną strukturę danych:
 
 
 ```python
@@ -737,7 +737,7 @@ Wpisując powyższe linie w interpreterze Python, uzyskasz dobre zrozumienie str
 
 ### Analiza krawędzi 
 
-W przypadku krawędzi, która jest arbitralną krzywą, najprawdopodobniej chcesz dokonać dyskretyzacji. W FreeCAD krawędzie są parametryzowane przez ich długości. Oznacza to, że możesz przejść po krawędzi/krzywej przez jej długość   *
+W przypadku krawędzi, która jest arbitralną krzywą, najprawdopodobniej chcesz dokonać dyskretyzacji. W FreeCAD krawędzie są parametryzowane przez ich długości. Oznacza to, że możesz przejść po krawędzi/krzywej przez jej długość:
 
 
 ```python
@@ -776,36 +776,36 @@ Part.show(Part.makeBox(100, 100, 100))
 Gui.SendMsgToActiveView("ViewFit")
 ```
 
-Teraz wybierz kilka ścian lub krawędzi. Za pomocą tego skryptu możesz przejść po wszystkich zaznaczonych obiektach i ich elementach podrzędnych   *
+Teraz wybierz kilka ścian lub krawędzi. Za pomocą tego skryptu możesz przejść po wszystkich zaznaczonych obiektach i ich elementach podrzędnych:
 
 
 ```python
-for o in Gui.Selection.getSelectionEx()   *
+for o in Gui.Selection.getSelectionEx():
     print(o.ObjectName)
-    for s in o.SubElementNames   *
-        print("name   * ", s)
-        for s in o.SubObjects   *
-            print("object   * ", s)
+    for s in o.SubElementNames:
+        print("name: ", s)
+        for s in o.SubObjects:
+            print("object: ", s)
 ```
 
-Wybierz kilka krawędzi, a ten skrypt obliczy ich długość   *
+Wybierz kilka krawędzi, a ten skrypt obliczy ich długość:
 
 
 ```python
 length = 0.0
-for o in Gui.Selection.getSelectionEx()   *
-    for s in o.SubObjects   *
+for o in Gui.Selection.getSelectionEx():
+    for s in o.SubObjects:
         length += s.Length
 
-print("Length of the selected edges   * ", length)
+print("Length of the selected edges: ", length)
 ```
 
 
 {{Top}}
 
-## Przykład   * Butelka OCC 
+## Przykład: Butelka OCC 
 
-Typowym przykładem, który można znaleźć na stronie [OpenCasCade Technology](https   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) jest sposób na zbudowanie butelki. Jest to dobre ćwiczenie również dla programu FreeCAD. W rzeczywistości, jeśli będziesz śledził nasz przykład poniżej i stronę OCC jednocześnie, zobaczysz jak dobrze struktury OCC są zaimplementowane w FreeCAD. Skrypt jest dołączony do instalacji FreeCAD *(w folderze **Mod/Part**)* i może być wywołany z interpretera Python przez wpisanie   *
+Typowym przykładem, który można znaleźć na stronie [OpenCasCade Technology](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) jest sposób na zbudowanie butelki. Jest to dobre ćwiczenie również dla programu FreeCAD. W rzeczywistości, jeśli będziesz śledził nasz przykład poniżej i stronę OCC jednocześnie, zobaczysz jak dobrze struktury OCC są zaimplementowane w FreeCAD. Skrypt jest dołączony do instalacji FreeCAD *(w folderze **Mod/Part**)* i może być wywołany z interpretera Python przez wpisanie:
 
 
 ```python
@@ -827,7 +827,7 @@ Na potrzeby tego poradnika rozważymy okrojoną wersję skryptu. W tej wersji bu
 import FreeCAD as App
 import Part, math
 
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt1=App.Vector(-myWidth / 2., 0, 0)
     aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
     aPnt3=App.Vector(0, -myThickness / 2., 0)
@@ -885,7 +885,7 @@ Potrzebny nam będzie oczywiście moduł `FreeCAD`, ale także moduł `Part`.
 
 
 ```python
-def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
+def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt1=App.Vector(-myWidth / 2., 0, 0)
     aPnt2=App.Vector(-myWidth / 2., -myThickness / 4., 0)
     aPnt3=App.Vector(0, -myThickness / 2., 0)
@@ -903,7 +903,7 @@ Tutaj definiujemy naszą funkcję `makeBottleTut`. Funkcja ta może być wywoła
     aSegment2=Part.LineSegment(aPnt4, aPnt5)
 ```
 
-Tutaj definiujemy geometrię   * łuk, złożony z trzech punktów, oraz dwa odcinki linii, złożone z dwóch punktów.
+Tutaj definiujemy geometrię: łuk, złożony z trzech punktów, oraz dwa odcinki linii, złożone z dwóch punktów.
 
 
 ```python
@@ -978,7 +978,7 @@ Part.show(el)
 
 Na koniec wywołujemy funkcję, aby faktycznie utworzyć część, a następnie uczynić ją widoczną. {{Top}}
 
-## Przykład   * Sześcian z otworami 
+## Przykład: Sześcian z otworami 
 
 Oto kompletny przykład budowy sześcianu z otworami.
 
@@ -1039,7 +1039,7 @@ Part.show(cut_part)
 
 Jest kilka sposobów na zapisanie swojej pracy. Możesz oczywiście zapisać swój dokument FreeCAD, ale możesz również zapisać obiekty typu [Część](Part_Workbench/pl.md) bezpośrednio do popularnych formatów CAD, takich jak BREP, IGS, STEP i STL.
 
-Zapisywanie kształtu do pliku jest łatwe. Dla wszystkich obiektów kształtu dostępne są metody `exportBrep()`, `exportIges()`, `exportStep()` oraz `exportStl()`. Tak więc, wykonując   *
+Zapisywanie kształtu do pliku jest łatwe. Dla wszystkich obiektów kształtu dostępne są metody `exportBrep()`, `exportIges()`, `exportStep()` oraz `exportStl()`. Tak więc, wykonując:
 
 
 ```python
@@ -1048,7 +1048,7 @@ s = Part.makeBox(10, 10, 10)
 s.exportStep("test.stp")
 ```
 
-zapisze naszą kostkę do pliku STEP. Aby wczytać plik BREP, IGES lub STEP   *
+zapisze naszą kostkę do pliku STEP. Aby wczytać plik BREP, IGES lub STEP:
 
 
 ```python
@@ -1057,7 +1057,7 @@ s = Part.Shape()
 s.read("test.stp")
 ```
 
-Aby przekonwertować plik STEP na plik IGS   *
+Aby przekonwertować plik STEP na plik IGS:
 
 
 ```python
@@ -1069,14 +1069,6 @@ Aby przekonwertować plik STEP na plik IGS   *
 
 
 {{Top}}
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

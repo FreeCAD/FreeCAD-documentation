@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name   *Std MergeProjects
-   Name/ru   *Std MergeProjects
-   MenuLocation   *Файл → Объединить проект 
-   Workbenches   *All
+- GuiCommand:/ru
+   Name:Std MergeProjects
+   Name/ru:Std MergeProjects
+   MenuLocation:Файл → Объединить проект 
+   Workbenches:All
 ---
 
 # Std MergeProjects/ru
@@ -32,7 +32,7 @@
 
 ## Настройки
 
--   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
 

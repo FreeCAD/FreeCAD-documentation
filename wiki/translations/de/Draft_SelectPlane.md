@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Draft SelectPlane
-   Name/de   *Entwirf WähleEbene
-   MenuLocation   *Entwurf → Hilfsprogramme → Wähle Ebene
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut   ***W** **P**
-   SeeAlso   *[Entwurf ArbeitsEbeneProxy](Draft_WorkingPlaneProxy/de.md),[Entwurf GitterUmschalten](Draft_ToggleGrid/de.md)
+- GuiCommand:/de
+   Name:Draft SelectPlane
+   Name/de:Entwirf WähleEbene
+   MenuLocation:Entwurf → Hilfsprogramme → Wähle Ebene
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut:**W** **P**
+   SeeAlso:[Entwurf ArbeitsEbeneProxy](Draft_WorkingPlaneProxy/de.md),[Entwurf GitterUmschalten](Draft_ToggleGrid/de.md)
 ---
 
 # Draft SelectPlane/de
@@ -18,18 +18,18 @@
 
 <div class="mw-translate-fuzzy">
 
-Der <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;">[Entwurf Arbeitsbereich](Draft_Workbench/de.md) verfügt über ein Bearbeitungsebenensystem. Eine Ebene in der [3D Ansicht](3D_view/de.md) zeigt an, wo eine Entwurfsform erstellt wird. Es gibt mehrere Möglichkeiten, die Bearbeitungsebene zu definieren   *
+Der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Entwurf Arbeitsbereich](Draft_Workbench/de.md) verfügt über ein Bearbeitungsebenensystem. Eine Ebene in der [3D Ansicht](3D_view/de.md) zeigt an, wo eine Entwurfsform erstellt wird. Es gibt mehrere Möglichkeiten, die Bearbeitungsebene zu definieren:
 
 -   Von einer ausgewählten Fläche.
 -   Von drei ausgewählten Knoten.
 -   Aus der gegenwärtigen Sicht.
--   Von einer Voreinstellung   * oben, vorne oder seitlich.
+-   Von einer Voreinstellung: oben, vorne oder seitlich.
 -   Keine, in diesem Fall wird die Bearbeitungsebene beim Starten eines Befehls automatisch an die aktuelle Ansicht oder an eine Fläche angepasst, wenn Du mit dem Zeichnen auf einer vorhandenen Fläche beginnst.
 
 
 </div>
 
-<img alt="" src=images/WorkingPlane_example.png  style="width   *400px;">
+<img alt="" src=images/WorkingPlane_example.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -54,14 +54,14 @@ Der <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;">[Entwurf 
 
 ## Usage with post-selection 
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut   * **W** then **P**.
+    -   Use the keyboard shortcut: **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following   *
+3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select   *
+    -   Select one or more subelements. You can select:
         -   A flat face.
         -   Three vertices.
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
@@ -75,7 +75,7 @@ Der <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;">[Entwurf 
 1.  Drücke die **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)
 **, oder verwende **Entwurf** → **Hilfsmittel** → **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)** aus dem oberen Menü, oder das Tastaturkürzel **W** und dann **P**
 2.  Wähle den Versatz, den Rasterabstand und die Hauptlinien
-3.  Wähle eine der Voreinstellungen   * **<img src="images/View-top.svg" width=16px> XY (oben)**, **<img src="images/View-front.svg" width=16px>  XZ (vorne)**, **<img src="images/View-right.svg" width=16px> YZ (Seite)**, **<img src="images/View-isometric.svg" width=16px> Ansicht**, oder **<img src="images/View-axonometric.svg" width=16px> Auto**.
+3.  Wähle eine der Voreinstellungen: **<img src="images/View-top.svg" width=16px> XY (oben)**, **<img src="images/View-front.svg" width=16px>  XZ (vorne)**, **<img src="images/View-right.svg" width=16px> YZ (Seite)**, **<img src="images/View-isometric.svg" width=16px> Ansicht**, oder **<img src="images/View-axonometric.svg" width=16px> Auto**.
 
 
 </div>
@@ -110,11 +110,11 @@ Um auf dieser Ebene leicht zeichnen zu können, solltest Du die Ansicht nach obe
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 -   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
 
@@ -124,9 +124,9 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Skripten
 
 
-{{emphasis|Sie auch   *}}
+{{emphasis|Sie auch:}}
 
-[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md). Siehe die [ArbeitsEbene API](http   *//www.freecadweb.org/api/DraftWorkingPlane.html).
+[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md). Siehe die [ArbeitsEbene API](http://www.freecadweb.org/api/DraftWorkingPlane.html).
 
 
 </div>
@@ -134,7 +134,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Du kannst auf die aktuelle Bearbeitungsebene Entwurf zugreifen und Transformationen darauf anwenden   *
+Du kannst auf die aktuelle Bearbeitungsebene Entwurf zugreifen und Transformationen darauf anwenden:
 
 
 </div>

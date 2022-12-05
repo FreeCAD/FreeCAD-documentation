@@ -3,7 +3,7 @@
 
 ## Building
 
-ImageConv is located in the source tree of FreeCAD   *
+ImageConv is located in the source tree of FreeCAD:
 
  
 
@@ -12,10 +12,6 @@ Building is easy with the *Makefile* or the VisualStudio-Project.
 ## Usage
 
 ImageConv is a command line tool.
-
-
-
-[Category   *Developer](Category_Developer.md)
 
 
 

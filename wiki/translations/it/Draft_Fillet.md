@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Fillet
-   Name/it   *Raccordo
-   MenuLocation   *Draft → Raccordo
-   Workbenches   *[Draft](Draft_Workbench/it.md)
-   Version   *0.19
-   SeeAlso   *[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
+- GuiCommand:/it
+   Name:Draft Fillet
+   Name/it:Raccordo
+   MenuLocation:Draft → Raccordo
+   Workbenches:[Draft](Draft_Workbench/it.md)
+   Version:0.19
+   SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
 ---
 
 # Draft Fillet/it
@@ -23,7 +23,7 @@ Lo strumento [Raccordo](Draft_Fillet/it.md) crea un raccordo, un angolo arrotond
 
 </div>
 
-<img alt="" src=images/Draft_Fillet_example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
 *Diversi raccordi e smussi creati tra due linee*
 
 ### Utilizzo
@@ -55,7 +55,7 @@ Lo strumento [Raccordo](Draft_Fillet/it.md) crea un raccordo, un angolo arrotond
 
 <div class="mw-translate-fuzzy">
 
-Note   *
+Note:
 
 -   Se il raggio è troppo grande in modo che l\'arco prodotto non sia tangente a una delle linee, l\'operazione non avrà un esito positivo.
 -   Al momento sono supportate solo singole linee; le [polilinee](Draft_Wire/it.md), ovvero linee con più punti, potrebbero non produrre il risultato desiderato.
@@ -65,9 +65,9 @@ Note   *
 
 ## Proprietà
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Dati
 
@@ -77,13 +77,13 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
--    **Start**   * (sola lettura) specifica il punto iniziale.
+-    **Start**: (sola lettura) specifica il punto iniziale.
 
--    **End**   * (sola lettura) specifica il punto finale.
+-    **End**: (sola lettura) specifica il punto finale.
 
--    **Length**   * (sola lettura) specifica la lunghezza dell\'intero segmento.
+-    **Length**: (sola lettura) specifica la lunghezza dell\'intero segmento.
 
--    **Fillet Radius**   * (sola lettura) raggio con cui è stato creato il raccordo.
+-    **Fillet Radius**: (sola lettura) raggio con cui è stato creato il raccordo.
 
 
 </div>
@@ -96,11 +96,11 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
--    **End Arrow**   * se è `True` verrà visualizzato un simbolo nell\'ultimo punto della linea, quindi può essere usata come una linea di annotazione.
+-    **End Arrow**: se è `True` verrà visualizzato un simbolo nell\'ultimo punto della linea, quindi può essere usata come una linea di annotazione.
 
--    **Arrow Size**   * specifica la dimensione del simbolo visualizzato alla fine della linea.
+-    **Arrow Size**: specifica la dimensione del simbolo visualizzato alla fine della linea.
 
--    **Arrow Type**   * specifica il tipo di simbolo visualizzato alla fine della linea, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\", or \"Tick-2\" (\"Punto\", \"Cerchio\", \"Freccia\", o \"Tratto\").
+-    **Arrow Type**: specifica il tipo di simbolo visualizzato alla fine della linea, che può essere \"Dot\", \"Circle\", \"Arrow\", o \"Tick\", or \"Tick-2\" (\"Punto\", \"Cerchio\", \"Freccia\", o \"Tratto\").
 
 
 </div>
@@ -111,7 +111,7 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -121,7 +121,7 @@ A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Fillet può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Fillet può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -135,7 +135,7 @@ fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
 -   Se `chamfer` è `True` crea un bordo dritto con la lunghezza di `radius`, invece di un bordo arrotondato.
 -   Se `delete` è `True` cancella le `line1` e `line2`, e lascia solo il nuovo oggetto.
 
-Esempio   *
+Esempio:
 
 
 ```python

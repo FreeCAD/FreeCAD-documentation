@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Snap Midpoint
-   Name/de   *Entwurf Fang Mittelpunkt
-   MenuLocation   *Entwurf → [Fangen](Draft_Snap/de.md) → Mittelpunkt
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Fangen](Draft_Snap/de.md), [Entwurf UmschaltenGitter](Draft_ToggleGrid/de.md)
+- GuiCommand:/de
+   Name:Draft Snap Midpoint
+   Name/de:Entwurf Fang Mittelpunkt
+   MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Mittelpunkt
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Fangen](Draft_Snap/de.md), [Entwurf UmschaltenGitter](Draft_ToggleGrid/de.md)
 ---
 
 # Draft Snap Midpoint/de

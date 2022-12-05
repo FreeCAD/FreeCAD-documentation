@@ -1,10 +1,10 @@
 # Robot CreateTrajectory/tr
 ---
-- GuiCommand   */tr
-   Name   *Robot CreateTrajectory
-   Name/tr   *Yörünge oluştur
-   Workbenches   *[Robot](Robot_Workbench/tr.md)
-   MenuLocation   *Robot → Yörünge oluştur---
+- GuiCommand:/tr
+   Name:Robot CreateTrajectory
+   Name/tr:Yörünge oluştur
+   Workbenches:[Robot](Robot_Workbench/tr.md)
+   MenuLocation:Robot → Yörünge oluştur---
 
 
 </div>

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */zh
-   Name   *Path Job
-   Name/zh   *刀路作业
-   Workbenches   *[Path](Path_Workbench.md)
-   MenuLocation   *Path → Job
-   Shortcut   ***P** **F**
-   SeeAlso   *
+- GuiCommand:/zh
+   Name:Path Job
+   Name/zh:刀路作业
+   Workbenches:[Path](Path_Workbench.md)
+   MenuLocation:Path → Job
+   Shortcut:**P** **F**
+   SeeAlso:
 ---
 
 # Path Job/zh

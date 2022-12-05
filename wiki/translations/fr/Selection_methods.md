@@ -21,9 +21,9 @@ Le troisième clic étend la sélection à son objet conteneur ([PartDesign Body
 
 ### Commandes par sélection 
 
--   Pour sélectionner tous les objets    * [Std Tout sélectionner](Std_SelectAll/fr.md).
--   Pour sélectionner en boîte plusieurs objets principaux    * [Std Sélection par boîte](Std_BoxSelection/fr.md).
--   Pour sélectionner plusieurs faces dans une boîte    * [Std Sélection d\'éléments par boîte](Std_BoxElementSelection/fr.md) ou [Part Sélection par boîte](Part_BoxSelection/fr.md).
+-   Pour sélectionner tous les objets : [Std Tout sélectionner](Std_SelectAll/fr.md).
+-   Pour sélectionner en boîte plusieurs objets principaux : [Std Sélection par boîte](Std_BoxSelection/fr.md).
+-   Pour sélectionner plusieurs faces dans une boîte : [Std Sélection d\'éléments par boîte](Std_BoxElementSelection/fr.md) ou [Part Sélection par boîte](Part_BoxSelection/fr.md).
 
 ## Fenêtre de sélection 
 
@@ -76,7 +76,7 @@ La commande `addSelectionGate` empêche l\'utilisateur de sélectionner des obje
 
 
 ```python
-Gui.Selection.addSelectionGate("SELECT Part   *   *Feature SUBELEMENT Edge")
+Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 ```
 
 Voir la [Documentation du code source](Source_documentation/fr.md) et la [Std Documentation des modules Python](Std_PythonHelp/fr.md) pour plus d\'aide sur l\'utilisation de ces outils.

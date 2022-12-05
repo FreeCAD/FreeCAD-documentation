@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Web OpenWebsite
-   Name/fr   *Web Ouvrir le site web
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso   *[Web Définir l'URL](Web_BrowserSetURL/fr.md)
+- GuiCommand:/fr
+   Name:Web OpenWebsite
+   Name/fr:Web Ouvrir le site web
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso:[Web Définir l'URL](Web_BrowserSetURL/fr.md)
 ---
 
 # Web OpenWebsite/fr
 
 ## Description
 
-La commande <img alt="" src=images/Web_OpenWebsite.svg  style="width   *24px;"> **Web Ouvrir le site web** ouvre le site de [FreeCAD](https   *//freecadweb.org) dans l\'onglet web en cours, ou dans un nouvel onglet si l\'onglet courant n\'est pas un onglet web.
+La commande <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **Web Ouvrir le site web** ouvre le site de [FreeCAD](https://freecadweb.org) dans l\'onglet web en cours, ou dans un nouvel onglet si l\'onglet courant n\'est pas un onglet web.
 
 ## Utilisation
 

@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2014-09-21
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/8/8d/GW_Dim.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/8/8d/GW_Dim.png ToolBar Icon]
 }}
 
 ## Descrizione
@@ -19,7 +19,7 @@ Consente all\'utente di creare un meccanismo Croce di Malta da zero. Per modific
 
 ## Utilizzo
 
-Questa macro crea le parti principali di un meccanismo a forma di Croce di Malta. Dipende da sei valori che devono essere impostati nel codice, leggere i commenti nello script. Le variabili sono   *
+Questa macro crea le parti principali di un meccanismo a forma di Croce di Malta. Dipende da sei valori che devono essere impostati nel codice, leggere i commenti nello script. Le variabili sono:
 
 +++
 | Input                        | Output                           |
@@ -34,7 +34,7 @@ Questa macro crea le parti principali di un meccanismo a forma di Croce di Malta
 
 ## Link
 
-[Macro Geneva Wheel GUI](Macro_Geneva_Wheel_GUI/it.md)   * Una interfaccia grafica che permette all\'utente di impostare i valori per creare un meccanismo Croce di Malta da zero.
+[Macro Geneva Wheel GUI](Macro_Geneva_Wheel_GUI/it.md): Una interfaccia grafica che permette all\'utente di impostare i valori per creare un meccanismo Croce di Malta da zero.
 
 ## Macro
 
@@ -44,7 +44,7 @@ ToolBar Icon ![](images/GW_Dim.png )
 
 
 {{MacroCode|code=
-#Creation of a Geneva Wheel with Parametric values  By   * Isaac Ayala (drei)
+#Creation of a Geneva Wheel with Parametric values  By: Isaac Ayala (drei)
 #This Macro creates the main parts of a Geneva Wheel Mechanism 
 
 #It depends on six values that must be altered in the following code
@@ -126,7 +126,7 @@ stopArc = Part.makeCylinder(y, h)
 stopArc.translate(Base.Vector(((y-(b/2)),0,0)))
 stopArc.rotate(Base.Vector(-c,0,0),Base.Vector(0,0,1),30)
 
-for i in range(6)   *
+for i in range(6):
     stopArc.rotate(Base.Vector(-c,0,0),Base.Vector(0,0,1),60)
     genevaWheel = genevaWheel.cut(stopArc)
 
@@ -138,7 +138,7 @@ slotRadius.translate(Base.Vector(-a,0,0))
 
 slot=slotLength.fuse(slotRadius)
 
-for i in range(6)   *
+for i in range(6):
     slot.rotate(Base.Vector(-c,0,0),Base.Vector(0,0,1),60)
     genevaWheel = genevaWheel.cut(slot)
 

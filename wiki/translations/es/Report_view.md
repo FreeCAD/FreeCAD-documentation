@@ -11,7 +11,7 @@ Ciertas propiedades de este panel, como el color del texto y si se muestra autom
 
 </div>
 
-<img alt="" src=images/FreeCAD_Report_view.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
 
@@ -20,7 +20,7 @@ Ciertas propiedades de este panel, como el color del texto y si se muestra autom
 ## Mensajes
 
 
-**Ver también   ***
+**Ver también:**
 
 [AIP de la consola](Console_API/es.md), y [Fundamentos de scripting de FreeCAD](FreeCAD_Scripting_Basics/es.md).
 
@@ -36,28 +36,28 @@ La vista de informe muestra mensajes de la clase interna de FreeCAD `Console`.
 
 Estas funciones pueden usarse desde la [consola de Python](Python_console/es.md) directamente, o desde [macros](Macros/es.md) y ambientes de trabajo personalizados.
 
-<img alt="" src=images/FreeCAD_Report_view_example.png  style="width   *800px;">
+<img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
 
 
 
-*Ejemplos de mensajes en la vista del informe   * un mensaje general, una advertencia, un error y un mensaje registrado.*
+*Ejemplos de mensajes en la vista del informe: un mensaje general, una advertencia, un error y un mensaje registrado.*
 
 ## Acciones
 
 
 <div class="mw-translate-fuzzy">
 
-Al hacer clic con el botón derecho del ratón en la vista del informe se muestran algunos comandos   *
+Al hacer clic con el botón derecho del ratón en la vista del informe se muestran algunos comandos:
 
--    **Opciones**   * registro, advertencia, error, redirigir la salida de Python, redirigir los errores de Python, ir al final.
+-    **Opciones**: registro, advertencia, error, redirigir la salida de Python, redirigir los errores de Python, ir al final.
 
--    **Copiar**   * almacena el texto seleccionado en el portapapeles para su posterior pegado; se desactiva si no hay nada seleccionado.
+-    **Copiar**: almacena el texto seleccionado en el portapapeles para su posterior pegado; se desactiva si no hay nada seleccionado.
 
--    **Seleccionar todo**   * selecciona todo el texto en la vista del informe.
+-    **Seleccionar todo**: selecciona todo el texto en la vista del informe.
 
--    **Borrar**   * borra todos los mensajes de la vista del informe. Esto es útil si quiere solucionar un problema con una herramienta que imprime mensajes en la vista del informe, y quiere estar seguro de que no hay mensajes antiguos de herramientas anteriores.
+-    **Borrar**: borra todos los mensajes de la vista del informe. Esto es útil si quiere solucionar un problema con una herramienta que imprime mensajes en la vista del informe, y quiere estar seguro de que no hay mensajes antiguos de herramientas anteriores.
 
--    **Guardar como**   * guarda los mensajes de la vista de informe en un archivo de texto.
+-    **Guardar como**: guarda los mensajes de la vista de informe en un archivo de texto.
 
 
 </div>

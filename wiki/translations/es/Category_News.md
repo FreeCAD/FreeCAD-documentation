@@ -1,8 +1,6 @@
 # Category:News/es
 Esta categoría contiene artículos con noticias y mensajes sobre FreeCAD.
 
-[Category   *Categories/es](Category   *Categories/es.md)
-
 ### Contents
 
 |     |     |     |

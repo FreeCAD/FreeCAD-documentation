@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Std FreezeViews
-   Name/ru   *Std FreezeViews
-   Empty   *1
-   MenuLocation   *Вид → Положения камеры → ...
-   Workbenches   *All
-   SeeAlso   *[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/ru.md)
+- GuiCommand:/ru
+   Name:Std FreezeViews
+   Name/ru:Std FreezeViews
+   Empty:1
+   MenuLocation:Вид → Положения камеры → ...
+   Workbenches:All
+   SeeAlso:[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/ru.md)
 ---
 
 # Std FreezeViews/ru
@@ -49,8 +49,8 @@ The **Load views\...** menu option loads frozen views from a file with the \*.ca
 
 ### Опции 
 
--   If the Restore views dialog box is displayed   * press **Esc** or the **No** button to abort the command.
--   If the file dialog box is displayed   * press **Esc** or the **Cancel** button to abort the command.
+-   If the Restore views dialog box is displayed: press **Esc** or the **No** button to abort the command.
+-   If the file dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
 
 ## Запомнить вид 
 
@@ -60,9 +60,9 @@ The **Freeze view** menu option saves the current camera settings (direction, zo
 
 ### Применение 
 
-1.  There are several ways to invoke this option   *
+1.  There are several ways to invoke this option:
     -   Select the **View → Freeze display → Freeze view** option from the menu.
-    -   Use the keyboard shortcut   * **Shift**+**F**.
+    -   Use the keyboard shortcut: **Shift**+**F**.
 2.  The new frozen view can be selected in the **View → Freeze display** submenu.
 
 ## Забыть все виды 
@@ -79,13 +79,13 @@ The **Clear views** menu option deletes all existing frozen views.
 
 ### Описание 
 
-For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered   * **Restore view 1** - **Restore view 50**.
+For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered: **Restore view 1** - **Restore view 50**.
 
 ### Применение 
 
-1.  There are several ways to invoke this option   *
+1.  There are several ways to invoke this option:
     -   Select the correct **View → Freeze display → Restore view** option from the menu.
-    -   For the first 9 frozen views   * use the keyboard shortcut   * **Ctrl**+**1** - **Ctrl**+**9**.
+    -   For the first 9 frozen views: use the keyboard shortcut: **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 <div class="mw-translate-fuzzy">

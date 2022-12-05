@@ -1,35 +1,35 @@
 ---
-- GuiCommand   */pl
-   Name   *Draft BezCurve
-   Name/pl   *Draft   * Krzywa Beziera
-   MenuLocation   *Drafting → Narzędzia Beziera → Krzywa Beziera
-   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut   ***B** **Z**
-   Version   *0.14
-   SeeAlso   *[CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa złożona](Draft_BSpline/pl.md)
+- GuiCommand:/pl
+   Name:Draft BezCurve
+   Name/pl:Draft: Krzywa Beziera
+   MenuLocation:Drafting → Narzędzia Beziera → Krzywa Beziera
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut:**B** **Z**
+   Version:0.14
+   SeeAlso:[CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa złożona](Draft_BSpline/pl.md)
 ---
 
 # Draft BezCurve/pl
 
 ## Description
 
-The <img alt="" src=images/Draft_BezCurve.svg  style="width   *24px;"> **Draft BezCurve** command creates a [Bézier curve](http   *//en.wikipedia.org/wiki/Bezier_curve) from several points.
+The <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft BezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) from several points.
 
 The command creates a single Bézier curve with a **Degree** that is `number_of_points - 1`. It can be transformed into a piecewise Bézier curve by reducing this property.
 
 The Draft BezCurve and the [Draft CubicBezCurve](Draft_CubicBezCurve.md) commands use **control points** to define the position and curvature of the spline. The [Draft BSpline](Draft_BSpline.md) command, on the other hand, specifies the **exact points** through which the curve will pass.
 
-<img alt="" src=images/Draft_BezCurve_Example.png  style="width   *400px;"> 
+<img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
 *Bézier curve defined by multiple points*
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_BezCurve.svg" width=16px> [Draft BezCurve](Draft_BezCurve.md)** button.
     -   Select the **Drafting → Bézier tools → <img src="images/Draft_BezCurve.svg" width=16px> Bézier curve** option from the menu.
-    -   Use the keyboard shortcut   * **B** then **Z**. <small>(v0.20)</small> 
+    -   Use the keyboard shortcut: **B** then **Z**. <small>(v0.20)</small> 
 2.  The **Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
@@ -59,54 +59,54 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft BezCurve object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft BezCurve object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the area of the face of the curve. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+-    **Area|Area**: (read-only) specifies the area of the face of the curve. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
 
--    **Closed|Bool**   * specifies if the curve is closed or not. If the curve is initially open this value is `False`, setting it to `True` will draw a segment to close the curve. If the curve is initially closed this value is `True`, setting it to `False` will remove the last segment and make the curve open.
+-    **Closed|Bool**: specifies if the curve is closed or not. If the curve is initially open this value is `False`, setting it to `True` will draw a segment to close the curve. If the curve is initially closed this value is `True`, setting it to `False` will remove the last segment and make the curve open.
 
--    **Continuity|IntegerList**   * (read-only) specifies the continuity of the curve.
+-    **Continuity|IntegerList**: (read-only) specifies the continuity of the curve.
 
--    **Degree|Integer**   * specifies the degree of the curve.
+-    **Degree|Integer**: specifies the degree of the curve.
 
--    **Length|Length**   * (read-only) specifies the total length of the curve.
+-    **Length|Length**: (read-only) specifies the total length of the curve.
 
--    **Make Face|Bool**   * specifies if the curve makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the curve does not self-intersect.
+-    **Make Face|Bool**: specifies if the curve makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the curve does not self-intersect.
 
--    **Points|VectorList**   * specifies the control points of the curve in its local coordinate system.
+-    **Points|VectorList**: specifies the control points of the curve in its local coordinate system.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Arrow Size|Length**   * specifies the size of the symbol displayed at the end of the curve.
+-    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the curve.
 
--    **Arrow Type|Enumeration**   * specifies the type of symbol displayed at the end of the curve, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the curve, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **End Arrow|Bool**   * specifies whether to show a symbol at the end of the curve, so it can be used as an annotation line.
+-    **End Arrow|Bool**: specifies whether to show a symbol at the end of the curve, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed curve. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed curve. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To create a Draft Line use the `make_bezcurve` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeBezCurve` method.
 
@@ -123,7 +123,7 @@ bezcurve = make_bezcurve(Part.Wire, closed=False, placement=None, face=None, sup
 -   If `placement` is `None` the curve is created at the origin.
 -   If `face` is `True`, and the curve is closed, the curve will make a face, that is, it will appear filled.
 
-Example   *
+Example:
 
 
 ```python

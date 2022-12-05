@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Arch Add
-   Name/fr   *Arch Ajouter
-   MenuLocation   *Arch → Ajouter un composant
-   Workbenches   *[Arch](Arch_Workbench/fr.md)
-   SeeAlso   *[Arch Soustraire](Arch_Remove/fr.md)
+- GuiCommand:/fr
+   Name:Arch Add
+   Name/fr:Arch Ajouter
+   MenuLocation:Arch → Ajouter un composant
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Arch Soustraire](Arch_Remove/fr.md)
 ---
 
 # Arch Add/fr
 
 ## Description
 
-L\'outil Ajouter vous permet de faire 4 types d\'opérations    *
+L\'outil Ajouter vous permet de faire 4 types d\'opérations :
 
 -   Ajoutez des objets basés sur [Part](Part_Workbench/fr.md) à un composant Arch, tels qu\'un **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou une **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**. Ces objets font alors partie du composant Arch et vous permettent de modifier sa forme tout en conservant ses propriétés de base telles que la largeur et la hauteur
 -   Ajouter des composants Arch, tels qu\'un **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou une **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**, à un objet Arch basé sur un groupe tel que des **<img src="images/Arch_Floor.svg" width=16px> [Arch Niveaux](Arch_Floor/fr.md)**.
@@ -22,7 +22,7 @@ L\'outil Ajouter vous permet de faire 4 types d\'opérations    *
 
 La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;"> 
+<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *Dans l'image ci-dessus, une boîte est ajoutée à un mur.*
 
 ## Utilisation
@@ -33,13 +33,13 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" wi
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Ajouter peut être utilisé dans une [macro](Macros/fr.md) ou dans la console [Python](Python/fr.md) en utilisant la fonction    *
+L\'outil Ajouter peut être utilisé dans une [macro](Macros/fr.md) ou dans la console [Python](Python/fr.md) en utilisant la fonction :
 
-   *   
+:   
     
 ```python
     addComponents(objectsList, host)
@@ -51,10 +51,10 @@ L\'outil Ajouter peut être utilisé dans une [macro](Macros/fr.md) ou dans la c
 
 
 
-   *   L\'extrait de code ci-dessus ajoute les objets donnés dans `objectsList` à l\'objet `host` donné.
-   *   **Note   *** `objectsList` peut être un objet unique ou une liste d\'objets.
+:   L\'extrait de code ci-dessus ajoute les objets donnés dans `objectsList` à l\'objet `host` donné.
+:   **Note:** `objectsList` peut être un objet unique ou une liste d\'objets.
 
-Exemple   *
+Exemple:
 
 
 ```python

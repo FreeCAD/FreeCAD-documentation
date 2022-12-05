@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher Circles
-   Name/pl   *Szkicownik   * Komponent utwórz okrąg
-   Icon   *Sketcher_CompCreateCircle.png
-   MenuLocation   *''(wyłącznie pasek narzędzi)''
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+- GuiCommand:/pl
+   Name:Sketcher Circles
+   Name/pl:Szkicownik: Komponent utwórz okrąg
+   Icon:Sketcher_CompCreateCircle.png
+   MenuLocation:''(wyłącznie pasek narzędzi)''
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompCreateCircle/pl
@@ -15,8 +15,8 @@
 
 ## Rodzaje okręgów 
 
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Punkt środkowy i na obwodzie](Sketcher_CreateCircle/pl.md)   * Rysuje okrąg, wybierając dwa punkty   * środek i punkt wzdłuż promienia.
--   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Trzy punkty na obwodzie](Sketcher_Create3PointCircle/pl.md)   * Rysuje okrąg, wybierając trzy punkty na jego konturze.
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Punkt środkowy i na obwodzie](Sketcher_CreateCircle/pl.md): Rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż promienia.
+-   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Trzy punkty na obwodzie](Sketcher_Create3PointCircle/pl.md): Rysuje okrąg, wybierając trzy punkty na jego konturze.
 
 
 

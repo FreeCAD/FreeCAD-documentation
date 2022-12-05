@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Std_Refresh
-   Name/fr   *Std Rafraîchir
-   MenuLocation   *Edition → Rafraîchir
-   Workbenches   *Tous
-   Shortcut   ***F5**
+- GuiCommand:/fr
+   Name:Std_Refresh
+   Name/fr:Std Rafraîchir
+   MenuLocation:Edition → Rafraîchir
+   Workbenches:Tous
+   Shortcut:**F5**
 ---
 
 # Std Refresh/fr
@@ -15,7 +15,7 @@ La commande **Std Rafraîchir** recalcule le document actif. La commande est dé
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande Rafraîchir    *
+1.  Il existe plusieurs façons d\'appeler la commande Rafraîchir :
     -   Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Rafraîchir](Std_Refresh/fr.md)** dans la barre d\'outils
     -   Sélectionnez l\'option **Edition → <img src="images/_Std_Refresh.svg" width=16px> Rafraîchir** dans le menu.
     -   Appuyer sur le raccourci clavier **F5**
@@ -27,12 +27,12 @@ La commande **Std Rafraîchir** recalcule le document actif. La commande est dé
 
 ## Remarques
 
--   Pour une macro qui recalculera le document actif, voir    * [Macro ForceRecompute](Macro_ForceRecompute/fr.md).
+-   Pour une macro qui recalculera le document actif, voir : [Macro ForceRecompute](Macro_ForceRecompute/fr.md).
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 

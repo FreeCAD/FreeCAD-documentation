@@ -1,8 +1,6 @@
 # Category:Documentation/hu
 This category groups all of the FreeCAD documentation
 
-[Category   *Categories/hu](Category   *Categories/hu.md)
-
 ### Contents
 
 |     |     |     |

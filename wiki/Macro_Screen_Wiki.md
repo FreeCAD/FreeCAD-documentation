@@ -7,7 +7,7 @@
 |Version=00.05
 |Date=2021/05/21
 |FCVersion=0.19
-|Download=Download the [https   *//wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] image and paste it in the same directory of the macro
+|Download=Download the [https://wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] image and paste it in the same directory of the macro
 |SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md)<br/><img src="images/Snip.png" width=24px> [Macro Snip](Macro_Snip.md)
 }}
 
@@ -15,7 +15,7 @@
 
 This macro allows the user save the [3D view](3D_view.md) in a desired format. The 3D view or the full 3D window of FreeCAD takes the desired dimensions. A rotation of the selected object or of the 3D view is possible to give a rotation angle the number of images is calculated automatically it is possible to give a departure angle and an arrival angle. You must use another Gimp example program to assemble the images and create the animated file.
 
- {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/4fdc5b2db7ed3ed062a2575637e035f728b2e40d/Macro_Screen_Wiki.FCMacro}}
+ {{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/4fdc5b2db7ed3ed062a2575637e035f728b2e40d/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png ) 
 
@@ -85,18 +85,18 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 #### Format image 
 
 1.  
-    {{SpinBox|600 px}}Length (Default   * 600 px)
+    {{SpinBox|600 px}}Length (Default: 600 px)
 
 2.  
-    {{SpinBox|400 px}}Height (Default   * 400 px)
+    {{SpinBox|400 px}}Height (Default: 400 px)
 
 #### Window
 
 1.  
-    {{RadioButton|Window FC}}   * The complete FreeCAD window
+    {{RadioButton|Window FC}}: The complete FreeCAD window
 
 2.  
-    {{RadioButton|TRUE|Screen 3D}}   * The 3D view of FreeCAD
+    {{RadioButton|TRUE|Screen 3D}}: The 3D view of FreeCAD
 
 #### BackGround Color 
 
@@ -118,114 +118,114 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 #### Command
 
 1.  
-    **Set Screen**   * Docked window
+    **Set Screen**: Docked window
 
 2.  
-    **Tile Screen**   * Fly window
+    **Tile Screen**: Fly window
 
 3.  
-    **Save Image**   * Save the image, for ex   * **imageBox_000.png** (the \_000 is incremented with each new image)
+    **Save Image**: Save the image, for ex: **imageBox_000.png** (the \_000 is incremented with each new image)
 
 4.  
-    **Follow**   * After saving the first image, press this button to save the next image with the same name. The images saved is incremented, for ex   * **imageBox_001.png**, **imageBox_002.png**, **imageBox_003.png**, ![](images/Macro_Screen_Wiki_ToolBar_04_4b.png ) etc\...
+    **Follow**: After saving the first image, press this button to save the next image with the same name. The images saved is incremented, for ex: **imageBox_001.png**, **imageBox_002.png**, **imageBox_003.png**, ![](images/Macro_Screen_Wiki_ToolBar_04_4b.png ) etc\...
 
 5.  
-    **New Image**   * Save one new image without change the counter
+    **New Image**: Save one new image without change the counter
 
 6.  
-    **Rotation**   * Access to the rotation menu (the title of the section \"Image options\" change to \"Rotation options\"
+    **Rotation**: Access to the rotation menu (the title of the section \"Image options\" change to \"Rotation options\"
 
 7.  
-    **Quit**   * \_\_\_Screen_Wiki end\_\_\_\_\_\_\_\_\_\_
+    **Quit**: \_\_\_Screen_Wiki end\_\_\_\_\_\_\_\_\_\_
 
 8.  
-    **ToolBar**   * Reduce the image window in a toolBar, the **Rotation** option is not available in this mode
+    **ToolBar**: Reduce the image window in a toolBar, the **Rotation** option is not available in this mode
 
     1.  ![](images/Macro_Screen_Wiki_ToolBar_01.png )![](images/Macro_Screen_Wiki_ToolBar_02.png )![](images/Macro_Screen_Wiki_ToolBar_03.png )![](images/Macro_Screen_Wiki_ToolBar_04.png )
-    2.  The button **[[Image   *Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop Y/N the mini toolBar ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
+    2.  The button **[[Image:Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop Y/N the mini toolBar ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
 
 ### Rotation options 
 
 #### Rotation on 
 
 1.  
-    {{RadioButton|3D View}}   * The complete view is rotated
+    {{RadioButton|3D View}}: The complete view is rotated
 
 2.  
-    {{RadioButton|TRUE|Object}}   * The object selected is rotated
+    {{RadioButton|TRUE|Object}}: The object selected is rotated
 
 #### Axis
 
-   *   
-    {{RadioButton|TRUE| {{ColoredText||red|'''X'''}}}}   * Rotation on X axis
+:   
+    {{RadioButton|TRUE| {{ColoredText||red|'''X'''}}}}: Rotation on X axis
 
-   *   
-    {{RadioButton| {{ColoredText||Green|'''Y'''}}}}   * Rotation on Y axis
+:   
+    {{RadioButton| {{ColoredText||Green|'''Y'''}}}}: Rotation on Y axis
 
-   *   
-    {{RadioButton| {{ColoredText||Blue|'''Z'''}}}}   * Rotation on Z axis
+:   
+    {{RadioButton| {{ColoredText||Blue|'''Z'''}}}}: Rotation on Z axis
 
-   *   
-    {{RadioButton| {{ColoredText||#995500|'''D'''}}}}   * Rotation on Direction.
+:   
+    {{RadioButton| {{ColoredText||#995500|'''D'''}}}}: Rotation on Direction.
 
-       ** To use this option   * select first the object, then afterwards select the wire guideline. If {{RadioButton|TRUE|{{ColoredText||#995500|'''D'''}}}} is checked and no wire is selected the direction is `Vector(0, 0, 0)`
+      - To use this option: select first the object, then afterwards select the wire guideline. If {{RadioButton|TRUE|{{ColoredText||#995500|'''D'''}}}} is checked and no wire is selected the direction is `Vector(0, 0, 0)`
 
 #### Point Rotation BoundBox 
 
-1.  Object   * Rotation on the BoundBox center of the object selected
-2.  Sub Object   * Rotation on the BoundBox center of the sub object selected
+1.  Object: Rotation on the BoundBox center of the object selected
+2.  Sub Object: Rotation on the BoundBox center of the sub object selected
 
 #### Angles
 
 -   Angle Rotation
 
 1.  
-    **-**   * Decrease the value by 10 degrees
+    **-**: Decrease the value by 10 degrees
 
 2.  
-    {{SpinBox|0 Degrees}}   * Value
+    {{SpinBox|0 Degrees}}: Value
 
 3.  
-    **+**   * Increase the value by 10 degrees
+    **+**: Increase the value by 10 degrees
 
--   Number images   * The number image saved with the values given is calculated (approximation + 1)
+-   Number images: The number image saved with the values given is calculated (approximation + 1)
 -   Angle Begin Rotation
 
 1.  
-    **-**   * Decrease the value by 10 degrees
+    **-**: Decrease the value by 10 degrees
 
 2.  
-    {{SpinBox|0 Degrees}}   * Value   * Angle of the starting rotation
+    {{SpinBox|0 Degrees}}: Value: Angle of the starting rotation
 
 3.  
-    **+**   * Increase the value by 10 degrees
+    **+**: Increase the value by 10 degrees
 
 -   Degrees Angle End Rotation
 
 1.  
-    **-**   * Decrease the value by 10 degrees
+    **-**: Decrease the value by 10 degrees
 
 2.  
-    {{SpinBox|360 Degrees}}   * Value   * Angle of the end rotation
+    {{SpinBox|360 Degrees}}: Value: Angle of the end rotation
 
 3.  
-    **+**   * Increase the value by 10 degrees
+    **+**: Increase the value by 10 degrees
 
 #### Command 
 
 -   Delay between 2 images
 
 1.  
-    {{SpinBox|0,00 Delay second}}   * If there is a problem saving images due to speed, then add a delay of X seconds.
+    {{SpinBox|0,00 Delay second}}: If there is a problem saving images due to speed, then add a delay of X seconds.
 
 2.  
-    {{CheckBox|Reverse}}   * Checked, this option reverses the rotation 3D view or Object
+    {{CheckBox|Reverse}}: Checked, this option reverses the rotation 3D view or Object
 
 3.  
-    {{CheckBox|TRUE|Original position}}   * This option restores the original position of the 3D View or the Object rotated. Instead fo the 3D view or the Object staying in the last position of the rotation.
+    {{CheckBox|TRUE|Original position}}: This option restores the original position of the 3D View or the Object rotated. Instead fo the 3D view or the Object staying in the last position of the rotation.
 
 4.  
-    **Save the animation**   * Save the animation
+    **Save the animation**: Save the animation
 
 ## Examples
 
@@ -245,13 +245,13 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 
 
 
-*Animation mode   * Object selected and direction BoundBox center Object.<br/>The images must be assembled with a 3rd party application to create an animated .gif<br/>such as [https   *//daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] or [https   *//www.screentogif.com ScreenToGif]*
+*Animation mode: Object selected and direction BoundBox center Object.<br/>The images must be assembled with a 3rd party application to create an animated .gif<br/>such as [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] or [https://www.screentogif.com ScreenToGif]*
 
  ![](images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif ) 
 
 
 
-*Animation mode   * Object Direction SubObject selected.<br/>The images must be assembled with a 3rd party application that creates an animated .gif<br/>such as [https   *//daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] or [https   *//www.screentogif.com ScreenToGif]*
+*Animation mode: Object Direction SubObject selected.<br/>The images must be assembled with a 3rd party application that creates an animated .gif<br/>such as [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] or [https://www.screentogif.com ScreenToGif]*
 
  ![](images/Macro_Screen_Wiki_07.png ) 
 
@@ -261,23 +261,23 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 
 ## Versions
 
-Version=00.05   * 2021/05/21    * adding code in Save file section for Linux Mint QFileDialog ignore the extension. Only the Path+name is displayed
+Version=00.05: 2021/05/21 : adding code in Save file section for Linux Mint QFileDialog ignore the extension. Only the Path+name is displayed
 
  
 ```python
 global switchQFileDialogMint
                 ####  mint
-                if switchQFileDialogMint == True   *   #
-                    Filter = Filter[Filter.find(".")   *Filter.find(")")]
+                if switchQFileDialogMint == True:   #
+                    Filter = Filter[Filter.find("."):Filter.find(")")]
                     SaveName = SaveName + Filter
                 ####  mint
-``` Version=00.04   * 2021/01/13    * adding mini ToolBar
+``` Version=00.04: 2021/01/13 : adding mini ToolBar
 
-Version=0.03   * 2020/10/30    * create a tool bar for the image and new button for unique image
+Version=0.03: 2020/10/30 : create a tool bar for the image and new button for unique image
 
-Version=0.02   * 2020/05/04    * correct bug color button (self.PB_01_Color obsolete)
+Version=0.02: 2020/05/04 : correct bug color button (self.PB_01_Color obsolete)
 
-Version=0.01   * 2020/03/21
+Version=0.01: 2020/03/21
 
 
 

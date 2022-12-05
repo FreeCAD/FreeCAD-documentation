@@ -6,7 +6,7 @@ La herramienta Espaciado personalizado permite al usuario crear una distribució
 
 <div class="mw-translate-fuzzy">
 
-Por ejemplo   * valores de entrada dados al cuadro de diálogo de Rebar Distribuiton de refuerzo   *
+Por ejemplo: valores de entrada dados al cuadro de diálogo de Rebar Distribuiton de refuerzo:
 
 
 </div>
@@ -16,19 +16,12 @@ Por ejemplo   * valores de entrada dados al cuadro de diálogo de Rebar Distribu
 
 <div class="mw-translate-fuzzy">
 
-La salida se genera mediante el cuadro de diálogo Distribución de barras de refuerzo cuando el usuario hace clic en el botón **OK**   *
+La salida se genera mediante el cuadro de diálogo Distribución de barras de refuerzo cuando el usuario hace clic en el botón **OK**:
 
 
 </div>
 
-<img alt="" src=images/RebarDistribution.png  style="width   *800px;">
-
- 
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Reinforcement](Category_Reinforcement.md)
+<img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Sketcher B-splines
-   Icon   *Sketcher_CompCreateBSpline.png
-   MenuLocation   *
-   Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   Version   *0.17
+- GuiCommand:
+   Name:Sketcher B-splines
+   Icon:Sketcher_CompCreateBSpline.png
+   MenuLocation:
+   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Version:0.17
 ---
 
 # Sketcher CompCreateBSpline/pl
@@ -15,8 +15,8 @@
 
 ## Types of B-Splines 
 
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width   *32px;"> [B-spline](Sketcher_CreateBSpline.md)   * Draws a B-Spline by its control points.
--   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width   *32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)   * Draws a periodic, closed B-Spline by its control points.
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline.md): Draws a B-Spline by its control points.
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic, closed B-Spline by its control points.
 
 
 

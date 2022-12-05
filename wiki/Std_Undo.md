@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std Undo
-   MenuLocation   *Edit → Undo
-   Workbenches   *All
-   Shortcut   ***Ctrl**+**Z**
-   SeeAlso   *[Std Redo](Std_Redo.md)
+- GuiCommand:
+   Name:Std Undo
+   MenuLocation:Edit → Undo
+   Workbenches:All
+   Shortcut:**Ctrl**+**Z**
+   SeeAlso:[Std Redo](Std_Redo.md)
 ---
 
 # Std Undo
@@ -15,10 +15,10 @@ The **Std Undo** command undoes the last action.
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_Undo.svg" width=16px> [Std Undo](Std_Undo.md)** button.
     -   Select the **Edit → <img src="images/Std_Undo.svg" width=16px> Undo** option from the menu.
-    -   Use the keyboard shortcut   * **Ctrl**+**Z**.
+    -   Use the keyboard shortcut: **Ctrl**+**Z**.
 
 ## Options
 
@@ -32,7 +32,7 @@ The **Std Undo** command undoes the last action.
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

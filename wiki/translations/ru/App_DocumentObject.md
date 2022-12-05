@@ -3,9 +3,9 @@
 
 ## Введение
 
-<img alt="" src=images/Px.svg  style="width   *32px;">
+<img alt="" src=images/Px.svg  style="width:32px;">
 
-Объект [App DocumentObject](App_DocumentObject/ru.md), или формально `App   *   *DocumentObject`, это базовый класс всех классов объектов, поддерживаемых в документе.
+Объект [App DocumentObject](App_DocumentObject/ru.md), или формально `App::DocumentObject`, это базовый класс всех классов объектов, поддерживаемых в документе.
 
 
 <div class="mw-translate-fuzzy">
@@ -19,9 +19,9 @@
 
 
 
-*Tree view showing different objects in the document. Each of them is a "document object", ultimately derived from the base `App   *   *DocumentObject* class.`
+*Tree view showing different objects in the document. Each of them is a "document object", ultimately derived from the base `App::DocumentObject* class.`
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
@@ -31,7 +31,7 @@
 
 The [App DocumentObject](App_DocumentObject.md) is an internal class, so it cannot be created from the graphical interface, nor is it meant to be used by itself. It just defines the basic behavior and properties of objects in the program.
 
-Some of the most important DocumentObjects are the following   *
+Some of the most important DocumentObjects are the following:
 
 -   The [App FeaturePython](App_FeaturePython.md) class, an empty object that can be used for different purposes, depending on the added properties.
 -   The [App GeoFeature](App_GeoFeature.md) class, the base object of all geometrical objects, that is, of objects that have a [Placement](Placement.md) property that defines their position in the [3D view](3D_view.md).
@@ -44,20 +44,20 @@ See [Property](Property.md) for all property types that scripted objects can hav
 
 These are the basic properties that essentially all objects have. These properties can be accessed from the [Python console](Python_console.md).
 
--    **Label|String**   * the user editable name of this object, it is an arbitrary UTF8 string. By default, it is the same as the `Name`.
+-    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string. By default, it is the same as the `Name`.
 
--    **Label2|String**   * a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
+-    **Label2|String**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
 
--    **Expression Engine|ExpressionEngine**   * a list of expressions.
+-    **Expression Engine|ExpressionEngine**: a list of expressions.
 
--    **Visibility|Bool**   * whether to display the object or not.
+-    **Visibility|Bool**: whether to display the object or not.
 
 For derived objects, only **Label** will be listed in the [property editor](property_editor.md) by default. The other properties will be hidden.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
 
@@ -70,7 +70,7 @@ A DocumentObject is created with the `addObject()` method of the document. Howev
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App   *   *DocumentObject", "Name")
+obj = App.ActiveDocument.addObject("App::DocumentObject", "Name")
 obj.Label = "Custom label"
 ```
 

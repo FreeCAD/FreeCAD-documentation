@@ -8,7 +8,7 @@
 |Version=1.0
 |Date=2014-05-04
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/9/9d/Macro_ArrayCopy.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_ArrayCopy.png ToolBar Icon]
 }}
 
 ## Deskriptivní
@@ -27,30 +27,30 @@ ToolBar Icon ![](images/Macro_ArrayCopy.png )
 import FreeCAD, FreeCADGui, Part
 from PySide import QtGui,QtCore
  
-def proceed()   *
-    try   *
+def proceed():
+    try:
         u = (int(l1.text()),float(l2.text()))   
         v = (int(l3.text()),float(l4.text()))
-    except   *
+    except:
         FreeCAD.Console.PrintError("Wrong input! Only numbers allowed...\n")
     sel = FreeCADGui.Selection.getSelection()
-    if sel   *
+    if sel:
         sel = sel[0]
         name = sel.Name   
         shape = sel.Shape
-        for column in range(u[0])   *
-            for row in range(v[0])   *
-                if (column != 0) or (row != 0)   *
+        for column in range(u[0]):
+            for row in range(v[0]):
+                if (column != 0) or (row != 0):
                     delta = FreeCAD.Vector(column*u[1],row*v[1],0)   
                     newshape = sel.Shape.copy()
                     newshape.translate(delta)
-                    newobject = FreeCAD.ActiveDocument.addObject("Part   *   *Feature",name)
+                    newobject = FreeCAD.ActiveDocument.addObject("Part::Feature",name)
                     newobject.Shape = newshape
-    else   *
-        FreeCAD.Console.PrintError("Error   * One object must be selected")
+    else:
+        FreeCAD.Console.PrintError("Error: One object must be selected")
     hide()
  
-def hide()   *
+def hide():
     dialog.hide()
  
 dialog = QtGui.QDialog()

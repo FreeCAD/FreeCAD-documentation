@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Ein <img alt="" src=images/Feature.svg  style="width   *32px;"> [Anwendung FormelementPython](App_FeaturePython/de.md) Objekt oder formal ein `App   *   *FeaturePython`, ist eine einfache Instanz des [Anwendung DokumentObjekt](App_DocumentObject/de.md) in [Python](Python/de.md).
+Ein <img alt="" src=images/Feature.svg  style="width:32px;"> [Anwendung FormelementPython](App_FeaturePython/de.md) Objekt oder formal ein `App::FeaturePython`, ist eine einfache Instanz des [Anwendung DokumentObjekt](App_DocumentObject/de.md) in [Python](Python/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -13,7 +13,7 @@ Hierbei handelt es sich um ein einfaches Objekt, das standardmäßig nicht viele
 
 </div>
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
@@ -23,7 +23,7 @@ Hierbei handelt es sich um ein einfaches Objekt, das standardmäßig nicht viele
 
 Die [Anwendung FormelementPython](App_FeaturePython/de.md) ist ein internes Objekt, so dass es nicht über die grafische Oberfläche erstellt werden kann. Es ist dazu gedacht, durch Klassen unterteilt zu werden, die verschiedene Arten von Daten verarbeiten.
 
-Beispielsweise , die [Draft Text](Draft_Text/de.md), [Draft Abmessung](Draft_Dimension/de.md), und [Arbeitsebenen proxy](Draft_WorkingPlaneProxy/de.md) Elemente des Arbeitsbereichs [Draft](Draft_Workbench/de.md) sind `App   *   *FeaturePython`-Objekte mit einem benutzerdefinierten Symbol und zusätzlichen Eigenschaften. Sie enthalten Daten, aber keine tatsächliche [Part TopoForm](Part_TopoShape/de.md).
+Beispielsweise , die [Draft Text](Draft_Text/de.md), [Draft Abmessung](Draft_Dimension/de.md), und [Arbeitsebenen proxy](Draft_WorkingPlaneProxy/de.md) Elemente des Arbeitsbereichs [Draft](Draft_Workbench/de.md) sind `App::FeaturePython`-Objekte mit einem benutzerdefinierten Symbol und zusätzlichen Eigenschaften. Sie enthalten Daten, aber keine tatsächliche [Part TopoForm](Part_TopoShape/de.md).
 
 Wenn das gewünschte Objekt eine Platzierung, eine Form, einen Anhang oder andere komplexe Eigenschaften haben soll, ist es besser, eine der komplexeren Klassen zu erstellen, zum Beispiel [App GeoFeature](App_GeoFeature/de.md), [Part Formelement](Part_Feature/de.md), oder [Part Teil2DObjekt](Part_Part2DObject/de.md).
 
@@ -34,7 +34,7 @@ Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete
 
 <div class="mw-translate-fuzzy">
 
-Eine [Anwendung FormelementPython](App_FeaturePython/de.md) (`App   *   *DocumentObjectGroup` Klasse) stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App   *   *DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
+Eine [Anwendung FormelementPython](App_FeaturePython/de.md) (`App::DocumentObjectGroup` Klasse) stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
 
 </div>
@@ -46,15 +46,15 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](Property_editor/de.md) zur Ve
 
 {{TitleProperty|Basis}}
 
--    **Proxy|PythonObject|Hidden**   * a custom class associated with this object.
+-    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
 
--    **Label|String**   * der Nutzer editierbare Name dieses Objekts, es ist eine arbitrary UTF8 Zeichenfolge.
+-    **Label|String**: der Nutzer editierbare Name dieses Objekts, es ist eine arbitrary UTF8 Zeichenfolge.
 
--    **Label2|String**   * eine längere, vom Benutzer bearbeitbare Beschreibung dieses Objekts, es ist eine beliebige UTF8 Zeichenkette, die Zeilenumbrüche enthalten kann. Standardmäßig ist es eine leere Zeichenkette {{value|""}}.
+-    **Label2|String**: eine längere, vom Benutzer bearbeitbare Beschreibung dieses Objekts, es ist eine beliebige UTF8 Zeichenkette, die Zeilenumbrüche enthalten kann. Standardmäßig ist es eine leere Zeichenkette {{value|""}}.
 
--    **Proxy|PythonObject**   * eine benutzerdefinierte Klasse, die mit diesem Objekt verknüpft ist.
+-    **Proxy|PythonObject**: eine benutzerdefinierte Klasse, die mit diesem Objekt verknüpft ist.
 
--    **Visibility|Bool|Hidden**   * ob das Objekt angezeigt werden soll oder nicht.
+-    **Visibility|Bool|Hidden**: ob das Objekt angezeigt werden soll oder nicht.
 
 ### Ansicht
 
@@ -64,7 +64,7 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](Property_editor/de.md) zur Ve
 
 <div class="mw-translate-fuzzy">
 
--    **Proxy|PythonObject|Hidden**   * eine benutzerdefinierte View Provider Klasse, die diesem Objekt zugeordnet ist. Diese Eigenschaft existiert nur für die Klassen, die in der Lage sind, eine benutzerdefinierte Klasse zuzuordnen.
+-    **Proxy|PythonObject|Hidden**: eine benutzerdefinierte View Provider Klasse, die diesem Objekt zugeordnet ist. Diese Eigenschaft existiert nur für die Klassen, die in der Lage sind, eine benutzerdefinierte Klasse zuzuordnen.
 
 
 </div>
@@ -72,23 +72,23 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](Property_editor/de.md) zur Ve
 
 {{TitleProperty|Anzeigeoptionen}}
 
--    **Anzeigemodus|Aufzählung**   * sie ist standardmäßig leer.
+-    **Anzeigemodus|Aufzählung**: sie ist standardmäßig leer.
 
--    **Anzeige im Baum|Bool**   * die Standardeinstellung ist `True`, in diesem Fall erscheint das Objekt in der [Baumansicht](Tree_view/de.md); andernfalls wird das Objekt in der Baumansicht ausgeblendet. Sobald ein Objekt in der Baumansicht unsichtbar ist, kannst du es wieder sehen, indem du das Kontextmenü über dem Namen des Dokuments öffnest (Rechtsklick) und {{CheckBox|TRUE|Anzeige ausgeblendete Elemente}} wählst. Dann kann das ausgeblendete Element ausgewählt und **Im Baum anzeigen** wieder zu `True` zurückgeschaltet werden.
+-    **Anzeige im Baum|Bool**: die Standardeinstellung ist `True`, in diesem Fall erscheint das Objekt in der [Baumansicht](Tree_view/de.md); andernfalls wird das Objekt in der Baumansicht ausgeblendet. Sobald ein Objekt in der Baumansicht unsichtbar ist, kannst du es wieder sehen, indem du das Kontextmenü über dem Namen des Dokuments öffnest (Rechtsklick) und {{CheckBox|TRUE|Anzeige ausgeblendete Elemente}} wählst. Dann kann das ausgeblendete Element ausgewählt und **Im Baum anzeigen** wieder zu `True` zurückgeschaltet werden.
 
--    **Sichtbarkeit|Bool**   * auf `True` voreingestellt. In diesem Fall ist das Objekt in der [3D Ansicht](3D_view/de.md) sichtbar, wenn es eine [Form](Part_TopoShape/de.md) hat, andernfalls ist es unsichtbar. Standardmäßig kann diese Eigenschaft ein- und ausgeschaltet werden, indem das Objekt ausgewählt und die **Leertaste** gedrückt wird.
+-    **Sichtbarkeit|Bool**: auf `True` voreingestellt. In diesem Fall ist das Objekt in der [3D Ansicht](3D_view/de.md) sichtbar, wenn es eine [Form](Part_TopoShape/de.md) hat, andernfalls ist es unsichtbar. Standardmäßig kann diese Eigenschaft ein- und ausgeschaltet werden, indem das Objekt ausgewählt und die **Leertaste** gedrückt wird.
 
 
 {{TitleProperty|Auswahl}}
 
--    **Oben, wenn ausgewählt|Aufzählung**   * Sie steuert die Art und Weise, wie die Auswahl in der [3D Ansicht](3D_view/de.md) erfolgt, wenn das Objekt eine [Form](Part_TopoShape/de.md) hat und es viele Objekte gibt, die teilweise von anderen abgedeckt werden. Die Standardeinstellung ist {{value|Deaktiviert}}, was bedeutet, dass keine besondere Hervorhebung erfolgt; {{value|Aktiviert}} bedeutet, dass das Objekt über jedem anderen Objekt erscheint, wenn es ausgewählt wird; {{value|Object}} bedeutet, dass das Objekt nur dann oben erscheint, wenn das gesamte Objekt in der [Baumansicht](Tree_view/de.md) ausgewählt ist; {{value|Element}} bedeutet, dass das Objekt nur dann oben erscheint, wenn ein Unterelement (Knoten, Kante, Fläche) in der [3D Ansicht](3D_view/de.md) ausgewählt ist.
+-    **Oben, wenn ausgewählt|Aufzählung**: Sie steuert die Art und Weise, wie die Auswahl in der [3D Ansicht](3D_view/de.md) erfolgt, wenn das Objekt eine [Form](Part_TopoShape/de.md) hat und es viele Objekte gibt, die teilweise von anderen abgedeckt werden. Die Standardeinstellung ist {{value|Deaktiviert}}, was bedeutet, dass keine besondere Hervorhebung erfolgt; {{value|Aktiviert}} bedeutet, dass das Objekt über jedem anderen Objekt erscheint, wenn es ausgewählt wird; {{value|Object}} bedeutet, dass das Objekt nur dann oben erscheint, wenn das gesamte Objekt in der [Baumansicht](Tree_view/de.md) ausgewählt ist; {{value|Element}} bedeutet, dass das Objekt nur dann oben erscheint, wenn ein Unterelement (Knoten, Kante, Fläche) in der [3D Ansicht](3D_view/de.md) ausgewählt ist.
 
--    **Auswahlstil|Aufzählung**   * steuert die Art und Weise, wie das Objekt hervorgehoben wird, wenn es eine [Form](Part_TopoShape/de.md) hat. Wenn es {{value|Form}} ist, wird die gesamte Form (Knoten, Kanten und Flächen) in der [3D Ansicht](3D_view/de.md) hervorgehoben; wenn es {{value|Begrenzungsrahmen}} ist, erscheint ein Begrenzungsrahmen um das Objekt herum und wird hervorgehoben.
+-    **Auswahlstil|Aufzählung**: steuert die Art und Weise, wie das Objekt hervorgehoben wird, wenn es eine [Form](Part_TopoShape/de.md) hat. Wenn es {{value|Form}} ist, wird die gesamte Form (Knoten, Kanten und Flächen) in der [3D Ansicht](3D_view/de.md) hervorgehoben; wenn es {{value|Begrenzungsrahmen}} ist, erscheint ein Begrenzungsrahmen um das Objekt herum und wird hervorgehoben.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md) und [geskriptete Objekte](Scripted_objects/de.md).
 
@@ -101,7 +101,7 @@ Eine Anwendung FormelementPython wird mit der `addObject()` Methode des Dokument
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App   *   *FeaturePython", "Name")
+obj = App.ActiveDocument.addObject("App::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 

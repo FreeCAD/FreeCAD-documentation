@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Draft Snap Extension
-   Name/ro   *Draft Snap Extension
-   MenuLocation   *Draft → [Snap](Draft_Snap/ro.md) → Extension
-   Workbenches   *[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso   *[Draft Snap](Draft_Snap/ro.md), [Draft Snap Lock](Draft_Snap_Lock/ro.md)
+- GuiCommand:/ro
+   Name:Draft Snap Extension
+   Name/ro:Draft Snap Extension
+   MenuLocation:Draft → [Snap](Draft_Snap/ro.md) → Extension
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   SeeAlso:[Draft Snap](Draft_Snap/ro.md), [Draft Snap Lock](Draft_Snap_Lock/ro.md)
 ---
 
 # Draft Snap Extension/ro

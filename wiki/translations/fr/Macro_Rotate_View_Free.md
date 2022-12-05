@@ -8,7 +8,7 @@
 |Version=01.00
 |Date=2010-11-17
 |FCVersion=All
-|SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width   *24px"><br />[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/fr.md) [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width   *24px"> [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width   *24px">
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px"><br />[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/fr.md) [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:24px"> [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px">
 }}
 
 ## Description
@@ -17,7 +17,7 @@ Cette définition collée dans la console Python FreeCAD (ou votre macro) vous p
 
 ## Utilisation
 
-Collez le code dans la console Python, tapez **Enter** → **Enter** (pour valider la commande) puis tapez ex   * {{ColoredText|**RotateView(0,1,0,45)** }}
+Collez le code dans la console Python, tapez **Enter** → **Enter** (pour valider la commande) puis tapez ex: {{ColoredText|**RotateView(0,1,0,45)** }}
 
 ## Script
 
@@ -25,25 +25,25 @@ Collez le code dans la console Python, tapez **Enter** → **Enter** (pour valid
 
 
 {{MacroCode|code=
-#Paste in the Python console and tip ex   *
+#Paste in the Python console and tip ex:
 #RotateView(0,1,0,45)
-def RotateView(axisX=1.0,axisY=0.0,axisZ=0.0,angle=45.0)   *
+def RotateView(axisX=1.0,axisY=0.0,axisZ=0.0,angle=45.0):
     import math
     from pivy import coin
-    try   *
+    try:
         cam = Gui.ActiveDocument.ActiveView.getCameraNode()
         rot = coin.SbRotation()
         rot.setValue(coin.SbVec3f(axisX,axisY,axisZ),math.radians(angle))
         nrot = cam.orientation.getValue() * rot
         cam.orientation = nrot
         print( axisX," ",axisY," ",axisZ," ",angle)
-    except Exception   *
+    except Exception:
         print( "Not ActiveView ")
 
 
 }}
 
-Dans la console Python tapez par exemple   *
+Dans la console Python tapez par exemple:
 
 
 {{MacroCode|code=

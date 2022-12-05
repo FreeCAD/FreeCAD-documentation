@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */tr
-   Name   *PartDesign Line
-   Name/tr   *Referans Çizgisi Oluştur
-   Workbenches   *[Parça Tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation   *Parça tasarım → Referans çizgisi oluştur
-   Version   *0.17
-   SeeAlso   *[Referans noktası oluştur](PartDesign_Point/tr.md), [Referans düzlemi oluştur](PartDesign_Plane/tr.md)
+- GuiCommand:/tr
+   Name:PartDesign Line
+   Name/tr:Referans Çizgisi Oluştur
+   Workbenches:[Parça Tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation:Parça tasarım → Referans çizgisi oluştur
+   Version:0.17
+   SeeAlso:[Referans noktası oluştur](PartDesign_Point/tr.md), [Referans düzlemi oluştur](PartDesign_Plane/tr.md)
 ---
 
 # PartDesign Line/tr
@@ -17,7 +17,7 @@
 
 Eskizler, diğer referans geometrisi veya özellikleri için referans olarak kullanılabilecek bir **referans çizgisi** oluşturur . Örneğin, Döndürme ve Oluk özellikleri için devir ekseni olarak kullanılabilir.
 
-<img alt="" src=images/datum_line.png  style="width   *600px;">
+<img alt="" src=images/datum_line.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -63,11 +63,11 @@ Model ağacındaki Referans çizgisi etiketine çift tıklayın veya sağ tıkla
 
 ## Özellikler
 
--    **MapMode**   *Kullanılan ek modu listeler.
+-    **MapMode**:Kullanılan ek modu listeler.
 
--    **Attachment Offset**   *Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
+-    **Attachment Offset**:Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
 
--    **Label**   * Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
+-    **Label**: Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
 
 
 

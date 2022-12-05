@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Arch Pipe
-   MenuLocation   *Arch → Pipe Tools → Pipe
-   Workbenches   *[Arch](Arch_Workbench.md)
-   Shortcut   ***P** **I**
-   Version   *0.17
-   SeeAlso   *[Arch PipeConnector](Arch_PipeConnector.md), [Arch Equipment](Arch_Equipment.md)
+- GuiCommand:
+   Name:Arch Pipe
+   MenuLocation:Arch → Pipe Tools → Pipe
+   Workbenches:[Arch](Arch_Workbench.md)
+   Shortcut:**P** **I**
+   Version:0.17
+   SeeAlso:[Arch PipeConnector](Arch_PipeConnector.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
 # Arch Pipe/en
@@ -17,7 +17,7 @@ This tool allows to create pipes from scratch, or from selected objects. The sel
 ## Usage
 
 1.  Optionally, select a linear [Part](Part_Workbench.md) shape such as a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md) or an open [Sketch](Sketcher_NewSketch.md).
-2.  Invoke this command using several methods   *
+2.  Invoke this command using several methods:
     -   Pressing the **<img src="images/Arch_Pipe.svg" width=16px> [Arch Pipe](Arch_Pipe.md)** button on the toolbar.
     -   Pressing the **P** then **I** keyboard shortcut.
     -   Pressing the **Arch → Pipe Tools → Pipe** entry from the top menu.
@@ -28,13 +28,13 @@ This tool allows to create pipes from scratch, or from selected objects. The sel
 
 ## Properties
 
--    **Length**   * Sets the length of this pipe, when it is not based on a wire
+-    **Length**: Sets the length of this pipe, when it is not based on a wire
 
--    **Diameter**   * The diameter of this pipe, when it is not based on a profile
+-    **Diameter**: The diameter of this pipe, when it is not based on a profile
 
--    **Base**   * The base wire of this pipe, if any
+-    **Base**: The base wire of this pipe, if any
 
--    **Profile**   * The base profile of this pipe. If not given, the pipe is cylindrical.
+-    **Profile**: The base profile of this pipe. If not given, the pipe is cylindrical.
 
 ## Typical workflow 
 
@@ -42,17 +42,17 @@ This tool allows to create pipes from scratch, or from selected objects. The sel
 
 ![](images/Arch_pipe_example_01.jpg )
 
--   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to python, though. In the case above I added a new snap point at the exit of the wc appliance. The vectors inside SnapPoints appear on the model as white dots   *
+-   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to python, though. In the case above I added a new snap point at the exit of the wc appliance. The vectors inside SnapPoints appear on the model as white dots:
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
--   With the new [\"Snap Special\"](Draft_Snap_Special.md) Draft Snap, you can now snap to these custom points   *
+-   With the new [\"Snap Special\"](Draft_Snap_Special.md) Draft Snap, you can now snap to these custom points:
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Now we can draw our piping using Draft Lines, Draft Wires, or Sketches. The best way, though, is using only Draft Lines   *
+-   Now we can draw our piping using Draft Lines, Draft Wires, or Sketches. The best way, though, is using only Draft Lines:
 
 ![](images/Arch_pipe_example_04.jpg )
 
@@ -64,7 +64,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   We can now create connections by selecting 2 or 3 coincident tubes, and press the [Arch PipeConnector](Arch_PipeConnector.md) button. If 3 pipes are selected, two of them must be aligned in order to create a tee element   *
+-   We can now create connections by selecting 2 or 3 coincident tubes, and press the [Arch PipeConnector](Arch_PipeConnector.md) button. If 3 pipes are selected, two of them must be aligned in order to create a tee element:
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -75,11 +75,11 @@ It is also possible to create Arch Pipes without a base line, in this case use i
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Pipe tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
+The Pipe tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

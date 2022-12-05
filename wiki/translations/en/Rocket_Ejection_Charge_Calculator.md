@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Rocket Ejection Charge Calculator
-   Icon   *Rocket_Calculator.svg
-   MenuLocation   *Rocket → Calculators → Ejection Charge Calculator
-   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
-   Version   *0.19
+- GuiCommand:
+   Name:Rocket Ejection Charge Calculator
+   Icon:Rocket_Calculator.svg
+   MenuLocation:Rocket → Calculators → Ejection Charge Calculator
+   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
+   Version:0.19
 ---
 
 # Rocket Ejection Charge Calculator/en
@@ -14,17 +14,17 @@
 
 **This calculator only gives an estimate of the amount of powder required. Too much or too little may result in a failed recovery or damage to your rocket<br>'''ALWAYS''' ground test your rocket before flying**
 
-Ejection occurs when the chamber containing the recovery system is pressurized with sufficient force to eject the recovery system from the chamber. The force required can vary according to a number of factors   *
+Ejection occurs when the chamber containing the recovery system is pressurized with sufficient force to eject the recovery system from the chamber. The force required can vary according to a number of factors:
 
-   ** diameter and volume of the body tube
+  - diameter and volume of the body tube
 
-   ** mass of the nose and recovery system
+  - mass of the nose and recovery system
 
-   ** ejection method, for example piston systems require less pressure
+  - ejection method, for example piston systems require less pressure
 
-   ** presence of shear pins used to prevent drag separation
+  - presence of shear pins used to prevent drag separation
 
-   ** fit of the recovery system in the body tube
+  - fit of the recovery system in the body tube
 
 As such, this calculator will only give you a starting estimate. Too little powder will result in a failed ejection and a failed recovery. Too much powder may result in damage to the rocket or recovery system, which may also result in a failed recovery. It is **ALWAYS** necessary to do a ground test before flying your rocket.
 
@@ -38,7 +38,7 @@ Ground testing should start at the low end of the recommended range to prevent d
 
 ![](images/Calc_ejection_charge.png )
 
-1.  There are several ways to invoke the command   *
+1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Calculator.svg" width=16px> [Ejection Charge Calculator](Rocket_Ejection_Charge_Calculator.md)** button.
     -   Select the **Rocket → Calculators → <img src="images/Rocket_Calculator.svg" width=16px> Ejection Charge Calculator** option from the menu.
 2.  Enter the weight of your rocket and parameters for your parachute.
@@ -72,19 +72,11 @@ Calculations are done using metric units, but will display in your preferred uni
 
 ## References
 
-1.  <http   *//vernk.com/EjectionChargeSizing.htm>
-2.  <https   *//www.insanerocketry.com/blackpowder.html>
-3.  <https   *//rocketrycalculator.com/rocketry-calculator/bp-estimator>
-4.  <http   *//www.rockethead.net/black_powder_calculator.htm>
-5.  <http   *//hararocketry.org/hara/resources/how-to-size-ejection-charge/>
-
-
-
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+1.  <http://vernk.com/EjectionChargeSizing.htm>
+2.  <https://www.insanerocketry.com/blackpowder.html>
+3.  <https://rocketrycalculator.com/rocketry-calculator/bp-estimator>
+4.  <http://www.rockethead.net/black_powder_calculator.htm>
+5.  <http://hararocketry.org/hara/resources/how-to-size-ejection-charge/>
 
 
 

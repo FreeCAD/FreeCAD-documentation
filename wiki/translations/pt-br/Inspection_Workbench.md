@@ -1,4 +1,4 @@
-# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width   *64px;"> Inspection Workbench/pt-br
+# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/pt-br
 
 ## Introduction
 
@@ -15,7 +15,7 @@ A Bancada de Inspeção [Inspection Workbench](Inspection_Workbench/pt-br.md) é
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/InspectionEx.png  style="width   *600px;">
+<img alt="" src=images/InspectionEx.png  style="width:600px;">
 
 
 </div>
@@ -39,21 +39,10 @@ A Bancada de Inspeção [Inspection Workbench](Inspection_Workbench/pt-br.md) é
 
 <div class="mw-translate-fuzzy">
 
-Alternativamente, use a macro <img alt="" src=images/HighlightDifference.png  style="width   *24px;"> [HighlightDifference](Macro_HighlightDifference/pt-br.md) para comparar as formas.
+Alternativamente, use a macro <img alt="" src=images/HighlightDifference.png  style="width:24px;"> [HighlightDifference](Macro_HighlightDifference/pt-br.md) para comparar as formas.
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-[Category   *Inspection](Category_Inspection.md) [Category   *Workbenches](Category_Workbenches.md)
 
 
 

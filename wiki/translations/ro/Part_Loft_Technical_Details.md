@@ -1,11 +1,11 @@
 # Part Loft Technical Details/ro
 Această pagină explică în detalii cum este creată o suprafață [Loft](Part_Loft.md). Aceasta este un caz particular de suprafața baleiată [Part Sweep](Part_Sweep.md) dar creată de-a lungul unei traiectorii drepte, dar sunt și alte diferențe.
 
-Informațiile furnizate sunt specifice implementării și se pot schimba. Starea actuală este relevantă pentru FreeCAD 0.15.4119, versiunea OCC   * 6.7.0.
+Informațiile furnizate sunt specifice implementării și se pot schimba. Starea actuală este relevantă pentru FreeCAD 0.15.4119, versiunea OCC: 6.7.0.
 
 ## Etapele creării suprafeței riglate Loft 
 
-Pentru a explica procesul de mansardare, este convenabil să-l împărțim în etape   *
+Pentru a explica procesul de mansardare, este convenabil să-l împărțim în etape:
 
 1.  faceți ca numărul de segmente din profiluri să fie egal (dacă acestea nu sunt deja)
 2.  stabiliți corespondența între segmente
@@ -24,12 +24,12 @@ Dacă cel puțin unul dintre profile are un număr diferit de segmente, se aplic
 Operația este extinsă la toate profilurile, pentru a obține un număr egal de segmente. Numărul total de segmente din fiecare profil ar fi egal cu suma tuturor numerelor de segmente ale tuturor profilurilor (cu condiția ca nici unul dintre vârfuri să nu aibă același unghi polar).
 
    
-  <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width   *300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width   *300px;">
+  <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
    
 
 ### Pasul 2. Establishing correspondence between segments 
 
-<img alt="Demonstration of Loft keeping the number of segments in profiles when they match. Note how 3 edges of the top square \"collapse\" into a small polygonal piece of the bottom profile." src=images/Loft_Number_of_verts_match.png  style="width   *300px;"> În cazul în care numărul de segmente din toate profilurile nu este egal, felierea a fost făcută în pasul 1, iar corespondența este trivială. În cazul în care numerele de segmente din toate profilurile au fost egale, segmentele existente sunt utilizate (vezi imaginea), iar acesta este momentul în care trebuie stabilită corespondența.
+<img alt="Demonstration of Loft keeping the number of segments in profiles when they match. Note how 3 edges of the top square \"collapse\" into a small polygonal piece of the bottom profile." src=images/Loft_Number_of_verts_match.png  style="width:300px;"> În cazul în care numărul de segmente din toate profilurile nu este egal, felierea a fost făcută în pasul 1, iar corespondența este trivială. În cazul în care numerele de segmente din toate profilurile au fost egale, segmentele existente sunt utilizate (vezi imaginea), iar acesta este momentul în care trebuie stabilită corespondența.
 
 Algoritmul exact de a găsi segmente corespunzătoare este complex, dar, în general, tinde să minimizeze răsucirea Loft-ului rezultat. Aceasta înseamnă că, dacă se face o mansardă/loft între două pătrate, este posibilă o răsturnare maximă de \<45 °. Rotirea ulterioară a unuia dintre pătrate va face Loft-ul să sară la alte noduri.
 
@@ -39,7 +39,7 @@ Un alt lucru care trebuie remarcat este că atunci când numărul de segmente î
 
 ### Pasul 3. Making the loft surface. 
 
-<img alt="A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares." src=images/Loft_B-spline.png  style="width   *400px;"> Dacă există doar două profiluri, suprafețele create sunt suprafețe riglate între segmentele corespunzătoare ale profilurilor. Muchiile/marginile drepte sunt create pentru a conecta vârfurile corespunzătoare ale profilurilor.
+<img alt="A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares." src=images/Loft_B-spline.png  style="width:400px;"> Dacă există doar două profiluri, suprafețele create sunt suprafețe riglate între segmentele corespunzătoare ale profilurilor. Muchiile/marginile drepte sunt create pentru a conecta vârfurile corespunzătoare ale profilurilor.
 
 Dacă există mai mult de două profile, suprafețele sunt realizate din curbe spline în același mod în care liniile drepte formează suprafețe riglate. Curbele Spline imaginare pe care suprafața este \"realizată\" sunt desenate prin punctele corespunzătoare ale segmentelor corespunzătoare ale profilurilor.
 
@@ -48,7 +48,7 @@ Curebele sunt interpolare B-spline.
 -   Dacă numărul de profile este mai mic de 10, interpolarea se face cu o funcție B-spline cu un grad maxim posibil (adică grad = number_of_profiles - 1).
 -   În cazul în care numărul de profile depășește 10, interpolarea este trecută la funcții B-splinele de gradul 3.
 
-Metoda de îmbinare utilizată este \"lungimea aproximativă a coardei\". Aproximarea constă în faptul că vectorul nodului este exact același pentru fiecare curbă spline dintr-o mansardă/loft. Pentru mai multe informații despre ceea ce este interpolarea B-spline, vectorul nodului, metoda lungimii coardei, a se vedea, de exemplu,[cs.mtu.edu Curve Global Interpolation](http   *//www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).
+Metoda de îmbinare utilizată este \"lungimea aproximativă a coardei\". Aproximarea constă în faptul că vectorul nodului este exact același pentru fiecare curbă spline dintr-o mansardă/loft. Pentru mai multe informații despre ceea ce este interpolarea B-spline, vectorul nodului, metoda lungimii coardei, a se vedea, de exemplu,[cs.mtu.edu Curve Global Interpolation](http://www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).
 
 Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat, suprafețele riglate sunt realizate între profilurile învecinate chiar și atunci când există mai multe profiluri. Asta este, interpolarea funcției B-spline este înlocuită cu o interpolare liniară pe bucăți/părți. 
 
@@ -66,7 +66,7 @@ Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat,
 -   Când proprietatea \"închisă\" a Loft-ului este \"adevărată\", există o îmbinare la vârf între toate curbele spline care formează Loft-ul (vezi imaginea de mai jos). Nu există nici o modalitate sigură de a închide Loft-ul fără asperități/probleme.
 
     
-  <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width   *300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width   *300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width   *300px;">
+  <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width:300px;">
 
 
 

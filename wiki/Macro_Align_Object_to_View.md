@@ -7,8 +7,8 @@
 |Version=0.1
 |Date=2015-01-16
 |FCVersion=All
-|Download=[https   *//www.freecadweb.org/wiki/images/f/f4/Macro_Align_Object_to_View.png ToolBar Icon]
-|SeeAlso=[32px|FCCamera](File   *FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera.md)
+|Download=[https://www.freecadweb.org/wiki/images/f/f4/Macro_Align_Object_to_View.png ToolBar Icon]
+|SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera.md)
 }}
 
 ## Description
@@ -59,7 +59,7 @@ App.ActiveDocument.getObject(Nameelement).Placement=pl
 
 <center>
 
-Image   *Macro Align Object to View 01.png\|Your object in its original position XY. Image   *Macro Align Object to View 02.png\|Rotate the screen X? Y? Z? or use this macro [Macro_Rotate_View](Macro_Rotate_View.md) for precise rotation.
+Image:Macro Align Object to View 01.png\|Your object in its original position XY. Image:Macro Align Object to View 02.png\|Rotate the screen X? Y? Z? or use this macro [Macro_Rotate_View](Macro_Rotate_View.md) for precise rotation.
 
 
 </center>
@@ -67,7 +67,7 @@ Image   *Macro Align Object to View 01.png\|Your object in its original position
 
 <center>
 
-Image   *Macro Align Object to View 03.png\|Select the object and run the macro (the object face the screen). Image   *Macro Align Object to View 04.png\|Your object return in the XY display and in its new coordinates position (Placement,Angle)
+Image:Macro Align Object to View 03.png\|Select the object and run the macro (the object face the screen). Image:Macro Align Object to View 04.png\|Your object return in the XY display and in its new coordinates position (Placement,Angle)
 
 
 </center>

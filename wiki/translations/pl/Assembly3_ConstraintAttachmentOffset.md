@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Assembly3 ConstraintAttachmentOffset
-   Icon   *Assembly_ConstraintAttachmentOffset.svg‎‎
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:
+   Name:Assembly3 ConstraintAttachmentOffset
+   Icon:Assembly_ConstraintAttachmentOffset.svg‎‎
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintAttachmentOffset/pl

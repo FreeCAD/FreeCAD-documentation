@@ -1,8 +1,6 @@
 # Category:Poweruser Documentation/hu
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-[Category   *Documentation](Category_Documentation.md)
-
 ### Contents
 
 |     |     |     |

@@ -6,11 +6,6 @@ Diese Seite sammelt die Informationen über die Paketerstellung von FreeCAD auf 
 -   [MacOS packaging](MacOS_packaging.md). Information zu .dmg Paketen.
 
 
- 
-
-[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Packaging/de

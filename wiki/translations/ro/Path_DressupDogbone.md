@@ -1,6 +1,6 @@
 # Path DressupDogbone/ro
 ---
-- GuiCommand   *   Name   *Path DressupTag   Workbenches   *[MenuLocation   *Path → Path Dressup → Dogbone Dress-up   SeeAlso   *[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupRampEntry](Path_DressupRampEntry.md), [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → Dogbone Dress-up   SeeAlso:[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupRampEntry](Path_DressupRampEntry.md), [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
 
 </div>
@@ -21,7 +21,7 @@ Acest instrument îmbracă o traiectorie existentă în a derula colțurile în 
 <div class="mw-translate-fuzzy">
 
 1.  Selectați un contur sau profil de traiectorie [Path](Path_Workbench.md) objects
-2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [Dogbone Dress-up](Path_DressupDogbone.md)
+2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [Dogbone Dress-up](Path_DressupDogbone.md)
 
 
 </div>

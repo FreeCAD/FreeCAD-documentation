@@ -1,14 +1,14 @@
 # Mesh API/fr
-**(novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière version de l'API, consultez la [https   *//www.freecadweb.org/api documentation de l'auto-génération de l'API].**
+**(novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière version de l'API, consultez la [https://www.freecadweb.org/api documentation de l'auto-génération de l'API].**
 
-Les objets maillés peuvent être manipulés par l\'ajout de nouvelles facettes, suppression de facettes, l\'importation d\'un fichier STL, transformant le maillage et bien plus encore. Pour un aperçu complet de ce qui peut être fait voir aussi la documentation de l\'[atelier Mesh](Mesh_Workbench/fr.md). Un objet maillé ne peut pas être ajouté à un document existant directement. Par conséquent, le document doit créer un objet avec une classe propriété qui soutient les mailles. Exemple   *
+Les objets maillés peuvent être manipulés par l\'ajout de nouvelles facettes, suppression de facettes, l\'importation d\'un fichier STL, transformant le maillage et bien plus encore. Pour un aperçu complet de ce qui peut être fait voir aussi la documentation de l\'[atelier Mesh](Mesh_Workbench/fr.md). Un objet maillé ne peut pas être ajouté à un document existant directement. Par conséquent, le document doit créer un objet avec une classe propriété qui soutient les mailles. Exemple:
 
 
 ```python
 m = Mesh.Mesh()
 ... # Manipule le maillage
 d = FreeCAD.activeDocument() # Obtenir une référence au document actif
-f = d.addObject("Mesh   *   *Feature", "Mesh") # Créer une fonction maillage 
+f = d.addObject("Mesh::Feature", "Mesh") # Créer une fonction maillage 
 f.Mesh = m # affecter l'objet maillage à la propriété interne
 d.recompute()
 ```
@@ -212,10 +212,10 @@ d.recompute()
 {{APIProperty|CountPoints|Le nombre de points de l'objet maillé.}}
 
 
-{{APIProperty|Facets|Une collection de facettes..; Avec cet attribut, il est possible d’avoir accès aux facettes du maillage   * pour f dans mesh.Facets   * print f. Facet.Points est une liste de tupels de coordonnées pour les sommets. Facet.PointIndices est une liste d'indices pour les sommets de la facette. ATTENTION! stocker les facettes dans une variable locale telle qu’elle est générée à la volée, chaque fois qu’on y accède.}}
+{{APIProperty|Facets|Une collection de facettes..; Avec cet attribut, il est possible d’avoir accès aux facettes du maillage: pour f dans mesh.Facets: print f. Facet.Points est une liste de tupels de coordonnées pour les sommets. Facet.PointIndices est une liste d'indices pour les sommets de la facette. ATTENTION! stocker les facettes dans une variable locale telle qu’elle est générée à la volée, chaque fois qu’on y accède.}}
 
 
-{{APIProperty|Points|Une collection de points du maillage; Avec cet attribut, il est possible d'avoir accès à des points du maillage   * pour p dans mesh.Points   * Print p.x, p.y, p.z, p.Index.WARNING! stocke des points dans une variable locale, telle qu'elle est générée à la volée, à chaque accès.}}
+{{APIProperty|Points|Une collection de points du maillage; Avec cet attribut, il est possible d'avoir accès à des points du maillage: pour p dans mesh.Points: Print p.x, p.y, p.z, p.Index.WARNING! stocke des points dans une variable locale, telle qu'elle est générée à la volée, à chaque accès.}}
 
 
 {{APIProperty|Topology|Les points et les indices de face comme tuple Topology[0] est une liste de tous les sommets. Chacun étant un tuple de 3 coordonnées. Topology[1] est une liste de tous les polygones. Chacune étant une liste d'indices de sommet dans Topology[0] AVERTISSEMENT! stocker la topologie dans une variable locale telle qu'elle est générée à la volée, à chaque accès.}}
@@ -231,11 +231,6 @@ d.recompute()
 
 
 {{APIProperty|Placement|La transformation actuelle de l'objet comme placement}}
-
-
- 
-
-[Category   *API](Category_API.md) [Category   *Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 
 

@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-Queste funzioni sperimentali consentono la fresatura di [facce](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=36773) e [tasche](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867)
+Queste funzioni sperimentali consentono la fresatura di [facce](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) e [tasche](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
 
 Queste funzioni sono in fase di sviluppo iniziale. Possono esistere dei bug. Grazie per il vostro feedback e test.
 
@@ -20,11 +20,11 @@ Queste funzioni sono in fase di sviluppo iniziale. Possono esistere dei bug. Gra
 
 Ideally, upgrade to version 0.19.16502, or higher.
 
-Download these scripts   *
+Download these scripts:
 
--   PathProfileFaces.py [available here](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=36773) and
--   PathAreaOp.py is [here](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867)
--   PathPocketShape.py from [here too](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=35867) (for pocket operations)
+-   PathProfileFaces.py [available here](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) and
+-   PathAreaOp.py is [here](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
+-   PathPocketShape.py from [here too](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867) (for pocket operations)
 
 Place them in your FreeCAD/Mod/Path/PathScripts directory, \*after\* renaming your originals for safe keeping. Rename the new scripts to the original script names. Restart FreeCAD and have fun.
 
@@ -32,7 +32,7 @@ Use at your own risk.
 
 ## Limitazioni
 
-Current 4th-axis capable operations do not handle complex/compound rotations   * those involving X and Y simultaneously.
+Current 4th-axis capable operations do not handle complex/compound rotations: those involving X and Y simultaneously.
 
 There is currently no GUI integration of 4th-axis rotational settings in the release branch. All related settings are in the Data tab of the Properties View section for each individual operation supported.
 

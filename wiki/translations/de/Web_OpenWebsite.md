@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */de
-   Name   *Web OpenWebsite
-   Name/de   *Web WebseiteÖffnen
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso   *[Web BrowserURLBearbeiten](Web_BrowserSetURL/de.md)
+- GuiCommand:/de
+   Name:Web OpenWebsite
+   Name/de:Web WebseiteÖffnen
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso:[Web BrowserURLBearbeiten](Web_BrowserSetURL/de.md)
 ---
 
 # Web OpenWebsite/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Web_OpenWebsite.svg  style="width   *24px;"> **Web WebseiteÖffnen** öffnet die [FreeCAD-Webseite](https   *//freecadweb.org) im aktuellen Web-Reiter, oder in einem neuen Reiter, wenn der aktuelle kein Web-Reiter ist.
+Der Befehl <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **Web WebseiteÖffnen** öffnet die [FreeCAD-Webseite](https://freecadweb.org) im aktuellen Web-Reiter, oder in einem neuen Reiter, wenn der aktuelle kein Web-Reiter ist.
 
 ## Anwendung
 

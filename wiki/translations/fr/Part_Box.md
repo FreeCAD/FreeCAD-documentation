@@ -1,34 +1,34 @@
 ---
-- GuiCommand   */fr
-   Name   *Part Box
-   Name/fr   *Part Cube
-   MenuLocation   *Part → Primitives → Cube
-   Workbenches   *[Part](Part_Workbench/fr.md)
-   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand:/fr
+   Name:Part Box
+   Name/fr:Part Cube
+   MenuLocation:Part → Primitives → Cube
+   Workbenches:[Part](Part_Workbench/fr.md)
+   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Box/fr
 
 ## Description
 
-La commande <img alt="" src=images/Part_Box.svg  style="width   *24px;"> **Part Cube** crée un solide de type boîte paramétrique, un [parallélépipède rectangle](https   *//fr.wikipedia.org/wiki/Pav%C3%A9_droit). Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure de la boîte se trouve dans le plan XY, son coin avant gauche étant à l\'origine et son bord avant étant parallèle à l\'axe des X.
+La commande <img alt="" src=images/Part_Box.svg  style="width:24px;"> **Part Cube** crée un solide de type boîte paramétrique, un [parallélépipède rectangle](https://fr.wikipedia.org/wiki/Pav%C3%A9_droit). Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure de la boîte se trouve dans le plan XY, son coin avant gauche étant à l\'origine et son bord avant étant parallèle à l\'axe des X.
 
-<img alt="" src=images/Part_Box_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Box_Example.png  style="width:400px;">
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Box.svg" width=16px> [Cube](Part_Box/fr.md)**.
     -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** dans le menu.
 2.  La boîte est créée.
-3.  Vous pouvez éventuellement modifier les dimensions et **Placement** de la boîte en effectuant l\'une des opérations suivantes    *
-    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md)    *
+3.  Vous pouvez éventuellement modifier les dimensions et **Placement** de la boîte en effectuant l\'une des opérations suivantes :
+    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
         1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
         2.  Modifiez une ou plusieurs propriétés.
         3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
         4.  Appuyez sur le bouton **OK**.
         5.  Modifiez les propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-    -   Changez la **Placement** avec <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+    -   Changez la **Placement** avec <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
 ## Exemple
 
@@ -38,13 +38,13 @@ Un objet Part Cube créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
 ## Remarques
 
--   Un Part Cube peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
+-   Un Part Cube peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
 
 ## Propriétés
 
-Voir aussi   * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Cube est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Part Cube est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
@@ -56,28 +56,28 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Box}}
 
--    **Length|Length**   * La longueur de la boîte. Il s\'agit de la dimension dans sa direction X. La valeur par défaut est {{Value|10mm}}.
+-    **Length|Length**: La longueur de la boîte. Il s\'agit de la dimension dans sa direction X. La valeur par défaut est {{Value|10mm}}.
 
--    **Width|Length**   * La largeur de la boîte. Il s\'agit de la dimension dans sa direction Y. La valeur par défaut est {{Value|10mm}}.
+-    **Width|Length**: La largeur de la boîte. Il s\'agit de la dimension dans sa direction Y. La valeur par défaut est {{Value|10mm}}.
 
--    **Height|Length}    *} La hauteur de la boîte. Il s'agit de la dimension dans sa direction Z. La valeur par défaut est {{Value|10mm**.
+-    **Height|Length} :} La hauteur de la boîte. Il s'agit de la dimension dans sa direction Z. La valeur par défaut est {{Value|10mm**.
 
     ==Script==
 
-    Voir aussi   * [https   *//freecad.github.io/SourceDoc/ Autogenerated API documentation], [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+    Voir aussi: [https://freecad.github.io/SourceDoc/ Autogenerated API documentation], [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-    Un Part Cube est créé avec la méthode `addObject()` du document    *
+    Un Part Cube est créé avec la méthode `addObject()` du document :
 
     
 ```python
-    box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "myBox")
+    box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
     
 ```
 
     * Où {{Incode|"myBox"}} est le nom de l'objet.
     * La fonction restitue l'objet nouvellement créé.
 
-    Exemple    *
+    Exemple :
 
     
 ```python
@@ -85,7 +85,7 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
     doc = App.activeDocument()
 
-    box = doc.addObject("Part   *   *Box", "myBox")
+    box = doc.addObject("Part::Box", "myBox")
     box.Length = 4
     box.Width = 8
     box.Height = 12

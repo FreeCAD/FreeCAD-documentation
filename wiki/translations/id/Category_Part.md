@@ -1,8 +1,6 @@
 # Category:Part/id
 This category lists pages related to the [Part Workbench/id](Part_Workbench/id.md).
 
-[Category   *Workbenches/id](Category   *Workbenches/id.md)
-
 ### Contents
 
 |     |     |     |

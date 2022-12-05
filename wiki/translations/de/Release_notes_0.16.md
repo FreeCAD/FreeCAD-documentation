@@ -1,11 +1,11 @@
 # Release notes 0.16/de
-FreeCAD 0.16 wurde am 18. April 2016 veröffentlicht, man kann es von der [Github](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.16)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann man im [Mantis changelog](http   *//www.freecadweb.org/tracker/changelog_page.php) finden. Ältere Versionen   * [0.15](Release_notes_0.15/de.md) - [0.14](Release_notes_0.14/de.md) - [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
-<img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width   *1024px;">
+FreeCAD 0.16 wurde am 18. April 2016 veröffentlicht, man kann es von der [Github](https://github.com/FreeCAD/FreeCAD/releases/tag/0.16)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann man im [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php) finden. Ältere Versionen: [0.15](Release_notes_0.15/de.md) - [0.14](Release_notes_0.14/de.md) - [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
+<img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 
 <center>
 
-Satnogs Rotator (https   *//satnogs.org/)
+Satnogs Rotator (https://satnogs.org/)
 
 
 </center>
@@ -14,22 +14,22 @@ Satnogs Rotator (https   *//satnogs.org/)
 
 **Expression support** wurde eingeführt. Es erlaubt das Definieren von Formel-gestützten Beziehungen zwischen Objekteigenschaften. \"Expression support\" ist ein großer Sprung vorwärts, um bessere parametrische Modelle in FreeCAD zu erstellen. Expressions bietet ein benutzerfreundliches Interface, um Modelle zu erstellen, die durch eine Tabelle (mittels Spreadsheet Workbench) gesteuert werden.
 
-<img alt="" src=images/Expressions-demo.png  style="width   *300px;">
+<img alt="" src=images/Expressions-demo.png  style="width:300px;">
 
 \"Sketcher Solver (Skizzen-Gleichungslöser)\" wurde im Verhalten stark verbessert. Es wurde nicht nur schneller und stabiler, auch sollten nun keine Abstürze mehr bei unlösbaren Skizzen erfolgen. Automatischer Neuaufbau der Skizzen nach jeder geringfügigen Änderung kann nun abgeschaltet werden, was das flüssige Editieren von Skizzen mit sehr vielen Abhängigkeiten erlaubt.
 
-<img alt="" src=images/Sketcher-v0.16-demo.png  style="width   *300px;">
+<img alt="" src=images/Sketcher-v0.16-demo.png  style="width:300px;">
 
 FreeCAD unterstützt nun Touchscreen 3D Navigation. Dies ermöglicht es, FreeCAD ohne eine Maus auf einem Laptop mit Touchscreen und Stift zu benutzen, abseits des Schreibtisches.
 
 Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat sich bewährt zur Durchführung von verschiedenen Arten mechanischer Analysen.
 
-<img alt="" src=images/Multiple_material.jpg  style="width   *700px;">
+<img alt="" src=images/Multiple_material.jpg  style="width:700px;">
 
 ## Allgemein
 
 -   Unterstützung für Ausdrücke/Formeln
--   Drei neue Navigations-Stile   * Gesture-Navigation (mit Touchscreen-Unterstützung unter Windows), Maya Navigation und OpenCascade Navigation
+-   Drei neue Navigations-Stile: Gesture-Navigation (mit Touchscreen-Unterstützung unter Windows), Maya Navigation und OpenCascade Navigation
 -   Personalisierung der Arbeitsbereich-Liste (Liste kann umgeordnet werden, und jeder Arbeitsberich der Liste kann ausgeblendet werden)
 -   Wiederherstellungs-Werkzeug
 -   Neue Speicherungs-Optionen(Rückgängig, Speichern einer Kopie)
@@ -37,44 +37,44 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 
 ## Arbeitsbereich \"Part\" (Formteil) 
 
--   Neue Werkzeuge um Objekte mit einer Wandstärke (z.B. Rohre) zu verbinden   * [Connect](Part_JoinConnect.md), [Embed](Part_JoinEmbed.md) und [Cutout](Part_JoinCutout.md)
--   Neues Werkzeug   * Erstelle Fläche von Skizze (parametrisch)
+-   Neue Werkzeuge um Objekte mit einer Wandstärke (z.B. Rohre) zu verbinden: [Connect](Part_JoinConnect.md), [Embed](Part_JoinEmbed.md) und [Cutout](Part_JoinCutout.md)
+-   Neues Werkzeug: Erstelle Fläche von Skizze (parametrisch)
 
 ## Arbeitsbereiche \"Part Design\" und \"Sketcher\" 
 
--   Neues Werkzeug   * Umschalt-Modus für [Reference/Driving constraints](Sketcher_ToggleDrivingConstraint/de.md)
--   Neues Merkmal   * Continous creation mode
--   Neues Merkmal   * Gesteuerte Beschränkungen
+-   Neues Werkzeug: Umschalt-Modus für [Reference/Driving constraints](Sketcher_ToggleDrivingConstraint/de.md)
+-   Neues Merkmal: Continous creation mode
+-   Neues Merkmal: Gesteuerte Beschränkungen
 -   Starker Geschwindigkeitszuwachs
 -   Erweiterte Kontrolle des Gleichungslösers (Solvers)
--   Neue Merkmale   * Werkzeuge für Duplizieren, Spiegeln und Orthogonales Array
+-   Neue Merkmale: Werkzeuge für Duplizieren, Spiegeln und Orthogonales Array
 -   Unterstützung für [expressions/formulas](Expressions.md) in Beschränkungen und Eigenschaften
 
 ## Spreadsheet Workbench 
 
--   Neue Funktionen   * round (runden), trunc (kürzen), ceil (Decke) und floor (Boden)
+-   Neue Funktionen: round (runden), trunc (kürzen), ceil (Decke) und floor (Boden)
 
 ## Draft Workbench 
 
--   **Neuer DXF importer**   * Der Arbeitsbereich \"Draft\" hat nun einen brandneuen DXF-Importer, komplett in C++ programmiert, übernommen von [HeeksCad](https   *//github.com/Heeks/heekscad), welcher nun nicht mehr externe Komponenten herunterzuladen braucht, und ist nun viel schneller und kann auch viel größere DXF-Dateien laden. Eine Option in den DXF-Einstellungen erlaubt nun, falls nötig, die Umschaltung zum alten Import.
+-   **Neuer DXF importer**: Der Arbeitsbereich \"Draft\" hat nun einen brandneuen DXF-Importer, komplett in C++ programmiert, übernommen von [HeeksCad](https://github.com/Heeks/heekscad), welcher nun nicht mehr externe Komponenten herunterzuladen braucht, und ist nun viel schneller und kann auch viel größere DXF-Dateien laden. Eine Option in den DXF-Einstellungen erlaubt nun, falls nötig, die Umschaltung zum alten Import.
 -   Ein neues **[Mirror tool](Draft_Mirror.md)** erlaubt ein Spiegeln von Objekten \"auf Draft Art\".
 -   Viele **DXF-Vorlagen** wurden zu den entsprechenden SCG-Vorlagen hinzugefügt und erleichtern so den Export von Zeichnungen nach DXF.
 -   [Rectangles](Draft_Rectangle.md),[wires and lines](Draft_Wire.md) können nun **unterteilt** werden und erlauben so eine Menge neuer Körper-Kombinationen.
 
-<img alt="" src=images/Draft_subdivisions.jpg  style="width   *1024px;">
+<img alt="" src=images/Draft_subdivisions.jpg  style="width:1024px;">
 
 ## Arbeitsbereich \"Drawing\" 
 
 -   Ein neues Werkzeug namens **[spreadsheet view](Drawing_SpreadsheetView/de.md)** erlaubt es nun, einen Bereich von Zellen eines [Tabellenblatts](Spreadsheet_Workbench/de.md) auf ein Zeichnungsblatt zu platzieren.
 
-<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width   *1024px;">
+<img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
 ## Arbeitsbereich \"Arch\" 
 
--   **[Materials support](Arch_SetMaterial.md)**   * Arch Objekte können nun mit [material](material.md) versehen werden, welches das FreeCAD-interne Materialschema benutzt. Diese Materialien werden auch in anderen Arbeitsbereichen benutzt. Diese Materialien unterstützen komplett den IFC Im- und Export.
+-   **[Materials support](Arch_SetMaterial.md)**: Arch Objekte können nun mit [material](material.md) versehen werden, welches das FreeCAD-interne Materialschema benutzt. Diese Materialien werden auch in anderen Arbeitsbereichen benutzt. Diese Materialien unterstützen komplett den IFC Im- und Export.
 -   Das Werkzeug **[Section plane](Arch_SectionPlane.md)** kann nun Schnitte in 3D durchführen und den Bereich in Echtzeit anzeigen.
 
-<img alt="" src=images/Arch_clip_plane.jpg  style="width   *1024px;">
+<img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">
 
 -   Mehrere Verbesserungen am **IFC importer** wie z.B. neue Optionen für große IFC-Dateien, bessere Unterstützung für Extrusionen (werden nun beim Import bereits erkannt) und kurvigen Segementen, ebenso wie Unterstützung von 2D Bemerkungen. Der Import von Analytical IFC wurde hinzugefügt. Im Moment wird der Import von allen geometrischen Darstellungen von allen analytischen Objekten unterstützt.
 -   Bessere **Vernetzungsoptionen** für DAE und IFC-Formate.
@@ -105,22 +105,20 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 
 ![](images/Exercise_path_02.jpg )
 
-Ein neuer [Path Workbench/Path-Arbeitsbereich](Path_Workbench/Path-Arbeitsbereich.md) wurde in FreeCAD hinzugefügt. Dieser Arbeitsbereich, obwohl immer noch stark in der Entwicklung, hat bereits einige CAM-Operationen implementiert und erlaubt es, komplette G-Code ([1](https   *//de.wikipedia.org/wiki/Computerized_Numerical_Control#DIN/ISO-Programmierung_bzw._G-Code)) Programme für eine große Anzahl CNC-Maschinen zu exportieren.
+Ein neuer [Path Workbench/Path-Arbeitsbereich](Path_Workbench/Path-Arbeitsbereich.md) wurde in FreeCAD hinzugefügt. Dieser Arbeitsbereich, obwohl immer noch stark in der Entwicklung, hat bereits einige CAM-Operationen implementiert und erlaubt es, komplette G-Code ([1](https://de.wikipedia.org/wiki/Computerized_Numerical_Control#DIN/ISO-Programmierung_bzw._G-Code)) Programme für eine große Anzahl CNC-Maschinen zu exportieren.
 
 In seinem momentanen Zustand erlaubt es der Arbeitsbereich, Profile und Taschen mit Objekten aus dem [Part](Part_Workbench/de.md)-Arbeitsbereich zu erstellen, komplexe Pfade zu erstellen durch Aneinanderfügen mehrerer Teilpfade, den Inhalt der G-Code Programme der Pfade zu betrachten und editieren, eine Werkzeugliste zu verwalten und beim Im- und Export von G-Code zwischen verschiedenen pre-processing- und post-processing-Skripten zu wählen. Es stellt bereits eine komplette [python API](Path_scripting/de.md) zur Verfügung.
 
 ## Zusätzliche Module 
 
-Eine Reihe neuer [addons workbenches](https   *//github.com/FreeCAD/FreeCAD-addons) wurde von Community-Mitgliedern zur Verfügung gestellt. Diese Arbeitsbereiche sind sehr leicht in eine bestehende FreeCAD-Installation einzubinden. Unter den neuen Arbeitsbereichen sind z.B.   *
+Eine Reihe neuer [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) wurde von Community-Mitgliedern zur Verfügung gestellt. Diese Arbeitsbereiche sind sehr leicht in eine bestehende FreeCAD-Installation einzubinden. Unter den neuen Arbeitsbereichen sind z.B.:
 
--   Eine [Animation Workbench](https   *//github.com/microelly2/Animation), die es ermöglicht, Animationen von FreeCAD-Modellen zu erstellen, indem man die Bewegung einer Kamera definiert und eine Reihe von Bildern exportiert.
--   Ein [Kerkythea exporter macro](https   *//github.com/marmni/FreeCAD-Kerkythea) ermöglicht den Export der FreeCAD-Modelle zu dem freien [Kerkythea renderer](http   *//www.kerkythea.net/cms/).
--   Ein in der Entwicklung befindliches [Menu](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=10892%7CPie) ist ebenfalls verfügbar.
--   Außerdem wurde ein [addons repository](https   *//github.com/FreeCAD/FreeCAD-addons) geschaffen, um alle interessanten Arbeitsbereiche, Module und Makros rund um FreeCAD zu sammeln. Diese Datenbank stellt auch einen Installer bereit, der sich um Installation und Update der Einträge kümmert.
+-   Eine [Animation Workbench](https://github.com/microelly2/Animation), die es ermöglicht, Animationen von FreeCAD-Modellen zu erstellen, indem man die Bewegung einer Kamera definiert und eine Reihe von Bildern exportiert.
+-   Ein [Kerkythea exporter macro](https://github.com/marmni/FreeCAD-Kerkythea) ermöglicht den Export der FreeCAD-Modelle zu dem freien [Kerkythea renderer](http://www.kerkythea.net/cms/).
+-   Ein in der Entwicklung befindliches [Menu](http://forum.freecadweb.org/viewtopic.php?f=22&t=10892%7CPie) ist ebenfalls verfügbar.
+-   Außerdem wurde ein [addons repository](https://github.com/FreeCAD/FreeCAD-addons) geschaffen, um alle interessanten Arbeitsbereiche, Module und Makros rund um FreeCAD zu sammeln. Diese Datenbank stellt auch einen Installer bereit, der sich um Installation und Update der Einträge kümmert.
 
 ![](images/Macro_installer_02.jpg )
-
-[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

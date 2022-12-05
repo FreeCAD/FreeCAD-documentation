@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */es
-   Name   *Sketcher Arc
-   Name/es   *Croquizador Arco
-   MenuLocation   *Croquis → Geometrías de Croquizador → Crear arco por el centro
-   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso   *[Croquizador Círculo](Sketcher_CompCreateCircle/es.md)
+- GuiCommand:/es
+   Name:Sketcher Arc
+   Name/es:Croquizador Arco
+   MenuLocation:Croquis → Geometrías de Croquizador → Crear arco por el centro
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   SeeAlso:[Croquizador Círculo](Sketcher_CompCreateCircle/es.md)
 ---
 
 # Sketcher CreateArc/es
@@ -14,11 +14,11 @@
 
 ## Descripción
 
-Esta herramienta dibuja arcos indicando tres puntos   * el centro, el ángulo inicial a lo largo del radio, y el radio final.
+Esta herramienta dibuja arcos indicando tres puntos: el centro, el ángulo inicial a lo largo del radio, y el radio final.
 
 Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco rojo. Además las coordenadas del puntero se muestran al lado de azul en tiempo real.
 
-<img alt="El centro ha sido seleccionado, arrastrando para establecer el radio‎" src=images/Sketcher_ArcExample1.png ) ![El centro y el ángulo inicial han sido seleccionados, arrastrando para establecer el ángulo final‎](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
+<img alt="El centro ha sido seleccionado, arrastrando para establecer el radio‎" src=images/Sketcher_ArcExample1.png ) ![El centro y el ángulo inicial han sido seleccionados, arrastrando para establecer el ángulo final‎](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
 
 ## Utilización
 

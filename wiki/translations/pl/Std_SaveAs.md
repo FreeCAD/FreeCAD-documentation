@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std SaveAs
-   Name/pl   *Std   * Zapisz jako
-   MenuLocation   *Plik → Zapisz jako ...
-   Workbenches   *wszystkie
-   SeeAlso   *[Zapisz jako kopię](Std_SaveCopy/pl.md), [Zapisz](Std_Save/pl.md)
+- GuiCommand:
+   Name:Std SaveAs
+   Name/pl:Std: Zapisz jako
+   MenuLocation:Plik → Zapisz jako ...
+   Workbenches:wszystkie
+   SeeAlso:[Zapisz jako kopię](Std_SaveCopy/pl.md), [Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveAs/pl
@@ -29,12 +29,12 @@ Polecenie **Zapisz jako** zapisuje aktywny dokument w pliku pod nową nazwą.
 
 ## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

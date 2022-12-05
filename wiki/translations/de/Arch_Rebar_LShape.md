@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Rebar LShape   Name/de   *Arch Bewehrungsstab L-förmig
-   MenuLocation   *Arch → Rebar tools → L-Shape Rebar oder 3D/BIM → Reinforcement tools → L-förmige Bewehrung
-   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version   *0.17
-   SeeAlso   *[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)
+- GuiCommand:/de
+   Name:Arch Rebar LShape   Name/de:Arch Bewehrungsstab L-förmig
+   MenuLocation:Arch → Rebar tools → L-Shape Rebar oder 3D/BIM → Reinforcement tools → L-förmige Bewehrung
+   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)
 ---
 
 # Arch Rebar LShape/de
@@ -18,9 +18,9 @@ Das [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug erlaubt es de
 
 Das [Arch L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width   *400px;"> 
+<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Vier Sätze von L-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
 
 ## Anwendung
@@ -36,7 +36,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
-   *   <img alt="" src=images/LShapeDialog.png  style="width   *250px;">
+:   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
 
 
 
@@ -44,36 +44,36 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 ## Eigenschaften
 
--    **Orientation**   * Legt die Ausrichtung der Bewehrungsstäbe fest (\"Bottom Right\", \"Bottom Left\", \"Top Right\" und \"Top Left\").
+-    **Orientation**: Legt die Ausrichtung der Bewehrungsstäbe fest (\"Bottom Right\", \"Bottom Left\", \"Top Right\" und \"Top Left\").
 
--    **Front Cover**   * Der Abstand zwischen Bewehrungsstab und gewählter Fläche.
+-    **Front Cover**: Der Abstand zwischen Bewehrungsstab und gewählter Fläche.
 
--    **Right Cover**   * Der Abstand zwischen dem rechten Ende des Bewehrungsstabs bis zur rechten Fläche der Struktur.
+-    **Right Cover**: Der Abstand zwischen dem rechten Ende des Bewehrungsstabs bis zur rechten Fläche der Struktur.
 
--    **Left Cover**   * Der Abstand zwischen dem linken Ende des Bewehrungsstabs bis zur linken Fläche der Struktur.
+-    **Left Cover**: Der Abstand zwischen dem linken Ende des Bewehrungsstabs bis zur linken Fläche der Struktur.
 
--    **Bottom Cover**   * Der Abstand zwischen Bewehrungsstab bis zur unteren Fläche der Struktur.
+-    **Bottom Cover**: Der Abstand zwischen Bewehrungsstab bis zur unteren Fläche der Struktur.
 
--    **Top Cover**   * Der Abstand zwischen dem Bewehrungsstab bis zur oberen Fläche der Struktur.
+-    **Top Cover**: Der Abstand zwischen dem Bewehrungsstab bis zur oberen Fläche der Struktur.
 
--    **Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the diameter.
+-    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the diameter.
 
--    **Amount**   * Die Anzahl der Bewehrungsstäbe.
+-    **Amount**: Die Anzahl der Bewehrungsstäbe.
 
--    **Spacing**   * Der Abstand zwischen den Achsen der Bewehrungsstäbe.
+-    **Spacing**: Der Abstand zwischen den Achsen der Bewehrungsstäbe.
 
 ## Scripting
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md), [Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das L-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   * 
+Das L-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
-                        structure=None, facename=None)   *
+                        structure=None, facename=None):
 ```
 
 -   Erstellt ein `Rebar`-Objekt aus der gegebenen `structure`, die eine [Arch Struktur](Arch_Structure/de.md) ist, und `facename`, die eine Fläche dieser Struktur ist.
@@ -151,11 +151,6 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

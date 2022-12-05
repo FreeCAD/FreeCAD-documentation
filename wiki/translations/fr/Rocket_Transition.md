@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Rocket Transition
-   Name/fr   *Rocket Transition
-   MenuLocation   *Rocket → Transition
-   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Rocket Transition
+   Name/fr:Rocket Transition
+   MenuLocation:Rocket → Transition
+   Workbenches:[Rocket](Rocket_Workbench/fr.md)
+   Version:0.19
 ---
 
 # Rocket Transition/fr
@@ -17,7 +17,7 @@ L\'application la plus courante consiste à passer d\'un diamètre de corps à u
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Transition.svg" width=16px> [Transition](Rocket_Transition/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Transition.svg" width=16px> Transition** dans le menu.
     -   Double-cliquez sur un objet Transition dans la [Vue en arborescence](Tree_view/fr.md).
@@ -64,70 +64,62 @@ Il y a des problèmes connus avec le dessin des transitions sur lesquels on trav
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    **Description**   * Description du composant
+-    **Description**: Description du composant
 
--    **Manufacturer**   * Fabricant lorsqu\'il est connu
+-    **Manufacturer**: Fabricant lorsqu\'il est connu
 
--    **Material**   * Matériau lorsqu\'il est connu
+-    **Material**: Matériau lorsqu\'il est connu
 
--    **Part Number**   * Numéro de pièce du fabricant
+-    **Part Number**: Numéro de pièce du fabricant
 
 
 {{TitleProperty|Transition}}
 
--    **Aft Diameter**   * Le diamètre de la base de la transition
+-    **Aft Diameter**: Le diamètre de la base de la transition
 
--    **Aft Shoulder**   * Vrai lorsque la transition comprend un épaulement à la base.
+-    **Aft Shoulder**: Vrai lorsque la transition comprend un épaulement à la base.
 
--    **Aft Shoulder Diameter**   * Le diamètre de l\'épaulement. Il doit être inférieur au **Aft Diameter** de la transition.
+-    **Aft Shoulder Diameter**: Le diamètre de l\'épaulement. Il doit être inférieur au **Aft Diameter** de la transition.
 
--    **Aft Shoulder Length**   * La longueur de l\'épaulement
+-    **Aft Shoulder Length**: La longueur de l\'épaulement
 
--    **Aft Shoulder Thickness**   * Lorsque le *Style de transition* est *Hollow* ou *Capped*, ceci détermine l\'épaisseur de la paroi de l\'épaulement.
+-    **Aft Shoulder Thickness**: Lorsque le *Style de transition* est *Hollow* ou *Capped*, ceci détermine l\'épaisseur de la paroi de l\'épaulement.
 
--    **Clipped**   * Définit la forme de la transition en combinaison avec le **Transition Type**, voir [Options](#Options.md).
+-    **Clipped**: Définit la forme de la transition en combinaison avec le **Transition Type**, voir [Options](#Options.md).
 
--    **Coefficient**   * Combiné avec **Transition Type**, ceci définit la forme de la transition, voir [Options](#Options.md).
+-    **Coefficient**: Combiné avec **Transition Type**, ceci définit la forme de la transition, voir [Options](#Options.md).
 
--    **Core Diameter**   * Lorsque **Transition Style** est *Solid Core*, ceci détermine la taille du trou à travers la transition, voir [Options](#Options.md).
+-    **Core Diameter**: Lorsque **Transition Style** est *Solid Core*, ceci détermine la taille du trou à travers la transition, voir [Options](#Options.md).
 
--    **Fore Diameter**   * Le diamètre de l\'avant de la transition
+-    **Fore Diameter**: Le diamètre de l\'avant de la transition
 
--    **Fore Shoulder**   * Vrai lorsque la transition comprend une épaule à l\'extrémité avant.
+-    **Fore Shoulder**: Vrai lorsque la transition comprend une épaule à l\'extrémité avant.
 
--    **Fore Shoulder Diameter**   * Le diamètre de l\'épaulement. Il doit être inférieur au *diamètre de l\'avant* de la transition.
+-    **Fore Shoulder Diameter**: Le diamètre de l\'épaulement. Il doit être inférieur au *diamètre de l\'avant* de la transition.
 
--    **Fore Shoulder Length**   * La longueur de l\'épaulement
+-    **Fore Shoulder Length**: La longueur de l\'épaulement
 
--    **Fore Shoulder Thickness**   * Lorsque le *Style de transition* est *Creux* ou *Recouvert*, ceci détermine l\'épaisseur de la paroi de l\'épaulement.
+-    **Fore Shoulder Thickness**: Lorsque le *Style de transition* est *Creux* ou *Recouvert*, ceci détermine l\'épaisseur de la paroi de l\'épaulement.
 
--    **Length**   * La longueur de la transition sans les épaulements.
+-    **Length**: La longueur de la transition sans les épaulements.
 
--    **Resolution**   * Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser pour dessiner le contour du cône de la coiffe.
+-    **Resolution**: Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser pour dessiner le contour du cône de la coiffe.
 
--    **Thickness**   * **Transition Type** est *Hollow* ou *Capped*, ce paramètre détermine l\'épaisseur de la paroi de la transition.
+-    **Thickness**: **Transition Type** est *Hollow* ou *Capped*, ce paramètre détermine l\'épaisseur de la paroi de la transition.
 
--    **Transition Style**   * Définit le style de la transition, voir [Options](#Options.md).
+-    **Transition Style**: Définit le style de la transition, voir [Options](#Options.md).
 
--    **Transition Type**   * Définit la forme de la transition en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
+-    **Transition Type**: Définit la forme de la transition en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
 
 ## Script
 
-Voir aussi    * [   *Category   *API/fr](   *Category   *API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 A définir
 
 ## Tutoriels et apprentissage 
 
-[Transitions atelier Rocket](https   *//youtu.be/O5Ze4MYAHNA) Tutoriel sur YouTube
-
-
-
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+[Transitions atelier Rocket](https://youtu.be/O5Ze4MYAHNA) Tutoriel sur YouTube
 
 
 

@@ -1,6 +1,6 @@
 # TechDraw Image/it
 ---
-- GuiCommand   */it   Name   *TechDraw Image   Name/it   *Immagine bitmap   Workbenches   *[MenuLocation   *TechDraw → Immagine bitmap   Shortcut   *   SeeAlso   *[[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
+- GuiCommand:/it   Name:TechDraw Image   Name/it:Immagine bitmap   Workbenches:[MenuLocation:TechDraw → Immagine bitmap   Shortcut:   SeeAlso:[[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
 
 
 </div>
@@ -32,20 +32,20 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Image}}
 
--    **Image File|File**   * The file containing this bitmap.
+-    **Image File|File**: The file containing this bitmap.
 
--    **Image Included|FileIncluded**   * Embedded image file. System use only.
+-    **Image Included|FileIncluded**: Embedded image file. System use only.
 
--    **Width|Float**   * The width of the cropped image in mm. Only used if **Crop** is `True`.
+-    **Width|Float**: The width of the cropped image in mm. Only used if **Crop** is `True`.
 
--    **Height|Float**   * The height of the cropped image in mm. Idem.
+-    **Height|Float**: The height of the cropped image in mm. Idem.
 
 ### View
 
 
 {{TitleProperty|Image}}
 
--    **Crop|Bool**   * Crop the image to **Width** x **Height**.
+-    **Crop|Bool**: Crop the image to **Width** x **Height**.
 
 ## Script
 
@@ -53,7 +53,7 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -63,14 +63,14 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Image può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+Lo strumento Image può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 </div>
 
 
 ```python
-dvi = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewImage','TestImage')
+dvi = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewImage','TestImage')
 rc = page.addView(dvi)
 dvi.ImageFile = "pathToMy/imageFile.png"
 dvi.Height = 200

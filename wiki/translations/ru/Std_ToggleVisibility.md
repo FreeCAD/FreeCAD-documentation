@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Видимость
-   Name   *Std_ToggleVisibility
-   MenuLocation   *Вид → Видимость
-   Workbenches   *Все
-   Shortcut   ***Space**
-   SeeAlso   *[Показать выделенные](Std_ShowSelection/ru.md), [Скрыть выделенные](Std_HideSelection/ru.md), [Инвертировать все видимости](Std_ToggleObjects/ru.md), [Показать все объекты](Std_ShowObjects/ru.md), [Скрыть все объекты](Std_HideObjects/ru.md)
+- GuiCommand:/ru
+   Name/ru:Видимость
+   Name:Std_ToggleVisibility
+   MenuLocation:Вид → Видимость
+   Workbenches:Все
+   Shortcut:**Space**
+   SeeAlso:[Показать выделенные](Std_ShowSelection/ru.md), [Скрыть выделенные](Std_HideSelection/ru.md), [Инвертировать все видимости](Std_ToggleObjects/ru.md), [Показать все объекты](Std_ShowObjects/ru.md), [Скрыть все объекты](Std_HideObjects/ru.md)
 ---
 
 # Std ToggleVisibility/ru
@@ -20,7 +20,7 @@
     -   Невидимые объекты могут быть выбраны в [древе проекта](Tree_view/ru.md).
     -   Будьте осторожны при использовании **Ctrl**+**A** для выделения всех объектов в древе проекта. Так как эта комбинация выделяет подэлементы [тел PartDesign](PartDesign_Body/ru.md) и объекты, используемые для [булевых операций в Part](Part_Boolean/ru.md). В большинстве случаев их надо оставлять невидимыми.
     -   Объекты, используемые для [булевых операций в Part](Part_Boolean/ru.md) так же выделяются при использовании **Ctrl**+**A** в окне трёхмерного вида.
-2.  Есть несколько способов вызвать команду   *
+2.  Есть несколько способов вызвать команду:
     -   Выбрать **Вид → <img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из меню.
     -   Выбрать **Вид → Видимость → <img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из меню.
     -   Выбрать **<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из контекстного меню в древе проекта. Эта опция не доступна в [верстаке PartDesign](PartDesign_Workbench/ru.md).
@@ -44,7 +44,7 @@
 ## Программирование
 
 
-**Смотрите так же   ***
+**Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
@@ -56,9 +56,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True   *
+if obj.Visibility == True:
   obj.hide()
-else   *
+else:
   obj.show()
 ```
 

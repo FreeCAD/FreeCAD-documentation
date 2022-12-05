@@ -1,12 +1,12 @@
 ---
-- GuiCommand   *
+- GuiCommand:
 
-   Name   *Std ViewDockUndockFullscreen
-   Empty   *1
-   MenuLocation   *View → Document window → Docked/Undocked
-   Workbenches   *All
-   Shortcut   ***V** **D** / **V** **U**
-   SeeAlso   *[Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
+   Name:Std ViewDockUndockFullscreen
+   Empty:1
+   MenuLocation:View → Document window → Docked/Undocked
+   Workbenches:All
+   Shortcut:**V** **D** / **V** **U**
+   SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
 ---
 
 # Std ViewDockUndockFullscreen/ro
@@ -27,10 +27,10 @@ The **Docked** menu option docks the active [3D view](3D_view.md) inside the mai
 ### Usage
 
 1.  Activate an undocked 3D view.
-2.  There are several ways to invoke the option   *
-    -   If there are no docked 3D views   * select the **View → Document window → Docked** option from the menu.
+2.  There are several ways to invoke the option:
+    -   If there are no docked 3D views: select the **View → Document window → Docked** option from the menu.
     -   Select the **Document window → Docked** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **V** then **D**.
+    -   Use the keyboard shortcut: **V** then **D**.
 
 ## Undocked
 
@@ -41,10 +41,10 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 ### Usage 
 
 1.  Activate a docked 3D view.
-2.  There are several ways to invoke the option   *
+2.  There are several ways to invoke the option:
     -   Select the **View → Document window → Undocked** option from the menu.
     -   Select the **Document window → Undocked** option from the 3D view context menu.
-    -   Use the keyboard shortcut   * **V** then **U**.
+    -   Use the keyboard shortcut: **V** then **U**.
 
 ## Notes
 

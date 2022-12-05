@@ -1,16 +1,16 @@
 ---
-- GuiCommand   *
-   Name   *Web BrowserZoomOut
-   MenuLocation   *
-   Workbenches   *[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso   *
+- GuiCommand:
+   Name:Web BrowserZoomOut
+   MenuLocation:
+   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso:
 ---
 
 # Web BrowserZoomOut/pl
 
 ## Description
 
-Use the <img alt="" src=images/Web_BrowserZoomOut.svg  style="width   *24px;"> **Web BrowserZoomOut** command to zoom out on the current web page.
+Use the <img alt="" src=images/Web_BrowserZoomOut.svg  style="width:24px;"> **Web BrowserZoomOut** command to zoom out on the current web page.
 
 ## Usage
 

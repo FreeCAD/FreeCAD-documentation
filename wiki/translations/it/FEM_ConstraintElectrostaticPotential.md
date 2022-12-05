@@ -1,6 +1,6 @@
 # FEM ConstraintElectrostaticPotential/it
 ---
-- GuiCommand   */it   Name   *FEM_ConstraintElectrostaticPotential   Name/it   *Potenziale elettrostatico di vincolo   Icon   *Fem-constraint-electrostatic-potential.svg   MenuLocation   * Modello → Vincoli elettrostatici → Potenziale elettrostatico di vincolo   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it   Name:FEM_ConstraintElectrostaticPotential   Name/it:Potenziale elettrostatico di vincolo   Icon:Fem-constraint-electrostatic-potential.svg   MenuLocation: Modello → Vincoli elettrostatici → Potenziale elettrostatico di vincolo   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -26,15 +26,15 @@ Da fare
 
 ## Options
 
-The dialog offers the following settings   *
+The dialog offers the following settings:
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 
--   **Potential**   * The electric potential in V.
--   **Potential Constant**   * Option to set a constant potential.
--   **Farfield / Electric infinity**   * Option to make spherical approximation that the volume above the face extends to infinity.
--   **Calculate Electric Force**   * Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
--   **Capacity Body   ***   * Counter of the body (or face) with a capacitance.
+-   **Potential**: The electric potential in V.
+-   **Potential Constant**: Option to set a constant potential.
+-   **Farfield / Electric infinity**: Option to make spherical approximation that the volume above the face extends to infinity.
+-   **Calculate Electric Force**: Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
+-   **Capacity Body:**: Counter of the body (or face) with a capacitance.
 
 
 

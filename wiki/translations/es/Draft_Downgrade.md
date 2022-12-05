@@ -1,34 +1,34 @@
 ---
-- GuiCommand   */es
-   Name   *Draft Downgrade
-   Name/es   *Borrador Rebajar
-   MenuLocation   *Modificación → Rebajar
-   Workbenches   *[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut   ***D** **N**
-   SeeAlso   *[Borrador Elevar](Draft_Upgrade/es.md), [Pieza Cortar](Part_Cut/es.md)
+- GuiCommand:/es
+   Name:Draft Downgrade
+   Name/es:Borrador Rebajar
+   MenuLocation:Modificación → Rebajar
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**D** **N**
+   SeeAlso:[Borrador Elevar](Draft_Upgrade/es.md), [Pieza Cortar](Part_Cut/es.md)
 ---
 
 # Draft Downgrade/es
 
 ## Descripción
 
-El <img alt="" src=images/Draft_Downgrade.svg  style="width   *24px;"> comando **Borrador Rebajar** rebaja los objetos seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, deconstruir un sólido 3D en caras separadas y un hilo en aristas separadas. Si se seleccionan dos caras, se crea un objeto [Pieza Corte](Part_Cut/es.md) a partir de ellas. Tenga en cuenta que no todos los objetos pueden ser rebajados. Este comando es la contraparte del comando [Borrador Elevar](Draft_Upgrade/es.md).
+El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando **Borrador Rebajar** rebaja los objetos seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, deconstruir un sólido 3D en caras separadas y un hilo en aristas separadas. Si se seleccionan dos caras, se crea un objeto [Pieza Corte](Part_Cut/es.md) a partir de ellas. Tenga en cuenta que no todos los objetos pueden ser rebajados. Este comando es la contraparte del comando [Borrador Elevar](Draft_Upgrade/es.md).
 
-<img alt="" src=images/Draft_Downgrade_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Dos caras superpuestas se rebajan a un objeto Pieza Corte, que se rebaja a una cara. Esa cara se rebaja a continuación a un hilo cerrado, que finalmente se rebajan a aristas separadas.*
 
 ## Utilización
 
 1.  Opcionalmente selecciona uno o más objetos.
-2.  Hay varias vías para invocar el comando   *
+2.  Hay varias vías para invocar el comando:
     -   Pulsar el **<img src="images/Draft_Downgrade.svg" width=16px> [Borrador Rebajar](Draft_Downgrade/es.md)**.
     -   Seleccione la opción **Modificación → <img src="images/Draft_Downgrade.svg" width=16px> Rebajar** en el menú.
-    -   Utilice el atajo de teclado   * **D** y luego **N**.
-3.  Si aún no ha seleccionado un objeto   * seleccione un objeto en la [Vista 3D](3D_view/es.md).
+    -   Utilice el atajo de teclado: **D** y luego **N**.
+3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 
 ## Guión
 
-Ver también   * [Documentación de la API autogenerada](https   *//freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para rebajar objetos utilice el método `downgrade` del módulo Borrador.
 
@@ -41,11 +41,11 @@ downgrade_list = downgrade(objects, delete=False, force=None)
 
 -   Si `delete` es `True` se eliminan los objetos de origen.
 
--    `force`fuerza una determinada forma de reducción llamando a una función interna específica. Puede ser   * `"explode"`, `"shapify"`, `"subtr"`, `"splitFaces"`, `"cut2"`, `"getWire"`, `"splitWires"` o `"splitCompounds"`.
+-    `force`fuerza una determinada forma de reducción llamando a una función interna específica. Puede ser: `"explode"`, `"shapify"`, `"subtr"`, `"splitFaces"`, `"cut2"`, `"getWire"`, `"splitWires"` o `"splitCompounds"`.
 
--   Se devuelve `downgrade_list`. Es una lista que contiene dos listas   * una lista de objetos nuevos y una lista de objetos a eliminar. Si `delete` es `True` la segunda lista está vacía.
+-   Se devuelve `downgrade_list`. Es una lista que contiene dos listas: una lista de objetos nuevos y una lista de objetos a eliminar. Si `delete` es `True` la segunda lista está vacía.
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python
@@ -65,7 +65,7 @@ add_list2, delete_list2 = Draft.downgrade(compound, delete=False)
 face = add_list2[0]
 add_list3, delete_list3 = Draft.downgrade(face, delete=False)
 
-box = doc.addObject("Part   *   *Box", "Box")
+box = doc.addObject("Part::Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

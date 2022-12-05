@@ -10,7 +10,7 @@
 
 ## Description
 
-This macro pops up a dialog with a list of US Imperial Arch scales list as retrieved from [Archtoolbox CAD Scale Factors](https   *//www.archtoolbox.com/representation/cad/scalefactor.html), with the corresponding factor to apply to TechDraw pages or views. The scales factors can be double-clicked and copied.
+This macro pops up a dialog with a list of US Imperial Arch scales list as retrieved from [Archtoolbox CAD Scale Factors](https://www.archtoolbox.com/representation/cad/scalefactor.html), with the corresponding factor to apply to TechDraw pages or views. The scales factors can be double-clicked and copied.
 
 ## Code
 
@@ -19,15 +19,15 @@ This macro pops up a dialog with a list of US Imperial Arch scales list as retri
 
 {{MacroCode|code=
 <nowiki>
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
-class Dialog(QDialog)   *
+class Dialog(QDialog):
 
-    def __init__(self)   *
+    def __init__(self):
 
         QDialog.__init__(self)
         self.resize(221, 413)
@@ -111,7 +111,7 @@ class Dialog(QDialog)   *
 
         QMetaObject.connectSlotsByName(self)
 
-    def retranslateUi(self,dlg=None)   *
+    def retranslateUi(self,dlg=None):
 
         self.setWindowTitle(QCoreApplication.translate("Dialog", u"Arch scale factors", None))
         qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)

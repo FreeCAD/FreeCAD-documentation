@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pt
-   Name   *Sketcher External
-   Name/pt   *Sketcher External
-   MenuLocation   *Sketch → Sketcher geometries → Sketcher External
-   Workbenches   *[Sketcher](Sketcher_Workbench/pt.md)
-   Shortcut   *X
-   SeeAlso   *[Sketcher ConstructionMode](Sketcher_ToggleConstruction/pt.md)
+- GuiCommand:/pt
+   Name:Sketcher External
+   Name/pt:Sketcher External
+   MenuLocation:Sketch → Sketcher geometries → Sketcher External
+   Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
+   Shortcut:X
+   SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction/pt.md)
 ---
 
 # Sketcher External/pt
@@ -19,12 +19,12 @@ Use the **<img src="images/Sketcher_External.svg" width=16px> [External geometry
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
-<FILE   *Sketcher_ExternalEsempio1.png>
+<FILE:Sketcher_ExternalEsempio1.png>
 
 ## Usage
 
 -   Create a new sketch, or open an existing sketch.
--   Press the **[<img src=images/Sketcher_External.svg style="width   *16px"> [External geometry](Sketcher_External.md)** button.
+-   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [External geometry](Sketcher_External.md)** button.
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press **Esc**, or select another tool to stop importing geometry into the sketch.
 
@@ -66,15 +66,15 @@ This, below, is a sketch mapped to the top face of a solid created from a Pad of
 
 In this case they are used as a reference for tangency constraints with the circumferences of one circle. They are also used as the reference for a horizontal and a vertical constraint to locate the centre of the second circle relative to the end and top of the Pad.
 
-<FILE   *Sketcher_ExternalEsempio2.png>
+<FILE:Sketcher_ExternalEsempio2.png>
 
 This is the same sketch in edit mode, with the Pad upon which it is mapped hidden.
 
-<FILE   *Sketcher_ExternalEsempio4.png>
+<FILE:Sketcher_ExternalEsempio4.png>
 
 When the sketch edit mode is closed, external Geometry lines are not visible.
 
-<FILE   *Sketcher_ExternalEsempio3.png>
+<FILE:Sketcher_ExternalEsempio3.png>
 
 
 

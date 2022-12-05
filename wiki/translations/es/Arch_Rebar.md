@@ -1,6 +1,6 @@
 # Arch Rebar/es
 ---
-- GuiCommand   */es   Name   *Arch Rebar   Name/es   *Arch Rebar   Workbenches   *[MenuLocation   *Arch → Rebar   Shortcut   *R B   SeeAlso   *[[Arch Structure/es|Arch Structure](Arch_Workbench/es___Arch]].md)---
+- GuiCommand:/es   Name:Arch Rebar   Name/es:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/es|Arch Structure](Arch_Workbench/es___Arch]].md)---
 
 
 </div>
@@ -9,7 +9,7 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand   */es   Name   *Arch Rebar   Name/es   *Arch Rebar   Workbenches   *[MenuLocation   *Arch → Rebar   Shortcut   *R B   SeeAlso   *[[Arch Structure/es|Arch Structure](Arch_Workbench/es___Arch]].md)---
+- GuiCommand:/es   Name:Arch Rebar   Name/es:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/es|Arch Structure](Arch_Workbench/es___Arch]].md)---
 
 
 </div>
@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Rebar le permite colocar [reinforcing bars](http   *//en.wikipedia.org/wiki/Rebar) dentro de los objetos [Arch Structure](Arch_Structure/es.md). Los objetos de barra de refuerzo se basan en perfiles 2D como [sketches](Sketcher_Workbench/es.md) o [draft objects](Draft_Workbench/es.md), que deben dibujarse en una cara de un objeto de estructura. A continuación, puede ajustar la configuración de las barras de refuerzo, como el número y el diámetro de las barras, o la distancia de desplazamiento entre los dos extremos del elemento estructural.
+La herramienta Rebar le permite colocar [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) dentro de los objetos [Arch Structure](Arch_Structure/es.md). Los objetos de barra de refuerzo se basan en perfiles 2D como [sketches](Sketcher_Workbench/es.md) o [draft objects](Draft_Workbench/es.md), que deben dibujarse en una cara de un objeto de estructura. A continuación, puede ajustar la configuración de las barras de refuerzo, como el número y el diámetro de las barras, o la distancia de desplazamiento entre los dos extremos del elemento estructural.
 
 
 </div>
@@ -28,7 +28,7 @@ The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM
 
 Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
 
-<img alt="" src=images/Arch_Rebar_example.jpg  style="width   *400px;">
+<img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -86,19 +86,19 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 ## Propiedades
 
--    {{PropertyData/es|Amount}}   * La cantidad de barras.
+-    {{PropertyData/es|Amount}}: La cantidad de barras.
 
--    {{PropertyData/es|Diameter}}   * El diámetro de las barras.
+-    {{PropertyData/es|Diameter}}: El diámetro de las barras.
 
--    {{PropertyData/es|Direction}}   * La dirección (y longitud) a lo largo de la cual las barras deben extenderse. Si el valor es (0,0,0), la dirección se calcula automáticamente desde el objeto estructural del host.
+-    {{PropertyData/es|Direction}}: La dirección (y longitud) a lo largo de la cual las barras deben extenderse. Si el valor es (0,0,0), la dirección se calcula automáticamente desde el objeto estructural del host.
 
--    {{PropertyData/es|Offset Start}}   * La distancia de desplazamiento entre el borde del objeto estructural y la primera barra.
+-    {{PropertyData/es|Offset Start}}: La distancia de desplazamiento entre el borde del objeto estructural y la primera barra.
 
--    {{PropertyData/es|Offset End}}   * La distancia de desplazamiento entre el borde del objeto estructural y la última barra.
+-    {{PropertyData/es|Offset End}}: La distancia de desplazamiento entre el borde del objeto estructural y la última barra.
 
--    {{PropertyData/es|Rounding}}   * A rounding value to be applied to the corners of the bars, expressed in times the diameter.
+-    {{PropertyData/es|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times the diameter.
 
--    {{PropertyData/es|Spacing}}   * La distancia entre los ejes de cada barra.
+-    {{PropertyData/es|Spacing}}: La distancia entre los ejes de cada barra.
 
 
 <div class="mw-translate-fuzzy">
@@ -111,7 +111,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Refuerzo de Barras puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función   *
+La herramienta Refuerzo de Barras puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función:
 
 
 </div>
@@ -131,7 +131,7 @@ Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=Non
 
 </div>
 
-Ejemplo   *
+Ejemplo:
 
 
 ```python
@@ -143,7 +143,7 @@ FreeCAD.ActiveDocument.recompute()
 
 p1 = FreeCAD.Vector(-400, 400, 0)
 p2 = FreeCAD.Vector(400, 400, 0)
-Sketch = FreeCAD.ActiveDocument.addObject('Sketcher   *   *SketchObject', 'Sketch')
+Sketch = FreeCAD.ActiveDocument.addObject('Sketcher::SketchObject', 'Sketch')
 Sketch.MapMode = "FlatFace"
 Sketch.Support = [(Structure, "Face6")]
 Sketch.addGeometry(Part.LineSegment(p1, p2))
@@ -160,11 +160,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
- 
-
-[Category   *Arch/es](Category   *Arch/es.md) [Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

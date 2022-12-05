@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */sv
-   Name   *Constraint PointOnObject
-   Name/sv   *Constraint PointOnObject
-   Workbenches   *[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   MenuLocation   *Sketch → Sketcher constraints → Constrain point onto object
-   SeeAlso   *[Constraint Coincident](Sketcher_ConstrainCoincident/sv.md)
+- GuiCommand:/sv
+   Name:Constraint PointOnObject
+   Name/sv:Constraint PointOnObject
+   Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain point onto object
+   SeeAlso:[Constraint Coincident](Sketcher_ConstrainCoincident/sv.md)
 ---
 
 # Sketcher ConstrainPointOnObject/sv
@@ -25,14 +25,14 @@
 ## Usage
 
 1.  Select a point and an edge in any order.
-2.  There are several ways to invoke the command   *
-    -   Press the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Constrain point onto object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
+2.  There are several ways to invoke the command:
+    -   Press the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Constrain point onto object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
     -   Use the **O** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> Constrain point onto object** entry in the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Constrain point onto object** entry in the top menu.
 
 ## Scripting
 
-The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command   *
+The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

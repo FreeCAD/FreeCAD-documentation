@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Компоновка
-   Name   *Arch_Nest
-   MenuLocation   *Arch → Инструменты панелирования → Компоновка
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Version   *0.17
-   SeeAlso   *[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
+- GuiCommand:/ru
+   Name/ru:Компоновка
+   Name:Arch_Nest
+   MenuLocation:Arch → Инструменты панелирования → Компоновка
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Version:0.17
+   SeeAlso:[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
 ---
 
 # Arch Nest/ru
@@ -16,7 +16,7 @@
 
 Алгоритм, лежащий в основе инструмента Компоновка, постепенно дорабатывается и улучшается, но в на данный момент он не полностью оптимизирован. В будущем производительность данного инструмента должна стать намного лучше.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
 
 \"На изображении выше показан ряд фигур до и после выполнения компоновки\".
 
@@ -31,7 +31,7 @@
 7.  В конце вычисления нажмите кнопку **Предварительный просмотр**, чтобы создать временный предварительный просмотр результата.
 8.  Если вы хотите применить результат (переместить и повернуть фактические фигуры на место), нажмите **OK**.
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *800px;"> 
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width:800px;"> 
 *Внешний вид панели задач инструмента [Комоновка](Arch_Nest/ru.md)*
 
 ## Примечания

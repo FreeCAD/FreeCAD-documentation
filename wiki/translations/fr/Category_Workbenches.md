@@ -1,8 +1,6 @@
 # Category:Workbenches/fr
 Cette catégorie répertorie les ateliers inclus dans FreeCAD.
 
-[Category   *User Documentation/fr](Category   *User_Documentation/fr.md)
-
 ### Contents
 
 |     |     |     |

@@ -1,44 +1,44 @@
 ---
-- GuiCommand   */pl
-   Name   *Draft Rotate
-   Name/pl   *Rysunek Roboczy   * Obróć
-   MenuLocation   *Modyfikacja → Obróć
-   Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut   ***R** **O**
-   SeeAlso   *[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
-   Version   *0.7
+- GuiCommand:/pl
+   Name:Draft Rotate
+   Name/pl:Rysunek Roboczy: Obróć
+   MenuLocation:Modyfikacja → Obróć
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut:**R** **O**
+   SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
+   Version:0.7
 ---
 
 # Draft Rotate/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Rotate.svg  style="width   *24px;"> **Obróć** - obraca lub kopiuje wybrane obiekty wokół punktu środkowego o zadany kąt. W trybie elementu podrzędnego polecenie obraca wybrane punkty i krawędzie lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
+Polecenie <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Obróć** - obraca lub kopiuje wybrane obiekty wokół punktu środkowego o zadany kąt. W trybie elementu podrzędnego polecenie obraca wybrane punkty i krawędzie lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
 
 Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
-<img alt="" src=images/Draft_Rotate_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
 *Obracanie obiektu przy użyciu punktu środkowego.*
 
 ## Użycie
 
-Zobacz także strony   * [Rysunek Roboczy   * Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy   * Wiązania](Draft_Constrain/pl.md).
+Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych [linii](Draft_Line/pl.md) lub [linii łamanej](Draft_Wire.md).
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Rotate.svg" width=16px> [Obróć](Draft_Rotate/pl.md)**.
     -   Wybierz z menu **Modifikacja → <img src="images/Draft_Rotate.svg" width=16px> Obróć**.
-    -   Użyj skrótu klawiaturowego   * **R**, a następnie **O**.
-3.  Jeśli nie zaznaczyłeś jeszcze obiektu   * wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego: **R**, a następnie **O**.
+3.  Jeśli nie zaznaczyłeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otworzy się panel zadań **Obróć**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
-5.  Jeśli zostały wybrane elementy podrzędne   * zaznacz pole wyboru **Modyfikuj elementy podrzędne**, aby włączyć tryb pracy z elementami podrzędnymi.
+5.  Jeśli zostały wybrane elementy podrzędne: zaznacz pole wyboru **Modyfikuj elementy podrzędne**, aby włączyć tryb pracy z elementami podrzędnymi.
 6.  Wybierz pierwszy punkt, środek obrotu, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 7.  Wybierz drugi punkt w [widoku 3D](3D_view/pl.md), lub wprowadź **Kąt bazowy**.
 8.  Wybierz trzeci punkt w oknie [widoku 3D](3D_view/pl.md), lub wprowadź **Obrót**.
 
 ## Opcje
 
-Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
+Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby ręcznie wprowadzić współrzędne środka obrotu, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno[widoku 3D](3D_view/pl.md).
 -   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
@@ -56,15 +56,15 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 ## Ustawienia
 
-Zobacz także strony   * [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych i kątów   * **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny**.
--   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny**.
+-   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
 
 ## Tworzenie skryptów 
 
-Zobacz również   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz
+Zobacz również: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz
 
 [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
@@ -87,7 +87,7 @@ rotated_list = rotate(objectslist, angle, center=Vector(0,0,0), axis=Vector(0,0,
 
 -   Zwracana jest lista `rotated_list` z oryginalnymi obróconymi obiektami lub z nowymi kopiami. Jest to albo pojedynczy obiekt, albo lista obiektów, w zależności od `objectlist`.
 
-Przykład   *
+Przykład:
 
 
 ```python

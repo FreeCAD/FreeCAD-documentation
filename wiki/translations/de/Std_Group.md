@@ -1,13 +1,13 @@
 # Std Group/de
 ---
-- GuiCommand   */de
-   Name   *Std Group
-   Name/de   *Std Gruppe
-   MenuLocation   *Baumansicht → Rechtsklick auf den Dokumentennamen
-   |Workbenches   *Alle
-   Shortcut   *
-   Version   *
-   SeeAlso   *[Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
+- GuiCommand:/de
+   Name:Std Group
+   Name/de:Std Gruppe
+   MenuLocation:Baumansicht → Rechtsklick auf den Dokumentennamen
+   |Workbenches:Alle
+   Shortcut:
+   Version:
+   SeeAlso:[Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
 
 ## Beschreibung
 
@@ -25,7 +25,7 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren und damit eine Baugruppe 
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten eine Gruppe anzulegen   *
+1.  Es gibt mehrere Möglichkeiten eine Gruppe anzulegen:
     -   Ein Rechtsklick auf den Namen des Dokuments in der [Baumansicht](Tree_view/de.md) und im Kontextmenü **Gruppe erstellen...** auswählen.
     -   Die Schaltfläche **<img src="images/Std_Group.svg" width=16px> [Gruppe erstellen](Std_Group/de.md)** drücken.
 2.  Eine leere Gruppe wird erstellt.
@@ -35,7 +35,7 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren und damit eine Baugruppe 
 
 ## Eigenschaften
 
-Die [Std Gruppe](Std_Group/de.md) wird intern [App-DocumentObjectGroup](App_DocumentObjectGroup/de.md) genannt (Klasse `App   *   *DocumentObjectGroup`) und wird von einem [App-DocumentObject](App_DocumentObject/de.md) (Klasse `App   *   *DocumentObject`) abgeleitet und erbt all seine Eigenschaften.
+Die [Std Gruppe](Std_Group/de.md) wird intern [App-DocumentObjectGroup](App_DocumentObjectGroup/de.md) genannt (Klasse `App::DocumentObjectGroup`) und wird von einem [App-DocumentObject](App_DocumentObject/de.md) (Klasse `App::DocumentObject`) abgeleitet und erbt all seine Eigenschaften.
 
 Die Std Gruppe hat dieselben Eigenschaften wie ein [App-FeaturePython](App_FeaturePython/de#Eigenschaften.md), das die grundlegendste Instanz eines [App-DocumentObjects](App_DocumentObject/de.md) ist. Es zeigt auch die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Verdeckte Eigenschaften können mit dem Befehl {{MenuCommand/de|Alle anzeigen}} im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
 
@@ -44,14 +44,14 @@ Die Std Gruppe hat dieselben Eigenschaften wie ein [App-FeaturePython](App_Featu
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/de|Group|LinkList}}   * Eine Liste referenzierter Objekte. Voreingestellt ist eine leere Liste {{value|[]}}.
+-    {{PropertyData/de|Group|LinkList}}: Eine Liste referenzierter Objekte. Voreingestellt ist eine leere Liste {{value|[]}}.
 
--    {{PropertyData/de|_ Group Touched|Bool|Hidden}}   * Gibt an, ob die Gruppe -?- (touched) ist oder nicht.
+-    {{PropertyData/de|_ Group Touched|Bool|Hidden}}: Gibt an, ob die Gruppe -?- (touched) ist oder nicht.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
@@ -64,35 +64,35 @@ Eine \'Std Gruppe\' ([App-DocumentObjectGroup](App_DocumentObjectGroup/de.md)) w
 import FreeCAD as App
 
 doc = App.newDocument()
-group = App.ActiveDocument.addObject("App   *   *DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
 
-obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
 group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-Diese grundlegende `App   *   *DocumentObjectGroup` hat kein Proxyobjekt und kann daher nicht vollständig zur Erstellung von Unterklassen verwendet werden.
+Diese grundlegende `App::DocumentObjectGroup` hat kein Proxyobjekt und kann daher nicht vollständig zur Erstellung von Unterklassen verwendet werden.
 
-Für die Instanziierung von Unterklassen mit [Python](Python/de.md) sollte ein `App   *   *DocumentObjectGroupPython`-Objekt erstellt werden.
+Für die Instanziierung von Unterklassen mit [Python](Python/de.md) sollte ein `App::DocumentObjectGroupPython`-Objekt erstellt werden.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App   *   *DocumentObjectGroupPython", "Name")
+obj = App.ActiveDocument.addObject("App::DocumentObjectGroupPython", "Name")
 obj.Label = "Custom label"
 ```
 
-Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App   *   *DocumentObjectGroupPython`-Objekt mit einem benutzerdefinierten Icon und zusätzlichen Eigenschaften.
+Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectGroupPython`-Objekt mit einem benutzerdefinierten Icon und zusätzlichen Eigenschaften.
 
 ## Verweise
 
 -   [Arch Tutorium](Arch_tutorial/de#Organizing_your_model.md)
 -   [Dokumentenstruktur](Document_structure/de.md)
--   [Arch Tutorium/Ihr Modell organisieren](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial/de#Ihr_Modell_organisieren)
+-   [Arch Tutorium/Ihr Modell organisieren](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial/de#Ihr_Modell_organisieren)
 
 
 

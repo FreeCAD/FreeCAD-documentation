@@ -1,10 +1,10 @@
 # Robot SetHomePos/ru
 ---
-- GuiCommand   */ru
-   Name   *Robot SetHomePos
-   Name/ru   *Robot SetHomePos
-   Workbenches   *[Robot](Robot_Workbench/ru.md)
-   MenuLocation   *Робот → Установить исходное положение---
+- GuiCommand:/ru
+   Name:Robot SetHomePos
+   Name/ru:Robot SetHomePos
+   Workbenches:[Robot](Robot_Workbench/ru.md)
+   MenuLocation:Робот → Установить исходное положение---
 
 
 </div>
@@ -16,7 +16,7 @@
 ## Применение
 
 1.  Выделите робота в [древе проекта](Tree_view/ru.md) или в текущем [трёхмерном виде](3D_view/ru.md)
-2.  Кликните по <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> или выберите в главном меню пункт **Робот** → **<img src="images/Robot_SetHomePos.svg" width=32px> Сохранить текущее положение как исходное**.
+2.  Кликните по <img alt="" src=images/Robot_SetHomePos.svg  style="width:32px;"> или выберите в главном меню пункт **Робот** → **<img src="images/Robot_SetHomePos.svg" width=32px> Сохранить текущее положение как исходное**.
 
 
 <div class="mw-translate-fuzzy">

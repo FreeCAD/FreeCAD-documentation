@@ -7,17 +7,17 @@
 |Version=1.0
 |Date=2022-07-22
 |FCVersion=All
-|Download=[https   *//wiki.freecadweb.org/images/7/7b/Pcbway.png Icône de la barre d'outils]
+|Download=[https://wiki.freecadweb.org/images/7/7b/Pcbway.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro envoie l\'objet sélectionné (maillage, forme ou corps) au [site Web de PCBWay](https   *//pcbway.com) pour obtenir un devis instantané de fabrication par fraisage CNC, découpe laser ou impression 3D. Une fois l\'objet envoyé, une page s\'ouvre sur le site Web de PCBWay pour permettre à l\'utilisateur de régler les détails et les options.
+Cette macro envoie l\'objet sélectionné (maillage, forme ou corps) au [site Web de PCBWay](https://pcbway.com) pour obtenir un devis instantané de fabrication par fraisage CNC, découpe laser ou impression 3D. Une fois l\'objet envoyé, une page s\'ouvre sur le site Web de PCBWay pour permettre à l\'utilisateur de régler les détails et les options.
 
-**Remarque**    * les objets à base de maillage ne peuvent être fabriqués que par impression 3D. Pour le fraisage CNC ou la découpe laser, vous devez utiliser des objets basés sur la forme.
+**Remarque** : les objets à base de maillage ne peuvent être fabriqués que par impression 3D. Pour le fraisage CNC ou la découpe laser, vous devez utiliser des objets basés sur la forme.
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/pcbway.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/pcbway.FCMacro}}
 
 ## Utilisation
 
@@ -31,7 +31,7 @@ Cette macro envoie l\'objet sélectionné (maillage, forme ou corps) au [site We
 
 ## Code
 
-La dernière version de la macro se trouve à l\'adresse <https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/pcbway.FCMacro>.
+La dernière version de la macro se trouve à l\'adresse <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/pcbway.FCMacro>.
 
 **Macro_PCBWay.FCMacro** {{MacroCode|code=
 #***************************************************************************
@@ -59,7 +59,7 @@ La dernière version de la macro se trouve à l\'adresse <https   *//github.com/
 """
 PCBWay Macro for FreeCAD
 
-https   *//pcbway.com
+https://pcbway.com
 
 This macro sends the currently selected object to the PCBWay website
 to get an instant quote for manufacturing. After the object is sent,
@@ -67,18 +67,18 @@ a page will be opened on the PCBWay website to allow the user to adjust
 details and options.
 """
 
-# code inspired / borrowed from   *
-# KiCAD PcbWay plugin   * https   *//github.com/pcbway/PCBWay-Plug-in-for-Kicad/blob/main/plugins/thread.py
-# urllib-based upload   * http   *//pymotw.com/2/urllib2/#uploading-files
-# mime stuff   * https   *//stackoverflow.com/questions/27099290/where-is-mimetools-choose-boundary-function-in-python3#27174474
+# code inspired / borrowed from:
+# KiCAD PcbWay plugin: https://github.com/pcbway/PCBWay-Plug-in-for-Kicad/blob/main/plugins/thread.py
+# urllib-based upload: http://pymotw.com/2/urllib2/#uploading-files
+# mime stuff: https://stackoverflow.com/questions/27099290/where-is-mimetools-choose-boundary-function-in-python3#27174474
 
-# version history   *
+# version history:
 # version 1.0 - 2022.07.22
 
 __title__   = "Macro_PCBWay"
 __author__  = "Yorik van Havre"
-__wiki__    = "https   *//www.freecad.org/wiki/Macro_PCBWay"
-__url__     = "https   *//www.pcbway.com"
+__wiki__    = "https://www.freecad.org/wiki/Macro_PCBWay"
+__url__     = "https://www.pcbway.com"
 __version__ = "1.0"
 __date__    = "22/07/2022"
 
@@ -95,111 +95,111 @@ import email.generator
 import itertools
 
 
-pcb_url = "https   *//www.pcbway.com/common/freecadupfile"
+pcb_url = "https://www.pcbway.com/common/freecadupfile"
 
 
-def msg(message)   *
+def msg(message):
 
     """prints a message where appropriate"""
 
     FreeCAD.Console.PrintError(message+"\n")
-    if FreeCAD.GuiUp   *
+    if FreeCAD.GuiUp:
         from PySide import QtGui
         reply = QtGui.QMessageBox.critical(None,"PCBWay export",message)
 
 
-class MultiPartData(object)   *
+class MultiPartData(object):
 
     """Gathers data and files to be sent via HTTP POST"""
 
-    def __init__(self)   *
+    def __init__(self):
         self.form_fields = []
         self.files = []
         self.boundary = email.generator._make_boundary()
         self.add_field("Unit","Millimeter") #FreeCAD's boundboxes are always in mm
         return
 
-    def get_content_type(self)   *
+    def get_content_type(self):
         return 'multipart/form-data; boundary=%s' % self.boundary
 
-    def add_field(self, name, value)   *
+    def add_field(self, name, value):
         """Add a simple field to the form data."""
         self.form_fields.append((name, str(value)))
         return
 
-    def add_file(self, fieldname, filename, fileHandle, mime)   *
+    def add_file(self, fieldname, filename, fileHandle, mime):
         """Add a file to be uploaded."""
         body = fileHandle.read()
         self.files.append((fieldname, filename, mime, body))
         return
 
-    def get_bytes(self)   *
+    def get_bytes(self):
         """Return a string representing the form data, including attached files."""
         parts = []
         part_boundary = '--' + self.boundary
-        parts.extend([part_boundary,'Content-Disposition   * form-data; name="%s"' % name,'',value] for name, value in self.form_fields)
-        parts.extend([part_boundary,'Content-Disposition   * file; name="%s"; filename="%s"' % (field_name, filename),
-                                    'Content-Type   * %s' % content_type,'',body] for field_name, filename, content_type, body in self.files)
+        parts.extend([part_boundary,'Content-Disposition: form-data; name="%s"' % name,'',value] for name, value in self.form_fields)
+        parts.extend([part_boundary,'Content-Disposition: file; name="%s"; filename="%s"' % (field_name, filename),
+                                    'Content-Type: %s' % content_type,'',body] for field_name, filename, content_type, body in self.files)
         flattened = list(itertools.chain(*parts))
         flattened.append('--' + self.boundary + '--')
         flattened.append('')
         return bytes('\r\n'.join(flattened),'utf8')
 
 
-def main()   *
+def main():
 
     # validity tests
     mesh = None
     shape = None
-    if not FreeCAD.GuiUp   *
+    if not FreeCAD.GuiUp:
         return
-    if not FreeCAD.ActiveDocument   *
+    if not FreeCAD.ActiveDocument:
         msg("There is no opened document. Please open or create a document containing objects before running this macro.")
         return
     # get the selected object, or the only visible body or object if nothing is selected
     selection = FreeCADGui.Selection.getSelection()
-    if not selection   *
+    if not selection:
         visibles = [obj for obj in FreeCAD.ActiveDocument.Objects if obj.ViewObject.Visibility]
-        if len(visibles) == 1   *
+        if len(visibles) == 1:
             obj = visibles[0]
-            if hasattr(obj,"Shape")   *
+            if hasattr(obj,"Shape"):
                 shape = obj.Shape
-            elif hasattr(obj,"Mesh")   *
+            elif hasattr(obj,"Mesh"):
                 mesh = obj.Mesh
-        elif len(visibles) > 1   *
-            bodies = [obj for obj in visibles if obj.isDerivedFrom("PartDesign   *   *Body")]
-            if len(bodies) == 1   *
+        elif len(visibles) > 1:
+            bodies = [obj for obj in visibles if obj.isDerivedFrom("PartDesign::Body")]
+            if len(bodies) == 1:
                 shape = bodies[0].Shape
-            else   *
+            else:
                 msg("No object is selected. Please select one object or body before running this macro.")
                 return
-    elif len(selection) > 1   *
+    elif len(selection) > 1:
         msg("More than one object is selected. Please select only one object or body before running this macro.")
         return
-    else   *
+    else:
         obj = selection[0]
-        if hasattr(obj,"Shape")   *
+        if hasattr(obj,"Shape"):
             shape = obj.Shape
-            if (not shape) or (not hasattr(shape,"isNull")) or shape.isNull()   *
+            if (not shape) or (not hasattr(shape,"isNull")) or shape.isNull():
                 msg("The selected object has no shape. Please select an object with a shape before running this macro.")
                 return
-        elif hasattr(obj,"Mesh")   *
+        elif hasattr(obj,"Mesh"):
             mesh = obj.Mesh
-    if (not shape) and (not mesh)   *
+    if (not shape) and (not mesh):
         msg("Unable to find a suitable shape in the selection or in the visible objects. Please select an object before running this macro.")
         return
 
     # offer to add the macro as a button on first run
     # not working yet!
-    # prefs = FreeCAD.ParamGet("User parameter   *Plugins/PCBWay")
-    # if prefs.GetBool("FirstTime",True)   *
+    # prefs = FreeCAD.ParamGet("User parameter:Plugins/PCBWay")
+    # if prefs.GetBool("FirstTime",True):
     #    prefs.SetBool("FirstTime",False)
     #    from PySide import QtGui
     #    reply = QtGui.QMessageBox.question(None, "Install macro?",
     #        "This is the first time you are launching the PCBWay macro. Do you wish to add a toolbar button for it?",
     #        QtGui.QMessageBox.Yes | QtGui.QMessageBox.No, QtGui.QMessageBox.No)
-    #    if reply == QtGui.QMessageBox.Yes   *
-    #        icon = "https   *//github.com/pcbway/PCBWay-Plug-in-for-Kicad/raw/main/resources/icon.png"
+    #    if reply == QtGui.QMessageBox.Yes:
+    #        icon = "https://github.com/pcbway/PCBWay-Plug-in-for-Kicad/raw/main/resources/icon.png"
     #        u = urllib.request.urlopen(icon)
     #        idata = u.read()
     #        u.close()
@@ -209,14 +209,14 @@ def main()   *
     #        f.write(idata)
     #        f.close()
 
-    if shape   *
+    if shape:
         # saving the file as step
         tf = tempfile.NamedTemporaryFile(suffix=".stp")
         tf.close()
         shape.exportStep(tf.name)
         bb = shape.BoundBox
         mime = "application/STEP"
-    elif mesh   *
+    elif mesh:
         # saving the file as step
         tf = tempfile.NamedTemporaryFile(suffix=".obj")
         tf.close()
@@ -231,7 +231,7 @@ def main()   *
     data.add_field('Height', bb.ZLength)
     data.add_file('upload[file]', os.path.basename(tf.name), open(tf.name,'r'), mime)
     request = urllib.request.Request(pcb_url)
-    request.add_header('User-agent', 'FreeCAD (https   *//freecad.org)')
+    request.add_header('User-agent', 'FreeCAD (https://freecad.org)')
     body = data.get_bytes()
     request.add_header('Content-type', data.get_content_type())
     request.add_header('Content-length', len(body))

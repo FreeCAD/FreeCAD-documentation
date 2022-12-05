@@ -1,8 +1,6 @@
 # Category:Screenshots/ru
 This category lists pages with screenshots.
 
-[Category   *Documentation/ru](Category   *Documentation/ru.md)
-
 ### Contents
 
 |     |     |     |

@@ -7,12 +7,12 @@ Die nützlichsten Befehle sind `Raytracing.getPartAsPovray()` und `Raytracing.ge
 
 ## Ausgabe von Renderdateien 
 
-Hier ist, wie man eine povray-Datei aus Python schreibt, vorausgesetzt, das Dokument enthält ein \"Box\"-Objekt   *
+Hier ist, wie man eine povray-Datei aus Python schreibt, vorausgesetzt, das Dokument enthält ein \"Box\"-Objekt:
 
 
 ```python
 import Raytracing,RaytracingGui
-OutFile = open('C   */Documents and Settings/jriegel/Desktop/test.pov','w')
+OutFile = open('C:/Documents and Settings/jriegel/Desktop/test.pov','w')
 OutFile.write(open(App.getResourceDir()+'Mod/Raytracing/Templates/ProjectStd.pov').read())
 OutFile.write(RaytracingGui.povViewCamera())
 OutFile.write(Raytracing.getPartAsPovray('Box',App.activeDocument().Box.Shape,0.800000,0.800000,0.800000))
@@ -20,12 +20,12 @@ OutFile.close()
 del OutFile
 ```
 
-Und das Gleiche für Luxrender   *
+Und das Gleiche für Luxrender:
 
 
 ```python
 import Raytracing,RaytracingGui
-OutFile = open('C   */Documents and Settings/jriegel/Desktop/test.lxs','w')
+OutFile = open('C:/Documents and Settings/jriegel/Desktop/test.lxs','w')
 OutFile.write(open(App.getResourceDir()+'Mod/Raytracing/Templates/LuxClassic.lxs').read())
 OutFile.write(RaytracingGui.luxViewCamera())
 OutFile.write(Raytracing.getPartAsLux('Box',App.activeDocument().Box.Shape,0.800000,0.800000,0.800000))
@@ -35,20 +35,18 @@ del OutFile
 
 ## Erzeugen eines benutzerdefinierten Renderobjekts 
 
-Neben den standardmäßigen Povray- und Luxrender Ansichtsobjekten, die eine Ansicht eines vorhandenen Part Objekts bieten und die jeweils in Povray- und Luxrender Projekte eingefügt werden können, existiert ein drittes Objekt, genannt RaySegment, das entweder in Povray- oder Luxrender Projekte eingefügt werden kann. Dieses RaySegment Objekt ist nicht mit einem der FreeCAD Objekte verknüpft und kann benutzerdefinierten Povray- oder Luxrender Code enthalten, den Sie möglicherweise in Ihr Raytracing Projekt einfügen möchten. Du kannst es auch verwenden, um z.B. deine FreeCAD Objekte auf eine bestimmte Weise auszugeben, wenn du mit dem Standardweg nicht zufrieden bist. Du kannst es so von der Python Konsole aus erstellen und verwenden   *
+Neben den standardmäßigen Povray- und Luxrender Ansichtsobjekten, die eine Ansicht eines vorhandenen Part Objekts bieten und die jeweils in Povray- und Luxrender Projekte eingefügt werden können, existiert ein drittes Objekt, genannt RaySegment, das entweder in Povray- oder Luxrender Projekte eingefügt werden kann. Dieses RaySegment Objekt ist nicht mit einem der FreeCAD Objekte verknüpft und kann benutzerdefinierten Povray- oder Luxrender Code enthalten, den Sie möglicherweise in Ihr Raytracing Projekt einfügen möchten. Du kannst es auch verwenden, um z.B. deine FreeCAD Objekte auf eine bestimmte Weise auszugeben, wenn du mit dem Standardweg nicht zufrieden bist. Du kannst es so von der Python Konsole aus erstellen und verwenden:
 
 
 ```python
 myRaytracingProject = FreeCAD.ActiveDocument.PovProject
-myCustomRenderObject = FreeCAD.ActiveDocument.addObject("Raytracing   *   *RaySegment","myRenderObject")
+myCustomRenderObject = FreeCAD.ActiveDocument.addObject("Raytracing::RaySegment","myRenderObject")
 myRaytracingProject.addObject(myCustomRenderObject)
 myCustomRenderObject.Result = "// Hello from python!"
 ```
 
 
- {{Raytracing Tools navi}} 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
+ {{Raytracing Tools navi}}
 
 
 

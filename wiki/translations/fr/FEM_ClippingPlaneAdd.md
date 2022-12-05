@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ClippingPlaneAdd
-   Name/fr   *FEM Plan de coupe
-   MenuLocation   *Utilitaires → Plan de coupe
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM ClippingPlaneAdd
+   Name/fr:FEM Plan de coupe
+   MenuLocation:Utilitaires → Plan de coupe
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ClippingPlaneAdd/fr
@@ -19,9 +19,9 @@ Le plan de coupe est le même que celui que vous obtenez en utilisant la fonctio
 
 Pour créer un plan de coupe, utilisez le bouton de la barre d\'outils **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Plan de coupe'''** ou le menu **Utilitaires → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Plan de coupe**. Il est possible d\'avoir plusieurs plans de coupes.
 
-Bien que le plan soit persistant, il n\'apparaîtra pas dans la [vue en arborescence](Tree_view/fr.md). Le plan apparaît dans la vue du modèle comme ceci    *
+Bien que le plan soit persistant, il n\'apparaîtra pas dans la [vue en arborescence](Tree_view/fr.md). Le plan apparaît dans la vue du modèle comme ceci :
 
-<img alt="" src=images/FEM_Clipping-Plane-Example.png  style="width   *400px;">
+<img alt="" src=images/FEM_Clipping-Plane-Example.png  style="width:400px;">
 
 Pour déplacer le plan, cliquez sur le gros cube blanc qui est perpendiculaire au plan et maintenez le bouton de la souris enfoncé pendant le déplacement de la souris.
 

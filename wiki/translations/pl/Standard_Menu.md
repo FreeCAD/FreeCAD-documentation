@@ -25,7 +25,7 @@ Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszyst
 
 ## Menu podrzędne 
 
-Standardowe menu składa się z 7 podmenu   *
+Standardowe menu składa się z 7 podmenu:
 
 -    {{StdMenu|[Plik](Std_File_Menu/pl.md)}}W menu Plik znajdują się narzędzia związane z obsługą plików źródłowych i docelowych.
 

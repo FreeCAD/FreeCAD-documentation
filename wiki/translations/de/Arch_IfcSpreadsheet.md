@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Arch IfcSpreadsheet
-   Name/de   *Arch_ErstelleIfcTabellenblatt
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   MenuLocation   *Arch → Dienstprogramme → Erstelle IFC Tabellenblatt
-   Shortcut   ***I** **P**
-   SeeAlso   *[Arch IfcExplorer](Arch_IFC/de]],_[[Arch_IfcExplorer/de.md)
+- GuiCommand:/de
+   Name:Arch IfcSpreadsheet
+   Name/de:Arch_ErstelleIfcTabellenblatt
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   MenuLocation:Arch → Dienstprogramme → Erstelle IFC Tabellenblatt
+   Shortcut:**I** **P**
+   SeeAlso:[Arch IfcExplorer](Arch_IFC/de]],_[[Arch_IfcExplorer/de.md)
 ---
 
 # Arch IfcSpreadsheet/de
@@ -17,7 +17,7 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
 ## Anwendung
 
 1.  Wähle ein Objekt aus.
-2.  Rufe den Befehl mit mehreren Methoden auf   *
+2.  Rufe den Befehl mit mehreren Methoden auf:
     -   Drücken der **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen** Schaltfläche in der Werkzeugleiste.
     -   Verwenden der **I** dann **P** Tastaturkürzel.
     -   Verwenden des {{MenuCommand/de|Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen}} Eintrags aus dem oberen Menü.
@@ -30,7 +30,7 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -40,7 +40,7 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
 
 <div class="mw-translate-fuzzy">
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden   *
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
 
 
 </div>
@@ -52,7 +52,7 @@ spreadsheet = makeIfcSpreadsheet(archobj=None)
 
 -   Erstellt ein `Tabellenblatt` Objekt. Optional kann ein `archobj` angegeben werden.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD, Draft, Arch
 

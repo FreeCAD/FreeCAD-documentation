@@ -1,6 +1,6 @@
 # Std PrintPdf/ro
 ---
-- GuiCommand   */ro   Name   *Std PrintPdf   Name/ro   *Std PrintPdf   Workbenches   *All   MenuLocation   *[Shortcut   *   SeeAlso   *File [[Std_Export/ro|Export](Std_File_Menu___File]]_→_PrintPdf_.md)---
+- GuiCommand:/ro   Name:Std PrintPdf   Name/ro:Std PrintPdf   Workbenches:All   MenuLocation:[Shortcut:   SeeAlso:File [[Std_Export/ro|Export](Std_File_Menu___File]]_→_PrintPdf_.md)---
 
 
 </div>
@@ -33,7 +33,7 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 ## Preferences
 
--   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 

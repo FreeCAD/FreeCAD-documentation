@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw 2PointCenterLine
-   Name/de   *TechDraw 2PunktMittelLinie
-   MenuLocation   *TechDraw → Linien Hinzufügen → Mittellinie zwischen 2 Punkten hinzufügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
+- GuiCommand:/de
+   Name:TechDraw 2PointCenterLine
+   Name/de:TechDraw 2PunktMittelLinie
+   MenuLocation:TechDraw → Linien Hinzufügen → Mittellinie zwischen 2 Punkten hinzufügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
 ---
 
 # TechDraw 2PointCenterLine/de
@@ -14,7 +14,7 @@
 
 Das Werkzeug fügt eine Mittellinie hinzu, die zwischen zwei Punkten verlaufen soll.
 
-<img alt="" src=images/CL2PointsSample.png  style="width   *200px;">
+<img alt="" src=images/CL2PointsSample.png  style="width:200px;">
 
 
 
@@ -42,21 +42,21 @@ Eine der Befehlsschaltflächen für die Mittellinie ( **<img src="images/TechDra
 
 Mittellinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind. Sie haben Attribute, die im Mittellinien Bearbeitungsdialog geändert werden können.
 
-1.  Modus (Auswahlknöpfe)   *
-    -   **Vertikal**   * Erzwingt eine vertikale Mittellinie
-    -   **Horizontal**   * Erzwingt eine Mittellinie horizontal
-    -   **Ausgerichtet**   * Folgt der allgemeinen Richtung von Kante für 2 Kanten Mittellinie
-2.  **Shift Horiz**   * Verschiebt die Mittellinie nach links oder rechts von ihrer normalen Position
-3.  **Shift Vert**   * Verschiebt die Mittellinie aus ihrer normalen Position nach oben oder unten
-4.  **Rotate**   * Dreht die Mittellinie um ihren Mittelpunkt (Grad. + gegen den Uhrzeigersinn, - im Uhrzeigersinn)
-5.  **Extend**   * Macht die Mittellinie um diesen Betrag länger
-6.  **Color**   * Farbe der Mittellinie
-7.  **Weight**   * Dicke der Mittellinie
-8.  **Style**   * <img alt="" src=images/Continuous-line.svg  style="width   *20px;"> Durchgehend, <img alt="" src=images/Dash-line.svg  style="width   *20px;"> Strich, <img alt="" src=images/Dot-line.svg  style="width   *20px;"> Punkt, <img alt="" src=images/DashDot-line.svg  style="width   *20px;"> StrichPunkt, <img alt="" src=images/DashDotDot-line.svg  style="width   *20px;"> StrichPunktPunkt
+1.  Modus (Auswahlknöpfe):
+    -   **Vertikal**: Erzwingt eine vertikale Mittellinie
+    -   **Horizontal**: Erzwingt eine Mittellinie horizontal
+    -   **Ausgerichtet**: Folgt der allgemeinen Richtung von Kante für 2 Kanten Mittellinie
+2.  **Shift Horiz**: Verschiebt die Mittellinie nach links oder rechts von ihrer normalen Position
+3.  **Shift Vert**: Verschiebt die Mittellinie aus ihrer normalen Position nach oben oder unten
+4.  **Rotate**: Dreht die Mittellinie um ihren Mittelpunkt (Grad. + gegen den Uhrzeigersinn, - im Uhrzeigersinn)
+5.  **Extend**: Macht die Mittellinie um diesen Betrag länger
+6.  **Color**: Farbe der Mittellinie
+7.  **Weight**: Dicke der Mittellinie
+8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Durchgehend, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Strich, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punkt, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> StrichPunkt, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> StrichPunktPunkt
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Mittellinien sind zur Zeit noch nicht zugänglich über [Makros](Macros/de.md) und die [Python](Python/de.md) Konsole.
 

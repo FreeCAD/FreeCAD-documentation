@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ro
-   Name   *PartDesign Pad
-   Name/ro   *PartDesign Pad
-   Workbenches   *[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation   *Part Design → Pad
+- GuiCommand:/ro
+   Name:PartDesign Pad
+   Name/ro:PartDesign Pad
+   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation:Part Design → Pad
 ---
 
 # PartDesign Pad/ro
@@ -67,7 +67,7 @@ Tipul oferă cinci modalități diferite de a specifica lungimea la care va fi e
 
 <div class="mw-translate-fuzzy">
 
-Enter a numeric value for the length of the pad. The default direction for extrusion is away (outside of) the support, but it can be changed by ticking the **Reversed** option. Extrusions occur [normal](http   *//en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. With the option **Symmetric to plane** the pad will extend half of the given length to either side of the sketch plane. Negative dimensions are not possible. Use the **Reversed** option instead.
+Enter a numeric value for the length of the pad. The default direction for extrusion is away (outside of) the support, but it can be changed by ticking the **Reversed** option. Extrusions occur [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. With the option **Symmetric to plane** the pad will extend half of the given length to either side of the sketch plane. Negative dimensions are not possible. Use the **Reversed** option instead.
 
 
 </div>
@@ -106,7 +106,7 @@ Offset from face at which the pad will end. This option is only available when *
 
 #### Direction/edge
 
-You can select the direction of the extrusion   *
+You can select the direction of the extrusion:
 
 -   **Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
 -   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
@@ -147,7 +147,7 @@ Reverses the direction of the pad.
 
 Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
-Limitations   *
+Limitations:
 
 -   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
 -   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
@@ -168,7 +168,7 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/ro|Refine}}   * <small>(v0.17)</small>  true or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in *Preferences → Part design → General → Model settings*). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+-    {{PropertyData/ro|Refine}}: <small>(v0.17)</small>  true or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in *Preferences → Part design → General → Model settings*). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
 
 
 </div>
@@ -176,13 +176,13 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 ## Limitări
 
 -   Like all Part Design features, Pad creates a solid, thus the sketch must include a closed profile or it will fail with a *Failed to validate broken face* error.
--   The algorithm used for **To First** and **To Last** is   *
+-   The algorithm used for **To First** and **To Last** is:
     -   Create a line through the center of gravity of the sketch
     -   Find all faces of the support cut by this line
     -   Choose the face where the intersection point is nearest/furthest from the sketch
 
-   *   This means that the face that is found might not always be what you expected. If you run into this problem, use the **Up to face** type instead, and pick the face you want.
-   *   For the very special case of extrusion to a concave surface, where the sketch is larger than this surface, extrusion will fail. This is a unresolved bug.
+:   This means that the face that is found might not always be what you expected. If you run into this problem, use the **Up to face** type instead, and pick the face you want.
+:   For the very special case of extrusion to a concave surface, where the sketch is larger than this surface, extrusion will fail. This is a unresolved bug.
 
 
 <div class="mw-translate-fuzzy">

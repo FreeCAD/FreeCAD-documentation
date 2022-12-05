@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   *   Topic   *Modélisation
-   Level   *Utilisateur expérimenté
-   Author   *NormandC
-   Time   *
-   FCVersion   * ≥ 0.19.23300
-   Files   *
+- TutorialInfo:   Topic:Modélisation
+   Level:Utilisateur expérimenté
+   Author:NormandC
+   Time:
+   FCVersion: ≥ 0.19.23300
+   Files:
 ---
 
 # PartDesign Bearingholder Tutorial II/fr
@@ -15,9 +15,9 @@
 
 
 
-**Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Depuis avril 2016, ces fonctionnalités ont été intégrées à la version 0.17 de pré-développement disponible [https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre ici].
+**Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Depuis avril 2016, ces fonctionnalités ont été intégrées à la version 0.17 de pré-développement disponible [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre ici].
 <br />
-Veuillez noter que cette version de FreeCAD en est encore à ses débuts. De plus, ce tutoriel peut nécessiter une mise à jour. Si vous souhaitez participer à sa révision et à sa mise à jour, publiez-le dans la section Wiki du [http   *//forum.freecadweb.org forum].**
+Veuillez noter que cette version de FreeCAD en est encore à ses débuts. De plus, ce tutoriel peut nécessiter une mise à jour. Si vous souhaitez participer à sa révision et à sa mise à jour, publiez-le dans la section Wiki du [http://forum.freecadweb.org forum].**
 
 ![ Tutoriel Support de Roulement - support de roulement terminé(en haut) \| thumb \| right \| 400px](images/_HolderTop2-19.jpg )
 
@@ -31,13 +31,13 @@ C\'est la deuxième partie du tutoriel. Il utilisera ce qu\'on pourrait appeler 
 
 Évidemment, pour suivre ce tutoriel, vous devez activer l\'Atelier Conception de Pièce.
 
-~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http   *//ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md)~~ *Le fichier n\'est plus disponible, un nouveau fichier sera fourni à certains date ultérieure*.
+~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md)~~ *Le fichier n\'est plus disponible, un nouveau fichier sera fourni à certains date ultérieure*.
 
 ## 
 
 Les Données de Conception == ==
 
-Le support doit être en mesure de tenir un Roulement d\'un diamètre de 90mm avec une largeur allant jusqu\'à 33mm (par exemple DIN 630 Type 2308, qui a un diamètre intérieur de 40 mm). Le palier nécessite une hauteur d\'épaulement d\'au moins 4,5 mm dans le support (et sur l\'arbre). La partie supérieure du support sera boulonné sur le fond avec deux boulons de 12mm. Pour la tête d\'un tel boulon, il faudra au moins 20 mm de diamètre d\'espace libre. Il devrait y avoir une rainure sur les deux côtés du roulement capables de tenir un arbre standard bague d\'étanchéité DIN 3760   * 38x55x7 40x55x7 ou sur un côté, 50x68x8 de l\'autre côté.
+Le support doit être en mesure de tenir un Roulement d\'un diamètre de 90mm avec une largeur allant jusqu\'à 33mm (par exemple DIN 630 Type 2308, qui a un diamètre intérieur de 40 mm). Le palier nécessite une hauteur d\'épaulement d\'au moins 4,5 mm dans le support (et sur l\'arbre). La partie supérieure du support sera boulonné sur le fond avec deux boulons de 12mm. Pour la tête d\'un tel boulon, il faudra au moins 20 mm de diamètre d\'espace libre. Il devrait y avoir une rainure sur les deux côtés du roulement capables de tenir un arbre standard bague d\'étanchéité DIN 3760: 38x55x7 40x55x7 ou sur un côté, 50x68x8 de l\'autre côté.
 
 Le support sera réalisé dans un moule en sable avec une épaisseur minimale de paroi de 5 mm, un angle de dépouille de 2 degrés, et un rayon de congé minimum de 3mm.
 
@@ -47,7 +47,7 @@ Le support sera réalisé dans un moule en sable avec une épaisseur minimale de
 
 ## Le corps principal 
 
-![ Esquisse de la première Protusion \| thumb \| right \| 400px](images/_HolderTop2-3.jpg ) Créer un nouveau corps et le rendre actif. L\'esquisse pour la première protusion est affichée sur la droite. Elle est placée sur un plan de référence avec un décalage de 5 mm (épaisseur de paroi) de la face de l\'ossature marquant le côté de l\'une des bagues d\'étanchéité du proulement. Parce que toutes les dimensions importantes sont prises à partir du squelette, il y a seulement trois dimensions   * La surépaisseur d\'usinage (3mm) à la base comme un décalage du plan XY, l\'épaisseur de paroi de 5 mm de diamètre extérieur du squelette, et les deux angle de dépouille. Pour créer la dimension 5mm, vous devez d\'abord sélectionner le cercle extérieur (rayon 45mm) de la géométrie de l\'ossature comme la géométrie externe dans l\'esquisse, puis mettez une ligne de construction contrainte tangentiellement à ce cercle et avec un angle de deux degrés.
+![ Esquisse de la première Protusion \| thumb \| right \| 400px](images/_HolderTop2-3.jpg ) Créer un nouveau corps et le rendre actif. L\'esquisse pour la première protusion est affichée sur la droite. Elle est placée sur un plan de référence avec un décalage de 5 mm (épaisseur de paroi) de la face de l\'ossature marquant le côté de l\'une des bagues d\'étanchéité du proulement. Parce que toutes les dimensions importantes sont prises à partir du squelette, il y a seulement trois dimensions: La surépaisseur d\'usinage (3mm) à la base comme un décalage du plan XY, l\'épaisseur de paroi de 5 mm de diamètre extérieur du squelette, et les deux angle de dépouille. Pour créer la dimension 5mm, vous devez d\'abord sélectionner le cercle extérieur (rayon 45mm) de la géométrie de l\'ossature comme la géométrie externe dans l\'esquisse, puis mettez une ligne de construction contrainte tangentiellement à ce cercle et avec un angle de deux degrés.
 
 Vous vous demandez probablement pourquoi il y a ce petit segment de droite au bas de chaque arc. Ce segment indique qu\'il y aura un angle de deux degrés sur les arcs. Cela pourrait ressembler à beaucoup de travail pour un très petit avantage, mais de nombreux programmes de CAO (et peut-être un jour FreeCAD) disposent d\'outils qui mettent en évidence un modèle solide en différentes couleurs immédiatement et vous présentent toutes les faces où l\'angle de dépouille n\'est pas correct. Vous ne voulez pas que cela arrive à votre modèle, en particulier après la mise en place d\'un grand nombre de congés!
 ![ La première Protusion \| thumb \| right \| 400px](images/_HolderTop2-4.jpg ) Quand vous avez fait le croquis (qui est un peu difficile à cause des deux degrés des lignes tangentielles), créer une Protusion de celui-ci s\'étendant jusqu\'à l\'autre côté de la géométrie de l\'ossature, à nouveau avec un décalage de 5 mm à la face latérale. Vous n\'avez pas besoin de créer un plan de référence cette fois, le mode \"jusqu\'à la face \" du dialogue de Protusion propose d\'entrée un décalage.
@@ -90,10 +90,6 @@ Pour le reste de l\'usinage, créer un nouveau corps. Le fond du support sera us
 ## Partie Une 
 
 [ Tutoriel de Conception Support de Roulement I](PartDesign_Bearingholder_Tutorial_I/fr.md)
-
-
-
-[Category   *Tutorials](Category_Tutorials.md)
 
 
 

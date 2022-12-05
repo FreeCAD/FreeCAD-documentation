@@ -1,6 +1,6 @@
 # Path DressupRampEntry/ro
 ---
-- GuiCommand   *   Name   *Path DressupTag   Workbenches   *[MenuLocation   *Path → Path Dressup → RampEntry Dress-up   SeeAlso   *[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → RampEntry Dress-up   SeeAlso:[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
 
 </div>
@@ -15,7 +15,7 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 <div class="mw-translate-fuzzy">
 
 1.  Selectați un contur sau profil de traiectorie [Path](Path_Workbench.md) objects
-2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width   *16px;"> [RampEntry Dress-up](Path_DressupRampEntry.md)
+2.  Click pe articolul din meniu <img alt="" src=images/Path_Dressup.png  style="width:16px;"> [RampEntry Dress-up](Path_DressupRampEntry.md)
 
 
 </div>
@@ -24,7 +24,7 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 
 -   **Ramp Feed Rate** poate fi fie rata de alimentare verticală sau orizontală curentă, fie o altă valoare personalizată
 -   **Angle** al rampei pe axa verticală. O valoare mai mică face rampa mai abruptă.
--   **Method** este folosită pentru a selecta diferite moduri de rampă   *
+-   **Method** este folosită pentru a selecta diferite moduri de rampă:
     -   RampMethod1 coboară la un unghi de rampă și se mișcă orizontal spre punctul țintă
     -   RampMethod2 merge mai întâi orizontal și apoi în jos la unghiul de rampă până la punctul țintă
     -   RampMethod3 coboară în zig-zag
@@ -32,10 +32,10 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 -   **Dressup Start Depth**este distanța deasupra nivelului țintă unde începe rampa
 -   **UseStartDepth** indică faptul că rampa nu pornește deasupra nivelului stocului. Dacă nu este setat la adevărat, prima ramă poate fi mai abruptă decât se aștepta.
 
-<img alt="" src=images/Ramp_method_1.png  style="width   *" height="250px;"> <img alt="" src=images/Ramp_method_2.png  style="width   *" height="250px;"> <img alt="" src=images/Ramp_method_3.png  style="width   *" height="250px;"> 
-*From left to right   * Ramp method 1, 2 and 3*
+<img alt="" src=images/Ramp_method_1.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_2.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_3.png  style="width:" height="250px;"> 
+*From left to right: Ramp method 1, 2 and 3*
 
-<img alt="" src=images/Ramp_method_Helix.png  style="width   *" height="250px;"> 
+<img alt="" src=images/Ramp_method_Helix.png  style="width:" height="250px;"> 
 *Ramp method Helix*
 
 

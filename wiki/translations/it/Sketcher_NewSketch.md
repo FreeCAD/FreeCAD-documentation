@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Sketcher NewSketch
-   Name/it   *Crea Schizzo
-   Workbenches   *[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation   *Part design → Crea uno shizzo
-   SeeAlso   *[Mappa schizzo](Sketcher_MapSketch/it.md), [Riposiziona schizzo](Sketcher_ReorientSketch/it.md)
+- GuiCommand:/it
+   Name:Sketcher NewSketch
+   Name/it:Crea Schizzo
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation:Part design → Crea uno shizzo
+   SeeAlso:[Mappa schizzo](Sketcher_MapSketch/it.md), [Riposiziona schizzo](Sketcher_ReorientSketch/it.md)
 ---
 
 # Sketcher NewSketch/it

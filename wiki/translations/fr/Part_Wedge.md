@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */fr
-   Name   *Part Wedge
-   Name/fr   *Part Pyramide tronquée
-   MenuLocation   *Part → [Créer des primitives](Part_Primitives/fr.md) → Pyramide tronquée
-   Workbenches   *[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand:/fr
+   Name:Part Wedge
+   Name/fr:Part Pyramide tronquée
+   MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Pyramide tronquée
+   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Wedge/fr
 
 ## Description
 
-Une <img alt="" src=images/Part_Wedge.svg  style="width   *24px;"> **Part Pyramide tronquée** est un solide paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Primitives](Part_Primitives/fr.md). Elle possède quatre à six faces planes. Elle est définie par des plans principaux virtuels avant et arrière sur lesquels est créée une face rectangulaire (par défaut), une simple arête droite ou un simple sommet. Ces formes de base définissent les quatre faces quadrilatérales ou triangulaires qui les relient. Le solide résultant n\'est une véritable pyramide tronquée que si l\'une des formes de base est une face rectangulaire et l\'autre une arête droite. Dans le système de coordonnées défini par sa propriété **Placement**, les plans principaux virtuels avant et arrière du coin sont parallèles au plan XZ, et les bords des formes de base sont parallèles à l\'axe X ou Z. Toutes ses coordonnées sont relatives à ce système de coordonnées. Toutes ses coordonnées sont relatives à ce système de coordonnées.
+Une <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Pyramide tronquée** est un solide paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Elle possède quatre à six faces planes. Elle est définie par des plans principaux virtuels avant et arrière sur lesquels est créée une face rectangulaire (par défaut), une simple arête droite ou un simple sommet. Ces formes de base définissent les quatre faces quadrilatérales ou triangulaires qui les relient. Le solide résultant n\'est une véritable pyramide tronquée que si l\'une des formes de base est une face rectangulaire et l\'autre une arête droite. Dans le système de coordonnées défini par sa propriété **Placement**, les plans principaux virtuels avant et arrière du coin sont parallèles au plan XZ, et les bords des formes de base sont parallèles à l\'axe X ou Z. Toutes ses coordonnées sont relatives à ce système de coordonnées. Toutes ses coordonnées sont relatives à ce système de coordonnées.
 
-<img alt="" src=images/Part_Wedge_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Utilisation
 
@@ -31,9 +31,9 @@ Un objet Part Pyramide tronquée créé avec l\'[exemple du script](#Script.md) 
 
 ## Propriétés
 
-Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Pyramide tronquée est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
+Un objet Part Pyramide tronquée est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
@@ -45,41 +45,41 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Wedge}}
 
--    **Xmin|Distance**   * La coordonnée X la plus basse de la face avant du coin. La valeur par défaut est {{Value|0mm}}.
+-    **Xmin|Distance**: La coordonnée X la plus basse de la face avant du coin. La valeur par défaut est {{Value|0mm}}.
 
--    **Ymin|Distance**   * La coordonnée Y de la face avant de la cale. La valeur par défaut est {{Value|0mm}}.
+-    **Ymin|Distance**: La coordonnée Y de la face avant de la cale. La valeur par défaut est {{Value|0mm}}.
 
--    **Zmin|Distance**   * La coordonnée Z la plus basse de la face avant du coin. La valeur par défaut est {{Value|0mm}}.
+-    **Zmin|Distance**: La coordonnée Z la plus basse de la face avant du coin. La valeur par défaut est {{Value|0mm}}.
 
--    **X2min|Distance**   * La plus petite coordonnée X de la face arrière du coin. La valeur par défaut est {{Value|2mm}}.
+-    **X2min|Distance**: La plus petite coordonnée X de la face arrière du coin. La valeur par défaut est {{Value|2mm}}.
 
--    **Z2min|Distance**   * La plus petite coordonnée Z de la face arrière du coin. La valeur par défaut est {{Value|2mm}}.
+-    **Z2min|Distance**: La plus petite coordonnée Z de la face arrière du coin. La valeur par défaut est {{Value|2mm}}.
 
--    **Xmax|Distance**   * La coordonnée X la plus élevée de la face avant du coin. La valeur par défaut est {{Value|10mm}}.
+-    **Xmax|Distance**: La coordonnée X la plus élevée de la face avant du coin. La valeur par défaut est {{Value|10mm}}.
 
--    **Ymax|Distance**   * La coordonnée Y de la face arrière de la cale. La valeur par défaut est {{Value|10mm}}.
+-    **Ymax|Distance**: La coordonnée Y de la face arrière de la cale. La valeur par défaut est {{Value|10mm}}.
 
--    **Zmax|Distance**   * La coordonnée Z la plus élevée de la face avant du coin. La valeur par défaut est {{Value|10mm}}.
+-    **Zmax|Distance**: La coordonnée Z la plus élevée de la face avant du coin. La valeur par défaut est {{Value|10mm}}.
 
--    **X2max|Distance**   * La coordonnée X la plus élevée de la face arrière du coin. La valeur par défaut est {{Value|8mm}}.
+-    **X2max|Distance**: La coordonnée X la plus élevée de la face arrière du coin. La valeur par défaut est {{Value|8mm}}.
 
--    **Z2max|Distance**   * La coordonnée Z la plus élevée de la face arrière du coin. La valeur par défaut est {{Value|8mm}}.
+-    **Z2max|Distance**: La coordonnée Z la plus élevée de la face arrière du coin. La valeur par défaut est {{Value|8mm}}.
 
 ## Script
 
-Voir aussi   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Une Part Pyramide tronquée est créée avec la méthode `addObject()` du document    *
+Une Part Pyramide tronquée est créée avec la méthode `addObject()` du document :
 
 
 ```python
-wedge = FreeCAD.ActiveDocument.addObject("Part   *   *Wedge", "myWedge")
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
 ```
 
 -   Où {{Incode|"myWedge"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
-Exemple    *
+Exemple :
 
 
 ```python
@@ -87,7 +87,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-wedge = doc.addObject("Part   *   *Wedge", "myWedge")
+wedge = doc.addObject("Part::Wedge", "myWedge")
 wedge.Xmin = 1
 wedge.Ymin = 2
 wedge.Zmin = 3

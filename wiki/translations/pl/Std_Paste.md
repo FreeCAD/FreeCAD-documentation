@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std Paste
-   Name/pl   *Std   * Wklej
-   MenuLocation   *Edycja → Wklej
-   Workbenches   *wszystkie
-   Shortcut   ***Ctrl** + **V**
-   SeeAlso   *[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
+- GuiCommand:/pl
+   Name:Std Paste
+   Name/pl:Std: Wklej
+   MenuLocation:Edycja → Wklej
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **V**
+   SeeAlso:[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Paste/pl
@@ -16,10 +16,10 @@ Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumen
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Paste.svg" width=16px> Wklej**.
     -   Wybierz opcję **<img src="images/Std_Paste.svg" width=16px> Wklej** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md). Zauważ, że ta opcja jest dostępna tylko wtedy, gdy zaznaczony jest istniejący obiekt.
-    -   Użyj skrótu klawiaturowego   * **Ctrl** + **V**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **V**.
 
 ## Uwagi
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 ConstraintSymmetric
-   Name/de   *Assembly3 SymmetrieFestlegen
-   Icon   *Assembly_ConstraintSymmetric.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand:/de
+   Name:Assembly3 ConstraintSymmetric
+   Name/de:Assembly3 SymmetrieFestlegen
+   Icon:Assembly_ConstraintSymmetric.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSymmetric/de

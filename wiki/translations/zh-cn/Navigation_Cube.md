@@ -42,7 +42,7 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces   * 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces: 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 
 <div class="mw-translate-fuzzy">
@@ -96,7 +96,7 @@ Clicking the round button in the top right corner of the Navigation Cube will ro
 
 ### Preferences
 
-The Navigation Cube is controlled by several preferences   * **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+The Navigation Cube is controlled by several preferences: **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ### Advanced options 
 
@@ -110,11 +110,6 @@ The [CubeMenu](Interface_Customization#CubeMenu.md) external workbench provides 
 
 
 </div>
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

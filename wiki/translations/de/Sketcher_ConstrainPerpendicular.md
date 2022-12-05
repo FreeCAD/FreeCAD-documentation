@@ -1,41 +1,41 @@
 ---
-- GuiCommand   */de
-   Name   *Sketcher ConstrainPerpendicular
-   Name/de   *Sketcher RechtwinkligFestlegen
-   MenuLocation   *Sketch → Skizzen-Beschränkungen → Orthogonalität festlegen
-   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut   ***N**
-   SeeAlso   *[Sketcher WinkelFestlegen](Sketcher_ConstrainAngle/de.md)
+- GuiCommand:/de
+   Name:Sketcher ConstrainPerpendicular
+   Name/de:Sketcher RechtwinkligFestlegen
+   MenuLocation:Sketch → Skizzen-Beschränkungen → Orthogonalität festlegen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**N**
+   SeeAlso:[Sketcher WinkelFestlegen](Sketcher_ConstrainAngle/de.md)
 ---
 
 # Sketcher ConstrainPerpendicular/de
 
 ## Beschreibung
 
-Die Randbedingung RechtwinkligFestlegen legt fest, dass zwei Linien rechtwinklig (d. h. senkrecht bzw. orthogonal) zueinander stehen oder dass zwei Kurven an ihrem Schnittpunkt senkrecht aufeinander treffen. Linien werden als unendlich angesehen, und Bögen werden wie Vollkreise/Ellipsen behandelt. Die Randbedingung ist auch in der Lage, zwei Kurven zu verbinden und sie gleichzeitig an der Verbindungsstelle rechtwinklig festzulegen, ähnlich der Randbedingung **[<img src=images/Sketcher_ConstrainTangent.svg style="width   *16px">
+Die Randbedingung RechtwinkligFestlegen legt fest, dass zwei Linien rechtwinklig (d. h. senkrecht bzw. orthogonal) zueinander stehen oder dass zwei Kurven an ihrem Schnittpunkt senkrecht aufeinander treffen. Linien werden als unendlich angesehen, und Bögen werden wie Vollkreise/Ellipsen behandelt. Die Randbedingung ist auch in der Lage, zwei Kurven zu verbinden und sie gleichzeitig an der Verbindungsstelle rechtwinklig festzulegen, ähnlich der Randbedingung **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px">
 [TangentialFestlegen](Sketcher_ConstrainTangent/de.md)**.
 
 ## Anwendung
 
-Es gibt vier verschiedene Arten, wie die Randbedingung angewendet werden kann   *
+Es gibt vier verschiedene Arten, wie die Randbedingung angewendet werden kann:
 
 1.  zwischen zwei Kurven (nicht für alle Kurven verfügbar)
 2.  zwischen zwei Endpunkten einer Kurve
 3.  zwischen einer Kurve und einem Endpunkt einer anderen Kurve
 4.  zwischen zwei Kurven an einem benutzerdefinierten Punkt
 
-Um RechtwinkligFestlegen anzuwenden, sollte man die folgenden Schritte befolgen   *
+Um RechtwinkligFestlegen anzuwenden, sollte man die folgenden Schritte befolgen:
 
 -   Zwei oder drei Elemente der Skizze auswählen.
 -   Die Randbedingung aufrufen, durch anklicken des Symbols in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
 
 ### Zwischen zwei Kurven (direkte Rechtwinkligkeit) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
 
 Zwei Kurven werden an ihrem Schnittpunkt (entweder real oder in der Verlängerung von Kurven) senkrecht zueinander gemacht, und der Schnittpunkt ist implizit. Dieser Modus wird angewendet, wenn zwei Kurven ausgewählt wurden.
 
-**Zulässige Auswahl   ***
+**Zulässige Auswahl:**
 
 -   Linie + Linie, Kreis, Bogen
 -   Kreis, Bogen + Kreis, Bogen
@@ -46,31 +46,31 @@ Anders als bei der Tangentialität ist es vollkommen in Ordnung, den Rechtwinkli
 
 ### Zwischen zwei Endpunkten (Punkt-zu-Punkt Rechtwinkligkeit) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
 
 In diesem Modus werden die Endpunkte deckungsgleich gemacht, und die Verbindung wird rechtwinklig gemacht. Dieser Modus wird angewendet, wenn zwei Endpunkte von zwei Kurven ausgewählt wurden.
 
-**Zulässige Auswahl   ***
+**Zulässige Auswahl:**
 
 -   Endpunkt der Linie/des Bogens/Ellipsenbogens + Endpunkt der Linie/des Bogens/Ellipsenbogens (d.h. zwei Endpunkte von zwei beliebigen Kurven)
 
 ### Zwischen Kurve und Endpunkt (Punkt-zu-Kurve Rechtwinkligkeit) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
 
 In diesem Modus wird ein Endpunkt einer Kurve beschränkt, so dass er auf der anderen Kurve liegt, und die Kurven werden senkrecht auf den Punkt gezwungen. Dieser Modus wird angewendet, wenn eine Kurve und ein Endpunkt einer anderen Kurve ausgewählt wurden.
 
-**Zulässige Auswahl   ***
+**Zulässige Auswahl:**
 
 -   Linie, Kreis, Kreisbogen, Ellipsenbogen + Endpunkt einer Linie / eines Kreises / eines Kreisbogens / eines Ellipsenbogens (im Allgemeinen jede Kurve + der Endpunkt irgend einer anderen Kurve)
 
 ### Zwischen zwei Kurven am Punkt (Rechtwinklig-Durch-Punkt) (v0.15) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width   *600px;">
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 
 In diesem Modus werden zwei Kurven rechtwinklig gemacht, und der Punkt der Rechtwinkligkeit wird verfolgt. Dieser Modus wird angewendet, wenn zwei Kurven und ein Punkt ausgewählt wurden.
 
-**Zulässige Auswahl   ***
+**Zulässige Auswahl:**
 
 -   irgendeine Linie / Kurve + irgend eine Linie / Kurve + irgendein Punkt
 
@@ -84,7 +84,7 @@ Die Platzierung des Punktes vor der Anwendung der Beschränkung ist für den Lö
 
 ## Skripten
 
-Die rechtwinklige Beschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden   * 
+Die rechtwinklige Beschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden: 
 ```python
 # direct perpendicularity
 Sketch.addConstraint(Sketcher.Constraint('Perpendicular',icurve1,icurve2))
@@ -97,15 +97,15 @@ Sketch.addConstraint(Sketcher.Constraint('Perpendicular',icurve1,pointpos1,icurv
 
 # perpendicular-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('PerpendicularViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-``` wobei   *
+``` wobei:
 
-   ** `Sketch` ist ein Skizzenobjekt
+  - `Sketch` ist ein Skizzenobjekt
 
-   ** `icurve1`, `icurve2` sind zwei Ganzzahlen, die die Kurven identifizieren, die zueinander senkrecht liegen sollen. Diese Integer Zahlen sind Indexwerte der Skizze (der Wert, der vom Aufruf `Sketch.addGeometry`) zurückgegeben wird.
+  - `icurve1`, `icurve2` sind zwei Ganzzahlen, die die Kurven identifizieren, die zueinander senkrecht liegen sollen. Diese Integer Zahlen sind Indexwerte der Skizze (der Wert, der vom Aufruf `Sketch.addGeometry`) zurückgegeben wird.
 
-   ** `pointpos1`, `pointpos2` sollten `1` für den Startpunkt und `2` für den Endpunkt sein.
+  - `pointpos1`, `pointpos2` sollten `1` für den Startpunkt und `2` für den Endpunkt sein.
 
-   ** `geoidpoint` und `pointpos` in PerpendicularViaPoint sind die Indizes, die den Punkt der Rechtwinkligkeit festlegen.
+  - `geoidpoint` und `pointpos` in PerpendicularViaPoint sind die Indizes, die den Punkt der Rechtwinkligkeit festlegen.
 
 Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, die für `icurve1`, `icurve2`, `pointpos1`, `pointpos2` und `geoidpoint` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
 

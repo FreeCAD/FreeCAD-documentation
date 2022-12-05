@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Вставить точку в траекторию
-   Name   *Robot_InsertWaypoint
-   MenuLocation   *Робот → Вставить в траекторию
-   Workbenches   *[Robot](Robot_Workbench/ru.md)
-   Shortcut   ***A**
-   SeeAlso   *
+- GuiCommand:/ru
+   Name/ru:Вставить точку в траекторию
+   Name:Robot_InsertWaypoint
+   MenuLocation:Робот → Вставить в траекторию
+   Workbenches:[Robot](Robot_Workbench/ru.md)
+   Shortcut:**A**
+   SeeAlso:
 ---
 
 # Robot InsertWaypoint/ru
@@ -17,14 +17,14 @@
 ## Применение
 
 1.  Выделите робота и траекторию в [иерархии проекта](Tree_view/ru.md)
-2.  Существует несколько способов вызвать команду   *
-    -   Нажатием кнопки <img alt="" src=images/Robot_InsertWaypoint.svg  style="width   *32px;">
+2.  Существует несколько способов вызвать команду:
+    -   Нажатием кнопки <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:32px;">
     -   Сочетанием клавиш **A**
     -   Через пункт меню **Robot** → **<img src="images/Robot_InsertWaypoint.svg" width=32px>Вставить в траекторию**.
 
 ## Примечания
 
-Перемещение робота производится   *
+Перемещение робота производится:
 
 1.  Выбором робота
 2.  Переключением на панель задач

@@ -1,8 +1,6 @@
 # Category:Surface/hr
 This category lists pages related to the [Surface Workbench/hr](Surface_Workbench/hr.md).
 
-[Category   *Workbenches/hr](Category   *Workbenches/hr.md)
-
 ### Contents
 
 |     |     |     |

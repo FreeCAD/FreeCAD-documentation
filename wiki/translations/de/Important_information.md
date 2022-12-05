@@ -3,14 +3,14 @@
 
 [Wichtige Informationen](Important_information/de.md) helfen dabei Probleme des Anwenders bezüglich Installation und Verwendung des Programms zu beheben.
 
-Das [FreeCAD-Forum](https   *//forum.freecadweb.org/viewforum.php?f=3) ist der beste Ort, um Hilfe von erfahrenen Anwendern und Entwicklern zu bekommen. Andere Möglichkeiten findet man unter [Hilfe](Help/de.md).
+Das [FreeCAD-Forum](https://forum.freecadweb.org/viewforum.php?f=3) ist der beste Ort, um Hilfe von erfahrenen Anwendern und Entwicklern zu bekommen. Andere Möglichkeiten findet man unter [Hilfe](Help/de.md).
 
 ## Anleitung
 
 
 **Bevor man um Hilfe bittet, sollte man diesen Verknüpfungen folgen oder auf die Abbildung/Bildunterschriften unten klicken**
 
--   [WICHTIG   * Bitte lesen](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=2264), bevor man im Forum um Hilfe fragt.
+-   [WICHTIG: Bitte lesen](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264), bevor man im Forum um Hilfe fragt.
 -   Der Befehl [Std Über FreeCAD](Std_About/de.md) in der eigentlichen Software.
 
 ![](images/Important_information-updated.png ) 

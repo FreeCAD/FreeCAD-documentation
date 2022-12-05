@@ -5,13 +5,5 @@ Il existe de nombreux versions de ce format, aussi ce module d\'importation tent
 
 
 
-
-
- 
-
-[Category   *File Formats](Category_File_Formats.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/fr

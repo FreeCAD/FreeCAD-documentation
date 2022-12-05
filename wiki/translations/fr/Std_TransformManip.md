@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std TransformManip
-   Name/fr   *Std Transformation manipulation
-   MenuLocation   *Clic droit sur un objet de la vue en arborescence → Transformer
+- GuiCommand:/fr
+   Name:Std TransformManip
+   Name/fr:Std Transformation manipulation
+   MenuLocation:Clic droit sur un objet de la vue en arborescence → Transformer
 Édition → Transformer
-   Workbenches   *Tous
-   SeeAlso   *[Std Base](Std_Base/fr.md)
+   Workbenches:Tous
+   SeeAlso:[Std Base](Std_Base/fr.md)
 ---
 
 # Std TransformManip/fr
@@ -28,7 +28,7 @@ Cet outil vous permet d\'appliquer des incréments de rotation ou des incrément
 
 -   Dès que vous faites pivoter/déplacer l\'objet dans la [Vue 3D](3D_view/fr.md), les modifications s\'appliquent.
 -   Il n\'y a pas de bouton Annuler. Pressez le bouton **OK** sert uniquement à quitter l\'utilitaire.
--   Il est possible d\'<img alt="" src=images/Std_Undo.svg  style="width   *20px;"> [Annuler](Std_Undo/fr.md) les modifications par la suite.
+-   Il est possible d\'<img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Annuler](Std_Undo/fr.md) les modifications par la suite.
 -   Les zones de valeur sont pour des incréments et non des valeurs absolues.
 
 

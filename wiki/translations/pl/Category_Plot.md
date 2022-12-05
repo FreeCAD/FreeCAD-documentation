@@ -1,8 +1,6 @@
 # Category:Plot/pl
 This category lists pages related to the [Plot Workbench/pl](Plot_Workbench/pl.md).
 
-[Category   *Workbenches/pl](Category   *Workbenches/pl.md)
-
 ### Contents
 
 |     |     |     |

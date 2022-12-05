@@ -11,9 +11,5 @@ Für alle Symbole im Verzeichnisbaum siehe [Grafik](Artwork/de.md).
 
 
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Raytracing](Category_Raytracing.md)
-
-
-
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/de

@@ -1,16 +1,16 @@
 ---
-- GuiCommand   *
-   Name   *Assembly3 ImportFromSTEP
-   Icon   *Assembly_Import.svg
-   MenuLocation   *Assembly3 → Import from STEP → Import from STEP
-   Workbenches   *[Assembly3](Assembly3_Workbench.md)
+- GuiCommand:
+   Name:Assembly3 ImportFromSTEP
+   Icon:Assembly_Import.svg
+   MenuLocation:Assembly3 → Import from STEP → Import from STEP
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ImportFromSTEP/pl
 
 ## Description
 
-The <img alt="" src=images/Assembly_Import.svg‎‎  style="width   *24px;"> [Import from STEP](Assembly3_ImportFromSTEP.md) command opens a file browser window to search and select STEP files.
+The <img alt="" src=images/Assembly_Import.svg‎‎  style="width:24px;"> [Import from STEP](Assembly3_ImportFromSTEP.md) command opens a file browser window to search and select STEP files.
 
 (STEP assemblies are imported into a single document.)
 

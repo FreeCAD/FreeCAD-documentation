@@ -31,7 +31,7 @@ Utilizați cmake-curses-gui, cmake-qt-gui sau flag cmake pentru a dezactiva modu
 
 </div>
 
-For example, to avoid building the FEM and Mesh workbenches   *
+For example, to avoid building the FEM and Mesh workbenches:
 
 
 ```python
@@ -52,7 +52,7 @@ Utilizați -j \# pentru a specifica numerul sarcinilor/jobs. O sugestie ar fi, n
 
 </div>
 
-Run four compilation commands in parallel   *
+Run four compilation commands in parallel:
 
 
 ```python
@@ -82,14 +82,6 @@ Distcc poate fi utilizat pentru compilarea distribuită în rețea.
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

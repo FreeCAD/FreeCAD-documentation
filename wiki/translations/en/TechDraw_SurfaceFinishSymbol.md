@@ -1,21 +1,21 @@
 ---
-- GuiCommand   *
-   Name   *TechDraw SurfaceFinishSymbol
-   MenuLocation   *TechDraw → Add Surface Finish Symbol
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
-   Version   *0.21
+- GuiCommand:
+   Name:TechDraw SurfaceFinishSymbol
+   MenuLocation:TechDraw → Add Surface Finish Symbol
+   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Version:0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/en
 
 ## Description
 
-The <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *24px;"> **TechDraw SurfaceFinishSymbol** tool adds a surface finish symbol to a page.
+The <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **TechDraw SurfaceFinishSymbol** tool adds a surface finish symbol to a page.
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample1.png  style="width   *330px;"> 
+<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample1.png  style="width:330px;"> 
 *The task panel with the ISO style selected. On the right the created symbol.*
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width   *330px;"> 
+<img alt="" src=images/TechDraw_SurfaceFinishSymbolExample2.png  style="width:330px;"> 
 *The task panel with the ASME style selected. On the right the created symbol.*
 
 ## Usage

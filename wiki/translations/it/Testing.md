@@ -1,4 +1,4 @@
-# <img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width   *64px;"> Testing/it
+# <img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width:64px;"> Testing/it
 
 
 {{TOCright}}
@@ -9,7 +9,7 @@
 
 Puoi avviare i test dalla riga di comando, usando le opzioni `-t` o `--run-test`.
 
-Avvia tutti i test   *
+Avvia tutti i test:
 
 
 ```python
@@ -23,7 +23,7 @@ Avvia solo alcuni test specificati, per esempio
 freecad -t TestDraft
 ```
 
-Se un test non ha bisogno della GUI, può anche essere eseguito in modalità console impostando l\'opzione `-c` o `--console` in aggiunta. Questo di solito si traduce in tempi di avvio molto più rapidi poiché la GUI non viene caricata. Per esempio   *
+Se un test non ha bisogno della GUI, può anche essere eseguito in modalità console impostando l\'opzione `-c` o `--console` in aggiunta. Questo di solito si traduce in tempi di avvio molto più rapidi poiché la GUI non viene caricata. Per esempio:
 
 
 ```python
@@ -38,7 +38,7 @@ Per eseguire un test da FreeCAD, passare all\'Ambiente Test, quindi **Test comma
 
 ## Funzioni di test 
 
-Questa è la lista delle applicazioni di test di 0.15 Git 4207   *
+Questa è la lista delle applicazioni di test di 0.15 Git 4207:
 
 ### TestAPP.All
 
@@ -82,31 +82,31 @@ Aggiungi funzione di test
 
 ### TestPathApp
 
-Ambiente Path casistiche di test   *
+Ambiente Path casistiche di test:
 
--   depthTestCases   *
--   PathTestUtils   *
--   TestDressupDogbone   * Test functionality of Dogbone dressup.
--   TestHoldingTags   * Test functionality of Holding Tags dressup.
--   TestPathAdaptive   * Test selection capability of Adaptive operation.
--   TestPathCore   * Test core functionality of Path workbench.
--   TestPathDeburr   * Test general functionality of Deburr operation.
--   TestPathGeom   * Test various functions available in the PathGeom module.
--   TestPathHelix   * Test general functionality of Helix operation.
--   TestPathLog   * Test various functions available in the PathLog debugging and feedback module.
--   TestPathOpTools   *
--   TestPathPreferences   * Test various functions available in the PathPreferences module.
--   TestPathPropertyBag   *
--   TestPathSetupSheet   *
--   TestPathStock   *
--   TestPathThreadMilling   *
--   TestPathTool   *
--   TestPathToolBit   *
--   TestPathToolController   *
--   TestPathTooltable   *
--   TestPathUtil   * Test various functions available in the PathUtil module.
--   TestPathVcarve   * Test general functionality of Vcarve operation.
--   TestPathVoronoi   *
+-   depthTestCases:
+-   PathTestUtils:
+-   TestDressupDogbone: Test functionality of Dogbone dressup.
+-   TestHoldingTags: Test functionality of Holding Tags dressup.
+-   TestPathAdaptive: Test selection capability of Adaptive operation.
+-   TestPathCore: Test core functionality of Path workbench.
+-   TestPathDeburr: Test general functionality of Deburr operation.
+-   TestPathGeom: Test various functions available in the PathGeom module.
+-   TestPathHelix: Test general functionality of Helix operation.
+-   TestPathLog: Test various functions available in the PathLog debugging and feedback module.
+-   TestPathOpTools:
+-   TestPathPreferences: Test various functions available in the PathPreferences module.
+-   TestPathPropertyBag:
+-   TestPathSetupSheet:
+-   TestPathStock:
+-   TestPathThreadMilling:
+-   TestPathTool:
+-   TestPathToolBit:
+-   TestPathToolController:
+-   TestPathTooltable:
+-   TestPathUtil: Test various functions available in the PathUtil module.
+-   TestPathVcarve: Test general functionality of Vcarve operation.
+-   TestPathVoronoi:
 
 ### Workbench
 
@@ -127,7 +127,7 @@ Aggiungi funzione di test
 ## Scripting
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
@@ -142,15 +142,15 @@ Si noti che i moduli di test restituiti qui dipendono dal fatto che una GUI sia 
 
 ### Eseguire test specifici 
 
-Esistono vari modi per eseguire test utilizzando [Python\'s unittest library](https   *//docs.python.org/3/library/unittest.html). Il framework di test di FreeCAD porta alla luce i casi più comuni.
+Esistono vari modi per eseguire test utilizzando [Python\'s unittest library](https://docs.python.org/3/library/unittest.html). Il framework di test di FreeCAD porta alla luce i casi più comuni.
 
-Eseguire tutti i test definiti in un modulo Python   * 
+Eseguire tutti i test definiti in un modulo Python: 
 ```python
 import Test, TestFemApp
 Test.runTestsFromModule(TestFemApp)
 ```
 
-Eseguire tutti i test definiti in una classe Python   * 
+Eseguire tutti i test definiti in una classe Python: 
 ```python
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
@@ -164,7 +164,7 @@ All\'interno della console Python di FreeCAD, il seguente formato di codice può
 -   I sottomoduli sono disponibili utilizzando la notazione a punti, ad esempio \"**TestPathApp.TestPathAdaptive**\" per eseguire solo gli unit test adattivi all\'interno del framework di test workbench Path più grande.
 -   Più moduli di test o sottomoduli possono essere combinati aggiungendo un\'altra chiamata al metodo \**suite.addTest(\...)**\ proprio come quella nel codice seguente, ma con un modulo o un riferimento di sottomodulo diverso.
 -   L\'output per il codice riportato di seguito sarà nel pannello Report View all\'interno della GUI di FreeCAD.
--   Il codice sorgente è copiato dal post dell\'utente del forum FreeCAD, *sgrogan*, nell\'argomento [unit test per python](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), con credito lì dato all\'utente del forum, *wmayer*.
+-   Il codice sorgente è copiato dal post dell\'utente del forum FreeCAD, *sgrogan*, nell\'argomento [unit test per python](https://forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), con credito lì dato all\'utente del forum, *wmayer*.
 
 
 ```python
@@ -179,15 +179,7 @@ r.run(suite)
 
 ### Argomenti del Forum 
 
--   [Support for running specific unit tests with \--run-test #331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
-
-
-
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Test Framework](Category_Test_Framework.md) [Category   *Workbenches](Category_Workbenches.md) [Category   *Testing](Category_Testing.md)
+-   [Support for running specific unit tests with \--run-test #331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 
 
 

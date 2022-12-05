@@ -1,11 +1,11 @@
 ---
-- GuiCommand   *
-   Icon   *Zoom-out.svg
-   Name   *Std ViewZoomOut
-   MenuLocation   *[View](Std_View_Menu.md) → Zoom‏‎ → Zoom Out
-   Workbenches   *All
-   Shortcut   *Ctrl + -
-   SeeAlso   *[Zoom In](Std_ViewZoomIn.md), [Zoom box](Std_ViewBoxZoom.md)
+- GuiCommand:
+   Icon:Zoom-out.svg
+   Name:Std ViewZoomOut
+   MenuLocation:[View](Std_View_Menu.md) → Zoom‏‎ → Zoom Out
+   Workbenches:All
+   Shortcut:Ctrl + -
+   SeeAlso:[Zoom In](Std_ViewZoomIn.md), [Zoom box](Std_ViewBoxZoom.md)
 ---
 
 # Std ViewZoomOut/ro
@@ -32,7 +32,7 @@ Face să apară conținutul mai mic în vizualizarea 3D .
 
 ## Cum se folosește 
 
--   Go to **View → Zoom‏‎ → <img alt="" src=images/Zoom-out.svg  style="width   *24px;"> Zoom Out** or press **Ctrl** + **-**.
+-   Go to **View → Zoom‏‎ → <img alt="" src=images/Zoom-out.svg  style="width:24px;"> Zoom Out** or press **Ctrl** + **-**.
 -   The view can also be zoomed out with the mouse scroll wheel.
 
 
@@ -44,12 +44,12 @@ Face să apară conținutul mai mic în vizualizarea 3D .
 
 ## Preferences
 
--   The zoom factor can be changed in the preferences   * **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   The zoom factor can be changed in the preferences: **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

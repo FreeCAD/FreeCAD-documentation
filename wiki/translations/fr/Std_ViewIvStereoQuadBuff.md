@@ -1,17 +1,17 @@
 ---
-- GuiCommand   */fr
-   Name   *Std ViewIvStereoQuadBuff
-   Name/fr   *Std Tampon stéréo quadruple
-   MenuLocation   *Affichage → Stéréo → Tampon stéréo quadruple
-   Workbenches   *Tous
-   SeeAlso   *[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
+- GuiCommand:/fr
+   Name:Std ViewIvStereoQuadBuff
+   Name/fr:Std Tampon stéréo quadruple
+   MenuLocation:Affichage → Stéréo → Tampon stéréo quadruple
+   Workbenches:Tous
+   SeeAlso:[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
 ---
 
 # Std ViewIvStereoQuadBuff/fr
 
 ## Description
 
-La commande **Std Tampon stéréo quadruple** change le mode actif de la [vue 3D](3D_view/fr.md) en mode de visualisation stéréo à quadruple tampon. Pour utiliser ce mode stéréo, une carte graphique spéciale, un écran spécial et des lunettes [avec verres polarisés](https   *//en.wikipedia.org/wiki/Polarized_3D_system) sont nécessaires.
+La commande **Std Tampon stéréo quadruple** change le mode actif de la [vue 3D](3D_view/fr.md) en mode de visualisation stéréo à quadruple tampon. Pour utiliser ce mode stéréo, une carte graphique spéciale, un écran spécial et des lunettes [avec verres polarisés](https://en.wikipedia.org/wiki/Polarized_3D_system) sont nécessaires.
 
 ## Utilisation
 
@@ -19,12 +19,12 @@ La commande **Std Tampon stéréo quadruple** change le mode actif de la [vue 3D
 
 ## Préférences
 
--   La distance entre les yeux peut être modifiée dans les préférences   * **Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes**. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
+-   La distance entre les yeux peut être modifiée dans les préférences: **Édition → Préférences... → Affichage → Vue 3D → Eye to eye distance for stereo modes**. Voir l\'[Editeur de préférences](Preferences_Editor#3D_View/fr.md).
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

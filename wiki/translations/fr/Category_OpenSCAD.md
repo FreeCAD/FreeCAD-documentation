@@ -1,8 +1,6 @@
 # Category:OpenSCAD/fr
 Cette catégorie répertorie les pages liées à l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

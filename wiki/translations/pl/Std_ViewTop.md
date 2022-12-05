@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ViewTop
-   Name/pl   *Std   * Widok od góry
-   MenuLocation   *Widok → Widoki standardowe → Od góry
-   Workbenches   *wszystkie
-   Shortcut   ***2**
-   SeeAlso   *[Widok od przodu](Std_ViewFront/pl.md), [Widok od prawej](Std_ViewRight/pl.md)
+- GuiCommand:/pl
+   Name:Std ViewTop
+   Name/pl:Std: Widok od góry
+   MenuLocation:Widok → Widoki standardowe → Od góry
+   Workbenches:wszystkie
+   Shortcut:**2**
+   SeeAlso:[Widok od przodu](Std_ViewFront/pl.md), [Widok od prawej](Std_ViewRight/pl.md)
 ---
 
 # Std ViewTop/pl
@@ -19,16 +19,16 @@ Polecenie **Widok od góry** ustawia ujęcie widoku w aktywnym oknie [widoku 3D]
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_ViewTop.svg" width=16px> [Od góry](Std_ViewTop/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewTop.svg" width=16px> Od góry**.
     -   Z menu podręcznego okna [widoku 3D](3D_view/pl.md) wybierz opcję **Widoki standardowe → <img src="images/Std_ViewTop.svg" width=16px> Od góry**.
-    -   Użyj skrótu klawiaturowego   * **2**.
+    -   Użyj skrótu klawiaturowego: **2**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

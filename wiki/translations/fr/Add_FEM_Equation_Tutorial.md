@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   */fr
-   Topic   *Ajouter des équations FEM
-   Level   *Avancé
-   Time   *1 jour
-   Author   *[JohnWang](User_JohnWang.md)
-   FCVersion   *0.19
+- TutorialInfo:/fr
+   Topic:Ajouter des équations FEM
+   Level:Avancé
+   Time:1 jour
+   Author:[JohnWang](User_JohnWang.md)
+   FCVersion:0.19
 ---
 
 # Add FEM Equation Tutorial/fr
@@ -17,7 +17,7 @@
 
 Dans ce tutoriel, nous allons ajouter l\'équation de flux à FreeCAD et implémenter le support pour le solveur Elmer. Assurez-vous d\'avoir lu et compris [Module d\'extension FEM](Extend_FEM_Module/fr.md) avant de lire ce tutoriel.
 
-La tâche peut être divisée en quatre parties   *
+La tâche peut être divisée en quatre parties:
 
 -   La première étape consiste à informer l\'atelier de travail FEM d\'un nouveau type d\'équation. Cette étape ne doit être effectuée que si l\'équation n\'existe pas encore dans FreeCAD (par opposition à une équation qui est déjà dans FreeCAD mais qui n\'est pas prise en charge par le solveur cible).
 -   La deuxième étape consiste à ajouter un objet document représentant l'équation spécifique d'Elmer.
@@ -26,7 +26,7 @@ La tâche peut être divisée en quatre parties   *
 
 ## Ajout d\'un nouveau type d\'équation 
 
-Dans cette étape, nous allons modifier le fichier suivant   *
+Dans cette étape, nous allons modifier le fichier suivant:
 
 -    **src/Mod/Fem/femsolver/equationbase.py**
     
@@ -37,22 +37,22 @@ Tout d\'abord, ajoutez la nouvelle équation au module {{Incode|equationbase.py}
 
 
 ```python
-class FlowProxy(BaseProxy)   *
+class FlowProxy(BaseProxy):
     pass
 
-class FlowViewProxy(BaseViewProxy)   *
-    def getIcon(self)   *
-        return "   */icons/FEM_EquationFlow.svg"
+class FlowViewProxy(BaseViewProxy):
+    def getIcon(self):
+        return ":/icons/FEM_EquationFlow.svg"
 ```
 
 ## L\'objet équation d\'Elmer 
 
-Dans cette étape, nous allons modifier le fichier suivant   *
+Dans cette étape, nous allons modifier le fichier suivant:
 
 -    **src/Mod/Fem/femsolver/elmer/equations/flow.py**
     
 
-et ajoutez le nouveau fichier suivant   *
+et ajoutez le nouveau fichier suivant:
 
 -    **src/Mod/Fem/ObjectsFem.py**
     
@@ -85,19 +85,19 @@ Après avoir copié `heat.py` dans `flow.py`, ajustez
 
 
 ```python
-def create(doc, name="'''Flow'''")   *
+def create(doc, name="'''Flow'''"):
     return femutils.createObject(
         doc, name, Proxy, ViewProxy)
 
-class Proxy(nonlinear.Proxy, equationbase.'''Flow'''Proxy)   *
+class Proxy(nonlinear.Proxy, equationbase.'''Flow'''Proxy):
 
-    Type = "Fem   *   *EquationElmer'''Flow'''"
+    Type = "Fem::EquationElmer'''Flow'''"
 
-    def __init__(self, obj)   *
+    def __init__(self, obj):
         super(Proxy, self).__init__(obj)
         obj.Priority = 10
 
-class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy)   *
+class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy):
     pass
 ```
 
@@ -107,11 +107,11 @@ Au moment de la rédaction de ce tutoriel, l\'équation de flux Elmer n\'a aucun
 
 Enfin, il faut enregistrer une définition de **makeEquationStatcurrent** dans `ObjectsFem.py` en dupliquant une entrée disponible.
 
-Enfin et surtout, enregistrez le nouveau fichier de module (`flow.py`) dans les deux fichiers `src/Mod/Fem/CMakeLists.txt` comme décrit dans [Module d\'extension FEM](https   *//www.freecadweb.org/wiki/Extend_FEM_Module/fr). Les listes appropriées peuvent être facilement trouvées en recherchant les fichiers de modules d'équations existants d'Elmer.
+Enfin et surtout, enregistrez le nouveau fichier de module (`flow.py`) dans les deux fichiers `src/Mod/Fem/CMakeLists.txt` comme décrit dans [Module d\'extension FEM](https://www.freecadweb.org/wiki/Extend_FEM_Module/fr). Les listes appropriées peuvent être facilement trouvées en recherchant les fichiers de modules d'équations existants d'Elmer.
 
 ## Extension de l\'objet du solveur 
 
-Dans cette étape, nous allons modifier le fichier suivant   *
+Dans cette étape, nous allons modifier le fichier suivant:
 
 -    **src/Mod/Fem/femsolver/elmer/solver.py**
     
@@ -128,22 +128,22 @@ from .equations import electrostatic
 ...
 
 _EQUATIONS = {
-    "Heat"   * heat,
-    "Elasticity"   * elasticity,
-+    "Flow"   * flow,
+    "Heat": heat,
+    "Elasticity": elasticity,
++    "Flow": flow,
 }
 ```
 
 ## Extension de l\'analyse à l\'export 
 
-Dans cette étape, nous allons modifier le fichier suivant   *
+Dans cette étape, nous allons modifier le fichier suivant:
 
 -    **src/Mod/Fem/femsolver/elmer/writer.py**
     
 
 C\'est la partie la plus exigeante de la mise en œuvre d\'une nouvelle équation. Ce fichier contient la classe `Writer` qui exporte l\'analyse au format sif d\'Elmer.
 
-Pour chaque équation prise en charge, il existe une série de méthodes gérant l\'exportation de l\'équation respective. Copiez-les simplement à partir d\'une équation existante et ajustez-les à vos besoins. Notre équation de flux utilise les méthodes suivantes   *
+Pour chaque équation prise en charge, il existe une série de méthodes gérant l\'exportation de l\'équation respective. Copiez-les simplement à partir d\'une équation existante et ajustez-les à vos besoins. Notre équation de flux utilise les méthodes suivantes:
 
 -    {{Incode|_getFlowSolver}}
     
@@ -151,13 +151,13 @@ Pour chaque équation prise en charge, il existe une série de méthodes gérant
 -    {{Incode|_handleFlow}}
     
 
-Vous devez enregistrer la méthode {{Incode|_handleFlow}} dans la classe {{Incode|Writer}}    *
+Vous devez enregistrer la méthode {{Incode|_handleFlow}} dans la classe {{Incode|Writer}} :
 
 
 ```python
-class Writer(object)   *
+class Writer(object):
 ...
-    def write(self)   *
+    def write(self):
 ...
         self._handleFlow()
 
@@ -168,7 +168,7 @@ class Writer(object)   *
 
 {{Incode|_handleFlow}}
 
-peut contrôler une série d\'autres méthodes détaillées. Notre équation de flux utilise les méthodes détaillées suivantes    *
+peut contrôler une série d\'autres méthodes détaillées. Notre équation de flux utilise les méthodes détaillées suivantes :
 
 -    {{Incode|_handleFlowConstants}}
     
@@ -189,9 +189,7 @@ Nous avons maintenant terminé la partie fonction de la nouvelle équation. Ensu
 
 ## Outil de l\'interface graphique pour créer une équation 
 
-Nous venons de créer une nouvelle classe d\'équation. Pour y accéder depuis l\'interface graphique FEM, nous devons créer un bouton et le lier à la nouvelle classe d\'équation. Voici un tutoriel    * [Tutoriel Ajouter un bouton à la barre d\'outils FEM](Add_Button_to_FEM_Toolbar_Tutorial/fr.md).
-
-[Category   *FEM](Category_FEM.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
+Nous venons de créer une nouvelle classe d\'équation. Pour y accéder depuis l\'interface graphique FEM, nous devons créer un bouton et le lier à la nouvelle classe d\'équation. Voici un tutoriel : [Tutoriel Ajouter un bouton à la barre d\'outils FEM](Add_Button_to_FEM_Toolbar_Tutorial/fr.md).
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Ship TankNew
-   Name/fr   *Ship Réservoir
-   MenuLocation   *Weights → Create a new tank
-   Workbenches   *[Ship](Ship_Workbench/fr.md)
-   Shortcut   *
-   SeeAlso   *
+- GuiCommand:/fr
+   Name:Ship TankNew
+   Name/fr:Ship Réservoir
+   MenuLocation:Weights → Create a new tank
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
 ---
 
 # Ship Tank/fr
@@ -28,14 +28,6 @@ Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de réservo
 
 -   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
 -   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
-
-
-
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ShowSelection
-   Name/pl   *Std   * Pokaż zaznaczone
-   MenuLocation   *Widok → Widoczność → Pokaż zaznaczone
-   Workbenches   *wszystkie
-   SeeAlso   *[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Ukryj zaznaczone](Std_HideSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+- GuiCommand:/pl
+   Name:Std ShowSelection
+   Name/pl:Std: Pokaż zaznaczone
+   MenuLocation:Widok → Widoczność → Pokaż zaznaczone
+   Workbenches:wszystkie
+   SeeAlso:[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Ukryj zaznaczone](Std_HideSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std ShowSelection/pl
@@ -19,7 +19,7 @@ Polecenie **Pokaż zaznaczone** pokazuje wybrane obiekty w oknie [widoku 3D](3D_
     -   Niewidoczne obiekty mogą być zaznaczone w oknie [Widoku drzewa](Tree_view/pl.md).
     -   Bądź ostrożny, gdy używasz skrótu **Ctrl** + **A**, aby wybrać wszystkie obiekty w widoku Drzewa. Spowoduje to również zaznaczenie elementów podrzędnych [Zawartości Projektu Części](PartDesign_Body/pl.md) i obiektów używanych dla [funkcji logicznych](Part_Boolean/pl.md) środowiska Część. W większości przypadków powinny one pozostać niewidoczne.
     -   Obiekty użyte dla [funkcji logicznych](Part_Boolean.md) środowiska Część zostaną również wybrane, gdy użyjesz skrótu **Ctrl** + **A** w oknie widoku 3D.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz z menu opcję **Widok → Widoczność → <img src="images/Std_ShowSelection.svg" width=16px> Pokaż zaznaczone**.
     -   Wybierz z menu kontekstowego widoku drzewa opcję **<img src="images/Std_ShowSelection.svg" width=16px> Pokaż zaznaczone** . Opcja ta nie jest dostępna w środowisku [Projekt Części](PartDesign_Workbench/pl.md).
 
@@ -34,7 +34,7 @@ Polecenie **Pokaż zaznaczone** pokazuje wybrane obiekty w oknie [widoku 3D](3D_
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 

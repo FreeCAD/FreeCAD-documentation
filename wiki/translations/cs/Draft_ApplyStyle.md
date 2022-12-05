@@ -1,6 +1,6 @@
 # Draft ApplyStyle/cs
 ---
-- GuiCommand   */cs   Name   *Draft_Apply   Name/cs   *Kreslení Použij   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Draft -> Apply style---
+- GuiCommand:/cs   Name:Draft_Apply   Name/cs:Kreslení Použij   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Apply style---
 
 
 </div>
@@ -17,7 +17,7 @@ Tento nástroj aplikuje aktuálně nastavenou barvu a styl čáry na vybrané ob
 
 </div>
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers   *
+This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
 -    **Line color**
     

@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   *   Topic   *Ship Workbench
-   Level   *Beginner
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:   Topic:Ship Workbench
+   Level:Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # FreeCAD-Ship s60 tutorial/pl
@@ -17,13 +17,13 @@
 
 In this tutorial we will work with Series 60 ship, from the Iowa University. The tutorial is aimed to show how to work with a symmetric monohull ship, however multihull or non-symmetric ships can be performed with the same proceeding.
 
-Learn more about <img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> [Ship Workbench](Ship_Workbench.md).
+Learn more about <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ship Workbench](Ship_Workbench.md).
 
 ## Loading geometry 
 
 ### Background
 
-The <img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> [Ship Workbench](Ship_Workbench.md) works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid (or set of solids), the following criteria must be taken into account   *
+The <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ship Workbench](Ship_Workbench.md) works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid (or set of solids), the following criteria must be taken into account:
 
 -   All hull geometry must be provided (including symmetric bodies).
 -   Starboard geometry must be included at negatives *y* domain.
@@ -41,7 +41,7 @@ FreeCAD-Ship sign criteria
 
 ### Loading Series 60 geometry 
 
-In order to help new users the Ship workbench includes a geometries example loader, with the following to choose from   *
+In order to help new users the Ship workbench includes a geometries example loader, with the following to choose from:
 
 -   Series 60 from Iowa University
 -   Wigley Canonical Ship
@@ -81,15 +81,15 @@ Ship creation tool icon
 
 Creating a Ship task dialogue and some annotations in the [3D view](3D_view.md) will be shown. The annotations will disappear when you close the Ship creation tool, so don\'t worry about this.
 
-Most relevant ship data must be introduced (the <img alt="" src=images/Workbench_Ship.svg  style="width   *24px;"> Ship workbench uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
+Most relevant ship data must be introduced (the <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> Ship workbench uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
 
 ### Ship data 
 
-Main dimensions must be introduced here   *
+Main dimensions must be introduced here:
 
--   Length   * Length between perpendiculars, 25.5 m for this ship.
--   Beam   * Total ship beam, 3.389 m for this ship.
--   Draft   * Design draft, 1.0 m for this ship.
+-   Length: Length between perpendiculars, 25.5 m for this ship.
+-   Beam: Total ship beam, 3.389 m for this ship.
+-   Draft: Design draft, 1.0 m for this ship.
 
 ![Front view annotations](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -143,7 +143,7 @@ Lines drawing tool icon
 
 </center>
 
-Lines drawing is a set of lines from section cuts in all 3 axis, that will eventually show the hull geometry in a Lines Plan. We need to provide the lines for the 3 following views   *
+Lines drawing is a set of lines from section cuts in all 3 axis, that will eventually show the hull geometry in a Lines Plan. We need to provide the lines for the 3 following views:
 
 -   Body Plan (using the Transversal Cuts)
 -   Sheer Plan (using the Longitudinals Cuts)
@@ -163,16 +163,16 @@ Outline draw transversal sections preview
 
 </center>
 
-Sections table is filled and sections preview called **OutlineDraw** is shown. Usually more sections are added at bow and stern, where more complex curvatures are registered, to do this   *
+Sections table is filled and sections preview called **OutlineDraw** is shown. Usually more sections are added at bow and stern, where more complex curvatures are registered, to do this:
 
 1.  Go to the end of the table and *double click* on an empty item in order to edit it.
 2.  Press **intro** to confirm.
-3.  Add the following sections   *
+3.  Add the following sections:
 
-   *   
+:   
 
-       *   X~22~ = -12.1125 m
-       *   X~23~ = 12.1125 m
+    :   X~22~ = -12.1125 m
+    :   X~23~ = 12.1125 m
 
 Depending hull geometry complexity, sections preview can take some time. In order to remove a section, just fill it with an empty text and press enter.
 
@@ -184,7 +184,7 @@ Two longitudinal cuts must be added, so select **Longitudinal** type of sections
 
 6 Waterlines between base line and design draft must be added, so select **Waterlines** type of sections, go to **Auto create** box and set **5** (Z = 0 m will not be considered, add it manually if you need it) sections, then press **Create sections**. Sections table is filled, and sections preview updated.
 
-Several additional waterlines must be added   *
+Several additional waterlines must be added:
 
 -   Z~6~ = 1.2 m
 -   Z~7~ = 1.4 m
@@ -194,7 +194,7 @@ Several additional waterlines must be added   *
 
 ### Perform plot 
 
-Select **1   *100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
+Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
 
 ![Resultant sections.](images/FreeCAD-Ship-S60Outline3DSections.png )
 
@@ -206,7 +206,7 @@ Resultant sections.
 
 </center>
 
-In order to plot these sections you can use the [Drawing workbench](Drawing_Workbench.md)   *
+In order to plot these sections you can use the [Drawing workbench](Drawing_Workbench.md):
 
 ![Outline draw plot.](images/FreeCAD-Ship-S60OutlinePlot.png )
 
@@ -236,27 +236,27 @@ When tool is executed a task dialog is shown, and free surface preview is create
 
 ### Input data 
 
-Draft and trim (Hull *y edge* rotation angle, positive if stern draft may increase) must be provided. Several areas curves may be performed, depending on ship load situations, but two typical plot should be performed   *
+Draft and trim (Hull *y edge* rotation angle, positive if stern draft may increase) must be provided. Several areas curves may be performed, depending on ship load situations, but two typical plot should be performed:
 
--   Design transversal areas curve   * Without trimming angle and using design draft, 1.0 m in this case.
--   Maximum draft transversal areas curve   * Without trimming angle, and maximum draft allowed, 2.0 m in this case.
+-   Design transversal areas curve: Without trimming angle and using design draft, 1.0 m in this case.
+-   Maximum draft transversal areas curve: Without trimming angle, and maximum draft allowed, 2.0 m in this case.
 
 ### Output data 
 
-Some relevant data is shown at real time   *
+Some relevant data is shown at real time:
 
--   **L**   * Length between perpendiculars, value set at ship instance creation.
--   **B**   * Beam selected at ship creation.
--   **T**   * Actual draft amidships.
--   **Trim**   * Trim angle.
--   **T~AP~**   * After perpendicular draft.
--   **T~FP~**   * Forward perpendicular draft.
--   **Displacement**   * Ship displacement (salt water considered, divide by 1.025 in order to know displaced volume).
--   **XCB**   * Buoyancy centre point X coordinate (relative to midship section).
+-   **L**: Length between perpendiculars, value set at ship instance creation.
+-   **B**: Beam selected at ship creation.
+-   **T**: Actual draft amidships.
+-   **Trim**: Trim angle.
+-   **T~AP~**: After perpendicular draft.
+-   **T~FP~**: Forward perpendicular draft.
+-   **Displacement**: Ship displacement (salt water considered, divide by 1.025 in order to know displaced volume).
+-   **XCB**: Buoyancy centre point X coordinate (relative to midship section).
 
 When **Accept** button is pressed a plot is performed (depending on geometry complexity can take some time, you can see progress on terminal, and stop the work pressing **Ctrl**+**C**). When the task has finished FreeCAD will generate a Plot (see the [Plot workbench](Plot_Workbench.md) documentation) and a SpreadSheet (see the [Spreadsheet workbench](Spreadsheet_Workbench.md) documentation).
 
-<img alt="Design draft transversal areas curve. " src=images/FreeCAD-Ship-s60Areas.png  style="width   *800px;">
+<img alt="Design draft transversal areas curve. " src=images/FreeCAD-Ship-s60Areas.png  style="width:800px;">
 
 
 <center>
@@ -284,7 +284,7 @@ Hydrostatics tool icon.
 
 When tool is executed a task dialog is shown. Usually Hydrostatics curves are presented for each trim angle, in this tutorial only upright trimming angle will considered (0º), with an interval around every loading condition draft. Since we don\'t know what loading conditions we can get, we will consider almost draft possibilities (Usually, in order to get as many resolution as possible, naval architects fits the interval to feasible drafts).
 
-So we set following data   *
+So we set following data:
 
 -   **Trim** = 0 deg
 -   **Minimum Draft** = 0.1 m
@@ -293,7 +293,7 @@ So we set following data   *
 
 When **Accept** button is pressed plots are performed (see the [Plot workbench](Plot_Workbench.md) documentation) and a spreadsheet is generated (see the [Spreadsheet workbench](Spreadsheet_Workbench.md) documentation).
 
-<img alt="Hydrostatics curves." src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width   *800px;">
+<img alt="Hydrostatics curves." src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width:800px;">
 
 
 <center>
@@ -306,8 +306,6 @@ Hydrostatics curves.
 ## Continue learning 
 
 The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the second chapter of Series 60 from Iowa university ship.
-
-[Category   *Ship](Category_Ship.md)
 
 
 

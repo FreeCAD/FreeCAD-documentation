@@ -1,9 +1,7 @@
 # Part Cube
 1.  REDIRECT [Part Box](Part_Box.md)
 
-As of 
-
-[Category   *Redirects](Category_Redirects.md)
+As of
 
 
 

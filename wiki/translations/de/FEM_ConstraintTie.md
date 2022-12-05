@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *FEM ConstraintTie
-   Name/de   *FEM RandbedingungVerbinder
-   MenuLocation   *Modell → Mechanische Randbedingungen → Randbedingung Verbinder
-   Workbenches   *[FEM](FEM_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[FEM Randbedingung Druck](FEM_ConstraintPressure/de.md)
+- GuiCommand:/de
+   Name:FEM ConstraintTie
+   Name/de:FEM RandbedingungVerbinder
+   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Verbinder
+   Workbenches:[FEM](FEM_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[FEM Randbedingung Druck](FEM_ConstraintPressure/de.md)
 ---
 
 # FEM ConstraintTie/de
@@ -16,7 +16,7 @@ Legt eine Randbedingung Verbinder fest, die zwei ausgewählte Flächen in einer 
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintTie.svg" width=16px> [Randbedingung Verbinder](FEM_ConstraintTie/de.md)** drücken.
     -   Den Menüeintrag **Model → Mechanical Constraints → <img src="images/FEM_ConstraintTie.svg" width=16px> Randbedingung Verbinder** auswählen.
 2.  Die Schaltfläche **Hinzufügen** im Aufgabenbereich drücken und dann nacheinander genau zwei Flächen auswählen.

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */pl
-   Name   *Std ToggleVisibility
-   Name/pl   *Std   * Przełącz widoczność
-   MenuLocation   *Widok → Przełącz widoczność
-   Workbenches   *wszystkie
-   Shortcut   ***Spacja**
-   SeeAlso   *[Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection/pl.md), [Przełącz widoczność](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+- GuiCommand:/pl
+   Name:Std ToggleVisibility
+   Name/pl:Std: Przełącz widoczność
+   MenuLocation:Widok → Przełącz widoczność
+   Workbenches:wszystkie
+   Shortcut:**Spacja**
+   SeeAlso:[Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection/pl.md), [Przełącz widoczność](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std ToggleVisibility/pl
@@ -20,12 +20,12 @@ Polecenie **Przełącz widoczność** przełącza widoczność wybranych obiekt�
     -   Niewidoczne obiekty mogą być zaznaczone w oknie [Widoku drzewa](Tree_view/pl.md).
     -   Bądź ostrożny, gdy używasz kombinacji klawiszy **Ctrl** + **A**, aby wybrać wszystkie obiekty w oknie Widoku drzewa. Spowoduje to również zaznaczenie elementów podrzędnych [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części i obiektów używanych dla [funkcji logicznych](Part_Boolean/pl.md) środowiska Część. W większości przypadków powinny one pozostać niewidoczne.
     -   Obiekty używane dla [funkcji logicznych](Part_Boolean/pl.md) środowiska Część są również wybierane, gdy używasz kombinacji klawiszy **Ctrl** + **A** w oknie widoku 3D.
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz opcję z menu **Widok → <img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność**.
     -   Wybierz opcję z menu **Widok → Widoczność → <img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność**.
     -   Wybierz opcję **<img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność** z menu kontekstowego okna widoku drzewa. Opcja ta nie jest dostępna w środowisku pracy [Projekt części](PartDesign_Workbench.md)
     -   Wybierz opcję **<img src="images/Std_ToggleVisibility.svg" width=16px> Przełącz widoczność** z menu kontekstowego okna widoku 3D.
-    -   Użyj skrótu klawiaturowego   * **Spacja**.
+    -   Użyj skrótu klawiaturowego: **Spacja**.
 
 ## Uwagi
 
@@ -38,7 +38,7 @@ Polecenie **Przełącz widoczność** przełącza widoczność wybranych obiekt�
 ## Tworzenie skryptów 
 
 
-**Zobacz również   ***
+**Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
@@ -50,9 +50,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True   *
+if obj.Visibility == True:
   obj.hide()
-else   *
+else:
   obj.show()
 ```
 

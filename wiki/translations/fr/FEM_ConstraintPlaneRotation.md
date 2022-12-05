@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ConstraintPlaneRotation
-   Name/fr   *FEM Contrainte de rotation du plan
-   MenuLocation   *Modèle → Contraintes géométriques → Contrainte de rotation plane
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Contrainte de transformation](FEM_ConstraintTransform/fr.md)
+- GuiCommand:/fr
+   Name:FEM ConstraintPlaneRotation
+   Name/fr:FEM Contrainte de rotation du plan
+   MenuLocation:Modèle → Contraintes géométriques → Contrainte de rotation plane
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   SeeAlso:[FEM Contrainte de transformation](FEM_ConstraintTransform/fr.md)
 ---
 
 # FEM ConstraintPlaneRotation/fr
@@ -15,7 +15,7 @@ Crée une contrainte FEM pour maintenir les nœuds d\'une surface planaire dans 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> '''Contrainte de rotation plane'''**.
     -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Contrainte de rotation plane** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée, qui peut être une face.
@@ -27,7 +27,7 @@ Crée une contrainte FEM pour maintenir les nœuds d\'une surface planaire dans 
 
 ## Remarques
 
-1.  La contrainte utilise la carte \*MPC dans CalculiX. La carte est expliquée en détail à <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  La contrainte utilise la carte \*MPC dans CalculiX. La carte est expliquée en détail à <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 

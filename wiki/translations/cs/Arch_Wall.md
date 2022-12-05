@@ -1,6 +1,6 @@
 # Arch Wall/cs
 ---
-- GuiCommand   */cs   Name   *Arch Wall   Name/cs   *Zed'   Workbenches   *[MenuLocation   *Arch → Zed'   Shortcut   *W A   SeeAlso   *[[Arch Structure/cs|Struktura](Arch_Workbench/cs___Architettura]].md)---
+- GuiCommand:/cs   Name:Arch Wall   Name/cs:Zed'   Workbenches:[MenuLocation:Arch → Zed'   Shortcut:W A   SeeAlso:[[Arch Structure/cs|Struktura](Arch_Workbench/cs___Architettura]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj staví objekt Zeď od začátku nebo na vrchní části jakéhokoliv objektu založeného na [tvaru](Part_Workbench.md) nebo [síti](Mesh_Workbench.md). Zeď může být postavena i bez jakéhokoliv základního objektu, v takovém případě se chová jako trojrozměrné těleso, které má vlastnosti délka, šířka a výška. Pokud je postavena na vrchní části existujícího tvaru, může být založena na   *
+Tento nástroj staví objekt Zeď od začátku nebo na vrchní části jakéhokoliv objektu založeného na [tvaru](Part_Workbench.md) nebo [síti](Mesh_Workbench.md). Zeď může být postavena i bez jakéhokoliv základního objektu, v takovém případě se chová jako trojrozměrné těleso, které má vlastnosti délka, šířka a výška. Pokud je postavena na vrchní části existujícího tvaru, může být založena na:
 
 
 </div>
@@ -26,7 +26,7 @@ Tento nástroj staví objekt Zeď od začátku nebo na vrchní části jakéhoko
 
 </div>
 
-<img alt="" src=images/Arch_Wall_example.jpg  style="width   *780px;"> 
+<img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
 *Walls built from a line, a wire, a face, a solid, and a sketch*
 
 
@@ -78,7 +78,7 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 <div class="mw-translate-fuzzy">
 
 -   Výška, šířka a zarovnání zdi může být nastavena během kreslení pomocí zadávacího panelu
--   Připojením zdi na existující zeď budou obě zdi spojeny do jedné. Způsob jakým budou obě zdi spojeny závisí na jejich vlastnostech   * mají-li stejnou šířku, výšku a zarovnání a je-li povolena volba \"spojit základní náčrty\" ve volbách Architektury, výsledná zeď bude jeden objekt založený na náčrtu vytvořeného z několik segmentů. V ostatních případech bude druhá zeď přidána k první zdi jako přídavek.
+-   Připojením zdi na existující zeď budou obě zdi spojeny do jedné. Způsob jakým budou obě zdi spojeny závisí na jejich vlastnostech: mají-li stejnou šířku, výšku a zarovnání a je-li povolena volba \"spojit základní náčrty\" ve volbách Architektury, výsledná zeď bude jeden objekt založený na náčrtu vytvořeného z několik segmentů. V ostatních případech bude druhá zeď přidána k první zdi jako přídavek.
 -   Po prvním bodu tiskněte klávesu **X**, **Y** nebo **Z** k určení druhého bodu v požadované ose.
 -   Pro zadání koordinátů ručně jednoduše vložte číslo a stiskněte klávesu **ENTER** mezi každou z komponent X, Y a Z.
 -   Stiskněte klávesu **R** nebo klikněte/odklikněte zaklikávací políčko **Relativně**. Je-li nastaven relativní mód, budou koordináty druhého bodu relativní k prvnímu bodu. Není-li nastaven, koordiánty jsou absolutní k základnímu bodu (0,0,0).
@@ -99,12 +99,12 @@ Uchopování pracuje trochu odlišně ve Zdech než v jiných objektech Architek
 
 </div>
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;">
+<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;">
+<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;">
 
 
 </div>
@@ -114,23 +114,23 @@ Uchopování pracuje trochu odlišně ve Zdech než v jiných objektech Architek
 
 <div class="mw-translate-fuzzy">
 
-Objekt zdi dědí vlastnosti objektů [Modul Díl](Part_Workbench.md) a má ještě následující zvláštní vlastnosti   *
+Objekt zdi dědí vlastnosti objektů [Modul Díl](Part_Workbench.md) a má ještě následující zvláštní vlastnosti:
 
--    **Zarovnání**   * Zarovnání zdi k její základně   * Vlevo, vpravo nebo na střed
+-    **Zarovnání**: Zarovnání zdi k její základně: Vlevo, vpravo nebo na střed
 
--    **Základna**   * Základový objekt, na kterém je postavena
+-    **Základna**: Základový objekt, na kterém je postavena
 
--    **Plocha**   * Index plochy, která je použita ze základového objektu. Není-li hodnota nastavena nebo je 0, je použit celý objekt
+-    **Plocha**: Index plochy, která je použita ze základového objektu. Není-li hodnota nastavena nebo je 0, je použit celý objekt
 
--    **Vynucená lomená čára**   * Je-li True a zeď je založena na ploše, je využit pouze obvodová čára plochy a výsledkem je zeď ohraničující plochu
+-    **Vynucená lomená čára**: Je-li True a zeď je založena na ploše, je využit pouze obvodová čára plochy a výsledkem je zeď ohraničující plochu
 
--    **Délka**   * Délka zdi (není využito pokud je zeď založena na objektu)
+-    **Délka**: Délka zdi (není využito pokud je zeď založena na objektu)
 
--    **Šířka**   * Šířka zdi (není využito pokud je zeď založena na ploše)
+-    **Šířka**: Šířka zdi (není využito pokud je zeď založena na ploše)
 
--    **Výška**   * Výška zdi (není využito pokud je zeď založena na tělese)
+-    **Výška**: Výška zdi (není využito pokud je zeď založena na tělese)
 
--    **Normal**   * Směr vysunutí pro zeď. Je-li nastaveno na (0,0,0) je vysunutí zdi automatické.
+-    **Normal**: Směr vysunutí pro zeď. Je-li nastaveno na (0,0,0) je vysunutí zdi automatické.
 
 
 </div>
@@ -138,21 +138,21 @@ Objekt zdi dědí vlastnosti objektů [Modul Díl](Part_Workbench.md) a má ješ
 
 <small>(v0.18)</small> 
 
--    **Make Blocks**   * Enable this to make the wall generate blocks
+-    **Make Blocks**: Enable this to make the wall generate blocks
 
--    **Block Length**   * The length of each block
+-    **Block Length**: The length of each block
 
--    **Block Height**   * The height of each block
+-    **Block Height**: The height of each block
 
--    **Offset First**   * The horizontal offset of the first line of blocks
+-    **Offset First**: The horizontal offset of the first line of blocks
 
--    **Offset Second**   * The horizontal offset of the second line of blocks
+-    **Offset Second**: The horizontal offset of the second line of blocks
 
--    **Joint**   * The size of the joints between each block
+-    **Joint**: The size of the joints between each block
 
--    **Count Entire**   * The number of entire blocks (read-only)
+-    **Count Entire**: The number of entire blocks (read-only)
 
--    **Count Broken**   * The number of broken blocks (read-only)
+-    **Count Broken**: The number of broken blocks (read-only)
 
 ## Scripting
 
@@ -167,7 +167,7 @@ Objekt zdi dědí vlastnosti objektů [Modul Díl](Part_Workbench.md) a má ješ
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Zeď může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Zeď může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -186,7 +186,7 @@ Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Cente
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python
@@ -208,11 +208,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
- 
-
-[Category   *Arch/cs](Category   *Arch/cs.md)
 
 
 

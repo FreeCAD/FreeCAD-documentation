@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */es
-   Name   *Arch cloneComponent
-‏‎‏‎   Name/es   *Arch Componente clonado
-   MenuLocation   *Arch → Utilities → Clone Component
-   Workbenches   *[Arch](Arch_Workbench/es.md)
-   Shortcut   ***C** **C‏‎**
-   SeeAlso   *
+- GuiCommand:/es
+   Name:Arch cloneComponent
+‏‎‏‎   Name/es:Arch Componente clonado
+   MenuLocation:Arch → Utilities → Clone Component
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:**C** **C‏‎**
+   SeeAlso:
 ---
 
 # Arch CloneComponent/es

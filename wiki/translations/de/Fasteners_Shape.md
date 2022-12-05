@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */de
-   Name   *Fasteners Shape
-   Name/de   *Fasteners Formteil
-   MenuLocation   *Fasteners → Simplify shape
-   Workbenches   *[Fasteners](Fasteners_Workbench.md)
+- GuiCommand:/de
+   Name:Fasteners Shape
+   Name/de:Fasteners Formteil
+   MenuLocation:Fasteners → Simplify shape
+   Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners Shape/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Fasteners_Shape.svg  style="width   *24px;"> **Fasteners Formteil** erstellt nichtparametrische Kopien (Platzhalter - hier erst einmal Formteil genannt) von Verbindungselementen. Diese können nützlich sein, wenn man ein Dokument, das Verbindungselemente enthält, mit anderen Nutzern teilt, die die Arbeitsumgebung [Fasteners](Fasteners_Workbench/de.md) nicht installiert haben.
+Der Befehl <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fasteners Formteil** erstellt nichtparametrische Kopien (Platzhalter - hier erst einmal Formteil genannt) von Verbindungselementen. Diese können nützlich sein, wenn man ein Dokument, das Verbindungselemente enthält, mit anderen Nutzern teilt, die die Arbeitsumgebung [Fasteners](Fasteners_Workbench/de.md) nicht installiert haben.
 
 ## Anwendung
 
 1.  Ein oder mehrere Verbindungselemente auswählen.
-2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen   *
+2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/Fasteners_Shape.svg" width=16px> [Simplify shape](Fasteners_Shape/de.md)** drücken.
     -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_Shape.svg" width=16px> Simplify shape** auswählen.
 3.  Es wird für jedes Verbindungselement eine vereinfachte Kopie (Formteil/Platzhalter) erstellt.
@@ -28,9 +28,7 @@ Der Befehl <img alt="" src=images/Fasteners_Shape.svg  style="width   *24px;"> *
 
 {{Fasteners Tools navi
 
-}} 
-
-[Category   *External Command Reference](Category_External_Command_Reference.md)
+}}
 
 
 

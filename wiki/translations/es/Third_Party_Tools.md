@@ -3,17 +3,17 @@
 
 ## Página Herramienta 
 
-Para todo desarrollo de software serio se necesitan herramientas. Aquí hay una lista de herramientas que usamos para desarrollar FreeCAD   *
+Para todo desarrollo de software serio se necesitan herramientas. Aquí hay una lista de herramientas que usamos para desarrollar FreeCAD:
 
 ### Herramientas independientes de la plataforma 
 
 #### Qt-juego de herramientas 
 
-El Qt-juego de herramientas es una herramienta de diseño de interfaces de usuario de última generación e independiente de la plataforma. Está contenido en el [LibPack](Third_Party_Libraries/es.md) de FreeCAD, pero también puede descargarse en [Qt proyecto](http   *//qt-project.org/downloads).
+El Qt-juego de herramientas es una herramienta de diseño de interfaces de usuario de última generación e independiente de la plataforma. Está contenido en el [LibPack](Third_Party_Libraries/es.md) de FreeCAD, pero también puede descargarse en [Qt proyecto](http://qt-project.org/downloads).
 
 #### Inkscape
 
-Este es un gran programa de dibujo vectorial. Se adhiere al estándar SVG y se utiliza para dibujar iconos e imágenes. Inkscape es un software libre y de código abierto con licencia GPL. Consíguelo en [www.inkscape.org](http   *//www.inkscape.org).
+Este es un gran programa de dibujo vectorial. Se adhiere al estándar SVG y se utiliza para dibujar iconos e imágenes. Inkscape es un software libre y de código abierto con licencia GPL. Consíguelo en [www.inkscape.org](http://www.inkscape.org).
 
 #### Doxygen
 
@@ -23,11 +23,11 @@ Una herramienta muy buena y estable para generar documentación del codigo a par
 
 No hay mucho que decir sobre el programa de manipulación de imágenes de GNU. Además de que puede manejar archivos .xpm que es un modo muy conveniente de manejar iconos en los programas de QT. XPM es básicamente código en C que puede compilarse en un programa.
 
-Consigue GIMP aquí   * [www.gimp.org](http   *//www.gimp.org/)
+Consigue GIMP aquí: [www.gimp.org](http://www.gimp.org/)
 
 #### Gitkraken
 
-This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research   *
+This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
 
 -   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
 -   [Source code management](Source_code_management.md)
@@ -37,7 +37,7 @@ This is a proprietary git GUI that is very helpful to learn how git works if you
 
 <div class="mw-translate-fuzzy">
 
-Software libre y de código abierto para la grabación de vídeo y la transmisión en directo. Más detalles en el sitio web oficial    * [obsproject.com](https   *//obsproject.com/)
+Software libre y de código abierto para la grabación de vídeo y la transmisión en directo. Más detalles en el sitio web oficial : [obsproject.com](https://obsproject.com/)
 
 
 </div>
@@ -56,7 +56,7 @@ Software libre y de código abierto para la grabación de vídeo y la transmisi�
 
 Un programa UML de código libre lleno de características. Tiene un montón de características de las grandes, incluyendo ingeniería inversa del código fuente C++.
 
-Descargalo aquí   * [staruml.io](http   *//staruml.io)
+Descargalo aquí: [staruml.io](http://staruml.io)
 
 ### Herramientas en Windows 
 
@@ -67,7 +67,7 @@ Visual Studio Comunidad es gratuito para proyectos de código abierto y pequeña
 
 <div class="mw-translate-fuzzy">
 
-Puede descargarse en [1](https   *//visualstudio.microsoft.com/fr/vs/community)
+Puede descargarse en [1](https://visualstudio.microsoft.com/fr/vs/community)
 
 
 </div>
@@ -76,19 +76,11 @@ Puede descargarse en [1](https   *//visualstudio.microsoft.com/fr/vs/community)
 
 Es una herramienta Open Source para grabar Screen-casts (Webcasts). Es una muy buena herramienta para crear tutoriales grabándolos. No es tan aburrido como escribir documentación.
 
-Mira [camstudio.org](http   *//camstudio.org/) para más detalles.
+Mira [camstudio.org](http://camstudio.org/) para más detalles.
 
 ### Herramientas en Linux 
 
 PENDIENTE
-
-
-
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM ResultsPurge
-   Name/fr   *FEM Purger les résultats
-   MenuLocation   *Résultats → Purger les résultats
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   Shortcut   ***R** **P**
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM ResultsPurge
+   Name/fr:FEM Purger les résultats
+   MenuLocation:Résultats → Purger les résultats
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   Shortcut:**R** **P**
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ResultsPurge/fr
@@ -18,11 +18,11 @@ Si vous voulez seulement supprimer un objet résultat et garder le maillage rés
 
 ## Utilisation
 
-Il existe plusieurs façons de lancer la commande    *
+Il existe plusieurs façons de lancer la commande :
 
 -   Appuyez sur le bouton **<img src="images/FEM_ResultsPurge.svg" width=16px> [Purger les résultats](FEM_ResultsPurge/fr.md)**.
 -   Sélectionnez l\'option **Résultats → <img src="images/FEM_ResultsPurge.svg" width=16px> Purger les résultats** dans le menu.
--   Utilisez le raccourci clavier    * **R** puis **P**.
+-   Utilisez le raccourci clavier : **R** puis **P**.
 
 
 

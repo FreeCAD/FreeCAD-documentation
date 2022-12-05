@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std ToggleVisibility
-   Name/de   *Std SichtbarkeitUmschalten
-   MenuLocation   *Ansicht → Ein/Ausblenden
-   Workbenches   *Alle
-   Shortcut   ***Space**
-   SeeAlso   *[Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+- GuiCommand:/de
+   Name:Std ToggleVisibility
+   Name/de:Std SichtbarkeitUmschalten
+   MenuLocation:Ansicht → Ein/Ausblenden
+   Workbenches:Alle
+   Shortcut:**Space**
+   SeeAlso:[Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ToggleVisibility/de
@@ -20,7 +20,7 @@ Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewä
     -   Unsichtbare Objekte können in der [Baumansicht](Tree_view/de.md) ausgewählt werden.
     -   Vorsicht bei der Verwendung von **Ctrl**+**A** zur Auswahl von Objekten in der Baumansicht. Dies schließt auch die Unterelemente von [PartDesign Körpern](PartDesign_Body/de.md) und Objekte, die von [Part Boolesche Operationen](Part_Boolean/de.md) verwendet werden, ein. In den meisten Fällen sollten sie unsichtbar bleiben.
     -   Objekte, die von [Part Boolesche Operationen](Part_Boolean/de.md) verwendet werden, werden auch ausgewählt, wenn man **Ctrl**+**A** in einer 3D-Ansicht verwendet.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den Menüeintrag **Ansicht → <img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** auswählen.
     -   Den Menüeintrag **Ansicht → Sichtbarkeit → <img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** auswählen.
     -   Die Option **<img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** im Kontextmenü der Baumansicht auswählen. Diese Option ist im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) nicht verfügbar.
@@ -38,7 +38,7 @@ Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewä
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -50,9 +50,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True   *
+if obj.Visibility == True:
   obj.hide()
-else   *
+else:
   obj.show()
 ```
 

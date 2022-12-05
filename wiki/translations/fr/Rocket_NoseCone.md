@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */fr
-   Name   *Rocket NoseCone
-   Name/fr   *Rocket Coiffe
-   MenuLocation   *Rocket → Nose Cone
-   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
-   Version   *0.19
+- GuiCommand:/fr
+   Name:Rocket NoseCone
+   Name/fr:Rocket Coiffe
+   MenuLocation:Rocket → Nose Cone
+   Workbenches:[Rocket](Rocket_Workbench/fr.md)
+   Version:0.19
 ---
 
 # Rocket NoseCone/fr
@@ -15,7 +15,7 @@ Les coiffes sont de formes et de tailles diverses, dont la plupart sont difficil
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_NoseCone.svg" width=16px> [Nose Cone](Rocket_NoseCone/fr.md)**.
     -   Sélectionnez l\'option **Rocket → <img src="images/Rocket_NoseCone.svg" width=16px> Nose Cone** dans le menu.
     -   Double-cliquez sur un objet Nose Cone dans la [Vue en arborescence](Tree_view/fr.md).
@@ -25,16 +25,16 @@ Les coiffes sont de formes et de tailles diverses, dont la plupart sont difficil
 
 ### Types de coiffe 
 
-La théorie derrière les différentes formes de cône de nez est expliquée ici   * [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant)
+La théorie derrière les différentes formes de cône de nez est expliquée ici: [Aérodynamique de la pointe avant](https://fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant)
 
-Les types de coiffes pris en charge comprennent   *
+Les types de coiffes pris en charge comprennent:
 
 -   Cône.
 
 ![](images/NC_Cone_small.png ) 
 *Conique*
 
--   Cône arrondi. Pour toutes les formes arrondies, la longueur est la longueur réelle de la pointe et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
+-   Cône arrondi. Pour toutes les formes arrondies, la longueur est la longueur réelle de la pointe et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https://fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
 
 ![](images/NC_Blunted_Cone_small.png ) 
 *Cône arrondi sphérique*
@@ -44,7 +44,7 @@ Les types de coiffes pris en charge comprennent   *
 ![](images/NC_Ogive_small.png ) 
 *Ogive*
 
--   Ogive arrondie. Pour toutes les formes arrondies, l\'extrémité est arrondie de manière sphérique avec un diamètre spécifié. La longueur est la longueur réelle du nez et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
+-   Ogive arrondie. Pour toutes les formes arrondies, l\'extrémité est arrondie de manière sphérique avec un diamètre spécifié. La longueur est la longueur réelle du nez et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https://fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
 
 ![](images/NC_Blunted_Ogive_small.png ) 
 *Ogive arrondie sphérique*
@@ -92,23 +92,23 @@ Les types de coiffes pris en charge comprennent   *
 
 ### Types de coiffe 
 
-Les coiffes peuvent être dessinées dans l\'un des 3 styles    *
+Les coiffes peuvent être dessinées dans l\'un des 3 styles :
 
--   Solide   * le cône est construit comme une pièce solide, par exemple en bois de balsa.
+-   Solide: le cône est construit comme une pièce solide, par exemple en bois de balsa.
 
 ![](images/NC_Solid_small.png )
 
--   Creux   * Le cône est creux à l\'intérieur avec une épaisseur spécifiée. La fin n\'est pas scellée.
+-   Creux: Le cône est creux à l\'intérieur avec une épaisseur spécifiée. La fin n\'est pas scellée.
 
 ![](images/NC_Hollow_small.png )
 
--   Couvert   * similaire à creux, sauf que l\'extrémité est scellée.
+-   Couvert: similaire à creux, sauf que l\'extrémité est scellée.
 
 ![](images/NC_Capped_small.png )
 
 ### Epaulements
 
-Les coiffes peuvent être créés avec ou sans épaulements   *
+Les coiffes peuvent être créés avec ou sans épaulements:
 
 ![](images/NC_Ogive_small.png ) 
 *Ogive avec épaulement*
@@ -121,56 +121,48 @@ Les coiffes peuvent être créés avec ou sans épaulements   *
 
 {{TitleProperty|Nose Cone}}
 
--    **Blunted Diameter**   * Le diamètre de la partie sphérique à l\'extrémité de la pointe.
+-    **Blunted Diameter**: Le diamètre de la partie sphérique à l\'extrémité de la pointe.
 
--    **Coefficent**   * Combiné avec le type de coiffe, cela définit la forme de la pointe, voir [Options](#Options.md).
+-    **Coefficent**: Combiné avec le type de coiffe, cela définit la forme de la pointe, voir [Options](#Options.md).
 
--    **Diameter**   * Le diamètre de la base de la pointe.
+-    **Diameter**: Le diamètre de la base de la pointe.
 
--    **Length**   * La longueur du cône de la pointe sans l\'épaulement. Pour toutes les formes arrondies, la longueur est la longueur réelle de la pointe et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https   *//fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
+-    **Length**: La longueur du cône de la pointe sans l\'épaulement. Pour toutes les formes arrondies, la longueur est la longueur réelle de la pointe et non la longueur virtuelle décrite dans la référence [Aérodynamique de la pointe avant](https://fr.wikipedia.org/wiki/A%C3%A9rodynamique_de_la_pointe_avant).
 
--    **Nose Style**   * Définit le style de la pointe, voir [Options](#Options.md).
+-    **Nose Style**: Définit le style de la pointe, voir [Options](#Options.md).
 
--    **Nose Type**   * Définit la forme de la pointe en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
+-    **Nose Type**: Définit la forme de la pointe en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
 
--    **Ogive Diameter**   * Diamètre du cercle de l\'ogive. Cette donnée n\'est requise que pour la pointe en ogive sécante.
+-    **Ogive Diameter**: Diamètre du cercle de l\'ogive. Cette donnée n\'est requise que pour la pointe en ogive sécante.
 
--    **Resolution**   * Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser lors du dessin du contour de la pointe.
+-    **Resolution**: Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser lors du dessin du contour de la pointe.
 
--    **Shoulder**   * Vrai lorsque la pointe comprend une épaulement.
+-    **Shoulder**: Vrai lorsque la pointe comprend une épaulement.
 
--    **Shoulder Diameter**   * Le diamètre de l\'épaulement. Il doit être inférieur au rayon de la pointe.
+-    **Shoulder Diameter**: Le diamètre de l\'épaulement. Il doit être inférieur au rayon de la pointe.
 
--    **Shoulder Length**   * La longueur de l\'épaulement.
+-    **Shoulder Length**: La longueur de l\'épaulement.
 
--    **Shoulder Thickness**   * Lorsque le style de la pointe est creux ou bouché, cela détermine l\'épaisseur de l\'épaulement.
+-    **Shoulder Thickness**: Lorsque le style de la pointe est creux ou bouché, cela détermine l\'épaisseur de l\'épaulement.
 
--    **Thickness**   * Lorsque le style de la pointe est creux ou coiffé, cela déterminera l\'épaisseur de la paroi de la pointe.
+-    **Thickness**: Lorsque le style de la pointe est creux ou coiffé, cela déterminera l\'épaisseur de la paroi de la pointe.
 
 
 {{TitleProperty|Rocket Component}}
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    **Description**   * description du composant
+-    **Description**: description du composant
 
--    **Manufacturer**   * fabricant lorsqu\'il est connu
+-    **Manufacturer**: fabricant lorsqu\'il est connu
 
--    **Material**   * matériau lorsqu\'il est connu
+-    **Material**: matériau lorsqu\'il est connu
 
--    **Part Number**   * numéro de pièce du fabricant
+-    **Part Number**: numéro de pièce du fabricant
 
 ## Tutoriels et apprentissage 
 
-Tutoriel sur YouTube [Rocket Workbench Nose Cones](https   *//youtu.be/zwLgie2E4Ts)
-
-
-
-
-
-
-
-[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
+Tutoriel sur YouTube [Rocket Workbench Nose Cones](https://youtu.be/zwLgie2E4Ts)
 
 
 

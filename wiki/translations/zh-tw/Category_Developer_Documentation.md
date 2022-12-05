@@ -1,8 +1,6 @@
 # Category:Developer Documentation/zh-tw
 This category gathers documentation article mostly aimed at programmers
 
-[Category   *Documentation/zh-tw](Category   *Documentation/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

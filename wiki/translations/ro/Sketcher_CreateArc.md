@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ro
-   Name   *Sketcher CreateArc
-   Name/ro   *Sketcher Arc
-   Workbenches   *[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation   *Sketch → Sketcher geometries → Create arc
-   SeeAlso   *[Sketcher Circle](Sketcher_CompCreateCircle/ro.md)
+- GuiCommand:/ro
+   Name:Sketcher CreateArc
+   Name/ro:Sketcher Arc
+   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation:Sketch → Sketcher geometries → Create arc
+   SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/ro.md)
 ---
 
 # Sketcher CreateArc/ro
@@ -14,11 +14,11 @@
 
 ## Descriere
 
-Acest instrument desenează un arc de cerc definit prin trei puncte   * centrul, unghiul de start de-a lungul razei și unghiul final.
+Acest instrument desenează un arc de cerc definit prin trei puncte: centrul, unghiul de start de-a lungul razei și unghiul final.
 
 Când este activat acest instrument, indicatorul mouse-ului se transformă într-o iconiță sub formă de cruce albă înconjurată de un arc de cerc roșu Coordonatele pointerului sunt afișate alături în culoarea albastră în timp real.
 
-<img alt="The center has been selected, dragging to set the radius‎" src=images/Sketcher_ArcExample1.png ) ![The center and start angle have been selected, dragging to set end angle‎](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
+<img alt="The center has been selected, dragging to set the radius‎" src=images/Sketcher_ArcExample1.png ) ![The center and start angle have been selected, dragging to set end angle‎](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
 
 
 <div class="mw-translate-fuzzy">

@@ -1,10 +1,10 @@
 ---
-- GuiCommand   *
-   Name   *Std WhatsThis
-   MenuLocation   *[Help](Std_Help_Menu.md) → What's This?
-   Workbenches   *All
-   Shortcut   *Shift + F1
-   SeeAlso   *[Std Online Help](Std_OnlineHelp.md)
+- GuiCommand:
+   Name:Std WhatsThis
+   MenuLocation:[Help](Std_Help_Menu.md) → What's This?
+   Workbenches:All
+   Shortcut:Shift + F1
+   SeeAlso:[Std Online Help](Std_OnlineHelp.md)
 ---
 
 # Std WhatsThis/ro
@@ -22,7 +22,7 @@ Acest instrument oferă informații despre o comandă selectată prin deschidere
 
 </div>
 
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +35,7 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https 
 
 <div class="mw-translate-fuzzy">
 
-1.  Apăsați butonul **[<img src=images/Std_WhatsThis.png style="width   *24px"> '''What's This?'''** .
+1.  Apăsați butonul **[<img src=images/Std_WhatsThis.png style="width:24px"> '''What's This?'''** .
 2.  Faceți clic pe o pictogramă a barei de instrumente sau pe o intrare din meniu.
 
 

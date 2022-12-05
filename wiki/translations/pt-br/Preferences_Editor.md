@@ -7,7 +7,7 @@ To start the **Preferences editor** select the **Edit → Preferences...** optio
 
 FreeCAD uses a workbench concept, where each workbench is responsible for specific tasks and functions. A workbench can have its own preferences. These will only appear in the Preferences editor if the workbench has been loaded in the current FreeCAD session. See [Workbenches](#Workbenches.md) below for more information.
 
-If no workbench is loaded, five sections appear in the Preferences editor   * [General](#General.md), [Display](#Display.md), [Workbenches](#Workbenches.md), [Addon Manager](#Addon_Manager.md) and [Import-Export](#Import-Export.md). Any workbenches that have been loaded, and have their own preferences, will appear below these.
+If no workbench is loaded, five sections appear in the Preferences editor: [General](#General.md), [Display](#Display.md), [Workbenches](#Workbenches.md), [Addon Manager](#Addon_Manager.md) and [Import-Export](#Import-Export.md). Any workbenches that have been loaded, and have their own preferences, will appear below these.
 
 Please note that pressing the **Reset** button in the lower left corner of the Preferences dialog will reset **all** FreeCAD preferences to their default values.
 
@@ -15,11 +15,11 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 ## General
 
-This preferences section has 9 standard tabs   * General, Document, Selection, Cache, Editor, Python console, Output window, Macro and Units. A 10th tab, Help, is added if the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help) is available. This addon can be installed via the [Addon Manager](Std_AddonMgr.md).
+This preferences section has 9 standard tabs: General, Document, Selection, Cache, Editor, Python console, Output window, Macro and Units. A 10th tab, Help, is added if the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) is available. This addon can be installed via the [Addon Manager](Std_AddonMgr.md).
 
 ### Geral
 
-On the *General* tab you can specify the following   *
+On the *General* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -35,17 +35,17 @@ On the *General* tab you can specify the following   *
 | **Tamanho da lista de arquivos recentes**      |                                                                                                                                                                                                                                           |
 |                                                         |                                                                                                                                                                                                                                           |
 +++
-|                                             | If checked, the background of FreeCAD\'s main window will by default consist of tiles of this image <img alt="" src=images/Background.png  style="width   *64px;">                                                                                      |
+|                                             | If checked, the background of FreeCAD\'s main window will by default consist of tiles of this image <img alt="" src=images/Background.png  style="width:64px;">                                                                                      |
 | **Ativar fundo em mosaico**                    |                                                                                                                                                                                                                                           |
 |                                                                                                                                                                                                                                 |
 |                                                            | </div>                                                                                                                                                                                                                                    |
 |                                                            |                                                                                                                                                                                                                                        |
 |                                                            | This option only has an effect if no **Style sheet** is selected.                                                                                                                                               |
 |                                                            |                                                                                                                                                                                                                                           |
-|                                                            | The image can be changed by adding the folders **Gui/Images** in the folder   *                                                                                                                                       |
+|                                                            | The image can be changed by adding the folders **Gui/Images** in the folder:                                                                                                                                       |
 |                                                            |                                                                                                                                                                                                                                           |
 |                                                            |                                                                                                                                                                                                                            |
-|                                                            | **[https   *//www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD**                                                                                                                                  |
+|                                                            | **[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD**                                                                                                                                  |
 |                                                            |                                                                                                                                                                                                                                        |
 |                                                            | (on Windows),                                                                                                                                                                                                                             |
 |                                                            |                                                                                                                                                                                                                                           |
@@ -110,7 +110,7 @@ On the *General* tab you can specify the following   *
 
 ### Documento
 
-On the *Document* tab you can specify the following   *
+On the *Document* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -150,7 +150,7 @@ On the *Document* tab you can specify the following   *
 | **Salvar miniatura no arquivo quando salvar um documento **                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +++
-|                                                                                   | If checked, the FreeCAD program logo <img alt="" src=images/FreeCAD-logo.svg  style="width   *24px;"> will be added to the thumbnail.                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                   | If checked, the FreeCAD program logo <img alt="" src=images/FreeCAD-logo.svg  style="width:24px;"> will be added to the thumbnail.                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Adicionar o logotipo do programa à miniatura gerada**                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +++
@@ -194,7 +194,7 @@ On the *Document* tab you can specify the following   *
 
 ### Seleção
 
-On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following   *
+On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -232,7 +232,7 @@ On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following  
 
 These preferences are related to the cache directory where FreeCAD stores temporary files.
 
-On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following   *
+On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
 
 +++
 | Name                                                | Description                                                                                                                                 |
@@ -241,7 +241,7 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following   *
 | **Location**                            |                                                                                                                                             |
 |                                                  |                                                                                                                                             |
 +++
-|                                      | Controls the frequency with which the directory size is checked. The options are   *                                                           |
+|                                      | Controls the frequency with which the directory size is checked. The options are:                                                           |
 | **Check periodically at program start** |                                                                                                                                             |
 |                                                  | -   **Always**                                                                                                                              |
 |                                                     | -   **Daily**                                                                                                                               |
@@ -250,7 +250,7 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following   *
 |                                                     | -   **Yearly**                                                                                                                              |
 |                                                     | -   **Never**                                                                                                                               |
 +++
-|                                      | Specifies the maximum size of the directory. You will be notified if a check is performed and the size exceeds this value. The options are   * |
+|                                      | Specifies the maximum size of the directory. You will be notified if a check is performed and the size exceeds this value. The options are: |
 | **Cache size limit**                    |                                                                                                                                             |
 |                                                  | -   **100 MB**                                                                                                                              |
 |                                                     | -   **300 MB**                                                                                                                              |
@@ -272,7 +272,7 @@ These preferences control the behavior of the [Macro editor](Std_DlgMacroExecute
 
 The color and font settings are also used by the [Python console](#Python_console.md).
 
-On the *Editor* tab you can specify the following   *
+On the *Editor* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -328,7 +328,7 @@ These preferences control the behavior of the [Python console](Python_console.md
 
 Note that the color and font settings for the console are defined on the [Editor](#Editor.md) tab.
 
-On the *Python console* tab (<small>(v0.20)</small> ) you can specify the following   *
+On the *Python console* tab (<small>(v0.20)</small> ) you can specify the following:
 
 +++
 | Name                                | Description                                                                                     |
@@ -356,11 +356,11 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 
 </div>
 
-**Important note   *** this tab has been renamed from Output window to **Report view**. <small>(v1.0)</small> 
+**Important note:** this tab has been renamed from Output window to **Report view**. <small>(v1.0)</small> 
 
 These preferences control the behavior of the [Report view](Report_view.md). This panel can be opened using the **View → Panels → Report view** menu option.
 
-On the *Output window* tab you can specify the following   *
+On the *Output window* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -441,7 +441,7 @@ On the *Output window* tab you can specify the following   *
 
 ### Macro
 
-On the *Macro* tab you can specify the following   *
+On the *Macro* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -489,7 +489,7 @@ On the *Macro* tab you can specify the following   *
 
 ### Unidades
 
-On the *Units* tab you can specify the following   *
+On the *Units* tab you can specify the following:
 
 
 <div class="mw-translate-fuzzy">
@@ -517,46 +517,46 @@ On the *Units* tab you can specify the following   *
 
 ### Help
 
-This tab is only available if the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help) has been [installed](Std_AddonMgr.md).
+This tab is only available if the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) has been [installed](Std_AddonMgr.md).
 
-On the *Help* tab you can specify the following   *
+On the *Help* tab you can specify the following:
 
 +++
 | Name                              | Description                                                                                                                                                                                                                                                               |
 +===================================+===========================================================================================================================================================================================================================================================================+
-|                    | Specifies the location of the Help files. The options are   *                                                                                                                                                                                                                |
+|                    | Specifies the location of the Help files. The options are:                                                                                                                                                                                                                |
 | **Help location**     |                                                                                                                                                                                                                                                                           |
 |                                | -                                                                                                                                                                                                                                                          |
 |                                   |     **Online**                                                                                                                                                                                                                                                |
 |                                   |                                                                                                                                                                                                                                                                        |
-|                                   |        * Enter the URL or leave blank to use the automatic [GitHub URL](https   *//github.com/FreeCAD/FreeCAD-documentation/tree/main/wiki).                                                                                                                                    |
+|                                   |     : Enter the URL or leave blank to use the automatic [GitHub URL](https://github.com/FreeCAD/FreeCAD-documentation/tree/main/wiki).                                                                                                                                    |
 |                                   |                                                                                                                                                                                                                                                                           |
-|                                   |    *                                                                                                                                                                                                                                                          |
+|                                   | :                                                                                                                                                                                                                                                          |
 |                                   |     **Translation suffix**                                                                                                                                                                                                                                    |
 |                                   |                                                                                                                                                                                                                                                                        |
-|                                   |        * If {{Value|https   *//wiki.freecad.org/}} is used, a [language suffix](https   *//en.wikipedia.org/wiki/List_of_ISO_639-1_codes) can be specified. Use for example {{Value|fr}} for the French translation. Must be blank for the GitHub URL. |
+|                                   |     : If {{Value|https://wiki.freecad.org/}} is used, a [language suffix](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) can be specified. Use for example {{Value|fr}} for the French translation. Must be blank for the GitHub URL. |
 |                                   |                                                                                                                                                                                                                                                                           |
 |                                   | -                                                                                                                                                                                                                                                          |
 |                                   |     **From disk location**                                                                                                                                                                                                                                    |
 |                                   |                                                                                                                                                                                                                                                                        |
-|                                   |        * Enter the path where the downloaded FreeCAD documentation can be found. To download the documentation select the *offline-documentation* addon from the Workbenches list in the [Addon Manager](Std_AddonMgr.md).                                           |
+|                                   |     : Enter the path where the downloaded FreeCAD documentation can be found. To download the documentation select the *offline-documentation* addon from the Workbenches list in the [Addon Manager](Std_AddonMgr.md).                                           |
 +++
-|                    | Specifies where the documentation should be displayed. The options are   *                                                                                                                                                                                                   |
+|                    | Specifies where the documentation should be displayed. The options are:                                                                                                                                                                                                   |
 | **Display**           |                                                                                                                                                                                                                                                                           |
 |                                | -                                                                                                                                                                                                                                                          |
 |                                   |     **In a new FreeCAD tab**                                                                                                                                                                                                                                  |
 |                                   |                                                                                                                                                                                                                                                                        |
-|                                   |        * The documentation is displayed on a new tab in the [Main view area](Main_view_area.md).                                                                                                                                                                     |
+|                                   |     : The documentation is displayed on a new tab in the [Main view area](Main_view_area.md).                                                                                                                                                                     |
 |                                   |                                                                                                                                                                                                                                                                           |
 |                                   | -                                                                                                                                                                                                                                                          |
 |                                   |     **In your default web browser**                                                                                                                                                                                                                           |
 |                                   |                                                                                                                                                                                                                                                                        |
-|                                   |        * The documentation is displayed in the default web browser.                                                                                                                                                                                                          |
+|                                   |     : The documentation is displayed in the default web browser.                                                                                                                                                                                                          |
 |                                   |                                                                                                                                                                                                                                                                           |
 |                                   | -                                                                                                                                                                                                                                                          |
 |                                   |     **In a separate, embeddable, dialog**                                                                                                                                                                                                                     |
 |                                   |                                                                                                                                                                                                                                                                        |
-|                                   |        * The documentation is displayed in a separate dialog. This dialog can be docked on top of the [Combo view](Combo_view.md) for example.                                                                                                                       |
+|                                   |     : The documentation is displayed in a separate dialog. This dialog can be docked on top of the [Combo view](Combo_view.md) for example.                                                                                                                       |
 +++
 |                    | Specifies an optional custom stylesheet. Not used for the Wiki URL.                                                                                                                                                                                                       |
 | **Custom stylesheet** |                                                                                                                                                                                                                                                                           |
@@ -567,11 +567,11 @@ On the *Help* tab you can specify the following   *
 
 ## Display
 
-This preferences section has three standard tabs   * 3D View, Navigation and Colors. A fourth tab, Mesh view, is added if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
+This preferences section has three standard tabs: 3D View, Navigation and Colors. A fourth tab, Mesh view, is added if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
 
 ### Vista 3D 
 
-On the *3D View* tab you can specify the following   *
+On the *3D View* tab you can specify the following:
 
 +++
 | Name                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -585,7 +585,7 @@ On the *3D View* tab you can specify the following   *
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <small>(v0.19)</small>                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | If checked, the time needed for the last operation and the resulting [frame rate](https   *//en.wikipedia.org/wiki/Frame_rate) will be shown in the lower left corner of the [3D view](3D_view.md).                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                        | If checked, the time needed for the last operation and the resulting [frame rate](https://en.wikipedia.org/wiki/Frame_rate) will be shown in the lower left corner of the [3D view](3D_view.md).                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Show counter of frames per second**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
@@ -594,29 +594,29 @@ On the *3D View* tab you can specify the following   *
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <small>(v0.19)</small>                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | If checked, [OpenGL](https   *//en.wikipedia.org/wiki/OpenGL) will use the CPU instead of the GPU. This option is useful for troubleshooting graphics card and driver problems. Changing this option requires a restart of the application.                                                                                                                                                                                                                                                                                                                                                        |
+|                                        | If checked, [OpenGL](https://en.wikipedia.org/wiki/OpenGL) will use the CPU instead of the GPU. This option is useful for troubleshooting graphics card and driver problems. Changing this option requires a restart of the application.                                                                                                                                                                                                                                                                                                                                                        |
 | **Use software OpenGL**                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <small>(v0.19)</small>                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | If checked, [Vertex Buffer Objects](https   *//en.wikipedia.org/wiki/Vertex_Buffer_Object) (VBO) will be used. A VBO is an [OpenGL](https   *//en.wikipedia.org/wiki/OpenGL) feature that provides methods for uploading vertex data (position, normal vector, color, etc.) to the graphics card. VBOs offer substantial performance gains because the data resides in the graphics memory rather than the system memory and so it can be rendered directly by the GPU. For more background info see [Understanding OpenGL Objects](https   *//www.haroldserrano.com/blog/understanding-opengl-objects). |
+|                                        | If checked, [Vertex Buffer Objects](https://en.wikipedia.org/wiki/Vertex_Buffer_Object) (VBO) will be used. A VBO is an [OpenGL](https://en.wikipedia.org/wiki/OpenGL) feature that provides methods for uploading vertex data (position, normal vector, color, etc.) to the graphics card. VBOs offer substantial performance gains because the data resides in the graphics memory rather than the system memory and so it can be rendered directly by the GPU. For more background info see [Understanding OpenGL Objects](https://www.haroldserrano.com/blog/understanding-opengl-objects). |
 | **Use OpenGL VBO (Vertex Buffer Object)** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | \"Render Cache\" or \"Render Acceleration\" is explained in more detail in [FreeCAD_assembly3 render-caching](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). The options are   *                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                        | \"Render Cache\" or \"Render Acceleration\" is explained in more detail in [FreeCAD_assembly3 render-caching](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). The options are:                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Render Cache**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                    | -   **Auto**   * Let Coin3D decide where to cache (default).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| <small>(v0.19)</small>                         | -   **Distributed**   * Manually turn on cache for all view provider root nodes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                       | -   **Centralized**   * Manually turn off cache in all nodes of all view providers, and only cache at the scene graph root node. This offers the fastest rendering speed, but slower response to any scene changes.                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                    | -   **Auto**: Let Coin3D decide where to cache (default).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <small>(v0.19)</small>                         | -   **Distributed**: Manually turn on cache for all view provider root nodes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                       | -   **Centralized**: Manually turn off cache in all nodes of all view providers, and only cache at the scene graph root node. This offers the fastest rendering speed, but slower response to any scene changes.                                                                                                                                                                                                                                                                                                                                                                                |
 +++
-|                                        | Specifies if and what type of [multisample anti-aliasing](https   *//en.wikipedia.org/wiki/Multisample_anti-aliasing) is used                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                        | Specifies if and what type of [multisample anti-aliasing](https://en.wikipedia.org/wiki/Multisample_anti-aliasing) is used                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Anti-Aliasing**                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | Specifies the render type of transparent objects. The options are   *                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                        | Specifies the render type of transparent objects. The options are:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Transparent objects**                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                    | -   **One pass**   * Rendering is done in one pass (default). This can lead to triangular artifacts. If these occur the type **Backface pass** can be used to avoid them.                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| <small>(v0.19)</small>                         | -   **Backface pass**   * Rendering is done in two passes. Back-facing polygons are rendered in the first pass and front-facing polygons in the second pass.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                    | -   **One pass**: Rendering is done in one pass (default). This can lead to triangular artifacts. If these occur the type **Backface pass** can be used to avoid them.                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| <small>(v0.19)</small>                         | -   **Backface pass**: Rendering is done in two passes. Back-facing polygons are rendered in the first pass and front-facing polygons in the second pass.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
 |                                        | Specifies the size of [vertices](Glossary#Vertex.md) (points) in the [Sketcher Workbench](Sketcher_Workbench.md). The clickable area of points can be additionally enlarged by increasing the **Pick radius**.                                                                                                                                                                                                                                                                                                                                        |
 | **Marker size**                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -634,17 +634,17 @@ On the *3D View* tab you can specify the following   *
 | **Backlight color**                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
-|                                        | Specifies the camera projection type. The options are   *                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                        | Specifies the camera projection type. The options are:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Camera type**                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                    | -   **Perspective rendering**   * Objects will appear in a [perspective projection](https   *//en.wikipedia.org/wiki/Perspective_projection).                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                       | -   **Orthographic rendering**   * Objects will be appear in an [orthographic projection](https   *//en.wikipedia.org/wiki/Orthographic_projection).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                    | -   **Perspective rendering**: Objects will appear in a [perspective projection](https://en.wikipedia.org/wiki/Perspective_projection).                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                       | -   **Orthographic rendering**: Objects will be appear in an [orthographic projection](https://en.wikipedia.org/wiki/Orthographic_projection).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 +++
 
 ![](images/Preferences_Display_Tab_3D_View.png )
 
 ### Navegação
 
-On the *Navigation* tab you can specify the following   *
+On the *Navigation* tab you can specify the following:
 
 +++
 | Name                                             | Description                                                                                                                                                                                                                                                                                                                                                            |
@@ -672,12 +672,12 @@ On the *Navigation* tab you can specify the following   *
 | **3D Navigation**                    |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                               |                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                   | Specifies the rotation orbit style used when in rotation mode. The options are   *                                                                                                                                                                                                                                                                                        |
+|                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**   * Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**   * Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
+|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
 +++
-|                                   | Defines the rotation center. The options are   *                                                                                                                                                                                                                                                                                                                          |
+|                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                               | -   **Window center**                                                                                                                                                                                                                                                                                                                                                  |
 |                                                  | -   **Drag at cursor**                                                                                                                                                                                                                                                                                                                                                 |
@@ -712,7 +712,7 @@ On the *Navigation* tab you can specify the following   *
 
 ### Cores
 
-On the *Colors* tab you can specify the following   *
+On the *Colors* tab you can specify the following:
 
 +++
 | Name                                             | Description                                                                                                                                                                                                                         |
@@ -756,7 +756,7 @@ On the *Colors* tab you can specify the following   *
 
 This tab is only available if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
 
-On the *Mesh view* tab you can specify the following   *
+On the *Mesh view* tab you can specify the following:
 
 +++
 | Name                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -785,21 +785,21 @@ On the *Mesh view* tab you can specify the following   *
 | **Show bounding-box for highlighted or selected meshes** |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +++
-|                                                       | If checked, [Phong shading](https   *//en.wikipedia.org/wiki/Phong_shading) is used, otherwise flat shading. Shading defines the appearance of surfaces. With flat shading the surface normals are not defined per vertex. This leads to an unrealistic appearance for curved surfaces. While Phong shading leads to a more realistic, smoother appearance.                                                                             |
+|                                                       | If checked, [Phong shading](https://en.wikipedia.org/wiki/Phong_shading) is used, otherwise flat shading. Shading defines the appearance of surfaces. With flat shading the surface normals are not defined per vertex. This leads to an unrealistic appearance for curved surfaces. While Phong shading leads to a more realistic, smoother appearance.                                                                             |
 | **Define normal per vertex**                             |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +++
 |                                                       | The crease angle is a threshold angle between two faces. It can only be set if the option **Define normal per vertex** is used.                                                                                                                                                                                                                                                                            |
 | **Crease angle**                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                                   |    *   If face angle ≥ crease angle, facet shading is used.                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                      |    *   If face angle \< crease angle, smooth shading is used.                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                   | :   If face angle ≥ crease angle, facet shading is used.                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                      | :   If face angle \< crease angle, smooth shading is used.                                                                                                                                                                                                                                                                                                                                                                           |
 +++
 
 ![](images/Preferences_Display_Tab_Mesh_view.png )
 
 ### Bancadas de trabalho 
 
-This preferences section has a single tab   * Available Workbenches.
+This preferences section has a single tab: Available Workbenches.
 
 
 <div class="mw-translate-fuzzy">
@@ -811,7 +811,7 @@ This preferences section has a single tab   * Available Workbenches.
 
 To preserve resources, FreeCAD does not automatically load all available workbenches. And only if a workbench has been loaded will its preferences, if any, appear in the Preferences editor.
 
-In FreeCAD version 0.19 the tab has a different label   * *Unloaded Workbenches*, and the tab displays a list of installed workbenches that have not yet been loaded. To load one or more workbenches select them in the list and then press the **Load Selected** button.
+In FreeCAD version 0.19 the tab has a different label: *Unloaded Workbenches*, and the tab displays a list of installed workbenches that have not yet been loaded. To load one or more workbenches select them in the list and then press the **Load Selected** button.
 
 In FreeCAD version 0.20 the *Available Workbenches* tab displays a list of all installed workbenches. To load a workbench press its **Load now** button. If you check a workbench\'s **Autoload** checkbox it will autoload when FreeCAD starts up. Loading more workbenches will make the startup slower, but switching between workbenches that have already been loaded is faster.
 
@@ -823,13 +823,13 @@ For a list of workbench related preferences see [Workbench related preferences](
 
 ## Addon Manager 
 
-This preferences section has a single tab   * Addon manager options.
+This preferences section has a single tab: Addon manager options.
 
 ### Addon manager options 
 
 These preferences control the behavior of the [Addon manager](Std_AddonMgr.md).
 
-On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the following   *
+On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the following:
 
 +++
 | Name                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                 |
@@ -842,7 +842,7 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 | **Download Macro metadata (approximately 10MB)**            |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | Controls the frequency with which the locally cached addon availability and metadata information is updated. The options are   *                                                                                                                                                                                                                                               |
+|                                                          | Controls the frequency with which the locally cached addon availability and metadata information is updated. The options are:                                                                                                                                                                                                                                               |
 | **Cache update frequency**                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      | -   **Manual (no automatic updates)**                                                                                                                                                                                                                                                                                                                                       |
 |                                                                         | -   **Daily**                                                                                                                                                                                                                                                                                                                                                               |
@@ -905,7 +905,7 @@ The Import-Export preferences affect how files are imported and exported. They a
 
 </div>
 
-Preferences for the built-in workbenches are linked below. These links are also listed in [   *Category   *Preferences](   *Category_Preferences.md). Some workbenches have no preferences.
+Preferences for the built-in workbenches are linked below. These links are also listed in [:Category:Preferences](:Category_Preferences.md). Some workbenches have no preferences.
 
 -   [Arch Preferences](Arch_Preferences.md)
 -   [Draft Preferences](Draft_Preferences.md)
@@ -916,7 +916,7 @@ Preferences for the built-in workbenches are linked below. These links are also 
 -   [Mesh Design Preferences](Mesh_Workbench#Preferences.md)
 -   [OpenSCAD Preferences](OpenSCAD_Preferences.md)
 
--   Part Preferences   * the Part workbench also uses the [PartDesign Preferences](PartDesign_Preferences.md)
+-   Part Preferences: the Part workbench also uses the [PartDesign Preferences](PartDesign_Preferences.md)
 -   [PartDesign Preferences](PartDesign_Preferences.md)
 -   [Path Preferences](Path_Preferences.md)
 -   Points Preferences (none)
@@ -934,7 +934,7 @@ Preferences for the built-in workbenches are linked below. These links are also 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
@@ -944,13 +944,6 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 -   [Parameter editor](Std_DlgParameter.md)
 -   [Fine-tuning](Fine-tuning.md)
-
-
-
-
-
-
-[Category   *Preferences](Category_Preferences.md)
 
 
 

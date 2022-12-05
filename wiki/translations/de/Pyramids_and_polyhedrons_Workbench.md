@@ -1,14 +1,14 @@
-# <img alt="The Pyramids-and-Polyhedrons Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width   *64px;"> Pyramids and polyhedrons Workbench/de
+# <img alt="The Pyramids-and-Polyhedrons Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width:64px;"> Pyramids and polyhedrons Workbench/de
 
 
 {{TOCright}}
 
 ## Introduction
 
-Dieser Arbeitsbereich erstellt   *
+Dieser Arbeitsbereich erstellt:
 
 -   Parametrische Pyramiden
--   Parametrische Polyeder   * Tetraeder, Hexaeder, Oktaeder, Dodekaeder, Ikosaeder, Ikosaeder_abgestumpft
+-   Parametrische Polyeder: Tetraeder, Hexaeder, Oktaeder, Dodekaeder, Ikosaeder, Ikosaeder_abgestumpft
 -   Geodätische Kugeln (mit den Unterteilungen 1 bis 10)
 
 
@@ -19,19 +19,19 @@ Parameter wie Radius und Seite, \...können genau wie bei normalen Teilen einges
 
 </div>
 
-<img alt="" src=images/Pyramids-and-Polyhedrons_workbench.png  style="width   *600px;">
+<img alt="" src=images/Pyramids-and-Polyhedrons_workbench.png  style="width:600px;">
 
-<img alt="" src=images/Polyhedrons.png  style="width   *600px;">
+<img alt="" src=images/Polyhedrons.png  style="width:600px;">
 
 ## Installation
 
 Install via the Addon manager
 
-To install the Addon use the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md) to seamlessly download the Pyramids and Polygons Workbench.
+To install the Addon use the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr.md) to seamlessly download the Pyramids and Polygons Workbench.
 
 Manual install
 
-Go to <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions there. Further details about this workbench can also be found there.
+Go to <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions there. Further details about this workbench can also be found there.
 
 ## Anwendung
 
@@ -49,7 +49,7 @@ Go to <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and foll
 
 <div class="mw-translate-fuzzy">
 
-Weitere Einzelheiten über diesen Arbeitsbereich findest du auf dem speziellen GitHub Repo   * <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons>
+Weitere Einzelheiten über diesen Arbeitsbereich findest du auf dem speziellen GitHub Repo: <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons>
 
 
 </div>
@@ -57,11 +57,6 @@ Weitere Einzelheiten über diesen Arbeitsbereich findest du auf dem speziellen G
 ## Diskussion
 
 Bitte richte deine Rückmeldung, Ideen und Gedanken zu diesem Arbeitsbereich an den speziellen FreeCAD Forumsbeitrag (Verknüpfung). Fehler können auch in der GitHub Repo Problemliste eingetragen werden.
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

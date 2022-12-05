@@ -1,26 +1,26 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Проверка геометрии
-   Name   *Part_CheckGeometry‏‎
-   MenuLocation   *Деталь → Проверка геометрии
-   Workbenches   *[Part](Part_Workbench/ru.md)
+- GuiCommand:/ru
+   Name/ru:Проверка геометрии
+   Name:Part_CheckGeometry‏‎
+   MenuLocation:Деталь → Проверка геометрии
+   Workbenches:[Part](Part_Workbench/ru.md)
 ---
 
 # Part CheckGeometry/ru
 
 ## Описание
 
-Инструмент **<img src="images/Part_CheckGeometry.svg" width=16px> [Проверка геометрии](Part_CheckGeometry.md)** выполняет проверку и сообщает, является ли геометрическая форма допустимым твердым телом. Инструмент проверяет, является ли допустимым [граничное представление](https   *//en.wikipedia.org/wiki/Boundary_representation) (BRep или [B-rep](Глоссарий#B.md)) модели.
+Инструмент **<img src="images/Part_CheckGeometry.svg" width=16px> [Проверка геометрии](Part_CheckGeometry.md)** выполняет проверку и сообщает, является ли геометрическая форма допустимым твердым телом. Инструмент проверяет, является ли допустимым [граничное представление](https://en.wikipedia.org/wiki/Boundary_representation) (BRep или [B-rep](Глоссарий#B.md)) модели.
 
 ## Применение
 
 1.  Select a part (beware to select the whole part and not just a face to check for valid solid)
-2.  Invoke the tool by either   *
+2.  Invoke the tool by either:
     -   Clicking on the **<img src="images/Part_CheckGeometry.svg" width=16px> [CheckGeometry](Part_CheckGeometry.md)** button available in the Part workbench toolbar.
     -   Using the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
 3.  The **Settings** task panel opens, unless **Skip settings page** is enabled. See [Options](#Options.md) for more information. Click **Run check**.
 
-Results will be reported in the [Task panel](Task_panel.md). If the check produced errors   * click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
+Results will be reported in the [Task panel](Task_panel.md). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
 ## Опции
 
@@ -38,12 +38,12 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
 
 ## Определение характеристик формы 
 
-В дополнение к обнаружению потенциальных ошибок геометрии, этот инструмент показывает ряд свойств, относящихся к выбранному объекту   *
+В дополнение к обнаружению потенциальных ошибок геометрии, этот инструмент показывает ряд свойств, относящихся к выбранному объекту:
 
 -   Проверенный объект
 -   Тип формы
--   Количество геометрических объектов   * вершины, ребра, провода, грани, оболочки, твердые тела, составные части, соединения, общие формы
--   Геометрические и массовые свойства   *
+-   Количество геометрических объектов: вершины, ребра, провода, грани, оболочки, твердые тела, составные части, соединения, общие формы
+-   Геометрические и массовые свойства:
     -   Площадь
     -   Объем
     -   Масса

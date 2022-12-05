@@ -1,9 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Plot Grid
-   Name/pl   *Wykres   * Pokaż / ukryj siatkę
-   MenuLocation   *Wykres → Pokaż / ukryj siatkę
-‏   Workbenches   *[Wykres](Plot_Workbench/pl.md)
+- GuiCommand:
+   Name:Plot Grid
+   Name/pl:Wykres: Pokaż / ukryj siatkę
+   MenuLocation:Wykres → Pokaż / ukryj siatkę
+‏   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Grid/pl
@@ -12,7 +12,7 @@
 
 To narzędzie pozwala użytkownikowi włączyć / wyłączyć linie siatki na określonej powierzchni.
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 ## Użycie
 
@@ -26,9 +26,7 @@ Narzędzie to działa na aktywnym zestawie osi. W przypadku wykresów wieloosiow
 
 {{Plot_Tools_navi
 
-}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}}
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch SectionPlane
-   Name/ru   *Arch SectionPlane
-   MenuLocation   *Архитектура -> Плоскость сечения
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Shortcut   ***S** **P**
-   SeeAlso   *[Draft Shape2DView](Draft_Shape2DView/ru.md), [TechDraw NewArch](TechDraw_ArchView/ru.md)
+- GuiCommand:/ru
+   Name:Arch SectionPlane
+   Name/ru:Arch SectionPlane
+   MenuLocation:Архитектура -> Плоскость сечения
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**S** **P**
+   SeeAlso:[Draft Shape2DView](Draft_Shape2DView/ru.md), [TechDraw NewArch](TechDraw_ArchView/ru.md)
 ---
 
 # Arch SectionPlane/ru
@@ -25,7 +25,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
 ## Применение
 
@@ -49,7 +49,7 @@
 
 -   С выбранным объектом сечения используйте инструмент [Draft Shape2DView](Draft_Shape2DView/ru.md) для создания объекта, представляющего вид сечения в документе.
 
-<img alt="" src=images/Arch_Section_example2.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -59,27 +59,27 @@
 
 </div>
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
 -   The Section Plane can also be used to show the entire 3D view cut by an infinite plane. This is only visual, and won\'t affect the geometry of the objects being cut.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
 ## Свойства
 
--    **Only Solids**   * Если это `True`, объекты не твердых тел не будут учитываться в наборе.
+-    **Only Solids**: Если это `True`, объекты не твердых тел не будут учитываться в наборе.
 
--    **Display Length**   * Длина \"чего-то\" плоскости сечения на трехмерном виде. Не влияет на итоговый вид
+-    **Display Length**: Длина \"чего-то\" плоскости сечения на трехмерном виде. Не влияет на итоговый вид
 
--    **Display Height**   * Высота \"чего-то\" плоскости сечения в трехмерном виде. Не влияет на итоговый вид
+-    **Display Height**: Высота \"чего-то\" плоскости сечения в трехмерном виде. Не влияет на итоговый вид
 
--    **Arrow Size**   * Размер стрелок в \"чём-то\" секущей плоскости в трёхмерном виде. Не влияет на итоговый вид
+-    **Arrow Size**: Размер стрелок в \"чём-то\" секущей плоскости в трёхмерном виде. Не влияет на итоговый вид
 
--    **Cut View**   * Если это `True`, весь трёхмерный вид будет рассечён по месту этой секущей плоскости.
+-    **Cut View**: Если это `True`, весь трёхмерный вид будет рассечён по месту этой секущей плоскости.
 
--    **Clip view**   * Если это `True`, он будет обрезать вид до отображаемой высоты и длины плоскости сечения. Это эффективно превращает плоскость сечения в ортогональную камеру, ограничивая поле зрения. <small>(v0.19)</small> 
+-    **Clip view**: Если это `True`, он будет обрезать вид до отображаемой высоты и длины плоскости сечения. Это эффективно превращает плоскость сечения в ортогональную камеру, ограничивая поле зрения. <small>(v0.19)</small> 
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
 
@@ -87,16 +87,16 @@
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App   *   *PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
 
 ## Программирование
 
 
-**См. так же   ***
+**См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-Инструмент SectionPlane может использоваться в [макросах](macros/ru.md) и в консоли [Python](Python.md) с использованием следующих функций   *
+Инструмент SectionPlane может использоваться в [макросах](macros/ru.md) и в консоли [Python](Python.md) с использованием следующих функций:
 
 
 ```python
@@ -105,7 +105,7 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 
 -   Создаёт объект `Section` из `objectslist`, который есть список объектов.
 
-Пример   *
+Пример:
 
 
 ```python

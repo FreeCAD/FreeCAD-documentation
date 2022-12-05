@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *FEM EquationHeat
-   Name/fr   *FEM Equation de chaleur
-   MenuLocation   *Solveur → Equation de chaleur
-   Workbenches   *[FEM](FEM_Workbench/fr.md)
-   Version   *0.19
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand:/fr
+   Name:FEM EquationHeat
+   Name/fr:FEM Equation de chaleur
+   MenuLocation:Solveur → Equation de chaleur
+   Workbenches:[FEM](FEM_Workbench/fr.md)
+   Version:0.19
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM EquationHeat/fr
@@ -14,35 +14,35 @@
 
 Cette équation décrit le transfert de chaleur dans les corps rigides et fluides.
 
-Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http   *//www.elmerfem.org/blog/documentation/), section *Heat Equation*.
+Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Heat Equation*.
 
 ## Utilisation
 
 1.  Après avoir ajouté un solveur Elmer comme décrit [ici](FEM_SolverElmer/fr#.C3.89quations.md), sélectionnez-le dans la [Vue en arborescence](Tree_view/fr.md)
-2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationHeat.svg  style="width   *24px;"> ou le menu **Solveur → Equation de chaleur**.
+2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> ou le menu **Solveur → Equation de chaleur**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
 ## Paramètres du solveur 
 
 Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 
-L\'équation de la chaleur fournit ces réglages spéciaux    *
+L\'équation de la chaleur fournit ces réglages spéciaux :
 
--    **Bubbles**   * il existe également une formulation résiduelle sans bulles de la méthode des éléments finis stabilisés. Elle est plus précise et n\'inclut pas de termes ad hoc. Cependant, elle peut être plus coûteuse en termes de calcul. Si **Remarque**    * si, au cours de la *première itération du solveur*, vous obtenez cette erreur    * ERROR   *   * IterSolve   * Numerical Error   * System diverged over maximum tolerance.La méthode **Bubbles** a échoué. Dans ce cas, mettez **[Stabilize](FEM_SolverElmer_SolverSettings/fr#Base.md)** à *true*.
+-    **Bubbles**: il existe également une formulation résiduelle sans bulles de la méthode des éléments finis stabilisés. Elle est plus précise et n\'inclut pas de termes ad hoc. Cependant, elle peut être plus coûteuse en termes de calcul. Si **Remarque** : si, au cours de la *première itération du solveur*, vous obtenez cette erreur : ERROR:: IterSolve: Numerical Error: System diverged over maximum tolerance.La méthode **Bubbles** a échoué. Dans ce cas, mettez **[Stabilize](FEM_SolverElmer_SolverSettings/fr#Base.md)** à *true*.
 
-Equation    *
+Equation :
 
--    **Convection**   * type de convection à utiliser dans l\'équation de la chaleur.**Remarque**    * si cette valeur n\'est pas mise à *None*, **[Stabilize](FEM_SolverElmer_SolverSettings/fr#Base.md)** doit être mise à *true* sinon le terme de convection ne sera pas considéré pour l\'équation de la chaleur.
+-    **Convection**: type de convection à utiliser dans l\'équation de la chaleur.**Remarque** : si cette valeur n\'est pas mise à *None*, **[Stabilize](FEM_SolverElmer_SolverSettings/fr#Base.md)** doit être mise à *true* sinon le terme de convection ne sera pas considéré pour l\'équation de la chaleur.
 
--    **Phase Change Model**   * modèle utilisé pour les changements de phase (de la glace à l\'eau, etc.). Le modèle *Spatial 1* est la méthode de capacité de chaleur apparente, *Spatial 2* et *Temporel* sont les méthodes de capacité de chaleur effective.Pour plus d\'informations sur les modèles, voir [ce papier](https   *//blog.rwth-aachen.de/gfd/files/2017/07/BT_2013_Schueller_elmer_icemole.pdf) (section 2.5.2.2) (en allemand). Dans l\'article, il est également montré que *Spatial 1* a des problèmes numériques sur des gradients de température plus importants et que *Spatial 2* est préférable pour le changement de phase de la glace à l\'eau.
+-    **Phase Change Model**: modèle utilisé pour les changements de phase (de la glace à l\'eau, etc.). Le modèle *Spatial 1* est la méthode de capacité de chaleur apparente, *Spatial 2* et *Temporel* sont les méthodes de capacité de chaleur effective.Pour plus d\'informations sur les modèles, voir [ce papier](https://blog.rwth-aachen.de/gfd/files/2017/07/BT_2013_Schueller_elmer_icemole.pdf) (section 2.5.2.2) (en allemand). Dans l\'article, il est également montré que *Spatial 1* a des problèmes numériques sur des gradients de température plus importants et que *Spatial 2* est préférable pour le changement de phase de la glace à l\'eau.
 
 ## Informations sur les contraintes 
 
-L\'équation d\'élasticité prend en compte les contraintes suivantes si elles sont définies    *
+L\'équation d\'élasticité prend en compte les contraintes suivantes si elles sont définies :
 
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width   *32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width   *32px;"> [Contrainte de température](FEM_ConstraintTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Contrainte de température](FEM_ConstraintTemperature/fr.md)
 
 ### Remarque
 

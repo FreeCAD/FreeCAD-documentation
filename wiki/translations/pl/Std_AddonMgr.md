@@ -1,20 +1,20 @@
 ---
-- GuiCommand   */pl
-   Name   *Std AddonMgr
-   Name/pl   *Std   * Menadżer dodatków
-   MenuLocation   *Przybory → Menadżer dodatków
-   Workbenches   *Wszystkie
-   Version   *0.17
-   SeeAlso   *[Zewnętrzne środowiska pracy](External_workbenches/pl.md), [Makrodefinicje](Macros/pl.md)
+- GuiCommand:/pl
+   Name:Std AddonMgr
+   Name/pl:Std: Menadżer dodatków
+   MenuLocation:Przybory → Menadżer dodatków
+   Workbenches:Wszystkie
+   Version:0.17
+   SeeAlso:[Zewnętrzne środowiska pracy](External_workbenches/pl.md), [Makrodefinicje](Macros/pl.md)
 ---
 
 # Std AddonMgr/pl
 
 ## Opis
 
-Polecenie **Std   * Menadżer dodatków** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi środowiskami pracy](External_workbenches/pl.md) oraz [makropoleceniami](Macros/pl.md) i [paczkami ustawień](Preference_Packs/pl.md) dostarczonymi przez społeczność FreeCAD. Domyślnie dostępne dodatki pobierane są z dwóch repozytoriów [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) oraz [Przepisy na makrodefinicje](Macros_recipes/pl.md). Jeśli w systemie zainstalowane są GitPython i Git, dodatkowe makra zostaną załadowane z [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/). Własne repozytoria można dodać w ustawieniach [Menadżera dodatków](Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w.md).
+Polecenie **Std: Menadżer dodatków** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi środowiskami pracy](External_workbenches/pl.md) oraz [makropoleceniami](Macros/pl.md) i [paczkami ustawień](Preference_Packs/pl.md) dostarczonymi przez społeczność FreeCAD. Domyślnie dostępne dodatki pobierane są z dwóch repozytoriów [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) oraz [Przepisy na makrodefinicje](Macros_recipes/pl.md). Jeśli w systemie zainstalowane są GitPython i Git, dodatkowe makra zostaną załadowane z [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/). Własne repozytoria można dodać w ustawieniach [Menadżera dodatków](Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w.md).
 
-Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) lub nowszej. Alternatywnie możesz zainstalować dodatki ręcznie, zobacz [uwagi](#Uwagi.md) poniżej.
+Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) lub nowszej. Alternatywnie możesz zainstalować dodatki ręcznie, zobacz [uwagi](#Uwagi.md) poniżej.
 
 ## Użycie
 
@@ -25,10 +25,10 @@ Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa 
 
 ## Opcje
 
-<img alt="" src=images/AddonManager_Main.png  style="width   *600px;">
+<img alt="" src=images/AddonManager_Main.png  style="width:600px;">
 
-1.  Menedżer dodatków udostępnia dwa układy widoków   * \"Zwięzły\" i \"Rozszerzony\". W widoku \"Zwięzłym\" każdy dodatek zajmuje jedną linię, a jego opis jest obcięty, aby zmieścić się w dostępnym miejscu. Z kolei \"Rozszerzony\" pokazuje dodatkowe szczegóły, w tym więcej tekstu opisu, a także informacje o opiekunie, więcej szczegółów instalacji itp.
-2.  Obsługiwane są trzy różne typy dodatków   * [środowiska pracy](External_workbenches/pl.md), [makrodefinicje](Macros/pl.md), oraz [pakiety preferencji](Preference_Packs/pl.md). Możesz zdecydować, czy chcesz wyświetlić tylko jeden typ, czy wszystkie na jednej liście.
+1.  Menedżer dodatków udostępnia dwa układy widoków: \"Zwięzły\" i \"Rozszerzony\". W widoku \"Zwięzłym\" każdy dodatek zajmuje jedną linię, a jego opis jest obcięty, aby zmieścić się w dostępnym miejscu. Z kolei \"Rozszerzony\" pokazuje dodatkowe szczegóły, w tym więcej tekstu opisu, a także informacje o opiekunie, więcej szczegółów instalacji itp.
+2.  Obsługiwane są trzy różne typy dodatków: [środowiska pracy](External_workbenches/pl.md), [makrodefinicje](Macros/pl.md), oraz [pakiety preferencji](Preference_Packs/pl.md). Możesz zdecydować, czy chcesz wyświetlić tylko jeden typ, czy wszystkie na jednej liście.
 3.  Lista może być zawężona do pokazania tylko zainstalowanych pakietów, tylko pakietów z dostępnymi aktualizacjami, lub tylko pakietów, które nie są jeszcze zainstalowane.
 4.  Listę można filtrować, szukając słowa kluczowego w tytule, opisie i tagach *(opis i tagi muszą być określone przez twórcę dodatku w jego metadanych)*. Filtr może być nawet wyrażeniem regularnym, co pozwala na precyzyjną kontrolę dokładnego wyszukiwania.
 5.  Rozszerzony widok pokazuje dostępne informacje o wersji, opisie, opiekunie i wersji instalacji dla pakietów, które dostarczają pliki [metadanych pakietu](Package_Metadata/pl.md) *(lub dla makrodefinicji z wbudowanymi metadanymi)*.
@@ -36,9 +36,9 @@ Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa 
 7.  W każdej chwili możesz wybrać ręczne aktualizowanie lokalnej pamięci podręcznej, aby zobaczyć najnowsze aktualizacje dostępne dla każdego dodatku.
 8.  Sprawdzanie aktualizacji może być ustawione jako automatyczne lub wykonywane ręcznie poprzez kliknięcie przycisku *(skonfigurowane w preferencjach użytkownika)*. Jeśli środowiska GitPython i Git są zainstalowane w systemie, to informacje o aktualizacjach są pobierane przy użyciu Git. Jeśli nie, to informacje o aktualizacjach są uzyskiwane z dowolnego obecnego pliku metadanych.
 
-Kliknięcie dodatku w tym widoku powoduje wyświetlenie strony szczegółów   *
+Kliknięcie dodatku w tym widoku powoduje wyświetlenie strony szczegółów:
 
-<img alt="" src=images/AddonManager_Details.png  style="width   *600px;">
+<img alt="" src=images/AddonManager_Details.png  style="width:600px;">
 
 Na stronie szczegółów znajdują się przyciski umożliwiające instalację, odinstalowanie, aktualizację i tymczasowe wyłączenie dodatku. Dla zainstalowanych dodatków wyświetlana jest aktualnie zainstalowana wersja i data instalacji oraz informacja, czy jest to najnowsza dostępna wersja. Poniżej znajduje się osadzone okno przeglądarki internetowej pokazujące stronę README dodatku *(dla środowisk pracy i pakietów preferencji)* lub stronę Wiki *(dla makrodefinicji)*.
 
@@ -50,8 +50,8 @@ Preferencje dla menedżera dodatków można znaleźć w [Edytorze ustawień](Pre
 
 -   Korzystanie z dodatków nie jest ograniczone do wersji FreeCAD, w której zostały zainstalowane. Będziesz mógł również używać ich w każdej innej wersji programu, obsługiwanej przez dodatek, która może być zainstalowana w Twoim systemie.
 -   Dodatki dostępne w menedżerze dodatków nie są częścią oficjalnego programu FreeCAD i nie są wspierane przez główny zespół programistów FreeCAD. Powinieneś uważnie przeczytać zamieszczone informacje, aby upewnić się, że wiesz, co instalujesz.
--   Zgłoszenia błędów i prośby o funkcje powinny być kierowane bezpośrednio do twórcy dodatku poprzez odwiedzenie wskazanej strony internetowej. Wielu twórców dodatków jest stałymi użytkownikami [forum FreeCAD](https   *//forum.freecadweb.org) i można się z nimi również tam kontaktować.
--   Jeśli pakiet [GitPython](https   *//github.com/gitpython-developers/GitPython) jest zainstalowany na Twoim komputerze, menedżer dodatków będzie z niego korzystał, dzięki czemu pobieranie będzie szybsze.
+-   Zgłoszenia błędów i prośby o funkcje powinny być kierowane bezpośrednio do twórcy dodatku poprzez odwiedzenie wskazanej strony internetowej. Wielu twórców dodatków jest stałymi użytkownikami [forum FreeCAD](https://forum.freecadweb.org) i można się z nimi również tam kontaktować.
+-   Jeśli pakiet [GitPython](https://github.com/gitpython-developers/GitPython) jest zainstalowany na Twoim komputerze, menedżer dodatków będzie z niego korzystał, dzięki czemu pobieranie będzie szybsze.
 -   Możesz również zainstalować dodatki ręcznie. Zobacz artykuł [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md) oraz [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md).
 
 ## Informacja dla programistów 

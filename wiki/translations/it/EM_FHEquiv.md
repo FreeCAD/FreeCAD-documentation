@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *EM FHEquiv
-   Name/it   *EM FHEquiv
-   MenuLocation   *EM → FHEquiv
-   Workbenches   *[EM](EM_Workbench/it.md) (add-on)
-   Shortcut   ***E** **E**
-   SeeAlso   *[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPort](EM_FHPort/it.md),
-   Version   *0.17
+- GuiCommand:/it
+   Name:EM FHEquiv
+   Name/it:EM FHEquiv
+   MenuLocation:EM → FHEquiv
+   Workbenches:[EM](EM_Workbench/it.md) (add-on)
+   Shortcut:**E** **E**
+   SeeAlso:[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPort](EM_FHPort/it.md),
+   Version:0.17
 ---
 
 # EM FHEquiv/it
@@ -28,7 +28,7 @@ The FHEquiv tool short-circuits two FHNode objects.
 
 The FHEquiv object is based on the two existing FHNodes that it will short-circuit.
 
-1.  Select two <img alt="" src=images/EM_FHNode.svg  style="width   *16px;"> [FHNode](EM_FHNode.md) objects
+1.  Select two <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [FHNode](EM_FHNode.md) objects
 2.  Press the **<img src="images/EM_FHEquiv.svg" width=16px> [EM FHEquiv](EM_FHEquiv.md)** button, or press **E** then **E** keys.
 
 ### Remarks
@@ -37,18 +37,18 @@ The FHEquiv object is based on the two existing FHNodes that it will short-circu
 
 ## Properties
 
--    **Node1**   * the first [FHNode](EM_FHNode.md) to short-circuit
+-    **Node1**: the first [FHNode](EM_FHNode.md) to short-circuit
 
--    **Node2**   * the second [FHNode](EM_FHNode.md) to short-circuit
+-    **Node2**: the second [FHNode](EM_FHNode.md) to short-circuit
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHEquiv object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The FHEquiv object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -63,7 +63,7 @@ equiv = makeFHEquiv(node1=None,node2=None,name='FHEquiv')
 
 -    `name`is the name of the object
 
-Esempio   *
+Esempio:
 
 
 ```python

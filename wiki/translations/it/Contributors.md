@@ -1,7 +1,7 @@
 # Contributors/it
 {{TOCright}}
 
-<img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width   *64px;">
+<img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">
 
 FreeCAD non sarebbe quello che è senza il generoso contributo di molte persone. Ecco una panoramica delle persone e delle società che nel tempo hanno contribuito a FreeCAD. Per i crediti per le librerie di terze parti vedere la pagina [Librerie di terze parti](Third_Party_Libraries/it.md).
 
@@ -20,7 +20,7 @@ FreeCAD non sarebbe quello che è senza il generoso contributo di molte persone.
 
 #### Responsabili del progetto 
 
-Sviluppatori guida del progetto FreeCAD   *
+Sviluppatori guida del progetto FreeCAD:
 
 
 </div>
@@ -36,34 +36,34 @@ Sviluppatori guida del progetto FreeCAD   *
 
 #### Principali sviluppatori 
 
-Le persone che lavorano regolarmente sul codice FreeCAD (recuperato da <https   *//github.com/FreeCAD/FreeCAD/graphs/contributors>)   *
+Le persone che lavorano regolarmente sul codice FreeCAD (recuperato da <https://github.com/FreeCAD/FreeCAD/graphs/contributors>):
 
 
 </div>
 
--   [Abdullah Tahiriyo](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3232)
--   [Alexander Golubev (Fat-Zer)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4325)
--   [Bernd Hahnbach](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069)
--   [Brad Collette (sliptonic)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=708)
--   [Daniel Falck](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=689)
--   [Eivind Kvedalen](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1546)
--   [f3nix](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6125)
--   [Ian Rees](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3449)
--   [Jan Rheinlaender](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=997)
--   [Jonathan Wiedemann (rockn)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=681)
--   [Jose Luis Cercos Pita (sanguinariojoe)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=574)
--   [Logari81](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=270)
--   [Luke A. Parry](http   *//freecadamusements.blogspot.co.uk/)
--   [mdinger](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2928)
+-   [Abdullah Tahiriyo](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3232)
+-   [Alexander Golubev (Fat-Zer)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4325)
+-   [Bernd Hahnbach](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069)
+-   [Brad Collette (sliptonic)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=708)
+-   [Daniel Falck](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=689)
+-   [Eivind Kvedalen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1546)
+-   [f3nix](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6125)
+-   [Ian Rees](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3449)
+-   [Jan Rheinlaender](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=997)
+-   [Jonathan Wiedemann (rockn)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=681)
+-   [Jose Luis Cercos Pita (sanguinariojoe)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=574)
+-   [Logari81](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=270)
+-   [Luke A. Parry](http://freecadamusements.blogspot.co.uk/)
+-   [mdinger](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2928)
 -   mghansen
--   [Przemo Firszt(PrzemoF)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666)
--   [sgrogan](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4252)
--   [shoogen](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765)
--   [Stefan Tröger (ickby)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=686)
--   [tanderson69 (blobfish)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=208)
--   [vejmarie](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=7506)
--   [Victor Titov (DeepSOIC)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
--   [wandererfan](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
+-   [Przemo Firszt(PrzemoF)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666)
+-   [sgrogan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4252)
+-   [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765)
+-   [Stefan Tröger (ickby)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=686)
+-   [tanderson69 (blobfish)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=208)
+-   [vejmarie](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=7506)
+-   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
+-   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
 ### Other coders 
 
@@ -72,7 +72,7 @@ Le persone che lavorano regolarmente sul codice FreeCAD (recuperato da <https   
 
 #### Altri programmatori 
 
-Altre persone che hanno contribuito al codice del progetto FreeCAD   *
+Altre persone che hanno contribuito al codice del progetto FreeCAD:
 
 
 </div>
@@ -86,15 +86,15 @@ Altre persone che hanno contribuito al codice del progetto FreeCAD   *
 -   [Georg Wiora](User_Xorx.md)
 -   Graeme van der Vlugt
 -   itain
--   [j-dowsett](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=652)
+-   [j-dowsett](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=652)
 -   Jacques-Antoine Gaudin
 -   jcc242
--   [jmaustpc](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=611)
+-   [jmaustpc](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=611)
 -   Joachim Zettler
 -   jobermayr
 -   Johan3DV
 -   jonnor
--   [keithsloan52](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=930)
+-   [keithsloan52](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=930)
 -   Ken Cline
 -   Mandeep Singh
 -   marktaff
@@ -119,15 +119,15 @@ Altre persone che hanno contribuito al codice del progetto FreeCAD   *
 
 ### Aziende
 
-Le aziende che hanno dato del codice o dedicato del tempo allo sviluppo   *
+Le aziende che hanno dato del codice o dedicato del tempo allo sviluppo:
 
 
 </div>
 
--   [AlephObjects](https   *//www.alephobjects.com/)
+-   [AlephObjects](https://www.alephobjects.com/)
 -   Imetric 3D
--   [KiCad Services Corporation](https   *//www.kipro-pcb.com/)
--   [OpeningDesign](https   *//openingdesign.com)
+-   [KiCad Services Corporation](https://www.kipro-pcb.com/)
+-   [OpeningDesign](https://openingdesign.com)
 
 ## Forum moderators 
 
@@ -136,27 +136,27 @@ Le aziende che hanno dato del codice o dedicato del tempo allo sviluppo   *
 
 ### Moderatori del forum 
 
-Le persone responsabili del [Forum di FreeCAD](http   *//forum.freecadweb.org) (recuperato da <http   *//forum.freecadweb.org/memberlist.php?mode=team>)   *
+Le persone responsabili del [Forum di FreeCAD](http://forum.freecadweb.org) (recuperato da <http://forum.freecadweb.org/memberlist.php?mode=team>):
 
 
 </div>
 
--   [agryson](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=11337)
--   [Daniel Falck](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=689)
--   [DeepSOIC](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
--   [ediloren](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1783)
--   [jmaustpc](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=611)
--   [jriegel](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=67)
--   [Logari81](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=270)
--   [mrlukeparry](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=607)
--   [onesz](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=729)
--   [PrzemoF](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666)
--   [r-frank](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1529)
--   [Renato Rebelo](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3315)
--   [rockn](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=681)
--   [shoogen](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765)
--   [wmayer](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=69)
--   [yorik](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
+-   [agryson](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=11337)
+-   [Daniel Falck](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=689)
+-   [DeepSOIC](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
+-   [ediloren](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1783)
+-   [jmaustpc](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=611)
+-   [jriegel](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=67)
+-   [Logari81](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=270)
+-   [mrlukeparry](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=607)
+-   [onesz](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=729)
+-   [PrzemoF](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666)
+-   [r-frank](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1529)
+-   [Renato Rebelo](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3315)
+-   [rockn](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=681)
+-   [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765)
+-   [wmayer](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=69)
+-   [yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
 ## Community
 
@@ -165,33 +165,33 @@ Le persone responsabili del [Forum di FreeCAD](http   *//forum.freecadweb.org) (
 
 ### Comunità
 
-Le persone della comunità che si sono impegnate per aiutare il progetto FreeCAD sia con la loro attività nel forum, che mantenendo un blog su FreeCAD, oppure creando video tutorial, o creando i pacchetti di FreeCAD per Windows / Linux / MacOS X, oppure scrivendo un libro FreeCAD \... (elencati in ordine alfabetico) (recuperato da <http   *//forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)
+Le persone della comunità che si sono impegnate per aiutare il progetto FreeCAD sia con la loro attività nel forum, che mantenendo un blog su FreeCAD, oppure creando video tutorial, o creando i pacchetti di FreeCAD per Windows / Linux / MacOS X, oppure scrivendo un libro FreeCAD \... (elencati in ordine alfabetico) (recuperato da <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)
 
 
 </div>
 
--   [bejant](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
--   [Brad Collette](http   *//www.packtpub.com/freecad-solid-modeling-with-python/book)
--   [cblt2l](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=251)
--   [cox](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4523)
--   [Daniel Falck](http   *//opensourcedesigntools.blogspot.com/)
+-   [bejant](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
+-   [Brad Collette](http://www.packtpub.com/freecad-solid-modeling-with-python/book)
+-   [cblt2l](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=251)
+-   [cox](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4523)
+-   [Daniel Falck](http://opensourcedesigntools.blogspot.com/)
 -   [Eduardo Magdalena](User_Emagdalena.md)
--   [hobbes1069](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=725)
--   [jdurston (5needinput)](http   *//www.youtube.com/user/5needinput)
--   [John Morris (butchwax)](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=861)
--   [Kunda1](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=12229)
--   [Kwahooo](http   *//freecad-tutorial.blogspot.com/)
--   [lhagan](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=108)
--   [marcxs](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1047)
+-   [hobbes1069](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=725)
+-   [jdurston (5needinput)](http://www.youtube.com/user/5needinput)
+-   [John Morris (butchwax)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=861)
+-   [Kunda1](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=12229)
+-   [Kwahooo](http://freecad-tutorial.blogspot.com/)
+-   [lhagan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=108)
+-   [marcxs](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1047)
 -   [Mario52](User_Mario52.md)
 -   [Normandc](User_Normandc.md)
--   [peterl94](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1819)
--   [pperisin](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=356)
+-   [peterl94](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1819)
+-   [pperisin](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=356)
 -   [Quick61](User_Quick61.md)
 -   [Renato Rivoira](User_Renatorivo.md) (renatorivo)
 -   [Rockn](User_Rockn.md)
--   [triplus](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
--   [ulrich1a](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
+-   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
+-   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
 ## Documentation writers 
 
@@ -200,7 +200,7 @@ Le persone della comunità che si sono impegnate per aiutare il progetto FreeCAD
 
 ### Autori della documentazione 
 
-Le persone che hanno scritto la documentazione su questo [wiki](Main_Page/it.md)   *
+Le persone che hanno scritto la documentazione su questo [wiki](Main_Page/it.md):
 
 
 </div>
@@ -213,7 +213,7 @@ Le persone che hanno scritto la documentazione su questo [wiki](Main_Page/it.md)
 -   [Isaac Ayala](User_Isaac_Ayala.md)
 -   [piffpoof](User_piffpoof.md)
 -   [Renato Rivoira](User_Renatorivo.md) (renatorivo)
--   [Roland Frank](User   *R-Frank.md) (r-frank)
+-   [Roland Frank](User:R-Frank.md) (r-frank)
 -   [Vocx](User_Vocx.md)
 -   [Wurstwasser](User_Wurstwasser.md)
 
@@ -224,7 +224,7 @@ Le persone che hanno scritto la documentazione su questo [wiki](Main_Page/it.md)
 
 ### Traduttori
 
-Le persone che hanno contribuito a tradurre l\'applicazione FreeCAD (recuperato da <https   *//crowdin.com/project/freecad>)   *
+Le persone che hanno contribuito a tradurre l\'applicazione FreeCAD (recuperato da <https://crowdin.com/project/freecad>):
 
 
 </div>
@@ -243,7 +243,7 @@ Le persone che hanno contribuito a tradurre l\'applicazione FreeCAD (recuperato 
 -   [fandaL](User_fandaL.md)
 -   [Gerhard Scheepers](User_Gerhard_Scheepers.md)
 -   [Gnrc](User_Gnrc.md)
--   [Granet Jean-Pierre](User   *Granet_Jean-Pierre.md)
+-   [Granet Jean-Pierre](User:Granet_Jean-Pierre.md)
 -   [hanhsuan](User_hanhsuan.md)
 -   [Harald Geier](User_Harald_Geier.md)
 -   [hicarl](User_hicarl.md)
@@ -298,7 +298,7 @@ Le persone che hanno contribuito a tradurre l\'applicazione FreeCAD (recuperato 
 
 ### Sviluppatori di Addons 
 
-Gli sviluppatori di parti aggiuntive per FreeCAD (recuperato da <https   *//github.com/FreeCAD/FreeCAD-addons>)   *
+Gli sviluppatori di parti aggiuntive per FreeCAD (recuperato da <https://github.com/FreeCAD/FreeCAD-addons>):
 
 
 </div>
@@ -318,14 +318,6 @@ Gli sviluppatori di parti aggiuntive per FreeCAD (recuperato da <https   *//gith
 -   [Rentlau](User_Rentlau.md)
 -   [shaise](User_shaise.md)
 -   [triplus](User_triplus.md)
-
-
-
-
-
-
-
-[Category   *Developer](Category_Developer.md)
 
 
 

@@ -23,15 +23,15 @@ In questo tutorial ci occuperemo di come importare i file STL / OBJ in FreeCAD. 
 
 ## Il modello 
 
-Per questo tutorial è possibile utilizzare un proprio file STL o creare un file demo in questo modo   *
+Per questo tutorial è possibile utilizzare un proprio file STL o creare un file demo in questo modo:
 
 -   Avviare FreeCAD
 -   Creare un nuovo documento
 -   Passare nell\'ambiente mesh
--   Inserire un toro cliccando su ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Solido regolare...** → ** Toro** , e poi selezionare queste impostazioni   *
-    -   Raggio 1   * 10 mm
-    -   Raggio 2   * 2 mm
-    -   Campionatura   * 50
+-   Inserire un toro cliccando su ** Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Solido regolare...** → ** Toro** , e poi selezionare queste impostazioni:
+    -   Raggio 1: 10 mm
+    -   Raggio 2: 2 mm
+    -   Campionatura: 50
 -   Cliccare su ** Crea** e poi su ** Chiudi**
 -   Salvare il file con ** File** → ** Salva** per avere un file di FreeCAD contenente un oggetto mesh
 
@@ -49,8 +49,8 @@ In genere, FreeCAD può importare qualsiasi file STL / OBJ. Ma il nostro obietti
 L\'obiettivo di FreeCAD non è quello di essere un buon modellatore di mesh, esso è stato progettato per essere un modellatore di solidi. FreeCAD ha alcune funzionalità per le operazioni su mesh negli ambienti Mesh e OpenSCAD (Alcune operazioni richiedono che OpenSCAD sia stato installato e configurato nelle preferenze di FreeCAD).
 Ad alcuni utenti piace utilizzare software di terze parti per la pulizia e la riparazione delle mesh, ad esempio
 
--   [Netfabb Basic](http   *//www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free per uso personale (è disponibile la riparazione automatica delle mesh)
--   [Meshlab](http   *//meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
+-   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free per uso personale (è disponibile la riparazione automatica delle mesh)
+-   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
 
 In questo tutorial si usa l\'ambiente Mesh incorporato in FreeCAD per pulire / riparare / verificare le mesh del file di esempio.
 
@@ -85,7 +85,7 @@ Per armonizzazione le normali di un oggetto mesh si può
 -   Selezionare la mesh nella vista ad albero
 -   Scegliere ** Mesh** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Armonizza le normali** nel menu principale.
 
-Suggerimento   * Scegliendo l\'oggetto mesh nella vista ad albero, andando alla scheda visualizzazione della finestra delle proprietà e cambiando \"Illuminazione\" da \"Two Side\" a \"One Side\" è possibile identificare i triangoli con le normali capovolte. Se le normali puntano verso la mesh il triangolo viene visualizzato in nero.
+Suggerimento: Scegliendo l\'oggetto mesh nella vista ad albero, andando alla scheda visualizzazione della finestra delle proprietà e cambiando \"Illuminazione\" da \"Two Side\" a \"One Side\" è possibile identificare i triangoli con le normali capovolte. Se le normali puntano verso la mesh il triangolo viene visualizzato in nero.
 
 
 </div>
@@ -95,14 +95,14 @@ Suggerimento   * Scegliendo l\'oggetto mesh nella vista ad albero, andando alla 
 
 ### Chiudere i fori 
 
-Inoltre è possibile chiudere manualmente i buchi nell\'oggetto mesh   *
+Inoltre è possibile chiudere manualmente i buchi nell\'oggetto mesh:
 
 -   Selezionare la mesh nella vista ad albero
 -   Scegliere ** Mesh** → ** Chiudi i fori...** dal menu principale
 -   Specificare il numero massimo di spigoli da usare per riempire (3 è l\'impostazione predefinita)
 -   Dato che STL e OBJ sono mesh con struttura costituita da triangoli il numero predefinito di bordi dovrebbe essere sufficiente
 
-Un altro metodo di chiusura manuale dei fori in un oggetto mesh può essere   *
+Un altro metodo di chiusura manuale dei fori in un oggetto mesh può essere:
 
 -   Selezionare la mesh nella vista ad albero
 -   Scegliere ** Mesh** → **<img src="images/Mesh_FillInteractiveHole.svg" width=32px> Chiudi fori** dal menu principale
@@ -117,7 +117,7 @@ Un altro metodo di chiusura manuale dei fori in un oggetto mesh può essere   *
 
 ## Convertire la mesh in solido 
 
--   Passare nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/it.md)
+-   Passare nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md)
 -   Accertarsi che l\'oggetto mesh sia selezionato nella vista ad albero, altrimenti selezionarlo
 -   Scegliere ** Part** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Crea forma da mesh ...** nel menu principale
 -   Specificare la tolleranza (di default è 0,1)
@@ -144,11 +144,6 @@ Dato che il solido creato in questo modo non ha cronologia e non ha funzioni mod
 
 
 </div>
-
-
- 
-
-[Category   *File_Formats](Category_File_Formats.md)
 
 
 

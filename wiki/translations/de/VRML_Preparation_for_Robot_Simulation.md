@@ -13,15 +13,15 @@
 
 ## Übersicht
 
-Dieses Tutorium erklärt, wie man FreeCAD und den <img alt="" src=images/Workbench_Robot.svg  style="width   *24px;"> [Arbeitsbereich Roboter Simulation](Robot_Workbench/de.md) um die Bewegungen eines 6-achsigen Serienroboters zu simulieren. **Das Tutorium konzentriert sich auf die Erstellung der als Visualisierung verwendeten VRML Datei**. Die Basis der VRML Datei ist ein FreeCAD Modell. Die verwendete Version von FreeCAD ist 0.11.4252ppa1 auf Ubuntu 32bit.
+Dieses Tutorium erklärt, wie man FreeCAD und den <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Arbeitsbereich Roboter Simulation](Robot_Workbench/de.md) um die Bewegungen eines 6-achsigen Serienroboters zu simulieren. **Das Tutorium konzentriert sich auf die Erstellung der als Visualisierung verwendeten VRML Datei**. Die Basis der VRML Datei ist ein FreeCAD Modell. Die verwendete Version von FreeCAD ist 0.11.4252ppa1 auf Ubuntu 32bit.
 
 ## Öffne eine Datei oder erstelle eine mit FreeCAD 
 
-Das Tutorium basiert auf einer STEP Datei eines Stäubli TX40 (TX40-HB.stp). Du kannst die Datei von [Stäubli](https   *//secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html) herunterladen. Obwohl ich immer noch nicht die Zeit hatte, dies zu überprüfen, sollte die Methode auch auf ein vollständig in FreeCAD erstelltes Modell anwendbar sein. Nachdem du die Datei geöffnet hast, solltest du dies erhalten   *
+Das Tutorium basiert auf einer STEP Datei eines Stäubli TX40 (TX40-HB.stp). Du kannst die Datei von [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html) herunterladen. Obwohl ich immer noch nicht die Zeit hatte, dies zu überprüfen, sollte die Methode auch auf ein vollständig in FreeCAD erstelltes Modell anwendbar sein. Nachdem du die Datei geöffnet hast, solltest du dies erhalten:
 
-<img alt="" src=images/staeubli_step_import.png  style="width   *1024px;">
+<img alt="" src=images/staeubli_step_import.png  style="width:1024px;">
 
-Beachte, dass der Roboter beim Import aus 8 Formen besteht, die sich direkt an der Wurzel des Dokumentenbaums befinden. Die Struktur der exportierten VRML Datei kann sich ändern, wenn Gruppen verwendet werden. Die Formen sind von der Basis bis zum Werkzeug geordnet. Die letzte Form enthält die Drehachsen aller Roboterachsen. Die Korrelation Formname - Teilename Teilname wird erteilt durch (vorläufig (März 2011) importiert FreeCAD die in STEP Dateien enthaltenen Namen nicht)   *
+Beachte, dass der Roboter beim Import aus 8 Formen besteht, die sich direkt an der Wurzel des Dokumentenbaums befinden. Die Struktur der exportierten VRML Datei kann sich ändern, wenn Gruppen verwendet werden. Die Formen sind von der Basis bis zum Werkzeug geordnet. Die letzte Form enthält die Drehachsen aller Roboterachsen. Die Korrelation Formname - Teilename Teilname wird erteilt durch (vorläufig (März 2011) importiert FreeCAD die in STEP Dateien enthaltenen Namen nicht):
 
   FreeCAD name   STEP name
    
@@ -38,7 +38,7 @@ Beachte, dass der Roboter beim Import aus 8 Formen besteht, die sich direkt an d
 
 ## Messen geometrischer Merkmale 
 
-Um die Denavit-Hartenberg Tabelle zu erstellen (siehe [Roboter 6-Achsen](Robot_6-Axis/de.md)) und die vrml Datei vorzubereiten, musst du die Eigenschaften des Roboters ermitteln. Im Moment ist das Messwerkzeug von FreeCAD noch nicht fertig, du kannst die in TX40_HB007 enthaltenen Achsen verwenden (die Koordinaten werden unten links angezeigt, wenn du mit der Maus auf ein Objekt zeigst) oder du musst die Python Konsole verwenden, um einige Informationen über die Geometrie zu erhalten. Beachte, dass die DH-Tabelle nur erforderlich ist, wenn du die inverse Kinematik verwenden musst, d.h. bekomme die kartesischen Koordinaten oder steuere den Roboter mit kartesischen Koordinaten. Die DH-Tabelle für diesen Roboter ist die folgende (mm, Grad und Grad/s)   *
+Um die Denavit-Hartenberg Tabelle zu erstellen (siehe [Roboter 6-Achsen](Robot_6-Axis/de.md)) und die vrml Datei vorzubereiten, musst du die Eigenschaften des Roboters ermitteln. Im Moment ist das Messwerkzeug von FreeCAD noch nicht fertig, du kannst die in TX40_HB007 enthaltenen Achsen verwenden (die Koordinaten werden unten links angezeigt, wenn du mit der Maus auf ein Objekt zeigst) oder du musst die Python Konsole verwenden, um einige Informationen über die Geometrie zu erhalten. Beachte, dass die DH-Tabelle nur erforderlich ist, wenn du die inverse Kinematik verwenden musst, d.h. bekomme die kartesischen Koordinaten oder steuere den Roboter mit kartesischen Koordinaten. Die DH-Tabelle für diesen Roboter ist die folgende (mm, Grad und Grad/s):
 
   i   d     θ         r     α     θmin   θmax    Achsgeschwindikeit
   ---       
@@ -49,7 +49,7 @@ Um die Denavit-Hartenberg Tabelle zu erstellen (siehe [Roboter 6-Achsen](Robot_6
   5   0     q5        0     90    -120   133.5   1135
   6   65    q6        0     0     -270   270     1575
 
-Die csv Datei ist dann   *
+Die csv Datei ist dann:
 
 a  , alpha, d  , theta, rotDir, maxWinkel, minWinkel, AchsGeschwindigkeit
 0  ,   -90, 320,     0,      1,      180,     -180, 555
@@ -61,7 +61,7 @@ a  , alpha, d  , theta, rotDir, maxWinkel, minWinkel, AchsGeschwindig
 
 ## Export nach VRML 
 
-Exportiere das Dokument in eine VRML Datei. Die Struktur der VRML Datei ist wie folgt   * 
+Exportiere das Dokument in eine VRML Datei. Die Struktur der VRML Datei ist wie folgt: 
 
 #VRML V2.0 utf8
 Group {
@@ -108,24 +108,24 @@ Du kannst feststellen, dass wir 8 unabhängige Gruppen haben, die den 8 Formen e
 
 ## Vorbereitung der vrml Datei 
 
-Alle Formen in der VRML Datei werden unabhängig voneinander im Grundrahmen ausgedrückt. Für den [Arbeitsbereich Roboter Simulation](Robot_Workbench/de.md) müssen wir eine Struktur erstellen, bei der eine Bewegung einer Form eine Bewegung aller danach in der Struktur befindlichen Formen auslöst. Die Platzierung der Formen erfolgt relativ zu der vorhergehenden Form, so dass wir einige Übersetzungen vom absoluten Bezugssystem in das relative System einbeziehen müssen. Die Übersetzungen sind in der folgenden Abbildung beschrieben   *
+Alle Formen in der VRML Datei werden unabhängig voneinander im Grundrahmen ausgedrückt. Für den [Arbeitsbereich Roboter Simulation](Robot_Workbench/de.md) müssen wir eine Struktur erstellen, bei der eine Bewegung einer Form eine Bewegung aller danach in der Struktur befindlichen Formen auslöst. Die Platzierung der Formen erfolgt relativ zu der vorhergehenden Form, so dass wir einige Übersetzungen vom absoluten Bezugssystem in das relative System einbeziehen müssen. Die Übersetzungen sind in der folgenden Abbildung beschrieben:
 
 ![](images/staeubli_important_points.png )
 
 Mit
 
-   *   A=(0, 0, 168)
-   *   B=(0, 107.8, 320)
-   *   C=(0, 104.15, 545)
-   *   D=(0, 35, 601)
-   *   E=(0, 35, 770)
-   *   F=(0, 35, 835).
+:   A=(0, 0, 168)
+:   B=(0, 107.8, 320)
+:   C=(0, 104.15, 545)
+:   D=(0, 35, 601)
+:   E=(0, 35, 770)
+:   F=(0, 35, 835).
 
 Nehmen wir das Beispiel der Achse 4 zwischen ELLBOGEN und UNTERARM, die sich bei D=(xd, yd, zd) befindet. Der Anker für die FreeCAD Achse ist 
 
 "DEF FREECAD_AXIS4 Transform { rotation 0 1 0 0 children ["
 
- Dies entspricht einer Drehung um die y-Achse. Im CAD Modell erfolgt die Drehung um die z-Achse. Wir benötigen also eine Drehung um die x-Achse von $\pi$ vor der FreeCAD Achsdefinition und von $-\pi$ danach. Ausserdem ist eine Translation von (-xd, -yd, -zd) unmittelbar vor der Gruppe erforderlich, die der Definition von UNTERARM entspricht, um sie im relativen Bezugssystem auszudrücken, das bei D zentriert ist. Dies bedeutet, dass eine Translation von (xd, yd, zd) vor der ersten Drehung eingefügt werden muss. Am Ende sieht die VRML Datei von der Definition von ELLBOGEN bis zur Definition von UNTERARM wie folgt aus   * 
+ Dies entspricht einer Drehung um die y-Achse. Im CAD Modell erfolgt die Drehung um die z-Achse. Wir benötigen also eine Drehung um die x-Achse von $\pi$ vor der FreeCAD Achsdefinition und von $-\pi$ danach. Ausserdem ist eine Translation von (-xd, -yd, -zd) unmittelbar vor der Gruppe erforderlich, die der Definition von UNTERARM entspricht, um sie im relativen Bezugssystem auszudrücken, das bei D zentriert ist. Dies bedeutet, dass eine Translation von (xd, yd, zd) vor der ersten Drehung eingefügt werden muss. Am Ende sieht die VRML Datei von der Definition von ELLBOGEN bis zur Definition von UNTERARM wie folgt aus: 
 
       # ELBOW
       Group {
@@ -152,7 +152,7 @@ Nehmen wir das Beispiel der Achse 4 zwischen ELLBOGEN und UNTERARM, die sich bei
 
 
 
-Am Ende des Dokuments müssen die entsprechenden schließenden Klammern eingefügt werden   * 
+Am Ende des Dokuments müssen die entsprechenden schließenden Klammern eingefügt werden: 
 
 #VRML V2.0 utf8
   
@@ -283,7 +283,7 @@ Group {
   }
 }
 
- Hier ist eine Korrektur, um die für die Robotersimulation geeignete VRML Datei zu erhalten   * 
+ Hier ist eine Korrektur, um die für die Robotersimulation geeignete VRML Datei zu erhalten: 
 
 7a8
 >         # HORIZONTAL BASE CABLE OUTLET 
@@ -376,12 +376,6 @@ Group {
 >       ]}}}},
 >       ]}}}},
 >       ]
-
-
-
-
-
-[Category   *Robot](Category_Robot.md)
 
 
 

@@ -2,7 +2,7 @@
 Linux permet le packaging de différentes manières en fonction de la distribution spécifique utilisée. Les formats populaires sont les packages Debian `.deb`, les packages openSuse et Fedora `.rpm` et le format quasi universel `.AppImage`.
 
 
-**Remarque    ***
+**Remarque :**
 
 pour Windows et MacOS, voir [Packaging](Packaging/fr.md).
 
@@ -10,11 +10,6 @@ pour Windows et MacOS, voir [Packaging](Packaging/fr.md).
 -   [Debian Unstable](Debian_Unstable/fr.md)
 -   [Buildpackage sous Git](Git_buildpackage.md)
 -   [AppImage](AppImage/fr.md) (en particulier la section [AppImages personnalisé](AppImage/fr#AppImages_personnalis.C3.A9.md))
-
-
-
-
-[Category   *Packaging](Category_Packaging.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

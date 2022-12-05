@@ -7,21 +7,21 @@
 |Version=2022.02.26
 |Date=2022-02-26
 |FCVersion=0.19 or later
-|Download=[https   *//wiki.freecadweb.org/images/e/e7/Intersection_Icon.svg ToolBar Icon]
-|Links=[https   *//github.com/mwganson/intersection Full Documentation on Github]
+|Download=[https://wiki.freecadweb.org/images/e/e7/Intersection_Icon.svg ToolBar Icon]
+|Links=[https://github.com/mwganson/intersection Full Documentation on Github]
 }}
 
 ## Description
 
 Finds the intersection between two or three selected edges or faces, also works with Datum Planes and Datum Lines. Creates a parametric feature python object containing the shape of the intersection. The intersection is typically either an edge or a vertex.
 
-<img alt="" src=images/Macro_Intersection_scr.png  style="width   *600px;"> 
+<img alt="" src=images/Macro_Intersection_scr.png  style="width:600px;"> 
 *Macro Intersection screenshot*
 
 ### Legend
 
 
-{{Codeextralink|https   *//gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/97932f2a922d9d04659783c01988ad900f1ace75/Intersection.FCMacro|Intersection.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/97932f2a922d9d04659783c01988ad900f1ace75/Intersection.FCMacro|Intersection.FCMacro}}
 
 ToolBar Icon ![](images/Intersection_Icon.svg )
 
@@ -30,7 +30,7 @@ ToolBar Icon ![](images/Intersection_Icon.svg )
 **Macro Intersection.FCMacro**
 
 
-{{CodeDownload|https   *//gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758|Intersection.FCMacro}}
+{{CodeDownload|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758|Intersection.FCMacro}}
 
 
 

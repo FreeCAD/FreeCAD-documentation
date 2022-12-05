@@ -1,20 +1,20 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw 2PointCosmeticLine
-   Name/de   *TechDraw 2PunkteHilfslinie
-   MenuLocation   *TechDraw → Linien hinzufügen →Mittellinie zwischen 2 Punkten hinzufügen
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw Mittellinie zu Fläche(n) hinzufügen](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)
+- GuiCommand:/de
+   Name:TechDraw 2PointCosmeticLine
+   Name/de:TechDraw 2PunkteHilfslinie
+   MenuLocation:TechDraw → Linien hinzufügen →Mittellinie zwischen 2 Punkten hinzufügen
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw Mittellinie zu Fläche(n) hinzufügen](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)
 ---
 
 # TechDraw 2PointCosmeticLine/de
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw-line2points.svg  style="width   *16px;"> **2PunkteHilfslinie** fügt eine Hilfslinie zwischen zwei Knoten (Points) hinzu. Die Knoten können 2D oder 3D sein. Die resultierende Linie kann zur Bemaßung verwendet werden. Das Aussehen der Linie kann mit dem Werkzeug [Liniendarstellung ändern](TechDraw_DecorateLine/de.md) geändert werden.
+Das Werkzeug <img alt="" src=images/TechDraw-line2points.svg  style="width:16px;"> **2PunkteHilfslinie** fügt eine Hilfslinie zwischen zwei Knoten (Points) hinzu. Die Knoten können 2D oder 3D sein. Die resultierende Linie kann zur Bemaßung verwendet werden. Das Aussehen der Linie kann mit dem Werkzeug [Liniendarstellung ändern](TechDraw_DecorateLine/de.md) geändert werden.
 
-<img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
+<img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
 
@@ -29,7 +29,7 @@ Das Werkzeug <img alt="" src=images/TechDraw-line2points.svg  style="width   *16
 
 ## Hilfslinien bearbeiten 
 
-Zum Ändern der Endpunkte einer Hilfslinie   *
+Zum Ändern der Endpunkte einer Hilfslinie:
 
 1.  Eine Hilfslinie auswählen.
 
@@ -42,7 +42,7 @@ Zum Ändern der Endpunkte einer Hilfslinie   *
 
 Zum Löschen einer Hilfslinie wird die Schaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md)** verwendet.
 
-Um das Aussehen einer Hilfslinie zu ändern, wird <img alt="" src=images/TechDraw_DecorateLine.svg  style="width   *16px;"> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md) verwendet.
+Um das Aussehen einer Hilfslinie zu ändern, wird <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md) verwendet.
 
 ## Eigenschaften
 
@@ -50,7 +50,7 @@ Hilfslinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Hilfslinien können mit den Methoden makeCosmeticLine(v1, v2) oder makeCosmeticLine3d(v1, v2) von DrawViewPart erzeugt werden.
 

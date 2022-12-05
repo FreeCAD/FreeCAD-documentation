@@ -1,13 +1,13 @@
 # Part RuledSurface/it
 ---
-- GuiCommand   */it   Name   *Part RuledSurface   Name/it   *Superficie rigata   MenuLocation   *Parte → Superficie rigata   Workbenches   *[[Part_Workbench/it     Parte]]|SeeAlso   *---
+- GuiCommand:/it   Name:Part RuledSurface   Name/it:Superficie rigata   MenuLocation:Parte → Superficie rigata   Workbenches:[[Part_Workbench/it     Parte]]|SeeAlso:---
 
 
 </div>
 
 ## Descrizione
 
-Questo strumento crea una [superficie rigata](http   *//it.wikipedia.org/wiki/Superficie_rigata) tra due linee o bordi selezionati in precedenza.
+Questo strumento crea una [superficie rigata](http://it.wikipedia.org/wiki/Superficie_rigata) tra due linee o bordi selezionati in precedenza.
 
 ![](images/PartRuledSurface_it.png ) 
 
@@ -17,7 +17,7 @@ Questo strumento crea una [superficie rigata](http   *//it.wikipedia.org/wiki/Su
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare due linee o due spigoli
-2.  Eseguire lo strumento <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> [Superficie rigata](Part_RuledSurface/it.md)
+2.  Eseguire lo strumento <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Superficie rigata](Part_RuledSurface/it.md)
 
 ## Altro
 

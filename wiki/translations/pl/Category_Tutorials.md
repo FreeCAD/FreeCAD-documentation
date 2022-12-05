@@ -1,9 +1,7 @@
 # Category:Tutorials/pl
-To jest kompletna lista stron zawierających [   *Category   *Tutorials](   *Category_Tutorials.md).
+To jest kompletna lista stron zawierających [:Category:Tutorials](:Category_Tutorials.md).
 
 Warto zobaczyć również [Poradniki](Tutorials.md) oraz [Wideo poradniki](video_tutorials.md)
-
-[Category   *User_Documentation](Category_User_Documentation.md)
 
 ### Contents
 

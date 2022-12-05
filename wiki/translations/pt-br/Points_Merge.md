@@ -1,8 +1,8 @@
 ---
-- GuiCommand   *
-   Name   *Points Merge
-   MenuLocation   *Points → Merge point clouds
-   Workbenches   *[Points](Points_Workbench.md)
+- GuiCommand:
+   Name:Points Merge
+   MenuLocation:Points → Merge point clouds
+   Workbenches:[Points](Points_Workbench.md)
 ---
 
 # Points Merge/pt-br

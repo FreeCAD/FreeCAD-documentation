@@ -30,15 +30,15 @@ Within the FreeCAD GUI the Path toolbit library manager provides a mechanism to 
 
 {{Code|
 {
-  "version"   * 2,
-  "name"   * "T1",
-  "shape"   * "endmill.fcstd",
-  "attribute"   * {},
-  "parameter"   * {
-    "CuttingEdgeHeight"   * "30.000 mm",
-    "Diameter"   * "1.000 mm",
-    "Length"   * "50.000 mm",
-    "ShankDiameter"   * "3.000 mm"
+  "version": 2,
+  "name": "T1",
+  "shape": "endmill.fcstd",
+  "attribute": {},
+  "parameter": {
+    "CuttingEdgeHeight": "30.000 mm",
+    "Diameter": "1.000 mm",
+    "Length": "50.000 mm",
+    "ShankDiameter": "3.000 mm"
   }
 }
 }}

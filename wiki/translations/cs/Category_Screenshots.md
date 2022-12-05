@@ -1,8 +1,6 @@
 # Category:Screenshots/cs
 This category lists pages with screenshots.
 
-[Category   *Documentation/cs](Category   *Documentation/cs.md)
-
 ### Contents
 
 |     |     |     |

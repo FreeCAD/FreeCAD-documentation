@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name   *Arch Add
-   Name/ru   *Arch Add
-   MenuLocation   *Архитектура → Добавить компонент
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   SeeAlso   *[Удалить компонент](Arch_Remove/ru.md)
+- GuiCommand:/ru
+   Name:Arch Add
+   Name/ru:Arch Add
+   MenuLocation:Архитектура → Добавить компонент
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   SeeAlso:[Удалить компонент](Arch_Remove/ru.md)
 ---
 
 # Arch Add/ru
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Инструмент «Добавить» позволяет вам выполнять 4 вида операций   *
+Инструмент «Добавить» позволяет вам выполнять 4 вида операций:
 
 -   Добавьте объекты [ shape](Part_Workbench.md) к компоненту Arch, такие как [wall](Arch_Wall.md) или [structures](Arch_Structure.md) . Эти объекты затем составляют часть компонента Arch и позволяют изменять его форму, но сохраняя ее базовые свойства, такие как ширина и высота
 -   Добавьте элементы Arch, такие как [walls](Arch_Wall.md) или [structures](Arch_Structure.md), в объект арки на основе группы, такой как [ floors](Arch_Floor.md).
@@ -29,7 +29,7 @@
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;">
+<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -47,13 +47,13 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
+The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
-   *   
+:   
     
 ```python
     addComponents(objectsList, host)
@@ -65,10 +65,10 @@ The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md)
 
 
 
-   *   The above code snippet adds the given objects in `objectsList` to the given `host` object.
-   *   **Note   *** `objectsList` can be a single object or a list of objects.
+:   The above code snippet adds the given objects in `objectsList` to the given `host` object.
+:   **Note:** `objectsList` can be a single object or a list of objects.
 
-Пример   *
+Пример:
 
 
 ```python

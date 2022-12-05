@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *TechDraw_SectionView
-   Name/it   *Vista di sezione
-   MenuLocation   *TechDraw → Vista di sezione
-   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso   *[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
+- GuiCommand:/it
+   Name:TechDraw_SectionView
+   Name/it:Vista di sezione
+   MenuLocation:TechDraw → Vista di sezione
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
 # TechDraw SectionView/it
@@ -22,7 +22,7 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 </div>
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
 *Sezione di una vista già posizionata, che mostra i fori interni e la superficie di taglio ombreggiata*
 
 ## Utilizzo
@@ -51,9 +51,9 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Cut Operation}}
 
--    **Fuse Before Cut|Bool**   * Fuse the source shapes before performing the section cut.
+-    **Fuse Before Cut|Bool**: Fuse the source shapes before performing the section cut.
 
--    **Trim After Cut|Bool**   * Additionally trim the resulting shape after the section cut to remove any unwanted pieces.
+-    **Trim After Cut|Bool**: Additionally trim the resulting shape after the section cut to remove any unwanted pieces.
 
 
 {{TitleProperty|Cut Surface Format}}
@@ -63,22 +63,22 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 #### Formato della superficie della sezione 
 
--    **Cut Surface Display**   * Aspetto della superficie tagliata. Opzioni   *
+-    **Cut Surface Display**: Aspetto della superficie tagliata. Opzioni:
 
     -   *Hide* Nasconde la superficie tagliata, visualizza solo il contorno.
-    -   *Color*   * Colora la superficie tagliata usando l\'impostazione di **Colore della superficie tagliata** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
-    -   *SvgHatch*   * Tratteggia la sezione tagliata usando un [tratteggio](TechDraw_Hatch/it.md)
-    -   *PatHatch*   * Tratteggia la sezione tagliata usando un [tratteggio geometrico](TechDraw_GeometricHatch/it.md)
+    -   *Color*: Colora la superficie tagliata usando l\'impostazione di **Colore della superficie tagliata** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
+    -   *SvgHatch*: Tratteggia la sezione tagliata usando un [tratteggio](TechDraw_Hatch/it.md)
+    -   *PatHatch*: Tratteggia la sezione tagliata usando un [tratteggio geometrico](TechDraw_GeometricHatch/it.md)
 
--    **File Hatch Pattern**   * Percorso completo del file di modello di tratteggio SVG.
+-    **File Hatch Pattern**: Percorso completo del file di modello di tratteggio SVG.
 
--    **File Geom Pattern**   * Percorso completo per il file del modello PAT.
+-    **File Geom Pattern**: Percorso completo per il file del modello PAT.
 
--    **Svg Included**   * Percorso completo del file di modello di tratteggio SVG incluso.
+-    **Svg Included**: Percorso completo del file di modello di tratteggio SVG incluso.
 
--    **Pat Included**   * Percorso completo del file del modello PAT incluso.
+-    **Pat Included**: Percorso completo del file del modello PAT incluso.
 
--    **Name Geom Pattern**   * Nome del modello PAT da utilizzare (ignorato per il parametro *SvgHatch* di **Cut Surface Display**).
+-    **Name Geom Pattern**: Nome del modello PAT da utilizzare (ignorato per il parametro *SvgHatch* di **Cut Surface Display**).
 
 
 </div>
@@ -91,13 +91,13 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 #### Sezione
 
--    **Base View**   * la vista della parte su cui si basa questa Vista in sezione.
+-    **Base View**: la vista della parte su cui si basa questa Vista in sezione.
 
--    **Section Normal**   * un vettore che descrive la direzione normale al piano di taglio.
+-    **Section Normal**: un vettore che descrive la direzione normale al piano di taglio.
 
--    **Section Origin**   * un vettore che descrive un punto sul piano di taglio. Tipicamente il baricentro della parte originale.
+-    **Section Origin**: un vettore che descrive un punto sul piano di taglio. Tipicamente il baricentro della parte originale.
 
--    **Fuse Before Cut**   * fondere le forme sorgente prima di eseguire il taglio di sezione.
+-    **Fuse Before Cut**: fondere le forme sorgente prima di eseguire il taglio di sezione.
 
 
 </div>
@@ -112,7 +112,7 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 #### Superficie della sezione 
 
--    **Cut Surface Color**   * tinta unita per l\'evidenziazione della superficie. Usato se **Cut Surface Display** è impostata su *Color*.
+-    **Cut Surface Color**: tinta unita per l\'evidenziazione della superficie. Usato se **Cut Surface Display** è impostata su *Color*.
 
 
 </div>
@@ -125,9 +125,9 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 #### Tratteggio della superficie 
 
--    **Hatch Color**   * Colore per le linee di tratteggio della superficie.
+-    **Hatch Color**: Colore per le linee di tratteggio della superficie.
 
--    **Weight Pattern**   * Spessore di linea per le linee di tratteggio della superficie.
+-    **Weight Pattern**: Spessore di linea per le linee di tratteggio della superficie.
 
 
 </div>
@@ -137,7 +137,7 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 <div class="mw-translate-fuzzy">
 
-Una vista in sezione eredita tutte le proprietà applicabili della vista specificata come **BaseView**. Nelle proprietà della vista è possibile modificare l\'aspetto della linea di sezione   *
+Una vista in sezione eredita tutte le proprietà applicabili della vista specificata come **BaseView**. Nelle proprietà della vista è possibile modificare l\'aspetto della linea di sezione:
 
 
 </div>
@@ -145,9 +145,9 @@ Una vista in sezione eredita tutte le proprietà applicabili della vista specifi
 
 <div class="mw-translate-fuzzy">
 
--    **Section Line Color**   * colore per la linea di sezione.
+-    **Section Line Color**: colore per la linea di sezione.
 
--    **Section Line Style**   * stile per la linea di sezione.
+-    **Section Line Style**: stile per la linea di sezione.
 
 
 </div>
@@ -159,9 +159,9 @@ Le impostazioni predefinite per questi parametri sono impostate tramite le impos
 
 <div class="mw-translate-fuzzy">
 
--   **Section Line Format**   * sono supportati sia il tradizionale formato della linea di sezione (come illustrato sopra), sia il \"metodo della freccia di riferimento\". Questa opzione è controllata dall\'impostazione della Preferenza \"Mod/TechDraw/Format/SectionFormat\" (vedere [Modifica parametri](Std_DlgParameter/it.md)). 0 per linea tradizionale, 1 per metodo freccia di riferimento.
--   **CutSurfaceDisplay**   * la superficie tagliata può essere nascosta, colorata in tinta unita, tratteggiata utilizzando un modello Svg (impostazione predefinita) o tratteggiata utilizzando un modello PAT. Vedere [Tipi di tratteggio](TechDraw_Hatching/it.md).
--   **FuseBeforeCut**   * l\'operazione di sezione a volte non riesce a tagliare le forme di origine. Se FuseBeforeCut è true, le forme di origine vengono unite in un\'unica forma prima di tentare l\'operazione di sezione. In caso di problemi con l\'operazione di sezione, provare a invertire questo valore.
+-   **Section Line Format**: sono supportati sia il tradizionale formato della linea di sezione (come illustrato sopra), sia il \"metodo della freccia di riferimento\". Questa opzione è controllata dall\'impostazione della Preferenza \"Mod/TechDraw/Format/SectionFormat\" (vedere [Modifica parametri](Std_DlgParameter/it.md)). 0 per linea tradizionale, 1 per metodo freccia di riferimento.
+-   **CutSurfaceDisplay**: la superficie tagliata può essere nascosta, colorata in tinta unita, tratteggiata utilizzando un modello Svg (impostazione predefinita) o tratteggiata utilizzando un modello PAT. Vedere [Tipi di tratteggio](TechDraw_Hatching/it.md).
+-   **FuseBeforeCut**: l\'operazione di sezione a volte non riesce a tagliare le forme di origine. Se FuseBeforeCut è true, le forme di origine vengono unite in un\'unica forma prima di tentare l\'operazione di sezione. In caso di problemi con l\'operazione di sezione, provare a invertire questo valore.
 
 
 </div>
@@ -172,7 +172,7 @@ Le impostazioni predefinite per questi parametri sono impostate tramite le impos
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -182,7 +182,7 @@ Le impostazioni predefinite per questi parametri sono impostate tramite le impos
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Vista di sezione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
+Lo strumento Vista di sezione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 </div>
@@ -193,12 +193,12 @@ doc = FreeCAD.ActiveDocument
 box = doc.Box
 page = doc.Page
 
-view = doc.addObject("TechDraw   *   *DrawViewPart", "View")
+view = doc.addObject("TechDraw::DrawViewPart", "View")
 page.addView(view)
 view.Source = box
 view.Direction = (0.0, 0.0, 1.0)
 
-section = doc.addObject("TechDraw   *   *DrawViewSection", "Section")
+section = doc.addObject("TechDraw::DrawViewSection", "Section")
 page.addView(section)
 section.Source = box
 section.BaseView = view

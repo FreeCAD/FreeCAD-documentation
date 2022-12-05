@@ -1,8 +1,6 @@
 # Category:Part/fr
 Cette catégorie répertorie les pages liées à [Part Workbench/fr](Part_Workbench/fr.md).
 
-[Category   *Workbenches/fr](Category   *Workbenches/fr.md)
-
 ### Contents
 
 |     |     |     |

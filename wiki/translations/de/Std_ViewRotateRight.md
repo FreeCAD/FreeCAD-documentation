@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *Std ViewRotateRight
-   Name/de   *Std AnsichtNachRechtsDrehen
-   MenuLocation   *Ansicht → Standardansichten → Nach rechts drehen
-   Shortcut   ***Umschalten** + **Rechts**
-   Workbenches   *Alle
-   SeeAlso   *[Std AnsichtNachLinksDrehen](Std_ViewRotateLeft/de.md)
+- GuiCommand:/de
+   Name:Std ViewRotateRight
+   Name/de:Std AnsichtNachRechtsDrehen
+   MenuLocation:Ansicht → Standardansichten → Nach rechts drehen
+   Shortcut:**Umschalten** + **Rechts**
+   Workbenches:Alle
+   SeeAlso:[Std AnsichtNachLinksDrehen](Std_ViewRotateLeft/de.md)
 ---
 
 # Std ViewRotateRight/de
@@ -16,15 +16,15 @@ Der Befehl **Std AnsichtNachRechtsDrehen** dreht die Kamera in der aktiven [3D-A
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den Menüeintrag **Ansicht → Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Nach rechts drehen** auswählen.
     -   Die Option **Standardansichten → <img src="images/Std_ViewRotateRight.svg" width=16px> Nach rechts drehen** aus dem Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
-    -   Das Tastaturkürzel   * **Shift**+**Rechts**.
+    -   Das Tastaturkürzel: **Shift**+**Rechts**.
 
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

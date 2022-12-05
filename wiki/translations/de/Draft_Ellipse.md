@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */de
-   Name   *Draft Ellipse
-   Name/de   *Entwurf Ellipse
-   MenuLocation   *Entwurf → Ellipse
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut   ***E** **L**
-   Version   *0.7
-   SeeAlso   *[Kreis](Draft_Circle/de.md), [Bogen](Draft_Arc/de.md)
+- GuiCommand:/de
+   Name:Draft Ellipse
+   Name/de:Entwurf Ellipse
+   MenuLocation:Entwurf → Ellipse
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**E** **L**
+   Version:0.7
+   SeeAlso:[Kreis](Draft_Circle/de.md), [Bogen](Draft_Arc/de.md)
 ---
 
 # Draft Ellipse/de
@@ -29,7 +29,7 @@ Dieses Werkzeug kann auch zur Erstellung von elliptischen Bögen verwendet werde
 
 </div>
 
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -43,7 +43,7 @@ Dieses Werkzeug kann auch zur Erstellung von elliptischen Bögen verwendet werde
 
 ## Anwendung
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -84,17 +84,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Eigenschaften
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
@@ -106,17 +106,17 @@ A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Daten
 
--    {{PropertyData/de|Erster Winkel}}   * gibt den Winkel des ersten Punktes der Ellipse an; normalerweise 0°.
+-    {{PropertyData/de|Erster Winkel}}: gibt den Winkel des ersten Punktes der Ellipse an; normalerweise 0°.
 
--    {{PropertyData/de|Letzter Winkel}}   * gibt den Winkel des letzten Punktes der Ellipse an; normalerweise 0°.
+-    {{PropertyData/de|Letzter Winkel}}: gibt den Winkel des letzten Punktes der Ellipse an; normalerweise 0°.
 
--    {{PropertyData/de|Hauptradius}}   * gibt den Hauptradius der Ellipse an; normalerweise 0°.
+-    {{PropertyData/de|Hauptradius}}: gibt den Hauptradius der Ellipse an; normalerweise 0°.
 
--    {{PropertyData/de|Nebenradius}}   * gibt den kleinen Radius der Ellipse an.
+-    {{PropertyData/de|Nebenradius}}: gibt den kleinen Radius der Ellipse an.
 
-   *   Wenn beide Radien den gleichen Wert haben, sieht die Ellipse wie ein [Entwurf Kreis](Draft_Circle/de.md) aus.
+:   Wenn beide Radien den gleichen Wert haben, sieht die Ellipse wie ein [Entwurf Kreis](Draft_Circle/de.md) aus.
 
--    {{PropertyData/de|Fläche erzeugen}}   * gibt an, ob die Ellipse eine Fläche erzeugt oder nicht. Ist sie `True`, wird eine Fläche erzeugt, andernfalls wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die Form eine Vollellipse ist.
+-    {{PropertyData/de|Fläche erzeugen}}: gibt an, ob die Ellipse eine Fläche erzeugt oder nicht. Ist sie `True`, wird eine Fläche erzeugt, andernfalls wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die Form eine Vollellipse ist.
 
 Damit es eine Vollellipse ist, müssen {{PropertyData/de|Erster Winkel}} und {{PropertyData/de|Letzter Winkel}} den gleichen Wert haben; andernfalls wird ein elliptischer Bogen angezeigt. Die Werte 0° und 360° werden als gleich betrachtet.
 
@@ -133,9 +133,9 @@ Damit es eine Vollellipse ist, müssen {{PropertyData/de|Erster Winkel}} und {{P
 
 ### Ansicht
 
--    {{PropertyView/de|Muster}}   * definiert ein [Entwurf Muster](Draft_Pattern/de.md), mit dem die Fläche der Form gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Fläche erstellen}} `True` ist und {{PropertyView/de|Anzeigemodus}} auf \"Ebene Linien\" gesetzt ist.
+-    {{PropertyView/de|Muster}}: definiert ein [Entwurf Muster](Draft_Pattern/de.md), mit dem die Fläche der Form gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Fläche erstellen}} `True` ist und {{PropertyView/de|Anzeigemodus}} auf \"Ebene Linien\" gesetzt ist.
 
--    {{PropertyView/de|Mustergröße}}   * gibt die Größe des [Entwurf Muster](Draft_Pattern/de.md) an.
+-    {{PropertyView/de|Mustergröße}}: gibt die Größe des [Entwurf Muster](Draft_Pattern/de.md) an.
 
 
 </div>
@@ -148,7 +148,7 @@ Damit es eine Vollellipse ist, müssen {{PropertyData/de|Erster Winkel}} und {{P
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -158,7 +158,7 @@ Damit es eine Vollellipse ist, müssen {{PropertyData/de|Erster Winkel}} und {{P
 
 <div class="mw-translate-fuzzy">
 
-Das Ellipsenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion verwendet werden   *
+Das Ellipsenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion verwendet werden:
 
 
 </div>
@@ -179,7 +179,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 
 </div>
 
-Beispiel   *
+Beispiel:
 
 
 ```python

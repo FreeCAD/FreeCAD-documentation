@@ -1,8 +1,6 @@
 # Category:Draft/zh
 This category list pages related to the \"User_Documentation/zh\" and \"Workbenches/zh\"
 
-[Category   *User Documentation/zh](Category   *User_Documentation/zh.md) [Category   *Workbenches/zh](Category   *Workbenches/zh.md)
-
 ### Contents
 
 |     |     |     |

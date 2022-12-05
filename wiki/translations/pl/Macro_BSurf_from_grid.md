@@ -31,7 +31,7 @@ See docstring.
 **Macro_BSurf_from_grid.FCMacro**
 
 
-    # -*- coding   * utf-8 -*-
+    # -*- coding: utf-8 -*-
 
     # ***************************************************************************
     # *                                                                         *
@@ -62,7 +62,7 @@ See docstring.
     __Date__ = '2022-07-31'
     __License__ = 'LGPL-2.0-or-later'
     __Web__ = ''
-    __Wiki__ = 'https   *//wiki.freecad.org/Macro_Grid_2_BSurf'
+    __Wiki__ = 'https://wiki.freecad.org/Macro_Grid_2_BSurf'
     __Icon__ = ''
     __Help__ = 'Select structured point-cloud, set options, run macro'
     __Status__ = 'functional'
@@ -71,30 +71,30 @@ See docstring.
     __Files__ = ''
 
     """
-    inspired by   *
-    https   *//forum.freecadweb.org/viewtopic.php?f=22&t=69941&start=10
+    inspired by:
+    https://forum.freecadweb.org/viewtopic.php?f=22&t=69941&start=10
     cred to snow54
 
-    it is assumed that the cloud is   *
+    it is assumed that the cloud is:
         - structured
         - aligned with xy grid,
     i.e. a constant y divides 2 horizontal rows of points,
     analogue for x and vertical columns of points
 
 
-    usage   *
+    usage:
     select a pointcloud and run macro    
 
-    options   *
-    wires   * convert boundary wires to spline (draft wb),
+    options:
+    wires: convert boundary wires to spline (draft wb),
            in surf wb, use boundry edges and verts on wires as vertex-constraints
 
-    splines   * in surf wb, use outer contour as boundry edges,
+    splines: in surf wb, use outer contour as boundry edges,
              inner edges can be used as edge constraints
 
-    bsurf   * surface directly created with poles/knots from interpolated spline
+    bsurf: surface directly created with poles/knots from interpolated spline
 
-    mkwframe   * in case of bsurf, symbolic wireframe of splines (draft wb)
+    mkwframe: in case of bsurf, symbolic wireframe of splines (draft wb)
     """
 
     import numpy as np
@@ -108,9 +108,9 @@ See docstring.
 
     doc = App.ActiveDocument
 
-    try   *
+    try:
         cloud, = Gui.Selection.getSelection()
-    except ValueError as e   *
+    except ValueError as e:
         raise RuntimeWarning('a point cloud needs to be selected.')
 
     points = cloud.Points.Points
@@ -122,52 +122,52 @@ See docstring.
                        MakeWFrame=True)
 
     ## a bit of options logic...
-    if o['MakeWires']   * o['MakeBSplines'] = False
-    if o['MakeBSplines']   * o['MakeBSurf'] = o['MakeWires'] = False
-    if o['MakeBSurf'] and o['MakeWFrame']   *
+    if o['MakeWires']: o['MakeBSplines'] = False
+    if o['MakeBSplines']: o['MakeBSurf'] = o['MakeWires'] = False
+    if o['MakeBSurf'] and o['MakeWFrame']:
         o['MakeBSplines'] = True; o['MakeWires'] = False
-    if not o['MakeBSurf']   * o['MakeWFrame'] = False
+    if not o['MakeBSurf']: o['MakeWFrame'] = False
 
 
-    def RGB(*args)   *
+    def RGB(*args):
         return tuple((float(i/255) for i in args))
 
 
     hstep = min((p.y for p in points))
     vstep = min((p.x for p in points))
 
-    wiregroup = doc.addObject('App   *   *DocumentObjectGroup', 'Wires')
-    hwires = doc.addObject('App   *   *DocumentObjectGroup', 'HWires')
-    vwires = doc.addObject('App   *   *DocumentObjectGroup', 'VWires')
+    wiregroup = doc.addObject('App::DocumentObjectGroup', 'Wires')
+    hwires = doc.addObject('App::DocumentObjectGroup', 'HWires')
+    vwires = doc.addObject('App::DocumentObjectGroup', 'VWires')
     wiregroup.addObjects([hwires, vwires])
 
     for wg, step, getter in ((hwires, hstep, 'y'),
-                             (vwires, vstep, 'x'))   *
+                             (vwires, vstep, 'x')):
         wires = list()
         empty = False
         cc = bb.YMin if getter == 'y' else bb.XMin
         cc -= step/2
-        while not empty   *
+        while not empty:
             polypoints = list()
-            for pt in points   *
+            for pt in points:
                 value = getattr(pt, getter)
-                if cc < value < cc + step   *
+                if cc < value < cc + step:
                     polypoints.append(pt)
-            if polypoints   *
-                if o['MakeWires'] or (o['MakeBSurf'] and not o['MakeWFrame'])   *
+            if polypoints:
+                if o['MakeWires'] or (o['MakeBSurf'] and not o['MakeWFrame']):
                     maker = Draft.make_wire
-                elif o['MakeBSplines']   *
+                elif o['MakeBSplines']:
                     maker = Draft.make_bspline
                 wires.append(maker(polypoints, closed=False))
                 cc += step
-            else   *
+            else:
                 empty = True
 
         wg.addObjects(wires)
 
     Gui.Selection.clearSelection()
 
-    if o['MakeBSurf']   *
+    if o['MakeBSurf']:
         degree_u = degree_v = 3
         periodic = False
 
@@ -194,7 +194,7 @@ See docstring.
         gy = interpolate.make_interp_spline(y, y)
         coefgy = gy.tck[1]
 
-        getVector = lambda iz, jz   * Vector(coefgx[jz],
+        getVector = lambda iz, jz: Vector(coefgx[jz],
                                           coefgy[iz],
                                           coefgs[iz, jz])
 
@@ -211,8 +211,8 @@ See docstring.
         surf.Label2 = 'spline surface through points'
         surf.ViewObject.ShapeColor = RGB(0, 170, 255)
 
-        if not o['MakeWFrame']   *
-            for obj in hwires.Group + vwires.Group + [hwires, vwires, wiregroup]   *
+        if not o['MakeWFrame']:
+            for obj in hwires.Group + vwires.Group + [hwires, vwires, wiregroup]:
                 doc.removeObject(obj.Name)
 
 

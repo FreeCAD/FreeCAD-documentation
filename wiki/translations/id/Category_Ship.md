@@ -1,8 +1,6 @@
 # Category:Ship/id
 This category lists pages related to the [Ship Workbench/id](Ship_Workbench/id.md).
 
-[Category   *Workbenches/id](Category   *Workbenches/id.md)
-
 ### Contents
 
 |     |     |     |

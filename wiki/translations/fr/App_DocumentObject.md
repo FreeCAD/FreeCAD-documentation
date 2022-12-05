@@ -3,9 +3,9 @@
 
 ## Introduction
 
-<img alt="" src=images/Px.svg  style="width   *32px;">
+<img alt="" src=images/Px.svg  style="width:32px;">
 
-Un objet [App DocumentObject](App_DocumentObject/fr.md), ou officiellement `App   *   *DocumentObject`, est la classe de base de toutes les classes d\'objets gérées dans le document.
+Un objet [App DocumentObject](App_DocumentObject/fr.md), ou officiellement `App::DocumentObject`, est la classe de base de toutes les classes d\'objets gérées dans le document.
 
 De manière générale, un \"DocumentObject\" est toute \"chose\" qui peut apparaître dans la [vue en arborescence](Tree_view/fr.md) et qui est enregistrée et restaurée lors de l\'ouverture d\'un document.
 
@@ -13,9 +13,9 @@ De manière générale, un \"DocumentObject\" est toute \"chose\" qui peut appar
 
 
 
-*Vue arborescente montrant différents objets dans le document. Chacun d'eux est un "document object", finalement dérivé de la classe `App   *   *DocumentObject* base.`
+*Vue arborescente montrant différents objets dans le document. Chacun d'eux est un "document object", finalement dérivé de la classe `App::DocumentObject* base.`
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
@@ -25,7 +25,7 @@ De manière générale, un \"DocumentObject\" est toute \"chose\" qui peut appar
 
 [App DocumentObject](App_DocumentObject/fr.md) est une classe interne, elle ne peut donc pas être créée à partir de l\'interface graphique, ni destinée à être utilisée seule. Il définit simplement le comportement de base et les propriétés des objets dans le programme.
 
-Certains des DocumentObjects les plus importants sont les suivants   *
+Certains des DocumentObjects les plus importants sont les suivants:
 
 -   La classe [App FeaturePython](App_FeaturePython/fr.md), un objet vide qui peut être utilisé à différentes fins, en fonction des propriétés ajoutées.
 -   La classe [App GeoFeature](App_GeoFeature/fr.md) , l\'objet de base de tous les objets géométriques, c\'est-à-dire des objets qui ont une propriété [Placement](Placement/fr.md) qui définit leur position dans la \[\[3D_view/fr\|vue 3D\] \].
@@ -38,22 +38,22 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 
 Ce sont les propriétés de base que possèdent essentiellement tous les objets. Ces propriétés sont accessibles depuis la [console Python](Python_console/fr.md).
 
--    **Expression Engine|ExpressionEngine**   * une liste d\'expressions.
+-    **Expression Engine|ExpressionEngine**: une liste d\'expressions.
 
--    **Label|String**   * le nom modifiable par l\'utilisateur de cet objet, il s\'agit d\'une chaîne UTF8 arbitraire. Par défaut, c\'est la même chose que `Name`.
+-    **Label|String**: le nom modifiable par l\'utilisateur de cet objet, il s\'agit d\'une chaîne UTF8 arbitraire. Par défaut, c\'est la même chose que `Name`.
 
--    **Label2|String**   * description plus longue et modifiable par l\'utilisateur de cet objet, il s\'agit d\'une chaîne UTF8 arbitraire qui peut inclure des retours à la ligne. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Label2|String**: description plus longue et modifiable par l\'utilisateur de cet objet, il s\'agit d\'une chaîne UTF8 arbitraire qui peut inclure des retours à la ligne. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
--    **Expression Engine|ExpressionEngine**   * une liste d\'expressions.
+-    **Expression Engine|ExpressionEngine**: une liste d\'expressions.
 
--    **Visibility|Bool**   * afficher ou non l\'objet.
+-    **Visibility|Bool**: afficher ou non l\'objet.
 
 Pour les objets dérivés, seul {{PropertyData/fr|Label}} sera répertoriée par défaut dans l\'[ éditeur de propriété](property_editor/fr.md). Les autres propriétés seront masquées.
 
 ## Script
 
 
-**Voir aussi    ***
+**Voir aussi :**
 
 [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
@@ -66,7 +66,7 @@ Un DocumentObject est créé avec la méthode `addObject()` du document. Cependa
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App   *   *DocumentObject", "Name")
+obj = App.ActiveDocument.addObject("App::DocumentObject", "Name")
 obj.Label = "Custom label"
 ```
 

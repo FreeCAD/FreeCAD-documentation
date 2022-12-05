@@ -1,8 +1,6 @@
 # Category:Disambiguation
 This category contains all disambiguation pages which list multiple meanings of the same lemma.
 
-[Category   *Administration](Category_Administration.md)
-
 ### Contents
 
 |     |     |     |

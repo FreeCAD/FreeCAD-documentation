@@ -1,8 +1,6 @@
 # Category:Arch/hu
 Pages relating to Architectural and Building Information Management
 
-[Category   *User Documentation/hu](Category   *User_Documentation/hu.md) [Category   *BIM/hu](Category   *BIM/hu.md) [Category   *Workbenches/hu](Category   *Workbenches/hu.md)
-
 ### Contents
 
 |     |     |     |

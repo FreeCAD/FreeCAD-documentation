@@ -3,7 +3,7 @@
 
 ## Créer un SketchObject en utilisant Python 
 
-Nous créons un SketchObject comme ceci    *
+Nous créons un SketchObject comme ceci :
 
 
 ```python
@@ -13,7 +13,7 @@ import Sketcher
 
 doc = App.newDocument()  
 
-sketch = doc.addObject("Sketcher   *   *SketchObject", "Sketch")
+sketch = doc.addObject("Sketcher::SketchObject", "Sketch")
 sketch.addGeometry(Part.LineSegment(App.Vector(1.2, 1.8, 0),
                                     App.Vector(5.2, 5.3, 0)), False)
 sketch.addGeometry(Part.LineSegment(App.Vector(6.5, 1.5, 0),
@@ -28,13 +28,13 @@ Cela ajoute également trois lignes dans l\'Esquisse juste créée.
 
 ## Créer une contrainte en Python 
 
-Une contrainte géométrique, <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width   *24px;">, et les contraintes spéciales <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width   *24px;"> [d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) peuvent être créées à partir de macros et de la console Python en utilisant la commande suivante    *
+Une contrainte géométrique, <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;">, et les contraintes spéciales <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) peuvent être créées à partir de macros et de la console Python en utilisant la commande suivante :
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…)) 
 ```
 
-Une contrainte dimensionnelle, <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *24px;">, et la contrainte spéciale <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width   *24px;"> [Loi de Snell](Sketcher_ConstrainSnellsLaw/fr.md) peuvent être créés à partir de macros et de la console Python en utilisant la commande suivante    *
+Une contrainte dimensionnelle, <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;">, et la contrainte spéciale <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Loi de Snell](Sketcher_ConstrainSnellsLaw/fr.md) peuvent être créés à partir de macros et de la console Python en utilisant la commande suivante :
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("float_value unit"))) 
@@ -57,66 +57,66 @@ Pour les contraintes géométriques, le premier argument est l\'un des suivants.
 ++++
 | Code                       | Icône                                                                                      | Fonction                                                                    |
 +============================+============================================================================================+=============================================================================+
-|             | <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;">       | [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)     |
+|             | <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;">       | [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)     |
 | `"Coincident"`    |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *24px;"> | [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md) |
+|             | <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> | [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md) |
 | `"PointOnObject"` |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;">           | [Contrainte verticale](Sketcher_ConstrainVertical/fr.md)            |
+|             | <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;">           | [Contrainte verticale](Sketcher_ConstrainVertical/fr.md)            |
 | `"Vertical"`      |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;">       | [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)        |
+|             | <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;">       | [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)        |
 | `"Horizontal"`    |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width   *24px;">           | [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)            |
+|             | <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;">           | [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)            |
 | `"Parallel"`      |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width   *24px;"> | [Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md) |
+|             | <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> | [Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md) |
 | `"Perpendicular"` |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width   *24px;">             | [Contrainte tangente](Sketcher_ConstrainTangent/fr.md)              |
+|             | <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;">             | [Contrainte tangente](Sketcher_ConstrainTangent/fr.md)              |
 | `"Tangent"`       |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;">                 | [Contrainte d\'égalité](Sketcher_ConstrainEqual/fr.md)              |
+|             | <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;">                 | [Contrainte d\'égalité](Sketcher_ConstrainEqual/fr.md)              |
 | `"Equal"`         |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width   *24px;">         | [Contrainte symétrique](Sketcher_ConstrainSymmetric/fr.md)          |
+|             | <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;">         | [Contrainte symétrique](Sketcher_ConstrainSymmetric/fr.md)          |
 | `"Symmetric"`     |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width   *24px;">                 | [Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)              |
+|             | <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;">                 | [Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)              |
 | `"Block"`         |                                                                                            |                                                                             |
 |                         |                                                                                            |                                                                             |
 ++++
 
-Les <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width   *24px;"> [contraintes d\'alignement internes](Sketcher_ConstrainInternalAlignment/fr.md) se comportent comme des contraintes géométriques pour les besoins du script. Là encore, consultez la page de caractéristiques correspondante pour connaître les combinaisons possibles d\'arguments autorisées pour chaque contrainte.
+Les <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [contraintes d\'alignement internes](Sketcher_ConstrainInternalAlignment/fr.md) se comportent comme des contraintes géométriques pour les besoins du script. Là encore, consultez la page de caractéristiques correspondante pour connaître les combinaisons possibles d\'arguments autorisées pour chaque contrainte.
 
 ++++
 | Code                                                | Icône                                                                                              | Fonction                                                                              |
 +=====================================================+====================================================================================================+=======================================================================================+
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width   *24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment   *EllipseMajorDiameter"` |                                                                                                    |                                                                                       |
+|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
+| `"InternalAlignment:EllipseMajorDiameter"` |                                                                                                    |                                                                                       |
 |                                                  |                                                                                                    |                                                                                       |
 ++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width   *24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment   *EllipseMinorDiameter"` |                                                                                                    |                                                                                       |
+|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
+| `"InternalAlignment:EllipseMinorDiameter"` |                                                                                                    |                                                                                       |
 |                                                  |                                                                                                    |                                                                                       |
 ++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width   *24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment   *EllipseFocus1"`        |                                                                                                    |                                                                                       |
+|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
+| `"InternalAlignment:EllipseFocus1"`        |                                                                                                    |                                                                                       |
 |                                                  |                                                                                                    |                                                                                       |
 ++++
-|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width   *24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
-| `"InternalAlignment   *EllipseFocus2"`        |                                                                                                    |                                                                                       |
+|                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [Contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) |
+| `"InternalAlignment:EllipseFocus2"`        |                                                                                                    |                                                                                       |
 |                                                  |                                                                                                    |                                                                                       |
 ++++
 
@@ -125,60 +125,60 @@ Pour les contraintes dimensionnelles, le premier argument est l\'un des suivants
 ++++
 | Code                       | Icône                                                                              | Fonction                                                              |
 +============================+====================================================================================+=======================================================================+
-|             | <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> | [Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md) |
+|             | <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> | [Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md) |
 | `"DistanceX"`     |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> | [Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md) |
+|             | <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> | [Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md) |
 | `"DistanceY"`     |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width   *24px;">   | [Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md) |
+|             | <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;">   | [Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md) |
 | `"Distance"`      |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *24px;">       | [Contrainte rayon](Sketcher_ConstrainRadius/fr.md)            |
+|             | <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;">       | [Contrainte rayon](Sketcher_ConstrainRadius/fr.md)            |
 | `"Radius"`        |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *24px;">   | [Contrainte diamètre](Sketcher_ConstrainDiameter/fr.md)       |
+|             | <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;">   | [Contrainte diamètre](Sketcher_ConstrainDiameter/fr.md)       |
 | `"Diameter"`      |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *24px;">         | [Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)         |
+|             | <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;">         | [Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)         |
 | `"Angle"`         |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
-|             | <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width   *24px;">         | [Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)         |
+|             | <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;">         | [Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)         |
 | `"AngleViaPoint"` |                                                                                    |                                                                       |
 |                         |                                                                                    |                                                                       |
 ++++
 
-Les contraintes de la <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width   *24px;"> [Loi de Snell](Sketcher_ConstrainSnellsLaw/fr.md) se comportent comme des contraintes dimensionnelles pour les besoins du script. Encore une fois, consultez la page de fonctionnalités correspondante pour les combinaisons d\'arguments possibles autorisées pour chaque contrainte.
+Les contraintes de la <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Loi de Snell](Sketcher_ConstrainSnellsLaw/fr.md) se comportent comme des contraintes dimensionnelles pour les besoins du script. Encore une fois, consultez la page de fonctionnalités correspondante pour les combinaisons d\'arguments possibles autorisées pour chaque contrainte.
 
 ++++
 | Code                   | Icône                                                                              | Fonction                                                              |
 +========================+====================================================================================+=======================================================================+
-|         | <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width   *24px;"> | [Contrainte de réfraction](Sketcher_ConstrainSnellsLaw/fr.md) |
+|         | <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> | [Contrainte de réfraction](Sketcher_ConstrainSnellsLaw/fr.md) |
 | `"SnellsLaw"` |                                                                                    |                                                                       |
 |                     |                                                                                    |                                                                       |
 ++++
 
-La contrainte <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width   *24px;"> [fixe](Sketcher_ConstrainLock/fr.md) est une commande de l\'interface graphique qui crée une contrainte <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md) et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi.
+La contrainte <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [fixe](Sketcher_ConstrainLock/fr.md) est une commande de l\'interface graphique qui crée une contrainte <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md) et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi.
 
 ## Identifier le numéro d\'une ligne 
 
 J\'ai dessiné trois lignes comme indiqué dans la figure suivante.
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure1.jpg  style="width   *600px;">
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure1.jpg  style="width:600px;">
 
 En déplaçant le curseur de la souris au-dessus de la ligne, vous pouvez voir le numéro de la ligne en bas à gauche des fenêtres FreeCAD, voir la figure suivante.
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure2.jpg  style="width   *600px;">
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure2.jpg  style="width:600px;">
 
-Malheureusement la numérotation affichée sur les fenêtres de FreeCAD commence à partir de 1 alors que la numérotation de la ligne utilisée pour le script commence à partir de 0    * cela signifie que vous devez soustraire un à chaque fois que vous voulez faire référence à une ligne.
+Malheureusement la numérotation affichée sur les fenêtres de FreeCAD commence à partir de 1 alors que la numérotation de la ligne utilisée pour le script commence à partir de 0 : cela signifie que vous devez soustraire un à chaque fois que vous voulez faire référence à une ligne.
 
-Les nombres positifs indiquent les arêtes d\'esquisse (lignes droites, cercles, coniques, B-splines, etc.). Les valeurs suivantes peuvent être utilisées pour désigner des éléments qui ne sont pas des arêtes d\'esquisse    *
+Les nombres positifs indiquent les arêtes d\'esquisse (lignes droites, cercles, coniques, B-splines, etc.). Les valeurs suivantes peuvent être utilisées pour désigner des éléments qui ne sont pas des arêtes d\'esquisse :
 
 -    `-1`désigne l\'axe horizontal des x
 
@@ -188,7 +188,7 @@ Les nombres positifs indiquent les arêtes d\'esquisse (lignes droites, cercles,
 
 ## Identifier le numéro des sous-parties d\'une ligne 
 
-Pour déterminer quelle partie d\'une ligne est affectée par une contrainte, les valeurs suivantes peuvent être utilisées    *
+Pour déterminer quelle partie d\'une ligne est affectée par une contrainte, les valeurs suivantes peuvent être utilisées :
 
 -    `0`pour indiquer que la contrainte affecte tout le bord.
 
@@ -196,13 +196,13 @@ Pour déterminer quelle partie d\'une ligne est affectée par une contrainte, le
 
 -    `2`pour indiquer que la contrainte affecte le point final du bord.
 
--    `3`pour indiquer que la contrainte affecte le point central de l\'arête. Pour des <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width   *" height="24px;"> [cercles](Sketcher_CompCreateCircle/fr.md) et des <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *" height="24px;"> [coniques](Sketcher_CompCreateConic/fr.md) (ellipses), c\'est le centre du cercle ou le centre (intersection des grands et petits axes) de l\'ellipse. Pour des lignes <img alt="" src=images/Sketcher_CreateLine.svg  style="width   *" height="24px;"> [droites](Sketcher_CreateLine/fr.md), `3` ne peut pas être utilisé pour indiquer le point central.
+-    `3`pour indiquer que la contrainte affecte le point central de l\'arête. Pour des <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:" height="24px;"> [cercles](Sketcher_CompCreateCircle/fr.md) et des <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:" height="24px;"> [coniques](Sketcher_CompCreateConic/fr.md) (ellipses), c\'est le centre du cercle ou le centre (intersection des grands et petits axes) de l\'ellipse. Pour des lignes <img alt="" src=images/Sketcher_CreateLine.svg  style="width:" height="24px;"> [droites](Sketcher_CreateLine/fr.md), `3` ne peut pas être utilisé pour indiquer le point central.
 
--    `n`pour indiquer que la contrainte affecte le n-ième pôle d\'une <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width   *" height="24px;"> [B-spline](Sketcher_CompCreateBSpline/fr.md).
+-    `n`pour indiquer que la contrainte affecte le n-ième pôle d\'une <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:" height="24px;"> [B-spline](Sketcher_CompCreateBSpline/fr.md).
 
 Les sommets indiqués par 1 et 2 sont numérotés selon leur ordre de création. Pour connaître l\'ordre de leur création (si vous avez beaucoup de lignes, vous ne vous souvenez plus quel sommet vous avez créé en premier), il vous suffit de déplacer le curseur de votre souris au-dessus des deux sommets d\'une ligne, voir figure suivante.
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3.jpg  style="width   *600px;">
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3.jpg  style="width:600px;">
 
 Si vous lisez par exemple 4 et 5, cela signifie que le sommet avec le numéro le plus bas (4 dans cet exemple) sera référencé en utilisant le numéro 1 (en premier dans la commande de script et le sommet avec le numéro le plus élevé (5 dans cet exemple) sera référencé par en utilisant le numéro 2 dans la commande de script.
 
@@ -210,17 +210,17 @@ Si vous lisez par exemple 4 et 5, cela signifie que le sommet avec le numéro le
 
 Prenons l\'exemple précédent des trois lignes. La figure suivante indique la numérotation de chaque ligne et de leurs sommets selon la convention de script.
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width   *600px;">
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;">
 
 
 
-*<b>text en bleu   *</b> numéro de ligne, <b>text en noir   *</b> numéro de sommets*
+*<b>text en bleu:</b> numéro de ligne, <b>text en noir:</b> numéro de sommets*
 
-La commande `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` donne le résultat suivant    *
+La commande `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` donne le résultat suivant :
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure4.jpg  style="width   *600px;">
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure4.jpg  style="width:600px;">
 
-Le code complet pour dessiner les trois lignes et ajouter une contrainte de coïncidence sur deux points de deux lignes est le suivant    *
+Le code complet pour dessiner les trois lignes et ajouter une contrainte de coïncidence sur deux points de deux lignes est le suivant :
 
 
 ```python
@@ -230,7 +230,7 @@ import Sketcher
 
 doc = App.newDocument()  
 
-sketch = doc.addObject("Sketcher   *   *SketchObject", "Sketch")
+sketch = doc.addObject("Sketcher::SketchObject", "Sketch")
 sketch.addGeometry(Part.LineSegment(App.Vector(1.2, 1.8, 0),
                                     App.Vector(5.2, 5.3, 0)), False)
 sketch.addGeometry(Part.LineSegment(App.Vector(6.5, 1.5, 0),

@@ -1,6 +1,6 @@
 # Arch Floor/cs
 ---
-- GuiCommand   */cs   Name   *Arch Floor   Name/cs   *Arch Floor   Workbenches   *[MenuLocation   *Arch → Floor   Shortcut   *F L   SeeAlso   *[[Arch Building/cs|Arch Building](Arch_Workbench/cs___Arch]].md), [Arch Site](Arch_Site/cs.md)---
+- GuiCommand:/cs   Name:Arch Floor   Name/cs:Arch Floor   Workbenches:[MenuLocation:Arch → Floor   Shortcut:F L   SeeAlso:[[Arch Building/cs|Arch Building](Arch_Workbench/cs___Arch]].md), [Arch Site](Arch_Site/cs.md)---
 
 
 </div>
@@ -34,8 +34,8 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 
 <div class="mw-translate-fuzzy">
 
--   Po vytvoření podlaží můžete přidávat další objekty pomocí myši přetáhnutím a upuštěním (drag and drop) na požadované místo v panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Add.png  style="width   *16px;"> [Přidat](Arch_Add/cs.md)
--   Odstranit objekty z podlaží můžete podobně myší přetáhnutím a upuštěním objektu mimo panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> [Odebrat](Arch_Remove/cs.md).
+-   Po vytvoření podlaží můžete přidávat další objekty pomocí myši přetáhnutím a upuštěním (drag and drop) na požadované místo v panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Add.png  style="width:16px;"> [Přidat](Arch_Add/cs.md)
+-   Odstranit objekty z podlaží můžete podobně myší přetáhnutím a upuštěním objektu mimo panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Remove.png  style="width:16px;"> [Odebrat](Arch_Remove/cs.md).
 
 
 </div>
@@ -55,7 +55,7 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Podlaží může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Podlaží může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -73,7 +73,7 @@ vytvoří podlaží včetně objektů ze seznamu objectslist
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python

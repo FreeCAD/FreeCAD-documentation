@@ -6,7 +6,7 @@ Instrumentul Distribuire personalizată permite utilizatorului să creeze o dist
 
 <div class="mw-translate-fuzzy">
 
-De ex.   * Valorile de intrare pentru dialogul Rebar Distribuiton   *
+De ex.: Valorile de intrare pentru dialogul Rebar Distribuiton:
 
 
 </div>
@@ -16,19 +16,12 @@ De ex.   * Valorile de intrare pentru dialogul Rebar Distribuiton   *
 
 <div class="mw-translate-fuzzy">
 
-Rezultaul produs de dialogul Rebar Distribution atunci când utilizatorul face click pe butonul **OK**   *
+Rezultaul produs de dialogul Rebar Distribution atunci când utilizatorul face click pe butonul **OK**:
 
 
 </div>
 
-<img alt="" src=images/RebarDistribution.png  style="width   *800px;">
-
- 
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Reinforcement](Category_Reinforcement.md)
+<img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
 
 

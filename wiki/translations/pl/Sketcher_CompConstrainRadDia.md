@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */pl
-   Name   *Sketcher constrain arc or circle
-   Name/pl   *Szkicownik   * Wiązanie promienia lub średnicy
-   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation   *
+- GuiCommand:/pl
+   Name:Sketcher constrain arc or circle
+   Name/pl:Szkicownik: Wiązanie promienia lub średnicy
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation:
 ---
 
 # Sketcher CompConstrainRadDia/pl
@@ -14,11 +14,11 @@
 
 ## Rodzaje wiązań dla łuku lub okręgu 
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md)   * definiuje promień wybranego łuku lub okręgu poprzez wiązanie promienia.
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md): definiuje promień wybranego łuku lub okręgu poprzez wiązanie promienia.
 
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width   *32px;"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md)   * definiuje średnicę wybranego łuku lub okręgu poprzez wiązanie średnicy.
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md): definiuje średnicę wybranego łuku lub okręgu poprzez wiązanie średnicy.
 
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width   *32px;"> [Radiam](Sketcher_ConstrainRadiam/pl.md)   * automatycznie definiuje promień / średnicę wybranego łuku lub okręgu *(waga dla bieguna krzywej złożonej, średnica dla pełnego okręgu, promień dla łuku)*.
+-   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam/pl.md): automatycznie definiuje promień / średnicę wybranego łuku lub okręgu *(waga dla bieguna krzywej złożonej, średnica dla pełnego okręgu, promień dla łuku)*.
 
 
 

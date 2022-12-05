@@ -3,8 +3,6 @@ This category lists templates that add a text box with some information as input
 
 These templates produce small pieces of text that are suitable for transclusion.
 
-[Category   *Template/ru](Category   *Template/ru.md)
-
 ### Contents
 
 |     |     |     |

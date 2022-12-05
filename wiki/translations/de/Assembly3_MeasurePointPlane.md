@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Assembly3 MeasurePointPlane
-   Name/de   *Assembly3 PunktZuEbeneMessen
-   Icon   *Assembly_MeasurePointPlaneDistance.svg
-   Workbenches   *[Assembly3](Assembly3_Workbench/de.md)
+- GuiCommand:/de
+   Name:Assembly3 MeasurePointPlane
+   Name/de:Assembly3 PunktZuEbeneMessen
+   Icon:Assembly_MeasurePointPlaneDistance.svg
+   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 MeasurePointPlane/de

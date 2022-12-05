@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Draft Rotate
-   Name/it   *Ruota
-   Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation   *Draft → Ruota
-   Shortcut   ***R** **O**
-   SeeAlso   *[Sposta](Draft_Move/it.md), [Serie](Draft_Array/it.md)
-   Version   *0.7
+- GuiCommand:/it
+   Name:Draft Rotate
+   Name/it:Ruota
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Ruota
+   Shortcut:**R** **O**
+   SeeAlso:[Sposta](Draft_Move/it.md), [Serie](Draft_Array/it.md)
+   Version:0.7
 ---
 
 # Draft Rotate/it
@@ -32,7 +32,7 @@ Lo strumento Ruota può essere utilizzato su forme 2D create con [Draft](Draft_W
 
 </div>
 
-<img alt="" src=images/Draft_Rotate_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +46,7 @@ Lo strumento Ruota può essere utilizzato su forme 2D create con [Draft](Draft_W
 
 ## Utilizzo
 
-See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +72,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 -   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Ruota viene riavviato al termine dell\'operazione, consentendo di ruotare o copiare nuovamente gli oggetti senza premere nuovamente il pulsante dello strumento.
 -   Premere **P** oppure fare clic sulla casella di controllo per attivare la modalità *Copia*. Se la modalità copia è attiva, lo strumento Ruota mantiene la forma originale al suo posto e crea una copia con l\'angolo impostato impostato dal terzo punto.
 
-   *   Si possono usare sia **T** che **P** per posizionare più copie in sequenza. In questo caso, l\'elemento che viene duplicato è l\'ultima copia posizionata.
+:   Si possono usare sia **T** che **P** per posizionare più copie in sequenza. In questo caso, l\'elemento che viene duplicato è l\'ultima copia posizionata.
 
 -   Tenere premuto **Alt** dopo il secondo punto per attivare o disattivare la modalità di copia. Tenendo premuto **Alt** dopo aver cliccato sul terzo punto, si può continuare a posizionare le copie usando lo stesso punto base di rotazione e la stessa linea di base; rilasciare **Alt** per terminare l\'operazione e vedere tutte le copie.
 -   Tenere premuto **Ctrl** mentre si ruota per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
@@ -88,11 +88,11 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To store and reuse the same copy mode setting across commands   * **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
 
@@ -102,7 +102,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -112,7 +112,7 @@ See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences]
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Ruota può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
+Lo strumento Ruota può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 </div>
@@ -133,7 +133,7 @@ rotated_list = rotate(objectslist, angle, center=Vector(0,0,0), axis=Vector(0,0,
 
     -   Se sono dati un punto base di rotazione (`center`), e un `axis`, essi sono usati; altrimenti la rotazione è basata sull\'origine e attorno all\'asse Z.
 
-   *   L\'angolo di rotazione è relativo al punto base dell\'oggetto, il che significa che se un oggetto viene ruotato di 45 gradi e poi di altri 45 gradi, in totale ruota di 90 gradi dalla sua posizione originale.
+:   L\'angolo di rotazione è relativo al punto base dell\'oggetto, il che significa che se un oggetto viene ruotato di 45 gradi e poi di altri 45 gradi, in totale ruota di 90 gradi dalla sua posizione originale.
 
 -   Se `copy` è `True` vengono create delle copie invece di ruotare gli oggetti originali.
 -   Viene restituita una `rotatedlist` con gli oggetti originali ruotati o con le nuove copie.
@@ -145,7 +145,7 @@ rotated_list = rotate(objectslist, angle, center=Vector(0,0,0), axis=Vector(0,0,
 
 </div>
 
-Esempio   *
+Esempio:
 
 
 ```python

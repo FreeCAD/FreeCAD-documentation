@@ -7,14 +7,14 @@
 |Version=2.0
 |Date=2022-04-13
 |FCVersion=0.20
-|Download=[https   *//www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png Icône de la barre d'outils]
+|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png Icône de la barre d'outils]
 }}
 
 ## Description
 
 Lors de la saisie de nombres, et que la zone de saisie du numéro n\'est pas correctement mise au point, FreeCAD réagira aux chiffres en changeant de vue standard. Cette macro est un moyen rapide de relier les raccourcis à Ctrl + numéro. Cela n\'aide pas beaucoup à entrer des nombres, mais au moins la vue ne tournera pas comme une folle.
 
-Voir le thread sur forum [How to turn off (disable) Numpad navigation?](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=26667)
+Voir le thread sur forum [How to turn off (disable) Numpad navigation?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
 ## Utilisation
 
@@ -41,8 +41,8 @@ preset = [
     ("Std_ViewBottom", "Ctrl+5"),
     ("Std_ViewLeft"  , "Ctrl+6"),
 ]
-for (cmd, shortcut) in preset   *
-    App.ParamGet("User parameter   *BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
+for (cmd, shortcut) in preset:
+    App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
 

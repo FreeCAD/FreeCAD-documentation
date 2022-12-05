@@ -1,10 +1,10 @@
 # Robot CreateTrajectory/ru
 ---
-- GuiCommand   */ru
-   Name   *Robot CreateTrajectory
-   Name/ru   *Robot CreateTrajectory
-   Workbenches   *[Robot](Robot_Workbench/ru.md)
-   MenuLocation   *Робот → Создание траектории---
+- GuiCommand:/ru
+   Name:Robot CreateTrajectory
+   Name/ru:Robot CreateTrajectory
+   Workbenches:[Robot](Robot_Workbench/ru.md)
+   MenuLocation:Робот → Создание траектории---
 
 
 </div>
@@ -15,7 +15,7 @@
 
 ## Применение
 
-Нажмите на <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *32px;"> или выберите в главном меню пункт   * **Робот** → **<img src="images/Robot_CreateTrajectory.svg" width=32px> Создание траектории**.
+Нажмите на <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:32px;"> или выберите в главном меню пункт: **Робот** → **<img src="images/Robot_CreateTrajectory.svg" width=32px> Создание траектории**.
 
 ## Примечания
 

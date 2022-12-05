@@ -1,11 +1,11 @@
 # Ship Capacity/ru
 ---
-- GuiCommand   */ru
-   Name   *Ship TankCapacity
-   Name/ru   *Ship TankCapacity
-   MenuLocation   *Weights → Tank capacity curve
-   Workbenches   *[Ship](Ship_Workbench/ru.md)
-   Shortcut   *   SeeAlso   *---
+- GuiCommand:/ru
+   Name:Ship TankCapacity
+   Name/ru:Ship TankCapacity
+   MenuLocation:Weights → Tank capacity curve
+   Workbenches:[Ship](Ship_Workbench/ru.md)
+   Shortcut:   SeeAlso:---
 
 
 </div>
@@ -24,14 +24,6 @@ TODO
 
 
 </div>
-
-
-
-
-
-
-
-[Category   *Ship](Category_Ship.md)
 
 
 

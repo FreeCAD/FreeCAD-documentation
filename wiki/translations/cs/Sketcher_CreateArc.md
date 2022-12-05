@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */cs
-   Name   *Sketcher CreateArc
-   Name/cs   *Skicář Oblouk
-   Workbenches   *[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation   *Náčrt → Skicář Konstrukce → Vytvořit oblouk
-   SeeAlso   *[Skicář Kružnice](Sketcher_CompCreateCircle/cs.md)
+- GuiCommand:/cs
+   Name:Sketcher CreateArc
+   Name/cs:Skicář Oblouk
+   Workbenches:[Skicář](Sketcher_Workbench/cs.md)
+   MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit oblouk
+   SeeAlso:[Skicář Kružnice](Sketcher_CompCreateCircle/cs.md)
 ---
 
 # Sketcher CreateArc/cs
@@ -14,11 +14,11 @@
 
 ## Popis
 
-Tento nástroj vytvoří oblouk zadáním 3 bodů   * střed, počáteční úhel na poloměru a koncový úhel.
+Tento nástroj vytvoří oblouk zadáním 3 bodů: střed, počáteční úhel na poloměru a koncový úhel.
 
 Po spuštění nástroje se ukazatel myši změní na bílý křížek s červenou ikonou oblouku. Souřadnice ukazatele jsou zobrazeny modře vedle něj v reálném čase.
 
-<img alt="Střed byl vybrán, přetažením nastaven poloměr‎" src=images/Sketcher_ArcExample1.png ) ![Byl vybrán střed a poloměr, přetažením nastaven koncový úhel](images/Sketcher_ArcExample2.png  style="width   *407" height="360px;">
+<img alt="Střed byl vybrán, přetažením nastaven poloměr‎" src=images/Sketcher_ArcExample1.png ) ![Byl vybrán střed a poloměr, přetažením nastaven koncový úhel](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
 
 
 <div class="mw-translate-fuzzy">

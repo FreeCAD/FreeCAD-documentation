@@ -1,21 +1,21 @@
 ---
-- GuiCommand   */de
-   Name   *Part Ellipsoid
-   Name/de   *Part Ellipsoid
-   MenuLocation   *Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Ellipsoid
-   Workbenches   *[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso   *[Part Grundelemente](Part_Primitives/de.md)
+- GuiCommand:/de
+   Name:Part Ellipsoid
+   Name/de:Part Ellipsoid
+   MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Ellipsoid
+   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Ellipsoid/de
 
 ## Beschreibung
 
-Eine <img alt="" src=images/Part_Ellipsoid.svg  style="width   *24px;"> **Part Ellipsoid** ist ein parametrischer Volumenkörper, der mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Im Koordinatensystem durch ihre {{PropertyData/de|Placement}} festgelegt, sind die Achsen des Ellipsoids fluchtend mit den X-, Y-, und Z-Achsen und damit sein Mittelpunkt im Ursprung.
+Eine <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> **Part Ellipsoid** ist ein parametrischer Volumenkörper, der mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Im Koordinatensystem durch ihre {{PropertyData/de|Placement}} festgelegt, sind die Achsen des Ellipsoids fluchtend mit den X-, Y-, und Z-Achsen und damit sein Mittelpunkt im Ursprung.
 
 A Part Ellipsoid can be truncated at the top and/or bottom by changing its **Angle1** and/or **Angle2** properties. It can be turned into a segment of an ellipsoid by changing its **Angle3** property.
 
-<img alt="" src=images/Part_Ellipsoid_Example.png  style="width   *400px;">
+<img alt="" src=images/Part_Ellipsoid_Example.png  style="width:400px;">
 
 ## Anwendung
 
@@ -29,9 +29,9 @@ Ein Part-Ellipsoid-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unt
 
 ## Eigenschaften
 
-Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Part-Ellipsoid-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
+Ein Part-Ellipsoid-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 ### Daten
 
@@ -43,33 +43,33 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Ellipsoid}}
 
--    **Radius1|Length**   * The radius of the ellipsoid in its Z direction. The default is {{Value|2mm}}.
+-    **Radius1|Length**: The radius of the ellipsoid in its Z direction. The default is {{Value|2mm}}.
 
--    **Radius2|Length**   * The radius of the ellipsoid in its X direction. The default is {{Value|4mm}}.
+-    **Radius2|Length**: The radius of the ellipsoid in its X direction. The default is {{Value|4mm}}.
 
--    **Radius3|Length**   * The radius of the ellipsoid in its Y direction. The default is {{Value|4mm}}.
+-    **Radius3|Length**: The radius of the ellipsoid in its Y direction. The default is {{Value|4mm}}.
 
--    **Angle1|Angle**   * The start angle of the elliptical sides of the ellipsoid. Valid range   * {{Value|-90° &lt;&#61; value &lt; 90°}}. Must be smaller than **Angle2**. The default is {{Value|-90°}}.
+-    **Angle1|Angle**: The start angle of the elliptical sides of the ellipsoid. Valid range: {{Value|-90° &lt;&#61; value &lt; 90°}}. Must be smaller than **Angle2**. The default is {{Value|-90°}}.
 
--    **Angle2|Angle**   * The end angle of the elliptical sides of the ellipsoid. Valid range   * {{Value|-90° &lt; value &lt;&#61; 90°}}. Must be larger than **Angle1**. The default is {{Value|90°}}. If the total angle of the elliptical sides is smaller than {{Value|180°}} the ellipsoid will be truncated and have a flat face at the top and/or bottom.
+-    **Angle2|Angle**: The end angle of the elliptical sides of the ellipsoid. Valid range: {{Value|-90° &lt; value &lt;&#61; 90°}}. Must be larger than **Angle1**. The default is {{Value|90°}}. If the total angle of the elliptical sides is smaller than {{Value|180°}} the ellipsoid will be truncated and have a flat face at the top and/or bottom.
 
--    **Angle3|Angle**   * The total angle of the ellipsoid in its XY plane. Valid range   * {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of an ellipsoid.
+-    **Angle3|Angle**: The total angle of the ellipsoid in its XY plane. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of an ellipsoid.
 
 ## Skripten
 
-See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Ellipsoid can be created with the {{Incode|addObject()}} method of the document   *
+A Part Ellipsoid can be created with the {{Incode|addObject()}} method of the document:
 
 
 ```python
-ellipsoid = FreeCAD.ActiveDocument.addObject("Part   *   *Ellipsoid", "myEllipsoid")
+ellipsoid = FreeCAD.ActiveDocument.addObject("Part::Ellipsoid", "myEllipsoid")
 ```
 
 -   Where {{Incode|"myEllipsoid"}} is the name for the object.
 -   The function returns the newly created object.
 
-Beispiel   *
+Beispiel:
 
 
 ```python
@@ -77,7 +77,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-ellipsoid = doc.addObject("Part   *   *Ellipsoid", "myEllipsoid")
+ellipsoid = doc.addObject("Part::Ellipsoid", "myEllipsoid")
 ellipsoid.Radius1 = 2
 ellipsoid.Radius2 = 4
 ellipsoid.Radius3 = 6

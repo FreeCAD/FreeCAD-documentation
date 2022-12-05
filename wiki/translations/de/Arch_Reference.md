@@ -1,18 +1,18 @@
 ---
-- GuiCommand   */de
-   Name   *Arch Reference
-   Name/de   *Arch Referenz
-   MenuLocation   *Arch → Referenz
-   Workbenches   *[Arch Arbeitsbereich](Arch_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *[Arch GebäudeTeil](Arch_BuildingPart/de.md)
+- GuiCommand:/de
+   Name:Arch Reference
+   Name/de:Arch Referenz
+   MenuLocation:Arch → Referenz
+   Workbenches:[Arch Arbeitsbereich](Arch_Workbench/de.md)
+   Shortcut:
+   SeeAlso:[Arch GebäudeTeil](Arch_BuildingPart/de.md)
 ---
 
 # Arch Reference/de
 
 ## Beschreibung
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width   *800px;">
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
 Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren, das die Form und Farben eines in einer anderen Datei gespeicherten [Part](Part_Workbench/de.md) basierten Objekts (einschließlich [Arch Gebäudeteil](Arch_BuildingPart/de.md)) kopiert. Wenn sich die FreeCAD Datei ändert, wird das Objekt für eine Aktualisierung vorgemerkt.
 
@@ -34,22 +34,22 @@ Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren
 
 ## Eigenschaften
 
--    {{PropertyData/de|File}}   * Die zugrunde liegende Datei, auf der diese Komponente basiert
+-    {{PropertyData/de|File}}: Die zugrunde liegende Datei, auf der diese Komponente basiert
 
--    {{PropertyData/de|Part}}   * Das zu verwendende Teil aus der zugrunde liegenden Datei
+-    {{PropertyData/de|Part}}: Das zu verwendende Teil aus der zugrunde liegenden Datei
 
--    {{PropertyView/de|Update Colors}}   * Falls `True`, werden die Farben auf Basis der verbundenen Datei aktualisiert
+-    {{PropertyView/de|Update Colors}}: Falls `True`, werden die Farben auf Basis der verbundenen Datei aktualisiert
 
 ## Programmierung
 
-Das Referenz-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus mit folgender Funktion angesprochen werden   * 
+Das Referenz-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus mit folgender Funktion angesprochen werden: 
 ```python
 makeReference ([file_path,object_name])
 ```
 
 erstellt ein Referenz-Objekt aus dem angegebenen Objekt der angegebenen Datei.
 
-Beispiel   * 
+Beispiel: 
 ```python
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")

@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */ru
-   Name   *Std RandomColor
-   Name/ru   *Std RandomColor (Случайный цвет)
-   MenuLocation   *Вид → Случайный цвет
-   Workbenches   *Все
+- GuiCommand:/ru
+   Name:Std RandomColor
+   Name/ru:Std RandomColor (Случайный цвет)
+   MenuLocation:Вид → Случайный цвет
+   Workbenches:Все
 ---
 
 # Std RandomColor/ru
@@ -15,7 +15,7 @@
 ## Применение
 
 1.  Выберите один или несколько объектов.
-2.  Существует несколько способов вызова команды   *
+2.  Существует несколько способов вызова команды:
     -   Выберите в меню пункт **Вид→ <img src="images/Std_RandomColor.svg" width=16px> Случайный цвет**.
     -   Выберите пункт **<img src="images/Std_RandomColor.svg" width=16px> Случайный цвет** в контекстном меню (см. снимок экрана) [Дерева проекта](Tree_view/ru.md) или [3D вида](3D_view/ru.md).
 

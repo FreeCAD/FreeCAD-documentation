@@ -1,6 +1,6 @@
 # Draft Circle/cs
 ---
-- GuiCommand   */cs   Name   *Draft_Circle   Name/cs   *Kreslení_Kružnice   Workbenches   *[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation   *Kreslení -> Kružnice   Shortcut   *C I   SeeAlso   *[Kreslení oblouk](Draft_Arc/cs.md)---
+- GuiCommand:/cs   Name:Draft_Circle   Name/cs:Kreslení_Kružnice   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Kružnice   Shortcut:C I   SeeAlso:[Kreslení oblouk](Draft_Arc/cs.md)---
 
 
 </div>
@@ -12,26 +12,26 @@
 
 ## Popis
 
-Nástroj Kružnice vytváří kružnici v aktuální [pracovní rovině](Draft_SelectPlane/cs.md) zadáním dvou bodů   * střed a poloměr nebo zadáním tečen nebo kombinací obou způsobů. Použije se [tloušťka čáry a barva](Draft_Linestyle/cs.md) předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Oblouk](Draft_Circle/cs.md), kromě toho, že se končí po zadání poloměru.
+Nástroj Kružnice vytváří kružnici v aktuální [pracovní rovině](Draft_SelectPlane/cs.md) zadáním dvou bodů: střed a poloměr nebo zadáním tečen nebo kombinací obou způsobů. Použije se [tloušťka čáry a barva](Draft_Linestyle/cs.md) předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Oblouk](Draft_Circle/cs.md), kromě toho, že se končí po zadání poloměru.
 
 
 </div>
 
 A Draft Circle can be turned into an arc by setting its **First Angle** and **Last Angle** properties to different values.
 
-<img alt="" src=images/Draft_Circle_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_Circle_example.jpg  style="width   *400px;">
+<img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;">
 
 
 </div>
 
 ## Usage
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -75,41 +75,41 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Preferences
 
-See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode   * **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
+-   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
-See also   * [Property editor](Property_editor.md).
+See also: [Property editor](Property_editor.md).
 
-A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**   * (read-only) specifies the area of the face of the circle. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+-    **Area|Area**: (read-only) specifies the area of the face of the circle. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
 
--    **First Angle|Angle**   * specifies the start angle of the circle, normally {{value|0&#176;}}.
+-    **First Angle|Angle**: specifies the start angle of the circle, normally {{value|0&#176;}}.
 
--    **Last Angle|Angle**   * specifies the end angle of the circle, normally {{value|0&#176;}}.
+-    **Last Angle|Angle**: specifies the end angle of the circle, normally {{value|0&#176;}}.
 
--    **Make Face|Bool**   * specifies if the circle makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if the **First Angle** and **Last Angle** have the same value. Note that {{value|0&#176;}} and {{value|360&#176;}} are not considered the same.
+-    **Make Face|Bool**: specifies if the circle makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if the **First Angle** and **Last Angle** have the same value. Note that {{value|0&#176;}} and {{value|360&#176;}} are not considered the same.
 
--    **Radius|Length**   * specifies the radius of the circle.
+-    **Radius|Length**: specifies the radius of the circle.
 
 ### View
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**   * specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the circle. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the circle. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Scripting
 
@@ -118,7 +118,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 ## Skriptování
 
-Nástroj Kružnice může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Kružnice může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -143,7 +143,7 @@ circle = make_circle(Part.Edge, placement=None, face=None, startangle=None, enda
 
 </div>
 
-Příklad   * 
+Příklad: 
 ```python
 import FreeCAD as App
 import Draft

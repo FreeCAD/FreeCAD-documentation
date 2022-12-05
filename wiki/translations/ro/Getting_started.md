@@ -14,7 +14,7 @@ FreeCAD este [o aplicaţie parametrică de modelare](About_FreeCAD/ro.md) CAD/CA
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD se află încă în stadii incipiente de dezvoltare, și oferă o listă largă (și în dezvoltare) de [features](Feature_list.md). Unele capabilități lipsesc încă comparativ cu soluțiile comerciale și le puteți găsi insuficient dezvoltate pentru a le utiliza în mediul industrial. Cu toate acestea, există o comunitate de utilizatori etuziaști [community](http   *//forum.freecadweb.org/index.php) , și puteți găsi deja [many examples](https   *//forum.freecadweb.org/viewforum.php?f=24) de proiecte de calitate dezvoltate cu FreeCAD.
+FreeCAD se află încă în stadii incipiente de dezvoltare, și oferă o listă largă (și în dezvoltare) de [features](Feature_list.md). Unele capabilități lipsesc încă comparativ cu soluțiile comerciale și le puteți găsi insuficient dezvoltate pentru a le utiliza în mediul industrial. Cu toate acestea, există o comunitate de utilizatori etuziaști [community](http://forum.freecadweb.org/index.php) , și puteți găsi deja [many examples](https://forum.freecadweb.org/viewforum.php?f=24) de proiecte de calitate dezvoltate cu FreeCAD.
 
 
 </div>
@@ -27,7 +27,7 @@ Ca toate proiectele open source, proiectul FreeCAD nu este doar o modalitate de 
 
 </div>
 
-See also   *
+See also:
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   [Tutorials](Tutorials.md)
@@ -38,7 +38,7 @@ See also   *
 
 <div class="mw-translate-fuzzy">
 
-Mai întâi de toate, descărcați și instalați FreeCAD. Consultați pagina [Download](Download.md) pentru informații despre versiunile și actualizările curente și pagina [Installing](Installing.md) pentru instrucțiuni de instalare. Există pachete de instalare gata pentru Windows (.msi), Debian și Ubuntu (.deb), openSUSE (.rpm) și Mac OSX. FreeCAD este disponibil la administratorii pachetelor de la mai multe distribuții Linux. Este disponibil și un executabil standalone [AppImage](https   *//appimage.org/), care va funcționa pe cele mai recente sisteme Linux pe 64 de biți. Deoarece FreeCAD este open-source, poți descărca și codul sursă și [compila](Compiling.md) pe tine însuți.
+Mai întâi de toate, descărcați și instalați FreeCAD. Consultați pagina [Download](Download.md) pentru informații despre versiunile și actualizările curente și pagina [Installing](Installing.md) pentru instrucțiuni de instalare. Există pachete de instalare gata pentru Windows (.msi), Debian și Ubuntu (.deb), openSUSE (.rpm) și Mac OSX. FreeCAD este disponibil la administratorii pachetelor de la mai multe distribuții Linux. Este disponibil și un executabil standalone [AppImage](https://appimage.org/), care va funcționa pe cele mai recente sisteme Linux pe 64 de biți. Deoarece FreeCAD este open-source, poți descărca și codul sursă și [compila](Compiling.md) pe tine însuți.
 
 
 </div>
@@ -51,12 +51,12 @@ Mai întâi de toate, descărcați și instalați FreeCAD. Consultați pagina [D
 
 </div>
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width   *1024px;">
+<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
 
 
 </div>
@@ -90,7 +90,7 @@ Când porniți FreeCAD pentru prima dată, vi se prezintă centrul de pornire. I
 
 </div>
 
-<img alt="" src=images/Start_center_0.19_screenshot.png  style="width   *600px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -105,7 +105,7 @@ Pagina de Start vă permite să vă îndreptaţi rapid către unul atelierele ob
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD vă oferă mai multe [moduri de navigare cu mouse-ul](Mouse_Model.md) diferite, ceea ce schimbă felul în care mouse-ul Dvs. interacţionează cu obiectele reprezentate 3D şi cu însuşi felul de vizualizare. Unul dintre ele este făcut anume pentru [touchpads](Mouse_Model#Touchpad_Navigation/ro.md), unde nu se foloseşte butonul din mijloc. Următorul tabel descrie modul implicit, numit **Navigare CAD** (puteţi schimba rapid modul de navigare curent prin clic cu butonul drept pe un o porţiune goală din spaţiul 3D)   *
+FreeCAD vă oferă mai multe [moduri de navigare cu mouse-ul](Mouse_Model.md) diferite, ceea ce schimbă felul în care mouse-ul Dvs. interacţionează cu obiectele reprezentate 3D şi cu însuşi felul de vizualizare. Unul dintre ele este făcut anume pentru [touchpads](Mouse_Model#Touchpad_Navigation/ro.md), unde nu se foloseşte butonul din mijloc. Următorul tabel descrie modul implicit, numit **Navigare CAD** (puteţi schimba rapid modul de navigare curent prin clic cu butonul drept pe un o porţiune goală din spaţiul 3D):
 
 
 </div>
@@ -114,12 +114,12 @@ Exista moduri de vizualizare predefinite (de sus, din fata, etc) ce se schimba f
 
 ## Primii paşi în FreeCAD 
 
-Aplicația FreeCAD este de a vă permite să realizați modele 3D de înaltă precizie, să păstrați controlul strict al acestor modele (să reveniți la istoricul de modelare și să modificați parametrii) și să construiți aceste modele (prin imprimare 3D, prelucrare CNC sau chiar în construcții civile). Prin urmare, este foarte diferit de alte aplicații 3D realizate în alte scopuri, cum ar fi filmul de animație sau jocurile de noroc. Curba de învățare poate fi abruptă, mai ales dacă acesta este primul dvs. contact cu modelarea 3D. Dacă vă înpotmoliți într-un anumit moment, nu uitați că există o comunitate prietenoasă a utilizatorilor de pe forumul [FreeCAD](http   *//forum.freecadweb.org/index.php) care ar putea să vă aducă în cel mai scurt timp pe linia de plutire.
+Aplicația FreeCAD este de a vă permite să realizați modele 3D de înaltă precizie, să păstrați controlul strict al acestor modele (să reveniți la istoricul de modelare și să modificați parametrii) și să construiți aceste modele (prin imprimare 3D, prelucrare CNC sau chiar în construcții civile). Prin urmare, este foarte diferit de alte aplicații 3D realizate în alte scopuri, cum ar fi filmul de animație sau jocurile de noroc. Curba de învățare poate fi abruptă, mai ales dacă acesta este primul dvs. contact cu modelarea 3D. Dacă vă înpotmoliți într-un anumit moment, nu uitați că există o comunitate prietenoasă a utilizatorilor de pe forumul [FreeCAD](http://forum.freecadweb.org/index.php) care ar putea să vă aducă în cel mai scurt timp pe linia de plutire.
 
 
 <div class="mw-translate-fuzzy">
 
-Atelierul pe care îl veți utiliza în FreeCAD depinde de tipul de lucru pe care trebuie să-l faceți   * Dacă intenționați să lucrați pe modele mecanice sau, mai general, la orice obiecte la scară redusă, probabil veți dori să încercați [PartDesign Workbench](PartDesign_Workbench.md). Dacă veți lucra în 2D, atunci veți comuta pe [Draft Workbench](Draft_Workbench.md), sau pe [Sketcher Workbench](Sketcher_Workbench.md) dacă aveți nevoie de constrângeri. Dacă veți dori să faceți construcții civile, atunci lansați [Arch Workbench](Arch_Workbench.md). Dacă lucrați cu proiectarea navelor , există un atelier specializat pentru dvs [Ship Workbench](Ship_Workbench.md). Iar dacă veniți din lumea OpenSCAD, încercați atelierul [OpenSCAD Workbench](OpenSCAD_Workbench.md)..
+Atelierul pe care îl veți utiliza în FreeCAD depinde de tipul de lucru pe care trebuie să-l faceți: Dacă intenționați să lucrați pe modele mecanice sau, mai general, la orice obiecte la scară redusă, probabil veți dori să încercați [PartDesign Workbench](PartDesign_Workbench.md). Dacă veți lucra în 2D, atunci veți comuta pe [Draft Workbench](Draft_Workbench.md), sau pe [Sketcher Workbench](Sketcher_Workbench.md) dacă aveți nevoie de constrângeri. Dacă veți dori să faceți construcții civile, atunci lansați [Arch Workbench](Arch_Workbench.md). Dacă lucrați cu proiectarea navelor , există un atelier specializat pentru dvs [Ship Workbench](Ship_Workbench.md). Iar dacă veniți din lumea OpenSCAD, încercați atelierul [OpenSCAD Workbench](OpenSCAD_Workbench.md)..
 
 
 </div>
@@ -150,7 +150,7 @@ Atelierul PartDesign utilizează intens un alt atelier de lucru, [Sketcher Workb
 
 </div>
 
-Aceste forme 2D realizate cu sketcher-ul sunt folosite foarte mult în bara de lucru PartDesign, de exemplu pentru a crea volume 3D sau pentru a desena zone pe fețele obiectului dvs. care vor fi apoi scoase din volumul principal. Acesta este un flux de lucru tipic PartDesign   *
+Aceste forme 2D realizate cu sketcher-ul sunt folosite foarte mult în bara de lucru PartDesign, de exemplu pentru a crea volume 3D sau pentru a desena zone pe fețele obiectului dvs. care vor fi apoi scoase din volumul principal. Acesta este un flux de lucru tipic PartDesign:
 
 1.  Creați o schiță nouă
 2.  Desenați o formă închisă (asigurați-vă că toate punctele sunt legate)
@@ -162,9 +162,9 @@ Aceste forme 2D realizate cu sketcher-ul sunt folosite foarte mult în bara de l
 8.  Închideți schița
 9.  Creați un buzunar din a doua schiță, pe primul obiect
 
-Care vă dă un obiect ca acesta   *
+Care vă dă un obiect ca acesta:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width   *600px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 În orice moment, puteți selecta schițele originale și le puteți modifica sau puteți schimba parametrii de extrudare ai operațiilor de blocare sau buzunar, care vor actualiza obiectul final.
 
@@ -181,7 +181,7 @@ Atelierele [Draft Workbench](Draft_Workbench.md) și [Arch Workbench](Arch_Workb
 
 <div class="mw-translate-fuzzy">
 
-Atelierul [Draft Workbench](Draft_Workbench.md) vă oferă instrumente 2D cumva similare cu ceea ce puteți găsi în aplicațiile tradiționale 2D CAD cum ar fi[AutoCAD](https   *//en.wikipedia.org/wiki/AutoCAD). Totuși, desenarea 2D fiind departe de domeniul FreeCAD, nu vă așteptați să găsiți acolo o gamă completă de instrumente care oferă aceste aplicații dedicate. Majoritatea instrumentelor de proiectare funcționează nu numai într-un plan 2D, ci și în întreg spațiul 3D și beneficiază de sisteme speciale de ajutor, cum ar fi [Work planes](Draft_SelectPlane.md) și [object snapping](Draft_Snap.md).
+Atelierul [Draft Workbench](Draft_Workbench.md) vă oferă instrumente 2D cumva similare cu ceea ce puteți găsi în aplicațiile tradiționale 2D CAD cum ar fi[AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Totuși, desenarea 2D fiind departe de domeniul FreeCAD, nu vă așteptați să găsiți acolo o gamă completă de instrumente care oferă aceste aplicații dedicate. Majoritatea instrumentelor de proiectare funcționează nu numai într-un plan 2D, ci și în întreg spațiul 3D și beneficiază de sisteme speciale de ajutor, cum ar fi [Work planes](Draft_SelectPlane.md) și [object snapping](Draft_Snap.md).
 
 
 </div>
@@ -189,12 +189,12 @@ Atelierul [Draft Workbench](Draft_Workbench.md) vă oferă instrumente 2D cumva 
 
 <div class="mw-translate-fuzzy">
 
-Atelierul [Arch Workbench](Arch_Workbench/ro.md) adaugă [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, permițându-vă să construiți modele arhitecturale cu obiecte parametrice. Baza de lucru Arch se bazează extensiv pe alte module cum ar fi Draft și Sketcher. Toate instrumentele de proiectare sunt de asemenea prezente în Atelierul de lucru Arch și majoritatea instrumentelor Arch utilizează sistemele Helper desen 2D (Draft).
+Atelierul [Arch Workbench](Arch_Workbench/ro.md) adaugă [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, permițându-vă să construiți modele arhitecturale cu obiecte parametrice. Baza de lucru Arch se bazează extensiv pe alte module cum ar fi Draft și Sketcher. Toate instrumentele de proiectare sunt de asemenea prezente în Atelierul de lucru Arch și majoritatea instrumentelor Arch utilizează sistemele Helper desen 2D (Draft).
 
 
 </div>
 
-Un flux de lucru tipic cu atelierele de lucru Arch și Draft ar putea fi   *
+Un flux de lucru tipic cu atelierele de lucru Arch și Draft ar putea fi:
 
 1.  Desenați câteva linii cu ajutorul instrumentului Draft Line
 2.  Selectați fiecare linie și apăsați instrumentul Perete pentru a construi un perete pe fiecare dintre ele
@@ -204,9 +204,9 @@ Un flux de lucru tipic cu atelierele de lucru Arch și Draft ar putea fi   *
 6.  Creați o fereastră făcând clic pe instrumentul Fereastră, selectați o presetare în panoul său, apoi faceți clic pe o față a unui perete
 7.  Adăugați cotele prin setarea inițială a planului de lucru, dacă este necesar, apoi utilizând instrumentul Draft Dimension
 
-Ceea ce vă va aduce asta   *
+Ceea ce vă va aduce asta:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width   *600px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -228,10 +228,10 @@ FreeCAD, as an open source software, offers the possibility to supplement its wo
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
-There are two types of addons   *
+There are two types of addons:
 
-1.  [Macros](Macros.md)   * short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md)   * collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -254,13 +254,13 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 <div class="mw-translate-fuzzy">
 
--   [Version 0.17 Release notes](Release_notes_0.17.md)    * Verificați ce este nou în varianta 0.17 de FreeCAD
--   [Version 0.16 Release notes](Release_notes_0.16.md)    * Verificați ce este nou în varianta 0.16 de FreeCAD
--   [Version 0.15 Release notes](Release_notes_0.15.md)    * Verificați ce este nou în varianta 0.15 de FreeCAD
--   [Version 0.14 Release notes](Release_notes_0.14.md)    * Verificați ce este nou în varianta 0.14 de FreeCAD
--   [Version 0.13 Release notes](Release_notes_0.13.md)    * Verificați ce este nou în varianta 0.13 de FreeCAD
--   [Version 0.12 Release notes](Release_notes_0.12.md)    * Verificați ce este nou în varianta 0.12 de FreeCAD
--   [Version 0.11 Release notes](Release_notes_0.11.md)    * Verificați ce este nou în varianta 0.11 de FreeCAD
+-   [Version 0.17 Release notes](Release_notes_0.17.md) : Verificați ce este nou în varianta 0.17 de FreeCAD
+-   [Version 0.16 Release notes](Release_notes_0.16.md) : Verificați ce este nou în varianta 0.16 de FreeCAD
+-   [Version 0.15 Release notes](Release_notes_0.15.md) : Verificați ce este nou în varianta 0.15 de FreeCAD
+-   [Version 0.14 Release notes](Release_notes_0.14.md) : Verificați ce este nou în varianta 0.14 de FreeCAD
+-   [Version 0.13 Release notes](Release_notes_0.13.md) : Verificați ce este nou în varianta 0.13 de FreeCAD
+-   [Version 0.12 Release notes](Release_notes_0.12.md) : Verificați ce este nou în varianta 0.12 de FreeCAD
+-   [Version 0.11 Release notes](Release_notes_0.11.md) : Verificați ce este nou în varianta 0.11 de FreeCAD
 
 
 </div>
@@ -273,11 +273,6 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 
 </div>
-
-
-
-
-[Category   *User Documentation/ro](Category   *User_Documentation/ro.md)
 
 
 

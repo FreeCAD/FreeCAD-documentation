@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */it
-   Topic   *Ambiente Navale
-   Level   * Base
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/it
+   Topic:Ambiente Navale
+   Level: Base
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/it
@@ -36,7 +36,7 @@ Altre informazioni sono disponibili nella pagina [FreeCAD-Ship](Ship_Workbench/i
 
 In questo tutorial lavoreremo con i pesi e i serbatoi al fine di calcolare la curva di GZ che è il più importante parametro di stabilità idrostatica. GZ è il momento statico generato quando la nave assume un angolo di rollio (angolo di inclinazione trasversale o di sbandamento). Naturalmente, quando il braccio di stabilità GZ è positivo la nave ha un momento positivo e cerca di recuperare la posizione eretta, ma quando il braccio di stabilità GZ assume valori negativi la nave non ha più stabilità e si trova in una situazione critica.
 
-L\'Organizzazione Marittima Internazionale, IMO ha definito i seguenti criteri   *
+L\'Organizzazione Marittima Internazionale, IMO ha definito i seguenti criteri:
 
 -   *GM* \>= 0.15 m. *GM* (altezza metacentrica) è la tangente iniziale della curva di *GZ*
 -   Il massimo braccio di stabilità *GZ* deve registrarsi a un angolo di sbandamento superiore a 30°
@@ -55,7 +55,7 @@ In questo tutorial i pesi e i serbatoi della barca della serie 60 saranno distri
 
 ## Pesi della nave 
 
-Per essere in grado di calcolare la curva di GZ è necessario conoscere il peso della nave e la posizione del centro di gravità per ogni angolo di sbandamento. Per questo i pesi possono essere suddivisi in due categorie   *
+Per essere in grado di calcolare la curva di GZ è necessario conoscere il peso della nave e la posizione del centro di gravità per ogni angolo di sbandamento. Per questo i pesi possono essere suddivisi in due categorie:
 
 -   Pesi fissi che si muovono congiuntamente e solidali alla nave.
 -   Serbatoi contenenti del liquido che cambia la sua forma spostando il centro di gravità che deve essere ricalcolato per ogni angolo di rollio.
@@ -81,7 +81,7 @@ Icona dello strumento per la definizione dei pesi.
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento di definizione dei pesi può essere utilizzato per definire i pesi della prima categoria. Quando si avvia lo strumento per la prima volta (con una istanza di nave selezionata), FreeCAD-Ship inizializza i pesi della nave con Lightweight, un peso leggero, pari al dislocamento, che viene inserito nel centro di gravità della geometria della nave per la coordinata X, e all\'altezza della immersione di progetto. Di solito si hanno almeno 2 pesi rilevanti   *
+Lo strumento di definizione dei pesi può essere utilizzato per definire i pesi della prima categoria. Quando si avvia lo strumento per la prima volta (con una istanza di nave selezionata), FreeCAD-Ship inizializza i pesi della nave con Lightweight, un peso leggero, pari al dislocamento, che viene inserito nel centro di gravità della geometria della nave per la coordinata X, e all\'altezza della immersione di progetto. Di solito si hanno almeno 2 pesi rilevanti:
 
 -   Struttura.
 -   Motore (o più di uno).
@@ -92,7 +92,7 @@ Lo strumento di definizione dei pesi può essere utilizzato per definire i pesi 
 
 <div class="mw-translate-fuzzy">
 
-Fare doppio click sulla cella corrispondente per modificare il suo valore e impostare questi pesi   *
+Fare doppio click sulla cella corrispondente per modificare il suo valore e impostare questi pesi:
 
 -   Structure, 15000 kg, (-0.1, 0, 1.25) m
 -   Starboard engine, 5000 kg, (-6.5, -0.65, 0.5) m
@@ -156,7 +156,7 @@ Geometria del serbatoio generato.
 
 Per costruire il serbatoio di babordo basta selezionare la geometria di dritta e eseguire lo strumento specchio, selezionando XZ come piano di riflessione.
 
-Per convertire la geometria dei serbatoi in una forma solida usuale, and recover our **s60_IowaUniversity** geometry, caricare il [modulo Draft](Draft_Workbench/it.md), poi selezionare la geometria del serbatoio di dritta e eseguire Upgrade. Ripetere l\'operazione con la geometria del serbatoio di babordo. Si possono rinominare le geometrie con   *
+Per convertire la geometria dei serbatoi in una forma solida usuale, and recover our **s60_IowaUniversity** geometry, caricare il [modulo Draft](Draft_Workbench/it.md), poi selezionare la geometria del serbatoio di dritta e eseguire Upgrade. Ripetere l\'operazione con la geometria del serbatoio di babordo. Si possono rinominare le geometrie con:
 
 -   StarboardTankGeom
 -   PortTankGeom
@@ -239,7 +239,7 @@ Selezionare l\'istanza **Ship** e eseguire lo strumento. La prima cosa che si ve
 
 </div>
 
-Per conoscere il dislocamento della nave e l\'immersione risultante, premere **Update displacement and draft** e attendere un po\' per avere i risultati dei calcoli. Si ottengono i seguenti dati   *
+Per conoscere il dislocamento della nave e l\'immersione risultante, premere **Update displacement and draft** e attendere un po\' per avere i risultati dei calcoli. Si ottengono i seguenti dati:
 
 -   Displacement = 37505.5 kg
 -   Draft = 0.818664 m
@@ -254,7 +254,7 @@ La nave quindi si trova in una situazione di poco carico, dove l\'immersione è 
 
 Inoltre, premendo sul pulsante **Auto** lo strumento calcola automaticamente l\'assetto della nave, operazione che può richiedere circa un minuto. In questo caso la nave avrebbe un angolo di assetto di 0,95° (positivi di poppa), ma in questo esempio si lavora senza angolo di assetto (con 0°).
 
-Lo strumento richiede anche che siano considerati gli angoli di rollio. Per conoscere il comportamento della nave con qualsiasi angolo impostare i seguenti valori   *
+Lo strumento richiede anche che siano considerati gli angoli di rollio. Per conoscere il comportamento della nave con qualsiasi angolo impostare i seguenti valori:
 
 -   0 degrees starting roll angle.
 -   180 degrees ending roll angle.
@@ -268,18 +268,18 @@ Quando si preme **OK** lo strumento avvia l\'elaborazione. Se si esegue FreeCAD 
 
 </div>
 
-Questo strumento utilizza [pyxplot](http   *//www.pyxplot.org.uk/) e anche [ghostscript](http   *//www.ghostscript.com/). Si può vedere dove è stato posizionato il file di output **gz.dat** visualizzando il report (Visualizza / Vista / Visualizza report) e aprirlo con un software che disponga di un foglio di calcolo (ad esempio [LibreOffice](http   *//www.libreoffice.org)). Congiuntamente al file dei dati vengono anche creati alcuni file ausiliari   *
+Questo strumento utilizza [pyxplot](http://www.pyxplot.org.uk/) e anche [ghostscript](http://www.ghostscript.com/). Si può vedere dove è stato posizionato il file di output **gz.dat** visualizzando il report (Visualizza / Vista / Visualizza report) e aprirlo con un software che disponga di un foglio di calcolo (ad esempio [LibreOffice](http://www.libreoffice.org)). Congiuntamente al file dei dati vengono anche creati alcuni file ausiliari:
 
--   **gz.dat**   * Dati della curva GZ.
--   **gz.pyxplot**   * Formato per pyxplot che permette di tracciare la curva.
--   **gz.eps**   * Immagine in versione EPS.
--   **gz.png**   * Immagine in versione PNG.
+-   **gz.dat**: Dati della curva GZ.
+-   **gz.pyxplot**: Formato per pyxplot che permette di tracciare la curva.
+-   **gz.eps**: Immagine in versione EPS.
+-   **gz.png**: Immagine in versione PNG.
 
 Quando lo strumento viene nuovamente eseguito i file vengono sovrascritti, quindi copiarli in un altro posto se si desidera preservarli.
 
 ### Risultati
 
-<img alt="Resultant GZ curve." src=images/FreeCAD-Ship-s60GZ.png  style="width   *800px;">
+<img alt="Resultant GZ curve." src=images/FreeCAD-Ship-s60GZ.png  style="width:800px;">
 
 
 <center>
@@ -314,8 +314,6 @@ Naturalmente questo esempio non è realistico (anche perché i serbatoi del carb
 
 
 </div>
-
-[Category   *Ship](Category_Ship.md)
 
 
 

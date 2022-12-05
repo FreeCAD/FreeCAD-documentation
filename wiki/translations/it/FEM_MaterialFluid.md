@@ -1,6 +1,6 @@
 # FEM MaterialFluid/it
 ---
-- GuiCommand   */it   Name   *FEM_MaterialFluid   Name/it   *FEM Materiale per fluido   MenuLocation   * Modello → Materiali → Materiale per fluido   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it   Name:FEM_MaterialFluid   Name/it:FEM Materiale per fluido   MenuLocation: Modello → Materiali → Materiale per fluido   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -25,7 +25,7 @@ Aggiunge le proprietà del fluido ad una parte.
 
 <div class="mw-translate-fuzzy">
 
--   Cliccare su <img alt="" src=images/Fem-material-fluid.svg  style="width   *32px;"> o scegliere **Modello → Materiali → **<img src="images/Fem-material-fluid.svg" width=16px> Materiale per fluido**** dal menu.
+-   Cliccare su <img alt="" src=images/Fem-material-fluid.svg  style="width:32px;"> o scegliere **Modello → Materiali → **<img src="images/Fem-material-fluid.svg" width=16px> Materiale per fluido**** dal menu.
 -   Fai doppio clic sull\'oggetto **<img src="images/Fem-material-fluid.svg" width=16px> Materiale per fluido** creato
 
 ![](images/FEMMaterialFluidProperties.png )
@@ -35,7 +35,7 @@ Aggiunge le proprietà del fluido ad una parte.
     -   È possibile regolare le proprietà del fluido come densità, viscosità cinematica, conduttività termica, ecc. Alcuni fluidi chiave sono già assegnati nell\'elenco e non necessitano di alcuna regolazione.
     -   Se si apportano delle modifiche, si può salvare il materiale personalizzato.
 
--   Cliccare su **Chiudi** per chiudere la finestra di dialogo e creare l\'oggetto <img alt="" src=images/Fem-material-fluid.svg  style="width   *16px;"> Materiale per fluido.
+-   Cliccare su **Chiudi** per chiudere la finestra di dialogo e creare l\'oggetto <img alt="" src=images/Fem-material-fluid.svg  style="width:16px;"> Materiale per fluido.
 
 
 </div>

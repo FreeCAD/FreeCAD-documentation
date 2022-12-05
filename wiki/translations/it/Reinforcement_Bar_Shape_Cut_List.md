@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */it
-   Name   *Reinforcement_Bar_Shape_Cut_List
-   Name/it   *Sagomatura dei ferri
-   MenuLocation   *Reinforcement → Sagomatura dei ferri
-   Workbenches   *[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso   *[Disegna e dimensiona un'armatura](Arch_Rebar_Drawing_Dimensioning/it.md), [Distinta dei ferri](Arch_Rebar_BOM/it.md)
-   Version   *0.19
+- GuiCommand:/it
+   Name:Reinforcement_Bar_Shape_Cut_List
+   Name/it:Sagomatura dei ferri
+   MenuLocation:Reinforcement → Sagomatura dei ferri
+   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso:[Disegna e dimensiona un'armatura](Arch_Rebar_Drawing_Dimensioning/it.md), [Distinta dei ferri](Arch_Rebar_BOM/it.md)
+   Version:0.19
 ---
 
 # Reinforcement Bar Shape Cut List/it
@@ -20,12 +20,12 @@ Lo strumento **Sagomatura dei ferri** consente all\'utente di creare una lista p
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width   *800px;">
+<img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
 
 
@@ -53,54 +53,54 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Properties
 
-**General   ***
+**General:**
 
--    **Stirrup Extended Edge Offset**   * The offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
+-    **Stirrup Extended Edge Offset**: The offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
 
--    **Rebars Stroke Width**   * The stroke-width of rebars in the rebar shape cut list.
+-    **Rebars Stroke Width**: The stroke-width of rebars in the rebar shape cut list.
 
--    **Rebars Color Style**   * The color style of rebars.
+-    **Rebars Color Style**: The color style of rebars.
 
--    **Row Height**   * The height of each row of rebar shape in the rebar shape cut list.
+-    **Row Height**: The height of each row of rebar shape in the rebar shape cut list.
 
--    **Column Width**   * The width of each column of rebar shape in the rebar shape cut list.
+-    **Column Width**: The width of each column of rebar shape in the rebar shape cut list.
 
--    **Column Count**   * The number of columns in the rebar shape cut list.
+-    **Column Count**: The number of columns in the rebar shape cut list.
 
--    **Side Padding**   * The padding on each side of the rebar shape.
+-    **Side Padding**: The padding on each side of the rebar shape.
 
--    **Horizontal Rebar Shape**   * If True, then the rebar shape will be made horizontal by rotating the max length edge of the rebar shape.
+-    **Horizontal Rebar Shape**: If True, then the rebar shape will be made horizontal by rotating the max length edge of the rebar shape.
 
--    **Include Mark**   * If it is set to True, then rebar.Mark will be included for each rebar shape in the rebar shape cut list.
+-    **Include Mark**: If it is set to True, then rebar.Mark will be included for each rebar shape in the rebar shape cut list.
 
--    **SVG Output File**   * The output file to write generated rebar shape cut list SVG.
+-    **SVG Output File**: The output file to write generated rebar shape cut list SVG.
 
-**Dimension Data   ***
+**Dimension Data:**
 
--    **Include Dimensions**   * If True, then each rebar edge dimensions and bent angle dimensions will be included in the rebar shape cut list.
+-    **Include Dimensions**: If True, then each rebar edge dimensions and bent angle dimensions will be included in the rebar shape cut list.
 
--    **Include Units in Dimension Label**   * If it is True, then rebar edge length units will be shown in dimension label.
+-    **Include Units in Dimension Label**: If it is True, then rebar edge length units will be shown in dimension label.
 
--    **Rebar Edge Dimension Units**   * The units to be used for rebar edge length dimensions.
+-    **Rebar Edge Dimension Units**: The units to be used for rebar edge length dimensions.
 
--    **Rebar Edge Dimension Precision**   * The number of decimals that should be shown for rebar edge length as a dimension label.
+-    **Rebar Edge Dimension Precision**: The number of decimals that should be shown for rebar edge length as a dimension label.
 
--    **Dimension Font Family**   * The font-family of dimension text.
+-    **Dimension Font Family**: The font-family of dimension text.
 
--    **Dimension Font Size**   * The font-size of dimension text.
+-    **Dimension Font Size**: The font-size of dimension text.
 
--    **Bent Angle Dimension Exclude List**   * The list of bent angles to not include their dimensions.
+-    **Bent Angle Dimension Exclude List**: The list of bent angles to not include their dimensions.
 
--    **Helical Rebar Dimension Label Format**   * The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
+-    **Helical Rebar Dimension Label Format**: The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
 
 ## Scripting
 
 
-**See also   ***
+**See also:**
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
+The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
 ### Create Rebar Shape SVG 
 
@@ -108,24 +108,24 @@ The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool can be used
 ```python
 getRebarShapeSVG(
     rebar,
-    view_direction   * Union[FreeCAD.Vector, WorkingPlane.Plane] = FreeCAD.Vector(0, 0, 0),
-    include_mark   * bool = True,
-    stirrup_extended_edge_offset   * float = 2,
-    rebar_stroke_width   * float = 0.35,
-    rebar_color_style   * str = "shape color",
-    include_dimensions   * bool = True,
-    rebar_dimension_units   * str = "mm",
-    rebar_length_dimension_precision   * int = 0,
-    include_units_in_dimension_label   * bool = False,
-    bent_angle_dimension_exclude_list   * Tuple[float, ...] = (45, 90, 180),
-    dimension_font_family   * str = "DejaVu Sans",
-    dimension_font_size   * float = 2,
-    helical_rebar_dimension_label_format   * str = "%L,r=%R,pitch=%P",
-    scale   * float = 1,
-    max_height   * float = 0,
-    max_width   * float = 0,
-    side_padding   * float = 1,
-    horizontal_shape   * bool = False,
+    view_direction: Union[FreeCAD.Vector, WorkingPlane.Plane] = FreeCAD.Vector(0, 0, 0),
+    include_mark: bool = True,
+    stirrup_extended_edge_offset: float = 2,
+    rebar_stroke_width: float = 0.35,
+    rebar_color_style: str = "shape color",
+    include_dimensions: bool = True,
+    rebar_dimension_units: str = "mm",
+    rebar_length_dimension_precision: int = 0,
+    include_units_in_dimension_label: bool = False,
+    bent_angle_dimension_exclude_list: Tuple[float, ...] = (45, 90, 180),
+    dimension_font_family: str = "DejaVu Sans",
+    dimension_font_size: float = 2,
+    helical_rebar_dimension_label_format: str = "%L,r=%R,pitch=%P",
+    scale: float = 1,
+    max_height: float = 0,
+    max_width: float = 0,
+    side_padding: float = 1,
+    horizontal_shape: bool = False,
 ) -> ElementTree.Element
 ```
 
@@ -157,7 +157,7 @@ getRebarShapeSVG(
 
 -    `dimension_font_size`specifies the font-size of dimension text.
 
--    `helical_rebar_dimension_label_format`specifies the format of helical rebar dimension label. E.g. \"%L,r=%R,pitch=%P\" where   *
+-    `helical_rebar_dimension_label_format`specifies the format of helical rebar dimension label. E.g. \"%L,r=%R,pitch=%P\" where:
 
    %L -> Length of helical rebar
    %R -> Helix radius of helical rebar
@@ -216,7 +216,7 @@ rebar_shape_svg = RebarShapeCutListfunc.getRebarShapeSVG(
 )
 
 output_file = str(Path.home() / "StirrupRebarShape.svg")
-with open(output_file, "w", encoding="utf-8") as f   *
+with open(output_file, "w", encoding="utf-8") as f:
     f.write(
         minidom.parseString(
             ElementTree.tostring(rebar_shape_svg, encoding="unicode")
@@ -230,33 +230,33 @@ with open(output_file, "w", encoding="utf-8") as f   *
 
 ```python
 getRebarShapeCutList(
-    base_rebars_list   * Optional[List] = None,
-    view_directions   * Union[
+    base_rebars_list: Optional[List] = None,
+    view_directions: Union[
         Union[FreeCAD.Vector, WorkingPlane.Plane],
         List[Union[FreeCAD.Vector, WorkingPlane.Plane]],
     ] = FreeCAD.Vector(0, 0, 0),
-    include_mark   * bool = True,
-    stirrup_extended_edge_offset   * float = 2,
-    rebars_stroke_width   * float = 0.35,
-    rebars_color_style   * str = "shape color",
-    include_dimensions   * bool = True,
-    rebar_edge_dimension_units   * str = "mm",
-    rebar_edge_dimension_precision   * int = 0,
-    include_units_in_dimension_label   * bool = False,
-    bent_angle_dimension_exclude_list   * Union[Tuple[float, ...], List[float]] = (
+    include_mark: bool = True,
+    stirrup_extended_edge_offset: float = 2,
+    rebars_stroke_width: float = 0.35,
+    rebars_color_style: str = "shape color",
+    include_dimensions: bool = True,
+    rebar_edge_dimension_units: str = "mm",
+    rebar_edge_dimension_precision: int = 0,
+    include_units_in_dimension_label: bool = False,
+    bent_angle_dimension_exclude_list: Union[Tuple[float, ...], List[float]] = (
         45,
         90,
         180,
     ),
-    dimension_font_family   * str = "DejaVu Sans",
-    dimension_font_size   * float = 2,
-    helical_rebar_dimension_label_format   * str = "%L,r=%R,pitch=%P",
-    row_height   * float = 40,
-    column_width   * float = 60,
-    column_count   * Union[int, Literal["row_count"]] = "row_count",
-    side_padding   * float = 1,
-    horizontal_rebar_shape   * bool = True,
-    output_file   * Optional[str] = None,
+    dimension_font_family: str = "DejaVu Sans",
+    dimension_font_size: float = 2,
+    helical_rebar_dimension_label_format: str = "%L,r=%R,pitch=%P",
+    row_height: float = 40,
+    column_width: float = 60,
+    column_count: Union[int, Literal["row_count"]] = "row_count",
+    side_padding: float = 1,
+    horizontal_rebar_shape: bool = True,
+    output_file: Optional[str] = None,
 ) -> ElementTree.Element
 ```
 
@@ -288,7 +288,7 @@ getRebarShapeCutList(
 
 -    `dimension_font_size`specifies the font-size of dimension text.
 
--    `helical_rebar_dimension_label_format`specifies the format of helical rebar dimension label. E.g. \"%L,r=%R,pitch=%P\" where   *
+-    `helical_rebar_dimension_label_format`specifies the format of helical rebar dimension label. E.g. \"%L,r=%R,pitch=%P\" where:
 
    %L -> Length of helical rebar
    %R -> Helix radius of helical rebar
@@ -350,7 +350,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 ).rebar_group
 
 # Assign Mark to straight rebars
-for straight_rebar in rebar_group.RebarGroups[1].MainRebars   *
+for straight_rebar in rebar_group.RebarGroups[1].MainRebars:
     straight_rebar.Mark = "main_sb"
 
 
@@ -379,7 +379,7 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
 ).rebar_group
 
 # Assign Mark to lshape rebars
-for lshape_rebar in rebar_group.RebarGroups[1].MainRebars   *
+for lshape_rebar in rebar_group.RebarGroups[1].MainRebars:
     lshape_rebar.Mark = "main_lb"
 
 output_file = str(Path.home() / "RebarShapeCutList.svg")
@@ -417,8 +417,6 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 
 
 </div>
-
-[Category   *External Command Reference](Category_External_Command_Reference.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

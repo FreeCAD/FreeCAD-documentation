@@ -7,7 +7,7 @@
 |Version=00.02
 |Date=2019-07-25
 |FCVersion=Tous
-|Download=[https   *//www.freecadweb.org/wiki/images/9/94/Macro_ExpandTreeItem.svg Icône de la barre d'outils]
+|Download=[https://www.freecadweb.org/wiki/images/9/94/Macro_ExpandTreeItem.svg Icône de la barre d'outils]
 }}
 
 ## Description
@@ -32,7 +32,7 @@ L\'icone pour votre barre d\'outils .PNG ![](images/Macro_ExpandTreeItem.png ) e
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 #
 # Expands selected tree and all sub trees in the tree view.
 # if selected tree is already expanded this tree and all sub trees are collapsed True/False
@@ -48,38 +48,38 @@ from PySide import QtGui ,QtCore
 from PySide.QtGui import *
 from PySide.QtCore import *
 
-def toggleAll(tree, item, collapse)   *
-    if collapse == False   *
+def toggleAll(tree, item, collapse):
+    if collapse == False:
         tree.expandItem(item)
-    elif collapse == True   *  
+    elif collapse == True:  
         tree.collapseItem(item)
 
-    for i in range(item.childCount())   *
+    for i in range(item.childCount()):
         toggleAll(tree, item.child(i), collapse)
 
 mw = Gui.getMainWindow()
 trees = mw.findChildren(QtGui.QTreeWidget)
 
-for tree in trees   *
+for tree in trees:
     items = tree.selectedItems()
 
-    try   *
-        if items == []   *
+    try:
+        if items == []:
             #tree.selectAll()                          # select all object
-            for obj in FreeCAD.ActiveDocument.Objects   * # select obj.OutList
-                if len(obj.OutList) != 0   *
+            for obj in FreeCAD.ActiveDocument.Objects: # select obj.OutList
+                if len(obj.OutList) != 0:
                     Gui.Selection.addSelection(obj)
                     items = tree.selectedItems()
-            for item in items   *
+            for item in items:
                 toggleAll(tree, item, False)
-    except Exception   *
+    except Exception:
         None
 
-    for item in items   *
-            if item.isExpanded() == True   *
+    for item in items:
+            if item.isExpanded() == True:
                 toggleAll(tree, item, True)
         #            print ("collapsing")
-            else   *
+            else:
                 toggleAll(tree, item, False)
         #            print ("expanding")
 
@@ -87,7 +87,7 @@ for tree in trees   *
 
 ## Lien
 
-[Objektbaum mit einem Klick komplett aufklappen?](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=29406)
+[Objektbaum mit einem Klick komplett aufklappen?](https://forum.freecadweb.org/viewtopic.php?f=13&t=29406)
 
 
 

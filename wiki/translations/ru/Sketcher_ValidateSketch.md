@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */ru
-   Name/ru   *Проверить эскиз
-   Name   *Sketcher_ValidateSketch
-   MenuLocation   *Sketch → Проверить эскиз
-   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso   *[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
+- GuiCommand:/ru
+   Name/ru:Проверить эскиз
+   Name:Sketcher_ValidateSketch
+   MenuLocation:Sketch → Проверить эскиз
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
 ---
 
 # Sketcher ValidateSketch/ru
@@ -32,10 +32,10 @@
 
 1.  Выберите эскиз для проверки, либо в [дереве модели](Tree_view/ru.md), либо щелкнув по одному из его ребер в [3D-виде](3D_view/ru.md).
 
-       *   **Примечание   *** эскиз не должен быть в режиме редактирования. Если вы находитесь в режиме редактирования эскиза, вам нужно использовать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Покинуть эскиз](Sketcher_LeaveSketch/ru.md)**, или кнопку **Close** наверху панели задач.
-2.  Откройте утилиту проверки эскиза либо   *
+    :   **Примечание:** эскиз не должен быть в режиме редактирования. Если вы находитесь в режиме редактирования эскиза, вам нужно использовать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Покинуть эскиз](Sketcher_LeaveSketch/ru.md)**, или кнопку **Close** наверху панели задач.
+2.  Откройте утилиту проверки эскиза либо:
     -   из ниспадающего меню **Sketch → Проверить набросок**
-    -   нажав кнопку <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *24px;"> в <img alt="Sketcher_Workbench" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [верстаке Sketcher](Sketcher_Workbench/ru.md).
+    -   нажав кнопку <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> в <img alt="Sketcher_Workbench" src=images/Workbench_Sketcher.svg  style="width:16px;"> [верстаке Sketcher](Sketcher_Workbench/ru.md).
 3.  Ознакомьтесь с [Параметрами](#Options/ru.md) для работы, ниже.
 4.  Нажмите кнопку **Закрыть** когда закончите.
 
@@ -72,7 +72,7 @@ Degenerated geometry can result from solver actions in a sketch.
 
 For instance, if a line is forced to shorten to become almost a point.
 
-Other examples   * a zero length line or zero radius circle/arc.
+Other examples: a zero length line or zero radius circle/arc.
 
 ### Перевернутая внешняя геометрия 
 

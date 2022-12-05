@@ -45,17 +45,17 @@ FreeCAD может быть запущен, как правило, двойны�
 
 ### Параметры командной строки 
 
-Параметры командной строки часто меняются. Следовательно, будет отличной идей проверить текущие опции, введя   *
+Параметры командной строки часто меняются. Следовательно, будет отличной идей проверить текущие опции, введя:
 
 FreeCAD --help
 
-Из появившегося ответа вы можете прочесть назначение параметров   *
+Из появившегося ответа вы можете прочесть назначение параметров:
 
- Usage   * FreeCAD [options] File1 File2 ...
+ Usage: FreeCAD [options] File1 File2 ...
  
- Allowed options   *
+ Allowed options:
  
- Generic options   *
+ Generic options:
    -v [ --version ]          Prints version string
    -h [ --help ]             Prints help message
    -c [ --console ]          Starts in console mode
@@ -63,8 +63,8 @@ FreeCAD --help
    --dump-config             Dumps configuration
    --get-config arg          Prints the value of the requested configuration key
  
- Configuration   *
-   -l [ --write-log ]        Writes a log file to   *
+ Configuration:
+   -l [ --write-log ]        Writes a log file to:
                              /home/username/.FreeCAD/FreeCAD.log
    --log-file arg            Unlike --write-log this allows logging to an 
                              arbitrary file
@@ -75,7 +75,7 @@ FreeCAD --help
    -P [ --python-path ] arg  Additional python paths
    --single-instance         Allow to run a single instance of the application
 
-In the following table, selected options are described in more detail   *
+In the following table, selected options are described in more detail:
 
 ++++
 | Long option                               | Corresponding [config var name](#Configuration_set.md) | Synopsis                                                                                                                                                                                                                                                         |
@@ -93,27 +93,27 @@ In the following table, selected options are described in more detail   *
 |                                        |                                                                |                                                                                                                                                                                                                                                                  |
 ++++
 
-Options can written in two forms   * `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
+Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
 ### Файлы конфигурации и ответов(response) 
 
 FreeCAD может считать некоторые параметры из конфигурационного файла. Этот файл должен находится в пути bin и должен называться **FreeCAD.cfg**. Помните, у параметров командной строки приоритет над конфигурационным файлом!
 
-Некоторые операционные системы имеют очень лимитированную по символам командную строку. Чтобы обойти это ограничение используют обычно файлы ответов. Файл ответов - это просто конфигурационный файл, который использует синтаксис командной строки. Если в командной строке указан файл ответов, он загружается и обрабатывается как дополнение к командной строке   *
+Некоторые операционные системы имеют очень лимитированную по символам командную строку. Чтобы обойти это ограничение используют обычно файлы ответов. Файл ответов - это просто конфигурационный файл, который использует синтаксис командной строки. Если в командной строке указан файл ответов, он загружается и обрабатывается как дополнение к командной строке:
 
     FreeCAD @ResponseFile.txt 
 
-или   *
+или:
 
     FreeCAD --response-file=ResponseFile.txt
 
-или   *
+или:
 
     FreeCAD --response-file ResponseFile.txt
 
 ### Скрытые опции 
 
-Существует несколько параметров не видных пользователю. Эти параметры такие как X-Window параметры, анализируются оконной системой   *
+Существует несколько параметров не видных пользователю. Эти параметры такие как X-Window параметры, анализируются оконной системой:
 
 -   -display display, устанавливает значение X дисплея (по умолчанию это \$DISPLAY).
 -   -geometry geometry, устанавливает клиент геометрии первое окно что отображается.
@@ -124,7 +124,7 @@ FreeCAD может считать некоторые параметры из к�
 -   -name name, устанавливает имя приложения.
 -   -title title, устанавливает заголовок приложения.
 -   -visual TrueColor, заставляет приложение использовать TrueColor визуальное отображение на 8-битном дисплее.
--   -ncols count, граничивает число цветов выделенных в цветовой куб на 8-битном дисплее, если приложение использует QApplication   *   *ManyColor цветовую спецификацию. Если количество 216 то используется цветовой куб 6x6x6 (т.е. 6 уровней красного, 6 зеленого, и 6 синего); для остальных значений, используется куб пропорциональный 2x3x1.
+-   -ncols count, граничивает число цветов выделенных в цветовой куб на 8-битном дисплее, если приложение использует QApplication::ManyColor цветовую спецификацию. Если количество 216 то используется цветовой куб 6x6x6 (т.е. 6 уровней красного, 6 зеленого, и 6 синего); для остальных значений, используется куб пропорциональный 2x3x1.
 -   -cmap, вызывает приложение для установки вашей карты цветов на 8-битном дисплее.
 
 
@@ -138,7 +138,7 @@ FreeCAD может считать некоторые параметры из к�
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD обычно компилируется в два исполняемых файла   * с графическим интерфейсом, **FreeCAD**, и только с командной строкой, **FreeCADCmd**. FreeCAD может запускаться в консольном режиме с помощью ключа \"-c\", для **FreeCADCmd** это поведение по умолчанию   *
+FreeCAD обычно компилируется в два исполняемых файла: с графическим интерфейсом, **FreeCAD**, и только с командной строкой, **FreeCADCmd**. FreeCAD может запускаться в консольном режиме с помощью ключа \"-c\", для **FreeCADCmd** это поведение по умолчанию:
 
 
 </div>
@@ -170,7 +170,7 @@ To read more about console or headless mode, refer to [Headless FreeCAD](Headles
 | Выполнить файл                                                       | Система               | Конфигурация командной строки                                                                                                                       |
 +======================================================================+=======================+=====================================================================================================================================================+
 | Module, cfg                                                          | Windows               |                                                                                                                                      |
-|                                                                      |                       | **"C   *Program Files\FreeCAD\bin\FreeCAD.exe" -M "C   *FreeCAD\Mod\Draft" -u "C   *FreeCAD\Config\user.cfg" -s "C   *FreeCAD\Config\system.cfg"** |
+|                                                                      |                       | **"C:\Program Files\FreeCAD\bin\FreeCAD.exe" -M "C:\FreeCAD\Mod\Draft" -u "C:\FreeCAD\Config\user.cfg" -s "C:\FreeCAD\Config\system.cfg"** |
 |                                                                      |                       |                                                                                                                                                  |
 ++++
 |                                                                      | Linux                 |                                                                                                                                      |
@@ -180,7 +180,7 @@ To read more about console or headless mode, refer to [Headless FreeCAD](Headles
 |                                                                      |                       |                                                                                                                                                     |
 ++++
 | .FCMacro or .py                                                      | Windows               |                                                                                                                                      |
-|                                                                      |                       | **"C   *Program Files\FreeCAD\bin\FreeCAD.exe" "C   *Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"**                |
+|                                                                      |                       | **"C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"**                |
 |                                                                      |                       |                                                                                                                                                  |
 ++++
 |                                                                      | Linux                 |                                                                                                                                      |
@@ -190,7 +190,7 @@ To read more about console or headless mode, refer to [Headless FreeCAD](Headles
 | Как установить макрос для автоматического запуска при старте FreeCAD | Windows / Linux / Mac | Смотри как установить макрос для автоматического запуская во время старта FreeCAD, на странице [Макрос при старте](Macro_at_Startup/ru.md). |
 ++++
 
-   * Конфигурация командной строки для выполнения файла
+: Конфигурация командной строки для выполнения файла
 
 
 </div>
@@ -199,7 +199,7 @@ See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automati
 
 ## Переменные Среды Окружения 
 
-FreeCAD supports the following environment variables, which can be used to configure directories   * <small>(v0.19)</small> 
+FreeCAD supports the following environment variables, which can be used to configure directories: <small>(v0.19)</small> 
 
 ++++
 | Environment variable         | Corresponding [config var name](#Configuration_set.md) | Synopsis                                                                                                                                    |
@@ -229,7 +229,7 @@ FreeCad itself does not honor the `HOME` environmental variable (because it dete
 
 ### `TMPDIR` 
 
-The default temporary directory is **/tmp/**. The `TMPDIR` environmental variable can be used to override the default. (*Editor   * precedence?*).
+The default temporary directory is **/tmp/**. The `TMPDIR` environmental variable can be used to override the default. (*Editor: precedence?*).
 
 ### Libraries
 
@@ -288,44 +288,44 @@ The default temporary directory is **/tmp/**. The `TMPDIR` environmental variabl
 | Имя конф. переменной | Краткий обзор                                              | Пример для M\$                                                             | Пример для Posix (Linux)                                       |
 +======================+============================================================+============================================================================+================================================================+
 | UserAppData          | Путь где FreeCAD хранит пользовательские данные программы. |                                                             |                                                 |
-|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                           |
+|                      |                                                            | **C:\Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                           |
 |                      |                                                            |                                                                         |                                                             |
 |                      |                                                            |                                                                  |                                                      |
 |                      |                                                            | <hr />                                                                     | <hr />                                                         |
 |                      |                                                            |                                                                         |                                                             |
-|                      |                                                            | *Short path    ****%APPDATA%\FreeCAD**                 | *Short path    ****~/.FreeCAD**            |
+|                      |                                                            | *Short path :***%APPDATA%\FreeCAD**                 | *Short path :***~/.FreeCAD**            |
 +++++
 | UserParameter        | Файл где FreeCAD хранит пользовательские данные программы. |                                                             |                                                 |
-|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.FreeCAD/user.cfg**                  |
+|                      |                                                            | **C:\Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.FreeCAD/user.cfg**                  |
 |                      |                                                            |                                                                         |                                                             |
 |                      |                                                            |                                                                  |                                                      |
 |                      |                                                            | <hr />                                                                     | <hr />                                                         |
 |                      |                                                            |                                                                         |                                                             |
-|                      |                                                            | *Short path    ****%APPDATA%\FreeCAD\user.cfg**        | *Short path    ****~/.FreeCAD/user.cfg**   |
+|                      |                                                            | *Short path :***%APPDATA%\FreeCAD\user.cfg**        | *Short path :***~/.FreeCAD/user.cfg**   |
 +++++
 | SystemParameter      | Файл где FreeCAD хранит данные программы.                  |                                                             |                                                 |
-|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.FreeCAD/system.cfg**                |
+|                      |                                                            | **C:\Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.FreeCAD/system.cfg**                |
 |                      |                                                            |                                                                         |                                                             |
 |                      |                                                            |                                                                  |                                                      |
 |                      |                                                            | <hr />                                                                     | <hr />                                                         |
 |                      |                                                            |                                                                         |                                                             |
-|                      |                                                            | *Short path    ****%APPDATA%\FreeCAD\system.cfg**      | *Short path    ****~/.FreeCAD/system.cfg** |
+|                      |                                                            | *Short path :***%APPDATA%\FreeCAD\system.cfg**      | *Short path :***~/.FreeCAD/system.cfg** |
 +++++
 | UserHomePath         | Домашняя папка текущего пользователя.                      |                                                             |                                                 |
-|                      |                                                            | **C   *Documents and Settings\username**                            | **/home/username**                                    |
+|                      |                                                            | **C:\Documents and Settings\username**                            | **/home/username**                                    |
 |                      |                                                            |                                                                         |                                                             |
 |                      |                                                            |                                                                  |                                                      |
 |                      |                                                            | <hr />                                                                     | <hr />                                                         |
 |                      |                                                            |                                                                         |                                                             |
-|                      |                                                            | *Short path    ****%USERPROFILE%**                     | *Short path    ****~**                     |
+|                      |                                                            | *Short path :***%USERPROFILE%**                     | *Short path :***~**                     |
 +++++
 
-   * Записи пользовательской конфигурации
+: Записи пользовательской конфигурации
 
 
 </div>
 
-Note   * For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
+Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path **/home/username/.config/FreeCAD/FreeCAD.conf**.
 
 ### Аргументы командной строки 
 
@@ -338,7 +338,7 @@ Note   * For Linux distributions, an additional configuration file that relates 
 | LoggingFile           | 1 если ведение журнала включено                                                                                                                                                                                                                                                                                       | 1                                                                           |
 ++++
 | LoggingFileName       | Имя файла куда помещен журнал                                                                                                                                                                                                                                                                                         |                                                              |
-|                       |                                                                                                                                                                                                                                                                                                                       | **C   *Documents and Settings\username\AppData\FreeCAD\FreeCAD.log** |
+|                       |                                                                                                                                                                                                                                                                                                                       | **C:\Documents and Settings\username\AppData\FreeCAD\FreeCAD.log** |
 |                       |                                                                                                                                                                                                                                                                                                                       |                                                                          |
 ++++
 | RunMode               | Это показывает, как будет работать основной цикл. **\"Script\"** означает что данный сценарий вызывается, а затем выходит. **\"Cmd\"** запускает командную строку интепритатора. **\"Internal\"** запускает внутренний сценарий. **\"Gui\"** входит в цикл Gui событий. **\"Module\"** загружается как python модуль. | \"Cmd\"                                                                     |
@@ -354,7 +354,7 @@ Note   * For Linux distributions, an additional configuration file that relates 
 | AdditionalModulePaths | Содержит дополнительные Пути к модулям заданных в командной строке                                                                                                                                                                                                                                                    | \"extraModules/\"                                                           |
 ++++
 
-   * Записи пользовательской конфигурации
+: Записи пользовательской конфигурации
 
 
 </div>
@@ -368,13 +368,13 @@ Note   * For Linux distributions, an additional configuration file that relates 
 | Имя конф. переменной | Краткий обзор                                                                                                         | Пример для M\$                           | Пример для Posix (Linux)             |
 +======================+=======================================================================================================================+==========================================+======================================+
 | AppHomePath          | Путь куда установлен FreeCAD                                                                                          |                           |                       |
-|                      |                                                                                                                       | **c   */Progam Files/FreeCAD_0.7** | **/user/local/FreeCAD_0.7** |
+|                      |                                                                                                                       | **c:/Progam Files/FreeCAD_0.7** | **/user/local/FreeCAD_0.7** |
 |                      |                                                                                                                       |                                       |                                   |
 +++++
 | PythonSearchPath     | Содержит список путей для поиска модулей python. Начальная конфигурация может изменятся во время выполнения программы |                                          |                                      |
 +++++
 
-   * Записи пользовательской конфигурации
+: Записи пользовательской конфигурации
 
 
 </div>
@@ -392,12 +392,12 @@ Note   * For Linux distributions, an additional configuration file that relates 
   BuildVersionMinor      Малый номер версии Сборки. Задан в **src/Build/Version.h.in**      7
   BuildRevision          Номер ревизии исходных кодов в хранилище SVN в Build. Генерируется SVN                    356
   BuildRevisionRange     Диапазон различных изменений                                                              123-356
-  BuildRepositoryURL     URL Хранилища                                                                             <https   *//free-cad.svn.sourceforge.net/svnroot/free-cad/trunk/src>
-  BuildRevisionDate      Дата упомянутой ревизии                                                                   2007/02/03 22   *21   *18
+  BuildRepositoryURL     URL Хранилища                                                                             <https://free-cad.svn.sourceforge.net/svnroot/free-cad/trunk/src>
+  BuildRevisionDate      Дата упомянутой ревизии                                                                   2007/02/03 22:21:18
   BuildScrClean          Показывает, были ли исходные коды изменены после синхронизации                            Src modified
   BuildScrMixed                                                                                                    Src not mixed
 
-     * Записи пользовательской конфигурации
+  : Записи пользовательской конфигурации
 
 
 </div>
@@ -433,7 +433,7 @@ Note   * For Linux distributions, an additional configuration file that relates 
 | HiddenDockWindow     | Список панелей (разделенный запятой), которые будут отключены                                                                         | \"Property editor\"      |
 ++++
 
-   * Записи пользовательской конфигурации
+: Записи пользовательской конфигурации
 
 
 </div>
@@ -442,7 +442,7 @@ Note   * For Linux distributions, an additional configuration file that relates 
 
 **From FreeCAD\'s Python console**
 
-Entries of the configuration set can be queried with the **config var name** (see tables above) from the [Python console](Python_console.md). For example   *
+Entries of the configuration set can be queried with the **config var name** (see tables above) from the [Python console](Python_console.md). For example:
 
  >>> FreeCAD.ConfigGet("ExeVersion")
  '0.19'
@@ -451,7 +451,7 @@ If the name is not found, an empty string is returned.
 
 **Из командной строки**
 
-Use the `--get-config <config-var-name>` option to query a single name. Not all names are supported. For example   *
+Use the `--get-config <config-var-name>` option to query a single name. Not all names are supported. For example:
 
  FreeCAD --get-config ExeVersion
 
@@ -459,7 +459,7 @@ Use the `--dump-config` option to get a list of names and their values. Not all 
 
 **Из консоли FreeCAD**
 
-Start FreeCAD in console mode with `--console` and query with Python code. For example   *
+Start FreeCAD in console mode with `--console` and query with Python code. For example:
 
  $ FreeCAD --console
  [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
@@ -467,19 +467,19 @@ Start FreeCAD in console mode with `--console` and query with Python code. For e
  '0.19'
  >>> exit()
 
-For Linux (bash shell) you can modify the following command line to suit your needs   *
+For Linux (bash shell) you can modify the following command line to suit your needs:
 
  $ FreeCAD --console <<EOF
- print( "FREECAD_USER_HOME   * " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
- print( "UserHomePath   * " + FreeCAD.ConfigGet("UserHomePath") )
+ print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
+ print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
  exit()
  EOF
 
 ## Starting FreeCAD from the desktop 
 
-### Linux   * Creating an additional start option 
+### Linux: Creating an additional start option 
 
-The following assumes that your desktop is configured such that you can launch FreeCAD from it. Depending on your Linux distribution and desktop environment, you may have to adapt the following steps   *
+The following assumes that your desktop is configured such that you can launch FreeCAD from it. Depending on your Linux distribution and desktop environment, you may have to adapt the following steps:
 
 1.  Copy the freedesktop entry file for FreeCAD from **/usr/share/applications/freecad.desktop** to **~/.local/share/applications**.
 2.  Change the name from **freecad.desktop** to something else (e.g. **MyFreeCADConfig.desktop**).
@@ -493,7 +493,7 @@ The following assumes that your desktop is configured such that you can launch F
 
 **Windows**
 
-Put the FreeCAD executable, **FreeCAD.exe**, on the USB medium. Create a batch file, **FreeCAD.bat**, and put it into the same directory as **FreeCAD.exe**. Inside the batch file write   *
+Put the FreeCAD executable, **FreeCAD.exe**, on the USB medium. Create a batch file, **FreeCAD.bat**, and put it into the same directory as **FreeCAD.exe**. Inside the batch file write:
 
 
 ```python
@@ -502,7 +502,7 @@ set FREECAD_USER_HOME=%CURRENTDIR%
 start FreeCAD.exe -u FreeCAD/user.cfg -s FreeCAD/system.cfg --write-log 
 ```
 
-Or with `FREECAD_USER_DATA` ([see](https   *//forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759))   *
+Or with `FREECAD_USER_DATA` ([see](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759)):
 
 
 ```python
@@ -510,7 +510,7 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
-With the batch in the root of the USB medium   *
+With the batch in the root of the USB medium:
 
 
 ```python
@@ -519,7 +519,7 @@ set FREECAD_USER_DATA=%CURRENTDIR%FreeCAD\
 start %cd%FreeCAD\bin\FreeCAD.exe -u %FREECAD_USER_DATA%user.cfg -s %FREECAD_USER_DATA%system.cfg
 ```
 
-Now double-click the batch file to start FreeCAD. ([see](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=49028))
+Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))
 
 
 <div class="mw-translate-fuzzy">
@@ -529,11 +529,6 @@ Now double-click the batch file to start FreeCAD. ([see](https   *//forum.freeca
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

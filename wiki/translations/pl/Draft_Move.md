@@ -1,43 +1,43 @@
 ---
-- GuiCommand   */pl
-   Name/pl   *Draft   * Move
-   Name   *Draft Move
-   MenuLocation   *Modyfikacja → Przesuń
-   Workbenches   *[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut   ***M** **V**
-   Version   *0.7
-   SeeAlso   *[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
+- GuiCommand:/pl
+   Name/pl:Draft: Move
+   Name:Draft Move
+   MenuLocation:Modyfikacja → Przesuń
+   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut:**M** **V**
+   Version:0.7
+   SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
 ---
 
 # Draft Move/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **Draft   * Przesuń** - przesuwa lub kopiuje wybrane obiekty z jednego punktu do drugiego. W trybie elementu podrzędnego polecenie przesuwa wybrane punkty i krawędzie, lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
+Polecenie <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft: Przesuń** - przesuwa lub kopiuje wybrane obiekty z jednego punktu do drugiego. W trybie elementu podrzędnego polecenie przesuwa wybrane punkty i krawędzie, lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
 
 Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
-<img alt="" src=images/Draft_Move_example.jpg  style="width   *400px;"> 
+<img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
 *Przemieszczanie obiektu z jednego punktu do innego*
 
 ## Użycie
 
-Zobacz także strony   * [Rysunek Roboczy   * Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy   * Wiązania](Draft_Constrain/pl.md).
+Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych typu [linia](Draft_Line/pl.md) lub [polilinia](Draft_Wire/pl.md).
-2.  Istnieje kilka sposobów na wywołanie polecenia   *
+2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Move.svg" width=16px> [Przesuń](Draft_Move/pl.md)**.
     -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Move.svg" width=16px> Przesuń**.
-    -   Użyj skrótu klawiaturowego   * **M**, a następnie **V**.
-3.  Jeśli nie zaznaczyłeś jeszcze żadnego obiektu   * wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego: **M**, a następnie **V**.
+3.  Jeśli nie zaznaczyłeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otworzy się panel zadań **Przesuń**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
-5.  Jeśli zostały wybrane elementy podrzędne   * zaznacz pole wyboru **Modyfikuj elementy podrzędne**, aby włączyć tryb elementów podrzędnych.
+5.  Jeśli zostały wybrane elementy podrzędne: zaznacz pole wyboru **Modyfikuj elementy podrzędne**, aby włączyć tryb elementów podrzędnych.
 6.  Wybierz pierwszy punkt, punkt bazowy, w oknie widoku [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 7.  Wybierz drugi punkt, punkt docelowy, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
 
 ## Opcje
 
-Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
+Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
 -   Aby użyć współrzędnych biegunowych, wprowadź wartość dla **Długość** i wartość w polu **Kąt**, a następnie naciśnij klawisz **Enter** po każdym z nich.
@@ -59,16 +59,16 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 ## Ustawienia
 
-Zobacz także strony   * [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych, długości i kątów   * **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zmienić początkową pozycję z panelu zadań na pole wprowadzania **Długość**   * **Edycja → Preferencje... → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Ustaw fokus na Długość zamiast Współrzędnej X**. Należy pamiętać, że aby zmiana zaczęła obowiązywać, należy przesunąć kursor w oknie [widoku 3D](3D_view/pl.md).
--   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny**.
--   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów   * **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
+-   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych, długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
+-   Aby zmienić początkową pozycję z panelu zadań na pole wprowadzania **Długość**: **Edycja → Preferencje... → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Ustaw fokus na Długość zamiast Współrzędnej X**. Należy pamiętać, że aby zmiana zaczęła obowiązywać, należy przesunąć kursor w oknie [widoku 3D](3D_view/pl.md).
+-   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny**.
+-   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Do przesuwania obiektów służy metoda `move` środowiska Rysunek Roboczy.
 
@@ -85,7 +85,7 @@ moved_list = move(objectslist, vector, copy=False)
 
 -   Lista `moved_list` jest zwracana z oryginalnymi przeniesionymi obiektami lub z nowymi kopiami. Jest to albo pojedynczy obiekt, albo lista obiektów, w zależności od `objectslist`.
 
-Przykład   *
+Przykład:
 
 
 ```python

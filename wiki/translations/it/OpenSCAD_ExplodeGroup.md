@@ -1,6 +1,6 @@
 # OpenSCAD ExplodeGroup/it
 ---
-- GuiCommand   */it   Name   *OpenSCAD ExplodeGroup   Name/it   *Esplodi gruppo   MenuLocation   *OpenSCAD → Esplodi gruppo‏‎   |Workbenches   *[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut   *   SeeAlso   *---
+- GuiCommand:/it   Name:OpenSCAD ExplodeGroup   Name/it:Esplodi gruppo   MenuLocation:OpenSCAD → Esplodi gruppo‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -24,7 +24,7 @@ Questa funzione esplode una fusione o un composto in pezzi singoli applicando de
 
 ## Uso
 
-1.  Selezionare una fusione o un composto da suddividere. \# Cliccare sull\'icona <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width   *32px;"> o scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.png" width=32px> Scomponi il gruppo** dal menu in alto ..
+1.  Selezionare una fusione o un composto da suddividere. \# Cliccare sull\'icona <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width:32px;"> o scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_ExplodeGroup.png" width=32px> Scomponi il gruppo** dal menu in alto ..
 
 
 </div>

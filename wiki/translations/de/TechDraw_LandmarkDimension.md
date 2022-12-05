@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *TechDraw LandmarkDimension
-   Name/de   *TechDraw MaßÜberOrientierungspunkte
-   MenuLocation   *TechDraw → Bemaßungen → Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   Version   *0.19
-   SeeAlso   *[TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
+- GuiCommand:/de
+   Name:TechDraw LandmarkDimension
+   Name/de:TechDraw MaßÜberOrientierungspunkte
+   MenuLocation:TechDraw → Bemaßungen → Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
+   SeeAlso:[TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw LandmarkDimension/de
@@ -37,13 +37,13 @@ Das Werkzeug MaßÜberOrientierungspunkte führt keine neuen Eigenschaften ein.
 
 ## Skripten
 
-Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug MaßÜberOrientierungspunkte kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
+Das Werkzeug MaßÜberOrientierungspunkte kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
 dim1.Type = "Distance"
 dim1.References2D=[(TDView, 'Vertex1')]
 dim1.References3D=[(Point3d1, 'Vertex1')]

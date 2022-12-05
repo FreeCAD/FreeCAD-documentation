@@ -1,12 +1,12 @@
 ---
-- GuiCommand   *Addon/ro
-   Name   *Arch Rebar Helical
-   Name/ro   *Arch Rebar Helical
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench/ro.md)
-   Shortcut   *None
-   SeeAlso   *[Arch Rebar](Arch_Rebar/ro.md)
-   Addon   *Reinforcement
+- GuiCommand:Addon/ro
+   Name:Arch Rebar Helical
+   Name/ro:Arch Rebar Helical
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:None
+   SeeAlso:[Arch Rebar](Arch_Rebar/ro.md)
+   Addon:Reinforcement
 ---
 
 # Arch Rebar Helical/ro
@@ -26,14 +26,14 @@ Instrumentul **<img src="images/Arch_Rebar_Helical.png" width=16px> Helical Reba
 
 The [Helical Rebar](Arch_Rebar_Helical.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
+:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/HelicalRebar.png  style="width   *800px;">
+<img alt="" src=images/HelicalRebar.png  style="width:800px;">
 
 
 </div>
@@ -65,7 +65,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
+:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
 
@@ -73,15 +73,15 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Proprietăți
 
--    **Side Cover**   *distanța dintre armatură și fața curbată.
+-    **Side Cover**:distanța dintre armatură și fața curbată.
 
--    **Top Cover**   * Distanța dintre armătură din fața superioară a structurii.
+-    **Top Cover**: Distanța dintre armătură din fața superioară a structurii.
 
--    **Bottom Cover**   * distanța dintre barele din partea inferioară a structurii.
+-    **Bottom Cover**: distanța dintre barele din partea inferioară a structurii.
 
--    {{PropertyData | Pitch}}   * Pasul unei spirale este înălțimea unei singure rotiri helix, măsurată paralel cu axa spiralei.
+-    {{PropertyData | Pitch}}: Pasul unei spirale este înălțimea unei singure rotiri helix, măsurată paralel cu axa spiralei.
 
--    {{PropertyData | Diameter}}   * Diametrul barei.
+-    {{PropertyData | Diameter}}: Diametrul barei.
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +94,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **<img src="images/Arch_Rebar_Helical.png" width=16px> Helical Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python prin utilizarea următoarei funcției   *
+Instrumentul **<img src="images/Arch_Rebar_Helical.png" width=16px> Helical Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python prin utilizarea următoarei funcției:
 
 
 </div>
@@ -159,11 +159,6 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 </div>
-
-
- 
-
-[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

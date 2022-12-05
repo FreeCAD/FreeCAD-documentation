@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */ru
-   Name   *FEM PostCreateDataAtPointFilter
-   Name/ru   *FEM PostCreateDataAtPointFilter
-   Icon   *Fem-post-filter-data-at-point.png
-   MenuLocation   * Results → Data at point filter
-   Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand:/ru
+   Name:FEM PostCreateDataAtPointFilter
+   Name/ru:FEM PostCreateDataAtPointFilter
+   Icon:Fem-post-filter-data-at-point.png
+   MenuLocation: Results → Data at point filter
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterDataAtPoint/ru
@@ -21,7 +21,7 @@ Displays the value of a selected field at a picked point.
 ## Применение
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another filter (except of a line filter).
-2.  Invoke the command either by   *
+2.  Invoke the command either by:
     -   Pressing the button **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Data at point clip filter'''**.
     -   Using the menu **Results → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Data at point clip filter**.
 3.  Select a result **Field**.

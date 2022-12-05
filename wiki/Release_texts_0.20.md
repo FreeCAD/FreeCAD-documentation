@@ -3,13 +3,13 @@
 
 ## Press release 
 
-**Aim**   * shorter, less technical details, highlighting new features.
+**Aim**: shorter, less technical details, highlighting new features.
 
-**Working Draft**   *
+**Working Draft**:
 
 The FreeCAD development community is proud to announce the release of FreeCAD 0.20. This release includes hundreds of new features, stability improvements, and bug fixes. Among them are improved Part Design lofts, pads, and pockets with support for tapers, new Sketcher tools and interface improvements, over 30 new TechDraw tools, improved spreadsheet tools for parametric design, improved OpenSCAD interoperability, support for electrostatic analysis using Elmer, and a new type of Addon for distributing user preferences.
 
-FreeCAD 0.20 is available for Windows, MacOS, and Linux and can be downloaded from [freecad.org](https   *//www.freecad.org/).
+FreeCAD 0.20 is available for Windows, MacOS, and Linux and can be downloaded from [freecad.org](https://www.freecad.org/).
 
 Explore the [release notes](Release_notes_0.20.md) for an in-depth look at what\'s new.
 
@@ -17,15 +17,15 @@ FreeCAD wouldn't be possible without its amazing community of developers, tester
 
 ## Announcement text 
 
-**Aim**   * longer, referring to the [release notes](Release_notes_0.20.md), and information about the Toponaming merge plans for FreeCAD 1.0.
+**Aim**: longer, referring to the [release notes](Release_notes_0.20.md), and information about the Toponaming merge plans for FreeCAD 1.0.
 
-**Working Draft**   *
+**Working Draft**:
 
 The FreeCAD Development community is proud to announce the release of FreeCAD 0.20. Over the past year, many developers, testers, and users have worked on improving nearly every aspect of FreeCAD, adding dozens of new features and fixing hundreds of bugs.
 
-FreeCAD 0.20 is available for Windows, MacOS, and Linux and can be downloaded from [freecad.org](https   *//www.freecad.org/).
+FreeCAD 0.20 is available for Windows, MacOS, and Linux and can be downloaded from [freecad.org](https://www.freecad.org/).
 
-Explore the [release notes](Release_notes_0.20.md) for an in-depth look at what\'s new. Highlights include   *
+Explore the [release notes](Release_notes_0.20.md) for an in-depth look at what\'s new. Highlights include:
 
 -   A completely rewritten Addon Manager.
 -   A new type of add-on called a Preference Pack allows user preferences to be saved and distributed via the Addon Manager.

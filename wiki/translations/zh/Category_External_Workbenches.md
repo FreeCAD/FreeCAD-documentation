@@ -1,8 +1,6 @@
 # Category:External Workbenches/zh
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-[Category   *Workbenches/zh](Category   *Workbenches/zh.md) [Category   *Addons/zh](Category   *Addons/zh.md)
-
 ### Contents
 
 |     |     |     |

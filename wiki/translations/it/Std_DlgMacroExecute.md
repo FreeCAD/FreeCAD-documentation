@@ -1,6 +1,6 @@
 # Std DlgMacroExecute/it
 ---
-- GuiCommand   */it   Name   *Std_DlgMacroExecute   Name/it   *Esegui macro   MenuLocation   *[Shortcut   *CTRL+F6   Workbenches   *Tutti   SeeAlso   *[[Std_DlgMacroExecuteDirect/it|Esegui la macro nell'editor](Macros/it___Macro]]_→_Esegui_la_macro.md)---
+- GuiCommand:/it   Name:Std_DlgMacroExecute   Name/it:Esegui macro   MenuLocation:[Shortcut:CTRL+F6   Workbenches:Tutti   SeeAlso:[[Std_DlgMacroExecuteDirect/it|Esegui la macro nell'editor](Macros/it___Macro]]_→_Esegui_la_macro.md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width   *16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width   *" height="24px;">.
+Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;">.
 
 
 </div>
@@ -23,7 +23,7 @@ Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibi
 
 <div class="mw-translate-fuzzy">
 
-Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width   *16px"> [Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width   *16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width   *16px;">. Fare clic su questo pulsante per eseguire la macro.
+Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> [Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Fare clic su questo pulsante per eseguire la macro.
 
 
 </div>
@@ -38,7 +38,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ### Macro di sistema 
 
-   *   The **System macros** tab is not used at this time.
+:   The **System macros** tab is not used at this time.
 
 ### Posizione delle macro utente 
 
@@ -47,7 +47,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ### Eseguire
 
-1.  To execute a macro do one of the following   *
+1.  To execute a macro do one of the following:
     -   Select the macro in the list and press the **Execute** button.
     -   Double-click the macro in the list.
 2.  The dialog box closes.
@@ -108,7 +108,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences   * **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
 

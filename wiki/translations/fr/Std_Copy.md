@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */fr
-   Name   *Std Copy
-   Name/fr   *Std Copier
-   MenuLocation   *Édition → Copier
-   Workbenches   *Tous
-   Shortcut   ***Ctrl**+**C**
-   SeeAlso   *[Std Couper](Std_Cut/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer la sélection](Std_DuplicateSelection/fr.md)
+- GuiCommand:/fr
+   Name:Std Copy
+   Name/fr:Std Copier
+   MenuLocation:Édition → Copier
+   Workbenches:Tous
+   Shortcut:**Ctrl**+**C**
+   SeeAlso:[Std Couper](Std_Cut/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer la sélection](Std_DuplicateSelection/fr.md)
 ---
 
 # Std Copy/fr
@@ -17,10 +17,10 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Il existe plusieurs façons d\'appeler la commande   *
+2.  Il existe plusieurs façons d\'appeler la commande:
     -   Sélectionnez l\'option **Edition → <img src="images/Std_Copy.svg" width=16px> Copier** dans le menu.
     -   Sélectionnez l\'option **<img src="images/Std_Copy.svg" width=16px> Copier** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md).
-    -   Utilisez le raccourci clavier   * **Ctrl**+**C**.
+    -   Utilisez le raccourci clavier: **Ctrl**+**C**.
 3.  Si les objets ont des dépendances qui n\'ont pas été sélectionnées, une boîte de dialogue vous demandera de spécifier ceux qui doivent être inclus.
 
 ## Remarques

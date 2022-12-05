@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ro
-   Name   *PartDesign Line
-   Name/ro   *PartDesign Line
-   Workbenches   *[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation   *Part Design → Create a datum line
-   Version   *0.17
-   SeeAlso   *[[PartDesign Point/ro]], [[PartDesign Plane/ro]]
+- GuiCommand:/ro
+   Name:PartDesign Line
+   Name/ro:PartDesign Line
+   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation:Part Design → Create a datum line
+   Version:0.17
+   SeeAlso:[[PartDesign Point/ro]], [[PartDesign Plane/ro]]
 ---
 
 # PartDesign Line/ro
@@ -17,7 +17,7 @@
 
 Creează o linie de referință **datum line** care poate fi folosită ca referință pentru schițe, alte forme geometrice sau funcții(onalități). De exemplu, poate fi folosit ca axă de Rotație sau creare Caneluri.
 
-<img alt="" src=images/datum_line.png  style="width   *600px;">
+<img alt="" src=images/datum_line.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -55,11 +55,11 @@ Faceți dublu clic pe eticheta DatumLine din arborescența Model sau faceți cli
 
 ## Proprietăți
 
--    **MapMode**   * listează modul de tașamentu utilizat.
+-    **MapMode**: listează modul de tașamentu utilizat.
 
--    **Attachment Offset**   * applies a transformation (translation and rotation) in reference to the attachment placement.
+-    **Attachment Offset**: applies a transformation (translation and rotation) in reference to the attachment placement.
 
--    **Label**   * nume dat obiectului, acest nume poate fi modificat la nevoie.
+-    **Label**: nume dat obiectului, acest nume poate fi modificat la nevoie.
 
 
 

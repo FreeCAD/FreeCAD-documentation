@@ -1,9 +1,9 @@
 ---
-- GuiCommand   */de
-   Name   *Part Mirror
-   Name/de   *Part Spiegeln
-   MenuLocation   *Formteil → Spiegeln
-   Workbenches   *[Part](Part_Workbench/de.md)
+- GuiCommand:/de
+   Name:Part Mirror
+   Name/de:Part Spiegeln
+   MenuLocation:Formteil → Spiegeln
+   Workbenches:[Part](Part_Workbench/de.md)
 ---
 
 # Part Mirror/de
@@ -18,7 +18,7 @@
 
 </div>
 
-Ein Beispiel   *
+Ein Beispiel:
 
 ![Vorher](images/PARTMirrorBeforev11.png )
 

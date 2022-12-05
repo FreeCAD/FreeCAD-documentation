@@ -1,8 +1,6 @@
 # Category:Administration/tr
 This category contains articles and categories about wiki administrative subjects.
 
-[Category   *Categories/tr](Category   *Categories/tr.md)
-
 ### Contents
 
 |     |     |     |

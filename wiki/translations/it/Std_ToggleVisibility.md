@@ -1,12 +1,12 @@
 ---
-- GuiCommand   */it
-   Name   *Std ToggleVisibility
-   Name/it   *Mostra/Nascondi
-   Empty   *1
-   MenuLocation   *Visualizza → Mostra/Nascondi
-   Workbenches   *Tutti
-   Shortcut   ***Spazio**
-   SeeAlso   *[Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
+- GuiCommand:/it
+   Name:Std ToggleVisibility
+   Name/it:Mostra/Nascondi
+   Empty:1
+   MenuLocation:Visualizza → Mostra/Nascondi
+   Workbenches:Tutti
+   Shortcut:**Spazio**
+   SeeAlso:[Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
 # Std ToggleVisibility/it
@@ -26,7 +26,7 @@ The **Std ToggleVisibility** command toggles the visibility of selected objects 
 ### Utilizzo 
 
 Questo comando serve a rendere visibili o a nascondere nella vista i componenti del documento.
-Esso è accessibile in diversi modi   *
+Esso è accessibile in diversi modi:
 
 -   La barra spaziatrice.
 -   La console Python.
@@ -35,7 +35,7 @@ Esso è accessibile in diversi modi   *
 -   Il menu Visualizza.
 -   La vista dell\'area di lavoro.
 
-Esempio di elementi visibili e di elementi nascosti   * <img alt="" src=images/Mostra1.png  style="width   *750px;">  Nella struttura ad albero gli elementi nascosti sono in grigio, quelli visibili in nero e quelli selezionati sono evidenziati.
+Esempio di elementi visibili e di elementi nascosti: <img alt="" src=images/Mostra1.png  style="width:750px;">  Nella struttura ad albero gli elementi nascosti sono in grigio, quelli visibili in nero e quelli selezionati sono evidenziati.
 Nell\'area di lavoro appaiono solo gli elementi che nella struttura sono indicati in nero.
 Nella console Python l\'elemento (\"Revolution006\") prima è nascosto (Visibility=False), poi è visibile (Visibility=True).
 Nella scheda Vista l\'elemento (\"Revolution006\") è visibile (Visibility true).
@@ -46,7 +46,7 @@ Selezionare un elemento e premere {{KEY/it|Spazio}} sia per mostrarlo che per na
 
 #### Console Python 
 
-Inserire il comando ( in questo caso   * *Gui.getDocument(\"test_ok_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere {{KEY/it|Invio}}
+Inserire il comando ( in questo caso: *Gui.getDocument(\"test_ok_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere {{KEY/it|Invio}}
 
 #### Dal menu principale 
 
@@ -79,15 +79,15 @@ Nei documenti con molti oggetti, dove è difficile individuare un elemento nella
 
 ### Esempi
 
-Console Python   * ![](images/Mostra2.png ) 
+Console Python: ![](images/Mostra2.png ) 
 
-Menu principale   * <img alt="" src=images/Mostra3.png  style="width   *750px;"> 
+Menu principale: <img alt="" src=images/Mostra3.png  style="width:750px;"> 
 
-Struttura del progetto   * ![](images/Mostra4.png ) 
+Struttura del progetto: ![](images/Mostra4.png ) 
 
-Scheda Vista   * ![\|left](images/Mostra5.png ) 
+Scheda Vista: ![\|left](images/Mostra5.png ) 
 
-Area di lavoro   * ![\|left](images/Mostra6.png ) 
+Area di lavoro: ![\|left](images/Mostra6.png ) 
 
 
 </div>
@@ -103,7 +103,7 @@ Area di lavoro   * ![\|left](images/Mostra6.png )
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
@@ -115,9 +115,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True   *
+if obj.Visibility == True:
   obj.hide()
-else   *
+else:
   obj.show()
 ```
 

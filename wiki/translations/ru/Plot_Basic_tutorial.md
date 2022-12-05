@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ru
-   Topic   *Plot Workbench
-   Level   *Beginner
-   Time   *
-   Author   *
-   FCVersion   *
-   Files   *
+- TutorialInfo:/ru
+   Topic:Plot Workbench
+   Level:Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
 ---
 
 # Plot Basic tutorial/ru
@@ -22,17 +22,17 @@
 
 In this tutorial we will learn how to create a basic plot using the [Plot Workbench](Plot_Workbench.md) and the [Python console](Python_console.md).
 
-<img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;"> 
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;"> 
 *Basic plot example*
 
-In the image you can see the result that we will approximately obtain. Following this tutorial you will learn   *
+In the image you can see the result that we will approximately obtain. Following this tutorial you will learn:
 
 -   How to create a Plot from the [Python console](Python_console.md).
 -   How to plot some data from the [Python console](Python_console.md).
--   How to show the <img alt="" src=images/Plot_Grid.svg  style="width   *24px;"> [grid lines](Plot_Grid.md).
--   How to show the <img alt="" src=images/Plot_Legend.svg  style="width   *24px;"> [legend](Plot_Legend.md).
--   How to edit <img alt="" src=images/Plot_Series.svg  style="width   *24px;"> [series labels](Plot_Series.md), introducing text in [LaTeX](http   *//www.latex-project.org).
--   How to edit <img alt="" src=images/Plot_Labels.svg  style="width   *24px;"> [axes labels](Plot_Labels.md), introducing text in [LaTeX](http   *//www.latex-project.org).
+-   How to show the <img alt="" src=images/Plot_Grid.svg  style="width:24px;"> [grid lines](Plot_Grid.md).
+-   How to show the <img alt="" src=images/Plot_Legend.svg  style="width:24px;"> [legend](Plot_Legend.md).
+-   How to edit <img alt="" src=images/Plot_Series.svg  style="width:24px;"> [series labels](Plot_Series.md), introducing text in [LaTeX](http://www.latex-project.org).
+-   How to edit <img alt="" src=images/Plot_Labels.svg  style="width:24px;"> [axes labels](Plot_Labels.md), introducing text in [LaTeX](http://www.latex-project.org).
 -   How to edit series styles.
 -   How to save your plot.
 
@@ -42,28 +42,28 @@ To plot data you don\'t need a FreeCAD document, simply open the [Python console
 
 ### Creating plot document 
 
-Plots are special documents that can be created manually in order to add data later, or the workbench can create one automatically when you start plotting data. Creating your own plot document has two advantages   *
+Plots are special documents that can be created manually in order to add data later, or the workbench can create one automatically when you start plotting data. Creating your own plot document has two advantages:
 
 -   You can set the document window label.
 -   You can control the document where you plot your data.
 
-To create a new plot document simply launch the following commands   *
+To create a new plot document simply launch the following commands:
 
 
 ```python
-try   *
+try:
     from FreeCAD.Plot import Plot
-except ImportError   *
+except ImportError:
     from freecad.plot import Plot
 
 Plot.figure("TrigonometricTest")
 ```
 
-In FreeCAD version 0.19 it is required to install the <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [Plot Workbench](Plot_Workbench.md) with the [Add-on manager](Std_AddonMgr.md), while from FreeCAD version 0.20 onward the external add-on is no longer required to perform plots. The commands above will create a new tab in the [Main view area](Main_view_area.md) called **TrigonometricTest**. The newly created document already has a set of axes. Each plot document has at least one set of axes.
+In FreeCAD version 0.19 it is required to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) with the [Add-on manager](Std_AddonMgr.md), while from FreeCAD version 0.20 onward the external add-on is no longer required to perform plots. The commands above will create a new tab in the [Main view area](Main_view_area.md) called **TrigonometricTest**. The newly created document already has a set of axes. Each plot document has at least one set of axes.
 
 ### Drawing functions 
 
-You can also start working from here because, as already explained, the plot command will create a new document if required. The next thing we need to do is create the data for the sine and cosine functions that we want to plot   *
+You can also start working from here because, as already explained, the plot command will create a new document if required. The next thing we need to do is create the data for the sine and cosine functions that we want to plot:
 
 
 ```python
@@ -74,13 +74,13 @@ s = [math.sin(2.0*math.pi*tt) for tt in t]
 c = [math.cos(2.0*math.pi*tt) for tt in t]
 ```
 
-That will create 3 arrays of data (with 101 points)   *
+That will create 3 arrays of data (with 101 points):
 
 -   *t* = Time in seconds.
 -   *s* = Sine function.
 -   *c* = Cosine function.
 
-In order to plot both functions we only need to launch the next commands   *
+In order to plot both functions we only need to launch the next commands:
 
 
 ```python
@@ -113,14 +113,14 @@ With the [series tool](Plot_Series.md) you can edit the parameters of each serie
 ![](images/Plot_Series.svg‎ ) 
 *Series configuration tool icon*
 
-Select the series you want to edit, we will start with the first one. Uncheck **No label** and set this label   *
+Select the series you want to edit, we will start with the first one. Uncheck **No label** and set this label:
 
 
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
-Since [matplotlib](http   *//matplotlib.org/) supports [LaTeX](http   *//www.latex-project.org) you can set all labels and titles using LaTeX. Set the following label for the second series   *
+Since [matplotlib](http://matplotlib.org/) supports [LaTeX](http://www.latex-project.org) you can set all labels and titles using LaTeX. Set the following label for the second series:
 
 
 ```python
@@ -138,7 +138,7 @@ With the [labels tool](Plot_Labels.md) you can set the title and the labels for 
 ![](images/Plot_Labels.svg‎ ) 
 *Labels tool icon*
 
-Set this data   *
+Set this data:
 
 -   Title = Trigonometric functions example
 -   X Label = \$t\$
@@ -160,9 +160,7 @@ Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4*
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
-
-[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+}} {{Plot_Tools_navi}}
 
 
 

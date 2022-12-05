@@ -1,8 +1,6 @@
 # Category:Poweruser Documentation/zh-tw
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-[Category   *Documentation/zh-tw](Category   *Documentation/zh-tw.md)
-
 ### Contents
 
 |     |     |     |

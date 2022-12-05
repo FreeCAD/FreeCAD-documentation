@@ -12,7 +12,7 @@
 
 {{TOCright}}
 
-[Python](https   *//www.python.org) genel amaçlı, büyük uygulamalarda komut dosyası veya [makro](macros/tr.md) oluşturarak bazı görevleri otomatikleştirmek için yaygın olarak kullanılan yüksek seviye bir programlama dilidir.
+[Python](https://www.python.org) genel amaçlı, büyük uygulamalarda komut dosyası veya [makro](macros/tr.md) oluşturarak bazı görevleri otomatikleştirmek için yaygın olarak kullanılan yüksek seviye bir programlama dilidir.
 
 FreeCAD\'de, Python kodu, grafiksel kullanıcı arayüzüne tıklamak zorunda kalmadan programatik olarak çeşitli elemanlar oluşturmak için kullanılabilir. Ek olarak, FreeCAD\'in birçok aracı ve tezgahı Python\'da programlanmıştır.
 
@@ -23,15 +23,15 @@ Python programlama dili hakkında bilgi edinmek için [Python\'a Giriş](Introdu
 
 <div class="mw-translate-fuzzy">
 
-Python kodunu yazarken \[<https   *//www.python.org/dev/peps/pep-0008/PEP8>   * Python Kodu için Stil Kılavuzu\] \'nu takip etmeniz önerilir.
+Python kodunu yazarken \[<https://www.python.org/dev/peps/pep-0008/PEP8>: Python Kodu için Stil Kılavuzu\] \'nu takip etmeniz önerilir.
 
 
 </div>
 
-These documents present explanations in a more user-friendly way   *
+These documents present explanations in a more user-friendly way:
 
--   [How to Write Beautiful Python Code With PEP 8](https   *//realpython.com/python-pep8/)
--   [Documenting Python Code   * A Complete Guide](https   *//realpython.com/documenting-python-code/).
+-   [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
+-   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/).
 
 ## Kurallar
 
@@ -44,7 +44,7 @@ Bu tipik bir fonksiyon imzasıdır.
 Wire = make_wire(pointslist, closed=False, placement=None, face=None, support=None)
 ```
 
--   Anahtar / değer çiftlerine sahip bağımsız değişkenler, imzada belirtilen varsayılan değerlerle isteğe bağlıdır. Bu, aşağıdaki çağrıların eşdeğer olduğu anlamına gelir   *
+-   Anahtar / değer çiftlerine sahip bağımsız değişkenler, imzada belirtilen varsayılan değerlerle isteğe bağlıdır. Bu, aşağıdaki çağrıların eşdeğer olduğu anlamına gelir:
 
 
 ```python
@@ -56,9 +56,9 @@ Wire = make_wire(pointslist)
 ```
 
 
-   *   Bu örnekte, ilk argüman varsayılan bir değere sahip değildir, bu yüzden her zaman dahil edilmelidir.
+:   Bu örnekte, ilk argüman varsayılan bir değere sahip değildir, bu yüzden her zaman dahil edilmelidir.
 
--   Argümanlar açık anahtarla verildiğinde, isteğe bağlı argümanlar herhangi bir sırayla verilebilir. Bu, aşağıdaki çağrıların eşdeğer olduğu anlamına gelir   *
+-   Argümanlar açık anahtarla verildiğinde, isteğe bağlı argümanlar herhangi bir sırayla verilebilir. Bu, aşağıdaki çağrıların eşdeğer olduğu anlamına gelir:
 
 
 ```python
@@ -138,11 +138,6 @@ pointslist = [p1, p2, p3, p4]
 Wire = Draft.make_wire(pointslist, closed=True, face=True)
 Structure = Arch.make_structure(Wire, name="Big pillar")
 ```
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *API](Category_API.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

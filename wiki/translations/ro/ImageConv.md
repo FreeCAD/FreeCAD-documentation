@@ -8,7 +8,7 @@
 
 ## Compilarea
 
-ImageConv este localizat în arborescența sursă a FreeCAD   *
+ImageConv este localizat în arborescența sursă a FreeCAD:
 
 
 </div>
@@ -29,8 +29,6 @@ ImageConv este un instrument tip linie de comandă.
 
 
 </div>
-
-[Category   *Developer](Category_Developer.md)
 
 
 

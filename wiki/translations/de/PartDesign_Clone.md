@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */de
-   Name   *PartDesign Clone
-   Name/de   *PartDesign Klon
-   MenuLocation   *Part Design → Klon erzeugen
-   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
-   Version   *0.17
-   SeeAlso   *[Entwurf Klon](Draft_Clone/de.md)
+- GuiCommand:/de
+   Name:PartDesign Clone
+   Name/de:PartDesign Klon
+   MenuLocation:Part Design → Klon erzeugen
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[Entwurf Klon](Draft_Clone/de.md)
 ---
 
 # PartDesign Clone/de
@@ -23,7 +23,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  Wähle im Modellbaum das zu klonenden Objekt
-2.  Drücke die Schaltfläche **[<img src=images/PartDesign_Clone.svg style="width   *24px"> '''Klon erstellen'''**.
+2.  Drücke die Schaltfläche **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Klon erstellen'''**.
 
 
 </div>
@@ -33,11 +33,11 @@
 
 <div class="mw-translate-fuzzy">
 
--    **Base Feature**   * Bestimmt das Objekt, welches geklont wird. Um dies zu ändern klicke auf das **...** Icon und wähle ein Objekt aus der Liste
+-    **Base Feature**: Bestimmt das Objekt, welches geklont wird. Um dies zu ändern klicke auf das **...** Icon und wähle ein Objekt aus der Liste
 
--    **Placement**   * definiert die Ausrichtung und die Position des Klon im 3D Raum. Siehe [Platzierung](Placement/de.md).
+-    **Placement**: definiert die Ausrichtung und die Position des Klon im 3D Raum. Siehe [Platzierung](Placement/de.md).
 
--    **Label**   * Benennung des Klon, beliebig.
+-    **Label**: Benennung des Klon, beliebig.
 
 
 </div>

@@ -1,11 +1,11 @@
 # Common Airfoil Data Import/pl
 ## Importowanie danych profili lotniczych 
 
-FreeCAD może importować dane o profilach lotniczych, takie jak te znajdujące się w bazie danych profili lotniczych [UIUC Airfoil Coordinates Database](http   *//m-selig.ae.illinois.edu/ads/coord_database.html) lub pliki tworzone przez oprogramowanie do tworzenia i analizy profili lotniczych, takie jak [XFLR5](http   *//www.xflr5.com/xflr5.htm).
+FreeCAD może importować dane o profilach lotniczych, takie jak te znajdujące się w bazie danych profili lotniczych [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) lub pliki tworzone przez oprogramowanie do tworzenia i analizy profili lotniczych, takie jak [XFLR5](http://www.xflr5.com/xflr5.htm).
 
 ## Użycie
 
-Z menu Plik wybierz polecenie **Otwórz** dla nowego dokumentu lub **Importuj** dla istniejącego dokumentu. W oknie dialogowym Otwórz lub Importuj wybierz z menu rozwijanego typ pliku   * **Wspólne dane o profilach lotniczych (\*.dat)**, kolejnie wybierz plik i kliknij w przycisk **Otwórz**.
+Z menu Plik wybierz polecenie **Otwórz** dla nowego dokumentu lub **Importuj** dla istniejącego dokumentu. W oknie dialogowym Otwórz lub Importuj wybierz z menu rozwijanego typ pliku: **Wspólne dane o profilach lotniczych (\*.dat)**, kolejnie wybierz plik i kliknij w przycisk **Otwórz**.
 
 Podczas otwierania plików danych profilu lotniczego program FreeCAD wczytuje plik i importuje go w jednostkach programu FreeCAD. Pliki danych o profilach podają współrzędne XY w liczbach z zakresu od 0 do 1. W rezultacie importowany profil będzie miał domyślnie długość cięciwy 1 mm. Poniżej przedstawiono przykładowy plik .dat typowego profilu lotniczego. Zauważ, że wszystkie punkty danych mieszczą się w przedziale od 0 do 1. 
 ```python
@@ -31,11 +31,6 @@ AG35
 ## Import rozszerzony 
 
 Dostępna jest makrodefinicja, dzięki której można zaimportować profil lotniczy o długości cięciwy zdefiniowanej przez użytkownika. Makro to najpierw pozwala użytkownikowi wybrać plik danych profilu lotniczego do zaimportowania, a następnie wprowadza długość cięciwy. Następnie odpowiednio przeskaluje profil do użycia. Można je znaleźć na stronie Wiki [Przepisy na makropolecenia](Macros_recipes/pl.md) pod nazwą [Import profili lotniczych i skala](Macro_Airfoil_Import_%26_Scale/pl.md).
-
-
-
-
-[Category   *User Documentation](Category_User_Documentation.md)
 
 
 

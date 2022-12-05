@@ -1,11 +1,11 @@
 ---
-- TutorialInfo   */ru
-   Topic   * 
-   Level   * 
-   Time   * 
-   Author   *[M42kus](User_M42kus.md)
-   FCVersion   *
-   Files   *
+- TutorialInfo:/ru
+   Topic: 
+   Level: 
+   Time: 
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:
+   Files:
 ---
 
 # Extend FEM Module/ru
@@ -28,7 +28,7 @@ Bерстак FEM(МКЭ) уже поддерживает множество р�
 
 </div>
 
-Добавление новых ограничений, уравнений или решателя - это в основном рутинная работа. Но сделать это в первый раз будет не так просто, как может показаться. Понимание следующих тем окажется полезным   *
+Добавление новых ограничений, уравнений или решателя - это в основном рутинная работа. Но сделать это в первый раз будет не так просто, как может показаться. Понимание следующих тем окажется полезным:
 
 -   Python scripting in FreeCAD.
     -   [FreeCAD Scripting Tutorial](Python_scripting_tutorial.md)
@@ -42,7 +42,7 @@ Bерстак FEM(МКЭ) уже поддерживает множество р�
 
 The build system must be modified regardless of which objects shall be added o the FEM workbench. Every python module (file) must be registered. The FEM workbench requires every new python module to be registered in `Mod/Fem/CMakeLists.txt`. This is true regardless of the type of the python module (GUI or non-GUI). Where exactly the module must be inserted depends on the role of the module. Solver, equations and constraints all use different lists. Searching for similar files and inserting the new file in the same list works most of the time.
 
-As an **example** lets add a new constraint called  for this constraint. A new constraint requires at least the following new modules   *
+As an **example** lets add a new constraint called  for this constraint. A new constraint requires at least the following new modules:
 
 -    `constraint_<name>.py`
     
@@ -89,7 +89,7 @@ SET(FemGuiViewProvider_SRCS
 
 ## Source Organization 
 
-For organizing the python code the FEM module uses the following approach. The module is split into the following packages   *
+For organizing the python code the FEM module uses the following approach. The module is split into the following packages:
 
 -    `femobjects`, which contains all non-GUI like python proxies for document objects and
 
@@ -101,7 +101,7 @@ For organizing the python code the FEM module uses the following approach. The m
 
 -   .ui files are stored in \'`Gui/Resources/ui/`\' commands.
 
-One package doesn\'t follow this pattern   * `femsolver`. It has its place on the same level as `femobjects` and `femguiobjects` (`src/Mod/Fem/femsolver`). The package contains solver and equation related packages and modules and it is organized the following way   *
+One package doesn\'t follow this pattern: `femsolver`. It has its place on the same level as `femobjects` and `femguiobjects` (`src/Mod/Fem/femsolver`). The package contains solver and equation related packages and modules and it is organized the following way:
 
     .femsolver
     .femsolver.elmer
@@ -113,22 +113,22 @@ One package doesn\'t follow this pattern   * `femsolver`. It has its place on th
 
 ## Solver
 
-In FreeCAD a solver can be split into two parts   *
+In FreeCAD a solver can be split into two parts:
 
 -   One is the document object used by the user to interact with the solver. Though it solver parameter can be set and it is also used to control the solving process.
--   The other one are the so called tasks of a solver. The solving process is split into those tasks, namely   * *check, prepare, solve and results*. Those do the actual work of exporting the analysis into a format understood by the solver executable, starting the executable and loading the results back into FreeCAD.
+-   The other one are the so called tasks of a solver. The solving process is split into those tasks, namely: *check, prepare, solve and results*. Those do the actual work of exporting the analysis into a format understood by the solver executable, starting the executable and loading the results back into FreeCAD.
 
 Most files related to a solver reside in a sub-package of the `femsolver` package (e.g. for Elmer its in `femsolver/elmer`). The following list enumerates all files related to the implementation of a solver. Those are the files that need to be copied and modified to add support for a new solver to FreeCAD. The given example is taken from the solver implementation of Elmer.
 
--   **femsolver/elmer/solver.py   *** Document object visible in the tree-view. Implemented in python via a document proxy and view proxy.
--   **femsolver/elmer/tasks.py   *** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps   * check, prepare, solve, results.
--   **femcommands/commands.py   *** Adds the solver document object to the active document. Required to access the solver object from the GUI.
+-   **femsolver/elmer/solver.py:** Document object visible in the tree-view. Implemented in python via a document proxy and view proxy.
+-   **femsolver/elmer/tasks.py:** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps: check, prepare, solve, results.
+-   **femcommands/commands.py:** Adds the solver document object to the active document. Required to access the solver object from the GUI.
 
-There is a tutorial of adding a new solver   * [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
+There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
 
 ## Equations
 
-An equation represents a particular physics that shall be considered when solving the analysis (e.g. Flow, Heat). Not all solver in FreeCAD support (all) equations. Equations are represented by child objects of the corresponding solver object. In the tree-view this looks like this   *
+An equation represents a particular physics that shall be considered when solving the analysis (e.g. Flow, Heat). Not all solver in FreeCAD support (all) equations. Equations are represented by child objects of the corresponding solver object. In the tree-view this looks like this:
 
 -   elmer-solver
     -   elasticity
@@ -140,15 +140,13 @@ Most solver specific options (e.g. max. iterations, method of solving, etc) are 
 
 The actual implementation can be split into the generic and the solver specific part. The generic part can be found in the `femsolver.equationbase` module. The solver specific part resides inside individual Equations sub-packages of the solver packages (e.g. `femsolver/elmer/equations`).
 
-Adding a new equations to Elmer should be very easy. For newcomers there exists a tutorial which shows how to add a new equation to Elmer by adding the existing elasticity solver to FreeCAD   * [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md).
+Adding a new equations to Elmer should be very easy. For newcomers there exists a tutorial which shows how to add a new equation to Elmer by adding the existing elasticity solver to FreeCAD: [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md).
 
 ## Constraints
 
 Constraints define boundary conditions for the problem that shall be solved. In FreeCAD constraints aren\'t specific to a particular solver. A problem setup can be solved by all solver that support all conditions in the analysis.
 
-Adding new constraints is quite straight forward. For newcomers there is a tutorial   * [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md).
-
-[Category   *FEM](Category_FEM.md)
+Adding new constraints is quite straight forward. For newcomers there is a tutorial: [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md).
 
 
 

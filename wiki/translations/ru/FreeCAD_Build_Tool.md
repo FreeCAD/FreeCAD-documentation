@@ -10,15 +10,15 @@ trunc/src/Tools/fcbt.py
 
 ## Использование
 
-В корректно установленом [Python](wikipedia   *Python_(programming_language).md) интепретаторе , может быть вызвана команда *fcbt* 
+В корректно установленом [Python](wikipedia:Python_(programming_language).md) интепретаторе , может быть вызвана команда *fcbt* 
 ```python
 python fbct.py
-``` Она отобразит меню, в котором вы можете выбрать задачу которую необходимо использовать для   * 
+``` Она отобразит меню, в котором вы можете выбрать задачу которую необходимо использовать для: 
 ```python
 FreeCAD Build Tool
- Usage   *
+ Usage:
     fcbt <command name> [command parameter]
- possible commands are   *
+ possible commands are:
   - DistSrc         (DS)   Build a source Distr. of the current source tree
   - DistBin         (DB)   Build a binary Distr. of the current source tree
   - DistSetup       (DI)   Build a Setup Distr. of the current source tree
@@ -27,7 +27,7 @@ FreeCAD Build Tool
   - NextBuildNumber (NBN)  Increase the Build Number of this Version
   - CreateModule    (CM)   Insert a new FreeCAD Module (Workbench) in the module directory
  
- For help on the modules type   *
+ For help on the modules type:
    fcbt <command name> ?
 ```
 
@@ -72,14 +72,6 @@ FreeCAD Build Tool
 
 
 </div>
-
-
-
-
-
- 
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

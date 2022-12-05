@@ -1,19 +1,19 @@
 ---
-- GuiCommand   */de
-   Name   *Draft ApplyStyle
-   Name/de   *AktuellenStilAnwenden
-   MenuLocation   *Draft → Utilities → Aktuellen Stil anwenden
-   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Draft StilFestlegen](Draft_SetStyle/de.md)
+- GuiCommand:/de
+   Name:Draft ApplyStyle
+   Name/de:AktuellenStilAnwenden
+   MenuLocation:Draft → Utilities → Aktuellen Stil anwenden
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft StilFestlegen](Draft_SetStyle/de.md)
 ---
 
 # Draft ApplyStyle/de
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_ApplyStyle.svg  style="width   *24px;"> **Aktuellen Stil anwenden**-Befehl wendet die aktuellen Stileinstellungen auf die ausgewählten Objekte an.
+Der <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Aktuellen Stil anwenden**-Befehl wendet die aktuellen Stileinstellungen auf die ausgewählten Objekte an.
 
-Dieser Befehl behandelt aktuell nur fünf der Einstellungen, die der [Draft Stil festlegen](Draft_SetStyle/de.md)-Befehl anbietet   *
+Dieser Befehl behandelt aktuell nur fünf der Einstellungen, die der [Draft Stil festlegen](Draft_SetStyle/de.md)-Befehl anbietet:
 
 -    **Linienfarbe**(Line color)
 

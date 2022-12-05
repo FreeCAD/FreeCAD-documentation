@@ -10,11 +10,11 @@
 |Version=1.21
 |Date=19.10.2020
 |FCVersion=Alle
-|Download=[https   *//wiki.freecadweb.org/images/a/a0/Snip.png ToolBar Icon]
+|Download=[https://wiki.freecadweb.org/images/a/a0/Snip.png ToolBar Icon]
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md) <img src="images/Macro_Copy3DViewToClipboard.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
-|Shortcut=Unter Windows   * Windows Key + Shift + S<br/>
-Unter Mac   * Command + Shift + 4<br/>
-Unter Linux   * gnone-screenshot utility<br/>
+|Shortcut=Unter Windows: Windows Key + Shift + S<br/>
+Unter Mac: Command + Shift + 4<br/>
+Unter Linux: gnone-screenshot utility<br/>
 }}
 
 
@@ -22,7 +22,7 @@ Unter Linux   * gnone-screenshot utility<br/>
 
 ## Beschreibung
 
-Verwende dieses Makro, um Bildschirmfotos auf einfache Weise im [FreeCAD Forum](https   *//forum.freecadweb.org) zu veröffentlichen.
+Verwende dieses Makro, um Bildschirmfotos auf einfache Weise im [FreeCAD Forum](https://forum.freecadweb.org) zu veröffentlichen.
 
 Am besten füge dieses Makro zu deiner globalen benutzerdefinierten Makro Werkzeugleiste hinzu, damit du schnell und einfach darauf zugreifen kannst.
 
@@ -44,12 +44,12 @@ Das Makro kann Bildschirmfotos erstellen oder vorhandene Bildschirmfotos verwend
 
 </div>
 
-<img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;">
+<img alt="" src=images/Snip-Screenshot1.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;"> 
+<img alt="" src=images/Snip-Screenshot1.png  style="width:600px;"> 
 *Schnitt screenshot1, Beachte, wie der Dialog halbtransparent ist.  Es wird nur der Bildschirminhalt unterhalb des Dialogs erfasst.*
 
 
@@ -63,12 +63,12 @@ Nach dem Klicken auf **OK** erstellt das Makro dann das Bildschirmfoto und speic
 
 </div>
 
-<img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;">
+<img alt="" src=images/Snip-Screenshot2.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;"> 
+<img alt="" src=images/Snip-Screenshot2.png  style="width:600px;"> 
 *Snip screenshot2, Dies ist der Dateiöffnungsdialog, der nach der Aufnahme des Bildschirmfotos automatisch aufklappt. Das Bild kann in das Forum gezogen und losgelassen werden oder es kann zur weiteren Bearbeitung in deiner System Standardanwendung zum Öffnen von png Dateien geöffnet werden. 
 Alternativ dazu kannst du auf das Bild rechtsklicken und **Öffnen mit..* mit einer anderen Anwendung deiner Wahl öffnen.**
 
@@ -78,15 +78,15 @@ Alternativ dazu kannst du auf das Bild rechtsklicken und **Öffnen mit..* mit ei
 
 <div class="mw-translate-fuzzy">
 
-Wenn das Makro auf deinem System nicht funktioniert, um Bildschirmfotos zu erstellen, kann es trotzdem nützlich sein für Bildschirmfotos, die du mit anderen Werkzeugen erstellt hast. Kopiere das Bildschirmfoto einfach in die Zwischenablage und führe dann das Makro aus. Das Makro erstellt die temporäre Datei und öffnet das Verzeichnis der Datei in einem Datei Öffnen Dialog für dich. Einige andere Werkzeuge zum Erstellen von Bildschirmfotos   *
+Wenn das Makro auf deinem System nicht funktioniert, um Bildschirmfotos zu erstellen, kann es trotzdem nützlich sein für Bildschirmfotos, die du mit anderen Werkzeugen erstellt hast. Kopiere das Bildschirmfoto einfach in die Zwischenablage und führe dann das Makro aus. Das Makro erstellt die temporäre Datei und öffnet das Verzeichnis der Datei in einem Datei Öffnen Dialog für dich. Einige andere Werkzeuge zum Erstellen von Bildschirmfotos:
 
 
 </div>
 
 
-   *   Windows   * Windows Taste + **Umschalten** + **S**
-   *   MacOS   * **Command** + **Umschalten** + **4**
-   *   Linux   * gnome-Bildschirmfoto Hilfsprogramm
+:   Windows: Windows Taste + **Umschalten** + **S**
+:   MacOS: **Command** + **Umschalten** + **4**
+:   Linux: gnome-Bildschirmfoto Hilfsprogramm
 
 ## Parameters
 
@@ -104,14 +104,14 @@ Das Makro unterstützt Benutzerparameter, die mit **Werkzeuge → Parameter bear
 <div class="mw-translate-fuzzy">
 
 
-   *   
-    `LetzteX`, `LetzteY`, `LetzteBreite`, `LetzteHöhe`   * Lage und Größe des zuletzt verwendeten Schnittkastens
+:   
+    `LetzteX`, `LetzteY`, `LetzteBreite`, `LetzteHöhe`: Lage und Größe des zuletzt verwendeten Schnittkastens
 
-   *   
-    `FensterDurchsichtigkeit`(0.85)   * ein Wert zwischen 0.0 (weniger durchsichtig) und 1.0 (mehr durchsichtig)
+:   
+    `FensterDurchsichtigkeit`(0.85): ein Wert zwischen 0.0 (weniger durchsichtig) und 1.0 (mehr durchsichtig)
 
-   *   
-    `SchnittVerzögerung`(0.5)   * Zeit (in Sekunden) Verzögerung zwischen schliessen des Schnittkastens und Schnitt
+:   
+    `SchnittVerzögerung`(0.5): Zeit (in Sekunden) Verzögerung zwischen schliessen des Schnittkastens und Schnitt
 
 
 </div>
@@ -142,7 +142,7 @@ ToolBar icon ![](images/Snip.png )
 
 
 {{MacroCode|code=
-# -*- coding   * utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 ***************************************************************************
 *   Copyright (c) 2019 <TheMarkster>                                      *
@@ -157,7 +157,7 @@ ToolBar icon ![](images/Snip.png )
 *   This software is distributed in the hope that it will be useful,      *
 *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
 *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          *
-*   GNU Library General Public License at http   *//www.gnu.org/licenses     *
+*   GNU Library General Public License at http://www.gnu.org/licenses     *
 *   for more details.                                                     *
 *                                                                         *
 *   For more information about the GNU Library General Public License     *
@@ -198,8 +198,8 @@ import uuid
 import time
 import tempfile, os, shutil
 
-class SnipBox(QtGui.QDialog)   *
-    def __init__(self)   *
+class SnipBox(QtGui.QDialog):
+    def __init__(self):
         QtGui.QDialog.__init__(self)
         self.detailsTextEdit = QtGui.QTextEdit("Details")
         self.Details = QtGui.QPushButton("Details")
@@ -218,13 +218,13 @@ class SnipBox(QtGui.QDialog)   *
         self.setLayout(layout)
         self.detailsTextEdit.setVisible(False)
 
-    def setDetailedText(self, txt)   *
+    def setDetailedText(self, txt):
         self.detailsTextEdit.setText(txt)
 
-    def onDetailsClicked(self)   *
+    def onDetailsClicked(self):
         self.detailsTextEdit.setVisible(not self.detailsTextEdit.isVisible())
 
-    def event(self, e)   * #credit serge_gubenko of stackoverflow for this
+    def event(self, e): #credit serge_gubenko of stackoverflow for this
         result = QtGui.QDialog.event(self, e)
         self.setMinimumHeight(0)
         self.setMaximumHeight(16777215)
@@ -232,34 +232,34 @@ class SnipBox(QtGui.QDialog)   *
         self.setMaximumWidth(16777215)
         self.setSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
         textEdit = self.findChild(QtGui.QTextEdit)
-        if textEdit != None    *
+        if textEdit != None :
             textEdit.setMinimumHeight(0)
             textEdit.setMaximumHeight(16777215)
             textEdit.setMinimumWidth(0)
             textEdit.setMaximumWidth(16777215)
             textEdit.setSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
 #thanks to mario52 for this
-        if result == True   *
-            try   *
+        if result == True:
+            try:
                 rect = mb.frameGeometry()
                 rectwidth  = rect.width()
                 rectheight = rect.height()
                 mb.setWindowTitle("Snip macro v"+str(__version__)+"  "+str(rectwidth)+" x "+str(rectheight))
-            except Exception   *
+            except Exception:
                 None
 ##############
         return result
-pg = FreeCAD.ParamGet("User parameter   *Plugins/Snip_Macro")
+pg = FreeCAD.ParamGet("User parameter:Plugins/Snip_Macro")
 #parameters were originally in BaseApp, but should be in Plugins, so relocate if necessary
-if FreeCAD.ParamGet("User parameter   *BaseApp/Preferences").HasGroup("Snip_Macro")   *
-    deprecated = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Snip_Macro")
+if FreeCAD.ParamGet("User parameter:BaseApp/Preferences").HasGroup("Snip_Macro"):
+    deprecated = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Snip_Macro")
     pg.SetInt("LastX",deprecated.GetInt("LastX",0))
     pg.SetInt("LastY",deprecated.GetInt("LastY",0))
     pg.SetInt("LastWidth",deprecated.GetInt("LastWidth",0))
     pg.SetInt("LastHeight",deprecated.GetInt("LastHeight",0))
     pg.SetFloat("WindowOpacity",deprecated.GetFloat("WindowOpacity",0.85))
     pg.SetFloat("SnipDelay",deprecated.GetFloat("SnipDelay",0.5))
-    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences").RemGroup("Snip_Macro")
+    FreeCAD.ParamGet("User parameter:BaseApp/Preferences").RemGroup("Snip_Macro")
 
 desired_width = pg.GetInt("DesiredWidth",0) #used for scaling to desired width, maintaining aspect ratio
 pg.SetInt("DesiredWidth", desired_width)
@@ -268,16 +268,16 @@ pg.SetFloat("ScaleFactor", scale_factor)
 
 skipClipboard = False
 modifiers = QtGui.QApplication.keyboardModifiers()
-if modifiers == QtCore.Qt.ShiftModifier   *
+if modifiers == QtCore.Qt.ShiftModifier:
     skipClipboard = True
 
 userCanceled = False
-fname = "Snip macro screenshot-"+str(uuid.uuid4())[   *6]+".png"
+fname = "Snip macro screenshot-"+str(uuid.uuid4())[:6]+".png"
 image = None
-if not skipClipboard   *
+if not skipClipboard:
     clip = QtGui.QClipboard()
     image = clip.image(QtGui.QClipboard.Clipboard)
-if not image   *
+if not image:
 
     #use our own screen grabber
     mb = SnipBox()     
@@ -288,11 +288,11 @@ from the open file dialog to the forum. The file will be deleted after
 you close the dialog.
 
 If this fails you can still use this macro to handle screenshots you
-copied to the clipboard using other tools   *
+copied to the clipboard using other tools:
 
-Windows snip tool   * Window Key + Shift + S
-Mac snip tool   * Command + Shift + 4
-Linux   * gnome-screenshot utility
+Windows snip tool: Window Key + Shift + S
+Mac snip tool: Command + Shift + 4
+Linux: gnome-screenshot utility
 
 If the macro finds there is already an image copied to the clipboard 
 it uses that image instead of bringing up this dialog. Press Shift
@@ -308,8 +308,8 @@ Cancel to close the open file dialog afterwards.
 If you wish to open the screenshot file with another application, right-click
 the file and select open with... option or drag/drop to that other application.
 
-User Parameters   * These can be accessed via Tools menu -> Edit Parameters in 
-Plugins -> Snip_Macro   *
+User Parameters: These can be accessed via Tools menu -> Edit Parameters in 
+Plugins -> Snip_Macro:
 
 LastX, LastY, LastWidth, LastHeight -- location and size of snip box last use
 WindowOpacity (0.85) -- value between 0.0 (less opaque) and 1.0 (more opaque)
@@ -317,7 +317,7 @@ SnipDelay (0.5) -- time (in seconds) delay between snip box close and snip
 DesiredWidth -- image will be scaled to this width (unless it is 0) maintaining
 current aspect ratio.
 ScaleFactor -- float value, e.g. 0.5 -- image will be scaled to that scale factor.
-Note   * ScaleFactor (if not 1.0) will take precedence over DesiredWidth
+Note: ScaleFactor (if not 1.0) will take precedence over DesiredWidth
 Hold down Ctrl key to ignore scaling.
 
 The SnipDelay parameter can be adjusted to speed things up a bit, but if it 
@@ -327,7 +327,7 @@ we need to wait for it to close before taking the screenshot.
 """
     mb.setWindowTitle("Snip macro v"+str(__version__))
     mb.setDetailedText(details)
-    if pg.GetFloat("WindowOpacity",0.85) == 0.85   *
+    if pg.GetFloat("WindowOpacity",0.85) == 0.85:
         pg.SetFloat("WindowOpacity",0.85)
     mb.setWindowOpacity(pg.GetFloat("WindowOpacity",0.85))
     lastX = pg.GetInt("LastX",0)
@@ -338,9 +338,9 @@ we need to wait for it to close before taking the screenshot.
     mb.resize(lastWidth, lastHeight)
     mb.setWindowFlags(QtCore.Qt.Tool)
     result = mb.exec_()
-    if not result   *
+    if not result:
         userCanceled = True
-    if not userCanceled   *
+    if not userCanceled:
         clientRect = mb.geometry()
         rect = mb.frameGeometry()
         diff = rect.height()-clientRect.height()
@@ -350,43 +350,43 @@ we need to wait for it to close before taking the screenshot.
         pg.SetInt("LastHeight", rect.height()-diff)
         QtGui.QApplication.processEvents()
         snipDelay = pg.GetFloat("SnipDelay", 0.5)
-        if snipDelay == 0.5   *
+        if snipDelay == 0.5:
             pg.SetFloat("SnipDelay", 0.5)
         time.sleep(snipDelay) #give time for dialog to close before taking screenshot
         QtGui.QApplication.processEvents()
-        if hasattr(QtGui.QApplication,"primaryScreen")   *
+        if hasattr(QtGui.QApplication,"primaryScreen"):
             screen = QtGui.QApplication.primaryScreen()
             image = screen.grabWindow(0,rect.x(),rect.y(),rect.width(),rect.height()).toImage()
-        else   *
+        else:
             long_qdesktop_id = QtGui.QApplication.desktop().winId()
             image = QtGui.QPixmap.grabWindow(long_qdesktop_id, rect.x(), rect.y(), rect.width(), rect.height()).toImage()
-        if not image   *
-            raise Exception("Snip Macro Error   * Unable to grab screen image\n")
+        if not image:
+            raise Exception("Snip Macro Error: Unable to grab screen image\n")
         modifiers = QtGui.QApplication.keyboardModifiers()
         skipScaling = False
-        if modifiers == QtCore.Qt.ControlModifier   *
+        if modifiers == QtCore.Qt.ControlModifier:
             skipScaling = True
-        if not skipScaling   *
-            if scale_factor != 1.0   *
+        if not skipScaling:
+            if scale_factor != 1.0:
                 #image = image.scaledToWidth(rect.width()*scale_factor)
                 image = image.smoothScaled(rect.width()*scale_factor, rect.height()*scale_factor)
-            elif desired_width != 0   *
+            elif desired_width != 0:
                 #image = image.scaledToWidth(desired_width)
                 image = image.smoothScaled(desired_width, rect.height()*float(desired_width)/float(rect.width()))
 
-if not userCanceled   *
+if not userCanceled:
     dirPath = tempfile.mkdtemp()
     filePath = dirPath + os.path.sep + fname
     image.save(filePath)
     fileName = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),
     "Drag the image to the forum, then Cancel will delete the temporary file", dirPath, "PNG (*.png)")
-    if fileName[0]   *  #user selected Open or double-clicked file
+    if fileName[0]:  #user selected Open or double-clicked file
         import subprocess, os, platform
-        if platform.system() == 'Darwin'   *       # macOS
+        if platform.system() == 'Darwin':       # macOS
             subprocess.call(('open', fileName[0]))
-        elif platform.system() == 'Windows'   *    # Windows
+        elif platform.system() == 'Windows':    # Windows
             os.startfile(fileName[0])
-        else   *                                   # linux variants
+        else:                                   # linux variants
             subprocess.call(('xdg-open', fileName[0]))
         QtGui.QApplication.processEvents() #allow some time for file to open before deleting temp folder and contents
         time.sleep(1)
@@ -396,7 +396,7 @@ if not userCanceled   *
 
 ## Verweis
 
-Die Forumsdiskussion [Schnitt Makro](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=38328&sid=385bf3174dcae7fb8bdf529f4e76dfed)
+Die Forumsdiskussion [Schnitt Makro](https://forum.freecadweb.org/viewtopic.php?f=9&t=38328&sid=385bf3174dcae7fb8bdf529f4e76dfed)
 
 
 

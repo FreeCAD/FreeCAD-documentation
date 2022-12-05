@@ -1,16 +1,16 @@
 ---
-- GuiCommand   */de
-   Name   *Std SelectVisibleObjects
-   Name/de   *Std SichtbareObjekteAuswählen
-   MenuLocation   *Ansicht → Sichtbarkeit → Sichtbare Objekte auswählen
-   Workbenches   *Alle
+- GuiCommand:/de
+   Name:Std SelectVisibleObjects
+   Name/de:Std SichtbareObjekteAuswählen
+   MenuLocation:Ansicht → Sichtbarkeit → Sichtbare Objekte auswählen
+   Workbenches:Alle
 ---
 
 # Std SelectVisibleObjects/de
 
 ## Beschreibung
 
-Der Befehl **Std SichtbareObjekteAuswählen** wählt alle sichtbaren Objekte aus. Man beachte, dass für jeden [PartDesign Körper](PartDesign_Body/de.md) normalerweise zwei Objekte ausgewählt werden   * Der Körper selbst und sein {{PropertyData/de|Tip}}-Objekt.
+Der Befehl **Std SichtbareObjekteAuswählen** wählt alle sichtbaren Objekte aus. Man beachte, dass für jeden [PartDesign Körper](PartDesign_Body/de.md) normalerweise zwei Objekte ausgewählt werden: Der Körper selbst und sein {{PropertyData/de|Tip}}-Objekt.
 
 ## Anwendung
 

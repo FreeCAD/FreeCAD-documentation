@@ -5,7 +5,7 @@
 
 Die Finite-Elemente-Analyse (FEA) wird auf einem Polygonnetz durchgeführt, das aus mehreren drei- und vierseitigen finiten Elementen besteht, die einen Originalkörper unterteilen. Je feiner das Netz ist, desto genauer sind die numerischen Ergebnisse, aber desto größer ist auch die Berechnungszeit. Ein Gleichgewicht zwischen der Größe des Netzes, der Berechnungszeit und der Genauigkeit der Ergebnisse ist ein wichtiges Merkmal einer gut definierten Finite-Elemente-Analyse.
 
-Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [FEM](FEM_Workbench/de.md) einzurichten   *
+Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [FEM](FEM_Workbench/de.md) einzurichten:
 
 -   Das Werkzeug [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape/de.md) aus der grafischen Benutzeroberfläche.
 -   Das Werkzeug [FEM mesh from shape by Netgen](FEM_MeshGmshFromShape/de.md) aus der grafischen Benutzeroberfläche.
@@ -14,10 +14,10 @@ Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [FEM](FEM
 
 Die Gmsh und Netgen Werkzeuge unterstützen die Vernetzung von Körpern, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, sowie einfache Kopien dieser Körper. Im Allgemeinen kann jeder Arbeitsbereich, der Volumenkörper erzeugt, wie z.B. der Arbeitsbereich [Arch](Arch_Workbench/de.md), als Grundlage für die Erstellung von Polygonnetzen verwendet werden. Beachte, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [Mesh](Mesh_Workbench/de.md) erstellt oder importiert wurde.
 
-<img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;"> 
+<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Der Arbeitsbereich FEM ruft das externe Werkzeug Gmsh auf, um ein Netz aus einem Volumenkörper zu erhalten, der mit einem beliebigen Arbeitsbereich in FreeCAD erstellt wurde; es kann auch ein extern erstelltes Netz importieren*
 
-<img alt="" src=images/FEM_Mesh.png  style="width   *600px;"> 
+<img alt="" src=images/FEM_Mesh.png  style="width:600px;"> 
 *(1) Festkörper, der mit PartDesign erzeugt wurde; (2) Netz, das mit dem Gmsh Werkzeug innerhalb des FEM Arbeitsbereich erzeugt wurde (alle Dreiecke); und (3) Netz, das extern mit Gmsh erzeugt wurde, in das Abaqus Format **.inp* exportiert und dann in FreeCAD importiert wurde (alle Vierecke)**
 
 Die [Gmsh-](FEM_MeshGmshFromShape/de.md) und [Netgen-Werkzeuge](FEM_MeshNetgenFromShape/de.md) sind einfach anzuwendende Werkzeuge, um einen Körper schnell zu vernetzen, und besitzen nicht den vollen Funktionsumfang dieser Programme; sie erzeugen normalerweise Dreiecksnetze, die für manche Arten von Analysen nicht ideal sind. Wird mehr Kontrolle über das erstellte Netz gebraucht (nur Vierecke verwenden, genaue Elementanzahl und -Größe, variable Auflösung des Netzes, usw.), sollten diese Programme extern verwendet, eine Netzdatei in einem unterstützten Format (**.inp**, **.unv**, **.vtk**, **.z88**) erzeugt und diese Datei in FreeCAD importiert werden.
@@ -32,20 +32,20 @@ Der Arbeitsbereich [FEM](FEM_Workbench/de.md) hat einfache Kommunikationsoberfl�
 
 ### Oberfläche in FreeCAD implementiert 
 
--   Gmsh   * [Hauptwebseite](http   *//gmsh.info/), [Code Repositorium](https   *//gitlab.onelab.info/gmsh/gmsh)
--   Netgen   * [Hauptwebseite](https   *//ngsolve.org/), [Code Repositorium](https   *//github.com/NGSolve/netgen)
+-   Gmsh: [Hauptwebseite](http://gmsh.info/), [Code Repositorium](https://gitlab.onelab.info/gmsh/gmsh)
+-   Netgen: [Hauptwebseite](https://ngsolve.org/), [Code Repositorium](https://github.com/NGSolve/netgen)
 
 ### Keine Oberfläche in FreeCAD 
 
--   ENigMA, [1](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33048beitrag), [Code Repositorium](https   *//github.com/bjaraujo/ENigMA)
--   libMesh, [Hauptwebseite](http   *//libmesh.github.io/), [Code Repositorium](https   *//github.com/libMesh/libmesh), [Forumsbeitrag](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33621); es ist ein sehr aktives Projekt, und es ist nur C++
--   PythonOCC, [Haupt-Webseite](http   *//www.pythonocc.org/)
--   SnappyHexMesh, [Hauptwebseite](https   *//openfoamwiki.net/index.php/SnappyHexMesh)
--   Tetgen, [Hauptwebseite](http   *//wias-berlin.de/software/tetgen/)
+-   ENigMA, [1](https://forum.freecadweb.org/viewtopic.php?f=18&t=33048beitrag), [Code Repositorium](https://github.com/bjaraujo/ENigMA)
+-   libMesh, [Hauptwebseite](http://libmesh.github.io/), [Code Repositorium](https://github.com/libMesh/libmesh), [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=18&t=33621); es ist ein sehr aktives Projekt, und es ist nur C++
+-   PythonOCC, [Haupt-Webseite](http://www.pythonocc.org/)
+-   SnappyHexMesh, [Hauptwebseite](https://openfoamwiki.net/index.php/SnappyHexMesh)
+-   Tetgen, [Hauptwebseite](http://wias-berlin.de/software/tetgen/)
 
 ## Netzelemente in FreeCAD 
 
-FreeCAD unterstützt verschiedene Elementtypen. Der folgende Artikel erklärt den Unterschied zwischen ihnen und wann sie verwendet werden sollten (engl.)   * [Meshing Your Geometry   * When to Use the Various Element Types](https   *//www.comsol.com/blogs/meshing-your-geometry-various-element-types/).
+FreeCAD unterstützt verschiedene Elementtypen. Der folgende Artikel erklärt den Unterschied zwischen ihnen und wann sie verwendet werden sollten (engl.): [Meshing Your Geometry: When to Use the Various Element Types](https://www.comsol.com/blogs/meshing-your-geometry-various-element-types/).
 
 <table>
 <caption>Import and export of mesh elements</caption>
@@ -590,10 +590,10 @@ but it's not readable or writable by FEniCS</p></td>
 </tbody>
 </table>
 
-   * Import and export of mesh elements
+: Import and export of mesh elements
 
 -   NI\" bedeutet, dass der Elementtyp in FreeCAD nicht implementiert ist, aber das Format ihn unterstützen würde.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *20px;"> bedeutet, dass die Formatspezifikation diesen Elementtyp nicht unterstützt, so dass FreeCAD ihn nicht unterstützen kann.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:20px;"> bedeutet, dass die Formatspezifikation diesen Elementtyp nicht unterstützt, so dass FreeCAD ihn nicht unterstützen kann.
 -   \"?\" bedeutet, dass es nicht bekannt ist, ob das Format diesen Elementtyp unterstützt.
 
 ## FEM Elementtypen 
@@ -602,51 +602,51 @@ Mehr Informationen über die Elemente und ihre Datenstruktur in FreeCAD kann in 
 
 ### Segmentelement
 
-<img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
 ### Dreieckelement
 
-<img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
 
 ### Viereckelement
 
-<img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
 ### Tetraederelement
 
-<img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
 
 ### Hexaederelement
 
-<img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
 ### Pentaederelement (Prisma) 
 
-<img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
 ### Pyramidenelement
 
-<img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width   *600px;">
+<img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
 ## Skripten
 
 ### Ein FEM-Netz komplett in Python erstellen 
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Die Python API ermöglicht dem Benutzer ein Finite Element Netz festzulegen, durch direktes hinzufügen einzelner Knoten und festlegen von Kanten, Flächen und Volumen.
 
-Das Netz selbst ist vom Typ `Fem   *   *FemMesh`, das an ein entsprechendes Dokumentobjekt vom Typ `Fem   *   *FemMeshObject` angehängt werden muss .
+Das Netz selbst ist vom Typ `Fem::FemMesh`, das an ein entsprechendes Dokumentobjekt vom Typ `Fem::FemMeshObject` angehängt werden muss .
 
 
 ```python
-App.ActiveDocument.Mesh_object.TypeId = Fem   *   *FemMeshObject
+App.ActiveDocument.Mesh_object.TypeId = Fem::FemMeshObject
                               .
                               .
-                              .FemMesh.TypeId = Fem   *   *FemMesh
+                              .FemMesh.TypeId = Fem::FemMesh
 ```
 
 #### Erstellen eines Netzes mit einem Tet-10 Element 
@@ -695,7 +695,7 @@ a.addNode(0.03, 0,    0.5,  9)
 a.addNode(0.5,  0,    0,   10)
 
 a.addVolume([1,2,3,4,5,6,7,8,9,10], 1)
-obj_2 = FreeCAD.ActiveDocument.addObject("Fem   *   *FemMeshObject")
+obj_2 = FreeCAD.ActiveDocument.addObject("Fem::FemMeshObject")
 obj_2.Placement.Base = FreeCAD.Vector(2, 0, 0)
 obj_2.FemMesh = a
 ```
@@ -712,30 +712,30 @@ obj = FreeCAD.ActiveDocument.ActiveObject
 obj.ViewObject.HighlightedNodes = [1, 2, 3]
 ```
 
-Die einzelnen Elemente eines Netzes können durch die Übergabe eines Wörterbuchs mit den entsprechenden `key   *value` Paaren modifiziert werden
+Die einzelnen Elemente eines Netzes können durch die Übergabe eines Wörterbuchs mit den entsprechenden `key:value` Paaren modifiziert werden
 
 Setze das Volumen 1 auf rot
 
 
 ```python
-obj.ViewObject.ElementColor = {1   *(1,0,0)}
+obj.ViewObject.ElementColor = {1:(1,0,0)}
 ```
 
 Setzt man die Knoten 1, 2 und 3 auf unterschiedliche Farben, erhält die Fläche dazwischen eine daraus errechnete Farbe.
 
 
 ```python
-obj.ViewObject.NodeColor = {1   *(1,0,0), 2   *(0,1,0), 3   *(0,0,1)}
+obj.ViewObject.NodeColor = {1:(1,0,0), 2:(0,1,0), 3:(0,0,1)}
 ```
 
 Displace the nodes 1 and 2 by the magnitude and direction defined by a vector.
 
 
 ```python
-obj.ViewObject.NodeDisplacement = {1   *FreeCAD.Vector(0,1,0), 2   *FreeCAD.Vector(1,0,0)}
+obj.ViewObject.NodeDisplacement = {1:FreeCAD.Vector(0,1,0), 2:FreeCAD.Vector(1,0,0)}
 ```
 
-Double the factor of the displacement shown. (**Note to editors   * removed in newer versions?**)
+Double the factor of the displacement shown. (**Note to editors: removed in newer versions?**)
 
 
 ```python
@@ -756,7 +756,7 @@ seg2.addNode(10, 0, 0, 2)
 seg2.addEdge(1, 2)
 print(seg2)
 
-obj = FreeCAD.ActiveDocument.addObject("Fem   *   *FemMeshObject", "seg2")
+obj = FreeCAD.ActiveDocument.addObject("Fem::FemMeshObject", "seg2")
 obj.FemMesh = seg2
 obj.Placement.Base = FreeCAD.Vector(0, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -775,7 +775,7 @@ seg3.addNode( 5, 0, 0, 3)
 seg3.addEdge([1, 2, 3])
 print(seg3)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "seg3")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "seg3")
 obj.FemMesh = seg3
 obj.Placement.Base = FreeCAD.Vector(30, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -794,7 +794,7 @@ tria3.addNode(12,  0, 0, 3)
 tria3.addFace([1, 2, 3])
 print(tria3)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "tria3")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "tria3")
 obj.FemMesh = tria3
 obj.Placement.Base = FreeCAD.Vector(0, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -807,12 +807,12 @@ Add a face with the element number.
 ```python
 elemtria3 = Fem.FemMesh()
 nodes = tria3.Nodes
-for n in nodes   *
+for n in nodes:
     elemtria3.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemtria3.addFace([1, 2, 3], 88)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemtria3")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemtria3")
 obj.FemMesh = elemtria3
 obj.Placement.Base = FreeCAD.Vector(200, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -836,7 +836,7 @@ tria6.addNode( 6,  0, 0, 6)
 tria6.addFace([1, 2, 3, 4, 5, 6])
 print(tria6)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "tria6")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "tria6")
 obj.FemMesh = tria6
 obj.Placement.Base = FreeCAD.Vector(30, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -849,11 +849,11 @@ Add a face with the element number.
 ```python
 elemtria6 = Fem.FemMesh()
 nodes = tria6.Nodes
-for n in nodes   *
+for n in nodes:
     elemtria6.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemtria6.addFace([1, 2, 3, 4, 5, 6], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemtria6")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemtria6")
 obj.FemMesh = elemtria6
 obj.Placement.Base = FreeCAD.Vector(230, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -875,7 +875,7 @@ quad4.addNode( 0,  0, 0, 4)
 quad4.addFace([1, 2, 3, 4])
 print(quad4)
 
-obj = FreeCAD.ActiveDocument.addObject("Fem   *   *FemMeshObject", "quad4")
+obj = FreeCAD.ActiveDocument.addObject("Fem::FemMeshObject", "quad4")
 obj.FemMesh = quad4
 obj.Placement.Base = FreeCAD.Vector(60, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -888,11 +888,11 @@ Add a face with the element number.
 ```python
 elemquad4 = Fem.FemMesh()
 nodes = quad4.Nodes
-for n in nodes   *
+for n in nodes:
     elemquad4.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemquad4.addFace([1, 2, 3, 4], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemquad4")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemquad4")
 obj.FemMesh = elemquad4
 obj.Placement.Base = FreeCAD.Vector(260, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -918,7 +918,7 @@ quad8.addNode( 0,  5, 0, 8)
 quad8.addFace([1, 2, 3, 4, 5, 6, 7, 8])
 print(quad8)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "quad8")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "quad8")
 obj.FemMesh = quad8
 obj.Placement.Base = FreeCAD.Vector(90, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -931,11 +931,11 @@ Add a face with the element number.
 ```python
 elemquad8 = Fem.FemMesh()
 nodes = quad8.Nodes
-for n in nodes   *
+for n in nodes:
     elemquad8.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemquad8.addFace([1, 2, 3, 4, 5, 6, 7, 8], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemquad8")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemquad8")
 obj.FemMesh = elemquad8
 obj.Placement.Base = FreeCAD.Vector(290, 80, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -957,7 +957,7 @@ tetra4.addNode( 6,  6,  0, 4)
 tetra4.addVolume([1, 2, 3, 4])
 print(tetra4)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "tetra4")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "tetra4")
 obj.FemMesh = tetra4
 obj.Placement.Base = FreeCAD.Vector(0, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -969,11 +969,11 @@ Add a volume with the element number.
 ```python
 elemtetra4 = Fem.FemMesh()
 nodes = tetra4.Nodes
-for n in nodes   *
+for n in nodes:
     elemtetra4.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemtetra4.addVolume([1, 2, 3, 4], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemtetra4")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemtetra4")
 obj.FemMesh = elemtetra4
 obj.Placement.Base = FreeCAD.Vector(200, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1002,7 +1002,7 @@ tetra10.addNode( 9,  3,  9,10)
 tetra10.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 print(tetra10)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "tetra10")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "tetra10")
 obj.FemMesh = tetra10
 obj.Placement.Base = FreeCAD.Vector(30, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1014,11 +1014,11 @@ Add a volume with the element number.
 ```python
 elemtetra10 = Fem.FemMesh()
 nodes = tetra10.Nodes
-for n in nodes   *
+for n in nodes:
     elemtetra10.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemtetra10.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemtetra10")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemtetra10")
 obj.FemMesh = elemtetra10
 obj.Placement.Base = FreeCAD.Vector(230, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1043,7 +1043,7 @@ hexa8.addNode(10, 10,  0, 8)
 hexa8.addVolume([1, 2, 3, 4, 5, 6, 7, 8])
 print(hexa8)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "hexa8")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "hexa8")
 obj.FemMesh = hexa8
 obj.Placement.Base = FreeCAD.Vector(60, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1055,11 +1055,11 @@ Add a volume with the element number.
 ```python
 elemhexa8 = Fem.FemMesh()
 nodes = hexa8.Nodes
-for n in nodes   *
+for n in nodes:
     elemhexa8.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemhexa8.addVolume([1,  2,  3, 4, 5, 6, 7, 8], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemhexa8")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemhexa8")
 obj.FemMesh = elemhexa8
 obj.Placement.Base = FreeCAD.Vector(260, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1099,7 +1099,7 @@ hexa20.addNode(10, 10,  5, 20)
 hexa20.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
 print(hexa20)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "hexa20")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "hexa20")
 obj.FemMesh = hexa20
 obj.Placement.Base = FreeCAD.Vector(90, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1111,11 +1111,11 @@ Add a volume with the element number.
 ```python
 elemhexa20 = Fem.FemMesh()
 nodes = hexa20.Nodes
-for n in nodes   *
+for n in nodes:
     elemhexa20.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elemhexa20.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elemhexa20")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elemhexa20")
 obj.FemMesh = elemhexa20
 obj.Placement.Base = FreeCAD.Vector(290, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1138,7 +1138,7 @@ penta6.addNode(20,  0,  0, 6)
 penta6.addVolume([1, 2, 3, 4, 5, 6])
 print(penta6)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "penta6")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "penta6")
 obj.FemMesh = penta6
 obj.Placement.Base = FreeCAD.Vector(0, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1150,11 +1150,11 @@ Add a volume with the element number.
 ```python
 elempenta6 = Fem.FemMesh()
 nodes = penta6.Nodes
-for n in nodes   *
+for n in nodes:
     elempenta6.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elempenta6.addVolume([ 1, 2, 3, 4, 5, 6], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elempenta6")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elempenta6")
 obj.FemMesh = elempenta6
 obj.Placement.Base = FreeCAD.Vector(200, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1189,7 +1189,7 @@ penta15.addNode(20,  0,  5, 15)
 penta15.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 print(penta15)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "penta15")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "penta15")
 obj.FemMesh = penta15
 obj.Placement.Base = FreeCAD.Vector(40, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1201,11 +1201,11 @@ Add a volume with the element number.
 ```python
 elempenta15 = Fem.FemMesh()
 nodes = penta15.Nodes
-for n in nodes   *
+for n in nodes:
     elempenta15.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elempenta15.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elempenta15")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elempenta15")
 obj.FemMesh = elempenta15
 obj.Placement.Base = FreeCAD.Vector(240, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1227,7 +1227,7 @@ pyra5.addNode(10, 10, 10, 5)
 pyra5.addVolume([1, 2, 3, 4, 5])
 print(pyra5)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "pyra5")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "pyra5")
 obj.FemMesh = pyra5
 obj.Placement.Base = FreeCAD.Vector(80, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1239,11 +1239,11 @@ Add a volume with the element number.
 ```python
 elempyra5 = Fem.FemMesh()
 nodes = pyra5.Nodes
-for n in nodes   *
+for n in nodes:
     elempyra5.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elempyra5.addVolume([1, 2, 3, 4, 5], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elempyra5")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elempyra5")
 obj.FemMesh = elempyra5
 obj.Placement.Base = FreeCAD.Vector(280, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1275,7 +1275,7 @@ pyra13.addNode( 5,  5,  5, 13)
 pyra13.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
 print(pyra13)
 
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "pyra13")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "pyra13")
 obj.FemMesh = pyra13
 obj.Placement.Base = FreeCAD.Vector(120, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1287,11 +1287,11 @@ Füge ein Volumen mit der Elementnummer hinzu.
 ```python
 elempyra13 = Fem.FemMesh()
 nodes = pyra13.Nodes
-for n in nodes   *
+for n in nodes:
     elempyra13.addNode(nodes[n].x, nodes[n].y, nodes[n].z, n)
 
 elempyra13.addVolume([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 88)
-obj = App.ActiveDocument.addObject("Fem   *   *FemMeshObject", "elempyra13")
+obj = App.ActiveDocument.addObject("Fem::FemMeshObject", "elempyra13")
 obj.FemMesh = elempyra13
 obj.Placement.Base = FreeCAD.Vector(320, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
@@ -1300,7 +1300,7 @@ print(elempyra13.Volumes)
 
 ## Scripting examples for groups 
 
-See for example <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=20#p318823>
+See for example <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=20#p318823>
 
 
 {{FEM Tools navi

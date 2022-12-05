@@ -1,11 +1,11 @@
 # Mesh RemoveComponents/it
 ---
-- GuiCommand   */it
-   Name   *Mesh_RemoveComponents
-   Name/it   *Rimuovi componenti‏‎
-   MenuLocation   *Mesh → Rimuovi componenti...
-   Workbenches   *[Mesh](Mesh_Workbench/it.md)
-   SeeAlso   *[Rimuovi componente a mano](Mesh_RemoveCompByHand/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)---
+- GuiCommand:/it
+   Name:Mesh_RemoveComponents
+   Name/it:Rimuovi componenti‏‎
+   MenuLocation:Mesh → Rimuovi componenti...
+   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   SeeAlso:[Rimuovi componente a mano](Mesh_RemoveCompByHand/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)---
 
 ## Descrizione
 
@@ -19,12 +19,12 @@ Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 
 <div class="mw-translate-fuzzy">
 
-1.  Il comando utilizza il colore rosso per contrassegnare le facce selezionate. Per vederle correttamente   *
+1.  Il comando utilizza il colore rosso per contrassegnare le facce selezionate. Per vederle correttamente:
     -   La **Modalità di visualizzazione** degli oggetti mesh idealmente dovrebbe essere {{Value|Flat lines}}, ma dovrebbe almeno mostrare le facce. Se necessario, utilizzare il comando [Stile di disegno](Std_DrawStyle/it.md) per sovrascrivere questa proprietà.
     -   Il **Shape Color** degli oggetti mesh non dovrebbe essere rosso.
 2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_RemoveComponents.svg" width=16px> Rimuovi componenti...** dal menu.
 3.  Si apre il pannello delle azioni **Rimuovi componenti**.
-4.  Utilizzare una o più delle opzioni **Seleziona** per selezionare le facce   *
+4.  Utilizzare una o più delle opzioni **Seleziona** per selezionare le facce:
     -   Premere il pulsante **Regione** e tenendo premuto il pulsante sinistro del mouse disegnare una regione, una spline chiusa, nella [vista 3D](3D_view/it.md). Verranno selezionate le facce che corrispondono alle **Opzioni regione** e rientrano (parzialmente) nella regione.
     -   Premere il pulsante **Tutto** per selezionare tutte le facce.
     -   Premere il pulsante **Componenti** per selezionare tutti i componenti con un numero di facce inferiore a quello massimo specificato. Qui un componente si riferisce a un gruppo completo di facce collegate. Di solito un oggetto mesh contiene un singolo componente. Ma, ad esempio, dopo aver utilizzato il comando [Unisci mesh](Mesh_Merge/it.md), un oggetto mesh può contenere più componenti.

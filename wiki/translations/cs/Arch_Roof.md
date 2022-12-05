@@ -1,6 +1,6 @@
 # Arch Roof/cs
 ---
-- GuiCommand   */cs   Name   *Arch Roof   Name/cs   *Arch Střecha   Workbenches   *[[Arch_Workbench/cs   Arch]]|MenuLocation   *Arch → Střecha   Shortcut   *R F---
+- GuiCommand:/cs   Name:Arch Roof   Name/cs:Arch Střecha   Workbenches:[[Arch_Workbench/cs   Arch]]|MenuLocation:Arch → Střecha   Shortcut:R F---
 
 
 </div>
@@ -15,14 +15,14 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 </div>
 
-**Note   *** This tool is still in development, and might fail with very complex shapes.
+**Note:** This tool is still in development, and might fail with very complex shapes.
 
-<img alt="" src=images/RoofExample.png  style="width   *600px;">
+<img alt="" src=images/RoofExample.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/RoofExample.png  style="width   *600px;">
+<img alt="" src=images/RoofExample.png  style="width:600px;">
 
 
 </div>
@@ -39,7 +39,7 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 <div class="mw-translate-fuzzy">
 
 1.  Vytvořte drát proti směru hodinových ručiček a vyberte jej.
-    -   <img alt="" src=images/CounterclockwiseWire.png  style="width   *600px;">
+    -   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 2.  Klikněte na **<img src="images/Arch_Roof.png" width=16px> [Arch Střecha](Arch_Roof.md)
 ** nebo stiskněte klávesy **R** a potom **F**
 3.  Standardní objekt střechy může mít podivný tvar. Je to proto, že nástoj nemá všechny potřebné informace.
@@ -47,12 +47,12 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
     -   ![](images/RoofTable.png )
 5.  Každá čára koresponduje se střešním panelem. Takže můžete nastavit požadované vlastnosti pro každý panel střechy.
 6.  Může Vám pomoci to, že můžete nastavit Úhel nebo Vnitřní šířku na 0 a definovat Relativní Id, což zajistí automatický výpočet pro vyhledání relativních dat k relativnímu Id.
-7.  Funguje to následovně   *
+7.  Funguje to následovně:
     1.  Je-li Úhel = 0 a Vnitřní šířka = 0 pak profil je identický k relativnímu profilu.
     2.  Je-li Úhel = 0 pak úhel je vypočten tak, že výška je stejná jako u relativních profilu.
     3.  Je-li Sklon = 0 pak Vnitřní šířka je vypočtena tak, že výška je stejná jako u relativních profilu.
 8.  A nakonec, nastavení úhlu na 90 stupňů vytvoří štít.
-    -   <img alt="" src=images/RoofProfil.png  style="width   *600px;">
+    -   <img alt="" src=images/RoofProfil.png  style="width:600px;">
 
 
 </div>
@@ -66,17 +66,17 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 <div class="mw-translate-fuzzy">
 
--    **Úhly**   * Seznam šikmých úhlů střešních panelů (úhel pro každou hranu v drátu).
+-    **Úhly**: Seznam šikmých úhlů střešních panelů (úhel pro každou hranu v drátu).
 
--    **Vnitřní šířky**   * Seznam šířek střešních panelů (sklon pro každou hranu drátu).
+-    **Vnitřní šířky**: Seznam šířek střešních panelů (sklon pro každou hranu drátu).
 
--    **IdRel**   * Seznam relací Id úhlů sklonů střechy
+-    **IdRel**: Seznam relací Id úhlů sklonů střechy
 
--    **Tloušťka**   * Seznam tlouštěk střešních panelů (tloušťka pro každou hranu v drátu).
+-    **Tloušťka**: Seznam tlouštěk střešních panelů (tloušťka pro každou hranu v drátu).
 
--    **Přesah**   * Seznam přesahů střešních panelů (přesah pro každou hranu v drátu).
+-    **Přesah**: Seznam přesahů střešních panelů (přesah pro každou hranu v drátu).
 
--    **Povrch**   * Index povrchu, který má být použit u základního objektu #Ve skutečnosti není použit
+-    **Povrch**: Index povrchu, který má být použit u základního objektu #Ve skutečnosti není použit
 
 
 </div>
@@ -92,7 +92,7 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Střecha může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
+Nástroj Střecha může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
@@ -106,12 +106,12 @@ Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thick
 <div class="mw-translate-fuzzy">
 
 
-   *   Vytvoří střechu založenou na uzavřeném drátu. Můžete dodat seznam úhlů, vnitřních šířek, idrel (relativních Id), tlouštěk, přesahů pro každou hranu v drátu, který definuje tvar střechy. Standard pro úhel je 45 stupňů a seznam je automaticky zkompletován tak aby odpovídal počtu hran v drátu.
+:   Vytvoří střechu založenou na uzavřeném drátu. Můžete dodat seznam úhlů, vnitřních šířek, idrel (relativních Id), tlouštěk, přesahů pro každou hranu v drátu, který definuje tvar střechy. Standard pro úhel je 45 stupňů a seznam je automaticky zkompletován tak aby odpovídal počtu hran v drátu.
 
 
 </div>
 
-Příklad   *
+Příklad:
 
 
 ```python
@@ -142,11 +142,6 @@ doc.recompute()
 
 
 </div>
-
-
- 
-
-[Category   *Arch/cs](Category   *Arch/cs.md)
 
 
 

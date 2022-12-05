@@ -12,9 +12,9 @@
 Calcule la différence entre deux formes. Les ajouts sont marqués en rouge, les retraits sont marqués en vert. Les deux parties originales seront à moitié transparentes. Le volume des ajouts et des retraits est imprimé dans la console.
 
 
-{{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
 
-<img alt="" src=images/Macro_HighlightDifference_02.png style="width   *400px;"> 
+<img alt="" src=images/Macro_HighlightDifference_02.png style="width:400px;"> 
 *Le résultat de la différence entre les deux objets est créé*
 
 ## Exemple
@@ -22,7 +22,7 @@ Calcule la différence entre deux formes. Les ajouts sont marqués en rouge, les
 
 <center>
 
-Image   *Macro HighlightDifference 00.png\|Objets originaux Image   *Macro HighlightDifference 02.png\|Le résultat est coloré en rouge et vert (ici les objets sont décalés) Image   *Macro HighlightDifference 01.png\|Les objets originaux sont transparents à 80% et non modifiés
+Image:Macro HighlightDifference 00.png\|Objets originaux Image:Macro HighlightDifference 02.png\|Le résultat est coloré en rouge et vert (ici les objets sont décalés) Image:Macro HighlightDifference 01.png\|Les objets originaux sont transparents à 80% et non modifiés
 
 
 </center>
@@ -32,12 +32,12 @@ Image   *Macro HighlightDifference 00.png\|Objets originaux Image   *Macro Highl
 
 ## Script
 
-Le code est visible sur Github   * [Utility/HighlightDifference.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
+Le code est visible sur Github: [Utility/HighlightDifference.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
 
 ## Liens
 
 -   Voir la macro complémentaire [Macro_HighlightCommon](Macro_HighlightCommon/fr.md)
--   La discussion sur le forum [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+-   La discussion sur le forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
 
 

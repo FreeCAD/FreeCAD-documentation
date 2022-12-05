@@ -1,12 +1,12 @@
 ---
-- TutorialInfo   */pl
-   Topic   *Modelowanie
-   Level   *Początkujący
-   Author   *heda
-   Time   *1.5 godziny
-   FCVersion   *0.19 lub nowszy
-   Files   *nie dołączono
-   SeeAlso   *[Środowisko Część   * Tworzenie prostej części](Creating_a_simple_part_with_Part_WB/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_PartDesign/pl.md)
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:Początkujący
+   Author:heda
+   Time:1.5 godziny
+   FCVersion:0.19 lub nowszy
+   Files:nie dołączono
+   SeeAlso:[Środowisko Część: Tworzenie prostej części](Creating_a_simple_part_with_Part_WB/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_PartDesign/pl.md)
 ---
 
 # Creating a simple part with Draft and Part WB/pl
@@ -17,7 +17,7 @@
 
 ## Wprowadzenie
 
-Ten poradnik ma na celu wykorzystanie go jako pierwsze wprowadzenie do środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) ![](images/Switch_DraftWorkbench.JPG ) w programie FreeCAD. Poradnik wykorzystuje *kształt 2D* do stworzenia *bryły 3D*, co jest realizowane za pomocą środowiska [Część](Part_Workbench/pl.md). Zaleca się, aby czytelnik najpierw zapoznał się z poradnikiem *[Środowisko Część   * Tworzenie prostej części](Creating_a_simple_part_with_Part_WB/pl.md)*, który tworzy ten sam model przy użyciu innej techniki, jednocześnie obejmując więcej podstaw interfejsu użytkownika programu FreeCAD. Ten poradnik oczekuje od użytkownika krótkiej znajomości zarówno interfejsu użytkownika jak i niektórych przepływów pracy dostępnych w FreeCAD. Poradnik jest tak skomponowany, że jego celem nie jest koniecznie pokazanie najbardziej efektywnego sposobu korzystania z programu, ale raczej uświadomienie czytelnikowi różnych funkcjonalności dostępnych w FreeCAD, jak z nich korzystać i gdzie je znaleźć.
+Ten poradnik ma na celu wykorzystanie go jako pierwsze wprowadzenie do środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) ![](images/Switch_DraftWorkbench.JPG ) w programie FreeCAD. Poradnik wykorzystuje *kształt 2D* do stworzenia *bryły 3D*, co jest realizowane za pomocą środowiska [Część](Part_Workbench/pl.md). Zaleca się, aby czytelnik najpierw zapoznał się z poradnikiem *[Środowisko Część: Tworzenie prostej części](Creating_a_simple_part_with_Part_WB/pl.md)*, który tworzy ten sam model przy użyciu innej techniki, jednocześnie obejmując więcej podstaw interfejsu użytkownika programu FreeCAD. Ten poradnik oczekuje od użytkownika krótkiej znajomości zarówno interfejsu użytkownika jak i niektórych przepływów pracy dostępnych w FreeCAD. Poradnik jest tak skomponowany, że jego celem nie jest koniecznie pokazanie najbardziej efektywnego sposobu korzystania z programu, ale raczej uświadomienie czytelnikowi różnych funkcjonalności dostępnych w FreeCAD, jak z nich korzystać i gdzie je znaleźć.
 
 ### Przewodnik zawiera następujące zagadnienia 
 
@@ -32,17 +32,17 @@ Ten poradnik ma na celu wykorzystanie go jako pierwsze wprowadzenie do środowis
 
 ## Model do wykonania 
 
-<img alt="" src=images/GGTuto1_Vue.PNG  style="width   *372px;">
+<img alt="" src=images/GGTuto1_Vue.PNG  style="width:372px;">
 
 ![](images/T101pwb01-02_dims.png )
 
 ## Tworzenie profilu 2D 
 
-Utwórz nowy dokument i zapisz go odrazu pod nową nazwą. Zmień widok na <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> [Od góry](Std_ViewTop/pl.md) i uruchom środowisko pracy <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), Twój ekran powinien wyglądać jak poniżej. Jeśli siatka nie jest widoczna, przełącz ją za pomocą przycisku <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Pokaż / ukryj siatkę](Draft_ToggleGrid/pl.md).
+Utwórz nowy dokument i zapisz go odrazu pod nową nazwą. Zmień widok na <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Od góry](Std_ViewTop/pl.md) i uruchom środowisko pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), Twój ekran powinien wyglądać jak poniżej. Jeśli siatka nie jest widoczna, przełącz ją za pomocą przycisku <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> [Pokaż / ukryj siatkę](Draft_ToggleGrid/pl.md).
 
 ![](images/T101dwb01-01draftgrid.png )
 
-Aby rozpocząć profil, narysuj dowolny <img alt="" src=images/Draft_Rectangle.svg  style="width   *24px;"> [Prostokąt](Draft_Rectangle/pl.md) na płaszczyźnie XY, klikając 2 punkty w oknie [widoku 3D](3D_view/pl.md) tworzące dowolną przekątną prostokąta. Po wywołaniu polecenia otworzy się *panel zadań*, tym razem nie będziemy z niego korzystać, ale możesz oczywiście bezpośrednio wprowadzić współrzędne prostokąta. Twój widok 3D powinien mieć teraz narysowany prostokąt, podobny do tego z poniższego obrazka.
+Aby rozpocząć profil, narysuj dowolny <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Prostokąt](Draft_Rectangle/pl.md) na płaszczyźnie XY, klikając 2 punkty w oknie [widoku 3D](3D_view/pl.md) tworzące dowolną przekątną prostokąta. Po wywołaniu polecenia otworzy się *panel zadań*, tym razem nie będziemy z niego korzystać, ale możesz oczywiście bezpośrednio wprowadzić współrzędne prostokąta. Twój widok 3D powinien mieć teraz narysowany prostokąt, podobny do tego z poniższego obrazka.
 
 ![](images/T101dwb01-02rectangleraw.png )
 
@@ -52,37 +52,37 @@ Widok z boku naszego finalnego modelu ma zewnętrzny obrys 100 x 50 mm i dobrze 
 
 ![](images/T101dwb01-03rectangleprops.png )
 
-**Prostokąt** jest skończony i powinien wyglądać tak po zastosowaniu narzędzia <img alt="" src=images/Std_ViewFitAll.svg  style="width   *24px;"> [Dopasuj wszystko](Std_ViewFitAll/pl.md) do widoku.
+**Prostokąt** jest skończony i powinien wyglądać tak po zastosowaniu narzędzia <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> [Dopasuj wszystko](Std_ViewFitAll/pl.md) do widoku.
 
 ![](images/T101dwb01-04rectangledone.png )
 
-Następnie rozbijemy prostokąt na jego cztery krawędzie, zrobimy to wybierając najpierw **Prostokąt**, a następnie wywołując polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width   *24px;"> [Rozbij kształt](Draft_Downgrade/pl.md), wypełnienie ściany zniknie, a obiekt w *Widoku drzewa* ma teraz nazwę **Wire** zamiast **Rectangle**, co widać na lewym obrazku poniżej. Ponowne wywołanie funkcji **Rozbij kształt** spowoduje rozbicie obiektu *Wire* na jego *Krawędzie*, co widać na środkowym obrazku poniżej.
+Następnie rozbijemy prostokąt na jego cztery krawędzie, zrobimy to wybierając najpierw **Prostokąt**, a następnie wywołując polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> [Rozbij kształt](Draft_Downgrade/pl.md), wypełnienie ściany zniknie, a obiekt w *Widoku drzewa* ma teraz nazwę **Wire** zamiast **Rectangle**, co widać na lewym obrazku poniżej. Ponowne wywołanie funkcji **Rozbij kształt** spowoduje rozbicie obiektu *Wire* na jego *Krawędzie*, co widać na środkowym obrazku poniżej.
 
 ![](images/T101dwb01-05rectangledowngrade.png )
 
-Osoby spostrzegawcze zauważą, że ikona obiektu w widoku drzewa już dla krzywej łamanej zmieniła się na *niebieski sześcian*. Ten niebieski sześcian to ikona używana dla ogólnych obiektów geometrycznych *(konkretnie obiektów geometrycznych środowisku pracy Projekt Części, ale to dla zaawansowanych czytelników)*. Zaznacz lewą pionową krawędź i wywołaj polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Ulepsz kształt](Draft_Upgrade/pl.md), dawna *krawędź* będzie miała teraz inną ikonę i zmieniła *etykietę* na *Linia*. Jest to teraz obiekt środowiska *Rysunek Roboczy*, w którym można edytować na przykład *punkt początkowy* i *punkt końcowy* poprzez *Edytor właściwości*, nie jest to możliwe w przypadku obiektów *krawędzi*.
+Osoby spostrzegawcze zauważą, że ikona obiektu w widoku drzewa już dla krzywej łamanej zmieniła się na *niebieski sześcian*. Ten niebieski sześcian to ikona używana dla ogólnych obiektów geometrycznych *(konkretnie obiektów geometrycznych środowisku pracy Projekt Części, ale to dla zaawansowanych czytelników)*. Zaznacz lewą pionową krawędź i wywołaj polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> [Ulepsz kształt](Draft_Upgrade/pl.md), dawna *krawędź* będzie miała teraz inną ikonę i zmieniła *etykietę* na *Linia*. Jest to teraz obiekt środowiska *Rysunek Roboczy*, w którym można edytować na przykład *punkt początkowy* i *punkt końcowy* poprzez *Edytor właściwości*, nie jest to możliwe w przypadku obiektów *krawędzi*.
 
 ### Tworzenie zaokrąglenia 
 
-Zacznij od zaznaczenia prawego górnego rogu krawędzi, użyj polecenia z menu **Edycja →  <img alt="" src=images/)_[Zaznacz_obszar](Std_BoxSelection/pl.md)**, przytrzymaj ![](images/Mouse_LMB.svg  style="width   *24px;"> **Lewy Przycisk Myszy** *(Left Mouse Button)* i przeciągnij **od prawej do lewej**, a następnie zwolnij **LMB**. Podczas przeciągania *od prawej do lewej* wynikowy wybór obejmuje wszystko w całości lub częściowo w obszarze zaznaczenia. Przy przeciąganiu *od lewej do prawej*, w wynikowym zaznaczeniu znajdują się tylko obiekty w całości objęte obszarem zaznaczenia. Faktyczne zaznaczenie następuje po zwolnieniu lewego przycisku myszy i nie ma możliwości podglądu tego, co zostanie zaznaczone.
+Zacznij od zaznaczenia prawego górnego rogu krawędzi, użyj polecenia z menu **Edycja →  <img alt="" src=images/)_[Zaznacz_obszar](Std_BoxSelection/pl.md)**, przytrzymaj ![](images/Mouse_LMB.svg  style="width:24px;"> **Lewy Przycisk Myszy** *(Left Mouse Button)* i przeciągnij **od prawej do lewej**, a następnie zwolnij **LMB**. Podczas przeciągania *od prawej do lewej* wynikowy wybór obejmuje wszystko w całości lub częściowo w obszarze zaznaczenia. Przy przeciąganiu *od lewej do prawej*, w wynikowym zaznaczeniu znajdują się tylko obiekty w całości objęte obszarem zaznaczenia. Faktyczne zaznaczenie następuje po zwolnieniu lewego przycisku myszy i nie ma możliwości podglądu tego, co zostanie zaznaczone.
 
 ![](images/T101dwb02-01filletboxselection.png )
 
-Mając zaznaczone krawędzie w prawym górnym rogu, wywołaj polecenie <img alt="" src=images/Draft_Fillet.svg  style="width   *24px;"> [Zaokrąglenie](Draft_Fillet/pl.md) w środowisku pracy **Rysunek Roboczy**. Zaznacz *Usuń oryginalne obiekty* i zmień wartość parametru *promień* na {{Value|20 mm}} i naciśnij klawisz **Enter**.
+Mając zaznaczone krawędzie w prawym górnym rogu, wywołaj polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> [Zaokrąglenie](Draft_Fillet/pl.md) w środowisku pracy **Rysunek Roboczy**. Zaznacz *Usuń oryginalne obiekty* i zmień wartość parametru *promień* na {{Value|20 mm}} i naciśnij klawisz **Enter**.
 
 ![](images/T101dwb02-02fillettaskpanel.png )
 
-**Zaokrąglenie** zostało utworzone, a twój model powinien teraz wyglądać jak poniżej   *
+**Zaokrąglenie** zostało utworzone, a twój model powinien teraz wyglądać jak poniżej:
 
 ![](images/T101dwb02-03filletdone.png )
 
 ### Tworzenie sfazowania 
 
-Aby wykonać *fazkę* musimy mieć linię o odpowiednim nachyleniu, a także umieć ją ustawić w odpowiednim miejscu. Zacznijmy od pozycji, która znajduje się na współrzędnej *(50, 50, 0)*. W obecnym profilu nie mamy tam punktu, więc stwórzmy go poprzez wykonanie *tymczasowej linii pomocniczej*. Najpierw wybierz lewą pionową **Linię**, następnie utwórz linię pomocniczą narzędziem <img alt="" src=images/Std_DuplicateSelection.svg  style="width   *24px;"> [Powiel zaznaczone](Std_DuplicateSelection/pl.md) z menu **Edycja → Powiel zaznaczone**, zostanie utworzony obiekt **Linia001**. Użyj *Edytora właściwości* i przesuń *Linię001* o {{Value|50 mm}} w kierunku X, używając właściwości *Umiejscowienie*. Następnie powielamy *dolną krawędź poziomą* i zmieniamy *kąt* krawędzi na {{Value|30 stopni}}, ponownie używając właściwości *Umiejscowienie*. Model powinien teraz wyglądać jak na poniższym obrazku.
+Aby wykonać *fazkę* musimy mieć linię o odpowiednim nachyleniu, a także umieć ją ustawić w odpowiednim miejscu. Zacznijmy od pozycji, która znajduje się na współrzędnej *(50, 50, 0)*. W obecnym profilu nie mamy tam punktu, więc stwórzmy go poprzez wykonanie *tymczasowej linii pomocniczej*. Najpierw wybierz lewą pionową **Linię**, następnie utwórz linię pomocniczą narzędziem <img alt="" src=images/Std_DuplicateSelection.svg  style="width:24px;"> [Powiel zaznaczone](Std_DuplicateSelection/pl.md) z menu **Edycja → Powiel zaznaczone**, zostanie utworzony obiekt **Linia001**. Użyj *Edytora właściwości* i przesuń *Linię001* o {{Value|50 mm}} w kierunku X, używając właściwości *Umiejscowienie*. Następnie powielamy *dolną krawędź poziomą* i zmieniamy *kąt* krawędzi na {{Value|30 stopni}}, ponownie używając właściwości *Umiejscowienie*. Model powinien teraz wyglądać jak na poniższym obrazku.
 
 ![](images/T101dwb03-01chamferhelp.png )
 
-Następnie należy przesunąć *skośną linię* na właściwą pozycję. W tym celu użyjemy narzędzia <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> [Przesuń](Draft_Move/pl.md) wraz z funkcją *przyciągania* w środowisku pracy **Rysunek Roboczy**, a dokładniej przyciągania *punktu końcowego*. Najpierw upewnij się, że twój pasek narzędzi przyciągania wygląda jak poniżej.
+Następnie należy przesunąć *skośną linię* na właściwą pozycję. W tym celu użyjemy narzędzia <img alt="" src=images/Draft_Move.svg  style="width:24px;"> [Przesuń](Draft_Move/pl.md) wraz z funkcją *przyciągania* w środowisku pracy **Rysunek Roboczy**, a dokładniej przyciągania *punktu końcowego*. Najpierw upewnij się, że twój pasek narzędzi przyciągania wygląda jak poniżej.
 
 ![](images/T101pwb03-02_snap.png )
 
@@ -90,21 +90,21 @@ Następnie wybierz *linię skośną*, obiekt *Krawędź001*, naciśnij *Przesuń
 
 ![](images/T101dwb03-03_movetaskpanel.png )
 
-Upewnij się, że opcja *Kopiuj* jest odznaczona. Najedź kursorem myszki na *górną ćwiartkę* linii pomocniczej, gdy w odpowiednim miejscu pojawi się *biała kropka* i pokaże się symbol *punktu końcowego*, kliknij <img alt="" src=images/Mouse_LMB.svg  style="width   *24px;"> **LMB**. Przesuń kursor myszki do górnej ćwiartki linii pomocy, gdy pojawi się biała kropka i symbol punktu końcowego, kliknij **LMB**. Sekwencja jest zilustrowana poniżej.
+Upewnij się, że opcja *Kopiuj* jest odznaczona. Najedź kursorem myszki na *górną ćwiartkę* linii pomocniczej, gdy w odpowiednim miejscu pojawi się *biała kropka* i pokaże się symbol *punktu końcowego*, kliknij <img alt="" src=images/Mouse_LMB.svg  style="width:24px;"> **LMB**. Przesuń kursor myszki do górnej ćwiartki linii pomocy, gdy pojawi się biała kropka i symbol punktu końcowego, kliknij **LMB**. Sekwencja jest zilustrowana poniżej.
 
 ![](images/T101dwb03-04_moveline.png )
 
-Linia znajduje się teraz we właściwej pozycji, ale jest zbyt długa. Aby dostosować długość użyjemy narzędzia <img alt="" src=images/Draft_Trimex.svg  style="width   *24px;"> [Przytnij](Draft_Trimex/pl.md). Wybierz *skośną linię*, **Krawędź001**, naciśnij przycisk Przytnij, a następnie kliknij dolną część *najbardziej lewej pionowej linii*, obiektu **Linia**, aby użyć jej jako krawędzi cięcia. Rzut punktu, w którym wybrano krawędź cięcia na krawędź, która ma zostać wycięta, określa wynik. Jeśli wybierzesz najbardziej lewą pionową linię w pobliżu jej górnego końca, niewłaściwa część skośnej linii zostanie przycięta. Poniższy obrazek pokazuje wywołane polecenie **Przytnij**, wybraną wcześniej linię pionową oraz kursor znajdujący się nad niewłaściwym końcem tej linii. Jeśli przyjrzysz się uważnie, możesz zobaczyć podgląd wyniku.
+Linia znajduje się teraz we właściwej pozycji, ale jest zbyt długa. Aby dostosować długość użyjemy narzędzia <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> [Przytnij](Draft_Trimex/pl.md). Wybierz *skośną linię*, **Krawędź001**, naciśnij przycisk Przytnij, a następnie kliknij dolną część *najbardziej lewej pionowej linii*, obiektu **Linia**, aby użyć jej jako krawędzi cięcia. Rzut punktu, w którym wybrano krawędź cięcia na krawędź, która ma zostać wycięta, określa wynik. Jeśli wybierzesz najbardziej lewą pionową linię w pobliżu jej górnego końca, niewłaściwa część skośnej linii zostanie przycięta. Poniższy obrazek pokazuje wywołane polecenie **Przytnij**, wybraną wcześniej linię pionową oraz kursor znajdujący się nad niewłaściwym końcem tej linii. Jeśli przyjrzysz się uważnie, możesz zobaczyć podgląd wyniku.
 
 ![](images/T101dwb03-05_trimline.png )
 
-Przytnij również najbardziej lewą pionową linię, aby utworzyć dolny róg fazy. Wybierz *skośną linię*, obiekt **Krawędź001**, blisko jej prawego górnego punktu końcowego, aby uzyskać prawidłowy rezultat. Jeśli popełnisz błąd podczas przycinania, po prostu użyj przycisku <img alt="" src=images/Std_Undo.svg  style="width   *24px;"> [Cofnij](Std_Undo/pl.md) oraz <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Odświerz](Std_Refresh/pl.md) *(ten ostatni często nazywany jest*przelicz*)* i spróbuj ponownie.
+Przytnij również najbardziej lewą pionową linię, aby utworzyć dolny róg fazy. Wybierz *skośną linię*, obiekt **Krawędź001**, blisko jej prawego górnego punktu końcowego, aby uzyskać prawidłowy rezultat. Jeśli popełnisz błąd podczas przycinania, po prostu użyj przycisku <img alt="" src=images/Std_Undo.svg  style="width:24px;"> [Cofnij](Std_Undo/pl.md) oraz <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Odświerz](Std_Refresh/pl.md) *(ten ostatni często nazywany jest*przelicz*)* i spróbuj ponownie.
 
 ![](images/T101dwb03-06_chamferlowercornerdone.png )
 
 Aby przyciąć *górną krawędź poziomą*, należy *rozbić kształt* **zaokrąglenia**, tak aby górna krawędź była własnym obiektem w widoku drzewa. Jeśli spróbujesz ją przyciąć bez uprzedniego rozbicia kształtu, funkcja przycinania spróbuje przyciąć łuk w zaokrągleniu. Ponieważ krawędź przycinania, *środkowa linia pionowa*, jest prostopadła do przycinanej krawędzi, nie można kontrolować wyniku przycinania, wybierając odpowiedni punkt na krawędzi przycinania. Tutaj musisz odwrócić domyślne rozwiązanie poprzez przytrzymanie klawisza **Alt** podczas wybierania krawędzi cięcia.
 
-Profil jest gotowy i pokazany poniżej z krawędziami zorganizowanymi w <img alt="" src=images/Std_Group.svg  style="width   *24px;"> [Grupy](Std_Group/pl.md) o nazwie **Profil** *(lub **etykietowany**, aby być precyzyjnym w lingwistyce FreeCAD)*, wraz z usuniętą linią pomocniczą. Grupy mogą być używane do porządkowania cech w Twoich *dokumentach FreeCAD*, ich użycie jest podobne do struktury folderów w systemie plików komputera. Aby przenieść obiekty do i z grupy, użyj funkcjonalności*przeciągnij i upuść* w widoku drzewa.
+Profil jest gotowy i pokazany poniżej z krawędziami zorganizowanymi w <img alt="" src=images/Std_Group.svg  style="width:24px;"> [Grupy](Std_Group/pl.md) o nazwie **Profil** *(lub **etykietowany**, aby być precyzyjnym w lingwistyce FreeCAD)*, wraz z usuniętą linią pomocniczą. Grupy mogą być używane do porządkowania cech w Twoich *dokumentach FreeCAD*, ich użycie jest podobne do struktury folderów w systemie plików komputera. Aby przenieść obiekty do i z grupy, użyj funkcjonalności*przeciągnij i upuść* w widoku drzewa.
 
 ![](images/T101dwb03-07_profiledone.png )
 
@@ -112,7 +112,7 @@ Profil jest gotowy i pokazany poniżej z krawędziami zorganizowanymi w <img alt
 
 Zapisz dokument. W tym akapicie będziemy eksperymentować i chcemy mieć możliwość powrotu do aktualnego modelu.
 
-Zacznijmy bez zwłoki   * zaznacz wszystkie krawędzie w *grupie* **Profil**, a w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md) wywołujemy polecenie <img alt="" src=images/Part_Extrude.svg  style="width   *24px;"> [Wyciągnięcie \...](Part_Extrude/pl.md). Otworzy się *panel zadań*, zaakceptuj wszystkie domyślne ustawienia i kliknij **OK**.
+Zacznijmy bez zwłoki: zaznacz wszystkie krawędzie w *grupie* **Profil**, a w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) wywołujemy polecenie <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Wyciągnięcie \...](Part_Extrude/pl.md). Otworzy się *panel zadań*, zaakceptuj wszystkie domyślne ustawienia i kliknij **OK**.
 
 ![](images/T101dwb04-01_extrudelineserror.png )
 
@@ -142,13 +142,13 @@ Po najechaniu kursorem na dowolny obiekt w widoku drzewa z ikoną nakładki wyś
 
 W naszym przypadku błąd jest nie do naprawienia. Utworzenie bryły z wyciągnięcia pojedynczej linii jest *geometrycznie niemożliwe*. Wytłoczona linia staje się po prostu arkuszem, lub *powłoką* w języku FreeCAD. Innymi słowy, nie jest to ograniczenie programu FreeCAD, jest to podstawowy wynik teorii geometrii. Powodem, dla którego widok 3D jest całkowicie pusty jest to, że utworzone cechy, lub obiekty w widoku drzewa, mają błędy w wytworzonym *kształcie*, a więc nie zawierają nic do renderowania. FreeCAD tworzy jednak nowe obiekty dokumentu *(w tym przypadku wyciągania)* i dlatego ukrywa wszelkie geometrie/obiekty użyte do tworzenia nowych obiektów dokumentu. To dlatego ekran jest pusty, gdy próbujemy stworzyć bryłę z linii lub wielu linii.
 
-Wskazówka narzędzia mówi wszystko, aby wykonać wyciągnięcie w bryłę potrzebujemy zamkniętej polilinii, czyli ściany. Ściana jest z definicji po prostu zamkniętą linią łamaną, która została wypełniona. Jednym ze sposobów na stworzenie zamkniętej linii z naszych krawędzi profilu jest wybranie ich wszystkich i zastosowanie funkcji <img alt="" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Ulepsz](Draft_Upgrade/pl.md). Jeśli zostanie zastosowana raz, obiekt stanie się polilinią, jednocześnie zużywając poszczególne krawędzie z widoku drzewa. Jeśli zastosowany dwukrotnie staje się ścianą, każdy z tych obiektów pozwala na przeprowadzenie udanego wytłoczenia bryły.
+Wskazówka narzędzia mówi wszystko, aby wykonać wyciągnięcie w bryłę potrzebujemy zamkniętej polilinii, czyli ściany. Ściana jest z definicji po prostu zamkniętą linią łamaną, która została wypełniona. Jednym ze sposobów na stworzenie zamkniętej linii z naszych krawędzi profilu jest wybranie ich wszystkich i zastosowanie funkcji <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> [Ulepsz](Draft_Upgrade/pl.md). Jeśli zostanie zastosowana raz, obiekt stanie się polilinią, jednocześnie zużywając poszczególne krawędzie z widoku drzewa. Jeśli zastosowany dwukrotnie staje się ścianą, każdy z tych obiektów pozwala na przeprowadzenie udanego wytłoczenia bryły.
 
-Przed przejściem do kolejnego akapitu   * otwórz poprzednio zapisaną wersję dokumentu.
+Przed przejściem do kolejnego akapitu: otwórz poprzednio zapisaną wersję dokumentu.
 
 ## Wyciąganie profilu 
 
-Innym sposobem na stworzenie zamkniętej lini jest użycie polecenia <img alt="" src=images/Part_Builder.svg  style="width   *24px;"> [Konstruktor kształtu \...](Part_Builder/pl.md) ze środowiska Część, które pozwala na stworzenie polilinii bez zużywania poszczególnych krawędzi. **Konstruktor kształtu** środowiska Część jest potężnym narzędziem do tworzenia dowolnych brył geometrycznych w FreeCAD, które mogą być wykorzystane dalej do tworzenia złożonych brył, najprostszym przykładem jest utworzenie linii pomiędzy dwoma wierzchołkami. Kliknij **Konstruktor kształtu \...** aby wywołać *panel zadań*.
+Innym sposobem na stworzenie zamkniętej lini jest użycie polecenia <img alt="" src=images/Part_Builder.svg  style="width:24px;"> [Konstruktor kształtu \...](Part_Builder/pl.md) ze środowiska Część, które pozwala na stworzenie polilinii bez zużywania poszczególnych krawędzi. **Konstruktor kształtu** środowiska Część jest potężnym narzędziem do tworzenia dowolnych brył geometrycznych w FreeCAD, które mogą być wykorzystane dalej do tworzenia złożonych brył, najprostszym przykładem jest utworzenie linii pomiędzy dwoma wierzchołkami. Kliknij **Konstruktor kształtu \...** aby wywołać *panel zadań*.
 
 ![](images/T101dwb05-01_shapebuildertaskpanel.png )
 
@@ -176,9 +176,9 @@ Po wykonaniu ostatecznej operacji wycięcia logicznego, oraz po zmianie wyglądu
 
 ## Tworzenie szkicu z profilu 2D 
 
-Korzystanie ze środowiska pracy **Rysunek Roboczy** jest jednym ze sposobów tworzenia profilu 2D. W środowisku **Rysunek Roboczy** polilinia może być wykonana w przestrzeni 3D. FreeCAD dostarcza innego narzędzia do tworzenia profili 2D - jest nim środowisko pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Szkicownik](Sketcher_Workbench/pl.md). Używanie *szkicu* jest bardziej uniwersalnym sposobem tworzenia profilu 2D. Każdy profil 2D wykonany w środowisku **Rysunek Roboczy** może zostać przekształcony w **niezwiązany** szkic.
+Korzystanie ze środowiska pracy **Rysunek Roboczy** jest jednym ze sposobów tworzenia profilu 2D. W środowisku **Rysunek Roboczy** polilinia może być wykonana w przestrzeni 3D. FreeCAD dostarcza innego narzędzia do tworzenia profili 2D - jest nim środowisko pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md). Używanie *szkicu* jest bardziej uniwersalnym sposobem tworzenia profilu 2D. Każdy profil 2D wykonany w środowisku **Rysunek Roboczy** może zostać przekształcony w **niezwiązany** szkic.
 
-Zacznij od ukrycia cechy **Wycięcie** i spraw, aby krawędzie w profilu były widoczne. Zaznacz krawędzie i w środowisku **Rysunek Roboczy** naciśnij przycisk paska narzędzi <img alt="" src=images/Draft_Draft2Sketch.svg  style="width   *24px;"> [Rysunek Roboczy do szkicu](Draft_Draft2Sketch/pl.md). Powinieneś zobaczyć to samo, co na poniższym obrazku   *
+Zacznij od ukrycia cechy **Wycięcie** i spraw, aby krawędzie w profilu były widoczne. Zaznacz krawędzie i w środowisku **Rysunek Roboczy** naciśnij przycisk paska narzędzi <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> [Rysunek Roboczy do szkicu](Draft_Draft2Sketch/pl.md). Powinieneś zobaczyć to samo, co na poniższym obrazku:
 
 ![](images/T101dwb06-01_draft2sketch.png )
 
@@ -186,7 +186,7 @@ Następnie należy ukryć oryginalne krawędzie i dwukrotnie kliknąć obiekt **
 
 ![](images/T101dwb06-02_sketchedit.png )
 
-Tak to wygląda, gdy ktoś *edytuje szkic*. Ponieważ nie jest to poradnik dotyczący używania Szkicownika, po prostu przejdź dalej i zamknij go. Jeśli chcesz poznać zasady szkicowania, które jest podstawą pracy w każdym parametrycznym CAD 3D, skorzystaj z siostrzanego poradnika *[Projekt Części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)*.
+Tak to wygląda, gdy ktoś *edytuje szkic*. Ponieważ nie jest to poradnik dotyczący używania Szkicownika, po prostu przejdź dalej i zamknij go. Jeśli chcesz poznać zasady szkicowania, które jest podstawą pracy w każdym parametrycznym CAD 3D, skorzystaj z siostrzanego poradnika *[Projekt Części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)*.
 
 Mając zamknięty szkicownik i wybrany obiekt *Szkic*, w środowisku pracy **Część** użyj funkcji Wyciągnij w taki sam sposób jak poprzednio. Podstawowy blok prostego modelu jest ponownie gotowy.
 
@@ -196,13 +196,13 @@ Mając zamknięty szkicownik i wybrany obiekt *Szkic*, w środowisku pracy **Cz�
 
 Pracując z parametrycznym CAD 3D prędzej czy później natkniesz się na uszkodzony model, czy to wykonany samodzielnie, czy też zaimportowany. Zepsuty model może działać zgodnie ze swoim przeznaczeniem, ale częściej zdarzają się kolejne operacje, które po prostu nie będą działać. Aby naprawić uszkodzony model trzeba wiedzieć co naprawić, w tym miejscu z pomocą przychodzą wbudowane w FreeCAD narzędzia do sprawdzania jakości.
 
-Najpierw sprawdźmy jakość niedawno utworzonego obiektu **Extrude001**. Mając aktywne środowisko pracy **Część**, najpierw wybierz **Extrude001**, a następnie użyj polecenia <img alt="" src=images/Part_CheckGeometry.svg  style="width   *24px;"> [Sprawdź geometrię](Part_CheckGeometry/pl.md). Zaznacz wszystkie pola wyboru ustawień oprócz górnego i kliknij przycisk **Uruchom sprawdzanie**.
+Najpierw sprawdźmy jakość niedawno utworzonego obiektu **Extrude001**. Mając aktywne środowisko pracy **Część**, najpierw wybierz **Extrude001**, a następnie użyj polecenia <img alt="" src=images/Part_CheckGeometry.svg  style="width:24px;"> [Sprawdź geometrię](Part_CheckGeometry/pl.md). Zaznacz wszystkie pola wyboru ustawień oprócz górnego i kliknij przycisk **Uruchom sprawdzanie**.
 
 ![](images/T101dwb07-01_geocheck.png )
 
 Nasz model jest OK, nie są zgłaszane żadne błędy. Jest tam również lista zawartości modelu, czyli w języku FreeCAD zawartość *kształtu*, która mówi jak jest on złożony od podstaw. Widać tu, że najwyraźniej do stworzenia bryły potrzebna jest jeszcze *powłoka*, która składa się ze *ścian* itd. Innymi słowy, można utworzyć dowolną bryłę zaczynając od punktów, czyli *wierzchołków*, z nich tworzy się *krawędzie*, z nich tworzy się *polilinie*, a z polilinii tworzy się *ściany*. Te następnie zszywa się w *powłokę*, z której w ostatecznie otrzymuje się *bryłę*. Bryła może powstać tylko z wodoszczelnej powłoki. Nieszczelna powłoka jest częstym źródłem kłopotów w modelach CAD, może się to zdarzyć np. w przypadku importu geometrii stworzonej w innym programie, zwłaszcza gdy używamy powszechnie dostępnych uniwersalnych formatów plików.
 
-Kolejne sprawdzenie, jakie można wykonać, jest związane ze **szkicem**. Zamknij *panel zadań* dla sprawdzania geometrii. Wybierz obiekt **Szkic**, rozwiń obiekt *Extrude001* w widoku drzewa, jeśli to konieczne, aby zobaczyć obiekt szkicu. Przełącz się do środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Szkicownik](Sketcher_Workbench/pl.md), użyj polecenia <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *24px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md), otworzy się *panel zadań*. W *panelu zadań* kliknij przycisk **Znajdź** dla *Brakujących wiązań*. Podświetla on i zgłasza *6* z nich, czyli wszystkie punkty, w których spotykają się krawędzie.
+Kolejne sprawdzenie, jakie można wykonać, jest związane ze **szkicem**. Zamknij *panel zadań* dla sprawdzania geometrii. Wybierz obiekt **Szkic**, rozwiń obiekt *Extrude001* w widoku drzewa, jeśli to konieczne, aby zobaczyć obiekt szkicu. Przełącz się do środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md), użyj polecenia <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md), otworzy się *panel zadań*. W *panelu zadań* kliknij przycisk **Znajdź** dla *Brakujących wiązań*. Podświetla on i zgłasza *6* z nich, czyli wszystkie punkty, w których spotykają się krawędzie.
 
 ![](images/T101dwb07-02_sketchvalidate.png )
 
@@ -214,7 +214,7 @@ Na koniec warto zaznaczyć, że choć tworzenie kolejnych obiektów ze szkiców 
 
 ## Zakończenie
 
-Po zakończeniu tego poradnika zapoznałeś się z podstawową funkcjonalnością programu FreeCAD, wraz z podstawowymi środowiskami pracy *Część* i *Rysunek Roboczy*. Jesteś również świadomy istnienia środowiska pracy **Szkicownik**, które dla wielu doświadczonych użytkowników jest jedynym narzędziem używanym do tworzenia profili 2D wykorzystywanych później w operacjach na elementach bryłowych. Używanie *szkiców* jest podstawową koncepcją środowiska **Projekt Części**. Sugeruje się, abyś nauczył się *szkiców* i środowiska *Projekt Części* w następnej kolejności, jeśli skupiasz się na tworzeniu brył. Siostrzany poradnik *[Projekt Części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)* tworzy ten sam model. Jeśli skupiasz się na modelowaniu budynków, powinieneś zapoznać się ze środowiskami pracy roboczymi **Rysunek Roboczy** i **Architektura**.
+Po zakończeniu tego poradnika zapoznałeś się z podstawową funkcjonalnością programu FreeCAD, wraz z podstawowymi środowiskami pracy *Część* i *Rysunek Roboczy*. Jesteś również świadomy istnienia środowiska pracy **Szkicownik**, które dla wielu doświadczonych użytkowników jest jedynym narzędziem używanym do tworzenia profili 2D wykorzystywanych później w operacjach na elementach bryłowych. Używanie *szkiców* jest podstawową koncepcją środowiska **Projekt Części**. Sugeruje się, abyś nauczył się *szkiców* i środowiska *Projekt Części* w następnej kolejności, jeśli skupiasz się na tworzeniu brył. Siostrzany poradnik *[Projekt Części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)* tworzy ten sam model. Jeśli skupiasz się na modelowaniu budynków, powinieneś zapoznać się ze środowiskami pracy roboczymi **Rysunek Roboczy** i **Architektura**.
 
 W końcu FreeCAD jest tworzony przez wolontariuszy w ich wolnym czasie. Jeśli chcesz dalej rozwijać możliwości programu, rozważ [pomoc w rozwoju FreeCAD](Help_FreeCAD/pl.md), na przykład poprzez poprawę dokumentacji.
 

@@ -13,7 +13,7 @@ Mientras que los scripts de Python normalmente tienen la extensión `.py`, las m
 
 </div>
 
-Vea el [Centro de usuarios avanzados](Power_users_hub/es.md) para aprender más sobre el lenguaje de programación [Python](Python/es.md), y sobre la escritura de macros. En particular, deberías empezar con estas páginas   *
+Vea el [Centro de usuarios avanzados](Power_users_hub/es.md) para aprender más sobre el lenguaje de programación [Python](Python/es.md), y sobre la escritura de macros. En particular, deberías empezar con estas páginas:
 
 -   [Introducción a Python](Introduction_to_Python/es.md)
 -   [Tutorial de Guión en Python](Python_scripting_tutorial/es.md)
@@ -21,9 +21,9 @@ Vea el [Centro de usuarios avanzados](Power_users_hub/es.md) para aprender más 
 
 ## ¿Cómo funciona? 
 
-Activa la salida de la consola en el menú **Edición → Preferencias → General → Macro → Mostrar comandos de scripts en la consola de python**. Verás que en FreeCAD, cada acción que realizas, como pulsar un botón, da salida a un comando de Python. Esos comandos son los que se pueden grabar en una macro. La herramienta principal para hacer macros es la barra de herramientas de macros   * ![](images/Macros_toolbar.jpg ). En ella tienes 4 botones   * Grabar, detener la grabación, editar y reproducir la macro actual.
+Activa la salida de la consola en el menú **Edición → Preferencias → General → Macro → Mostrar comandos de scripts en la consola de python**. Verás que en FreeCAD, cada acción que realizas, como pulsar un botón, da salida a un comando de Python. Esos comandos son los que se pueden grabar en una macro. La herramienta principal para hacer macros es la barra de herramientas de macros: ![](images/Macros_toolbar.jpg ). En ella tienes 4 botones: Grabar, detener la grabación, editar y reproducir la macro actual.
 
-Su uso es muy sencillo   * Pulsa el botón de grabar, se te pedirá que des un nombre a tu macro, y luego realiza algunas acciones. Cuando hayas terminado, pulsa el botón de parar la grabación, y tus acciones se guardarán. Ahora puedes acceder al diálogo de la macro con el botón de edición.
+Su uso es muy sencillo: Pulsa el botón de grabar, se te pedirá que des un nombre a tu macro, y luego realiza algunas acciones. Cuando hayas terminado, pulsa el botón de parar la grabación, y tus acciones se guardarán. Ahora puedes acceder al diálogo de la macro con el botón de edición.
 
 ![](images/Macros.png ) 
 *Diálogo de macros, que enumera las macros disponibles en el sistema*
@@ -116,11 +116,6 @@ Puede instalar manualmente las extensiones, sin embargo, es mucho más sencillo 
 
 
 </div>
-
-
-
-
-[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

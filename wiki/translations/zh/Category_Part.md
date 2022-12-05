@@ -1,8 +1,6 @@
 # Category:Part/zh
 This category lists pages related to the [Part Workbench/zh](Part_Workbench/zh.md).
 
-[Category   *Workbenches/zh](Category   *Workbenches/zh.md)
-
 ### Contents
 
 |     |     |     |

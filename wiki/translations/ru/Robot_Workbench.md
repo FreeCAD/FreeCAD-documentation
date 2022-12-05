@@ -1,16 +1,16 @@
 # Robot Workbench/ru
-**Верстак  Robot в FreeCAD остался без поддержки. Если у Вас есть знания в этом вопросе и интерес к его поддержке, пожалуйста, заявите своё намерение в секции разработчиков на [https   *//forum.freecadweb.org/index.php форуме FreeCAD].**
+**Верстак  Robot в FreeCAD остался без поддержки. Если у Вас есть знания в этом вопросе и интерес к его поддержке, пожалуйста, заявите своё намерение в секции разработчиков на [https://forum.freecadweb.org/index.php форуме FreeCAD].**
 
 
 **Причина, по которой этот верстак все ещё находится в основном исходном коде, заключается в том, что этот верстак запрограммирован на C++. Если бы этот верстак можно было запрограммировать на Python, то его можно было бы сделать [внешним верстаком](external_workbenches/ru.md) и переместить в отдельный репозиторий. **
 
 ## Введение
 
-<img alt="Логотип верстака Robot" src=images/Workbench_Robot.svg  style="width   *128px;">
+<img alt="Логотип верстака Robot" src=images/Workbench_Robot.svg  style="width:128px;">
 
-<img alt="" src=images/Workbench_Robot.svg  style="width   *24px;"> [Верстак Robot](Robot_Workbench/ru.md) это инструмент для симуляции стандартного [6-ти осевого промышленного робота](Robot_6-Axis/ru.md), такого как [Kuka](http   *//kuka.com/).
+<img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Верстак Robot](Robot_Workbench/ru.md) это инструмент для симуляции стандартного [6-ти осевого промышленного робота](Robot_6-Axis/ru.md), такого как [Kuka](http://kuka.com/).
 
-Вы можете выполнять следующие работы   *
+Вы можете выполнять следующие работы:
 
 -   создать среду моделирования с роботом и заготовкой
 -   создать и загрузить траекторию
@@ -18,12 +18,12 @@
 -   имитировать движение робота и его пространственные ограничения
 -   экспортировать траекторию в программный файл робота
 
-Начните с [Учебника по роботам](Robot_tutorial/ru.md), и смотрите программный интерфейс в файле примера [RobotExample.py](https   *//github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py).
+Начните с [Учебника по роботам](Robot_tutorial/ru.md), и смотрите программный интерфейс в файле примера [RobotExample.py](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py).
 
 
 {{TOCright}}
 
-<img alt="" src=images/Robot_Workbench_example.jpg  style="width   *500px;">
+<img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
 ## Инструменты
 
@@ -33,11 +33,11 @@
 
 Инструменты создания и управления 6-осевыми роботами.
 
--   <img alt="" src=images/Robot_CreateRobot.svg  style="width   *30px;"> [Создать робота](Robot_CreateRobot/ru.md)   * Поместить нового робота на сцену
--   <img alt="" src=images/Robot_Simulate.svg  style="width   *30px;"> [Имитировать траекторию](Robot_Simulate/ru.md)   * Открыть диалог имитации позволяющий выполнить имитацию
--   <img alt="" src=images/Robot_Export.svg  style="width   *30px;"> [Экспортировать траекторию](Robot_Export/ru.md)   * Экспортировать в программный файл робота
--   <img alt="" src=images/Robot_SetHomePos.svg  style="width   *30px;"> [Установить стартовую позицию](Robot_SetHomePos/ru.md)   * Установить стартовое положение робота
--   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width   *30px;"> [Восстановить на исходную](Robot_RestoreHomePos/ru.md)   * Переместить робота в стартовое положение
+-   <img alt="" src=images/Robot_CreateRobot.svg  style="width:30px;"> [Создать робота](Robot_CreateRobot/ru.md): Поместить нового робота на сцену
+-   <img alt="" src=images/Robot_Simulate.svg  style="width:30px;"> [Имитировать траекторию](Robot_Simulate/ru.md): Открыть диалог имитации позволяющий выполнить имитацию
+-   <img alt="" src=images/Robot_Export.svg  style="width:30px;"> [Экспортировать траекторию](Robot_Export/ru.md): Экспортировать в программный файл робота
+-   <img alt="" src=images/Robot_SetHomePos.svg  style="width:30px;"> [Установить стартовую позицию](Robot_SetHomePos/ru.md): Установить стартовое положение робота
+-   <img alt="" src=images/Robot_RestoreHomePos.svg  style="width:30px;"> [Восстановить на исходную](Robot_RestoreHomePos/ru.md): Переместить робота в стартовое положение
 
 ### Траектории
 
@@ -45,17 +45,17 @@
 
 #### Не параметрические траектории 
 
--   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *30px;"> [Создать траекторию](Robot_CreateTrajectory/ru.md)   * Поместить на сцену новый объект-траекторию
--   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width   *30px;"> [Установить ориентацию по умолчанию](Robot_SetDefaultOrientation/ru.md)   * Создать промежуточные точки-ориентации по умолчанию
--   <img alt="" src=images/Robot_SetDefaultValues.svg  style="width   *30px;"> [Установить значения по умолчанию](Robot_SetDefaultValues/ru.md)   * Установить настройки по умолчанию для создания промежуточных точек
--   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width   *30px;"> [Вставить в траекторию](Robot_InsertWaypoint/ru.md)   * Вставить в траекторию текущее положение робота
--   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width   *30px;"> [Вставить в траекторию предвыбранную](Robot_InsertWaypointPre/ru.md)   * Вставить в траекторию точку текущего положения курсора мыши
+-   <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:30px;"> [Создать траекторию](Robot_CreateTrajectory/ru.md): Поместить на сцену новый объект-траекторию
+-   <img alt="" src=images/Robot_SetDefaultOrientation.svg  style="width:30px;"> [Установить ориентацию по умолчанию](Robot_SetDefaultOrientation/ru.md): Создать промежуточные точки-ориентации по умолчанию
+-   <img alt="" src=images/Robot_SetDefaultValues.svg  style="width:30px;"> [Установить значения по умолчанию](Robot_SetDefaultValues/ru.md): Установить настройки по умолчанию для создания промежуточных точек
+-   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:30px;"> [Вставить в траекторию](Robot_InsertWaypoint/ru.md): Вставить в траекторию текущее положение робота
+-   <img alt="" src=images/Robot_InsertWaypointPre.svg  style="width:30px;"> [Вставить в траекторию предвыбранную](Robot_InsertWaypointPre/ru.md): Вставить в траекторию точку текущего положения курсора мыши
 
 #### Параметрические траектории 
 
--   <img alt="" src=images/Robot_Edge2Trac.svg  style="width   *30px;"> [Край траектории](Robot_Edge2Trac/ru.md)   * Поместить новый объект, который раскладывается на ребра для траектории
--   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width   *30px;"> [Настройка траектории](Robot_TrajectoryDressUp/ru.md)   * Изменить одно и более свойств траектории
--   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width   *30px;"> [Объединение траекторий](Robot_TrajectoryCompound/ru.md)   * Создать объединение из нескольких одиночных траекторий
+-   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Край траектории](Robot_Edge2Trac/ru.md): Поместить новый объект, который раскладывается на ребра для траектории
+-   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Настройка траектории](Robot_TrajectoryDressUp/ru.md): Изменить одно и более свойств траектории
+-   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Объединение траекторий](Robot_TrajectoryCompound/ru.md): Создать объединение из нескольких одиночных траекторий
 
 ## Составление скриптов 
 
@@ -72,9 +72,7 @@
 
 {{Robot Tools navi
 
-}} 
-
-[Category   *Workbenches](Category_Workbenches.md)
+}}
 
 
 

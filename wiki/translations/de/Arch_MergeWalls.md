@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */de
-   Name   *Arch MergeWalls
-   Name/de   *Arch WändeZusammenführen
-   MenuLocation   *Arch → Dienstprogramme → Wände zusammenführen
-   Workbenches   *[Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Arch Wand](Arch_Wall/de.md)
+- GuiCommand:/de
+   Name:Arch MergeWalls
+   Name/de:Arch WändeZusammenführen
+   MenuLocation:Arch → Dienstprogramme → Wände zusammenführen
+   Workbenches:[Arch](Arch_Workbench/de.md)
+   SeeAlso:[Arch Wand](Arch_Wall/de.md)
 ---
 
 # Arch MergeWalls/de
@@ -25,16 +25,16 @@ Das [Wände zusammenführen](Arch_MergeWalls/de.md) Werkzeug verschmilzt zwei od
 ## Skripten
 
 
-**Siehe auch   ***
+**Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden   * 
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden: 
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Beispiel   * 
+Beispiel: 
 ```python
 import FreeCAD, Draft, Arch
 

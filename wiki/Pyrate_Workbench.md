@@ -9,10 +9,6 @@ Pyrate or pyrate optics is an optical raytracing core written completely in Pyth
 
 This workbench is a new style workbench. This means it is intended to install it by the AddOnInstaller with pip for FreeCAD versions \>= 0.18.
 
- 
-
-[Category   *User Documentation](Category_User_Documentation.md) [Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
-
 
 
 ---

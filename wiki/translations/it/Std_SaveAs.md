@@ -1,10 +1,10 @@
 ---
-- GuiCommand   */it
-   Name   *Std_SaveAs
-   Name/it   *Salva con nome
-   MenuLocation   *File → Salva con nome...
-   Workbenches   *Tutti
-   SeeAlso   *[Salva una copia](Std_SaveaCopy/it.md), [Salva](Std_Save/it.md)
+- GuiCommand:/it
+   Name:Std_SaveAs
+   Name/it:Salva con nome
+   MenuLocation:File → Salva con nome...
+   Workbenches:Tutti
+   SeeAlso:[Salva una copia](Std_SaveaCopy/it.md), [Salva](Std_Save/it.md)
 ---
 
 # Std SaveAs/it
@@ -38,12 +38,12 @@ Il comando **Salva con nome** salva il documento attivo con un nuovo nome di fil
 
 ## Preferenze
 
--   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Script
 
 
-**Vedere anche   ***
+**Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 

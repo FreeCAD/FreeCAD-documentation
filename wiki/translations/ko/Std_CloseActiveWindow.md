@@ -1,11 +1,11 @@
 ---
-- GuiCommand   */ko
-   Name   *Std CloseActiveWindow
-   Name/ko   *표준 활성 창 닫기
-   MenuLocation   *파일 → 닫기
-   Workbenches   *모두
-   Shortcut   ***Ctrl**+**F4**
-   SeeAlso   *[표준 모든 창 닫기](Std_CloseAllWindows/ko.md)
+- GuiCommand:/ko
+   Name:Std CloseActiveWindow
+   Name/ko:표준 활성 창 닫기
+   MenuLocation:파일 → 닫기
+   Workbenches:모두
+   Shortcut:**Ctrl**+**F4**
+   SeeAlso:[표준 모든 창 닫기](Std_CloseAllWindows/ko.md)
 ---
 
 # Std CloseActiveWindow/ko
@@ -16,11 +16,11 @@
 
 ## 용법
 
-1.  이 명령을 실행하는 방법은 여러가지입니다   *
+1.  이 명령을 실행하는 방법은 여러가지입니다:
     -   메뉴에서 **파일 → <img src="images/Std_CloseActiveWindow.svg" width=16px> 닫기** 옵션을 선택합니다.
-    -   단축키를 사용합니다   * **Ctrl**+**F4**.
+    -   단축키를 사용합니다: **Ctrl**+**F4**.
 2.  문서를 닫으려면 그 문서에 속한 모든 창에 이 작업을 반복합니다.
-3.  저장하지 않은 문서의 마지막 창을 닫을 때 저장할지 묻는 대화상자가 나타납니다   *
+3.  저장하지 않은 문서의 마지막 창을 닫을 때 저장할지 묻는 대화상자가 나타납니다:
     -   문서를 저장하려면 **저장** 버튼을 누르십시오. 필요하다면 먼저 파일 이름을 입력하십시오.
     -   변경 내용을 모두 무시하고 문서를 닫으려면 **무시** 버튼을 누르십시오.
 
@@ -35,12 +35,12 @@
 
 ## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다   * **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 
 
-**참조   ***
+**참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 
