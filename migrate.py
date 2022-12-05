@@ -1173,7 +1173,7 @@ class MediaWiki:
                 else:
                     others += mmd
             if types:
-                md += "### Attributes\n\n" + types        
+                md += "### Attributes\n\n" + types
             if builtins:
                 md += "### Functions\n\n" + builtins
             md += others
@@ -1220,6 +1220,21 @@ class MediaWiki:
         print("Regenerated",tocpage)
 
 
+    def rebuildHomepage(self):
+
+        """Rebuilds the online help startpages"""
+
+        f = open("README.md")
+        t = f.read()
+        f.close()
+        t = t.replace("wiki/","")
+        f = open(os.path.join(WIKIFOLDER,"Main_Page.md"),"w")
+        f.write(t)
+        f.close()
+        f = open(os.path.join(WIKIFOLDER,"Online_Help_Startpage.md"),"w")
+        f.write(t)
+        f.close()
+
 
 ### GENERAL FUNCTIONS (USABLE THROUGH COMMAND-LINE)
 
@@ -1262,6 +1277,7 @@ def update():
     wiki.updateReadme()
     wiki.rebuildAllAPI()
     wiki.rebuildTOC()
+    wiki.rebuildHomepage()
     print("All done!\n")
     if errors:
         print("page with write errors: ",errors)
