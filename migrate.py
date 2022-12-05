@@ -893,7 +893,7 @@ class MediaWiki:
             # removing other leftovers
             result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
             result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
-            result = re.sub("\:\\\*","   *",result) # fix second-level bullets
+            result = re.sub(r"\:\\\*","  -",result) # fix second-level bullets
 
         if debug >= 13:
             # removing all remaining templates
