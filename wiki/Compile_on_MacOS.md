@@ -42,6 +42,7 @@ brew install --only-dependencies freecad
 may take quite a while, so you may want go grab a beverage.    *-).
 
 Alternately, you can install the individual dependencies manually by installing the following packages using {{Incode|brew install ...}}   *
+
 -    `cmake`
     
 
@@ -77,11 +78,10 @@ Alternately, you can install the individual dependencies manually by installing 
 -    `pkgconfig`
     
 
--    `coin3d`\-- Note that as of this writing this will install an unusable version of pyside@2 as a dependency.
+-    `coin3d`\- Note that as of this writing (Nov. 2022) this will install an unusable version of pyside@2 as a dependency.
 
+There are several packages that are only available when you have tapped the freecad cask   * you must do that (`brew tap freecad/freecad`). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use `brew install ...`, install the following packages   *
 
-
-There are several packages that are only available when you have tapped the freecad cask   * you must do that (`brew tap freecad/freecad`). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because the force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use `brew install ...`, install the following packages   *
 -    `freecad/freecad/pyside2@5.15.5`
     
 
@@ -94,9 +94,9 @@ There are several packages that are only available when you have tapped the free
 -    `freecad/freecad/netgen`
     
 
+You will also need to \"link\" PySide and Shiboken   *
 
 
-You will also need to \"link\" PySide and Shiboken   * 
 ```python
 brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
 ```

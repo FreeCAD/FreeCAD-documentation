@@ -15,44 +15,17 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Popis
-
-Vytváří vazbu totožnosti na vybrané položce.
-
-
-</div>
-
-Tento vazbový nástroj vezme dva body jako své argumenty a slouží k tomu, že je udělá *totožné*. (Znamená to, že je udělá jako-jeden-bod).
-
-V praxi je tento nástroj užitečný když je např. mezera mezi dvěma koncovými body přímek, které mají být spojeny - vazba totožnosti na jejich koncové body tuto mezeru uzavře.
+Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small>    * It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 ## Usage
 
-
-<div class="mw-translate-fuzzy">
-
-#### Použití
-
-Jak je uvedeno výše, tento nástroj přijímá dva argumenty - oba jsou to body.
-
-1.  Nejdříve je nutné vysvítit dva různé body. (Připomínám, že to nebude fungovat jestli se např. pokusíte vybrat počáteční a koncový bod jedné přímky).
-2.  Vysvícení nakreslených položek dosáhnete posunem myši nad položku a kliknutím levým tlačítkem myši.
-3.  Vysvícená položka změní barvu na zelenou.
-4.  následující položky mohou být vysvíceny opakováním výše uvedeného postupu POZNÁMKA   * není potřeba zároveň držet stisknutou nějakou další klávesu, jako např. CTRL, abychom dosáhli vícenásobného výběru položek na výkrese.
-5.  Jakmile máte vybrány dva body, kliknutím levým tlačítkem myši na vazbu \'BodNaBod\' zajistí, že se body stanou *totožné* a jsou nahrazeny jedním bodem.
-
-POZNÁMKA   * Kvůli nastavení totožnosti bodů, musí FreeCAD nutně posunout jeden nebo oba původní body.
-
-
-</div>
-
-
-**Note   ***
-
-In order to make two points coincident, FreeCAD must out of necessity move one (or both) of the original points.
+1.  Do one of the following   *
+    -   Select two or more points.
+    -   Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Constrain coincident](Sketcher_ConstrainCoincident.md)** button in the toolbar.
+    -   Use the **C** keyboard shortcut.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Constrain coincident** entry in the top menu.
 
 ## Alternatives to Coincident constraint 
 

@@ -39,9 +39,6 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar   *
 
 -   <img alt="" src=images/Std_MainFullscreen.svg  style="width   *32px;"> [Vollbild](Std_MainFullscreen/de.md)   * Schaltet den Vollbildmodus des Hauptfensters um.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Standardansichten
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Alles einpassen](Std_ViewFitAll/de.md)   * Passt alle sichtbaren Objekte in die Ansicht ein.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width   *32px;"> [Auswahl einpassen](Std_ViewFitSelection/de.md)   * Passt ausgewählte Objekte innerhalb der Ansicht ein.
@@ -58,9 +55,8 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar   *
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Links](Std_ViewLeft/de.md)   * Wechselt zur linken Ansicht.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Nach links drehen](Std_ViewRotateLeft/de.md)   * Dreht die Ansicht nach links.
     -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Nach rechts drehen](Std_ViewRotateRight/de.md)   * Dreht die Ansicht nach rechts.
-
-
-</div>
+    -   [Arbeitsansicht speichern](Std_StoreWorkingView/de.md)   * Speichert die Kameraeinstellungen der aktiven 3D-Ansicht in ihrer Arbeitsansicht. <small>(v1.0)</small> 
+    -   [Arbeitsansicht wiederherstellen](Std_RecallWorkingView/de.md)   * Stellt die in der Arbeitsansicht gespeicherte 3D-Ansicht wieder her. <small>(v1.0)</small> 
 
 -   [Anzeige einfrieren](Std_FreezeViews/de.md)
     -   [Ansichten speichern\...](Std_FreezeViews/de#Ansichten_speichern....md)   * Speichert eingefrorene Ansichten in einer Datei.

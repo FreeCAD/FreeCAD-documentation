@@ -15,37 +15,17 @@
 
 ## Descrizione
 
-Crea un vincolo di Coincidenza di punti sull\'elemento selezionato
-
-Questo strumento di vincolo richiede e accetta come argomento due punti e serve per rendere i due punti *coincidenti*. (Nel senso di trasformarli in un unico punto.)
-
-Nella pratica è utile quando un profilo è interrotto - per esempio dove due punti di finelinea sono uno accanto all\'altro, ma le linee devono essere unite. In questo caso, un vincolo di coincidenza sui rispettivi punti finali chiude la breccia.
+Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small>    * It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-Come detto in precedenza, questo strumento richiede due argomenti e entrambi devono essere dei punti.
-
-1.  In primo luogo è necessario evidenziare due punti distinti. (Nota   * lo strumento non funziona quando si tenta di selezionare il punto iniziale e quello finale della stessa linea).
-2.  Per evidenziare un elemento del disegno, spostare il mouse sopra l\'oggetto e fare clic con il pulsante sinistro del mouse.
-3.  Un elemento selezionato assume il colore verde. Il colore è modificabile da **Modifica → Preferenze → Visualizzazione → Colori → Selezione**.
-4.  Elementi successivi possono essere selezionati ripetendo la procedura precedente. NOTA   * Non è necessario tenere premuto nessun tasto speciale, tipo **Ctrl**, per aggiungere elementi del disegno alla selezione multipla.
-5.  Dopo aver evidenziato due punti, si può invocare il comando in uno di questi modi   *
-    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Coincidenza** della barra degli strumenti.
-    -   Usare la scorciatoia da tastiera **C**.
-    -   Usare la voce **Sketch → Vincoli → Coincidenza** dal menu principale.
-
-
-**Risultato   ***
-
-il comando fa sì che i due punti diventino \"coincidenti\" e vengano sostituiti da un singolo punto.
-
-
-</div>
-
-NOTA   * Per rendere due punti coincidenti, FreeCAD deve necessariamente spostare uno o entrambi i punti originali.
+1.  Do one of the following   *
+    -   Select two or more points.
+    -   Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Constrain coincident](Sketcher_ConstrainCoincident.md)** button in the toolbar.
+    -   Use the **C** keyboard shortcut.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Constrain coincident** entry in the top menu.
 
 ## Alternatives to Coincident constraint 
 

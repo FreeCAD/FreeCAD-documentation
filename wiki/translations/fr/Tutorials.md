@@ -3,7 +3,7 @@
 
 Cette page présente une sélection de tutoriels écrits de bonne qualité. Une liste complète et non triée des tutoriels peut être trouvée dans [   *Category   *Tutorials/fr](   *Category   *Tutorials/fr.md), une liste complète et triable peut être trouvée dans le [tableau ci-dessous](Tutorials/fr#Tutoriels_-_liste_complète.md).
 
-Si vous souhaitez contribuer à la rédaction de la documentation et des tutoriels sur le wiki, consultez les directives générales relatives au wiki dans [WikiPages (en)](WikiPages.md), et voir les [tutorial guidelines (en)](tutorial_guidelines.md).
+Si vous souhaitez contribuer à la rédaction de la documentation et des tutoriels sur le wiki, consultez les directives générales relatives au wiki dans [Ecrire une page Wiki](WikiPages/fr.md) et voir [tutorial guidelines (en)](Tutorial_guidelines.md).
 
 Veuillez prêter attention à la version de FreeCAD utilisée dans le tutoriel, car certains tutoriels peuvent utiliser une ancienne version du programme. Bien que le processus de modélisation général puisse encore fonctionner, certains outils peuvent avoir changé.
 
@@ -12,19 +12,21 @@ Voir aussi [Tutoriels vidéo](Video_tutorials/fr.md) et [livres](Books/fr.md).
 ## Architecture et BIM 
 
 <File   *Arch> tutorial 00.jpg\|link=[Arch tutorial/fr](Arch_tutorial/fr.md)\|[Tutoriel Arch](Arch_tutorial/fr.md) (v0.14)
-Ceci est l'introduction principale de l'atelier Arch. Il est complet et présente la procédure de travail typique, de l'importation de plans au format DXF destinés à la construction du modèle 3D. <File   *Exercise> arch 01.jpg\|link=[Manual   *BIM_modeling/fr](Manual   *BIM_modeling/fr.md)\|[modèle BIM](Manual   *BIM_modeling/fr.md)
-Comment modéliser une petite maison, produire un plan avec TechDraw et exporter vers IFC.
+Ceci est l'introduction principale de l'atelier Arch. Il est complet et présente la procédure de travail typique, de l'importation de plans au format DXF destinés à la construction du modèle 3D.
 
-<File   *11_T01_window_all_symbol_top.png%7Clink=>[Tutorial_for_open_windows/fr](Tutorial_for_open_windows/fr.md)\|[Modélisation de maison avec portes et fenêtres ouvertes](Tutorial_for_open_windows/fr.md) (v0.18)
-Affichez les portes et les fenêtres comme étant ouvertes, avec des symboles d\'élévation et de plan, et produisez un plan de base avec TechDraw.
+<File   *Exercise> arch 01.jpg\|link=[Manual   *BIM_modeling/fr](Manual   *BIM_modeling/fr.md)\|[Modèle BIM](Manual   *BIM_modeling/fr.md)
+Comment modéliser une petite maison, produire un plan avec TechDraw et l\'exporter vers IFC.
 
-<File   *17_T02_sketch_2_attached_correctly.png%7Clink=>[Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)\|[Conception de fenêtres personnalisées](Tutorial_custom_placing_of_windows_and_doors.md) (v0.18)
+<File   *11_T01_window_all_symbol_top.png%7Clink=>[Tutorial_for_open_windows/fr](Tutorial_for_open_windows/fr.md)\|[Modélisation d\'une maison avec portes et fenêtres ouvertes](Tutorial_for_open_windows/fr.md) (v0.18)
+Afficher des portes et des fenêtres comme étant ouvertes, avec des symboles d\'élévation et de plan, et produire un plan de base avec TechDraw.
+
+<File   *17_T02_sketch_2_attached_correctly.png%7Clink=>[Tutorial_custom_placing_of_windows_and_doors/fr](Tutorial_custom_placing_of_windows_and_doors/fr.md)\|[Conception de fenêtres personnalisées](Tutorial_custom_placing_of_windows_and_doors/fr.md) (v0.18)
 Comment dessiner des portes et des fenêtres personnalisées à l'aide de Sketcher et ajuster leurs normales pour les placer correctement dans les murs.
 
 <File   *Arch_panel_tutorial_01.jpg%7Clink=>[Arch_panel_tutorial/fr](Arch_panel_tutorial/fr.md)\|[Tutoriel panneau d\'Arch](Arch_panel_tutorial/fr.md) (v0.15)
 Modélisation d\'un panneau de toit de petite résidence à l\'aide des outils Sketcher, Window et Panel.
 
-<File   *Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial/fr](Wikihouse_porting_tutorial/fr.md)\|[Modélisation WikiHouse](Wikihouse_porting_tutorial/fr.md)
+<File   *Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse_porting_tutorial/fr](Wikihouse_porting_tutorial/fr.md)\|[Modélisation WikiHouse](Wikihouse_porting_tutorial/fr.md)
 Re-modélisation du projet WikiHouse à l\'aide d\'esquisses et de panneaux, en commençant par l\'importation d\'un modèle de maillage créé dans SketchUp.
 
 ## Modélisation de pièces 
@@ -34,7 +36,7 @@ FreeCAD fournit deux flux de travail principaux pour modéliser des pièces    *
 -   combiner des objets, une méthode appelée [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (CSG) en utilisant [l\'atelier Part](Part_Workbench/fr.md), et
 -   en utilisant une modélisation paramétrique et des [Éditions de fonctions](Feature_editing/fr.md) avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
-Veuillez noter que le flux de travail de [l\'atelier PartDesign ](PartDesign_Workbench/fr.md) a été considérablement modifié depuis FreeCAD 0.17 ; certains tutoriels n\'ont pas été mis à jour et peuvent faire référence à la version 0.16.
+Veuillez noter que le flux de travail de [l\'atelier PartDesign ](PartDesign_Workbench/fr.md) a été considérablement modifié depuis FreeCAD 0.17. Certains tutoriels n\'ont pas été mis à jour et peuvent faire référence à la version 0.16.
 
 <File   *GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Part_WB/fr](Creating_a_simple_part_with_Part_WB/fr.md)\|[Créer une pièce simple avec l\'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md)
 Une introduction à FreeCAD et à l\'atelier Part en utilisant des solides primitifs.
@@ -43,15 +45,35 @@ Une introduction à FreeCAD et à l\'atelier Part en utilisant des solides primi
 Une introduction à la modélisation de solides avec l\'atelier Draft en créant un profil 2d dans Draft.
 
 <File   *GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_PartDesign/fr](Creating_a_simple_part_with_PartDesign/fr.md)\|[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) (v0.17)
-Introduction au flux de travaux PartDesign    * tracé d\'une esquisse, fonction protrusion, cavité et déplacement de l\'objet. PD WB Tutorial018.png\|link=[Basic_Part_Design_Tutorial/fr](Basic_Part_Design_Tutorial/fr.md)\|[Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md) (v0.17)
-Modélisation d\'une pièce simple à l\'aide de la méthode d\'édition des caractéristiques    * créer une esquisse, fonction pad, des références externes, pocket et un miroir. TBHS-model.png\|link=[Toothbrush_Head_Stand/fr](Toothbrush_Head_Stand/fr.md)\|[Support pour tête de brosse à dents](Toothbrush_Head_Stand/fr.md) (v0.16 et +)
-Plusieurs fonctionnalités utilisées   * contraintes d\'esquisse, de distance et de coïncidence, protrusion, références externes, congé, chanfrein, motif linéaire et draft. Exercise lego 01.jpg\|link=[Manual   *Modeling_for_product_design/fr](Manual   *Modeling_for_product_design/fr.md)\|[Modélisation pour la conception de produits](Manual   *Modeling_for_product_design/fr.md) (v0.16)
-Modélisation d\'un bloc Lego    * esquisses, contraintes de distance verticale et horizontale, fonction protrusion, cavité, référence externe, motif linéaire et assemblage. Exercise table complete.jpg\|link=[Manual   *Traditional_modeling,\_the_CSG_way/fr](Manual   *Traditional_modeling,_the_CSG_way/fr.md)\|[Modélisation traditionnelle, méthode CSG](Manual   *Traditional_modeling,_the_CSG_way/fr.md)
-Modélisation d\'une table à l\'aide de fonctions simples des solides tels que des cubes et cylindres, opérations booléennes (fusion et découpe). 08_T04_Part_ShapesString_Extrude_final_cut.png\|link=[Draft_ShapeString_tutorial/fr](Draft_ShapeString_tutorial/fr.md)\|[Tutoriel de Dessin de Formes à partir de texte](Draft_ShapeString_tutorial/fr.md) (v0.19)
-Créez un texte gravé sur un solide    * extrudez un texte pour le rendre solide puis à l\'aide de la fonction booléenne intersection le graver dans le solide. 10_T03_Part_ball_fillet.png\|link=[Whiffle_Ball_tutorial/fr](Whiffle_Ball_tutorial/fr.md)\|[Créer une balle Wiffle](Whiffle_Ball_tutorial/fr.md) (v0.19)
-Utilisez des primitives solides comme des cubes et des cylindres, des opérations booléennes, comme union et intersection, pour créer une balle Wiffle. Tutorial-normand06.jpg\|link=[Basic_modeling_tutorial/fr](Basic_modeling_tutorial/fr.md)\|[Tutoriel d\'introduction à la modélisation](Basic_modeling_tutorial/fr.md)
-Créez une cornière en fer de deux manières    * en utilisant des primitives solides et des opérations booléennes (CSG) ; et en extrudant un profil plan. <File   *HTCaeroplane04.png%7Clink=>[Aeroplane](Aeroplane.md)\|[Tutoriel aéroplane](Aeroplane/fr.md)
-Comprendre les emplacements dans FreeCAD en créant un modèle d\'avion simple puis les angles de rotation, le lacet (Z), le tangage (Y) et le roulis (X). <File   *T13_14_Threads_components.png%7Clink=>[Thread_for_Screw_Tutorial/fr](Thread_for_Screw_Tutorial/fr.md)\|[Tutoriel Filetage pour vis](Thread_for_Screw_Tutorial/fr.md) (v0.19)
+Introduction au flux de travaux PartDesign    * tracé d\'une esquisse, fonction protrusion, cavité et déplacement de l\'objet.
+
+Pd_tut_final_solid.png\|link=[Basic_Part_Design_Tutorial/fr](Basic_Part_Design_Tutorial/fr.md)\|[Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md) (v0.17)br/\>Modélisation d\'une pièce simple à l\'aide de la méthode d\'édition des caractéristiques    * créer une esquisse, fonction protrusion, des références externes, cavité et un miroir.
+
+Pd_tut_final_solid.png\|link=[Basic_Part_Design_Tutorial_019](Basic_Part_Design_Tutorial_019.md)\|[Tutoriel d\'introduction PartDesign 019](Basic_Part_Design_Tutorial_019/fr.md) (v0.19 ou supérieure)
+Une version mise à jour du précédent tutoriel. Crée le même modèle en utilisant des techniques qui évitent le [problème de dénomination topologique](Topological_naming_problem/fr.md).
+
+TBHS-model.png\|link=[Toothbrush_Head_Stand/fr](Toothbrush_Head_Stand/fr.md)\|[Support pour tête de brosse à dents](Toothbrush_Head_Stand/fr.md) (v0.16 et +)
+Plusieurs fonctionnalités utilisées   * contraintes d\'esquisse, de distance et de coïncidence, protrusion, références externes, congé, chanfrein, motif linéaire et dessin.
+
+Exercise lego 01.jpg\|link=[Manual   *Modeling_for_product_design/fr](Manual   *Modeling_for_product_design/fr.md)\|[Modélisation pour la conception de produits](Manual   *Modeling_for_product_design/fr.md) (v0.16)
+Modélisation d\'un bloc Lego    * esquisses, contraintes de distance verticale et horizontale, fonction protrusion, cavité, référence externe, motif linéaire et assemblage.
+
+Exercise table complete.jpg\|link=[Manual   *Traditional_modeling,\_the_CSG_way/fr](Manual   *Traditional_modeling,_the_CSG_way/fr.md)\|[Modélisation traditionnelle, méthode CSG](Manual   *Traditional_modeling,_the_CSG_way/fr.md)
+Modélisation d\'une table à l\'aide de fonctions simples des solides tels que des cubes et cylindres, opérations booléennes (fusion et découpe).
+
+08_T04_Part_ShapesString_Extrude_final_cut.png\|link=[Draft_ShapeString_tutorial/fr](Draft_ShapeString_tutorial/fr.md)\|[Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md) (v0.19)
+Créer un texte gravé sur un solide    * extruder un texte pour le rendre solide puis à l\'aide de la fonction booléenne intersection le graver dans le solide.
+
+10_T03_Part_ball_fillet.png\|link=[Whiffle_Ball_tutorial/fr](Whiffle_Ball_tutorial/fr.md)\|[Créer une balle Wiffle](Whiffle_Ball_tutorial/fr.md) (v0.19)
+Utiliser des primitives solides comme des cubes et des cylindres, des opérations booléennes, comme union et intersection, pour créer une balle Wiffle.
+
+Tutorial-normand06.jpg\|link=[Basic_modeling_tutorial/fr](Basic_modeling_tutorial/fr.md)\|[Tutoriel Introduction à la modélisation](Basic_modeling_tutorial/fr.md)
+Créer une cornière en fer de deux manières    * en utilisant des primitives solides et des opérations booléennes (CSG) ; et en extrudant un profil plan.
+
+<File   *HTCaeroplane04.png%7Clink=>[Aeroplane](Aeroplane.md)\|[Tutoriel Aéroplane](Aeroplane/fr.md)
+Comprendre les emplacements dans FreeCAD en créant un modèle d\'avion simple puis les angles de rotation, le lacet (Z), le tangage (Y) et le roulis (X).
+
+<File   *T13_14_Threads_components.png%7Clink=>[Thread_for_Screw_Tutorial/fr](Thread_for_Screw_Tutorial/fr.md)\|[Tutoriel Filetage pour vis](Thread_for_Screw_Tutorial/fr.md) (v0.19)
 Comprendre comment créer des filetages avec plusieurs techniques qui incluent l\'utilisation des outils [Part Hélice](Part_Helix/fr.md), [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [Part Balayage](Part_Sweep/fr.md), [Part Union](Part_Fuse/fr.md) et [Part Soustraction](Part_Cut/fr.md).
 
 Le projet Raspberry Pi propose de simples tutoriels faciles à suivre, en particulier pour les débutants en systèmes de CAO    *
@@ -64,15 +86,15 @@ Le projet Raspberry Pi propose de simples tutoriels faciles à suivre, en partic
 ## Dessin et esquisse 
 
 Exercise cabin 01.jpg\|link=[Manual   *Traditional 2D drafting/fr](Manual   *Traditional_2D_drafting/fr.md)\|[Dessin 2D traditionnel](Manual   *Traditional_2D_drafting/fr.md)
-Dessinez un plan d\'étage avec des lignes, des câbles, des rectangles, des arcs de cercle et ajoutez des motifs de hachure, des annotations et des dimensions. Exportez le résultat au format DXF.
+Dessiner un plan d\'étage avec des lignes, des câbles, des rectangles, des arcs de cercle et ajoutez des motifs de hachure, des annotations et des dimensions. Exporter le résultat au format DXF.
 
-00_Dr01_Draft_Tutorial_final.png\|link=[Draft_tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md) (v0.19)
+00_Dr01_Draft_Tutorial_final.png\|link=[Draft_tutorial](Draft_tutorial.md)\|[Draft Tutoriel](Draft_tutorial/fr.md) (v0.19)
 Introduction aux outils de [l\'atelier Draft](Draft_Workbench/fr.md)    * plan de travail, grille, ligne, arc, mise à niveau, rectangle, cercle, polygone, tableaux, dimensions, annotations et courbes de forme.
 
 Sketcher_reference.png\|link=[Sketcher reference/fr](Sketcher_reference/fr.md)\|[Manuel de référence pour Sketcher](Sketcher_reference/fr.md) (v0.18)
-Il s'agit d'un document PDF de 70 pages qui sert de manuel détaillé pour [l\'atelier Sketcher](Sketcher_Workbench/fr.md). Il explique les bases de l\'utilisation de Sketcher et aborde de nombreux détails concernant la création de formes géométriques et chacune des contraintes.
+Il s'agit d'un document PDF de 70 pages qui sert de manuel détaillé pour l\'[atelier Sketcher](Sketcher_Workbench/fr.md). Il explique les bases de l\'utilisation de Sketcher et aborde de nombreux détails concernant la création de formes géométriques et chacune des contraintes.
 
-09b_Sk01_Sketcher_fully_constrained_clean.png\|link=[Basic Sketcher Tutorial/fr](Basic_Sketcher_Tutorial/fr.md)\|[Tutoriel Sketcher basique](Basic_Sketcher_Tutorial/fr.md) (v0.19)
+09b_Sk01_Sketcher_fully_constrained_clean.png\|link=[Basic_Sketcher_Tutorial/fr](Basic_Sketcher_Tutorial/fr.md)\|[Tutoriel Sketcher basique](Basic_Sketcher_Tutorial/fr.md) (v0.19)
 Introduction aux outils de l'atelier Sketcher    * mode de construction, ligne, cercle, arc, contraintes (égalité, verticale, horizontale, tangentielle, distance, angle, rayon).
 
 03d_Sk02_Sketcher_Rectangle_constrained_length.png\|link=[Sketcher_Micro_Tutorial\_-\_Constraint_Practices/fr](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md)\|[Sketcher   * Pratique des constraintes](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md) (v0.19)
@@ -80,53 +102,56 @@ Apprenez à contraindre efficacement une esquisse. Préférez les contraintes g�
 
 ## Dessin technique 
 
-TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial/fr](Basic_TechDraw_Tutorial/fr.md)\|[Tutoriel d\'introduction à TechDraw](Basic_TechDraw_Tutorial/fr.md) (v0.17)
-Ceci est l\'introduction essentielle aux outils de l\'atelier TechDraw   * page, vue, échelle, cotes verticales et horizontales, annotations, groupes de projection, reliant les cotes à la vue 3D.
+TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial/fr](Basic_TechDraw_Tutorial/fr.md)\|[Tutoriel Introduction à TechDraw](Basic_TechDraw_Tutorial/fr.md) (v0.17)
+Introduction basique aux outils de l\'atelier TechDraw   * page, vue, échelle, cotes verticales et horizontales, annotations, groupes de projection, reliant les cotes à la vue 3D.
 
-<File   *FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Création d\'un nouveau modèle d\'arrière-plan](TechDraw_TemplateHowTo/fr.md) (v0.17)
-Instructions pour créer un modèle de page dans Inkscape pour l'utiliser avec l\'atelier TechDraw. Déterminez la taille de la feuille, tracez un cadre pour la page, définissez un texte fixe et des champs de texte modifiables. <File   *AnHi1.png%7Clink=>[Measurement Of Angles On Holes/fr](Measurement_Of_Angles_On_Holes/fr.md)\|[Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md) (v0.19_pre)
+<File   *FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[TechDraw Comment créer un modèle](TechDraw_TemplateHowTo/fr.md) (v0.17)
+Instructions pour créer un modèle de page dans Inkscape pour l'utiliser avec l\'atelier TechDraw. Déterminer la taille de la feuille, tracer un cadre pour la page, définir un texte fixe et des champs de texte modifiables.
+
+<File   *AnHi1.png%7Clink=>[Measurement Of Angles On Holes/fr](Measurement_Of_Angles_On_Holes/fr.md)\|[Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md) (v0.19_pre)
 Instructions pour ajouter des lignes médianes et des représentations angulaires ultérieures sur les trous.
 
 ## FEM
 
 FEM example01 pic00.jpg\|link=[FEM_CalculiX_Cantilever_3D/fr](FEM_CalculiX_Cantilever_3D/fr.md)\|[FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) (v0.20)
-Il s\'agit d\'un exemple inclus dans chaque installation de FreeCAD ; il démontre une analyse de base avec le solveur FE de CalculiX. Purgez le résultat en cours, relancez le solveur et visualisez les déplacements et les contraintes dans le maillage déformé dans la fenêtre d\'affichage.
+Il s\'agit d\'un exemple inclus dans chaque installation de FreeCAD. Démontre une analyse de base avec le solveur CalculiX FE. Purger le résultat en cours, relancer le solveur et visualiser les déplacements et les contraintes dans le maillage déformé dans la fenêtre d\'affichage.
 
-FEM tutorial result.png\|link=[FEM_tutorial/fr](FEM_tutorial/fr.md)\|[FEM Tutoriel](FEM_tutorial/fr.md) (v0.20) Il s\'agit d\'une courte introduction aux étapes nécessaires pour effectuer une analyse dans l\'atelier FEM    * modéliser votre objet, créer un maillage, ajouter des contraintes et des forces, ajouter un matériau, exécuter le solveur, et visualiser les résultats.
+FEM tutorial result.png\|link=[FEM_tutorial/fr](FEM_tutorial/fr.md)\|[FEM Tutoriel](FEM_tutorial/fr.md) (v0.20)
+Courte introduction aux étapes nécessaires pour effectuer une analyse dans l\'atelier FEM    * modéliser votre objet, créer un maillage, ajouter des contraintes et des forces, ajouter un matériau, exécuter le solveur, et visualiser les résultats.
 
 Figure 11 Deformed Mesh.png\|link=[FEM_Shear_of_a\_Composite_Block/fr](FEM_Shear_of_a_Composite_Block/fr.md)\|[FEM Cisaillement d\'un bloc composite](FEM_Shear_of_a_Composite_Block/fr.md) (v0.17)
-Étudie la déformation d\'un bloc constitué d\'un noyau dur entouré d\'un matériau plus mou    * créez des régions maillées, ajoutez des matériaux, mettez en place des contraintes de glissement, ajoutez des charges de cisaillement, exécutez le solveur et visualisez les résultats à l\'aide d\'un plan de coupe.
+Étudier la déformation d\'un bloc constitué d\'un noyau dur entouré d\'un matériau plus mou    * créer des régions maillées, ajoutez des matériaux, mettre en place des contraintes de glissement, ajouter des charges de cisaillement, lancer le solveur et visualiser les résultats à l\'aide d\'un plan de coupe.
 
 Femconcrete_Wall_3D_rx_PSS.png\|link=[Analysis_of_reinforced_concrete_with_FEM/fr](Analysis_of_reinforced_concrete_with_FEM/fr.md)\|[FEM Analyse du béton armé](Analysis_of_reinforced_concrete_with_FEM/fr.md) (v0.19)
-Estime le niveau d\'armature requis dans une structure en béton pour éviter une rupture en traction ou en cisaillement.
+Estimer le niveau d\'armature requis dans une structure en béton pour éviter une rupture en traction ou en cisaillement.
 
 Two_balls_result_2-cropped.png\|link=[FEM_Example_Capacitance_Two_Balls/fr](FEM_Example_Capacitance_Two_Balls/fr.md)\|[FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md) (v0.19)
-Cet exemple montre comment simuler une capacité. Il illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant un [Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
+Cet exemple montre comment simuler une capacité. Illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant un [Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
 
 FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview/fr](Post-Processing_of_FEM_Results_with_Paraview/fr.md)\|[Post-traitement des résultats FEM avec Paraview](Post-Processing_of_FEM_Results_with_Paraview/fr.md) (v0.19)
 Ce tutoriel explique les bases du transfert des données de l\'atelier FEM vers Paraview et montre certaines des options et paramètres d\'affichage des données.
 
 ## CNC & impression 3D 
 
-Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)\|[L\'atelier Path pas à pas pour l\'impatient](Path_Walkthrough_for_the_Impatient/fr.md)
-Présentation rapide du flux de travail pour l\'atelier Path   * créez un travail, définissez la sortie, définissez l\'outil de fraisage, définissez les opérations de tracé, démarrez la simulation et générez un fichier de sortie en G-code.
+Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)\|[Tutoriel Path, pas à pas pour l\'impatientt](Path_Walkthrough_for_the_Impatient/fr.md)
+Présentation rapide du flux de travail pour l\'atelier Path   * créer un travail, définir la sortie, définir l\'outil de fraisage, définir les opérations de tracé, démarrer la simulation et générer un fichier de sortie en G-code.
 
 Exercise meshing 03.jpg\|link=[Manual   *Preparing models for 3D printing/fr](Manual   *Preparing_models_for_3D_printing/fr.md)\|[Préparer les modèles pour l\'impression 3D](Manual   *Preparing_models_for_3D_printing/fr.md) (v0.16)
-Convertissez un objet solide en objet maillé à l'aide de l\'atelier Mesh, exportez le maillage au format STL et utilisez Slic3r pour préparer le code-G. Vous pouvez également utiliser l\'atelier Cura ou l\'atelier Path pour générer le code-G.
+Convertir un objet solide en objet maillé à l'aide de l\'atelier Mesh, exporter le maillage au format STL et utiliser Slic3r pour préparer le code-G. Egalement utiliser l\'atelier Cura ou l\'atelier Path pour générer le code-G.
 
 ## Rendu
 
-Exercise raytracing 05.jpg\|link=[Manual   *Creating renderings/fr](Manual   *Creating_renderings/fr.md)\|[Création de rendus](Manual   *Creating_renderings/fr.md)
-Produisez rapidement une image rendue de vos corps avec POV-Ray et LuxRender s'ils sont installés sur votre système.
+Exercise raytracing 05.jpg\|link=[Manual   *Creating renderings/fr](Manual   *Creating_renderings/fr.md)\|[Manuel    * Création de rendus réalistes](Manual   *Creating_renderings/fr.md)
+Produire rapidement une image rendue de vos corps avec POV-Ray et LuxRender s'ils sont installés sur votre système.
 
 Raytracing tutorial result.png\|link=[Raytracing tutorial/fr](Raytracing_tutorial/fr.md)\|[Tutoriel Raytracing](Raytracing_tutorial/fr.md) (v0.16)
-Décrit le flux de travail de base de l\'atelier Raytracing avec POV-Ray ou LuxRender   * définissez le chemin d\'accès aux rendus, créez un projet, définissez la position de la caméra, sélectionnez le modèle, exécutez le rendu.
+Décrit le flux de travail de base de l\'atelier Raytracing avec POV-Ray ou LuxRender   * définir le chemin d\'accès aux rendus, créer un projet, définir la position de la caméra, sélectionner le modèle, lancer le rendu.
 
 12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png\|link=[Tutorial FreeCAD POV ray/fr](Tutorial_FreeCAD_POV_ray/fr.md)\|[Intermédiaire FreeCAD et tutoriel POV-ray](Tutorial_FreeCAD_POV_ray/fr.md) (v0.18)
 Travail en cours de développement   * créer un projet, ajouter des objets, configurer la caméra, enregistrer le fichier .pov, éditer manuellement le fichier pour améliorer les textures, les plans, les lumières, puis exécuter le rendu.
 
 07_T03_FreeCAD_Blender_EEVEE_render.png\|link=[Tutorial_Render_with_Blender](Tutorial_Render_with_Blender.md)\|[Rendu d\'un assemblage FreeCAD avec Blender](Tutorial_Render_with_Blender/fr.md) (v0.18)
-Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans Blender, installez un simple rayon de soleil, assignez des matériaux de base avec le shader Principle BSDF et produisez un rendu d\'image avec EEVEE et Cycles.
+Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans Blender, installer un simple rayon de soleil, assignez des matériaux de base avec le shader Principle BSDF et produir un rendu d\'image avec EEVEE et Cycles.
 
 ## Atelier Robot 
 
@@ -134,7 +159,7 @@ Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans B
 **Le développement de l'[atelier Robot](Robot_Workbench/fr.md) est actuellement abandonné. Veuillez vous renseigner sur notre forum pour toute nouvelle ou un atelier alternatif.**
 
 Robot Tutorial RobotSimulation.gif\|link=[Robot_tutorial/fr](Robot_tutorial/fr.md)\|[Tutoriel Robot](Robot_tutorial/fr.md) (v0.17)
-Simulez le mouvement d\'un robot industriel   * définissez une trajectoire, définissez la position d\'origine, modifiez la position du robot, insérez différents points de cheminement et simulez le mouvement du robot.
+Simuler le mouvement d\'un robot industriel   * définir une trajectoire, définir la position d\'origine, modifier la position du robot, insérer différents points de cheminement et simuler le mouvement du robot.
 
 ## Création de scripts 
 
@@ -181,9 +206,13 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [PartDesign Tutoriel d\'introduction](Basic_Part_Design_Tutorial/fr.md)                                                                | Modélisation               | Débutant                  |                          | [Mark Stephen (Quick61)](User_Quick61.md) et [HarryGeier](User_HarryGeier.md) | 0.17 ou ultérieur       | [Basic Part Design for v0.17](https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd)                                                                                                                                                              |
 ++++++++
+| [Tutoriel d\'introduction Part Design 019](Basic_Part_Design_Tutorial_019/fr.md)                                                       | Modélisation               | Débutant                  | 1   *00                     | [Carlo Dormeletti](User_Onekk.md) et [Ed Williams](User_Edwilliams16.md)      | 0.19 ou plus            |                                                                                                                                                                                                                                                                                                                               |
+++++++++
 | [Sketcher    * Tutoriel d\'introduction](Basic_Sketcher_Tutorial/fr.md)                                                                   | Atelier Sketcher           | Débutant                  | 1   *00                     | [Drei](User_Drei.md) et [Vocx](User_Vocx.md)                                  | 0.19                    | [Basic Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=43594)                                                                                                                                                                                                                                            |
 ++++++++
 | [TechDraw    * Tutoriel d\'introduction](Basic_TechDraw_Tutorial/fr.md)                                                                   | Atelier TechDraw           | Débutant                  |                          | [WandererFan](User_WandererFan.md)                                                    | 0.17 ou ultérieur       | [Basic Part Design for v0.17 Sample](https   *//github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) [Basic TechDraw Tutorial Sample](https   *//github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd) |
+++++++++
+| [Tutoriel BIM](BIM_ingame_tutorial/fr.md)                                                                                              | Atelier Arch               | Débutant                  |                          | [Yorik](User_Yorik.md)                                                                |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Extraits de codes](Code_snippets/fr.md)                                                                                               | Python                     | Débutant                  |                          |                                                                                               |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
@@ -193,9 +222,9 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)                                                 | Modélisation               | Débutant                  | 1   *00                     | GlouGlou                                                                                      | 0.17 ou ultérieur       | [Creating a simple PartDesign Body.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd)                                                                                                                                                                                            |
 ++++++++
-| [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md)                                                                           |                            | Débutant                  | 0   *05                     | [Mario52](User_Mario52.md)                                                            | Toutes                  |                                                                                                                                                                                                                                                                                                                               |
+| [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md)                                                                           | Personnalisation           | Débutant                  | 0   *05                     | [Mario52](User_Mario52.md)                                                            | Toutes                  | Aucun                                                                                                                                                                                                                                                                                                                         |
 ++++++++
-| [Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md)                                                             | Conception produit         | Débutant                  | 0   *30                     | r-frank et vocx                                                                               | 0.17 et ultérieur       | [Draft_Shapestring_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
+| [Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md)                                                             | Conception produit         | Débutant                  | 0   *30                     | r-frank et vocx                                                                               | 0.17 ou ultérieur       | [Draft_Shapestring_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft    * Tutoriel](Draft_tutorial/fr.md)                                                                                               | Atelier Draft              | Débutant                  | 0   *30                     | [Drei](User_Drei.md) et vocx                                                          | 0.19                    | [Draft tutorial updated](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
 ++++++++
@@ -247,7 +276,7 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [Importer texte et géométrie depuis Inkscape](Import_text_and_geometry_from_Inkscape/fr.md)                                            | Importer                   | Débutant                  | 0   *30                     | r-frank                                                                                       | 0.16.6704               |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
-| [ Importer/Exporter IFC - compiler IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell/fr.md)                                     | Atelier Arch               | Expérimenté               | 2   *00                     | Pablo Gil                                                                                     |                         |                                                                                                                                                                                                                                                                                                                               |
+| [Importer/Exporter IFC - compiler IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell/fr.md)                                      | Atelier Arch               | Expérimenté               | 2   *00                     | Pablo Gil                                                                                     |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md)                                                       | Atelier TechDraw           | Débutant                  | 0   *01                     | AnHi                                                                                          | 0.19                    |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
@@ -265,6 +294,8 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [FEM    * Post-traitement des résultats avec Paraview](Post-Processing_of_FEM_Results_with_Paraview/fr.md)                                | Analyse par éléments finis | Intermédiaire             | 2   *00                     | [HarryvL](User_HarryvL.md)                                                            | 0.19                    | [Poutre](https   *//forum.freecadweb.org/download/file.php?id=103403) et [Mur](https   *//forum.freecadweb.org/download/file.php?id=103557)                                                                                                                                                                                         |
 ++++++++
+| [Kits de préférences privés](Private_Preference_Packs/fr.md)                                                                           | Personnalisation           | Intermédiaire/Avancé      |                          | [drmacro](User_Drmacro.md)                                                            | 1.0 ou ultérieur        |                                                                                                                                                                                                                                                                                                                               |
+++++++++
 | [Tutoriel de script Python](Python_scripting_tutorial/fr.md)                                                                           | Programmation              | Intermédiaire             |                          |                                                                                               |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Raytracing    * Tutoriel](Raytracing_tutorial/fr.md)                                                                                     | Atelier Raytracing         | Débutant                  | 0   *01                     | [Drei](User_Drei.md)                                                                  | 0.16 ou ultérieur       |                                                                                                                                                                                                                                                                                                                               |
@@ -281,7 +312,7 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [Sketcher    * Micro-tutoriel - Les pratiques de contraintes](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md)                       | Atelier Sketcher           | Débutant                  | 0   *30                     | [Mark Stephen (Quick61)](User_Quick61.md) et vocx                                     | 0.19                    | [Sketcher Constraints practices](https   *//forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659)                                                                                                                                                                                                                            |
 ++++++++
-| [Sketcher    * Manuel de référence](Sketcher_reference/fr.md)                                                                             |                            |                           |                          |                                                                                               |                         |                                                                                                                                                                                                                                                                                                                               |
+| [Sketcher    * Manuel de référence](Sketcher_reference/fr.md)                                                                             | Atelier Sketcher           |                           |                          |                                                                                               |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
 | [Sketcher   * Requis pour une esquisse](Sketcher_requirement_for_a_sketch/fr.md)                                                          | Atelier Sketcher           | Débutant                  |                          | [Maker](User_Maker.md)                                                                |                         | Aucun                                                                                                                                                                                                                                                                                                                         |
 ++++++++
@@ -297,7 +328,7 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [Tutoriel    * Création de vis](Thread_for_Screw_Tutorial/fr.md)                                                                          | Conception produit         | Expérimenté               | 1   *00                     | [DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx                  | 0.19                    | [Updated   * Thread for screw tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=44668)                                                                                                                                                                                                                                 |
 ++++++++
-| [Support pour tête de brosse à dents](Toothbrush_Head_Stand/fr.md)                                                                     | Modélisation               | Débutant                  | 1   *00                     | [EmmanuelG](User_EmmanuelG.md)                                                        | 0.16 et ultérieur       | [Thingiverse 2403310](https   *//www.thingiverse.com/thing   *2403310)                                                                                                                                                                                                                                                              |
+| [Support pour tête de brosse à dents](Toothbrush_Head_Stand/fr.md)                                                                     | Modélisation               | Débutant                  | 1   *00                     | [EmmanuelG](User_EmmanuelG.md)                                                        | 0.16 ou ultérieur       | [Thingiverse 2403310](https   *//www.thingiverse.com/thing   *2403310)                                                                                                                                                                                                                                                              |
 ++++++++
 | [Script pour création topologique](Topological_data_scripting/fr.md)                                                                   | Programmation              | Intermédiaire             |                          |                                                                                               |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
@@ -319,7 +350,7 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 ++++++++
 | [VRML Préparation à la simulation de robot](VRML_Preparation_for_Robot_Simulation/fr.md)                                               | Atelier Robot              | Intermédiaire             |                          |                                                                                               | 0.11.4252ppa1           |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
-| [Tutoriel Balle à trous](Whiffle_Ball_tutorial/fr.md)                                                                                  | Conception produit         | Débutant                  | 0   *30                     | r-frank et vocx                                                                               | 0.17 et ultérieur       | [WhiffleBall_Tutorial_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                            |
+| [Tutoriel Balle à trous](Whiffle_Ball_tutorial/fr.md)                                                                                  | Conception produit         | Débutant                  | 0   *30                     | r-frank et vocx                                                                               | 0.17 ou ultérieur       | [WhiffleBall_Tutorial_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                            |
 ++++++++
 | [Tutoriel de portage Wikihouse](Wikihouse_porting_tutorial/fr.md)                                                                      | Importer                   | Intermédiaire/Expérimenté | 1   *00                     |                                                                                               |                         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

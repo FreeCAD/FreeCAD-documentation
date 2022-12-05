@@ -1,52 +1,28 @@
 ---
 - GuiCommand   */de
    Name   *Std MacroStopRecord
-   Name/de   *Standard MakroaufzeichnungAnhalten
+   Name/de   *Std MakroaufzeichnungBeenden
    MenuLocation   *[Makro](Macros/de.md) → Makroaufzeichnung beenden
    Workbenches   *Alle
-   SeeAlso   *...
+   SeeAlso   *[Std DlgMakroAufzeichnen](Std_DlgMacroRecord/de.md)
 ---
 
 # Std MacroStopRecord/de
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
+Der Befehl **Std Makroaufzeichnung beenden** beendet die Makroaufzeichnungssitzung.
 
-</div>
+## Anwendung
 
+1.  Der Befehl steht nur während einer Makroaufzeichnung zur Verfügung. Siehe [Std DlgMakroAufzeichnen](Std_DlgMacroRecord/de.md).
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Std_MacroStopRecord.svg" width=16px> [Makroaufzeichnung beenden](Std_MacroStopRecord/de.md)** drücken.
+    -   Den Menüeintrag **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px> Makroaufzeichnung beenden** auswählen.
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
-Diese Funktion beendet die Aufzeichnung eines Makros. Es ist über **Makro → Makro anhalten** erreichbar oder über den **[<img src=images/Std_DlgMacroStop.png style="width   *16px"> Beenden der Makroaufzeichnungssitzung** in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width   *96px;">.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Verwendung
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Wenn du einen **[<img src=images/Std_DlgMacroRecord.png style="width   *16px"> [Aufnahme](Std_DlgMacroRecord.md)** startest die Makro Taste **[<img src=images/Std_DlgMacroStop.png style="width   *16px"> Makroaufzeichnungssitzung anhalten** wird in der Makro Werkzeugleiste grün <img alt="" src=images/Std_DlgMacroStop_02.png  style="width   *16px;">.
-
-
-</div>
-
-## Notes
-
--   To learn more about macros see the [Macros](Macros.md) page.
+-   Mehr über Makros erfährt man auf der Seite [Makros](Macros/de.md).
 
 
 

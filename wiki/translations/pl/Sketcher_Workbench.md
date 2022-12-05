@@ -171,13 +171,7 @@ Wiązania służą do definiowania długości, ustalania reguł pomiędzy elemen
 
 Ograniczenia te nie są zależne od danych liczbowych.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [32px](Sketcher_ConstrainCoincident.md) [Utwórz wiązanie zgodności \...](Sketcher_ConstrainCoincident/pl.md)   * Umieszcza punkt na *(zbieżny z)* jednym lub kilku innych punktach.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [32px](Sketcher_ConstrainCoincident.md) [Utwórz wiązanie zgodności \...](Sketcher_ConstrainCoincident/pl.md)   * Umieszcza punkt na *(zbieżny z)* jednym lub kilku innych punktach. Działa jako wiązanie zbieżności punktów środkowych, jeśli wybrane są dwa lub więcej okręgów, łuków, elips lub łuków elips.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *32px;"> [Zwiąż punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)   * Umieszcza punkt na innym obiekcie, takim jak linia, łuk lub oś.
 

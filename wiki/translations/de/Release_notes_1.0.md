@@ -35,6 +35,10 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width   *300px;">   Das Auswahlfeld für Arbeitsbereiche kann jetzt wahlweise in die Menüleiste gelegt werden, anstatt im Bereich der Symbolleisten. [Pull request #7679](https   *//github.com/FreeCAD/FreeCAD/pull/7679)
    
 
+   
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. [Pull request #7876](https   *//github.com/FreeCAD/FreeCAD/pull/7876).
+   
+
 ### Weitere Verbesserungen der Benutzeroberfläche 
 
 -   Es ist jetzt möglich, eine Standardeinstellung für die Transparenz neu erstellter [Part-](Part_Module/de.md) oder [PartDesign-](PartDesign_Workbench/de.md) Objekte in den [Einstellungen](PartDesign_Preferences/de.md) festzulegen. [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
@@ -124,7 +128,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh using Python. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715)
 
 ## Export
 

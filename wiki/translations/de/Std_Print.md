@@ -16,18 +16,11 @@ Die **Drucken**-Anweisung ist in erster Linie zum Drucken von [TechDraw Arbeitsb
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Falls nötig aktiviere die richtige TechDraw-Seite oder ändere die 3D-Ansicht nach deinem Geschmack.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen   *
-    -   Drücke die **<img src="images/Std_Print.svg" width=16px> [Std Drucken](Std_Print.md)**-Schaltfläche.
-    -   Wähle die **Datei → <img src="images/Std_Print.svg" width=16px> Drucken...**-Option aus dem Menü.
-    -   Benutze den Tastaturkurzbefehl   * **Strg**+**P**.
-3.  Die Standard-Druck-Dialog-Box wird sich öffnen.
-
-
-</div>
+1.  Falls nötig, die richtige TechDraw-Seite aktivieren oder die 3D-Ansicht nach eigenem Geschmack ändern.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Den Menüeintrag **Datei → <img src="images/Std_Print.svg" width=16px> Drucken...** auswählen.
+    -   Das Tastaturkürzel **Ctrl**+**P**.
+3.  Das Standard-Druckdialog-Fenster wird geöffnet.
 
 ## Optionen
 

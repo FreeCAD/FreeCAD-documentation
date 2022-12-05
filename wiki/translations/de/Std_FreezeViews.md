@@ -1,33 +1,23 @@
 ---
 - GuiCommand   */de
-   Name   *Std EinfrierenAnsichten
-   Name/de   *Std Ansichten EinfrierenAnsichten
-   Empty   *1
-   MenuLocation   *Ansicht → Ansicht Einfrieren → ...
+   Name   *Std FreezeViews
+   Name/de   *Std AnsichtenEinfrieren
+   MenuLocation   *Ansicht → Ansicht einfrieren → Ansicht einfrieren
    Workbenches   *Alle
-   SeeAlso   *[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/de.md)
+   SeeAlso   *[Std ArbeisansichtSpeichern](Std_StoreWorkingView/de.md), [Std ArbeitsansichtAbrufen](Std_RecallWorkingView/de.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/de.md)
 ---
 
 # Std FreezeViews/de
 
-
-</div>
-
 ## Einführung
 
-FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options that deal with frozen views can be found in the **View → Freeze display** submenu. Frozen views are not stored in the document and, if not saved with the **[Save views\...](#Save_views.md)** menu option, will be lost when the FreeCAD application closes.
+FreeCAD kann Kameraeinstellungen von bis zu 50 \'eigefrorenen Ansichten\' speichern. Der Menüeintrag, der sich mit eingefrorenen Ansichten befasst, befindet sich im Untermenü **Ansicht → Ansicht einfrieren**. Eingefrorene Ansichten werden nicht im Dokument gespeichert und gehen beim Schließen von FreeCAD verloren, wenn sie nicht mit der Menüoption **[Ansichten speichern\...](#Ansichten_speichern.md)** gespeichert wurden.
 
-
-<div class="mw-translate-fuzzy">
-
-## Ansichten speichern\... 
-
-
-</div>
+## Ansichten speichern 
 
 ### Beschreibung
 
-Die **Ansichten speichern\...** Menüoption speichert alle vorhandenen eingefrorenen Ansichten in einer Datei mit der \*.cam Erweiterung.
+Die Menüoption **Ansichten speichern\...** speichert alle vorhandenen eingefrorenen Ansichten in einer Datei mit der Erweiterung \*.cam.
 
 ### Anwendung
 
@@ -38,19 +28,13 @@ Die **Ansichten speichern\...** Menüoption speichert alle vorhandenen eingefror
 
 ### Optionen
 
--   Drücke **Esc** oder die **Cancel** Taste um den Befehl abzubrechen.
+-    **Esc**oder die Schaltfläche **Cancel** drücken, um den Befehl abzubrechen.
 
-
-<div class="mw-translate-fuzzy">
-
-## Ansichten Laden\... 
-
-
-</div>
+## Ansichten Laden 
 
 ### Beschreibung 
 
-Die **Ansichten laden\...** Menüoption lädt eingefrorene Ansichten aus einer Datei mit der Erweiterung \*.cam. Alle vorhandenen eingefrorenen Ansichten werden gelöscht.
+Die Menüoption **Ansichten laden\...** lädt eingefrorene Ansichten aus einer Datei mit der Erweiterung \*.cam. Alle vorhandenen eingefrorenen Ansichten werden gelöscht.
 
 ### Anwendung 
 
@@ -68,7 +52,7 @@ Die **Ansichten laden\...** Menüoption lädt eingefrorene Ansichten aus einer D
 
 ### Beschreibung 
 
-The **Freeze view** menu option saves the current camera settings (direction, zoom, etc.) of the [3D view](3D_view.md) in a new entry in the frozen view list. The frozen view list can contain up to 50 frozen views.
+Die Menüoption **Ansicht einfrieren** speichert die aktuellen Kameraeinstellungen (Ausrichtung, Zoom-Faktor, usw.) der [3D-Ansicht](3D_view/de.md) in einem neuen Eintrag in der Liste der eigefrorenen Ansichten. Diese Liste kann bis zu 50 eingefrorene Ansichten enthalten.
 
 ### Anwendung 
 
@@ -77,23 +61,23 @@ The **Freeze view** menu option saves the current camera settings (direction, zo
     -   Use the keyboard shortcut   * **Shift**+**F**.
 2.  The new frozen view can be selected in the **View → Freeze display** submenu.
 
-## Clear views 
+## Ansichten löschen 
 
 ### Beschreibung 
 
-The **Clear views** menu option deletes all existing frozen views.
+Die Menüoption **Ansichten löschen** löscht alle vorhandenen eingefrorenen Ansichten.
 
 ### Anwendung 
 
-1.  Select the **View → Freeze display → Clear views** option from the menu.
+1.  Den Menüeintrag **Ansicht → Ansicht einfrieren → Ansicht löschen** auswählen.
 
-## Restore view 
+## Ansicht abrufen 
 
-### Description
+### Beschreibung 
 
 For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered   * **Restore view 1** - **Restore view 50**.
 
-### Usage
+### Anwendung 
 
 1.  There are several ways to invoke this option   *
     -   Select the correct **View → Freeze display → Restore view** option from the menu.

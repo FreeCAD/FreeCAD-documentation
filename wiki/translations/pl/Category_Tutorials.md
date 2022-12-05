@@ -31,18 +31,18 @@ Warto zobaczyć również [Poradniki](Tutorials.md) oraz [Wideo poradniki](video
 | [Manual:Using spreadsheets/pl](wiki/Manual_Using spreadsheets/pl.md) | [Measurement Of Angles On Holes/pl](wiki/Measurement Of Angles On Holes/pl.md) | [PartDesign Bearingholder Tutorial I/pl](wiki/PartDesign Bearingholder Tutorial I/pl.md) |
 | [PartDesign Bearingholder Tutorial II/pl](wiki/PartDesign Bearingholder Tutorial II/pl.md) | [PartDesign tutorial/pl](wiki/PartDesign tutorial/pl.md) | [Path Walkthrough for the Impatient/pl](wiki/Path Walkthrough for the Impatient/pl.md) |
 | [Plot Basic tutorial/pl](wiki/Plot Basic tutorial/pl.md) | [Plot MultiAxes tutorial/pl](wiki/Plot MultiAxes tutorial/pl.md) | [Post-Processing of FEM Results with Paraview/pl](wiki/Post-Processing of FEM Results with Paraview/pl.md) |
-| [Raytracing tutorial/pl](wiki/Raytracing tutorial/pl.md) | [Robot 6-Axis/pl](wiki/Robot 6-Axis/pl.md) | [Robot tutorial/pl](wiki/Robot tutorial/pl.md) |
-| [Scripted Parts: Ball Bearing - Part 1/pl](wiki/Scripted Parts_ Ball Bearing - Part 1/pl.md) | [Scripted Parts: Ball Bearing - Part 2/pl](wiki/Scripted Parts_ Ball Bearing - Part 2/pl.md) | [Scripts/pl](wiki/Scripts/pl.md) |
-| [Sketcher Micro Tutorial - Constraint Practices/pl](wiki/Sketcher Micro Tutorial - Constraint Practices/pl.md) | [Sketcher reference/pl](wiki/Sketcher reference/pl.md) | [Sketcher requirement for a sketch/pl](wiki/Sketcher requirement for a sketch/pl.md) |
-| [Sketcher Tutorial/pl](wiki/Sketcher Tutorial/pl.md) | [TechDraw HowTo Page/pl](wiki/TechDraw HowTo Page/pl.md) | [TechDraw Pitch Circle Tutorial/pl](wiki/TechDraw Pitch Circle Tutorial/pl.md) |
-| [TechDraw TemplateGenerator/pl](wiki/TechDraw TemplateGenerator/pl.md) | [TechDraw TemplateHowTo/pl](wiki/TechDraw TemplateHowTo/pl.md) | [Thread for Screw Tutorial/pl](wiki/Thread for Screw Tutorial/pl.md) |
-| [Toothbrush Head Stand/pl](wiki/Toothbrush Head Stand/pl.md) | [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) | [Tutorial custom placing of windows and doors/pl](wiki/Tutorial custom placing of windows and doors/pl.md) |
-| [Tutorial for open windows/pl](wiki/Tutorial for open windows/pl.md) | [Tutorial FreeCAD POV ray/pl](wiki/Tutorial FreeCAD POV ray/pl.md) | [Tutorial KinematicAssembly/pl](wiki/Tutorial KinematicAssembly/pl.md) |
-| [Tutorial KinematicController/pl](wiki/Tutorial KinematicController/pl.md) | [Tutorial KinematicSkeleton/pl](wiki/Tutorial KinematicSkeleton/pl.md) | [Tutorial Render with Blender/pl](wiki/Tutorial Render with Blender/pl.md) |
-| [Template:TutorialInfo/pl](wiki/Template_TutorialInfo/pl.md) | [Tutorials/pl](wiki/Tutorials/pl.md) | [Video tutorials for architectural design/pl](wiki/Video tutorials for architectural design/pl.md) |
-| [Video tutorials for product design/pl](wiki/Video tutorials for product design/pl.md) | [Video tutorials obsolete/pl](wiki/Video tutorials obsolete/pl.md) | [Video tutorials/pl](wiki/Video tutorials/pl.md) |
-| [VRML Preparation for Robot Simulation/pl](wiki/VRML Preparation for Robot Simulation/pl.md) | [Whiffle Ball tutorial/pl](wiki/Whiffle Ball tutorial/pl.md) | [Wikihouse porting tutorial/pl](wiki/Wikihouse porting tutorial/pl.md) |
-|
+| [Private Preference Packs/pl](wiki/Private Preference Packs/pl.md) | [Raytracing tutorial/pl](wiki/Raytracing tutorial/pl.md) | [Robot 6-Axis/pl](wiki/Robot 6-Axis/pl.md) |
+| [Robot tutorial/pl](wiki/Robot tutorial/pl.md) | [Scripted Parts: Ball Bearing - Part 1/pl](wiki/Scripted Parts_ Ball Bearing - Part 1/pl.md) | [Scripted Parts: Ball Bearing - Part 2/pl](wiki/Scripted Parts_ Ball Bearing - Part 2/pl.md) |
+| [Scripts/pl](wiki/Scripts/pl.md) | [Sketcher Micro Tutorial - Constraint Practices/pl](wiki/Sketcher Micro Tutorial - Constraint Practices/pl.md) | [Sketcher reference/pl](wiki/Sketcher reference/pl.md) |
+| [Sketcher requirement for a sketch/pl](wiki/Sketcher requirement for a sketch/pl.md) | [Sketcher Tutorial/pl](wiki/Sketcher Tutorial/pl.md) | [TechDraw HowTo Page/pl](wiki/TechDraw HowTo Page/pl.md) |
+| [TechDraw Pitch Circle Tutorial/pl](wiki/TechDraw Pitch Circle Tutorial/pl.md) | [TechDraw TemplateGenerator/pl](wiki/TechDraw TemplateGenerator/pl.md) | [TechDraw TemplateHowTo/pl](wiki/TechDraw TemplateHowTo/pl.md) |
+| [Thread for Screw Tutorial/pl](wiki/Thread for Screw Tutorial/pl.md) | [Toothbrush Head Stand/pl](wiki/Toothbrush Head Stand/pl.md) | [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) |
+| [Tutorial custom placing of windows and doors/pl](wiki/Tutorial custom placing of windows and doors/pl.md) | [Tutorial for open windows/pl](wiki/Tutorial for open windows/pl.md) | [Tutorial FreeCAD POV ray/pl](wiki/Tutorial FreeCAD POV ray/pl.md) |
+| [Tutorial KinematicAssembly/pl](wiki/Tutorial KinematicAssembly/pl.md) | [Tutorial KinematicController/pl](wiki/Tutorial KinematicController/pl.md) | [Tutorial KinematicSkeleton/pl](wiki/Tutorial KinematicSkeleton/pl.md) |
+| [Tutorial Render with Blender/pl](wiki/Tutorial Render with Blender/pl.md) | [Template:TutorialInfo/pl](wiki/Template_TutorialInfo/pl.md) | [Tutorials/pl](wiki/Tutorials/pl.md) |
+| [Video tutorials for architectural design/pl](wiki/Video tutorials for architectural design/pl.md) | [Video tutorials for product design/pl](wiki/Video tutorials for product design/pl.md) | [Video tutorials obsolete/pl](wiki/Video tutorials obsolete/pl.md) |
+| [Video tutorials/pl](wiki/Video tutorials/pl.md) | [VRML Preparation for Robot Simulation/pl](wiki/VRML Preparation for Robot Simulation/pl.md) | [Whiffle Ball tutorial/pl](wiki/Whiffle Ball tutorial/pl.md) |
+| [Wikihouse porting tutorial/pl](wiki/Wikihouse porting tutorial/pl.md) |
 
 
 

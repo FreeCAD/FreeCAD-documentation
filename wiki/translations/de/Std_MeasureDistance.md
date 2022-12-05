@@ -3,14 +3,11 @@
    Name   *Std MeasureDistance
    Name/de   *Std AbstandMessen
    MenuLocation   *Werkzeuge → Abstand messen
-   Workbenches   *All
-   SeeAlso   *[Part Linear messen](Part_Measure_Linear/de.md), [Draft Maß](Draft_Dimension/de.md), [Arch Vermessung](Arch_Survey/de.md)
+   Workbenches   *Alle
+   SeeAlso   *[Part LinearMessen](Part_Measure_Linear/de.md), [Draft Maß](Draft_Dimension/de.md)
 ---
 
 # Std MeasureDistance/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -28,9 +25,9 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 ## Hinweise
 
--   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
--   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
--   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width   *24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
+-   Das Fangwerkzeug des Arbeitsbereichs [Draft](Draft_Workbench/de.md) kann nicht mit diesem Werkzeug zusammen verwendet werden.
+-   Um einer Zeichnung Maße hinzuzufügen, werden die Bemaßungswerkzeuge des Arbeitsbereichs [TechDraw](TechDraw_Workbench/de.md) verwendet.
+-   Für umfangreichere Messwerkzeuge kann der [externe Arbeitsbereich](External_workbenches/de.md) <img alt="" src=images/Manipulator_workbench_icon.svg  style="width   *24px;"> [Manipulatorverwendet](Manipulator_Workbench/de.md) werden.
 
 ## Eigenschaften
 
@@ -39,27 +36,27 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 {{TitleProperty|Basis}}
 
--    **Label**   * by default the label contains the measured distance, but this distance is not updated when P1 or P2 are later changed.
+-    {{PropertyData/de|Label}}   * Standardmäßig enthält das Label den gemessenen Abstand, aber dieser Abstand wird nicht aktualisiert, wenn P1 oder P2 später geändert wird.
 
 
 {{TitleProperty|Measurement}}
 
--    **P1**   * the first dimension point.
+-    {{PropertyData/de|P1}}   * Der erste Punkt der Messung.
 
--    **P2**   * the second dimension point.
+-    {{PropertyData/de|P2}}   * Der zweite Punkt der Messung.
 
--    **Distance**   * (read-only) the measured distance between P1 and P2.
+-    {{PropertyData/de|Distance}}   * Der gemessene Abstand zwischen P1 und P2 (schreibgeschützt) .
 
 ### Ansicht
 
 
 {{TitleProperty|Basis}}
 
--    **Dist Factor**   * this factor, multiplied by the measured distance, determines the dimension line offset.
+-    {{PropertyView/de|Dist Factor}}   * Dieser Faktor, mit dem gemessenen Abstand multipliziert, bestimmt den Abstand der Maßlinie.
 
--    **Font Size**   * the height of the letters (line height in pixels).
+-    {{PropertyView/de|Font Size}}   * Die Schrifthöhe (Zeilenabstand in Pixeln).
 
--    **Mirror**   * if set to `True` the position of the dimension line relative to P1 and P2 is flipped.
+-    {{PropertyView/de|Mirror}}   * Wenn auf `True` gesetzt, wird die Lage der Maßlinie relativ zu P1 and P2 umgedreht.
 
 
 

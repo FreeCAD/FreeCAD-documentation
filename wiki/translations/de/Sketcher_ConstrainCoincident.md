@@ -12,35 +12,17 @@
 
 ## Beschreibung
 
-Erstelle eine deckungsgleichen Beschränkung für das ausgewählte Element
-
-Dieses Beschränkungswerkzeug nimmt zwei Punkte als Argument und dient dazu, die beiden Punkte *deckungsgleich* zu machen. (Das bedeutet, sie wie einen Punkt zu setzen).
-
-In der Praxis ist dieses Beschränkungswerkzeug nützlich, wenn es z.B. zu einem Bruch in einem Profil kommt - wenn zwei Linien nahe beieinander enden und verbunden werden müssen - wird eine deckungsgleiche Zwangsbedingung ihrer Endpunkte die Lücke schließen.
+Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small>    * It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 ## Anwendung
 
-Wie oben erwähnt, benötigt dieses Werkzeug zwei Eingaben - beides sind Punkte.
-
-1.  Zunächst ist es notwendig, zwei verschiedene Punkte zu markieren. (**Hinweis   *** Dies funktioniert nicht, wenn man z. B. versucht, den Start- und Endpunkt derselben Geraden zu markieren; das Markieren des Anfangs- und Endpunkts eines Bogens erzeugt einen geschlossenen Kreis oder eine Ellipse, legt aber die Lage der Naht auf diesen Punkt fest).
-2.  Das Markieren eines Zeichenelements wird erreicht, indem man die Maus über das Element bewegt und die linke Maustaste drückt.
-3.  Es ist auch möglich, alle Elemente innerhalb eines Rechtecks durch Klicken und Ziehen zu markieren. Beim Ziehen von links nach rechts (mit einer beliebigen vertikalen Bewegung) werden nur die Formen markiert, die sich vollständig innerhalb des Rechtecks befinden; in der anderen Richtung werden alle Formen markiert, die sich mit dem Auswahlrechteck schneiden. Dies kann verwendet werden, um nur die Knoten auszuwählen, ohne die Kanten auszuwählen, indem man ein kleines Auswahlrechteck um einige Knoten von links nach rechts zieht, solange es keine Kanten gibt, die vollständig im Rechteck enthalten sind.
-4.  Ein markiertes Element ändert seine Farbe auf grün. (Diese Farbe kann in **Bearbeiten → Einstellungen → Anzeige → Farben → Auswahl** angepasst werden)
-5.  Nachfolgende Elemente können durch Wiederholung der obigen Prozedur(en) markiert werden. **Hinweis   *** Es ist nicht notwendig, eine spezielle Taste wie **Strg** gedrückt zu halten, um die Auswahl mehrerer Punkte in einer Skizze zu erreichen.
-6.  Sobald zwei Punkte markiert wurden, hat man mehrere Möglichkeiten den Befehl aufzurufen   *
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md)** in der Werkzeugleiste drücken.
-    -   Das Tastaturkürzel **C**.
-    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Koinzidenz festlegen** auswählen.
-
-
-**Ergebnis   ***
-
-Der Befehl bewirkt, dass die beiden Punkte *deckungsgleich* werden und durch einen einzigen Punkt ersetzt werden.
-
-
-**Hinweis   ***
-
-Um zwei Punkte deckungsgleich zu machen, muss FreeCAD unbedingt einen oder beide der ursprünglichen Punkte verschieben.
+1.  Do one of the following   *
+    -   Select two or more points.
+    -   Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Constrain coincident](Sketcher_ConstrainCoincident.md)** button in the toolbar.
+    -   Use the **C** keyboard shortcut.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Constrain coincident** entry in the top menu.
 
 ## Alternativen zu Koinzident festlegen 
 

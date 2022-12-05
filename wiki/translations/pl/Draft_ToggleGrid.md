@@ -17,17 +17,11 @@ Polecenie <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> *
 
 Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Opcjonalnie zmień [płaszczyznę roboczą i / lub siatkę](Draft_SelectPlane/pl.md).
 2.  Aby wywołać opcję **Przełącz widoczność siatki** wykonaj jedną z poniższych czynności   *
     -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=24px>** na pasku narzędzi Rysunek Roboczy- przyciąganie.
     -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=24px>** w [Widżecie przyciągania](Draft_snap_widget/pl.md).
     -   Użyj skrótu klawiaturowego   * **G** a następnie **R**. Tego skrótu nie można używać, gdy polecenie jest aktywne.
-
-
-</div>
 
 ## Ustawienia
 

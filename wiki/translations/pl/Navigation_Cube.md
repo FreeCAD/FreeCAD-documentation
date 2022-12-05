@@ -23,7 +23,7 @@ Wszystkie elementy, z wyjątkiem wskaźników osi, można klikać.
 
 ### Główny sześcian nawigacyjny 
 
-Główny sześcian posiada 26 ścian   * 6 kwadratowych ścian głównych, 12 prostokątnych ścian brzegowych ({{Version/pl|0.20}}) i 8 trójkątnych ścian narożnych. Kliknięcie dowolnej z nich spowoduje zmianę ujęcia widoku kamery tak, aby jej kierunek był prostopadły do wybranej ściany.
+Główny sześcian posiada 26 ścian   * 6 ścian głównych, 12 prostokątnych ścian brzegowych ({{Version/pl|0.20}}) i 8 ścian narożnych. Kliknięcie dowolnej z nich spowoduje zmianę ujęcia widoku kamery tak, aby jej kierunek był prostopadły do wybranej ściany.
 
 ### Strzałki kierunkowe 
 

@@ -135,7 +135,7 @@ This could be a 150x100x10mm large mounting plate for a motor with symmetric hol
 10. Again select **Add mirrored transform** from the context menu of the **Transformations** field.
 11. Now for the **Plane** select **Horizontal sketch axis**.
 12. Press the **OK** button to finish.
-13. To remove the edges along the axes of symmetry in the final result, in the [Property editor](Property_editor.md) set the **Refine** property of the new feature to {{Value|true}}.
+13. To remove the edges along the axes of symmetry in the final result, set the **Refine** property of the new feature to {{Value|true}} in the [Property editor](Property_editor.md).
 
 To verify that the part is fully parametric open the initial sketch with the quarter part and change one dimension, say a hole diameter. After closing the sketch the three other holes will have changed accordingly. This works with all other dimensions as well. A sketch modelling the full part with a single extrusion and no mirroring would be a lot more complex and all later changes would be more complicated.
 

@@ -12,35 +12,17 @@
 
 ## Opis
 
-Stwórz wiązanie zbieżności z wybraną pozycją.
-
-Narzędzie to przyjmuje dwa punkty jako swój argument i służy do nadania tym dwóm punktom zbieżności. *(To znaczy, że stają się one tylko jednym punktem)*.
-
-W praktyce narzędzie to jest użyteczne w przypadku przerwania profilu, na przykład gdy dwie linie kończą się blisko siebie i muszą zostać połączone - wiązanie zbieżności w punkcie końcowym doprowadzi do zlikwidowania tej przerwy.
+Przypisuje punkt do jednego lub kilku innych punktów *(pokrywa się z nimi)*. {{Version/pl|1.0}}   * Działa jako wiązanie punktów środka, jeśli wybrane są dwa lub więcej okręgów, łuków, elips lub łuków elips.
 
 ## Użycie
 
-Jak stwierdzono powyżej, narzędzie to przyjmuje dwa argumenty - oba są punktami.
-
-1.  Po pierwsze, konieczne jest zaznaczenie dwóch różnych punktów. *(**Uwaga   *** to nie zadziała, jeżeli na przykład spróbujemy wybrać punkt początkowy i punkt końcowy tej samej linii prostej. Wybranie punktów początkowych i końcowych łuku spowoduje utworzenie zamkniętego okręgu lub elipsy, ale ograniczy położenie szwu do tego punktu)*.
-2.  Podświetlenie elementu rysunku uzyskuje się poprzez umieszczenie na nim kursora myszki i kliknięcie lewym przyciskiem myszy.
-3.  Możliwe jest również zaznaczenie wszystkich elementów wewnątrz prostokąta poprzez kliknięcie i przeciągnięcie. Przy przeciąganiu od lewej do prawej (z dowolnym ruchem pionowym) zostaną podświetlone tylko kształty, które w całości mieszczą się w prostokącie; w drugim kierunku zostaną podświetlone wszystkie kształty, które przecinają się z prostokątem zaznaczenia. Można to wykorzystać do zaznaczenia tylko wierzchołków bez zaznaczania krawędzi, przeciągając mały prostokąt wokół niektórych wierzchołków od lewej do prawej, o ile nie ma krawędzi, które w całości mieszczą się w prostokącie.
-4.  Podświetlony element zmieni swój kolor na zielony. *(Kolor ten można dostosować do własnych potrzeb w **Edycja → Preferencje → Wyświetlanie → Kolory → Zaznaczanie**)*.
-5.  Kolejne punkty mogą być podświetlone poprzez powtórzenie powyższych procedur. **Uwaga"** Nie trzeba przytrzymywać żadnego specjalnego klawisza, jak **Ctrl** aby uzyskać wielokrotny wybór pozycji na rysunku.
-6.  Po podświetleniu dwóch punktów, można wywołać komendę za pomocą kilku metod   *
-    -   Wciskając przycisk wiązania na pasku przyborów **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)**.
-    -   Użycie skrótu klawiszy **C** przy pomocy klawiatury.
-    -   Użycie polecenia w górnym menu **Szkic → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Wiązanie zbieżności**.
-
-
-**Wynik   ***
-
-polecenie to spowoduje, że dwa punkty staną się *nałożone na siebie* i zostaną zastąpione jednym punktem.
-
-
-**Uwaga   ***
-
-Aby uczynić dwa punkty zbieżnymi, FreeCAD musi z konieczności przenieść jeden *(lub oba)* z oryginalnych pozycji.
+1.  Wykonaj jedną z następujących czynności   *
+    -   Wybierz dwa lub więcej punktów.
+    -   Wybierz dwie lub więcej krawędzi okręgów, łuków, elips lub łuków elips.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md)** na pasku narzędzi.
+    -   Użyj skrótu klawiaturowego **C**.
+    -   Użyj pozycji w menu głównym **Sketch → Ograniczenia szkicownika → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Wiązanie zbieżności punktów**.
 
 ## Alternatywy dla wiązania zbieżności 
 

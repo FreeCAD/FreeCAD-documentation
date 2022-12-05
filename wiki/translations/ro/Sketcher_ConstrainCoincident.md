@@ -15,45 +15,17 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Descriere
-
-Creați o constrângere de coincidență asupra elementului selectat
-
-
-</div>
-
-Acest instrument de constrângere ia două puncte ca argument pentru a face ca cele două puncte să *coincident*. (Însemnând să le faceți să devină ca un singur punct).
-
-În termeni practici, acest instrument de constrângere este util atunci când există o ruptură într-un profil, de exemplu - unde două linii se termină aproape una de alta și trebuie să fie unite - o constrângere de coincidență asupra punctelor lor finale va închide spațiul.
+Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small>    * It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 ## Usage
 
-
-<div class="mw-translate-fuzzy">
-
-## Cum se folosește 
-
-După cum sa menționat mai sus, acest instrument are două argumente - ambele sunt puncte.
-
-1.  În primul rând este necesar să evidențiem două puncte distincte. (Rețineți că acest lucru nu va funcționa dacă, de exemplu, doriți să selectați punctul inițial și cel final din aceeași linie).
-2.  Evidențiarea unui element de desen este realizată prin mutarea mouse-ului peste element și făcând clic pe butonul stânga al mouse-ului.
-3.  Un element selectat își va schimba culoarea în verde.
-4.  Următoarele elemente pot fi evidențiate prin repetarea procedurilor de mai sus. NOTĂ   * Nu este necesar să țineți apăsată o tastă specială, cum ar fi Ctrl, pentru a selecta mai multe elemente dintr-un desen.
-5.  Odată ce ați selectat două puncte, faceți clic stânga pe \'PointOnPoint\' <img alt="" src=images/Constraint_PointOnPoint.png  style="width   *32px;"> constrângerea va face ca cele două puncte să devină *coincident* și să fie înlocuite de un singur punct.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-NOTĂ   * Pentru a face două puncte coincide, FreeCAD trebuie să se mute în mod necesar unul sau ambele puncte originale.
-
-
-</div>
+1.  Do one of the following   *
+    -   Select two or more points.
+    -   Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Constrain coincident](Sketcher_ConstrainCoincident.md)** button in the toolbar.
+    -   Use the **C** keyboard shortcut.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Constrain coincident** entry in the top menu.
 
 ## Alternatives to Coincident constraint 
 

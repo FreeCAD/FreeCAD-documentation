@@ -61,19 +61,9 @@ Eine vollständige Liste aller unterstützter Einheiten kann man [hier](Expressi
 
 ## Siehe auch 
 
-
-<div class="mw-translate-fuzzy">
-
--   Implementieren der Klassen Quantity und Unit (größtenteils fertig)
--   Implementieren von InputField als Benutzer Frontend (in Arbeit)
--   UnitsCalculator als Testumgebung (in Arbeit)
--   [MengeDokumentation](Quantity/de.md)
--   [Std UnitsCalculator](Std_UnitsCalculator/de.md) Dokumentation
--   Aktualisierung des Werkstoff Frameworks, um nur noch mit Quantities zu arbeiten
--   Testfälle
-
-
-</div>
+-   Die Seite [Ausdrücke](Expressions/de#Einheiten.md) für eine Auflistung aller bekannten Einheiten.
+-   Die Dokumentation der [Größen](Quantity.md).
+-   Das Werkzeug [Std Einheitenrechner](Std_UnitsCalculator/de.md).
 
 
 

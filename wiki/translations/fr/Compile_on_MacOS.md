@@ -28,7 +28,7 @@ CMake est un outil de build qui génère une configuration de build basée sur l
 
 ## Installation des dépendances 
 
-FreeCAD maintient un \'tap\' Homebrew qui installe les formules et dépendances requises. Exécutez les commandes de préparation suivantes dans votre terminal.
+FreeCAD maintient un Homebrew \"cask\" qui installe les formules et dépendances requises. Exécutez les commandes de préparation suivantes dans votre terminal.
 
 
 ```python
@@ -41,6 +41,81 @@ brew install --only-dependencies freecad
 {{Incode|brew install}}
 
 peut prendre un certain temps, donc vous pouvez aller prendre une verre   *-).
+
+Vous pouvez également installer manuellement les dépendances individuelles en installant les paquets suivants à l\'aide de {{Incode|brew install ...}}    *
+
+-    `cmake`
+    
+
+-    `swig`
+    
+
+-    `boost`
+    
+
+-    `boost-python3`
+    
+
+-    `eigen`
+    
+
+-    `gts`
+    
+
+-    `vtk`
+    
+
+-    `xerces-c`
+    
+
+-    `qt@5`\- Seul Qt5 est actuellement supporté, le support de Qt6 est en cours de réalisation
+
+-    `opencascade`
+    
+
+-    `doxygen`
+    
+
+-    `pkgconfig`
+    
+
+-    `coin3d`\- Notez qu\'à l\'heure où nous écrivons ces lignes (Nov. 2022), cela installera une version inutilisable de pyside@2 en tant que dépendance.
+
+Il existe plusieurs paquets qui ne sont disponibles que lorsque vous avez tapé le cask freecad    * vous devez faire (`brew tap freecad/freecad`). En raison de certains contournements de bogues historiques, au moment de la rédaction de cet article (Nov. 2022) les versions de PySide2 et Shiboken2 installées par Homebrew ne sont pas utilisables car elles forcent l\'utilisation de Py_Limited_API, que FreeCAD ne supporte pas. Il est prévu que cette solution de contournement soit supprimée dans les prochains mois, mais en attendant vous devez utiliser les versions FreeCAD cask de PySide et Shiboken. Utilisez `brew install ...`, installez les paquets suivants    *
+
+-    `freecad/freecad/pyside2@5.15.5`
+    
+
+-    `freecad/freecad/shiboken2@5.15.5`
+    
+
+-    `freecad/freecad/med-file`
+    
+
+-    `freecad/freecad/netgen`
+    
+
+Vous devrez également \"lier\" PySide et Shiboken    *
+
+
+```python
+brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
+```
+
+Dans certains cas, les paquets installés par Homebrew n\'utilisent pas la même version de Python    * par exemple, au moment où nous écrivons ces lignes, PySide2 utilise Python 3.10, mais boost-python3 utilise Python 3.11. Bien qu\'il soit possible de \"revenir en arrière\" sur la version la plus avancée (de sorte que dans ce cas, boost-python3 utilise Python 3.10), il s\'agit d\'une opération avancée, et dans de nombreux cas, il est préférable d\'attendre une mise à jour de l\'autre paquet. Si vous voulez quand même poursuivre dans cette voie, regardez la commande \"brew extract\", que vous pouvez utiliser pour extraire une formule dans un nouveau cask (typiquement freecad/freecad). Vous pouvez ensuite modifier cette formule selon vos besoins.
+
+Vous devrez définir le chemin d\'accès à Qt    * Qt5 est actuellement supporté, tandis que le support pour Qt6 est un travail en cours. Définissez FREECAD_QT_VERSION à \"Auto\" ou \"5\" pour sélectionner Qt5 (la valeur par défaut). Sur la ligne de commande, utilisez quelque chose comme    *
+
+
+```python
+cmake \
+  -DCMAKE_BUILD_TYPE="Release" \
+  -DPYTHON_EXECUTABLE="/usr/local/bin/python3" \
+  -DQt5_DIR="/usr/local/Cellar/qt@5/5.15.7/lib/cmake/Qt5" \
+  -DPySide2_DIR="/usr/local/Cellar/pyside2@5.15.5/5.15.5/lib/cmake/PySide2-5.15.5" \
+  -DShiboken2_DIR="/usr/local/Cellar/shiboken2@5.15.5/5.15.5_1/lib/cmake/Shiboken2-5.15.5" \
+  ../freecad-source
+```
 
 ## Obtenir les sources 
 
@@ -79,15 +154,14 @@ Ensuite, nous allons lancer CMake pour générer la configuration de constructio
 
 ### Les options de CMake 
 
-  Nom                        Valeur                                     Remarques
+  Nom                        Valeur                                   Remarques
     
-  CMAKE_BUILD_TYPE           Release (STRING)                           Release ou Debug. Le débogage est généralement utilisé pour les tests au niveau développeur mais peut également être requis pour des tests et le dépannage au niveau utilisateur.
-  BUILD_QT5                  1 (BOOL)                                   Nécessaire pour un build avec Qt5.
-  CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (Chemin)   Nécessaire pour un build avec Qt5. Voir la remarque ci-dessous. Vous devez également ajouter le chemin d\'accès au fichier de configuration cmake des librairies VTK et NGLIB.
-  FREECAD_CREATE_MAC_APP     1 (BOOL)                                   Crée un paquet FreeCAD.app à l\'emplacement spécifié dans CMAKE_INSTALL_PREFIX lorsque la commande \'make install\' a été émise.
-  CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                            Chemin où vous souhaitez générer le paquet FreeCAD.app.
-  FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                   Nécessaire.
-  BUILD_FEM_NETGEN           1 (BOOL)                                   Requis si vous choisissez de construire les outils FEM.
+  CMAKE_BUILD_TYPE           Release (STRING)                         Release ou Debug. Le débogage est généralement utilisé pour les tests au niveau développeur mais peut également être requis pour des tests et le dépannage au niveau utilisateur.
+  CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (PATH)   Nécessaire pour un build avec Qt5. Voir la remarque ci-dessous. Vous devez également ajouter le chemin d\'accès au fichier de configuration cmake des librairies VTK et NGLIB.
+  FREECAD_CREATE_MAC_APP     1 (BOOL)                                 Crée un paquet FreeCAD.app à l\'emplacement spécifié dans CMAKE_INSTALL_PREFIX lorsque la commande \'make install\' a été émise.
+  CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                          Chemin où vous souhaitez générer le paquet FreeCAD.app.
+  FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                 Nécessaire.
+  BUILD_FEM_NETGEN           1 (BOOL)                                 Requis si vous choisissez de construire les outils FEM.
 
 Remarque    * ligne de commande pour générer CMAKE_PREFIX_PATH    *
 

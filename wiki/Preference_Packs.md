@@ -415,6 +415,8 @@ Many add-ons have user-specifiable preference information that is added to the u
 
 Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](Python_console.md) to get this path), in a subdirectory called \"Preference Packs\".
 
+See also [Private Preference Packs](Private_Preference_Packs.md).
+
 
 
 [Category   *User Documentation](Category_User_Documentation.md) [Category   *Developer Documentation](Category_Developer_Documentation.md)

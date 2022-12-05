@@ -1,58 +1,42 @@
 ---
 - GuiCommand   */de
    Name   *Std DrawStyle
-   MenuLocation   *{{StdMenu|[Ansicht](Std_View_Menu/de.md)}} → Zeichenstil
+   Name/de   *Std DrawStyle
+   MenuLocation   *Ansicht → Darstellungsart → ...
    Workbenches   *Alle
-   SeeAlso   *[WahlBegrenzungRahmen](Std_SelBoundingBox/de.md)
+   Shortcut   ***V** **1** - **V** **7**
+   SeeAlso   *[Std SelBoundingBox](Std_SelBoundingBox/de.md)
 ---
 
 # Std DrawStyle/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Alle Objekte der [3D Ansicht](3D_view/de.md) werden in verschiedenen Zeichenstilen angezeigt, einschließlich durchgezogener Linien, Drahtgitter und als Punkte.
-
-
-</div>
+Der Befehl **Std Darstellungsart** kann den Effekt der {{PropertyView/de|Display Mode}} von Objekten in einer [3D-Ansicht](3D_view.md) überlagern.
 
 ## Anwendung
 
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Ein Klick auf den schwarzen Abwärtspfeil rechts von der Schaltfläche **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Std Darstellungsart](Std_DrawStyle/de.md)** und eine Darstellungsart aus dem Ausklappmenü wählen.
+    -   Den Menüeintrag **Ansicht → Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
+    -   Im Kontextmenü der [3D-Ansicht](3D_view/de.md) die Option **Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
+    -   Eines der Tastaturkürzel **V** dann **1**, **2**, **3**, **4**, **5**, **6** oder **7**.
 
-<div class="mw-translate-fuzzy">
+## Verfügbare Darstellungsarten 
 
--   Gehe zum Menü {{MenuCommand/de|{{StdMenu|[Ansicht](Std_View_Menu/de.md)}} → Zeichenstile}}, und wähle eine Option.
-    -   <img alt="" src=images/DrawStyleAsIs.svg  style="width   *24px;"> Wie vorhanden
-    -   <img alt="" src=images/DrawStyleFlatLines.svg  style="width   *24px;"> Flache Linien
-    -   <img alt="" src=images/DrawStyleShaded.svg  style="width   *24px;"> Schattiert
-    -   <img alt="" src=images/DrawStyleWireFrame.svg  style="width   *24px;"> Drahtgitter
-    -   <img alt="" src=images/DrawStylePoints.svg  style="width   *24px;"> Punkte
-    -   <img alt="" src=images/DrawStyleWireFrame.svg  style="width   *24px;"> Ausgeblendete Linie
-    -   <img alt="" src=images/DrawStyleWireFrame.svg  style="width   *24px;"> Keine Schattierung
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *24px;"> Original 
 
-
-</div>
-
-## Available draw styles 
-
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *24px;"> As is 
-
-The **As is** style does not override the **Display Mode** of objects.
+Die Darstellungsart **Original** überlagert nicht die {{PropertyView/de|Display Mode}} von Objekten.
 
 ![](images/Std_DrawStyleAsIs_example.png ) 
-*4 identical objects each with a different Display Mode (from left to right   * 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
+*4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts   * 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'*
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *24px;"> Points 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *24px;"> Punkte 
 
-The **Points** style overrides the **Display Mode** of objects. This style matches the \'Points\' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
+Die Darstellungsart **Punkte** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode \'Points\'. Knoten werden in deckenden Farben dargestellt. Kanten und Flächen werden nicht dargestellt.
 
 ![](images/Std_DrawStylePoints_example.png ) 
-*The same objects with the 'Points' draw style applied*
+*Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert*
 
 ### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> Wireframe 
 
@@ -89,26 +73,10 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 ![](images/Std_DrawStyleFlatLines_example.png ) 
 *The same objects with the 'Flat lines' draw style applied*
 
+## Hinweise
 
-<div class="mw-translate-fuzzy">
-
-### Hinweise
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Der Stil \"Flache Linien\" gibt den Kanten eine einheitliche Farbe, und die Flächen werden je nach Ausrichtung der Ansicht unterschiedlich beleuchtet.
--   Der Stil \"Schattiert\" entfernt die Farbe der Ränder. Dieser Stil ist besser bei der Anzeige von Objekten mit vielen verschiedenen Flächen mit Normalen, die in verschiedene Richtungen verlaufen, insbesondere in Richtungen, die sich von der X, Y und Z Achse unterscheiden.
--   Der Stil \"Drahtgitter\" entfernt die Farbe der Flächen und lässt nur die Kanten und Eckpunkte stehen. Dies führt zu einem durchsichtigen Modus, so dass es möglich ist, Objekte zu sehen, die ganz oder teilweise durch andere Objekte verdeckt sind.
--   Der Stil \"Punkte\" zeigt nur die Knoten an, an denen zwei Kanten miteinander verbunden sind. Bei Volumenkörpern, die aus relativ einfachen Formen bestehen, werden nur einige wenige Knoten angezeigt. Dieser Stil ist bei der Darstellung von Polygonnetzen besser, da in diesem Fall typischerweise viele Knoten zu sehen sind. Um die Sichtbarkeit zu verbessern, könnte es bei diesem Stil hilfreich sein, den Wert von {{PropertyView/de|Punktgröße}} zu erhöhen.
--   Der Stil \"Ausgeblendete Linie\" zeigt die dreieckigen Flächen und ihre Kanten so an, als ob die Objekte in Dreiecksnetze umgewandelt würden.
--   Der Stil \"Keine Schattierung\" gibt den Kanten eine einheitliche Farbe, und alle Flächen werden unabhängig von der Ausrichtung der Ansicht gleichmäßig beleuchtet.
-
-
-</div>
+-   Objekte in einer [3D-Ansicht](3D_view/de.md) besitzen auch eine {{PropertyView/de|Draw Style}}. Diese Eigenschaft bestimmt die Linienart, die für die Kanten verwendet wird. Der Befehl Std Darstellungsart überlagert diese Eigenschaft nicht.
+-   Ein Makro zum Umschalten zwischen zwei Darstellungsarten findet sich unter   * [Macro Toggle Drawstyle](Macro_Toggle_Drawstyle.md).
 
 
 

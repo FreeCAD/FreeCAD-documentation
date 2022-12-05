@@ -1,11 +1,11 @@
 ---
 - TutorialInfo   */fr
-   Topic   *Attachment
-   Level   *Intermédiaire/Avancé
+   Topic   *Ancrage
+   Level   *Intermédiaire/avancé
    Author   *drmacro
    Time   *1 heure
    FCVersion   *0.19 ou supérieure
-   Files   *[TBD]
+   Files   *[A définir]
 ---
 
 # Advanced Attachment OYX/fr

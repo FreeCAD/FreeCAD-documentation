@@ -14,39 +14,17 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-\"Crea una restricción de coincidencia en los objetos seleccionados\"
-
-## Descripción
-
-Esta restricción permite hacer dos puntos coincidentes.
-
-
-</div>
-
-This constraint tool takes two points as its argument and serves to make the two points *coincident*. (Meaning to make them as-one-point).
-
-In practical terms this constraint tool is useful when there is a break in a profile for example - where two lines end near each other and need to be joined - a coincident constraint on their end-points will close the gap.
+Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small>    * It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 ## Usage
 
-
-<div class="mw-translate-fuzzy">
-
-## Utilización
-
-1.  Selecciona dos puntos.
-2.  Selecciona la restricción \'Coincidencia\' y los dos puntos pasarán a ser coincidentes.
-
-
-</div>
-
-
-**Note   ***
-
-In order to make two points coincident, FreeCAD must out of necessity move one (or both) of the original points.
+1.  Do one of the following   *
+    -   Select two or more points.
+    -   Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Constrain coincident](Sketcher_ConstrainCoincident.md)** button in the toolbar.
+    -   Use the **C** keyboard shortcut.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Constrain coincident** entry in the top menu.
 
 ## Alternatives to Coincident constraint 
 

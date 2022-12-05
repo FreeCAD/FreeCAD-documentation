@@ -11,16 +11,32 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/9/9d/WF_wf.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Strumenti utili per creare Punti (punti centrali, centri di cerchi, centri di oggetti \...) Assi (da due punti, normale a un piano \...) Piani (da tre punti, da un asse e un punto\...) e molte altre funzioni che facilitano la creazione del progetto. Questi strumenti sono ospitati nella scheda \"Work Features\" della vista combinata.
 
+
+</div>
+
 <img alt="" src=images/WF.png  style="width   *640px;"> 
 *WorkFeatures*
+
+## Uses
+
+
+<div class="mw-translate-fuzzy">
 
 ## Uso
 
 **Work Features**
+
+
+</div>
 
 
 <center>
@@ -347,13 +363,27 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
+## Script 
+
 Dopo aver scaricato il file compresso
+
+
+</div>
 
 Icona barra strumenti ![](images/WF_wf.png )
 
 **[Download the latest version on GitHub](https   *//github.com/Rentlau/WorkFeature)** , è necessario decomprimerlo e copiare tutti i file nella directory delle macro di FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 **Nota   *Questa macro è ancora in fase di sviluppo si prega di visitare questa pagina per essere sicuri di avere l\'ultima versione.**
+
+
+</div>
 
 <img alt="Download in GitHub click the Download ZIP button" src=images/Macro_Work_Features_GitHub_00.png  style="width   *640px;"> 
 
@@ -365,7 +395,13 @@ Per installare facilmente la macro WorkFeatures e altre interessanti macro veder
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per informazioni dettagliate vedere la pagina [Come installare le Macro](How_to_install_macros/it.md)
+
+
+</div>
 
 ## Esempi
 

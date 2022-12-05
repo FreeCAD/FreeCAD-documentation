@@ -14,7 +14,9 @@
 
 ## Overview
 
-Private preference packs can be added by adding custom github repositories to the [Addon manager](Std_AddonMgr.md). This allows testing or simply private usage.
+Private [preference packs](Preference_Packs.md) can be added by adding custom github repositories to the [Addon manager](Std_AddonMgr.md). This allows testing or simply private usage.
+
+See also [Preference Packs](Preference_Packs.md).
 
 ## Add custom repository 
 

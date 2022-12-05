@@ -27,7 +27,7 @@ All parts, except the axis indicators, can be clicked.
 
 ### Main cube 
 
-The main cube has 26 faces   * 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
+The main cube has 26 faces   * 6 main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
 
 <div class="mw-translate-fuzzy">

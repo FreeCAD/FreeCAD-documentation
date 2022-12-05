@@ -23,9 +23,9 @@ Through the [Addon manager](Std_AddonMgr.md).
 
 ## Version
 
-v0.2 2022-11-27    * fixed draft point selection in treeview
+v0.2 2022-11-27    * Fixed draft point selection in Tree view.
 
-v0.1 2022-11-21    * first release
+v0.1 2022-11-21    * First release.
 
 ## Code
 
@@ -93,7 +93,7 @@ note   * tesselation often makes the true tangent not look like a true tangent
 this is to not overload rendering for larger projects
 one can change the viewsetting deviation for the circle to minimum (0.01)
 if one wants to better view the true tangent, if so, better turn that back
-to default once viewed - it is easy to foget that this has been done,
+to default once viewed - it is easy to forget that this has been done,
 and can in larger projects put fc to more or less a complete halt.
 """
 
@@ -153,7 +153,7 @@ if len(selection) == 2   *
         sx = sx2 if r1 else sx1
         if sx.PickedPoints   *
             point, = sx.PickedPoints
-        else   * # it is a draft point selected in treeview
+        else   * # it is a draft point selected in tree view
             point = sx.Object.Shape.Point
     
 else   *

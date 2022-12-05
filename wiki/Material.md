@@ -48,7 +48,7 @@ At the moment I think of a compiled in mini dataset with a set of \"basic\" mate
 
 ## Material.py
 
-Since handling material-properties is a tedious work we should implement a Python front-end module called **Material.py**. This will be the place to implement all kind of helper methods for material handling.
+Since handling material-properties is a tedious work we should implement a Python front-end module called **Material.py** [https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Material/Material.py source](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Material/Material.py_source.md). This will be the place to implement all kind of helper methods for material handling.
 
 -   Calculation of Mass out of Volume and Density
 -   Translation in different unit systems

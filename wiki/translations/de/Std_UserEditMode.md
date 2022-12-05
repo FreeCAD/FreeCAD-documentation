@@ -16,15 +16,7 @@ Die Anweisung **Std BenutzerBearbeitungsmodus** legt den Bearbeitungsmodus fest,
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Es gibt mehrere Wege, die Anweisung zu geben   *
-    -   Auf den schwarzen Pfeil rechts neben der Schaltfläche **<img src="images/Std_UserEditModeDefault.svg" width=16px> [Std BenutzerBearbeitungsmodus](Std_UserEditMode/de.md)** klicken und einen Bearbeitungsmodus aus dem Ausklappmenü wählen. Beachte   * das Bildchen der Schaltfläche ändert sich gemäß der gewählen Möglichkeit.
-    -   Unter dem Menüpunkt **Ansicht → Navigations/Editier-Modus** einen Bearbeitungsmodus wählen.
-
-
-</div>
+#\* Unter dem Menüpunkt **Bearbeiten → Bearbeitungsmodus** einen Bearbeitungsmodus wählen.
 
 ## mögliche Bearbeitungsmodi 
 

@@ -204,13 +204,7 @@ optionalpylibs=metadata,git
 
 Du kannst auch ein Script einfügen, das gestartet wird, wenn dein Paket deinstalliert wird. Das wäre die Datei \"uninstall.py\", die ganz oben in deinem Addon zu finden wäre. Es wird ausgeführt, wenn ein Benutzer dein Addon mit dem Addon-Manager deinstalliert. Es wird verwendet, um alles, was das Addon auf dem Benutzersystem gemacht hat und nicht dort bleiben soll, zu entfernen, wenn das Addon deinstalliert ist, z.B. Cachedateien entfernen etc.
 
-
-<div class="mw-translate-fuzzy">
-
-Um zu gewährleisten, dass dein Addon vom Addon-Manager richtig gelesen werden kann, kann der \"developer mode\" aktiviert werden, in dem der Addon-Manager alle verfügbaren Addons prüft und gewährleistet, dass deren Metadaten die erforderlichen Elemente enthält. Verwende den [Parameter Editor](Std_DlgParameter.md) um dies zu aktivieren, indem eine Boolsche Variable \"developerMode\" in der \"Addons\"-Parametergruppe erstellt wird und diese Variable auf True gesetzt wird   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
-
-
-</div>
+Um zu gewährleisten, dass dein Addon vom Addon-Manager richtig gelesen werden kann, kann der \"developer mode\" aktiviert werden, in dem der Addon-Manager alle verfügbaren Addons prüft und gewährleistet, dass deren Metadaten die erforderlichen Elemente enthält. Diesen Modus aktiviert man durch Auswahl von **Edit → Einstellungen... → Addon_Manager → Addon-Manager-Optionen → Addon developer mode**, siehe [Voreinstellungseditor](Preferences_Editor/de#Addon-Manager.md).
 
 ### C++ Arbeitsbereiche 
 
@@ -283,13 +277,7 @@ FreeCADGui.addCommand("My_Command", My_Command_Class())
 
 ### C++ Befehlsdefinition 
 
-
-<div class="mw-translate-fuzzy">
-
-In ähnlicher Weise kannst du deine Befehle in C++ programmieren, normalerweise hast du eine Commands.cpp Datei in deinem Gui Modul. Dies ist eine typische Commands.cpp Datei   *
-
-
-</div>
+In ähnlicher Weise können Befehle in C++ programmiert werden, normalerweise in einer Commands.cpp-Datei in deinem GUI-Modul. Dies ist eine typische Commands.cpp-Datei   *
 
 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);

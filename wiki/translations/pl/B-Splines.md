@@ -132,13 +132,7 @@ The derivative until which continuity exists is given by the multiplicity $m$. T
 
 ### Niejednorodne krzywe B-spline 
 
-
-<div class="mw-translate-fuzzy">
-
-Własnością wielomianów Bernsteina jest to, że patrząc na różne części krzywej Béziera, długość ścieżki każdej części jest taka sama. *(Długość ścieżki jest często nazywana **czasem podróży**)*\'. Jak można sobie wyobrazić, użyteczne może być posiadanie krzywych B-spline, których części Béziera mają różne długości ścieżek. Można to osiągnąć poprzez ważenie różnych wielomianów   *
-
-
-</div>
+Wywodzenie krzywych złożonych z krzywych Béziera ma tę matematyczną konsekwencję, że w krzywych złożonych każdy wielomian ma taką samą długość. Takie krzywe złożone nazywane są *jednorodnymi*. Bardziej ogólny przypadek jest taki, że mogą, ale nie muszą mieć tej samej długości. Takie *niejednolite* splajny mają tę zaletę, że można kontrolować, jak blisko splajny przecinają swój punkt kontrolny.
 
 Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
 
@@ -154,13 +148,7 @@ $$c(n, t)=\cfrac{\sum_{i=0}^{n}d_{i}N_{i, n}(t)\cdot w_i}{\sum_{i=0}^{n}N_{i, n}
 
 Notice that the function is no longer a polynomial, but a rational function, and these splines are called rational B-splines. Observe that when all $w_i$ are equal, the equation reduces to a regular non-rational B-spline. So non-rational B-splines are a subset of rational B-splines.
 
-
-<div class="mw-translate-fuzzy">
-
-Te niejednorodne i racjonalne *(z powodu podziału)* krzywe B-spline są często nazywane **NURBS**. Patrząc na ich wzór widzimy, że są one w rzeczywistości krzywymi B-spline o ważonej podstawie $R_{k, D}(t)$   *
-
-
-</div>
+Te niejednorodne i racjonalne *(z powodu podziału)* krzywe B-spline są często nazywane **[NURBS](https   *//en.wikipedia.org/wiki/Non-uniform_rational_B-spline)** i są szeroko stosowane w modelowaniu geometrycznym.
 
 ## Krzywe złożone w programie FreeCAD 
 
@@ -170,13 +158,7 @@ FreeCAD oferuje możliwość tworzenia jednolitych lub niejednolitych krzywych z
 
 Aby utworzyć krzywe złożone, przejdź do szkicu i użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)**. Następnie kliknij lewym przyciskiem myszy, aby ustawić punkt kontrolny, przesuń kursor w lewo, aby ustawić następny punkt kontrolny i tak dalej. Na koniec kliknij prawym przyciskiem myszy, aby zakończyć definicję i utworzyć krzywą.
 
-
-<div class="mw-translate-fuzzy">
-
-Domyślnie tworzone są jednolite krzywe sześcienne, ale nie ma wystarczającej ilości punktów kontrolnych, aby to zrobić. Tak więc, gdy tworzysz krzywą złożona z tylko 2 punktami kontrolnymi, otrzymujesz oczywiście krzywą, która jest pojedynczą liniową krzywą Béziera, dla 3 punktów kontrolnych otrzymujesz kwadratową krzywą Béziera, a dla 5 punktów kontrolnych otrzymujesz sześcienną krzywą złożoną z 2 segmentów Béziera. *(Start 0.20)* Możesz również użyć klawisza D podczas tworzenia krzywej B-spline, aby ustawić jej stopień *(nadal będzie ona opadać do niższego stopnia, jeśli podano mniej punktów)*.
-
-
-</div>
+Domyślnie tworzone są jednolite krzywe sześcienne, ale nie ma wystarczającej ilości punktów kontrolnych, aby to zrobić. Tak więc, gdy tworzysz krzywą złożona z tylko 2 punktami kontrolnymi, otrzymujesz oczywiście krzywą, która jest pojedynczą liniową krzywą Béziera, dla 3 punktów kontrolnych otrzymujesz kwadratową krzywą Béziera, a dla 5 punktów kontrolnych otrzymujesz sześcienną krzywą złożoną z 2 segmentów Béziera. {{Version/pl|0.20}} Możesz również użyć klawisza D podczas tworzenia krzywej B-spline, aby ustawić jej stopień *(nadal będzie ona opadać do niższego stopnia, jeśli podano mniej punktów)*.
 
 Aby utworzyć periodyczne krzywe złożone *(B-splajny, które tworzą zamkniętą krzywą)*, użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Okresowa krzywa złożona ...](Sketcher_CreatePeriodicBSpline/pl.md)**. Nie jest konieczne ustawianie ostatniego punktu kontrolnego na pierwszym, ponieważ linia krzywej zostanie automatycznie zamknięta   *
 
@@ -220,13 +202,7 @@ Kiedy spojrzysz na [funkcję tworzenia](B-Splines/pl#Niejednorodne_krzywe_B-spli
 
 Nowe węzły można dodawać za pomocą przycisku **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width   *24px"> [Dodaj węzeł krzywej złozonej](Sketcher_BSplineInsertKnot/pl.md)**. {{Version/pl|0.20}}
 
-
-<div class="mw-translate-fuzzy">
-
-Usuwanie węzłów nie jest jeszcze możliwe, zobacz sekcję [Ograniczenia](#Ograniczenia.md).
-
-
-</div>
+Węzeł jest usuwany przez zmniejszenie jego stopnia do 0 *(tj. zastosowanie **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *24px"> [Zmniejsz krotność węzła krzywej złożonej](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)**, gdy jego stopień wynosi 1)*.
 
 Zmiana wartości parametru węzła nie jest jeszcze obsługiwana.
 

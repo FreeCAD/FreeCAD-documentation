@@ -11,34 +11,22 @@
 
 ## Beschreibung
 
+Der Befehl **Std Direkthilfe** öffnet die Hilfedokumentation für einen bestimmten Befehl.
 
-<div class="mw-translate-fuzzy">
-
-Der Befehl **Std Direkthilfe** öffnet die Hilfedokumentation für einen angegebenen Befehl.
-
-
-</div>
-
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+In FreeCAD {{VersionPlus/de|0.20}} erfordert dieser Befehl das [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Es gibt verschiedene Wege, den Befehl aufzurufen   *
-    -   Drücke die **<img src="images/Std_WhatsThis.svg" width=16px> [Direkthilfe](Std_WhatsThis/de.md)**-Schaltfläche.
-    -   Wähle die **Hilfe → <img src="images/Std_WhatsThis.svg" width=16px> Direkthilfe**-Option aus dem Menü.
-    -   Benutze den Tastaturkurzbefehl   * **Shift**+**F1**.
-2.  Klicke auf eine Werkzeugleistenschaltfläche oder einen Menüeintrag.
-3.  Die Hilfedokumentation für den ausgewählten Befehl öffnet sich in einem neuen Fenster.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Std_WhatsThis.svg" width=16px> [Direkthilfe](Std_WhatsThis/de.md)** drücken.
+    -   Den Menüeintrag **Hilfe → <img src="images/Std_WhatsThis.svg" width=16px> Direkthilfe** auswählen.
+    -   Das Tastaturkürzel   * **Shift**+**F1**.
+2.  Eine Schaltfläche einer Symbolleiste oder einen Menüeintrag anklicken.
+3.  Die Hilfedokumentation für den ausgewählten Befehl wird in einem neuen Fenster geöffnet.
 
 ## Hinweise
 
--   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
+-   Das Hilfe-Addon besitzt einige Voreinstellungen. Siehe [Voreinstellungseditor](Preferences_Editor/de#Hilfe.md).
 
 
 

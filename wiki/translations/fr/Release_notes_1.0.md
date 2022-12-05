@@ -36,6 +36,10 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width   *300px;">   Le sélecteur d\'ateliers peut maintenant être placé de manière optionnelle dans la barre de menu au lieu de la zone de la barre d\'outils. [Pull request #7679](https   *//github.com/FreeCAD/FreeCAD/pull/7679)
    
 
+   
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Les faces des coins du cube de navigation sont maintenant hexagonales et plus grandes, ce qui les rend plus faciles à cliquer. [Pull request #7876](https   *//github.com/FreeCAD/FreeCAD/pull/7876).
+   
+
 ### Autres améliorations de l\'interface utilisateur 
 
 -   Il est désormais possible de définir une transparence par défaut pour les nouveaux objets de [Part](Part_Module/fr.md) ou de [PartDesign](PartDesign_Workbench/fr.md) dans les [Préférences](PartDesign_Preferences/fr.md). [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
@@ -125,7 +129,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   Il est maintenant possible d\'ouvrir (et ainsi de visualiser) des fichiers \*.pvtu (données de grille non structurées VTK partitionnées). Un fichier \*.pvtu est également le résultat d\'une simulation par [Elmer](FEM_SolverElmer/fr.md), lorsque plus d\'un coeur de CPU a été utilisé. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Le rapport de déformation critique a été ajouté au pipeline de résultats de VTK. Il donne une indication de la rupture ductile pour les matériaux avec un objet \"MaterialMechanicalNonlinear\" (Matériau mécanique non linéaire). [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md) permet de définir l\'échelle du maillage déformé. [Fil du forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) et [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md) permet de définir l\'échelle du maillage déformé en utilisant Python. [Fil du forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) et [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715)
 
 ## Exportation
 

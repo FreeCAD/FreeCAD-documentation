@@ -1,40 +1,23 @@
 ---
 - GuiCommand   */de
-   Name/de   *Std FreeCADWebsite
-   MenuLocation   *[Hilfe](Std_Help_Menu/de.md) → FreeCAD Website
-‎   Workbenches   *Alle
+   Name   *Std FreeCADWebsite
+   Name/de   *Std FreeCADWebseite
+   MenuLocation   *Hilfe → FreeCAD Webseite
+   Workbenches   *Alle
+   SeeAlso   *[Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
 ---
 
 # Std FreeCADWebsite/de
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Öffnet die [FreeCAD Website](https   *//www.freecadweb.org) im Standard-Browser des Betriebssystems (erfordert eine Internet-Verbindung). Dort können verschiedene Landessprachen ausgewählt werden.
+Der Befehl **Std FreeCADWebseite** öffnet die Hauptwebseite des FreeCAD-Projekts im Standard-Browser des Betriebssystems. Der Befehl erfordert eine funktionierende Internet-Verbindung.
 
-
-</div>
-
-The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
-
-Currently the command points to [<https   *//www.freecad.org>](https   *//www.freecad.org/).
-
-
-<div class="mw-translate-fuzzy">
+Aktuell verweist der Befehl auf die Seite [<https   *//www.freecad.org>](https   *//www.freecad.org/).
 
 ## Anwendung
 
--   Öffnet das **Hilfe → FreeCAD Website**-Menü.
-
-
-</div>
-
-1.  Select the **Help → <img src="images/Std_FreeCADWebsite.svg" width=16px> FreeCAD Website** option from the menu.
+1.  Den Menüeintrag **Hilfe → <img src="images/Std_FreeCADWebsite.svg" width=16px> FreeCAD Webseite** auswählen.
 
 
 

@@ -15,7 +15,7 @@
 Das Werkzeug **Darstellung** zeigt im [Aufgabenbereich](Task_panel.md) die Anzeigeeigenschaften der ausgewählten Objekte an.
 
 <img alt="" src=images/DlgDisplayProperties.png  style="width   *250px;"> 
-*The Display properties task panel*
+*Der Aufgabenbereich Anzeigeeigenschaften*
 
 ## Anwendung
 
@@ -32,45 +32,23 @@ Das Werkzeug **Darstellung** zeigt im [Aufgabenbereich](Task_panel.md) die Anzei
 
 ### Ansichtsmodus
 
-
-<div class="mw-translate-fuzzy">
-
-Legt den Zeichenstil fest. Das Aufklappmenü bietet 4 Wahlmöglichkeiten   *
-
--   **Flache Linien   *** Flächen werden schattiert und Kanten sind sichtbar.
--   **Schattiert   *** Flächen werden schattiert und Kanten werden ausgeblendet.
--   **Drahtgitter   *** nur Kanten werden angezeigt, Flächen werden ausgeblendet und das Modell erscheint vollständig transparent.
--   **Punkte   *** nur die Knoten werden angezeigt.
-
-
-</div>
+-   Einen **Anzeigemodus** Aus der Ausklappliste auswählen. Die vorhandenen Optionen sind   * \'Flat lines\', \'Shaded\' (nicht für [Draft](Draft_Workbench/de.md)-Objekte), \'Wireframe\' and \'Points\'. Siehe Befehl [Std Zeichenstil](Std_DrawStyle/de.md) für weitere Informationen.
 
 ### Werkstoff
 
-
-<div class="mw-translate-fuzzy">
-
--   Ein Aufklappmenü listet fertige Werkstoffe auf (Standard, Aluminium, Messing, Bronze\...).
--   Die {{button|...}} Schaltfläche öffnet einen **Materialeigenschaften** Dialog zur Bearbeitung von Umgebung , diffusen, emittierenden und spiegelnden Farben sowie Glanz.
--   **Farbplot   ***, derzeit nicht unterstützt.
--   **Form Farbe   *** legt die Farbe von Flächen fest. Drücke die Schaltfläche, um eine Farbauswahl zu öffnen.
--   **Linienfarbe   ***\' legt die Farbe der Kanten fest. Drücke die Schaltfläche, um eine Farbauswahl zu öffnen.
-
-
-</div>
+-   Ein vorgefertigtes Material aus dem Ausklappmenü auswählen (\'Standard\', \'Aluminium\', \'Messing\', \'Bronze\', etc.).
+-   Die Schaltfläche **...** drücken, um das Dialogfeld Material zu öffnen und die Werte für Umgebungsfarbe, Streufarbe, Ausstrahlfarbe und Glanzfarbe sowie Glanz zu bearbeiten.
+-   **Farb-Plot   *** Wird derzeit nicht unterstützt.
+-   **Flächenfarbe   *** Legt die {{PropertyView/de|Shape Color}} fest. Die Schaltfläche drücken, um den Farbauswahldialog zu öffnen.
+-   *Linienfarbe   **\' Legt die {{PropertyView/de|Line Color}} fest. Die Schaltfläche drücken, um den Farbauswahldialog zu öffnen.
+-   **Punktfarbe   *** Legt die {{PropertyView/de|Point Color}}fest. Die Schaltfläche drücken, um den Farbauswahldialog zu öffnen.
 
 ### Anzeige
 
-
-<div class="mw-translate-fuzzy">
-
--   **Punktgröße   *** legt die Knotengröße in Pixeln fest.
--   **Linienbreite   *** legt die Kantenbreite in Pixeln fest.
--   **Transparenz   ***\' legt die Transparenz von Flächen in Prozent fest. 0 ist vollflächig (opak) und 100 ist vollständig transparent.
--   **Linientransparenz   ***\' wird derzeit nicht unterstützt.
-
-
-</div>
+-   **Punktgröße   *** Legt die {{PropertyView/de|Point Size}} (in Pixeln) fest.
+-   **Linienbreite   *** Legt die {{PropertyView/de|Line Width}} (in Pixeln) fest.
+-   **Transparenz   *** Legt die {{PropertyView/de|Transparency}} (in Prozent) fest. 0% ist opak (undurchsichtig), 100% ist vollständig transparent.
+-   **Linientransparenz   *** Wird derzeit nicht unterstützt.
 
 ## Hinweise
 

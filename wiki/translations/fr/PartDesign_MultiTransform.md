@@ -114,6 +114,32 @@ Il est possible de créer un objet MultiTransform à partir de transformations e
 
 Voir [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Limitations.md).
 
+## Exemple
+
+Vous pouvez utiliser cet outil pour créer une pièce entièrement paramétrique qui sera symétrique par rapport à deux axes à partir d\'une esquisse.
+
+Il peut s\'agir d\'une grande plaque de support de 150x100x10mm pour un moteur avec des trous symétriques.
+
+<img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width   *400px;">
+
+1.  Créez un <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Corps](PartDesign_Body/fr.md) et ajoutez une <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *16px;"> [esquisse](PartDesign_NewSketch/fr.md) sur l\'un de ses plans de base.
+2.  Dans l\'esquisse, créez la géométrie pour un quadrant de la pièce (ici le quadrant supérieur droit).
+    -   Notez que les contraintes ne doivent couvrir qu\'un quart de la pièce, par exemple, au lieu de la dimension complète de {{Value|150mm}}, entrez {{Value|150/2mm}} ou {{Value|75mm}}.
+    -   Assurez-vous que l\'esquisse est fermée en ajoutant des lignes le long des axes vertical et horizontal.
+3.  Extrudez la pièce avec une <img alt="" src=images/PartDesign_Pad.svg  style="width   *16px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md).
+4.  Sélectionnez <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> **Transformation multiple**.
+5.  La boîte de dialogue des tâches s\'ouvre.
+6.  La dernière fonction du corps est déjà sélectionnée. Puisque nous voulons effectuer une symétrie de cette fonction, nous pouvons ignorer les boutons **Ajouter une fonction** et **Supprimer une fonction**.
+7.  Cliquez à droite dans le champ **Transformations** et sélectionnez **Ajouter une fonction de symétrie** dans le menu contextuel.
+8.  Pour le **Plan**, sélectionnez **Axe d'esquisse vertical**.
+9.  Si la case **Mise à jour de la vue** est cochée, vous devriez maintenant voir la pièce reflétée autour d\'un axe.
+10. Sélectionnez à nouveau **Ajouter une fonction de symétrie** dans le menu contextuel du champ **Transformations**.
+11. Maintenant, pour le **Plan**, sélectionnez **Axe d'esquisse horizontal**.
+12. Appuyez sur le bouton **OK** pour terminer.
+13. Pour supprimer les arêtes le long des axes de symétrie dans le résultat final, définissez la propriété **Refine** de la nouvelle fonction sur {{Value|true}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+Pour vérifier que la pièce est entièrement paramétrique, ouvrez l\'esquisse initiale avec la pièce de quart et modifiez une dimension, par exemple le diamètre d\'un trou. Après avoir fermé l\'esquisse, les trois autres trous auront été modifiés en conséquence. Cela fonctionne également avec toutes les autres dimensions. Une esquisse modélisant la pièce complète avec une seule extrusion et sans miroir serait beaucoup plus complexe et toutes les modifications ultérieures seraient plus compliquées.
+
 
 
 

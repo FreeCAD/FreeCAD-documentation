@@ -3,7 +3,7 @@
 
 Command for modifying **Placement**. These options relate only to the position and orientation of the object in space, they do not affect other attributes of the shape. The placement is stored internally as a position, and a rotation (rotation axis and angle transformed into a [quaternion](https   *//en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). While there are several methods to specify a rotation, for instance with a rotation center, this is only used to affect the rotation computation and is not stored for later operations. Similarly, if a rotation axis of (1,1,1) is specified, it may be normalized when stored in the quaternion and appear as (0.58, 0.58, 0.58) when browsing the object later.
 
-## Usage
+## Anwendung
 
 The function **Placement** can be accessed in several ways   *
 
@@ -127,23 +127,11 @@ Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These te
 
 -   The **Reset** returns all values ​​to **0,0,0**.
 
-## Links and Example 
+## Verknüpfungen und Beispiel 
 
+Ein praktisches Beispiel, wie dieser Befehl verwendet wird, findet sich im Tutorial [Flugzeug](Aeroplane/de.md).
 
-<div class="mw-translate-fuzzy">
-
-A practical example of using this command is in the tutorial [ Aeroplane](Aeroplane/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Other explanation on [Placement](Placement/de.md)
-
-
-</div>
+Eine weitere Erklärung zu [Positionierung](Placement/de.md)
 
 
 

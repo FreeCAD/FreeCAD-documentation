@@ -35,6 +35,10 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width   *300px;">   Pole wyboru środowiska pracy może być teraz opcjonalnie umieszczone na pasku menu zamiast w obszarze paska narzędzi. [Pull request #7679](https   *//github.com/FreeCAD/FreeCAD/pull/7679)
    
 
+   
+  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. [Pull request #7876](https   *//github.com/FreeCAD/FreeCAD/pull/7876).
+   
+
 ### Planowane ulepszenie dla interfejsu użytkownika 
 
 -   Możliwe jest teraz ustawienie domyślnej przezroczystości dla nowych obiektów środowiska [Część](Part_Module/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) w [preferencjach](PartDesign_Preferences/pl.md). [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103).
@@ -123,7 +127,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Narzędzie <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md) ma teraz panel zadań i możliwe jest ustawienie ciepła dla kilku ciał lub użycie kilku wiązań dla różnych ciał w jednej analizie. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   Teraz można otwierać *(i w ten sposób wizualizować)* pliki \*.pvtu *(partycjonowane niestrukturalne dane siatki VTK)*. Plik \*.pvtu jest również wynikiem symulacji [Elmer](FEM_SolverElmer/pl.md), w której zastosowano więcej niż jeden rdzeń procesora. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio został dodany do potoku wyników VTK. Daje wskazanie rozerwania ciągliwego dla materiałów z obiektem „MaterialMechanicalNonlinear". [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
--   Narzędzie <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md) umożliwia określenie skali deformowanej siatki. [Wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) oraz [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715).
+-   Narzędzie <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md) umożliwia określenie skali deformowanej siatki przy użyciu środowiska Python. [Wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) oraz [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715).
 
 ## Eksport
 
@@ -169,38 +173,22 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
                                                                                                                                                                                                            
    
 
-
-<div class="mw-translate-fuzzy">
-
-   
-  ![](images/sketcher-move-piece_relnotes_1.0.gif )   Operacja przeciągania krzywej złożonej przesuwa teraz tylko część między węzłami. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
-                                                                                     
-   
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
++++
+| <img alt="" src=images/sketcher-move-piece_relnotes_1.0.gif  style="width   *384px;">Przeciąganie krzywej złożonej. | Operacja przeciągania krzywej złożonej przesuwa teraz tylko część między węzłami. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110) |
+| Kliknij na obrazek, jeśli animacja się nie uruchomi.                                                                                      |                                                                                                                                                      |
++++
+|                                                                                                                                           |                                                                                                                                                      |
++++
 
    
-  ![](images/Sketcher_BackEdit_relnotes_1.0.gif )   Możliwość płynnej edycji szkiców zarówno z przodu jak i z tyłu. Podczas pracy od tyłu, wierzchołki *(oraz wszystkie geometrie i ograniczenia)* są jednakowo wybieralne, a widok przekroju jest przełączany automatycznie. [Pull request #7417](https   *//github.com/FreeCAD/FreeCAD/pull/7417)
-                                                                                 
+  <img alt="" src=images/Sketcher_BackEdit_relnotes_1.0.gif  style="width   *384px;">Kliknij na obrazek, aby zobaczyć animację.   Możliwość płynnej edycji szkiców zarówno z przodu jak i z tyłu. Podczas pracy od tyłu, wierzchołki *(oraz wszystkie geometrie i ograniczenia)* są jednakowo wybieralne, a widok przekroju jest przełączany automatycznie. [Pull request #7417](https   *//github.com/FreeCAD/FreeCAD/pull/7417)
+                                                                                                                                                      
    
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
    
-  ![](images/Sketcher_Element_Widget_relnotes_1.0.gif )   Widżet Element został przerobiony w celu uproszczenia interfejsu użytkownika i umożliwienia prostszego wyboru różnych części każdej geometrii   * Krawędź, punkt początkowy, punkt końcowy i punkt środkowy. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
-                                                                                             
+  <img alt="" src=images/Sketcher_Element_Widget_relnotes_1.0.gif  style="width   *384px;">Kliknij na obrazek, aby zobaczyć animację.   Widżet Element został przerobiony w celu uproszczenia interfejsu użytkownika i umożliwienia prostszego wyboru różnych części każdej geometrii   * Krawędź, punkt początkowy, punkt końcowy i punkt środkowy. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
+                                                                                                                                                                  
    
-
-
-</div>
 
 ### Planowane ulepszenia dla środowiska Szkicownik 
 

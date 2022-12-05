@@ -23,6 +23,8 @@ Through the [Addon manager](Std_AddonMgr.md).
 
 ## Version
 
+v0.2 2022-11-27    * Fixed draft point selection in Tree view.
+
 v0.1 2022-11-21    * first release
 
 ## Code
@@ -58,14 +60,14 @@ v0.1 2022-11-21    * first release
 # ***************************************************************************
 
 
-__Name__ = 'Draft_circle_tangent'
+__Name__ = 'Draft_Circle_Tangent'
 __Comment__ = 'Makes tangents to draft circles.'
 __Author__ = 'heda @ fc-forum'
-__Version__ = '0.1'
-__Date__ = '2022-11-21'
+__Version__ = '0.2'
+__Date__ = '2022-11-27'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = ''
-__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_Draft_circle_tangent'
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_Draft_Circle_Tangent'
 __Icon__ = ''
 __Help__ = 'Select and launch.'
 __Status__ = 'functional'
@@ -149,7 +151,10 @@ if len(selection) == 2   *
         circle = s1 if r1 else s2
         sx1, sx2 = Gui.Selection.getSelectionEx()
         sx = sx2 if r1 else sx1
-        point, = sx.PickedPoints
+        if sx.PickedPoints   *
+            point, = sx.PickedPoints
+        else   * # it is a draft point selected in tree view
+            point = sx.Object.Shape.Point
     
 else   *
     raise RunTimeWarning(msg)

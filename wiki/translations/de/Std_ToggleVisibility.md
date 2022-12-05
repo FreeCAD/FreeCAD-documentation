@@ -16,17 +16,16 @@ Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewä
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Anwendung 
-
-1.  Wähle ein oder mehrere Objekte in der Baumansicht.
-2.  Rechtsklicke auf ein Objekt und benutze \"Sichtbarkeit umschalten\" (wähle **Ansicht** → **Sichtbarkeit** → **Sichtbarkeit umschalten** aus der Menüleiste).
-3.  Umschalten der Sichtbarkeit kann auch durch Drücken der Leertaste erfolgen
-
-
-</div>
+1.  Ein oder mehrere Objekte auswälen.
+    -   Unsichtbare Objekte können in der [Baumansicht](Tree_view/de.md) ausgewählt werden.
+    -   Vorsicht bei der Verwendung von **Ctrl**+**A** zur Auswahl von Objekten in der Baumansicht. Dies schließt auch die Unterelemente von [PartDesign Körpern](PartDesign_Body/de.md) und Objekte, die von [Part Boolesche Operationen](Part_Boolean/de.md) verwendet werden, ein. In den meisten Fällen sollten sie unsichtbar bleiben.
+    -   Objekte, die von [Part Boolesche Operationen](Part_Boolean/de.md) verwendet werden, werden auch ausgewählt, wenn man **Ctrl**+**A** in einer 3D-Ansicht verwendet.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Den Menüeintrag **Ansicht → <img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** auswählen.
+    -   Den Menüeintrag **Ansicht → Sichtbarkeit → <img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** auswählen.
+    -   Die Option **<img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** im Kontextmenü der Baumansicht auswählen. Diese Option ist im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) nicht verfügbar.
+    -   Die Option **<img src="images/Std_ToggleVisibility.svg" width=16px> Ein/Ausblenden** im Kontextmenü der 3D-Ansicht auswählen.
+    -   Das Tastaturkürzel **Leertaste**.
 
 ## Hinweise
 
@@ -43,7 +42,7 @@ Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewä
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Use the `show` and `hide` methods of an object to change its visibility.
+Mit den Methoden `show` und `hide` eines Objekts ändert man seine Sichtbarkeit.
 
 
 ```python

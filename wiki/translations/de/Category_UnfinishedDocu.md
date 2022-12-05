@@ -33,8 +33,9 @@ This category contains all Unfinished Documents
 | [Assembly3 QuickSolve/de](wiki/Assembly3 QuickSolve/de.md) | [Assembly3 ResolveConstraints/de](wiki/Assembly3 ResolveConstraints/de.md) | [Assembly3 ShowElementCS/de](wiki/Assembly3 ShowElementCS/de.md) |
 | [Assembly3 SmartRecompute/de](wiki/Assembly3 SmartRecompute/de.md) | [Assembly3 TogglePartVisibility/de](wiki/Assembly3 TogglePartVisibility/de.md) | [Assembly3 TracePartMove/de](wiki/Assembly3 TracePartMove/de.md) |
 | [BIM application compatibility table/de](wiki/BIM application compatibility table/de.md) | [BIM ingame tutorial/de](wiki/BIM ingame tutorial/de.md) | [BIM Workbench/de](wiki/BIM Workbench/de.md) |
-| [Compile on Docker/de](wiki/Compile on Docker/de.md) | [CurvedShapes Workbench/de](wiki/CurvedShapes Workbench/de.md) | [Curves SplitCurve/de](wiki/Curves SplitCurve/de.md) |
-| [Curves Workbench/de](wiki/Curves Workbench/de.md) | [Engine Block Tutorial/de](wiki/Engine Block Tutorial/de.md) | [FCGear CycloidRack/de](wiki/FCGear CycloidRack/de.md) |
+| [Compile on Docker/de](wiki/Compile on Docker/de.md) | [CurvedShapes Workbench/de](wiki/CurvedShapes Workbench/de.md) | [Curves Pipeshell/de](wiki/Curves Pipeshell/de.md) |
+| [Curves SketchOnSurface/de](wiki/Curves SketchOnSurface/de.md) | [Curves SplitCurve/de](wiki/Curves SplitCurve/de.md) | [Curves Workbench/de](wiki/Curves Workbench/de.md) |
+| [Curves ZebraTool/de](wiki/Curves ZebraTool/de.md) | [Engine Block Tutorial/de](wiki/Engine Block Tutorial/de.md) | [FCGear CycloidRack/de](wiki/FCGear CycloidRack/de.md) |
 | [FCGear GearConnector/de](wiki/FCGear GearConnector/de.md) | [FCGear HypoCycloidGear/de](wiki/FCGear HypoCycloidGear/de.md) | [FCGear InternalInvoluteGear/de](wiki/FCGear InternalInvoluteGear/de.md) |
 | [FEM ConstantVacuumPermittivity/de](wiki/FEM ConstantVacuumPermittivity/de.md) | [FEM ConstraintBearing/de](wiki/FEM ConstraintBearing/de.md) | [FEM ConstraintFluidBoundary/de](wiki/FEM ConstraintFluidBoundary/de.md) |
 | [FEM ConstraintGear/de](wiki/FEM ConstraintGear/de.md) | [FEM ConstraintPulley/de](wiki/FEM ConstraintPulley/de.md) | [FEM ConstraintSpring/de](wiki/FEM ConstraintSpring/de.md) |

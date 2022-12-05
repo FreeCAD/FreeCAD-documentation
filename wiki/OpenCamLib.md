@@ -42,15 +42,13 @@ The repository is [here](https   *//github.com/aewallin/opencamlib) and contains
 
 Before beginning installation, or during the installation process, you will probably find you need to install some additional packages   *
 
-For example   * 
-
-   sudo apt install cmake
-   sudo apt install libboost-program-options-dev
-   # Optional, for documentation
-   sudo apt-get install doxygen
-   sudo apt-get install texlive-full
-
-
+For example   *  {{Code|lang=bash|code=
+sudo apt install cmake
+sudo apt install libboost-program-options-dev
+# Optional, for documentation   *
+sudo apt-get install doxygen
+sudo apt-get install texlive-full
+}}
 
 Note   * the \"libboost-program-options-dev\" may be substituted with \"libboost-all-dev\".
 
@@ -62,11 +60,9 @@ Identify the version of cmake you have installed with cmake --version
 
 For cmake \>= 3.12, add these flags   *
 
-
-
-   cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
-
-
+ {{Code|lang=bash|code=
+cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
+}}
 
 For cmake \< 3.12 (like in Ubuntu 18.04, which has 3.10), first you\'ll need to edit src/pythonlib/pythonlib.cmake, and apply this patch   *
 
@@ -97,36 +93,48 @@ Index   * opencamlib-2019.07/src/pythonlib/pythonlib.cmake
 
 Then, in order for Python 3 to be detected correctly you\'ll need to add 2 more flags to the cmake line   *
 
-
-
-   cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DPYTHON_EXECUTABLE="$(which python3)" -DPYTHON_VERSION_SUFFIX=3 -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
-
-
+ {{Code|lang=bash|code=
+cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DPYTHON_EXECUTABLE="$(which python3)" -DPYTHON_VERSION_SUFFIX=3 -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
+}}
 
 See the FreeCAD forum at [Re   * How to activate openCamLib after compiling it](https   *//forum.freecadweb.org/viewtopic.php?p=316970#p316988), and a few posts following.
 
 ### Mac
 
-    git clone https   *//github.com/aewallin/opencamlib
-    cd opencamlib
-    mkdir build
-    cd build
-    cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release .. -Wno-dev
-    make -j4
-    make install
+ {{Code|lang=bash|code=
+git clone https   *//github.com/aewallin/opencamlib
+cd opencamlib
+mkdir build
+cd build
+cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release .. -Wno-dev
+make -j4
+make install
+}}
 
-How to test? Use FreeCADCmd.
+To test the build enter the following in the [Python console](Python_console.md)   *
 
-    >>> import area
-    >>> import ocl
-    >>> dir(ocl)
-    ['AdaptivePathDropCutter', 'AdaptivePathDropCutter_base', 'AdaptiveWaterline', 'AdaptiveWaterline_base', 'Arc', 'ArcSpanType', 'BallConeCutter', 'BallCutter', 'BatchDropCutter', 'BatchDropCutter_base', 'BatchPushCutter', 'BatchPushCutter_base', 'Bbox', 'BullConeCutter', 'BullCutter', 'CCPoint', 'CCType', 'CLPoint', 'CompBallCutter', 'CompCylCutter', 'ConeConeCutter', 'ConeCutter', 'CutterLocationSurface', 'CylConeCutter', 'CylCutter', 'Ellipse', 'EllipsePosition', 'Fiber', 'Fiber_base', 'Interval', 'Line', 'LineCLFilter', 'LineCLFilter_base', 'LineSpanType', 'MillingCutter', 'Path', 'PathDropCutter', 'PathDropCutter_base', 'Path_base', 'Point', 'STLReader', 'STLSurf', 'STLSurf_base', 'SpanType', 'Triangle', 'Triangle_base', 'Waterline', 'Waterline_base', 'WeaveVertexType', 'ZigZag', 'ZigZag_base', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'eps', 'epsD', 'epsF', 'version']
+ 
+```python
+import area
+import ocl
+dir(ocl)
+```
 
-If dir(ocl) only shows up following   *
+The return value should be   *
 
-    ['__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+ 
+```python
+['AdaptivePathDropCutter', 'AdaptivePathDropCutter_base', 'AdaptiveWaterline', 'AdaptiveWaterline_base', 'Arc', 'ArcSpanType', 'BallConeCutter', 'BallCutter', 'BatchDropCutter', 'BatchDropCutter_base', 'BatchPushCutter', 'BatchPushCutter_base', 'Bbox', 'BullConeCutter', 'BullCutter', 'CCPoint', 'CCType', 'CLPoint', 'CompBallCutter', 'CompCylCutter', 'ConeConeCutter', 'ConeCutter', 'CutterLocationSurface', 'CylConeCutter', 'CylCutter', 'Ellipse', 'EllipsePosition', 'Fiber', 'Fiber_base', 'Interval', 'Line', 'LineCLFilter', 'LineCLFilter_base', 'LineSpanType', 'MillingCutter', 'Path', 'PathDropCutter', 'PathDropCutter_base', 'Path_base', 'Point', 'STLReader', 'STLSurf', 'STLSurf_base', 'SpanType', 'Triangle', 'Triangle_base', 'Waterline', 'Waterline_base', 'WeaveVertexType', 'ZigZag', 'ZigZag_base', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'eps', 'epsD', 'epsF', 'version']
+```
 
-then the installation is not okay, for cmake the Release option is very important, when using Debug area and ocl will collide and either library will not load (depending on what what was loaded first).
+In case of an error the return value will be   *
+
+ 
+```python
+['__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+```
+
+For cmake the Release option is very important, when using Debug area and ocl will collide and either library will not load (depending on what what was loaded first).
 
 ## More help 
 

@@ -19,8 +19,8 @@ This category gathers all pages used as Sandbox   * a place where you can draft 
 | [Sandbox:Simbioz](wiki/Sandbox_Simbioz.md) | [Sandbox:Sketcher import DXF tutorial](wiki/Sandbox_Sketcher import DXF tutorial.md) | [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) |
 | [Sandbox:TechDraw TemplateExplained](wiki/Sandbox_TechDraw TemplateExplained.md) | [Sandbox:TechDraw TemplateHelper](wiki/Sandbox_TechDraw TemplateHelper.md) | [Sandbox:TranslationGuideLines/de](wiki/Sandbox_TranslationGuideLines/de.md) |
 | [Sandbox:TutorialArchBIM](wiki/Sandbox_TutorialArchBIM.md) | [Sandbox:TutorialBIMannex](wiki/Sandbox_TutorialBIMannex.md) | [Sandbox:VWegert](wiki/Sandbox_VWegert.md) |
-| [Symbols Library Workbench](wiki/Symbols Library Workbench.md) | [Timber Workbench](wiki/Timber Workbench.md) | [Tutorial guidelines](wiki/Tutorial guidelines.md) |
-| [Workfeature Workbench](wiki/Workfeature Workbench.md) |
+| [Sandbox:Wishlist](wiki/Sandbox_Wishlist.md) | [Symbols Library Workbench](wiki/Symbols Library Workbench.md) | [Timber Workbench](wiki/Timber Workbench.md) |
+| [Tutorial guidelines](wiki/Tutorial guidelines.md) | [Workfeature Workbench](wiki/Workfeature Workbench.md) |
 
 
 

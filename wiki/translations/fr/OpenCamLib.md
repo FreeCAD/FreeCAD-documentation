@@ -44,13 +44,13 @@ Le dépôt est [ici](https   *//github.com/aewallin/opencamlib) et contient des 
 
 Avant de commencer l\'installation ou pendant le processus d\'installation, vous constaterez probablement que vous devez installer des packages supplémentaires    *
 
-Par exemple    *
-
-   sudo apt install cmake
-   sudo apt install libboost-program-options-dev
-   # Optional, for documentation
-   sudo apt-get install doxygen
-   sudo apt-get install texlive-full
+Par exemple    * {{Code|lang=bash|code=
+sudo apt install cmake
+sudo apt install libboost-program-options-dev
+# Optional, for documentation   *
+sudo apt-get install doxygen
+sudo apt-get install texlive-full
+}}
 
 Remarque   * \"libboost-program-options-dev\" peut être remplacé par \"libboost-all-dev\".
 
@@ -62,7 +62,10 @@ Identifiez la version de cmake que vous avez installée avec cmake --version
 
 Pour cmake \>= 3.12, ajoutez ces drapeaux    *
 
-   cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
+
+{{Code|lang=bash|code=
+cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
+}}
 
 Pour cmake \< 3.12 (comme dans Ubuntu 18.04 qui a la 3.10), vous devez d\'abord éditer src/pythonlib/pythonlib.cmake et appliquer ce patch   *
 
@@ -89,13 +92,50 @@ Index   * opencamlib-2019.07/src/pythonlib/pythonlib.cmake
 
 Ensuite, pour que Python3 soit détecté correctement, vous devrez ajouter 2 autres drapeaux à la ligne cmake    *
 
-   cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DPYTHON_EXECUTABLE="$(which python3)" -DPYTHON_VERSION_SUFFIX=3 -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
+
+{{Code|lang=bash|code=
+cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DPYTHON_EXECUTABLE="$(which python3)" -DPYTHON_VERSION_SUFFIX=3 -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
+}}
 
 Voir le forum FreeCAD sur [Re   * Comment activer openCamLib après l\'avoir compilé](https   *//forum.freecadweb.org/viewtopic.php?p=316970#p316988) et quelques posts suivants.
 
 ### Mac
 
-(Pas d\'entrée)
+
+{{Code|lang=bash|code=
+git clone https   *//github.com/aewallin/opencamlib
+cd opencamlib
+mkdir build
+cd build
+cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release .. -Wno-dev
+make -j4
+make install
+}}
+
+Pour tester la compilation, entrez ce qui suit dans la [console Python](Python_console/fr.md)    *
+
+
+```python
+import area
+import ocl
+dir(ocl)
+```
+
+La valeur de retour doit être    *
+
+
+```python
+['AdaptivePathDropCutter', 'AdaptivePathDropCutter_base', 'AdaptiveWaterline', 'AdaptiveWaterline_base', 'Arc', 'ArcSpanType', 'BallConeCutter', 'BallCutter', 'BatchDropCutter', 'BatchDropCutter_base', 'BatchPushCutter', 'BatchPushCutter_base', 'Bbox', 'BullConeCutter', 'BullCutter', 'CCPoint', 'CCType', 'CLPoint', 'CompBallCutter', 'CompCylCutter', 'ConeConeCutter', 'ConeCutter', 'CutterLocationSurface', 'CylConeCutter', 'CylCutter', 'Ellipse', 'EllipsePosition', 'Fiber', 'Fiber_base', 'Interval', 'Line', 'LineCLFilter', 'LineCLFilter_base', 'LineSpanType', 'MillingCutter', 'Path', 'PathDropCutter', 'PathDropCutter_base', 'Path_base', 'Point', 'STLReader', 'STLSurf', 'STLSurf_base', 'SpanType', 'Triangle', 'Triangle_base', 'Waterline', 'Waterline_base', 'WeaveVertexType', 'ZigZag', 'ZigZag_base', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'eps', 'epsD', 'epsF', 'version']
+```
+
+En cas d\'erreur, la valeur de retour sera    *
+
+
+```python
+['__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+```
+
+Pour cmake, l\'option Release est très importante, lorsque vous utilisez Debug area et ocl vont entrer en collision et l\'une ou l\'autre des bibliothèques ne sera pas chargée (en fonction de ce qui a été chargé en premier).
 
 ## Plus d\'aide 
 

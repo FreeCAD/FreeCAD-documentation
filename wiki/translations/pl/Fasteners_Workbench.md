@@ -207,15 +207,15 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Śruba z łbem serowym z wgłębieniem krzyżowym typu H.
 
--   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width   *32px;"> **GOST 1144-3** Half round head wood screw with type H cross recess.
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width   *32px;"> **GOST 1144-3** Wkręt do drewna z łbem półokrągłym z wgłębieniem krzyżowym typu H.
 
--   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width   *32px;"> **GOST 1144-4** Half round head wood screw with type H cross recess.
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width   *32px;"> **GOST 1144-4** Wkręt do drewna z łbem półokrągłym z wgłębieniem krzyżowym typu H.
 
 ### Inne śruby z łbami 
 
 -   <img alt="" src=images/Fasteners_DIN603.svg  style="width   *32px;"> **DIN 603** Śruba z okrągłym łbem i kwadratową szyjką.
 
--   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** UNC Round head square neck bolt.
+-   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** Śruba UNC z okrągłym łbem i kwadratową szyjką.
 
 ### Nakrętki
 
@@ -245,11 +245,11 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** UNC Nakrętka sześciokątna cienka.
 
-### T-slot nuts 
+### Nakrętki do rowków T 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Nakrętka młoteczkowa - T.
 
--   <img alt="" src=images/Fasteners_GN507.svg  style="width   *32px;"> **GN 507** T-slot nut.
+-   <img alt="" src=images/Fasteners_GN507.svg  style="width   *32px;"> **GN 507** Nakrętka do rowka T.
 
 ### Podkładki
 
@@ -275,13 +275,13 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN podkładka, seria szeroka.
 
-### Retaining rings 
+### Pierścienie oporowe 
 
--   <img alt="" src=images/Fasteners_DIN471.svg  style="width   *32px;"> **DIN 471** External retaining ring.
+-   <img alt="" src=images/Fasteners_DIN471.svg  style="width   *32px;"> **DIN 471** Zewnętrzny pierścień zabezpieczający.
 
--   <img alt="" src=images/Fasteners_DIN472.svg  style="width   *32px;"> **DIN 472** Internal retaining ring.
+-   <img alt="" src=images/Fasteners_DIN472.svg  style="width   *32px;"> **DIN 472** Wewnętrzny pierścień zabezpieczający.
 
--   <img alt="" src=images/Fasteners_DIN6799.svg  style="width   *32px;"> **DIN 6799** E-clip retaining ring.
+-   <img alt="" src=images/Fasteners_DIN6799.svg  style="width   *32px;"> **DIN 6799** Pierścień zabezpieczający E-clip.
 
 ### Elementy złączne różne 
 

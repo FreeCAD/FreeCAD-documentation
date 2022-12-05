@@ -23,7 +23,7 @@ Toutes les composantes, à l\'exception des indicateurs d\'axe, peuvent être cl
 
 ### Cube principal 
 
-Le cube principal comporte 26 faces    * 6 faces principales carrées, 12 faces de bord rectangulaires ({{Version/fr|0.20}}) et 8 faces d\'angle triangulaires. En cliquant sur l\'une d\'entre elles, la caméra sera réorientée de façon à ce que sa direction soit perpendiculaire à la face sélectionnée.
+Le cube principal possède 26 faces    * 6 faces principales, 12 faces à bords rectangulaires ({{Version/fr|0.20}}) et 8 faces d\'angle. En cliquant sur l\'une d\'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée.
 
 ### Flèches directionnelles 
 

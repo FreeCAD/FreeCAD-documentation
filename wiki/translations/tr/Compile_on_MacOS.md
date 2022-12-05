@@ -28,7 +28,7 @@ CMake is a build tool that generates a build configuration based on variables yo
 
 ## Install Dependencies 
 
-FreeCAD maintains a Homebrew \'tap\' which installs the required formulas and dependencies. Issue the following brew commands in your terminal.
+FreeCAD maintains a Homebrew \'cask\' which installs the required formulas and dependencies. Issue the following brew commands in your terminal.
 
 
 ```python
@@ -41,6 +41,81 @@ brew install --only-dependencies freecad
 {{Incode|brew install}}
 
 may take quite a while, so you may want go grab a beverage.    *-).
+
+Alternately, you can install the individual dependencies manually by installing the following packages using {{Incode|brew install ...}}   *
+
+-    `cmake`
+    
+
+-    `swig`
+    
+
+-    `boost`
+    
+
+-    `boost-python3`
+    
+
+-    `eigen`
+    
+
+-    `gts`
+    
+
+-    `vtk`
+    
+
+-    `xerces-c`
+    
+
+-    `qt@5`\- Only Qt5 is currently supported, support for Qt6 is a work-in-progress
+
+-    `opencascade`
+    
+
+-    `doxygen`
+    
+
+-    `pkgconfig`
+    
+
+-    `coin3d`\- Note that as of this writing (Nov. 2022) this will install an unusable version of pyside@2 as a dependency.
+
+There are several packages that are only available when you have tapped the freecad cask   * you must do that (`brew tap freecad/freecad`). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use `brew install ...`, install the following packages   *
+
+-    `freecad/freecad/pyside2@5.15.5`
+    
+
+-    `freecad/freecad/shiboken2@5.15.5`
+    
+
+-    `freecad/freecad/med-file`
+    
+
+-    `freecad/freecad/netgen`
+    
+
+You will also need to \"link\" PySide and Shiboken   *
+
+
+```python
+brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
+```
+
+In some cases the packages installed by Homebrew do not use the same Python version   * for example, at the time of this writing PySide2 uses Python 3.10, but boost-python3 uses Python 3.11. While it is possible to \"roll back\" the more advanced version (so that in this case boost-python3 uses Python 3.10) this is an advanced operation, and in many cases it is best to wait for an update to the other package. If you want to pursue that path anyway, look at the \"brew extract\" command, which you can use to extract a formula into a new cask (typically freecad/freecad). You can then edit that formula as needed.
+
+You will need to set the path to Qt   * Qt5 is currently supported, while support for Qt6 is a work-in-progress. Set FREECAD_QT_VERSION to \"Auto\" or \"5\" to select Qt5 (the default). On the command line, use something like   *
+
+
+```python
+cmake \
+  -DCMAKE_BUILD_TYPE="Release" \
+  -DPYTHON_EXECUTABLE="/usr/local/bin/python3" \
+  -DQt5_DIR="/usr/local/Cellar/qt@5/5.15.7/lib/cmake/Qt5" \
+  -DPySide2_DIR="/usr/local/Cellar/pyside2@5.15.5/5.15.5/lib/cmake/PySide2-5.15.5" \
+  -DShiboken2_DIR="/usr/local/Cellar/shiboken2@5.15.5/5.15.5_1/lib/cmake/Shiboken2-5.15.5" \
+  ../freecad-source
+```
 
 ## Get the source 
 
@@ -82,7 +157,6 @@ Next, we will run CMake to generate the build configuration. Several options mus
   Name                       Value                                    Notes
     
   CMAKE_BUILD_TYPE           Release (STRING)                         Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting.
-  BUILD_QT5                  1 (BOOL)                                 Required to build with Qt5.
   CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (PATH)   Required to build with Qt5. See note below. You also need to add path to VTK libraries and NGLIB libraries cmake configuration file.
   FREECAD_CREATE_MAC_APP     1 (BOOL)                                 Create a FreeCAD.app bundle at the location specified in CMAKE_INSTALL_PREFIX, when the \'make install\' command issued.
   CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                          Path where you want to generate the FreeCAD.app bundle.

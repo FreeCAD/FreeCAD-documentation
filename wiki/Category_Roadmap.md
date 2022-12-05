@@ -14,7 +14,8 @@ This category gathers all articles documenting what is planned in the Roadmap of
 | [Development roadmap/ru](wiki/Development roadmap/ru.md) | [Development roadmap/sv](wiki/Development roadmap/sv.md) | [FreeCAD 1.0 Development Cycle](wiki/FreeCAD 1.0 Development Cycle.md) |
 | [HiDPI support](wiki/HiDPI support.md) | [Material](wiki/Material.md) | [Path Development Roadmap](wiki/Path Development Roadmap.md) |
 | [PDM Roadmap](wiki/PDM Roadmap.md) | [Project template](wiki/Project template.md) | [Release process](wiki/Release process.md) |
-| [TechDraw Roadmap](wiki/TechDraw Roadmap.md) | [Tolerancing](wiki/Tolerancing.md) |
+| [Sandbox:Wishlist](wiki/Sandbox_Wishlist.md) | [TechDraw Roadmap](wiki/TechDraw Roadmap.md) | [Tolerancing](wiki/Tolerancing.md) |
+|
 
 
 

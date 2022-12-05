@@ -1,7 +1,7 @@
 # Scenegraph/it
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
 
 <div class="mw-translate-fuzzy">
@@ -11,7 +11,7 @@ Le geometrie che appaiono nelle viste 3D di FreeCAD sono visualizzate (renderizz
 
 </div>
 
-## Description
+## Descrizione
 
 
 <div class="mw-translate-fuzzy">
@@ -145,7 +145,7 @@ Inoltre, c\'è anche un modulo Python che consente l\'accesso completo a tutto q
 
 </div>
 
-## Coding examples 
+## Esempi di codifica 
 
 See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository can be found at <https   *//github.com/MariwanJ/COIN3D_Snippet>. {{Top}}
 

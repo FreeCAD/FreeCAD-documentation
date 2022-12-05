@@ -18,7 +18,7 @@ Qui si spiega come controllare il modulo [Part](Part_Workbench/it.md) direttamen
 
 ## Diagramma delle classi 
 
-Questa è una panoramica delle classi [Linguaggio di Modellazione Unificato (UML)](http   *//it.wikipedia.org/wiki/Unified_Modeling_Language) più importanti del modulo Parte   *
+Questa è una panoramica delle classi del [Linguaggio di Modellazione Unificato (UML)](http   *//it.wikipedia.org/wiki/Unified_Modeling_Language) più importanti del modulo Parte   *
 
 ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
 
@@ -52,8 +52,6 @@ Sono disponibili i seguenti tipi di dati topologici   *
 {{Top}}
 
 ## Esempio   * Creare una semplice topologia 
-
-=
 
 ![Wire](images/Wire.png )
 
@@ -147,7 +145,7 @@ Part.show(P)
 
 ## Creare forme di base 
 
-Si può creare facilmente oggetti topologici di base con i metodi `make...()` dal modulo Part   *
+Si possono creare facilmente gli oggetti topologici di base con i metodi `make...()` del modulo Part   *
 
 
 ```python
@@ -455,7 +453,7 @@ Crea una copia dell\'ellisse data.
 Part.Ellipse(S1, S2, Center)
 ```
 
-Crea un\'ellisse centrato sul punto Center, in cui il piano dell\'ellisse è definito da Center, S1 e S2, il suo asse maggiore è definito da Center e S1, il suo raggio maggiore è la distanza tra Center e S1, e il suo raggio minore è la distanza tra S2 e l\'asse maggiore.
+Crea un\'ellisse centrata sul punto Center, in cui il piano dell\'ellisse è definito da Center, S1 e S2, il suo asse maggiore è definito da Center e S1, il suo raggio maggiore è la distanza tra Center e S1, e il suo raggio minore è la distanza tra S2 e l\'asse maggiore.
 
 
 ```python
@@ -746,28 +744,13 @@ v = e.Vertexes[0]
 v.Point
 ```
 
+Digitando le righe sopra nell\'interprete Python, si otterrà una buona comprensione della struttura degli oggetti Part. Qui, il comando `makeBox()` crea una forma solida. Questo solido, come tutti i solidi Part, contiene delle facce. Le facce contengono sempre delle linee (polilinee), che sono lieste di bordi, che delimitano la faccia. Ogni faccia ha almeno un contorno chiuso (ne può avere più di uno se la faccia presenta dei fori). Nel contorno, possiamo guardare a ciascun bordo separatamente, e all\'interno di ogni bordo, possiamo vedere i vertici. I bordi dritti hanno solo due vertici, ovviamente.
 
-<div class="mw-translate-fuzzy">
-
-Digitando le righe di cui sopra nell\'interprete Python, si otterrà una buona descrizione della struttura degli oggetti Parte. Qui, il nostro comando makeBox() crea una forma solida. Questo solido, come tutti i solidi Parte, contiene delle facce. Le facce contengono sempre delle linee (polilinee), che sono liste di bordi che delimitano la faccia. Ciascuna faccia ha almeno un contorno chiuso (ne può avere più di uno se la faccia presenta dei fori). Nel contorno, possiamo guardare a ciascun bordo separatamente, e all\'interno di ogni bordo, possiamo vedere i vertici. Ovviamente, i bordi diritti hanno solo due vertici.
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
+Digitando le righe di cui sopra nell\'interprete Python, si otterrà una buona descrizione della struttura degli oggetti Parte. Qui, il nostro comando makeBox() crea una forma solida. Questo solido, come tutti i solidi Parte, contiene delle facce. Le facce contengono sempre delle linee (polilinee), che sono liste di bordi che delimitano la faccia. Ciascuna faccia ha almeno un contorno chiuso (ne può avere più di uno se la faccia presenta dei fori). Nel contorno, possiamo guardare a ciascun bordo separatamente, e all\'interno di ogni bordo, possiamo vedere i vertici. Ovviamente, i bordi diritti hanno solo due vertici. {{Top}}
 
 ### Analizzare i bordi 
 
-Nel caso in cui il bordo è una curva arbitraria, è più probabile che si voglia fare una discretizzazione. In FreeCAD i bordi sono parametrizzati dalle loro lunghezze. Ciò significa che si può percorrere un bordo/curva con la sua lunghezza   *
-
-
-</div>
-
-In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length   *
+Nel caso di un bordo, che è una curva arbitraria, è molto probabile che si voglia fare una discretizzazione. In FreeCAD i bordi sono parametrizzati in base alla loro lunghezza. Ciò significa che si può percorrere un bordo/curva in base alla sua lunghezza   *
 
 
 ```python
@@ -777,13 +760,7 @@ anEdge = box.Edges[0]
 print(anEdge.Length)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Ora è possibile accedere a un sacco di proprietà del bordo utilizzando la lunghezza come una posizione. Ciò significa che se il bordo è lungo 100 mm la posizione iniziale è 0 e la posizione finale è 100.
-
-
-</div>
+Ora è possibile accedere a molte proprietà del bordo usando la lunghezza come posizione. Ciò significa, che se il bordo è lungo 100 mm, la posizione iniziale è 0 e la posizione finale 100.
 
 
 ```python
@@ -801,17 +778,9 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 {{Top}}
 
+### Utilizzare una selezione 
 
-<div class="mw-translate-fuzzy">
-
-### Utilizzare la selezione 
-
-Qui ora vediamo come possiamo usare la selezione che l\'utente ha nel visualizzatore. Prima di tutto creiamo una scatola e la mostriamo nel visualizzatore   *
-
-
-</div>
-
-Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer.
+Qui ora vediamo come possiamo usare una selezione che l\'utente ha fatto nel visualizzatore. Prima di tutto creiamo una scatola e la mostriamo nel visualizzatore.
 
 
 ```python
@@ -820,13 +789,7 @@ Part.show(Part.makeBox(100, 100, 100))
 Gui.SendMsgToActiveView("ViewFit")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Selezionate ora alcune facce o bordi. Con questo script è possibile iterare sopra tutti gli oggetti selezionati e i relativi elementi secondari   *
-
-
-</div>
+Ora selezioniamo alcune facce o bordi. Con questo script è possibile iterare sopra tutti gli oggetti selezionati e sui relativi elementi secondari   *
 
 
 ```python
@@ -853,17 +816,9 @@ print("Length of the selected edges   * ", length)
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Esempio completo   * La bottiglia OCC 
 
 Un esempio tipico si trova nella pagina [OpenCasCade Technology Tutorial](http   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) che spiega come costruire una bottiglia. Questo è un buon esercizio anche per FreeCAD. In effetti, se si segue il nostro esempio qui sotto e la pagina di OCC contemporaneamente, si capisce bene come sono implementate le strutture di OCC in FreeCAD. Lo script completo è anche incluso nell\'installazione di FreeCAD (all\'interno della cartella Mod/Part) e può essere chiamato dall\'interprete python digitando   *
-
-
-</div>
-
-A typical example found on the [OpenCasCade Technology website](https   *//www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the **Mod/Part** folder) and can be called from the Python interpreter by typing   *
 
 
 ```python
@@ -876,17 +831,9 @@ Part.show(bottle)
 
 {{Top}}
 
+### Lo script 
 
-<div class="mw-translate-fuzzy">
-
-### Lo script completo 
-
-Questo è lo script completo MakeBottle   *
-
-
-</div>
-
-For the purpose of this tutorial we will consider a reduced version of the script. In this version the bottle will not be hollowed out, and the neck of the bottle will not be threaded.
+Ai fini di questo tutorial considereremo una versione ridotta dello script. In questa versione la bottiglia non sarà svuotata e il collo della bottiglia non sarà filettato.
 
 
 ```python
@@ -939,13 +886,7 @@ Part.show(el)
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ### Spiegazione dettagliata 
-
-
-</div>
 
 
 ```python
@@ -953,13 +894,7 @@ import FreeCAD as App
 import Part, math
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Avremo bisogno, naturalmente, del modulo Parte, ma anche del modulo FreeCAD.Base, che contiene le strutture base di FreeCAD come vettori e matrici.
-
-
-</div>
+Ovviamente, avremo bisogno dei moduli `FreeCAD` e `Part`.
 
 
 ```python
@@ -971,13 +906,7 @@ def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0)   *
     aPnt5=App.Vector(myWidth / 2., 0, 0)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Qui definiamo la nostra funzione makeBottle. Questa funzione può essere chiamata senza argomenti, come abbiamo fatto in precedenza, nel qual caso si utilizzano i valori di default per la larghezza, l\'altezza e lo spessore. Poi, si definisce un paio di punti che verranno utilizzati per costruire il nostro profilo base.
-
-
-</div>
+Qui definiamo la nostra funzione `makeBottleTut`. Questa funzione può essere chiamata senza argomenti, come abbiamo fatto in precedenza, nel qual caso si utilizzano i valori di default per la larghezza, l\'altezza e lo spessore. Poi, si definisce un paio di punti che verranno utilizzati per costruire il nostro profilo base.
 
 
 ```python
@@ -987,13 +916,7 @@ Qui definiamo la nostra funzione makeBottle. Questa funzione può essere chiamat
     aSegment2=Part.LineSegment(aPnt4, aPnt5)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Qui definiamo la geometria effettiva   * un arco, creato da tre punti, e due segmenti di linea, creati da due punti.
-
-
-</div>
+Qui definiamo la geometria   * un arco, creato da tre punti, e due segmenti di linea, creati da due punti.
 
 
 ```python
@@ -1004,13 +927,7 @@ Qui definiamo la geometria effettiva   * un arco, creato da tre punti, e due seg
     aWire=Part.Wire([aEdge1, aEdge2, aEdge3])
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Ricordate la differenza tra geometria e forme? Qui costruiremo forme partendo dalla nostra geometria di costruzione. Prima costruiremo tre bordi (i bordi possono essere dritti o curvi), poi costruiremo un contorno con quei tre bordi.
-
-
-</div>
 
 
 ```python
@@ -1023,13 +940,7 @@ Ricordate la differenza tra geometria e forme? Qui costruiremo forme partendo da
     myWireProfile=Part.Wire([aWire, aMirroredWire])
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Prima abbiamo costruito solo metà profilo. È più facile che costruire tutto l\'intero profilo nello stesso modo, successivamente possiamo semplicemente rispecchiare quello che abbiamo costruito, e poi unire le due parti. Per prima cosa è necessario creare una matrice. Una matrice è un modo molto comune per applicare trasformazioni agli oggetti nel mondo 3D, in quanto essa può contenere in un\'unica struttura tutte le trasformazioni di base che gli oggetti 3D possono subire (spostamento, rotazione e scalatura). Dopo aver creato la matrice, la specchiamo e creiamo una copia del nostro contorno applicando ad esso quella matrice di trasformazione. Ora abbiamo due contorni, e con essi possiamo produrre un terzo profilo, dal momento che i contorni sono in realtà liste di bordi.
-
-
-</div>
 
 
 ```python
@@ -1041,13 +952,7 @@ Prima abbiamo costruito solo metà profilo. È più facile che costruire tutto l
     myBody=myBody.makeFillet(myThickness / 12.0, myBody.Edges)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Ora che abbiamo un contorno chiuso, esso può essere trasformato in una faccia. Una volta che abbiamo una faccia, possiamo estruderla. In questo modo, abbiamo effettivamente creato un solido. Poi si applica un piccolo arrotondamento al nostro oggetto, perché vogliamo ottenere una forma graziosa, non è vero?
-
-
-</div>
 
 
 ```python
@@ -1060,13 +965,7 @@ Ora che abbiamo un contorno chiuso, esso può essere trasformato in una faccia. 
     myNeck = Part.makeCylinder(myNeckRadius, myNeckHeight, neckLocation, neckNormal)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 A questo punto, il corpo della nostra bottiglia è creato, ma abbiamo ancora bisogno di creare un collo. Così facciamo un nuovo solido, con un cilindro.
-
-
-</div>
 
 
 ```python
@@ -1074,13 +973,7 @@ A questo punto, il corpo della nostra bottiglia è creato, ma abbiamo ancora bis
     myBody = myBody.fuse(myNeck)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-L\'operazione di fusione, che in altre applicazioni a volte è chiamata unione, è molto potente. Si prenderà cura di incollare ciò che deve essere incollato e di rimuovere le parti che devono essere rimosse.
-
-
-</div>
+L\'operazione di fusione è molto potente. Si prenderà cura di incollare ciò che deve essere incollato e di rimuovere le parti che devono essere rimosse.
 
 
 ```python
@@ -1098,25 +991,11 @@ Part.show(el)
 
 Infine, chiamiamo la funzione per creare effettivamente la parte, e quindi renderla visibile. {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Cubo forato 
 
 Ecco un esempio completo della costruzione di una scatola perforata.
 
-
-</div>
-
-Here is a complete example of building a pierced box.
-
-
-<div class="mw-translate-fuzzy">
-
-La costruzione è fatta lato per lato e quando il cubo è finito, viene scavato un foro con cilindro che l\'attraversa.
-
-
-</div>
+La costruzione è fatta lato per lato. Quando il cubo è finito, viene scavato un foro con un cilindro che l\'attraversa.
 
 
 ```python
@@ -1169,25 +1048,11 @@ Part.show(cut_part)
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Caricare e salvare 
 
-Nel modulo Parte ci sono diversi modi per salvare il proprio lavoro. Naturalmente, è possibile salvare il documento in formato FreeCAD, ma è anche possibile salvare gli oggetti Parte direttamente nei comuni formati CAD, come ad esempio BREP, IGS, STEP e STL.
+Ci sono diversi modi per salvare il tuo lavoro. Ovviamente puoi salvare il tuo documento FreeCAD, ma puoi anche salvare oggetti [Part](Part_Workbench.md) direttamente in formati CAD comuni, come BREP, IGS, STEP e STL.
 
-
-</div>
-
-There are several ways to save your work. You can of course save your FreeCAD document, but you can also save [Part](Part_Workbench.md) objects directly to common CAD formats, such as BREP, IGS, STEP and STL.
-
-
-<div class="mw-translate-fuzzy">
-
-Salvare una forma in un file è facile. Per tutti gli oggetti di forma sono disponibili i metodi exportBrep(), exportIges(), exportStl() e exportStep(). Così, facendo   *
-
-
-</div>
+Salvare una forma in un file è facile. Per tutti gli oggetti di forma sono disponibili i metodi `exportBrep()`, `exportIges()`, `exportStep()` and `exportStl()`. Così, facendo   *
 
 
 ```python
@@ -1196,13 +1061,7 @@ s = Part.makeBox(10, 10, 10)
 s.exportStep("test.stp")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 salviamo il nostro box in un file STEP. Per caricare un file BREP, IGES o STEP basta fare   *
-
-
-</div>
 
 
 ```python
@@ -1211,13 +1070,7 @@ s = Part.Shape()
 s.read("test.stp")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Per convertire un file **.stp** in un file **.igs** fare   *
-
-
-</div>
+Per convertire un file STEP in un file IGS fare   *
 
 
 ```python
