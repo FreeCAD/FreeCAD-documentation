@@ -3,13 +3,7 @@
 
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Gli utenti esperti hanno la possibilità di creare delle interfacce che li aiutino a produrre strumenti complessi per i loro [addon](Addon/it.md) personalizzati, come le [macro](macros/it.md) o interi [ambienti](Workbenches/it.md) .
-
-
-</div>
+Gli utenti esperti hanno la possibilità di [creare delle interfacce](Interface_creation.md) che li aiutino a produrre strumenti complessi per i loro [addon](Addon/it.md) personalizzati, come le [macro](Macros/it.md) o interi [ambienti](Workbenches/it.md).
 
 Le interfacce vengono create usando [PySide](PySide/it.md), che è una libreria per l\'utilizzo di Qt con [Python](Python/it.md).
 
@@ -20,7 +14,7 @@ Le interfacce vengono create usando [PySide](PySide/it.md), che è una libreria 
 
 Esistono in genere due modi per creare delle interfacce con PySide.
 
-### Interface in a .ui file 
+### Interfaccia in un file .ui 
 
 In this method the interface is defined in a `.ui` file (an XML document that defines the structure of the interface), which is then imported into [Python](Python.md) code that uses it. This is the recommended approach.
 
@@ -30,7 +24,7 @@ In this method the interface is defined in a `.ui` file (an XML document that de
 -   The `.ui` interface can be used in a standalone window (modal), or in an embedded window (non-modal); therefore, this method is ideal to create custom [task panels](Task_panel.md).
 -   Since the `.ui` file just describes the \"appearance\" of the interface, it does not need to be tied to a particular programming language; it may be used both in [Python](Python.md) and C++ code.
 
-### Interface completely in Python code 
+### Interfaccia completamente in codice Python 
 
 In this method the entire interface is defined by several Python calls.
 
@@ -40,7 +34,7 @@ In this method the entire interface is defined by several Python calls.
 -   This method has the advantage that several interfaces may be contained within a single document, at the expense of making the file very large.
 -   This method is recommended only for small interfaces that don\'t define more than a few widgets, for example in [macros](Macros.md).
 
-For examples on this method see [Interface creation completely in Python](Dialog_creation.md).
+Per esempi su questo metodo vedi [Creare delle finestre di dialogo](Dialog_creation/it.md).
 
 
 

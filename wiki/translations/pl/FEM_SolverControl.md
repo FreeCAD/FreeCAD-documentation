@@ -12,7 +12,7 @@
 
 ## Opis
 
-This command is used to control the FEM solver (write the input file, edit it, and trigger the solver).
+Polecenie to służy do sterowania solverem FEM *(zapis pliku wejściowego, jego edycja, uruchomienie solvera)*.
 
 ## Użycie
 

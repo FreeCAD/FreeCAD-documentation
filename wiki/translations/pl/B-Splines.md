@@ -1,7 +1,7 @@
 # B-Splines/pl
 {{TOCright}}
 
-Ta strona opisuje jak używać krzywych złożonych w programie FreeCAD. Podaje również podstawowe informacje czym są krzywe złożone i do jakich zastosowań są przydatne.
+Ta strona opisuje jak używać krzywych złożonych *(typu B-spline)* w programie FreeCAD. Podaje również podstawowe informacje czym są krzywe złożone i do jakich zastosowań są przydatne.
 
 ## Motywacja
 
@@ -98,11 +98,11 @@ Jeśli interesuje Cię więcej szczegółów na temat właściwości krzywych z�
 
 #### Zasady 
 
-Since we will only introduce the basics of B-spline, we don\'t go here into the details.
+Ponieważ przedstawimy tylko podstawy teorii krzywej złożonej *B-spline*, nie wchodzimy tutaj w szczegóły.
 
-The basis constructs the spline. Looking at the definition of Bézier curves in section [Math](#Math.md) we remember that a Bézier curve is a linear combination of polynomials with the x/y coordinate of each of the control points as a factor. These polynomials are called Bernstein polynomials.
+Podstawą jest konstrukcja krzywej typu splajn. Patrząc na definicję krzywych Béziera w dziale [Matematyka](#Matematyka.md) pamiętamy, że krzywa Béziera jest liniową kombinacją wielomianów, których współczynnikiem jest współrzędna x/y każdego z punktów kontrolnych. Wielomiany te nazywane są wielomianami Bernsteina.
 
-As several Bézier curves are combined to form a spline, we get a set of Bernstein polynomials forming the spline (they are the basis). As we want to overcome the mentioned limitations of Bézier curves, we don\'t geometrically combine the different Bernstein polynomials of the Bézier curves, but define Bernstein polynomials over the whole geometrical range of the spline. So we **don\'t combine** the Bézier curves with its Bernstein polynomials, which would be
+Ponieważ kilka krzywych Béziera jest łączonych w celu utworzenia splajnu, otrzymujemy zbiór wielomianów Bernsteina tworzących splajn (są one podstawą). Ponieważ chcemy pokonać wspomniane ograniczenia krzywych Béziera, nie łączymy geometrycznie różnych wielomianów Bernsteina z krzywych Béziera, ale definiujemy wielomian Bernsteina w całym zakresie geometrycznym splajnu. Zatem **nie łączymy** krzywych Béziera z ich wielomianami Bernsteina, który byłby:
 
 $$\textrm{Bezier-combination}=\begin{cases}
   \sum_{i=0}^{n}P_{i}\cdot B_{i,n}(t),  & 0\le t\le1\\
@@ -110,43 +110,43 @@ $$\textrm{Bezier-combination}=\begin{cases}
 \cdots
 \end{cases}$$
 
-whereas $B_{i,n}(t)$ is the i-th Bernstein polynomial with order $n$ and the coefficients $P_{i}$ are the point coordinates of the Bézier curve control points. But we use a **different set of functions** that are defined over the whole spline range:
+natomiast $B_{i,n}(t)$ jest i-tym wielomianem Bernsteina o rzędzie $n$, a współczynniki $P_{i}$ są współrzędnymi punktów kontrolnych krzywej Béziera. My jednak używamy **innego zestawu funkcji**, które są zdefiniowane na całym zakresie splajnu:
 
 $$\textrm{B-spline}= \sum_{i=0}^{n}p_{i}\cdot N_{i,n}(t)$$.
 
-Note that in general $N_{i,n}(t) \ne B_{i,n}(t)$, and the Bezier control points $\{P_1, P_2,\dots\}$ are different from B-spline control points $\{p_1, p_2,\dots\}$.
+Zauważ, że ogólnie $N_{i,n}(t) \ne B_{i,n}(t)$, a punkty kontrolne Beziera $\{P_1, P_2,\dots\}$ różnią się od punktów kontrolnych B-spline $\{p_1, p_2,\dots\}$.
 
-The different $N_{i,n}(t)$ are defined piecewise where the interval of every piece is the interval of the Bézier piece.
+Różne $N_{i,n}(t)$ są zdefiniowane fragmentarycznie, gdzie przedział każdego fragmentu jest przedziałem fragmentu Béziera.
 
-When the lengths of all $N_{i,n}$ pieces is equal, we speak of a uniform spline. (In literature this is often denoted as equal travel time $t$ per piece.)
+Gdy długości wszystkich odcinków $N_{i,n}$ są równe, mówimy o jednolitym splajnie. *(W literaturze często oznacza się to jako równy czas podróży $t$ na kawałek)*.
 
-To understand how the $p_{i}$ are the coordinates of the B-spline control points, see the first minute of [this video](https://www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
+Aby zrozumieć, w jaki sposób $p_{i}$ są współrzędnymi punktów kontrolnych krzywej B-spline, zobacz pierwszą minutę filmu [tego wideo](https://www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
 
-#### Knot vector 
+#### Wektor węzła 
 
-As derived above, B-splines are created out of $N_{i,n}$ piecewise polynomials with continuity up to a certain derivative between the pieces. The endpoints of the piece\'s definition interval are called knots. For a spline defined over $k$ pieces, there are $k+1$ knots given by the so-called *knot vector*:$\{t_0, t_1, t_2,\dots, t_k\}$ whereas $t_0 < t_1 < t_2 < \dots < t_k$
+Jak wywnioskowano powyżej, B-splajny są utworzone z $N_{i,n}$ wielomianów kawałkowych o ciągłości do pewnej pochodnej między kawałkami. Punkty końcowe przedziału definicyjnego kawałka nazywane są węzłami. Dla splajnu zdefiniowanego na $k$ kawałkach istnieje $k+1$ węzłów podanych przez tzw. *wektor węzłów*: $\{t_0, t_1, t_2,\dots, t_k\}$ natomiast $t_0 < t_1 < t_2 < \dots < t_k$
 
-The knot vector comprises the knots of the $N_{i,n}$ basis functions that define the B-spline, see [this video](https://www.youtube.com/watch?v=ni5NNPCVvDY). The basis functions of a B-spline can be calculated using the knot vector and a creation algorithm, see [this video](https://www.youtube.com/watch?v=hrsO45AHtbs).
+Wektor węzłów zawiera węzły $N_{i,n}$ funkcji bazowych, które definiują B-spline, zobacz film [Węzły krzywej B-spline](https://www.youtube.com/watch?v=ni5NNPCVvDY). Funkcje bazowe B-spline mogą być obliczone przy użyciu wektora węzłów i algorytmu tworzenia, zobacz film [Generowanie funkcji bazowych. Wzór Coxa-de Boora](https://www.youtube.com/watch?v=hrsO45AHtbs).
 
-The derivative until which continuity exists is given by the multiplicity $m$. Therefore we can specify a vector with the multiplicity for every knot: $\{m_0, m_1,\dots, m_k\}$. A knot on a spline with degree *d* and the multiplicity *m* tells that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
+Pochodna, do której istnieje ciągłość, jest określona przez krotność $m$. Dlatego możemy określić wektor z krotnością dla każdego węzła: $\{m_0, m_1,\dots, m_k\}$. Węzeł na splajnie o stopniu „d" i krotności „m" mówi, że krzywa po lewej i prawej stronie węzła ma co najmniej równą pochodną rzędu „n" *(zwaną „C"\< sup\>*n* ciągłość)*, podczas gdy $n=d-m$.
 
 ### Niejednorodne krzywe B-spline 
 
 Wywodzenie krzywych złożonych z krzywych Béziera ma tę matematyczną konsekwencję, że w krzywych złożonych każdy wielomian ma taką samą długość. Takie krzywe złożone nazywane są *jednorodnymi*. Bardziej ogólny przypadek jest taki, że mogą, ale nie muszą mieć tej samej długości. Takie *niejednolite* splajny mają tę zaletę, że można kontrolować, jak blisko splajny przecinają swój punkt kontrolny.
 
-Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
+Matematycznie osiąga się to przez zdefiniowanie różnych $N_{i,n}$ elementów w różnych przedziałach. Jeśli na przykład B-splajn jest zdefiniowany dla przedziału \[0, 1\], to jest jednolity, jeśli wszystkie jego np. 5 fragmentów są również zdefiniowane w tym przedziale. Jeśli teraz $N_{1,4}$ jest zdefiniowany tylko w przedziale \[0, 0.6\] *(poza tym przedziałem jest ustawiony na zero)*, to jest krótszy, a więc splajn staje się niejednolity.
 
-As described above the parameters of the knots are described by the knot vector. So the knot vector stores the definition intervals. When now one piece gets another interval, also the knot vector changes, see [this video](https://www.youtube.com/watch?v=w-l5R70y6u0) for a visualization.
+Jak opisano powyżej parametry węzłów są opisane przez wektor węzłów. Tak więc wektor węzłów przechowuje przedziały definicyjne. Kiedy teraz jeden kawałek dostaje inny interwał, również wektor węzłów zmienia się, zobacz film [Niejednolite krzywe B-spline i ich funkcje bazowe](https://www.youtube.com/watch?v=w-l5R70y6u0) dla wizualizacji.
 
-### Rational B-splines 
+### Relacyjne krzywe B-splajn 
 
-A further generalization can be made for B-splines by introducing weights for the control points. This way it can be controlled \"how important\" a control point is.
+Dalsze uogólnienie dla krzywych złożonych może być dokonane poprzez wprowadzenie wag dla punktów kontrolnych. W ten sposób można kontrolować \"jak ważny\" jest dany punkt kontrolny.
 
-The equation for such a spline is
+Równanie dla takiego splajnu to:
 
 $$c(n, t)=\cfrac{\sum_{i=0}^{n}d_{i}N_{i, n}(t)\cdot w_i}{\sum_{i=0}^{n}N_{i, n}(t)\cdot w_i}$$
 
-Notice that the function is no longer a polynomial, but a rational function, and these splines are called rational B-splines. Observe that when all $w_i$ are equal, the equation reduces to a regular non-rational B-spline. So non-rational B-splines are a subset of rational B-splines.
+Zauważ, że funkcja nie jest już wielomianem, ale funkcją racjonalną, a takie splajny nazywamy racjonalnymi krzywymi złożonymi. Zauważ, że gdy wszystkie $w_i$ są równe, to równanie sprowadza się do regularnej nieracjonalnej krzywej złożonej. Zatem nieracjonalne krzywe złożone są podzbiorem racjonalnych krzywych złożonych.
 
 Te niejednorodne i racjonalne *(z powodu podziału)* krzywe B-spline są często nazywane **[NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline)** i są szeroko stosowane w modelowaniu geometrycznym.
 
@@ -186,7 +186,7 @@ Aby zmienić krotność węzłów, użyj przycisków paska narzędzi **[<img src
 
 Wokół każdego punktu kontrolnego znajduje się ciemnożółte koło. Jego promień określa wagę dla danego punktu kontrolnego. Domyślnie wszystkie okręgi mają promień równy *1*. Jest to oznaczone za pomocą wiązania promienia dla pierwszego okręgu punktu kontrolnego.
 
-To create a rational B-spline the weights have to be made independent. To achieve that you can delete the constraint that all circles are equal and then set different radius constraints for the circles.
+Aby utworzyć racjonalną krzywą złożoną, wagi muszą być niezależne. Aby to osiągnąć, można usunąć wiązanie, że wszystkie okręgi są równe, a następnie ustawić różne wiązania promienia dla okręgów.
 
 Jeśli nie ustawiono żadnego wiązania promienia, można również zmienić promień, przeciągając go:
 
@@ -196,7 +196,7 @@ W przykładzie przeciągania widać, że duża waga przyciąga krzywą do punktu
 
 Kiedy spojrzysz na [funkcję tworzenia](B-Splines/pl#Niejednorodne_krzywe_B-spline.md) dla niejednorodnych racjonalnych krzywych złożonych zobaczysz, że waga równa zero doprowadziłaby do dzielenia przez zero. Ujemne wagi są teoretycznie możliwe, ale nie są wspierane. Dlatego możesz określić tylko wagi większe od zera.
 
-**Note:** When dragging points, knots or widths, the circle diameters denoting the weight will change. This is because the diameter depends on the overall B-spline length for visualization reasons. The actual weight is not changed.
+**Uwaga:** Podczas przeciągania punktów, węzłów lub szerokości, średnice okręgów oznaczających wagę będą się zmieniać. Dzieje się tak dlatego, że ze względów wizualizacyjnych średnica zależy od całkowitej długości krzywej złożonej. Rzeczywista waga nie ulega zmianie.
 
 ### Edycja węzłów 
 

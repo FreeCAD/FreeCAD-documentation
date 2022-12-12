@@ -170,13 +170,7 @@ Beschränkungen werden benutzt, um Längen zu definieren, Regeln zwischen Skizze
 
 Diese Randbedingungen sind nicht mit numerischen Daten verknüpft.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Koinzidenz erzwingen](Sketcher_ConstrainCoincident/de.md) (KoinzidentFestlegen): Befestigt einen oder mehrere Punkte (koinzident = deckungsgleich) auf einem anderen Punkt.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md) (KoinzidentFestlegen): Befestigt einen oder mehrere Punkte (koinzident = deckungsgleich) auf einem anderen Punkt. Diese Randbedingung verhält sich wie eine Randbedingung Konzentrisch festlegen, wenn zwei oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt werden.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md): Befestigt einen Punkt an einem anderen Objekt wie z. B. einer Linie, einem Kreisbogen oder einer Achse.
 

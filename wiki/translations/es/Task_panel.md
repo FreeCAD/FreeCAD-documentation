@@ -59,24 +59,7 @@ Nota: Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Mo
 
 ## Notes
 
--   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FC if the task panel is in focus will auto-exit the task panel. To disable this functionality, please see [Escape Key](Fine-tuning#Escape_Key.md).
-
-## Guión
-
-
-**Por favor, reformula y actualiza esta sección**
-
-Ver [Hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Llamada que un widget de Diálogo de Tareas puede usar para cerrar la Vista de Tareas. Puede cerrarse con \"this-\>close()\", pero eso sólo cierra la parte inferior de la vista, no la vista en sí misma.
-
-Usando python: 
-```python
-Gui.Control.closeDialog()
-```
-
-Usando c++: 
-```python
-Gui::Control().closeDialog();
-```
+-   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FreeCAD the task panel that has the focus will close. To disable this functionality, please see [Fine tuning](Fine-tuning#Escape_Key.md) and [Sketcher Preferences](Sketcher_Preferences#General.md).
 
 
 {{Interface navi

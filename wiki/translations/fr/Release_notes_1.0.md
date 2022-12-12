@@ -190,6 +190,11 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
                                                                                                                                                                     
    
 
+   
+  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Cliquez sur l\'image pour voir l\'animation.   L\'outil [Joindre des courbes](Sketcher_JoinCurves/fr.md) a été ajouté. Il permet de combiner plusieurs courbes en une seule B-spline. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
+                                                                                                                                                              
+   
+
 ### Autres améliorations de Sketcher 
 
 -   Le bouton de la barre d\'outils pour [Contrainte de réfraction (loi de Snell)](Sketcher_ConstrainSnellsLaw/fr.md) a été supprimé. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
@@ -200,6 +205,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   Le bouton [Sélecteur des degrés de liberté non contraints](Sketcher_SelectElementsWithDoFs/fr.md) de la barre d\'outils a été supprimé. [Pull request #7603](https://github.com/FreeCAD/FreeCAD/pull/7603)
 -   La barre d\'outils de Sketcher a été divisée en deux : \"Sketcher-edit-mode\" et \"Sketcher\" (c\'est-à-dire \"pas en mode édition\"). Les barres d\'outils de Sketcher qui ne sont destinées qu\'au mode d\'édition sont masquées en mode de non-édition, et celles qui ne sont destinées qu\'au mode de non-édition sont masquées en mode d\'édition. La barre d\'outils Structure est également masquée dans Sketcher. [Pull request #7655](https://github.com/FreeCAD/FreeCAD/pull/7655)
 -   [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) peut désormais agir comme une contrainte concentrique lors de la sélection de 2 ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
+-   [Copie carbone](Sketcher_CarbonCopy/fr.md) utilise désormais, si possible, les noms des contraintes dans les expressions qu\'il crée au lieu d\'une référence basée sur un index, ce qui le rend plus fiable. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
 ## Atelier Spreadsheet 
 

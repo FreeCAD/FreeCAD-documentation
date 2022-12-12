@@ -153,7 +153,7 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 2.  Sélectionnez la barre d\'outils appropriée dans le panneau de droite. Si aucune barre d\'outils n\'est sélectionnée, la commande sera ajoutée à la première barre d\'outils de la liste.
 3.  Sélectionnez une catégorie dans la liste déroulante de gauche. Les macros commandes qui ont été configurées dans l\'onglet [Macros](#Macros.md) apparaissent dans la catégorie \'Macros\'.
 4.  Sélectionnez une commande dans le panneau de gauche.
-5.  Ou sélectionnez \'\' pour ajouter un séparateur (une ligne entre deux boutons de la barre d\'outils).
+5.  Ou sélectionnez \"\" pour ajouter un séparateur (une ligne entre deux boutons de la barre d\'outils).
 6.  Appuyez sur le bouton **<img src="images/Button_right.svg" width=16px>**.
 
 #### Supprimer une commande 
@@ -174,7 +174,7 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 -   Les barres d\'outils appartenant à l\'atelier en cours sont mises à jour immédiatement, mais après avoir désactivé/réactivé une barre d\'outils, un changement d\'atelier est requis (basculer vers un atelier puis revenir en arrière).
 -   Pour mettre à jour les barres d\'outils globales, un changement d\'atelier (si des commandes ont été ajoutées ou supprimées) ou un redémarrage (si l\'ordre d\'une barre d\'outils a changé ou une barre d\'outils a été renommée) est requis.
 
--   Dans V0.19 il y a un problème avec certaines commandes Draft. Après les avoir ajoutés à une barre d\'outils personnalisée et quitté l\'application FreeCAD, le fichier **user.cfg** doit être modifié manuellement pour ces commandes. Recherchez le nom de la barre d\'outils personnalisée et dans cette section, changez le contenu des éléments `FCText` qui commencent par `gui_` en `DraftTools`.
+-   Dans la V0.19, il y a un problème avec certaines commandes de Draft. Après les avoir ajoutées à une barre d\'outils personnalisée et quitté l\'application FreeCAD, le fichier **user.cfg** doit être modifié manuellement pour ces commandes. Recherchez le nom de la barre d\'outils personnalisée et dans cette section, changez le contenu des éléments `FCText` qui commencent par `gui_` en `DraftTools`.
 
 
 {{Top}}
@@ -223,11 +223,11 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 
 ### Mouvement de la Spaceball 
 
-Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
+Cet onglet est vide si aucune souris 3D n\'est détecté. Voir : [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
 
 ### Boutons de la souris 3D 
 
-Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
+Cet onglet est vide si aucune souris 3D n\'est détecté. Voir : [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
 
 ## Thèmes
 
@@ -244,21 +244,21 @@ Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait
 
 {{Top}}
 
-## Addons
+## Extensions
 
-Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques addons créés par les utilisateurs de la communauté FreeCAD. Ils peuvent être téléchargés via le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) (remarque: ils sont répertoriés dans l\'onglet Ateliers).
+Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques extensions créées par les utilisateurs de la communauté FreeCAD. Elles peuvent être téléchargées via le <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) (remarque: elles sont répertoriées dans l\'onglet Ateliers).
 
 ### Menu Cube 
 
--   Dépôt Github: <https://github.com/triplus/CubeMenu>
+-   Dépôt Github : <https://github.com/triplus/CubeMenu>
 
 ### Transparence
 
--   Dépôt Github: <https://github.com/triplus/Glass>.
+-   Dépôt Github : <https://github.com/triplus/Glass>.
 
 ### Thèmes des icônes 
 
--   Dépôt Github: <https://github.com/triplus/IconThemes>
+-   Dépôt Github : <https://github.com/triplus/IconThemes>
 
 ### Lanceur
 
@@ -266,15 +266,15 @@ Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisa
 
 ### Menu Camembert 
 
--   Dépôt Github: <https://github.com/triplus/PieMenu>
+-   Dépôt Github : <https://github.com/triplus/PieMenu>
 
 ### RemBench
 
--   Dépôt Github: <https://github.com/triplus/RemBench>
+-   Dépôt Github : <https://github.com/triplus/RemBench>
 
 ### Raccourci
 
--   Dépôt Github: <https://github.com/triplus/ShortCuts>
+-   Dépôt Github : <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

@@ -38,21 +38,21 @@ Die Darstellungsart **Punkte** überlagert die {{PropertyView/de|Display Mode}} 
 ![](images/Std_DrawStylePoints_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert*
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Wireframe 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Drahtgitter 
 
-The **Wireframe** style overrides the **Display Mode** of objects. This style matches the \'Wireframe\' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
+Die Darstellungsart **Drahtgitter** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode \'Wireframe\'. Knoten und Kanten werden in deckenden Farben dargestellt. Flächen werden nicht dargestellt.
 
 ![](images/Std_DrawStyleWireframe_example.png ) 
-*The same objects with the 'Wireframe' draw style applied*
+*Dieselben Objekte mit Darstellungsart 'Drahtgitter' aktiviert*
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Hidden line 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Versteckte Linie 
 
-The **Hidden line** style overrides the **Display Mode** of objects. Objects are displayed as if converted to triangular meshes.
+Die Darstellungsart **Versteckte Line** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Objekte werden dargestellt, als wären sie in Dreiecksnetzen Konvertiert
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
-*The same objects with the 'Hidden line' draw style applied*
+*Dieselben Objekte mit Darstellungsart 'Hidden ' aktiviert*
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> No shading 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> Keine Schattierung 
 
 The **No shading** style overrides the **Display Mode** of objects. Vertices, edges and faces are displayed in solid colors.
 

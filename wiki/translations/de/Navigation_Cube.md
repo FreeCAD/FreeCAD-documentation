@@ -1,7 +1,7 @@
 # Navigation Cube/de
 {{TOCright}}
 
-## Introduction
+## Einleitung
 
 
 <div class="mw-translate-fuzzy">
@@ -10,8 +10,6 @@ Die Navigationswürfelsteuerung, oder **Navigationswürfel**, ist eine grafische
 
 
 </div>
-
-The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this page describes that version. In FreeCAD version 0.19 the main behavior is the same but some features are missing.
 
 ![](images/Navigation_Cube_Example.png )
 
@@ -29,7 +27,7 @@ Der Navigationswürfel besteht aus einer Anzahl mehrerer Teile:
 
 All parts, except the axis indicators, can be clicked.
 
-## Usage
+## Anwendung
 
 ### Main cube 
 
@@ -85,7 +83,7 @@ Du kannst die gesamte Navigationswürfelkontrollstruktur an eine andere Stelle i
 
 </div>
 
-### Preferences
+### Einstellungen
 
 
 <div class="mw-translate-fuzzy">

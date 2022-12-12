@@ -12,9 +12,9 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Szyk po ścieżce**\' tworzy zwykły szyk z wybranego obiektu przez umieszczenie kopii wzdłuż ścieżki. Zamiast tego użyj polecenia [Draft PathLinkArray](Draft_PathLinkArray.md), aby utworzyć bardziej wydajny szyk [powiązań](App_Link.md). Z wyjątkiem typu utworzonych szyków *(szyk powiązań lub zwykły szyk)*, polecenie [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md) jest identyczne z tym poleceniem.
+Polecenie <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Szyk po ścieżce** tworzy zwykły szyk z wybranego obiektu przez umieszczenie kopii wzdłuż ścieżki. Zamiast tego użyj polecenia [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md), aby utworzyć bardziej wydajny szyk [powiązań](App_Link.md). Z wyjątkiem typu utworzonych szyków *(szyk powiązań lub zwykły szyk)*, polecenie [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md) jest identyczne z tym poleceniem.
 
-Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale można ich również użyć dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Szyk po ścieżce*

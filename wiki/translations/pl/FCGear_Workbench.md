@@ -46,57 +46,57 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 ### Koło zębate ewolwentowe 
 
 <img alt="" src=images/Involute-Gear_example.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
+*Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(patrz [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md))''*
 
 ### Wewnętrzna zębatka ewolwentowa 
 
 <img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
+*Od lewej do prawej: Przekładnia czołowa, przekładnia walcowa, podwójna przekładnia walcowa ''(patrz [Wewnętrzna zębatka ewolwentowa](FCGear_InternalInvoluteGear/pl.md))''*
 
 ### Listwa zębata ewolwentowa 
 
 <img alt="" src=images/Involute-Rack_example.png  style="width:" height="200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
+*Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(Patrz [Listwa zębata ewolwentowa](FCGear_InvoluteRack/pl.md))''*
 
 ### Koło zębate cykloidalne 
 
 <img alt="" src=images/Cycloid-Gear_example_1.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
+*Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(patrz [Koło zębate cykloidalne](FCGear_CycloidGear/pl.md))''*
 
 ### Listwa zębata cykloidalna 
 
 <img alt="" src=images/FCGear_CycloidRack-01.png  style="width:" height="200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
+*Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(patrz [Listwa zębata cykloidalna](FCGear_CycloidRack/pl.md))''*
 
 ### Koło zębate stożkowe 
 
 <img alt="" src=images/Bevel-Gear_example.png  style="width:150px;"> 
-*From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
+*Od lewej do prawej: Przekładnia czołowa, przekładnia spiralna ''(patrz [Koło zębate stożkowe](FCGear_BevelGear/pl.md))''*
 
 ### Koło zębate koronowe 
 
 <img alt="" src=images/Crown-Gear_example.png  style="width:150px;"> 
-*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
+*Przekładnia koronowa ''(patrz [Koło zębate koronowe](FCGear_CrownGear/pl.md))''*
 
 ### Ślimak
 
 <img alt="" src=images/Worm-Gear_example.png  style="width:150px;"> 
-*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+*Przekładnia ślimakowa ''(patrz [Przekładnia ślimakowa](FCGear_WormGear/pl.md))''*
 
-### Timing gear 
+### Przekładnia pasowa 
 
 <img alt="" src=images/Timing-Gear_example.png  style="width:150px;"> 
-*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+*Koło pasa zębatego (see [Koło pasa zębatego](FCGear_TimingGear/pl.md))*
 
-### Lantern gear 
+### Przekładnia drabinkowa 
 
 <img alt="" src=images/Lantern-Gear_example.png  style="width:150px;"> 
-*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+*Koło drabinkowe ''(patrz [Koło drabinkowe](FCGear_LanternGear/pl.md))''*
 
-### Hypocycloid gear 
+### Przekładnia hipocykloidalna 
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:120px;"> 
-*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
+*Zębatka hipocykloidalna ''(patrz [Zębatka hipocykloidalna](FCGear_HypoCycloidGear/pl.md))''*
 
 ## Bibliografia
 

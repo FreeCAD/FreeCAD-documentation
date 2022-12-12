@@ -3,8 +3,8 @@
 |Name=Macro Draft Circle Tangent
 |Description=Makes tangents to Draft circles.
 |Author=heda
-|Version=0.1
-|Date=2022-11-21
+|Version=0.2
+|Date=2022-11-27
 |FCVersion=-
 }}
 
@@ -25,7 +25,7 @@ Through the [Addon manager](Std_AddonMgr.md).
 
 v0.2 2022-11-27 : Fixed draft point selection in Tree view.
 
-v0.1 2022-11-21 : first release
+v0.1 2022-11-21 : First release.
 
 ## Code
 
@@ -93,7 +93,7 @@ note: tesselation often makes the true tangent not look like a true tangent
 this is to not overload rendering for larger projects
 one can change the viewsetting deviation for the circle to minimum (0.01)
 if one wants to better view the true tangent, if so, better turn that back
-to default once viewed - it is easy to foget that this has been done,
+to default once viewed - it is easy to forget that this has been done,
 and can in larger projects put fc to more or less a complete halt.
 """
 

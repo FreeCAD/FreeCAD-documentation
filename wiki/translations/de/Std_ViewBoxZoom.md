@@ -1,38 +1,25 @@
 ---
 - GuiCommand:/de
-   Name/de:Std ViewBoxZoom
+   Name:Std ViewBoxZoom
+   Name/de:Std AnsichtRechteckauswahl
    MenuLocation:Ansicht → Zoom → Zoomen mit Rechteck
    Workbenches:Alle
-   Shortcut:**Strg** + **B**
-   SeeAlso:[Vergrößern](Std_ViewZoomIn/de.md), [Verkleinern](Std_ViewZoomOut/de.md)
+   Shortcut:**Ctrl**+**B**
+   SeeAlso:[Std Vergrößern](Std_ViewZoomIn/de.md), [Std Verkleinern](Std_ViewZoomOut/de.md)
 ---
 
 # Std ViewBoxZoom/de
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Beschreibung 
-
-Die Größe des zu vergrößernden Bereichs werden mit einem Rechteck in der 3D-Ansicht festlegt.
-
-
-</div>
+Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingegrenzten rechteckigen Bereich auf die Größe der aktiven [3D-Ansicht](3D_view/de.md).
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Anwendung 
-
-1.  Wähle **Ansicht** → **Zoom** → **<img src="images/Std_ViewBoxZoom.png" width=32px> Zoomen mit Rechteck** aus der Menüleiste oder drücke **Strg** + **B**.
-2.  Gib den zu vergrößernden Bereich mit einem Rechteck in der 3D-Ansicht an.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den Menüeintrag **Ansicht → Zoom → <img src="images/Std_ViewBoxZoom.svg" width=16px> Zoomen mit Rechteck** auswählen.
+    -   Das Tastaturkürzel **Ctrl**+**B**.
+2.  Ein Rechteck in der 3D-Ansicht aufziehen.
 
 
 

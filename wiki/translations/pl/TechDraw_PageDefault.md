@@ -1,29 +1,30 @@
 ---
 - GuiCommand:
    Name:TechDraw PageDefault
-   MenuLocation:TechDraw → Insert Default Page
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw PageTemplate](TechDraw_PageTemplate.md), [TechDraw Templates](TechDraw_Templates.md)
+   Name/pl:Rysunek Techniczny: Wstaw nową domyślna stronę rysunku
+   MenuLocation:Rysunek Techniczny → Wstaw nową domyślna stronę rysunku
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Wstaw nową domyślna stronę rysunku](TechDraw_PageTemplate/pl.md), [Szablony](TechDraw_Templates/pl.md)
 ---
 
 # TechDraw PageDefault/pl
 
 ## Opis
 
-The New Default tool creates a new Page object using the the template file specified in the [TechDraw Preferences](TechDraw_Preferences.md).
+Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony używając pliku szablonu określonego w [Ustawieniach](TechDraw_Preferences/pl.md) dla środowiska pracy Rysunek Techniczny.
 
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
-*Default template that comes with TechDraw: A4 page in landscape orientation, with editable text fields*
+*Domyślny szablon dołączony do środowiska pracy Rysunek Techniczny: Strona A4 w orientacji poziomej, z edytowalnymi polami tekstowymi*
 
 ## Użycie
 
--   Press the **<img src="images/TechDraw_PageDefault.svg" width=16px> [Insert Default Page](TechDraw_PageDefault.md)** button. (An active document must exist.)
+-   Naciśnij przycisk **<img src="images/TechDraw_PageDefault.svg" width=16px> [Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md)** *(Musi istnieć aktywny dokument)*.
 
 ## Uwagi
 
--   If a Page is marked as \"do not keep updated\" either through the KeepUpdated Property or by the setting in Preferences, it will ignore changes in the 3D model. You may notice anomalies (missing geometry, missing Dimension values, etc) in the appearance of the Page. These will correct themselves once the Page is updated with the [Redraw Page](TechDraw_RedrawPage.md) tool. The Page will have this icon <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> in the tree while updating is suspended. This setting also affects the startup process. If the Page is marked \"do not keep updated\" it will not be drawn at program start.
+-   Jeśli strona jest oznaczona jako \"nie aktualizuj\" poprzez właściwość K*Utrzymuj aktualizację* lub ustawienie w Preferencjach, będzie ona ignorować zmiany w modelu 3D. Możesz zauważyć anomalie *(brakująca geometria, brakujące wartości wymiarów, itp.)* w wyglądzie strony. Poprawią się one po aktualizacji Strony za pomocą narzędzia [Przerysuj stronę](TechDraw_RedrawPage/pl.md). Strona będzie miała tę ikonę <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> w drzewie podczas zawieszenia aktualizacji. To ustawienie wpływa również na proces uruchamiania. Jeśli strona jest zaznaczona jako \"nie aktualizuj\" nie będzie rysowana przy starcie programu.
 
--   If the default template is not specified in your user configuration file `user.cfg`, the tool will try:
+-   Jeśli domyślny szablon nie został określony w pliku konfiguracyjnym użytkownika `user.cfg`, narzędzie spróbuje:
 
 :   
     
@@ -33,11 +34,8 @@ The New Default tool creates a new Page object using the the template file speci
 ```
     
 
+\" Gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład:
 
-
-
-
-:   Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example:
 :   
     
 ```python
@@ -48,40 +46,40 @@ The New Default tool creates a new Page object using the the template file speci
 
 ## Właściwości
 
-### Data
+### Dane
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Projection Type**: Default projection type (First or Third Angle) for this Page.
+-    **Typ projekcji**: Domyślny typ projekcji *(kąt pierwszy lub trzeci)* dla tej strony.
 
 
 {{TitleProperty|Strona}}
 
--    **Keep Updated**: If false, the Page is not updated with changes to the 3D model. Useful for complicated/slow drawings. See Notes.
+-    **Utrzymuj aktualizację**: Jeśli opcja przyjmuje wartość {{false/pl}}, Strona nie jest aktualizowana o zmiany w modelu 3D. Przydatne dla skomplikowanych/wolnych rysunków. Zobacz uwagi.
 
--    **Template**: A link to this Page\'s [Template](TechDraw_Templates.md) object.
+-    **Szablon**: Link do obiektu [szablonu](TechDraw_Templates/pl.md) tej Strony.
 
--    **Views**: A list of links to the Views on this Page.
+-    **Widoki**: Lista linków do Widoków na tej Stronie.
 
--    **Scale**: Default scale for Views in this Page.
+-    **Skala**: Domyślna skala dla Widoków na tej Stronie.
 
--    **Next Balloon Index**: Auto-numbering for Balloons.
+-    **Następny numer dymka**: Autonumeracja dla dymków.
 
 ### Widok
 
 
 {{TitleProperty|Siatka}}
 
--    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+-    **Pokaż siatkę**: Pokaż siatkę na Stronie. {{Version/pl|0.20}}
 
--    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
+-    **Rozstaw siatki**: Odległość między liniami siatki w mm. {{Version/pl|0.20}}
 
 ## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The New Default tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions: 
+Narzędzie Wstaw nową domyślna stronę rysunku może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji: 
 ```python
 page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
 template = FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
@@ -89,16 +87,16 @@ template.Template = templateFileSpec
 page.Template = FreeCAD.ActiveDocument.Template
 ```
 
--   Creates a new Page in the current document
+-   Tworzy nową stronę w bieżącym dokumencie
 
 ### Pola tekstowe do edycji 
 
 
-**See also:**
+**Zobacz również:**
 
-[TechDraw Templates](TechDraw_Templates.md) for more information on creating templates.
+[Rysunek Techniczny: Szablony](TechDraw_Templates/pl.md) aby uzyskać więcej informacji na temat tworzenia szablonów.
 
-Once a new page has been created, its `Template` attribute holds an `EditableTexts` dictionary with the name of the editable fields (keys) and their textual values. Copy this dictionary to a variable, make changes, and then re-assign the dictionary to the `EditableTexts` attribute to see the changes.
+Po utworzeniu nowej strony, jej atrybut `Template` przechowuje słownik `EditableTexts` zawierający nazwy edytowalnych pól *(klucze)* i ich wartości tekstowe. Skopiuj ten słownik do zmiennej, wprowadź zmiany, a następnie ponownie przypisz słownik do atrybutu `EditableTexts`, aby zobaczyć zmiany.
 
 
 ```python

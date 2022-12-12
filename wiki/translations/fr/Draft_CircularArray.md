@@ -17,7 +17,7 @@ La commande <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;">
 Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
-*Un réseau circulaire Draft*
+*Un Draft réseau circulaire*
 
 ## Utilisation
 

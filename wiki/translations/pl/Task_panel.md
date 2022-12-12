@@ -3,7 +3,7 @@
 
 ## Wprowadzenie
 
-[Panel zadań](Task_panel/pl.md) pojawia się w zakładce **Zadania** okienka [widoku łączonego](combo_view/pl.md), jednego z najważniejszych paneli [interfejsu użytkownika](interface/pl.md). Jest to konfigurowalna przestrzeń, która może zawierać dowolny typ graficznego widżetu, jak składane okienka, tabele, pola wejściowe, pola wyboru, pola tekstowe, przyciski, etykiety, obrazy i inne elementy, w zależności od aktualnie aktywnego [Środowiska pracy](Workbenches/pl.md), oraz aktualnie aktywnego narzędzia.
+**Panel zadań** pojawia się w zakładce **Zadania** okienka [widoku łączonego](Combo_view/pl.md), jednego z najważniejszych paneli [interfejsu użytkownika](Interface/pl.md). Jest to konfigurowalna przestrzeń, która może zawierać dowolny typ graficznego widżetu, jak składane okienka, tabele, pola wejściowe, pola wyboru, pola tekstowe, przyciski, etykiety, obrazy i inne elementy, w zależności od aktualnie aktywnego [Środowiska pracy](Workbenches/pl.md), oraz aktualnie aktywnego narzędzia.
 
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
@@ -35,24 +35,7 @@ Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych 
 
 ## Uwagi
 
--   Użytkownicy migrujący z innych rozwiązań CAD, którzy używają klawisza **ESC** w ramach pracy, mogą uzyskać inne wyniki w programie FreeCAD. W programie FC po naciśnięciu klawisza **ESC**, jeśli panel zadań jest w trybie gotowości, nastąpi automatyczne opuszczenie panelu zadań. Aby wyłączyć tę funkcję, zobacz [Klawisz ESC](Fine-tuning/pl#Skróty_klawiaturowe.md).
-
-## Tworzenie skryptów 
-
-
-**Proszę przeformułować i zaktualizować tę sekcję**
-
-Zobacz [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aby zamknąć Widok Zadań, należy użyć widżetu Widok Zadań. Można go zamknąć za pomocą *przycisku-\>close()*, ale zamyka on tylko dolną część widoku, a nie całe okno.
-
-Użycie Python: 
-```python
-Gui.Control.closeDialog()
-```
-
-Użycie C++: 
-```python
-Gui::Control().closeDialog();
-```
+-   Użytkownicy migrujący z innych rozwiązań CAD, którzy używają klawisza **ESC** w ramach pracy, mogą uzyskać inne wyniki w programie FreeCAD. W programie FreeCAD po naciśnięciu klawisza **ESC**, jeśli panel zadań jest w trybie gotowości, nastąpi automatyczne opuszczenie panelu zadań. Aby wyłączyć tę funkcję, zobacz [Klawisz ESC](Fine-tuning/pl#Skróty_klawiaturowe.md) oraz [ustawienia](Sketcher_Preferences/pl#Og.C3.B3lne.md).
 
 
 {{Interface navi

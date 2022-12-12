@@ -53,7 +53,7 @@ The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:
 
 </div>
 
-After creation of a [Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
+After creation of a [Shape](Shape.md), it may be useful to use **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
 
 ## Ссылки
 

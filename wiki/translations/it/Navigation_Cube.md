@@ -11,8 +11,6 @@
 
 Il **Cubo di Navigazione** dà un\'informazione visiva riguardo l\'orientamento della telecamera nella [vista 3D](3D_view/it.md) attuale e può essere utilizzato per cambiarla. Di default è visibile e si trova nell\'angolo in alto a destra della vista.
 
-Il Cubo di Navigazione è stato aggiornato in FreeCAD versione 0.20 e il resto di questa pagina descrive questa versione. In FreeCAD versione 0.19 il comportamento principale è lo stesso ma mancano alcune funzionalità.
-
 ![](images/Navigation_Cube_Example.png )
 
 Il Cubo di Navigazione consiste in un certo numero di parti:

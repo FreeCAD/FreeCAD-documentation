@@ -1,18 +1,7 @@
 # Start Preferences/de
-<div class="mw-translate-fuzzy">
+Die Einstellungen für den Arbeitsbereich <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start](Start_Workbench/de.md) können im [Einstellungseditor](Preferences_Editor/de.md) gefunden werden. Den Menüeintrag **Bearbeiten → Einstellungen...** auswählen und dann **Start**. Dieser Abschnitt ist nur verfügbar, nachdem der Arbeitsbereich verwendet wurde oder nach dem Laden des Arbeitsbereichs über den Reiter *Verfügbare Arbeitsbereiche* im Abschnitt **Arbeitsbereiche**.
 
-Der Einstellungsbildschirm der [Start Arbeitsbereich](Start_Workbench/de.md) befindet sich im [Einstellungseditor](Preferences_Editor/de.md), {{MenuCommand/de|Bearbeiten → Einstellungen → Start}}.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Es gibt nur eine Registerkarte: Startseite.
-
-
-</div>
+Es gibt nur einen Reiter: *Startseiten Einstellungen* im Abschnitt **Start**. Auf diesem Reiter kann Folgendes angegeben werden:
 
 +++
 | Name                                             | Description                                                                                                                                                                                                                            |
@@ -95,7 +84,7 @@ Es gibt nur eine Registerkarte: Startseite.
 +++
 
 ![](images/Preferences_Start_Tab_Start_page_options.png ) 
-*The Start page options tab*
+*Der Reiter der Startseiten-Einstellungen*
 
 
 {{Start Tools navi

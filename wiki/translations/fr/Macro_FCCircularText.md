@@ -2,9 +2,8 @@
 {{Macro/fr
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png
-|Description={{ColoredText|#ff0000|#ffffff|La dernière version de la macro prend en charge une disposition HiDPI (QGridLayout) et ne fonctionne que sur les versions 0.18 ou supérieures (nécessite PySide2/Qt5)}} <br/> <br/> Pour une version rétrocompatible de la macro, voir
-[https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] et installez la manuellement. <br/> <br/>
-Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, y compris circonférentielle et hélicoïdale (à la manière d'une colonne Trajane). Elle peut également être utilisée pour créer un cadran d'horloge avec des chiffres arabes ''1, 2, 3'' etc., ou des chiffres romains ''I, II, III'', etc.
+|Description={{ColoredText|#ff0000|#ffffff|La dernière version de la macro prend en charge une disposition HiDPI (QGridLayout) et ne fonctionne que sur les versions 0.18 ou supérieures (nécessite PySide2/Qt5)}}<br/><br/>Pour une version rétrocompatible de la macro, voir
+[https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] et installez la manuellement.<br/><br/>Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, y compris circonférentielle et hélicoïdale (à la manière d'une colonne Trajane). Elle peut également être utilisée pour créer un cadran d'horloge avec des chiffres arabes ''1, 2, 3'' etc., ou des chiffres romains ''I, II, III'', etc.
 |Author=Mario52
 |Version=0.22
 |Date=2022/06/06
@@ -14,7 +13,7 @@ Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.
 
 ## Description
 
-Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex [Colonne Trajane](https://fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains *I, II, III\...*. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FC, cblt2l.
+Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex la [colonne Trajane](https://fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains *I, II, III\...*. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FreeCAD, cblt2l.
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
@@ -28,7 +27,7 @@ Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style
 
 ## Utilisation
 
-La création d\'un texte crée un dossier \"**FcString**\" si vous créez une horloge, un dossier FcClock est créé.
+La création d\'un texte génère un dossier **FcString**, la création d\'une horloge génère un dossier **FcClock**.
 
 Tous les caractères restent indépendants. Si vous créez une extrusion, rien n\'est effacé. Si vous créez un Compound avec le bouton **Run Comp**, il sera créé dans l\'arbre principal de votre projet.
 
@@ -43,7 +42,7 @@ Ces options sont grisées par défaut et activées en cochant {{CheckBox|TRUE|}}
 -    {{CheckBox|SP. inclination.}}
     
 
-Seul la fonction Clock active la fonction Placement dans la direction **Z** pour déplacer manuellement le texte sur la surface du support (pour construire un relief ou une cavité).
+A l\'exception d\'une boîte de placement Clock **Z** est activée et déplace le texte dans la direction **Z** pour placer le texte sur la surface de support.
 
 ## Remarques
 

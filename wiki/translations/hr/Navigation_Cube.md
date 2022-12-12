@@ -14,8 +14,6 @@
 
 The **Navigation Cube** gives visual information about the camera orientation in the current [3D view](3D_view.md) and can be used to change it. By default it is visible and resides in the upper right corner of the view.
 
-The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this page describes that version. In FreeCAD version 0.19 the main behavior is the same but some features are missing.
-
 ![](images/Navigation_Cube_Example.png )
 
 The Navigation Cube consists of a number of parts:

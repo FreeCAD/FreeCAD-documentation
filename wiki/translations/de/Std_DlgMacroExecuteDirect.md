@@ -1,31 +1,32 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std DlgMacroExecuteDirect
-   MenuLocation:Macro → Execute macro
-   Workbenches:All
+   Name/de:Std MakroDirektAusführen
+   MenuLocation:Makro → Makro ausführen
+   Workbenches:Alle
    Shortcut:**Ctrl**+**F6**
-   SeeAlso:[Std DlgMacroExecute](Std_DlgMacroExecute.md)
+   SeeAlso:[Std DlgMakroAusführen](Std_DlgMacroExecute/de.md)
 ---
 
 # Std DlgMacroExecuteDirect/de
 
-## Description
+## Beschreibung
 
-The **Std DlgMacroExecuteDirect** command executes the macro in the current Macro editor window.
+Der Befehl **Std MakroDirektAusführen** Führt das Makroaus, das sich im aktiven Makroeditorfenster befindet.
 
-## Usage
+## Anwendung
 
-1.  If required open the correct macro in the Macro editor. See the [Std DlgMacroExecute](Std_DlgMacroExecute.md) command.
-2.  Make sure the Macro editor window has the input focus.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)** button.
-    -   Select the **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Execute macro** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**F6**.
-4.  The macro is executed.
+1.  Wenn erforderlich, das richtige Makro im Makroeditor öffnen. Siehe Befehl [Std DlgMakroAusführen](Std_DlgMacroExecute/de.md).
+2.  Sicherstellen, dass der Eingabefokus auf dem Makroeditorfenster liegt.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Makro ausführen](Std_DlgMacroExecuteDirect/de.md)** drücken.
+    -   Den Menüeintrag **Makro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Makro ausführen** auswählen.
+    -   Das Tastaturkürzel **Ctrl**+**F6**.
+4.  Das Makro wird ausgeführt.
 
-## Notes
+## Hinweise
 
--   To learn more about macros see the [Macros](Macros.md) page.
+-   Mehr über Makros erfährt man auf der Seite [Makros](Macros/de.md).
 
 
 

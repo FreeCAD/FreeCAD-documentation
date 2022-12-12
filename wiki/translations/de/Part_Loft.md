@@ -10,7 +10,7 @@
 
 # Part Loft/de
 
-## Overview
+## Übersicht
 
 
 <div class="mw-translate-fuzzy">

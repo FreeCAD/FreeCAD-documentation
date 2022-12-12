@@ -21,7 +21,7 @@ FreeCAD prend en charge plusieurs progiciels tiers prêts à l\'emploi. Dans de 
 
 ### GitPython
 
-[GitPython](https://github.com/gitpython-developers/GitPython) est une bibliothèque pour interagir avec les référentiels Git. Le [Gestionnaire des extensions](Std_AddonMgr/fr.md) peut utiliser cette bibliothèque. GitPython est inclus dans les programmes d\'installation de FreeCAD pour Windows et Mac.
+[GitPython](https://github.com/gitpython-developers/GitPython) est une bibliothèque pour interagir avec les dépôts Git. Le [Gestionnaire des extensions](Std_AddonMgr/fr.md) peut utiliser cette bibliothèque. GitPython est inclus dans les programmes d\'installation de FreeCAD pour Windows et Mac.
 
 ### GraphViz
 

@@ -5,33 +5,17 @@
 
 <img alt="Early FreeCAD, version unknown." src=images/Screenshot_mesh.jpg  style="width:300px;"> <img alt="FreeCAD version 0.7 from 2009." src=images/Part_BooleanOperations.png  style="width:300px;">
 
+### С чего всё начиналось 
 
-<div class="mw-translate-fuzzy">
-
-История FreeCAD началась в январе 2001 года, когда [Jürgen Riegel](User_Jriegel.md) начал работать над проектом, который впоследствии официально превратился в FreeCAD. CAS.CADE, коммерческая среда разработки, включающая [ядро геометрического моделирования](Glossary#Geometric_modeling_kernel/ru.md) (или ядро САПР), в 200 году было выпущено под свободной лицензией и переименовано в [Open Cascade](Glossary#Open_CASCADE.md). Это сделало возможным реализацию трехмерных САПР с открытым исходным кодом, поскольку программирование ядра САПР с нуля требует огромного объёма работы.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+История FreeCAD началась в январе 2001 года, когда [Jürgen Riegel](User_Jriegel.md) начал работать над проектом Cas.CADE. Cas.CADE был коммерческой платформой для разработки программного обеспечения, которая включала [ядро геометрического моделирования](Glossary#Geometric_modeling_kernel/ru.md) (или ядро САПР): он был выпущен под лицензией с открытым исходным кодом в 2000 году и переименован [OpenCASCADE](OpenCASCADE/ru.md). Это сделало возможным создание 3D-САПР с открытым исходным кодом, поскольку для программирования ядра САПР с нуля потребовался бы огромный объем работы.
 
 По собственным словам Jürgen:
 
 
-</div>
-
-
-{{Quote|text=''The FreeCAD project was started by me in January 2001, as a so called GOM (Graphical Object Modeler), with the idea to use Qt, Python and Cas.CADE, an commercial CAD-Kernel that time I used in Daimler's projects. Cas.CADE gone open source shortly before, so the time seemed right to try a move in the, at that time, empty space of open source CAD. I had a two year experience with OpenCascade in a project called QSpect in which, at the end, I was the main software designer. I learned a lot about 3D and CAD programming. I also was influenced by Catia V5 and its very special user and programming interface… In March 17 2002, within the OpenCascade Project, I registered the software as FreeCAD. I couldn't think of a better name, I'm very bad on names… In April 2003, Werner Meyer, one of the colleges in the QSpect project, switched to a company called Imetric. The contact to Imetric resulted very promising since they searched for a new 3D software platform for their 3D sensors. In 2005, Imetric donated most of its Mesh Module to FreeCAD and the Open Source community, and since then they used FreeCAD as basis for their sensor system software. Since that time, Werner Meyer is a very active developer of FreeCAD. In 2005, after one year of struggle, I decided to rip of the OpenCascade document framework and replace it with an own implementation. So, at the end, we only use the CAD kernel of OpenCascade and not the rest of its Framework. 2007 was another interesting milestone. We switched to QT4 and, therefore, to the LGPL. At that time we did much work, mainly Werner''.
+{{Quote|text=''Проект FreeCAD был начат мной в январе 2001 года как так называемый GOM (Graphical Object Modeler) с идеей использовать Qt, Python и Cas.CADE (коммерческое ядро CAD, которое я тогда использовал в проектах Daimler). Cas.CADE стал открытым исходным кодом незадолго до этого, поэтому казалось подходящим моментом, чтобы попробовать двигаться в пустующем в то время пространстве САПР с открытым исходным кодом. У меня был двухлетний опыт работы с OpenCascade в проекте под названием QSpect, в котором в конце концов я стал главным разработчиком программного обеспечения. Я многое узнал о 3D и программировании САПР. На меня также повлияла Catia V5 и её особый пользовательский и программный интерфейс… 17 марта 2002 года в рамках проекта OpenCascade я зарегистрировал программное обеспечение как FreeCAD. Я не мог придумать лучшего имени, т.к. я очень плохо разбираюсь в именах… В апреле 2003 года Вернер Мейер, один из коллег по проекту QSpect, перешел в компанию Imetric. Контакт с Imetric оказался многообещающим, так как они искали новую программную 3D платформу для своих 3D-датчиков. В 2005 году Imetric пожертвовала FreeCAD и сообществу Open Source, большую часть своего Mesh-модуля и с тех пор они использовали FreeCAD в качестве основы для своего программного обеспечения сенсорной системы. С того времени Вернер Мейер стал очень активным разработчиком FreeCAD. В 2005 году, после года борьбы, я решил изъять структуру документа OpenCascade и заменить ее собственной реализацией. Итак, в конце концов, мы использовали только ядро САПР OpenCascade, без его фреймворка. 2007 год стал еще одной интересной вехой. Мы перешли на QT4 и, следовательно, на LGPL. В то время мы много работали, в основном Вернер.''
 |sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
-
-<div class="mw-translate-fuzzy">
-
-Проект был публично анонсирован на [форуме OpenCascade](http://www.opencascade.org/org/forum) в 2003 году. Вновь, словами Jürgen:
-
-
-</div>
+Проект был публично анонсирован на [форуме OpenCascade](https://dev.opencascade.org/forums) в 2003 году:
 
 
 {{Quote|text=''Hi together, my name is Juergen Riegel and today I want announce an OpenCasCade project, FreeCAD. It is an Open Source CAx RAD based on OpenCasCade, QT and Python. It features some key concepts like Macro Recording, Workbenches, ability to run as a server and as a dynamically loadable applications' extension, and it is designed to be platform independent… Although it is in an early stage and not usable for users nor developers—the first user release is planned for the end of 2003—, I would like to get some feedback on the direction and design of FreeCAD. The GUI is nearly finished and now we, my co-developer Werner Mayer and me, have started adding the first CAD functions. FreeCAD can be seen as a general purpose mechanical CAD system, but its first audience, I think, will be CAx developers which need groundwork for own development''.
@@ -41,13 +25,7 @@
 
 Werner Mayer joined the project as soon as it was announced as an open source project (prior to the announcement the project was a private project of Jürgen). See this forum post from Werner in German: <https://forum.freecadweb.org/viewtopic.php?f=13&t=40235&start=10#p342330>
 
-
-<div class="mw-translate-fuzzy">
-
-В итоге проект набрал обороты и дождался прибавки новых ключевых участников в сообществе.
-
-
-</div>
+Со временем проект набрал обороты и дождался прибавки новых ключевых участников в сообществе.
 
 -   **Linux beginning**
 

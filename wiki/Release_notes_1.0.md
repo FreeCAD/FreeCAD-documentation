@@ -204,7 +204,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
    
 
    
-  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Click on the image to see the animation.   A new [Join curves](Sketcher_JoinCurves.md) feature is added to combine multiple curves into a single B-spline. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
+  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Click on the image to see the animation.   The [Join curves](Sketcher_JoinCurves.md) tool has been added. It can combine multiple curves into a single B-spline. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
                                                                                                                                                           
    
 

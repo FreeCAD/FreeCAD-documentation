@@ -106,7 +106,7 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
   abs(x)      [Absolute value](https://en.wikipedia.org/wiki/Absolute_value)                                                                     all
   ceil(x)     [Ceiling function](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), smallest integer value greater than or equal to x   all
   floor(x)    [Floor function](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), largest integer value less than or equal to x         all
-  mod(x; y)   [Remainder](https://en.wikipedia.org/wiki/Remainder) after dividing *x* by *y*                                                     all, except y = 0
+  mod(x; y)   [Remainder](https://en.wikipedia.org/wiki/Remainder) after dividing *x* by *y*, sign of result is that of the dividend.            all, except y = 0
   round(x)    [Rounding](https://en.wikipedia.org/wiki/Rounding) to the nearest integer                                                          all
   trunc(x)    [Truncation](https://en.wikipedia.org/wiki/Truncation) to the nearest integer in the direction of zero                             all
 

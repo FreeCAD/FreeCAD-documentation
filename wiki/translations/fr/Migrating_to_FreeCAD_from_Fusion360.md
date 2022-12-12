@@ -8,7 +8,7 @@ Cette page est destinée aux utilisateurs qui souhaitent migrer vers FreeCAD dep
 ## Que dois-je faire ? 
 
 1.  La première chose que vous voulez faire est de sortir vos fichiers des formats et du stockage propriétaires. Commencez par exporter vos modèles du cloud vers votre machine locale.
-    -   Une méthode populaire consiste à utiliser ce script [Fusion360 total exporter](https://github.com/Jnesselr/fusion-360-total-exporter).
+    -   Une méthode courante consiste à utiliser ce script [Fusion360 total exporter](https://github.com/Jnesselr/fusion-360-total-exporter).
 2.  Nous vous recommandons d\'exporter au format STEP.
 
 ## Glossaire
@@ -16,7 +16,7 @@ Cette page est destinée aux utilisateurs qui souhaitent migrer vers FreeCAD dep
 
 **Veuillez également faire référence au projet en cours [CAD Rosetta Stone](CAD_Rosetta_Stone.md) pour connaître les noms analogues utilisés par les CAO propriétaires populaires**
 
-Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une courte liste de termes spécifiques que les utilisateurs de F360 peuvent trouver particulièrement utiles:
+Reportez-vous à la page [Glossaire](Glossary/fr.md) en général. Ici une courte liste de termes spécifiques que les utilisateurs de F360 peuvent trouver particulièrement utiles:
 
 -   Contrainte de tangence - Forme FreeCAD de **Contrainte colinéaire**. Voir <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Sketch Contrainte tangente](Sketcher_ConstrainTangent/fr#Entre_deux_lignes_.28colin.C3.A9aire.29.md).
 -   Extrusion - La fonction **extruder** dans FreeCAD. Lisez la documentation <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) pour en savoir plus.
@@ -25,11 +25,11 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 ## FAQ
 
 1.  Quels formats supportez-vous dans FreeCAD ?
-    -   Le format de fichier natif dans FreeCAD est BREP, [BREP](https://fr.wikipedia.org/wiki/B-Rep), fourni par le noyau de géométrie interne [OpenCASCADE (OCCT)](OpenCASCADE/fr.md).
+    -   Le format de fichier natif dans FreeCAD est [BREP](https://fr.wikipedia.org/wiki/B-Rep), fourni par le noyau de géométrie interne d\'[OpenCASCADE (OCCT)](OpenCASCADE/fr.md).
     -   FreeCAD supporte tous les formats que OCCT supporte, donc STEP et IGES au moins.
 2.  Quels formats dois-je utiliser pour migrer vers FreeCAD ?
-    -   STEP est le meilleur format car c\'est un format solide [Shape](Shape/fr.md), par opposition à un format de [Maillage](Mesh/fr.md) (STL, OBJ, DAE). Exemple, [Importing Step with Colors](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
-    -   L\'importation d\'un STL est possible, mais ce format de maillage sera difficile à modifier par la suite. Nous recommandons de convertir les maillages importés en formes solides en utilisant **[<img src=images/Part_ShapeFromMesh.svg style="width:16px">. [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**. Remodeler l\'objet dans FreeCAD, tout en utilisant le maillage comme référence, est le meilleur conseil.
+    -   STEP est le meilleur format car c\'est un format solide de forme [Shape](Shape/fr.md), par opposition à un format de [Maillage](Mesh/fr.md) (STL, OBJ, DAE). Exemple, [Importing Step with Colors](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
+    -   L\'importation d\'un STL est possible, mais ce format de maillage sera difficile à modifier par la suite. Nous recommandons de convertir les maillages importés en formes solides en utilisant **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**. Remodeler l\'objet dans FreeCAD, tout en utilisant le maillage comme référence, est le meilleur conseil.
 
 ## Astuces
 

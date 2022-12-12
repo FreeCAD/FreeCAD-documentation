@@ -77,24 +77,7 @@ In particolare, il passaggio dalla scheda **Azioni** alla scheda **Modello** non
 
 ## Notes
 
--   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FC if the task panel is in focus will auto-exit the task panel. To disable this functionality, please see [Escape Key](Fine-tuning#Escape_Key.md).
-
-## Scripting
-
-
-**Please reformulate and update this section**
-
-See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Call that a Task Dialog widget can use to close the Task View. It can be closed with \"this-\>close()\", but that only closes the lower part of the view, not that view itself.
-
-Using python: 
-```python
-Gui.Control.closeDialog()
-```
-
-Using c++: 
-```python
-Gui::Control().closeDialog();
-```
+-   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FreeCAD the task panel that has the focus will close. To disable this functionality, please see [Fine tuning](Fine-tuning#Escape_Key.md) and [Sketcher Preferences](Sketcher_Preferences#General.md).
 
 
 {{Interface navi

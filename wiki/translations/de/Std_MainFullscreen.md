@@ -1,24 +1,24 @@
 ---
 - GuiCommand:/de
    Name:Std MainFullscreen
-   Name/de:Std ganzerHauptbildschirm
-   MenuLocation:Anicht → Ganzer Bildschirm
+   Name/de:Std HauptfensterVollbild
+   MenuLocation:Ansicht → Vollbild
    Workbenches:Alle
    Shortcut:**Alt**+**F11**
-   SeeAlso:[Std ganzerBildschirm](Std_ViewFullscreen/de.md)
+   SeeAlso:[Std AnsichtVollbild](Std_ViewFullscreen/de.md)
 ---
 
 # Std MainFullscreen/de
 
 ## Beschreibung
 
-Der **Std ganzerHauptbildschirm** Befehl schaltet die FreeCAD Hauptansicht zu einen Gesamtbildschirm und zurück um.
+Der Befehl **Std HauptfensterVollbild** schaltet das Hauptfenster, die FreeCAD-Oberfläche, in den Vollbildmodus oder wieder zurück.
 
 ## Anwendung
 
-1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
-    -   Den Menüpunkt **Ansicht → <img src="images/Std_MainFullscreen.svg" width=16px> Fullscreen** aus dem Menü wählen.
-    -   Mit dem Tastenkürzel: **Alt**+**F11**.
+1.  Es gibt verschiedene Möglichkeiten, den Befehl aufzurufen:
+    -   Den Menüeintrag **Ansicht → <img src="images/Std_MainFullscreen.svg" width=16px> Vollbild** auswählen.
+    -   Das Tastaturkürzel: **Alt**+**F11**.
 
 
 

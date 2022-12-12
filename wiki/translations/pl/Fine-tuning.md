@@ -88,9 +88,7 @@ Etykieta w Szkicowniku, która wyświetla aktualny stan wiązań (np. \" Nie w p
 
 ### Klawisz ESC 
 
--   **General/TasksKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć wychodzenie klawiszem **ESC** z [Panelu zadań](Task_panel/pl.md) we wszystkich środowiskach pracy *(to znaczy, jeśli panel zadań jest aktywny)*. **Uwaga:** Zastąpiono przez [Preferencje szkicownika](Sketcher_Preferences/pl#Og.C3.B3lne.md).
--   **Mod/Sketcher/ViewKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć problemy z klawiszami **ESC** przy naciskaniu od jednego do wielu razy, podczas wychodzenia z trybu kontynuacji tworzenia geometrii / wiązań szkicownika.
-    -   Źródło: [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584)
+-   **General/TasksKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć wychodzenie klawiszem **ESC** z [Panelu zadań](Task_panel/pl.md) we wszystkich środowiskach pracy *(to znaczy, jeśli panel zadań jest aktywny)*.
 
 ## Szczególne Środowiska pracy 
 

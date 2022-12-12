@@ -3,7 +3,13 @@
 
 ## Einführung
 
+
+<div class="mw-translate-fuzzy">
+
 Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
+
+
+</div>
 
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
@@ -35,24 +41,13 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Benutzer, die von anderen CAD Lösungen umsteigen, die die **ESC** Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC** Taste in FreeCAD gedrückt wird und der Aufgabenbereich im Fokus ist, wird der Aufgabenbereich automatisch verlassen. Um diese Funktion zu deaktivieren, siehe [Fine-tuning/de#ESC Taste](Fine-tuning/de#ESC_Taste.md).
 
-## Skripten
 
-
-**Bitte diesen Abschnitt neuformulieren und aktualisieren.**
-
-Siehe [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aufruf, den ein Aufgaben Dialog Widget verwenden kann, um die Aufgabenansicht zu schließen. Es kann mit \"this-\>close()\" geschlossen werden, aber das schließt nur den unteren Teil der Ansicht, nicht die Ansicht selbst.
-
-Verwendung von Python: 
-```python
-Gui.Control.closeDialog()
-```
-
-Verwendung von C++: 
-```python
-Gui::Control().closeDialog();
-```
+</div>
 
 
 {{Interface navi

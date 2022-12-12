@@ -36,7 +36,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
    
 
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Ściany narożników kostki nawigacyjnej są teraz sześciokątne i większe, dzięki czemu łatwiej je kliknąć. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
    
 
 ### Planowane ulepszenie dla interfejsu użytkownika 
@@ -169,8 +169,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 ## Środowisko pracy Szkicownik 
 
    
-  <img alt="" src=images/Constrain_B-spline_knots_relnotes_1.0.gif  style="width:384px;">Dragging of B-spline knots.Click on the image to see the animation.   B-spline knots can now be dragged around and constrained like any other sketch point. [Pull request #7484](https://github.com/FreeCAD/FreeCAD/pull/7484)
-                                                                                                                                                                                                           
+  <img alt="" src=images/Constrain_B-spline_knots_relnotes_1.0.gif  style="width:384px;">Przeciąganie węzłów krzywej złożonej.Kliknij na obrazek, aby zobaczyć animację.   Węzły krzywej złożonej mogą być teraz przeciągane i związane jak każdy inny punkt szkicu. [Pull request #7484](https://github.com/FreeCAD/FreeCAD/pull/7484)
+                                                                                                                                                                                                                       
    
 
 +++
@@ -190,13 +190,22 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
                                                                                                                                                                   
    
 
+   
+  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Kliknij na obrazek, aby zobaczyć animację.   Dodano narzędzie [Połącz krzywe](Sketcher_JoinCurves/pl.md). Może ono łączyć wiele krzywych w jedną krzywą złożoną. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
+                                                                                                                                                            
+   
+
 ### Planowane ulepszenia dla środowiska Szkicownik 
 
 -   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
 -   [Wiązania wymiarów](Sketcher_Workbench/pl#Wi.C4.85zania_wymiar.C3.B3w.md) i pola wyboru wartości obsługują teraz tą samą matematykę co [wyrażenia](Expressions/pl.md) *(obliczane na bieżąco)*. [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
 -   Przyciski paska narzędzi [Wybierz zbędne wiązania](Sketcher_SelectRedundantConstraints/pl.md) i [Wybierz wiązania konfliktowe](Sketcher_SelectConflictingConstraints/pl.md) zostały usunięte. [Pull request #7568](https://github.com/FreeCAD/FreeCAD/pull/7568)
 -   Przycisk paska narzędzi dla [Przerwij operację](Sketcher_StopOperation/pl.md) został usunięty. [Pull request #7569](https://github.com/FreeCAD/FreeCAD/pull/7569)
--   Edycja widżetu sterowania, usunięto etykietę „Rozmiar siatki", zmieniono nazwę pola wyboru „Pokaż siatkę" na „Siatka". [Pull request #7577](https://github.com/FreeCAD/FreeCAD/pull/7577)
+-   Sekcja \'Edycja kontrolek\' w oknie dialogowym szkicownika stała się opcjonalna. [Pull request #7572](https://github.com/FreeCAD/FreeCAD/pull/7572)
+-   Usunięto przycisk paska narzędzi dla [Wybierz elementy bez wiązań](Sketcher_SelectElementsWithDoFs/pl.md). [Pull request #7603](https://github.com/FreeCAD/FreeCAD/pull/7603)
+-   Pasek narzędzi Szkicownika został podzielony na dwa: \"Tryb edycji szkicownika\" i \"Szkicownik\" *(czyli \"nie tryb edycji\")*. Paski narzędzi Szkicownika przeznaczone tylko do trybu edycji są ukryte w trybie nieedytowania, a te przeznaczone tylko do trybu nieedytowania są ukryte w trybie edycji. Pasek narzędzi Konstrukcja jest również ukryty w szkicowniku. [Pull request #7655](https://github.com/FreeCAD/FreeCAD/pull/7655)
+-   [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md) może teraz działać jako wiązanie koncentryczne podczas wybierania 2 lub więcej okręgów, łuków, elips lub łuków elips. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
+-   [Kalka techniczna](Sketcher_CarbonCopy/pl.md), jeśli to możliwe, używa teraz nazw wiązań w tworzonych przez siebie wyrażeniach zamiast odniesienia opartego na indeksie, dzięki czemu jest bardziej niezawodny. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
 ## Środowisko pracy Arkusz Kalkulacyjny 
 

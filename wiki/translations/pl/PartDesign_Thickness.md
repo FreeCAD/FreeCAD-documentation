@@ -21,19 +21,19 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
 
 ### Dodanie funkcji grubość 
 
-1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to apply the Thickness to.
-2.  Select one or more faces of the Body.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_Thickness.svg" width=16px> [Thickness](PartDesign_Thickness.md)** button.
-    -   Select the **Part Design → Apply a dress-up feature → <img src="images/PartDesign_Thickness.svg" width=16px> Thickness** option from the menu.
-4.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
-5.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-6.  Press the **OK** button to finish.
+1.  Opcjonalnie [uaktywnij](PartDesign_Body/pl#Aktywny_status.md) bryłę, do której ma zostać zastosowana funkcja grubość.
+2.  Wybierz jedną lub więcej ścian bryły.
+3.  Istnieje kilka sposobów na wywołanie narzędzia:
+    -   Naciśnij przycisk **<img src="images/PartDesign_Thickness.svg" width=16px> [Grubość](PartDesign_Thickness/pl.md)**.
+    -   Wybierz z menu opcję **Projekt Części → Zastosuj funkcję ulepszenia → <img src="images/PartDesign_Thickness.svg" width=16px> Grubość**.
+4.  Jeśli nie ma aktywnej Bryły, a w dokumencie występuje dwie lub więcej Brył, otworzy się okno dialogowe **Wymagana jest aktywna zawartość** i poprosi o uaktywnienie jednej z nich. Jeśli istnieje jedna bryła, zostanie ona aktywowana automatycznie.
+5.  Otworzy się [panel zadań](Task_panel/pl.md) **Parametry funkcji grubość**. Więcej informacji znajdziesz w sekcji [Opcje](#Opcje.md).
+6.  Naciśnij przycisk **OK**, aby zakończyć.
 
-:   *Remember*:
-    -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
+:   *Pamiętaj*:
+    -   Ponieważ dla danej cechy musi istnieć przynajmniej jedna ściana, ostatnia pozostała na liście ściana nie może zostać usunięta.
 
-### Edit a thickness 
+### Edycja funkcji grubość 
 
 1.  Do one of the following:
     -   Double-click the Thickness object in the [Tree view](Tree_view.md)

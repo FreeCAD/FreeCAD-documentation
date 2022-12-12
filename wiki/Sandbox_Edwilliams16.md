@@ -364,6 +364,8 @@ def getLCSVertex(sel):
 
 <https://github.com/FreeCAD/FreeCAD/blob/5d49bf78de785a536f941f1a6d06d432582a95d3/src/Base/Rotation.cpp>
 
+[Macro GetGlobalPlacement](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/GetGlobalPlacement.FCMacro)
+
 
 
 ---

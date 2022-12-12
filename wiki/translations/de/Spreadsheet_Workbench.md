@@ -68,47 +68,23 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ## Zelleigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Die Eigenschaften der Kalkulationstabellenzelle können mit einem Rechtsklick auf einer Zelle geändert werden. Der folgende Dialog klappt auf:
-
-
-</div>
+Die Eigenschaften einer Tabellenzelle können mit einem Rechtsklick auf die Zelle und Auswahl von **Eigenschaften...** im Kontextmenü geändert werden. Folgender Dialog wird geöffnet:
 
 ![](images/SpreadsheetCellPropDialog.png )
 
 Wie in den Reitern angezeigt können die folgenden Eigenschaften geändert werden:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Farbe: Text- und Hintergrundfarbe
 -   Ausrichtung: horizontale und vertikale Textausrichtung
 -   Stil: Textstil: fett, kursiv, unterstrichen
--   Einheiten:  Anzeigeeinheiten für diese Zelle. Den Abschnitt [Einheiten](Spreadsheet_Workbench/de#Einheiten.md) unten beachten.
--   Alias:  Einen [alias](Spreadsheet_SetAlias.md) für diese Zelle festlegen. Dieser Alias kann in den Zellformeln und auch in allgemeinen [ Ausdrücken](Expressions/de.md) verwendet werden; siehe Abschnitt [Tabellenkalkulationsdaten in Ausdrücken](#Spreadsheet_data_in_expressions/de.md) für weitere Informationen.
-
-
-</div>
+-   Einheiten: Anzeigeeinheiten für diese Zelle. Den Abschnitt [Einheiten](Spreadsheet_Workbench/de#Einheiten.md) unten beachten.
+-   Alias: Einen [Alias](Spreadsheet_SetAlias.md) für diese Zelle festlegen. Dieser Alias kann in Zellformeln und auch in allgemeinen [Ausdrücken](Expressions/de.md) verwendet werden; siehe Abschnitt [Tabellendaten in Ausdrücken](#Tabellendaten_in_Ausdrücken.md) für weitere Informationen.
 
 ## Zellausdrücke
 
+Eine Tabellenzelle kann eine Zahl, einen Text oder einen Ausdruck enthalten. Ausdrücke müssen mit einem Gleichheitszeichen \'=\' beginnen.
 
-<div class="mw-translate-fuzzy">
-
-Eine Tabellenzelle kann beliebigen Text oder einen Ausdruck enthalten. Technisch gesehen müssen Ausdrücke mit einem Gleichheitszeichen \'=\' beginnen. Die Tabellenkalkulation versucht jedoch, intelligent zu sein; wenn du etwas eingibst, das wie ein Ausdruck aussieht, ohne das führende \'=\', wird automatisch eines hinzugefügt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verweise auf Eigenschaften des Modells enthalten (Siehe aber [Aktuelle Begrenzungen](#Current_Limitations/de.md) unten). Zellen werden durch ihre Spalte (GROSSBUCHSTABEN) und Zeile (Zahl) referenziert. Eine Zelle kann auch durch ihren [Aliasnamen](#alias_name/de.md) (siehe unten) referenziert werden. Beispiel: B4 + A6
-
-
-</div>
+Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verweise auf Eigenschaften des Modells enthalten (Siehe aber [Aktuelle Einschränkungen](#Aktuelle_Einschränkungen.md) weiter unten). Eine Zelle kann über ihre Adresse (GROSSBUCHSTABEN für die Spalte + Zeilennummer, z.B. B4) referenziert werden oder über ihren [Alias](Spreadsheet_SetAlias/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -175,7 +151,7 @@ Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell �
 
 </div>
 
-### Kalkulationstabellendaten in Ausdrücken 
+### Tabellendaten in Ausdrücken 
 
 
 <div class="mw-translate-fuzzy">

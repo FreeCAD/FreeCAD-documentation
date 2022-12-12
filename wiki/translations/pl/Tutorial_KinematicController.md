@@ -301,15 +301,15 @@ Do późniejszego użycia potrzebujemy typ sterownika *(Kąt, Odległość, Dłu
 ...
 ```
 
-This method checks if the type of the given constraint can be found in one of the lists, and returns which kind of dimension has to be controlled.
+Metoda ta sprawdza, czy typ podanego wiązania można znaleźć na jednej z list i zwraca, który rodzaj wymiaru ma być kontrolowany.
 
-It is assumed that in the kinematic document the driver is marked correctly and working if edited manually. In this case there is no need to filter out geometric constraints such as Colinear or PointsCoincidence (but here would be the place to do so\...)
+Zakłada się, że w dokumencie kinematycznym sterownik jest zaznaczony poprawnie i działa, jeśli jest edytowany ręcznie. W tym przypadku nie ma potrzeby filtrowania wiązań geometrycznych takich jak Współliniowość czy Zbieżność punktu *(ale tutaj byłoby to uzasadnione \...)*.
 
 ##### Ustawienia okna 
 
-The window size is defined by its minimum and maximum dimensions. Using the same values results in a fixed size.
+Rozmiar okna jest określony przez jego minimalny i maksymalny wymiar. Użycie tych samych wartości powoduje, że rozmiar jest stały.
 
-The title shows the driver name and whether its an angle, a distance, or a length. Finally the window is told to stay on top of all windows.
+Tytuł pokazuje nazwę sterownika i czy jest to kąt, odległość czy długość. Wreszcie okno ma pozostać na wierzchu wszystkich okien.
 
 
 ```python
@@ -329,17 +329,17 @@ The title shows the driver name and whether its an angle, a distance, or a lengt
 
 {{Top}}
 
-#### Setting more parameters 
+#### Ustawienie dodatkowych parametrów 
 
-The next step is to extract the current value of the driver and set the default start and end values depending on the driver type.
+Kolejnym krokiem jest wyodrębnienie aktualnej wartości sterownika i ustawienie domyślnych wartości początkowych i końcowych w zależności od typu sterownika.
 
-A distance cannot be negative and exactly zero puzzles the solver and so the start value is set to 0.001. Angles accept negative values and get symmetric values. (If lengths accept negative values has to be proven finally\...)
+Odległość nie może być ujemna i dokładnie zero stanowi zagadkę dla rozwiązania, dlatego wartość początkowa jest ustawiona na 0,001. Kąty przyjmują wartości ujemne i otrzymują wartości symetryczne. *(Czy długości przyjmują wartości ujemne trzeba ostatecznie udowodnić \...)*
 
-The unit suffix must be kept for returning the value to the constraint property in the end. Distances and lengths need values with units.
+Przyrostek jednostki musi zostać zachowany, aby na końcu zwrócić wartość do właściwości wiązanie. Odległości i długości wymagają wartości z jednostkami.
 
-Dealing with units and displaying values as strings in several widgets requires to convert numbers into strings and back again quite often.
+Radzenie sobie z jednostkami i wyświetlanie wartości jako ciągów w kilku widżetach wymaga dość często konwersji liczb na ciągi i odwrotnie.
 
-To complete the parameters we set a default number of steps that should be computed when the motion is automated and if the {{Incode|self.sequence}} toggle is set to {{Incode|True}}, a picture will be taken with each step of the motion.
+Aby uzupełnić parametry ustawiamy domyślną liczbę kroków, które powinny być obliczane podczas automatyzacji ruchu, a jeśli przełącznik {{Incode|self.sequence}} jest ustawiony na wartość {{Incode|True}}, to przy każdym kroku ruchu będzie robione zdjęcie.
 
 
 ```python
@@ -378,7 +378,7 @@ Najpierw należy zaimportować klasę {{Incode|QLabel}}, tzn. rozszerzyć listę
 from PySide2.QtWidgets import (QDialog, QLabel)
 ```
 
-Back in the {{Incode|initUI()}} method we insert:
+Wracając do metody {{Incode|initUI()}} wstawiamy:
 
 
 ```python
@@ -401,19 +401,19 @@ Back in the {{Incode|initUI()}} method we insert:
 ...
 ```
 
-The placement is done with the inherited {{Incode|setGeometry()}} method. In this case the description of a rectangle is used (X position, Y position, width, height).
+Umieszczenie odbywa się za pomocą dziedziczonej metody {{Incode|setGeometry()}}. W tym przypadku wykorzystywany jest opis prostokąta *(pozycja X, pozycja Y, szerokość, wysokość)*.
 
-The first and third lines could be combined, but it is not recommended for clarity reasons:
+Pierwszy i trzeci wiersz można by połączyć, ale nie jest to zalecane ze względu na przejrzystość:
 
 
 ```python
 self.label_end = QLabel((str(round(self.end_value, 1)) + self.unit_suffix), self)
 ```
 
-Running the macro with a kinematic assembly document would create a dialog window like this:
+Uruchomienie makra z dokumentem zespołu kinematycznego spowoduje powstanie okna dialogowego jak poniżej:
 
-<img alt="A dialog window displaying start value, current Value, and end value" src=images/Tutorial_KinCon-02.png  style="width:300px;"> 
-*The dialog window displaying the constraint label and driver type in the title, and the start value, current value and end value on the first line in the main area*
+<img alt="Okno dialogowe wyświetlające wartość początkową, wartość bieżącą i wartość końcową" src=images/Tutorial_KinCon-02.png  style="width:300px;"> 
+*Okno dialogowe wyświetlające etykietę wiązania i typ sterownika w tytule oraz wartość początkową, wartość bieżącą i wartość końcową w pierwszej linii w obszarze głównym*
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -547,18 +547,18 @@ if __name__ == "__main__":
 
 {{Top}}
 
-#### Slider
+#### Suwak
 
 Aby zmienić bieżącą wartość na dowolną liczbę między wartością początkową a końcową, przydatny byłby widżet suwaka.
 
-First the class {{Incode|QSlider}} must be imported i.e. the import list has to be extended like this:
+Najpierw należy zaimportować klasę {{Incode|QSlider}}, tzn. rozszerzyć listę importu w sposób następujący:
 
 
 ```python
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider)
 ```
 
-Back in the {{Incode|initUI()}} method and right after the labels section we insert:
+Wracając do metody {{Incode|initUI()}} i zaraz po sekcji *labels* wstawiamy:
 
 
 ```python
@@ -575,9 +575,9 @@ Back in the {{Incode|initUI()}} method and right after the labels section we ins
 ...
 ```
 
-The slider button is placed with the {{Incode|setValue()}} method. Its value has to be calculated from the current value and a step ratio. The ratio has to be calculated whenever a start or end value is changed and so we insert another method after the {{Incode|getDriverType()}} method.
+Przycisk suwaka jest umieszczany za pomocą metody {{Incode|setValue()}}. Jego wartość musi być obliczona z bieżącej wartości i współczynnika kroku. Stosunek ten musi być obliczany przy każdej zmianie wartości początkowej lub końcowej, dlatego po metodzie {{Incode|getDriverType()}} wstawiamy kolejną metodę.
 
-To work with a ratio instead of altering the slider\'s min and max values has the advantage of a finer resolution for small values.
+Praca z proporcją zamiast zmiany wartości minimalnych i maksymalnych suwaka ma tę zaletę, że pozwala na uzyskanie większej rozdzielczości dla małych wartości.
 
 
 ```python
@@ -588,11 +588,11 @@ To work with a ratio instead of altering the slider\'s min and max values has th
 ...
 ```
 
-And after this one comes another method defining what to do when the slider position or the slider value changes. The {{Incode|onActuatorSlider()}} method is called by the {{Incode|connect()}} method which also hands over the slider value as an argument.
+A po niej przychodzi kolejna metoda określająca, co zrobić, gdy zmieni się pozycja suwaka lub jego wartość. Metoda {{Incode|onActuatorSlider()}} jest wywoływana przez metodę {{Incode|connect()}}, która jako argument przekazuje również wartość suwaka.
 
-It recalculates the current value from the slider position, rewrites the text of the label {{Incode|self.label_current}} and changes the constraint property according to the driver type.
+Przelicza bieżącą wartość z pozycji suwaka, przepisuje tekst etykiety {{Incode|self.label_current}} i zmienia właściwość wiązania zgodnie z typem sterownika.
 
-Running the command {{Incode|"asm3CmdQuickSolve"}} starts the solver to rearrange the assembly parts with the altered value.
+Uruchomienie polecenia {{Incode|"asm3CmdQuickSolve"}} uruchamia solver do ponownego ułożenia części zespołu ze zmienioną wartością.
 
 
 ```python
@@ -610,25 +610,25 @@ Running the command {{Incode|"asm3CmdQuickSolve"}} starts the solver to rearrang
 ...
 ```
 
-The dialog window with the slider should look like this and is ready to control a motion:
+Okno dialogowe z suwakiem powinno wyglądać tak i jest gotowe do sterowania ruchem:
 
-<img alt="Two dialog windows with a slider" src=images/Tutorial_KinCon-03.png  style="width:300px;"> 
-*Dialog windows with the added slider, one for an Angle driver and one for a Distance driver*
+<img alt="Dwa okna dialogowe z suwakiem" src=images/Tutorial_KinCon-03.png  style="width:300px;"> 
+*Okna dialogowez dodanym suwakiem, jedno dla sterownika ''Angle'' i jedno dla sterownika ''Distance''.*
 
-We can start a dialog window for any opened document, they won\'t interfere with each other. {{Top}}
+Możemy uruchomić okno dialogowe dla dowolnego otwartego dokumentu, nie będą one ze sobą kolidować. {{Top}}
 
-#### Text entry fields 
+#### Pola tekstowe wprowadzania danych 
 
-To set the start and end value we use a line edit widget.
+Do ustawienia wartości początkowej i końcowej używamy widżetu edycji linii.
 
-First the class {{Incode|QLineEdit}} must be imported i.e. the import list has to be extended like this:
+Najpierw należy zaimportować klasę {{Incode|QLineEdit}}, tzn. rozszerzyć listę importu w sposób następujący:
 
 
 ```python
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit)
 ```
 
-Back in the {{Incode|initUI()}} method and between the labels and the slider sections we insert:
+Z powrotem w metodzie {{Incode|initUI()}} i pomiędzy etykietami a sekcjami suwaków wstawiamy:
 
 
 ```python
@@ -647,7 +647,7 @@ Back in the {{Incode|initUI()}} method and between the labels and the slider sec
 ...
 ```
 
-The entry fields display the default start and end values. They are not complete until we add the methods to deal with altered entries. This will be done by the methods {{Incode|self.onEntryStart()}} and {{Incode|self.onEntryEnd()}} that are inserted between the {{Incode|self.stepRatio()}} and the {{Incode|self.onActuatorSlider()}} methods.
+Pola wpisów wyświetlają domyślne wartości początkowe i końcowe. Nie są one kompletne, dopóki nie dodamy metod radzących sobie ze zmienionymi wpisami. Zrobią to metody {{Incode|self.onEntryStart()}} i {{Incode|self.onEntryEnd()}}, które są wstawione pomiędzy metody {{Incode|self.stepRatio()}} i {{Incode|self.onActuatorSlider()}}.
 
 
 ```python
@@ -668,12 +668,12 @@ The entry fields display the default start and end values. They are not complete
 ...
 ```
 
-Both convert the received string value to a floating point number and change either {{Incode|self.start_value}} or {{Incode|self.end_value}} and the corresponding label accordingly. After that the slider value is updated.
+Oba konwertują otrzymaną wartość łańcuchową na liczbę zmiennoprzecinkową i odpowiednio zmieniają {{Incode|self.start_value}} lub {{Incode|self.end_value}} oraz odpowiadającą im etykietę. Po tym wartość suwaka jest aktualizowana.
 
-The dialog window with text entry fields should look like this and is ready to change the range of a motion:
+Okno dialogowe z polami do wprowadzania tekstu powinno wyglądać tak i jest gotowe do zmiany zakresu ruchu:
 
-<img alt="Two dialog windows with line edit fields" src=images/Tutorial_KinCon-04.png  style="width:300px;"> 
-*Dialog windows with line edit fields, again for an angle and a distance driver*
+<img alt="Dwa okna dialogowe z polami do edycji linii" src=images/Tutorial_KinCon-04.png  style="width:300px;"> 
+*Okna dialogowe z polami edycji linii, ponownie dla sterownika kąta i odległości.*
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -861,21 +861,21 @@ if __name__ == "__main__":
 
 {{Top}}
 
-### Motion
+### Ruch
 
-To get the assembly in motion we need:
+Aby wprawić zespół w ruch potrzebujemy:
 
--   Buttons to trigger motion in the desired direction.
--   An input field to alter the number of steps for faster or smoother motions.
--   A check box to indicate if we want to shoot a sequence of images.
+-   Przyciski do wyzwalania ruchu w pożądanym kierunku.
+-   Pole wejściowe do zmiany liczby kroków dla szybszych lub bardziej płynnych ruchów.
+-   Pole wyboru do wskazania, czy chcemy wykonać sekwencję zdjęć.
 
-#### Forward and Backward buttons 
+#### Przyciski w przód i w tył 
 
-To move the assembly parts automatically we need two buttons to trigger the motions, one towards the start position and one towards the end position. These two and a close button will use a {{Incode|QPushButton}} widget.
+Aby automatycznie przesuwać części montażowe, potrzebujemy dwóch przycisków do wyzwalania ruchów, jednego w kierunku pozycji początkowej i jednego w kierunku pozycji końcowej. Te dwa oraz przycisk zamykający wykorzystają widżet {{Incode|QPushButton}}.
 
-Small assemblies compute a bit too fast and show jumps instead of a smooth motion. To slow it down we use the {{Incode|sleep()}} method of the {{Incode|time}} module which has to be imported first.
+Małe złożenia obliczają się trochę za szybko i pokazują skoki zamiast płynnego ruchu. Aby go spowolnić, używamy metody {{Incode|sleep()}} modułu {{Incode|time}}, który najpierw trzeba zaimportować.
 
-Another import and another widget:
+Kolejny import i kolejny widżet:
 
 
 ```python
@@ -883,7 +883,7 @@ import time
 from PySide2.QtWidgets import (QDialog, QLabel, QSlider, QLineEdit, QPushButton)
 ```
 
-Back in the {{Incode|initUI()}} method we insert the buttons after the slider section:
+Wracając do metody {{Incode|initUI()}} wstawiamy przyciski po sekcji *slider*:
 
 
 ```python
@@ -906,7 +906,7 @@ Back in the {{Incode|initUI()}} method we insert the buttons after the slider se
 ...
 ```
 
-The methods dealing with pressed buttons are {{Incode|self.onForward()}}, {{Incode|self.onBackward()}}, and {{Incode|self.onClose()}}. They are inserted after the {{Incode|onActuatorSlider()}} method.
+Metody zajmujące się wciskanymi przyciskami to {{Incode|self.onForward()}}, {{Incode|self.onBackward()}} oraz {{Incode|self.onClose()}}. Są one wstawiane po metodzie {{Incode|onActuatorSlider()}}.
 
 
 ```python
@@ -940,23 +940,23 @@ The methods dealing with pressed buttons are {{Incode|self.onForward()}}, {{Inco
 ...
 ```
 
-The method {{Incode|self.onClose()}} invokes the inherited method {{Incode|self.close()}} which just closes the dialog window and thereby ends the macro.
+Metoda {{Incode|self.onClose()}} wywołuje dziedziczoną metodę {{Incode|self.close()}}, która po prostu zamyka okno dialogowe i tym samym kończy działanie makrodefinicji.
 
-Both {{Incode|self.onForward()}} and {{Incode|self.onBackward()}} count the steps that are left to go to reach the wanted position and calculate the length of a step according to the number of steps. For now we go with the default number of 10 steps.
+Zarówno {{Incode|self.onForward()}} jak i {{Incode|self.onBackward()}} liczą kroki, które pozostały do wykonania, aby osiągnąć żądaną pozycję i obliczają długość kroku zgodnie na podstawie ich liczby. Wstępnie przyjmiemy domyślną liczbę 10 kroków.
 
-Each round on the while loop increases/decreases the current value and updates the slider values which triggers {{Incode|onActuatorSlider()}} in the background (see [Slider paragraph](#Slider.md)). After a pause to let the computer provide another updated 3D view, counting down the steps left to go finishes the loop.
+Każda runda pętli *while* zwiększa / zmniejsza bieżącą wartość i aktualizuje wartości suwaków, co powoduje uruchomienie {{Incode|onActuatorSlider()}} w tle *(patrz [Akapit Suwak](#Suwak.md))*. Po przerwie, aby komputer dostarczył kolejny zaktualizowany widok 3D, odliczanie kroków pozostałych do przejścia kończy pętlę.
 
-With no steps left the slider is set to the first/last slider position, just in case if a rounding error had occurred.
+Gdy nie ma już żadnych kroków, suwak jest ustawiany na pierwszą / ostatnią pozycję, tak na wszelki wypadek, gdyby wystąpił błąd zaokrąglenia.
 
-The dialog window with buttons should look like this and can now move the assembly by 10 steps towards the wanted start/end position:
+Okno dialogowe z przyciskami powinno wyglądać tak i można teraz przesunąć zespół o 10 kroków w kierunku żądanej pozycji początkowej / końcowej:
 
-<img alt="Dialog window with buttons" src=images/Tutorial_KinCon-05.png  style="width:300px;"> 
-*Dialog window with buttons*
+<img alt="Okno dialogowe z przyciskami" src=images/Tutorial_KinCon-05.png  style="width:300px;"> 
+*Okno dialogowe z przyciskami.*
 
 
 <div class="mw-collapsible mw-collapsed">
 
-**And the macro so far\...**
+**Dotychczasowe makrodefinicje \...**
 
 
 <div class="mw-collapsible-content">
@@ -1183,13 +1183,13 @@ if __name__ == "__main__":
 
 {{Top}}
 
-#### Number of steps 
+#### Liczba kroków 
 
-The default setting is to get a quick impression if the assembly is moving as expected without wasting too much computing time.
+Domyślnym ustawieniem jest uzyskanie szybkiego wrażenia, czy zespół porusza się zgodnie z oczekiwaniami, bez marnowania zbyt wiele czasu obliczeniowego.
 
-If the parts jump rather than move smoothly, or if drivers based on angles tend to cause trouble when the difference between two angles is too large, then both can be fixed by increasing the number of steps.
+Jeśli części skaczą, a nie poruszają się płynnie, lub jeśli sterowniki oparte na kątach mają tendencję do powodowania problemów, gdy różnica między dwoma kątami jest zbyt duża, to oba te przypadki można naprawić poprzez zwiększenie liczby kroków.
 
-And so another line edit widget is used to alter the number steps (placed after the existing line edit widgets):
+I tak kolejny widżet edycji linii jest używany do zmiany liczby kroków *(umieszczony po istniejących widżetach edycji linii)*:
 
 
 ```python
@@ -1202,7 +1202,7 @@ And so another line edit widget is used to alter the number steps (placed after 
 ...
 ```
 
-The related method {{Incode|self.onEntrySteps()}} just fills the parameter {{Incode|self.step_value}} with the entered value. It is inserted after the {{Incode|onEntryEnd()}} method.
+Powiązana metoda {{Incode|self.onEntrySteps()}} po prostu wypełnia parametr {{Incode|self.step_value}} wprowadzoną wartością. Jest ona wstawiana po metodzie {{Incode|onEntryEnd()}}.
 
 
 ```python
@@ -1212,10 +1212,10 @@ The related method {{Incode|self.onEntrySteps()}} just fills the parameter {{Inc
 ...
 ```
 
-The dialog window able to change the number of steps should look like this:
+Okno dialogowe umożliwiające zmianę liczby kroków powinno wyglądać następująco:
 
-<img alt="Dialog window with another text entry field" src=images/Tutorial_KinCon-06.png  style="width:300px;"> 
-*Dialog window with another text entry field* {{Top}}
+<img alt="Okno dialogowe z kolejnym polem do wpisywania tekstu" src=images/Tutorial_KinCon-06.png  style="width:300px;"> 
+*Okno dialogowe z następnym polem do wpisywania tekstu* {{Top}}
 
 #### Sekwencja obrazów 
 

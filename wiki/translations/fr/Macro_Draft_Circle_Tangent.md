@@ -93,7 +93,7 @@ note: tesselation often makes the true tangent not look like a true tangent
 this is to not overload rendering for larger projects
 one can change the viewsetting deviation for the circle to minimum (0.01)
 if one wants to better view the true tangent, if so, better turn that back
-to default once viewed - it is easy to foget that this has been done,
+to default once viewed - it is easy to forget that this has been done,
 and can in larger projects put fc to more or less a complete halt.
 """
 

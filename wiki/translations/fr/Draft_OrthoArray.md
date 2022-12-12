@@ -12,12 +12,12 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft Réseau orthogonal** crée un réseau orthogonal (3 axes) à partir d\'un objet sélectionné. La commande peut éventuellement créer un réseau de liens [Link](App_Link/fr.md), qui est plus efficace qu\'un réseau normal.
+La commande <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft Réseau orthogonal** crée un réseau orthogonal (3 axes) à partir d\'un objet sélectionné. La commande peut éventuellement créer un réseau de liens [Link](App_Link/fr.md), plus efficace qu\'un réseau normal.
 
-La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draft](Draft_Workbench/fr.md) ou l\'[Atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[Atelier Part](Part_Workbench/fr.md), l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[Atelier Arch](Arch_Workbench/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
-*Un réseau orthogonal Draft*
+*Un Draft réseau orthogonal*
 
 ## Utilisation
 

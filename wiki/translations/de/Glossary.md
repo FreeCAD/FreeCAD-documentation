@@ -511,9 +511,6 @@ Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 ## P
 
 
@@ -522,21 +519,7 @@ Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
 {{term|1=Pad}}
 
-\> Block {{defn|1=Eine Erweiterung einer [Skizze](#Sketch.md) in die Richtung der Normalen zur Skizzenebene. Dabei wird aus der zweidimensionalen Skizze ein dreidimensionales Objekt erzeugt. Siehe auch [Extrusion](#Extrude.md).}} {{term|Part|content=[Part](Part_Workbench/de.md)}} \> Bauteil {{defn|no=1|Ein FreeCAD [Arbeitsbereich](#Workbench.md). Die verfügbare Arbeitsweise ist hauptsächlich [https://de.wikipedia.org/wiki/Constructive_Solid_Geometry Konstruktive Festkörpergeometrie].}} {{defn|no=2|Ein einvolumiger Körper. Die einfachste Komponente in einer Baugruppe.}} {{defn|no=3|Ein Container, der alle Typen von FreeCAD-Objekten gruppieren kann und eine [Platzierung](#Placement.md) besitzt (eingeführt in FreeCAD V0.17.)}} {{term|PartDesignNext}} {{defn|defn=Der Spitzname aus den Foren, um den [PartDesign-Arbeitsbereich](PartDesign_Workbench/de.md), der sich in der FreeCAD Version 0.17 von der Version v0.16 und früher durch weitgehende Änderungen der Arbeitsweise geändert hat, von dem ursprünglichen PartDesign zu unterscheiden.}} {{term|PD}} {{defn|defn=Abkürzung von [PartDesign](PartDesign_Workbench/de.md), einem [Arbeitsbereich](#Workbench.md) von FreeCAD.}} {{term|PDN}} {{defn|defn=Abkürzung von [PartDesignNext](#PartDesignNext.md).}} {{term|Perspective}} \> Perspektive {{defn|defn=[http://en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective projection]}}
-
-
-{{term|term=Pivy|content=[http://pypi.python.org/pypi/Pivy Pivy]}}
-
-
-{{defn|defn=Eine Software-Bibliothek, die es Python erlaubt [[#Coin]] zu benutzen.}}
-
-
-{{term|term=Placement}}
-
-\> Platzierung {{defn|defn=Eine Zusammenstellung von Eigenschaften eines Objekt, das seine Koordinaten und die Orientierung im Raum definiert. Siehe [Platzierung](Placement/de.md).}} {{term|term=Planar}} \> eben {{defn|defn=Die Eigenschaft einer Geometrie, bei der alle Elemente in der selben Ebene liegen.}} {{term|Plane}} \> Ebene {{defn|no=1|Eine flache, zweidimensionale Fläche, die sich bis ins Unendliche erstreckt.}} {{defn|no=2|Ein grundlegendes zweidimensionales Objekt, das in dem Arbeitsbereich Part erstellt werden kann. Dort ist die Ebene jedoch mit Begrenzungen versehen.}} {{term|Plot}} {{defn|defn=<To be added.>}} {{term|1=Pocket}} {{defn|1=A [feature](#Feature.md) that removes material from a solid based on a [Sketch](#Sketch.md).}} {{term|1=Point}} \> Punkt {{defn|1=Eine Bezeichnung für einen Ort in dem 3D Arbeitsraum. Ein “Punkt” hat keine Ausdehnung. Er hat eine Ausdehnung auf dem Bildschirm, gewöhnlich durch ein Pixel dargestellt, so dass der Punkt sichtbar ist. Siehe auch [Vertex](#Vertex.md).}} {{term|Polygon mesh}} {{defn|defn=See [http://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}} {{term|Polyline}} \> Polylinie {{defn|defn=Eine Bezeichung für eine Reihe miteinander verbundener Kanten aus Geraden und Bögen.}} {{term|POV-Ray}} {{defn|defn=[http://en.wikipedia.org/wiki/POV-Ray POV-Ray] Ein Programm zum Erzeugen von photorealistischen Bilder aus dreidimensionalen Szenen.}} {{term|PPA}} {{defn|defn=Ein Akronym für '''P'''ersonal '''P'''ackage '''A'''rchive. Es ist eine Art von Software-Repositorium exklusiv für das Ubuntu-Linux-Betriebssystem. The FreeCAD project offers the latest release as well as development versions through two PPA repositories. Aktualisierungen werden über das Paketverwaltungssystem des Betriebssystems durchgeführt.}} {{term|Primitive}} \> Grundkörper {{defn|defn=Eine grundlegende Form, die bei der Kontruktion von Modellen benutzt wird. Einige 2D-Körper sind: Punkt, Linie, Polygon, Kreis, Ellipse, Spirale, Helix. 3D-Körper: Quader, Zylinder, Kegel, Torus, Kugel, Ellipsoid, Prisma.}} {{term|term=PySide|content=[http://www.pyside.org PySide]}} {{defn|defn=Eine frei verfügbare Sofware-Bibliothek, die es Python erlaubt, QT zu nutzen.}} {{term|term=Python|content=[http://www.python.org Python]}} {{defn|defn=Eine Programmiersprache, die sowohl bei der Entwicklung von FreeCAD als auch in benutzergeschriebenen [Makros](#Macro.md) oder Skripten verwendet wird.}} {{glossend}}
-
-
-</div>
+\> Block {{defn|1=Eine Erweiterung einer [Skizze](#Sketch.md) in die Richtung der Normalen zur Skizzenebene. Dabei wird aus der zweidimensionalen Skizze ein dreidimensionales Objekt erzeugt. Siehe auch [Extrusion](#Extrude.md).}} {{term|Part|content=[Part](Part_Workbench/de.md)}} \> Bauteil {{defn|no=1|Ein FreeCAD [Arbeitsbereich](#Workbench.md). Die verfügbare Arbeitsweise ist hauptsächlich [https://de.wikipedia.org/wiki/Constructive_Solid_Geometry Konstruktive Festkörpergeometrie].}} {{defn|no=2|Ein einvolumiger Körper. Die einfachste Komponente in einer Baugruppe.}} {{defn|no=3|Ein Container, der alle Typen von FreeCAD-Objekten gruppieren kann und eine [Platzierung](#Placement.md) besitzt (eingeführt in FreeCAD V0.17.)}} {{term|PartDesignNext}} {{defn|defn=Der Spitzname aus den Foren, um den [PartDesign-Arbeitsbereich](PartDesign_Workbench/de.md), der sich in der FreeCAD Version 0.17 von der Version v0.16 und früher durch weitgehende Änderungen der Arbeitsweise geändert hat, von dem ursprünglichen PartDesign zu unterscheiden.}} {{term|PD}} {{defn|defn=Abkürzung von [PartDesign](PartDesign_Workbench/de.md), einem [Arbeitsbereich](#Workbench.md) von FreeCAD.}} {{term|PDN}} {{defn|defn=Abkürzung von [PartDesignNext](#PartDesignNext.md).}} {{term|Perspective}} \> Perspektive {{defn|defn=[http://en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective projection]}} {{term|term=Pivy|content=[http://pypi.python.org/pypi/Pivy Pivy]}} {{defn|defn=Eine Software-Bibliothek, die es Python erlaubt [term=Placement}} \> Platzierung {{defn|defn=Eine Zusammenstellung von Eigenschaften eines Objekt, das seine Koordinaten und die Orientierung im Raum definiert. Siehe [[Placement/de|Platzierung](#Coin]]_zu_benutzen.}} {{term.md).}} {{term|term=Planar}} \> eben {{defn|defn=Die Eigenschaft einer Geometrie, bei der alle Elemente in derselben Ebene liegen.}} {{term|Plane}} \> Ebene {{defn|no=1|Eine flache, zweidimensionale Fläche, die sich bis ins Unendliche erstreckt.}} {{defn|no=2|Ein grundlegendes zweidimensionales Objekt, das in dem Arbeitsbereich Part erstellt werden kann. Dort ist die Ebene jedoch mit Begrenzungen versehen.}} {{term|Plot}} {{defn|no=1|> Plot: Ein veraltetes Synonym für eine technische Zeichnung, die mit einem Stift-Plotter erstellt wurde. Siehe [https://en.wikipedia.org/wiki/Plotter Plotter] (engl.)}} {{defn|no=2|> Lageplan: Kurz für Plot-Plan. Siehe [https://en.wikipedia.org/wiki/Site_plan Site plan] (engl.)}} {{defn|no=3|> Diagramm: Graphische Darstellung von Daten. Siehe [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)] (engl.)}} {{term|1=Pocket}} {{defn|1=Ein [skizzenbasiertes](#Sketch.md) [Formelement](#Feature.md) das Material von einem Festkörper entfernt.}} {{term|1=Point}} \> Punkt {{defn|1=Eine Bezeichnung für einen Ort im 3D-Arbeitsraum. Ein “Punkt” hat keine Ausdehnung. Er hat eine Ausdehnung auf dem Bildschirm, gewöhnlich durch ein Pixel dargestellt, so dass der Punkt sichtbar ist. Siehe auch [Vertex](#Vertex.md).}} {{term|Polygon mesh}} {{defn|defn=See [http://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}} {{term|Polyline}} \> Linienzug {{defn|defn=Eine Bezeichung für eine Reihe miteinander verbundener Kanten aus Geraden und Bögen.}} {{term|POV-Ray}} {{defn|defn=[http://en.wikipedia.org/wiki/POV-Ray POV-Ray] Ein Programm zum Erzeugen von photorealistischen Bilder aus dreidimensionalen Szenen.}} {{term|PPA}} {{defn|defn=Eine Abkürzung für '''P'''ersonal '''P'''ackage '''A'''rchive. Es ist eine Art von Software-Repositorium exklusiv für das Ubuntu-Linux-Betriebssystem. Das FreeCAD-Projekt stellt sowohl die neueste freigegebene Version sowie Entwicklerversionen durch zwei PPA-Repositories zur Verfügung. Aktualisierungen werden über das Paketverwaltungssystem des Betriebssystems durchgeführt.}} {{term|Primitive}} \> Grundkörper {{defn|defn=Eine grundlegende Form, die bei der Kontruktion von Modellen benutzt wird. Einige 2D-Körper sind: Punkt, Linie, Polygon, Kreis, Ellipse, Spirale, Helix. 3D-Körper: Quader, Zylinder, Kegel, Torus, Kugel, Ellipsoid, Prisma.}} {{term|term=PySide|content=[http://www.pyside.org PySide]}} {{defn|defn=Eine frei verfügbare Sofware-Bibliothek, die es Python erlaubt, QT zu nutzen.}} {{term|term=Python|content=[http://www.python.org Python]}} {{defn|defn=Eine Programmiersprache, die sowohl bei der Entwicklung von FreeCAD als auch in benutzergeschriebenen [Makros](#Macro.md) oder Skripten verwendet wird.}} {{glossend}}
 
 ## Q
 
@@ -552,9 +535,6 @@ Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
 {{glossend}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## R
 
 
@@ -569,10 +549,7 @@ Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
 {{term|Revolve}}
 
--\> Drehen {{defn|defn=Ein Werkzeug aus dem [Part](Part_Workbench/de.md)-[workbench](#Workbench/de.md). Siehe [Drehen](Part_Revolve/de.md).}} {{term|Robot}} -\> Roboter {{defn|defn=[https://de.wikipedia.org/wiki/Industrieroboter Industrieroboter] Sowie ein Arbeitsbereich in FreeCAD zur Simulation eines Industrieroboters.}} {{term|Rotate}} -\> Rotation {{defn|defn=Die Aktion bei der ein Objekt um eine Achse gedreht wird, um seine Orientierung im Raum zu ändern.}} {{glossend}}
-
-
-</div>
+-\> Drehen {{defn|defn=Ein Werkzeug aus dem [Arbeitsbereich](#Workbench.md) [Part](Part_Workbench/de.md). Siehe [Drehen](Part_Revolve/de.md).}} {{term|Robot}} -\> Roboter {{defn|defn=[https://de.wikipedia.org/wiki/Industrieroboter Industrieroboter] Sowie ein Arbeitsbereich in FreeCAD zur Simulation eines Industrieroboters.}} {{term|Rotate}} -\> Rotation {{defn|defn=Die Aktion bei der ein Objekt um eine Achse gedreht wird, um seine Orientierung im Raum zu ändern.}} {{glossend}}
 
 
 <div class="mw-translate-fuzzy">

@@ -3,13 +3,13 @@
 
 
 
-Cette zone est la source d\'aide principale pour les nouveaux utilisateurs de FreeCAD.
+Il s\'agit de la principale rubrique d\'aide pour les nouveaux venus dans FreeCAD.
 
 FreeCAD est en développement continu, il peut donc y avoir des informations manquantes ou périmées. Si vous ne trouvez pas l\'information dont vous avez besoin, n\'hésitez pas à la demander sur le [forum FreeCAD](https://forum.freecadweb.org).
 
-Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don](donate.md) ou rendez-vous sur la page [Aider FreeCAD](Help_FreeCAD/fr.md) pour d\'autres moyens de contribuer. Si vous souhaitez modifier ce wiki, [demandez un compte wiki avec des autorisations d\'édition sur le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [Les pages Wiki](WikiPages/fr.md) pour les règles générales à suivre.
+Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don](donate.md) ou rendez-vous sur la page [Aider FreeCAD](Help_FreeCAD/fr.md) pour d\'autres moyens de contribuer. Si vous souhaitez modifier ce wiki, [demandez un compte wiki avec des autorisations d\'édition sur le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [pages Wiki](WikiPages/fr.md) pour les règles générales à suivre.
 
-Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il y a des années, rendez vous à la page [Histoire](History/fr.md).
+Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il y a quelques années, rendez vous à la page [Histoire](History/fr.md).
 
 ## Utiliser FreeCAD 
 
@@ -70,7 +70,7 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> L\'[atelier Points](Points_Workbench/fr.md) pour travailler avec des nuages de points.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> Le [atelier Raytracing](Raytracing_Workbench/fr.md) pour travailler avec le lancer de rayons (rendu).
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> L\'[atelier Raytracing](Raytracing_Workbench/fr.md) pour travailler avec le lancer de rayons (rendu).
 
 -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> L\'[atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md) est destiné à fournir des outils spécifiques pour convertir des formes/solides/mailles en fonctionnalités paramétriques compatibles avec FreeCAD. Il est toujours en cours de développement.
 
@@ -80,9 +80,9 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> L\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour créer et manipuler des données de feuilles de calcul.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> L\'[Atelier Start](Start_Workbench/fr.md) vous permet de passer rapidement à l\'un des ateliers les plus courants.
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> L\'[atelier Start](Start_Workbench/fr.md) vous permet de passer rapidement à l\'un des ateliers les plus courants.
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Le [atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md) à partir des bords.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> L\'[atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md) à partir des bords.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D. C\'est le successeur de l\'[atelier Drawing](Drawing_Workbench/fr.md).
 
@@ -108,7 +108,7 @@ Depuis FreeCAD 0.17, beaucoup d\'ateliers peuvent être installés à l'aide du 
 
 ## Références
 
-[Liste des commandes](List_of_Commands/fr.md) : Une liste complète des commandes disponibles dans FreeCAD.
+[Liste des commandes](List_of_Commands/fr.md) : liste complète des commandes disponibles dans FreeCAD.
 
 ## Aide en ligne 
 

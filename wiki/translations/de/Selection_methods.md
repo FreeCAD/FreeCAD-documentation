@@ -11,13 +11,7 @@ In der [3D Ansicht](3D_view/de.md) gibt es verschiedene Möglichkeiten, Objekte 
 
 ### Einfache Auswahl 
 
-
-<div class="mw-translate-fuzzy">
-
-Die einfache Auswahl mit der Maus (standardmäßig Linksklick) und die Vorauswahl (Hover) werden auf der Seite [Mausbedienung](Mouse_Model/de.md) beschrieben.
-
-
-</div>
+Die einfache Auswahl mit der Maus (standardmäßig Linksklick) und die Vorauswahl (Hover) werden auf der Seite [Mausnavigation](Mouse_navigation/de.md) beschrieben.
 
 ### Wiederholte Klicks 
 

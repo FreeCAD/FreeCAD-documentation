@@ -5,22 +5,10 @@
 
 ## Einleitung
 
-
-<div class="mw-translate-fuzzy">
-
-Der Arbeitsbereich [FCGear](FCGear_Workbench/de.md) ist ein [externer Arbeitsbereich](external_workbenches/de.md) zur Herstellung verschiedener Arten von Zahnrädern und Schneckenwellen in FreeCAD. Durch die parametrische Modellierung können die erforderlichen Geometrien jederzeit geändert werden. Durch Ändern einiger Parameter wird das Evolventenzahnrad beispielsweise entweder zu einem geradverzahnten, einem schrägverzahnten oder einem doppelschrägverzahnten Zahnrad.
+Der Arbeitsbereich **FCGear** ist ein [externer Arbeitsbereich](External_workbenches/de.md) zur Herstellung verschiedener Arten von Zahnrädern und Schneckenwellen in FreeCAD. Durch die parametrische Modellierung können die erforderlichen Geometrien jederzeit geändert werden. Durch Ändern einiger Parameter wird das Evolventenzahnrad beispielsweise entweder zu einem geradverzahnten, einem schrägverzahnten oder einem doppelschrägverzahnten Zahnrad.
 (Eine Doppelschrägverzahnung besitzt eine Nut zwischen den beiden Schrägverzahnungen, ohne Nut wird sie Pfeilverzahnung genannt)
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Damit die Ergebnisse von FCGear verwendet werden können, ist ein gewisses Grundwissen über die verschiedenen Arten von Verzahnungen erforderlich. Modul, Teilkreisdurchmesser oder Fußkreisdurchmesser sind gängige Begriffe und sollten daher bekannt sein.
-
-
-</div>
 
 In Verbindung mit dem 3D-Druck haben Heimanwender nun die Möglichkeit, Zahnräder und Schneckenwellen nach ihren eigenen Vorstellungen zu konstruieren, herzustellen und gegebenenfalls an die konstruktiven Gegebenheiten anzupassen.
 
@@ -59,57 +47,57 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Men�
 ### Evolventenzahnrad
 
 <img alt="" src=images/Involute-Gear_example.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Evolventenzahnrad](FCGear_InvoluteGear/de.md))*
 
 ### Innenverzahntes Evolventenzahnrad 
 
 <img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear InnenverzahntesEvolventenzahnrad](FCGear_InternalInvoluteGear/de.md))*
 
 ### Evolventenzahnstange
 
 <img alt="" src=images/Involute-Rack_example.png  style="width:" height="200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Evolventenzahnstange](FCGear_InvoluteRack/de.md))*
 
 ### Zykloidenzahnrad
 
 <img alt="" src=images/Cycloid-Gear_example_1.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Zykloidenzahnrad](FCGear_CycloidGear/de.md))*
 
 ### Zykloidenzahnstange
 
 <img alt="" src=images/FCGear_CycloidRack-01.png  style="width:" height="200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Zykloidenzahnstange](FCGear_CycloidRack/de.md))*
 
 ### Kegelrad
 
 <img alt="" src=images/Bevel-Gear_example.png  style="width:150px;"> 
-*From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
+*Von links nach rechts: Geradverzahnung, Spiralverzahnung (siehe [FCGear Kegelrad](FCGear_BevelGear/de.md))*
 
 ### Kronenrad
 
 <img alt="" src=images/Crown-Gear_example.png  style="width:150px;"> 
-*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
+*Kronenrad (siehe [FCGear Kronenrad](FCGear_CrownGear/de.md))*
 
 ### Schneckenwelle
 
 <img alt="" src=images/Worm-Gear_example.png  style="width:150px;"> 
-*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+*Schneckenwelle (siehe [FCGear Schneckenwelle](FCGear_WormGear/de.md))*
 
-### Timing gear 
+### Zahnriemenscheibe
 
 <img alt="" src=images/Timing-Gear_example.png  style="width:150px;"> 
-*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+*Zahnriemenscheibe (siehe [FCGear Zahnriemenscheibe](FCGear_TimingGear/de.md))*
 
-### Lantern gear 
+### Triebstockrad
 
 <img alt="" src=images/Lantern-Gear_example.png  style="width:150px;"> 
-*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+*Triebstockrad (siehe [FCGear Triebstockrad](FCGear_LanternGear/de.md))*
 
-### Hypocycloid gear 
+### Hypozykloidenrad
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:120px;"> 
-*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
+*Hypozykloidenrad (siehe [FCGear Hypozykloidenrad](FCGear_HypoCycloidGear/de.md))*
 
 ## Referenzen
 
@@ -119,19 +107,12 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Men�
 
 ## Verweise zum Arbeitsbereich FCGear 
 
-
-<div class="mw-translate-fuzzy">
-
--   Wiki des Arbeitsbereiches: <https://github.com/looooo/FCGear/wiki>
--   FreeCAD-Wiki: [Macro_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) und [Kegelzahnrad](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
--   FreeCAD-Forum: <http://forum.freecadweb.org/viewtopic.php?f=21&t=12968>
+-   FreeCAD-Wiki: [Macro_FCGear](Macro_FCGear/de.md)
+-   FreeCAD-Forum: [Bevel gear](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878) und [FCGear](http://forum.freecadweb.org/viewtopic.php?f=21&t=12968)
 -   Tutorien:
 -   Videos:
 -   Dateien:
 -   Fehler melden: Bitte melde Fehler unter <https://github.com/looooo/FCGear/issues>
-
-
-</div>
 
 ## Andere nützliche Verweise 
 

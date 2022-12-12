@@ -404,47 +404,47 @@ Aby ulepszyć wszystkie przedłużenia trzeba je utworzyć indywidualnie:
 
 Zmienione właściwości dotyczą wszystkich krawędzi wymienionych w powiązanym **Obiekcie bazowym** obiektu Wydłużenia.
 
-Edit **length** to adjust the length of the extension.
+Edytuj **długość** aby wyregulować długość przedłużenia.
 
 <img alt="" src=images/SheetMetal_Example-10h.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-10g.png  style="width:200px;">
 
 
 
-*Edit **gap1* and {{PropertyData|gap2** to reduce the width of the extension.<br>
-Left: Extension object with 3 edges. Right: One of the Extension objects with one single edge.}}
+*Edytuj wartość parametru **szcelina1* oraz {{PropertyData|szczelina2** aby zmniejszyć szerokość rozszerzenia.<br>
+Po lewej: Obiekt rozszerzenia z 3 krawędziami. Po prawej: Jeden z obiektów rozszerzenia z jedną pojedynczą krawędzią.}}
 
-Link a sketch to the property **Sketch** to shape an extension. The properties **length**, **gap1** and **gap2** will be ignored once a sketch is linked. (This seems not to work with still unbent blanks).
+Połącz szkic z właściwością **Szkic**, aby nadać kształt przedłużeniu. Właściwości **długość**, **szczelina1** i **szczelina2** będą ignorowane po powiązaniu szkicu. *(Wydaje się, że nie działa to w przypadku wciąż niezgiętych półfabrykatów)*.
 
 <img alt="" src=images/SheetMetal_Example-10i.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10j.png  style="width:200px;">
 
 
 
-*A selected sketch lying on the flange to be extended → Resulting extension*
+*Wybrany szkic leżący na kołnierzu, który ma być poszerzony → Uzyskane poszerzenie.*
 
-It is plain to see that it doesn\'t matter which edge was selected for the Extend object, the shape of the flange is changed wherever sketch geometry protrudes, the new shape can even contain parts that are disconnected from the original flange. Multiple outlines are no problem, but the flange is not cut into.
+Widać wyraźnie, że nie ma znaczenia, która krawędź została wybrana dla obiektu Rozszerzenie, kształt kołnierza jest zmieniany wszędzie tam, gdzie wystaje geometria szkicu, nowy kształt może nawet zawierać części, które są odłączone od oryginalnego kołnierza. Wielokrotne kontury nie stanowią problemu, ale kołnierz nie jest przycinany wgłąb.
 
-This example shows that designers are responsible for their construction and shouldn\'t rely on the results of their tools, which do not make sense in this case. The Sketch attached to a flange face is problematic as well due to the toponaming problem, but for this a solution is in sight.
+Ten przykład pokazuje, że projektanci są odpowiedzialni za swoje konstrukcje i nie powinni polegać na wynikach swoich narzędzi, które w tym przypadku nie mają sensu. Szkic przymocowany do ściany kołnierza jest problematyczny również ze względu na problem związany z topologią nazw, ale dla tego przypadku rozwiązanie znajduje się w zasięgu wzroku.
 
-But there are better use cases for this tool involving almost closed shapes such as one of the examples on the [SheetMetal Extrude](SheetMetal_Extrude.md) page:
+Istnieją jednak lepsze przypadki użycia tego narzędzia obejmujące prawie zamknięte kształty, takie jak jeden z przykładów na stronie [Arkusz Blachy: Wyciągnij](SheetMetal_Extrude/pl.md):
 
 <img alt="" src=images/SheetMetal_Example-10k.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10l.png  style="width:200px;">
 
 
 
-*An almost closed profile → The added default extension is fused with the opposite side creating a closed profile (a tube) that is not unfoldable*
+*Prawie zamknięty profil → Dodana domyślna część jest połączona z przeciwległą stroną tworząc zamknięty profil ''(rurę)'', który nie jest rozkładalny.*
 
 <img alt="" src=images/SheetMetal_Example-10l.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10m.png  style="width:200px;">
 
 
 
-*Link a rectangular sketch to the property **Sketch*: Closed profile → Profile with rectangular extension, still fused**
+*Powiązanie prostokątnego szkicu z właściwością **Szkic*: Profil zamknięty → Profil z przedłużeniem prostokątnym, jeszcze wtopiony.**
 
 <img alt="" src=images/SheetMetal_Example-10m.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-10n.png  style="width:200px;">
 
 
 
-*Switch **Use Subtraction* to {{true** to provide a (hardly visible) default gap between the Extension object and the opposite side, then increase **Offset** to widen the gap:<br>
-Fused profile → Profile with interlocking extension, this final result is unfoldable}}
+*Przełącz parametr **Użyj odejmowania* na wartość {{True/pl**, aby zapewnić (mało widoczną) domyślną przerwę między obiektem Rozszerzenia a przeciwległą stroną, a następnie zwiększ **Odsunięcie**, aby poszerzyć tę przerwę:<br>
+Profil łączony → Profil z zazębiającym się przedłużeniem, ten efekt końcowy jest rozkładalny.}}
 
 
 </div>

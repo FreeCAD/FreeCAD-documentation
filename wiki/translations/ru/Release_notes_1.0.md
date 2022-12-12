@@ -190,6 +190,11 @@ Placeholder for an eye-catching image selected by the admins from the [user show
                                                                                                                                                                 
    
 
+   
+  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Click on the image to see the animation.   The [Join curves](Sketcher_JoinCurves.md) tool has been added. It can combine multiple curves into a single B-spline. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
+                                                                                                                                                          
+   
+
 ### Изменения в верстаке Sketcher 
 
 -   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
@@ -200,6 +205,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   The toolbar button for [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md) has been removed. [Pull request #7603](https://github.com/FreeCAD/FreeCAD/pull/7603)
 -   The Sketcher toolbar has been split in two: \'Sketcher-edit-mode\' and \'Sketcher\' (i.e. \'not edit mode\'). The Sketcher toolbars that are only for edit-mode are hidden in non-edit-mode, and those only for non-edit-mode are hidden in edit-mode. The Structure toolbar is also hidden in Sketcher. [Pull request #7655](https://github.com/FreeCAD/FreeCAD/pull/7655)
 -   [Coincident constraint](Sketcher_ConstrainCoincident.md) can now act as a concentric constraint when selecting 2 or more circles, arcs, ellipses or arcs of ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
+-   [Carbon copy](Sketcher_CarbonCopy.md) if possible now uses constraint names in the expressions it creates instead of an index based reference, making it more reliable. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
 ## Верстак Spreadsheet 
 

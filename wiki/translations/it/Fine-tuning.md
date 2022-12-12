@@ -91,8 +91,7 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 ### Escape Key 
 
--   **General/TasksKeyEsc** (boolean): Create and set to `False` to disable the **ESC** key exiting the [Task panel](Task_panel.md) in all workbenches (that is if the task panel has focus). **Note:** Superceded by [Sketcher Preferences](Sketcher_Preferences#General.md).
--   **Mod/Sketcher/ViewKeyEsc** (boolean): Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
+-   **General/TasksKeyEsc** (boolean): Create and set to `False` to disable the **ESC** key exiting the [Task panel](Task_panel.md) in all workbenches (that is if the task panel has focus).
 
 ## Specific Workbenches 
 

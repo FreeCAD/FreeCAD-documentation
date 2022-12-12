@@ -5,8 +5,6 @@
 
 Le **cube de navigation** donne des informations visuelles sur l\'orientation de la caméra dans la [vue 3D](3D_view/fr.md) en cours et peut être utilisé pour la modifier. Par défaut, il est visible et se trouve dans le coin supérieur droit de la vue.
 
-Le cube de navigation a été mis à jour dans la version 0.20 de FreeCAD et le reste de cette page décrit cette version. Dans la version 0.19 de FreeCAD, le comportement principal est identique mais certaines fonctionnalités sont manquantes.
-
 ![](images/Navigation_Cube_Example.png )
 
 Le cube de navigation se compose de plusieurs parties :
@@ -57,7 +55,7 @@ Le cube de navigation est contrôlé par plusieurs préférences : **Édition �
 
 ### Options avancées 
 
-L\'atelier externe [Cube Menu](Interface_Customization/fr#Menu_Cube.md) permet d\'accéder plus facilement à plusieurs options de personnalisation plus avancées.
+L\'atelier externe [Menu Cube](Interface_Customization/fr#Menu_Cube.md) permet d\'accéder plus facilement à plusieurs options de personnalisation plus avancées.
 
 
 

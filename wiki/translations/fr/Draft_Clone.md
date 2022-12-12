@@ -14,14 +14,14 @@
 
 La commande <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** crée des copies liées, des clones, des objets sélectionnés. La forme d\'un clone est paramétrique. Il sera mis à jour si son objet source change. Mais un clone a sa propre position, rotation et échelle, ainsi que ses propres [propriétés de vue](Property_editor/fr.md). Pour les objets [Arch](Arch_Workbench/fr.md), la commande crée un type spécial de clone : un clone Arch.
 
-Cette commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draft](Draft_Workbench/fr.md) ou l\'[Atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec [Atelier Part](Part_Workbench/fr.md), [Atelier PartDesign](PartDesign_Workbench/fr.md) ou [Atelier Arch](Arch_Workbench/fr.md). Les clones d\'objets 2D peuvent être utilisés dans des [PartDesign Corps](PartDesign_Body/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md). Les clones d\'objets 2D peuvent être utilisés dans des [PartDesign Corps](PartDesign_Body/fr.md).
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
-*Clone Draft à côté de son objet source*
+*Un Draft Clone à côté de son objet source*
 
 ## Utilisation
 
-1.  En option, sélectionnez un ou plusieurs objets.
+1.  Vous pouvez sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Clone.svg" width=16px> [Clone](Draft_Clone/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Clone.svg" width=16px> Clone** dans le menu.

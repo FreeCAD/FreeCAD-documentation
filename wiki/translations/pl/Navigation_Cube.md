@@ -5,8 +5,6 @@
 
 **Kostka nawigacyjna** daje wizualną informację o orientacji ujęcia widoku kamery w bieżącym [widoku 3D](3D_view/pl.md) i może być użyta do jej zmiany. Domyślnie jest ona widoczna i znajduje się w prawym górnym rogu okna.
 
-Kostka nawigacyjna została zaktualizowana w wersji 0.20 programu FreeCAD i reszta tej strony opisuje tę wersję. W wersji 0.19 programu FreeCAD główne zachowanie jest takie samo, ale niektóre funkcje nie są dostępne.
-
 ![](images/Navigation_Cube_Example.png )
 
 Kostka nawigacyjna składa się z kilku części:

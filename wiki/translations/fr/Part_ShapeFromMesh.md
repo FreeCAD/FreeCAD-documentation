@@ -24,7 +24,7 @@ L\'opération inverse est **[<img src=images/Mesh_FromPartShape.svg style="width
 
 L\'analyse et la réparation du maillage, si nécessaire, doivent être effectuées manuellement avant de lancer **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Créer la forme à partir d'un maillage... ](Part_ShapeFromMesh/fr.md)**. Les outils appropriés pour cette tâche sont disponibles dans l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
 
-Après la création d\'une [Shape](Shape/fr.md), il peut être utile d\'utiliser **[Convertir en solide](Part_MakeSolid/fr.md)** (nécessaire pour les [Opérations booléennes](Part_Boolean/fr.md)) et **[<img src=images/Part_RefineShape.svg style="width:16px"> [Affiner la forme](Part_RefineShape/fr.md)**.
+Après la création d\'une [Shape](Shape/fr.md), il peut être utile d\'utiliser **[<img src=images/Part_MakeSolid.svg style="width:16px">|[Convertir en solide](Part_MakeSolid/fr.md)** (nécessaire pour les [Opérations booléennes](Part_Boolean/fr.md)) et **[<img src=images/Part_RefineShape.svg style="width:16px"> [Affiner la forme](Part_RefineShape/fr.md)**.
 
 ## Liens
 

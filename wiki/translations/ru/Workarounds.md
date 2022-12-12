@@ -184,7 +184,7 @@
 ++++
 | №           | Недостающая возможность                                                                                        | Предлагаемое решение                                                                                                                                                                                                                                                          |
 +=============+================================================================================================================+===============================================================================================================================================================================================================================================================================+
-| 1           | Advanced section views (half, broken out, offset and aligned sections)                                         | -   Use the [Slice apart](Part_SliceApart.md) tool to physically cut the model and then create its view                                                                                                                                                               |
+| 1           | Broken out and rotated/removed section views                                                                   | -   Use the [Slice apart](Part_SliceApart.md) tool to physically cut the model and then create its view                                                                                                                                                               |
 ++++
 | 2           | Auto diameter dimension on side views                                                                          | -   Manually add the diameter symbol                                                                                                                                                                                                                                          |
 ++++
@@ -225,6 +225,10 @@
     4.  Use the [Draft Draft2Sketch](Draft_Draft2Sketch.md) tool to create a sketch out of the Draft objects
     5.  Use the [Sketcher ValidateSketch](Sketcher_ValidateSketch.md) tool to make sure that the sketch has no missing coincidences, doubled lines and so on (those issues may impact the face selection in TechDraw)
     6.  Use the [TechDraw View](TechDraw_View.md) tool to create a view of the sketch in TechDraw.
+
+\|- \| 11 \| Auxiliary views \|
+
+-   Create a [standard view](TechDraw_View.md) from the correct direction. Workarounds for \"View normal to a face\" may help. Rotate and position the view as needed.
 
 \|}
 

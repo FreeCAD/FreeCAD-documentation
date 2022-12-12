@@ -100,7 +100,7 @@ Les fonctions mathématiques suivantes sont prises en charge :
   abs(x)      [Valeur absolue](https://fr.wikipedia.org/wiki/Valeur_absolue)                                                                                                                              tout
   ceil(x)     [Partie entière par excès](https://fr.wikipedia.org/wiki/Partie_enti%C3%A8re_et_partie_fractionnaire#Fonction_partie_enti%C3%A8re), la plus petite valeur entière supérieure ou égale à x   tout
   floor(x)    [Partie entière](https://fr.wikipedia.org/wiki/Partie_enti%C3%A8re_et_partie_fractionnaire#Fonction_partie_enti%C3%A8re), la plus grande valeur entière inférieure ou égale à x             tout
-  mod(x; y)   [Reste](https://fr.wikipedia.org/wiki/Reste) après la division de *x* par *y*                                                                                                               tout sauf y = 0
+  mod(x; y)   [Reste](https://fr.wikipedia.org/wiki/Reste) après la division de *x* par *y*, le signe du résultat est celui du dividende.                                                                 tout sauf y = 0
   round(x)    [Arrondi](https://fr.wikipedia.org/wiki/Arrondi_(math%C3%A9matiques)) au nombre entier le plus proche                                                                                       tout
   trunc(x)    [Troncature](https://fr.wikipedia.org/wiki/Troncature) au nombre entier le plus proche en direction de zéro                                                                                 tout
 

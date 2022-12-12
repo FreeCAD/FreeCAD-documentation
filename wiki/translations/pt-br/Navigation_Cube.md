@@ -11,8 +11,6 @@ O controle do cubo de navegação, ou *\'cubo de navegação*, é uma ajuda grá
 
 </div>
 
-The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this page describes that version. In FreeCAD version 0.19 the main behavior is the same but some features are missing.
-
 ![](images/Navigation_Cube_Example.png )
 
 

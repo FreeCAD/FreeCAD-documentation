@@ -124,15 +124,15 @@ If you wish to keep using the old locations you may start FreeCAD with the `--ke
 
 -   *ControlPy::showModelView*: Shows the model view. [commit 033bf619](https://github.com/FreeCAD/FreeCAD/commit/033bf619)
 
--   *DocumentPy::clearDocument*: Clears the whole document. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::getFileName*: For a regular document it returns its file name property. For a temporary document it returns its transient directory. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::getProgramVersion*: Gets the program version that a project file was created with. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::isClosable*: Checks if the document can be closed. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::isSaved*: Checks if the document is saved. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::isTouched*: Checks if any object is in touched state. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::mustExecute*: Checks if any object must be recomputed. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::purgeTouched*: Purges the touched state of all objects. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
--   *DocumentPy::setClosable*: Sets a flag that allows or forbids to close a document. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::clearDocument*: очищает весь документ. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::GetFileName*: для обычного документа он возвращает его свойство file name. Для временного документа он возвращает его временный каталог. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::getProgramVersion*: возвращает версию программы, с которой был создан файл проекта. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::isClosable*: проверяет, можно ли закрыть документ. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::isSaved*: проверяет, сохранен ли документ. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::isTouched*: проверяет, находится ли какой-либо объект в состоянии касания. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::mustExecute*: проверяет, должен ли какой-либо объект быть повторно вычислен. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::purgeTouched*: удаляет состояние касания всех объектов. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::setClosable*: устанавливает флаг, который позволяет или запрещает закрывать документ. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
 
 -   *DrawPagePy::requestPaint*: Paints a TechDraw page. [commit 79f9fb68](https://github.com/FreeCAD/FreeCAD/commit/79f9fb68)
 

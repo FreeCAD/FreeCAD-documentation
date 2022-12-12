@@ -1,26 +1,26 @@
 ---
 - GuiCommand:/de
    Name:Std ViewFitAll
-   Name/de:Std AnsichtEinpassenAlles
-   MenuLocation:Ansicht → Standardansichten‏‎ → EinpassenAlles
+   Name/de:Std AnsichtAllesEinpassen
+   MenuLocation:Ansicht → Standardansichten‏‎ → Einpassen
    Workbenches:Alle
    Shortcut:**V** **F**
-   SeeAlso:[Std AnsichtEinpassenAuswahl](Std_ViewFitSelection/de.md)
+   SeeAlso:[Std AnsichtAuswahlEinpassen](Std_ViewFitSelection/de.md)
 ---
 
 # Std ViewFitAll/de
 
 ## Beschreibung
 
-Der **Std AnsichtEinpassenAlles**-Befehl zoomt und schwenkt, bis alle sichtbaren Objekte in die aktive [3D Ansicht](3D_view/de.md) passen.
+Der Befehl **Std AnsichtAllesEinpassen** zoomt und schwenkt die Kamera, bis alle sichtbaren Objekte in die aktive [3D-Ansicht](3D_view/de.md) passen.
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, den ViewFitAll Befehl aufzurufen:
-    -   Drücke die **<img src="images/Std_ViewFitAll.svg" width=16px> [Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)**-Schaltfläche.
-    -   Wähle die **Ansicht → Standardansicht → <img src="images/Std_ViewFitAll.svg" width=16px> Alles einpassen**-Option aus dem Menü.
-    -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewFitAll.svg" width=16px>Alles einpassen**-Option aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
-    -   Benutze den Tastaturkurzbefehl **V**, dann **F**.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_ViewFitAll.svg" width=16px> [Std AnsichtAllesEinpassen](Std_ViewFitAll/de.md)** drücken.
+    -   Den Menüeintrag **Ansicht → Standardansicht → <img src="images/Std_ViewFitAll.svg" width=16px> Einpassen** auswählen.
+    -   Die Menüoption **Ansicht → Standardansichten → <img src="images/Std_ViewFitAll.svg" width=16px> Einpassen** im Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Das Tastaturkürzel **V** dann **F**.
 
 ## Hinweise
 

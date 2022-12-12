@@ -72,22 +72,22 @@ Une fois que FreeCAD est installé, vous voudrez peut-être l\'ouvrir et défini
 À mesure que le projet FreeCAD et sa communauté augmentent rapidement, et aussi parce qu\'il est facile de l\'améliorer, les contributions externes et les projets parallèles réalisés par les membres de la communauté et les autres amateurs commencent à apparaître partout sur Internet. La plupart des projets externes sont des ateliers ou des macros et peuvent facilement s\'intaller depuis FreeCAD via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) situé sous le menu **Outils**. Le gestionnaire des extensions vous permettra d\'installer de nombreuses options telles que :
 
 1.  Une [bibliothèque de pièces](https://github.com/FreeCAD/FreeCAD-library) qui contient toutes sortes de modèles utiles ou des modèles créés par des utilisateurs FreeCAD et qui peuvent être utilisés librement dans vos projets. La bibliothèque peut être utilisée et accessible directement depuis votre installation FreeCAD.
-2.  Une [collection de greffons](https://github.com/FreeCAD/FreeCAD-addons) (addons) qui étend les fonctionnalités de la plupart des ateliers supplémentaires de FreeCAD pour certaines tâches. Les instructions d\'installation sont fournies pour chaque atelier lorsque vous venez à cliquer sur le lien du greffon correspondant.
-3.  Une [collection de macros](https://github.com/FreeCAD/FreeCAD-macros) également disponible sur le [wiki FreeCAD ](Macros_recipes/fr.md) ainsi que des informations sur la façon de les utiliser.
+2.  Une [collection d\'extensions](https://github.com/FreeCAD/FreeCAD-addons) qui étend les fonctionnalités de la plupart des ateliers supplémentaires de FreeCAD pour certaines tâches. Les instructions d\'installation sont fournies pour chaque atelier lorsque vous venez à cliquer sur le lien de la extension correspondante.
+3.  Une [collection de macros](https://github.com/FreeCAD/FreeCAD-macros) également disponible sur le [wiki FreeCAD](Macros_recipes/fr.md) ainsi que des informations sur la façon de les utiliser.
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
-Si vous utilisez Ubuntu, certains des greffons cités au-dessus sont disponibles dans les packages [FreeCAD addons PPA](https://launchpad.net/freecad-extras).
+Si vous utilisez Ubuntu, certaines des extensions citées au-dessus sont disponibles dans les packages [PPA des extensions de FreeCAD](https://launchpad.net/freecad-extras).
 
 **Lire plus d\'informations**
 
 -   [Plus d\'options de téléchargement](Download/fr.md)
 -   [Dépôt FreeCAD pour Ubuntu](https://launchpad.net/~freecad-maintainers)
--   [Dépôt de greffons FreeCAD pour Ubuntu](https://launchpad.net/freecad-extras)
+-   [Dépôt des extensions de FreeCAD pour Ubuntu](https://launchpad.net/freecad-extras)
 -   [Compilez FreeCAD vous-même](Compiling/fr.md)
 -   [Traductions FreeCAD](https://crowdin.com/project/freecad)
 -   [Page du github FreeCAD](https://github.com/FreeCAD)
--   [Gestionnaire d\'Addons de Freecad](Std_AddonMgr/fr.md)
+-   [Gestionnaire des extensions de Freecad](Std_AddonMgr/fr.md)
 
 
 
