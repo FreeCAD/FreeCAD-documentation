@@ -39,7 +39,7 @@ When using the [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GU
 
 *<https://github.com/FreeCAD/FreeCAD.git>*
 
-and click **OK**.
+i kliknij **OK**.
 
 The latest source code will be downloaded from the FreeCAD Git repository and the folder will be tracked by Git.
 

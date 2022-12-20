@@ -14,14 +14,14 @@
 
 Das Werkzeug <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24px;"> **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil basiert.
 
-<img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:250px;"> 
-*A quarter section view created with the Complex Section tool*
+<img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:350px;"> 
+*A Quarter section view created with the Complex Section tool*
 
-<img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:250px;"> 
-*An aligned section view created with the Complex Section tool*
+<img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:350px;"> 
+*An Aligned section view created with the Complex Section tool*
 
-<img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:250px;"> 
-*An offset section view created with the Complex Section tool*
+<img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:350px;"> 
+*An Offset section view created with the Complex Section tool*
 
 ## Anwendung
 

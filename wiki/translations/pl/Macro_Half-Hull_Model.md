@@ -19,7 +19,7 @@ This macro makes simple models of the hulls of boats and ships. It is intended t
 
 ![](images/Macro_Half-Hull_ModelScreenBoatInABottle.jpg )
 
-## Background
+## Kontekst
 
 Since antiquity boat builders have had to design boats and then realise them in a three dimensional environment where very few lines are straight, very few surfaces flat and no angles constant over a distance. Hull models were used to make to-scale models which could then be used to review the design or communicate concepts to other persons. The laws of hydrodynamics demand that any vessel passing through a liquid be symmetrical in the cross-section if it is to track (move in a straight line) accurately. Consequently building one side of the hull in the model was all that was necessary - if the half-hull was perfect then its mirror image would also be perfect. In latter years half-hulls became used for symbolic purposes such as plaques, and nautical art.
 

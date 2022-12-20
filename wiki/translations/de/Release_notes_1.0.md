@@ -98,7 +98,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Addon-Manager 
 
-### Arbeitsbereich Arch 
+## Arbeitsbereich Arch 
 
 ### Weitere Arch-Verbesserungen 
 
@@ -190,8 +190,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
    
 
    
-  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Click on the image to see the animation.   The [Join curves](Sketcher_JoinCurves.md) tool has been added. It can combine multiple curves into a single B-spline. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
-                                                                                                                                                          
+  <img alt="" src=images/Sketcher_Join_Curves_relnotes_1.0.gif  style="width:384px;">Bild anklicken, um die Animation anzusehen.   Das Werkzeug [Kurven verbinden](Sketcher_JoinCurves/de.md) wurde hinzugefügt. Es kann verschiedene Kurven zu einem einzigen B-Spline zusammensetzen. [Pull request #6507](https://github.com/FreeCAD/FreeCAD/pull/6507)
+                                                                                                                                                             
    
 
 ### Weitere Sketcher-Verbesserungen 

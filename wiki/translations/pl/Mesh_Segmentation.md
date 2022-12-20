@@ -1,50 +1,51 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh Segmentation
-   MenuLocation:Meshes → Create mesh segments...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)
+   Name/pl:Siatki Utwórz segmenty siatki
+   MenuLocation:Siatki → Utwórz segmenty siatki ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Utwórz segmenty z najlepiej dopasowanych powierzchni](Mesh_SegmentationBestFit/pl.md)
 ---
 
 # Mesh Segmentation/pl
 
-## Description
+## Opis
 
-The **Mesh Segmentation** command creates separate mesh segments for specified surface types of a mesh object.
+Polecenie **Utwórz segmenty siatki** tworzy oddzielne segmenty siatki dla określonych typów powierzchni obiektu siatkowego.
 
-## Usage
+## Użycie
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Segmentation.svg" width=16px> [Mesh Segmentation](Mesh_Segmentation.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_Segmentation.svg" width=16px> Create mesh segments...** option from the menu.
-3.  The **Mesh segmentation** task panel opens.
-4.  Optionally check the **Smooth mesh** option and specify a value for the smoothness of the mesh. The higher the value the smoother the mesh is assumed to be. Specifying {{Value|0}} has the same effect as unchecking this option. Do not select this option if you want to create planar segments.
-5.  Select the surface type you wish to create mesh segments for. You can select more than one type, but this can lead to poorer results. The available surface types are:
+1.  Zaznacz pojedynczy obiekt siatki.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Mesh_Segmentation.svg" width=16px> [Utwórz segmenty siatki](Mesh_Segmentation/pl.md)**.
+    -   Wybierz z menu polecenie **Siatki → <img src="images/Mesh_Segmentation.svg" width=16px> Utwórz segmenty siatki ...**.
+3.  Otworzy się panel zadań **Segmentacja siatki**.
+4.  Opcjonalnie zaznacz **Wygładź siatkę** i określ wartość gładkości siatki. Im wyższa wartość, tym gładsza będzie siatka. Podanie wartości {{Value|0}} ma taki sam efekt jak odznaczenie tej opcji. Nie zaznaczaj tej opcji, jeśli chcesz tworzyć segmenty planarne.
+5.  Wybierz typ powierzchni, dla której chcesz utworzyć segmenty siatki. Możesz wybrać więcej niż jeden typ, ale może to prowadzić do gorszych rezultatów. Dostępne typy powierzchni to:
     -   
-        **Plane**
+        **Płaszczyzna**
         
 
     -   
-        **Cylinder**
+        **Walec**
         
 
     -   
-        **Sphere**
+        **Sfera**
         
 
     -   
-        **Freeform**
+        **Układ dowolny**
         
-6.  Specify the required settings. Make sure the **Tolerance** values are not too low, and the **Minimum number of faces** values not too high.
-7.  Press the **OK** button.
-8.  The command will create a [group](Std_Group.md) containing separate mesh objects, each a segment of the original mesh object.
-9.  If the created group is empty try using the command again with modified settings.
+6.  Określ wymagane ustawienia. Upewnij się, że wartości **Tolerancji** nie są zbyt niskie, a wartości **Minimalna liczba płaszczyzn** nie są zbyt wysokie.
+7.  Naciśnij przycisk **OK**.
+8.  Polecenie utworzy [grupę](Std_Group/pl.md) zawierającą oddzielne obiekty siatkowe, każdy będący segmentem oryginalnego obiektu siatkowego.
+9.  Jeśli utworzona grupa jest pusta spróbuj użyć polecenia ponownie ze zmienionymi ustawieniami.
 
-## Notes
+## Uwagi
 
--   The current version of the command has trouble identifying faces at the edges of surface types.
--   In some cases the [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md) command will produce better results.
+-   Obecna wersja polecenia ma problemy z rozpoznawaniem ścian na krawędziach typów powierzchni.
+-   W niektórych przypadkach polecenie [Utwórz segmenty z najlepiej dopasowanych powierzchni](Mesh_SegmentationBestFit/pl.md) da lepsze rezultaty.
 
 
 

@@ -18,27 +18,19 @@ Wenn deine Quellcode Änderungen signifikant sind, empfehlen wir dir, sie im Pul
 <img alt="" src=images/FreeCAD_git_workflow.svg  style="width:600px;"> 
 *Typischer Arbeitsablauf zur Entwicklung von Code für FreeCAD; jeder kann den Code aus dem Haupt Repositorium beziehen, aber die Hauptentwickler haben das exklusive Recht, Eingaben anderer Entwickler zu überprüfen und zusammenzuführen.*
 
+### Offizieller GitHub-Ablageordner (Repository) 
 
-<div class="mw-translate-fuzzy">
+Der FreeCAD-Quellcode wird in Github bereitgestellt, {{URL|https://github.com/FreeCAD/FreeCAD}}
 
-### Offizielles GitHub Repositorium 
-
-Der FreeCAD Quellcode wird in Github bereitgestellt, {{URL|https://github.com/FreeCAD/FreeCAD}}
-
-
-</div>
-
-The FreeCAD source code is hosted on Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
-
-Um Code beitragen zu können, benötigst Du ein [GitHub Konto](https://github.com/join).
+Um Code beitragen zu können, wird ein [GitHub-Konto](https://github.com/join) benötigt.
 
 In der Vergangenheit wurde der Quellcode in einem SVN Repositorium bereitgestellt, {{URL|https://free-cad.svn.sourceforge.net/svnroot/free-cad}}. Dieser wurde am 10. Oktober 2011 mit [commit 120ca87015](https://github.com/FreeCAD/FreeCAD/commit/120ca87015) nach GitHub verschoben.
 
-:   Daher gibt es viele Änderungen, die vor dieser Zeit vorgenommen wurden, die nicht in der modernen Git Commit Geschichte aufgezeichnet sind. Lies mehr dazu auf der Seite [Geschichte](History/de.md).
+:   Daher gibt es viele Änderungen, die vor dieser Zeit vorgenommen wurden, die nicht in der modernen Git-Commit-Geschichte aufgezeichnet sind. Lies mehr dazu auf der Seite [Geschichte](History/de.md).
 
-### Setzen des Git Benutzernamens 
+### Setzen des Git-Benutzernamens 
 
-Entwickler sollten Code in ihr persönliches Projektarchiv mit ihrem GitHub Benutzernamen eintragen. Wenn dieser nicht bereits global gesetzt ist, kannst du ihn lokal für das aktuelle Git Projektarchiv wie folgt setzen:
+Entwickler sollten Code in ihr persönliches Projektarchiv mit ihrem GitHub-Benutzernamen eintragen. Wenn dieser nicht bereits global gesetzt ist, kann er lokal für das aktuelle Git-Projektarchiv wie folgt gesetzt werden:
 
 
 {{Code|lang=text|code=
@@ -48,37 +40,27 @@ git config user.email GITHUB_USERNAME@users.noreply.github.com
 
 Wobei `"YOUR_NAME"` deinen vollständigen Namen oder Spitznamen darstellt, der zur Identifizierung des Autors eines bestimmten Einsatzes verwendet wird, und `GITHUB_USERNAME` den Namen deines Accounts auf GitHub angibt.
 
-### Remote repositories 
+### Ferne Projektarchive (Remote repositories) 
 
+Bitte lies [Was ist der Unterschied zwischen Ursprung und Upstream auf GitHub?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github#9257901) (Stackoverflow) um den Unterschied zwischen `origin` und `upstream` im Kontext von Git zu verstehen. Dieser Abschnitt erklärt, wie man die richtigen Ablageorte/Projektarchive für die Entwicklung festlegt. Im Wesentlichen:
 
-<div class="mw-translate-fuzzy">
+-    `origin`ist deine persönliche Abzweigung des offiziellen FreeCAD-Projektarchivs, also {{URL|https://github.com/GITHUB_USERNAME/FreeCAD}}
 
-### Fernrepositorien
+-    `upstream`ist der offizielle FreeCAD-Ablageort, d.h. {{URL|https://github.com/FreeCAD/FreeCAD}}
 
-Bitte lies [Was ist der Unterschied zwischen Ursprung und Upstream auf GitHub?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github#9257901) (Stackoverflow) um den Unterschied zwischen `origin` und `upstream` im Kontext von Git zu verstehen. Dieser Abschnitt erklärt, wie man die richtigen Repositorien für die Entwicklung festlegt. Im Wesentlichen:
+Diese Unterscheidung ist wichtig, da du zuerst Code in deine eigene Kopie des Projektarchivs schreiben solltest, bevor du diese Änderungen in das offizielle Projektarchiv schreibst.
 
--    `origin`ist deine persönliche Abspaltung des offiziellen FreeCAD Repositoriums, also {{URL|https://github.com/GITHUB_USERNAME/FreeCAD}}
+Basierend auf dem oben genannten, gibt es zwei Möglichkeiten, deine Git-Entwicklungsumgebung einzurichten:
 
--    `upstream`ist das offizielle FreeCAD Repositorium, d.h. {{URL|https://github.com/FreeCAD/FreeCAD}}
-
-
-</div>
-
-Diese Unterscheidung ist wichtig, da du zuerst Code in deine eigene Kopie des Repositoriums schreiben solltest, bevor du diese Änderungen in das offizielle Repositorium schreibst.
-
-Basierend auf dem oben genannten, gibt es zwei Möglichkeiten, deine Git Entwicklungsumgebung einzurichten:
-
--   1\. Methode: Verzweigung auf GitHub und klone deine Verzweigung lokal
--   2\. Methode: Klone FreeCAD direkt auf deinen lokalen Rechner und passe die entfernten Server an
+-   1\. Methode: Auf GitHub verzweigen und den eigenen Zweig lokal klonen.
+-   2\. Methode: FreeCAD direkt auf den eigenen lokalen Rechner klonen und die fernen Server anpassen.
 
 Wir empfehlen die 1. Methode, weil sie einen Schritt schneller ist.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-#### 1. Methode: Verzweigung auf GitHub und klone deine Abspaltung lokal 
-
-=
+#### 1. Methode: Auf GitHub verzweigen und den eigenen Zweig lokal klonen 
 
 
 <div class="mw-collapsible-content">
@@ -124,7 +106,7 @@ upstream    https://github.com/FreeCAD/FreeCAD.git (push)
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-#### 2. Methode: Klone FreeCAD direkt auf deinen lokalen Rechner 
+#### 2. Methode: FreeCAD direkt auf den eigenen lokalen Rechner klonen 
 
 
 <div class="mw-collapsible-content">
@@ -191,18 +173,10 @@ git remote show origin
 git remote show upstream
 }}
 
-## Git development process 
+## Git-Entwicklungsprozess 
 
 
-<div class="mw-translate-fuzzy">
-
-## Git Entwicklungsprozess 
-
-
-**Niemals auf deinem lokalen ''Master' Zweig entwickeln. Erstelle stattdessen einen lokalen Zweig für die Entwicklung, und führe diesen lokalen Zweig dann über eine Pull Anforderung mit dem vorgeschalteten Master Zweig zusammen. Lies bitte [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Verzweigung], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Grundlegende Verzweigung und Zusammenführung] und [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - An einem Projekt mitwirken], um mehr zu erfahren.**
-
-
-</div>
+**Niemals auf dem eigenen lokalen ''Master''-Zweig entwickeln. Erstelle stattdessen einen lokalen Zweig für die Entwicklung, und führe diesen lokalen Zweig dann über eine Pull-Anforderung mit dem vorgeschalteten Master-Zweig zusammen. Lies bitte [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git-Verzweigung], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Grundlegende Verzweigung und Zusammenführung] und [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - An einem Projekt mitwirken], um mehr zu erfahren.**
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> 
 *Generischer Arbeitsablauf zur Entwicklung von Code für FreeCAD unter Verwendung von `git*; das Haupt Repositorium wird online gespalten und auf einen Offline Rechner geklont (0); neue Zweige (1) werden verwendet, um lokale Änderungen und Ergänzungen des Codes zu übergeben (2); die Zweige werden auf den neuesten Online Code zurückgeführt (3), und dann zum entfernten Repositorium geschoben (4); dann wird eine Pull Anfrage erstellt, um den Code in das Haupt Repositorium einzufügen (5). Dann wird der persönliche Klon mit dem neuen Mastercode aktualisiert (a); dieser aktualisierte Mastercode wird ebenfalls an das Fernrepositorium (b) geschickt, um denselben Code sowohl online als auch offline zu haben.`
@@ -252,16 +226,16 @@ git diff
 git commit -a
 }}
 
-Unlike SVN, you need to specifically tell which files to commit; use the `-a` option to save changes in all files that were altered. Your text editor, for example, `nano` or `vim`, will open to allow you to write a commit message.
+Anders als bei SVN muss man ausdrücklich angeben, welche Dateien übergeben werden; mit der Option `-a` werden alle geänderten Dateien gespeichert. Der voreingestellte Texteditor, z.B. `nano` oder `vim`, wird zum Verfassen einer Überabemitteilung geöffnet.
 
-Alternatively add the message in the commit itself:
+Alternativ fügt man die Mitteilung der Übergabeanweisung hinzu:
 
 
 {{Code|lang=text|code=
 git commit -a -m "Fix the bug in the clone function."
 }}
 
-If you create new files or directories, you must use the `add` operation first to add them to the local repository before committing the changes.
+Werden neue Dateien oder Verzeichnisse erstellt, muss zuerst die Aktion `add` ausgeführt werden, die sie zum lokalen Projektarchiv hinzufügt, bevor die Änderungen übergeben werden.
 
 
 {{Code|lang=text|code=
@@ -269,9 +243,9 @@ git add path
 git commit -a
 }}
 
-Where `path` can be any directory or file.
+Wobei `path` eine beliebige Datei oder ein beliebiges Verzeichnis sein kann.
 
-### Writing good commit messages 
+### Gute Übergabemitteilungen schreiben 
 
 You should try to work in small steps, that is, commit often, after a small addition in your code. If you cannot summarize your changes in one sentence, then it has probably been too long since you made a commit.
 

@@ -21,8 +21,8 @@ This category contains python code examples for FreeCAD
 | [Raytracing API example/ru](wiki/Raytracing API example/ru.md) | [Scripted objects migration/ru](wiki/Scripted objects migration/ru.md) | [Scripted objects saving attributes/ru](wiki/Scripted objects saving attributes/ru.md) |
 | [Scripted objects with attachment/ru](wiki/Scripted objects with attachment/ru.md) | [Scripted objects/ru](wiki/Scripted objects/ru.md) | [Scripted Parts: Ball Bearing - Part 1/ru](wiki/Scripted Parts_ Ball Bearing - Part 1/ru.md) |
 | [Scripted Parts: Ball Bearing - Part 2/ru](wiki/Scripted Parts_ Ball Bearing - Part 2/ru.md) | [Scripting and macros/ru](wiki/Scripting and macros/ru.md) | [Scripts/ru](wiki/Scripts/ru.md) |
-| [Svg Namespace/ru](wiki/Svg Namespace/ru.md) | [Topological data scripting/ru](wiki/Topological data scripting/ru.md) | [Workbench creation/ru](wiki/Workbench creation/ru.md) |
-|
+| [Svg Namespace/ru](wiki/Svg Namespace/ru.md) | [Topological data scripting/ru](wiki/Topological data scripting/ru.md) | [Viewprovider/ru](wiki/Viewprovider/ru.md) |
+| [Workbench creation/ru](wiki/Workbench creation/ru.md) |
 
 
 

@@ -13,11 +13,11 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft Joindre** permet de joindre [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) en une seule ligne. Cette commande est la contrepartie de la commande [Draft Scinder](Draft_Split/fr.md).
+La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft Joindre** permet de joindre des [Draft Lignes](Draft_Line/fr.md) et des [Draft Polylignes](Draft_Wire/fr.md) en une seule ligne. Cette commande est la contrepartie de la commande [Draft Scinder](Draft_Split/fr.md).
 
 ## Utilisation
 
-1.  Les points d\'extrémité des [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md) à joindre doivent coïncider exactement. Si nécessaire, ajustez d\'abord les points pour vous assurer que c\'est le cas.
+1.  Les points d\'extrémité des [Draft Lignes](Draft_Line/fr.md) et/ou des [Draft Polylignes](Draft_Wire/fr.md) à joindre doivent coïncider exactement. Si nécessaire, ajustez d\'abord les points pour vous assurer que c\'est le cas.
 2.  Sélectionnez deux ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md).
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Join.svg" width=16px> [Joindre](Draft_Join/fr.md)**.
@@ -27,7 +27,7 @@ La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft 
 ## Remarques
 
 -   Les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) peuvent aussi être jointes avec la commande [Draft Polyligne](Draft_Wire/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
--   Pour réunir des objets qui ne sont pas [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Agréger](Draft_Upgrade/fr.md) et/ou [Draft Désagréger](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
+-   Pour réunir des objets qui ne sont pas des [Draft Lignes](Draft_Line/fr.md) ou des [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Agréger](Draft_Upgrade/fr.md) et/ou [Draft Désagréger](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
 
 ## Script
 
@@ -40,7 +40,7 @@ Pour réunir des lignes, utilisez la méthode `join_wires` ({{Version/fr|0.19}})
 join_wires(wires)
 ```
 
--    `fils`est une liste d\'objets lignes à joindre.
+-    `wires`est une liste d\'objets polylignes à joindre.
 
 Exemple :
 

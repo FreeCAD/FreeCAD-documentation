@@ -171,8 +171,8 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ## Atelier Sketcher 
 
    
-  <img alt="" src=images/Constrain_B-spline_knots_relnotes_1.0.gif  style="width:384px;">Déplacement des nœuds de B-spline.\</brCliquez sur l\'image pour voir l\'animation.   Les nœuds de B-spline peuvent maintenant être déplacés et contraints comme tout autre point de l\'esquisse. [Pull request #7484](https://github.com/FreeCAD/FreeCAD/pull/7484)
-                                                                                                                                                                                                             
+  <img alt="" src=images/Constrain_B-spline_knots_relnotes_1.0.gif  style="width:384px;">Déplacement des nœuds de B-spline.Cliquez sur l\'image pour voir l\'animation.   Les nœuds de B-spline peuvent maintenant être déplacés et contraints comme tout autre point de l\'esquisse. [Pull request #7484](https://github.com/FreeCAD/FreeCAD/pull/7484)
+                                                                                                                                                                                                                      
    
 
    
@@ -198,10 +198,10 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ### Autres améliorations de Sketcher 
 
 -   Le bouton de la barre d\'outils pour [Contrainte de réfraction (loi de Snell)](Sketcher_ConstrainSnellsLaw/fr.md) a été supprimé. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
--   Les boîtes [Contraintes dimensionnelles](https://wiki.freecadweb.org/Sketcher_Workbench/fr#Contraintes_dimensionnelles.md) et Quantity Spin supportent maintenant les mêmes fonctions mathématiques que les [expressions](Expressions/fr.md) (Évalué sur place). [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
+-   Les [Contraintes dimensionnelles](Sketcher_Workbench/fr#Contraintes_dimensionnelles.md) et les boîtes Quantity Spin supportent maintenant les mêmes fonctions mathématiques que les [expressions](Expressions/fr.md) (Évalué sur place). [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
 -   Les boutons de la barre d\'outils pour [Sélection contraintes redondantes](Sketcher_SelectRedundantConstraints/fr.md) et [Sélection des contraintes conflictuelles](Sketcher_SelectConflictingConstraints/fr.md) ont été supprimés. [Pull request #7568](https://github.com/FreeCAD/FreeCAD/pull/7568)
 -   Le bouton de la barre d\'outils pour [Arrêt de l\'opération](Sketcher_StopOperation/fr.md) a été supprimé. [Pull request #7569](https://github.com/FreeCAD/FreeCAD/pull/7569)
--   La section \"Modifier les contrôles\" de la boîte de dialogue Sketcher a été rendue optionnelle. [Pull request #7572](https://github.com/FreeCAD/FreeCAD/pull/7572)
+-   La section \"Modifier les contrôles\" de la boîte de dialogue de Sketcher a été rendue optionnelle. [Pull request #7572](https://github.com/FreeCAD/FreeCAD/pull/7572)
 -   Le bouton [Sélecteur des degrés de liberté non contraints](Sketcher_SelectElementsWithDoFs/fr.md) de la barre d\'outils a été supprimé. [Pull request #7603](https://github.com/FreeCAD/FreeCAD/pull/7603)
 -   La barre d\'outils de Sketcher a été divisée en deux : \"Sketcher-edit-mode\" et \"Sketcher\" (c\'est-à-dire \"pas en mode édition\"). Les barres d\'outils de Sketcher qui ne sont destinées qu\'au mode d\'édition sont masquées en mode de non-édition, et celles qui ne sont destinées qu\'au mode de non-édition sont masquées en mode d\'édition. La barre d\'outils Structure est également masquée dans Sketcher. [Pull request #7655](https://github.com/FreeCAD/FreeCAD/pull/7655)
 -   [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) peut désormais agir comme une contrainte concentrique lors de la sélection de 2 ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)

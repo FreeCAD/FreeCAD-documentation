@@ -1,52 +1,60 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh SegmentationBestFit
-   MenuLocation:Meshes → Create mesh segments from best-fit surfaces...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Segmentation](Mesh_Segmentation.md)
+   Name/pl:Siatka Utwórz segmenty z najlepiej dopasowanych powierzchni
+   MenuLocation:Siatki → Utwórz segmenty z najlepiej dopasowanych powierzchni ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Utwórz segmenty siatki](Mesh_Segmentation/pl.md)
 ---
 
 # Mesh SegmentationBestFit/pl
 
-## Description
+## Opis
 
-The **Mesh SegmentationBestFit** command creates separate mesh segments for specified surface types of a mesh object. The command can also identify their parameters which can be useful when re-engineering a mesh object.
+Polecenie **Utwórz segmenty z najlepiej dopasowanych powierzchni** tworzy oddzielne segmenty siatki dla określonych typów powierzchni obiektu siatkowego. Polecenie może również zidentyfikować ich parametry, co może być przydatne podczas ponownego projektowania obiektu siatkowego.
 
-## Usage
+## Użycie
 
-1.  If you plan to identify the parameters of a surface type, note that the command uses the color red to mark the faces selected for this option. To see them properly:
-    -   The **Display Mode** of the mesh object ideally should be {{Value|Flat lines}}, but should at least show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
-    -   The **Shape Color** of the mesh object should not be red.
-2.  Select a single mesh object.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Create mesh segments from best-fit surfaces...** option from the menu.
-4.  The **Mesh segmentation** task panel opens.
-5.  Optionally press one of the **Parameters...** buttons to identify the parameters of a surface:
-    -   The **Surface fit** dialog box opens.
-    -   Select one or more faces belonging to the surface:
-        -   Press the **Region** button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](3D_view.md). Faces that (partially) fall inside the region will be selected.
-        -   Press the **Triangle** button to select individual faces.
-        -   Optionally press the **Clear** button to clear the selection.
-    -   Press the **Compute** button to calculate the parameters.
-    -   Press the **OK** or **Cancel** button to close the dialog box.
-6.  Select the surface type(s) you wish to create mesh segments for:
+1.  Jeśli planujesz określić parametry typu powierzchni, zwróć uwagę, że polecenie używa koloru czerwonego do oznaczenia ścian wybranych dla tej opcji. Aby je prawidłowo zobaczyć:
     -   
-        **Plane**
+        **Tryb wyświetlania**
+        
+        obiektu siatki idealnie powinien być ustawiony na {{Value|Cieniowany z krawędziami}}, ale powinien przynajmniej pokazywać ściany. W razie potrzeby użyj polecenia [Styl kreślenia](Std_DrawStyle/pl.md), aby nadpisać tę właściwość.
+
+    -   
+        {{PropertyView/pl|Kolor kształtu}}
+        
+        obiektu siatkowego nie powinien być czerwony.
+2.  Wybierz pojedynczy obiekt siatki.
+3.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Utwórz segmenty z najlepiej dopasowanych powierzchni](Mesh_SegmentationBestFit/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Utwórz segmenty z najlepiej dopasowanych powierzchni ...**.
+4.  Otwiera się panel zadań **Segmentacja siatki**.
+5.  Opcjonalnie naciśnij jeden z przycisków **Paramety ...**, aby określić parametry powierzchni:
+    -   Otwiera się okno dialogowe **Dopasowanie powierzchni**.
+    -   Wybierz jedną lub więcej ścian należących do powierzchni:
+        -   Naciśnij przycisk **Obszar** i trzymając wciśnięty lewy przycisk myszy narysuj w oknie [widoku 3D](3D_view/pl.md) region, czyli zamkniętą krzywa łamaną. Wybrane zostaną ściany, które (częściowo) mieszczą się wewnątrz obszaru.
+        -   Naciśnij przycisk **Trójkąt**, aby wybrać poszczególne ściany.
+        -   Opcjonalnie naciśnij przycisk **Wyczyść**, aby wyczyścić zaznaczenie.
+    -   Naciśnij przycisk **Oblicz**, aby dokonać obliczeń parametrów.
+    -   Naciśnij przycisk **OK** lub **Anuluj**, aby zamknąć okno dialogowe.
+6.  Wybierz typ(y) powierzchni, dla których chcesz utworzyć segmenty siatki:
+    -   
+        **Płaszczyzna**
         
 
     -   
-        **Cylinder**
+        **Walec**
         
 
     -   
-        **Sphere**
+        **Sfera**
         
-7.  Specify the **Tolerance** values.
-8.  Specify the **Minimum number of faces** values.
-9.  Press the **OK** button.
-10. The command will create a [group](Std_Group.md) containing separate mesh objects, each a segment of the original mesh object.
-11. If the created group is empty try using the command again with modified settings.
+7.  Określ wartości **Tolerancji**.
+8.  Określ wartości **Minimalna liczba płaszczyzn**.
+9.  Naciśnij przycisk **OK**
+10. Polecenie utworzy [grupę](Std_Group.md) zawierającą oddzielne obiekty siatkowe, każdy będący segmentem oryginalnego obiektu siatkowego.
+11. Jeśli utworzona grupa jest pusta spróbuj użyć polecenia ponownie ze zmienionymi ustawieniami.
 
 
 

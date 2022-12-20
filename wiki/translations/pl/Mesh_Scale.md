@@ -1,25 +1,26 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh Scale
-   MenuLocation:Meshes → Scale...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name/pl:Siatka Skaluj
+   MenuLocation:Siatki → Skaluj ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh Scale/pl
 
-## Description
+## Opis
 
-The **Mesh Scale** command scales mesh objects.
+Polecenie **Skaluj** skaluje obiekty siatkowe.
 
-## Usage
+## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Scale.svg" width=16px> [Mesh Scale](Mesh_Scale.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_Scale.svg" width=16px> Scale...** option from the menu.
-3.  The **Scaling** dialog box opens.
-4.  Specify a scaling factor, the value must be larger than {{Value|0}}.
-5.  Press the {{button|OK}} button to finish the command.
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_Scale.svg" width=16px> [Skaluj](Mesh_Scale.md)**.
+    -   Wybierz z menu opcję**Siatki → <img src="images/Mesh_Scale.svg" width=16px> Skaluj ...**.
+3.  Otworzy się okno dialogowe **Skaluj**.
+4.  Określ współczynnik skalowania, wartość musi być większa niż {{Value|0}}.
+5.  Naciśnij przycisk {{button|OK}}, aby zakończyć polecenie.
 
 
 

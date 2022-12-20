@@ -1,35 +1,35 @@
 # Frequently asked questions/pl
-Ta strona jest próbą odpowiedzi na najczęstsze pytania zadawane na forum FreeCAD. Jeśli masz problem lub pytanie dotyczące programu FreeCAD, sprawdź najpierw poniżej. Następnie, jeśli nie możesz znaleźć odpowiedzi na swoje konkretne pytanie, przejdź do [forum FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3)!
+Ta strona jest próbą odpowiedzi na najczęściej powtarzające się pytania zadawane na forum FreeCAD. Jeśli masz problem lub pytanie dotyczące programu FreeCAD, sprawdź najpierw poniżej. Następnie, jeśli nie możesz znaleźć odpowiedzi na swoje konkretne pytanie, przejdź do [forum FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3)!
 
 ## Instalacja
 
-### What is the easiest way to install FreeCAD on my system? 
+### Jaki jest najprostszy sposób instalacji FreeCAD w moim systemie? 
 
-If you are on Windows or macOS, the simplest way is to head to the [Download](Download.md) page, where you\'ll find several ready-to-install packages. If you are on Debian, Fedora or Ubuntu and some other distributions, FreeCAD is already included in the standard software repositories and you can simply install it with the software manager. On Ubuntu, the FreeCAD team also maintains its own [PPA repositories](Installing_on_Linux#Stable_PPA.md). For further details about installation, refer to the installing page for your operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)).
+Jeśli pracujesz na systemie Windows lub macOS, najprostszym sposobem jest udanie się na stronę [pobierania](Download/pl.md), gdzie znajdziesz kilka gotowych do zainstalowania pakietów. Jeśli natomiast pracujesz na Debianie, Fedorze lub Ubuntu i kilku innych dystrybucjach, FreeCAD znajduje się już w standardowych repozytoriach oprogramowania i możesz go po prostu zainstalować za pomocą menedżera oprogramowania. Na Ubuntu, zespół FreeCAD utrzymuje również własne [repozytoria PPA](Installing_on_Linux/pl#Wersja_stabilna_PPA.md).
 
-### What are the prerequisites for running FreeCAD? 
+### Jakie są warunki wstępne do uruchomienia FreeCAD? 
 
-In contrast to most 3D CAD software, FreeCAD can run smoothly on the most modest computers - it\'s been known to run on Pentium IV and Intel Core2 Solo CPUs. If your computer is running a current operating system, chances are FreeCAD will run. The only prerequisite is that your graphics card or chipset must support [OpenGL](https://en.wikipedia.org/wiki/OpenGL), preferably no older than v2.0. In case of problems, refer to the [Troubleshooting](Frequently_asked_questions#Troubleshooting.md) section of this FAQ.
+W przeciwieństwie do większości oprogramowania 3D CAD, FreeCAD może działać bez problemów na najbardziej skromnych komputerach - jak wiadomo, działa na procesorach Pentium IV i Intel Core2 Solo. Jeśli Twój komputer jest wyposażony w aktualny system operacyjny, prawdopodobnie FreeCAD będzie działał. Jedynym warunkiem jest to, że karta graficzna lub chipset musi obsługiwać [OpenGL](http://en.wikipedia.org/wiki/OpenGL), najlepiej nie starsze niż v2.0. W razie problemów należy zapoznać się z sekcją [Rozwiązywanie problemów](Frequently_asked_questions/pl#Rozwiązywanie_problemów.md) z tego FAQ.
 
 #### Wielowątkowość
 
-FreeCAD\'s underlying geometric modeling kernel, the [OpenCASCADE Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT) third-party library, [has only partial multi-threading support at this time](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095). See the [multithreading](multithreading.md) page for more details.
+Podstawą FreeCAD jest jądro modelowania geometrycznego, [OpenCASCADE Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) *(OCCT)* zewnętrzna biblioteka, [ma obecnie tylko częściowe wsparcie wielowątkowości](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095). Zobacz stronę [wielowątkowość](Multithreading/pl.md), aby uzyskać więcej informacji.
 
-#### For Mac users 
+#### Dla użytkowników komputerów Mac 
 
-Only the MacIntel architecture is supported. There are no builds available for the PowerPC architecture.
+Obsługiwana jest tylko architektura MacIntela. Nie ma dostępnych kompilacji dla architektury PowerPC.
 
-### What if I want to compile FreeCAD myself? 
+### Co jeśli sam chcę skompilować FreeCAD? 
 
-The source code of FreeCAD is always available in the project source code repository. Compiling FreeCAD yourself allows you to use the most recent features being developed, but requires a bit of computer knowledge, although the procedure is fairly simple. Access to the source code is explained [here](Compile_on_Linux#Getting_the_source.md), and we have detailed instructions for compiling on [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) and [macOS](Compile_on_MacOS.md).
+Kod źródłowy FreeCAD jest zawsze dostępny w repozytorium kodu źródłowego projektu. Samodzielna kompilacja FreeCAD pozwala na korzystanie z najnowszych funkcji, które są opracowywane, ale wymaga odrobiny wiedzy komputerowej, chociaż procedura jest dość prosta. Dostęp do kodu źródłowego jest opisany na stronie [pobieranie kodu źródłowego](Compile_on_Linux/pl#Pobieranie_kodu_.C5.BAr.C3.B3d.C5.82owego.md), a my mamy szczegółowe instrukcje kompilacji dla środowisk [Linux](CompileOnUnix/pl.md), [Mac OSX](compileOnMac/pl.md) i [Windows](CompileOnWindows/pl.md).
 
-### FreeCAD tells me some module or application is missing 
+### FreeCAD mówi mi, że brakuje jakiegoś modułu lub aplikacji 
 
 FreeCAD depends on a lot of things to offer all its functionality. All the main required components are usually bundled within your FreeCAD installation or provided by your package manager, so normally you have nothing to worry about. If you installed FreeCAD from unofficial sources, however, or compiled FreeCAD yourself, some piece might be missing, which is not critical to FreeCAD itself, but might cause some functionality to be unavailable. Some specific file formats such as Collada or DWG also require extra components, which cannot be bundled into FreeCAD, and must be installed by yourself separately.
 
 All those components and the appropriate way to install them are listed on the [Extra python modules](Extra_python_modules.md) page.
 
-## Troubleshooting
+## Rozwiązywanie problemów 
 
 ### FreeCAD doesn\'t start at all 
 
@@ -59,7 +59,7 @@ This is a very common cause of the problem. The symptoms are simply that FreeCAD
 
 And as a general tip to get some more information about crashes with FreeCAD you can start it with the program parameter {{SystemInput|--write-log}}. This will create the file **FreeCAD.log** in **$XDG_CONFIG_HOME/FreeCAD** (<small>(v0.20)</small> ) or **$HOME/.FreeCAD** ({{VersionMinus|0.19}}) on Linux, or **$HOME/Library/Preferences/FreeCAD** on macOS, or **%APPDATA%/FreeCAD** on Windows systems.
 
-In some rare cases you may have a graphic driver installed that doesn\'t fit to your graphic card. We had a case where the user\'s laptop had an Intel on-board graphic but some ATI drivers were installed. [1](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042) After removing the files and re-installing the correct driver FreeCAD started to work.
+In some rare cases you may have a graphic driver installed that doesn\'t fit to your graphic card. We had a case where the user\'s laptop had an Intel on-board graphic but some ATI drivers were installed. Refer to forum thread in German [FreeCAD startet nicht](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042). After removing the files and re-installing the correct driver FreeCAD started to work.
 
 #### Some library, needed by FreeCAD, is not present on your system, or wasn\'t found by FreeCAD 
 
@@ -156,7 +156,9 @@ Please refer to the [Workarounds](Workarounds.md) page.
 
 ### How do I extrude stuff into solids? I don\'t get the right result 
 
-The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids. If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing **Ctrl**), join them into a wire ([Draft Upgrade](Draft_Upgrade.md) tool), then make a face from that wire (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Upgrade](Draft_Upgrade.md) tool again). There you are, if all went well you can now extrude it to a solid.
+The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
+
+If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing **Ctrl**), join them into a wire ([Draft Upgrade](Draft_Upgrade.md) tool), then make a face from that wire (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Upgrade](Draft_Upgrade.md) tool again). There you are, if all went well you can now extrude it to a solid.
 
 Now, there can be many little twists that make you obtain the wrong result. The best way to make sure is to check what\'s inside the object you are extruding. Objects contents can be easily explored with python. Assuming for example you have an object called \"Wire\", you could type this into the Python console:
 
@@ -179,11 +181,11 @@ The [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) geomet
 
 ### When I export (or view) my model, the holes are filled in 
 
-Don\'t use **Crtl** + **A** (Select All) to export everything from the hierarchy tree. If the model is of one single item, try selecting only the newest item (usually the last one) in the hierarchy tree.
+Don\'t use **Ctrl** + **A** (Select All) to export everything from the hierarchy tree. If the model is of one single item, try selecting only the newest item (usually the last one) in the hierarchy tree.
 
 As we create a model in the [PartDesign Workbench](PartDesign_Workbench.md), each feature takes the shape of the last one and adds or removes something, creating linear dependencies from feature to feature as the model is created. Hence a \"Cut\" feature is not only the cut hole itself, but the whole part with the cut. This is why the user usually should only have the newest item (feature) in the model tree visible, because otherwise the phases of the model overlay each other, and holes are filled in by the earlier model features.
 
-To toggle visibility of an object on or off, select it in the hierarchy tree and press **spacebar** on your keyboard. Usually everything but the last item in the hierarchy tree should be greyed out and therefore not visible in the 3D view.
+To toggle visibility of an object on or off, select it in the hierarchy tree and press **spacebar** on your keyboard. Usually everything but the last item in the hierarchy tree should be greyed out and therefore not visible in the [3D view](3D_view.md).
 
 ### My parametric objects break when I modify their base sketches 
 

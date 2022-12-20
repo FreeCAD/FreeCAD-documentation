@@ -38,14 +38,15 @@ This category lists pages related to the [TechDraw Workbench](TechDraw_Workbench
 | [TechDraw Preferences](wiki/TechDraw Preferences.md) | [TechDraw PrintAll](wiki/TechDraw PrintAll.md) | [TechDraw ProjectionGroup](wiki/TechDraw ProjectionGroup.md) |
 | [TechDraw ProjectShape](wiki/TechDraw ProjectShape.md) | [TechDraw Quadrants](wiki/TechDraw Quadrants.md) | [TechDraw RadiusDimension](wiki/TechDraw RadiusDimension.md) |
 | [TechDraw RedrawPage](wiki/TechDraw RedrawPage.md) | [TechDraw RichTextAnnotation](wiki/TechDraw RichTextAnnotation.md) | [TechDraw Roadmap](wiki/TechDraw Roadmap.md) |
-| [TechDraw SectionView](wiki/TechDraw SectionView.md) | [TechDraw ShareView](wiki/TechDraw ShareView.md) | [TechDraw ShowAll](wiki/TechDraw ShowAll.md) |
-| [TechDraw SpreadsheetView](wiki/TechDraw SpreadsheetView.md) | [TechDraw StackBottom](wiki/TechDraw StackBottom.md) | [TechDraw StackDown](wiki/TechDraw StackDown.md) |
-| [TechDraw StackTop](wiki/TechDraw StackTop.md) | [TechDraw StackUp](wiki/TechDraw StackUp.md) | [TechDraw SurfaceFinishSymbol](wiki/TechDraw SurfaceFinishSymbol.md) |
-| [TechDraw Symbol](wiki/TechDraw Symbol.md) | [TechDraw TemplateHowTo](wiki/TechDraw TemplateHowTo.md) | [TechDraw Templates](wiki/TechDraw Templates.md) |
-| [TechDraw ToggleFrame](wiki/TechDraw ToggleFrame.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) | [TechDraw VerticalDimension](wiki/TechDraw VerticalDimension.md) |
-| [TechDraw VerticalExtentDimension](wiki/TechDraw VerticalExtentDimension.md) | [TechDraw View](wiki/TechDraw View.md) | [TechDraw WeldSymbol](wiki/TechDraw WeldSymbol.md) |
-| [TechDraw Workbench](wiki/TechDraw Workbench.md) | [TechDrawGui API](wiki/TechDrawGui API.md) | [Tolerancing](wiki/Tolerancing.md) |
-| [Topological naming problem](wiki/Topological naming problem.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) |
+| [TechDraw Section Examples](wiki/TechDraw Section Examples.md) | [TechDraw SectionView](wiki/TechDraw SectionView.md) | [TechDraw ShareView](wiki/TechDraw ShareView.md) |
+| [TechDraw ShowAll](wiki/TechDraw ShowAll.md) | [TechDraw SpreadsheetView](wiki/TechDraw SpreadsheetView.md) | [TechDraw StackBottom](wiki/TechDraw StackBottom.md) |
+| [TechDraw StackDown](wiki/TechDraw StackDown.md) | [TechDraw StackTop](wiki/TechDraw StackTop.md) | [TechDraw StackUp](wiki/TechDraw StackUp.md) |
+| [TechDraw SurfaceFinishSymbol](wiki/TechDraw SurfaceFinishSymbol.md) | [TechDraw Symbol](wiki/TechDraw Symbol.md) | [TechDraw TemplateHowTo](wiki/TechDraw TemplateHowTo.md) |
+| [TechDraw Templates](wiki/TechDraw Templates.md) | [TechDraw ToggleFrame](wiki/TechDraw ToggleFrame.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) |
+| [TechDraw VerticalDimension](wiki/TechDraw VerticalDimension.md) | [TechDraw VerticalExtentDimension](wiki/TechDraw VerticalExtentDimension.md) | [TechDraw View](wiki/TechDraw View.md) |
+| [TechDraw WeldSymbol](wiki/TechDraw WeldSymbol.md) | [TechDraw Workbench](wiki/TechDraw Workbench.md) | [TechDrawGui API](wiki/TechDrawGui API.md) |
+| [Tolerancing](wiki/Tolerancing.md) | [Topological naming problem](wiki/Topological naming problem.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) |
+|
 
 
 

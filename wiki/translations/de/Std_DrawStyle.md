@@ -47,31 +47,31 @@ Die Darstellungsart **Drahtgitter** überlagert die {{PropertyView/de|Display Mo
 
 ### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Versteckte Linie 
 
-Die Darstellungsart **Versteckte Line** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Objekte werden dargestellt, als wären sie in Dreiecksnetzen Konvertiert
+Die Darstellungsart **Versteckte Line** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Objekte werden dargestellt, als wären sie in Dreiecksnetze konvertiert.
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
-*Dieselben Objekte mit Darstellungsart 'Hidden ' aktiviert*
+*Dieselben Objekte mit Darstellungsart 'Versteckte Linie' aktiviert*
 
 ### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> Keine Schattierung 
 
-The **No shading** style overrides the **Display Mode** of objects. Vertices, edges and faces are displayed in solid colors.
+Die Darstellungsart **Keine Schattierung** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Punkte, Kanten und Flächen werden gleichmäßig, deckend eingefärbt dargestellt.
 
 ![](images/Std_DrawStyleNoShading_example.png ) 
-*The same objects with the 'No shading' draw style applied*
+*Dieselben Objekte mit Darstellungsart 'Keine Schattierung' aktiviert*
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Shaded 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Schattiert 
 
-The **Shaded** style overrides the **Display Mode** of objects. This style matches the \'Shaded\' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
+Die Darstellungsart **Schattiert** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Punkte und Kanten werden nicht dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
 
 ![](images/Std_DrawStyleShaded_example.png ) 
-*The same objects with the 'Shaded' draw style applied*
+*Dieselben Objekte mit Darstellungsart 'Schattiert' aktiviert*
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Flat lines 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Flache Linien 
 
-The **Flat lines** style overrides the **Display Mode** of objects. This style matches the \'Flat lines\' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
+Die Darstellungsart **Flache Linien** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht demDisplay-Mode \'Flat Lines\' von Objekten. Punkte und Kanten werden deckend eingefärbt dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
 
 ![](images/Std_DrawStyleFlatLines_example.png ) 
-*The same objects with the 'Flat lines' draw style applied*
+*Dieselben Objekte mit Darstellungsart 'Flache Linien' aktiviert*
 
 ## Hinweise
 

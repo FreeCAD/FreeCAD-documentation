@@ -218,7 +218,7 @@ Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre
 -   [Aimantation](Draft_Snap/fr.md) : sélectionne des points géométriques exacts sur, ou définis par, des objets existants ou la grille.
 -   [Contrainte](Draft_Constrain/fr.md) : pour chaque point suivant, vous pouvez contraindre le mouvement du curseur dans la direction X, Y ou Z.
 -   [Mode de construction](Draft_ToggleConstructionMode/fr.md) : place les nouveaux objets Draft dans un groupe dédié, ce qui facilite leur masquage ou leur suppression.
--   [Motif](Draft_Pattern/fr.md) : Les objets Draft ayant une propriété {{PropertyData/fr|Make Face}} peuvent afficher un motif SVG au lieu d\'une couleur unie.
+-   [Motif](Draft_Pattern/fr.md) : les objets Draft ayant une propriété {{PropertyData/fr|Make Face}} peuvent afficher un motif SVG au lieu d\'une couleur unie.
 
 ## Menu contextuel de l\'arborescence 
 
@@ -288,9 +288,9 @@ Ces commandes sont obsolètes mais toujours disponibles :
 
 L\'atelier Draft fournit à FreeCAD des importateurs et des exportateurs pour différents formats de fichiers. Ceux-ci sont utilisés par les commandes [Std Importer](Std_Import/fr.md) et [Std Exporter](Std_Export/fr.md).
 
--   [Autodesk .DXF](Draft_DXF/fr.md) : Importe et exporte les fichiers [DXF (Drawing eXchange Format)](http://fr.wikipedia.org/wiki/Drawing_eXchange_Format) créés avec d\'autres applications de CAO 2D. Voir aussi [Importation DXF et FreeCAD](FreeCAD_and_DXF_Import/fr.md).
--   [Autodesk .DWG](Draft_DXF/fr.md) : Importe et exporte des fichiers DWG via un convertisseur DWG externe. Voir aussi [Importation FreeCAD et DWG](FreeCAD_and_DWG_Import/fr.md).
--   [Scalable Vector Graphics .SVG](Draft_SVG/fr.md) : Importe et exporte les fichiers [Scalable Vector Graphics(SVG)](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) créés avec des applications de dessin vectoriel
+-   [Autodesk .DXF](Draft_DXF/fr.md) : importe et exporte les fichiers [DXF (Drawing eXchange Format)](http://fr.wikipedia.org/wiki/Drawing_eXchange_Format) créés avec d\'autres applications de CAO 2D. Voir aussi [Importation DXF et FreeCAD](FreeCAD_and_DXF_Import/fr.md).
+-   [Autodesk .DWG](Draft_DXF/fr.md) : importe et exporte des fichiers DWG via un convertisseur DWG externe. Voir aussi [Importation FreeCAD et DWG](FreeCAD_and_DWG_Import/fr.md).
+-   [Scalable Vector Graphics .SVG](Draft_SVG/fr.md) : importe et exporte les fichiers [Scalable Vector Graphics(SVG)](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) créés avec des applications de dessin vectoriel
 -   [Open Cad format .OCA](Draft_OCA/fr.md) : importe et exporte des fichiers [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/fr.md) : importe des fichiers DAT décrivant des profils d\'ailes.
 

@@ -11,9 +11,6 @@ mydoc = FreeCAD.activeDocument()
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{APIFunction|ConfigDump| |Stampa un dizionario contenente tutto l'ambiente di configurazione di FreeCAD.| }}
 
 
@@ -50,19 +47,16 @@ mydoc = FreeCAD.activeDocument()
 {{APIFunction|listDocuments| |Restituisce un dizionario di nomi e di puntatori di oggetti di tutti i documenti.|Un dizionario di nomi e di puntatori di oggetti.}}
 
 
-{{APIFunction|newDocument|[string]|Crea e restituisce un nuovo documento con un determinato nome. Il nome del documento deve essere univoco, e viene controllato automaticamente. Se non viene fornito nessun nome, il documento sarà "Senza titolo".|Il documento appena creato.}}
+{{APIFunction|newDocument|[string], [hidden<nowiki>=</nowiki>False]|Crea e restituisce un nuovo documento con un determinato nome. Il nome del documento deve essere univoco, e viene controllato automaticamente. Se non viene fornito nessun nome, il documento sarà "Senza titolo". Se viene passato <tt>hidden<nowiki>=</nowiki>True</tt>, FreeCAD in modalità GUI non visualizzerà il documento e non mostrerà una scheda per il documento; ciò consente di eseguire operazioni automatiche su un documento temporaneo (o creare un documento e salvarlo) senza interrompere l'interfaccia utente.|Il documento appena creato.}}
 
 
 {{APIFunction|open|string|Vedere openDocument| }}
 
 
-{{APIFunction|openDocument|filepath|Crea e restituisce un documento e carica un file di progetto nel documento. L'argomento stringa deve puntare ad un file esistente. Se il file non esiste o il file non può essere caricato viene generata una eccezione di I /O. In questo caso il documento creato viene mantenuto, ma sarà vuoto.|Il documento di FreeCAD aperto.}}
+{{APIFunction|openDocument|filepath, [hidden]|Crea e restituisce un documento e carica un file di progetto nel documento. L'argomento stringa deve puntare ad un file esistente. Se il file non esiste o il file non può essere caricato viene generata una eccezione di I /O. In questo caso il documento creato viene mantenuto, ma sarà vuoto. Se viene passato <tt>hidden<nowiki>=</nowiki>True</tt>, FreeCAD in modalità GUI non visualizzerà il documento e non mostrerà una scheda per il documento; ciò consente di eseguire operazioni automatiche su un documento e chiuderlo senza interrompere l'interfaccia utente.|Il documento di FreeCAD aperto.}}
 
 
 {{APIFunction|setActiveDocument|Document name|Imposta il documento attivo con il suo nome.| }}
-
-
-</div>
 
 
 

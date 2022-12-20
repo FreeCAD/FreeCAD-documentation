@@ -5,7 +5,13 @@ In questa pagina sono riunite le domande più frequenti che sono state poste nel
 
 ### Il modo più facile per installare FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 Se sei su Windows o macOS, il modo più semplice è andare al [ Download](Download.md), dove troverai diversi pacchetti pronti per l\'installazione. Se sei su Debian, Fedora o Ubuntu e alcune altre distribuzioni, FreeCAD è già incluso nei repository software standard e puoi semplicemente installarlo con il software manager. Su Ubuntu, il team di FreeCAD mantiene anche il proprio [ repository PPA](Installing_on_Linux_#_Stable_PPA.md). Per ulteriori dettagli sull\'installazione, fare riferimento alla pagina di installazione del proprio sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)).
+
+
+</div>
 
 ### Quali sono i prerequisiti per eseguire FreeCAD? 
 
@@ -58,7 +64,13 @@ Questa è una causa molto comune del problema. I sintomi sono semplicemente che 
 
 E come suggerimento generale per ottenere qualche informazione in più sugli arresti anomali di FreeCAD, puoi avviarlo con il parametro del programma {{SystemInput|--write-log}}. Questo creerà il file **FreeCAD.log** in **$XDG_CONFIG_HOME/FreeCAD** ({{VersionPlus/it|0.20}}) o **$HOME/.FreeCAD** ({{VersionMinus/it|0.19}}) su Linux o **$HOME/Library/Preferences/FreeCAD** su macOS o **%APPDATA%/FreeCAD** su sistemi Windows.
 
+
+<div class="mw-translate-fuzzy">
+
 In alcuni rari casi potresti avere un driver grafico installato, che non si adatta alla tua scheda grafica. Abbiamo avuto un caso in cui il laptop dell\'utente aveva una scheda grafica Intel integrata ma erano stati installati alcuni driver ATI. [1](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042). Dopo aver rimosso i file e reinstallato il driver corretto, FreeCAD ha iniziato a funzionare.
+
+
+</div>
 
 #### Alcune librerie, necessarie a FreeCAD, non sono presenti nel sistema, o non vengono trovate da FreeCAD 
 
@@ -112,7 +124,13 @@ Ciò può accadere anche se hai installato una versione precedente di FreeCAD e 
 
 FreeCAD dovrebbe riavviarsi normalmente con tutte le impostazioni ripristinate.
 
+
+<div class="mw-translate-fuzzy">
+
 È disponibile una [Macro findConfigFiles](Macro_findConfigFiles/it.md) per aiutare a localizzare i file di configurazione. Può essere installata utilizzando Addon Manager nel menu Strumenti. **Strumenti → Addon Manager → Macro → findConfigFiles**. La macro troverà la cartella del file di configurazione, la copierà negli appunti e (tenterà di) aprire quella posizione con il browser di file predefinito. Non apporta modifiche ai file o alle impostazioni.
+
+
+</div>
 
 ## Utilizzare FreeCAD 
 
@@ -155,7 +173,15 @@ Fare riferimento alla pagina [Workarounds](Workarounds.md).
 
 ### Come fare per estrudere i solidi. Non ottengo il risultato corretto 
 
+The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
+
+
+<div class="mw-translate-fuzzy">
+
 La teoria è semplice: le linee (o fili), quando estruse, formano facce. Le facce, quando estruse, formano dei solidi. Se estrudi qualcosa e il risultato non è un solido, allora quel qualcosa non era una faccia. Se hai delle linee e vuoi estrudere un solido da esse, devi prima selezionare le linee che formano un perimetro chiuso (selezionare diversi oggetti premendo **Ctrl**), unirli in una linea ([Draft Promuovi](Draft_Upgrade/it.md)), quindi creare una faccia da quella linea (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Promuovi](Draft_Upgrade/it.md) di nuovo). Ecco qua, se tutto è andato bene ora puoi estruderlo in un solido.
+
+
+</div>
 
 Ora, ci possono essere molti piccoli colpi di scena che ti fanno ottenere il risultato sbagliato. Il modo migliore per essere sicuri è controllare cosa c\'è all\'interno dell\'oggetto che stai estrudendo. I contenuti degli oggetti possono essere facilmente esplorati con python. Supponendo ad esempio che tu abbia un oggetto chiamato \"Wire\", puoi digitarlo nella console Python:
 
@@ -176,13 +202,33 @@ Il codice precedente recupera la forma da un oggetto, mostra le facce e le linee
 
 Il kernel di modellazione geometrica [Open CASCADE](https://it.wikipedia.org/wiki/Open_CASCADE_Technology) utilizzato in FreeCAD per la geometria delle parti, sebbene probabilmente il miglior kernel di geometria open source disponibile, ha i suoi difetti e limiti. Infatti le operazioni booleane (fusione, sottrazione, intersezione) non sono le sue caratteristiche migliori e spesso danno risultati strani. Questa è una limitazione attuale che non abbiamo modo di risolvere in breve, quindi il tuo percorso migliore è provare a ottenere il risultato desiderato modellando in un altro modo. Ad esempio, i problemi con le primitive come il cilindro possono essere spesso risolti utilizzando invece un cerchio estruso. Le superfici complanari tra le parti possono causare problemi, così come la tangenza della superficie. Come regola generale, se una forma non funziona, prova a rimodellarla in un modo diverso. Nel 99% dei casi alla fine riuscirai ad ottenere il risultato che desideri.
 
+### When I export (or view) my model, the holes are filled in 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Quando esporto (o visualizzo) il mio modello, i buchi vengono riempiti 
 
 Non utilizzare **Crtl** + **A** (Seleziona tutto) per esportare tutto dall\'albero della gerarchia. Se il modello è di un singolo elemento, provare a selezionare solo l\'elemento più recente (di solito l\'ultimo) nell\'albero della gerarchia.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Quando creiamo un modello nell\'[Ambiente Part Design](PartDesign_Workbench/it.md), ogni funzione prende la forma dell\'ultima e aggiunge o rimuove qualcosa, creando dipendenze lineari da funzione a funzione durante la creazione del modello. Quindi una funzione \"Taglia\" non è solo il foro tagliato stesso, ma l\'intera parte con il taglio. Questo è il motivo per cui l\'utente di solito dovrebbe avere solo l\'elemento più recente (caratteristica) nell\'albero del modello visibile, perché altrimenti le fasi del modello si sovrappongono e i buchi vengono riempiti dalle funzioni del modello precedenti.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Per attivare o disattivare la visibilità di un oggetto, selezionalo nell\'albero della gerarchia e premi **barra spaziatrice** sulla tastiera. Di solito tutto tranne l\'ultimo elemento nell\'albero della gerarchia dovrebbe essere disattivato e quindi non visibile nella vista 3D.
+
+
+</div>
 
 ### I miei oggetti parametrici si rompono quando modifico i loro schizzi di base 
 

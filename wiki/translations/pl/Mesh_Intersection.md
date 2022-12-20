@@ -1,32 +1,33 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh Intersection
-   MenuLocation:Meshes → Boolean → Intersection
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Difference](Mesh_Difference.md)
+   Name/pl:Siatka Przecięcie
+   MenuLocation:Siatki → Operacje logiczne → Przecięcie
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Połączenie](Mesh_Union/pl.md), [Różnica](Mesh_Difference/pl.md)
 ---
 
 # Mesh Intersection/pl
 
-## Description
+## Opis
 
-The **Mesh Intersection** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the intersection (common) of two mesh objects.
+Polecenie **Przecięcie** tworzy nowy nieparametryczny obiekt siatkowy typu [cecha siatki](Mesh_Feature/pl.md), czyli przecięcie *(część wspólną)* dwóch obiektów siatki.
 
-[OpenSCAD](http://www.openscad.org/) must be installed to use this command, and the path to its executable must be set in the [OpenSCAD preferences](OpenSCAD_Preferences.md).
+[OpenSCAD](http://www.openscad.org/) musi być zainstalowany, aby użyć tego polecenia, a ścieżka do jego pliku wykonywalnego musi być ustawiona w [ustawieniach OpenSCAD](OpenSCAD_Preferences/pl.md).
 
 ![](images/Mesh_Intersection_example.png ) 
-*On the left two mesh objects, on the right the mesh object that is the intersection of those objects*
+*Po lewej dwa obiekty siatkowe, po prawej obiekt siatkowy będący przecięciem tych obiektów.*
 
-## Usage
+## Użycie
 
-1.  Select two mesh objects that partially overlap.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Intersection.svg" width=16px> [Mesh Intersection](Mesh_Intersection.md)** button.
-    -   Select the **Meshes → Boolean → <img src="images/Mesh_Intersection.svg" width=16px> Intersection** option from the menu.
+1.  Wybierz dwa obiekty siatkowe, które częściowo się pokrywają.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Mesh_Intersection.svg" width=16px> '''Przecięcie'''**.
+    -   Wybierz z menu opcję **Siatki → Operacje logiczne → <img src="images/Mesh_Intersection.svg" width=16px> Przecięcie**.
 
-## Properties
+## Właściwości
 
-See: [Mesh Feature](Mesh_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 

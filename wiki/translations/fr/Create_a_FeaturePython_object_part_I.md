@@ -13,7 +13,7 @@ Cela favorise:
 
 Sur cette page, nous allons construire un exemple de travail d\'une classe personnalisée FeaturePython, en identifiant tous les composants principaux et en comprenant comment tout fonctionne au fur et à mesure.
 
-### Comment ça marche? 
+## Comment ça marche? 
 
 FreeCAD est livré avec un certain nombre de types d\'objets par défaut pour gérer différents types de géométrie. Certains d\'entre eux ont des alternatives \"FeaturePython\" qui permettent une personnalisation avec une classe Python définie par l\'utilisateur.
 
@@ -33,14 +33,14 @@ Si vous ne savez pas où se trouve le dossier Macro de FreeCAD, tapez `FreeCAD.g
 -   Sous Windows, c\'est **%APPDATA%\FreeCAD\Macro\**, ce qui est généralement **C:\Users\<username>\Appdata\Roaming\FreeCAD\Macro\**.
 -   Sous Mac OSX, il s\'agit généralement de **/Users/<username>/Library/Preferences/FreeCAD/Macro/**.
 
-Maintenant, nous devons créer des fichiers.
+Maintenant, nous devons créer des fichiers :
 
 -   Dans le dossier **Macro**, créez un nouveau dossier appelé **fpo**.
 -   Dans le dossier **fpo**, créez un fichier vide : **__init__.py**.
 -   Dans le dossier **fpo**, créez un nouveau dossier appelé **box**.
 -   Dans le dossier **box**, créez deux fichiers : **__init__.py** et **box.py** (laissez les deux cases vides pour l\'instant).
 
-La structure de votre dossier devrait ressembler à ceci:
+La structure de votre dossier devrait ressembler à ceci :
 
 Macro/
     |--> fpo/
@@ -51,7 +51,7 @@ Macro/
 
 Le dossier **fpo** est l\'endroit pour jouer avec les nouveaux objets FeaturePython et le dossier **box** est le module dans lequel nous allons travailler. **__init__.py** indique à Python qu\'il y a un module importable dans le dossier et **box.py** sera le fichier de classe pour notre nouvel objet FeaturePython.
 
-Une fois nos chemins et fichiers de module créés, nous assurons que FreeCAD est correctement configuré:
+Une fois nos chemins et fichiers de module créés, nous assurons que FreeCAD est correctement configuré :
 
 -   Démarrez FreeCAD (si vous ne l\'avez pas déjà fait).
 -   Activez la [Vue rapport](Report_view/fr.md) (**Affichage → Panneaux → Vue rapport**).
@@ -63,7 +63,7 @@ Enfin, naviguez jusqu\'au dossier **Macro/fpo/box** et ouvrez **box.py** dans vo
 
 ## Un objet FeaturePython 
 
-Commençons par écrire notre classe et son constructeur:
+Commençons par écrire notre classe et son constructeur :
 
 
 ```python
@@ -113,24 +113,24 @@ def create(obj_name):
     return obj
 ```
 
-**La méthode `create()` se décompose comme suit:**
+**La méthode `create()` se décompose comme suit :**
 
 +++
-|                                       | Importation standard pour la plupart des scripts Python, l\'alias d\'application n\'est pas requis.                                                                                                                                               |
-| `import FreeCAD as App`                     |                                                                                                                                                                                                                                                   |
-|                                                   |                                                                                                                                                                                                                                                   |
+|                                       | Importation standard pour la plupart des scripts Python, l\'alias d\'application n\'est pas requis.                                                                                                                                                  |
+| `import FreeCAD as App`                     |                                                                                                                                                                                                                                                      |
+|                                                   |                                                                                                                                                                                                                                                      |
 +++
-|                                       | Crée un nouvel objet FreeCAD FeaturePython avec le nom transmis à la méthode. S\'il n\'y a pas de conflit de nom, ce sera le libellé et le nom de l\'objet créé. Sinon, un nom et une étiquette uniques seront créés en fonction de \'obj_name\'. |
-| `obj <nowiki>=</nowiki> ... addObject(...)` |                                                                                                                                                                                                                                                   |
-|                                                   |                                                                                                                                                                                                                                                   |
+|                                       | Crée un nouvel objet FeaturePython de FreeCAD avec le nom transmis à la méthode. S\'il n\'y a pas de conflit de nom, ce sera le libellé et le nom de l\'objet créé. Sinon, un nom et une étiquette uniques seront créés en fonction de \'obj_name\'. |
+| `obj <nowiki>=</nowiki> ... addObject(...)` |                                                                                                                                                                                                                                                      |
+|                                                   |                                                                                                                                                                                                                                                      |
 +++
-|                                       | Crée notre instance de classe personnalisée.                                                                                                                                                                                                      |
-| `box(obj)`                                  |                                                                                                                                                                                                                                                   |
-|                                                   |                                                                                                                                                                                                                                                   |
+|                                       | Crée notre instance de classe personnalisée.                                                                                                                                                                                                         |
+| `box(obj)`                                  |                                                                                                                                                                                                                                                      |
+|                                                   |                                                                                                                                                                                                                                                      |
 +++
-|                                       | Renvoie l\'objet FeaturePython.                                                                                                                                                                                                                   |
-| `return obj`                                |                                                                                                                                                                                                                                                   |
-|                                                   |                                                                                                                                                                                                                                                   |
+|                                       | Renvoie l\'objet FeaturePython.                                                                                                                                                                                                                      |
+| `return obj`                                |                                                                                                                                                                                                                                                      |
+|                                                   |                                                                                                                                                                                                                                                      |
 +++
 
 La méthode `create()` n\'est pas requise mais elle fournit un bon moyen d\'encapsuler le code de création d\'objet.
@@ -141,14 +141,14 @@ La méthode `create()` n\'est pas requise mais elle fournit un bon moyen d\'enca
 
 Nous pouvons maintenant tester notre nouvel objet. Enregistrez votre code et revenez à FreeCAD. Assurez-vous que vous avez ouvert un nouveau document, vous pouvez le faire en appuyant sur **Ctrl**+**N** ou en sélectionnant **Fichier → Nouveau**.
 
-Dans la console Python, tapez ce qui suit:
+Dans la console Python, tapez ce qui suit :
 
 
 ```python
 from fpo.box import box
 ```
 
-Maintenant, nous devons créer notre objet:
+Maintenant, nous devons créer notre objet :
 
 
 ```python
@@ -162,12 +162,12 @@ Notez que l\'icône est grise. FreeCAD nous dit que l\'objet ne peut rien affich
 Notez également qu\'il y a une petite coche bleue à côté de l\'objet FeaturePython dans l\'arborescence. En effet, lorsqu\'un objet est créé ou modifié, il est \"touché\" et doit être recalculé. Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour y parvenir. Nous ajouterons du code pour automatiser cela plus tard. 
 
 
-Jetons un oeil aux attributs de notre objet: 
+Jetons un oeil aux attributs de notre objet : 
 ```python
 dir(mybox)
 ```
 
-Cela retournera:
+Cela retournera :
 
 
 ```python
@@ -178,14 +178,14 @@ Cela retournera:
 
 Il y a beaucoup d\'attributs car nous accédons à l\'objet FeaturePyton natif de FreeCAD créé à la première ligne de notre méthode `create()`. La propriété `Proxy` que nous avons ajoutée dans notre méthode `__init__()` est là aussi.
 
-Inspectons-la avec la méthode `dir()`:
+Inspectons-la avec la méthode `dir()` :
 
 
 ```python
 dir(mybox.Proxy)
 ```
 
-Cela retournera:
+Cela retournera :
 
 
 ```python
@@ -194,14 +194,14 @@ Cela retournera:
 '__str__', '__subclasshook__', '__weakref__']
 ```
 
-Nous pouvons voir notre propriété `Type`. Vérifions:
+Nous pouvons voir notre propriété `Type`. Vérifions :
 
 
 ```python
 mybox.Proxy.Type
 ```
 
-Cela retournera:
+Cela retournera :
 
 
 ```python
@@ -229,7 +229,7 @@ Vous pouvez consulter la liste des propriétés prises en charge en tapant :
 mybox.supportedProperties()
 ```
 
-Essayons d\'ajouter une propriété à notre classe de boîte. Passez à votre éditeur de code, passez à la méthode `__init__()`, et à la fin de la méthode, ajoutez:
+Essayons d\'ajouter une propriété à notre classe de boîte. Passez à votre éditeur de code, passez à la méthode `__init__()`, et à la fin de la méthode, ajoutez :
 
 
 ```python
@@ -238,7 +238,7 @@ obj.addProperty('App::PropertyString', 'Description', 'Base', 'Box description')
 
 Notez que nous utilisons la référence à l\'objet FeaturePython (sérialisable) `obj`, et non l\'instance de classe Python (non sérialisable) `self`.
 
-Une fois que vous avez terminé, enregistrez les modifications et revenez à FreeCAD. Avant de pouvoir observer les modifications apportées à notre code, nous devons recharger le module. Cela peut être accompli en redémarrant FreeCAD, mais redémarrer FreeCAD à chaque fois que nous éditons le code serait gênant. Pour faciliter les choses, tapez ce qui suit dans la console Python:
+Une fois que vous avez terminé, enregistrez les modifications et revenez à FreeCAD. Avant de pouvoir observer les modifications apportées à notre code, nous devons recharger le module. Cela peut être accompli en redémarrant FreeCAD, mais redémarrer FreeCAD à chaque fois que nous éditons le code serait gênant. Pour faciliter les choses, tapez ce qui suit dans la console Python :
 
 
 ```python
@@ -253,7 +253,7 @@ Avec le module rechargé, voyons ce que nous obtenons lorsque nous créons un ob
 box.create('box_property_test')
 ```
 
-Vous devriez voir le nouvel objet boîte apparaître dans l\'arborescence:
+Vous devriez voir le nouvel objet boîte apparaître dans l\'arborescence :
 
 -   Sélectionnez-le et regardez l\'éditeur de propriétés. Là, vous devriez voir la propriété *Description*.
 -   Passez la souris sur le nom de la propriété à gauche et l\'info-bulle devrait apparaître avec la description que vous avez fournie.
@@ -261,7 +261,7 @@ Vous devriez voir le nouvel objet boîte apparaître dans l\'arborescence:
 
 [En haut](#top.md)
 
-Ajoutons quelques propriétés supplémentaires. Retournez à votre code source et ajoutez les propriétés suivantes à la méthode `__init__()`:
+Ajoutons quelques propriétés supplémentaires. Retournez à votre code source et ajoutez les propriétés suivantes à la méthode `__init__()` :
 
 
 ```python

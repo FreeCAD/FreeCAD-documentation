@@ -13,8 +13,11 @@
 
 Das Werkzeug <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw Schnittansicht** Fügt, von einer bestehenden Bauteilansicht ausgehend, (dem Zeichnungsblatt) eine Schnittansicht (kurz: einen Schnitt) hinzu.
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
-*Schnitt (Schnittdarstellung) einer bereits platzierten Ansicht, der die innenliegenden Bohrungen und eine schattierte Schnittfläche zeigt*
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
+*Schnitt (Schnittdarstellung) einer bereits vorhandenen Ansicht, der die innenliegende Bohrung und eine schraffierte Schnittfläche zeigt.<br>
+Das obere Bild zeigt die Schnittpfeile nach ANSI-Vorgabe.<br>
+Das untere Bild zeigt die Schnittpfeile nach ISO-Vorgabe.
+*
 
 ## Anwendung
 
@@ -131,7 +134,7 @@ Die Standardeinstellungen für diese Parameter werden über die Einstellungen **
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Neue Abschnittswerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Werkzeug Schnittansicht kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python

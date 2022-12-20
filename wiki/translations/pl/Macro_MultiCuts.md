@@ -1,18 +1,19 @@
 # Macro MultiCuts/pl
-{{Macro
+{{Macro/pl
 |Name=Macro multiCuts
+|Name/pl=Macro multiCuts
 |Icon=multiCuts.png
-|Description=This macro improves boolean cut hierarchy by automatic labeling and using copies for cut.
+|Description=Makro poprawia hierarchię cięć logicznych poprzez automatyczne etykietowanie i używanie kopii dla cięć.
 |Author=Dprojects
 |Date=2022-08-15
 |Version=1.0
 }}
 
-## Description
+## Opis
 
 ![](images/MultiCuts_test.gif )
 
-## Script
+## Skrypt
 
 
 {{MacroCode|code=

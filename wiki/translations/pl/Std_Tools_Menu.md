@@ -1,4 +1,4 @@
-# <img alt="Ikonka FreeCAD dla Strony Głównej" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/pl
+# <img alt="Ikonka FreeCAD dla Std: Narzędzia standardowe" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/pl
 
 
 {{TOCright}}
@@ -37,7 +37,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Inspektor sceny \...](Std_SceneInspector/pl.md): Wyświetla przegląd węzłów scenograficznych aktywnego widoku 3D.
 
--   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Wykresy zależności \...](Std_ExportGraphviz/pl.md): Pokazuje wykres zależności obiektów.
+-   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Graf zależności \...](Std_ExportGraphviz/pl.md): Pokazuje wykres zależności obiektów.
 
 -   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Narzędzia projektu \...](Std_ProjectUtil/pl.md): Pomaga w naprawie uszkodzonych plików projektu.
 

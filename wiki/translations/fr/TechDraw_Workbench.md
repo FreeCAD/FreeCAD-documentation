@@ -316,15 +316,15 @@ Les outils de TechDraw peuvent être utilisés dans des [macros](Macros/fr.md) e
 
 ## Tutoriels
 
--   [Tutoriel TechDraw de base](Basic_TechDraw_Tutorial/fr.md) : Introduction à la création de dessins avec l\'atelier TechDraw.
+-   [Tutoriel TechDraw de base](Basic_TechDraw_Tutorial/fr.md) : introduction à la création de dessins avec l\'atelier TechDraw.
 -   [Comment créer un modèle](TechDraw_TemplateHowTo/fr.md): instructions pour créer un nouveau modèle de page dans Inkscape à utiliser avec l\'atelier TechDraw.
--   [TechDraw Création de modèles](TechDraw_TemplateGenerator/fr.md) : Instructions pour créer une macro pour générer un modèle de base.
+-   [TechDraw Création de modèles](TechDraw_TemplateGenerator/fr.md) : instructions pour créer une macro pour générer un modèle de base.
 
 :   Quelques lignes de code ajoutées permettent d\'obtenir un outil comme la [Macro TemplateHelper](Macro_TemplateHelper/fr.md).
 
--   [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md) : Instructions pour ajouter des lignes de centre et des représentations angulaires ultérieures sur les trous.
+-   [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md) : instructions pour ajouter des lignes de centre et des représentations angulaires ultérieures sur les trous.
 -   [Comment](TechDraw_HowTo_Page.md): instructions pour différents paramètres tels que les marques centrales etc\...
--   [Tutoriel TechDraw Cercle Imaginaire](TechDraw_Pitch_Circle_Tutorial/fr.md) : Instructions pour ajouter un cercle imaginaire à une vue.
+-   [Tutoriel TechDraw Cercle Imaginaire](TechDraw_Pitch_Circle_Tutorial/fr.md) : instructions pour ajouter un cercle imaginaire à une vue.
 
 Tutoriels video par sliptonic
 

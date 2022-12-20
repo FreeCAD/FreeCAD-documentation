@@ -1,42 +1,43 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh TrimByPlane
-   MenuLocation:Meshes → Cutting → Trim mesh with a plane
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh PolyCut](Mesh_PolyCut.md), [Mesh PolyTrim](Mesh_PolyTrim.md)
+   Name/pl:Siatka Przytnij siatkę płaszczyzną
+   MenuLocation:Siatki → Cięcie → Przytnij siatkę
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Przetnij siatkę](Mesh_PolyCut/pl.md), [Przytnij siatkę](Mesh_PolyTrim/pl.md)
 ---
 
 # Mesh TrimByPlane/pl
 
-## Description
+## Opis
 
-The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a plane from a mesh object.
+Polecenie **Przytnij siatkę płaszczyzną** wycina z obiektu siatkowego ściany i części ścian po jednej stronie płaszczyzny.
 
-## Usage
+## Użycie
 
-1.  Select a single mesh object and a single [Part plane](Part_Primitives.md). The (extended) plane should intersect the mesh object.
+1.  Wybierz pojedynczy obiekt siatki i pojedynczą [Płaszczyznę części](Part_Plane/pl.md). Płaszczyzna *(jej przedłużenie)* powinna przecinać obiekt siatki.
 
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_TrimByPlane.svg" width=16px> [Mesh TrimByPlane](Mesh_TrimByPlane.md)** button.
-    -   Select the **Meshes → Cutting → <img src="images/Mesh_TrimByPlane.svg" width=16px> Trim mesh with a plane** option from the menu.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Mesh_TrimByPlane.svg" width=16px> '''Przytnij siatkę płaszczyzną'''**.
+    -   Wybierz z menu polecenie **Siatki → Cięcie → <img src="images/Mesh_TrimByPlane.svg" width=16px> Przytnij siatkę płaszczyzną**.
 
-3.  The **Trim by plane** dialog box opens.
+3.  Otwiera się okno dialogowe **Przytnij płaszczyzną**.
 
 4.  
-    **Select the side you want to keep**by pressing one of the buttons:
+    **Wybierz stronę, którą chcesz pozostawić**, naciskając jeden z przycisków:
 
     -   
-        {{button|Below}}
+        {{button|Poniżej}}
         
 
     -   
-        {{button|Above}}
+        {{button|Powyżej}}
         
 
     -   
-        {{button|Split}}
+        {{button|Rozdziel}}
         
-        : removes the faces and parts of faces above the plane, and creates a new mesh object containing them.
+        : usuwa ściany i części ścian nad płaszczyzną i tworzy zawierający je nowy obiekt siatki.
 
 
 

@@ -15,22 +15,23 @@ This category contains macros to extend your FreeCAD installation with new funct
 | [Macro Cut Line/de](wiki/Macro Cut Line/de.md) | [Macro Delta xyz/de](wiki/Macro Delta xyz/de.md) | [Macro documentation/de](wiki/Macro documentation/de.md) |
 | [Macro Draft Circle 3 Points 3D/de](wiki/Macro Draft Circle 3 Points 3D/de.md) | [Macro Draft Circle 3 Points/de](wiki/Macro Draft Circle 3 Points/de.md) | [Macro Draw 2D Function/de](wiki/Macro Draw 2D Function/de.md) |
 | [Macro Draw Parametric 2D Function/de](wiki/Macro Draw Parametric 2D Function/de.md) | [Macro DXF to Face and Sketch/de](wiki/Macro DXF to Face and Sketch/de.md) | [Macro EdgesToArc/de](wiki/Macro EdgesToArc/de.md) |
-| [Macro Ellipse-Center+2Points/de](wiki/Macro Ellipse-Center+2Points/de.md) | [Macro FaceToSketch/de](wiki/Macro FaceToSketch/de.md) | [Macro FCInfo Alternate Linux/de](wiki/Macro FCInfo Alternate Linux/de.md) |
-| [Macro FCInfo/de](wiki/Macro FCInfo/de.md) | [Macro findConfigFiles/de](wiki/Macro findConfigFiles/de.md) | [Macro FlattenWire/de](wiki/Macro FlattenWire/de.md) |
-| [Macro ForceRecompute/de](wiki/Macro ForceRecompute/de.md) | [Macro Half-Hull Model/de](wiki/Macro Half-Hull Model/de.md) | [Macro HealArcs/de](wiki/Macro HealArcs/de.md) |
-| [Macro HighlightDifference/de](wiki/Macro HighlightDifference/de.md) | [Macro hinge/de](wiki/Macro hinge/de.md) | [Macro JointWire/de](wiki/Macro JointWire/de.md) |
-| [Macro Line Length/de](wiki/Macro Line Length/de.md) | [Macro Loft/de](wiki/Macro Loft/de.md) | [Macro MacroMenu/de](wiki/Macro MacroMenu/de.md) |
-| [Macro Make Circle 3 Points/de](wiki/Macro Make Circle 3 Points/de.md) | [Macro Make Cube/de](wiki/Macro Make Cube/de.md) | [Macro MeasureCircle/de](wiki/Macro MeasureCircle/de.md) |
-| [Macro MeshToPart/de](wiki/Macro MeshToPart/de.md) | [Macro MessageBox/de](wiki/Macro MessageBox/de.md) | [Macro Normal Vector/de](wiki/Macro Normal Vector/de.md) |
-| [Macro ObjectInfo/de](wiki/Macro ObjectInfo/de.md) | [Macro PartsLibrary/de](wiki/Macro PartsLibrary/de.md) | [Macro PropertyMemo/de](wiki/Macro PropertyMemo/de.md) |
-| [Macro Rectellipse/de](wiki/Macro Rectellipse/de.md) | [Macro Remove parametric history/de](wiki/Macro Remove parametric history/de.md) | [Macro Rotate View/de](wiki/Macro Rotate View/de.md) |
-| [Macro Screen Wiki/de](wiki/Macro Screen Wiki/de.md) | [Macro screw maker1 2/de](wiki/Macro screw maker1 2/de.md) | [Macro SelectVisible/de](wiki/Macro SelectVisible/de.md) |
-| [Macro SimpleProperties/de](wiki/Macro SimpleProperties/de.md) | [Macro Site From Contours/de](wiki/Macro Site From Contours/de.md) | [Macro Snip/de](wiki/Macro Snip/de.md) |
-| [Macro Solid Sweep/de](wiki/Macro Solid Sweep/de.md) | [Macro SuperWire/de](wiki/Macro SuperWire/de.md) | [Macro TemplateHelper/de](wiki/Macro TemplateHelper/de.md) |
-| [Macro Texture Objects/de](wiki/Macro Texture Objects/de.md) | [Macro Texture/de](wiki/Macro Texture/de.md) | [Macro Unfold Box/de](wiki/Macro Unfold Box/de.md) |
-| [Macro Unroll Ruled Surface/de](wiki/Macro Unroll Ruled Surface/de.md) | [Macro View Rotation/de](wiki/Macro View Rotation/de.md) | [Macro WorkFeatures/de](wiki/Macro WorkFeatures/de.md) |
-| [Template:Macro/de](wiki/Template_Macro/de.md) | [Macros recipes/de](wiki/Macros recipes/de.md) | [Macros/de](wiki/Macros/de.md) |
-| [Qt Example/de](wiki/Qt Example/de.md) | [Svg Namespace/de](wiki/Svg Namespace/de.md) |
+| [Macro Ellipse-Center+2Points/de](wiki/Macro Ellipse-Center+2Points/de.md) | [Macro FaceToSketch/de](wiki/Macro FaceToSketch/de.md) | [Macro FCGear/de](wiki/Macro FCGear/de.md) |
+| [Macro FCInfo Alternate Linux/de](wiki/Macro FCInfo Alternate Linux/de.md) | [Macro FCInfo/de](wiki/Macro FCInfo/de.md) | [Macro findConfigFiles/de](wiki/Macro findConfigFiles/de.md) |
+| [Macro FlattenWire/de](wiki/Macro FlattenWire/de.md) | [Macro ForceRecompute/de](wiki/Macro ForceRecompute/de.md) | [Macro Half-Hull Model/de](wiki/Macro Half-Hull Model/de.md) |
+| [Macro HealArcs/de](wiki/Macro HealArcs/de.md) | [Macro HighlightDifference/de](wiki/Macro HighlightDifference/de.md) | [Macro hinge/de](wiki/Macro hinge/de.md) |
+| [Macro JointWire/de](wiki/Macro JointWire/de.md) | [Macro Line Length/de](wiki/Macro Line Length/de.md) | [Macro Loft/de](wiki/Macro Loft/de.md) |
+| [Macro MacroMenu/de](wiki/Macro MacroMenu/de.md) | [Macro Make Circle 3 Points/de](wiki/Macro Make Circle 3 Points/de.md) | [Macro Make Cube/de](wiki/Macro Make Cube/de.md) |
+| [Macro MeasureCircle/de](wiki/Macro MeasureCircle/de.md) | [Macro MeshToPart/de](wiki/Macro MeshToPart/de.md) | [Macro MessageBox/de](wiki/Macro MessageBox/de.md) |
+| [Macro Normal Vector/de](wiki/Macro Normal Vector/de.md) | [Macro ObjectInfo/de](wiki/Macro ObjectInfo/de.md) | [Macro PartsLibrary/de](wiki/Macro PartsLibrary/de.md) |
+| [Macro PropertyMemo/de](wiki/Macro PropertyMemo/de.md) | [Macro Rectellipse/de](wiki/Macro Rectellipse/de.md) | [Macro Remove parametric history/de](wiki/Macro Remove parametric history/de.md) |
+| [Macro Rotate View/de](wiki/Macro Rotate View/de.md) | [Macro Screen Wiki/de](wiki/Macro Screen Wiki/de.md) | [Macro screw maker1 2/de](wiki/Macro screw maker1 2/de.md) |
+| [Macro SelectVisible/de](wiki/Macro SelectVisible/de.md) | [Macro SimpleProperties/de](wiki/Macro SimpleProperties/de.md) | [Macro Site From Contours/de](wiki/Macro Site From Contours/de.md) |
+| [Macro Snip/de](wiki/Macro Snip/de.md) | [Macro Solid Sweep/de](wiki/Macro Solid Sweep/de.md) | [Macro SuperWire/de](wiki/Macro SuperWire/de.md) |
+| [Macro TemplateHelper/de](wiki/Macro TemplateHelper/de.md) | [Macro Texture Objects/de](wiki/Macro Texture Objects/de.md) | [Macro Texture/de](wiki/Macro Texture/de.md) |
+| [Macro Unfold Box/de](wiki/Macro Unfold Box/de.md) | [Macro Unroll Ruled Surface/de](wiki/Macro Unroll Ruled Surface/de.md) | [Macro View Rotation/de](wiki/Macro View Rotation/de.md) |
+| [Macro WorkFeatures/de](wiki/Macro WorkFeatures/de.md) | [Template:Macro/de](wiki/Template_Macro/de.md) | [Macros recipes/de](wiki/Macros recipes/de.md) |
+| [Macros/de](wiki/Macros/de.md) | [Qt Example/de](wiki/Qt Example/de.md) | [Svg Namespace/de](wiki/Svg Namespace/de.md) |
+|
 
 
 

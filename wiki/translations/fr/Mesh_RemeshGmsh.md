@@ -33,7 +33,7 @@ La commande **Mesh Affiner** remet à nouveau un objet maillé en utilisant le m
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

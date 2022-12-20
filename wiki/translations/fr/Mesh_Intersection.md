@@ -28,7 +28,7 @@ La commande **Mesh Intersection** crée un nouvel objet maillé non paramétriqu
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

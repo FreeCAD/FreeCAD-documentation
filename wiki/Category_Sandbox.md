@@ -14,11 +14,12 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
 | [Sandbox:Hollow Cylinder Tutorial](wiki/Sandbox_Hollow Cylinder Tutorial.md) | [Sandbox:HowTo](wiki/Sandbox_HowTo.md) | [Sandbox:Images](wiki/Sandbox_Images.md) |
 | [Sandbox:Keyboard Shortcuts](wiki/Sandbox_Keyboard Shortcuts.md) | [Sandbox:Kinagaki](wiki/Sandbox_Kinagaki.md) | [Sandbox:Mario52](wiki/Sandbox_Mario52.md) |
 | [Sandbox:Mario52/fr](wiki/Sandbox_Mario52/fr.md) | [Sandbox:Roy 043](wiki/Sandbox_Roy 043.md) | [Sandbox:Roy 043 Tmp PD Tut](wiki/Sandbox_Roy 043 Tmp PD Tut.md) |
-| [Sandbox:Simbioz](wiki/Sandbox_Simbioz.md) | [Sandbox:Sketcher import DXF tutorial](wiki/Sandbox_Sketcher import DXF tutorial.md) | [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) |
-| [Sandbox:TechDraw TemplateExplained](wiki/Sandbox_TechDraw TemplateExplained.md) | [Sandbox:TechDraw TemplateHelper](wiki/Sandbox_TechDraw TemplateHelper.md) | [Sandbox:TranslationGuideLines/de](wiki/Sandbox_TranslationGuideLines/de.md) |
-| [Sandbox:TutorialArchBIM](wiki/Sandbox_TutorialArchBIM.md) | [Sandbox:TutorialBIMannex](wiki/Sandbox_TutorialBIMannex.md) | [Sandbox:VWegert](wiki/Sandbox_VWegert.md) |
-| [Sandbox:Wishlist](wiki/Sandbox_Wishlist.md) | [Symbols Library Workbench](wiki/Symbols Library Workbench.md) | [Timber Workbench](wiki/Timber Workbench.md) |
-| [Tutorial guidelines](wiki/Tutorial guidelines.md) | [Workfeature Workbench](wiki/Workfeature Workbench.md) |
+| [Sandbox:Roy 043 Tmp PD Tut 2](wiki/Sandbox_Roy 043 Tmp PD Tut 2.md) | [Sandbox:Simbioz](wiki/Sandbox_Simbioz.md) | [Sandbox:Sketcher import DXF tutorial](wiki/Sandbox_Sketcher import DXF tutorial.md) |
+| [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) | [Sandbox:TechDraw TemplateExplained](wiki/Sandbox_TechDraw TemplateExplained.md) | [Sandbox:TechDraw TemplateHelper](wiki/Sandbox_TechDraw TemplateHelper.md) |
+| [Sandbox:TranslationGuideLines/de](wiki/Sandbox_TranslationGuideLines/de.md) | [Sandbox:TutorialArchBIM](wiki/Sandbox_TutorialArchBIM.md) | [Sandbox:TutorialBIMannex](wiki/Sandbox_TutorialBIMannex.md) |
+| [Sandbox:VWegert](wiki/Sandbox_VWegert.md) | [Sandbox:Wishlist](wiki/Sandbox_Wishlist.md) | [Symbols Library Workbench](wiki/Symbols Library Workbench.md) |
+| [Timber Workbench](wiki/Timber Workbench.md) | [Tutorial guidelines](wiki/Tutorial guidelines.md) | [Workfeature Workbench](wiki/Workfeature Workbench.md) |
+|
 
 
 

@@ -3,15 +3,15 @@
 
 ## Introduction
 
-A partir de la version 0.20 de FreeCAD, les extensions externes (ateliers, macros, et kits de préférences) peuvent être distribués avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est actuellement facultatif pour les blocs de travail et les macros, et obligatoire pour les packs de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https://ros.org/reps/rep-0149.html).
+A partir de la version 0.20 de FreeCAD, les extensions externes (ateliers, macros, et kits de préférences) peuvent être distribuées avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est pour l\'instant facultatif pour les ateliers et les macros, et obligatoire pour les kits de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https://ros.org/reps/rep-0149.html).
 
 ## Format général du fichier 
 
 Ce document décrit actuellement la version 1 du format de fichier.
 
-Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base de la branche principale du logiciel (comme spécifié par le [fichier .gitmodules des addons de FreeCAD](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) dans son dépôt git. Seul le fichier package.xml de la branche principale est pris en compte par le gestionnaire d\'addons. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne sont **pas** une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquet (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
+Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base de la branche principale du logiciel (comme spécifié par le [fichier .gitmodules des extensions de FreeCAD](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) dans son dépôt git. Seul le fichier package.xml de la branche principale est pris en compte par le gestionnaire des extensions. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne sont **pas** une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquet (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
 
-Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire : sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows) FreeCAD convertira automatiquement vers le séparateur correct.
+Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire : sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows), FreeCAD convertira automatiquement vers le séparateur correct.
 
 ## Éléments de contenu 
 
@@ -63,13 +63,13 @@ Le nom de ce paquet. Ne doit contenir que des caractères valides pour les noms 
 
 OBLIGATOIRE
 
-Un numéro de version qui suit soit la [norme de versionnement sémantique 2.0](https://semver.org) (par exemple 1.0.2-beta), soit le style [CalVer](https://calver.org/) (par exemple 2021.12.08). Notez que vous ne pouvez pas inclure les deux types, et que le passage d\'un type à l\'autre n\'est pas pris en charge. En interne, le code n\'a aucune notion du type choisi, lors de la comparaison des versions, il effectue une simple comparaison numérique entre chaque composant numérique successif, quel que soit le type. Notez que ce champ ne peut pas être laissé vide, un numéro de version doit être attribué. Lorsque le gestionnaire d\'addons détecte une augmentation du numéro de version, il affiche l\'information \"mise à jour disponible\" aux utilisateurs.
+Un numéro de version qui suit soit la [norme de versionnement sémantique 2.0](https://semver.org) (par exemple 1.0.2-beta), soit le [style CalVer](https://calver.org/) (par exemple 2021.12.08). Notez que vous ne pouvez pas inclure les deux types, et que le passage d\'un type à l\'autre n\'est pas pris en charge. En interne, le code n\'a aucune notion du type choisi, lors de la comparaison des versions, il effectue une simple comparaison numérique entre chaque composant numérique successif, quel que soit le type. Notez que ce champ ne peut pas être laissé vide, un numéro de version doit être attribué. Lorsque le gestionnaire d\'addons détecte une augmentation du numéro de version, il affiche l\'information \"mise à jour disponible\" aux utilisateurs.
 
 ###  
 
 OBLIGATOIRE
 
-La date de la version en cours, au format AAAA-MM-JJ ou AAA.MM.JJ.
+La date de la version en cours, au format AAAA-MM-JJ ou AAAA.MM.JJ.
 
 ###  
 
@@ -135,7 +135,7 @@ Les licences les plus utilisées :
 
 #### Attributs 
 
--    `file<nowiki>=</nowiki>"FILE"`(facultatif) : Un chemin relatif au fichier `package.xml` contenant le texte complet de la licence. De nombreuses licences exigent l\'inclusion du texte de la licence lors de la redistribution du logiciel. Par exemple, la licence Apache, version 2.0, stipule au paragraphe 4.1 : \"Vous devez remettre à tout autre destinataire de l\'œuvre ou des œuvres dérivées une copie de la présente licence\".
+-    `file<nowiki>=</nowiki>"FILE"`(facultatif) : un chemin relatif au fichier `package.xml` contenant le texte complet de la licence. De nombreuses licences exigent l\'inclusion du texte de la licence lors de la redistribution du logiciel. Par exemple, la licence Apache, version 2.0, stipule au paragraphe 4.1 : \"Vous devez remettre à tout autre destinataire de l\'œuvre ou des œuvres dérivées une copie de la présente licence\".
 
 ###  
 
@@ -197,11 +197,11 @@ alors le fichier package.xml attend :
 
 Optionnel.
 
-Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fichiers peuvent être répertoriés ici. Leur utilisation dépend du type de contenu. Dans un élément de contenu macro, chaque entrée de fichier est une macro unique et sera liée au répertoire d\'installation Macros de l\'utilisateur par le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fichiers peuvent être répertoriés ici. Leur utilisation dépend du type de contenu. Dans un élément de contenu macro, chaque entrée de fichier est une macro unique et sera liée au répertoire d\'installation des macros de l\'utilisateur par le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ###  
 
-Plusieurs autorisés : Le type \"repository\" est obligatoire, et le type \"readme\" est fortement recommandé.
+Plusieurs autorisés : le \"dépôt\" est obligatoire et le type \"readme\" est fortement recommandé.
 
 Un URL (Uniform Resource Locator) pour le site web du paquet, le système de suivi des bogues, le dépôt des sources, le lien de téléchargement du zip, le fichier readme ou la documentation (comme spécifié par l\'attribut \"type\", voir ci-dessous).
 

@@ -1138,15 +1138,6 @@ Interessante Forenbeiträge über geskriptete Objekte:
 Zusätzlich zu den hier vorgestellten Beispielen solltedz du einen Blick in den FreeCAD Quellcode [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) für weitere Beispiele werfen.
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de|[PySide](PySide/de.md)|[Einbetten von FreeCAD](Embedding_FreeCAD/de.md)}}
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/de

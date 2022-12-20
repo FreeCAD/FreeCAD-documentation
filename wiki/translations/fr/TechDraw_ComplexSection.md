@@ -14,13 +14,13 @@
 
 L\'outil <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:24px;"> **TechDraw Vue en coupe complexe** insère une vue en coupe transversale basée sur une vue de la pièce existante et un profil.
 
-<img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:350px;"> 
 *Une vue en quart de coupe créée avec l'outil Vue en coupe complexe*
 
-<img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_AlignedSection_example.png  style="width:350px;"> 
 *Une vue en coupe alignée créée avec l'outil Vue en coupe complexe*
 
-<img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_OffsetSection_example.png  style="width:350px;"> 
 *Une vue en coupe décalée créée avec l'outil Vue en coupe complexe*
 
 ## Utilisation

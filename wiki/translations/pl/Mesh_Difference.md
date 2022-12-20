@@ -1,33 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh Difference
-   MenuLocation:Meshes → Boolean → Difference
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md)
+   Name/pl:Siatka Różnica
+   MenuLocation:Siatki → Operacje logiczne → Różnica
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Połączenie](Mesh_Union/pl.md), [Przecięcie](Mesh_Intersection/pl.md)
 ---
 
 # Mesh Difference/pl
 
 ## Opis
 
-The **Mesh Difference** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the difference of two mesh objects: one mesh object is cut from the other.
+Polecenie **Różnica**\' tworzy nowy nieparametryczny obiekt siatkowy [cecha siatki](Mesh_Feature/pl.md), który jest różnicą dwóch obiektów siatkowych: jeden obiekt siatkowy jest wycięty z drugiego.
 
-[OpenSCAD](http://www.openscad.org/) must be installed to use this command, and the path to its executable must be set in the [OpenSCAD preferences](OpenSCAD_Preferences.md).
+[OpenSCAD](http://www.openscad.org/) musi być zainstalowany, aby użyć tego polecenia, a ścieżka do jego pliku wykonywalnego musi być ustawiona w [ustawieniach OpenSCAD](OpenSCAD_Preferences/pl.md).
 
 ![](images/Mesh_Difference_example.png ) 
-*On the left two mesh objects, on the right the mesh object that is the difference of those objects if the cube is selected as the main object*
+*Po lewej dwa obiekty siatkowe, po prawej obiekt siatkowy, który jest różnicą tych obiektów, jeśli sześcian jest wybrany jako obiekt główny.*
 
 ## Użycie
 
-1.  Select the main mesh object.
-2.  Add the mesh object you want to cut from the main object to the selection. The mesh objects must overlap.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Difference.svg" width=16px> [Mesh Difference](Mesh_Difference.md)** button.
-    -   Select the **Meshes → Boolean → <img src="images/Mesh_Difference.svg" width=16px> Difference** option from the menu.
+1.  Wybierz główny obiekt siatki.
+2.  Dodaj do zaznaczenia obiekt siatkowy, który chcesz wyciąć z głównego obiektu. Obiekty siatkowe muszą się pokrywać.
+3.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_Difference.svg" width=16px> '''Różnica'''**.
+    -   Wybierz z menu opcję **Siatki → Operacje logiczne → <img src="images/Mesh_Difference.svg" width=16px> Różnica**.
 
 ## Właściwości
 
-See: [Mesh Feature](Mesh_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 

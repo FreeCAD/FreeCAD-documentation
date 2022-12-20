@@ -13,8 +13,10 @@
 
 L\'outil <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw Vue en coupe** insère une vue en coupe transversale basée sur une vue de la pièce existante.
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
-*Vue en coupe déjà placée qui montre les trous internes et une surface de coupe ombrée*
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
+*Vue en coupe déjà placée qui montre les trous internes et une surface de coupe hachurée.<br>
+L'image du haut montre le format de flèche ANSI.<br>
+L'image du bas montre le format de flèche ISO.*
 
 ## Utilisation
 

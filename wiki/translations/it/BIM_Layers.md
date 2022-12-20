@@ -2,25 +2,22 @@
 - GuiCommand:Addon/it
    Name:BIM Layers
    Name/it:Strati BIM
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Workbenches:[BIM](BIM_Workbench/it.md)
    Addon:BIM
    MenuLocation:Gestione → Strati
 ---
 
 # BIM Layers/it
 
-
-</div>
-
 ## Descrizione
 
 <img alt="" src=images/BIM_layers_screenshot.png  style="width:1024px;">
 
-The layers manager allows you to manage [layers](Draft_Layer.md). Layers are a special kind of group that controls the visual properties of objects placed inside of it. By changing the properties of the Layer, such as line width, line color, shape color and transparency, the changes are propagated to its child objects. Layers don\'t interfere with any other FreeCAD structure such as [groups](Std_Group.md) or [Building parts](Arch_BuildingPart.md), so any object can be at the same time part of a layer and part of a group.
+Il gestore dei layer ti permette di gestire i [layer](Draft_Layer/it.md). I layer sono un tipo speciale di gruppo che controlla le proprietà visive degli oggetti posizionati al suo interno. Modificando le proprietà del layer, come la larghezza della linea, il colore della linea, il colore della forma e la trasparenza, le modifiche vengono propagate ai suoi oggetti figlio. I layer non interferiscono con nessun\'altra struttura di FreeCAD come [gruppi](Std_Group/it.md) o [Parti di edificio](Arch_BuildingPart/it.md), quindi qualsiasi oggetto può essere allo stesso tempo parte di un layer e parte di un gruppo.
 
-Layers are imported and exported from/to [IFC](Arch_IFC.md) and [DXF/DWG](Draft_DXF.md).
+I layer vengono importati ed esportati da/a [IFC](Arch_IFC/it.md) e [DXF/DWG](Draft_DXF/it.md).
 
-The layers manager allow you to manage your layers, add or remove layers, or change their visual properties. To add objects to a layer, simply drag them into the layer in the tree view. To remove them, drag them from the layer and drop them into the document root.
+Il gestore dei layer consente di gestire i tuoi layer, aggiungerli e rimuoverli o modificare le loro proprietà visive. Per aggiungere oggetti a un layer, trascinali semplicemente nel layer nella vista ad albero. Per rimuoverli, trascinali dal layer e rilasciali nella radice del documento.
 
 
 

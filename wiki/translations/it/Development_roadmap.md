@@ -1,17 +1,17 @@
 # Development roadmap/it
-## Introduction
+## Introduzione
 
-There is no roadmap for the whole FreeCAD project. If you want to get involved it is best to ask in the [Developer section](https://forum.freecadweb.org/viewforum.php?f=10) of the [FreeCAD forum](https://forum.freecadweb.org/index.php).
+Non esiste una tabella di marcia per l\'intero progetto FreeCAD. Se vuoi essere coinvolto, è meglio chiedere nella [Developer section](https://forum.freecadweb.org/viewforum.php?f=10) del [Forum di FreeCAD](https://forum.freecadweb.org/index.php).
 
-The following links may help you get started:
+I seguenti collegamenti possono aiutarti a iniziare:
 
--   The [Organization chart](Organization_chart.md) shows who does what in the FreeCAD universe.
--   The [current issues on GitHub](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue).
--   The [Roadmap Category on this Wiki](:Category_Roadmap.md). Note that there are only very few pages in this category and as such they do not give a good representation of the current FreeCAD development.
+-   L\'[Organigramma](Organization_chart/it.md) mostra chi fa cosa nell\'universo di FreeCAD.
+-   I [problemi attuali su GitHub](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue).
+-   La [Categoria Roadmap su questo Wiki](:Category_Roadmap.md). Si noti che ci sono solo pochissime pagine in questa categoria e come tali non danno una buona rappresentazione dell\'attuale sviluppo di FreeCAD.
 
 ## Roadmap project template 
 
-Some roadmaps on the Wiki use the [Getting Things Done (GTD)](https://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) style for the project document. Here is the [Project template](Project_template.md).
+Alcune roadmap sul Wiki usano lo stile [Getting Things Done (GTD)](https://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) per il documento del progetto. Ecco il [Modello di progetto](Project_template.md).
 
 
 

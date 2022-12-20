@@ -22,8 +22,17 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 </div>
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Sezione di una vista già posizionata, che mostra i fori interni e la superficie di taglio ombreggiata*
+
+
+</div>
 
 ## Utilizzo
 

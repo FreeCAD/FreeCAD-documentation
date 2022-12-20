@@ -1,15 +1,15 @@
-# <img alt="Ikonka FreeCAD dla Strony Głównej" src=images/Freecad.svg  style="width:64px;"> Std Base/pl
+# <img alt="Ikonka FreeCAD dla Std: Narzędzia standardowe" src=images/Freecad.svg  style="width:64px;"> Std Base/pl
 
 
 {{TOCright}}
 
 ## Wprowadzenie
 
-[Strona główna](Std_Base/pl.md) nie jest tak naprawdę środowiskiem pracy, ale raczej kategorią *standardowych* poleceń i narzędzi, które mogą być używane we wszystkich środowiskach pracy.
+Środowisko pracy **Narzędzia standardowe** nie jest tak naprawdę środowiskiem pracy, ale raczej kategorią *podstawowych* poleceń i narzędzi, które mogą być używane we wszystkich środowiskach pracy.
 
 ## Przybory
 
-Większość narzędzi [Głównych](Std_Base/pl.md) jest dostępna z [menu standardowego](Standard_Menu/pl.md), i standardowy pasek narzędzi. Te, które są dostępne tylko poprzez pasek narzędzi lub menu kontekstowe, są wymienione w sekcji [narzędzia dodatkowe](#Narzędzia_dodatkowe.md).
+Większość **narzędzi Głównych** jest dostępna z [menu standardowego](Standard_Menu/pl.md), i standardowy pasek narzędzi. Te, które są dostępne tylko poprzez pasek narzędzi lub menu kontekstowe, są wymienione w sekcji [narzędzia dodatkowe](#Narzędzia_dodatkowe.md).
 
 ### Memu narzędzia Standardowe 
 

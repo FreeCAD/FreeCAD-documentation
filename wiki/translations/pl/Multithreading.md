@@ -1,5 +1,5 @@
 # Multithreading/pl
-**Jest to temat, który wymaga rozwinięcia..**
+**Jest to temat, który wymaga rozwinięcia.**
 
 ## Wielowątkowość i FreeCAD 
 

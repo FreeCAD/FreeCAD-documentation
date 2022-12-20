@@ -1,4 +1,4 @@
-# <img alt="Ikonka FreeCAD dla Strony Głównej" src=images/Freecad.svg  style="width:64px;"> Std Help Menu/pl
+# <img alt="Ikonka FreeCAD dla Std: Narzędzia standardowe" src=images/Freecad.svg  style="width:64px;"> Std Help Menu/pl
 
 
 {{TOCright}}

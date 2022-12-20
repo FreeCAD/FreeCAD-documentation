@@ -1,134 +1,134 @@
 # Mesh Feature/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Mesh_Tree.svg  style="width:32px;">
 
-A [Mesh Feature](Mesh_Feature.md) object, or formally a `Mesh::Feature`, is a simple element with an associated [mesh object](Mesh_MeshObject.md) that can be displayed in the [3D view](3D_view.md).
+Obiekt [Cecha siatki](Mesh_Feature/pl.md), lub formalnie `Mesh::Feature`, jest prostym elementem z powiązanym [obiektem siatki](Mesh_MeshObject/pl.md), który może być wyświetlany w oknie [widoku 3D](3D_view/pl.md).
 
-A Mesh Feature is similar conceptually to a [Part Feature](Part_Feature.md); the former is the base object for elements with \"mesh\" information, while the latter is the base object for elements with \"geometrical shape\" information.
+Cecha siatki jest podobna koncepcyjnie do cechy [Część: Cecha](Part_Feature/pl.md). Pierwsza jest obiektem bazowym dla elementów z informacją o \"siatce\", podczas gdy druga jest obiektem bazowym dla elementów z informacją o \"kształcie geometrycznym\".
 
-Please note that the [FEM Workbench](FEM_Workbench.md) also uses meshes, but it uses a different object, called [FEM FemMeshObject](FEM_Mesh.md) (`Fem::FemMeshObject` class). This object is not derived from the Mesh Feature and has different properties.
+Proszę zauważyć, że środowisko pracy [MES](FEM_Workbench/pl.md) również używa siatek, ale używa innego obiektu, zwanego [MES: Siatka](FEM_Mesh/pl.md) *(klasa `Fem::FemMeshObject`)*. Obiekt ten nie jest pochodną cechy Siatka i ma inne właściwości.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
-## Usage
+## Użycie
 
-Almost all mesh objects created by the commands available in the [Mesh Workbench](Mesh_Workbench.md) are [Mesh Features](Mesh_Feature.md). The parametric mesh objects created by the [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md) command are the only exception. A [Mesh Feature](Mesh_Feature.md) can also be created from the [Python console](Python_console.md) as described in the [Scripting](#Scripting.md) section.
+Prawie wszystkie obiekty siatkowe tworzone poleceniami dostępnymi w środowisku pracy [Siatka](Mesh_Workbench/pl.md) są [cechami siatki](Mesh_Feature/pl.md). Wyjątek stanowią parametryczne obiekty siatkowe tworzone poleceniem [Utwórz bryłę pierwotną](Mesh_BuildRegularSolid/pl.md). Obiekt [cecha siatki](Mesh_Feature/pl.md) można również utworzyć z poziomu [konsoli Python](Python_console/pl.md), jak opisano w sekcji [tworzenie skryptów](#Tworzenie_skrypt.C3.B3w.md).
 
-The `Mesh::Feature` is defined in the [Mesh Workbench](Mesh_Workbench.md) but can be used as the base class for [scripted objects](Scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D meshes.
+Klasa `Mesh::Feature` jest zdefiniowana w środowisku pracy [Siatka](Mesh_Workbench/pl.md), ale może być użyta jako klasa bazowa dla [obiektów tworzonych skryptami](Scripted_objects/pl.md) we wszystkich [środowiskach pracy](Workbenches/pl.md), które wytwarzają płaskie i przestrzenne siatki.
 
-A `Mesh::Feature` has simple properties like a [placement](Placement.md), and visual properties to define the appearance of its edges and faces.
+Obiekt `Mesh::Feature` posiada proste właściwości, takie jak [umiejscowienie](Placement/pl.md), oraz właściwości wizualne określające wygląd jego krawędzi i ścian.
 
-## Properties
+## Właściwości
 
-See [Property](Property.md) for all property types that scripted objects can have.
+Zapoznaj się z treścią na stronie [Właściwości](Property/pl.md) aby poznać wszystkie typy właściwości, które mogą mieć obiekty tworzone skryptami.
 
-The [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) and inherits all its properties. It also has several additional properties. Notably a **Mesh** property, which stores its [Mesh MeshObject](Mesh_MeshObject.md). This is the geometry that is shown in the [3D view](3D_view.md).
+Klasa [Siatka: Cecha](Mesh_Feature/pl.md) (`Mesh::Feature`) wywodzi się z podstawowej [Cechy geometrii](App_GeoFeature/pl.md) (`App::GeoFeature`) i dziedziczy wszystkie jej właściwości. Posiada również kilka dodatkowych właściwości. Przede wszystkim właściwość **Siatka**, która przechowuje jej [obiekt siatki](Mesh_MeshObject/pl.md). Jest to geometria, która jest wyświetlana w oknie [widoku 3D](3D_view/pl.md).
 
-These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
 
-### Data
+### Dane
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
--    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](#Scripting.md).
+-    **Pośrednik|PythonObject|Hidden**: niestandardowa klasa związana z tym obiektem. Istnieje to tylko dla wersji [Python](Python.md). Zobacz akapit [Tworzenie skryptów](#Tworzenie_skryptów/pl.md).
 
--    **Mesh|MeshKernel**: a [Mesh MeshObject](Mesh_MeshObject.md) class associated with this object. It lists the number of {{Value|Points}}, {{Value|Edges}}, and {{Value|Faces}} of the mesh.
+-    **Siatka|MeshKernel**: klasa [Siatka: MeshObject](Mesh_MeshObject/pl.md) związana z tym obiektem. Wymienia ona liczbę {{Value|Punktów}}, {{Value|Krawędzi}} i {{Value|Ścian}} siatki.
 
--    **Placement|Placement**: the position of the object in the [3D view](3D_view.md). The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
-
-    -   
-        **Angle**
-        
-        : the angle of rotation around the **Axis**. By default, it is {{value|0°}} (zero degrees).
+-    **Umiejscowienie|Placement**: pozycja obiektu w oknie [widoku 3D](3D_view/pl.md). Umiejscowienie jest określone przez `Base` punkt *(wektor)*, oraz `Obrót` *(oś i kąt)*. Zobacz stronę [Umiejscowienie](Placement/pl.md)
 
     -   
-        **Axis**
+        **Kąt**
         
-        : the unit vector that defines the axis of rotation for the placement. Each component is a floating point value between {{value|0}} and {{value|1}}. If any value is above {{value|1}}, the vector is normalized so that the magnitude of the vector is {{value|1}}. By default, it is the positive Z axis, {{value|(0, 0, 1)}}.
+        : kąt obrotu wokół **Oś**. Domyślnie jest to wartość {{value|0°}} *(zero stopni)*.
 
     -   
-        **Position**
+        **Oś**
         
-        : a vector with the 3D coordinates of the base point. By default, it is the origin {{value|(0, 0, 0)}}.
+        : wektor jednostkowy określający oś obrotu dla umiejscowienia. Każdy element jest wartością zmiennoprzecinkową pomiędzy {{value|0}} a {{value|1}}. Jeśli jakakolwiek wartość jest większa od {{value|1}}, wektor jest normalizowany tak, aby jego wielkość wynosiła {{value|1}}. Domyślnie jest to dodatnia oś Z, {{value|(0, 0, 1)}}.
 
--    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
+    -   
+        **Pozycja**
+        
+        : wektor zawierający współrzędne 3D punktu bazowego. Domyślnie jest to początek układu odniesienia {{value|(0, 0, 0)}}.
 
--    **Label2|String|Hidden**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
+-    **Etykieta|String**: edytowalna przez użytkownika nazwa tego obiektu, jest to dowolny ciąg znaków UTF8.
 
--    **Expression Engine|ExpressionEngine|Hidden**: a list of expressions. By default, it is empty {{value|[]}}.
+-    **Etykieta2|String|Hidden**: dłuższy, edytowalny przez użytkownika opis tego obiektu, jest to dowolny ciąg UTF8, który może zawierać znaki nowej linii. Domyślnie jest to pusty ciąg {{value|""}}.
 
--    **Visibility|Bool|Hidden**: whether to display the object or not.
+-    **Silnik wyrażeń|Hidden**: lista wyrażeń. Domyślnie jest pusta {{value|[]}}.
 
-### View
+-    **Widoczność|Bool|Hidden**: decyduje czy wyświetlać obiekt, czy nie.
 
-
-{{TitleProperty|Base}}
-
--    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](#Scripting.md).
-
-
-{{TitleProperty|Display Options}}
-
--    **Bounding Box|Bool**: if it is `True`, the object will show the bounding box in the [3D view](3D_view.md).
-
--    **Display Mode|Enumeration**: {{value|Shaded}} (no edges), {{value|Wireframe}} (no faces), {{value|Flat Lines}} (regular visualization), {{value|Points}} (only vertices).
-
--    **Show In Tree|Bool**: if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
-
--    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar.
+### Widok
 
 
-{{TitleProperty|Object Style}}
+{{TitleProperty|Podstawowe}}
 
--    **Coloring|Bool|Hidden**: it defaults to `False`.
-
--    **Crease Angle|FloatConstraint**:
-
--    **Lighting|Enumeration**: {{value|One side}} (default), {{value|Two side}}; the illumination comes from two sides or one side in the [3D view](3D_view.md).
-
--    **Line Color|Color**: a tuple of three floating point RGB values completely black .
-
--    **Line Transparency|Percent**: an integer from {{value|0}} to {{value|100}} (a percentage) that determines the level of transparency of the edges in the [3D view](3D_view.md). A value of {{value|100}} indicates completely invisible edges; the edges are invisible but they can still be picked as long as **Selectable** is `True`.
-
--    **Line Width|FloatConstraint**: a float that determines the width in pixels of the edges in the [3D view](3D_view.md). It defaults to {{value|1.0}}.
-
--    **Open Edges|Bool**: it defaults to `False`.
-
--    **Point Size|FloatConstraint**: similar to **Line Width**, defines the size of the vertices.
-
--    **Shape Color|Color**: similar to light gray.
-
--    **Shape Material|Material|Hidden**: an [App Material](App_Material.md) associated with this object. By default it is empty.
-
--    **Transparency|Percent**: an integer from {{value|0}} to {{value|100}} (a percentage) that determines the level of transparency of the faces in the [3D view](3D_view.md). A value of {{value|100}} indicates completely invisible faces; the faces are invisible but they can still be picked as long as **Selectable** is `True`.
+-    **Proxy|PythonObject|Ukryte**: klasa własna [dostawca widoku](Viewprovider/pl.md) związana z tym obiektem. Istnieje wyłącznie dla wersji środowiska [Python](Python/pl.md). Zobacz sekcję [tworzenie skryptów](#Tworzenie_skrypt.C3.B3w.md).
 
 
-{{TitleProperty|Selection}}
+{{TitleProperty|Opcje wyświetlania}}
 
--    **On Top When Selected|Enumeration**: {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+-    **Ramka Otaczająca|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt będzie pokazywał Ramkę otaczającą w oknie [widoku 3D](3D_view/pl.md).
 
--    **Selectable|Bool**: if it is `True`, the object can be picked with the pointer in the [3D view](3D_view.md). Otherwise, the object cannot be selected until this option is set to `True`.
+-    **Tryb wyświetlania|Enumeration**: {{value|Cieniowany}} *(bez krawędzi)*, {{value|Szkielet}} *(bez ścian)*, {{value|Cieniowany z krawędziami}} *(zwykła wizualizacja)*, {{value|Punkty}} *(tylko wierzchołki)*.
 
--    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
+-    **Pokazuj na drzewie|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt pojawia się w oknie [Widoku Drzewa](Tree_view/pl.md). W przeciwnym razie jest niewidoczny.
 
-## Scripting
+-    **Widoczność|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt pojawia się w oknie [widoku 3D](3D_view/pl.md). W przeciwnym razie jest niewidoczny. Domyślnie właściwość ta może być włączana i wyłączana przez naciśnięcie klawisza **Spacja**.
 
 
-**See also:**
+{{TitleProperty|Styl obiektu}}
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+-    **Kolorowanie|Bool|Hidden**: wartość domyślna to {{FALSE/pl}}.
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+-    **Kąt zagięcia|FloatConstraint**:
 
-A Mesh Feature is created with the `addObject()` method of the document.
+-    **Oświetlenie|Enumeration**: {{value|Jednostronnie}} *(wartość domyślna)*, {{value|Dwustronnie}}. Oświetlenie pochodzi z dwóch stron lub z jednej strony w oknie [widoku 3D](3D_view/pl.md).
+
+-    **Kolor linii|Color**: krotka trzech zmiennoprzecinkowych wartości RGB completely black .
+
+-    **Przejrzystość linii|Percent**: wartość całkowita od {{value|0}} do {{value|100}} *(wartość procentowa)* określająca poziom przezroczystości krawędzi w oknie [widoku 3D](3D_view/pl.md). Wartość {{value|100}} oznacza całkowicie niewidoczne krawędzie. Krawędzie są niewidoczne, ale nadal można je wybrać, o ile parametr **Do wyboru** ma wartość {{TRUE/pl}}.
+
+-    **Szerokość linii|FloatConstraint**: wartość typu zmiennoprzecinkowego określająca szerokość krawędzi w pikselach wyświetlane w oknie [widoku 3D](3D_view/pl.md). Wartość domyślna to {{value|1.0}}.
+
+-    **Otwarte krawędzie|Bool**: wartość domyślna to {{FALSE/pl}}.
+
+-    **Rozmiar punktu|FloatConstraint**: podobnie jak **Szerokość linii**, określa rozmiar wierzchołków.
+
+-    **Kolor kształtu|Color**: podobnie jak light gray.
+
+-    **Materiał kształtu|Material|Hidden**: obiekt [Materiał](App_Material/pl.md) związany z tym obiektem. Domyślnie jest on pusty.
+
+-    **Przezroczystość|Percent**: wartość całkowita od {{value|0}} do {{value|100}} *(wartość procentowa)* określająca poziom przezroczystości ścian w oknie [widoku 3D](3D_view/pl.md). Wartość {{value|100}} oznacza całkowicie niewidoczne ściany. Ściany są niewidoczne, ale nadal można je wybrać, o ile parametr **Do wyboru** ma wartość {{TRUE/pl}}.
+
+
+{{TitleProperty|Wybieranie}}
+
+-    **Na górze po wybraniu|Enumeration**: {{value|Wyłączony}} *(domyślnie)*, {{value|Włączony}}, {{value|Objekt}}, {{value|Element}}.
+
+-    **Do wyboru|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt można wybrać kursorem w oknie [widoku 3D](3D_view/pl.md). W przeciwnym razie obiekt nie może być wybrany, dopóki opcja ta nie zostanie ustawiona na wartość {{TRUE/pl}}.
+
+-    **Styl wyboru|Enumeration**: {{value|Kształt}} *(domyślnie)*, {{value|Ramka Otaczająca}}. Jeśli parametr ma wartość {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md). Jeśli {{value|Ramka Otaczająca}}, podświetlone zostanie tylko pole ograniczające.
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty tworzone skryptami](Scripted_objects/pl.md).
+
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć w [Część: właściwość](Part_Feature/pl.md).
+
+Cecha siatki jest tworzona za pomocą metody dokumentu `addObject()`.
 
 
 ```python
@@ -139,7 +139,7 @@ obj = App.ActiveDocument.addObject("Mesh::Feature", "Name")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create the `Mesh::FeaturePython` object.
+Dlatego też, dla klasy podrzędnej [Python](Python/pl.md), powinieneś stworzyć obiekt `Mesh::FeaturePython`.
 
 
 ```python

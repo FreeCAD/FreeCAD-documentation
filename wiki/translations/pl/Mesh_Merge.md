@@ -1,27 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh Merge
-   MenuLocation:Meshes → Merge
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh SplitComponents](Mesh_SplitComponents.md)
+   Name/pl:Siatka: Scal
+   MenuLocation:Siatki → Scal
+   Workbenches:[Mesh](Mesh_Workbench/pl.md)
+   SeeAlso:[Rozbij na komponenty](Mesh_SplitComponents/pl.md)
 ---
 
 # Mesh Merge/pl
 
-## Description
+## Opis
 
-The **Mesh Merge** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), by combining the meshes of two or more mesh objects. The command does not perform a Boolean union, the new object will contain separate mesh components. For a Boolean union use the [Mesh Union](Mesh_Union.md) command instead. This command is the counterpart of the [Mesh SplitComponents](Mesh_SplitComponents.md) command.
+Polecenie **Scal** tworzy nowy nieparametryczny obiekt siatkowy, [cecha siatki](Mesh_Feature/pl.md), poprzez połączenie siatek dwóch lub więcej obiektów siatkowych. Polecenie nie wykonuje połączenia logicznego, nowy obiekt będzie zawierał oddzielne elementy siatki. Dla połączenia logicznego użyj zamiast tego polecenia, funkcji [Połączenie](Mesh_Union/pl.md). To polecenie jest odpowiednikiem polecenia [Rozbij na komponenty](Mesh_SplitComponents/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select two or more mesh objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Merge.svg" width=16px> [Mesh Merge](Mesh_Merge.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_Merge.svg" width=16px> Merge** option from the menu.
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_Merge.svg" width=16px> '''Scal'''**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_Merge.svg" width=16px> Scal**.
 
-## Properties
+## Właściwości
 
-See: [Mesh Feature](Mesh_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 

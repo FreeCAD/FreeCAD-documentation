@@ -35,64 +35,64 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
 
 ### Edycja funkcji grubość 
 
-1.  Do one of the following:
-    -   Double-click the Thickness object in the [Tree view](Tree_view.md)
-    -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
-2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
-3.  Press the **OK** button to finish.
+1.  Wykonaj jedną z poniższych czynności:
+    -   Kliknij dwukrotnie obiekt Grubość w oknie [Widoku drzewa](Tree_view/pl.md).
+    -   Kliknij obiekt Grubość prawym przyciskiem myszy w oknie [Widok drzewa](Tree_view/pl.md) i wybierz **Edytuj Grubość** z menu kontekstowego.
+2.  Otworzy się panel [Panel zadań](Task_panel/pl.md) **Parametry funkcji Grubość**. Więcej informacji można znaleźć w punkcie [Opcje](#Opcje.md).
+3.  Naciśnij przycisk **OK**, aby zakończyć.
 
 ## Opcje
 
--    **Add face**: Add faces to the selection by pressing the **Add face** button and selecting more faces.
+-    **Dodaj ścianę**: Dodanie ścian do zaznaczenia poprzez naciśnięcie przycisku **Dodaj ścianę** i wybranie kolejnych ścian.
 
--    **Remove face**: Choose a way to remove faces from the selection:
+-    **Usuń ścianę**: Wybierz sposób usuwania ścian z zaznaczenia:
 
-    -   Select one or more faces in the list and press the **Del** key or right-click the list and select **Remove** from the context menu.
-    -   Press the **Remove face** button. All previously selected faces are highlighted in purple. Select each face to be removed.
+    -   Zaznacz jedną lub więcej ścian na liście i naciśnij klawisz **Del** lub kliknij prawym przyciskiem myszy listę i wybierz z menu kontekstowego opcję **Skasuj**.
+    -   Naciśnij przycisk **Usuń ścianę**. Wszystkie wcześniej wybrane ściany są podświetlone na fioletowo. Wybierz każdą ścianę, która ma zostać usunięta.
 
--    **Thickness**: Set the wall thickness either by editing the value or by clicking the up/down arrows.
+-    **Grubość**: Ustaw grubość ścianki albo edytując wartość, albo klikając strzałki góra/dół.
 
--    **Mode**:
-
-    -   
-        **Skin**
-        
-        : Only this option can be selected.
+-    **Tryb**:
 
     -   
-        **Pipe**
+        **Powłoka**
         
-        : Not implemented. See [this forum topic](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+        : Można wybrać tylko tę opcję.
 
     -   
-        **Recto Verso**
+        **Rura**
         
-        : Not implemented. See [idem](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
-
--    **Join Type**:
+        : Nie zaimplementowane. Zobacz [ten temat na forum](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495)
 
     -   
-        **Arc**
+        **Obie strony**
         
-        : When non-tangential faces are offset, new faces that do not intersect are joined by a fillet with a radius equal to the defined thickness.
+        : Nie zaimplementowane. Zobacz [ten temat na forum](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+
+-    **Typ dołączenia**:
 
     -   
-        **Intersection**
+        **Łuk**
         
-        : When non-tangential faces are offset, new faces that do not intersect are extended to meet at their virtual intersection.
+        : Gdy przesunięte są powierzchnie styczne, nowe ściany, które się nie przecinają, są łączone za pomocą zaokrąglenia o promieniu równym zdefiniowanej grubości.
 
--    **Intersection**: When checked, self-intersections in certain models are avoided. This option is not recommended as it relies on an incomplete [OpenCASCADE method](https://dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
+    -   
+        **Przecięcie**
+        
+        : Gdy niestyczne ściany są odsunięte, nowe ściany, które nie przecinają się, są przedłużane, aby spotkać się na ich wirtualnym przecięciu.
 
--    **Make thickness inwards**: When checked, faces are offset inward.
+-    **Przecięcie**: Gdy opcja jest zaznaczona, unikane są samoczynne przecięcia w niektórych modelach. Ta opcja nie jest zalecana, ponieważ opiera się na niekompletnej [metodzie OpenCASCADE](https://dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
+
+-    **Stwórz grubość do wewnątrz**: Gdy opcja jest zaznaczona, ściany są przesunięte do wewnątrz.
 
 ## Uwagi
 
--   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
--   The tool may fail with complex shapes. [Additive Pipe](PartDesign_AdditivePipe.md) or [Additive Loft](PartDesign_AdditiveLoft.md) may work better to create complex shapes.
--   Known errors:
-    -   BRep_API: command not done.
-    -   BRep_Tool: no parameter on edge.
-    -   Silently fails.
+-   Jeśli grubość idzie do wewnątrz, wartość musi być mniejsza niż najmniejsza wysokość bryły.
+-   Narzędzie może zawieść przy złożonych kształtach. [Wyciągnięcie po ścieżce](PartDesign_AdditivePipe/pl.md) lub [Wyciągnięcie przez profile](PartDesign_AdditiveLoft/pl.md) mogą działać lepiej przy tworzeniu złożonych kształtów.
+-   Znane błędy:
+    -   BRep_API: polecenie nie wykonane.
+    -   BRep_Tool: brak parametru na krawędzi.
+    -   Cichy błąd.
 
 ## Właściwości
 
@@ -105,34 +105,34 @@ Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i 
 
 {{Properties_Title|Podstawowe}}
 
--    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
+-    **Base|LinkSub**: Link podrzędny do listy wybranych krawędzi i ścian cechy nadrzędnej.
 
--    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
+-    **Support Transform|Bool**: \"Uwzględnij bazowy kształt addytywny/subtraktywny, gdy jest używany w cechach wzorcowych. Jeśli wyłączone, tylko ubrana część kształtu jest używana do wzorowania\". Domyślnie: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
 
--    **Base Feature|Link|hidden**: Link to the parent feature.
+-    **Base Feature|Link|hidden**: Link do cechy nadrzędnej.
 
--    **_ Body|LinkHidden|hidden**: Link to the parent body.
+-    **_ Body|LinkHidden|hidden**: Link do bryły nadrzędnej.
 
 
 {{Properties_Title|Projekt Części}}
 
--    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Ulepsz|Bool**: \"Ulepsz kształt *(usuń zbędne krawędzie)* po operacji dodawania/odejmowania\". Wartość domyślna jest określana przez preferencję **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu**. Zobacz [Projekt Części: Ustawienia](PartDesign_Preferences/pl#Og.C3.B3lne.md).
 
 
 {{Properties_Title|Grubość}}
 
--    **Value|Length**: \"Thickness value\". Default: {{value|1 mm}}.
+-    **Value|Długość**: \"Wartość grubości\". Domyślnie: {{value|1 mm}}.
 
--    **Mode|Enumeration**: \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+-    **Tryb|Enumeration**: \"Tryb\". {{value|Powłoka}} *(domyślnie)*, {{value|Rura}} lub {{Value|Obie strony}}. Tylko opcja {{value|Powłoka}} jest zaimplementowana.
 
--    **Join|Enumeration**: \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+-    **Dołącz|Enumeration**: \"Tryb dołączenia\". {{value|Łuk}} *(domyślnie)* lub {{Value|Przecięcie}}.
 
--    **Reversed|Bool**: \"Apply the thickness towards the solids interior\". Default: `False`.
+-    **Odwrócony|Bool**: \"Stwórz grubość do wewnątrz\". Domyślnie: {{FALSE/pl}}.
 
--    **Intersection|Bool**: \"Enable intersection-handling\". Default: `False`.
+-    **Przecięcie|Bool**: \"Włącz obsługę przecięć\". Domyślnie: {{FALSE/pl}}.
 
 
 

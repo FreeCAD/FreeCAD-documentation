@@ -23,7 +23,7 @@ La commande **Mesh Éclater par composants** divise un objet maillé en ses comp
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

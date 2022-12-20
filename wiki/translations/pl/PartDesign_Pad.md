@@ -38,7 +38,7 @@ Opcja **Typ** pozwala na wybranie pięciu różnych wariantów wyciągnięcia:
 
 #### Długość
 
-Podaj długość wyciągnięcia. Domyślnie, kształt wyciągany jest poza bryłę, ale może to zostać zmienione wybierając opcje **Odwrócony**. Wytłoczenia występują [normalnie](http://en.wikipedia.org/wiki/Surface_normal) do płaszczyzny szkicu definiującego. Można to zmienić określając inny **Kierunek**\'. Za pomocą opcji **Symetryczna do płaszczyzny** wyciągnięcie zostanie przemieszczone tak, aby płaszczyzna szkicu znajdowała się pośrodku zadanej długości. Wymiary poprzedzone znakiem minus nie są akceptowalne. Zamiast tego należy użyć opcji \"Odwrócony\".
+Podaj długość wyciągnięcia. Domyślnie, kształt wyciągany jest poza bryłę, ale może to zostać zmienione wybierając opcje **Odwrócony**. Wytłoczenia występują [normalnie](http://en.wikipedia.org/wiki/Surface_normal) do płaszczyzny szkicu definiującego. Można to zmienić określając inny **Kierunek**. Za pomocą opcji **Symetryczna do płaszczyzny** wyciągnięcie zostanie przemieszczone tak, aby płaszczyzna szkicu znajdowała się pośrodku zadanej długości. Wymiary poprzedzone znakiem minus nie są akceptowalne. Zamiast tego należy użyć opcji \"Odwrócony\".
 
 #### Do ostatniego 
 
@@ -58,11 +58,11 @@ Pozwala na podanie drugiej długości, odpowiadającej wyciągnięciu obiektu w 
 
 ### Długość 
 
-Określa długość wyciągnięcia. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika (m, cm, mm, nm, ft lub \', in lub \"). Opcja ta jest dostępna tylko wtedy, gdy opcja **Typ**\' ma wartość **Wymiar** lub **Dwa wymiary**.
+Określa długość wyciągnięcia. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika *(m, cm, mm, nm, ft lub \', in lub \")*. Opcja ta jest dostępna tylko wtedy, gdy opcja **Typ** ma wartość **Wymiar** lub **Dwa wymiary**.
 
 ### Odsunięcie od ściany 
 
-Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Do ostatniego**, **Do pierwszego** lub *\'Do ściany*.
+Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Do ostatniego**, **Do pierwszego** lub **Do ściany**.
 
 ### Kierunek
 
@@ -71,7 +71,7 @@ Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja t
 Można wybrać kierunek wyciągania:
 
 -   **Normalna szkicu** Szkic lub ściana zostanie wyciągnięty wzdłuż swojego wektora normalnego. Jeśli wybrałeś kilka szkiców lub ścian do wyciągnięcia, użyty zostanie wektor normalnej pierwszego z nich. {{Version/pl|0.20}}
--   **Wybierz odniesienie\...**. Szkic zostanie wyciągnięty wzdłuż krawędzi modelu 3D. Gdy ta metoda jest wybrana, można wybrać dowolną krawędź w modelu 3D. Stanie się ona wtedy wektorem kierunku dla wyłożenia. {{Version/pl|0.20}}
+-   **Wybierz odniesienie\...** Szkic zostanie wyciągnięty wzdłuż krawędzi modelu 3D. Gdy ta metoda jest wybrana, można wybrać dowolną krawędź w modelu 3D. Stanie się ona wtedy wektorem kierunku dla wyłożenia. {{Version/pl|0.20}}
 -   **Kierunek niestandardowy** Szkic jest wyciskany wzdłuż kierunku, który można określić za pomocą wartości wektorowych. {{Version/pl|0.19}}
 
 #### Wskazanie kierunku 

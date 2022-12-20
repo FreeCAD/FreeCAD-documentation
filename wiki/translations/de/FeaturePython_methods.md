@@ -3,23 +3,11 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Seite dient als Referenz für die verfügbaren überschreibbaren Methoden auf [FeaturePython Objects](FeaturePython_Objects.md) oder [Scripted objects](Scripted_objects.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Diese Seite dient als Referenz für die verfügbaren überschreibbaren Methoden von [Ein FeaturePython-Objekt erstellen Teil I](Create_a_FeaturePython_object_part_I/de.md) oder [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
 ## Primäre Referenz 
 
-Die unten aufgeführten Methoden machen \~99% der Anwendungsfälle aus, die Vielnutzer für Python Proxy Klassen haben können.
-
-
-</div>
+Die unten aufgeführten Methoden machen \~99% der Anwendungsfälle aus, die Vielnutzer für Python-Proxy-Klassen haben können.
 
 ++++
 |                             | Called during document recomputes                                        | Do not call `recompute()` from this method (or any method called from `execute()`) as this causes a nested recompute.                                                                                                                                                                                                                                |

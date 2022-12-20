@@ -28,7 +28,7 @@ La commande **Mesh Union** crée un nouvel objet maillé non paramétrique, un [
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 

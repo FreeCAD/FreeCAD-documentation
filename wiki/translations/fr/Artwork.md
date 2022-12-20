@@ -83,7 +83,7 @@ Voir [Graphisme PartDesign](Artwork_PartDesign/fr.md).
 
 ### Depuis src/Mod/Path/ 
 
-Voir [Graphisme Part](Artwork_Part/fr.md).
+Voir [Graphisme Path](Artwork_Path/fr.md).
 
 ### Depuis src/Mod/Points/ 
 

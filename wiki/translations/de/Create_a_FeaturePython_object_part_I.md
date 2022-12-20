@@ -3,29 +3,29 @@
 
 ## Einführung
 
-FunktionsPython Objekte (auch als [Geskriptete Objekte](Scripted_objects/de.md) bezeichnet) bieten die Möglichkeit, FreeCAD mit Objekten zu erweitern, die sich nahtlos in das FreeCAD Framework integrieren.
+FeaturePython-Objekte (auch als [Skriptgenerierte Objekte](Scripted_objects/de.md) bezeichnet) bieten die Möglichkeit, FreeCAD mit Objekten zu erweitern, die sich nahtlos in die FreeCAD-Struktur integrieren.
 
 Das ermutigt:
 
--   Schnelle Prototypenerstellung von neuen Objekten und Werkzeugen mit benutzerdefinierten Python Klassen.
--   Speichern und Wiederherstellen von Daten (auch als Serialisierung bekannt) durch `App::Property` Objekte, ohne dass ein Skript in die FreeCAD Dokumentdatei eingebettet wird.
+-   Schnelle Prototypenerstellung von neuen Objekten und Werkzeugen mit benutzerdefinierten Python-Klassen.
+-   Speichern und Wiederherstellen von Daten (auch als Serialisierung bekannt) durch `App::Property`-Objekte, ohne dass ein Skript in die FreeCAD-Dokumentdatei eingebettet wird.
 -   Kreative Freiheit, FreeCAD für jede Aufgabe anzupassen.
 
-Auf dieser Seite werden wir ein funktionierendes Beispiel für eine benutzerdefinierte FunktionsPython Klasse konstruieren, wobei wir alle wichtigen Komponenten identifizieren und ein Verständnis dafür gewinnen, wie alles funktioniert, während wir vorankommen.
+Auf dieser Seite werden wir ein funktionierendes Beispiel für eine benutzerdefinierte FeaturePython-Klasse konstruieren, wobei wir alle wichtigen Komponenten identifizieren und ein Verständnis dafür gewinnen, wie alles funktioniert, während wir vorankommen.
 
 ## Wie funktioniert es? 
 
-FreeCAD wird mit einer Reihe von Standard Objekttypen zur Verwaltung verschiedener Arten von Geometrie ausgeliefert. Einige von ihnen haben \"FeaturePython\" Alternativen, die eine Anpassung mit einer benutzerdefinierten Python Klasse ermöglichen.
+FreeCAD wird mit einer Reihe von standard Objekttypen zur Verwaltung verschiedener Arten von Geometrie ausgeliefert. Einige von ihnen haben \"FeaturePython\"-Alternativen, die eine Anpassung mit einer benutzerdefinierten Python-Klasse ermöglichen.
 
-Diese benutzerdefinierte Python Klasse nimmt einen Verweis auf eines dieser Objekte und modifiziert es. Zum Beispiel kann die Python Klasse dem Objekt Eigenschaften hinzufügen oder es mit anderen Objekten verknüpfen. Außerdem kann die Python Klasse bestimmte Methoden implementieren, um das Objekt in die Lage zu versetzen, auf Dokumentereignisse zu reagieren, wodurch es möglich wird, Änderungen von Objekteigenschaften und Neuberechnungen von Dokumenten abzufangen.
+Diese benutzerdefinierte Python-Klasse nimmt einen Verweis auf eines dieser Objekte und modifiziert es. Zum Beispiel kann die Python-Klasse dem Objekt Eigenschaften hinzufügen oder es mit anderen Objekten verknüpfen. Außerdem kann die Python-Klasse bestimmte Methoden implementieren, um das Objekt in die Lage zu versetzen, auf Dokumentereignisse zu reagieren, wodurch es möglich wird, Änderungen von Objekteigenschaften und Neuberechnungen von Dokumenten abzufangen.
 
-Bei der Arbeit mit benutzerdefinierten Klassen und FunktionsPython Objekten ist es wichtig zu wissen, dass die benutzerdefinierte Klasse und ihr Zustand nicht im Dokument gespeichert werden, da dies die Einbettung eines Skripts in eine FreeCAD Dokumentdatei erfordern würde, was ein erhebliches Sicherheitsrisiko darstellen würde. Nur das FunktionsPython Objekt selbst wird gespeichert (serialisiert). Da aber der Pfad des Skript Moduls im Dokument gespeichert ist, muss ein Benutzer nur den Code der benutzerdefinierten Python Klasse als importierbares Modul installieren und dabei der gleichen Ordnerstruktur folgen, um die verlorene Funktionalität wiederzuerlangen.
+Bei der Arbeit mit benutzerdefinierten Klassen und FeaturePython-Objekten ist es wichtig zu wissen, dass die benutzerdefinierte Klasse und ihr Zustand nicht im Dokument gespeichert werden, da dies die Einbettung eines Skripts in eine FreeCAD-Dokumentdatei erfordern würde, was ein erhebliches Sicherheitsrisiko darstellen würde. Nur das FeaturePython-Objekt selbst wird gespeichert (serialisiert). Da aber der Pfad des Skriptmoduls im Dokument gespeichert ist, muss ein Benutzer nur den Code der benutzerdefinierten Python-Klasse als importierbares Modul installieren und dabei der gleichen Ordnerstruktur folgen, um die verlorene Funktionalität wiederzuerlangen.
 
 [Anfang](#top.md)
 
 ## Einrichten der Dinge 
 
-FunktionsPython Objektklassen müssen in FreeCAD als importierbare Module fungieren. Das bedeutet, dass du sie in einem Pfad platzieren musst, der in deiner Python Umgebung existiert (oder füge ihn speziell hinzu). Für die Zwecke dieses Tutoriums werden wir den FreeCAD Benutzerordner Macro verwenden. Aber wenn du eine andere Idee im Kopf hast, kannst du diese stattdessen verwenden.
+FeaturePython-Objektklassen müssen in FreeCAD als importierbare Module fungieren. Das bedeutet, dass du sie in einem Pfad platzieren musst, der in deiner Python Umgebung existiert (oder füge ihn speziell hinzu). Für die Zwecke dieses Tutoriums werden wir den FreeCAD-Benutzerordner Macro verwenden. Aber wenn du eine andere Idee im Kopf hast, kannst du diese stattdessen verwenden.
 
 If you don\'t know where the FreeCAD Macro folder is type `FreeCAD.getUserMacroDir(True)` in FreeCAD\'s [Python console](Python_console.md):
 
@@ -61,7 +61,7 @@ Finally, navigate to the **Macro/fpo/box** folder and open **box.py** in your fa
 
 [Anfang](#top.md)
 
-## A FeaturePython object 
+## Ein FeaturePython-Objekt 
 
 Let\'s get started by writing our class and its constructor:
 

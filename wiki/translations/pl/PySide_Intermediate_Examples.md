@@ -1,11 +1,11 @@
 # PySide Intermediate Examples/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 This page covers medium level examples of the [PySide](PySide.md) GUI manager (accompanying pages cover aspects that are both less or more advanced, [Beginner PySide Examples](PySide_Beginner_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)). In this page an example program is used to cover the different PySide topics. The intention is to present some functional PySide code so anyone who needs to use PySide can copy out the relevant section, modify and adapt it to their own purposes.
 
-### Notes
+### Uwagi
 
 -   This page is not intended to cover the Python language or to serve as an instruction in Python.
 -   The variable names are not descriptive but have been kept in sequence to better organise the explanations

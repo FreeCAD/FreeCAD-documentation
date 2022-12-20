@@ -1,33 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std ProjectUtil
-   MenuLocation:Tools → Project utility...
-   Workbenches:All
+   Name/pl:Std: Narzędzia projektu
+   MenuLocation:Przybory → Narzędzia projektu ...
+   Workbenches:wszystkie
 ---
 
 # Std ProjectUtil/pl
 
-## Description
+## Opis
 
-With the **Std ProjectUtil** command you can extract files from a FreeCAD project file (***.FCStd**), which is in fact a [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)) file, and, after manual edits, create a new project file from them.
+Za pomocą polecenia **Narzędzia projektu** można wyodrębnić pliki z pliku projektu FreeCAD *(***.FCStd**), który w rzeczywistości jest plikiem \[<https://en.wikipedia.org/wiki/Zip_(file_format)>* ZIP\], i po ręcznej edycji utworzyć z nich nowy plik projektu.
 
 ![](images/Project_utility_en.png ) 
-*The Project utility dialog box*
+*Okno dialogowe Narzędzia projektu*
 
-## Usage
+## Użycie
 
-### Extract project 
+### Wyodrębnienie projektu 
 
-1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...** option from the menu.
-2.  The Project utility dialog box opens.
-3.  Press the **...** button to the right of **Extract project → Source**.
-4.  Select the ***.FCStd** file you want to edit.
-5.  Press the **...** button to the right of **Extract project → Destination**.
-6.  Select a folder where the project file should be extracted. It is advisable to select an empty folder.
-7.  Press the **Extract** button.
-8.  Press the **Close** button to close the dialog box.
+1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ProjectUtil.svg" width=16px> Narzędzie projektu ...**.
+2.  Otworzy się okno dialogowe Narzędzie projektu.
+3.  Naciśnij przycisk **...** po prawej stronie **Wyodrębnij projekt → Źródło**.
+4.  Wybierz plik ***.FCStd**, który chcesz edytować.
+5.  Naciśnij przycisk **...** po prawej stronie **Wyodrębnij projekt → Miejsce docelowe**.
+6.  Wybierz folder, do którego ma zostać wyodrębniony plik projektu. Wskazane jest wybranie pustego folderu.
+7.  Naciśnij przycisk **Rozpakuj**.
+8.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
-### Manual edits 
+### Edycja ręczna 
 
 It is important to realize that the files inside a FreeCAD project file are interlinked. Only editing a single file will typically lead to errors. To make consistent edits across multiple files use a good code editor, such as [Notepad++](http://notepad-plus-plus.org/) (for the Windows OS) or [Notepadqq](https://notepadqq.com/s/) (for Linux OS).
 
@@ -44,7 +45,7 @@ It is important to realize that the files inside a FreeCAD project file are inte
 9.  Optionally check the {{CheckBox|TRUE|Load project file after creation}} checkbox.
 10. Press the **Close** button to close the dialog box.
 
-## Notes
+## Uwagi
 
 -   For more information about the FreeCAD project file format see [File Format FCStd](File_Format_FCStd.md).
 

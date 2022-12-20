@@ -1,20 +1,21 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part Plane
-   MenuLocation:Part → [Create primitives](Part_Primitives.md) → Plane
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name/pl:Część: Płaszczyzna
+   MenuLocation:Część → Geometrie pierwotne → Płaszczyzna
+   Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
+   SeeAlso:[Geometrie pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Plane/pl
 
-## Description
+## Opis
 
-A <img alt="" src=images/Part_Plane.svg  style="width:24px;"> **Part Plane** is a parametric rectangular plane that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. In the coordinate system defined by its **Placement** property, the plane lies on the XY plane with its front left corner at the origin, and its front edge parallel to the X axis.
+<img alt="" src=images/Part_Plane.svg  style="width:24px;"> **Płaszczyzna** środowiska praczy Część to parametryczna prostokątna płaszczyzna, którą można utworzyć za pomocą polecenia <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Geometrie pierwotne](Part_Primitives/pl.md). W układzie współrzędnych zdefiniowanym przez właściwość **Umiejscowienie**, płaszczyzna leży na płaszczyźnie XY, z przednim lewym narożnikiem w punkcie początkowym i przednią krawędzią równoległą do osi X.
 
 <img alt="" src=images/Part_Plane_Example.png  style="width:400px;">
 
-## Usage
+## Użycie
 
 See [Part Primitives](Part_Primitives#Usage.md).
 

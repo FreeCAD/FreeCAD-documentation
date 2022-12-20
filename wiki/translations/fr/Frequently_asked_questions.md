@@ -7,7 +7,7 @@ Si vous avez un problème ou une question concernant FreeCAD, vérifiez ci desso
 
 ### Quel est le moyen le plus facile, pour installer FreeCAD sur mon système ? 
 
-Si vous êtes sous Windows ou macOS, le moyen le plus simple est de vous rendre sur la page [Téléchargements](Download/fr.md), où vous trouverez plusieurs packages prêts à installer. Si vous êtes sur Debian, Fedora ou Ubuntu et d\'autres distributions, FreeCAD est déjà inclus dans les référentiels de logiciels standard et vous pouvez simplement l\'installer avec le gestionnaire de logiciels. Sur Ubuntu, l\'équipe FreeCAD maintient également ses propres [dépôts PPA](Installing_on_Linux/fr#PPA_stable.md). Pour plus de détails sur l\'installation, reportez-vous à la page d\'installation de votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)).
+Si vous êtes sous Windows ou macOS, le moyen le plus simple est de vous rendre sur la page [Téléchargements](Download/fr.md), où vous trouverez plusieurs packages prêts à installer. Si vous êtes sur Debian, Fedora ou Ubuntu et d\'autres distributions, FreeCAD est déjà inclus dans les dépôts de logiciels standard et vous pouvez simplement l\'installer avec le gestionnaire de logiciels. Sur Ubuntu, l\'équipe FreeCAD maintient également ses propres [dépôts PPA](Installing_on_Linux/fr#Version_stable_du_PPA.md). Pour plus de détails sur l\'installation, reportez-vous à la page d\'installation de votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)).
 
 ### Quelles sont les conditions requises pour l\'exécution de FreeCAD ? 
 
@@ -61,7 +61,7 @@ C\'est une cause très courante du problème. Les symptômes sont simplement que
 
 Et comme astuce générale pour obtenir plus d\'informations sur les plantages avec FreeCAD, vous pouvez le démarrer avec le paramètre de programme {{SystemInput|--write-log}}. Cela créera le fichier **FreeCAD.log** dans **$XDG_CONFIG_HOME/FreeCAD** (<small>(v0.20)</small> ) ou **$HOME/.FreeCAD** ({{VersionMinus/fr|0.19}}) sur Linux, ou **$HOME/Library/Preferences/FreeCAD** sur macOS, ou **%APPDATA%/FreeCAD** sur les systèmes Windows.
 
-Dans certains cas rares, vous pouvez avoir un pilote graphique installé qui ne correspond pas à votre carte graphique. Nous avons eu un cas où l\'ordinateur portable de l\'utilisateur avait un graphique Intel intégré, mais certains pilotes ATI ont été installés. [1](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042) Après avoir supprimé les fichiers et réinstallé le pilote correct, FreeCAD a commencé à fonctionner.
+Dans certains cas rares, vous pouvez avoir un pilote graphique installé qui ne correspond pas à votre carte graphique. Nous avons eu un cas où l\'ordinateur portable de l\'utilisateur avait une carte graphique intégrée d\'Intel, mais certains pilotes ATI étaient installés. Voir le fil du forum en allemand [FreeCAD startet nicht](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042). Après avoir supprimé les fichiers et réinstallé le bon pilote, FreeCAD a commencé à fonctionner.
 
 #### Certaines bibliothèques nécessaires à FreeCAD, ne sont pas présentes sur votre système, ou n\'ont pas été trouvées par FreeCAD 
 
@@ -115,7 +115,7 @@ Cela peut également se produire si vous aviez une ancienne version de FreeCAD i
 
 FreeCAD devrait maintenant redémarrer normalement avec tous ses paramètres réinitialisés.
 
-Une [Macro findConfigFiles](Macro_findConfigFiles/fr.md) est disponible pour vous aider à localiser vos fichiers de configuration. Elle peut être installée en utilisant le Gestionnaire des extensions dans le menu **Outils → Gestionnaire des extensions → Macros → findConfigFiles**. La macro trouvera votre dossier de fichier de configuration, le copiera dans le presse-papiers et ouvrira (si possible) cet emplacement avec votre navigateur de fichiers par défaut. Elle n\'effectue aucun changement sur vos fichiers ou paramètres.
+La[Macro findConfigFiles](Macro_findConfigFiles/fr.md) peut vous aider à localiser vos fichiers de configuration. Elle peut être installée en utilisant le Gestionnaire des extensions depuis le menu **Outils → Gestionnaire des extensions → Macros → findConfigFiles**. La macro trouvera votre dossier de fichier de configuration, le copiera dans le presse-papiers et ouvrira (si possible) cet emplacement avec votre navigateur de fichiers par défaut. Elle n\'effectue aucun changement sur vos fichiers ou paramètres.
 
 ## Utiliser FreeCAD 
 
@@ -158,7 +158,9 @@ Veuillez vous reporter à la page [Solutions de contournement](Workarounds/fr.md
 
 ### Comment puis-je extruder des formes dans des solides ? Je n\'ai pas le résultat attendu 
 
-La théorie est simple : Les lignes (ou les polylignes), lorsqu\'elles sont extrudées, forment des faces. Les faces, lorsqu\'elles sont extrudées, forment des solides. Si vous extrudez quelque chose et que le résultat n\'est pas un solide, alors ce quelque chose n\'était pas une face. Si vous avez des lignes et que vous voulez extruder un solide à partir de celles-ci, vous devez d\'abord sélectionner des lignes qui forment un périmètre fermé (sélectionnez plusieurs objets en appuyant sur **Ctrl**), les joindre en une polyligne (outil [Draft Agréger](Draft_Upgrade/fr.md)), puis faire une face à partir de cette polyligne (outil <img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Agréger](Draft_Upgrade/fr.md) à nouveau). Et voilà, si tout s\'est bien passé, vous pouvez maintenant l\'extruder en un solide.
+La théorie est simple : les lignes (ou les polylignes), lorsqu\'elles sont extrudées, forment des faces. Les faces, lorsqu\'elles sont extrudées, forment des solides.
+
+Si vous extrudez quelque chose et que le résultat n\'est pas un solide, alors ce quelque chose n\'était pas une face. Si vous avez des lignes et que vous voulez extruder un solide à partir de celles-ci, vous devez d\'abord sélectionner des lignes qui forment un périmètre fermé (sélectionnez plusieurs objets en appuyant sur **Ctrl**), les joindre en une polyligne (outil [Draft Agréger](Draft_Upgrade/fr.md)), puis faire une face à partir de cette polyligne (outil <img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Agréger](Draft_Upgrade/fr.md) à nouveau). Et voilà, si tout s\'est bien passé, vous pouvez maintenant l\'extruder en un solide.
 
 Maintenant, il peut y avoir de nombreux petits détails qui feront obtenir un mauvais résultat. La meilleure façon de faire, est de vérifier que tout ce qu\'il y a dans votre forme peut être extrudé. Le contenu des objets peut être facilement exploré grâce à des procédures en Python. En supposant par exemple que vous ayez un objet appelé \"Wire\", vous pouvez taper ceci dans la console Python:
 
@@ -181,11 +183,11 @@ Le noyau de modélisation géométrique [Open CASCADE](https://fr.wikipedia.org/
 
 ### Quand j\'exporte (ou visualise) mon modèle, les trous sont remplis 
 
-Ne pas utiliser **Crtl** + **A** (Tout sélectionner) pour exporter toute l\'arborescence. Si le modèle n\'est qu\'un seul élément, essayez de ne sélectionner que l\'élément le plus récent (généralement le dernier) dans l\'arborescence.
+Ne pas utiliser **Ctrl** + **A** (tout sélectionner) pour exporter toute l\'arborescence. Si le modèle n\'est qu\'un seul élément, essayez de ne sélectionner que l\'élément le plus récent (généralement le dernier) dans l\'arborescence.
 
 Lors de la création d\'un modèle dans l\'[atelier Part Design](PartDesign_Workbench/fr.md), chaque fonction prend la forme de la dernière et ajoute ou supprime quelque chose, en créant des dépendances linéaires de la fonction à l\'élément créé. Ainsi, une fonction \"Soustraction\" est non seulement le trou découpé, mais toute la partie avec la coupe. C\'est pourquoi l\'utilisateur ne voit que l\'élément le plus récent (de la fonction utilisée) dans l\'arborescence du modèle, les autres sont cachées, sinon toutes les phases du modèle se superposent l\'une sur l\'autre, et les trous sont remplis par les caractéristiques du composant précédent.
 
-Pour activer ou désactiver la visibilité d\'un objet, sélectionnez-le dans l\'arborescence et appuyez sur la barre **Espace**. Habituellement tout les objets sauf le dernier élément de l\'arborescence seront grisés et donc non visibles dans la vue 3D.
+Pour activer ou désactiver la visibilité d\'un objet, sélectionnez-le dans l\'arborescence et appuyez sur la barre **Espace**. Habituellement tout les objets sauf le dernier élément de l\'arborescence seront grisés et donc non visibles dans la [vue 3D](3D_view/fr.md).
 
 ### Mes objets paramétriques se cassent lorsque je modifie leurs esquisses de base 
 

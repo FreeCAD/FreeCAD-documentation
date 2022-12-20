@@ -1,5 +1,5 @@
 # IfcOpenShell/pl
-## Description
+## Opis
 
 
 {{TOCright}}
@@ -17,7 +17,7 @@ To verify that IfcOpenShell is installed in your system, try to import it from t
 import ifcopenshell
 ```
 
-## Installation
+## Instalacja
 
 IfcOpenShell can be installed in various ways depending on your operating system and Python environment. In the past, IfcOpenShell was a bit difficult to install as it needed to be compiled for your specific system; however, as of this writing (2020) it is easier to start using it, as it is now included together with FreeCAD in many FreeCAD distributions. In general, it is advisable to use one of these pre-compiled distributions, and only compile it yourself if you are an advanced user.
 

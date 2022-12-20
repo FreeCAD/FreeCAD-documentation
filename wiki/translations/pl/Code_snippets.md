@@ -3,13 +3,13 @@
 
 ## Wprowadzenie
 
-This page contains examples, pieces, chunks of FreeCAD python code collected from users experiences and discussions on the [forums](https://forum.freecadweb.org/viewforum.php?f=22). Read and use it as a start for your own scripts\...
+Ta strona zawiera przykłady, wycinki, fragmenty kodu FreeCAD python zebrane z doświadczeń użytkowników i dyskusji na [forum](https://forum.freecadweb.org/viewforum.php?f=22). Przeczytaj i użyj jako zaczątek swoich własnych skryptów\...
 
 ## Wycinki
 
-### A typical InitGui.py file 
+### Typowy plik InitGui.py 
 
-Every module must contain, besides your main module file, an InitGui.py file, responsible for inserting the module in the main Gui. This is an example of a simple one.
+Każdy moduł musi zawierać, oprócz głównego pliku modułu, plik InitGui.py, odpowiedzialny za wstawienie modułu do głównego GUI. Oto przykład najprostszego z nich.
 
 
 ```python

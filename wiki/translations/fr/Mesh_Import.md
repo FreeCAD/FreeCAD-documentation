@@ -33,7 +33,7 @@ La commande accepte : les fichiers stl, ast, bms, obj, off, iv, ply, nas et bdf.
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 ## Script
 

@@ -28,7 +28,8 @@ This category shows documentation articles dealing with python scripting, which 
 | [Scripted Parts: Ball Bearing - Part 1/ru](wiki/Scripted Parts_ Ball Bearing - Part 1/ru.md) | [Scripted Parts: Ball Bearing - Part 2/ru](wiki/Scripted Parts_ Ball Bearing - Part 2/ru.md) | [Scripting and macros/ru](wiki/Scripting and macros/ru.md) |
 | [Scripts/ru](wiki/Scripts/ru.md) | [Svg Namespace/ru](wiki/Svg Namespace/ru.md) | [TechDraw API/ru](wiki/TechDraw API/ru.md) |
 | [TechDrawGui API/ru](wiki/TechDrawGui API/ru.md) | [Topological data scripting/ru](wiki/Topological data scripting/ru.md) | [Units/ru](wiki/Units/ru.md) |
-| [Workbench creation/ru](wiki/Workbench creation/ru.md) | [Wrapping a Cplusplus class in Python/ru](wiki/Wrapping a Cplusplus class in Python/ru.md) |
+| [Viewprovider/ru](wiki/Viewprovider/ru.md) | [Workbench creation/ru](wiki/Workbench creation/ru.md) | [Wrapping a Cplusplus class in Python/ru](wiki/Wrapping a Cplusplus class in Python/ru.md) |
+|
 
 
 

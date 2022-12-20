@@ -1,28 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:MeshPart CreateFlatMesh
-   MenuLocation:Meshes → Unwrap Mesh
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Part Create Flat Face](MeshPart_CreateFlatFace.md)
+   Name/pl:Projekt Siatki: Rozwiń siatkę
+   MenuLocation:Siatki → Rozwiń siatkę
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Rozwiń powierzchnię](MeshPart_CreateFlatFace/pl.md)
 ---
 
 # MeshPart CreateFlatMesh/pl
 
-## Description
+## Opis
 
-The **MeshPart CreateFlatMesh** command creates a flat representation of a mesh object by unwrapping, unfolding, it. The created outline is a [Part Feature](Part_Feature.md).
+Polecenie **Rozwiń powierzchnię** tworzy płaską reprezentację obiektu siatkowego poprzez jego rozwinięcie, rozłożenie. Utworzony kontur jest [cechą części](Part_Feature/pl.md) środowiska Część.
 
 ![](images/MeshPart_CreateFlatMesh_example.png ) 
-*A mesh object and, in red, its flat representation*
+*Obiekt siatkowy i w kolorze czerwonym, jego płaska reprezentacja.*
 
-## Usage
+## Użycie
 
-1.  Select a single mesh object. The mesh must be \'unwrappable\'. For example, to unwrap a cylindrical mesh it must have open ends and an open seam. Also curved surfaces must have a relatively fine mesh. Use the [Mesh RemeshGmsh](Mesh_RemeshGmsh.md) command if necessary.
-2.  Select the **Meshes → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Unwrap Mesh** option from the menu.
+1.  Wybierz pojedynczy obiekt siatki. Siatka musi być \"rozpakowalna\". Na przykład, aby rozwinąć siatkę cylindryczną musi ona mieć otwarte końce i otwarty szew. Również zakrzywione powierzchnie muszą mieć stosunkowo drobną siatkę. Użyj polecenia [Ulepsz przez Gmsh](Mesh_RemeshGmsh/pl.md) jeśli to konieczne.
+2.  Wybierz z menu opcję **Siatki → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Rozwiń siatkę**.
 
-## Properties
+## Właściwości
 
-See: [Part Feature](Part_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha](Part_Feature/pl.md) środowiska Część.
 
 
 

@@ -67,9 +67,10 @@ This category contains all Unfinished Documents
 | [SheetMetal UnattendedUnfold](wiki/SheetMetal UnattendedUnfold.md) | [SheetMetal Unfold](wiki/SheetMetal Unfold.md) | [SheetMetal Workbench](wiki/SheetMetal Workbench.md) |
 | [Ship Capacity](wiki/Ship Capacity.md) | [Ship GZ](wiki/Ship GZ.md) | [Ship LoadCondition](wiki/Ship LoadCondition.md) |
 | [Silk Workbench](wiki/Silk Workbench.md) | [Sketcher ConstrainHorizontal](wiki/Sketcher ConstrainHorizontal.md) | [Sketcher SelectElementsWithDoFs](wiki/Sketcher SelectElementsWithDoFs.md) |
-| [Std MacroAttachDebugger](wiki/Std MacroAttachDebugger.md) | [TechDraw LinkDimension](wiki/TechDraw LinkDimension.md) | [Transient FEM analysis](wiki/Transient FEM analysis.md) |
-| [Template:UnfinishedDocu](wiki/Template_UnfinishedDocu.md) | [Valgrind](wiki/Valgrind.md) | [WikiPages](wiki/WikiPages.md) |
-| [Windows packaging](wiki/Windows packaging.md) | [Category:Work in progress](wiki/Category_Work in progress.md) |
+| [Std MacroAttachDebugger](wiki/Std MacroAttachDebugger.md) | [TechDraw LinkDimension](wiki/TechDraw LinkDimension.md) | [TechDraw Section Examples](wiki/TechDraw Section Examples.md) |
+| [Transient FEM analysis](wiki/Transient FEM analysis.md) | [Template:UnfinishedDocu](wiki/Template_UnfinishedDocu.md) | [Valgrind](wiki/Valgrind.md) |
+| [WikiPages](wiki/WikiPages.md) | [Windows packaging](wiki/Windows packaging.md) | [Category:Work in progress](wiki/Category_Work in progress.md) |
+|
 
 
 

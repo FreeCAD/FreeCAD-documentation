@@ -15,24 +15,24 @@
 La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Ajuster ou prolonger** [ajuste ou prolonge](#Ajuste_ou_prolonge.md) un objet sélectionné. Les intersections avec le bord d\'un autre objet peuvent être utilisées pour déterminer de nouveaux points d\'extrémité. La commande peut également être utilisée pour une [extrusion](#Extrusion.md) d\'une face, auquel cas elle crée un objet [Part Extrusion](Part_Extrude/fr.md).
 
 <img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
-*En haut : une Draft polyligne étendue puis ajustée. En bas : une face extrudée dans un corps solide.*
+*En haut : une Draft polyligne étendue puis ajustée. <br>En bas : une face extrudée dans un corps solide.*
 
 ## Ajuste ou prolonge 
 
 ### Utilisation
 
-1.  Sélectionnez un objet. L\'objet doit être une [Draft Ligne](Draft_Line/fr.md), une [Draft Polyligne](Draft_Wire/fr.md), un [Draft Arc](Draft_Arc/fr.md) ou un [Draft Cercle](Draft_Line/fr.md) (qui ne peuvent être que rognés). Si l\'objet sélectionné est fermé, sa propriété **Make Face** doit être définie sur `False`.
-2.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Trimex.svg" width=16px> [Ajuster ou Prolonger](Draft_Trimex/fr.md)**.
+1.  Sélectionnez un objet. L\'objet doit être une [Draft Ligne](Draft_Line/fr.md), une [Draft Polyligne](Draft_Wire/fr.md), un [Draft Arc](Draft_Arc/fr.md) ou un [Draft Cercle](Draft_Line/fr.md) (qui ne peuvent être que ajustés). Si l\'objet sélectionné est fermé, sa propriété **Make Face** doit être définie sur `False`.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Draft_Trimex.svg" width=16px> [Ajuster ou Prolonger](Draft_Trimex/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Trimex.svg" width=16px> Ajuster ou Prolonger** dans le menu.
     -   Utilisez le raccourci clavier : **T** puis **R**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches **Ajuste ou Prolonge** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Le panneau de tâches **Ajuster ou Prolonger** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Déplacez le pointeur dans la [Vue 3D](3D_view/fr.md) de sorte que l\'aperçu corresponde au résultat souhaité. Si nécessaire, utilisez les touches de modification comme expliqué dans la section [Options](#Options.md).
 6.  Effectuez l\'une des opérations suivantes :
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
     -   Saisissez une **Distance** ou un **Angle**. La distance est une distance relative. Cette option ne fonctionne pas si des touches modificatrices sont utilisées.
-    -   Déplacez le pointeur sur une arête appartenant à un autre objet, et cliquez lorsque cette arête est mise en surbrillance, pour couper ou étendre l\'objet sélectionné en utilisant une intersection avec l\'arête mise en surbrillance comme nouveau point d\'arrivée. Lors du rognage, la projection du point où l\'arête de coupe est sélectionnée sur l\'objet à rogner, détermine le résultat par défaut. Notez que les [Draft Aimantations](Draft_Snap/fr.md) peuvent avoir un impact indésirable ici. Dans certains cas, il peut être utile de les désactiver temporairement.
+    -   Déplacez le pointeur sur une arête appartenant à un autre objet, et cliquez lorsque cette arête est mise en surbrillance, pour couper ou étendre l\'objet sélectionné en utilisant une intersection avec l\'arête mise en surbrillance comme nouveau point d\'arrivée. Lors de l\'ajustement, la projection du point où l\'arête de coupe est sélectionnée sur l\'objet à ajuster, détermine le résultat par défaut. Notez que les [Draft Aimantations](Draft_Snap/fr.md) peuvent avoir un impact indésirable ici. Dans certains cas, il peut être utile de les désactiver temporairement.
 
 ### Options
 
@@ -61,9 +61,9 @@ Voici un exemple pour expliquer les touches de modification. Le bord gauche ou l
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il peut être utile de modifier d\'abord le [Draft Plan de travail](Draft_SelectPlane/fr.md) pour qu\'il ne soit pas coplanaire avec la face que vous voulez extruder.
-2.  Optionnellement, sélectionnez une seule face ou un objet avec une seule face.
+2.  Vous pouvez sélectionner une seule face ou un objet avec une seule face.
 3.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Trimex.svg" width=16px> [Ajuster ou Prolonger](Draft_Trimex/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Trimex.svg" width=16px> [Ajuster ou Prolonger](Draft_Trimex/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Trimex.svg" width=16px> Ajuster ou Prolonger** dans le menu.
     -   Utilisez le raccourci clavier : **T** puis **R**.
 4.  Si vous n\'avez pas encore sélectionné un objet ou une face : sélectionnez un objet avec une seule face dans la [Vue 3D](3D_view/fr.md).

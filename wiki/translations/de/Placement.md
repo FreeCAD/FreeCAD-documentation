@@ -1,17 +1,17 @@
 # Placement/de
 ## Übersicht
 
-**Positionierung** ist wie FreeCAD den Standort und die Lage (Orientierung) eines Objekts im Raum angibt. Die Platzierung kann in verschiedenen Formen angegeben und über [Skripten](Python_scripting_tutorial/de#Vektoren_und_Positierungen.md), den [Eigenschaftseditor](Property_editor/de.md) oder durch Auswahl von **Bearbeiten → Positionierung...** zum Öffnen des [Positionierung Aufgabenpaneel](Std_Placement/de.md) verändert werden.
+Mit **Positionierung** legt FreeCAD die Lage (Position) und die Ausrichtung (Orientierung) eines Objekts im Raum fest. Die Positionierung kann in verschiedenen Formen angegeben und über [Skripte](Python_scripting_tutorial/de#Vektoren_und_Positionierungen.md), den [Eigenschafteneditor](Property_editor/de.md) oder durch Auswahl von **Bearbeiten → Positionierung...** zum Öffnen des Aufgabenbereichs [Positionierung](Std_Placement/de.md) verändert werden.
 
 ### Zugriff auf das Positionierungsattribut 
 
 Auf die Positionierungsattribute eines Objekts kann auf 3 Arten zugegriffen und diese verändert werden:
 
-![Positionierung im Eigenschaftenpaneel](images/PlacementPropertiesv10-800x800.png ) 
+![Positionierung im Eigenschafteneditor](images/PlacementPropertiesv10-800x800.png ) 
 
-![Skriptpositionierung als y/p/r und Matrix und seine [API](images/Placement_API/de.md).](PlacePyConv10.png ) 
+![Skriptpositionierung als y/p/r und Matrix und ihre [API](images/Placement_API/de.md).](PlacePyConv10.png ) 
 
-![Positionierung Aufgabenpaneel](images/PlacementDialogv10.png ) 
+![Aufgabenbereich Positionierung](images/PlacementDialogv10.png ) 
 
 ## Formen der Positionierung 
 
@@ -36,13 +36,13 @@ Beachte, dass es auch möglich ist, ein Objekt entlang dieser Drehachse (Axialbe
 
 **Position = (x,y,z)** ist ein Vektor, der den Punkt beschreibt, von dem aus die Geometrie des Objekts berechnet wird (tatsächlich ein \"lokaler Ursprung\" für das Objekt). Beachte, dass in Skripten Placement.Base verwendet wird, zur Bezeichnung der Positionskomponente einer Positionierung. Der Eigenschaftseditor ruft diesen Wert \"Position\" und der Positionierungsdialog nennt ihn \"Translation\".
 
-### Position und Gieren, Neigen und Rollen 
+### Position und Gieren, Nicken und Rollen 
 
-![Positionierung Aufgabenpaneel: {{ComboBox|Euler Winkel}} ausgewählt](images/PlacementDialogv10b.png ) 
+![Aufgabenbereich Positionierung: {{ComboBox|Eulerwinkel}} ausgewählt](images/PlacementDialogv10b.png ) 
 
-**Positionierung = \[Position, Gieren-Neigen-Rollen\]**
+**Positionierung = \[Position, Gieren-Nicken-Rollen\]**
 
-Die zweite Form der **Positionierung** legt die Lage eines Objekts im Raum mit einer **Position** (wie in der ersten Form) fest, beschreibt aber seine Ausrichtung mit den Winkeln zum Gieren, Neigen und Rollen ([Roll-Nick-Gier-Winkel](https://de.wikipedia.org/wiki/Roll-Nick-Gier-Winkel)). Diese Winkel werden manchmal als ([Euler-Winkel](https://de.wikipedia.org/wiki/Eulersche_Winkel)) oder Tait-Bryan Winkel bezeichnet. Gieren, Neigen und Rollen sind gängige Luftfahrtbegriffe für die Orientierung (oder Haltung) eines Körpers.
+Die zweite Form der **Positionierung** legt die Lage eines Objekts im Raum mit einer **Position** (wie in der ersten Form) fest, beschreibt aber seine Ausrichtung mit den Winkeln zum Gieren, Nicken und Rollen ([Roll-Nick-Gier-Winkel](https://de.wikipedia.org/wiki/Roll-Nick-Gier-Winkel)). Diese Winkel werden manchmal als ([Euler-Winkel](https://de.wikipedia.org/wiki/Eulersche_Winkel)) oder Tait-Bryan Winkel bezeichnet. Gieren, Nicken und Rollen sind gängige Luftfahrtbegriffe für die Orientierung (oder Haltung) eines Körpers.
 
 **Position = (x,y,z)** ist ein Vektor, der den Punkt beschreibt, von dem aus die Geometrie des Objekts berechnet wird (in Wirklichkeit ein \"lokaler Ursprung\" für das Objekt).
 
@@ -53,11 +53,11 @@ Die zweite Form der **Positionierung** legt die Lage eines Objekts im Raum mit e
 >>> App.ActiveDocument.Cylinder.Placement = App.Placement(App.Vector(0,0,0), App.Rotation(10,20,30), App.Vector(0,0,0))
 ```
 
-App.Rotation(10,20,30) = Euler Winkel
+App.Rotation(10,20,30) = Euler-Winkel
 
 **Gieren** = 10 Grad (**Z**)
 
-**Neigung** = 20 Grad (**Y**)
+**Nicken** = 20 Grad (**Y**)
 
 **Rollen** = 30 Grad (**X**)
 
@@ -124,23 +124,23 @@ Betrachten wir nun den Fall der Auswahl von 3 Punkten. Nun würden 3 gewünschte
 
 Rotationen um eine einzelne Achse:
 
-<img alt="Before Rotation" src=images/RotationAboutZBefore.png  style="width:600px;"> Vor der Rotation (Draufsicht) 
+<img alt="Vor der Rotation" src=images/RotationAboutZBefore.png  style="width:600px;"> Vor der Rotation (Draufsicht) 
 
-<img alt="After Rotation about Z" src=images/RotationAboutZAfter.png  style="width:600px;"> Nach der Rotation um Z (Draufsicht)
+<img alt="Nach der Rotation um Z" src=images/RotationAboutZAfter.png  style="width:600px;"> Nach der Rotation um Z (Draufsicht)
 
-<img alt="After Rotation about y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> Nach der Rotation um y=x (Ansicht von rechts) 
+<img alt="Nach der Rotation um y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> Nach der Rotation um y=x (Ansicht von rechts) 
 
 Rotation mit versetztem Zentrum:
 
-<img alt="Before Rotation" src=images/RotationOffsetBefore.png  style="width:600px;"> Vor der Rotation (Draufsicht) 
+<img alt="Vor der Rotation" src=images/RotationOffsetBefore.png  style="width:600px;"> Vor der Rotation (Draufsicht) 
 
-<img alt="After Rotation about Z" src=images/RotationOffsetAfter.png  style="width:600px;"> Nach der Rotation um Z (Draufsicht) 
+<img alt="Nach der Rotation um Z" src=images/RotationOffsetAfter.png  style="width:600px;"> Nach der Rotation um Z (Draufsicht) 
 
 Rotation mit Euler-Winkeln:
 
-<img alt="Before Rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Vor der Rotation 
+<img alt="Vor der Rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Vor der Rotation 
 
-<img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Nach der Rotation 
+<img alt="Nach der Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> Nach der Rotation 
 
 ## Placement.Base verglichen mit Shape Definition 
 
@@ -275,8 +275,7 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
 
 ## Probleme
 
--   Ab Version 0.13 wurde die Aktualisierung der Positionierungseigenschaften auf der Registerkarte Daten für Objekte deaktiviert, die mit PartDesign erstellt wurden, mit Ausnahme der ersten Skizze, aus der das Solid erstellt wird. Daher kann die Positionierung eines Solids, das in PartDesign aus einer Skizze erstellt wurde, nur geändert werden, indem die Positionierungsparameter der ursprünglichen Konstruktionsskizze (der ersten Skizze), aus der das Solid erstellt wurde, angepasst werden.
--   Die Funktion der relativen Positionierung wird eventuell im Arbeitsbereich Zusammenbau behandelt.
+-   Die relative Positionierung von Objekten wird letztendlich im Arbeitsbereich Zusammenbau durchgeführt.
 
 ## Weiteres
 

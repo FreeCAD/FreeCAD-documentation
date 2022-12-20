@@ -5,7 +5,7 @@ This page attempts to answer the most common questions asked on the FreeCAD foru
 
 ### What is the easiest way to install FreeCAD on my system? 
 
-If you are on Windows or macOS, the simplest way is to head to the [Download](Download.md) page, where you\'ll find several ready-to-install packages. If you are on Debian, Fedora or Ubuntu and some other distributions, FreeCAD is already included in the standard software repositories and you can simply install it with the software manager. On Ubuntu, the FreeCAD team also maintains its own [PPA repositories](Installing_on_Linux#Stable_PPA.md). For further details about installation, refer to the installing page for your operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)).
+If you are on Windows or macOS, the simplest way is to head to the [Download](Download.md) page, where you\'ll find several ready-to-install packages. If you are on Debian, Fedora or Ubuntu and some other distributions, FreeCAD is already included in the standard software repositories and you can simply install it with the software manager. On Ubuntu, the FreeCAD team also maintains its own [PPA repositories](Installing_on_Linux#Stable_PPA_version.md). For further details about installation, refer to the installing page for your operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)).
 
 ### What are the prerequisites for running FreeCAD? 
 
@@ -59,7 +59,7 @@ This is a very common cause of the problem. The symptoms are simply that FreeCAD
 
 And as a general tip to get some more information about crashes with FreeCAD you can start it with the program parameter {{SystemInput|--write-log}}. This will create the file **FreeCAD.log** in **$XDG_CONFIG_HOME/FreeCAD** (<small>(v0.20)</small> ) or **$HOME/.FreeCAD** ({{VersionMinus|0.19}}) on Linux, or **$HOME/Library/Preferences/FreeCAD** on macOS, or **%APPDATA%/FreeCAD** on Windows systems.
 
-In some rare cases you may have a graphic driver installed that doesn\'t fit to your graphic card. We had a case where the user\'s laptop had an Intel on-board graphic but some ATI drivers were installed. [1](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042) After removing the files and re-installing the correct driver FreeCAD started to work.
+In some rare cases you may have a graphic driver installed that doesn\'t fit to your graphic card. We had a case where the user\'s laptop had an Intel on-board graphic but some ATI drivers were installed. Refer to forum thread in German [FreeCAD startet nicht](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042). After removing the files and re-installing the correct driver FreeCAD started to work.
 
 #### Some library, needed by FreeCAD, is not present on your system, or wasn\'t found by FreeCAD 
 
@@ -156,7 +156,9 @@ Please refer to the [Workarounds](Workarounds.md) page.
 
 ### How do I extrude stuff into solids? I don\'t get the right result 
 
-The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids. If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing **Ctrl**), join them into a wire ([Draft Upgrade](Draft_Upgrade.md) tool), then make a face from that wire (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Upgrade](Draft_Upgrade.md) tool again). There you are, if all went well you can now extrude it to a solid.
+The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
+
+If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing **Ctrl**), join them into a wire ([Draft Upgrade](Draft_Upgrade.md) tool), then make a face from that wire (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Upgrade](Draft_Upgrade.md) tool again). There you are, if all went well you can now extrude it to a solid.
 
 Now, there can be many little twists that make you obtain the wrong result. The best way to make sure is to check what\'s inside the object you are extruding. Objects contents can be easily explored with python. Assuming for example you have an object called \"Wire\", you could type this into the Python console:
 
@@ -179,11 +181,11 @@ The [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) geomet
 
 ### When I export (or view) my model, the holes are filled in 
 
-Don\'t use **Crtl** + **A** (Select All) to export everything from the hierarchy tree. If the model is of one single item, try selecting only the newest item (usually the last one) in the hierarchy tree.
+Don\'t use **Ctrl** + **A** (Select All) to export everything from the hierarchy tree. If the model is of one single item, try selecting only the newest item (usually the last one) in the hierarchy tree.
 
 As we create a model in the [PartDesign Workbench](PartDesign_Workbench.md), each feature takes the shape of the last one and adds or removes something, creating linear dependencies from feature to feature as the model is created. Hence a \"Cut\" feature is not only the cut hole itself, but the whole part with the cut. This is why the user usually should only have the newest item (feature) in the model tree visible, because otherwise the phases of the model overlay each other, and holes are filled in by the earlier model features.
 
-To toggle visibility of an object on or off, select it in the hierarchy tree and press **spacebar** on your keyboard. Usually everything but the last item in the hierarchy tree should be greyed out and therefore not visible in the 3D view.
+To toggle visibility of an object on or off, select it in the hierarchy tree and press **spacebar** on your keyboard. Usually everything but the last item in the hierarchy tree should be greyed out and therefore not visible in the [3D view](3D_view.md).
 
 ### My parametric objects break when I modify their base sketches 
 

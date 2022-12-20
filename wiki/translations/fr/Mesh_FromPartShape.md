@@ -167,7 +167,7 @@ Pour les utilisateurs Linux: le module externe [Gmsh](https://gmsh.info/) est re
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 ## Script
 

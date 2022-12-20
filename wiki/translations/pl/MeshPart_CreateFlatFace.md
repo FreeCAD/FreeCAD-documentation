@@ -1,25 +1,26 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:MeshPart CreateFlatFace
-   MenuLocation:Meshes → Unwrap Face
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
+   Name/pl:Projekt Siatki: Rozwiń powierzchnię
+   MenuLocation:Siatki → Rozwiń powierzchnię
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Rozwiń siatkę](MeshPart_CreateFlatMesh/pl.md)
 ---
 
 # MeshPart CreateFlatFace/pl
 
-## Description
+## Opis
 
-The **MeshPart CreateFlatFace** command creates a flat representation of a face of a shape object. The created outline is a [Part Feature](Part_Feature.md). At this time the command almost always creates a rectangular outline.
+Polecenie **Rozwiń powierzchnię** tworzy płaską reprezentację ściany kształtu obiektu. Utworzony obrys jest obiektem typu [cecha części](Part_Feature/pl.md) środowiska pracy Część. W tej chwili polecenie prawie zawsze tworzy zarys prostokątny.
 
-## Usage
+## Użycie
 
-1.  Select a single face of a shape object in the [3D view](3D_view.md).
-2.  Select the **Meshes → <img src="images/MeshPart_CreateFlatFace.svg" width=16px> Unwrap Face** option from the menu.
+1.  Wybierz pojedynczą ścianę kształtu obiektu w oknie [widoku 3D](3D_view/pl.md)
+2.  Wybierz z menu opcję **Siatki → <img src="images/MeshPart_CreateFlatFace.svg" width=16px> Rozwiń powierzchnię**.
 
-## Properties
+## Właściwości
 
-See: [Part Feature](Part_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha](Part_Feature/pl.md) środowiska Część.
 
 
 

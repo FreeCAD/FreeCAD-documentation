@@ -5,7 +5,13 @@ Esta página apresenta respostas para algumas das perguntas mais comuns e que s�
 
 ### Qual é a maneira mais fácil de instalar o FreeCAD no meu sistema? 
 
+
+<div class="mw-translate-fuzzy">
+
 Se você estiver no Windows ou Mac OS, a maneira mais simples é ir à página [Download](Download.md), que reúne os instaladores prontos para você baixar. Se você estiver usando Debian, Fedora ou Ubuntu, entre outras distribuições Linux, o FreeCAD está incluído nos repositórios de software padrão e você pode simplesmente instalá-lo com o gerenciador de software. No Ubuntu, a equipe do FreeCAD também mantém seus próprios [Repositórios PPA](Installing_on_Linux/pt-br#Desenvolvimento_PPA.md). Para mais detalhes sobre como instalar o FreeCAD, consulte a página de instalação relacionado ao seu sistema operacional: ([Windows](Installing_on_Windows/pt-br.md), [Linux](Installing_on_Linux/pt-br.md) ou [Mac](Installing_on_Mac/pt-br.md)).
+
+
+</div>
 
 ### Quais os pré-requisitos para executar o FreeCAD? 
 
@@ -69,8 +75,10 @@ Tente descobrir qual é seu chip gráfico ou placa de vídeo e depois verifique 
 Para obter mais informações sobre travamentos do seu FreeCAD, inicie-o utilizando o parâmetro {{SystemInput|--write-log}}}. Isto criará o arquivo {**FreeCAD.log**}, localizado em {**$HOME/.FreeCAD**} no Linux e Mac OS X, ou na pasta {**%APPDATA%/FreeCAD** em sistemas Windows.
 </div>
 
+<div class="mw-translate-fuzzy">
 Em alguns casos raros, você pode ter um driver de vídeo instalado que não é compatível com sua placa gráfica. Tivemos um caso em que o laptop do usuário tinha um chipset Intel on-board, mas alguns drivers ATI estavam instalados. [http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042]
 Depois de remover os arquivos da ATI e reinstalar o driver correto, o FreeCAD começou a funcionar.
+</div>
 
 ==== Alguma biblioteca, necessária para o FreeCAD, não está presente em seu sistema, ou não foi encontrada pelo FreeCAD ====
 
@@ -132,7 +140,13 @@ Isto também pode acontecer se você tivesse uma versão mais antiga do FreeCAD 
 
 O FreeCAD deve agora recomeçar normalmente com todas as suas configurações reiniciadas.
 
+
+<div class="mw-translate-fuzzy">
+
 Há um [Macro findConfigFiles](Macro_findConfigFiles.md) disponível para ajudar na localização de seus arquivos de configuração. Ele pode ser instalado usando o Gerenciador de Extensões no menu Tools (Ferramentas). **Ferramentas → Gerenciador de Extensões → Macros → findConfigFiles** A macro vai encontrar sua pasta de arquivos de configuração, copiá-la para a área de transferência e (tentar) abrir esse local com seu navegador de arquivos padrão. Ela não faz nenhuma alteração em seus arquivos ou configurações.
+
+
+</div>
 
 ## Usando o FreeCAD 
 
@@ -189,6 +203,8 @@ Please refer to the [Workarounds](Workarounds.md) page.
 
 ### Como crio sólidos a partir de extrusões? Não consigo o resultado pretendido 
 
+The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -216,13 +232,33 @@ O código acima recupera a forma de um objeto, mostra as faces e as linhas deste
 
 O núcleo de modelagem geométrica [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) usado no FreeCAD para a geometria da Peça, embora provavelmente o melhor núcleo de geometria de código aberto disponível, tem suas falhas e limitações. De fato, as operações booleanas (fusão, subtração, interseção) não são suas melhores características, e muitas vezes dão resultados estranhos. Esta é uma limitação atual que não temos como resolver de uma só vez, portanto seu melhor caminho é tentar obter o resultado desejado modelando de outra forma. Por exemplo, problemas com primitivos como o cilindro podem muitas vezes ser resolvidos usando um círculo extrudado em seu lugar. Superfícies coplanares entre as peças podem causar problemas, bem como tangência de superfície. Como regra geral, se uma forma não funcionar, tente remodelá-la de maneira diferente. Em 99% dos casos no final, você conseguirá obter o resultado desejado.
 
+### When I export (or view) my model, the holes are filled in 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Quando eu exporto (ou visualizo) meu modelo, os furos são preenchidos 
 
 Não usar **Crtl** + **A** (Selecionar tudo) para exportar tudo da árvore hierárquica. Se o modelo for de um único item, tente selecionar apenas o item mais novo (geralmente o último) na árvore hierárquica.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Ao criarmos um modelo no [PartDesign Workbench](PartDesign_Workbench.md), cada recurso toma a forma do último e adiciona ou remove algo, criando dependências lineares de recurso para recurso à medida que o modelo é criado. Portanto, uma característica \"Corte\" não é apenas o furo cortado em si, mas a peça inteira com o corte. É por isso que o usuário normalmente deveria ter apenas o item mais novo (função) na árvore do modelo visível, pois caso contrário as fases do modelo se sobrepõem, e os furos são preenchidos pelas características do modelo anterior.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Para ativar ou desativar a visibilidade de um objeto, selecione-o na árvore hierárquica e pressione **spacebar** em seu teclado. Normalmente tudo, exceto o último item na árvore hierárquica, deve estar cinza e, portanto, não visível na visualização 3D.
+
+
+</div>
 
 ### Meus objetos paramétricos quebram quando modifico seus esboços de base 
 

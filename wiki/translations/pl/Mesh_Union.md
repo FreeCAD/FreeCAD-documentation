@@ -1,32 +1,33 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh Union
-   MenuLocation:Meshes → Boolean → Union
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Intersection](Mesh_Intersection.md), [Mesh Difference](Mesh_Difference.md)
+   Name/pl:Siatka Połączenie
+   MenuLocation:Siatki → Operacje logiczne → Połączenie
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Przecięcie](Mesh_Intersection/pl.md), [Różnica](Mesh_Difference/pl.md)
 ---
 
 # Mesh Union/pl
 
-## Description
+## Opis
 
-The **Mesh Union** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the union (fusion) of two mesh objects.
+Polecenie **Połączenie** tworzy nowy nieparametryczny obiekt siatkowy typu [cecha siatki](Mesh_Feature/pl.md), który jest połączeniem *(fuzją)* dwóch obiektów siatkowych.
 
-[OpenSCAD](http://www.openscad.org/) must be installed to use this command, and the path to its executable must be set in the [OpenSCAD preferences](OpenSCAD_Preferences.md).
+[OpenSCAD](http://www.openscad.org/) musi być zainstalowany, aby użyć tego polecenia, a ścieżka do jego pliku wykonywalnego musi być ustawiona w [ustawieniach OpenSCAD](OpenSCAD_Preferences/pl.md).
 
 ![](images/Mesh_Union_example.png ) 
-*On the left two mesh objects, on the right the mesh object that is the union of those objects*
+*Po lewej dwa obiekty siatkowe, po prawej obiekt siatkowy będący połączeniem tych obiektów.*
 
-## Usage
+## Użycie
 
-1.  Select two mesh objects that partially overlap.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Union.svg" width=16px> [Mesh Union](Mesh_Union.md)** button.
-    -   Select the **Meshes → Boolean → <img src="images/Mesh_Union.svg" width=16px> Union** option from the menu.
+1.  Wybierz dwa obiekty siatkowe, które częściowo się pokrywają.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Mesh_Union.svg" width=16px> [Połączenie](Mesh_Union/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → Operacje logiczne → <img src="images/Mesh_Union.svg" width=16px> Połączenie**.
 
-## Properties
+## Właściwości
 
-See: [Mesh Feature](Mesh_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 

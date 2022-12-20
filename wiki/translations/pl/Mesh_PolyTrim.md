@@ -1,45 +1,46 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh PolyTrim
-   MenuLocation:Meshes → Cutting → Trim mesh
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh PolyCut](Mesh_PolyCut.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
+   Name/pl:Siatka Przytnij
+   MenuLocation:Siatki → Cięcie → Przytnij siatkę
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Przetnij](Mesh_PolyCut/pl.md), [Przytnij siatkę płaszczyzną](Mesh_TrimByPlane/pl.md)
 ---
 
 # Mesh PolyTrim/pl
 
-## Description
+## Opis
 
-The **Mesh PolyTrim** command trims faces and parts of faces from mesh objects.
+Polecenie **Przytnij siatkę** przycina ściany i części ścian z obiektów siatkowych.
 
-## Usage
+## Użycie
 
-1.  During the command the [3D view](3D_view.md) cannot be changed. It is advisable to properly line up the 3d view first.
-2.  Select one or more mesh objects.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_PolyTrim.svg" width=16px> [Mesh PolyTrim](Mesh_PolyTrim.md)** button.
-    -   Select the **Meshes → Cutting → <img src="images/Mesh_PolyTrim.svg" width=16px> Trim mesh** option from the menu.
-4.  Define a polygon by picking points in the 3D view.
-5.  Select an option from the 3D view context menu:
+1.  Podczas wykonywania polecenia nie można zmienić [widoku 3D](3D_view.md). Wskazane jest, aby najpierw prawidłowo ustawić widok 3D.
+2.  Wybierz jeden lub więcej obiektów siatkowych.
+3.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_PolyTrim.svg" width=16px> '''Przytnij siatkę'''**.
+    -   Wybierz z menu opcję **Siatki → Cięcie → <img src="images/Mesh_PolyTrim.svg" width=16px> Przytnij siatkę**.
+4.  Zdefiniuj wielokąt wybierając punkty w oknie widoku 3D.
+5.  Wybierz opcję z menu kontekstowego widoku 3D:
     -   
-        **Inner**
+        **Wewnętrzny**
         
-        : removes the faces and parts of faces that are inside the polygon.
-
-    -   
-        **Outer**
-        
-        : removes the faces and parts of faces that are outside the polygon.
+        : usuwa ściany i części ścian znajdujące się wewnątrz wielokąta.
 
     -   
-        **Split**
+        **Zewnętrzny**
         
-        : removes the faces and parts of faces that are outside the polygon, and creates a new mesh object containing them.
+        : usuwa ściany i części ścian, które znajdują się poza wielokątem.
 
     -   
-        **Cancel**
+        **Rozdziel**
         
-        : cancels the command.
+        : usuwa ściany i części ścian znajdujące się poza wielokątem i tworzy zawierający je nowy obiekt siatki.
+
+    -   
+        **Anuluj**
+        
+        : anuluje polecenie.
 
 
 

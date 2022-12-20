@@ -285,7 +285,7 @@ To validate your package.xml file you can enable \"developer mode\" in the Addon
 
 ## Quick guide 
 
-For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see: [Add Workbench to Addon_Manager](Add_Workbench_to_Addon_Manager.md).
+For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see: [Add Workbench to Addon Manager](Add_Workbench_to_Addon_Manager.md).
 
 ## Examples
 

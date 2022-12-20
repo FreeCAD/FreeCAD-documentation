@@ -1,45 +1,47 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh BuildRegularSolid
-   MenuLocation:Meshes → Regular solid...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name/pl:Siatka Utwórz bryłę pierwotną
+   MenuLocation:Siatki → Utwórz bryłę pierwotną ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh BuildRegularSolid/pl
 
 ## Opis
 
-The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh object.
+Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną bryłę obiektu siatkowego.
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regular solid...** option from the menu.
-2.  The **Regular Solid** dialog box opens.
-3.  First select a mesh object type from the dropdown list:
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> '''Utwórz bryłę pierwotną'''**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Utwórz bryłę pierwotną ...**.
+2.  Otworzy się okno dialogowe **Bryła pierwotna**.
+3.  Najpierw wybierz typ obiektu siatkowego z listy rozwijanej:
+4.  First select a mesh object type from the dropdown list:
     -   
-        **<img src="images/Mesh_Cube.svg" width=16px> Cube
+        **<img src="images/Mesh_Cube.svg" width=16px> Sześcian
 **
         
 
     -   
-        **<img src="images/Mesh_Cylinder.svg" width=16px> Cylinder
+        **<img src="images/Mesh_Cylinder.svg" width=16px> Walec
 **
         
 
     -   
-        **<img src="images/Mesh_Cone.svg" width=16px> Cone
+        **<img src="images/Mesh_Cone.svg" width=16px> Stośek
 **
         
 
     -   
-        **<img src="images/Mesh_Sphere.svg" width=16px> Sphere
+        **<img src="images/Mesh_Sphere.svg" width=16px> Sfera
 **
         
 
     -   
-        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellipsoid
+        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellipsoida
 **
         
 
@@ -47,92 +49,92 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
         **<img src="images/Mesh_Torus.svg" width=16px> Torus
 **
         
-4.  Specify the required settings. The available settings depend on the mesh object type. See [Properties](#Properties.md).
-5.  For meshes with curved surfaces: a higher **Sampling** value results in a finer mesh.
-6.  Press the {{button|Create}} button to create the mesh object.
-7.  Optionally create more mesh objects.
-8.  Press the {{button|Close}} button to close the dialog box and finish the command.
+5.  Określ wymagane ustawienia. Dostępne ustawienia zależą od typu obiektu siatkowego. Zobacz [Właściwości](#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
+6.  Dla siatek z zakrzywionymi powierzchniami: wyższa wartość **Próbkowania** skutkuje drobniejszą siatką.
+7.  Naciśnij przycisk {{button|Utwórz}}, aby utworzyć obiekt siatki.
+8.  Opcjonalnie utwórz więcej obiektów siatki.
+9.  Naciśnij przycisk {{button|Zamknij}}, aby zamknąć okno dialogowe i zakończyć polecenie.
 
 ## Uwagi
 
--   Mesh objects created with this command are parametric. Whenever they are recomputed, for example after changing one of their parameters, their mesh is reconstructed. This means that manipulating them with commands such as [Mesh RemeshGmsh](Mesh_RemeshGmsh.md), [Mesh Scale](Mesh_Scale.md) etc. usually does not make sense.
+-   Obiekty siatkowe utworzone za pomocą tego polecenia są parametryczne. Kiedykolwiek są one ponownie obliczane, na przykład po zmianie jednego z ich parametrów, ich siatka jest rekonstruowana. Oznacza to, że manipulowanie nimi za pomocą poleceń takich jak [Ulepsz przez Gmsh](Mesh_RemeshGmsh/pl.md), [Skaluj](Mesh_Scale/pl.md) itp. zwykle nie ma sensu.
 
 ## Właściwości
 
-Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
+Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie właściwości typu [Cecha siatki](Mesh_Feature/pl.md). Dodatkowo każdy typ obiektu siatkowego posiada szereg właściwości pozwalających kontrolować jego parametryczne zachowanie:
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
+### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Sześcian 
 
 #### Dane
 
 
-{{TitleProperty|Cube}}
+{{TitleProperty|Sześcian}}
 
--    **Height|FloatConstraint**: the height of the cube.
+-    **Wysokość|FloatConstraint**: wysokość sześcianu.
 
--    **Length|FloatConstraint**: the length of the cube.
+-    **Długość|FloatConstraint**: długość sześcianu.
 
--    **Width|FloatConstraint**: the width of the cube.
+-    **Szerokość|FloatConstraint**: szerokość sześcianu.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder 
-
-#### Dane 
-
-
-{{TitleProperty|Base}}
-
--    **Closed|Bool**: if set to `False`, the planar ends of the cylinder are left open.
-
--    **Edge Length|FloatConstraint**: the edge length of the faces in the mesh.
-
--    **Length|FloatConstraint**: the length of the cylinder.
-
--    **Radius|FloatConstraint**: the radius of the cylinder.
-
--    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
-
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone 
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Walec 
 
 #### Dane 
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Closed|Bool**: if set to `False`, the planar end(s) of the cone are left open.
+-    **Zamknięty|Bool**: jeśli ustawiono na wartość `False`, planarne końce walca pozostają otwarte.
 
--    **Edge Length|FloatConstraint**: the edge length of the faces in the mesh.
+-    **Długość krawędzi|FloatConstraint**: długość krawędzi ścian w siatce.
 
--    **Length|FloatConstraint**: the length of the cone.
+-    **Długość|FloatConstraint**: długość walca.
 
--    **Radius 1|FloatConstraint**: the first radius of the cone. Can be {{value|0}}.
+-    **Promień|FloatConstraint**: promień walca.
 
--    **Radius 2|FloatConstraint**: the second radius of the cone. Can be {{value|0}}.
+-    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż zakrzywionej powierzchni.
 
--    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
-
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere 
+### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Stożek 
 
 #### Dane 
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Radius|FloatConstraint**: the radius of the sphere.
+-    **Zamknięty|Bool**: jeśli ustawiono na wartość `False`, planarny koniec *(końce)* stożka pozostają otwarte.
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+-    **Długość krawędzi|FloatConstraint**: długość krawędzi ścian w siatce.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid 
+-    **Długość|FloatConstraint**: długość stożka.
+
+-    **Promień 1|FloatConstraint**: pierwszy promień stożka. Może przyjmować wartość {{value|0}}.
+
+-    **Promień 2|FloatConstraint**: drugi promień stożka. Może przyjmować wartość {{value|0}}.
+
+-    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż zakrzywionej powierzchni.
+
+### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sfera 
 
 #### Dane 
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Radius 1|FloatConstraint**: the first radius of the ellipsoid.
+-    **Promień|FloatConstraint**: promień kuli.
 
--    **Radius 2|FloatConstraint**: the second radius of the ellipsoid.
+-    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż obu kierunków zakrzywionej powierzchni.
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoida 
+
+#### Dane 
+
+
+{{TitleProperty|Podstawowe}}
+
+-    **Promień 1|FloatConstraint**: pierwszy promień elipsy.
+
+-    **Promień 2|FloatConstraint**: drugi promień elipsy.
+
+-    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż obu kierunków zakrzywionej powierzchni.
 
 ### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
 
@@ -141,11 +143,11 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 {{TitleProperty|Podstawowe}}
 
--    **Radius 1|FloatConstraint**: the first (main) radius the torus.
+-    **Promień 1|FloatConstraint**: pierwszy *(główny)* promień torusa.
 
--    **Radius 2|FloatConstraint**: the second radius of the torus.
+-    **Promień 2|FloatConstraint**: drugi promień torusa.
 
--    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
+-    **Próbkowanie|IntegerConstraint**: liczba ścian wzdłuż obu kierunków zakrzywionej powierzchni.
 
 
 

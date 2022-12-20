@@ -5,7 +5,13 @@ Diese Seite versucht, die häufigsten Fragen zu beantworten, die in den FreeCAD 
 
 ### Was ist der einfachste Weg, FreeCAD auf meinem Rechner zu installieren ? 
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du unter Windows oder Mac OS arbeitest, ist der einfachste Weg, auf die Seite zum [Herunterladen](Download/de.md) zu gehen, wo du mehrere installationsbereite Pakete findest. Wenn du auf Debian, Fedora oder Ubuntu und einigen anderen Distributionen bist, ist FreeCAD bereits in den Standard Software Repositorien enthalten und du kannst es einfach mit dem Software Manager installieren. Unter Ubuntu unterhält das FreeCAD Team auch eigene [PPA Repositorien](Installing_on_Linux/de#Stable_PPA.md). Weitere Details zur Installation findest du auf der Installationsseite für dein Betriebssystem ([Windows](Installing_on_Windows/de.md), [Linux](Installing_on_Linux/de.md) oder [Mac](Installing_on_Mac/de.md)).
+
+
+</div>
 
 ### Was sind die Voraussetzungen um FreeCAD auszuführen 
 
@@ -65,7 +71,13 @@ Und als allgemeiner Tip, um mehr Informationen über Abstürze mit FreeCAD zu er
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 In einigen seltenen Fällen hast Du vielleicht einen Grafiktreiber installiert, der nicht zu Deiner Grafikkarte passt. Wir hatten einen Fall, wo im Laptop des Benutzer eine Intel on-board Grafik verbaut war, aber einige ATI Treiber installiert waren ([1](http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042)). Nach dem Entfernen der Dateien und der Neuinstallation des richtigen Treibers begann FreeCAD zu arbeiten.
+
+
+</div>
 
 #### Eine Bibliothek, die von FreeCAD benötigt wird, ist nicht auf Ihrem System vorhanden oder wurde von FreeCAD nicht gefunden 
 
@@ -125,7 +137,13 @@ Dies kann auch passieren, wenn du eine ältere Version von FreeCAD installiert h
 
 FreeCAD sollte nun wieder normal, mit allen Einstellungen zurückgesetzt, starten.
 
+
+<div class="mw-translate-fuzzy">
+
 Es gibt ein [Makro findeKonfigDateien](Macro_findConfigFiles/de.md), das beim Auffinden deiner Konfigurationsdateien hilft. Es kann über den Erweiterungsverwalter im Menü Extras installiert werden. **Werkzeuge → Erweiterungsverwalter → Makros → findConfigFiles**. Das Makro findet deinen Konfigurationsdateiordner, kopiert ihn in die Zwischenablage und (versucht), diesen Ort mit deinem Standard Dateibrowser zu öffnen. Es nimmt keine Änderungen an deinen Dateien oder Einstellungen vor.
+
+
+</div>
 
 ## FreeCAD benutzen 
 
@@ -180,6 +198,8 @@ Please refer to the [Workarounds](Workarounds.md) page.
 
 ### Wie extrudiere ich Sachen in Festkörper? Ich erhalte nicht das richtige Ergebnis 
 
+The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -207,13 +227,33 @@ Der obige Code ruft die Form von einem Objekt ab, zeigt die Flächen und Drähte
 
 Der [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) Geometriemodellierungs Kernel, der in FreeCAD für die Teilegeometrie verwendet wird, hat, obwohl er wahrscheinlich der beste verfügbare Open-Source Geometrie Kernel ist, seine Schwächen und Begrenzungen. In der Tat sind die booleschen Operationen (Verschmelzen, Subtraktion, Schnittmenge) nicht seine besten Eigenschaften und liefern oft seltsame Ergebnisse. Dies ist eine Begrenzung, die wir derzeit nicht lösen können, daher ist es am besten, wenn du versuchst, das gewünschte Ergebnis durch eine andere Art der Modellierung zu erhalten. Zum Beispiel können Probleme mit Grundelementen wie Zylindern oft gelöst werden, indem man stattdessen einen extrudierten Kreis verwendet. Koplanare Flächen zwischen Teilen können Probleme verursachen, ebenso wie Flächentangentialität. Als allgemeine Regel gilt: Wenn eine Form nicht funktioniert, versuche, sie auf eine andere Weise umzuformen. In 99 % der Fälle wirsr du am Ende das gewünschte Ergebnis erzielen.
 
+### When I export (or view) my model, the holes are filled in 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Wenn ich mein Modell exportiere (oder anzeige), werden die Löcher ausgefüllt 
 
 Verwende nicht **Crtl** + **A** (Alles auswählen), um alles aus dem Hierarchiebaum zu exportieren. Wenn das Modell aus einem einzigen Element besteht, versuche, nur das neueste Element (normalerweise das letzte) im Hierarchiebaum auszuwählen.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Wenn wir ein Modell im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellen, nimmt jedes Formelement die Form des letzten an und fügt etwas hinzu oder entfernt etwas, wodurch lineare Abhängigkeiten von Formelement zu Formelement entstehen, während das Modell erstellt wird. Ein \"Schnitt\" Formelement ist also nicht nur das Schnittloch selbst, sondern das ganze Teil mit dem Schnitt. Aus diesem Grund sollte der Benutzer in der Regel nur das neueste Element (Formelement) im Modellbaum sichtbar haben, da sich sonst die Phasen des Modells überlagern und Löcher von den früheren Modell Formelementen ausgefüllt werden.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Um die Sichtbarkeit eines Objekts ein- oder auszuschalten, wähle es im Hierarchiebaum aus und drücke die **Leertaste** auf deiner Tastatur. Normalerweise sollte alles bis auf das letzte Element im Hierarchiebaum ausgegraut und damit in der 3D Ansicht nicht sichtbar sein.
+
+
+</div>
 
 ### Meine parametrischen Objekte gehen kaputt, wenn ich ihre Basisskizzen ändere 
 

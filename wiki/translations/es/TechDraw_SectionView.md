@@ -12,8 +12,11 @@
 
 The <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw SectionView** tool inserts a cross-section view based on an existing part view.
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
-*Sectioning an already placed view, which shows the internal holes and a shaded cut surface*
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
+*Sectioning an already placed view, which shows the internal holes and a hatched cut surface.<br>
+The top image shows the ANSI arrow format.<br>
+The bottom image shows the ISO arrow format.
+*
 
 ## Utilización
 

@@ -16,13 +16,13 @@ Esistono in genere due modi per creare delle interfacce con PySide.
 
 ### Interfaccia in un file .ui 
 
-In this method the interface is defined in a `.ui` file (an XML document that defines the structure of the interface), which is then imported into [Python](Python.md) code that uses it. This is the recommended approach.
+Con questo metodo l\'interfaccia è definita in un file `.ui` (un documento XML che definisce la struttura dell\'interfaccia), che viene poi importato nel codice [Python](Python.md) che lo utilizza. Questo è l\'approccio consigliato.
 
--   It allows the programmer to work with the graphical interface separately from the logic that will use it.
--   It allows anybody to look at the interface alone, that is, the `.ui` file, without having to run Python code.
--   The `.ui` file may be designed by anybody without programming knowledge.
--   The `.ui` interface can be used in a standalone window (modal), or in an embedded window (non-modal); therefore, this method is ideal to create custom [task panels](Task_panel.md).
--   Since the `.ui` file just describes the \"appearance\" of the interface, it does not need to be tied to a particular programming language; it may be used both in [Python](Python.md) and C++ code.
+-   Consente al programmatore di lavorare con l\'interfaccia grafica separatamente dalla logica che la utilizzerà.
+-   Permette a chiunque di guardare solo l\'interfaccia, cioè il file `.ui`, senza dover eseguire codice Python.
+-   Il file `.ui` può essere progettato da chiunque non abbia conoscenze di programmazione.
+-   L\'interfaccia `.ui` può essere utilizzata in una finestra autonoma (modale) o in una finestra incorporata (non modale); pertanto, questo metodo è ideale per creare [task panel](Task_panel.md).
+-   Dato che il file `.ui` descrive solo \"l\'aspetto\" dell\'interfaccia, non ha bisogno di essere legato a un particolare linguaggio di programmazione; può essere utilizzato sia nel codice [Python](Python.md) che in quello C++.
 
 ### Interfaccia completamente in codice Python 
 

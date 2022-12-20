@@ -1,26 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Mesh CrossSections
-   MenuLocation:Meshes → Cutting → Cross-sections..
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh SectionByPlane](Mesh_SectionByPlane.md)
+   Name/pl:Siatka: Wiele przekrojów
+   MenuLocation:Siatki → Cięcie → Przekrój poprzeczny ...
+   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso:[Przekrój płaszczyzną](Mesh_SectionByPlane/pl.md)
 ---
 
 # Mesh CrossSections/pl
 
 ## Opis
 
-The **Mesh CrossSections** command creates multiple cross sections across mesh objects. The cross sections are taken parallel to one of the main global planes (XY, XZ or YZ). For each set of cross sections a single [Part Feature](Part_Feature.md) is created.
+Polecenie **Wiele przekrojów** tworzy wiele przekrojów przez obiekty siatki. Przekroje są wykonywane równolegle do jednej z głównych płaszczyzn globalnych *(XY, XZ lub YZ)*. Dla każdego zestawu przekrojów tworzona jest pojedyncza [Cecha](Part_Feature/pl.md).
 
 ## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_CrossSections.svg" width=16px> [Mesh CrossSections](Mesh_CrossSections.md)** button.
-    -   Select the **Meshes → Cutting → <img src="images/Mesh_CrossSections.svg" width=16px> Cross-sections..** option from the menu.
-3.  The **Cross sections** task panel opens.
-4.  The planes that will be used to create the cross sections are indicated in the [3D view](3D_view.md), and will be updated based on the task panel inputs.
-5.  Select the **Guiding plane**:
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Mesh_CrossSections.svg" width=16px> [Przekrój poprzeczny ...](Mesh_CrossSections/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → Cięcie → <img src="images/Mesh_CrossSections.svg" width=16px> Przekrój poprzeczny ...**.
+3.  Otwiera się panel zadań **Przekrój poprzeczny**.
+4.  Płaszczyzny, które zostaną użyte do utworzenia przekrojów są wskazane w oknie [widoku 3D](3D_view/pl.md) i będą aktualizowane na podstawie danych z panelu zadań.
+5.  Wybierz **Płaszczyznę prowadzenia**:
     -   
         **XY**
         
@@ -32,31 +33,31 @@ The **Mesh CrossSections** command creates multiple cross sections across mesh o
     -   
         **YZ**
         
-6.  Specify the **Position** of the guiding plane from the origin. The default position is based on the center of the bounding box of the selected mesh objects. Choosing a different **Guiding plane** or toggling the **Sections** checkbox will reset the **Positon** to this default value.
-7.  Optionally check the **Sections** checkbox to create multiple cross sections:
+6.  Określa **Pozycję** płaszczyzny prowadzącej od początku. Domyślna pozycja jest oparta na środku ramki otaczjącej wybranych obiektów siatkowych. Wybranie innej **Płaszczyzny prowadzenia** lub przełączenie pola wyboru **Przekroje** spowoduje przywrócenie wartości domyślnej **Pozycji**.
+7.  Opcjonalnie zaznacz pole wyboru **Przekroje**, aby utworzyć wiele przekrojów:
     -   
-        **On both sides**
+        **Po obu stronach**
         
-        : if checked, cross sections are created on both sides of the guiding plane.
+        : jeśli zaznaczone, przekroje są tworzone po obu stronach płaszczyzny prowadzącej.
 
     -   
-        **Count**
+        **Licznik**
         
-        : the number of cross sections.
+        : liczba przekrojów.
 
     -   
-        **Distance**
+        **Odległość**
         
-        : the distance between the cross sections. The default value is based on the dimensions of the bounding box, the **On both sides** option, and the **Count** value. Changing the **Count** value will reset the **Distance** to this default value. Changing the **On both sides** option will recalculate the **Distance** ({{value|*2.0}} or {{value|*0.5}}). Note that the input box may be greyed out, but the value can in fact be changed.
+        : odległość między przekrojami. Wartość domyślna jest oparta na wymiarach ramki otaczjącej, opcji **Po obu stronach** oraz wartości **Licznik**. Zmiana wartości **Licznik** spowoduje zresetowanie opcji **Odległość** do tej wartości domyślnej. Zmiana opcji **Po obu stronach** spowoduje ponowne obliczenie wartości **Odległość** *({{value|*2.0}} lub {{value|*0.5}})*. Zauważ, że pole wejściowe może być nieaktywne, ale wartość może być w rzeczywistości zmieniona.
 
-    -   Optionally check the **Connect edges if distance is less than** checkbox and specify a value.
-8.  Press the {{button|Apply}} button to create the set of cross sections.
-9.  Optionally change one or more settings and create additional sets of cross sections.
-10. Press the {{button|OK}} button or the {{button|Cancel}} button to close the task panel and finish the command.
+    -   Opcjonalnie zaznacz pole wyboru **Połącz krawędzie jeśli odległość jest mniejsza niż** i określ wartość.
+8.  Naciśnij przycisk {{button|Zastosuj}}, aby utworzyć zestaw przekrojów.
+9.  Opcjonalnie zmień jedno lub więcej ustawień i utwórz dodatkowe zestawy przekrojów.
+10. Naciśnij przycisk {{button|OK}} lub przycisk {{button|Anuluj}}, aby zamknąć panel zadań i zakończyć polecenie.
 
 ## Właściwości
 
-See: [Part Feature](Part_Feature.md).
+Zapoznaj się z informacjami na stronie: [cecha](Part_Feature/pl.md) środowiska Część.
 
 
 

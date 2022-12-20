@@ -7,7 +7,7 @@ Począwszy od wersji 0.20 programu FreeCAD, zewnętrzne dodatki (środowiska pra
 
 ## Ogólny format pliku 
 
-This document currently describes file format version 1.
+Ten dokument opisuje obecnie format pliku w wersji 1.
 
 The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package\'s primary branch (as specified by the [FreeCAD-addons .gitmodules file](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) in its git repository. Only the package.xml file from the primary branch is considered by the Addon Manager. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
 
@@ -55,25 +55,25 @@ The top-level  element must contain at least the following tags:
 
 ###  
 
-REQUIRED
+WYMAGANE
 
 The name of this package. Must only contain characters that are valid for filenames (disallowed characters are /\\?%\*:\|\"\<\> ).
 
 ###  
 
-REQUIRED
+WYMAGANE
 
 A version number that follows either the [semantic versioning 2.0 standard](https://semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https://calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type. Note that this cannot be left blank, some kind of version number must be assigned. When the Addon Manager detects an increase in version number it will display the \"update available\" information to users.
 
 ###  
 
-REQUIRED
+WYMAGANE
 
 The date of the current version, in the format YYYY-MM-DD or YYYY.MM.DD.
 
 ###  
 
-REQUIRED
+WYMAGANE
 
 A concise (up to several sentences) text-only description of this package. No markup is supported.
 
@@ -139,7 +139,7 @@ Commonly-used license strings:
 
 ###  
 
-REQUIRED
+WYMAGANE
 
 The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
 
@@ -173,7 +173,7 @@ The path to an icon file. If it is an icon for the top-level package this path i
 
 ####  
 
-Optional.
+Opcjonalnie.
 
 Normally a content item is assumed to be located in a subdirectory with the same name as the item. In some cases, however, it is useful to explicitly specify the subdirectory. For example, many macros may be located within a single subdirectory, but each have their own entry in the package.xml file. It also provides backwards-compatibility support for packages that predate the package.xml file format specification, and do not follow the expected subdirectory structure. Often in these cases, a \"./\" is used to indicate that the item is not located in a subdirectory at all.
 
@@ -195,7 +195,7 @@ then the package.xml file expects:
 
 ####  
 
-Optional
+Opcjonalnie
 
 Provided for convenience to other tools, any number of other files may be listed here. Their use depends on the type of content. In a macro content item, each file entry is a single macro, and will be linked into the user\'s Macros installation directory by the [Addon Manager](Std_AddonMgr.md).
 
@@ -209,7 +209,7 @@ When specifying the \"readme\" type, a direct link to a rendered version of the 
 
 It is a good idea to include  tags pointing users to your package\'s online resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package, for example. The Addon Manager lists these URLs and provides clickable links to them in the package description.
 
-#### Attributes 
+#### Atrybuty
 
 -   type=\"TYPE\" (required): The type should be one of the following identifiers: \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\", or \"discussion\".
 -   branch=\"BRANCH\" (required for type=\"repository\"): The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
@@ -230,7 +230,7 @@ Multiple allowed
 
 Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). The check is against the canonical name of the Addon. If a package.xml file is present for that Addon, the name is that package\'s  element. An exact match is required. If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
 
-#### Attributes 
+#### Atrybuty 
 
 All dependencies and relationships may restrict their applicability to particular versions. For each comparison operator an attribute can be used. Two of these attributes can be used together to describe a version range.
 
@@ -249,7 +249,7 @@ Multiple allowed
 
 Declares a package name with which this package conflicts. This package and the conflicting package should not be installed at the same time.
 
-#### Attributes 
+#### Atrybuty 
 
 See .
 
@@ -259,7 +259,7 @@ Multiple allowed
 
 Declares a package name that this package is intended to replace.
 
-#### Attributes 
+#### Atrybuty 
 
 See .
 
@@ -285,7 +285,7 @@ To validate your package.xml file you can enable \"developer mode\" in the Addon
 
 ## Quick guide 
 
-For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see: [Add Workbench to Addon_Manager](Add_Workbench_to_Addon_Manager.md).
+For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see: [Add Workbench to Addon Manager](Add_Workbench_to_Addon_Manager.md).
 
 ## Examples
 

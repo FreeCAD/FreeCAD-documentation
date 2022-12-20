@@ -19,7 +19,7 @@ crée une classe [App Link](App_Link/fr.md) (`App::Link`), un type d\'objet fais
 
 L\'objet [App Link](App_Link/fr.md) a été nouvellement introduit dans la v0.19. Auparavant, une simple duplication d\'objets pouvait être réalisée avec **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/fr.md)**, mais c\'est une solution moins efficace en raison de son implémentation qui crée essentiellement une copie de la [forme](Part_TopoShape/fr.md) interne de l\'objet source. D\'un autre côté, un lien fait directement référence à la forme d\'origine, donc plus efficace en mémoire.
 
-En lui-même, l\'objet [Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"[Link Array](#Link_Array/fr.md)\" peut également être créé avec les différents outils de tableau du <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md), par exemple **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Réseau polaire](Draft_PolarArray/fr.md)**, et **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
+En lui-même, l\'objet [Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"[Réseau lien](Std_LinkMake/fr#R.C3.A9seau_lien.md)\" peut également être créé avec les différents outils de tableau de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md), par exemple **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Réseau polaire](Draft_PolarArray/fr.md)**, et **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
 
 Lorsqu\'ils sont utilisés avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md), les liens sont destinés à être utilisés avec **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**. Il est donc recommandé de définir {{PropertyView/fr|Display Mode Body}} sur {{Value|Tip}} pour sélectionner les caractéristiques du corps entier et non les fonctions individuelles. Pour créer des tableaux des [PartDesign Features](PartDesign_Feature/fr.md) internes, utilisez **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md)** et **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)**.
 
@@ -131,7 +131,7 @@ Quel que soit l\'état de {{PropertyView/fr|Override Material}}, il est possible
 
 *(1) Un objet original, (2) un lien avec un matériau de remplacement et (3) un deuxième lien avec des sous-éléments modifiés individuels.*
 
-### Réseau lien 
+## Réseau lien 
 
 
 **Voir aussi :**

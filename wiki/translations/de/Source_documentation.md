@@ -1,22 +1,11 @@
 # Source documentation/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Überblick
 
 Der FreeCAD Quellcode ist kommentiert, um eine automatische Generierung der Programmierdokumentation mit [Doxygen](Doxygen/de.md), einem beliebten Quellcode Dokumentationssystem, zu ermöglichen. Doxygen kann sowohl die C++ als auch die Python Teile von FreeCAD dokumentieren, was zu HTML Seiten mit Hyperlinks zu jeder dokumentierten Funktion und Klasse führt.
 
-Die Dokumentation ist online auf der \[<https://freecad.github.io/SourceDoc/>
-
-FreeCAD API Website] verfügbar. Bitte beachte, dass diese Dokumentation möglicherweise nicht immer auf dem neuesten Stand ist; wenn Du mehr Details benötigst, lade den neuesten Quellcode von FreeCAD herunter und erstelle die Dokumentation selbst. Wenn Du dringende Fragen zum Code hast, stelle diese bitte im Entwicklerbereich des [FreeCAD Forum](https://forum.freecadweb.org/index.php).
+Die Dokumentation ist online auf der [FreeCAD API Website](https://freecad.github.io/SourceDoc/) verfügbar. Bitte beachte, dass diese Dokumentation möglicherweise nicht immer auf dem neuesten Stand ist; wenn Du mehr Details benötigst, lade den neuesten Quellcode von FreeCAD herunter und erstelle die Dokumentation selbst. Wenn Du dringende Fragen zum Code hast, stelle diese bitte im Entwicklerbereich des [FreeCAD Forum](https://forum.freecadweb.org/index.php).
 
 Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten wie die Kompilierung der FreeCAD Ausführdatei, wie auf der [Kompilieren auf Linux](Compile_on_Linux/Unix/de.md) Seite angegeben.
 
@@ -102,15 +91,9 @@ git push
 
 -   Go to your fork online, and create a pull request.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Andere Versionen 
 
-[FreeCAD 0.12](http://free-cad.sf.net/SrcDocu/index.html) Dokumentation, die in Sourceforge untergebracht ist.
-
-
-</div>
+[FreeCAD 0.19 development](https://iesensor.com/FreeCADDoc/0.19/) Dokumentation erstellt von [qingfeng.xia](http://forum.freecadweb.org/viewtopic.php?t=12613).
 
 ## Coin3D Dokumentation integrieren 
 
@@ -141,15 +124,6 @@ void setName(const std::string&);
 /// remove the added TaskWatcher
 void removeTaskWatcher(void);
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

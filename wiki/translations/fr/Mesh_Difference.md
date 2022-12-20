@@ -29,7 +29,7 @@ La commande **Mesh Différence** crée un nouvel objet maillé non paramétrique
 
 ## Propriétés
 
-Voir: [Mesh Feature](Mesh_Feature/fr.md).
+Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 
