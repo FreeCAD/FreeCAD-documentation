@@ -1,21 +1,27 @@
 ---
 - GuiCommand:/pl
    Name:Std ProjectUtil
-   Name/pl:Std: Narzędzia projektu
+   Name/pl:Std: Narzędzie projektu
    MenuLocation:Przybory → Narzędzia projektu ...
    Workbenches:wszystkie
 ---
 
 # Std ProjectUtil/pl
 
+
+
 ## Opis
 
-Za pomocą polecenia **Narzędzia projektu** można wyodrębnić pliki z pliku projektu FreeCAD *(***.FCStd**), który w rzeczywistości jest plikiem \[<https://en.wikipedia.org/wiki/Zip_(file_format)>* ZIP\], i po ręcznej edycji utworzyć z nich nowy plik projektu.
+Za pomocą polecenia **Narzędzie projektu** można wyodrębnić pliki z pliku projektu FreeCAD *(***.FCStd**), który w rzeczywistości jest plikiem \[<https://en.wikipedia.org/wiki/Zip_(file_format)>* ZIP\], i po ręcznej edycji utworzyć z nich nowy plik projektu.
 
 ![](images/Project_utility_en.png ) 
 *Okno dialogowe Narzędzia projektu*
 
+
+
 ## Użycie
+
+
 
 ### Wyodrębnienie projektu 
 
@@ -28,26 +34,32 @@ Za pomocą polecenia **Narzędzia projektu** można wyodrębnić pliki z pliku p
 7.  Naciśnij przycisk **Rozpakuj**.
 8.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
-### Edycja ręczna 
 
-It is important to realize that the files inside a FreeCAD project file are interlinked. Only editing a single file will typically lead to errors. To make consistent edits across multiple files use a good code editor, such as [Notepad++](http://notepad-plus-plus.org/) (for the Windows OS) or [Notepadqq](https://notepadqq.com/s/) (for Linux OS).
 
-### Create project 
+### Edycja samodzielna 
 
-1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...** option from the menu.
-2.  The Project utility dialog box opens.
-3.  Press the **...** button to the right of **Create project → Source**.
-4.  Select the **Document.xml** file. The command will be automatically find all linked files.
-5.  Press the **...** button to the right of **Create project → Destination**.
-6.  Select a folder where the new project file should be created.
-7.  Press the **Create** button.
-8.  A new project file with a fixed name, **project.fcstd**, is created in the selected folder. There is no warning if a file with that name already exists.
-9.  Optionally check the {{CheckBox|TRUE|Load project file after creation}} checkbox.
-10. Press the **Close** button to close the dialog box.
+Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz pliku projektu FreeCAD są ze sobą powiązane. Edycja tylko jednego pliku zazwyczaj prowadzi do błędów. Aby dokonać spójnych edycji w wielu plikach, użyj dobrego edytora kodu, takiego jak [Notepad++](http://notepad-plus-plus.org/) (dla systemu operacyjnego Windows) lub [Notepadqq](https://notepadqq.com/s/) *(dla systemu operacyjnego Linux)*.
+
+
+
+### Utwórz projekt 
+
+1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ProjectUtil.svg" width=16px> Narzędzie projektu ...**.
+2.  Otworzy się okno dialogowe Narzędzie projektu.
+3.  Naciśnij przycisk **...** na prawo od **Utwórz projekt → Źródło**.
+4.  Wybierz plik **Document.xml**. Polecenie automatycznie znajdzie wszystkie powiązane pliki.
+5.  Naciśnij przycisk **...** po prawej stronie **Utwórz projekt → Miejsce docelowe**.
+6.  Wybierz folder, w którym ma zostać utworzony nowy plik projektu.
+7.  Naciśnij przycisk **Utwórz**.
+8.  W wybranym folderze tworzony jest nowy plik projektu o ustalonej nazwie, **project.fcstd**. Nie ma ostrzeżenia, jeśli plik o tej nazwie już istnieje.
+9.  Opcjonalnie zaznacz pole wyboru {{CheckBox|TRUE|Wczytaj plik projektu po utworzeniu}}.
+10. Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
+
+
 
 ## Uwagi
 
--   For more information about the FreeCAD project file format see [File Format FCStd](File_Format_FCStd.md).
+-   Więcej informacji na temat formatu pliku projektu FreeCAD znajduje się na stronie [Format pliku FCStd](File_Format_FCStd/pl.md).
 
 
 

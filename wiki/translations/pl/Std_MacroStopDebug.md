@@ -10,6 +10,8 @@
 
 # Std MacroStopDebug/pl
 
+
+
 ## Opis
 
 To polecenie w tej chwili nie działa.

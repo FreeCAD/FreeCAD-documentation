@@ -1,50 +1,61 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std TextDocument
-   MenuLocation:Tools → Add text document
-   Workbenches:All
+   Name/pl:Std: Dodaj dokument tekstowy
+   MenuLocation:Przybory → Dodaj dokument tekstowy
+   Workbenches:wszystkie
    Version:0.19
-   SeeAlso:[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
+   SeeAlso:[Kształt z tekstu](Draft_ShapeString/pl.md), [Adnotacja wieloliniowa](Draft_Text/pl.md)
 ---
 
 # Std TextDocument/pl
 
-## Description
-
-The **Std TextDocument** command creates an object capable of holding arbitrary text. This element can be used to write general information or documentation about the model.
-
-## Usage
-
-1.  Select the **Tools → Add text document** option from the menu.
-2.  Double-click the newly created object in the [tree view](tree_view.md) to open a tab in which to write text.
-3.  Add text.
-4.  Close the tab and save the file when asked.
-
-## Properties
-
-### View
 
 
-{{TitleProperty|Editor}}
+## Opis
 
--    **Font Name|Font**: a font name, for example, {{Value|Ubuntu Mono}}.
-
--    **Font Size|Float**: a font size in points, for example, {{Value|11}}.
-
--    **Read Only|Bool**: it defaults to `False`. If set to `True` the text cannot be edited.
-
--    **Syntax Highlighter|Enumeration**: it defaults to {{Value|None}}. If set to {{Value|Python}}, the text will be highlighted like the [Python console](Python_console.md).
-
-## Scripting
+Polecenie **Dodaj dokument testowy** tworzy obiekt zdolny do przechowywania dowolnego tekstu. Element ten może być użyty do zapisania ogólnych informacji lub specyfikacji modelu.
 
 
-**See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+## Użycie
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to a document.
+1.  Wybierz z menu opcję **Przybory → Dodaj dokument tekstowy**.
+2.  Kliknij dwukrotnie nowo utworzony obiekt w oknie [widoku drzewa](Tree_view/pl.md), aby otworzyć zakładkę, w której będziesz mógł napisać tekst.
+3.  Dodaj tekst.
+4.  Zamknij zakładkę i zapisz plik, gdy zostaniesz o to poproszony.
 
-An `App::TextDocument` object is created with the `addObject()` method of the document. Once a TextDocument exists, its textual information is stored in its `Text` attribute. This attribute can be used in other objects, for example, as the string in a **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)**.
+
+
+## Właściwości
+
+
+
+### Widok
+
+
+{{TitleProperty|Edytor}}
+
+-    **Nazwa czcionki|Font**: nazwa czcionki, na przykład, {{Value|Ubuntu Mono}}.
+
+-    **Rozmiar czcionki|Float**: rozmiar czcionki w punktach, na przykład, {{Value|11}}.
+
+-    **Tylko do odczytu|Bool**: domyślnie ustawia się na wartość {{FALSE/pl}}. Jeśli ustawimy wartość {{TRUE/pl}}, tekst nie może być edytowany.
+
+-    **Podświetlenie składni|Enumeration**: domyślnie ustawiona jest wartość {{Value|Brak}}. Jeśli ustawimy wartość na {{Value|Python}}, tekst będzie podświetlany jak w [konsoli Python](Python_console/pl.md).
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
+
+Obiekt `App::TextDocument` jest tworzony za pomocą metody `addObject()` dokumentu. Gdy obiekt TextDocument istnieje, jego informacje tekstowe są przechowywane w jego atrybucie `Text`. Atrybut ten może być użyty w innych obiektach, na przykład jako ciąg znaków dla funkcji **<img src="images/Draft_ShapeString.svg" width=16px> [Kształt z tekstu](Draft_ShapeString/pl.md)**.
 
 
 ```python

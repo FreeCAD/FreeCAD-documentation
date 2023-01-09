@@ -292,6 +292,8 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md), {{Version/fr|0.20}}
 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+
 ### Espace virtuel de l\'esquisse 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Basculer l\'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md) :permet de masquer toutes les contraintes d\'une esquisse et de les rendre à nouveau visibles.

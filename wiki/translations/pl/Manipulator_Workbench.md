@@ -1,100 +1,124 @@
-# <img alt="Manipulator workbench icon" src=images/Manipulator_workbench_icon.svg  style="width:64px;"> Manipulator Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Manipulator" src=images/Manipulator_workbench_icon.svg  style="width:64px;"> Manipulator Workbench/pl
 
-## Introduction
+
+
+## Wprowadzenie
 
 
 {{TOCright}}
 
-The [Manipulator Workbench](Manipulator_Workbench.md) is an [external workbench](External_workbenches.md) aimed to help FreeCAD users with Aligning, Moving, Rotating and Measuring 3D objects through a friendly GUI. These series of tools help to Transform the placement and Measure objects and STEP models in FreeCAD.
-
-## Features
-
-![](images/Aligner-ico.png ) **Aligner:** a set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD.
-
-![](images/Manipulator_Mover.svg ) **Mover:** a set of tools to move and rotate 3D parts on different Axis
-
-![](images/Manipulator_Caliper.svg ) **Caliper:** a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
-
-These helpers work with **Part, App::Part and Body objects**.
-
-The Tools can be **Floating** or **Docked Left or Right**.
-
-Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tips
-
-## References
-
--   Author on github: [\@easyw](https://github.com/easyw)
--   FreeCAD Forums: [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
--   Source code on github: <https://github.com/easyw/Manipulator>
--   Forum announcements/discussion: <https://forum.freecadweb.org/viewtopic.php?t=24742>
-
-## Tutorial
-
-<img alt="Title Manipulator-WB-@Work" src=images/Manipulator-WB-@Work.png  style="width:1024px;">
+Środowisko pracy [Manipulator](Manipulator_Workbench/pl.md) to [zewnętrzne środowisko pracy](External_workbenches/pl.md) mające na celu pomoc użytkownikom FreeCAD w wyrównywaniu, przesuwaniu, obracaniu i mierzeniu obiektów 3D poprzez przyjazny GUI. Ta seria narzędzi pomaga Przemieszczać umiejscowienie i dokonywać Pomiarów obiektów i modeli STEP w programie FreeCAD.
 
 
 
-*YouTube Tutorial [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
+## Funkcjonalność
 
-## Tools
+![](images/Aligner-ico.png ) **Wyrównywacz:** zestaw narzędzi do przesuwania i wyrównywania części 3D. Może również wyrównać obiekt *(ścianę, krawędź, punkt)* do punktu odniesienia położenia w programie FreeCAD.
+
+![](images/Manipulator_Mover.svg ) **Przesuwacz**: zestaw narzędzi do przesuwania i obracania części 3D na różnych osiach.
+
+![](images/Manipulator_Caliper.svg ) **Suwmiarka:** zestaw narzędzi do pomiaru części 3D, z niektórymi funkcjami przyciągania i pomiarami promienia, długości, kąta.
+
+Pomocnicy ci pracują z obiektami **Część, App::Part i Zawartość**.
+
+Narzędzia te mogą być **pływające** lub **zadokowane w lewą lub prawą stronę**.
+
+Każde narzędzie ma ![](images/Help-btn.png ) **Przycisk pomocy**, aby można było uzyskać kilka przydatnych wskazówek.
+
+
+
+## Bibliografia
+
+-   Autor w serwisie Github: [\@easyw](https://github.com/easyw)
+-   Forum FreeCAD: [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
+-   Kod źródłowy w serwisie Github: <https://github.com/easyw/Manipulator>
+-   Ogłoszenia / dyskusje na forum: <https://forum.freecadweb.org/viewtopic.php?t=24742>
+
+
+
+## Poradnik
+
+<img alt="środowisko Manipulator w pracy" src=images/Manipulator-WB-@Work.png  style="width:1024px;">
+
+
+
+*Poradnik w serwisie YouTube [https://youtu.be/owGzsd1fyZc środowisko Manipulator w pracy]*
+
+
+
+## Przybory
 
 ![](images/Manipulator-WB-Tools.png ) 
-*Above: Manipulator workbench dialog. For a more detailed description see [https://github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
+*Powyżej: Okienko dialogowe środowiska pracy Manipulator. Bardziej szczegółowy opis znajduje się w pliku [https://github.com/easyw/Manipulator/blob/master/README.md README.md] w serwisie Github.*
 
-### Aligner
+
+
+### Wyrównywacz
 
 ![](images/Manipulator-WB-Aligner.gif ) 
-*Aligner: set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD*
+*Wyrównywacz: zestaw narzędzi do przesuwania i wyrównywania części 3D. Może również wyrównać obiekt ''(ścianę, krawędź, punkt)'' do punktu odniesienia położenia w programie FreeCAD.*
 
-### Mover
+
+
+### Przesuwacz
 
 ![](images/Manipulator-WB-Mover.gif ) 
-*Mover: set of tools to move and rotate 3D parts on different Axis*
+*Przesuwacz: zestaw narzędzi do przesuwania i obracania części 3D na różnych osiach.*
 
 ![](images/Manipulator-WB-Mover-with-App_Part&Body.gif ) 
-*Mover: Using App:Part and Body*
+*Przesuwacz: Wykorzystanie App:Part oraz Zawartości.*
 
 ![](images/Manipulator-WB-Mover-with-External-Reference.gif ) 
-*Mover: with External Reference*
+*Przesuwacz: z odniesieniem zewnętrznym.*
 
-### Caliper
+
+
+### Suwmiarka
 
 ![](images/Manipulator-WB-Measure-Radius.gif ) 
-*Caliper: measuring Radius*
+*Suwmiarka: pomiar promienia.*
 
 ![](images/Manipulator-WB-Measure-Angles.gif ) 
-*Caliper: measuring Angles*
+*Suwmiarka: pomiar kąta.*
 
 ![](images/Manipulator-WB-Dimension.gif ) 
-*Caliper: measuring Dimensions*
+*Suwmiarka: pomiar rozmiaru.*
 
 ![](images/Manipulator-WB-Dimension-2.gif ) 
-*Caliper: measuring Dimensions (cont.)*
+*Suwmiarka: pomiar rozmiaru ''(kontynuacja)''.*
 
 ![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) 
-*Caliper: parallel planes distance*
+*Suwmiarka: odległość płaszczyzn równoległych.*
+
+
 
 ### Manipulator
 
 ![](images/Manipulator-WB-Assembly-Parts.gif )
 
-## Installation
 
-### Automatic Installation 
 
-The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) under the **Tools → Addon Manager** menu.
+## Instalacja
+
+
+
+### Instalacja automatyczna 
+
+Zalecanym sposobem na zainstalowanie środowiska pracy Manipulator jest instalacja poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md) z menu **Przybory → Menadżer dodatków**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:600px">
 
-### Manual Installation 
 
-If a manual install is necessary please follow the following instructions:
+
+### Instalacja samodzielna 
+
+Jeśli konieczna jest instalacja samodzielna, należy postępować zgodnie z poniższymi instrukcjami:
 
 
 <div class="mw-collapsible-content">
 
--   Copying the Manipulator source in to the **Mod** sub-directory of the FreeCAD application.
+-   Skopiuj źródło Manipulatora do podkatalogu **Mod** aplikacji FreeCAD.
 
 
 ```python
@@ -102,7 +126,7 @@ cd ~/.FreeCAD/Mod
 git clone https://github.com/easyw/Manipulator Manipulator
 ```
 
--   Restart FreeCAD
+-   Uruchom ponownie program FreeCAD.
 
 
 </div>
@@ -110,7 +134,9 @@ git clone https://github.com/easyw/Manipulator Manipulator
 
 </div>
 
-### Supports
+
+
+### Wsparcie
 
 -   FreeCAD v0.15 4671
 -   FreeCAD v0.16 \>= 6712
@@ -118,17 +144,21 @@ git clone https://github.com/easyw/Manipulator Manipulator
 -   FreeCAD v0.18+
 -   FreeCAD v0.19+
 
-## History
 
-The workbench evolved out of the [Center Align Objects with Faces or Edges](Macro_Center_Align_Objects_with_Faces_or_Edges.md) macro
 
-## External workbenches 
+## Historia
 
-FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
+Środowisko pracy wyewoluowało z makrodefinicji [Wyrównaj obiekty do ścian lub krawędzi](Macro_Center_Align_Objects_with_Faces_or_Edges/pl.md).
 
-The [external workbenches](External_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
 
-New workbenches are in development, stay tuned!
+
+## Zewnętrzne środowiska pracy 
+
+Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe \"przestrzenie robocze\" wykraczające poza główny obszar rozwoju programu FreeCAD.
+
+Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera informacje i poradniki na temat niektórych z nich, a projekt [Dodatki FreeCAD](https://github.com/FreeCAD/FreeCAD-addons) ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
+
+Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 

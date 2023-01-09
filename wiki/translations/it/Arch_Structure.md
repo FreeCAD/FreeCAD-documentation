@@ -2,26 +2,17 @@
 - GuiCommand:/it
    Name:Arch Structure
    Name/it:Struttura
+   MenuLocation:Arch → Strumenti di Struttura → Struttura
    Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Struttura
    Shortcut:**S** **T**
    SeeAlso:[Muro](Arch_Wall/it.md), [Armature](Arch_Rebar/it.md)
 ---
 
 # Arch Structure/it
 
-
-</div>
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento **Struttura** permette di costruire elementi strutturali quali colonne o travi, specificando la loro larghezza, lunghezza e altezza, o derivandoli da un profilo 2D di base (faccia, contorno o schizzo).
-
-
-</div>
+Lo strumento [Struttura](Arch_Structure/it.md) permette di costruire elementi strutturali quali colonne o travi, specificando la loro larghezza, lunghezza e altezza, o derivandoli da un profilo 2D di base (faccia, contorno o schizzo).
 
 Se non viene fornito alcun profilo, è disponibile una serie di modelli predefiniti per creare rapidamente un elemento strutturale da un profilo standard predefinito.
 
@@ -30,21 +21,12 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 -   Selezionare una forma 2D (oggetto di Draft, area o schizzo) (opzionale)
 -   Premere il pulsante **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)
 **, oppure premere i tasti **S** e poi **T**
 -   Regolare le proprietà come desiderate
 
-
-</div>
-
 ## Opzioni
-
-
-<div class="mw-translate-fuzzy">
 
 -   Quando non è selezionato alcun oggetto 2D di base, lo strumento struttura ha 2 modalità di disegno: Colonna e Trave:
     -   In modalità colonna, viene chiesto di selezionare un punto sullo schermo o di immettere le sue coordinate. Il nuovo oggetto strutturale viene posizionato in quel punto.
@@ -55,15 +37,9 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 -   Facendo doppio clic sulla struttura nella vista ad albero dopo la sua creazione permette di accedere alla modalità di modifica e di accedere e modificare le sue addizioni e sottrazioni
 -   In modalità di modifica, è anche possibile aggiungere un [sistema di assi](Arch_Axis/it.md) per l\'elemento strutturale. Quando si aggiunge un sistema di assi, l\'elemento strutturale viene copiato una volta su ciascun asse del sistema. Quando si aggiungono due sistemi assi, l\'elemento strutturale viene copiato una volta su ciascuna intersezione dei due sistemi.
 
-
-</div>
-
 ## Proprietà
 
 ### Dati
-
-
-<div class="mw-translate-fuzzy">
 
 -    **Tool**: un percorso di estrusione opzionale, che può essere qualsiasi tipo di linea. Se questa proprietà è vuota, l\'estrusione è diritta e viene creata nella direzione indicata dalla proprietà Normal
 
@@ -75,12 +51,9 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 
 -    **Width**: la larghezza della struttura (utilizzata solo se non si basa su un profilo)
 
--    **Height**: l\'altezza della struttura (o la lunghezza di estrusione quando si basa su un profilo). Se l\'altezza non è data, e la struttura viene inserita in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, la struttura assume automaticamente il valore dell\'altezza del piano.
+-    **Height**: l\'altezza della struttura (o la lunghezza di estrusione quando si basa su un profilo). Se l\'altezza non è data, e la struttura viene inserita in un oggetto [Piano](Arch_Floor/it.md) la cui altezza è definita, la struttura assume automaticamente il valore dell\'altezza del piano.
 
 -    **Nodes Offset**: un offset opzionale tra la linea centrale e la linea dei nodi
-
-
-</div>
 
 ### Vista
 
@@ -109,9 +82,6 @@ Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi struttu
 <img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Nodi strutturali resi visibili in un insieme di strutture*
 
-
-<div class="mw-translate-fuzzy">
-
 -   I nodi vengono calcolati e aggiornati automaticamente, a meno che non siano modificati manualmente. Se invece sono stati modificati manualmente, essi non sono più aggiornati automaticamente quando la forma dell\'oggetto strutturale cambia, a meno che in seguito non si utilizzi lo strumento \"Reset nodi\".
 -   Oltre ai nodi lineari, le strutture Arch possono anche avere dei nodi planari. Per questo, 1- Ci devono essere almeno 3 vettori nella proprietà \"Nodi\" dell\'oggetto, 2- La proprietà \"NodesType\" del loro ViewObject deve essere impostata su \"Area\".
 -   Quando il calcolo dei nodi è automatico (cioè, non sono stati modificati manualmente), e si imposta la proprietà Role di una struttura su \"Slab\" (Soletta), i suoi nodi diventano automaticamente nodi planari (ci sono almeno 3 vettori e il NodesType è impostato su \"Area\").
@@ -122,31 +92,14 @@ Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi struttu
     -   Rendere il nodo di un oggetto coincidente con quello di un altro oggetto
     -   Commutare on/off la visualizzazione di tutti i nodi di tutti gli oggetti strutturali del documento
 
-
-</div>
-
 ## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
-## Script
 
 
 **Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Struttura può può essere utilizzato nelle [macro](macros/it.md) e dalla [console Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Lo strumento Struttura può può essere utilizzato nelle [macro](Macros/it.md) e dalla [Python](Python/it.md) console utilizzando la seguente funzione:
 
 
 ```python
@@ -172,20 +125,14 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{docnav/it
 |[Muro](Arch_Wall/it.md)
 |[Armatura](Arch_CompRebarStraight/it.md)
 |[Arch](Arch_Workbench/it.md)
-|IconC=Workbench_Arch.svg
 |IconL=Arch_Wall.svg
 |IconR=Arch CompRebarStraight.png
+|IconC=Workbench_Arch.svg
 }}
-
-
-</div>
 
 
 

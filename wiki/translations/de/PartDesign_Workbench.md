@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Arbeitsbereich PartDesign ](PartDesign_Workbench/de.md) bietet erweiterte Werkzeuge zur Modellierung komplexer Festkörper. Er konzentriert sich hauptsächlich auf die Erstellung mechanischer Teile, die hergestellt und zu einem Endprodukt montiert werden können. Dennoch können die erzeugten Körper generell für jeden anderen Zweck verwendet werden, wie z.B. [Architekturdesign](Arch_Workbench/de.md), [Finite Element Analyse](FEM_Workbench/de.md), oder [CNC-Bearbeitung und 3D Druck](Path_Workbench/de.md).
@@ -17,9 +19,13 @@ Die mit PartDesign erstellten Körper unterliegen oft dem [topologischen Benennu
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Werkzeuge
 
 Die Werkzeuge für PartDesign befinden sich alle im Menü {{MenuCommand/de|Part Design}} und in der PartDesign Werkzeugleiste, die beim Laden des Arbeitsbereichs angezeigt wird.
+
+
 
 ### Strukturwerkzeuge
 
@@ -28,6 +34,8 @@ Diese Werkzeuge sind gar keine Bestandteile des Arbeitsbereichs PartDesign. Sie 
 -   <img alt="" src=images/Std_Part.png  style="width:32px;"> [Teil](Std_Part/de.md): fügt einen neuen Teilecontainer in das aktive Dokument ein und aktiviert ihn.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppe](Std_Group/de.md): fügt einen Gruppencontainer in das aktive Dokument ein, der es erlaubt, die Objekte in der [Baumansicht](Tree_view/de.md) zu ordnen.
+
+
 
 ### Hilfswerkzeuge Part Design 
 
@@ -43,7 +51,11 @@ in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
+
+
 ### Modellierungswerkzeuge Part Design 
+
+
 
 #### Bezugsswerkzeuge
 
@@ -63,6 +75,8 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 
+
+
 #### Additive Werkzeuge 
 
 Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen von Material zu einem bestehenden Körper.
@@ -77,23 +91,25 @@ Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen vo
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive Helix](PartDesign_AdditiveHelix/de.md): erzeugt einen Volumenkörper durch Austragen einer Skizze entlang einer Wendel. <small>(v0.19)</small> 
 
--   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Zusätzlicher Grundkörper](PartDesign_CompPrimitiveAdditive/de.md): fügt dem aktiven Körper einen additiven Grundkörper hinzu. {{Version/de|0.17}}
+-   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Grundkörper hinzufügen](PartDesign_CompPrimitiveAdditive/de.md): fügt dem aktiven Körper einen additiven Grundkörper hinzu. {{Version/de|0.17}}
 
-  -<img alt="" src=images/PartDesign_Additive_Box.svg  style="width:32px;"> [zu addierender Quader](PartDesign_AdditiveBox/de.md): Erstellt einen additiven Quader. {{Version/de|0.17}}
+  -<img alt="" src=images/PartDesign_Additive_Box.svg  style="width:32px;"> [Quader](PartDesign_AdditiveBox/de.md): Erstellt einen additiven Quader. {{Version/de|0.17}}
 
-  -<img alt="" src=images/PartDesign_Additive_Cylinder.svg  style="width:32px;"> [zu addierender Zylinder](PartDesign_AdditiveCylinder/de.md): Erstellt einen additiven Zylinder.
+  -<img alt="" src=images/PartDesign_Additive_Cylinder.svg  style="width:32px;"> [Zylinder](PartDesign_AdditiveCylinder/de.md): Erstellt einen additiven Zylinder.
 
-  -<img alt="" src=images/PartDesign_Additive_Sphere.svg  style="width:32px;"> [zu addierende Kugel](PartDesign_AdditiveSphere/de.md): Erstellt eine additive Kugel.
+  -<img alt="" src=images/PartDesign_Additive_Sphere.svg  style="width:32px;"> [Kugel](PartDesign_AdditiveSphere/de.md): Erstellt eine additive Kugel.
 
-  -<img alt="" src=images/PartDesign_Additive_Cone.svg  style="width:32px;"> [zu addierender Kegel](PartDesign_AdditiveCone/de.md): Erstellt einen additiven Kegel. {{Version/de|0.17}}
+  -<img alt="" src=images/PartDesign_Additive_Cone.svg  style="width:32px;"> [Kegel](PartDesign_AdditiveCone/de.md): Erstellt einen additiven Kegel. {{Version/de|0.17}}
 
-  -<img alt="" src=images/PartDesign_Additive_Ellipsoid.svg  style="width:32px;"> [zu addierendes Ellipsoid](PartDesign_AdditiveEllipsoid/de.md): Erstellt ein additives Ellipsoid.
+  -<img alt="" src=images/PartDesign_Additive_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](PartDesign_AdditiveEllipsoid/de.md): Erstellt ein additives Ellipsoid.
 
-  -<img alt="" src=images/PartDesign_Additive_Torus.svg  style="width:32px;"> [zu addierender Torus](PartDesign_AdditiveTorus/de.md): Erstellt einen additiven Torus.
+  -<img alt="" src=images/PartDesign_Additive_Torus.svg  style="width:32px;"> [Torus](PartDesign_AdditiveTorus/de.md): Erstellt einen additiven Torus.
 
-  -<img alt="" src=images/PartDesign_Additive_Prism.svg  style="width:32px;"> [zu addierendes Prisma](PartDesign_AdditivePrism/de.md): Erstellt ein additives Prisma.
+  -<img alt="" src=images/PartDesign_Additive_Prism.svg  style="width:32px;"> [Prisma](PartDesign_AdditivePrism/de.md): Erstellt ein additives Prisma.
 
-  -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [zu addierender Keil](PartDesign_AdditiveWedge/de.md): Erstellt einen additiven Keil.
+  -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Keil](PartDesign_AdditiveWedge/de.md): Erstellt einen additiven Keil.
+
+
 
 #### Subtraktive Werkzeuge 
 
@@ -115,23 +131,25 @@ Erzeugt eine Volumenkörperform, indem eine oder mehrere Skizzen entlang eines o
 
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktive helix](PartDesign_SubtractiveHelix/de.md): erzeugt eine Volumenkörperform, indem eine Skizze entlang einer Helix ausgetragen wird, und subtrahiert sie vom aktiven Körper. <small>(v0.19)</small> 
 
--   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md): Fügt einen abzuziehenden Grundkörper zum aktiven Körper hinzu.
+-   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Grundkörper abziehen](PartDesign_CompPrimitiveSubtractive/de.md): Fügt einen abzuziehenden Grundkörper zum aktiven Körper hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Abzugsquader](PartDesign_SubtractiveBox/de.md): fügt dem aktiven Körper eine subtraktiven Quader hinzu.
+  -<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Quader](PartDesign_SubtractiveBox/de.md): fügt dem aktiven Körper eine subtraktiven Quader hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Abzuziehender Zylinder](PartDesign_SubtractiveCylinder/de.md): fügt dem aktiven Körper einen subtraktiven Zylinder hinzu.
+  -<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Zylinder](PartDesign_SubtractiveCylinder/de.md): fügt dem aktiven Körper einen subtraktiven Zylinder hinzu.
 
-  -<img alt="" src=images/PartDesign_Subtractive_Sphere.svg  style="width:32px;"> [Abzuziehende Kugel](PartDesign_SubtractiveSphere/de.md): fügt dem aktiven Körper eine subtraktive Kugel hinzu.
+  -<img alt="" src=images/PartDesign_Subtractive_Sphere.svg  style="width:32px;"> [Kugel](PartDesign_SubtractiveSphere/de.md): fügt dem aktiven Körper eine subtraktive Kugel hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Abzuziehender Kegel](PartDesign_SubtractiveCone/de.md): fügt dem aktiven Körper einen subtraktiven Kegel hinzu.
+  -<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Kegel](PartDesign_SubtractiveCone/de.md): fügt dem aktiven Körper einen subtraktiven Kegel hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Abzuziehendes Ellipsoid](PartDesign_SubtractiveEllipsoid/de.md): fügt dem aktiven Körper ein subtraktives Ellipsoid hinzu.
+  -<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Ellipsoid](PartDesign_SubtractiveEllipsoid/de.md): fügt dem aktiven Körper ein subtraktives Ellipsoid hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Abzuziehender Torus](PartDesign_SubtractiveTorus/de.md): fügt dem aktiven Körper einen subtraktiven Ring hinzu.
+  -<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Torus](PartDesign_SubtractiveTorus/de.md): fügt dem aktiven Körper einen subtraktiven Ring hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Abzuziehendes Prisma](PartDesign_SubtractivePrism/de.md): fügt dem aktiven Körper ein subtraktives Prisma hinzu.
+  -<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisma](PartDesign_SubtractivePrism/de.md): fügt dem aktiven Körper ein subtraktives Prisma hinzu.
 
-  -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Abzuziehender Keil](PartDesign_SubtractiveWedge/de.md): fügt dem aktiven Körper einen subtraktiven Keil hinzu.
+  -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Keil](PartDesign_SubtractiveWedge/de.md): fügt dem aktiven Körper einen subtraktiven Keil hinzu.
+
+
 
 #### Transformationswerkzeuge
 
@@ -146,6 +164,8 @@ Dies sind Werkzeuge zur Transformation bestehender Formelemente.
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Mehrfachtransformation](PartDesign_MultiTransform/de.md): Erzeugt ein Muster durch eine beliebige Kombination der oben gelisteten Transformationen und der Transformation [Skalieren](PartDesign_Scaled/de.md).
     -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Skalieren](PartDesign_Scaled/de.md): Skaliert ein oder mehrere Formelemente. Dieses steht nicht als eigenständiges Transformationswerkzeug zur Verfügung.
 
+
+
 #### Modifikationswerkzeuge
 
 Diese Werkzeuge modifizieren Kanten und Flächen.
@@ -157,6 +177,8 @@ Diese Werkzeuge modifizieren Kanten und Flächen.
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Entwurf](PartDesign_Draft/de.md): wendet einen winkligen Entwurf auf ausgewählte Flächen des aktiven Körpers an.
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Dicke](PartDesign_Thickness/de.md): erzeugt ein Schalenobjekt (mit konstanter Wandstärke) aus dem aktiven Körper und öffnet ausgewählte Flächen.
+
+
 
 #### Boolesche Operationen 
 
@@ -174,6 +196,8 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Wellenauslegungsassistent](PartDesign_WizardShaft/de.md): Erzeugt eine Welle aus einer Wertetabelle und ermöglicht die Analyse von Kräften und Momenten. Die Welle wird mit einer umlaufenden Skizze erstellt, die bearbeitet werden kann.
 
+
+
 ### Kontextmenü Elemente 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Spitze setzen](PartDesign_MoveTip/de.md): definiert die Spitze neu, das ist das Merkmal, das außerhalb des Körpers erscheint.
@@ -182,16 +206,22 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Objekt nach anderem Objekt verschieben](PartDesign_MoveFeatureInTree/de.md): ermöglicht eine Neuordnung des Körperbaums, indem die ausgewählte Skizze, Bezugsgeometrie oder das Formelement an eine andere Position in der Formelementliste verschoben wird.
 
+
+
 #### Mit dem Part Arbeitsbereich gemeinsam genutzte Elemente 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aussehen](Std_SetAppearance/de.md): bestimmt das Aussehen des gesamten Teils (Farbtransparenz usw.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;">[Farben festlegen](Part_FaceColors/de.md): Weist den Teilflächen Farben zu.
 
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Einstellungen](PartDesign_Preferences/de.md): Einstellungen verfügbar für PartDesign Werkzeuge.
 -   [Feinabstimmung](Fine-tuning/de.md): Einige zusätzliche Parameter zur Feinabstimmung des PartDesign Verhaltens
+
+
 
 ## Tutorien
 

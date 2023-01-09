@@ -85,6 +85,9 @@ The help system was rewritten and upgraded to display information directly from 
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width:384px;">   The \"Workbenches\" preference panel was modified to support the ability to \"autoload\" workbenches on FreeCAD startup.
    
 
+
+<div class="mw-translate-fuzzy">
+
 В Linux расположение файлов конфигурации, данных и кэша FreeCAD по умолчанию было изменено в соответствии с [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Таблица содержит сравнение старых и новых локаций:
 
   Описание             Старое расположение   Новое расположение          По умолчанию
@@ -92,6 +95,9 @@ The help system was rewritten and upgraded to display information directly from 
   Файлы конфигурации   \$HOME/.FreeCAD       \$XDG_CONFIG_HOME/FreeCAD   \$HOME/.config/FreeCAD
   Файлы данных         \$HOME/.FreeCAD       \$XDG_DATA_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
   Файлы кэша           /tmp                  \$XDG_CACHE_HOME/FreeCAD    \$HOME/.cache/FreeCAD
+
+
+</div>
 
 If you wish to keep using the old locations you may start FreeCAD with the `--keep-deprecated-paths` option.
 

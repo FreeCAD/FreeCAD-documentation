@@ -166,9 +166,15 @@ These are additional tools to help you in specific tasks.
 
 ### Formatos de ficheiro 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC.md) : Industry foundation Classes
 -   [DAE](Arch_DAE.md) : Collada mesh format
 -   [OBJ](Arch_OBJ.md) : Obj mesh format
+
+
+</div>
 
 ## API
 

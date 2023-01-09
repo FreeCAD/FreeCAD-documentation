@@ -44,7 +44,7 @@ Un objet Part Intégrer est créé, avec le mode défini sur \'Embed\' (Intégr�
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Sélectionnez le premier tuyau, puis le second (l\'ordre de sélection est important), puis cliquez sur l\'option \"Intégrer l\'objet\" dans le bouton de la barre d\'outils déroulante Outils de jointure.
     ![320px](images/JoinFeatures_Example_step3_Embed.png)
-4.  Utilisez un outil de section ([Std Créer une section \...](Std_ToggleClipPlane/fr.md), [Arch Plan de section](Arch_SectionPlane/fr.md), [Arch Couper selon un plan](Arch_CutPlane/fr.md)) pour afficher les éléments internes. Sur la photo ci-dessous, le plan de coupe Arch est utilisé.
+4.  Utilisez un outil de section ([Std Créer une section \...](Std_ToggleClipPlane/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md), [Arch Couper selon un plan](Arch_CutPlane/fr.md)) pour afficher les éléments internes. Sur la photo ci-dessous, le plan de coupe Arch est utilisé.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
 ## Algorithme

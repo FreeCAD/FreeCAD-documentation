@@ -64,7 +64,7 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 ![](images/Arch_pipe_example_01.jpg )
 
--   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to python, though. In the case above I added a new snap point at the exit of the wc appliance. The vectors inside SnapPoints appear on the model as white dots:
+-   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to Python, though. In the case above I added a new snap point at the exit of the WC appliance. The vectors inside SnapPoints appear on the model as white dots:
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
@@ -93,6 +93,8 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 -   Changing the connectors radius doesn\'t change the length of the underlying base line, only the resulting tube (by changing their OffsetStart or OffsetEnd property). So you can still draw your line layout with only straight lines, without the need to care about curves and radius.
 
 It is also possible to create Arch Pipes without a base line, in this case use its \"Length\" property to define the length.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

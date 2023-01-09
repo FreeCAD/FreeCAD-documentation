@@ -1,7 +1,9 @@
 # Macro documentation/fr
 ## Description
 
-Toutes les macros doivent être correctement documentées de la même manière que les [commandes Gui](Gui_Command/fr.md) le sont. Elles doivent avoir leur propre page wiki et être répertoriées dans l\'une des catégories de la[Liste des Macros](Macros_recipes/fr.md).
+Toutes les macros doivent être correctement documentées de la même manière que les [commandes Gui](Gui_Command/fr.md) le sont.
+
+Elles doivent avoir leur propre page wiki et être répertoriées dans l\'une des catégories de la [Liste des Macros](Macros_recipes/fr.md).
 
 La page [Liste des Macros](Macros_recipes/fr.md) contient une sélection de macros créées par des utilisateurs expérimentés, qui peuvent être installées directement à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
@@ -9,9 +11,14 @@ Voir le [Modèle GuiCommand](GuiCommand_model/fr.md) et les pages de macros comm
 
 Si une macro fournit une fonctionnalité bien définie et est bien documentée, elle pourrait éventuellement être incluse dans un [atelier](Workbenches/fr.md) nouveau ou déjà existant.
 
+
+
 ## Nouvelle page pour une macro 
 
-Créez une nouvelle page pour la macro en commençant par le mot `Macro_`, par exemple, `Macro_Excellent_Modification`. Le lien peut être utilisé sans trait de soulignement sous la forme `<nowiki>[Macro Site From Contours](Macro_Excellent_Modification/fr.md)</nowiki>`, ce qui s\'affiche [Macro Excellent Modification](Macro_Excellent_Modification/fr.md). Les espaces sont automatiquement convertis en traits de soulignement.
+
+{{ColoredText|La première page doit être créée '''obligatoirement''' en Anglais, la traduction de la page pour d'autres langues doit être validée par un administrateur et ensuite vous pouvez la traduire dans toutes les autres langues.}}
+
+Créez une nouvelle page pour la macro en commençant par le mot `Macro_` puis le nom de la macro, par exemple, `Macro_Excellent_Modification`. Le lien peut être utilisé sans trait de soulignement sous la forme `<nowiki>[Macro Site From Contours](Macro_Excellent_Modification/fr.md)</nowiki>`, ce qui s\'affiche [Macro Excellent Modification](Macro_Excellent_Modification/fr.md). Les espaces sont automatiquement convertis en traits de soulignement.
 
 Dans la nouvelle page, vous devez utiliser le [Template:Macro](Template_Macro.md) en haut, avec un minimum d\'informations:
 
@@ -64,6 +71,8 @@ ou utilisez le champ `Translate`
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *Les liens [Comment installer une macro](How_to_install_macros/fr.md) et [créer une barre d'outils](Customize_Toolbars/fr.md) se trouvent dans l'infobox de chaque page de macro*
 
+
+
 ### Ajouter la documentation sur la macro 
 
 -   Tout comme une [Gui Command](Gui_Command/fr.md), expliquez ce que fait la macro, ses entrées, sorties, options et limitations, etc.
@@ -92,6 +101,8 @@ Locale: English/UnitedStates (en_US)
 ```
 
 Envisagez d\'ajouter ces informations dans un bloc de commentaires à l\'intérieur du code de la macro.
+
+
 
 ### Ajouter le code de la macro 
 
@@ -147,6 +158,8 @@ __Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_
 
 À partir de FreeCAD 0.17, ces informations sont utilisées par le [Gestionnaire des extensions](Std_AddonMgr/fr.md) qui télécharge la macro à partir du dépôt [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
 
+
+
 ### Ajouter le code d\'une macro en dehors du wiki 
 
 Si votre macro est trop grosse et dépasse 64 Ko, elle ne pourra pas être hébergée sur le wiki. Dans ce cas, utilisez le [Template:Codeextralink](Template_Codeextralink.md) avec un lien vers l\'adresse Web de la page du code brut (page texte du code).
@@ -161,6 +174,8 @@ Ce modèle doit être placé au début de la page de macro, dans la section **De
 
 
 {{ColoredParagraph|'''PS:''' En cas de mise à jour dans GitHub le chemin du code brut est modifié, ne pas oublier de modifier le lien dans le modèle Codeextralink.}}
+
+
 
 ## Ajouter une nouvelle macro au dépôt du wiki 
 
@@ -190,6 +205,8 @@ Pour localiser ce modèle, utilisez le lien de langue approprié dans le premier
 * {{MacroLink|Macro_Excellent_Modification/fr|Macro Excellent Modification```: (translated description)
 </nowiki>
 }}
+
+
 
 ## Ajouter une nouvelle macro au dépôt central 
 

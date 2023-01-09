@@ -1,11 +1,17 @@
 # Code snippets/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Diese Seite enthält Beispiele, Stücke, Brocken von FreeCAD Python Code, die aus den Erfahrungen und Diskussionen der Benutzer auf den [Foren](https://forum.freecadweb.org/viewforum.php?f=22) gesammelt wurden. Lies und verwende sie als Ausgangspunkt für deine eigenen Skripte\...
 
+
+
 ## Schnipsel
+
+
 
 ### Eine typische InitGui.py Datei 
 
@@ -25,6 +31,8 @@ Gui.addWorkbench(ScriptWorkbench())
 
 
 {{Top}}
+
+
 
 ### Eine typische Moduldatei 
 
@@ -46,6 +54,8 @@ FreeCADGui.addCommand('Script_Cmd', ScriptCmd())
 
 
 {{Top}}
+
+
 
 ### Importieren eines neuen Dateityps 
 
@@ -76,6 +86,8 @@ FreeCAD.addExportType("Dein neuer Dateityp (*.ext)", "Export_Ext")
 
 {{Top}}
 
+
+
 ### Hinzufügen einer Linie 
 
 Eine Linie hat einfach 2 Punkte.
@@ -95,6 +107,8 @@ doc.recompute()
 
 
 {{Top}}
+
+
 
 ### Hinzufügen eines Polygons 
 
@@ -122,6 +136,8 @@ doc.recompute()
 
 {{Top}}
 
+
+
 ### Hinzufügen und Entfernen eines Objekts in/aus eine(r) Gruppe 
 
 
@@ -133,7 +149,7 @@ grp.addObject(lin) # adds the lin object to the group grp
 grp.removeObject(lin) # removes the lin object from the group grp
 ```
 
-Hinweis: Du kannst auch andere Gruppen zu einer Gruppe hinzufügen\... {{Top}}
+Hinweis: Du kannst auch andere Gruppen zu einer Gruppe hinzufügen\... 
 
 ### Hinzufügen eines Polygonnetzes 
 
@@ -166,6 +182,8 @@ me.Mesh=m
 
 {{Top}}
 
+
+
 ### Hinzufügen eines Bogens oder eines Kreises 
 
 
@@ -181,6 +199,8 @@ doc.recompute()
 
 
 {{Top}}
+
+
 
 ### Zugriff und Änderung der Darstellung eines Objekts 
 
@@ -200,6 +220,8 @@ v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
 
 {{Top}}
 
+
+
 ### Ersetze die Form der Maus durch ein Bild 
 
 
@@ -218,6 +240,8 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 
 {{Top}}
+
+
 
 ### Ersetze die Form der Maus durch ein Bild einschliesslich (Kreuz) 
 
@@ -278,6 +302,8 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
+
+
 ### Beobachten von Kameraänderungen im 3D-Betrachter über Python 
 
 Dies erreicht man, indem man einen Node-Sensor zur Kamera hinzufügt.
@@ -297,6 +323,8 @@ node_sensor.attach(camera_node)```
 
 
 {{Top}}
+
+
 
 ### Beobachten von Mausereignissen im 3D Betrachter über Python 
 
@@ -372,6 +400,8 @@ Und schließlich Bewegungsereignisse:
 
 {{Top}}
 
+
+
 ### Gedrückte Tasten anzeigen und Ereignisbefehl 
 
 Dieses Makro zeigt in der Berichtsansicht die gedrückten Tasten und alle Ereignisse an.
@@ -399,6 +429,8 @@ c = v.addEventCallback("SoEvent",o.logPosition)
 
 {{Top}}
 
+
+
 ### Handhabung des Szenegraphen in Python 
 
 Es ist auch möglich, den Szenegraphen in Python zu bekommen und zu ändern, mit dem Modul \'pivy\' - einer Python Bindung für Coin.
@@ -422,6 +454,8 @@ node = type.createInstance()
 
 
 {{Top}}
+
+
 
 ### Hinzufügen und Entfernen von Objekten zum/vom Szenegraphen 
 
@@ -452,6 +486,8 @@ sg.removeChild(no)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Speichern des SzenenGraphs in 3 Serien von 36 Dateien 
 
@@ -545,6 +581,8 @@ for i in range(steps):
 
 {{Top}}
 
+
+
 ### Hinzufügen von benutzerdefinierten Assistenten zur Oberfläche 
 
 Du kannst benutzerdefinierte Widgets mit dem Qt Designer erstellen, sie in ein Python-Skript umwandeln und sie dann mit PySide in die FreeCAD Benutzeroberfläche laden.
@@ -582,6 +620,8 @@ FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the w
 
 
 {{Top}}
+
+
 
 ### Hinzufügen eines Reiters zur Comboansicht 
 
@@ -627,6 +667,8 @@ tab2.show()
 
 {{Top}}
 
+
+
 ### Aktivieren oder Deaktivieren eines Fensters 
 
 Dieses Skript bietet die Möglichkeit, das UI von der Python Konsole aus zu verändern, um verschiedene Komponenten in der FreeCAD [Benutzeroberfläche](interface/de.md) ein-/auszublenden, wie z.B:
@@ -667,6 +709,8 @@ dw.setVisible(True)        # True or False
 
 {{Top}}
 
+
+
 ### Öffnen einer angepassten Webseite 
 
 
@@ -677,6 +721,8 @@ WebGui.openBrowser("http://www.example.com")
 
 
 {{Top}}
+
+
 
 ### Erfassung des HTML Inhalts einer geöffneten Webseite 
 
@@ -692,6 +738,8 @@ print( html)
 
 
 {{Top}}
+
+
 
 ### Abruf der Koordinaten von 3 ausgewählten Punkten oder Objekten 
 
@@ -725,6 +773,8 @@ else :
 
 {{Top}}
 
+
+
 ### Liste alle Objekte 
 
 
@@ -752,6 +802,8 @@ for obj in objs:
 
 {{Top}}
 
+
+
 ### Liste die Abmessungen eines Objekts, angegeben durch seinen Namen 
 
 
@@ -762,6 +814,8 @@ for edge in FreeCAD.ActiveDocument.MyObjectName.Shape.Edges: # replace "MyObject
 
 
 {{Top}}
+
+
 
 ### Der Mausklickhandlung innewohnende Funktion 
 
@@ -785,10 +839,10 @@ class SelObserver:
         App.Console.PrintMessage(str(pnt)+ "\n")          # Coordinates of the object
         App.Console.PrintMessage("______"+ "\n")
 
-    def removeSelection(self,doc,obj,sub):                # Delete the selected object
+    def removeSelection(self,doc,obj,sub):                # Remove the selection
         App.Console.PrintMessage("removeSelection"+ "\n")
 
-    def setSelection(self,doc):                           # Selection in ComboView
+    def setSelection(self,doc):                           # Set selection
         App.Console.PrintMessage("setSelection"+ "\n")
 
     def clearSelection(self,doc):                         # If click on the screen, clear the selection
@@ -828,6 +882,8 @@ c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
 
 {{Top}}
+
+
 
 ### Finde/Wähle alle Elemente unter dem Mauszeiger 
 
@@ -875,6 +931,8 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Liste die Komponenten eines Objektes auf 
 
@@ -996,6 +1054,8 @@ detail()
 
 {{Top}}
 
+
+
 ### Liste die EigenschaftenListe 
 
 
@@ -1010,6 +1070,8 @@ for p in op:
 
 
 {{Top}}
+
+
 
 ### Hinzufügen eines einzelnen Eigenschaftskommentars 
 
@@ -1026,6 +1088,8 @@ App.activeDocument().recompute()
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Suche und Datenentnahme 
 
@@ -1046,21 +1110,41 @@ from __future__ import unicode_literals
 # Exemples de recherche et de decodage d'informations sur un objet
 # Chaque section peut etre copiee directement dans la console Python ou dans une macro ou utilisez la macro tel quel
 # Certaines commandes se repetent seul l'approche est differente
-# L'affichage se fait dans la Vue rapport : Menu Affichage > Vues > Vue rapport
+# L'affichage se fait dans la Vue rapport : Menu Affichage > Vues > Vue rapport
 #
 # Examples of research and decoding information on an object
 # Each section can be copied directly into the Python console, or in a macro or uses this macro
 # Certain commands as repeat alone approach is different
 # Displayed in Report view: View > Views > report view
 #
-# rev:30/08/2014:29/09/2014:17/09/2015 22/11/2019
+# rev:30/08/2014:29/09/2014:17/09/2015 22/11/2019 30/12/2022
  
 from FreeCAD import Base
 import DraftVecUtils, Draft, Part
 
+##################################################################################
+# info in the object
+
+box = App.ActiveDocument.getObject('Box')                                 # object 
+####
+print(dir(box))                                                           # all options disponible in the object
+####
+print(box.Name)                                                           # object name
+####
+print(box.Content)                                                        # content of the object in XML format
+##################################################################################
+#
+# example of using the information listed
+#
 # search the name of the active document 
 mydoc = FreeCAD.activeDocument().Name                                     # Name of active Document
 App.Console.PrintMessage("Active docu    : "+(mydoc)+"\n")
+##################################################################################
+
+# search the document name and the name of the object selected
+sel = FreeCADGui.Selection.getSelection()                                 # select object with getSelection()
+object_FullName = sel[0].FullName                                         # file Name and Name of the object selected
+App.Console.PrintMessage("object_FullName: "+(object_FullName)+"\n")
 ##################################################################################
 
 # search the label of the object selected
@@ -1099,7 +1183,7 @@ sel = FreeCADGui.Selection.getSelection()                                 # sele
 i = 0
 for j in enumerate(sel[0].Shape.Edges):                                   # list all Edges
     i += 1
-    App.Console.PrintMessage("Edges n : "+str(i)+"\n")
+    App.Console.PrintMessage("Edges n : "+str(i)+"\n")
     a = sel[0].Shape.Edges[j[0]].Vertexes[0]
     App.Console.PrintMessage("X1             : "+str(a.Point.x)+"\n")     # coordinate XYZ first point
     App.Console.PrintMessage("Y1             : "+str(a.Point.y)+"\n")     #
@@ -1118,7 +1202,7 @@ App.Console.PrintMessage("\n")
 try:
     SubElement = FreeCADGui.Selection.getSelectionEx()                                        # sub element name with getSelectionEx()
     subElementName = Gui.Selection.getSelectionEx()[0].SubElementNames[0]                     # sub element name with getSelectionEx()
-    App.Console.PrintMessage("subElementName : "+str(subElementName)+"\n")subObjectLength = Gui.Selection.getSelectionEx()[0].SubObjects[0].Length                  # sub element Length
+    App.Console.PrintMessage("subElementName : "+str(subElementName)+"\n")subObjectLength = Gui.Selection.getSelectionEx()[0].SubObjects[0].Length                  # sub element Length
     App.Console.PrintMessage("subObjectLength: "+str(subObjectLength)+"\n\n")subObjectX1 = Gui.Selection.getSelectionEx()[0].SubObjects[0].Vertexes[0].Point.x         # sub element coordinate X1
     App.Console.PrintMessage("subObject_X1   : "+str(subObjectX1)+"\n")
     subObjectY1 = Gui.Selection.getSelectionEx()[0].SubObjects[0].Vertexes[0].Point.y         # sub element coordinate Y1
@@ -1198,6 +1282,7 @@ boundBoxZMax = boundBox_.ZMax                                             # coor
 
 boundBoxDiag= boundBox_.DiagonalLength                                    # Diagonal Length boundBox rectangle
 boundBoxCenter = boundBox_.Center                                         # BoundBox Center
+boundBoxCenterOfGravity = boundBox_.CenterOfGravity                       # BoundBox CenterOfGravity
 
 App.Console.PrintMessage("boundBoxLX     : "+str(boundBoxLX)+"\n")
 App.Console.PrintMessage("boundBoxLY     : "+str(boundBoxLY)+"\n")
@@ -1211,7 +1296,9 @@ App.Console.PrintMessage("boundBoxYMax   : "+str(boundBoxYMax)+"\n")
 App.Console.PrintMessage("boundBoxZMax   : "+str(boundBoxZMax)+"\n\n")
 
 App.Console.PrintMessage("boundBoxDiag   : "+str(boundBoxDiag)+"\n")
-App.Console.PrintMessage("boundBoxCenter : "+str(boundBoxCenter)+"\n\n")
+App.Console.PrintMessage("boundBoxCenter : "+str(boundBoxCenter)+"\n")
+
+App.Console.PrintMessage("boundBox Center of Gravity : "+str(boundBoxCenterOfGravity )+"\n\n")
 
 ##################################################################################
 
@@ -1295,6 +1382,16 @@ Pitch = sel[0].Shape.Placement.Rotation.toEuler()[1]                  # decode a
 App.Console.PrintMessage("Pitch          : "+str(Pitch)+"\n")
 Roll  = sel[0].Shape.Placement.Rotation.toEuler()[2]                  # decode angle Euler Roll (X) roulis (gamma)
 App.Console.PrintMessage("Roll           : "+str(Roll)+"\n\n")
+
+rot = App.Rotation()
+rot.setYawPitchRoll(45,45,0)
+print("Angle: ", rot.Angle)
+print("Axis: ", rot.Axis)
+print("RawAxis: ", rot.RawAxis)
+print("YawPitchRoll: ", rot.getYawPitchRoll())
+print("Rotation: ", rot)
+print("Quaternion: ", rot.Q)
+
 ##################################################################################
 
 # find Midpoint of the selected line
@@ -1314,6 +1411,8 @@ Draft.makePoint(vecteur)
 
 
 {{Top}}
+
+
 
 ### Manuelle Suche eines Elements mit Kennzeichnung 
 
@@ -1339,6 +1438,8 @@ App.Console.PrintMessage("Base.Angle   : "+str(FreeCAD.ActiveDocument.getObjects
 
 
 {{Top}}
+
+
 
 ### Kartesische Koordinaten 
 
@@ -1419,6 +1520,8 @@ Draft.makeWire(p2,closed=False,face=False,support=None)  # to see the difference
 
 {{Top}}
 
+
+
 ### Auswahl aller Objekte im Dokument 
 
 
@@ -1433,6 +1536,8 @@ for obj in FreeCAD.ActiveDocument.Objects:
 
 
 {{Top}}
+
+
 
 ### Auswahl einer Fläche eines Objekts nach Objektname und Flächennummer 
 
@@ -1452,6 +1557,8 @@ s = Gui.Selection.getSelectionEx()
 
 
 {{Top}}
+
+
 
 ### Ermittelt den Normalenvektor einer Fläche eines Objekts nach Name Objekt und Nummer Fläche (r.Q) 
 
@@ -1479,6 +1586,8 @@ print("Rotation Q : ", r.Q)
 
 {{Top}}
 
+
+
 ### Ermittelt den Normalenvektor einer Fläche eines Objekts durch Name Objekt und Nummer der Fläche 
 
 
@@ -1492,6 +1601,8 @@ print("Face"+str(numero_Face), " : ", normal)
 
 
 {{Top}}
+
+
 
 ### Ermittelt den Normalenvektor eines gewählten Objekts und die Nummer der Fläche 
 
@@ -1509,6 +1620,8 @@ Gui.Selection.addSelection(selectionObjects[0],"Face"+str(numero_Face))
 
 
 {{Top}}
+
+
 
 ### Ermittelt den Normalenvektor auf der Oberfläche 
 
@@ -1536,6 +1649,40 @@ def normal(self):
 
 {{Top}}
 
+### Get the normal vector of the face and create a line at the point mouse clicked 
+
+
+```python
+import PySide2
+import Draft, Part, FreeCAD, FreeCADGui
+import FreeCADGui as Gui
+from FreeCAD import Base
+
+FreeCAD.ActiveDocument.openTransaction("Tyty")    # memorise les actions (avec annuler restore)
+selectedFace = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0]
+pointClick = FreeCADGui.Selection.getSelectionEx()[0].PickedPoints[0]
+
+########## section direction
+plr = FreeCAD.Placement()
+yL = pointClick
+uv = selectedFace.Surface.parameter(yL)
+nv = direction = selectedFace.normalAt(uv[0], uv[1])
+r = App.Rotation(App.Vector(0,0,1),nv)
+plr.Rotation.Q = r.Q
+plr.Base = pointClick
+########## section direction
+
+line = Draft.make_wire([App.Vector(0.0,0.0,0.0), App.Vector(0.0,0.0,20.0)] )    # create line
+line.Placement=plr
+FreeCAD.ActiveDocument.recompute()
+print( "Direction (radian) : ",direction )    # direction in radian
+```
+
+
+{{Top}}
+
+
+
 ### Ermittelt den Normalenvektor einer Fläche aus einer STL Datei 
 
 
@@ -1561,6 +1708,8 @@ Gui.ActiveDocument.ActiveView.removeEventCallbackPivy(coin.SoMouseButtonEvent.ge
 
 
 {{Top}}
+
+
 
 ### Erstellt ein Objekt zur Position der Kamera 
 
@@ -1614,6 +1763,8 @@ rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,suppor
 
 {{Top}}
 
+
+
 ### Lese und schreibe einen Ausdruck 
 
 
@@ -1644,6 +1795,8 @@ for i in expressions:                                                      # lis
 
 {{Top}}
 
+
+
 ### Erstelle eine Skizze auf einer Oberfläche in PartDesign 
 
 Dieser Schnipsel kann nützlich sein, wenn du eine Skizze auf einer Oberfläche in PartDesign aus dem Inneren eines Makros heraus erstellen möchtest. Beachte, dass der Körper möglicherweise Keiner ist, wenn kein aktiver Körper ausgewählt ist, und dass die Auswahl möglicherweise leer ist.
@@ -1666,6 +1819,8 @@ App.ActiveDocument.recompute()
 
 
 {{Top}}
+
+
 
 ### Wie man einen Mausklick auf eine gegebene Koordinate simuliert 
 
@@ -1708,6 +1863,8 @@ me = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(coordX,co
 
 
 {{Top}}
+
+
 
 ### Erstellen einer Fläche mit Löchern mit der Python-API 
 
@@ -1753,6 +1910,8 @@ Part.show(myFace)
 
 {{Top}}
 
+
+
 ### FreeCAD schließen und neu starten 
 
 
@@ -1775,12 +1934,18 @@ def restart_freecad():
 
 ## Coin3D
 
-Siehe [Coin3d Schnippsel](Coin3d_snippets/de.md)
+Siehe [Coin3d Schnippsel](Coin3d_snippets/de.md) 
 
 ## Verwandt
 
+
+<div class="mw-translate-fuzzy">
+
 -   [geskriptete Objekte](Scripted_objects/de.md)
 -   [Makros](Macros/de.md)
+
+
+</div>
 
 
 {{Top}}

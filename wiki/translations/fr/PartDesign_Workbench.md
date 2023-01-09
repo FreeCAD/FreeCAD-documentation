@@ -164,7 +164,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Engrenage en développante](PartDesign_InvoluteGear/fr.md) : crée un profil d\'engrenage en développante qui peut être extrudé.
 
--   <img alt="" src=images/WizardShaft.svg  style="width:32px;"> [ Assistant de conception d\'arbre](PartDesign_WizardShaft/fr.md) : génère un arbre à partir d\'un tableau de valeurs et permet d\'analyser les forces et les moments. L\'arbre est construit à partir de la révolution d\'une esquisse qui peut être modifiée.
+-   <img alt="" src=images/WizardShaft.svg  style="width:32px;"> [Conception d\'arbre](PartDesign_WizardShaft/fr.md) : génère un arbre à partir d\'un tableau de valeurs et permet d\'analyser les forces et les moments. L\'arbre est construit à partir de la révolution d\'une esquisse qui peut être modifiée.
 
 ### Éléments du menu contextuel 
 

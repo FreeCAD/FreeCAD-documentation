@@ -1,6 +1,8 @@
 # Part Part2DObject/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
@@ -15,6 +17,8 @@ Obiekt `Part::Part2DObject` wywodzi się z obiektu [Część: Cecha](Part_Featur
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
+
+
 ## Użycie
 
 Obiekt [Part Part2DObject](Part_Part2DObject/pl.md) jest obiektem wewnętrznym, więc nie można go utworzyć z poziomu interfejsu graficznego, tylko z poziomu [konsoli Python](Python_console/pl.md) jak opisano w sekcji [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
@@ -23,6 +27,8 @@ Obiekt `Part::Part2DObject` jest zdefiniowany w środowisku pracy [Część](Par
 
 Środowisko pracy może dodać więcej właściwości do tego podstawowego elementu, aby stworzyć obiekt o złożonym wyglądzie.
 
+
+
 ## Właściwości
 
 Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
@@ -30,6 +36,8 @@ Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwo
 Obiekt [Part Part2DObject](Part_Part2DObject.md) *(klasa `Part::Part2DObject`)* wywodzi się z [Część: Cecha](Part_Feature.md) *(klasa `Part::Feature`)* i dziedziczy wszystkie jej właściwości.
 
 Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze [edytora właściwości](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
+
+
 
 ### Dane
 
@@ -59,6 +67,8 @@ Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze 
     </div>
     **Odsunięcie mocowania|umocowanie**: pozycja obiektu w oknie [widoku 3D](3D_view/pl.md), w odniesieniu do umiejscowienia obiektu dołączonego. Położenie jest określone przez punkt `Bazowy` *(wektor)* i punkt `Obrotu` *(oś i kąt)*. Zobacz [Umiejscowienie](Placement/pl.md). Ukryje, jeśli **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
 
+
+
 ## Tworzenie skryptów 
 
 
@@ -66,7 +76,7 @@ Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze 
 
 [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
 
-Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć w [Część: właściwość](Part_Feature/pl.md).
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
 
 Obiekt Part2DObject jest tworzony za pomocą metody `addObject()`.
 

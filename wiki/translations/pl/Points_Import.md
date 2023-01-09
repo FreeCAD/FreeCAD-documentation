@@ -1,43 +1,44 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Points Import
-   MenuLocation:Points → Import points...
-   Workbenches:[Points](Points_Workbench.md)
-   SeeAlso:[Import Export](Import_Export.md)
+   Name/pl:Punkty: Import
+   MenuLocation:Punkty → Import punktów ...
+   Workbenches:[Punkty](Points_Workbench/pl.md)
+   SeeAlso:[Import Eksport](Import_Export/pl.md)
 ---
 
 # Points Import/pl
 
-## Description
+## Opis
 
-The **Points Import** command imports a point cloud from a file.
+Polecenie **Import punktów** importuje chmurę punktów z pliku.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Points_Import.svg" width=16px> [Points Import](Points_Import.md)** button.
-    -   Select the **Points → <img src="images/Points_Import.svg" width=16px> Import Points...** option from the menu.
-2.  Select a point cloud file.
-3.  Press the **Open** button.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Points_Import.svg" width=16px> '''Import punktów ...'''**.
+    -   Wybierz z menu opcję **Punkty → <img src="images/Points_Import.svg" width=16px> Importuj punktów ...**.
+2.  Wybierz plik chmury punktów.
+3.  Naciśnij przycisk **Otwórz**.
 
-## Properties
+## Właściwości
 
-See [Points Convert](Points_Convert.md).
+Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
 
-## Point cloud file format 
+## Format pliku chmury punktów 
 
--   A point cloud file must have the **.asc**, **.pcd** or **.ply** extension.
--   Each line in the file must list the X, Y and Z coordinates of a point.
--   The coordinates must be separated by spaces.
--   The coordinates must use a decimal point, not a decimal comma.
+-   Plik chmury punktów musi mieć rozszerzenie **.asc**, **.pcd** lub **.ply**.
+-   Każda linia pliku musi zawierać współrzędne X, Y i Z punktu.
+-   Współrzędne muszą być oddzielone spacjami.
+-   We współrzędnych musi być użyty znak dziesiętny, a nie przecinek.
 
-## Sample point cloud file 
+## Przykładowy plik chmury punktów 
 
 0 0 0
 1.4562 -7.2354 12.2367
 5.9423 3.1728 -17.6439
 
-For testing you can use [this file](https://raw.githubusercontent.com/FreeCAD/Examples/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc), which is a low polygon version of the [Stanford Bunny](http://graphics.stanford.edu/data/3Dscanrep/).
+Do testów możesz użyć [ten plik](https://raw.githubusercontent.com/FreeCAD/Examples/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc), który jest wersją low polygon [Stanford Bunny](http://graphics.stanford.edu/data/3Dscanrep/).
 
 
 

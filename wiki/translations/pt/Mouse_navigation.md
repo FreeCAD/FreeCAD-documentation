@@ -49,9 +49,7 @@ Em alternativa mantenha pressionados os botões esquerdo e direito do rato e mov
 
 ### Navegação CAD 
 
-### Navegação CAD (predefinido) 
-
-Este é o estilo de navegação predefinido e permite ao utilizador um controlo simples da visualização, não requerendo o uso do teclado excepto para fazer múltiplas seleções.
+Este é o estilo de navegação predefinido. Permite ao utilizador um controlo simples da visualização e não requer o uso do teclado excepto para fazer múltiplas seleções.
 
 
 {{CAD Navigation
@@ -118,7 +116,7 @@ Na versão v0.18 este método está desactivado por defeito. Para o activar vá 
 
 ### Navegação por Gestos no Maya 
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
+Na navegação por gestos no Maya, o Pan, o Zoom e rodação da vista requerem as teclas **Alt** em simultâneo com um botão do rato, como tal é preciso um rato com 3 botões. Também é possível usar gestos, que esta forma de navegar foi desenvolvida sobre o estilo [Navegação por Gestos](#Gesture_navigation/pt.md)
 
 
 <div class="mw-translate-fuzzy">

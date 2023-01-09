@@ -98,7 +98,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for the body. <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restrição da velocidade de fluxo](FEM_ConstraintFlowVelocity/pt-br.md)
 

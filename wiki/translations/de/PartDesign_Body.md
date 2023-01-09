@@ -70,9 +70,9 @@ Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen 
 
 #### Versteckte Eigenschaften 
 
--    {{PropertyData/de|Ursprung|Link}}: das [App Ursprungs-](App_Origin.md) Objekt ist der Positionsbezug für alle Elemente, die in der **Group** enthalten sind.
+-    {{PropertyData/de|Origin|Link}}: Das [App Origin](App_OriginGroupExtension/de.md)-Objekt ist der Positionsbezug (Ursprung) für alle Elemente, die in der {{PropertyData/de|Group}} enthalten sind.
 
--    **_ Group Touched|Bool**: ob die Gruppe berührt wird oder nicht.
+-    {{PropertyData/de|_ Group Touched|Bool}}: Gibt an, ob die Gruppe berührt (betroffen?) ist oder nicht.
 
 Auch die versteckten Eigenschaften sind in [Part Formelement](Part_Feature/de.md) beschrieben.
 
@@ -86,11 +86,9 @@ Auch die versteckten Eigenschaften sind in [Part Formelement](Part_Feature/de.md
     -   
         `Durch`
         
-        (Standard) legt alle Objekte innerhalb des Körpers frei, das ist [/de\|Skizze](Sketch.md), [PartDesign Formelemente](PartDesign_Feature.md), Bezugsobjekte usw. Dieser Modus ermöglicht die Veranschaulichung von Teiloperationen, die innerhalb des Körpers durchgeführt werden, und ist daher der empfohlene Modus beim Hinzufügen und Bearbeiten von Formelementen.
+        (Standard) legt alle Objekte innerhalb des Körpers frei, das ist [/de\|Skizze](Sketch.md), [PartDesign Formelemente](PartDesign_Feature.md), Bezugsobjekte usw. Dieser Modus ermöglicht die Veranschaulichung von Teiloperationen, die innerhalb des Körpers durchgeführt werden, und ist daher der empfohlene Modus beim Hinzufügen und Bearbeiten von Formelementen. Wähle das spezifische Formelement und setze {{PropertyView/de|Sichtbarkeit}} auf `True` oder drücke die **Leertaste ** auf der Tastatur.
 
-Wähle das spezifische Formelement und setze {{PropertyView/de|Sichtbarkeit}} auf {`True`} oder drücke die **Leertaste ** auf der Tastatur.
-
--   -   
+    -   
         `Spitze`
         
         stellt nur die endgültige Form des Körpers dar, die durch die Eigenschaft {{PropertyData/de|Spitze}} definiert ist. Alles andere, einschließlich [Skizzen](Sketch/de.md), [Teil Formelemente](PartDesign_Feature/de.md), Bezugspunkte usw., wird nicht angezeigt, auch wenn sie in der [Baumansicht](tree_view/de.md) sichtbar sind. Dieser Modus wird empfohlen, wenn der Körper nicht weiter modifiziert werden muss, so dass eine festgelegte Form angezeigt wird. Dieser Modus wird auch empfohlen, wenn Du die Unterelemente (Knoten, Kanten und Flächen) der endgültigen Form auswählen möchtest, um sie mit den Werkzeugen anderer Arbeitsbereiche zu verwenden.
@@ -156,7 +154,7 @@ Das gleiche Verfahren kann bei der Erzeugung von Hilfsbezugsgeometrie wie [PartD
 
 **Hinweis:**
 
-der Ursprung ist ein [App Ursprungs](App_Origin.md)-Objekt der Klasse `App::Origin`, während die Achsen und Ebenen Objekte vom Typ `App::Line` bzw. `App::Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** einzeln ein- und ausgeblendet werden; dies ist nützlich, um bei der Erstellung anderer Objekte die richtige Referenz zu wählen.
+der Ursprung ist ein [App-Origin](App_OriginGroupExtension/de.md)-Objekt der Klasse `App::Origin`, während die Achsen und Ebenen Objekte vom Typ `App::Line` bzw. `App::Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** einzeln ein- und ausgeblendet werden; dies ist nützlich, um bei der Erstellung anderer Objekte die richtige Referenz zu wählen.
 
 
 **Hinweis 2:**

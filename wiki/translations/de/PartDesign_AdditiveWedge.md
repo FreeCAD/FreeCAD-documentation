@@ -1,68 +1,59 @@
-# PartDesign AdditiveWedge/de
 ---
 - GuiCommand:/de
    Name:PartDesign AdditiveWedge
-   Name/de:PartDesign Zu addierender Keil
+   Name/de:PartDesign KeilHinzufügen
+   MenuLocation:Part Design → Grundkörper hinzufügen → Keil
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erzeugen eines zusätzlichen geometrischen Körpers → Zu addierender Keil
-   Shortcut:None
-   SeeAlso:[Erzeugen eines zusätzlichen geometrischen Körpers](PartDesign_CompPrimitiveAdditive/de.md)---
+   Version:0.17
+   SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign KeilAbziehen](PartDesign_SubtractiveWedge/de.md)
+---
 
-
-</div>
+# PartDesign AdditiveWedge/de
 
 ## Beschreibung
 
-Fügt den Grundkörper Keil in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
+Fügt einen Keil-Grundkörper in den aktiven Körper (Body-Objekt) als Basisformelement ein oder vereinigt ihn mit den bereits vorhandenen Formelementen.
 
 <img alt="" src=images/PartDesign_AdditiveWedge_example.png  style="width:200px;">
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Keil'''** drücken. **Hinweis**: Der Keil ist Teil eines Symbolmenüs mit der Bezeichnung *Grundkörper hinzufügen*. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Keil zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Keil im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Auf die Schaltfläche **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Zu addierender Keil'''** klicken. **Anmerkung**: zu addierender Keil ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „zu addierender Quader" in der Werkzeugleiste angezeigt. Durch Klicken auf den Pfeil neben dem Symbol kann der zu addierenden Keil in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
-3.  Mit Klick auf **OK** bestätigen.
-4.  Das Element Keil erscheint unterhalb des aktiven Körpers (Body).
+3.  
+    **OK**klicken.
 
-
-</div>
+4.  Ein Ellipsoid-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 ## Optionen
 
-Der Torus kann auf zwei verschiedene Weisen bearbeitet werden:
+Der Keil kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
 
 ## Eigenschaften
 
-Wenn die voreingestellte Platzierung verwendet wird, verhalten sich die aufgeführten Eigenschaften wie folgt:
+Wenn die voreingestellte Positionierung verwendet wird, entsprechen die Eingaben folgenden Eigenschaften:
 
--    {{PropertyData/de|X min/max}}: Koordinatenwerte der unteren Fläche in X-Richtung
+-    {{PropertyData/de|X min/max}}: Ausdehnung der Grundfläche in X-Richtung
 
--    {{PropertyData/de|Y min/max}}: Lage der oberen und unteren Fläche in Y-Richtung
+-    {{PropertyData/de|Y min/max}}: Ausdehnung von Grund- bis Deckelfläche in Y-Richtung
 
--    {{PropertyData/de|Z min/max}}: Koordinatenwerte der unteren Fläche in Z-Richtung
+-    {{PropertyData/de|Z min/max}}: Ausdehnung der Grundfläche in Z-Richtung
 
--    {{PropertyData/de|X2 min/max}}: Koordinatenwerte der oberen Fläche in X-Richtung
+-    {{PropertyData/de|X2 min/max}}: Ausdehnung der Deckelfläche in X-Richtung
 
--    {{PropertyData/de|Z2 min/max}}: Koordinatenwerte der oberen Fläche in Z-Richtung
+-    {{PropertyData/de|Z2 min/max}}: Ausdehnung der Deckelfläche in Z-Richtung
 
-## Pyramids
+## Pyramiden
 
-Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
-
-
-<div class="mw-translate-fuzzy">
+Keile können zur Erstellung von Pyramiden verwendet werden, wenn die {{PropertyData/de|X2 min/max}} und die **Z2 min/max** beide so gesetzt werden, dass min = max.
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

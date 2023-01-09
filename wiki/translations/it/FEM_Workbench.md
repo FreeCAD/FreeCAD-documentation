@@ -62,9 +62,21 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 ### Vincoli dei fluidi 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vincolo velocità iniziale del flusso](FEM_ConstraintInitialFlowVelocity/it.md): Utilizzato per definire una velocità di flusso iniziale per il corpo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Vincolo pressione iniziale](FEM_ConstraintInitialPressure.md): Utilizzato per definire una pressione iniziale per il corpo. {{Version/it|1.0}}
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Vincolo velocità del flusso](FEM_ConstraintFlowVelocity/it.md): Utilizzato per definire una velocità del flusso come condizione di un contorno su un bordo (2D) o una faccia (3D).
 

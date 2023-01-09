@@ -1,23 +1,24 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Part CompSplittingTools
-   MenuLocation:Part → Split
-   Workbenches:[Part](Part_Workbench.md)
+   Name/pl:Część: Komponent - narzędzia do rozdzielania
+   MenuLocation:Część → Rozdziel
+   Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:
 ---
 
 # Part CompSplittingTools/pl
 
-## Description
+## Opis
 
-A collection of splitting tools.
+Kolekcja narzędzi do rozdzielania.
 
-## Types of Splitting 
+## Rodzaje operacji związanych z dzieleniem 
 
--   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Boolean fragments](Part_BooleanFragments.md): makes all the pieces that can be obtained by Boolean operations between objects.
--   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Slice apart](Part_SliceApart.md): tool to split shapes by intersection with other shapes.
--   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Slice](Part_Slice.md): Splits an object into pieces by intersections with another object.
--   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR.md): removes space shared by even number of objects (symmetric version of <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Cut](Part_Cut.md)).
+-   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md): tworzy wszystkie fragmenty, które można uzyskać w wyniku operacji logicznych między obiektami.
+-   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Rozbij część](Part_SliceApart/pl.md): narzędzie do dzielenia kształtów przez przecięcie z innymi kształtami.
+-   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Rozbij na kształty złożone](Part_Slice/pl.md): Dzieli obiekt na części poprzez przecięcia z innym obiektem.
+-   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [Logiczny XOR](Part_XOR/pl.md): usuwa przestrzeń dzieloną przez parzystą liczbę obiektów *(symetryczna wersja <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Wytnij](Part_Cut/pl.md))*.
 
 
 

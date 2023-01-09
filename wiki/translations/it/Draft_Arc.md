@@ -147,15 +147,6 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/it

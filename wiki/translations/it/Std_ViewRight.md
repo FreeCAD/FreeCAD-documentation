@@ -43,13 +43,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

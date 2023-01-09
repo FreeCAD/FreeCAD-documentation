@@ -22,14 +22,11 @@ Questa macro crea una proprietà aggiuntiva per gli oggetti, è rinominabile a p
 
 Avviare la macro, selezionare un oggetto Draft, compilare i campi e applicare. Nella scheda **Vista combinata → Proprietà → Dati** appare una nuova proprietà.
 
+-   **Property title** : titolo della nuova proprietà (Default: Memo)
 
-<div class="mw-translate-fuzzy">
+-   **Property name** : nome del campo compilabile
 
--   **Property title** = titolo della nuova proprietà (Default: Memo)
--   **Property name** = nome de campo compilabile
-
-
-</div>
+-    {{CheckBox|TRUE|UnCheck for String}}: casella di controllo per la scelta tra stringa o elenco (By default)
 
 ![One Property Memo is adding](images/Macro_FCPropertyMemo_01.png )
 
@@ -404,13 +401,8 @@ Le macro di [mario52a](https://gist.github.com/mario52a) in gists
 
 ## Versioni
 
-
-<div class="mw-translate-fuzzy">
-
+-   ver 00.03 2020/05/17 : layout della griglia for 0.19
 -   ver 00.02 19/10/2015 : aggiunto un checkBox per scegliere tra Memo Stringa o Elenco
-
-
-</div>
 
 
 

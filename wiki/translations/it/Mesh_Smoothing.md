@@ -63,13 +63,7 @@ Il comando **Leviga** smussa gli oggetti mesh cambiando la posizione dei loro ve
 8.  Press the **OK** button to finish the command.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

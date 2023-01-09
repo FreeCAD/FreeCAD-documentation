@@ -54,7 +54,7 @@ When creating a pocket, the the **Pocket parameters** dialog will be shown. It o
 
 ### Type
 
-Type offers four different ways of specifying the length to which the pocket will be extruded:
+Type offers five different ways of specifying the length to which the pocket will be extruded:
 
 #### Dimension
 

@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil crée un objet mur à partir de zéro ou sur la base de n\'importe quel objet [forme de Part](Part_Workbench/fr.md) ou sur la base de n\'importe quel objet [mesh](Mesh_Workbench/fr.md). Un mur peut être construit sans objet de base, il se comportera alors comme un volume cubique, il sera construit à l\'aide des propriétés de longueur, largeur et hauteur. Lorsque qu\'il est construit sur une forme existante, le mur peut être basé sur :
+Cet outil crée un objet mur à partir de zéro ou sur la base de n\'importe quel objet basé sur une [forme de Part](Part_Workbench/fr.md) ou sur une [forme de Mesh](Mesh_Workbench/fr.md). Un mur peut être construit sans objet de base, il se comportera alors comme un volume cubique, il sera construit à l\'aide des propriétés de longueur, largeur et hauteur. Lorsque qu\'il est construit sur une forme existante, le mur peut être basé sur :
 
 -   Un **objet linéaire 2D**, tel que ligne, fil, arc ou croquis, dans ce cas, vous pouvez modifier l\'épaisseur, l\'alignement (droite, gauche ou centré) et la hauteur. La propriété de longueur n\'a pas d\'effet.
 -   Une **face plane**, dans ce cas, vous ne pouvez pas changer la hauteur. La propriété length (longueur) n\'a pas d\'effet. Si le base de la face est verticale, le mur utilisera la propriété largeur au lieu de la propriété hauteur, vous permettant de construire des murs à partir d\'objets en forme d\'espace ou d\'étude de masse.
@@ -20,7 +20,7 @@ Cet outil crée un objet mur à partir de zéro ou sur la base de n\'importe que
 -   Un **maillage**, dans ce cas, sous-jacente doit être un solide fermé, solide manifold.
 
 <img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
-*Murs construits à partir d'une ligne, d'une polyligne, d'une face, d'un solide et d'une esquisse.*
+*Murs construits à partir d'une ligne, d'une polyligne, d'une face, d'un solide et d'une esquisse*
 
 Les murs peuvent également avoir des ajouts ou des soustractions. Les ajouts sont d\'autres objets dont les formes sont jointes dans la forme de ce mur, tandis que les soustractions sont soustraites. Des ajouts et des soustractions peuvent être ajoutés avec les outils [Ajouter](Arch_Add/fr.md) et [Supprimer](Arch_Remove/fr.md). Les ajouts et soustractions n\'ont aucune influence sur les paramètres de mur tels que la hauteur et la largeur, qui peuvent encore être modifiés. Les murs peuvent également avoir leur hauteur automatique, s\'ils sont inclus dans un objet de niveau supérieur tel que des [Niveaux](Arch_Floor/fr.md). La hauteur doit être maintenue à 0, puis le mur adoptera la hauteur spécifiée dans l\'objet parent.
 
@@ -48,7 +48,7 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 -   Appuyez sur **X**, **Y** ou **Z** après le premier point pour contraindre le deuxième point sur l\'axe donné.
 -   Pour entrer les coordonnées manuellement, entrez simplement les nombres, puis appuyez sur **Entrée** entre chaque composant X, Y et Z.
 -   Appuyez sur **R** ou cliquez sur la case à cocher pour cocher/décocher le bouton **Relatif**. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier. Sinon, ils sont absolus, pris à partir du point d\'origine (0,0,0).
--   Appuyez sur **Shift** tout en dessinant sur [Contrainte](Draft_Constrain/fr.md) votre deuxième point horizontalement ou verticalement par rapport au premier.
+-   Appuyez sur **MAJ** tout en dessinant sur [Contrainte](Draft_Constrain/fr.md) votre deuxième point horizontalement ou verticalement par rapport au premier.
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande en cours.
 -   Double-cliquer sur le mur dans l\'arborescence après sa création vous permet d\'entrer en mode édition et d\'accéder et de modifier ses ajouts et soustractions
 -   Les murs multicouches peuvent être facilement créés en construisant plusieurs murs à partir de la même ligne de base. En définissant leur propriété Align sur la gauche ou la droite et en spécifiant une valeur de décalage, vous pouvez créer efficacement plusieurs couches de murs. Placer une fenêtre dans un tel calque de mur propage l\'ouverture vers les autres calques de mur en fonction de la même ligne de base.
@@ -60,48 +60,48 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 L\'aimantation fonctionne un peu différemment avec les murs Arch par rapport aux autres objets Arch et Draft. Si un mur a un objet de ligne de base, l\'aimantation s\'ancrera à l\'objet de base, au lieu de la géométrie de mur, permettant d\'aligner facilement les murs par leur ligne de base. Si, cependant, vous souhaitez spécifiquement accrocher à la géométrie du mur, appuyez sur **Ctrl** pour basculer l\'aimantation à l\'objet mur.
 
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
-*Le deuxième mur se coupe perpendiculairement au premier*
+*Le deuxième mur s'aimante perpendiculairement au premier*
 
 ## Propriétés
 
-Les objets muraux héritent des propriétés de [Part](Part_Workbench/fr.md), et ont également les propriétés supplémentaires suivantes :
+Les objets mur héritent des propriétés de [Part](Part_Workbench/fr.md), et ont également les propriétés supplémentaires suivantes :
 
--    **Align**: L\'alignement de la base du mur sur la base de référence : Gauche, Droite ou Centre
+-    **Align**: alignement de la base du mur sur la base de référence : Gauche, Droite ou Centre
 
--    **Base**: Ce mur est construit sur l\'objet de base
+-    **Base**: objet de base sur lequel ce mur est construit
 
--    **Face**: L\'index de la face de l\'objet de base utilisée. Si la valeur n\'est pas définie ou est 0, l\'objet entier est utilisé
+-    **Face**: index de la face de l\'objet de base utilisée. Si la valeur n\'est pas définie ou est 0, l\'objet entier est utilisé
 
--    **Force Wire**: Si la valeur est True le mur est basé sur une face, seul le bord de la face est utilisée, résultant en un mur bordant la face
+-    **Force Wire**: si la valeur est True le mur est basé sur une face, seul le bord de la face est utilisée, résultant en un mur bordant la face
 
--    **Length**: la longueur du mur (non utilisé lorsque le mur est basé sur une face)
+-    **Length**: longueur du mur (non utilisé lorsque le mur est basé sur une face)
 
--    **Width**: La largeur du mur. (non utilisé lorsque le mur est basé sur une face)
+-    **Width**: largeur du mur. (non utilisé lorsque le mur est basé sur une face)
 
--    **Height**: La hauteur du mur (non utilisé lorsque le mur est basé sur une face). Si aucune hauteur n\'est donnée et que le mur est à l\'intérieur d\'un objet [floor](Arch_Floor/fr.md) avec sa hauteur définie, le mur prendra automatiquement la valeur de la hauteur de l\'étage.
+-    **Height**: hauteur du mur (non utilisé lorsque le mur est basé sur une face). Si aucune hauteur n\'est donnée et que le mur est à l\'intérieur d\'un objet [Niveau](Arch_Floor/fr.md) avec sa hauteur définie, le mur prendra automatiquement la valeur de la hauteur de l\'étage.
 
--    **Normal**: Donne une direction pour l\'extrusion du mur. Si la valeur (0,0,0), la direction d\'extrusion est automatique.
+-    **Normal**: donne une direction pour l\'extrusion du mur. Si la valeur est à (0,0,0), la direction d\'extrusion est automatique.
 
--    **Offset**: Spécifie la distance entre le mur et le niveau de référence. Fonctionne uniquement si la propriété Align est à droite ou à gauche (Right ou Left.).
+-    **Offset**: spécifie la distance entre le mur et le niveau de référence. Fonctionne uniquement si la propriété Align est à droite ou à gauche (Right ou Left).
 
 
 {{Version/fr|0.18}}
 
--    **Make Blocks**: Activez cette propriété pour créer les blocs
+-    **Make Blocks**: propriété pour créer les blocs
 
--    **Block Length**: La longueur de chaque bloc
+-    **Block Length**: longueur de chaque bloc
 
--    **Block Height**: La hauteur de chaque bloc
+-    **Block Height**: hauteur de chaque bloc
 
--    **Offset First**: Décalage horizontal de la première ligne de blocs
+-    **Offset First**: décalage horizontal de la première ligne de blocs
 
--    **Offset Second**: Décalage horizontal de la deuxième ligne de blocs
+-    **Offset Second**: décalage horizontal de la deuxième ligne de blocs
 
--    **Joint**: Donnez la taille des joints entre chaque bloc
+-    **Joint**: taille des joints entre chaque bloc
 
--    **Count Entire**: Le nombre de blocs entiers (lecture seule)
+-    **Count Entire**: nombre de blocs entiers (lecture seule)
 
--    **Count Broken**: Le nombre de blocs coupés (lecture seule)
+-    **Count Broken**: nombre de blocs coupés (lecture seule)
 
 ## Script
 

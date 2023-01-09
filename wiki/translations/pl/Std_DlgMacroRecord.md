@@ -1,50 +1,61 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std DlgMacroRecord
-   MenuLocation:Macro → Macro recording...
-   Workbenches:All
-   SeeAlso:[Std MacroStopRecord](Std_MacroStopRecord.md)
+   Name/pl:Std: Rejestrator makrodefinicji 
+   MenuLocation:Makrodefinicje → Rejestrator makrodefinicji ...
+   Workbenches:wszystkie
+   SeeAlso:[Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)
 ---
 
 # Std DlgMacroRecord/pl
 
-## Description
 
-The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session during which user actions are stored in a FreeCAD macro, a file with the **.FCMacro** extension. A macro can later be replayed, executed, to repeat the recorded actions.
+
+## Opis
+
+Polecenie **Rejestrator makrodefinicji** uruchamia sesję nagrywania [makrodefinicji](Macros/pl.md), podczas której działania użytkownika są zapisywane w makrze FreeCAD, pliku z rozszerzeniem **.FCMacro**. Makrodefinicja może być później odtworzona, wykonana, w celu powtórzenia zarejestrowanych działań.
 
 ![](images/Std_DlgMacroRecord_dialog.png ) 
-*The Macro recording dialog box*
+*Okienko dialogowe Rejestrator makrodefinicji*
 
-## Usage
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std DlgMacroRecord](Std_DlgMacroRecord.md)** button.
-    -   Select the **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Macro recording...** option from the menu.
-2.  The Macro recording dialog box opens.
-3.  Enter a name for the macro in the **Macro name** input box.
-4.  Optionally change the **Macro path** by pressing the **...** button.
-5.  The **Stop** button does not work at this time.
-6.  Press the **Record** button to close the dialog box and start the recording session.
-7.  Perform the actions you want to record.
-8.  To end the recording session do one of the following:
-    -   Press the **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** button.
-    -   Select the **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Stop macro recording** option from the menu.
 
-## Options
+## Użycie
 
--   When the Macro recording dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Rejestrator makrodefinicji ...](Std_DlgMacroRecord/pl.md)**.
+    -   Wybierz z menu opcję **Makrodefinicje → <img src="images/Std_DlgMacroRecord.svg" width=16px> Rejestrator makrodefinicji ...**.
+2.  Otwiera się okno dialogowe Rejestrator makrodefinicji.
+3.  Wprowadź nazwę dla makra w polu wejściowym **Nazwa makrodefinicji**.
+4.  Opcjonalnie zmień **ścieżkę do pliku makrodefinicji**, naciskając przycisk **...**.
+5.  Przycisk **Stop** nie działa w tej chwili.
+6.  Naciśnij przycisk **Nagrywanie**, aby zamknąć okno dialogowe i rozpocząć sesję nagrywania.
+7.  Wykonaj czynności, które chcesz nagrać.
+8.  Aby zakończyć sesję nagrywania wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk **<img src="images/Std_MacroStopRecord.svg" width=16px> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)**.
+    -   Wybierz z menu opcję **Makrodefinicje → <img src="images/Std_MacroStopRecord.svg" width=16px> Zatrzymaj nagrywanie makra**.
 
-## Notes
 
--   To execute the recorded macro use the [Std DlgMacroExecute](Std_DlgMacroExecute.md) command.
--   To learn more about macros see the [Macros](Macros.md) page.
 
-## Preferences
+## Opcje
 
--   The macro path can also be changed in the preferences: **Edit → Preferences... → General → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
--   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → General → Macro → GUI commands** do one of the following:
-    -   To exclude these actions uncheck the {{CheckBox|FALSE|Record GUI commands}} checkbox.
-    -   To include them as comments only check both the {{CheckBox|TRUE|Record GUI commands}} and {{CheckBox|TRUE|Record as comment}} checkboxes.
+-   Po wyświetleniu okna dialogowego Rejestrator makrodefinicji: naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
+
+
+
+## Uwagi
+
+-   Aby wykonać nagraną makrodefinicję należy użyć polecenia [Wykonaj makro](Std_DlgMacroExecute/pl.md).
+-   Aby dowiedzieć się więcej o makrach zobacz stronę [Makrodefinicje](Macros/pl.md).
+
+
+
+## Ustawienia
+
+-   Ścieżkę do makrodefinicji można również zmienić w preferencjach: **Edycja → Preferencje ... → Ogólne → Makropolecenia → Ścieżka do plików makrodefinicji**. Patrz [Edytor ustawień](Preferences_Editor/pl#Makropolecenia.md)
+-   W większości przypadków niepożądane jest rejestrowanie akcji, które nie zmieniają modelu: pod **Edycja → Preferencje ... → Ogólne → Makropolecenia → Polecenia GUI** wykonaj jedną z następujących czynności:
+    -   Aby wykluczyć te działania odznacz pole wyboru {{CheckBox|FALSE|Nagrywanie poleceń GUI}}.
+    -   Aby uwzględnić je tylko jako komentarze zaznacz oba pola wyboru {{CheckBox|TRUE|Nagrywanie poleceń GUI}} i {{CheckBox|TRUE|Zarejestruj jako komentarz}}.
 
 
 

@@ -10,9 +10,6 @@
 
 # Part TransformedCopy/it
 
-
-</div>
-
 ## Descrizione
 
 [Copia modificata](Part_TransformedCopy/it.md) produce una copia non parametrica di un oggetto che è stato spostato dalla sua posizione originale.

@@ -9,14 +9,27 @@
 
 # TechDraw LengthDimension/de
 
+
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Längenbemaßung zweier beliebiger Knoten der Ansicht*
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Die Punkte oder die Kante auswählen, die die Messung definieren.
 2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
@@ -25,13 +38,20 @@ Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:2
 3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
+
+</div>
+
 Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der Bemaßungsdialog geöffnet.
+
+
 
 ## Bemaßungsdialog
 
 Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 ![](images/TechDraw_DimensionDialog.png )
+
+
 
 ### Tolerierung
 
@@ -42,6 +62,8 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 -   **Übertoleranz**: Der Wert, um den die Abmessung größer sein kann.
 
 -   **Untertoleranz**: Der Wert, um den die Abmessung kleiner sein kann.
+
+
 
 ### Formatierung
 
@@ -55,6 +77,8 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -   **Beliebiger Toleranztext**: Falls aktiviert, werden die Toleranzen durch den Inhalt der **Übertoleranz Formatspezifizierer**- und **Untertoleranz Formatspezifizierer**-Felder ersetzt.
 
+
+
 ### Anzeigeformat
 
 -   **Maßpfeile umdrehen**: Dreht die Richtung um, in die die Bemaßungspfeile zeigen. Als Vorgabe sind sie innerhalb der/des Bemaßungslinie/-bogens und zeigen nach außen.
@@ -64,6 +88,8 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 -   **Schrifthöhe**: Die Größe des Bemaßungstextes.
 
 -   **Zeichnungsstil**: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird. Siehe die Eigenschaft [**Standard und Stil**](#View.md) für Einzelheiten.
+
+
 
 ### Linien
 
@@ -81,12 +107,19 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -   **Auswahl verwenden**: Setzt den Maßhilfslinienwinkel entsprechend dem Winkel der ausgewählten Kante (oder der 2 Knotenpunkte) in der Ansicht.
 
+
+
 ## Eigenschaften
+
+
 
 ### Daten
 
 
 {{Properties_Title/de|Basis}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|X}}: Horizontale Position des Maßtexts relativ zur Ansicht.
 
@@ -148,6 +181,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
 
+</div>
+
+
 {{Properties_Title/de|Format}}
 
 -    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
@@ -192,6 +228,8 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 -    {{PropertyData/de|LineAngle}}: Winkel zwischen Maßlinie und der X-Achse der Ansicht (in Grad).
 
 -    {{PropertyData/de|ExtensionAngle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
+
+
 
 ### Ansicht
 
@@ -256,11 +294,15 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- Dreht die automatisch gewählte Richtung um.
 
+
+
 ## Begrenzungen
 
 Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Bemaßungen mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
 
 Es wird daher empfohlen, Bemaßungen hinzuzufügen, wenn das 3D Modell nicht mehr verändert wird.
+
+
 
 ### Zwischenlösung
 
@@ -271,6 +313,8 @@ Wenn du eine TechDraw Ansicht mit Bemaßungen behalten möchtest, die nicht brec
 -   Wenn das ursprüngliche 3D Modell geändert wird, wirken sich die Änderungen weder auf die einfache Kopie noch auf die Bemaßungen in der TechDraw Ansicht aus.
 
 Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des Problems der topologischen Benennung.
+
+
 
 ## Skripten
 
@@ -285,6 +329,8 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
+
+
 
 ## Anmerkungen
 

@@ -1,31 +1,38 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std DlgMacroExecuteDirect
-   MenuLocation:Macro → Execute macro
-   Workbenches:All
-   Shortcut:**Ctrl**+**F6**
-   SeeAlso:[Std DlgMacroExecute](Std_DlgMacroExecute.md)
+   Name/pl:Std: Wykonaj makrodefinicję w trakcie edycji
+   MenuLocation:Makrodefinicje → Wykonaj makro
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **F6**
+   SeeAlso:[Makrodefinicje](Std_DlgMacroExecute/pl.md)
 ---
 
 # Std DlgMacroExecuteDirect/pl
 
-## Description
 
-The **Std DlgMacroExecuteDirect** command executes the macro in the current Macro editor window.
 
-## Usage
+## Opis
 
-1.  If required open the correct macro in the Macro editor. See the [Std DlgMacroExecute](Std_DlgMacroExecute.md) command.
-2.  Make sure the Macro editor window has the input focus.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)** button.
-    -   Select the **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Execute macro** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**F6**.
-4.  The macro is executed.
+Polecenie **Wykonaj makrodefinicję w trakcie edycji** powoduje wykonanie makra w bieżącym oknie edytora makrodefinicji.
 
-## Notes
 
--   To learn more about macros see the [Macros](Macros.md) page.
+
+## Użycie
+
+1.  W razie potrzeby otwórz właściwą makrodefinicję w edytorze makrodefinicji. Patrz polecenie [Okno dialogowe Makrodefinicje](Std_DlgMacroExecute/pl.md)
+2.  Upewnij się, że okno edytora makrodefinicji jest aktywne.
+3.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Wykonaj makro](Std_DlgMacroExecuteDirect.md)**.
+    -   Wybierz z menu opcję **Makrodefinicje → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Wykonaj makro**.
+    -   Użyj skrótu klawiaturowego: **Ctrl**+**F6**.
+4.  Makro zostanie wykonane.
+
+
+
+## Uwagi
+
+-   Aby dowiedzieć się więcej o makropoleceniach, zobacz stronę [Makrodefinicje](Macros/pl.md).
 
 
 

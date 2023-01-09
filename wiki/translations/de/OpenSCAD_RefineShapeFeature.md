@@ -10,7 +10,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien sichtbar, die zur vorigen Form gehören. Dieses Werkzeug erstellt eine Kopie des bereinigten Körpers.
+
+
+</div>
 
 ![](images/PartRefineShape_it.png )
 
@@ -36,10 +42,16 @@ Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   die Funktion wird nicht die existierende Form verändern, sondern eine neue Form erstellen
 -   die Funktion wird normalerweise als letzter Schritt in der Modellierungshistorie verwendet
 -   die Funktion kann helfen, schwierige Rundungen zu erstellen
 -   die Funktion ist gedacht, um bei 3D-Druckern das Drucken unerwünschte Kanten zu vermeiden
+
+
+</div>
 
 
 

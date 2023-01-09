@@ -57,9 +57,9 @@ Funziona con:
 
 Works with:
 
--   boolean objects
--   extruded objects (derived from the Part workbench)
--   revolved objects (derived from the Part workbench)
+-   Boolean objects
+-   Extruded objects (derived from the Part Workbench)
+-   Revolved objects (derived from the Part Workbench)
 
 
 <div class="mw-translate-fuzzy">

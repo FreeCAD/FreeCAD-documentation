@@ -15,7 +15,7 @@
 
 Le Filtre composé peut être utilisé pour extraire les différentes parties du résultat par exemple d\'une opération [Part Scinder](Part_Slice/fr.md) avec laquelle vous avez divisé un objet.
 
-Il peut extraire les formes enfants à l\'aide de leurs index, les tester pour détecter les collisions avec la forme du pochoir et les filtrer en fonction de leurs propriétés, telles que la longueur, la surface, le volume.
+Il peut extraire les formes enfants à l\'aide de leurs index, les tester pour détecter les collisions avec la forme du gabarit et les filtrer en fonction de leurs propriétés, telles que la longueur, la surface, le volume.
 
 S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfant. S\'il y a plus d\'un enfant à générer, le résultat est un nouveau composé.
 
@@ -41,33 +41,33 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 
 ## Propriétés
 
--    **Base**: Objet à filtrer.
+-    **Base**: objet à filtrer.
 
--    **Type de filtre**options sélectionnables:
+-    **Filter Type**options sélectionnables:
 
     -   contourne; pas de filtre. Le composé d\'origine est sorti, inchangé.
     -   éléments spécifiques ; extraire les éléments listés dans la propriété \"items\"
-    -   collision-pass; extraire les morceaux qui se touchent ou se croisent avec la forme « pochoir ».
-    -   volume de la fenêtre (par défaut) ; extraire toutes les pièces dont le volume est compris entre \"Fenêtre de\" et \"Fenêtre vers\", où 100% est la pièce la plus grosse - et non l\'objet non découpé. La valeur de 100% est une valeur de référence qui peut être remplacée par \"OverrideMaxVal\".
-    -   zone de la fenêtre ; identique à window-volume où la zone découpée détermine la sélection au lieu du volume.
-    -   longueur de la fenêtre ; identique à window-volume où la longueur des bords détermine la sélection à la place du volume.
-    -   distance de la fenêtre ; extraire les enfants dont la distance à la forme \'Stencil\' est dans la fenêtre de valeur, définie par les propriétés \"WindowFrom\", \"WindowTo\", \"OverrideMaxVal\".
+    -   collision-pass; extraire les morceaux qui se touchent ou se croisent avec la forme \"gabarit\".
+    -   volume de la fenêtre (par défaut); extraire toutes les pièces dont le volume est compris entre \"Fenêtre de\" et \"Fenêtre vers\", où 100% est la pièce la plus grosse - et non l\'objet non découpé. La valeur de 100% est une valeur de référence qui peut être remplacée par \"OverrideMaxVal\".
+    -   zone de la fenêtre; identique à window-volume où la zone découpée détermine la sélection au lieu du volume.
+    -   longueur de la fenêtre; identique à window-volume où la longueur des bords détermine la sélection à la place du volume.
+    -   distance de la fenêtre; extraire les enfants dont la distance à la forme \"Stencil\" est dans la fenêtre de valeur, définie par les propriétés \"WindowFrom\", \"WindowTo\", \"OverrideMaxVal\".
 
 -    **Invert**: s\'il est défini sur true, la liste décrite ci-dessus est exclue au lieu d\'être incluse.
 
 -    **Override Max Val**: la plage de la fenêtre de valeurs est définie en pourcentage de la valeur maximale. La valeur maximale est calculée en fonction des règles suivantes :
 
-    -   si \'OverrideMaxVal\' est différent de zéro, utilisez-le.
-    -   sinon, si le lien \'Stencil\' est fourni - calcule la valeur correspondante de la forme du stencil (ne s\'applique pas à la distance de fenêtre \'FilterType\')
+    -   si \"OverrideMaxVal\" est différent de zéro, utilisez-le.
+    -   sinon, si le lien \"Stencil\" est fourni - calcule la valeur correspondante de la forme du stencil (ne s\'applique pas à la distance de fenêtre \"FilterType\")
     -   sinon, prenez la valeur maximale pour les enfants du composé à filtrer.
 
--    **Stencil**: Lien vers une forme de gabarit. Pour les types de filtres de type collision-pass et fenêtre-distance, le gabarit est l\'objet contre lequel tester la collision / la distance. Pour les autres types de filtres \"fenêtre - \*\*\*\", le gabarit sert à fournir une valeur de référence pour les pourcentages de fenêtre (remplacement de la valeur maximale). Dans tous les autres modes, « Stencil » est ignoré.
+-    **Stencil**: lien vers une forme de gabarit. Pour les types de filtres de type collision-pass et fenêtre-distance, le gabarit est l\'objet contre lequel tester la collision / la distance. Pour les autres types de filtres \"fenêtre - \*\*\*\", le gabarit sert à fournir une valeur de référence pour les pourcentages de fenêtre (remplacement de la valeur maximale). Dans tous les autres modes, \"Stencil\" est ignoré.
 
--    **Window From**: Pourcentage de seuil supérieur pour la sélection de pièces, 100% par rapport à la pièce la plus grande.
+-    **Window From**: pourcentage de seuil supérieur pour la sélection de pièces, 100% par rapport à la pièce la plus grande.
 
--    **Window To**: Pourcentage de seuil inférieur pour la sélection de pièces, 100% est relatif à la plus grande pièce.
+-    **Window To**: pourcentage de seuil inférieur pour la sélection de pièces, 100% est relatif à la plus grande pièce.
 
--    **items**: Liste ou plage d\'éléments à sélectionner si le type de filtre est \"éléments spécifiques\".
+-    **items**: liste ou plage d\'éléments à sélectionner si le type de filtre est \"éléments spécifiques\".
 
 
 

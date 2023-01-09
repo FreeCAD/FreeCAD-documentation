@@ -61,7 +61,13 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

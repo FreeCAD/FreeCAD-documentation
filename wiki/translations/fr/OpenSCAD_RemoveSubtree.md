@@ -14,8 +14,8 @@ Supprime les objets sélectionnés et tous les enfants qui ne sont pas référen
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet(s) à effacer.
-2.  Cliquez sur <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> ou choisissez ** OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.svg" width=32px> Supprimer les objets et leurs enfants** à partir du menu principal.
+1.  Sélectionner l\'objet(s) à effacer.
+2.  Cliquer sur <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> ou choisissez **OpenSCAD** → **<img src="images/OpenSCAD_RemoveSubtree.svg" width=32px> Supprimer les objets et leurs enfants** à partir du menu principal.
 
 ## Limitations
 

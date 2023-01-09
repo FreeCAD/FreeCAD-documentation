@@ -1,60 +1,40 @@
-# Part ShapeFromMesh/it
 ---
-- GuiCommand:/it   Name:Part ShapeFromMesh   Name/it:‏‎Crea forma da mesh   MenuLocation:Part → Crea forma da mesh...   Workbenches:[SeeAlso:[[Part_MakeSolid/it|Converti in solido](Part_Workbench/it___Part]].md), [Affina forma](Part_RefineShape/it.md), [Crea punti da mesh](Part_PointsFromMesh/it.md)---
+- GuiCommand:/it
+   Name:Part ShapeFromMesh
+   Name/it:‏‎Crea forma da mesh
+   MenuLocation:Part → Crea forma da mesh...
+   Workbenches:[Part](Part_Workbench/it.md)
+   SeeAlso:[Converti in solido](Part_MakeSolid/it.md), [Affina forma](Part_RefineShape/it.md), [Crea punti da mesh](Part_PointsFromMesh/it.md)
+---
 
-
-</div>
-
-## Introduction
-
-
-<div class="mw-translate-fuzzy">
+# Part ShapeFromMesh/it
 
 ## Introduzione
 
-Questo comando crea una forma da un [oggetto mesh](Glossary#Mesh.md). In FreeCAD gli oggetti mesh hanno limitate capacità di editing, convertendoli in forme permette di utilizzarli con molti più strumenti (vedere anche le [Note](#Note.md)).
+Il comando **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** crea una forma da un [oggetto mesh](Mesh/it.md). In FreeCAD gli oggetti mesh hanno limitate capacità di editing, convertendoli in [forme](Shape/it.md) permette di utilizzarli con molti più strumenti di modifica e booleani.
 
-
-</div>
-
-The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+L\'operazione inversa è **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh da forma](Mesh_FromPartShape/it.md)** dal <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench/it.md).
 
 ## Utilizzo
 
-1.  Selezionare un oggetto mesh.
-2.  Scegliere **Part → <img src="images/Part_ShapeFromMesh.svg" width=16px> Crea forma da mesh** dal menu in alto.
-3.  Un menu pop-up chiede di definire la tolleranza per la chiusura (valore di default: 0,1)
-4.  Dall\'oggetto mesh viene creato un nuovo oggetto forma indipendente.
+1.  Selezionare un oggetto mesh nella [Vista ad albero](tree_view/it.md)\...
+2.  Andare nel menu **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Crea forma da mesh**.
+3.  Un menu pop-up chiede di definire la tolleranza per la chiusura; il valore di default è {{Value|0.1}}
+4.  Dall\'oggetto mesh viene creato un nuovo oggetto [forma](Shape/it.md) indipendente.
 
+L\'analisi e la riparazione della mesh, se necessario, devono essere eseguite manualmente prima di lanciare **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Crea forma da mesh](Part_ShapeFromMesh/it.md)**. Gli strumenti appropriati per questa attività sono disponibili in <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench/it.md).
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Limitazioni
-
-Non sono disponibili l\'analisi e la convalida dell\'oggetto mesh.
-
-
-</div>
-
-After creation of a [Shape](Shape.md), it may be useful to use **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
+Dopo la creazione di una [Forma](Shape/it.md), può essere utile utilizzare **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Converti in solido](Part_MakeSolid/it.md)** (necessario per [operazioni booleane](Part_Boolean/it.md)) e **[<img src=images/Part_RefineShape.svg style="width:16px"> [Affina una forma](Part_RefineShape/it.md)**.
 
 ## Links
 
 -   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
 
-## Script
+## Scripting
 
-Creating a [Shape](Shape.md) from a [Mesh](Mesh.md) can be done by using the `makeShapeFromMesh` method from a [Part TopoShape](Part_TopoShape.md); you need to specify the source mesh and tolerance, and assign the result to a new [Part Feature](Part_Feature.md) object.
+La creazione di una [Forma](Shape/it.md) da una [Mesh](Mesh/it.md) può essere eseguita utilizzando il metodo `makeShapeFromMesh` da una [Part TopoShape](Part_TopoShape/it.md); è necessario specificare la mesh e la tolleranza di origine e assegnare il risultato a un nuovo oggetto [Part Feature](Part_Feature/it.md).
 
-Notice that the mesh must be recalculated before it is converted to a Shape, otherwise there won\'t be topology information, and the conversion won\'t be successful.
+Si noti che la mesh deve essere ricalcolata prima di essere convertita in Shape, altrimenti non ci saranno informazioni sulla topologia e la conversione non avrà successo.
 
 
 ```python
@@ -74,15 +54,6 @@ solid.Placement.Base = App.Vector(15, 0, 0)
 solid.purgeTouched()
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

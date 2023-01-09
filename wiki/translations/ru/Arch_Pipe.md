@@ -46,7 +46,13 @@
 
 ![](images/Arch_pipe_example_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Теперь Оборудование имеет новое свойство **SnapPoints**, представляющее собой список трехмерных векторов. Это позволяет добавлять пользовательские точки привязки, к которым вы можете привязываться, когда включена кнопка привязки [Специальные](Draft_Snap_Special/ru.md). В настоящее время это свойство доступно только для Python. В приведенном выше примере я добавил новую точку привязки на выходе устройства wc. Внутренние векторы Точек Привязки отображаются на модели в виде белых точек:
+
+
+</div>
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
@@ -60,7 +66,13 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_04.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Теперь появился новый инструмент [Наклон](Draft_Slope/ru.md), который позволяет изменять наклон Линий, например, до 5% (0,05). Таким образом, мы можем быстро дать нашим линиям правильный уклон. Этот инструмент изменяет только координаты z, поэтому нам нужно только привязать их друг к другу, верхняя проекция останется неизменной.
+
+
+</div>
 
 ![](images/Arch_pipe_example_05.jpg )
 
@@ -76,6 +88,11 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 Также возможно создать Трубы без базовой линии, в этом случае используйте свойство «Length» для задания длины.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Программирование
 
 
@@ -83,7 +100,18 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-Инструмент Труба можно использовать в [макросах](macros/ru.md) и в консоли [Python](Python.md), используя следующую функцию: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Инструмент Труба можно использовать в [макросах](macros/ru.md) и в консоли [Python](Python.md), используя следующую функцию:
+
+
+</div>
+
+
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

@@ -3,13 +3,7 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Seite behandelt Beispiele auf mittlerer Stufe für die [PySide](PySide/de.md) GUI Verwalter (die begleitenden Seiten behandeln Aspekte, die sowohl weniger oder mehr fortgeschritten sind, [Anfänger PySide Beispiele](PySide_Beginner_Examples/de.md) und [Fortgeschrittene PySide Beispiele](PySide_Advanced_Examples/de.md)). Auf dieser Seite wird ein Beispielprogramm verwendet, um die verschiedenen PySide Themen zu behandeln. Es ist beabsichtigt, etwas funktionalen PySide Code vorzustellen, so dass jeder, der PySide benutzen muss, den entsprechenden Abschnitt herauskopieren, modifizieren und an seine eigenen Zwecke anpassen kann.
-
-
-</div>
+Diese Seite behandelt Beispiele auf mittlerer Stufe für die [PySide](PySide/de.md)-GUI-Verwalter (die begleitenden Seiten behandeln Aspekte, die sowohl weniger oder weiter fortgeschritten sind, [PySide-Beispiele für Anfänger](PySide_Beginner_Examples/de.md) und [PySide-Beispiele für Fortgeschrittene](PySide_Advanced_Examples/de.md)). Auf dieser Seite wird ein Beispielprogramm verwendet, um die verschiedenen PySide-Themen zu behandeln. Es ist beabsichtigt, etwas funktionalen PySide-Code vorzustellen, so dass jeder, der PySide benutzen muss, den entsprechenden Abschnitt herauskopieren, modifizieren und an seine eigenen Zwecke anpassen kann.
 
 ### Hinweise
 

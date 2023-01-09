@@ -1,35 +1,25 @@
 ---
 - GuiCommand:/de
    Name:PartDesign AdditivePipe
-   Name/de:PartDesign AdditiveAusformung
-   MenuLocation:Part Design → Additive Ausformung
+   Name/de:PartDesign RohrHinzufügen
+   MenuLocation:Part Design → Objekt hinzufügen → Rohr
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
+   SeeAlso:[PartDesign AustragungHinzufügen](PartDesign_AdditiveLoft/de.md), [PartDesign RohrAbziehen](PartDesign_SubtractivePipe/de.md)
 ---
 
 # PartDesign AdditivePipe/de
 
-
-</div>
-
 ## Beschreibung
 
-**Additives Rohr**erstellt einen Volumenkörper im aktiven Bauteil, indem eine oder mehrere Skizzen (auch als Querschnitte bezeichnet) entlang eines offenen oder geschlossenen Pfads verschoben werden. Wenn das Bauteil bereits Formelemente enthält, wird das additive Rohr mit ihnen zusammengeführt.
+**RohrHinzufügen** erstellt einen Volumenkörper im aktiven Bauteil, indem eine oder mehrere Skizzen (auch als Querschnitte bezeichnet) entlang eines offenen oder geschlossenen Pfads verschoben werden. Wenn das Bauteil bereits Formelemente enthält, wird das Rohr (AdditivePipe-Objrkt) mit ihnen vereinigt.
 
-![](images/PartDesign_AdditivePipe_example.svg )
-
-
-<div class="mw-translate-fuzzy">
-
-*Links: Querschnittskizze (A) wird über die Pfadskizze (C) in die Querschnittskizze (C) ausgetragen; rechts das daraus resultierende Rohr.*
-
-
-</div>
+![](images/PartDesign_AdditivePipe_example.svg ) 
+*Links: Querschnitt (A) wird entlang des Pfades (C) in den Querschnitt (B) überführt. Rechts: Das Ergebnis, ein AdditivePipe-Objekt.*
 
 ## Anwendung
 
-Das obige Beispielbild zeigt zwei verschiedene Querschnittsformen. Im folgenden Text wird das Verfahren nur mit einer einzigen Form beschrieben. Dadurch wird ein Teil mit dem gleichen Querschnitt entlang des gesamten Pfades erreicht.
+Das obige Beispielbild zeigt zwei verschiedene Querschnittsformen. Im folgenden Text wird das Verfahren mit nur einer einzigen Form beschrieben. Das ergibt ein Teil mit dem gleichen Querschnitt entlang des gesamten Pfades.
 
 
 <div class="mw-translate-fuzzy">
@@ -64,12 +54,12 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 </div>
 
-## Options
+## Optionen
 
 
 <div class="mw-translate-fuzzy">
 
-## Optionen
+## Optionen 
 
 \'\'\'Abschnitt Transformation\"\':
 
@@ -124,7 +114,7 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 -    {{PropertyData/de|Transformation}}: *Constant* verwendet einen einzelnen Querschnitt. *Multisection* verwendet zwei oder mehr Querschnitte. *Linear*, *S-Form* und *Interpolation* sind zur Zeit nicht funktionsfähig.
 
-## Notes
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">

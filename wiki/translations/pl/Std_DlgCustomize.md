@@ -1,32 +1,37 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std DlgCustomize
-   MenuLocation:Tools → Customize...
-   Workbenches:All
-   SeeAlso:[Interface Customization](Interface_Customization.md)
+   Name/pl:Std: Dostosuj
+   MenuLocation:Przybory → Dostosuj ...
+   Workbenches:wszystkie
+   SeeAlso:[Dostosowywanie interfejsu użytkownika](Interface_Customization/pl.md)
 ---
 
 # Std DlgCustomize/pl
 
-## Description
 
-The **Std DlgCustomize** command opens the Customize dialog box giving access to several customization options.
+
+## Opis
+
+Polecenie **Dostosuj** otwiera okno dialogowe Dostosuj dając dostęp do kilku opcji ustawień.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
 
-*The Customize dialog box*
+*Okienko dialogowe Dostosowywanie interfejsu*
 
-## Usage
 
-1.  The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
-2.  There are several ways to invoke the command:
-    -   Select the **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** option from the menu.
-    -   Right-click a toolbar area and choose **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** from the context menu.
-3.  The Customize dialog box opens. For more information see [Interface Customization](Interface_Customization#Options.md).
-4.  The **Help** button does not work at this time.
-5.  Press the **Close** button to close the dialog box.
+
+## Użycie
+
+1.  Polecenia dostępne w oknie dialogowym Dostosuj zależą od środowisk pracy, które zostały załadowane w bieżącej sesji programu FreeCAD. Należy więc najpierw załadować wszystkie środowiska pracy, do których poleceń chcemy mieć dostęp.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Wybierz z menu opcję **Przybory → <img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj ...**.
+    -   Kliknij prawym przyciskiem myszy obszar paska narzędzi i wybierz **<img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj ...** z menu kontekstowego.
+3.  Otwiera się okno dialogowe Dostosuj. Więcej informacji można znaleźć na stronie [Dostosowywanie interfejsu użytkownika](Interface_Customization/pl#Opcje.md).
+4.  Przycisk **Pomoc** nie działa w tym momencie.
+5.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
 
 

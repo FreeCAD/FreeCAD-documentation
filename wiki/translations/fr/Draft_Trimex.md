@@ -15,7 +15,7 @@
 La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Ajuster ou prolonger** [ajuste ou prolonge](#Ajuste_ou_prolonge.md) un objet sélectionné. Les intersections avec le bord d\'un autre objet peuvent être utilisées pour déterminer de nouveaux points d\'extrémité. La commande peut également être utilisée pour une [extrusion](#Extrusion.md) d\'une face, auquel cas elle crée un objet [Part Extrusion](Part_Extrude/fr.md).
 
 <img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
-*En haut : une Draft polyligne étendue puis ajustée. <br>En bas : une face extrudée dans un corps solide.*
+*En haut : une Draft polyligne étendue puis ajustée.<br>En bas : une face extrudée dans un corps solide.*
 
 ## Ajuste ou prolonge 
 

@@ -173,11 +173,17 @@ Acestea sunt instrumente suplimentare care vă ajută în îndeplinirea unor sar
 
 ### Formate de fișier 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC.md) : Industry foundation Classes
 -   [DAE](Arch_DAE.md) : Collada mesh format
 -   [OBJ](Arch_OBJ.md) : Obj mesh format (export only)
 -   [JSON](Arch_JSON.md) : JavaScript Object Notation format (export only)
 -   [3DS](Arch_3DS.md) : 3DS format (import only)
+
+
+</div>
 
 ## API
 

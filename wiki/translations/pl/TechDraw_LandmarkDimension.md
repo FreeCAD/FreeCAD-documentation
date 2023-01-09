@@ -10,30 +10,61 @@
 
 # TechDraw LandmarkDimension/pl
 
+
+</div>
+
+
+
 ## Opis
+
+
+<div class="mw-translate-fuzzy">
 
 Narzędzie Wymiar przestrzenny dodaje wymiar liniowy do widoku. Wymiar jest oparty na dwóch punktach **cecha** *(Draft.Point lub Part.Vertex)* z modelu 3D. Uwaga: punkty muszą być obiektami **cecha**, które występują w [widoku drzewa](Tree_view/pl.md) modelu. Losowe wierzchołki z kształtu nie będą odpowiednie.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Celem tego narzędzia jest zapewnienie obejścia problemu uszkodzenia wymiarów spowodowanego przez \"[Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)\". Punkty źródłowe powinny używać [Wyrażeń](Expressions/pl.md) lub innego mechanizmu wiążącego, aby ustalić ich położenie. Ponieważ punkty są [Obiektami dokumentu](App_DocumentObject/pl.md), a nie komponentami kształtu, ich nazwa nie zmienia się przy ponownych obliczeniach, a więc łatwo je znaleźć.
+
+
+</div>
 
 Zobacz stronę [Rysunek Techniczny: Wymiar długości](TechDraw_LengthDimension/pl#Ograniczenia.md) , aby dowiedzieć się więcej na temat wymiarów i nazewnictwa topologicznego.
 
 Wymiar przestrzenny generalnie zachowuje się jak każdy inny wymiar.
 
+
+
 ## Użycie
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wybierz dwa obiekty punktów w [widoku drzewa](Tree_view/pl.md) lub oknie [widoku 3D](3D_view/pl.md).
 2.  Wybierz również widok, do którego ma zostać dodany wymiar.
 3.  Naciśnij przycisk **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Wstaw wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md)** lub wybierz z menu **Rysunek Techniczny → Wymiary → Wstaw wymiar przestrzenny**.
 4.  Wymiar zostanie dodany do widoku. Tekst wymiaru może być przeciągany na żądaną pozycję.
 
+
+</div>
+
+
+
 ## Ograniczenia
 
 Narzędzie Wymiar przestrzenny jest początkowo zawężone do wymiarów \"Odległość\". Inne typy mogą być dodane, jeśli zapotrzebowanie na nie będzie uzasadnione.
 
+
+
 ## Właściwości
 
 Funkcja **Wymiar przestrzenny** nie wprowadza żadnych nowych właściwości.
+
+
 
 ## Tworzenie skryptów 
 

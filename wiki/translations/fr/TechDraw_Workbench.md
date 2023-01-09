@@ -15,6 +15,8 @@ Si votre objectif principal est la production de dessins 2D complexes et de fich
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
+
+
 ## Pages
 
 Ce sont les outils pour créer des objets Pages.
@@ -26,6 +28,8 @@ Ce sont les outils pour créer des objets Pages.
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Rafraîchir](TechDraw_RedrawPage/fr.md) : force la mise à jour de la page. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Tout imprimer](TechDraw_PrintAll/fr.md) : imprime toutes les pages d\'un document. {{Version/fr|1.0}}
+
+
 
 ## Vues
 
@@ -47,7 +51,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) : ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue d\'un objet Arch](TechDraw_ArchView/fr.md): ajoute une vue d\'un objet [Arch Plan de section](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue d\'un objet Arch](TechDraw_ArchView/fr.md): ajoute une vue d\'un objet [Arch Plan de coupe](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
 
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Vue d\'un objet Spreadsheet](TechDraw_SpreadsheetView/fr.md) : insère une vue d\'une feuille de calcul de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
 
@@ -56,6 +60,8 @@ Ce sont les outils pour créer des objets Vues.
 -   <img alt="" src=images/TechDraw_ShareView.svg  style="width:32px;"> [Copier une vue](TechDraw_ShareView/fr.md) : partager une vue entre plusieurs pages. {{Version/fr|0.20}}
 
 -   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:32px;"> [Projection de forme](TechDraw_ProjectShape/fr.md) : crée des projections de formes dans la [Vue 3D](3D_view/fr.md). {{Version/fr|0.20}}
+
+
 
 ## Empilement
 
@@ -71,6 +77,8 @@ Il s\'agit d\'outils permettant de modifier l\'ordre d\'empilement qui contrôle
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Empiler vers le bas](TechDraw_StackDown/fr.md) : déplace les vues vers le bas d\'un niveau dans l\'ordre d\'empilement. {{Version/fr|1.0}}
 
+
+
 ## Rognages
 
 Ce sont des outils pour créer et gérer des objets de Rognages (vues découpées).
@@ -80,6 +88,8 @@ Ce sont des outils pour créer et gérer des objets de Rognages (vues découpée
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Ajout vue à une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md) : ajoute une vue existante à une fenêtre de rognage.
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Suppression vue d\'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md) : supprime une vue d\'une fenêtre de rognage.
+
+
 
 ## Décorations
 
@@ -94,6 +104,8 @@ Ce sont les outils pour décorer l\'apparence des pages et des vues.
 -   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Image Bitmap](TechDraw_Image/fr.md) : insère une image PNG ou JPG [bitmap](bitmap/fr.md) dans une page.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Bascule des cadres](TechDraw_ToggleFrame/fr.md) : bascule l\'affichage des cadres et des étiquettes entourant une vue.
+
+
 
 ## Cotes
 
@@ -125,7 +137,7 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajout \"d\'infobulles\" dans la page. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Dimension de repère](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire à partir des points du repère. {{Version/fr|0.19}}
 
 ## Annotations
 
@@ -169,6 +181,8 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 Ce sont des outils pour améliorer vos dessins TechDraw.
 
+
+
 ### Caractéristiques et modifications 
 
 -   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md) : sélectionne les attributs (style, largeur et couleur) des nouvelles lignes cosmétiques et des lignes centrales, et spécifie l\'espacement en cascade et la distance delta. {{Version/fr|0.20}}
@@ -205,6 +219,8 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) : Personnalise le formatage du texte d\'une infobulle ou du texte d\'une cote. Des [symboles GD&T](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) et d\'autres caractères spéciaux peuvent être ajoutés. {{Version/fr|0.20}}
 
+
+
 ### Lignes centrales, filetage et taraudage 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des axes de centrage :
@@ -238,6 +254,8 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
   - <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Ligne parallèle](TechDraw_ExtensionLineParallel/fr.md) : dessine une ligne cosmétique parallèle à une autre ligne passant par un sommet. {{Version/fr|0.20}}
 
   - <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md) : dessine une ligne cosmétique perpendiculaire à une autre ligne passant par un sommet. {{Version/fr|0.20}}
+
+
 
 ### Cotes 
 
@@ -279,6 +297,8 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Moins de décimales](TechDraw_ExtensionDecreaseDecimal/fr.md) : diminue le nombre de décimales du texte de la cote. {{Version/fr|0.20}}
 
+
+
 ## Exportation
 
 Ce sont les outils pour exporter les pages vers d\'autre applications.
@@ -287,6 +307,8 @@ Ce sont les outils pour exporter les pages vers d\'autre applications.
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Sauvegarder au format DXF](TechDraw_ExportPageDXF/fr.md) : enregistre la page en cours sous forme de fichier [DXF](DXF/fr.md).
 
+
+
 ## Fonctions supplémentaires 
 
 -   [Groupes de lignes](TechDraw_LineGroup/fr.md) : pour contrôler l\'apparence de divers types de lignes.
@@ -294,9 +316,13 @@ Ce sont les outils pour exporter les pages vers d\'autre applications.
 -   [Hachures](TechDraw_Hatching/fr.md) : explication des différentes techniques de hachurage.
 -   [Dimensionnement géométrique et tolérancement.](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md): explication sur la façon de réaliser le dimensionnement géométrique et le tolérancement.
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Préférences](TechDraw_Preferences/fr.md) : préférences pour les valeurs par défaut de la page de dessin, telles que l\'angle de projection, les couleurs, la taille du texte et les styles de trait.
+
+
 
 ## Script
 
@@ -313,6 +339,8 @@ Les outils de TechDraw peuvent être utilisés dans des [macros](Macros/fr.md) e
 -   Il existe des différences mineures dans la spécification des textes modifiables dans les modèles [SVG](SVG/fr.md) par rapport au module Dessin. Dans TechDraw, la mise à l\'échelle du document SVG affecte la position des champs de texte modifiables. Voir la discussion du forum [échelle des modèles TechDraw](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) pour plus de détails.
 -   Ne coupez pas, ne copiez pas et ne collez pas d\'objets TechDraw dans la [Vue en arborescence](Tree_view/fr.md) car cela ne fonctionne généralement pas bien.
 -   Ne faites pas glisser les objets TechDraw dans la [Vue en arborescence](Tree_view/fr.md) avec la souris.
+
+
 
 ## Tutoriels
 

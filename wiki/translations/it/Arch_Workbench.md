@@ -163,12 +163,18 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 ### Formati dei file 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC/it.md): Industry foundation classes
 -   [DAE](Arch_DAE/it.md): Formato mesh Collada
 -   [OBJ](Arch_OBJ/it.md): Formato mesh Obj (solo esportazione)
 -   [JSON](Arch_JSON/it.md): Formato JavaScript Object Notation (solo esportazione)
 -   [3DS](Arch_3DS/it.md): Formato 3DS (solo importazione)
 -   [SHP](Arch_SHP/it.md): GIS Shapefiles (solo importazione)
+
+
+</div>
 
 ## API
 

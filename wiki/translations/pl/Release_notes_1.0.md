@@ -19,44 +19,57 @@ Starsze uwagi na temat wydania FreeCAD można znaleźć na stronie [Lista funkcj
 
 Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokazowej użytkowników](https://forum.freecadweb.org/viewforum.php?f=24).
 
+
+
 ## Informacje ogólne 
 
+
+
 ## Interfejs użytkownika 
+
+   
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Ściany narożników kostki nawigacyjnej są teraz sześciokątne i większe, dzięki czemu łatwiej je kliknąć. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+   
 
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Styl wyświetlania wyników [pomiarów](Part_Module/pl#Pomiary.md) utworzonych przy użyciu środowiska [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) może być teraz zmieniony w [preferencjach](PartDesign_Preferences/pl#Pomiary.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
 
    
-  <img alt="" src=images/DlgDisplayProperties_relnotes_1.0.png  style="width:200px;">   Panel zadań [wygląd zewnętrzny](Std_SetAppearance/pl.md) posiada teraz również przycisk do ustawiania właściwości Kolor punktu. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
-   
-
-   
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width:300px;">   Pole wyboru środowiska pracy może być teraz opcjonalnie umieszczone na pasku menu zamiast w obszarze paska narzędzi. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
    
 
-   
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Ściany narożników kostki nawigacyjnej są teraz sześciokątne i większe, dzięki czemu łatwiej je kliknąć. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
-   
+
 
 ### Planowane ulepszenie dla interfejsu użytkownika 
 
--   Możliwe jest teraz ustawienie domyślnej przezroczystości dla nowych obiektów środowiska [Część](Part_Module/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) w [preferencjach](PartDesign_Preferences/pl.md). [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103).
 -   Przycisk <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> [Tryb Edycji](Std_UserEditMode/pl.md) został usunięty ze standardowego paska narzędzi. Może zostać ponownie dodany przez [dostosowanie](Std_DlgCustomize/pl.md) Twojego paska narzędzi.[Pull request #7570](https://github.com/FreeCAD/FreeCAD/pull/7570)
 -   Przyciski <img alt="" src=images/Std_Print.svg  style="width:24px;"> [Drukuj](Std_Print/pl.md), <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Kopiuj](Std_Copy/pl.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Wklej](Std_Paste/pl.md) i <img alt="" src=images/Std_Cut.svg  style="width:24px;"> [Wytnij](Std_Cut/pl.md) zostały usunięte ze standardowego paska narzędzi. Mogą zostać ponownie dodane przez [dostosowanie](Std_DlgCustomize/pl.md) Twojego paska narzędzi.[Pull request #7571](https://github.com/FreeCAD/FreeCAD/pull/7571) i [commit ea9a04e](https://github.com/FreeCAD/FreeCAD/commit/ea9a04e).
 -   Dodano polecenia [Zachowaj widok](Std_StoreWorkingView/pl.md) i [Odtwórz widok](Std_RecallWorkingView/pl.md) dla tymczasowego widoku roboczego. [Pull request #7525](https://github.com/FreeCAD/FreeCAD/pull/7525)
 -   Zmiany wartości za pomocą kółka myszy w \"polach wejściowych\" *(typ widżetu używany do wprowadzania wartości w panelach zadań, na przykład przez [Linia](Draft_Line/pl.md))* środowiska Rysunek Roboczy są wyłączone, jeśli widżet nie jest aktywny i przełącznik [ComboBoxWheelEventFilter](Fine-tuning/pl.md) jest włączony. Dzięki temu unikniemy niechcianych zmian wartości podczas przewijania, co już miało miejsce w przypadku pól typu spinner i combo. [Pull request #7561](https://github.com/FreeCAD/FreeCAD/pull/7561)
+-   Możliwe jest teraz ustawienie domyślnej przezroczystości dla nowych obiektów środowiska [Część](Part_Module/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) w [preferencjach](PartDesign_Preferences/pl.md). [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103).
+-   Pojawił się nowy styl orbitalny **Free Turntable**. Można go włączyć w [ustawianiach](Preferences_Editor/pl#Nawigacja.md) lub naciskając przycisk **[<img src=images/NavigationCAD_dark.svg style="width:16px">** [Paska statusu](Status_bar/pl.md), a następnie korzystając z menu **Ustawienia → Technika orbitalna**). [Pull Request #8048](https://github.com/FreeCAD/FreeCAD/pull/8048)
+-   Panel zadań [Wygląd zewnętrzny](Std_SetAppearance/pl.md) ma teraz także przycisk do ustawiania właściwości Kolor punktu. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
+-   Dodano przycisk do przełączania kolorów gradientu tła okna [widoku 3D](3D_view/pl.md) w [Ustawieniach](Preferences_Editor/pl#Kolory.md). [Pull request #7155](https://github.com/FreeCAD/FreeCAD/pull/7155)
 -   Wszystkie ustawienia przezroczystości używają teraz jednolitego kroku przycisku typu spin o wartości 5%: Jedno kliknięcie przycisku w oknie dialogowym lub [Edytorze właściwości](Property_editor/pl.md) zmienia przezroczystość o 5%. Trzymaj przycisk wciśnięty, aby zmienić wartość o kilka kroków 5% jednocześnie. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
--   Dodano przycisk do przełączania kolorów gradientu tła okna [widoku 3D](3D_view/pl.md) w [Ustawieniach](Preferences_Editor/pl#Kolory.md). [Pull request #7155](https://github.com/FreeCAD/FreeCAD/pull/7155).
+-   Okno wyjściowe zostało przemianowane na widok raportu dla ujednolicenia z UI. [Pull Request #7739](https://github.com/FreeCAD/FreeCAD/pull/7739)
+
+
 
 ## System podstawowy i API 
 
+
+
 ### Rdzeń programu 
+
+
 
 ### API
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Nowe skrypty Python 
 
@@ -87,6 +100,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 </div>
 
+
+
 #### Usunięte skrypty API 
 
 -   *FreeCAD.EndingAdd*: zastąpiony przez *FreeCAD.addImportType*. [Pull request #7167](https://github.com/FreeCAD/FreeCAD/pull/7167)
@@ -95,13 +110,21 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 </div>
 
+
+
 ## Menadżer dodatków 
 
+
+
 ## Środowisko pracy Architektura 
+
+
 
 ### Planowane ulepszenie dla środowiska Architektura 
 
 -   Obiekty [Profilu](Arch_Profile/pl.md) obsługują teraz modyfikację typu profilu po jego utworzeniu. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+
+
 
 ## Środowisko pracy Rysunek Roboczy 
 
@@ -109,17 +132,23 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Aby ułatwić pracę z [warstwami](Draft_Layer/pl.md) zmodyfikowano ich zachowanie podczas przeciągania i upuszczania. Jeśli upuścisz obiekt z [grupy](Std_Group/pl.md) lub obiekt podobny do grupy, taki jak [Część budowli - piętro](Arch_BuildingPart/pl.md) środowiska Architektura, na warstwę, nie zostanie on już usunięty z grupy i odwrotnie. Działa to bez przytrzymywania klawisza **Ctrl**. [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
 -   Polecenie [Szyk punktów](Draft_PointArray/pl.md) obsługuje teraz więcej typów obiektów punktowych. Można użyć dowolnego obiektu o kształcie i wierzchołkach, a także [siatki](Mesh_Workbench/pl.md) i [chmury punktów](Points_Workbench/pl.md). [Żądanie ściągnięcia #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
 
+
+
 ### Planowane ulepszenie dla środowiska Rysunek Roboczy 
 
 -   Naprawiono kilka problemów związanych z [Szyk po ścieżce](Draft_PathArray/pl.md). [Pull request #7506](https://github.com/FreeCAD/FreeCAD/pull/7506) oraz [Pull request #7662](https://github.com/FreeCAD/FreeCAD/pull/7662).
 -   Polecenie [Edycja](Draft_Edit/pl.md) otrzymało kilka ulepszeń. Dla [linii łamanej](Draft_Wire/pl.md), [krzywej złożonej](Draft_BSpline/pl.md) i [krzywej Béziera](Draft_BezCurve/pl.md) dodano opcję Zamknij / Otwórz do menu podręcznego krawędzi. W przypadku krzywych złożonych i krzywych Béziera do tego samego menu dodano również opcję Odwróć. Panele zadań zostały wyczyszczone. [Żądanie ściągnięcia #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) i [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541).
 -   Pasek narzędzi [Przyciągania](Draft_Snap/pl.md) został zmieniony na standardowy pasek narzędzi. Skróty klawiaturowe mogą być teraz przypisane do narzędzi przyciągania. Ale używanie ich podczas polecenia działa tylko wtedy, gdy żadne z pól wejściowych w panelu zadań nie jest aktywne, ponieważ \"łapią\" one tak zwane skróty wewnątrz polecenia. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
 
+
+
 ## Środowisko pracy MES 
 
    
   <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Wynik symulacji, w której widocznych jest osiem obszarów siatki *(jeden na każdy użyty rdzeń CPU)*.   Możliwe jest teraz uruchomienie solvera [Elmer](FEM_SolverElmer/pl.md) przy użyciu wielu rdzeni procesora. Więcej informacji o zastrzeżeniach można znaleźć w [tym wątku na forum](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617). [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
    
+
+
 
 ### Planowane ulepszenie dla środowiska MES 
 
@@ -129,19 +158,33 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Critical Strain Ratio został dodany do potoku wyników VTK. Daje wskazanie rozerwania ciągliwego dla materiałów z obiektem „MaterialMechanicalNonlinear". [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
 -   Narzędzie <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md) umożliwia określenie skali deformowanej siatki przy użyciu środowiska Python. [Wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) oraz [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715).
 
+
+
 ## Eksport
 
+
+
 ## Środowisko pracy Siatka 
+
+
 
 ### Planowane ulepszenie dla środowiska Siatka 
 
 -   Wsparcie dla dodawania przezroczystości do siatki. [temat na Forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=72531) oraz [Commit f88305e](https://github.com/FreeCAD/FreeCAD/commit/f88305e)
 
+
+
 ## Planowane ulepszenie dla środowiska OpenSCAD 
+
+
 
 ## Środowisko pracy Część 
 
+
+
 ### Planowane ulepszenie dla środowiska Część 
+
+
 
 ## Środowisko pracy Projekt Części 
 
@@ -150,11 +193,15 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
                                                                                                                                        
    
 
+
+
 ### Planowane ulepszenia dla środowiska Projekt Części 
 
 -   W oknie dialogowym [Otwór](PartDesign_Hole/pl.md) usunięto przestarzałe typy łbów śrub *(łeb serowy, śruba kapiszonowa itp.)*. Były one przestarzałe od wersji FreeCAD 0.19. Otwory wykorzystujące te typy są przekształcane w niestandardowe pogłębiacze/otwory o średnicy i głębokości używanej przez typy. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   Polecenie [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md) zostało dodane do paska narzędzi Helper. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   Usunięto z menu nieużyteczne polecenia [Zamknij edycje szkicu](Sketcher_LeaveSketch/pl.md) i [Widok szkicu](Sketcher_ViewSketch/pl.md). Polecenia [Edycja szkicu](Sketcher_EditSketch/pl.md), [Łączenie szkiców](Sketcher_MergeSketches/pl.md) i [Odbicie lustrzane szkicu](Sketcher_MirrorSketch/pl.md) zostały dodane do menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+
+
 
 ## Środowisko pracy Path 
 
@@ -164,7 +211,11 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 -   Zaimplementowana opcja łamania wiórów dla cykli wiercenia w stylu dziobania. Łamanie wiórów emituje cykl **G73**, który powoduje, że kontroler wykonuje bardzo mały ruch wycofania, aby złamać wiór bez pełnego wycofania wiertła z otworu. G73 jest obsługiwany natywnie przez środowisko LinuxCNC. Inne postprocesory będą musiały interpretować G73 i emitować odpowiednie kody kontroli lub dekomponować retrakcję na ruchy G1/G0. Wsparcie postprocesora dla dekompozycji G73 została dodana do „refaktoryzowanych" postprocesorów.[Pull request #7469](https://github.com/FreeCAD/FreeCAD/pull/7469)
 
+
+
 ## Środowisko pracy Plot 
+
+
 
 ## Środowisko pracy Szkicownik 
 
@@ -195,6 +246,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
                                                                                                                                                             
    
 
+
+
 ### Planowane ulepszenia dla środowiska Szkicownik 
 
 -   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
@@ -207,9 +260,15 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md) może teraz działać jako wiązanie koncentryczne podczas wybierania 2 lub więcej okręgów, łuków, elips lub łuków elips. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
 -   [Kalka techniczna](Sketcher_CarbonCopy/pl.md), jeśli to możliwe, używa teraz nazw wiązań w tworzonych przez siebie wyrażeniach zamiast odniesienia opartego na indeksie, dzięki czemu jest bardziej niezawodny. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
+
+
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
+
+
 ### Planowane ulepszenia dla środowiska Arkusz Kalkulacyjny 
+
+
 
 ## Środowisko pracy Rysunek Techniczny 
 
@@ -218,6 +277,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
   <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               Dodano narzędzie [Przekrój złożony](TechDraw_ComplexSection/pl.md). [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
+
+
 
 ### Planowane ulepszenia środowiska Rysunek Techniczny 
 
@@ -235,19 +296,35 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 DrawViewPart::replaceCenterLine, DrawViewPart::replaceCosmeticEdge, DrawViewPart::replaceCosmeticVertex oraz DrawViewPart::replaceGeomFormat.
 
+
+
 ## Środowisko pracy Web 
 
-## Zewnętrzne Środowiska pracy 
+
+
+## Zewnętrzne środowiska pracy 
+
+
 
 ### Środowisko pracy A2plus 
 
+
+
 ### Środowisko pracy Złożenie 3 
+
+
 
 ### Środowisko pracy Złożenie 4 
 
+
+
 ### FCGear
 
+
+
 ### Środowisko pracy Statek 
+
+
 
 ## Kompilacja
 
@@ -261,11 +338,17 @@ Obsługiwane systemy operacyjne:
 -   MacOS: wersja minimalna 10.12 Sierra lub nowszy,
 -   Windows 7, 8, 10 i 11
 
+
+
 ## Znane ograniczenia 
+
+
 
 ### Windows 32bit 
 
 Już od wersji 0.19 FreeCAD oficjalnie nie obsługuje 32-bitowych systemów Windows. Może działać na nich, ale nie zapewniamy wsparcia dla tych systemów.
+
+
 
 ### Pulpit zdalny w systemie Windows 
 
@@ -273,6 +356,8 @@ W zależności od możliwości graficznych OpenGL komputera, może się zdarzyć
 
 -   Pobierz [bibliotekę OpenGL](https://downloads.fdossena.com/geth.php?r=mesa64-latest) dla 64-bitowego systemu Windows i rozpakuj ją.
 -   Zmień nazwę pliku DLL na *opengl32sw.dll* i skopiuj go do podfolderu *bin* w folderze instalacyjnym FreeCADa (nadpisz tam istniejącą bibliotekę DLL).
+
+
 
 ### MacOS: Środowisko pracy Start pokazuje pustą stronę 
 

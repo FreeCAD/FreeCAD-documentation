@@ -1,6 +1,8 @@
 # Download/pt-br
 {{TOCright}}
 
+
+
 ## Versão estável atual 
 
 
@@ -32,7 +34,7 @@ Versões anteriores podem ser baixadas a partir da página [releases](https://gi
 |                                                                                                                        |                                                                                                                                    |                                                    |
 | [Install on Windows](Installing_on_Windows.md)                                                                 | [Install on Mac](Installing_on_Mac.md)                                                                                     | [Install on Linux](Installing_on_Linux.md) |
 |                                                                                                                        |                                                                                                                                    |                                                    |
-| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD-0.20.1-WIN-x64-installer-1.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD_0.20-1-2022-08-20-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
+| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-2.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
 ++++
 
 
@@ -56,6 +58,8 @@ Mac OS X 10.12 *Sierra* é a versão mínima compatível.
 
 
 </div>
+
+
 
 ### Notas para usuários GNU/Linux 
 
@@ -100,6 +104,8 @@ O desenvolvimento do FreeCAD está ativo.
 
 
 </div>
+
+
 
 ## Módulos e macros adicionais 
 

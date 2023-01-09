@@ -11,13 +11,24 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 L\'outil <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> 
 **TechDraw Cote de longueur** ajoute une dimension linéaire à une vue. La dimension peut être la distance entre deux sommets, la longueur d\'un bord ou la distance entre deux arêtes. La dimension sera initialement la distance projetée (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle en utilisant l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Dimension de longueur prise à partir de deux nœuds arbitraires de la vue*
 
+
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
 2.  Il existe plusieurs façons de lancer l\'outil :
@@ -26,13 +37,20 @@ L\'outil <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;
 3.  Une dimension sera ajoutée à la vue. La dimension peut être déplacée à la position désirée.
 4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
 
+
+</div>
+
 Pour modifier les propriétés d\'un objet de dimension, double-cliquez dessus dans le dessin ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira le dialogue Dimension:
+
+
 
 ## Boîte de dialogue Dimension 
 
 La boîte de dialogue des dimensions propose les paramètres suivants :
 
 ![](images/TechDraw_DimensionDialog.png )
+
+
 
 ### Tolérances
 
@@ -43,6 +61,8 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 -   **Tolérance supérieure**: La valeur de combien la dimension peut être plus grande.
 
 -   **Tolérance inférieure**: La valeur de combien la dimension peut être plus petite.
+
+
 
 ### Mise en forme 
 
@@ -56,6 +76,8 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 -   **Tolérance du texte arbitraire**: Si coché, les tolérances sont remplacées par le contenu des champs **Précision de la tolérance supérieure** **Précision de la tolérance inférieure**.
 
+
+
 ### Style d\'affichage 
 
 -   **Inverser les flèches**: Inverse la direction dans laquelle les flèches de la ligne de cote pointent. Par défaut, elles sont à l\'intérieur de la ligne de cote/de l\'arc et pointent vers l\'extérieur.
@@ -65,6 +87,8 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 -   **Taille de la police**: La taille du texte de la cote.
 
 -   **Style de représentation**: La norme (et son style) selon laquelle la cote est dessinée. Voir la propriété [**Norme et style**](#Vue.md) pour plus de détails.
+
+
 
 ### Lignes
 
@@ -82,12 +106,19 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 -   **Utiliser la sélection** : Définit l\'angle de la ligne d\'extension pour qu\'il corresponde à l\'angle de l\'arête sélectionnée (ou de 2 sommets) dans la vue.
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
 
 {{Properties_Title|Base}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **X**: position horizontale du texte de la cotation en mm par rapport à la vue.
 
@@ -151,6 +182,9 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
         \- la valeur inversée est utilisée. Pour la longueur un nombre négatif, pour l\'angle la valeur du réflexe (180° à 360°).
 
 
+</div>
+
+
 {{Properties_Title|Format}}
 
 -    **Format Spec**: comment la valeur de dimension sera formatée. Voir [Mise en forme](#Mise_en_forme.md).
@@ -195,6 +229,8 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 -    **LineAngle**: angle de la ligne de cote avec l\'axe X de la vue (en degrés).
 
 -    **ExtensionAngle**: angle de la ou des lignes d\'extension avec l\'axe X de la vue (en degrés).
+
+
 
 ### Vue
 
@@ -265,6 +301,8 @@ Les objets de dimension sont vulnérables au \"[Problème de dénomination topol
 
 Cela signifie qu\'en général, il n\'est pas possible de garder les cotes 2D projetées synchronisées avec les objets 3D réels si ceux-ci sont modifiés.
 
+
+
 ### Procédure
 
 Si vous souhaitez conserver une vue TechDraw avec des dimensions inaltérables, vous devez dimensionner un objet qui ne changera pas.
@@ -274,6 +312,8 @@ Si vous souhaitez conserver une vue TechDraw avec des dimensions inaltérables, 
 -   Si le modèle 3D d\'origine est modifié, les modifications n\'affecteront pas la copie simple ni les dimensions de la vue TechDraw.
 
 Voir [TechDraw Dimension de repère](TechDraw_LandmarkDimension/fr.md) pour une autre approche pour contourner le problème de dénomination topologique.
+
+
 
 ## Script
 
@@ -288,6 +328,8 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
+
+
 
 ## Remarques
 

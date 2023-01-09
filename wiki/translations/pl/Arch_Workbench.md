@@ -165,7 +165,7 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
 -   [IFC](Arch_IFC.md) : Industry foundation Classes.
 -   [DAE](Arch_DAE.md) : format Collada dla siatek.
--   [OBJ](Arch_OBJ.md) : format Obj dla siatek *(tylko eksport)*.
+-   [OBJ](Arch_OBJ.md) : format OBJ dla siatek *(tylko eksport)*.
 -   [JSON](Arch_JSON.md) : format zapisu obiektu w JavaScript *(tylko eksport)*.
 -   [3DS](Arch_3DS.md) : format 3DS *(tylko import)*.
 -   [SHP](Arch_SHP.md): GIS Shapefiles *(tylko import)*.

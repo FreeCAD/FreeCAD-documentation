@@ -88,22 +88,16 @@ Wenn angehakt, wird die Länge der Aufpolsterung entlang der Skizzennormalen gem
 
 ### Symmetrisch zur Ebene 
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Option extrudiert die Gesamtlänge exakt hälftig in beide Richtungen.
-
-
-</div>
+Diese Option extrudiert jeweils die halbe Gesamtlänge auf beiden Seiten der Skizze oder Ebene.
 
 ### Umgekehrt
 
 Kehrt die Extrusionsrichtung um.
 
-### Taper angle 
+### Schrägungswinkel
 
 
-<small>(v0.20)</small> 
+{{Version/de|0.20}}
 
 Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
@@ -112,14 +106,14 @@ Limitations:
 -   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
 -   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
 
-### 2nd length 
+### Zweite Länge 
 
 Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
 
-### 2nd taper angle 
+### Zweiter Schrägungswinkel 
 
 
-<small>(v0.20)</small> 
+{{Version/de|0.20}}
 
 Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
@@ -151,10 +145,7 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Wie alle Part Design Formelemente erzeugt Pad einen Volumenkörper, daher muss die Skizze ein geschlossenes Profil enthalten, sonst wird sie mit einem Fehler \"Failed to validate broken face\" (Gescheitert beim überprüfen der gebrochenen Fläche) auftreten. Es können mehrere geschlossene Profile in einem größeren enthalten sein, vorausgesetzt, keines überschneidet sich mit einem anderen (z.B. ein Rechteck mit zwei Kreisen darin).
+-   Wie alle Part Design Formelemente erzeugt Pad einen Volumenkörper, daher muss die Skizze ein geschlossenes Profil enthalten, sonst wird sie mit einem Fehler \"Failed to validate broken face\" (Gescheitert beim überprüfen der gebrochenen Fläche) auftreten.
 -   Der für **Zur ersten** und **Zur letzten** verwendete Algorithmus ist:
     -   Erzeuge eine Linie durch den Schwerpunkt der Skizze
     -   Finden alle Flächen, welche durch diese Linie geschnitten werden
@@ -162,13 +153,6 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 :   Das bedeutet, dass die gefundene Fläche vielleicht nicht immer das ist, was du erwartet hast. Wenn du auf dieses Problem stößt, verwende stattdessen den Typ **Bis zur Fläche** und greife die gewünschte Fläche.
 :   Für den sehr speziellen Fall der Extrusion auf eine konkave Oberfläche, bei der die Skizze größer als diese Oberfläche ist, wird die Extrusion fehlschlagen. Dies ist ein ungelöster Fehler.
-
--    {{VersionMinus|0.16}}Es gibt keine automatische Bereinigung, z.B. benachbarter planarer Oberflächen zu einer Einzeloberfläche.
-
-Du kannst dies manuell in der Datei <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> korrigieren. [Part Arbeitsbereich](Part_Workbench.md) mit **<img src="images/Part_RefineShape.svg" width=16px> [Part FormVerfeinern](Part_RefineShape/de.md)** (wodurch ein unverknüpfter, nichtparametrischer Körper erzeugt wird) oder mit der **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px>  [OpenSCAD FormVerfeinernFormelement](OpenSCAD_RefineShapeFeature/de.md)** aus der Datei <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md), das ein parametrisches Formelement erzeugt.
-
-
-</div>
 
 
 

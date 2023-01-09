@@ -31,7 +31,7 @@
 
 ## Options
 
-![](images/Part_Offset_Tasks.png )
+<img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
 ### Attachment mode 
 

@@ -7,6 +7,8 @@ Kiedy przełączasz się z jednego Środowiska pracy na drugie, zmieniają się 
 
 Należy pamiętać, że czasami środowisko pracy jest nazywane **modułem**. Jednak środowiska pracy i moduły są różnymi częściami składowymi. Moduł to dowolne rozszerzenie FreeCAD, natomiast Środowisko pracy to specjalna konfiguracja GUI *(moduł)* grupująca niektóre paski narzędzi i menu.
 
+
+
 ## Wbudowane Środowiska pracy 
 
 Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
@@ -55,6 +57,8 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Web](Web_Workbench/pl.md) udostępnia okno przeglądarki w oknie [widoku 3D](3D_view/pl.md) dla programiu FreeCAD.
 
+
+
 ### Przestarzałe
 
 Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowej w celu zapewnienia kompatybilności, ale nie powinny być dłużej używane.
@@ -65,7 +69,9 @@ Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowe
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Kreślenie](Drawing_Workbench/pl.md) został stworzony do prezentacji projektów 3D na kartce papieru, ale teraz został usunięty. Jednak nadal konieczne jest odczytanie starych plików FreeCAD, które zawierają obiekt rysunkowy wykonany pierwotnie w tym Środowisku pracy. Zobacz [Rysunek Techniczny](TechDraw_Workbench/pl.md), który jest bardziej zaawansowanym zamiennikiem. 
 **{{Obsolete/pl|0.17}}**
 
-## Zewnętrzne Środowiska pracy 
+
+
+## Zewnętrzne środowiska pracy 
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w [Python](Python.md). Dlatego też, wiele osób opracowuje dodatkowe stoły robocze wykraczające poza główny obszar rozwoju programu FreeCAD.
 

@@ -1,74 +1,65 @@
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractiveCone
-   Name/de:PartDesign Abzuziehender Kegel
+   Name/de:PartDesign KegelAbziehen
+   MenuLocation:Part Design →  Grundkörper abziehen → Kegel
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehender Kegel
-   Shortcut:None
-   SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
+   Version:0.17
+   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KegelHinzufügen](PartDesign_AdditiveCone/de.md)
 ---
 
 # PartDesign SubtractiveCone/de
 
 
-</div>
 
 ## Beschreibung
 
-Fügt einen abzuziehenden Kegel in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
+Fügt einen Kegel-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
 ![](images/PartDesign_SubtractiveCone_example.png )
 
-*Auf der linken Seite ist der aktive Körper (A) in grau und der abzuziehender Kegel (B) in durchscheinenden rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+*Auf der linken Seite ist der aktive Körper (A) in Grau und der abzuziehender Kegel (B) in durchscheinendem Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+
+
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractiveCone.svg_" width=24px> '''Kegel'''** drücken. **Hinweis**: Der Kegel ist Teil eines Symbolmenüs mit der Bezeichnung *Grundkörper abziehen*. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Kegel zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Kegel im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers (für einen spitzen Kegel wird einer der Radien auf Null gesetzt) und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Abzuziehender Kegel'''** klicken. **Anmerkung**: Abzuziehender Kegel ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehende Kegel in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
-3.  Mit Klick auf **OK** bestätigen.
-4.  Das Feature (Formelement) Kegel (Cone) erscheint unterhalb des aktiven Körpers (Body).
+3.  
+    **OK**klicken.
+
+4.  Ein Cone-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 
-</div>
 
 ## Optionen
 
-Der Kegel kann auf zwei verschiedene Wege bearbeitet werden:
+Der Kegel kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels der [Eigenschaften-Palette](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
-
--    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für das Kegel-Objekt. Dies kann nach Bedarf geändert werden.
+-    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für den Kegel (Cone-Objekt). Dies kann nach Bedarf geändert werden.
 
 -    {{PropertyData/de|Radius1}}: Der Wert des Radius an der Kegelbasis.
 
--    {{PropertyData/de|Radius2}}: Der Wert des Radius an der Kegeloberspitze. Ein von Null verschiedener Wert erzeugt einen Kegelstumpf.
+-    {{PropertyData/de|Radius2}}: Der Wert des Radius an der Kegeloberseite. Ein anderer Wert als Null erzeugt einen Kegelstumpf.
 
 -    {{PropertyData/de|Height}}: Die Höhe des Kegels entlang seiner Achse.
 
--    {{PropertyData/de|Angle}}: Der Rotationswinkel des halben Querschnitts (360° ergeben einen vollen Kegel).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Angle}}: Der Rotationswinkel des (halben) Querschnitts (360° ergeben einen ganzen Kegel).
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

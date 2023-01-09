@@ -27,13 +27,7 @@ Tutte le parti, eccetto gli indicatori degli assi, possono essere cliccate.
 
 ### Cubo Principale 
 
-
-<div class="mw-translate-fuzzy">
-
 Il cubo principale ha 26 facce: 6 facce principali quadrate, 12 facce di bordo rettangolari ({{Version/it|0.20}}) e 8 facce d\'angolo triangolari. Facendo clic su uno di essi si riorienterà la telecamera in modo che la sua direzione sia perpendicolare alla faccia selezionata.
-
-
-</div>
 
 ### Frecce Direzionali 
 

@@ -62,9 +62,9 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 ### Contraintes de fluides 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement initiale pour le corps.
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement initiale pour un corps (volume).
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) : utilisé pour définir une pression initiale pour le corps. {{Version/fr|1.0}}
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) : utilisé pour définir une pression initiale pour un corps (volume). {{Version/fr|1.0}}
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
 
@@ -94,7 +94,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md) : utilisé pour définir une contrainte de charge de corps centrifuge. {{Version/fr|0.20}}
 
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md) : permet de définir une accélération de gravité agissant sur un modèle.
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte du poids propre](FEM_ConstraintSelfWeight/fr.md) : permet de définir une accélération de gravité agissant sur un modèle.
 
 ### Contraintes thermiques 
 

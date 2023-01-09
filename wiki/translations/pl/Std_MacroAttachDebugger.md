@@ -1,20 +1,25 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std MacroAttachDebugger
+   Name/pl:Std: Przełącz na debuger zewnętrzny
    Empty:1
-   MenuLocation:Macro → Attach to remote debugger...
-   Workbenches:All
+   MenuLocation:Makrodefinicje → Przełącz na debuger zewnętrzny ...
+   Workbenches:wszystkie
 ---
 
 # Std MacroAttachDebugger/pl
 
-## Description
 
-Todo.
 
-## Usage
+## Opis
 
-Todo.
+Do wykonania.
+
+
+
+## Użycie
+
+Do wykonania.
 
 
 

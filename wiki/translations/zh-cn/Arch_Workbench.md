@@ -163,11 +163,17 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 ### 文件格式
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC.md) : 建筑业国际工业标准（Industry foundation Classes）
 -   [DAE](Arch_DAE.md) : Collada网格格式
 -   [OBJ](Arch_OBJ.md) : Obj网格格式 (仅限于导出)
 -   [JSON](Arch_JSON.md) : JavaScript对象表示法格式 (仅限于导出)
 -   [3DS](Arch_3DS.md) : 3DS格式 (仅限于导入)
+
+
+</div>
 
 ## API
 

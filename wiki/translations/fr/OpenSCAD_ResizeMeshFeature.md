@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:OpenSCAD ResizeMeshFeature
    Name/fr:OpenSCAD Redimensionner le maillage
-   MenuLocation:OpenSCAD → Redimensionnement du maillage...
+   MenuLocation:OpenSCAD → Redimensionner le maillage
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
@@ -15,7 +15,7 @@ Crée un nouvel objet maillé redimensionné avec un dimensionnement indépendan
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé à mettre en miroir.
-2.  Cliquez sur le menu **OpenSCAD** → **<img src="images/OpenSCAD_ResizeMeshFeature.svg" width=24px> Redimensionnement du maillage...** .
+2.  Cliquez sur le menu **OpenSCAD** → **<img src="images/OpenSCAD_ResizeMeshFeature.svg" width=24px> Redimensionner le maillage**.
 3.  Sélectionnez l\'axe souhaité dans la boîte de dialogue ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
 
 -   Un nouvel objet est créé et redimensionné, l\'objet d\'origine est masqué.
@@ -27,16 +27,16 @@ Crée un nouvel objet maillé redimensionné avec un dimensionnement indépendan
 ## Remarques
 
 -   La fonction ne modifie pas le maillage existant mais renvoie un nouveau maillage.
--   La fonction est accessible via python:
+-   La fonction est accessible via Python :
 
 
 ```python
 import OpenSCADUtils
 import Mesh
-##Cela suppose un objet existant dans le document nommé "Mesh" que vous souhaitez mettre à l'échelle
+#this assumes an existing object in the document named "Mesh" that you wish to mirror
 original_mesh = App.ActiveDocument.Mesh
 resized_mesh = OpenSCADUtils.resizemesh(original_mesh.Mesh, FreeCAD.Base.Vector(100,50,40))
-#Le nouveau maillage serait de 100 mm sur l'axe x, 50 mm sur l'axe y et 40 mm sur l'axe z.
+#New mesh would be 100 mm on the x axis, 50 mm on the y axis, and 40 mm on the z axis.
 Mesh.show(resized_mesh)
 ```
 

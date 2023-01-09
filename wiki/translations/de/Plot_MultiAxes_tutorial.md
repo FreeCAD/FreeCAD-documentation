@@ -1,10 +1,10 @@
 ---
 - TutorialInfo:/de
-   Topic:Plot workbench
-   Level:Intermediate
+   Topic:Arbeitsbereich Plot
+   Level:Fortgeschrittene
    Time:
    Author:
-   FCVersion:
+   FCVersion:0.19
    Files:
 ---
 
@@ -13,12 +13,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
 
 Please complete the [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot Workbench here](Plot_Workbench.md).
 

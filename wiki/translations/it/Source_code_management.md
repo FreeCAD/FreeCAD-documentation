@@ -1,13 +1,13 @@
 # Source code management/it
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
 Il principale strumento di gestione del codice sorgente per il progetto FreeCAD è [Git](http://en.wikipedia.org/wiki/Git_%28software%29), che può essere facilmente installato nella maggior parte dei sistemi operativi da un gestore di pacchetti o direttamente dal [sito web di Git](https://git-scm.com/). Si consiglia di acquisire familiarità con Git prima di lavorare direttamente con il codice sorgente di FreeCAD. Visitare la pagina [Git documentation](https://git-scm.com/doc) per il manuale di riferimento, nonché il [Pro Git book](https://git-scm.com/book/en/v2) per imparare a utilizzare il sistema in modo generale. Il presente documento si concentra sull\'uso di Git per lo sviluppo di FreeCAD. La compilazione di FreeCAD è descritta in [Compilare FreeCAD](Compiling/it.md).
 
 Sebbene Git sia principalmente un\'applicazione da terminale, esistono molti client grafici che facilitano il lavoro con i rami, l\'applicazione di patch e l\'invio di richieste di pull a un ramo principale. Gli esempi includono [gitk](https://git-scm.com/docs/gitk) (la prima interfaccia grafica sviluppata), [gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) e [GitKraken](https://www.gitkraken.com/) (proprietario). Per una breve introduzione a questo strumento vedere [Sviluppo di FreeCAD con GitKraken](Developing_FreeCAD_with_GitKraken/it.md).
 
-Note: if any of this is starting to make you dizzy, there is a very good non-technical series on how to use git and Github called \'[Git and Github for Poets](https://youtu.be/BCQHnlnPusY)\'
+Nota: se tutto questo sta iniziando a farti girare la testa, c\'è un\'ottima serie non tecnica su come usare git e Github chiamata \'[Git and Github for Poets](https://youtu.be/BCQHnlnPusY)\'
 
 ## Accesso al codice sorgente 
 
@@ -18,23 +18,15 @@ Se le modifiche al codice sorgente sono significative, si consiglia di spiegarle
 <img alt="" src=images/FreeCAD_git_workflow.svg  style="width:600px;"> 
 *Flusso di lavoro generico per sviluppare codice per FreeCAD; tutti possono ottenere il codice dal repository principale, ma gli sviluppatori principali hanno il diritto esclusivo di rivedere e unire gli invii di altri sviluppatori.*
 
+### Repository ufficiale di GitHub 
 
-<div class="mw-translate-fuzzy">
-
-### Repositorio ufficiale GitHub 
-
-Il codice sorgente di FreeCAD è ospitato in Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
-
-
-</div>
-
-The FreeCAD source code is hosted on Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
+Il codice sorgente di FreeCAD è ospitato su Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
 
 Per poter contribuire con il codice, bisogna avere un [account GitHub](https://github.com/join).
 
-In the past, the source code was hosted as an SVN repository, {{URL|https://free-cad.svn.sourceforge.net/svnroot/free-cad}}. This was moved to GitHub on 2011 October 10th, with [commit 120ca87015](https://github.com/FreeCAD/FreeCAD/commit/120ca87015).
+In passato, il codice sorgente era ospitato come repository SVN, {{URL|https://free-cad.svn.sourceforge.net/svnroot/free-cad}}. Questo è stato spostato su GitHub il 10 ottobre 2011, con [commit 120ca87015](https://github.com/FreeCAD/FreeCAD/commit/120ca87015).
 
-:   Therefore, there are many changes that were made before this time which are not recorded in the modern Git commit history. Read more about this on the [History](History.md) page.
+:   Pertanto, ci sono molte modifiche apportate prima di questo momento che non sono registrate nella cronologia recente dei commit di Git. Maggiori informazioni su questo argomento nella pagina [La storia di FreeCAD](History/it.md).
 
 ### Impostare il proprio nome utente in Git 
 
@@ -181,18 +173,10 @@ git remote show origin
 git remote show upstream
 }}
 
-## Git development process 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Processo di sviluppo Git 
 
 
 **Non sviluppare mai sul ramo "master". Creare invece un ramo per lo sviluppo e quindi unire questo ramo al ramo principale. Si prega di leggere [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], e [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.**
-
-
-</div>
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> 
 *Generic workflow to develop code for FreeCAD using `git*; the main repository is forked online and cloned to an offline computer (0); new branches (1) are used to commit local changes and additions to the code (2); the branches are rebased to the latest online code (3), and then are pushed to the remote repository (4); then a pull request is created in order to merge the code into the main repository (5). Then the personal clone is updated with the new master code (a); this updated master is also pushed to the remote repository (b) in order to have the same code both online and offline.`

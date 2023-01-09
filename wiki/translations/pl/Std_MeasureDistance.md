@@ -1,61 +1,74 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std MeasureDistance
-   MenuLocation:Tools → Measure distance
-   Workbenches:All
-   SeeAlso:[Part Measure Linear](Part_Measure_Linear.md), [Draft Dimension](Draft_Dimension.md)
+   Name/pl:Std: Wymiarowanie odległości
+   MenuLocation:Przybory → Wymiarowanie odległości
+   Workbenches:wszystkie
+   SeeAlso:[Wymiarowanie liniowe](Part_Measure_Linear/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
 ---
 
 # Std MeasureDistance/pl
 
-## Description
-
-The **Std MeasureDistance** command creates a distance object that measures and displays the distance between two points.
-
-## Usage
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_MeasureDistance.svg" width=16px> [Std MeasureDistance](Std_MeasureDistance.md)** button.
-    -   Select the **Tools → <img src="images/Std_MeasureDistance.svg" width=16px> Measure distance** option from the menu.
-2.  Select the first dimension point anywhere on an object in the [3D view](3D_view.md).
-3.  Select the second dimension point anywhere on an object in the 3D view.
-4.  The selection order of the points can have an impact on the position of the dimension line.
-5.  Optionally flip the position of the dimension line by changing the **Mirror** property of the distance object.
-
-## Notes
-
--   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
--   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
--   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
-
-## Properties
-
-### Data
 
 
-{{TitleProperty|Base}}
+## Opis
 
--    **Label**: by default the label contains the measured distance, but this distance is not updated when P1 or P2 are later changed.
-
-
-{{TitleProperty|Measurement}}
-
--    **P1**: the first dimension point.
-
--    **P2**: the second dimension point.
-
--    **Distance**: (read-only) the measured distance between P1 and P2.
-
-### View
+Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierzy i wyświetla dystans między dwoma punktami.
 
 
-{{TitleProperty|Base}}
 
--    **Dist Factor**: this factor, multiplied by the measured distance, determines the dimension line offset.
+## Użycie
 
--    **Font Size**: the height of the letters (line height in pixels).
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Std_MeasureDistance.svg" width=16px> [Wymiarowanie odległości](Std_MeasureDistance/pl.md)**.
+    -   Wybierz z menu opcję **Przybory → <img src="images/Std_MeasureDistance.svg" width=16px> Zmierz odległość**.
+2.  Wybierz pierwszy punkt pomiarowy w dowolnym miejscu obiektu w oknie [widoku 3D](3D_view/pl.md).
+3.  Wybierz drugi punkt pomiarowy w dowolnym miejscu na obiekcie w oknie widoku 3D.
+4.  Kolejność wyboru punktów może mieć wpływ na położenie linii wymiarowej.
+5.  Opcjonalnie odwróć położenie linii wymiarowej poprzez zmianę właściwości **Odbicie lustrzane** obiektu odległość.
 
--    **Mirror**: if set to `True` the position of the dimension line relative to P1 and P2 is flipped.
+
+
+## Uwagi
+
+-   Nie można używać narzędzi przyciągania środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) z tym poleceniem.
+-   Aby dodać wymiary do rysunków, użyj narzędzi wymiarowych środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
+-   Aby uzyskać bardziej wszechstronne narzędzia pomiarowe, zainstaluj środowisko pracy <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator](Manipulator_Workbench/pl.md) *(środowisko [zewnętrzne](External_workbenches/pl.md))*.
+
+
+
+## Właściwości
+
+
+
+### Dane
+
+
+{{TitleProperty|Podstawowe}}
+
+-    **Etykieta**: domyślnie etykieta zawiera zmierzoną odległość, ale ta odległość nie jest aktualizowana, gdy P1 lub P2 zostaną później przestawione.
+
+
+{{TitleProperty|Pomiar}}
+
+-    **P1**: pierwszy punkt wymiaru.
+
+-    **P2**: drugi punkt wymiaru.
+
+-    **Odległość**: *(tylko do odczytu)* zmierzona odległość pomiędzy P1 i P2.
+
+
+
+### Widok
+
+
+{{TitleProperty|Podstawowe}}
+
+-    **Współczynnik odległości**: współczynnik ten, pomnożony przez zmierzoną odległość, określa przesunięcie linii wymiarowej.
+
+-    **Rozmiar czcionki**: wysokość liter *(wysokość linii w pikselach)*.
+
+-    **Odbicie lustrzane**: jeśli ustawimy wartość {{TRUE/pl}}, to pozycja linii wymiarowej względem P1 i P2 zostanie odwrócona.
 
 
 

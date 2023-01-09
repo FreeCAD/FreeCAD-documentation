@@ -1,14 +1,16 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std MacroStartDebug
-   Name/pl:Std: Uruchom debugowanie
+   Name/pl:Std: Debugowanie makrodefinicjii
    MenuLocation:Makrodefinicje → Debugowanie makrodefinicji
-   Workbenches:Wszystkie
+   Workbenches:wszystkie
    Shortcut:**F6**
    SeeAlso:[Zatrzymaj debugowanie](Std_MacroStopDebug/pl.md)
 ---
 
 # Std MacroStartDebug/pl
+
+
 
 ## Opis
 

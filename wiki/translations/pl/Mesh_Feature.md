@@ -1,6 +1,8 @@
 # Mesh Feature/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 <img alt="" src=images/Mesh_Tree.svg  style="width:32px;">
@@ -17,6 +19,8 @@ Proszę zauważyć, że środowisko pracy [MES](FEM_Workbench/pl.md) również u
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
+
+
 ## Użycie
 
 Prawie wszystkie obiekty siatkowe tworzone poleceniami dostępnymi w środowisku pracy [Siatka](Mesh_Workbench/pl.md) są [cechami siatki](Mesh_Feature/pl.md). Wyjątek stanowią parametryczne obiekty siatkowe tworzone poleceniem [Utwórz bryłę pierwotną](Mesh_BuildRegularSolid/pl.md). Obiekt [cecha siatki](Mesh_Feature/pl.md) można również utworzyć z poziomu [konsoli Python](Python_console/pl.md), jak opisano w sekcji [tworzenie skryptów](#Tworzenie_skrypt.C3.B3w.md).
@@ -25,6 +29,8 @@ Klasa `Mesh::Feature` jest zdefiniowana w środowisku pracy [Siatka](Mesh_Workbe
 
 Obiekt `Mesh::Feature` posiada proste właściwości, takie jak [umiejscowienie](Placement/pl.md), oraz właściwości wizualne określające wygląd jego krawędzi i ścian.
 
+
+
 ## Właściwości
 
 Zapoznaj się z treścią na stronie [Właściwości](Property/pl.md) aby poznać wszystkie typy właściwości, które mogą mieć obiekty tworzone skryptami.
@@ -32,6 +38,8 @@ Zapoznaj się z treścią na stronie [Właściwości](Property/pl.md) aby pozna�
 Klasa [Siatka: Cecha](Mesh_Feature/pl.md) (`Mesh::Feature`) wywodzi się z podstawowej [Cechy geometrii](App_GeoFeature/pl.md) (`App::GeoFeature`) i dziedziczy wszystkie jej właściwości. Posiada również kilka dodatkowych właściwości. Przede wszystkim właściwość **Siatka**, która przechowuje jej [obiekt siatki](Mesh_MeshObject/pl.md). Jest to geometria, która jest wyświetlana w oknie [widoku 3D](3D_view/pl.md).
 
 Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
+
+
 
 ### Dane
 
@@ -66,6 +74,8 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 -    **Silnik wyrażeń|Hidden**: lista wyrażeń. Domyślnie jest pusta {{value|[]}}.
 
 -    **Widoczność|Bool|Hidden**: decyduje czy wyświetlać obiekt, czy nie.
+
+
 
 ### Widok
 
@@ -119,6 +129,8 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Styl wyboru|Enumeration**: {{value|Kształt}} *(domyślnie)*, {{value|Ramka Otaczająca}}. Jeśli parametr ma wartość {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md). Jeśli {{value|Ramka Otaczająca}}, podświetlone zostanie tylko pole ograniczające.
 
+
+
 ## Tworzenie skryptów 
 
 
@@ -126,7 +138,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty tworzone skryptami](Scripted_objects/pl.md).
 
-Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć w [Część: właściwość](Part_Feature/pl.md).
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
 
 Cecha siatki jest tworzona za pomocą metody dokumentu `addObject()`.
 

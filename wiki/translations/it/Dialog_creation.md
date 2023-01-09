@@ -1,20 +1,11 @@
 # Dialog creation/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Funzione per disegnare linee](Line_drawing_function/it.md)|[Licenza](Licence/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Introduzione
 
 In questa pagina mostreremo come creare una semplice interfaccia grafica con [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), lo strumento ufficiale di Qt per la progettazione di interfacce; la finestra di dialogo verrà convertita in codice [Python](Python/it.md), quindi verrà utilizzata all\'interno di FreeCAD. Si assume che l\'utente sappia come scrivere ed eseguire [Python](Python/it.md) in generale.
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created **.ui** files directly into the program.
+In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Anche se questo è possibile per interfacce piccole, per interfacce più grandi la raccomandazione è di caricare i file **.ui** creati direttamente nel programma.
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Due metodi generali per creare delle interfacce, includendo l'interfaccia nel file Python o usando i file `.ui*.`
@@ -25,7 +16,7 @@ Nelle applicazioni CAD, il disegno di una buona UI (interfaccia utente) è molto
 
 Quando si progetta l\'interfaccia, è bene tenere presenti alcune cose:
 
--   [Finestre di dialogo modali e non-modali](http://en.wikipedia.org/wiki/Modal_window): una finestra di dialogo modale appare sullo schermo in primo piano, blocca l\'azione della finestra principale e costringe l\'utente a rispondere alla finestra di dialogo, mentre un dialogo non-modale permette di continuare a lavorare sulla finestra principale. In alcuni casi è meglio usare la prima soluzione, in altri casi no.
+-   [Finestre di dialogo modali e non-modali](https://it.wikipedia.org/wiki/Finestra_modale): una finestra di dialogo modale appare sullo schermo in primo piano, blocca l\'azione della finestra principale e costringe l\'utente a rispondere alla finestra di dialogo, mentre un dialogo non-modale permette di continuare a lavorare sulla finestra principale. In alcuni casi è meglio usare la prima soluzione, in altri casi no.
 -   Identificare ciò che è necessario e ciò che è facoltativo. Accertarsi che l\'utente sappia esattamente quello che deve fare. Etichettare tutto con una descrizione adeguata, realizzare dei suggerimenti per l\'uso degli strumenti, ecc.
 -   Separare i comandi dei parametri. Questo solitamente si ottiene con pulsanti e campi per inserire i testi. L\'utente sa che cliccando su un pulsante si produce una azione, e che, invece, sostituendo un valore all\'interno di un campo di testo si modifica un parametro da qualche parte. In genere, oggi gli utenti sanno bene che cosa è un pulsante, che cosa è un campo di input, ecc. Il toolkit Qt, che stiamo per usare, è il più avanzato strumento di costruzione di interfacce. Non dovrete preoccuparvi molto di fare le cose chiare, dal momento che sarà già esso stesso molto chiaro.
 
@@ -41,19 +32,17 @@ Quando viene aperto, Qt Designer ha questo aspetto:
 
 ![](images/Qtdesigner-screenshot.jpg )
 
+## Creazione della finestra di dialogo 
 
-<div class="mw-translate-fuzzy">
+Qt Designer è molto semplice da usare. Sulla barra di sinistra ci sono gli elementi, che possono essere trascinati sul tuo widget. Sul lato destro ci sono i pannelli delle proprietà, che mostrano tutti i tipi di proprietà modificabili degli elementi selezionati. Quindi, si inizia con la creazione di un nuovo widget.
 
-È molto semplice da utilizzare.
-
-Sulla barra di sinistra ci sono gli elementi che possono essere trascinati nel proprio widget (componente aggiuntivo).
-
-Sul lato destro sono disposti i pannelli delle proprietà che mostrano tutti i tipi di proprietà modificabili degli elementi selezionati.
-
-Per iniziare, creare un nuovo widget o complemento. Selezionare \"Dialog without buttons\", in quanto non vogliamo i pulsanti Ok e Annulla predefiniti. Quindi, trascinare nel proprio widget **3 labels** (etichette), una per il titolo, una per inserire il testo \"Altezza\" e un\'altra per inserire il testo \"Larghezza\". Le etichette sono semplici testi che appaiono nel widget, al solo scopo di informare l\'utente. Quando si seleziona un\'etichetta, sul lato destro appaiono diverse proprietà che volendo si possono modificare, come, ad esempio, lo stile del carattere, la sua altezza, ecc.
-
-
-</div>
+1.  Selezionare \"Dialogo senza pulsanti\", poiché non vogliamo i pulsanti **OK**/**Annulla** predefiniti.
+2.  Avremo bisogno di **Etichette**. Le etichette sono semplici stringhe di testo che appaiono sul tuo widget per informare l\'utente finale. Quando si seleziona un\'etichetta, si nota che sul lato destro appariranno diverse proprietà, che puoi modificare, come: stile del carattere, altezza, ecc\... Quindi trasciniamo 3 etichette separate sul nostro widget:
+    -   Un\'etichetta per il titolo
+    -   Un\'altra etichetta per scrivere \"**Altezza**\"
+    -   E un\'altra etichetta per scrivere \"**Larghezza**\"
+3.  Ora abbiamo bisogno di LineEdit (2 di loro in realtà). Trascinane due sul widget. **LineEdits** sono campi di testo, che l\'utente finale può compilare. Quindi abbiamo bisogno di un LineEdit per *Height* e uno per *Width*. Anche qui possiamo modificare le proprietà. Ad esempio, perché non impostare un valore predefinito? Diciamo ad esempio: 1,00 per ciascuno. In questo modo, quando l\'utente vedrà la finestra di dialogo, entrambi i valori saranno già compilati. Se l\'utente finale è soddisfatto, può premere direttamente il pulsante, risparmiando tempo prezioso.
+4.  Poi aggiungiamo un **PushButton**. Questo è il pulsante che l\'utente finale dovrà premere dopo aver compilato entrambi i campi.
 
 Notare che qui si sono scelti dei comandi molto semplici, ma Qt dispone di molte altre opzioni, ad esempio, è possibile utilizzare **Spinboxes** invece di **LineEdits**, ecc .. Date un\'occhiata a ciò che è disponibile, esplorate, vi verranno sicuramente altre idee.
 
@@ -74,11 +63,11 @@ pyuic mywidget.ui > mywidget.py
 compQt4 myUiFile
 ```
 
-In macOS, you can retrieve the appropriate version (the same that is used internally in FreeCAD 0.19) of QT and Pyside with these commands (pip required) 
+In macOS, puoi recuperare la versione appropriata (la stessa utilizzata internamente in FreeCAD 0.19) di QT e Pyside con questi comandi (pip richiesto) 
 ```python
 python3 -m pip install pyqt5
 python3 -m pip install pySide2
-``` This will install uic in the folder \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic\", and Designer in \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app\". For convenience you can create a link of uic in /usr/local/bin to be able to call it simply with uic -g python \... instead of typing the whole path of the program, and a link to Designer to retrieve it in the mac\'s Applications folder with 
+``` Questo installerà uic nella cartella \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic\" e Designer in \"/Library/Frameworks/Python.framework/Versions /3.7/lib/python3.7/site-packages/PySide2/Designer.app\". Per comodità puoi creare un link di uic in /usr/local/bin per poterlo richiamare semplicemente con uic -g python\... invece di digitare tutto il percorso del programma, e un link a Designer per recuperarlo in la cartella Applicazioni del mac con 
 ```python
 sudo ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic /usr/local/bin
 ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app /Applications
@@ -193,7 +182,7 @@ Poi, da FreeCAD, basta solo fare:
 ```python
 import mywidget
 myDialog = mywidget.plane()
-``` Questo è tutto amici \... Ora è possibile provare diverse cose, come ad esempio inserire il widget nell\'interfaccia di FreeCAD (vedere la pagina [Esempi di codici](Code_snippets/it.md)), oppure creare strumenti personalizzati molto più avanzati, utilizzando altri elementi nel proprio widget.
+``` Questo è tutto amici \... Ora è possibile provare diverse cose, come ad esempio inserire il widget nell\'interfaccia di FreeCAD (vedere la pagina [Modelli di codici](Code_snippets/it.md)), oppure creare strumenti personalizzati molto più avanzati, utilizzando altri elementi nel proprio widget.
 
 ### Lo script completo 
 
@@ -272,25 +261,16 @@ class plane():
 
 ## Altri esempi 
 
--   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
--   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md) with `QFileDialog`.
--   [Dialog creation setting colors](Dialog_creation_setting_colors.md) with `QColorDialog`.
--   [Dialog creation image and animated GIF](Dialog_creation_image_and_animated_GIF.md) with `QLabel` and `QMovie`.
--   [PySide usage snippets](PySide_usage_snippets.md).
--   [Qt Example](Qt_Example.md)
+-   [Creare una finestra di dialogo con diversi widget](Dialog_creation_with_various_widgets/it.md) con `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton` e altri.
+-   [Creare una finestra di dialogo per leggere e scrivere file](Dialog_creation_reading_and_writing_files/it.md) con `QFileDialog`.
+-   [Creare una finestra di dialogo per la regolazione del colore](Dialog_creation_setting_colors/it.md) con `QColorDialog`.
+-   [Creare una finestra di dialogo per immagini e GIF animate](Dialog_creation_image_and_animated_GIF/it.md) con `QLabel` e `QMovie`.
+-   [Frammenti di codice per l\'utilizzo di PySide](PySide_usage_snippets/it.md).
+-   [Esempio di Qt](Qt_Example/it.md)
 
 ## Link utili 
 
--   [Manual:Creating interface tools](Manual_Creating_interface_tools.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Funzione per disegnare linee](Line_drawing_function/it.md)|[Licenza](Licence/it.md)}}
-
-
-</div>
+-   [Manuale:Creare interfacce di strumenti](Manual:Creating_interface_tools/it.md)
 
 
 

@@ -10,6 +10,8 @@
 
 # Std ArrangeIcons/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Rozmieszczenie ikon** nie działa poprawnie. Ma ono taki sam efekt jak polecenie [Okna sąsiadująco](Std_TileWindows/pl.md).

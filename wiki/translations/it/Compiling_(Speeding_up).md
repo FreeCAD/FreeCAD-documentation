@@ -1,13 +1,4 @@
 # Compiling (Speeding up)/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Presentazione
@@ -59,15 +50,6 @@ make -j$(nproc --ignore=2)
 ### distcc
 
 Il programma `distcc` può essere utilizzato per eseguire compilazioni distribuite di codice C e C++ su più macchine in una rete.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -13,7 +13,8 @@
 
 L\'outil <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw Vue en coupe** insère une vue en coupe transversale basée sur une vue de la pièce existante.
 
-<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;">
+<img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
 *Vue en coupe déjà placée qui montre les trous internes et une surface de coupe hachurée.<br>
 L'image du haut montre le format de flèche ANSI.<br>
 L'image du bas montre le format de flèche ISO.*
@@ -124,7 +125,7 @@ Les paramètres par défaut de ces paramètres sont définis via les paramètres
 
 ## Remarques
 
--   **Section Line Format** : format traditionnel de ligne de section (comme illustré ci-dessus) et la \"méthode de la flèche de référence\" sont tous deux pris en charge. Cette option est contrôlée par le paramètre de préférence \"Norme des lignes de coupe\" dans l\'onglet Annotation. L\'option \"ANSI\" utilise le format traditionnel et l\'option \"ISO\" utilise le format de la flèche de référence.
+-   **Section Line Format** : deux formats de ligne de section sont pris en charge (comme illustré ci-dessus) et contrôlés par le paramètre de préférence \"Norme de ligne de section\" dans l\'onglet Annotation. L\'option {{Value|ANSI}} utilise des \"flèches tirées\" (connues sous le nom de \"format traditionnel\" dans certains domaines) et l\'option {{Value|ISO}} utilise des \"flèches poussées\" (également connues sous le nom de \"format de la flèche de référence\").
 -   **Fuse Before Cut** : l\'opération de coupe échoue parfois à découper les formes sources. Si **Fuse Before Cut** est vrai, les formes sources sont fusionnées en une seule forme avant que l\'opération de section ne soit tentée. Si vous rencontrez des problèmes avec l\'opération de section, essayez d\'inverser cette valeur.
 -   **Trim After Cut** : l\'opération d\'ajustement de la coupe laisse parfois derrière elle une partie de la forme source. Si **Trim After Cut** est vrai, une opération d\'ajustement supplémentaire est effectuée sur le résultat de le premier ajustement qui devrait enlever tous les morceaux non désirés.
 -   **Cut Surface Display**: la surface de coupe peut être cachée, peinte dans une couleur solide, hachurée en utilisant un motif Svg (par défaut) ou hachurée en utilisant un motif PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md).

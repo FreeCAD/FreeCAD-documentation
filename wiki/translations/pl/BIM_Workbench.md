@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) mającym na celu implementację kompletnych [informacji o modelowaniu budynku](https://en.wikipedia.org/wiki/Building_information_modeling) *(BIM)* narzędzi i przepływu pracy w programie FreeCAD. Można go zainstalować z poziomu <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
@@ -18,6 +20,8 @@ Twórcy środowisk Rysunek Roboczy, Architektura i BIM współpracują również
 
 <img alt="" src=images/BIM_workbench_presentation.png  style="width:800px;">
 
+
+
 ## Instalacja
 
 Środowisko pracy BIM nie jest dołączone do domyślnego pakietu FreeCAD, ale może być łatwo zainstalowane poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Wywołaj go z menu **Przybory → [Menadżer dodatków](Std_AddonMgr/pl.md)**. Kod środowiska pracy BIM jest [hostowany i rozwijany na Github](https://github.com/yorikvanhavre/BIM_Workbench) i może być również zainstalowany ręcznie poprzez skopiowanie go do katalogu **MOD** programu FreeCAD.
@@ -27,6 +31,8 @@ Twórcy środowisk Rysunek Roboczy, Architektura i BIM współpracują również
 Środowisko pracy BIM jest w trakcie opracowywania i będzie się często zmieniać. Upewnij się, że aktualizujesz go regularnie! Jeśli masz zainstalowany moduł [Python-Git](https://github.com/chidimo/python-git), środowisko pracy BIM automatycznie wyszuka dostępne aktualizacje przy starcie i wyświetli ikonę na pasku stanu, jeśli aktualizacja jest dostępna.
 
 Narzędzia wymienione poniżej mogą również nie być wszystkie obecne, jeśli Twoja wersja FreeCAD nie jest w pełni aktualna. Środowisko pracy BIM powinno jednak działać bezproblemowo na wszystkich wersjach FreeCAD, będzie tylko pomijać narzędzia, które nie są dostępne.
+
+
 
 ## Rozpoczęcie pracy 
 
@@ -42,6 +48,8 @@ Jeśli jesteś przyzwyczajony do innej aplikacji BIM, sprawdź naszą [tabela zg
 
 Samouczek [Obsługa BIM](BIM_ingame_tutorial/pl.md) jest łatwym sposobem na szybkie rozpoczęcie pracy ze środowiskiem BIM.
 
+
+
 ## Przybory
 
 Środowisko pracy BIM gromadzi narzędzia z kilku innych środowisk programu FreeCAD, głównie [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md) i [Część](Part_Workbench/pl.md), z grubsza zreorganizowane w logiczne kategorie: **rysowanie 2D**, **modelowanie 3D**, **adnotacje** i **modyfikacje\'\'. Kategoria**zarządzanie\'\'\' zawiera narzędzia, które są specyficzne dla środowiska BIM.
@@ -49,6 +57,8 @@ Samouczek [Obsługa BIM](BIM_ingame_tutorial/pl.md) jest łatwym sposobem na szy
 Dodatkowo, jeżeli są zainstalowane [dodatki](External_workbenches/pl.md), narzędzia ze środowiska [Zbrojenie](Arch_Rebar/pl.md) *(dodatkowe narzędzia do prętów zbrojeniowych)*, [Elementy złączne](Fasteners_Workbench/pl.md) *(śruby i wkręty)*, [Flamingo / Dodo](Flamingo_Workbench/pl.md) *(narzędzia do konstrukcji stalowych i rurociągów)* oraz [Biblioteka podzespołów](Parts_Library_Workbench/pl.md) są automatycznie dołączane do środowiska BIM.
 
 Środowisko pracy BIM dodaje również serię pozycji w *pasku statusu* programu FreeCAD, oraz kilka pozycji *menu kontekstowego*, dostępnych po kliknięciu prawym przyciskiem myszy w widoku 3D lub w widoku drzewa.
+
+
 
 ### Rysunki 2D 
 
@@ -68,6 +78,8 @@ Obiekty 2D są powszechnie używane jako pomoce kreślarskie, lub do rysowania l
 -   <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Krzywa Beziera](Draft_BezCurve/pl.md): Rysuje krzywą Beziera z serii punktów.
 -   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punkt](Draft_Point/pl.md): Wstawia obiekt punktu.
 
+
+
 ### Adnotacje
 
 Adnotacje są wizualnymi obiektami pomocniczymi, które mogą być umieszczone wewnątrz Twojego modelu. Mogą one być użyte do eksportu modelu bezpośrednio do formatu 2D jak [DXF](Draft_DXF/pl.md), lub ponownie użyte podczas tworzenia widoków 2D Twojego modelu za pomocą środowiska [Rysunek Techniczny](TechDraw_Workbench/pl.md).
@@ -82,6 +94,8 @@ Adnotacje są wizualnymi obiektami pomocniczymi, które mogą być umieszczone w
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Płaszczyzna przekroju](Arch_SectionPlane/pl.md): Dodaje obiekt płaszczyzny przekroju w dokumencie. Płaszczyzny przekroju definiują widoki 2D, takie jak plany, przekroje i elewacje.
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Strona](TechDraw_PageDefault/pl.md): Tworzy nową stronę [Rysunku Technicznego](TechDraw_Workbench/pl.md) z [szablonu SVG](TechDraw_Templates/pl.md).
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Widok](TechDraw_ArchView/pl.md): Wstawia widok płaszczyzny przekroju na stronie.
+
+
 
 ### Modelowanie 3D / BIM 
 
@@ -123,6 +137,8 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Konstruktor kształtu](Part_Builder/pl.md): Narzędzie do tworzenia bardziej złożonych kształtów z różnych parametrycznych brył pierwotnych.
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Łącznik ścian](Draft_Facebinder/pl.md): Tworzy nowy obiekt z wybranych ścian na istniejących obiektach.
 
+
+
 ### Narzędzia do modyfikacji 
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Przesuń](Draft_Move/pl.md): Przenosi obiekty z jednej lokalizacji do drugiej.
@@ -151,6 +167,8 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Dodaj komponentt](Arch_Add/pl.md): Dodaje obiekty do komponentu.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Usuń komponent](Arch_Remove/pl.md): Odejmuje lub usuwa obiekty z komponentu.
 
+
+
 ### Narzędzia do zarządzania 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [Konfiguracja środowiska BIM](BIM_Setup/pl.md): Konfiguruje niektóre z preferencji FreeCAD najczęściej używane dla BIM.
@@ -167,6 +185,8 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Kontrola wstępna](BIM_Preflight/pl.md): Wykonaj różne testy modelu przed wyeksportowaniem do IFC.
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md): Zarządza stylami adnotacji używanymi przez teksty i wymiary.
 
+
+
 ## Poradniki i nauka 
 
 -   [Migracja do FreeCAD z Revit](Migrating_to_FreeCAD_from_Revit/pl.md)
@@ -175,7 +195,9 @@ Obiekty 3D i BIM są elementami świata rzeczywistego, które składają się na
 -   [\"FreeCAD tutorials\" seria wideo przygotowana przez Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" seria wideo przygotowana przez by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
 
-## Zewnętrzne Środowiska pracy 
+
+
+## Zewnętrzne środowiska pracy 
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe \"przestrzenie robocze\" wykraczające poza główny obszar rozwoju programu FreeCAD.
 

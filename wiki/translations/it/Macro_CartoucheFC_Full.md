@@ -1,7 +1,4 @@
 # Macro CartoucheFC Full/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
@@ -14,9 +11,6 @@
 |Download=[https://www.freecadweb.org/wiki/images/6/68/Macro_CartoucheFC_Full.png ToolBar Icon]
 }}
 
-
-</div>
-
 ## Descrizione
 
 Questa macro è una applicazione completa che permette di compilare tutti i campi della tabella del foglio di disegno nel modello
@@ -27,13 +21,7 @@ L\'ordine di compilazione dei campi di testo è quello descritto nella figura se
 
 <img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width:680px;">
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 **Nota: Alcuni caratteri come & o \$ non sono accettati, e forse anche altri caratteri speciali.**
 

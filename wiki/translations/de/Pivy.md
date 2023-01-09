@@ -128,7 +128,16 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Der Rückruf muss von einem Objekt initiiert werden, da dieses Objekt zum Zeitpunkt des Rückrufs noch laufen muss. Siehe auch eine [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) von möglichen Ereignissen und deren Parameter, oder die offizielle Coin Dokumentation. {{Top}}
+
+<div class="mw-translate-fuzzy">
+
+Der Rückruf muss von einem Objekt initiiert werden, da dieses Objekt zum Zeitpunkt des Rückrufs noch laufen muss. Siehe auch eine [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) von möglichen Ereignissen und deren Parameter, oder die offizielle Coin Dokumentation.
+
+
+</div>
+
+
+{{Top}}
 
 ## Dokumentation
 

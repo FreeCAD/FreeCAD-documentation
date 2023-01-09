@@ -11,7 +11,7 @@
 
 ## Opis
 
-Narzędzie <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **Rysunek Techniczny** dodaje symbol wykończenia powierzchni do strony.
+Narzędzie <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:24px;"> **Utwórz symbol wykończenia powierzchni** dodaje symbol wykończenia powierzchni do strony.
 
 <img alt="" src=images/TechDraw_SurfaceFinishSymbolExample1.png  style="width:330px;"> 
 *Panel zadań z wybranym stylem ISO. Po prawej stronie utworzony symbol.*

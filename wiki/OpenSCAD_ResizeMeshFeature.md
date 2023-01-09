@@ -26,9 +26,9 @@ Creates a new resized mesh object with independent sizing for each axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python:
+-   The function can be accessed via Python:
 
-
+ 
 ```python
 import OpenSCADUtils
 import Mesh

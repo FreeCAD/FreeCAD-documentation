@@ -87,7 +87,7 @@ The help system was rewritten and upgraded to display information directly from 
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width:384px;">   The \"Workbenches\" preference panel was modified to support the ability to \"autoload\" workbenches on FreeCAD startup.
    
 
-On Linux, the default location of FreeCAD\'s configuration, data and cache files was changed to follow the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Here is a comparison of the old and new locations:
+On Linux, the default location of FreeCAD\'s configuration, data and cache files was changed to follow the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=63648). Here is a comparison of the old and new locations:
 
   Description           Old location      New location                Defaults to
      

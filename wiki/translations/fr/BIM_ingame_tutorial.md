@@ -336,21 +336,21 @@ Notez que, comme les éléments de construction sont des composants de construct
 
 {{BIMTutorialAction|goal1=Créer un niveau|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Ajoutez-y les quatre autres objets BIM racine|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
 
-### Ajout de plans de section 
+### Ajout de plans de coupe 
 
-L\'une des opérations les plus couramment effectuées avec un modèle BIM consiste à en extraire des dessins 2D, tels que des plans ou des élévations. Il existe plusieurs façons de le faire dans FreeCAD, en fonction du résultat que vous souhaitez obtenir. Fondamentalement, vous pouvez choisir entre produire le résultat 2D à l\'intérieur de l\'espace 3D, ce qui est utile si vous souhaitez le retravailler là-bas, construire plus loin ou mieux contrôler la façon dont il est exporté vers des formats tels que [DXF](Draft_DXF/fr.md) ou [DWG](FreeCAD_and_DWG_Import/fr.md), ou sur une [TechDraw feuille](TechDraw_Workbench/fr.md) mieux adaptée pour l\'impression ou l\'exportation au format PDF. Dans les deux cas, cela commence par placer un [Plan de section](Arch_SectionPlane/fr.md) dans votre modèle:
+L\'une des opérations les plus couramment effectuées avec un modèle BIM consiste à en extraire des dessins 2D, tels que des plans ou des élévations. Il existe plusieurs façons de le faire dans FreeCAD, en fonction du résultat que vous souhaitez obtenir. Fondamentalement, vous pouvez choisir entre produire le résultat 2D à l\'intérieur de l\'espace 3D, ce qui est utile si vous souhaitez le retravailler là-bas, construire plus loin ou mieux contrôler la façon dont il est exporté vers des formats tels que [DXF](Draft_DXF/fr.md) ou [DWG](FreeCAD_and_DWG_Import/fr.md), ou sur une [TechDraw feuille](TechDraw_Workbench/fr.md) mieux adaptée pour l\'impression ou l\'exportation au format PDF. Dans les deux cas, cela commence par placer un [Plan de coupe](Arch_SectionPlane/fr.md) dans votre modèle:
 
 <img alt="" src=images/BIM_Tutorial_37.jpg  style="width:300px;">
 
 1.  Sélectionnez l\'objet Level qui contient vos objets, que nous avons créé à la dernière étape
 2.  Ajouter un plan de coupe à partir du menu **Annotations-\>Section Plane**
 
-Les plans de coupe ne traversent pas tout le modèle, mais seulement les objets dans leur propriété *Objets*. Vous pouvez sélectionner le plan de section pour vérifier et modifier le contenu de cette propriété à tout moment.
+Les plans de coupe ne traversent pas tout le modèle, mais seulement les objets dans leur propriété *Objets*. Vous pouvez sélectionner le plan de coupe pour vérifier et modifier le contenu de cette propriété à tout moment.
 
-Par défaut, le nouveau plan de coupe sera placé au milieu de l\'objet sélectionné ou de son contenu, et regardera vers le bas, comme pour créer une vue de plan d\'étage. Mais le plan de section est un objet comme un autre et peut être déplacé et tourné pour faire ce dont vous avez besoin. Placez-le horizontalement pour créer une vue en plan, verticalement à l\'intérieur de votre modèle pour créer une section ou à l\'extérieur du modèle pour créer une élévation.
+Par défaut, le nouveau plan de coupe sera placé au milieu de l\'objet sélectionné ou de son contenu, et regardera vers le bas, comme pour créer une vue de plan d\'étage. Mais le plan de coupe est un objet comme un autre et peut être déplacé et tourné pour faire ce dont vous avez besoin. Placez-le horizontalement pour créer une vue en plan, verticalement à l\'intérieur de votre modèle pour créer une coupe ou à l\'extérieur du modèle pour créer une élévation.
 
 
-{{BIMTutorialAction|goal1=Sélectionner le principal Building Part|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)|goal2=Créer un plan de section|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
+{{BIMTutorialAction|goal1=Sélectionner le principal Building Part|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)|goal2=Créer un plan de coupe|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
 
 ### Extraction de vues 2D sous forme de géométrie 
 
@@ -358,9 +358,9 @@ Une fois votre plan de coupe en place, nous pouvons maintenant créer une géom�
 
 <img alt="" src=images/BIM_Tutorial_38.jpg  style="width:300px;">
 
-1.  Sélectionnez le plan de section
+1.  Sélectionnez le plan de coupe
 2.  Créez une vue de forme 2D en utilisant **Modify-\>Shape 2D View**
-3.  Notre objet de vue est caché sous les murs. Désactivez l\'affichage du niveau et du plan de section en les sélectionnant tous les deux dans l\'arborescence et en appuyant sur la touche **Espace** afin que nous puissions mieux visualiser notre résultat
+3.  Notre objet de vue est caché sous les murs. Désactivez l\'affichage du niveau et du plan de coupe en les sélectionnant tous les deux dans l\'arborescence et en appuyant sur la touche **Espace** afin que nous puissions mieux visualiser notre résultat
 
 <img alt="" src=images/BIM_Tutorial_39.jpg  style="width:300px;">
 

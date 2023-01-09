@@ -534,6 +534,8 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+
 ### Virtuálny priestor Náčrtníka 
 
 

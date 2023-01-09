@@ -21,48 +21,48 @@ La grille est un objet 2D et peut donc être utilisée partout où une forme 2D,
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Grid.svg" width=16px> [Grille](Arch_Grid/fr.md)**.
-2.  Définissez les **Largeur** et **Hauteur** de la grille dans les propriétés.
+2.  Définissez la **Largeur** et la **Hauteur** de la grille dans les propriétés.
 3.  Entrez en mode d\'édition en double-cliquant sur l\'objet de grille dans l\'arborescence.
 4.  Ajouter des lignes et des colonnes.
 5.  Définissez la largeur et la hauteur souhaitées des lignes et des colonnes en double-cliquant sur les en-têtes de ligne ou de colonne.
 
 ## Options
 
--   Une largeur de colonne ou une hauteur de ligne de 0 signifie que sa taille sera automatiquement adaptée à la largeur / hauteur totale de la grille.
+-   Une largeur de colonne ou une hauteur de ligne de 0 signifie que sa taille sera automatiquement adaptée à la largeur/hauteur totale de la grille.
 -   Les cellules peuvent être fusionnées et non fusionnées en les sélectionnant et en cliquant sur le bouton approprié.
--   Lorsqu\'elle est utilisée comme propriété **Axis** (axes) des autres objets Arch, la grille pilotera le positionnement de ces objets. La propriété **Points Output** (Points de sortie) définit la manière dont les autres objets sont placés sur la grille: Au niveau des sommets, des points médians ou des centres de faces.
--   En définissant les propriétés **Auto Height** (Hauteur Auto) ou **Auto Width** (Largeur Auto) sur une valeur différente de zéro, le nombre total de lignes / colonnes et leurs hauteurs / largeurs individuelles est ignoré. Au lieu de cela, le nombre maximal de colonnes ou de lignes de la largeur / hauteur automatique donnée est automatiquement créé.
+-   Lorsqu\'elle est utilisée comme propriété **Axis** des autres objets Arch, la grille pilotera le positionnement de ces objets. La propriété **Points Output** définit la manière dont les autres objets sont placés sur la grille : au niveau des sommets, des points médians ou des centres de faces.
+-   En définissant les propriétés **Auto Height** ou **Auto Width** sur une valeur différente de zéro, le nombre total de lignes/colonnes et leurs hauteurs/largeurs individuelles est ignoré. Au lieu de cela, le nombre maximal de colonnes ou de lignes de la largeur/hauteur automatique donnée est automatiquement créé.
 
 ## Propriétés
 
--    **Lignes**: Le nombre de lignes
+-    **Rows**: nombre de lignes
 
--    **Colonnes**: Le nombre de colonnes
+-    **Columns**: nombre de colonnes
 
--    **Taille des Lignes**: Les tailles pour les lignes
+-    **Row Size**: tailles pour les lignes
 
--    **Taille des Colonnes**: Les tailles des colonnes
+-    **Column Size**: tailles des colonnes
 
--    **Points de sortie**: Le type de points 3D produits par cet objet de grille
+-    **Points Output**: type de points 3D produits par cet objet de grille
 
--    **Largeur**: La largeur totale de cette grille
+-    **Width**: largeur totale de cette grille
 
--    **Hauteur**: La hauteur totale de cette grille
+-    **Height**: hauteur totale de cette grille
 
--    **Largeur Auto**: Crée des divisions de colonnes automatiques (définies sur 0 pour désactiver)
+-    **Auto Width**: crée des divisions de colonnes automatiques (définies sur 0 pour désactiver)
 
--    **Hauteur Auto**: Crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
+-    **Auto Height**: crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
 
--    **Reorient**: En mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
+-    **Reorient**: en mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
 
 En mode Point centre d\'arête, si la grille doit réorienter ses doublures le long des normales aux arêtes ou non
 
--    **Hidden Faces**: Les indices des faces à cacher
+-    **Hidden Faces**: les indices des faces à cacher
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
@@ -75,7 +75,7 @@ Grid = makeGrid(name="Grid")
 
 -   Créer un objet `Grid`.
 
-Ses attributs `Width` (largeur), `Height` (hauteur), `Rows` (lignes) et `Columns` (colonnes) peuvent être modifiés directement pour définir l\'apparence de la grille.
+Ses attributs `Width`, `Height`, `Rows` et `Columns` peuvent être modifiés directement pour définir l\'apparence de la grille.
 
 
 ```python

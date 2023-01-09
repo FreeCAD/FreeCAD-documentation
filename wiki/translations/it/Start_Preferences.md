@@ -1,7 +1,7 @@
 # Start Preferences/it
-The preferences for the <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Start**. This section is only available after visiting the workbench or after loading the workbench via the *Available Workbenches* tab in the **Workbenches** section.
+Le preferenze per l\'<img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Ambiente Start](Start_Workbench/it.md) sono disponibili nell\'[Editor Preferenze](Preferences_Editor/it.md). Nel menu seleziona **Modifica → Preferenze...** e poi **Start**. Questa sezione è disponibile solo dopo aver visitato l\'ambiente o dopo aver caricato l\'ambiente tramite la scheda *Ambienti disponibili* nella sezione **Workbenches**.
 
-There is only one tab: *Start page options* in the **Start** section. On this tab you can specify the following:
+C\'è solo una scheda: *Opzioni della pagina iniziale* nella sezione **Start**. In questa scheda è possibile specificare quanto segue:
 
 +++
 | Name                                             | Description                                                                                                                                                                                                                            |

@@ -14,11 +14,13 @@
 
 Groupement de plusieurs outils en relation avec la tuyauterie.
 
+
+
 ## Types
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Tuyau](Arch_Pipe/fr.md) : Crée un tuyau.
+-   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Conduite](Arch_Pipe/fr.md) : crée une conduite.
 
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Raccord](Arch_PipeConnector/fr.md) : Crée un angle ou une connexion en T entre 2 ou 3 tuyaux sélectionnés.
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Raccord](Arch_PipeConnector/fr.md) : crée un angle ou une connexion en T entre 2 ou 3 conduites sélectionnées.
 
 
 

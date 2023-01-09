@@ -14,7 +14,7 @@
 
 
 
-Ce tutoriel introduit au nouvel utilisateur certains des outils et techniques utilisés dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Ce tutoriel n\'est pas un guide complet et exhaustif de l\'atelier Part Design et de nombreux outils et fonctionnalités ne sont pas couverts. Ce tutoriel guidera l\'utilisateur à travers les étapes nécessaires pour modéliser la pièce montrée dans l\'image ci-dessous à l\'aide de dessins.
+Ce tutoriel introduit au nouvel utilisateur certains des outils et techniques utilisés dans l\'[atelier Part Design](PartDesign_Workbench/fr.md). Ce tutoriel n\'est pas un guide complet et exhaustif de l\'atelier Part Design et de nombreux outils et fonctionnalités ne sont pas couverts. Ce tutoriel guidera l\'utilisateur à travers les étapes nécessaires pour modéliser la pièce montrée dans l\'image ci-dessous à l\'aide de dessins.
 
 ![](images/Tut17_final_refined.png )
 
@@ -36,7 +36,7 @@ Dans ce tutoriel, vous allez utiliser l\'atelier Part Design pour créer un mod�
 
 ### Démarrer
 
-Commencez par vérifier que vous êtes dans l\'atelier PartDesign. Une fois là, vous créerez un nouveau document si vous ne l\'avez pas déjà fait. C\'est une bonne habitude de sauvegarder votre travail souvent, donc avant toute chose, enregistrez le nouveau document, en lui donnant un nom qui vous convient.
+Commencez par vérifier que vous êtes dans l\'atelier Part Design. Une fois là, vous créerez un nouveau document si vous ne l\'avez pas déjà fait. C\'est une bonne habitude de sauvegarder votre travail souvent, donc avant toute chose, enregistrez le nouveau document, en lui donnant un nom qui vous convient.
 
 Tout travail dans Part Design commence par un [Corps (Body)](Glossary/fr#Body.md). Puis nous construirons un solide dans le Corps à partir d\'une [Esquisse (Sketch)](Glossary/fr#Sketch.md).
 

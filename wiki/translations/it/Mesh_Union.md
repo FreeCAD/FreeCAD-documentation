@@ -20,27 +20,17 @@ Per utilizzare questo comando bisogna che [OpenSCAD](http://www.openscad.org/) s
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare due oggetti mesh che si sovrappongono parzialmente.
-2.  Selezionare l\'opzione **Mesh → Operazione booleana → <img src="images/Mesh_Union.svg" width=16px> Unione** dal menu.
-
-
-</div>
+2.  Esistono diversi modi per invocare il comando:
+    -   Premee il pulsante **<img src="images/Mesh_Union.svg" width=16px> [Unione](Mesh_Union/it.md)**.
+    -   Selezionare l\'opzione **Mesh → Operazione booleana → <img src="images/Mesh_Union.svg" width=16px> Unione** dal menu.
 
 ## Proprietà
 
 Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

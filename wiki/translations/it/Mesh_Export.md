@@ -49,13 +49,7 @@ Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

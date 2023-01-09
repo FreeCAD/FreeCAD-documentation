@@ -26,7 +26,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Raccordo](Draft_Fillet/it.md): crea un raccordo, un angolo arrotondato, o uno smusso, un angolo retto, tra due [Linee](Draft_Line/it.md). {{Version/it|0.19}}
 
--   <img alt="" src=images/Draft_Arc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Arc tools:
+-   <img alt="" src=images/Draft_Arc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Strumenti Arco:
 
   - <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> [Arco](Draft_Arc/it.md): crea un arco circolare da un centro, un raggio, un angolo iniziale e un angolo di apertura.
 
@@ -42,7 +42,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_BSpline.svg  style="width:32px;"> [B-spline](Draft_BSpline/it.md): crea una curva B-spline da più punti.
 
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Bézier tools:
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Strumento Bézier:
 
   - <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Curva Cubica di Bézier](Draft_CubicBezCurve/it.md): crea una curva di Bézier di terzo grado.
 
@@ -84,7 +84,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Clona](Draft_Clone/it.md): crea copie collegate, cloni, ​​di oggetti selezionati.
 
--   <img alt="" src=images/Draft_OrthoArray.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Array tools:
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Strumenti Array:
 
   - <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [Serie](Draft_OrthoArray/it.md): crea una serie ortogonale da un oggetto selezionato. Può opzionalmente creare una serie di [Link](App_Link.md).
 
@@ -144,31 +144,13 @@ Con il [widget Scala per gli strumenti di annotazione](Draft_annotation_scale_wi
 
 ## Widget di aggancio in Draft 
 
-
-<div class="mw-translate-fuzzy">
-
 Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
-
-
-</div>
 
 ![](images/Draft_snap_widget_button.png )
 
-
-<div class="mw-translate-fuzzy">
-
 ## Barra degli strumenti di aggancio 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare la modalità di aggancio corrente. Il suo pulsante rimane premuto quando una modalità è attiva.
-
-
-</div>
+La barra degli strumenti Snap di Draft consente di selezionare le opzioni di snap attive. I pulsanti appartenenti alle opzioni attive rimangono premuti. Per informazioni generali sullo snap vedere: [Aggancio](Draft_Snap/it.md).
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Blocca Snap](Draft_Snap_Lock/it.md): abilita o disabilita lo snap a livello globale.
 
@@ -182,13 +164,7 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap Intersezione](Draft_Snap_Intersection/it.md): aggancia all\'intersezione di due bordi.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md): esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|1.0}}) o sugli spigoli.
-
-
-</div>
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md): esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|1.0}}) e sugli spigoli.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap Estensione](Draft_Snap_Extension/it.md): aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
 
@@ -196,31 +172,13 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap Speciale](Draft_Snap_Special/it.md): aggancia ai punti speciali definiti dall\'oggetto.
 
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap Vicino](Draft_Snap_Near/it.md): aggancia al punto più vicino alle facce e agli spigoli.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap Vicino](Draft_Snap_Near/it.md): aggancia al punto più vicino su facce o spigoli.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap Ortogonale](Draft_Snap_Ortho/it.md): aggancia a linee immaginarie che attraversano il punto precedente a 0°, 45°, 90° e 135°.
-
-
-</div>
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap Ortogonale](Draft_Snap_Ortho/it.md): aggancia alle linee immaginarie che attraversano il punto precedente a multipli di 45°.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Griglia](Draft_Snap_Grid/it.md): aggancia alle intersezioni delle linee della griglia.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap Piano di Lavoro](Draft_Snap_WorkingPlane/it.md): proietta il punto di aggancio sul [piano di lavoro](Draft_SelectPlane/it.md) corrente.
-
-
-</div>
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap Piano di Lavoro](Draft_Snap_WorkingPlane/it.md): proietta i punti di aggancio sul [piano di lavoro](Draft_SelectPlane/it.md) corrente.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Quotature](Draft_Snap_Dimensions/it.md): mostra le quote X e Y temporanee.
 
@@ -252,13 +210,7 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Attiva/Disattiva la modalità continua](Draft_ToggleContinueMode/it.md): attiva o disattiva la modalità continua.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Mostra la Barra degli strumenti di aggancio](Draft_ShowSnapBar/it.md): mostra la [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
-
-
-</div>
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Mostra la Barra degli strumenti di aggancio](Draft_ShowSnapBar/it.md): mostra la [barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
 
 ## Ulteriori funzioni 
 

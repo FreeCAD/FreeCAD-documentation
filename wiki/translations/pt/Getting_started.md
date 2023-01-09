@@ -27,11 +27,11 @@ Tal como todos os projetos \"open-source\", O projeto FreeCAD não é um trabalh
 
 </div>
 
-See also:
+Ver também:
 
--   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
--   [Tutorials](Tutorials.md)
--   [Video tutorials](Video_tutorials.md)
+-   [Migrar para o FreeCAD do Fusion360](Migrating_to_FreeCAD_from_Fusion360/pt.md)
+-   [Tutoriais](Tutorials/pt.md)
+-   [Tutoriais em video](Video_tutorials/pt.md)
 
 ## Instalação
 
@@ -54,12 +54,8 @@ Antes de mais (se ainda não o fez) transfira e instale o FreeCAD. Veja a págin
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
-<div class="mw-translate-fuzzy">
 
-<img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
-
-
-</div>
+*O interface FreeCAD standard*
 
 
 <div class="mw-translate-fuzzy">
@@ -102,13 +98,7 @@ A página inicial do FreeCAD permite saltar rapidamente para uma das bancada de 
 
 ## Navegação no espaço 3D 
 
-
-<div class="mw-translate-fuzzy">
-
-O FreeCAD tem disponíveis quatro diferentes [modos de navegação](Mouse_Model.md), estes alteram a forma como usa o seu rato para interagir com os objetos nas vista 3D ou com a própria vista. Um deles foi especificamente feito para [touchpads](Mouse_Model#Touchpad_Navigation/pt.md), onde o botão do meio do rato não é utilizado. A tabela seguinte descreve o modo predefinido, chamado **Navegação CAD** (Pode mudar rapidamente o modo de navegação clicando com o botão direito do rato numa área vazia da vista 3D):
-
-
-</div>
+O FreeCAD tem disponíveis vários [modos de navegação](Mouse_Model.md), que alteram a forma como usa o seu rato para interagir com os objetos nas vista 3D ou com a própria vista. Um deles foi especificamente feito para [touchpads](Mouse_Model#Touchpad_Navigation/pt.md), onde o botão do meio do rato não é utilizado. A tabela seguinte descreve o modo predefinido, chamado **Navegação CAD** (Pode mudar rapidamente o modo de navegação clicando com o botão direito do rato numa área vazia da vista 3D):
 
 
 <div class="mw-translate-fuzzy">

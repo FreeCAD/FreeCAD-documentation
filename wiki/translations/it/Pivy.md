@@ -122,7 +122,16 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Il callback deve essere iniziato da un oggetto, perché questo oggetto deve essere ancora in esecuzione quando il callback si verifica. Vedere anche la [lista completa](Code_snippets/it#Controllare_gli_eventi_del_mouse_nel_visualizzatore_3D_tramite_Python.md) di possibili eventi e dei loro parametri, o la documentazione ufficiale di Coin. {{Top}}
+
+<div class="mw-translate-fuzzy">
+
+Il callback deve essere iniziato da un oggetto, perché questo oggetto deve essere ancora in esecuzione quando il callback si verifica. Vedere anche la [lista completa](Code_snippets/it#Controllare_gli_eventi_del_mouse_nel_visualizzatore_3D_tramite_Python.md) di possibili eventi e dei loro parametri, o la documentazione ufficiale di Coin.
+
+
+</div>
+
+
+{{Top}}
 
 ## Documentazione
 
@@ -149,7 +158,7 @@ SoFile.getClassId()
 -   [Coin3D documentation](https://coin3d.github.io/Coin/html/), ultima documentazione Doxygen generata automaticamente.
 -   [(Open)Inventor Mentor](https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - raccomandato.
 
-### Older
+### Meno recente 
 
 Questi collegamenti forniscono documentazione di riferimento per Coin v3.x. Le differenze con v4.x sono minime, quindi potrebbero essere comunque utili.
 

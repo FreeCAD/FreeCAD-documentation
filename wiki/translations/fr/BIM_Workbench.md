@@ -112,7 +112,7 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Outils pour panneaux](Arch_Panel/fr.md) : crée des objets panneaux et des découpes 2D à partir de ces panneaux.
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Ossature](Arch_Frame/fr.md) : crée une ossature à partir d\'un objet 2D plan et d\'un profil.
 -   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Clôture](Arch_Fence/fr.md) : crée un objet clôture à partir d\'un objet de poteau et d\'un chemin sélectionnés
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Ferme](Arch_Truss/fr.md) : crée une ferme à partir d\'une ligne sélectionnée ou à partir de zéro
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Treillis](Arch_Truss/fr.md) : crée un treillis à partir d\'une ligne sélectionnée ou à partir de zéro
 -   <img alt="" src=images/BIM_Library.png  style="width:32px;"> [Bibliothèques](BIM_Library/fr.md) : insère un objet d\'équipement ou de mobilier. Requiert l\'extension [Parts Library](Parts_Library/fr.md).
 -   <img alt="" src=images/Arch_Component.png  style="width:32px;"> [Composant BIM](Arch_Component/fr.md) : transforme tout objet sélectionné en objet BIM avec prise en charge IFC complète.
 

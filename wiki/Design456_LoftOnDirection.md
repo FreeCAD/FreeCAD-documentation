@@ -34,13 +34,5 @@ Works on 3D objects and might fail sometimes. To be more tested and find out the
 
 
 
-
-
-{{Design456 Tools navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Design456](Category_Design456.md) > Design456 LoftOnDirection
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 LoftOnDirection

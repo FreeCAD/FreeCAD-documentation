@@ -1,72 +1,69 @@
-# PartDesign SubtractivePrism/de
 ---
-- GuiCommand:/de|
-Name=PartDesign SubtractivePrism|
-Name/de=PartDesign Abzuziehendes Prisma
+- GuiCommand:/de
+   Name:PartDesign SubtractivePrism
+   Name/de:PartDesign PrismaAbziehen
+   MenuLocation:Part Design → Grundkörper abziehen → Prisma
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehendes Prisma
-   Shortcut:Keiner
-   SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)---
+   Version:0.17
+   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign PrismaHinzufügen](PartDesign_AdditivePrism/de.md)
+---
+
+# PartDesign SubtractivePrism/de
 
 
-</div>
 
 ## Beschreibung
 
-Fügt ein abzuziehendes Prisma in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
+Fügt einen Prisma-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
-*Auf der linken Seite ist der aktive Körper (A) in Grau und das abzuziehende Prisma (B) in durchscheinenden Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+*Auf der linken Seite ist der aktive Körper (A) in Grau und das abzuziehende Prisma (B) in durchscheinendem Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+
+
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Prisma'''** drücken. **Hinweis**: Das Prisma ist Teil eines Symbolmenüs mit der Bezeichnung *Grundkörper abziehen*. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Prisma zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Prisma im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Abzuziehendes Prisma'''** klicken. **Anmerkung**: Abzuziehendes Prisma ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol das abzuziehende Prisma in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
-3.  Mit Klick auf **OK** bestätigen.
-4.  Das Feature (Formelement) Prisma (Prism) erscheint unterhalb des aktiven Körpers (Body).
+3.  
+    **OK**klicken.
+
+4.  Ein Prism-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 
-</div>
 
 ## Optionen
 
-Es ist möglich, schräge Prismen durch Angabe von Winkeln in Bezug auf den Normalenvektor des gewählten Anhangs zu erzeugen. <small>(v0.19)</small> 
+Es ist möglich, schräge Prismen durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen. {{Version/de|0.19}}
 
-Das Prisma kann auf zwei verschieden Wege bearbeitet werden:
+Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von Grundkörper bearbeiten im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichnung für das Prisma (Prism-Objekt). Dies kann nach Bedarf geändert werden.
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
+-    {{PropertyData/de|Polygon}}: Anzahl der Seiten im Polygonquerschnitt des Prismas.
 
--    {{PropertyData/de|Label}}: lDie vom Benutzer vergebene Bezeichung für das Prisma-Objekt. Dies kann nach Bedarf geändert werden.
-
--    {{PropertyData/de|Polygon}}: Die Anzahl der Seiten des Polygons in der Kontur des Prismas.
-
--    {{PropertyData/de|Circumradius}}: [Umkreisradius](https://de.wikipedia.org/wiki/Umkreis) der Kontur des Prismas.
+-    {{PropertyData/de|Circumradius}}: [Umkreisradius](https://de.wikipedia.org/wiki/Umkreis) des Polygonquerschnitts des Prismas.
 
 -    {{PropertyData/de|Height}}: Höhe des Prismas.
 
+-    {{PropertyData/de|First Angle}}: Winkel in der ersten Richtung. {{Version/de|0.19}}
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Second Angle}}: Winkel in der zweiten Richtung. {{Version/de|0.19}}
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

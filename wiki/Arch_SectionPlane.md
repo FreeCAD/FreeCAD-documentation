@@ -24,11 +24,11 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 3.  Press the **<img src="images/Arch_SectionPlane.svg" width=16px> [Section Plane](Arch_SectionPlane.md)** button or press **S** then **P** keys.
 4.  [Move](Draft_Move.md)/[rotate](Draft_Rotate.md) the Section Plane into correct position if needed.
 5.  Select the Section Plane if not selected already.
-6.  Use either [Drawing DraftView](Draft_Drawing.md), [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw ArchView](TechDraw_ArchView.md) to create a view.
+6.  Use either [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw ArchView](TechDraw_ArchView.md) to create a view.
 
 ## Options
 
--   The Section plane object will only consider a certain set of objects, not all the objects of the document. Objects can be added or removed from a SectionPlane object by using the [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view, selecting objects either in the list of in the 3D scene, and pressing the **add** or remove **buttons**.
+-   The Section plane object will only consider a certain set of objects, not all the objects of the document. Objects can be added or removed from a SectionPlane object by using the [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view, selecting objects either in the list of in the 3D scene, and pressing the **add** or **remove** buttons.
 
 -   With a section plane object selected, use the [Draft Shape2DView](Draft_Shape2DView.md) tool to create a shape object representing the section view in the document
 

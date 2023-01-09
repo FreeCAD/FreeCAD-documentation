@@ -166,9 +166,15 @@ These are tools for modifying architectural objects.
 
 ### ファイル形式
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC/jp.md) : Industry Foundation Classes形式（インポートのみ）
 -   [DAE](Arch_DAE/jp.md) : Colladaメッシュ形式
 -   [OBJ](Arch_OBJ/jp.md) : Objメッシュ形式（エクスポートのみ）
+
+
+</div>
 
 ## API
 

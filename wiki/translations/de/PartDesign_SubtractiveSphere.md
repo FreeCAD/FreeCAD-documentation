@@ -1,72 +1,63 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:PartDesign SubtractiveSphere
-   Name/de:PartDesign Abzuziehende Kugel
+   Name/de:PartDesign KugelAbziehen
+   MenuLocation:Part Design → Grundkörper abziehen → Kugel
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehende Kugel
-   Shortcut:None
-   SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
+   Version:0.17
+   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KugelHinzufügen](PartDesign_AdditiveSphere/de.md)
 ---
 
 # PartDesign SubtractiveSphere/de
 
 
-</div>
 
 ## Beschreibung
 
-Fügt eine abzuziehende Kugel in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
+Fügt einen Kugel-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
 ![](images/PartDesign_SubtractiveSphere_example.svg ) *Auf der linken Seite ist der aktive Körper (A) in Grau und die abzuziehende Kugel (B) in durchscheinenden Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
 
+
+
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Kugel'''** drücken. **Hinweis**: Die Kugel ist Teil eines Symbolmenüs mit der Bezeichnung Grundkörper abziehen. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Kugel zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Kugel im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Abzuziehende Kugel'''** klicken. **Anmerkung**: Abzuziehende Kugel ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehenden Kugel in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
-3.  Mit Klick auf **OK** bestätigen.
-4.  Das Feature (Formelement) Kugel (Sphere) erscheint unterhalb des aktiven Körpers (Body).
+3.  
+    **OK**klicken.
+
+4.  Ein Sphere-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 
-</div>
 
 ## Optionen
 
-Die Kugel kann auf zwei verschieden Wege bearbeitet werden:
+Die Kugel kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für Die Kugel (Sphere-Objekt). Dies kann nach Bedarf geändert werden.
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
+-    {{PropertyData/de|Radius}}: Kugelradius.
 
--    **Label**: Die vom Benutzer vergebene Bezeichung für das Kugel-Objekt. Dies kann nach Bedarf geändert werden.
+-    {{PropertyData/de|Angle1}}: (mit *V-Parameter* im Dialog Parameter des Grundkörpers bezeichnet) Die untere Verkürzung der Kugel, normal zur Z-Achse (-90° für eine ganze Kugel)
 
--    {{PropertyData/de|Radius}}: Radius Kugel.
+-    {{PropertyData/de|Angle2}}: (ohne Beschriftung im Dialog Parameter des Grundkörpers) Die obere Verkürzung der Kugel, normal zur Z-Achse (90° für eine ganze Kugel).
 
--    {{PropertyData/de|Angle1}}: (mit *V-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Die untere Verkürzung der Kugel, normal zur Z-Achse (-90° für eine volle Kugel)
-
--    {{PropertyData/de|Angle2}}: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Die obere Verkürzung der Kugel, normal zur Z-Achse (90° für eine volle Kugel).
-
--    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des halben Kugelquerschnitts (360° für eine volle Kugel).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Angle3}}: (mit *U-Parameter* im Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des (halben) Kugelquerschnitts (360° für eine ganze Kugel).
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

@@ -88,7 +88,7 @@
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for the body. <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Граничное условие скорости потока](FEM_ConstraintFlowVelocity/ru.md): Применяется для задания скорости потока как граничного условия на ребре (2D) или грани (3D).
 

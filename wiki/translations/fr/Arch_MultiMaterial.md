@@ -22,6 +22,8 @@ Tous les objets Arch ne peuvent pas actuellement utiliser des matériaux multipl
 -   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Fenêtre](Arch_Window/fr.md) avec des matériaux multiples va attribuer des matériaux avec un nom donné défini dans le Multi-Matériau aux composants de fenêtre avec un même nom ou type (voir ci-dessous). L\'épaisseur du matériau n\'est pas prise en compte.
 -   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Arch Panneaux](Arch_Panel/fr.md) avec des matériaux multiples utilisera les définitions et les épaisseurs de matériaux pour créer un panneau multicouche.
 
+
+
 ## Utilisation
 
 1.  Créez d\'abord une série de **<img src="images/Arch_SetMaterial.svg" width=16px> [Arch Matériaux](Arch_SetMaterial/fr.md)** dont vous aurez besoin dans vos matériaux multiples.
@@ -44,11 +46,15 @@ Lors de la création ou de l\'édition d\'un Matériaux multiples en double-cliq
 -   Lorsqu\'un multi-matériaux contient des couches d\'épaisseur nulle, cette épaisseur est considérée comme variable. Les objets d\'Arch qui utilisent le multi-matériaux, tels que les murs et les panneaux, traiteront cela en conséquence, et donneront à cette couche l\'espace restant disponible compte tenu de sa propre largeur ou épaisseur.
 -   Si vous nommez les différents composants d\'un \"Cadre\" multi-matériaux, \"Panneau plein\", \"Panneau de verre\" ou \"Louvre\" et appliquez ce matériau à une fenêtre, les matériaux donnés seront appliqués aux composants de fenêtre correspondants.
 
+
+
 ## Relation avec IFC 
 
 Cela correspond à peu près à une combinaison de [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) et [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
 ## Limitations
+
+
 
 ## Script
 

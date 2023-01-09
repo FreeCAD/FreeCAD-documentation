@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôture en répétant un poteau et une section de clôture le long d\'un chemin donné.
+L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôture en répétant un poteau et une section de clôture le long d\'un tracé donné.
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
@@ -20,35 +20,35 @@ L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôtu
 ### Création à partir de zéro 
 
 1.  Utilisez un atelier de votre choix pour créer un seul poteau de clôture et une seule section.
-2.  Créez le chemin que la clôture doit suivre à l\'aide de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) ou de l\'[atelier Draft](Draft_Workbench/fr.md).
+2.  Créez le tracé que la clôture doit suivre à l\'aide de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) ou de l\'[atelier Draft](Draft_Workbench/fr.md).
 3.  Revenez à l\'[atelier Arch](Arch_Workbench/fr.md).
-4.  Sélectionnez la section, la publication et le chemin dans exactement cet ordre.
+4.  Sélectionnez la section, la publication et le tracé dans exactement cet ordre.
 5.  Appuyez sur le bouton **<img src="images/Arch_Fence.svg" width=16px>[Clôture](Arch_Fence/fr.md)**.
 
 ## Options
 
 Pour l\'instant, l\'outil suppose ce qui suit
 
-1.  Le chemin est dessiné sur le plan XY
+1.  Le tracé est dessiné sur le plan XY
 2.  La section et le poteau sont dessinés à l\'origine de manière à rester debout dans la vue de face
 
 ## Propriétés
 
 ### Données
 
--    **Path**: Chemin d\'accès que doit suivre la clôture
+-    **Path**: tracé que doit suivre la clôture
 
--    **Post**: Un seul piquet de clôture à répéter
+-    **Post**: un seul poteau de clôture à répéter
 
--    **Section**: Une seule section à répéter
+-    **Section**: une seule section à répéter
 
--    **Number Of Posts**: Nombre total de messages utilisés pour construire la clôture. Ceci est calculé automatiquement.
+-    **Number Of Posts**: nombre total de poteaux utilisés pour construire la clôture. Calculé automatiquement.
 
--    **Number Of Sections**: Nombre total de sections utilisées pour construire la clôture. Ceci est calculé automatiquement.
+-    **Number Of Sections**: nombre total de sections utilisées pour construire la clôture. Calculé automatiquement.
 
 ### Vue
 
--    **Use Original Colors**: Lorsque l\'option est définie sur `True`, la clôture utilisera les couleurs de la section d\'origine. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
+-    **Use Original Colors**: lorsque l\'option est définie à `True`, la clôture utilisera les couleurs de la section d\'origine et du piquet. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
 
 ## Remarques
 

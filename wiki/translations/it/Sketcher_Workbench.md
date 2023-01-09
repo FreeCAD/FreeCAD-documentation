@@ -172,13 +172,9 @@ I vincoli sono utilizzati per stabilire le relazioni tra gli elementi del disegn
 
 Questi vincoli non sono associati a valori numerici.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md): Crea un vincolo di coincidenza (punto-con-punto) tra due punti selezionati.
 
-
-</div>
+Funge da vincolo concentrico se sono selezionati due o più cerchi, archi, ellissi o archi di ellissi.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md): Crea un vincolo (fissa) un punto-su-un-oggetto sull\'elemento selezionato.
 
@@ -297,6 +293,8 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Diminuisci la molteplicità](Sketcher_BSplineDecreaseKnotMultiplicity/it.md)
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Inserisci il nodo](Sketcher_BSplineInsertKnot/it.md). {{Version/it|0.20}}
+
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
 ### Spazio virtuale dello Sketcher 
 

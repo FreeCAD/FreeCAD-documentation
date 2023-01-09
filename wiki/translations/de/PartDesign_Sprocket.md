@@ -9,32 +9,22 @@
 
 # PartDesign Sprocket/de
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Mit diesem Werkzeug kannst du ein 2D Profil eines Kettenrads erstellen. Es kann mit der Funktion [PartDesign Polstern](PartDesign_Pad/de.md) aufgefüllt werden.
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+Mit diesem Werkzeug kann ein 2D-Profil eines Kettenrads (oder Ritzels) erstellt werden. Es kann mit der Funktion [PartDesign Aufpolsterung](PartDesign_Pad/de.md) extrudiert werden.
 
 ## Anwendung
 
-1.  Gehe zum Menü **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:24px"> Kettenrad...**.
-2.  Setze die **Anzahl der Zähne** und die **Kettenrad Referenz**.
-3.  Klicke **OK**
-4.  Wenn das Zahnrad außerhalb des aktiven Körpers erstellt wird, ziehe es in einen Körper, um weitere Eigenschaften wie Polstern anzuwenden.
+1.  Bei Bedarf den richtigen Körper auswählen.
 
+2.  Den Menüeintrag **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:24px"> Sprocket...** auswählen.
 
-</div>
+3.  Die {{PropertyData/de|Number Of Teeth}} und die {{PropertyData/de|Sprocket Reference}} festlegen.
+
+4.  
+    **OK**klicken.
+
+5.  Wenn es keinen aktiven Körper gibt: Das Kettenrad zur Anwendung weiterer Formelemente wie Aufpolsterung auf einen Körper ziehen.
 
 ## Eigenschaften
 

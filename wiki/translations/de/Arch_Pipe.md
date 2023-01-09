@@ -43,7 +43,13 @@ Dieses Werkzeug ermöglicht es, Rohre von Grund auf oder aus ausgewählten Objek
 
 ![](images/Arch_pipe_example_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Arch Equipments haben jetzt eine neue **FangPunkte** Eigenschaft, bei der es sich um eine Liste von 3D Vektoren handelt. Dies erlaubt dir benutzerdefinierte Fangpunkte hinzuzufügen, an denen du fangen kannst, wenn die neue [Entwurf Spezial](Draft_Snap_Special/de.md) Fang Schaltfläche aktiviert ist. Derzeit ist diese Eigenschaft allerdings nur für Python verfügbar. Im obigen Fall habe ich einen neuen Fangpunkt am Ausgang der WC Anlage hinzugefügt. Die Vektoren innerhalb der FangPunkte erscheinen auf dem Modell als weiße Punkte:
+
+
+</div>
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
@@ -57,7 +63,13 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_04.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Dort ist jetzt ein neues [Entwurf Neigungs](Draft_Slope/de.md) Werkzeug , mit dem die Neigung von Entwurfslinien geändert werden kann, z.B. auf 5% (0,05). So können wir unseren Abfalllinien schnell eine korrekte Neigung geben. Nur die z Koordinaten werden durch dieses Werkzeug geändert, wir brauchen sie also nur wieder aneinander zu fangen, die obere Projektion bleibt unverändert.
+
+
+</div>
 
 ![](images/Arch_pipe_example_05.jpg )
 
@@ -73,6 +85,11 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 Es ist auch möglich, Arch Rohre ohne Grundlinie zu erstellen. In diesem Fall verwende die Eigenschaft \"Länge\", um die Länge zu definieren.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
@@ -80,7 +97,18 @@ Es ist auch möglich, Arch Rohre ohne Grundlinie zu erstellen. In diesem Fall ve
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Rohr Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das Rohr Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

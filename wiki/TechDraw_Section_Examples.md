@@ -192,18 +192,29 @@ To be honest, if the value of \"View Direction as Angle\" of the aligned section
  <img alt="" src=images/TechDraw_ExampleSection-33.png  style="width:400px;">  
 *Same as above with "View Direction as Angle" set to {{Value|5°* exactly. The view direction of the second segment from the top is flipped (the shaft is visible)}}
 
+#### Complex one line sections 
+
+One aspect that hasn\'t been focused on is that the length (width) of the section depends on the arrow positions i.e. the section line length. In contrast to simple sections where we have no influence on the section line length, we can control this length through the length of the used 3D line, but the results differ from Offset section to NoParallel section:
+
+ <img alt="" src=images/TechDraw_ExampleSection-34.png  style="width:400px;"> <img alt="" src=images/TechDraw_ExampleSection-35.png  style="width:400px;">  
+*Two images displaying the same section line definition. Left: The '''Offset section''' acts similar to a break-out view showing the segment between the arrows as a section while the rest of the object stays uncut. Right: The '''NoParallel section''' only shows the section between the arrows and omits the rest of the object (like a detail section?).*
+
 ### Complex sections in use 
 
 #### Half section 
 
 A view showing a symmetric object cut on one side of a center line and uncut on the other. The depth is usually defined by another center line.
 
- <img alt="" src=images/TechDraw_ExampleSection-28.png  style="width:200px;"> <img alt="" src=images/TechDraw_ExampleSection-29.png  style="width:200px;">  
-*Base view and '''offset''' section view with and without section line arrows and title, both are according to standards* The view direction angle has to be guessed and set to a nearly matching value or the result could be other than expected.
+ <img alt="" src=images/TechDraw_ExampleSection-28.png  style="width:200px;"> <img alt="" src=images/TechDraw_ExampleSection-29.png  style="width:200px;"> <img alt="" src=images/TechDraw_ExampleSection-36.png  style="width:170px;">  
+*Left and center: Base view and '''offset''' section view with and without section line arrows and title, both are according to standards. 
+Right: Alternative section line; after working out the difference shown with section M-M above*
 
 #### Notes 
 
 -   The examples are created using weekly build 0.21 - 31155 with first angle and ISO selected.
+
+:   weekly build 0.21 - 31340 for M-M.
+
 -   The view direction (the orientation of the arrows) has to be found manually.
 -   All complex sections have to be rotated manually.
 -   A \"View Direction as Angle\" value of 0° exactly does not work for offset sections. (180°, too?)

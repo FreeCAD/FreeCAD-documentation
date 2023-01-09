@@ -28,13 +28,7 @@ Il comando **Box di selezione di elementi** seleziona le facce in un\'area retta
 -   Utilizzare il comando [Box di selezione](Std_BoxSelection/it.md) per selezionare gli oggetti anziché le facce.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

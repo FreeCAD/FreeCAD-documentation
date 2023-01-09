@@ -9,9 +9,13 @@
 
 # Mesh PolyTrim/pl
 
+
+
 ## Opis
 
 Polecenie **Przytnij siatkę** przycina ściany i części ścian z obiektów siatkowych.
+
+
 
 ## Użycie
 
@@ -41,6 +45,39 @@ Polecenie **Przytnij siatkę** przycina ściany i części ścian z obiektów si
         **Anuluj**
         
         : anuluje polecenie.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również: [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Aby przyciąć siatkę za pomocą wielokąta użyj jej metody `trim`.
+
+
+```python
+import FreeCAD as App
+import Mesh
+
+# Create a non-parametric box-shaped mesh:
+msh = App.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+msh.Mesh = Mesh.createBox(30, 40, 50)
+msh.ViewObject.DisplayMode = "Flat Lines"
+
+# Define some points:
+p1 = App.Vector(0, 0, 0)
+p2 = App.Vector(60, 0, 0)
+p3 = App.Vector(60, 60, 0)
+
+# We need to work on a copy of the msh.Mesh object:
+new_msh = msh.Mesh.copy()
+
+# Trim that copy:
+new_msh.trim([p1, p2, p3], 0) # 2nd argument: 0=inner, 1=outer.
+
+# Update msh.Mesh:
+msh.Mesh = new_msh
+```
 
 
 

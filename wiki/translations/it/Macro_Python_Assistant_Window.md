@@ -12,15 +12,9 @@
 
 Uno dei potenti aspetti di Python è la sua Console che serve sia come dispositivo di output che da interprete dinamico del codice sorgente. La macro Python Assistant Window (in seguito denominata \'PAW\') fornisce ulteriori funzionalità alla console Python. {{Codeextralink|http://pastebin.com/raw/2m0u94Z1}} <img alt="" src=images/PythonAssistantWindowScreenSnapshot.jpg  style="width:500px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
-Essendo un ambiente di sviluppo moderno, Python presenta diversi vantaggi rispetto ai linguaggi più vecchi e ai loro ambienti di sviluppo. Di grande utilità è la console Python in cui si può inserire il codice e ricevere i risultati in modo interattivo. I risultati possono poi essere copiati e utilizzati per costruire il codice sorgente Python (in un editor di sorgente) o incollati nella console Python in forma alterata per ottenere ulteriori output. Questo è un metodo molto potente per sviluppare un codice.
-
-
-</div>
+Essendo un ambiente di sviluppo moderno, Python presenta diversi vantaggi rispetto ai linguaggi più vecchi e ai loro ambienti di sviluppo. Di grande utilità è la console Python in cui si può inserire il codice e ricevere i risultati in modo interattivo ([REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)).. I risultati possono poi essere copiati e utilizzati per costruire il codice sorgente Python (in un editor di sorgente) o incollati nella console Python in forma alterata per ottenere ulteriori output. Questo è un metodo molto potente per sviluppare un codice.
 
 Nonostante la sua potenza, appare subito evidente che la console Python ha due inconvenienti:
 

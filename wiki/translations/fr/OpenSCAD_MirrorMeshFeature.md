@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:OpenSCAD MirrorMeshFeature
    Name/fr:OpenSCAD Miroir du maillage 
-   MenuLocation:OpenSCAD → Miroir du maillage...
+   MenuLocation:OpenSCAD → Miroir du maillage
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Mise en miroir](Part_Mirror/fr.md)
 ---
@@ -16,7 +16,7 @@ Crée un nouvel objet maillé en miroir, symmétrisé autour de l\'axe sélectio
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé à mettre en miroir.
-2.  Cliquez sur le menu **OpenSCAD → Miroir du maillage...** .
+2.  Cliquez sur le menu **OpenSCAD → Miroir du maillage**.
 3.  Sélectionnez l\'axe souhaité dans la boîte de dialogue, ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
 
 -   Un nouvel objet est créé et mis en miroir, l\'objet d\'origine est masqué.
@@ -28,7 +28,7 @@ Crée un nouvel objet maillé en miroir, symmétrisé autour de l\'axe sélectio
 ## Remarques
 
 -   La fonction ne modifie pas le maillage existant mais renvoie un nouveau maillage.
--   La fonction est accessible via python:
+-   La fonction est accessible via Python :
 
 
 ```python

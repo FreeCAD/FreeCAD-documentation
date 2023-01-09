@@ -64,11 +64,50 @@ Installed, should imply that things are pretty much the same, but, there is a wr
 
 Most of the previous discussion is the same. Except that none of the places that Python searches has a directory called PartDesign, the Blender/sverchok can't find \[/i\]PartDesign/\_\_init\_\_py\[/i\].
 
-The solution is use a BASH shellscript to launch Blender that uses the python path and Linux export to add the needed path to the Python search path. Save the following (adjusted for paths and such on the target PC) in a file with the extension *.sh* 
+The solution is to use a BASH shellscript to launch Blender that uses the python path and Linux export to add the needed path to the Python search path. Save the following (adjusted for paths and such on the target PC) in a file with the extension *.sh* 
 ```python
-PYTHONPATH=/usr/lib/freecad/Mod    #define PYTHONPATH
-export PYTHONPATH                 #export PYTHONPATH
-blender                                    #launch blender
+PYTHONPATH=/usr/lib/freecad/Mod           #define PYTHONPATH
+export PYTHONPATH                         #export PYTHONPATH
+blender                                   #launch blender
+```
+
+### Linux Appimage 
+
+This process was determined under Ubuntu 22.04 with Blender 3.4.1 and the Appimage of FreeCAD 0.21. (Both using Python 3.10.x)
+
+When the FreeCAD appimage is started it creates a temporary FreeCAD installation in the /tmp directory. The name is different each time FreeCAD is started. It is in the following form where the last 6 letters are a random string: 
+```python
+/tmp/.mount_FreeCAwoAlTz
+```
+
+This directory is only available while FreeCAD is running. This means that the setting under Blender Preferences Add-ons for Sverchok can\'t be set permanently and must be discoverable by Sverchok. Sverchok need to know where the FreeCAD Modules reside. The complete is as follows: 
+```python
+/tmp/.mount_FreeCAwoAlTz/usr/lib
+```
+
+The solution is to use a BASH shellscript to launch Blender that uses the python path and Linux export to add the needed path to the Python search path. Save the following (adjusted for paths and such on the target PC) in a file with the extension *.sh* 
+```python
+PYTHONPATH=$(find  /tmp -type d -iname '*mount_FreeCA*' 2>/dev/null)"/usr/lib"    #define PYTHONPATH
+export PYTHONPATH                                                                 #export PYTHONPATH
+blender                                                                           #launch blender
+```
+
+FreeCAD *must* be running *before* this script executes and remain running while Blender/Sverchok is in use. As script similar to the following would only launch Blender if FreeCAD is running. 
+```python
+#!/bin/bash
+APP="FreeCAD.appimag"
+if pgrep "$APP" >/dev/null      #Is FreeCAD running?
+then
+    echo "$APP is running! Starting Blender" #launch blender
+
+    PYTHONPATH=$(find  /tmp -type d -iname '*mount_FreeCA*' 2>/dev/null)"/usr/lib"
+    echo "PYTHONPATH: $PYTHONPATH"
+
+    cd ~/blender
+    ./blender
+else
+    echo "$APP is not running, exiting!"
+fi                                                                          
 ```
 
 ### Miscellaneous

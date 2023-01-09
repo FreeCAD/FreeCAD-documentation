@@ -4,38 +4,21 @@
    Name/de:PartDesign Spiegeln
    MenuLocation:Part Design → Muster anwenden → Spiegeln
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
 ---
 
 # PartDesign Mirrored/de
 
-
-</div>
-
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartDesign Spiegeln** spiegelt ein oder mehrere Formelemente über eine Ebene.
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **Spiegeln** spiegelt Formelemente über eine Ebene.
-
-
-</div>
-
-![](images/PartDesign_Mirrored_example.svg )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Oben: Eine Taschenformelement wurde aus einer Skizze erstellt, die einen Kreis (A) enthält. Die Tasche wurde anschließend zum Erstellen eines gespiegelten Formelements verwendet. Die vertikale Skizzenachse (B) wurde als Symmetrieachse verwendet. Das Ergebnis (C) wird rechts angezeigt.*
-
-
-</div>
+![](images/PartDesign_Mirrored_example.svg ) 
+*Ein Formelement Tasche, das aus einer Skizze erstellt wurde, die einen Kreis (A) enthält, wird verwendet, um ein gespiegeltes Formelement zu erstellen. Die vertikale Achse der Skizze (B) wird als Symmetrieachse verwendet, um die Spiegelebene festzulegen. Das Ergebnis (C) wird rechts angezeigt.*
 
 ## Anwendung
 
-### Create
+### Erstellen
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features.
@@ -47,7 +30,7 @@ Das Werkzeug **Spiegeln** spiegelt Formelemente über eine Ebene.
 6.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
 
-### Edit
+### Bearbeiten
 
 1.  Do one of the following:
     -   Double-click the Mirrored object in the [Tree view](Tree_view.md).
@@ -55,13 +38,7 @@ Das Werkzeug **Spiegeln** spiegelt Formelemente über eine Ebene.
 2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Optionen
-
-
-</div>
 
 -   To add features:
     1.  Press the **Add feature** button.
@@ -112,9 +89,9 @@ Das Werkzeug **Spiegeln** spiegelt Formelemente über eine Ebene.
         : Select a planar face in the [3D view](3D_view.md).
 -   If the **Update view** checkbox is checked the view will update in real time.
 
-## Begrenzungen
+## Einschränkungen
 
-See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
+Siehe [PartDesign PolaresMuster](PartDesign_PolarPattern/de#Einschränkungen.md).
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part EditAttachment
    Name/fr:Part Ancrage
-   MenuLocation:Part → Ancrage...
+   MenuLocation:Part → Ancrage
    Workbenches:[Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Placement](Placement/fr.md), [Tutoriel Les bases pour l'ancrage](Basic_Attachment_Tutorial/fr.md), [Part Part2DObject](Part_Part2DObject/fr.md)
@@ -17,7 +17,7 @@
 ## Utilisation
 
 1.  Sélectionnez l\'objet à ancrer.
-2.  Allez dans le menu **Part → Ancrage\...**.
+2.  Allez dans le menu **Part → Ancrage**.
 
     :   **Remarque**: lorsque vous travaillez dans [PartDesign](PartDesign_Workbench/fr.md) et que vous créez des esquisses, des géométries de référence ou des primitives, les étapes 1 et 2 sont inutiles: la boite de dialogue Ancrage est automatiquement activée.
 3.  Sous les paramètres **Ancrage**, *Non ancré* peut être lu. Le premier bouton est **Sélection...** pour indiquer qu\'il attend une sélection dans la vue 3D.
@@ -32,7 +32,7 @@
 
 ## Options
 
-![](images/Part_Offset_Tasks_fr.png )
+<img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
 ### Mode d\'ancrage 
 
@@ -50,8 +50,7 @@ L\'objet est rendu perpendiculaire au bord. La référence au sommet, facultativ
 :   arête, sommet
 :   sommet, arête
 
-
-{{Part Tools navi/fr}}
+Voir [Modes d\'attachement de type O-X-Y](O-X-Y_type_attachment_modes/fr.md) pour plus de détails sur les modes suivants :
 
 #### Alignement O-Z-X 
 

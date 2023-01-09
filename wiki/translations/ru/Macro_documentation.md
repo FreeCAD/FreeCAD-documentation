@@ -1,7 +1,9 @@
 # Macro documentation/ru
 ## Описание
 
-All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented. They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
+All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented.
+
+They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
 
 The [Macros recipes](Macros_recipes.md) page has a good selection of macros created by experienced users, and many of them can be directly installed from the [Addon Manager](Std_AddonMgr.md).
 
@@ -9,9 +11,14 @@ See [GuiCommand model](GuiCommand_model.md) and macro pages like [Macro Loft](Ma
 
 If a macro provides a well defined functionality, and is well documented, it could be included eventually as part of a new or an existing [workbench](Workbenches.md).
 
+
+
 ## Страница нового макроса 
 
-Create a new page for the macro starting with the word `Macro_`, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
+
+{{ColoredText|The first page is created '''obligatory''' in English language, the translation of page for other languages must be validate by one administrator and after you can translate in all other language.}}
+
+Create a new page for the macro starting with the word `Macro_` after the name of the macro, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
 
 In the new page you should use [Template:Macro](Template_Macro.md) at the top, with a minimum of information:
 
@@ -64,6 +71,8 @@ or use the `Translate` field
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *[customize toolbars](How_to_install_macros]]_and_[[Customize_Toolbars.md) links in the infobox in each macro page*
 
+
+
 ### Добавление описания к макросу 
 
 -   Just like a [Gui Command](Gui_Command.md), explain what the macro does, its inputs, outputs, options, and limitations, if any.
@@ -92,6 +101,8 @@ Locale: English/UnitedStates (en_US)
 ```
 
 Consider adding this information in a comment block inside the code of the macro.
+
+
 
 ### Добавление кода макроса 
 
@@ -162,6 +173,8 @@ This template must be placed at the beginning of the macro page, in the **Descri
 
 {{ColoredParagraph|'''PS:''' In case upgrade in GitHub the path of the RAW code is modified not forgotten modify the link in the Codeextralink template.}}
 
+
+
 ## Добавление нового макроса в wiki 
 
 Use [Template:MacroLink](Template_MacroLink.md) to include a line in the appropriate category in [Macros recipes](Macros_recipes.md); create a new category if needed.
@@ -190,6 +203,8 @@ To localize this template, use the appropriate language link in the first argume
 * {{MacroLink|Macro_Excellent_Modification/fr|Macro Excellent Modification```: (translated description)
 </nowiki>
 }}
+
+
 
 ## Добавление нового макроса в центральный репозиторий 
 

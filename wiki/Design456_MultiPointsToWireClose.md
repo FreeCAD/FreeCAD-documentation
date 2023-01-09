@@ -31,13 +31,5 @@ When you select the points in the object lists, the points aren\'t green. That c
 
 
 
-
-
-{{Design456 Tools navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Design456](Category_Design456.md) > Design456 MultiPointsToWireClose
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 MultiPointsToWireClose

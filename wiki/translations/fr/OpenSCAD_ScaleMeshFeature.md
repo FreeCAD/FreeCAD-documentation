@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:OpenSCAD ScaleMeshFeature
    Name/fr:OpenSCAD Mise à l'échelle du maillage
-   MenuLocation:OpenSCAD → Mise à l'échelle du maillage...
+   MenuLocation:OpenSCAD → Mettre à l'échelle le maillage
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Mesh Échelle](Mesh_Scale/fr.md)
 ---
@@ -16,7 +16,7 @@ Crée un nouvel objet maillé mis à l\'échelle avec une mise à l\'échelle in
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé à mettre à l\'échelle.
-2.  Cliquez sur le menu **OpenSCAD → Mise à l'échelle du maillage...** .
+2.  Cliquez sur le menu **OpenSCAD → Mettre à l'échelle le maillage**.
 3.  Sélectionnez l\'axe souhaité dans la boîte de dialogue, ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
 
 -   Un nouvel objet est créé et mis à l\'échelle, l\'objet d\'origine est masqué.
@@ -28,13 +28,13 @@ Crée un nouvel objet maillé mis à l\'échelle avec une mise à l\'échelle in
 ## Remarques
 
 -   La fonction ne modifie pas le maillage existant mais renvoie un nouveau maillage.
--   La fonction est accessible via python:
+-   La fonction est accessible via Python :
 
 
 ```python
 import OpenSCADUtils
 import Mesh
-#Cela suppose un objet existant dans le document nommé "Mesh" que vous souhaitez mettre à l'échelle
+#this assumes an existing object in the document named "Mesh" that you wish to scale
 original_mesh = App.ActiveDocument.Mesh
 scaled_mesh = OpenSCADUtils.scalemesh(original_mesh.Mesh, FreeCAD.Base.Vector(1,0,0))
 Mesh.show(scaled_mesh)

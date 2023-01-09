@@ -100,7 +100,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for the body. <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
 
 -   <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md):
 

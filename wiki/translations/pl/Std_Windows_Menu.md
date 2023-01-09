@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 **Menu Okna** jest jednym z siedmiu pozycji w [Menu głównym](Standard_Menu/pl.md):
@@ -27,21 +29,23 @@
 
 Menu Okna pozwala na przełączanie i układanie otwartych okien aplikacji [Głównego obszaru widoku](Main_view_area/pl.md).
 
+
+
 ## Przybory
 
 W tym menu dostępne są następujące narzędzia:
 
--   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Następne](Std_ActivateNextWindow.md): Aktywuje kolejne okno.
+-   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Następne](Std_ActivateNextWindow/pl.md): Aktywuje kolejne okno.
 
--   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Poprzednie](Std_ActivatePrevWindow.md): Aktywuje poprzednie okno.
+-   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Poprzednie](Std_ActivatePrevWindow/pl.md): Aktywuje poprzednie okno.
 
--   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Sąsiadująco](Std_TileWindows.md): Układa okna.
+-   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Sąsiadująco](Std_TileWindows/pl.md): Układa okna.
 
--   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Kaskadowo](Std_CascadeWindows.md): Układa okna.
+-   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Kaskadowo](Std_CascadeWindows/pl.md): Układa okna.
 
--   [Rozmieść ikony](Std_ArrangeIcons.md): Przestarzały. Układa okna sąsiadująco.
+-   [Rozmieść ikony](Std_ArrangeIcons/pl.md): Przestarzały. Układa okna sąsiadująco.
 
--   [Okna \...](Std_Windows.md): Otwiera okno dialogowe, z którego można aktywować okno.
+-   [Okna \...](Std_Windows/pl.md): Otwiera okno dialogowe, z którego można aktywować okno.
 
 
 

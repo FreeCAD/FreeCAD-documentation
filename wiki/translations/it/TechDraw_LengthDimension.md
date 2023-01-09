@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -25,6 +27,8 @@ Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensio
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Dimensione della lunghezza presa da due nodi arbitrari della vista*
+
+
 
 ## Utilizzo
 
@@ -94,6 +98,8 @@ The dimension dialog offers the following settings:
 -   **Use default**: Set extension line angle to the usual angle.
 
 -   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
+
 
 ## Proprietà
 
@@ -274,6 +280,8 @@ The dimension dialog offers the following settings:
 
 </div>
 
+
+
 ## Limitazioni
 
 
@@ -285,6 +293,8 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologi
 </div>
 
 Pertanto, si consiglia di aggiungere le dimensioni verso la fine del processo di creazione del modello, quando il modello non viene più modificato.
+
+
 
 ### Soluzione
 
@@ -301,6 +311,8 @@ Vedere [Dimensione da punti di riferimento](TechDraw_LandmarkDimension/it.md) pe
 
 
 </div>
+
+
 
 ## Script
 
@@ -324,6 +336,8 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
+
+
 
 ## Note
 

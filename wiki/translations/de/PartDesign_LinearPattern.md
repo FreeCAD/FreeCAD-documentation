@@ -1,39 +1,24 @@
 ---
 - GuiCommand:/de
    Name:PartDesign LinearPattern
-   Name/de:PartDesign LinearPattern
+   Name/de:PartDesign LinearesMuster
    MenuLocation:Part Design → Muster anwenden → Lineares Muster
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
 ---
 
 # PartDesign LinearPattern/de
 
-
-</div>
-
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **PartDesign LinearesMuster** erstellt ein lineares Muster eines oder mehrerer Formelemente
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **LinearesMuster** erzeugt gleichmäßig verteilte Kopien eines Formelements entlang einer geraden Linie oder Kante.
-
-
-</div>
-
-![](images/PartDesign_LinearPattern_example.svg )
-
-
-<div class="mw-translate-fuzzy">
-
-*Oben: Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als*Träger*bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.*
-
-
-</div>
+![](images/PartDesign_LinearPattern_example.svg ) 
+*Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als ''Träger'' bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.''*
 
 ## Anwendung
 
-### Create
+### Erstellen
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
@@ -45,7 +30,7 @@ Das Werkzeug **LinearesMuster** erzeugt gleichmäßig verteilte Kopien eines For
 6.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
 
-### Edit
+### Bearbeiten
 
 1.  Do one of the following:
     -   Double-click the LinearPattern object in the [Tree view](Tree_view.md).
@@ -53,13 +38,7 @@ Das Werkzeug **LinearesMuster** erzeugt gleichmäßig verteilte Kopien eines For
 2.  The **LinearPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Optionen
-
-
-</div>
 
 -   To add features:
     1.  Press the **Add feature** button.

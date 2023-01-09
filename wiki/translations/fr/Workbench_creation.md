@@ -9,13 +9,13 @@ Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de Fr
 
 Vous avez besoin d\'un dossier, avec le nom de votre choix, placé dans le répertoire Mod de l\'utilisateur, avec un fichier `Init.py` et, éventuellement, un fichier `InitGui.py`. Le fichier Init est exécuté au démarrage de FreeCAD et le fichier `InitGui.py` est exécuté immédiatement après, mais uniquement lorsque FreeCAD démarre en mode GUI. C\'est tout ce dont FreeCAD a besoin pour trouver votre atelier au démarrage et l\'ajouter à son interface.
 
-Le répertoire User Mod est un sous-répertoire du répertoire de données de l\'application utilisateur (vous pouvez trouver ce dernier en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md)):
+Le répertoire User Mod est un sous-répertoire du répertoire de données de l\'application utilisateur (vous pouvez trouver ce dernier en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md)) :
 
 -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
 -   Sous Windows, il s\'agit de **%APPDATA%\FreeCAD\Mod\**, qui est généralement **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
 -   Sur macOS, il s\'agit généralement de **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
-Le répertoire Mod devrait ressembler à ceci:
+Le répertoire Mod devrait ressembler à ceci :
 
 
 ```python

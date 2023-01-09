@@ -41,7 +41,13 @@
 
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 ![ right](images/Part_Offset_Tasks.png )
+
+
+</div>
 
 ### Atașament
 

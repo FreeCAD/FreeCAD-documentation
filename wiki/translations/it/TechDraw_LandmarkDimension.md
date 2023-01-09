@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -23,7 +25,13 @@ Lo strumento Quota da punti di riferimento aggiunge una quota lineare a una vist
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Lo scopo di questo strumento è fornire una soluzione alternativa alla corruzione della dimensione causata dai problemi di \" \"[denominazione topologica](topological_naming_problem/it.md)\"\". I punti sorgente dovrebbero usare [Espressioni](Expressions/it.md) o altri meccanismi di contenimento per stabilire la loro posizione. Poiché i punti sono [Oggetti documento](App_DocumentObject/it.md) e non modellano i componenti, il loro nome non cambia con i ricalcoli e quindi sono facilmente reperibili.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -41,6 +49,8 @@ La quota da punti di riferimento generalmente si comporta come qualsiasi altra q
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -54,13 +64,19 @@ La quota da punti di riferimento generalmente si comporta come qualsiasi altra q
 
 </div>
 
+
+
 ## Limitazioni
 
 Lo strumento Quota da punti di riferimento è inizialmente limitato alle dimensioni \"Distanza\". Altri tipi possono essere aggiunti se richiesto.
 
+
+
 ## Proprietà
 
 Quota da punti di riferimento non introduce nuove proprietà.
+
+
 
 ## Script
 

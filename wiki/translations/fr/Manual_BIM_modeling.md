@@ -161,12 +161,12 @@ Nous allons maintenant placer quelques dimensions. Contrairement au [ chapitre p
 
 ![](images/Exercise_arch_19.jpg )
 
-Nous allons maintenant préparer un ensemble de vues à partir de notre modèle, à placer sur une page de dessin. Nous pouvons le faire avec les outils de l\'atelier Drawing, comme nous l\'avons vu dans le chapitre précédent, mais l\'atelier Arch offre également un outil avancé tout-en-un pour produire des vues de plan, de section et d\'élévation appelées [Arch Plan de section](Arch_SectionPlane/fr.md). Nous allons maintenant ajouter deux de ces plans de coupe pour créer une vue en plan et une vue en élévation.
+Nous allons maintenant préparer un ensemble de vues à partir de notre modèle, à placer sur une page de dessin. Nous pouvons le faire avec les outils de l\'atelier Drawing, comme nous l\'avons vu dans le chapitre précédent, mais l\'atelier Arch offre également un outil avancé tout-en-un pour produire des vues de plan, de section et d\'élévation appelées [Arch Plan de coupe](Arch_SectionPlane/fr.md). Nous allons maintenant ajouter deux de ces plans de coupe pour créer une vue en plan et une vue en élévation.
 
 -   Sélectionnez l\'objet Bâtiment (building) dans l\'arborescence
--   Appuyez sur le bouton <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch Plan de section](Arch_SectionPlane/fr.md) .
+-   Appuyez sur le bouton <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch Plan de coupe](Arch_SectionPlane/fr.md) .
 -   Définir sa propriété **Display Height** (hauteur d\'affichage) à 5m, sa **Display Length** (longueur d\'affichage) à 6m, donc nous englobons notre maison (ce n\'est pas nécessaire, mais ce sera mieux, car cela montrera naturellement à quoi sert cet outil), et sa position **Placement** à x: 2m, y: 1.5m, z: 1.5m.
--   Vérifiez la liste des objets pris en considération par le plan de section en double-cliquant dessus dans la [vue en arborescence](tree_view/fr.md). Les plans de coupe ne restituent que les objets spécifiés du modèle, pas tous. Les objets pris en considération par le plan de coupe peuvent être modifiés ici.
+-   Vérifiez la liste des objets pris en considération par le plan de coupe en double-cliquant dessus dans la [vue en arborescence](Tree_view/fr.md). Les plans de coupe ne restituent que les objets spécifiés du modèle, pas tous. Les objets pris en considération par le plan de coupe peuvent être modifiés ici.
 
 ![](images/Exercise_arch_20.jpg )
 
@@ -187,7 +187,7 @@ Nous allons maintenant préparer un ensemble de vues à partir de notre modèle,
     -   Largeur de ligne: 0.15
     -   Montrer la coupe: vrai
     -   Afficher le remplissage: vrai
--   Sélectionnez l\'autre plan de section et créez une nouvelle vue, avec les propriétés suivantes :
+-   Sélectionnez l\'autre plan de coupe et créez une nouvelle vue, avec les propriétés suivantes :
     -   X: 250
     -   Y: 150
     -   Échelle: 0,03

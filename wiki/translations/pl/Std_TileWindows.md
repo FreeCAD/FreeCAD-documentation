@@ -1,24 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std TileWindows
-   MenuLocation:Windows → Tile
-   Workbenches:All
-   SeeAlso:[Std CascadeWindows](Std_CascadeWindows.md)
+   Name/pl:Std: Sąsiadująco
+   MenuLocation:Okna → Sąsiadująco
+   Workbenches:wszystkie
+   SeeAlso:[Kaskadowo](Std_CascadeWindows/pl.md)
 ---
 
 # Std TileWindows/pl
 
-## Description
 
-The **Std TileWindows** command rearranges the windows in the [Main view area](Main_view_area.md) so that they are all visible and do not overlap. The result is determined by the order in which the windows were last activated.
+
+## Opis
+
+Polecenie **Sąsiadująco** zmienia układ okien w [Głównym obszarze widoku](Main_view_area/pl.md) tak, aby wszystkie były widoczne i nie zachodziły na siebie. Wynik jest określany na podstawie kolejności, w jakiej okna były ostatnio aktywowane.
 
 <img alt="" src=images/Std_TileWindows_example.png  style="width:600px;"> 
-*Main view area with three tiled windows*
+*Główny obszar widoku z trzema oknami wyłożonymi sąsiadująco.*
 
-## Usage
 
-1.  The Main view area must contain at least two windows.
-2.  Select the **Windows → <img src="images/Std_TileWindows.svg" width=16px> Tile** option from the menu.
+
+## Użycie
+
+1.  Obszar widoku głównego musi zawierać co najmniej dwa okna.
+2.  Wybierz z menu opcje **Okna → <img src="images/Std_TileWindows.svg" width=16px> Sąsiadująco**.
 
 
 

@@ -47,22 +47,11 @@ For this example, we will look at the wrapper for the Axis C++ class. The XML de
         FatherNamespace="Base">
     <Documentation>
         <Author Licence="LGPL" Name="Juergen Riegel" EMail="FreeCAD@juergen-riegel.net" />
-        <UserDocu>Axis
-}}
-
-And defines a direction and a position (base) in 3D space.
-
-The following constructors are supported:
-
--   Axis() \-- empty constructor
--   Axis(Axis) \-- copy constructor
--   Axis(Base, Direction) \-- define position and direction
-
-
-{{Code|lang=xml|code= 
-    </UserDocu>
-    <DeveloperDocu>Axis</DeveloperDocu>
-</Documentation>
+        <UserDocu>User documentation here
+          
+        </UserDocu>
+        <DeveloperDocu>Developer documentation here</DeveloperDocu>
+    </Documentation>
 }}
 
 Following this preamble, a list of methods and attributes is given. The format of a method is:

@@ -27,9 +27,9 @@ Creates a new mirrored mesh object, mirrored about the selected axis.
 ## Notes
 
 -   The function does not modify the existing mesh, but returns a new mesh.
--   The function can be accessed via python:
+-   The function can be accessed via Python:
 
-
+ 
 ```python
 import OpenSCADUtils
 import Mesh

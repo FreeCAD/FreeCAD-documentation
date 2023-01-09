@@ -42,9 +42,21 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   L\'oggetto Piano di sezione prende in considerazione solo un certo insieme di oggetti, non tutti gli oggetti del documento. Gli oggetti possono essere aggiunti o rimossi da un oggetto Piano di sezione utilizzando gli strumenti [Aggiungi](Arch_Add/it.md) e [Rimuovi](Arch_Remove/it.md), o facendo doppio clic sul Piano di sezione nella vista ad albero, e poi selezionando gli oggetti sia nella lista che nella scena 3D, e premendo il tasto **aggiungi** o **rimuovi**.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   Con un oggetto piano di sezione selezionato, utilizzare lo strumento [Vista 2D](Draft_Shape2DView/it.md) per creare nel documento un oggetto che rappresenta la vista di sezione
+
+
+</div>
 
 <img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 

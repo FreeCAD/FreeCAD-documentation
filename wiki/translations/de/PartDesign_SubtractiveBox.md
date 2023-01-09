@@ -1,69 +1,53 @@
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractiveBox
-   Name/de:PartDesign Abzuziehender Quader
-   Workbenches:[[PartDesign_Workbench/de   PartDesign]]|MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehender Quader
+   Name/de:PartDesign QuaderAbziehen
+   MenuLocation:Part Design → Grundkörper abziehen → Quader
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[PartDesign Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
+   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign QuaderHinzufügen](PartDesign_AdditiveBox/de.md)
 ---
 
 # PartDesign SubtractiveBox/de
 
-
-</div>
-
 ## Beschreibung
 
-Fügt einen abzuziehenden Quader in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
+Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
 ![](images/PartDesign_SubtractiveBox_example.png ) *Auf der linken Seite ist der aktive Körper (A) in grau und der abzuziehender Quader (B) in durchscheinenden rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Quader'''** drücken **Hinweis**: Der Quader ist Teil eines Symbolmenüs mit der Bezeichnung Grundkörper abziehen. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper angezeigt wird, den Abwärtspfeil neben dem Symbol anklicken und Quader im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Drücke die **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Abzuziehender Quader''** Schaltfläche . **Anmerkung**: Abzuziehender Quader ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehende Quader in dem aufklappenden Menü ausgewählt werden.
-2.  Lege die Grundkörperparameter und [Anhang](Part_EditAttachment/de.md) fest.
-3.  Klicke **OK**.
-4.  Ein Quader erscheint unterhalb des aktiven Körpers.
+3.  
+    **OK**klicken.
 
-
-</div>
+4.  Ein Box-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 ## Optionen
 
-Der Quader kann auf zwei verschieden Wege bearbeitet werden:
+Der Quader kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
--   Doppelklicke in den Modellbaum oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü; dadurch werden die Grundkörperparameter angezeigt.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md).
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für den Quader (Box-Objekt). Dies kann nach Bedarf geändert werden.
 
--    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
+-    {{PropertyData/de|Length}}: Die Länge des Quaders in der X-Richtung.
 
--    **Label**: Die vom Benutzer vergebene Bezeichung für das Quader-Objekt. Dies kann nach Bedarf geändert werden.
+-    {{PropertyData/de|Width}}: Die Länge des Quaders in der Y-Richtung.
 
--    **Length**: Die Länge des Quaders in der X-Richtung.
-
--    **Width**: Die Länge des Quaders in der Y-Richtung.
-
--    **Height**: Die Länge des Quaders in der Z-Richtung.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Height}}: Die Länge des Quaders in der Z-Richtung.
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

@@ -23,8 +23,8 @@ L\'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour
 
 1.  Sélectionnez l\'esquisse à révolutionner.
 
-    :   Une face sur le solide existant peut également être utilisée. {{VersionPlus/fr|0.17}}
-    :   L\'esquisse doit être mappée sur la face plane d\'un solide existant ou d\'une fonction de conception de pièce, sinon un message d\'erreur apparaîtra. {{VersionMinus/fr|0.16}}
+    :   \- Une face sur le solide existant peut également être utilisée. {{VersionPlus/fr|0.17}}
+    :   \- L\'esquisse doit être mappée sur la face plane d\'un solide existant ou d\'une fonction de conception de pièce, sinon un message d\'erreur apparaîtra. {{VersionMinus/fr|0.16}}
 2.  Appuyez sur le bouton **<img src="images/PartDesign_Groove.svg" width=24px> '''Rainure'''**.
 3.  Définissez les paramètres de la révolution (voir la section suivante).
 4.  Appuyez sur le bouton **OK**.

@@ -173,9 +173,15 @@ These are additional tools to help you in specific tasks.
 
 ### Формати файлів 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC.md) : Industry foundation Classes (тільки імпорт)
 -   [DAE](Arch_DAE.md) : [ Меш](http://uk.wikipedia.org/wiki/Полігональна_сітка.md) в форматі Collada
 -   [OBJ](Arch_OBJ.md) : [Меш](http://uk.wikipedia.org/wiki/Полігональна_сітка.md) в форматі Obj (тільки експорт)
+
+
+</div>
 
 ## API
 

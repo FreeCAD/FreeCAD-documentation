@@ -10,6 +10,8 @@
 
 # Std Part/pl
 
+
+
 ## Opis
 
 
@@ -31,6 +33,8 @@ Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](S
 
 *Z lewej: elementy wewnątrz Std: Część w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: obiekty umieszczone w przestrzeni, odnoszące się do odniesienia położenia Std: Części.*
 
+
+
 ## Użycie
 
 1.  Naciśnij przycisk **[<img src=images/Std_Part.svg style="width:16px"> [Utwórz Część](Std_Part/pl.md)**.
@@ -39,16 +43,22 @@ Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](S
 4.  Aby usunąć obiekty z części, przeciągnij je poza część, na etykietę dokumentu u góry [widoku drzewa](Tree_view/pl.md).
 5.  Obiekty można także dodawać i usuwać, edytując właściwość **Grupa** części.
 
+
+
 ## Uwagi
 
 -   Dany obiekt może należeć tylko do jednej pozycji Części.
 -   Operacje 3D, takie jak [operacje logiczne](Part_Boolean/pl.md) środowiska Część, nie mogą być stosowane do części. Na przykład nie można wybrać dwóch części i wykonać operacji [Scalenie](Part_Fuse/pl.md) lub [Cięcie](Part_Cut/pl.md).
+
+
 
 ## Właściwości
 
 [Std: Część](Std_Part/pl.md) jest wewnętrznie nazywana [App: Part](App_Part.md) *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature.md) *(klasa App::GeoFeature)*, ioraz dziedziczy wszystkie jego właściwości. Posiada również kilka dodatkowych właściwości. W szczególności właściwości, które pomagają zarządzać informacjami w kontekście złożenia, na przykład **Typ**, **Id**, **Licencja**, **LicencjaURL** i **Grupa**.
 
 Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
+
+
 
 ### Dane
 
@@ -102,6 +112,8 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **_ Group Touched|Bool|Ukryte**: określa czy grupa jest poddana edycji, czy nie.
 
+
+
 ### Widok
 
 
@@ -120,7 +132,11 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Styl wyboru|Enumeration**: {{value|Kształt}} *(domyślnie)*, {{value|BoundBox}}. Jeśli opcja ma wartość {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md). Jeśli wartość to {{value|Ramka otaczająca}}, podświetlone zostanie tylko pole ograniczające.
 
+
+
 ## Szczegółowe wyjaśnienia 
+
+
 
 ### Status aktywności 
 
@@ -136,6 +152,8 @@ Aby uaktywnić lub dezaktywować Część:
 
 
 *Dokument z dwiema Częściami Std, wśród których aktywna jest druga część.*
+
+
 
 ### Odniesienie położenia 
 
@@ -157,12 +175,16 @@ Początek układu współrzędnych jest obiektem [App: Odniesienie położenia](
 
 Wszystkie elementy składowe Części są powiązane z jej początkiem, co oznacza, że Część może być przesuwana i obracana w odniesieniu do globalnego układu współrzędnych, bez wpływu na rozmieszczenie jej elementów składowych.
 
+
+
 ### Zarządzanie wyświetlaniem 
 
 Parametr wyświetlania Części ma pierwszeństwo określania wyświetlania dowolnego obiektu, który zawiera. Jeśli wyświetlanie Części zostanie ukryte, to obiekty, które zawiera będą również ukryte, nawet jeśli ich indywidualna właściwość {{PropertyView/pl|Widoczność}} jest ustawiona na `True`. Jeśli Część jest widoczna, to właściwość każdego obiektu **Widoczność** określa, czy obiekt jest prezentowany na ekranie okna [widoku 3D](3D_view/pl.md) czy nie.
 
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
 *Parametr widoczności Std Części określa, czy zgrupowane pod nią obiekty są prezentowane w oknie [widoku 3D](3D_view/pl.md), czy też nie. <br>Po lewej: Część została ukryta, więc żaden z obiektów nie będzie widoczny w oknie [widoku 3D](3D_view/pl.md). <br>Po prawej: Część jest widoczna, więc każdy obiekt kontroluje indywidualnie swoje właściwości w zakresie wyświetlania.*
+
+
 
 ## Tworzenie skryptów 
 
@@ -171,7 +193,7 @@ Parametr wyświetlania Części ma pierwszeństwo określania wyświetlania dowo
 
 [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty tworzone skryptami](Scripted_objects/pl.md).
 
-Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć w [Część: właściwość](Part_Feature/pl.md).
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
 
 Element Std: Part ([App Part](App_Part.md)) jest tworzony przy pomocy metody `addObject()` dokumentu. Gdy istnieje element Part, inne obiekty mogą być do niego dodane za pomocą metod `addObject()` lub `addObjects()` tej Części.
 

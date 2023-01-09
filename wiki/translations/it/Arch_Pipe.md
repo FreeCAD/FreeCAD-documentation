@@ -11,9 +11,6 @@
 
 # Arch Pipe/it
 
-
-</div>
-
 ## Descrizione
 
 Questo strumento permette di creare delle tubazioni partendo da zero, o dagli oggetti selezionati. Gli oggetti selezionati devono essere Part-based (Draft, Schizzo, ecc ..) e contenere una e una sola polilinea (wire) aperta,
@@ -58,13 +55,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Con il nuovo \"Snap Speciale\" di Draft è possibile agganciarsi a questi punti personalizzati:
-
-
-</div>
+-   Con il nuovo snap [\"Speciale\"](Draft_Snap_Special/it.md) di Draft è possibile agganciarsi a questi punti personalizzati:
 
 ![](images/Arch_pipe_example_03.jpg )
 
@@ -72,7 +63,13 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_04.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Vi è ora un nuovo strumento [Pendenza](Draft_Slope/it.md) che permette di modificare la pendenza delle linee Draft, per esempio del 5% (0.05). Così si può rapidamente dare alle linee delle tubazioni di scarico una pendenza corretta. Questo strumento modifica solo le coordinate z, quindi basta agganciarle l\'un l\'altra, la proiezione dall\'alto resta invariata.
+
+
+</div>
 
 ![](images/Arch_pipe_example_05.jpg )
 
@@ -88,6 +85,11 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 È anche possibile creare Tubi Arch senza una linea di base, in questo caso utilizzare la proprietà \"Length\" per definire la lunghezza.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -95,7 +97,18 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Tubo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Tubo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
+
+
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```
@@ -125,22 +138,6 @@ FreeCAD.ActiveDocument.recompute()
 Pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it
-|[Tubazioni](Arch_CompPipe/it.md)
-|[Raccordo](Arch_PipeConnector/it.md)
-|[Arch](Arch_Workbench/it.md)
-|IconL=Arch_CompPipe.png
-|IconC=Workbench_Arch.svg
-|IconR=Arch_PipeConnector.svg
-}}
-
-
-</div>
 
 
 

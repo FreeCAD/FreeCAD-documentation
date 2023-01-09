@@ -1,27 +1,27 @@
 # PDF/pl
 {{TOCright}}
 
-## Description
+## Opis
 
-[Portable Document Format](https://en.wikipedia.org/wiki/PDF) (PDF) is a file format developed by Adobe in the 1990s to present documents, including text and images.
+[Portable Document Format](https://en.wikipedia.org/wiki/PDF) *(PDF)* to format plików opracowany przez firmę Adobe w latach 90, XX wieku do prezentacji dokumentów, w tym tekstu i obrazów.
 
-PDF is based on the PostScript language, which is a vector-based format to describe pages. In this sense it\'s similar to [SVG](SVG.md), as it allows scaling a drawing to any size without losing its shape or amount of details.
+PDF bazuje na języku PostScript, który jest wektorowym formatem opisu stron. W tym sensie jest podobny do [SVG](SVG/pl.md), gdyż pozwala na skalowanie rysunku do dowolnego rozmiaru bez utraty jego kształtu czy ilości szczegółów.
 
-Nevertheless, a PDF can contain many things, including text, fonts, vector graphics, and [bitmap](bitmap.md) images. PDF was standardized as an open format in 2008, as ISO 32000.
+Niemniej jednak, PDF może zawierać wiele rzeczy, w tym tekst, czcionki, grafikę wektorową i obrazy formatu [bitmapy](Bitmap/pl.md). PDF został ustandaryzowany jako otwarty format w 2008 roku, jako ISO 32000.
 
-PDF is commonly used as a sharing format, that is, to share documents, text, or images, that will display and print exactly as the author intended.
+PDF jest powszechnie używany jako format do udostępniania, czyli do dzielenia się dokumentami, tekstem lub obrazami, które będą wyświetlane i drukowane dokładnie tak, jak chciał tego autor.
 
-## Usage
+## Użycie
 
-As FreeCAD is based on the Qt graphical toolkit, it can export the [3D view](3D_view.md) natively to PDF. This can be useful to export carefully created drawings that other users don\'t need to modify. For example, pages created with the [TechDraw Workbench](TechDraw_Workbench.md) can be [exported](Std_Export.md) in this way for sharing or printing. In many cases it is also possible to perform two way conversion between PDF and [SVG](SVG.md).
+Ponieważ FreeCAD jest oparty na zestawie narzędzi graficznych Qt, może on eksportować [widok 3D](3D_view/pl.md) natywnie do PDF. Może to być przydatne do eksportowania starannie stworzonych rysunków, których inni użytkownicy nie muszą modyfikować. Na przykład strony utworzone za pomocą środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mogą być [eksportowane](Std_Export/pl.md) w ten sposób w celu udostępnienia lub wydrukowania. W wielu przypadkach możliwa jest również dwukierunkowa konwersja pomiędzy PDF a [SVG](SVG/pl.md).
 
-The option to export to PDF is available in the **File → [Export PDF](Std_Export.md)** menu.
+Opcja eksportu do formatu PDF dostępna jest w menu **Plik → [Eksportuj do PDF ...](Std_Export/pl.md)**.
 
-## Related
+## Powiązane
 
--   See also: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) and <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [Std PrintPdf](Std_PrintPdf.md).
+-   Warto zapoznać się również z wiadomościami na stronach: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Eksportuj](Std_Export/pl.md) oraz <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [Eksportuj do PDF](Std_PrintPdf/pl.md).
 
--   For [power users](Power_users_hub.md), there is an option to utilize the [Python console](Python_console.md) to export a PDF.
+-   Dla [power użytkowników](Power_users_hub/pl.md), istnieje opcja wykorzystania [konsoli Python](Python_console/pl.md) do wykonania eksportu PDF.
 
 
 

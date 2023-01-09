@@ -1,11 +1,17 @@
 # Code snippets/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Ta strona zawiera przykłady, wycinki, fragmenty kodu FreeCAD python zebrane z doświadczeń użytkowników i dyskusji na [forum](https://forum.freecadweb.org/viewforum.php?f=22). Przeczytaj i użyj jako zaczątek swoich własnych skryptów\...
 
+
+
 ## Wycinki
+
+
 
 ### Typowy plik InitGui.py 
 
@@ -298,7 +304,9 @@ node_sensor.attach(camera_node)```
 
 {{Top}}
 
-### Observe mouse events in the 3D viewer via Python 
+
+
+### Obserwowanie zdarzeń myszy w przeglądarce 3D za pomocą środowiska Python 
 
 The Inventor framework allows to add one or more callback nodes to the scenegraph of the viewer. By default in FreeCAD one callback node is installed per viewer which allows to add global or static C++ functions. In the appropriate Python binding some methods are provided to make use of this technique from within Python code.
 
@@ -785,10 +793,10 @@ class SelObserver:
         App.Console.PrintMessage(str(pnt)+ "\n")          # Coordinates of the object
         App.Console.PrintMessage("______"+ "\n")
 
-    def removeSelection(self,doc,obj,sub):                # Delete the selected object
+    def removeSelection(self,doc,obj,sub):                # Remove the selection
         App.Console.PrintMessage("removeSelection"+ "\n")
 
-    def setSelection(self,doc):                           # Selection in ComboView
+    def setSelection(self,doc):                           # Set selection
         App.Console.PrintMessage("setSelection"+ "\n")
 
     def clearSelection(self,doc):                         # If click on the screen, clear the selection
@@ -1046,21 +1054,41 @@ from __future__ import unicode_literals
 # Exemples de recherche et de decodage d'informations sur un objet
 # Chaque section peut etre copiee directement dans la console Python ou dans une macro ou utilisez la macro tel quel
 # Certaines commandes se repetent seul l'approche est differente
-# L'affichage se fait dans la Vue rapport : Menu Affichage > Vues > Vue rapport
+# L'affichage se fait dans la Vue rapport : Menu Affichage > Vues > Vue rapport
 #
 # Examples of research and decoding information on an object
 # Each section can be copied directly into the Python console, or in a macro or uses this macro
 # Certain commands as repeat alone approach is different
 # Displayed in Report view: View > Views > report view
 #
-# rev:30/08/2014:29/09/2014:17/09/2015 22/11/2019
+# rev:30/08/2014:29/09/2014:17/09/2015 22/11/2019 30/12/2022
  
 from FreeCAD import Base
 import DraftVecUtils, Draft, Part
 
+##################################################################################
+# info in the object
+
+box = App.ActiveDocument.getObject('Box')                                 # object 
+####
+print(dir(box))                                                           # all options disponible in the object
+####
+print(box.Name)                                                           # object name
+####
+print(box.Content)                                                        # content of the object in XML format
+##################################################################################
+#
+# example of using the information listed
+#
 # search the name of the active document 
 mydoc = FreeCAD.activeDocument().Name                                     # Name of active Document
 App.Console.PrintMessage("Active docu    : "+(mydoc)+"\n")
+##################################################################################
+
+# search the document name and the name of the object selected
+sel = FreeCADGui.Selection.getSelection()                                 # select object with getSelection()
+object_FullName = sel[0].FullName                                         # file Name and Name of the object selected
+App.Console.PrintMessage("object_FullName: "+(object_FullName)+"\n")
 ##################################################################################
 
 # search the label of the object selected
@@ -1099,7 +1127,7 @@ sel = FreeCADGui.Selection.getSelection()                                 # sele
 i = 0
 for j in enumerate(sel[0].Shape.Edges):                                   # list all Edges
     i += 1
-    App.Console.PrintMessage("Edges n : "+str(i)+"\n")
+    App.Console.PrintMessage("Edges n : "+str(i)+"\n")
     a = sel[0].Shape.Edges[j[0]].Vertexes[0]
     App.Console.PrintMessage("X1             : "+str(a.Point.x)+"\n")     # coordinate XYZ first point
     App.Console.PrintMessage("Y1             : "+str(a.Point.y)+"\n")     #
@@ -1118,7 +1146,7 @@ App.Console.PrintMessage("\n")
 try:
     SubElement = FreeCADGui.Selection.getSelectionEx()                                        # sub element name with getSelectionEx()
     subElementName = Gui.Selection.getSelectionEx()[0].SubElementNames[0]                     # sub element name with getSelectionEx()
-    App.Console.PrintMessage("subElementName : "+str(subElementName)+"\n")subObjectLength = Gui.Selection.getSelectionEx()[0].SubObjects[0].Length                  # sub element Length
+    App.Console.PrintMessage("subElementName : "+str(subElementName)+"\n")subObjectLength = Gui.Selection.getSelectionEx()[0].SubObjects[0].Length                  # sub element Length
     App.Console.PrintMessage("subObjectLength: "+str(subObjectLength)+"\n\n")subObjectX1 = Gui.Selection.getSelectionEx()[0].SubObjects[0].Vertexes[0].Point.x         # sub element coordinate X1
     App.Console.PrintMessage("subObject_X1   : "+str(subObjectX1)+"\n")
     subObjectY1 = Gui.Selection.getSelectionEx()[0].SubObjects[0].Vertexes[0].Point.y         # sub element coordinate Y1
@@ -1198,6 +1226,7 @@ boundBoxZMax = boundBox_.ZMax                                             # coor
 
 boundBoxDiag= boundBox_.DiagonalLength                                    # Diagonal Length boundBox rectangle
 boundBoxCenter = boundBox_.Center                                         # BoundBox Center
+boundBoxCenterOfGravity = boundBox_.CenterOfGravity                       # BoundBox CenterOfGravity
 
 App.Console.PrintMessage("boundBoxLX     : "+str(boundBoxLX)+"\n")
 App.Console.PrintMessage("boundBoxLY     : "+str(boundBoxLY)+"\n")
@@ -1211,7 +1240,9 @@ App.Console.PrintMessage("boundBoxYMax   : "+str(boundBoxYMax)+"\n")
 App.Console.PrintMessage("boundBoxZMax   : "+str(boundBoxZMax)+"\n\n")
 
 App.Console.PrintMessage("boundBoxDiag   : "+str(boundBoxDiag)+"\n")
-App.Console.PrintMessage("boundBoxCenter : "+str(boundBoxCenter)+"\n\n")
+App.Console.PrintMessage("boundBoxCenter : "+str(boundBoxCenter)+"\n")
+
+App.Console.PrintMessage("boundBox Center of Gravity : "+str(boundBoxCenterOfGravity )+"\n\n")
 
 ##################################################################################
 
@@ -1295,6 +1326,16 @@ Pitch = sel[0].Shape.Placement.Rotation.toEuler()[1]                  # decode a
 App.Console.PrintMessage("Pitch          : "+str(Pitch)+"\n")
 Roll  = sel[0].Shape.Placement.Rotation.toEuler()[2]                  # decode angle Euler Roll (X) roulis (gamma)
 App.Console.PrintMessage("Roll           : "+str(Roll)+"\n\n")
+
+rot = App.Rotation()
+rot.setYawPitchRoll(45,45,0)
+print("Angle: ", rot.Angle)
+print("Axis: ", rot.Axis)
+print("RawAxis: ", rot.RawAxis)
+print("YawPitchRoll: ", rot.getYawPitchRoll())
+print("Rotation: ", rot)
+print("Quaternion: ", rot.Q)
+
 ##################################################################################
 
 # find Midpoint of the selected line
@@ -1531,6 +1572,38 @@ def normal(self):
       print( normal)
       line=Part.makeLine((pp.x,pp.y,pp.z), (normal.x,normal.y,normal.z))
       Part.show(line)
+```
+
+
+{{Top}}
+
+### Get the normal vector of the face and create a line at the point mouse clicked 
+
+
+```python
+import PySide2
+import Draft, Part, FreeCAD, FreeCADGui
+import FreeCADGui as Gui
+from FreeCAD import Base
+
+FreeCAD.ActiveDocument.openTransaction("Tyty")    # memorise les actions (avec annuler restore)
+selectedFace = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0]
+pointClick = FreeCADGui.Selection.getSelectionEx()[0].PickedPoints[0]
+
+########## section direction
+plr = FreeCAD.Placement()
+yL = pointClick
+uv = selectedFace.Surface.parameter(yL)
+nv = direction = selectedFace.normalAt(uv[0], uv[1])
+r = App.Rotation(App.Vector(0,0,1),nv)
+plr.Rotation.Q = r.Q
+plr.Base = pointClick
+########## section direction
+
+line = Draft.make_wire([App.Vector(0.0,0.0,0.0), App.Vector(0.0,0.0,20.0)] )    # create line
+line.Placement=plr
+FreeCAD.ActiveDocument.recompute()
+print( "Direction (radian) : ",direction )    # direction in radian
 ```
 
 
@@ -1775,12 +1848,13 @@ def restart_freecad():
 
 ## Coin3D
 
-See [Coin3d snippets](Coin3d_snippets.md)
+See [Coin3d snippets](Coin3d_snippets.md) {{Top}}
 
 ## Related
 
 -   [Scripted objects](Scripted_objects.md)
 -   [Macros](Macros.md)
+-   [Topological_data_scripting](Topological_data_scripting.md)
 
 
 {{Top}}

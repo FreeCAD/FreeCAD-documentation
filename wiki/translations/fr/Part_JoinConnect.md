@@ -39,13 +39,13 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 ## Exemple
 
-1.  Créer un tuyau en appliquant un [Part évidement](Part_Thickness/fr.md) sur un [Part cylindre](Part_Cylinder/fr.md) :
+1.  Créer une conduite en appliquant un [Part évidement](Part_Thickness/fr.md) sur un [Part cylindre](Part_Cylinder/fr.md) :
     ![320px](images/JoinFeatures_Example_step1.png)
 2.  Créer un autre tuyau plus petit, et le [Part placer](Placement/fr.md) pour qu\'il perce le premier tuyau :
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Sélectionner le premier tuyau puis le second, et cliquer sur l\'option \'Connecter des objets\' du menu déroulant Joindre des objets à paroi.
     ![320px](images/JoinFeatures_Example_step3_Connect.png)
-4.  Utiliser divers outils de plan de coupe ([Std Créer une section \...](Std_ToggleClipPlane/fr.md), [Arch Plan de section](Arch_SectionPlane/fr.md), [Arch Couper selon un plan](Arch_CutPlane/fr.md)) pour voir l\'intérieur. Dans l\'image ci-dessous, Arch Section Plane est utilisé.
+4.  Utiliser divers outils de plan de coupe ([Std Créer une section \...](Std_ToggleClipPlane/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md), [Arch Couper selon un plan](Arch_CutPlane/fr.md)) pour voir l\'intérieur. Dans l\'image ci-dessous, un Arch Plan de coupe est utilisé.
     ![320px](images/JoinFeatures_Example_step4_Connect.png)
 
 ## Algorithme

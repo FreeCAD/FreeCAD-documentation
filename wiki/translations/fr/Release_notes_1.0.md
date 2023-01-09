@@ -25,30 +25,28 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ## Interface utilisateur 
 
    
-  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Le style d\'affichage des résultats de [mesure](Part_Workbench/fr#Mesure.md) créés à l\'aide de l\'[atelier Part](Part_Workbench/fr.md) ou de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) peut désormais être modifié dans les [Préférences](PartDesign_Preferences/fr#Mesure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Les faces des coins du cube de navigation sont maintenant hexagonales et plus grandes, ce qui les rend plus faciles à cliquer. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
    
 
    
-  <img alt="" src=images/DlgDisplayProperties_relnotes_1.0.png  style="width:200px;">   Le panneau de tâches de [Std Apparence](Std_SetAppearance/fr.md) dispose désormais d\'un bouton permettant de définir la propriété Couleur du point. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
+  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Le style d\'affichage des résultats de [mesure](Part_Workbench/fr#Mesure.md) créés à l\'aide de l\'[atelier Part](Part_Workbench/fr.md) ou de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) peut désormais être modifié dans les [Préférences](PartDesign_Preferences/fr#Mesure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
 
    
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width:300px;">   Le sélecteur d\'ateliers peut maintenant être placé de manière optionnelle dans la barre de menu au lieu de la zone de la barre d\'outils. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
    
 
-   
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Les faces des coins du cube de navigation sont maintenant hexagonales et plus grandes, ce qui les rend plus faciles à cliquer. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
-   
-
 ### Autres améliorations de l\'interface utilisateur 
 
--   Il est désormais possible de définir une transparence par défaut pour les nouveaux objets de [Part](Part_Module/fr.md) ou de [PartDesign](PartDesign_Workbench/fr.md) dans les [Préférences](PartDesign_Preferences/fr.md). [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103)
 -   Le bouton pour <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> [Std Mode d\'édition](Std_UserEditMode/fr.md) a été supprimé de la barre d\'outils standard. Il peut être réintroduit en [personnalisant](Std_DlgCustomize/fr.md) votre barre d\'outils.[Pull request #7570](https://github.com/FreeCAD/FreeCAD/pull/7570)
 -   Les boutons pour <img alt="" src=images/Std_Print.svg  style="width:24px;"> [Imprimer](Std_Print/fr.md), <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Copier](Std_Copy/fr.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Coller](Std_Paste/fr.md) et <img alt="" src=images/Std_Cut.svg  style="width:24px;"> [Couper](Std_Cut/fr.md) ont été supprimés de la barre d\'outils standard. Ils peuvent être réintroduits en [personnalisant](Std_DlgCustomize/fr.md) votre barre d\'outils.[Pull request #7571](https://github.com/FreeCAD/FreeCAD/pull/7571) et [commit ea9a04e](https://github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 -   Des commandes pour [Stocker ](Std_StoreWorkingView/fr.md) et [Rappeler](Std_RecallWorkingView/fr.md) une vue de travail temporaire ont été ajoutées. [Pull request #7525](https://github.com/FreeCAD/FreeCAD/pull/7525)
 -   Les changements de valeur avec la molette de la souris dans les \"champs de saisie\" (type de widget utilisé pour entrer des valeurs dans les panneaux de tâches, par exemple par [Draft Ligne](Draft_Line/fr.md)) sont désactivés si le widget n\'a pas le focus et que [ComboBoxWheelEventFilter](Fine-tuning/fr.md) est activé. Cela permet d\'éviter les changements de valeur non désirés lors du défilement, comme c\'était déjà le cas pour les spin box et les combo box. [Pull request #7561](https://github.com/FreeCAD/FreeCAD/pull/7561)
--   Tous les paramètres de transparence utilisent maintenant le pas uniforme de 5% pour le bouton rotatif : un clic sur le bouton dans une boîte de dialogue ou dans l\'éditeur de propriétés modifie la transparence de 5%. Maintenez le bouton enfoncé pour modifier plusieurs pas de 5% à la fois. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
--   Un bouton a été ajouté pour changer les couleurs du gradient d\'arrière-plan de la [vue_3D](3D_view/fr.md) dans l\'[éditeur de préférences](Preferences_Editor/fr#Couleurs.md). [Pull request #7155](https://github.com/FreeCAD/FreeCAD/pull/7155)
+-   Il est désormais possible de définir une transparence par défaut pour les nouveaux objets de [Part](Part_Module/fr.md) ou de [PartDesign](PartDesign_Workbench/fr.md) dans les [Préférences](PartDesign_Preferences/fr.md). [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103)
+-   Il y a le nouveau style d\'orbite **Vue en rotation**. Il peut être activé dans les [Réglages des préférences](Preferences_Editor/fr#Navigation.md) ou en appuyant sur le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** dans la [Barre d\'état](Status_bar/fr.md) et ensuite en utilisant le menu **Réglages → Style d'orbite**. [Pull Request #8048](https://github.com/FreeCAD/FreeCAD/pull/8048)
+-   Le panneau de tâches [Std Apparence](Std_SetAppearance/fr.md) possède désormais également un bouton permettant de définir la propriété Couleur du point. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
+-   Un bouton a été ajouté pour changer les couleurs du gradient d\'arrière-plan de la [vue 3D](3D_view/fr.md) dans l\'[éditeur de préférences](Preferences_Editor/fr#Couleurs.md). [Pull request #7155](https://github.com/FreeCAD/FreeCAD/pull/7155)
+-   Tous les paramètres de transparence utilisent désormais le pas uniforme de 5% du bouton rotatif : un clic sur le bouton dans une boîte de dialogue ou dans l\'éditeur de propriétés modifie la transparence de 5%. Maintenez le bouton enfoncé pour modifier plusieurs pas de 5% à la fois. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
 -   La fenêtre de sortie a été renommée en Vue rapport pour une uniformité avec l\'interface utilisateur. [Pull Request #7739](https://github.com/FreeCAD/FreeCAD/pull/7739)
 
 ## Noyau et API 
@@ -126,7 +124,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ### Autres améliorations de FEM 
 
 -   Il existe maintenant une <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) pour définir la pression interne initiale des fluides. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
--   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
+-   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
 -   Il est maintenant possible d\'ouvrir (et ainsi de visualiser) des fichiers \*.pvtu (données de grille non structurées VTK partitionnées). Un fichier \*.pvtu est également le résultat d\'une simulation par [Elmer](FEM_SolverElmer/fr.md), lorsque plus d\'un coeur de CPU a été utilisé. [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
 -   Le rapport de déformation critique a été ajouté au pipeline de résultats de VTK. Il donne une indication de la rupture ductile pour les matériaux avec un objet \"MaterialMechanicalNonlinear\" (Matériau mécanique non linéaire). [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md) permet de définir l\'échelle du maillage déformé en utilisant Python. [Fil du forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) et [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
@@ -198,7 +196,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ### Autres améliorations de Sketcher 
 
 -   Le bouton de la barre d\'outils pour [Contrainte de réfraction (loi de Snell)](Sketcher_ConstrainSnellsLaw/fr.md) a été supprimé. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
--   Les [Contraintes dimensionnelles](Sketcher_Workbench/fr#Contraintes_dimensionnelles.md) et les boîtes Quantity Spin supportent maintenant les mêmes fonctions mathématiques que les [expressions](Expressions/fr.md) (Évalué sur place). [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
+-   Les [Contraintes dimensionnelles](Sketcher_Workbench/fr#Contraintes_dimensionnelles.md) et les boîtes de sélection numérique prennent en charge maintenant les mêmes fonctions mathématiques que les [expressions](Expressions/fr.md) (évaluées sur place). [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
 -   Les boutons de la barre d\'outils pour [Sélection contraintes redondantes](Sketcher_SelectRedundantConstraints/fr.md) et [Sélection des contraintes conflictuelles](Sketcher_SelectConflictingConstraints/fr.md) ont été supprimés. [Pull request #7568](https://github.com/FreeCAD/FreeCAD/pull/7568)
 -   Le bouton de la barre d\'outils pour [Arrêt de l\'opération](Sketcher_StopOperation/fr.md) a été supprimé. [Pull request #7569](https://github.com/FreeCAD/FreeCAD/pull/7569)
 -   La section \"Modifier les contrôles\" de la boîte de dialogue de Sketcher a été rendue optionnelle. [Pull request #7572](https://github.com/FreeCAD/FreeCAD/pull/7572)

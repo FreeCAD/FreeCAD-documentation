@@ -39,16 +39,14 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_MainFullscreen.svg  style="width:32px;"> [Schermo intero](Std_MainFullscreen/it.md): attiva o disattiva la modalità a schermo intero della finestra principale.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Viste standard
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Visualizza tutto](Std_ViewFitAll/it.md): adatta la vista per rendere visibili tutti gli oggetti.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Visualizza la selezione](Std_ViewFitSelection/it.md): adatta la vista agli oggetti selezionati.
     -   Assonometria
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometrica](Std_ViewIsometric/it.md): passa alla vista isometrica.
-        -   [Dimetrica](Std_ViewDimetric/it.md): passa alla vista dimetrica.
-        -   [Trimetrica](Std_ViewTrimetric/it.md): passa alla vista trimetrica.
+        -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetrica](Std_ViewDimetric/it.md): passa alla vista dimetrica.
+        -   <img alt="" src=images/Std_ViewTrimetric.svg  style="width:32px;"> [Trimetrica](Std_ViewTrimetric/it.md): passa alla vista trimetrica.
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Iniziale](Std_ViewHome/it.md): passa alla vista iniziale. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Di fronte](Std_ViewFront/it.md): passa alla vista frontale.
     -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Dall\'alto](Std_ViewTop/it.md): passa alla vista dall\'alto.
     -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Da destra](Std_ViewRight/it.md): passa alla vista laterale destra.
@@ -57,9 +55,8 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Da sinistra](Std_ViewLeft/it.md): passa alla vista laterale sinistra.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Ruota a sinistra](Std_ViewRotateLeft/it.md): ruota la vista a sinistra.
     -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Ruota a destra](Std_ViewRotateRight/it.md): ruota la vista a destra.
-
-
-</div>
+    -   [Memorizza vista attiva](Std_StoreWorkingView/it.md): memorizza le impostazioni della telecamera della vista 3D attiva nella sua vista di lavoro. <small>(v1.0)</small> 
+    -   [Richiama vista](Std_RecallWorkingView/it.md): Richiama la vista di lavoro memorizzata della vista 3D attiva. <small>(v1.0)</small> 
 
 -   [Viste bloccate](Std_FreezeViews/it.md)
     -   [Salva le viste\...](Std_FreezeViews/it#Salva_le_viste....md): salva le viste fissate in un file.
@@ -96,75 +93,33 @@ In questo menu sono disponibili i seguenti strumenti:
     -   [Sganciata](Std_ViewDockUndockFullscreen/it#Sganciata.md): sgancia una vista 3D.
     -   <img alt="" src=images/Std_ViewFullscreen.svg  style="width:32px;"> [Schermo intero](Std_ViewFullscreen/it.md): attiva o disattiva la modalità a schermo intero di una vista 3D.
 
+-   <img alt="" src=images/Std_AxisCross.svg  style="width:32px;"> [Origine degli assi](Std_AxisCross/it.md): attiva o disattiva l\'origine degli assi.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Piano di taglio](Std_ToggleClipPlane/it.md): taglia temporaneamente gli oggetti.
 
--   [Origine degli assi](Std_AxisCross/it.md): attiva o disattiva l\'origine degli assi.
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Tagli persistenti](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. <small>(v0.20)</small> 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Piano di taglio](Std_ToggleClipPlane/it.md): taglia temporaneamente gli oggetti.
-
-
-</div>
-
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. <small>(v0.20)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
--   [Mappa una trama\...](Std_TextureMapping/it.md): mappa temporaneamente una trama su tutti gli oggetti. Vedere anche [Macro per mappare immagine](Macro_Texture_Objects/it.md) e [Vista texture](Draft_Rectangle/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Mappa una trama\...](Std_TextureMapping/it.md): mappa temporaneamente una trama su tutti gli oggetti.
 
 -   Visibility
-    -   [Mostra/Nascondi](Std_ToggleVisibility/it.md): attiva o disattiva la visibilità degli oggetti selezionati.
-    -   [Mostra la selezione](Std_ShowSelection/it.md): mostra gli oggetti selezionati.
-    -   [Nascondi la selezione](Std_HideSelection/it.md): nasconde gli oggetti selezionati.
-    -   [Seleziona gli oggetti visibili](Std_SelectVisibleObjects/it.md): seleziona tutti gli oggetti visibili.
-    -   [Commuta tutti gli oggetti](Std_ToggleObjects/it.md): attiva o disattiva la visibilità di tutti gli oggetti.
-    -   [Mostra tutti gli oggetti](Std_ShowObjects/it.md): mostra tutti gli oggetti.
-    -   [Nascondi tutti gli oggetti](Std_HideObjects/it.md): nasconde tutti gli oggetti.
+    -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Mostra/Nascondi](Std_ToggleVisibility/it.md): attiva o disattiva la visibilità degli oggetti selezionati.
+    -   <img alt="" src=images/Std_ShowSelection.svg  style="width:32px;"> [Mostra la selezione](Std_ShowSelection/it.md): mostra gli oggetti selezionati.
+    -   <img alt="" src=images/Std_HideSelection.svg  style="width:32px;"> [Nascondi la selezione](Std_HideSelection/it.md): nasconde gli oggetti selezionati.
+    -   <img alt="" src=images/Std_SelectVisibleObjects.svg  style="width:32px;"> [Seleziona gli oggetti visibili](Std_SelectVisibleObjects/it.md): seleziona tutti gli oggetti visibili.
+    -   <img alt="" src=images/Std_ToggleObjects.svg  style="width:32px;"> [Commuta tutti gli oggetti](Std_ToggleObjects/it.md): attiva o disattiva la visibilità di tutti gli oggetti.
+    -   <img alt="" src=images/Std_ShowObjects.svg  style="width:32px;"> [Mostra tutti gli oggetti](Std_ShowObjects/it.md): mostra tutti gli oggetti.
+    -   <img alt="" src=images/Std_HideObjects.svg  style="width:32px;"> [Nascondi tutti gli oggetti](Std_HideObjects/it.md): nasconde tutti gli oggetti.
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Commuta la selezionabilità](Std_ToggleSelectability/it.md): attiva o disattiva la selezionabilità degli oggetti.
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Attiva/disattiva le misure](View_Measure_Toggle_All/it.md): attiva o disattiva la visualizzazione delle misurazioni di Part.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Cancella le misure](View_Measure_Clear_All/it.md): cancella le misure di Part.
 
+-   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Mostra/Nascondi](Std_ToggleVisibility/it.md): attiva o disattiva la visibilità degli oggetti selezionati.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Mostra/Nascondi](Std_ToggleVisibility/it.md): attiva o disattiva la visibilità degli oggetti selezionati.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Attiva/disattiva modalità modifica](Std_ToggleNavigation/it.md): alterna tra la modalità di navigazione e la modalità di modifica.
-
-
-</div>
+-   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Attiva/disattiva modalità modifica](Std_ToggleNavigation/it.md): alterna tra la modalità di navigazione e la modalità di modifica.
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aspetto\...](Std_SetAppearance/it.md): apre il pannello dellle azioni per le proprietà di visualizzazione degli oggetti.
 
-
-<div class="mw-translate-fuzzy">
-
--   [Colore casuale](Std_RandomColor/it.md): Applica un colore casuale agli oggetti.
-
-
-</div>
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Colore casuale](Std_RandomColor/it.md): Applica un colore casuale agli oggetti.
 
 -   [Ambiente](Std_Workbench/it.md): seleziona nel sottomenu uno degli ambienti di lavoro di base, oppure un [ambiente esterno](external_workbenches/it.md) installato nel sistema.
 

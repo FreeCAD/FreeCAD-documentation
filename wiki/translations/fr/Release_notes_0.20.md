@@ -85,7 +85,7 @@ Le système d\'aide a été réécrit et mis à jour pour afficher des informati
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width:384px;">   Le panneau de préférences \"Ateliers\" a été modifié pour permettre de \"charger automatiquement\" les ateliers au démarrage de FreeCAD.
    
 
-Sous Linux, l\'emplacement par défaut des fichiers de configuration, de données et du cache de FreeCAD a été modifié pour suivre [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Voici une comparaison de l\'ancien et du nouvel emplacement :
+Sous Linux, l\'emplacement par défaut des fichiers de configuration, de données et du cache de FreeCAD a été modifié pour suivre [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). [Fil du forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=63648). Voici une comparaison de l\'ancien et du nouvel emplacement :
 
   Description                 Ancien emplacement   Nouvel emplacement          Valeur par défaut
      

@@ -1,72 +1,65 @@
-# PartDesign SubtractiveTorus/de
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractiveTorus
-   Name/de:PartDesign Abzuziehender Torus
+   Name/de:PartDesign TorusAbziehen
+   MenuLocation:Part Design → Grundkörper abziehen → Torus
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehender Torus
-   Shortcut:None
-   SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)---
+   Version:0.17
+   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign TorusHinzufügen](PartDesign_AdditiveTorus/de.md)
+---
+
+# PartDesign SubtractiveTorus/de
 
 
-</div>
 
 ## Beschreibung
 
-Fügt einen abzuziehenden Torus in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
+Fügt einen Torus-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
-![](images/PartDesign_SubtractiveTorus_example.svg ) *Auf der linken Seite ist der aktive Körper (A) in Grau und der abzuziehende Torus (B) in durchscheinenden Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+![](images/PartDesign_SubtractiveTorus_example.svg ) *Auf der linken Seite ist der aktive Körper (A) in Grau und der abzuziehende Torus (B) in durchscheinendem Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+
+
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Torus'''** drücken. **Hinweis**: Der Torus ist Teil eines Symbolmenüs mit der Bezeichnung *Grundkörper abziehen*. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Torus zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Torus im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Abzuziehender Torus'''** klicken. **Anmerkung**: Abzuziehender Torus ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der zu abzuziehende Torus in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
-3.  Mit Klick auf **OK** bestätigen.
-4.  Ein Torus erscheint unterhalb des aktiven Körpers (Body).
+3.  
+    **OK**klicken.
+
+4.  Ein Torus-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 
-</div>
 
 ## Optionen
 
-Der Torus kann auf zwei verschieden Wege bearbeitet werden:
+Der Torus kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von Grundkörper bearbeiten im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für den Torus (Torus-Objekt). Dies kann nach Bedarf geändert werden.
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
+-    {{PropertyData/de|Radius1}}: Der Radius des imaginären Orbits, auf dem das Querschnittsprofil den Mittelpunkt umrundet. (Der Abstand vom Mittelpunkt des Torus zum Mittelpunkt des umlaufenden Profils)
 
--    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für das Torus-Objekt. Dies kann nach Bedarf geändert werden.
+-    {{PropertyData/de|Radius2}}: Der Radius des kreisförmigen Profils, welches die Torusform bestimmt.
 
--    {{PropertyData/de|Radius1}}: Der Radius des imaginären Orbits, auf den das Querschnittsprofil den Mittelpunkt umrundet. (Der Abstand von dem Mittelpunkt des Torus zu dem Mittelpunkt des umlaufenden Profils)
+-    {{PropertyData/de|Angle1}}: (mit *V-Parameter* im Dialog Parameter des Grundkörpers bezeichnet) Der Winkel des unteren Halbbogens des kreisförmigen Profils (-180° für einen ganzen Torus). Ein Fehler in der Programmierung verusacht unerwartete Ergebnisse bei Änderung von Angle1.
 
--    {{PropertyData/de|Radius2}}: Der Radius von dem kreisförmigen Profil, welches die Torusform bestimmt.
+-    {{PropertyData/de|Angle2}}: (ohne Beschriftung im Dialog Parameter des Grundkörpers) Der Winkel des oberen Halbbogens des kreisförmigen Querschnittsprofils (180° für einen ganzen Torus). Ein Fehler in der Programmierung verusacht unerwartete Ergebnisse bei Änderung von Angle2.
 
--    {{PropertyData/de|Angle1}}: (mit *V-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Der Winkel des unteren Halbbogens des kreisförmigen Profils (-180° in einem vollen Torus). Ein Fehler in der Programmierung verusacht unerwartete Ergebenisse bei Änderung von Angle1.
-
--    {{PropertyData/de|Angle2}}: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Der Winkel des oberen Halbbogens des kreisförmigen Querschnittsprofils (180° in einem vollen Torus). Ein Fehler in der Programmierung verusacht unerwartete Ergebenisse bei Änderung von Angle2.
-
--    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des kreisförmigen Profilquerschnitts (360° in einem vollen Torus).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* im Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des kreisförmigen Profilquerschnitts (360° für einen ganzen Torus).
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

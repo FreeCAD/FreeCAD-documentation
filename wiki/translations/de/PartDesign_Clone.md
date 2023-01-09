@@ -15,18 +15,12 @@
 **PartDesign Clone** erzeugt eine verknüpfte Kopie eines gewählten Objekts, das allen zukünftigen Bearbeitungen des Originalobjekts (außer der Positionierung) folgt. Ein Anwendungsfall ist z.B., wenn du [PartDesign boolsche Opeartion](PartDesign_Boolean/de.md) für ein in einem anderen Arbeitsbereich erstelltes Objekt ausführen möchtest. Die meisten Objekttypen werden akzeptiert, solange es sich um einzelne Volumenkörper handelt. Wenn du mehrere Objekte (d.h. Körper) oder einen [Part Behälter](Std_Part/de.md) klonen musst, könntest du [Entwurf Arbeitsbereich Klon](Draft_Clone/de.md) verwenden. Ein Vorbehalt ist, dass der Klon des Part Design Arbeitsbereich die aktuelle Positionierung des Klons auf Null setzt (sowohl die kartesische Übersetzung als auch die räumliche Orientierung). Während der Klon des Entwurfs Arbeitsbereich berechnet und setzt die numerischen Werte der aktuellen Positionierung und Orientierung der geklonten Objekte in Bezug auf den geklonten Objektbehälter.
 
 ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) 
-*Klon des Innenzahnrades, während es im 3D Raum als eigenständiges Objekt übersetzt wird*
+*Klon des Innenzahnrades, der als eigenständiges Objekt im 3D-Raum bewegt wird*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle im Modellbaum das zu klonenden Objekt
-2.  Drücke die Schaltfläche **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Klon erstellen'''**.
-
-
-</div>
+1.  Das zu klonenden Objekt im Modellbaum auswählen.
+2.  Die Schaltfläche **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Klon erzeugen'''**.
 
 ## Eigenschaften
 

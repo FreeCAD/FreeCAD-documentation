@@ -13,7 +13,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Étiquette** crée un texte de plusieurs lignes avec une ligne de tête à deux segments et une flèche.
+La commande <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Étiquette** crée un texte de plusieurs lignes avec une ligne d\'attache à deux segments et une flèche.
 
 Si un objet ou un sous-élément (face, arête ou sommet) est sélectionné au lancement de la commande, on peut faire en sorte que le texte affiche un ou deux attributs de l\'élément sélectionné, notamment la position, la longueur, l\'aire, le volume et le matériau. Le texte sera alors lié aux attributs et sera mis à jour si leurs valeurs changent.
 
@@ -145,7 +145,7 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Frame|Enumeration**: spécifie le type de cadre dessiné autour du texte. Les options actuelles sont {{Value|None}} ou {{Value|Rectangle}}.
 
--    **Line|Bool**: indique s\'il faut afficher la ligne de repère. S\'il est `False`, seuls la flèche et le texte sont affichés.
+-    **Line|Bool**: indique s\'il faut afficher la ligne d\'attache. S\'il est `False`, seuls la flèche et le texte sont affichés.
 
 -    **Line Color|Color**: spécifie la couleur de l\'amorce et de la flèche. Également utilisée pour le cadre ({{Version/fr|0.20}}).
 

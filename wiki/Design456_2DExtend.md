@@ -40,13 +40,5 @@ At the moment, the command extend only at the end. This must be improved to do l
 
 
 
-
-
-{{Design456 Tools navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Design456](Category_Design456.md) > Design456 2DExtend
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 2DExtend

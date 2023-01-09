@@ -23,7 +23,7 @@ La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> *
     -   Sélectionnez un seul objet. Les objets suivants sont pris en charge :
         -   [Draft Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md) : la **View Data** (position de la caméra) et la {{PropertyView/fr|Visibility Map}} (la visibilité enregistrée des objets) du proxy plan de travail sont également restaurées.
         -   [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
-        -   [Arch Plan de section](Arch_SectionPlane/fr.md).
+        -   [Arch Plan de coupe](Arch_SectionPlane/fr.md).
         -   Les objets [Std Parts](Std_Part/fr.md) : pour éviter de sélectionner des sous-éléments, il est conseillé de les sélectionner dans la [Vue en arborescence](Tree_view/fr.md).
         -   Les objets [Part Feature](Part_Feature/fr.md) qui ont une seule face. Les [Part Plans](Part_Plane/fr.md) par exemple.
         -   Les objets qui ne sont pas des objets [Part Feature](Part_Feature/fr.md) et qui ont une propriété **Placement**.

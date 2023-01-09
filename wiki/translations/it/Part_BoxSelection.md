@@ -4,13 +4,11 @@
    Name/it:Part BoxSelection
    MenuLocation:Part → Box di selezione
    Workbenches:[Part](Part_Workbench/it.md)
+   Version:0.18
    SeeAlso:[Box di selezione](Std_BoxSelection/it.md), [Selezione elementi](Std_BoxElementSelection/it.md), [Seleziona tutto](Std_SelectAll/it.md)
 ---
 
 # Part BoxSelection/it
-
-
-</div>
 
 ## Descrizione
 
@@ -18,18 +16,10 @@
 
 **In alternativa**, se si desidera selezionare solo i vertici di un oggetto si può usare **<img src="images/Std_BoxElementSelection.svg" width=16px> [Seleziona elementi](Std_BoxElementSelection/it.md)**. Se si desidera selezionare l\'intera forma si può usare **<img src="images/Std_BoxSelection.svg" width=16px> [Box di selezione](Std_BoxSelection/it.md)**.
 
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
 1.  Andare in **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box di selezione**.
 2.  Fare clic e trascinare il puntatore nella finestra creando un rettangolo che tocchi una o più forme.
-
-
-</div>
 
 ## Note
 
@@ -38,15 +28,6 @@
 ## Limitazioni
 
 ## Script
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

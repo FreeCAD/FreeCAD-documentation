@@ -163,12 +163,18 @@
 
 ### Форматы файлов 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC/ru.md) : Формат классов строительной индустрии (Industry Foundation Classes)
 -   [DAE](Arch_DAE/ru.md) : Формат 3D моделей Collada
 -   [OBJ](Arch_OBJ/ru.md) : Формат 3D моделей Obj (поддерживается только экспорт)
 -   [JSON](Arch_JSON/ru.md) : Формат JavaScript Object Notation (поддерживается только экспорт)
 -   [3DS](Arch_3DS/ru.md) : Формат 3DS (поддерживается только импорт)
 -   [SHP](Arch_SHP/ru.md): GIS Shapefiles (поддерживается только импорт)
+
+
+</div>
 
 ## API
 

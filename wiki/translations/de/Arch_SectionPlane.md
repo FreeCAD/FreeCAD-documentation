@@ -20,6 +20,9 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Setze wahlweise die [Entwurfsarbeitsebene](Draft_SelectPlane/de.md) so, dass sie die Ebene widerspiegelt, auf der du die Schnittebene platzieren möchtest.
 2.  Wähle die Objekte aus, die in deiner Schnittansicht enthalten sein sollen.
 3.  Drücke die **<img src="images/Arch_SectionPlane.svg" width=16px> [Schnittebene](Arch_SectionPlane.md)** Taste oder drücke **S** dann **P** Tasten.
@@ -27,11 +30,26 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 5.  Wähle die Schnittebene aus, falls sie nicht bereits ausgewählt ist.
 6.  Verwende entweder [Zeichnung EntwurfsAnsicht](Draft_Drawing/de.md), [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) oder [TechDraw ArchAnsicht](TechDraw_ArchView/de.md), um eine Ansicht zu erstellen.
 
+
+</div>
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Das Schnittebenenobjekt berücksichtigt nur einen bestimmten Satz von Objekten, nicht alle Objekte des Dokuments. Objekte können einem Schnittebenenobjekt mit den [Arch Hinzufügen](Arch_Add/de.md) und [Arch Entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder entfernt werden, oder durch Doppelklicken auf die Schnittebene in der Baumansicht, Auswählen von Objekten entweder in der Liste oder in der 3D Szene und Drücken der Schaltflächen **hinzufügen\'\' oder**entfernen\'\'\'.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   Wenn ein Schnittebenenobjekt ausgewählt ist, verwendedas [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) Werkzeug, um ein Formobjekt zu erstellen, das die Schnittansicht im Dokument darstellt.
+
+
+</div>
 
 <img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 

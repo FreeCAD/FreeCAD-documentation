@@ -16,6 +16,8 @@ L\'outil Infobulle peut ajouter des infobulles avec une ligne de référence dan
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'un des éléments suivants :
@@ -34,39 +36,47 @@ Pour déplacer la bulle de l\'infobulle, appuyez et maintenez le bouton gauche d
 
 Pour modifier les propriétés d\'une infobulle, double-cliquez dessus dans la page ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira le panneau des tâches de l\'infobulle.
 
-**Remarque:** la position de l\'infobulle est relative à sa vue source et utilise le même facteur d\'échelle.
+**Remarque :** la position de l\'infobulle est relative à sa vue source et utilise le même facteur d\'échelle.
+
+
 
 ## Utiliser les séparateurs 
 
-Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateurs en utilisant \"\|\" dans le texte. Par exemple \"AAA\|TEST\|111\" donne:
+Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateurs en utilisant \"\|\" dans le texte. Par exemple \"AAA\|TEST\|111\" donne :
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
--    **Text**: Texte à afficher.
+-    **Text**: texte à afficher.
 
 -    **Source View**: vue source de l\'infobulle.
 
--    **Origin X**: Position x de l\'origine de l\'infobulle par rapport à la vue.
+-    **Origin X**: position x de l\'origine de l\'infobulle par rapport à la vue.
 
--    **Origin Y**: Position y de l\'origine de l\'infobulle par rapport à la vue.
+-    **Origin Y**: position y de l\'origine de l\'infobulle par rapport à la vue.
 
--    **End Type**: symbole de fin pour la ligne de l\'infobulle. Options: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Rien, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
+-    **End Type**: symbole de fin pour la ligne de l\'infobulle. Options : <img alt="" src=images/Arrownone.svg  style="width:20px;"> Rien, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
 
--    **End Type Scale**: Facteur d\'échelle pour le **Type d\'extrémité**.
+-    **End Type Scale**: facteur d\'échelle pour le **Type d\'extrémité**.
 
--    **Bubble Shape**: Forme de l\'infobulle. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circulaire, Rien, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagone, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Carré, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle
+-    **Bubble Shape**: forme de l\'infobulle. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circulaire, Rien, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagone, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Carré, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle
 
--    **Shape Scale**: Facteur d\'échelle pour la **Forme**.
+-    **Shape Scale**: facteur d\'échelle pour la **Forme**.
 
--    **Text Wrap**: Longueur d\'habillage du texte. -1 signifie que le texte ne sera jamais encapsulé et que le résultat est dans tous les cas une seule ligne.
+-    **Text Wrap**: longueur d\'habillage du texte. -1 signifie que le texte ne sera jamais encapsulé et que le résultat est dans tous les cas une seule ligne.
 
--    **Kink Length**: Distance entre la **forme** et le pli de la ligne de repère.
+-    **Kink Length**: distance entre la **forme** et le pli de la ligne de repère.
 
 -    **X**: position horizontale de l\'infobulle par rapport à la vue.
+
+
 
 ### Vue
 
@@ -79,6 +89,8 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 -    **Line Visible**: si la ligne de l\'infobulle est visible.
 
 -    **Line Width**: largeur de ligne de l\'infobulle.
+
+
 
 ## Script
 

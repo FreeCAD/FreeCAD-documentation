@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_WizardShaft
    Name/fr:PartDesign Conception d'arbre
-   MenuLocation:Part Design → Assistant de conception d'arbre...
+   MenuLocation:Part Design → Conception d'arbre...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
@@ -10,9 +10,9 @@
 
 ## Description
 
-Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Assistant de conception d'arbre...**.
+Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Conception d'arbre...**.
 
-L\'assistant démarre et affiche un tableau par défaut, la partie d\'arbre correspondante et les graphiques de force/moment.
+L\'assistant démarre et affiche un tableau par défaut, la partie de l\'arbre correspondante et les graphiques des forces/moments.
 
 <img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;">
 
@@ -41,7 +41,7 @@ Pour chaque segment de l\'arbre, les paramètres suivants peuvent être définis
 
 ## Menus
 
-Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la souris dans l\'espace vide à droite du tableau et choisissez \"Add column\".
+Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la souris dans l\'espace vide à droite du tableau et choisissez \"Ajouter une colonne\".
 
 ## Limitations
 

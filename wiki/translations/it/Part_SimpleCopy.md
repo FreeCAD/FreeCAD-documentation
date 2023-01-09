@@ -24,15 +24,6 @@ La copia ha una semplice proprietà **Placement** come qualsiasi altra [Part Fea
 La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Part_Feature/it.md).
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/it

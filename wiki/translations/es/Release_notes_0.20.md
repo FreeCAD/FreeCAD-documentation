@@ -85,6 +85,9 @@ El sistema de ayuda ha sido reescrito y actualizado para mostrar información di
   <img alt="" src=images/Autoload_relnotes_0.20.png  style="width:384px;">   El panel de preferencias de los \"Entornos de trabajo\" fue modificado para permitir cargar automáticamente los entornos de trabajo mientras FreeCAD inicia.
    
 
+
+<div class="mw-translate-fuzzy">
+
 En Linux, la ubicación por defecto de los archivos de configuración de FreeCAD, datos y caché fue cambiada para seguir la [Especificación de Directorios Base XDG](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Aquí hay una comparación de las ubicaciones anteriores y nuevas:
 
   Descripción                 Ubicación anterior   Ubicación nueva             Por defecto a
@@ -92,6 +95,9 @@ En Linux, la ubicación por defecto de los archivos de configuración de FreeCAD
   Archivos de configuración   \$HOME/.FreeCAD      \$XDG_CONFIG_HOME/FreeCAD   \$HOME/.config/FreeCAD
   Archivos de datos           \$HOME/.FreeCAD      \$XDG_DATA_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
   Archivos de caché           /tmp                 \$XDG_CACHE_HOME/FreeCAD    \$HOME/.cache/FreeCAD
+
+
+</div>
 
 Si desea seguir utilizando las ubicaciones anteriores, puede iniciar FreeCAD con la opción `--keep-deprecated-paths`.
 

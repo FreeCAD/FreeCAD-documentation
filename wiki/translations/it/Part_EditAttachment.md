@@ -41,7 +41,13 @@
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Part_Offset_Tasks_it.png )
+
+
+</div>
 
 ### Modalità di allegato 
 
@@ -59,8 +65,7 @@ L\'oggetto è reso perpendicolare al bordo. Riferimento facoltativo ad un vertic
 :   Bordo, Vertice
 :   Vertice, Bordo
 
-
-{{Part Tools navi/it}}
+See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes:
 
 
 <div class="mw-translate-fuzzy">

@@ -1,27 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Points Structure
-   MenuLocation:Points → Structured point cloud
-   Workbenches:[Points](Points_Workbench.md)
+   Name/pl:Punkty: Uporządkowana chmura punktów
+   MenuLocation:Punkty → Uporządkowana chmura punktów
+   Workbenches:[Punkty](Points_Workbench/pl.md)
 ---
 
 # Points Structure/pl
 
-## Description
+## Opis
 
-The **Points Structure** command creates a structured point cloud from the points of an existing scattered point cloud. A structured point cloud has the advantage that tessellation is much easier.
+Polecenie **Uporządkowana chmura punktów** tworzy ustrukturyzowaną chmurę punktów z punktów istniejącej rozproszonej chmury punktów. Ustrukturyzowana chmura punktów ma tę zaletę, że znacznie łatwiejsza jest teselacja.
 
-The command only works for point clouds whose points, when viewed from a certain direction, are organized in a regular 2D grid. These point clouds are typically produced by [structured-light 3D scanners](https://en.wikipedia.org/wiki/Structured-light_3D_scanner) and do not have undercuts. For complex objects, point clouds from many different view directions have to be combined.
+Polecenie działa tylko dla chmur punktów, których punkty, patrząc z określonego kierunku, zorganizowane są w regularną siatkę 2D. Takie chmury punktów są zazwyczaj produkowane przez [structured-light 3D scanners](https://en.wikipedia.org/wiki/Structured-light_3D_scanner) i nie posiadają podcięć. W przypadku złożonych obiektów należy połączyć chmury punktów z wielu różnych kierunków widzenia.
 
-## Usage
+## Użycie
 
-1.  The command assumes that the view direction of the point cloud is parallel to the Z axis of the global coordinate system. If this is not the case: adjust the point cloud object\'s **Placement** accordingly.
-2.  Select the point cloud object.
-3.  Select the **Points → Structured point cloud** option from the menu.
+1.  Polecenie zakłada, że kierunek widzenia chmury punktów jest równoległy do osi Z globalnego układu współrzędnych. Jeśli tak nie jest: dostosuj odpowiednio obiekt chmury punktów **Umiejscowienie**.
+2.  Wybierz obiekt chmury punktów.
+3.  Wybierz z menu opcję **Punkty → Uporządkowana chmura punktów**.
 
-## Properties
+## Właściwości
 
-See [Points Convert](Points_Convert.md).
+Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
 
 
 

@@ -3,7 +3,7 @@
 
 Dans FreeCAD, le mot \"[Shape](Shape/fr.md)\" est normalement utilisé pour faire référence à une classe [ Part TopoShape](Part_TopoShape.md) (`Part::TopoShape`), un type d\'objet qui donne un élément sa représentation géométrique et paramétrique 3D (cube, pyramide, sphère, cylindre, fusion, etc.).
 
-Essentiellement, tous les objets affichés dans la [vue 3D](3D_view/fr.md) ont un [TopoShape](Part_TopoShape/fr.md), à l\'exception de \"[Mesh](Mesh/fr.md)\", qui ont un [MeshObject](Mesh_MeshObject/fr.md) (classe `Mesh::MeshObject`).
+Essentiellement, tous les objets affichés dans la [vue 3D](3D_view/fr.md) ont un [TopoShape](Part_TopoShape/fr.md), à l\'exception des \"[maillages](Mesh/fr.md)\", qui ont un [MeshObject](Mesh_MeshObject/fr.md) (classe `Mesh::MeshObject`).
 
 Voir [Part TopoShape](Part_TopoShape.md) pour plus d\'informations sur ce type d\'objet.
 
@@ -11,7 +11,7 @@ Voir [Part TopoShape](Part_TopoShape.md) pour plus d\'informations sur ce type d
 
 
 
-*A gauche: paramétrique [shape](Shape/fr.md) définie par les propriétés. A droite: [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
+*A gauche: une [shape](Shape/fr.md) paramétrique définie par les propriétés. A droite: un [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
 
 ## Utilisation
 
@@ -23,13 +23,13 @@ Essentiellement, chaque objet dérivé d\'une [Part Feature](Part_Feature/fr.md)
 
 ## Remarques
 
-Dans un usage informel, une \"forme\" peut être n\'importe quelle figure géométrique visible dans la [vue 3D](3D_view/fr.md), et donc son concept peut être confondu avec celui de \"[Corps](Body/fr.md)\" ou \"[Partie](Part/fr.md)\".
+Dans un usage informel, une \"Shape\" peut être n\'importe quelle figure géométrique visible dans la [vue 3D](3D_view/fr.md), et donc son concept peut être confondu avec celui de \"[Corps](Body/fr.md)\" ou \"[Part](Part/fr.md)\".
 
 Cependant, lorsque plus de précision est requise, la distinction doit être faite.
 
--   Un \"[Corps](Body/fr.md)\" est un objet dérivé d\'une [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`), créé avec l\' [atelier PartDesign](PartDesign_Workbench/fr.md).
+-   Un \"[Corps](Body/fr.md)\" est un objet dérivé d\'une [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`), créé avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 -   Un \"Shape\" est un objet interne, intégré dans le \"[Corps](Body/fr.md)\".
--   Un \"[Part](Part/fr.md)\" est utilisé pour regrouper plusieurs \"[Corps](Body/fr.md)\" pour former un [assemblage](assembly/fr.md). Une \"pièce\" a une collection de \"formes\", mais n\'a pas de \"forme\" qui lui soit propre.
+-   Un \"[Part](Part/fr.md)\" est utilisé pour regrouper plusieurs \"[Corps](Body/fr.md)\" pour former un [assemblage](assembly/fr.md). Un \"Part\" a une collection de \"Shapes\", mais n\'a pas de \"Shape\" qui lui soit propre.
 
 
  {{Document objects navi}}

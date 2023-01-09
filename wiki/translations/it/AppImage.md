@@ -5,6 +5,8 @@
 
 {{TOCright}}
 
+
+
 ## Che cos\'è una AppImage? 
 
 ![](images/AppImage-logo.png ) **Impacchetta una volta ed esegui ovunque. Raggiungi gli utenti su tutte le principali distribuzioni desktop Linux.**
@@ -21,16 +23,18 @@ chmod +x FreeCAD_xxx-x86_64.AppImage
 
 Per altri tipi di installazione vedere [Download](Download/it.md).
 
+
+
 ## AppImages di FreeCAD 
-
-
-**'''Nota:''' Le versioni di sviluppo sono ora ospitate su [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo.<br/>Se i link per il download qui sotto non funzionano, si prega di scaricare manualmente i file dalla sezione "Assets" espansa del link sopra**
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20.1](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
+
+
+<div class="mw-translate-fuzzy">
 
 **Note importanti:**
 
@@ -40,15 +44,24 @@ Per altri tipi di installazione vedere [Download](Download/it.md).
 -   Può essere eseguito sullo stesso sistema in parallelo con un\'altra versione di FreeCAD.
 -   Gli utenti usano la versione dev per sfruttare le ultime funzionalità e correzioni di errori (poiché FreeCAD ha un lungo ciclo di rilascio). La usano anche per aiutare a testare e trovare i bug per stimolare lo sviluppo e il miglioramento di FreeCAD.
 
+
+</div>
+
+
+
 #### Avviso di cautela obbligatorio 
 
 Per la maggior parte la versione di sviluppo è stabile ma ovviamente è importante aggiungere un obbligatorio avviso di cautela utilizzarla a proprio rischio. Anche se la maggior parte delle persone che utilizzano backup e \"salvano spesso\" fanno abbastanza bene.
+
+
 
 ## Aggiornamento automatico 
 
 AppImage ha un modo intelligente ed economico di aggiornamento. Calcola la differenza tra il nuovo AppImage e quello vecchio e scaricherà solo le modifiche tra le loro versioni. In teoria l\'utente finisce per scaricare circa il 15% ogni volta invece di un AppImage completamente nuovo.
 
 L\'aggiornamento automatico viene eseguito tramite diversi metodi opzionali. Attualmente ci sono 4 metodi, 2 attraverso l\'interfaccia grafica (GUI) e 2 attraverso l\'interfaccia a riga di comando / terminale (CLI).
+
+
 
 ### Aggiornamento sperimentale in-app 
 

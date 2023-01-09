@@ -24,7 +24,8 @@ Acest instrument taie/scurtează și/sau extinde linii și polilinii, și extrud
 </div>
 
 <img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
-*Top: a Draft Wire extended and then trimmed. Bottom: a face extruded into a solid body.*
+*Top: a Draft Wire extended and then trimmed.<br>
+Bottom: a face extruded into a solid body.*
 
 ## Trim or extend 
 

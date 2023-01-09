@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -25,9 +27,11 @@ La herramienta Dimensión Longitud añade una dimensión lineal a una Vista. La 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Dimensión de longitud tomada de dos nodos arbitrarios de la vista*
 
+
+
 ## Utilización
 
-1.  Select the points or edge which define your measurement.
+1.  Select the points or edge which define your measurement. The geometry may be selected in the drawing or the [3D view](3D_view.md).
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
@@ -90,6 +94,8 @@ The dimension dialog offers the following settings:
 
 -   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
 
+
+
 ## Propiedades
 
 ### Data
@@ -103,7 +109,7 @@ The dimension dialog offers the following settings:
 
 -    **Type**: Length, radius, diameter, etc. Not normally manipulated by the end user.
 
--    **Measure Type**: How the measurement is performed. Not normally manipulated directly by the end user.
+-    **Measure Type**: How the measurement is performed.
 
 :   
 
@@ -265,6 +271,8 @@ The dimension dialog offers the following settings:
         
         \- Override the automatically chosen direction and force the opposite one.
 
+
+
 ## Limitaciones
 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". This means that if you modify the 3D geometry the faces and edges of the model may be renamed internally; if a dimension is attached to an edge that is then modified, the dimension may break. In general, it is not possible to keep the projected 2D dimensions synchronized with the actual 3D objects.
@@ -294,6 +302,8 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
+
+
 
 ## Notas
 

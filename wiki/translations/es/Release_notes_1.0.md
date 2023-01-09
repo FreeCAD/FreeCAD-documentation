@@ -25,30 +25,28 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 ## Interfaz de usuario 
 
    
-  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   The display style of [measurement](Part_Workbench#Measure.md) results created using the [Part](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) workbench can now be changed in the [preferences](PartDesign_Preferences#Measure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
+  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
    
 
    
-  <img alt="" src=images/DlgDisplayProperties_relnotes_1.0.png  style="width:200px;">   The [Std SetAppearance](Std_SetAppearance.md) task panel now also has a button to set the Point Color property. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
+  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   The display style of [measurement](Part_Workbench#Measure.md) results created using the [Part](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) workbench can now be changed in the [preferences](PartDesign_Preferences#Measure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
 
    
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width:300px;">   The workbench selector can now optionally be put in the menubar instead of the toolbar area. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
    
 
-   
-  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
-   
-
 ### Otras mejoras de la interfaz de usuario 
 
--   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103)
--   The button for <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> [Edit Mode](Std_UserEditMode.md) has been removed from the standard toolbar. It can be re-added by [customizing](Std_DlgCustomize.md) your toolbar.[Pull request #7570](https://github.com/FreeCAD/FreeCAD/pull/7570)
--   The buttons for <img alt="" src=images/Std_Print.svg  style="width:24px;"> [Print](Std_Print.md), <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Copy](Std_Copy.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Paste](Std_Paste.md) and <img alt="" src=images/Std_Cut.svg  style="width:24px;"> [Cut](Std_Cut.md) have been removed from the standard toolbar. They can be re-added by [customizing](Std_DlgCustomize.md) your toolbar.[Pull request #7571](https://github.com/FreeCAD/FreeCAD/pull/7571) and [commit ea9a04e](https://github.com/FreeCAD/FreeCAD/commit/ea9a04e)
+-   The button for <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> [Edit Mode](Std_UserEditMode.md) has been removed from the standard toolbar. It can be re-added by [customizing](Std_DlgCustomize.md) your toolbar. [Pull request #7570](https://github.com/FreeCAD/FreeCAD/pull/7570)
+-   The buttons for <img alt="" src=images/Std_Print.svg  style="width:24px;"> [Print](Std_Print.md), <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Copy](Std_Copy.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Paste](Std_Paste.md) and <img alt="" src=images/Std_Cut.svg  style="width:24px;"> [Cut](Std_Cut.md) have been removed from the standard toolbar. They can be re-added by [customizing](Std_DlgCustomize.md) your toolbar. [Pull request #7571](https://github.com/FreeCAD/FreeCAD/pull/7571) and [commit ea9a04e](https://github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 -   Commands to [store](Std_StoreWorkingView.md) and [recall](Std_RecallWorkingView.md) a temporary working view have been added. [Pull request #7525](https://github.com/FreeCAD/FreeCAD/pull/7525)
--   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning.md) switch is enabled. This prevents unwanted value changes while scrolling, as already was the case for spin and combo boxes. [Pull request #7561](https://github.com/FreeCAD/FreeCAD/pull/7561)
--   All transparency settings use now the uniform spin button step of 5%: One click on the button in a dialog or the [property editor](Property_editor.md) changes the transparency by 5%. Keep the button pressed to change several 5% steps at once. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
+-   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning#Mouse_related.md) parameter is enabled. This prevents unwanted value changes while scrolling, as was already the case for spin and combo boxes. [Pull request #7561](https://github.com/FreeCAD/FreeCAD/pull/7561)
+-   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103)
+-   There is the new orbit style **Free Turntable**. It can either be enabled in the [Preferences](Preferences_Editor#Navigation.md) or by pressing the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md) and then using the menu **Settings → Orbit**). [Pull Request #8048](https://github.com/FreeCAD/FreeCAD/pull/8048)
+-   The [Std SetAppearance](Std_SetAppearance.md) task panel now also has a button to set the Point Color property. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
 -   A button has been added to switch the colors of the [3D view](3D_view.md) background gradient in the [Preferences](Preferences_Editor#Colors.md). [Pull request #7155](https://github.com/FreeCAD/FreeCAD/pull/7155)
+-   All transparency settings use now the uniform spin button step of 5%: One click on the button in a dialog or the [property editor](Property_editor.md) changes the transparency by 5%. Keep the button pressed to change several 5% steps at once. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
 -   The Output window has been renamed to Report view for uniformity with the UI. [Pull Request #7739](https://github.com/FreeCAD/FreeCAD/pull/7739)
 
 ## Núcleo del sistema y API 

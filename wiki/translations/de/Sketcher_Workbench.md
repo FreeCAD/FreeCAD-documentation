@@ -290,6 +290,8 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Knoten einfügen](Sketcher_BSplineInsertKnot/de.md) (BSplineKnotenEinfügen), {{Version/de|0.20}}
 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+
 ### Virtueller Sketcher-Bereich 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Bereich wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht alle Randbedingungen einer Skizze auszublenden und wieder sichtbar zu machen.

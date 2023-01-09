@@ -22,7 +22,8 @@ Balaie l\'élément A le long de toutes les limites de l\'élément B. L\'espace
 
 ![Un exemple de somme de Minkowski](images/Minkowski_example.jpg )
 
-Exemple de somme de Minkowski appliquée au cylindre et au cube. Remarque: la hauteur de la somme de Minkowski est la hauteur du cylindre plus la hauteur du cube.
+Exemple de somme de Minkowski appliquée au cylindre et au cube.
+Remarque : la hauteur de la somme de Minkowski est la hauteur du cylindre plus la hauteur du cube.
 
 ## Utilisation
 
@@ -31,7 +32,7 @@ Exemple de somme de Minkowski appliquée au cylindre et au cube. Remarque: la ha
 
 ## Limitations
 
-OpenSCAD doit être installé et configuré dans **Edit** → **Préférences**
+OpenSCAD doit être installé et configuré par **Edition** → **Préférences**
 
 ## Remarques
 

@@ -1,22 +1,32 @@
 # Installing additional components/pl
 {{TOCright}}
 
+
+
 # Wprowadzenie
 
 Po zainstalowaniu FreeCAD w swoim systemie operacyjnym *([Linux](Installing_on_Linux/pl.md), [Mac](Installing_on_Mac/pl.md), lub [ Windows](Installing_on_Windows/pl.md))*, możesz rozważyć zainstalowanie jednego lub więcej z następujących dodatkowych komponentów.
+
+
 
 # Pliki pomocy 
 
 Zobacz dokument [Instalacja dokumentacji pomocy](Installing_Helpfile/pl.md) aby uzyskać więcej informacji.
 
-# Zewnętrzne Środowiska pracy 
+
+
+# Zewnętrzne środowiska pracy 
 
 Poza standardowymi [Środowiskami pracy](workbenches/pl.md) dołączonymi do programu FreeCAD, dostępna jest coraz większa kolekcja użytecznych [dodatkowych Środowisk pracy](External_workbenches/pl.md) wykonanych przez członków społeczności.
+
+
 
 # Oprogramowanie zewnętrzne 
 
 FreeCAD obsługuje kilka pakietów oprogramowania pochodzących od innych deweloperów. W wielu przypadkach wystarczy zainstalować oprogramowanie, a gdy FreeCAD zostanie zrestartowany, automatycznie znajdzie i będzie mógł z niego korzystać.
 Ta sekcja ma na celu dostarczenie listy wszystkich takich pakietów oprogramowania wraz z informacjami, gdzie jest ono używane we FreeCAD i gdzie można je pobrać.
+
+
 
 ## Wspierane
 
@@ -36,9 +46,13 @@ Ta sekcja ma na celu dostarczenie listy wszystkich takich pakietów oprogramowan
 
 [OpenSCAD](https://www.openscad.org) jest stabilnym modułem do modelowania 3D. Od tego oprogramowania jest zależne środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md), a środowisko [Siatka](Mesh_Workbench/pl.md) używa go dla swoich narzędzi logicznych. Jest on również wymagany do importu plików SCAD za pomocą narzędzia [Std: Import](Std_Import/pl.md).
 
+
+
 ## Formaty plików 
 
 Wszystkie programy w tej sekcji będą używane przez narzędzia [Std: Import](Std_Import/pl.md) lub [Std: Export](Std_Export/pl.md).
+
+
 
 ### CAD Exchanger 
 
@@ -47,6 +61,8 @@ Komercyjna aplikacja [CADExchanger](https://cadexchanger.com) z zamkniętym źr�
 ### DXF Importer 
 
 FreeCAD posiada własnego importera i eksportera plików DXF, który zaprogramowano w C++. Obecnie importer ten nie implementuje wszystkich funkcji formatu DXF. Dla tych funkcji dostępny jest nadal starszy importer eksporter Python. Wymaga on biblioteki [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python. Zobacz stronę [FreeCAD i Import DXF](FreeCAD_and_DXF_Import.md) aby uzyskać więcej informacji.
+
+
 
 ### Konwerter DWG 
 
@@ -70,6 +86,8 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 
 [Pycollada](https://github.com/pycollada/pycollada/releases), znana również jako python-collada, jest biblioteką Pythona do czytania i tworzenia plikówów COLLADA *(DAE)*. Pycollada jest zawarta w instalatorach FreeCAD dla systemów Windows i Mac.
 
+
+
 ## Renderowanie
 
 ### LuxCoreRender
@@ -80,15 +98,23 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 
 [LuxRender](https://luxcorerender.org/history/) jest jednym z dwóch silników renderujących obsługiwanych przez środowisko pracy [Raytracing](Raytracing_Workbench/pl.md). W 2013 roku projekt został reaktywowany jako [LuxCoreRender](LuxCoreRender/pl.md), z gruntownym przepisaniem kodu i zmianami naruszającymi kompatybilność. Oficjalnie środowisko pracy Raytracing obsługuje tylko porzucony [LuxRender](LuxRender/pl.md) *(najnowsza wersja to 1.6, 2017-12-28)*, podczas gdy nowe środowisko [Render](https://github.com/FreeCAD/FreeCAD-render) *(przeznaczone jako przyszły następca środowiska Raytracing)* obsługuje zamiast tego LuxCoreRender i porzuca wsparcie dla LuxRender. Tak czy inaczej, nawet jeśli oficjalnie nie jest wspierany, [LuxCoreRender](LuxCoreRender/pl.md) może działać ze środowiskiem Raytracing, może warto spróbować. Zobacz stronę [LuxRender](LuxRender/pl.md) po więcej informacji i instrukcje instalacji, oraz [LuxCoreRender](LuxCoreRender/pl.md) jeśli chcesz wypróbować bardziej nowoczesne oprogramowanie.
 
+
+
 ### POVRay
 
 [POV-Ray](https://www.povray.org) jest znanym ray-trakerem, który potrafi oddać fotorealistyczne obrazy. Jest to jeden z dwóch silników renderowania obecnie wspieranych przez FreeCAD w środowisku pracy [Raytracing](Raytracing_Workbench/pl.md). Więcej informacji i instrukcje instalacji można znaleźć na stronie [POV-Ray](POV-Ray/pl.md).
 
+
+
 ## Element końcowy 
+
+
 
 ## CalculiX
 
 [CalculiX](http://calculix.de) jest zestawem dwóch kompletnych pakietów elementów skończonych: CalculiX CrunchiX, solwer FEM i CalculiX GraphiX, nakładka GUI. FreeCAD obsługuje tylko solver. Jest używany przez narzędzie [Solver CalculiX](FEM_SolverCalculiX.md).
+
+
 
 ## Gmsh
 
@@ -109,6 +135,8 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) to duży zbiór bibliotek do symulacji obliczeniowej dynamiki płynów *(Computational Fluid Dynamics CFD)*. OpenFOAM jest używany przez [Cfd](Cfd_Workbench.md) i [CfdOF](https://github.com/jaheyns/CfdOF) [zewnętrzne Środowiska pracy](external_workbenches/pl.md).
+
+
 
 # Warto odwiedzić 
 

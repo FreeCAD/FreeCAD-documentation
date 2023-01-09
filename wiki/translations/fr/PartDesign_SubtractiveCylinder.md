@@ -18,6 +18,8 @@ Insère un cylindre primitif soustractif dans le Corps actif. Sa forme est soust
 
 *À gauche, le corps actif (A) en gris et le cylindre soustractif (B) en rouge transparent ; le résultat final est à droite.*
 
+
+
 ## Utilisation
 
 1.  Presser le bouton **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Cylindre soustractif'''**. **Remarque** : le Cylindre soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir le Cylindre soustractif, cliquer sur la flèche vers le bas et choisissez Cylindre soustractif dans le menu.
@@ -27,12 +29,14 @@ Insère un cylindre primitif soustractif dans le Corps actif. Sa forme est soust
 
 ## Options
 
-Il est possible de créer des prismes biaisés en spécifiant des angles par rapport au vecteur normal de l\'ancrage choisi. {{Version/fr|0.20}}
+Il est possible de créer des cylindres biaisés en spécifiant des angles par rapport au vecteur normal de l\'ancrage choisi. {{Version/fr|0.20}}
 
 Le Cylindre peut être édité après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

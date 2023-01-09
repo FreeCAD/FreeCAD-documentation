@@ -9,12 +9,16 @@
 
 # TechDraw Annotation/de
 
+
+
 ## Beschreibung
 
 Das Anmerkungswerkzeug fügt einen Textblock zu einem Zeichnungsblatt hinzu.
 
 <img alt="" src=images/AnnotationSample.png  style="width:250px;"> 
 *Anmerkung in einer Zeichnungsseite*
+
+
 
 ## Anwendung
 
@@ -30,6 +34,8 @@ Das Anmerkungswerkzeug fügt einen Textblock zu einem Zeichnungsblatt hinzu.
 **Hinweis:**
 
 Einige Zeichen stören die interne Darstellung des Anmerkungstextes. Im Einzelnen sind dies die doppelten Anführungszeichen `"`, weniger als `<` und mehr als `>` Symbole; diese müssen durch HTML Escape Zeichen, `&amp;quot;`, `&amp;lt;` und `&amp;gt;` ersetzt werden. Siehe [Zeichenkodierungen in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) für Einzelheiten.
+
+
 
 ## Eigenschaften
 
@@ -49,6 +55,8 @@ Die Anmerkung übernimmt alle anwendbaren grundlegenden Ansichtseigenschaften au
 
 -    **TextStyle**: \"Normal\", \"Fett\", \"Kursiv\", \"Fett-Kursiv\"
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
@@ -63,10 +71,18 @@ anno.TextStyle = 'Bold'
 rc = page.addView(anno)
 ```
 
+
+
 ## Hinweise
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

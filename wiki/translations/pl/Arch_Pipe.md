@@ -42,7 +42,7 @@ This tool allows to create pipes from scratch, or from selected objects. The sel
 
 ![](images/Arch_pipe_example_01.jpg )
 
--   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to python, though. In the case above I added a new snap point at the exit of the wc appliance. The vectors inside SnapPoints appear on the model as white dots:
+-   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to Python, though. In the case above I added a new snap point at the exit of the WC appliance. The vectors inside SnapPoints appear on the model as white dots:
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
@@ -79,7 +79,7 @@ It is also possible to create Arch Pipes without a base line, in this case use i
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Pipe tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Pipe tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

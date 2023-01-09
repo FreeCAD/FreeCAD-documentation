@@ -4,33 +4,15 @@
    Name/it:Serie di link su punti
    MenuLocation:Modifiche → Strumenti serie → Serie di link su punti
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md)
    Version:0.19
+   SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su punti](Draft_PathLinkArray/it.md),  [Serie su punti](Draft_PointArray/it.md)
 ---
 
 # Draft PointLinkArray/it
 
-
-</div>
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento **Serie di link su punti** posiziona copie di una forma selezionata lungo vari punti selezionati. Funziona allo stesso modo di **[<img src=images/Draft_PointArray.svg style="width:16px"> [Serie su punti](Draft_PointArray/it.md)** ma crea oggetti interni [App Link](App_Link/it.md) invece di semplici copie.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Lo strumento <img alt="" src=images/Draft_PointLinkArray.svg  style="width:24px;"> **Serie di link su punti** crea una serie di [Link](App_Link/it.md) da un oggetto selezionato posizionando copie sui punti da un [point compound](Draft_PointArray#Point_compound.md). Utilizzare il comando [Serie su punti](Draft_PointArray/it.md) per creare invece un array regolare meno efficiente. Fatta eccezione per il tipo di array creato, serie di [Link](App_Link/it.md) o serie normale, questo comando è identico al comando [Serie su punti](Draft_PointArray/it.md). Vedi lì per maggiori informazioni.
 
 
 

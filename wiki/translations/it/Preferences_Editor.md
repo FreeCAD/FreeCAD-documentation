@@ -353,15 +353,9 @@ Nella scheda *Console Python* ({{Version/it|0.20}}) puoi specificare quanto segu
 
 </div>
 
-**Important note:** this tab has been renamed from Output window to **Report view**. <small>(v1.0)</small> 
-
-
-<div class="mw-translate-fuzzy">
+**Nota importante:** questa scheda è stata rinominata da finestra di Output a **Vista report**. {{Version/it|1.0}}
 
 Queste preferenze controllano il comportamento della [Finestra dei Report](Report_view/it.md). Questo pannello può essere aperto utilizzando l\'opzione di menu **Visualizza → Panelli → Report**.
-
-
-</div>
 
 Nella scheda *Output* è possibile specificare quanto segue:
 

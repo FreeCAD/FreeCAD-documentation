@@ -90,7 +90,13 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_04.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Acum există un nou instrument [Proiect Slope](Draft_Slope/ro.md) care permite modificarea pantei liniilor de proiectare, spre exemplu, 5% (0,05). Așadar, putem da rapid liniei noastre de deșeuri o pantă corectă. Numai coordonatele z sunt modificate de acest instrument, așa că trebuie doar să le înșurubăm unul în celălalt, proiecția de sus va rămâne neschimbată.
+
+
+</div>
 
 ![](images/Arch_pipe_example_05.jpg )
 
@@ -105,6 +111,8 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 -   Schimbarea razei conectorilor nu modifică lungimea liniei de bază subiacente, numai tubul rezultat (prin schimbarea proprietății OffsetStart sau OffsetEnd). Deci, puteți să vă traseți linia doar cu linii drepte, fără a fi nevoie să vă îngrijiți de curbele și razele lor.
 
 Este de asemenea posibil să se creeze Arch Pipes fără o linie de bază, în acest caz utilizați proprietatea \"Length\" pentru a defini lungimea sa.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

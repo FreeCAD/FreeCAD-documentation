@@ -1,7 +1,9 @@
 # Macro documentation/pl
 ## Opis
 
-All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented. They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
+All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented.
+
+They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
 
 The [Macros recipes](Macros_recipes.md) page has a good selection of macros created by experienced users, and many of them can be directly installed from the [Addon Manager](Std_AddonMgr.md).
 
@@ -11,7 +13,10 @@ If a macro provides a well defined functionality, and is well documented, it cou
 
 ## New macro page 
 
-Create a new page for the macro starting with the word `Macro_`, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
+
+{{ColoredText|The first page is created '''obligatory''' in English language, the translation of page for other languages must be validate by one administrator and after you can translate in all other language.}}
+
+Create a new page for the macro starting with the word `Macro_` after the name of the macro, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
 
 In the new page you should use [Template:Macro](Template_Macro.md) at the top, with a minimum of information:
 

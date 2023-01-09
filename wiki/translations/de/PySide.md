@@ -7,24 +7,12 @@ Die [PySide](PySide.md) Bibliothek ermöglicht den Zugriff auf das plattformübe
 
 Wenn du FreeCAD installierst, solltest du sowohl Qt als auch PySide als Teil des Pakets erhalten. Wenn du selbst [Kompilierst](Compiling/de.md), dann musst du überprüfen, ob diese beiden Bibliotheken installiert sind, damit FreeCAD korrekt läuft. Natürlich wird PySide nur funktionieren, wenn Qt vorhanden ist.
 
-
-<div class="mw-translate-fuzzy">
-
-In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt Bindung für Python, aber 2013 ([1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine zulässigere [Lizenz](licence/de.md) hat.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt-Einbindung für Python, aber 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine umfassendere [Lizenz](licence/de.md) hat.
 
 Für weitere Informationen siehe:
 
--   [Wikipedia:PySide](http://en.wikipedia.org/wiki/PySide)
--   [Unterschiede zwischen PySide und PyQt](http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt)
-
-
-</div>
+-   [Wikipedia:PySide](https://en.wikipedia.org/wiki/PySide)
+-   [Differences Between PySide and PyQt](https://wiki.qt.io/Differences_Between_PySide_and_PyQt)
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*

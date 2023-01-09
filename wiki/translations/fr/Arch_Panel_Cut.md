@@ -36,34 +36,34 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arc
 
 ### Données
 
--    **Source**: L\'objet [Arch Panneau](Arch_Panel/fr.md) montré par cette découpe.
+-    **Source**: l\'objet [Arch Panneau](Arch_Panel/fr.md) montré par cette découpe.
 
--    **Tag Text**: Le texte à afficher. Peut être %tag%, %label% ou %description% pour afficher la balise ou l\'étiquette du panneau.
+-    **Tag Text**: le texte à afficher. Peut être %tag%, %label% ou %description% pour afficher la balise ou l\'étiquette du panneau.
 
--    **Tag Size**: La taille du texte de la balise
+-    **Tag Size**: taille du texte de l\'étiquette
 
--    **Tag Position**: La position du texte de la balise. Conservez (0,0,0) pour une position centrale automatique.
+-    **Tag Position**: position du texte de l\'étiquette. Laisser à (0,0,0) pour une position centrale automatique.
 
--    **Tag Rotation**: La rotation du texte de la balise
+-    **Tag Rotation**: rotation du texte de l\'étiquette
 
--    **Font File**: La police du texte de la balise
+-    **Font File**: police du texte de l\'étiquette
 
--    **Make Face**: Si True, le panneau est une Part Face, sinon une Part Polyligne.
+-    **Make Face**: si mis à vrai, le panneau est une Part Face, sinon une Part Polyligne.
 
 ### Vue
 
--    **Margin**: La marge à afficher hors du panneau coupé.
+-    **Margin**: marge à afficher hors du panneau coupé.
 
--    **Show Margin**: Active/désactive l\'affichage de la marge
+-    **Show Margin**: active/désactive l\'affichage de la marge
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Découpe de panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant: 
+L\'outil Découpe de panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant : 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 

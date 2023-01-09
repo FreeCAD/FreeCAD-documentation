@@ -1,68 +1,69 @@
-# PartDesign SubtractiveWedge/de
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractiveWedge
-   Name/de:PartDesign Abzuziehender Keil
+   Name/de:PartDesign KeilAbziehen
+   MenuLocation:Part Design → Grundkörper abziehen → Keil
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehender Keil
-   Shortcut:None
-   SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)---
+   Version:0.17
+   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KeilHinzufügen](PartDesign_AdditiveWedge/de.md)
+---
+
+# PartDesign SubtractiveWedge/de
 
 
-</div>
 
 ## Beschreibung
 
-Fügt einen abzuziehenden Keil in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
+Fügt einen Keil-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
-![](images/PartDesign_SubtractiveWedge_example.svg ) *Auf der linken Seite ist der aktive Körper (A) in Grau und der abzuziehender Keil (B) in durchscheinenden Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+![](images/PartDesign_SubtractiveWedge_example.svg ) *Auf der linken Seite ist der aktive Körper (A) in Grau und der abzuziehender Keil (B) in durchscheinendem Rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+
+
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Keil'''** drücken. **Hinweis**: Der Keil ist Teil eines Symbolmenüs mit der Bezeichnung *Grundkörper abziehen*. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Keil zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Keil im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Abzuziehender Keil'''** klicken. **Anmerkung**: Abzuziehender Keil ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehende Keil in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
-3.  Mit Klick auf **OK** bestätigen.
-4.  Das Feature (Formelement) Torus erscheint unterhalb des aktiven Körpers (Body).
+3.  
+    **OK**klicken.
+
+4.  Ein Wedge-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 
-</div>
 
 ## Optionen
 
-Der Torus kann auf zwei verschiedene Wege bearbeitet werden:
+Der Keil kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 
-Wenn die voreingestellte Platzierung verwendet wird, verhalten sich die aufgeführten Eigenschaften wie folgt:
+Wenn die voreingestellte Positionierung verwendet wird, entsprechen die Eingaben folgenden Eigenschaften:
 
--    {{PropertyData/de|X min/max}}: Koordinatenwerte der unteren Fläche in X-Richtung
+-    {{PropertyData/de|X min/max}}: Ausdehnung der Grundfläche in X-Richtung
 
--    {{PropertyData/de|Y min/max}}: Lage der oberen und unteren Fläche in Y-Richtung
+-    {{PropertyData/de|Y min/max}}: Ausdehnung von Grund- bis Deckelfläche in Y-Richtung
 
--    {{PropertyData/de|Z min/max}}: Koordinatenwerte der unteren Fläche in Z-Richtung
+-    {{PropertyData/de|Z min/max}}: Ausdehnung der Grundfläche in Z-Richtung
 
--    {{PropertyData/de|X2 min/max}}: Koordinatenwerte der oberen Fläche in X-Richtung
+-    {{PropertyData/de|X2 min/max}}: Ausdehnung der Deckelfläche in X-Richtung
 
--    {{PropertyData/de|Z2 min/max}}: Koordinatenwerte der oberen Fläche in Z-Richtung
-
-## Pyramids
-
-Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Z2 min/max}}: Ausdehnung der Deckelfläche in Z-Richtung
 
 
 
+## Pyramiden
+
+Keile können zur Erstellung von Pyramiden verwendet werden, wenn die {{PropertyData/de|X2 min/max}} und die {{PropertyData/de|Z2 min/max}} beide so gesetzt werden, dass min = max.
 
 
-</div>
+
 
 
 {{PartDesign_Tools_navi

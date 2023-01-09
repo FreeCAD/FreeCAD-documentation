@@ -83,7 +83,7 @@ profile = makeProfile(profile_list)
 
 Où profile_list contient les différents éléments d\'une liste dans le fichier CSV.
 
-Exemple:
+Exemple :
 
 
 ```python

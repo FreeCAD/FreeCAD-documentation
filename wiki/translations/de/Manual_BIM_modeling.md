@@ -173,12 +173,18 @@ Wir werden nun ein paar Bemaßungen platzieren. Wir werden anders als im [vorige
 
 ![](images/Exercise_arch_19.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Wir werden nun einen Satz von Ansichten unseres Modells vorbereiten, die auf einem Zeichenblatt platziert werden. Wir können das mit den Werkzeugen des Drawing-Arbeitsbereichs tun, wie wir das im vorigen Kapitel gesehen haben, aber der Arch-Arbeitsbereich bietet auch ein fortgeschrittenes All-in-one-Werkzeug, um Lagepläne, Schnitt- und Draufsichten zu erstellen, genannt [Schnittebenen](Arch_SectionPlane/de.md). Wir werden nun zwei dieser Schnittebenen hinzufügen, um einen Lageplan und eine Draufsicht zu erzeugen.
 
 -   Wähle das Gebäude-Objekt in der Baumansicht
 -   Drücke den <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Schnittebene](Arch_SectionPlane/de.md)-Button.
 -   Setze die **Height**-Eigenschaft auf 5 m, die **Display Length** auf 6 m, so dass wir unser Haus erfassen (das ist nicht nötig, aber es sieht besser aus, weil es auf natürliche Weise zeigt, wofür es benutzt wird) und die **Placement**-Position auf x:2m, y:1.5m, z:1.5m.
 -   Prüfe die von der Schnittebene vorgeschlagene Objektliste durch Doppelklick in der [Baumansicht](tree_view/de.md). Schnittebenen rendern nur angegebene Objekte des Modells, nicht alle. Die ausgewählten Objekte können hier geändert werden.
+
+
+</div>
 
 ![](images/Exercise_arch_20.jpg )
 

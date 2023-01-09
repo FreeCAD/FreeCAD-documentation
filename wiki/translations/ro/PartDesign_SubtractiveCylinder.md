@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 Inserează un cilindru subtractiv în Corpul Activ. Forma sa este extrasă din solidul existent.
@@ -12,6 +14,8 @@ Inserează un cilindru subtractiv în Corpul Activ. Forma sa este extrasă din s
 ![](images/PartDesign_SubtractiveCylinder_example.svg )
 
 *În partea stângă: corpul activ (A) afișat în gri și cilindrul substractiv (B) afișat în roșu transparent; rezultatul în partea dreaptă.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,9 +36,11 @@ Inserează un cilindru subtractiv în Corpul Activ. Forma sa este extrasă din s
 
 </div>
 
+
+
 ## Opţiuni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
+It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -46,6 +52,8 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 
 </div>
+
+
 
 ## Proprietăți
 

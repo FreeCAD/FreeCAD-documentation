@@ -38,6 +38,36 @@ The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a
         
         : removes the faces and parts of faces above the plane, and creates a new mesh object containing them.
 
+## Scripting
+
+See also: [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To trim a mesh with a plane use its `trimByPlane` method.
+
+
+```python
+import FreeCAD as App
+import Mesh
+
+# Create a non-parametric box-shaped mesh:
+msh = App.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+msh.Mesh = Mesh.createBox(30, 40, 50)
+msh.ViewObject.DisplayMode = "Flat Lines"
+
+# Define a plane by a base point and a normal vector:
+pnt = App.Vector(25, 0, 0)
+nor = App.Vector(0, 0, 1)
+
+# We need to work on a copy of the msh.Mesh object:
+new_msh = msh.Mesh.copy()
+
+# Trim that copy:
+new_msh.trimByPlane(pnt, nor)
+
+# Update msh.Mesh:
+msh.Mesh = new_msh
+```
+
 
 
 

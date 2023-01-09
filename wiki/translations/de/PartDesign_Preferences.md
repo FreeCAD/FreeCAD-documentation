@@ -1,134 +1,57 @@
 # PartDesign Preferences/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
-## Introduction
+## Einleitung
 
+Die Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) verwenden dieselben Einstellungen. Sie sind im Abschnitt <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part Design** des [Voreinstellungseditors](Preferences_Editor.md) zu finden. Dieser Abschnitt ist nur nur vorhanden, wenn einer der Arbeitsbereiche in der aktuellen FreeCAD-Sitzung geladen wurde.
 
-<div class="mw-translate-fuzzy">
+## Verfügbare Einstellungen 
 
-Der Einstellungsbildschirm des [PartDesign Arbeitsbereichs](PartDesign_Workbench/de.md) befindet sich im [Einstellungseditor](Preferences_Editor/de.md), {{MenuCommand/de|Bearbeiten → Einstellungen → Part design}}.
+Es gibt vier Reiter: Allgemein, Form-Ansicht, Erscheinungsbild der Form und Messen.
 
+### Allgemein
 
-</div>
-
-## Available preferences 
-
-
-<div class="mw-translate-fuzzy">
-
-Es gibt zwei Reiter: Allgemein und Formansicht.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Allgemein
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Im Reiter *Allgemein* kannst Du folgendes angeben:
+Im Reiter *Allgemein* kann Folgendes eingestellt werden:
 
 +++
-| Name                                                                                        | Beschreibung                                                                                                                                                                                                                                                                                                                     |
-+=============================================================================================+==================================================================================================================================================================================================================================================================================================================================+
-|                                                                              | Wenn gekreuzt, nach einer [booleschen Bearbeitung](Part_Boolean/de.md) wird es geprüft wenn die [Darstellung der Grenze](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) des Modells gültig ist . Dies wird intern durch die Funktion [ÜberprüfeGeometrie](Part_CheckGeometry/de.md) durchgeführt. |
-| {{MenuCommand/de|Modell nach boolescher Bearbeitung automatisch prüfen}}                    |                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                          |                                                                                                                                                                                                                                                                                                                                  |
+| Name                                                                               | Beschreibung                                                                                                                                                                                                                              |
++====================================================================================+===========================================================================================================================================================================================================================================+
+|                                                                     | Wenn aktiviert, wird die [Boundary-Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP) des Modells nach einer [booleschen Operation](Part_Boolean/de.md) [überprüft](Part_CheckGeometry/de.md). |
+| **Modell automatisch nach Boolescher Operation überprüfen**            |                                                                                                                                                                                                                                           |
+|                                                                                 |                                                                                                                                                                                                                                           |
 +++
-|                                                                              | If checked, Das Modell wird mit der Funktion verfeinert [VerfeinernForm](Part_RefineShape/de.md) nach einer [booleschen Bearbeitung](Part_Boolean/de.md).                                                                                                                                                        |
-| {{MenuCommand/de|Automatically refine model after boolean operation}}                       |                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                          |                                                                                                                                                                                                                                                                                                                                  |
+|                                                                     | Wenn aktiviert, wird das Modell nach einer [booleschen Operation](Part_Boolean/de.md) [aufbereitet](Part_RefineShape/de.md).                                                                                              |
+| {{MenuCommand/de|Modell nach Boolescher Operation automatisch aufbereiten}}        |                                                                                                                                                                                                                                           |
+|                                                                                 |                                                                                                                                                                                                                                           |
 +++
-|                                                                              | Wenn gekreuzt, wird das Modell mit der Funktion [VerfeinernForm](Part_RefineShape/de.md) verfeinert, nachdem eine Skizze eines Objekts geändert wurde.                                                                                                                                                                   |
-| {{MenuCommand/de|Automatische Verfeinerung des Modells nach skizzenbasierter Bearbeitung.}} |                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                          |                                                                                                                                                                                                                                                                                                                                  |
-+++
-|                                                                              | Diese Option hat derzeit keine Auswirkungen.                                                                                                                                                                                                                                                                                     |
-| {{MenuCommand/de|Name des Basisobjekts hinzufügen}}                                         |                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                          |                                                                                                                                                                                                                                                                                                                                  |
-+++
-
-
-</div>
-
-+++
-| Name                                                                    | Description                                                                                                                                                                                                             |
-+=========================================================================+=========================================================================================================================================================================================================================+
-|                                                          | If checked, the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md). |
-| **Automatically check model after boolean operation**       |                                                                                                                                                                                                                         |
-|                                                                      |                                                                                                                                                                                                                         |
-+++
-|                                                          | If checked, the model is [refined](Part_RefineShape.md) after [boolean operations](Part_Boolean.md).                                                                                                    |
-| **Automatically refine model after boolean operation**      |                                                                                                                                                                                                                         |
-|                                                                      |                                                                                                                                                                                                                         |
-+++
-|                                                          | If checked, the model is [refined](Part_RefineShape.md) after changes to source sketches of objects.                                                                                                            |
-| **Automatically refine model after sketch-based operation** |                                                                                                                                                                                                                         |
-|                                                                      |                                                                                                                                                                                                                         |
+|                                                                     | Wenn aktiviert, wird das Modell nach Änderungen an den Skizzen, auf denen das Objekt basiert, [aufbereitet](Part_RefineShape/de.md).                                                                                              |
+| {{MenuCommand/de|Modell nach skizzenbasierter Operation automatisch  aufbereiten}} |                                                                                                                                                                                                                                           |
+|                                                                                 |                                                                                                                                                                                                                                           |
 +++
 
 ![](images/Preferences_Part_design_Tab_General.png )
 
+### Form-Ansicht 
 
-<div class="mw-translate-fuzzy">
-
-## Formansicht
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Im Reiter *Formansicht* kannst Du folgendes angeben:
+Im Reiter *Form-Ansicht* kann Folgendes eingestellt werden:
 
 +++
-| Name                                                                   | Beschreibung                                                                                                                                                                                                 |
-+========================================================================+==============================================================================================================================================================================================================+
-|                                                         | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) der tessellierten Objekte von ihrer Oberfläche                  |
-| {{MenuCommand/de|Maximale Abweichung je nach Modellbegrenzungsrahmen}} |                                                                                                                                                                                                              |
-|                                                                     |                                                                                                                                                                                                              |
+| Name                                                                               | Beschreibung                                                                                                                                                                                                 |
++====================================================================================+==============================================================================================================================================================================================================+
+|                                                                     | Maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) der tessellierten Objekte von ihrer Oberfläche.               |
+| **Setzt die maximale Abweichung abhängig von der Modell-Bounding-Box** |                                                                                                                                                                                                              |
+|                                                                                 |                                                                                                                                                                                                              |
 +++
-|                                                         | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem tessellierten Objektabschnitt zum nächsten Abschnitt |
-| {{MenuCommand/de|Maximale Winkelablenkung}}                            |                                                                                                                                                                                                              |
-|                                                                     |                                                                                                                                                                                                              |
-+++
-
-
-</div>
-
-+++
-| Name                                                                  | Description                                                                                                                                                                                                                      |
-+=======================================================================+==================================================================================================================================================================================================================================+
-|                                                        | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface.            |
-| **Maximum deviation depending on the model bounding box** |                                                                                                                                                                                                                                  |
-|                                                                    |                                                                                                                                                                                                                                  |
-+++
-|                                                        | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section. |
-| **Maximum angular deflection**                            |                                                                                                                                                                                                                                  |
-|                                                                    |                                                                                                                                                                                                                                  |
+|                                                                     | Maximale [Winkelabweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem tessellierten Objektabschnitt zum nächsten Abschnitt. |
+| **Maximale Winkelabweichung**                                          |                                                                                                                                                                                                              |
+|                                                                                 |                                                                                                                                                                                                              |
 +++
 
 ![](images/Preferences_Part_design_Tab_Shape_view.png )
 
-### Shape appearance 
+### Erscheinungsbild der Form 
 
-On the *Shape appearance* tab you can specify the following:
+Im Reiter *Erscheinungsbild der Form* kann Folgendes eingestellt werden:
 
 +++
 | Name                               | Description                                                                                                                                                                                                               |
@@ -174,7 +97,7 @@ On the *Shape appearance* tab you can specify the following:
 
 ![](images/Preferences_Part_design_Tab_Shape_appearance.png )
 
-### Measure
+### Messen
 
 These preferences control the appearance of measurements created with the [Measure tools](Part_Workbench#Measure.md) available in the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md).
 
@@ -218,7 +141,7 @@ On the *Measure* tab (<small>(v1.0)</small> ) you can specify the following:
 
 ![](images/Preferences_Part_design_Tab_Measure.png )
 
-## Tesselation
+## Tesselierung
 
 Um ein Objekt effizient darzustellen, ist seine Oberfläche [tesselliert](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), d.h. es wird mit einigen kleinen Abweichungen von seiner realen Oberfläche dargestellt. Dies gilt nicht nur für PartDesign Modelle, sondern auch für andere Objekte in FreeCAD.
 
@@ -227,13 +150,7 @@ Es gibt eine untere Grenze für die Tessellierung von 0,01%. Wenn du die zusätz
 Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. Setze den Wert auf die minimale Tesselation deiner Wahl. Bitte beachte, dass der Wert in % angegeben wird, d.h. für einen Wert von 0,005% musst du \"0,00005\" eingeben. Der kleinstmögliche Wert ist 1e-7. **Hinweis:** Im Menü Einstellungen siehst du auch dann noch 0.01%, wenn du einen niedrigeren Wert einstellst.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign Tools navi

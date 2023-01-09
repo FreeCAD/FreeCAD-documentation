@@ -8,14 +8,23 @@
 
 # OpenSCAD Edgestofaces/de
 
+
+</div>
+
 ## Beschreibung
 
 Wandelt Kanten in Flächen um. Nützlich, um importierte DXF-Geometrien für die Extrusion vorzubereiten.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selektiere umzuwandelnde Kanten in der [3D-Ansicht](3D_view/de.md).
 2.  Wähle **OpenSCAD** → **<img src="images/OpenSCAD_Edgestofaces.svg" width=32px> Kanten zu Flächen umwandeln** aus dem Top-Menü.
+
+
+</div>
 
 ## Beschränkungen
 

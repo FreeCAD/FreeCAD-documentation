@@ -5,18 +5,22 @@
 
 </div>
 
+
+
 ## Descriere
 
 Instrumentul pentru cote tip distanță adaugă o cotă distanță unei imagini. Cota poate fi între două vârfuri, lungimea unei muchii sau distanța dintre două margini. Distanța va fi inițial distanța proiectată(adică așa cum este reprezentată în desen), dar această distanță poate fi înlocuită prin distanța 3D reală utilizând instrumentul Link Dimension <img alt="" src=images/LinkDimension.png  style="width:24px;">. <img alt="" src=images/LengthSample.png  style="width:200px;">
 
-The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
+The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing). If the dimension is based on 3D references, the distance can be changed to the actual 3D distance by changing the **Measure Type** to `True`.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Length dimension taken from two arbitrary nodes of the view*
 
+
+
 ## Cum se folosește 
 
-1.  Select the points or edge which define your measurement.
+1.  Select the points or edge which define your measurement. The geometry may be selected in the drawing or the [3D view](3D_view.md).
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
@@ -79,6 +83,8 @@ The dimension dialog offers the following settings:
 
 -   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
 
+
+
 ## Proprietăți
 
 -    **X**: Poziția orizontală a textului de dimensiune în mm față de View.
@@ -112,7 +118,7 @@ The dimension dialog offers the following settings:
 
 -    **Type**: Length, radius, diameter, etc. Not normally manipulated by the end user.
 
--    **Measure Type**: How the measurement is performed. Not normally manipulated directly by the end user.
+-    **Measure Type**: How the measurement is performed.
 
 :   
 
@@ -274,6 +280,8 @@ The dimension dialog offers the following settings:
         
         \- Override the automatically chosen direction and force the opposite one.
 
+
+
 ## Note
 
 -   Toate Cotele/Distanțele sunt extrem de vulnerabile la infama problemă a \"topological naming\". În acest moment nu este posibilă menținerea referințelor la obiectele geometrice 2D (proiectate) sau 3D (reale) în sincronizare cu modificările din model. Se recomandă adăugarea de Cote la sfârșitul procesului de creare a desenului.
@@ -291,6 +299,8 @@ If you want to keep a TechDraw view with dimensions that won\'t break, you need 
 -   If the original 3D model is modified, the modifications won\'t affect the simple copy, nor the dimensions in the TechDraw view.
 
 See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to circumventing the topological naming issue.
+
+
 
 ## Script
 

@@ -59,52 +59,62 @@ See [Addon](Addon#Information_for_developers.md).
 
 ## Addon Manager API 
 
-Some features of the Addon Manager are designed for access via FreeCAD\'s Python API 
+Some features of the Addon Manager are designed for access via FreeCAD\'s Python API <small>(v1.0)</small> : in particular an Addon can be installed, updated, and removed via the Python interface. Most uses of this API require you to create an object with at least three attributes: \"name\", \"branch\", and \"url\". For example:
 
-    class MyAddonClass:
-        def __init__(self):
-            self.name = "TestAddon"
-            self.url = "https://github.com/Me/MyTestAddon"
-            self.branch = "main"
-    my_addon = MyAddonClass()
 
- Your object `my_addon` is now ready for use with the Addon Manager API.
+```python
+class MyAddonClass:
+    def __init__(self):
+        self.name = "TestAddon"
+        self.url = "https://github.com/Me/MyTestAddon"
+        self.branch = "main"
+my_addon = MyAddonClass()
+```
+
+Your object `my_addon` is now ready for use with the Addon Manager API.
 
 ### Commandline (non-GUI) use 
 
-If your code needs to install or update an Addon synchronously (e.g. without a GUI) the code can be very simple: 
-
-    from addonmanager_installer import AddonInstaller
-    installer = AddonInstaller(my_addon)
-    installer.run()
-
- Note that this code blocks until complete, so you shouldn\'t run it on the main GUI thread. To the Addon Manager, \"install\" and \"update\" are the same call: if this Addon is already installed, and git is available, it will be updated via \"git pull\". If it is not installed, or was installed via a non-git installation method, it is downloaded from scratch (using git if available).
-
-To uninstall, use 
-
-    from addonmanager_uninstaller import AddonUninstaller
-    uninstaller = AddonUninstaller(my_addon)
-    uninstaller.run()
+If your code needs to install or update an Addon synchronously (e.g. without a GUI) the code can be very simple:
 
 
+```python
+from addonmanager_installer import AddonInstaller
+installer = AddonInstaller(my_addon)
+installer.run()
+```
 
-### GUI Use 
+Note that this code blocks until complete, so you shouldn\'t run it on the main GUI thread. To the Addon Manager, \"install\" and \"update\" are the same call: if this Addon is already installed, and git is available, it will be updated via \"git pull\". If it is not installed, or was installed via a non-git installation method, it is downloaded from scratch (using git if available).
 
-If you plan on your code running in a GUI, or supporting running in the full version of FreeCAD, it\'s best to run your installation in a separate non-GUI thread, so the GUI remains responsive. To do this, first check to see if the GUI is running, and if it is, spawn a 
+To uninstall, use:
 
-    from PySide import QtCore
-    from addonmanager_installer import AddonInstaller
 
-    worker_thread = QtCore.QThread()
-    installer = AddonInstaller(my_addon)
-    installer.moveToThread(self.worker_thread)
-    installer.success.connect(installation_succeeded)
-    installer.failure.connect(installation_failed)
-    installer.finished.connect(worker_thread.quit)
-    worker_thread.started.connect(installer.run)
-    worker_thread.start() # Returns immediately
+```python
+from addonmanager_uninstaller import AddonUninstaller
+uninstaller = AddonUninstaller(my_addon)
+uninstaller.run()
+```
 
- Then define the functions `installation_succeeded` and `installation_failed` to be run in each case. For uninstallation you can use the same technique, though it is usually much faster and will not block the GUI for very long, so in general it\'s safe to use the uninstaller directly, as shown above.
+### GUI use 
+
+If you plan on your code running in a GUI, or supporting running in the full version of FreeCAD, it\'s best to run your installation in a separate non-GUI thread, so the GUI remains responsive. To do this, first check to see if the GUI is running, and if it is, spawn a {{Incode|QThread}} (don\'t try to spawn a {{Incode|QThread}} if the GUI is not up: they require an active event loop to function).
+
+
+```python
+from PySide import QtCore
+from addonmanager_installer import AddonInstaller
+
+worker_thread = QtCore.QThread()
+installer = AddonInstaller(my_addon)
+installer.moveToThread(self.worker_thread)
+installer.success.connect(installation_succeeded)
+installer.failure.connect(installation_failed)
+installer.finished.connect(worker_thread.quit)
+worker_thread.started.connect(installer.run)
+worker_thread.start() # Returns immediately
+```
+
+Then define the functions `installation_succeeded` and `installation_failed` to be run in each case. For uninstallation you can use the same technique, though it is usually much faster and will not block the GUI for very long, so in general it\'s safe to use the uninstaller directly, as shown above.
 
 
 

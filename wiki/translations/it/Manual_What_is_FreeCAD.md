@@ -1,13 +1,4 @@
 # Manual:What is FreeCAD/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 ![](images/Freecad016_screenshot1.jpg )
@@ -27,15 +18,6 @@ Il sito ufficiale di FreeCAD è <http://www.freecadweb.org>
 -   [Informazioni su FreeCAD](About_FreeCAD/it.md)
 -   [Funzionalità di FreeCAD](Feature_list/it.md)
 -   [Screenshot e casi d\'uso](http://forum.freecadweb.org/viewforum.php?f=24)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

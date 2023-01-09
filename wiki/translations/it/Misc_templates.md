@@ -8,23 +8,11 @@ Tutti i modelli e i cartigli sono provviste di testi editabili in FreeCAD.
 Per usarli si devono rinominare in **A3_Landscape.svg** (in (Window) **\"C:\\Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates\"** ).
 Per accedere dopo aver creato la pagina, fare clic sulla pagina nella **Vista combinata \> Proprietà \> Dati \> Editable Texts \> fare clic su 3 punti \...**
 
-
-<div class="mw-translate-fuzzy">
-
 Una macro è disponibile per le tabelle dei due principali modelli: [modello 1](Macro_CartoucheFC_Full/it.md) e [modello 2](Macro_CartoucheFC_2/it.md).
 
 Nei modelli possono essere inseriti diversi attributi personalizzati. L\'elenco degli attributi supportati attualmente è disponibile nella pagina [Svg Namespace](Svg_Namespace/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### A3 Landscape IT Testo Completo con Convenzione EU.svg 
-
-
-</div>
+### A3 Landscape IT Testo Completo con Convenzione EU 
 
 <img alt="" src=images/A3_Landscape_IT_Text_Complet_With_convention_EU.svg  style="width:800px;">
 
@@ -80,13 +68,7 @@ Simboli utilizzati per definire un tipo di [proiezione](http://commons.wikimedia
 
 ### Modelli in formato .FCStd format 
 
-
-<div class="mw-translate-fuzzy">
-
 I modelli sono completi e sono dotati di cartiglio e con una tabella (da K a Z nascosta per impostazione predefinita) e simboli US (nascosta per impostazione predefinita) e UE. Basta nascondere o cancellare ciò che non serve.
-
-
-</div>
 
 Template [A3_Landscape.FCStd](http://forum.freecadweb.org/download/file.php?id=6499)
 

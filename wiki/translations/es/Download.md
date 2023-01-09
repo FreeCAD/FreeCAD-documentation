@@ -1,11 +1,25 @@
 # Download/es
 {{TOCright}}
 
+
+
 ## Versión estable actual 
+
+
+<div class="mw-translate-fuzzy">
 
 La versión 0.20.1 de FreeCAD (29410) fue publicada el 2022-08-10. Para conocer las novedades, consulte las [notas de lanzamiento](Release_notes_0.20/es.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Encontrará checksums SHA256 para verificar la integridad de su descarga en la [página de lanzamiento](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.1).
+
+
+</div>
 
 Las versiones anteriores pueden descargarse de la página [lanzamientos](https://github.com/FreeCAD/FreeCAD/releases)
 
@@ -14,7 +28,7 @@ Las versiones anteriores pueden descargarse de la página [lanzamientos](https:/
 |                                                                                                                        |                                                                                                                                    |                                                    |
 | [Install on Windows](Installing_on_Windows.md)                                                                 | [Install on Mac](Installing_on_Mac.md)                                                                                     | [Install on Linux](Installing_on_Linux.md) |
 |                                                                                                                        |                                                                                                                                    |                                                    |
-| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD-0.20.1-WIN-x64-installer-1.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD_0.20-1-2022-08-20-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
+| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-2.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
 ++++
 
 ### Notas para usuarios de Windows 
@@ -26,6 +40,8 @@ Las versiones anteriores pueden descargarse de la página [lanzamientos](https:/
 ### Notas para usuarios de Mac OS X 
 
 Mac OS X 10.12 *Sierra* es la versión mínima soportada.
+
+
 
 ### Notas para usuarios de GNU/Linux 
 
@@ -57,6 +73,8 @@ El desarrollo de FreeCAD es activo.
 
 
 </div>
+
+
 
 ## Módulos y Macros Adicionales 
 

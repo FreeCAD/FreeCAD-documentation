@@ -1,28 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std ActivatePrevWindow
-   MenuLocation:Windows → Previous
-   Workbenches:All
-   Shortcut:**Ctrl**+**Shift**+**Tab**
-   SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std Windows](Std_Windows.md)
+   Name/pl:Std: Poprzednie
+   MenuLocation:Okna → Poprzednie
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **Shift** + **Tab**
+   SeeAlso:[Następne](Std_ActivateNextWindow/pl.md), [Okna](Std_Windows/pl.md)
 ---
 
 # Std ActivatePrevWindow/pl
 
-## Description
 
-The **Std ActivatePrevWindow** command does not work properly [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
 
-## Usage
+## Opis
 
-1.  The Main view area must contain at least two windows.
-2.  There are several ways to invoke the command:
-    -   Select the **Windows → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Previous** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Shift**+**Tab**.
+Polecenie **Poprzednie** nie działa poprawnie [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
 
-## Notes
 
--   Main view area windows are also listed in the **Windows** menu and can be activated from there.
+
+## Użycie
+
+1.  Obszar widoku głównego musi zawierać co najmniej dwa okna.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Wybierz z menu opcję **Okna → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Poprzednie**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **Shift** + **Tab**.
+
+
+
+## Uwagi
+
+-   Okna głównego obszaru widoku są również wymienione w menu **Okna** i mogą być stamtąd aktywowane.
 
 
 

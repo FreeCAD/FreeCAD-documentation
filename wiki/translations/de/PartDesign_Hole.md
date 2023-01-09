@@ -2,8 +2,8 @@
 - GuiCommand:/de
    Name:PartDesign Hole
    Name/de:PartDesign Bohrung
-   MenuLocation:Part Design → Subtraktives Formelement erstellen → Bohrung
-   Workbenches:[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
+   MenuLocation:Part Design → Objekte abziehen → Bohrung
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
 ---
@@ -12,13 +12,13 @@
 
 ## Beschreibung
 
-Die Funktion **Bohrung** erzeugt eine oder mehrere Bohrungen aus den Kreisen und Bögen einer ausgewählten Skizze. Wenn Bögen vorhanden sind, müssen sie Bestandteil einer geschlossenen Kontur sein. Alle Bestandteile, die nicht Kreise oder Bögen sind, werden zwar ignoriert, müssen aber trotzdem zu einer geschlossenen Kontur gehören. Viele Parameter können eingestellt werden, wie z. B. Gewinde und Größe, Passung, Bohrungstyp (Kegelsenkung, Plansenkung, gerade) und mehr.
+Die Funktion **Bohrung** erstellt eine oder mehrere Bohrungen in den Mittelpunkten der Kreise und Bögen einer ausgewählten Skizze. Wenn Bögen vorhanden sind, müssen sie Bestandteil einer geschlossenen Kontur sein. Alle Bestandteile, die nicht Kreise oder Bögen sind, werden zwar ignoriert, müssen aber trotzdem zu einer geschlossenen Kontur gehören. Viele Parameter können eingestellt werden, wie z. B. Gewinde und Größe, Passung, Bohrungstyp (Kegelsenkung, Plansenkung, Durchgangsloch) und mehr.
 
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
 
-*Kegelgesenkte (links) und plangesenkte (zur Rechten) Bohrungen im Längsschnitt.*
+*Bohrung mit Kegelgesenkung (links) und mit Flach-/Zylindersenkung (rechts) im Längsschnitt.*
 
 ## Anwendung
 
@@ -31,70 +31,56 @@ Die Funktion **Bohrung** erzeugt eine oder mehrere Bohrungen aus den Kreisen und
 
 Abhängig von der Auswahl werden einige Felder aktiviert oder bleiben deaktiviert.
 
-![](images/PartDesign_Hole_parameters_de.png )
+<img alt="" src=images/PartDesign_Hole_parameters_de.png  style="width:600px;">
 
-### Gewinde und Größe 
+### Gewindeart und -Größe 
 
--   **Profil**: Wenn auf *Kein* gesetzt, wird keine Gewindeinfo definiert.
+-   **Profil**: Wenn auf *Ohne* gesetzt, wird keine Gewindeinfo definiert. Einträge für [ISO-](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) und [UTS-](https://en.wikipedia.org/wiki/Unified_Thread_Standard)Gewindeprofile aktivieren die Felder zur Einstellung der *Größe*.
+-   **Mit Gewinde versehen**: Wenn aktiviert, werden der Bohrungsfunktion Gewindedaten hinzufügt und der Kerndurchmesser des Gewindes verwendet. Wenn nicht aktiviert, gilt die Bohrung als gewindefrei und der Nenndurchmesser mit definiertem *Spiel* wird ausgewählt.
+-   **Gewinde darstellen**: Wenn aktiviert, wird ein richtiges Gewinde geformt. Dies verbraucht viel Rechenleistung und wird für Modelle normalerweise nicht verwendet, außer für Anschauungszwecke oder manchmal für 3D-Drucke. Wenn es verwendet wird, wird empfohlen, diese Funktion als eine der letzten zu aktivieren, weil sie die Rechenzeit für Neuberechnungen signifikant erhöht. ({{Version/de|0.20}})
+-   **Richtung**: Legt die Gewinderichtung fest (Rechtsgewinde oder Linksgewinde), wenn *Mit Gewinde versehen* aktiviert ist.
+-   **Größe**: Legt die Gewindegröße fest. Erfordert, dass *Profil* auf eines der [ISO-](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) oder [UTS-](https://en.wikipedia.org/wiki/Unified_Thread_Standard)Gewindeprofile eingestellt ist.
+-   **Spiel**: Stellt entweder Standard, Eng oder Weit für das Spiel von Durchgangsbohrungen ein. Für ISO-Gewinde entsprechen die Durchmesser der Norm ISO 273, für UTS werden sie nach einer Faustregel berechnet, da es keine Norm gibt, die sie festlegt. Nur für Bohrungen ohne Gewinde (Durchgangsbohrung) verfügbar.
+-   **Klasse**: Legt die Toleranzklasse fest.
+-   **Durchmesser**: Definiert den Bohrungsdurchmesser, wenn *Profil* auf *Ohne* gesetzt wurde.
+-   **Tiefe**: Tiefe der Bohrung ab der Skizzenebene. *Abmessung* aktiviert ein Feld um einen Wert einzugeben. *Durch alles* lässt die Bohrung durch den ganzen Körper verlaufen. **Hinweis:** Aus technischen Gründen ist *Durch Alles* eigentlich ein 10 m tiefes Loch. Weden tiefere Löcher benötigt, muss *Abmessung* verwendet werden.
 
-[ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) und [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) Gewindeprofile aktivieren die *Größe*n Felder.
+### Bohrloch
 
--   **Mit Gewinde versehen**: wenn angehakt werden Gewindedaten zur Lochfunktion hinzufügt und verwendet den kleineren Lochdurchmesser. Wenn nicht angehakt, gilt die Bohrung als gewindefrei und der Hauptnenndurchmesser mit definiertem *Freigang* wird gewählt.
--   **Gewinde darstellen**: Wenn angehakt, wird ein echtes Gewinde modelliert. Dies verbraucht viel Rechenleistung und wird daher normalerweise für Modelle nicht verwendet, außer für Anschauungszwecke oder manschmal für 3D-Drucke. Wenn es verwendet wird, wird empfohlen, diese Funktion als eine der letzten zu aktivieren, weil sie die Rechenzeit für Neuberechnungen signifikant erhöht. (<small>(v0.20)</small> )
--   **Richtung**: setzt die Gewinderichtung (rechtshändig oder linkshändig), wenn *Mit Gewinde versehen* aktiviert ist.
--   **Größe**: Legt die Gewindegröße fest. Erfordert, dass *Profil* auf eines der ISO oder UTS Profile eingestellt ist.
--   **Freigang**: setzt entweder Standard-, Nah- oder Großraumlochdurchmesser. Für ISO Gewinde entsprechen die Durchmesser der Norm ISO 273, für UTS werden sie nach einer Faustregel berechnet, da es keine Norm gibt, die sie definiert. Nur für Bohrungen ohne Gewinde verfügbar.
--   **Klasse**: definiert die Toleranzklasse.
--   **Durchmesser**: Definiert den Bohrungsdurchmesser, wenn *Profil* auf *Nichts* gesetzt wurde.
--   **Tiefe**: Tiefe der Bohrung von der Skizzierebene. *Abmessung* aktiviert ein Feld um einen Wert einzugeben. *Durch alles* wird die Bohrung durch den ganzen Körper schneiden.**Hinweis:** Aus technischen Gründen ist *Durch Alles* eigentlich ein 10 Meter tiefes Loch. Wenn du tiefere Löcher benötigst, verwende *Abmessung*.
+-   **Typ**: Setzt die Art der Senkung: *Nichts* bedeutet ohne Senkung (Durchgangsloch); andere Optionen sind verschiedene Schraubennormen ({{Version/de|0.19}}) und die generischen Typen *Flachsenkung*, *Kegelsenkung* und ({{Version/de|1.0}}) *Bohrsenkung*.
+-   **Durchmesser**: Setzt den oberen Durchmesser (an der Skizzenebene) für die Senkung.
+-   **Tiefe**: Tiefe der Senkung von der Skizzenebene gemessen.
+-   **Winkel der Kegelsenkung**: Kegelwinkel der Senkung. Nur anwendbar für Kegelsenkungen.
 
-### Lochschnitt
+### Bohrungsgrund
 
-
-<div class="mw-translate-fuzzy">
-
--   **Typ**: Setzt den Typ des Lochschnitts: *Kein* bedeutet kein Schnitt; andere Typen sind
-
-unterschiedliche Schraubennormen (<small>(v0.19)</small> ) und die beiden generischen Typen *Zylindersenkung* und \'\'Kegelsenkung.
-
--   **Durchmesser**: Setzt den oberen Durchmesser (an der Skizzenebene) für den Lochschnitt.
--   **Tiefe**: Tiefe des Lochschnitts von der Skizzierebene gemessen.
--   **Kegelsenkung Winkel**: Winkel des konischen Lochschnitts. Nur anwendbar für Kegelsenkungen.
-
-
-</div>
-
-### Bohrspitze
-
--   **Typ**: definiert den Auslauf der Bohrung, wenn *Tiefe* auf *Abmessung* gesetzt ist.
-    -   **Flach** erzeugt einen flachen Boden
-    -   **Gewinkelt** erzeugt eine konische Spitze. Seine Option **Für Tiefe berücksichtigen** (<small>(v0.19)</small> ) subtrahiert die konische Höhe von der *Dimension*. Wenn also z.B. *Maß* 7,00 ist und die Option nicht verwendet wird, ist der zylindrische Teil der Bohrung 7,00 und die für den konischen Teil notwendige Tiefe wird zur Bohrungstiefe addiert. Wenn die Option verwendet wird, beträgt die gesamte Bohrungstiefe einschließlich der konischen Spitze 7,00.
+-   **Typ**: definiert den Grund der Bohrung, wenn *Tiefe* auf *Abmessung* gesetzt ist.
+    -   **Flach** erstellt einen flachen Bohrungsgrund
+    -   **Konisch** erzeugt eine konische Vertiefung. Seine Option **Für die Tiefe berücksichtigen** ({{Version/de|0.19}}) zieht die Kegelhöhe von der *Abmessung* ab. Wenn also z.B. *Abmessung* 7,00 ist und die Option nicht verwendet wird, ist der zylindrische Teil der Bohrung 7,00 und die Höhe der konischen Vertiefung kommt noch hinzu. Wenn die Option verwendet wird, beträgt die gesamte Bohrungstiefe einschließlich der konischen Spitze 7,00.
 
 ### Sonstiges
 
--   **Kegelförmig**: setzt einen Kegelwinkel zur Bohrung. Der Wert wird aus der Normalen der Skizzenebene berechnet. 90 Grad setzt ein gerades Loch. Ein Wert unter 90 erzeugt einen kleineren Lochradius am Boden, ein Wert über 90 vergrößert den Lochradius am Grund.
--   **Umgekehrt**: kehrt die Bohrungsextrusionsrichtung um. Die Standardrichtung ist die Abbildungsrichtung der Bohrungsskizze zu ihrem Anhang.
+-   **Kegelförmig**: Fügt einen Schrägungdwinkel zur Bohrung hinzu. Der Wert wird von der Normalen der Skizzenebene ausgehend berechnet. 90° ergibt ein zylindrisches Loch. Ein Wert unter 90° ergibt einen kleineren Lochradius am Bohrungsgrund, ein Wert über 90° vergrößert den Lochradius am Grund.
+-   **Umgekehrt**: Kehrt die Bohrungsrichtung um. Die Standardrichtung ist die Abbildungsrichtung der Bohrungsskizze zu ihrem Anhang.
 
 ## Eigenschaften
 
-Viele der Dateneigenschaften sind die gleichen wie unter [Optionen](#Options.md).
+Viele der Dateneigenschaften sind die gleichen wie unter [Optionen](#Optionen.md).
 
--    **Kennzeichen**: Name, der dem Objekt gegeben wurde, dieser Name kann nach Belieben geändert werden.
+-    **Label**: Bezeichnung die dem Objekt gegeben wurde, diese kann nach Belieben geändert werden.
 
--    **Umgekehrt**: wahr oder falsch. Kehrt die Extrusionsrichtung um.
+-    **Refine**: Wahr oder falsch. Wenn auf true gesetzt, wird der Volumenkörper von Restkanten befreit, die von Formelementen hinterlassen wurden. Siehe **<img src="images/Part_RefineShape.svg" width=16px> [Part FormAufbereiten](Part_RefineShape/de.md)** für weitere Details.
 
--    {{PropertyData/de|Verfeinern}}: wahr oder falsch. Wenn auf true gesetzt, reinigt den Festkörper von Restkanten, hinterlassen von Funktionen. Siehe **<img src="images/Part_RefineShape.svg" width=16px> [Part FormVerfeinern](Part_RefineShape/de.md)** für weitere Details.
-
-## Begrenzungen
+## Einschränkungen
 
 Die ausgewählte Skizze muss einen oder mehrere Kreis(e) enthalten. Der Radius des Kreises (der Kreise) innerhalb der Skizze wird nicht berücksichtigt. Die erzeugten Löcher sind identisch, auch wenn die Kreise in der Skizze unterschiedliche Radien haben.
 
--   Standardmäßig wird die Loch Funktion unterhalb der Skizzierebene extrudiert. Wenn der Festkörper auf der XY_Ebene liegt und die Lochskizze mit der XY_Ebene verbunden ist, wird es versuchen, sich vom Festkörper weg zu extrudieren und scheinbar kein Ergebnis zu erzielen. In diesem Fall muss die Option *Umgekehrt* gesetzt werden, alternativ kann die Skizze auf die Unterseite des Festkörpers abgebildet werden.
--   Gewinde darstellen funktioniert nur, wenn Umgekehrt nich aktiviert ist.
+-   Standardmäßig wird die Funktion Bohrung unterhalb der Skizzenebene extrudieren. Wenn der Volumenkörper auf der XY-Ebene liegt und die Lochskizze mit der XY-Ebene verbunden ist, wird sie versuchen, vom Volumenkörper weg zu extrudieren und scheinbar kein Ergebnis erzielen. In diesem Fall muss die Option *Umgekehrt* gesetzt werden, alternativ kann die Skizze auf die Unterseite des Volumenkörpers gelegt werden.
+-   Gewinde darstellen funktioniert nur, wenn Umgekehrt nicht aktiviert ist.
 
 ## Schnitttyp Definitionen 
 
-Schnittarten (Schraubentypen) werden seit Version 0.19 in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) Dateien definiert. Es gibt einen Satz von Dateien, die mit FreeCAD verteilt werden, aber Benutzer können ihre eigenen Definitionen erstellen. Die Dateien werden in <UserAppDataDir>/PartDesign/Hole gesucht. Das `UserAppDataDir` kann durch Eingabe von `App.getUserAppDataDir()` in der [Python Konsole](Python_console/de.md) gefunden werden.
+Schnittarten (Schraubentypen) werden seit Version 0.19 in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation)-Dateien definiert. Es gibt einen Satz von Dateien, die mit FreeCAD ausgeliefert werden, aber Benutzer können ihre eigenen Definitionen erstellen. Die Dateien werden in <UserAppDataDir>/PartDesign/Hole gesucht. Das `UserAppDataDir` kann durch Eingabe von `App.getUserAppDataDir()` in der [Python-Konsole](Python_console/de.md) gefunden werden.
 
 Die Datei sollte enthalten:
 

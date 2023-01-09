@@ -7,7 +7,7 @@
 
 ## Description
 
-Expand all placements downwards the Feature-Tree.
+Expand all placements downwards in the Tree view.
 
 ## Usage
 
@@ -30,9 +30,9 @@ This command \"resets\" the placement-values of an object, making the current po
 
 Works with:
 
--   boolean objects
--   extruded objects (derived from the Part workbench)
--   revolved objects (derived from the Part workbench)
+-   Boolean objects
+-   Extruded objects (derived from the Part Workbench)
+-   Revolved objects (derived from the Part Workbench)
 
 
 

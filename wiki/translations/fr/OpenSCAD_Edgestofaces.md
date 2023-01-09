@@ -15,7 +15,7 @@ Converti les bords en faces. Utile pour préparer la géométrie DXF importée p
 
 ## Utilisation
 
-1.  Sélectionnez les bords à convertir dans la [vue 3D](3D_view/fr.md).
+1.  Sélectionner les bords à convertir dans la [vue 3D](3D_view/fr.md).
 2.  Choisir **OpenSCAD** → **<img src="images/OpenSCAD_Edgestofaces.svg" width=32px> Convertir les arêtes en faces** dans le menu supérieur.
 
 ## Limitations

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Inserisce un cilindro sottrattivo nel corpo attivo. La sua forma viene sottratta dal solido esistente.
@@ -12,6 +14,8 @@ Inserisce un cilindro sottrattivo nel corpo attivo. La sua forma viene sottratta
 ![](images/PartDesign_SubtractiveCylinder_example.svg )
 
 *A sinistra il corpo attivo (A) mostrato in grigio e il cilindro sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
+
+
 
 ## Utilizzo
 
@@ -26,9 +30,11 @@ Inserisce un cilindro sottrattivo nel corpo attivo. La sua forma viene sottratta
 
 </div>
 
+
+
 ## Opzioni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
+It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -40,6 +46,8 @@ Dopo la sua creazione il cilindro può essere modificato in due modi:
 
 
 </div>
+
+
 
 ## Proprietà
 

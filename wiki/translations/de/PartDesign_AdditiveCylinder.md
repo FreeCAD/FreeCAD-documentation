@@ -1,79 +1,59 @@
 ---
 - GuiCommand:/de
    Name:PartDesign AdditiveCylinder
-   Name/de:PartDesign AdditiverZylinder
-   MenuLocation:Part Design → Erstelle ein Additives Grundelement → Additiver Zylinder
+   Name/de:PartDesign ZylinderHinzufügen
+   MenuLocation:Part Design → Grundkörper hinzufügen → Zylinder
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[PartDesign AufbauGrundelementAdditiv](PartDesign_CompPrimitiveAdditive/de.md)
+   SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign ZylinderAbziehen](PartDesign_SubtractiveCylinder/de.md)
 ---
 
 # PartDesign AdditiveCylinder/de
 
-
-</div>
-
 ## Beschreibung
 
-Fügt einen einfachen Zylinder in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
+Fügt einen Zylinder-Grundkörper in den aktiven Körper (Body-Objekt) als Basisformelement ein oder vereinigt ihn mit den bereits vorhandenen Formelementen.
 
 <img alt="" src=images/PartDesign_AdditiveCylinder_example.png  style="width:200px;">
 
 ## Anwendung
 
+1.  Die Schaltfläche **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Zylinder'''** drücken. **Hinweis**: Der Zylinder ist Teil eines Symbolmenüs mit der Bezeichnung *Grundkörper hinzufügen*. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Zylinder zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Zylinder im Menü auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Parameter des Grundkörpers und [Befestigung](Part_EditAttachment/de.md) festlegen.
 
-1.  Drücke die **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Additiver Zylinder'''** Schaltfläche. **Hinweis**: der Additive Zylinder ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additiv Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Zylinder zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle Additiv Zylinder im Menü.
-2.  Stelle die Grundelement Parameter und [Anhang](Part_EditAttachment/de.md) ein.
-3.  Klicke **OK**.
-4.  Eine Zylinderfunktion wird unter dem aktiven Körper angezeigt.
+3.  
+    **OK**klicken.
 
-
-</div>
+4.  Ein Cylinder-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
 ## Optionen
 
+Es ist möglich, schräge Zylinder durch Angabe von Winkeln mit Bezug auf den Normalenvektor der gewählten Befestigung zu erzeugen. {{Version/de|0.20}}
 
-<div class="mw-translate-fuzzy">
+Der Zylinder kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
-
-{{PartDesign Tools navi/de}}
-
-
-</div>
-
-Der Zylinder kann auf zwei verschieden Wege bearbeitet werden:
-
--   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** in dem Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" in dem Aufgabenpaneel.
--   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
+-   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
+-   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für den Zylinder (Cylinder-Objekt). Dies kann nach Bedarf geändert werden.
 
--    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
+-    {{PropertyData/de|Radius}}: Der Wert des Radius des Zylinders.
 
--    **Label**: Die vom Benutzer vergebene Bezeichung für das Zylinder-Objekt. Dies kann nach Bedarf geändert werden.
+-    {{PropertyData/de|Angle}}: Der Rotationswinkel des (halben) Querschnitts (360° ergeben einen ganzen Zylinder).
 
--    **Radius**: Der Wert des Radius von dem Zylinder.
+-    {{PropertyData/de|Height}}: Die Höhe des Zylinders entlang seiner Achse.
 
--    **Angle**: Der Rotationswinkel des halben Querschnitts (360° ergeben einen vollen Zylinder).
+-    {{PropertyData/de|First Angle}}: Winkel in der ersten Richtung. {{Version/de|0.20}}
 
--    **Height**: Die Länge des Zylinders entlang seiner Achse.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Second Angle}}: Winkel in der zweiten Richtung. {{Version/de|0.20}}
 
 
 
-
-
-</div>
 
 
 {{PartDesign_Tools_navi

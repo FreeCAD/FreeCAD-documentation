@@ -28,7 +28,7 @@ Cette commande exécute essentiellement **[<img src=images/Std_LinkImport.svg st
 
 
 
-*À gauche : divers liens qui pointent vers des objets dans le document "source". À droite : les objets originaux ont été importés (copiés) dans le document "cible" et les liens existants ont été modifiés pour pointer vers ces copies, de sorte qu'ils ne pointent plus vers des objets dans "source".*
+*À gauche : divers liens qui pointent vers des objets dans le document "source".<br/>À droite : les objets originaux ont été importés (copiés) dans le document "cible" et les liens existants ont été modifiés pour pointer vers ces copies, de sorte qu'ils ne pointent plus vers des objets dans "source".*
 
 
 

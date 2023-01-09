@@ -32,7 +32,7 @@ Lors de la création de la protrusion, la boîte de dialogue **Paramètres de la
 
 ### Type
 
-Type offre 5 différentes façons de définir la longueur de la cavité:
+Type offre cinq façons différentes de spécifier la longueur à laquelle la cavité sera extrudée :
 
 #### Dimension
 

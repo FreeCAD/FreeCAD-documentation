@@ -15,7 +15,7 @@
 
 ## Описание
 
-Prints the predefined facial output variables (forces and moments) to the dat file.
+Prints the predefined facial output variables (forces and moments) to the data file.
 
 ## Применение
 

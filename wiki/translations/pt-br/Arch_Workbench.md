@@ -163,12 +163,18 @@ Estas são as ferramentas adicionais para te ajudar em tarefas específicas.
 
 ### Formatos de arquivos 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC/pt-br.md): classes de fundação da indústria
 -   [DAE](Arch_DAE/pt-br.md): Formato de malha Collada
 -   [OBJ](Arch_OBJ/pt-br.md): Formato da malha objeto (somente exportação)
 -   [JSON](Arch_JSON/pt-br.md): Formato JavaScript Object Notation (somente exportação)
 -   [3DS](Arch_3DS/pt-br.md): Formato 3DS (somente importação)
 -   [SHP](Arch_SHP/pt-br.md): Arquivos em forma de GIS (somente importação)
+
+
+</div>
 
 ## API
 

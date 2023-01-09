@@ -1,27 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std MacroStopRecord
-   MenuLocation:Macro → Stop macro recording
-   Workbenches:All
-   SeeAlso:[Std DlgMacroRecord](Std_DlgMacroRecord.md)
+   Name/pl:Std: Zatrzymaj nagrywanie makra
+   MenuLocation:Makrodefinicje → Zatrzymaj nagrywanie makra
+   Workbenches:wszystkie
+   SeeAlso:[Wykonaj makro](Std_DlgMacroRecord/pl.md)
 ---
 
 # Std MacroStopRecord/pl
 
-## Description
 
-The **Std MacroStopRecord** command ends a macro recording session.
 
-## Usage
+## Opis
 
-1.  The command is only available during a macro recording session. See [Std DlgMacroRecord](Std_DlgMacroRecord.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** button.
-    -   Select the **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Stop macro recording** option from the menu.
+Polecenie **Zatrzymaj nagrywanie makra** kończy sesję nagrywania makra.
 
-## Notes
 
--   To learn more about macros see the [Macros](Macros.md) page.
+
+## Użycie
+
+1.  Polecenie jest dostępne tylko podczas sesji nagrywania makrodefinicji. Zobacz [Rejestrator makrodefinicji](Std_DlgMacroRecord/pl.md)
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Std_MacroStopRecord.svg" width=16px> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)**.
+    -   Wybierz z menu opcję **Makrodefinicje → <img src="images/Std_MacroStopRecord.svg" width=16px> Zatrzymaj nagrywanie makra**.
+
+
+
+## Uwagi
+
+-   Aby dowiedzieć się więcej o makropoleceniach, zobacz stronę [Makrodefinicje](Macros/pl.md).
 
 
 

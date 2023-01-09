@@ -1,37 +1,46 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std Windows
-   MenuLocation:Windows → Windows...
-   Workbenches:All
-   SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
+   Name/pl:Std: Okna
+   MenuLocation:Okna → Okna ...
+   Workbenches:wszystkie
+   SeeAlso:[Następne](Std_ActivateNextWindow/pl.md), [Poprzednie](Std_ActivatePrevWindow/pl.md)
 ---
 
 # Std Windows/pl
 
-## Description
 
-The **Std Windows** command opens a dialog box with a list of [Main view area](Main_view_area.md) windows. From this list a selected window can be activated.
+
+## Opis
+
+Polecenie **Okna** otwiera okno dialogowe z listą okien [Głównego obszaru widoku](Main_view_area.md). Z tej listy można uaktywnić wybrane okno.
 
 ![](images/Std_Windows_dialog.png ) 
-*The Choose Window dialog box*
+*Okno dialogowe Wybierz okno.*
 
-## Usage
 
-1.  Select the **Windows → <img src="images/Std_Windows.svg" width=16px> Windows...** option from the menu.
-2.  The Choose Window dialog box opens.
-3.  Do one of the following:
-    -   Select a window in the list and press the **Activate** button.
-    -   Double-click a window in the list.
-4.  The dialog box closes.
-5.  The selected window is activated.
 
-## Options
+## Użycie
 
--   Press **Esc** or the **Cancel** button to abort the command.
+1.  Wybierz z menu opcję **Okna → <img src="images/Std_Windows.svg" width=16px> Okna ...**.
+2.  Zostanie otwarte okno dialogowe Wybierz okno.
+3.  Wykonaj jedną z następujących czynności:
+    -   Zaznacz okno na liście i naciśnij przycisk **Aktywuj**.
+    -   Kliknij dwukrotnie okno na liście.
+4.  Okno dialogowe zostanie zamknięte.
+5.  Wybrane okno zostanie uaktywnione.
 
-## Notes
 
--   [Main view area](Main_view_area.md) windows are also listed in the **Windows** menu and can be activated from there.
+
+## Opcje
+
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+
+
+
+## Uwagi
+
+-   Okna [głównego obszaru widoku](Main_view_area/pl.md) są również wymienione w menu **Okna** i mogą być z niego aktywowane.
 
 
 

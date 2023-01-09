@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -27,12 +29,22 @@ Dacă OpenSCAD revine cu succes, mesajele sale sunt afișate ca avertismente în
 
 </div>
 
+Libraries should be accessible as usual, whereas example can be reached as stated below.
+
 
 ```python
 include <../examples/example001.scad>;
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 ar include primele exemple cunoscute și sub numele de iconița/pictograma OpenSCAD
+
+
+</div>
+
+## Setup OpenSCAD within FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -52,17 +64,16 @@ ar include primele exemple cunoscute și sub numele de iconița/pictograma OpenS
 
 </div>
 
-FreeCAD needs to be told where to find the OpenSCAD executable
+FreeCAD needs to be told where to find the OpenSCAD executable:
 
 -   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
-**Menu → View Workbench → OpenSCAD**
--   Open the preferences dialog **Menu  
-    → Edit → Preferences**
+**View → Workbench → OpenSCAD**
+-   Open the preferences dialog **Edit → Preferences**
 -   Click on \"OpenSCAD\" on the left plane
 -   Click on the button labled **...** in **General Settings → General OpenSCAD Settings → OpenSCAD executable** to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button
 -   Close and restart FreeCAD
 
-:   **Result:** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench
+:   **Result:** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench.
 
 Note: It is also possible to add another optional Parameter which controls the maximum sides of a polygon before it is considered a circle (fn).
 

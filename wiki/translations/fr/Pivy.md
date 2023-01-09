@@ -123,7 +123,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Le rappel doit être initié à partir d\'un objet, car cet objet doit toujours être en cours d\'exécution lorsque le rappel se produit. Voir aussi une [liste complète des événements possibles et leurs paramètres](Code_snippets/fr#Observation_des_.C3.A9v.C3.A8nements_de_la_souris_dans_la_vue_3D_via_Python.md) ou dans la documentation officielle de Coin. {{Top}}
+Le rappel doit être initié à partir d\'un objet, car cet objet doit toujours être en cours d\'exécution lorsque le rappel se produit. Voir aussi une [liste complète des événements possibles et leurs paramètres](Code_snippets/fr#Observer_des_.C3.A9v.C3.A8nements_de_la_souris_dans_la_vue_3D_via_Python.md) ou dans la documentation officielle de Coin. {{Top}}
 
 ## Documentation
 

@@ -11,7 +11,11 @@ Jeśli chciałbyś wesprzeć projekt FreeCAD, proszę wykjonaj [dotację](donate
 
 A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia](History.md).
 
+
+
 ## Korzystanie z programu FreeCAD 
+
+
 
 ### Wprowadzenie
 
@@ -23,6 +27,8 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 -   [FAQ](Frequently_asked_questions/pl.md): Odpowiedzi na najczęściej zadawane pytania.
 -   [Poradniki](Tutorials/pl.md) obejmujące różne części FreeCAD.
 
+
+
 #### Migracja z innego oprogramowania? 
 
 -   [Rozwiązania](Workarounds.md)
@@ -32,6 +38,8 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 -   [Migracja do FreeCAD z Revit](Migrating_to_FreeCAD_from_Revit/pl.md)
 -   [FreeCAD BIM poradnik migracji](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [Tabela kompatybilności aplikacji BIM](BIM_application_compatibility_table/pl.md)
+
+
 
 ### Informacje podstawowe 
 
@@ -45,6 +53,8 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 -   [Formaty plików](Import_Export/pl.md): różne typy plików, które mogą być odczytywane i zapisywane przez FreeCAD.
 -   [Środowiska pracy](Workbenches/pl.md): W jaki sposób zorganizowany jest interfejs aplikacji.
 -   [Makra](Macros/pl.md): jak łatwo zautomatyzować powtarzające się czynności
+
+
 
 ### Środowiska pracy 
 
@@ -94,6 +104,8 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Web](Web_Workbench/pl.md) udostępnia okno przeglądarki w oknie [widoku 3D](3D_view/pl.md) dla programiu FreeCAD.
 
+
+
 ### Makra
 
 [Makrodefinicje](Macros.md) to niewielkie fragmenty kodu [Python](Python.md), które wykonują proste lub złożone zadania, dotychczasowo niedostępne w bazowym systemie FreeCAD.
@@ -102,7 +114,9 @@ Doświadczeni użytkownicy napisali różne [makra](macros.md), aby wzbogacić F
 
 Od wersji FreeCAD 0.17, wiele makr można zainstalować za pomocą [Menadżer dodatków](Std_AddonMgr/pl.md). Lista makrodefinicji znajduje się na stronie [przepisy na makrodefinicje](Macros_recipes/pl.md). Ręczna instalacja - patrz [Jak zainstalować makra](How_to_install_macros/pl.md).
 
-### Dodatkowe Środowiska pracy 
+
+
+### Zewnętrzne środowiska pracy 
 
 Gdy wiele makrodefinicji lub funkcji jest opracowywanych przy użyciu wspólnych pasków narzędzi i menu, mogą one stać się nowym Środowiskiem pracy.
 
@@ -110,15 +124,21 @@ Gdy wiele makrodefinicji lub funkcji jest opracowywanych przy użyciu wspólnych
 
 Od wersji FreeCAD **0.17**, wiele stołów roboczych może być zainstalowanych przy użyciu [Menadżera dodatków](Std_AddonMgr/pl.md). Ręczna instalacja - patrz [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md).
 
+
+
 ## Odwołania
 
 [Lista komend](List_of_Commands/pl.md): Pełna lista dostępnych poleceń FreeCAD.
+
+
 
 ## System pomocy Online 
 
 Jest to oficjalna pomoc Online FreeCAD. Proszę zwrócić uwagę, że cały system pomocy Online jest obecnie opracowywany na nowo. Zostanie on użyty do wygenerowania pliku w formacie .CHM, który będzie dystrybuowany wraz z pakietami binarnymi FreeCAD. W chwili obecnej pomoc online streszcza niektóre z najbardziej kompletnych sekcji tej wiki.
 
 -   [ System pomocy online - Spis treści](Online_Help_Toc/pl.md)
+
+
 
 ## Informacje dodatkowe 
 

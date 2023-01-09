@@ -61,9 +61,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ### Fluid Constraints 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md): Used to define an initial flow velocity for the body.
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md): Used to define an initial flow velocity for a body (volume).
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for the body. <small>(v1.0)</small> 
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md): Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 

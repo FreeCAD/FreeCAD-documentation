@@ -23,31 +23,26 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 
 <img alt="Alcuni esempi di estrusioni, tutte sono realizzate utilizzando la stessa sezione, ma su tre diverse traiettorie." src=images/Solid_sweep.png‎  style="width:500px;">
 
+## Utilizzo
 
-<div class="mw-translate-fuzzy">
+1.  Creare due elementi 2D del tipo indicato sotto, uno per la sezione e uno per la traiettoria.
+2.  Selezionare, nella [Vista ad albero](Tree_view/it.md) del progetto o nella [Vista 3D](3D_view/it.md), prima la traiettoria e poi il profilo. (**L\'ordine è importante!**):
+    1.  La traiettoria
+    2.  Poi il profilo
 
-## Come si usa 
+-   Aprire il [Gestore Macro](Macros/it.md)
 
--   Creare due elementi 2D del tipo indicato sotto, uno per la sezione e uno per la traiettoria.
--   Selezionare, nella struttura del progetto o nella vista 3D, prima la traiettoria e poi il profilo. L\'ordine è importante!
--   Aprire Gestione Macro, selezionare la macro e fare clic su \"Esegui\".
--   Nella struttura del progetto viene creato un oggetto Sweep.
+1.  Selezionare la **Solid Sweep** macro
+2.  Cliccare **Esegui**
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+**Risultato:** Un oggetto **Sweep** viene creato nella struttura del progetto
 
 ## Elementi 2D supportati 
 
 -   Contorni polilinee
--   <img alt="" src=images/Sketcher_NewSketch.png  style="width:32px;"> [Schizzi](Sketcher_Workbench/it.md)
--   ![](images/Draft_BSpline.png ) [BSpline](Draft_BSpline/it.md)
--   Primitive 2D del menu *Part → <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> [Crea Primitive](Part_CreatePrimitives/it.md)\...* (circonferenza, elica)
-
-
-</div>
+-   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Schizzi](Sketcher_Workbench/it.md)
+-   <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [BSpline](Draft_BSpline/it.md)
+-   Primitive 2D del menu *Part → <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Crea Primitive](Part_Primitives/it.md)\...* (circonferenza, elica)
 
 ## Avvertenze
 

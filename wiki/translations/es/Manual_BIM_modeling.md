@@ -190,7 +190,7 @@ We will now prepare a set of views from our model, to be placed on a Drawing pag
 -   Select the building object in the tree view
 -   Press the <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Section Plane](Arch_SectionPlane.md) button.
 -   Set its **Display Height** property to 5m, its **Display Length** to 6m, so we encompass our house (this is not needed, but will look better, as it will show naturally what it is used for), and its **Placement** position at x:2m, y:1.5m, z:1.5m.
--   Check the list of objects considered by the Section Plane by double-clicking it in the [tree view](tree_view.md). Section Planes only render specified objects from the model, not all of them. The objects considered by the Section Plane can be changed here.
+-   Check the list of objects considered by the Section Plane by double-clicking it in the [tree view](Tree_view.md). Section Planes only render specified objects from the model, not all of them. The objects considered by the Section Plane can be changed here.
 
 ![](images/Exercise_arch_20.jpg )
 

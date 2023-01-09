@@ -1,23 +1,23 @@
 ---
 - GuiCommand:/fr
    Name:FEM ConstraintSelfWeight
-   Name/fr:FEM Contrainte de poids propre
-   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de poids propre
+   Name/fr:FEM Contrainte du poids propre
+   MenuLocation:Modèle → Contraintes mécaniques → Contrainte du poids propre
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutorie](FEM_tutorial/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintSelfWeight/fr
 
 ## Description
 
-La contrainte de propre poids est définie par l\'accélération gravitationnelle de 9,81 m/s\^2 qui agit sur l\'ensemble du modèle dans la direction imposée.
+La contrainte du propre poids est définie par l\'accélération gravitationnelle de 9,81 m/s\^2 qui agit sur l\'ensemble du modèle dans la direction imposée.
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-2.  \* Appuyez sur le bouton **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)**.
-3.  \* Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Contrainte de poids propre** dans le menu.
+2.  \* Appuyez sur le bouton **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Contrainte du poids propre](FEM_ConstraintSelfWeight/fr.md)**.
+3.  \* Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Contrainte du poids propre** dans le menu.
 4.  Vous pouvez modifier la direction de la gravitation en modifiant ses coordonnées vectorielles dans la barre de propriétés du nouvel objet ConstraintSelfWeight.
 
 ## Script

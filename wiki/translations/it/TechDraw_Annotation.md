@@ -12,12 +12,16 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
 
 <img alt="" src=images/AnnotationSample.png  style="width:250px;"> 
 *Annotazione nella pagina di disegno*
+
+
 
 ## Utilizzo
 
@@ -33,6 +37,8 @@ Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
 **Note:**
 
 alcuni caratteri interferiscono con la rappresentazione interna del testo dell\'annotazione. Nello specifico, questi sono le doppie virgolette `"`, i simboli minore di `<` e maggiore di `>`; questi caratteri devono essere sostituiti rispettivamente dai caratteri di escape HTML,`&amp;quot;`, `&amp;lt;`, e `&amp;gt;`. Per i dettagli vedere [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references).
+
+
 
 ## Proprietà
 
@@ -51,6 +57,8 @@ L\'Annotazione eredita tutte proprietà applicabili dalla Vista di base, tranne 
 -    **LineSpace**: Regolazione dell\'interlinea (%).
 
 -    **TextStyle**: Stile del testo \"Normal\", \"Bold\", \"Italic\", \"Bold-Italic\"
+
+
 
 ## Script
 
@@ -80,6 +88,8 @@ anno.Text = ['Different Text']
 anno.TextStyle = 'Bold'
 rc = page.addView(anno)
 ```
+
+
 
 ## Note
 

@@ -1,148 +1,131 @@
 ---
 - GuiCommand:/de
    Name:PartDesign AdditiveHelix
-   Name/de:PartDesign Additive Helix
-   MenuLocation:PartDesign → Create an additive feature → Additive Helix
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/de:PartDesign WendelHinzufügen
+   MenuLocation:Part Design → Objekte hinzufügen → Wendel
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.19
-   SeeAlso:[PartDesign Subtraktive Helix](PartDesign_SubtractiveHelix.md)
+   SeeAlso:[PartDesign WendelEntfernen](PartDesign_SubtractiveHelix/de.md)
 ---
 
 # PartDesign AdditiveHelix/de
 
-
-</div>
-
 ## Beschreibung
 
-Das Werkzeug **AdditiveHelix** erstellt einen Körper durch das Führen einer Skizze entlang eines Helix-Pfades.
+Das Werkzeug **WendelHinzufügen** erstellt einen Volumenkörper durch Führen einer Skizze entlang eines Wendel-Pfades.
 
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
-\"Das Profil (B) wird um eine Achse (A) geführt und erzeugt eine geschlossene Helix (C)\"
+\"Das Profil (B) wird um eine Achse (A) geführt und erzeugt einen Wendel-Volumenkörper (C)\"
 
 ## Anwendung
 
-1.  Wähle die Zeichnung (Sketch) der in eine Helix überführt werden soll.
-2.  Klicke **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix/de.md)
-**
-3.  Setze die Parameter für die Helix (siehe nächsten Abschnitt)
-4.  Prüfe die Helix in der Ansicht. Stelle sicher, dass sich die Helix nicht selbst überschneidet.
-5.  Klicke **OK**.
+1.  Die Skizze (Sketch) auswählen, die zu einer Wendel ausgetragen werden soll. Alternativ kann eine Fläche des schon vorhandenen Volumenkörpers ausgewählt werden.
+
+2.  Die Schaltfläche **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [Wendel](PartDesign_AdditiveHelix/de.md)** drücken.
+
+3.  Parameter für die Wendel festlegen (siehe nächsten Abschnitt).
+
+4.  Die Wendel in der 3D-Ansicht überprüfen, um sicherzustellen, dass sich die Wendel nicht selbst durchdringt.
+
+5.  
+    **OK**klicken.
 
 ## Optionen
 
-Der Dialog **Helix parameters** bietet verschiedene Parameter an, wie die Zeichnung geführt werden soll.
+Beim Erstellen einer Wendel beinhaltet der Dialog **Wendel-Parameter** verschiedene Parameter die festlegen, wie die Skizze ausgetragen werden soll.
 
 ![](images/PartDesign_AdditiveHelix_taskpanel.png )
 
-### Axis
+### Achse
 
+Diese Option bestimmt die Achse, um die sich die Skizze winden soll.
 
-<div class="mw-translate-fuzzy">
+-   **Senkrecht zur Skizze**: Wählt die Normale der Skizze, die durch den Skizzenursprung verläuft, als Achse aus. {{Version/de|0.20}}
+-   **Vertikale Skizzenachse**: Wählt die vertikale Skizzenachse. Dies ist die Voreinstellung für neue Wendeln.
+-   **Horizontale Skizzenachse**:Wählt die horizontale Skizzenachse.
+-   **Konstruktionslinie**: Wählt eine eine Konstruktionslinie der Skizze zur Verwendung mit der Wendel aus. Die Ausklappliste enthält für jede Konstruktionslinie einen Eintrag. Die als Erstes erstellte Konstruktionslinie wird *Konstruktionslinie 1* genannt.
+-   **Basis (X/Y/Z)-Achse**: Wählt die X-, Y- oder Z-Achse des Ursprungs des Körpers aus.
+-   **Referenz auswählen\...**: Erlaubt in der 3D-Ansicht eine Kante des Körpers oder eine [Bezugslinie](PartDesign_Line.md) auszuwählen.
 
-Diese Option legt die Achse fest, um die die Skizze geführt werden soll.
+### Modus
 
--   **Vertical sketch axis**: wählt die vertikale Skizzen-Achse.
--   **Horizontal sketch axis**: wählt die horizontale Skizzen-Achse.
--   **Construction line**: wählt eine eine Konstruktionslinie der Skizze, die für die Helix genutzt wird. In der Drop-Down-Liste ist jede Konstruktionslinie vorhanden.Die erste in der Skizze erstellte Konsruktionslinie hat die Bezeichnung *Construction line 1*.
--   **Base (X/Y/Z) axis**: wählt die X, Y or Z Achse des Ursprungs des Körpers.
--   **Select reference\...**: erlaubt in der 3D-Ansicht die Auswahl einer Kante auf dem Körper oder eine [Datum Linie](PartDesign_Line.md).
+Dies steuert, welche Parameter zum Festlegen der Wendel verwendet werden. Zur Wahl stehen:
 
+-   **Steigung-Höhe-Winkel**: Festlegung über die Steigung (Höhe pro Umdrehung) und die Gesamthöhe.
+-   **Steigung-Windungen-Winkel**: Festlegung über die Steigung und die Anzahl der Windungen.
+-   **Höhe-Windungen-Winkel**: Festlegung über die Gesamthöhe und die Anzahl der Windungen.
+-   **Höhe-Windungen-Aufweitung** {{Version/de|0.20}}: Festlegung über die Gesamthöhe, die Anzahl der Windungen und die Aufweitungsrate des Wendelradius (Radiales Wachstum). Eine Höhe von Null ergibt einen spiralförmigen Pfad. Sind Höhe und Aufweitungsrate Null, ergibt sich ein kreisförmiger Pfad.
 
-</div>
+### Steigung
 
-### Mode
+Der Abstand zwischen den Windungen der Wendel.
 
+### Höhe
 
-<div class="mw-translate-fuzzy">
+Die Höhe der Wendel (Zentrum-Zentrum).
 
-Dieser Parameter definiert die Art der Helix. Zulässige Auswahlen sind: Pitch-Height (Steigung), Pitch-Turns (Umdrehungen) und Height-Turns (Umdrehungshöhe).
+### Windungen
 
+Die Anzahl der Windungen der Wendel. Ergibt sich aus Höhe/Steigung.
 
-</div>
+### Kegelwinkel
 
-### Pitch
+Winkel des Kegels, der die Wendel umhüllt. Zulässiger Wertebereich: \[-89°, +89°\].
 
-Der Abstand zwischen den Umdrehungen der Helix.
+### Linksgängig
 
-### Height
+Wenn aktiviert, ändert sich die Drehrichtung der Wendel von der Voreinstellung \"im Uhrzeigersinn\" in \"gegen den Uhrzeigersinn\".
 
-Die Höhe der Helix (Zentrum-Zentrum).
+### Umgekehrt
 
-### Turns
+Wenn aktiviert, wird die voreingestellte Ausrichtung der Wendel umgedreht.
 
-Die Anzahl der Umdrehungen der Helix. Ergibt sich aus Höhe/Abstand zwischen den Umdrehungen.
+### Ansicht aktualisieren 
 
-### Cone Angle 
-
-
-<div class="mw-translate-fuzzy">
-
-Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte: \[-89°, +89°\].
-
-
-</div>
-
-### Left handed 
-
-Wenn gewählt, ändert sich die Drehrichtung der Helix von der Voreinstellung \"im Uhrzeigersinn\" in \"gegen den Uhrzeigersinn\".
-
-### Reversed
-
-Wenn gewählt wird die Achsenrichtung umgedreht.
-
-### Update view 
-
-Wenn gewählt, ändert sich die Ansicht bei jeder Parameteränderung automatisch.
+Wenn aktiviert, ändert sich die Ansicht bei jeder Parameteränderung automatisch.
 
 ## Einstellungen
 
-Eine additive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** auf `True` steht. Die Voreinstellung ist `False`. <small>(v0.20)</small> 
+Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** auf `True` gesetzt ist. Die Voreinstellung ist `False`. {{Version/de|0.20}}
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Pitch}}: Der axiale Abstand zwischen zwei Windungen.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Height}}: Die Gesamtlänge der Wendel (ohne Berücksichtigung der Ausdehnung des Profils)
 
--    **Pitch**: Der axiale Abstand zwischen zwei Umdrehungen.
+-    {{PropertyData/de|Turns}}: Die Anzahl der Windungen (muss keine Ganzzahl sein).
 
--    **Height**: Die Gesamtlänge der Helix (ohne Berücksichtigung des Umfangs des Profils)
+-    {{PropertyData/de|Left Handed}}: Siehe [Linksgängig](#Linksgängig.md).
 
--    **Turns**: Die Anzahl der Umdrehungen (muss keine Ganzzahl sein).
+-    {{PropertyData/de|Reversed}}: Siehe [Umgekehrt](#Umgekehrt.md).
 
--    **Left Handed**: links drehend, gegen den Uhrzeigersinn
+-    {{PropertyData/de|Winkel}}: Der Winkel mit dem der Radius der Wendel zu- oder abnimmt. Zulässiger Wertebereich: \[-89°, +89°\].
 
--    **Reversed**: true oder false. Siehe [Reversed](#Reversed.md).
+-    {{PropertyData/de|Reference axis}}: Die Wendelachse.
 
--    **Angle**: Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte: \[-89°, +89°\].
+-    {{PropertyData/de|Mode}}: Die Eingabeart der Wendel: (pitch-height, pitch-turns, turns-height)
 
--    **Reference axis**: Die Helix Achse.
+-    {{PropertyData/de|Outside}}: Nicht genutzt (wird in WendelAbziehen genutzt).
 
--    **Mode**: Die Helix Eingabeart: (pitch-height, pitch-turns, turns-height)
+-    {{PropertyData/de|Has Been Edited}}: Wenn \"false\", wird ein Startwert für die Steigung auf Basis der \"Bounding-Box\" des Profils vorgeschlagen, um eine Selbstdurchdringung zu vermeiden.
 
--    **Outside**: Nicht genutzt (wird in SubtractiveHelix genutzt).
+-    {{PropertyData/de|Refine}}: true oder false. Wenn auf \"true\" gesetzt, wird der Volumenkörper von (innerhalb von Flächen liegenden) verbliebenen Kanten befreit, die von Formelementen hinterlassen wurden. Siehe [Part FormAufbereiten](Part_RefineShape/de.md) für weitere Details.
 
--    **Has Been Edited**: Wenn \"false\", wird ein Initialwert aufgrund der \"profile bounding box\"vorgeschlagen so dass die Selbstüberschneidung vermieden wird.
+-    {{PropertyData/de|Profile}}: Entweder eine Skizze mit einer geschlossenen Kontur oder eine Fläche.
 
--    **Refine**: true oder false. Wenn diese Option auf \"true\" gesetzt ist, wird der Volumenkörper von den verbleibenden Kanten befreit, die von Features hinterlassen wurden. Siehe [Part RefineShape](Part_RefineShape/de.md) für weitere Details.
+-    {{PropertyData/de|Midplane}}: Nicht genutzt.
 
--    **Profile**: Entweder eine Skizze mit einer geschlossenen Kontur oder eine Fläche.
+-    {{PropertyData/de|Up to face}}: Nicht genutzt.
 
--    **Midplane**: Nicht genutzt.
-
--    **Up to face**: Nicht genutzt.
-
--    **Allow multiple face**: Nicht genutzt.
-
-
-</div>
+-    {{PropertyData/de|Allow multiple face}}: Nicht genutzt.
 
 ## Beispiele
 
-![Example helix using a [B-spline](images/Sketcher_CreateBSpline.md) in the sketch](PartDesign_AdditiveHelix_example_bspline.png )
+![Beispielwendel, die eine [B-Spline](images/Sketcher_CreateBSpline/de.md)-Kurve einer Skizze verwendet](PartDesign_AdditiveHelix_example_bspline.png )
 
-![Example helix where the helix axis is normal to the sketch plane resulting in a \"Pad with twist\" effect.](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
+![Beispielwendel mit einer Wendelachse, die normal zur Skizzenebene liegt, ergibt einen \"Block mit Dreh-Effekt\".](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
 
 
 

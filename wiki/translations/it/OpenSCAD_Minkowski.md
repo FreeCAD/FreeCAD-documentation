@@ -34,7 +34,8 @@ Sweep element A along all boundaries of element B. Resulting space which is occu
 
 ![An example of a Minkowski sum](images/Minkowski_example.jpg )
 
-Example of Minkowski sum applied to cylinder and cube. Note: that the height of minkowski sum is height of cylinder plus height of cube.
+Example of Minkowski sum applied to cylinder and cube.
+Note: that the height of Minkowski sum is height of cylinder plus height of cube.
 
 
 <div class="mw-translate-fuzzy">
@@ -52,6 +53,8 @@ Example of Minkowski sum applied to cylinder and cube. Note: that the height of 
 
 
 </div>
+
+## Limitations
 
 
 <div class="mw-translate-fuzzy">

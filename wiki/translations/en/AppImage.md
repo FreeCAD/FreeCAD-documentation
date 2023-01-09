@@ -22,19 +22,15 @@ For other types of installation see [Download](Download.md).
 
 ## FreeCAD AppImages 
 
-
-**'''Note:''' Development builds are now hosted on the [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo.<br/>If the download links below do not work, please manually download the files from the expanded "Assets" section of the above link**
-
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20.1](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
 **Important Notes:**
 
--   Development happens daily and rapidly, the link for the most up-to-date AppImage is a moving target.
--   The development link above should be up-to-date because it is updated via a script.
+-   Development happens daily and rapidly.
 -   Many users on the forum utilize the development version.
 -   It can be run on the same system in parallel with another version of FreeCAD.
 -   Users use the dev version to take advantage of the latest features and bug fixes (since FreeCAD has a long release cycle). They also use it to help test and find bugs to spur development and improvement of FreeCAD.

@@ -1,39 +1,24 @@
 ---
 - GuiCommand:/de
-   Name:PartDesign_PolarPattern
+   Name:PartDesign PolarPattern
    Name/de:PartDesign PolaresMuster
-   MenuLocation:PartDesign → Muster anwenden → Polares Muster
+   MenuLocation:Part Design → Muster anwenden → Polares Muster
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso:[PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
 ---
 
 # PartDesign PolarPattern/de
 
-
-</div>
-
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **PolaresMuster** erstellt aus einem Formelement ein polares Muster (d.h. eine Reihe von Kopien, die auf einer Ebene um eine Achse (Pol) herum angeordnet werden.)
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **PolaresMuster** erstellt auf Basis eines ausgewählten Formelements eine Reihe von Kopien, die um eine ausgewählte Achse herum angeordnet werden. Es können auch mehrere Formelemente angeordnet werden {{Version/de|0.17}}.
-
-
-</div>
-
-![](images/PartDesign_PolarPattern_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-*Oben: Eine schlitzförmige Tasche (B), die in einem Grundkörper (A, auch als Träger bezeichnet) eingebracht ist, wird für ein polares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.*
-
-
-</div>
+![](images/PartDesign_PolarPattern_example.png ) 
+*Eine schlitzförmige Tasche (B), die in einem Grundkörper (A, auch als Träger bezeichnet) eingebracht ist, wird für ein polares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.*
 
 ## Anwendung
 
-### Create
+### Erstellen
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the correct Body.
 2.  Optionally select one or more features in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
@@ -45,7 +30,7 @@ Das Werkzeug **PolaresMuster** erstellt auf Basis eines ausgewählten Formelemen
 6.  The **PolarPattern parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
 
-### Edit
+### Bearbeiten
 
 1.  Do one of the following:
     -   Double-click the PolarPattern object in the [Tree view](Tree_view.md).
@@ -112,20 +97,14 @@ Das Werkzeug **PolaresMuster** erstellt auf Basis eines ausgewählten Formelemen
 -   Specify the number of **Occurrences** (including the original feature).
 -   If the **Update view** checkbox is checked the view will update in real time.
 
+## Formelemente ordnen 
 
-<div class="mw-translate-fuzzy">
-
-#### Formelemente ordnen 
-
-
-</div>
-
-If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list. <small>(v0.19)</small> 
+Wenn einige der ausgewählten Formelemente additiv und andere subtraktiv sind, kann ihre Reihenfolge letztlich das Ergebnis beeinflussen. Die Reihenfolge kann durch bewegen einzelner Formelemente innerhalb der Liste verändert werden. {{Version/de|0.19}}
 
 ![](images/PartDesign_feature-order.gif ) 
-*Auswirkung der Formelementreihenfolge*
+*Auswirkung der Formelement-Reihenfolge*
 
-## Begrenzungen
+## Einschränkungen
 
 -   Any shape in the pattern that does not overlap the parent feature will be excluded. This ensures that a PartDesign Body always consists of a single, connected solid.
 -   The PartDesign patterns are not yet as optimized as their Draft counterparts. So for a large number of instances you should consider using a [Draft PolarArray](Draft_PolarArray.md) instead, combined with a Part boolean operation. This may require major changes to your model as you are leaving PartDesign and therefore cannot simply continue with further PartDesign features in the same body. An example is shown in [this Forum topic](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192).

@@ -163,6 +163,9 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 ### Dateiformate
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC/de.md) : Industrie Fundament Klassen
 -   [DAE](Arch_DAE/de.md) : Collada Netz Format
 -   [OBJ](Arch_OBJ/de.md) : Obj Netz Format (nur Export)
@@ -172,6 +175,9 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 -   [3DS](Arch_3DS/de.md) : 3DS Format (nur Import)
 -   [SHP](Arch_SHP.md): GIS Formdateien (nur Import)
+
+
+</div>
 
 ## API
 

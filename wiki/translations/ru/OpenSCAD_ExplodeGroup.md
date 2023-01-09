@@ -24,20 +24,20 @@
 
 ## Limitations
 
-The feature works only on fusions/compounds consisting of
+The feature works only on fusions/compounds consisting of:
 
--   part primitives from part workbench
--   extruded parts from part workbench
--   revolved parts from part workbench
+-   Part primitives from Part Workbench
+-   Extruded parts from Part Workbench
+-   Revolved parts from Part Workbench
 
-The feature will **NOT** work on
+The feature will **NOT** work on:
 
--   pads/revolution-parts from part design workbench
--   arrays from draft workbench
+-   Pads/Revolution-parts from Part Design Workbench
+-   Arrays from Draft Workbench
 
 ## Notes
 
-For dissolving arrays from draft workbench use the [Draft Downgrade](Draft_Downgrade.md) - tool from draft workbench.
+For dissolving arrays from Draft Workbench use [Draft Downgrade](Draft_Downgrade.md).
 
 
 

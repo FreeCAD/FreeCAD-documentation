@@ -1,31 +1,21 @@
 ---
 - GuiCommand:/de
    Name:PartDesign AdditiveLoft
-   Name/de:PartDesign AdditiveAusformung
-   MenuLocation:Part Design → Additive Ausformung
+   Name/de:PartDesign AusformungHinzufügen
+   MenuLocation:Part Design → Objekte hinzufügen → Ausformung
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[PartDesign AdditivesRohr](PartDesign_AdditivePipe/de.md), [PartDesign SubtraktiveAusformung](PartDesign_SubtractiveLoft/de.md)
+   SeeAlso:[PartDesign RohrHinzufügen](PartDesign_AdditivePipe/de.md), [PartDesign AusformungAbziehen](PartDesign_SubtractiveLoft/de.md)
 ---
 
 # PartDesign AdditiveLoft/de
-
-
-</div>
 
 ## Beschreibung
 
 **Additive Ausformung** erzeugt einen Festkörper im aktiven Körper, indem er einen Übergang zwischen zwei oder mehreren Skizzen (auch Querschnitte genannt) herstellt. Wenn der Körper bereits Elemente enthält, wird die additive Ausformung mit diesen zusammengeführt.
 
-![](images/PartDesign_AddLoft_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-*Zur Linken: Querschnitte (A), (B) und (C); erstellte Additive Ausformung rechts.*
-
-
-</div>
+![](images/PartDesign_AddLoft_example.png ) 
+*Links: Querschnitte (A), (B) und (C). Rechts: Die erstellte Ausformung*
 
 ## Anwendung
 
@@ -63,31 +53,22 @@
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   **Geregelte Oberfläche**: macht gerade Übergänge zwischen Querschnitten. Gilt nicht für eine Ausformung mit zwei Querschnitten. Wenn nicht angekreuzt, werden die Übergänge glatt sein.
--   **Geschlossen**: macht einen Übergang vom letzten zum ersten Querschnitt, wodurch eine Schleife entsteht.
-
-
-</div>
+-   **Regelfläche**: erstellt gerade Übergänge zwischen Querschnitten. Wird nicht auf eine Ausformung mit zwei Querschnitten angewendet. Wenn nicht angekreuzt, werden die Übergänge glatt sein.
+-   **Geschlossen**: macht einen Übergang vom letzten zum ersten Querschnitt, wodurch ein Ring entsteht.
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Label}}: Bezeichnung, die der Operation gegeben wurde, diese Benennung kann nach Belieben geändert werden.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Sections}}: Listet die verwendeten Profilschnitte auf.
 
--    {{PropertyData/de|Label}}: Name, der der Operation gegeben wurde, dieser Name kann nach Belieben geändert werden.
+-    {{PropertyData/de|Ruled}}: siehe [Optionen](#Optionen.md).
 
--    {{PropertyData/de|Sections}}: listet die verwendeten Abschnitte auf.
+-    {{PropertyData/de|Geschlossen}}: siehe [Optionen](#Optionen.md).
 
--    {{PropertyData/de|Ruled}}: siehe [Optionen](#Options.md).
+-    {{PropertyData/de|Refine}}: true oder false. Wenn auf true gesetzt, befreit den Festkörper von übriggebliebenen Kanten, die von den Formelementen hinterlassen wurden. Siehe [Part FormAufbereiten](Part_RefineShape/de.md) für weitere Einzelheiten.
 
--    {{PropertyData/de|Geschlossen}}: siehe [Optionen](#Options.md).
-
--    {{PropertyData/de|Refine}}: true oder false. Wenn auf true gesetzt, reinigt den Festkörper von den Restkanten, die von den Funktionen hinterlassen wurden. Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für weitere Einzelheiten.
-
--    **Profile**: das siehe Basisprofil Objekt der Ausformung.
+-    **Profile**: das Basis-Profilobjekt der Ausformung.
 
 -    {{PropertyData/de|Midplane}}: nicht anwendbar.
 
@@ -96,9 +77,6 @@
 -    **Up To Face**: nicht anwendbar.
 
 -    **Allow Multi Face**: nicht anwendbar.
-
-
-</div>
 
 ## Notes
 

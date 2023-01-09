@@ -8,16 +8,20 @@
 
 # TechDraw LengthDimension/pl
 
+
+
 ## Opis
 
-The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
+The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing). If the dimension is based on 3D references, the distance can be changed to the actual 3D distance by changing the **Measure Type** to `True`.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Length dimension taken from two arbitrary nodes of the view*
 
+
+
 ## Użycie
 
-1.  Select the points or edge which define your measurement.
+1.  Select the points or edge which define your measurement. The geometry may be selected in the drawing or the [3D view](3D_view.md).
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
@@ -26,11 +30,15 @@ The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **
 
 To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
 
+
+
 ## Okno dialogowe 
 
 The dimension dialog offers the following settings:
 
 ![](images/TechDraw_DimensionDialog.png )
+
+
 
 ### Tolerancja
 
@@ -41,6 +49,8 @@ The dimension dialog offers the following settings:
 -   **Overtolerance**: The amount by which the dimension may be larger.
 
 -   **Undertolerance**: The amount by which the dimension may be smaller.
+
+
 
 ### Formatowanie
 
@@ -80,7 +90,11 @@ The dimension dialog offers the following settings:
 
 -   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
 
+
+
 ## Właściwości
+
+
 
 ### Dane
 
@@ -93,7 +107,7 @@ The dimension dialog offers the following settings:
 
 -    **Type**: Length, radius, diameter, etc. Not normally manipulated by the end user.
 
--    **Measure Type**: How the measurement is performed. Not normally manipulated directly by the end user.
+-    **Measure Type**: How the measurement is performed.
 
 :   
 
@@ -192,6 +206,8 @@ The dimension dialog offers the following settings:
 
 -    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
 
+
+
 ### Widok
 
 
@@ -255,6 +271,8 @@ The dimension dialog offers the following settings:
         
         \- Override the automatically chosen direction and force the opposite one.
 
+
+
 ## Ograniczenia
 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". This means that if you modify the 3D geometry the faces and edges of the model may be renamed internally; if a dimension is attached to an edge that is then modified, the dimension may break. In general, it is not possible to keep the projected 2D dimensions synchronized with the actual 3D objects.
@@ -271,6 +289,8 @@ If you want to keep a TechDraw view with dimensions that won\'t break, you need 
 
 See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to circumventing the topological naming issue.
 
+
+
 ## Tworzenie skryptów 
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
@@ -284,6 +304,8 @@ dim1.Type = "Distance"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
+
+
 
 ## Uwagi
 

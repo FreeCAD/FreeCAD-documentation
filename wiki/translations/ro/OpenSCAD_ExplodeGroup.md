@@ -51,10 +51,10 @@ Funcționalitatea **NU** va funcționa pe
 
 </div>
 
-The feature will **NOT** work on
+The feature will **NOT** work on:
 
--   pads/revolution-parts from part design workbench
--   arrays from draft workbench
+-   Pads/Revolution-parts from Part Design Workbench
+-   Arrays from Draft Workbench
 
 ## Notes
 

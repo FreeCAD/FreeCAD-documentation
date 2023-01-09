@@ -166,9 +166,15 @@ These are additional tools to help you in specific tasks.
 
 ### Souborové formáty 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [IFC](Arch_IFC/cs.md) : Industry foundation Classes (pouze import)
 -   [DAE](Arch_DAE/cs.md) : Síťový formát Collada
 -   [OBJ](Arch_OBJ/cs.md) : Síťový formát Obj (pouze export)
+
+
+</div>
 
 ## API
 

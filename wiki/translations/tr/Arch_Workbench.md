@@ -170,7 +170,7 @@ These are additional tools to help you in specific tasks.
 
 -   [IFC](Arch_IFC.md): industry foundation classes
 -   [DAE](Arch_DAE.md): Collada mesh format
--   [OBJ](Arch_OBJ.md): Obj mesh format (export only)
+-   [OBJ](Arch_OBJ.md): OBJ mesh format (export only)
 -   [JSON](Arch_JSON.md): JavaScript Object Notation format (export only)
 -   [3DS](Arch_3DS.md): 3DS format (import only)
 -   [SHP](Arch_SHP.md): GIS Shapefiles (import only)

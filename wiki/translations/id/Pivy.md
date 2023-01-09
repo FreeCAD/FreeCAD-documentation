@@ -122,7 +122,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-The callback has to be initiated from an object, because that object must still be running when the callback occurs. See also a [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) of possible events and their parameters, or the official Coin documentation. {{Top}}
+The callback has to be initiated from an object, because that object must still be running when the callback occurs. See also a [complete list](Code_snippets#Observe_mouse_events_in_the_3D_viewer_via_Python.md) of possible events and their parameters, or the official Coin documentation. {{Top}}
 
 ## Documentation
 

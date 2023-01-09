@@ -4497,6 +4497,8 @@ A view provider that doesn't absorb its base object in the tree view.
 
     The `claimChildren` method is overridden to return an empty list.
 
+    Only used by the `Shape2DView` object.
+
 
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderDraftLink <small>(vobj)</small>
@@ -4510,6 +4512,8 @@ A view provider for link type object.
 A view provider that displays a Part icon instead of a Draft icon.
 
     The `getIcon` method is overridden to provide `Part_3D_object.svg`.
+
+    Only used by the `Block` object.
 
 
 

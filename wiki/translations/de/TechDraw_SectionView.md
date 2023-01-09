@@ -13,7 +13,8 @@
 
 Das Werkzeug <img alt="" src=images/TechDraw_SectionView.svg  style="width:24px;"> **TechDraw Schnittansicht** Fügt, von einer bestehenden Bauteilansicht ausgehend, (dem Zeichnungsblatt) eine Schnittansicht (kurz: einen Schnitt) hinzu.
 
-<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;">
+<img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;"> 
 *Schnitt (Schnittdarstellung) einer bereits vorhandenen Ansicht, der die innenliegende Bohrung und eine schraffierte Schnittfläche zeigt.<br>
 Das obere Bild zeigt die Schnittpfeile nach ANSI-Vorgabe.<br>
 Das untere Bild zeigt die Schnittpfeile nach ISO-Vorgabe.
@@ -125,7 +126,7 @@ Die Standardeinstellungen für diese Parameter werden über die Einstellungen **
 
 ## Hinweise
 
--   **Section Line Format**: Sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeilmethode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Section Line Standard\" auf dem Anleitungs tab eingestellt. Die Option \"ANSI\" verwendet das traditionelle Format und die Option \"ISO\" verwendet das Bezugspfeil Format.
+-   **Section Line Format**: Zwei Arten zur Schnittliniendarstellung werden unterstützt (wie oben abgebildet) und durch die Einstellung \"Normbasis für Schnittlinien\" (Section Line Standard) auf dem Reiter Anmerkung bestimmt. Die Option {{Value|ANSI}} verwendet \"ziehende Peile\" (in einigen Regionen auch als \"traditionelles Format\" bekannt) und die Option {{Value|ISO}} verwendet \"schiebende Pfeile\" (auch als \"Reference Arrow Format\", Referenzpfeilmethode bekannt).
 -   **Fuse Before Cut**: Die Schnittoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn Fuse Before Cut den Wert TRUE besitzt, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn es Probleme mit der Schnittoperation gibt, kann es helfen, diesen Wert umzuschalten.
 -   **Trim After Cut**: Die Schnittoperation lässt manchmal (ungewollte) Anteile der Ausgangsform übrig. Wenn **Trim After Cut** den Wert TRUE besitzt, wird an dem Ergebnis des ersten Schnittes eine zusätzliche Beschnittoperation ausgeführt, die alle ungewollten Anteile entfernen sollte.
 -   **Cut Surface Display**: Die Schnittfläche kann ausgeblendet, mit Farbe gefüllt, mit einem SVG-Muster schraffiert oder mit einem PAT-Muster schraffiert werden. Siehe [Schraffieren](TechDraw_Hatching/de.md).

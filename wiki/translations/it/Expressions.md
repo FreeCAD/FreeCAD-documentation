@@ -3,80 +3,30 @@
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 È possibile definire le proprietà utilizzando espressioni matematiche. Nella GUI, gli spin box o i campi di input che sono legati alle proprietà contengono un\'icona blu <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliccando sull\'icona, oppure digitando il segno di uguale **&#61;**, si porta in primo piano l\'editor delle espressioni per quella particolare proprietà.
-
-
-</div>
 
 Una espressione di FreeCAD è un\'espressione matematica che segue la notazione per gli operatori matematici standard e le funzioni come descritto in seguito. Inoltre, l\'espressione può fare riferimento ad altre proprietà, e anche utilizzare le condizioni. I numeri di un\'espressione possono opzionalmente essere collegati ad una unità di misura.
 
+I numeri possono usare una virgola `,` o un punto `.` per separare le cifre intere dai decimali. Quando viene utilizzato il separatore decimale, esso \"deve\" essere seguito da almeno una cifra. Pertanto, le espressioni `1.+2.` e `1,+2,` non sono valide, ma `1.0 + 2.0` e `1,0 + 2,0` sono valide.
 
-<div class="mw-translate-fuzzy">
-
-I numeri possono usare una virgola \',\' o un punto \'.\' per separare le cifre intere dai decimali. Quando viene utilizzato il separatore decimale, esso \"deve\" essere seguito da almeno una cifra. Pertanto, le espressioni **1.+2.** e **1,+2,** non sono valide, ma **1.0+2.0** e **1,0+2,0** sono validi.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Gli operatori e le funzioni sono unit-aware (consapevoli delle unità), e richiedono combinazioni di unità valide, se sono fornite. Ad esempio, **2mm + 4mm** è un\'espressione valida, mentre **2mm + 4** non lo è (il motivo di questo è che un\'espressione come **1in + 4** molto probabilmente viene interpretata come **1in + 4in** da un umano, ma tutte le unità vengono convertite nel sistema SI interno, e il sistema non è in grado di indovinare questo). Queste [unità](#Unità.md) sono attualmente riconosciute.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Gli operatori e le funzioni sono unit-aware (consapevoli delle unità), e richiedono combinazioni di unità valide, se sono fornite. Ad esempio, `2mm + 4mm` è un\'espressione valida, mentre `2mm + 4` non lo è (il motivo di questo è che un\'espressione come `1in + 4` molto probabilmente viene interpretata come `1in + 4in` da un umano, ma tutte le unità vengono convertite nel sistema SI interno, e il sistema non è in grado di indovinare questo). Queste [unità](#Unità.md) sono attualmente riconosciute.
 
 Si possono usare le [costanti predefinite](#Costanti_supportate.md) e le [funzioni](#Funzioni_supportate.md).
 
+### Argomenti delle funzioni 
 
-</div>
+Quando una funzione accetta più argomenti, questi possono essere separati da un punto e virgola seguita da uno spazio `, `. In quest\'ultimo caso, la virgola viene convertita in un punto e virgola dopo la voce. Quando si utilizza un punto e virgola, non è necessario terminare la riga con uno spazio.
 
-### Function arguments 
-
-
-<div class="mw-translate-fuzzy">
-
-Quando una funzione accetta più argomenti, questi possono essere separati da un punto e virgola (\';\') o da una virgola seguita da uno spazio (\", \"). In quest\'ultimo caso, la virgola viene convertita in un punto e virgola dopo la voce. Quando si utilizza un punto e virgola, non è necessario terminare la riga con uno spazio.
-
-
-</div>
-
-Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell\'s uppercase row letter followed by its column number, for example `A1`. A cell may also be referenced by using the cell\'s alias instead, for example `Spreadsheet.MyPartWidth`.
+Gli argomenti possono includere riferimenti a celle in un foglio di calcolo. Un riferimento di cella è costituito dalla lettera maiuscola della riga della cella seguita dal suo numero di colonna, ad esempio `A1`. È anche possibile fare riferimento a una cella utilizzando l\'alias della cella, ad esempio `Spreadsheet.MyPartWidth`.
 
 ### Riferimenti a oggetti 
 
+Si può fare riferimento a un oggetto tramite il suo **Name** o la sua **Label**. Nel caso di una **Label**, essa deve essere racchiusa tra i simboli `<<` e `>>`, come questa: `<<Label>>`.
 
-<div class="mw-translate-fuzzy">
+È possibile fare riferimento a qualsiasi proprietà di un oggetto. Ad esempio, per fare riferimento all\'altezza di un cilindro, è possibile utilizzare `Cylinder.Height` o `<<Long_name_of_cylinder>>.Height`. Per fare riferimento all\'oggetto stesso si usa la pseudo proprietà `_self`. Ad esempio, puoi utilizzare `Cylinder._self` o `<<Label_of_cylinder>>._self`.
 
-Si può fare riferimento a un oggetto tramite il suo `Name` o la sua `Label`. Nel caso di una `Label`, essa deve essere racchiusa tra i simboli `<<` e `>>`, come questa: `<<Label>>`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-È possibile fare riferimento a qualsiasi proprietà numerica di un oggetto. Ad esempio, per fare riferimento all\'altezza di un cilindro, è possibile utilizzare `Cylinder.Height` o `<<Long_name_of_cylinder>>.Height`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per fare riferimento agli oggetti dell\'elenco, la sintassi è `<<object_label>>.list[list_index]` o `object_name.list[list_index]`. Se ad esempio si desidera fare riferimento a un vincolo in uno schizzo, si può farlo usando questa sintassi
-
-**>.Constraints[16]**. Se il riferimento si trova nello stesso schizzo, si può ometterne il nome e utilizzare solo **Constraints[16]**.
-**Nota:** L'indice inizia con 0, quindi il vincolo 17 ha l'indice 16.
-
-
-</div>
+Per fare riferimento agli oggetti dell\'elenco, usa `<<object_label>>.list[list_index]` o `object_name.list[list_index]`. Se ad esempio si desidera fare riferimento a un vincolo in uno schizzo, lo si può fare usando `<<MySketch>>.Constraints[16]`. Se il riferimento si trova nello stesso schizzo, si può ometterne il nome e utilizzare solo `Constraints[16]`.
+**Nota:** L\'indice inizia con 0, quindi il vincolo 17 ha l\'indice 16.
 
 
 <div class="mw-translate-fuzzy">
@@ -89,15 +39,9 @@ Per ulteriori informazioni sul riferimento a oggetti, vedere [questa sezione](#R
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Costanti supportate 
 
-
-</div>
-
-The following constants are supported:
+Sono supportate le seguenti costanti:
 
 
 <div class="mw-translate-fuzzy">

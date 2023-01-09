@@ -3,11 +3,15 @@
 
 {{TOCright}}
 
+
+
 ## Einleitung
 
 Der Arbeitsbereich [FEM](FEM_Workbench/de.md) ermöglicht einen modernen Arbeitsablauf zur Finite-Elemente-Analyse (FEA) innerhalb von FreeCAD, siehe [Finite-Elemente-Methode](https://de.wikipedia.org/wiki/Finite-Elemente-Methode) (FEM). Dies bedeutet im Wesentlichen, dass alle Werkzeuge zur Durchführung einer Analyse in einer grafischen Benutzeroberfläche (GUI) zusammengefasst sind.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
+
+
 
 ## Arbeitsablauf
 
@@ -30,9 +34,13 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 * Arbeitsablauf des Arbeitsbereichs FEM; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite-Elemente-Problems durchzuführen.*
 
+
+
 ## Menü: Modell 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Analyse Container](FEM_Analysis/de.md): Erstellt einen neuen Behälter für eine mechanische Analyse. Wenn in der Baumansicht vor dem Anklicken ein Volumenkörper ausgewählt wird, wird als nächstes der Vernetzungsdialog geöffnet.
+
+
 
 ### Werkstoffe
 
@@ -47,6 +55,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 .
 
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Werkstoffeditor](FEM_MaterialEditor/de.md): Ermöglicht es, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
+
+
 
 ### Elementgeometrie
 
@@ -64,17 +74,29 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 </div>
 
+
+
 ### Elektrostatische Beschränkungen 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [RandbedingungElektrostatischesPotential](FEM_ConstraintElectrostaticPotential/de.md): Wird zum Festlegen eines elektrostatischen Potentials verwendet.
 
+
+
 ### Randbedingungen für Strömungen 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [RandbedingungStartfließgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md): Wird verwendet, um eine anfängliche Fließgeschwindigkeit für den Körper zu definieren.
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for the body. <small>(v1.0)</small> 
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [ Strömungsgeschwindigkeit Beschränken](FEM_ConstraintFlowVelocity/de.md): Wird verwendet, um eine Strömungsgeschwindigkeit als Randbedingung an einer Kante (2D) oder Fläche (3D) zu definieren.
+
+
 
 ### Geometrische Beschränkungen 
 
@@ -89,6 +111,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 </div>
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Transformationsbeschränkung](FEM_ConstraintTransform/de.md): Verwendet, um eine Transformationsbeschränkung für eine Fläche festzulegen.
+
+
 
 ### Mechanische Beschränkungen 
 
@@ -110,6 +134,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Eigengewichtsbeschränkung](FEM_ConstraintSelfWeight/de.md): Wird verwendet, um eine Schwerkraftbeschleunigung festzulegen, die auf ein Modell wirkt.
 
+
+
 ### Thermische Beschränkungen 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Anfangstemperaturbeschränkung](FEM_ConstraintInitialTemperature/de.md): Wird verwendet, um die Anfangstemperatur eines Körpers festzulegen.
@@ -119,6 +145,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 -   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Temperaturbeschränkung](FEM_ConstraintTemperature/de.md): Wird verwendet, um eine Temperaturbeschränkung für einen Punkt/Kante/Fläche(n) festzulegen.
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Körperwärmequelle beschränken](FEM_ConstraintBodyHeatSource/de.md):
+
+
 
 ### Beschränkungen ohne Löser 
 
@@ -136,6 +164,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Scheibenbeschränkung](FEM_ConstraintPulley/de.md): Wird verwendet, um eine Scheibenbeschränkung festzulegen.
 
+
+
 ### Überschreiben von Konstanten 
 
 
@@ -145,6 +175,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 </div>
+
+
 
 ## Menü: Netz 
 
@@ -173,6 +205,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 -   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Knoten Satz](FEM_CreateNodesSet/de.md): Erstellt/definiert einen Knotensatz aus einem FEM etz.
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM Netz zu Netz](FEM_FemMesh2Mesh/de.md): Wandle die Oberfläche eines FEM Netzes in ein Netz um.
+
+
 
 ## Menü: Lösen 
 
@@ -256,6 +290,8 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Löserberechnungen ausführen](FEM_SolverRun/de.md): Führt den ausgewählten Löser der aktiven Analyse aus.
 
+
+
 ## Menü: Ergebnisse 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Ergebnisse bereinigen](FEM_ResultsPurge/de.md): Löscht die Ergebnisse der aktiven Analyse.
@@ -334,45 +370,31 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 </div>
 
+-   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:48px;"> [Filterfunktionen](FEM_PostCreateFunctions/de.md): Dies ist ein Symbolmenü in der Symbolleiste FEM Results, das folgende Befehle beinhaltet:
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filterfunktion Ebene](FEM_PostCreateFunctionPlane/de.md): Legt fest, dass das Ergebnis mit einer Ebene beschnitten wird.
 
--   [Filterfunktionen](FEM_PostCreateFunctions.md):
-    -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">
-    -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;">
+  - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filterfunktion Kugel](FEM_PostCreateFunctionSphere/de.md): Legt fest, dass das Ergebnis mit einer Kugel beschnitten wird.
 
 
-</div>
-
-  - <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Defines that the result mesh is cut with a plane.
-
-  - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Defines that the result mesh is cut with a sphere.
 
 ## Menü: Hilfsmittel 
 
+-   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Beschnittebene auf Fläche](FEM_ClippingPlaneAdd/de.md): Fügt eine Beschnittebene für die gesamte Modellansicht hinzu.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Beschnittebene auf Fläche](FEM_ClippingPlaneAdd/de.md):
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:32px;"> [Alle Beschnittebenen entfernen](FEM_ClippingPlaneRemoveAll/de.md):
-
-
-</div>
+-   <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:32px;"> [Alle Schnittebenen entfernen](FEM_ClippingPlaneRemoveAll/de.md): Entfernt alle vorhandenen [Schnittebenen](FEM_ClippingPlaneAdd/de.md).
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [FEM Beispiele öffnen](FEM_Examples/de.md): Öffne die GUI, um auf FEM Beispiele zuzugreifen.
+
+
 
 ## Kontextmenü
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [FEM Netz löschen](FEM_MeshClear/de.md): Löscht die Netzdatei aus der FreeCAD-Datei. Nützlich, um eine FreeCAD Datei leichter zu machen.
 
--   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [FEM Netzinfomation anzeigen](FEM_MeshDisplayInfo/de.md):
+-   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [FEM Netzinfomation anzeigen](FEM_MeshDisplayInfo/de.md): Zeigt die grundlegenden Daten vorhandener Netze an - Anzahl der Knoten und der Elemente von jeder Art
+
+
 
 ## Einstellungen
 
@@ -392,17 +414,11 @@ Die folgenden Seiten erläutern verschiedene Themen des FEM Arbeitsbereichs.
 
 [FEM Beton](FEM_Concrete/de.md): interessante Informationen zum Thema Simulation von Betonstrukturen.
 
-## Tutorials
 
-
-<div class="mw-translate-fuzzy">
 
 ## Tutorien
 
 Tutorium 1: [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/de.md); grundlegende, einfach unterstützte Strahlanalyse.
-
-
-</div>
 
 Tutorium 2: [FEM Tutorium](FEM_tutorial/de.md); einfache Spannungsanalyse einer Struktur.
 
@@ -410,29 +426,11 @@ Tutorium 3: [FEM Tutorium Python](FEM_Tutorial_Python/de.md); einrichten des Can
 
 Tutorium 4: [FEM Scherung eines Verbundwerkstoffblocks](FEM_Shear_of_a_Composite_Block/de.md); siehe die Verformung eines Blocks, der aus zwei Materialien besteht.
 
-
-<div class="mw-translate-fuzzy">
-
 Tutorium 5: [Transiente FEM Analyse](Transient_FEM_analysis/de.md)
 
+Tutorium 6: [Nachbearbeitung von FEM-Ergebnissen mit Paraview](Post-Processing_of_FEM_Results_with_Paraview/de.md)
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Tutorium 6: [Nachbearbeitung_von_FEM-Ergebnissen_mit_Paraview](Post-Processing_of_FEM_Results_with_Paraview/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Tutorium 7: [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI tutorium 6 \"Electrostatics Capacitance Two Balls\" using FEM Examples.
-
-
-</div>
+Tutorium 7: [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI-Tutorium 6 \"Electrostatics Capacitance Two Balls\", verwendet FEM-Beispiele.
 
 Gekoppelte Tutorien zur thermomechanischen Analyse von [openSIM](https://opensimsa.github.io/training.html).
 
@@ -441,6 +439,8 @@ Videotutorium 1: [FEM Video für Anfänger](https://forum.freecadweb.org/viewtop
 Videotutorium 2: [FEM Video für Anfänger](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) (einschließlich YouTube-Link)
 
 Viele Videotutorien: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in Deutsch)
+
+
 
 ## Erweiterung dea FEM Arbeitsbereichs 
 
@@ -465,6 +465,8 @@ Ein Entwicklerhandbuch wurde geschrieben, um Power-Usern zu helfen, die komplexe
 
 -   [Frühe Vorschau des ebook: Anleitung für Modulentwickler zur FreeCAD-Quelle](https://forum.freecadweb.org/viewtopic.php?t=17581) (Forum-Thread)
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (github repository)
+
+
 
 ## Erweitern der FEM Arbeitsbereichsdokumentation 
 

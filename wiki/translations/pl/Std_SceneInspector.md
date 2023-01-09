@@ -1,16 +1,20 @@
 ---
 - GuiCommand:/pl
    Name:Std SceneInspector
-   Name/pl:Inspektor sceny
+   Name/pl:Std: Inspektor sceny
    MenuLocation:Przybory → Inspektor sceny
-   Workbenches:Wszystkie
+   Workbenches:wszystkie
 ---
 
 # Std SceneInspector/pl
 
+
+
 ## Opis
 
 Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd wszystkich węzłów w [scenogramie](Scenegraph/pl.md) aktywnego [widoku 3D](3D_view/pl.md). Jest to raczej narzędzie dla programistów niż dla przeciętnych użytkowników. Można go użyć do sprawdzenia, dlaczego renderowanie jest powolne lub dlaczego coś nie jest renderowane poprawnie.
+
+
 
 ## Użycie
 

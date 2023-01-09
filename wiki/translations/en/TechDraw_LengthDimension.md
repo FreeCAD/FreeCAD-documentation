@@ -10,14 +10,14 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
+The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing). If the dimension is based on 3D references, the distance can be changed to the actual 3D distance by changing the **Measure Type** to `True`.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Length dimension taken from two arbitrary nodes of the view*
 
 ## Usage
 
-1.  Select the points or edge which define your measurement.
+1.  Select the points or edge which define your measurement. The geometry may be selected in the drawing or the [3D view](3D_view.md).
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
@@ -93,7 +93,7 @@ The dimension dialog offers the following settings:
 
 -    **Type**: Length, radius, diameter, etc. Not normally manipulated by the end user.
 
--    **Measure Type**: How the measurement is performed. Not normally manipulated directly by the end user.
+-    **Measure Type**: How the measurement is performed.
 
 :   
 

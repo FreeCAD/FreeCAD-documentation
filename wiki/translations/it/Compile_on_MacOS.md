@@ -1,13 +1,4 @@
 # Compile on MacOS/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 **There is an experimental FreeCAD Docker container that is being tested for FreeCAD development. Read more about it at [[Compile on Docker]]**
 
 
@@ -275,15 +266,6 @@ When using CMake versions older than 3.1.0, it\'s necessary to set CMake variabl
 ### Additional Build Instructions 
 
 FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -4,6 +4,8 @@
 
 {{TOCright}}
 
+
+
 ## ¿Qué es un Imágenes de las aplicaciones? 
 
 ![](images/AppImage-logo.png ) **Empaquetar una vez y correr por todas partes. Llega a los usuarios en todas las principales distribuciones de escritorio de Linux.**
@@ -20,21 +22,19 @@ chmod +x FreeCAD_xxx-x86_64.AppImage
 
 Para otros tipos de instalación ver [Descargar](Download/es.md).
 
+
+
 ## FreeCAD Imágenes de las aplicaciones 
-
-
-**'''Note:''' Development builds are now hosted on the [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo.<br/>If the download links below do not work, please manually download the files from the expanded "Assets" section of the above link**
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20.1](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
 **Important Notes:**
 
--   Development happens daily and rapidly, the link for the most up-to-date AppImage is a moving target.
--   The development link above should be up-to-date because it is updated via a script.
+-   Development happens daily and rapidly.
 -   Many users on the forum utilize the development version.
 -   It can be run on the same system in parallel with another version of FreeCAD.
 -   Users use the dev version to take advantage of the latest features and bug fixes (since FreeCAD has a long release cycle). They also use it to help test and find bugs to spur development and improvement of FreeCAD.
@@ -43,11 +43,15 @@ Para otros tipos de instalación ver [Descargar](Download/es.md).
 
 For the most part the development version is stable but of course it\'s important to add the obligatory statement to use it at your own risk. Though most people that utilize backups and \'save often\' do quite well.
 
+
+
 ## Actualización automática 
 
 AppImage has a smart and economical way of updating. It calculates the difference between the new AppImage and the old one, and will only download the changes between their versions. In theory the user ends up downloading around 15% each time instead of an entirely new AppImage.
 
 Automatic updating is done via several optional methods. Currently there are 4 methods, 2 through the graphical interface (GUI), and 2 through the command-line/terminal interface (CLI).
+
+
 
 ### Actualización experimental in-aplication 
 
@@ -121,6 +125,8 @@ This section needs more details.
 
 An experimental feature that the FreeCAD packaging team is exploring (thanks to the work of Antony-jr) is being able to download an appimage delta of FreeCAD via bittorrent. The repository issue is at <https://github.com/FreeCAD/FreeCAD-Bundle/issues/49>
 
+
+
 # Sección de desarrollo 
 
 
@@ -128,9 +134,13 @@ An experimental feature that the FreeCAD packaging team is exploring (thanks to 
 
 the following sections are intended for developers
 
+
+
 ## Desembalaje de Imágenes de las aplicaciones 
 
 A very convenient aspect of FreeCAD is that a majority of it is built in [Python](Python.md), which doesn\'t need to be manually compiled like C++. Essentially, a Python file can be modified, and upon restarting FreeCAD those changes will be integrated into the application. A developer can quickly work on the latest FreeCAD release using this technique and an AppImage. Moreover, using an AppImage doesn\'t modify your system\'s environment in any way, that is, nothing is installed and no environmental variables are modified.
+
+
 
 ### Modificando Imágenes de las aplicaciones 
 
@@ -149,6 +159,8 @@ Now open the required Python source files in your preferred code editor, modify 
 ./AppRun
 ```
 
+
+
 ### Reenvasando Imágenes de las aplicaciones 
 
 If you\'ve modified the code, and now want to re-package the AppImage with your latest changes, use the [appimagetool-x86_64](https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) tool on the extracted file system.
@@ -160,6 +172,8 @@ wget "https://github.com/AppImage/AppImageKit/releases/download/continuous/appim
 chmod +x appimagetool-x86_64.AppImage
 ./appimagetool-x86_64.AppImage squashfs-root
 ```
+
+
 
 ## Imágenes de las aplicaciones personalizadas 
 

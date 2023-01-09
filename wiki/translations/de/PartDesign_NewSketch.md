@@ -2,16 +2,13 @@
 - GuiCommand:/de
    Name:PartDesign NewSketch
    Name/de:PartDesign NeueSkizze
-   MenuLocation:Part Design → Skizze erstellen
+   MenuLocation:Skizze → Skizze erstellen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[Skizzierer NeueSkizze](Sketcher_NewSketch/de.md)
+   SeeAlso:[Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # PartDesign NewSketch/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -56,25 +53,13 @@ Dialog-Einstellungen
 -   Abhängige Kopie erstellen: die Elemente werden Kopien sein, aber eine Abhängigkeit zu den Originalelementen wird beibehalten. Dies ist im Grunde die Verwendung eines [Formbinder](PartDesign_ShapeBinder/de.md)
 -   Querverweis erstellen: Die verknüpften Elemente sind keine Kopien, sondern verweisen auf die Originalelemente, z. B. eine Masterskizze. Alle Änderungen werden auf diese Skizze übertragen
 
-
-<div class="mw-translate-fuzzy">
-
-Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) zu referenzieren, verwende die beiden Funktionen <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md) und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
-
-
-</div>
+Um beliebige Elemente im [Sketcher](Sketcher_Workbench/de.md) zu referenzieren, können die beiden Werkzeuge **<img src="images/Sketcher_External.svg" width=16px> [ExterneGeometrie](Sketcher_External/de.md)** und **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Pause](Sketcher_CarbonCopy/de.md)** verwendet werden. Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von dem Problem der topologischen Benennung betroffen sind.
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Map Mode}}(Abbildungsmodus): Art der Befestigung der Skizze an einem anderen Objekt, normalerweise einer Ebene oder Fläche. Es können aber auch andere Objekttypen sein. Einmal in das Feld klicken, um eine Schaltfläche **...** anzuzeigen und sie dann anzuklicken, um den Dialog [Befestigen](Part_EditAttachment/de.md) zu öffnen. Wenn die Option *deaktiviert* ausgewählt ist, dann ist die Eigenschaft Positionierung aktiviert.
 
-<div class="mw-translate-fuzzy">
-
--    **Abbildungsmodus**: der Skizze an einem anderen Objekt, normalerweise einer Ebene oder Fläche. Es können aber auch andere Objekttypen sein. Einmal in das Feld klicken, um eine Schaltfläche **...** anzuzeigen und dann diesen anklicken. Es öffnet sich der [Anhängendialog](Part_EditAttachment/de.md). Wenn der Modus *deaktiviert* ist, dann ist die Positions-Eigenschaft zur Bearbeitung freigegeben.
-
--    **Positonierung**: steuert die Ausrichtung der Skizze im 3D-Raum; siehe [Positionierung](Std_EditPlacement/de.md). Dies ist gesperrt, wenn die Skizze über die Abbildungs-Eigenschaft angehängt ist.
-
-
-</div>
+-    {{PropertyData/de|Positonierung}}: Steuert die Ausrichtung der Skizze im 3D-Raum; siehe [Positionierung](Std_Placement/de.md). Diese ist gesperrt, wenn die Skizze über die Eigenschaft \"Map Mode\" angehängt wurde.
 
 
 

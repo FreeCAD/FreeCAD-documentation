@@ -22,7 +22,8 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 </div>
 
-<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;"> <img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;">
+<img alt="" src=images/TechDraw_section_ANSI.png  style="width:350px;">
+<img alt="" src=images/TechDraw_section_ISO.png  style="width:350px;">
 
 
 <div class="mw-translate-fuzzy">

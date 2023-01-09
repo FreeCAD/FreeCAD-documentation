@@ -3,11 +3,13 @@
    Name:Std ViewScreenShot
    Name/pl:Std: Zapisz zrzut ekranu
    MenuLocation:Przybory → Zapisz obrazek ...
-   Workbenches:All
+   Workbenches:wszystkie
    SeeAlso:[Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
 ---
 
 # Std ViewScreenShot/pl
+
+
 
 ## Opis
 
@@ -15,6 +17,8 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
 *Okno dialogowe '''Zapisz obraz''' po naciśnięciu przycisku ''Rozszerz''.*
+
+
 
 ## Użycie
 
@@ -25,12 +29,18 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 5.  Wprowadź nazwę pliku i wybierz jego typ.
 6.  Naciśnij przycisk **Zapisz**, aby utworzyć plik obrazu i zamknąć okno dialogowe.
 
+
+
 ## Opcje
+
+
 
 ### Rozmiar obrazu 
 
 1.  Wybierz rozmiar standardowy z listy rozwijanej **Rozmiary standardowe**. Lub określ **Szerokość** i **Wysokość** dla rozmiaru niestandardowego.
 2.  Opcjonalnie naciśnij przycisk **Proporcje obrazu**, aby ustawić stosunek szerokości do wysokości obrazu. Jeśli pole wejściowe **Szerokość** jest aktywne, wysokość obrazu zostanie zmieniona i na odwrót.
+
+
 
 ### Właściwości obrazu 
 
@@ -73,21 +83,29 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
         
         Metoda ta wykorzystuje te same techniki co **Bufor ramki (standardowy)**. Obsługuje ona również antyaliasing, ale ma pewne ograniczenia związane z niestandardowymi rozmiarami i zawsze używa bieżącego tła widoku 3D.
 
+
+
 ### Komentarz do obrazka 
 
 1.  Wybierz opcję {{RadioButton|TRUE|Wstaw MIBA}}, aby dodać informacje [MIBA](MIBA.md) do pliku. Nie wszystkie formaty obrazów to obsługują.
 2.  Lub wybierz opcję {{RadioButton|TRUE|Wstaw komentarz}} i wpisz komentarz w polu tekstowym, aby osadzić komentarz w pliku. Nie wszystkie formaty obrazów obsługują tę funkcję.
 3.  Zaznacz pole wyboru {{CheckBox|TRUE|Dodaj znak wodny}}, aby dodać znak wodny. Znak wodny jest umieszczany w lewym dolnym rogu obrazu i zawiera logo i nazwę programu FreeCAD nad głównym adresem URL programu FreeCAD: [www.freecadweb.org](http://www.freecadweb.org).
 
+
+
 ## Uwagi
 
 -   Liczba dostępnych formatów plików graficznych może się różnić w zależności od systemu operacyjnego.
 -   Niektóre sterowniki OpenGL nie zezwalają na renderowanie obrazów powyżej pewnego maksymalnego rozmiaru.
 
+
+
 ## Ustawienia
 
 -   Tło widoku 3D można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Kolory → Kolor tła**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
 -   Aby zmienić antyaliasing widoku 3D: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Renderowanie → Wygładzanie**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Widok_3D.md).
+
+
 
 ## Tworzenie skryptów 
 

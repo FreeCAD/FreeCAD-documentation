@@ -41,13 +41,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

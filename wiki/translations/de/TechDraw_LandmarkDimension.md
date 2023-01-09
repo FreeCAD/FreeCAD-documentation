@@ -10,30 +10,61 @@
 
 # TechDraw LandmarkDimension/de
 
+
+</div>
+
+
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Das Werkzeug MaßÜberOrientierungspunkte fügt einer Ansicht ein lineares Maß hinzu. Das Maß basiert auf zwei Punkt-**Elementen** (Draft.Point oder Part.Vertex) aus dem 3D-Modell. Man beachte, daß es sich bei den Punkten um **Formelement**-Objekte handeln muß, die in der [Baumansicht](Tree_view/de.md) des Modells erscheinen. Beliebige Knoten einer Form funktionieren nicht.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Der Zweck dieses Werkzeugs ist es, eine Abhilfe gegen die Beschädigung der Maße zu schaffen, die im Zusammenhang mit dem \"[Problem der topologischen Benennung](topological_naming_problem/de.md)\" entsteht. Die Quellpunkte sollten [Ausdrücke](Expressions/de.md) verwenden oder andere Mechanismen enthalten, um ihre Position festzulegen. Da es sich bei den Punkten um [Dokumentobjekte](App_DocumentObject/de.md) und nicht um Formkomponenten handelt, ändert sich ihr Name bei Neuberechnungen nicht, so dass sie leicht gefunden werden können.
+
+
+</div>
 
 Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Begrenzungen.md) für Weiteres über Maße und topologische Benennung.
 
 Das Maß zwischen Orientierungspunkten verhält sich im Allgemeinen wie jedes andere Maß.
 
+
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  2 Punktobjekte in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
 2.  Auch die Ansicht auswählen, zu der das Maß hinzugefügt werden soll.
 3.  Die Schaltfläche **<img src="images/TechDraw_LandmarkDimension.svg" width=20px> [Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL](TechDraw_LandmarkDimension/de.md)** drücken oder den Menüeintrag {{MenuCommand/de|TechDraw → Maßeinträge → Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL}}
 4.  Der Ansicht wird ein Maß hinzugefügt. Der Maßeintrag kann an die gewünschte Position gezogen werden.
 
+
+</div>
+
+
+
 ## Begrenzungen
 
 Das Werkzeug MaßÜberOrientierungspunkte ist zunächst auf Maße für \"Abstände\" beschränkt. Andere Typen könnten hinzugefügt werden, wenn die Nachfrage dies rechtfertigt.
 
+
+
 ## Eigenschaften
 
 Das Werkzeug MaßÜberOrientierungspunkte führt keine neuen Eigenschaften ein.
+
+
 
 ## Skripten
 
@@ -52,7 +83,13 @@ rc = page.addView(dim1)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

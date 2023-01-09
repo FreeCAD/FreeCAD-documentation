@@ -295,6 +295,8 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Wstaw węzeł](Sketcher_BSplineInsertKnot/pl.md), <small>(v0.20)</small> 
 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+
 ### Wirtualna przestrzeń szkicownika 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Przełącz przestrzeń wirtualną](Sketcher_SwitchVirtualSpace/pl.md): Umożliwia ukrycie wszystkich wiązań szkicu i ponowne ich wyeksponowanie.

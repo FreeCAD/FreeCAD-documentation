@@ -1,24 +1,24 @@
 # Pivy/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-[Pivy](Pivy.md) is a [Python](Python.md) binding library for [Coin](https://github.com/coin3d), the 3D-rendering library used in FreeCAD to display things in a [3D view](3D_view.md). Coin is an open source implementation of the \"Open Inventor\" specification to handle graphics. Therefore, in FreeCAD, the terms \"Pivy\", \"Coin\" or \"Open Inventor\" refer to the same thing essentially.
+[Pivy](Pivy/pl.md) jest biblioteką wiążącą [Python](Python/pl.md) do [Coin](https://github.com/coin3d), biblioteką renderowania 3D używaną w FreeCAD do wyświetlania obiektów w oknie [widoku 3D](3D_view/pl.md). Coin jest otwartą implementacją specyfikacji \"Open Inventor\" do obsługi grafiki. Dlatego w środowisku FreeCAD terminy *Pivy*, *Coin* lub *Open Inventor* odnoszą się zasadniczo do tego samego.
 
-When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
+Po zaimportowaniu do działającego interpretera Python, Pivy pozwala nam na bezpośrednią komunikację z dowolnym działającym [scenegrafem](Scenegraph/pl.md) Coin, takim jak [widok 3D](3D_view/pl.md), a nawet na tworzenie nowych. Pivy nie jest wymagany do kompilacji FreeCAD, ale jest wymagany podczas uruchamiania opartych na Pythonie środowisk pracy, które tworzą kształty na ekranie, takich jak [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md). Z tego powodu, Pivy jest zwykle instalowany podczas instalacji programu FreeCAD.
 
-The Coin library is divided into several pieces, Coin itself for manipulating scenegraphs, and bindings for several GUI systems, such as Windows and Qt. If present on the system, those modules are available to Pivy as well. The Coin module is always present, and it is what we will use anyway, since we won\'t need to care about anchoring our 3D display in any interface, that is already done by FreeCAD. All we need to do is this:
+Biblioteka Coin jest podzielona na kilka części, sam Coin do manipulowania scenegrafami oraz wiązania dla kilku systemów GUI, takich jak Windows i Qt. Jeśli są obecne w systemie, moduły te są również dostępne dla Pivy. Moduł Coin jest zawsze obecny i to właśnie z niego będziemy korzystać, ponieważ nie będziemy musieli dbać o zakotwiczenie naszego wyświetlacza 3D w jakimkolwiek interfejsie, to już robi FreeCAD. Jedyne co musimy zrobić to:
 
 
 ```python
 from pivy import coin
 ```
 
-## Scenegraph
+## Scenograf
 
-We saw on the [Scenegraph](Scenegraph.md) page how a typical Coin scene is organized. Everything that appears in a [3D view](3D_view.md) is a Coin scenegraph, organized in the same way. We have one root node, and all objects on the screen are its children.
+Na stronie [Scenogram](Scenegraph/pl.md) zobaczyliśmy, jak zorganizowana jest typowa scena Coin. Wszystko, co pojawia się w oknie [widoku 3D](3D_view/pl.md) jest scenegrafem Coin, zorganizowanym w ten sam sposób. Mamy jeden węzeł główny, a wszystkie obiekty na ekranie są jego produktami pochodnymi.
 
-FreeCAD has an easy way to access the root node of a 3D view scenegraph:
+FreeCAD posiada łatwy sposób dostępu do węzła głównego scenegrafu widoku 3D:
 
 
 ```python
@@ -26,14 +26,14 @@ sg = FreeCADGui.ActiveDocument.ActiveView.getSceneGraph()
 print(sg)
 ```
 
-This will return the root node:
+Spowoduje to zwrócenie węzła głównego:
 
 
 ```python
 <pivy.coin.SoSelection; proxy of <Swig Object of type 'SoSelection *' at 0x360cb60> >
 ```
 
-We can inspect the immediate children of our scene:
+Możemy skontrolować bezpośrednie obiekty pochodne naszej sceny:
 
 
 ```python
@@ -41,9 +41,9 @@ for node in sg.getChildren():
     print(node)
 ```
 
-Some of those nodes, such as `SoSeparator` or `SoGroup` nodes, can have children themselves. The complete list of the available Coin objects can be found in the official Coin documentation.
+Niektóre z tych węzłów, takie jak `SoSeparator` czy `SoGroup`, mogą mieć same elementy pochodne. Pełną listę dostępnych obiektów Coin można znaleźć w oficjalnej dokumentacji Coin.
 
-Let\'s try to add something to our scenegraph now. We\'ll add a nice red cube:
+Spróbujmy teraz dodać coś do naszego scenegrafu. Dodamy ładny czerwony sześcian:
 
 
 ```python
@@ -56,16 +56,16 @@ myCustomNode.addChild(cub)
 sg.addChild(myCustomNode)
 ```
 
-Now, let\'s try this:
+A teraz spróbujmy tego:
 
 
 ```python
 col.rgb = (1, 1, 0)
 ```
 
-As you can see everything is still accessible and modifiable on-the-fly. No need to recompute or redraw anything, Coin takes care of everything. You can add stuff to your scenegraph, change properties, hide stuff, show temporary objects, anything. Of course, this only concerns the display in the 3D view. That display gets recomputed by FreeCAD on file open, and when an object needs recomputing. So, if you change the aspect of an existing FreeCAD object, those changes will be lost if the object gets recomputed or when you reopen the file.
+Jak widać wszystko jest nadal dostępne i modyfikowalne w locie. Nie trzeba niczego rekompilować ani przerysowywać, Coin zajmuje się wszystkim. Możesz dodawać obiekty do swojego scenegrafu, zmieniać właściwości, ukrywać je, pokazywać obiekty tymczasowe, cokolwiek zechcesz. Oczywiście, dotyczy to tylko wyświetlania w widoku 3D. Ten widok jest ponownie obliczany przez FreeCAD przy otwieraniu pliku, oraz gdy obiekt wymaga ponownego obliczenia. Tak więc, jeśli zmienisz aspekt istniejącego obiektu FreeCAD, zmiany te zostaną utracone, gdy obiekt zostanie ponownie obliczony lub gdy ponownie otworzysz plik.
 
-As already mentioned, in an openInventor scenegraph the order is important. A node affects what comes next. For example, if we want to have the ability to move our cube we will need to add a `SoTranslation` node **before** the cube:
+Jak już wspomniano, w scenegrafie OpenInventor kolejność jest ważna. Węzeł wpływa na to, co będzie następne. Przykładowo, jeśli chcemy mieć możliwość przesuwania naszego sześcianu, będziemy musieli dodać węzeł `SoTranslation` **przed** sześcianem:
 
 
 ```python
@@ -81,14 +81,14 @@ myCustomNode.addChild(cub)
 sg.addChild(myCustomNode)
 ```
 
-To move our cube we can now do:
+Aby przesunąć nasz sześcian możemy teraz zrobić:
 
 
 ```python
 trans.translation.setValue([2, 0, 0])
 ```
 
-Finally, removing something is done with:
+Wreszcie usunięcie czegoś jest załatwione:
 
 
 ```python
@@ -98,11 +98,11 @@ sg.removeChild(myCustomNode)
 
 {{Top}}
 
-## Callbacks
+## Informacje zwrotne 
 
-A [callback mechanism](http://en.wikipedia.org/wiki/Callback_%28computer_science%29) is a system that permits a library, such as our Coin library, to call you back, that is, to call a certain function from your currently running Python object. That way Coin can notify you that some specific event occurred in the scene. Coin can watch very different things, such as mouse position, mouse button clicks, keyboard keys being pressed, and many more.
+Mechanizm [callback](http://en.wikipedia.org/wiki/Callback_%28computer_science%29) to system, który pozwala bibliotece, takiej jak nasza biblioteka Coin, na odpowiadanie, czyli wywoływanie określonej funkcji z aktualnie uruchomionego obiektu Python. W ten sposób Coin może powiadomić Cię, że w scenie wystąpiło jakieś konkretne zdarzenie. Coin może obserwować bardzo różne rzeczy, takie jak pozycja myszy, kliknięcia przycisków myszy, wciśnięte klawisze klawiatury i wiele innych.
 
-FreeCAD features an easy way to use such callbacks:
+FreeCAD posiada łatwy sposób na wykorzystanie takich wywołań zwrotnych:
 
 
 ```python
@@ -122,40 +122,40 @@ class ButtonTest:
 ButtonTest()
 ```
 
-The callback has to be initiated from an object, because that object must still be running when the callback occurs. See also a [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) of possible events and their parameters, or the official Coin documentation. {{Top}}
+Wywołanie zwrotne musi być zainicjowane z obiektu, ponieważ ten obiekt musi być nadal uruchomiony, gdy nastąpi wywołanie zwrotne. Zobacz także [kompletną listę](Code_snippets/pl#Obserwowanie_zdarze.C5.84_myszy_w_przegl.C4.85darce_3D_za_pomoc.C4.85_.C5.9Brodowiska_Python.md) możliwych zdarzeń i ich parametrów, lub oficjalną dokumentację Coin. {{Top}}
 
-## Documentation
+## Dokumentacja
 
-Unfortunately, Pivy doesn\'t have its own documentation. However, since it is an accurate wrapper of the Coin library, you can read the C++ reference for information. In this case, you need to translate the C++ class naming style to Python style.
+Niestety, Pivy nie ma własnej dokumentacji. Ponieważ jednak jest to dokładny wrapper biblioteki Coin, możesz przeczytać referencję C ++ w celu uzyskania informacji. W tym przypadku musisz przetłumaczyć styl nazewnictwa klas C ++ na styl Pythona.
 
-In C++:
+W C++
 
 
 ```python
 SoFile::getClassTypeId()
 ```
 
-In Pivy:
+W Pivy:
 
 
 ```python
 SoFile.getClassId()
 ```
 
--   [Coin3D](https://github.com/coin3d) homepage.
--   [Pivy](https://github.com/coin3d/pivy) homepage.
--   [Coin3D wiki](https://github.com/coin3d/coin/wiki), at GitHub.
--   [Coin3D wiki documentation](https://github.com/coin3d/coin/wiki/Documentation), at GitHub.
--   [Coin3D Documentation](https://coin3d.github.io/Coin/html/), latest automatically generated Doxygen documentation.
--   [(Open)Inventor Mentor](https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - recommended.
+-   [Coin3D](https://github.com/coin3d) strona domowa.
+-   [Pivy](https://github.com/coin3d/pivy) strona domowa.
+-   [Coin3D wiki](https://github.com/coin3d/coin/wiki), na GitHubie.
+-   [dokumentacja Wiki dla Coin3D](https://github.com/coin3d/coin/wiki/Documentation), na GitHubie.
+-   [Coin3D Documentation](https://coin3d.github.io/Coin/html/), najnowsza, automatycznie generowana dokumentacja Doxygen.
+-   [(Open)Inventor Mentor](https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - zalecane.
 
-### Older
+### Starsze
 
-These links provide reference documentation for Coin v3.x. The differences with v4.x are minimal, so they may still be useful.
+Te linki dostarczają dokumentacji referencyjnej dla Coin v3.x. Różnice w stosunku do v4.x są minimalne, więc nadal mogą one być przydatne.
 
--   [Coin3D Documentation](https://coin3d.bitbucket.io/Coin/index.html), at BitBucket.
--   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
--   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
+-   [dokumentacja Coin3D](https://coin3d.bitbucket.io/Coin/index.html), na BitBucket.
+-   [dokumentacja Coin3D](https://grey.colorado.edu/coin3d/index.html), na University of Colorado.
+-   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), publikacja: MeVisLab.
 
 
 {{Top}}

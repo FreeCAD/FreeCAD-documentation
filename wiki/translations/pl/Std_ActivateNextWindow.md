@@ -1,28 +1,35 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std ActivateNextWindow
-   MenuLocation:Windows → Next
-   Workbenches:All
-   Shortcut:**Ctrl**+**Tab**
-   SeeAlso:[Std ActivatePrevWindow](Std_ActivatePrevWindow.md), [Std Windows](Std_Windows.md)
+   Name/pl:Std: Następne
+   MenuLocation:Okna → Następne
+   Workbenches:wszystkie
+   Shortcut:**Ctrl** + **Tab**
+   SeeAlso:[Poprzednie](Std_ActivatePrevWindow/pl.md), [Okna](Std_Windows/pl.md)
 ---
 
 # Std ActivateNextWindow/pl
 
-## Description
 
-The **Std ActivateNextWindow** command activates the next window in the [Main view area](Main_view_area.md). The next window is determined by the order in which the Main view area windows were last activated.
 
-## Usage
+## Opis
 
-1.  The Main view area must contain at least two windows.
-2.  There are several ways to invoke the command:
-    -   Select the **Windows → <img src="images/Std_ActivateNextWindow.svg" width=16px> Next** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Tab**.
+Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Main_view_area.md). Następne okno jest określane na podstawie kolejności, w jakiej okna obszaru widoku głównego były ostatnio aktywowane.
 
-## Notes
 
--   Main view area windows are also listed in the **Windows** menu and can be activated from there.
+
+## Użycie
+
+1.  Obszar widoku głównego musi zawierać co najmniej dwa okna.
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Wybierz z menu opcję **Okna → <img src="images/Std_ActivateNextWindow.svg" width=16px> Następne**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **Tab**.
+
+
+
+## Uwagi
+
+-   Okna głównego obszaru widoku są również wymienione w menu **Okna** i mogą być stamtąd aktywowane.
 
 
 

@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Vue 2D d\'une forme** crée des projections 2D à partir d\'objets sélectionnés, généralement des solides 3D ou des [Arch Plan de section](Arch_SectionPlane/fr.md). Les projections sont placées dans la [Vue 3D](3D_view/fr.md).
+La commande <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Vue 2D d\'une forme** crée des projections 2D à partir d\'objets sélectionnés, généralement des solides 3D ou des [Arch Plan de coupe](Arch_SectionPlane/fr.md). Les projections sont placées dans la [Vue 3D](3D_view/fr.md).
 
 Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) à l\'aide de la commande [TechDraw Vue Draft](TechDraw_DraftView/fr.md). Par ailleurs, l\'[atelier TechDraw](TechDraw_Workbench/fr.md) offre ses propres commandes de projection, mais celles-ci créent des projections qui ne sont affichées que sur la page de dessin et non dans la [Vue 3D](3D_view/fr.md).
 
@@ -20,7 +20,7 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 
 ## Utilisation
 
-1.  Vous pouvez faire la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine le vecteur de projection. Par exemple, une [vue de dessus](Std_ViewTop/fr.md) sera projetée sur le plan XY. Le vecteur de projection est ignoré pour les projections créées à partir de [Arch Plan de section](Arch_SectionPlane/fr.md).
+1.  Vous pouvez faire la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine le vecteur de projection. Par exemple, une [vue de dessus](Std_ViewTop/fr.md) sera projetée sur le plan XY. Le vecteur de projection est ignoré pour les projections créées à partir de [Arch Plan de coupe](Arch_SectionPlane/fr.md).
 2.  Sélectionnez éventuellement un ou plusieurs objets.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Shape2DView.svg" width=16px> [Vue 2D de la forme](Draft_Shape2DView/fr.md)**.
@@ -32,7 +32,7 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
-Des dessins avec des largeurs de ligne différentes pour les lignes vues et coupées peuvent être facilement produits en utilisant deux objets Vue 2D d\'une forme d\'un même [Arch Plan de section](Arch_SectionPlane/fr.md). Un des objets Vue 2D d\'une forme a son mode de projection défini sur **Solide**, qui restitue les lignes vues, et un autre sur **Couper les lignes** ou **Couper les faces** pour rendre la coupe lignes. Les deux Vue 2D d\'une forme sont ensuite placées au même endroit, l\'une au-dessus de l\'autre.
+Des dessins avec des largeurs de ligne différentes pour les lignes vues et coupées peuvent être facilement produits en utilisant deux objets Vue 2D d\'une forme d\'un même [Arch Plan de coupe](Arch_SectionPlane/fr.md). Un des objets Vue 2D d\'une forme a son mode de projection défini sur **Solide**, qui restitue les lignes vues, et un autre sur **Couper les lignes** ou **Couper les faces** pour rendre la coupe lignes. Les deux Vue 2D d\'une forme sont ensuite placées au même endroit, l\'une au-dessus de l\'autre.
 
 ## Propriétés
 
@@ -55,9 +55,9 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 
 -    **Hidden Lines|Bool**: spécifie si les lignes cachées sont affichées ou non.
 
--    **In Place|Bool**: ne fonctionne que si l\'objet sélectionné est un [Arch Plan de section](Arch_SectionPlane/fr.md), et que **Projection Mode** est {{Value|Cutlines}} ou {{Value|Cutfaces}}, spécifie si la projection apparaîtra coplanaire avec le plan de section.
+-    **In Place|Bool**: ne fonctionne que si l\'objet sélectionné est un [Arch Plan de coupe](Arch_SectionPlane/fr.md), et que **Projection Mode** est {{Value|Cutlines}} ou {{Value|Cutfaces}}, spécifie si la projection apparaîtra coplanaire avec le plan de coupe.
 
--    **Projection|Vector**: spécifie la direction de la projection. Ignoré si **Base** est un [Arch Plan de section](Arch_SectionPlane/fr.md).
+-    **Projection|Vector**: spécifie la direction de la projection. Ignoré si **Base** est un [Arch Plan de coupe](Arch_SectionPlane/fr.md).
 
 -    **Projection Mode|Enumeration**: spécifie le mode de projection. Les modes suivants sont disponibles :
 
@@ -74,12 +74,12 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
     -   
         {{Value|Cutlines}}
         
-        : ne fonctionne que si l\'objet sélectionné est un [Arch Plan de section](Arch_SectionPlane/fr.md), ne projette que les arêtes coupées par le plan de coupe.
+        : ne fonctionne que si l\'objet sélectionné est un [Arch Plan de coupe](Arch_SectionPlane/fr.md), ne projette que les arêtes coupées par le plan de coupe.
 
     -   
         {{Value|Cutfaces}}
         
-        : ne fonctionne que si l\'objet sélectionné est un [Arch Plan de section](Arch_SectionPlane/fr.md), projette les zones coupées dans les solides par le plan de coupe comme des faces.
+        : ne fonctionne que si l\'objet sélectionné est un [Arch Plan de coupe](Arch_SectionPlane/fr.md), projette les zones coupées dans les solides par le plan de coupe comme des faces.
 
     -   
         {{Value|Faces solides}}

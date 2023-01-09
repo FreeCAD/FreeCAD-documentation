@@ -47,22 +47,11 @@ Pour cet exemple, nous allons examiner le wrapper de la classe Axis C++. Le fich
         FatherNamespace="Base">
     <Documentation>
         <Author Licence="LGPL" Name="Juergen Riegel" EMail="FreeCAD@juergen-riegel.net" />
-        <UserDocu>Axis
-}}
-
-Et définit une direction et une position (base) dans l\'espace 3D.
-
-Les constructeurs suivants sont pris en charge :
-
--   Axis() \-- constructeur vide
--   Axis(Axis) \-- copie le constructeur
--   Axis(Base, Direction) \-- définit la position et la direction
-
-
-{{Code|lang=xml|code= 
-    </UserDocu>
-    <DeveloperDocu>Axis</DeveloperDocu>
-</Documentation>
+        <UserDocu>User documentation here
+          
+        </UserDocu>
+        <DeveloperDocu>Developer documentation here</DeveloperDocu>
+    </Documentation>
 }}
 
 Après ce préambule, une liste de méthodes et d\'attributs est donnée. Le format d\'une méthode est le suivant :

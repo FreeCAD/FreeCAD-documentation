@@ -1,54 +1,55 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Points Convert
-   MenuLocation:Points → Convert to points...
-   Workbenches:[Points](Points_Workbench.md)
+   Name/pl:Punkty: Konwersja
+   MenuLocation:Punkty → Konwertuj na punkty ...
+   Workbenches:[Punkty](Points_Workbench/pl.md)
 ---
 
 # Points Convert/pl
 
-## Description
+## Opis
 
-The **Points Convert** command creates point clouds from shape objects or mesh objects.
+Polecenie **Konwertuj na punkty** tworzy chmury punktów z obiektów kształtu lub obiektów siatki.
 
-Here a shape object refers any object with a **Shape** property. Objects created with the [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) workbench are shape objects. But so are objects created with the [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md) workbench.
+Obiekt typu kształt oznacza tutaj dowolny obiekt z właściwością **Kształt**. Obiekty utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md) są obiektami kształtu. Ale podobnie jest z obiektami utworzonymi za pomocą środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select one or more objects.
-2.  Select the **Points → Convert to points...** option from the menu.
-3.  The **Distance** dialog box opens.
-4.  Enter the **maximum distance**. The value must be in the {{Value|0.05}} - {{Value|10.0}} range.
-5.  Press the **OK** button to close the dialog box and finish the command.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Wybierz z menu opcję **Punkty → Konwertuj na punkty ...**.
+3.  Otworzy się okno dialogowe **Odległość**.
+4.  Wprowadź wartość **Największa odległość**. Wartość musi mieścić się w przedziale {{Value|0,05}} - {{Value|10.0}}.
+5.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
 
-## Properties
+## Właściwości
 
-Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the following additional properties. Select the **Show all** option from the [Property editor](Property_editor.md) context menu to display the hidden properties.
+Obiekty chmury punktów są obiektami typu [Cecha geometrii](App_GeoFeature/pl.md) z następującymi dodatkowymi właściwościami. Wybierz opcję **Wyświetl wszystko** z menu kontekstowego [Edytora właściwości](Property_editor/pl.md), aby wyświetlić ukryte właściwości.
 
-### Data
-
-
-{{TitleProperty|Structured points}}
-
--    **Height|Integer**: the number of unique Y coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
-
--    **Width|Integer**: the number of unique X coordinates in the point cloud. This property is only available for point clouds created with the [Points Structure](Points_Structure.md) command.
-
-#### Data hidden 
+### Dane
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Punkty strukturalne}}
 
--    **Points|PointsKernel**: a Points PointsKernel associated with this object.
+-    **Wysokość|Integer**: oznacza unikalną liczbę współrzędnej Y w chmurze punktów. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Uporządkowana chmura punktów](Points_Structure/pl.md).
 
--    **Normal|NormalList**: a list of normals. This property is only available for point clouds created with the [Points Convert](Points_Convert.md) command from mesh objects or shape objects with faces.
+-    **Szerokość|Integer**: oznacza unikalną liczbę współrzędnej X w chmurze punktów. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Uporządkowana chmura punktów](Points_Structure/pl.md).
 
-### View
+#### Ukryte dane 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
--    **Point Size|FloatConstraint**: the size in pixels of the points in the [3D view](3D_view.md).
+-    **Punkty|PointsKernel**: jądro punktów związane z tym obiektem.
+
+-    **Normalne|NormalList**: lista normalnych. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Konwertuj na punkty](Points_Convert/pl.md) z obiektów siatkowych lub obiektów kształtowych ze ścianami.
+
+### Widok
+
+
+{{TitleProperty|Podstawowe}}
+
+-    **Rozmiar punktu|FloatConstraint**: rozmiar punktów w pikselach w oknie [widoku 3D](3D_view/pl.md).
 
 
 

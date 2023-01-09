@@ -1,7 +1,15 @@
 # Macro documentation/de
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Alle Makros sollten ordentlich dokumentiert werden, und zwar auf die gleiche Weise wie [GUI-Befehle](Gui_Command/de.md) dokumentiert werden. Sie sollten eine eigene Wiki-Seite haben und in einer der Kategorien unter [Makro Rezepte](Macros_recipes/de.md) aufgeführt sein.
+
+
+</div>
+
+They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
 
 Die Seite [Makro Rezepte](Macros_recipes/de.md) enthält eine gute Auswahl von Makros, die von erfahrenen Benutzern erstellt wurden, und viele von ihnen können direkt mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden.
 
@@ -9,9 +17,20 @@ Siehe [GuiBefehl Modell](GuiCommand_model/de.md) und Makroseiten wie [Makro Ausf
 
 Wenn ein Makro eine gut definierte Funktionalität bietet und gut dokumentiert ist, könnte es schließlich als Teil einer neuen oder eines bestehenden [Arbeitsbereichs](Workbenches/de.md) aufgenommen werden.
 
+
+
 ## Neue Makroseite 
 
+
+{{ColoredText|The first page is created '''obligatory''' in English language, the translation of page for other languages must be validate by one administrator and after you can translate in all other language.}}
+
+
+<div class="mw-translate-fuzzy">
+
 Erstelle eine neue Seite für das Makro, die mit dem Wort `Macro_` beginnt, zum Beispiel `Macro_Excellent_Modification`. Der Verweis kann ohne Unterstriche als `<nowiki>[Makro Excellent Modification](Macro_Excellent_Modification/de.md)</nowiki>` verwendet werden, was zu [Makro Ausgezeichnete Änderung](Macro_Excellent_Modification/de.md) führt; die Leerzeichen werden automatisch in Unterstriche umgewandelt.
+
+
+</div>
 
 Auf der neuen Seite solltest du oben [Template:Macro](Template_Macro.md) verwenden, mit einem Minimum an Informationen:
 
@@ -64,6 +83,8 @@ oder verwende das `Translate` Feld
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *[Wie Makros installieren](How_to_install_macros/de.md) und [Werkzeugleisten anpassen](Customize_Toolbars/de.md) Verweise in der Infobox auf jeder Makroseite*
 
+
+
 ### Hinzufügen der Makrodokumentation 
 
 -   Wie bei einem [Gui Befehl](Gui_Command/de.md), erkläre was das Makro tut, seine Eingänge, Ausgänge, Optionen und Begrenzungen, falls vorhanden.
@@ -92,6 +113,8 @@ Locale: English/UnitedStates (en_US)
 ```
 
 Ziehe in Betracht, diese Informationen in einem Kommentarblock innerhalb des Codes des Makros hinzuzufügen.
+
+
 
 ### Hinzufügen des Makrocodes 
 
@@ -147,6 +170,8 @@ __Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_
 
 Beginnend mit FreeCAD 0.17 werden diese Informationen vom [Erweiterungsverwalter](Std_AddonMgr/de.md) verwendet, der das Makro aus dem [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium herunterlädt.
 
+
+
 ### Hinzufügen von Makrocode außerhalb des Wikis 
 
 Wenn dein Makro zu groß ist, so dass es 64 KB überschreitet, kann es nicht im Wiki bereitgestellt werden. In diesem Fall verwende [Template:Codeextralink](Template_Codeextralink.md) mit einem Verweis auf die raw Web Adresse des Codes.
@@ -161,6 +186,8 @@ Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platzi
 
 
 {{ColoredParagraph|'''PS:''' Im Falle einer Aktualisierung in GitHub wird der Pfad des RAW Codes geändert, nicht vergessen, den Verweis in der Codeextralink Vorlage zu ändern.}}
+
+
 
 ## Hinzufügen des neuen Makros zum Wiki Repositorium 
 
@@ -190,6 +217,8 @@ Um diese Vorlage zu lokalisieren, verwende den entsprechenden Sprachverweis im e
 * {{MacroLink|Macro_Excellent_Modification/fr|Macro Excellent Modification```: (translated description)
 </nowiki>
 }}
+
+
 
 ## Hinzufügen des neuen Makros zum zentralen Repositorium 
 

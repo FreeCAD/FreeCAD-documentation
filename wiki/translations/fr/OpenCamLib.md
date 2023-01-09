@@ -54,7 +54,7 @@ sudo apt-get install texlive-full
 
 Remarque: \"libboost-program-options-dev\" peut être remplacé par \"libboost-all-dev\".
 
-Si vous rencontrez des difficultés, examinez attentivement tous les messages d\'erreur que vous obtenez pendant le cmake et effectuez les phases car vous devrez peut-être installer des packages supplémentaires.
+Si vous avez des difficultés, examinez attentivement tous les messages d\'erreur que vous obtenez pendant les phases de cmake et de make, car vous devrez peut-être installer des paquets supplémentaires.
 
 #### Python 3 
 
@@ -67,7 +67,7 @@ Pour cmake \>= 3.12, ajoutez ces drapeaux :
 cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
 }}
 
-Pour cmake \< 3.12 (comme dans Ubuntu 18.04 qui a la 3.10), vous devez d\'abord éditer src/pythonlib/pythonlib.cmake et appliquer ce patch:
+Pour cmake \< 3.12 (comme dans Ubuntu 18.04 qui a la 3.10), vous devez d\'abord modifier src/pythonlib/pythonlib.cmake et appliquer ce patch:
 
 Index: opencamlib-2019.07/src/pythonlib/pythonlib.cmake
 ===================================================================
@@ -90,7 +90,7 @@ Index: opencamlib-2019.07/src/pythonlib/pythonlib.cmake
      OUTPUT_STRIP_TRAILING_WHITESPACE
    )
 
-Ensuite, pour que Python3 soit détecté correctement, vous devrez ajouter 2 autres drapeaux à la ligne cmake :
+Ensuite, pour que Python 3 soit détecté correctement, vous devrez ajouter 2 autres drapeaux à la ligne cmake :
 
 
 {{Code|lang=bash|code=

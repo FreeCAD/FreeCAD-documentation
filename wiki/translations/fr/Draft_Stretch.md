@@ -22,7 +22,7 @@ La commande <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Dra
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets. Les objets doivent être des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Rectangles](Draft_Rectangle/fr.md), [Draft B-splines](Draft_BSpline/fr.md) ou [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Les autres objets sont ignorés.
-2.  Il existe plusieurs façons d\'invoquer la commande :
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Stretch.svg" width=16px> [Étirer](Draft_Stretch/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Stretch.svg" width=16px> Étirer** dans le menu.
     -   Utilisez le raccourci clavier : **S** puis **H**.

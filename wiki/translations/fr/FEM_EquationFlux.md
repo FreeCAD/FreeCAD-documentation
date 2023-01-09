@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:FEM EquationFlux
-   Name/fr:FEM Équation d'écoulement
-   MenuLocation:Solveur → Équation d'écoulement
+   Name/fr:FEM Équation de flux
+   MenuLocation:Solveur → Équation de flux
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:

@@ -332,6 +332,8 @@ Sketcher не предназначен для создания 2D чертеже
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Вставить узел](Sketcher_BSplineInsertKnot/ru.md), {{Version/ru|0.20}}
 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+
 ### Виртуальное пространство эскиза 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Переключение Виртуального Пространства](Sketcher_SwitchVirtualSpace/ru.md): Позволяет скрыть все ограничения эскиза и снова сделать их видимыми.

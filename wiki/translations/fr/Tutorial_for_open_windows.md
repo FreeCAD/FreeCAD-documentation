@@ -18,7 +18,7 @@
 
 Ce tutoriel montre comment placer des [Arch Fenêtres](Arch_Window/fr.md) et des portes dans un modèle de bâtiment, comment les afficher comme ouvertes dans la vue 3D et comment créer un dessin 2D (projection en plan et en élévation) pour le modèle. Il utilise l\'[atelier Draft](Draft_Workbench/fr.md), l\'[atelier Arch Workbench](Arch_Workbench/fr.md) et l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
-Les outils couramment utilisés sont: [Draft Grille](Draft_Snap_Grid/fr.md), [Draft Accrochage](Draft_Snap/fr.md), [Draft Fil](Draft_Wire/fr.md), [Arch Mur](Arch_Wall/fr.md), [Arch Fenêtre](Arch_Window/fr.md), [Arch Plan de section](Arch_SectionPlane/fr.md) et [TechDraw Vue architecturale](TechDraw_ArchView/fr.md).
+Les outils couramment utilisés sont: [Draft Grille](Draft_Snap_Grid/fr.md), [Draft Accrochage](Draft_Snap/fr.md), [Draft Fil](Draft_Wire/fr.md), [Arch Mur](Arch_Wall/fr.md), [Arch Fenêtre](Arch_Window/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md) et [TechDraw Vue architecturale](TechDraw_ArchView/fr.md).
 
 Voir également la page suivante pour quelques vidéos sur la façon de travailler avec des fenêtres et des portes.
 
@@ -194,15 +194,15 @@ occasionnellement, la fenêtre peut être placée à l\'extérieur du [Arch Mur]
 
 ## Réalisation d\'un plan d\'étage du bâtiment 
 
-20\. Toujours dans l\'[atelier Arch](Arch_Workbench/fr.md), sélectionnez tous les composants de l\'arborescence, les [Arch Murs](Arch_Wall/fr.md), les deux [Arch Fenêtres](Arch_Window/fr.md) et les deux [Arch Portes](Arch_Door/fr.md), puis utilisez l\'outil [Arch Plan de section](Arch_SectionPlane/fr.md) pour créer un élément `Section`.
+20\. Toujours dans l\'[atelier Arch](Arch_Workbench/fr.md), sélectionnez tous les composants de l\'arborescence, les [Arch Murs](Arch_Wall/fr.md), les deux [Arch Fenêtres](Arch_Window/fr.md) et les deux [Arch Portes](Arch_Door/fr.md), puis utilisez l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) pour créer un élément `Section`.
 
 
 **Remarque:**
 
-changez la propriété {{PropertyData/fr|Arrow size}} du plan de section en une valeur plus grande, par exemple, `200 mm`, afin que la direction de la section soit clairement visible dans la fenêtre 3D.
+changez la propriété **Arrow size** du plan de coupe en une valeur plus grande, par exemple, `200 mm`, afin que la direction de la section soit clairement visible dans la fenêtre 3D.
 
 <img alt="" src=images/11.1_T01_Arch_SectionPlane_all.png  style="width:600px;"> 
-*align=center|Plan de section coupant des objets solides, y compris des murs, des portes et des fenêtres*
+*align=center|Plan de coupe coupant des objets solides, y compris des murs, des portes et des fenêtres*
 
 21\. Passez à l\'[atelier TechDraw](TechDraw_Workbench/fr.md) et insérez une nouvelle page avec l\'outil [TechDraw Page par défaut](TechDraw_PageDefault/fr.md); un nouvel objet `Page` est créé et la vue passe à cette page. La page insérée est une feuille A4 standard en orientation paysage, entourée d\'un cadre de base. Utilisez l\'outil [TechDraw Page à partir d\'un modèle](TechDraw_PageTemplate/fr.md) si vous devez créer une nouvelle page en utilisant un modèle [SVG](SVG/fr.md) particulier.
 
@@ -211,9 +211,9 @@ changez la propriété {{PropertyData/fr|Arrow size}} du plan de section en une 
 23\. Sélectionnez cet objet `ArchView` et changez la propriété {{PropertyData/fr|Scale}} en `0.02`, ce qui équivaut à 1:50, une échelle adaptée aux bâtiments typiques. Cela signifie que chaque mètre dans la vue 3D sera affiché comme 20 mm dans la page. L\'objet doit apparaître au centre de la page et peut être déplacé vers une meilleure position sur le côté gauche. Les deux portes doivent avoir l\'air ouvertes, mais seule la fenêtre de gauche doit avoir l\'air ouverte. La raison pour laquelle la fenêtre de droite n\'apparaît pas dans la projection est que le plan défini par `Section` ne traverse pas cette fenêtre de droite.
 
 <img alt="Section view of the building, A4 sheet, scale 1:50" src=images/12_T01_TechDraw_window_all_symbols.png  style="width:600px;"> 
-*align=center|Plan de section coupant des objets solides, y compris des murs, des portes et des fenêtres*
+*align=center|Plan de coupe coupant des objets solides, y compris des murs, des portes et des fenêtres*
 
-24\. Revenez à l\'[atelier Arch ](Arch_Workbench/fr.md). Dans l\'arborescence, sélectionnez à nouveau tous les composants et utilisez l\'outil [Arch Plan de section](Arch_SectionPlane/fr.md) pour créer un deuxième élément `Section001`.
+24\. Revenez à l\'[atelier Arch ](Arch_Workbench/fr.md). Dans l\'arborescence, sélectionnez à nouveau tous les composants et utilisez l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) pour créer un deuxième élément `Section001`.
 
 :   24.1. Sélectionnez `Section001` et remplacez la propriété {{PropertyData/fr|Position}} par `[1.5 m, 2.0 m, 1.8 m]`. Ce deuxième plan coupe tous les objets Arch.
 :   24.2. Revenez à [atelier TechDraw](TechDraw_Workbench/fr.md). Sélectionnez `Section001`, utilisez l\'outil [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer `ArchView001` et définissez {{PropertyData/fr|Scale}} sur `0.02`. La nouvelle vue de la page TechDraw montre maintenant toutes les ouvertures dans les [Arch Murs](Arch_Wall/fr.md) produites par les portes et les fenêtres.
@@ -228,10 +228,10 @@ définissez {{PropertyData/fr|All On}} sur `True` pour les objets [TechDraw Vue 
 
 ## Faire une projection d\'élévation du bâtiment 
 
-25\. Revenez à l\'[atelier Arch](Arch_Workbench/fr.md). Dans l\'arborescence, sélectionnez tous les composants, le [Arch Mur](Arch_Wall/fr.md), les deux [Arch Fenêtre](Arch_Window/fr.md) s et les deux [Arch Portes](Arch_Door/fr.md), puis utilisez l\'outil [Arch Plan de section](Arch_SectionPlane/fr.md) pour créer un troisième élément `Section002`.
+25\. Revenez à l\'[atelier Arch](Arch_Workbench/fr.md). Dans l\'arborescence, sélectionnez tous les composants, le [Arch Mur](Arch_Wall/fr.md), les deux [Arch Fenêtre](Arch_Window/fr.md) s et les deux [Arch Portes](Arch_Door/fr.md), puis utilisez l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) pour créer un troisième élément `Section002`.
 
-:   25.1. Faites pivoter `Section002`, de sorte qu\'il coupe verticalement à travers le bâtiment. Modifiez les propriétés {{PropertyData/fr|Axis}} en `[1, 0, 0]` et **Angle** en `90`.
-:   25.2. Remplacez {{PropertyData/fr|Position}} par `[1.5 m, -1 m, 1.5 m]`, de sorte que le plan soit devant le bâtiment.
+:   25.1. Faites pivoter `Section002`, de sorte qu\'il coupe verticalement à travers le bâtiment. Modifiez les propriétés **Axis** en `[1, 0, 0]` et **Angle** en `90`.
+:   25.2. Remplacez **Position** par `[1.5 m, -1 m, 1.5 m]`, de sorte que le plan soit devant le bâtiment.
 
 <img alt="" src=images/14.1_T01_Arch_SectionPlane_three.png  style="width:600px;"> 
 *align=center|Plans de section qui coupent ou regardent le bâtiment et les objets solides*
@@ -243,9 +243,9 @@ définissez {{PropertyData/fr|All On}} sur `True` pour les objets [TechDraw Vue 
 
 ## Interaction Arch et TechDraw 
 
-Au moment de la rédaction de ce document (FreeCAD 0.18, novembre 2018), l\'[atelier TechDraw](TechDraw_Workbench/fr.md) ne peut afficher dans ses pages que ce que l\'[atelier Arch](Arch_Workbench/fr.md) exporte en [SVG](SVG/fr.md). Cela signifie que l\'apparence des éléments inclus dans l\'outil [Arch Plan de section](Arch_SectionPlane/fr.md) et affichés par l\'outil [TechDraw Vue Arch](TechDraw_ArchView/fr.md) est contrôlée par l\'[atelier Arch](Arch_Workbench/fr.md).
+Au moment de la rédaction de ce document (FreeCAD 0.18, novembre 2018), l\'[atelier TechDraw](TechDraw_Workbench/fr.md) ne peut afficher dans ses pages que ce que l\'[atelier Arch](Arch_Workbench/fr.md) exporte en [SVG](SVG/fr.md). Cela signifie que l\'apparence des éléments inclus dans l\'outil [Arch Plan de coupe](Arch_SectionPlane/fr.md) et affichés par l\'outil [TechDraw Vue Arch](TechDraw_ArchView/fr.md) est contrôlée par l\'[atelier Arch](Arch_Workbench/fr.md).
 
-l\'[atelier TechDraw](TechDraw_Workbench/fr.md) n\'a qu\'un contrôle minimal sur la façon dont il affiche ces objets [Arch Plan de section](Arch_SectionPlane/fr.md) (`ArchView`). Par conséquent, les rapports de bogue et les demandes de fonctionnalités liées à l\'affichage des éléments Arch doivent être déposés auprès des deux ateliers.
+l\'[atelier TechDraw](TechDraw_Workbench/fr.md) n\'a qu\'un contrôle minimal sur la façon dont il affiche ces objets [Arch Plan de coupe](Arch_SectionPlane/fr.md) (`ArchView`). Par conséquent, les rapports de bogue et les demandes de fonctionnalités liées à l\'affichage des éléments Arch doivent être déposés auprès des deux ateliers.
 
 Une interaction plus étroite entre les ateliers est prévue pour les futures versions de FreeCAD. Dans ces versions, on s\'attend à ce que les problèmes de longue date soient résolus, tels que le contrôle des caractéristiques des lignes et des faces (largeur de ligne, couleur de ligne, couleur de face, motifs de hachures, etc\...).
 

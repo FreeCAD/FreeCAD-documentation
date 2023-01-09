@@ -9,9 +9,13 @@
 
 # Mesh TrimByPlane/pl
 
+
+
 ## Opis
 
 Polecenie **Przytnij siatkę płaszczyzną** wycina z obiektu siatkowego ściany i części ścian po jednej stronie płaszczyzny.
+
+
 
 ## Użycie
 
@@ -38,6 +42,38 @@ Polecenie **Przytnij siatkę płaszczyzną** wycina z obiektu siatkowego ściany
         {{button|Rozdziel}}
         
         : usuwa ściany i części ścian nad płaszczyzną i tworzy zawierający je nowy obiekt siatki.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również: [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Aby przyciąć siatkę za pomocą płaszczyzny użyj jej metody `trimByPlane`.
+
+
+```python
+import FreeCAD as App
+import Mesh
+
+# Create a non-parametric box-shaped mesh:
+msh = App.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+msh.Mesh = Mesh.createBox(30, 40, 50)
+msh.ViewObject.DisplayMode = "Flat Lines"
+
+# Define a plane by a base point and a normal vector:
+pnt = App.Vector(25, 0, 0)
+nor = App.Vector(0, 0, 1)
+
+# We need to work on a copy of the msh.Mesh object:
+new_msh = msh.Mesh.copy()
+
+# Trim that copy:
+new_msh.trimByPlane(pnt, nor)
+
+# Update msh.Mesh:
+msh.Mesh = new_msh
+```
 
 
 

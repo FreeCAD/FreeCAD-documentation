@@ -19,38 +19,46 @@ Siehe [FreeCAD Unterstützen](Help_FreeCAD/de.md) für Möglichkeiten etwas zu F
 
 Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases forum](https://forum.freecadweb.org/viewforum.php?f=24) ausgesucht wird.
 
+
+
 ## Allgemein
 
+
+
 ## Benutzeroberfläche
+
+   
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+   
 
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Die Darstellungsart von [Messergebnissen](Part_Workbench/de#Messung.md), die in den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, können jetzt in den [Einstellungen](PartDesign_Preferences/de#Measure.md) angepasst werden. [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
    
 
    
-  <img alt="" src=images/DlgDisplayProperties_relnotes_1.0.png  style="width:200px;">   Der Aufgabenbereich [Std Darstellung](Std_SetAppearance/de.md) (Anzeigeeigenschaften) enthält jetzt auch eine Schaltfläche zum einstellen der Eigenschaft Point Color (Punktfarbe). [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
-   
-
-   
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width:300px;">   Das Auswahlfeld für Arbeitsbereiche kann jetzt wahlweise in die Menüleiste gelegt werden, anstatt im Bereich der Symbolleisten. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
    
 
-   
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
-   
+
 
 ### Weitere Verbesserungen der Benutzeroberfläche 
 
--   Es ist jetzt möglich, eine Standardeinstellung für die Transparenz neu erstellter [Part-](Part_Module/de.md) oder [PartDesign-](PartDesign_Workbench/de.md) Objekte in den [Einstellungen](PartDesign_Preferences/de.md) festzulegen. [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103)
 -   Die Schaltfläche für den <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> [Bearbeitungsmodus](Std_UserEditMode/de.md) wurde aus der Standard-Symbolleiste entfernt. Sie kann erneut hinzugefügt werden, indem man eine eigene Symbolleiste [anpasst](Std_DlgCustomize/de.md).[Pull request #7570](https://github.com/FreeCAD/FreeCAD/pull/7570)
 -   Die Schaltflächen für <img alt="" src=images/Std_Print.svg  style="width:24px;"> [Drucken](Std_Print/de.md), <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Kopieren](Std_Copy/de.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Einfügen](Std_Paste/de.md) und <img alt="" src=images/Std_Cut.svg  style="width:24px;"> [Ausschneiden](Std_Cut/de.md) wurden aus der Standard-Symbolleiste entfernt. Sie können erneut hinzugefügt werden, indem man eine eigene Symbolleiste [anpasst](Std_DlgCustomize/de.md).[Pull request #7571](https://github.com/FreeCAD/FreeCAD/pull/7571) und [commit ea9a04e](https://github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 -   Befehle zum [Speichern](Std_StoreWorkingView/de.md) und [Abrufen](Std_RecallWorkingView/de.md) temporärer Arbeitsansichten wurden hinzugefügt. [Pull request #7525](https://github.com/FreeCAD/FreeCAD/pull/7525)
 -   Das Ändern der Werte mit dem Mausrad in Eingabefeldern (eine Widget-Art, die verwendet wird, um Werte im Aufgabenbereich einzugeben, z.B. von [Draft Linie](Draft_Line/de.md)) ist deaktiviert, wenn der Fokus nicht auf dem Widget liegt und der Schalter [ComboBoxWheelEventFilter](Fine-tuning.md) aktiviert ist. Dies verhindert ungewollte Wertveränderungen während des Scrollens, wie schon bei Spin- und Combo-Boxen. [Pull request #7561](https://github.com/FreeCAD/FreeCAD/pull/7561)
--   Alle Transparenzeinstellungen verwenden jetzt einheitlich eine Schrittweite von 5% für Spin-Buttons: Ein Klick auf die Schaltfläche in einem Dialog oder dem [Eigenschafteneditor](Property_editor/de.md) ändert die Transparenz um 5%. Wird die Schaltfläche gedrückt gehalten, werden mehrere 5%-Schritte auf einmal ausgeführt. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
+-   Es ist jetzt möglich, eine Standardeinstellung für die Transparenz neu erstellter [Part-](Part_Module/de.md) oder [PartDesign-](PartDesign_Workbench/de.md) Objekte in den [Einstellungen](PartDesign_Preferences/de.md) festzulegen. [Pull request #7103](https://github.com/FreeCAD/FreeCAD/pull/7103)
+-   Es gibt einen neuen Orbit-Stil **Free Turntable**. Er kann im [Voreinstellungseditor](Preferences_Editor/de#Navigation.md) aktiviert werden oder durch Drücken der Schaltfläche **[<img src=images/NavigationCAD_dark.svg style="width:16px">** in der [Statusleiste](Status_bar/de.md) and then using the menu **Settings → Orbit**). [Pull request #8048](https://github.com/FreeCAD/FreeCAD/pull/8048)
+-   Der Aufgabenbereich [Std Darstellung](Std_SetAppearance/de.md) besitzt jetzt eine Schaltfläche zum Festlegen der Eigenschaft Point-Color. [Pull request #7708](https://github.com/FreeCAD/FreeCAD/pull/7708)
 -   Eine Schaltfläche zum wechseln der Farben des Hintergrundverlaufs der [3D-Ansicht](3D_view/de.md) wurde im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) hinzugefügt. [Pull request #7155](https://github.com/FreeCAD/FreeCAD/pull/7155)
+-   Alle Transparenzeinstellungen verwenden jetzt einheitlich eine Schrittweite von 5% für Spin-Buttons: Ein Klick auf die Schaltfläche in einem Dialog oder dem [Eigenschafteneditor](Property_editor/de.md) ändert die Transparenz um 5%. Wird die Schaltfläche gedrückt gehalten, werden mehrere 5%-Schritte auf einmal ausgeführt. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
 -   Das Ausgabefenster (Output window) wurde in ??? (Report view) geändert, zur Vereinheitlichung (mit) der Benutzerschnittstelle (UI). [Pull Request #7739](https://github.com/FreeCAD/FreeCAD/pull/7739)
 
+
+
 ## Kernsystem und API 
+
+
 
 ### Kern
 
@@ -58,6 +66,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Neue Python API 
 
@@ -88,6 +98,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 </div>
 
+
+
 #### Entfernte Python API 
 
 -   *FreeCAD.EndingAdd*: Ersetzt durch *FreeCAD.addImportType*. [Pull request #7167](https://github.com/FreeCAD/FreeCAD/pull/7167)
@@ -96,19 +108,29 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 </div>
 
+
+
 ## Addon-Manager 
 
+
+
 ## Arbeitsbereich Arch 
+
+
 
 ### Weitere Arch-Verbesserungen 
 
 -   [Profile](Arch_Profile/de.md)-Objekte unterstützen jetzt die Änderung der Profilart nach der Erstellung. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
 
+
+
 ## Arbeitsbereich Draft 
 
--   The inaccuracy of [Draft Snap Near](Draft_Snap_Near.md) when snapping to curves was fixed. In addition, [Draft Snap Perpendicular](Draft_Snap_Perpendicular.md) can now also snap to faces and find multiple points. To snap to a vertex (e.g. a [Draft Point](Draft_Point.md)) [Draft Snap Endpoint](Draft_Snap_Endpoint.md) must now be used instead of [Draft Snap Near](Draft_Snap_Near.md). [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132)
--   To make working with [layers](Draft_Layer.md) easier their drag and drop behavior was modified. If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer, it is no longer removed from the group, and vice versa. This works without holding down the **Ctrl** key. [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
--   The [Draft PointArray](Draft_PointArray.md) command now supports more point object types. Any object with a shape and vertices, as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md) can be used. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
+-   Die Ungenauigkeit von [Draft Snap Near](Draft_Snap_Near/de.md) während des Einrastens von Kurven wurde beseitigt. Außserdem kann [Draft Snap Perpendicular](Draft_Snap_Perpendicular/de.md) jetzt auch auf Flächen einrasten und vielfache Punkte finden. Zum Einrasten auf einem Knoten (z.B. einem [Draft Punkt](Draft_Point/de.md)) muss jetzt [Draft Snap Endpoint](Draft_Snap_Endpoint/de.md) anstatt [Draft Snap Near](Draft_Snap_Near/de.md) verwendet werden. [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132)
+-   Um das Arbeiten mit [Layern](Draft_Layer/de.md) zu vereinfachen, wurde ihr Drag-and-Drop-Verhalten geändert. Wenn jetzt ein Objekt aus einer [Std Gruppe](Std_Group/de.md) oder ein gruppenartiges Objekt, wie ein [Arch Gebäudeteilauf](Arch_BuildingPart/de.md) einen Layer abgelegt wird, wird es nicht mehr aus der Gruppe entfernt und umgekehrt. Dies funktioniert ohne das Gedrückthalten der **Ctrl**-Taste [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
+-   Der Befehl [Draft PointArray](Draft_PointArray/de.md) unterstützt jetzt mehr Punkt-Objektarten. Jedes Objekt mit einer Form und Knoten sowie [Netze](Mesh_Workbench/de.md) und [Punktewolken](Points_Workbench/de.md) kann verwendet werden. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
+
+
 
 ### Weitere Draft-Verbesserungen 
 
@@ -116,11 +138,15 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541)
 -   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
 
+
+
 ## Arbeitsbereich FEM 
 
    
   <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
    
+
+
 
 ### Weitere FEM-Verbesserungen 
 
@@ -134,15 +160,25 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Mesh
 
+
+
 ### Weitere Mesh-Verbesserungen 
 
 -   Unterstützung für das Hinzufügen von Transparenzen zu einem Netzobjekt. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=72531) und [Commit f88305e](https://github.com/FreeCAD/FreeCAD/commit/f88305e)
 
+
+
 ## Arbeitsbereich OpenSCAD 
+
+
 
 ## Arbeitsbereich Part 
 
+
+
 ### Weitere Part-Verbesserungen 
+
+
 
 ## Arbeitsbereich PartDesign 
 
@@ -151,11 +187,15 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
                                                                                                                              
    
 
+
+
 ### Weitere PartDesign-Verbesserungen 
 
 -   Im Dialog [Bohrung](PartDesign_Hole/de.md) wurden die veralteten Schraubenkopfarten entfernt (cheese head, cap screw etc.). Sie sind seit FreeCAD 0.19 veraltet. Bohrungen die diese Arten verwenden werden in benutzerdefinierte Bohrungen mit Kegelsenkung bzw. Zylindersenkung umgewandelt und übernehmen dabei die Werte für Durchmesser und Tiefe. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   Der Befehl [SkizzeÜberprüfen](Sketcher_ValidateSketch/de.md) wurde der Helper-Symbolleiste hinzugefügt. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   Die unnützen Befehle [SkizzeVerlassen](Sketcher_LeaveSketch/de.md) und [SkizzeAnzeigen](Sketcher_ViewSketch/de.md) wurden aus dem Menü entfernt. Die Befehle [SkizzeBearbeiten](Sketcher_EditSketch/de.md), [SkizzenZusammenführen](Sketcher_MergeSketches/de.md) und [Skizze spiegeln](Sketcher_MirrorSketch/de.md) wurden dem Menü hinzugefügt. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+
+
 
 ## Arbeitsbereich Pfad 
 
@@ -165,7 +205,11 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 -   Implemented Chipbreaking option for peck style drill cycles. Chipbreaking emits a G73 cycle which causes the control to make a very small retraction move to break the chip without fully retracting the bit from the hole. G73 is supported natively by LinuxCNC. Some other postprocessors will have to interpret the G73 and emit control appropriate codes or decompose the retraction into G1/G0 moves. Postprocessor support for G73 decomposition has been added to the \"refactored\" postprocessors.[Pull request #7469](https://github.com/FreeCAD/FreeCAD/pull/7469)
 
+
+
 ## Modul Plot 
+
+
 
 ## Arbeitsbereich Sketcher 
 
@@ -194,6 +238,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
                                                                                                                                                              
    
 
+
+
 ### Weitere Sketcher-Verbesserungen 
 
 -   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
@@ -206,9 +252,15 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   [Coincident constraint](Sketcher_ConstrainCoincident.md) can now act as a concentric constraint when selecting 2 or more circles, arcs, ellipses or arcs of ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
 -   [Carbon copy](Sketcher_CarbonCopy.md) if possible now uses constraint names in the expressions it creates instead of an index based reference, making it more reliable. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
+
+
 ## Arbeitsbereich Spreadsheet 
 
+
+
 ### Weitere Spreadsheet-Verbesserungen 
+
+
 
 ## Arbeitsbereich TechDraw 
 
@@ -217,6 +269,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
   <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
+
+
 
 ### Weitere TechDraw-Verbesserungen 
 
@@ -233,6 +287,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   Removed deprecated functions: DrawViewPart::replaceCenterLine, DrawViewPart::replaceCosmeticEdge, DrawViewPart::replaceCosmeticVertex and DrawViewPart::replaceGeomFormat.
 
 ## Web
+
+
 
 ## Externe Arbeitsbereiche 
 
@@ -258,6 +314,8 @@ The supported operating systems are:
 -   Linux Ubuntu Focal Fossa (20.04) and newer
 -   MacOS: 10.12 Sierra or newer
 
+
+
 ### Bekannte Einschränkungen 
 
 ### 32bit Windows 
@@ -270,6 +328,8 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 
 -   Download [this](https://downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
 -   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+
+
 
 ### MacOS: Arbeitsbereich Start zeigt eine leere Seite 
 

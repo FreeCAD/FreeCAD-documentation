@@ -21,7 +21,7 @@ Partie de bâtiment (BuildingPart) remplace les anciens [Arch Niveaux](Arch_Floo
 
 ### Remarques
 
-Les Partie de bâtiment ont un [Arch Plan de section](Arch_SectionPlane/fr.md) implicite intégré. {{Version/fr|0.19}}
+Les Partie de bâtiment ont un [Arch Plan de coupe](Arch_SectionPlane/fr.md) implicite intégré. {{Version/fr|0.19}}
 
 Ce plan est toujours parallèle au plan de base du BuildingPart, mais vous pouvez spécifier le décalage entre eux. Ainsi, tous les outils qui fonctionnent avec un plan de coupe, tels que [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) et [TechDraw Vue Architecturale](TechDraw_ArchView/fr.md) fonctionnent également avec Parties de bâtiment.
 

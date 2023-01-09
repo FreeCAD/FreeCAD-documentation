@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Arch SectionPlane
-   Name/fr:Arch Plan de section
-   MenuLocation:Arch → Plan de section
+   Name/fr:Arch Plan de coupe
+   MenuLocation:Arch → Plan de coupe
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **P**
    SeeAlso:[Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue Arch](TechDraw_ArchView/fr.md)
@@ -12,24 +12,24 @@
 
 ## Description
 
-Cet outil place dans le document courant une \"chose\" qui définit un plan de section ou de vue. La \"chose\" est placée en fonction du [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de section ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
+Cet outil place dans le document courant une \"chose\" qui définit un plan de coupe ou de vue. La \"chose\" est placée en fonction du [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de coupe ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
 
-Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [page TechDraw](TechDraw_Workbench/fr.md).
+Le Plan de coupe seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [page TechDraw](TechDraw_Workbench/fr.md).
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
 ## Utilisation
 
-1.  Optionnellement activez [Draft Plan de travail](Draft_SelectPlane/fr.md) pour représenter le plan que vous voulez placer dans Section Plane.
+1.  Optionnellement activez [Draft Plan de travail](Draft_SelectPlane/fr.md) pour représenter le plan que vous voulez placer dans le plan de coupe.
 2.  Sélectionnez l\'objet ou les objets à inclure dans le plan.
-3.  Appuyez sur le bouton **<img src="images/Arch_SectionPlane.svg" width=16px> [Plan de section](Arch_SectionPlane/fr.md)** ou pressez les touches **S** puis **P**.
-4.  Utilisez les touches [Draft Déplacez](Draft_Move/fr.md)/[Draft Pivotez](Draft_Rotate/fr.md) pour placer le plan dans sa position correcte.
+3.  Appuyez sur le bouton **<img src="images/Arch_SectionPlane.svg" width=16px> [Plan de coupe](Arch_SectionPlane/fr.md)** ou pressez les touches **S** puis **P**.
+4.  Utilisez les touches [Draft Déplacer](Draft_Move/fr.md)/[Draft Pivoter](Draft_Rotate/fr.md) pour placer le plan dans sa position correcte.
 5.  Sélectionnez le plan s\'il n\'est pas sélectionné.
-6.  Utilisez les fonctions [Drawing DraftView](Draft_Drawing/fr.md), [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue.
+6.  Utilisez les fonctions [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue.
 
 ## Options
 
--   L\'objet Section Plane ne prendra qu\'un certain nombre d\'objets, pas tous les objets du document. Les objets peuvent être ajoutés ou supprimés à partir d\'un objet SectionPlane en utilisant les outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md), en double-cliquant sur le Section Plane dans la vue 3D, ou en sélectionnant des objets dans l\'arborescence de la vue combinée, puis appuyez sur les boutons **Ajouter** ou **Supprimer**.
+-   L\'objet Plan de coupe ne prendra qu\'un certain nombre d\'objets, pas tous les objets du document. Les objets peuvent être ajoutés ou supprimés à partir d\'un objet SectionPlane en utilisant les outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md), en double-cliquant sur le Plan de coupe dans la vue 3D, ou en sélectionnan, puis en appuyant sur les boutons **Ajouter** ou **Supprimer**.
 
 -   Après avoir sélectionné un plan de coupe, utilisez l\'outil de [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) pour créer un objet shape qui représente l\'affichage du plan de coupe dans le document
 
@@ -39,7 +39,7 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 
 <img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
--   Le Plan de section peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini. Ceci est seulement visuel, et n\'affectera pas la géométrie des objets coupés.
+-   Le Plan de coupe peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini. Ceci est seulement visuel, et n\'affectera pas la géométrie des objets coupés.
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 

@@ -2,7 +2,6 @@
 - GuiCommand:/de
    Name:PartDesign CompPrimitiveSubtractive
    Name/de:PartDesign AuswahlGrundkörperAbziehen
-   Empty:1
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    MenuLocation:Part Design → Grundkörper abziehen
    SeeAlso:[PartDesign Grundkörper hinzufügen](PartDesign_CompPrimitiveAdditive/de.md)
@@ -11,9 +10,13 @@
 
 # PartDesign CompPrimitiveSubtractive/de
 
+
+
 ## Beschreibung
 
 Erzeugt einen abzuziehenden Grundkörper, dessen Form von dem vorhandenen Volumenkörper abgezogen wird.
+
+
 
 ## Grundkörperarten
 
