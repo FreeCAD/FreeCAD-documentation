@@ -82,7 +82,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 ### From GitHub 
 
-To use this workbench clone this git repository under your FreeCAD Mod directory, and install the pyside and numpy python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows
+To use this workbench clone this git repository under your FreeCAD Mod directory, and install the pyside and numpy Python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows
 
 
 ```python
@@ -129,7 +129,7 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 -   FreeCAD Wiki:
 -   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=10&t=8577>
 -   Tutorials:
--   Videos: [1](https://www.youtube.com/watch?v=dhaYJKDk4GI), [2](http://youtu.be/ufhyUxQkeC0),
+-   Videos: [video 1](https://www.youtube.com/watch?v=dhaYJKDk4GI), [video 2](http://youtu.be/ufhyUxQkeC0),
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/hamish2014/FreeCAD_assembly2/issues>
 

@@ -346,7 +346,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyInteger
 
- An integer property. It can contain an integer value. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md). 
+ An integer property. It can contain an integer value from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md). 
 
 
 ```python
@@ -359,14 +359,14 @@ obj.ThePropertyName # returns 25
 
 ## App::PropertyIntegerConstraint
 
- An integer constraint property. It can contain an 
+ An integer constraint property. With this property you can set a default value, a minimum value, a maximum value and a step size. All values should be integers and can range from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md). 
 
 
 ```python
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyIntegerConstraint", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = (50, 0, 100, 1) # (Default, Start, Finish, Step)
+obj.ThePropertyName = (50, 0, 100, 1) # (Default, Minimum, Maximum, Step size)
 obj.ThePropertyName # returns 50
 ```
 

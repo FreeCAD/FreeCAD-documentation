@@ -218,6 +218,8 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
+
+
 ### Gemensamt beteende 
 
 
@@ -240,9 +242,13 @@ The following additional options are available in the [Tree view](Tree_view.md) 
 
 ### Default options 
 
-If there is an active document the context menu contains one additional sub-menu:
+For most Draft objects the following option is available:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+
+If there is an active document the context menu contains an additional sub-menu:
+
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ### Wire options 
 
@@ -282,7 +288,7 @@ The following additional options are available in the [3D view](3D_view.md) cont
 
 If there is an active document the context menu contains one additional sub-menu:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ## Obsolete tools 
 
@@ -297,6 +303,8 @@ These commands are obsolete but still available:
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferences](Draft_Preferences.md): general preferences for the Draft Workbench.
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences.md): preferences available for importing from and exporting to different file formats.
+
+
 
 ### Import & export 
 
@@ -332,6 +340,8 @@ To run the unit tests of the workbench execute the following from the operating 
 ```python
 freecad -t TestDraft
 ```
+
+
 
 ### API
 

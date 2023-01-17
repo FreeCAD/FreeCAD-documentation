@@ -117,6 +117,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Notes
 
 -   Linear and radial Draft Dimensions can be edited with the [Draft Edit](Draft_Edit.md) command.
+-   Draft Dimensions created or saved with [FreeCAD version 1.0](Release_notes_1.0.md) are not backward compatible.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -223,7 +226,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|2D}} the text will be displayed in a plane defined by the **Normal** of the measurement. If it is {{value|3D}} the text will always face the camera. Note that these values are switched compared to [Draft Texts](Draft_Text.md). This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -240,7 +243,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Flip Arrows|Bool**: specifies whether to flip the orientation of the symbols at the ends of the dimension line or arc. Only works if the symbols are arrows.
 
--    **Line Color|Color**: specifies the color of the dimension including the text.
+-    **Line Color|Color**: specifies the color of the dimension line or arc, and the arrows.
 
 -    **Line Width|Float**: specifies the width of the lines or arc belonging to the dimension.
 
@@ -256,6 +259,8 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 -    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 -    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
+
+-    **Text Color|Color**: specifies the color of the text. <small>(v1.0)</small> 
 
 -    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
 

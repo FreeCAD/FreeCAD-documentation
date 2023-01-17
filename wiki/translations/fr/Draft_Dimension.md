@@ -22,9 +22,13 @@ Les Draft Dimensions peuvent être affichées sur une page de l\'[Atelier Techdr
 <img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;"> 
 *Dimension linéaire définie par trois points*
 
+
+
 ## Créer
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+
+
 
 ### Utilisation pour une dimension linéaire 
 
@@ -50,6 +54,8 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
         -   Déplacez le pointeur à gauche ou à droite de l\'arête ou des points.
         -   Maintenez la touche **Shift** enfoncée, déplacez le pointeur et choisissez un point dans la [Vue 3D](3D_view/fr.md).
 
+
+
 ### Utilisation pour une dimension radiale 
 
 1.  Sélectionnez éventuellement une arête circulaire dans la [Vue 3D](3D_view/fr.md).
@@ -66,6 +72,8 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
         -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
     -   Pour une dimension radiale :
         -   Maintenez la touche **Shift** et choisissez un point dans la [Vue 3D](3D_view/fr.md).
+
+
 
 ### Utilisation pour une dimension angulaire 
 
@@ -91,7 +99,11 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
+
+
 ## Convertir
+
+
 
 ### Utilisation
 
@@ -102,15 +114,22 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
     -   Utilisez le raccourci clavier : **D** puis **I**.
 3.  Chaque objet sélectionné est remplacé par une Draft Dimension linéaire non paramétrique.
 
+
+
 ## Remarques
 
 -   Les Draft Dimensions linéaires et radiales peuvent être modifiées avec la commande [Draft Editer](Draft_Edit/fr.md).
+-   Les Draft Dimensions créées ou enregistrées avec la [version 1.0 de FreeCAD](Release_notes_1.0/fr.md) ne sont pas rétrocompatibles.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+
+
 
 ### Données dimension linéaire et radiale 
 
@@ -141,6 +160,8 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Diameter|Bool**: spécifie si une dimension radiale est affichée comme une dimension de diamètre. Si cela change, le symbole utilisé dans **Override** doit être mis à jour manuellement (de {{Value|Ø}} à {{Value|R}} ou vice versa). Non utilisé pour les dimensions linéaires.
 
+
+
 ### Données dimension angulaire 
 
 
@@ -165,6 +186,8 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Support|Link|hidden**: non utilisé.
 
+
+
 ### Vue
 
 
@@ -177,7 +200,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|2D text}}, le texte sera affiché dans un plan défini par la **Normal** de la mesure. S\'il s\'agit de {{value|3D}}, le texte fera toujours face à la caméra. Notez que ces valeurs sont inversées par rapport à [Draft Texte](Draft_Text/fr.md). Il s\'agit d\'une propriété héritée.
+-    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par la **Normal** de la mesure. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|1.0}}).
 
 
 {{TitleProperty|Graphics}}
@@ -194,7 +217,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Flip Arrows|Bool**: indique s\'il faut inverser l\'orientation des symboles aux extrémités de la ligne de cote ou de l\'arc. Ne fonctionne que si les symboles sont des flèches.
 
--    **Line Color|Color**: spécifie la couleur de la dimension, y compris le texte.
+-    **Line Color|Color**: spécifie la couleur de la ligne ou de l\'arc de dimension, et des flèches.
 
 -    **Line Width|Float**: spécifie la largeur des lignes ou de l\'arc appartenant à la dimension.
 
@@ -211,6 +234,8 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Override|String**: spécifie un texte personnalisé à afficher à la place de la mesure réelle. Utilisez la chaîne {{value|$dim}} à l\'intérieur du texte pour inclure la mesure.
 
+-    **Text Color|Color**: spécifie la couleur du texte. {{Version/fr|1.0}}
+
 -    **Text Position|VectorDistance**: spécifie la position du texte en coordonnées absolues. {{Value|[0, 0, 0]}} affichera le texte dans sa position par défaut près de la ligne ou de l\'arc de dimension.
 
 -    **Text Spacing|Length**: spécifie l\'espace entre le texte et la ligne ou l\'arc de dimension.
@@ -223,6 +248,8 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 -    **Show Unit|Bool**: indique s\'il faut afficher l\'unité à côté de la valeur numérique de la mesure. Non utilisé pour les dimensions angulaires.
 
 -    **Unit Override|String**: spécifie l\'unité dans laquelle exprimer la mesure, par exemple, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} ou {{value|arch}} pour les unités arch. Laissez ce champ vide pour utiliser l\'unité par défaut. Non utilisé pour les dimensions angulaires.
+
+
 
 ## Script
 

@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -41,6 +43,8 @@ Per creare un\'etichetta di testo con una linea guida e una freccia usare [Etich
 
 </div>
 
+
+
 ## Utilizzo
 
 See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
@@ -55,6 +59,8 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 
 </div>
+
+
 
 ## Opzioni
 
@@ -82,6 +88,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -122,7 +130,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by its **Placement**. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}

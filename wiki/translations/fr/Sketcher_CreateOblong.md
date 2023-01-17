@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateOblong
    Name/fr:Sketcher Rectangle arrondi
-   MenuLocation:Sketch → Géométries d'esquisse → Créer un rectangle arrondi
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer un rectangle arrondi
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **O**
    Version: 0.20
@@ -16,6 +16,8 @@
 Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône rouge de rectangle arrondi. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
+
+
 
 ## Utilisation
 

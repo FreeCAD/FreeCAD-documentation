@@ -2,6 +2,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Segnaposto per descrizioni approfondite delle proprietà delle funzioni Python**
@@ -30,6 +32,8 @@ You can get a list of the available properties by issuing:
 ```python
 obj.supportedProperties()
 ```
+
+
 
 This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label`. This label will be displayed in the [Tree view](Tree_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
 
@@ -360,7 +364,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyInteger
 
-An integer property. It can contain an integer value. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+An integer property. It can contain an integer value from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
@@ -373,14 +377,14 @@ obj.ThePropertyName # returns 25
 
 ## App::PropertyIntegerConstraint
 
-An integer constraint property. It can contain an `integer` value. By using this property you can set start and finish values. Also you can set step interval too. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+An integer constraint property. With this property you can set a default value, a minimum value, a maximum value and a step size. All values should be integers and can range from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyIntegerConstraint", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = (50, 0, 100, 1) # (Default, Start, Finish, Step)
+obj.ThePropertyName = (50, 0, 100, 1) # (Default, Minimum, Maximum, Step size)
 obj.ThePropertyName # returns 50
 ```
 

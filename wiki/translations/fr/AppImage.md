@@ -32,19 +32,12 @@ Pour les autres types d\'installation, voir [Téléchargements](Download/fr.md).
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
-
-<div class="mw-translate-fuzzy">
-
 **Remarques importantes :**
 
--   Le développement se fait quotidiennement et rapidement, le lien de mise à jour d\'AppImage change constamment.
--   Le lien de développement ci-dessus devrait être à jour car il est mis à jour via un script.
+-   Le développement se fait quotidiennement et rapidement.
 -   De nombreux utilisateurs du forum utilisent la version de développement.
 -   Il peut être exécuté sur le même système en parallèle avec une autre version de FreeCAD.
 -   Les utilisateurs utilisent la version en cours de développement pour tirer parti des dernières fonctionnalités et corrections de bugs (FreeCAD ayant un cycle de publication long). Ils l\'utilisent également pour tester et trouver des bugs susceptibles d\'améliorer le développement de FreeCAD.
-
-
-</div>
 
 
 

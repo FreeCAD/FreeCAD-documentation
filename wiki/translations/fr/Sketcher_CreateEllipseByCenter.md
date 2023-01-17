@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateEllipseByCenter
    Name/fr:Sketcher Ellipse par son centre
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une ellipse par son centre
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une ellipse par son centre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **E** **E**
    Version:0.15
@@ -10,6 +10,8 @@
 ---
 
 # Sketcher CreateEllipseByCenter/fr
+
+
 
 ## Description
 
@@ -19,7 +21,9 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 
 
 
-*La séquence de clics est indiquée par des flèches jaunes avec des nombres. C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
+*La séquence de clics est indiquée par des flèches jaunes avec des nombres.<br/>C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
+
+
 
 ## Utilisation
 
@@ -27,6 +31,8 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 -   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon (la distance de la ligne définie par les deux premiers clics est le deuxième rayon).
 -   Après le troisième clic, l\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Voir [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.
+
+
 
 ## Particularités
 

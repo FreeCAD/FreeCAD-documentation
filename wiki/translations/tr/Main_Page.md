@@ -9,6 +9,8 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Kullanıcı Merkezi 
@@ -32,6 +34,8 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 </div>
 
+
+
 ## Kılavuz
 
 
@@ -42,6 +46,8 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 
 </div>
+
+
 
 ## İçindekiler
 
@@ -58,7 +64,11 @@ Aşağıdaki tabloda, bu wiki\'nin FreeCAD uygulamasıyla birlikte gönderilen �
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Daha Fazlası 
+
+
 
 ### Geliştirme Hakkında 
 
@@ -84,6 +94,8 @@ Bize yardımcı olmakla ilgileniyorsanız, FreeCAD projesi içinde yapılacak ç
 
 </div>
 
+
+
 ### Kaynak Kod 
 
 
@@ -93,6 +105,8 @@ FreeCAD, cMake veya autotools kullanarak derlenebilir, git bağlantısı <https:
 
 
 </div>
+
+
 
 ### Yardım Çağrısı 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainSnellsLaw
    Name/fr:Sketcher Contrainte de réfraction
-   MenuLocation:Sketch → Contraintes d'esquisse → Contraint la réfraction (Loi de Snell)
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de réfraction (Loi de Snell)
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **W**
    Version:0.15
@@ -20,6 +20,8 @@ Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pén
 
 *Loi de Snell*
 
+
+
 ## Utilisation
 
 <img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
@@ -34,6 +36,8 @@ Notez que plusieurs [Sketcher Aides pour contraindre](Sketcher_helper_constraint
 
 En utilisant l\'outil **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)**, il est possible d\'accélérer le tracé des rayons de lumière. Dans ce cas, il est possible de sélectionner deux extrémités coïncidentes par sélection de boîte.
 
+
+
 ## Remarques
 
 -   La contrainte actuelle de la loi de Snell applique la plaine équation de la loi n1\*sin(theta1) = n2\*sin(theta2). Il a besoin que les extrémités des lignes soient confondues et sur l\'interface par d\'autres contraintes. Les contraintes auxiliaires nécessaires sont ajoutées automatiquement en fonction des coordonnées actuelles des éléments.
@@ -42,6 +46,8 @@ En utilisant l\'outil **[<img src=images/Sketcher_CreatePolyline.svg style="widt
 -   Contrairement à la réalité, les indices de réfraction sont associés à des rayons de lumière, mais non pas selon les côtés de la frontière. C\'est utile pour émuler la biréfringence, construire des chemins de longueurs d\'onde différentes en raison de la réfraction, et construire facilement l\'angle de début de réflexion interne totale.
 -   Les deux rayons peuvent être sur le même côté de l\'interface, répondant à l\'équation de contrainte. Cela n\'a aucun sens physique, à moins que le rapport n2/n1 est de 1,0, auquel cas la contrainte émule une réflexion.
 -   Arcs de cercle et une ellipse sont également acceptés comme les rayons (non-sens physique).
+
+
 
 ## Script
 
@@ -66,7 +72,7 @@ où:
 
 La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `line1`, `pointpos1`, `line2`, `pointpos2` et `interface` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
-Exemple:
+Exemple :
 
 
 ```python

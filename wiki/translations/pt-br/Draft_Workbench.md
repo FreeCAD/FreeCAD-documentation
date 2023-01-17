@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 
@@ -140,6 +142,8 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D view](Draft_Shape2DView.md): creates 2D projections from selected objects.
 
+
+
 ## Barra de ferramentas da bandeja de rascunho 
 
 A barra de ferramentas [Bandeja de rascunho](Draft_Tray/pt-br.md) aparece quando a bancada de trabalho é iniciada, e permite selecionar o plano de trabalho, com algumas propriedades visuais como a cor da linha, cor da forma, largura da linha, tamanho do texto e grupo automático.
@@ -186,6 +190,8 @@ O [Widget de ancoragem](Draft_snap_widget/pt-br.md) pode ser usado como uma alte
 </div>
 
 ![](images/Draft_snap_widget_button.png )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -251,6 +257,8 @@ A barra de ferramentas [Captura](Draft_Snap/pt-br.md) permite selecionar o modo 
 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Create working plane proxy](Draft_WorkingPlaneProxy.md): creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md).
 
+
+
 ## Ferramentas adicionais 
 
 The **Draft → Utilities** menu contains several tools. Most of them can also be accessed from toolbars or the [Draft Tray](Draft_Tray.md) and have already been mentioned above. For the following tools this is not the case:
@@ -262,6 +270,8 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
+
+
 
 ## Características adicionais 
 
@@ -282,9 +292,13 @@ The following additional options are available in the [Tree view](Tree_view.md) 
 
 ### Default options 
 
-If there is an active document the context menu contains one additional sub-menu:
+For most Draft objects the following option is available:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+
+If there is an active document the context menu contains an additional sub-menu:
+
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ### Wire options 
 
@@ -324,7 +338,9 @@ The following additional options are available in the [3D view](3D_view.md) cont
 
 If there is an active document the context menu contains one additional sub-menu:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
+
+
 
 ## Ferramentas obsoletas 
 
@@ -333,6 +349,8 @@ Estes comandos são obsoletos, mas ainda estão disponíveis.
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Array](Draft_Array.md): creates an orthogonal array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. {{Obsolete|0.17}}
+
+
 
 ## Preferências
 
@@ -346,6 +364,8 @@ Estes comandos são obsoletos, mas ainda estão disponíveis.
 </div>
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences.md): preferences available for importing from and exporting to different file formats.
+
+
 
 ## Formatos de arquivo 
 
@@ -362,6 +382,8 @@ The Draft Workbench provides FreeCAD with importers and exporters for several fi
 
 
 </div>
+
+
 
 ## Testes unitários 
 

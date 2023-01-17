@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 The **menu Windows** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
@@ -27,6 +29,8 @@ The **menu Windows** is one of the 7 sub-menus in the [standard menu](Standard_M
 
 The Windows menu allows switching and rearranging of [Main view area](Main_view_area.md) windows.
 
+
+
 ## Ferramentas
 
 The following tools are available in this menu:
@@ -38,8 +42,6 @@ The following tools are available in this menu:
 -   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Tile](Std_TileWindows.md): Tiles the windows.
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Cascade](Std_CascadeWindows.md): Cascades the windows.
-
--   [Arrange icons](Std_ArrangeIcons.md): Obsolete. Tiles the windows.
 
 -   [Windows\...](Std_Windows.md): Opens a dialog box from which a window can be activated.
 

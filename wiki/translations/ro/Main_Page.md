@@ -9,6 +9,8 @@ Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se o
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Hub-urile utilizatorilor 
@@ -29,6 +31,8 @@ Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se o
 
 </div>
 
+
+
 ## Manualul FreeCAD 
 
 
@@ -39,6 +43,8 @@ Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se o
 
 
 </div>
+
+
 
 ## Cuprinsul
 
@@ -55,7 +61,11 @@ Următorul tabel enumeră toate articolele din acest ghid wiki care formează co
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Implicaţi-vă ! 
+
+
 
 ### Cum să participaţi 
 
@@ -81,6 +91,8 @@ Pagina [help FreeCAD/ro](help_FreeCAD/ro.md) descrie asta mult mai detaliat. În
 
 </div>
 
+
+
 ### Codul sursă 
 
 
@@ -90,6 +102,8 @@ FreeCAD poate fi compilat pe toate platformele utilizând [1](https://cmake.org/
 
 
 </div>
+
+
 
 ### Referitor la procesul de dezvoltare 
 

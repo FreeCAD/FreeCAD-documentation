@@ -78,7 +78,13 @@ Die Entwicklung von FreeCAD ist aktiv.
 
 ## Zusätzliche Module und Makros 
 
+
+<div class="mw-translate-fuzzy">
+
 Die FreeCAD Gemeinschaft bietet viele zusätzliche Module und Makros. Seit 0.17 können sie einfach aus FreeCAD heraus mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
+
+
+</div>
 
 
 

@@ -10,9 +10,13 @@
 
 # Std Print/pl
 
+
+
 ## Opis
 
 Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska [Rysunek Techniczny](TechDraw_Workbench/pl.md), ale może być również użyte do drukowania tego, co jest aktualnie widoczne w oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Użycie
 
@@ -22,9 +26,15 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
     -   Użyj skrótu klawiaturowego: **Ctrl** + **P**.
 3.  Pojawi się standardowe okno dialogowe drukowania.
 
+
+
 ## Opcje
 
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+
+## Notes
+
+-   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
 
 
 

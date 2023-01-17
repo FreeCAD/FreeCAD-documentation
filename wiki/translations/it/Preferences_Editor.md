@@ -1,6 +1,8 @@
 # Preferences Editor/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Per avviare l\' **Editor delle preferenze** selezionare l\'opzione dal menu **Modifica → Preferenze...**. Su Mac OS invece, l\'opzione **Preferenze...** appare nel menu **FreeCAD** (questa è la posizione predefinita per le preferenze su Mac).
@@ -13,9 +15,13 @@ Si prega di notare che cliccando su **Reset** nell\'angolo in basso a sinistra d
 
 Alcune preferenze avanzate possono essere modificate solo in [Modifica parametri](Std_DlgParameter/it.md). La pagina [Ottimizzare l\'installazione](Fine-tuning/it.md) ne elenca alcuni.
 
+
+
 ## Generale
 
 Questa sezione delle preferenze ha 9 schede: Generale, Documento, Selezione, Cache, Editor, Console Python, Finestra di Output, Macro e Unità. Una decima scheda, Help, viene aggiunta se è disponibile l\'[Addon Help](https://github.com/FreeCAD/FreeCAD-Help). Questo componente aggiuntivo può essere installato tramite [Addon Manager](Std_AddonMgr/it.md).
+
+
 
 ### Generale 
 
@@ -121,6 +127,8 @@ Nella scheda *Generale* si può specificare quanto segue:
 
 </div>
 
+
+
 ### Documento
 
 Nella scheda *Documento* si può specificare quanto segue:
@@ -194,6 +202,8 @@ Nella scheda *Documento* si può specificare quanto segue:
 +++
 
 ![](images/Preferences_General_Tab_Document_it.png )
+
+
 
 ### Selezione
 
@@ -319,6 +329,8 @@ Nella scheda *Editor* è possibile specificare quanto segue
 
 ![](images/Preferences_General_Tab_Editor_it.png )
 
+
+
 ### Console Python 
 
 Queste preferenze controllano il comportamento della [console Python](Python_console/it.md). Questa console può essere aperta utilizzando l\'opzione di menu **Visualizza → Pannelli → Console Python**.
@@ -344,6 +356,8 @@ Nella scheda *Console Python* ({{Version/it|0.20}}) puoi specificare quanto segu
 +++
 
 ![](images/Preferences_General_Tab_Python_console_it.png )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -467,6 +481,8 @@ Nella scheda *Macro* è possibile specificare quanto segue:
 
 ![](images/Preferences_General_Tab_Macro_it.png )
 
+
+
 ### Unità
 
 Nella scheda *Unità* è possibile specificare quanto segue:
@@ -539,9 +555,13 @@ Nella scheda *Help* si può specificare quanto segue:
 
 ![](images/Preferences_General_Tab_Help_it.png )
 
+
+
 ## Visualizzazione
 
 Questa sezione delle preferenze ha tre schede standard: Vista 3D, Navigazione e Colori. Una quarta scheda, Visualizzazione Mesh, viene aggiunta se è stato caricato l\'[Ambiente Mesh](Mesh_Workbench/it.md).
+
+
 
 ### Vista 3D 
 
@@ -616,6 +636,8 @@ Nella scheda *Vista 3D* si può specificare quanto segue:
 
 ![](images/Preferences_Display_Tab_3D_View_it.png )
 
+
+
 ### Navigazione
 
 Nella scheda *Navigazione* si può specificare quanto segue:
@@ -637,6 +659,9 @@ Nella scheda *Navigazione* si può specificare quanto segue:
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    | Se **Ruota verso il più vicino** è selezionato, la vista 3D viene ruotata secondo logica alla posizione più vicina, in base all\'orientamento corrente del cubo, quando si fa clic su una faccia del cubo. In caso contrario, fare clic su una faccia comporterà sempre la stessa rotazione. {{Version/it|0.20}}                                                                           |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                    | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | **Dimensione cubo**                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -682,7 +707,12 @@ Nella scheda *Navigazione* si può specificare quanto segue:
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 
+
+</div>
+
 ![](images/Preferences_Display_Tab_Navigation_it.png )
+
+
 
 ### Colori
 
@@ -725,6 +755,8 @@ Nella scheda *Colori* si può specificare quanto segue:
 +++
 
 ![](images/Preferences_Display_Tab_Colors_it.png )
+
+
 
 ### Visualizzazione Mesh 
 
@@ -771,9 +803,13 @@ Nella scheda *Visualizzazione Mesh* puoi specificare quanto segue:
 
 ![](images/Preferences_Display_Tab_Mesh_view_it.png )
 
+
+
 ## Ambienti di lavoro 
 
 Questa sezione delle preferenze ha un\'unica scheda: Ambienti di Lavoro Disponibili.
+
+
 
 ### Ambienti Disponibili 
 
@@ -792,6 +828,8 @@ Per un elenco delle preferenze relative all\'ambiente di lavoro, vedere [Prefere
 ## Addon Manager 
 
 Questa sezione delle preferenze ha un\'unica scheda: Opzioni di Addon manager.
+
+
 
 ### Opzioni di Addon manager 
 
@@ -861,6 +899,8 @@ To remove a repository select it in the list and press the **<img src="images/Li
 
 Le preferenze Importa/Esporta influiscono sulla modalità di importazione ed esportazione dei file. Sono descritte nella pagina [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
 
+
+
 ## Preferenze relative agli Ambienti di Lavoro 
 
 Le preferenze per gli ambienti di lavoro integrati sono elencate nei link seguenti. Questi collegamenti sono elencati anche in [:Category:Preferences](:Category_Preferences.md). Alcuni ambienti di lavoro non hanno preferenze.
@@ -897,6 +937,8 @@ Le preferenze per gli ambienti di lavoro integrati sono elencate nei link seguen
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 Per un esempio di script, vedere [Modifica parametri](Std_DlgParameter/it.md).
+
+
 
 ## Correlazioni
 

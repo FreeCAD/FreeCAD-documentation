@@ -1,5 +1,7 @@
 # <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/pt-br
 
+
+
 ## Introdução
 
 The <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md) is used to produce basic technical drawings from 3D models created with another workbench such as [Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), or [Arch](Arch_Workbench.md), or imported from other applications. Each drawing is a Page, which can contain various Views of drawable objects such as Part::Features, PartDesign::Bodies, App::Part groups, and Document Object groups. The resulting drawings can be used for things like documentation, manufacturing instructions, contracts, permits, etc.
@@ -125,7 +127,9 @@ Linear dimensions can be based on two points, on one line, or on two lines.
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Insert Balloon Annotation](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension - EXPERIMENTAL](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
 
 ## Annotations
 

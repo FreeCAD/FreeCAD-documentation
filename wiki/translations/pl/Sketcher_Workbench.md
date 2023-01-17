@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Środowisko pracy Szkicownik](Sketcher_Workbench/pl.md) służy do tworzenia geometrii 2D przeznaczonych do wykorzystania w Środowiskach pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/pl.md) i innych. Ogólnie rzecz biorąc, rysunek 2D jest uważany za punkt wyjścia dla większości modeli CAD, ponieważ szkic 2D może być **wyciągany** do tworzenia kształtu 3D. Kolejne szkice 2D mogą być wykorzystywane do tworzenia następnych elementów detalu, takich jak kieszenie, grzbiety lub wytłoczki na górze uprzednio zbudowanych kształtów 3D. Wraz z operacjami logicznymi zdefiniowanymi w Środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/pl.md), Sketcher stanowi podstawę [konstrukcyjnej geometrii bryłowej](Constructive_solid_geometry.md) *(CSG)* metody budowania brył. Ponadto wraz z operacjami dostępnymi w <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> środowisku [Projekt części](PartDesign_Workbench/pl.md) Szkicownik stanowi również podstawę do metody tworzenia brył.
@@ -12,17 +14,25 @@ FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Śr
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *W pełni związany szkic.*
 
+
+
 ## Podstawy szkicowania z wiązaniami 
 
 Aby wyjaśnić, jak działa Szkicownik, przydatne może być porównanie go z \"tradycyjnym\" sposobem sporządzania projektu.
+
+
 
 #### Kreślenie tradycyjne 
 
 Tradycyjna metoda rysowania CAD pochodzi od dawnej [deski kreślarskiej](http://en.wikipedia.org/wiki/Drawing_board). [Rzuty prostopadłe *(2D)*](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) są kreślone ręczenie z przeznaczeniem do tworzenia rysunków technicznych. Obiekty są rysowane precyzyjnie w zamierzonej skali lub wymiarze. Jeśli chcesz narysować poziomą linię o długości 100mm startującą w punkcie (0,0), musisz aktywować narzędzie linii, kliknąć na ekranie bądź wprowadzić współrzędne (0,0) dla pierwszego punktu, następnie wykonać kolejne kliknięcie lub wprowadzić współrzędnie dla drugiego punktu (0,100). Ewentualnie możesz narysować linię bez określanie jej pozycji i przesunąć ją później. Kiedy skończysz rysować geometrię, nadajesz jej wymiary.
 
+
+
 #### Szkicowanie z więzami 
 
 **Szkicownik** odchodzi od tej logiki. Obiekty nie muszą być rysowane dokładnie tak, jak zamierzasz, ponieważ zostaną później zdefiniowane przez wiązania. Obiekty mogą być rysowane luźno i tak długo, jak długo pozostają niezwiązane, mogą być modyfikowane. Są one w efekcie pływające i mogą być przesuwane, rozciągane, obracane, skalowane i tak dalej. Daje to dużą elastyczność w procesie projektowania.
+
+
 
 #### Czym są wiązania 
 
@@ -34,12 +44,16 @@ Wiele obiektów może być ze sobą związanych. Dwie linie mogą być połączo
 
 Są dwa typy wiązań: geometryczne i wymiarowe. Są one opisane dokładnej w poniższej sekcji [Narzędzia](#Narzędzia.md).
 
+
+
 #### Do czego Szkicownik nie jest dobry 
 
 Szkicownik nie jest przeznaczony do wykonywania planów 2D. Gdy szkice zostaną użyte do wygenerowania bryły, są one automatycznie ukrywane. Ograniczenia są widoczne tylko w trybie edycji szkicu.
 
 Jeśli potrzebujesz stworzyć tylko widoki 2D do druku, a nie chcesz tworzyć modeli 3D, sprawdź Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md). W przeciwieństwie do elementów szkicownika, szkice obiektów nie używają wiązań. Są to proste kształty zdefiniowane w momencie tworzenia. Zarówno środowisko Rysunek roboczy jak i Szkicownik mogą być używane do rysowania geometrii 2D i tworzenia brył 3D, chociaż ich preferowane zastosowanie jest inne.
 Szkicownik jest zwykle używany razem z środowiskiem [Część](Part_Workbench/pl.md) i [Projekt części](PartDesign_Workbench/pl.md) do tworzenia brył. Środowisko Rysunek roboczy jest zwykle używane do wykonywania prostych rysunków planarnych na siatce, jak podczas rysowania architektonicznego planu piętra. W takich sytuacjach Środowisko Rysunek roboczy jest najczęściej używane razem ze Środowiskiem pracy [Architektura](Arch_Workbench/pl.md). Narzędzie [Draft2Sketch](Draft_Draft2Sketch.md) konwertuje obiekt środowiska Rysunek roboczy na obiekt Szkicownika i vice versa. Wiele narzędzi, które potrzebują elementu 2D jako wejścia do pracy z każdym typem obiektu wykonuje automatycznie konwersję wewnętrzną.
+
+
 
 ## Szkicowanie - schemat pracy 
 
@@ -51,9 +65,13 @@ Wewnątrz zamkniętego obszaru możemy mieć mniejsze powierzchnie nie zachodzą
 
 Gdy szkic jest w pełni związany, jego elementy zmienią kolor na zielony, geometria konstrukcji pozostanie niebieska. Zazwyczaj jest on gotowy w tym miejscu i nadaje się do wykorzystania przy tworzeniu bryły przestrzennej. Jednakże, gdy okno dialogowe Szkic jest zamknięte, warto przejść do Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i uruchomić funkcję **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)**, aby upewnić się, że w Szkicu nie ma elementów, które mogą spowodować późniejsze problemy.
 
+
+
 ## Przybory
 
 Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu głównym **Szkicownik**, które pojawia się po załadowaniu tego środowiska pracy.
+
+
 
 ### Informacje ogólne 
 
@@ -78,6 +96,8 @@ Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu główn
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Odbicie lustrzane](Sketcher_MirrorSketch.md): Odbicie szkicu wzdłuż osi x, osi y, lub punktu początku układu współrzędnych.
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Przerwij operację](Sketcher_StopOperation/pl.md): w trybie edycji przerywa bieżącą operację, niezależnie od tego, czy jest to rysowanie, ustawianie wiązań, itp.
+
+
 
 ### Geometria w szkicowniku 
 
@@ -155,7 +175,7 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Rozszerz krawędź \...](Sketcher_Extend.md): Wydłuża linię lub łuk do linii granicznej, łuku, elipsy, łuku elipsy lub punktu w przestrzeni.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Podziel](Sketcher_Split/pl.md): Dzieli linię lub łuk na dwie części, przekształca okrąg w łuk, zachowując większość ograniczeń. {{Version/pl|0.20}}
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Podziel](Sketcher_Split/pl.md): Dzieli krawędź na dwie części z zachowaniem większości więzów. {{Version/pl|0.20}}
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria zewnętrzna](Sketcher_External/pl.md): Tworzy krawędź połączoną z geometrią zewnętrzną.
 
@@ -163,9 +183,13 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md): Przełącza geometrię szkicu z / do trybu konstrukcyjnego. Geometria konstrukcji jest pokazana na niebiesko i jest pomijana poza trybem edycji szkicu.
 
+
+
 ### Wiązania w szkicowniku 
 
 Wiązania służą do definiowania długości, ustalania reguł pomiędzy elementami szkicu oraz blokowania szkicu wzdłuż osi pionowej i poziomej. Niektóre z tych wiązań wymagają użycia [pomocy](Sketcher_helper_constraint.md).
+
+
 
 #### Więzy geometrii 
 
@@ -191,6 +215,8 @@ Ograniczenia te nie są zależne od danych liczbowych.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Utwórz wiązanie zablokowania](Sketcher_ConstrainBlock.md): blokuje ruch krawędzi, to znaczy zapobiega zmianie aktualnego położenia wierzchołków. Szczególnie przydatne powinno być ustalenie pozycji B-splajnów. Patrz [temat na forum Block Constraint](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+
+
 #### Wiązania wymiarów 
 
 Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można użyć [wyrażeń](Expressions/pl.md). Dane mogą być pobierane ze środowiska pracy [arkusza kalkulacyjnego](Spreadsheet_Workbench/pl.md).
@@ -213,11 +239,15 @@ Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można u�
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Ustaw kąt linii \...](Sketcher_ConstrainAngle/pl.md): Określa kąt wewnętrzny między dwiema wybranymi liniami.
 
+
+
 #### Wiązania specjalne 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Wiązanie refrakcji](Sketcher_ConstrainSnellsLaw/pl.md): Wiąże dwie linie zgodnie z prawem załamania światła, aby symulować światło przechodzące przez interfejs.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Zwiąż do wewnątrz](Sketcher_ConstrainInternalAlignment.md): Wyrównuje wybrane elementy do wybranego kształtu *(np. linia staje się główną osią elipsy)*.
+
+
 
 #### Narzędzia wiązań 
 
@@ -226,6 +256,8 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Przełącza pasek narzędzi \... do trybu odniesienia](Sketcher_ToggleDrivingConstraint.md): Przełącza pasek narzędzi lub wybrane wiązania do/z trybu odniesienia.
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Aktywuj / dezaktywuj wiązanie](Sketcher_ToggleActiveConstraint.md): Włączenie lub wyłączenie już istniejącego wiązania. {{Version/pl|0.19}}
+
+
 
 ### Narzędzia szkicownika 
 
@@ -271,6 +303,8 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Usuń wszystkie wiązania](Sketcher_DeleteAllConstraints/pl.md): Usuwa wszystkie wiązania ze szkicu.
 
+
+
 ### Narzędzia szkicownika dla krzywych złożonych 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md)
@@ -295,15 +329,21 @@ To narzędzie jest przestarzałe, nie będzie dostępne w przyszłych wydaniach 
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Wstaw węzeł](Sketcher_BSplineInsertKnot/pl.md), <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Połącz krzywe](Sketcher_JoinCurves/pl.md), {{Version/pl|1.0}}
+
+
 
 ### Wirtualna przestrzeń szkicownika 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Przełącz przestrzeń wirtualną](Sketcher_SwitchVirtualSpace/pl.md): Umożliwia ukrycie wszystkich wiązań szkicu i ponowne ich wyeksponowanie.
 
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Ustawienia](Sketcher_Preferences.md): Konfiguracja Środowiska pracy **Szkicownik**.
+
+
 
 ## Dobre praktyki 
 
@@ -321,12 +361,16 @@ Każdy użytkownik CAD z biegiem czasu rozwija swój własny sposób pracy, ale 
     ogólne wiązanie długości, styczność krawędzi do krawędzi, ustalenie punktu do związania linii, wiązanie symetrii.
 -   Jeśli masz wątpliwości co do poprawności szkicu po jego ukończeniu *(elementy zmieniają kolor na zielony)*, zamknij okno dialogowe Szkicownik, przejdź do środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i uruchom **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)**.
 
+
+
 ## Poradniki
 
 -   [Poradnik dla szkicownika](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104) według chrisb. Jest to 70-stronicowy dokument PDF, który służy za szczegółową instrukcję obsługi szkicownika. Wyjaśniono w nim podstawy użytkowania środowiska pracy Szkicownik i omówiono wiele szczegółów dotyczących tworzenia kształtów geometrycznych i każdego z ograniczeń.
 -   [Podstawy Środowiska pracy Szkicownik](Basic_Sketcher_Tutorial/pl.md) dla początkujących.
 -   [Szkicownik Mikro poradnik - Praktyki dotyczące wiązań](Sketcher_Micro_Tutorial_-_Constraint_Practices/pl.md)
 -   [Szkicownik: wymagania wobec szkicu](Sketcher_requirement_for_a_sketch/pl.md) Minimalne wymagania dotyczące szkicu i kompletne określenie szkicu.
+
+
 
 ## Tworzenie skryptów 
 

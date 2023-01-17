@@ -71,7 +71,13 @@ Lo sviluppo di FreeCAD è sempre attivo.
 
 ## Moduli aggiuntivi e macro 
 
+
+<div class="mw-translate-fuzzy">
+
 La comunità di FreeCAD offre numerosi moduli e macro aggiuntivi. Dalla versione 0.17 essi possono essere facilmente installati direttamente da FreeCAD usando il [Gestore delle estensioni (Addon manager)](Std_AddonMgr/it.md) <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
+
+
+</div>
 
 
 

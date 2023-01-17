@@ -16,6 +16,8 @@ L\'outil Cote de rayon ajoute une dimension de rayon à une vue. La cote peut ê
 <img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
 *Mesurer un cercle, indiquant le rayon*
 
+
+
 ## Comment faire 
 
 1.  Sélectionnez un cercle ou un arc de cercle dans le dessin. (Remarquez que certains arcs qui semblent être circulaires sont en fait des ellipses ou des B-splines. Vous ne pouvez pas créer de cote de rayon dans ces cas-là)
@@ -28,11 +30,15 @@ Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans
 
 ## Limitations
 
-Les objets Dimension sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+
+
 
 ## Propriétés
 
 Voir [Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
+
+
 
 ## Script
 

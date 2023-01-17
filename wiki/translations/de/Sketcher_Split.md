@@ -11,11 +11,21 @@
 
 # Sketcher Split/de
 
+
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die meisten Beschränkungen dupliziert werden, so dass beide Teile bis auf die Teilungspunktlage beschränkt bleiben. Im speziellen Fall eines Kreises wird dieser in einen Bogen mit losen Enden umgewandelt, wobei die bestehenden Kreisbeschränkungen auf den neuen Bogen übertragen werden.
 
+
+</div>
+
 ![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
+
+
 
 ## Anwendung
 
@@ -24,9 +34,13 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 3.  Aus den Linien- und Bogenkanten werden zwei neue erstellt, die an dem angeklickten Punkt verbunden werden. Ein Kreis wird in einen Bogen umgewandelt, der denselben Mittelpunkt und dieselben Randbedingungen wie der ursprüngliche Kreis hat.
 4.  Durch Drücken von **Esc** oder der rechten Maustaste wird die Funktion beendet.
 
+
+
 ## Begrenzungen
 
--   Für Ellipse, Parabel, Hyperbel und B-Spline wird der Prozess noch nicht unterstützt.
+-   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
+
+
 
 ## Hinweise
 

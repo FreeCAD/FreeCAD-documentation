@@ -9,14 +9,18 @@
 
 # TechDraw View/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Zeichnungsseite hinzu. Dies ist der Grundbaustein des TechDraw-Arbeitsbereichs. Die meisten anderen Ansichten werden in irgendeiner Weise von dieser Ansicht (dem View-Objekt) abgeleitet.
 
-Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen. Es können [Skizzen](Sketcher_Workbench/de.md), [PartDesign Bodies](PartDesign_Body/de.md), [Draft Objekte](Draft_Workbench/de.md) usw. Ansicht extrahiert auch beliebige Formen aus Objekten innerhalb eines [Std Part](Std_Part/de.md) oder einer [Std Gruppe](Std_Group/de.md).
+Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen. Es können [Skizzen](Sketcher_Workbench/de.md), [PartDesign Bodies](PartDesign_Body/de.md), [Draft Objekte](Draft_Workbench/de.md) usw. ausgewählt werden. Ansicht extrahiert auch beliebige Formen aus Objekten innerhalb eines [Std Part](Std_Part/de.md) oder einer [Std Gruppe](Std_Group/de.md).
 
 ![](images/TechDraw_View_example.png ) 
 *Ansicht eines Würfel-Volmenkörpers mit verdeckten Kanten*
+
+
 
 ## Anwendung
 
@@ -30,7 +34,11 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
     1.  Das gewünschte Zeichnungsblatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 
+
+
 ## Eigenschaften
+
+
 
 ### Daten
 
@@ -117,6 +125,8 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 -    {{PropertyData/de|Focus|Distance}}: Abstand von der Kamera zur Projektionsebene für perspektivische Projektionen. Muss auf das Objekt eingestellt werden. Zu weit und die Perspektive geht verloren, zu nah und das Objekt wird verzerrt.
 
+
+
 ### Ansicht
 
 
@@ -166,6 +176,8 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 -    **Line Width|Length**: Die Linienstärke von sichtbaren Kanten. Siehe [Liniengruppen](TechDraw_LineGroup/de.md).
 
 \(1\) Diese Eigenschaften sind allen Ansichtstypen gemeinsam.
+
+
 
 ## Skripten
 

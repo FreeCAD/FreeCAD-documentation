@@ -1,5 +1,7 @@
 # <img alt="TechDraw Arbeitsbereichssymbol" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/de
 
+
+
 ## Einführung
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw](TechDraw_Workbench/de.md) dient zur Erstellung einfacher technischer Zeichnungen aus 3D-Modellen, die mit einem anderen Arbeitsbereich erstellt wurden, wie z.B. [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md), [Arch](Arch_Workbench/de.md) oder die aus anderen Anwendungen importiert wurden. Jede Zeichnung ist ein Blatt, das verschiedene Ansichten von zeichnungsfähigen Objekten wie Part-Formelemente (Part::Features), PartDesign-Körper (PartDesign::Bodies), gruppierte Std-Parts (App::Part groups) und Std-Gruppen (App::DocumentObjectGroups) enthalten kann. Die daraus entstandenen Zeichnungen können für Dokumentationen, Fertigungsanweisungen, Verträge, Genehmigungen usw. verwendet werden.
@@ -15,6 +17,8 @@ Wenn das Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
+
+
 ## Blätter (Seiten) 
 
 Diese Werkzeuge sind zum Erstellen von Zeichnungsblättern (Page-Objekte).
@@ -26,6 +30,8 @@ Diese Werkzeuge sind zum Erstellen von Zeichnungsblättern (Page-Objekte).
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md): Erzwingt eine Aktualisierung des ausgewählten Zeichnungsblattes. {{Version/de|0.19}}
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Alle Seiten drucken](TechDraw_PrintAll/de.md): Druckt alle Zeichnungsblätter eines Dokuments. {{Version/de|1.0}}
+
+
 
 ## Ansichten
 
@@ -57,6 +63,8 @@ Dies sind Werkzeuge zum Erstellen von Ansichten (View-Objekten).
 
 -   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:32px;"> [Projiziere Formstück](TechDraw_ProjectShape/de.md): erzeugt Projektionen von Formstücken im [3D view](3D_view.md). <small>(v0.20)</small> 
 
+
+
 ## Stapeln
 
 Diese Werkzeuge ändern die Stapel Reihenfolge welche die Tiefe der Sichtbarkeit von Ansichten auf einer Seite kontrolliert.
@@ -71,6 +79,8 @@ Diese Werkzeuge ändern die Stapel Reihenfolge welche die Tiefe der Sichtbarkeit
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Senke die Ansichten um eine Stufe](TechDraw_StackDown/de.md): senkt die Ansichten um eine Stufe. {{Version/de|1.0}}
 
+
+
 ## Ausschnittfenster
 
 Dies sind Werkzeuge zum Erstellen und Verwalten von Ausschnittfenstern.
@@ -80,6 +90,8 @@ Dies sind Werkzeuge zum Erstellen und Verwalten von Ausschnittfenstern.
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Ansicht zu Ausschnittsgruppe hinzufügen](TechDraw_ClipGroupAdd/de.md): Fügt eine vorhandene Ansicht zu einer Ausschnittsgruppe hinzu.
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Ansicht aus Ausschnittsgruppe entfernen](TechDraw_ClipGroupRemove/de.md): Entfernt eine Ansicht aus einer Ausschnittsgruppe.
+
+
 
 ## Ausgestaltung
 
@@ -94,6 +106,8 @@ Dies sind Werkzeuge zur Ausgestaltung von Seiten oder Ansichten:
 -   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Bitmap-Grafik einfügen](TechDraw_Image/de.md): fügt ein PNG- oder JPG-[Bitmap](bitmap/de.md)-Bild in eine Seite ein.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Ansichtsrahmen ein- oder ausschalten](TechDraw_ToggleFrame/de.md): schaltet Rahmen und Beschriftungen, die eine Ansicht umgeben, an/aus.
+
+
 
 ## Maße
 
@@ -133,6 +147,10 @@ Lineare Maße können auf zwei Punkten, auf einer Linie oder auf zwei Linien bas
 
 </div>
 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+
+
+
 ## Anmerkungen
 
 Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informationen zu \"markieren\".
@@ -171,9 +189,13 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Füge Oberflächen Fertigungssymbol ein](TechDraw_SurfaceFinishSymbol/de.md): fügt ein Oberflächen Fertigungssymbol ein. {{Version/de|1.0}}
 
+
+
 ## Erweiterungspaket
 
 Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zeichnungen zu verfeinern.
+
+
 
 ### Eigenschaften und Änderungen 
 
@@ -211,6 +233,8 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Formatierung anpassen](TechDraw_ExtensionCustomizeFormat/de.md): Passt die Formatierung von Hinweistexten und Maßeinträgen an. Es können Symbole für Form- und Lagetolerierung (GD&T) und andere Sonderzeichen hinzugefügt werden. {{Version/de|0.20}}
 
+
+
 ### Mittellinien und Gewinde 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Mittellinien einfügen:
@@ -244,6 +268,8 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
   - <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Parallel](TechDraw_ExtensionLineParallel/de.md): Zeichne eine Linie parallel zu einer Anderen durch einen Konstruktionspunkt. <small>(v0.20)</small> 
 
   - <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Rechtwinkelig](TechDraw_ExtensionLinePerpendicular/de.md): Zeichne eine Linie im rechten Winkel auf eine Andere, durch einen Konstruktionspunkt. <small>(v0.20)</small> 
+
+
 
 ### Maße 
 
@@ -285,6 +311,8 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Genauigkeit verkleinern](TechDraw_ExtensionDecreaseDecimal/de.md): verkleinere die Anzahl der Dezimalstellen . <small>(v0.20)</small> 
 
+
+
 ## Importieren/Exportieren
 
 Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
@@ -293,6 +321,8 @@ Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Seite als DXF-Datei exportieren](TechDraw_ExportPageDXF/de.md): speichert die aktuelle Seite als [DXF](DXF/de.md)-Datei.
 
+
+
 ## Zusatzfunktionen
 
 -   [Liniengruppe](TechDraw_LineGroup/de.md): um das Aussehen verschiedener Linientypen zu steuern.
@@ -300,9 +330,13 @@ Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
 -   [Schraffur](TechDraw_Hatching/de.md): Erklärung der verschiedenen Schraffurtechniken.
 -   [Geometrische Bemaßung und Tolerierung](TechDraw_Geometric_dimensioning_and_tolerancing/de.md) (GD&T): Erklärung zur Form- und Lagetolerierung.
 
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Einstellungen](TechDraw_Preferences/de.md): Einstellungen für die Standardwerte der Zeichnungsseite wie Projektionswinkel, Farben, Textgrößen und Linienstile.
+
+
 
 ## Skripten
 
@@ -312,6 +346,8 @@ Die TechDraw-Werkzeuge können in [Makros](Macros/de.md) oder von der [Python](P
 -   [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md)
 -   [Editierbare Textfelder](TechDraw_PageDefault/de#Editierbare_Textfelder.md)
 
+
+
 ## Einschränkungen
 
 -   TechDraw Zeichnungen und ihre API sind nicht mit dem [Drawing Arbeitsbereich](Drawing_Workbench/de.md) austauschbar. Es ist möglich, Zeichnungsseiten mit einem Pythonskript (`moveViews.py`) in TechDraw Seiten umzuwandeln.
@@ -319,6 +355,8 @@ Die TechDraw-Werkzeuge können in [Makros](Macros/de.md) oder von der [Python](P
 -   Es gibt geringfügige Unterschiede bei der Angabe editierbarer Texte in [SVG](SVG/de.md)-Vorlagen im Vergleich zum Zeichnungsmodul. In TechDraw beeinflusst die Skalierung des SVG-Dokuments die Position der editierbaren Textfelder. Weitere Einzelheiten findet man in der Forumsdiskussion [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
 -   TechDraw Objekte dürfen in der [Baumansicht](Tree_view/de.md) nicht ausgeschnitten, kopiert und eingefügt werden, da dies im Allgemeinen nicht gut funktioniert.
 -   TechDraw Objekte dürfen in der [Baumansicht](Tree_view/de.md) nicht mit der Maus bewegt werden.
+
+
 
 ## Tutorien
 

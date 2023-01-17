@@ -6,6 +6,8 @@
 
 Więcej opcji znajdziesz w [Złożenie 3](Assembly3_Workbench/pl.md) lub [Złożenie 4](Assembly4_Workbench/pl.md). Te środowiska pracy są również inspirowane środowiskiem Złożenie 2, ale nie są z nim kompatybilne.}}
 
+
+
 ## Wprowadzenie
 
 [Złożenie 2](Assembly2_Workbench/pl.md) jest środowiskiem montażowym dla FreeCAD v0.15 z obsługą importu części z plików zewnętrznych.
@@ -13,6 +15,8 @@ Więcej opcji znajdziesz w [Złożenie 3](Assembly3_Workbench/pl.md) lub [Złoż
 Jak podaje jego autor [na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), nie jest on już utrzymywany od 2016 roku, dlatego może mieć problemy z FreeCAD od wersji **0.17**. Dobrą alternatywą jest nowszy i aktywnie utrzymywany [A2plus](A2plus_Workbench/pl.md).
 
 ![](images/Assembly2_example.jpg )
+
+
 
 ## Użycie
 
@@ -36,11 +40,15 @@ Ograniczenia
 -   Słaby solver wiązań, który może zawieść lub zajmować zbyt dużo czasu dla skomplikowanych złożeń,
 -   nieobsługiwane cofanie i inne podobne funkcje.
 
+
+
 ## Bibliografia
 
 -   Autor: hamish
 -   Strona domowa: [Złożenie 2](https://github.com/hamish2014/FreeCAD_assembly2)
 -   Kod źródłowy na githubie: [Złożenie 2](https://github.com/hamish2014/FreeCAD_assembly2)
+
+
 
 ## Przybory
 
@@ -75,15 +83,21 @@ Dodatkowe
 -   <img alt="" src=images/Assembly2_Preferences.png  style="width:32px;"> Preferencje
 -   <img alt="" src=images/Assembly2_Assembly2.png  style="width:32px;"> Ikonka środowiska pracy Złożenie 2
 
+
+
 ## Instalacja
+
+
 
 ### Instalacja automatyczna 
 
 To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
+
+
 ### Z repozytorium GitHub 
 
-Aby użyć tego środowiska pracy sklonuj to repozytorium git pod swoim katalogiem FreeCAD Mod i zainstaluj biblioteki python pyside i numpy. W systemie Linux opartym na Debianie, takim jak Ubuntu, instalacja może być wykonana przez BASH w następujący sposób:
+Aby użyć tego środowiska pracy sklonuj to repozytorium git pod swoim katalogiem FreeCAD Mod i zainstaluj biblioteki Python pyside i numpy. W systemie Linux opartym na Debianie, takim jak Ubuntu, instalacja może być wykonana przez BASH w następujący sposób:
 
 
 ```python
@@ -126,6 +140,8 @@ Pyside i Numpy są zintegrowane z FreeCAD 0.15 dev-Snapshots, więc te pakiety P
 
 Aby wykonać aktualizację do najnowszej wersji, należy usunąć folder assembly2 i ponownie pobrać repozytorium git.
 
+
+
 ## Odnośniki internetowe 
 
 -   Wiki środowisk pracy:
@@ -135,6 +151,8 @@ Aby wykonać aktualizację do najnowszej wersji, należy usunąć folder assembl
 -   Filmy: [Środowisko pracy FreeCAD Złożenie 2 w akcji](https://www.youtube.com/watch?v=dhaYJKDk4GI), [Złożenie 2 demonstracja nowego solvera](http://youtu.be/ufhyUxQkeC0)
 -   Pliki:
 -   Zgłaszanie błędów: Proszę zgłaszać błędy na [Github](https://github.com/hamish2014/FreeCAD_assembly2/issues)
+
+
 
 ## Inne użyteczne odnośniki 
 

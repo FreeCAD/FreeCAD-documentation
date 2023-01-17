@@ -11,6 +11,8 @@
 
 # Draft Dimension/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Maß** [erstellt](#Erstellen.md) ein [lineares Maß](#Anwendung_lineares_Maß.md), ein [radiales Maß](#Anwendung_radiales_Maß.md) oder ein [Winkelmaß](#Anwendung_Winkelmaß.md). Der Befehl kann auch verwendet werden, um mit [Std AbstandMessen](Std_MeasureDistance/de.md) erstellte Objekte [umzuwandeln](#Umwandeln.md).
@@ -22,9 +24,13 @@ Draft-Maße können auf einem [TechDraw](TechDraw_Workbench/de.md)-Zeichnungsbla
 <img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;"> 
 *Durch drei Punkte definiertes lineares Maß (Längenmaß)*
 
+
+
 ## Erstellen
 
 Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
+
+
 
 ### Anwendung lineares Maß 
 
@@ -55,6 +61,8 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
         -   Den Mauszeiger links oder rechts neben die Kante oder die Punkte bewegen.
         -   Die **Shift**-Taste dücken und halten, den Mauszeiger bewegen und einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen.
 
+
+
 ### Anwendung radiales Maß 
 
 1.  Wahlweise eine kreisförmige Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
@@ -76,6 +84,8 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
     -   Für ein radiales Maß:
         -   Die **Shift**-Tast drücken und halten und einen Punkt in der [3D-Ansicht](3D_view/de.md).
 
+
+
 ### Anwendung Winkelmaß 
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
@@ -93,6 +103,8 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
 4.  Zum Positionieren der Maßlinie einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen.
 5.  Der angezeigte Winkel hängt von den Kanten und dem ausgewählten Punkt ab.
 
+
+
 ### Optionen
 
 Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
@@ -109,7 +121,11 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
 
 -    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl fertigzustellen.
 
+
+
 ## Umwandeln
+
+
 
 ### Anwendung
 
@@ -120,9 +136,19 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
     -   Use the keyboard shortcut: **D** then **I**.
 3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
 
+
+
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Lineare und radiale Draft-Maße können mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) editiert werden.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -219,6 +245,8 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 -    **Support|Link|hidden**: not used.
 
+
+
 ### Ansicht
 
 
@@ -231,7 +259,7 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|2D}} the text will be displayed in a plane defined by the **Normal** of the measurement. If it is {{value|3D}} the text will always face the camera. Note that these values are switched compared to [Draft Texts](Draft_Text.md). This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -248,7 +276,7 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 -    **Flip Arrows|Bool**: specifies whether to flip the orientation of the symbols at the ends of the dimension line or arc. Only works if the symbols are arrows.
 
--    **Line Color|Color**: specifies the color of the dimension including the text.
+-    **Line Color|Color**: specifies the color of the dimension line or arc, and the arrows.
 
 -    **Line Width|Float**: specifies the width of the lines or arc belonging to the dimension.
 
@@ -265,6 +293,8 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 -    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
 
+-    **Text Color|Color**: specifies the color of the text. <small>(v1.0)</small> 
+
 -    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
 
 -    **Text Spacing|Length**: specifies the space between the text and the dimension line or arc.
@@ -277,6 +307,8 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 -    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
 
 -    **Unit Override|String**: specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
+
+
 
 ## Skripten
 

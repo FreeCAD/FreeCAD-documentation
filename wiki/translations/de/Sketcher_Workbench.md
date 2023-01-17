@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der FreeCAD-Arbeitsbereich <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/de.md) wird verwendet, um 2D-Geometrien für den Gebrauch in den Arbeitsbereichen <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) und anderen Arbeitsbereichen zu erstellen. Im Allgemeinen wird eine 2D-Zeichnung als Ausgangspunkt für die meisten CAD-Modelle angesehen, da eine 2D-Skizze \"extrudiert\" werden kann, um eine 3D-Form zu erstellen; weitere 2D-Skizzen können verwendet werden, um andere Merkmale wie Taschen, Stege oder Extrusionen auf den zuvor erstellten 3D-Formen zu erstellen. Zusammen mit booleschen Operationen, definiert im Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md), bildet der Sketcher die Grundlage der [Konstruktive-Festkörpergeometrie](constructive_solid_geometry/de.md)-Methode (engl. constructive solid geometry (CSG) method) für den Aufbau von Volumenkörpern. Darüber hinaus bildet der Sketcher zusammen mit den Abläufen des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) auch die Grundlage der Methodik der [Formelemente-Bearbeitung](feature_editing/de.md) zum erstellen von Geometrieelementen, um Volumenkörper zu erzeugen.
@@ -12,17 +14,25 @@ Der Arbeitsbereich Sketcher bietet *Randbedingungen* (auch: Ein-/Beschränkungen
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Eine vollständig bestimmte Skizze‎*
 
+
+
 ## Grundlagen des Skizzierens mit Randbedingungen 
 
 Um zu erklären, wie der Sketcher arbeitet, ist es sinnvoll, das Vorgehen mit der traditionellen Art des Entwerfens zu vergleichen.
+
+
 
 #### Traditionelle Zeichnungserstellung 
 
 Die traditionelle Art des CAD-Zeichnens leitet sich vom Zeichnen am [Reißbrett](https://de.wikipedia.org/wiki/Rei%C3%9Fbrett) ab. [Orthogonale (2D-) Ansichten](https://de.wikipedia.org/wiki/Orthogonalprojektion) werden von Hand gezeichnet, um technische Zeichnungen (auch Blaupausen genannt) zu erstellen. Objekte werden genau in der vorgesehenen Größe oder den Abmaßen entsprechend gezeichnet. Soll eine horizontale Linie von 100 mm Länge gezeichnet werden, die bei (0,0) beginnt, aktiviert man das Linienwerkzeug, klickt auf auf den Bildschirm oder gibt die Koordinaten für den ersten Punkt (0,0) ein, klickt ein zweites Mal oder gibt die Koordinaten des zweiten Punktes (100,0) ein. Oder man zeichnet die Linie ohne Rücksicht auf ihre Position und verschiebt sie hinterher. Wenn die Geometrien fertig gezeichnet sind, werden noch Maße hinzugefügt.
 
+
+
 #### Skizzieren mit Randbedingungen 
 
 Der **Sketcher** (Skizzierer) entfernt sich von dieser Logik. Objekte müssen (zuerst) nicht genau so gezeichnet werden, wie man es (letztlich) beabsichtigt, da sie später durch Randbedingungen festgelegt werden. Objekte können grob gezeichnet werden und solange sie nicht festgelegt sind, können sie verändert werden. Sie sind gewissermaßen *schwebend* und können verschoben, gestreckt, gedreht, skaliert, usw. werden. Das ergibt eine große Flexibilität im Entwurfsprozess.
+
+
 
 #### Was sind Randbedingungen? 
 
@@ -34,11 +44,15 @@ Mehrere Objekte können relativ zueinander ausgerichtet werden. Zwei Linien kön
 
 Es gibt zwei Arten von Randbedingungen: geometrische und maßliche. Sie sind im Abschnitt [\'Werkzeuge\'](#Werkzeuge.md) weiter unten ausführlich beschrieben.
 
+
+
 #### Wofür der Skizzierer nicht geeignet ist 
 
 Der Sketcher ist nicht für die Herstellung von (2D-) Zeichnungen (Blaupausen) vorgesehen. Sobald Skizzen verwendet werden, um eine Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Randbedingungen sind nur im Skizzenbearbeitungsmodus sichtbar.
 
 Falls nur 2D-Ansichten zum Ausdrucken erzeugt werden sollen und keine 3D-Modelle, sollte man einen Blick auf den Arbeitsbereich [Draft](Draft_Workbench/de.md) werfen. Anders als Sketcher-Elemente, verwenden Draft-Objekte keine Randbedingungen; sie sind einfache Formen, die im Augenblick der Erstellung definiert werden. Sowohl Draft als auch Sketcher können zum Zeichnen von 2D-Geometrien und zum Erzeugen von 3D-Volumenkörpern verwendet werden, obwohl ihre bevorzugte Verwendung unterschiedlich ist.Der Sketcher wird normalerweise mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) verwendet um Volumenkörper zu erzeugen. Draft wird normalerweise für einfache ebene Zeichnungen verwendet über einem Raster, so wie beim Zeichnen eines Architektur Grundrisses; in solchen Situationen werden Draft-Objekte hauptsächlich zusammen mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) verwendet. Das Werkzeug [Zeichnung zu Skizze](Draft_Draft2Sketch/de.md) wandelt ein Draft-Objekt in ein Skizzenobjekt und umgekehrt. Viele Werkzeuge, die ein 2D-Element als Eingabe benötigen, arbeiten mit beiden Objekttypen, da intern eine automatische Umwandlung erfolgt.
+
+
 
 ## Arbeitsablauf beim Skizzieren 
 
@@ -50,9 +64,13 @@ Innerhalb des geschlossenen Bereiches können sich kleinere nicht überlappende 
 
 Sobald eine Skizze vollständig bestimmt ist, wechselt die Farbe der Skizzenelemente auf grün; Konstruktionsgeometrie bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D-Volumenkörpers geeignet. Nach dem Schließen des Skizzendialogs, kann es aber nützlich sein, zum Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) zu wechseln und **[<img src=images/Part_CheckGeometry.svg style="width:24px"> [GeometriePrüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Elemente enthält, die später zu Problemen führen können.
 
+
+
 ## Werkzeuge
 
 Die Werkzeuge des Arbeitsbereichs Sketcher sind alle im Sketch-Menü zu finden, das beim Laden des Arbeitsbereichs erscheint.
+
+
 
 ### Allgemein
 
@@ -77,6 +95,8 @@ Die Werkzeuge des Arbeitsbereichs Sketcher sind alle im Sketch-Menü zu finden, 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎  style="width:32px;"> [Skizze spiegeln](Sketcher_MirrorSketch/de.md): Spiegelt eine Skizze entlang der X-Achse, der Y-Achse oder dem Ursprung.
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Vorgang beenden](Sketcher_StopOperation/de.md): Wenn der Bearbeitungsmodus aktiv ist, wird der aktuellen Vorgang beendet, egal ob es sich um das Zeichnen oder das Festlegen von Randbedingungen usw. handelt.
+
+
 
 ### Sketcher-Geometrien 
 
@@ -154,7 +174,13 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Kante verlängern](Sketcher_Extend/de.md): Verlängert eine Linie oder einen Kreisbogen bis zu einer Grenzlinie, einem Bogen, einer Ellipse, einem Ellipsenbogen oder einem Punkt im Raum.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Kante teilen](Sketcher_Split/de.md): Teilt eine Linie oder einen Bogen in zwei, wandelt einen Kreis in einen Bogen um und behält dabei die meisten Randbedingungen bei. {{Version/de|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md): Erstellt eine mit externer Geometrie verknüpfte Kante.
 
@@ -162,9 +188,13 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Umschalten der Hilfsgeometrie](Sketcher_ToggleConstruction/de.md): Schaltet die Skizzengeometrie vom/zum Konstruktionsmodus um. Die Konstruktionsgeometrie wird in Blau angezeigt und ist außerhalb des Bearbeitungsmodus nicht sichtbar.
 
+
+
 ### Skizzierbeschränkungen
 
 Beschränkungen werden benutzt, um Längen zu definieren, Regeln zwischen Skizzenelementen aufzustellen und die Skizze entlang der vertikalen und horizontalen Achsen festzulegen. Einige Beschränkungen benötigen die Verwendung von [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md).
+
+
 
 #### Besondere Randbedingungen 
 
@@ -190,6 +220,8 @@ Diese Randbedingungen sind nicht mit numerischen Daten verknüpft.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Fixieren](Sketcher_ConstrainBlock/de.md): Blockiert die Bewegung einer Kante, d.h. es wird verhindert, dass ihre Knotenpunkte ihre Lage ändern. Es eignet sich besonders, um die Position von B-Splines zu fixieren. Siehe das [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572) (engl.).
 
+
+
 #### Maßliche Randbedingungen 
 
 Dies sind Randbedingungen, die mit numerischen Daten verknüpft sind, für die du die [Ausdrücke](Expressions/de.md) verwenden kannst. Die Daten können aus einer [Kalkulationstabelle](Spreadsheet_Workbench/de.md) entnommen werden.
@@ -212,11 +244,15 @@ Dies sind Randbedingungen, die mit numerischen Daten verknüpft sind, für die d
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md): Legt den Innenwinkel zwischen zwei ausgewählten Linien fest.
 
+
+
 #### Besondere Randbedingungen 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Lichtbrechung (nach Snellius-Gesetz) festlegen](Sketcher_ConstrainSnellsLaw/de.md) (BrechungNachSnelliusFestlegen): Legt zwei Linien so fest, dass sie einem Brechungsgesetz unterliegen, um Licht zu simulieren, das eine Grenzfläche passiert.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Interne Ausrichtung festlegen](Sketcher_ConstrainInternalAlignment/de.md): Richtet ausgewählte Elemente an der ausgewählten Form aus (z. B. eine Linie, die zur Hauptachse einer Ellipse wird).
+
+
 
 #### Werkzeuge für Randbedingungen 
 
@@ -225,6 +261,8 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Einschränkung zwischen festlegend und anzeigend umschalten](Sketcher_ToggleDrivingConstraint/de.md) (UmschalterFührendeRandbedingung): Schaltet die Werkzeugleiste oder die ausgewählten Randbedingungen in den Referenzmodus um oder wieder zurück.
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Einschränkung aktivieren/deaktivieren](Sketcher_ToggleActiveConstraint/de.md) (UmschalterAktiveRandbedingung): Schaltet eine bereits platzierte Randbedingung aktiv bzw. inaktiv. {{Version/de|0.19}}
+
+
 
 ### Sketcher-Werkzeuge 
 
@@ -266,6 +304,8 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Alle Einschränkungen löschen](Sketcher_DeleteAllConstraints/de.md) (AlleRandbedingungenLöschen): Löscht alle Randbedingungen aus der Skizze.
 
+
+
 ### Sketcher-B-Spline-Werkzeuge 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [B-Spline Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md) (BSplineGrad)
@@ -292,13 +332,19 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Virtueller Sketcher-Bereich 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Bereich wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht alle Randbedingungen einer Skizze auszublenden und wieder sichtbar zu machen.
 
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Einstellungen](Sketcher_Preferences/de.md): Einstellungen für den Arbeitsbereich **Sketcher**.
+
+
 
 ## Bewährtes Vorgehen 
 
@@ -313,12 +359,16 @@ Jeder CAD-Benutzer entwickelt im Laufe der Zeit seine eigene Arbeitsweise, aber 
 -   Im Allgemeinen eignen sich die folgenden Randbedingungen am besten: Horizontal und Vertikal Festlegen, Horizontalen und Vertikalen Abstand festlegen, (Punkt-zu-Punkt) Tangential festlegen. Wenn möglich sollten die folgenden nur begrenz eingesetzt werden: Abstand festlegen, (Kante-zu-Kante) Tangential festlegen von, Punkt auf Objekt festlegen; Symmetrie festlegen.
 -   Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vervollständigt wurde (Elemente werden grün), schließt man das Sketcher-Dialogfeld, wechselt zum Arbeitbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und führt <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Geometrie überprüfen](Part_CheckGeometry/de.md) aus.
 
+
+
 ## Tutorien
 
 -   [Sketcher tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104) von chrisb. Dies ist ein 70 Seiten langes PDF-Dokument, das als ausführliches Handbuch für den Sketcher dient. Die Grundlagen zur Verwendung des Sketchers werden erläutert und es beschreibt detailreich die Erstellung geometrischer Formen sowie die einzelnen Randbedingungen.
 -   [Grundlegendes Sketcher Tutorium](Basic_Sketcher_Tutorial/de.md) für Anfänger
 -   [Sketcher Mikrotutorium - Beschränkungspraktiken](Sketcher_Micro_Tutorial_-_Constraint_Practices/de.md)
 -   [Sketcher Anforderungen an Skizzen](Sketcher_requirement_for_a_sketch/de.md) Mindestanforderung für eine Skizze und vollständige Festlegung einer Skizze
+
+
 
 ## Skripten
 

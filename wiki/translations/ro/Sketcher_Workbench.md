@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducere
 
 
@@ -454,7 +456,7 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits a line or an arc into two, converts a circle into an arc while keeping most of the constraints. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -479,6 +481,8 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 
 </div>
+
+
 
 ### Constrângeri Sketcher 
 
@@ -684,6 +688,8 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
+
+
 ### Instrumente Sketcher 
 
 
@@ -832,6 +838,8 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
+
+
 ### Instrumentele pentru Sketcher B-spline 
 
 
@@ -888,6 +896,8 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Sketcher în spațiul virtual 
 
 
@@ -897,6 +907,8 @@ The following tools can be used the change the effect of constraints:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -939,6 +951,8 @@ Fiecare utilizator CAD își dezvoltă în timp propriul mod de a lucra, dar exi
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

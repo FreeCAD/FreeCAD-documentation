@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher Create3PointArc
    Name/fr:Sketcher Arc par 3 points
-   MenuLocation:Sketch → Géometries d'esquisse → Créer un arc par 3 points
+   MenuLocation:Esquisse → Géometries d'esquisse → Créer un arc par 3 points
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **3** **A**
    SeeAlso:
@@ -13,6 +13,8 @@
 ## Description
 
 Cet outil créé un arc par trois : le point de départ, le point de fin et un point sur l\'arc
+
+
 
 ## Utilisation
 

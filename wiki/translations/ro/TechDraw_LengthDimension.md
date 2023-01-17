@@ -112,20 +112,20 @@ The dimension dialog offers the following settings:
 
 {{Properties_Title|Base}}
 
--    **X**: Horizontal position of the dimension text relative to the View.
+-    **References 2D|LinkSubList**: The 2D drawing View object(s) on which the measurement is based. Used if **Measure Type** is {{Value|Projected}}.
 
--    **Y**: Vertical position of the dimension text relative to the View.
+-    **References 3D|LinkSubList**: The 3D object(s) on which the measurement is based. Used if **Measure Type** is {{Value|True}}.
 
--    **Type**: Length, radius, diameter, etc. Not normally manipulated by the end user.
+-    **Type|Enumeration**: Length, radius, diameter, etc. Not normally manipulated by the end user.
 
--    **Measure Type**: How the measurement is performed.
+-    **Measure Type|Enumeration**: How the measurement is performed.
 
 :   
 
-    :   True - based on 3D geometry or
-    :   Projected - based on the drawing
+    :   True - based on 3D geometry.
+    :   Projected - based on 2D drawing View geometry.
 
--    **Theoretical Exact**: Specifies a theoretically exact (or basic) dimension.
+-    **Theoretical Exact|Bool**: Specifies a theoretically exact (or basic) dimension.
 
 :   
 
@@ -139,7 +139,7 @@ The dimension dialog offers the following settings:
         
         \- a theoretical value. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
--    **Equal Tolerance**: If over- and undertolerance are equal. Then the negated value of the overtolerance is used as undertolerance.
+-    **Equal Tolerance|Bool**: If over- and undertolerance are equal. Then the negated value of the overtolerance is used as undertolerance.
 
 :   
 
@@ -153,11 +153,11 @@ The dimension dialog offers the following settings:
         
         \- the **Under Tolerance** is taken into account. The display will be <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
--    **Over Tolerance**: The amount by which the dimension may be larger.
+-    **Over Tolerance|QuantityConstraint**: The amount by which the dimension may be larger.
 
--    **Under Tolerance**: The amount by which the dimension may be smaller.
+-    **Under Tolerance|QuantityConstraint**: The amount by which the dimension may be smaller.
 
--    **Inverted**: Marks whether the dimension represents a common or an inverted value.
+-    **Inverted|Bool**: Marks whether the dimension represents a common or an inverted value.
 
 :   
 
@@ -171,16 +171,30 @@ The dimension dialog offers the following settings:
         
         \- the inverted value is used. For length a negative number, for angle the reflex value (180° - 360°).
 
+-    **X|Distance**: Horizontal position of the dimension text relative to the View.
+
+-    **Y|Distance**: Vertical position of the dimension text relative to the View.
+
+-    **Lock Position|Bool|Hidden**: Locks the position of the dimension text when `True`.
+
+-    **Rotation|Angle|Hidden**: Read only.
+
+-    **Scale Type|Enumeration|Hidden**: Read only.
+
+-    **Scale|FloatConstant|Hidden**: Read only.
+
+-    **Caption|String|Hidden**: Not used.
+
 
 {{Properties_Title|Format}}
 
--    **Format Spec**: How the dimension value will be formatted. See [Formatting](#Formatting.md).
+-    **Format Spec|String**: How the dimension value will be formatted. See [Formatting](#Formatting.md).
 
--    **Format Spec Over Tolerance**: Like **Format Spec**, but for overtolerances.
+-    **Format Spec Over Tolerance|String**: Like **Format Spec**, but for overtolerances.
 
--    **Format Spec Under Tolerance**: Like **Format Spec**, but for undertolerances.
+-    **Format Spec Under Tolerance|String**: Like **Format Spec**, but for undertolerances.
 
--    **Arbitrary**: Whether the dimension is replaced by the content of the **Format Spec** field.
+-    **Arbitrary|Bool**: Whether the dimension is replaced by the content of the **Format Spec** field.
 
 :   
 
@@ -194,12 +208,12 @@ The dimension dialog offers the following settings:
         
         \- the content of the **Format Spec** will be displayed as text instead if the dimension value.
 
--    **Arbitrary Tolerances**: Like **Arbitrary**, but for the tolerance.
+-    **Arbitrary Tolerances|Bool**: Like **Arbitrary**, but for the tolerance.
 
 
 {{Properties_Title|Override}}
 
--    **AngleOverride**: Whether the direction of dimension and extension lines is overridden.
+-    **AngleOverride|Bool**: Whether the direction of dimension and extension lines is overridden.
 
 :   
 
@@ -213,44 +227,42 @@ The dimension dialog offers the following settings:
         
         \- the directions are overridden by LineAngle and ExtensionAngle property values.
 
--    **LineAngle**: angle of dimension line with view X axis (in degrees).
+-    **LineAngle|Angle**: angle of dimension line with view X axis (in degrees).
 
--    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
+-    **ExtensionAngle|Angle**: angle of extension line(s) with view X axis (in degrees).
 
 ### View
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Dimension Format}}
 
--    **Visibility**: Sets whether the dimension is visible. `True` - visible, `False` - hidden.
+-    **Color|Color**: Color for lines and text.
 
-
-{{Properties_Title|Dim Format}}
-
--    **Font**: The name of the font to use for the dimension text.
-
--    **Font Size**: Dimension text size.
-
--    **Gap Factor ASME**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
-
--    **Gap Factor ISO**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
-
--    **Line Width**: Dimension line weight.
-
--    **Color**: Color for lines and text.
-
--    **Standard And Style**: Specifies the standard (and its style) according to which the dimension is drawn:
-
-<img alt="Differences between the supported standards" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+-    **Flip Arrowheads|Bool**: By default the value *inside* the dimension line/arc means the arrows pointing *outwards*. If placed *outside* the dimension line/arc, the arrows point *inwards* the dimension line/arc.
 
 :   
 
-    :   ISO Oriented - drawn according to the standard ISO 129-1, text is rotated to be parallel with the dimension line tangent.
-    :   ISO Referencing - drawn in compliance with ISO 129-1, text is always horizontal, above the shortest possible reference line.
-    :   ASME Inlined - drawn according to the standard ASME Y14.5M, text is horizontal, inserted in a break within the dimension line or arc.
-    :   ASME Referencing - drawn in compliance with ASME Y14.5M, text is horizontal, short reference line is attached to one side\'s vertical center.
+    :   
+        `False`
+        
+        \- Let the direction of arrows to be selected automatically according to the rule above.
 
--    **Rendering Extent**: Rather universal property specifying how much space the dimension drawing may take up:
+    :   
+        `True`
+        
+        \- Override the automatically chosen direction and force the opposite one.
+
+-    **Font|Font**: The name of the font to use for the dimension text.
+
+-    **Font Size|Length**: Dimension text size.
+
+-    **Gap Factor ASME|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
+
+-    **Gap Factor ISO|Float**: Adjusts the gap between the dimension points and the start of the extension lines. The gap is this value times the line width. <small>(v1.0)</small> 
+
+-    **Line Width|Length**: Dimension line weight.
+
+-    **Rendering Extent|Enumeration**: Rather universal property specifying how much space the dimension drawing may take up:
 
 :   
 
@@ -266,19 +278,15 @@ The dimension dialog offers the following settings:
     :   Radii are drawn as a single headed line from center to the closest arc point.
     :   Expanded - Only diameters support this value, rendering them in a horizontal or vertical length-like way. Other dimension types are rendered as with Normal extent.
 
--    **Flip Arrowheads**: By default the value *inside* the dimension line/arc means the arrows pointing *outwards*. If placed *outside* the dimension line/arc, the arrows point *inwards* the dimension line/arc.
+-    **Standard And Style|Enumeration**: Specifies the standard (and its style) according to which the dimension is drawn:
 
 :   
 
-    :   
-        `False`
-        
-        \- Let the direction of arrows to be selected automatically according to the rule above.
-
-    :   
-        `True`
-        
-        \- Override the automatically chosen direction and force the opposite one.
+    :   <img alt="Differences between the supported standards" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+    :   ISO Oriented - drawn according to the standard ISO 129-1, text is rotated to be parallel with the dimension line tangent.
+    :   ISO Referencing - drawn in compliance with ISO 129-1, text is always horizontal, above the shortest possible reference line.
+    :   ASME Inlined - drawn according to the standard ASME Y14.5M, text is horizontal, inserted in a break within the dimension line or arc.
+    :   ASME Referencing - drawn in compliance with ASME Y14.5M, text is horizontal, short reference line is attached to one side\'s vertical center.
 
 
 

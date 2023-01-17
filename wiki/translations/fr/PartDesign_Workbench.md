@@ -17,9 +17,13 @@ Les corps créés avec PartDesign sont souvent soumis à un [problème de dénom
 
 <img alt="" src=images/PartDesign_Example.png  style="width:500px;">
 
+
+
 ## Outils
 
 Les outils Part Design sont situés dans le menu **Part Design** qui apparaît lorsque l\'atelier Part Design est chargé.
+
+
 
 ### Outils structure 
 
@@ -28,6 +32,8 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Pièce](Std_Part/fr.md) : ajoute un conteneur Pièce dans le document actif et le rend actif.
 
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Groupe](Std_Group/fr.md) : ajoute un Groupe dans l\'arborescence du document actif, qui permet d\'organiser les objets dans la [vue arborescence](Tree_view/fr.md).
+
+
 
 ### Outils d\'assistance Part Design 
 
@@ -41,7 +47,11 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) : vérifie la tolérance de différents points et les ajuste.
 
+
+
 ### Outils de modélisation Part Design 
+
+
 
 #### Outils de référence 
 
@@ -58,6 +68,8 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un ou plusieurs objets parents. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Clone](PartDesign_Clone/fr.md) : crée un clone dans le corps actif.
+
+
 
 #### Outils additifs 
 
@@ -90,6 +102,8 @@ Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matiè
   -<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Prisme additif](PartDesign_AdditivePrism/fr.md) : crée un prisme additif.
 
   -<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md) : crée une pyramide tronquée additive.
+
+
 
 #### Outils soustractifs 
 
@@ -125,6 +139,8 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
   -<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Pyramide tronquée soustractive](PartDesign_SubtractiveWedge/fr.md) : crée une pyramide tronquée soustractive.
 
+
+
 #### Outils de transformation 
 
 Il s\'agit d\'outils permettant de transformer des fonctions existantes.
@@ -138,6 +154,8 @@ Il s\'agit d\'outils permettant de transformer des fonctions existantes.
 -   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md) : crée une combinaison de n\'importe quelle des autres transformations ci-dessus, ainsi que la transformation [Mise à l\'échelle](PartDesign_Scaled/fr.md).
     -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Mise à l\'échelle](PartDesign_Scaled/fr.md) : met à l\'échelle un ou plusieurs éléments. Ceci n\'est pas disponible en tant qu\'outil de transformation séparé.
 
+
+
 #### Outils d\'habillage 
 
 Ces outils appliquent un traitement aux arêtes ou faces.
@@ -150,9 +168,13 @@ Ces outils appliquent un traitement aux arêtes ou faces.
 
 -   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Coque](PartDesign_Thickness/fr.md) : crée une coque épaisse à partir du corps actif et ouvre la face sélectionnée.
 
+
+
 #### Booléen
 
--   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Opération Booléenne](PartDesign_Boolean/fr.md) : importe un ou plusieurs corps ou clones PartDesign dans le corps actif et applique une opération Booléenne.
+-   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Opération booléenne](PartDesign_Boolean/fr.md) : importe un ou plusieurs corps ou PartDesign clones dans le corps actif et applique une opération booléenne.
+
+
 
 #### Extras
 
@@ -166,6 +188,8 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/WizardShaft.svg  style="width:32px;"> [Conception d\'arbre](PartDesign_WizardShaft/fr.md) : génère un arbre à partir d\'un tableau de valeurs et permet d\'analyser les forces et les moments. L\'arbre est construit à partir de la révolution d\'une esquisse qui peut être modifiée.
 
+
+
 ### Éléments du menu contextuel 
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md) : redéfinit la fonction résultante qui est la fonction exposée à l\'extérieur du Corps.
@@ -174,16 +198,22 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:32px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md) : permet de réorganiser l\'arborescence du corps en déplaçant l\'esquisse, la géométrie de référence ou l\'entité sélectionnée vers une autre position dans la liste des entités.
 
+
+
 #### Éléments partagés avec l\'atelier Part 
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Std Apparence](Std_SetAppearance/fr.md) : détermine l\'apparence de la pièce entière (transparence des couleurs etc\...).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Part Définir les couleurs](Part_FaceColors/fr.md) : attribue des couleurs aux faces des pièces.
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Préférences\...](PartDesign_Preferences/fr.md) : préférences disponibles pour les outils PartDesign.
 -   [Réglage fin](Fine-tuning/fr.md) : quelques paramètres supplémentaires pour affiner le comportement de PartDesign.
+
+
 
 ## Tutoriels
 

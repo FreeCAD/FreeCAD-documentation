@@ -11,6 +11,8 @@
 
 # Draft Label/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Notiz** erstellt einen mehrzeiligen Text an einer zweiteiligen Hinweislinie mit Pfeilspitze.
@@ -21,6 +23,8 @@ Um stattdessen ein Textelement ohne Hinweispfeil zu erstellen, verwendet man den
 
 <img alt="" src=images/Draft_Label_example.jpg  style="width:400px;"> 
 *Verschiedene Notizen mit unterschiedlichen Ausrichtungen, Hinweispfeilen und Informationen*
+
+
 
 ## Anwendung
 
@@ -37,6 +41,8 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
 6.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt bestimmt den Beginn des horizontalen bzw. vertikalen Abschnitts der Hinweislinie.
 7.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**drücken. Dieser Punkt bestimmt den Basispunkt des Texts.
 
+
+
 ## Optionen
 
 Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
@@ -50,6 +56,8 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
 -    **S**drücken, um [Draft Fangen](Draft_Snap.md) ein- oder auszuschalten.
 
 -    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
+
+
 
 ## Notizarten
 
@@ -73,15 +81,27 @@ Die folgenden Arten von Notizen stehen zur Verfügung:
 
 -    {{Value|Material:}}zeigt die Bezeichnung des Materials des Zielobjekts an, falls vorhanden
 
+
+
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Die Richtung des zweiten Abschnitts der Hinweislinie bestimmt die Ausrichtung des Textes. Wenn der Abschnitt horizontal ist und nach rechts zeigt, wird der Text links (-bündig) ausgerichtet und umgekehrt. Wenn der zweite Abschnitt vertikal nach oben zeigt, wird der Text links ausgerichtet. Zeigt er vertikal nach unten, wird der Text rechts ausgerichtet.
+
+
+</div>
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften:
+
+
 
 ### Daten
 
@@ -112,6 +132,8 @@ Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
+
+
 ### Ansicht
 
 
@@ -124,7 +146,7 @@ Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -162,6 +184,10 @@ Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md
 
 {{TitleProperty|Text}}
 
+-    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v1.0)</small> 
+
+-    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v1.0)</small> 
+
 -    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 
 -    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
@@ -172,9 +198,7 @@ Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md
 
 -    **Text Color|Color**: specifies the color of the text.
 
--    **Text Font|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Text Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Skripten
 

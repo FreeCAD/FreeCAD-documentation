@@ -13,6 +13,10 @@
 
 </div>
 
+**TechDraw LinkDimension** is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
+
+
+
 ## Descrizione
 
 
@@ -39,6 +43,8 @@ Il link alla geomtria 3D indica alla quota di calcolare il valore direttamente d
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -54,6 +60,8 @@ Il link alla geomtria 3D indica alla quota di calcolare il valore direttamente d
 </div>
 
 Al termine dell\'operazione di collegamento, la proprietà **MeasureType** della dimensione cambia da `Projected` a `True`.
+
+
 
 ## Limitazioni
 
@@ -71,9 +79,19 @@ Al momento non c\'è modo di interrompere un link; si può però ripristinare la
 
 Notare che se la dimensione da collegare si basa su due vertici, si devono selezionare due vertici nella vista 3D. Allo stesso modo se la dimensione si basa su un bordo, è necessario selezionare un bordo nella vista 3D.
 
+
+
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 1.  La proprietà MeasureType di una dimensione collegata cambia da \"Projected\" a \"True\".
+
+
+</div>
+
+
 
 ## Script
 
@@ -82,18 +100,7 @@ Notare che se la dimensione da collegare si basa su due vertici, si devono selez
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Link alla dimensione può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
-```python
-to be defined
-```
+The TechDraw LinkDimension tool is not directly usable in macros, but changing the **References 3D** property can accomplish the same result.
 
 
 <div class="mw-translate-fuzzy">

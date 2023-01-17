@@ -18,7 +18,7 @@ This tool draws an ellipse by picking three points: the center, the end of major
 
 
 
-*The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
+*The sequence of clicks is indicated by yellow arrows with numbers.<br/>C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
 
 ## Usage
 

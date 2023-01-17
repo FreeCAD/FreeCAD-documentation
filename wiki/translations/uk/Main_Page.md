@@ -3,11 +3,21 @@
 
 Це - wiki-збірник документації про [FreeCAD](http://www.freecadweb.org/?lang=uk). Існує два головних методи вивчення документації: шляхом вивчення куточків користувача та шляхом вивчення інструкції. Це поки що незакінчена робота, яка створюється товариством користувачів і розробників FreeCAD. Якщо ви знайшли невірну або відсутню інформацію - будь ласка, [зробіть FreeCAD кращє](Special:MyLanguage/help_FreeCAD/uk.md)!
 
+
+
 ## Куточки користувачів 
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Куточок користувачів](User_hub/uk.md): Ця сторінка містить документацію, корисну для користувачів FreeCAD загалом: список усіх верстаків, детальні інструкції з встановлення та використання FreeCAD, навчальні посібники та все інше, необхідне для початку роботи. 
  <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Куточок досвідчених користувачів](Power_users_hub/uk.md): На цій сторінці знаходиться документація для досвідчених користувачів та людей, які зацікавлені у написанні скриптів на Python. Ви також знайдете там сховище макросів, інструкції з їх встановлення та використання, додаткову інформацію по налаштуванню FreeCAD для специфічних завдань. 
  <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Куточок розробників](Developer_hub/uk.md): У цьому розділі містяться матеріали для розробників: як самостійно скомпілювати FreeCAD, яку структуру має вихідний код програми та як у ньому орієнтуватися, як розробити нові верстаки та додати власний додаток у FreeCAD. 
+
+
+
+</div>
+
 
 
 ## Посібник
@@ -39,7 +49,11 @@
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Долучитися
+
+
 
 ### Як долучитися до проекту 
 
@@ -53,6 +67,8 @@
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
+
+
 ### Сирцевий код 
 
 
@@ -62,6 +78,8 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 
 </div>
+
+
 
 ### Про розробку 
 

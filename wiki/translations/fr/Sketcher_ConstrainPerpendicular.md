@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainPerpendicular
    Name/fr:Sketcher Contrainte perpendiculaire
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte perpendiculaire
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte perpendiculaire
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**N**
    SeeAlso:[Sketcher Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)
@@ -13,6 +13,8 @@
 ## Description
 
 La Contrainte perpendiculaire fait que deux lignes soient perpendiculaires (càd orthognales) l\'une à l\'autre, ou deux courbes soit perpendiculaires à leur intersection. Les lignes sont traitées infinie, et des arcs sont traités comme des cercles pleins/ellipses. La contrainte est également capable de connecter deux courbes, les forçant perpendiculaire à la jointure, de manière similaire à la **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Contrainte tangente](Sketcher_ConstrainTangent/fr.md)**.
+
+
 
 ## Utilisation
 
@@ -25,8 +27,10 @@ Il y a quatre façons différentes d\'appliquer la contrainte :
 
 Pour appliquer la contrainte perpendiculaire, suivre les étapes suivantes :
 
--   Sélectionnez deux ou trois entités dans l\'esquisse.
--   Appelez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
+-   sélectionnez deux ou trois entités dans l\'esquisse.
+-   lancez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
+
+
 
 ### Entre deux courbes (directement perpendiculaire) 
 
@@ -36,12 +40,14 @@ Deux courbes doivent être perpendiculaires au point d\'intersection (réel ou d
 
 **Sélection Acceptée :**
 
--   La ligne + ligne, cercle, arc
+-   la ligne + ligne, cercle, arc
 -   cercle, arc + cercle, arc.
 
 Si la perpendicularité direct entre les courbes sélectionnées n\'est pas prise en charge (par exemple, entre une ligne et une ellipse), un point d\'aide sera ajoutés pour esquisser automatiquement, et la perpendiculaire-via-point sera appliquée.
 
 Contrairement aux tangences, il est parfaitement bien de reconstruire le point de perpendicularité en créant un point et le contraindre d\'être sur les deux courbes (Contraignant ainsi le point à l\'intersection).
+
+
 
 ### Entre deux points terminaux (perpendicularité point-à-point) 
 
@@ -53,6 +59,8 @@ Dans ce mode, les extrémités sont confondues et le joint est fait pour être �
 
 -   point extrémité de ligne/arc/arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit, deux points de deux courbes)
 
+
+
 ### Entre courbe et extrémité (Perpendicularité de point-à-courbe) 
 
 <img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
@@ -62,6 +70,8 @@ Dans ce mode, une extrémité d\'une courbe est contraint de se trouver sur l\'a
 **Sélection acceptée :**
 
 -   ligne, cercle, arc, ellipse, arc-d\'ellipse + extrémité de ligne/arc/arc-d\'ellipse (soit., courbe + extrémité de courbe)
+
+
 
 ### Entre deux courbes en un point (perpendiculaire-par-point) (v0.15) 
 
@@ -80,6 +90,8 @@ Pour que la contrainte fonctionne correctement, le point doit être sur les deux
 Comparé à la perpendiculaire directe cette contrainte est plus lente, car il y a des modes de degrés de liberté impliquées, mais elle prend en charge les ellipses
 
 Le placement du point avant la contrainte qui est appliquée est une indication pour le calculateur dans le cas où il devrait y avoir une perpendicularité .
+
+
 
 ## Scripts
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateCircle
    Name/fr:Sketcher Cercle
-   MenuLocation:Sketch → Géometries d'esquisse  → Créer un cercle
+   MenuLocation:Esquisse → Géometries d'esquisse  → Créer un cercle
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **C**
    SeeAlso:[Sketcher Arcs](Sketcher_CompCreateArc/fr.md)
@@ -16,7 +16,7 @@ Cet outil dessine un Cercle, en cliquant deux points : le centre, et, un point s
 
 Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanche avec une icône de cercle rouge. Les coordonnées à l\'écran du pointeur sont affichées à côté en bleu, et sont mises à jour en temps réel.
 
-![](images/Sketcher_CircleExample1.png‎ )
+![](images/Sketcher_CircleExample1.png‎ ) 
 
 ## Utilisation
 

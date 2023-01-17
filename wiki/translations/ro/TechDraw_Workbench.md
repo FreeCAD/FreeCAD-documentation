@@ -1,5 +1,7 @@
 # <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/ro
 
+
+
 ## Introducere
 
 Tehnologia [ TechDraw Workbench](TechDraw_Workbench.md) este utilizată pentru a produce desene tehnice de bază de la modele 3D create cu un alt atelier de lucru, cum ar fi [Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), sau [Arch](Arch_Workbench.md),sau importate din alte aplicații. Fiecare desen este o pagină care poate conține diferite Vizualizări ale obiectelor trasabile cum ar fi Part::Features, PartDesign::Bodies, App::Part groups, și Document Object groups. Desenele rezultate pot fi folosite pentru lucruri precum documentație, instrucțiunile de fabricație, contracte, permise etc.
@@ -27,6 +29,8 @@ FreeCAD este în primul rând o aplicație de modelare 3D și, prin urmare, nu a
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
+
+
 ## Pagini
 
 Acestea sunt instrumente pentru crearea obiectelor de pagină.
@@ -50,6 +54,8 @@ Acestea sunt instrumente pentru crearea obiectelor de pagină.
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v1.0)</small> 
+
+
 
 ## Vederi
 
@@ -131,6 +137,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v1.0)</small> 
 
+
+
 ## Măști
 
 Acestea sunt instrumente pentru a crea și a gestiona vederile mascate Clip objects
@@ -158,6 +166,8 @@ Acestea sunt instrumente pentru a crea și a gestiona vederile mascate Clip obje
 
 
 </div>
+
+
 
 ## Decorațiune
 
@@ -202,6 +212,8 @@ Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualiz
 
 
 </div>
+
+
 
 ## Cotare
 
@@ -281,7 +293,9 @@ Cotele liniare pot fi bazate pe două puncte, o linie sau două linii.
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Insert Balloon Annotation](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension - EXPERIMENTAL](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
 
 ## Annotations
 
@@ -442,6 +456,8 @@ These are tools to improve your TechDraw drawings.
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease Decimal Places](TechDraw_ExtensionDecreaseDecimal.md): decreases the number of decimal places of the dimension text. <small>(v0.20)</small> 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Import/Export
@@ -460,6 +476,8 @@ These are tools for exporting pages to other applications.
 </div>
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
+
+
 
 ## Caracteristici suplimentare 
 
@@ -517,6 +535,8 @@ Instrumentele TechDraw pot fi utilizate în [macros](macros.md) și din consola 
 
 
 </div>
+
+
 
 ## Tutoriale
 

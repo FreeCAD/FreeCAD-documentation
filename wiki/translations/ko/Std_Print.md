@@ -10,6 +10,8 @@
 
 # Std Print/ko
 
+
+
 ## 설명
 
 
@@ -19,6 +21,8 @@
 
 
 </div>
+
+
 
 ## 용법
 
@@ -41,9 +45,15 @@
 
 </div>
 
+
+
 ## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
+
+## Notes
+
+-   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainEqual
    Name/fr:Sketcher Contrainte d'égalité
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte d'égalité
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte d'égalité
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**E**
    SeeAlso:[Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
@@ -13,6 +13,8 @@
 ## Description
 
 La Contrainte d\'égalité contraint deux ou plusieurs segments de ligne, polyligne ou de rectangle d\'avoir une longueur égale. Si elle est appliquée à des arcs de cercles ou des cercles, leurs rayons sont contraints à devenir égaux. La contrainte ne peut pas être appliquée à des primitives géométriques qui ne sont pas du même type (par exemple des segments de ligne et des arcs).
+
+
 
 ## Opérations
 
@@ -51,6 +53,8 @@ Sélectionnez le segment de ligne et l\'arc,
 et appliquez à nouveau **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contrainte d'égalité](Sketcher_ConstrainEqual/fr.md)**. Un message indique que les éléments contraints doivent être du même type géométrique (lignes de courbure nulle ou lignes de courbure non nulle).
 
 ![](images/EqualConstraint9.png )
+
+
 
 ## Script
 

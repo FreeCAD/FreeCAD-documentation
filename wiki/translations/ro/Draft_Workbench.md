@@ -204,6 +204,8 @@ The Draft snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
+
+
 ## Utilitare
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md).
@@ -232,6 +234,8 @@ O serie de instrumente suplimentare sunt oferite de un meniu **Draft → Utiliti
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
+
+
 ## Caracteristici suplimentare 
 
 
@@ -258,9 +262,13 @@ The following additional options are available in the [Tree view](Tree_view.md) 
 
 ### Default options 
 
-If there is an active document the context menu contains one additional sub-menu:
+For most Draft objects the following option is available:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+
+If there is an active document the context menu contains an additional sub-menu:
+
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ### Wire options 
 
@@ -300,7 +308,7 @@ The following additional options are available in the [3D view](3D_view.md) cont
 
 If there is an active document the context menu contains one additional sub-menu:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ## Obsolete tools 
 
@@ -309,6 +317,8 @@ These commands are obsolete but still available:
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Array](Draft_Array.md): creates an orthogonal array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. {{Obsolete|0.17}}
+
+
 
 ## Preferințe
 
@@ -322,6 +332,8 @@ These commands are obsolete but still available:
 </div>
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences.md): preferences available for importing from and exporting to different file formats.
+
+
 
 ## Formate de fişiere 
 
@@ -355,6 +367,8 @@ To run the unit tests of the workbench execute the following from the operating 
 ```python
 freecad -t TestDraft
 ```
+
+
 
 ## Script
 

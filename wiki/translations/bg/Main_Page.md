@@ -7,6 +7,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Потребителски центрове 
@@ -30,6 +32,8 @@
 
 </div>
 
+
+
 ## Ръководство
 
 
@@ -40,6 +44,8 @@
 
 
 </div>
+
+
 
 ## Съдържание
 
@@ -56,7 +62,11 @@
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Включете се 
+
+
 
 ### Как да помогнем 
 
@@ -70,6 +80,8 @@
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
+
+
 ### Програмен код 
 
 
@@ -79,6 +91,8 @@ FreeCAD може да бъде компилиран на всички платф
 
 
 </div>
+
+
 
 ### За разработката 
 

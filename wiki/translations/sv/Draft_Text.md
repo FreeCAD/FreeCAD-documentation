@@ -60,7 +60,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Notes
 
 -   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
--   Draft Texts created with [FreeCAD version 0.18](Release_notes_0.18.md) are not backward compatible.
+-   Draft Texts created or saved with [FreeCAD version 1.0](Release_notes_1.0.md) are not backward compatible.
 
 ## Properties
 
@@ -89,7 +89,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by its **Placement**. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}

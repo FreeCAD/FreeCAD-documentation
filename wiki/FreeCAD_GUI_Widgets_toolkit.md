@@ -17,7 +17,7 @@ As I am inspired totally by the simplicity of [FLTK GUI Toolkit](https://www.flt
 
 ##### Simple example showing a drawing 
 
- 
+
 ```python
 from pivy import coin
 import fr_draw as d 
@@ -29,7 +29,7 @@ sg.addChild(root)
 
 ##### Another example 
 
- 
+
 ```python
 from pivy import coin
 import math

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainHorizontal
    Name/fr:Sketcher_Contrainte horizontale
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte horizontale
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte horizontale
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**H**
    SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)
@@ -13,6 +13,8 @@
 ## Description
 
 La Contrainte horizontale oblige une ligne sélectionnée ou des lignes dans l\'esquisse à être parallèles à l\'axe horizontal de l\'esquisse.
+
+
 
 ## Utilisation
 
@@ -29,7 +31,9 @@ La Contrainte horizontale oblige une ligne sélectionnée ou des lignes dans l\'
 *Plusieurs lignes peuvent être sélectionnées*
 
 <img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
-*puis en appliquant la contrainte comme décrit ci-dessus, elles sont contraintes d'être parallèles à l'axe horizontal de l'esquisse.*
+*Puis en appliquant la contrainte comme décrit ci-dessus, elles sont contraintes d'être parallèles à l'axe horizontal de l'esquisse.*
+
+
 
 ## Script
 

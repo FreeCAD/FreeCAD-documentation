@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Această funcție deschide fereastra de dialog pentru a selecta imprimanta, a seta preferințele de imprimare disponibile și a începe procesul de imprimare.
@@ -28,6 +30,10 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 ## Options
 
 -   Press **Esc** or the **Cancel** button to abort the command.
+
+## Notes
+
+-   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
 
 
 

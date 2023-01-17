@@ -18,6 +18,8 @@ Si votre objectif principal est la production de dessins 2D complexes et de fich
 A gauche, en blanc, plusieurs objets planaires.<br>
 À droite, une [Draft Polyligne](Draft_Wire/fr.md) non planaire utilisé comme objet de chemin d'un [Draft Réseau selon une courbe](Draft_PathArray/fr.md).*
 
+
+
 ## Planche à dessin 
 
 -   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Ligne](Draft_Line/fr.md) : crée une ligne droite.
@@ -122,6 +124,8 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Vue 2D d\'une forme](Draft_Shape2DView/fr.md) : crée des projections 2D à partir des objets sélectionnés.
 
+
+
 ## La barre de Draft 
 
 [Draft La barre](Draft_Tray/fr.md) permet de sélectionner le plan de travail, de définir les paramètres de style, de passer en mode construction et de spécifier le calque ou le groupe actif.
@@ -136,17 +140,23 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   ![](images/Draft_tray_button_layer.png ) [Groupement automatique](Draft_AutoGroup/fr.md) : change le [Draft Calque](Draft_Layer/fr.md) actif ou, accessoirement, le [Std Groupe](Std_Group/fr.md) actif ou un objet de type groupe [Arch](Arch_Workbench/fr.md).
 
+
+
 ## Widget d\'échelle d\'annotation de Draft 
 
 Avec le [Draft Widget d\'échelle d\'annotation](Draft_annotation_scale_widget/fr.md), l\'échelle d\'annotation Draft peut être spécifiée.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
+
+
 ## Widget d\'aimantation de Draft 
 
 Le [Draft Widget d\'aimantation](Draft_snap_widget/fr.md) peut être utilisé comme alternative à la [Barre d\'outils d\'aimantation de Draft](#Barre_d.27outils_d.27aimantation_de_Draft.md).
 
 ![](images/Draft_snap_widget_button.png )
+
+
 
 ## Barre d\'outils d\'aimantation de Draft 
 
@@ -184,6 +194,8 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : active ou désactive la grille.
 
+
+
 ## Outils utilitaires de la barre d\'outils de Draft 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Calque](Draft_Layer/fr.md) : crée un [Draft Calque](Draft_Layer/fr.md).
@@ -200,6 +212,8 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) : crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md).
 
+
+
 ## Outils supplémentaires 
 
 Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre eux sont également accessibles depuis les barres d\'outils ou [Draft La barre](Draft_Tray/fr.md) et ont déjà été mentionnés ci-dessus. Pour les outils suivants, ce n\'est pas le cas :
@@ -212,6 +226,8 @@ Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Barre d\'aimantation](Draft_ShowSnapBar/fr.md) : montre la [Draft Barre d\'aimantation](#Barre_d.27outils_d.27aimantation_de_Draft.md).
 
+
+
 ## Fonctions additionnelles 
 
 -   [Plan de travail](Draft_SelectPlane/fr.md) : le plan dans la [vue 3D](3D_view/fr.md) où les nouveaux objets Draft sont créés.
@@ -220,21 +236,33 @@ Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre
 -   [Mode de construction](Draft_ToggleConstructionMode/fr.md) : place les nouveaux objets Draft dans un groupe dédié, ce qui facilite leur masquage ou leur suppression.
 -   [Motif](Draft_Pattern/fr.md) : les objets Draft ayant une propriété {{PropertyData/fr|Make Face}} peuvent afficher un motif SVG au lieu d\'une couleur unie.
 
+
+
 ## Menu contextuel de l\'arborescence 
 
 Les options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) :
 
+
+
 ### Options par défaut 
+
+Pour la plupart des objets Draft, l\'option suivante est disponible :
+
+-   Editer : édite l\'objet. Selon le type d\'objet, on utilise soit [Draft Editer](Draft_Edit/fr.md) soit une solution d\'édition dédiée. {{Version/fr|1.0}}
 
 S\'il y a un document actif, le menu contextuel contient un sous-menu supplémentaire :
 
--    **Utilitaires**: un sous-ensemble des outils disponibles dans le menu principal Draft Utilitaires.
+-   Utilitaires : un sous-ensemble des outils disponibles dans le menu principal Draft Utilitaires.
+
+
 
 ### Options des lignes 
 
 Pour une [Draft Ligne](Draft_Line/fr.md) et une [Draft Polyligne](Draft_Wire/fr.md), cette option supplémentaire est disponible :
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Aplatir : aplatit la polyligne sur le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Cette option ne fonctionne pas correctement pour la {{VersionMinus/fr|0.19}}.
+
+
 
 ### Options du conteneur du calque 
 
@@ -244,6 +272,8 @@ Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont dis
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Ajouter un nouveau calque](Draft_Layer/fr#Options_du_conteneur_du_calque.md) : ajoute un nouveau calque au document en cours.
 
+
+
 ### Options du calque 
 
 Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont disponibles :
@@ -251,6 +281,8 @@ Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont dis
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activer ce calque](Draft_AutoGroup/fr.md) : active le calque sélectionné.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Sélectionner le contenu du calque](Draft_SelectGroup/fr.md) : sélectionne les objets à l\'intérieur du calque sélectionné.
+
+
 
 ### Options du proxy du plan de travail 
 
@@ -260,15 +292,21 @@ Pour un [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md), les opt
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Écriture de l\'état des objets](Draft_WorkingPlaneProxy/fr#Menu_contextuel.md) : met à jour la propriété **Visibility Map** du proxy du plan de travail avec l\'état de visibilité en cours des objets dans le document.
 
+
+
 ## Menu contextuel de la vue 3D 
 
 Les options supplémentaires sont disponibles dans le menu contextuel de la [Vue 3D](3D_view/fr.md) :
+
+
 
 ### Options par défaut 
 
 S\'il y a un document actif, le menu contextuel contient un sous-menu supplémentaire :
 
--    **Utilitaires**: un sous-ensemble des outils disponibles dans le menu principal Draft Utilitaires.
+-   Utilitaires : un sous-ensemble des outils disponibles dans le menu principal Draft Utilitaires.
+
+
 
 ## Outils obsolète 
 
@@ -278,11 +316,15 @@ Ces commandes sont obsolètes mais toujours disponibles :
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Dessin](Draft_Drawing/fr.md) : insère des vues des objets sélectionnés dans une page [Drawing](Drawing_Workbench/fr.md). {{Obsolete/fr|0.17}}
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Draft Préférences](Draft_Preferences/fr.md) : préférences générales pour l\'atelier Draft.
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'import-export](Import_Export_Preferences/fr.md) : préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichiers.
+
+
 
 ## Formats de fichiers 
 
@@ -294,6 +336,8 @@ L\'atelier Draft fournit à FreeCAD des importateurs et des exportateurs pour di
 -   [Open Cad format .OCA](Draft_OCA/fr.md) : importe et exporte des fichiers [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/fr.md) : importe des fichiers DAT décrivant des profils d\'ailes.
 
+
+
 ## Tests unitaires 
 
 Voir aussi : [Atelier Test](Testing/fr.md).
@@ -304,6 +348,8 @@ Pour exécuter les tests unitaires du plan de travail, exécutez ce qui suit à 
 ```python
 freecad -t TestDraft
 ```
+
+
 
 ## Script
 
@@ -320,6 +366,8 @@ doc = dto.create_test_file()
 ```
 
 L\'inspection du code de ce module peut aider à comprendre l\'interface de programmation.
+
+
 
 ## Tutoriels
 

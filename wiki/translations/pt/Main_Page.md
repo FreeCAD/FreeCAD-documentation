@@ -9,6 +9,8 @@ Esta é a documentação wiki do [FreeCAD](http://www.freecadweb.org). Existem d
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Tópicos dos utilizadores 
@@ -39,6 +41,8 @@ Esta página contém documentação útil para utilizadores do FreeCAD em geral:
 
 </div>
 
+
+
 ## Índice
 
 A seguinte tabela lista todos os artigos desta wiki que formam a espinha dorsal da documentação offline fornecida com a aplicação. Já está disponível em vários idiomas:
@@ -54,7 +58,11 @@ A seguinte tabela lista todos os artigos desta wiki que formam a espinha dorsal 
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Participe
+
+
 
 ### Como participar 
 
@@ -80,6 +88,8 @@ A página [Ajuda o FreeCAD](help_FreeCAD/pt.md) descreve tudo com mais detalhes.
 
 </div>
 
+
+
 ### Código fonte 
 
 
@@ -89,6 +99,8 @@ O FreeCAD pode ser compilado em todas as plataformas usando [CMake](https://cmak
 
 
 </div>
+
+
 
 ### Sobre o desenvolvimento 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher StopOperation
    Name/fr:Sketcher Arrêt de l'opération
-   MenuLocation:Sketch → Arrêter l'opération
+   MenuLocation:Esquisse → Arrêter l'opération
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
@@ -16,6 +16,8 @@
 arrête une commande active en cours pendant qu\'une esquisse est en cours d\'édition. Cela peut signifier une opération de dessin, une opération de contrainte, une opération B-spline, etc\...
 
 Cela revient à appuyer sur la touche **Echap**.
+
+
 
 ## Utilisation
 

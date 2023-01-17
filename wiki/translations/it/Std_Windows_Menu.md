@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 Il menu **Finestre** è uno dei sette sottomenu del [menu standard](Standard_Menu/it.md):
@@ -27,6 +29,8 @@ Il menu **Finestre** è uno dei sette sottomenu del [menu standard](Standard_Men
 
 Il menu di Finestre consente di cambiare e riordinare le finestre nell\'[area di visualizzazione principale](Main_view_area/it.md).
 
+
+
 ## Strumenti
 
 In questo menu sono disponibili i seguenti strumenti:
@@ -38,8 +42,6 @@ In questo menu sono disponibili i seguenti strumenti:
 -   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Affianca](Std_TileWindows/it.md): affianca le finestre
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [A cascata](Std_CascadeWindows/it.md): dispone le finestre a cascata
-
--   [Disponi icone](Std_ArrangeIcons/it.md): aggiunge le icone delle finestre.
 
 -   [Finestre\...](Std_Windows/it.md): apre una finestra di dialogo da cui è possibile attivare una finestra.
 

@@ -186,6 +186,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 {{Properties_Title/de|Format}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
 
 -    {{PropertyData/de|FormatAngabeObereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für obere Abmaße.
@@ -209,7 +212,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 -    {{PropertyData/de|frei wählbare Toleranzen}}: Wie {{PropertyData/de|frei wählbar}}, aber für die Toleranz.
 
 
+</div>
+
+
 {{Properties_Title/de|Override}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|AngleOverride}}: Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
 
@@ -230,11 +239,17 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 -    {{PropertyData/de|ExtensionAngle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
 
 
+</div>
+
+
 
 ### Ansicht
 
 
-{{Properties_Title/de|Basis}}
+{{Properties_Title|Dimension Format}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyView/de|Visibility}}(Sichtbarkeit): Setzt, ob das Maß sichtbar ist. `True` - sichtbar, `False` - versteckt.
 
@@ -293,6 +308,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         `True`
         
         \- Dreht die automatisch gewählte Richtung um.
+
+
+</div>
 
 
 

@@ -9,7 +9,7 @@ Fr_CoinWindow doesn\'t draw any thing and it is not restricted to any dimensions
 
 The widgets interact with the user using the callback system.
 
- 
+
 ```python
 import ThreeDWidgets.fr_arrow_widget as wd
 import ThreeDWidgets.fr_coinwindow as wnn
@@ -18,7 +18,7 @@ import math
 mywin = wnn.Fr_CoinWindow()       #Create an instance of the CoinWindow                         
 vec=App.Vector(0,0,0)             #Position of the widget 
 arrows=(wd.Fr_Arrow_Widget(vec))  #An instance of the arrow widget 
-rotation=([0.0,0.0,1.0,45)])      #Internally is radians but the widget system takes degree
+rotation=([0.0,0.0,1.0,45])      #Internally is radians but the widget system takes degree
 arrows.w_color=(10,40,10)         #Color of the widget. Basically it R,G,B in the range of 0 to 1 in float values
 arrows.setRotationAngle(rotation) #Rotation of the widget. It consist of the axis in three float values, and an angle
 mywin.addWidget(arrows)           #Add the widget to the window 
@@ -42,16 +42,16 @@ Fr_Widget is the base class for all widgets. It contains basic variable, objects
 The class declaration for our new object:
 
 
-
 ```python
+from ThreeDWidgets import fr_widget
+
 class Fr_Line_Widget(fr_widget.Fr_Widget):
 
     def __init__(self, vectors: List[App.Vector] = [], label: str = "", lineWidth=1):
-        super().__init__(vectors, label)     
-    """
-    This class is for drawing a line in coin3D world
-    """
-       super().__init__(vectors, label)        
+        """
+        This class is for drawing a line in coin3D world
+        """
+        super().__init__(vectors, label)        
         #Must be initialized first as per the following discussion. 
         
         self.w_lineWidth = lineWidth  # Default line width
@@ -64,8 +64,6 @@ class Fr_Line_Widget(fr_widget.Fr_Widget):
         w_wdgsoSwitch = coin.SoSwitch()        
         w_wdgsoSwitch.whichChild = coin.SO_SWITCH_ALL  # Show all
 ```
-
-
 
 The line (super) must be written in the first line after the definition of the class since we want to initialize the abstract widget(Fr_Widget) before changing the internal objects and variables.
 
@@ -85,7 +83,7 @@ Each function in the fr_draw returns the same object which is a coin.SoSeparator
 
 We start to explain the code. This part is not difficult to understand .. It sets the width.
 
- 
+
 ```python
 
     def lineWidth(self, width):
@@ -97,7 +95,7 @@ This is the most important function in this toolkit. It handles the events occur
 
 For Keyboard events, at the moment the toolkit doesn\'t mask the events. They are still the coin3d definition. This might change in the future. Whenever a widget uses the event, it must return 1 as an indication that the event(s) is/are processed. I think the code is self explanatory. Events, colors, and other constants could be found in the file constant.py.
 
- 
+
 ```python
     def handle(self, event):
         """
@@ -148,7 +146,7 @@ This part is about the function \'draw\'. This function is responsible for drawi
 
 It has a direct connection to the fr_draw library that provides the primitive drawings for ex. (Line, Square, Box, Arrow, 2D Arrow, Cube, Cylinder etc\...). For our widget we uses the line drawing. Lets look at the code:
 
- 
+
 ```python
     def draw(self):
         """
@@ -199,7 +197,7 @@ Label drawings are collect in the file fr_label_draw.py.
 
 The text drawn is only 2D. There might be the need of making 3D text, but this will/must come to the todo list.
 
- 
+
 ```python
     def draw_label(self,usedColor):
         LabelData = fr_widget.propertyValues()
@@ -220,7 +218,7 @@ PropertyValues is an object that is used to send the parameter to the drawing fu
 
 This part is also relate to draw function. We need a mechanism to redraw the drawings. Normally you must remove the drawings and redraw the objects to get the coin3d objects changed. Fr_Wdiget do the same. Looking to the following code:
 
- 
+
 ```python
     def redraw(self):
         """
@@ -249,7 +247,7 @@ First function (redraw) will remove the drawings from the scene graph and remove
 
 We need also functions that will put the size of the object, resize it and move it. Bellow are the functions:
 
- 
+
 ```python
 
     def move(self, newVecPos):

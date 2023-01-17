@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateArcOfEllipse
    Name/fr:Sketcher Arc d'ellipse
-   MenuLocation:Sketch → Géométries d'esquisse → Créer un arc d'ellipse
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer un arc d'ellipse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **E** **A**
    Version:0.15
@@ -11,12 +11,16 @@
 
 # Sketcher CreateArcOfEllipse/fr
 
+
+
 ## Description
 
 Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
 
 <img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
 *La séquence de clics est indiquée par des flèches jaunes avec des nombres. C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
+
+
 
 ## Utilisation
 
@@ -27,9 +31,9 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 
 ## Particularités
 
--   Les axes majeurs et mineurs des ellipses sont stricts et ne peuvent pas être échangés en redimensionnant l\'ellipse. Ceci est une conséquence de la paramétrage du solveur utilisé (centre (x, y), focus1 (x, y) et longueur de rayon mineur (b)) et le même comportement strict de OpenCascade. L\'ellipse doit être tournée pour échanger les axes.
--   L\'arc d\'Ellipse peut fonctionner comme un arc de cercle lorsque ses lignes de diamètre majeur et mineur sont supprimées, et l\'un des foyers est contraint de coïncider avec le centre. Mais la contrainte de rayon ne fonctionnera pas sur une telle ellipse.
--   Déplacer l\'ellipse par un bord donne le même résultat que le centre de l\'ellipse.
+-   Les axes majeurs et mineurs de l\'ellipse sous-jacente sont stricts et ne peuvent pas être échangés par un redimensionnement. L\'ellipse sous-jacente doit être retournée pour permuter les axes.
+-   Contrairement à l\'ellipse qui peut être contrainte pour devenir un cercle, l\'arc de l\'ellipse ne peut pas représenter un arc de cercle.
+-   Déplacer l\'arc d\'une ellipse par son bord revient à déplacer le centre de l\'ellipse.
 
 
 

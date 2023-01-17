@@ -2,11 +2,11 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainRadiam
    Name/fr:Sketcher Contrainte automatique rayon/diamètre
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte automatique rayon/diamètre
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte automatique rayon/diamètre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **S**
    Version:0.20
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainRadiam/fr
@@ -28,6 +28,8 @@ Si plus d\'un cercle ou d\'un arc est sélectionné avant de lancer la commande.
 
 NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
+
+
 ## Utilisation
 
 1.  Choisissez un ou plusieurs cercles ou arcs.
@@ -36,6 +38,8 @@ NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres typ
 4.  Il est possible de déplacer et de faire pivoter l\'étiquette et la ligne de dimension dans la vue 3D en cliquant sur la valeur et en la faisant glisser tout en maintenant le bouton gauche de la souris enfoncé.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Par défaut, la commande sera en mode Continu pour créer de nouvelles contraintes. Appuyez une fois sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+
+
 
 ## Script
 

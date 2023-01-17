@@ -237,9 +237,13 @@ The following additional options are available in the [Tree view](Tree_view.md) 
 
 ### Default options 
 
-If there is an active document the context menu contains one additional sub-menu:
+For most Draft objects the following option is available:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+
+If there is an active document the context menu contains an additional sub-menu:
+
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ### Wire options 
 
@@ -279,7 +283,7 @@ The following additional options are available in the [3D view](3D_view.md) cont
 
 If there is an active document the context menu contains one additional sub-menu:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
 ## Obsolete tools 
 

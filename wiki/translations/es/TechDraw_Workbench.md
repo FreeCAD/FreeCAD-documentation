@@ -1,5 +1,7 @@
 # <img alt="El icono del Ambiente de trabajo Dibujo Técnico" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/es
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Ambiente de trabajos Croquizador](TechDraw_Workbench/es.md) se utiliza para producir dibujos técnicos básicos a partir de modelos 3D creados con otro Ambiente de trabajos como [Part](Part_Workbench/es.md), [PartDesign](PartDesign_Workbench/es.md), o [Arch](Arch_Workbench/es.md), o importados de otras aplicaciones. Cada dibujo es una Página, que puede contener varias Vistas de objetos dibujables como Part::Características, PartDesign::Cuerpos, App::Grupos de piezas, y Grupos de objetos de documentos. Los dibujos resultantes pueden ser utilizados para cosas como documentación, instrucciones de fabricación, contratos, permisos, etc.
@@ -26,6 +28,8 @@ FreeCAD es principalmente una aplicación de modelado en 3D, y por lo tanto no t
 {{TOCright}}
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
+
+
 
 ## Páginas
 
@@ -56,6 +60,8 @@ Estas son herramientas para crear objetos de la página.
 </div>
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v1.0)</small> 
+
+
 
 ## Vistas
 
@@ -137,6 +143,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v1.0)</small> 
 
+
+
 ## Recortes
 
 Estas son herramientas para crear y administrar objetos clip (vistas recortadas).
@@ -164,6 +172,8 @@ Estas son herramientas para crear y administrar objetos clip (vistas recortadas)
 
 
 </div>
+
+
 
 ## Decoración
 
@@ -208,6 +218,8 @@ Estas son herramientas para decorar páginas o vistas:
 
 
 </div>
+
+
 
 ## Dimensiones
 
@@ -314,6 +326,10 @@ Agrega una dimensión de ángulo usando tres vértices.
 
 
 </div>
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -558,6 +574,8 @@ These are tools to improve your TechDraw drawings.
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease Decimal Places](TechDraw_ExtensionDecreaseDecimal.md): decreases the number of decimal places of the dimension text. <small>(v0.20)</small> 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Importar/Exportar
@@ -582,6 +600,8 @@ Estas son herramientas para exportar páginas a otras aplicaciones.
 
 
 </div>
+
+
 
 ## Características adicionales 
 
@@ -637,6 +657,8 @@ Las herramientas de TechDraw pueden ser utilizadas en [macros](macros/es.md) y d
 
 
 </div>
+
+
 
 ## Tutoriales
 

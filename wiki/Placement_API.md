@@ -73,10 +73,13 @@ Compute the inverse placement.
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> isIdentity
 
-isIdentity() -> bool
+isIdentity([tol=0.0]) -> bool
 
 Returns True if the placement has no displacement and no rotation.
 Matrix representation is the 4D identity matrix.
+tol : float
+    Tolerance used to check for identity.
+    If tol is negative or zero, no tolerance is used.
 
 
 

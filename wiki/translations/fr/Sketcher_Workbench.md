@@ -12,17 +12,25 @@ L\'atelier Sketcher comporte des \"contraintes\", permettant aux formes 2D de su
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Une esquisse pleinement contrainte.‎*
 
+
+
 ## Les principes de l\'esquisse contrainte 
 
 Pour décrire comment fonctionne l\'atelier Sketcher, il est utile de le comparer avec la méthode « traditionnelle » du dessin.
+
+
 
 #### Dessin traditionnel 
 
 La méthode traditionnelle de la DAO hérite de la technique de la [planche à dessin](https://fr.wikipedia.org/wiki/Planche_%C3%A0_dessin). Des [vues orthogonales](https://en.wikipedia.org/wiki/Multiview_orthographic_projection) sont dessinées manuellement afin de produire des dessins techniques (aussi appelés plans). Les éléments sont dessinées précisément à leur taille réelle (ou à l\'échelle). Si vous voulez dessiner une ligne horizontale de 100mm de longueur débutant aux coordonnées (0,0), il faut activer l\'outil ligne, cliquer à l\'écran ou saisir au clavier les coordonnées du premier point, puis faire une second clic ou saisir les coordonnées du second point, soit (0,100). Ou encore, vous pouvez dessiner la ligne sans vous soucier de sa position, pour la déplacer ensuite. Lorsque vous avez terminé votre dessin, vous ajoutez les cotes.
 
+
+
 #### L\'esquisse contrainte 
 
 Le **Sketcher** s\'éloigne de cette logique. Les objets n\'ont pas à être dessinés aux dimensions exactes que vous planifiez, puisqu\'ils seront définis ultérieurement par des contraintes. Ils peuvent être dessinés librement, et tant qu\'ils ne sont pas contraints, ils peuvent être manipulés et modifiés. Ces objets en quelque sorte flottent et peuvent être déplacés, étirés, pivotés, redimensionnés, etc. Ceci permet une très grande souplesse au processus de conception.
+
+
 
 #### Que sont les contraintes ? 
 
@@ -36,11 +44,15 @@ De nombreux objets peuvent être contraints entre eux. Deux lignes peuvent être
 
 Il existe deux types de contraintes : géométriques et dimensionnelles. Elles sont détaillées dans la section [\'Les outils\'](#Les_outils.md) ci-dessous.
 
+
+
 #### Sketcher n\'est pas bon pour 
 
 Sketcher n\'est pas destiné à la réalisation de plans 2D. Une fois que l\'esquisse a été utilisée pour générer un solide, elle est automatiquement cachée. Les contraintes sont uniquement visibles en mode édition.
 
 Si vous n\'avez besoin que de produire des vues 2D pour l\'impression et que vous ne souhaitez pas créer de modèles 3D, consultez l\'[atelier Draft](Draft_Workbench/fr.md). Contrairement aux éléments Sketcher, les objets Draft n\'utilisent pas de contraintes ; ce sont des formes simples définies au moment de la création. Draft et Sketcher peuvent tous deux être utilisés pour le dessin de géométrie 2D et la création de solides 3D, bien que leur utilisation privilégiée soit différente ; le Sketcher est normalement utilisé avec les ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md) pour créer des solides ; Draft est normalement utilisé pour des dessins plans simples sur une grille, comme lors du dessin d\'un plan d\'architecture ; dans ces situations, Draft est principalement utilisé avec l\'[atelier Arch](Arch_Workbench/fr.md). L\'outil [Draft vers Esquisse](Draft_Draft2Sketch/fr.md) convertit un objet Draft en un objet Esquisse, et vice versa ; de nombreux outils qui nécessitent un élément 2D en entrée fonctionnent avec les deux types d\'objets car une conversion interne est effectuée automatiquement.
+
+
 
 ## Processus d\'esquisse 
 
@@ -52,9 +64,13 @@ A l\'intérieur d\'une aire fermée, nous pouvons avoir des aires indépendantes
 
 Une fois que l'esquisse est entièrement contrainte, les fonctions d'esquisse deviennent vertes. La géométrie de construction restera bleue. Elle est généralement \"finie\" à ce stade et convient à la création d\'un solide 3D. Cependant, une fois que la boîte de dialogue Esquisse est fermée, il peut s\'avérer utile d\'aller à l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) et de lancer **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** pour vous assurer qu\'aucune fonctionnalité de l\'esquisse ne risque de causer des problèmes ultérieurs.
 
+
+
 ## Les outils 
 
 Les outils de l\'atelier Sketcher sont tous situés dans le menu Sketch qui s\'affiche lorsque vous chargez l\'atelier Sketcher.
+
+
 
 ### Généralités
 
@@ -79,6 +95,8 @@ Les outils de l\'atelier Sketcher sont tous situés dans le menu Sketch qui s\'a
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md) : crée une esquisse miroir selon l\'axe X, l\'axe Y ou l\'origine.
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Arrêt de l\'opération](Sketcher_StopOperation/fr.md) : en mode édition, arrêter l\'opération en cours, qu\'il s\'agisse de dessiner, de définir des contraintes, etc.
+
+
 
 ### Géométries d\'esquisse 
 
@@ -156,7 +174,7 @@ Ces outils permettent de créer des objets.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Prolonger](Sketcher_Extend/fr.md) : prolonge une ligne ou un arc jusqu\'à une limite définie par un arc, une ellipse, un arc d\'ellipse ou un point dans l\'espace.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Diviser](Sketcher_Split/fr.md) : divise une ligne ou un arc en deux, convertit un cercle en arc de cercle en gardant la plupart des contraintes. {{Version/fr|0.20}}
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Diviser](Sketcher_Split/fr.md) : divise une arête en deux tout en conservant la plupart des contraintes. {{Version/fr|0.20}}
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Géométrie externe](Sketcher_External/fr.md) : crée une arête liée à une géométrie externe.
 
@@ -164,9 +182,13 @@ Ces outils permettent de créer des objets.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md) : bascule les éléments vers/depuis le mode Construction. Les géométries de construction sont représentées en bleu, et ne sont pas prises en compte en dehors du mode d\'édition de l\'esquisse.
 
+
+
 ### Contraintes d\'esquisse 
 
 Les contraintes sont utilisées pour définir des règles entre les éléments d\'esquisse et pour verrouiller l\'esquisse le long des axes vertical et horizontal. Certaines contraintes requièrent l\'utilisation de [contraintes d\'assistance](Sketcher_helper_constraint/fr.md).
+
+
 
 #### Contraintes géométriques 
 
@@ -192,6 +214,8 @@ Ces contraintes ne sont pas associées à des données numériques.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Contrainte de blocage](Sketcher_ConstrainBlock/fr.md) : empêche une arête de se déplacer, c\'est-à-dire qu\'il empêche ses sommets de changer leur position en cours. Particulièrement utile de fixer la position des B-Splines. Voir la [discussion «Block Constraint» (en) sur le forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+
+
 #### Contraintes dimensionnelles 
 
 Ces contraintes sont associées à des données numériques, pour lesquelles vous pouvez utiliser des [expressions](Expressions/fr.md). Les données peuvent être tirées d\'un [tableur](Spreadsheet_Workbench/fr.md).
@@ -214,11 +238,15 @@ Ces contraintes sont associées à des données numériques, pour lesquelles vou
 
   - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle/fr.md) : crée une contrainte d\'angle interne entre deux lignes sélectionnées.
 
+
+
 #### Contraintes spéciales 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Contrainte de réfraction](Sketcher_ConstrainSnellsLaw/fr.md) : contraint deux lignes à respecter une loi de réfraction simulant la trajectoire de la lumière à travers une interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) : aligne les éléments selectionnés à la forme sélectionnée (par exemple, contraint une ligne à devenir le grand axe d\'une ellipse).
+
+
 
 #### Outils de contrainte 
 
@@ -227,6 +255,8 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Basculement de contrainte](Sketcher_ToggleDrivingConstraint/fr.md) : bascule la barre d\'outils ou les contraintes sélectionnées vers/depuis le mode de référence.
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activation des contraintes](Sketcher_ToggleActiveConstraint/fr.md) : active ou désactive une contrainte déjà placée. {{Version/fr|0.19}}
+
+
 
 ### Outils d\'esquisse 
 
@@ -268,6 +298,8 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Supprimer toutes les contraintes](Sketcher_DeleteAllConstraints/fr.md) : supprime toutes les contraintes de l\'esquisse.
 
+
+
 ### Outils d\'esquisse B-spline 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Montrer/Cacher le degré de la B-spline](Sketcher_BSplineDegree/fr.md)
@@ -292,15 +324,21 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md), {{Version/fr|0.20}}
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Joindre des courbes](Sketcher_JoinCurves/fr.md), {{Version/fr|1.0}}
+
+
 
 ### Espace virtuel de l\'esquisse 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Basculer l\'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md) :permet de masquer toutes les contraintes d\'une esquisse et de les rendre à nouveau visibles.
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Préférences\...](Sketcher_Preferences/fr.md) : préférences disponibles pour l\'atelier **Sketcher**.
+
+
 
 ## Bonnes pratiques 
 
@@ -315,12 +353,16 @@ Chaque utilisateur de DAO développe sa propre philosophie au cours de son trava
 -   En général, les meilleures contraintes à utiliser sont : Contraintes horizontales et verticales ; Contraintes de longueur horizontales et verticales ; Tangence point à point. Si possible, limitez l\'utilisation de ces contraintes : la contrainte générale de longueur ; la tangence bord à bord ; la contrainte de fixation du point sur une ligne ; la contrainte de symétrie.
 -   Si vous avez des doutes sur la validité d\'une esquisse une fois qu\'elle est terminée (les caractéristiques deviennent vertes), fermez la boîte de dialogue Sketcher, passez à l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) et exécutez **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)**.
 
+
+
 ## Tutoriels
 
 -   [Sketcher tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104) par chrisb. Il s'agit d'un document PDF de 70 pages qui sert de manuel détaillé à l'atelier esquisse. Il explique les bases de l\'utilisation du Sketcher et aborde de nombreux détails concernant la création de formes géométriques et chacune des contraintes.
 -   [Sketcher : Tutoriel d\'introduction](Basic_Sketcher_Tutorial/fr.md) pour débutants
 -   [Sketcher : Micro-tutoriel - Les pratiques de contraintes](Sketcher_Micro_Tutorial_-_Constraint_Practices/fr.md)
 -   [Sketcher : Requis pour une esquisse](Sketcher_requirement_for_a_sketch/fr.md) Exigence minimale pour un croquis et détermination complète d\'un croquis.
+
+
 
 ## Script
 

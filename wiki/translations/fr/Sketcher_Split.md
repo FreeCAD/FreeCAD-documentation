@@ -13,9 +13,11 @@
 
 ## Description
 
-Cet outil permet de diviser une arête en deux arêtes identiques, la plupart des contraintes étant dupliquées, les deux parties restent donc contraintes à l\'exception de la position du point de division. Dans le cas particulier d\'un cercle, celui-ci est converti en un arc de bouts libres, les contraintes existantes du cercle étant transférées au nouvel arc.
+Cet outil scinde une arête en deux, les contraintes applicables existantes étant copiées sur la nouvelle arête. La position du point où les arêtes se rencontrent n\'est pas contrainte. Les courbes périodiques (c\'est-à-dire les cercles, les ellipses et les B-splines périodiques) sont converties en courbes non périodiques (respectivement des arcs de cercles, des arcs d\'ellipses et des B-splines non périodiques).
 
 ![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
+
+
 
 ## Utilisation
 
@@ -26,7 +28,9 @@ Cet outil permet de diviser une arête en deux arêtes identiques, la plupart de
 
 ## Limitations
 
--   Pour les ellipses, paraboles, hyperboles et B-splines, la fonction n\'est pas encore supportée.
+-   Dans la {{VersionMinus/fr|0.20}}, l\'action n\'est pas prise en charge pour les ellipses, les paraboles, les hyperboles et les B-splines.
+
+
 
 ## Remarques
 

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **Rysunek Roboczy** skupia się przede wszystkim na tworzeniu i modyfikacji obiektów 2D w programie FreeCAD. Nie jest jednak ograniczone do płaszczyzny XY globalnego układu współrzędnych. Jego obiekty mogą mieć dowolną orientację i położenie w przestrzeni, a niektóre obiekty Rysunku Roboczego mogą być zarówno płaskie jak i przestrzenne.
@@ -17,6 +19,8 @@ Jeśli Twoim głównym celem jest tworzenie złożonych rysunków 2D i plików [
 *Obrazek przedstawia [siatkę](Draft_Snap_Grid/pl.md) wyrównaną do płaszczyzny XY.<br>
 Po lewej stronie, na biało, kilka obiektów planarnych.<br>
 Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ścieżki w [wyciąganiu pop ścieżce](Draft_PathArray/pl.md).*
+
+
 
 ## Kreślenie
 
@@ -56,6 +60,8 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Kreskowanie](Draft_Hatch/pl.md): tworzy kreskowanie na planarnych powierzchniach wybranego obiektu. {{Version/pl|0.20}}
 
+
+
 ## Adnotacja
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Adnotacja wieloliniowa](Draft_Text/pl.md): tworzy wielowierszowy obiekt tekstu w zadanym punkcie.
@@ -65,6 +71,8 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Etykieta](Draft_Label/pl.md): tworzy tekst wielowierszowy z dwu-segmentową linią wiodącą i strzałką.
 
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md): pozwala zdefiniować style, które wpływają na właściwości wizualne obiektów związanych z adnotacjami.
+
+
 
 ## Modyfikacja
 
@@ -122,6 +130,8 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Widok 2D kształtu](Draft_Shape2DView/pl.md): tworzy rzuty 2D z wybranych obiektów.
 
+
+
 ## Pasek narzędzi Draft: Tray 
 
 Pasek narzędzi zasobnika środowiska [Rysunek Roboczy](Draft_Tray/pl.md) pojawia się po uruchomieniu stołu warsztatowego i umożliwia wybór płaszczyzny roboczej, wraz z niektórymi właściwościami wizualnymi, takimi jak kolor linii, kolor kształtu, szerokość linii, rozmiar tekstu oraz grupa automatyczna.
@@ -136,17 +146,23 @@ Pasek narzędzi zasobnika środowiska [Rysunek Roboczy](Draft_Tray/pl.md) pojawi
 
 -   ![](images/Draft_tray_button_layer.png ) [Grupowanie automatyczne](Draft_AutoGroup/pl.md): zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, opcjonalnie, aktywną [grupę](Std_Group/pl.md) lub grupę obiektów [architektury](Arch_Workbench/pl.md).
 
+
+
 ## Widżet skali adnotacji 
 
 Za pomocą widżetu [skali adnotacji](Draft_annotation_scale_widget/pl.md) można określić skalę wyświetlanej adnotacji.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
+
+
 ## Widżet przyciągania 
 
 Widżet [przyciągania](Draft_snap_widget/pl.md) może być używany jako alternatywa dla [paska narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy:_Przyci.C4.85gnij.md).
 
 ![](images/Draft_snap_widget_button.png )
+
+
 
 ## Pasek narzędzi Rysunek roboczy: Przyciągnij 
 
@@ -184,6 +200,8 @@ Pasek narzędzi Rysunek Roboczy: Przyciągnij, umożliwia wybór aktywnych opcji
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md): włącza lub wyłącza widoczność siatki.
 
+
+
 ### Pasek narzędzi użytkowych 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl.md): tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy.
@@ -200,6 +218,8 @@ Pasek narzędzi Rysunek Roboczy: Przyciągnij, umożliwia wybór aktywnych opcji
 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Pośrednia płaszczyzna robocza](Draft_WorkingPlaneProxy/pl.md): tworzy zastępczą płaszczyznę roboczą, aby zapisać bieżącą [płaszczyznę robocza projektu](Draft_SelectPlane/pl.md).
 
+
+
 ## Dodatkowe narzędzia 
 
 Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większość z nich jest dostępna również z pasków narzędziowych i została już wymieniona powyżej. W przypadku poniższych narzędzi nie jest to regułą.
@@ -212,6 +232,8 @@ Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większ
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Pokaż przybornik przyciągania](Draft_ShowSnapBar/pl.md): wyświetla [pasek narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy:_Przyci.C4.85gnij.md).
 
+
+
 ## Dodatkowe właściwości 
 
 -   [Płaszczyzna robocza](Draft_SelectPlane/pl.md): Umożliwia wybranie powierzchni w oknie [widoku 3D](3D_view.md), na której można budować swoje kształty.
@@ -220,21 +242,33 @@ Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większ
 -   [Tryb konstrukcji](Draft_ToggleConstructionMode/pl.md): Umieszcza nowe obiekty Rysunku Roboczego w dedykowanej grupie, ułatwiając ich ukrywanie lub usuwanie.
 -   [Wzór](Draft_Pattern/pl.md): Obiekty Rysunku Roboczego z właściwością {{PropertyData/pl|Utwórz ścianę}} mogą wyświetlać wzór SVG zamiast jednolitego koloru ściany.
 
+
+
 ## Menu kontekstowe widoku drzewa 
 
 W menu kontekstowym [Widoku drzewa](Tree_view/pl.md) dostępne są następujące dodatkowe opcje:
 
+
+
 ### Opcje domyślne 
 
-Jeśli istnieje aktywny dokument, menu kontekstowe zawiera jedno dodatkowe podmenu:
+Dla większości obiektów Rysunku Roboczego dostępna jest następująca opcja:
 
--    **Narzędzia**: podzbiór narzędzi dostępnych w głównym menu Narzędzia Rysunku Roboczego.
+-   Edycja: edytuje obiekt. W zależności od typu obiektu używana jest albo funkcja [Edytuj](Draft_Edit/pl.md) albo dedykowane rozwiązanie edycyjne. {{Version/pl|1.0}}
+
+Jeśli istnieje aktywny dokument, menu kontekstowe zawiera dodatkowe menu podrzędne:
+
+-   Narzędzia: podzbiór narzędzi dostępnych w głównym menu Narzędzia Rysunku Roboczego.
+
+
 
 ### Opcje polilinii 
 
 Ta dodatkowa opcja jest dostępna dla [linii](Draft_Line/pl.md), [polilinii](Draft_Wire/pl.md),:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Spłaszcz tę polilinię: spłaszcza polilinię na bieżącej [Płaszczyźnie roboczej](Draft_SelectPlane/pl.md). Ta opcja nie działa poprawnie w {{VersionMinus/pl|0.19}}.
+
+
 
 ### Opcje kontenera warstw 
 
@@ -244,6 +278,8 @@ Dla narzędzi [Kontenera warstw](Draft_Layer/pl.md) dostępne są te dodatkowe o
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl#Opcje_kontenera_warstw.md): dodaje nową warstwę do bieżącego dokumentu.
 
+
+
 ### Opcje warstw 
 
 Dla narzędzi [Warstw](Draft_Layer/pl.md) dostępne są te dodatkowe opcje:
@@ -251,6 +287,8 @@ Dla narzędzi [Warstw](Draft_Layer/pl.md) dostępne są te dodatkowe opcje:
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Grupowanie automatyczne](Draft_AutoGroup/pl.md): aktywuje wybraną warstwę.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Wybierz grupę](Draft_SelectGroup/pl.md): zaznacza obiekty znajdujące się wewnątrz wybranej warstwy.
+
+
 
 ### Opcje tymczasowej płaszczyzny roboczej 
 
@@ -260,15 +298,21 @@ Dla narzędzi [Pośredniej płaszczyzny roboczej](Draft_WorkingPlaneProxy/pl.md)
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Zapisz stan obiektów](Draft_WorkingPlaneProxy/pl#Menu_podr.C4.99czne.md): aktualizuje właściwość {{PropertyView/pl|Mapa widoczności}} pośrednika płaszczyzny roboczej z aktualnym stanem widoczności obiektów w dokumencie.
 
+
+
 ## Menu kontekstowe okna widoku 3D 
 
 W menu kontekstowym okna [widoku 3D](3D_view/pl.md) dostępne są następujące dodatkowe opcje:
 
+
+
 ### Opcje domyślne 
 
-Jeśli istnieje aktywny dokument, menu kontekstowe zawiera jedno dodatkowe podmenu:
+Jeśli istnieje aktywny dokument, menu kontekstowe zawiera jedno dodatkowe menu podrzędne:
 
--    **Narzędzia**: podzbiór narzędzi dostępnych w głównym menu Narzędzia Rysunku Roboczego.
+-   Narzędzia: podzbiór narzędzi dostępnych w głównym menu Narzędzia Rysunku Roboczego.
+
+
 
 ## Narzędzia przestarzałe 
 
@@ -278,11 +322,15 @@ Polecenia te są przestarzałe, ale nadal dostępne.
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Projekt rysunku](Draft_Drawing/pl.md): wstawia widoki obiektów na stronie środowiska [Rysunek Roboczy](Drawing_Workbench/pl.md). {{Obsolete/pl|0.17}}
 
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Ustawienia](Draft_Preferences/pl.md): ogólne ustawienia dla środowiska pracy Rysunek Roboczy.
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md): Ustawienia dostępne dla importu i eksportu do różnych formatów plików.
+
+
 
 ### Formaty plików 
 
@@ -294,6 +342,8 @@ Polecenia te są przestarzałe, ale nadal dostępne.
 -   [Open Cad format .OCA](Draft_OCA/pl.md): Import i eksport plików [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/pl.md): Import plików DAT opisujących profil Airfoil.
 
+
+
 ## Test jednostek 
 
 Zobacz również: [Środowisko pracy Test](Testing/pl.md)
@@ -304,6 +354,8 @@ Aby przeprowadzić testy jednostek w środowisku pracy, należy wykonać następ
 ```python
 freecad -t TestDraft
 ```
+
+
 
 ## Tworzenie skryptów 
 
@@ -320,6 +372,8 @@ doc = dto.create_test_file()
 ```
 
 Sprawdzenie kodu tego modułu jest pomocne, aby zrozumieć interfejs programowania.
+
+
 
 ## Poradniki
 

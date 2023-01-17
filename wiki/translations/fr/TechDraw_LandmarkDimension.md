@@ -10,26 +10,11 @@
 
 # TechDraw LandmarkDimension/fr
 
-
-</div>
-
 ## Description
-
-
-<div class="mw-translate-fuzzy">
 
 L\'outil **Insérer une cote à partir des points du repère** ajoute une cote linéaire à une vue. La cote est basée sur deux points **feature** (Draft.Point ou Part.Vertex) du modèle 3D. Remarquez que les points doivent être des objets **feature** qui apparaissent dans le modèle de la [vue en arborescence](Tree_view/fr.md). Les sommets aléatoires d\'une forme ne fonctionneront pas.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le but de cet outil est de fournir une solution de contournement à la corruption des cotes provoquée par des problèmes de \"[dénomination topologique](topological_naming_problem/fr.md)\". Les points sources doivent utiliser des [Expressions](Expressions/fr.md) ou un autre mécanisme contenant pour établir leur position. Étant donné que les points sont des [Objets Document](App_DocumentObject/fr.md) et non des composants de forme, leur nom ne change pas avec les recalculs et donc ils sont faciles à trouver.
-
-
-</div>
+Le but de cet outil est de fournir une solution de contournement à la corruption des cotes provoquée par des problèmes de \"[dénomination topologique](Topological_naming_problem/fr.md)\". Les points sources doivent utiliser des [Expressions](Expressions/fr.md) ou un autre mécanisme contenant pour établir leur position. Étant donné que les points sont des [Objets Document](App_DocumentObject/fr.md) et non des composants de forme, leur nom ne change pas avec les recalculs et donc ils sont faciles à trouver.
 
 Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s.md) pour en savoir plus sur les dimensions et les noms topologiques.
 
@@ -39,17 +24,11 @@ Insérer une cote à partir des points du repère se comporte généralement com
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez 2 objets Point dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez également la vue à laquelle la cote doit être ajoutée.
 3.  Appuyez sur le bouton **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Insérer une cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md)
 ** ou **TechDraw → Dimensions → Insérer une cote à partir des points du repère - EXPÉRIMENTAL**
 4.  Une cote sera ajoutée à la vue. Le texte de la cote peut être déplacé vers la position souhaitée.
-
-
-</div>
 
 ## Limitations
 

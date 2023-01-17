@@ -6,6 +6,8 @@
 
 В качестве других вариантов смотрите [Assembly3](Assembly3_Workbench/ru.md) или [Assembly4](Assembly4_Workbench/ru.md). Эти верстаки так же основаны на Assembly2, но не совместимы с любым из перечисленного.}}
 
+
+
 ## Введение
 
 [Assembly2](Assembly2_Workbench/ru.md) это верстак для создания сборок из FreeCAD v0.15 с поддержкой импорта деталей из внешних файлов.
@@ -13,6 +15,8 @@
 По утверждению автора [на форуме](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), он более не поддерживается с 2016 года, поэтому у него могут быть проблемы с FreeCAD 0.17 и выше. Хорошей альтернативой может быть более новый и активно поддерживаемый [верстак A2plus](A2plus_Workbench/ru.md).
 
 ![](images/Assembly2_example.jpg )
+
+
 
 ## Применение
 
@@ -36,11 +40,15 @@
 -   слабый вычислитель ограничений, могущий ошибиться или требовать слишком много времени для сложных сборок
 -   не поддерживается откат и тому подобные возможности
 
+
+
 ## Справки
 
 -   Author: hamish
 -   Home page: [Assembly2](https://github.com/hamish2014/FreeCAD_assembly2)
 -   Source code on github: [Assembly2](https://github.com/hamish2014/FreeCAD_assembly2)
+
+
 
 ## Инструменты
 
@@ -74,7 +82,11 @@
 -   <img alt="" src=images/Assembly2_Preferences.png  style="width:32px;"> Настройки
 -   <img alt="" src=images/Assembly2_Assembly2.png  style="width:32px;"> Assembly2 WB icon
 
+
+
 ## Установка
+
+
 
 ### Автоматическая установка 
 
@@ -86,9 +98,11 @@
 
 </div>
 
+
+
 ### Из GitHub 
 
-To use this workbench clone this git repository under your FreeCAD Mod directory, and install the pyside and numpy python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows
+To use this workbench clone this git repository under your FreeCAD Mod directory, and install the pyside and numpy Python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows
 
 
 ```python
@@ -129,15 +143,19 @@ Pyside and Numpy are integrated in the FreeCAD 0.15 dev-Snapshots, so these Pyth
 
 To update to the latest version, delete the assembly2 folder and redownload the git repository.
 
+
+
 ## Ссылки
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
 -   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=10&t=8577>
 -   Tutorials:
--   Videos: [1](https://www.youtube.com/watch?v=dhaYJKDk4GI), [2](http://youtu.be/ufhyUxQkeC0),
+-   Videos: [video 1](https://www.youtube.com/watch?v=dhaYJKDk4GI), [video 2](http://youtu.be/ufhyUxQkeC0),
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/hamish2014/FreeCAD_assembly2/issues>
+
+
 
 ## Другие полезные ссылки 
 

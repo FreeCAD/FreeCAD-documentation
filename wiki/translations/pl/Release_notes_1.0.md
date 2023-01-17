@@ -118,6 +118,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ## Środowisko pracy Architektura 
 
+-   Naprawiono kilka problemów z trybem edycji i poprawiono menu podręczne [widoku Drzewa](Tree_view.md) dla obiektów Łuku. Obiekty, które mogą być edytowane mają teraz opcję **Edytuj** w tym menu. Opcja **Ustaw kolor** została usunięta dla obiektów bez ściany lub mogących mieć tylko jedną ścianę. [Pull request #8122](https://github.com/FreeCAD/FreeCAD/pull/8122)
+
 
 
 ### Planowane ulepszenie dla środowiska Architektura 
@@ -131,6 +133,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Naprawiono niedokładność narzędzia [Przyciąganij do najbliższego](Draft_Snap_Near/pl.md) podczas przyciągania do krzywych. Dodatkowo narzędzie, [Przyciągnij prostopadle](Draft_Snap_Perpendicular/pl.md) może teraz również przyciągać do powierzchni i znajdować wiele punktów. Aby przyciągnąć do wierzchołka *(np. [punktu](Draft_Point/pl.md))* narzędzie [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md) musi być teraz użyte zamiast dotychczasowego [Przyciąganij do najbliższego](Draft_Snap_Near/pl.md). [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132).
 -   Aby ułatwić pracę z [warstwami](Draft_Layer/pl.md) zmodyfikowano ich zachowanie podczas przeciągania i upuszczania. Jeśli upuścisz obiekt z [grupy](Std_Group/pl.md) lub obiekt podobny do grupy, taki jak [Część budowli - piętro](Arch_BuildingPart/pl.md) środowiska Architektura, na warstwę, nie zostanie on już usunięty z grupy i odwrotnie. Działa to bez przytrzymywania klawisza **Ctrl**. [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
 -   Polecenie [Szyk punktów](Draft_PointArray/pl.md) obsługuje teraz więcej typów obiektów punktowych. Można użyć dowolnego obiektu o kształcie i wierzchołkach, a także [siatki](Mesh_Workbench/pl.md) i [chmury punktów](Points_Workbench/pl.md). [Żądanie ściągnięcia #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
+-   Poprawiono menu podręczne [Widoku Drzewa](Tree_view/pl.md) dla obiektów Rysunku Roboczego. Obiekty, które mogą być edytowane za pomocą polecenia [Edycja](Draft_Edit/pl.md), lub które mają dedykowane rozwiązanie do edycji, mają teraz opcję **Edytuj** w tym menu. Opcja **Ustaw kolor** została usunięta dla obiektów bez ściany lub mogących mieć tylko jedną ścianę. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
+-   Ujednolicono właściwości obiektów adnotacji Rysunku Roboczego. Obiekty [tekst](Draft_Text/pl.md), [Wymiary](Draft_Dimension/pl.md) i [Etykieta](Draft_Label/pl.md) mają teraz wszystkie właściwości Nazwa czcionki, Rozmiar czcionki i Kolor tekstu. Uspójniono również opcje Tryb wyświetlania i są to teraz: Ekran i Świat. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) oraz [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081).
 
 
 
@@ -139,6 +143,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Naprawiono kilka problemów związanych z [Szyk po ścieżce](Draft_PathArray/pl.md). [Pull request #7506](https://github.com/FreeCAD/FreeCAD/pull/7506) oraz [Pull request #7662](https://github.com/FreeCAD/FreeCAD/pull/7662).
 -   Polecenie [Edycja](Draft_Edit/pl.md) otrzymało kilka ulepszeń. Dla [linii łamanej](Draft_Wire/pl.md), [krzywej złożonej](Draft_BSpline/pl.md) i [krzywej Béziera](Draft_BezCurve/pl.md) dodano opcję Zamknij / Otwórz do menu podręcznego krawędzi. W przypadku krzywych złożonych i krzywych Béziera do tego samego menu dodano również opcję Odwróć. Panele zadań zostały wyczyszczone. [Żądanie ściągnięcia #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) i [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541).
 -   Pasek narzędzi [Przyciągania](Draft_Snap/pl.md) został zmieniony na standardowy pasek narzędzi. Skróty klawiaturowe mogą być teraz przypisane do narzędzi przyciągania. Ale używanie ich podczas polecenia działa tylko wtedy, gdy żadne z pól wejściowych w panelu zadań nie jest aktywne, ponieważ \"łapią\" one tak zwane skróty wewnątrz polecenia. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
+-   W panelu zadań polecenie [Ustaw styl](Draft_SetStyle/pl.md) przycisk \"Tekst / wymiary\" został zastąpiony przyciskiem \"Adnotacje\". Naciśnięcie tego przycisku spowoduje przetworzenie wszystkich adnotacji, w tym [Etykieta](Draft_Label/pl.md). Naprawiono także kilka drobnych błędów. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) oraz [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196).
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateEllipseBy3Points
    Name/fr:Sketcher Ellipse par 3 points
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une ellipse via 3 points
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une ellipse via 3 points
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **3** **E**
    Version:0.15
@@ -21,7 +21,9 @@ Lors du lancement de l\'outil, le pointeur de la souris change pour une croix bl
 
 
 
-*La séquence de clics est indiquée par des flèches jaunes numérotées. 1 est la périapside, 2 l'apoapside, 3 définit le point du diamètre mineur, les lignes vertes sont les diamètres majeur et mineur. Les lignes bleues sont des lignes de construction aléatoires à des fins d'illustration.*
+*La séquence de clics est indiquée par des flèches jaunes numérotées.<br/>1 est la périapside, 2 l'apoapside, 3 définit le point du diamètre mineur, les lignes vertes sont les diamètres majeur et mineur. Les lignes bleues sont des lignes de construction aléatoires à des fins d'illustration.*
+
+
 
 ## Utilisation
 
@@ -30,6 +32,8 @@ Lors du lancement de l\'outil, le pointeur de la souris change pour une croix bl
 
 -   Après le troisième clic, l\'ellipse est créée, ainsi qu\'un ensemble de géométrie de construction alignée sur l\'ellipse (diamètres majeur et intérieur, 2 points focaux). La géométrie de construction peut être supprimée manuellement si non requise, et recréée plus tard. Consultez [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [afficher/basculer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   Appuyer sur **Echap** ou un clic droit sur la souris annule la fonction.
+
+
 
 ## Particularités
 

@@ -20,9 +20,10 @@
 | [Plot Basic tutorial/de](wiki/Plot Basic tutorial/de.md) | [Plot Grid/de](wiki/Plot Grid/de.md) | [Plot Labels/de](wiki/Plot Labels/de.md) |
 | [Plot Legend/de](wiki/Plot Legend/de.md) | [Plot MultiAxes tutorial/de](wiki/Plot MultiAxes tutorial/de.md) | [Plot Positions/de](wiki/Plot Positions/de.md) |
 | [Plot Save/de](wiki/Plot Save/de.md) | [Plot Series/de](wiki/Plot Series/de.md) | [Plot Workbench/de](wiki/Plot Workbench/de.md) |
-| [Pyramids and polyhedrons Workbench/de](wiki/Pyramids and polyhedrons Workbench/de.md) | [Reinforcement Workbench/de](wiki/Reinforcement Workbench/de.md) | [Ship Workbench/de](wiki/Ship Workbench/de.md) |
-| [Symbols Library Workbench/de](wiki/Symbols Library Workbench/de.md) | [WebTools Workbench/de](wiki/WebTools Workbench/de.md) | [Workfeature Workbench/de](wiki/Workfeature Workbench/de.md) |
-| [Category:Fasteners/de](wiki/Category_Fasteners/de.md) | [Category:FCGear/de](wiki/Category_FCGear/de.md) |
+| [Pyramids and polyhedrons Workbench/de](wiki/Pyramids and polyhedrons Workbench/de.md) | [Pyrate Workbench/de](wiki/Pyrate Workbench/de.md) | [Reinforcement Workbench/de](wiki/Reinforcement Workbench/de.md) |
+| [Ship Workbench/de](wiki/Ship Workbench/de.md) | [Symbols Library Workbench/de](wiki/Symbols Library Workbench/de.md) | [WebTools Workbench/de](wiki/WebTools Workbench/de.md) |
+| [Workfeature Workbench/de](wiki/Workfeature Workbench/de.md) | [Category:Fasteners/de](wiki/Category_Fasteners/de.md) | [Category:FCGear/de](wiki/Category_FCGear/de.md) |
+|
 
 
 

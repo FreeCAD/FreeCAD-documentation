@@ -16,6 +16,8 @@ La commande **Std Gestionnaire des extensions** ouvre le gestionnaire des extens
 
 En raison des modifications apportées à la plateforme GitHub en 2020, le gestionnaire des extensions ne fonctionne plus si vous utilisez la version 0.17 ou antérieure de FreeCAD. Vous devez passer à la version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) ou ultérieure. Alternativement, vous pouvez installer les extensions manuellement, voir [Remarques](#Remarques.md) ci-dessous.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire des extensions** dans le menu.
@@ -42,9 +44,13 @@ Si vous cliquez sur une extension dans cette vue, la page des détails de l\'ext
 
 La page de détails présente des boutons permettant d\'installer, de désinstaller, de mettre à jour et de désactiver temporairement une extensions. Pour les extensions installées, elle indique la version installée en cours et la date d\'installation, et précise s\'il s\'agit de la version la plus récente disponible. Une fenêtre de navigateur Web intégrée affiche la page README de l\'extension (pour les environnements de travail et les kits de préférences) ou la page Wiki (pour les macros).
 
+
+
 ## Préférences
 
 Les préférences du gestionnaire des extensions se trouvent dans [Réglage des préférences](Preferences_Editor/fr#Gestionnaire_des_extensions.md). {{Version/fr|0.20}}
+
+
 
 ## Remarques
 
@@ -54,9 +60,79 @@ Les préférences du gestionnaire des extensions se trouvent dans [Réglage des 
 -   Si le paquet [GitPython](https://github.com/gitpython-developers/GitPython) est installé sur votre ordinateur, le gestionnaire des extensions l\'utilisera, ce qui accélérera les téléchargements.
 -   Vous pouvez également installer des extensions manuellement. Voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md) et [Comment installer des macros](How_to_install_macros/fr.md).
 
-## Informations pour les développeurs 
+
+
+## Informations pour les développeurs d\'extensions 
 
 Voir [Extension](Addon/fr#Informations_pour_les_d.C3.A9veloppeurs.md)
+
+
+
+## Script
+
+
+{{Version/fr|1.0}}
+
+Certaines fonctionnalités du gestionnaire des extensions sont conçues pour être accessibles via l\'API Python de FreeCAD. En particulier, une extension peut être installée, mise à jour et supprimée via l\'interface Python. La plupart des utilisations de cette API nécessitent de créer un objet avec au moins trois attributs : {{Incode|name}}, {{Incode|branch}} et {{Incode|url}}. Par exemple :
+
+
+```python
+class MyAddonClass:
+    def __init__(self):
+        self.name = "TestAddon"
+        self.url = "https://github.com/Me/MyTestAddon"
+        self.branch = "main"
+my_addon = MyAddonClass()
+```
+
+Votre objet {{Incode|my_addon}} est maintenant prêt à être utilisé avec l\'API du gestionnaire des extensions.
+
+
+
+### Utilisation de la ligne de commande (sans interface utilisateur) 
+
+Si votre code doit installer ou mettre à jour une extension de manière synchrone (par exemple, sans interface graphique), le code peut être très simple :
+
+
+```python
+from addonmanager_installer import AddonInstaller
+installer = AddonInstaller(my_addon)
+installer.run()
+```
+
+Notez que ce code se bloque jusqu\'à ce qu\'il soit complet, donc vous ne devriez pas l\'exécuter sur le fil principal de l\'interface graphique. Pour le gestionnaire des extensions, \"install\" et \"update\" sont le même appel : si cette extension est déjà installée, et que git est disponible, il sera mis à jour via \"git pull\". Si elle n\'est pas installée ou a été installée via une méthode d\'installation non git, elle est téléchargée à partir de zéro (en utilisant git si disponible).
+
+Pour désinstaller, utilisez :
+
+
+```python
+from addonmanager_uninstaller import AddonUninstaller
+uninstaller = AddonUninstaller(my_addon)
+uninstaller.run()
+```
+
+
+
+### Utilisation de l\'interface utilisateur 
+
+Si vous prévoyez que votre code s\'exécute dans une interface graphique, ou que vous prenez en charge l\'exécution de la version complète de FreeCAD, il est préférable d\'exécuter votre installation dans un fil séparé non GUI, afin que l\'interface graphique reste réactive. Pour ce faire, vérifiez d\'abord si l\'interface graphique est en cours d\'exécution, et si c\'est le cas, créez un {{Incode|QThread}}. (n\'essayez pas de créer un {{Incode|QThread}} si l\'interface graphique n\'est pas active : ils nécessitent une boucle d\'événements active pour fonctionner).
+
+
+```python
+from PySide import QtCore
+from addonmanager_installer import AddonInstaller
+
+worker_thread = QtCore.QThread()
+installer = AddonInstaller(my_addon)
+installer.moveToThread(worker_thread)
+installer.success.connect(installation_succeeded)
+installer.failure.connect(installation_failed)
+installer.finished.connect(worker_thread.quit)
+worker_thread.started.connect(installer.run)
+worker_thread.start() # Returns immediately
+```
+
+Définissez ensuite les fonctions {{Incode|installation_succeded}} et {{Incode|installation_failed}} à exécuter dans chaque cas. Pour la désinstallation, vous pouvez utiliser la même technique, bien qu\'elle soit généralement beaucoup plus rapide et qu\'elle ne bloque pas l\'interface graphique pendant très longtemps, donc en général il est plus sûr d\'utiliser directement le désinstalleur, comme indiqué ci-dessus.
 
 
 

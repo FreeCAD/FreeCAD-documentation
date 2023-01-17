@@ -32,8 +32,8 @@ This category contains all Unfinished Documents
 | [SheetMetal SketchOnSheet/it](wiki/SheetMetal SketchOnSheet/it.md) | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) | [SheetMetal Workbench/it](wiki/SheetMetal Workbench/it.md) |
 | [Ship Capacity/it](wiki/Ship Capacity/it.md) | [Ship GZ/it](wiki/Ship GZ/it.md) | [Ship LoadCondition/it](wiki/Ship LoadCondition/it.md) |
 | [Silk Workbench/it](wiki/Silk Workbench/it.md) | [Sketcher ConstrainHorizontal/it](wiki/Sketcher ConstrainHorizontal/it.md) | [Sketcher SelectElementsWithDoFs/it](wiki/Sketcher SelectElementsWithDoFs/it.md) |
-| [Std MacroAttachDebugger/it](wiki/Std MacroAttachDebugger/it.md) | [TechDraw LinkDimension/it](wiki/TechDraw LinkDimension/it.md) | [Transient FEM analysis/it](wiki/Transient FEM analysis/it.md) |
-| [Windows packaging/it](wiki/Windows packaging/it.md) |
+| [Std MacroAttachDebugger/it](wiki/Std MacroAttachDebugger/it.md) | [Transient FEM analysis/it](wiki/Transient FEM analysis/it.md) | [Windows packaging/it](wiki/Windows packaging/it.md) |
+|
 
 
 

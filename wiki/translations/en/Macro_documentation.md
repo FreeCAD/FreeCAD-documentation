@@ -1,4 +1,6 @@
 # Macro documentation/en
+{{TOCright}}
+
 ## Description
 
 All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented.
@@ -13,10 +15,9 @@ If a macro provides a well defined functionality, and is well documented, it cou
 
 ## New macro page 
 
+The original page must be written in English. After one of the administrators has marked it for translation, it can be translated into another language.
 
-{{ColoredText|The first page is created '''obligatory''' in English language, the translation of page for other languages must be validate by one administrator and after you can translate in all other language.}}
-
-Create a new page for the macro starting with the word `Macro_` after the name of the macro, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
+Create a new page for the macro starting with the word `Macro_` followed by the name of the macro, for example, `Macro_Excellent_Modification`. To link to the page use: `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`.
 
 In the new page you should use [Template:Macro](Template_Macro.md) at the top, with a minimum of information:
 
@@ -36,7 +37,7 @@ You can add a custom icon if it doesn\'t have the same name as the macro; you ca
 |Author=your username
 |Date=2018-11-30
 |Version=3.14516
-|SeeAlso=[[Macro Regular Modification]]
+|SeeAlso=[Macro Regular Modification](Macro_Regular_Modification.md)
 }}
 
 When translating the page, use a localized template. You need to specify the name with the two letter language code (`/fr`, `/it`, `/de`), and you need to indicate the icon explicitly
@@ -67,7 +68,7 @@ or use the `Translate` field
 [Template:Macro](Template_Macro.md) will put the information on using and installing the macros in every page.
 
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
-*[customize toolbars](How_to_install_macros]]_and_[[Customize_Toolbars.md) links in the infobox in each macro page*
+*[How to install macros](How_to_install_macros.md) and [customize toolbars](Customize_Toolbars.md) links in the infobox on each macro page*
 
 ### Adding the macro documentation 
 
@@ -145,7 +146,7 @@ __IconW__  = "C:/Documents and Settings/YourUserName/Application Data/Free
 __Help__ = "start the macro and follow the instructions"
 __Status__ = "stable"
 __Requires__ = "freecad 0.14.3706"
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name" 
+__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name"
 
 «Your code should be here»
 }}

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher Clone
    Name/fr:Sketcher Clone
-   MenuLocation:Sketch → Outils d'esquisse → Clone
+   MenuLocation:Esquisse → Outils d'esquisse → Clone
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **L**
    Version:0.16
@@ -17,10 +17,12 @@ Clone les éléments d\'esquisse sélectionnés d\'un point à un autre en utili
 
 Notez qu\'un clone d\'un clone devient une copie de l\'esquisse. Si vous souhaitez créer des contraintes liées, clonez à nouveau les éléments source d\'origine.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez le ou les éléments de l\'esquisse pour l\'opération de clonage
-2.  Cliquez sur **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Clone](Sketcher_Clone/fr.md)** ou choisisser **Sketch → Outils d'esquisse  → [<img src=images/Sketcher_Clone.svg style="width:16px"> Clone** dans le menu du haut.
+2.  Cliquez sur **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Clone](Sketcher_Clone/fr.md)** ou choisisser **Esquisse → Outils d'esquisse  → [<img src=images/Sketcher_Clone.svg style="width:16px"> Clone** dans le menu du haut.
 3.  Déplacez la souris dans la [Vue 3D](3D_view/fr.md) à l\'emplacement souhaité pour le clone.En maintenant **Maj** enfoncé, l\'angle par rapport au point d\'emplacement peut être fixé par pas de 5°. {{Version/fr|0.20}}
 4.  Cliquez avec le bouton gauche de la souris dans la vue 3D pour créer le clone.
 

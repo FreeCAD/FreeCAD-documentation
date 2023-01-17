@@ -1,6 +1,8 @@
 # Preferences Editor/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Aby uruchomić **Edytor ustawień** wybierz menu **Edycja → Preferencje**. W systemie Mac OS opcja **Preferencje ...** pojawia się w menu **FreeCAD** *(jest to domyślne miejsce preferencji na Macu)*.
@@ -13,9 +15,13 @@ Proszę zwrócić uwagę na to, że kliknięcie przycisku **Zresetuj** w lewym d
 
 Niektóre zaawansowane preferencje mogą być zmienione tylko w [Edytorze parametrów](Std_DlgParameter/pl.md). Na stronie [Dostrajanie parametrów](Fine-tuning/pl.md) znajduje się lista niektórych z nich.
 
+
+
 ## Ogólne
 
 Ta sekcja menu konfiguracji zawiera dziewięć zakładek: Ogólne, Dokument, Zaznaczenie, Pamięć podręczna, Edytor, Konsola Pyton, Okno raportów, Makrodefinicje i Jednostki. Dziesiąta zakładka, Pomoc, jest dodawana, jeśli dostępny jest dodatek [Pomocy](https://github.com/FreeCAD/FreeCAD-Help). Dodatek ten można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
+
+
 
 ### Ogólne 
 
@@ -109,6 +115,8 @@ W zakładce *Ogólne* można wybrać następujące opcje:
 
 <img alt="" src=images/Preferences_General_Tab_General.png  style="width:600px;">
 
+
+
 ### Dokument
 
 W zakładce **Dokument** można wybrać następujące opcje:
@@ -187,6 +195,8 @@ W zakładce **Dokument** można wybrać następujące opcje:
 
 ![](images/Preferences_General_Tab_Document.png )
 
+
+
 ### Zaznaczenie
 
 W zakładce *Zaznaczenie* ({{Version/pl|0.19}}) można wybrać następujące opcje:
@@ -216,6 +226,8 @@ W zakładce *Zaznaczenie* ({{Version/pl|0.19}}) można wybrać następujące opc
 +++
 
 ![](images/Preferences_General_Tab_Selection.png )
+
+
 
 ### Pamięć podręczna 
 
@@ -254,6 +266,8 @@ W zakładce **Pamięć podręczna** *({{Version/pl|0.20}})* można wybrać nast�
 +++
 
 ![](images/Preferences_General_Tab_Cache.png )
+
+
 
 ### Edytor
 
@@ -309,6 +323,8 @@ W zakładce **Edytor** można wybrać następujące opcje:
 
 ![](images/Preferences_General_Tab_Editor.png )
 
+
+
 ### Konsola Python 
 
 Ustawienia kolorów i czcionek są również używane przez [konsole Python](#Konsola_Python.md). Konsolę tę można otworzyć za pomocą opcji menu **Widok → Panele → Konsola Python**.
@@ -334,6 +350,8 @@ W zakładce **Konsola Pyton** *({{Version/pl|0.20}})* można wybrać następują
 +++
 
 ![](images/Preferences_General_Tab_Python_console.png )
+
+
 
 ### Okno wyjściowe / Widok raportu 
 
@@ -409,6 +427,8 @@ W zakładce **Widok raportu** można zdefiniować, następujące opcje:
 
 ![](images/Preferences_General_Tab_Output_window.png )
 
+
+
 ### Makropolecenia
 
 W zakładce **Makropolecenia** można zdefiniować następujące opcje:
@@ -451,6 +471,8 @@ W zakładce **Makropolecenia** można zdefiniować następujące opcje:
 
 ![](images/Preferences_General_Tab_Macro.png )
 
+
+
 ### Jednostki
 
 W zakładce **Jednostki** możesz ustawić następujące parametry:
@@ -472,6 +494,8 @@ W zakładce **Jednostki** możesz ustawić następujące parametry:
 +++
 
 ![](images/Preferences_General_Tab_Units.png )
+
+
 
 ### Pomoc
 
@@ -523,9 +547,13 @@ Na karcie **Pomoc** można skonfigurować następujące opcje:
 
 ![](images/Preferences_General_Tab_Help.png )
 
+
+
 ## Wyświetlanie
 
 Ta sekcja preferencji posiada trzy standardowe zakładki: **Widok 3D** i **Nawigacja** i **Kolory**. Czwarta zakładka, **Widok siatki**, jest dodawana, jeśli załadowano środowisko pracy [Projekt Siatki](Mesh_Workbench/pl.md).
+
+
 
 ### Widok 3D 
 
@@ -600,6 +628,8 @@ W zakładce **Widok 3D** można skonfigurować następujące opcje:
 
 ![](images/Preferences_Display_Tab_3D_View.png )
 
+
+
 ### Nawigacja
 
 W zakładce *Nawigacja* można skonfigurować następujące opcje:
@@ -626,8 +656,8 @@ W zakładce *Nawigacja* można skonfigurować następujące opcje:
 +++
 |                                          | Określa styl orbity obrotu używany w trybie obrotu. Dostępne opcje to:                                                                                                                                                                                                                                                                                                                                                                    |
 | **Technika orbitalna**                      |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                      | -   **Trackball**: Poruszanie myszą w poziomie spowoduje obrót widoku wokół osi Y.                                                                                                                                                                                                                                                                                                                                                        |
-|                                                         | -   **Turntable**: Poruszanie myszą w poziomie spowoduje obrót widoku wokół osi Z.                                                                                                                                                                                                                                                                                                                                                        |
+|                                                      | -   **Turntable**: Przesunięcie myszy powoduje podział obrotu na kroki, obroty wokół poszczególnych osi wykonywane są sekwencyjnie.                                                                                                                                                                                                                                                                                                       |
+|                                                         | -   **Trackball**: Poruszanie myszą w poziomie spowoduje obrót widoku wokół osi Y.                                                                                                                                                                                                                                                                                                                                                        |
 +++
 |                                          | Określa środek obrotu. Dostępne są następujące opcje:                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Tryb obrotu**                             |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -661,6 +691,8 @@ W zakładce *Nawigacja* można skonfigurować następujące opcje:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### Kolory
 
@@ -699,6 +731,8 @@ W zakładce **Kolory** można skonfigurować następujące opcje:
 +++
 
 ![](images/Preferences_Display_Tab_Colors.png )
+
+
 
 ### Widok siatki 
 
@@ -745,9 +779,13 @@ W zakładce **Widok siatki** można skonfigurować następujące opcje:
 
 ![](images/Preferences_Display_Tab_Mesh_view.png )
 
+
+
 ## Środowiska pracy 
 
 Ta sekcja preferencji posiada jedną kartę: Niezaładowane środowiska pracy.
+
+
 
 ### Niezaładowane środowiska pracy 
 
@@ -763,9 +801,13 @@ Aby zapoznać się z listą preferencji środowiska pracy, zobacz sekcję [Prefe
 
 ![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
 
+
+
 ## Menadżer dodatków 
 
 Ta sekcja preferencji ma jedną kartę: Opcje Menadżera dodatków.
+
+
 
 ### Opcje Menadżera dodatków 
 
@@ -835,9 +877,13 @@ W zakładce **Opcje Menadżera dodatków** *({{Version/pl|0.20}})* można wybra�
 
 ![](images/Preferences_Addon_Manager_Tab_Addon_manager_options.png )
 
+
+
 ## Import Eksport 
 
 Ustawienia Import-Export wpływają na sposób importowania i eksportowania plików do i z FreeCAD. Są one opisane na stronie [Preferencje eksportu, importu](Import_Export_Preferences/pl.md).
+
+
 
 ## Preferencje środowisk pracy 
 
@@ -867,6 +913,8 @@ Preferencje dla wbudowanych środowisk pracy są wymienione poniżej. Odnośniki
 -   Test Framework Preferences *(brak)*
 -   Web Preferences *(brak)*
 
+
+
 ## Tworzenie skryptów 
 
 
@@ -875,6 +923,8 @@ Preferencje dla wbudowanych środowisk pracy są wymienione poniżej. Odnośniki
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
 Przykład skryptu można znaleźć w [Std DlgParameter](Std_DlgParameter/pl.md).
+
+
 
 ## Powiązane
 

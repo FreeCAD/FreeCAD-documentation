@@ -22,6 +22,8 @@ Pour insérer un élément de texte sans flèche, utilisez plutôt la commande [
 <img alt="" src=images/Draft_Label_example.jpg  style="width:400px;"> 
 *Différentes étiquettes avec différentes orientations, flèches et informations*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
@@ -46,6 +48,8 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+
+
 
 ## Types d\'étiquettes 
 
@@ -83,15 +87,22 @@ Les types d\'étiquettes suivants sont disponibles :
 -    {{Value|Label + Material}}
     
 
+
+
 ## Remarques
 
 -   La direction du deuxième segment de l\'amorce détermine l\'alignement du texte. Si le segment est horizontal et pointe vers la droite, le texte est aligné sur la gauche et vice versa. Si le deuxième segment va verticalement vers le haut, le texte est aligné sur la gauche. S\'il va verticalement vers le bas, le texte est aligné sur la droite.
+-   Les Draft Étiquettes créées ou enregistrées avec la \[\[Release_notes_1.0/fr\|version 1.0\] de FreeCAD\] ne sont pas rétrocompatibles.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+
+
 
 ### Données
 
@@ -122,6 +133,8 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Target Point|Vector**: spécifie la position de la pointe de l\'amorce, qui est l\'endroit où la flèche est attachée.
 
+
+
 ### Vue
 
 
@@ -134,7 +147,7 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|3D text}}, le texte sera affiché dans un plan défini par le **Placement** de l\'étiquette. S\'il s\'agit de {{value|2D text}}, le texte fera toujours face à la caméra. Il s\'agit d\'une propriété héritée.
+-    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par la **Placement** de l\'étiquette. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|1.0}}).
 
 
 {{TitleProperty|Graphics}}
@@ -154,6 +167,10 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Text}}
 
+-    **Text Name|Font**: spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}}, ou d\'un nom avec un style tel que {{value|Arial:Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place. {{Version/fr|1.0}}
+
+-    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite. {{Version/fr|1.0}}
+
 -    **Justification|Enumeration**: spécifie l\'alignement horizontal du texte : {{value|Left}}, {{value|Center}} ou {{value|Right}}. Utilisé uniquement si **Straight Direction** est {{Value|Custom}} (personnalisée). Sinon, l\'alignement horizontal est basé sur le signe (positif ou négatif) de **Straight Distance**.
 
 -    **Line Spacing|Float**: spécifie le facteur appliqué à la hauteur de ligne par défaut du texte.
@@ -164,9 +181,7 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Text Color|Color**: spécifie la couleur du texte.
 
--    **Text Font|Font**: spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}}, ou d\'un nom avec un style tel que {{value|Arial:Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place.
 
--    **Text Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite.
 
 ## Script
 

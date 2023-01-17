@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,8 +24,19 @@ Lo strumento Estensione verticale aggiunge una quota lineare a una vista. La dim
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Estensione verticale della faccia BSpline*
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -37,6 +50,8 @@ Lo strumento Estensione verticale aggiunge una quota lineare a una vista. La dim
 
 </div>
 
+
+
 ### Limitazioni
 
 
@@ -46,6 +61,8 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologi
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -57,9 +74,13 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 
 </div>
 
+
+
 ### Dati
 
 -    **MeasureType**: `True` - basata sulla geometria 3D o \"Projected\" - basata sul disegno. Normalmente non manipolato direttamente dall\'utente finale. Non ancora implementata per Estensione verticaleale.
+
+
 
 ## Script
 

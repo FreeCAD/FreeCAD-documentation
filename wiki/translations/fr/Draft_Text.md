@@ -20,6 +20,8 @@ Pour créer un élément de texte avec une flèche, utilisez plutôt la commande
 <img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Un seul point est nécessaire pour positionner le texte*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md) et [Draft Aimantation](Draft_Snap/fr.md).
@@ -43,16 +45,22 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
 
+
+
 ## Remarques
 
 -   Un Draft Texte peut être édité en double-cliquant dessus dans l\'arborescence. {{Version/fr|0.20}}
--   Les Draft Textes créés avec [FreeCAD version 0.18](Release_notes_0.18/fr.md) ne sont pas rétrocompatibles.
+-   Les Draft Textes créés ou sauvegardés avec la [version 1.0 de FreeCAD](Release_notes_0.18/fr.md) ne sont pas rétrocompatibles.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+
+
 
 ### Données
 
@@ -62,6 +70,8 @@ Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePyt
 -    **Placement|Placement**: spécifie la position du texte dans la [Vue 3D](3D_view/fr.md). Voir [Placement](Placement/fr.md).
 
 -    **Text|StringList**: spécifie le contenu du texte. Chaque élément de la liste représente une nouvelle ligne de texte.
+
+
 
 ### Vue
 
@@ -75,7 +85,7 @@ Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePyt
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|3D text}}, le texte sera affiché dans un plan défini par sa **Placement**. S\'il s\'agit de {{value|2D text}}, le texte fera toujours face à la caméra. Il s\'agit d\'une propriété héritée.
+-    **Display Mode|Enumeration**: spécifie comment le texte est affiché. S\'il s\'agit de {{value|World}}, le texte sera affiché sur un plan défini par sa **Placement**. S\'il s\'agit de {{value|Screen}}, le texte sera toujours tourné vers l\'écran. Il s\'agit d\'une propriété héritée. Les options mentionnées sont les options renommées ({{Version/fr|1.0}}).
 
 
 {{TitleProperty|Graphics}}
@@ -96,6 +106,8 @@ Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePyt
 -    **Line Spacing|Float**: spécifie le facteur appliqué à la hauteur de ligne par défaut du texte.
 
 -    **Text Color|Color**: spécifie la couleur du texte.
+
+
 
 ## Script
 

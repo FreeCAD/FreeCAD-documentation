@@ -9,13 +9,19 @@
 
 # TechDraw LinkDimension/ru
 
+**TechDraw LinkDimension** is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
+
+
+
 ## Описание
 
-The Link Dimension tool creates a link between 3D geometry and one or more existing projected Dimensions on a Page. This link allows the Dimension to use actual 3D values instead of 2D projected values.
+The **TechDraw LinkDimension** tool creates a link between 3D geometry and one or more existing projected Dimensions on a Page. This link allows the Dimension to use actual 3D values instead of 2D projected values.
 
 The Link Dimension tool\'s most common use is in dimensioning isometric views in a ProjectionGroup. The projected length of an Edge in an isometric view will, of course, not necessarily equal the actual length of the Edge. In an orthogonal view the projected and actual lengths will be equal.
 
 The link instructs the Dimension to compute it\'s value directly from the 3D geometry.
+
+
 
 ## Применение
 
@@ -27,6 +33,8 @@ The link instructs the Dimension to compute it\'s value directly from the 3D geo
 
 After the link operation is completed the **MeasureType** property of the dimension changes from `Projected` to `True`.
 
+
+
 ## Ограничения
 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that linking dimensions be one of the last steps in your drawing process.
@@ -37,9 +45,13 @@ There is currently no way to break a link; you can change the **MeasureType** ba
 
 Note that if the Dimension to be linked is based on two vertices, you should select two vertices in the 3D view. Similarly if the Dimension is based on an edge, you should select an edge in the 3D view.
 
+
+
 ## Свойства
 
-1.  The MeasureType property of a linked Dimension will be changed from \"Projected\" to \"True\".
+-   The **Measure Type** property of a linked Dimension will be changed from {{Value|Projected}} to {{Value|True}}.
+
+
 
 ## Программирование
 
@@ -48,12 +60,7 @@ Note that if the Dimension to be linked is based on two vertices, you should sel
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Link Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
-
-
-```python
-to be defined
-```
+The TechDraw LinkDimension tool is not directly usable in macros, but changing the **References 3D** property can accomplish the same result.
 
 
 

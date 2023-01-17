@@ -1,22 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std FreeCADWebsite
-   MenuLocation:Help → FreeCAD Website
-   Workbenches:All
-   SeeAlso:[Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+   Name/pl:Std: Witryna FreeCAD
+   MenuLocation:Pomoc → Witryna FreeCAD
+   Workbenches:wszystkie
+   SeeAlso:[Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md), [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
 ---
 
 # Std FreeCADWebsite/pl
 
-## Description
 
-The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://www.freecad.org>](https://www.freecad.org/).
+## Opis
 
-## Usage
+Polecenie **Witryna FreeCAD** otwiera główną stronę internetową projektu FreeCAD w domyślnej przeglądarce internetowej systemu. Polecenie wymaga działającego połączenia internetowego.
 
-1.  Select the **Help → <img src="images/Std_FreeCADWebsite.svg" width=16px> FreeCAD Website** option from the menu.
+Obecnie polecenie wskazuje na [<https://www.freecad.org>](https://www.freecad.org/).
+
+
+
+## Użycie
+
+1.  Wybierz opcję z menu **Pomoc → <img src="images/Std_FreeCADWebsite.svg" width=16px> Witryna FreeCAD
+**
 
 
 

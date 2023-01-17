@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 A bancada de trabalho <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) do FreeCAD é usada para criar geometrias 2D destinadas ao uso na <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [bancada de trabalho PartDesign](PartDesign_Workbench/pt-br.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [bancada de trabalho Arch](Arch_Workbench/pt-br.md), e outras bancadas de trabalho. Geralmente, um desenho 2D é considerado o ponto de partida para a maioria dos modelos CAD, pois um esboço 2D pode ser \"extrudado\" para criar uma forma 3D; outros esboços 2D podem ser usados para criar outros recursos como bolsos, saliências ou extrusões no topo das formas 3D previamente construídas. Junto com as operações booleanas definidas na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [bancada de trabalho Part](Part_Workbench/pt-br.md), o Sketcher forma a base do método de [Geometria Sólida Construtiva](constructive_solid_geometry/pt-br.md)(constructive solid geometry - CSG) de construção de sólidos. Além disso, junto com as operações da <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [bancada de trabalho PartDesign](PartDesign_Workbench/pt-br.md), o Sketcher também forma a base da metodologia de [edição de recursos](feature_editing/pt-br.md) de criação de sólidos .
@@ -92,6 +94,8 @@ Se você só precisa produzir visualizações 2D para impressão e não deseja c
 
 </div>
 
+
+
 ## Fluxo de Trabalho da Esboçagem 
 
 
@@ -138,6 +142,8 @@ As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que a
 
 </div>
 
+
+
 ### Gerais
 
 
@@ -179,6 +185,8 @@ As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que a
 
 
 </div>
+
+
 
 ### Geometrias do Sketcher 
 
@@ -323,7 +331,13 @@ Estas são ferramentas para criar objetos.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Ampliar](Sketcher_Extend/pt-br.md): Estende uma linha ou um arco a uma linha limite, arco, elipse, arco de elipse ou um ponto no espaço.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividir](Sketcher_Split/pt-br.md): Divide uma linha ou um arco em dois, converte um círculo em um arco, mantendo a maior parte das restrições. <small>(v0.20)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -348,6 +362,8 @@ Estas são ferramentas para criar objetos.
 
 
 </div>
+
+
 
 ### Restrições do Sketcher 
 
@@ -437,6 +453,8 @@ Estas são restrições associadas a dados numéricos, para os quais você pode 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Restrições Especiais 
@@ -475,6 +493,8 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 
 </div>
+
+
 
 ### Ferramentas do Sketcher 
 
@@ -624,6 +644,8 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 </div>
 
+
+
 ### Ferramentas de B-spline do Sketcher 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostra/esconde o grau da B-spline](Sketcher_BSplineDegree/pt-br.md)
@@ -650,6 +672,8 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Espaço Virtual do Sketcher 
 
 
@@ -659,6 +683,8 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -696,6 +722,8 @@ Cada usuário CAD desenvolve sua própria maneira de trabalhar ao longo do tempo
 
 
 </div>
+
+
 
 ## Tutoriais
 

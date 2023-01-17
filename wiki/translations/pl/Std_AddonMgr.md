@@ -10,11 +10,15 @@
 
 # Std AddonMgr/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Menadżer dodatków** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi środowiskami pracy](External_workbenches/pl.md) oraz [makropoleceniami](Macros/pl.md) i [paczkami ustawień](Preference_Packs/pl.md) dostarczonymi przez społeczność FreeCAD. Domyślnie dostępne dodatki pobierane są z dwóch repozytoriów [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) oraz [Przepisy na makrodefinicje](Macros_recipes/pl.md). Jeśli w systemie zainstalowane są GitPython i Git, dodatkowe makra zostaną załadowane z [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/). Własne repozytoria można dodać w ustawieniach [Menadżera dodatków](Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w.md).
 
 Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) lub nowszej. Alternatywnie możesz zainstalować dodatki ręcznie, zobacz [uwagi](#Uwagi.md) poniżej.
+
+
 
 ## Użycie
 
@@ -22,6 +26,8 @@ Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa 
 2.  Jeśli używasz menedżera dodatków po raz pierwszy, zostanie otwarte okienko informacyjne z ostrzeżeniem, że rozszerzenia w menedżerze dodatków nie są oficjalnie częścią programu FreeCAD. Przedstawia on również kilka opcji związanych z wykorzystaniem danych przez menedżera dodatków. Dostosuj te opcje do swoich potrzeb i naciśnij przycisk **OK**, aby potwierdzić zapoznanie się z tą informacją i kontynuować.
 3.  Otworzy się okno dialogowe Menadżer Dodatków. Więcej informacji znajdziesz w rozdziale [Opcje](#Opcje.md).
 4.  Jeżeli zainstalowałeś lub zaktualizowałeś Środowisko pracy, otworzy się nowe okno dialogowe informujące o konieczności ponownego uruchomienia programu FreeCAD, aby wprowadzone zmiany zaczęły funkcjonować.
+
+
 
 ## Opcje
 
@@ -42,9 +48,13 @@ Kliknięcie dodatku w tym widoku powoduje wyświetlenie strony szczegółów:
 
 Na stronie szczegółów znajdują się przyciski umożliwiające instalację, odinstalowanie, aktualizację i tymczasowe wyłączenie dodatku. Dla zainstalowanych dodatków wyświetlana jest aktualnie zainstalowana wersja i data instalacji oraz informacja, czy jest to najnowsza dostępna wersja. Poniżej znajduje się osadzone okno przeglądarki internetowej pokazujące stronę README dodatku *(dla środowisk pracy i pakietów preferencji)* lub stronę Wiki *(dla makrodefinicji)*.
 
+
+
 ## Ustawienia
 
 Preferencje dla menedżera dodatków można znaleźć w [Edytorze ustawień](Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w.md). {{Version/pl|0.20}}
+
+
 
 ## Uwagi
 
@@ -54,9 +64,79 @@ Preferencje dla menedżera dodatków można znaleźć w [Edytorze ustawień](Pre
 -   Jeśli pakiet [GitPython](https://github.com/gitpython-developers/GitPython) jest zainstalowany na Twoim komputerze, menedżer dodatków będzie z niego korzystał, dzięki czemu pobieranie będzie szybsze.
 -   Możesz również zainstalować dodatki ręcznie. Zobacz artykuł [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md) oraz [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md).
 
-## Informacja dla programistów 
+
+
+## Informacje dla twórców dodatków 
 
 Zobacz również informacje o [dodatkach](Addon/pl#Informacja_dla_programist.C3.B3w.md).
+
+
+
+## Tworzenie skryptów 
+
+
+{{Version/pl|1.0}}
+
+Niektóre funkcje menedżera dodatków są zaprojektowane tak, aby dostęp do nich był możliwy poprzez API Python programu FreeCAD. W szczególności dodatek może być instalowany, aktualizowany i usuwany za pomocą interfejsu środowiska Python. Większość zastosowań tego API wymaga utworzenia obiektu z co najmniej trzema atrybutami: {{Incode|name}}, {{Incode|branch}} i {{Incode|url}}. Na przykład:
+
+
+```python
+class MyAddonClass:
+    def __init__(self):
+        self.name = "TestAddon"
+        self.url = "https://github.com/Me/MyTestAddon"
+        self.branch = "main"
+my_addon = MyAddonClass()
+```
+
+nasz obiekt {{Incode|my_addon}} jest teraz gotowy do użycia z API Menedżera addonów.
+
+
+
+### Użycie z wiersza poleceń (nie-GUI) 
+
+Jeśli twój kod musi zainstalować lub zaktualizować dodatek synchronicznie *(np. bez GUI)*, kod może być bardzo prosty:
+
+
+```python
+from addonmanager_installer import AddonInstaller
+installer = AddonInstaller(my_addon)
+installer.run()
+```
+
+Zauważ, że ten kod blokuje się do momentu zakończenia, więc nie powinieneś go uruchamiać na głównym wątku GUI. Dla menedżera dodatków, \"install\" i \"update\" są tym samym wywołaniem: jeśli ten dodatek jest już zainstalowany, a Git jest dostępny, zostanie zaktualizowany poprzez \"Git pull\". Jeśli nie jest zainstalowany lub został zainstalowany za pomocą metody instalacji innej niż Git, zostanie pobrany od zera *(przy użyciu Git, jeśli jest dostępny)*.
+
+Aby odinstalować, należy użyć:
+
+
+```python
+from addonmanager_uninstaller import AddonUninstaller
+uninstaller = AddonUninstaller(my_addon)
+uninstaller.run()
+```
+
+
+
+### Użycie z GUI 
+
+Jeśli planujesz uruchomić swój kod w GUI, lub wspierać go w pełnej wersji FreeCAD, najlepiej jest uruchomić swoją instalację w oddzielnym wątku bez GUI, aby GUI pozostał responsywny. Aby to zrobić, najpierw sprawdź, czy GUI jest uruchomione, a jeśli tak, utwórz {{Incode|QThread}} *(nie próbuj tworzyć {{Incode|QThread}}, jeśli GUI nie jest uruchomione: wymagają one aktywnej pętli zdarzeń, aby działać)*.
+
+
+```python
+from PySide import QtCore
+from addonmanager_installer import AddonInstaller
+
+worker_thread = QtCore.QThread()
+installer = AddonInstaller(my_addon)
+installer.moveToThread(worker_thread)
+installer.success.connect(installation_succeeded)
+installer.failure.connect(installation_failed)
+installer.finished.connect(worker_thread.quit)
+worker_thread.started.connect(installer.run)
+worker_thread.start() # Returns immediately
+```
+
+Następnie zdefiniuj funkcje {{Incode|installation_succeeded}} i {{Incode|installation_failed}}, które mają być uruchamiane w każdym przypadku. Do deinstalacji możesz użyć tej samej techniki, choć zwykle jest ona znacznie szybsza i nie zablokuje GUI na bardzo długo, więc generalnie bezpiecznie jest użyć deinstalatora bezpośrednio, jak pokazano powyżej.
 
 
 

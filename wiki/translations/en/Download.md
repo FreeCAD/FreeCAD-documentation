@@ -53,7 +53,7 @@ FreeCAD\'s development is active.
 
 ## Additional modules and macros 
 
-The FreeCAD community provides many additional modules and macros. Since 0.17 they can be easily installed from within FreeCAD using the [Addon manager](Std_AddonMgr.md) <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
+The FreeCAD community provides many additional modules and macros. Since 0.17 they can be easily installed from within FreeCAD using the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr.md).
 
 
 

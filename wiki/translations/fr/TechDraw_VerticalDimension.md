@@ -18,6 +18,8 @@ L\'outil Cote verticale ajoute une dimension verticale à une vue. La dimension 
 <img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width:220px;"> 
 *Dimension de longueur prise à partir de deux nœuds arbitraires de la vue; la distance est mesurée verticalement*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
@@ -30,11 +32,15 @@ Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans
 
 ## Limitations
 
-Les objets Dimension sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+
+
 
 ## Propriétés
 
 Voir [Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
+
+
 
 ## Script
 

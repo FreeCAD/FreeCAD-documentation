@@ -17,6 +17,8 @@ L\'outil Cote de diamètre ajoute une dimension de diamètre à une vue. La cote
 <img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width:130px;"> 
 *Mesurer un cercle, indiquant le diamètre*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un bord circulaire dans le dessin. (Notez que certains arcs qui semblent être circulaires sont en fait des ellipses ou des B-splines. Vous ne pouvez pas créer de dimension de diamètre dans ces cas-là)
@@ -29,11 +31,15 @@ Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans
 
 ## Limitations
 
-Les objets Dimension sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+
+
 
 ## Propriétés
 
 Voir [Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
+
+
 
 ## Script
 

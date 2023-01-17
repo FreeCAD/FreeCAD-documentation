@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher Trimming
    Name/fr:Sketcher Ajuster
-   MenuLocation:Sketch → Géométries d'esquisse → Ajuster l'arête
+   MenuLocation:Esquisse → Géométries d'esquisse → Ajuster l'arête
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **T**
    Version:0.12
@@ -16,6 +16,8 @@
 Cet outil ajuste un bord jusqu\'au bord de recouvrement le plus proche.
 
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
+
+
 
 ## Utilisation
 

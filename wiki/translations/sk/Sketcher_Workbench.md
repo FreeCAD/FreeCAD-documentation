@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Úvod
 
 <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Pracovný stôl Náčrtník](Sketcher_Workbench.md) sa vo FreeCADe používa na tvorbu 2D geometrie, ktorú následne využijete v <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [na pracovnom stole Dizajn dielca](PartDesign_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [pracovnom stole Arch](Arch_Workbench.md) a iných pracovných stoloch. Vo všeobecnosti sa za východiskový bod pre väčšinu CAD modelov považuje 2D náčrt, pretože ten dokážeme „vytiahnuť" a vytvoriť tak 3D tvar; navyše je možné 2D náčrty okrem predtým vytvorených 3D tvarov použiť aj na vytvorenie ďalších prvkov, ako sú kapsy, ryhy alebo výlisky. Spolu s booleanovskými operáciami definovanými na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [pracovnom stole Diel](Part_Workbench.md) tvorí Náčrtník základ [konštruktívnej geometrie telies](constructive_solid_geometry.md) (CSG) - spôsobu tvorby telies. Okrem toho s operáciami <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [pracovného stola Dizajn dielu](PartDesign_Workbench.md) tvorí Náčrtník tiež základ metodológie [úpravy prvkov](feature_editing.md) pri tvorbe telies.
@@ -12,17 +14,25 @@ Pracovný stôl Náčrtník obsahuje \"väzby\", vďaka ktorým dokážete pomoc
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Plne zaväzbený náčrt*
 
+
+
 ## Základy používania väzieb náčrtu 
 
 Pre lepšie pochopenie fungovania Náčrtníka môže pomôcť porovnanie s \"tradičným\" spôsobom rysovania.
+
+
 
 #### Tradičné rysovanie 
 
 Tradičné rysovanie v CAD programoch používa podobné techniky, ako [technické výkresy](https://sk.wikipedia.org/wiki/Technick%C3%BD_v%C3%BDkres). Jednotlivé pohľady sú kreslené manuálne a sú určené na tvorbu technických výkresov (modrotlač). Objekty sú kreslené presne pre zvolenú veľkosť alebo rozmer. Ak chcete nakresliť vodorovnú čiaru s dĺžkou 100 mm začínajúcu na (0,0), aktivujete nástroj čiara. Kliknete na obrazovku alebo zadáte súradnice (0,0) pre prvý bod, potom kliknete znovu alebo zadáte súradnice druhého bodu na (100,0). Alebo čiaru nakreslíte bez ohľadu na umiestnenie a presuniete ju neskôr. Po dokončení kreslenia geometrie jej priradíte rozmery.
 
+
+
 #### Používanie väzieb náčrtu 
 
 \"Náčrtník\" sa od tohto postupu odlišuje. Objekty nemusia byť nakreslené úplne presne, pretože ich neskôr definujete priradenými väzbami. Môžete ich nakresliť voľne a pokiaľ sú bez väzieb, môžu byť upravované. V podstate \"plávajú\" na kresliacej ploche a môžete ich presúvať, naťahovať, otáčať, škálovať apod. To vám v procese návrhu poskytuje veľkú voľnosť.
+
+
 
 #### Čo sú väzby? 
 
@@ -33,6 +43,8 @@ Použitie vodorovnej alebo zvislej väzby alebo väzby uhla čiary (vzhľadom na
 Objekty môžu byť takisto zaväzbené medzi sebou. Dve čiary môžete spojiť pomocou jedného z ich bodov vďaka väzbe splynutia bodov. Môže takisto medzi nimi byť nastavený úhol, alebo môžu nastavené ako kolmé. Čiara môže byť dotyčnicou oblúka alebo kruhu apod. Komplexný náčrt s viacerými objektami bude mať viac možných riešení a jeho \"plné zaväzbenie\" znamená, že bolo dosiahnuté práve jedno z týchto možných riešení v závislosti od použitých väzieb.
 
 Existujú dva typy väzieb: geometrické a rozmerové. Sú opísané nižšie v časti [\'Nástroje\'](#Nástroje.md).
+
+
 
 #### Na čo Náčrtník slúžiť nemá 
 
@@ -45,6 +57,8 @@ Ak chcete vytvárať iba 2D pohľady pre tlač a nie 3D modely, skúste použiť
 
 
 </div>
+
+
 
 ## Pracovný postup pri náčrte 
 
@@ -80,9 +94,13 @@ Akonáhle je náčrt plne zaväzbený, prvky náčrtu sa prefarbia na zeleno; ko
 
 </div>
 
+
+
 ## Nástroje
 
 Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré sa objaví po nahraní pracovného sola Náčrtník.
+
+
 
 ### Všeobecné
 
@@ -119,6 +137,8 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Zrkadliť náčrt](Sketcher_MirrorSketch.md): Zrkadlí náčrt podľa osy x, y alebo podľa začiatku súradníc.
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Zastaviť operáciu](Sketcher_StopOperation.md): V režime úprav zastaví aktuálnu operáciu, napr. kreslenie, nastavovanie väzieb apod.
+
+
 
 ### Geometria v Náčrtníku 
 
@@ -257,7 +277,13 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Predĺženie](Sketcher_Extend.md): Predĺži čiaru alebo oblúk až po hraničnú čiaru, oblúk, elipsu, oblúk elipsy alebo bod v priestore.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Rozdelenie](Sketcher_Split.md): Rozdelí čiaru alebo oblúk na dve časti, premení kruh na oblúk pri zachovaní väčšiny väzieb. <small>(v0.20)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -283,9 +309,13 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
+
+
 ### Väzby v Náčrtníku 
 
 Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súčasťami náčrtu a na ukotvenie náčrtu vzhľadom na vodorovnú a zvislú os. Niektoré väzby vyžadujú [Pomocné väzby](Sketcher_helper_constraint.md).
+
+
 
 #### Geometrické väzby 
 
@@ -323,6 +353,8 @@ Tieto väzby nie sú spojené s číselnými dátami.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Blokovacia väzba](Sketcher_ConstrainBlock.md): Zablokuje hranu a znemožní jej posun, to znamená, že neumožní jej vrcholom zmeniť umiestnenie. Hodí sa napríklad na ukotvenie pozície B-Spline kriviek. Viď [príspevok na fóre o blokovacej väzbe](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+
+
 #### Väzby rozmerov 
 
 Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [matematické výrazy](Expressions.md). Dáta môžu pochádzať aj z [tabuľky](Spreadsheet_Workbench.md).
@@ -354,6 +386,8 @@ Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [mat
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
+
+
 #### Špeciálne väzby 
 
 
@@ -365,6 +399,8 @@ Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [mat
 </div>
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Vnútorné zarovnanie](Sketcher_ConstrainInternalAlignment.md): Zarovná vybrané elementy k zvolenému tvaru (napr. čiara sa stane hlavnou osou elipsy).
+
+
 
 #### Nástroje väzieb 
 
@@ -379,6 +415,8 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 
 </div>
+
+
 
 ### Nástroje Náčrtníka 
 
@@ -510,6 +548,8 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
+
+
 ### Nástroje B-spline kriviek Náčrtníka 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Zobraziť/skryť stupeň B-spline krivky](Sketcher_BSplineDegree.md)
@@ -536,6 +576,8 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Virtuálny priestor Náčrtníka 
 
 
@@ -546,9 +588,13 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
+
+
 ## Predvoľby
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Predvoľby](Sketcher_Preferences.md): Predvoľby pracovného stola \"Náčrtník\".
+
+
 
 ## Osvedčené postupy 
 
@@ -569,6 +615,8 @@ Každý CAD používateľ si priebežne vytvára vlastný pracovný postup, ale 
 
 </div>
 
+
+
 ## Návody
 
 
@@ -581,6 +629,8 @@ Každý CAD používateľ si priebežne vytvára vlastný pracovný postup, ale 
 
 
 </div>
+
+
 
 ## Skriptovanie
 

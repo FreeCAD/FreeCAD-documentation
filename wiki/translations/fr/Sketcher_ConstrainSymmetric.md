@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainSymmetric
    Name/fr:Sketcher Contrainte symétrique
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte symétrique
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte symétrique
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**S**
    SeeAlso:[Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
@@ -12,7 +12,9 @@
 
 ## Description
 
-La Contrainte symétrique contraint deux points sélectionnés à devenir symétriques à une ligne donnée, à savoir, deux points sélectionnés sont contraints de se situer sur une normale (ligne) passant par les deux points et sont contraints d\'être équidistants à la normale (ligne). Alternativement, elle peut contraindre deux points à être symétriques par rapport à un troisième.
+La **Contrainte symétrique** contraint deux points sélectionnés à devenir symétriques à une ligne donnée, à savoir, deux points sélectionnés sont contraints de se situer sur une normale (ligne) passant par les deux points et sont contraints d\'être équidistants à la normale (ligne). Alternativement, elle peut contraindre deux points à être symétriques par rapport à un troisième.
+
+
 
 ## Utilisation
 
@@ -33,10 +35,12 @@ Ceci appliquera la contrainte aux éléments sélectionnés.
 
 avant la version 0.19 (voir correctif [1](https://github.com/FreeCAD/FreeCAD/pull/3746)), si vous souhaitiez définir une contrainte de symétrie par rapport à un point, l\'ordre de la sélection était important, selon que vous sélectionniez l\'outil avant ou après.
 
--   Si vous cliquiez d\'abord sur l\'outil: sélectionnez le premier point, puis le point de référence de la symétrie et enfin le deuxième point.
--   Si vous cliquiez sur l\'outil en dernier: sélectionnez le premier point, puis le deuxième point et enfin le point de référence de symétrie.
+-   si vous cliquiez d\'abord sur l\'outil : sélectionnez le premier point, puis le point de référence de la symétrie et enfin le deuxième point.
+-   si vous cliquiez sur l\'outil en dernier : sélectionnez le premier point, puis le deuxième point et enfin le point de référence de symétrie.
 
 Voir le tracker [issue #4144](https://freecadweb.org/tracker/view.php?id=4144), et [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+
+
 
 ## Script
 

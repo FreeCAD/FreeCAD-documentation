@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher CreatePointFillet
-   Name/fr:Sketcher Congé avec contrainte
-   MenuLocation:Sketch → Géometries d'esquisse → Créer un congé préservant l'angle
+   Name/fr:Sketcher Congé avec contraintes
+   MenuLocation:Esquisse → Géometries d'esquisse → Congé d'esquisse préservant les contraintes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **F** **P**
    Version:0.19

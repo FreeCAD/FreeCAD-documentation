@@ -38,6 +38,8 @@ FreeCAD 的功能被分为了不同的模块，每个模块负责某个具体[�
 Some advanced preferences can only be changed in the [Parameter editor](Std_DlgParameter.md). The [Fine-tuning](Fine-tuning.md) page lists some of them.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 一般的首选项设置
@@ -52,6 +54,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 
 </div>
+
+
 
 ### 通用
 
@@ -150,6 +154,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 +++
 
 <img alt="" src=images/Preferences_General_Tab_General.png  style="width:600px;">
+
+
 
 ### 文档
 
@@ -297,6 +303,8 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
 
 ![](images/Preferences_General_Tab_Cache.png )
 
+
+
 ### 编辑器
 
 These preferences control the behavior of the [Macro editor](Std_DlgMacroExecute#Edit.md). This editor can be opened using the **Macro → Macros... → Edit** or {{menuCommand|Create}} menu option.
@@ -378,6 +386,8 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 ![](images/Preferences_General_Tab_Python_console.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 输出窗口
@@ -457,6 +467,8 @@ On the *Output window* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Output_window.png )
 
+
+
 ### 宏脚本
 
 On the *Macro* tab you can specify the following:
@@ -498,6 +510,8 @@ On the *Macro* tab you can specify the following:
 +++
 
 ![](images/Preferences_General_Tab_Macro.png )
+
+
 
 ### 单位
 
@@ -578,6 +592,8 @@ On the *Help* tab you can specify the following:
 ![](images/Preferences_General_Tab_Help.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 显示设置
@@ -592,6 +608,8 @@ On the *Help* tab you can specify the following:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -712,8 +730,9 @@ On the *Navigation* tab you can specify the following:
 +++
 |                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
+|                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -747,6 +766,8 @@ On the *Navigation* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### 颜色
 
@@ -928,6 +949,8 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 ## Import-Export 
 
 The Import-Export preferences affect how files are imported and exported. They are described on the [Import Export Preferences](Import_Export_Preferences.md) page.
+
+
 
 
 <div class="mw-translate-fuzzy">

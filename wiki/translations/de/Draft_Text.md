@@ -11,6 +11,8 @@
 
 # Draft Text/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Text** erstellt einen mehrzeiligen Text an einem vorgegebenen Punkt.
@@ -19,6 +21,8 @@ Um stattdessen ein Textelement mit einem Hinweispfeil zu erstellen, verwendet ma
 
 <img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Ein einzelner Punkt, den das Positionieren des Textes erfordert*
+
+
 
 ## Anwendung
 
@@ -32,6 +36,8 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md) and [Draft Fangen](Draft_Snap/de.md).
 3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 4.  Den gewünschten Text eingeben, **Enter** drücken, um eine neue Zeile zu beginnen.
 5.  Zweimal **Enter** drücken oder die Schaltfläche **<img src="images/Button_valid.svg" width=16px> Text erstellen** drücken, um den Befehl abzuschließen.
+
+
 
 ## Optionen
 
@@ -50,16 +56,28 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
 
 </div>
 
+
+
 ## Hinweise
+
+
+<div class="mw-translate-fuzzy">
 
 -   Ein Draft-Text kann durch Doppelklick in der [Baumansicht](Tree_view/de.md) zum Bearbeiten geöffnet werden. {{Version/de|0.20}}
 -   Mit [FreeCAD Version 0.18](Release_notes_0.18/de.md) erstellte Draft-Texte sind nicht abwärtskompatibel.
+
+
+</div>
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften:
+
+
 
 ### Daten
 
@@ -82,6 +100,8 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 </div>
 
+
+
 ### Ansicht
 
 
@@ -94,7 +114,7 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by its **Placement**. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by its **Placement**. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -123,6 +143,8 @@ Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)
 
 
 </div>
+
+
 
 ## Skripten
 

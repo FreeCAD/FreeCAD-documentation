@@ -25,6 +25,10 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 -   Press **Esc** or the **Cancel** button to abort the command.
 
+## Notes
+
+-   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
+
 
 
 

@@ -5,6 +5,8 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## ユーザーハブ
@@ -28,6 +30,8 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 </div>
 
+
+
 ## マニュアル
 
 
@@ -46,6 +50,8 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 </div>
 
+
+
 ## 目次
 
 次の表は、FreeCADアプリケーションに同梱されているオフラインドキュメントのバックボーンを構成するこのwikiのすべての記事を示しています。 すでにいくつかの言語で利用可能です：
@@ -61,7 +67,11 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## 参加しよう
+
+
 
 ### 参加方法
 
@@ -81,6 +91,8 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 </div>
 
+
+
 ### ソースコード
 
 
@@ -90,6 +102,8 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 
 </div>
+
+
 
 ### 開発について
 

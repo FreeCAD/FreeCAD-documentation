@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateLine
    Name/fr:Sketcher Ligne
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une ligne
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une ligne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **L**
    SeeAlso:[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
@@ -17,6 +17,8 @@ Cet outil dessine une ligne en cliquant deux points dans la [vue 3D](3D_view/fr.
 ![](images/Sketcher_LineExample1.png‎ )
 
 L\'objet ligne créé commence et se termine aux points donnés, mais la ligne est infinie en ce qui concerne les contraintes [Tangence](Sketcher_ConstrainTangent/fr.md), [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) et [Angle interne](Sketcher_ConstrainAngle/fr.md). Cela signifie par exemple qu'un point avec la contrainte [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) peut ne pas être situé entre les deux points donnés, mais peut se trouver en dehors des deux points sur l'extension de la ligne dessinée.
+
+
 
 ## Utilisation
 

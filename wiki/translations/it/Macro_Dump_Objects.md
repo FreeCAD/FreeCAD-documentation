@@ -1,4 +1,7 @@
 # Macro Dump Objects/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Dump Objects
 |Translate=Elenca oggetti
@@ -9,6 +12,9 @@
 |FCVersion= <= 0.17
 |Download=[https://www.freecadweb.org/wiki/images/2/2e/Macro_Dump_Objects.png ToolBar Icon]
 }}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -132,6 +138,7 @@ Toolbar Icon
 {{MacroCode|code=
 #
 #                       Dump Object
+#                       v 0.3 - 14/01/2023 conversion to PySide2
 #                       v 0.2 - added report to CSV file
 #                       v 0.1 - added report to window
 #                       v 0.0 - report to Report view
@@ -139,14 +146,22 @@ Toolbar Icon
 #***********************************************************************************
 # routine to dump object space for Geometric model in the currently active file
 #
+__title__   = "Dump_Objects"
+__author__  = "Piffpoof"
+__url__     = "https://wiki.freecadweb.org/Macro_Dump_Objects"
+__version__ = "0.3"
+__date__    = "2023/01/14"    #YYYY/MM/DD
+#
+
 # import statements
-from PySide import QtGui, QtCore
+from PySide2 import QtWidgets, QtGui, QtCore
+from PySide2.QtWidgets import * #QDialog , QLineEdit, QPushButton, QApplication
 from datetime import datetime       # datestamp on output window
 from os.path import expanduser      # output directory for CSV
-
+import math
 # UI Class definitions
 
-class configureMacro(QtGui.QDialog):
+class configureMacro(QtWidgets.QDialog):
     """"""
     def __init__(self):
         super(configureMacro, self).__init__()
@@ -154,26 +169,26 @@ class configureMacro(QtGui.QDialog):
     def initUI(self):
         self.result         = None
         # set up display only field for selected path type
-        self.cbss           = QtGui.QCheckBox("Show Sketcher Segments?", self)
+        self.cbss           = QtWidgets.QCheckBox("Show Sketcher Segments?", self)
         self.cbss.move(20,20)
-        self.cbp            = QtGui.QCheckBox("Show Positions?", self)
+        self.cbp            = QtWidgets.QCheckBox("Show Positions?", self)
         self.cbp.move(220,20)
-        self.pathTypeLbl    = QtGui.QLabel("Select Report Destination:", self)
+        self.pathTypeLbl    = QtWidgets.QLabel("Select Report Destination:", self)
         self.pathTypeLbl.move(20, 70)
         # cancel button
-        cancelButton = QtGui.QPushButton('Cancel', self)
+        cancelButton = QtWidgets.QPushButton('Cancel', self)
         cancelButton.clicked.connect(self.onCancel)
         cancelButton.move(10, 100)
         # button #1
-        button1 = QtGui.QPushButton(choice1, self)
+        button1 = QtWidgets.QPushButton(choice1, self)
         button1.clicked.connect(self.onBtn1)
         button1.move(120, 100)
         # button #2
-        button2 = QtGui.QPushButton(choice2, self)
+        button2 = QtWidgets.QPushButton(choice2, self)
         button2.clicked.connect(self.onBtn2)
         button2.move(235, 100)
         # button #3
-        button3 = QtGui.QPushButton(choice3, self)
+        button3 = QtWidgets.QPushButton(choice3, self)
         button3.clicked.connect(self.onBtn3)
         button3.move(327, 100)
         # define window     xLoc,yLoc,xDim,yDim
@@ -194,7 +209,7 @@ class configureMacro(QtGui.QDialog):
         self.result = choice3
         self.close()
 
-class DisplayText(QtGui.QWidget):
+class DisplayText(QtWidgets.QWidget):
     """"""
     def __init__(self, textToDisplay):
         self.text = textToDisplay
@@ -209,20 +224,20 @@ class DisplayText(QtGui.QWidget):
         self.windowHeight = 400
         self.fieldMargin = 40
         # some column titles
-        columnLabels = QtGui.QLabel(formatPrintLine("Type / WB","Shape","User Supplied Label","Name"))
+        columnLabels = QtWidgets.QLabel(formatPrintLine("Type / WB","Shape","User Supplied Label","Name"))
         columnLabels.setFont('Courier')
         # set up text editing widget
-        text_editor = QtGui.QTextEdit(self)
+        text_editor = QtWidgets.QTextEdit(self)
         #self.setCentralWidget(self.text_editor)
         text_editor.setFont('Courier')
-        text_editor.setLineWrapMode(QtGui.QTextEdit.NoWrap)
+        text_editor.setLineWrapMode(QtWidgets.QTextEdit.NoWrap)
         text_editor.move(self.fieldMargin,self.fieldMargin)
         text_editor.move(0,self.fieldMargin)
         text_editor.resize(self.windowWidth-(2*self.fieldMargin),self.windowHeight-(2*self.fieldMargin))
         text_editor.resize(self.windowWidth,self.windowHeight-(2*self.fieldMargin))
         text_editor.append(self.textToDisplay)
         # set up the layout
-        vBox = QtGui.QVBoxLayout()
+        vBox = QtWidgets.QVBoxLayout()
         vBox.addWidget(columnLabels)
         vBox.addWidget(text_editor)
         self.setLayout(vBox)
@@ -243,7 +258,7 @@ def countObjects():
     objectTypeTable = {}
     # build up dictionary of different classes and keep a count
     for obj in FreeCAD.ActiveDocument.Objects:
-        if objectTypeTable.has_key(obj.TypeId):
+        if objectTypeTable.__contains__(obj.TypeId):
             objectTypeTable[obj.TypeId] = objectTypeTable[obj.TypeId]+1
         else:
             objectTypeTable[obj.TypeId] = 1
@@ -333,16 +348,17 @@ def printLineFormatter(flag,a,b,c,d):
         dd = d[:f4]
         return pfs3.format(aa,bb,cc)
     else:
+        print(a)
         aa = a[:f1+f2]
         bb = b[:f3+f4]
         return pfs2.format(aa,bb)
 
 # Constant definitions
 # set some field widths
-screenWidth = QtGui.QDesktopWidget().screenGeometry().width()
+screenWidth = QtWidgets.QDesktopWidget().screenGeometry().width()
 global f1, f2, f3, f4
 # f1 = 15; f2 = 25; f3 = 45; f4 = 25 # 110 columns in 1000 pixels
-f1 = 15*screenWidth/1000; f2 = 25*screenWidth/1000; f3 = 45*screenWidth/1000; f4 = 25*screenWidth/1000
+f1 = math.floor(15*screenWidth/1000); f2 = math.floor(25*screenWidth/1000); f3 = math.floor(45*screenWidth/1000); f4 = math.floor(25*screenWidth/1000)
 # and some print format strings
 global printFormatString2, printFormatString3, printFormatString4
 global printFormatString2csv, printFormatString3csv, printFormatString4csv
@@ -377,21 +393,21 @@ if FreeCAD.ActiveDocument != None:
     printList = countObjects()
     if form.result == choice1: # report to Report View
         mainWindow = FreeCADGui.getMainWindow()
-        dockWidgets = mainWindow.findChildren(QtGui.QDockWidget)
+        dockWidgets = mainWindow.findChildren(QtWidgets.QDockWidget)
         reportViewFlag = False
         for dw in dockWidgets:
             if dw.objectName() == "Report view":
                 reportViewFlag = True
         if reportViewFlag:
-            print printFormatString4.format(    "", "", "(User Supplied)", "")
-            print printFormatString4.format(    "Type", "Shape", "Label", "Name")
-            print ""
+            print( printFormatString4.format(   "", "", "(User Supplied)", ""))
+            print( printFormatString4.format(   "Type", "Shape", "Label", "Name"))
+            print( "")
             for line in printList:
-                print line + "\n"
+                print( line + "\n")
         else:
-            QtGui.QMessageBox.information(None,"","Please use 'Menu->View->Views->Report view' to open the 'Report view'")
+            QtWidgets.QMessageBox.information(None,"","Please use 'Menu->View->Views->Report view' to open the 'Report view'")
     if form.result == choice2: # report to CSV file
-        filePath = QtGui.QFileDialog.getSaveFileName(parent=None,caption="Save CSV file as",dir=expanduser("~"),filter="*.csv")
+        filePath = QtWidgets.QFileDialog.getSaveFileName(parent=None,caption="Save CSV file as",dir=expanduser("~"),filter="*.csv")
         file = open(filePath[0],"w")
         for line in printList:
             file.write(line + "\n")
@@ -403,18 +419,16 @@ if FreeCAD.ActiveDocument != None:
             longPrintLine = longPrintLine + line + "\n"
         form = DisplayText(longPrintLine)
 #
-#OS: Mac OS X
-#Word size: 64-bit
-#Version: 0.14.3703 (Git)
-#Branch: releases/FreeCAD-0-14
-#Hash: c6edd47334a3e6f209e493773093db2b9b4f0e40
-#Python version: 2.7.5
-#Qt version: 4.8.6
-#Coin version: 3.1.3
-#SoQt version: 1.5.0
-#OCC version: 6.7.0
+#OS: Windows 10 Version 2009
+#Word size of FreeCAD: 64-bit
+#Version: 0.21.0.31513 (Git)
+#Build type: Release
+#Branch: master
+#Hash: b2ab8edba4bfd71681e639f8c3f1105066bed4c7
+#Python 3.10.8, Qt 5.15.4, Coin 4.0.0, Vtk 9.1.0, OCC 7.6.3
 #
-#thus ends the macro...
+#thus ends the macro... 
+
 }}
 
 

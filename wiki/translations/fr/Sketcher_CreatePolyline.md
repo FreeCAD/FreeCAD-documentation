@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreatePolyline
    Name/fr:Sketcher Polyligne
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une polyligne
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une polyligne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **M**
    SeeAlso:[Sketcher Ligne](Sketcher_CreateLine/fr.md)
@@ -19,6 +19,8 @@ Cet outil fonctionne comme l\'outil [Sketcher Ligne](Sketcher_CreateLine/fr.md),
 
 
 *Polyligne commençant par une ligne, un arc tangent, un arc perpendiculaire puis une ligne tangente.*
+
+
 
 ## Utilisation
 

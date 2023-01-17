@@ -1,6 +1,8 @@
 # Preferences Editor/pt-br
 {{TOCright}}
 
+
+
 ## Introdução
 
 To start the **Preferences editor** select the **Edit → Preferences...** option from the menu. On the Mac OS the **Preferences...** option appears in the **FreeCAD** menu instead (this is the default place for preferences on the Mac).
@@ -16,6 +18,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 ## General
 
 This preferences section has 9 standard tabs: General, Document, Selection, Cache, Editor, Python console, Output window, Macro and Units. A 10th tab, Help, is added if the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) is available. This addon can be installed via the [Addon Manager](Std_AddonMgr.md).
+
+
 
 ### Geral
 
@@ -108,6 +112,8 @@ On the *General* tab you can specify the following:
 
 </div>
 
+
+
 ### Documento
 
 On the *Document* tab you can specify the following:
@@ -191,6 +197,8 @@ On the *Document* tab you can specify the following:
 </div>
 
 ![](images/Preferences_General_Tab_Document_pt-br.png )
+
+
 
 ### Seleção
 
@@ -349,6 +357,8 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 ![](images/Preferences_General_Tab_Python_console.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Janela de saída 
@@ -487,6 +497,8 @@ On the *Macro* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Macro_pt-br.png )
 
+
+
 ### Unidades
 
 On the *Units* tab you can specify the following:
@@ -569,6 +581,8 @@ On the *Help* tab you can specify the following:
 
 This preferences section has three standard tabs: 3D View, Navigation and Colors. A fourth tab, Mesh view, is added if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
 
+
+
 ### Vista 3D 
 
 On the *3D View* tab you can specify the following:
@@ -642,6 +656,8 @@ On the *3D View* tab you can specify the following:
 
 ![](images/Preferences_Display_Tab_3D_View.png )
 
+
+
 ### Navegação
 
 On the *Navigation* tab you can specify the following:
@@ -674,8 +690,9 @@ On the *Navigation* tab you can specify the following:
 +++
 |                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
+|                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -709,6 +726,8 @@ On the *Navigation* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### Cores
 
@@ -751,6 +770,8 @@ On the *Colors* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Colors.png )
+
+
 
 ### Vista de malhas 
 
@@ -797,9 +818,13 @@ On the *Mesh view* tab you can specify the following:
 
 ![](images/Preferences_Display_Tab_Mesh_view.png )
 
+
+
 ### Bancadas de trabalho 
 
 This preferences section has a single tab: Available Workbenches.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -896,6 +921,8 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 ## Import-Export 
 
 The Import-Export preferences affect how files are imported and exported. They are described on the [Import Export Preferences](Import_Export_Preferences.md) page.
+
+
 
 
 <div class="mw-translate-fuzzy">

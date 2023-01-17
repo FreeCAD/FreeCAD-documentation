@@ -12,7 +12,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): This page gathers documentation for advanced users and people interested in writing python scripts. There you will also find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): This page gathers documentation for advanced users and people interested in writing Python scripts. There you will also find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs. 
  <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application. 
 
 
@@ -45,7 +45,11 @@ FreeCAD manualen är ett pågående arbete av communityn för att få förstklas
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Om utvecklingen 
+
+
 
 ### Källkod
 
@@ -58,6 +62,8 @@ There is plenty to do inside the FreeCAD project, if you are interested in helpi
 -   helping other people around you to discover FreeCAD.
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+
+
 
 ### Önskad hjälp 
 

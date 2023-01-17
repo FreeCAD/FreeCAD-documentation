@@ -10,6 +10,8 @@
 
 # Part SectionCut/de
 
+
+
 ## Beschreibung
 
 
@@ -22,6 +24,8 @@ Der Befehl **Part Schnittansicht** steht allen Arbeitsbereichen zur Verfügung, 
 
 <img alt="" src=images/Part_SectionCut_example.png  style="width:300px;"> 
 *Eine Baugruppe mit Ausschnitt. Einige der Schnittflächen sind von Hand eingefärbt. Das gelbe Teil wurde nicht ausgeschnitten, da es absichtlich um ein Tausendstel (mm) in ein anderes Teil verschoben wurde.*
+
+
 
 ## Anwendung
 
@@ -59,7 +63,7 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 <img alt="A slant cut of an assembly." src=images/Part_SectionCut_slant-cut.png  style="width:200px;">
 
--   For example in the first image in this page only one quarter of the assembly is cut. This was done by creating a cut in X direction. Then in the resulting cut object **SectionCutX** the [placement](placement.md) of the subobject **SectionCutBoxX** was changed.
+-   For example in the first image in this page only one quarter of the assembly is cut. This was done by creating a cut in X direction. Then in the resulting cut object **SectionCutX** the [placement](Placement.md) of the subobject **SectionCutBoxX** was changed.
 -   To get a cut in any direction, you can do this:
 
 1.  Create a new [Std Part](Std_Part.md) container.

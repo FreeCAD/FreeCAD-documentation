@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Das **Std Menü Fenster** ist eines der sieben Untermenüs im [Standardmenü](Standard_Menu/de.md):
@@ -27,6 +29,8 @@ Das **Std Menü Fenster** ist eines der sieben Untermenüs im [Standardmenü](St
 
 Das Menü Fenster ermöglicht das Umschalten und Neuanordnen von Fenstern des [Hauptansichtsbereichs](Main_view_area/de.md).
 
+
+
 ## Werkzeuge
 
 Die folgenden Werkzeuge sind in diesem Menü verfügbar:
@@ -38,8 +42,6 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 -   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Kachel](Std_TileWindows/de.md): Ordnet die Fenster an.
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Überlappend](Std_CascadeWindows/de.md): Ordnet die Fenster überlappend an.
-
--   [Symbole anordnen](Std_ArrangeIcons/de.md): Veraltet. Ordnet die Fenster an.
 
 -   [Fenster\...](Std_Windows/de.md): Öffnet eine Dialog-Box, aus der ein Fenster aktiviert werden kann.
 

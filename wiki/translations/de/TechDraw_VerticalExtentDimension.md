@@ -10,12 +10,25 @@
 
 # TechDraw VerticalExtentDimension/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug MaßVertikaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom tiefsten Punkt der ausgewählten Objekte bis zum höchsten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Vertikale Ausdehnung Bemaßung von BSpline Fläche*
+
+
+</div>
+
+
 
 ## Anwendung
 
@@ -23,17 +36,25 @@ Das Werkzeug MaßVertikaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu
 2.  Schaltfläche **<img src="images/TechDraw_VerticalExtentDimension.svg" width=16px> [Maß für die vertikale Ausdehnung einfügen](TechDraw_VerticalExtentDimension/de.md)** drücken.
 3.  Der Ansicht wird ein Maß hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 
+
+
 ## Begrenzungen
 
 Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
+
+
 
 ## Eigenschaften
 
 Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md). Ausnahmen sind weiter unten angegeben.
 
+
+
 ### Daten
 
 -    {{PropertyData/de|MeasureType}}: `True` - basierend auf 3D Geometrie oder \"Projiziert\" - basierend auf der Zeichnung. Normalerweise nicht direkt vom Endanwender beeinflusst. Noch nicht implementiert für Bemaßung Vertikale Ausdehnung.
+
+
 
 ## Skripten
 

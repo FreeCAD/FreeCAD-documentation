@@ -109,7 +109,13 @@ O desenvolvimento do FreeCAD está ativo.
 
 ## Módulos e macros adicionais 
 
+
+<div class="mw-translate-fuzzy">
+
 A comunidade FreeCAD fornece muitos módulos e macros adicionais. A partir da versão 0.17 é possível instalá-los por dentro do próprio FreeCAD, usando o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md). [24px](Imagem:Std_AddonMgr.svg.md).
+
+
+</div>
 
 
 

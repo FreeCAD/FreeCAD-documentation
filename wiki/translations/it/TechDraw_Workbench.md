@@ -1,5 +1,7 @@
 # <img alt="L\'icona di TechDraw" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/it
 
+
+
 ## Introduzione
 
 L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> serve per produrre disegni tecnici di base derivati dai modelli 3D creati con un altro ambiente di lavoro come [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md), o [Arch](Arch_Workbench/it.md), o importati da altre applicazioni. Ogni disegno è una pagina, che può contenere varie viste di oggetti disegnabili come Part::Features, PartDesign::Bodies, App::Part groups, e gruppi Document Object. I disegni risultanti possono essere utilizzati per la documentazione, le istruzioni di costruzione, i contratti, i permessi, ecc.
@@ -15,6 +17,8 @@ Se il tuo obiettivo primario è la produzione di disegni 2D complessi, e di file
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
+
+
 ## Pagine
 
 Questi sono gli strumenti per crere gli oggetti Pagine.
@@ -26,6 +30,8 @@ Questi sono gli strumenti per crere gli oggetti Pagine.
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Ridisegna la pagina](TechDraw_RedrawPage/it.md): forza un aggiornamento della pagina selezionata. {{Version/it|0.19}}
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Stampa tutte le pagine](TechDraw_PrintAll.md): stampa tutte le pagine di un documento. {{Version/it|1.0}}
+
+
 
 ## Viste
 
@@ -57,6 +63,8 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 -   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:32px;"> [Proietta le forme](TechDraw_ProjectShape.md): crea proiezioni di forme nella [Vista 3D](3D_view/it.md). {{Version/it|0.20}}
 
+
+
 ## Sovrapposizioni
 
 Questi sono strumenti per modificare l\'ordine di sovrapposizione che controlla la profondità apparente delle visualizzazioni su una pagina.
@@ -71,6 +79,8 @@ Questi sono strumenti per modificare l\'ordine di sovrapposizione che controlla 
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Sposta la vista in basso di un livello](TechDraw_StackDown/it.md): sposta le viste in basso di un livello nell\'ordine di sovrapposizione. {{Version/it|1.0}}
 
+
+
 ## Clip
 
 Questi sono strumenti per creare e gestire gli oggetti Clip (ritagli di viste).
@@ -80,6 +90,8 @@ Questi sono strumenti per creare e gestire gli oggetti Clip (ritagli di viste).
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Aggiunge una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md): aggiunge una vista esistente a un gruppo di clip.
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md): rimuove una vista da un gruppo di clip.
+
+
 
 ## Aspetto
 
@@ -94,6 +106,8 @@ Si tratta di strumenti per modificare l\'aspetto delle pagine e della vista.
 -   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Immagine bitmap](TechDraw_Image/it.md): inserisce un\'immagine [bitmap](bitmap/it.md) PNG o JPG in una pagina.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Attiva o disattiva la cornice](TechDraw_ToggleFrame/it.md): mostra o nasconde le cornici e le etichette che circondano una vista.
+
+
 
 ## Dimensioni
 
@@ -125,7 +139,17 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Pallinatura](TechDraw_Balloon/it.md): aggiunge una pallinatura a una pagina. {{Version/it|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Quota da punti di riferimento](TechDraw_LandmarkDimension/it.md): aggiunge una quota basata su punti di riferimento. {{Version/it|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+
+
 
 ## Annotazioni
 
@@ -165,9 +189,13 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 -   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Aggiunge Simbolo di Finitura Superficiale](TechDraw_SurfaceFinishSymbol/it.md): aggiunge un simbolo di finitura superficiale a una pagina. {{Version/it|1.0}}
 
+
+
 ## Estensioni
 
 Questi sono strumenti per migliorare i tuoi disegni TechDraw.
+
+
 
 ### Attributi e modifiche 
 
@@ -205,6 +233,8 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
 
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personalizza formato etichetta](TechDraw_ExtensionCustomizeFormat/it.md): personalizza la formattazione di un etichetta o di una quota. È possibile aggiungere simboli GD&T e altri caratteri speciali. {{Version/it|0.20}}
 
+
+
 ### Linee di centro e filettature 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Aggiungi linee assiali:
@@ -238,6 +268,8 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
   - <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Aggiunge Linea Parallela Cosmetica](TechDraw_ExtensionLineParallel/it.md): aggiunge una linea cosmetica parallela a un\'altra linea attraverso un vertice. {{Version/it|0.20}}
 
   - <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Aggiunge Linea Perpendicolare Cosmetica](TechDraw_ExtensionLinePerpendicular/it.md): aggiunge una linea cosmetica perpendicolare a un\'altra linea attraverso un vertice. {{Version/it|0.20}}
+
+
 
 ### Quote
 
@@ -279,6 +311,8 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
 
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Diminuisce Posizioni Decimali](TechDraw_ExtensionDecreaseDecimal/it.md): riduce il numero di posizioni decimali del testo della quota. {{Version/it|0.20}}
 
+
+
 ## Esportazione
 
 Questi sono gli strumenti per esportare le pagine in altre applicazioni.
@@ -287,12 +321,16 @@ Questi sono gli strumenti per esportare le pagine in altre applicazioni.
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Esporta Pagina in DXF](TechDraw_ExportPageDXF/it.md): salva la pagina corrente come file [DXF](DXF/it.md).
 
+
+
 ## Ulteriori funzioni 
 
 -   [Gruppi di linee](TechDraw_LineGroup/it.md): si possono assegnare valori di default a vari tipi di linee.
 -   [Modelli di squadrature](TechDraw_Templates/it.md): i modelli predefiniti per le pagine di disegno di TechDraw.
 -   [Tipi di tratteggio](TechDraw_Hatching/it.md): spiegazione delle diverse tecniche di tratteggio.
 -   [Dimensionamento e tolleranza geometrica](TechDraw_Geometric_dimensioning_and_tolerancing/it.md): spiegazione su come realizzare la quotatura geometrica e la tolleranza.
+
+
 
 ## Preferenze
 
@@ -306,6 +344,8 @@ Gli strumenti TechDraw possono essere utilizzati nelle [macro](Macros/it.md) e d
 -   [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 -   [Campi di testo modificabili](TechDraw_PageDefault/it#Campi_di_testo_modificabili.md)
 
+
+
 ## Limitazioni
 
 -   I disegni di TechDraw e le relative API non sono intercambiabili con i disegni di [Drawing](Drawing_Workbench/it.md) e le relative API. È possibile convertire le pagine di Drawing in pagine TechDraw utilizzando uno script Python (`moveViews.py`).
@@ -313,6 +353,8 @@ Gli strumenti TechDraw possono essere utilizzati nelle [macro](Macros/it.md) e d
 -   Ci sono alcune piccole differenze nello specificare i testi modificabili nei modelli [SVG](SVG/it.md) rispetto al modulo Drawing. In TechDraw il ridimensionamento del documento SVG influisce sulla posizione dei campi di testo modificabili. Per maggiori dettagli vedere la discussione sul forum [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
 -   Non tagliare, copiare e incollare oggetti TechDraw nella [Vista ad Albero](Tree_view/it.md) poiché generalmente non funziona bene.
 -   Non trascinare oggetti TechDraw nella [Vista ad Albero](Tree_view/it.md) con il mouse.
+
+
 
 ## Tutorial
 

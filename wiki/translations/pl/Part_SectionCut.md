@@ -10,12 +10,16 @@
 
 # Part SectionCut/pl
 
+
+
 ## Opis
 
 Funkcja **Wycinek przekroju** jest dostępna dla wszystkich środowisk pracy, choć działa tylko dla obiektów Część i Projekt Części oraz ich złożeń. Tworzy ona trwałe przecięcie obiektów i złożeń. Ponieważ wynik cięcia jest normalnym obiektem [wycięcia](Part_Cut/pl.md) środowiska Część, może być dalej modyfikowany lub np. drukowany na drukarce 3D. Zobacz poniżej możliwe zastosowania.
 
 <img alt="" src=images/Part_SectionCut_example.png  style="width:300px;"> 
 *Przekrój złożenia. Niektóre przecięte powierzchnie zostały ręcznie pokolorowane. Żółta część nie jest cięta, ponieważ została celowo przesunięta o jeden mikron w głąb innej części.*
+
+
 
 ## Użycie
 
@@ -39,6 +43,8 @@ Jeśli zaznaczona jest opcja **Auto** w sekcji powierzchni cięcia, dla powierzc
 
 Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialogowego Wycinek przekroju, pozycje przekroju zostaną wczytane do okna dialogowego.
 
+
+
 ## Zastosowanie
 
 -   Ważnym przypadkiem zastosowania jest to, że funkcja Wycinek przekroju tworzy rzeczywiste przekroje, a nie puste w środku, jak funkcja **[Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md)**.
@@ -48,6 +54,8 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 
 <img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;"> 
 *Rysunek techniczny, na którym zaprezentowano wynik działania funkcji. ''(Kliknij obrazek, aby uzyskać pełny rozmiar)''.*
+
+
 
 ## Specjalne pozycje cięcia 
 
@@ -63,6 +71,8 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 
 
 
+
+
 ## Ograniczenia
 
 <img alt="Złożenie, w którym dwie części krzyżują się ze sobą i dlatego nie są przecięte. Zwróć uwagę na artefakty kolorystyczne na powierzchni przecięcia." src=images/Part_SectionCut_Color-artifact.png  style="width:200px;">
@@ -73,6 +83,8 @@ Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialog
 -   W wyniku cięcia mogą pojawić się artefakty kolorystyczne. Czy i w jaki sposób zależą one od biblioteki OpenCASCADE, a także od położenia widoku. W wielu przypadkach artefakty kolorystyczne znikają po lekkim obróceniu widoku 3D.
 -   Jeśli przecięte obiekty mają różne kolory, nie jest możliwe automatyczne zastosowanie ich koloru do odpowiednich powierzchni cięcia. Wszystkie wycięte powierzchnie otrzymają ten sam kolor, który został wybrany w oknie dialogowym.
 -   W przypadku korzystania ze środowiska pracy [A2plus](A2plus_Workbench/pl.md) nie można automatycznie zastosować koloru złożenia do odpowiadających im powierzchni przyciętych. Wszystkie przecięte powierzchnie otrzymają ten sam kolor, który został wybrany w oknie dialogowym. Powodem tego jest fakt, że A2plus nie wprowadza części [jako link](App_Link/pl.md), lecz ładuje je jako plik.
+
+
 
 
 

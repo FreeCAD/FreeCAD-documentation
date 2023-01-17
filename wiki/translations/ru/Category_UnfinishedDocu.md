@@ -28,8 +28,8 @@
 | [Path Tools/ru](wiki/Path Tools/ru.md) | [Robot SetDefaultOrientation/ru](wiki/Robot SetDefaultOrientation/ru.md) | [SheetMetal Workbench/ru](wiki/SheetMetal Workbench/ru.md) |
 | [Ship Capacity/ru](wiki/Ship Capacity/ru.md) | [Ship GZ/ru](wiki/Ship GZ/ru.md) | [Ship LoadCondition/ru](wiki/Ship LoadCondition/ru.md) |
 | [Sketcher ConstrainHorizontal/ru](wiki/Sketcher ConstrainHorizontal/ru.md) | [Sketcher SelectElementsWithDoFs/ru](wiki/Sketcher SelectElementsWithDoFs/ru.md) | [Std MacroAttachDebugger/ru](wiki/Std MacroAttachDebugger/ru.md) |
-| [TechDraw LinkDimension/ru](wiki/TechDraw LinkDimension/ru.md) | [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) | [WikiPages/ru](wiki/WikiPages/ru.md) |
-| [Windows packaging/ru](wiki/Windows packaging/ru.md) |
+| [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) | [WikiPages/ru](wiki/WikiPages/ru.md) | [Windows packaging/ru](wiki/Windows packaging/ru.md) |
+|
 
 
 

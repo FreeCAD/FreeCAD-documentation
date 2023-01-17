@@ -38,6 +38,8 @@ FreeCAD中的功能被分为不同的模块，每个模块负责实现一种特�
 Some advanced preferences can only be changed in the [Parameter editor](Std_DlgParameter.md). The [Fine-tuning](Fine-tuning.md) page lists some of them.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 通用设置
@@ -52,6 +54,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 
 </div>
+
+
 
 ### 常规
 
@@ -172,6 +176,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 </div>
 
+
+
 ### 文档
 
 在*Document*选项卡中，您可以指定以下内容：
@@ -244,6 +250,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 ![](images/Preferences_General_Tab_Document_zh-cn.png )
 
+
+
 ### 选择
 
 On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following:
@@ -311,6 +319,8 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
 +++
 
 ![](images/Preferences_General_Tab_Cache.png )
+
+
 
 ### 编辑器
 
@@ -396,6 +406,8 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 +++
 
 ![](images/Preferences_General_Tab_Python_console.png )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -488,6 +500,8 @@ On the *Output window* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Output_window_zh-cn.png )
 
+
+
 ### 宏
 
 On the *Macro* tab you can specify the following:
@@ -535,6 +549,8 @@ On the *Macro* tab you can specify the following:
 </div>
 
 ![](images/Preferences_General_Tab_Macro_zh-cn.png )
+
+
 
 ### 单位
 
@@ -618,6 +634,8 @@ On the *Help* tab you can specify the following:
 
 This preferences section has three standard tabs: 3D View, Navigation and Colors. A fourth tab, Mesh view, is added if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
 
+
+
 ### 三维视图
 
 On the *3D View* tab you can specify the following:
@@ -691,6 +709,8 @@ On the *3D View* tab you can specify the following:
 
 ![](images/Preferences_Display_Tab_3D_View.png )
 
+
+
 ### 导航栏
 
 On the *Navigation* tab you can specify the following:
@@ -723,8 +743,9 @@ On the *Navigation* tab you can specify the following:
 +++
 |                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
+|                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -758,6 +779,8 @@ On the *Navigation* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### 颜色
 
@@ -800,6 +823,8 @@ On the *Colors* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Colors.png )
+
+
 
 ### 网格视图
 
@@ -939,6 +964,8 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 ## Import-Export 
 
 The Import-Export preferences affect how files are imported and exported. They are described on the [Import Export Preferences](Import_Export_Preferences.md) page.
+
+
 
 
 <div class="mw-translate-fuzzy">

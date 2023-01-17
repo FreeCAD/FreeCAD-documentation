@@ -194,7 +194,7 @@ The dimension dialog offers the following settings:
 
 {{Properties_Title|Override}}
 
--    **AngleOverride**: Whether the direction of dimension and extension lines is overridden.
+-    **AngleOverride|Bool**: Whether the direction of dimension and extension lines is overridden.
 
 :   
 
@@ -208,14 +208,14 @@ The dimension dialog offers the following settings:
         
         \- the directions are overridden by LineAngle and ExtensionAngle property values.
 
--    **LineAngle**: angle of dimension line with view X axis (in degrees).
+-    **LineAngle|Angle**: angle of dimension line with view X axis (in degrees).
 
--    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
+-    **ExtensionAngle|Angle**: angle of extension line(s) with view X axis (in degrees).
 
 ### View
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Dimension Format}}
 
 
 <div class="mw-translate-fuzzy">

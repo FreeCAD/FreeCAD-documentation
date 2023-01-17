@@ -32,6 +32,8 @@ Please note that pressing the **Reset** button in the lower left corner of the P
 Some advanced preferences can only be changed in the [Parameter editor](Std_DlgParameter.md). The [Fine-tuning](Fine-tuning.md) page lists some of them.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## As configurações gerais das preferências 
@@ -46,6 +48,8 @@ Quando começar a FreeCAD sem bancada carregada, vai ter uma janela de preferên
 
 
 </div>
+
+
 
 ### Geral
 
@@ -145,6 +149,8 @@ On the *General* tab you can specify the following:
 
 </div>
 
+
+
 ### Documento
 
 On the *Document* tab you can specify the following:
@@ -222,6 +228,8 @@ On the *Document* tab you can specify the following:
 +++
 
 ![](images/Preferences_General_Tab_Document_pt.png )
+
+
 
 ### Seleção
 
@@ -372,6 +380,8 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 ![](images/Preferences_General_Tab_Python_console.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Janela de saída 
@@ -493,6 +503,8 @@ On the *Macro* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Macro_pt.png )
 
+
+
 ### Unidades
 
 On the *Units* tab you can specify the following:
@@ -566,6 +578,8 @@ On the *Help* tab you can specify the following:
 ![](images/Preferences_General_Tab_Help.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## As configurações de exibição 
@@ -574,6 +588,8 @@ On the *Help* tab you can specify the following:
 </div>
 
 This preferences section has three standard tabs: 3D View, Navigation and Colors. A fourth tab, Mesh view, is added if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
+
+
 
 ### Vista 3D 
 
@@ -648,6 +664,8 @@ On the *3D View* tab you can specify the following:
 
 ![](images/Preferences_Display_Tab_3D_View.png )
 
+
+
 ### Navegação
 
 On the *Navigation* tab you can specify the following:
@@ -680,8 +698,9 @@ On the *Navigation* tab you can specify the following:
 +++
 |                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
+|                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -715,6 +734,8 @@ On the *Navigation* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### Cores
 
@@ -757,6 +778,8 @@ On the *Colors* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Colors.png )
+
+
 
 ### Vista de malha 
 

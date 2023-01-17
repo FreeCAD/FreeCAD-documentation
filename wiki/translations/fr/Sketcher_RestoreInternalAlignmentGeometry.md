@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher RestoreInternalAlignmentGeometry
    Name/fr:Sketcher Basculer la géométrie interne
-   MenuLocation:Sketch → Outils d'esquisse → Afficher/masquer la géométrie interne
+   MenuLocation:Esquisse → Outils d'esquisse → Afficher/masquer la géométrie interne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **I**
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)
@@ -14,12 +14,16 @@
 
 La commande supprime les éléments inutilisés alignés sur la géométrie interne ou recrée les éléments manquants.
 
+
+
 ## Utilisation
 
 -   Sélectionnez un élément d\'une esquisse qui prend en charge l\'alignement interne (uniquement Ellipse/Arc et B-spline).
--   Lancez la commande en cliquant sur un bouton de la barre d'outils **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md)** ou choisissez **Sketch → Outils d'esquisse → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Afficher/masquer la géométrie interne** ou utilisez le raccourci clavier.
+-   Lancez la commande en cliquant sur un bouton de la barre d'outils **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md)** ou choisissez **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Afficher/masquer la géométrie interne** ou utilisez le raccourci clavier.
 
 S\'il existe des emplacements d\'alignement libres pour l\'élément sélectionné, une nouvelle géométrie de construction est créée et alignée sur les emplacements disponibles. Si tous les emplacements d\'alignement sont occupés, la géométrie interne non utilisée est supprimée (l\'élément est considéré comme inutilisé s\'il n\'est contraint à rien d\'autre).
+
+
 
 ## Exemple
 

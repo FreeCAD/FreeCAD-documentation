@@ -17,25 +17,27 @@ La fonction **Coupe persistante** est disponible pour tous les ateliers, mais el
 <img alt="" src=images/Part_SectionCut_example.png  style="width:300px;"> 
 *Un assemblage de coupe. Certaines faces coupées ont été colorées manuellement. La partie jaune n'est pas coupée car elle a été volontairement déplacée d'un micron dans une autre partie.*
 
+
+
 ## Utilisation
 
 ![La boîte de dialogue Coupe persistante](images/Part_SectionCut_Dialog.png )
 
 La boîte de dialogue **Coupe persistante** s\'ouvre via le menu **Affichage → <img src="images/Part_SectionCut.svg" width=16px> Coupe persistante**. Elle est indépendante du plan de travail actuel et du document actuellement ouvert. Elle peut être détachée de sa position d\'ouverture en appuyant sur le bouton en haut à droite de la boîte de dialogue.
 
-La fonction **Coupe persistante** prend en compte tous les objets Part visibles dans le document actif. Vous pouvez donc contrôler ce qui sera coupé, en rendant une partie visible ou non. En cochant l\'une des options **Cutting** dans la boîte de dialogue, la fonction est activée. Vous pouvez alors soit saisir une position (en coordonnées du document), soit utiliser les curseurs pour définir la position de la coupe. Il est également possible de combiner des coupes, par exemple pour couper dans les directions X et Z. Les boutons **Flip** permettent de retourner le côté qui est coupé.
+La fonction **Coupe persistante** prend en compte tous les objets Part visibles dans le document actif. Vous pouvez donc contrôler ce qui sera coupé, en rendant une partie visible ou non. En cochant l\'une des options **Coupe** dans la boîte de dialogue, la fonction est activée. Vous pouvez alors soit saisir une position (en coordonnées du document), soit utiliser les curseurs pour définir la position de la coupe. Il est également possible de combiner des coupes, par exemple pour couper dans les directions X et Z. Les boutons **Retourner** permettent de retourner le côté qui est coupé.
 
-Dès que l\'option *Cutting* est cochée dans la boîte de dialogue, vous obtenez un objet coupé dans la [Vue en arborescence](Tree_view/fr.md). Son nom est par exemple *SectionCutY* lorsqu\'il s\'agit d\'une coupe dans la direction des ordonnées.
+Dès que l\'option *Coupe* est cochée dans la boîte de dialogue, vous obtenez un objet coupé dans la [Vue en arborescence](Tree_view/fr.md). Son nom est par exemple *Coupe sur Y* lorsqu\'il s\'agit d\'une coupe dans la direction des ordonnées.
 
 L\'option de dialogue **Ne garder que les coupes visibles lors de la fermeture** cache tout dans l\'arborescence sauf l\'objet coupé lorsque le bouton **Fermer** est cliqué pour fermer le dialogue.
 
-Pour supprimer l\'objet coupé, décochez toutes les options **Cutting**.
+Pour supprimer l\'objet coupé, décochez toutes les options **Coupe**.
 
-En décochant toutes les options **Cutting**, le bouton **Rafraîchir la vue** devient actif. Lorsqu\'il est pressé, il prend une sorte de capture d\'écran des objets Part visibles. Celle-ci sera utilisée la prochaine fois que vous vérifierez une option **Cutting**. Le rafraîchissement est nécessaire lorsque vous changez de document. Il est en outre utile pour les assemblages, où vous pouvez vouloir cacher certaines pièces ou les ajouter ultérieurement à la découpe. Dans ce cas, le rafraîchissement recalcule les valeurs min/max des curseurs et des positions de découpe en fonction des dimensions de l\'objet actuellement visible.
+En décochant toutes les options **Coupe**, le bouton **Rafraîchir la vue** devient actif. Lorsqu\'il est pressé, il prend une sorte de capture d\'écran des objets Part visibles. Celle-ci sera utilisée la prochaine fois que vous vérifierez une option **Coupe**. Le rafraîchissement est nécessaire lorsque vous changez de document. Il est en outre utile pour les assemblages, où vous pouvez vouloir cacher certaines pièces ou les ajouter ultérieurement à la découpe. Dans ce cas, le rafraîchissement recalcule les valeurs min/max des curseurs et des positions de découpe en fonction des dimensions de l\'objet actuellement visible.
 
 Si l\'option **Auto** dans la section face coupée est cochée, la couleur et la transparence des objets coupés seront prises pour la face coupée. Cela ne fonctionne que si tous les objets coupés ont la même couleur ou la même transparence.
 
-**Remarque :** Pour les assemblages, les curseurs de la boîte de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance de l\'unité centrale et un mouvement du curseur n\'est pas utile.
+**Remarque :** pour les assemblages, les curseurs de la boîte de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance de l\'unité centrale et un mouvement du curseur n\'est pas utile.
 
 Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvrez ensuite la boîte de dialogue Coupe persistante, les positions de la coupe seront lues dans la boîte de dialogue.
 
@@ -48,6 +50,8 @@ Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvr
 
 <img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;"> 
 *Un dessin technique où un résultat de Coupe persistante est utilisé. (Cliquez sur l'image pour l'agrandir.)*
+
+
 
 ## Positions spéciales de coupe 
 
@@ -73,6 +77,8 @@ Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvr
 -   Il peut y avoir des artefacts de couleur dans le résultat de la découpe. Si et comment cela dépend de la bibliothèque OpenCASCADE et aussi de la position de la vue. Dans de nombreux cas, les artefacts de couleur disparaissent lorsque la vue 3D est légèrement tournée.
 -   Lorsque vous avez des objets coupés avec des couleurs différentes, il n\'est pas possible d\'appliquer automatiquement leur couleur aux faces coupées correspondantes. Toutes les faces découpées auront la même couleur que celle sélectionnée dans la boîte de dialogue.
 -   Lorsque vous utilisez l\'[atelier A2plus](A2plus_Workbench/fr.md), il n\'est pas possible d\'appliquer automatiquement la couleur des pièces assemblées aux faces de coupe correspondantes. Toutes les faces découpées auront la même couleur que celle sélectionnée dans la boîte de dialogue. La raison est que A2plus ne saisit pas les pièces [comme lien](App_Link/fr.md) mais les charge comme fichier.
+
+
 
 
 

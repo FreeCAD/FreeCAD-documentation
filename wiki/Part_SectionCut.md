@@ -4,7 +4,7 @@
    MenuLocation:View → Persistent section cut
    Workbenches:All
    Version:0.20
-   SeeAlso:[[Std ToggleClipPlane]]
+   SeeAlso:[Std ToggleClipPlane](Std_ToggleClipPlane.md)
 ---
 
 # Part SectionCut
@@ -52,7 +52,7 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 <img alt="A slant cut of an assembly." src=images/Part_SectionCut_slant-cut.png  style="width:200px;">
 
--   For example in the first image in this page only one quarter of the assembly is cut. This was done by creating a cut in X direction. Then in the resulting cut object **SectionCutX** the [placement](placement.md) of the subobject **SectionCutBoxX** was changed.
+-   For example in the first image in this page only one quarter of the assembly is cut. This was done by creating a cut in X direction. Then in the resulting cut object **SectionCutX** the [placement](Placement.md) of the subobject **SectionCutBoxX** was changed.
 -   To get a cut in any direction, you can do this:
 
 1.  Create a new [Std Part](Std_Part.md) container.

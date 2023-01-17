@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L**\'Ambiente Draft** <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> si concentra principalmente sulla creazione e modifica di oggetti 2D in FreeCAD. Ma non è limitato al piano XY del sistema di coordinate globale. I suoi oggetti possono avere qualsiasi orientamento e posizione nello spazio 3D e alcuni oggetti Draft possono essere planari o non planari.
@@ -17,6 +19,8 @@ Se il tuo obiettivo principale è la produzione di disegni 2D complessi e file [
 *L'immagine mostra la [griglia](Draft_Snap_Grid/it.md) allineata con il piano XY.<br>
 Alla sinistra, in bianco, alcuni oggetti piani.<br>
 Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie su tracciato](Draft_PathArray.md).*
+
+
 
 ## Disegnare
 
@@ -56,6 +60,8 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Tratteggio](Draft_Hatch/it.md): crea tratteggi sulle facce piane di un oggetto selezionato. {{Version/it|0.20}}
 
+
+
 ## Annotazioni
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Testo](Draft_Text/it.md): crea un testo su più righe in un determinato punto.
@@ -65,6 +71,8 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Etichetta](Draft_Label/it.md): crea un testo su più righe con una linea guida a 2 segmenti e una freccia.
 
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Stili di Annotazione\...](Draft_AnnotationStyleEditor/it.md): consente di definire stili che influiscono sulle proprietà visive di oggetti simili ad annotazioni.
+
+
 
 ## Modificare
 
@@ -122,6 +130,8 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Vista forma 2D](Draft_Shape2DView/it.md): crea proiezioni 2D da oggetti selezionati.
 
+
+
 ## Barra di Draft 
 
 La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro, definire le impostazioni di stile, attivare/disattivare la modalità di costruzione e specificare il livello o il gruppo attivo.
@@ -136,17 +146,23 @@ La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro
 
 -   ![](images/Draft_tray_button_layer.png ) [Disattiva auto gruppo](Draft_AutoGroup/it.md): cambia l\'oggetto attivo [Strato Draft](Draft_Layer/it.md) o, facoltativamente, l\'oggetto attivo [Gruppo](Std_Group/it.md) o l\'oggetto gruppo di [Arch](Arch_Workbench/it.md).
 
+
+
 ## Scala per gli strumenti di annotazione 
 
 Con il [widget Scala per gli strumenti di annotazione](Draft_annotation_scale_widget/it.md) è possibile specificare la scala di annotazione di Draft.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
+
+
 ## Widget di aggancio in Draft 
 
 Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
 
 ![](images/Draft_snap_widget_button.png )
+
+
 
 ## Barra degli strumenti di aggancio 
 
@@ -184,6 +200,8 @@ La barra degli strumenti Snap di Draft consente di selezionare le opzioni di sna
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Attiva/Disattiva la griglia](Draft_ToggleGrid/it.md): attiva o disattiva la griglia.
 
+
+
 ## Strumenti di utilità di Draft 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Livello](Draft_Layer/it.md): crea un [livello](Draft_Layer/it.md).
@@ -200,6 +218,8 @@ La barra degli strumenti Snap di Draft consente di selezionare le opzioni di sna
 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Crea piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md): crea un proxy del piano di lavoro per salvare il [piano di lavoro](Draft_SelectPlane/it.md) attuale.
 
+
+
 ## Strumenti aggiuntivi 
 
 Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di essi è possibile accedere anche dalle barre degli strumenti o dalla [Barra Draft](Draft_Tray/it.md) e sono già stati menzionati sopra. Per i seguenti strumenti non è questo il caso:
@@ -212,6 +232,8 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Mostra la Barra degli strumenti di aggancio](Draft_ShowSnapBar/it.md): mostra la [barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
 
+
+
 ## Ulteriori funzioni 
 
 -   [Piano di lavoro](Draft_SelectPlane/it.md): il piano nella [vista 3D](3D_view/it.md) dove vengono creati i nuovi oggetti Draft.
@@ -220,21 +242,41 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 -   [Modalità costruzione](Draft_ToggleConstructionMode/it.md): posiziona i nuovi oggetti Draft in un gruppo dedicato rendendo più facile nasconderli o eliminarli.
 -   [Campitura](Draft_Pattern/it.md): Gli oggetti Draft con una proprietà **Make Face** possono essere visualizzati con un modello SVG invece di un colore della faccia a tinta unita.
 
+
+
 ## Menu contestuale della vista ad albero 
 
 Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad albero](Tree_view/it.md):
 
+
+
 ### Opzioni di default 
+
+For most Draft objects the following option is available:
+
+-   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+
+If there is an active document the context menu contains an additional sub-menu:
+
+
+<div class="mw-translate-fuzzy">
 
 Se è presente un documento attivo, il menu contestuale contiene un ulteriore sottomenu:
 
 -    **Utilità**: un sottoinsieme degli strumenti disponibili nel menu principale Draft Utilità.
+
+
+</div>
+
+
 
 ### Opzioni polilinea 
 
 Per [Linea](Draft_Line/it.md) e [Polilinea](Draft_Wire/it.md) è disponibile questa opzione aggiuntiva:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Appiattisci: appiattisce la polilinea sul corrente [Piano di lavoro](Draft_SelectPlane/it.md). Questa opzione non funziona correttamente in {{VersionMinus|0.19}}.
+
+
 
 ### Opzioni del contenitore di livelli 
 
@@ -244,6 +286,8 @@ Per un [Contenitore di livelli](Draft_Layer/it.md) sono disponibili queste opzio
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Aggiungi un nuovo livello](Draft_Layer/it#Contenitore_di_liveeli_di_Draft.md): aggiunge un nuovo livello al documento corrente.
 
+
+
 ### Opzioni dei livelli 
 
 Per un [Livello di Draft](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive.
@@ -251,6 +295,8 @@ Per un [Livello di Draft](Draft_Layer/it.md) sono disponibili queste opzioni agg
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Attiva questo livello](Draft_AutoGroup/it.md): attiva il livello selezionato.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona il contenuto del livello](Draft_SelectGroup/it.md): seleziona gli oggetti all\'interno del livello selezionato.
+
+
 
 ### Opzioni del piano di lavoro proxy 
 
@@ -260,15 +306,29 @@ Per un [Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md) queste opzioni agg
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Memorizza lo stato degli oggetti](Draft_WorkingPlaneProxy/it#Menu_contestuale.md): aggiorna la proprietà **Mappa di visibilità** del piano di lavoro proxy con lo stato di visibilità corrente degli oggetti nel documento.
 
+
+
 ## Menu contestuale vista 3D 
 
 Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale della [Vista 3D](Vista_3D/it.md):
 
+
+
 ### Opzioni di default 
+
+If there is an active document the context menu contains one additional sub-menu:
+
+
+<div class="mw-translate-fuzzy">
 
 Se è presente un documento attivo, il menu contestuale contiene un ulteriore sottomenu:
 
 -    **Utilità**: un sottoinsieme degli strumenti disponibili nel menu principale Utilità di Draft.
+
+
+</div>
+
+
 
 ### Strumenti obsoleti 
 
@@ -278,11 +338,15 @@ Questi comandi sono obsoleti ma ancora disponibili:
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Disegno](Draft_Drawing/it.md): inserisce le viste degli oggetti selezionati in una pagina [disegno tecnico](Drawing_Workbench/it.md).{{Obsolete|0.17}}
 
+
+
 ## Preferenze
 
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferenze](Draft_Preferences/it.md): preferenze generali per l\'ambiente Draft.
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preferenze Import Export](Import_Export_Preferences/it.md): preferenze disponibili per l\'importazione e l\'esportazione in diversi formati di file.
+
+
 
 ## Formato dei file 
 
@@ -294,6 +358,8 @@ L\'ambiente Draft fornisce a FreeCAD importatori ed esportatori per diversi form
 -   [Open Cad format .OCA](Draft_OCA/it.md): importa ed esporta file [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/it.md): importa i file DAT che descrivono i profili del profilo alare.
 
+
+
 ## Test unitari 
 
 Vedere anche: [Ambiente Test](Testing/it.md).
@@ -304,6 +370,8 @@ Per eseguire i test unitari dell\'ambiente, eseguire quanto segue dal terminale 
 ```python
 freecad -t TestDraft
 ```
+
+
 
 ## Script
 
@@ -320,6 +388,8 @@ doc = dto.create_test_file()
 ```
 
 L\'esame del codice di questo modulo può aiutare a comprendere l\'interfaccia di programmazione.
+
+
 
 ## Tutorial
 

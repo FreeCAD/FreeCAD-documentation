@@ -127,17 +127,25 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 -   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md) : ajoute une cote d\'angle à partir de trois sommets.
 
--   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer les dimensions des extensions :
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer des cotes étendues :
 
-  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Extension horizontale](TechDraw_HorizontalExtentDimension/fr.md) : ajoute une dimension d\'extension horizontale. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md) : ajoute une cote étendue horizontale. {{Version/fr|0.19}}
 
-  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Extension verticale](TechDraw_VerticalExtentDimension/fr.md) : ajoute une dimension d\'extension verticale. {{Version/fr|0.19}}
+  - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md) : ajoute une cote étendue verticale. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une dimension](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une cote](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajout \"d\'infobulles\" dans la page. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajoute une \"infobulle\" dans la page. {{Version/fr|0.19}}
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire à partir des points du repère. {{Version/fr|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
 
 ## Annotations
 

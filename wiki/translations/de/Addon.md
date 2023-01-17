@@ -1,9 +1,13 @@
 # Addon/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 In FreeCAD und dieser Dokumentation ist eine [Erweiterung](addon/de.md) eine beliebige Komponente, die nicht Teil der Basisinstallation ist, die aber dem System durch bestimmte Methoden hinzugefügt werden kann.
+
+
 
 ## Verschiedene Typen 
 
@@ -22,14 +26,16 @@ Aber für Makros und Arbeitsbereiche ist auch eine manuelle Installation möglic
 -   [Wie Makros installiert werden](How_to_install_macros/de.md)
 -   [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md)
 
+
+
 ## Informationen für Entwickler 
 
-If you have developed a macro or workbench, and want to see it included in the Addon manager, read how to do so on the repository pages: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). If you add your macro to the [Macros recipes](Macros_recipes.md) page, there is nothing else to do, it will automatically be picked up by the Addon manager.
+Hat man ein Makro oder einen Arbeitsbereich entwickelt und möchte es/ihn im Addon-Manager aufgelistet sehen, kann man auf den Seiten [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) und [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/) (beide engl.) lesen, wie es funktioniert. Wird ein Makro zur Seite [Makrorezepte](Macros_recipes/de.md) hinzugefügt, muss nichts weiter getan werden, es wird automatisch vom Addon-Manager gefunden.
 
-See also:
+Siehe auch:
 
--   [Distribution of a Python workbench](Workbench_creation#Distribution.md)
--   [Distribution of a C++ workbench](Workbench_creation#Distribution_2.md)
+-   [Programmpaket eines Python-Arbeitsbereiches herausgeben](Workbench_creation/de#Programmpaket_(distribution).md)
+-   [Programmpaket eines C++ -Arbeitsbereiches herausgeben](Workbench_creation/de#Distribution.md)
 
 
 

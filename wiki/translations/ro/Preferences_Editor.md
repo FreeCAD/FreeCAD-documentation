@@ -38,6 +38,8 @@ Dacă faceți clic pe butonul **Reset** din colțul din stânga jos al oricărui
 Some advanced preferences can only be changed in the [Parameter editor](Std_DlgParameter.md). The [Fine-tuning](Fine-tuning.md) page lists some of them.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Preferințe generale 
@@ -372,6 +374,8 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 ![](images/Preferences_General_Tab_Python_console.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Fereastra de ieșire 
@@ -493,6 +497,8 @@ On the *Macro* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Macro.png )
 
+
+
 ### Unități
 
 On the *Units* tab you can specify the following:
@@ -564,6 +570,8 @@ On the *Help* tab you can specify the following:
 +++
 
 ![](images/Preferences_General_Tab_Help.png )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -680,8 +688,9 @@ On the *Navigation* tab you can specify the following:
 +++
 |                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
+|                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -715,6 +724,8 @@ On the *Navigation* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### Colorate
 

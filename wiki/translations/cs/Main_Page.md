@@ -7,6 +7,8 @@ Toto je wiki dokumentace [FreeCADu](http://www.freecadweb.org). Informace obsaž
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Uživatelské centrum 
@@ -25,6 +27,8 @@ Dále jsou tři hlavní vstupní body do dokumentace, pro tři velké kategorie 
 
 
 </div>
+
+
 
 ## Manuál
 
@@ -55,7 +59,11 @@ Manuál FreeCADu je druhý, mnohem přímější, způsob prezentace textů obsa
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Zúčastněte se 
+
+
 
 ### Jak se zúčastnit a přispět 
 
@@ -69,6 +77,8 @@ Je ještě spousta práce na projektu FreeCADu, máte-li zájem pomoci nám. Jso
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
+
+
 ### Zdrojový kód 
 
 
@@ -78,6 +88,8 @@ FreeCAD může být kompilován použitím cMake nebo autotools, odkaz na GIT je
 
 
 </div>
+
+
 
 ### O vývoji 
 

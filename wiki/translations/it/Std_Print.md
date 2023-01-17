@@ -10,6 +10,8 @@
 
 # Std Print/it
 
+
+
 ## Descrizione
 
 
@@ -19,6 +21,8 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -35,9 +39,15 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 </div>
 
+
+
 ## Opzioni
 
 -   Premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
+
+## Notes
+
+-   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
 
 
 <div class="mw-translate-fuzzy">

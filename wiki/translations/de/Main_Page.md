@@ -4,7 +4,12 @@
 Dies ist das Dokumentations Wiki von [FreeCAD](http://www.freecadweb.org). Es gibt mehrere Möglichkeiten, diese Dokumentation zu nutzen: durch das Erforschen der Zentren, durch das Befolgen des Handbuchs oder durch das Benutzen der Hilfe Menüeinträge innerhalb von FreeCAD. Diese Dokumentation wird von der Gemeinschaft der Benutzer und Entwickler von FreeCAD geschrieben und befindet sich in Bearbeitung. Wenn du Informationen findest, die falsch sind oder fehlen, bitte [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
 
+
+
 ## Die Zentren 
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Anwenderzentrum](User_hub/de.md): Diese Seite enthält Dokumentation, die für FreeCAD Anwender im Allgemeinen nützlich ist: eine Liste aller Arbeitsbereiche, detaillierte Anweisungen zur Installation und Benutzung der FreeCAD Anwendung, Tutorien und alles, was Du brauchst, um loszulegen.
 
@@ -16,9 +21,16 @@ Dies ist das Dokumentations Wiki von [FreeCAD](http://www.freecadweb.org). Es gi
  <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Entwicklerzentrum](Developer_hub/de.md): Dieser Abschnitt enthält Material für Entwickler: Wie du FreeCAD selbst kompilierst, wie der FreeCAD-Quellcode strukturiert ist und wie du darin navigierst, und wie du neue Arbeitsbereiche entwickelst und FreeCAD in deine eigene Anwendung einbindest. 
 
 
+
+</div>
+
+
+
 ## Handbuch
 
 <img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Das FreeCAD Handbuch](Manual:Introduction/de.md) ist ein weiterführender Weg die Informationen in diesem Wiki zu präsentieren. Es ist so gestaltet, dass es wie ein Buch gelesen werden kann und wird zu vielen weiteren Seiten führen, ausgehend von den Knotenpunkten oben. [eBookversionen](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) gibt es ebenso, wie [eine Reihe von Übersetzungen im pdf Format](https://www.freecadweb.org/manual/).
+
+
 
 
 
@@ -39,7 +51,11 @@ Die folgende Tabelle listet alle Artikel dieses Wikis auf, die das Rückgrat der
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## Mitmachen
+
+
 
 ### Wie man mitwirken kann 
 
@@ -51,11 +67,21 @@ Innerhalb des FreeCAD Projekts gibt es viel zu tun, wenn Du daran interessiert b
 -   Unterstützung bei der Erstellung der neuesten Version von FreeCAD für Ihr bevorzugtes Betriebssystem.
 -   anderen Menschen um Sie herum zu helfen, FreeCAD zu entdecken.
 
+
+<div class="mw-translate-fuzzy">
+
 Die Seite [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD/de.md) beschreibt dies alles mit weiteren Details. Ab 2016 nimmt FreeCAD auch am [Google Summer of Code](Google_Summer_of_Code.md) teil. Die Seite [Contributors hub](Contributors_hub/de.md) ist ein weiterer Versuch, die Möglichkeiten zu sammeln, wie man dem FreeCAD Projekt helfen und dazu beitragen kann.
+
+
+</div>
+
+
 
 ### Quellcode
 
 FreeCAD kann auf allen Plattformen mit [CMake](https://cmake.org/) kompiliert werden. Der Quellcode ist [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-lizenziert und bereitgestellt auf [GitHub](https://github.com/FreeCAD/FreeCAD). Und gespiegelt an [GitLab](https://gitlab.com/freecad/FreeCAD) and [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Es gibt Build Anweisungen für [Kompilieren unter Windows](Compile_on_Windows/de.md), [Kompilieren unter Linux](Compile_on_Linux/de.md) und [Kompilieren auf MacOS](Compile_on_MacOS/de.md). Die Quellcodedokumentation ist [hier bereitgestellt](http://www.freecadweb.org/api/), erstellt von [Doxygen](Doxygen/de.md), und [dokumentiert im Wiki](Source_documentation/de.md).
+
+
 
 ### Über die Entwicklung 
 

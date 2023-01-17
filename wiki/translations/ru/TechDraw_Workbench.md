@@ -1,5 +1,7 @@
 # <img alt="Логотип верстака TechDraw" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/ru
 
+
+
 ## Введение
 
 Верстак [TechDraw](TechDraw_Workbench/ru.md) предназначен для построения технических чертежей на основе 3D-моделей созданных с помощью таких верстаков, как: [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md), [Arch](Arch_Workbench.md). 3D модели импортированные из других приложений, так же могут быть применены для построения чертежа. Каждый чертеж представляет собой лист, который может содержать различные виды отображаемых объектов, таких как: Part::Features, PartDesign::Bodies, App::Part groups и группы объектов документа. Полученные листы можно использовать в качестве документации, инструкции по эксплуатации, перечня элементов, спецификации и т. д.
@@ -20,6 +22,8 @@ TechDraw был официально включен в FreeCAD начиная с
 {{TOCright}}
 
 <img alt="" src=images/TechDraw_Workbench_Example_ru-ru.png  style="width:425px;">
+
+
 
 ## Страницы
 
@@ -50,6 +54,8 @@ TechDraw был официально включен в FreeCAD начиная с
 </div>
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Print All Pages](TechDraw_PrintAll.md): prints all pages in a document. <small>(v1.0)</small> 
+
+
 
 ## Виды
 
@@ -131,6 +137,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Move view down one level](TechDraw_StackDown.md): moves views down one level in the stacking order. <small>(v1.0)</small> 
 
+
+
 ## Группа Видов 
 
 Содержит инструменты для создания и управления группой Видов.
@@ -158,6 +166,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
 
 </div>
+
+
 
 ## Доработка
 
@@ -203,6 +213,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
 </div>
 
+
+
 ## Размеры
 
 Содержит инструменты для создания и работы с размерами.
@@ -245,7 +257,17 @@ These are tools for changing the stacking order which controls the apparent dept
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Вставить примечание в выноску](TechDraw_Balloon/ru.md): создает аннотацию на странице. {{Version/ru|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Вставить размер знака](TechDraw_LandmarkDimension/ru.md): добавляет размер указывающий расстояние до landmark. {{Version/ru|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -368,6 +390,8 @@ These are tools for changing the stacking order which controls the apparent dept
 </div>
 
 -   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md): adds a surface finish symbol to a page. <small>(v1.0)</small> 
+
+
 
 ## Инструменты дополнения 
 
@@ -513,6 +537,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease Decimal Places](TechDraw_ExtensionDecreaseDecimal.md): decreases the number of decimal places of the dimension text. <small>(v0.20)</small> 
 
+
+
 ## Экспорт
 
 Содержит инструменты для экспорта страниц в другие приложения.
@@ -533,6 +559,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
 </div>
 
+
+
 ## Дополнительные возможности 
 
 -   [Группы Линий](TechDraw_LineGroup/ru.md): позволяет назначить толщину различным типам линий по умолчанию.
@@ -540,9 +568,13 @@ These are tools for changing the stacking order which controls the apparent dept
 -   [Штриховка](TechDraw_Hatching/ru.md): объяснение различных методов штриховки.
 -   [Геометрические размеры и допуски](TechDraw_Geometric_dimensioning_and_tolerancing/ru.md): руководство по указанию геометрических размеров и допусков.
 
+
+
 ## Настройки
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Настройки](TechDraw_Preferences/ru.md): настройки значений по умолчанию для страницы чертежа, такие как угол проекции, цвета, размеры текста и стили линий.
+
+
 
 ## Программирование
 
@@ -557,6 +589,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
 </div>
 
+
+
 ## Ограничения
 
 
@@ -569,6 +603,8 @@ These are tools for changing the stacking order which controls the apparent dept
 
 
 </div>
+
+
 
 ## Руководства
 

@@ -11,6 +11,8 @@
 
 # Draft Text/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Adnotacja wieloliniowa** wstawia wielowierszowe pole tekstowe w wybranym miejscu.
@@ -19,6 +21,8 @@ Aby wstawić element tekstowy ze strzałką, użyj przycisku [Rysunek roboczy: E
 
 <img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Pojedynczy punkt wymagany przy ustawianiu tekstu*
+
+
 
 ## Użycie
 
@@ -33,6 +37,8 @@ Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [
 4.  Wprowadź żądany tekst, naciskając **Enter** między każdą linijką.
 5.  Naciśnij **Enter** dwukrotnie, lub naciśnij przycisk **<img src="images/Button_valid.svg" width=16px>. Utwórz tekst** aby zakończyć operację.
 
+
+
 ## Opcje
 
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
@@ -43,16 +49,22 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać bieżące polecenie.
 
+
+
 ## Uwagi
 
--   Tekst może być edytowany poprzez dwukrotne kliknięcie na nim w [Widoku drzewa](Tree_view.md). <small>(v0.20)</small> 
--   Teksty utworzone za pomocą funkcji [z wydania 0.18](Release_notes_0.18/pl.md) nie są wstecznie kompatybilne.
+-   Tekst może być edytowany poprzez dwukrotne kliknięcie na nim w [Widoku drzewa](Tree_view/pl.md). <small>(v0.20)</small> 
+-   Teksty utworzone lub zapisane za pomocą funkcji [z wydania 1.0](Release_notes_1.0/pl.md) nie są wstecznie kompatybilne.
+
+
 
 ## Właściwości
 
 Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_FeaturePython/pl.md) i dziedziczy wszystkie jego właściwości. Poniższe właściwości są dodatkowe, chyba że zaznaczono inaczej.
+
+
 
 ### Dane
 
@@ -62,6 +74,8 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 -    **Umieszczenie|Placement**: określa położenie tekstu w oknie [widoku 3D](3D_view/pl.md). Zobacz [Umiejscowienie](Placement/pl.md).
 
 -    **Tekst|StringList**: określa zawartość tekstu. Każda pozycja na liście reprezentuje nowy wiersz tekstu.
+
+
 
 ### Widok
 
@@ -75,7 +89,7 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 
 {{TitleProperty|Opcje wyświetlania}}
 
--    **Tryb wyświetlania|Enumeration**: określa sposób wyświetlania tekstu. Jeśli wartością jest {{value|tekst 3D}}, tekst będzie wyświetlany w płaszczyźnie zdefiniowanej przez jego **Uniejscowienie**. Jeśli jest to {{value|tekst 2D}}, tekst będzie zawsze skierowany w stronę patrzącego. Jest to właściwość dziedziczona.
+-    **Tryb wyświetlania|Enumeration**: określa sposób wyświetlania tekstu. Jeśli wartością jest {{value|World}}, tekst będzie wyświetlany na płaszczyźnie zdefiniowanej przez jego **Uniejscowienie**. Jeśli jest to {{value|Screen}}, tekst będzie zawsze skierowany w stronę ekranu. To jest dziedziczona własność. Wspomniane opcje to opcje o zmienionych nazwach ({{Version/pl|1.0}}).
 
 
 {{TitleProperty|Grafika}}
@@ -96,6 +110,8 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 -    **Rozstaw linii**: określa odstęp między liniami tekstu.
 
 -    **Kolor tekstu|Color**: definiuje barwę tekstu.
+
+
 
 ## Tworzenie skryptów 
 

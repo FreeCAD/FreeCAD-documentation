@@ -12,7 +12,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): This page gathers documentation for advanced users and people interested in writing python scripts. There you will also find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Power users hub](Power_users_hub.md): This page gathers documentation for advanced users and people interested in writing Python scripts. There you will also find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs. 
  <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Developers hub](Developer_hub.md): This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application. 
 
 

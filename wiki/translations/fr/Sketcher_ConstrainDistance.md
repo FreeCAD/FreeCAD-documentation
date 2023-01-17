@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainDistance
    Name/fr:Sketcher Contrainte dimensionnelle
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de dimension
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de dimension
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **D**
-   SeeAlso:[Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   SeeAlso:[Sketcher Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainDistance/fr
@@ -16,20 +16,26 @@ La **Contrainte dimensionnelle** spécifie par une valeur la longueur d\'une lig
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
+
+
 ## Utilisation
 
 1.  Choisissez deux points ou une ligne ou un point et une ligne.
 2.  Lancez la commande de plusieurs manières :
     -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contrainte de dimension](Sketcher_ConstrainDistance/fr.md)**
     -   Utilisez les raccourcis clavier **K** puis **D**
-    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte de dimension** dans le menu supérieur.
+    -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte de dimension** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
 
+
+
 ### Suggestion
 
-Le cas échéant envisagez d\'utiliser de préférence les fonctions de contrainte **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Distance verticale](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que la **contrainte dimensionnelle**.
+Le cas échéant envisagez d\'utiliser de préférence les fonctions de contrainte **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que la **contrainte dimensionnelle**.
+
+
 
 ## Script
 

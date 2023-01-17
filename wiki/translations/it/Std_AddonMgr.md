@@ -10,6 +10,8 @@
 
 # Std AddonMgr/it
 
+
+
 ## Descrizione
 
 
@@ -21,6 +23,8 @@ Il comando **Std AddonMgr** apre Addon manager. Con il gestore degli addon è po
 </div>
 
 Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or later. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+
+
 
 ## Utilizzo
 
@@ -36,6 +40,8 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 
 </div>
+
+
 
 ## Opzioni
 
@@ -60,6 +66,8 @@ The details page shows buttons allowing installing, uninstalling, updating, and 
 
 The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
 
+
+
 ## Note
 
 
@@ -73,9 +81,79 @@ The preferences for the Addon manager can be found in the [Preferences Editor](P
 
 </div>
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Informazioni per gli sviluppatori 
 
+
+</div>
+
 See [Addon](Addon#Information_for_developers.md).
+
+## Scripting
+
+
+<small>(v1.0)</small> 
+
+Some features of the Addon manager are designed for access via FreeCAD\'s Python API. In particular an addon can be installed, updated, and removed via the Python interface. Most uses of this API require you to create an object with at least three attributes: {{Incode|name}}, {{Incode|branch}} and {{Incode|url}}. For example:
+
+
+```python
+class MyAddonClass:
+    def __init__(self):
+        self.name = "TestAddon"
+        self.url = "https://github.com/Me/MyTestAddon"
+        self.branch = "main"
+my_addon = MyAddonClass()
+```
+
+Your object {{Incode|my_addon}} is now ready for use with the Addon manager API.
+
+### Commandline (non-GUI) use 
+
+If your code needs to install or update an addon synchronously (e.g. without a GUI) the code can be very simple:
+
+
+```python
+from addonmanager_installer import AddonInstaller
+installer = AddonInstaller(my_addon)
+installer.run()
+```
+
+Note that this code blocks until complete, so you shouldn\'t run it on the main GUI thread. To the Addon manager, \"install\" and \"update\" are the same call: if this addon is already installed, and git is available, it will be updated via \"git pull\". If it is not installed, or was installed via a non-git installation method, it is downloaded from scratch (using git if available).
+
+To uninstall, use:
+
+
+```python
+from addonmanager_uninstaller import AddonUninstaller
+uninstaller = AddonUninstaller(my_addon)
+uninstaller.run()
+```
+
+### GUI use 
+
+If you plan on your code running in a GUI, or supporting running in the full version of FreeCAD, it\'s best to run your installation in a separate non-GUI thread, so the GUI remains responsive. To do this, first check to see if the GUI is running, and if it is, spawn a {{Incode|QThread}} (don\'t try to spawn a {{Incode|QThread}} if the GUI is not up: they require an active event loop to function).
+
+
+```python
+from PySide import QtCore
+from addonmanager_installer import AddonInstaller
+
+worker_thread = QtCore.QThread()
+installer = AddonInstaller(my_addon)
+installer.moveToThread(worker_thread)
+installer.success.connect(installation_succeeded)
+installer.failure.connect(installation_failed)
+installer.finished.connect(worker_thread.quit)
+worker_thread.started.connect(installer.run)
+worker_thread.start() # Returns immediately
+```
+
+Then define the functions {{Incode|installation_succeeded}} and {{Incode|installation_failed}} to be run in each case. For uninstallation you can use the same technique, though it is usually much faster and will not block the GUI for very long, so in general it\'s safe to use the uninstaller directly, as shown above.
 
 
 <div class="mw-translate-fuzzy">

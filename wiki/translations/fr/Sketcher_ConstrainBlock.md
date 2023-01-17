@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainBlock
    Name/fr:Sketcher Contrainte de blocage
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de blocage
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de blocage
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **B**
    Version:0.17
@@ -15,7 +15,9 @@
 
 La **Contrainte de blocage** permet de bloquer un élément en place à l\'aide d\'une seule contrainte.
 
-Son usage principal est prévu pour les **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [courbes B-splines](Sketcher_CreateBSpline/fr.md)** qui peuvent être difficile à contraindre entièrement.
+Son usage principal est prévu pour les **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-splines](Sketcher_CreateBSpline/fr.md)** qui peuvent être difficile à contraindre entièrement.
+
+
 
 ## Utilisation
 
@@ -23,6 +25,8 @@ Son usage principal est prévu pour les **[<img src=images/Sketcher_CreateBSplin
 2.  Appuyer sur le bouton **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)**.
 
 Ou appuyez d\'abord sur le bouton, puis sélectionnez les éléments.
+
+
 
 ## Script
 

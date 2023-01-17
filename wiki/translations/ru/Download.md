@@ -78,7 +78,13 @@ FreeCAD активно развивается.
 
 ## Дополнительные модули и макросы 
 
+
+<div class="mw-translate-fuzzy">
+
 Сообщество FreeCAD предлагает множество различных модулей и макросов. Начиная с версии 0.17 они могут быть легко установлены напрямую из FreeCAD через [Менеджер дополнений](Std_AddonMgr/ru.md)<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
+
+
+</div>
 
 
 

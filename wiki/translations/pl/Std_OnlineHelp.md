@@ -10,23 +10,29 @@
 
 # Std OnlineHelp/pl
 
-## Description
 
-The **Std OnlineHelp** command opens the help documentation. To open the documentation for a specific command, use the [Std WhatsThis](Std_WhatsThis.md) command.
 
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
+## Opis
 
-## Usage
+Polecenie **Pomoc online** otwiera dokumentację pomocy. Aby otworzyć dokumentację konkretnego polecenia, użyj polecenia [Co to jest](Std_WhatsThis/pl.md).
 
-1.  If the Help Addon is not yet available you will be asked to install it via the [Addon Manager](Std_AddonMgr.md).
-2.  There are several ways to invoke the command:
-    -   Select the **Help → <img src="images/Std_OnlineHelp.svg" width=16px> Help** option from the menu.
-    -   Use the keyboard shortcut: **F1**.
-3.  The help documentation opens.
+W programie FreeCAD {{VersionPlus/pl|0.20}} polecenie to wymaga zainstalowania [dodatku Pomoc](https://github.com/FreeCAD/FreeCAD-Help).
 
-## Notes
 
--   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
+
+## Użycie
+
+1.  Jeśli dodatek Pomoc nie jest jeszcze dostępny, zostaniesz poproszony o jego zainstalowanie poprzez [Menadżer dodatkó](Std_AddonMgr.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Wybierz z menu opcję **Pomoc → <img src="images/Std_OnlineHelp.svg" width=16px> Pomoc**.
+    -   Użyj skrótu klawiaturowego: **F1**.
+3.  Otwiera się dokumentacja pomocy.
+
+
+
+## Uwagi
+
+-   Dodatek Pomoc posiada szereg preferencji. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Pomoc.md).
 
 
 

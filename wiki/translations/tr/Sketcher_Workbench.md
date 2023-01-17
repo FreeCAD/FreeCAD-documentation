@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Giriş
 
 
@@ -237,6 +239,8 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
+
+
 ### Eskiz Geometrileri 
 
 Bunlar nesne oluşturma araçlarıdır.
@@ -446,7 +450,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits a line or an arc into two, converts a circle into an arc while keeping most of the constraints. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -471,6 +475,8 @@ Bunlar nesne oluşturma araçlarıdır.
 
 
 </div>
+
+
 
 ### Eskiz kısıtlamaları 
 
@@ -659,6 +665,8 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
+
+
 ### Eskiz araçları 
 
 
@@ -809,6 +817,8 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
+
+
 ### Eskiz B-spline araçları 
 
 
@@ -865,6 +875,8 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Eskiz sanal alanı 
 
 
@@ -874,6 +886,8 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -916,6 +930,8 @@ Her CAD kullanıcısı zaman içinde kendi çalışma tarzını geliştirir, anc
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

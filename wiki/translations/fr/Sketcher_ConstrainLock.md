@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainLock
    Name/fr:Sketcher Contrainte fixe
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte fixe
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte fixe
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **L**
    SeeAlso:[Sketcher Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)
@@ -14,6 +14,8 @@
 
 La **Contrainte fixe** applique des contraintes **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** et **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md)** aux sommets (points) sélectionnés dans l\'esquisse. Si un seul sommet est sélectionné, les contraintes de distance horizontale et verticale se référeront au point d\'origine de l\'esquisse. Si deux points ou plus sont sélectionnés, des contraintes de distance horizontale et verticale seront ajoutées pour chaque paire de points. Il n\'y a pas d\'invite automatique pour modifier les valeurs des contraintes, elles doivent être modifiées manuellement.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs sommets (points) dans l\'esquisse.
@@ -21,6 +23,8 @@ La **Contrainte fixe** applique des contraintes **[<img src=images/Sketcher_Cons
 3.  Pour modifier les valeurs des contraintes, double-cliquez sur une valeur de contrainte dans la vue 3D, ou double-cliquez sur la contrainte ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la valeur** dans la liste des contraintes de l\'onglet Tâches.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable, mais il ne fonctionnera alors que sur un seul sommet et référencera les contraintes au point d\'origine de l\'esquisse. Par défaut, la commande sera en mode Continu pour créer de nouvelles contraintes. Appuyez une fois sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+
+
 
 ## Script
 

@@ -9,6 +9,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 사용자 허브 
@@ -32,6 +34,8 @@
 
 </div>
 
+
+
 ## 매뉴얼
 
 
@@ -42,6 +46,8 @@
 
 
 </div>
+
+
 
 ## 차례
 
@@ -58,7 +64,11 @@
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## 참여
+
+
 
 ### 참여 방법 
 
@@ -76,7 +86,15 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 [도움 FreeCAD](Special:MyLanguage/help_FreeCAD.md) 페이지는 더 자세히 설명합니다. 2016년부터, FreeCAD는 [Google Summer of Code에](Google_Summer_of_Code.md) 참여합니다. [Contributors hub](Contributors_hub/ko.md) 페이지는 FreeCAD 프로젝트를 돕고 기여할 수있는 방법을 모으기위한 또 다른 노력입니다.
+
+
+</div>
+
+
 
 ### 소스 코드 
 
@@ -87,6 +105,8 @@ FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 �
 
 
 </div>
+
+
 
 ### 개발에 대하여 
 

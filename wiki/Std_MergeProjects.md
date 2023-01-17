@@ -25,6 +25,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 -   A project cannot be merged with itself, selecting the current file is not allowed.
 -   FreeCAD will automatically change the internal names and, depending on the preferences, labels of objects to avoid name conflicts.
+-   To run the command in Python see this forum topic: <https://forum.freecadweb.org/viewtopic.php?t=2579>
 
 ## Preferences
 

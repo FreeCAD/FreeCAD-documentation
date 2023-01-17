@@ -43,8 +43,6 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Kaskadowo](Std_CascadeWindows/pl.md): Układa okna.
 
--   [Rozmieść ikony](Std_ArrangeIcons/pl.md): Przestarzały. Układa okna sąsiadująco.
-
 -   [Okna \...](Std_Windows/pl.md): Otwiera okno dialogowe, z którego można aktywować okno.
 
 

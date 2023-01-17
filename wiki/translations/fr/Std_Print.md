@@ -14,6 +14,8 @@
 
 La commande **Std Imprimer** est principalement destinée à imprimer des pages de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) mais peut également être utilisée pour imprimer ce qui est actuellement visible dans la [vue 3D](3D_view/fr.md).
 
+
+
 ## Utilisation
 
 1.  Si nécessaire, activez la bonne page TechDraw ou modifiez la vue 3D à votre convenance.
@@ -25,6 +27,12 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 ## Options
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+
+
+
+## Remarques
+
+-   Lorsque l\'on imprime le contenu de la vue 3D, il ne faut pas s\'attendre à un facteur d\'échelle particulier dans la sortie.
 
 
 

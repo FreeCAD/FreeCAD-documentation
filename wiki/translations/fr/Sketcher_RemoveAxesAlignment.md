@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher RemoveAxesAlignment
    Name/fr:Sketcher Supprimer l'alignement des axes
-   MenuLocation:Sketch → Outils d'esquisse → Supprimer l'alignement des axes
+   MenuLocation:Esquisse → Outils d'esquisse → Supprimer l'alignement des axes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **R**
    Version:0.20
@@ -13,6 +13,8 @@
 ## Description
 
 Cet outil supprime les alignements des axes (contraintes <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [horizontales](Sketcher_ConstrainHorizontal/fr.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [verticales](Sketcher_ConstrainVertical/fr.md)) des éléments sélectionnés en essayant de préserver la relation de contrainte.
+
+
 
 ## Utilisation
 

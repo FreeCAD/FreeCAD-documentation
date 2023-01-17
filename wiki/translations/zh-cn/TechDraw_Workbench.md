@@ -1,5 +1,7 @@
 # <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/zh-cn
 
+
+
 ## 简介
 
 <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw 工作台被用来从来自其他工作台](TechDraw_Workbench.md)（比如[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), 或 [Arch](Arch_Workbench.md)）创建的 或 从其他应用程序导入的3D模型生成基本的技术图纸。每张图纸是一页，可以包含可绘制对象(比如Part::Features, PartDesign::Bodies, App::Part groups 和文档对象组)的各种视图。得到的图纸可被用于诸如文档、制造说明、合同、许可等。
@@ -20,6 +22,8 @@ TechDraw 自从版本0.17就正式包含在FreeCAD中；他是被用来代替不
 {{TOCright}}
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
+
+
 
 ## 页面
 
@@ -131,7 +135,9 @@ Linear dimensions can be based on two points, on one line, or on two lines.
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Insert Balloon Annotation](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension - EXPERIMENTAL](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
 
 ## Annotations
 

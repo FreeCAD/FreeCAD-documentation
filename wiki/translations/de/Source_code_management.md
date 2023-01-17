@@ -1,22 +1,28 @@
 # Source code management/de
 {{TOCright}}
 
+
+
 ## Einführung
 
-Das Haupt Quellcode Verwaltungswerkzeug für das FreeCAD Projekt ist [Git](http://en.wikipedia.org/wiki/Git_%28software%29), das in den meisten Betriebssystemen einfach über einen Paketmanager oder direkt von der Website von [Git](https://git-scm.com/) installiert werden kann. Es wird empfohlen, sich mit Git vertraut zu machen, bevor du direkt mit dem FreeCAD Quellcode arbeitest. Besuche die Seite [Git Dokumentation](https://git-scm.com/doc) für das Referenzhandbuch sowie das [Pro Git Buch](https://git-scm.com/book/en/v2), um zu lernen, das System allgemein zu nutzen. Das vorliegende Dokument konzentriert sich auf die Verwendung von Git für die FreeCAD Entwicklung. Die Kompilierung von FreeCAD ist unter [Kompilieren](Compiling/de.md) beschrieben.
+Das Hauptwerkzeug zur Quellcodeverwaltung für das FreeCAD-Projekt ist [Git](http://en.wikipedia.org/wiki/Git_%28software%29), das in den meisten Betriebssystemen einfach über einen Paketmanager oder direkt von der Website von [Git](https://git-scm.com/) installiert werden kann. Es wird empfohlen, sich mit Git vertraut zu machen, bevor man direkt mit dem FreeCAD-Quellcode arbeitet. Auf der Seite [Git Dokumentation](https://git-scm.com/doc) findet man das Referenzhandbuch sowie das [Pro Git Book](https://git-scm.com/book/en/v2) (beide engl.), um zu lernen, wie das System im Allgemeinen genutzt wird. Das vorliegende Dokument konzentriert sich auf die Verwendung von Git für die FreeCAD-Entwicklung. Die Zusammenstellung von FreeCAD ist unter [Kompilieren](Compiling/de.md) beschrieben.
 
-Während Git in erster Linie eine Terminalanwendung ist, gibt es viele grafische Anwendungen, die die Arbeit mit Zweigen, das Anwenden von Patches und das Senden von Pull Anfragen an einen Master Zweig erleichtern. Beispiele sind [gitk](https://git-scm.com/docs/gitk) (die erste entwickelte grafische Benutzeroberfläche),[gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome),[qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) und [GitKraken](https://www.gitkraken.com/) (proprietär). Eine kurze Einführung in dieses Werkzeug findest Du unter [Entwicklung von FreeCAD mit GitKraken](Developing_FreeCAD_with_GitKraken/de.md).
+Während Git in erster Linie eine Terminalanwendung ist, gibt es viele grafische Anwendungen, die die Arbeit mit Zweigen, das Anwenden von Patches und das Senden von Pull-Anfragen an einen Master-Zweig erleichtern. Beispiele sind [gitk](https://git-scm.com/docs/gitk) (die erste entwickelte grafische Benutzeroberfläche),[gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome),[qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) und [GitKraken](https://www.gitkraken.com/) (proprietär). Eine kurze Einführung in dieses Werkzeug findet man unter [Entwicklung von FreeCAD mit GitKraken](Developing_FreeCAD_with_GitKraken/de.md).
 
 Hinweis: Wenn dir davon schwindelig wird, gibt es eine sehr gute nicht-technische Serie über die Verwendung von Git und Github mit dem Titel \'[Git und Github für Dichter](https://youtu.be/BCQHnlnPusY)\'.
 
+
+
 ## Quellcodezugang
 
-Jeder kann auf den FreeCAD Quellcode zugreifen und eine Kopie davon bekommen, aber nur die FreeCAD Projektmanager haben Schreibzugriff darauf. Du kannst eine Kopie des Codes erhalten, ihn studieren und nach Belieben ändern, aber wenn du möchtest, dass deine Änderungen in den offiziellen Quellcode aufgenommen werden, musst du eine \"Pull Anfrage\" gegen das Haupt Repositorium durchführen, damit deine Änderungen von den Verwaltern überprüft werden können. Diese Art der Entwicklung ist bekannt als der [Dictator and Lieutenants Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows), da die Kern Entwickler (Diktatoren) und betrauten Entwickler (Leutnante) den Code filtern, der von unabhängigen Entwicklern und Benutzern eingereicht wird.
+Jeder kann auf den FreeCAD-Quellcode zugreifen und eine Kopie davon bekommen, aber nur die FreeCAD-Projektmanager haben Schreibzugriff darauf. Du kannst eine Kopie des Codes erhalten, ihn studieren und nach Belieben ändern, aber wenn du möchtest, dass deine Änderungen in den offiziellen Quellcode aufgenommen werden, musst du eine \"Pull-Anfrage\" gegen das Haupt-Repositorium durchführen, damit deine Änderungen von den Verwaltern überprüft werden können. Diese Art der Entwicklung ist bekannt als der [Dictator and Lieutenants Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows), da die Kern-Entwickler (Diktatoren) und betrauten Entwickler (Leutnante) den Code filtern, der von unabhängigen Entwicklern und Benutzern eingereicht wird.
 
-Wenn deine Quellcode Änderungen signifikant sind, empfehlen wir dir, sie im Pull Request Abschnitt des [FreeCAD-Forum](http://forum.freecadweb.org/viewforum.php?f=17) zu erklären.
+Wenn deine Quellcode-Änderungen signifikant sind, empfehlen wir dir, sie im Pull-Request Abschnitt des [FreeCAD-Forum](http://forum.freecadweb.org/viewforum.php?f=17) zu erklären.
 
 <img alt="" src=images/FreeCAD_git_workflow.svg  style="width:600px;"> 
-*Typischer Arbeitsablauf zur Entwicklung von Code für FreeCAD; jeder kann den Code aus dem Haupt Repositorium beziehen, aber die Hauptentwickler haben das exklusive Recht, Eingaben anderer Entwickler zu überprüfen und zusammenzuführen.*
+*Typischer Arbeitsablauf zur Entwicklung von Code für FreeCAD; jeder kann den Code aus dem Haupt-Repositorium beziehen, aber die Hauptentwickler haben das exklusive Recht, Eingaben anderer Entwickler zu überprüfen und zusammenzuführen.*
+
+
 
 ### Offizieller GitHub-Ablageordner (Repository) 
 
@@ -24,7 +30,7 @@ Der FreeCAD-Quellcode wird in Github bereitgestellt, {{URL|https://github.com/Fr
 
 Um Code beitragen zu können, wird ein [GitHub-Konto](https://github.com/join) benötigt.
 
-In der Vergangenheit wurde der Quellcode in einem SVN Repositorium bereitgestellt, {{URL|https://free-cad.svn.sourceforge.net/svnroot/free-cad}}. Dieser wurde am 10. Oktober 2011 mit [commit 120ca87015](https://github.com/FreeCAD/FreeCAD/commit/120ca87015) nach GitHub verschoben.
+In der Vergangenheit wurde der Quellcode in einem SVN-Repositorium bereitgestellt, {{URL|https://free-cad.svn.sourceforge.net/svnroot/free-cad}}. Dieser wurde am 10. Oktober 2011 mit [commit 120ca87015](https://github.com/FreeCAD/FreeCAD/commit/120ca87015) nach GitHub verschoben.
 
 :   Daher gibt es viele Änderungen, die vor dieser Zeit vorgenommen wurden, die nicht in der modernen Git-Commit-Geschichte aufgezeichnet sind. Lies mehr dazu auf der Seite [Geschichte](History/de.md).
 
@@ -38,7 +44,9 @@ git config user.name "YOUR_NAME"
 git config user.email GITHUB_USERNAME@users.noreply.github.com
 }}
 
-Wobei `"YOUR_NAME"` deinen vollständigen Namen oder Spitznamen darstellt, der zur Identifizierung des Autors eines bestimmten Einsatzes verwendet wird, und `GITHUB_USERNAME` den Namen deines Accounts auf GitHub angibt.
+Wobei `"YOUR_NAME"` deinen vollständigen Namen oder Spitznamen darstellt, der zur Identifizierung des Autors eines bestimmten Beitrags verwendet wird, und `GITHUB_USERNAME` den Namen deines Accounts auf GitHub angibt.
+
+
 
 ### Ferne Projektarchive (Remote repositories) 
 
@@ -59,6 +67,8 @@ Wir empfehlen die 1. Methode, weil sie einen Schritt schneller ist.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### 1. Methode: Auf GitHub verzweigen und den eigenen Zweig lokal klonen 
 
@@ -105,6 +115,8 @@ upstream    https://github.com/FreeCAD/FreeCAD.git (push)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### 2. Methode: FreeCAD direkt auf den eigenen lokalen Rechner klonen 
 
@@ -173,6 +185,8 @@ git remote show origin
 git remote show upstream
 }}
 
+
+
 ## Git-Entwicklungsprozess 
 
 
@@ -180,6 +194,8 @@ git remote show upstream
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> 
 *Generischer Arbeitsablauf zur Entwicklung von Code für FreeCAD unter Verwendung von `git*; das Haupt Repositorium wird online gespalten und auf einen Offline Rechner geklont (0); neue Zweige (1) werden verwendet, um lokale Änderungen und Ergänzungen des Codes zu übergeben (2); die Zweige werden auf den neuesten Online Code zurückgeführt (3), und dann zum entfernten Repositorium geschoben (4); dann wird eine Pull Anfrage erstellt, um den Code in das Haupt Repositorium einzufügen (5). Dann wird der persönliche Klon mit dem neuen Mastercode aktualisiert (a); dieser aktualisierte Mastercode wird ebenfalls an das Fernrepositorium (b) geschickt, um denselben Code sowohl online als auch offline zu haben.`
+
+
 
 ### Verzweigung
 
@@ -215,6 +231,8 @@ Nachdem du Änderungen vorgenommen und diese Änderungen übertragen hast, verwe
 git log --oneline --decorate --graph --all
 }}
 
+
+
 ### Übergeben
 
 Sobald du dich in einem neuen Zweig befindest, bearbeite die gewünschten Quelldateien mit einem Texteditor. Um zu sehen, welche Dateien geändert wurden, verwende die Operationen `status` und `diff`; wenn du mit den Änderungen zufrieden bist, speichere die Änderungen mit der Operation `commit`:
@@ -244,6 +262,8 @@ git commit -a
 }}
 
 Wobei `path` eine beliebige Datei oder ein beliebiges Verzeichnis sein kann.
+
+
 
 ### Gute Übergabemitteilungen schreiben 
 
@@ -492,6 +512,8 @@ base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repositor
 base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
 }}
 
+
+
 ### Das GitHub Repositorium auf dem neuesten Stand halten 
 
 Once you\'ve forked FreeCAD, your personal repository exists independently from the original. When the original repository has new commits, GitHub will inform you that your personal repository is behind in number of commits:
@@ -582,11 +604,17 @@ git push -f origin myNewBranch
 
 Hard resetting a branch like this is usually not needed. In most cases, you want to follow the sequence of creating a new branch, committing changes, pushing those changes, merging the branch, and then deleting the branch.
 
+
+
 ## Erweiterte Git Operationen 
+
+
 
 ### Suchen
 
 Some handy tools to help you find what you\'re looking for:
+
+
 
 #### Dateinamen suchen 
 
@@ -597,6 +625,8 @@ Use `git ls-files` to search the repository for file that contains a certain str
 git ls-files *dxf*
 }}
 
+
+
 #### Suche nach einer Zeichenkette 
 
 Use `git grep` to search the repository for file that contains a certain string with the files themselves. The example below will return all instances of the files that contain the \'dxf\' within each and every file.
@@ -605,6 +635,8 @@ Use `git grep` to search the repository for file that contains a certain string 
 {{Code|lang=text|code=
 git grep dxf
 }}
+
+
 
 ### Auflösen von Zusammenführungskonflikten 
 
@@ -641,6 +673,8 @@ For more information on merging and solving conflicts see:
 -   [Resolving a merge conflict using the command line](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
 -   [External merge and diff tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools) to use when you encounter a Git conflict.
 
+
+
 ### Änderungen untersuchen 
 
 Inspect the history of a single file through various commits with the `log` operation:
@@ -651,6 +685,8 @@ git log --patch path
 }}
 
 Where `path` can be any directory or file. Instead of `--patch`, also the shorthands `-p` or `-u` can be used.
+
+
 
 ### Änderungen zwischen zwei Zweigen untersuchen 
 
@@ -663,6 +699,8 @@ git diff master..myBranch
 }}
 
 The `log` operation shows the commits, while `diff` shows the actual changes in the files.
+
+
 
 ### Dateien und Verzeichnisse zurücksetzen 
 
@@ -699,6 +737,8 @@ Where `FETCH_HEAD` is the the tip of the `upstream` repository. Another commit c
 
 The `revert` operation also reverts changes. However, this command does this by adding another commit to the history; in many cases this is not desired.
 
+
+
 ### Beschneiden alter Zweige 
 
 If you have committed many branches to the `upstream` repository, you may wish to remove these branches from your local system as they have already been merged. The branch in the `origin` repository online can be deleted immediately after merging. Then you can remove the local references to that branch, using the `--prune` or `prune` options to the `fetch` and `remote` operations.
@@ -723,9 +763,13 @@ It is also a good practice to do garbage collection after a while, by using the 
 git gc
 }}
 
+
+
 ### Arbeiten mit Patches 
 
 Obwohl Git Ihnen dir erlaubt, verschiedene Code Zweige mit `git merge` zusammenzuführen (in deinem Computer) oder einer Pull Anfrage (Fernrepositorium) gibt es Zeiten, in denen es wünschenswert sein kann, einen traditionellen \"Patch\" zu erstellen, der als Anhang per Email verschickt werden kann. Der folgende Arbeitsablauf erklärt, wie dies zu tun ist.
+
+
 
 #### Patches erstellen 
 
@@ -773,6 +817,8 @@ where `XXXX` is a number from `0000` to `9999`, and the commit message forms the
 0001-fix-ViewProjMatrix-getProjectionMatrix.patch
 }}
 
+
+
 #### Patches anwenden 
 
 Git can merge patches or diffs. To know more about this process read [Applying patches with Git](https://www.drupal.org/node/1399218).
@@ -801,6 +847,8 @@ Add `.diff` or `.patch` at the end of the URL of a GitHub commit, pull request, 
 You can point `curl` to a particular commit patch in the repository, and pipe it directly to `git` to apply the patch.
 
     curl https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch | git apply -
+
+
 
 #### Einen Patch rückgängig machen 
 
@@ -851,6 +899,8 @@ git stash list
 }}
 
 To learn more, read [Useful tricks you might not know about Git stash](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
+
+
 
 ### GitHub Anfragen lokal herausfinden 
 
@@ -915,6 +965,8 @@ git bisect reset
 
 Note: `git bisect` takes a long time if good and bad are far apart.
 
+
+
 ## FreeCAD Revisionsnummer 
 
 In contrast to subversion, which uses a consecutive number for its revisions, Git produces [SHA-1 hash values](https://en.wikipedia.org/wiki/SHA-1) with every commit. A hash value is a long alphanumeric string that looks like this
@@ -923,6 +975,8 @@ In contrast to subversion, which uses a consecutive number for its revisions, Gi
 {{Code|lang=text|code=
 9b3ffef570596e184006287434fba54a4b03ccc3
 }}
+
+
 
 ### Letzte Revisionsnummer 
 
@@ -937,6 +991,8 @@ git rev-list --count origin
 
 Or browse [the repository on GitHub](https://github.com/FreeCAD/FreeCAD), and read the amount of commits reported in the particular branch.
 
+
+
 ### Revisionsnummer eines bestimmten Commit Hashes 
 
 Since the hash is an alphanumeric string it is not very useful to decide if a certain commit is older or newer than another hash. To find the revision number of a particular hash, again use the `rev-list` operation; the input can be the full hash, or a partial hash that is unique, usually the first 7 digits are enough.
@@ -946,6 +1002,8 @@ Since the hash is an alphanumeric string it is not very useful to decide if a ce
 git rev-list --count ab1520b872821414c6ce4a15fb85d471ac2a2b03
 git rev-list --count 9948ee4
 }}
+
+
 
 ### Revisions Hash einer bestimmten Commit Nummer 
 
@@ -985,9 +1043,13 @@ git rev-list --count 44c2f19e38
 -   [Finding the revision number of the commit](https://forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203)
 -   [Finding the corresponding hash value to a particular commit number](https://forum.freecadweb.org/viewtopic.php?f=10&t=31118)
 
+
+
 ### Revisionsnummer in der FreeCAD Oberfläche 
 
 Die Versionsnummer, die mit dem [Std Über](Std_About/de.md) Werkzeug angezeigt wird, ist in `src/Build/Version.h` definiert, was zur Kompilierzeit erstellt wird, wenn das Werkzeug `cmake` ausgeführt wird. Lies [Versionsnummer aus der Git Quelle extrahieren](https://forum.freecadweb.org/viewtopic.php?f=4&t=3025) für weitere Informationen.
+
+
 
 ## Hinzufügen weiterer (Fern) Repositorien 
 
@@ -1055,6 +1117,8 @@ git pull --rebase upstream master
 Der neue Zweig ist bereit, modifiziert und kompiliert zu werden, wie in [Kompilieren](Compiling/de.md) beschrieben.
 
 Besuche die Entwicklungsabteilung des [FreeCAD Forum](https://forum.freecadweb.org/viewforum.php?f=6)s, um mehr über die Entwicklung zu erfahren.
+
+
 
 ## Weiterführende Literatur 
 

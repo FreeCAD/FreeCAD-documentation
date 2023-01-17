@@ -59,7 +59,7 @@ FreeCAD jest aktywnie rozwijany.
 
 ## Dodatkowe moduły i makra 
 
-Społeczność FreeCAD dostarcza wiele dodatkowych modułów i makr. Od wersji *0.17* można je łatwo zainstalować z poziomu FreeCAD za pomocą narzędzia [menadżer dodatków](Std_AddonMgr/pl.md)<img alt="" src=images/Std_AddonMgr.svg  style="width:22px;">.
+Społeczność FreeCAD dostarcza wiele dodatkowych modułów i makr. Od wersji *0.17* można je łatwo zainstalować z poziomu FreeCAD za pomocą narzędzia <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
 
 
 

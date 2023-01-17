@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/de
    Name:Draft Edit
-   Name/de:Entwurf Bearbeiten
-   MenuLocation:Änderung → Bearbeiten<br>Hilfsprogramme → Bearbeiten
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft Bearbeiten
+   MenuLocation:Modification → Bearbeiten
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**D** **E**
    SeeAlso:[Std Bearbeiten](Std_Edit/de.md)
 ---
@@ -11,32 +11,33 @@
 # Draft Edit/de
 
 
-</div>
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> **Entwurf Bearbeiten** Befehl versetzt ausgewählte Objekte in den Entwurf bearbeiten Modus. In diesem Modus können die Eigenschaften von Objekten grafisch bearbeitet werden. Typischerweise können Knoten verschoben werden und in einigen Fällen können Kontextmenüoptionen ausgewählt werden. Der Befehl kann die meisten Entwurfsobjekte, aber auch einige andere Objekte bearbeiten. Siehe [Unterstützte Objekte](#Unterstützte_Objekte.md). Unterstützte Entwurfsobjekte können auch mit dem Befehl [Std Berabeiten](Std_Edit/de.md) in den Entwurf Bearbeitungsmodus versetzt werden.
+Der Befehl <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> **Bearbeiten** versetzt ausgewählte Objekte in den Draft-Modus Bearbeiten. In diesem Modus können die Eigenschaften von Objekten grafisch bearbeitet werden. Typischerweise können Knoten verschoben werden und in einigen Fällen können Optionen im Kontextmenü ausgewählt werden. Der Befehl kann die meisten Draft-Objekte, aber auch einige andere Objekte bearbeiten. Siehe [Unterstützte Objekte](#Unterstützte_Objekte.md). Unterstützte Draft-Objekte können auch mit dem Befehl [Std Berabeiten](Std_Edit/de.md) in den Draft-Modus Bearbeiten versetzt werden.
 
 ![](images/Draft_Edit_example.png ) 
-*4 Objekte im Entwurfsbearbeitungsmodus: ein Entwurf Draht (rot), ein Entwurf Bogen (schwarz), ein Entwurf BSpline (grün) und ein Entwurf BezKurve (magenta)*
+*4 Objekte im Draft-Modus Bearbeiten: ein Draft-Draht (rot), ein Draft-Bogen (schwarz), ein Draft-BSpline (grün) und ein Draft-BezKurve (magenta)*
+
+
 
 ## Anwendung
 
-Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle optional ein oder mehrere Objekte aus. Beachte, dass sich zwar mehrere Objekte im Entwurf Bearbeitungsmodus befinden können, aber immer nur ein Objekt auf einmal bearbeitet werden kann.
+1.  Wahlweise ein oder mehrere Objekte auswählen. Es ist zu beachte, dass sich zwar mehrere Objekte im Draft-Modus Bearbeiten befinden können, aber immer nur ein Objekt zu Zeit bearbeitet werden kann.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wenn du noch kein Objekt ausgewählt hast: Doppelklicke auf ein Objekt in der [Baumansicht](Tree_view/de.md). Dies funktioniert nur bei unterstützten Entwurfsobjekten.
-    -   Drücke die **<img src="images/Draft_Edit.svg" width=16px> [Entwurf Bearbeiten](Draft_Edit/de.md)** Schaltfläche.
-    -   Wähle die Option **Änderung → <img src="images/Draft_Edit.svg" width=16px> Bearbeiten** aus dem Menü.
-    -   Wähle die Option **Hilfsprogramme → <img src="images/Draft_Edit.svg" width=16px> Bearbeiten** aus dem Menü.
-    -   Verwende die Tastaturkürzel: **D** und dann **E**.
-3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md) aus.
-4.  Die ausgewählten Objekte werden mit temporären Knoten markiert, und das [Hauptaufgabenfeld](#Haupt_Aufgabenfeld.md) öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
-5.  Verwende optional ein Knoten- oder Kantenkontextmenü. Diese Kontextmenüs sind nur für einige Entwurfsobjekte verfügbar. Weitere Informationen findest du unter [Unterstützte Objekte](#Unterstützte_Objekte.md).
+    -   Wenn noch kein Objekt ausgewählt wurde: Ein Doppelklick auf ein Objekt in der [Baumansicht](Tree_view/de.md). Dies funktioniert nur bei unterstützten Draft-Objekten.
+    -   Die Schaltfläche **<img src="images/Draft_Edit.svg" width=16px> [Bearbeiten](Draft_Edit/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Edit.svg" width=16px> Bearbeiten** auswählen.
+    -   Das Tastaturkürzel: **D** und dann **E**.
+    -   Für ein einzelnes Objekt: Den Eintrag **Edit** im MKontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Dies funktioniert nur mit unterstützten Draft-Objekten. {{Version/de|1.0}}
+3.  Wenn noch kein Objekt ausgewählt wurde: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Die ausgewählten Objekte werden mit temporären Knoten markiert, und der [Haupt-Aufgabenbereich](#Haupt_Aufgabenfeld.md) wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+
+Bearbeitung fortsetzen!
+
+1.  Verwende optional ein Knoten- oder Kantenkontextmenü. Diese Kontextmenüs sind nur für einige Entwurfsobjekte verfügbar. Weitere Informationen findest du unter [Unterstützte Objekte](#Unterstützte_Objekte.md).
     -   Führe einen der folgenden Schritte aus:
         -   Auf allen Betriebssystemen: Halte **E** gedrückt und klicke auf den Knoten oder die Kante. Um **E** zu verwenden, musst du eventuell einmal in die [3D Ansicht](3D_view/de.md) klicken, um sicherzustellen, dass diese den Fokus hat.
         -   Unter Windows: Halte **Alt** gedrückt und klicke auf den Knoten oder die Kante.
@@ -46,7 +47,7 @@ Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Co
     -   Wenn die ausgewählte Option eine Punkteingabe erfordert:
         -   Das [Knoten Aufgabenpaneel](#Knoten_Aufgabenpaneel.md) wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
         -   Greife einen Punkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
-6.  Optional Verschiebe einen Knoten:
+2.  Optional Verschiebe einen Knoten:
     -   Klicke den Knoten in der [3D Ansicht](3D_view/de.md) an.
     -   Das [Knoten Aufgabenpaneel](#Knoten_Aufgabenpaneel.md) öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
     -   Greife einen Punkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
@@ -54,11 +55,12 @@ Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Co
     -   Drücke **Esc** oder die **Schliessen** Schaltfläche, um den Befehl zu beenden.
 
 
-</div>
 
 ## Optionen
 
 Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md).
+
+
 
 ### Hauptaufgabenpaneel
 
@@ -70,6 +72,8 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +98,11 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 </div>
 
+
+
 ## Unterstützte Objekte 
+
+
 
 ### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Entwurf Linie](Draft_Line/de.md) und <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Entwurf Draht](Draft_Wire/de.md) 
 
@@ -107,6 +115,8 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 
 </div>
+
+
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Entwurf Bogen](Draft_Arc/de.md) und <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md) 
 
@@ -122,21 +132,31 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 </div>
 
+
+
 ### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Entwurf Kreis](Draft_Circle/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
+
+
 
 ### <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> [Entwurf Ellipse](Draft_Ellipse/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
+
+
 ### <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Entwurf Rechteck](Draft_Rectangle/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
+
+
 ### <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> [Entwurf Polygon](Draft_Polygon/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
+
+
 
 ### <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Entwurf BSpline](Draft_BSpline/de.md) 
 
@@ -150,6 +170,8 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 </div>
 
+
+
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) und <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Entwurf BezKurve](Draft_BezCurve/de.md) 
 
 
@@ -162,11 +184,15 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 </div>
 
+
+
 ### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Entwurf Bemaßen](Draft_Dimension/de.md) 
 
 -   Winkelbemaßungen können nicht bearbeitet werden.
 -   Die Start- und Endknoten von parametrischen Bemaßungen können nicht verschoben werden.
 -   Keine Kontextmenüs für dieses Objekt.
+
+
 
 ### <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Architektur Wand](Arch_Wall/es.md) 
 
@@ -213,6 +239,8 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Keine Kontextmenüs für dieses Objekt.
 
+
+
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizzierer Skizze](Sketcher_NewSketch/de.md) 
 
 
@@ -224,11 +252,15 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 </div>
 
+
+
 ## Einstellungen
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
 -   Die Farbe der temporären Knoten ist dieselbe wie die Farbe der Fangsymbole. Diese Farbe kann in den Voreinstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Entwurf → Visuelle Einstellungen → Visuelle Einstellungen → Farbe**. Beachte, dass diese Farbe nicht für die temporären Knoten verwendet wird, die für [Entwurf BezKurven](Draft_BezCurve/de.md) angezeigt werden. Diese Knoten verwenden stattdessen die **Linienfarbe** der Kurve.
+
+
 
 ## Skripten
 

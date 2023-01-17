@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -28,6 +30,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
     -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Draft Edit](Draft_Edit.md)** button.
     -   Select the **Modification → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
     -   Use the keyboard shortcut: **D** then **E**.
+    -   For a single object: select the **Edit** option from the [Tree view](Tree_view.md) context menu. This only works for supported Draft objects. <small>(v1.0)</small> 
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The selected objects are marked with temporary nodes, and the [Main task panel](#Main_task_panel.md) opens. See [Options](#Options.md) for more information.
 5.  Optionally use a node or edge context menu. These context menus are only available for some Draft objects. See [Supported objects](#Supported_objects.md) for more information.
@@ -46,6 +49,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
     -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
     -   The result depends on the object and the selected node.
 7.  Press **Esc** or the **Close** button (the button at the top of the task panel, without the image) to finish the command.
+
+
 
 ## Volby
 

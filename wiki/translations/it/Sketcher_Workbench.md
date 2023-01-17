@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\'[Ambiente Sketcher](Sketcher_Workbench/it.md) <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> di FreeCAD serve a creare delle geometrie 2D destinate ad essere utilizzate negli ambienti <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) o altri ambienti. In genere, un disegno 2D è il punto di partenza per la maggior parte dei modelli CAD. Un semplice schizzo 2D può essere \"estruso\" per creare una forma 3D; successivamente degli schizzi 2D possono essere usati per creare altre funzioni quali tasche, o estrusioni sulla superficie dell\'oggetto 3D precedentemente costruito. Insieme alle operazioni booleane definite nell\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente Part](Part_Workbench/it.md), lo Sketcher costituisce la base del metodo [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG) per la costruzione di solidi. Inoltre, insieme alle operazioni dell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md), lo Sketcher costituisce anche la base della metodologia per la creazione di solidi nota come [Editazione delle funzioni](feature_editing/it.md).
@@ -13,18 +15,26 @@ Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Uno schizzo base, completamente vincolato‎.*
 
+
+
 ## Nozioni di base sugli schizzi vincolati 
 
 Per spiegare come funziona il modulo Sketcher, è utile fare un confronto con il **modo tradizionale** di disegnare.
+
+
 
 ##### Disegno tradizionale 
 
 Il modo tradizionale di disegno CAD è derivato dal vecchio [tavolo da disegno](http://en.wikipedia.org/wiki/Drawing_board).
 [Le viste ortogonali 2D](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) sono disegnate manualmente e finalizzate alla produzione di disegni tecnici (noti anche come dettagli o particolari). Gli oggetti sono disegnati esattamente con le loro forme, misure o dimensioni previste. Per tracciare una linea orizzontale lunga 100 mm a partire dal punto (0,0), si attiva lo strumento linea, si fa clic sullo schermo o si inserisce le coordinate (0,0) per il primo punto, poi si fa un secondo clic o si inserisce il secondo punto di coordinate (100,0). Oppure, si costruisce una linea base senza riguardo alla sua posizione e in seguito la si sposta. Dopo aver disegnato le geometrie si aggiungono le dimensioni.
 
+
+
 #### Schizzo vincolato 
 
 Lo strumento Sketcher si allontana da questa logica. Non è più necessario disegnare gli oggetti esattamente come sono desiderati, perché è possibile ridefinirli in seguito tramite i vincoli. È possibile disegnare liberamente gli oggetti e dopo, fintanto che non vengono vincolati, modificarli. Sostanzialmente, essi sono **flottanti**, quindi si possono spostare, allungare, scalare, e così via. Questo permette una grande flessibilità nel processo di progettazione.
+
+
 
 #### Cosa sono i vincoli? 
 
@@ -36,11 +46,15 @@ Più oggetti possono essere vincolati tra di loro. Due linee possono essere unit
 
 Ci sono due tipi di vincoli: geometrici e dimensionali. Essi sono descritti nella successiva sezione dedicata agli [\'Strumenti\'](#Strumenti.md).
 
+
+
 #### Per che cosa l\'Ambiente Sketcher non va bene 
 
 Il modulo Sketcher non è pensato per produrre disegni dettagliati in 2D. Dopo che gli schizzi sono stati utilizzati per generare una forma solida vengono automaticamente nascosti. I vincoli (la quotatura dei vincoli e i segni grafici di vincolo) sono visibili solo in modalità **Modifica sketch**.
 
 Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei modelli 3D, si può utilizzare l\'ambiente [Draft](Draft_Workbench/it.md). A differenza degli elementi di Sketcher, gli oggetti di Draft non usano i vincoli, ma sono forme semplici definite al momento della creazione. Sia Draft che Sketcher possono essere utilizzati per il disegno di geometrie 2D e la creazione di solidi 3D, sebbene il loro uso previsto sia diverso. Sketcher viene normalmente utilizzato insieme agli Ambienti [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md) per creare solidi; Draft viene normalmente utilizzato per semplici disegni planari su una griglia, come quando si disegna una pianta architettonica, quindi Draft viene utilizzato principalmente con [Arch](Arch_Workbench/it.md). Lo strumento [Da Draft a Schizzo](Draft_Draft2Sketch/it.md) converte un oggetto Draft in un oggetto Sketch e viceversa. Molti strumenti che richiedono un elemento 2D come input funzionano con entrambi i tipi di oggetto poiché viene eseguita automaticamente una conversione interna.
+
+
 
 ## Flusso di lavoro per gli schizzi 
 
@@ -52,9 +66,13 @@ All\'interno dell\'area racchiusa si possono avere delle piccole aree non sovrap
 
 Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventano verdi. La geometria di costruzione rimane blu. Di solito a questo punto lo schizzo è \"finito\" e adatto per l\'uso nella creazione di un solido 3D. Tuttavia, una volta chiusa la finestra di dialogo Schizzo, può essere utile andare in <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Ambiente Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Controlla la geometria](Part_CheckGeometry/it.md) per assicurarsi che nello schizzo non ci siano funzioni che possono causare problemi successivi.
 
+
+
 ## Strumenti
 
 Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si carica questo ambiente.
+
+
 
 ### Generale
 
@@ -79,6 +97,8 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si c
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎‎‎  style="width:32px;"> [Rifletti schizzo](Sketcher_MirrorSketch/it.md): Riflette uno schizzo rispetto all\'asse verticale, o all\'asse orizzontale e all\'origine.
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Ferma operazione](Sketcher_StopOperation/it.md): Quando è in modalità di modifica, ferma l\'operazione corrente, sia che si tratti di disegnare, impostare vincoli, ecc.
+
+
 
 ### Geometrie
 
@@ -156,7 +176,13 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Estendi](Sketcher_Extend/it.md): Estende una linea o un arco fino ad una linea di un bordo, arco, ellisse, arco di ellisse o un punto nello spazio.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividi](Sketcher_Split/it.md): Divide una linea o un arco in due, converte un cerchio in un arco mantenendo la maggior parte dei vincoli. <small>(v0.20)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria esterna](Sketcher_External/it.md): Crea un segmento collegato a una geometria esterna.
 
@@ -164,9 +190,13 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Attiva/disattiva la geometria di costruzione](Sketcher_ToggleConstruction.md): Attiva o disattiva la geometria dello schizzo dalla o nella modalità di costruzione. La geometria di costruzione è mostrata in blu e viene presa in considerazione solo nella modalità di modifica dello schizzo.
 
+
+
 ### Vincoli dello Schizzo 
 
 I vincoli sono utilizzati per stabilire le relazioni tra gli elementi del disegno, e per bloccare il disegno lungo l\'asse verticale e l\'asse orizzontale. Alcuni vincoli richiedono dei [Vincoli di supporto](Sketcher_helper_constraint/it.md).
+
+
 
 #### Vincoli geometrici 
 
@@ -194,6 +224,8 @@ Funge da vincolo concentrico se sono selezionati due o più cerchi, archi, ellis
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Fissa](Sketcher_ConstrainBlock/it.md): blocca il movimento di un bordo, ovvero impedisce ai suoi vertici di cambiare la loro posizione corrente. Dovrebbe essere particolarmente utile per fissare la posizione delle B-Splines. Vedere la [discussione su Block Constraint nel forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+
+
 #### Vincoli dimensionali 
 
 Questi vincoli sono associati a dati numerici, per i quali vincoli si possono usare le [espressioni](Expressions/it.md). I dati possono essere prelevati da un [foglio di calcolo](Spreadsheet_Workbench/it.md).
@@ -216,11 +248,15 @@ Questi vincoli sono associati a dati numerici, per i quali vincoli si possono us
 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angolo](Sketcher_ConstrainAngle/it.md): definisce l\'angolo interno tra due linee selezionate.
 
+
+
 #### Vincoli speciali 
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Rifrazione](Sketcher_ConstrainSnellsLaw/it.md): Crea un vincolo di rifrazione tra due linee per simulare secondo la Legge di Snell un raggio di luce che attraversa un\'interfaccia.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Allineamento interno](Sketcher_ConstrainInternalAlignment/it.md): Allinea gli elementi selezionati alla forma selezionata, ad esempio una linea da convertire in asse maggiore di una ellisse.
+
+
 
 #### Strumenti per i vincoli 
 
@@ -229,6 +265,8 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Commuta vincoli](Sketcher_ToggleDrivingConstraint/it.md): Commuta una serie di vincoli, quelli associati a un valore numerico, da decisivi a indicatori e viceversa.
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Attiva/disattiva il vincolo](Sketcher_ToggleActiveConstraint/it.md): Abilita o disabilita un vincolo già inserito. {{Version/it|0.19}}
+
+
 
 ### Strumenti dello Sketcher 
 
@@ -270,6 +308,8 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Elimina tutti i vincoli](Sketcher_DeleteAllConstraints/it.md): Elimina tutti i vincoli dallo schizzo.
 
+
+
 ### Strumenti Sketcher B-spline 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostra/nascondi i gradi della B-spline](Sketcher_BSplineDegree/it.md)
@@ -296,13 +336,19 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Spazio virtuale dello Sketcher 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg‎  style="width:32px;"> [Cambia spazio virtuale](Sketcher_SwitchVirtualSpace/it.md): Permette di nascondere i vincoli e renderli nuovamente visibili.
 
+
+
 ## Preferenze
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences\...](Sketcher_Preferences/it.md): Preferenze disponibili per l\'ambiente Sketcher.
+
+
 
 ## Migliori Pratiche 
 
@@ -317,12 +363,16 @@ Ogni utente CAD, nel corso del tempo, sviluppa un proprio modo di lavorare, ma c
 -   In generale, i vincoli migliori da utilizzare sono: Orizzontale e Verticale, Lunghezza Orizzontale e Verticale, Tangente nel punto. Se possibile, limitare l\'uso di questi vincoli: Lunghezza generica, Tangenza Edge-to-edge, Punto su linea; Simmetria.
 -   In caso di dubbi sulla validità di uno schizzo una volta completato (le funzioni diventano verdi), chiudere la finestra di dialogo di Sketcher, passare a <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Controlla la geometria](Part_CheckGeometry/it.md).
 
+
+
 ## Tutorial
 
 -   [Sketcher tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104) by chrisb. Questo è un documento PDF lungo 70 pagine che funge da manuale dettagliato per lo sketcher. Spiega le basi dell\'utilizzo di Sketcher e approfondisce la creazione di forme geometriche e ciascuno dei vincoli.
 -   [Tutorial base di Sketcher](Basic_Sketcher_Tutorial/it.md) per principianti
 -   [Sketcher Micro Tutorial - Pratica con i vincoli](Sketcher_Micro_Tutorial_-_Constraint_Practices/it.md)
 -   [Requisiti di uno schizzo](Sketcher_requirement_for_a_sketch/it.md) Requisito minimo per uno schizzo e definizione completa di uno schizzo
+
+
 
 ## Script
 

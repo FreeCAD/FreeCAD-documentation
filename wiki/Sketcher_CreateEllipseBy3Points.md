@@ -20,7 +20,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red el
 
 
 
-*The sequence of clicks is indicated by yellow arrows with numbers. 1 is the periapsis, 2 is the apoapsis, 3 is the defining point for minor diameter, green lines are major and minor diameters. Blue lines are random construction lines just for illustration purpose.*
+*The sequence of clicks is indicated by yellow arrows with numbers.<br/>1 is the periapsis, 2 is the apoapsis, 3 is the defining point for minor diameter, green lines are major and minor diameters. Blue lines are random construction lines just for illustration purpose.*
 
 ## Usage
 

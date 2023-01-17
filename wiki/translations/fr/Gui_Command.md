@@ -11,11 +11,15 @@ La GuiCommand est l\'une des fonctions les plus importantes du point de vue inte
 -   Enregistrer une macro
 -   et ainsi de suite \...
 
+
+
 ## Nommage
 
-La GuiCommand est appelée selon un certain standard : *ModuleName_CommandName*, par exemple [Base Open](Base_Open/fr.md) est la Gui Command Open dans le système Base. Dans certains modules, la GuiCommand a pour préfixe le nom du module, comme par exemple [Part_Cylinder](Part_Cylinder.md).
+La GuiCommand est appelée selon un certain standard : *ModuleName_CommandName*, par exemple \"[Base Open](Base_Open/fr.md)\" est la Gui Command Open dans le système Base. Dans certains modules, la GuiCommand a pour préfixe le nom du module, comme par exemple \"[Part_Cylinder](Part_Cylinder.md)\".
 
 Si le document n\'est pas fini, utilisez le bandeau [Template:UnfinishedDocu](Template_UnfinishedDocu.md).
+
+
 
 ## Pages d\'aide 
 
@@ -28,6 +32,8 @@ Exemples :
 -   [Draft Formes à partir de texte](Draft_ShapeString/fr.md)
 -   [Draft Ligne](Draft_Line/fr.md)
 
+
+
 ## Icônes
 
 <img alt="" src=images/Tango-Palette.png  style="width:400px;">
@@ -35,6 +41,8 @@ Exemples :
 Chaque GuiCommand doit avoir une icône. Nous utilisons le [jeu d\'icônes Tango](http://tango-project.org/Tango_Desktop_Project), et ses recommandations. Sur le côté droit, vous voyez la palette de couleurs tango.
 
 Il est conseillé de faire toutes les icônes au format [SVG](SVG/fr.md), par exemple avec [Inkscape](http://inkscape.org/?lang=fr&css=css/base.css). Cela rend plus facile l'application des changements et des icônes dérivés dans l\'espace de la même application.
+
+
 
 ### Code des couleurs des icônes 
 

@@ -116,6 +116,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Arbeitsbereich Arch 
 
+-   Several edit mode issues have been fixed and the [Tree view](Tree_view.md) context menus for Arch objects have been improved. Objects that can be edited now have an **Edit** option in that menu. The **Set colors** option was removed for objects without a face or that can only have a single face. [Pull request #8122](https://github.com/FreeCAD/FreeCAD/pull/8122)
+
 
 
 ### Weitere Arch-Verbesserungen 
@@ -129,6 +131,9 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   Die Ungenauigkeit von [Draft Snap Near](Draft_Snap_Near/de.md) während des Einrastens von Kurven wurde beseitigt. Außserdem kann [Draft Snap Perpendicular](Draft_Snap_Perpendicular/de.md) jetzt auch auf Flächen einrasten und vielfache Punkte finden. Zum Einrasten auf einem Knoten (z.B. einem [Draft Punkt](Draft_Point/de.md)) muss jetzt [Draft Snap Endpoint](Draft_Snap_Endpoint/de.md) anstatt [Draft Snap Near](Draft_Snap_Near/de.md) verwendet werden. [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132)
 -   Um das Arbeiten mit [Layern](Draft_Layer/de.md) zu vereinfachen, wurde ihr Drag-and-Drop-Verhalten geändert. Wenn jetzt ein Objekt aus einer [Std Gruppe](Std_Group/de.md) oder ein gruppenartiges Objekt, wie ein [Arch Gebäudeteilauf](Arch_BuildingPart/de.md) einen Layer abgelegt wird, wird es nicht mehr aus der Gruppe entfernt und umgekehrt. Dies funktioniert ohne das Gedrückthalten der **Ctrl**-Taste [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
 -   Der Befehl [Draft PointArray](Draft_PointArray/de.md) unterstützt jetzt mehr Punkt-Objektarten. Jedes Objekt mit einer Form und Knoten sowie [Netze](Mesh_Workbench/de.md) und [Punktewolken](Points_Workbench/de.md) kann verwendet werden. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
+-   Die Kontextmenüs der [Baumansicht](Tree_view/de.md) von Draft-Objekten wurden verbessert. Objekte die mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) bearbeitet werden können oder eine eigenes Bearbeitungswerkzeug besitzen, haben jetzt die Option **Bearbeiten** in ihrem Menü. Die Option **Set colors** für Objekte, die keine Flächen besitzen oder die nur eine einzige Fläche besitzen können, wurde entfernt. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
+
+-   Die Eigenschaften der Draft-Annotation-Objekte wurden vereinheitlicht. Die Objekte [Draft Text](Draft_Text/de.md), [Draft Dimension](Draft_Dimension/de.md) und [Draft Label](Draft_Label/de.md) besitzen jetzt alle die Eigenschaften Schriftname (Font Name), Schrifthöhe (Font Size) und Textfarbe (Text Color). Die Optionen für den Ansichtsmodus wurden auch angeglichen und sind jetzt: Screen und World. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) und [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081)
 
 
 
@@ -137,6 +142,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https://github.com/FreeCAD/FreeCAD/pull/7506) and [Pull request #7662](https://github.com/FreeCAD/FreeCAD/pull/7662)
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541)
 -   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
+-   In the task panel of the [Draft SetStyle](Draft_SetStyle.md) command the \"Texts/dims\" button has been replaced by the \"Annotations\" button. Pressing this button will process all annotations, including [Draft Labels](Draft_Label.md). Several minor additional issues were also fixed. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) and [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196)
 
 
 

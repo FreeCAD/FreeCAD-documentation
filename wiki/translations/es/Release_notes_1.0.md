@@ -20,7 +20,11 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 Marcador de posición para una imagen llamativa seleccionada por los administradores de [el foro de exhibición de usuarios](https://forum.freecadweb.org/viewforum.php?f=24).
 
+
+
 ## Generalidades
+
+
 
 ## Interfaz de usuario 
 
@@ -36,6 +40,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
   <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width:300px;">   The workbench selector can now optionally be put in the menubar instead of the toolbar area. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
    
 
+
+
 ### Otras mejoras de la interfaz de usuario 
 
 -   The button for <img alt="" src=images/Std_UserEditModeDefault.svg  style="width:24px;"> [Edit Mode](Std_UserEditMode.md) has been removed from the standard toolbar. It can be re-added by [customizing](Std_DlgCustomize.md) your toolbar. [Pull request #7570](https://github.com/FreeCAD/FreeCAD/pull/7570)
@@ -49,7 +55,11 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   All transparency settings use now the uniform spin button step of 5%: One click on the button in a dialog or the [property editor](Property_editor.md) changes the transparency by 5%. Keep the button pressed to change several 5% steps at once. [Pull request #7723](https://github.com/FreeCAD/FreeCAD/pull/7723)
 -   The Output window has been renamed to Report view for uniformity with the UI. [Pull Request #7739](https://github.com/FreeCAD/FreeCAD/pull/7739)
 
+
+
 ## Núcleo del sistema y API 
+
+
 
 ### Núcleo
 
@@ -57,6 +67,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Nueva API de Python 
 
@@ -87,6 +99,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 </div>
 
+
+
 #### API de Python eliminada 
 
 -   *FreeCAD.EndingAdd*: replaced by *FreeCAD.addImportType*. [Pull request #7167](https://github.com/FreeCAD/FreeCAD/pull/7167)
@@ -95,31 +109,50 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 </div>
 
+
+
 ## Gestor de complementos 
 
+
+
 ## Ambiente de Trabajo Arch 
+
+-   Several edit mode issues have been fixed and the [Tree view](Tree_view.md) context menus for Arch objects have been improved. Objects that can be edited now have an **Edit** option in that menu. The **Set colors** option was removed for objects without a face or that can only have a single face. [Pull request #8122](https://github.com/FreeCAD/FreeCAD/pull/8122)
+
+
 
 ### Otras mejoras de Arch 
 
 -   Los objetos [Perfil](Arch_Profile.md) ahora soportan modificaciones del tipo de perfil después de su creación. [Pull request #7217](https://github.com/FreeCAD/FreeCAD/pull/7217)
+
+
 
 ## Ambiente de Trabajo Draft 
 
 -   The inaccuracy of [Draft Snap Near](Draft_Snap_Near.md) when snapping to curves was fixed. In addition, [Draft Snap Perpendicular](Draft_Snap_Perpendicular.md) can now also snap to faces and find multiple points. To snap to a vertex (e.g. a [Draft Point](Draft_Point.md)) [Draft Snap Endpoint](Draft_Snap_Endpoint.md) must now be used instead of [Draft Snap Near](Draft_Snap_Near.md). [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132)
 -   To make working with [layers](Draft_Layer.md) easier their drag and drop behavior was modified. If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer, it is no longer removed from the group, and vice versa. This works without holding down the **Ctrl** key. [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
 -   The [Draft PointArray](Draft_PointArray.md) command now supports more point object types. Any object with a shape and vertices, as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md) can be used. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
+-   The [Tree view](Tree_view.md) context menus for Draft objects have been improved. Objects that can be edited with the [Draft Edit](Draft_Edit.md) command, or that have a dedicated edit solution, now have an **Edit** option in that menu. The **Set colors** option was removed for objects without a face or that can only have a single face. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
+-   The properties of Draft annotation objects have been unified. [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md) and [Draft Label](Draft_Label.md) objects now all have a Font Name, a Font Size and a Text Color property. The Display Mode options have been made consistent as well and are now: Screen and World. [Issue #7861](https://github.com/FreeCAD/FreeCAD/issues/7861) and [Pull request #8081](https://github.com/FreeCAD/FreeCAD/pull/8081)
+
+
 
 ### Otras mejoras de Draft 
 
 -   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https://github.com/FreeCAD/FreeCAD/pull/7506) and [Pull request #7662](https://github.com/FreeCAD/FreeCAD/pull/7662)
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https://github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https://github.com/FreeCAD/FreeCAD/pull/7541)
 -   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https://github.com/FreeCAD/FreeCAD/pull/7656)
+-   In the task panel of the [Draft SetStyle](Draft_SetStyle.md) command the \"Texts/dims\" button has been replaced by the \"Annotations\" button. Pressing this button will process all annotations, including [Draft Labels](Draft_Label.md). Several minor additional issues were also fixed. [Pull request #8190](https://github.com/FreeCAD/FreeCAD/pull/8190), [Pull request #8195](https://github.com/FreeCAD/FreeCAD/pull/8195) and [Pull request #8196](https://github.com/FreeCAD/FreeCAD/pull/8196)
+
+
 
 ## Ambiente de Trabajo FEM 
 
    
   <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width:384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https://forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
    
+
+
 
 ### Otras mejoras de FEM 
 
@@ -129,19 +162,33 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
 
+
+
 ## Exportar
 
+
+
 ## Malla
+
+
 
 ### Otras mejoras de Mesh 
 
 -   Support to add transparencies to a mesh. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=72531) and [Commit f88305e](https://github.com/FreeCAD/FreeCAD/commit/f88305e)
 
+
+
 ## Ambiente de Trabajo OpenSCAD 
+
+
 
 ## Ambiente de Trabajo Part 
 
+
+
 ### Otras mejoras de Part 
+
+
 
 ## Ambiente de Trabajo PartDesign 
 
@@ -150,11 +197,15 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
                                                                                                                             
    
 
+
+
 ### Otras mejoras de PartDesign 
 
 -   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   The [Validate sketch](Sketcher_ValidateSketch.md) command was added to Helper toolbar. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   The unusable [Leave sketch](Sketcher_LeaveSketch.md) and [View sketch](Sketcher_ViewSketch.md) commands were removed from the menu. The [Edit sketch](Sketcher_EditSketch.md), [Merge sketches](Sketcher_MergeSketches.md) and [Mirror sketch](Sketcher_MirrorSketch.md) commands were added to the menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+
+
 
 ## Ambiente de Trabajo Path 
 
@@ -164,7 +215,11 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 -   Implemented Chipbreaking option for peck style drill cycles. Chipbreaking emits a G73 cycle which causes the control to make a very small retraction move to break the chip without fully retracting the bit from the hole. G73 is supported natively by LinuxCNC. Some other postprocessors will have to interpret the G73 and emit control appropriate codes or decompose the retraction into G1/G0 moves. Postprocessor support for G73 decomposition has been added to the \"refactored\" postprocessors.[Pull request #7469](https://github.com/FreeCAD/FreeCAD/pull/7469)
 
+
+
 ## Módulo Plot 
+
+
 
 ## Ambiente de Trabajo Sketcher 
 
@@ -193,6 +248,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
                                                                                                                                                           
    
 
+
+
 ### Otras mejoras de Sketcher 
 
 -   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
@@ -205,9 +262,15 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   [Coincident constraint](Sketcher_ConstrainCoincident.md) can now act as a concentric constraint when selecting 2 or more circles, arcs, ellipses or arcs of ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
 -   [Carbon copy](Sketcher_CarbonCopy.md) if possible now uses constraint names in the expressions it creates instead of an index based reference, making it more reliable. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
+
+
 ## Ambiente de Trabajo Spreadsheet 
 
+
+
 ### Otras mejoras de Spreadsheet 
+
+
 
 ## Ambiente de Trabajo TechDraw 
 
@@ -216,6 +279,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
   <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width:250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
                                                                                                                       
    
+
+
 
 ### Otras mejoras de TechDraw 
 
@@ -233,6 +298,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ## Web
 
+
+
 ## Ambientes de trabajo externos 
 
 ### A2plus
@@ -244,6 +311,8 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 ### FCGear
 
 ### Ship
+
+
 
 ## Compilación
 
@@ -257,11 +326,17 @@ Los sistemas operativos soportados:
 -   Linux Ubuntu Focal Fossa (20.04) y nuevos
 -   MacOS: 10.12 Sierra o más nuevo
 
+
+
 ## Limitaciones conocidas 
+
+
 
 #### Windows de 32bits 
 
 Desde FreeCAD 0.19 no soportamos oficialmente Windows de 32 bits. FreeCAD podría funcionar en estos sistemas pero no se brinda soporte.
+
+
 
 #### Escritorio remoto en Windows 
 
@@ -269,6 +344,8 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 
 -   Descargar [esta](https://downloads.fdossena.com/geth.php?r=mesa64-latest) biblioteca OpenGL para Windows de 64 bits y extraerla.
 -   Cambie el nombre del archivo DLL a *OpenGL32SW.DLL* y cópielo a la subcarpeta *bin* de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
+
+
 
 ### MacOS: Entorno de trabajo Start Workbench muestra una página en blanco 
 

@@ -66,14 +66,6 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-Aranjare iconițe
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Ferestre\...
 
 

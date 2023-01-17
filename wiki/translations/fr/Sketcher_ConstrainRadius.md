@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainRadius
    Name/fr:Sketcher Contrainte rayon
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de rayon ou de poids
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de rayon ou de poids
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **R**
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainRadius/fr
@@ -15,13 +15,15 @@
 Cette contrainte contraint la valeur du rayon d\'un cercle ou d\'un arc à avoir une valeur spécifique. Si plus d\'un cercle ou d\'un arc est sélectionné avant de lancer la commande :
 
 -   Si la contrainte est appliquée en mode \"Référence\", une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
--   Si la contrainte est appliquée en mode \"Normal\", les règles suivantes s\'appliquent:
+-   Si la contrainte est appliquée en mode \"Normal\", les règles suivantes s\'appliquent :
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
     -   Des **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes d'égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
 NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
 ![](images/Sketcher_ConstrainRadius_example.png )
+
+
 
 ## Utilisation
 
@@ -31,6 +33,8 @@ NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres typ
 4.  En option, l'étiquette de cote et la ligne peuvent être déplacées et pivotées dans la vue 3D en cliquant sur la valeur et en les faisant glisser tout en maintenant le bouton gauche de la souris enfoncé.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Par défaut, la commande sera en mode Continu pour créer de nouvelles contraintes. Appuyez une fois sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+
+
 
 ## Script
 

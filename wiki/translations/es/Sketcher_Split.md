@@ -13,11 +13,21 @@
 
 </div>
 
+
+
 ## Descripción
+
+
+<div class="mw-translate-fuzzy">
 
 Esta herramienta permite dividir un borde en dos idénticas, mientras que la mayoría de las restricciones se duplican, por lo que ambas partes permanecen restringidas aparte de la posición del punto de división. En el caso especial de un círculo, éste se convierte en un arco de extremos sueltos, transfiriéndose las restricciones existentes del círculo al nuevo arco.
 
+
+</div>
+
 ![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
+
+
 
 ## Utilización
 
@@ -32,9 +42,13 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 
 </div>
 
+
+
 ## Limitaciones
 
--   Para la elipse, la parábola, la hipérbola y las curvas B, la acción aún no es compatible.
+-   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
+
+
 
 ## Notas
 

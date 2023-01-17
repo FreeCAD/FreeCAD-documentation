@@ -14,7 +14,7 @@ This category contains all Unfinished Documents
 | [Path Pocket 3D/ro](wiki/Path Pocket 3D/ro.md) | [Path Shape/ro](wiki/Path Shape/ro.md) | [Path Simulator/ro](wiki/Path Simulator/ro.md) |
 | [Path Surface/ro](wiki/Path Surface/ro.md) | [Robot SetDefaultOrientation/ro](wiki/Robot SetDefaultOrientation/ro.md) | [Ship Capacity/ro](wiki/Ship Capacity/ro.md) |
 | [Ship GZ/ro](wiki/Ship GZ/ro.md) | [Ship LoadCondition/ro](wiki/Ship LoadCondition/ro.md) | [Sketcher ConstrainHorizontal/ro](wiki/Sketcher ConstrainHorizontal/ro.md) |
-| [Sketcher SelectElementsWithDoFs/ro](wiki/Sketcher SelectElementsWithDoFs/ro.md) | [TechDraw LinkDimension/ro](wiki/TechDraw LinkDimension/ro.md) |
+| [Sketcher SelectElementsWithDoFs/ro](wiki/Sketcher SelectElementsWithDoFs/ro.md) |
 
 
 

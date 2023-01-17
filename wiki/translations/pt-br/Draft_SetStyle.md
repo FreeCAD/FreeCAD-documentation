@@ -10,14 +10,16 @@
 
 # Draft SetStyle/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetStyle** command sets the default style for new objects.
 
-Note that several features do not work in the V0.19 version of this command.
-
-![](images/Draft_SetStyle_taskpanel.png ) 
+![](images/Draft_SetStyle_Taskpanel.png ) 
 *The Style settings task panel*
+
+
 
 ## Utilização
 
@@ -27,8 +29,10 @@ Note that several features do not work in the V0.19 version of this command.
     -   Use the keyboard shortcut: **S** then **S**. <small>(v0.20)</small> 
 2.  The **Style settings** task panel opens. See [Options](#Options.md) for more information.
 3.  Optionally change one or more settings.
-4.  Press the **OK** button.
+4.  Press the **OK** button to save the settings.
 5.  The button in the [Draft Tray](Draft_Tray.md) is updated.
+
+
 
 ## Opções
 
@@ -38,12 +42,12 @@ Note that several features do not work in the V0.19 version of this command.
     -   
         **Line color**
         
-        . This is also used for [Draft Labels](Draft_Label.md) and for the **Point Color** of objects.
+        . This is also used for annotations (<small>(v1.0)</small> ) and for the **Point Color** of objects.
 
     -   
         **Line width**
         
-        . This is also used for [Draft Labels](Draft_Label.md).
+        . This is also used for annotations (<small>(v1.0)</small> ) and for the **Point Size** of objects.
 
     -   
         **Draw style**
@@ -73,7 +77,7 @@ Note that several features do not work in the V0.19 version of this command.
     -   
         **Text size**
         
-        . This is in fact the line height, the letters are smaller.
+        . This is in fact the default line height, the letters are smaller.
 
     -   
         **Text spacing**
@@ -83,12 +87,12 @@ Note that several features do not work in the V0.19 version of this command.
     -   
         **Text color**
         
-        . This is also used for the **Line Color** of [Draft Dimensions](Draft_Dimension.md), which defines the color of the whole dimension including the text.
+        .
 
     -   
         **Line spacing**
         
-        . This scale factor is applied to the line height. <small>(v0.20)</small> 
+        . This scale factor is applied to the default line height. <small>(v0.20)</small> 
 
     -   
         **Arrow style**
@@ -109,17 +113,21 @@ Note that several features do not work in the V0.19 version of this command.
         **Unit override**
         
         .
--   Press the **<img src="images/Draft_SetStyle.svg" width=16px> Selected** button to apply the settings to selected objects or groups. <small>(v0.20)</small> 
--   Press the **<img src="images/Draft_Text.svg" width=16px> Texts/dims** button to apply the settings to all [Draft Texts](Draft_Text.md) and [Draft Dimensions](Draft_Dimension.md). <small>(v0.20)</small> 
--   Press the **Cancel** button to abort the command.
+-   Press the **<img src="images/Draft_SetStyle.svg" width=16px> Selected** button to apply the settings to selected objects or groups. Objects can be selected while the task panel is open. <small>(v0.20)</small> 
+-   Press the **<img src="images/Draft_Text.svg" width=16px> Annotations** button to apply the settings to all [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md) in the current document. <small>(v1.0)</small> 
+-   Press the **Cancel** button to finish the command without saving the settings.
+
+
 
 ## Notas
 
--   The **Line color**, **Line width** and **Shape color** settings are not only used for Draft objects, but also for objects created with other workbenches.
+-   The **Line color**, **Line width**, **Shape color** and **Transparency** settings are not only used for Draft objects, but also for objects created with other workbenches.
 -   Styles are saved in a file with a fixed name: **StylePresets.json** which is stored in FreeCAD\'s user **Draft** folder:
     -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Draft/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Draft/** ({{VersionMinus|0.19}}).
     -   On Windows it is **%APPDATA%\FreeCAD\Draft\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Draft\**.
     -   On macOS it is usually **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
+
+
 
 ## Preferências
 
@@ -127,12 +135,12 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 The following preferences are involved:
 
--   Line color: **Edit → Preferences... → Part design → Shape appearance → Default Shape view properties → Line color**.
--   Line width: **Edit → Preferences... → Part design → Shape appearance → Default Shape view properties → Line width**.
+-   Line color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line color**.
+-   Line width: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line width**.
 -   Draw style: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultDrawStyle**.
 -   Display mode: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultDisplayMode**.
--   Shape color: **Edit → Preferences... → Part design → Shape appearance → Default Shape view properties → Shape color**.
--   Transparency: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultTransparency**.
+-   Shape color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Shape color**.
+-   Transparency: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Shape transparency**.
 -   Text font: **Edit → Preferences... → Draft → Texts and dimensions → Text settings → Font family**.
 -   Text size: **Edit → Preferences... → Draft → Texts and dimensions → Text settings → Font size**.
 -   Text spacing: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Text spacing**.

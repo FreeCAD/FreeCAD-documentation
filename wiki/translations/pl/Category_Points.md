@@ -7,7 +7,8 @@ This category lists pages related to the [Points Workbench/pl](Points_Workbench/
 | --- | --- | --- |
 | [Artwork Points/pl](wiki/Artwork Points/pl.md) | [Points Convert/pl](wiki/Points Convert/pl.md) | [Points Export/pl](wiki/Points Export/pl.md) |
 | [Points Import/pl](wiki/Points Import/pl.md) | [Points Merge/pl](wiki/Points Merge/pl.md) | [Points PolyCut/pl](wiki/Points PolyCut/pl.md) |
-| [Points Structure/pl](wiki/Points Structure/pl.md) | [Points Workbench/pl](wiki/Points Workbench/pl.md) |
+| [Points Structure/pl](wiki/Points Structure/pl.md) | [Template:Points Tools navi/pl](wiki/Template_Points Tools navi/pl.md) | [Points Workbench/pl](wiki/Points Workbench/pl.md) |
+|
 
 
 

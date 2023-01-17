@@ -62,9 +62,8 @@ This category contains all Unfinished Documents
 | [SheetMetal UnattendedUnfold/pl](wiki/SheetMetal UnattendedUnfold/pl.md) | [SheetMetal Unfold/pl](wiki/SheetMetal Unfold/pl.md) | [SheetMetal Workbench/pl](wiki/SheetMetal Workbench/pl.md) |
 | [Ship Capacity/pl](wiki/Ship Capacity/pl.md) | [Ship GZ/pl](wiki/Ship GZ/pl.md) | [Ship LoadCondition/pl](wiki/Ship LoadCondition/pl.md) |
 | [Silk Workbench/pl](wiki/Silk Workbench/pl.md) | [Sketcher ConstrainHorizontal/pl](wiki/Sketcher ConstrainHorizontal/pl.md) | [Sketcher SelectElementsWithDoFs/pl](wiki/Sketcher SelectElementsWithDoFs/pl.md) |
-| [Std MacroAttachDebugger/pl](wiki/Std MacroAttachDebugger/pl.md) | [TechDraw LinkDimension/pl](wiki/TechDraw LinkDimension/pl.md) | [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) |
-| [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) | [WikiPages/pl](wiki/WikiPages/pl.md) | [Windows packaging/pl](wiki/Windows packaging/pl.md) |
-|
+| [Std MacroAttachDebugger/pl](wiki/Std MacroAttachDebugger/pl.md) | [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) | [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) |
+| [WikiPages/pl](wiki/WikiPages/pl.md) | [Windows packaging/pl](wiki/Windows packaging/pl.md) |
 
 
 

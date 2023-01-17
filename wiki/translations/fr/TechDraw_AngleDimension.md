@@ -17,6 +17,8 @@ L\'outil Cote angulaire ajoute une dimension angulaire à une vue. La dimension 
 <img alt="" src=images/TechDraw_Dimension_Angle_example.png  style="width:200px;"> 
 *Mesurer l'angle entre deux droites*
 
+
+
 ## Comment faire 
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
@@ -29,11 +31,15 @@ Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans
 
 ## Limitations
 
-Les objets Dimension sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+
+
 
 ## Propriétés
 
 Voir [Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
+
+
 
 ## Script
 

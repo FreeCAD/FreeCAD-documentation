@@ -1,5 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Rysunek Techniczny" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/pl
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) służy do tworzenia podstawowych rysunków technicznych z modeli 3D tworzonych przy użyciu innego środowiska pracy, takich jak [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), lub importowanych z innych aplikacji. Każdy rysunek jest Stroną, która może zawierać różne widoki obiektów rysunkowych, takich jak Part::Features, PartDesign::Bodies, App::Part groups i Document Object groups. Powstałe w ten sposób rysunki mogą być wykorzystane do takich celów jak dokumentacja, instrukcje produkcyjne, umowy, pozwolenia, itp.
@@ -15,6 +17,8 @@ Jeśli Twoim głównym celem jest tworzenie złożonych rysunków 2D i plików [
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
+
+
 ## Strony
 
 Te narzędzia służą do tworzenia obiektów na stronie.
@@ -26,6 +30,8 @@ Te narzędzia służą do tworzenia obiektów na stronie.
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Odśwież widok](TechDraw_RedrawPage/pl.md): wymusza aktualizację wybranej strony. {{Version/pl|0.19}}
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Drukuj wszystkie strony](TechDraw_PrintAll/pl.md): drukuje wszystkie strony rysunku. {{Version/pl|1.0}}
+
+
 
 ## Widoki
 
@@ -57,6 +63,8 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:32px;"> [Rzut kształtu](TechDraw_ProjectShape/pl.md): tworzy rzut kształtu w oknie [widoku 3D](3D_view/pl.md). {{Version/pl|0.20}}
 
+
+
 ## Układanie widoków 
 
 Są to narzędzia do zmiany kolejności układania, która kontroluje pozorną głębokość widoków na stronie.
@@ -71,6 +79,8 @@ Są to narzędzia do zmiany kolejności układania, która kontroluje pozorną g
 
   - <img alt="" src=images/TechDraw_StackDown.svg  style="width:32px;"> [Przesuwa widoki w dół](TechDraw_StackDown/pl.md): przesuwa widoki o jeden poziom w dół. {{Version/pl|1.0}}
 
+
+
 ## Wycinki
 
 Są to narzędzia do tworzenia i zarządzania obiektami wycinków *(przycięte widoki)*.
@@ -80,6 +90,8 @@ Są to narzędzia do tworzenia i zarządzania obiektami wycinków *(przycięte w
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Dodaj widok do grupy wycinków](TechDraw_ClipGroupAdd/pl.md): dodaje istniejący widok do grupy wycinków.
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Usuń widok z grupy wycinków](TechDraw_ClipGroupRemove/pl.md): usuwa widok z grupy wycinków.
+
+
 
 ## Wystrój
 
@@ -94,6 +106,8 @@ Są to narzędzia do modyfikowania wyglądu stron lub widoków.
 -   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Wstaw obraz](TechDraw_Image/pl.md): wstawia obrazek PNG lub JPG [bitmapy](Bitmap/pl.md) do zawartości strony.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Przełącz widoczność ramki](TechDraw_ToggleFrame/pl.md): włącza i wyłącza ramki oraz etykiety otaczające widok.
+
+
 
 ## Wymiary
 
@@ -125,7 +139,17 @@ Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lu
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md): dodaje na stronie adnotację w *baloniku*. {{Version/pl|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Wstaw wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+
+
 
 ## Adnotacje
 
@@ -167,9 +191,13 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Dodaj symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md): dodaje do strony symbol wykończenia powierzchni. {{Version/pl|1.0}}
 
+
+
 ## Pakiet rozszerzeń 
 
 Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysunków technicznych.
+
+
 
 ### Atrybuty i modyfikacje 
 
@@ -210,6 +238,8 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Oblicz pole powierzchni wybranych ścian](TechDraw_ExtensionAreaAnnotation/pl.md): oblicza pole powierzchni wybranych powierzchni i wstawia adnotację z opisem powierzchni. {{Version/pl|0.20}}
 
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Dostosuj format etykiety](TechDraw_ExtensionCustomizeFormat/pl.md): umożliwia dostosowanie formatowania tekstu dymka lub tekstu wymiarowego. Można dodawać symbole GD&T i inne znaki specjalne. {{Version/pl|0.20}}
+
+
 
 ### Linie środka i gwinty 
 
@@ -252,6 +282,8 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
   - <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Rysuj linie równoległą](TechDraw_ExtensionLineParallel/pl.md): rysuje pomocniczą prostą równoległą do innej prostej, przez wierzchołek. {{Version/pl|0.20}}
 
   - <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Rysuj linię prostopadłą](TechDraw_ExtensionLinePerpendicular/pl.md): rysuje pomocniczą prostą prostopadłą do innej prostej, przez wierzchołek. {{Version/pl|0.20}}
+
+
 
 ### Wymiarowanie
 
@@ -303,6 +335,8 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 
   - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Zmniejszenie dokładności](TechDraw_ExtensionDecreaseDecimal/pl.md): zmniejsza liczbe miejsc po przecinku. {{Version/pl|0.20}}
 
+
+
 ## Eksport
 
 Są to narzędzia do eksportu zawartości stron do innych programów.
@@ -310,6 +344,8 @@ Są to narzędzia do eksportu zawartości stron do innych programów.
 -   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Zapisz aktywną stronę w formacie SVG](TechDraw_ExportPageSVG/pl.md): eksport strony do pliku w formacie [SVG](SVG/pl.md).
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Zapisz aktywną stronę w formacie DXF](TechDraw_ExportPageDXF/pl.md): eksport strony do pliku w formacie [DXF](DXF/pl.md).
+
+
 
 ## Dodatkowe właściwości 
 
@@ -319,9 +355,13 @@ Są to narzędzia do eksportu zawartości stron do innych programów.
 
 [Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl.md): wyjaśnienie, jak osiągnąć wymiarowanie geometrii i tolerancji.
 
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Ustawienia](TechDraw_Preferences/pl.md): ustawienia domyślnych wartości strony rysunku, takich jak kąt projekcji, kolory, rozmiary tekstu i style linii.
+
+
 
 ## Tworzenie skryptów 
 
@@ -331,6 +371,8 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 -   [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md),
 -   [Pola tekstowe do edycji](TechDraw_PageDefault/pl#Pola_tekstowe_do_edycji.md).
 
+
+
 ## Ograniczenia
 
 -   Rysunki środowiska Rysunek Techniczny i jego API nie są zamienne ze środowiskiem [Kreślenie](Drawing_Workbench/pl.md) i jego API. Możliwa jest konwersja Strony Kreślenie do Strony Rysunku Technicznego przy użyciu skryptu Pythona (`moveViews.py`).
@@ -338,6 +380,8 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 -   Istnieją niewielkie różnice w określaniu edytowalnych tekstów w szablonach [SVG](SVG.md) w porównaniu z modułem Kreślenie. W Rysunku Technicznym skalowanie dokumentu SVG wpływa na położenie edytowalnych pól tekstowych. Więcej szczegółów znajdziesz w dyskusji na forum [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
 -   Nie wycinaj, nie kopiuj i nie wklejaj obiektów Rysunku Technicznego w [widoku drzewa](Tree_view/pl.md), ponieważ generalnie nie działa to dobrze.
 -   Nie należy przeciągać obiektów Rysunku Technicznego w [widoku drzewa](Tree_view/pl.md) za pomocą myszki.
+
+
 
 ## Poradniki
 

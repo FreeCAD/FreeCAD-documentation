@@ -7,9 +7,9 @@
 
 La version 0.20.2 de FreeCAD (29603) a été publiée le 7 décembre 2022. Pour découvrir ses nouveautés, consultez les [notes de version](Release_notes_0.20/fr.md).
 
-Vous pouvez trouver les checksums SHA256 pour vérifier l\'intégrité de votre téléchargement sur la [page de la release 0.20.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2).
+Vous pouvez trouver les checksums SHA256 pour vérifier l\'intégrité de votre téléchargement sur la [page GitHub de la release 0.20.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2).
 
-Les versions précédentes peuvent être téléchargées à partir de la page [releases](https://github.com/FreeCAD/FreeCAD/releases).
+Les versions précédentes peuvent être téléchargées à partir de la page [GitHub releases](https://github.com/FreeCAD/FreeCAD/releases).
 
 +::+::+::+
 | ![](images/Windows.png )                                                                                         | ![](images/Mac.png )                                                                                                             | ![](images/Linux_with_text.png )     |
@@ -22,7 +22,7 @@ Les versions précédentes peuvent être téléchargées à partir de la page [r
 ### Notes aux utilisateurs de Windows 
 
 -   Les versions suivantes de Windows sont prises en charge : 64-bit 7/8/10/11. Windows 32 bits n\'est pas pris en charge.
--   Une version portable qui ne nécessite pas d\'installation est disponible sur la page [releases](https://github.com/FreeCAD/FreeCAD/releases/).
+-   Une version portable qui ne nécessite pas d\'installation est disponible sur la page [GitHub releases](https://github.com/FreeCAD/FreeCAD/releases/).
 -   Le paquet peut également être installé à partir du gestionnaire [Chocolatey](https://chocolatey.org/packages/freecad).
 
 ### Notes aux utilisateurs de Mac OS X 
@@ -52,9 +52,9 @@ Vous pourrez trouver plus d\'informations sur les variables d\'environnement de 
 
 FreeCAD est en développement constant.
 
--   Pour les utilisateurs de Linux, consultez le développement [AppImage](AppImage/fr.md).
--   Pour les versions de développement MacOS et Windows et le développement du code source, consultez la page [weekly builds](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
--   Pour compiler le dernier code source, voir [Compiler](Compiling/fr.md).
+-   Pour les utilisateurs de Linux, consultez la page [AppImage](AppImage/fr.md).
+-   Pour les versions de développement MacOS et Windows et le développement du code source, consultez la page [GitHub weekly builds](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
+-   Pour compiler le dernier code source, voir la page [Compiler](Compiling/fr.md).
 
 
 

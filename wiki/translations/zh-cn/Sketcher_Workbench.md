@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## 简介
 
 
@@ -182,6 +184,8 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
+
+
 #### 草图编辑器几何工具
 
 这是创建对象的工具。
@@ -331,7 +335,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits a line or an arc into two, converts a circle into an arc while keeping most of the constraints. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -357,6 +361,8 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 
 </div>
+
+
 
 ### 草图编辑器约束
 
@@ -537,6 +543,8 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
+
+
 ### 草图工具
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
@@ -690,6 +698,8 @@ The following tools can be used the change the effect of constraints:
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher BSplinePoleWeight
    Name/fr:Sketcher Poids des points de contrôle B-spline
-   MenuLocation:Sketch → Outils d'esquisse B-Spline → Poids des points de contrôle B-spline
+   MenuLocation:Esquisse → Outils d'esquisse B-Spline → Poids des points de contrôle B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
@@ -12,20 +12,24 @@
 
 ## Description
 
-Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une courbe B-spline (voir [ci-dessous](#Explication_de_poids.md) pour une explication des poids).
+Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une B-spline (voir [ci-dessous](#Explication_de_poids.md) pour une explication des poids).
 
 <img alt="" src=images/sketcher_BSplineWeightShow.png  style="width:468px;"> 
 *B-spline avec poids des points de contrôle affichés entre parenthèses*
+
+
 
 ## Utilisation
 
 1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Poids des points de contrôle B-spline](Sketcher_BSplinePoleWeight/fr.md)**.
 
+
+
 ## Explication des poids 
 
 Les B-splines sont essentiellement une combinaison de [courbes de Bézier](B-Splines/fr#Courbes_de_B.C3.A9zier.md) (bien expliqué dans ces vidéos [ici](https://www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https://www.youtube.com/watch?v=xXJylM2S72s)).
 
-La courbe de Bézier est calculée à l\'aide de cette formule:
+La courbe de Bézier est calculée à l\'aide de cette formule :
 
 $\quad
 \textrm{Bezier}(n,t)=\sum_{i=0}^{n}\underbrace{\binom{n}{i}}_{\text{polynomial term}}\underbrace{\left(1-t\right)^{n-i}t^{i}}_{\text{polynomial term}}\; \underbrace{P_{i}}_{\text{point coordinate}}$
@@ -44,12 +48,14 @@ Il s\'agit d\'une nouvelle classe de courbes de Bézier car bien que les points 
 La conséquence est que vous gagnez en flexibilité dans la définition de la forme de la spline. Si tous les poids sont égaux, la forme de la spline ne change pas. Les pondérations les unes par rapport aux autres sont donc importantes, et non la valeur uniquement. Par exemple, cette spline a exactement la même forme que celle de la première image:
 
 <img alt="" src=images/sketcher_BSplineWeightDouble.png  style="width:468px;"> 
-*Même B-spline que dans la première image mais avec des valeurs de poids absolues différentes*
+*Même B-spline qu'à la première image mais avec des valeurs de poids absolues différentes*
 
 Un poids de zéro serait une singularité dans l\'équation pour calculer les courbes de Bézier rationnelles, donc FreeCAD assure qu\'il ne peut pas devenir nul. Néanmoins, les petites valeurs ont le même effet que si le point de contrôle n\'existait presque pas:
 
 <img alt="" src=images/sketcher_BSplineWeightZero.png  style="width:468px;"> 
 *Même B-spline avec un point de contrôle de poids presque nul*
+
+
 
 ## Changer des poids 
 

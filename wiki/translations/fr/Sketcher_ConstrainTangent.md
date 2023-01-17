@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainTangent
    Name/fr:Sketcher Contrainte tangente
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte tangente
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte tangente
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**T**
    SeeAlso:[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
@@ -16,6 +16,8 @@ La Contrainte tangente fait se toucher deux courbes (devant être tangente). Les
 
 La Contrainte tangente peut également être utilisée avec deux lignes pour les rendre colinéaires.
 
+
+
 ## Utilisation
 
 Il y a cinq façons différentes d\'appliquer la contrainte :
@@ -28,8 +30,8 @@ Il y a cinq façons différentes d\'appliquer la contrainte :
 
 Pour appliquer la contrainte tangente, suivre les étapes suivantes :
 
--   Sélectionnez deux ou trois entités dans l\'esquisse.
--   Appelez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
+-   sélectionnez deux ou trois entités dans l\'esquisse.
+-   lancez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
 
 ### Entre deux courbes (tangence directe) 
 
@@ -84,6 +86,8 @@ Comparée à la tangence directe, cette contrainte est plus lente, car il ya des
 
 Le placement du point avant que la contrainte soit appliquée est une indication pour le calculateur pour savoir où doit se trouver la tangence. Avec cette contrainte, on peut forcer deux ellipses à se toucher en deux endroits.
 
+
+
 ### Entre deux lignes (colinéaire) 
 
 <img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
@@ -91,6 +95,8 @@ Le placement du point avant que la contrainte soit appliquée est une indication
 **Sélection acceptée:**
 
 -   toute ligne/sommet + toute ligne/sommet
+
+
 
 ## Programmation
 

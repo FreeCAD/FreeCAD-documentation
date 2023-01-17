@@ -9,6 +9,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 用户中心
@@ -27,6 +29,8 @@
 
 </div>
 
+
+
 ## 书籍手册
 
 
@@ -37,6 +41,8 @@
 
 
 </div>
+
+
 
 ## 目录入口
 
@@ -53,7 +59,11 @@
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                        |                                                                                            |
 ++++
 
+
+
 ## 参与进来
+
+
 
 ### 怎样参与
 
@@ -71,7 +81,15 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 [帮助 FreeCAD ](Special:MyLanguage/help_FreeCAD.md) 页面描述了所有更多的细节。从 2016 年开始，FreeCAD 参与 [谷歌编程夏令营](Google_Summer_of_Code.md)。 [贡献者入口](Contributors_hub/zh-cn.md) 页面从另一个角度集结可能的方式，大家帮助 FreeCAD 项目，各自贡献一份力量。
+
+
+</div>
+
+
 
 ### 源代码
 
@@ -82,6 +100,8 @@ FreeCAD 可以用 [CMake](https://cmake.org/) 在所有平台上编译。源代�
 
 
 </div>
+
+
 
 ### 关于开发
 

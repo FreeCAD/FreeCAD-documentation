@@ -13,12 +13,16 @@
 
 </div>
 
+
+
 ## Descripción
 
 El <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> comando **Borrador Edición** pone los objetos seleccionados en modo de Borrador Edición. En este modo las propiedades de los objetos pueden ser editadas gráficamente. Típicamente los nodos pueden ser movidos y en algunos casos las opciones del menú contextual pueden ser seleccionadas. El comando puede manejar la mayoría de los objetos de borrador, pero también algunos otros objetos. Ver [Objetos soportados](#Objetos_soportados.md). Los objetos de borrador soportados también pueden ponerse en modo de edición de borrador con el comando [Std Edición ](Std_Edit/es.md).
 
 ![](images/Draft_Edit_example.png ) 
 *4 objetos en el modo de Borrador Edición: un Borrador Hilo (rojo), un Borrador Arco (negro), un Borrador BSpline (verde) y un Borrador de BezCurva (magenta)*
+
+
 
 ## Utilización
 
@@ -56,9 +60,13 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Draft
 
 </div>
 
+
+
 ## Opciones
 
 Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiados. Véase [Borrador Preferencias](Draft_Preferences/es.md).
+
+
 
 ### Panel de tareas Principal 
 
@@ -70,6 +78,8 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +104,11 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 </div>
 
+
+
 ## Objetos soportados 
+
+
 
 ### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Borrador Línea](Draft_Line/es.md) and <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Borrador Hilo](Draft_Wire/es.md) 
 
@@ -107,6 +121,8 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 
 </div>
+
+
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Borrador Arco](Draft_Arc/es.md) y <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Borrador Arco 3Puntos](Draft_Arc_3Points/es.md) 
 
@@ -122,21 +138,31 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 </div>
 
+
+
 ### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Borrador Círculo](Draft_Circle/es.md) 
 
 -   No hay menús contextuales para este objeto.
+
+
 
 ### <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> [Borrador Elipse](Draft_Ellipse/es.md) 
 
 -   No hay menús contextuales para este objeto.
 
+
+
 ### <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Borrador Rectángulo](Draft_Rectangle/es.md) 
 
 -   No hay menús contextuales para este objeto.
 
+
+
 ### <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> [Borrador Polígono](Draft_Polygon/es.md) 
 
 -   No hay menús contextuales para este objeto.
+
+
 
 ### <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Borrador BSpline](Draft_BSpline/es.md) 
 
@@ -149,6 +175,8 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 
 </div>
+
+
 
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md) y <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Borrador BezCurva](Draft_BezCurve/es.md) 
 
@@ -218,11 +246,15 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 </div>
 
+
+
 ## Preferencias
 
 Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
 -   El color de los nodos temporales es el mismo que el color de los símbolos atrapar. Este color se puede cambiar en las preferencias: **Edición → Preferencias... → Borrador → Ajustes visuales → Color**. Tenga en cuenta que este color no se utiliza para los nodos temporales que se muestran para [Borrador BezCurvas](Draft_BezCurve/es.md). Estos nodos utilizan el **Color de la línea** de la curva en su lugar.
+
+
 
 ## Guión
 

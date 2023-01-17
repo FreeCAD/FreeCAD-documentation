@@ -38,6 +38,8 @@ FreeCADの機能は異なるモジュールに分割され、各モジュール�
 Some advanced preferences can only be changed in the [Parameter editor](Std_DlgParameter.md). The [Fine-tuning](Fine-tuning.md) page lists some of them.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 全般的な環境設定
@@ -52,6 +54,8 @@ Some advanced preferences can only be changed in the [Parameter editor](Std_DlgP
 
 
 </div>
+
+
 
 ### 標準
 
@@ -151,6 +155,8 @@ On the *General* tab you can specify the following:
 
 </div>
 
+
+
 ### ドキュメント
 
 On the *Document* tab you can specify the following:
@@ -229,6 +235,8 @@ On the *Document* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Document_ja.png )
 
+
+
 ### 選択範囲
 
 On the *Selection* tab (<small>(v0.19)</small> ) you can specify the following:
@@ -296,6 +304,8 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
 +++
 
 ![](images/Preferences_General_Tab_Cache.png )
+
+
 
 ### エディタ
 
@@ -378,6 +388,8 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 ![](images/Preferences_General_Tab_Python_console.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 出力ウィンドウ
@@ -457,6 +469,8 @@ On the *Output window* tab you can specify the following:
 
 ![](images/Preferences_General_Tab_Output_window_jp.png )
 
+
+
 ### マクロ
 
 On the *Macro* tab you can specify the following:
@@ -498,6 +512,8 @@ On the *Macro* tab you can specify the following:
 +++
 
 ![](images/Preferences_General_Tab_Macro.png )
+
+
 
 ### 単位
 
@@ -572,6 +588,8 @@ On the *Help* tab you can specify the following:
 ![](images/Preferences_General_Tab_Help.png )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 表示設定
@@ -580,6 +598,8 @@ On the *Help* tab you can specify the following:
 </div>
 
 This preferences section has three standard tabs: 3D View, Navigation and Colors. A fourth tab, Mesh view, is added if the [Mesh Workbench](Mesh_Workbench.md) has been loaded.
+
+
 
 ### 3D ビュー 
 
@@ -654,6 +674,8 @@ On the *3D View* tab you can specify the following:
 
 ![](images/Preferences_Display_Tab_3D_View.png )
 
+
+
 ### ナビゲーション
 
 On the *Navigation* tab you can specify the following:
@@ -686,8 +708,9 @@ On the *Navigation* tab you can specify the following:
 +++
 |                                   | Specifies the rotation orbit style used when in rotation mode. The options are:                                                                                                                                                                                                                                                                                        |
 | **Orbit style**                      |                                                                                                                                                                                                                                                                                                                                                                        |
-|                                               | -   **Trackball**: Moving the mouse horizontally will rotate the view around the Y-axis.                                                                                                                                                                                                                                                                               |
-|                                                  | -   **Turntable**: Moving the mouse horizontally will rotate the view around the Z-axis.                                                                                                                                                                                                                                                                               |
+|                                               | -   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.                                                                                                                                                                                                                                 |
+|                                                  | -   **Trackball**: Rotations around the different axes are performed simultaneously.                                                                                                                                                                                                                                                                                   |
+|                                                  | -   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small>                                                                                                                                                                                                             |
 +++
 |                                   | Defines the rotation center. The options are:                                                                                                                                                                                                                                                                                                                          |
 | **Rotation mode**                    |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -721,6 +744,8 @@ On the *Navigation* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Navigation.png )
+
+
 
 ### 色
 
@@ -763,6 +788,8 @@ On the *Colors* tab you can specify the following:
 +++
 
 ![](images/Preferences_Display_Tab_Colors.png )
+
+
 
 ### メッシュ表示
 

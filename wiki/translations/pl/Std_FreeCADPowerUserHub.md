@@ -1,22 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std FreeCADPowerUserHub
-   MenuLocation:Help → Python scripting documentation
-   Workbenches:All
-   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+   Name/pl:Std: Dokumentacja skryptów środowiska Python
+   MenuLocation:Pomoc → Dokumentacja skryptów środowiska Python
+   Workbenches:wszystkie
+   SeeAlso:[Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md), [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
 ---
 
 # Std FreeCADPowerUserHub/pl
 
-## Description
 
-The **Std FreeCADPowerUserHub** command opens the FreeCAD Power users documentation page in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](https://wiki.freecad.org/Power_users_hub).
+## Opis
 
-## Usage
+Polecenie **Dokumentacja skryptów środowiska Python** otwiera główną stronę dokumentacji środowiska Python w domyślnej przeglądarce internetowej systemu. Polecenie wymaga działającego połączenia internetowego.
 
-1.  Select the **Help → <img src="images/Std_FreeCADPowerUserHub.svg" width=16px> Python scripting documentation** option from the menu.
+Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Power_users_hub>](https://wiki.freecad.org/Power_users_hub).
+
+
+
+## Użycie
+
+1.  Wybierz z menu opcję **Pomoc → <img src="images/Std_FreeCADPowerUserHub.svg" width=16px> Dokumentacja skryptów środowiska Python
+**
 
 
 

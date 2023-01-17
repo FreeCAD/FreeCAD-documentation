@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher BSplineApproximate
    Name/fr:Sketcher Convertir en B-spline
-   MenuLocation:Sketch → Outils d'esquisse B-spline → Convertir la géometrie en B-spline
+   MenuLocation:Esquisse → Outils d'esquisse B-spline → Convertir la géometrie en B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
@@ -19,6 +19,8 @@ Convertit une géométrie compatible, arêtes et courbes, en une B-spline. (voir
 
 <img alt="" src=images/sketcher_BSplineConvertToNurb1.png  style="width:400px;"> 
 *Les mêmes objets après avoir été convertis en B-splines.*
+
+
 
 ## Utilisation
 

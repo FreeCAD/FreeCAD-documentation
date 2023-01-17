@@ -2,11 +2,11 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainDiameter
    Name/fr:Sketcher Contrainte diamètre
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de diamètre
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de diamètre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **O**
    Version:0.18
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainDiameter/fr
@@ -22,6 +22,8 @@ Cette contrainte contraint la valeur du diamètre d\'un cercle ou d\'un arc à a
 
 NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
+
+
 ## Utilisation
 
 1.  Choisissez un ou plusieurs cercles ou arcs.
@@ -29,7 +31,9 @@ NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres typ
 3.  Une boîte de dialogue s\'ouvre pour éditer ou confirmer la valeur. Appuyez sur **OK** pour valider. Si plusieurs cercles/arcs ont été sélectionnés, toutes les contraintes adopteront cette valeur. Modifiez leurs valeurs séparées en double-cliquant sur l\'étiquette de cote dans la vue 3D ou, dans la liste des contraintes, double-cliquez sur la contrainte ou cliquez avec le bouton droit de la souris et sélectionnez **Change value**.
 4.  En option, l'étiquette de cote et la ligne peuvent être déplacées et pivotées dans la vue 3D en cliquant sur la valeur et en les faisant glisser tout en maintenant le bouton gauche de la souris enfoncé.
 
-**Remarque:** l\'outil de contrainte peut également être démarré sans sélection préalable. Par défaut, la commande sera en mode Continu pour créer de nouvelles contraintes. Appuyez une fois sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+**Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Par défaut, la commande sera en mode Continu pour créer de nouvelles contraintes. Appuyez une fois sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+
+
 
 ## Script
 

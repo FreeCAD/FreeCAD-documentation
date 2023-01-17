@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateRectangle
    Name/fr:Sketcher Rectangle centré
-   MenuLocation:Sketch → Géométries d'esquisse → Créer un rectangle centré
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer un rectangle centré
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **V**
    Version: 0.20
@@ -18,6 +18,8 @@ Cet outil dessine un rectangle en choisissant d\'abord un point qui deviendra le
 Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
 
 ![](images/SketcherCreateCenteredRectangleExample.png‎ )
+
+
 
 ## Utilisation
 

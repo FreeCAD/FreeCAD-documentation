@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -46,6 +48,8 @@ Per inserire un elemento di testo più semplice senza una freccia usare [Testo](
 
 </div>
 
+
+
 ## Utilizzo
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
@@ -61,6 +65,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 </div>
 
+
+
 ## Opzioni
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
@@ -75,6 +81,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -122,6 +130,8 @@ la direzione del segmento retto orizzontale, a destra o a sinistra, allinea auto
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -188,7 +198,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|3D text}} the text will be displayed in a plane defined by the **Placement** of the label. If it is {{value|2D text}} the text will always face the camera. This is an inherited property.
+-    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v1.0)</small> ).
 
 
 {{TitleProperty|Graphics}}
@@ -226,6 +236,10 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 {{TitleProperty|Text}}
 
+-    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v1.0)</small> 
+
+-    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v1.0)</small> 
+
 -    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
 
 -    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
@@ -235,10 +249,6 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 -    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
 
 -    **Text Color|Color**: specifies the color of the text.
-
--    **Text Font|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
-
--    **Text Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Scripting
 

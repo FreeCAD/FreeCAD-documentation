@@ -12,7 +12,7 @@
 
 ## Description
 
-This tool allows to divide an edge into two identical ones, while most of the constraints are duplicated, so both parts remain constrained apart from split point position. For a special case of a periodic curve (i.e. circles, ellipses, periodic B-splines), this is converted to a non-periodic curve (respectively arcs of circles, arcs of ellipses, and non-periodic B-splines) with existing constraints being transferred to the new curve.
+This tool splits an edge into two, with existing applicable constraints being copied to the new edge. The position of the point where the edges meet is not constrained. Periodic curves (i.e. circles, ellipses and periodic B-splines) are converted to non-periodic curves (respectively arcs of circles, arcs of ellipses and non-periodic B-splines).
 
 ![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
 
@@ -25,7 +25,7 @@ This tool allows to divide an edge into two identical ones, while most of the co
 
 ## Limitations
 
--   For ellipse, parabola, hyperbola and B-splines the action is not yet supported. (This limitation no longer applies starting 0.21)
+-   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
 
 ## Notes
 

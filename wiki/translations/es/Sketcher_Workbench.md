@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) se utiliza para crear geometrías 2D destinadas a ser utilizadas en el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y otros Ambiente de trabajo. Generalmente, un dibujo 2D se considera el punto de partida para la mayoría de los modelos CAD, ya que un boceto 2D puede ser \"extruido\" para crear una forma 3D; otros bocetos 2D pueden ser utilizados para crear otras características como bolsas, crestas o extrusiones sobre las formas 3D previamente construidas. Junto con las operaciones booleanas definidas en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo piezas](Part_Workbench/es.md), el Croquis forma la base de la [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) método de construcción de sólidos. Además, junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) operaciones, el Sketcher también forma la base de la [edición de características](feature_editing/es.md) metodología de la creación de sólidos.
@@ -91,6 +93,8 @@ Si sólo necesitas producir vistas 2D para imprimir, y no quieres crear modelos 
 
 
 </div>
+
+
 
 ## Flujo de trabajo del Croquizado 
 
@@ -181,6 +185,8 @@ Reflejar un boceto a lo largo del eje X, el eje Y o el origen.
 
 
 </div>
+
+
 
 ### Geometrías de croquis 
 
@@ -328,7 +334,13 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Extender](Sketcher_Extend/es.md): Extiende una línea o un arco a una línea límite, arco, elipse, arco de elipse o un punto en el espacio.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividir](Sketcher_Split/es.md): Divide una línea o un arco en dos, convierte un círculo en un arco manteniendo la mayoría de las restricciones. {{Version/es|0.20}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -353,6 +365,8 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 
 </div>
+
+
 
 ### Restricciones de croquis 
 
@@ -442,6 +456,8 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Restricciones especiales 
@@ -480,6 +496,8 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 
 </div>
+
+
 
 ### Herriamentas de croquis 
 
@@ -629,6 +647,8 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 </div>
 
+
+
 ### Herramientas B-spline de Croquizador 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostrar/ocultar el grado de B-spline](Sketcher_BSplineDegree/es.md)
@@ -655,6 +675,8 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
 
+
+
 ### Espacio virtual del croquizador 
 
 
@@ -664,6 +686,8 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -709,6 +733,8 @@ Cada usuario de CAD desarrolla su propia forma de trabajar a lo largo del tiempo
 
 </div>
 
+
+
 ## Tutoriales
 
 
@@ -721,6 +747,8 @@ Cada usuario de CAD desarrolla su propia forma de trabajar a lo largo del tiempo
 
 
 </div>
+
+
 
 ## Guión
 

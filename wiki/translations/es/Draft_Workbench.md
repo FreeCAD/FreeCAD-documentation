@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **Ambiente de trabajo Borrador** se centra principalmente en la creación y modificación de objetos 2D en FreeCAD. Pero no está restringido al plano XY del sistema global de coordenadas. Sus objetos pueden tener cualquier orientación y posición en el espacio 3D, y algunos objetos de Borrador pueden ser planos o no planos.
@@ -66,6 +68,8 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation styles\...](Draft_AnnotationStyleEditor.md): allows you to define styles that affect the visual properties of annotation-like objects.
 
+
+
 ## Modificación
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Move](Draft_Move.md): moves or copies selected objects from one point to another.
@@ -122,6 +126,8 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D view](Draft_Shape2DView.md): creates 2D projections from selected objects.
 
+
+
 ## Borrador Bandeja 
 
 La [Borrador Bandeja](Draft_Tray/es.md) Barra herramienta aparece cuando se inicia el ambiente de trabajo, y permite seleccionar el plano de trabajo, junto con algunas propiedades visuales como el color de la línea, el color de la forma, el ancho de la línea, el tamaño del texto y el grupo automático.
@@ -145,17 +151,23 @@ La [Borrador Bandeja](Draft_Tray/es.md) Barra herramienta aparece cuando se inic
 
 -   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
+
+
 ## Borrador Widget escala de anotacion 
 
 With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the Draft annotation scale can be specified.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
+
+
 ## Borrador Widget Atrapar 
 
 The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
 ![](images/Draft_snap_widget_button.png )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -205,6 +217,8 @@ La barra de herramientas [Borrador Atrapar](Draft_Snap/es.md) permite selecciona
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
+
+
 ## Borrador Herramientas de utilidad 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md).
@@ -221,6 +235,8 @@ La barra de herramientas [Borrador Atrapar](Draft_Snap/es.md) permite selecciona
 
 -   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Create working plane proxy](Draft_WorkingPlaneProxy.md): creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md).
 
+
+
 ## Herramientas adicionales 
 
 Herramientas adicionales disponibles desde el menú **Bosquejo → Utilidades**, o a través del menú contextual del botón derecho, dependiendo de los objeto seleccionados.
@@ -232,6 +248,8 @@ Herramientas adicionales disponibles desde el menú **Bosquejo → Utilidades**,
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
+
+
 
 ## Características adicionales 
 
@@ -246,21 +264,31 @@ Herramientas adicionales disponibles desde el menú **Bosquejo → Utilidades**,
 
 </div>
 
+
+
 ## Menú contextual de vista de árbol 
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
 ### Default options 
 
-If there is an active document the context menu contains one additional sub-menu:
+For most Draft objects the following option is available:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+
+If there is an active document the context menu contains an additional sub-menu:
+
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
+
+
 
 ### Opciones Hilos 
 
 For a [Draft Line](Draft_Line.md) and a [Draft Wire](Draft_Wire.md) this additional option is available:
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten: flattens the wire on the current [Draft working plane](Draft_SelectPlane.md). This option does not work properly in {{VersionMinus|0.19}}.
+
+
 
 ### Opciones contenedor capas 
 
@@ -270,6 +298,8 @@ For a [Draft LayerContainer](Draft_Layer.md) these additional options are availa
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
+
+
 ### Opciones capa 
 
 For a [Draft Layer](Draft_Layer.md) these additional options are available:
@@ -277,6 +307,8 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activate this layer](Draft_AutoGroup.md): activates the selected layer.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
+
+
 
 ### Plano trabajo opciones proxy 
 
@@ -286,6 +318,8 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Context_menu.md): updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
+
+
 ## 3D vista menú contextual 
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
@@ -294,7 +328,9 @@ The following additional options are available in the [3D view](3D_view.md) cont
 
 If there is an active document the context menu contains one additional sub-menu:
 
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
+-   Utilities: a subset of the tools available in the main Draft Utilities menu.
+
+
 
 ## Herramientas obsoletas 
 
@@ -303,6 +339,8 @@ Estas herramientas se eliminaron de la interfaz en la v0.19 porque ya no tenían
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Array](Draft_Array.md): creates an orthogonal array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. {{Obsolete|0.17}}
+
+
 
 ## Preferencias
 
@@ -316,6 +354,8 @@ Estas herramientas se eliminaron de la interfaz en la v0.19 porque ya no tenían
 </div>
 
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences.md): preferences available for importing from and exporting to different file formats.
+
+
 
 ## Formatos de archivo 
 
@@ -339,6 +379,8 @@ Son funciones para abrir, importar o exportar otros formatos de archivo. Abrir a
 
 </div>
 
+
+
 ## Pruebas unitarias 
 
 
@@ -361,6 +403,8 @@ Para ejecutar las pruebas unitarias del banco de trabajo, ejecute lo siguiente d
 ```python
 freecad -t TestDraft
 ```
+
+
 
 ## Guionización
 
@@ -401,6 +445,8 @@ Inspeccionar el código de este módulo es útil para entender cómo utilizar la
 
 
 </div>
+
+
 
 ## Tutoriales
 

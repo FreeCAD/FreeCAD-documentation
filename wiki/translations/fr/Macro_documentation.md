@@ -1,13 +1,15 @@
 # Macro documentation/fr
+{{TOCright}}
+
 ## Description
 
-Toutes les macros doivent être correctement documentées de la même manière que les [commandes Gui](Gui_Command/fr.md) le sont.
+Toutes les macros doivent être correctement documentées de la même manière que les [Gui Commands](Gui_Command/fr.md) le sont.
 
-Elles doivent avoir leur propre page wiki et être répertoriées dans l\'une des catégories de la [Liste des Macros](Macros_recipes/fr.md).
+Elles doivent avoir leur propre page wiki et être répertoriées dans l\'une des catégories de la [liste des macros](Macros_recipes/fr.md).
 
 La page [Liste des Macros](Macros_recipes/fr.md) contient une sélection de macros créées par des utilisateurs expérimentés, qui peuvent être installées directement à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
-Voir le [Modèle GuiCommand](GuiCommand_model/fr.md) et les pages de macros comme les [Macro Loft](Macro_Loft/fr.md) et [Macro Site From Contours](Macro_Site_From_Contours/fr.md) pour voir comment documenter les macros. Au moins deux sections doivent être incluses, une section **Description** avec des informations générales sur l'utilisation et une section **Script** pour contenir le code réel de la macro. D\'autres sections peuvent être incluses si nécessaire pour expliquer plus en détail l\'utilisation de la macro.
+Voir le [Modèle GuiCommand](GuiCommand_model/fr.md) et les pages des macros comme celles de [Macro Loft](Macro_Loft/fr.md) et [Macro Site From Contours](Macro_Site_From_Contours/fr.md) pour voir comment documenter les macros. Au moins deux sections doivent être incluses, une section **Description** avec des informations générales sur l'utilisation et une section **Script** pour contenir le code réel de la macro. D\'autres sections peuvent être incluses si nécessaire pour expliquer plus en détail l\'utilisation de la macro.
 
 Si une macro fournit une fonctionnalité bien définie et est bien documentée, elle pourrait éventuellement être incluse dans un [atelier](Workbenches/fr.md) nouveau ou déjà existant.
 
@@ -15,10 +17,9 @@ Si une macro fournit une fonctionnalité bien définie et est bien documentée, 
 
 ## Nouvelle page pour une macro 
 
+La page originale doit être rédigée en anglais. Après que l\'un des administrateurs l\'ait marquée pour la traduction, elle peut être traduite dans une autre langue.
 
-{{ColoredText|La première page doit être créée '''obligatoirement''' en Anglais, la traduction de la page pour d'autres langues doit être validée par un administrateur et ensuite vous pouvez la traduire dans toutes les autres langues.}}
-
-Créez une nouvelle page pour la macro en commençant par le mot `Macro_` puis le nom de la macro, par exemple, `Macro_Excellent_Modification`. Le lien peut être utilisé sans trait de soulignement sous la forme `<nowiki>[Macro Site From Contours](Macro_Excellent_Modification/fr.md)</nowiki>`, ce qui s\'affiche [Macro Excellent Modification](Macro_Excellent_Modification/fr.md). Les espaces sont automatiquement convertis en traits de soulignement.
+Créez une nouvelle page pour la macro en commençant par le mot `Macro_` suivi du nom de la macro, par exemple, `Macro_Excellent_Modification`. Pour créer un lien vers la page, utilisez : `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`.
 
 Dans la nouvelle page, vous devez utiliser le [Template:Macro](Template_Macro.md) en haut, avec un minimum d\'informations:
 
@@ -38,7 +39,7 @@ Vous pouvez ajouter une icône personnalisée si elle ne porte pas le même nom 
 |Author=your username
 |Date=2018-11-30
 |Version=3.14516
-|SeeAlso=[[Macro Regular Modification]]
+|SeeAlso=[Macro Regular Modification](Macro_Regular_Modification.md)
 }}
 
 Lors de la traduction de la page, utilisez un modèle localisé. Vous devez spécifier le nom avec le code de langue à deux lettres (`/fr`, `/it`, `/de`) et vous devez indiquer l\'icône explicitement
@@ -69,7 +70,7 @@ ou utilisez le champ `Translate`
 [Template:Macro](Template_Macro.md) mettra les informations sur l\'utilisation et l\'installation des macros dans chaque page.
 
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
-*Les liens [Comment installer une macro](How_to_install_macros/fr.md) et [créer une barre d'outils](Customize_Toolbars/fr.md) se trouvent dans l'infobox de chaque page de macro*
+*Les liens [Comment installer une macro](How_to_install_macros/fr.md) et [Créer une barre d'outils](Customize_Toolbars/fr.md) se trouvent dans l'infobox de chaque page de la macro*
 
 
 
@@ -151,7 +152,7 @@ __IconW__  = "C:/Documents and Settings/YourUserName/Application Data/Free
 __Help__ = "start the macro and follow the instructions"
 __Status__ = "stable"
 __Requires__ = "freecad 0.14.3706"
-__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name" 
+__Communication__ = "http://www.freecadweb.org/wiki/index.php?title=User:User_Name"
 
 «Your code should be here»
 }}
@@ -173,13 +174,13 @@ Ce qui sera affiché comme : {{Codeextralink|https://gist.githubusercontent.com/
 Ce modèle doit être placé au début de la page de macro, dans la section **Description**. Il doit s\'agir du premier bloc de code de la page pour que du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) puisse le détecter automatiquement et l\'importer. Voir [Macro CirclePlus](Macro_CirclePlus/fr.md) pour un exemple d\'utilisation.
 
 
-{{ColoredParagraph|'''PS:''' En cas de mise à jour dans GitHub le chemin du code brut est modifié, ne pas oublier de modifier le lien dans le modèle Codeextralink.}}
+{{ColoredParagraph|'''PS :''' en cas de mise à jour dans GitHub, le chemin du code RAW brute est modifié sans oublier de modifier le lien dans le modèle Codeextralink.}}
 
 
 
 ## Ajouter une nouvelle macro au dépôt du wiki 
 
-Utilisez le template [Template:MacroLink](Template_MacroLink.md) pour inclure une ligne dans la catégorie appropriée de la [Liste des Macros](Macros_recipes/fr.md). Créez une nouvelle catégorie si nécessaire.
+Utilisez le template [Template:MacroLink](Template_MacroLink.md) pour inclure une ligne dans la catégorie appropriée de la [liste des macros](Macros_recipes/fr.md). Créez une nouvelle catégorie si nécessaire.
 
 
 ```python
