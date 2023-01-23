@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Draft Clone
-   Name/fr:Draft Clone
-   MenuLocation:Modification → Clone
+   Name/fr:Draft Cloner
+   MenuLocation:Modification → Cloner
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**C** **L**
    SeeAlso:[Draft Echelle](Draft_Scale/fr.md)
@@ -12,27 +12,33 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** crée des copies liées, des clones, des objets sélectionnés. La forme d\'un clone est paramétrique. Il sera mis à jour si son objet source change. Mais un clone a sa propre position, rotation et échelle, ainsi que ses propres [propriétés de vue](Property_editor/fr.md). Pour les objets [Arch](Arch_Workbench/fr.md), la commande crée un type spécial de clone : un clone Arch.
+La commande <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Cloner** crée des copies liées, des clones, des objets sélectionnés. La forme d\'un clone est paramétrique. Il sera mis à jour si son objet source change. Mais un clone a sa propre position, rotation et échelle, ainsi que ses propres [propriétés de vue](Property_editor/fr.md). Pour les objets [Arch](Arch_Workbench/fr.md), la commande crée un type spécial de clone : un clone Arch.
 
 Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md). Les clones d\'objets 2D peuvent être utilisés dans des [PartDesign Corps](PartDesign_Body/fr.md).
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Un Draft Clone à côté de son objet source*
 
+
+
 ## Utilisation
 
 1.  Vous pouvez sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Clone.svg" width=16px> [Clone](Draft_Clone/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Clone.svg" width=16px> Clone** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_Clone.svg" width=16px> [Cloner](Draft_Clone/fr.md)**.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Clone.svg" width=16px> Cloner** dans le menu.
     -   Utilisez le raccourci clavier : **C** puis **L**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet créé avec la commande Draft Clone est dérivé d\'un objet [Part Part2DObject](Part_Part2DObject/fr.md), d\'un objet [Part Feature](Part_Feature/fr.md) ou, si un Arch Clone est créé, du type d\'objet de l\'objet source. Il hérite de toutes les propriétés de cet objet. Un clone dérivé de l\'un des deux premiers objets possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -44,6 +50,8 @@ Un objet créé avec la commande Draft Clone est dérivé d\'un objet [Part Part
 -    **Objects|LinkListGlobal**: spécifie les objets qui sont clonés.
 
 -    **Scale|Vector**: spécifie les facteurs d\'échelle X, Y et Z.
+
+
 
 ## Script
 

@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -34,9 +36,15 @@ A differenza dello strumento **<img src="images/Draft_Clone.svg" width=16px> [Cl
 
 Il componente clone ha semplicemente la sua proprietà **CloneOf** impostata sull\'oggetto selezionato.
 
+
+
 ## Utilizzo
 
+
+
 ## Proprietà
+
+
 
 ## Script
 

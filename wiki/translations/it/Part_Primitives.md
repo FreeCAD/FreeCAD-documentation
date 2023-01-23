@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descrizione
@@ -39,7 +41,7 @@
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Part Primitives](Part_Primitives.md)** button.
-    -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
+    -   Select the **Part → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
 2.  The **Geometric Primitives** task panel opens.
 3.  Select a primitive type from the dropdown list.
 4.  Specify the properties.
@@ -58,6 +60,8 @@
 5.  Press the **OK** button.
 
 The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -95,6 +99,8 @@ Alcune delle primitive geometriche (parametriche) disponibili che sono possibili
 ## Notes
 
 -   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
+
+
 
 ## Script
 

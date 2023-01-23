@@ -19,6 +19,8 @@ Les objets Part sont plus complexes que les objets maillés créés avec [l\'ate
 
 *L'atelier Part est la couche de base qui expose les fonctions de dessin OCCT à tous les ateliers de FreeCAD.*
 
+
+
 ## Les outils 
 
 Les outils de l\'atelier Part sont situés dans les menus **Pièce** ou **Mesure**.
@@ -59,6 +61,8 @@ Ce sont des outils pour créer des objets primitifs.
 
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Générateur de formes](Part_Builder/fr.md) : crée des formes à partir de diverses primitives.
 
+
+
 ### Création et modification 
 
 Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des objets existants.
@@ -73,7 +77,7 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chanfrein](Part_Chamfer/fr.md) : chanfreine les bords d\'un objet.
 
--   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Face à partir de fils](Part_MakeFace/fr.md) : génère une face à partir d\'un ensemble de fils (contours). {{Version/fr|0.19}}
+-   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Face à partir de polylignes](Part_MakeFace/fr.md) : génère une face à partir d\'un ensemble de polylignes (contours). {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Surface réglée](Part_RuledSurface/fr.md) : crée une surface réglée.
 
@@ -94,6 +98,8 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projection sur une surface](Part_ProjectionOnSurface/fr.md) : projette un logo, un texte ou une face, un fil ou une arête sur une surface. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Ancrage](Part_EditAttachment/fr.md) : rattache un objet à un autre objet.
+
+
 
 ### Booléen
 
@@ -123,6 +129,8 @@ Ces outils effectuent des opérations booléennes.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Scinder](Part_Slice/fr.md) : scinde un objet en morceaux par intersection avec d\'autres objets.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [OU exclusif](Part_XOR/fr.md) : supprime l\'espace partagé (commun) par un nombre pair d\'objets.
 
+
+
 ### Mesure
 
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width:32px;"> [Mesure linéaire](Part_Measure_Linear/fr.md) : crée une mesure linéaire.
@@ -138,6 +146,8 @@ Ces outils effectuent des opérations booléennes.
 -   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width:32px;"> [Basculer 3D](Part_Measure_Toggle_3D/fr.md) : affiche ou masque les mesures 3D.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Basculer Delta](Part_Measure_Toggle_Delta/fr.md) : affiche ou masque les mesures delta.
+
+
 
 ### Autres outils 
 
@@ -163,7 +173,9 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Vérifier la géométrie](Part_CheckGeometry/fr.md) : vérifie la géométrie des objets sélectionnés pour en détecter les erreurs.
 
--   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Défaire une fonctionnalité](Part_Defeaturing/fr.md) : supprime les fonctionnalités d\'un objet.
+-   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Supprimer la fonctionnalité](Part_Defeaturing/fr.md) : supprime les fonctionnalités d\'un objet.
+
+
 
 ### Éléments du menu contextuel 
 
@@ -171,15 +183,21 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Définir les couleurs](Part_FaceColors/fr.md) : attribue des couleurs aux faces des pièces.
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [PartDesign Préférences](PartDesign_Preferences/fr.md) : préférences disponibles pour les outils de Part (l\'atelier Part utilise également les préférences PartDesign).
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'Import Export](Import_Export_Preferences/fr.md) : préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichier.
 -   [Réglage fin](Fine-tuning/fr.md) : quelques paramètres supplémentaires pour affiner le comportement de la partie.
 
+
+
 ## Script
 
 Voir [Part Ecrire un script](Part_scripting/fr.md)
+
+
 
 ## Tutoriels
 

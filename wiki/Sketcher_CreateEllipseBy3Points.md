@@ -16,11 +16,11 @@ This tool draws an ellipse by picking three points : (1) the periapsis (first cr
 
 When starting the tool, the mouse pointer changes to a white cross with a red ellipse icon.
 
- ![](images/Ellipse_3Point.png‎ ) 
-
-
-
-*The sequence of clicks is indicated by yellow arrows with numbers.<br/>1 is the periapsis, 2 is the apoapsis, 3 is the defining point for minor diameter, green lines are major and minor diameters. Blue lines are random construction lines just for illustration purpose.*
+ ![](images/Ellipse_3Point.png‎ )  
+*The sequence of clicks is indicated by yellow arrows with numbers.<br>
+1 is the periapsis, 2 is the apoapsis, 3 is the defining point for the minor diameter.<br>
+The green lines are the major and minor diameters.<br>
+The blue lines are construction lines for illustration purposes.*
 
 ## Usage
 

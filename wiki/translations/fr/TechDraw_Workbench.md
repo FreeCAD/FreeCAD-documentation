@@ -137,15 +137,9 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajoute une \"infobulle\" dans la page. {{Version/fr|0.19}}
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire à partir des points du repère. {{Version/fr|0.19}}
 
-
-</div>
-
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Réparation des cotes](TechDraw_DimensionRepair/fr.md) : permet d\'ajuster les références géométriques 2D ou 3D d\'une cote. <small>(v1.0)</small> 
 
 ## Annotations
 

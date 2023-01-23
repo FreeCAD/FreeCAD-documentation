@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die meisten Beschränkungen dupliziert werden, so dass beide Teile bis auf die Teilungspunktlage beschränkt bleiben. Im speziellen Fall eines Kreises wird dieser in einen Bogen mit losen Enden umgewandelt, wobei die bestehenden Kreisbeschränkungen auf den neuen Bogen übertragen werden.
-
-
-</div>
+Dieses Werkzeug teilt eine Kante in zwei auf, wobei vorhandene anwendbare Randbedingungen auf die neue Kante kopiert werden. Die Position des Punktes an dem sich beide Kanten treffen ist nicht festgelegt. Geschlossene Kurven (z.B. Kreise, Ellipsen und geschlossene B-splines) werden in entsprechende offene Kurven umgewandelt (Kreisbögen, Ellipsenbögen und offene B-Splines).
 
 ![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
 
@@ -36,25 +30,25 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 
 
 
-## Begrenzungen
+## Einschränkungen
 
--   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
+-   In der {{VersionMinus/de|0.20}} wird die Funktion für Ellipsen, Parabeln, Hyperbeln und B-Splines nicht unterstützt.
 
 
 
 ## Hinweise
 
--   Alle Deckungsgleicheiten werden übertragen - Startpunkt, Endpunkt und Mittelpunkt (falls zutreffend).
--   Die Punkt auf Objekt Beschränkung wird auf die nähere, neu erstellte Kante übertragen.
--   Vertikale und horizontale Beschränkung werden auf beide Nachkommen kopiert.
--   Parallele und senkrechte Beschränkung werden für beide Liniensegmente kopiert, für Bögen nur einmal, und zwar auf den näheren Teil.
--   Die Gleichheitsbeschränkung wird nur für die resultierenden Bogenkanten übertragen, die Liniensegmente erhalten sie nicht.
--   Die Symmetriebeschränkung wird derzeit nicht übertragen.
--   Die Blockbeschränkung wird derzeit nicht übertragen.
--   Horizontale, vertikale und Längenbeschränkungen zwischen Punkten werden auf die äußeren Punkte der neuen Kanten übertragen.
--   Die Punktabstandsbeschränkung wird nur einmal zugewiesen, und zwar dem näheren Kantensegment.
--   Radius- und Durchmesserbeschränkungen werden auf jeden entstehenden Bogen kopiert.
--   Die Winkelbeschränkung wird derzeit nicht übertragen.
+-   Die Randbedingung Koinzidenz festlegen wird in allen Fällen übertragen - Startpunkt, Endpunkt und Mittelpunkt (falls zutreffend).
+-   Die Randbedingung Punkt auf Objekt festlegen wird auf die nähere, neu erstellte Kante übertragen.
+-   Die Randbedingungen Vertikal Festlegen und Horizontal festlegen werden auf beide Nachfolger kopiert.
+-   Die Randbedingungen Parallel festlegen und Rechtwinklig festlegen werden auf beide Liniensegmente übertragen, auf Bögen nur einmal, und zwar auf den näheren Teil.
+-   Die Randbedingung Gleichheit festlegen wird nur auf die resultierenden Bogenkanten übertragen und nicht auf die Liniensegmente.
+-   Die Randbedingung Symmetrie festlegen wird nicht übertragen.
+-   Die Randbedingung Fixieren wird derzeit nicht übertragen.
+-   Die Randbedingungen Horizontalen Abstand festlegen, Vertikalen Abstand festlegen und Abstand festlegen (zwischen Punkten) werden auf die äußeren Punkte der neuen Kanten übertragen.
+-   Die Randbedingungen Abstand festlegen (zwischen Punkt und Kante) wird nur einmal zugewiesen, und zwar dem näheren Kantensegment.
+-   Randbedingungen Radius festlegen und Durchmesser festlegen werden auf alle entstehenden Bögen kopiert.
+-   Die Randbedingung Winkel festlegen wird derzeit nicht übertragen.
 
 
 

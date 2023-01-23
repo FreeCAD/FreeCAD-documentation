@@ -13,12 +13,23 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento disegna un arco di ellisse selezionando quattro punti: il centro, la fine del raggio maggiore, il punto iniziale e il punto finale dell\'arco. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con un\'icona a forma di ellisse rossa. Le coordinate sono indicate in tempo reale.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
+<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;">
+
+
+<div class="mw-translate-fuzzy">
+
 *La sequenza della selezione è indicata dalle frecce gialle con i numeri. C è il centro, a è il diametro maggiore, b è il diametro minore, F1 e F2 sono i fuochi.*
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -33,11 +44,19 @@ Questo strumento disegna un arco di ellisse selezionando quattro punti: il centr
 
 </div>
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## Peculiarità
 
 -   Gli assi maggiore e minore dell\'ellisse sono tassativi e non possono essere scambiati ridimensionando l\'ellisse. Per scambiare gli assi l\'ellisse deve essere ruotata.
 -   Diversamente dall\'ellisse che può essere vincolata per diventare un cerchio, un arco di ellisse non può essere rappresentato o considerato un arco di cerchio.
 -   Spostare l\'arco dell\'ellisse dal bordo equivale a spostare il suo centro.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -10,21 +10,17 @@
 
 # Sketcher CreateEllipseByCenter/zh-cn
 
+
+
 ## 描述
 
 本工具会根据用户拾取的三个点：中点、长半轴点与短半轴点来绘制一个椭圆。 在开启此工具时，鼠标指针会变为一个附有红色椭圆图标的白色十字。同时还会将当前的指针坐标实时显现在侧。
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="绘制椭圆所选中的一系列点以带数字的黄色箭头表示。C为中点，a - 长轴，b - 短轴，F1、F2为焦点。" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
-
-
-</div>
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
+*The sequence of clicks is indicated by yellow arrows with numbers.<br>
+C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
 
 
-
-*The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
 
 
 <div class="mw-translate-fuzzy">

@@ -10,9 +10,13 @@
 
 # Std DrawStyle/it
 
+
+
 ## Descrizione
 
 Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà](Property_editor/it.md) che definiscono la {{PropertyView/it|modalità di visualizzazione}} degli oggetti nella [vista 3D](3D_view/it.md).
+
+
 
 ## Utilizzo
 
@@ -22,7 +26,11 @@ Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà]
     -   Nel menu contestuale [Vista 3D](3D_view/it.md) andare in **Stile di disegno** e selezionare uno stile.
     -   Usare una delle scorciatoie da tastiera: **V** e poi **1**, **2**, **3**, **4**, **5**, **6** o **7**.
 
+
+
 ## Stili di disegno disponibili 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +46,8 @@ Lo stile **Come è** non sovrascrive la proprietà **Display Mode** (Modalità d
 *4 oggetti identici ciascuno con una modalità di visualizzazione diversa (da sinistra a destra: 'Punti', 'Reticolo', 'Ombreggiato' e 'Facce piene') con lo stile di disegno 'Come è' applicato*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Punti 
@@ -49,6 +59,8 @@ Lo stile **Punti** sovrascrive la proprietà **Display Mode** degli oggetti. Que
 
 ![](images/Std_DrawStylePoints_example.png ) 
 *Gli stessi oggetti con lo stile di disegno 'Punti' applicato*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -64,6 +76,8 @@ Lo stile **Reticolo** sovrascrive la proprietà **Display Mode** degli oggetti. 
 *Gli stessi oggetti con lo stile di disegno 'Reticolo' applicato*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Linee nascoste 
@@ -75,6 +89,8 @@ Lo stile **Linee nascoste** sovrascrive la proprietà **Display Mode** degli ogg
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
 *Gli stessi oggetti con lo stile di disegno 'Linee nascoste' applicato*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -90,6 +106,8 @@ Lo stile **Senza ombre** sovrascrive la proprietà **Display Mode** degli oggett
 *Gli stessi oggetti con lo stile di disegno 'Senza ombre' applicato*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> Ombreggiato 
@@ -103,6 +121,8 @@ Lo stile **Ombreggiato** sovrascrive la proprietà **Display Mode** degli oggett
 *Gli stessi oggetti con lo stile di disegno 'Ombreggiato' applicato*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Facce piene 
@@ -114,6 +134,8 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 
 ![](images/Std_DrawStyleFlatLines_example.png ) 
 *Gli stessi oggetti con lo stile di disegno 'Facce piene' applicato*
+
+
 
 ## Note
 

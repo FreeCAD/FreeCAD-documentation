@@ -10,9 +10,13 @@
 
 # Std DrawStyle/ru
 
+
+
 ## Описание
 
 The **Std DrawStyle** command can override the effect of the **Display Mode** [property](Property_editor.md) of objects in a [3D view](3D_view.md).
+
+
 
 ## Применение
 
@@ -23,6 +27,8 @@ The **Std DrawStyle** command can override the effect of the **Display Mode** [p
     -   Use one of the keyboard shortcut: **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
 
 ## Available draw styles 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +44,8 @@ The **As is** style does not override the **Display Mode** of objects.
 *4 identical objects each with a different Display Mode (from left to right: 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Точки 
@@ -49,6 +57,8 @@ The **Points** style overrides the **Display Mode** of objects. This style match
 
 ![](images/Std_DrawStylePoints_example.png ) 
 *The same objects with the 'Points' draw style applied*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -64,6 +74,8 @@ The **Wireframe** style overrides the **Display Mode** of objects. This style ma
 *The same objects with the 'Wireframe' draw style applied*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Скрытые линии 
@@ -75,6 +87,8 @@ The **Hidden line** style overrides the **Display Mode** of objects. Objects are
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
 *The same objects with the 'Hidden line' draw style applied*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -97,6 +111,8 @@ The **Shaded** style overrides the **Display Mode** of objects. This style match
 *The same objects with the 'Shaded' draw style applied*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Плоские линии 
@@ -108,6 +124,8 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
 ![](images/Std_DrawStyleFlatLines_example.png ) 
 *The same objects with the 'Flat lines' draw style applied*
+
+
 
 ## Примечания
 

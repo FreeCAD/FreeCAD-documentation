@@ -139,7 +139,7 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 
 -   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Composant](Arch_Component/fr.md) : crée un composant Arch non-paramétrique.
 
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Composant de clone](Arch_CloneComponent/fr.md) : produit des composants Arch qui sont des clones d\'objets Arch sélectionnés (à ne pas confondre avec [Draft Clone](Draft_Clone/fr.md)).
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Composant de clone](Arch_CloneComponent/fr.md) : produit des composants Arch qui sont des clones d\'objets Arch sélectionnés (à ne pas confondre avec [Draft Cloner](Draft_Clone/fr.md)).
 
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Diviser un maillage](Arch_SplitMesh/fr.md) : divise un maillage sélectionné en composants séparés.
 

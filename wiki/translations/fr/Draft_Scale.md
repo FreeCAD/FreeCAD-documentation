@@ -5,7 +5,7 @@
    MenuLocation:Modification → Échelle
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **C**
-   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Clone](Draft_Clone/fr.md)
+   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Cloner](Draft_Clone/fr.md)
 ---
 
 # Draft Scale/fr
@@ -37,6 +37,8 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 
 ## Options
 
+
+
 ### Premier panneau des tâches 
 
 Les raccourcis clavier à caractère unique mentionné ici peut être modifié. Voir les [Préférences Draft](Draft_Preferences/fr.md).
@@ -45,6 +47,8 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 -   Appuyez sur **G** ou cochez la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées de [Draft Plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur le bouton **Fermer** pour annuler la commande.
+
+
 
 ### Deuxième panneau de tâches 
 
@@ -57,9 +61,13 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 -   Appuyez sur le bouton **Sélectionnez à partir de/vers les points** et sélectionnez deux points supplémentaires dans la [Vue 3D](3D_view/fr.md) pour calculer les facteurs d\'échelle. Cela cochera automatiquement la case **Mise à l'échelle uniforme**. Les facteurs d\'échelle X, Y et Z seront donc égaux et seront réglés sur la distance entre le point de base et le point « à partir de » divisé par la distance entre le point de base et le point « vers ».
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
+
+
 ## Remarques
 
 -   La commande peut également mettre à l\'échelle [une image plane](Image_CreateImagePlane/fr.md), mais pas en mode clone.
+
+
 
 ## Préférences
 
@@ -67,6 +75,8 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 -   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{Version/fr|0.20}}) et des coordonnées : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
 -   Pour resélectionner les objets de base après avoir copié les objets : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
+
+
 
 ## Script
 

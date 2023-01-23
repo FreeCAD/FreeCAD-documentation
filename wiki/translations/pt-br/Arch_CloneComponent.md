@@ -9,6 +9,8 @@
 
 # Arch CloneComponent/pt-br
 
+
+
 ## Descrição
 
 The **<img src="images/Arch_CloneComponent.svg" width=16px> [Arch Clone Component](Arch_CloneComponent.md)** produces **<img src="images/Arch_Component.svg" width=16px> [Arch Components](Arch_Component.md)** that are clones of selected Arch objects.
@@ -17,7 +19,11 @@ The **<img src="images/Arch_CloneComponent.svg" width=16px> [Arch Clone Componen
 
 The clone component will simply have its **CloneOf** property set to the selected object.
 
+
+
 ## Utilização
+
+
 
 ## Propriedades
 

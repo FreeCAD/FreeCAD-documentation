@@ -21,7 +21,7 @@ The <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Part Prim
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Part Primitives](Part_Primitives.md)** button.
-    -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
+    -   Select the **Part → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
 2.  The **Geometric Primitives** task panel opens.
 3.  Select a primitive type from the dropdown list.
 4.  Specify the properties.

@@ -32,7 +32,7 @@ Timber Listining
 
 Timber Beam
 
--   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam**: Creates a structure object from scatch or from a selected object (sketch, wire, face or solid)
+-   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam**: Creates a structure object from scratch or from a selected object (sketch, wire, face or solid)
 -   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Machining Cut**: Creates a cut machining to a Timber Beam object, relative to a plane (face)
 
 Other
@@ -63,7 +63,6 @@ See [How to install macros](How_to_install_macros.md)
 ## Other useful links 
 
 -   [Wood Library](https://github.com/wood-galaxy/FC-Library)
--   [Connectors Parts](https://github.com/FreeCAD/FreeCAD-library/tree/master/Wood%20Construction/Connectors/Ironsmith%20Parts)
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Download](Download.md)

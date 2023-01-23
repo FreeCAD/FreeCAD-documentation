@@ -14,21 +14,17 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento disegna un ellisse selezionando tre punti: il centro, la fine del raggio maggiore, il raggio minore. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con un\'icona a forma di ellisse rossa. Le coordinate sono indicate in tempo reale.
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="La sequenza della selezione è indicata dalle frecce gialle con i numeri. C è il centro, a è il diametro maggiore, b è il diametro minore, F1 e F2 sono i fuochi." src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
-
-
-</div>
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
+*The sequence of clicks is indicated by yellow arrows with numbers.<br>
+C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
 
 
-
-*The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
 
 ## Utilizzo
 

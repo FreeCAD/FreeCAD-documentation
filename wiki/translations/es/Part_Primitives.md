@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -33,6 +35,8 @@
 
 
 </div>
+
+
 
 ## Uso
 
@@ -70,6 +74,8 @@ En la pestaña Modelo: {{Version/es|0.19}}
 
 The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
+
+
 ## Primitivas geométricas paramétricas 
 
 
@@ -100,6 +106,8 @@ Se pueden crear las siguientes Primitivas:
 ## Notes
 
 -   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
+
+
 
 ## Programación
 

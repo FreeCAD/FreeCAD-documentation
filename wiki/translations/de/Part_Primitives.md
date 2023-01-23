@@ -9,6 +9,8 @@
 
 # Part Primitives/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Part Grundelemente** öffnet ein Dialogfeld zum Erstellen eines oder mehrerer parametrischer Grundelemente. 16 verschiedene Grundelemente (Körper und Linienelemente) stehen zur Verfügung.
@@ -16,7 +18,11 @@ Der Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Pa
 <img alt="" src=images/Part_Primitives_example.png  style="width:600px;"> 
 *Die Grundelemente, die mit dem Befehl erstellt werden können.*
 
+
+
 ## Anwendung
+
+
 
 ### Erstellung
 
@@ -34,6 +40,8 @@ Um ein Grundelement zu erstellen, entweder
 
 </div>
 
+
+
 ### Bearbeiten
 
 
@@ -49,6 +57,8 @@ Verwendung des Dialogs: <small>(v0.19)</small>
 </div>
 
 The properties of a Part Primitive can also be changed in the [Property editor](Property_editor.md), and its **Placement** can also be changed with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+
+
 
 ## Geometrische Grundelemente 
 
@@ -77,9 +87,13 @@ Einige der verfügbaren (parametrischen) geometrischen Grundelemente, die mögli
 
 </div>
 
+
+
 ## Hinweise
 
 -   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
+
+
 
 ## Skripten
 

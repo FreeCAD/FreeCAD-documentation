@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo del radio mayor y el radio menor. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de elipse rojo. Además se muestran las coordenadas en tiempo real.
@@ -20,8 +22,16 @@ Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo 
 <img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *La secuencia de clics se indica con flechas amarillas con números. C es el centro, a - diámetro mayor, b - diámetro menor, F1, F2 son focos.*
+
+
+</div>
+
+
 
 ## Utilización
 
@@ -29,6 +39,8 @@ Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo 
 -   El primer clic en la vista 3D establece el centro de la elipse. El segundo clic establece el primer radio y la orientación de la elipse. El tercer clic establece el otro radio (la distancia desde la línea definida por los dos primeros clics es el segundo radio).
 -   Después del tercer clic, se crea la elipse, junto con un conjunto de geometría de construcción alineada con ella (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede ser eliminada manualmente si no se necesita, y recreada más tarde. Ver [Restricción de alineación interna](Sketcher_ConstrainInternalAlignment/es.md) y [Croquizador Mostrar Ocultar la geometría interna](Sketcher_RestoreInternalAlignmentGeometry/es.md).
 -   Pulsar **ESC** o hacer clic con el botón derecho del ratón cancela la función.
+
+
 
 ## Peculiaridades
 

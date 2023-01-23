@@ -12,17 +12,23 @@
 
 ## Description
 
-La commande **Std Boîte englobante** bascule le mode de surbrillance du cadre de sélection global. Si ce mode est activé, les objets sélectionnés sont marqués dans une [vue 3D](3D_view/fr.md) avec un cadre de sélection en surbrillance même si leur **Selection Style** est défini sur \'Shape\' (Forme).
+La commande **Std Boîte englobante** bascule le mode de surbrillance du cadre de sélection global. Si ce mode est activé, les objets sélectionnés sont marqués dans une [vue 3D](3D_view/fr.md) avec un cadre de sélection en surbrillance même si leur **Selection Style** est défini sur \"Shape\" (Forme).
+
+
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Std_SelBoundingBox.svg" width=16px> [Boîte englobante](Std_SelBoundingBox/fr.md)**.
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_SelBoundingBox.svg" width=16px> Boîte englobante** dans le menu.
 
+
+
 ## Préférences
 
-Le mode en question est stocké : **Outils → Éditer paramètres... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Il s\'agit d\'une valeur booléenne, la valeur par défaut est `False`.
+Le mode en question est stocké : **Outils → Éditer les paramètres... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Il s\'agit d\'une valeur booléenne, la valeur par défaut est `False`.
+
+
 
 ## Script
 

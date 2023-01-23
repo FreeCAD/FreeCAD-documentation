@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\'[Ambiente Arch](Arch_Workbench/it.md) <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> fornisce a FreeCAD un moderno flusso di lavoro di tipo [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM), con supporto per funzionalità come entità architettoniche completamente parametriche come muri, travi, tetti, finestre, scale, tubazioni e mobili. Supporta i file [industry foundation classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC/it.md)), e la produzione di planimetrie 2D in combinazione con l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
@@ -14,6 +16,8 @@ La funzionalità BIM di FreeCAD ora è progressivamente distribuita in questo am
 Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comunità OSArch](https://osarch.org), con l\'obiettivo finale di migliorare la progettazione degli edifici utilizzando software completamente gratuito.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## Strumenti
 
@@ -113,6 +117,8 @@ Strumenti per creare gli oggetti architettonici.
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Raccordo](Arch_PipeConnector/it.md): Crea un angolo o una connessione a T tra 2 o 3 tubi selezionati.
 
+
+
 ### Strumenti di modifica 
 
 Strumenti per modificare gli oggetti architettonici.
@@ -126,6 +132,8 @@ Strumenti per modificare gli oggetti architettonici.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Rimuovi componente](Arch_Remove/it.md): Sottrae o rimuove oggetti da un componente.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Ispeziona](Arch_Survey/it.md): Entra o esce dalla modalità di rilevamento.
+
+
 
 ### Utilità
 
@@ -161,24 +169,22 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferenze](Arch_Preferences/it.md): preferenze per l\'aspetto predefinito di pareti, strutture, armature, finestre, scale, pannelli, tubazioni, griglie e assi.
 
+
+
 ### Formati dei file 
-
-
-<div class="mw-translate-fuzzy">
 
 -   [IFC](Arch_IFC/it.md): Industry foundation classes
 -   [DAE](Arch_DAE/it.md): Formato mesh Collada
--   [OBJ](Arch_OBJ/it.md): Formato mesh Obj (solo esportazione)
+-   [OBJ](Arch_OBJ/it.md): Formato mesh OBJ (solo esportazione)
 -   [JSON](Arch_JSON/it.md): Formato JavaScript Object Notation (solo esportazione)
 -   [3DS](Arch_3DS/it.md): Formato 3DS (solo importazione)
 -   [SHP](Arch_SHP/it.md): GIS Shapefiles (solo importazione)
 
-
-</div>
-
 ## API
 
 Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/it.md) utilizzando le funzioni [Python API di Arch](Arch_API/it.md).
+
+
 
 ## Tutorial
 

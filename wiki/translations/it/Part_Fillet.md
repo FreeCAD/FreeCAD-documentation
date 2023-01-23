@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Questo strumento raccorda (arrotonda) i bordi selezionati di un oggetto. Una fin
 
 
 </div>
+
+
 
 ## Utilizzo
 

@@ -32,6 +32,8 @@ A Part Circle can alternatively be created by selecting three points:
 A Part Circle object created with the [scripting example](#Scripting.md) below is shown here.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Základní geometrické tvary 

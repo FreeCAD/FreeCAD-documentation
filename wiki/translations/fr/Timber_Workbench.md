@@ -1,74 +1,87 @@
 # Timber Workbench/fr
 **Cet établi n'est plus développé ni maintenu.**
 
+
+
 ## Introduction
 
 
 {{TOCright}}
 
-A complementary workbench for FreeCAD whose main goal is to provide tools to facilitate the modeling of wooden constructions (frame, timber frame, etc \...).
+Un atelier complémentaire à FreeCAD dont le but principal est de fournir des outils pour faciliter la modélisation des constructions en bois (charpente, ossature bois, etc\...).
 
-## References
 
--   Author: Jonathan Wiedemann wood-galaxy
--   Home page: <https://github.com/wood-galaxy>
--   Source code on github: <https://github.com/wood-galaxy/FreeCAD-Timber>
 
-## Tools
+## Références
 
-Detailed description <http://forum.freecadweb.org/viewtopic.php?t=12559>
+-   Auteur : Jonathan Wiedemann bois-galaxie
+-   Page d\'accueil : <https://github.com/wood-galaxy>
+-   Code source sur github : <https://github.com/wood-galaxy/FreeCAD-Timber>
 
-Toolbar
+
+
+## Outils
+
+Description détaillée <http://forum.freecadweb.org/viewtopic.php?t=12559>
+
+Barre d\'outils
 
 ![](images/Timber-menu-orizz.png )
 
-Timber Tools
+Outils de Timber
 
--   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> **Repartition**: Make axis or structural system along a line
--   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> **Tag**: Add a tag to selected object(s)
+-   <img alt="" src=images/Timber-Repartition.svg  style="width:32px;"> *\'Repartition* : crée un axe ou un système structurel le long d\'une ligne.
+-   <img alt="" src=images/Timber-Tag.svg  style="width:32px;"> *\'Tag* : ajoute un tag à un ou plusieurs objets sélectionnés.
 
-Timber Listining
+Énumération de Timber
 
--   <img alt="" src=images/Timber-Listing.svg  style="width:32px;"> **Listing**: List objects
+-   <img alt="" src=images/Timber-Listing.svg  style="width:32px;"> **Listing** : énumére les objets.
 
-Timber Beam
+Poutre de Timber
 
--   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam**: Creates a structure object from scatch or from a selected object (sketch, wire, face or solid)
--   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Machining Cut**: Creates a cut machining to a Timber Beam object, relative to a plane (face)
+-   <img alt="" src=images/Timber-Beam.svg  style="width:32px;"> **Timber Beam** : crée un objet structure à partir de rien ou d\'un objet sélectionné (esquisse, polyligne, face ou solide).
+-   <img alt="" src=images/Timber-MachiningCut.svg  style="width:32px;"> **Machining Cut** : crée une coupe d\'usinage sur un objet Timber Beam, par rapport à un plan (face).
 
-Other
+Autres
 
 -   <img alt="" src=images/Timber-BeamTree.svg  style="width:32px;">
--   <img alt="" src=images/Timber_Timber.png  style="width:32px;"> Timber icon
+-   <img alt="" src=images/Timber_Timber.svg  style="width:32px;"> Icône de Timber
 
 ## Installation
 
-### Automatic installation 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
-### From GitHub 
+### Installation automatique 
 
-See [How to install macros](How_to_install_macros.md)
+Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
-## Links to Timber WB 
 
--   Workbench Wiki:
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?t=12559>
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php) or <https://github.com/wood-galaxy/FreeCAD-Timber/issues>
 
-## Other useful links 
+### Depuis GitHub 
+
+Voir [Comment installer des Macros](How_to_install_macros/fr.md)
+
+
+
+## Liens avec l\'atelier Timber 
+
+-   Atelier Wiki :
+-   Wiki FreeCAD :
+-   Forum FreeCAD : <http://forum.freecadweb.org/viewtopic.php?t=12559>
+-   Tutoriels :
+-   Vidéos :
+-   Dossiers :
+-   Signaler les bogues : signalez les bogues sur [forum FreeCAD](http://forum.freecadweb.org/index.php) ou <https://github.com/wood-galaxy/FreeCAD-Timber/issues>
+
+
+
+## Autres liens intéressants 
 
 -   [Wood Library](https://github.com/wood-galaxy/FC-Library)
--   [Connectors Parts](https://github.com/FreeCAD/FreeCAD-library/tree/master/Wood%20Construction/Connectors/Ironsmith%20Parts)
--   [External workbenches](External_workbenches.md)
--   [Macros recipes](Macros_recipes.md)
--   [FreeCAD Download](Download.md)
--   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
+-   [Ateliers externes](External_workbenches/fr.md)
+-   [Liste des macros](Macros_recipes/fr.md)
+-   [Téléchargement de FreeCAD](Download/fr.md)
+-   [FreeCAD Portail communautaire](FreeCAD_Community_Portal/fr.md)
 
 
 

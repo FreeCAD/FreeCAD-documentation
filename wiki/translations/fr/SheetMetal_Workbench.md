@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduction
 
 <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) et ne fait pas partie de l\'installation standard de FreeCAD. Il a été développé pour fournir des outils permettant de créer et de déplier des objets en tôle.
@@ -25,6 +27,8 @@ Si l\'exportation au format DXF est utilisée pour contrôler des machines (Lase
 ## Installation
 
 Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+
+
 
 ## Outils
 
@@ -54,6 +58,8 @@ Une description détaillée (en anglais) des outils peut être trouvée [sur le 
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md): emboutit des formes avec ou sans trous dans une plaque de tôle.
 
+
+
 ## Description sommaire 
 
 Cet atelier fournit des outils pour les deux tâches principales :
@@ -63,17 +69,25 @@ Cet atelier fournit des outils pour les deux tâches principales :
 
 Cette section est destinée à donner une idée générale de la façon d\'utiliser les outils fournis. Des informations plus détaillées peuvent être trouvées sur la page de chaque outil (voir ci-dessus) ou dans les tutoriels liés (voir ci-dessous).
 
+
+
 ### Créer un objet en tôle 
+
+
 
 #### Débuter avec un profil 
 
 1.  Créer une polyligne ouverte (de préférence avec le sketcher)
 2.  Utilisez la commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/fr.md) pour créer un profilé en tôle.
 
+
+
 #### Débuter avec un panneau 
 
 1.  Créer une polyligne fermée (de préférence avec le sketcher)
 2.  Utilisez la commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/fr.md) pour créer un panneau de tôle.
+
+
 
 #### Débuter avec une PartDesign protrusion 
 
@@ -88,6 +102,8 @@ Cette section est destinée à donner une idée générale de la façon d\'utili
 Certains paramètres seront hérités du ou des objets parents, mais il est préférable de vérifier les paramètres pertinents à chaque étape.
 
 Il faut maintenant vérifier si l\'objet en tôle résultant peut être déplié. (voir [Déplier un objet en tôle](#D.C3.A9plier_un_objet_en_t.C3.B4le.md) ci-dessous).
+
+
 
 #### Ajout de fonctionnalités supplémentaires 
 
@@ -106,11 +122,15 @@ Les objets de base en tôle dépliables peuvent être étendus :
 
 Plusieurs outils provenant d\'autres ateliers peuvent être utilisés pour ajouter des trous ou remodeler des bords.
 
+
+
 ### Déplier un objet en tôle 
 
 Pour déplier un objet en tôle, activez l\'outil <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold/fr.md) ou l\'outil <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md).
 
 Le résultat sera un objet 3D avec une esquisse de contour en option comprenant des lignes de pliage.
+
+
 
 ### Exemples
 
@@ -120,11 +140,15 @@ En attendant que des pages de tutoriel soient disponibles sur ce wiki, il existe
 
 Il contient également quelques indications sur les [propriétés](SheetMetal_Examples/fr#Propri.C3.A9t.C3.A9s_de_SheetMetal.md).
 
+
+
 ## Limitations
 
 -   L\'atelier est affecté par le problème de [nommage topologique](Glossary/fr#Topological_Naming.md) inhérent à FreeCAD. Si l\'édition d\'un pli plus tôt dans l\'historique de la pièce renumérote les faces, alors les plis suivants peuvent être affectés et changer de face. Si les entités de pliage ne se cassent pas, vous pouvez double-cliquer dessus pour obtenir une boîte de dialogue dans laquelle vous pouvez sélectionner la face appropriée dans la [vue 3D](3D_view/fr.md) et mettre à jour le pliage.
 -   L\'outil Unfold (Dépliage) présente certaines limitations et échouera dans certaines situations complexes. En cas d\'échec, essayez de sélectionner une face différente.
 -   Cas fréquent de crash : prenez beaucoup de précautions pour ne pas couper dans les charnières (les plis) le long des faces ou dans les angles ,ni de faire des trous ou des encoches dans les angles.
+
+
 
 ## Tutoriels
 
@@ -138,16 +162,18 @@ Le tutoriel suivant est reproduit à partir du tutoriel PDF mentionné dans [Lie
 
 <div class="mw-collapsible-content">
 
+
+
 #### Présentation de l\'atelier 
 
-Après avoir téléchargé et installé l\'extension, l\'ouvrir. ![](images/sm1.png )
+Après avoir téléchargé et installé l\'extension, l\'ouvrir. ![](images/sm1.png ) 
 
 #### 1ère operation 
 
 -   Obtenez la base: utilisez soit les ateliers \"pièce\" ou \"brouillon\", faites 1 croquis qui contiendra tous les trous et toutes les coupes, extrudez cette base à l\'épaisseur de la feuille.
 -   Gardez à l\'esprit que les bords seront toujours en plus des rayons de pliage.
 
-![](images/sm2.png )
+![](images/sm2.png ) 
 
 #### 2ème opération 
 
@@ -173,13 +199,13 @@ Maintenant nous devons séparer les 2 bords sinon ils vont fusionner et le dépl
 
 -   2ème méthode faire 1 coupe à 45 ° voir plus loin, utiliser cet outil.
 
-![](images/sm5a.png )
+![](images/sm5a.png ) 
 
 #### Dépliage
 
 Choisissez 1 face de référence (ici la face orange) et cliquez sur le bouton dans la barre d\'outils.
 Nous obtenons la partie bleue dont il suffit de modifier les valeurs X, Y ou Z pour le voir en totalité.
-![](images/sm6.png )
+![](images/sm6.png ) 
 
 #### Couper les retours à 45 ° 
 
@@ -189,23 +215,23 @@ Après avoir plié les retours sans avoir fait de retrait, la forme apparaît ai
 -   Créer 1 arrêt lié en sélectionnant le bord extérieur de la \"charnière\".(important)
 
 Dessinez 1 triangle dont le haut est contraint à la fin, orienté 1 côté à 45 °, donnez au petit côté 1 largeur minimum (0.1mm suffit), et faites 1 pocket.
-Veillez à ne pas érafler la \"charnière\" où la nudité de lier la pointe du triangle au bord de la ligne de pliage. ![](images/sm8a.png ) Dépliage ![](images/sm9.png )
+Veillez à ne pas érafler la \"charnière\" où la nudité de lier la pointe du triangle au bord de la ligne de pliage. ![](images/sm8a.png ) Dépliage ![](images/sm9.png ) 
 
 #### Perçage des bords et des rabats 
 
 Faites ces trous et coupes après le pliage et avant le dépliage.
 Veillez toujours à ne pas \"érafler\" ou couper les lignes de pliage.
-![](images/sm10.png )
+![](images/sm10.png ) 
 
 #### Faire des rabats tangents 
 
 Faire 1 pli sur le bord du coté, à 45 ° de 0.1mm de long, puis 1 autre inverse à 45 ° de la longueur du rabat contigu, puis étendre le coté opposé, il passera et ils ne seront pas confondus.
-![](images/sm11.png )
+![](images/sm11.png ) 
 
 #### Cas particulier de ce même bord percé 
 
 Dans ce cas particulier, le dépliage ne fonctionne qu\'en choisissant la face jaune comme référence.
-![](images/sm12.png )
+![](images/sm12.png ) 
 
 #### Cas spécial de trou enjambant les plis 
 
@@ -226,9 +252,13 @@ Comment faire ?
 
 </div>
 
+
+
 ## Vidéos
 
 -   [The Elegant Sheet Metal Workbench](https://www.youtube.com/watch?v=xidvQYkC4so) par Joko Engineering
+
+
 
 ## Liens
 
@@ -236,13 +266,14 @@ Comment faire ?
 -   [Un tutoriel en français et en anglais au format PDF](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) sur le forum FreeCAD
 -   Signalement des bogues/demande de fonctionnalités: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 
+
+
 ## Références
 
 -   Auteur :
-    -   Outils de pliage : Copyright 2015-2018 par Shai Seger
-    -   Outil de dépliage : Copyright 2014 par Ulrich Brammer
+    -   Outils de pliage : copyright 2015-2018 par Shai Seger
+    -   Outil de dépliage : copyright 2014 par Ulrich Brammer
 -   Licence: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.fr.html)
--   Blog officiel (EN): [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Code source sur github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 

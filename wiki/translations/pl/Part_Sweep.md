@@ -9,6 +9,8 @@
 
 # Part Sweep/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Wyciągnięcie po ścieżce](Part_Sweep/pl.md) jest używane do tworzenia powierzchni, powłoki lub bryły z jednego lub więcej profili *(przekrojów)* rzutowanych wzdłuż ścieżki.
@@ -16,6 +18,8 @@ Narzędzie <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Wyciągn
 Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podobne do <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Wyciągnięcia po profilach](Part_Loft/pl.md) z dodatkiem ścieżki do definiowania rzutu pomiędzy profilami.
 
 ![](images/Part_Sweep_simple.png ) *Bryła wykonana metodą przeciągnięcia wygenerowana z pojedynczego profilu*(A)*rzutowanego wzdłuż ścieżki*(B)*.*
+
+
 
 ## Użycie
 
@@ -27,6 +31,8 @@ Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podob
 4.  Zdefiniuj opcje [Utwórz bryłę](#Utw.C3.B3rz_bry.C5.82.C4.99.md) i [Wektor_Freneta](#Wektor_Freneta.md).
 5.  Kliknij w przycisk **OK**
 
+
+
 ### Akceptowana geometria 
 
 -   **Profile**: mogą być punktem *(wierzchołkiem)*, linią *(krawędzią)*, konturem lub ścianą. Krawędzie i kontury mogą być otwarte lub zamknięte. Istnieją różne [profile ograniczenia i komplikacje](Part_Sweep/pl#Ograniczenia_i_komplikacje_profilu.md), zobacz poniżej, jednakże profile mogą pochodzić z elementów pierwotnych środowiska pracy Część, elementów środowiska pracy Rysunek Roboczy i Szkiców.
@@ -36,11 +42,17 @@ Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podob
 
 -   Obiekty typu[odnośnik](App_Link/pl.md) powiązane z odpowiednimi typami obiektów oraz kontenery typu [część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako profile i ścieżki. {{Version/pl|0.20}}
 
+
+
 ## Właściwości
+
+
 
 ### Bryła
 
 Jeśli opcja **Utwórz bryłę** jest *(wybrana)* ustawiona na wartość {{True}}, FreeCAD tworzy bryłę, pod warunkiem, że profile mają geometrię zamkniętą. Jeśli opcja jest ustawiona na wartość {{False/pl}}, program FreeCAD tworzy powierzchnię lub *(jeśli jest więcej niż jedna powierzchnia)* powłokę dla profili otwartych lub zamkniętych.
+
+
 
 ### Wektor Freneta 
 
@@ -50,9 +62,13 @@ Jeśli opcja **Utwórz bryłę** jest *(wybrana)* ustawiona na wartość {{True}
 
 Jeśli opcja **Wektor Freneta** ma wartość {{true}}, orientacja profilu jest obliczana na podstawie wektorów lokalnej krzywizny i styczności ścieżki. Utrzymuje to orientację profilu spójną podczas przeciągania wzdłuż spirali (ponieważ wektor krzywizny prostej spirali jest zawsze skierowany do jej osi). Jednakże, gdy ścieżka nie jest spiralą, wynikowy kształt może czasami mieć dziwnie wyglądające skręcenia. Więcej informacji na ten temat można znaleźć na stronie [Formuły Freneta Serreta](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
+
+
 ### Przejście
 
 Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączenia na ścieżce, jeśli ścieżka nie definiuje przejścia w narożniku *(na przykład gdy ścieżka jest polilinią)*. Właściwość ta nie jest widoczna w oknie [Panelu zadań](Task_panel/pl.md) i można ją znaleźć we właściwościach po utworzeniu przeciągnięcia.
+
+
 
 ## Ograniczenia i komplikacje profilu 
 
@@ -83,6 +99,8 @@ Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączeni
             -   okrąg, elipsa,
             -   wielokąt foremny,
             -   płaszczyzna *(ściana)*.
+
+
 
 ## Odnośniki internetowe 
 

@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,6 +37,8 @@ Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce b
 
 
 </div>
+
+
 
 ## Utilizzo
 

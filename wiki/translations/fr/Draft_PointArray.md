@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft PointArray
    Name/fr:Draft Réseau de points
-   MenuLocation:Modification → Outils de réseau →  Réseau de points
+   MenuLocation:Modification → Outils pour les réseaux →  Réseau de points
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -23,15 +23,19 @@ Dans {{VersionMinus|0.20}}, seuls trois types d\'objets Point sont pris en charg
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Un réseau Draft de points*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'objet que vous souhaitez mettre en réseau.
 2.  Ajoutez l\'objet [composé de points](#Compos.C3.A9_de_points.md) à la sélection.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_PointArray.svg" width=16px> [Réseau de points](Draft_PointArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** dans le menu.
+    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** dans le menu.
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Objet Point version 0.20 et inférieure 
 
@@ -41,11 +45,15 @@ Voici les objets Point pris en charge dans {{VersionMinus/fr|0.20}} et la maniè
 -   Draft Bloc : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Agréger](Draft_Upgrade/fr.md).
 -   [Sketcher Esquisse](Sketcher_NewSketch/fr.md) : créez une [Esquisse](Sketcher_NewSketch/fr.md) et ajoutez un ou plusieurs [Sketcher Points](Sketcher_CreatePoint/fr.md) à l\'esquisse.
 
+
+
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Réseau de points est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés (à l\'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+
+
 
 ### Données
 
@@ -96,6 +104,8 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 -    **Extra Placement|Placement**: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau.
 
 -    **Point Object|Link**: spécifie l\'objet composé dont les points sont utilisés pour positionner les éléments du réseau. L\'objet doit avoir une propriété **Links**, **Components** ou **Geometry** et contenir au moins un élément avec les propriétés **X**, **Y**, et **Z**.
+
+
 
 ### Vue
 
@@ -166,6 +176,8 @@ Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Featu
 {{TitleProperty|Object style}}
 
 Les propriétés de ce groupe ne sont pas héritées par les réseaux de liens.
+
+
 
 ## Script
 

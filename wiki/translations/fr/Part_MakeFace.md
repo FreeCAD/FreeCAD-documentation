@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part MakeFace‏‎
    Name/fr:Part Créer une face
-   MenuLocation:Part → Créer une face à partir de fils
+   MenuLocation:Part → Créer une face à partir de polylignes
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Part Créer une surface réglée](Part_RuledSurface/fr.md)
@@ -22,10 +22,12 @@ Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des ce
 
 *Exemple d'une face créée à partir d'un ensemble imbriqué de contours.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une esquisse définissant au moins un contour fermé.
-2.  Appuyez sur le bouton **<img src="images/Part_MakeFace.svg" width=16px> [Créer une face à partir de fils](Part_MakeFace/fr.md)**.
+2.  Appuyez sur le bouton **<img src="images/Part_MakeFace.svg" width=16px> [Créer une face à partir de polylignes](Part_MakeFace/fr.md)**.
 
 
 

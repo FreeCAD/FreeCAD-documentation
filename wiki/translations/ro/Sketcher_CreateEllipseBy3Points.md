@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 This tool draws an ellipse by picking three points : (1) the periapsis (first crossing of longer diameter with ellipse), (2) the apoapsis (second crossing of longer diameter with ellipse), (3) one point on a side of the longer diameter (a) defining the minor radius (b). (c) is the resulting center and (f) are the focal points.
@@ -29,6 +31,8 @@ When starting the tool, the mouse pointer changes to a white cross with a red el
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

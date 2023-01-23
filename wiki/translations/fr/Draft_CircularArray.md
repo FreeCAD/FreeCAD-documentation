@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft PolarArray
    Name/fr:Draft Réseau circulaire
-   MenuLocation:Modification → Outils de réseau → Réseau circulaire
+   MenuLocation:Modification → Outils pour les réseaux → Réseau circulaire
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -19,6 +19,8 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
 *Un Draft réseau circulaire*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
@@ -26,7 +28,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 1.  Optionnellement, sélectionnez un objet.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_CircularArray.svg" width=16px> [Réseau circulaire](Draft_CircularArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_CircularArray.svg" width=16px> Réseau circulaire** dans le menu.
+    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_CircularArray.svg" width=16px> Réseau circulaire** dans le menu.
 3.  Le panneau de tâches **Réseau circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez en un.
 5.  Saisissez les paramètres requis dans le panneau des tâches.
@@ -39,7 +41,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 
 -   Entrez la **Distance radiale** pour spécifier la distance entre les couches circulaires et entre le centre et la première couche circulaire.
 -   Entrez la **Distance tangentielle** pour spécifier la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
--   Entrez le **Nombre de couches circulaires**. L\'élément au centre compte pour une couche. Doit être au moins {{Value|2}}. Le maximum pouvant être saisi dans le panneau de tâches est {{Value|99}}, mais des valeurs plus élevées sont possibles en modifiant la propriété {{PropertyData/fr|Number Circles}} du tableau.
+-   Entrez le **Nombre de couches circulaires**. L\'élément au centre compte pour une couche. Doit être au moins {{Value|2}}. Le maximum pouvant être saisi dans le panneau de tâches est {{Value|99}}, mais des valeurs plus élevées sont possibles en modifiant la propriété **Number Circles** du réseau.
 -   Saisissez la valeur **Symétrie**. Ce nombre détermine la façon dont les éléments sont répartis. Une valeur de {{Value|3}}, par exemple, donne un motif comportant trois secteurs égaux de 120°. Des valeurs plus élevées pour la **Symétrie** et la **Distance tangentielle** permettent d\'obtenir moins d\'éléments, voire aucun, sur les couches internes.
 -   Choisissez un point dans la [Vue 3D](3D_view/fr.md), notez que cela terminera également la commande ou rentrez des coordonnées pour le **Centre de rotation**. L\'axe de rotation du réseau passera par ce point. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur le bouton **Réinitialiser le point** pour réinitialiser le **Centre de rotation** à l\'origine.
@@ -47,21 +49,29 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 -   Si la case **Réseau de liens** est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus performant car ses éléments sont des objets [App Link](App_Link/fr.md).
 -   Appuyez sur **Échap** ou sur le bouton **Annuler** pour abandonner la commande.
 
+
+
 ## Remarques
 
--   L\'axe de rotation par défaut du tableau est l\'axe Z positif. Il peut être modifié en éditant sa propriété **Axis**.
+-   L\'axe de rotation par défaut du réseau est l\'axe Z positif. Il peut être modifié en éditant sa propriété **Axis**.
 -   Un Draft Réseau circulaire peut être transformé en un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) ou un [Draft Réseau polaire](Draft_PolarArray/fr.md) en modifiant sa propriété **Array Type**.
 -   Un réseau de liens ne peut pas être transformé en un réseau normal ou vice versa. Le type de réseau doit être décidé au moment de la création.
+
+
 
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des distances : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des distances : **Edition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
+
+
 
 ## Propriétés
 
 Voir [Draft Réseau orthogonal](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
+
+
 
 ## Script
 

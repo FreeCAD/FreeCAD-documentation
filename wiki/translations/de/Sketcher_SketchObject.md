@@ -1,6 +1,8 @@
 # Sketcher SketchObject/de
 {{TOCright}}
 
+
+
 ## Einleitung
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
@@ -14,6 +16,8 @@ Das `Sketcher::SketchObject` ist vom [Part Part2DObject](Part_Part2DObject/de.md
 
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
+
+
 
 ## Anwendung
 
@@ -40,6 +44,8 @@ Auch wenn das Sketch-Objekt eigenständig verwendet werden kann, um auf einer Fl
 5.  
     **OK**drücken.
 
+
+
 ## Eigenschaften
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
@@ -48,65 +54,71 @@ Das [Sketcher Sketch-Objekt](Sketcher_SketchObject/de.md) (`Sketcher::SketchObje
 
 Das Sketcher Sketch-Objekt hat außerdem die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Ausgeblendete Eigenschaften können mit dem Befehl {{MenuCommand/de|Alle anzeigen}} im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
 
+
+
 ### Daten
 
 
 {{TitleProperty|Sketch}}
 
--    **Geometry|GeometryList|Hidden**: a list of Part geometries that exist inside the sketch.
+-    {{PropertyData/de|Geometry|GeometryList|Hidden}}: Eine Liste von Part-Geometrien die in der Skizze enthalten sind.
 
--    **Constraints|**: named constraints, if they exist; otherwise it is an empty list `[]`.
+-    {{PropertyData/de|Constraints|}}: Benannte Randbedingungen, wenn welche vorhanden sind, andernfalls eine leere Liste `[]`.
 
--    **External Geometry|LinkSubList**: a list of Part geometries outside this Sketch that are used for reference.
+-    {{PropertyData/de|External Geometry|LinkSubList}}: Eine Liste von Part-Geometrien außerhalb dieser Skizze, die als Referenz verwendet werden.
 
--    **Fully Constrained|Bool|Hidden**: (read-only) if `True` the sketch is fully constrained.
+-    {{PropertyData/de|Fully Constrained|Bool|Hidden}}: Nicht änderbar (read-only). Wird `True` angezeigt, ist die Skizze vollständig bestimmt.
+
+
 
 ### Ansicht
 
 
 {{TitleProperty|Auto Constraints}}
 
--    **Autoconstraints|Bool**: if `True` constraints are automatically added when geometry is drawn.
+-    {{PropertyView/de|Autoconstraints|Bool}}: Wenn `True`, werden Randbedingungen automatisch hinzugefügt, während Geometrien gezeichnet werden.
 
--    **Avoid Redundant|Bool**: if `True` redundant auto-constraints are avoided.
+-    {{PropertyView/de|Avoid Redundant|Bool}}: Wenn `True`, werden überflüssige automatische Randbedingungen vermieden.
 
 
 {{TitleProperty|Grid}}
 
--    **Grid Auto Size|Bool|Hidden**: if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
+-    {{PropertyView/de|Grid Auto Size|Bool|Hidden}}: Wenn `True`, wird die Größe eines Rasters auf Basis der Boundingbox der Geometrie einer Skizze angepasst.
 
--    **Grid Size|Length**: the size of the spacing of the local grid lines in the [3D view](3D_view.md); it defaults to {{value|10 mm}}.
+-    {{PropertyView/de|Grid Size|Length}}: Der Wert für den Abstand der lokalen Rasterlinien in der [3D-Ansicht](3D_view/de.md); Standardwert ist {{value|10 mm}}.
 
--    **Grid Snap|Bool**: if `True` the grid can be used to snap points.
+-    {{PropertyView/de|Grid Snap|Bool}}: Wenn `True`, kann das Raster zum Fangen von Punkten verwendet werden.
 
--    **Grid Style|Enumeration**: the style of the grid lines; {{value|Dashed}} (default) or {{value|Light}}.
+-    {{PropertyView/de|Grid Style|Enumeration}}: Linienart der Rasterlinien; {{value|Dashed}} (Standard) oder {{value|Light}}.
 
--    **Show Grid|Bool**: if `True` a grid local to the object will be displayed in the [3D view](3D_view.md). This grid is independent of the [Draft Grid](Draft_ToggleGrid.md).
+-    {{PropertyView/de|Show Grid|Bool}}: Wenn `True`, wird in der [3D-Ansicht](3D_view/de.md) örtlich am Objekt ein Raster angezeigt. Dieses Raster ist unabhängig vom [Draft Raster](Draft_ToggleGrid/de.md).
 
--    **Show Only In Edit Mode|Bool**: if `True` the grid is only displayed while the sketch is being edited.
+-    {{PropertyView/de|Show Only In Edit Mode|Bool}}: Wenn `True`, wird das Raster nur angezeigt, während die Skizze bearbeitet wird.
 
--    **Tight Grid|Bool**: if `True` the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
+-    {{PropertyView/de|Tight Grid|Bool}}: Wenn `True`, wird das örtliche Raster nur in der nähe des Ursprungs der Form dargestellt, andernfalls wird es weiter ausgedehnt.
 
--    **max Number Of Lines|Integer**: the maximum number of lines in the grid.
+-    {{PropertyView/de|max Number Of Lines|Integer}}: Die maximale Anzahl an Linien in einem Raster.
 
 
 {{TitleProperty|Visibility automation}}
 
--    **Editing Workbench|String**: name of the workbench to activate when editing the sketch; it defaults to {{value|SketcherWorkbench}}.
+-    {{PropertyView/de|Editing Workbench|String}}: Name des Arbeitsbereiches, der aktiviert wird, wenn eine Skizze bearbeitet wird; Standardwert ist {{value|SketcherWorkbench}}.
 
--    **Force Ortho|Bool**: if `True` the camera will be forced to [orthographic view mode](Std_OrthographicCamera.md) when the sketch is opened.
+-    {{PropertyView/de|Force Ortho|Bool}}: Wenn `True`, wird die Kamera in den Modus [Orthoggonale Ansicht](Std_OrthographicCamera/de.md) gezwungen, wenn die Skizze geöffnet wird.
 
--    **Hide Dependent|Bool**: if `True` all objects that depend on the sketch are hidden when the sketch is opened.
+-    {{PropertyView/de|Hide Dependent|Bool}}: Wenn `True`, werden alle Objekte ausgeblendet, die von dieser Skizze abhängen, wenn die Skizze geöffnet wird.
 
--    **Restore Camera|Bool**: if `True` the camera position is saved before opening the sketch, and is restored after closing it.
+-    {{PropertyView/de|Restore Camera|Bool}}: Wenn `True`, wird die Kameraposition gesichert, bevor die Skizze geöffnet wird und wiederhergestellt, nachdem die Skizze geschlossen wurde.
 
--    **Section View|Bool**: if `True` only (parts of) objects behind the sketch plane are visible while the sketch is being edited.
+-    {{PropertyView/de|Section View|Bool}}: Wenn `True`, sind nur (Teile von) Objekte(n) hinter der Skizzenebene sichtbar, während die Skizze bearbeitet wird.
 
--    **Show Links|Bool**: if `True` all objects used in links to external geometry are shown when the sketch is opened.
+-    {{PropertyView/de|Show Links|Bool}}: Wenn `True`, werden alle Objekte angezeigt, die zur Verknüpfung mit externer Geometrie verwendet werden, wenn die Skizze geöffnet wird.
 
--    **Show Support|Bool**: if `True` all objects this sketch is attached to are shown when the sketch is opened.
+-    {{PropertyView/de|Show Support|Bool}}: Wenn `True`, werden alle Objekte dargestellt, mit denen diese Skizze verknüpft ist, wenn die Skizze geöffnet wird.
 
--    **Tempo Vis|PythonObject|Hidden**: a custom class associated with this object, that handles hiding and showing other objects when opening and closing the sketch.
+-    {{PropertyView/de|Tempo Vis|PythonObject|Hidden}}: Eine mit diesem Objekt verbundene angepasste Klasse, die das Ein- und Ausblenden anderer Objekte regelt, während die Skizze geöffnet oder geschlossen wird.
+
+
 
 ## Skripten
 
@@ -128,7 +140,7 @@ obj = App.ActiveDocument.addObject("Sketcher::SketchObject", "Sketch")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create the `Sketcher::SketchObjectPython` object.
+Für die Instanziierung von Unterklassen mit [Python](Python/de.md) sollte ein `Sketcher::SketchObjectPython`-Objekt erstellt werden.
 
 
 ```python

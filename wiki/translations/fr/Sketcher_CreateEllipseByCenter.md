@@ -17,11 +17,9 @@
 
 Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
 
-<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
-
-
-
-*La séquence de clics est indiquée par des flèches jaunes avec des nombres.<br/>C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
+*La séquence de clics est indiquée par des flèches jaunes avec des nombres.<br>
+C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
 
 
 

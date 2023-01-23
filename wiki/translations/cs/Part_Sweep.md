@@ -11,11 +11,12 @@ The <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Sweep](Par
 
 The Part Sweep tool is similar to <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) with the addition of a path to define the projection between profiles.
 
-![](images/Part_Sweep_simple.png ) *A solid sweep generated from a single profile (A) projected along a path (B).*
+![](images/Part_Sweep_simple.png ) 
+*A solid sweep generated from a single profile (A) projected along a path (B)*
 
 ## Usage
 
-1.  Press the **<img src="images/Part_Sweep.svg" width=16px> '''Sweep'''** button. This opens the Sweep parameters in the [Task panel](Task_panel.md).
+1.  Press the **<img src="images/Part_Sweep.svg" width=16px> '''Sweep...'''** button. This opens the Sweep parameters in the [Task panel](Task_panel.md).
 2.  In the *Available Profiles* left column (previously *Vertex/Edge/Wire/Face* in v0.16), click on the element to be used as sweep profile, then click on the right arrow to place it in the *Selected profiles* right column (previously *Sweep* in v0.16). Repeat if more than one profile is desired. Use the up and down arrows to reorder the selected profiles.
 3.  Click on the **Sweep Path** button, then choose either mode of selection:
     -   *Single segment selection*: select one or more contiguous edges in the [3D view](3D_view.md) (press **CTRL** for multiple selection) and click **Done**. The sweep will only be generated along the selected edges.

@@ -13,12 +13,23 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument desenează un arc de elipsă prin alegerea a patru puncte: centrul, sfârșitul semiaxei majore, punctul de început și punctul final. Când porniți instrumentul, indicatorul mouse-ului se modifică într-o cruce albă cu o pictogramă arc de elipsă roșie. Pe lângă acestea, coordonatele sunt afișate în timp real.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
+<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;">
+
+
+<div class="mw-translate-fuzzy">
+
 *The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,11 +50,19 @@ Acest instrument desenează un arc de elipsă prin alegerea a patru puncte: cent
 
 </div>
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## Particularități
 
 -   Axele majore și minore ale elipsei subiadiacente sunt stricte și nu pot fi schimbate prin redimensionare. Elipsa de bază trebuie rotită pentru a schimba axele.
 -   Spre deosebire de elipsă care poate fi constrânsă să devină un cerc, arcul de elipsă nu poate fi transformat într-un arc de cerc.
 -   Mutarea arcului de elipsă facând click pe margine este aceeași cu deplasarea centrului elipsei.
+
+
+</div>
 
 
 

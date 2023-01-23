@@ -11,39 +11,49 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [Vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [optionnellement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
+La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [Vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [accessoirement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
 *Trois proxy de plan de travail montrant différentes orientations et décalages*
 
+
+
 ## Utilisation
 
-1.  Optionnellement, changer de [plan de travail](Draft_SelectPlane/fr.md).
-2.  Optionnellement, changer de [Vue 3D](3D_view/fr.md).
-3.  Optionnellement, changer l\'état de visibilité des objets dans le document.
+1.  Changer éventuellement de [plan de travail](Draft_SelectPlane/fr.md).
+2.  Changer éventuellement de [Vue 3D](3D_view/fr.md).
+3.  Changer éventuellement l\'état de visibilité des objets dans le document.
 4.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Créer un proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md)** bouton.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail** dans le menu.
 5.  Un proxy de plan de travail est créé.
 6.  Pour aligner le [plan de travail](Draft_SelectPlane/fr.md) avec un proxy de plan de travail, double-cliquez sur le proxy de plan de travail dans la [Vue en arborescence](Tree_view/fr.md) ou utilisez-le avec la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
 
+
+
 ## Menu contextuel 
 
 Pour un Draft Proxy de plan de travail, ces options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) :
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: met à jour la propriété **View Data** du proxy de plan de travail avec les paramètres actuels de la caméra [vue 3D](3D_view/fr.md).
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Enregistrer la position de la caméra**: met à jour la propriété **View Data** du proxy de plan de travail avec les paramètres de la caméra de la [vue 3D](3D_view/fr.md) en cours.
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: met à jour la propriété **Visibility Map** du proxy de plan de travail avec l\'état de visibilité actuel des objets dans le document.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Enregistrer l'état des objets**: met à jour la propriété **Visibility Map** du proxy de plan de travail avec l\'état de visibilité en cours des objets dans le document.
+
+
 
 ## Remarques
 
--   Les proxies de plan de travail peuvent être [déplacés](Draft_Move/fr.md) et [pivoté](Draft_Rotate/fr.md) comme tout autre objet. Utilisez <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Aimantation Centre](Draft_Snap_Center/fr.md) pour s\'aimanter à leur point de **Placement**.
+-   Les proxies de plan de travail peuvent être [déplacés](Draft_Move/fr.md) et [pivotés](Draft_Rotate/fr.md) comme tout autre objet. Utiliser <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Aimantation Centre](Draft_Snap_Center/fr.md) pour s\'aimanter à leur point de **Placement**.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Proxy de plan de travail est dérivé d\'un [App FeaturePython](App_FeaturePython/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -53,6 +63,8 @@ Un objet Draft Proxy de plan de travail est dérivé d\'un [App FeaturePython](A
 -    **Placement|Placement**: spécifie la position du proxy de plan de travail dans la [Vue 3D](3D_view/fr.md). Voir [Placement](Placement/fr.md).
 
 -    **Shape|Shape|Hidden**: spécifie la forme du proxy de plan de travail.
+
+
 
 ### Vue
 
@@ -79,6 +91,8 @@ Un objet Draft Proxy de plan de travail est dérivé d\'un [App FeaturePython](A
 -    **Arrow Size|Length**: spécifie la taille des symboles de flèche affichés à l\'extrémité des trois axes.
 
 -    **Display Size|Length**: spécifie la longueur et la largeur du proxy de plan de travail.
+
+
 
 ## Script
 

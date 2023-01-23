@@ -17,6 +17,8 @@ La commande <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Dra
 <img alt="" src=images/Draft_Stretch_Example.jpg  style="width:400px;"> 
 *Étirement de trois Draft Polylignes*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
@@ -44,11 +46,15 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
+
+
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
 -   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
+
+
 
 ## Script
 

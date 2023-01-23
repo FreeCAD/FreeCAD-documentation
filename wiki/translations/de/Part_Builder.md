@@ -9,13 +9,19 @@
 
 # Part Builder/de
 
+
+
 ## Beschreibung
 
 Ein Werkzeug zur Erstellung von komplexeren Formen aus verschiedenen parametrischen geometrischen Grundkörpern.
 
+
+
 ## Anwendung
 
 Dieses Werkzeug kann die folgenden Objekte erstellen:
+
+
 
 ### Kante aus zwei Knoten 
 
@@ -24,12 +30,16 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 
 ![](images/Edge_from_verts-1.gif )
 
+
+
 ### Draht aus Kanten 
 
 1.  Wählein der [3D Ansicht](3D_view/de.md) eine Reihe von benachbarten Kanten aus.
 2.  Klicke auf **Erstellen**
 
 ![](images/Wire_from_edges-1.gif )
+
+
 
 ### Fläche aus Knoten 
 
@@ -40,6 +50,8 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 
 ![](images/Face_from_verts.gif )
 
+
+
 ### Fläche aus Kanten 
 
 1.  Wähle eine geschlossene Satz von Kanten, die die Fläche in der [3D Ansicht](3D_view/de.md) umschließen.
@@ -49,6 +61,8 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 
 ![](images/Face_from_edges.gif )
 
+
+
 ### Hülle aus Flächen 
 
 1.  Flächen in der [3D Ansicht](3D_view/de.md) auswählen
@@ -57,11 +71,15 @@ Dieses Werkzeug kann die folgenden Objekte erstellen:
 4.  Klicke auf **Erstellen**
 5.  Objekt wird in der [3D Ansicht](3D_view/de.md) erstellt und in der [Baumansicht](Tree_view/de.md) aufgelistet
 
+
+
 ### Festkörper aus Hülle 
 
 1.  Wähle es, wenn die Form verfeinert werden soll.
 2.  Klicke auf **Erstellen**
 3.  Das Objekt wird in der [3D Ansicht](3D_view/de.md) erstellt und in der [Baumansicht](Tree_view/de.md) aufgelistet
+
+
 
 ## Hinweise
 

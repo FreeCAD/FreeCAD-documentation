@@ -162,20 +162,24 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyDirection
 
- A 
+ A vector property. It can contains the values of the termal point x, y, z relative to zero origin. This property based on 
 
 
 ```python
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyDirection", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = (1.0, 2.0, 3.0)
+obj.ThePropertyName # returns Vector (1.0, 2.0, 3.0)
+obj.ThePropertyName.Length # returns 3.7416573867739413
+obj.ThePropertyName.x # returns 1.0
+obj.ThePropertyName.y # returns 2.0
+obj.ThePropertyName.z # returns 3.0
+```
 
 ## App::PropertyDistance
 
- A distance property. It can contain a 
+ A distance property. It can contain a positive or negative 
 
 
 ```python
@@ -183,7 +187,7 @@ obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyDistance", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 500
-obj.ThePropertyName # returns 500.0 mm
+obj.ThePropertyName # returns "500.0 mm"
 obj.ThePropertyName.Value # returns 500.0
 ```
 
@@ -398,7 +402,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLength
 
- A length property. It can contain a 
+ A length property. It can contain a only pozitive or zero 
 
 
 ```python
@@ -406,8 +410,8 @@ obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLength", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 500
-obj.ThePropertyName # returns 500 mm
-obj.ThePropertyName.Value # returns 500
+obj.ThePropertyName # returns "500.0 mm"
+obj.ThePropertyName.Value # returns 500.0
 ```
 
 ## App::PropertyLink

@@ -262,7 +262,6 @@ How to do ?
     -   Folding tools: Copyright 2015-2018 by Shai Seger
     -   Unfolding tool: Copyright 2014 by Ulrich Brammer
 -   License: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
--   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 

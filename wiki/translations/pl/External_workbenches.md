@@ -1,6 +1,8 @@
 # External workbenches/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 [Zewnętrzne środowiska pracy](External_workbenches/pl.md) to te stworzone przez power użytkowników, które nie zostały zintegrowane z głównym kodem źródłowym programu FreeCAD.
@@ -11,6 +13,8 @@ Te środowiska pracy nie są wspierane przez główny zespół programistów Fre
 
 Środowiska oznaczone ikonką <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> nie są rekomendowane dla nowych wersji programu FreeCAD. Są one przestarzałe, nieutrzymywane i zastąpione przez nowsze środowisko lub mogą nie działać z Pythonem 3 i Qt5. W większości przypadków powinny być unikane.
 
+
+
 ## Środowiska złożeń 
 
 W chwili wydania programu FreeCAD w wersji 0.19 nie było oficjalnego środowiska złożeń. Jednak istnieje szereg zewnętrznych narzędzi tworzonych lub będących w czasie rozwoju, które służą manipulowaniu obiektami w celu budowy złożeń.
@@ -18,6 +22,8 @@ W chwili wydania programu FreeCAD w wersji 0.19 nie było oficjalnego środowisk
 Zauważ, że środowiska złożeń są z reguły niekompatybilne między sobą. Jeśli stworzysz złożenie w jednym z nich, powinieneś trzymać się oryginalnego środowiska, i nie używać innego środowiska złożeń w tym samym dokumencie.
 
 Istnieją też środowiska \"pseudo złożeń\" które nie używają więzów do utrzymania powiązań między częściami, ale po prostu pozycjonują je w przestrzeni.
+
+
 
 ## Informacje ogólne 
 
@@ -180,6 +186,8 @@ Poniższa tabela jest uporządkowana tematycznie, ale można zmienić jej układ
 +++++++++
 | <img alt="" src=images/ExplodedAssembly_workbench_icon.svg  style="width:32px;">                         | [ExplodedAssembly](ExplodedAssembly_Workbench/pl.md)               | Pseudo-złożenie            | Umożliwia tworzenie widoków rozstrzelonych i animacji złożeń. Wcześniej był znany jako „ExplodedAnimation".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | JMG1                                                   | <https://github.com/JMG1/ExplodedAssembly>                                          | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
 +++++++++
+| <img alt="" src=images/Fcmcua_wb.svg  style="width:32px;">                                                                     | [Fcmcua](Fcmcua_Workbench.md)                                      | Pseudo-assembly            | Link a motion controller to a FreeCAD assembly using OPC UA. The workbench provides features to simulate machines that are controlled by e.g. a programmable logic controller (PLC), provided the PLC supports OPC UA.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Heissgetraenk                                          | <https://github.com/heissgetraenk/fcmcua>                                           | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
++++++++++
 | <img alt="" src=images/Lattice2_workbench_icon.svg  style="width:32px;">                                         | [Lattice2](Lattice2_Workbench/pl.md)                               | Pseudo-złożenie            | Dostarcza narzędzi do pracy z umieszczeniami i tablicami umieszczeń. Jest to rodzaj warsztatu montażowego, ale nie ma tam żadnych wiązań ani relacji. Zamiast tego, środowisko pracy skupia się na tablicach rozmieszczeń, które mogą być generowane, łączone, przekształcane, nakładane i wypełniane kształtami. Może również tworzyć zespoły rozbite                                                                                                                                                                                                                                                                                                                                              | DeepSOIC                                               | <https://github.com/DeepSOIC/Lattice2>                                              | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
 +++++++++
 | <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:32px;">                                   | [Manipulator](Manipulator_Workbench.md)                            | Pseudo-złożenie            | Jego celem jest pomoc użytkownikom w wyrównywaniu, przesuwaniu, obracaniu i mierzeniu obiektów 3D poprzez przyjazny interfejs graficzny.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | easyw                                                  | <https://github.com/easyw/Manipulator>                                              | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
@@ -238,6 +246,8 @@ Poniższa tabela jest uporządkowana tematycznie, ale można zmienić jej układ
 +++++++++
 | <img alt="" src=images/FEMbyGEN.svg  style="width:32px;">                                                                       | [FEMbyGEN](FEMbyGEN_Workbench/pl.md)                               | Symulacja                  | Zapewnia prosty interfejs do wyboru najlepszego rozwiązania, pokazując zachowanie strukturalne Twoich projektów na ekranie dla analizy parametrycznej i wielu sytuacji obciążenia.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Serdar Ince, Ögeday Yavuz, Rahul Jhuree                | <https://github.com/Serince/FEMbyGEN>                                               | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
 +++++++++
+
+
 
 ## Tłumaczenie interfejsu zewnętrznych środowisk pracy 
 

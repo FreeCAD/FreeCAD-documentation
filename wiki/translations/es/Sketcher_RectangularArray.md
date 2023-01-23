@@ -11,7 +11,7 @@ Creates an array of selected sketcher elements.
 
 ## Usage
 
-1.  Select sketcher elements in [task panel](task_panel.md) or in [3D view](3D_view.md).
+1.  Select sketcher elements in [task panel](Task_panel.md) or in [3D view](3D_view.md).
 2.  There are several ways to invoke the command:
     -   Press the **[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Rectangular array](Sketcher_RectangularArray.md)** button.
     -   Select the **Sketch → Sketcher tools → [<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rectangular array** option from the menu.

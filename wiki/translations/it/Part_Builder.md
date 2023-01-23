@@ -18,6 +18,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Uso
@@ -60,8 +62,7 @@ Questo strumento permette di creare delle forme creando
 
 </div>
 
-
-{{Userdocnavi/it}}
+ {{Userdocnavi/it}}
 
 1.  Select two vertices
 2.  Click on **Create**

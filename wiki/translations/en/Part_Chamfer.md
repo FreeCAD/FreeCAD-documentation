@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Chamfer
-   MenuLocation:Part → Chamfer
+   MenuLocation:Part → Chamfer...
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Fillet](Part_Fillet.md)
 ---
@@ -17,8 +17,8 @@ Chamfers the selected edge(s) of an object. A dialog allows you to choose which 
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Chamfer.svg" width=16px> Chamfer** button.
-    -   Select the **Part → Chamfer** option from the menu.
+    -   Press the **<img src="images/Part_Chamfer.svg" width=16px> Chamfer...** button.
+    -   Select the **Part → Chamfer...** option from the menu.
 2.  Select the shape to chamfer from the dialog.
 3.  Select edges to chamfer by checking the corresponding box in the chamfer dialog or by selecting them on the model directly.
 4.  Edit chamfer parameters.
@@ -53,7 +53,7 @@ Chamfers the selected edge(s) of an object. A dialog allows you to choose which 
 
 Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md).
 
-Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.20) it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
+Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
 
 ## Scripting
 

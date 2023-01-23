@@ -9,6 +9,8 @@
 
 # Part Circle/de
 
+
+
 ## Beschreibung
 
 Ein <img alt="" src=images/Part_Circle.svg  style="width:24px;"> **Part Kreis** ist ein parametrischer Volumenkörper, der mit dem Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Grundelemente](Part_Primitives/de.md) erstellt werden kann. Im Koordinatensystem durch ihre {{PropertyData/de|Placement}} festgelegt, liegt der Kreis auf der XY-Ebene mit seinem Mittelpunkt im Ursprung.
@@ -16,6 +18,8 @@ Ein <img alt="" src=images/Part_Circle.svg  style="width:24px;"> **Part Kreis** 
 Ein Part-Kreis ist eigentlich ein gegen den Uhrzeigersinn verlaufender 360°-Kreisbogen. Er kann in einen Kreissegment gewandelt werden, indem die {{PropertyData/de|Angle1}} und/oder die {{PropertyData/de|Angle2}} geändert wird.
 
 <img alt="" src=images/Part_Circle_Example.png  style="width:400px;">
+
+
 
 ## Anwendung
 
@@ -29,17 +33,23 @@ A Part Circle can alternatively be created by selecting three points:
 4.  A circle is created.
 5.  The selected vertices are only used at creation time to calculate the **Radius** and **Placement** of the circle.
 
+
+
 ## Beispiel
 
 ![Part-Kreis aus dem Skriptbeispiel](images/Part_Circle_Scripting_Example.png )
 
 Ein Part-Kreis-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde wird hier dargestellt.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Kreis-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -62,6 +72,8 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 
 </div>
+
+
 
 ## Skripten
 

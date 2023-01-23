@@ -10,6 +10,8 @@
 
 # PartDesign Body/ru
 
+
+
 ## Описание
 
 [Тело](PartDesign_Body/ru.md) является базовым элементом для создания деталей с помощью [верстака PartDesign](PartDesign_Workbench/ru.md). Оно может включать в себя [эскизы](Sketch/ru.md), [опорные объекты](Datum/ru.md), и [конструктивные элементы](PartDesign_Feature/ru.md) которые помогают в построении [сплошных твердых тел](PartDesign_Body/ru#Single_contiguous_solid.md).
@@ -20,6 +22,8 @@ Do not confuse the <img alt="" src=images/PartDesign_Body.svg  style="width:24px
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Слева: древовидный вид, содержащий конструктивные элементы, которые последовательно формируют форму объекта. Справа: конечный объект полученный в результате совокупности всех этих операций, отображаемый в окне [трехмерного Вида](3D_view/ru.md).*
+
+
 
 ## Применение
 
@@ -33,16 +37,22 @@ If a solid object is selected:
 
 1.  Press the **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)** button. A new Body is created containing a single **Base Feature**. This Base Feature element is a simple reference to another object previously created or imported into the document. See [Base Feature](PartDesign_Body#Base_Feature.md) for more information. An existing Body or [PartDesign Feature](PartDesign_Feature.md) cannot be selected when pressing **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)**.
 
+
+
 ### Примечания
 
 -   If no Body currently exists when **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)** is pressed, a new Body will be automatically created. If a Body already exists, it has to be made active before using **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)**.
 -   Double-click the Body in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active body** to activate or deactivate the Body. If another Body is active, it will be deactivated. See [active status](PartDesign_Body#Active_status.md) for more information.
+
+
 
 ## Свойства
 
 A [PartDesign Body](PartDesign_Body.md) (`PartDesign::Body` class) is derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the PartDesign Body has the following properties in the [property editor](property_editor.md).
+
+
 
 ### Данные
 
@@ -57,6 +67,8 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **Group|LinkList**: a list with the [PartDesign Features](PartDesign_Feature.md) in the Body.
 
+
+
 #### Скрытые свойства Данных 
 
 -    **Origin|Link**: the [App Origin](App_OriginGroupExtension.md) object that is the positional reference for all elements listed in **Group**.
@@ -64,6 +76,8 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 -    **_ Group Touched|Bool**: whether the group is touched or not.
 
 Also the hidden properties described in [Part Feature](Part_Feature.md).
+
+
 
 ### Свойства отображения 
 
@@ -84,6 +98,8 @@ Also the hidden properties described in [Part Feature](Part_Feature.md).
 
 ## Body concept 
 
+
+
 ### Отдельно взятое сплошное твердое Тело 
 
 A PartDesign Body is intended to model a single contiguous solid. The meaning of \"contiguous\" is an element made in one piece, with no moving parts, or disconnected solids. Examples of contiguous solids are those that are manufactured from a single piece of raw material by a process of casting, cutting, or milling. For example, a nut, a washer, and a bolt each consists of a single solid piece of steel with no moving parts, so each can be modelled by a PartDesign Body. Objects that are created by welding two pieces can also be modelled by a single Body as long as the weld joint is not intended to break apart.
@@ -92,6 +108,8 @@ Once these contiguous solids are put together in some type of arrangement, then 
 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
 *Left: three individual contiguous solids, each of them modelled by a PartDesign Body. Right: the individual Bodies put together in an assembly.*
+
+
 
 ### Изменение Тела с помощью конструктивных элементов 
 
@@ -110,7 +128,11 @@ A PartDesign Body will perform an automatic [fusion](Part_Fuse.md) (union) of th
 
 other CAD programs like Catia allow discontiguous solids in the same \"Body\". As of v0.19, FreeCAD does not allow this. There has been discussions in the [FreeCAD forum](https://forum.freecadweb.org/index.php) about lifting this restriction but no concrete decision has been made. If you\'d like to know more or present different points of view, please discuss in the [forum](https://forum.freecadweb.org/index.php).
 
+
+
 ## Подробное описание свойств 
+
+
 
 ### Активное состояние 
 
@@ -128,6 +150,8 @@ Activating a Body automatically switches to the [PartDesign Workbench](PartDesig
 
 
 *Document with two PartDesign Bodies, of which the second one is active.*
+
+
 
 ### Начало координат 
 
@@ -155,6 +179,8 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 
 
 *Left: PartDesign Body Origin in the [tree view](tree_view.md). Right: representation of the Origin elements in the [3D view](3D_view.md).*
+
+
 
 ### Базовый конструктивный элемент 
 
@@ -201,6 +227,8 @@ The Base Feature is entirely optional; it is only present when including an obje
 
 If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
 
+
+
 ### Точка завершения расчета тела (Tip) 
 
 The Tip is the [PartDesign Feature](PartDesign_Feature.md) that is exposed outside the Body; that is, if another tool from any workbench (for example, **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Part SimpleCopy](Part_SimpleCopy.md)** or **[<img src=images/Part_Cut.svg style="width:16px"> [Part Cut](Part_Cut.md)**) needs to use the shape of the Body, it will use the shape of the Tip. Said in another way, the Tip is the final representation of the Body as if the parametric history didn\'t exist.
@@ -219,6 +247,8 @@ In the [tree view](tree_view.md), the Tip of the Body is recognized by the [Part
 
 ![](images/PartDesign_Body_Tip_tree.png ) 
 *Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
+
+
 
 ### Взаимодействие с другими верстаками 
 
@@ -243,6 +273,8 @@ Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDes
 ![](images/PartDesign_Body_Visibility.png ) 
 *PartDesign Body: multiple [Sketches](Sketch.md) may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
 
+
+
 ### Прикрепление
 
 [PartDesign Features](PartDesign_Feature.md), just like [planar objects](Part_Part2DObject.md), can be attached to different planes, usually the standard planes defined by the Body\'s [Origin](PartDesign_Body#Origin.md), or to custom [PartDesign Planes](PartDesign_Plane.md).
@@ -254,6 +286,8 @@ A [PartDesign Feature](PartDesign_Feature.md) that is not attached will be shown
 ![](images/PartDesign_Body_Feature_attachment.png ) 
 *PartDesign Body: [PartDesign Features](PartDesign_Feature.md) that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
 
+
+
 ### Наследование
 
 A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `PartDesign::Body`, whose parent is [Part Feature](Part_Feature.md) (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
@@ -263,6 +297,8 @@ A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `Pa
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}
+
+
 
 ## Программирование
 

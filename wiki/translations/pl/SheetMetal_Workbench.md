@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Arkusz blachy](SheetMetal_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) i nie należy do standardowej instalacji programu FreeCAD. Zostało ono opracowane w celu dostarczenia narzędzi do tworzenia i rozwinięć obiektów blaszanych.
@@ -22,9 +24,13 @@ Narzędzie do rozkładania w obu wersjach nie jest ograniczone do części wykon
 
 Jeśli eksport do formatu DXF jest używany do sterowania maszynami *(na przykład cięcie laserowe)*, należy zmodyfikować DXF, aby usunąć linie pokazujące zagięcia, ponieważ linie te mogą być używane przez maszynę do cięcia.
 
+
+
 ## Instalacja
 
 To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
+
+
 
 ## Przybory
 
@@ -54,6 +60,8 @@ Szczegółowy opis narzędzi można znaleźć [na blogu autora](http://theseger.
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Formowanie blach](SheetMetal_Forming/pl.md): Wytłacza kształty z otworami lub bez otworów w arkuszu blachy.
 
+
+
 ## Krótki opis 
 
 To środowisko pracy dostarcza narzędzi do dwóch głównych zadań:
@@ -63,17 +71,25 @@ To środowisko pracy dostarcza narzędzi do dwóch głównych zadań:
 
 Ta sekcja ma na celu dać ogólne pojęcie o tym, jak używać dostarczonych narzędzi. Bardziej szczegółowe informacje można znaleźć na stronie każdego narzędzia *(patrz wyżej)* lub w połączonych z nim poradnikach *(patrz niżej)*.
 
+
+
 ### Utwórz obiekt z blachy 
+
+
 
 #### Rozpoczęcie od profilu 
 
 1.  Utwórz otwartą polilinię *(najlepiej za pomocą szkicownika)*,
 2.  Użyj polecenia <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Dodaj ścianę bazową](SheetMetal_AddBase/pl.md), aby utworzyć profil arkusza blachy.
 
+
+
 #### Rozpoczęcie od pustego 
 
 1.  Utwórz zamkniętą polilinię *(najlepiej za pomocą szkicownika)*,
 2.  Użyj polecenia <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Dodaj ścianę bazową](SheetMetal_AddBase/pl.md), aby utworzyć nowy arkusz blachy.
+
+
 
 #### Rozpoczęcie od wyciągnięcia w środowisku Projekt Części 
 
@@ -88,6 +104,8 @@ Ta sekcja ma na celu dać ogólne pojęcie o tym, jak używać dostarczonych nar
 Niektóre parametry będą dziedziczone z obiektu*(ów)* nadrzędnego, ale lepiej jest sprawdzić odpowiednie parametry na każdym etapie.
 
 Należy teraz sprawdzić, czy powstały obiekt blaszany może zostać rozłożony *(zobacz rozdział [Rozłóż blaszany element](#Roz.C5.82.C3.B3.C5.BC_blaszany_element.md) poniżej)*.
+
+
 
 #### Dodawanie kolejnych cech 
 
@@ -106,11 +124,15 @@ Standardowe rozkładane blaszane elementy mogą być rozbudowywane:
 
 Kilka narzędzi z innych środowisk pracy może być używanych do dodawania otworów lub zmiany kształtu krawędzi.
 
+
+
 ### Rozłóż blaszany element 
 
 Aby rozłożyć obiekt z blachy aktywuj narzędzie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> [Rozłóż](SheetMetal_Unfold/pl.md) lub <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:24px;">[Rozłóż bezobsługowo](SheetMetal_UnattendedUnfold/pl.md).
 
 Wynikiem będzie obiekt 3D z opcjonalnym szkicem konturowym zawierającym linie zgięcia.
+
+
 
 ### Przykłady
 
@@ -120,11 +142,15 @@ Dopóki strony poradników nie są dostępne na tej wiki, istnieje strona z [prz
 
 Zawiera również kilka wskazówek dotyczących [własności](SheetMetal_Examples/pl#W.C5.82a.C5.9Bciwo.C5.9Bci_.C5.9Brodowiska_pracy_Arkusz_Blachy.md).
 
+
+
 ## Ograniczenia
 
 -   Na środowisko robocze ma wpływ [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md), który jest nieodłączny dla FreeCAD. Jeśli edycja zagięcia wcześniej w historii części zmieni numerację powierzchni, wówczas kolejne zagięcia mogą zostać naruszone i zmienić powierzchnię. Jeżeli właściwości gięcia nie zostaną uszkodzone, możesz kliknąć na nim dwukrotnie, aby uzyskać okno dialogowe, w którym możesz wybrać odpowiednią powierzchnię w oknie [widoku 3D](3D_view/pl.md) i zaktualizować gięcie.
 -   Narzędzie Rozwiń ma pewne ograniczenia i może zawieść w pewnych skomplikowanych sytuacjach. Jeśli zawiedzie, spróbuj wybrać inną ścianę.
 -   Częsty przypadek awarii: należy podjąć wszelkie środki ostrożności, aby nie ciąć w zawiasach *(zagięciach)* ani wzdłuż powierzchni ścian, ani w kątach, ani nie robić otworów lub nacięć w kątach.
+
+
 
 ## Poradniki
 
@@ -138,16 +164,18 @@ Poniższy poradnik został zaczerpnięty z poradnika PDF wspomnianego w sekcji [
 
 <div class="mw-collapsible-content">
 
+
+
 #### Prezentacja środowiska pracy 
 
-Po pobraniu i zainstalowaniu rozszerzenia, uruchom je. ![](images/sm1.png )
+Po pobraniu i zainstalowaniu rozszerzenia, uruchom je. ![](images/sm1.png ) 
 
 #### Operacja pierwsza 
 
 -   Wykonaj element początkowy: użyj środowisk pracy Część lub Rysunek Roboczy, wykonaj pierwszy szkic, który będzie zawierał wszystkie otwory i cięcia, następnie wytłocz ten element do grubości arkusza.
 -   Pamiętaj, że krawędzie będą zawsze w dodatku, tak samo jak promienie składania.
 
-![](images/sm2.png )
+![](images/sm2.png ) 
 
 #### Operacja druga 
 
@@ -173,13 +201,13 @@ Teraz musimy rozdzielić te 2 krawędzie, w przeciwnym razie połączą się i r
 
 -   Metoda druga: zrobić 1 cięcie pod kątem 45 ° patrz dalej, użyj tego narzędzia.
 
-![](images/sm5a.png )
+![](images/sm5a.png ) 
 
 #### Rozkładanie
 
 Wybierz jedną ścianę odniesienia *(tutaj pomarańczowa)* i kliknij przycisk na pasku narzędzi.
 Otrzymujemy niebieską część, której wystarczy zmodyfikować wartości X, Y lub Z, aby zobaczyć ją w całości.
-![](images/sm6.png )
+![](images/sm6.png ) 
 
 #### Przycięcie brzegów pod kątem 45° 
 
@@ -189,22 +217,22 @@ Po złożeniu brzegów bez wycofania powstaje kształt. ![](images/sm7a.png ) Ab
 -   Utwórz jeden powiązany ogranicznik, wybierając zewnętrzną krawędź \"zawiasu\".
 -   Narysuj jeden trójkąt, którego wierzchołek jest związany na końcu, zorientowany na jeden bok pod kątem 45°, nadaj małemu bokowi minimalną szerokość *(wystarczy 0,1 mm)* i wykonaj kieszeń.
 
-Be careful not to scratch the \"hinge\" where the nakedness of bound the tip of the triangle at the edge of the fold line. ![](images/sm8a.png ) Rozkładanie ![](images/sm9.png )
+Be careful not to scratch the \"hinge\" where the nakedness of bound the tip of the triangle at the edge of the fold line. ![](images/sm8a.png ) Rozkładanie ![](images/sm9.png ) 
 
 #### Przebijanie krawędzi i brzegów 
 
 Wykonaj odpowiednie otwory i nacięcia po zakończeniu etapu gięcia, a przed rozłożeniem.
 Zawsze uważaj, aby nie \"zarysować\" linii zagięcia.
-![](images/sm10.png )
+![](images/sm10.png ) 
 
 #### Wykonanie brzegów załamanych 
 
-Wykonaj jedno zagięcie na krawędzi strony, pod kątem {{Value|45}}° o długości {{Value|0,1}} mm, a następnie jedno odwrotne pod kątem {{Value|45}}° długości przylegającego boku skrzydła, wydłużając przeciwległą stronę, będzie przechodzić nad i nie będą one łączone. ![](images/sm11.png )
+Wykonaj jedno zagięcie na krawędzi strony, pod kątem 
 
 #### Szczególny przypadek tej samej krawędzi z przebiciami 
 
 W tym konkretnym przypadku, rozwijanie działa tylko poprzez wybranie żółtej ściany jako odniesienia.
-![](images/sm12.png )
+![](images/sm12.png ) 
 
 #### Szczególny przypadek otworu położonego w poprzek zagięcia 
 
@@ -225,9 +253,13 @@ Jak to zrobić?
 
 </div>
 
+
+
 ## Filmy
 
 -   [Eleganckie środowisko pracy obróbki blachy](https://www.youtube.com/watch?v=xidvQYkC4so) autorstwa Joko Engineering
+
+
 
 ## Odnośniki internetowe 
 
@@ -235,7 +267,12 @@ Jak to zrobić?
 -   [Angielski i francuski poradnik w formacie PDF](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) na forum FreeCAD.
 -   Zgłaszanie błędów/żądanie funkcji: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 
+
+
 ## Bibliografia
+
+
+<div class="mw-translate-fuzzy">
 
 -   Autor:
     -   Narzędzia do składania: Copyright 2015-2018 by Shai Seger
@@ -243,6 +280,9 @@ Jak to zrobić?
 -   Licencja: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 -   Oficjalny blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Kod źródłowy na githubie: <https://github.com/shaise/FreeCAD_SheetMetal>
+
+
+</div>
 
 
 

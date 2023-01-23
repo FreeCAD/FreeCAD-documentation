@@ -1,6 +1,8 @@
 # External workbenches/es
 {{TOCright}}
 
+
+
 ## Introducción
 
 [Ambientes de trabajo externos](External_workbenches/es.md) son aquellos creados por usuarios poderosos que no han sido integrados en el código fuente principal de FreeCAD.
@@ -11,6 +13,8 @@ Ambientes de trabajo marcados con <img alt="" src=images/AddonManager.svg  style
 
 Los ambientes de trabajo marcados con <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> no se recomiendan para las versiones recientes de FreeCAD. Están obsoletos, sin mantenimiento, reemplazados por un nuevo banco de trabajo, o quizás no funcionan con Python 3 o con Qt5. En la mayoría de los casos deberían evitarse.
 
+
+
 ## Ambiente de trabajo ensamble 
 
 A partir de FreeCAD 0.19 no hay ningún ambiente de trabajo oficial para la asamblea. Sin embargo, se han creado o están en desarrollo varias herramientas externas para manipular objetos para producir ensamblajes.
@@ -18,6 +22,8 @@ A partir de FreeCAD 0.19 no hay ningún ambiente de trabajo oficial para la asam
 Tenga en cuenta que los ambientes de trabajo de montaje suelen ser incompatibles entre sí. Si crea un ensamblaje con uno de ellos, debe ceñirse al banco de trabajo original y no utilizar otro ambientes de trabajo de ensamblaje en el mismo documento.
 
 También hay ambientes de trabajo de \"pseudo-ensamblaje\" que en realidad no usan restricciones para mantener las relaciones entre las partes, sino que simplemente las re-posicionan en el espacio.
+
+
 
 ## Vista general 
 
@@ -247,6 +253,8 @@ La tabla que figura a continuación está organizada por temas, pero puede reord
 +++++++++
 | <img alt="" src=images/ExplodedAssembly_workbench_icon.svg  style="width:32px;">                         | [ExplodedAssembly](ExplodedAssembly_Workbench.md)                           | Pseudo-ensamblado             | Permite crear vistas de explosiones y animaciones de ensamblajes. Anteriormente se conocía como \"Animacion Explosiva\".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | JMG1                                              | <https://github.com/JMG1/ExplodedAssembly>                                          | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
 +++++++++
+| <img alt="" src=images/Fcmcua_wb.svg  style="width:32px;">                                                                     | [Fcmcua](Fcmcua_Workbench.md)                                               | Pseudo-assembly               | Link a motion controller to a FreeCAD assembly using OPC UA. The workbench provides features to simulate machines that are controlled by e.g. a programmable logic controller (PLC), provided the PLC supports OPC UA.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Heissgetraenk                                     | <https://github.com/heissgetraenk/fcmcua>                                           | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
++++++++++
 | <img alt="" src=images/Lattice2_workbench_icon.svg  style="width:32px;">                                         | [Lattice2](Lattice2_Workbench.md)                                           | Pseudo-ensamblado             | Proporciona herramientas para trabajar con colocaciones y arreglos de colocaciones. Es una especie de banco de trabajo de ensamblaje pero no hay restricciones ni relaciones. En cambio, el banco de trabajo se centra en matrices de colocaciones que pueden ser generadas, combinadas, transformadas, superpuestas y pobladas con formas. También puede crear ensamblajes explotados.                                                                                                                                                                                                                                                                                                                                                                                | DeepSOIC                                          | <https://github.com/DeepSOIC/Lattice2>                                              | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
 +++++++++
 | <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:32px;">                                   | [Manipulator](Manipulator_Workbench.md)                                     | Pseudo-ensamblado             | Está dirigido a ayudar a los usuarios a alinear, mover, rotar y medir objetos 3D a través de una interfaz gráfica amigable..                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | easyw                                             | <https://github.com/easyw/Manipulator>                                              | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
@@ -311,6 +319,8 @@ La tabla que figura a continuación está organizada por temas, pero puede reord
 +++++++++
 | <img alt="" src=images/FEMbyGEN.svg  style="width:32px;">                                                                       | [FEMbyGEN](FEMbyGEN_Workbench.md)                                           | Simulation                    | It provides a simple interface to choose the best solution by showing the structural behavior of your designs on screen for parametric analysis and multiple loading situations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Serdar Ince, Ögeday Yavuz, Rahul Jhuree           | <https://github.com/Serince/FEMbyGEN>                                               | <img alt="" src=images/AddonManager.svg  style="width:24px;"> |                                                    |
 +++++++++
+
+
 
 ## Traduciendo ambientes de trabajo externos 
 

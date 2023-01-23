@@ -84,7 +84,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Stretch.svg  style="width:32px;"> [Étirer](Draft_Stretch/fr.md) : étire les objets en déplaçant les points sélectionnés.
 
--   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Clone](Draft_Clone/fr.md) : crée des copies liées, des clones, des objets sélectionnés.
+-   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Cloner](Draft_Clone/fr.md) : crée des copies liées, des clones, des objets sélectionnés.
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Outils Réseau :
 

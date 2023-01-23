@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -24,6 +26,8 @@
 </div>
 
 <img alt="" src=images/Part_Tube_Example.png  style="width:400px;">
+
+
 
 ## Применение
 
@@ -53,6 +57,8 @@
 ![Part Tube from the scripting example](images/Part_Tube_Scripting_Example.png )
 
 A Part Tube object created with the [scripting example](#Scripting.md) below is shown here.
+
+
 
 ## Свойства
 

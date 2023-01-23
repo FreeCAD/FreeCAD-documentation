@@ -4,7 +4,7 @@
    Name/fr:Std Stocker la vue de travail
    MenuLocation:Affichage → Vues standards → Stocker la vue de travail
    Workbenches:Tous
-   Shortcut:**Shift**+**Fin**
+   Shortcut:**Maj**+**Fin**
    Version:1.0
    SeeAlso:[Std Rappel de la vue de travail](Std_RecallWorkingView/fr.md), [Std Figer l'affichage](Std_FreezeViews/fr.md)
 ---
@@ -17,12 +17,16 @@ La commande **Std Stocker la vue de travail** stocke les paramètres de la camé
 
 Chaque vue 3D possède sa propre vue de travail. L\'enregistrement d\'une nouvelle vue de travail écrasera la vue de travail existante de la vue 3D active. Lorsqu\'une vue 3D est fermée, sa vue de travail est perdue.
 
+
+
 ## Utilisation
 
 1.  Assurez-vous qu\'une [vue 3D](3D_view/fr.md) est active.
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Sélectionnez l\'option **Affichage → Vues standards → Stocker la vue de travail** dans le menu.
-    -   Utilisez le raccourci clavier : **Shift**+**Fin**.
+    -   Utilisez le raccourci clavier : **Maj**+**Fin**.
+
+
 
 ## Script
 

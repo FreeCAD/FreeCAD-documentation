@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft PathArray
    Name/fr:Draft Réseau selon une courbe
-   MenuLocation:Modification → Outils de réseau → Réseau selon une courbe
+   MenuLocation:Modification → Outils pour les réseaux → Réseau selon une courbe
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.14
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -17,7 +17,9 @@ La commande <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **D
 Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
-*Un réseau Draft selon une courbe*
+*Un Draft réseau selon une courbe*
+
+
 
 ## Utilisation
 
@@ -25,16 +27,20 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 2.  Ajouter l\'objet trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
+    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Alignement
 
 L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des propriétés du réseau et de l\'orientation de l\'objet source. La position de l\'objet source est ignorée : pour les besoins du réseau, les valeurs {{Value|x}}, {{Value|y}} et {{Value|z}} sont fixées à {{Value|0}}. Si la propriété **Align** du réseau est définie à `False`, l\'orientation des éléments du réseau est identique à celle de l\'objet source. Si elle a pour valeur `True`, l\'axe X du système de coordonnées local de chaque élément placé est tangent à la trajectoire. Les axes Y et Z des systèmes de coordonnées locaux dépendent de la propriété **Align Mode** du réseau. Les autres propriétés du réseau impliquées dans l\'alignement comprennent **Tangent Vector**, **Force Vertical** et **Vertical Vector**.
 
 <img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
-*3 réseaux basés sur la même courbe non planaire. De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
+*3 réseaux basés sur la même courbe non planaire.<br>De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
+
+
 
 ### Mode d\'alignement 
 
@@ -52,17 +58,23 @@ Ce mode utilise le vecteur normal local dérivé de la trajectoire à chaque pla
 
 Ce mode est similaire à **Align Mode**. {{Value|Original}} mais offre la possibilité de pré-rotation de l\'objet source en spécifiant un **Tangent Vector**.
 
+
+
 ### Force Vertical et Vertical Vector 
 
 Ces propriétés ne sont disponibles que si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. Si **Force Vertical** est défini sur `True`, le système de coordonnées local est calculé d\'une manière différente. **Vertical Vector** est utilisé comme vecteur normal fixe. Un produit vectoriel est à nouveau calculé à partir de ce vecteur normal et du vecteur tangent local (l\'axe X local). Mais ce vecteur est maintenant utilisé comme l\'axe Y local. L\'orientation de l\'axe Z local est déterminée à partir des axes X et Y locaux.
 
 L\'utilisation de ces propriétés peut être nécessaire si l\'un des bords du chemin est (presque) parallèle à la normale par défaut du chemin.
 
+
+
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Réseau selon une courbe est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés (à l\'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+
+
 
 ### Données
 
@@ -128,6 +140,8 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 -    **Path Object|LinkGlobal**: spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape/fr.md).
 
 -    **Path Subelements|LinkSubListGlobal**: spécifie une liste d\'arêtes de **Path Object**. Si elle est renseignée, seules ces arêtes sont utilisées pour le chemin.
+
+
 
 ### Vue
 
@@ -198,6 +212,8 @@ Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Featu
 {{TitleProperty|Object style}}
 
 Les propriétés de ce groupe ne sont pas héritées par les réseaux de liens.
+
+
 
 ## Script
 

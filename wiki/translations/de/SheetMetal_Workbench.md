@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der Arbeitsbereich <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Blech (Sheet Metal)](SheetMetal_Workbench/de.md) ist ein [Externer Arbeitsbereich](External_workbenches/de.md) und ist nicht Bestandteil der FreeCAD-Standardinstallation. Er wurde entwickelt, um Werkzeuge zum Erstellen und Abwickeln von Blechobjekten zur Verfügung zu stellen.
@@ -22,9 +24,13 @@ Das Abwicklungswerkzeug ist in beiden Versionen nicht auf Teile beschränkt, die
 
 Wenn der DXF-Export zur Steuerung von Maschinen (z. B. Laserschneiden) verwendet wird, muss die DXF Datei geändert werden, um die Biegelinien zu entfernen, da diese Linien von der Maschine (irrtümlich) als Schnittkontur interpretiert werden könnten.
 
+
+
 ## Einrichtung
 
 Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Für die manuelle Installation siehe [Weitere Arbeitsbereiche installieren](Installing_more_workbenches.md).
+
+
 
 ## Werkzeuge
 
@@ -54,6 +60,8 @@ Eine detaillierte Beschreibung der Werkzeuge kann unter [Blog des Autors](http:/
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Prägen](SheetMetal_Forming/de.md): Prägt Formen mit und ohne Löcher in eine Blechplatine.
 
+
+
 ## Kurzbeschreibung
 
 Dieser Arbeitsbereich bietet Werkzeuge für zwei Hauptaufgaben:
@@ -63,17 +71,25 @@ Dieser Arbeitsbereich bietet Werkzeuge für zwei Hauptaufgaben:
 
 Dieser Abschnitt ist dazu gedacht, eine grobe Vorstellung davon zu vermitteln, wie die mitgelieferten Werkzeuge zu verwenden sind. Ausführlichere Informationen können auf der Seite der jeweiligen Werkzeuge (siehe oben) oder in den verknüpften Tutorien (siehe unten) gefunden werden.
 
+
+
 ### Erstellen eines Blechobjekts 
+
+
 
 #### Mit einem Profil beginnen 
 
 1.  Erstelle eine offene Polylinie (vorzugsweise mit dem Skizzierer).
 2.  Verwende den <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Basis Wandung erstellen](SheetMetal_AddBase/de.md), um ein Blechprofil zu erstellen.
 
+
+
 #### Mit einer Platine beginnen 
 
 1.  Erstelle eine geschlossene Polylinie (vorzugsweise mit dem Skizzierer).
 2.  Verwende den [16px](IMage:SheetMetal_AddBase.svg.md) [Basis Wandung erstellen](SheetMetal_AddBase/de.md) Befehl, um einen Blechrohling zu erstellen.
+
+
 
 #### Mit einem PartDesign Polster beginnen 
 
@@ -88,6 +104,8 @@ Dieser Abschnitt ist dazu gedacht, eine grobe Vorstellung davon zu vermitteln, w
 Einige Parameter werden vom Elternobjekt (von den Elternobjekten) übernommen, aber es ist besser die entsprechenden Parameter bei jedem Schritt zu überprüfen.
 
 Nun sollte geprüft werden, ob das resultierende Blechobjekt abgewickelt werden kann.(siehe unten [\...abwickeln](#Ein_Blechobjekt_abwickeln.md)).
+
+
 
 #### Weitere Elemente hinzufügen 
 
@@ -106,11 +124,15 @@ Die abwickelbaren Blech-Basisobjekte können erweitert werden:
 
 Einige Werkzeuge aus anderen Arbeitsbereichen können verwendet werden, um Löcher hinzuzufügen oder Kanten umzuformen.
 
+
+
 ### Abwickeln eines Blechobjekts 
 
 Um ein Blechobjekt abzuwickeln, verwendet man das Werkzeug <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_Unfold/de.md) bzw. <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md).
 
 Das Ergebnis ist ein 3D-Objekt, wahlweise mit Kontur inklusive Biegelinien.
+
+
 
 ### Beispiele
 
@@ -120,11 +142,15 @@ Bis Seiten mit Tutorials innerhalb des Wikis zur Verfügung stehen, gibt es eine
 
 Sie enthält auch ein paar Hinweise zu den [Eigenschaften](SheetMetal_Examples/de#SheetMetal_Eigenschaften.md).
 
+
+
 ## Begrenzungen
 
 -   Der Arbeitsbereich ist betroffen von dem mit FreeCAD verbundenen [topological naming issue](Glossary#Topological_Naming.md). Wenn bei der Bearbeitung einer in der Geschichte des Teils früheren Biegung die Flächen neu nummeriert werden, können die folgenden Biegungen betroffen sein und die Flächen vertauscht werden. Wenn die Biegungsmerkmale nicht brechen, kannst Du darauf doppelklicken, um ein Dialogfeld zu erhalten, in dem du die richtige Fläche in der [3D Ansicht](3D_view/de.md) auswählen und die Biegung aktualisieren kannst.
 -   Das Abwickelwerkzeug hat einige Einschränkungen und versagt in bestimmten komplexen Situationen. Wenn es fehlschlägt, versuche eine andere Fläche auszuwählen.
 -   Häufiger Crash Fall: Treffe viele Vorsichtsmaßnahmen, um nicht in die Gelenke (die Faltungen) weder entlang der Flächen oder in den Winkeln einzuschneiden noch Löcher oder Ausklinkungen durch die Winkel zu machen.
+
+
 
 ## Tutorien
 
@@ -138,16 +164,18 @@ Das folgende Tutorium ist aus dem in [Links](#Links.md) erwähnten PDF Tutorium 
 
 <div class="mw-collapsible-content">
 
+
+
 #### Vorstellung des Arbeitsbereichs 
 
-Nach dem herunterladen und installieren der Erweiterung, öffne sie. ![](images/sm1.png )
+Nach dem herunterladen und installieren der Erweiterung, öffne sie. ![](images/sm1.png ) 
 
 #### 1. Arbeitsgang
 
 -   Hole die Grundlage: benutze entweder die Arbeitsbereiche \"Part\" oder \"Entwurf\", mache 1 Skizze, die alle Löcher und eventuelle Schnitte enthält, extrudiere diese Grundlage auf die Dicke der Platte.
 -   Denk daran, dass die Kanten immer zusätzlich sein werden genauso wie die Falzradien.
 
-![](images/sm2.png )
+![](images/sm2.png ) 
 
 #### 2. Arbeitsgang 
 
@@ -173,13 +201,13 @@ Jetzt müssen wir die 2 Kanten trennen, sonst vereinigen sie sich und die Abwick
 
 -   2\. Methode einen Schnitt bei 45 ° machen, siehe weiter, dieses Werkzeug verwenden.
 
-![](images/sm5a.png )
+![](images/sm5a.png ) 
 
 #### Abwicklung
 
 Wähle eine Referenzfläche (hier die orangene Fläche) und klicke auf die Schaltfläche in der Werkzeugleiste.
 Wir erhalten den blauen Teil, von dem es ausreicht, die Werte X, Y oder Z zu ändern, um ihn als Ganzes zu sehen.
-![](images/sm6.png )
+![](images/sm6.png ) 
 
 #### Schneide die Umschläge bei 45 ° 
 
@@ -189,23 +217,23 @@ Nach dem Falten der Umschläge ohne das ein Rücknahme gemacht wurde, dadurch er
 -   Erstelle einen verknüpften Anschlag, durch Wahl der Außenkante des \"Scharniers\".
 -   Zeichne ein Dreieck, dessen Spitze am Ende begrenzt ist und eine Seite in 45 ° ausgerichtet ist, geben Sie der kleinen Seite 1 Mindestbreite (0,1 mm sind ausreichend) und fertigen Sie eine Tasche an.
 
-Achten Sie darauf, nicht das \"Scharnier\" zu zerkratzen, bei dem die Nacktheit die Spitze des Dreiecks am Rand der Faltlinie gebunden hat. ![](images/sm8a.png ) Abwicklung ![](images/sm9.png )
+Achten Sie darauf, nicht das \"Scharnier\" zu zerkratzen, bei dem die Nacktheit die Spitze des Dreiecks am Rand der Faltlinie gebunden hat. ![](images/sm8a.png ) Abwicklung ![](images/sm9.png ) 
 
 #### Kanten und Umschläge durchstechen 
 
 Machen Sie diese Löcher und Schnitte nach dem Falten und vor dem Abwickeln.
 Achten Sie immer darauf, die Falzlinien nicht zu \"zerkratzen\".
-![](images/sm10.png )
+![](images/sm10.png ) 
 
 #### Verdrahtete Umschläge herstellen 
 
 Mache eine Falte an der Kante der Seite, bei 45 ° von 0,1 mm Länge, dann eine andere umgekehrt bei 45 ° der Länge des benachbarten Umschlags, dann verlängere die gegenüberliegende Seite, sie wird übergehen und sie werden nicht zusammengeführt.
-![](images/sm11.png )
+![](images/sm11.png ) 
 
 #### Sonderfall derselben durchstochenen Kante 
 
 In diesem speziellen Fall funktioniert das Abwickeln nur, indem die gelbe Fläche als Referenz ausgewählt wird.
-![](images/sm12.png )
+![](images/sm12.png ) 
 
 #### Sonderfall Loch überspannt die Faltungen 
 
@@ -230,13 +258,20 @@ Was macht man ?
 
 -   [The Elegant Sheet Metal Workbench](https://www.youtube.com/watch?v=xidvQYkC4so) von Joko Engineering
 
+
+
 ## Verweise
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), das ursprüngliche Makro, auf dem das Abwicklungswerkzeug basiert.
 -   [Ein englisches und französisches Tutorium im PDF Format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) im FreeCAD Forum.
 -   Fehler melden/Funktionen anfragen: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 
+
+
 ## Referenzen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Autoren:
     -   Falt Werkzeuge: Urheberrechtlich geschützt 2015-2018 durch Shai Seger
@@ -244,6 +279,9 @@ Was macht man ?
 -   Lizenz: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 -   Offizieller Blog: [Blech Erweiterung für FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Quellcode auf github: <https://github.com/shaise/FreeCAD_SheetMetal>
+
+
+</div>
 
 
 

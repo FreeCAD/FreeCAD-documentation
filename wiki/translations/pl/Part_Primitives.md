@@ -9,6 +9,8 @@
 
 # Part Primitives/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Utwórz geometrie pierwotne \...** otwiera okno dialogowe do tworzenia jednego lub więcej prymitywów parametrycznych. Dostępnych jest 16 typów brył pierwotnych.
@@ -16,9 +18,16 @@ Narzędzie <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Ut
 <img alt="" src=images/Part_Primitives_example.png  style="width:600px;"> 
 *Geometrie pierwotne, które mogą być tworzone za pomocą tego narzędzia*
 
+
+
 ## Użycie
 
+
+
 ### Tworzenie
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Primitives.svg" width=16px> [Utwórz geometrie pierwotne](Part_Primitives/pl.md)**.
@@ -32,6 +41,11 @@ Narzędzie <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Ut
 8.  Opcjonalnie utwórz dodatkowe prymitywy.
 9.  Naciśnij przycisk **Zamknij**, aby zamknąć panel zadań i zakończyć polecenie.
 
+
+</div>
+
+
+
 ### Edycja
 
 1.  Kliknij dwukrotnie obiekt pierwotny w oknie [widoku drzewa](Tree_view/pl.md).
@@ -41,6 +55,8 @@ Narzędzie <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Ut
 5.  Naciśnij przycisk **OK**.
 
 Właściwości elementu pierwotnego można również zmienić w [Edytorze właściwości](Property_editor/pl.md), a jego **Umiejscowienie** można również zmienić za pomocą narzędzia <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std: Przemieszczenie](Std_TransformManip/pl.md).
+
+
 
 ## Geometryczne elementy pierwotne 
 
@@ -63,9 +79,13 @@ Można utworzyć następujące elementy pierwotne:
 -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Linia](Part_Line/pl.md): Tworzy linię.
 -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Wielokąt foremny](Part_RegularPolygon/pl.md): Tworzy wielokąt foremny.
 
+
+
 ## Uwagi
 
 -   Polecenie Utwórz geometrie pierwotne środowiska Część nie tworzy <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Rury](Part_Tube/pl.md).
+
+
 
 ## Tworzenie skryptów 
 

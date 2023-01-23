@@ -7,6 +7,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Обзор
@@ -28,9 +30,13 @@ The unfolding tool in both of its versions is not restricted to parts made with 
 
 If the export in DXF is used to control machines (Lasercut for example), you have to modify the DXF to remove the lines showing the folds, as these lines may be used for cutting by the machine.
 
+
+
 ## Установка
 
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
+
+
 
 ## Инструменты
 
@@ -125,6 +131,8 @@ Until tutorial pages are available on this wiki there is an [Examples](SheetMeta
 <img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;">
 
 It contains some hints about [properties](SheetMetal_Examples#SheetMetal_properties.md) as well.
+
+
 
 ## Ограничения
 
@@ -236,6 +244,8 @@ How to do ?
 
 -   [The Elegant Sheet Metal Workbench](https://www.youtube.com/watch?v=xidvQYkC4so) by Joko Engineering
 
+
+
 ## Ссылки
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), the original macro the Unfold tool is based on.
@@ -248,7 +258,6 @@ How to do ?
     -   Folding tools: Copyright 2015-2018 by Shai Seger
     -   Unfolding tool: Copyright 2014 by Ulrich Brammer
 -   License: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
--   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 

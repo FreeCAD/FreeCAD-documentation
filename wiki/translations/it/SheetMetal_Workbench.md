@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) è un [ambiente esterno](External_workbenches.md) e non appartiene all\'installazione standard di FreeCAD. È stato sviluppato per fornire strumenti per realizzare e dispiegare oggetti in lamiera.
@@ -22,9 +24,13 @@ Lo strumento di svolgimento in entrambe le sue versioni non è limitato alle par
 
 Se l\'esportazione in DXF viene utilizzata per controllare una macchina (ad esempio Lasercut), è necessario modificare il DXF per rimuovere le linee che mostrano le pieghe, perché queste linee potrebbero essere utilizzate come linee di taglio dalla macchina.
 
+
+
 ## Installazione
 
 Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr/it.md). Per l\'installazione manuale vedi [Installare ulteriori ambienti di lavoro](Installing_more_workbenches/it.md).
+
+
 
 ## Strumenti
 
@@ -54,6 +60,8 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming/it.md): Imprime forme con o senza fori in una lastra di metallo.
 
+
+
 ## Descrizione breve 
 
 Questo ambiente di lavoro fornisce strumenti per i due compiti principali:
@@ -63,12 +71,18 @@ Questo ambiente di lavoro fornisce strumenti per i due compiti principali:
 
 Questa sezione ha lo scopo di dare un\'idea approssimativa di come usare gli strumenti forniti. Informazioni più dettagliate possono essere trovate sulla pagina di ogni strumento (vedi sopra) o nei tutorial collegati (vedi sotto).
 
+
+
 ### Creare un oggetto in lamiera 
+
+
 
 #### Iniziare con un profilo 
 
 1.  Crea una polilinea aperta(preferibilmente con lo sketcher)
 2.  Utilizzare il comando <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/it.md) per creare un profilo di lamiera.
+
+
 
 #### Iniziare con una lamiera grezza 
 
@@ -120,11 +134,15 @@ Until tutorial pages are available on this wiki there is an [Examples](SheetMeta
 
 It contains some hints about [properties](SheetMetal_Examples#SheetMetal_properties.md) as well.
 
+
+
 ## Limitazioni
 
 -   Il workbench è influenzato dal problema della [denominazione topologica](Glossary#Topological_Naming.md) inerente a FreeCAD. Se una modifica di una piega precedente nella cronologia della parte rinomina le facce, le piegature successive potrebbero essere influenzate e cambiare le facce. Se le funzioni di piegatura non si interrompono, si può fare doppio clic su di esse per ottenere una finestra di dialogo in cui è possibile selezionare la faccia corretta nella vista 3D e aggiornare la Piegatura.
 -   Lo strumento Unfold ha alcune limitazioni e fallisce in alcune situazioni complesse. Quando fallisce, provare a selezionare una faccia diversa.
 -   Caso frequente di crash: prendere tutte le precauzioni per non tagliare le cerniere (le pieghe) né lungo le facce o negli angoli e per non fare fori o tacche negli angoli.
+
+
 
 ## Tutorial
 
@@ -137,6 +155,8 @@ Il seguente tutorial è riprodotto dal tutorial in PDF menzionato nei [Link](#Li
 
 
 <div class="mw-collapsible-content">
+
+
 
 #### Presentazione dell\'ambiente di lavoro 
 
@@ -179,7 +199,7 @@ Ora bisogna separare i due bordi altrimenti si fondono e il dispiegamento è imp
 
 Scegliere una faccia di riferimento (qui la faccia arancione) e fare clic sul pulsante nella barra degli strumenti.
 Si ottiene la parte blu in cui è sufficiente modificare i valori X, Y o Z per vederla completamente.
-![](images/sm6.png )
+![](images/sm6.png ) 
 
 #### Tagliare i lembi a 45° 
 
@@ -189,23 +209,23 @@ Dopo aver piegato i lembi senza averne ritratto nessuno, la forma appare così. 
 -   Creare un arresto collegato selezionando il bordo esterno della \"cerniera\".
 -   Disegnare un triangolo la cui cima è vincolata all\'arresto, orientare un lato a 45°, dare al lato corto una larghezza minima (0,1 mm è sufficiente) e creare una tasca.
 
-Fare attenzione a non graffiare la \"cerniera\" dove la nudità lega la punta del triangolo al bordo della linea di piegatura. ![](images/sm8a.png ) Dispiegatura ![](images/sm9.png )
+Fare attenzione a non graffiare la \"cerniera\" dove la nudità lega la punta del triangolo al bordo della linea di piegatura. ![](images/sm8a.png ) Dispiegatura ![](images/sm9.png ) 
 
 #### Bordi e lembi forati 
 
 Realizzare questi fori e tagli dopo la piegatura e prima della dispiegatura.
 Fare sempre attenzione a non \"graffiare\" le linee di piegatura.
-![](images/sm10.png )
+![](images/sm10.png ) 
 
 #### Realizzare lembi metallici 
 
 Fare una piega sul bordo del lato, a 45° di 0,1 mm di lunghezza, poi un\'altra piega reversa a 45° della lunghezza del lembo contiguo, quindi estendere il lato opposto, un limbo passa sopra all\'altro e non vengono uniti.
-![](images/sm11.png )
+![](images/sm11.png ) 
 
 #### Caso speciale di questo bordo forato 
 
 In questo caso particolare, il dispiegamento funziona solo scegliendo la faccia gialla come riferimento.
-![](images/sm12.png )
+![](images/sm12.png ) 
 
 #### Caso speciale foro a cavallo tra le pieghe 
 
@@ -230,6 +250,8 @@ Come fare ?
 
 -   [I\' legante ambiente di lavoro per la lamiera](https://www.youtube.com/watch?v=xidvQYkC4so) di Joko Engineering
 
+
+
 ## Link
 
 
@@ -244,7 +266,12 @@ Come fare ?
 
 </div>
 
+
+
 ## Riferimenti
+
+
+<div class="mw-translate-fuzzy">
 
 -   Autori:
     -   Strumenti di piegatura: Copyright 2015-2018 by Shai Seger
@@ -252,6 +279,9 @@ Come fare ?
 -   Licenza: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 -   Blog ufficiale: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Codice sorgente su github: <https://github.com/shaise/FreeCAD_SheetMetal>
+
+
+</div>
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Part Attachment
    Name/de:Part Befestigen
-   MenuLocation:Formteil → Attachment...
+   MenuLocation:Part → Befestigung...
    Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[Positionierung](Placement/de.md),
@@ -11,9 +11,13 @@
 
 # Part EditAttachment/de
 
+
+
 ## Beschreibung
 
 **Part Befestigen** ist ein Hilfsmittel, um ein Objekt an ein anderes anzuhängen. Das angehängte Objekt ist an dem anderen Objekt befestigt, d.h. wenn die Platzierung des letzteren nachträglich geändert wird, wird das angehängte Objekt auf seine neue Position aktualisiert.
+
+
 
 ## Anwendung
 
@@ -30,15 +34,23 @@
 9.  Lege optional einen [Anhang Versatz](#Anhang_Versatz.md) fest.
 10. Drücke **OK**.
 
+
+
 ## Optionen
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
+
+
 ### Befestigungsmodus
+
+
 
 #### Deaktiviert
 
 Standard, keine Referenz gewählt.
+
+
 
 #### Normal zur Kante 
 
@@ -51,6 +63,8 @@ Das Objekt wird senkrecht zur Kante gemacht. Eine optionale Knotenreferenz defin
 :   Knoten, Kante
 
 See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes:
+
+
 
 #### Ausrichten O-Z-X 
 
@@ -65,6 +79,8 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
+
+
 #### Ausrichten O-Z-Y 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet seine Normalen und vertikalen Achsen in Richtung Knoten/Linie aus.
@@ -77,6 +93,8 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Kante, Kante
 :   Knoten, Knoten
 :   Knoten, Kante
+
+
 
 #### Ausrichten O-X-Y 
 
@@ -91,6 +109,8 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
+
+
 #### Ausrichten O-X-Z 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet seine horizontale Ebenenachse und seine Normale am Knoten bzw. entlang der Linie aus.
@@ -103,6 +123,8 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Kante, Kante
 :   Knoten, Knoten
 :   Knoten, Kante
+
+
 
 #### Ausrichten O-Y-Z 
 
@@ -117,6 +139,8 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
+
+
 #### Ausrichten O-Y-X 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet die vertikalen und horizontalen Achsen des Objekts am Knoten/an der Linie aus.
@@ -130,6 +154,8 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
 :   Knoten, Knoten
 :   Knoten, Kante
 
+
+
 #### Ursprung versetzen 
 
 Der Objektursprung wird am entsprechenden Knoten ausgerichtet. Die Ausrichtung wird durch die Eigenschaft [Platzierung](Placement/de.md) gesteuert.
@@ -137,6 +163,8 @@ Der Objektursprung wird am entsprechenden Knoten ausgerichtet. Die Ausrichtung w
 :; Referenzkombinationen:
 
 :   Knoten.
+
+
 
 #### Objekt XY 
 
@@ -146,6 +174,8 @@ Die Ebene wird an der lokalen XY Fläche des verknüpften Objekts ausgerichtet.
 
 :   Alle, Konisch.
 
+
+
 #### Objekt XZ 
 
 Die Ebene wird an der lokalen XZ Fläche des verknüpften Objekts ausgerichtet.
@@ -153,6 +183,8 @@ Die Ebene wird an der lokalen XZ Fläche des verknüpften Objekts ausgerichtet.
 :; Referenzkombinationen:
 
 :   Alle, Konisch.
+
+
 
 #### Objekt XZ 
 
@@ -162,6 +194,8 @@ Die Ebene wird an der lokalen YZ Ebene des verknüpften Objekts ausgerichtet.
 
 :   Alle, Konisch.
 
+
+
 #### Ebene Fläche 
 
 Die Ebene wird zur ebenen Fläche deckungsgleich ausgerichtet.
@@ -169,6 +203,8 @@ Die Ebene wird zur ebenen Fläche deckungsgleich ausgerichtet.
 :;Referenzkombinationen:
 
 :   Ebene
+
+
 
 #### Tangente zur Oberfläche 
 
@@ -212,6 +248,8 @@ Ebene wird auf tangential-binormale (TB) Achsen von [Frenet-Serret Koordinaten](
 :   Knoten, Kurve
 :   <img alt="" src=images/Attacher_mode_FrenetTB.png  style="width:250px;">
 
+
+
 #### Konzentrisch
 
 Richtet sich an der Ebene zum Schmiegungskreis einer Kante aus. Optionale Knoten Verknüpfung definiert, wo.
@@ -224,6 +262,8 @@ Richtet sich an der Ebene zum Schmiegungskreis einer Kante aus. Optionale Knoten
 :   Kreis, Knoten
 :   Knoten, Kurve
 :   Knoten, Kreis
+
+
 
 #### Drehung Abschnitt 
 
@@ -238,6 +278,8 @@ Die Ebene steht senkrecht zur Kante, und die Y Achse ist mit der Achse des Schmi
 :   Knoten, Kurve
 :   Knoten, Kreis
 
+
+
 #### Ebene durch 3 Punkte 
 
 Richtet die XY Ebene so aus, dass sie durch drei Knoten verläuft.
@@ -248,6 +290,8 @@ Richtet die XY Ebene so aus, dass sie durch drei Knoten verläuft.
 :   Linie, Knoten
 :   Knoten, Linie
 :   Linie, Linie
+
+
 
 #### Normale zu 3 Punkten 
 
@@ -260,6 +304,8 @@ Richtet die Ebene so aus, dass sie durch die ersten beiden Knoten verläuft und 
 :   Knoten, Linie
 :   Linie, Linie
 
+
+
 #### Faltung
 
 Spezialmodus zum Falten von Polyedern. Wähle 4 Kanten in der Reihenfolge: Verbindungskante, Faltlinie, andere Faltlinie, andere Verbindungskante. Die Ebene wird ausgerichtet, um die erste Kante zu falten. Im folgenden Bild ist es nicht erforderlich, dass beide zu faltenden Blätter gleich sind.
@@ -268,6 +314,8 @@ Spezialmodus zum Falten von Polyedern. Wähle 4 Kanten in der Reihenfolge: Verbi
 
 :   Linie, Linie, Linie, Linie
 :   ![ 250px](images/Attacher_mode_Folding.png )
+
+
 
 #### Trägheit 2-3 
 
@@ -279,6 +327,8 @@ Das Objekt wird an einer Ebene befestigt, welche durch die zweite und dritte Hau
 :   Alle,Alle
 :   Alle, Alle, Alle
 :   Alle, Alle, Alle, Alle
+
+
 
 ### Befestigungsversatz
 
@@ -297,6 +347,8 @@ Attachment Versatz wird verwendet, um einen linearen oder rotatorischen Versatz 
 -   **Wanken**: dreht das angehängte Element entlang der X Achse des Referenzobjekts.
 
 -   **Seiten kippen**: Wenn angehakt, wird das angehängte Objekt aus der XY Ebene umgekehrt.
+
+
 
 ## Begrenzungen
 

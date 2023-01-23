@@ -9,6 +9,8 @@
 
 # Part Sweep/de
 
+
+
 ## Beschreibung
 
 Das <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Austragung](Part_Sweep/de.md) Werkzeug wird verwendet, um eine Fläche, eine Schale oder eine Volumenkörperform aus einem oder mehreren Profilen (Querschnitten) zu erzeugen, die entlang einer Bahn projiziert werden.
@@ -16,6 +18,8 @@ Das <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Austragung
 Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Teil Ausformung](Part_Loft/de.md) mit dem Hinzufügen eines Pfades, um die Projektion zwischen Profilen zu definieren.
 
 ![](images/Part_Sweep_simple.png ) *Eine Volumenkörperaustragung, die aus einem einzelnen Profil (A) erzeugt wird, das entlang eines Pfades (B) projiziert wird.*
+
+
 
 ## Anwendung
 
@@ -27,6 +31,8 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 4.  Definiere die Optionen [Volumenkörper](#Solid/de.md) und [Frenet](#Frenet/de.md).
 5.  Klicke **OK**
 
+
+
 ### Anerkannte Geometrie 
 
 -   **Profile**: können ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Profileinschränkungen und Komplikationen](Part_Sweep/de#Profileinschränkungen_und_Komplikationen.md), siehe unten, die Profile können auch aus Grundelementen (primitives) des Arbeitsbereiches Part, und aus Objekten und Skizzen des Arbeitsbereiches Draft stammen.
@@ -35,7 +41,11 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 
 -   [App-Link](App_Link/de.md)-Objekte, die zu geeigneten Objektarten verlinkt sind und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Profile und Pfade verwendet werden. <small>(v0.20)</small> 
 
+
+
 ## Eigenschaften
+
+
 
 ### Volumenkörper
 
@@ -49,9 +59,13 @@ Die Eigenschaft \"Frenet\" steuert, wie sich die Profilausrichtung ändert, wenn
 
 Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lokalen Krümmungs- und Tangentialvektoren des Pfades berechnet. Dadurch bleibt die Ausrichtung des Profils beim Austragen entlang einer Helix konstant (da der Krümmungsvektor einer geraden Helix immer auf ihre Achse zeigt). Wenn der Weg jedoch keine Helix ist, kann die resultierende Form manchmal seltsam aussehende Verdrehungen aufweisen. Weitere Informationen findest Du unter[Frenet Serret Formeln](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
+
+
 ### Übergang
 
 \"Übergang\" setzt den Übergangsstil der Austragung an einer Verbindung im Pfad, wenn der Pfad den Eckübergang nicht definiert (z.B. wenn der Pfad ein Draht ist). Die Eigenschaft wird im [Aufgabenpaneel](Task_panel/de.md) nicht angezeigt und befindet sich nach der Erstellung der Austragung in den Eigenschaften.
+
+
 
 ## Profileinschränkungen und Komplikationen 
 
@@ -81,6 +95,8 @@ Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lok
             -   Kreis, Ellipse,
             -   Regelmäßiges Polygon
             -   Ebene (Fläche)
+
+
 
 ## Verweise
 

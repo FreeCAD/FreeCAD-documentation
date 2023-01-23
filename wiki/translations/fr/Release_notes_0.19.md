@@ -9,6 +9,8 @@ Les notes de version plus anciennes de FreeCAD sont disponibles dans la [liste d
 
 *Machine à vapeur à course courte Simpson et Shipton, vers 1845, à piston rotatif horizontal, par \"un1corn\", [vitrine des utilisateurs](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024).*
 
+
+
 ## Points forts 
 
    
@@ -37,15 +39,21 @@ Les notes de version plus anciennes de FreeCAD sont disponibles dans la [liste d
 |                                                                               | Parmi les nombreuses petites améliorations, les nouvelles fonctionnalités comprennent : les dimensions sont désormais conformes à l\'une des normes ISO 129-1 ou ASME Y14.5M; de nouvelles [infobulles](TechDraw_Balloon/fr.md) pour inclure du texte à l\'intérieur d\'un cercle ou d\'un polygone; de nouvelles [annotations de texte enrichi](TechDraw_RichTextAnnotation/fr.md) pour inclure de grands paragraphes en gras ou en italique; des [sommets cosmétiques](TechDraw_CosmeticVertex/fr.md) et [arêtes cosmétiques](TechDraw_FaceCenterLine/fr.md) qui ne font pas partie du modèle d\'origine mais qui peuvent être utilisés pour créer des cotes personnalisées; des supports de base pour les [symboles de soudage](TechDraw_WeldSymbol/fr.md); nouveau mode d\'affichage actif pour prendre un \"instantané\" de la [vue 3D](3D_view/fr.md); nouveaux modèles de base pour les tailles ISO (A0 à A4), ainsi que des modèles de langue russe et chinoise; de nouvelles dimensions horizontales et verticales qui mesurent [toute l\'étendue des projections](TechDraw_HorizontalExtentDimension/fr.md); les hachures de face SVG sont désormais disponibles lorsque la page est exportée en SVG; le nouvel objet [App Link](App_Link/fr.md) est désormais également pris en charge en tant que source pour la création de vues, ce qui est utile lorsque vous travaillez avec des [assemblages](assembly/fr.md). |
 +++
 
+
+
 ## Généralités
 
 Avec plus de 8128 commits dans la branche master depuis la version 0.18, il s\'agit de l\'une des versions les plus complètes de tous les temps, avec plusieurs nouveaux composants comme le nouvel objet \"[App::Link](App_Link/fr.md)\", ainsi que de nombreux nouveaux outils dans l\'[atelier TechDraw](TechDraw_Workbench.md) qui rendent FreeCAD encore plus puissant pour la modélisation et l\'assemblage de solides 3D. En plus de cela, l\'écosystème FreeCAD a continué de croître avec des [ateliers externes](external_workbenches/fr.md) plus spécialisés.
+
+
 
 ### Python 3 et Qt5 
 
 L'effort de migration de Python 2 et Qt4 vers Python 3 et Qt5 est globalement terminé et la plupart des développeurs ont migré vers les chaînes d'outils Python3/Qt5.
 
 Sans aucun doute, il y aura des bugs imprévus ; ceux-ci seront traités lorsqu\'ils sont rapportés. Toute dépendance existante sur Python 2 ou Qt4 ne sera plus prise en charge au-delà du 1er janvier 2020, date à laquelle Python 2 ne sera officiellement plus pris en charge par la Fondation Python. Veuillez noter que certains addons n'ont pas encore été portés vers Python3/Qt5. Cela peut être dû à plusieurs raisons, notamment le manque de temps de la part de leurs développeurs, de dépendances brisées qui pourraient ne pas être facilement réparées, ou tout simplement parce que l\'addon est considéré comme obsolète. Les personnes intéressées par la migration d\'un atelier ou d\'un outil particulier sont encouragées à participer au [forum FreeCAD](https://forum.freecadweb.org/) ; voir aussi [Ateliers d\'addon compatibles Python3 et Qt5 (en préparation depuis 0.18)](https://forum.freecadweb.org/viewtopic.php?f=10&t=30624).
+
+
 
 ### Quelques problèmes 
 
@@ -56,6 +64,8 @@ Problème résolu avec la visibilité des conteneurs [Std Part](Std_Part/fr.md) 
 -   Correction d\'un bug dans `MainWindow::setActiveWindow` pour éviter un crash lors du retour en plein écran ; [discussion du forum](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commentaire c4e34ed9b](https://github.com/FreeCAD/FreeCAD/commit/c4e34ed9b).
 -   Résolution du [problème #4088](https://freecadweb.org/tracker/view.php?id=4088) sur la visibilité de l\'origine d\'une pièce qui change lors du dés-ancrage de la vue 3D ; [discussion du forum](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commentaire 1e19ef5be](https://github.com/FreeCAD/FreeCAD/commit/1e19ef5be).
 -   Résolution du [problème #3130](https://freecadweb.org/tracker/view.php?id=0003130) à propos des bugs Qt5 lors de l'utilisation d'un moniteur externe haute résolution ; [discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=34916), [commentaire 2f2d505359](https://github.com/FreeCAD/FreeCAD/commit/2f2d5053599785fdc8db481682746066911033b4).
+
+
 
 ### Développement
 
@@ -81,11 +91,15 @@ Autres actualités du développement :
 -   La page [Ateliers externes](External_workbenches/fr.md) a été réorganisée, de sorte que tous les ateliers riches en fonctionnalités et accessibles au public soient répertoriés. Si vous souhaitez ajouter un plan de travail à cette page, présentez-le dans le forum et fournissez des informations de support telles que le manuel d\'utilisation, les pages wiki et un lien vers son référentiel. Poussez ensuite pour qu\'il soit inclus dans le le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 -   Des améliorations ont été apportées aux pages [Tutoriels](Tutorials/fr.md) et [Tutoriels vidéo](Video_tutorials/fr.md). En particulier, il a été souligné aux lecteurs qu\'ils ne devraient considérer que les tutoriels vidéo réalisés avec les versions 0.17 et supérieures.
 
+
+
 ### Limitations connues 
 
 -   Écran noir en raison des pilotes de carte vidéo, lors de l\'exécution de FreeCAD dans une machine virtuelle ; [problème #3939](https://freecadweb.org/tracker/view.php?id=3939).
 -   La manette de jeu USB Logitech Wingman peut provoquer un comportement erratique lors de la rotation et du zoom dans la vue ; [discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=36712&start=10).
 -   La navigation gestuelle est entièrement prise en charge pour Windows mais doit être maintenue sous Linux et MacOS. Problème : le développeur, DeepSOIC, n'a pas de machine MacOS avec son trackpad spécial et ne l'a pas non plus testé sous Linux ; [discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?p=308403#p308402).
+
+
 
 ## Interface utilisateur 
 
@@ -109,6 +123,8 @@ Autres actualités du développement :
 |                                                                                | [Wiki](https://wiki.freecadweb.org/Std_ViewScreenShot#Creation_method), [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=41950&start=10), [commit 8e5151002](https://github.com/FreeCAD/FreeCAD/commit/8e5151002).                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 
+
+
 ## App::Link et assemblage 
 
 <img alt="" src=images/Link.svg  style="width:64px;"> <img alt="" src=images/AppLink.png  style="width:500px;"> 
@@ -116,7 +132,7 @@ Autres actualités du développement :
 
 Après 2,5 ans de développement, l\'objet \"[Link](App_Link/fr.md)\", ou plus formellement [App Link](App_Link/fr.md) (`App::Link` classe) a été introduit dans FreeCAD. C\'est un type spécial de [App DocumentObject](App_DocumentObject/fr.md) avec certaines propriétés qui, espérons-le, permettront de faire des assemblages plus facilement.
 
-Un \"[App Link](App_Link/fr.md)\" permet aux objets d\'utiliser les données d\'un autre objet, telles que la géométrie ou même leur représentation visuelle en 3D, dans le même fichier ou dans des fichiers différents. Il peut être considéré comme un clone fin et absolu ou comme le même objet vivant dans deux \"instances\" différentes. Certaines fonctionnalités offertes par un \"App Link\" sont déjà présentes dans certains ateliers comme [atelier Arch](Arch_Workbench/fr.md) et l\'[atelier BIM](BIM_Workbench/fr.md) ([Draft Clones](Draft_Clone/fr.md), [Arch Référence](Arch_Reference.md)), mais l\'implémentation de \"App Link\" est au niveau central et peut donc être utilisée par tous les ateliers de différentes manières.
+Un \"[App Link](App_Link/fr.md)\" permet aux objets d\'utiliser les données d\'un autre objet, telles que la géométrie ou même leur représentation visuelle en 3D, dans le même fichier ou dans des fichiers différents. Il peut être considéré comme un clone fin et absolu ou comme le même objet vivant dans deux \"instances\" différentes. Certaines fonctionnalités offertes par un \"App Link\" sont déjà présentes dans certains ateliers comme l\'[atelier Arch](Arch_Workbench/fr.md) et l\'[atelier BIM](BIM_Workbench/fr.md) ([Draft Cloner](Draft_Clone/fr.md), [Arch Référence externe](Arch_Reference/fr.md)), mais l\'implémentation de \"App Link\" est au niveau central et peut donc être utilisée par tous les ateliers de différentes manières.
 
 Le composant \"[App Link](App_Link/fr.md)\" a été pensé et développé presque exclusivement par l\'utilisateur {{emphasis|realthunder}}. Les motivations et la mise en œuvre de la conception de ce projet sont décrites dans sa page GitHub, [Lien](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Afin de réaliser cette fonctionnalité, plusieurs changements fondamentaux ont été apportés à FreeCAD. Ils sont également largement documentés dans [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 
@@ -141,6 +157,8 @@ Finalement, la demande d\'extraction et la fusion sont arrivées :
 L\'objet \"App Link\" prépare FreeCAD pour la phase qui devait avoir lieu après la refonte de [PartDesign dans FreeCAD 0.17](Release_notes_0.17.md) qui fonctionne avec les assemblages.
 
 [Assembly3](Assembly3_Workbench/fr.md) est un atelier d\'assemblage écrit en python par realthunder, qui utilise la fonctionnalité \"App Link\". L\'atelier a servi de banc d\'essai pour ce composant au cours de son développement. Bien que Assembly3 ne fasse toujours pas officiellement partie de FreeCAD, avec l'inclusion de \"App Link\", c\'est une question de temps pour qu\'Assembly3 soit disponible comme un module complémentaire installable tout comme [A2plus](A2plus_Workbench/fr.md) et [Assembly4](Assembly4_Workbench/fr.md) sont actuellement disponibles.
+
+
 
 ## Espaces de noms Core System, App, Base et Gui 
 
@@ -172,12 +190,16 @@ Outre l\'introduction de [App Link](App_Link/fr.md), la branche \"LinkMerge\" a 
 -   Nouveau support [glTF](Import_Export/fr.md) (nécessite OCC 7.5.0) [commit](https://github.com/FreeCAD/FreeCAD/commit/74b866ed3)
 -   Nouvel exportateur [WebGL](Import_Export/fr.md) [pull request #4025](https://github.com/FreeCAD/FreeCAD/pull/4025)
 
+
+
 ## Gestionnaire d\'Addon 
 
    
   <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;">   Le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) a été mis à niveau ; il est désormais capable d\'afficher des informations plus complètes sur tous les [Ateliers externes](external_workbenches/fr.md) et [macros](macros_recipes.md) et d\'afficher une icône pour chacun d\'eux. Il permet également de vérifier les mises à jour au démarrage et d\'utiliser des référentiels personnalisés. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394).
   <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">         Il montrera également si l\'addon est obsolète, déjà installé ou disponible pour la mise à jour. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).
    
+
+
 
 ## Atelier Arch 
 
@@ -224,6 +246,8 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                               | [Commit e42a26fba1](https://github.com/FreeCAD/FreeCAD/commit/e42a26fba1), [commit 7c12c8688c](https://github.com/FreeCAD/FreeCAD/commit/7c12c8688c).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 +++
+
+
 
 ## Atelier Draft 
 
@@ -303,6 +327,8 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 |                                                                                                                                 | [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=44051), [commit 1b887fa0f5](https://github.com/FreeCAD/FreeCAD/commit/1b887fa0f5), [commit 4555a77663](https://github.com/FreeCAD/FreeCAD/commit/4555a77663), [commit 5b3fea59e0](https://github.com/FreeCAD/FreeCAD/commit/5b3fea59e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +++
 
+
+
 ### Améliorations futures de Draft 
 
 -   L\'outil [Draft Wire](Draft_Wire/fr.md) s\'appelle désormais \"Polyligne\" dans le menu, au lieu de \"DWire\". Toutes les options et fonctionnalités restent les mêmes. Cela ne rompt pas la compatibilité ; [commit 39e748229e](https://github.com/FreeCAD/FreeCAD/commit/39e748229e67fa93e924e355c0ce0897c870d756).
@@ -314,6 +340,8 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 -   Le \"mode Barre d\'outils\" lors du lancement des outils Draft a été supprimé. Il s\'agissait d\'une interface qui était utilisée dans le passé mais qui est devenue obsolète car le [Panneau des tâches](Task_Panel/fr.md) est devenu l\'interface prédominante ; [discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=42782), [pull request \# 2973](https://github.com/FreeCAD/FreeCAD/pull/2973).
 
 -    `Draft.copy`fonctionne désormais avec n\'importe quel objet document grâce à la nouvelle méthode `Document.copyObject()` introduite avec LinkMerge ; pull request [\# 3658](https://github.com/FreeCAD/FreeCAD/pull/3658).
+
+
 
 ## Atelier FEM 
 
@@ -341,15 +369,21 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 | <img alt="" src=images/FEM_tie-constraint-dialog.png  style="width:287px;">                 | Deux nouvelles contraintes sont disponibles :  menu menu un nouveau solveur :menu et la possibilité de remplacer une constante : menu **Model → Overwrite Constraints → [<img src=images/FEM_ConstantVacuumPermittivity.svg style="width:16px"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md)**. |
 +++
 
+
+
 ### Autres améliorations de FEM 
 
 -   Le projet Elmer a développé une bibliothèque pour la gestion du prétraitement de type batch pour ElmerSolver, à l\'aide de l\'atelier FEM. Cela inclut la création d\'objets maillés pour FreeCAD, la manipulation des tailles de maillage des solides, la création de maillages d\'éléments finis à l\'aide de Gmsh, l\'exécution d\'ElmerGrid et l\'exportation du maillage pour ElmerSolver, ainsi que la sélection et l\'attribution de noms aux corps et aux limites pour ElmerSolver ; [forum de discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=38950), [elmerfem](https://github.com/ElmerCSC/elmerfem) dépôt (dépôt principal Elmer), [FreeCADBatchFEMTools](https://github.com/ElmerCSC/elmerfem/tree/devel/ElmerWorkflows/FreeCADBatchFEMTools) (bibliothèque pour interagir avec FEM Workbench, LGPL 2.1).
 -   L\'intégration du solveur OOFem, qui a commencé en 2018, progresse, c\'est donc maintenant une autre option qui peut être utilisée pour l\'analyse structurelle dans FreeCAD. Ce solveur est intéressant en ce qu\'il possède des éléments d\'interface, ainsi qu\'un contrôle de longueur d\'arc, en plus de nombreux modèles de matériaux non linéaires. L\'intégration d\'OOFEM dans FEM a été réalisée dans divers commits qui, ensemble, servent de documentation sur la façon d\'intégrer des solveurs similaires ; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=31288), [femoofem](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem) branche, [OOFEM](http://www.oofem.org/) site Web principal, dépôt [oofem](https://github.com/oofem/oofem) (LGPL 2.1).
 -   Mise à jour des normes de codage qui visent la conformité PEP8 avec Python ; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=12833), [commit ad03ee9bdf](https://github.com/FreeCAD/FreeCAD/commit/ad03ee9bdfeeb23d5c79cf462ba4a5b5566c5bc1), [commit 27cb54009b](https://github.com/FreeCAD/FreeCAD/commit/27cb54009b57c1938f7ff97026c8b35c1688233f).
 
+
+
 ## Importations
 
 -   Amélioration de la compatibilité import/export avec les systèmes de CAO propriétaires, lors de l\'utilisation de STEP compressé ou STPZ ; [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=37469), [pull request #2323](https://github.com/FreeCAD/FreeCAD/pull/2323), [commit 7de89cf62e](https://github.com/FreeCAD/FreeCAD/commit/7de89cf62e0411dcd).
+
+
 
 ## Prise en main des matériaux 
 
@@ -370,11 +404,15 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 |                                                                             | [Fil du forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), [Pull request #4462](https://github.com/FreeCAD/FreeCAD/pull/4462)                                                                                                                                                                                                                                                                                                         |
 +++
 
+
+
 ### Autres améliorations 
 
 -   Il est désormais possible de prendre un fichier maillé OpenInventor (**.iv**) et de l\'exporter en STL ; [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=43926#p378032), [commit 601ac707b2](https://github.com/FreeCAD/FreeCAD/commit/601ac707b2).
 -   Il est maintenant possible d\'exporter un [Mesh](Mesh/fr.md) au [format Asymptote](Asymptote/fr.md) (**.asy** ) ; [fil de discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=48915), [commits 4badaba5](https://github.com/FreeCAD/FreeCAD/commit/4badaba5), [50bbd522](https://github.com/FreeCAD/FreeCAD/commit/50bbd522), [58a92681](https://github.com/FreeCAD/FreeCAD/commit/58a92681), [dd7afa72](https://github.com/FreeCAD/FreeCAD/commit/dd7afa72), [b0f78f5a](https://github.com/FreeCAD/FreeCAD/commit/b0f78f5a).
 -   La plupart des outils de l\'[atelier Mesh](Mesh_Workbench/fr.md) ont maintenant une icône appropriée. Il est donc plus facile de reconnaître la fonction dans le menu et les barres d\'outils ; [forum thread](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), pull request [#3816](https://github.com/FreeCAD/FreeCAD/pull/3816), [#3864](https://github.com/FreeCAD/FreeCAD/pull/3864).
+
+
 
 ## Atelier Part 
 
@@ -394,6 +432,8 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 |                                                                                             | [Pull request #3078](https://github.com/FreeCAD/FreeCAD/pull/3078).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
+
+
 ### Autres améliorations 
 
 -   La boîte de dialogue pour éditer [Prismes](Part_Prism/fr.md) permet maintenant de spécifier un angle par rapport à la normale du plan d\'attache choisi. De cette façon, on peut créer des prismes obliques. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=49343#p422857), [pull request #3793](https://github.com/FreeCAD/FreeCAD/pull/3793)
@@ -401,6 +441,8 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 -   Le merge [App Link](App_Link/fr.md) a introduit deux nouvelles commandes, [Part Copie transformée](Part_TransformedCopy/fr.md) et [Part Copie d\'un élément](Part_ElementCopy/fr.md). Ces commandes créent des copies non paramétriques d\'un corps avec un placement transformé et d\'un élément (sommet, arête ou face) ; [commit 6da72b9859](https://github.com/FreeCAD/FreeCAD/commit/6da72b9859f6d21119831d44a8d132c8e2dfb544). Ces opérations rendent la [Macro Repro Wire](Macro_Repro_Wire/fr.md) obsolète.
 -   Il est maintenant possible de définir des [expressions](Expressions/fr.md) pour tous les paramètres des [primitives](Part_Workbench/fr#Primitives.md). [commit dd4874d2](https://github.com/FreeCAD/FreeCAD/commit/dd4874d2) et [commit 7405dd0e](https://github.com/FreeCAD/FreeCAD/commit/7405dd0e).
 -   Correction du support cassé pour les unités \"INCH\" lors de l\'exportation aux formats STEP/IGES; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=36808&p=314172#p314172), [commit 1b26173580](https://github.com/FreeCAD/FreeCAD/commit/1b2617358).
+
+
 
 ## Atelier PartDesign 
 
@@ -431,12 +473,16 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
 | <img alt="" src=images/PartDesign_sprocket-feature.png  style="width:384px;">                   | La nouvelle foncionnalité [Pignon](PartDesign_Sprocket.md) permet de créer des pignons de chaine. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525), [pull request #3280](https://github.com/FreeCAD/FreeCAD/pull/3280).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
+
+
 ### Autres améliorations 
 
 -   L\'[interface des perçages](PartDesign_Hole/fr.md) a été révisée pour créer un jeu conforme aux normes et des dimensions de trou taraudé.
 -   Il est maintenant possible de définir des [expressions](Expressions/fr.md) pour tous les paramètres des [primitives additives](PartDesign_CompPrimitiveAdditive/fr.md) et [primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md). [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=36458), [pull request \# 3225](https://github.com/FreeCAD/FreeCAD/pull/3225).
 -   Il est maintenant possible de définir des [expressions](Expressions/fr.md) pour les angles d\'accrochage des primitives additives et soustractives. Auparavant, les expressions n\'étaient disponibles que pour les décalages de direction. [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=44346), [commit 1cfe6d2cc7](https://github.com/FreeCAD/FreeCAD/commit/1cfe6d2cc7).
 -   Il est désormais possible de modifier les éléments de la liste dans les différentes boîtes de dialogue. Par exemple [dans ce message de forum](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998#p420352), il y a un trés bon exemple pour lequel la liste d\'éléments est importante pour les transformations. [Ici](https://forum.freecadweb.org/viewtopic.php?f=19&t=50222#p430499) est un autre exemple de commande d\'esquisse pour les lissages. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998), [pull request #3760](https://github.com/FreeCAD/FreeCAD/pull/3760), [commit 94ca4388e](https://github.com/FreeCAD/FreeCAD/commit/94ca4388e).
+
+
 
 ## Atelier Path 
 
@@ -498,11 +544,15 @@ Les développeurs des ateliers [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workb
         -   La sortie peut être commandée par outil, opération ou équipement pour minimiser les changements d\'outil ou le temps de transit.
         -   Gcode peut être divisé en plusieurs fichiers de sortie
 
+
+
 ## Atelier Render 
 
 Ajout de la prise en charge du moteur de rendu autonome \"Cycles\" de Blender ; [commit 759067912f](https://github.com/FreeCAD/FreeCAD-render/commit/759067912f0640e4b3dac41b104d2372978f94a1); [FreeCAD-render](https://github.com/FreeCAD/FreeCAD-render) dépôt. Le rendu autonome Cycles doit généralement être compilé à partir de la source car le binaire n\'est normalement pas fourni par lui-même dans une distribution complète de Blender.
 
 En outre, l\'atelier Render prend déjà en charge Pov-Ray, Luxrender et Appleseed.
+
+
 
 ## Atelier Sketcher 
 
@@ -526,6 +576,8 @@ En outre, l\'atelier Render prend déjà en charge Pov-Ray, Luxrender et Applese
 -   L\'outil [congé](Sketcher_CreateFillet/fr.md) conserve désormais toutes les contraintes existantes possibles des lignes touchées. [pull request #4296](https://github.com/FreeCAD/FreeCAD/pull/4296), [forum de discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=54179)
 -   Nouvelle méthode pour obtenir l\'index géométrique d\'une [esquisse](Sketcher_SketchObject/fr.md), `SketchObject.getGeoVertexIndex(index)` ; [forum de discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=48707), [pull request \# 3713](https://github.com/FreeCAD/FreeCAD/pull/3713).
 
+
+
 ## Atelier Spreadsheet 
 
 L\'introduction de [App Link](App_Link/fr.md) a également apporté quelques améliorations aux capacités des [Expressions](expressions/fr.md) de FreeCAD visibles dans l\'[Éditeur de propriétés](Property_editor/fr.md) et dans [Atelier Spreadsheet](Spreadsheet_Workbench/fr.md). Ceux-ci sont décrits dans [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes) et ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=38974).
@@ -544,11 +596,15 @@ Les validations précédentes ont changé la façon dont la saisie semi-automati
 
 Les données saisies dans une cellule ne sont plus testées comme une expression par défaut. Maintenant, une expression doit commencer par un signe égal `{{:=`}} à la place. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=39665), [pull request #4215](https://github.com/FreeCAD/FreeCAD/pull/4215).
 
+
+
 ## Atelier Start 
 
    
   <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;">   Fichiers d\'exemple ajoutés à la page de démarrage avec des miniatures enregistrées dans leurs icônes. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316).
    
+
+
 
 ## Atelier Surface 
 
@@ -561,6 +617,8 @@ Les données saisies dans une cellule ne sont plus testées comme une expression
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                   | De même, les icônes ont été mises à jour pour être plus attrayantes visuellement.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
+
+
 
 ## Atelier TechDraw 
 
@@ -616,6 +674,8 @@ Les données saisies dans une cellule ne sont plus testées comme une expression
 |                                                                                                                                                                                               | [discussion sur le forum](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=47013), [commit a9b718d1e0](https://github.com/FreeCAD/FreeCAD/commit/a9b718d1e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 
+
+
 ### Améliorations futures de TechDraw 
 
 -   Il y a eu des discussions sur la modification du comportement standard de TechDraw. Au lieu de garder les pages de dessin mises à jour automatiquement, elles ne seraient mises à jour que sur demande ; cela atténuerait les effets de TechDraw ralentissant le reste de FreeCAD lors de la modélisation. De plus, maintenant que [App Link](App_Link/fr.md) est inclus dans FreeCAD, les pages TechDraw peuvent être stockées dans un fichier séparé et chargées à la demande ; [discussion de forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=35086) (discussion principale), [discussion de forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=38822) (alternatives).
@@ -643,12 +703,16 @@ Voir [Macros](Macros_recipes/fr.md) pour de nombreuses autres macros.
   <img alt="" src=images/Structural_frame.png  style="width:384px;">   Créateur et panélisateur automatique de cadres en acier léger. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092) ; Exemple de dépôt [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703).
    
 
+
+
 ## Modules Additionnels 
 
 
 **Remarque :**
 
 ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anciens ateliers qui ont reçu des mises à jour. Voir [Ateliers externes](External_workbenches/fr.md) pour plus d\'ateliers pouvant être installés et couvrant une grande variété de sujets. Si vous souhaitez voir votre atelier ajouté, rejoignez le [forum](https://forum.freecadweb.org/index.php) et présentez votre code.
+
+
 
 ### Outils d\'impression 3D 
 
@@ -711,6 +775,8 @@ ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anc
 |                                                       | [BOLTS](https://github.com/boltsparts/BOLTS) principal dépôt (GPL 3).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 
+
+
 ### Atelier CurvedShapes 
 
 +++
@@ -718,6 +784,8 @@ ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anc
 |                                                               |                                                                                                                                                                                                                                                                                                                |
 |                                                               | [CurvedShapesWorkbench](https://github.com/chbergmann/CurvedShapesWorkbench) dépôt (LGPL 3).                                                                                                                                                                                                               |
 +++
+
+
 
 ### Dodo (anciennement Flamingo) 
 
@@ -733,6 +801,8 @@ ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anc
   <img alt="" src=images/Fastener_workbench.png  style="width:384px;">   L\'[atelier Fasteners](Fasteners_Workbench/fr.md) permet de générer des vis, boulons, rondelles et autres attaches ISO standard, a été mis à jour pour fonctionner avec Python 3 et Qt5. [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?t=11429) ; [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) dépôt (GPL 2), [détails supplémentaires](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/).
    
 
+
+
 ### Atelier MeshRemodel 
 
 +++
@@ -740,6 +810,8 @@ ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anc
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                   | [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=38670) (annonce seulement) ; [MeshRemodel](https://github.com/mwganson/MeshRemodel) dépôt (LGPL 2.1).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
+
+
 
 ### Atelier MOOC 
 
@@ -760,6 +832,8 @@ ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anc
 |                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |                                                             | [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=36299) ; [NodeEditor](https://github.com/microelly2/NodeEditor) dépôt (MIT License), [PyFlow](https://github.com/microelly2/PyFlow) fork customisé (Apache 2.0 license), [PyFlow](https://github.com/wonderworks-software/PyFlow) projet à l\'origine (Apache 2.0 license).                                                                                                                                                                                        |
 +++
+
+
 
 ### Trails, PyTrails, Turns, pivy_trackers et Geomatics 
 

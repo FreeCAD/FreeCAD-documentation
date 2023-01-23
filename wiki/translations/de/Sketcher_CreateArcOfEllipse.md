@@ -11,12 +11,16 @@
 
 # Sketcher CreateArcOfEllipse/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet einen Ellipsenbogen, indem vier Punkte ausgewählt werden: der Mittelpunkt, das Ende des großen Radius (Scheitelpunkt), der Startpunkt und der Endpunkt. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsenbogensymbol. Daneben werden die Koordinaten in Echtzeit angezeigt.
 
 <img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Nummern angezeigt. C ist der Mittelpunkt, a - großer Durchmesser, b - kleiner Durchmesser, F1, F2 sind Brennpunkte.*
+*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt.<br> C ist das Zentrum, a der große Durchmesser, b der kleine Durchmesser, F1 und F2 sind Brennpunkte.*
+
+
 
 ## Anwendung
 
@@ -25,11 +29,13 @@ Dieses Werkzeug zeichnet einen Ellipsenbogen, indem vier Punkte ausgewählt werd
 -   Nach dem vierten Klick wird der Ellipsenbogen zusammen mit darauf ausgerichteter Konstruktionsgeometrie erstellt (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später neu erstellt werden. Siehe [InterneAusrichtungFestlegen](Sketcher_ConstrainInternalAlignment/de.md) und [InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
 -   Das Drücken von **ESC** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
+
+
 ## Besonderheiten
 
--   Haupt- und Nebenachsen der zugrundeliegenden Ellipse sind exakt festgelegt und können nicht durch Größenänderung vertauscht werden. Die zugrunde liegende Ellipse muss gedreht werden, um die Achsen zu tauschen.
+-   Haupt- und Nebenachsen der zugrundeliegenden Ellipse sind genau festgelegt und können nicht durch Größenänderung vertauscht werden. Die zugrundeliegende Ellipse muss gedreht werden, um die Achsen zu tauschen.
 -   Im Gegensatz zur Ellipse, die durch geeignete Randbedingungen zu einem Kreis geformt werden kann, kann der Ellipsenbogen keinen Kreisbogen darstellen.
--   Das Verschieben des Ellipsenbogens per Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
+-   Das Verschieben des Ellipsenbogens durch Verschieben einer Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
 
 
 

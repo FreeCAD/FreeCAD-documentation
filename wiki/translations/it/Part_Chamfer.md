@@ -26,6 +26,8 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 ![Chamfer example](images/Chamfer-example.png )
 
+
+
 ## Utilizzo
 
 

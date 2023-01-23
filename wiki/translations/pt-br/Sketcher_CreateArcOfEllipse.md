@@ -15,7 +15,8 @@
 This tool draws an arc of ellipse by picking four points: the center, the end of major radius, the start point and the end point. When starting the tool, the mouse pointer changes to a white cross with a red ellipse arc icon. Besides are coordinates shown in real time.
 
 <img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
+*The sequence of clicks is indicated by yellow arrows with numbers.<br>
+C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
 
 ## Usage
 

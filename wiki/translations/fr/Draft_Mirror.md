@@ -5,7 +5,7 @@
    MenuLocation:Modification → Miroir
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**M** **I**
-   SeeAlso:[Draft Clone](Draft_Clone/fr.md)
+   SeeAlso:[Draft Cloner](Draft_Clone/fr.md)
 ---
 
 # Draft Mirror/fr
@@ -18,6 +18,8 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
 *Mise en miroir d'un objet*
+
+
 
 ## Utilisation
 
@@ -44,10 +46,14 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
+
+
 ## Remarques
 
 -   Les copies miroir des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Arcs](Draft_Arc/fr.md) et [Draft Cercles](Draft_Circle/fr.md) peuvent être transformées en objets Draft éditables indépendants en utilisant [Draft Désagréger](Draft_Downgrade/fr.md) et ensuite [Draft Agréger](Draft_Upgrade/fr.md).
 -   La commande [Part Copie simple](Part_SimpleCopy/fr.md) peut être utilisée pour créer une copie d\'un objet miroir qui n\'est pas lié à son objet source.
+
+
 
 ## Préférences
 
@@ -55,11 +61,15 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 -   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet [Part Miroir](Part_Mirror/fr.md) est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -74,6 +84,8 @@ Un objet [Part Miroir](Part_Mirror/fr.md) est dérivé d\'un objet [Part Feature
 -    **Base|Vector**: indique le point de base du plan miroir.
 
 -    **Normal|Vector**: spécifie la direction normale du plan miroir.
+
+
 
 ## Script
 

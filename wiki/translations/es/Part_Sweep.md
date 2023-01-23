@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 La herramienta <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Barrido](Part_Sweep/es.md) se usa para crear una cara, una carcasa o una forma sólida desde uno o más perfiles (atravesando secciones) proyectados a lo largo de una trayectoria.
@@ -19,6 +21,8 @@ La herramienta <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part
 La herramienta Barrido del banco de trabajo Part es similar a la de <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) con el añadido de una trayectoria para definir la proyección entre perfiles.
 
 ![](images/Part_Sweep_simple.png ) *Barrido de un sólido generado desde un único perfil (A) proyectado a lo largo de una trayectoria (B).*
+
+
 
 ## Uso
 

@@ -13,21 +13,17 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârșitul semiaxei majore, semiaxa minoră. Când porniți instrumentul, indicatorul mouse-ului se modifică într-o cruce albă cu o pictogramă ca o elipsă roșie. Pe lângă acestea, coordonatele sunt afișate în timp real.
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci." src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
-
-
-</div>
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
+*The sequence of clicks is indicated by yellow arrows with numbers.<br>
+C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
 
 
-
-*The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
 
 
 <div class="mw-translate-fuzzy">

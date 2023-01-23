@@ -3,15 +3,17 @@
 
 [Viewprovider](Viewprovider/de.md) sind Klassen, die festlegen, wie Objekte in der [Baumansicht](tree_view/de.md) und der [3D-Ansicht](3D_view/de.md) aussehen und wie sie mit bestimmten grafischen Aktionen, wie z.B [Auswahl](Selection_methods/de.md) zusammenarbeiten.
 
-Sie ergänzen die [skriptgenerierten Objekte](scripted_objects/de.md). Während die Basis-Klasse des skriptgenerierten Objekts seine **Daten-** [Eigenschaften](property/de.md) festlegt, definiert der viewprovider seine **Ansichts-** [Eigenschaften](property/de.md). Diese Ansichts-Eigenschaften stellen keine wesentlichen Informationen des Objekts dar, da sie nur Informatione zur Darstellung enthalten, wie Linienbreite, Linienfarbe, Flächenfarbe usw. Für eine reine Terminal-Sitzung wird der Viewprovider nicht geladen, da keine Schnittstelle zum Bearbeiten dieser sichtbaren Eigenschaften vorhanden ist.
+Sie ergänzen die [skriptgenerierten Objekte](scripted_objects/de.md). Während die Basis-Klasse des skriptgenerierten Objekts seine **Daten-** [Eigenschaften](property/de.md) festlegt, definiert der Viewprovider seine **Ansichts-** [Eigenschaften](property/de.md). Diese Ansichts-Eigenschaften stellen keine wesentlichen Informationen des Objekts dar, da sie nur Informatione zur Darstellung enthalten, wie Linienbreite, Linienfarbe, Flächenfarbe usw. Für eine reine Terminal-Sitzung wird der Viewprovider nicht geladen, da keine Schnittstelle zum Bearbeiten dieser sichtbaren Eigenschaften vorhanden ist.
 
 Wie auch Daten-Eigenschaften sind die Ansichts-Eigenschaften durch den [Eigenschafteneditor](property_editor/de.md) erreichbar.
 
+
+
 ## Python-Viewprovider 
 
-Die Klassen der Viewprovider haben normalerweise `ViewProvider` im Namen. Sie sind dem `ViewObject` Attribut des Basisobjekts zugeordnet.
+Die Klassen der Viewprovider haben normalerweise `ViewProvider` im Namen. Sie sind dem Attribut `ViewObject` des Basisobjekts zugeordnet.
 
-In this example, we define two properties for the viewprovider, only if the properties don\'t already exist, and assign their default values. We also define the `onChanged` method that runs every time a property changes. We need to test the property by name, and then we will call one of two methods that will do the actual work of updating the pattern or setting its size. 
+In diesem Beispiel werden zwei Eigenschaften für den Viewprovider nur festgelegt, wenn sie nicht schon existieren, und ihre Werte festgelegt. Außerdem wird die Methode `onChanged` erstellt, die jedesmal abläuft, wenn sich eine Eigenschaft ändert. Der Name der Eigenschaft muss überprüft werden und danach werden ein oder zwei Methoden aufgerufen, die die eigentliche Arbeit verrichten, das Aktualisieren der Muster oder die Aktualisierung seiner Größe. 
 ```python
 # views/view_custom.py
 class ViewProviderCustom:

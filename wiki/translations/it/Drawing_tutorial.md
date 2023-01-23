@@ -14,15 +14,9 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ### Introduzione
 
 Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente [Drawing](Drawing_Workbench/it.md), e alla maggior parte degli strumenti che sono a disposizione per creare la stampa delle viste.
-
-
-</div>
 
 <img alt="" src=images/Drawing_tutorial_result.png  style="width:480px;">
 
@@ -112,24 +106,14 @@ FreeCAD supporta l\'esportazione di file SVG e PDF basati su **Drawing**
 1.  Nel menu **File**, selezionare **Esporta PDF \...**
 2.  Specificare il percorso e il nome del file esportato
 
-
-<div class="mw-translate-fuzzy">
-
 Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Workbench/it.md) è concluso.
 
 
-</div>
 
 ## Letture consigliate 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Per informazioni su come creare modelli personalizzati vedere [Creare modelli di squadrature](Drawing_Template_HowTo/it.md)
--   Per ulteriori informazioni sugli strumenti disponibili consultare la pagina [Modulo Drawing](Drawing_Workbench/it.md)
-
-
-</div>
+-   Per ulteriori informazioni sugli strumenti disponibili consultare la pagina [Ambiente Drawing](Drawing_Workbench/it.md)
 
 
  {{Drawing Tools navi}}

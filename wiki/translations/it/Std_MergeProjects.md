@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel documento attivo.
+
+
 
 ## Utilizzo
 
@@ -28,19 +32,41 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 
 </div>
 
+
+
 ## Opzioni
 
 -   Premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
+
+
 
 ## Note
 
 -   Un progetto non può essere unito a se stesso, la selezione del file corrente non è consentita.
 -   FreeCAD cambia automaticamente i nomi interni e, a seconda delle preferenze, le etichette degli oggetti per evitare conflitti di nomi.
 
+
+
 ## Preferenze
 
 -   L\'ultima posizione del file utilizzato è memorizzata in: **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath**.
 -   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+
+## Scripting
+
+
+**See also:**
+
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To merge a project use the {{Incode|mergeProject}} method of the document object.
+
+
+```python
+import FreeCAD
+
+FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
+```
 
 
 <div class="mw-translate-fuzzy">

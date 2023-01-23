@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> **Part Sweep** di FreeCAD serve per creare una faccia, un guscio o una forma solida da uno o più profili (la sezione trasversale), proiettati lungo un percorso.
@@ -12,6 +14,8 @@ Lo strumento <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> **Part 
 Lo strumento Parte Sweep è simile a <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft/it.md), ma con l\'aggiunta di un percorso per definire la proiezione tra i profili.
 
 <img alt="Un solido sweep generato da un profilo (A) proiettato lungo un percorso (B)." src=images/Part_Sweep_simple.png  style="width:500px;">
+
+
 
 ## Utilizzo
 

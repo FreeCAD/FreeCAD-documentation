@@ -13,7 +13,7 @@ These modes are used to attach to a specified vertex, with an orientation determ
 
 **Reference1**
 
-must be a Vertex. The origin is mapped to this selected point. (Note: If an edge *is* selected for **Reference1**, O-X-Y type modes are not offered.)
+must be a Vertex. The origin is mapped to this selected point. (Note: If an edge is selected for **Reference1**, O-X-Y type modes are not offered.)
 
 
 **Reference2**

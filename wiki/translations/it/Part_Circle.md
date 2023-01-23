@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -18,6 +20,8 @@ Questo comando crea un bordo curvo circolare. Con i valori di default, il bordo 
 A Part Circle is in fact a closed counterclockwise circular arc, it can be turned into an arc by changing its **Angle1** and/or **Angle2** properties.
 
 <img alt="" src=images/Part_Circle_Example.png  style="width:400px;">
+
+
 
 ## Utilizzo
 
@@ -36,6 +40,8 @@ A Part Circle can alternatively be created by selecting three points:
 ![Part Circle from the scripting example](images/Part_Circle_Scripting_Example.png )
 
 A Part Circle object created with the [scripting example](#Scripting.md) below is shown here.
+
+
 
 ## Proprietà
 

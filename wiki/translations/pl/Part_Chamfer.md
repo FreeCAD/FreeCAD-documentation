@@ -9,11 +9,15 @@
 
 # Part Chamfer/pl
 
+
+
 ## Opis
 
 Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do pracy, jak również modyfikować różne parametry fazowania.
 
 ![Przykład utworzenia fazki](images/Chamfer-example.png )
+
+
 
 ## Użycie
 
@@ -25,6 +29,8 @@ Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do p
 4.  Edycja parametrów fazy.
 5.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe fazy i nanieść fazki.
 
+
+
 ## Opcje
 
 ![Okienko dialogowe funkcji fazowania](images/Dialog-chamfer.png )
@@ -33,6 +39,8 @@ Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do p
 -   Fazowanie o stałej długości lub fazowanie o zmiennej długości.
     -   Faza o stałej długości utworzy fazę o krawędziach równych odległości od oryginalnej krawędzi w podanej odległości.
     -   Faza o zmiennej długości będzie miała krawędzie, które mogą być ustawione w różnych odległościach od oryginalnej krawędzi, co pozwala na utworzenie fazy pod zmiennym kątem.
+
+
 
 ## Właściwości
 
@@ -50,11 +58,21 @@ Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do p
 
 
 
+
+
 ## Ograniczenia
 
 Fazowanie może się nie powieść, jeśli wynik dotknie lub przekroczy następną sąsiednią krawędź. Więc jeśli nie otrzymasz oczekiwanego rezultatu, spróbuj z mniejszą wartością. To samo dotyczy funkcji <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Zaokrąglij wybrane krawędzie \...](Part_Fillet/pl.md) środowiska Część.
 
+
+<div class="mw-translate-fuzzy">
+
 Zwróć również uwagę, że na funkcję fazowania części wpływa na [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to spowodować nieprzewidywalny rezultat. Do czasu rozwiązania tego problemu *(prawdopodobnie z v0.20)* zaleca się stosowanie operacji Fazowania i [Zaokrąglania](Part_Fillet/pl.md) na ostatnich etapach łańcucha.
+
+
+</div>
+
+
 
 ## Tworzenie skryptów 
 

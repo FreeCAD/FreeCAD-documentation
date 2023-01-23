@@ -1,13 +1,4 @@
 # Sketcher Dialog/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 <div style="float:right; clean:both; margin-left:0.5em;">
 
 \_\_TOC\_\_
@@ -15,11 +6,15 @@
 
 </div>
 
+
+
 ## Introduzione
 
 Se ci si trova in uno schizzo, la finestra di dialogo dello Sketcher viene visualizzata nella scheda Azioni del pannello Vista Combinata. Per entrare in uno schizzo, selezionarlo nell\'albero del modello o fare doppio clic su di esso o fare clic con il pulsante destro del mouse su di esso e quindi selezionare **Modifica schizzo** nel menu di scelta rapida. Un\'altra possibilità è fare clic sull\'icona <img alt="" src=images/Sketcher_EditSketch.svg  style="width:20px;"> [Modifica schizzo](Sketcher_EditSketch/it.md) della barra degli strumenti.
 
 La finestra di dialogo è composta dalle seguenti sezioni:
+
+
 
 ## Messaggi del risolutore 
 
@@ -39,15 +34,11 @@ Ci sono due opzioni per i messaggi del solutore:
 |                                                   |                                                                                                                                                                                                                                                                                                                                          |
 +++
 
+
+
 ## Controlli avanzati del solutore 
 
-
-<div class="mw-translate-fuzzy">
-
-Questa sezione di dialogo viene visualizzata solo se si imposta l\'opzione **Visualizza i controlli avanzati del risolutore nella barra delle azioni** nel menu delle [preferenze di Sketcher](Sketcher_Preferences/it.md).
-
-
-</div>
+Questa sezione di dialogo viene visualizzata solo se si imposta l\'opzione **Mostra sezione \'Controllo risolutore avanzato**\' nel menu delle [preferenze di Sketcher](Sketcher_Preferences/it.md).
 
 È possibile specificare quanto segue:
 
@@ -129,6 +120,8 @@ Questa sezione di dialogo viene visualizzata solo se si imposta l\'opzione **Vis
 
 *Nota:* La maggior parte dei parametri del solutore non ha alcun uso pratico. Possono tuttavia aiutare a testare e comprendere i risolutori.
 
+
+
 ## Controlli di editazione 
 
 This dialog section can be suppressed by unchecking the option **Show section \'Edit controls**\' in the [sketcher preferences](Sketcher_Preferences.md). <small>(v1.0)</small> 
@@ -165,6 +158,8 @@ I controlli di modifica hanno lo scopo di migliorare il flusso di lavoro. Posson
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +++
 
+
+
 ## Vincoli
 
 Questa sezione elenca i vincoli dello schizzo. Deselezionando un vincolo nell\'elenco è possibile nasconderlo.
@@ -192,6 +187,8 @@ Questa sezione elenca i vincoli dello schizzo. Deselezionando un vincolo nell\'e
 |                                         | The GeoID is the number of the sketch element minus 1. The coordinate system origin has the GeoID *-1*.                                                                                                                                                                                                 |
 |                                         | For example a dimension from the origin to the center of a circle with the element number \'2\' will get this information: \[(1,3);(-1,1)\]                                                                                                                                                             |
 +++
+
+
 
 ## Elementi
 
@@ -223,13 +220,7 @@ Se si tiene premuto il tasto **Ctrl** è possibile selezionare più elementi con
 +++
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

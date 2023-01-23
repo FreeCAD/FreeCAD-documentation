@@ -104,11 +104,11 @@ Réglez son **placement** en ajustant son **angle** à 90 ° dans l\'axe (1,0,0)
 
 ![](images/Exercise_arch_12.jpg )
 
--   Nous devons maintenant dupliquer cette poutre plusieurs fois. Nous pourrions le faire une par une en utilisant l\'outil de <img alt="" src=images/Draft_Clone.svg  style="width:16px;"> [Draft Clone](Draft_Clone/fr.md) mais il y a une meilleure façon de faire toutes les copies à la fois en utilisant une copie en réseau :
+-   Nous devons maintenant dupliquer cette poutre plusieurs fois. Nous pourrions le faire en utilisant l\'outil <img alt="" src=images/Draft_Clone.svg  style="width:16px;"> [Draft Cloner](Draft_Clone/fr.md) mais il y a une meilleure façon de faire toutes les copies à la fois en utilisant une copie en réseau :
 -   Sélectionnez la poutre.
--   Appuyez sur le bouton <img alt="" src=images/Draft_OrthoArray.svg  style="width:16px;"> [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
+-   Appuyez sur le bouton <img alt="" src=images/Draft_OrthoArray.svg  style="width:16px;"> [Draft Réseau](Draft_OrthoArray/fr.md).
 -   Définissez le **Nombre d\'éléments** pour la direction X du réseau à 6, définissez le nombre pour les directions Y et Z à 1, et appuyez sur **OK**.
--   Développez la propriété du réseau **interval X** et appuyez sur la petite icône **expression** (<img alt="" src=images/Bound-expression-unset.png  style="width:16px;">) située sur le côté droit du champ X. Cela ouvrira un [éditeur d\'expressions](Expressions/fr.md):
+-   Développez la propriété du réseau **interval X** et appuyez sur la petite icône **expression** (<img alt="" src=images/Bound-expression-unset.png  style="width:16px;">) située sur le côté droit du champ X. Cela ouvrira un [éditeur d\'expressions](Expressions/fr.md) :
 
 ![](images/Exercise_arch_13.jpg )
 
@@ -216,11 +216,15 @@ Nous allons maintenant créer deux nouvelles vues, une pour chaque groupe de dim
 
 Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats SVG ou DXF, ou l\'imprimer. Le format SVG vous permet d\'ouvrir le fichier en utilisant des applications d\'illustration telles que [Inkscape](http://www.inkscape.org), avec lesquelles vous pouvez rapidement améliorer les dessins techniques et les transformer en dessins de présentation beaucoup plus agréable. Il offre beaucoup plus de possibilités que le format DXF.
 
+
+
 ## Téléchargements
 
 -   Le fichier produit lors de cet exercice: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/house.FCStd>
 -   Le fichier IFC exporté à partir du fichier ci-dessus: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/house.ifc>
 -   Le fichier SVG exporté à partir du fichier ci-dessus: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/house.svg>
+
+
 
 ## En relation 
 

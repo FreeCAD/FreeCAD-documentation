@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -44,6 +46,8 @@ A Part Circle can alternatively be created by selecting three points:
 ![Part Circle from the scripting example](images/Part_Circle_Scripting_Example.png )
 
 A Part Circle object created with the [scripting example](#Scripting.md) below is shown here.
+
+
 
 
 <div class="mw-translate-fuzzy">

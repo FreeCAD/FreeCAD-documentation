@@ -17,11 +17,11 @@ Cet outil trace une ellipse à partir de trois points : (1) la périapside (prem
 
 Lors du lancement de l\'outil, le pointeur de la souris change pour une croix blanche avec une icône représentant une ellipse rouge.
 
-![](images/Ellipse_3Point.png‎ )
-
-
-
-*La séquence de clics est indiquée par des flèches jaunes numérotées.<br/>1 est la périapside, 2 l'apoapside, 3 définit le point du diamètre mineur, les lignes vertes sont les diamètres majeur et mineur. Les lignes bleues sont des lignes de construction aléatoires à des fins d'illustration.*
+![](images/Ellipse_3Point.png‎ ) 
+*La séquence de clics est indiquée par des flèches jaunes numérotées.<br>
+1 est la périapside, 2 l'apoapside, 3 définit le point du diamètre mineur<br>
+Les lignes vertes sont les diamètres majeur et mineur.<br>
+Les lignes bleues sont des lignes de construction aléatoires à des fins d'illustration.*
 
 
 

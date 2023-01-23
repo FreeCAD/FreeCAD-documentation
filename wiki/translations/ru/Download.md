@@ -5,21 +5,9 @@
 
 ## Текущая стабильная версия 
 
+Релиз FreeCAD версии 0.20.2 (29603) был опубликован 07.12.2022. Чтобы узнать о нововведениях, ознакомьтесь с [примечаниями к выпуску](Release_notes_0.20/ru.md).
 
-<div class="mw-translate-fuzzy">
-
-Релиз FreeCAD версии 0.20.1 (29410) был опубликован 2022-08-10. Чтобы узнать о нововведениях, ознакомьтесь с [примечаниями к выпуску](Release_notes_0.20/ru.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Контрольные суммы SHA256 для проверки целостности вашей загрузки вы можете найти на [странице релиза 0.20.1](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.1).
-
-
-</div>
+Контрольные суммы SHA256 для проверки целостности вашей загрузки вы можете найти на [странице релиза 0.20.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2).
 
 Предыдущие версии можно загрузить со страницы [релизов](https://github.com/FreeCAD/FreeCAD/releases).
 
@@ -60,31 +48,18 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 
 Дополнительную информацию о переменных среды FreeCAD можно найти на [странице конфигурирования](Start_up_and_Configuration/ru#Переменные_Среды_Окружения.md).
 
-
-<div class="mw-translate-fuzzy">
-
 ## Разрабатываемые версии 
 
 FreeCAD активно развивается.
 
--   Для пользователей Linux, посмотрите разрабатыаемую версию [AppImage](AppImage/ru.md).
--   По поводу сборок для MacOS и Windows, а также исходных кодов, смотрите страницу [еженедельных сборок](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
+-   Для получения информации о сборках и исходном коде разработки, смотрите страницу [weekly builds](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 -   Чтобы скомпилировать новейший исходный код, смотри страницу [Компиляция](Compiling/ru.md).
-
-
-</div>
 
 
 
 ## Дополнительные модули и макросы 
 
-
-<div class="mw-translate-fuzzy">
-
-Сообщество FreeCAD предлагает множество различных модулей и макросов. Начиная с версии 0.17 они могут быть легко установлены напрямую из FreeCAD через [Менеджер дополнений](Std_AddonMgr/ru.md)<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
-
-
-</div>
+Сообщество FreeCAD предлагает множество различных модулей и макросов. Начиная с версии 0.17 они могут быть легко установлены напрямую из FreeCAD через <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Менеджер дополнений](Std_AddonMgr/ru.md).
 
 
 

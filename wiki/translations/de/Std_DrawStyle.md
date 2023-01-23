@@ -10,9 +10,13 @@
 
 # Std DrawStyle/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Darstellungsart** kann den Effekt der {{PropertyView/de|Display Mode}} von Objekten in einer [3D-Ansicht](3D_view.md) überlagern.
+
+
 
 ## Anwendung
 
@@ -22,7 +26,11 @@ Der Befehl **Std Darstellungsart** kann den Effekt der {{PropertyView/de|Display
     -   Im Kontextmenü der [3D-Ansicht](3D_view/de.md) die Option **Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
     -   Eines der Tastaturkürzel **V** dann **1**, **2**, **3**, **4**, **5**, **6** oder **7**.
 
+
+
 ## Verfügbare Darstellungsarten 
+
+
 
 ### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> Original 
 
@@ -31,12 +39,16 @@ Die Darstellungsart **Original** überlagert nicht die {{PropertyView/de|Display
 ![](images/Std_DrawStyleAsIs_example.png ) 
 *4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts: 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'*
 
+
+
 ### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Punkte 
 
 Die Darstellungsart **Punkte** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode \'Points\'. Knoten werden in deckenden Farben dargestellt. Kanten und Flächen werden nicht dargestellt.
 
 ![](images/Std_DrawStylePoints_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert*
+
+
 
 ### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Drahtgitter 
 
@@ -45,12 +57,16 @@ Die Darstellungsart **Drahtgitter** überlagert die {{PropertyView/de|Display Mo
 ![](images/Std_DrawStyleWireframe_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Drahtgitter' aktiviert*
 
+
+
 ### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Versteckte Linie 
 
 Die Darstellungsart **Versteckte Line** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Objekte werden dargestellt, als wären sie in Dreiecksnetze konvertiert.
 
 ![](images/Std_DrawStyleHiddenLine_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Versteckte Linie' aktiviert*
+
+
 
 ### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> Keine Schattierung 
 
@@ -59,6 +75,8 @@ Die Darstellungsart **Keine Schattierung** überlagert die {{PropertyView/de|Dis
 ![](images/Std_DrawStyleNoShading_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Keine Schattierung' aktiviert*
 
+
+
 ### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Schattiert 
 
 Die Darstellungsart **Schattiert** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Punkte und Kanten werden nicht dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
@@ -66,12 +84,16 @@ Die Darstellungsart **Schattiert** überlagert die {{PropertyView/de|Display Mod
 ![](images/Std_DrawStyleShaded_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Schattiert' aktiviert*
 
+
+
 ### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Flache Linien 
 
 Die Darstellungsart **Flache Linien** überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht demDisplay-Mode \'Flat Lines\' von Objekten. Punkte und Kanten werden deckend eingefärbt dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
 
 ![](images/Std_DrawStyleFlatLines_example.png ) 
 *Dieselben Objekte mit Darstellungsart 'Flache Linien' aktiviert*
+
+
 
 ## Hinweise
 

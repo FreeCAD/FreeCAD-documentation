@@ -13,6 +13,8 @@ Name/es=Croquizador CrearElipsePor3Puntos
 
 </div>
 
+
+
 ## Descripción
 
 Esta herramienta dibuja una elipse eligiendo tres puntos : (1) la periapsis (primer cruce del diámetro mayor con la elipse), (2) la apoapsis (segundo cruce del diámetro mayor con la elipse), (3) un punto en un lado del diámetro mayor (a) que define el radio menor (b). (c) es el centro resultante y (f) son los puntos focales.
@@ -22,8 +24,16 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 ![](images/Ellipse_3Point.png‎ )
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *La secuencia de clics se indica con flechas amarillas con números. 1 es la periapsis, 2 es la apoapsis, 3 es el punto de definición del diámetro menor, las líneas verdes son los diámetros mayor y menor. Las líneas azules son líneas de construcción aleatorias sólo para fines ilustrativos.*
+
+
+</div>
+
+
 
 ## Utilización
 

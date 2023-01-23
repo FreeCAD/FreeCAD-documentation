@@ -1,31 +1,15 @@
 # Property/de
-## Introduction
+## Einleitung
+
+Eine [Eigenschaft](Property/de.md) ist eine Information in Form einer Zahl oder einer Zeichenkette, die mit einem FreeCAD-Dokument oder einem Objekt in einem Dokument verbunden ist. Öffentliche Eigenschaften können mit dem [Eigenschaftseditor](Property_editor/de.md) angezeigt und geändert werden.
+
+Eigenschaften spielen in FreeCAD eine sehr wichtige Rolle. Objekte in FreeCAD sind \"parametrisch\", d.h. ihr Verhalten wird durch ihre Eigenschaften festgelegt, die als Eingangsgrößen für ihre Klassenmethoden genutzt werden. Siehe auch [FeaturePython Custom Properties](FeaturePython_Custom_Properties/de.md) and [PropertyLink: InList and OutList](PropertyLink:_InList_and_OutList/de.md)
 
 
-<div class="mw-translate-fuzzy">
 
-Eine **Eigenschaft** ist ein Stück Information wie eine Zahl oder eine Zeichenkette, das mit einem FreeCAD-Dokument oder einem Objekt eines Dokuments verbunden ist. Eigenschaften können mit dem [Eigenschaftseditor](Property_editor/de.md) angezeigt und geändert werden.
+## Alle Arten von Eigenschaften 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Eigenschaften spielen in FreeCAD eine sehr wichtige Rolle, da es konstruiert wurde, um mit parametrischen Objekten zu arbeiten, die nur durch ihre Eigenschaften definiert werden.
-
-
-</div>
-
-## All property types 
-
-
-<div class="mw-translate-fuzzy">
-
-Benutzerdefinierte [geskriptete Objekte](scripted_objects/de.md) in FreeCAD können Eigenschaften der folgenden Typen besitzen:
-
-
-</div>
+Benutzerdefinierte [skriptgenerierte Objekte](scripted_objects/de.md) können jede Art der Eigenschaften verwenden, die im Basis-System definiert sind:
 
 
 ```python
@@ -88,7 +72,7 @@ VectorList
 Volume
 ```
 
-Internally, the property name is prefixed with `App::Property`: 
+Intern wird den Eigenschaften das Präfix App:: vorangestellt `App::Property`: 
 ```python
 App::PropertyBool
 App::PropertyFloat
@@ -98,7 +82,7 @@ App::PropertyFloatList
 
 Remember that these are property **types**. A single object may have many properties of the same type, but with different names.
 
-For example:
+Zum Beispiel:
 
 
 ```python
@@ -109,14 +93,16 @@ obj.addProperty("App::PropertyFloat", "Height")
 
 This indicates an object with three properties of type \"Float\", named \"Length\", \"Width\", and \"Height\", respectively.
 
-## Scripting
 
 
-**See also:**
+## Skripten
 
-[FreeCAD scripting basics](FreeCAD_Scripting_Basics.md)
 
-A [scripted object](scripted_objects.md) is created first, and then properties are assigned. 
+**Siehe auch:**
+
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+Ein [skriptgeneriertes Objekt](scripted_objects/de.md) wird zuerst erstellt und danach werden ihm Eigenschaften hinzugefügt. 
 ```python
 obj = App.ActiveDocument.addObject("Part::Feature", "CustomObject")
 
@@ -136,7 +122,9 @@ Nevertheless, **View** properties can also be assigned using the view provider o
 obj.ViewObject.addProperty("App::PropertyBool", "SuperVisibility", "Base", "Make the object glow")
 ```
 
-## Source code 
+
+
+## Quellcode
 
 In the source code, properties are located in various **src/App/Property*** files.
 

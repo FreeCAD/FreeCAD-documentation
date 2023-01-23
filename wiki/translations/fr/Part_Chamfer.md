@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part_Chamfer
    Name/fr:Part Chanfrein
-   MenuLocation:Part → Chanfrein
+   MenuLocation:Part → Chanfrein...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Congé](Part_Fillet/fr.md)
 ---
@@ -15,11 +15,13 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 ![Exemple de chanfrein](images/Chamfer-example.png )
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfreiner les arêtes...**.
-    -   Sélectionnez l\'option **Part → Chanfrein** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfrein...**.
+    -   Sélectionnez l\'option **Part → Chanfrein...** dans le menu.
 2.  Sélectionnez la forme à chanfreiner dans la boîte de dialogue.
 3.  Sélectionnez les arêtes à chanfreiner en cochant la case correspondante dans la boîte de dialogue de chanfreinage ou en les sélectionnant directement sur le modèle.
 4.  Modifiez les paramètres du chanfrein.
@@ -34,6 +36,8 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
     -   Un chanfrein de longueur constante créera un chanfrein avec des bords équidistants du bord d\'origine à la distance spécifiée.
     -   Un chanfrein de longueur variable aura des arêtes pouvant être définies à des distances différentes de l\'arête d\'origine, ce qui vous permettra de créer un chanfrein à angle variable.
 
+
+
 ## Propriétés
 
 ![Part Propriétes du chanfrein](images/Part_Chamfer-Properties.png ) 
@@ -41,11 +45,11 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 {{Properties_Title|Base}}
 
--    **Base**: La forme sur laquelle le chanfrein doit être appliqué.
+-    **Base**: forme sur laquelle le chanfrein doit être appliqué.
 
--    **Placement**: Spécifie l\'orientation et la position de la forme dans l\'espace 3D.
+-    **Placement**: spécifie l\'orientation et la position de la forme dans l\'espace 3D.
 
--    **Label**: Etiquette donnée à l\'objet. Changer en fonction de vos besoins.
+-    **Label**: étiquette donnée à l\'objet. A changer en fonction de vos besoins.
 
 
 
@@ -54,7 +58,9 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 Le chanfrein peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Donc, si vous n\'obtenez pas le résultat attendu, essayez avec une valeur inférieure. C\'est pareil pour <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Congé](Part_Fillet/fr.md).
 
-Notez également que la fonction Chanfrein est affectée par le [problème de nommage topologique](Topological_naming_problem/fr.md) lorsque toute modification est apportée à une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de facettes ou de sommets. Cela pourrait entraîner des résultats imprévisibles. En attendant que cela soit résolu (éventuellement avec V0.20), il est conseillé d'appliquer les opérations Chanfrein et <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Congé](Part_Fillet/fr.md) aux dernières étapes de la chaîne.
+Notez également que la fonction Chanfrein est affectée par le [problème de nommage topologique](Topological_naming_problem/fr.md) lorsque toute modification est apportée à une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de facettes ou de sommets. Cela pourrait entraîner des résultats imprévisibles. En attendant que cela soit résolu, il est conseillé d'appliquer les opérations Chanfrein et <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Congé](Part_Fillet/fr.md) aux dernières étapes de la chaîne.
+
+
 
 ## Script
 

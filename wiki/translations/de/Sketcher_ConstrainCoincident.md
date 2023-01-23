@@ -10,19 +10,25 @@
 
 # Sketcher ConstrainCoincident/de
 
+
+
 ## Beschreibung
 
-Affixes a point onto (coincident with) one or more other points. <small>(v1.0)</small> : It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
+Verbindet einen Punkt deckungsgleich (koinzident) mit einem oder mehreren anderen Punkten. Neu in {{Version/de|1.0}}: Werden zwei oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt, stellt dies eine Randbedingung \"Konzentrisch festlegen\" dar.
+
+
 
 ## Anwendung
 
-1.  Do one of the following:
-    -   Select two or more points.
-    -   Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Constrain coincident](Sketcher_ConstrainCoincident.md)** button in the toolbar.
-    -   Use the **C** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Constrain coincident** entry in the top menu.
+1.  Eine der folgenden Möglichkeiten ausführen:
+    -   Zwei oder mehr Punkte auswählen
+    -   Zwei oder mehr Kanten von Kreisen, Bögen, Ellipsen oder Ellipsenbögen auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md)** in der Symbolleiste drücken.
+    -   Das Tastaturkürzel **C**.
+    -   Den Menüeintrag **Skizze → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Koinzidenz festlegen** auswählen.
+
+
 
 ## Alternativen zu Koinzident festlegen 
 
@@ -34,6 +40,8 @@ Die beiden Elemente einer Randbedingung [KoinzidentFestlegen](Sketcher_Constrain
 -   Eine kollineare (fluchtende) Platzierung zweier Geraden erhält man durch Anwendung einer Randbedingung <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [TangentialFestlegen](Sketcher_ConstrainTangent/de.md) auf sie, oder durch die Kombination der Randbedingungen <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md) und <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [ParallelFestlegen](Sketcher_ConstrainParallel/de.md).
 -   Zwei Kanten können deckungsgleich platziert werden, indem die Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) zweimal angewendet wird, auf jeweils ein Paar von Extrempunkten (Start- oder Endpunkte).
 -   Zwei Kreise können deckungsgleich platziert werden, indem man mit der Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) die Mittelpunkte zusammenführt und die Randbedingung <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [GleichheitFestlegen](Sketcher_ConstrainEqual/de.md) auf ihre Kanten anwendet. Bei Bögen stellt dies sicher, dass beide Bögen Teil desselben Kreises sind, während sie unterschiedliche Start- und Endpunkte haben können.
+
+
 
 ## Skripten
 

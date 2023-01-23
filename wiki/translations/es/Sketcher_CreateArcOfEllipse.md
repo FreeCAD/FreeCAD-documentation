@@ -13,12 +13,23 @@
 
 </div>
 
+
+
 ## Descripción
 
 Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos: el centro, el extremo del radio mayor, el punto inicial y el punto final. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco de elipse rojo. Además se muestran las coordenadas en tiempo real.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
+<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;">
+
+
+<div class="mw-translate-fuzzy">
+
 *La secuencia de clics se indica con flechas amarillas con números. C es el centro, a - diámetro mayor, b - diámetro menor, F1, F2 son focos.*
+
+
+</div>
+
+
 
 ## Utilización
 
@@ -36,11 +47,19 @@ Croquizador Mostrar Ocultar la geometría interna\]\].
 
 </div>
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## Peculiaridades
 
 -   Los ejes mayor y menor de la elipse subyacente son estrictos y no pueden ser intercambiados por el cambio de tamaño. La elipse subyacente debe girarse para intercambiar los ejes.
 -   A diferencia de la elipse, que puede ser restringida para convertirse en un círculo, el arco de la elipse no puede representar un arco de círculo.
 -   Mover el arco de la elipse por el borde es lo mismo que mover el centro de la elipse.
+
+
+</div>
 
 
 

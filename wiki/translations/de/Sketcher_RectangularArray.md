@@ -10,9 +10,13 @@
 
 # Sketcher RectangularArray/de
 
+
+
 ## Beschreibung
 
 Erstellt eine Anordnung ausgewählter Skizzenelemente.
+
+
 
 ## Anwendung
 
@@ -32,6 +36,8 @@ Erstellt eine Anordnung ausgewählter Skizzenelemente.
 6.  Ein Linksklick in der 3D-Ansicht erstellt die Anordnung.
 
 7.  Um die Abstände zwischen den Elementen der Anordnung einzustellen, ändert man die maßlichen Randbedingungen der Anordnung.
+
+
 
 ## Optionen
 

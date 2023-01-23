@@ -14,6 +14,8 @@
 
 L\'utilitaire **Coupes** crée une ou plusieurs coupes transversales à travers la forme sélectionnée, parallèlement à l\'un des plans globaux par défaut (XY, XZ ou YZ).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une forme.
@@ -23,13 +25,17 @@ L\'utilitaire **Coupes** crée une ou plusieurs coupes transversales à travers 
 5.  Vous pouvez cocher **Sections** pour créer plus d\'une section transversale :
     -   Cochez *Des deux côtés* pour répartir les sections transversales de chaque côté de l\'emplacement du plan de guidage.
     -   Définissez le nombre.
-6.  Cliquer sur **OK**.
+6.  Cliquez sur **OK**.
+
+
 
 ## Remarques
 
 -   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
 -   L\'objet résultant n\'est pas paramétrique, c\'est-à-dire qu\'il n\'est pas lié à la forme originale.
 -   Un seul objet est créé, même pour plusieurs coupes.
+
+
 
 ## Exemple
 

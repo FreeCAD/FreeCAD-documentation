@@ -19,7 +19,7 @@ The following is a list of node editors that can or potentially can work in Free
 
 <https://forum.freecadweb.org/viewtopic.php?f=8&t=67728>
 
-[BlenderSverchokAddonSetup](BlenderSverchokAddonSetup.md)
+[Blender Sverchok Addon Setup](Blender_Sverchok_Addon_Setup.md)
 
 ### Pure-Data 
 

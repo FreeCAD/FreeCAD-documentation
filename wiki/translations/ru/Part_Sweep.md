@@ -9,6 +9,8 @@
 
 # Part Sweep/ru
 
+
+
 ## Описание
 
 Инструмент <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [построения профиля по траектории](Part_Sweep/ru.md) позволяет создать: грань, оболочку или твёрдое тело из одного или последовательности нескольких контуров, путем смещения их вдоль заданной траектории.
@@ -17,15 +19,19 @@
 
 ![](images/Part_Sweep_simple.png ) *Контур и траектория для построения твердого тела (A) результат построения профиля по заданной траектории (B).*
 
+
+
 ## Применение
 
-1.  Press the **<img src="images/Part_Sweep.svg" width=16px> '''Sweep'''** button. This opens the Sweep parameters in the [Task panel](Task_panel.md).
+1.  Press the **<img src="images/Part_Sweep.svg" width=16px> '''Sweep...'''** button. This opens the Sweep parameters in the [Task panel](Task_panel.md).
 2.  In the *Available Profiles* left column (previously *Vertex/Edge/Wire/Face* in v0.16), click on the element to be used as sweep profile, then click on the right arrow to place it in the *Selected profiles* right column (previously *Sweep* in v0.16). Repeat if more than one profile is desired. Use the up and down arrows to reorder the selected profiles.
 3.  Click on the **Sweep Path** button, then choose either mode of selection:
     -   *Single segment selection*: select one or more contiguous edges in the [3D view](3D_view.md) (press **CTRL** for multiple selection) and click **Done**. The sweep will only be generated along the selected edges.
     -   *Complete path selection*: switch to the Model tab, select the 2D object to be used as path in the tree, switch back to the [Task panel](Task_panel.md) and click **Done**. The sweep will be generated along all the contiguous edges found in the 2D object.
 4.  Define options [Solid](#Solid.md) and [Frenet](#Frenet.md).
 5.  Click **OK**
+
+
 
 ### Допустимые типы геометрических примитивов 
 
@@ -46,6 +52,8 @@
 </div>
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
+
+
 
 ## Свойства
 
@@ -94,6 +102,8 @@
             -   Circle, Ellipse
             -   Regular Polygon
             -   Plane (Face)
+
+
 
 ## Ссылки
 

@@ -5,7 +5,7 @@
 
 
 
-## Einführung
+## Einleitung
 
 Der FreeCAD-Arbeitsbereich <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/de.md) wird verwendet, um 2D-Geometrien für den Gebrauch in den Arbeitsbereichen <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) und anderen Arbeitsbereichen zu erstellen. Im Allgemeinen wird eine 2D-Zeichnung als Ausgangspunkt für die meisten CAD-Modelle angesehen, da eine 2D-Skizze \"extrudiert\" werden kann, um eine 3D-Form zu erstellen; weitere 2D-Skizzen können verwendet werden, um andere Merkmale wie Taschen, Stege oder Extrusionen auf den zuvor erstellten 3D-Formen zu erstellen. Zusammen mit booleschen Operationen, definiert im Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md), bildet der Sketcher die Grundlage der [Konstruktive-Festkörpergeometrie](constructive_solid_geometry/de.md)-Methode (engl. constructive solid geometry (CSG) method) für den Aufbau von Volumenkörpern. Darüber hinaus bildet der Sketcher zusammen mit den Abläufen des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) auch die Grundlage der Methodik der [Formelemente-Bearbeitung](feature_editing/de.md) zum erstellen von Geometrieelementen, um Volumenkörper zu erzeugen.
 
@@ -48,7 +48,7 @@ Es gibt zwei Arten von Randbedingungen: geometrische und maßliche. Sie sind im 
 
 #### Wofür der Skizzierer nicht geeignet ist 
 
-Der Sketcher ist nicht für die Herstellung von (2D-) Zeichnungen (Blaupausen) vorgesehen. Sobald Skizzen verwendet werden, um eine Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Randbedingungen sind nur im Skizzenbearbeitungsmodus sichtbar.
+Der Sketcher ist nicht für die Herstellung von (2D-) Zeichnungen (Blaupausen) vorgesehen. Sobald Skizzen verwendet werden, um ein Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Randbedingungen sind nur im Skizzenbearbeitungsmodus sichtbar.
 
 Falls nur 2D-Ansichten zum Ausdrucken erzeugt werden sollen und keine 3D-Modelle, sollte man einen Blick auf den Arbeitsbereich [Draft](Draft_Workbench/de.md) werfen. Anders als Sketcher-Elemente, verwenden Draft-Objekte keine Randbedingungen; sie sind einfache Formen, die im Augenblick der Erstellung definiert werden. Sowohl Draft als auch Sketcher können zum Zeichnen von 2D-Geometrien und zum Erzeugen von 3D-Volumenkörpern verwendet werden, obwohl ihre bevorzugte Verwendung unterschiedlich ist.Der Sketcher wird normalerweise mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) verwendet um Volumenkörper zu erzeugen. Draft wird normalerweise für einfache ebene Zeichnungen verwendet über einem Raster, so wie beim Zeichnen eines Architektur Grundrisses; in solchen Situationen werden Draft-Objekte hauptsächlich zusammen mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) verwendet. Das Werkzeug [Zeichnung zu Skizze](Draft_Draft2Sketch/de.md) wandelt ein Draft-Objekt in ein Skizzenobjekt und umgekehrt. Viele Werkzeuge, die ein 2D-Element als Eingabe benötigen, arbeiten mit beiden Objekttypen, da intern eine automatische Umwandlung erfolgt.
 
@@ -174,13 +174,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Kante verlängern](Sketcher_Extend/de.md): Verlängert eine Linie oder einen Kreisbogen bis zu einer Grenzlinie, einem Bogen, einer Ellipse, einem Ellipsenbogen oder einem Punkt im Raum.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Kante teilen](Sketcher_Split/de.md): Teilt eine Linie oder einen Bogen in zwei, wandelt einen Kreis in einen Bogen um und behält dabei die meisten Randbedingungen bei. {{Version/de|0.20}}
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Kante teilen](Sketcher_Split/de.md): Teilt eine Kante in zwei und behält dabei die meisten Randbedingungen bei. {{Version/de|0.20}}
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md): Erstellt eine mit externer Geometrie verknüpfte Kante.
 
@@ -190,9 +184,9 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 
 
-### Skizzierbeschränkungen
+### Sketcher-Randbedingungen 
 
-Beschränkungen werden benutzt, um Längen zu definieren, Regeln zwischen Skizzenelementen aufzustellen und die Skizze entlang der vertikalen und horizontalen Achsen festzulegen. Einige Beschränkungen benötigen die Verwendung von [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md).
+Randbedingungen (Festlegungen, Beschränkungen) werden benutzt, um Längen festzulegen, Regeln zwischen Skizzenelementen aufzustellen und die Skizze entlang der vertikalen und horizontalen Achsen festzulegen. Einige Randbedingungen benötigen die Verwendung von [Hilfsrandbedingungen](Sketcher_helper_constraint/de.md).
 
 
 
@@ -224,7 +218,7 @@ Diese Randbedingungen sind nicht mit numerischen Daten verknüpft.
 
 #### Maßliche Randbedingungen 
 
-Dies sind Randbedingungen, die mit numerischen Daten verknüpft sind, für die du die [Ausdrücke](Expressions/de.md) verwenden kannst. Die Daten können aus einer [Kalkulationstabelle](Spreadsheet_Workbench/de.md) entnommen werden.
+Dies sind Randbedingungen, die mit numerischen Daten verknüpft sind, für die [Ausdrücke](Expressions/de.md) verwendet werden können. Die Daten können aus einer [Kalkulationstabelle](Spreadsheet_Workbench/de.md) entnommen werden.
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Sperren](Sketcher_ConstrainLock/de.md): Fixiert das ausgewählte Element (Knotenpunkt), indem der vertikale und der horizontale Abstand relativ zum Ursprung festgelegt werden, wodurch die Position dieses Elements gesperrt wird. Diese Abstandsbedingungen können später bearbeitet werden.
 
@@ -330,7 +324,7 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Knoten einfügen](Sketcher_BSplineInsertKnot/de.md) (BSplineKnotenEinfügen), {{Version/de|0.20}}
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Kurven verbinden](Sketcher_JoinCurves.md), {{Version/de|1.0}}
 
 
 

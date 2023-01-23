@@ -9,6 +9,8 @@
 
 {{TOCright}}
 
+
+
 ## Информация о версиях 
 
 -   [Release 0.20](Release_notes_0.20/ru.md) - Июнь 2022
@@ -21,6 +23,8 @@
 -   [Release 0.13](Release_notes_0.13/ru.md) - Январь 2013
 -   [Release 0.12](Release_notes_0.12/ru.md) - Декабрь 2011
 -   [Release 0.11](Release_notes_0.11/ru.md) - Март 2011
+
+
 
 ## Основные функции 
 
@@ -35,6 +39,8 @@
 -   ![](images/Feature-arch.jpg ) Модуль [архитектуры](Arch_Workbench/ru.md) позволяет работать по процессу [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM), при совместимости со спецификацией [IFC](http://ru.wikipedia.org/wiki/Industry_Foundation_Classes). 
 -   ![](images/Feature-CAM.jpg ) [Модуль Path](Path_Workbench/ru.md) посвящён [автоматизации механической обработки](https://ru.wikipedia.org/wiki/CAM) (Computer-aided manufacturing, CAM), например, фрезерования, и может выводить, показывать и настраивать [G-код](https://ru.wikipedia.org/wiki/G-code).
 -   ![](images/Feature_spreadsheet.png ) Интегрированный обработчик [электронных таблиц](Spreadsheet_Workbench/ru.md) и [выражений](Expressions/ru.md), который может использоваться для управления моделями через формулы и централизованной организации данных моделей.
+
+
 
 ## Общие функции 
 
@@ -87,6 +93,8 @@
 -   **миниатюры**. (пока только в Linux системах) Значки документа FreeCAD, показывающие содержимое файла в большинстве файловых менеджеров таких как Nautilus в Gnome.
 
 -   **модульный установщик MSI**. Установщик FreeCAD производит гибкую установку в системе Windows. Также поддерживаются пакеты системы Ubuntu.
+
+
 
 ## Внешние верстаки 
 

@@ -11,17 +11,21 @@
 
 # Sketcher CreateEllipseBy3Points/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: (1) die Periapsis (erste Kreuzung des Hauptdurchmessers mit der Ellipse), (2) die Apoapsis (zweite Kreuzung des Hauptdurchmessers mit der Ellipse), (3) ein Punkt auf einer Seite neben dem längeren Durchmesser (a), der den kleineren Radius (b) definiert. (c) ist der resultierende Mittelpunkt und (f) sind die Brennpunkte.
 
 Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsensymbol.
 
-![](images/Ellipse_3Point.png‎ )
+![](images/Ellipse_3Point.png‎ ) 
+*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt.<br> 
+1 ist die Periapsis, 2 ist die Apoapsis, 3 ist der Punkt, der den kleinen Durchmesser festlegt.<br> 
+Die grünen Linien sind der große und der kleine Durchmesser.<br> 
+Die blauen Linien sind Konstruktionslinien zur Veranschaulichung.*
 
 
-
-*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. 1 ist die Periapsis, 2 ist die Apoapsis, 3 ist der Punkt, der den kleine Durchmesser festlegt, grüne Linien sind größere und kleinere Durchmesser. Blaue Linien sind zufällige Konstruktionslinien nur zur Veranschaulichung.*
 
 ## Anwendung
 
@@ -31,11 +35,13 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 -   Nach dem dritten Klick wird die Ellipse zusammen mit darauf ausgerichteter Konstruktionsgeometrie erstellt (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später wiederhergestellt werden. Siehe [InterneAusrichtungFestlegen](Sketcher_ConstrainInternalAlignment/de.md) und [InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
 -   Das Drücken von **ESC** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
+
+
 ## Besonderheiten
 
--   Haupt- und Nebenachsen von Ellipsen sind streng festgelegt und können nicht durch Größenänderung der Ellipse vertauscht werden. Dies ist eine Folge der verwendeten Löserparametrisierung (Zentrum (x,y), Fokus1 (x,y) und Länge des kleinen Radius (b)) und des gleichen strengen Verhaltens von OpenCascade. Die Ellipse muss gedreht werden, um die Achsen zu vertauschen.
--   Die Ellipse kann als Kreis fungieren, wenn ihre Haupt- und Nebenradiuslinien gelöscht werden und einer der Brennpunkte mit dem Mittelpunkt zusammenfallend festgelegt wird. Die Randbedingung RadiusFestlegen funktioniert jedoch nicht bei einem solchen Kreis.
--   Das Verschieben der Ellipse durch die Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
+-   Haupt- und Nebenachsen von Ellipsen sind genau festgelegt und können nicht durch Größenänderung der Ellipse vertauscht werden. Dies ist eine Folge der verwendeten Löserparametrisierung (Zentrum (x,y), Brennpunkt1 (x,y) und Länge des kleinen Radius (b)) und des ebenso genau festgelegten Verhaltens von OpenCascade. Die Ellipse muss gedreht werden, um die Achsen zu tauschen.
+-   Die Ellipse kann einen Kreis darstellen, wenn ihre Haupt- und Nebendurchmesserlinien gelöscht werden und einer der Brennpunkte mit der Randbedingung KoinzidentFestlegen auf den Mittelpunkt festgelegt wird. Aber die Randbedingung RadiusFestlegen funktioniert bei einem solchen Kreis nicht.
+-   Das Bewegen der Ellipse durch Verschieben einer Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
 
 
 

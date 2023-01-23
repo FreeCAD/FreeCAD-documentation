@@ -31,6 +31,22 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 -   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
+## Scripting
+
+
+**See also:**
+
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To merge a project use the {{Incode|mergeProject}} method of the document object.
+
+
+```python
+import FreeCAD
+
+FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
+```
+
 
 
 

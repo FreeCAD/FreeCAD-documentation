@@ -18,7 +18,8 @@
 Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
 
 <img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*La séquence de clics est indiquée par des flèches jaunes avec des nombres. C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
+*La séquence des clics est indiquée par des flèches jaunes avec des numéros.<br>
+C est le centre, a le diamètre majeur, b le diamètre mineur, F1 et F2 sont les foyers.*
 
 
 
@@ -28,6 +29,8 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 -   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon et le début de l\'arc. le quatrième clic définit le point final.
 -   Après le quatrième clic, l\'arc d\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Consulter [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.
+
+
 
 ## Particularités
 

@@ -13,7 +13,7 @@ This tool creates fillets (rounds) on the selected edges of a shape. A dialog al
 
 ## Usage
 
--   Invoke the tool from the Part toolbar or from the **Part → Fillet** menu. You can select the shape before invoking the tool.
+-   Invoke the tool from the Part toolbar or from the **Part → Fillet...** menu. You can select the shape before invoking the tool.
 -   If the shape was not selected prior to invoking the tool, select it in the Shape drop down list in the [Task Panel](Task_panel.md).
 -   Select the fillet type, either constant radius (default) or variable radius.
 -   Select the edges either in the [3D view](3D_view.md), or by ticking them in the edge list in [Task Panel](Task_panel.md).
@@ -34,7 +34,7 @@ The fillet tool sometimes fails when trying to fillet complex shapes. A common c
 
 -   Where possible leave filleting a part until the part is completely generated. This will minimize interaction of fillets with subsequent Boolean operations;
 -   Use the **Part → Check Geometry** to check for any errors in the shape geometry and correct;
--   Use **Part → Refine shape** to remove any artifacts introduced by previous Boolean operations before filleting (and in some cases between filleting operations in sequence);
+-   Use **Part → Create a copy → Refine shape** to remove any artifacts introduced by previous Boolean operations before filleting (and in some cases between filleting operations in sequence);
 -   Consider using **Edit → Preferences → PartDesign** to enable automatic checking and refining of the model after Boolean and sketch based operations (performance may be affected if these options are left switched on).
 
 The fillet tool is affected by the [topological naming problem](Topological_naming_problem.md) when making a change to a modeling step earlier in the chain that affects the number of faces or vertices. This could cause unpredictable results. Until this problem is resolved it is advised to apply chamfer and fillet operations as the last steps in the modelling chain.

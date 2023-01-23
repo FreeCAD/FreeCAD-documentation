@@ -24,6 +24,8 @@ Puisque le projet Wikihouse est ouvert naturellement, les fichiers sont faciles 
 
 Dans ce didacticiel, nous avons utilisé le fichier [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) du sous-projet Microhouse de Wikihouse.
 
+
+
 ## Préparation du fichier Sketchup 
 
 La première chose à faire est d\'ouvrir le fichier dans SketchUp et de supprimer tout ce que vous ne voulez pas exporter. Nous n\'exporterons qu\'une seule section de la Microhouse, donc tout le reste doit être supprimé.
@@ -48,6 +50,8 @@ Répétez cette opération pour chaque composant. Comme beaucoup d\'entre eux so
 
 Lorsque notre maison est entièrement composée d\'éléments plats, nous pouvons tout sélectionner et l\'exporter vers un fichier .dae, puis importer ce fichier dans FreeCAD. Assurez-vous de cocher la case \"trianguler tout\"
 
+
+
 ## Résolution du problème des doubles faces 
 
 Il existe un problème désagréable pour lequel je n\'ai pas trouvé de meilleure solution : Les faces des maillages exportés de SketchUp au format .dae sont dupliquées. Chaque face devient en fait deux faces. Le moyen le plus simple que j\'ai trouvé jusqu\'à présent est d\'ouvrir le fichier exporté dans [Blender](http://www.blender.org) pour le réparer :
@@ -62,6 +66,8 @@ Il existe un problème désagréable pour lequel je n\'ai pas trouvé de meilleu
 
 Normalement, l\'opération ci-dessus ne devrait pas modifier l\'échelle, mais il est toujours sage de vérifier, à l\'aide des outils de mesure, que la géométrie importée est à l\'échelle correcte avant d\'aller plus loin. Vous devrez peut-être modifier les paramètres d\'exportation Collada de Blender si nécessaire.
 
+
+
 ## Importer et convertir en polylignes 
 
 Remarquez qu\'il peut être plus facile d\'aller par parties et de traiter + exporter les objets groupe par groupe, comme nous l\'avons fait ci-dessous, nous avons exporté seulement la première couche, faite d\'éléments jaunes dans SketchUp. Ces éléments arriveront dans FreeCAD en tant qu\'objets [Mesh](Mesh_Workbench/fr.md) :
@@ -72,7 +78,7 @@ L\'étape suivante consiste à créer des fils à partir de chacun de nos mailla
 
 ![](images/Arch_Wikihouse_10.jpg )
 
-Nous pourrions déjà créer des objets [Arch Panneau](Arch_Panel/fr.md) à partir de chacun de ces objets filiformes, simplement en les sélectionnant et en appuyant sur le bouton [Arch Panneau](Arch_Panel/fr.md). Cependant, leur forme de base ne serait pas paramétrique. Nous avons maintenant plusieurs options : Nous pouvons transformer chaque composant en une esquisse, à l\'aide de l\'outil [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md), mais il s\'agira d\'esquisses plutôt lourdes, qui risquent de ne pas être très faciles à gérer sur une machine lente, ou nous pouvons transformer chaque fil individuel (le contour et chaque trou) de l\'esquisse en une esquisse distincte. Cela nous permettrait, par exemple, de réutiliser un trou typique, de le faire une seule fois, puis de le dupliquer avec [Draft Clone](Draft_Clone/fr.md) pour faire les autres trous. De cette façon, il suffirait d\'en éditer un pour les éditer tous.
+Nous pourrions déjà créer des objets [Arch Panneau](Arch_Panel/fr.md) à partir de chacun de ces objets filiformes, simplement en les sélectionnant et en appuyant sur le bouton [Arch Panneau](Arch_Panel/fr.md). Cependant, leur forme de base ne serait pas paramétrique. Nous avons maintenant plusieurs options : Nous pouvons transformer chaque composant en une esquisse, à l\'aide de l\'outil [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md), mais il s\'agira d\'esquisses plutôt lourdes, qui risquent de ne pas être très faciles à gérer sur une machine lente, ou nous pouvons transformer chaque polyligne (le contour et chaque trou) de l\'esquisse en une esquisse distincte. Cela nous permettrait, par exemple, de réutiliser un trou typique, de le faire une seule fois, puis de le dupliquer avec [Draft Cloner](Draft_Clone/fr.md) pour faire les autres trous. De cette façon, il suffirait d\'en éditer un pour les éditer tous.
 
 La [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) échoue aussi parfois à trouver des fils fermés à l\'intérieur d\'un maillage, ce qui ne produira pas des panneaux corrects. Une procédure simple pour recomposer les fils d\'un composant est la suivante :
 
@@ -87,6 +93,8 @@ La [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) échoue 
 ![](images/Arch_Wikihouse_11.jpg )
 
 Il y a plusieurs stratégies possibles ici, selon le degré d\'éditabilité et de précision dont vous avez besoin pour le résultat. L\'objet [Arch Panneau](Arch_Panel/fr.md) a besoin d\'un objet de base fait de fils. La façon dont cet objet est fabriqué n\'a pas d\'importance, qu\'il s\'agisse d\'une seule esquisse ou, comme dans l\'exemple ci-dessus, d\'un composé de différentes esquisses ou d\'un objet Draft.
+
+
 
 ## Convertir en esquisses 
 
@@ -103,9 +111,11 @@ Il est également possible de faire cette partie plus tard, vous pourriez déjà
 
 ![](images/Arch_Wikihouse_12.jpg )
 
+
+
 ## Reconstruire la Wikihouse et exporter les panneaux découpés 
 
-Veillez également à ne pas refaire les pièces dupliquées. Sélectionnez plutôt l\'outil [Draft Clone](Draft_Clone/fr.md) pour dupliquer les pièces basées sur le même profil, de sorte qu\'elles partagent toutes le même objet de profil. Puis, puisque nous avons le contour au bon endroit pour l\'utiliser comme guide, il est assez facile de faire pivoter et de déplacer le clone dans sa position correcte avec [Draft Déplacer](Draft_Move/fr.md) et [Draft Pivoter](Draft_Rotate/fr.md).
+Veillez également à ne pas refaire les pièces dupliquées. Sélectionnez plutôt l\'outil [Draft Cloner](Draft_Clone/fr.md) pour dupliquer les pièces basées sur le même profil, de sorte qu\'elles partagent toutes le même objet de profil. Puis, puisque nous avons le contour au bon endroit pour l\'utiliser comme guide, il est assez facile de faire pivoter et de déplacer le clone dans sa position correcte avec [Draft Déplacer](Draft_Move/fr.md) et [Draft Pivoter](Draft_Rotate/fr.md).
 
 Après un certain temps, toute notre section Microhouse est terminée.
 

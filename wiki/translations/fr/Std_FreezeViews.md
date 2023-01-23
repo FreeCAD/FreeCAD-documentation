@@ -10,15 +10,21 @@
 
 # Std FreezeViews/fr
 
+
+
 ## Introduction
 
-FreeCAD peut stocker les paramètres de la caméra dans jusqu\'à 50 «vues figées». Les options de menu relatives aux vues figées se trouvent dans le sous-menu **Affichage → Figer l'affichage**. Les vues figées ne sont pas stockées dans le document et si elles ne sont pas enregistrées avec l\'option de menu **[Enregistrer les vues](#Enregistrer_les_vues.md)** seront perdues à la fermeture de l\'application FreeCAD.
+FreeCAD peut mémoriser les paramètres de la caméra jusqu\'à 50 \"vues figées\". Les options de menu relatives aux vues figées se trouvent dans le sous-menu **Affichage → Figer l'affichage**. Les vues figées ne sont pas enregistrées dans le document. Si elles ne sont pas enregistrées avec l\'option de menu **[Enregistrer les vues](#Enregistrer_les_vues.md)**, elles seront perdues à la fermeture de l\'application FreeCAD.
+
+
 
 ## Enregistrer les vues 
 
 ### Description
 
 L\'option de menu **Enregistrer les vues\...** enregistre toutes les vues figées existantes dans un fichier avec l\'extension \*.cam.
+
+
 
 ### Utilisation
 
@@ -31,11 +37,15 @@ L\'option de menu **Enregistrer les vues\...** enregistre toutes les vues figée
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
+
+
 ## Charger les vues 
 
 ### Description 
 
 L\'option du menu **Charger les vues\...** charge les vues figées à partir d\'un fichier avec l\'extension \*.cam. Toutes les vues figées existantes seront supprimées.
+
+
 
 ### Utilisation 
 
@@ -49,18 +59,24 @@ L\'option du menu **Charger les vues\...** charge les vues figées à partir d\'
 -   Si la boîte de dialogue Restaurer les vues s\'affiche, appuyez sur **Echap** ou sur le bouton **Non** pour annuler la commande.
 -   Si la boîte de dialogue du fichier s\'affiche, appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
 
+
+
 ## Figer l\'affichage 
 
 ### Description 
 
-L\'option de menu **Figer l\'affichage** enregistre les paramètres actuels de la caméra (direction, zoom, etc.) de la [vue 3D](3D_view/fr.md) dans une nouvelle entrée de la liste des vues figées. La liste des vues figées peut contenir jusqu\'à 50 vues figées.
+L\'option de menu **Figer l\'affichage** enregistre les paramètres en cours de la caméra (direction, zoom, etc.) de la [vue 3D](3D_view/fr.md) dans une nouvelle entrée de la liste des vues figées. La liste des vues figées peut contenir jusqu\'à 50 vues figées.
+
+
 
 ### Utilisation 
 
 1.  Il existe plusieurs façons de lancer cette option :
     -   Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
-    -   Utilisez le raccourci clavier : **Shift**+**F**.
+    -   Utilisez le raccourci clavier : **Maj**+**F**.
 2.  La nouvelle vue figée peut être sélectionnée dans le sous-menu **Affichage → Figer l'affichage**.
+
+
 
 ## Effacer les vues 
 
@@ -68,15 +84,21 @@ L\'option de menu **Figer l\'affichage** enregistre les paramètres actuels de l
 
 L\'option de menu **Effacer les vues** supprime toutes les vues figées existantes.
 
+
+
 ### Utilisation 
 
 1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Effacer les vues** dans le menu.
+
+
 
 ## Restaurer la vue 
 
 ### Description 
 
 Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laquelle elle peut être restaurée. Les options sont numérotées: **Restore view 1** - **Restore view 50**.
+
+
 
 ### Utilisation 
 
