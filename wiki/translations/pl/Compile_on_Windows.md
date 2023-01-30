@@ -3,9 +3,13 @@
 
 This page explains step by step **how to compile FreeCAD 0.19 or newer on Windows** using Microsoft\'s MSVC compiler. For information on using MSYS2/MinGW see [Compile on MinGW](Compile_on_MinGW.md). For other platforms see [Compiling](Compiling.md).
 
+
+
 ## Wymagania wstępne 
 
 Compiling FreeCAD on Windows requires several tools and libraries.
+
+
 
 ### Niezbędne
 
@@ -17,6 +21,8 @@ Compiling FreeCAD on Windows requires several tools and libraries.
 
 -   The [LibPack](https://github.com/FreeCAD/FreeCAD-LibPack). This is a single package containing all of the libraries necessary to compile FreeCAD on Windows. Download the version of the LibPack that corresponds to the version of FreeCAD you want to compile. To compile FreeCAD 0.20 download the [LibPack version 2.6](https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/2.6), for FreeCAD 0.19 download the [LibPack version 1.0](https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/1.0). Extract the LibPack to a convenient location. (If your computer does not recognize the .7z extension, you must install the program [7-zip](https://www.7-zip.org).)  **Note**: It is highly recommended to compile FreeCAD with the compiler version the LibPack is designed for. For example, you might run into problems compiling FreeCAD 0.20 using MSVC 2017 because the LibPack is designed to be built with MSVC 2019 or newer.To update your LibPack later, see the section [Updating the LibPack](#Updating_the_LibPack.md).
 
+
+
 ### Programy opcjonalne 
 
 -   A GUI frontend for Git. There are several frontends available, see [this list](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs). The main benefit of a frontend is that you don\'t have to learn the Git commands to get the source code of FreeCAD or to send patches to the GitHub repository of FreeCAD.
@@ -25,9 +31,13 @@ In the following we describe source code handling using the [TortoiseGit](https:
 
 -   [NSIS](http://sourceforge.net/projects/nsis/) is used to generate the FreeCAD Windows installer.
 
+
+
 ### Kod źródłowy 
 
 Teraz możesz pobrać kod źródłowy programu FreeCAD:
+
+
 
 #### Używanie nakładki 
 
@@ -43,6 +53,8 @@ i kliknij **OK**.
 
 The latest source code will be downloaded from the FreeCAD Git repository and the folder will be tracked by Git.
 
+
+
 #### Używanie wiersza poleceń 
 
 To create a local tracking branch and download the source code, open a terminal (command prompt) and switch there to the directory you want the source, then type:
@@ -51,6 +63,8 @@ To create a local tracking branch and download the source code, open a terminal 
 ```python
 git clone https://github.com/FreeCAD/FreeCAD.git
 ```
+
+
 
 ### Kompilator
 
@@ -63,6 +77,8 @@ For those who want to avoid installing the huge MSVC for the mere purpose of hav
 **Note:** Although the *Community* edition of MSVC is free, to use the IDE for more than a 30-day trial period you must create a Microsoft account. If you will only compile using the command line, you don\'t need the IDE and thus no Microsoft account.
 
 As a free and OpenSource alternative IDE you can use [KDevelop](https://www.kdevelop.org/download). You can use KDevelop to modify and write C++ code but must use the command line to compile.
+
+
 
 ### Opcjonalna konfiguracja ścieżek systemowych 
 
@@ -85,6 +101,8 @@ To add folder paths to the PATH variable:
 4.  Again another dialog will open. Select then the variable *Path* and click on **Edit**.
 5.  And again another dialog will open. Click there on **New** and add to path to the folder of Git or the LibPack.
 6.  Finally press **OK** and close all dialogs by pressing **OK** as well.
+
+
 
 ## Konfiguracja
 
@@ -135,6 +153,8 @@ There should now be no errors. If you continue to encounter errors that you cann
 
 **Note:** When compiling FreeCAD 0.19, the CMake variable **BUILD_ENABLE_CXX_STD** will be set to **C++14** while for FreeCAD 0.20 it will be set to **C++17**. This is because FreeCAD 0.20 requires at least the C++ language standard version 17. So when you compiled the last time FreeCAD 0.19 it is necessary to re-run CMake for FreeCAD 0.20 to change the C++ language standard.
 
+
+
 ### Opcje kompilacji 
 
 The CMake build system gives you control over some aspects of the build process. In particular, you can switch on and off some features or modules using CMake variables.
@@ -158,6 +178,8 @@ Here is a description of some of these variables:
   FREECAD_USE_PCH                     [Precompiles the headers](https://en.wikipedia.org/wiki/Precompiled_header) in order to save compilation time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ON
   FREECAD_USE_PYBIND11                Includes the [PyBind11](https://github.com/pybind/pybind11) library. Necessary to have a build that includes the [CreateFlatMesh feature](MeshPart_CreateFlatMesh.md).**Note:** after turning it on you might get a configuration error. Just configure again and the problem should go away.                                                                                                                                                                                                                                                                                                                                             OFF
 
+
+
 ## Kompilacja FreeCAD 
 
 Depending on your compiler, the process for building FreeCAD will be slightly different. In the following sections known workflows are described. If you are building with Qt Creator, jump to [Building with Qt Creator (outdated)](#Building_with_Qt_Creator_.28outdated.29.md), otherwise proceed directly:
@@ -165,10 +187,14 @@ Depending on your compiler, the process for building FreeCAD will be slightly di
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ### Kompilacja w Visual Studio 15 *(2017)*, lub nowszeym 
 
 
 <div class="mw-collapsible-content">
+
+
 
 #### Wersja kompilacji 
 
@@ -184,6 +210,8 @@ If you don\'t get any errors you are done. **Congratulations!** You can exit MSV
 
 **Note:** FreeCAD 0.20 requires at least the C++ language standard version 17 but the 3rd-party component *flann* from the LibPack is not yet ready for this. Therefore you will get compilation errors for the target *ReverseEngineering*. To fix this, right-click on this target in the MSVC solution explorer and select in the context menu the last entry *Properties*. In the appearing dialog change the **C++ Language Standard** to **ISO C++14**. Finally build the target **ALL_BUILD** again.
 
+
+
 #### Debuguj kompilację 
 
 For a debug build it is necessary that the Python is used that is included in the LibPack. To assure this:
@@ -193,7 +221,12 @@ For a debug build it is necessary that the Python is used that is included in th
 
 ![](images/CMake_Python_settings.png )
 
-Now
+As prerequisite for the debug build, you need to do this:
+
+1.  Copy the content of the LibPack folder *bind* to the *bin* folder of the FreeCAD build folder (overwrite the existing files).
+2.  Copy the content of the LibPack folder *libd* to the *lib* folder of the FreeCAD build folder.
+
+Now you can compile:
 
 1.  Start the Visual Studio IDE. This can either be done by pressing the button *Open Project* in the CMake GUI or by double-clicking on the file *FreeCAD.sln* that you find in your build folder.
 2.  In the toolbar of the MSVC IDE assure that you use for the first compilation *Debug*.
@@ -219,10 +252,14 @@ An English language tutorial that begins with configuration in CMake Gui and con
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ### Kompilacja z Qt Creator *(przestarzałe)* 
 
 
 <div class="mw-collapsible-content">
+
+
 
 #### Instalacja i konfiguracja Qt Creator 
 
@@ -241,6 +278,8 @@ An English language tutorial that begins with configuration in CMake Gui and con
     -   General tab
         -   Uncheck: Always build project before deploying it
         -   Uncheck: Always deploy project before running it
+
+
 
 #### Import projektu i kompilacji 
 
@@ -266,6 +305,8 @@ Once complete, it can be run: There are 2 green triangles at the bottom left. On
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Kompilacja z linii poleceń 
 
@@ -310,6 +351,8 @@ Instead of calling **compile-FC** with the option *install* you can also use *de
 
 </div>
 
+
+
 ## Uruchomienie i instalacja FreeCAD 
 
 Istnieją 2 metody uruchamiania skompilowanego programu FreeCAD:
@@ -328,6 +371,8 @@ For Method 1 you need to put the libraries into the *bin* folder of your build f
 4.  Search there for the variable option *FREECAD_COPY_PLUGINS_BIN_TO_BUILD* and check it.
 5.  Click on **Configure**. At the end of the configuration CMake will automatically copy the necessary libraries from the LibPack folder.
 
+
+
 ### Rozwiązywanie problemów 
 
 When running FreeCAD you may encounter missing DLLs when using certain workbenches or features of workbenches. The error message in FreeCAD\'s console will not tell you what DLL is missing. To find this out you must use an external tool:
@@ -342,6 +387,8 @@ os.system(r"~\DependenciesGui.exe")
 
 -   Now drag in the \*.pyd file of the workbench with which you get missing DLLs reported.
 
+
+
 ## Aktualizacja kompilacji 
 
 FreeCAD is very actively developed. Therefore its source code changes almost daily. New features are added and bugs are fixed. To benefit from these source code changes, you must rebuild your FreeCAD. This is done in two steps:
@@ -349,7 +396,11 @@ FreeCAD is very actively developed. Therefore its source code changes almost dai
 1.  Updating the source code
 2.  Recompilation
 
+
+
 ### Aktualizacja kodu źródłowego 
+
+
 
 #### Używanie nakładki 
 
@@ -359,6 +410,8 @@ When using the [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GU
 2.  A dialog will appear. Select there what development branch you want to get. **master** is the main branch. Therefore use this unless you want to compile a special new feature from a branch that has not yet been merged to *master*. (For more about Git branches, see [Git development process](Source_code_management#Git_development_process.md).)
 
 Finally click **OK**.
+
+
 
 #### Używanie wiersza poleceń 
 
@@ -370,6 +423,8 @@ git pull https://github.com/FreeCAD/FreeCAD.git master
 ```
 
 where *master* the the name of the main development branch. If you want to get code from another branch, use its name instead of *master*.
+
+
 
 ### Ponowienie kompilacji 
 
@@ -389,13 +444,19 @@ To update your LibPack the following recipe is best practice:
 5.  In CMake click the button **Open Project** and the MSVC IDE will open.
 6.  In the MSVC IDE build the target *INSTALL*.
 
+
+
 ## Przybory
 
 In order to join the FreeCAD development you should compile and install the following tools:
 
+
+
 ### Wtyczka Qt designer 
 
 FreeCAD uses [Qt](https://en.wikipedia.org/wiki/Qt_(software)) as toolkit for its user interface. All dialogs are setup in UI-files that can be edited using the program [Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) that is part of any Qt installation and also included in the LibPack. FreeCAD has its own set of Qt widgets to provide special features like adding a unit to input fields and to set preferences properties.
+
+
 
 #### Kompilacja
 

@@ -7,6 +7,8 @@ Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans 
 
 Il y a cinq onglets : [Paramètres généraux](#Pr.C3.A9f.C3.A9rences_g.C3.A9n.C3.A9rales.md), [Paramètres de l\'interface utilisateur](#Param.C3.A8tres_de_l.27interface_utilisateur.md), [Grille et aimantation](#Grille_et_aimantation.md), [Paramètres visuels](#Param.C3.A8tres_visuels.md) et [Texts et cotes](#Textes_et_cotes.md).
 
+
+
 ## Préférences générales 
 
 Dans l\'onglet *Préférences générales*, vous pouvez spécifier les éléments suivants :
@@ -94,6 +96,8 @@ Dans l\'onglet *Préférences générales*, vous pouvez spécifier les élément
 +++
 
 ![](images/Preferences_Draft_Tab_General_settings.png )
+
+
 
 ## Paramètres de l\'interface utilisateur 
 
@@ -206,6 +210,8 @@ Dans l\'onglet *Paramètres de l\'interface utilisateur*, vous pouvez spécifier
 
 ![](images/Preferences_Draft_Tab_User_interface_settings.png )
 
+
+
 ## Grille et aimantation 
 
 Notez que plusieurs préférences de grille peuvent également être modifiées avec la commande [Draft Plan de travail](Draft_SelectPlane/fr.md). Cette commande met à jour la grille dans la [Vue 3D](3D_view/fr.md) en cours en temps réel.
@@ -312,6 +318,8 @@ Dans l\'onglet *Grille et aimantation*, vous pouvez spécifier les éléments su
 
 ![](images/Preferences_Draft_Tab_Grid_and_snapping.png )
 
+
+
 ## Paramètres visuels 
 
 Dans l\'onglet *Paramètres visuels*, vous pouvez spécifier les éléments suivants :
@@ -391,6 +399,8 @@ Dans l\'onglet *Paramètres visuels*, vous pouvez spécifier les éléments suiv
 
 ![](images/Preferences_Draft_Tab_Visual_settings.png )
 
+
+
 ## Textes et cotes 
 
 Ces préférences sont les valeurs par défaut utilisées lors de la création de nouveaux objets. Leur modification n\'affecte pas les objets existants.
@@ -425,7 +435,7 @@ Dans l\'onglet *Textes et cotes*, vous pouvez spécifier les éléments suivants
 | **Nombre de décimales**                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +++
-|                                                      | La longueur des lignes d\'extension sous la ligne de dimension. Voir [Draft Dimension](/Draft_Dimension/fr#Vue.md).                                                                                                                                                                                                                                                                                                    |
+|                                                      | La longueur des lignes d\'extension sous la ligne de dimension. Voir [Draft Dimension](Draft_Dimension/fr#Vue.md).                                                                                                                                                                                                                                                                                                     |
 | **Taille des lignes d'extension**                       |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +++

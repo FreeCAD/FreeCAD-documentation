@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Usekává (odděluje) vybrané objekty Díl tak, že později vybraný díl vyjme z dříve vybraného dílu. Tato operace je plně parametrická a komponenty mohou být upravovány a výsledek přepočítáván.
@@ -28,7 +30,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 ## Supported inputs 
 
-Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects made with the Part, PartDesign or Sketcher workbenches. For meshes there are dedicated Boolean tools in [Mesh Workbench](Mesh_Workbench.md).
 
 
 

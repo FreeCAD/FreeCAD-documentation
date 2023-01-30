@@ -99,7 +99,7 @@ Once objects are added to the document right clicking them will show additional 
 
 -    **[Delete](Std_Delete.md)**: removes the object from the document.
 
--    **Hide item**: if active, the selected object will be set as hidden.
+-    **[Hide item](#Eye_symbol.md)**: If checked the object will be hidden in the Tree view.
 
 -    **Add dependent objects to selection**: all dependent objects will be added to the selection. This way one can see the dependencies and e.g. delete all dependent objects at once. This option is only available if one of the selected objects has links. <small>(v0.20)</small> 
 
@@ -183,6 +183,10 @@ This is only used for [sketches](Sketch.md) and indicates that the sketch is not
 ### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background 
 
 This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
+
+This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
 
  {{Interface navi}} {{Std Base navi}}
 

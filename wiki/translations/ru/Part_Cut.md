@@ -9,6 +9,8 @@
 
 # Part Cut/ru
 
+
+
 ## Описание
 
 Cuts (subtracts) selected Part objects, the last one being subtracted from the first one. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -16,6 +18,8 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 **Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
 
 [480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
+
+
 
 ## Применение
 
@@ -26,7 +30,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 ## Supported inputs 
 
-Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects made with the Part, PartDesign or Sketcher workbenches. For meshes there are dedicated Boolean tools in [Mesh Workbench](Mesh_Workbench.md).
 
 
 

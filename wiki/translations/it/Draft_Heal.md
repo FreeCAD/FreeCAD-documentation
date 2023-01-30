@@ -2,7 +2,7 @@
 - GuiCommand:/it
    Name:Draft Heal
    Name/it:Ripara
-   MenuLocation:Draft → Utilità → Ripara
+   MenuLocation:Utilità → Ripara
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Retrocedi](Draft_Downgrade/it.md)
 ---
@@ -10,37 +10,18 @@
 # Draft Heal/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo comando tenta di correggere gli oggetti [Draft](Draft_Workbench/it.md) che sono stati creati con una versione precedente di FreeCAD, in modo che funzionino in una versione più recente.
+Il comando <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Ripara** ripara gli oggetti [Draft](Draft_Workbench/it.md) problematici trovati in file molto vecchi. Cerca di ricreare i vecchi oggetti da zero e di trasferire le loro proprietà ai nuovi oggetti.
 
 
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare uno o più oggetti problematici.
-2.  Andare nel menu **Draft → Utilità → <img src="images/Draft_Heal.svg" width=16px> [Ripara](Draft_Heal/it.md)**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Facoltativamente selezionare uno o più oggetti problematici. Se non viene selezionato alcun oggetto, verrà elaborato l\'intero documento.
+2.  Selezionare l\'opzione **Utilità → <img src="images/Draft_Heal.svg" width=16px> Ripara** dal menu.
+3.  Se non vengono trovati errori, il comando non farà nulla.
 
 
 

@@ -36,17 +36,17 @@ Geometrische Objekte sind die Bausteine aller topologischen Objekte:
 
 ### Topologie
 
-The folgenden topologischen Datentypen stehen zur Verfügung:
+Die folgenden topologischen Datentypen stehen zur Verfügung:
 
 -   **Compound** Eine Gruppe von beliebigen topologischen Objekten.
--   **Compsolid** Ein zusammengesetzter Körper (solid) ist ein Set von Körpern, die durch ihre Seiten verbunden sind. Dies erweitert das Konzept von WIRE and SHELL auf Körpern (solids).
--   **Solid** Ein Teil des Raumes, der durch eine geschlossene dreidimensionale Hülle begrenzt ist.
--   **Shell** Hülle = Ein Satz von über ihre Kanten verbundenen Flächen. Eine Hülle kann offen oder geschlossen sein.
--   **Face** Im zweidimensionalen ist es ein Teil einer Ebene; im dreidimensionalen ist es ein Teil einer Oberfläche. Die Form ist durch Konturen begrenzt (getrimmt). Auch im 3D gekrümmte Flächen haben sind Inneren zweidimensional parametriert.
--   **Wire** Ein Satz von über ihre Endpunkten verknüpften Kanten. Ein \"Wire\" kann eine offene oder geschlossene Form haben, je nach dem ob nicht verknüpfte Endpunkte vorhanden sind oder nicht.
--   **Edge** Ein topologisches Element (Kante) das mit einer beschränkten Kurve korrespondiert. Eine Kante ist generell durch Vertexe begrenzt. Eine Kante ist eindimensional.
--   **Vertex** Ein topologisches Element das mit einem Punkt korrespondiert. Es ist nulldimensional.
--   **Shape** Ein generischer Term für all die zuvor aufgezählten Elemente.
+-   **Compsolid** Ein zusammengesetzter Körper (composite solid) ist ein Satz (eine Menge) von Körpern, die über ihre Flächen verbunden sind. Dies erweitert das Konzept von WIRE and SHELL auf (Fest-)Körper (solids).
+-   **Solid** Ein Teil des (Konstruktion-)Raumes, der durch eine geschlossene Hülle begrenzt ist. Ein Solid (Festkörper) ist dreidimensional.
+-   **Shell** Hülle = Ein Satz (eine Menge) von über ihre Kanten verbundenen Flächen. Eine Hülle kann offen oder geschlossen sein.
+-   **Face** In 2D ist es ein Teil einer Ebene; in 3D ist es ein Teil einer Oberfläche (Trägerfläche). Die Form wird durch Konturen begrenzt (getrimmt). Ein Face (eine Fläche) ist zweidimensional (hat keine Wandstärke).
+-   **Wire** Ein Satz von über ihre Endpunkten verknüpften Kanten. Ein \"Wire\" kann eine offene oder geschlossene Form haben, je nach dem ob Start- und Endpunkt verbunden sind oder nicht.
+-   **Edge** Ein topologisches Element (Kante) das einer begrenzten Kurve entspricht. Eine Kante ist generell durch Knoten(-punkte) (Vertizes) begrenzt. Eine Kante (Edge) ist eindimensional (hat keine radiale Ausdehnung).
+-   **Vertex** Ein topologisches Element das einem (Knoten-)Punkt entspricht. Es ist nulldimensional.
+-   **Shape** (Form) ist der Oberbegriff für all die zuvor aufgezählten Elemente.
 
 
 {{Top}}
@@ -57,13 +57,13 @@ The folgenden topologischen Datentypen stehen zur Verfügung:
 
 ![Wire](images/Wire.png )
 
-Wir werden nun eine Topologie erstellen, indem wir sie aus einer einfacheren Geometrie konstruieren. Als Fallstudie verwenden wir ein Teil, wie im Bild zu sehen, das aus vier Knoten, zwei Kreise und zwei Linien besteht. 
+Wir werden nun eine Topologie erstellen, indem wir sie mit einfacheren Geometrien konstruieren. Als Beispiel verwenden wir ein Teil, wie im Bild zu sehen, das aus vier Knoten, zwei Kreisen und zwei Linien besteht. 
 
 ### Geometrie erstellen 
 
-Zuerst erstellen wir die verschiedenen geometrischen Teile dieses Drahtes. Dabei stellen wir sicher, dass die Teile, die später verbunden werden die gleichen Knoten teilen.
+Zuerst erstellen wir die individuellen geometrischen Teile dieses Drahtes (Wire). Dabei stellen wir sicher, dass die Teile, die später verbunden werden, dieselben Knoten verwenden.
 
-Also erstellen wir zuerst die Punkte:
+Also erstellen wir zuerst die (Knoten-)Punkte (Vertices/Vertexes):
 
 
 ```python
@@ -118,7 +118,7 @@ L2 = Part.LineSegment(V3, V4)
 
 ### Alles zusammensetzen 
 
-Der letzte Schritt besteht darin, die geometrischen Basiselemente zusammenzusetzen und eine topologische Form zu backen:
+Der letzte Schritt besteht darin, die geometrischen Basiselemente zusammenzusetzen und zu einer topologischen Form (Shape) zu vereinigen:
 
 
 ```python
@@ -130,9 +130,9 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 
-### Ein Prisma herstellen 
+### Ein prismatisches Objekt erstellen 
 
-Jetzt extrudiere den Draht in eine Richtung und erzeugen eine tatsächliche 3D Form:
+Jetzt wird der Draht in eine Richtung extrudiert und so eine wirkliche 3D-Form erstellt:
 
 
 ```python
@@ -157,9 +157,9 @@ Part.show(P)
 
 
 
-## Erstellen von Grundformen 
+## Grundformen erstellen 
 
-Du kannst ganz einfach topologische Grundobjekte mit den `make...()`-Methoden aus dem Arbeitsbereich Part erstellen:
+Topologische Grundobjekte können ganz einfach mit den Methoden `make...()` aus dem Arbeitsbereich Part erstellen:
 
 
 ```python
@@ -169,13 +169,13 @@ Part.show(b)
 
 Einige verfügbare `make...()` Methoden:
 
--    `makeBox(l, w, h, [p, d])`Erstellt einen Quader, der sich in p befindet und in die Richtung d mit den Abmessungen (l,w,h) zeigt.
+-    `makeBox(l, w, h, [p, d])`Erstellt einen Quader, der sich in p befindet und in die Richtung d zeigt, mit den Abmessungen (l,w,h).
 
 -    `makeCircle(radius)`Erstellt einen Kreis mit einem gegebenen Radius.
 
--    `makeCone(radius1, radius2, height)`Erstellt einen Kegel mit den gegebenen Radien und Höhen.
+-    `makeCone(radius1, radius2, height)`Erstellt einen Kegel mit den gegebenen Radien und der Höhe.
 
--    `makeCylinder(radius, height)`Erstellt einen Zylinder mit einem gegebenen Radius und Höhe.
+-    `makeCylinder(radius, height)`Erstellt einen Zylinder mit gegebenen Radius und Höhe.
 
 -    `makeLine((x1, y1, z1), (x2, y2, z2))`Erstellt eine Linie aus zwei Punkten.
 
@@ -187,7 +187,7 @@ Einige verfügbare `make...()` Methoden:
 
 -    `makeTorus(radius1, radius2)`Erstellt einen Torus mit den gegebenen Radien.
 
-Siehe die [Part API](Part_API/de.md) Seite für eine vollständige Liste der verfügbaren Methoden des Part Arbeitsbereichs. 
+Siehe die Seite [Part API](Part_API/de.md) für eine vollständige Liste der verfügbaren Methoden des Arbeitsbereichs Part. 
 
 ### Module Importieren 
 
@@ -204,16 +204,16 @@ import Part
 
 
 
-### Erstellen eines Vektors 
+### Einen Vektor erstellen 
 
-[Vektoren](http://en.wikipedia.org/wiki/Euclidean_vector) sind einer der am häufigsten verwendeten wichtigen Informationsteile beim Bau von Formen. Sie enthalten in der Regel drei Zahlen (aber nicht notwendigerweise immer): die kartesischen Koordinaten x, y und z. Du erstellst einen Vektor wie diesen:
+[Vektoren](https://de.wikipedia.org/wiki/Vektor#Geometrie) gehören zu den wichtigsten Informationsbestandteilen beim Erstellen von Formen. Sie enthalten in der Regel (aber nicht zwangsläufig immer) drei Zahlen, die kartesischen Koordinaten x, y und z. Und so wird ein Vektor erstellt:
 
 
 ```python
 myVector = App.Vector(3, 2, 0)
 ```
 
-Wir haben soeben einen Vektor mit den Koordinaten X = 3, Y = 2, Z = 0 erstellt. im Part Arbeitsbereich werden Vektoren überall verwendet. Part Formen verwenden auch eine andere Art von Punkt Darstellung namens Knoten, die einfach ein Behälter ist für einen Vektor. So greifst du auf den Vektor eines Knoten zu:
+Wir haben soeben einen Vektor mit den Koordinaten x = 3, y = 2, z = 0 erstellt. Im Arbeitsbereich Part werden Vektoren überall verwendet. Part-Formen verwenden auch eine andere Art von Punktdarstellung namens Knoten (Vertex), die einfach ein Behälter für einen Vektor ist. So greift man auf den Vektor eines Knoten zu:
 
 
 ```python
@@ -227,7 +227,7 @@ print(myVertex.Point)
 
 
 
-### Erstellen einer Kante 
+### Eine Kante erstellen 
 
 Eine Kante ist nichts anderes als eine Linie mit zwei Knoten:
 
@@ -238,7 +238,7 @@ edge.Vertexes
 > [<Vertex object at 01877430>, <Vertex object at 014888E0>]
 ```
 
-Hinweis: Du kannst auch eine Kante erzeugen, indem du zwei Vektoren übergibst:
+Hinweis: Eine Kante kann auch durch Übergabe von zwei Vektoren erstellt werden:
 
 
 ```python
@@ -248,7 +248,7 @@ line = Part.LineSegment(vec1, vec2)
 edge = line.toShape()
 ```
 
-Du kannst die Länge und den Mittelpunkt einer Kante wie diese finden:
+So findet man die Länge und den Mittelpunkt einer Kante:
 
 
 ```python
@@ -265,18 +265,18 @@ edge.CenterOfMass
 
 ### Die Form auf den Bildschirm bringen 
 
-Bisher haben wir ein Kantenobjekt erstellt, das aber nirgendwo auf dem Bildschirm erscheint. Das liegt daran, dass die FreeCAD 3D Szene nur das anzeigt, was du ihm sagst, dass er anzeigen soll. Um das zu tun, verwenden wir folgende einfache Methode:
+Bisher haben wir ein Kantenobjekt erstellt, das aber nirgendwo auf dem Bildschirm erscheint. Das liegt daran, dass die FreeCAD-3D-Szene nur etwas anzeigt, wenn man ihr sagt, dass sie es anzeigen soll. Um das zu tun, verwenden wir folgende einfache Methode:
 
 
 ```python
 Part.show(edge)
 ```
 
-Die Anzeigefunktion erzeugt ein Objekt in unserem FreeCAD Dokument und weist unsere \"Kanten\"form ihm zu. Verwende dies, wenn es an der Zeit ist, deine Erstellung auf dem Bildschirm anzuzeigen. 
+Die Anzeigefunktion (.show) erzeugt ein Objekt in unserem FreeCAD-Dokument und weist ihm unsere Form \"edge\" zu. Sie wird verwendet, wenn es an der Zeit ist, das Erstellte auf dem Bildschirm anzuzeigen. 
 
-### Erstellen eines Drahts 
+### Einen Draht erstellen 
 
-Ein Draht ist eine Mehrkantenlinie und kann aus einer Liste von Kanten oder sogar einer Liste von Drähten erstellt werden:
+Ein Draht (Wire) ist eine Linie aus mehreren Kanten und kann aus einer Liste von Kanten oder sogar einer Liste von Drähten erstellt werden:
 
 
 ```python
@@ -295,7 +295,7 @@ Part.show(wire3)
 
 `Part.show(wire3)`
 
-zeigt die 4 Kanten, die unseren Draht bilden. Sonstige nützliche Informationen können leicht abgerufen werden:
+zeigt die 4 Kanten, die unseren Draht bilden (in der 3D-Ansicht) an. Weitere nützliche Informationen können leicht abgerufen werden:
 
 
 ```python
@@ -314,9 +314,9 @@ wire2.isClosed()
 
 
 
-### Erstellen einer Fläche 
+### Eine Fläche erstellen 
 
-Nur Flächen, die aus geschlossenen Drähten erstellt wurden, sind gültig. In diesem Beispiel ist Draht3 ein geschlossener Draht, aber Draht2 ist kein geschlossener Draht (siehe oben).
+Nur Flächen (Faces), die aus geschlossenen Drähten erstellt wurden, sind gültig. In diesem Beispiel ist wire3 ein geschlossener Draht, aber wire2 ist kein geschlossener Draht (siehe oben).
 
 
 ```python
@@ -334,11 +334,11 @@ sface.isValid()
 > False
 ```
 
-Nur Flächen haben eine Grundfläche, Drähte und Kanten haben keine. 
+Nur Flächen haben einen Flächeninhalt (area), Drähte und Kanten haben keinen. 
 
-### Erstellen eines Kreises 
+### Einen Kreis erstellen 
 
-So einfach kann ein Kreis erstellt werden:
+So kann ein Kreis erstellt werden:
 
 
 ```python
@@ -347,7 +347,7 @@ circle.Curve
 > Circle (Radius : 10, Position : (0, 0, 0), Direction : (0, 0, 1))
 ```
 
-Wenn Du ihn an einer bestimmten Stelle und mit einer bestimmten Richtung erzeugen möchtest:
+Wenn er an einer bestimmten Stelle und mit einer bestimmten Ausrichtung erstellt werden soll:
 
 
 ```python
@@ -356,7 +356,7 @@ ccircle.Curve
 > Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
 ```
 
-ccircle wird im Abstand 10 vom x Ursprung erstellt und ist nach außen entlang der x Achse gerichtet. Hinweis: `makeCircle()` akzeptiert nur `App.Vector()` für die Position und normale Parameter, keine Tupel. Du kannst auch einen Teil des Kreises durch Angabe eines Anfangs- und eines Endwinkels erstellen:
+ccircle wird mit dem Abstand 10 vom X-Ursprung erstellt und ist nach außen entlang der X-Achse ausgerichtet. Hinweis: `makeCircle()` akzeptiert nur einen `App.Vector()` für die Position und normale Parameter, keine Tupel. Du kannst auch einen Teil des Kreises durch Angabe eines Anfangs- und eines Endwinkels erstellen:
 
 
 ```python
@@ -365,7 +365,7 @@ arc1 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
 arc2 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180, 360)
 ```
 
-Winkel sollten in Grad angegeben werden. Wenn Du Bogenmaß hast, wandelst Du sie einfach mit der Formel um: `Grad <nowiki>=</nowiki> Bogenmaß * 180/pi` oder mit Hilfe des Python `math` Moduls:
+Winkel sollten in Grad angegeben werden. Liegt ein Wert in Bogenmaß vor, wird er einfach mit folgender Formel umgewandelt: `Grad <nowiki>=</nowiki> Bogenmaß * 180/pi` oder mit Hilfe des Python-Moduls `math`:
 
 
 ```python
@@ -378,9 +378,9 @@ degrees = math.degrees(radians)
 
 
 
-### Erstellen eines Bogens entlang von Punkten 
+### Einen Bogen über Punkte erstellen 
 
-Leider gibt es keine `makeArc()` Funktion, aber wir haben die `Part.Arc()` Funktion um einen Bogen durch drei Punkte zu erzeugen. Es erzeugt ein Bogenobjekt das den Startpunktes mit dem Endpunkt durch den Mittelpunkt verbindet. Die `toShape()` Funktion des Bogenobjekts muss aufgerufen werden, um ein Kantenobjekt zu erhalten, wie bei der Verwendung von `Part.LineSegment` anstelle von `Part.makeLine`.
+Leider gibt es keine Funktion `makeArc()`, aber wir haben die Funktion `Part.Arc()` um einen Bogen (Arc) durch drei Punkte zu erzeugen. Sie erzeugt ein Arc-Objekt, das den Startpunktes mit dem Endpunkt über den Mittelpunkt verbindet. Die Funktion `toShape()` des Arc-Objekts muss aufgerufen werden, um ein Edge-Objekt zu erhalten, wie bei der Verwendung von `Part.LineSegment` anstelle von `Part.makeLine`.
 
 
 ```python
@@ -394,7 +394,7 @@ Part.show(arc_edge)
 
 `Arc()`
 
-akzeptiert nur `App.Vector()` für Punkte, aber keine Tupel. Du kannst auch einen Bogen erhalten durch Verwendung eines Kreisabschnitts:
+akzeptiert nur `App.Vector()` für Punkte, aber keine Tupel. Einen Bogen kann man auch durch Verwendung eines Kreisabschnitts erhalten:
 
 
 ```python
@@ -405,9 +405,9 @@ arc = Part.Arc(circle,0,pi)
 
 Bögen sind gültige Kanten wie Linien, so dass sie auch in Drähten verwendet werden können. 
 
-### Erstellen eines Polygons 
+### Ein Vieleck erstellen 
 
-Ein Polygon ist einfach ein Draht mit mehreren geraden Kanten. Die Funktion `makePolygon()` nimmt eine Liste von Punkten und erstellt einen Draht durch diese Punkte:
+Ein Vieleck (Polygon) ist einfach ein Draht mit mehreren geraden Kanten. Die Funktion `makePolygon()` nimmt eine Liste von Punkten entgegen und erstellt einen Draht durch diese Punkte:
 
 
 ```python
@@ -421,7 +421,7 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 ### Eine Bézier-Kurve erstellen 
 
-Bézier-Kurven werden verwendet, um sanfte Kurven mit einer Reihe von Polen (Punkten) und optionalen Gewichten zu modellieren. Die folgende Funktion erstellt eine `Part.BezierCurve()` aus einer Reihe von `FreeCAD.Vector()` Punkten. (Hinweis: Wenn du einen einzelnen Pol oder ein Gewicht \"erhältst\" und \"einstellst\", beginnen die Indizes bei 1, nicht bei 0.)
+Bézier-Kurven werden verwendet, um weiche Kurven mit einer Reihe von Polen (Punkten) und optionalen Gewichten zu modellieren. Die folgende Funktion erstellt eine `Part.BezierCurve()` aus einer Reihe von `FreeCAD.Vector()` Punkten. (Hinweis: Soll ein einzelner Pol oder ein Gewicht mit \"get\" und \"set\" (-Methoden und Indizes) angesprochen werden, beginnen die Indizes bei 1, nicht bei 0.)
 
 
 ```python
@@ -437,9 +437,9 @@ def makeBCurveEdge(Points):
 
 
 
-### Erstellen einer Ebene 
+### Eine Ebene erstellen 
 
-Eine Ebene ist einfach eine flache rechteckige Fläche. Die Methode, mit der eine solche erstellt wird, ist **makePlane(length,width,\[start_pnt,dir_normal\])**\'. Standardmäßig start_pnt = Vektor(0,0,0,0) und dir_normal = Vektor(0,0,1). Verwendung von dir_normal = Vector(0,0,0,1) erzeugt die Ebene, die in Richtung der positiven z Achse zeigt, während dir_normal = Vector(1,0,0,0) die Ebene erzeugt, die in Richtung der positiven x Achse zeigt:
+Eine Ebene (Plane) ist eine ebene rechteckige Fläche. Die Methode, mit der eine Ebene erstellt wird, ist `makePlane(length, width, [start_pnt, dir_normal])`. Standardmäßig sind start_pnt = Vektor(0, 0, 0) und dir_normal = Vektor(0, 0, 1). Ist dir_normal = Vector(0, 0, 1) wird eine Ebene, die in Richtung der positiven Z-Achse zeigt, erstellt, während dir_normal = Vector(1, 0, 0) eine Ebene erzeugt, die in Richtung der positiven X-Achse zeigt:
 
 
 ```python
@@ -454,11 +454,11 @@ plane.BoundBox
 
 `BoundBox`
 
-ist ein Quader, der die Ebene mit einer Diagonale beginnend bei (3,0,0,0) und endet bei (5,0,2) einschliesst. Hier ist die `BoundBox` Dicke entlang der y Achse Null, zumal unsere Form völlig flach ist.
+ist ein Quader, der die Ebene einschließt, mit einer Diagonale, die bei (3, 0, 0) beginnt und bei (5, 0, 2) endet. Hier ist die Ausdehnung der `BoundBox` entlang der Y-Achse Null, da unsere Form völlig eben ist.
 
 Hinweis: 
 
-### Erstellen einer Ellipse 
+### Eine Ellipse erstellen 
 
 Es gibt mehrere Möglichkeiten, eine Ellipse zu erstellen:
 

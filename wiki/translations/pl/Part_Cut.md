@@ -9,6 +9,8 @@
 
 # Part Cut/pl
 
+
+
 ## Opis
 
 Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowany od pierwszego. Operacja ta jest w pełni parametryczna, a komponenty mogą być modyfikowane, a wynik przeliczany.
@@ -17,6 +19,8 @@ Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowa
 
 [480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
 
+
+
 ## Użycie
 
 1.  Wybierz dwa kształty,
@@ -24,9 +28,17 @@ Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowa
     -   Naciśnij przycisk **![](images/) '''Wytnij'''** na pasku narzędziowym Funkcje logiczne,
     -   Użyj pozycji z menu **Część → Funkcje logiczne → Wytnij**.
 
+
+
 ### Obsługiwane dane wejściowe 
 
+
+<div class="mw-translate-fuzzy">
+
 Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady: obiekty wykonane z użyciem Środowisk pracy Część, Projekt części, Szkicownik. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w środowisku pracy Siatka istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
+
+
+</div>
 
 
 

@@ -159,7 +159,7 @@ With the <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [Circl
 
 Select the circle then create a <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Radius constraint](Sketcher_ConstrainRadius.md), enter a value of 5 mm.
 
-Select the center of the circle then create a <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock constraint](Sketcher_ConstrainLock.md); double-click on the horizontal dimension and enter -65 mm (here we indicate a position relative to the origin of the sketch). Do the same for the vertical dimension (-15 mm). The circle takes its correct position and the sketch becomes green, indicating it is fully constrained:
+Select the center of the circle then create a <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock constraint](Sketcher_ConstrainLock.md); double-click on the horizontal dimension and enter -65 mm (here we indicate a position relative to the origin of the sketch). Do the same for the vertical dimension (15 mm). The circle takes its correct position and the sketch becomes green, indicating it is fully constrained:
 
 ![](images/GGTuto1_6.PNG )
 

@@ -29,6 +29,8 @@ Dieses Tutorial soll FreeCAD-Anfängern anhand eines Beispiels einige grundlegen
 -   Bearbeiten einer oder mehrerer Abmessungen.
 -   Verwenden von äußeren Geometrie Formelementen und Verwendung einer Referenzebene zum Zentrieren einer Bohrung.
 
+
+
 ### Verwenden des [Part Design Arbeitsbereich](PartDesign_Workbench/de.md) nachverfolgen der Skizze 
 
 Erstelle ein neues Dokument und wechsle in den **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design Arbeitsbereich'''** entweder mit dem [Arbeitsbereich Wahlschalter](Getting_started#Exploring_the_interface/de.md) (im verknüpften Bild mit 10 beschriftet) oder über das Menü *Ansicht → Arbeitsbereich*. FreeCAD startet mit den Werkzeugleisten oben, die Comboansicht links und der 3D Ansicht rechts.
@@ -127,6 +129,8 @@ Gehe bei allen Punkten auf die gleiche Weise vor.
 
 Wenn deine Skizze immer noch nicht grün ist, überprüfe, ob alle Linien (außer der schrägen) entweder ein <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) oder <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertikal](Sketcher_ConstrainVertical.md) und füge, wenn nötig, eine Beschränkung hinzu.
 
+
+
 ### Verwendung der Polster- und Taschen Formelemente 
 
 Klicke auf **Close** in der Aufgaben Registerkarte oben links in der Ecke. Wir verlassen automatisch den Skizzierer Arbeitsbereich, und den Part Design Arbeitsbereich wird wieder aktiviert. Die Combo Ansicht schaltet wieder auf die Modell Registerkarte um. Wenn Du dein *Körper Teil1* aufgeklappt gelassen hast, siehst Du ein neues **Skizzen**-Element unter *Ursprung* und unter dem Körper verschachtelt.
@@ -153,13 +157,21 @@ Mit dem <img alt="" src=images/Sketcher_Circle.svg  style="width:24px;"> [ Kreis
 
 Wähle den Kreis aus und erstelle eine <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Radius Beschränkung](Sketcher_ConstrainRadius/de.md), gib einen Wert von 5 mm ein.
 
+
+<div class="mw-translate-fuzzy">
+
 Wähle den Mittelpunkt des Kreises aus und erstelle eine <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sperr Beschränkung](Sketcher_ConstrainLock/de.md); doppelklicke auf die horizontale Bemaßung und gib -65 mm ein (hier geben wir eine Position relativ zum Ursprung der Skizze an). Mache dasselbe für die vertikale Bemaßung (-15 mm). Der Kreis nimmt seine korrekte Position ein und die Skizze wird grün und zeigt damit an, dass sie vollständig beschränkt ist:
+
+
+</div>
 
 ![](images/GGTuto1_6.PNG )
 
 Schließe die Skizze; im Modellbaum ist unter Pad ein neues **Sketch001** Objekt erschienen. Klicke, während Sketch001 noch ausgewählt ist, auf <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Tasche](PartDesign_Pocket.md).
 
 Pocket ist ein Formelement \"subtraktiv\" genannt, es entfernt Material von unserem Teil, hier in der Form eines Zylinders, da die Skizze ein Kreis ist. Stelle \"Durch alles\" ein, um das Teil vollständig auszuschneiden. Drücke **OK**, um den Vorgang abzuschließen. Im Modellbaum erscheint ein neues Element mit der Bezeichnung **Pocket** am unteren Ende des Körper Teil1 und belegt Sketch001.
+
+
 
 ### Ändern von Farbe und Transparenz 
 
@@ -189,6 +201,8 @@ Halte und ziehe die Kegel entlang der Achsen oder der Kugeln, um den Körper in 
 
 Bestätige. Dann setze Winkel und Koordinaten auf 0 zurück.
 
+
+
 ### Anzeigen der Referenzmaße in der Skizze 
 
 Es kann nützlich sein, die Abmessungen einiger Teile der Skizze aus der internen Berechnung von FreeCAD zu kennen. Sie können nur als Referenz verwendet werden, oder sie später z.B. für andere Bemaßungen verwenden.
@@ -202,6 +216,8 @@ Du kannst diese Abmessungen anzeigen lassen zum Beispiel:
 Wir können zum Beispiel sehen, dass der Bogen eine Länge von 20 hat, da er tangential zu den Kanten verläuft.
 
 Wir können auch sehen, dass FreeCAD die linke Fläche (50-50xTAN 30 °) berechnet, sowie das Abstandsmaß der Achse des Bogens zum Ursprung.
+
+
 
 ### Bearbeitung einer oder mehrerer Abmessungen 
 

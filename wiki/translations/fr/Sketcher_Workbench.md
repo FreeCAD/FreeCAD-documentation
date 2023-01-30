@@ -300,7 +300,7 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 
 
-### Outils d\'esquisse B-spline 
+### Outils d\'esquisse des B-splines 
 
 -   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Montrer/Cacher le degré de la B-spline](Sketcher_BSplineDegree/fr.md)
 

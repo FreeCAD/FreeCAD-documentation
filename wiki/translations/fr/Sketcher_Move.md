@@ -27,7 +27,7 @@ Déplace les éléments d\'esquisse sélectionnés d\'un point à un autre, en u
     -   Appuyez sur le bouton **[<img src=images/Sketcher_Move.svg style="width:16px"> [Déplacer](Sketcher_Move/fr.md)** dans la barre d\'outils
     -   Utilisez les raccourcis clavier **Z** puis **M**
     -   Utilisez l\'entrée **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_Move.svg style="width:16px"> Déplacer** dans le menu Sketch
-3.  Déplacez la souris dans la [Vue 3D](3D_view/fr.md) à l\'endroit souhaité.En maintenant **Maj** enfoncé, l\'angle par rapport à l\'emplacement peut être fixé par pas de 5°. {{Version/fr|0.20}}
+3.  Déplacez la souris dans la [Vue 3D](3D_view/fr.md) à l\'endroit souhaité.En maintenant **Ctrl** enfoncé (**Cmd** pour macOS), l\'angle par rapport à l\'emplacement peut être fixé par pas de 5°. {{Version/fr|0.20}}
 4.  Cliquez avec le bouton gauche de la souris dans la vue 3D pour terminer le déplacement. Les contraintes existantes se déplacent également.
 5.  Si vous voulez détacher un élément et le déplacer librement, supprimez ses contraintes de verrouillage et faites-le glisser avec la souris.
 

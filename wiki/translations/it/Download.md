@@ -5,21 +5,9 @@
 
 ## Versione stabile attuale 
 
+La versione 0.20.2 di FreeCAD (29410) è stata pubblicata il 07-12-2022. Per scoprire le novità, consultare le [note di rilascio](Release_notes_0.20/it.md).
 
-<div class="mw-translate-fuzzy">
-
-La versione 0.20.1 di FreeCAD (29410) è stata pubblicata il 10-08-2022. Per scoprire le novità, consultare le [note di rilascio](Release_notes_0.20/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il checksum SHA256 per verificare l\'integrità del download si trova [nella pagina di rilascio 0.20.1](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.1).
-
-
-</div>
+Il checksum SHA256 per verificare l\'integrità del download si trova [nella pagina di rilascio 0.20.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2).
 
 Le versioni precedenti possono essere scaricate dalla pagina di [rilascio](https://github.com/FreeCAD/FreeCAD/releases)
 
@@ -71,13 +59,7 @@ Lo sviluppo di FreeCAD è sempre attivo.
 
 ## Moduli aggiuntivi e macro 
 
-
-<div class="mw-translate-fuzzy">
-
-La comunità di FreeCAD offre numerosi moduli e macro aggiuntivi. Dalla versione 0.17 essi possono essere facilmente installati direttamente da FreeCAD usando il [Gestore delle estensioni (Addon manager)](Std_AddonMgr/it.md) <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
-
-
-</div>
+La comunità di FreeCAD offre numerosi moduli e macro aggiuntivi. Dalla versione 0.17 essi possono essere facilmente installati direttamente da FreeCAD usando l\'<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md).
 
 
 

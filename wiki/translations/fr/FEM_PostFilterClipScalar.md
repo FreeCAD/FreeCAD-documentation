@@ -21,6 +21,8 @@ Un filtre scalaire peut être combiné avec d\'autres filtres. Voici par exemple
 
 <img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width:600px;">
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé ou un autre filtre existant.

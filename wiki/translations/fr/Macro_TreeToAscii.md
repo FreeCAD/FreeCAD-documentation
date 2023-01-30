@@ -1,7 +1,7 @@
 # Macro TreeToAscii/fr
 {{Macro
 |Name=TreeToAscii
-|Description=Cette macro génère une représentation graphique ASCII de l'arbre du ou des objets sélectionnés.
+|Description=Cette macro génère une représentation graphique ASCII de l'arborescence du ou des objets sélectionnés.
 |Author=OpenBrain
 |Date=2020-03-23
 |Version=0.6
@@ -10,45 +10,49 @@
 
 ## Description
 
+
+
 ### Contexte
 
-Cette macro a été écrite dans le but principal de documenter la construction du modèle. Elle génère une représentation graphique ASCII de l\'arbre de construction d\'objet(s) sélectionné(s).
+Cette macro a été écrite dans le but principal de documenter la construction du modèle. Elle génère une représentation graphique ASCII de l\'arborescence de la construction du ou des objet(s) sélectionné(s).
+
+
 
 ### Utilisation
 
-Sélectionnez simplement le ou les objets dont vous souhaitez imprimer l\'arborescence et exécutez la macro. Il affichera l\'arborescence de chaque objet dans une boîte de dialogue. Tous les objets sélectionnés seront considérés comme étant au même niveau de hiérarchie en haut de l\'arborescence (même s\'ils ne sont pas dans le modèle réel). Une fois la boîte de dialogue ouverte, vous pouvez changer de style et/ou de motif et recréer l\'arborescence ASCII.
+Sélectionnez simplement le ou les objets dont vous souhaitez imprimer l\'arborescence et exécutez la macro. Elle affichera l\'arborescence de chaque objet dans une boîte de dialogue. Tous les objets sélectionnés seront considérés comme étant au même niveau de hiérarchie en haut de l\'arborescence (même s\'ils ne sont pas dans le modèle réel). Une fois la boîte de dialogue ouverte, vous pouvez changer de style et/ou de motif et recréer l\'arborescence en ASCII.
 
 ![](images/FCTree2Ascii.png )
 
-Plusieurs styles sont fournis, pour l\'instant principalement pour prendre en charge les systèmes qui peuvent rencontrer des problèmes avec le codage Unicode:
+Plusieurs styles sont fournis, pour l\'instant principalement pour prendre en charge les systèmes qui peuvent rencontrer des problèmes avec le codage Unicode :
 
 -   ***Modern*** : (par défaut) utilise des caractères Unicode pour afficher les fourches et les branches
 -   ***Baroque*** : un autre style Unicode avec une plus grande indentation
 -   ***ASCII*** : représentation ASCII pure des fourches et branches
 
-La création de votre propre style ne devrait pas être trop difficile en modifiant la macro et en changeant/ajoutant un style à la variable \'STYLES\'. Le choix du style sélectionné est enregistré dans les paramètres FreeCAD.
+La création de votre propre style ne devrait pas être trop difficile en modifiant la macro et en changeant/ajoutant un style à la variable \"STYLES\". Le choix du style sélectionné est enregistré dans les paramètres FreeCAD.
 
-Le motif de ligne peut être personnalisé. Il prend en charge différentes métadonnées définies:
+Le motif de ligne peut être personnalisé. Il prend en charge différentes métadonnées définies :
 
--   ***{LBL}*** : étiquette d\'objet (étiquette affichée)
--   ***{NAM}*** : nom d\'objet (nom interne) par ex. \'Box001\'
--   ***{SNAM}*** : objet ShortName (sans chiffres) par exemple. \'Box001\' sera affiché comme \'Box\'
--   ***{TYP}*** : Type d\'objet par exemple. \'Part::MultiFuse\'
--   ***{BTYP}*** : objet BaseType par exemple. \'Part::MultiFuse\' sera affiché comme \'Part\'
--   ***{STYP}*** : objet ShortType (sans base) par ex. \'Part::MultiFuse\' sera affiché comme \'MultiFuse\'
+-   ***{LBL}*** : objet étiquette Label (étiquette affichée)
+-   ***{NAM}*** : objet nom Name (nom interne) par ex. \"Box001\"
+-   ***{SNAM}*** : objet nom court ShortName (sans chiffres) par exemple. \'Box001\' sera affiché comme \'Box\'
+-   ***{TYP}*** : objet Type par exemple. \'Part::MultiFuse\'
+-   ***{BTYP}*** : objet BaseType par exemple. \"Part::MultiFuse\" sera affiché comme \"Part\"
+-   ***{STYP}*** : objet ShortType (sans base) par ex. \"Part::MultiFuse\" sera affiché comme \"MultiFuse\"
 
-Le modèle par défaut est \'{LBL} ({SNAM})\', ce qui signifie par exemple. l\'objet \'Box001\' étiqueté \'myCube\' sera affiché comme \'myCube (Box001)\'. Notez que pratiquement tous les caractères sont autorisés. Si vous souhaitez imprimer des accolades, vous devez les doubler. Par exemple. avec le même objet d\'exemple, le modèle \'{LBL} (SNAME) {{{TYP}}} =\>\' affichera \'myCube (Box) {Part::Box} =\>\'. Les métadonnées disponibles sont disponibles dans l\'info-bulle du champ d\'édition de motif, vous n\'avez donc pas besoin de vous en souvenir. Le motif de ligne est enregistré dans les paramètres FreeCAD.
+Le modèle par défaut est \"{LBL} ({SNAM})\", ce qui signifie par exemple que l\'objet \"Box001\" étiqueté \"myCube\" sera affiché comme \"myCube (Box001)\". Notez que pratiquement tous les caractères sont autorisés. Si vous souhaitez imprimer des accolades, vous devez les doubler. Par exemple, avec le même objet d\'exemple, le modèle \"{LBL} (SNAME) {{{TYP}}} =\>\" affichera \"myCube (Box) {Part::Box} =\>\". Les métadonnées disponibles sont disponibles dans l\'info-bulle du champ d\'édition de motif, vous n\'avez donc pas besoin de vous en souvenir. Le motif de la ligne est enregistré dans les paramètres FreeCAD.
 
-Une fois la boîte de dialogue ouverte, plusieurs actions sont disponibles:
+Une fois la boîte de dialogue ouverte, plusieurs actions sont disponibles :
 
--   ***Copy to clipboard*** : copie tout l\'arbre dans votre presse-papiers
+-   ***Copy to clipboard*** : copie tout l\'arborescence dans votre presse-papiers
 -   ***Save to file*** : enregistre l\'arborescence entière dans un fichier arbitraire sur votre système
 -   ***Embed in text file*** : stocke l\'arborescence entière dans un fichier texte incorporé dans le document (disponible depuis FC 0.18.4)
--   Bien sûr, vous pouvez copier n\'importe quelle partie de l\'arborescence en la sélectionnant et en utilisant les commandes de copie standard
+-   Bien sûr, vous pouvez copier n\'importe quelle partie de l\'arborescence en la sélectionnant et en utilisant les commandes de copie standard.
 
 ### Installation
 
-La macro est disponible via le [gestionnaire d\'extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [FreeCAD-macro repository](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/TreeToAscii.FCMacro)
+La macro est disponible via le [gestionnaire des extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [dépôt FreeCAD-macro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/TreeToAscii.FCMacro)
 
 Pour des explications plus détaillées, consultez la page [Comment installer les macros](How_to_install_macros/fr.md).
 
@@ -56,7 +60,7 @@ Pour des explications plus détaillées, consultez la page [Comment installer le
 
 ### Discussion du forum 
 
-Pour tout commentaire (bug, demande de fonctionnalité, commentaires\...), merci d\'utiliser ce fil de discussion: <https://forum.freecadweb.org/viewtopic.php?f=22&t=43504>
+Pour tout commentaire (bug, demande de fonctionnalité, commentaires\...), merci d\'utiliser ce fil de discussion : <https://forum.freecadweb.org/viewtopic.php?f=22&t=43504>
 
 ### Code
 

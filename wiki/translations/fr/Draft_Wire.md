@@ -15,12 +15,16 @@
 
 La commande <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polyligne** [crée](#Cr.C3.A9er.md) une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [joindre](#Joindre.md) des [Draft Lignes](Draft_Line/fr.md) et des Draft Polylignes.
 
-Les coins d\'une Draft Polyligne peuvent être effilés (arrondis) ou chanfreinés en modifiant respectivement sa propriété **Fillet Radius** ou **Chamfer Size**. Il est également possible de subdiviser les bords d\'une Draft Polyligne en modifiant sa propriété **Subdivisions**.
+Les angles d\'une Draft Polyligne peuvent être arrondis ou chanfreinés en modifiant respectivement sa propriété **Fillet Radius** ou **Chamfer Size**. Il est également possible de subdiviser les bords d\'une Draft Polyligne en modifiant sa propriété **Subdivisions**.
 
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Une polyligne définie par plusieurs points*
 
+
+
 ## Créer
+
+
 
 ### Utilisation
 
@@ -30,7 +34,7 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **L**.
-2.  Le panneau de tâches **Polyline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+2.  Le panneau de tâches **Polyligne** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
@@ -52,7 +56,11 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
+
+
 ## Joindre
+
+
 
 ### Utilisation 
 
@@ -63,11 +71,15 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **L**.
 
+
+
 ## Remarques
 
 -   Une Draft Polyligne peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
 -   Une Draft Ligne peut être convertie en une [Draft B-spline](Draft_BSpline/fr.md) avec la commande [Draft Polyligne vers B-spline](Draft_WireToBSpline/fr.md).
 -   Les [Draft Lignes](Draft_Line/fr.md) et les Draft Polylignes peuvent également être jointes avec la commande [Draft Joindre](Draft_Join/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
+
+
 
 ## Préférences
 
@@ -76,11 +88,15 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
 -   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Polyligne est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -113,6 +129,8 @@ Un objet Draft Polyligne est dérivé d\'un [Part Part2DObject](Part_Part2DObjec
 -    **Tool|Link**
     
 
+
+
 ### Vue
 
 
@@ -127,6 +145,8 @@ Un objet Draft Polyligne est dérivé d\'un [Part Part2DObject](Part_Part2DObjec
 -    **Pattern|Enumeration**: spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir la face de la ligne fermée. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est à {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+
+
 
 ## Script
 

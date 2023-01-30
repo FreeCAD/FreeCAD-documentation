@@ -10,6 +10,8 @@
 
 # Part BooleanFragments/de
 
+
+
 ## Beschreibung
 
 Werkzeug zum Berechnen aller Fragmente, die sich aus der Anwendung boolescher Operationen zwischen Eingabeformen ergeben können. So werden beispielsweise für zwei sich schneidende Kugeln drei nicht überlappende, aber berührende Festkörper erzeugt.
@@ -30,6 +32,8 @@ Die Verbundstruktur im \"Standard\" und \"Teilen\" Modus folgt der Verbundstrukt
 
 Im \"Verbundkörper\" Modus werden die Festkörper zu einem Verbundkörper verbunden (Verbundkörper ist ein Satz von Festkörpern, die durch Flächen verbunden sind; sie sind mit Festkörpern verbunden, wie Drähte mit Kanten und Schalen mit Flächen; der Name ist wahrscheinlich ein verkürzter Satz \"Verbundkörper\"). Die Ausgabe ist eine nicht verschachtelte Verbindung von Verbundkörpern.
 
+
+
 ## Anwendung
 
 1.  Wähle die zu kreuzenden Objekte aus.
@@ -39,6 +43,8 @@ Im \"Verbundkörper\" Modus werden die Festkörper zu einem Verbundkörper verbu
     -   Verwendung des {{MenuCommand/de|Part → Teilen → Boolesche Fragmente}} Eintrags im Part Menü
 
 Ein Boolesches Fragmentparametrisches Objekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Schnittmenge wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
+
+
 
 ## Eigenschaften
 
@@ -51,11 +57,15 @@ Ein Boolesches Fragmentparametrisches Objekt wird erstellt. Originalobjekte werd
 
 -    {{PropertyData/de|Toleranz}}: \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingabeformen gespeicherten Toleranzen angewendet wird.
 
+
+
 ## Implementierungsdetails
 
 Das Werkzeug Boolesche Fragmente im \"Standardmodus\" ist der Allgemeine Verschmelzungs Operator (engl.: General Fuse Operator (GFA)) von OpenCascade. Es akzeptiert eine Kombination von wahrscheinlich allen Formtypen, und die Logik der Ausgabe ist ziemlich kompliziert. Siehe [OpenCascade Benutzerhandbuch: Boolesche Operationen](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 
 Für die Modi \"Teilen\" und \"VerbundKörper\" erfolgt eine zusätzliche Nachbearbeitung durch FreeCAD.
+
+
 
 ## Skripten
 
@@ -66,7 +76,10 @@ Das Werkzeug kann in [Makros](macros/de.md) und von der Python-Konsole aus mit d
 -   Erzeugt eine leere BoolescheFragment Funktion. Die \'Objekte\' Eigenschaft muss anschließend explizit zugewiesen werden.
 -   Liefert das neu erstellte Objekt.
 
-BoolescheFragmente kann auch auf einfache Formen angewendet werden, ohne dass ein Dokumentobjekt erforderlich ist, via: {{code|code=
+BoolescheFragmente kann auch auf einfache Formen angewendet werden, ohne dass ein Dokumentobjekt erforderlich ist, via:
+
+
+{{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 
@@ -75,7 +88,9 @@ BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
 pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
 # pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence 
-}} Dies kann nützlich sein, um benutzerdefinierte Python Skriptfunktionen zu erstellen.
+}}
+
+Dies kann nützlich sein, um benutzerdefinierte Python Skriptfunktionen zu erstellen.
 
 Beispiel: {{code|code=
 import BOPTools.SplitFeatures
@@ -84,6 +99,8 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 Das Werkzeug selbst ist in Python implementiert, siehe /Mod/Part/BOPTools/SplitFeatures.py unter dem FreeCAD installiert ist.
+
+
 
 ## Hinweise
 

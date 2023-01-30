@@ -19,6 +19,8 @@ Le résultat sera le même qu\'avec le curseur *Déplacement* de la boîte de di
 
 *Un filtre des déformations du déplacement d\'une poutre immobilisée d\'un côté.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.

@@ -11,6 +11,8 @@ Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don
 
 Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il y a quelques années, rendez vous à la page [Histoire](History/fr.md).
 
+
+
 ## Utiliser FreeCAD 
 
 ### Introduction
@@ -23,6 +25,8 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 -   [FAQ](Frequently_asked_questions/fr.md) : foire aux questions.
 -   Des [tutoriels](Tutorials/fr.md) couvrant différentes parties de FreeCAD.
 
+
+
 #### Vous venez d\'un autre logiciel? 
 
 -   [Solutions de contournement](Workarounds/fr.md)
@@ -33,6 +37,8 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 -   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [BIM Tableau de compatibilité des applications](BIM_application_compatibility_table/fr.md)
 
+
+
 ### Concepts de base de l\'application 
 
 -   [Interface](Interface/fr.md) : l\'interface FreeCAD est composée de divers éléments graphiques à l\'écran, y compris la [Vue 3D](3D_view/fr.md), la [vue d\'arborescence](tree_view/fr.md), l\'[éditeur de propriétés](property_editor/fr.md), le [panneau de tâches](task_panel/fr.md) et la [console Python](Python_console/fr.md).
@@ -41,6 +47,8 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 -   [Objet name](Object_name/fr.md) : les objets FreeCAD ont un `Name` en lecture seule qui les identifie de manière unique et un `Label` qui est modifiable par l\'utilisateur.
 -   [Éditeur de préférences](Preferences_Editor/fr.md) : le système qui vous permet de contrôler de nombreuses propriétés du système de base et des ateliers individuels.
 -   [Formats de fichiers](Import_Export/fr.md) : les différents formats que FreeCAD peut lire et écrire.
+
+
 
 ### Ateliers
 
@@ -98,6 +106,8 @@ Des utilisateurs avertis ont écrit différentes [macros](macros/fr.md) pour am�
 
 Depuis FreeCAD 0.17, de nombreuses macros peuvent être installées à l\'aide du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une liste des macros, reportez-vous à la page [Liste des macros](Macros_recipes/fr.md). Pour une installation manuelle, voir [Comment installer des macros](How_to_install_macros/fr.md).
 
+
+
 ### Ateliers Externes 
 
 Lorsque de nombreuses macros ou fonctions sont développées ensemble et organisées dans des barres d'outils et des menus, elles peuvent devenir un nouvel atelier.
@@ -106,15 +116,21 @@ Les [Ateliers externes](External_workbenches/fr.md) sont des collections de fonc
 
 Depuis FreeCAD 0.17, beaucoup d\'ateliers peuvent être installés à l'aide du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour l\'installation manuelle, voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md).
 
+
+
 ## Références
 
 [Liste des commandes](List_of_Commands/fr.md) : liste complète des commandes disponibles dans FreeCAD.
+
+
 
 ## Aide en ligne 
 
 Il s\'agit de l\'aide en ligne officielle de FreeCAD. Veuillez noter que l\'ensemble du système d\'aide en ligne est actuellement retravaillé. Il sera utilisé pour générer un fichier .CHM, qui sera inclus avec les paquets d\'installation de FreeCAD. Actuellement, l\'aide en ligne recense quelques uns des articles les plus complets de ce wiki.
 
 -   [Table des matières de l\'aide en ligne](Online_Help_Toc/fr.md)
+
+
 
 ## Plus
 

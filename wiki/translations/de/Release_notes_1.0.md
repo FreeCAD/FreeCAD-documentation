@@ -116,7 +116,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Arbeitsbereich Arch 
 
--   Several edit mode issues have been fixed and the [Tree view](Tree_view.md) context menus for Arch objects have been improved. Objects that can be edited now have an **Edit** option in that menu. The **Set colors** option was removed for objects without a face or that can only have a single face. [Pull request #8122](https://github.com/FreeCAD/FreeCAD/pull/8122)
+-   Einige Probleme des Bearbeitungsmodus wurden beseitigt und die Kontextmenüs der [Baumansicht](Tree_view/de.md) für Arch-Objekte wurden verbessert. Objekte, die bearbeitet werden können, besitzen jetzt eine Option **Edit** in dem Menü. Die Option **Set colors** wurde für Objekte ohne Flächen bzw. die nur eine einzige Fläche besitzen können, entfernt. [Pull request #8122](https://github.com/FreeCAD/FreeCAD/pull/8122)
 
 
 
@@ -205,7 +205,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Arbeitsbereich Pfad 
 
--   Camotics integration. If camotics (version 1.2.2 or later) is installed, a new icon will be added to the Path toolbar. Select a Path Job and press the button to open the Camotics dialog. Then drag the slider to generate a simulated solid at any point in the job. You can also launch the full camotics application to run the animated simulaton. This results in a silent post-processing of the job and creation of a camotics project file. [Pull request #6637](https://github.com/FreeCAD/FreeCAD/pull/6637)
+-   Integration von Camotics. Ist Camotics (Version 1.2.2 oder neuer) installiert, wird ein neues Symbol zur Path-Symbolleiste hinzugefügt. Nach Auswahl eines Path-Jobs die Schaltfläche drücken, um den Camotics-Dialog zu öffnen. Danach den Schieberegler ziehen, um einen beliebigen Zeitpunkt der Simulation des Festkörpers darzustellen. You can also launch the full camotics application to run the animated simulaton. This results in a silent post-processing of the job and creation of a camotics project file. [Pull request #6637](https://github.com/FreeCAD/FreeCAD/pull/6637)
 
 -   Additional substitution strings for automatic output naming. If output is being split into multiple files, the filenames can automatically substitute the toolcontroller label, WCS, or operation label. This is in addition to the other existing substitution strings like date, job name, etc.
 
@@ -248,15 +248,15 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Weitere Sketcher-Verbesserungen 
 
--   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
--   The [Dimensional Constraints](Sketcher_Workbench#Dimensional_constraints.md) and Quantity Spin Boxes now support the same math as [Expressions](Expressions.md) (Evaluated in place). [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
--   The toolbar buttons for [Select redundant constraints](Sketcher_SelectRedundantConstraints.md) and [Select conflicting constraints](Sketcher_SelectConflictingConstraints.md) have been removed. [Pull request #7568](https://github.com/FreeCAD/FreeCAD/pull/7568)
--   The toolbar button for [Stop operation](Sketcher_StopOperation.md) has been removed. [Pull request #7569](https://github.com/FreeCAD/FreeCAD/pull/7569)
--   The \'Edit controls\' section in the Sketcher dialog has been made optional. [Pull request #7572](https://github.com/FreeCAD/FreeCAD/pull/7572)
--   The toolbar button for [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md) has been removed. [Pull request #7603](https://github.com/FreeCAD/FreeCAD/pull/7603)
--   The Sketcher toolbar has been split in two: \'Sketcher-edit-mode\' and \'Sketcher\' (i.e. \'not edit mode\'). The Sketcher toolbars that are only for edit-mode are hidden in non-edit-mode, and those only for non-edit-mode are hidden in edit-mode. The Structure toolbar is also hidden in Sketcher. [Pull request #7655](https://github.com/FreeCAD/FreeCAD/pull/7655)
--   [Coincident constraint](Sketcher_ConstrainCoincident.md) can now act as a concentric constraint when selecting 2 or more circles, arcs, ellipses or arcs of ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
--   [Carbon copy](Sketcher_CarbonCopy.md) if possible now uses constraint names in the expressions it creates instead of an index based reference, making it more reliable. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
+-   Die Schaltfläche [Lichtbrechung (nach Snellius-Gesetz) festlegen](Sketcher_ConstrainSnellsLaw/de.md) wurde aus der Symbolleiste entfernt. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
+-   The [Maßlichen Randbedingungen](Sketcher_Workbench#Dimensional_constraints/de.md) und \"Quantity Spin-Boxes\" unterstützen dieselbe Berechnungsart wie [Ausdrücke](Expressions/de.md) (Auswertung vor Ort). [Pull Request #7124](https://github.com/FreeCAD/FreeCAD/pull/7124)
+-   Die Schaltflächen [Überflüssige Randbedingungen auswählen](Sketcher_SelectRedundantConstraints/de.md) und [Widersprüchliche Randbedingungen auswählen](Sketcher_SelectConflictingConstraints/de.md) wurden aus der Symbolleiste entfernt.. [Pull request #7568](https://github.com/FreeCAD/FreeCAD/pull/7568)
+-   Die Schaltfläche [Vorgang beenden](Sketcher_StopOperation/de.md) wurde aus der Symbolleiste entfernt. [Pull request #7569](https://github.com/FreeCAD/FreeCAD/pull/7569)
+-   Der Abschnitt \'Bedienelemente bearbeiten\' im Sketcher-Dialog ist jetzt optional. [Pull request #7572](https://github.com/FreeCAD/FreeCAD/pull/7572)
+-   Die Schaltfläche [Unterbestimmte Elemente auswählen](Sketcher_SelectElementsWithDoFs/de.md) wurde aus der Symbolleiste entfernt. [Pull request #7603](https://github.com/FreeCAD/FreeCAD/pull/7603)
+-   Die Symbolleiste des Sketchers wurde in zwei aufgeteilt: \'Sketcher-Edit Mode\' und \'Skizze\' (d.h. \'nicht der Edit-Mode\'). Die Sketcher-Symbolleisten für den Bearbeitungsmodus sind außerhalb des Bearbeitungsmodus ausgeblendet und jene für den Nicht-Bearbeitungsmodus sind im Bearbeitungsmodus ausgeblendet. Auch die Structure-Symbolleiste wird innerhalb des Sketchers ausgeblendet. [Pull request #7655](https://github.com/FreeCAD/FreeCAD/pull/7655)
+-   Die Randbedingung [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md) funktioniert jetzt auch als Randbedingung Konzentrisch festlegen, wenn 2 oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt wurden. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
+-   Die Funktion [Pause](Sketcher_CarbonCopy/de.md) verwendet jetzt, wenn möglich, die Namen der Randbedingungen in den Ausdrücken, die sie erstellt, anstelle von indexbasierten Referenzen, was sie zuverlässiger macht. [Pull request #7688](https://github.com/FreeCAD/FreeCAD/pull/7688)
 
 
 

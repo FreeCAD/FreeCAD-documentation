@@ -1,6 +1,8 @@
 # Tree view/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Die [Baumansicht](Tree_view/de.md) erscheint im {{MenuCommand/de|Modell}} Reiter der [Kombiansicht](Combo_view/de.md), einem der wichtigsten Paneele der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf der Festplatte gespeichert sind.
@@ -12,6 +14,8 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D A
 
 
 *Die Baumansicht mit verschiedenen Elementen im Dokument.*
+
+
 
 ## Arbeiten mit der Baumansicht 
 
@@ -26,6 +30,8 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 
 
 *Das oberste Objekt wird durch parametrische Operationen an Objekten erzeugt, die ihrerseits durch frühere Operationen erzeugt wurden. Wenn man den Baum um viele Ebenen erweitert, erhält man die ursprünglichen Elemente, die zur Erzeugung der Teilkörper verwendet wurden.*
+
+
 
 ## Maßnahmen
 
@@ -58,6 +64,8 @@ Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
         
         : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
 
+
+
 ### Auswählen des Dokuments 
 
 Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle:
@@ -79,7 +87,12 @@ Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, ers
 
 -    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
 
+
+
 ### Objekte auswählen 
+
+
+<div class="mw-translate-fuzzy">
 
 Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie zusätzliche Befehle an. Diese sind abhängig von der Anzahl der ausgewählten Objekte, der Art der Objekte und auch von dem aktiven Arbeitsbereich. In den meisten Fällen und mit den meisten Arbeitsbereichen (außer dem Arbeitsbereich [Start](Start_Workbench/de.md)) stehen folgende Befehle zur Verfügung:
 
@@ -105,6 +118,9 @@ Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie z
 
 -    **Umbenennen**: Startet die Bearbeitung des Labels eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
 
+
+</div>
+
 Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf ein [Part Würfel](Part_Box/de.md)-Objekt; bei aktiviertem Arbeitsbereich [Part](Part_Workbench/de.md) stehen folgende zusätzliche Befehle zur Verfügung:
 
 -    **[Würfel bearbeiten](Std_Edit/de.md)**: Aktiviert den Bearbeitungsmodus des Würfels.
@@ -126,6 +142,8 @@ Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf e
 -    **[Alle Instanzen auswählen](Std_TreeSelectAllInstances/de.md)**: Wählt alle Instanzen dieses Objekts in der Baumansicht aus.
 
 -    **[An Python-Konsole senden](Std_SendToPythonConsole/de.md)**: Erstellt eine Variable in der [Python-Konsole](Python_console/de.md), die auf dieses Objekt verweist.
+
+
 
 ### Tastaturbefehle
 
@@ -154,17 +172,25 @@ Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansic
         
         \+**Down**: Klappt ausgewählte Elemente aus mit ebenfalls ausgeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
 
+
+
 ## Überlagerungssymbole
 
 Ein oder mehrere kleinere Überlagerungssymbole können über dem Standardsymbol eines Objekts in der Strukturansicht angezeigt werden. Die verfügbaren Überlagerungssymbole und ihre Bedeutung sind unten aufgeführt. {{Version/de|0.19}}
+
+
 
 ### ![](images/FreeCAD_Tree_view_recompute.png ) Weißes Häkchen auf blauem Hintergrund 
 
 Dies zeigt an, dass das Objekt [neuberechnet](Std_Refresh/de.md) werden muss, aufgrund von Änderungen am Modell oder weil der Benutzer das Objekt im Kontextmenü der Baumansicht zur Neuberechnung markiert hat. In den meisten Fällen werden Neuberechnungen automatisch ausgelöst, aber manchmal werden sie aus Leistungsgründen verzögert.
 
+
+
 ### ![](images/FreeCAD_Tree_view_tip.png ) Weißer Pfeil auf grünem Hintergrund 
 
 Dies bezeichnet die sogenannte [Spitze](PartDesign_Body/de#Spitze.md) eines Körpers. Er ist in der Regel das letzte Merkmal in einem [PartDesign Körper](PartDesign_Body/de.md) und repräsentiert den gesamten Körper nach außen, z. B. wenn der Körper exportiert oder in [Part booleschen](Part_Boolean/de.md) Operationen verwendet wird. Die Spitze kann vom Benutzer geändert werden.
+
+
 
 ### ![](images/FreeCAD_Tree_view_unattached.png ) Lila Kettenglied auf weißem Hintergrund 
 
@@ -172,13 +198,21 @@ Dies wird typischerweise für [Skizzen](Sketch/de.md), geometrische Primitive, w
 
 Es gibt ein [Grundlegendes Anfügungs Tutorium](Basic_Attachment_Tutorial/de.md), das erklärt, wie man mit solchen Objekten umgeht.
 
+
+
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Gelbes X 
 
 Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skizze nicht vollständig bestimmt ist. Innerhalb des [Sketchers](Sketcher_Workbench/de.md) wird die Anzahl der verbleibenden Freiheitsgrade in den Meldungen des Lösers angezeigt.
 
+
+
 ### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
 
 Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
+
+This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
 
 
 {{Interface navi

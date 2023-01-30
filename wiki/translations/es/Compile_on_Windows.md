@@ -9,9 +9,13 @@ Esta página explica paso a paso *cómo compilar FreeCAD 0.19 o más reciente en
 
 </div>
 
+
+
 ## Prerequisitos
 
 La compilación de FreeCAD en Windows requiere varias herramientas y bibliotecas.
+
+
 
 ### Requerido
 
@@ -29,6 +33,8 @@ La compilación de FreeCAD en Windows requiere varias herramientas y bibliotecas
 
 -   The [LibPack](https://github.com/FreeCAD/FreeCAD-LibPack). This is a single package containing all of the libraries necessary to compile FreeCAD on Windows. Download the version of the LibPack that corresponds to the version of FreeCAD you want to compile. To compile FreeCAD 0.20 download the [LibPack version 2.6](https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/2.6), for FreeCAD 0.19 download the [LibPack version 1.0](https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/1.0). Extract the LibPack to a convenient location. (If your computer does not recognize the .7z extension, you must install the program [7-zip](https://www.7-zip.org).)  **Note**: It is highly recommended to compile FreeCAD with the compiler version the LibPack is designed for. For example, you might run into problems compiling FreeCAD 0.20 using MSVC 2017 because the LibPack is designed to be built with MSVC 2019 or newer.To update your LibPack later, see the section [Updating the LibPack](#Updating_the_LibPack.md).
 
+
+
 ### Programas opcionales 
 
 -   A GUI frontend for Git. There are several frontends available, see [this list](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs). The main benefit of a frontend is that you don\'t have to learn the Git commands to get the source code of FreeCAD or to send patches to the GitHub repository of FreeCAD.
@@ -37,9 +43,13 @@ In the following we describe source code handling using the [TortoiseGit](https:
 
 -   [NSIS](http://sourceforge.net/projects/nsis/) is used to generate the FreeCAD Windows installer.
 
+
+
 ### Código fuente 
 
 Ahora puedes obtener el código fuente de FreeCAD:
+
+
 
 #### Usando un frontend 
 
@@ -55,6 +65,8 @@ and click **OK**.
 
 The latest source code will be downloaded from the FreeCAD Git repository and the folder will be tracked by Git.
 
+
+
 #### Usando la línea de comando 
 
 To create a local tracking branch and download the source code, open a terminal (command prompt) and switch there to the directory you want the source, then type:
@@ -63,6 +75,8 @@ To create a local tracking branch and download the source code, open a terminal 
 ```python
 git clone https://github.com/FreeCAD/FreeCAD.git
 ```
+
+
 
 ### Compilador
 
@@ -75,6 +89,8 @@ For those who want to avoid installing the huge MSVC for the mere purpose of hav
 **Note:** Although the *Community* edition of MSVC is free, to use the IDE for more than a 30-day trial period you must create a Microsoft account. If you will only compile using the command line, you don\'t need the IDE and thus no Microsoft account.
 
 As a free and OpenSource alternative IDE you can use [KDevelop](https://www.kdevelop.org/download). You can use KDevelop to modify and write C++ code but must use the command line to compile.
+
+
 
 ### Configuración opcional de la ruta del sistema 
 
@@ -97,6 +113,8 @@ To add folder paths to the PATH variable:
 4.  Again another dialog will open. Select then the variable *Path* and click on **Edit**.
 5.  And again another dialog will open. Click there on **New** and add to path to the folder of Git or the LibPack.
 6.  Finally press **OK** and close all dialogs by pressing **OK** as well.
+
+
 
 ## Configuración
 
@@ -147,6 +165,8 @@ There should now be no errors. If you continue to encounter errors that you cann
 
 **Note:** When compiling FreeCAD 0.19, the CMake variable **BUILD_ENABLE_CXX_STD** will be set to **C++14** while for FreeCAD 0.20 it will be set to **C++17**. This is because FreeCAD 0.20 requires at least the C++ language standard version 17. So when you compiled the last time FreeCAD 0.19 it is necessary to re-run CMake for FreeCAD 0.20 to change the C++ language standard.
 
+
+
 ### Opciones para el proceso de construcción 
 
 The CMake build system gives you control over some aspects of the build process. In particular, you can switch on and off some features or modules using CMake variables.
@@ -169,6 +189,8 @@ Here is a description of some of these variables:
   FREECAD_USE_MP_COMPILE_FLAG         Adds the /MP (multiprocessor) option to the Visual Studio projects, enabling speedups on multi-core CPUs. This can greatly accelerate builds on modern processors.**Note:** If you turn off **FREECAD_USE_PCH**, the compilation can quickly overload your heap space, even if you have 16 GB RAM.                                                                                                                                                                                                                                                                                                                                                ON
   FREECAD_USE_PCH                     [Precompiles the headers](https://en.wikipedia.org/wiki/Precompiled_header) in order to save compilation time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ON
   FREECAD_USE_PYBIND11                Includes the [PyBind11](https://github.com/pybind/pybind11) library. Necessary to have a build that includes the [CreateFlatMesh feature](MeshPart_CreateFlatMesh.md).**Note:** after turning it on you might get a configuration error. Just configure again and the problem should go away.                                                                                                                                                                                                                                                                                                                                             OFF
+
+
 
 ## Construyendo FreeCAD 
 
@@ -205,7 +227,12 @@ For a debug build it is necessary that the Python is used that is included in th
 
 ![](images/CMake_Python_settings.png )
 
-Now
+As prerequisite for the debug build, you need to do this:
+
+1.  Copy the content of the LibPack folder *bind* to the *bin* folder of the FreeCAD build folder (overwrite the existing files).
+2.  Copy the content of the LibPack folder *libd* to the *lib* folder of the FreeCAD build folder.
+
+Now you can compile:
 
 1.  Start the Visual Studio IDE. This can either be done by pressing the button *Open Project* in the CMake GUI or by double-clicking on the file *FreeCAD.sln* that you find in your build folder.
 2.  In the toolbar of the MSVC IDE assure that you use for the first compilation *Debug*.

@@ -13,12 +13,14 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft Déplacer** déplace ou copie les objets sélectionnés d\'un point à un autre. En mode sous-élément, la commande déplace les points et les bords sélectionnés ou copie les bords sélectionnés, des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
+La commande <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft Déplacer** déplace ou copie les objets sélectionnés d\'un point à un autre. En mode sous-élément, la commande déplace les points et les bords sélectionnés ou copie les bords sélectionnés des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
 
 Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
 <img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
 *Déplacer un objet d'un point à un autre*
+
+
 
 ## Utilisation
 
@@ -30,7 +32,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Move.svg" width=16px> Déplacer** dans le menu.
     -   Utilisez le raccourci clavier : **M** puis **V**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches **Move** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Le panneau de tâches **Déplacer** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Si des sous-éléments ont été sélectionnés : cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
 6.  Choisissez le premier point, le point de base, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Choisissez le deuxième point, le point cible, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
@@ -53,9 +55,13 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
+
+
 ## Remarques
 
 -   Un objet [accroché](Part_EditAttachment/fr.md) ne peut pas être déplacé avec la commande Draft Déplacer. Pour le déplacer, il faut soit déplacer son objet **Support**, soit modifier son **Attachment Offset**.
+
+
 
 ## Préférences
 
@@ -65,6 +71,8 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   Pour modifier le champ initial du panneau des tâches sur le champ de saisie de **Longueur** : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Mettre l'accent sur la longueur plutôt que la coordonnée X**. Notez que vous devez déplacer le pointeur dans la [vue 3D](3D_view/fr.md) pour que le changement prenne effet.
 -   Pour stocker et réutiliser le même paramètre de mode de copie d\'une commande à l\'autre : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Mode de copie global**.
 -   Pour resélectionner les objets de base après avoir copié des objets : ** Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
+
+
 
 ## Script
 

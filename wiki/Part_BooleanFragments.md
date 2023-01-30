@@ -23,7 +23,7 @@ The output shape is always a compound. The content of the compound depends on in
 
 The tool has three modes: \"Standard\", \"Split\", and \"CompSolid\".
 
-\"Standard\" and \"Split\" differ by the action of the tool on wires, shells and compsolids: if \"Split\", those are separated; if \"Standard\", they are kept together (get extra segments).
+\"Standard\" and \"Split\" differ by the action of the tool on wires, shells and compsolids. If \"Split\", those are separated. If \"Standard\", they are kept together (get extra segments).
 
 Compounding structure in \"Standard\" and \"Split\" modes follows the compounding structure of inputs. That is, if you feed in two compounds, each containing a sphere like on example above, the result will also contain two compounds, each containing the pieces of the originally contained sphere. That means, the common piece will be repeated twice in the result. Only if the input spheres are both not in compounds, the result will contain the common piece once.
 
@@ -58,13 +58,15 @@ For \"Split\" and \"CompSolid\" modes, extra post-processing is done by FreeCAD.
 
 ## Scripting
 
-The tool can by used in [macros](macros.md) and from the python console by using the following function: 
+The tool can by used in [macros](Macros.md) and from the [python](Python.md) console by using the following function: 
 
 **BOPTools.SplitFeatures.makeBooleanFragments(name)**
 -   Creates an empty BooleanFragments feature. The \'Objects\' property must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-BooleanFragments can also be applied to plain shapes, without the need to have a document object, via:  {{code|code=
+BooleanFragments can also be applied to plain shapes, without the need to have a document object, via:
+
+ {{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 

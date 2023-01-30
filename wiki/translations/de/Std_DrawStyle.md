@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std DrawStyle
-   Name/de:Std DrawStyle
+   Name/de:Std Darstellungsart
    MenuLocation:Ansicht → Darstellungsart → ...
    Workbenches:Alle
    Shortcut:**V** **1** - **V** **7**
@@ -21,7 +21,7 @@ Der Befehl **Std Darstellungsart** kann den Effekt der {{PropertyView/de|Display
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Ein Klick auf den schwarzen Abwärtspfeil rechts von der Schaltfläche **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Std Darstellungsart](Std_DrawStyle/de.md)** und eine Darstellungsart aus dem Ausklappmenü wählen.
+    -   Ein Klick auf den schwarzen Abwärtspfeil rechts von der Schaltfläche **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Darstellungsart](Std_DrawStyle/de.md)** und eine Darstellungsart aus dem Ausklappmenü wählen.
     -   Den Menüeintrag **Ansicht → Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
     -   Im Kontextmenü der [3D-Ansicht](3D_view/de.md) die Option **Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
     -   Eines der Tastaturkürzel **V** dann **1**, **2**, **3**, **4**, **5**, **6** oder **7**.

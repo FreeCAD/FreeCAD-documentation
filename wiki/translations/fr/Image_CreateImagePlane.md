@@ -13,17 +13,21 @@
 
 L\'outil [Créer un plan d\'image](Image_CreateImagePlane/fr.md) importe une image [bitmap](bitmap/fr.md) et la place sur l\'un des plans XY, YZ ou XZ.
 
+
+
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Image_CreateImagePlane.svg" width=16px> [Créer un plan d'image](Image_CreateImagePlane/fr.md)**.
+1.  Appuyez sur le bouton **<img src="images/Image_CreateImagePlane.svg" width=16px> [Créer un plan d'image...](Image_CreateImagePlane/fr.md)**.
 2.  Sélectionnez l\'image souhaitée dans votre système.
 3.  Choisissez le plan dans lequel l\'image sera placée, indiquez une valeur de décalage puis appuyez sur **OK**.
 
-L\'objet ImagePlane résultant utilise le rapport de 1 pixel à 1 millimètre. Pour que l'image s'affiche bien, elle doit avoir une résolution suffisante.
+L\'objet ImagePlane résultant utilise le rapport de 1 pixel pour 1 millimètre. Pour que l'image s'affiche bien, elle doit avoir une résolution suffisante.
 
-Lors de l\'importation de l\'image, vous pouvez ajouter un décalage de `-0,1 mm` afin de placer l\'image légèrement derrière le plan de travail. Cela facilitera le traçage de l\'image avec les outils [Atelier Draft](Draft_Workbench/fr.md) ou [Atelier Sketcher](Sketcher_Workbench/fr.md).
+Lors de l\'importation de l\'image, vous pouvez ajouter un décalage de `-0,1 mm` afin de placer l\'image légèrement derrière le plan de travail. Cela facilitera le traçage de l\'image avec les outils de l\'[atelier Draft](Draft_Workbench/fr.md) ou de l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
 
 Si aucun décalage n\'est initialement attribué à l\'image, sa position peut toujours être ajustée dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 
@@ -39,7 +43,7 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 {{Properties Title|Image Plane}}
 
--    **Image File**: pécifie l\'image à utiliser pour ce plan.
+-    **Image File**: spécifie l\'image à utiliser pour ce plan.
 
 -    **XSize**: spécifie la largeur du plan de l\'image.
 

@@ -3,7 +3,7 @@
 
 ## Introduction
 
-La [vue en arborescence](Tree_view/fr.md) apparaît dans l\'onglet **Modèle** de la [Vue combinée](Combo_view/fr.md), l\'un des panneaux les plus importants de l\'[interface](Interface/fr.md). Elle montre tous les objets définis par l\'utilisateur qui font partie d\'un document FreeCAD. L\'arborescence est une représentation de la [Structure d\'un document](Document_structure/fr.md) et indique quelles informations sont enregistrées sur le disque.
+La [vue en arborescence](Tree_view/fr.md) apparaît dans l\'onglet **Modèle** de la [vue combinée](Combo_view/fr.md), l\'un des panneaux les plus importants de l\'[interface](Interface/fr.md). Elle montre tous les objets définis par l\'utilisateur qui font partie d\'un document FreeCAD. L\'arborescence est une représentation de la [structure d\'un document](Document_structure/fr.md) et indique quelles informations sont enregistrées sur le disque.
 
 Ces objets ne doivent pas nécessairement être des formes géométriques visibles dans la [Vue 3D](3D_view/fr.md) mais peuvent également prendre en charge des objets de données créés avec l\'un des [ateliers](Workbenches/fr.md).
 
@@ -11,7 +11,9 @@ Ces objets ne doivent pas nécessairement être des formes géométriques visibl
 
 
 
-*L'arborescence montrant divers éléments du document.*
+*La vue en arborescence montrant divers éléments du document.*
+
+
 
 ## Travailler avec la vue en arborescence 
 
@@ -31,7 +33,7 @@ De nombreuses opérations créent des objets qui dépendent d\'un objet déjà e
 
 Étant donné que l\'arborescence répertorie les objets pouvant être visibles dans la [vue 3D](3D_view/fr.md), de nombreuses actions sont identiques comme celles qui peuvent être exécutées à partir de la [vue 3D](3D_view/fr.md).
 
-Lorsque l\'application démarre, l\'[Atelier Start](Start_Workbench/fr.md) par défaut est actif et aucun document n\'a été créé, un clic droit sur la [vue en arborescence](Tree_view/fr.md) affiche un sous-menu avec quatre commandes :
+Lorsque l\'application démarre, l\'[atelier Start](Start_Workbench/fr.md) par défaut est actif et aucun document n\'a été créé, un clic droit sur la [vue en arborescence](Tree_view/fr.md) affiche un sous-menu avec quatre commandes :
 
 -    **Actions sur les expressions**:
 
@@ -42,7 +44,7 @@ Lorsque l\'application démarre, l\'[Atelier Start](Start_Workbench/fr.md) par d
 
 Elles permettent de travailler avec divers documents, mais sont désactivées si aucun document n\'est présent.
 
-Une fois un nouveau document créé, les éléments suivants deviennent actifs:
+Une fois un nouveau document créé, les éléments suivants deviennent actifs :
 
 -    **Actions sur les expressions**:
 
@@ -51,7 +53,7 @@ Une fois un nouveau document créé, les éléments suivants deviennent actifs:
 
 De plus, les actions [Liens](Std_LinkMake/fr.md) sont disponibles.
 
--    **Actions de liens**:
+-    **Actions sur les liens**:
 
     -   
         **Créer un groupe de liens**
@@ -59,10 +61,12 @@ De plus, les actions [Liens](Std_LinkMake/fr.md) sont disponibles.
         :
 
         -   [Groupe simple](Std_LinkMakeGroup/fr.md)
-        -   [Groupe avec liens](Std_LinkMakeGroup/fr.md)
-        -   [Groupe avec liens transformés](Std_LinkMakeGroup/fr.md)
+        -   [Groupe avec des liens](Std_LinkMakeGroup/fr.md)
+        -   [Groupe avec des liens transformés](Std_LinkMakeGroup/fr.md)
 
     -   [Créer un lien](Std_LinkMake/fr.md)
+
+
 
 ### Sélection du document 
 
@@ -85,6 +89,8 @@ Si vous sélectionnez le document actif et cliquez avec le bouton droit, en plus
 
 -    **[Créer un groupe...](Std_Group/fr.md)**: crée un [groupe](Std_Group/fr.md) dans le document sélectionné.
 
+
+
 ### Sélection d\'objets 
 
 Une fois que les objets ont été ajoutés au document, un clic droit sur ceux-ci fait apparaître des commandes supplémentaires. Celles-ci dépendent du nombre d\'objets sélectionnés, de leur type et également du plan de travail actif. Dans la plupart des cas et avec la plupart des ateliers (sauf l\'[atelier Start](Start_Workbench/fr.md)), les commandes suivantes sont alors disponibles :
@@ -101,15 +107,15 @@ Une fois que les objets ont été ajoutés au document, un clic droit sur ceux-c
 
 -    **[Supprimer](Std_Delete/fr.md)**: supprime l\'objet du document.
 
--    **Cacher l'élément**: s\'il est actif, l\'objet sélectionné sera défini comme caché.
+-    **[Cacher l'élément](#Symbole_de_l'oeil.md)**: si cette case est cochée, l\'objet sera masqué dans l\'arborescence.
 
 -    **Ajouter des objets dépendants à la sélection**: tous les objets dépendants seront ajoutés à la sélection. De cette façon, vous pouvez voir les dépendances et, par exemple, supprimer tous les objets dépendants en une seule fois. {{Version/fr|0.20}}
 
--    **Marquer pour recalculer**: marque l\'objet sélectionné comme touché, et prêt pour [recalculer](Std_Refresh/fr.md).
+-    **Marquer pour recalculer**: marque l\'objet sélectionné comme pris en compte, et prêt pour le [recalcul](Std_Refresh/fr.md).
 
--    **Recalculer l'objet**: recompute l\'objet sélectionné.
+-    **Recalculer l'objet**: recalcule l\'objet sélectionné.
 
--    **Renommer**: commence à éditer l\'étiquette de l\'objet sélectionné, pas le nom qui est en lecture seule.
+-    **Renommer**: lance l\'édition de l\'étiquette de l\'objet sélectionné, et non du nom qui est en lecture seule. Cette option n\'est disponible que si un seul objet est sélectionné.
 
 Comme exemple d\'extension du menu contextuel, si un [Part Cube](Part_Box/fr.md) est cliqué du bouton droit de la souris alors que l\'[atelier Part](Part_Workbench/fr.md) est actif, les commandes supplémentaires suivantes sont disponibles :
 
@@ -132,6 +138,8 @@ Comme exemple d\'extension du menu contextuel, si un [Part Cube](Part_Box/fr.md)
 -    **[Sélectionner tous les cas](Std_TreeSelectAllInstances/fr.md)**: sélectionne toutes les instances de cet objet dans l\'arborescence.
 
 -    **[Envoyer la console Python](Std_SendToPythonConsole/fr.md)**: crée une variable dans la [console Python](Python_console/fr.md) faisant référence à l\'objet
+
+
 
 ### Actions du clavier 
 
@@ -160,17 +168,25 @@ Les actions clavier suivantes sont disponibles lorsque le curseur est sur l\'arb
         
         \+**Flèche bas** : développe le ou les éléments sélectionnés avec tous leurs enfants de niveau 1 également développés (les enfants plus profonds restent inchangés).
 
+
+
 ## Icônes de superposition 
 
 Une ou plusieurs petites icônes de superposition peuvent être affichées au-dessus de l\'icône par défaut d\'un objet dans l\'arborescence. Les icônes superposées disponibles et leur signification sont énumérées ci-dessous. {{Version/fr|0.19}}
 
+
+
 ### ![](images/FreeCAD_Tree_view_recompute.png ) Marque blanche sur fond bleu 
 
-Cela indique que l\'objet doit être [recalculer](Std_Refresh/fr.md) en raison de modifications apportées au modèle ou parce que l\'utilisateur a marqué l\'objet dans le menu contextuel de la vue arborescente pour qu\'il soit recalculé. Dans la plupart des cas, les recalculs sont déclenchés automatiquement, mais ils sont parfois retardés pour des raisons de performance.
+Cela indique que l\'objet doit être [recalculé](Std_Refresh/fr.md) en raison de modifications apportées au modèle ou parce que l\'utilisateur a marqué l\'objet dans le menu contextuel de la vue arborescente pour qu\'il soit recalculé. Dans la plupart des cas, les recalculs sont déclenchés automatiquement, mais ils sont parfois retardés pour des raisons de performance.
+
+
 
 ### ![](images/FreeCAD_Tree_view_tip.png ) Flèche blanche sur fond vert 
 
-Ceci indique ce qu\'on appelle le [Tip](PartDesign_Body/fr#Tip_.28fonction_r.C3.A9sultante.29.md) d\'un corps. C\'est généralement la dernière caractéristique d\'un [PartDesign Corps](PartDesign_Body/fr.md) et représente le corps entier pour le monde extérieur au corps, par exemple lorsque le corps est exporté ou utilisé dans des opérations [Part booléennes](Part_Boolean/fr.md). Le Tip peut être modifié par l\'utilisateur.
+Ceci indique ce qu\'on appelle le [Tip](PartDesign_Body/fr#Tip_.28fonction_r.C3.A9sultante.29.md) d\'un corps. C\'est généralement la dernière fonction d\'un [PartDesign Corps](PartDesign_Body/fr.md) et représente le corps entier pour le monde extérieur au corps, par exemple lorsque le corps est exporté ou utilisé dans des [Part opérations booléennes](Part_Boolean/fr.md). Le Tip peut être modifié par l\'utilisateur.
+
+
 
 ### ![](images/FreeCAD_Tree_view_unattached.png ) Maillon de chaîne violet sur fond blanc 
 
@@ -178,13 +194,23 @@ Cela est généralement indiqué pour les [esquisses](Sketch/fr.md), les primiti
 
 Il existe un [Tutoriel Les bases pour l\'ancrage](Basic_Attachment_Tutorial/fr.md) expliquant comment gérer ces objets.
 
+
+
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) X jaune 
 
 Ceci n\'est utilisé que pour des [esquisses](Sketch/fr.md) et indique que l\'esquisse n\'est pas entièrement contrainte. Dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md), le nombre de degrés de liberté restants est indiqué dans les messages du solveur.
 
+
+
 ### ![](images/FreeCAD_Tree_view_error.png ) Point d\'exclamation blanc sur fond rouge 
 
 Cela indique que l\'objet présente une erreur qui doit être corrigée. Après avoir recalculé l\'ensemble du document, une info-bulle décrivant l\'erreur est affichée lorsque vous passez la souris sur l\'objet dans l\'arborescence. Remarque: tous les autres objets dépendant d\'un objet dans un tel état d\'erreur ne seront pas correctement recalculés, ils peuvent donc encore présenter un ancien état.
+
+
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Symbole de l\'oeil 
+
+Cela indique que l\'objet sera masqué dans la vue en arborescence parce que son option **Cacher l'élément** du menu contextuel est cochée. Cocher puis décocher l\'option **Montrer les éléments cachés** du menu contextuel du document, ou reouvrir le document, permet de mettre à jour la vue en arborescence.
 
 
 {{Interface navi

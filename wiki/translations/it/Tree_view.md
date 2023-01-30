@@ -1,6 +1,8 @@
 # Tree view/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 
@@ -25,6 +27,8 @@ Questi oggetti non devono necessariamente essere forme geometriche visibili nell
 
 *La vista ad albero che mostra vari elementi nel documento.*
 
+
+
 ## Lavorare con la vista ad albero 
 
 
@@ -44,6 +48,8 @@ Molte operazioni creano oggetti che dipendono da un oggetto precedentemente esis
 
 
 *L'oggetto di livello più alto viene creato eseguendo operazioni parametriche su oggetti che sono stati creati da operazioni precedenti. L'espansione dell'albero di molti livelli rivela gli elementi originali che sono stati usati per creare i solidi parziali.*
+
+
 
 ## Azioni
 
@@ -90,6 +96,8 @@ Inoltre, sono disponibili le azioni [Link](Std_LinkMake/it.md).
 
 </div>
 
+
+
 ### Selezione del documento 
 
 
@@ -116,6 +124,8 @@ Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **
 
 
 </div>
+
+
 
 ### Selezione degli oggetti 
 
@@ -201,6 +211,10 @@ This is only used for [sketches](Sketch.md) and indicates that the sketch is not
 ### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background 
 
 This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
+
+This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
 
 
 {{Interface navi

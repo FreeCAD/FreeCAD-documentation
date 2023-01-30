@@ -3,6 +3,8 @@
 
 This page explains step by step **how to compile FreeCAD 0.19 or newer on Windows** using Microsoft\'s MSVC compiler. For information on using MSYS2/MinGW see [Compile on MinGW](Compile_on_MinGW.md). For other platforms see [Compiling](Compiling.md).
 
+
+
 ## Pré-requisitos 
 
 Compiling FreeCAD on Windows requires several tools and libraries.
@@ -193,7 +195,12 @@ For a debug build it is necessary that the Python is used that is included in th
 
 ![](images/CMake_Python_settings.png )
 
-Now
+As prerequisite for the debug build, you need to do this:
+
+1.  Copy the content of the LibPack folder *bind* to the *bin* folder of the FreeCAD build folder (overwrite the existing files).
+2.  Copy the content of the LibPack folder *libd* to the *lib* folder of the FreeCAD build folder.
+
+Now you can compile:
 
 1.  Start the Visual Studio IDE. This can either be done by pressing the button *Open Project* in the CMake GUI or by double-clicking on the file *FreeCAD.sln* that you find in your build folder.
 2.  In the toolbar of the MSVC IDE assure that you use for the first compilation *Debug*.

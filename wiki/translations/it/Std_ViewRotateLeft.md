@@ -10,9 +10,13 @@
 
 # Std ViewRotateLeft/it
 
+
+
 ## Descrizione
 
 Il comando **Ruota a sinistra** ruota la camera nella [vista 3D](3D_view/it.md) attiva intorno alla direzione della vista con incrementi di 90 gradi verso sinistra (in senso antiorario).
+
+
 
 ## Utilizzo
 
@@ -20,6 +24,8 @@ Il comando **Ruota a sinistra** ruota la camera nella [vista 3D](3D_view/it.md) 
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewRotateLeft.svg" width=16px> Ruota a sinistra** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRotateLeft.svg" width=16px> Ruota a sinistra** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **Maiusc**+**Sinistra**.
+
+
 
 ## Script
 
@@ -39,13 +45,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

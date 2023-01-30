@@ -3,11 +3,17 @@
 
 {{TOCright}}
 
+
+
 ### Installare i driver 
+
+
 
 #### Linux
 
 FreeCAD supporta i driver dal progetto [Spacenav](http://spacenav.sourceforge.net/). Si tratta di un progetto che mira a creare un driver open-source che sia compatibile con i driver proprietari di 3Dconnexion.
+
+
 
 #### Installare da repo 
 
@@ -18,7 +24,7 @@ FreeCAD supporta i driver dal progetto [Spacenav](http://spacenav.sourceforge.ne
 sudo apt-get install spacenavd
 ```
 
-Note, however, that version 0.6 available on Ubuntu 20.04 (and probably older ones) does not seem to work. You then have to compile spacenavd from source as explained below.
+Si noti, tuttavia, che la versione 0.6 disponibile su Ubuntu 20.04 (e probabilmente quelle precedenti) non sembra funzionare. Devi quindi compilare spacenavd dal sorgente come spiegato di seguito.
 
 ##### Fedora
 
@@ -35,12 +41,10 @@ apt-get install spacenavd libspnav-dev
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-spacenav ha bisogno di queste autorizzazioni
+:   spacenav ha bisogno di queste autorizzazioni
 
 
-</div>
+
 
 
 :   
@@ -52,12 +56,13 @@ spacenav ha bisogno di queste autorizzazioni
     
 
 
-<div class="mw-translate-fuzzy">
-
--   Riavvia spnavd e FreeCAD
 
 
-</div>
+
+:   Riavvia spnavd e FreeCAD
+
+
+
 
 
 :   
@@ -76,23 +81,18 @@ spacenav ha bisogno di queste autorizzazioni
 sudo zypper install spacenavd
 ```
 
+
+
 #### Compilare Spacenav dal codice sorgente 
 
 Questo sistema è consigliato in quanto la propria distribuzione potrebbe fornire una versione non aggiornata.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Scaricare i seguenti file:
-    -   [spacenavd-0.5.tar.gz](http://sourceforge.net/projects/spacenav/files/spacenav%20daemon/spacenavd%200.5/spacenavd-0.5.tar.gz/download)
-    -   [libspnav-0.2.2.tar.gz](http://sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/libspnav%200.2.2/libspnav-0.2.2.tar.gz/download)
-    -   [spnavcfg-0.2.1.tar.gz](http://sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/spnavcfg%200.2.1/spnavcfg-0.2.1.tar.gz/download)
+    -   [spacenavd](https://sourceforge.net/projects/spacenav/files/latest/download) (latest version)
+    -   [libspnav](https://sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/) (get latest libspnav version)
+    -   [spnavcfg](https://sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/) (get latest libspnav version)
 -   Scompattare gli archivi in una cartella nella propria directory /home.
--   Entrare nella directory spacenavd-0.5 ed eseguire i seguenti comandi:
-
-
-</div>
-
+-   Entrare nella directory spacenavd-x.x ed eseguire i seguenti comandi:
 
 :   
     
@@ -103,14 +103,7 @@ Questo sistema è consigliato in quanto la propria distribuzione potrebbe fornir
 ```
     
 
-
-<div class="mw-translate-fuzzy">
-
--   Se questo ha successo, eseguire i seguenti comandi come root (o con prefisso sudo).
-
-
-</div>
-
+-   Se questo ha successo, eseguire i seguenti comandi **come root** (o con prefisso sudo).
 
 :   
     
@@ -148,14 +141,7 @@ Questo sistema è consigliato in quanto la propria distribuzione potrebbe fornir
 ```
     
 
-
-<div class="mw-translate-fuzzy">
-
--   Ora entrare nella directory denominata libspnav-0.2.2 ed eseguire i seguenti comandi:
-
-
-</div>
-
+-   Ora entrare nella directory denominata libspnav-x.x.x ed eseguire i seguenti comandi:
 
 :   
     
@@ -196,26 +182,24 @@ Questo sistema è consigliato in quanto la propria distribuzione potrebbe fornir
 ```
     
 
-
-<div class="mw-translate-fuzzy">
-
--   Consultare la directory libspnav-0.2.2/examples/. Se si desidera provare il proprio dispositivo, compilare ed eseguire uno dei due esempi.
-
-
-</div>
+-   Consultare la directory libspnav-x.x.x/examples/. Se si desidera provare il proprio dispositivo, compilare ed eseguire uno dei due esempi.
 
 -   Seguire lo stesso procedimento per compilare e installare spnavcfg. Ricordarsi di eseguire spnavcfg come root, altrimenti non verrà salvata nessuna impostazione!
 
-#### Starting spacenavd as a systemd service at boot 
 
-If you want to start spacenavd at boot using systemd, do the following:
 
--   Go to the directory where you clone the spacenavd repository (to the root of the repository)
+#### Avvio di spacenavd come servizio systemd all\'avvio 
+
+Se vuoi avviare spacenavd all\'avvio usando systemd, procedi come segue:
+
+-   Vai alla directory in cui hai clonato il repository spacenavd (alla radice del repository)
 -   \"sudo cp contrib/systemd/spacenavd.service /usr/lib/systemd/system/spacenavd-local.service\".
 -   \"sudo systemctl enable spacenavd-local.service\".
--   \"sudo systemctl start spacenavd-local.service\", if you want to start it right away.
+-   \"sudo systemctl start spacenavd-local.service\", se vuoi avviarlo subito.
 
-This is only necessary for the installation from source.
+Questo è necessario solo per l\'installazione dal sorgente.
+
+
 
 #### Riavviare spacenavd 
 
@@ -229,7 +213,9 @@ sudo /etc/init.d/spacenavd restart
 
 Dopo avere riavviare FreeCAD. Su alcune distro è necessario a ogni avvio.
 
-### Problemi conosciuto 
+
+
+### Problemi noti 
 
 Un utente segnalato nel [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) ha visualizzato quanto segue:
 
@@ -252,19 +238,15 @@ sudo systemctl restart spacenavd
 
 ### OSX
 
-
-<div class="mw-translate-fuzzy">
-
-Su OS X i dispositivi di input 3Dconnexion sono supportati, purché FreeCAD sia costruito e utilizzato su un sistema con i driver 3Dconnexion installati.
-
-
-</div>
+Su OS X i dispositivi di input 3Dconnexion sono supportati, purché FreeCAD sia costruito e utilizzato su un sistema con i driver 3Dconnexion installati. Potrebbe essere necessario 3DxWare 10.7.2 o superiore per Mac OSX Monterey.
 
 ### Windows
 
 A partire dalla versione 0.13, mouse 3D è supportato sotto windows. È necessario avere installato i driver appropriati, ma dato che il supporto è stato sviluppato su un livello inferiore, eseguirà l\'override le impostazioni che impostato nel pannello di controllo 3D Connexion. Tuttavia, la maggior parte di tali impostazioni è possibile impostare in strumenti \>\> finestra di dialogo Personalizza, sotto schede Spaceball.
 
-#### Problemi conosciuto 
+
+
+#### Problemi noti 
 
 C\'è un problema in cui 3Dconnexion invia eventi di scorrimento duplicati a FreeCAD, causando il salto della vista. Per risolverlo:
 
@@ -306,21 +288,25 @@ Quando si apre questa scheda per la prima volta, sarà vuota e non disponibile. 
 
 Per collegare alcuni comando con un pulsante, selezionare il pulsante sul lato sinistro e esso comando sul lato destro. Premere per cancellare comandi dal pulsante \"Clear\".
 
-### Troubleshooting
 
-Check if your FreeCAD installation links to the spacenav library. The best way to check this is by running FreeCAD from the command line terminal `FreeCAD --log-file /tmp/freecad.log` and close it immediately again. Then open the file **/tmp/freecad.log** and search for the messages:
+
+### Risoluzione dei problemi 
+
+Controlla se l\'installazione di FreeCAD si collega alla libreria spacenav. Il modo migliore per verificarlo è eseguire FreeCAD dal terminale della riga di comando `FreeCAD --log-file /tmp/freecad.log` e chiuderlo immediatamente. Quindi apri il file **/tmp/freecad.log** e cerca i messaggi:
 
 
 `Connected to spacenav daemon`
 
-or
+oppure
 
 
 `Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
 
-If none of them appears then your FreeCAD build doesn\'t link to the spacenav library. If the former message appears then it basically works. The latter message means there is probably a problem with the spacenav daemon.
+Se nessuno di essi appare, la build di FreeCAD non si collega alla libreria Spacenav. Se viene visualizzato il primo messaggio, in pratica funziona. Quest\'ultimo messaggio indica che probabilmente c\'è un problema con il demone spacenav.
 
-## Related
+
+
+## Relazioni
 
 -   Forum thread [spacenav on windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)

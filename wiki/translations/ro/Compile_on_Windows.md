@@ -9,9 +9,13 @@ Acest articol explică pas cu pas **how to compile FreeCAD on Windows**.
 
 </div>
 
+
+
 ## Premise
 
 Compiling FreeCAD on Windows requires several tools and libraries.
+
+
 
 ### Programe necesare 
 
@@ -34,6 +38,8 @@ Compiling FreeCAD on Windows requires several tools and libraries.
 In the following we describe source code handling using the [TortoiseGit](https://tortoisegit.org/) frontend. This frontend integrates directly into Windows file explorer and has a large user community to get help in case you have problems.
 
 -   [NSIS](http://sourceforge.net/projects/nsis/) is used to generate the FreeCAD Windows installer.
+
+
 
 ### Codul sursă 
 
@@ -64,6 +70,8 @@ Pentru a crea o ramură de urmărire locală și pentru a descărca codul sursă
 git clone https://github.com/FreeCAD/FreeCAD.git
 ```
 
+
+
 ### Compilator
 
 Sub Windows, compilatorul implicit este MS Visual Studio. [CI](https://github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) utilizează versiunea din 2013.
@@ -77,6 +85,8 @@ Pentru cei care doresc să evite instalarea imensului Visual Studio pentru simpl
 **Note:** Although the *Community* edition of MSVC is free, to use the IDE for more than a 30-day trial period you must create a Microsoft account. If you will only compile using the command line, you don\'t need the IDE and thus no Microsoft account.
 
 As a free and OpenSource alternative IDE you can use [KDevelop](https://www.kdevelop.org/download). You can use KDevelop to modify and write C++ code but must use the command line to compile.
+
+
 
 ### Configurarea căii de sistem 
 
@@ -97,6 +107,8 @@ Optionally you can include the paths to some folders to the system PATH variable
 *C:\\Program Files\\TortoiseGit\\bin* to the PATH.
 
 Pentru a adăuga la cale asitemului dvs:
+
+
 
 ## Configurare cu CMake 
 
@@ -162,6 +174,8 @@ There should now be no errors. If you continue to encounter errors that you cann
 
 **Note:** When compiling FreeCAD 0.19, the CMake variable **BUILD_ENABLE_CXX_STD** will be set to **C++14** while for FreeCAD 0.20 it will be set to **C++17**. This is because FreeCAD 0.20 requires at least the C++ language standard version 17. So when you compiled the last time FreeCAD 0.19 it is necessary to re-run CMake for FreeCAD 0.20 to change the C++ language standard.
 
+
+
 ### Opțiuni pentru compilarea Proceselor 
 
 
@@ -197,6 +211,8 @@ Iată descrierea unora dintre aceste switch-uri. Probabil că se vor schimba mul
 
 
 </div>
+
+
 
 ## Compilarea FreeCAD 
 
@@ -235,7 +251,12 @@ For a debug build it is necessary that the Python is used that is included in th
 
 ![](images/CMake_Python_settings.png )
 
-Now
+As prerequisite for the debug build, you need to do this:
+
+1.  Copy the content of the LibPack folder *bind* to the *bin* folder of the FreeCAD build folder (overwrite the existing files).
+2.  Copy the content of the LibPack folder *libd* to the *lib* folder of the FreeCAD build folder.
+
+Now you can compile:
 
 1.  Start the Visual Studio IDE. This can either be done by pressing the button *Open Project* in the CMake GUI or by double-clicking on the file *FreeCAD.sln* that you find in your build folder.
 2.  In the toolbar of the MSVC IDE assure that you use for the first compilation *Debug*.
@@ -262,6 +283,8 @@ An English language tutorial that begins with configuration in CMake Gui and con
 <div class="mw-collapsible mw-collapsed toccolours">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Compilare cu Qt Creator 
@@ -274,6 +297,8 @@ An English language tutorial that begins with configuration in CMake Gui and con
 
 
 <div class="mw-collapsible-content">
+
+
 
 #### Installation and configuration of Qt Creator 
 
@@ -309,6 +334,8 @@ An English language tutorial that begins with configuration in CMake Gui and con
         -   Uncheck: Always build project before deploying it
         -   Uncheck: Always deploy project before running it
 
+
+
 #### Import project and Build 
 
 -   File -\> Open File or Project
@@ -340,6 +367,8 @@ Once complete, it can be run: There are 2 green triangles at the bottom left. On
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 ### Command line build 
 

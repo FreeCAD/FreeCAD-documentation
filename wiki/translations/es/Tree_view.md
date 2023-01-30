@@ -1,6 +1,8 @@
 # Tree view/es
 {{TOCright}}
 
+
+
 ## Introducción
 
 La [vista árbol](Tree_view/es.md) aparece en la pestaña **Modelo** de la [vista combo](Combo_view/es.md), uno de los paneles más importantes de la [interfaz](Interface/es.md); muestra todos los objetos definidos por el usuario que forman parte de un documento de FreeCAD. La vista árbol es una representación de la [estructura del documento](document_structure/es.md), e indica qué información se guarda en el disco.
@@ -12,6 +14,8 @@ Estos objetos no tienen que ser necesariamente formas geométricas visibles en l
 
 
 *La vista de árbol que muestra varios elementos del documento.*
+
+
 
 ## Trabajando con el vista arbol 
 
@@ -26,6 +30,8 @@ Many operations create objects that are dependent on a previously existing objec
 
 
 *The topmost object is created by doing parametric operations on objects which themselves were created by previous operations. Expanding the tree many levels reveals the original elements that were used to create the partial solids.*
+
+
 
 ## Acciones
 
@@ -64,6 +70,8 @@ In addition, [Link](Std_LinkMake.md) actions are available.
 
     -   [Make Link](Std_LinkMake.md)
 
+
+
 ### Seleccionar el documento 
 
 If you select the active document and right click, in addition to **Expression actions** and **Link actions**, the following commands appear:
@@ -85,6 +93,8 @@ If you select the active document and right click, in addition to **Expression a
 
 -    **[Create group](Std_Group.md)**: creates a [group](Std_Group.md) in the selected document.
 
+
+
 ### Seleccionar de objetos 
 
 Once objects are added to the document right clicking them will show additional commands. These depend on the number of selected objects, their type and also on the active workbench. In most cases and with most workbenches (except the [Start Workbench](Start_Workbench.md)) the following commands are then available:
@@ -101,7 +111,7 @@ Once objects are added to the document right clicking them will show additional 
 
 -    **[Delete](Std_Delete.md)**: removes the object from the document.
 
--    **Hide item**: if active, the selected object will be set as hidden.
+-    **[Hide item](#Eye_symbol.md)**: If checked the object will be hidden in the Tree view.
 
 -    **Add dependent objects to selection**: all dependent objects will be added to the selection. This way one can see the dependencies and e.g. delete all dependent objects at once. This option is only available if one of the selected objects has links. <small>(v0.20)</small> 
 
@@ -160,17 +170,25 @@ The following keyboard actions are available when the focus is on the Tree view:
         
         \+**Down**: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
 
+
+
 ## Iconos superpuestos 
 
 Se pueden mostrar uno o varios iconos superpuestos más pequeños sobre el icono por defecto de un objeto en la vista de árbol. Los iconos superpuestos disponibles y su significado se enumeran a continuación. {{Version/es|0.19}}
+
+
 
 ### ![](images/FreeCAD_Tree_view_recompute.png ) Marca de verificación blanca sobre fondo azul 
 
 Esto indica que el objeto tiene que ser [recalculado](Std_Refresh/es.md), debido a los cambios realizados en el modelo o porque el usuario marcó el objeto en el menú contextual de la vista de árbol para ser recalculado. En la mayoría de los casos los recálculos se activan automáticamente, pero a veces se retrasan por razones de rendimiento.
 
+
+
 ### ![](images/FreeCAD_Tree_view_tip.png ) Flecha blanca sobre fondo verde 
 
 Indica la llamada [Punta](PartDesign_Body/es#punta.md) de un cuerpo. Suele ser la última característica de un [DiseñoPieza Cuerpo](PartDesign_Body/es.md) y representa todo el cuerpo para el mundo exterior al cuerpo, por ejemplo, cuando el cuerpo se exporta o se utiliza en operaciones [Pieza booleano](Part_Boolean/es.md). La punta puede ser cambiada por el usuario.
+
+
 
 ### ![](images/FreeCAD_Tree_view_unattached.png ) Cadena de eslabones púrpura sobre fondo blanco 
 
@@ -178,13 +196,21 @@ Se muestra normalmente para [bocetos](Sketch/es.md), primitivas geométricas, co
 
 Hay un [Tutorial Básico de Adjuntos](Basic_Attachment_Tutorial/es.md) que explica cómo manejar tales objetos.
 
+
+
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Amarillo X 
 
 Esto sólo se utiliza para [bocetos](Sketch/es.md) e indica que el sketch no está completamente restringido. Dentro de [Croquizador](Sketcher_Workbench/es.md) el número de grados de libertad restantes se muestra en los mensajes del solucionador.
 
+
+
 ### ![](images/FreeCAD_Tree_view_error.png ) Signo de exclamación blanco sobre fondo rojo 
 
 Esto indica que el objeto tiene un error que debe ser corregido. Después de volver a calcular todo el documento, se muestra un punto herramienta que describe el error cuando se pasa el ratón por encima del objeto en la vista de árbol. Nota: Todos los demás objetos que dependan de un objeto en ese estado de error no se volverán a calcular correctamente, por lo que pueden seguir mostrando algún estado antiguo.
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
+
+This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
 
 
 {{Interface navi

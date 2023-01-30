@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Strumento per calcolare tutti i frammenti che possono derivare dall\'applicazione delle operazioni booleane tra le forme in ingresso. Ad esempio, per due sfere intersecanti, vengono generati tre solidi non sovrapposti, ma a contatto.
@@ -35,6 +37,8 @@ La struttura del composto nelle modalità \"Split\" e \"Standard\" segue la stru
 
 In modalità \"CompSolid\", i solidi vengono uniti in un compsolid (il compsolid è formato da un gruppo di solidi collegati dalle facce, esse si rapportano ai solidi come le polilinee (wire) si rapportano ai bordi (edge), e i gusci (shell) si rapportano alle facce, il nome è probabilmente l\'abbreviazione di \"solido composito\"). L\'output è un composto non-annidato di compsolidi
 
+
+
 ## Utilizzo
 
 
@@ -54,6 +58,8 @@ Viene creato un oggetto parametrico Boolean Fragments. Vengono nascosti gli ogge
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -80,6 +86,8 @@ Lo strumento Boolean Fragments in \"Modalità Standard\" è un General Fuse Oper
 
 Per le modalità \"Split\" e \"CompSolid\", la post-elaborazione in più è fatta da FreeCAD.
 
+
+
 ## Script
 
 
@@ -95,7 +103,10 @@ Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console 
 -   Crea una funzione BooleanFragments vuota. Le proprietà \'Objects\' devono essere assegnate in modo esplicito, in seguito.
 -   Restituisce l\'oggetto appena creato.
 
-BooleanFragments può essere applicato anche a forme piane, senza la necessità di avere un document object, attraverso: {{code|code=
+BooleanFragments può essere applicato anche a forme piane, senza la necessità di avere un document object, attraverso:
+
+
+{{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 
@@ -104,7 +115,9 @@ BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
 pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
 # pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence 
-}} Questo può essere utile per creare delle funzioni personalizzate con script Python.
+}}
+
+Questo può essere utile per creare delle funzioni personalizzate con script Python.
 
 Esempio: {{code|code=
 import BOPTools.SplitFeatures
@@ -113,6 +126,8 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 Lo strumento stesso è implementato in Python, vedere /Mod/Part/BOPTools/SplitFeatures.py nell\'installazione di FreeCAD.
+
+
 
 ## Note
 

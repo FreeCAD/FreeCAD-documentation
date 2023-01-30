@@ -13,18 +13,44 @@ defined in `DraftTools.py`.
 
 ### Functions
 
+#### <img src="images/type_method.svg" style="width:16px;"> argb_to_rgba <small>(color)</small>
+
+Change byte order of a 4 byte color int from ARGB (Qt) to RGBA (FreeCAD).
+
+    Alpha in both integers is always 255.
+    Alpha in color properties, although ignored, is always zero however.
+
+    Usage:
+
+        qt_int = self.form.ShapeColor.property("color").rgba() # Note: returns ARGB int
+        qt_int = self.form.ShapeColor.property("color").rgb()  # Note: returns ARGB int
+        fc_int = argb_to_rgba(qt_int)
+
+        FreeCAD.ParamGet("User parameter:BaseApp/Preferences/View")            .SetUnsigned("DefaultShapeColor", fc_int)
+
+        obj.ViewObject.ShapeColor = fc_int & 0xFFFFFF00
+
+    Related:
+
+        getRgbF() returns an RGBA tuple. 4 floats in the range 0.0 - 1.0. Alpha is always 1.
+        Alpha should be set to zero or removed before using the tuple to change a color property:
+
+        obj.ViewObject.ShapeColor = self.form.ShapeColor.property("color").getRgbF()[:3]
+
+
+
 #### <img src="images/type_method.svg" style="width:16px;"> array <small>(objectslist, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None)</small>
 
 This function creates an array of independent objects.
     Use make_array() to create a parametric array object.
-    
+
     Creates an array of the given objects (that can be an object or a list
     of objects).
 
     In case of rectangular array, xnum of iterations in the x direction
     at xvector distance between iterations, and same for y and z directions
     with yvector and ynum and zvector and znum.
-    
+
     In case of polar array, center is a vector, totalangle is the angle
     to cover (in degrees) and totalnum is the number of objects, including
     the original.
@@ -365,10 +391,10 @@ Downgrade the given objects.
 #### <img src="images/type_method.svg" style="width:16px;"> draftify <small>(objectslist, makeblock=False, delete=True)</small>
 
 draftify(objectslist,[makeblock],[delete])
-    
-    Turn each object of the given list (objectslist can also be a single 
-    object) into a Draft parametric wire. 
-    
+
+    Turn each object of the given list (objectslist can also be a single
+    object) into a Draft parametric wire.
+
     TODO: support more objects
 
     Parameters
@@ -377,7 +403,7 @@ draftify(objectslist,[makeblock],[delete])
 
     makeblock : bool
         If makeblock is True, multiple objects will be grouped in a block.
-    
+
     delete : bool
         If delete = False, old objects are not deleted
 
@@ -403,7 +429,7 @@ Return a small number based on the tolerance for use in comparisons.
 #### <img src="images/type_method.svg" style="width:16px;"> extrude <small>(obj, vector, solid=False)</small>
 
 extrude(object, vector, [solid])
-    
+
     Create a Part::Extrusion object from a given object.
 
     Parameters
@@ -412,7 +438,7 @@ extrude(object, vector, [solid])
 
     vector : Base.Vector
         The extrusion direction and module.
-    
+
     solid : bool
         TODO: describe.
 
@@ -493,8 +519,8 @@ Apply visual properties from the Draft toolbar or another object.
 #### <img src="images/type_method.svg" style="width:16px;"> fuse <small>(object1, object2)</small>
 
 fuse(oject1, object2)
-    
-    Returns an object made from the union of the 2 given objects. 
+
+    Returns an object made from the union of the 2 given objects.
     If the objects are coplanar, a special Draft Wire is used, otherwise we use
     a standard Part fuse.
 
@@ -1051,8 +1077,10 @@ Return an RRGGBB value #000000 from a FreeCAD color.
 
     Parameters
      
+    color : list or tuple with RGB values
+        The values must be in the 0.0-1.0 range.
     testwb : bool (default = True)
-        pure white will be converted into pure black
+        Pure white will be converted into pure black.
 
 
 
@@ -1233,17 +1261,19 @@ Return an RRGGBB value #000000 from a FreeCAD color.
 
     Parameters
      
+    color : list or tuple with RGB values
+        The values must be in the 0.0-1.0 range.
     testwb : bool (default = True)
-        pure white will be converted into pure black
+        Pure white will be converted into pure black.
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> heal <small>(objlist=None, delete=True, reparent=True)</small>
 
 heal([objlist],[delete],[reparent])
-    
+
     Recreate Draft objects that are damaged, for example if created from an
-    earlier version. If ran without arguments, all the objects in the document 
+    earlier version. If ran without arguments, all the objects in the document
     will be healed if they are damaged.
 
     Parameters
@@ -1254,7 +1284,7 @@ heal([objlist],[delete],[reparent])
         If delete is True, the damaged objects are deleted (default).
 
     reparent : bool
-        If reparent is True (default), new objects go at the very same place 
+        If reparent is True (default), new objects go at the very same place
         in the tree than their original.
 
 
@@ -1604,7 +1634,7 @@ make_bezcurve(pointslist, [closed], [placement])
 #### <img src="images/type_method.svg" style="width:16px;"> makeBlock <small>(objectslist)</small>
 
 make_block(objectslist)
-    
+
     Creates a Draft Block from the given objects.
 
     Parameters
@@ -1678,17 +1708,17 @@ Create a dimension. DEPRECATED. Use 'make_dimension'.
 #### <img src="images/type_method.svg" style="width:16px;"> makeDrawingView <small>(obj, page, lwmod=None, tmod=None, otherProjection=None)</small>
 
 make_drawing_view(object,page,[lwmod,tmod])
-    
+
     This function is OBSOLETE, since TechDraw substituted the Drawing Workbench.
-    Add a View of the given object to the given page. 
+    Add a View of the given object to the given page.
 
     Parameters
      
-    lwmod : 
-        modifies lineweights (in percent), 
-    
+    lwmod :
+        modifies lineweights (in percent),
+
     tmod :
-        modifies text heights (in percent). 
+        modifies text heights (in percent).
 
     The Hint scale, X and Y of the page are used.
         TODO: Document it properly
@@ -1753,18 +1783,18 @@ Create a Layer. DEPRECATED. Use 'make_layer'.
 #### <img src="images/type_method.svg" style="width:16px;"> makeLine <small>(first_param, last_param=None)</small>
 
 makeLine(first_param, p2)
-    
+
     Creates a line from 2 points or from a given object.
 
     Parameters
      
-    first_param : 
+    first_param :
         Base.Vector -> First point of the line (if p2 is None)
         Part.LineSegment -> Line is created from the given Linesegment
         Shape -> Line is created from the give Shape
 
     last_param : Base.Vector
-        Second point of the line, if not set the function evaluates 
+        Second point of the line, if not set the function evaluates
         the first_param to look for a Part.LineSegment or a Shape
 
 
@@ -1868,12 +1898,12 @@ make_rectangle(length, width, [placement], [face])
 #### <img src="images/type_method.svg" style="width:16px;"> makeShape2DView <small>(baseobj, projectionVector=None, facenumbers=[])</small>
 
 make_shape2dview(object, [projectionVector], [facenumbers])
-    
-    Add a 2D shape to the document, which is a 2D projection of the given object. 
-    
+
+    Add a 2D shape to the document, which is a 2D projection of the given object.
+
     Parameters
      
-    object : 
+    object :
         TODO: Describe
 
     projectionVector : Base.Vector
@@ -1887,12 +1917,12 @@ make_shape2dview(object, [projectionVector], [facenumbers])
 #### <img src="images/type_method.svg" style="width:16px;"> makeShapeString <small>(String, FontFile, Size=100, Tracking=0)</small>
 
 ShapeString(Text,FontFile,[Height],[Track])
-    
+
     Turns a text string into a Compound Shape
-    
+
     Parameters
      
-    majradius : 
+    majradius :
         Major radius of the ellipse.
 
 
@@ -1972,7 +2002,7 @@ make_wire(pointslist, [closed], [placement])
 #### <img src="images/type_method.svg" style="width:16px;"> makeWorkingPlaneProxy <small>(placement)</small>
 
 make_working_plane_proxy(placement)
-    
+
     Creates a Working Plane proxy object in the current document.
 
     Parameters
@@ -2177,7 +2207,7 @@ make_bezcurve(pointslist, [closed], [placement])
 #### <img src="images/type_method.svg" style="width:16px;"> make_block <small>(objectslist)</small>
 
 make_block(objectslist)
-    
+
     Creates a Draft Block from the given objects.
 
     Parameters
@@ -2402,17 +2432,17 @@ Create one of three types of dimension objects.
 #### <img src="images/type_method.svg" style="width:16px;"> make_drawing_view <small>(obj, page, lwmod=None, tmod=None, otherProjection=None)</small>
 
 make_drawing_view(object,page,[lwmod,tmod])
-    
+
     This function is OBSOLETE, since TechDraw substituted the Drawing Workbench.
-    Add a View of the given object to the given page. 
+    Add a View of the given object to the given page.
 
     Parameters
      
-    lwmod : 
-        modifies lineweights (in percent), 
-    
+    lwmod :
+        modifies lineweights (in percent),
+
     tmod :
-        modifies text heights (in percent). 
+        modifies text heights (in percent).
 
     The Hint scale, X and Y of the page are used.
         TODO: Document it properly
@@ -2707,18 +2737,18 @@ Create a Layer object in the active document.
 #### <img src="images/type_method.svg" style="width:16px;"> make_line <small>(first_param, last_param=None)</small>
 
 makeLine(first_param, p2)
-    
+
     Creates a line from 2 points or from a given object.
 
     Parameters
      
-    first_param : 
+    first_param :
         Base.Vector -> First point of the line (if p2 is None)
         Part.LineSegment -> Line is created from the given Linesegment
         Shape -> Line is created from the give Shape
 
     last_param : Base.Vector
-        Second point of the line, if not set the function evaluates 
+        Second point of the line, if not set the function evaluates
         the first_param to look for a Part.LineSegment or a Shape
 
 
@@ -3378,12 +3408,12 @@ make_rectangle(length, width, [placement], [face])
 #### <img src="images/type_method.svg" style="width:16px;"> make_shape2dview <small>(baseobj, projectionVector=None, facenumbers=[])</small>
 
 make_shape2dview(object, [projectionVector], [facenumbers])
-    
-    Add a 2D shape to the document, which is a 2D projection of the given object. 
-    
+
+    Add a 2D shape to the document, which is a 2D projection of the given object.
+
     Parameters
      
-    object : 
+    object :
         TODO: Describe
 
     projectionVector : Base.Vector
@@ -3397,12 +3427,12 @@ make_shape2dview(object, [projectionVector], [facenumbers])
 #### <img src="images/type_method.svg" style="width:16px;"> make_shapestring <small>(String, FontFile, Size=100, Tracking=0)</small>
 
 ShapeString(Text,FontFile,[Height],[Track])
-    
+
     Turns a text string into a Compound Shape
-    
+
     Parameters
      
-    majradius : 
+    majradius :
         Major radius of the ellipse.
 
 
@@ -3514,7 +3544,7 @@ make_wire(pointslist, [closed], [placement])
 #### <img src="images/type_method.svg" style="width:16px;"> make_workingplaneproxy <small>(placement)</small>
 
 make_working_plane_proxy(placement)
-    
+
     Creates a Working Plane proxy object in the current document.
 
     Parameters
@@ -3740,6 +3770,12 @@ Return only the visible objects in the list.
 
         If the graphical interface is not loaded
         the returned list is just a copy of the input list.
+
+
+
+#### <img src="images/type_method.svg" style="width:16px;"> rgba_to_argb <small>(color)</small>
+
+Change byte order of a 4 byte color int from RGBA (FreeCAD) to ARGB (Qt).
 
 
 

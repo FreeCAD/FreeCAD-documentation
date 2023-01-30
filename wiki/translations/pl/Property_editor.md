@@ -1,13 +1,18 @@
 # Property editor/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 [Edytor właściwości](property_editor.md) pojawia się, gdy aktywna jest zakładka **Model** [widoku łączonego](combo_view.md). Umożliwia zarządzanie publicznie eksponowanymi właściwościami obiektów w dokumencie.
 
 Ogólnie rzecz biorąc, edytor właściwości jest przeznaczony do obsługi tylko jednego obiektu w tym samym czasie. Wartości wyświetlane w edytorze właściwości należą do wybranego obiektu aktywnego dokumentu. Mimo to, niektóre właściwości, takie jak kolory, mogą być ustawione dla wielu zaznaczonych obiektów. Jeśli nie ma zaznaczonych elementów, edytor właściwości będzie pusty.
 
-Nie wszystkie właściwości mogą być zawsze modyfikowane. W zależności od określonego statusu właściwości, niektóre z nich będą niewidoczne *(nie wymienione)* lub będą tylko do odczytu *(nie edytowalne)*. {{TOCright}}
+Nie wszystkie właściwości mogą być zawsze modyfikowane. W zależności od określonego statusu właściwości, niektóre z nich będą niewidoczne *(nie wymienione)* lub będą tylko do odczytu *(nie edytowalne)*.
+
+
+{{TOCright}}
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -15,13 +20,17 @@ Nie wszystkie właściwości mogą być zawsze modyfikowane. W zależności od o
 
 *Pusty edytor właściwości, gdy żaden obiekt nie jest zaznaczony.*
 
+
+
 ## Typy właściwości 
 
 Właściwość jest informacją taką jak numer lub ciąg znaków dołączony do dokumentu FreeCAD lub obiektu w dokumencie.
 
 Własny [obiekt skryptowy](scripted_objects.md) może używać dowolnych typów właściwości zdefiniowanych w systemie bazowym. Zobacz pełną listę [Właściwości](Property.md).
 
-Niektóre z najczęściej używanych typów właściwości to właśnie: 
+Niektóre z najczęściej używanych typów właściwości to właśnie:
+
+
 ```python
 App::PropertyBool
 App::PropertyFloat
@@ -36,6 +45,8 @@ App::PropertyPlacement
 
 Różne obiekty mogą mieć różne typy właściwości. Jednak wiele obiektów ma te same typy, ponieważ pochodzą one z tej samej klasy wewnętrznej. Na przykład, większość obiektów opisujących kształty geometryczne *(linie, okręgi, prostokąty, bryły, importowane części itp.)* ma właściwość **Położenie**, która określa ich położenie w widoku [3D](3D_view.md).
 
+
+
 ## Właściwości widoku i danych 
 
 Istnieją dwie klasy właściwości obiektu dostępne poprzez zakładki w edytorze właściwości:
@@ -45,6 +56,8 @@ Istnieją dwie klasy właściwości obiektu dostępne poprzez zakładki w edytor
 -    **Data**właściwości związane z parametrami \"fizycznymi\" obiektu. Właściwości **Data** definiują podstawowe właściwości obiektu. Istnieją przez cały czas, nawet gdy FreeCAD jest używany w trybie konsolowym lub jako biblioteka. Oznacza to, że jeśli załadujesz dokument w trybie konsolowym, możesz edytować promień okręgu lub długość linii, nawet jeśli nie widzisz wyniku na ekranie.
 
 Z tego powodu właściwości **Data** są uważane za bardziej **realne**, ponieważ naprawdę definiują geometrię kształtu. Z drugiej strony, właściwości **View** są mniej ważne, ponieważ wpływają jedynie na wygląd powierzchni geometrii. Na przykład okrąg o promieniu 10mm różni się od okręgu o promieniu 5mm. Kolor okręgu *(właściwość widoku)* nie ma wpływu na jego kształt, ale promień ma *(właściwość danych)*. W wielu przypadkach w niniejszej dokumentacji słowo **właściwość** jest rozumiane jako odnoszące się do **Właściwości danych**, a nie do **Właściwości widoku**.
+
+
 
 ### Własności podstawowe 
 
@@ -72,6 +85,8 @@ print(obj.Label)
 Większość obiektów geometrycznych, które mogą być tworzone i wyświetlane w [widoku 3D](3D_view.md) pochodzi z `Part::Feature`. Zobacz [Właściwości części](Part_Feature.md), aby dowiedzieć się, jakie podstawowe właściwości mają te obiekty.
 
 Dla geometrii 2D większość obiektów pochodzi z [`Part::Part2DObject`](Part_Part2DObject.md) *(wywodzi się z [`Part::Feature`](Part_Feature.md))*, która jest podstawą Środowiska pracy [Sketches](Sketch.md), i większości [Elementy Draft](Draft_Workbench.md). Zobacz [Część2DObject](Part_Part2DObject.md), aby zapoznać się z najbardziej podstawowymi właściwościami tych obiektów.
+
+
 
 ## Działania
 
@@ -107,15 +122,28 @@ Gdy opcja **Show all** jest aktywna, a wybrana jest jedna właściwość, dostę
 
 -    **EvalOnRestore**: jeżeli opcja jest aktywna, to obiekt jest przeliczany po przywróceniu dokumentu.
 
+
+
 ## Przykładowe właściwości obiektu z PartDesign 
 
 W tej sekcji pokazujemy kilka wspólnych właściwości, które są widoczne dla [PartDesign Body](PartDesign_Body.md), oraz jedną cechę [PartDesign Feature](PartDesign_Feature.md). Specyficzne właściwości obiektu można znaleźć na stronie poświęconej dokumentacji tego obiektu.
+
+
 
 ### Widok
 
 Większość z tych właściwości jest dziedziczona z obiektu podstawowego [Part Feature](Part_Feature.md).
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
+
+
+</div>
+
+
+{{TitleProperty|Base}}
 
 -    **Angular Deflection**: jest to sposób na określenie, jak dokładnie wygenerować siatkę do renderowania na ekranie lub przy eksporcie. Domyślną wartość stanowi 28,5 stopnia lub 0,5 radiana. Im mniejsza wartość, tym gładszy będzie wygląd w [widok 3D](3D_view.md), oraz tym gęstsza siatka będzie eksportowana.
 
@@ -156,11 +184,25 @@ Większość z tych właściwości jest dziedziczona z obiektu podstawowego [Par
 
 
 
+
+
+
+
+
 ### Dane
 
 W tym przypadku obserwujemy właściwości [PartDesign Wyciągnij przez obrót](PartDesign_Revolution.md).
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
+
+
+</div>
+
+
+{{TitleProperty|Base}}
 
 -    {{propertyData|Label}}: Zdefiniowana przez użytkownika nazwa nadana obiektowi, którą można dowolnie zmieniać.
 
@@ -188,6 +230,8 @@ W tym przypadku obserwujemy właściwości [PartDesign Wyciągnij przez obrót](
 
 
 
+
+
 ## Tworzenie skryptów 
 
 
@@ -197,12 +241,16 @@ W tym przypadku obserwujemy właściwości [PartDesign Wyciągnij przez obrót](
 
 Zobacz dział [obiekty skryptowe](scripted_objects.md), aby uzyskać pełne informacje na temat dodawania właściwości do obiektów zdefiniowanych przez [Python](Python.md).
 
-Do większości właściwości widocznych w edytorze właściwości można uzyskać dostęp z [Konsola Pythona](Python_console.md). Właściwości te są tylko atrybutami klasy definiującej wybrany obiekt. Na przykład, jeżeli edytor właściwości pokazuje właściwość **Group**, oznacza to, że obiekt posiada atrybut `Group`. 
+Do większości właściwości widocznych w edytorze właściwości można uzyskać dostęp z [Konsola Pythona](Python_console.md). Właściwości te są tylko atrybutami klasy definiującej wybrany obiekt. Na przykład, jeżeli edytor właściwości pokazuje właściwość **Group**, oznacza to, że obiekt posiada atrybut `Group`.
+
+
 ```python
 print(obj.Group)
 ```
 
-Te atrybuty *(właściwości)* są dodawane metodą `addProperty` obiektu bazowego. Niezbędne jest podanie przynajmniej typu [property](property.md), oraz jego nazwy. 
+Te atrybuty *(właściwości)* są dodawane metodą `addProperty` obiektu bazowego. Niezbędne jest podanie przynajmniej typu [property](property.md), oraz jego nazwy.
+
+
 ```python
 obj.addProperty("App::PropertyFloat", "Custom")
 print(obj.Custom)
@@ -231,7 +279,9 @@ print(obj.ViewObject.DisplayModeBody)
 print(obj.ViewObject.LineColor)
 ```
 
-Wszystkie publiczne właściwości obiektu i jego widoku dostawcy są zawarte w odpowiednim atrybucie `PropertiesList`. 
+Wszystkie publiczne właściwości obiektu i jego widoku dostawcy są zawarte w odpowiednim atrybucie `PropertiesList`.
+
+
 ```python
 print(obj.PropertiesList)
 print(obj.ViewObject.PropertiesList)

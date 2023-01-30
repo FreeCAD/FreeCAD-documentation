@@ -6,10 +6,12 @@
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:v0.16
-   SeeAlso:[PartDesign Engrenage droit à développante](PartDesign_InvoluteGear/fr.md)
+   SeeAlso:[PartDesign Engrenage à développante](PartDesign_InvoluteGear/fr.md)
 ---
 
 # FCGear WormGear/fr
+
+
 
 ## Description
 
@@ -22,6 +24,8 @@ Une vis sans fin ne peut être utilisée qu\'avec une roue à vis sans fin. C\'e
 ![](images/Worm-Gear_example.png ) 
 *Engrenage à vis sans fin (nombre de dents 3)*
 
+
+
 ## Utilisation
 
 1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
@@ -30,9 +34,13 @@ Une vis sans fin ne peut être utilisée qu\'avec une roue à vis sans fin. C\'e
     -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_WormGear.svg style="width:16px"> Worm Gear** dans le menu.
 3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
+
+
 ## Propriétés
 
 Un objet FCGear WormGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -71,6 +79,8 @@ Un objet FCGear WormGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 -    **version|String**:
 
+
+
 ## Remarques
 
 -    **beta**: si l\'angle d\'attaque est inférieur à 5°, il s\'agit d\'un engrenage autobloquant. Un exemple typique est celui des chevilles d\'accordage d\'une guitare ou d\'un ukulélé.
@@ -83,6 +93,8 @@ Un objet FCGear WormGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 -    **pressure_parameter**: ne modifiez ce paramètre que si vous avez une connaissance suffisante de la géométrie de l\'engrenage.
 
+
+
 ## Formules utiles 
 
 -    **beta (angle d'attaque)**= arctan (**module** \* **teeth** : **pitchdiameter (diamètre)**)
@@ -92,6 +104,8 @@ Un objet FCGear WormGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 -    **beta (angle d'attaque)**= arctan (**axial pitch** : (**pitchdiameter (diamètre)** \* **pi**))
 
 -    **worm length**= 4,5 \* **module** \* **pi**
+
+
 
 ## Roue à vis sans fin 
 

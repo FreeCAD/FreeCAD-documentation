@@ -3,11 +3,17 @@
 
 {{TOCright}}
 
+
+
 ## Treiberinstallation
+
+
 
 ### Linux
 
-FreeCAD unterstützt die Treiber des Projekts [Spacenav](http://spacenav.sourceforge.net/). Dies ist ein Projekt mit dem Ziel, einen Open-Source Treiber zu entwickeln, der mit den proprietären Treibern von 3Dconnexion kompatibel ist.
+FreeCAD unterstützt die Treiber des Projekts [Spacenav](http://spacenav.sourceforge.net/). Dies ist ein Projekt mit dem Ziel, einen quelloffenen Treiber zu entwickeln, der mit den proprietären Treibern von 3Dconnexion kompatibel ist.
+
+
 
 #### Installation aus dem Paketarchiv 
 
@@ -74,6 +80,8 @@ apt-get install spacenavd libspnav-dev
 ```python
 sudo zypper install spacenavd
 ```
+
+
 
 #### Kompiliere Spacenav aus der Quelle 
 
@@ -178,6 +186,8 @@ Dies wird empfohlen, wenn deine Distribution eine veraltete Version bereitstelle
 
 -   Folge dem gleichen Muster, um spnavcfg zu kompilieren und zu installieren. Achte jedoch darauf, spnavcfg als root auszuführen, sonst werden keine Einstellungen gespeichert!
 
+
+
 #### Starten von spacenavd als systemd-Service während des Systemstarts 
 
 Wenn Du spacenavd während des Systemstarts mit systemd starten möchtest, dann führe folgendes aus:
@@ -188,6 +198,8 @@ Wenn Du spacenavd während des Systemstarts mit systemd starten möchtest, dann 
 -   \"sudo systemctl start spacenavd-local.service\", falls du es sofort starten möchtest.
 
 Dies ist nur bei der Installation aus dem Quell-Code notwendig.
+
+
 
 #### Neustarten von spacenavd 
 
@@ -200,6 +212,8 @@ sudo /etc/init.d/spacenavd restart
 ```
 
 Danach starten Sie FreeCAD neu. Bei einigen Distributionen ist dies nach jedem Boot nötig.
+
+
 
 ### Bekannte Probleme 
 
@@ -230,6 +244,8 @@ sudo systemctl restart spacenavd
 
 Ab der Version 0.13 wird die 3D Maus unter Windows unterstützt. Sie müssen die 3Dconnexion Treiber installiert haben.
 
+
+
 #### Bekannte Probleme 
 
 Es gibt ein Problem, bei dem 3Dconnexion doppelte Scroll-Ereignisse an FreeCAD sendet, wodurch die Ansicht springt. Um es zu reparieren:
@@ -242,11 +258,15 @@ Es gibt ein Problem, bei dem 3Dconnexion doppelte Scroll-Ereignisse an FreeCAD s
 
 ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
+
+
 ## FreeCAD einrichten 
 
 Die 3D Mausunterstützung wurde mit dem spnav Projekt unter Linux und auf einem sehr niedrigen Niveau unter Windows realisiert. Das bedeutet, dass es keine Unterstützung für irgendwelche Einstellungen für ein Gerät gab, da es unter Linux keine gute Unterstützung dafür gibt und unter Windows wird sie überschrieben. Aus diesem Grund wurden dem Dialog \"Anpassen\" zwei zusätzliche Seiten hinzugefügt.
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
+
+
 
 ### Spaceball Bewegung 
 
@@ -266,11 +286,15 @@ Ansonsten hast Du für jede Achse die Möglichkeit, diese einzustellen:
 -   Rückwärts - Rückwärtsbewegung an den Achsen
 -   Empfindlichkeit - Schieberegler mit der Möglichkeit, die Empfindlichkeit einzustellen.
 
+
+
 ### Spaceball Tasten 
 
 Wenn Du diese Registerkarte zum ersten Mal öffnest, ist sie leer und nicht verfügbar. Um sie zu aktivieren, musst du eine deiner Space Maustasten drücken. Danach erscheint auf der linken Seite eine Liste der Schaltflächen und auf der rechten Seite eine Liste der Befehle.
 
 Um einen bestimmten Befehl mit einer Schaltfläche zu verbinden, wähle die Schaltfläche auf der linken Seite und den Befehl auf der rechten Seite. Um die Befehle der Taste zu löschen, drücke \"Löschen\".
+
+
 
 ### Fehlersuche
 
@@ -285,6 +309,8 @@ or
 `Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
 
 If none of them appears then your FreeCAD build doesn\'t link to the spacenav library. If the former message appears then it basically works. The latter message means there is probably a problem with the spacenav daemon.
+
+
 
 ## Verwandtes
 

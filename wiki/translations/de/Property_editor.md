@@ -1,13 +1,18 @@
 # Property editor/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der [Eigenschafteneditor](property_editor/de.md) erscheint wenn der Reiter **Modell** der [Combo-Ansicht](combo_view/de.md) auf der [Oberfläche](interface/de.md) aktiv ist; er ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument.
 
 Generell ist der Eigenschafteneditor dazu gedacht, nur ein Objekt zur Zeit zu behandeln. Die im Eigenschafteneditor angezeigten Werte gehören zum ausgewählten Objekt des aktiven Dokuments. Es gibt jedoch einige Eigenschaften, wie Farben, die für viele ausgewählte Objekte gleichzeitig gesetzt werden können. Wenn kein Element ausgewählt wurde, bleibt der Eigenschafteneditor leer.
 
-Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifischen Status der Eigenschaft sind einige von ihnen unsichtbar (nicht aufgeführt) oder schreibgeschützt (nicht bearbeitbar). {{TOCright}}
+Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifischen Status der Eigenschaft sind einige von ihnen unsichtbar (nicht aufgeführt) oder schreibgeschützt (nicht bearbeitbar).
+
+
+{{TOCright}}
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -15,13 +20,17 @@ Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifische
 
 *Leerer Eigenschafteneditor, wenn kein Objekt ausgewählt ist.*
 
+
+
 ## Eigenschaftentypen
 
 Eine Eigenschaft ist eine Information wie eine Zahl oder eine Textzeichenfolge, die an ein FreeCAD-Dokument oder ein Objekt im Dokument angehängt ist.
 
 Benutzerdefinierte [skriptgenerierte Objekte](Scripted_objects/de.md) können jeden der im Basissystem definierten Eigenschaftstypen verwenden. Die vollständige Liste findet man unter [Objekteigenschaften](Property/de.md).
 
-Einige der am häufigsten verwendeten Eigenschaftstypen sind: 
+Einige der am häufigsten verwendeten Eigenschaftstypen sind:
+
+
 ```python
 App::PropertyBool
 App::PropertyFloat
@@ -36,7 +45,9 @@ App::PropertyPlacement
 
 Verschiedene Objekte können unterschiedliche Typen von Eigenschaften haben. Viele Objekte haben jedoch die gleichen Typen, weil sie von der gleichen internen Klasse abgeleitet sind. Zum Beispiel haben die meisten Objekte, die geometrische Formen beschreiben (Linien, Kreise, Rechtecke, Volumenkörper, importierte Teile usw.), die Eigenschaft \"Platzierung\", die ihre Position in der [3D-Ansicht](3D_view/de.md) definiert.
 
-## Ansichts und Dateneigenschaften 
+
+
+## Ansicht- und Daten-Eigenschaften 
 
 There are two classes of feature properties accessible through tabs in the property editor:
 
@@ -46,12 +57,14 @@ There are two classes of feature properties accessible through tabs in the prope
 
 For this reason, **Data** properties are considered to be more \"real\", as they truly define the geometry of a shape. On the other hand, **View** properties are less important because they only affect the superficial appearance of the geometry. For example, a circle of 10 mm radius is different from a circle of 5 mm radius; the color of the circle (view property) doesn\'t affect its shape, but the radius does (data property). In many instances in this documentation, the word \"property\" is understood to refer to a \"Data property\" and not to a \"View property\".
 
+
+
 ### Grundlegende Eigenschaften 
 
 
 **Siehe auch: [Objektname](Object_name/de.md)**
 
-The most basic [scripted object](scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
+The most basic [scripted object](Scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](Tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
 
 Ein grundlegendes parametrisches Objekt wird wie folgt erstellt
 
@@ -73,6 +86,8 @@ Most geometrical objects that can be created and displayed in the [3D view](3D_v
 
 For 2D geometry, most objects are derived from `Part::Part2DObject` (itself derived from `Part::Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
 
+
+
 ## Maßnahmen
 
 
@@ -89,7 +104,7 @@ When the **Show all** option is active, and one property is selected, more actio
 
 -    **Show all**: deactivates the **Show all** command, hiding the additional Data and View properties.
 
--    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
+-    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](Scripted_objects.md).
 
 -    **Expression...**: brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
 
@@ -107,15 +122,28 @@ When the **Show all** option is active, and one property is selected, more actio
 
 -    **EvalOnRestore**: if active, it is evaluated when the document is restored.
 
+
+
 ## Beispiel für die Eigenschaften eines PartDesign-Objekts 
 
 In this section we show some common properties that are visible for a [PartDesign Body](PartDesign_Body.md), and one [PartDesign Feature](PartDesign_Feature.md). The specific properties of an object can found in the specific documentation page of that object.
+
+
 
 ### Ansicht
 
 Most of these properties are inherited from the [Part Feature](Part_Feature.md) basic object.
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
+
+
+</div>
+
+
+{{TitleProperty|Base}}
 
 -    **Angular Deflection**: it is another way to specify how finely to generate the mesh for rendering on screen or when exporting. The default value is 28.5 degrees, or 0.5 radians. The smaller the value the smoother the appearance will be in the [3D view](3D_view.md), and the finer the mesh that will be exported.
 
@@ -156,11 +184,22 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 
 
+
+
 ### Daten
 
 In this case we observe the properties of the [PartDesign Revolution](PartDesign_Revolution.md) feature.
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
+
+
+</div>
+
+
+{{TitleProperty|Base}}
 
 -    **Label**: the user defined name given to the object, this can be changed as desired.
 
@@ -188,6 +227,8 @@ In this case we observe the properties of the [PartDesign Revolution](PartDesign
 
 
 
+
+
 ## Skripten
 
 
@@ -197,12 +238,16 @@ In this case we observe the properties of the [PartDesign Revolution](PartDesign
 
 Siehe [geskriptete Objekte](scripted_objects/de.md) für die vollständigen Informationen zum Hinzufügen von Eigenschaften zu Objekten, die über [Python](Python/de.md) definiert wurden. Deine Übersetzung
 
-Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute. 
+Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute.
+
+
 ```python
 print(obj.Group)
 ```
 
-These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name. 
+These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name.
+
+
 ```python
 obj.addProperty("App::PropertyFloat", "Custom")
 print(obj.Custom)
@@ -231,7 +276,9 @@ print(obj.ViewObject.DisplayModeBody)
 print(obj.ViewObject.LineColor)
 ```
 
-Alle öffentlichen Eigenschaften des Objekts und seines Ansichtsanbieters sind in dem entsprechenden Attribut `PropertiesList` enthalten. 
+Alle öffentlichen Eigenschaften des Objekts und seines Ansichtsanbieters sind in dem entsprechenden Attribut `PropertiesList` enthalten.
+
+
 ```python
 print(obj.PropertiesList)
 print(obj.ViewObject.PropertiesList)

@@ -2,6 +2,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Pregled
@@ -11,17 +13,22 @@ Uređivač osobina je jedan od važnijih alata u FreeCAD-u i glavni element rada
 
 </div>
 
-The [property editor](property_editor.md) appears when the **Model** tab of the [combo view](combo_view.md) is active in the [interface](interface.md); it allows managing the publicly exposed properties of the objects in the document.
+The [property editor](Property_editor.md) appears when the **Model** tab of the [combo view](Combo_view.md) is active in the [interface](interface.md); it allows managing the publicly exposed properties of the objects in the document.
 
 Generally, the property editor is intended to deal with just one object at one time. The values shown in the property editor belong to the selected object of the active document. Despite this, some properties like colors, can be set for multiple selected objects. If there are no elements selected, the property editor will be empty.
 
-Not all properties can be modified always; depending on the specific status of the property, some of them will be invisible (not listed), or be read-only (not editable). {{TOCright}}
+Not all properties can be modified always; depending on the specific status of the property, some of them will be invisible (not listed), or be read-only (not editable).
+
+
+{{TOCright}}
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
 
 
 *Empty property editor, when no object is selected.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -152,9 +159,11 @@ If you select the title **Placement** <img alt="Options Placement" src=images/Ta
 
 A property is a piece of information like a number or a text string that is attached to a FreeCAD document or an object in the document.
 
-Custom [scripted objects](scripted_objects.md) can use any of the property types defined in the base system. See the full list in [Property](Property.md).
+Custom [scripted objects](Scripted_objects.md) can use any of the property types defined in the base system. See the full list in [Property](Property.md).
 
-Some of the most commonly used property types are: 
+Some of the most commonly used property types are:
+
+
 ```python
 App::PropertyBool
 App::PropertyFloat
@@ -184,7 +193,7 @@ For this reason, **Data** properties are considered to be more \"real\", as they
 
 **See also: [Object name](Object_name.md)**
 
-The most basic [scripted object](scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
+The most basic [scripted object](Scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](Tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
 
 A basic parametric object is created as follow
 
@@ -222,7 +231,7 @@ When the **Show all** option is active, and one property is selected, more actio
 
 -    **Show all**: deactivates the **Show all** command, hiding the additional Data and View properties.
 
--    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
+-    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](Scripted_objects.md).
 
 -    **Expression...**: brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
 
@@ -255,6 +264,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 
 </div>
+
+
+{{TitleProperty|Base}}
 
 -    **Angular Deflection**: it is another way to specify how finely to generate the mesh for rendering on screen or when exporting. The default value is 28.5 degrees, or 0.5 radians. The smaller the value the smoother the appearance will be in the [3D view](3D_view.md), and the finer the mesh that will be exported.
 
@@ -307,6 +319,9 @@ In this case we observe the properties of the [PartDesign Revolution](PartDesign
 
 </div>
 
+
+{{TitleProperty|Base}}
+
 -    **Label**: the user defined name given to the object, this can be changed as desired.
 
 
@@ -342,12 +357,16 @@ In this case we observe the properties of the [PartDesign Revolution](PartDesign
 
 See [scripted objects](scripted_objects.md) for the full information on adding properties to objects defined through [Python](Python.md).
 
-Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute. 
+Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute.
+
+
 ```python
 print(obj.Group)
 ```
 
-These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name. 
+These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name.
+
+
 ```python
 obj.addProperty("App::PropertyFloat", "Custom")
 print(obj.Custom)
@@ -376,7 +395,9 @@ print(obj.ViewObject.DisplayModeBody)
 print(obj.ViewObject.LineColor)
 ```
 
-All public properties of the object, and of its view provider, are contained in the corresponding `PropertiesList` attribute. 
+All public properties of the object, and of its view provider, are contained in the corresponding `PropertiesList` attribute.
+
+
 ```python
 print(obj.PropertiesList)
 print(obj.ViewObject.PropertiesList)

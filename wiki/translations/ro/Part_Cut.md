@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Descriere
@@ -20,6 +22,8 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 **Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
 
 [480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +42,8 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 2.  Invoke the Part Cut command several ways:
     -   Press the **![](images/) '''Cut'''** button in the Part toolbar
     -   Use the **Part → Boolean → Cut** entry from the Part menu
+
+
 
 
 <div class="mw-translate-fuzzy">

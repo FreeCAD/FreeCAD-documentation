@@ -13,6 +13,8 @@
 
 Crée une contrainte FEM pour maintenir les nœuds d\'une surface planaire dans le même plan.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
@@ -24,6 +26,8 @@ Crée une contrainte FEM pour maintenir les nœuds d\'une surface planaire dans 
 
 1.  La contrainte de rotation plane ne peut être appliquée qu\'à une seule face planaire.
 2.  Lorsqu\'une contrainte de rotation plane est appliquée à la même face qu\'une contrainte de déplacement/fixe, la contrainte de déplacement/fixe a la préférence.
+
+
 
 ## Remarques
 

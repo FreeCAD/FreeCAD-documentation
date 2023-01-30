@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 **Sottrae** gli oggetti Parte selezionati, l\'ultimo viene sottratto dal primo. Questa operazione è completamente parametrica e i componenti possono essere modificati e il risultato ricalcolato.
@@ -19,10 +21,14 @@
 
 [480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
 
+
+
 ## Utilizzo
 
 1.  Selezionare due forme.
 2.  Premere il pulsante **Part** → **Booleana** → **Taglio** dal menu principale o il pulsante **<img src="images/Part_Cut.png" width=16px> '''Taglio'''** dalla barra degli strumenti.
+
+
 
 ## Input supportati 
 

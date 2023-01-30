@@ -252,21 +252,13 @@ Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad a
 
 ### Opzioni di default 
 
-For most Draft objects the following option is available:
+Per la maggior parte degli oggetti Draft è disponibile la seguente opzione:
 
--   Edit: edits the object. Depending on the object type either [Draft Edit](Draft_Edit.md) or a dedicated edit solution is used. <small>(v1.0)</small> 
+-   Modifica: modifica l\'oggetto. A seconda del tipo di oggetto, viene utilizzata [Draft Modifica](Draft_Edit/it.md) o una soluzione di modifica dedicata. {{Versione|1.0}}
 
-If there is an active document the context menu contains an additional sub-menu:
+Se c\'è un documento attivo il menu contestuale contiene un ulteriore sottomenu:
 
-
-<div class="mw-translate-fuzzy">
-
-Se è presente un documento attivo, il menu contestuale contiene un ulteriore sottomenu:
-
--    **Utilità**: un sottoinsieme degli strumenti disponibili nel menu principale Draft Utilità.
-
-
-</div>
+-   Utilità: un sottoinsieme degli strumenti disponibili nel menu principale Utilità di Draft.
 
 
 
@@ -316,17 +308,9 @@ Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale della [Vist
 
 ### Opzioni di default 
 
-If there is an active document the context menu contains one additional sub-menu:
-
-
-<div class="mw-translate-fuzzy">
-
 Se è presente un documento attivo, il menu contestuale contiene un ulteriore sottomenu:
 
--    **Utilità**: un sottoinsieme degli strumenti disponibili nel menu principale Utilità di Draft.
-
-
-</div>
+-   Utilità: un sottoinsieme degli strumenti disponibili nel menu principale Utilità di Draft.
 
 
 

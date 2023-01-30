@@ -13,6 +13,8 @@
 
 Transforme le système de coordonnées d\'une face en un système de coordonnées particulier - rectangulaire ou cylindrique.
 
+
+
 ## Utilisation
 
 1.  Appliquer d\'abord une [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md) à une face.
@@ -26,6 +28,8 @@ Transforme le système de coordonnées d\'une face en un système de coordonnée
 ## Limitations
 
 -   La transformation cylindrique ne peut être appliquée qu\'aux faces cylindriques.
+
+
 
 ## Remarques
 

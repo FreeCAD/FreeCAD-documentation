@@ -33,7 +33,7 @@ Mac OS X 10.12 Sierra est la version minimum compatible.
 
 ### Notes aux utilisateurs de GNU/Linux 
 
-La plupart des distributions portent FreeCAD dans leurs référentiels officiels. Toutefois, si la distribution ne suit pas un modèle de version évolutive, la version fournie peut être obsolète. À la place, vous pouvez télécharger l'AppImage ci-dessus, le marquer comme exécutable et le lancer sans installation.
+La plupart des distributions portent FreeCAD dans leurs dépôts officiels. Toutefois, si la distribution ne suit pas un modèle de version évolutive, la version fournie peut être obsolète. À la place, vous pouvez télécharger l'AppImage ci-dessus, la marquer comme exécutable et la lancer sans installation.
 
 Veuillez consulter la page [Installation sous Unix](Installing_on_Linux/fr.md) pour plus d\'options d\'installation, y compris les paquets quotidiens pour Ubuntu et ses dérivés.
 

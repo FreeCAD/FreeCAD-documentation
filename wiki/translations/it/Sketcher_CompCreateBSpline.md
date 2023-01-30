@@ -1,53 +1,30 @@
 ---
 - GuiCommand:/it
-   Name:Sketcher Create a B-spline
+   Name:Sketcher B-splines
    Name/it:B-spline
    Icon:Sketcher_CompCreateBSpline.png
+   MenuLocation:
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Nessuno (solo nella barra degli strumenti)
    Version:0.17
 ---
 
 # Sketcher CompCreateBSpline/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-**Crea una B-spline** è un pulsante icona nella barra degli strumenti delle geometrie dello Sketcher che raggruppa gli strumenti per creare una curva B-spline. Fare clic sulla freccia giù alla sua destra per espandere le icone sotto di esso e selezionare uno strumento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Tipi di B-spline 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline/it.md) : Disegna una curva B-spline dai suoi punti di controllo.
--   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-spline periodica](Sketcher_CreatePeriodicBSpline/it.md) : Disegna una curva B-spline periodica (chiusa) dai suoi punti di controllo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+**Crea una B-spline** è un pulsante icona nella barra degli strumenti delle geometrie di Sketcher che raggruppa gli strumenti per creare una curva B-spline. Fare clic sulla freccia giù alla sua destra per espandere le icone sottostanti e selezionare uno strumento.
 
 
 
+## Tipi di B-Splines 
+
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline/it.md) : Disegna una B-Spline dai suoi punti di controllo.
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-spline Periodica](Sketcher_CreatePeriodicBSpline/it.md) : Disegna una B-Spline periodica (chiusa) dai suoi punti di controllo.
 
 
-</div>
+
 
 
 {{Sketcher Tools navi

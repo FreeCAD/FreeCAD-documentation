@@ -29,6 +29,8 @@ Ten samouczek ma na celu nauczenie początkujących użytkowników FreeCAD kilku
 -   Edycja jednego lub wielu wymiarów.
 -   Korzystanie z funkcji geometrii zewnętrznej i użycie płaszczyzny odniesienia do wyśrodkowania otworu.
 
+
+
 ### Używanie [Środowiska pracy Projekt Części](PartDesign_Workbench/pl.md), rysowanie szkicu 
 
 Stwórz nowy dokument i wybierz Środowisko pracy **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Projekt Części'''** używając [okienka wyboru](Getting_started/pl#Poznawaj_interfejs_użytkownika.md) *(numer 10 na obrazku)* lub przez menu *Widok → Środowiska pracy*. FreeCAD uruchamia się z paskami narzędzi u góry, \"widokiem łączonym\" po lewej, i widokiem 3d po prawej.
@@ -125,6 +127,8 @@ Czynności należy przeprowadzić w ten sam sposób w odniesieniu do wszystkich 
 
 Jeśli Twój szkic nadal nie jest wyświetlany na zielono, sprawdź, czy wszystkie linie *(z wyjątkiem ukośnej)* mają zdefiniowane albo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [wiązania poziome](Sketcher_ConstrainHorizontal/pl.md) lub <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [wiązania pionowe](Sketcher_ConstrainVertical/pl.md). W razie potrzeby dodaj je.
 
+
+
 ### Używanie funkcji wyciągnięcia i kieszeni 
 
 Kliknij w przycisk **Close** w zakładce **zadania**. Środowisko pracy Sketcher zostanie automatycznie zamknięte, a Part Design ponownie wybrane. **Widok złozony** powróci do zakładki **Model**. Jeśli zostawiłeś element \"Body part1\" rozwinięty na drzewku, to zobaczysz nowy element obok **Origin**, zagnieżdżony w elemencie **Body**.
@@ -151,13 +155,21 @@ Za pomocą narzędzia <img alt="" src=images/Sketcher_Circle.svg  style="width:2
 
 Wybierz okrąg i stwórz wiązanie za pomocą narzędzia <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Zwiąż łuk lub okrąg](Sketcher_ConstrainRadius/pl.md), jako miarę promienia podaj 5mm.
 
+
+<div class="mw-translate-fuzzy">
+
 Wybierz punkt będący środkiem okręgu, a następnie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Utwórz blokadę wiązania dla wybranego elementu](Sketcher_ConstrainLock.md); kliknij dwukrotnie na pole z wymiarem poziomym i wpisz wartość **-65**mm *(tutaj wskazujemy pozycję względem pochodzenia szkicu)*. To samo dotyczy wymiaru pionowego *(-15mm)*. Okrąg zajmuje właściwą pozycję, a szkic staje się zielony, co oznacza, że jest w pełni związany:
+
+
+</div>
 
 ![](images/GGTuto1_6.PNG )
 
 Zamknij szkic, w drzewie modelu pojawił się nowy o obiekt o nazwie **Sketch001**. Podczas gdy szkic jest cały czas zaznaczony, kliknij przycisk narzędzia <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Utwórz kieszeń z wybranego szkicu](PartDesign_Pocket.md).
 
 Kieszeń jest właściwością zwaną \"substrakcyjną\", usuwa materiał z naszej części, tutaj w formie cylindra, ponieważ szkic jest kołem. Ustaw jako Typ wartość **Przez wszystkie**, aby całkowicie wyciąć część. Wciśnij przycisk **OK**, aby zakończyć operację. W drzewie modelu na dole części Body1 pojawia się nowy element oznaczony **Pocket** i wskazuje Sketch001.
+
+
 
 ### Zmiana koloru i przezroczystości 
 
@@ -191,6 +203,8 @@ Przytrzymaj i przeciągnij wierzchołek na osi lub kulę, aby bryłą ciałem w 
 Potwierdź.
 Następnie zresetuj kąty i współrzędne do wartości 0.
 
+
+
 ### Wyświetlanie wymiarów w szkicu 
 
 Przydatna może okazać się znajomość wymiarów niektórych fragmentów szkicu, na podstawie wewnętrznych obliczeń FreeCAD. Informacje te mogą być użyte tylko do celów poglądowych lub można wykorzystać je później np. do zdefiniowania innych wymiarów.
@@ -204,6 +218,8 @@ Na przykład można wyświetlić informacje o tych wymiarach:
 Widzimy na przykład, że długość łuku wynosi 20, ponieważ jest on styczny do krawędzi.
 
 Widzimy również, że FreeCAD dokonuje obliczeń lewego boku *(50-50xTAN 30°)*, jak również wymiaru odległości osi łuku wraz z jego początkiem.
+
+
 
 ### Edycja jednego lub wielu wymiarów 
 

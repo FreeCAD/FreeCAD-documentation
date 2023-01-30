@@ -2,6 +2,8 @@
 {{TOCright}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Prezentare generală 
@@ -11,7 +13,7 @@ Editorul proprietății este unul dintre cele mai importante instrumente ale Fre
 
 </div>
 
-The [property editor](property_editor.md) appears when the **Model** tab of the [combo view](combo_view.md) is active in the [interface](interface.md); it allows managing the publicly exposed properties of the objects in the document.
+The [property editor](Property_editor.md) appears when the **Model** tab of the [combo view](Combo_view.md) is active in the [interface](interface.md); it allows managing the publicly exposed properties of the objects in the document.
 
 
 <div class="mw-translate-fuzzy">
@@ -39,6 +41,8 @@ Nu toate proprietățile pot fi modificate în orice moment. În funcție de sta
 *Empty property editor, when no object is selected.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Property definition 
@@ -58,7 +62,9 @@ Obiecte personalizate [scripted objects](scripted_objects.md) în FreeCAD pot av
 
 </div>
 
-Some of the most commonly used property types are: 
+Some of the most commonly used property types are:
+
+
 ```python
 App::PropertyBool
 App::PropertyFloat
@@ -96,7 +102,7 @@ For this reason, **Data** properties are considered to be more \"real\", as they
 
 **See also: [Object name](Object_name.md)**
 
-The most basic [scripted object](scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
+The most basic [scripted object](Scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](Tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
 
 A basic parametric object is created as follow
 
@@ -134,7 +140,7 @@ When the **Show all** option is active, and one property is selected, more actio
 
 -    **Show all**: deactivates the **Show all** command, hiding the additional Data and View properties.
 
--    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](scripted_objects.md).
+-    **Add Property**: adds a dynamic property to the object; this works with both C++ defined objects, and Python [scripted objects](Scripted_objects.md).
 
 -    **Expression...**: brings up the formula editor, which allows using [expressions](Expressions.md) in the property value.
 
@@ -153,6 +159,8 @@ When the **Show all** option is active, and one property is selected, more actio
 -    **EvalOnRestore**: if active, it is evaluated when the document is restored.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Exemplu de proprietăți obiecte Piese 
@@ -163,6 +171,8 @@ When the **Show all** option is active, and one property is selected, more actio
 </div>
 
 In this section we show some common properties that are visible for a [PartDesign Body](PartDesign_Body.md), and one [PartDesign Feature](PartDesign_Feature.md). The specific properties of an object can found in the specific documentation page of that object.
+
+
 
 ### Vizualizare
 
@@ -175,6 +185,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 
 </div>
+
+
+{{TitleProperty|Base}}
 
 
 <div class="mw-translate-fuzzy">
@@ -209,6 +222,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 </div>
 
+
+
+
 ### Data
 
 In this case we observe the properties of the [PartDesign Revolution](PartDesign_Revolution.md) feature.
@@ -220,6 +236,9 @@ In this case we observe the properties of the [PartDesign Revolution](PartDesign
 
 
 </div>
+
+
+{{TitleProperty|Base}}
 
 
 <div class="mw-translate-fuzzy">
@@ -297,12 +316,16 @@ If you select the title **Placement** <img alt="Options Placement" src=images/Ta
 
 See [scripted objects](scripted_objects.md) for the full information on adding properties to objects defined through [Python](Python.md).
 
-Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute. 
+Most properties that are visible in the property editor can be accessed from the [Python console](Python_console.md). These properties are just attributes of the class that defines the selected object. For example, if the property editor shows the **Group** property, this means that the object has the `Group` attribute.
+
+
 ```python
 print(obj.Group)
 ```
 
-These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name. 
+These attributes (properties) are added with the `addProperty` method of the base object. At least it is necessary to specify the type of [property](property.md), and its name.
+
+
 ```python
 obj.addProperty("App::PropertyFloat", "Custom")
 print(obj.Custom)
@@ -331,7 +354,9 @@ print(obj.ViewObject.DisplayModeBody)
 print(obj.ViewObject.LineColor)
 ```
 
-All public properties of the object, and of its view provider, are contained in the corresponding `PropertiesList` attribute. 
+All public properties of the object, and of its view provider, are contained in the corresponding `PropertiesList` attribute.
+
+
 ```python
 print(obj.PropertiesList)
 print(obj.ViewObject.PropertiesList)

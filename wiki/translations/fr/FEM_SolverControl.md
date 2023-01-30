@@ -12,11 +12,13 @@
 
 ## Description
 
-Cette commande est utilisée pour contrôler le solveur FEM (écrire le fichier d\'entrée, l\'éditer, et déclencher le solveur).
+Cette commande est utilisée pour contrôler le solveur FEM (écrire le fichier d\'entrée, l\'éditer et lancer le solveur).
+
+
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet Solver dans la [vue en arborescence](Tree_view/fr.md), par exemple, pour le <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> **Solveur Calculix standard**.
+1.  Sélectionnez l\'objet Solver dans la [vue en arborescence](Tree_view/fr.md), par exemple, pour le <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> **Solveur standard Calculix**.
 2.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_SolverControl.svg" width=16px> [Contrôle des tâches du solveur](FEM_SolverControl/fr.md)**.
     -   Sélectionnez l\'option **Solveur → <img src="images/FEM_SolverControl.svg" width=16px> Contrôle des tâches du solveur** dans le menu.
@@ -26,8 +28,10 @@ Cette commande est utilisée pour contrôler le solveur FEM (écrire le fichier 
 5.  Cliquez sur **Écrire le fichier .inp** pour écrire le fichier d\'entrée.
 6.  Vous pouvez cliquer sur **Editer le fichier .inp**.
     -   Le fichier d\'entrée s\'ouvre pour que vous puissiez le modifier et l\'enregistrer par **Ctrl**+**S**.
-7.  Cliquez sur **Run CalculiX** pour lancer le solveur.
+7.  Cliquez sur **Lancer CalculiX** pour lancer le solveur.
     -   La solution peut prendre un temps considérable pour les grands modèles.
+
+
 
 ## Remarques
 

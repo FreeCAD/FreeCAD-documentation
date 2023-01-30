@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher BSplineDecreaseDegree
    Name/fr:Sketcher Diminuer le degré d'une B-spline
-   MenuLocation:Esquisse → Outils d'esquisse B-Spline → Diminuer le degré de la B-spline
+   MenuLocation:Esquisse → Outils d'esquisse des B-splines → Diminuer le degré de la B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Sketcher Afficher/masquer degré d'une B-spline](Sketcher_BSplineDegree/fr.md), [Sketcher Augmenter le degré d'une B-spline](Sketcher_BSplineIncreaseDegree/fr.md)
@@ -20,7 +20,7 @@ Dans cette spline cubique (degré 3) il y a 3 segments, ce qui signifie que 3 co
 (le degré est indiqué par le nombre, l\'indication peut être modifiée à l\'aide du bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Afficher/masquer le degré B-spline](Sketcher_BSplineDegree/fr.md)**):
 
 <img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
-*B-spline avec de degrés 3 et 2 nœuds qui ont chacun la multiplicité 1.*
+*Une B-spline de degrés 3 et avec 2 nœuds qui ont chacun la multiplicité 1.*
 
 Les segments extérieurs ont chacun 2 points de contrôle, le point intérieur aucun pour remplir la contrainte que les nœuds ont la multiplicité 1. (voir [cette page](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md) pour une explication de la multiplicité)
 

@@ -12,12 +12,14 @@
 
 ## Description
 
-L\'outil [Arch Structure](Arch_Structure/fr.md) vous permet de construire les éléments structurels, tels que colonnes ou poutres, en précisant leur largeur, longueur et hauteur ou en les basant sur un profil 2D (face, polyligne ou esquisse).
+L\'outil [Arch Structure](Arch_Structure/fr.md) vous permet de construire les éléments structurels, tels que des colonnes ou des poutres, en précisant leur largeur, longueur et hauteur ou en les basant sur un profil 2D (face, polyligne ou esquisse).
 
 Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour construire rapidement un élément structurel à partir d\'un profil standard prédéfini.
 
 ![](images/Arch_Structure_example.jpg ) 
 *Colonne basée sur un profil de base 2D; une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base; une structure métallique basée sur une face 2D*
+
+
 
 ## Utilisation
 
@@ -36,7 +38,11 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 -   Double-cliquer sur la structure dans l\'arborescence après sa création vous permet d\'entrer dans le mode édition pour accéder et modifier ses ajouts et retraits.
 -   En mode édition, il est également possible d\'ajouter un [système d\'axes](Arch_Axis/fr.md) à l\'élément structurel. Lors de l\'ajout d\'un système d\'axes, l\'élément structurel sera copié une fois sur chaque axe du système. Lors de l\'ajout de deux systèmes d\'axes, l\'élément structurel sera copié une fois sur chaque point d\'intersection des deux systèmes.
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -54,11 +60,15 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 
 -    **Nodes Offset**: spécifie un décalage facultatif entre la ligne médiane et la ligne des nœuds.
 
+
+
 ### Vues
 
--    **Nodes Type**: Le type de nœuds structurels de cet objet, linéaire ou zone.
+-    **Nodes Type**: type de nœuds structurels de cet objet, linéaire ou zone.
 
--    **Show Nodes**: Affiche ou masque les nœuds structurels.
+-    **Show Nodes**: affiche ou masque les nœuds structurels.
+
+
 
 ## Prérequis
 
@@ -67,12 +77,14 @@ L\'outil Structure dispose aussi d\'une série de préréglages qui permettent d
 ![](images/Arch_presets_example.jpg ) 
 *Quelques préréglages pour les structures en acier*
 
-Les présélections sont obtenues en choisissant une **Catégorie** à partir du panneau d\'options de structure. Les catégories disponibles sont **Béton préfabriqué** ou un des profilés métalliques standard de l\'industrie tels que **HEA**, **HEB** ou **INP**. Pour chacune de ces catégories, un certain nombre de préréglages est disponible. Une fois qu\'une présélection est choisie, ses paramètres individuels tels que **Longueur**, **Largeur** ou **Hauteur** peuvent être ajustés. Cependant, pour des profilés métalliques, la taille du profil est définie par le préréglage et ne peut pas être modifiée.
+Les présélections sont obtenues en choisissant une **Catégorie** à partir du panneau d\'options de structure. Les catégories disponibles sont **Béton préfabriqué** ou un des profilés métalliques standard de l\'industrie tels que **HEA**, **HEB** ou **INP**. Pour chacune de ces catégories, un certain nombre de préréglages est disponible. Une fois qu\'une présélection est choisie, ses propres paramètres tels que **Longueur**, **Largeur** ou **Hauteur** peuvent être ajustés. Cependant, pour des profilés métalliques, la taille du profil est définie par le préréglage et ne peut pas être modifiée.
 
-Le bouton **Commutateur L/H** peut être utilisé pour donner les valeurs de la longueur et de la hauteur, et la construction d\'une poutre horizontale plutôt que d\'une colonne verticale.
+Le bouton **Commutateur L/H** peut être utilisé pour intervertir les valeurs de longueur et de hauteur, et ainsi construire une poutre horizontale plutôt qu\'une colonne verticale.
 
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Quelques préréglages pour les structures préfabriquées en béton*
+
+
 
 ## Structure des nœuds 
 
@@ -90,6 +102,8 @@ L\'objet structurel a également la possibilité d\'afficher les nœuds structur
     -   Étendre les nœuds de l\'objet modifié jusqu\'à ce qu\'il touchent le nœud d\'un autre objet.
     -   Construire le nœud de cet objet et le rendre coïncidant à un autre.
     -   Activer/désactiver l\'affichage de tous les nœuds de tous les objets structurels du document
+
+
 
 ## Script
 

@@ -105,6 +105,8 @@ Funcția Boolean Fragments (\"Fragmente booleene\") în modul \"Standard\" este 
 
 Pentru modurile \"Split\" și \"CompSolid\", post-procesarea suplimentară este efectuată de FreeCAD.
 
+
+
 ## Script
 
 
@@ -120,7 +122,10 @@ Instrumentul poate fi utilizat în [macros](macros.md) și din consola python ut
 -   Creează o funcție()onalitate BooleanFragments vidă. Proprietatea \"Obiecte\" trebuie să fie atribuită în mod explicit, după aceea.
 -   Returnează obiectul nou creat.
 
-BooleanFragments poate fi aplicată și în forme simple, fără a avea nevoie de un obiect de document, prin: {{code|code=
+BooleanFragments poate fi aplicată și în forme simple, fără a avea nevoie de un obiect de document, prin:
+
+
+{{code|code=
 import BOPTools.SplitAPI
 BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 
@@ -129,7 +134,9 @@ BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
 list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
 pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
 # pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence 
-}} Acest lucru poate fi util pentru crearea de caracteristici scripturi personalizate Python.
+}}
+
+Acest lucru poate fi util pentru crearea de caracteristici scripturi personalizate Python.
 
 Exempluː {{code|code=
 import BOPTools.SplitFeatures

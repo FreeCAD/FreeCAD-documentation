@@ -1,11 +1,5 @@
 # Release notes 0.16/it
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da [Github](https://github.com/FreeCAD/FreeCAD/releases). Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.15](Release_notes_0.15/it.md) - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
-
-
-</div>
-
+FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.16). Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.15](Release_notes_0.15/it.md) - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
 <img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 
@@ -56,9 +50,13 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   Nuove funzionalità: Strumenti per la duplicazione, la riflessione e la schiera rettangolare
 -   Supporto per l\'impiego di [espressioni o formule](Expressions/it.md) nei vincoli e nelle proprietà
 
+
+
 ## Ambiente Spreadsheet 
 
 -   Aggiunte le funzioni: round, trunc, ceil, e floor.
+
+
 
 ## Ambiente Draft 
 
@@ -69,15 +67,9 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 <img alt="" src=images/Draft_subdivisions.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Ambiente Drawing 
 
 -   Il nuovo strumento **[Vista foglio di calcolo](Drawing_SpreadsheetView/it.md)** permette di inserire un intervallo di celle di un [foglio di calcolo](Spreadsheet_Workbench/it.md) in una pagina di Drawing.
-
-
-</div>
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
@@ -113,19 +105,17 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   **Macro GMSH** Uno sviluppo esterno interessante è la [Macro GMSH](Macro_GMSH/it.md) che rende possibile l\'uso di GMSH per il meshing. Molto utile per tutti coloro che non sono in grado di compilare FreeCAD con NetGen o per meshing shell or edge meshes.
 -   **Miglioramenti generali** Dato il suo consistente sviluppo, ci sono stati molti miglioramenti nel codice di base del modulo FEM.
 
+
+
 ## Ambiente Path 
 
 ![](images/Exercise_path_02.jpg )
 
 A FreeCAD è stato aggiunto il nuovo ambiente [Path](Path_Workbench/it.md). Questo ambiente è ancora in fase di sviluppo, ma implementa già alcune operazioni CAM, e permette di esportare un programma completo in [G-code](https://en.wikipedia.org/wiki/G-code) per una varietà di macchine CNC.
 
-
-<div class="mw-translate-fuzzy">
-
 Allo stato attuale, l\'ambiente permette di creare profili e tasche basate su un oggetto [Part](Part_Workbench/it.md), di creare percorsi complessi unendo diversi percorsi parziali, di controllare e modificare i contenuti del G-code dei percorsi, di gestire la tabella utensili, e di scegliere tra diversi script di pre-elaborazione e post-elaborazione per l\'importazione e l\'esportazione del G-code. Fornisce già anche una completa [API python](Path_scripting/it.md).
 
 
-</div>
 
 ## Moduli aggiuntivi 
 

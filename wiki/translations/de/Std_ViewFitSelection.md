@@ -1,27 +1,33 @@
 ---
 - GuiCommand:/de
    Name:Std ViewFitSelection
-   Name/de:Std ViewFitSelection
+   Name/de:Std AnsichtAuswahlEinpassen
    MenuLocation:Ansicht → Standardansichten → Auswahl einpassen
    Workbenches:Alle
    Shortcut:**V****S**
-   SeeAlso:[Std AnsichtAlleseinpassen](Std_ViewFitAll/de.md)
+   SeeAlso:[Std AnsichtAllesEinpassen](Std_ViewFitAll/de.md)
 ---
 
 # Std ViewFitSelection/de
 
+
+
 ## Beschreibung
 
-Der **Std AnsichtEinpassenAuswahl**-Befehl zoomt und schwenkt, so dass alle ausgewählten Objekte in die aktive [3D-Ansicht](3D_view/de.md) passen.
+Der Befehl **Std AnsichtAuswahlEinpassen** zoomt und schwenkt die Kamera, so dass alle ausgewählten Objekte in die aktive [3D-Ansicht](3D_view/de.md) passen.
+
+
 
 ## Anwendung
 
-1.  Wähle ein oder mehrere Objekte.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Std_ViewFitSelection.svg" width=16px> [Std AnsichtEinpassenAuswahl](Std_ViewFitSelection/de.md)**-Schaltfläche.
-    -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewFitSelection.png" width=16px>-Option einpassen** aus dem Menü.
-    -   Wähle die **<img src="images/Std_ViewFitSelection.svg" width=16px> Auswahl einpassen**-Option aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü.
-    -   Benutze den Tastaturkurzbefehl **V**, dann **S**.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_ViewFitSelection.svg" width=16px> [Einpassen](Std_ViewFitSelection/de.md)** drücken.
+    -   Den Menüeintrag **Ansicht → Standardansichten → <img src="images/Std_ViewFitSelection.png" width=16px> Einpassen** auswählen.
+    -   Den Menüeintrag **<img src="images/Std_ViewFitSelection.svg" width=16px> Auswahl einpassen** aus dem Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Das Tastaturkürzel **V**, dann **S**.
+
+
 
 ## Skripten
 

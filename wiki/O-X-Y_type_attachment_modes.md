@@ -29,7 +29,7 @@ Take mode O-X-Z as an example.
 
 For other modes, the axes are mapped in the corresponding fashion.
 
-If **Reference3** is not provided, FreeCAD makes default choices for it. For modes O-X-Y, O-X-Z, O-Y-X and O-Y-Z **Reference3** is taken to align with the global Z-axis. For modes O-Z-X and O-Z-Y **Reference3** is taken to be the global Y-axis.
+If **Reference3** is not provided, FreeCAD makes default choices for it. For modes O-X-Y, O-X-Z, O-Y-X and O-Y-Z **Reference3** is taken to align with the local Z-axis. For modes O-Z-X and O-Z-Y **Reference3** is taken to be the local Y-axis.
 
 
 

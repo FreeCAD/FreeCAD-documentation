@@ -7,9 +7,9 @@
 
 Pour lancer **l\'Éditeur de préférences**, sélectionnez l\'option **Édition → Préférences...** dans le menu. Sur Mac OS, l\'option **Préférences...** apparaît dans le menu **FreeCAD** à la place (c\'est l\'emplacement par défaut des préférences sur Mac).
 
-FreeCAD utilise un concept d\'atelier où chaque atelier peut avoir ses propres préférences. Celles-ci n\'apparaîtront dans l\'éditeur de préférences que si l\'atelier a été chargé dans la session FreeCAD en cours. Voir [Ateliers](#Ateliers.md) ci-dessous pour plus d\'informations.
+FreeCAD utilise un concept d\'atelier où chaque atelier est responsable de tâches et de fonctions particulières. Un atelier peut avoir ses propres préférences. Celles-ci n\'apparaîtront dans l\'éditeur de préférences que si l\'atelier a été chargé dans la session FreeCAD en cours. Voir [Ateliers](#Ateliers.md) ci-dessous pour plus d\'informations.
 
-Si aucun atelier n\'est chargé, cinq sections apparaissent dans l\'éditeur de préférences : [Générales](#G.C3.A9n.C3.A9ral.md), [Affichage](#Affichage.md), [Ateliers](#Ateliers.md), [Gestionnaire des extensions](#Gestionnaire_des_extensions.md) et [Import-Export](#Import-Export.md). Tous les ateliers qui ont été chargés, et qui ont leurs propres préférences, apparaîtront en dessous de ceux-ci.
+Si aucun atelier n\'est chargé, cinq sections apparaissent dans l\'éditeur de préférences : [Générales](#G.C3.A9n.C3.A9ral.md), [Affichage](#Affichage.md), [Ateliers](#Ateliers.md), [Gestionnaire des extensions](#Gestionnaire_des_extensions.md) et [Import-Export](#Import-Export.md). Tous les ateliers qui ont été chargés et qui ont leurs propres préférences, apparaîtront en dessous de ceux-ci.
 
 Veuillez noter qu\'en appuyant sur le bouton **Réinitialiser** dans le coin inférieur gauche du dialogue des préférences, vous réinitialiserez **toutes** les préférences de FreeCAD à leurs valeurs par défaut.
 
@@ -19,7 +19,7 @@ Certaines préférences avancées ne peuvent être modifiées que dans l\'[Édit
 
 ## Général
 
-Cette section des préférences comporte 9 onglets standard : Général, Document, Sélection, Cache, Éditeur, Console Python, Fenêtre de sortie, Macro et Unités. Un dixième onglet, Help, est ajouté si l\'[extension Help](https://github.com/FreeCAD/FreeCAD-Help) est ajoutés. Cette extension peut être installée via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+Cette section des préférences comporte 9 onglets standard : Général, Document, Sélection, Cache, Éditeur, Console Python, Vue rapport, Macro et Unités. Un dixième onglet, Help, est ajouté si l\'[extension Help](https://github.com/FreeCAD/FreeCAD-Help) est ajoutée. Cette extension peut être installée via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 
 
@@ -352,9 +352,9 @@ Dans l\'onglet *Console Python* ({{Version/fr|0.20}}), vous pouvez spécifier le
 
 
 
-### Fenêtre de sortie / Vue rapport 
+### Fenêtre de sortie/Vue rapport 
 
-**Remarque importante :** cet onglet a été renommé de fenêtre de sortie à **Vue rapport**. {{Version/fr|1.0}}
+**Remarque importante :** cet onglet a été renommé de Fenêtre de sortie à **Vue rapport**. {{Version/fr|1.0}}
 
 Ces préférences contrôlent le comportement de la [Vue rapport](Report_view/fr.md). Ce panneau peut être ouvert à l\'aide de l\'option de menu **Affichage → Panneaux → Vue rapport**.
 

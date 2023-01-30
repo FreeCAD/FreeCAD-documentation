@@ -12,6 +12,8 @@
 
 Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fois à une certaine distance d\'intervalle.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'opération que vous souhaitez répéter
@@ -19,6 +21,8 @@ Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fo
 **
 3.  Pressez **Appliquer**
 4.  Ajustez les propriétés souhaitées dans la boîte de dialogue des données
+
+
 
 ## Propriétés
 
@@ -28,10 +32,12 @@ Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fo
 
 -    **Copies**: nombre de copies (sans compter l\'original) pour chaque direction
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

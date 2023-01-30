@@ -9,6 +9,8 @@ L\'[atelier FEM](FEM_Workbench/fr.md) fournit un déroulement de tâches moderne
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
+
+
 ## Déroulement des tâches 
 
 Les étapes pour effectuer une analyse d'éléments finis sont les suivantes :
@@ -30,9 +32,13 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 *Déroulement des tâches de l'atelier FEM; l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis.*
 
+
+
 ## Menu : Modèle 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md) : crée un nouveau conteneur pour une analyse mécanique. Si un solide est sélectionné dans l\'arborescence avant de cliquer dessus, la boîte de dialogue de maillage s\'ouvrira.
+
+
 
 ### Matériaux
 
@@ -46,6 +52,8 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editeur de matériaux](FEM_MaterialEditor/fr.md) : permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
 
+
+
 ### Géométrie de l\'élément 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Coupe transversale élément type poutre](FEM_ElementGeometry1D/fr.md) : utilisé pour définir les sections transversales d\'éléments de type poutre.
@@ -54,11 +62,15 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Épaisseur élément de type coque](FEM_ElementGeometry2D/fr.md) : utilisé pour définir l\'épaisseur de l\'élément de type coque.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide pour flux 1D](FEM_ElementFluid1D/fr.md) : utilisé pour créer un élément de section fluide pour les réseaux pneumatiques et hydrauliques.
+-   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide 1D](FEM_ElementFluid1D/fr.md) : utilisé pour créer un élément de section fluide pour les réseaux pneumatiques et hydrauliques.
+
+
 
 ### Contraintes électrostatiques 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : utilisé pour définir le potentiel électrostatique.
+
+
 
 ### Contraintes de fluides 
 
@@ -68,13 +80,17 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
 
+
+
 ### Contraintes géométriques 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte de rotation du plan](FEM_ConstraintPlaneRotation/fr.md) : permet de définir une contrainte de rotation plane sur une face plane.
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'empreinte de section](FEM_ConstraintSectionPrint/fr.md) : permet d\'imprimer les variables de sortie faciales prédéfinies (forces et moments) dans le fichier de données. {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'affichage de la section](FEM_ConstraintSectionPrint/fr.md) : permet d\'afficher les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Contrainte de transformation](FEM_ConstraintTransform/fr.md) : utilisé pour définir une contrainte de transformation sur une face.
+
+
 
 ### Contraintes mécaniques 
 
@@ -96,6 +112,8 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte du poids propre](FEM_ConstraintSelfWeight/fr.md) : permet de définir une accélération de gravité agissant sur un modèle.
 
+
+
 ### Contraintes thermiques 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md) : permet de définir la température initiale d\'un corps.
@@ -105,6 +123,8 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 -   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Contrainte de température](FEM_ConstraintTemperature/fr.md) : permet de définir une contrainte de température sur un point/bord/face(s).
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) : utilisé pour définir une source de chaleur interne d\'un objet.
+
+
 
 ### Contraintes sans solveur 
 
@@ -116,9 +136,13 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Contrainte de poulie](FEM_ConstraintPulley/fr.md) : utilisé pour définir une contrainte de poulie.
 
+
+
 ### Écraser des constantes 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md) : permet de remplacer la [permittivité du vide](https://fr.wikipedia.org/wiki/Permittivit%C3%A9_du_vide) par une valeur personnalisée. {{Version/fr|0.19}}
+
+
 
 ## Menu : Maillage 
 
@@ -136,6 +160,8 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md) : convertit la surface d\'un maillage FEM en maillage.
 
+
+
 ## Menu : Solveur 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) : crée un nouveau solveur pour cette analyse. Dans la plupart des cas, le solveur est créé avec l\'analyse.
@@ -150,9 +176,9 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Équation d\'élasticité](FEM_EquationElasticity/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses mécaniques.
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Équation force électrique](FEM_EquationElectricforce/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveu Elmer](FEM_SolverElmer/fr.md) pour calculer la force électrique sur les surfaces. {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Équation force électrique](FEM_EquationElectricforce/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour calculer la force électrique sur les surfaces. {{Version/fr|0.19}}
 
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Équation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses électrostatiques.
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Équation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses électrostatiques.
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width:32px;"> [Équation d\'écoulement](FEM_EquationFlow/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses d\'écoulement.
 
@@ -160,9 +186,11 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Équation de chaleur](FEM_EquationHeat/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses de transfert de chaleur.
 
--   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Contrôle du travail du solveur](FEM_SolverControl/fr.md) : ouvre le menu pour ajuster et démarrer le solveur sélectionné.
+-   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Contrôle du travail du solveur](FEM_SolverControl/fr.md) : ouvre le menu pour ajuster et lancer le solveur sélectionné.
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Résolution](FEM_SolverRun/fr.md) : lance le solveur sélectionné de l\'analyse active.
+
+
 
 ## Menu : Résultats 
 
@@ -172,9 +200,9 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Appliquer les modifications au pipeline](FEM_PostApplyChanges/fr.md) : active l\'application immédiate des modifications apportées aux pipelines et aux filtres.
 
--   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Pipeline à partir du résultat](FEM_PostPipelineFromResult/fr.md) : permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
+-   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Pipeline de résultats](FEM_PostPipelineFromResult/fr.md) : permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
 
--   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtre de visualisation des déformations](FEM_PostFilterWarp/fr.md) : utilisé pour visualiser la forme déformée à l\'échelle du modèle.
+-   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtre des déformations](FEM_PostFilterWarp/fr.md) : utilisé pour visualiser la forme déformée à l\'échelle du modèle.
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtre d\'écrêtage scalaire](FEM_PostFilterClipScalar/fr.md) : utilisé pour écrêter un champ avec une valeur scalaire spécifiée.
 
@@ -194,6 +222,8 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
   - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Filtre fonction sphère](FEM_PostCreateFunctionSphere/fr.md) : fait que le maillage résultant est coupé avec une sphère.
 
+
+
 ## Menu : Utilitaires 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Plan de coupe](FEM_ClippingPlaneAdd/fr.md) : ajoute un plan de découpe pour l\'ensemble de la vue du modèle.
@@ -202,15 +232,21 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Exemples](FEM_Examples/fr.md) : ouvre l\'interface graphique pour accéder aux exemples de FEM.
 
+
+
 ## Menu contextuel 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Supprimer maillage FEM](FEM_MeshClear/fr.md) : supprime le fichier de maillage du fichier FreeCAD. Utile pour alléger un fichier FreeCAD.
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Affichage des informations du maillage FEM](FEM_MeshDisplayInfo/fr.md) : affiche les statistiques de base du maillage existant - nombre de nœuds et d\'éléments de chaque type.
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Préférences\...](FEM_Preferences/fr.md) : préférences disponibles dans les outils FEM.
+
+
 
 ## Informations
 
@@ -225,6 +261,8 @@ Les pages suivantes décrivent différents sujets de l\'atelier FEM.
 [FEM CalculiX](FEM_CalculiX/fr.md) : pour plus d'informations sur CalculiX, le solveur par défaut utilisé dans l\'atelier pour l\'analyse des structures.
 
 [FEM Béton](FEM_Concrete/fr.md) : des informations intéressantes sur le thème de la simulation des structures en béton.
+
+
 
 ## Tutoriels
 
@@ -242,13 +280,15 @@ Tutoriel 6 : [Post-traitement des résultats FEM avec Paraview](Post-Processing_
 
 Tutoriel 7 : [Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md) ; Tutoriel 6 Interface graphique d\'Elmer \"Exemple calcul capacité de deux sphères\" utilisant des exemples FEM.
 
-Tutoriel analyse de couple thermique [openSIM](https://opensimsa.github.io/training.html)
+Tutoriels d\'analyse thermomécanique couplée par [openSIM](https://opensimsa.github.io/training.html)
 
 Tutoriel vidéo 1 : [Vidéo FEM pour les débutants](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) (avec lien sur YouTube)
 
 Tutoriel vidéo 2 : [Vidéo FEM pour les débutants](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) (avec lien sur YouTube)
 
 Nombreux tutoriels vidéo : [anisim Logiciels d\'ingénierie à code source ouvert](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (en allemand)
+
+
 
 ## Extension de l\'atelier FEM 
 
@@ -267,6 +307,8 @@ Un guide du développeur a été rédigé pour aider les utilisateurs expérimen
 
 -   [Aperçu préliminaire du ebook : Guide du développeur de modules pour FreeCAD](https://forum.freecadweb.org/viewtopic.php?t=17581) (Discussion sur le forum).
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (dépôt github)
+
+
 
 ## Extension de la documentation de l\'atelier FEM 
 

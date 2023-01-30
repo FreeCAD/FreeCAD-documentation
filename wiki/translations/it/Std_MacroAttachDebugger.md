@@ -9,22 +9,20 @@
 
 # Std MacroAttachDebugger/it
 
+
+
 ## Descrizione
 
 Todo.
+
+
 
 ## Utilizzo
 
 Todo.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

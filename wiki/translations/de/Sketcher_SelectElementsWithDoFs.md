@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Sketcher SelectElementsWithDoFs
    Name/de:Sketcher UnterbestimmteElementeAuswählen
-   MenuLocation:Sketch → Skizzen-Werkzeuge → Nicht-bestimmte Freiheitsgrade auswählen
+   MenuLocation:Skizze → Skizzenwerkzeuge → Unterbestimmte Elemente auswählen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**Z** **F**
    Version:0.18
@@ -10,9 +10,13 @@
 
 # Sketcher SelectElementsWithDoFs/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug soll dabei helfen, eine Skizze vollständig zu beschränken, indem es die unterbestimmten Skizzenelemente in grün hervorhebt, d.h. die mit verbliebenen Freiheitsgraden (engl.: Degrees of Freedom, DoF).
+Dieses Werkzeug soll dabei helfen, eine Skizze vollständig zu bestimmen, indem es die unterbestimmten Skizzenelemente in grün hervorhebt, d.h. die mit verbliebenen Freiheitsgraden (engl.: Degrees of Freedom, DoF).
+
+
 
 ## Anwendung
 
@@ -25,7 +29,7 @@ Im Meldungsfeld des Lösers, das sich oben im [Aufgabebereich](Task_panel/de.md)
 :   wobei \"X\" für die Anzahl der in der Skizze verbliebenen Freiheitsgrade steht; weitere Informationen erhält man, wenn man auf den blauen Link klickt oder das Menü benutzt.
 
 1.  Die unterbestimmten Elemente werden jetzt grün hervorgehoben.
-2.  Irgendwo in die Skizzen klicke, um die Hervorhebungsfarbe zu löschen.
+2.  Irgendwo in die Skizzen klicken, um die Hervorhebungsfarbe zu löschen.
 
 -   Im Falle einer **vollständig bestimmten** Skizze:
 

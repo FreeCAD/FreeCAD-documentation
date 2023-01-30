@@ -20,9 +20,13 @@ La partie supérieure de la fenêtre est occupée par le tableau. Elle est organ
 
 <img alt="" src=images/shaftwizard1.jpg  style="width:1024px;">
 
+
+
 ## Prérequis
 
 L\'assistant de conception d\'arbre dépend de la bibliothèque [matplotlib](http://matplotlib.org/) pour créer et afficher des graphiques de force de cisaillement et de moment de flexion. Sur les systèmes basés sur Debian/Ubuntu, il est disponible via le paquet python-matplotlib.
+
+
 
 ## Paramètres
 
@@ -46,6 +50,8 @@ Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la sou
 ## Limitations
 
 -   Il n\'est pas possible d\'avoir des segments d\'arbre adjacents de même diamètre.
+
+
 
 ## Fonctionnalités prévues 
 

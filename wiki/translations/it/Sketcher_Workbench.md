@@ -176,13 +176,7 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Estendi](Sketcher_Extend/it.md): Estende una linea o un arco fino ad una linea di un bordo, arco, ellisse, arco di ellisse o un punto nello spazio.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividi](Sketcher_Split/it.md): Divide una linea o un arco in due, converte un cerchio in un arco mantenendo la maggior parte dei vincoli. <small>(v0.20)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividi](Sketcher_Split/it.md): Divide una linea in due, mantenendo la maggior parte dei vincoli. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria esterna](Sketcher_External/it.md): Crea un segmento collegato a una geometria esterna.
 
@@ -334,7 +328,7 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Inserisci il nodo](Sketcher_BSplineInsertKnot/it.md). {{Version/it|0.20}}
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md), <small>(v1.0)</small> 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Unisci curve](Sketcher_JoinCurves/it.md), <small>(v1.0)</small> 
 
 
 

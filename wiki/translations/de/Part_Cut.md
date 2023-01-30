@@ -9,6 +9,8 @@
 
 # Part Cut/de
 
+
+
 ## Beschreibung
 
 Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (subtrahiert) wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
@@ -17,6 +19,8 @@ Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (su
 
 [480px\|left\|Schneiden](IMAGE:Part_Cut_01.png.md)
 
+
+
 ## Anwendung
 
 1.  Wähle zwei Formen
@@ -24,9 +28,17 @@ Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (su
     -   Drücke die **![](images/) '''Schneiden'''** Schaltfläche in der Part Werkzeugleiste
     -   Verwende den {{MenuCommand/de|Part → Boolesche operation → Schneiden}} Eintrag aus dem Part Menü
 
+
+
 ## Unterstützte Eingaben 
 
+
+<div class="mw-translate-fuzzy">
+
 Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
+
+
+</div>
 
 
 

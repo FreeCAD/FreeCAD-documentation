@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:FEM ConstraintSectionPrint
-   Name/fr:FEM Contrainte d'empreinte de section
-   MenuLocation:Modèle → Contraintes géométriques → Contrainte d'empreinte de section
+   Name/fr:FEM Contrainte d'affichage de la section
+   MenuLocation:Modèle → Contraintes géométriques → Contrainte d'affichage de la section
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:
@@ -12,14 +12,18 @@
 
 ## Description
 
-Imprime les variables de sortie faciales prédéfinies (forces et moments) dans le fichier de données.
+Affiche les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données.
+
+
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''Contrainte d'empreinte de section'''**.
-    -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Contrainte d'empreinte de section** depuis le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''Contrainte d'affichage de la section'''**.
+    -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Contrainte d'affichage de la section** depuis le menu.
 2.  Appuyez sur le bouton **Ajouter** et sélectionnez la face pour laquelle la sortie sera imprimée.
+
+
 
 ## Remarques
 

@@ -30,6 +30,8 @@ Questo tutorial ha lo scopo di insegnare ai principianti di FreeCAD alcune funzi
 -   Modificare una o più dimensioni.
 -   Usare della geometria esterna e usare un piano di riferimento per centrare un foro.
 
+
+
 ### Usare l\'ambiente [Part Design](PartDesign_Workbench/it.md) per disegnare degli schizzi. 
 
 Creare un nuovo documento e passare all\'ambiente **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** usando il [selettore degli ambienti](Getting_started/it#Esplorare_FreeCAD.md) (etichettato con il numero 10 nell\'immagine collegata) o andando al menu *Visualizza → Ambienti*. FreeCAD si avvia con le barre degli strumenti in alto, la vista combinata a sinistra e la vista 3D a destra.
@@ -129,6 +131,8 @@ Procedere allo stesso modo con tutti i punti.
 
 Se ancora lo schizzo non diventa verde, verificare che tutte le linee (tranne quella inclinata) abbiano un vincolo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Orizzontale](Sketcher_ConstrainHorizontal/it.md) o <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Verticale](Sketcher_ConstrainVertical/it.md), e aggiungerlo se manca.
 
+
+
 ### Usare le funzioni Estrusione e Tasca 
 
 Fare clic su **Chiudi** nella scheda Azioni, nell\'angolo in alto a sinistra. Con questo comando si esce automaticamente dall\'ambiente Sketcher e viene di nuovo attivato l\'ambiente Part Design . La vista combinata torna alla scheda Modello. Se *Body part1* era rimasto espanso, ora si vede il nuovo elemento **Schizzo** sotto *Origine*, e annidato sotto il Corpo.
@@ -163,6 +167,8 @@ Chiudere lo schizzo; nell\'albero del modello, sotto Pad viene visualizzato il n
 
 Tasca è una funzione chiamata \"sottrattiva\", rimuove il materiale dalla parte, qui sotto forma di un cilindro poiché lo schizzo è un cerchio. Impostare \"Attraverso tutto\" per tagliare completamente la parte. Premere **OK** per completare. Nell\'albero del modello, sotto Body part1 viene visualizzato un nuovo elemento con l\'etichetta **Pocket** che si basa su Sketch001.
 
+
+
 ### Cambiare colore e trasparenza 
 
 È possibile cambiare il colore della parte, spesso è utile distinguere una parte tra le altre. Può anche essere modificata la trasparenza del pezzo, il che è utile per visualizzare i suoi interni.
@@ -191,6 +197,8 @@ Afferrare e trascinare i coni lungo gli assi o le sfere per muovere il corpo in 
 
 Convalidare. Quindi reimpostare gli angoli e le coordinate su 0.
 
+
+
 ### Visualizzare quote di riferimento nello schizzo 
 
 Potrebbe essere utile conoscere le dimensioni di alcune parti dello schizzo, dal calcolo interno di FreeCAD. Può essere utilizzato solo come riferimento o, ad esempio, utilizzato in seguito per impostare altre dimensioni.
@@ -204,6 +212,8 @@ Per esempio si possono visualizzare queste dimensioni:
 Ad esempio si può vedere che l\'arco ha una lunghezza di 20 poiché è tangente ai bordi.
 
 Si può anche vedere che FreeCAD calcola la faccia sinistra (50-50xTAN 30 °), così come la dimensione della distanza dell\'asse dell\'arco con l\'origine.
+
+
 
 ### Modificare una o più dimensioni 
 

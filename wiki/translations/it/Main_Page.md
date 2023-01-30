@@ -7,9 +7,6 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 
 ## Gli hub 
 
-
-<div class="mw-translate-fuzzy">
-
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Hub utenti](User_hub/it.md): Questa pagina contiene la documentazione utile per gli utenti di FreeCAD in generale: un elenco di tutti gli ambienti di lavoro, le istruzioni dettagliate su come installare e utilizzare l'applicazione FreeCAD, alcune esercitazioni e tutto ciò che serve per iniziare.
 
 
@@ -19,9 +16,6 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hub utenti esperti](Power_users_hub/it.md): Questa pagina raccoglie la documentazione per gli utenti avanzati e per chi è interessato a scrivere script Python. Si trova anche un repository di macro, le istruzioni su come installarle e utilizzarle, e ulteriori informazioni sulla personalizzazione di FreeCAD per specifiche esigenze. 
  <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Hub sviluppatori](Developer_hub/it.md): Questa sezione contiene del materiale per gli sviluppatori: come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD, come navigare nel codice sorgente, come sviluppare nuovi ambienti di lavoro, e incorporare FreeCAD nella propria applicazione. 
 
-
-
-</div>
 
 
 
@@ -66,13 +60,7 @@ Se siete interessati ad aiutarci, nel progetto di FreeCAD rimane ancora molto la
 -   collaborare per creare i pacchetti dell\'ultima release di FreeCAD per il proprio sistema operativo preferito,
 -   o semplicemente far conoscere FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-La pagina [Contribuire](help_FreeCAD/it.md) descrive questo aspetto con maggiori dettagli. A partire dal 2016, FreeCAD partecipa anche al [Google Summer of Code](Google_Summer_of_Code.md). La pagina [Contributors hub](Contributors_hub/it.md) è un altro tentativo di raccogliere i modi possibili per contribuire al progetto FreeCAD.
-
-
-</div>
+La pagina [Contribuire](help_FreeCAD/it.md) descrive questo aspetto con maggiori dettagli. A partire dal 2016, FreeCAD partecipa anche al [Google Summer of Code](Google_Summer_of_Code/it.md). La pagina [Contributors hub](Contributors_hub/it.md) è un altro tentativo di raccogliere i modi possibili per contribuire al progetto FreeCAD.
 
 
 

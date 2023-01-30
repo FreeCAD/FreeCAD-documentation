@@ -182,20 +182,13 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyDirection
 
-A {{TODO}}direction property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
-
-
-```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
-obj.Label = "User-friendly label"
-obj.addProperty("App::PropertyDirection", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
 ## App::PropertyDistance
 
-A distance property. It can contain a `distance` value. You can use \"Value\" variable to get float variable. Values always must be in millimeters unit. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A distance property. It can contain a positive, negative or zero `distance` value. Use the \"Value\" member of the property to get the value as a float number. The value is always in mm, but in the [Property editor](Property_editor.md) is presented with units according to the preferences. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+
+[App::PropertyLength](#App:_PropertyLength.md) is a similar property that cannot contain a negative value.
 
 
 ```python
@@ -203,7 +196,7 @@ obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyDistance", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 500
-obj.ThePropertyName # returns 500.0 mm
+obj.ThePropertyName # returns "500.0 mm"
 obj.ThePropertyName.Value # returns 500.0
 ```
 
@@ -416,7 +409,9 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLength
 
-A length property. It can contain a `length` value. You can use \"Value\" variable to get float variable. Values always must be in millimeters unit. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A length property. It can contain a positive or zero `length` value. Use the \"Value\" member of the property to get the value as a float number. The value is always in mm, but in the [Property editor](Property_editor.md) is presented with units according to the preferences. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+
+[App::PropertyDistance](#App:_PropertyDistance.md) is a similar property that can also contain a negative value.
 
 
 ```python
@@ -424,8 +419,8 @@ obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLength", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 500
-obj.ThePropertyName # returns 500 mm
-obj.ThePropertyName.Value # returns 500
+obj.ThePropertyName # returns "500.0 mm"
+obj.ThePropertyName.Value # returns 500.0
 ```
 
 ## App::PropertyLink
@@ -788,16 +783,7 @@ obj.ThePropertyName # returns [placement0, placement1, placement2]
 
 ## App::PropertyPosition
 
-A {{TODO}}position property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
-
-
-```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
-obj.Label = "User-friendly label"
-obj.addProperty("App::PropertyPosition", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
 ## App::PropertyPrecision
 
@@ -931,7 +917,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyVector
 
-A vector property. It can contain a FreeCAD `vector` object. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A vector property. It can contain a FreeCAD `vector` object. The value can set by supplying a vector or a tuple. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
@@ -943,24 +929,35 @@ obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyVector", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = vector
 obj.ThePropertyName # returns Vector(0, -2, 5)
+obj.ThePropertyName = (1, 2, 3)
+obj.ThePropertyName # returns Vector(1, 2, 3)
+obj.ThePropertyName.x # returns 1.0
+obj.ThePropertyName.y # returns 2.0
+obj.ThePropertyName.z # returns 3.0
+obj.ThePropertyName.z = 6
+obj.ThePropertyName # returns Vector(1, 2, 6)
+obj.ThePropertyName.Length # returns 6.4031242374328485
+obj.ThePropertyName.Length = 2 * obj.ThePropertyName.Length
+obj.ThePropertyName # Vector (2.0, 4.0, 12.0)
 ```
 
 ## App::PropertyVectorDistance
 
-A {{TODO}}vectorDistance property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A vector property that is almost identical to [App::PropertyVector](#App:_PropertyVector.md). The only difference is that in the [Property editor](Property_editor.md) the \"x\", \"y\" and \"z\" members of this property are presented with units according to the preferences. But internally all values are unitless and therefore in mm.
 
 
 ```python
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyVectorDistance", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = (1, 2, 3)
+obj.ThePropertyName # returns Vector(1, 2, 3)
+obj.ThePropertyName.x # returns 1
+```
 
 ## App::PropertyVectorList
 
-A vector list property. It can contain list of `vectors`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A vector list property. It can contain list of `vectors`. The value can set by supplying a list of vectors and/or tuples. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
@@ -975,6 +972,8 @@ obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyVectorList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = [v0, v1, v2, v3]
 obj.ThePropertyName # returns [Vector(0, 10, 0), Vector(0, 10, 0), Vector(30, -10, 0), Vector(0, -10, 0)]
+obj.ThePropertyName = [v0, (1, 2, 3), v2, (4, 5, 6)]
+obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, -10, 0), Vector (4, 5, 6)]
 ```
 
 ## App::PropertyVolume

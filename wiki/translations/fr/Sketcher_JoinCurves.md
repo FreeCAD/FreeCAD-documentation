@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher JoinCurves
    Name/fr:Sketcher Joindre des courbes
-   MenuLocation:Esquisse → Outils d'esquisse B-spline → Joindre des courbes
+   MenuLocation:Esquisse → Outils d'esquisse des B-splines → Joindre des courbes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:1.0
    SeeAlso:
@@ -23,7 +23,7 @@ Réunit deux courbes B-spline aux points d\'extrémité sélectionnés.
     -   Sélectionnez le [point coïncident](Sketcher_ConstrainCoincident/fr.md) reliant deux B-splines.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **[<img src=images/Sketcher_JoinCurves.svg style="width:16px"> [Joindre des courbes](Sketcher_JoinCurves/fr.md)** dans la barre d\'outils.
-    -   Utilisez l\'entrée **Esquisse → Outils d'esquisse B-spline → [<img src=images/Sketcher_JoinCurves.svg style="width:16px"> Joindre des courbes** dans le menu supérieur.
+    -   Utilisez l\'entrée **Esquisse → Outils d'esquisse des B-splines → [<img src=images/Sketcher_JoinCurves.svg style="width:16px"> Joindre des courbes** dans le menu supérieur.
 
 
 

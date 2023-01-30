@@ -19,10 +19,10 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md).
 | [Template:Top](wiki/Template_Top.md) | [Template:TutorialInfo](wiki/Template_TutorialInfo.md) | [Template:TutorialInfo/de](wiki/Template_TutorialInfo/de.md) |
 | [Template:TutorialInfo/es](wiki/Template_TutorialInfo/es.md) | [Template:TutorialInfo/fr](wiki/Template_TutorialInfo/fr.md) | [Template:TutorialInfo/it](wiki/Template_TutorialInfo/it.md) |
 | [Template:TutorialInfo/pl](wiki/Template_TutorialInfo/pl.md) | [Template:TutorialInfo/ru](wiki/Template_TutorialInfo/ru.md) | [Template:TutorialInfo/tr](wiki/Template_TutorialInfo/tr.md) |
-| [Category:Template:Doc](wiki/Category_Template_Doc.md) | [Category:Template:Effect](wiki/Category_Template_Effect.md) | [Category:Template:Image](wiki/Category_Template_Image.md) |
-| [Category:Template:Navigation](wiki/Category_Template_Navigation.md) | [Category:Template:Navigation/it](wiki/Category_Template_Navigation/it.md) | [Category:Template:Text](wiki/Category_Template_Text.md) |
-| [Category:Template:Text Box](wiki/Category_Template_Text Box.md) | [Category:Template:Text Format](wiki/Category_Template_Text Format.md) | [Category:Template:Text Long](wiki/Category_Template_Text Long.md) |
-|
+| [Category:Template:Doc](wiki/Category_Template_Doc.md) | [Category:Template:Link](wiki/Category_Template_Link.md) | [Category:Template:Effect](wiki/Category_Template_Effect.md) |
+| [Category:Template:Image](wiki/Category_Template_Image.md) | [Category:Template:Navigation](wiki/Category_Template_Navigation.md) | [Category:Template:Navigation/it](wiki/Category_Template_Navigation/it.md) |
+| [Category:Template:Text](wiki/Category_Template_Text.md) | [Category:Template:Text Box](wiki/Category_Template_Text Box.md) | [Category:Template:Text Format](wiki/Category_Template_Text Format.md) |
+| [Category:Template:Text Long](wiki/Category_Template_Text Long.md) |
 
 
 

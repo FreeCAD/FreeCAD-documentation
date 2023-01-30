@@ -13,6 +13,8 @@
 
 Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). Il peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
 
+
+
 ## Utilisation
 
 1.  En règle générale, activer le bon corps.
@@ -20,6 +22,8 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 3.  Définissez **Number Of Teeth** et **Sprocket Reference**.
 4.  Cliquez sur **OK**.
 5.  S\'il n\'y avait pas de corps actif : faites glisser et déposez le pignon dans un corps pour appliquer d\'autres fonctions comme l\'extrusion.
+
+
 
 ## Propriétés
 

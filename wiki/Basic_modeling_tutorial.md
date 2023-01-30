@@ -1,8 +1,8 @@
 # Basic modeling tutorial
 ---
-- TutorialInfo:   Topic: Introduction to modelling
-   Level: Beginner
-   Time: 15 minutes
+- TutorialInfo:   Topic:Introduction to modelling
+   Level:Beginner
+   Time:15 minutes
    Author:[NormandC](User_Normandc.md)
    FCVersion:any
    Files:none
@@ -11,6 +11,8 @@
 ## Introduction
 
 This Basic Modeling Tutorial will show you how to model an iron angle. One thing to know is that FreeCAD is modular by design, and like for many other CAD software, there are always more than one way to do things. We will explore two methods here.
+
+This tutorial was written with version 0.15 of FreeCAD.
 
 ## Before we begin 
 
