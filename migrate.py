@@ -919,6 +919,10 @@ class MediaWiki:
             # result = re.sub("Category:","<img src=\""+imagepath+"/Property.png\" style=\"width:16px\"> ",result) # Replace Category: with icon
             result = re.sub("\[Category\:.*?md\)","",result)
 
+        if debug >= 16:
+            # handle MacroLink templates
+            result = re.sub("{{MacroLink\|Icon\=(.*?)\|(.*?)\|(.*?)}}","<img style=\"width:16px;\" src=\""+imagepath+r"/\1"+"\"> "+r"[\3](\2.md)",result)
+
 
         return result.strip()
 
