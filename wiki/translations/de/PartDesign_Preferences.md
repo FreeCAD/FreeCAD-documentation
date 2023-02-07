@@ -1,35 +1,43 @@
 # PartDesign Preferences/de
 {{TOCright}}
 
+
+
 ## Einleitung
 
 Die Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) verwenden dieselben Einstellungen. Sie sind im Abschnitt <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part Design** des [Voreinstellungseditors](Preferences_Editor.md) zu finden. Dieser Abschnitt ist nur nur vorhanden, wenn einer der Arbeitsbereiche in der aktuellen FreeCAD-Sitzung geladen wurde.
 
+
+
 ## Verfügbare Einstellungen 
 
 Es gibt vier Reiter: Allgemein, Form-Ansicht, Erscheinungsbild der Form und Messen.
+
+
 
 ### Allgemein
 
 Im Reiter *Allgemein* kann Folgendes eingestellt werden:
 
 +++
-| Name                                                                               | Beschreibung                                                                                                                                                                                                                              |
-+====================================================================================+===========================================================================================================================================================================================================================================+
-|                                                                     | Wenn aktiviert, wird die [Boundary-Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP) des Modells nach einer [booleschen Operation](Part_Boolean/de.md) [überprüft](Part_CheckGeometry/de.md). |
-| **Modell automatisch nach Boolescher Operation überprüfen**            |                                                                                                                                                                                                                                           |
-|                                                                                 |                                                                                                                                                                                                                                           |
+| Name                                                                            | Beschreibung                                                                                                                                                                                                                              |
++=================================================================================+===========================================================================================================================================================================================================================================+
+|                                                                  | Wenn aktiviert, wird die [Boundary-Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP) des Modells nach einer [booleschen Operation](Part_Boolean/de.md) [überprüft](Part_CheckGeometry/de.md). |
+| **Modell automatisch nach Boolescher Operation überprüfen**         |                                                                                                                                                                                                                                           |
+|                                                                              |                                                                                                                                                                                                                                           |
 +++
-|                                                                     | Wenn aktiviert, wird das Modell nach einer [booleschen Operation](Part_Boolean/de.md) [aufbereitet](Part_RefineShape/de.md).                                                                                              |
-| {{MenuCommand/de|Modell nach Boolescher Operation automatisch aufbereiten}}        |                                                                                                                                                                                                                                           |
-|                                                                                 |                                                                                                                                                                                                                                           |
+|                                                                  | Wenn aktiviert, wird das Modell nach einer [booleschen Operation](Part_Boolean/de.md) [aufbereitet](Part_RefineShape/de.md).                                                                                              |
+| **Modell nach Boolescher Operation automatisch aufbereiten**        |                                                                                                                                                                                                                                           |
+|                                                                              |                                                                                                                                                                                                                                           |
 +++
-|                                                                     | Wenn aktiviert, wird das Modell nach Änderungen an den Skizzen, auf denen das Objekt basiert, [aufbereitet](Part_RefineShape/de.md).                                                                                              |
-| {{MenuCommand/de|Modell nach skizzenbasierter Operation automatisch  aufbereiten}} |                                                                                                                                                                                                                                           |
-|                                                                                 |                                                                                                                                                                                                                                           |
+|                                                                  | Wenn aktiviert, wird das Modell nach Änderungen an den Skizzen, auf denen das Objekt basiert, [aufbereitet](Part_RefineShape/de.md).                                                                                              |
+| **Modell nach skizzenbasierter Operation automatisch  aufbereiten** |                                                                                                                                                                                                                                           |
+|                                                                              |                                                                                                                                                                                                                                           |
 +++
 
 ![](images/Preferences_Part_design_Tab_General.png )
+
+
 
 ### Form-Ansicht 
 
@@ -48,6 +56,8 @@ Im Reiter *Form-Ansicht* kann Folgendes eingestellt werden:
 +++
 
 ![](images/Preferences_Part_design_Tab_Shape_view.png )
+
+
 
 ### Erscheinungsbild der Form 
 
@@ -97,6 +107,8 @@ Im Reiter *Erscheinungsbild der Form* kann Folgendes eingestellt werden:
 
 ![](images/Preferences_Part_design_Tab_Shape_appearance.png )
 
+
+
 ### Messen
 
 These preferences control the appearance of measurements created with the [Measure tools](Part_Workbench#Measure.md) available in the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md).
@@ -141,11 +153,13 @@ On the *Measure* tab (<small>(v1.0)</small> ) you can specify the following:
 
 ![](images/Preferences_Part_design_Tab_Measure.png )
 
+
+
 ## Tesselierung
 
 Um ein Objekt effizient darzustellen, ist seine Oberfläche [tesselliert](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), d.h. es wird mit einigen kleinen Abweichungen von seiner realen Oberfläche dargestellt. Dies gilt nicht nur für PartDesign Modelle, sondern auch für andere Objekte in FreeCAD.
 
-Es gibt eine untere Grenze für die Tessellierung von 0,01%. Wenn du die zusätzliche Zeit wirklich nutzen willst, kannst du die Untergrenze noch weiter reduzieren, indem du das Menü {{MenuCommand/de|Werkzeuge → Parameter bearbeiten...}} öffnest. Dies öffnet den Parametereditor, in dem du zu {{MenuCommand/de|BaseApp → Einstellungen → Mod → Part}} navigierst.
+Es gibt eine untere Grenze für die Tessellierung von 0,01%. Wenn du die zusätzliche Zeit wirklich nutzen willst, kannst du die Untergrenze noch weiter reduzieren, indem du das Menü **Werkzeuge → Parameter bearbeiten...** öffnest. Dies öffnet den Parametereditor, in dem du zu **BaseApp → Einstellungen → Mod → Part** navigierst.
 
 Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. Setze den Wert auf die minimale Tesselation deiner Wahl. Bitte beachte, dass der Wert in % angegeben wird, d.h. für einen Wert von 0,005% musst du \"0,00005\" eingeben. Der kleinstmögliche Wert ist 1e-7. **Hinweis:** Im Menü Einstellungen siehst du auch dann noch 0.01%, wenn du einen niedrigeren Wert einstellst.
 

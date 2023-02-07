@@ -1,15 +1,21 @@
 # Curves Workbench/de
 }
 
+
+
 ## Einleitung
 
 <img alt="Symbol Externer Arbeitsbereich Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
 
 Der Arbeitsbereich Curves (Kurven) ist ein [externer Arbeitsbereich](external_workbenches/de.md), der auf Python basiert und eine Sammlung von Werkzeugen für NURBS-Kurven und Oberflächen enthält. Dieser Arbeitsbereich wurde mit FreeCAD-Master und OCC 7.4 entwickelt. Hinweis: Einige Werkzeuge funktionieren möglicherweise nicht mit früheren Versionen.
 
+
+
 ## Einrichtung
 
-Der Arbeitsbereich Curves kann mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) heruntergeladen werden: {{MenuCommand/de|Werkzeuge → Addon-Manager}}.
+Der Arbeitsbereich Curves kann mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) heruntergeladen werden: **Werkzeuge → Addon-Manager**.
+
+
 
 ## Referenzen
 
@@ -18,6 +24,8 @@ Der Arbeitsbereich Curves kann mit dem <img alt="" src=images/Std_AddonMgr.svg  
 -   Diskussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=22675>
 -   YouTube tutorial using curves workbench: <https://www.youtube.com/watch?v=ZVdbvxmJ3Mo>
 -   Dailymotion tutorial, tide bottle, demoing curves workbench: <https://www.dailymotion.com/video/x6bo9a6>
+
+
 
 ## Werkzeuge
 

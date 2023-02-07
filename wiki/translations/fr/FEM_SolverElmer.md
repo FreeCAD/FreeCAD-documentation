@@ -47,6 +47,8 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 
 : Maintenant démarrez FreeCAD et changez le schéma d\'unités en *MKS* dans les [préférences](Preferences_Editor/fr#Unit.C3.A9s.md). Voir [Remarques](#Remarques.md).
 
+
+
 ## Utilisation
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md)
@@ -71,6 +73,8 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 7.  Cliquez sur **Ecrire** pour écrire les fichiers de cas dans le répertoire sélectionné précédemment
 8.  Cliquez sur **Lancer** pour démarrer l\'analyse
 
+
+
 ### Équations
 
 -   Pour effectuer l\'analyse d\'un comportement physique particulier, une équation doit être utilisée (écoulement, chaleur, électrostatique\...).
@@ -86,12 +90,16 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
     -   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Equation de flux](FEM_EquationFlux/fr.md)
     -   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Equation de chaleur](FEM_EquationHeat/fr.md)
 
+
+
 ### Paramètres du solveur 
 
--   En fonction des équations utilisées, vous devez modifier les paramètres par défaut du solveur.
+-   En fonction des équations utilisées, vous devez modifier les paramètres par défaut du solveur. Ils sont expliqués à la page [Paramètres du solveur d\'Elmer](FEM_SolverElmer_SolverSettings/fr.md).
 -   Le solveur effectue par défaut une simulation en régime permanent. Pour effectuer une simulation transitoire (comment le modèle se comporte/développe dans le temps), voir les [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr#Le_solveur.md).
 
 Elmer dispose de nombreux paramètres pour déterminer comment les équations doivent être résolues. Ils sont décrits en détail dans la section [Paramètres du solveur Elmer](FEM_SolverElmer_SolverSettings/fr#Le_solveur.md).
+
+
 
 ## Remarques
 
@@ -99,6 +107,8 @@ Elmer dispose de nombreux paramètres pour déterminer comment les équations do
 -   Les paramètres du solveur et des équations sont définis indépendamment via l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md) de leurs objets respectifs dans la [vue en arborescence](Tree_view/fr.md).
 -   Chaque équation aura une priorité. Par exemple, si vous essayez de voir l\'effet d\'un flux convectif d\'air chaud, l\'équation pour le débit doit être résolue avec une priorité plus élevée que la chaleur, sinon le solveur résoudra d\'abord la chaleur par conduction puis le débit.
 -   Cas 2D vs 3D : Elmer peut être utilisé pour résoudre des cas 2D et 3D. Cependant, lors de la définition d\'un cas 2D, les faces doivent être mappées dans le plan XY de FreeCAD, sinon le solveur essaiera de calculer un cas 3D sur une face, et les vecteurs normaux seront sous-définis. De plus amples informations peuvent être trouvées dans les forums FreeCAD : <https://forum.freecadweb.org/viewtopic.php?f=18&t=48175>.
+
+
 
 ## Documentation
 

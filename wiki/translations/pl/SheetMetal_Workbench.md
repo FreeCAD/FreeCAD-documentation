@@ -271,18 +271,11 @@ Jak to zrobić?
 
 ## Bibliografia
 
-
-<div class="mw-translate-fuzzy">
-
 -   Autor:
     -   Narzędzia do składania: Copyright 2015-2018 by Shai Seger
     -   Narzędzie do rozkładania: Copyright 2014 by Ulrich Brammer
 -   Licencja: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
--   Oficjalny blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Kod źródłowy na githubie: <https://github.com/shaise/FreeCAD_SheetMetal>
-
-
-</div>
 
 
 

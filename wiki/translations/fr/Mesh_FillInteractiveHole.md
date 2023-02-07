@@ -13,18 +13,22 @@
 
 La commande **Mesh Boucher un trou** remplit les trous sélectionnés dans les objets maillés.
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Boucher un trou](Mesh_FillInteractiveHole/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Boucher un trou** dans le menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Boucher un trou** du menu.
 2.  Le curseur se transforme en icône triangulaire.
 3.  Sélectionnez une face qui partage une arête avec le trou que vous souhaitez fermer.
 4.  Le trou est fermé.
 5.  Répétez éventuellement cette opération pour fermer des trous supplémentaires.
 6.  Si nécessaire, vous pouvez utiliser [Std Annuler](Std_Undo/fr.md) pour annuler la dernière action de la commande.
-7.  Sélectionnez l\'option **Quitter le mode de remplissage des trous** dans le menu contextuel de la [vue 3D](3D_view/fr.md) pour terminer la commande.
+7.  Sélectionnez l\'option **Quitter le mode de remplissage des trous** du menu contextuel de la [vue 3D](3D_view/fr.md) pour terminer la commande.
+
+
 
 ## Remarques
 

@@ -11,6 +11,8 @@ Nach einer Weile, wenn du dich mit FreeCAD besser auskennst, hast du vielleicht 
 
 ![](images/FreeCAD-v0-18-NewProject.png )
 
+
+
 ### Arbeitsbereiche
 
 Beachte, dass sich einige der Symbole zwischen den beiden obigen Bildschirmaufnahmen geändert haben. Hier kommt das wichtigste Konzept der FreeCAD Oberfläche ins Spiel: Arbeitsbereiche.
@@ -25,6 +27,8 @@ Die Arbeitsbereiche verwirren neue Benutzer oft, da es nicht immer einfach ist, 
 
 Später in diesem Handbuch findest du auch eine Tabelle mit dem Inhalt aller Arbeitsbereiche.
 
+
+
 ### Die Oberfläche 
 
 Lass uns einen genaueren Blick auf die verschiedenen Teile der Oberfläche werfen:
@@ -33,7 +37,7 @@ Lass uns einen genaueren Blick auf die verschiedenen Teile der Oberfläche werfe
 
 -   **Die 3D Ansicht** ist die Hauptkomponente der Oberfläche; hier werden die Objekte, mit denen du arbeitest, gezeichnet und verändert. Du kannst mehrere Ansichten desselben Dokuments (oder derselben Objekte) oder mehrere Dokumente gleichzeitig geöffnet haben. Jede dieser Ansichten kann einzeln vom Hauptfenster abgedockt werden. Du kannst Objekte oder Teile von Objekten durch Anklicken auswählen und die Ansicht mit den Maustasten verschieben, zoomen und drehen. Dies wird im nächsten Kapitel näher erläutert.
 
-Neben der 3D Ansichtspaneel stehen folgende Informationspaneele zur Verfügung. Sie können durch Auswahl unter {{MenuCommand/de|Ansicht → Paneele}} ein- oder ausgeblendet werden. . Der Name des Paneels erscheint in der linken oberen Ecke des Paneels, wenn es angezeigt wird:
+Neben der 3D Ansichtspaneel stehen folgende Informationspaneele zur Verfügung. Sie können durch Auswahl unter **Ansicht → Paneele** ein- oder ausgeblendet werden. . Der Name des Paneels erscheint in der linken oberen Ecke des Paneels, wenn es angezeigt wird:
 
 -   **Die comco Ansicht** hat zwei Registerkarten:
     -   Der Reiter Modell zeigt Ihnen den Inhalt und die Struktur deines Dokuments oben und die Eigenschaften (oder Parameter) des/der ausgewählten Objekts/e unten. Diese Eigenschaften sind in zwei Kategorien unterteilt:
@@ -52,11 +56,13 @@ Der Aufgabenreiter hat manchmal rätselhafte und frustrierende Nebeneffekte. Wen
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
 
+
+
 ### Anpassung der Oberfläche 
 
 Die Oberfläche von FreeCAD ist in hohem Maße anpassbar. Alle Paneele und Werkzeugleisten können an verschiedene Stellen verschoben oder übereinander gestapelt werden. Sie können auch geschlossen und bei Bedarf über das Menü Ansicht oder durch einen Rechtsklick auf einen leeren Bereich der Oberfläche wieder geöffnet werden. Es sind jedoch noch viele weitere Optionen verfügbar, wie z.B. das Erstellen von benutzerdefinierten Symbolleisten mit Werkzeugen aus einer der Arbeitsbereiche oder das Zuweisen und Ändern von Tastaturkürzeln.
 
-Diese erweiterten Anpassungsoptionen sind über das Menü {{MenuCommand/de|Werkzeuge → Menü Anpassen}} verfügbar:
+Diese erweiterten Anpassungsoptionen sind über das Menü **Werkzeuge → Menü Anpassen** verfügbar:
 
 ![](images/FreeCAD-v0-18-CustomizeInterface.png )
 

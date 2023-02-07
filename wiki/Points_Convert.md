@@ -39,7 +39,7 @@ Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the fol
 
 {{TitleProperty|Base}}
 
--    **Points|PointsKernel**: a Points PointsKernel associated with this object.
+-    **Points|PointsKernel**: a Points Kernel associated with this object.
 
 -    **Normal|NormalList**: a list of normals. This property is only available for point clouds created with the [Points Convert](Points_Convert.md) command from mesh objects or shape objects with faces.
 

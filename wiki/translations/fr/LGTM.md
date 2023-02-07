@@ -1,5 +1,5 @@
 # LGTM/fr
-## Vue d\'ensemble 
+## Présentation
 
 
 {{TOCright}}
@@ -8,11 +8,15 @@
 
 LGTM convient parfaitement comme outil d'analyse de code pour le développement d'ateliers en Python de FreeCAD et d'autres projets de petite et moyenne taille. Cette page fournit un aperçu de la mise en route de LGTM avec un atelier Python pour FreeCAD.
 
+
+
 ## Commencer
 
 La prise en main de LGTM dépend de la plate-forme de contrôle de version en ligne que vous utilisez. La documentation LGTM pour [automated code review](https://lgtm.com/help/lgtm/about-automated-code-review) fournit un bon aperçu de la façon d\'intégrer LGTM à votre projet pour plusieurs plates-formes.
 
 En outre, il est possible d\'effectuer une large gamme d\'analyses approfondies du code sur LGTM, ce qui dépasse le cadre de ce tutoriel. Vous pouvez en savoir plus à ce sujet dans la documentation de LGTM sur [configuring code analysis](https://lgtm.com/help/lgtm/configuring-lgtm-analysis-project).
+
+
 
 ## Résultats
 
@@ -52,6 +56,8 @@ path_classifiers:
 Notez que les niveaux d\'indentation sont importants dans LGTM. Un retrait incorrect entraînera un échec de la classification des fichiers.
 
 En outre, certaines classifications (telles que \"modèle\" et \"test\") sont utilisées par LGTM pour les requêtes et autres composants d\'analyse. Vous pouvez également définir vos propres balises personnalisées, qui filtreront le code et fourniront des résultats interrogeables supplémentaires.
+
+
 
 ## Liens pertinents 
 

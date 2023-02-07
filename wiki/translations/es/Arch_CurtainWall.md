@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 Esta herramienta crea un [Muro cortina](https://es.wikipedia.org/wiki/Muro_cortina) subdividiendo una cara base en caras cuadrangulares, creando luego parteluces verticales en los bordes verticales, parteluces horizontales en los bordes horizontales y rellenando los espacios entre parteluces con paneles.
@@ -44,7 +46,11 @@ En caso de que necesites una subdivisión no regular, también es posible constr
 
 También puede utilizar la herramienta de muro cortina sin ningún objeto seleccionado, en cuyo caso podrá dibujar una línea de base, que será extruida verticalmente para formar la cara sobre la que se construirá el muro cortina.
 
+
+
 ## Utilización
+
+
 
 ### Dibujar un muro cortina desde cero 
 
@@ -60,12 +66,16 @@ También puede utilizar la herramienta de muro cortina sin ningún objeto selecc
 2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys.
 3.  Adjust needed properties.
 
+
+
 ## Opciones
 
 -   Curtain walls share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 -   Curtain wall mullions can be made from an automatic square profile (set their **Mullion Size** properties) or from a custom profile (set their **Mullion Profile** property). The mullions can be centered over each edge, or placed relatively to the (0,0,0) point by turning off the **Center Profile** property. For example, if you want a profile to be placed slightly behind the panels, you would draw that profile slightly below the (0,0,0) origin point
 -   Curtain walls support [Multi-materials](Arch_MultiMaterial.md). Inside the multi-material, the **Frame** layer will be used for the mullions, and the **Glass panel** layer for panels, or **Solid panel** if no Glass panel layer exists in the multi-material.
 -   Curtain walls can be based on a linear object such as a line, arc or polyline. In that case, internally, a base surface will be built by extruding the linear object along the direction given by the **Vertical Direction** property, by the length given by the **Height** property.
+
+
 
 ## Propiedades
 
@@ -117,6 +127,8 @@ Curtain wall objects inherit the properties of [Arch Components](Arch_Component.
 
 -    **Host**: The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
 
+
+
 ## Hacer paredes con marco 
 
 Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
@@ -157,7 +169,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = FreeCAD.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

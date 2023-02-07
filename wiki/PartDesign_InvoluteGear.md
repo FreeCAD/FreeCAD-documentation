@@ -1,6 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign InvoluteGear
+   Icon:PartDesign_InternalExternalGear.svg
    MenuLocation:Part Design → Involute gear...
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    SeeAlso:[FCGear Workbench](FCGear_Workbench.md)
@@ -163,7 +164,7 @@ Precondition: There is already an active body to which the hub shall be added.
 
 ## Tutorials
 
-[How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
+Video: [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## Related
 

@@ -25,7 +25,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 ## User interface 
 
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. The font and font size can now also be changed in the [preferences](Preferences_Editor#Navigation.md). [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) and [#8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. The font and font size can now also be changed in the [preferences](Preferences_Editor#Navigation.md). [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) and [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
    
@@ -141,11 +141,13 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ### Further FEM improvements 
 
--   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) was added to set the initial internal pressure of fluids. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [current density constraint](FEM_ConstraintCurrentDensity.md) was added to set current densities for bodies and faces. [Pull request #8348](https://github.com/FreeCAD/FreeCAD/pull/8348)
 -   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https://github.com/FreeCAD/FreeCAD/pull/7467)
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) has the new parameter *scale* to define the scale of deformed mesh using Python. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https://github.com/FreeCAD/FreeCAD/pull/7715)
+-   New material card for carbon dioxide. [Pull request #8332](https://github.com/FreeCAD/FreeCAD/pull/8332)
 
 ## Export
 
@@ -173,7 +175,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   The [Validate sketch](Sketcher_ValidateSketch.md) command was added to Helper toolbar. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   The unusable [Leave sketch](Sketcher_LeaveSketch.md) and [View sketch](Sketcher_ViewSketch.md) commands were removed from the menu. The [Edit sketch](Sketcher_EditSketch.md), [Merge sketches](Sketcher_MergeSketches.md) and [Mirror sketch](Sketcher_MirrorSketch.md) commands were added to the menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
--   The [involute gear profile](PartDesign_InvoluteGear.md) has new properties to change the tooth length. This now allows adjustments for certain types of interferences and to use the profile to create [involute splines](https://en.wikipedia.org/wiki/Spline_(mechanical)), too. [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184)
+-   The [involute gear profile](PartDesign_InvoluteGear.md) has new properties to change the tooth length. This now allows adjustments for certain types of interferences and to use the profile to create [involute splines](https://en.wikipedia.org/wiki/Spline_(mechanical)) too. [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184)
 
 ## Path Workbench 
 

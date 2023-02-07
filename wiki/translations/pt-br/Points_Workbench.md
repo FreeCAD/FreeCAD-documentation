@@ -1,5 +1,7 @@
 # <img alt="Ícone da Bancada de Trabalho Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/pt-br
 
+
+
 ## Introdução
 
 
@@ -8,6 +10,8 @@
 A <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Bancada de trabalho Pontos](Points_Workbench.md) tem por objetivo fornecer ferramentas específicas para trabalhar com [nuvens de pontos](http://en.wikipedia.org/wiki/Point_cloud). A bancada de trabalho Pontos ainda está em desenvolvimento.
 
 Uma nuvem de pontos é uma coleção de pontos no espaço 3D. Geralmente é produzida pela varredura da superfície de um objeto sólido. Em seguida, a nuvem de pontos pode ser usada para muitos propósitos, incluindo a construção de uma malha para o objeto, a reconstrução de superfícies e volumes sólidos, a engenharia reversa, bem como a visualização e a inspeção de qualidade das peças.
+
+
 
 ## Ferramentas
 
@@ -24,6 +28,8 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
 -   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Nuvem de ponto de corte](Points_PolyCut/pt-br.md): Corta pontos a partir de nuvens de pontos.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Nuvens de pontos de fusão](Points_Merge/pt-br.md): Cria uma nuvem de pontos pela combinação dos pontos de duas ou mais nuvens de pontos.
+
+
 
 ## Notas
 

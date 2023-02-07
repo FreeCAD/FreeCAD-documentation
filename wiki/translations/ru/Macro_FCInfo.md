@@ -11,8 +11,10 @@
 |Version=1.26c
 |Date=2022/04/19
 |FCVersion=All
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/ru.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties/ru.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass/ru.md)
 }}
+
+
 
 ## Описание
 
@@ -23,6 +25,8 @@
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
+
+
 
 ## Использование
 
@@ -230,6 +234,8 @@ Image:Macro_FCInfo_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left w
 ## Options
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Варианты
@@ -303,6 +309,8 @@ the \"spinBox\" is set to **7,5** kg, средняя плотность стал
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -546,6 +554,7 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 \*ver 1.03 , 09/09/2013: clearer display in view report and replacement by \"typeObject = sel\[0\].Shape.ShapeType\"
 \*ver 1.02 , 7/09/2013 : small updates
 \*ver 1.00 , 6/09/2013
+
 
 ## Ссылки
 

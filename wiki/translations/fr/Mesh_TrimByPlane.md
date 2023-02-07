@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Mesh TrimByPlane
    Name/fr:Mesh Ajuster par plan
-   MenuLocation:Maillages → Coupe → Ajuster le maillage avec un plan
+   MenuLocation:Maillages → Couper → Ajuster le maillage avec un plan
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Découper](Mesh_PolyTrim/fr.md)
 ---
@@ -19,10 +19,10 @@ La commande **Mesh Ajuster par plan** permet de découper les faces et parties d
 
 1.  Sélectionnez un seul objet maillé et un seul [Part Plan](Part_Plane/fr.md). Le plan (étendu) doit croiser l\'objet maillé.
 
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_TrimByPlane.svg" width=16px> [Ajuster le maillage avec un plan](Mesh_TrimByPlane/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → Coupe → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan** du menu.
 
 3.  La boîte de dialogue **Découper par un plan** s\'ouvre.
 
@@ -30,15 +30,15 @@ La commande **Mesh Ajuster par plan** permet de découper les faces et parties d
     **Sélectionner le côté que vous souhaitez garder**en appuyant sur l\'un des boutons:
 
     -   
-        {{button|En-dessous}}
+        **En-dessous**
         
 
     -   
-        {{button|Au-dessus}}
+        **Au-dessus**
         
 
     -   
-        {{button|Scinder}}
+        **Scinder**
         
         : supprime les faces et les parties de faces au-dessus du plan, et crée un nouvel objet maillé les contenant.
 
@@ -46,7 +46,7 @@ La commande **Mesh Ajuster par plan** permet de découper les faces et parties d
 
 ## Script
 
-Voir aussi: [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 Pour découper un maillage avec un plan, utilisez sa méthode `trimByPlane`.
 

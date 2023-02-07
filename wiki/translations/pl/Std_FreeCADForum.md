@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std FreeCADForum
-   MenuLocation:Help → FreeCAD Forum
-   Workbenches:All
-   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+   Name/pl:Std: Forum FreeCAD
+   MenuLocation:Pomoc → Forum FreeCAD
+   Workbenches:wszystkie
+   SeeAlso:[Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md),[Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
 ---
 
 # Std FreeCADForum/pl
 
-## Description
 
-The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://forum.freecad.org>](https://forum.freecad.org).
+## Opis
 
-## Usage
+Polecenie **Forum FreeCAD** otwiera stronę internetową forum FreeCAD w domyślnej przeglądarce internetowej systemu. Polecenie wymaga działającego połączenia internetowego.
 
-1.  Select the **Help → <img src="images/Std_FreeCADForum.svg" width=16px> FreeCAD Forum** option from the menu.
+Obecnie polecenie wskazuje na [<https://forum.freecad.org>](https://forum.freecad.org/).
+
+
+
+## Użycie
+
+1.  Wybierz opcję z menu **Pomoc → <img src="images/Std_FreeCADForum.svg" width=16px> Forum FreeCAD**.
 
 
 

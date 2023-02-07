@@ -9,11 +9,15 @@
 
 # Arch MeshToShape/de
 
+
+
 ## Beschreibung
 
 [Arch NetzZuForm](Arch_MeshToShape/de.md) wandelt ein gewähltes [Polygonnetz](Mesh/de.md) ([Polygonnetz Formteil](Mesh_Feature/de.md)) Objekt in eine [Form](Shape/de.md) ([Part Formteil](Part_Feature/de.md)) Objekt.
 
 Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. Das entsprechende Werkzeug **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part FormAusNetz](Part_ShapeFromMesh.md)** aus dem <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsbereich](Part_Workbench/de.md) ist möglicherweise besser für Objekte geeignet, die gekrümmte Oberflächen enthalten.
+
+
 
 ## Anwendung
 
@@ -21,12 +25,17 @@ Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. 
 <div class="mw-translate-fuzzy">
 
 1.  Wähle ein Netzobjekt
-2.  Drücke den **<img src="images/Arch_MeshToShape.svg" width=16px> [Netz zu Form](Arch_MeshToShape/de.md)** Eintrag in {{MenuCommand/de|Arch → Dienstprogramme → Netz zu Form}}
+2.  Drücke den **<img src="images/Arch_MeshToShape.svg" width=16px> [Netz zu Form](Arch_MeshToShape/de.md)
+** Eintrag in **Arch → Dienstprogramme → Netz zu Form**
 
 
 </div>
 
+
+
 ## Eigenschaften
+
+
 
 ## Begrenzungen
 

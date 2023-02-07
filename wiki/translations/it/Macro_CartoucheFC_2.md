@@ -19,23 +19,27 @@ Questa macro è una applicazione completa che permette di compilare tutti i camp
 
 L\'immagine rappresenta la gerarchia di compilazione dei campi come sono dentro finestra \"textEditable\" di FreeCAD.
 
+
+
 ## Utilizzo
 
 Il suo utilizzo è molto semplice, eseguire la macro e modificare i campi.
 
--   Il pulsante {{KEY/it|Quit}} serve per uscire dall\'applicazione.
+-   Il pulsante **Quit** serve per uscire dall\'applicazione.
 
--   Il pulsante {{KEY/it|Memo}} tiene in memoria il contenuto del cartiglio quando la macro è aperta.
+-   Il pulsante **Memo** tiene in memoria il contenuto del cartiglio quando la macro è aperta.
 
--   Il pulsante {{KEY/it|Clear}} cancella tutti i campi del modulo. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}}.
+-   Il pulsante **Clear** cancella tutti i campi del modulo. È possibile ripristinare i dati originali utilizzando il pulsante **Memo**.
 
--   Il pulsante {{KEY/it| Apply}} salva tutti i campi del modulo nel foglio.
+-   Il pulsante ** Apply** salva tutti i campi del modulo nel foglio.
 
 La finestra rimane sopra alle altre finestre per visualizzare i cambiamenti (questa funzione può essere spiacevole se si decide di aprire una nuova finestra e rimane inaccessibile)
 
 **Notare che alcuni caratteri come & \$ non sono accettati (e forse anche altri caratteri speciali)!**
 
 Se avete domande o volete aggiungere una funzione, è possibile rivolgersi al forum [Remplir cartouche](http://forum.freecadweb.org/viewtopic.php?f=12&t=2049)
+
+
 
 ## Codice
 
@@ -705,6 +709,8 @@ ui = Ui_MainWindow(MainWindow)
 MainWindow.show()
 
 }}
+
+
 
 ## Versione
 

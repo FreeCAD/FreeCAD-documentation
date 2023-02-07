@@ -10,6 +10,8 @@
 
 # Arch CurtainWall/pt-br
 
+
+
 ## Descrição
 
 This tool creates a [curtain wall](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) by subdividing a base face into quadrangular faces, then creating vertical mullion on the vertical edges, horizontal mullions on the horizontal edges, and filling the spaces between mullions with panels.
@@ -28,6 +30,8 @@ In case you need a non-regular subdivision, it is also possible to build your ow
 
 You can also use the curtain wall tool without any selected object, in which case you will be able to draw a baseline, which will the be extruded vertically to form the face on which the curtain wall will be built.
 
+
+
 ## Utilização
 
 ### Drawing a curtain wall from scratch 
@@ -44,12 +48,16 @@ You can also use the curtain wall tool without any selected object, in which cas
 2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys.
 3.  Adjust needed properties.
 
+
+
 ## Opções
 
 -   Curtain walls share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 -   Curtain wall mullions can be made from an automatic square profile (set their **Mullion Size** properties) or from a custom profile (set their **Mullion Profile** property). The mullions can be centered over each edge, or placed relatively to the (0,0,0) point by turning off the **Center Profile** property. For example, if you want a profile to be placed slightly behind the panels, you would draw that profile slightly below the (0,0,0) origin point
 -   Curtain walls support [Multi-materials](Arch_MultiMaterial.md). Inside the multi-material, the **Frame** layer will be used for the mullions, and the **Glass panel** layer for panels, or **Solid panel** if no Glass panel layer exists in the multi-material.
 -   Curtain walls can be based on a linear object such as a line, arc or polyline. In that case, internally, a base surface will be built by extruding the linear object along the direction given by the **Vertical Direction** property, by the length given by the **Height** property.
+
+
 
 ## Propriedades
 
@@ -141,7 +149,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = FreeCAD.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

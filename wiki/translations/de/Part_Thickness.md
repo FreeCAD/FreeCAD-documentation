@@ -9,9 +9,13 @@
 
 # Part Thickness/de
 
+
+
 ## Beschreibung
 
 Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part_Thickness/de.md) Werkzeug bearbeitet eine massive Form und wandelt sie in einen hohlen Gegenstand um, indem es jeder seiner Flächen eine definierte Dicke verleiht. Bei einigen Volumenkörpern erlaubt es dir, die Arbeit erheblich zu beschleunigen und vermeidet die Herstellung von Extrusionen und Taschen.
+
+
 
 ## Verwendung
 
@@ -22,7 +26,12 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 5.  Klicke **OK** zur Bestätigung, führe die Operation aus und verlasse die Funktion
 6.  Passe die Parameter in der Eigenschaftentabelle bei Bedarf an
 
+
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Dicke: Wanddicke des resultierenden Objekts
     -   Ein positiver Wert versetzt die Oberflächen nach außen
@@ -40,6 +49,9 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 -   Flächen / Fertig: Wähel die zu entfernenden Flächen, klicke dann **Fertig**
 -   Ansicht akutalisieren: Automatisches Aktualisieren in Echtzeit
 
+
+</div>
+
 ## Notes
 
 
@@ -50,9 +62,13 @@ Komplexe Formen können bizarre, schwer vorherzusagende Ergebnisse produzieren. 
 
 </div>
 
+
+
 ## Verweise
 
 Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
 
 ## Beispiele
 

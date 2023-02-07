@@ -62,6 +62,8 @@ The lower the deviation, the better the quality, but the larger the size of the 
 
 -   [Forum discussion (French)](https://forum.freecadweb.org/viewtopic.php?f=12&t=52138)
 -   [Macros recipes](Macros_recipes.md)
+-   [How to install macros](How_to_install_macros.md)
+-   [How to customize toolbars](Customize_Toolbars.md)
 
 ## Credits
 

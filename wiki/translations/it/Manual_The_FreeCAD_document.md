@@ -1,13 +1,4 @@
 # Manual:The FreeCAD document/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 Un documento di FreeCAD contiene tutti gli oggetti della scena. Può contenere gruppi e oggetti realizzati con qualsiasi ambiente di lavoro. È quindi possibile cambiare ambiente e continuare a lavorare sullo stesso documento e / o oggetti all\'interno dello stesso documento. Il documento è ciò che viene salvato su disco quando si salva il lavoro. In FreeCAD è anche possibile aprire più documenti contemporaneamente, e aprire diverse viste dello stesso documento.
@@ -18,13 +9,7 @@ All\'interno del documento, gli oggetti possono essere spostati e riuniti in gru
 
 ![](images/Freecad-document-02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti all\'interno di un documento FreeCAD possono essere di diversi tipi. Ogni ambiente può aggiungere i propri tipi di oggetti, ad esempio, l\'ambiente [ Mesh](Mesh_Workbench/it.md) aggiunge oggetti Mesh, [Parte](Part_Workbench/it.md) aggiunge oggetti Part, etc.
-
-
-</div>
+Gli oggetti all\'interno di un documento FreeCAD possono essere di diversi tipi. Ogni ambiente può aggiungere i propri tipi di oggetti, ad esempio, l\'ambiente [Mesh](Mesh_Workbench/it.md) aggiunge oggetti Mesh, l\'ambiente [Part](Part_Workbench/it.md) aggiunge oggetti Part, etc.
 
 Se vi è almeno un documento aperto in FreeCAD, c\'è sempre uno e un solo documento attivo. Questo è il documento che viene visualizzato nella vista 3D corrente, il documento su cui si sta lavorando. Se si passa a un altro documento, quello diventa il documento attivo. La maggior parte delle operazioni agiscono sempre sul documento attivo.
 
@@ -34,15 +19,6 @@ I documenti di FreeCAD vengono salvati con l\'estensione .FcStd, che è un forma
 
 -   [I documenti di FreeCAD](Document_structure/it.md)
 -   [Il Formato dei file FCStd](File_Format_FCStd/it.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,6 +1,8 @@
 # Part Part2DObject/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
@@ -14,6 +16,8 @@ Das `Part::Part2DObject` ist von dem [Part Formelement](Part_Feature/de.md) abge
 
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
+
+
 
 ## Anwendung
 
@@ -35,6 +39,8 @@ Das `Part::Part2DObject` ist im [Part Arbeitsbereich](Part_Workbench/de.md) fest
 
 Arbeitsbereiche können diesem Grundelement weitere Eigenschaften hinzufügen, um ein Objekt mit komplexem Verhalten zu erzeugen.
 
+
+
 ## Eigenschaften
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
@@ -50,10 +56,12 @@ Ein [Part Teil2DObjekt](Part_Part2DObject/de.md) (`PartDesign::Body` Klasse) wir
 
 <div class="mw-translate-fuzzy">
 
-Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat das Part Teil2DObjekt im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften. Ausgeblendete Eigenschaften können unter Verwendung des {{MenuCommand/de|Alles anzeigen}} Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
+Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat das Part Teil2DObjekt im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften. Ausgeblendete Eigenschaften können unter Verwendung des **Alles anzeigen** Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
 
 
 </div>
+
+
 
 ### Daten
 
@@ -83,6 +91,8 @@ Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigen
 -    <div id="Property_Attachment_Offset">
     </div>
     **Attachment Offset|Placement**: the position of the object in the [3D view](3D_view.md), with respect to the attachment object\'s placement. The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md). Hidden if **Map Mode** is {{value|Deactivated}}.
+
+
 
 ## Skripten
 

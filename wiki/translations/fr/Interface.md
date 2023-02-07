@@ -25,13 +25,17 @@ La fenêtre principale de l\'application peut être grossièrement divisée en 1
 10. L\'[atelier](Std_Workbench/fr.md) qui est lui-même une barre d\'outils
 11. Le [menu standard](Standard_Menu/fr.md)
 
+
+
 ## Composants de l\'interface 
 
 Comme de nombreux logiciels, FreeCAD comprend une barre de menus standard, puis une série de barres d'outils et de panneaux contenant les outils utilisateur.
 
 ### Menus
 
-Les [menus standard](Standard_Menu/fr.md) sont: {{StdMenu|[**Fichier**](Std_File_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand/fr|Edition}}](Std_Edit_Menu/fr.md)}}, {{StdMenu|[{{MenuCommand/fr|Affichage}}](Std_View_Menu/fr.md)}}, {{StdMenu|[**Outils**](Std_Tools_Menu/fr.md)}}, {{StdMenu|[**Macro**](Std_Macro_Menu/fr.md)}}, {{StdMenu|[**Fenêtre**](Std_Windows_Menu/fr.md)}}, {{StdMenu|[**Aide**](Std_Help_Menu/fr.md)}}.
+Les [menus standard](Standard_Menu/fr.md) sont: {{StdMenu|[**Fichier**](Std_File_Menu/fr.md)}}, {{StdMenu|[**Edition**](Std_Edit_Menu/fr.md)}}, {{StdMenu|[**Affichage**](Std_View_Menu/fr.md)}}, {{StdMenu|[**Outils**](Std_Tools_Menu/fr.md)}}, {{StdMenu|[**Macro**](Std_Macro_Menu/fr.md)}}, {{StdMenu|[**Fenêtre**](Std_Windows_Menu/fr.md)}}, {{StdMenu|[**Aide**](Std_Help_Menu/fr.md)}}.
+
+
 
 ### Barres d\'outils 
 
@@ -44,6 +48,8 @@ Les barres d\'outils standard qui apparaissent dans l\'interface sont:
 -   Barre d\'outils Structure: outils pour organiser les objets dans le document et créer des liens vers des documents supplémentaires.
 
 Celles-ci peuvent être activées ou désactivées en cliquant avec le bouton droit de la souris sur un espace vide de l\'une des barres d\'outils et en choisissant l\'élément souhaité, ou dans le menu. **Affichage → Barres d'outils**.
+
+
 
 ### Panneaux
 
@@ -64,12 +70,16 @@ Les panneaux principaux permettant de travailler avec des objets sont:
 
 Pour activer et désactiver la barre d\'état utiliser le menu, **Affichage → Barre d'état**.
 
+
+
 ### Autre
 
 Les autres interfaces et fenêtres utiles incluent:
 
 -   [Inspecteur de scène‏‎](Std_SceneInspector/fr.md): panneau affichant les nœuds Coin3D constituant la [Graphe de scène](Scenegraph/fr.md). Pour les utilisateurs expérimentés et les développeurs, il peut être utile de résoudre les opérations manipulant directement la scène et les objets créés dans la [Vue 3D](3D_view/fr.md).
 -   [Graphique de dépendance](Std_DependencyGraph/fr.md): une fenêtre affichant le graphe de dépendance de tous les objets du document, créée à l\'aide du programme auxiliaire [Graphviz](https://graphviz.org/). Il est utile de reconnaître les problèmes de création d\'objets, tels que les dépendances circulaires, qui peuvent ne pas être entièrement évidents à partir de la [Vue d\'arborescence](Tree_view/fr.md) ou de la [Vue DAG](DAG_view/fr.md).
+
+
 
 ### Personnalisation
 

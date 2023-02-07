@@ -23,7 +23,7 @@ Die mit PartDesign erstellten Körper unterliegen oft dem [topologischen Benennu
 
 ## Werkzeuge
 
-Die Werkzeuge für PartDesign befinden sich alle im Menü {{MenuCommand/de|Part Design}} und in der PartDesign Werkzeugleiste, die beim Laden des Arbeitsbereichs angezeigt wird.
+Die Werkzeuge für PartDesign befinden sich alle im Menü **Part Design** und in der PartDesign Werkzeugleiste, die beim Laden des Arbeitsbereichs angezeigt wird.
 
 
 

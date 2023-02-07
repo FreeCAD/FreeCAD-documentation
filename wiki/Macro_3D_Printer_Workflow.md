@@ -62,6 +62,8 @@ The lower the deviation, the better the quality, but the larger the size of the 
 
 -   [Forum discussion (French)](https://forum.freecadweb.org/viewtopic.php?f=12&t=52138)
 -   [Macros recipes](Macros_recipes.md)
+-   [How to install macros](How_to_install_macros.md)
+-   [How to customize toolbars](Customize_Toolbars.md)
 
 ## Credits
 
@@ -74,7 +76,7 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
 
 ### Code
 
- ver 00.02 21/01/2023 by 2cv001 **3D_Printer_Workflow.FCMacro**
+ ver 00.02 05/02/2023 by 2cv001 **3D_Printer_Workflow.FCMacro**
 
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
@@ -88,8 +90,8 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
     # ==================================================================
     __author__ = "2cv001"
     __title__   = "Macro_3D_Printer_Workflow"
-    __version__ = "v00.02"
-    __date__    = "2023/01/21"    #YYYY/MM/DD
+    __date__    = "2023/02/03"    #YYYY/MM/DD
+    __version__ = __date__
     __icon__    = "https://wiki.freecadweb.org/images/b/b4/Macro_3D_Printer_Workflow.png"
     __Wiki__    = "http://www.freecadweb.org/wiki/Macro_3D_Printer_Workflow"
     """
@@ -151,52 +153,63 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
                        # it will be reduced to delaiMax
 
     #To launch programs of your choice
-        #Typically for example a home automation program, 
-        #turn on your printer or/and a light etc.
-        #Use the following syntax by adding after the line "# insert your lines here."
-    #   a line with this syntax (important: align the [ with the others):
-    #  [ ['command to execute', 'param 1', param 2, ] ,'.extention','question to ask', waiting time],
+    #
+    #Typically for example a home automation program, 
+    #turn on your printer or/and a light etc.
+    #Use the following syntax by adding after the line "# insert your lines here" a line
+    #   with this syntax (important: align the [ with the others):
+    #  [ ['command to execute', 'param 1', param 2, ] ,'.extension','question to ask', waiting time],
     # Details of the syntax :
     #  'command to execute' : the command you want to execute. 
     #  'param 1, param 2,...' : if your program needs parameters. 
-    #    These parameters will be taken into account only if extention=''.
-    #
-    #  'extention': if not empty then the first parameter will be replaced by the name of 
-    #    your FreeCAD file but with this extension.
+    #      These parameters will be taken into account only if extension=''.#
+    #  'extension': if not empty then the first parameter will be replaced by the name of 
+    #      your FreeCAD file but with this extension.
     #  'question to ask': the question to display in the dialog box
     #  time_wait : optional : nb of seconds to wait after execution
-    #    allows for example to wait for the printer to start before asking it to heat the plate
+    #      allows for example to wait for the printer to start before asking it to heat the plate
 
-    #  Note the double \ in place of \ (because the special characters
+    #  Note in the examples below the double \ in place of \ (because the special characters
     #    must be preceded by an \ in python). Ditto for the apostrophe for example
     #  the lines in question are to be inserted further down after commands=[...
     #
     # Examples of possible launches:
 
     """
-    To launche a program :
+    Launching a program :
+    
+      to launche a program without parameter
     [ ['calc.exe'                                         ] ,''    ,'Launch the calculator ?'],
+      to launche a program with a parameter (here : dessin.jpg)
     [ ['C:\\WINDOWS\\system32\\mspaint.exe','dessin.jpg'  ] ,''    ,'Launch  Paint ?'          ],
+      to launche a program with an extension parameter. If for example, 
+      the freecad project file name is 'mondessin.FCStd'
+      and if you give '.stl' as extension, the program will be launched with as first parameter 'mondessin.stl'
+      Here cura will be launched with the file 'modessin.stl' loaded : 
     [ ['C:\\Program Files\\Ultimaker Cura 4.8.0\\Cura.exe'] ,'.stl','Launch  Cura ?'           ],
+      to load an url in firefox. Here, to launch octopi in firefox.
     [ ['C:\\Program Files\\Mozilla Firefox\\firefox.exe','https://octopi.local'],'','Launch Octoprint ?'],
         On linux:
     [ [   'firefox','https://octopi.local'                ] , ''   ,'Launch Octoprint ?'      ], 
-    To launch a web page (here, a php program)
+
+    Launching a web page (here, a php script) :
+    
     [ ['curl','http://pidomotique/connecte.php'           ] , ''   ,'Connect the printer ?'],
-    Example of printer control via octoprint (if you have it...):
-       temperature setting of the plate
-    - Replace the XXX after X-Api-Key: by your API key
-    (found in the octoprint parameters)
+    Launching an url using https but insecure
+    [ ['curl','https://pidomotique/connecte.php,'--insecure'] , ''   ,'Connect the printer ?'],
+    And if we want a delay of 10 seconds before the following program is executed: :
+    [ ['curl','https://pidomotique/connecte.php,'--insecure'] , ''   ,'Connect the printer ?',10],
+    Example of printer control via octoprint (f you have it...): 
+       send a G-code (see https://marlinfw.org/meta/gcode/ for others G-codes)
+       here : temperature setting of the plate 
+    - Replace the XXX after X-Api-Key: by your API key (found in the octoprint parameters)
     - Replace http://octopi.local by the url with which you access octoprint
     - Change the value 050 in "M140 S050". S050 indicates that you need to heat to 50°.
          if you want 60°, replace S050 by S060
-    - 6 lines to copy after having adapted it:
-      [
-          [  'curl','-H', 'Content-Type: application/json','-H', 'X-Api-Key: XXXXXXXXXXXXXXXXXXXXX', '-X', 'POST',
-                '-d {"command":"M140 S050"}','http://octopi.local/api/printer/command'
-          ]
-                , '','Warm up the printer plate ?'
-      ],
+    - 2 lines to copy after having adapted it:
+      [  [  'curl','-H', 'Content-Type: application/json','-H', 'X-Api-Key: XXXXXXXXXXXXXXXXXXXXX', '-X', 'POST',
+                '-d {"command":"M140 S050"}','http://octopi.local/api/printer/command' ] , '','Warm up the printer plate ?' ],
+
 
     """
 
@@ -205,10 +218,12 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
     # insert your lines here.
     #  [ ['calc.exe'                                         ] ,''    ,'Lancer la calculatrice ?',2],
     #  [ ['C:\\Program Files\\Ultimaker Cura 5.2.1\\Ultimaker-Cura.exe'] ,'.stl','Lancer Cura ?'           ],
-    #  [ ['curl','http://pidomotique/connecte.php'              ] , ''   ,'Allumer et connecter l\'imprimante ?',4],
+    #  [  ['curl','http://pidomotique/connecte.php'              ] , ''   ,'Allumer et connecter l\'imprimante ?',4],
+    #  [  [  'curl','-H', 'Content-Type: application/json','-H', 'X-Api-Key: XXXXXXXXXXXXXXXXXXXXX', '-X', 'POST',
+    #            '-d {"command":"M140 S050"}','http://octopi.local/api/printer/command' ] , '','Warm up the printer plate ?' ],
     # 2 jeedom command that I use. Put a # at the begining of the 2 lines.
-      [  ['curl', 'https://pijeedom/core/api/jeeApi.php?apikey=xxxxxxxxxxxxxxxxxxxxxxxxxx&type=cmd&id=4042','--insecure' ] , ''   ,'Turn on and connect printer ?',10],
-      [  ['curl','https://pijeedom/core/api/jeeApi.php?apikey=xxxxxxxxxxxxxxxxxxxxxxxx&type=cmd&id=4048','--insecure'  ] , ''   ,'Heat the bed ?'],
+      [  ['curl', 'https://pijeedom/core/api/jeeApi.php?apikey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&type=cmd&id=4042','--insecure' ] , ''   ,'Turn on and connect printer ?',10],
+      [  ['curl','https://pijeedom/core/api/jeeApi.php?apikey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&type=cmd&id=4048','--insecure'  ] , ''   ,'Heat the bed ?'],
       [  ['C:\\Program Files\\Mozilla Firefox\\firefox.exe','https://octopi'],'','Launch Octoprint ?'],
 
 
@@ -285,8 +300,9 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
     #===============
     def octopi(api,commande,urlOctopi,apiKey) :
         """
-        Function that returns the parameter to pass to subprocess.Popen if you want to run an
-        an octopi API. Not used here. But for memory purposes and a future evolution
+        Function that returns the parameter to pass to subprocess.Popen if you 
+        want to run an octopi API. Not used here. But for memory purposes 
+        and a future evolution
 
         Arguments :
             api : the api to run ex: '/api/printer/command'
@@ -466,7 +482,7 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
              Do not return anything
 
         Example:
-            lanceCommmandes(commandes,fileStlName,formBoiteDialogueSTL) # lance les commandes que l'on a décrites dans commandes
+            lanceCommmandes(commandes,fileStlName,formBoiteDialogueSTL) # runs the commands described in commands
         """
 
         for tbktc in formBoiteDialogueSTL.tabCheckboxTextCommandes :
@@ -478,23 +494,23 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
                 textAutreCommandeALancer=commande[indiceTextAutreCommandeALancer]
                 delai=0
                 try :
-                   if commande[indiceDelai:indiceDelai+1]!=[] : #si l'utilisateur a rentré un délai
+                   if commande[indiceDelai:indiceDelai+1]!=[] : #if the user has entered a delay
                       delai=commande[indiceDelai]
                 except :
-                   print ('Délai non pris en compte car valeur numérique non valide'+
-                          'pour la commande '+ textAutreCommandeALancer)
+                   print ('Delay not taken into account because of invalid numerical value'+
+                          'for the command '+ textAutreCommandeALancer)
                 if delai > delaiMax :
                     delai=delaiMax
 
                 if extFileNameParamCommandeALancer!='':
-                    if commandeEtParam[2:3]==[]  : # Il n'y a aucun paramètre.
-                       # On ajoute un paramètre pour y mettre notre nom de fichier
-                       # avec notre extension.
+                    if commandeEtParam[2:3]==[]  : # There is no parameter.
+                       # We add a parameter to put our file name
+                       # with our extension.
                        commandeEtParam.append('')
                     commandeEtParam[1]=   os.path.splitext(fileStlName)[0]+  extFileNameParamCommandeALancer
                 subprocess.Popen(commandeEtParam,close_fds=True)
                 print(commandeEtParam)
-                time.sleep(delai)# Pause de durée delai secondes
+                time.sleep(delai)# Pause time (seconds)
 
 
     def run(objs=Gui.Selection.getSelection(), dev=deviation):
@@ -544,7 +560,7 @@ ToolBar Icon ![](images/Macro_3D_Printer_Workflow.png )
         # we memorize the selected solids and their deviation,
         # we make a touch() of their child to be taken into account in recompute :
         dictionnaireOrigineDeviation=memoriseObjEtDeviation(objs,dev)
-        if len(dictionnaireOrigineDeviation)==0: # si on a trouvé aucun solide
+        if len(dictionnaireOrigineDeviation)==0: # if no solids were found
             QtWidgets.QMessageBox.information(mw, 'Warning',\
                 '-Select one or more solids before running the macro')
             return

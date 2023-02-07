@@ -11,6 +11,8 @@
 
 ![600px](images/Part_Extrude_demo.png)
 
+
+
 ## Beschreibung
 
 **Part Extrudieren** erweitert eine Form durch einen bestimmten Abstand in einer bestimmten Richtung. Der Typ der Ausgabeform ändert sich abhängig vom Typ der Eingabeform und der gewählten Optionen.
@@ -26,6 +28,8 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 -   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 -   extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
 
+
+
 ## Anwendung
 
 
@@ -34,7 +38,7 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 ## Anwendung 
 
 1.  Wähle die Form(en) in der 3D Ansicht oder im Modell [Baumansicht](tree_view/de.md)
-2.  Klicke auf das **<img src="images/Part_Extrude.svg" width=16px> '''Extrudieren'''** Symbol in der Werkzeugleiste oder gehe zum {{MenuCommand/de|Part → Extrudieren}} Menü
+2.  Klicke auf das **<img src="images/Part_Extrude.svg" width=16px> '''Extrudieren'''** Symbol in der Werkzeugleiste oder gehe zum **Part → Extrudieren** Menü
 3.  Setze die Richtung und Länge und wahlweise andere Parameter (siehe den folgenden [Parameter](#Parameters/de.md) Abschnitt für weitere Einzelheitenn).
 4.  Klicke OK.
 
@@ -119,6 +123,8 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 </div>
 
+
+
 ## Aufgabendialog
 
 ![](images/Part_Extrude_dialog.png )
@@ -153,6 +159,8 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 -   Formliste: Hier werden die zu extrudierenden Formen ausgewählt. Bei der Auswahl von mehreren Objekte werden mehrere Extrusionsobjekte erstellt.
 
+
+
 ## Hinweise
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and to specify the direction. <small>(v0.20)</small> 
@@ -166,6 +174,8 @@ Der Part Extrudieren Dialog bietet noch keine Vorschau. **Anwenden** erzeugt jed
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -1,6 +1,4 @@
 # Category:Template/de
-This category contains all the Templates
-
 Diese Kategorie enthält alle Templates
 
 Den betreffenden Artikeln folgende Zeile anhängen:

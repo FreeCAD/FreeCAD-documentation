@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
@@ -18,12 +20,16 @@ The **Revolution** tool creates a solid by revolving a selected sketch or 2D obj
 ![](images/PartDesign_Revolution_example.svg ) 
 *Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
 
+
+
 ## Применение
 
-1.  Select the sketch to be revolved. v0.17 and above A face on the existing solid can alternatively be used.
+1.  Select the sketch to be revolved. A face on the existing solid can alternatively be used.
 2.  Press the **<img src="images/PartDesign_Revolution.svg" width=24px> '''Revolution'''** button.
 3.  Set the Revolution parameters (see next section).
 4.  Press **OK**.
+
+
 
 ## Опции
 
@@ -36,10 +42,9 @@ When creating a revolution, the **Revolution parameters** dialogue offers severa
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | -   **Vertical sketch axis**: selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                         |
-|                                                                                  | -   **Sketch axis**: v0.16 and below selects a construction line contained in the sketch used by the Revolution. The first construction line created in the sketch will be labelled *Sketch axis 0*. The drop down list will contain one custom sketch axis for each construction line.                |
-|                                                                                  | -   **Construction line**: v0.17 and above selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.                 |
-|                                                                                  | -   **Base (X/Y/Z) axis**: v0.17 and above selects the X, Y or Z axis of the Body\'s Origin;                                                                                                                                                                                                          |
-|                                                                                  | -   **Select reference\...**: v0.17 and above allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                  |
+|                                                                                  | -   **Construction line**: selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line will be labelled *Construction line 1*.                                                                                                                             |
+|                                                                                  | -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin.                                                                                                                                                                                                                                                                                                |
+|                                                                                  | -   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                                                                                                        |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | ### Angle                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
@@ -54,6 +59,8 @@ When creating a revolution, the **Revolution parameters** dialogue offers severa
 |                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                             |
 +++
 
+
+
 ## Свойства
 
 Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable.
@@ -66,7 +73,9 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 -    **Reversed**: true or false. See [Reversed](#Reversed.md).
 
--    **Refine**: v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+
+
 
 ## Примеры
 

@@ -1,18 +1,24 @@
 # Draft DXF/fr
 {{TOCright}}
 
+
+
 ## Description
 
-Draft DXF est un module logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import/fr.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) pour gérer le format de fichier DXF.
+Draft DXF est un module du logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import/fr.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) pour gérer le format de fichier DXF.
 
 ![](images/Screenshot_qcad.jpg ) 
-*Qcad plan exporté en DXF qui est ensuite ouvert dans FreeCAD*
+*Dessin de Qcad exporté au format DXF puis ouvert dans FreeCAD*
 
-## Importation
+
+
+## Importer
 
 Deux importateurs sont disponibles, celui qui est utilisé peut être spécifié sous **Édition → Préférences... → Importer-Exporter → DXF**. L\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut mieux gérer certaines entités et créer des objets FreeCAD plus raffinés. Les deux prennent en charge toutes les versions DXF à partir de R12.
 
 Les solides 3D à l\'intérieur d\'un fichier DXF sont stockés sous un blob binaire ACIS/SAT, qui ne peut actuellement pas être lu par FreeCAD.
+
+
 
 ### L\'importateur C++ 
 
@@ -32,6 +38,8 @@ Cet importateur peut importer les objets DXF suivants :
 -   calques
 -   objets de l\'espace papier
 
+
+
 ### L\'importateur historique 
 
 Cet importateur peut importer les objets DXF suivants :
@@ -47,9 +55,13 @@ Cet importateur peut importer les objets DXF suivants :
 -   leaders
 -   calques
 
-## Exportation
+
+
+## Exporter
 
 Il existe également deux exportateurs. L\'exportateur traditionnel exporte au format R12 DXF, l\'exportateur C++ au format R14 DXF. Les deux formats peuvent être traités par de nombreuses applications.
+
+
 
 ### L\'exportateur C++ 
 
@@ -60,6 +72,8 @@ Voici quelques-unes des caractéristiques et des limites de cet exportateur :
 -   Les textes et les dimensions ne sont pas exportés.
 -   Les couleurs sont ignorées.
 -   Les calques sont mappés à partir des noms d\'objets.
+
+
 
 ### L\'exportateur historique 
 
@@ -72,9 +86,13 @@ Voici quelques-unes des caractéristiques et des limites de cet exportateur :
 -   Les couleurs dans le DXF sont basées sur la couleur des lignes des objets. Le noir est mappé sur \"ByBlock\", les autres couleurs sont mappées en utilisant les couleurs ACI (AutoCAD Color Index).
 -   Les calques sont mappées à partir des noms de calques et de groupes. Lorsque les groupes sont imbriqués, le groupe le plus profond donne le nom du calque.
 
+
+
 ## Installation
 
 Pour des raisons de licence, les bibliothèques d\'importation/exportation [DXF](DXF/fr.md) requises par la version héritée de l\'importateur ne font pas partie du code source de FreeCAD. Pour plus d\'informations, voir : [FreeCAD et l\'importation de DXF](FreeCAD_and_DXF_Import/fr.md).
+
+
 
 ## Préférences
 
@@ -93,6 +111,8 @@ Il existe un support intégré pour les convertisseurs DWG suivants :
 -   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). {{Version/fr|0.20}}
 
 Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
+
+
 
 ## Script
 

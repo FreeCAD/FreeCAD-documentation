@@ -50,7 +50,7 @@ Ein Verbund, der sich berührende oder sich überschneidende Formen enthält, is
 
 </div>
 
-Um diese Prüfung einzuschalten, gehe zu {{MenuCommand/de|Werkzeuge → Parameter bearbeiten → Einstellungen..... → Mod → Teil → PrüfeGeometrie→ RunBOPCheck}} und setze den Parameter auf `true`.
+Um diese Prüfung einzuschalten, gehe zu **Werkzeuge → Parameter bearbeiten → Einstellungen..... → Mod → Teil → PrüfeGeometrie→ RunBOPCheck** und setze den Parameter auf `true`.
 
 
 

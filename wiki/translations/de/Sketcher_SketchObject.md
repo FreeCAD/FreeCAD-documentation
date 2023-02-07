@@ -25,7 +25,7 @@ Das `Sketcher::SketchObject` ist vom [Part Part2DObject](Part_Part2DObject/de.md
 
 2.  Die Schaltfläche **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)** drücken.
 
-3.  Eine {{MenuCommand/de|Skizzenorientierung}} auswählen: XY-Ebene, XZ-Ebene, oder YZ-Ebene. Wahlweise die {{MenuCommand/de|Umgekehrte Richtung}} aktivieren, und einen **Offset**-Wert eingeben.
+3.  Eine **Skizzenorientierung** auswählen: XY-Ebene, XZ-Ebene, oder YZ-Ebene. Wahlweise die **Umgekehrte Richtung** aktivieren, und einen **Offset**-Wert eingeben.
 
 4.  
     **OK**drücken.
@@ -52,7 +52,7 @@ Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete
 
 Das [Sketcher Sketch-Objekt](Sketcher_SketchObject/de.md) (`Sketcher::SketchObject`-Klasse) ist von dem [Part Part2DObject](Part_Part2DObject/de.md) (`Part::Part2DObject`-Klasse) abgeleitet und erbt all seine Eigenschaften.
 
-Das Sketcher Sketch-Objekt hat außerdem die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Ausgeblendete Eigenschaften können mit dem Befehl {{MenuCommand/de|Alle anzeigen}} im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
+Das Sketcher Sketch-Objekt hat außerdem die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Ausgeblendete Eigenschaften können mit dem Befehl **Alle anzeigen** im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
 
 
 

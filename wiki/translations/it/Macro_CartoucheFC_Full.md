@@ -21,6 +21,8 @@ L\'ordine di compilazione dei campi di testo è quello descritto nella figura se
 
 <img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width:680px;">
 
+
+
 ## Utilizzo
 
 **Nota: Alcuni caratteri come & o \$ non sono accettati, e forse anche altri caratteri speciali.**
@@ -30,21 +32,21 @@ Se avete domande o volete aggiungere una funzione, potete contattarmi sul forum 
 -   La finestra rimane sovrapposta alle altre, questo permette di controllare la tabella senza uscire dal programma.
 -   Copiare il codice in un file denominato **Macro_CartoucheFC_Full.FCMacro** e posizionarlo nella directory usuale delle macro.
 -   Creare un foglio di disegno utilizzando il modulo Drawing di FreeCAD, poi avviare la macro **Macro_CartoucheFC_Full**.
--   All\'avvio, il programma carica in memoria tutti i dati già presenti nella tabella del foglio (se è già stata compilata). Tutti i dati caricati sono resi automaticamente utilizzando il pulsante {{KEY/it| Memo}} e rimangono in memoria fino alla chiusura del programma.
--   I pulsanti Data {{KEY/it| D.}} e Ora {{KEY/it| H.}} visualizzano la data e l\'ora del sistema.
+-   All\'avvio, il programma carica in memoria tutti i dati già presenti nella tabella del foglio (se è già stata compilata). Tutti i dati caricati sono resi automaticamente utilizzando il pulsante ** Memo** e rimangono in memoria fino alla chiusura del programma.
+-   I pulsanti Data ** D.** e Ora ** H.** visualizzano la data e l\'ora del sistema.
 
   -Il formato della data dipende dal simbolo del formato regionale selezionato: **EU** o **US**. Nel caso sia stata inserita manualmente una data la commutazione non avviene automaticamente, ma, quando si modifica il simbolo, è necessario cliccare nuovamente sui pulsanti data. Controllare prima della stampa.
 
 -   Prima tutto selezionare vostra pagina di lavoro.
 -   Scegliere il formato della pagina.
--   Il pulsante {{KEY/it|Symbole EU}} o US commuta il simbolo del verso della proiezione \"Select your Symbol\" visualizzato per impostazione predefinita. Compare il simbolo attivo. Fare clic sul pulsante e verificare sul foglio il simbolo attivo, cliccare una seconda volta per modificarlo.
+-   Il pulsante **Symbole EU** o US commuta il simbolo del verso della proiezione \"Select your Symbol\" visualizzato per impostazione predefinita. Compare il simbolo attivo. Fare clic sul pulsante e verificare sul foglio il simbolo attivo, cliccare una seconda volta per modificarlo.
 
   -La scelta di questo simbolo incide sul formato della data **EU = dd/MM/yyyy** e **US = MM/dd/yyyy**.
 
-  -**Attenzione**: questo comando non passa attraverso il pulsante {{KEY/it|Apply}}, ma commuta immediatamente il simbolo a ogni pressione del tasto. Controllare sempre sul foglio di lavoro se il simbolo attivo è quello corretto.
+  -**Attenzione**: questo comando non passa attraverso il pulsante **Apply**, ma commuta immediatamente il simbolo a ogni pressione del tasto. Controllare sempre sul foglio di lavoro se il simbolo attivo è quello corretto.
 
--   Il pulsante {{KEY/it|Clean}} cancella tutti i campi della tabella. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}}.
--   Il pulsante {{KEY/it|Apply}} salva tutti i campi della tabella nel foglio. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}}, tranne il simbolo regionale che è indipendente e agisce in modo immediato.
+-   Il pulsante **Clean** cancella tutti i campi della tabella. È possibile ripristinare i dati originali utilizzando il pulsante **Memo**.
+-   Il pulsante **Apply** salva tutti i campi della tabella nel foglio. È possibile ripristinare i dati originali utilizzando il pulsante **Memo**, tranne il simbolo regionale che è indipendente e agisce in modo immediato.
 
 ## Codice
 
@@ -1164,6 +1166,8 @@ oppure
 ``` Si sono prodotti alcuni errori in esecuzione quando il simbolo è stato cancellato.
 
 Questo modulo funziona con il foglio di disegno incluso in FreeCAD che si chiama **Page**. Non cambiate il nome del foglio!
+
+
 
 ## Revisione
 

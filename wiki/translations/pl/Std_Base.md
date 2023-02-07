@@ -3,13 +3,19 @@
 
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy **Narzędzia standardowe** nie jest tak naprawdę środowiskiem pracy, ale raczej kategorią *podstawowych* poleceń i narzędzi, które mogą być używane we wszystkich środowiskach pracy.
 
+
+
 ## Przybory
 
 Większość **narzędzi Głównych** jest dostępna z [menu standardowego](Standard_Menu/pl.md), i standardowy pasek narzędzi. Te, które są dostępne tylko poprzez pasek narzędzi lub menu kontekstowe, są wymienione w sekcji [narzędzia dodatkowe](#Narzędzia_dodatkowe.md).
+
+
 
 ### Memu narzędzia Standardowe 
 
@@ -33,6 +39,8 @@ Istnieje siedem standardowych menu podrzędnych. Każde podmenu ma dedykowaną s
 [Pomoc](Std_Help_Menu/pl.md)
 }}
 
+
+
 ### Narzędzia dodatkowe 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Utwórz Część](Std_Part/pl.md): Tworzy nową część i czyni ją aktywną.
@@ -48,8 +56,8 @@ Istnieje siedem standardowych menu podrzędnych. Każde podmenu ma dedykowaną s
 -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md): Wybiera najgłębiej powiązany obiekt i przełącza się na jego dokument. {{Version/pl|0.19}}
 -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md): Zaznacza wszystkie linki do obiektu. {{Version/pl|0.19}}
 -   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances/pl.md): Zaznacza wszystkie wystąpienia obiektu. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Przywróć wybór](Std_SelBack/pl.md): Przywraca poprzednio zapisany wybór. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Ponów wybór](Std_SelForward/pl.md): Przywraca następny zapisany wybór. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Przywróć wybór](Std_SelBack/pl.md): Przywraca poprzednio zapisany wybór. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Ponów wybór](Std_SelForward/pl.md): Przywraca następny zapisany wybór. {{Version/pl|0.19}}
 -   [Wyrażenia](Expressions/pl.md): Akcje wyrażeń. {{Version/pl|0.19}}
 
 

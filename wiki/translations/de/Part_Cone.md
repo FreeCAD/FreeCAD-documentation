@@ -9,6 +9,8 @@
 
 # Part Cone/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Part Kegel** erstellt einen parametrischen Volumenkörper, einen Kegel. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Kegels auf der XY-Ebene mit ihrem Mittelpunkt im Ursprung.
@@ -16,6 +18,8 @@ Der Befehl <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Part Keg
 Standardmäßig ist der Part-Kegel ein Kegelstumpf. Er kann in einen Kegel mit Spitze gewandelt werden, indem die {{PropertyData/de|Radius1}} oder die {{PropertyData/de|Radius2}} auf Null gesetzt wird. Er kann in ein Kegelsegment gewandelt werden, durch Änderung der {{PropertyData/de|Winkel}}.
 
 <img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
+
+
 
 ## Anwendung
 
@@ -25,7 +29,7 @@ Standardmäßig ist der Part-Kegel ein Kegelstumpf. Er kann in einen Kegel mit S
 1.  Wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench.md)-Arbeitsbereich.
 2.  Es gibt zwei Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Part_Cone.svg" width=16px> [Part Kegel](Part_Cone/de.md)**-Schaltfläche
-    -   Verwende den {{MenuCommand/de|Formteil → Grundkörper → <img src="images/Part_Cone.svg" width=16px> Kegel}}-Eintrag aus dem oberen Menü.
+    -   Verwende den **Formteil → Grundkörper → <img src="images/Part_Cone.svg" width=16px> Kegel**-Eintrag aus dem oberen Menü.
 
 
 </div>
@@ -36,15 +40,21 @@ Standardmäßig ist der Part-Kegel ein Kegelstumpf. Er kann in einen Kegel mit S
 
 Ein Part-Kegel-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde, wird hier dargestellt.
 
+
+
 ## Hinweise
 
 -   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Kegel-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -69,6 +79,8 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 
 </div>
+
+
 
 ## Skripten
 

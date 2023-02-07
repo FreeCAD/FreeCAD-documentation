@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [StützenVerstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md)-Objektes zu erzeugen.
@@ -22,13 +24,15 @@ Das [Arch Stützenverstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug i
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das **Werkzeuge → Erweiterungsverwalter → Bewehrung**-Menü installiert werden kann.
 
 
 </div>
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Stützenbewehrung innerhalb eines Stütze [Architektur Struktur](Arch_Structure/de.md)*
+
+
 
 ## Anwendung
 
@@ -57,6 +61,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 11\. Select desired rebar type and fill data for ydirection rebars.
 12. Click **OK** or **Apply** to generate column reinforcement.
 13. Click **Cancel** to exit the dialog box.
+
 
 ## Eigenschaften
 
@@ -132,6 +137,8 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 -    **Number#Diameter**: Number#Diameter set of the y-direction rebars.
 
+
+
 ## Skripten
 
 
@@ -198,6 +205,8 @@ RebarGroup = makeSingleTieFourRebars(
 -    `l_rebar_rounding`is the parameter that determines the bending radius of the LShaped main rebars, expressed as times the diameter.
 
 -    `hook_extension`is the length of hook of LShaped rebars.
+
+
 
 #### Beispiel
 
@@ -368,6 +377,8 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
+
+
 #### Beispiel 
 
 
@@ -453,6 +464,8 @@ rebar_group = editSingleTieFourRebars(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
+
+
 #### Beispiel 
 
 
@@ -529,6 +542,8 @@ rebar_group = editSingleTieMultipleRebars(
 -   The other parameters are the same as required by the `makeSingleTieMultipleRebars()` function.
 
 -    `structure`and `facename` may be omitted so that the reinforcement stays in the original structure.
+
+
 
 #### Beispiel 
 

@@ -9,9 +9,13 @@ L\'atelier A2plus est un [atelier externe](External_workbenches/fr.md) de Freeca
 
 Cette documentation d\'A2plus porte sur la version **0.4.56 ou plus récente**.
 
+
+
 ## Installation
 
-L'atelier A2plus est un complément à FreeCAD. Il peut être facilement installé via le menu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) à partir de **Outils → Gestionnaire des extensions**. A2plus est en cours de développement et bénéficiera fréquemment de nouvelles fonctionnalités. Par conséquent, vous devez le mettre à jour régulièrement en utilisant également le menu {{MenuCommand/fr|Outils→ [Gestionnaire des extensions](Std_AddonMgr/fr.md)}}. Le code A2plus est hébergé et développé [sur GitHub](https://github.com/kbwbe/A2plus) et peut également être installé manuellement en le copiant dans le répertoire **Mod** de FreeCAD.
+L'atelier A2plus est un complément à FreeCAD. Il peut être facilement installé via le menu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) à partir de **Outils → Gestionnaire des extensions**. A2plus est en cours de développement et bénéficiera fréquemment de nouvelles fonctionnalités. Par conséquent, vous devez le mettre à jour régulièrement en utilisant également le menu **Outils→ [Gestionnaire des extensions](Std_AddonMgr/fr.md)**. Le code A2plus est hébergé et développé [sur GitHub](https://github.com/kbwbe/A2plus) et peut également être installé manuellement en le copiant dans le répertoire **Mod** de FreeCAD.
+
+
 
 ## Commencer
 
@@ -33,6 +37,8 @@ Pour enregistrer l'ensemble et le refermer par la suite, vous pouvez utiliser le
 
 Le basculement du bouton de la barre d\'outils <img alt="" src=images/A2p_CD_OneButton.svg  style="width:24px;"> définit la manière dont vous pouvez sélectionner plusieurs arêtes, faces, etc. : soit par un simple clic, soit par **Ctrl**+clic.
 
+
+
 ## Assemblage
 
 L\'assemblage des pièces se fait en ajoutant des contraintes entre les pièces. Après une contrainte, A2plus déplacera les pièces en fonction de la contrainte, si possible.
@@ -40,6 +46,8 @@ L\'assemblage des pièces se fait en ajoutant des contraintes entre les pièces.
 Pour créer une contrainte entre les pièces, maintenez la touche **Ctrl** enfoncée et sélectionnez soit une arête soit une face de deux pièces. Cliquez ensuite sur le bouton de la barre d\'outils de la contrainte souhaitée. Une boîte de dialogue apparaîtra, décrite dans la section [Contraintes](#Contraintes.md). La contrainte sera ajoutée dans l\'arborescence du modèle attachée aux pièces affectées.
 
 Pour les contraintes complexes entre les pièces, A2plus peut ne pas résoudre les contraintes. Par conséquent, consultez également la section [Dépannage](#Dépannage.md) pour connaître les stratégies permettant de résoudre de tels cas.
+
+
 
 ### Garder la trace 
 
@@ -50,6 +58,8 @@ Plus vous ajoutez de pièces, plus il est important de conserver une trace. A2p
 -   Pour afficher uniquement certaines pièces de l\'assemblage, sélectionnez-les dans l\'arborescence du modèle et utilisez le bouton de la barre d\'outils <img alt="" src=images/A2p_Isolate_Element.svg  style="width:24px;">.Vous pouvez également masquer une certaine partie en la sélectionnant dans l\'arborescence du modèle et en appuyant sur la touche **Espace** pour modifier sa visibilité.
 -   Pour basculer l\'affichage de la transparence de l\'ensemble, vous pouvez utiliser le bouton de la barre d\'outils <img alt="" src=images/A2p_ToggleTransparency.svg  style="width:24px;">.
 -   Chaque pièce peut être rendue transparente par l\'édition normale de FreeCAD. Cependant, le réglage de la transparence des pièces est parfois perdu lors de la réouverture de l\'assemblage en raison d\'un bogue dans FreeCAD. Pour contourner le problème, vous pouvez utiliser le bouton de la barre d'outils <img alt="" src=images/A2p_Restore_Transparency.svg  style="width:24px;"> pour restaurer les paramètres de transparence.
+
+
 
 ### Contraintes
 
@@ -64,65 +74,97 @@ Les contraintes peuvent être désactivées en modifiant sa [visibilité](Std_To
 
 A2plus fournit les contraintes suivantes :
 
+
+
 #### Point sur Point 
 
 Sélectionnez un [sommet](Glossary#Vertex.md) (point) sur chaque pièce. Le bouton de la barre d\'outils  <img alt="" src=images/A2p_PointIdentity.svg  style="width:24px;"> ajoute la contrainte {{Variable|pointIdentity}}. Cela fera coïncider les sommets.
+
+
 
 #### Point sur Ligne 
 
 Sélectionnez un [vertex](Glossary/fr#Vertex.md) (point) ou un [edge](Glossary/fr#_Edge.md) (ici arc) de cercle (sélectionnera son centre) ou une [face](Glossary_#_Face/fr.md) sphérique (sélectionnera également son centre) d\'une part et un [edge](Glossary#Edge.md) d\'autre part. Le bouton de la barre d\'outils <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|pointOnLine}}. Cela mettra le vertex sur l\'edge.
 
+
+
 #### Point sur Plan 
 
 Sélectionnez un [vertex](Glossary/fr#Vertex.md) (point) ou un [edge](Glossary/fr#Edge.md) (ici arc) de cercle (sélectionnera son centre) ou la [face](Glossary#Face/fr.md) d\'une sphère (sélectionnera également son centre) d\'une par et un plan d\'autre part. Le bouton de la barre d'outils <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|pointOnPlane}}. Le dialogue de contrainte vous permet de spécifier un décalage entre le point et le plan. Ce décalage peut également être inversé entre les deux côtés du plan. Si le décalage est nul, la contrainte placera le sommet sur le plan.
+
+
 
 #### Sphère sur Sphère 
 
 Sélectionnez une [face](Glossary/fr#Face.md) sphérique ou un [vertex](Glossary/fr#Vertex.md) (point) sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|sphereCenterIdent}}. Cela fera coïncider les centres des sphères, le centre de la sphère et le sommet, ou les sommets.
 
+
+
 #### Bord circulaire sur bord circulaire 
 
 Sélectionnez un [bord](Glossary/fr#Edge.md) circulaire sur les deux pièces. Le bouton de la barre d\'outils  ajoute la contrainte {{Variable|circularEdge}}. Le dialogue de contrainte vous permet de spécifier un décalage entre les arêtes. Ce décalage peut également être inversé. Vous pouvez en outre définir le sens de la contrainte et verrouiller la rotation des pièces. Si le décalage est nul, la contrainte placera les arêtes concentriques dans le même plan.
+
+
 
 #### Axes coïncidents 
 
 Sélectionnez une [face](Glossary/fr#Face.md) cylindrique ou un [bord](Glossary/fr#Edge.md) linéaire sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|axisCoincident}}. Le dialogue de contrainte vous permet de spécifier la direction de l\'axe.La boîte de dialogue vous permet en outre de verrouiller la rotation des pièces. La contrainte fera coïncider les axes ou les lignes.
 
+
+
 #### Axes parallèles 
 
 Sélectionnez une [face](Glossary/fr#Face.md) cylindrique ou un [bord](Glossary/fr#Edge.md) linéaire sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|axisParallel}}. Le dialogue de contrainte vous permet de spécifier la direction de l\'axe. La contrainte rendra les axes ou les lignes parallèles.
+
+
 
 #### Axe sur plan parallèle 
 
 Sélectionnez une [face](Glossary/fr#Face.md) cylindrique ou un [bord](Glossary/fr#Edge.md) linéaire sur une pièce et un plan sur l\'autre pièce. Le bouton de la barre d\'outils <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|axisPlaneParallel}}. La contrainte rendra l\'axe ou la ligne parallèle au plan.
 
+
+
 #### Axe sur plan normal 
 
 Sélectionnez une [face](Glossary#Face.md) cylindrique ou un [bord](Glossary#Edge.md) linéaire sur une partie et un plan sur l\'autre partie. Le bouton de la barre d'outils <img alt="" src=images/A2p_AxisPlaneVerticalConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|axisPlaneNormal}}. La contrainte rendra l\'axe ou la ligne normale au plan.
+
+
 
 #### Axe sur plan d\'angle 
 
 Sélectionnez une [face](Glossary#Face.md) cylindrique ou une [arête](Glossary#Edge.md) linéaire sur une partie et un plan sur l\'autre partie. Le bouton de la barre d\'outils <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|axisPlaneAngle}}. La contrainte rendra d\'abord l\'axe parallèle au plan. Ensuite, vous pouvez ajuster l\'angle de l\'axe dans la boîte de dialogue des paramètres de contrainte qui apparaît.
 
+
+
 #### Plans parallèles 
 
 Sélectionnez un plan sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|planesParallel}}. La boîte de dialogue de contrainte vous permet de spécifier le sens de la contrainte. La contrainte rendra les plans parallèles.
+
+
 
 #### Plan sur plan 
 
 Sélectionnez un plan sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|planeCoincident}}. La boîte de dialogue de contrainte vous permet de spécifier une direction de contrainte et un décalage entre les plans. Ce décalage peut également être inversé. Si le décalage est nul, la contrainte fera coïncider les plans.
 
+
+
 #### Angle entre plans 
 
 Sélectionnez un plan sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|angledPlanes}}. Le dialogue de contrainte vous permet de spécifier un angle entre les plans. La contrainte va d\'abord rendre les plans parallèles et définir l\'angle spécifié.
+
+
 
 #### Coïncidence au centre de masse 
 
 Sélectionnez un [bord](Glossary/fr#Edge.md) fermé ou un plan sur les deux pièces. Le bouton de la barre d\'outils <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> ajoute la contrainte {{Variable|centerOfMass}}. Le dialogue de contrainte vous permet de spécifier un décalage entre les arêtes ou les plans. Ce décalage peut également être inversé. Vous pouvez en outre définir le sens de la contrainte et verrouiller la rotation des pièces. Si le décalage est nul, la contrainte placera les arêtes ou les plans dans le même plan.
 
+
+
 ### Sous-assemblages 
 
 Un assemblage peut contenir d\'autres assemblages. Ils sont ajoutés comme des pièces en appuyant sur le bouton de la barre d'outils <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> et en sélectionnant un fichier ***.FCStd** contenant un assemblage. De tels sous-ensembles peuvent également être édités comme des pièces à l'aide du bouton de la barre d'outils <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. Assurez-vous, pour les étapes d\'assemblage supérieures, que vous mettez à jour l\'assemblage via le bouton de la barre d\'outils <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;"> quand il y a eu des changements.
+
+
 
 ## Traitement des contraintes 
 
@@ -139,6 +181,8 @@ Toutes les contraintes peuvent être résolues à tout moment avec le bouton de 
 Le bouton de la barre d\'outils <img alt="" src=images/A2p_FlipConstraint.svg  style="width:24px;"> affecte la contrainte qui a été ajoutée le plus récemment. Il inverse la direction de la contrainte.
 
 Avec l\'outil <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width:24px;">, il est possible d\'afficher et d\'inspecter les contraintes existantes. Après avoir cliqué sur l\'outil, une boîte de dialogue s\'ouvre. Vous pouvez alors soit sélectionner une pièce dans l\'arborescence et cliquer sur le bouton **Import from part** pour obtenir toutes les contraintes de cette pièce, soit sélectionner une ou plusieurs contraintes dans l\'arborescence et cliquer sur le bouton **Import from Tree**. Le résultat est que vous obtenez toutes les informations sur les contraintes. En cliquant dans la colonne *Suppress*, une seule contrainte peut être supprimée. Pour plus de fonctionnalités, suivez les infobulles des autres boutons de la boîte de dialogue.
+
+
 
 ## Listes de pièces 
 
@@ -162,7 +206,11 @@ Si vous avez mis à jour une information de pièce, vous pouvez actualiser la li
 
 Pour les sous-ensembles, vous pouvez également créer une feuille de calcul d'informations à l'aide du bouton de la barre d'outils <img alt="" src=images/A2p_PartsInfo.svg  style="width:24px;">. Lorsque vous créez ou mettez à jour la liste de pièces de l\'assemblage principal, cette information est utilisée si vous cliquez sur \"Non\" pour la question si vous souhaitez effectuer une itération récursive sur tous les sous-assemblages. Ensuite, les différentes pièces ne figurent pas dans la liste de pièces, mais uniquement les sous-assemblages.
 
+
+
 ## Fonctions spéciales 
+
+
 
 ### Structure d\'assemblage 
 
@@ -170,27 +218,39 @@ Le bouton de la barre d\'outils <img alt="" src=images/A2p_Treeview.svg  style="
 
 :   ![](images/A2p_Dependency-Tree.jpg )
 
+
+
 ### Degrés de liberté 
 
 Le bouton <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> permet d'étiqueter chaque partie de l'assemblage avec ses degrés de liberté. De plus, il affiche une liste avec toutes les pièces et leurs dépendances. La liste est sortie dans le widget *Vue rapport* de FreeCAD. Si ce widget n\'est actuellement pas visible, vous pouvez l\'afficher soit en cliquant avec le bouton droit de la souris sur une partie vide de la zone de la barre d\'outils FreeCAD, puis en le choisissant dans le menu contextuel qui apparaît, ou avec le menu **Affichage → Panneaux → [Vue rapport](Report_view/fr.md)**.
 
 Les libellés des degrés de liberté peuvent être supprimées en cliquant à nouveau sur le bouton <img alt="" src=images/A2p_DOFs.svg  style="width:24px;">.
 
+
+
 ### Étiquetage
 
 Le bouton <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> identifie chaque partie de l\'assemblage dans la vue 3D par son nom. Les étiquettes des pièces peuvent être supprimées en cliquant sur le bouton <img alt="" src=images/A2p_PartLabelRemove.svg  style="width:24px;">.
+
+
 
 ### Forme de l\'assemblage complet 
 
 Parfois, il est nécessaire de combiner l'ensemble du montage en une seule forme. Cette forme peut ensuite être utilisée par exemple pour l'impression 3D dans l'[atelier Mesh](Mesh_Workbench/fr.md) ou pour les dessins dans l'[atelier TechDraw](TechDraw_Workbench/fr.md). Il est créé en utilisant le bouton de la barre d'outils <img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">. La forme est par défaut non visible.Utilisez le même bouton de la barre d'outils pour mettre à jour la forme en cas de modification de l'assemblage.
 
+
+
 ### Convertir les chemins absolus en chemins relatifs 
 
 Avec le menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** vous pouvez convertir les chemins absolus des pièces importées en pièces relatives.
 
+
+
 ## Préférences
 
-Les préférences de a2plus sont accessibles via le menu  {{MenuCommand/fr|Edition → [Préférences](Preferences_Editor/fr.md)}} de FreeCAD et dans la section \"A2plus\". Vous pouvez définir les options suivantes :
+Les préférences de a2plus sont accessibles via le menu  **Edition → [Préférences](Preferences_Editor/fr.md)** de FreeCAD et dans la section \"A2plus\". Vous pouvez définir les options suivantes :
+
+
 
 ### Méthode de résolution par défaut 
 
@@ -198,9 +258,13 @@ Utiliser la résolution de systèmes partiels: Le solveur commence par une pièc
 Utilisez un solveur \"magnétique\", résolvant toutes les pièces à la fois: Le solveur essaie de déplacer toutes les pièces en même temps en direction d\'une pièce pour laquelle la propriété {{PropertyData/fr|fixed Position}} a la valeur \"true\". Notez que dans la plupart des cas, cela prend plus de temps pour le calcul d\'une solution.
 Forcez en position fixe: Ceci définit la propriété {{PropertyData/fr|fixed Position}} à \"true\" pour toutes les pièces de l'assemblage. Ensuite, aucun calcul n\'est réellement effectué, car toutes les pièces seront toujours fixées aux positions où elles ont été créées.
 
+
+
 ### Comportement par défaut du solveur 
 
 Résoudre automatiquement si une propriété de contrainte est modifiée: Le solveur sera automatiquement lancé. Identique à l\'activation du bouton de la barre d\'outils <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;">.
+
+
 
 ### Comportement lors de la mise à jour de pièces importées 
 
@@ -235,12 +299,16 @@ N\'importez pas de formes invisibles: Cela masquera les formes de données/const
 Utilisez l\'union solide pour importer des pièces et des sous-assemblages: Toutes les pièces importées seront directement assemblées en tant que union.
 Cette fonctionnalité est utile pour les simulations [FEM](FEM_Workbench/fr.md) ou [l'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) si un seul solide est autorisé. L\'alternative consiste à créer ultérieurement une [forme de l\'assemblage complet](#Forme_de_l.27assemblage_complet.md).
 
+
+
 ### Paramètres de l\'interface utilisateur 
 
 Afficher les contraintes dans la barre d\'outils: Si cette option n\'est pas utilisée, les boutons de la barre d\'outils pour les différentes contraintes ne sont pas visibles pour économiser de l\'espace dans la barre d\'outils. De nouvelles contraintes peuvent toujours être définies à l'aide de la boîte de dialogue *Outils de contrainte* (bouton de la barre d'outils <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">).
 Utiliser le gestionnaire de fichiers natif de votre système d\'exploitation: si cette option est utilisée, vous obtenez la boîte de dialogue de fichier de votre système d\'exploitation lorsque vous sélectionnez des fichiers pour les assemblages.
 
  
+
+
 
 ### Stockage des fichiers 
 
@@ -249,19 +317,27 @@ Utiliser des chemins absolus pour les pièces importées: Utilise des chemins de
 Tous les fichiers sont dans ce dossier de projet: Tous les fichiers de projet doivent être dans le dossier spécifié. Peu importe s\'ils se trouvent dans les sous-dossiers de ce dossier.**Remarque:** aucun fichier ne peut exister plusieurs fois dans le dossier (par exemple, dans différents sous-dossiers).
 Cette option est utile pour travailler sur différentes machines car il suffit ensuite de copier le dossier du projet.
 
+
+
 ## Dépannage
 
 Tôt ou tard, vous aurez le problème qu\'A2plus ne peut pas résoudre les contraintes que vous avez définies.Pour surmonter cela, il existe différentes stratégies :
 
+
+
 ### Utilisation de l\'outil de recherche de conflits 
 
 Il s\'agit de la méthode la plus sûre lorsque vous avez plusieurs contraintes: cet outil tente de résoudre une contrainte après l\'autre jusqu\'à ce qu\'il trouve la contrainte en conflit. Ensuite, vous pouvez continuer avec les autres stratégies pour résoudre la contrainte identifiée. L\'outil est appelé à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
+
+
 
 ### Vérification de la direction de la contrainte 
 
 Parfois, les contraintes semblent être systématiquement définies mais elles ne peuvent néanmoins pas être résolues. Un exemple: supposons que vous ayez un ensemble de contraintes {{Variable|[plans Parallèles](#Plane_Parallel.md)}} pour deux plans. Vous souhaitez maintenant définir pour les mêmes plans la contrainte {{Variable|[plans coïncidents](#Plane_on_Plane.md)}} et A2plus ne peut pas résoudre ce problème. Alors les directions de contrainte des {{Variable|planesParallel}} et {{Variable|planeCoincident}} sont différentes. Utilisez la même direction pour les deux contraintes afin de résoudre ce problème.
 
 A2plus propose de vérifier automatiquement la bonne direction pour **toutes** les contraintes de l\'assemblage à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_ReAdjustConstraints.svg  style="width:24px;">.
+
+
 
 ### Suppression de contraintes 
 
@@ -271,11 +347,15 @@ Parfois, la stratégie de suppression est la seule, par exemple lorsque vous mod
 
 Lorsque vous avez un assemblage qui peut être résolu, ajoutez étape par étape les contraintes dont vous avez besoin.
 
+
+
 ### Pièces mobiles 
 
 Dans de nombreux cas, le solveur ne nécessite que des meilleures valeurs de départ pour résoudre les contraintes. Prenons par exemple le cas où vous avez une pièce essieu et une pièce roue. Vous ajoutez une contrainte {{Variable|axisCoincident }} et n\'obtenez aucune information sur l\'échec du solveur, mais les pièces ne sont pas déplacées en conséquence et dans le l\'onglet Afficher rapport de FreeCAD, vous voyez \"*REACHED POS-ACCURACY :0.0*\". Une solution à cela consiste à rapprocher les pièces de la position souhaitée par la contrainte.
 
 **Remarque :** Assurez-vous qu\'au moins une pièce de la contrainte a la propriété **Position fixe** définie sur *false*.
+
+
 
 ### Définition de la propriété Fonction résultante 
 
@@ -283,19 +363,27 @@ Si vous avez oublié certaines fonctionnalités de votre pièce après l\'import
 
 A2plus importe des corps de pièces avec toutes leurs fonctions jusqu\'à la fonction Tip. Cela est judicieux car le fait de définir Tip sur une certaine fonction signifie que toutes les fonctions derrière Tip ne doivent pas apparaître dans la partie finale. Donc, si vous manquez une fonction de pièce dans A2plus, ouvrez la pièce via le bouton de la barre d\'outils <img alt="" src=images/A2p_EditPart.svg  style="width:24px;"> puis sélectionnez un corps et regardez sa propriété {{PropertyData/fr|Tip}}. Si Tip ne se trouve pas à la fonction où vous le souhaitez, cliquez avec le bouton droit sur la fonction où Tip devrait être et choisissez **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Enfin, enregistrez la pièce et rechargez l\'assemblage à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
+
+
 ### Réparation de l\'arbre d\'assemblage 
 
 Si vous ne voyez pas clairement pourquoi certaines contraintes ne peuvent pas être résolues, vous pouvez utiliser le bouton de la barre d'outils <img alt="" src=images/A2p_RepairTree.svg  style="width:24px;">. Ceci résoudra toutes les contraintes et les regroupera à nouveau sous les différentes pièces.
 
+
+
 ### Migration d\'anciens assemblages A2plus 
 
 Les assemblages créés avec A2plus antérieurs à mars 2019 n\'affichent pas les icônes correctes pour les pièces importées et ont des propriétés obsolètes. Ces assemblages peuvent être migrés vers A2plus version 0.4.35 et plus récente à l\'aide du menu **[<img src=images/A2p_RecursiveUpdate.svg style="width:24px"> Migrer les proxys de pièces importées**. Après cela, vous devez enregistrer et rouvrir votre fichier d\'assemblage.
+
+
 
 ### Éviter les caractères accentués 
 
 **Cette stratégie n\'est pas nécessaire pour Windows.**
 
 Sur certains systèmes d\'exploitation, vous pouvez rencontrer des problèmes si les noms de fichier ou les chemins de fichier des pièces ou de l\'assemblage contiennent des caractères accentués. Par conséquent, évitez ces caractères et les caractères spéciaux en général.
+
+
 
 ### Position de fixation 
 
@@ -307,17 +395,21 @@ Ensuite, A2plus transmet les informations relatives à la solution défaillante,
 
 Par conséquent, vérifiez qu\'au moins une de vos pièces de l\'ensemble a {{PropertyData/fr|Position fixe}} définie sur *true*. Assurez-vous ensuite que vous ne définissez des contraintes que sur une pièce qui est en quelque sorte connectée à la pièce fixe. Pour visualiser ces dépendances, reportez-vous à la section [Structure de l\'assemblage](#Structure_d.27assemblage.md).
 
+
+
 ### Pièces tournantes 
 
 **Cette stratégie n\'est plus nécessaire pour les assemblages créés avec A2plus 0.4.0 ou plus récent, car A2plus fait pivoter automatiquement les pièces en arrière-plan afin d\'obtenir un angle de départ suffisant pour le solveur.**
 
-Le solveur échoue souvent pour la contrainte {{Variable|angledPlanes}} si les deux plans sélectionnés ont actuellement un angle de 0 ° ou 180 °. (Les pièces ne sont pas déplacées en conséquence et dans l\'onglet \"Vue Rapport\" de FreeCAD, vous voyez \"*REACHED POS-ACCURACY :0.0*\".) Une solution consiste à faire pivoter une pièce de quelques degrés à l\'aide de la fonction de transformation de FreeCAD (cliquez avec le bouton droit de la souris sur la pièce dans l'arbre du modèle et sélectionnez dans le menu contextuel {{MenuCommand/fr|Transformer}}).
+Le solveur échoue souvent pour la contrainte {{Variable|angledPlanes}} si les deux plans sélectionnés ont actuellement un angle de 0 ° ou 180 °. (Les pièces ne sont pas déplacées en conséquence et dans l\'onglet \"Vue Rapport\" de FreeCAD, vous voyez \"*REACHED POS-ACCURACY :0.0*\".) Une solution consiste à faire pivoter une pièce de quelques degrés à l\'aide de la fonction de transformation de FreeCAD (cliquez avec le bouton droit de la souris sur la pièce dans l'arbre du modèle et sélectionnez dans le menu contextuel **Transformer**).
 
 **Remarque:** Assurez-vous qu\'au moins une pièce de la contrainte a la propriété {{PropertyData/fr|Position fixe}} définie sur *false*.
 
 ## Animation
 
 A2plus propose des animations par glisser-déposer et via des scripts Python.
+
+
 
 ### Glisser
 
@@ -337,6 +429,8 @@ Voici un exemple d\'assemblage pour tester l\'animation de glissement: [A2p_exam
 
 *Ci-dessus: l'animation de glissement à l'aide de l'exemple d'assemblage*
 
+
+
 ### Script
 
 Bien que le mode glisser offre de belles animations interactives, elles ne sont parfois pas assez précises pour les screencasts ou les vidéos. Les animations scriptées ont l\'avantage d\'animer des mouvements et des rotations d\'une manière définie. Vous pouvez par exemple faire pivoter une pièce exactement de 10° d\'avant en arrière. Les exemples suivants utilisent un assemblage dans lequel une pièce doit être tournée. Si vous essayez d\'animer cela en utilisant le mode glisser, vous verrez à quel point il est difficile d\'obtenir une rotation d\'avant en arrière que vous pouvez par exemple montrez votre patron dans une présentation. Avec l\'exemple de script interactif, c\'est une tâche facile.
@@ -349,6 +443,8 @@ Une animation scriptée fonctionne généralement de cette façon:
 4.  Les étapes 2 et 3 sont répétées pour obtenir l\'animation.
 
 Il est également possible de modifier au lieu d\'un paramètre de placement une contrainte, par exemple la distance entre 2 plans.
+
+
 
 #### Exemple simple de script 
 
@@ -421,6 +517,8 @@ Pour vous entraîner, changez simplement quelque chose dans le script et exécut
 Voici le résultat de l\'exemple d\'animation:
 
 ![](images/A2p_animated-example-result.gif )
+
+
 
 #### Exemple de script interactif 
 
@@ -595,6 +693,8 @@ while AnimationDialog.isVisible():
 La boîte de dialogue définie dans le script ressemble à ceci:
 
 ![](images/A2p_AnimationDialog.png )
+
+
 
 ### Commandes de script 
 

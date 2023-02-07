@@ -1,10 +1,10 @@
 ---
 - TutorialInfo:/ru
-   Topic:Path Workbench
-   Level:
-   Time:
+   Topic:Верстак Path
+   Level:Начинающий/Средний
+   Time:15 минут
    Author:Chrisb
-   FCVersion:
+   FCVersion:0.19
    Files:
 ---
 
@@ -13,18 +13,16 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
 
 
+## Цель
 
-</div>
+Демонстрация создания Задания <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [верстака Path](Path_Workbench/ru.md) на основе 3D-модели. Затем генерируем правильный диалект G-кода для целевого фрезерного станка с ЧПУ.
 
-## Aim
 
-Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) Job derived from a 3D Model. Then generating dialect-correct G-Code for a target CNC mill.
 
-## The 3D Model 
+## 3D Модель 
 
 1\. The Project begins with a simple FreeCAD model designed in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Part Design](PartDesign_Workbench.md) a cube with a rectangular pocket,
 
@@ -42,13 +40,19 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 2\. With the 3D Model completed, switch to the <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) via the [Workbench selector](Std_Workbench.md) (drop-down menu)
 
-## The Job 
 
-3\. Now we create a [Path Job](Path_Job.md) by either of the following methods:
+<div class="mw-translate-fuzzy">
 
--   Press the **![](images/)_[Job](Path_Job.md)** button from the toolbar.
--   Using the **P** then **F** keyboard shortcut.
--   Using the **Path → Job** entry from the top menu.
+## Задание
+
+3\. Теперь создаём [Задание Path](Path_Job/ru.md) одним из следующих способов:
+
+-   Нажатием кнопки **![](images/)_[Задание](Path_Job/ru.md)** на панели инструментов.
+-   Используя последовательно клавиши **P** и **J**.
+-   Используя пункт **Траектория → Задание** в верхнем меню.
+
+
+</div>
 
 ![](images/Path-JobCreationDialog.png )
 
@@ -56,12 +60,14 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
     :   
         
-*Above: [Path Job](Path_Job.md) creation dialog*
+*Выше: диалоговое окно Создать [Задание Path](Path_Job/ru.md)*
         
 
 4\. This opens a Job creation dialog. Within this dialog, click **OK** to accept the Body as the Base Model, with no Template.
 
-### Job Setup 
+
+
+### Настройка Задания 
 
 5\. The Job Edit window opens in the Task window, and the model view Window shows the Stock as a wire frame cube surrounding the Base Body. The Setup Tab is selected.
 

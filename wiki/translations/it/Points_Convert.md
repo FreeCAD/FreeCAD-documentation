@@ -10,6 +10,8 @@
 # Points Convert/it
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descrizione
@@ -20,6 +22,8 @@
 The **Points Convert** command creates point clouds from shape objects or mesh objects.
 
 Here a shape object refers any object with a **Shape** property. Objects created with the [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) workbench are shape objects. But so are objects created with the [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md) workbench.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -53,7 +57,7 @@ Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the fol
 
 {{TitleProperty|Base}}
 
--    **Points|PointsKernel**: a Points PointsKernel associated with this object.
+-    **Points|PointsKernel**: a Points Kernel associated with this object.
 
 -    **Normal|NormalList**: a list of normals. This property is only available for point clouds created with the [Points Convert](Points_Convert.md) command from mesh objects or shape objects with faces.
 

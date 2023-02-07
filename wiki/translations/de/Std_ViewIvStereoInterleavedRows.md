@@ -1,33 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std ViewIvStereoInterleavedRows
-   MenuLocation:View → Stereo → Stereo interleaved Rows
-   Workbenches:All
-   SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
+   Name/de:Std AnsichtStereoVersetzteZeilen
+   MenuLocation:Ansicht → Stereo → Horizontales Interlacing
+   Workbenches:Alle
+   SeeAlso:[Std AnsichtStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtStereoAus](Std_ViewIvStereoOff/de.md)
 ---
 
 # Std ViewIvStereoInterleavedRows/de
 
+
+
 ## Beschreibung
 
-The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_view.md) to interleaved rows stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) are requires.
+Der Befehl **Std AnsichtStereoVersetzteZeilen** stellt den Stereo-Modus der aktiven [3D-Ansicht](3D_view/de.md) auf Horizontales Interlacing um. Zur Verwendung dieses Stereo-Modus wird eine spezielle Grafikkarte, ein spezieller Bildschirm und eine Brille mit Polarisationsfilter-Gläsern. Siehe [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) (engl.).
+
+
 
 ## Anwendung
 
-1.  Select the **View → Stereo → <img src="images/Std_ViewIvStereoInterleavedRows.svg" width=16px> Stereo interleaved Rows** option from the menu.
-
-## Preferences
-
--   The eye to eye distance can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
-
-## Scripting
+1.  Den Menüeintrag **Ansicht → Stereo → <img src="images/Std_ViewIvStereoInterleavedRows.svg" width=16px> Horizontales Interlacing** auswählen.
 
 
-**See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Einstellungen
 
-To change the view to interleaved rows stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+-   Der Augenabstand kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Augenabstand für Stereo-Modi**. Siehe [Einstellungseditor](Preferences_Editor/de#3D-Viewer.md).
+
+
+
+## Skripten
+
+
+**Siehe auch:**
+
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+Um die Ansicht auf Horizontales Interlacing (interleaved rows) zu ändern, wird die Methode `setStereoType` des ActiveView-Objekts verwendet. Diese Methode steht nicht zur Verfügung, wenn sich FreeCAD im Konsolenmodus befindet.
 
 
 ```python

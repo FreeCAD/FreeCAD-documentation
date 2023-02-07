@@ -8,30 +8,38 @@
 
 # Std ToggleSelectability/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std AuswählbarkeitUmschalten** schaltet die Auswählbarkeit von Objekten in den [3D-Ansichten](3D_view.md) um.
 
+
+
 ## Anwendung
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Select the **View → Visibility → <img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the menu.
-    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
-    -   Select the **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** option from the 3D view context menu.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den Menüeintrag **Ansicht → Sichtbarkeit → <img src="images/Std_ToggleSelectability.svg" width=16px> Selektierbarkeit an/aus** auswählen.
+    -   Den Menüeintrag **<img src="images/Std_ToggleSelectability.svg" width=16px> Selektierbarkeit an/aus** im Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Dieser Befehl steht im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) nicht zur Verfügung.
+    -   Den Menüeintrag **<img src="images/Std_ToggleSelectability.svg" width=16px> Toggle selectability** im Kontextmenü der 3D-Ansicht auswählen.
+
+
 
 ## Hinweise
 
--   The selectability of an object can also be changed through its related **Selectable** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Die Auswählbarkeit eines Objekts kann auch durch die mit ihm verknüpfte {{PropertyData/de|Selectable}} im [Eigenschafteneditor](Property_editor/de.md) oder in der [Combo-Ansicht](Combo_view/de.md) geändert werden.
+
+
 
 ## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-The `Selectable` property of an object determines its selectability.
+Die Eigenschaft `Selectable` eines Objekts bestimmt seine Auswählbarkeit.
 
 
 ```python

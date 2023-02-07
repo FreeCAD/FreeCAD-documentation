@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento permette di svincolare uno schizzo dal piano che lo contiene e di riposizionarlo su un nuovo piano.
+
+
 
 ## Utilizzo
 
@@ -29,7 +33,7 @@ Questo strumento permette di svincolare uno schizzo dal piano che lo contiene e 
 5.  È possibile posizionare lo schizzo su uno dei piani principali
 6.  C\'è anche la possibilità di aggiungere un offset positivo o negativo, una distanza dal piano principale.
 
-La finestra di dialogo che permette di impostare il nuovo {{KEY/it|<img src="images/Draft_SelectPlane.png" width=16px> [piano](Draft_SelectPlane/it.md)}} dello schizzo. Il piano può essere uno dei piani standard o un piano parallelo a uno di questi.
+La finestra di dialogo che permette di impostare il nuovo **<img src="images/Draft_SelectPlane.png" width=16px> [piano](Draft_SelectPlane/it.md)** dello schizzo. Il piano può essere uno dei piani standard o un piano parallelo a uno di questi.
 
 La finestra per definire il piano: [left\|Finestra di selezione del piano](IMAGE:Sketcher_New_it.png.md)
 Orientamento dello schizzo
@@ -47,6 +51,8 @@ Orientamento dello schizzo
 
 
 </div>
+
+
 
 ## Note
 

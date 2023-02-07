@@ -13,9 +13,13 @@
 
 
 
+
+
 ## Objectif
 
 Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path](Path_Workbench/fr.md) dérivé d\'un modèle 3D, puis création du G-Code pour dialoguer avec une fraiseuse CNC cible.
+
+
 
 ## Le modèle 3D 
 
@@ -35,7 +39,7 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 3\. Maintenant, nous créons une [Path Tâche](Path_Job/fr.md) par l\'une des méthodes suivantes:
 
 -   Appuyez sur le bouton **![](images/)_[Tâche](Path_Job/fr.md)** dans la barre d\'outils.
--   Utilisation du raccourci clavier **P** puis **F**.
+-   Utilisation du raccourci clavier **P** puis **J**.
 -   En utilisant l\'entrée **Path → Tâche** du menu supérieur.
 
 ![](images/Path-JobCreationDialog.png )
@@ -49,9 +53,13 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 
 4\. Cela ouvre une boîte de dialogue de création de tâche. Dans cette boîte de dialogue, cliquez sur **OK** pour accepter le corps comme modèle de base, sans modèle.
 
+
+
 ### Configuration de la tâche 
 
 5\. La fenêtre de dialogue de la tâche s\'ouvre dans la fenêtre Tâche et la fenêtre de vue du modèle affiche le brut sous la forme de cube en filaire entourant le corps de base. L\'onglet Configuration est sélectionné.
+
+
 
 ### Sortie de la tâche 
 
@@ -62,6 +70,8 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
     
 *Ci-dessus: la boîte de dialogue Modifier de [Path Tâche](Path_Job/fr.md) avec l'onglet Sortie sélectionné*
     
+
+
 
 ### Outils
 
@@ -93,6 +103,8 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 
 Remarque: Pour un accès facile, tous les outils peuvent être prédéfinis et sélectionnés dans le <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Gestionnaire d\'outils (Tool manager)](Path_ToolLibraryEdit/fr.md).
 
+
+
 ### Plan de travail 
 
 L\'onglet Plan de travail (Workplan) est initialement affiché comme vide. Il est ensuite rempli par la séquence des opérations de tâche, des commandes Partial (Commandes particulières) et des Dressups (Habillages) de Path. L\'ordre de ces éléments est ordonné ici.
@@ -100,6 +112,8 @@ L\'onglet Plan de travail (Workplan) est initialement affiché comme vide. Il es
 Cette arborescence apparaît après la configuration du travail une fois celui-ci déplié:
 
 :   ![](images/Path-TreeWithJob.png )
+
+
 
 ## Les opérations d\'usinage 
 
@@ -125,6 +139,8 @@ Le résultat est un modèle avec deux parcours d\'usinage:
 *Ci-dessus: le résultat avec un modèle à deux trajectoires*
     
 
+
+
 ## Vérification des parcours d\'usinage 
 
 Il existe deux manières de vérifier les parcours d\'usinage créés. Le G-code peut être inspecté, notamment en mettant en évidence les segments de parcours d\'usinage correspondants. Le processus de fraisage de la tâche d\'usinage peut également être simulé pour illustrer les parcours d'outil optimisés, nécessaires aux géométries d'outil pour fraiser le brut.
@@ -148,6 +164,8 @@ Réglez la vitesse et la précision et lancez la simulation avec le bouton de le
     
 
 Si vous souhaitez mettre fin à la simulation, cliquez sur le bouton **Annuler** pour supprimer le brut créé pour la simulation. Si vous cliquez sur **OK**, cet objet sera conservé dans votre travail.
+
+
 
 ## Post-traiter la tâche 
 

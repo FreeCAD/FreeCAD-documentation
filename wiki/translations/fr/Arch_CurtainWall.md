@@ -29,7 +29,11 @@ Si vous avez besoin d\'une subdivision non régulière, il est également possib
 
 Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélectionné, auquel cas vous pourrez dessiner une ligne de base, qui sera extrudée verticalement pour former la face sur laquelle le mur-rideau sera construit.
 
+
+
 ## Utilisation
+
+
 
 ### Dessiner un mur-rideau de zéro 
 
@@ -39,6 +43,8 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 3.  Cliquez sur un premier point de la vue 3D ou rentrez des coordonnées
 4.  Cliquez sur un deuxième point de la vue 3D ou rentrez des coordonnées
 5.  Ajustez les propriétés nécessaires
+
+
 
 ### Création d\'un mur-rideau à partir d\'un objet sélectionné 
 
@@ -52,6 +58,8 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 -   Les meneaux des murs-rideaux peuvent être fabriqués à partir d\'un profil carré automatique (définissez leurs propriétés **Mullion Size** Taille de meneau) ou à partir d\'un profil personnalisé (définissez leur propriété **Mullion Profile** Profil de meneau). Les meneaux peuvent être centrés sur chaque arête ou placés relativement au point (0,0,0) en désactivant la propriété **Center Profile**. Par exemple, si vous voulez qu\'un profil soit placé légèrement derrière les panneaux, vous dessinerez ce profil légèrement en dessous du point d\'origine (0,0,0)
 -   Les murs-rideaux supportent [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). A l\'intérieur du multi-matériaux, la couche **Frame** sera utilisée pour les meneaux et la couche **Glass panel** pour les panneaux ou **Solid panel** si aucune couche de panneau de verre existe dans le multi-matériau.
 -   Les murs-rideaux peuvent être basés sur un objet linéaire tel qu\'une ligne, un arc ou une polyligne. Dans ce cas, en interne, une surface de base sera construite en extrudant l\'objet linéaire selon la direction donnée par la propriété **Vertical Direction** par la longueur donnée par la propriété **Height**.
+
+
 
 ## Propriétés
 
@@ -103,6 +111,8 @@ Les objets Mur-rideau héritent des propriétés des objets [Arch Composants](Ar
 
 -    **Host**: hôte de ce mur-rideau. Le mur-rideau apparaîtra intégré dans son objet hôte dans l\'arborescence (aucune autre action n\'est effectuée)
 
+
+
 ## Faire des murs à ossature 
 
 Les murs-rideaux sont pratiques à utiliser en conjonction avec des [Arch Murs](Arch_Wall/fr.md) pour créer des murs à ossature (murs où une couche structurelle intérieure est faite de cadres, généralement en bois ou en métal, au lieu d\'un matériau homogène comme le béton ou la brique) .
@@ -121,6 +131,8 @@ La procédure décrite ci-dessous crée un mur et un mur-rideau sur la base d\'u
 8.  Créez un [Arch Multi-matériau](Arch_MultiMaterial/fr.md), en utilisant une couche du matériau du panneau, une couche du matériau vide avec une valeur de largeur négative (ce qui le rendra non dessiné) correspondant à la hauteur verticale du meneau du mur-rideau et une autre couche de matériau de panneau
 9.  Attribuer le multi-matériau au mur
 10. Définissez la propriété **Host** du mur-rideau sur le mur que nous avons créé au premier point
+
+
 
 ## Script
 
@@ -143,7 +155,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = FreeCAD.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

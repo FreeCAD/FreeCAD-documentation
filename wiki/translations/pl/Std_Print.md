@@ -32,9 +32,11 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
 
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Notes
 
--   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
+
+## Uwagi
+
+-   Podczas drukowania zawartości widoku 3D nie należy oczekiwać żadnego określonego współczynnika skali na wydruku.
 
 
 

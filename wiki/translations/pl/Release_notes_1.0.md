@@ -28,7 +28,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 ## Interfejs użytkownika 
 
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Ściany narożników kostki nawigacyjnej są teraz sześciokątne i większe, dzięki czemu łatwiej je kliknąć. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Ściany narożników kostki nawigacyjnej są teraz sześciokątne i większe, dzięki czemu łatwiej je kliknąć. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) oraz [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
    
@@ -205,6 +205,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   W oknie dialogowym [Otwór](PartDesign_Hole/pl.md) usunięto przestarzałe typy łbów śrub *(łeb serowy, śruba kapiszonowa itp.)*. Były one przestarzałe od wersji FreeCAD 0.19. Otwory wykorzystujące te typy są przekształcane w niestandardowe pogłębiacze/otwory o średnicy i głębokości używanej przez typy. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   Polecenie [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md) zostało dodane do paska narzędzi Helper. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   Usunięto z menu nieużyteczne polecenia [Zamknij edycje szkicu](Sketcher_LeaveSketch/pl.md) i [Widok szkicu](Sketcher_ViewSketch/pl.md). Polecenia [Edycja szkicu](Sketcher_EditSketch/pl.md), [Łączenie szkiców](Sketcher_MergeSketches/pl.md) i [Odbicie lustrzane szkicu](Sketcher_MirrorSketch/pl.md) zostały dodane do menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+-   Narzędzie [Koło zębate ewolwentowe](PartDesign_InvoluteGear/pl.md) ma nowe właściwości do zmiany długości zębów. Umożliwia to teraz dostosowanie do pewnych typów zakłóceń i wykorzystanie profilu do tworzenia [involute splines](https://en.wikipedia.org/wiki/Spline_(mechanical)). [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184).
 
 
 

@@ -1,9 +1,13 @@
 # Workbench creation/pl
 {{TOCright}}
 
+
+
 ## Wprowadzenie
 
 Ta strona pokaże Ci, jak dodać nowe środowisko pracy do interfejsu programu FreeCAD. [Środowiska pracy](Workbenches/pl.md) są kontenerami dla poleceń FreeCAD. Mogą być zakodowane w Pythonie, w C++ lub w mieszance obu tych języków, co ma tę zaletę, że łączy szybkość C++ z elastycznością Pythona. We wszystkich przypadkach jednak Twoje środowisko pracy będzie uruchamiane przez zestaw dwóch plików Python. Mogą to być \"wewnętrzne\" środowiska, dołączone do dystrybucji programu FreeCAD, lub \"zewnętrzne\", dystrybuowane za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md) lub instalowane ręcznie przez pobranie z jakiegoś repozytorium online. Wewnętrzne środowiska pracy mogą być napisane w C++, środowisku Python lub kombinacji tych dwóch środowisk, podczas gdy zewnętrzne środowiska pracy muszą być napisane wyłącznie w środowisku Python.
+
+
 
 ## Struktura środowiska pracy 
 
@@ -175,7 +179,9 @@ Adding your preference page(s):
 -   In your workbench, for ex. inside the InitGui file, inside the Initialize method (but any other place works too), add: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" being one of the preferences groups on the left. FreeCAD will automatically look for a \"preferences-mygroup.svg\" file in its known locations (which you can extend with FreeCADGui.addIconPath())
 -   Make sure the addPreferencePage() method is called only once, otherwise your pref page will be added several times
 
-#### Distribution
+
+
+#### Dystrybucja
 
 To distribute your Python workbench, you may either simply host the files in some location and instruct your users to download them and place them in their Mod directory manually, or you may host them in an online git repository (GitHub, GitLab, Framagit, and Debian Salsa are currently supported locations) and configure them for the [Addon Manager](Std_AddonMgr.md) to install. Instructions for inclusion on FreeCAD\'s official Addons list can be found on the [FreeCAD Addons GitHub repository](https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). To use the Addon Manager, a [package.xml metadata file](Package_Metadata.md) should be included, which instructs the Addon Manager how to find your workbench\'s icon, and allows display of a description, version number, etc. It can also be used to specify other workbenches or Python packages that your Workbench either depends on, is blocked by, or is intended to replace.
 
@@ -241,7 +247,9 @@ namespace MyModuleGui {
 
 You can add a Preferences page for C++ workbenches too. The steps are similar to those for Python.
 
-#### Distribution 
+
+
+#### Dystrybucja 
 
 There are two options to distribute a C++ workbench, you can either host precompiled versions for the different operating systems yourself, or you can request for your code to be merged into the FreeCAD source code. As mentioned above this requires a LGPL2+ license, and you must first present your workbench to the community in the [FreeCAD forum](https://forum.freecad.org) for review.
 

@@ -9,9 +9,13 @@
 
 # Spreadsheet StyleBold/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:16px;"> **Grassetto** fa in modo che il testo all\'interno della cella adotti lo stile **grassetto**.
+
+
 
 ## Utilizzo
 

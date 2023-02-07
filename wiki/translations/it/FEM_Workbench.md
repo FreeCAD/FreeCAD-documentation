@@ -3,11 +3,15 @@
 
 {{TOCright}}
 
+
+
 ## Introduzione
 
 L\'[Ambiente FEM](FEM_Workbench/it.md) offre a FreeCAD un moderno flusso di lavoro per [l\'analisi agli elementi finiti](https://it.wikipedia.org/wiki/Metodo_degli_elementi_finiti) (FEA). Questo significa che tutti gli strumenti per fare una analisi degli elementi finiti sono combinati in una GUI.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
+
+
 
 ## Flusso di lavoro 
 
@@ -30,9 +34,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 *Flusso di lavoro del Workbench FEM; il workbench chiama due programmi esterni per eseguire il meshing di un oggetto solido e risolvere il problema degli elementi finiti*
 
+
+
 ## Menu Modello 
 
 -   <img alt="" src=images/Fem_Analysis.svg  style="width:32px;"> [Contenitore analisi](FEM_Analysis/it.md): Crea un nuovo contenitore per una analisi meccanica statica. Se invece, prima di cliccare su questo strumento, viene selezionato un solido nella vista ad albero si apre la finestra di meshing.
+
+
 
 ### Materiali
 
@@ -46,6 +54,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editor dei materiali](FEM_MaterialEditor/it.md): Consente di aprire l\'editor dei materiali per modificare i materiali.
 
+
+
 ### Geometria dell\'elemento 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Sezione trasversale di trave](FEM_ElementGeometry1D/it.md): Utilizzato per definire le sezioni trasversali per gli elementi trave.
@@ -56,29 +66,23 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md): Utilizzato per creare un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
 
+
+
 ### Vincoli elettrostatici 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Vincolo Potenziale elettrostatico](FEM_ConstraintElectrostaticPotential/it.md): Utilizzato per la definizione del potenziale elettrostatico.
 
+
+
 ### Vincoli dei fluidi 
 
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vincolo velocità iniziale del flusso](FEM_ConstraintInitialFlowVelocity/it.md): Utilizzato per definire una velocità di flusso iniziale per un corpo (volume).
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vincolo velocità iniziale del flusso](FEM_ConstraintInitialFlowVelocity/it.md): Utilizzato per definire una velocità di flusso iniziale per il corpo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Vincolo pressione iniziale](FEM_ConstraintInitialPressure.md): Utilizzato per definire una pressione iniziale per il corpo. {{Version/it|1.0}}
-
-
-</div>
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Vincolo pressione iniziale](FEM_ConstraintInitialPressure.md): Utilizzato per definire una pressione iniziale per un corpo (volume). {{Version/it|1.0}}
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Vincolo velocità del flusso](FEM_ConstraintFlowVelocity/it.md): Utilizzato per definire una velocità del flusso come condizione di un contorno su un bordo (2D) o una faccia (3D).
+
+
 
 ### Vincoli geometrici 
 
@@ -87,6 +91,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Stampa sezione dei vincoli](FEM_ConstraintSectionPrint/it.md): Utilizzato per stampare le variabili di output facciale predefinite (forze e momenti) nel file dat. {{Version/it|0.19}}
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Vincolo trasforma](FEM_ConstraintTransform/it.md): Utilizzato per definire un vincolo di trasformazione su una faccia.
+
+
 
 ### Vincoli meccanici 
 
@@ -108,6 +114,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Vincolo peso proprio](FEM_ConstraintSelfWeight/it.md): Utilizzato per definire una accelerazione di gravità che agisce su un modello.
 
+
+
 ### Vincoli termici 
 
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Vincolo temperatura iniziale](FEM_ConstraintInitialTemperature/it.md): Utilizzato per definire un vincolo di temperatura iniziale di un corpo.
@@ -117,6 +125,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 -   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Vincolo temperatura](FEM_ConstraintTemperature/it.md): Utilizzato per definire un vincolo di temperatura limite su un punto, bordo o faccia (e).
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Vincolo fonte di calore del corpo](FEM_ConstraintBodyHeatSource/it.md): Utilizzato per definire un calore corporeo generato internamente.
+
+
 
 ### Vincoli senza solutore 
 
@@ -128,9 +138,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Vincolo puleggia](FEM_ConstraintPulley/it.md): Utilizzato per definire un vincolo puleggia.
 
+
+
 ### Sovrascrivere le costanti 
 
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Permittività del vuoto costante](FEM_ConstantVacuumPermittivity/it.md): Utilizzato per sovrascrivere la [costante dielettrica del vuoto](https://it.wikipedia.org/wiki/Costante_dielettrica_del_vuoto) con un valore personalizzato. {{Version/it|0.19}}
+
+
 
 ## Menu Mesh 
 
@@ -147,6 +161,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 -   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [ Imposta i nodi](FEM_CreateNodesSet/it.md): Crea o definisce un set di nodi da mesh FEM.
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Converti mesh FEM in mesh](FEM_FemMesh2Mesh/it.md): Converte la superficie di una mesh FEM in una mesh.
+
+
 
 ## Menu Solutore 
 
@@ -175,6 +191,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Controlli del solutore](FEM_SolverControl/it.md): Apre il menu per regolare e avviare il risolutore selezionato.
 
 -   <img alt="" src=images/Fem-run-solver.svg  style="width:32px;"> [Avvia il solutore](FEM_SolverRun/it.md): Avvia il risolutore selezionato per l\'analisi attiva.
+
+
 
 ## Menu Risultati 
 
@@ -206,6 +224,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
   - <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Sfera della funzione filtro](FEM_PostCreateFunctionSphere/it.md): Definisce che la mesh risultante viene tagliata con una sfera.
 
+
+
 ## Menu: Utilità 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Piano di taglio di ritaglio sulla faccia](FEM_ClippingPlaneAdd/it.md): Aggiunge un piano di taglio per l\'intera vista del modello.
@@ -214,15 +234,21 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width:32px;"> [Apre gli esempi di FEM](FEM_Examples/it.md): Apre la GUI per accedere agli esempi FEM.
 
+
+
 ## Menu contestuale 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Cancella mesh FEM](FEM_MeshClear/it.md): Elimina il file mesh dal file FreeCAD. Utile per alleggerire un file di FreeCAD.
 
 -   <img alt="" src=images/_FEM_MeshDisplayInfo.svg  style="width:32px;"> [Visualizza info mesh FEM](FEM_MeshDisplayInfo/it.md): Visualizza le statistiche di base della mesh esistente - numero di nodi ed elementi di ogni tipo.
 
+
+
 ## Preferenze
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferenze\...](FEM_Preferences/it.md): Preferenze disponibili per gli strumenti FEM.
+
+
 
 ## Informazioni
 
@@ -237,6 +263,8 @@ Le seguenti pagine spiegano diversi argomenti dell\'ambiente FEM.
 [FEM CalculiX](FEM_CalculiX/it.md): ulteriori informazioni su CalculiX, il solutore predefinito utilizzato nel workbench per l\'analisi strutturale.
 
 [FEM Concrete](FEM_Concrete/it.md): informazioni interessanti sul tema della simulazione di strutture in calcestruzzo.
+
+
 
 ## Tutorial
 
@@ -262,6 +290,8 @@ Video Tutorial 2: [Articolo nel forum](https://forum.freecadweb.org/viewtopic.ph
 
 Altri tutorial video: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in tedesco).
 
+
+
 ## Estendere l\'ambiente FEM 
 
 L\'ambiente FEM è in costante sviluppo. Un obiettivo del progetto è trovare i modi per interagire facilmente con i vari solutori FEM, in modo che l\'utente finale possa semplificare il processo di creazione, meshing, simulazione e ottimizzazione di un problema di progettazione tecnica, tutto in FreeCAD.
@@ -279,6 +309,8 @@ Per aiutare gli utenti a comprendere la complessa base di codici di FreeCAD e le
 
 -   [Early preview of ebook: Module developer\' guide to FreeCAD source](https://forum.freecadweb.org/viewtopic.php?t=17581) (forum thread)
 -   [FreeCAD Mod Dev Guide](https://github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (github repository)
+
+
 
 ## Estensione della documentazione di FEM Workbench 
 

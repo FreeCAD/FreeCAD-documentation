@@ -2,17 +2,14 @@
 - GuiCommand:/it
    Name:Arch_Space
    Name/it:Spazio
-   Workbenches:[Arch](Arch_Workbench/it.md)
    MenuLocation:Arch → Spazio
+   Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:**S** **P**
-   SeeAlso:[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
    Version:0.14
+   SeeAlso:[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
 ---
 
 # Arch Space/it
-
-
-</div>
 
 ## Descrizione
 
@@ -21,15 +18,21 @@ Lo strumento Spazio consente di definire un volume vuoto, basato su una forma so
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;"> 
 *Oggetto spazio creato da un oggetto solido esistente, poi sono aggiunte due facce della parete come confini.*
 
+
+
 ## Utilizzo
 
 -   Selezionare un oggetto solido esistente o le facce che lo delimitano.
 -   Premere il pulsante **<img src="images/Arch_Space.svg" width=16px> [Spazio](Arch_Space/it.md)**, oppure i tasti **S**, **P**.
 
+
+
 ### Limitazioni
 
 -   Attualmente, le proprietà boundaries non sono modificabile tramite GUI.
 -   Per seguire l\'evoluzione dello strumento consultare la pagina [Arch Space](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275) nel forum.
+
+
 
 ## Proprietà
 
@@ -82,6 +85,8 @@ Lo strumento Spazio consente di definire un volume vuoto, basato su una forma so
 -    {{PropertyView/it|Decimals}}: Il numero di decimali da utilizzare per i testi calcolati.
 
 -    {{PropertyView/it|ShowUnit}}: Mostra il suffisso dell\'unità di misura o no.
+
+
 
 ## Opzioni
 
@@ -140,20 +145,14 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{docnav/it
-|[Tetto](Arch_Roof/it.md)
+|[Piano di sezione](Arch_SectionPlane.md)
 |[Scale](Arch_Stairs/it.md)
 |[Arch](Arch_Workbench/it.md)
-|IconL=Arch_Roof.svg
-|IconC=Workbench_Arch.svg
+|IconL=Arch_SectionPlane.svg
 |IconR=Arch_Stairs.svg
+|IconC=Workbench_Arch.svg
 }}
-
-
-</div>
 
 
 

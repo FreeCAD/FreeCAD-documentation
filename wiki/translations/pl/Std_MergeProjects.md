@@ -42,14 +42,16 @@ Polecenie **Scal projekt** dodaje zawartość pliku FreeCAD do aktywnego dokumen
 -   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Ogólne → FileOpenSavePath**.
 -   Duplikaty etykiet są dozwolone, jeśli parametr **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawiony na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
-## Scripting
 
 
-**See also:**
+## Tworzenie skryptów 
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To merge a project use the {{Incode|mergeProject}} method of the document object.
+**Zobacz również:**
+
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Aby scalić obiekt, należy użyć metody `mergeProject` obiektu *document*.
 
 
 ```python

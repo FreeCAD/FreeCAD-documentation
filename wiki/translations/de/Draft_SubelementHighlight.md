@@ -1,18 +1,17 @@
 ---
 - GuiCommand:/de
    Name:Draft SubelementHighlight
-   Name/de:Entwurf UnterelementMarkieren
-   MenuLocation:Änderung → Unterelement markieren
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft UnterelementHervorheben
+   MenuLocation:Entwurf → Änderung → Unterelement hervorheben
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**H** **S**
    Version:0.19
-   SeeAlso:[Entwurf Bewegen](Draft_Move/de.md), [Entwurf Drehen](Draft_Rotate/de.md), [Entwurf Skalieren](Draft_Scale/de.md)
+   SeeAlso:[Draft Verschieben](Draft_Move/de.md), [Draft Drehen](Draft_Rotate/de.md), [Draft Skalieren](Draft_Scale/de.md)
 ---
 
 # Draft SubelementHighlight/de
 
 
-</div>
 
 ## Beschreibung
 
@@ -20,6 +19,8 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 ![](images/Draft_SubelementHighlight_example.png ) 
 *Eine Architektur Wand, deren Basis, ein Entwurf Draht, wurde markiert*
+
+
 
 ## Anwendung
 
@@ -38,19 +39,12 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 </div>
 
+
+
 ## Hinweise
 
 -   If objects have been highlighted with this command the temporary visual changes should be reverted before saving and reopening the file.
 -   Highlighted objects should not be copied if subelement mode is off. The temporary visual changes cannot be reverted for copies created in this manner.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -9,9 +9,13 @@
 
 # Spreadsheet MergeCells/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:16px;"> **Unisci le celle** unisce almeno due celle selezionate in un foglio di calcolo esistente nel documento attivo.
+
+
 
 ## Utilizzo
 

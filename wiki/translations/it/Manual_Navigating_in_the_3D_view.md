@@ -1,14 +1,7 @@
 # Manual:Navigating in the 3D view/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
+
+
 
 ### Alcune parole sullo spazio 3D 
 
@@ -24,84 +17,80 @@ Il punto in cui i tre assi si incontrano è l\'origine. È il punto in cui il va
 
 Si può guardare la scena da qualsiasi angolazione, come se si fosse in possesso di una fotocamera. Questa camera può essere spostata a sinistra, a destra, in alto e in basso (Sposta), oppure ruotata attorno a ciò che si sta guardando (Ruota) e portata più vicino o più lontano dalla scena (Zoom).
 
+
+
 ### La vista 3D di FreeCAD 
+
+
 
 #### Navigazione con il mouse 
 
-
-<div class="mw-translate-fuzzy">
-
-La navigazione nella vista 3D di FreeCAD può essere fatta con un mouse, un dispositivo Space Navigator, la tastiera, un touchpad, o una combinazione di questi. FreeCAD implementa diversi [modi di navigazione](http://www.freecadweb.org/wiki/index.php?title=Mouse_Model/it), che determinano come sono eseguite le tre fondamentali operazioni di manipolazione della vista (spostamento, zoom e rotazione), e determinano anche il modo per selezionare gli oggetti sullo schermo. Le modalità di navigazione sono accessibili dalla schermata Preferenze, o direttamente facendo clic destro in qualsiasi punto della vista 3D:
-
-
-</div>
+La navigazione nella [Vista 3D](3D_view/it.md) di FreeCAD può essere fatta con un mouse, un dispositivo Space Navigator, la tastiera, un touchpad, o una combinazione di questi. FreeCAD implementa diverse [modalità di navigazione](Mouse_navigation/it.md), che determinano come vengono eseguite le tre operazioni base di manipolazione della vista (panoramica, rotazione e zoom), nonché come viene eseguita la selezione degli oggetti sullo schermo. È possibile accedere alle modalità di navigazione dalla schermata Preferenze o direttamente facendo clic con il pulsante destro del mouse in qualsiasi punto della [Vista 3D](3D_view/it.md):
 
 ![](images/FreeCAD-v0-18-NavigationModePopup.png )
 
 Ognuna di queste modalità attribuisce per queste quattro operazioni pulsanti diversi del mouse, o combinazioni di mouse + tastiera, o gesti del mouse. Nella tabella che segue sono riportate le principali modalità disponibili:
 
+++++++
+| Modalità          | Spostamento                                                                                                                                                                                                                                       | Rotazione                                                                                                                                                                                             | Zoom                                                                                                                                                                                             | Selezione                                                                                                              |
++===================+===================================================================================================================================================================================================================================================+=======================================================================================================================================================================================================+==================================================================================================================================================================================================+========================================================================================================================+
+| OpenInventor      | ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                                                           | ![Click left button mouse](images/Select-mouse.svg )                                                                                                                                | ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                           | Premere **Ctrl** + trascinare ![Click left button mouse](images/Select-mouse.svg ) |
+++++++
+| CAD **(default)** | ![Click middle button mouse](images/Pan-mouse.svg ) o ![Click right button mouse + CTRL key](images/Pan-mouse-CTRL.svg )                                                                        | ![Hold middle then left mouse button](images/Rotate-mouse.svg ) o ![Click right button mouse + SHIFT key](images/Rotate-mouse-SHIFT.svg ) | ![Roll middle button mouse](images/Zoom-mouse.svg ) o ![Click right button mouse + CTRL + SHIFT key](images/Zoom-mouse-CTRL-SHIFT.svg ) | ![Click left button mouse](images/Select-mouse.svg )                                                 |
+++++++
+| Blender           | Premere **Shift** + trascinare ![Click middle button mouse](images/Pan-mouse.svg ) o trascinare ![Click left + right button mouse and drag](images/Mouse_LMB%2BRMB.svg ) | ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                               | ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                           | ![Click left button mouse](images/Select-mouse.svg )                                                 |
+++++++
+| Touchpad          | Premere **Shift** + trascinare ![Touchpad (mouse) pointer](images/Touchpad.png )                                                                                                                             |                                                                                                                                                                                        |                                                                                                                                                                                   | ![Click touchpad (mouse) left button](images/Select-touchpad.png )                        |
+|                   |                                                                                                                                                                                                                                                   | **Alt**                                                                                                                                                                                           | **PgUp**                                                                                                                                                                                     |                                                                                                                        |
+|                   |                                                                                                                                                                                                                                                   |                                                                                                                                                                                                    |                                                                                                                                                                                               |                                                                                                                        |
+|                   |                                                                                                                                                                                                                                                   | \+ ![Touchpad (mouse) pointer](images/Touchpad.png )                                                                                                                               | / **PgDn**                                                                                                                                                                     |                                                                                                                        |
+++++++
+| Gesture           | Trascinare ![Click right button mouse](images/Pan-mouse-Ctrl.svg )                                                                                                                                                             | Trascinare ![Click left button mouse](images/Select-mouse.svg )                                                                                                                     | ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                           | ![Click left button mouse](images/Select-mouse.svg )                                                 |
+++++++
+| OpenCascade       | ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                                                           | ![Hold middle then right mouse button](images/Rotate-mouse-MMB+RMB.svg )                                                                                                | ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                           | ![Click left button mouse](images/Select-mouse.svg )                                                 |
+++++++
 
-<div class="mw-translate-fuzzy">
 
-  Modalità            Spostamento                                                                                                                                                                                                     Rotazione                                                                                                                                                                                                Zoom                                                                                                                                                                                                Selezione
-      
-  OpenInventor        ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                         ![Click left button mouse](images/Select-mouse.svg )                                                                                                                                   ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                              hold CTRL + drag ![Click left button mouse](images/Select-mouse.svg )
-  CAD **(default)**   ![Click middle button mouse](images/Pan-mouse.svg ) or ![Click right button mouse + CTRL key](images/Pan-mouse-CTRL.svg )                                     ![Hold middle then left mouse button](images/Rotate-mouse.svg ) or ![Click right button mouse + SHIFT key](images/Rotate-mouse-SHIFT.svg )   ![Roll middle button mouse](images/Zoom-mouse.svg ) or ![Click right button mouse + CTRL + SHIFT key](images/Zoom-mouse-CTRL-SHIFT.svg )   ![Click left button mouse](images/Select-mouse.svg )
-  Blender             hold SHIFT + drag ![Click middle button mouse](images/Pan-mouse.svg ) or drag ![Click left + right button mouse and drag](images/Mouse_LMB%2BRMB.svg )   ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                  ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                              ![Click left button mouse](images/Select-mouse.svg )
-  Touchpad            hold SHIFT + drag ![Touchpad (mouse) pointer](images/Touchpad.png )                                                                                                                          ALT + ![Touchpad (mouse) pointer](images/Touchpad.png )                                                                                                                               PGUP / PGDOWN                                                                                                                                                                                       ![Click touchpad (mouse) left button](images/Select-touchpad.png )
-  Gesture             drag ![Click right button mouse](images/Pan-mouse-Ctrl.svg )                                                                                                                                 drag ![Click left button mouse](images/Select-mouse.svg )                                                                                                                              ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                              ![Click left button mouse](images/Select-mouse.svg )
-  OpenCascade         ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                         ![Hold middle then right mouse button](images/Rotate-mouse-MMB+RMB.svg )                                                                                                   ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                              ![Click left button mouse](images/Select-mouse.svg )
-
-
-</div>
 
 #### Navigazione da tastiera 
 
 In alternativa, sono sempre disponibili alcuni comandi da tastiera, a prescindere dalla modalità di navigazione:
 
+-    **Ctrl**\+ {{ASCII|43}} and **Ctrl** + {{ASCII|22}} per ingrandire e ridurre
 
-<div class="mw-translate-fuzzy">
+-   I **tasti freccia** , {{ASCII|17}}{{ASCII|16}}{{ASCII|30}}{{ASCII|31}}, per spostare la sinistra/destra e alto/basso
 
--   **CTRL +** e **CTRL -** per ingrandire e ridurre
--   I **tasti freccia** per spostare la vista alto/basso e destra/sinistra
--   **SHIFT + freccia sinistra** e **SHIFT + freccia destra** per ruotare la vista di 90 gradi
--   I tasti numerici, **da 0 a 6**, per le sette viste standard, assonometrica, anteriore, superiore, destra posteriore, inferiore, e sinistra
--   **O** per impostare la fotocamera in modalità ortografica,
--   **P** per impostare la modalità prospettiva.
--   **CTRL** permette di selezionare più di un oggetto o elemento
+-    **Shift**\+ {{ASCII|17}} and **Shift** + {{ASCII|16}} per ruotare la vista di 90 gradi
 
+-   I tasti numerici, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, per le sette viste standard: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometrica](Std_ViewIsometric/it.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [Frontale](Std_ViewFront/it.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Dall\'alto](Std_ViewTop/it.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [Laterale destra](Std_ViewRight/it.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [Da dietro](Std_ViewRear/it.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [Dal basso](Std_ViewBottom/it.md), and <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Laterale sinistra](Std_ViewLeft/it.md)
 
-</div>
+-    **V**
+    **O**per impostare la fotocamera in <img alt="" src=images/View-isometric.svg  style="width:24px;"> [modalità Ortografica](Std_OrthographicCamera/it.md).
 
+-    **V**
+    **P**per impostare la fotocamera in <img alt="" src=images/View-perspective.svg  style="width:24px;"> [modalità Prospettiva](Std_PerspectiveCamera/it.md).
 
-<div class="mw-translate-fuzzy">
+-    **Ctrl**permette di selezionare più di un oggetto o elemento
 
-Questi controlli sono anche disponibili dal menu Visualizza e alcuni dalla barra degli strumenti Vista.
-
-
-</div>
+Questi controlli sono anche disponibili dal [menu Visualizza](Std_View_Menu/it.md) e alcuni dalla barra degli strumenti Vista.
 
 #### Utilizzo del cubo di navigazione 
 
-Nella configurazione predefinita, compare un [cubo di navigazione](Navigation_Cube/it.md) nell\'angolo in alto a destra della finestra 3D. Può essere utilizzato per ruotare l\'oggetto visualizzato di un valore prestabilito, ripristinare la visualizzazione su una delle diverse viste standard e cambiare la modalità di visualizzazione.
+Nella configurazione predefinita, compare un [cubo di navigazione](Navigation_Cube/it.md) nell\'angolo in alto a destra della finestra 3D. Può essere utilizzato per ruotare la visualizzazione dell\'oggetto di un valore prestabilito, ripristinare la visualizzazione su una delle diverse viste standard e cambiare la modalità di visualizzazione.
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
 Quando si utilizza il cubo di navigazione, e si passa il puntatore su un\'area sensibile del cubo appare un controllo di colore azzurro. Se l\'area sotto il puntatore non cambia colore, fare clic su di essa non ha alcun effetto. Al momento della stesura di questo documento (v0.18), ci sono alcuni problemi di registrazione che impediscono l\'attivazione di tutti i controlli.
 
-
-<div class="mw-translate-fuzzy">
-
-Facendo clic su una faccia si commuta la vista diventa frontale a tale faccia; facendo clic su un angolo la vista diventa perpendicolare a quell\'angolo.
-
-
-</div>
+Facendo clic su una faccia si commuta la vista che diventa frontale a tale faccia; facendo clic su un angolo la vista diventa perpendicolare a quello\'angolo.
 
 Facendo clic su uno dei quattro triangoli, la vista ruota di 45 gradi nella direzione indicata. Facendo clic su una delle due frecce curve in alto, la vista ruota di 45 gradi nella direzione indicata attorno a una linea che punta verso l\'osservatore.
 
 Il cubo di navigazione può essere spostato in qualsiasi parte dell\'area 3D trascinandolo. Il pulsante di trascinamento (sinistro) del mouse deve essere premuto all\'interno del cubo stesso per avviare un trascinamento. La struttura non si muove finché il puntatore non viene trascinato fuori dal cubo.
 
 C\'è un cubo più piccolo, nella parte inferiore destra del cubo, che attiva un menu a discesa per cambiare la modalità di visualizzazione.
+
+
 
 ### Selezionare gli oggetti 
 
@@ -115,23 +104,8 @@ Inoltre è possibile utilizzare Selezione per selezionare gli oggetti attraverso
 
 **Approfondimenti**
 
-
-<div class="mw-translate-fuzzy">
-
--   [Le modalità di navigazione di FreeCAD](Mouse_Model/it.md)
+-   [Le modalità di navigazione di FreeCAD](Mouse_navigation/it.md)
 -   [Il cubo di navigazione](Navigation_Cube/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

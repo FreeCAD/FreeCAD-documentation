@@ -1,8 +1,8 @@
 ---
 - TutorialInfo:/de
-   Topic: Wikihouse Migration Tutorium
-   Level: Zwischenstufe/Fortgeschritten
-   Time: 60 Minuten
+   Topic:Wikihouse Migration Tutorium
+   Level:Zwischenstufe/Fortgeschritten
+   Time:60 Minuten
    Author:
    FCVersion:
    Files:
@@ -13,22 +13,12 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
 
-
-
-</div>
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Tutorium zeigt dir, wie du [SketchUp](http://www.sketchup.com/) Dateien, die vom [WikiHouse](http://wikihouse.cc/) Projekt verwendet werden, in FreeCAD konvertieren kannst, indem du die [Arch Tafel](Arch_Panel/de.md) Werkzeuge in FreeCAD verwendest. Das Ergebnis ist eine vollständige Kopie der ursprünglichen SketchUp Datei, mit der Ausnahme, dass sie vollständig parametrisch geworden ist. Der Grad der Parametrisierung der endgültigen Datei hängt von der Arbeit ab, die du dafür aufwendest, wie weiter unten erläutert wird. Es ist jedoch durchaus möglich, die Dinge Schritt für Schritt zu erledigen und die Wikihouse Datei ziemlich schnell wieder aufzubauen und die langwierigere Konvertierung von Basisprofilen in Skizzen für später zu überlassen.
-
-
-</div>
+Dieses Tutorium zeigt dir, wie du [SketchUp](http://www.sketchup.com/)-Dateien, die vom [Wikihouse](http://wikihouse.cc/)-Projekt verwendet werden, in FreeCAD konvertieren kannst, indem du die [Arch Tafel](Arch_Panel/de.md)-Werkzeuge in FreeCAD verwendest. Das Ergebnis ist eine vollständige Kopie der ursprünglichen SketchUp-Datei, mit der Ausnahme, dass sie vollständig parametrisch geworden ist. Der Grad der Parametrisierung der endgültigen Datei hängt von der Arbeit ab, die du dafür aufwendest, wie weiter unten erläutert wird. Es ist jedoch durchaus möglich, die Dinge Schritt für Schritt zu erledigen und die Wikihouse Datei ziemlich schnell wieder aufzubauen und die langwierigere Konvertierung von Basisprofilen in Skizzen für später zu überlassen.
 
 
 <div class="mw-translate-fuzzy">
@@ -41,6 +31,8 @@ Dieses Tutorial setzt mittlere Kenntnisse in FreeCAD voraus, d.h. du bist in der
 Since the Wikihouse project is open by nature, files are easy to find on the project website, but also on the [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) or in the project\'s [github repositories](https://github.com/wikihouseproject). The preferred format used by the project is Sketchup, so most of the files you\'ll find are in that format.
 
 In the following tutorial we used the [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) file from Wikihouse\'s Microhouse subproject.
+
+
 
 ## Vorbereiten der Sketchup Datei 
 
@@ -66,6 +58,8 @@ Repeat this for each component. Since many are duplicated, this is not as huge a
 
 When our piece of house is fully made of flat elements, we can select everything and export it to a .dae file, and then import this file into FreeCAD. Be sure to mark the \"triangulate all\"
 
+
+
 ## Lösung des Doppelflächen Fehlers 
 
 There is a nasty problem for which I haven\'t found a better solution: Meshes exported from SketchUp to the .dae format have their faces duplicated. Each face becomes actually two faces. The easiest way I have found so far is to open the exported file in [Blender](http://www.blender.org) for repair:
@@ -79,6 +73,8 @@ There is a nasty problem for which I haven\'t found a better solution: Meshes ex
 7.  Save a new [DAE](Arch_DAE.md) file (**File → Export → Collada**)
 
 Normally the above operation shouldn\'t change the scale, but it is always wise to verify, using the measuring tools, that the imported geometry is at correct scale before going further. You might need to tweak Blender\'s Collada export settings if needed.
+
+
 
 ## Importieren und Umwandeln in Drähte 
 
@@ -106,6 +102,8 @@ The [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh.md) also somet
 
 There are many possible strategies here, depending on how editable and precise you need the result. The [Arch Panel](Arch_Panel.md) object needs a base object made of wires. It doesn\'t matter how this object is made, if it is a single sketch, or, like in the example above, a compound of different sketches or Draft object.
 
+
+
 ## Umwandlung in Skizzen 
 
 It is also possible to do that part later, you could already create Panels from each of the component, but let\'s see already how to to convert a wire-like object to a sketch:
@@ -120,6 +118,8 @@ It is also possible to do that part later, you could already create Panels from 
 8.  Rotate/move it back into position with [Draft Move](Draft_Move.md) and [Draft Rotate](Draft_Rotate.md)
 
 ![](images/Arch_Wikihouse_12.jpg )
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -23,17 +23,23 @@ The <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Thickness](
 -   Thickness: Wall thickness of the resulting object, set the desired value
     -   A positive value will offset the faces outward
     -   A negative value will offset the faces inward
+
 -   Mode
     -   Skin: Select this option if you want to get an item like a vase, headless but with the bottom
     -   Pipe: Select this option if you want to get an object like a pipe, headless and bottomless. In this case it may be convenient to select the faces to be deleted before you start the tool. Helping with predefined views buttons or use the numeric keys.
     -   RectoVerso:
+
 -   Join Type
     -   Arc: removes the outer edges and create a fillet with a radius equal to the thickness defined
     -   Tangent:
     -   Intersection:
+
 -   Intersection:
+
 -   Self-intersection: Enables self-intersection
--   Face / Done: Select the faces to be removed, then click Done
+
+-    **Faces**: Select the faces to be removed, then click **Done**
+
 -   Update view: Automatically updates the view in real time
 
 ## Notes

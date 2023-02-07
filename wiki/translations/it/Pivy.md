@@ -1,6 +1,8 @@
 # Pivy/it
 {{TOCright}}
 
+
+
 ## Introduzione
 
 [Pivy](Pivy/it.md) è una libreria di associazione [Python](Python/it.md) per [Coin](https://github.com/coin3d), la libreria di rendering 3D utilizzata in FreeCAD per visualizzare gli oggetti nella [vista 3D](3D_view/it.md). Coin è un\'implementazione open source della specifica \"Open Inventor\" per gestire la grafica. Pertanto, in FreeCAD, i termini \"Pivy\", \"Coin\" o \"Open Inventor\" si riferiscono essenzialmente alla stessa cosa.
@@ -13,6 +15,8 @@ La libreria Coin è divisa in vari moduli, Coin stessa, per manipolare grafi di 
 ```python
 from pivy import coin
 ```
+
+
 
 ## Grafo della scena 
 
@@ -98,6 +102,8 @@ sg.removeChild(myCustomNode)
 
 {{Top}}
 
+
+
 ## Il Callback 
 
 Un [meccanismo di callback](https://it.wikipedia.org/wiki/Callback) è un sistema che permette a una libreria, che si sta utilizzando, come la nostra libreria Coin, di richiamare, cioè, di chiamare una determinata funzione dell\'oggetto Python attualmente in esecuzione. In questo modo Coin può avvisarci se nella scena si verifica qualche evento specifico. Coin può controllare cose molto diverse, come la posizione del mouse, i clic di un pulsante del mouse, i tasti della tastiera che vengono premuti e tante altre cose.
@@ -122,16 +128,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Il callback deve essere iniziato da un oggetto, perché questo oggetto deve essere ancora in esecuzione quando il callback si verifica. Vedere anche la [lista completa](Code_snippets/it#Controllare_gli_eventi_del_mouse_nel_visualizzatore_3D_tramite_Python.md) di possibili eventi e dei loro parametri, o la documentazione ufficiale di Coin.
-
-
-</div>
-
-
-{{Top}}
+Il callback deve essere iniziato da un oggetto, perché questo oggetto deve essere ancora in esecuzione quando il callback si verifica. Vedere anche la [lista completa](Code_snippets/it#Controllare_gli_eventi_del_mouse_nel_visualizzatore_3D_tramite_Python.md) di possibili eventi e dei loro parametri, o la documentazione ufficiale di Coin. 
 
 ## Documentazione
 
@@ -157,6 +154,8 @@ SoFile.getClassId()
 -   [Coin3D wiki documentation](https://github.com/coin3d/coin/wiki/Documentation), su GitHub.
 -   [Coin3D documentation](https://coin3d.github.io/Coin/html/), ultima documentazione Doxygen generata automaticamente.
 -   [(Open)Inventor Mentor](https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - raccomandato.
+
+
 
 ### Meno recente 
 

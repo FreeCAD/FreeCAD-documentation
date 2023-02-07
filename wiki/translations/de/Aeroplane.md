@@ -14,9 +14,11 @@
 
 
 
+
+
 ## Erste Schritte 
 
-Wir werden im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) arbeiten - wähle ihn aus den Menüs über {{MenuCommand/de|Ansicht → Arbeitsbereich → Part}} oder über den [Arbeitsbereichwähler](Std_Workbench/de.md).
+Wir werden im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) arbeiten - wähle ihn aus den Menüs über **Ansicht → Arbeitsbereich → Part** oder über den [Arbeitsbereichwähler](Std_Workbench/de.md).
 
 -   Erstelle ein neues leeres Dokument.
 -   Wechsle zur <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [isometrischen Ansicht](Std_ViewIsometric/de.md).
@@ -34,6 +36,8 @@ Klicke auf [Platzierung](Placement/de.md) (beachte das kleine **[+]**) und eine 
 <img alt="" src=images/HTCaeroplane01.png  style="width:300px;">
 
 Wenn du mit den XYZ Achsen nicht vertraut bist, dann spiele mit den Zahlen im Übersetzungsfeld. Wenn die Wiedergabe beendet ist, klicke auf die **Reset** Schaltfläche.
+
+
 
 ## Weitere Schritte 
 
@@ -69,6 +73,8 @@ Meiner Ansicht nach müssen die Flügel noch etwas weiter nach vorne verschoben 
 Erweitere Flugzeug (klicke auf die Schaltfläche **[+]** neben dem Flugzeug) und erweitere Fusion (Verschmelzung).
 
 Klicke auf Kasten und erhalte deren [Positionierung in Aufgaben](Placement/de.md). Beachte, dass es bereits Y: -10 und Z: -1 in der Übersetzung hat. Ändere die X Übersetzung in 3 und klicke auf **Anwenden**. So ist es besser. Klicke auf **OK**.
+
+
 
 
 

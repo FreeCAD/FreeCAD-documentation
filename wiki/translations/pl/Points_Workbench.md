@@ -1,5 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Punkty" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/pl
 
+
+
 ## Wprowadzenie
 
 
@@ -8,6 +10,8 @@
 Środowisko pracy <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Punkty](Points_Workbench/pl.md) oferuje specjalne narzędzia do pracy z [chmurami punktów](http://en.wikipedia.org/wiki/Point_cloud). Środowisko to jest wciąż w fazie rozwoju.
 
 Chmura punktów to zbiór punktów w przestrzeni 3D. Chmura punktów jest zwykle tworzona przez skanowanie powierzchni obiektu bryłowego. Chmurę punktów można następnie wykorzystać do wielu celów, takich jak tworzenie siatki obiektu, rekonstrukcja powierzchni i objętości bryły, inżynieria odwrotna, a także wizualizacja i kontrola jakości.
+
+
 
 ## Przybory
 
@@ -24,6 +28,8 @@ Wszystkie narzędzia Środowiska pracy **Punkty** są dostępne w menu **Punkty*
 -   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Wytnij punkt chmury](Points_PolyCut/pl.md): Wycina punkty z chmury punktów.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Scal chmury punktów](Points_Merge/pl.md): Tworzy chmurę punktów przez połączenie punktów z dwóch lub więcej chmur punktów.
+
+
 
 ## Uwagi
 

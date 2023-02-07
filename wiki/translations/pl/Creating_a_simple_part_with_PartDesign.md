@@ -155,13 +155,7 @@ Za pomocą narzędzia <img alt="" src=images/Sketcher_Circle.svg  style="width:2
 
 Wybierz okrąg i stwórz wiązanie za pomocą narzędzia <img alt="" src=images/Constraint_Radius.svg  style="width:24px;"> [Zwiąż łuk lub okrąg](Sketcher_ConstrainRadius/pl.md), jako miarę promienia podaj 5mm.
 
-
-<div class="mw-translate-fuzzy">
-
-Wybierz punkt będący środkiem okręgu, a następnie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Utwórz blokadę wiązania dla wybranego elementu](Sketcher_ConstrainLock.md); kliknij dwukrotnie na pole z wymiarem poziomym i wpisz wartość **-65**mm *(tutaj wskazujemy pozycję względem pochodzenia szkicu)*. To samo dotyczy wymiaru pionowego *(-15mm)*. Okrąg zajmuje właściwą pozycję, a szkic staje się zielony, co oznacza, że jest w pełni związany:
-
-
-</div>
+Wybierz punkt będący środkiem okręgu, a następnie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Utwórz blokadę wiązania dla wybranego elementu](Sketcher_ConstrainLock/pl.md); kliknij dwukrotnie na pole z wymiarem poziomym i wpisz wartość **-65**mm *(tutaj wskazujemy pozycję względem pochodzenia szkicu)*. To samo dotyczy wymiaru pionowego *(-15mm)*. Okrąg zajmuje właściwą pozycję, a szkic staje się zielony, co oznacza, że jest w pełni związany:
 
 ![](images/GGTuto1_6.PNG )
 

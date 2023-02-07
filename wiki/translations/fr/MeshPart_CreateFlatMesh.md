@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:MeshPart CreateFlatMesh
    Name/fr:Mesh Développer un maillage
-   MenuLocation:Maillages → Développer le maillage
+   MenuLocation:Maillages → Développer un maillage
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Développer la face](MeshPart_CreateFlatFace/fr.md)
 ---
@@ -16,10 +16,14 @@ La commande **Mesh Développer un maillage** crée une représentation plate d\'
 ![](images/MeshPart_CreateFlatMesh_example.png ) 
 *Un objet maillé et en rouge sa représentation plate*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez un seul objet maillé. Le maillage doit être \"développable\"\'. Par exemple, pour développer le maillage cylindrique, il doit avoir des extrémités ouvertes et une couture ouverte. Les surfaces courbes doivent également avoir un maillage relativement fin. Utilisez la commande [Mesh Affiner](Mesh_RemeshGmsh/fr.md) si nécessaire.
-2.  Sélectionnez l\'option **Maillages → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Développer le maillage** dans le menu.
+1.  Sélectionnez un seul objet maillé. Le maillage doit être \"développable\". Par exemple, pour développer un maillage cylindrique, il doit avoir des extrémités ouvertes et une couture ouverte. Les surfaces courbes doivent également avoir un maillage relativement fin. Utilisez la commande [Mesh Affiner](Mesh_RemeshGmsh/fr.md) si nécessaire.
+2.  Sélectionnez l\'option **Maillages → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Développer un maillage** du menu.
+
+
 
 ## Propriétés
 

@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento posiziona nel documento corrente un attrezzo **Piano di sezione**, che definisce una sezione o un piano di vista. Il piano di sezione viene posizionato in funzione del corrente [Piano di lavoro](Draft_SelectPlane/it.md) e può essere spostato e riorientato muovendolo e ruotandolo, fino a quando non riproduce la vista 2D che si vuole ottenere. L\'oggetto Piano di sezione prende in considerazione solo un certo insieme di oggetti. Gli oggetti che sono selezionati quando si crea un piano di sezione sono aggiunti a queesto insieme automaticamente. Altri oggetti possono essere aggiunti o rimossi da un Piano di sezione anche in seguito con gli strumenti [Aggiungi componente](Arch_Add/it.md) o [Rimuovi componente](Arch_Remove/it.md), o facendo doppio clic sul Piano di sezione nella vista ad albero.
@@ -25,6 +27,8 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
+
+
 ## Utilizzo
 
 
@@ -32,13 +36,15 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 1.  Opzionalmente, impostare il [Piano di lavoro](Draft_SelectPlane/it.md) per riflettere il piano in cui si desidera posizionare il piano di sezione.
 2.  Selezionare gli oggetti da includere nella sezione.
-3.  Premere il pulsante **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione](Arch_SectionPlane/it.md)**, oppure premere i tasti {{KEY/it|S}} e {{KEY/it|P}}.
+3.  Premere il pulsante **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione](Arch_SectionPlane/it.md)**, oppure premere i tasti **S** e **P**.
 4.  [Spostare](Draft_Move/it.md) o [ruotare](Draft_Rotate/it.md) il piano di sezione nella posizione corretta, se necessario.
 5.  Selezionare il piano di sezione se non è già stato selezionato.
 6.  Usare [Vista disegno di Drawing](Draft_Drawing/it.md), [Vista 2D di Draft](Draft_Shape2DView/it.md) o [Vista TechDraw di Arch](TechDraw_ArchView/it.md) per creare la vista.
 
 
 </div>
+
+
 
 ## Opzioni
 
@@ -73,6 +79,8 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 -   Il Piano di sezione può anche essere usato per mostrare l\'intera vista 3D tagliata da un piano infinito. Questo è solo visivo, e non influenza la geometria degli oggetti da tagliare.
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
+
+
 
 ## Proprietà
 

@@ -14,6 +14,8 @@ Shortcut=
 
 </div>
 
+
+
 ## Beschreibung
 
 Erstelle ein neues Schiff oder eine neue Schiffsinstanz.
@@ -27,12 +29,14 @@ Ship works over **Ship entities**, that must be created on top of provided geome
 ![](images/FreeCAD-Ship-SignCriteria.jpg ) 
 *Ship sign criteria*
 
+
+
 ## Anwendung
 
 
 <div class="mw-translate-fuzzy">
 
-Um eine **Schiffsinstanz** (auch bekannt als: ein neues Schiff) zu erstellen, wähle die Geometrie s60 und führe das **Schiffserstellungswerkzeug** aus {{MenuCommand/de|Schiffskonstruktion → Neues Schiff erstellen}}
+Um eine **Schiffsinstanz** (auch bekannt als: ein neues Schiff) zu erstellen, wähle die Geometrie s60 und führe das **Schiffserstellungswerkzeug** aus **Schiffskonstruktion → Neues Schiff erstellen**
 
 
 </div>
@@ -76,6 +80,8 @@ Breitenanmerkungen.
 Dasselbe Verfahren gilt für die Breitenpassung. Hinweis: Dieser angeforderte Wert ist die gesamte Breite, aber die Anmerkung bezieht sich nur auf die Steuerbordhälfte des Schiffes.
 
 Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit dem Namen **Schiff** im Dialogfeld *Kennzeichen & Attribute* erstellt. Wir brauchen die Geometrie nicht mehr, du kannst sie also ausblenden.
+
+
 
 ## Tutorien
 

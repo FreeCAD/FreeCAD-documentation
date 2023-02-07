@@ -28,6 +28,8 @@ Instrumentul **Revolution** crează un solid prin rotirea schiței selectate sau
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se foloseste 
@@ -112,9 +114,14 @@ Atunci când este crrată o revoluție, dialogul privind **REveolution parameter
 |                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                                                                                                                     |
 +++
 
+
+
 ## Proprietăți
 
 Mai jos sunt proprietăți care pot fi definite după crearea funcției. Proprietățile de date \"Base\" și \"Axis\" nu pot fi modificate.
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Angle**: angle of rotation. See [Angle](#Angle.md).
 
@@ -125,6 +132,11 @@ Mai jos sunt proprietăți care pot fi definite după crearea funcției. Proprie
 -    **Reversed**: true or false. See [Reversed](#Reversed.md).
 
 -    **Refine**: v0.17 and above true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+
+
+</div>
+
+
 
 ## Exemple
 

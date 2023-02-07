@@ -76,7 +76,13 @@ A página [ajude o FreeCAD](Special:MyLanguage/help_FreeCAD.md) descreve tudo co
 
 ### Código fonte 
 
+
+<div class="mw-translate-fuzzy">
+
 O FreeCAD pode ser compilado em todas as plataformas usando [CMake](https://cmake.org/). O código-fonte é LGPL - licenciado e hospedado no [GitHub](https://github.com/FreeCAD/FreeCAD) e espelhado em [GitLab](https://gitlab.com/freecad/FreeCAD) e [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Existem instruções de compilação para [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) e [MacOS](Compile_on_MacOS.md). A documentação do código-fonte esta [aqui](http://www.freecadweb.org/api/hospedado), gerado por [Doxygen](Doxygen.md), e [documentado na wiki](Source_documentation.md).
+
+
+</div>
 
 
 

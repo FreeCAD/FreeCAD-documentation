@@ -1,7 +1,9 @@
 # Expressions/fr
 {{TOCright}}
 
-## Vue d\'ensemble 
+
+
+## Présentation
 
 Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les zones de sélection numérique ou les champs de saisie liés aux propriétés contiennent une icône bleue <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliquez sur l\'icône ou tapez le signe égal **&#61;** pour ouvrir l\'éditeur d\'expression pour cette propriété particulière.
 
@@ -13,11 +15,15 @@ Les opérateurs et fonctions reconnaissent les unités de mesure et nécessitent
 
 Vous pouvez utiliser des [constantes prédéfinies](#Constantes_prises_en_charge.md) et des [fonctions](#Fonctions_support.C3.A9es.md).
 
+
+
 ### Arguments de la fonction 
 
 Lorsqu\'une fonction prend plusieurs arguments, ceux-ci peuvent être séparés par un point-virgule suivie par un espace `, `. Dans ce derniers cas, la virgule est convertie en point-virgule après la saisie. Quand on utilise un point-virgule, il n\'est pas nécessaire de finir la ligne par un espace.
 
 Les arguments peuvent inclure des références à des cellules dans une feuille de calcul. Une référence de cellule se compose de la lettre en majuscule de la ligne de la cellule suivie de son numéro de colonne, par exemple `A1`. Une cellule peut également être référencée en utilisant l\'alias de la cellule, par exemple `Spreadsheet.MyPartWidth`.
+
+
 
 ### Référencement d\'objets 
 
@@ -28,7 +34,7 @@ Vous pouvez référencer n\'importe quelle propriété numérique d\'un objet. P
 Pour référencer des objets de liste, utilisez `<<object_label>>.list[list_index]` ou `object_name.list[index_liste]`. Si vous souhaitez par exemple référencer une contrainte dans une esquisse, utilisez `<<MySketch>>.Constraints[16]`. Si vous êtes dans la même esquisse, vous pouvez omettre son nom et utiliser simplement `Constraints[16]`.
 **Remarque :** l\'index commence par 0, la contrainte 17 a donc l\'index 16.
 
-Pour plus d\'informations sur le référencement des objets, voir [Référence aux données CAO](#R.C3.A9f.C3.A9rence_aux_donn.C3.A9es_CAO.md). {{Top}}
+Pour plus d\'informations sur le référencement des objets, voir [Référence aux données CAO](#R.C3.A9f.C3.A9rence_aux_donn.C3.A9es_CAO.md). 
 
 ## Constantes prises en charge 
 
@@ -41,6 +47,8 @@ Les constantes suivantes sont prises en charge :
 
 
 {{Top}}
+
+
 
 ## Opérateurs pris en charge 
 
@@ -58,11 +66,17 @@ Les opérateurs suivants sont pris en charge :
 
 {{Top}}
 
+
+
 ## Fonctions supportées 
+
+
 
 ### Fonctions mathématiques générales 
 
 Les fonctions mathématiques suivantes sont prises en charge :
+
+
 
 #### Fonctions trigonométriques 
 
@@ -83,6 +97,8 @@ Les fonctions mathématiques suivantes sont prises en charge :
   hypot(x; y)   [Somme pythagoricienne](https://fr.wikipedia.org/wiki/Somme_pythagoricienne) (**hypot**énuse), par ex. hypot(4; 3) = 5.                              x et y \>= 0
   cath(x; y)    Étant donné l\'hypoténuse, et un côté, donne l\'autre côté du triangle, par ex. cath(5; 3) = 4.                                                      x \>= y \>= 0
 
+
+
 #### Fonctions exponentielles et logarithmiques 
 
   Fonction    Description                                                                      Plage de saisie
@@ -92,6 +108,8 @@ Les fonctions mathématiques suivantes sont prises en charge :
   log10(x)    [Logarithme décimal](https://fr.wikipedia.org/wiki/Logarithme_d%C3%A9cimal)      x \> 0
   pow(x; y)   [Les puissances](https://fr.wikipedia.org/wiki/Exposant_(math%C3%A9matiques))    tout
   sqrt(x)     [Racine carrée](https://fr.wikipedia.org/wiki/Racine_carr%C3%A9e)                x \>= 0
+
+
 
 #### Fonctions d\'arrondi, de troncature et de reste 
 
@@ -106,6 +124,8 @@ Les fonctions mathématiques suivantes sont prises en charge :
 
 
 {{Top}}
+
+
 
 ### Statistiques et fonctions d\'agrégation 
 
@@ -126,7 +146,11 @@ Les fonctions d\'agrégation suivantes sont prises en charge :
 
 {{Top}}
 
+
+
 ### Manipulation de chaînes de caractères 
+
+
 
 #### Identification de chaînes de caractères 
 
@@ -134,11 +158,15 @@ Les chaînes de caractères sont identifiées dans les expressions en les entour
 
 Dans l\'exemple suivant, \"TEXT\" est reconnu comme une chaîne de caractères : `<<TEXT>>`.
 
+
+
 #### Concaténation de chaînes de caractères 
 
 Les chaînes de caractères peuvent être concaténées à l\'aide du signe \'+\'.
 
 L\'exemple suivant `<<MY>> + <<TEXT>>` sera concaténé en \"MYTEXT\".
+
+
 
 #### Conversion de chaînes de caractères 
 
@@ -146,6 +174,8 @@ Les valeurs numériques peuvent être converties en chaînes de caractères avec
 
 
 `str(Box.Length.Value)`
+
+
 
 #### Formatage des chaînes de caractères 
 
@@ -157,7 +187,7 @@ Par exemple, supposons que vous ayez un cube par défaut de 10mm de côté nomm�
 
 Au dessus d\'un spécificateur de %, utilisez la syntaxe suivante : `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Ou utilisez la concaténation : `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Les deux se développeront en \"Cube length is 10.0 mm and width is 10.0 mm\".
 
-Un exemple de fichier FreeCAD utilisant le formatage des chaînes de caractères est disponible [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657). {{Top}}
+Un exemple de fichier FreeCAD utilisant le formatage des chaînes de caractères est disponible [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657). 
 
 ### Créer une fonction 
 
@@ -172,6 +202,8 @@ La fonction `create` transmet les arguments suivants au constructeur Python sous
 
 Diverses opérations mathématiques telles que la multiplication, l\'addition et la soustraction sont prises en charge par les opérateurs mathématiques standard (par exemple, `*`, `+`, `-`).
 
+
+
 #### Vecteur
 
 Lorsque `create` reçoit `<<vector>>` comme 1er argument, les 3 arguments suivants sont respectivement les coordonnées X, Y et Z de `Vector`.
@@ -180,6 +212,8 @@ Exemple :
 
 
 `create(<<vector>>; 2; 1; 2)`
+
+
 
 #### Matrice
 
@@ -243,7 +277,7 @@ L\'exemple suivant montre la syntaxe pour créer un `Placement` à partir d\'une
 
 `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
 
-Pour plus de lisibilité, vous pouvez définir les vecteurs et les rotations dans des cellules distinctes, puis faire référence à ces cellules dans votre expression. {{Top}}
+Pour plus de lisibilité, vous pouvez définir les vecteurs et les rotations dans des cellules distinctes, puis faire référence à ces cellules dans votre expression. 
 
 ### Fonctions matricielles 
 
@@ -273,6 +307,8 @@ Inverse la `Matrice`, `Rotation` ou le `Placement` donné.
 
 {{Top}}
 
+
+
 ### Tuple & liste 
 
 Vous pouvez créer des objets Python `tuple` ou `list` via leurs fonctions respectives.
@@ -285,6 +321,8 @@ Vous pouvez créer des objets Python `tuple` ou `list` via leurs fonctions respe
 
 
 {{Top}}
+
+
 
 ## Expressions conditionnelles 
 
@@ -304,6 +342,8 @@ Les [opérateurs relationnels](https://en.wikipedia.org/wiki/Relational_operator
 
 {{Top}}
 
+
+
 ## Unités
 
 Les unités peuvent être directement utilisées dans des expressions. L\'analyseur les connecte à la valeur précédente. Donc `2mm` ou `2 mm` sont valides tandis que `mm` est invalide car il n\'y a pas de valeur.
@@ -316,6 +356,8 @@ Les unités avec des exposants peuvent être directement entrées. Donc, par exe
 Si vous avez une variable dont le nom est celui d\'une unité, vous devez mettre la variable entre `<< >>` pour éviter qu\'elle ne soit reconnue comme une unité. Par exemple, si vous avez la dimension `Sketch.Constraints.A`, elle serait reconnue comme l\'unité Ampère. Par conséquent, vous devez l\'écrire dans l\'expression sous la forme `Sketch.Constraints.<<A>>`.
 
 Les unités suivantes sont reconnues par l'analyseur d'expression:
+
+
 
 ### Quantité de substance 
 
@@ -336,6 +378,8 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   M       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité ′
   ′       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité M
 
+
+
 ### Courant
 
   Unité   Description
@@ -344,6 +388,8 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   A       [Ampère](https://fr.wikipedia.org/wiki/Amp%C3%A8re)
   kA      Kilo[ampère](https://fr.wikipedia.org/wiki/Amp%C3%A8re)
   MA      Méga[ampère](https://fr.wikipedia.org/wiki/Amp%C3%A8re)
+
+
 
 ### Énergie/travail
 
@@ -363,6 +409,8 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   kN      [kilonewton](https://fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
   MN      [méganewton](https://fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
   lbf     [Livre-force](https://fr.wikipedia.org/wiki/Livre-force)
+
+
 
 ### Longueur
 
@@ -385,11 +433,15 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   yd      [yard ou verge](https://fr.wikipedia.org/wiki/Verge_(unit%C3%A9))
   mi      [mille](https://fr.wikipedia.org/wiki/Mille_(unit%C3%A9))
 
+
+
 ### Intensité lumineuse 
 
   Unité\"   Description
    
   cd        [Candela](https://fr.wikipedia.org/wiki/Candela)
+
+
 
 ### Poids
 
@@ -407,12 +459,16 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   st      [Stone](https://fr.wikipedia.org/wiki/Stone_(unit%C3%A9))
   cwt     [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
 
+
+
 ### Puissance
 
   Unité   Description
    
   W       [Watt](https://fr.wikipedia.org/wiki/Watt)
   VA      [Voltampère](https://fr.wikipedia.org/wiki/Voltamp%C3%A8re)
+
+
 
 ### Pression
 
@@ -429,6 +485,8 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   psi     [Livre-force par pouce carré](https://fr.wikipedia.org/wiki/Livre-force_par_pouce_carr%C3%A9); 1 psi = 6.895 kPa
   ksi     Kilo[livre-force par pouce carré](https://fr.wikipedia.org/wiki/Livre-force_par_pouce_carr%C3%A9)
 
+
+
 ### Température
 
   Unité   Description
@@ -437,6 +495,8 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   µK      [microkelvin](https://fr.wikipedia.org/wiki/Kelvin); alternative à l\'unité uK
   mK      [millikelvin](https://fr.wikipedia.org/wiki/Kelvin)
   K       [Kelvin](https://fr.wikipedia.org/wiki/Kelvin)
+
+
 
 ### Temps
 
@@ -451,6 +511,8 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   Unité   Description
    
   l       [Litre](https://fr.wikipedia.org/wiki/Litre)
+
+
 
 ### Unités non supportées 
 
@@ -470,11 +532,15 @@ Les unités suivantes, couramment utilisées, ne sont pas encore prises en charg
 
 {{Top}}
 
+
+
 ## Caractères et noms non valides 
 
 La fonction expression est très puissante mais pour atteindre cette puissance, elle présente certaines limitations concernant certains caractères. Pour surmonter cela, FreeCAD propose d\'utiliser des étiquettes et de les référencer à la place des noms d\'objets. Dans les étiquettes, vous pouvez utiliser presque tous les caractères spéciaux.
 
 Dans les cas où vous ne pouvez pas utiliser une étiquette, telle que le nom des contraintes d\'une esquisse, vous devez savoir quels caractères ne sont pas autorisés.
+
+
 
 ### Étiquettes
 
@@ -491,9 +557,11 @@ Pour les [étiquettes](Object_name/fr#Label_.28Etiquette.29.md), il n\'y a pas d
 
 Par exemple, l\'étiquette `Sketch\002` doit être référencée comme `<<Sketch\\002>>`.
 
+
+
 ### Noms
 
-Les [Noms](Object_name/fr#Name_.28Nom.29.md) d\'objets tels que des dimensions, des croquis, etc\... peuvent ne pas avoir les caractères ou les séquences de caractères répertoriés ci-dessous, auquel cas le nom n\'est pas valide:
+Les [Noms](Object_name/fr#Name_.28Nom.29.md) des objets tels que des dimensions, des esquisses, etc. ne doivent pas avoir les caractères ou les séquences de caractères répertoriés ci-dessous, sinon le nom n\'est pas valide:
 
   Caractères / Séquences de caractères                                                                                           Description
    
@@ -508,9 +576,11 @@ Par exemple, le nom suivant est valide: `<<Sketch>>.Constraints.T2üßµ@`, alor
 
 **Remarque:** puisque des noms plus courts (surtout s\'ils n\'ont qu\'un ou deux caractères) peuvent facilement entraîner des noms invalides, envisagez d\'utiliser des noms plus longs et/ou d\'établir une convention de dénomination appropriée.
 
+
+
 ### Alias de cellules 
 
-Voir [Spreadsheet Alias](Spreadsheet_SetAlias/fr#Utilisation.md). {{Top}}
+Voir [Spreadsheet Alias](Spreadsheet_SetAlias/fr#Utilisation.md). 
 
 ## Référence aux données CAO 
 
@@ -577,9 +647,11 @@ Le tableau suivant montre quelques exemples :
 
 {{Top}}
 
+
+
 ## Variables globales 
 
-Pour le moment il n\'y a pas de notion de variables globales dans FreeCAD. Mais des variables arbitraires peuvent être définies comme des cellules dans une feuille de calcul en utilisant [l\'atelier Spreadsheet](Spreadsheet_Workbench/fr.md), auquelles on aura donné un nom en utilisant l\'alias de la propriété pour la cellule utilisée (clic-droit dans la cellule). Ainsi, elles peuvent être accessibles à partir de toute expression comme toute autre propriété de l\'objet. {{Top}}
+Pour le moment il n\'y a pas de notion de variables globales dans FreeCAD. Mais des variables arbitraires peuvent être définies comme des cellules dans une feuille de calcul en utilisant [l\'atelier Spreadsheet](Spreadsheet_Workbench/fr.md), auquelles on aura donné un nom en utilisant l\'alias de la propriété pour la cellule utilisée (clic-droit dans la cellule). Ainsi, elles peuvent être accessibles à partir de toute expression comme toute autre propriété de l\'objet. 
 
 ## Liaison entre documents 
 
@@ -596,7 +668,7 @@ Une fois que le document maître avec la feuille de calcul est créé et enregis
 
 Malheureusement, le vérificateur intégré suppose parfois qu'aucun nom valide étendu n'existe. Continuez à taper quand même. Lorsque vous avez terminé la référence complète, le bouton **OK** devient actif.
 
-Bien sûr, vous pouvez charger les documents correspondants à tout moment pour y faire les modifications que vous voudrez. {{Top}}
+Bien sûr, vous pouvez charger les documents correspondants à tout moment pour y faire les modifications que vous voudrez. 
 
 ## Problèmes connus / tâches restantes 
 

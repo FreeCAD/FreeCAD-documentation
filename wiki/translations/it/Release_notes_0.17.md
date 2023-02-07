@@ -6,18 +6,14 @@
 
 </div>
 
+FreeCAD 0.17 è stato rilasciato il 06 aprile 2018, è possibile ottenerlo dalla pagina [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17). Questo è un riassunto delle modifiche più interessanti. L\'elenco completo delle modifiche è disponibile nel [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.17 è stato rilasciato il 06 aprile 2018, è possibile ottenerlo dalla pagina [Download](Download/it.md). Questo è un riassunto delle modifiche più interessanti. L\'elenco completo delle modifiche è disponibile nel [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
-
-Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili nella pagina [Per iniziare](Getting_started/it.md).
-
-
-</div>
+Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili nella pagina [Funzionalità](Feature_list/it#Release_notes.md).
 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
+
+
 
 ## Punti salienti 
 
@@ -25,19 +21,11 @@ Sono trascorsi quasi due anni dalla precedente versione 0.16, ma il team di Free
 
 L\'ambiente **PartDesign** è stato completamente revisionato. Ora c\'è un nuovo contenitore chiamato Corpo che contiene una catena di funzioni e solleva dalla necessità di mappare gli schizzi su delle facce planari. Ci sono dei nuovi strumenti per creare le geometrie datum (riferimento) come punti, assi e piani che rendono PartDesign molto più versatile. ![](images/PartDesign_Body_tree.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Il nuovo [Addon manager](Std_AddonMgr/it.md) disponibile dal menu Strumenti (che era precedentemente disponibile come [addons installatore di macro](https://github.com/FreeCAD/FreeCAD-addons)) rende l\'installazione e l\'aggiornamento di moduli e macro aggiuntivi molto più semplice e standardizzato per Windows, Mac OS X e Linux.
-
-
-</div>
-
-<img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+Il nuovo [Addon manager](Std_AddonMgr/it.md) disponibile dal menu Strumenti (che era precedentemente disponibile come [addons installatore di macro](https://github.com/FreeCAD/FreeCAD-addons)) rende l\'installazione e l\'aggiornamento di moduli e macro aggiuntivi molto più semplice e standardizzato per Windows, Mac OS X e Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 **Sketcher** ora supporta la creazione delle B-spline con molti modi per controllare le curve e visualizzare le informazioni sulla curva. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
-Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce già più funzionalità del vecchio workbench Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;">
+Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce già più funzionalità del vecchio workbench Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;"> 
 
 ## Aspetti generali 
 
@@ -48,19 +36,13 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 ![](images/FC017_Navigation_Indicator_01.png ) ![](images/FC017_Navigation_Indicator_02.png )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Il [grafico delle dipendenze](Std_DependencyGraph/it.md) ha beneficiato di miglioramenti grafici.
 -   L\'importazione STEP sfrutta il nuovo [contenitore Part](Std_Part/it.md) e lo usa per organizzare un assemblaggio STEP importato in sottoinsiemi, ora più vicino alla struttura del documento originale. Ora è supportato stpZ (un formato STEP compresso).
 -   La maggior parte delle icone di FreeCAD sono state rielaborate per rispettare meglio le [linee guida di Tango](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines).
 
+-   Il progetto FreeCAD riconosce i contributi della sua comunità aggiungendo una scheda Riconoscimenti nella finestra di dialogo *Informazioni su FreeCAD*. Le nuove schede Licenza e Librerie elencano la licenza di FreeCAD e forniscono informazioni sulle librerie di terze parti utilizzate.
 
-</div>
-
--   The FreeCAD project acknowledges the contributions of its community by adding a Credits tab in the *About FreeCAD* dialog. New License and Libraries tabs list FreeCAD\'s license and provide info on used third-party libraries.
-
-<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
+<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;"> 
 
 ## Ambiente Arch 
 
@@ -92,6 +74,8 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   È stato aggiunto il supporto all\'importazione per il formato [3DS](Arch_3DS/it.md).
 
+
+
 ## Ambiente Draft 
 
 -   [Sistema autogruppo](Draft_AutoGroup/it.md): Draft ora dispone di un pulsante di raggruppamento automatico sulla barra principale degli strumenti. Quando è attivato, tutti gli oggetti Draft e Arch appena creati vengono posizionati automaticamente in quel gruppo.
@@ -106,7 +90,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   [Etichetta](Draft_Label/it.md): Con questo strumento, è possibile inserire delle etichette nel documento, esse sono composte da un testo e da una linea guida che può essere libera o attaccata ad un oggetto specifico. È possibile creare un testo personalizzato o visualizzare automaticamente il contenuto di una proprietà dell\'oggetto di destinazione.
 
-<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
+<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;"> 
 
 ## Ambiente FEM 
 
@@ -177,7 +161,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   Some Pictures
 
-<img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
+<img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;"> 
 
 ## Ambiente Part 
 
@@ -205,6 +189,8 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   Il nuovo [contenitore Part](Std_Part/it.md) può essere usato per raggruppare la maggior parte di tipi di forme e spostarle come una unità. Contiene inoltre piani e assi standard a cui allegare oggetti. Servirà come base per il futuro ambiente di Assemblaggio fornendo un modo per spostare le parti. È disponibile in tutti i workbench da una barra degli strumenti insieme a [Gruppo](Std_Group/it.md).
 
+
+
 ## Ambiente PartDesign 
 
 Il workbench PartDesign ha ricevuto enormi cambiamenti, frutto degli sforzi congiunti di più sviluppatori per un periodo di 5 anni. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
@@ -216,6 +202,8 @@ Il workbench PartDesign ha ricevuto enormi cambiamenti, frutto degli sforzi cong
 -   Nuove funzioni di riferimento (datum), quali sono [piani](PartDesign_Plane/it.md), [linee](PartDesign_Line/it.md) e [punti](PartDesign_Point/it.md) utili per posizionare schizzi, allineamento e servire come assi di rivoluzione.
 
 -   Nuovo passaggio automatico tra gli ambienti PartDesign e Sketcher. Quando si crea un nuovo schizzo dall\'interno di PartDesign, e l\'associazione dello schizzo è impostata, l\'interfaccia utente passa automaticamente a Sketcher e ai relativi strumenti in modalità di modifica. Quando lo schizzo viene chiuso, l\'interfaccia utente ritorna a PartDesign e ripristina la vista al suo stato precedente. Pertanto, gli strumenti di Sketcher sono stati rimossi dalle barre degli strumenti di PartDesign per liberare spazio per le nuove funzioni di PartDesign.
+
+
 
 ## Ambiente Path 
 
@@ -246,6 +234,8 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 -   Lo strumento [Simulatore CAM](Path_Simulator/it.md) simula il taglio 3D per visualizzare l\'esecuzione del percorso
 
 -   Le operazioni di vestizione possono essere utilizzate per perfezionare le operazioni principali e aggiungere ulteriore complessità. Esistono dressup per angoli [\'dogbone\'](Path_DressupDogbone/it.md), [holding tags](Path_DressupTag/it.md), [rampe](Path_DressupRampEntry/it.md), e \'azioni d\'angolo\' [dragknife](Path_DressupDragKnife/it.md)
+
+
 
 ## Ambiente Sketcher 
 
@@ -285,13 +275,19 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 
 -   I vincoli orizzontale e verticale possono essere utilizzati per allineare i punti selezionati.
 
+
+
 ## Ambiente Spreadsheet 
 
 -   È stato aggiunto un importatore di file Excel.
 
+
+
 ## Ambiente Surface 
 
 -   Una nuova aggiunta in v0.17, per ora il workbench Surface ha 4 comandi funzionanti per la creazione di superfici.
+
+
 
 ## Ambiente TechDraw 
 
@@ -310,6 +306,8 @@ Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisi
 -   Migliore gestione dei modelli.
 -   Il dimensionamento è supportato attraverso diversi strumenti di quotatura: orizzontale, verticale, lunghezza, radiale, diametro, angolare.
 -   Strumenti di decorazione: tratteggio, tratteggio compatibile con specifiche PAT Autodesk, simboli, immagini.
+
+
 
 ## Moduli aggiuntivi 
 

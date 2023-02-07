@@ -26,7 +26,7 @@ Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (su
 1.  Wähle zwei Formen
 2.  Rufe den Part Schneiden Befehl auf verschiedene Weise auf:
     -   Drücke die **![](images/) '''Schneiden'''** Schaltfläche in der Part Werkzeugleiste
-    -   Verwende den {{MenuCommand/de|Part → Boolesche operation → Schneiden}} Eintrag aus dem Part Menü
+    -   Verwende den **Part → Boolesche operation → Schneiden** Eintrag aus dem Part Menü
 
 
 

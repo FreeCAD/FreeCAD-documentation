@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 
@@ -23,12 +25,14 @@ Die [Entwurf Schicht](Draft_Layer/de.md) erstellt eine spezielle Art von Gruppe,
 
 </div>
 
+
+
 ## Anwendung
 
 
 <div class="mw-translate-fuzzy">
 
-1.  Gehe in das Menü {{MenuCommand/de|Draft → Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer}}.
+1.  Gehe in das Menü **Draft → Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer**.
 2.  Ändere die gewünschten Ansichtseigenschaften der Ebene.
 
 
@@ -65,6 +69,8 @@ If you drop an object from a [Std Group](Std_Group.md), or a group-like object s
 
 -   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
 -   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
+
+
 
 ## Eigenschaften
 

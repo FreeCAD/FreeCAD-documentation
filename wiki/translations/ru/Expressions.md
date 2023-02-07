@@ -1,6 +1,8 @@
 # Expressions/ru
 {{TOCright}}
 
+
+
 ## Обзор
 
 Некоторые свойства объектов могут быть определены с помощью математических выражений. В графическом интерфейсе счетчики или поля ввода свойств которые поддерживают выражения, содержат синий значок <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Щелчок по значку или ввод знака равенства **&#61;** вызывает редактор выражений для этого конкретного свойства.
@@ -13,11 +15,15 @@
 
 Вы можете использовать [константные значения](#Поддерживаемые_константы.md) и [функции](#Поддерживаемые_функции.md).
 
+
+
 ### Аргументы функции 
 
 Multiple arguments to a function may be separated by either a semicolon followed by a space `, `. In the latter case, the comma is converted to a semicolon after entry. When a semicolon is used, no trailing space is necessary.
 
 Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell\'s uppercase row letter followed by its column number, for example `A1`. A cell may also be referenced by using the cell\'s alias instead, for example `Spreadsheet.MyPartWidth`.
+
+
 
 ### Ссылка на объект в выражении 
 
@@ -28,7 +34,7 @@ You can reference any property of an object. For example, to reference a Cylinde
 To reference list objects, use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. If you want for example to reference a constraint in a sketch, use `<<MySketch>>.Constraints[16]`. If you are in the same sketch you may omit its name and just use `Constraints[16]`.
 **Note:** The index starts with 0, therefore constraint 17 has the index 16.
 
-For more information about referencing objects, see [Reference to CAD_data](#Reference_to_CAD_data.md). {{Top}}
+For more information about referencing objects, see [Reference to CAD_data](#Reference_to_CAD_data.md). 
 
 ## Поддерживаемые константы 
 
@@ -41,6 +47,8 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
 
 
 {{Top}}
+
+
 
 ## Поддерживаемые операторы 
 
@@ -58,11 +66,17 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
 
 {{Top}}
 
+
+
 ## Поддерживаемые функции 
+
+
 
 ### Основные математические функции 
 
 Поддерживаются следующие математические функции:
+
+
 
 #### Функции тригонометрии 
 
@@ -89,6 +103,8 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
 
 </div>
 
+
+
 #### Экспоненциальные и логарифмические функции 
 
   Function    Description                                                                                    Input range
@@ -98,6 +114,8 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
   log10(x)    [Common logarithm](https://en.wikipedia.org/wiki/Common_logarithm)                             x \> 0
   pow(x; y)   [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)                                 all
   sqrt(x)     [Square root](https://en.wikipedia.org/wiki/Square_root)                                       x \>= 0
+
+
 
 #### Функции округления, усечения и вычисления остатка от деления 
 
@@ -112,6 +130,8 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
 
 
 {{Top}}
+
+
 
 ### Функции агрегирования и статистики 
 
@@ -132,7 +152,11 @@ Individual arguments to aggregate functions may consist of ranges of cells. A ra
 
 {{Top}}
 
+
+
 ### Операции со строками 
+
+
 
 #### Идентификация строк 
 
@@ -140,11 +164,15 @@ Strings are identified in expressions by surrounding them with opening/closing d
 
 In following example, \"TEXT\" is recognized as a string : `<<TEXT>>`
 
+
+
 #### Объединение строк 
 
 Строки могут быть объединены с помощью символа \"+\".
 
 Например строки `<<МОЙ>> + <<ТЕКСТ>>` будут объединены в \"МОЙТЕКСТ\".
+
+
 
 #### Преобразование числа в строку 
 
@@ -152,6 +180,8 @@ In following example, \"TEXT\" is recognized as a string : `<<TEXT>>`
 
 
 `str(Box.Length.Value)`
+
+
 
 #### Форматирование строк 
 
@@ -163,7 +193,7 @@ As an example, supposing you have a default 10mm-side cube named \'Box\' (defaul
 
 For more than one %-specifier use the following syntax: `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Or use concatenation: `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Both will expand to \"Cube length is 10.0 mm and width is 10.0 mm\".
 
-Пример файла FreeCAD с применением форматирования строк доступен [на форуме](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) {{Top}}
+Пример файла FreeCAD с применением форматирования строк доступен [на форуме](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) 
 
 ### Функция Create 
 
@@ -279,6 +309,8 @@ Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 {{Top}}
 
+
+
 ### Кортежи и списки 
 
 Вы можете создавать Python объекты: кортежи `tuple` или списки `list` с помощью соответствующих функций.
@@ -291,6 +323,8 @@ Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 
 {{Top}}
+
+
 
 ## Условные выражения 
 
@@ -310,6 +344,8 @@ The following [relational operators](https://en.wikipedia.org/wiki/Relational_op
 
 {{Top}}
 
+
+
 ## Единицы измерений 
 
 Units can be used directly in expressions. The parser connects them to the previous value. So `2mm` or `2 mm` is valid while `mm` is invalid because there is no preceding value.
@@ -323,11 +359,15 @@ If you have a variable whose name is that of a unit you must put the variable be
 
 The following units are recognized by the expression parser:
 
+
+
 ### Количество вещества 
 
   Unit   Description
    
   mol    [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
+
+
 
 ### Угол
 
@@ -342,6 +382,8 @@ The following units are recognized by the expression parser:
   M                   [Минута дуги](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и ′
   ′                   [Минута дуги](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и M
 
+
+
 ### Ток
 
   Unit   Description
@@ -350,6 +392,8 @@ The following units are recognized by the expression parser:
   A      [Ampere](https://en.wikipedia.org/wiki/Ampere)
   kA     Kilo[ampere](https://en.wikipedia.org/wiki/Ampere)
   MA     Mega[ampere](https://en.wikipedia.org/wiki/Ampere)
+
+
 
 ### Энергия/работа
 
@@ -360,6 +404,8 @@ The following units are recognized by the expression parser:
   VAs    [Volt-ampere-second](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
   CV     [Coulomb-volt](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
 
+
+
 ### Сила
 
   Единица измерения   Описание
@@ -369,6 +415,8 @@ The following units are recognized by the expression parser:
   kN                  Кило[ньютон](https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
   MN                  Мега[ньютон](https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
   lbf                 [Фунт-сила](https://en.wikipedia.org/wiki/Pound_(force))(Английская единица)
+
+
 
 ### Длина
 
@@ -391,11 +439,15 @@ The following units are recognized by the expression parser:
   yd     [Yard](https://en.wikipedia.org/wiki/Yard)
   mi     [Mile](https://en.wikipedia.org/wiki/Mile)
 
+
+
 ### Интенсивность света 
 
   Unit   Description
    
   cd     [Candela](https://en.wikipedia.org/wiki/Candela)
+
+
 
 ### Масса
 
@@ -413,12 +465,16 @@ The following units are recognized by the expression parser:
   st     [Stone](https://en.wikipedia.org/wiki/Stone_(weight))
   cwt    [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
 
+
+
 ### Мощность
 
   Unit   Description
    
   W      [Watt](https://en.wikipedia.org/wiki/Watt)
   VA     [Volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
+
+
 
 ### Давление
 
@@ -435,6 +491,8 @@ The following units are recognized by the expression parser:
   psi     [Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch); 1 psi = 6.895 kPa
   ksi     Kilo[pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
 
+
+
 ### Температура
 
   Unit   Description
@@ -444,6 +502,8 @@ The following units are recognized by the expression parser:
   mK     Milli[kelvin](https://en.wikipedia.org/wiki/Kelvin)
   K      [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
 
+
+
 ### Время
 
   Unit   Description
@@ -452,11 +512,15 @@ The following units are recognized by the expression parser:
   min    [Minute](https://en.wikipedia.org/wiki/Minute)
   h      [Hour](https://en.wikipedia.org/wiki/Hour)
 
+
+
 ### Объем
 
   Unit   Description
    
   l      [Liter](https://en.wikipedia.org/wiki/Litre)
+
+
 
 ### Неподдерживаемые единицы измерения 
 
@@ -496,6 +560,8 @@ For [labels](Object_name#Label.md) there are no invalid characters, however some
 +++
 
 For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
+
+
 
 ### Названия
 
@@ -602,7 +668,7 @@ Once the master document with the spreadsheet is created and saved (named), it i
 
 Unfortunately, the integrated checker sometimes claims that a valid name doesn\'t exist. Continue typing anyway. When you have completed the full reference, the **OK** button will become active.
 
-Of course, it\'s up to you to load the corresponding documents later when you want to change anything. {{Top}}
+Of course, it\'s up to you to load the corresponding documents later when you want to change anything. 
 
 ## Известные проблемы / нерешённые задачи 
 

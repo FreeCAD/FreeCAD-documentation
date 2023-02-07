@@ -1,5 +1,7 @@
 # <img alt="Punkte Arbeitsbereichssymbol" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/de
 
+
+
 ## Einführung
 
 
@@ -8,6 +10,8 @@
 Der <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Punkte Arbeitsbereich](Points_Workbench/de.md) bietet bestimmte Werkzeuge für die Arbeit mit [Punktwolken](https://de.wikipedia.org/wiki/Punktwolke). Der Arbeitsbereich befindet sich noch in der Entwicklung.
 
 Eine Punktwolke ist eine Sammlung von Punkten im 3D Raum. Eine Punktwolke entsteht im allgemeinen durch Abtasten der Oberfläche eines festen Objekts. Dann kann die Punktwolke für viele Zwecke genutzt werden, einschließlich das Erstellen eines Netzes für das Objekt, das Rekonstruieren der Oberflächen und Festvolumina, einer Rekonstruktionsingenieurwissenschaften sowie für die Sichtbarmachung und die Qualitätskontrolle.
+
+
 
 ## Werkzeuge
 
@@ -24,6 +28,8 @@ Alle Werkzeuge des Punkte Arbeitsbereichs sind aus dem **Punkte** Menü erreichb
 -   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Punktwolke schneiden](Points_PolyCut/de.md): Schneidet Punkte aus Punktwolken.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Punktwolken zusammenführen](Points_Merge/de.md): Erzeugt eine Punktwolke durch Vereinen von Punkten aus zwei oder mehrer Punktwolken.
+
+
 
 ## Hinweise
 

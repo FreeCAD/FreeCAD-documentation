@@ -1,25 +1,33 @@
 ---
 - GuiCommand:/de
    Name:Std ViewIvStereoRedGreen
-   Name/de:Std ViewAnsichtIvStereoRotGrün
+   Name/de:Std AnsichtStereoRotGrün
    MenuLocation:Ansicht → Stereo → Stereo rot/cyan
    Workbenches:Alle
-   SeeAlso:[Std AnsichtIvStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtIvStereoÜberlappteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtIvStereoÜberlappteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtIvStereoAus](Std_ViewIvStereoOff/de.md)
+   SeeAlso:[Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtStereoVersetzteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtStereoAus](Std_ViewIvStereoOff/de.md)
 ---
 
 # Std ViewIvStereoRedGreen/de
 
+
+
 ## Beschreibung
 
-Der **Std AnsichtIvStereoRotGrün** Befehl ändert die aktive [3D Ansicht](3D_view/de.md) in rot/cyan, [anaglyph](https://en.wikipedia.org/wiki/Anaglyph_3D), Stereoansichtsmodus. Zur Verwendung dieses Stereomodus ist eine Brille mit farbigen Gläsern erforderlich.
+Der Befehl **Std AnsichtStereoRotGrün** stellt den Stereo-Modus der aktiven [3D-Ansicht](3D_view/de.md) auf Stereo rot/cyan um,siehe [anaglyph](https://en.wikipedia.org/wiki/Anaglyph_3D) (engl.). Zur Verwendung dieses Stereo-Modus ist eine Brille mit farbigen Gläsern erforderlich.
+
+
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand/de|Ansicht → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo rot/cyan}} Option aus dem Menü.
+1.  Den Menüeintrag **Ansicht → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo rot/cyan** auswählen.
+
+
 
 ## Einstellungen
 
--   Der Auge zu Auge Abstand kann in den Einstellungen geändert werden: {{MenuCommand/de|Bearbeiten → Einstellungen... → Anzeige → 3D Ansicht → Auge zu Auge Abstand für Stereomodi}}. Siehe [Einstellungseditor](Preferences_Editor#3D_View.md).
+-   Der Augenabstand kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Augenabstand für Stereo-Modi**. Siehe [Einstellungseditor](Preferences_Editor/de#3D-Viewer.md).
+
+
 
 ## Skripten
 
@@ -28,7 +36,7 @@ Der **Std AnsichtIvStereoRotGrün** Befehl ändert die aktive [3D Ansicht](3D_vi
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Um die Ansicht auf Rot/Cyan Stereo zu ändern, verwende die Methode `setStereoType` des AktivAnsicht Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Um den Stereo-Modus der Ansicht auf Stereo rot/cyan zu ändern, wird die Methode `setStereoType` des ActiveView-Objekts verwendet. Diese Methode steht nicht zur Verfügung, wenn sich FreeCAD im Konsolenmodus befindet.
 
 
 ```python

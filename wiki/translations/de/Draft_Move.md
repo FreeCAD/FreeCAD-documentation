@@ -1,39 +1,45 @@
 ---
 - GuiCommand:/de
    Name:Draft Move
-   Name/de:Entwurf Verschieben
-   MenuLocation:Entwurf → Verschieben
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft Verschieben
+   MenuLocation:Änderung → Verschieben
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**M****V**
    Version:0.7
-   SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md)
+   SeeAlso:[Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md)
 ---
 
 # Draft Move/de
 
+
+
 ## Beschreibung
 
-Die <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft-Verschieben**-Anweisung verschiebt oder kopiert die ausgewählten Objekt von einem Punkt zu einem anderen. Im Teilelementemodus verschiebt die Anweisung ausgewählte Punkte und Kanten oder kopiert in [Entwurf Linie](Draft_Line/de.md) und [Entwurf Draht](Draft_Wire/de.md) ausgewählte Kanten .
+Der Befehl <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft-Verschieben** verschiebt oder kopiert die ausgewählten Objekt von einem Punkt zu einem anderen. Im Unterelemente-Modus verschiebt die Anweisung ausgewählte Punkte und Kanten oder kopiert ausgewählte Kanten von [Draft Linien](Draft_Line/de.md) und [Draft Drähten](Draft_Wire/de.md).
 
-Die Anweisung kann auf 2D-Formen, die mit dem [Entwurf](Draft_Workbench/de.md)- oder [Sketcher](Sketcher_Workbench/de.md)-Arbeitsbereich erstellt wurden, angewendet werden, aber auch auf viele 3D-Objekte, wie jenen, die mit dem [Part Modul](Part_Modul/de.md)-, [Part und PartDesign](Part_and_PartDesign_Workbench/de.md)- oder [Architektur](Arch_Workbench/de.md)-Arbeitsbereich erzeugt wurden.
+Die Anweisung kann auf 2D-Formen, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, angewendet werden, aber auch auf viele 3D-Objekte, wie jenen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erzeugt wurden.
 
 <img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
 *Verschieben eines Objekts von einem Punkt zu einem anderen Punkt*
 
+
+
 ## Anwendung
 
-Siehe auch: [Entwurf Fang](Draft_Snap/de.md) and [Entwurf Beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Fangen](Draft_Snap/de.md) and [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Wähle ein Objekt oder mehrere Objekte, oder ein Element oder mehrere Elemente aus [Entwurf Linie](Draft_Line/de.md) oder [Entwurf Draht](Draft_Wire/de.md).
-2.  Es gibt mehrere Wege, die Anweisung auszuführen:
-    -   Die **<img src="images/Draft_Move.svg" width=16px> [Entwurf Bewegen](Draft_Move/de.md)** Schaltfläche anklicken.
-    -   Den Menüpunkt **Modification → <img src="images/Draft_Move.svg" width=16px> Move** aus dem Menü wählen.
-    -   Die Tastenkombination: **M** dann **V** anwenden.
-3.  Wenn noch kein Objekt ausgewählt wurde: ein Objekt in der [3D Ansicht](3D_view/de.md) auswählen.
-4.  Die **Move** Aufgabenansicht wird geöffnet. Mehr hierzu, siehe [Optionen](#Optionen.md).
-5.  Wenn Objektelemente ausgewählt wurden: durch ein **Modify subelements** Häckchen in den Elementemodus umschalten.
-6.  Wähle den ersten Punkt und den Basispunkt in der [3D Ansicht](3D_view/de.md) oder gib die Koordinaten ein und klicke auf die **<img src="images/Draft_AddPoint.svg" width=16px> Enter point**-Schaltfläche.
-7.  Wähle den zweiten Punkt und den Zielpunkt in der [3D Ansicht](3D_view/de.md), oder gib die Koordinaten ein und klicke auf die **<img src="images/Draft_AddPoint.svg" width=16px> Enter point**-Schaltfläche.
+1.  Wahlweise ein oder mehrere Objekte auswählen, oder ein oder mehrere Unterelemente einer [Draft Linie](Draft_Line/de.md) oder eines [Draft Drahtes](Draft_Wire/de.md).
+2.  Es gibt mehrere Moglichkeiten die Anweisung auszuführen:
+    -   Die Schaltfläche **<img src="images/Draft_Move.svg" width=16px> [Draft Verschieben](Draft_Move/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Move.svg" width=16px> Verschieben** auswählen.
+    -   Die Tastenkombination: **M** dann **V**.
+3.  Wenn noch kein Objekt ausgewählt wurde: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Der Aufgabenbereich **Verschieben** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+5.  Wenn Unterelemente ausgewählt wurden: die Check-Box **Unterelemente ändern** aktivieren, um in den Unterelemente-Modus umzuschalten.
+6.  Den ersten Punkt, den Basispunkt, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und auf die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** klicken.
+7.  Den zweiten Punkt, den Zielpunkt, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und auf die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** klicken.
+
+
 
 ## Optionen
 
@@ -53,9 +59,13 @@ Das jeweilige Verhalten eines Tastaturkürzels, das hier genannt wird kann geän
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
+
+
 ## Hinweise
 
 -   Ein Objekt, das [angehängt](Part_EditAttachment/de.md) ist, kann nicht mit der Draft Verschieben Anweisung verschoben werden. Um es trotzdem zu verschieben, muss sein unterstützendes **Support** Object verschoben werden, oder seine **Attachment Offset** geändert werden.
+
+
 
 ## Einstellungen
 
@@ -65,6 +75,8 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Entwurf Einst
 -   Um den Fokus beim Öffnen der Aufgabenansicht auf **Length** zu legen, ist die Eigenschaft: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate** anzupassen. Beachte, dass der Zeiger in der [3D Ansicht](3D_view/de.md) bewegt werden muss, um die Auswirkung sehen zu können.
 -   Um die gleiche Kopiermethode über alle Anweisungen zu speichern und wieder zu verwenden, ist die Eigenschaft: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode** einzustellen.
 -   Um die Origialobjekte nach dem Kopieren zu markieren, ist die Eigenschaft: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying** einzustellen.
+
+
 
 ## Skripten
 

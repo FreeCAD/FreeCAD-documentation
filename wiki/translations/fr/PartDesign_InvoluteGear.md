@@ -76,7 +76,7 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 ## Propriétés
 
--    **External Gear**: Vrai ou faux
+-    **External Gear**: vrai ou faux
 
 -    **High Precision**: vrai ou faux
 

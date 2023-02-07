@@ -10,9 +10,13 @@
 
 # Arch IfcSpreadsheet/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaften eines Objekts zu speichern.
+
+
 
 ## Anwendung
 
@@ -20,7 +24,7 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
 2.  Rufe den Befehl mit mehreren Methoden auf:
     -   Drücken der **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen** Schaltfläche in der Werkzeugleiste.
     -   Verwenden der **I** dann **P** Tastaturkürzel.
-    -   Verwenden des {{MenuCommand/de|Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen}} Eintrags aus dem oberen Menü.
+    -   Verwenden des **Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen** Eintrags aus dem oberen Menü.
 
 ## Scripting
 

@@ -9,6 +9,8 @@
 
 # FEM SolverElmer/de
 
+
+
 ## Beschreibung
 
 [Elmer](https://www.elmerfem.org) is an open source multiphysical simulation software mainly developed by CSC - IT Center for Science (CSC). Elmer development was started 1995 in collaboration with Finnish Universities, research institutes and industry. After it\'s open source publication in 2005, the use and development of Elmer has become international.
@@ -44,6 +46,8 @@ You are ready to use Elmer in FreeCAD.
 {{VersionMinus|0.19}}
 
 : Now start FreeCAD and change the units scheme to *MKS* in the [preferences](Preferences_Editor#Units.md). See [Notes](#Notes.md).
+
+
 
 ## Anwendung
 
@@ -86,10 +90,12 @@ You are ready to use Elmer in FreeCAD.
 
 ### Solver Settings 
 
--   Depending on the used equations, you must change the default solver settings.
+-   Depending on the used equations, you must change the default solver settings. They are explained in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
 -   The solver will by default perform a steady-state simulation. To perform a transient simulation (how the model behaves/develops over time) see the [Elmer solver settings](FEM_SolverElmer_SolverSettings#Solver.md).
 
 Elmer has plenty of settings to determine how the equations should be solved. They are described in detail in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+
+
 
 ## Hinweise
 

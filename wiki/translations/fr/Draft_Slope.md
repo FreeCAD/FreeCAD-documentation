@@ -16,6 +16,8 @@ La commande <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft
 <img alt="" src=images/Draft_Slope_example.png  style="width:400px;"> 
 *À gauche, une Draft ligne horizontale. A droite, la même ligne avec une pente de 1 (angle de 45°)*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md).
@@ -24,6 +26,8 @@ La commande <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Slope.svg" width=16px> Pente** dans le menu.
 3.  Saisissez une valeur de **Pente**. {{Value|0}} signifie que chaque segment est horizontal, {{Value|0.5}} signifie que la hauteur delta de chaque segment est {{Value|0.5}} fois sa longueur, etc. La valeur peut également être négative.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK** pour terminer la commande.
+
+
 
 ## Script
 

@@ -9,14 +9,19 @@
 
 # Arch SplitMesh/de
 
+
+
 ## Beschreibung
 
 Diese Werkzeug teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in seine einzelnen Bestandteile.
 
+
+
 ## Anwendung
 
 1.  Wähle ein Netzobjekt
-2.  Drücke den **<img src="images/Arch_SplitMesh.svg" width=16px> [Netz aufteilen](Arch_SplitMesh/de.md)** Eintrag in {{MenuCommand/de|Arch → Dienstprogramme → Netz aufteilen}}
+2.  Drücke den **<img src="images/Arch_SplitMesh.svg" width=16px> [Netz aufteilen](Arch_SplitMesh/de.md)
+** Eintrag in **Arch → Dienstprogramme → Netz aufteilen**
 
 ## Scripting
 

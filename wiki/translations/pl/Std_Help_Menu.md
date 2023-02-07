@@ -47,7 +47,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Forum FreeCAD](Std_FreeCADForum/pl.md): Otwiera forum FreeCAD.
 
--   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FreeCAD FAQ](Std_FreeCADFAQ/pl.md): Otwiera witrynę Wiki dla FreeCAD z często zadawanymi pytaniami *(FAQ)*.
+-   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md): Otwiera witrynę Wiki dla FreeCAD z często zadawanymi pytaniami *(FAQ)*.
 
 -   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Informacje o FreeCAD](Std_About/pl.md): Otwiera okno wyświetlające informacje dotyczące zainstalowanej wersji programu FreeCAD.
 

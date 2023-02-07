@@ -21,6 +21,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Introducere
@@ -30,20 +32,22 @@ Acest tutorial este o colecție de tehnici de modelare a șuruburilor filetate �
 
 </div>
 
-This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the use of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread.
+This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread, but does not use the <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md) tool as this was introduced later.
 
 In traditional CAD systems modelling screw threads is discouraged because it puts a big load on the modelling kernel, as well as on the rendering of the shapes. In traditional systems a thread does not need to be represented directly in 3D space, as it can be indicated with its required characteristics in the 2D technical drawing that is sent for manufacturing. However, with the popularization of additive manufacturing (3D printing), there is now a real need to model 3D threads, in order to print them exactly as designed. This is what this tutorial is for.
 
 Many of the techniques presented here have been collected from different forum threads:
 
--   [Gathering thread modeling techniques](https://forum.freecadweb.org/viewtopic.php?f=3&t=12593)
--   [Creating a thread: Unexpected results](https://forum.freecadweb.org/viewtopic.php?f=3&t=6506)
+-   [Gathering thread modeling techniques](https://forum.freecad.org/viewtopic.php?f=3&t=12593)
+-   [Creating a thread: Unexpected results](https://forum.freecad.org/viewtopic.php?f=3&t=6506)
 
 See also helpful videos:
 
--   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecadweb.org/viewtopic.php?f=8&t=44259)
+-   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecad.org/viewtopic.php?f=8&t=44259)
 
 Remember that thread shapes take a lot of memory, and having just one thread in a document can increase the file size significantly, so the user is advised to create threads only when absolutely necessary.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -71,6 +75,8 @@ In particular, three resources are recommended that can be installed from the [A
 -   In the past, the [Macro BOLTS](Macro_BOLTS.md) was used to insert the parts from the BOLTS library. This is now deprecated. Use the [BOLTSFC Workbench](BOLTSFC_Workbench.md) instead.
 
 -   In the past the stand-alone [Screw Maker macro](Macro_screw_maker1_2.md), by ulrich1a, was used to create individual bolts, screws, and washers. This is now deprecated. The [Fasteners workbench](Fasteners_Workbench.md), by shaise, includes the complete screw maker macro, together with a GUI to select the right component.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -119,6 +125,8 @@ If you wish, you may add a **[<img src=images/PartDesign_AdditiveCylinder.svg st
 
 <img alt="" src=images/T13_06_Threads_Stacked_discs_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_07_Threads_Stacked_discs_2.png  style="width:" height="282px;"> 
 *Left: single disc created by revolution. Right: multiple discs placed in a linear pattern in the Z direction simulating a helical thread.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -173,6 +181,8 @@ Now you can proceed to add other primitives like **[<img src=images/Part_Cylinde
 *Creating a thread coil by sweeping a vertical profile, (1) the [sketch profile](sketch.md), (2) the [helical](Part_Helix.md) sweeping path, and (3) the result of the [sweep](Part_Sweep.md).*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Tricks to success 
@@ -203,6 +213,8 @@ Now you can proceed to add other primitives like **[<img src=images/Part_Cylinde
 -    **Tip 3.**For 3D visualization and 3D printing it may be okay to leave the cylinder and the thread unfused, that is, with intersections between the two solids. Reducing the amount the boolean operations results in less memory consumption and smaller files.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Pros and cons 
@@ -219,6 +231,8 @@ Now you can proceed to add other primitives like **[<img src=images/Part_Cylinde
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Due to invalidity of self-intersecting sweeps, it is next to impossible to generate a thread with no gap between each tooth, that is, with no straight cylindrical face at the inner sides of the thread.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolean operations are required to obtain a single contiguous solid. Boolean operations take take a relatively long time to calculate, and fail often.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Threads with a high number of turns are problematic.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -241,6 +255,8 @@ If one uses a circle as a horizontal profile (the circle has to be placed off th
 To obtain a standard sawtooth profile, a pair of mirrored archimedean spirals need to be fused into a wire. The resulting figure is a heart shape, which becomes barely distinguishable from a circle when the depth of the thread is small compared to its diameter, this is why a \"thick\" thread is shown on the picture above.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Generating the profile 
@@ -260,6 +276,8 @@ Figuring out the horizontal profile to obtain a certain vertical profile is not 
     3.  Set the growth to double the depth of cut of the thread.
 2.  [Part Mirror](Part_Mirror.md) the spiral against the XY plane
 3.  [Part Fuse](Part_Fuse.md) the spiral and the mirror to obtain a closed wire, shaped like a heart.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -285,9 +303,11 @@ Figuring out the horizontal profile to obtain a certain vertical profile is not 
 10. Sweep the wire along the helix. Set {{CheckBox|TRUE|Create solid}} and {{CheckBox|TRUE|Frenet}}.
 11. You are done.
 
-The step-by-step guide was taken from this [forum post by Ulrich1a](http://forum.freecadweb.org/viewtopic.php?f=3&t=6506#p52558) (\"Creating a thread: Unexpected results\"), slightly modified.
+The step-by-step guide was taken from this [forum post by Ulrich1a](http://forum.freecad.org/viewtopic.php?f=3&t=6506#p52558) (\"Creating a thread: Unexpected results\"), slightly modified.
 
 The steps are also shown in action on [this video by Gaurav Prabhudesai](http://www.youtube.com/watch?v=fxKxSOGbDYs) (\"FreeCAD : How to make threads\").
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -307,7 +327,9 @@ The steps are also shown in action on [this video by Gaurav Prabhudesai](http://
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> defining thread profile is complicated.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> using the standard mesher with a thread created in this way generates ugly meshes, which can lead to problems. Other meshers are better, for example, Mefisto seems to give the best results.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> large memory footprint according to [Gathering thread modeling techniques](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> large memory footprint according to [Gathering thread modeling techniques](http://forum.freecad.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+
+
 
 
 <div class="mw-translate-fuzzy">

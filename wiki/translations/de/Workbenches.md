@@ -7,6 +7,8 @@ Wenn Du von einem Arbeitsbereich zum anderen wechselst, ändern sich die auf der
 
 Beachte, dass ein Arbeitsbereich manchmal als *Modul* bezeichnet wird. Allerdings sind Arbeitsbereiche und Module unterschiedliche Gebilde. Ein Modul ist eine beliebige Erweiterung von FreeCAD, während ein Arbeitsbereich ein besonderer Typ von Modul mit einer GUI Konfiguration (Werkzeugleisten und Menüs) ist.
 
+
+
 ## Eingebaute Arbeitsbereiche 
 
 Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepackt:
@@ -55,6 +57,8 @@ Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepack
 
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> Der [Web Arbeitsbereich](Web_Workbench/de.md) bietet dir ein Browserfenster anstelle der [3D Ansicht](3D_view/de.md) in FreeCAD.
 
+
+
 ### Veraltet
 
 Die folgenden Arbeitsbereiche sind aus Kompatibilitätsgründen noch in der Basisinstallation enthalten, sollten aber nicht mehr verwendet werden.
@@ -63,11 +67,13 @@ Die folgenden Arbeitsbereiche sind aus Kompatibilitätsgründen noch in der Basi
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> Der [Arbeitsbereich Zeichnen](Drawing_Workbench/de.md) wurde für die Darstellung deiner 3D Arbeiten auf einer 2D Zeichnung verwendet, ist aber inzwischen veraltet. Es ist immer noch notwendig, alte FreeCAD Dateien zu lesen, die ein Zeichenobjekt enthalten, das ursprünglich mit diesem Arbeitsbereich erstellt wurde. Siehe [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md), der ein fortgeschrittenerer Ersatz ist. {{Obsolete/de|0.17}}
 
+
+
 ## Externe Arbeitsbereiche 
 
 FreeCAD Arbeitsbereiche lassen sich einfach in [Python](Python/de.md) programmieren, es gibt daher viele Menschen, die zusätzliche Arbeitsbereiche außerhalb des FreeCAD Hauptentwicklungsbereichs entwickeln.
 
-Die [Externe Arbeitsbereich](external_workbenches/de.md) Seite listet alle, die dieser Gemeinschaft bekannt sind. Die meisten sind einfach aus FreeCAD heraus zu installieren, indem man die Option [Erweiterungsverwalter](Std_AddonMgr/de.md), zu finden unter Menü {{MenuCommand/de|Werkzeuge → <img src="images/Std_AddonMgr.svg" width=24px> Erweiterungsverwalter}}.
+Die [Externe Arbeitsbereich](external_workbenches/de.md) Seite listet alle, die dieser Gemeinschaft bekannt sind. Die meisten sind einfach aus FreeCAD heraus zu installieren, indem man die Option [Erweiterungsverwalter](Std_AddonMgr/de.md), zu finden unter Menü **Werkzeuge → <img src="images/Std_AddonMgr.svg" width=24px> Erweiterungsverwalter**.
 
 Neue Arbeitsbereiche sind immer in der Entwicklung, bleib\' dran!
 

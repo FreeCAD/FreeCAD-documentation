@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 [Part TransformierteKopie](Part_TransformedCopy/de.md) erzeugt eine nichtparametrische Kopie eines Objekts, das aus seiner ursprünglichen Position verschoben wurde.
@@ -25,6 +27,8 @@ To produce other non-parametric copies use [EinfacheKopie](Part_SimpleCopy/de.md
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Anwendung
@@ -33,13 +37,19 @@ To produce other non-parametric copies use [EinfacheKopie](Part_SimpleCopy/de.md
 </div>
 
 1.  Wähle ein Objekt aus, das Du kopieren möchtest.
-2.  Gehe zum Menü {{MenuCommand/de|Teil → Erstelle eine Kopie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Erzeuge transformierte Kopie](Part_TransformedCopy/de.md)}}.
+2.  Gehe zum Menü **Teil → Erstelle eine Kopie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Erzeuge transformierte Kopie](Part_TransformedCopy/de.md)**.
+
+
 
 ## Eigenschaften
+
+
 
 ### Daten
 
 Die Kopie hat eine einfache {{PropertyData/de|Positionierung}} Eigenschaft wie jede andere [Part Funktion](Part_Feature/de.md).
+
+
 
 ### Ansicht
 

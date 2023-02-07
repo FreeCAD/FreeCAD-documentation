@@ -1,6 +1,8 @@
 # Expressions/it
 {{TOCright}}
 
+
+
 ## Descrizione
 
 È possibile definire le proprietà utilizzando espressioni matematiche. Nella GUI, gli spin box o i campi di input che sono legati alle proprietà contengono un\'icona blu <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliccando sull\'icona, oppure digitando il segno di uguale **&#61;**, si porta in primo piano l\'editor delle espressioni per quella particolare proprietà.
@@ -13,11 +15,15 @@ Gli operatori e le funzioni sono unit-aware (consapevoli delle unità), e richie
 
 Si possono usare le [costanti predefinite](#Costanti_supportate.md) e le [funzioni](#Funzioni_supportate.md).
 
+
+
 ### Argomenti delle funzioni 
 
 Quando una funzione accetta più argomenti, questi possono essere separati da un punto e virgola seguita da uno spazio `, `. In quest\'ultimo caso, la virgola viene convertita in un punto e virgola dopo la voce. Quando si utilizza un punto e virgola, non è necessario terminare la riga con uno spazio.
 
 Gli argomenti possono includere riferimenti a celle in un foglio di calcolo. Un riferimento di cella è costituito dalla lettera maiuscola della riga della cella seguita dal suo numero di colonna, ad esempio `A1`. È anche possibile fare riferimento a una cella utilizzando l\'alias della cella, ad esempio `Spreadsheet.MyPartWidth`.
+
+
 
 ### Riferimenti a oggetti 
 
@@ -38,6 +44,8 @@ Per ulteriori informazioni sul riferimento a oggetti, vedere [questa sezione](#R
 
 
 {{Top}}
+
+
 
 ## Costanti supportate 
 
@@ -84,12 +92,16 @@ Sono supportati i seguenti operatori:
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Funzioni supportate 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -366,6 +378,8 @@ You can create Python `tuple` or `list` objects via their respective functions.
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Espressioni condizionali 
@@ -400,6 +414,8 @@ Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/R
 
 
 {{Top}}
+
+
 
 ## Unità
 
@@ -763,7 +779,7 @@ Since shorter names (especially if they have only one or two characters) can eas
 
 ### Cell aliases 
 
-See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). {{Top}}
+See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). 
 
 
 <div class="mw-translate-fuzzy">
@@ -834,9 +850,11 @@ La tabella seguente mostra alcuni esempi:
 
 {{Top}}
 
+
+
 ## Variabili globali nell\'ambito del documento 
 
-Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto. {{Top}}
+Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto. 
 
 ## Riferimenti incrociati nel documento 
 
@@ -865,7 +883,7 @@ Una volta creato e salvato (e denominato) il documento master con il foglio di c
 
 Purtroppo, il checker integrato a volte afferma che un nome valido non esiste. Continuare comunque a digitare. Quando il riferimento è completato, il pulsante **OK** diventa attivo.
 
-Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa. {{Top}}
+Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa. 
 
 ## Problemi noti / attività rimanenti 
 

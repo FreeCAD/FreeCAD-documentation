@@ -14,6 +14,8 @@
 
 
 
+
+
 ## Einleitung
 
 Dieses Tutorium wurde ursprünglich von Roland Frank (†2017, r-frank) geschrieben, und es wurde von vocx neu geschrieben und illustriert.
@@ -47,12 +49,14 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 
 </div>
 
+
+
 ## Einrichtung
 
 
 <div class="mw-translate-fuzzy">
 
-1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit {{MenuCommand/de|Datei → [<img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)}}, und wechsle in den [Part Arbeitsbereich](Part_Workbench/de.md).
+1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → [<img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**, und wechsle in den [Part Arbeitsbereich](Part_Workbench/de.md).
 
 :   1.1. Drücke die **[<img src=images/Std_ViewIsometric.svg style="width:16px"> [Ansicht isometrisch](Std_ViewIsometric/de.md)** Schaltfläche oder drücke **0** auf dem Ziffernblock deiner Tastatur, um die Ansicht auf isometrisch zu ändern und die 3D Körper besser zu veranschaulichen.
 :   1.2. Drücke die **[<img src=images/Std_ViewFitAll.svg style="width:16px"> [Ansicht alles einpassen](Std_ViewFitAll/de.md)** Schaltfläche wenn Du Objekte hinzufügst, um die [3D Ansicht](3D_view/de.md) so zu schwenken und zu zoomen, dass alle Elemente in der Ansicht zu sehen sind.
@@ -60,6 +64,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 
 
 </div>
+
+
 
 ## Erstelle die Grundform 
 
@@ -91,6 +97,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 
 ![](images/01_T04_Part_Cube_base_long.png ) 
 *Basisobjekt erzeugt aus einem Würfel und einer Fasenbearbeitung.*
+
+
 
 ## Einfügen der FormZeichenkette 
 
@@ -135,6 +143,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 ![](images/02_T04_Part_ShapeString.png ) 
 *Text erstellt als FormZeichenfolge, d.h. als eine Sammlung von Kanten in einer Ebene.*
 
+
+
 ## Erstellen des 3D Volumentextes 
 
 
@@ -152,6 +162,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 
 ![](images/03_T04_Part_ShapeString_Extrude.png ) 
 *Text als FormZeichenfolge erstellt und durch Extrusion in einen Festkörper verwandelt.*
+
+
 
 ## Hilfsskizze zur Positionierung einfügen 
 
@@ -194,6 +206,8 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 
 <img alt="" src=images/05_T04_Part_ShapeString_support_sketch_3D.png  style="width:500px;"> 
 *Skizzen Linie erstellt auf der Oberseite der Volumenkörperfläche, zur Verwendung als Referenz für die Positionierung des extrudierten Textes.*
+
+
 
 ## Positionierung des Volumentextes im 3D Raum 
 
@@ -255,6 +269,8 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 ![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
 *Extrudierte FormZeichenfolge positioniert in der `Verrundung*.`
 
+
+
 ## Erstellen von graviertem Text 
 
 
@@ -262,7 +278,7 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 
 14\. Wechsle zurück in die [Part Arbeitsbereich](Part_Workbench/de.md).
 
-:   14.1. Wechsle zu \"Original\" Zeichenstil {{MenuCommand/de|Ansicht → [Zeichenstil](Std_DrawStyle/de.md) → [<img src=images/DrawStyleAsIs.svg style="width:16px"> Original}}, oder drücke die **[<img src=images/DrawStyleAsIs.svg style="width:16px"> [So ist](Std_DrawStyle.md)** Schaltfläche in der Ansichtswerkzeugleiste. Dies zeigt alle Objekte mit der normalen Schattierung und Farbe an.
+:   14.1. Wechsle zu \"Original\" Zeichenstil **Ansicht → [Zeichenstil](Std_DrawStyle/de.md) → [<img src=images/DrawStyleAsIs.svg style="width:16px"> Original**, oder drücke die **[<img src=images/DrawStyleAsIs.svg style="width:16px"> [So ist](Std_DrawStyle.md)** Schaltfläche in der Ansichtswerkzeugleiste. Dies zeigt alle Objekte mit der normalen Schattierung und Farbe an.
 :   14.2. Wähle in der [Baumansicht](tree_view/de.md) die Option `Skizze` und drücke **Leertaste** auf der Tastatur, um sie unsichtbar zu machen.
 
 
@@ -276,13 +292,15 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 :   15.1. Drücke dann **[<img src=images/Part_Cut.svg style="width:16px"> [Schneiden](Part_Cut/de.md)**. Dies wird ein `Schnitt` Objekt erzeugen. Dies ist das endgültige Objekt.
 :   
     **Hinweis:**die Reihenfolge, in der du die Objekte auswählst, ist wichtig für den Schneidevorgang. Das Basisobjekt wird zuerst ausgewählt, und das subtrahierende Objekt kommt am Ende.
-:   15.2. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Schnitt}}, ändere im Reiter {{MenuCommand/de|Ansicht}} den Wert von {{MenuCommand/de|Zeilenbreite}} auf {{Incode|2.0}}.
+:   15.2. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Schnitt}}, ändere im Reiter **Ansicht** den Wert von **Zeilenbreite** auf {{Incode|2.0}}.
 
 
 </div>
 
 ![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
 *Endgültiges Modell eines verrundeten Würfels, mit geschnitztem Text, der aus einer ShapeString, Extrude und boolschen Schnittoperationen erzeugt wurde.*
+
+
 
 ## Gravieren von 3D Text mit dem PartDesign Arbeitsbereich 
 
@@ -295,6 +313,8 @@ Ein ähnlicher Ablauf wie oben beschrieben kann mit der [PartDesign Arbeitsberei
 5.  Erstelle jetzt ein **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** oder eine **[<img src=images/PartDesign_Pocket.svg style="width:16px"> [PartDesign Tasche](PartDesign_Pocket/de.md)** aus dem `ShapeString`, um ein entsprechendes additives bzw. subtraktives [PartDesign Formelement](PartDesign_Feature/de.md) aus dem Grundkörper zu erzeugen.
 
 Siehe den Forumsbeitrag, [Wie man FormZeichenfolgen in PartDesign verwendet](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
+
+
 
 ## Anmerkungen
 

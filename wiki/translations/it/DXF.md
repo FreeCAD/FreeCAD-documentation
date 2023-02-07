@@ -1,6 +1,8 @@
 # DXF/it
 {{TOCright}}
 
+
+
 ## Storia
 
 
@@ -35,6 +37,8 @@ In FreeCAD i lettori DXF devono interpretare la geometria (ad esempio una forma 
 
 </div>
 
+
+
 ## Metodi per importare i DXF in FreeCAD 
 
 
@@ -55,6 +59,8 @@ Maggiori informazioni sono sulle pagine [Draft - File DXF](Draft_DXF/it.md) e [I
 
 Se state utilizzando la geometria importata per creare forme 3D in Part Design, provate a [Convalidare lo schizzo](Sketcher_ValidateSketch/it.md) dopo aver importato il DXF in uno schizzo.
 
+
+
 ### Importatote DXF C++ 
 
 
@@ -64,6 +70,8 @@ Questa implementazione è un\'implementazione veloce, ma ignora le funzioni che 
 
 
 </div>
+
+
 
 ### Importatore DXF Python 
 
@@ -91,6 +99,8 @@ Sfortunatamente, Sketcher non implementa i colori, quindi tutta la geometria app
 
 </div>
 
+
+
 ### Macro
 
 
@@ -100,6 +110,8 @@ Dare uno sguardo al forum di FreeCAD o alla [Raccolta di macro](Macros_recipes/i
 
 
 </div>
+
+
 
 ## Salvare in DXF 
 

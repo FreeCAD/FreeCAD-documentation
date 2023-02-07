@@ -133,13 +133,7 @@ In questa sezione mostriamo alcune proprietà comuni che sono visibili per un [C
 
 La maggior parte di queste proprietà viene ereditata dall\'oggetto di base [Funzione Part](Part_Feature/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;">
 
 
 {{TitleProperty|Base}}
@@ -192,13 +186,7 @@ La maggior parte di queste proprietà viene ereditata dall\'oggetto di base [Fun
 
 In questo caso osserviamo le proprietà dello strumento [Rivoluzione di PartDesign](PartDesign_Revolution/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;">
 
 
 {{TitleProperty|Base}}

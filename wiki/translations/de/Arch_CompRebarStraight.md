@@ -9,15 +9,19 @@
 
 # Arch CompRebarStraight/de
 
+
+
 ## Beschreibung
 
 Das Bewehrungszusatzmodul erweitert die [Architektur Arbeitsbereich](Arch_Workbench/de.md) um neue Schnittstellen und Voreinstellungen für die Erstellung gängiger Bewehrungstypen zur Verwendung mit [Architektur Strukturen](Arch_Structure/de.md). Es ist außerdem im externen Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-Die Werkzeuge können mit dem [Erweiterungsmanager](Std_AddonMgr/de.md) über das Menü {{MenuCommand/de|Werkzeuge → Addon Manager → Reinforcement}} installiert werden. FreeCAD muss neu gestartet werden, damit die neuen Werkzeuge unter der Schaltfläche Betonstahl-Werkzeug **<img src="images/Arch_CompRebarStraight.png" width=24px>** erscheinen.
+Die Werkzeuge können mit dem [Erweiterungsmanager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon Manager → Reinforcement** installiert werden. FreeCAD muss neu gestartet werden, damit die neuen Werkzeuge unter der Schaltfläche Betonstahl-Werkzeug **<img src="images/Arch_CompRebarStraight.png" width=24px>** erscheinen.
 
 Diese Erweiterung wurde während des [Google Summer of Code](Google_Summer_of_Code.md) 2017 entwickelt, und wird im Github Repositorium [FreeCAD Armierung](https://github.com/amrit3701/FreeCAD-Reinforcement) Github bereitgestellt, das vom Haupt Repositorium von FreeCAD getrennt ist.
 
 Zurück zu [Arbeitsbereiche](Workbenches#External_workbenches/de.md) / [Externe Arbeitsbereiche](External_Workbenches#General/de.md)
+
+
 
 ## Bewehrungstypen
 

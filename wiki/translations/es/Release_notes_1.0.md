@@ -29,7 +29,7 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 ## Interfaz de usuario 
 
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   The navigation cube corner faces are now hexagonal and bigger, making them easier to click. The font and font size can now also be changed in the [preferences](Preferences_Editor#Navigation.md). [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) and [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
    
@@ -204,6 +204,7 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 -   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   The [Validate sketch](Sketcher_ValidateSketch.md) command was added to Helper toolbar. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   The unusable [Leave sketch](Sketcher_LeaveSketch.md) and [View sketch](Sketcher_ViewSketch.md) commands were removed from the menu. The [Edit sketch](Sketcher_EditSketch.md), [Merge sketches](Sketcher_MergeSketches.md) and [Mirror sketch](Sketcher_MirrorSketch.md) commands were added to the menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+-   The [involute gear profile](PartDesign_InvoluteGear.md) has new properties to change the tooth length. This now allows adjustments for certain types of interferences and to use the profile to create [involute splines](https://en.wikipedia.org/wiki/Spline_(mechanical)) too. [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184)
 
 
 

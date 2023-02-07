@@ -14,10 +14,12 @@
 
 La commande **Std Importer** importe la géométrie d\'un format de fichier différent dans le document actif. De nombreux formats de fichiers sont pris en charge et pour certains formats, plusieurs options d\'importation existent. Voir [Import Export](Import_Export/fr.md) pour plus d\'informations.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand/fr|Fichier → <img src="images/Std_Import.svg" width=16px> Importer...}} dans le menu.
+    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Import.svg" width=16px> Importer...** dans le menu.
     -   Utilisez le raccourci clavier: **Ctrl**+**I**.
 2.  Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.
 3.  Sélectionner un fichier.
@@ -27,11 +29,15 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
+
+
 ## Remarques
 
 -   Pour convertir un [objet maillé](Mesh_Workbench/fr.md) importé en solide, consultez le tutoriel [Importer depuis STL ou OBJ](Import_from_STL_or_OBJ/fr.md).
 -   Pour importer dans un nouveau document, vous pouvez utiliser la commande [Std Ouvrir](Std_Open/fr.md).
 -   Certains ateliers ont des commandes d\'importation supplémentaires. Voir: [Import Export](Import_Export/fr.md).
+
+
 
 ## Préférences
 

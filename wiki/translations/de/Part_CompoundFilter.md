@@ -11,6 +11,8 @@
 
 ![](images/CompoundFilter.png )
 
+
+
 ## Beschreibung
 
 
@@ -25,13 +27,15 @@ Es kann Kinder nach ihren Indizes herausnehmen, Kinder auf Kollisionen mit Schab
 
 Wenn im Ergebnis nur ein Kind vorhanden ist, ist die Ausgabe das Kind. Wenn es mehr als ein Kind gibt, das ausgegeben werden soll, ist die Ausgabe ein neuer Verbund.
 
+
+
 ## Anwendung
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Wähle das geschnittene Objekt
-2.  Wende {{MenuCommand/de|Menü → Teil → Verbund → VerbundFilter}} an
+2.  Wende **Menü → Teil → Verbund → VerbundFilter** an
 3.  Wähle das VerbundFilterObjekt im Baum aus
 4.  In der Registerkarte Eigenschaften stelle \"Filtertyp\" auf \"bestimmte Punkte\" ein.
 5.  Setze Punkte auf die Elemente, die Sie herausnehmen möchten.
@@ -50,6 +54,8 @@ Wenn im Ergebnis nur ein Kind vorhanden ist, ist die Ausgabe das Kind. Wenn es m
 
 
 </div>
+
+
 
 ## Eigenschaften
 

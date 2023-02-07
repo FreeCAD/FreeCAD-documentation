@@ -1,10 +1,10 @@
 ---
 - TutorialInfo:/it
    Topic:Ambiente Path
-   Level:
-   Time:
+   Level:Principiante
+   Time:15 minuti
    Author:Chrisb
-   FCVersion:
+   FCVersion:0.19
    Files:
 ---
 
@@ -13,12 +13,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
 
 ## Aim
 
@@ -29,6 +23,8 @@ Ecco una dimostrazione che mostra la creazione di una lavorazione del WB Path da
 
 
 </div>
+
+
 
 ## Il modello 3D 
 
@@ -89,6 +85,8 @@ Nella finestra di dialogo Crea lavorazione, fare clic su OK per accettare il Cor
 
 
 </div>
+
+
 
 ### Impostazione della lavorazione 
 
@@ -204,6 +202,8 @@ Questo è albero che viene mostrato dopo la configurazione della lavorazione dop
 
 </div>
 
+
+
 ## Le operazioni del percorso 
 
 
@@ -256,6 +256,8 @@ Il risultato è un modello con due percorsi:
 
 </div>
 
+
+
 ## Verificare i percorsi 
 
 Esistono due modi per verificare i percorsi creati. Il codice G può essere ispezionato, inclusa l\'evidenziazione dei segmenti di percorso corrispondenti. Il processo di fresatura di Path Job può anche essere simulato per determinare i percorsi utensile ideali, richiesti dalle geometrie dell\'utensile per fresare il pezzo.
@@ -301,6 +303,8 @@ Se si desidera terminare la simulazione, fare clic sul pulsante Annulla per rimu
 
 
 </div>
+
+
 
 ## Postelaborare la lavorazione 
 

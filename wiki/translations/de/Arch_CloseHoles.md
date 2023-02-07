@@ -12,14 +12,18 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in einem [Formteil](Part_Workbench/de.md)-Objekt und versucht, sie durch hinzufügen einer Fläche zu schließen, die aus der Folge von Kanten erstellt wird. Du musst dich aber noch selbst davon überzeugen, dass das Ergebnis ein Volumenkörper ist.
 
+
+
 ## Anwendung
 
 1.  Wähle ein [Form](Part_Workbench/de.md)-Objekt.
-2.  Drücke den **<img src="images/Arch_CloseHoles.svg" width=16px> [Löcher schließen](Arch_CloseHoles/de.md)**-Eintrag in {{MenuCommand/de|Arch → Dienstprogramme → Schließe Löcher}}.
+2.  Drücke den **<img src="images/Arch_CloseHoles.svg" width=16px> [Löcher schließen](Arch_CloseHoles/de.md)**-Eintrag in **Arch → Dienstprogramme → Schließe Löcher**.
 
 ## Skripten
 

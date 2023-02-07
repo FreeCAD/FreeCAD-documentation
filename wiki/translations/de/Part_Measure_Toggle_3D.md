@@ -1,45 +1,27 @@
 ---
 - GuiCommand:/de
    Name:Part Measure Toggle 3D
-   Name/de:Part Messen umschalten 3D
+   Name/de:Part Messen 3D umschalten
    MenuLocation:Messen → 3D umschalten
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Messen umschalten Delta](Part_Measure_Toggle_Delta/de.md)
+   SeeAlso:[Part Messen alle umschalten](Part_Measure_Toggle_All/de.md), [Part Messen Delta umschalten](Part_Measure_Toggle_Delta/de.md)
 ---
 
 # Part Measure Toggle 3D/de
 
 
-</div>
-
-## Description
 
 ## Beschreibung
 
-Dieses Werkzeug schaltet die Sichtbarkeit von linearen (rot) und Winkel (blau) Messungen um.
-
-## Usage
+Dieser Befehl schaltet die Sichtbarkeit von Längen- und Winkelmessungen in der [3D-Ansicht](3D_view/de.md) um.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Aufrufen des Befehls auf verschiedene Weise:
-    -   Drücke die **[<img src=images/Part_Measure_Toggle_3D.svg style="width:24px"> '''umschalten 3D'''** Schaltfläche.
-    -   Verwende den **Messen → umschalten 3D**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Measure_Toggle_3D.svg" width=16px> [3D umschalten](Part_Measure_Toggle_3D/de.md)** drücken.
+    -   Den Menüeintrag **Messen → <img src="images/Part_Measure_Toggle_3D.svg" width=16px> 3D umschalten** auswählen.
 
 
 

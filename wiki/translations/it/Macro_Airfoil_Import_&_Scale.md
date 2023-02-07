@@ -13,12 +13,14 @@
 
 ## Descrizione
 
-Quando viene eseguita, questa macro apre una cartella di file per individuare e selezionare un file testo di profili alari **.dat**. Selezionare il file, immettere la lunghezza di corda e poi premere il pulsante {{KEY/it|OK}}. Viene prodotto un profilo alare correttamente scalato.
+Quando viene eseguita, questa macro apre una cartella di file per individuare e selezionare un file testo di profili alari **.dat**. Selezionare il file, immettere la lunghezza di corda e poi premere il pulsante **OK**. Viene prodotto un profilo alare correttamente scalato.
 Sono fornite due versioni. La versione 1.5 dovrebbe funzionare con FreeCAD v. 0,13 stabile e con tutte le versioni 0,14. La versione 2 deve essere utilizzata solo con la versione 0,14 3077 o successive e funzionerà meglio con le versioni costruite con versioni OCE/OCC 6.7 o superiore.
 
 Vedere anche la pagina [Importare Dati Airfoil ](Common_Airfoil_Data_Import/it.md)
 
 <img alt="" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width:480px;">
+
+
 
 ## Come utilizzare la Versione 1.5 
 
@@ -42,11 +44,17 @@ La selezione del file avviene come per la versione 1.5. Con la versione 2 si pu�
 
 ![Version 2 Airfoil Import and scale dialog with choice of DWire or BSpline](images/V2_scale.png )
 
+
+
 ## La Macro 
+
+
 
 ### Ultima versione 
 
 L\'ultima versione della macro si trova in [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
+
+
 
 ### Versione 2.1.2 
 

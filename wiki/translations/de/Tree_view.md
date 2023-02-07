@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Die [Baumansicht](Tree_view/de.md) erscheint im {{MenuCommand/de|Modell}} Reiter der [Kombiansicht](Combo_view/de.md), einem der wichtigsten Paneele der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf der Festplatte gespeichert sind.
+Die [Baumansicht](Tree_view/de.md) erscheint im **Modell** Reiter der [Kombiansicht](Combo_view/de.md), einem der wichtigsten Paneele der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf der Festplatte gespeichert sind.
 
 Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D Ansicht](3D_view/de.md) sichtbar sind, sondern können auch unterstützende Datenobjekte sein, die mit einer der [Arbeitsbereiche](workbenches/de.md) erstellt wurden.
 
@@ -68,24 +68,24 @@ Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
 
 ### Auswählen des Dokuments 
 
-Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle:
+Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu **Expression actions** und **Link actions** die folgenden Befehle:
 
--    {{MenuCommand/de|Versteckte Elemente anzeigen}}: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
+-    **Versteckte Elemente anzeigen**: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
 
--    {{MenuCommand/de|Search}}: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
+-    **Search**: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
 
--    {{MenuCommand/de|Close document}}: schließt das ausgewählte Dokument.
+-    **Close document**: schließt das ausgewählte Dokument.
 
--    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
+-    **Skip recomputes**: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
 
     -   
-        {{MenuCommand/de|Allow partial recomputes}}
+        **Allow partial recomputes**
         
         : wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
 
--    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
+-    **Markieren zum Neuberechnen**: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
 
--    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
+-    **[Create group](Std_Group/de.md)**: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
 
 
 

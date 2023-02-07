@@ -8,6 +8,8 @@
 
 # Std DependencyGraph/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Abhängigkeitsgraph** zeigt die Abhängigkeiten zwischen Objekten im aktiven Dokument in einem \'Abhängigkeitsdiagramm\' an. Im Gegensatz zur [Baumansicht](Tree_view/de.md) werden die Objekte in umgekehrter chronologischer Reihenfolge aufgelistet, wobei das erste erstellte Objekt unten steht.
@@ -88,6 +90,8 @@ dot is /usr/local/bin/dot
 
 Und deshalb kannst du FreeCAD darauf hinweisen, in diesem Verzeichnis zu suchen.
 
+
+
 ## Anwendung
 
 1.  Wähle die **Werkzeuge →  <img src="images/Std_DependencyGraph.svg" width=16px> Abhängigkeitsdiagramm...** Option aus dem Menü.
@@ -97,14 +101,18 @@ Und deshalb kannst du FreeCAD darauf hinweisen, in diesem Verzeichnis zu suchen.
 
 Alternativ ({{Version/de|0.19}}) halte die linke Maustaste gedrückt und bewege die Maus.
 
+
+
 ## Speichern
 
 Du kannst ein Abhängigkeitsdiagramm speichern:
 
 1.  Stelle sicher, dass das Register Abhängigkeitsdiagramm im Vordergrund ist.
-2.  Wähle die Option {{MenuCommand/de|Datei → [Speichern](Std_Save/de.md)}} oder {{MenuCommand/de|Datei  → [Speichern als](Std_SaveAs/de.md)}} aus dem Menü.
+2.  Wähle die Option **Datei → [Speichern](Std_Save/de.md)** oder **Datei  → [Speichern als](Std_SaveAs/de.md)** aus dem Menü.
 3.  Gib einen Dateinamen ein und wähle den Dateityp (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg oder \*.pdf).
 4.  Drücke die Taste **Save**.
+
+
 
 ## Allgemeine Grundsätze 
 
@@ -115,6 +123,8 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 -   Unzulässige Abhängigkeiten (z.B. zwischen einem [Entwurf](Draft_Workbench/de.md)/[Part](Part_Workbench/de.md) Vorgang und einem Element innerhalb eines PartDesign Körpers) werden mit einem roten Pfeil angezeigt. Diese Verknüpfungstyp zeigt normalerweise einen \'Verknüpfungen gehen außerhalb des zulässigen Bereichs\' Fehler in der [Berichtsansicht](Report_view/de.md) an.
 -   Ein [Part Container](Std_Part/de.md) und [PartDesign Körper](PartDesign_Body/de.md) umschließen ihren Inhalt innerhalb eines Rahmens mit einem zufällig gefärbten Hintergrund. Ihr Ursprung umschließt ebenfalls seinen Inhalt (Standardebenen und -achsen) in einem Rahmen.
 -   Ein [Gruppen](Std_Group/de.md) wird als ein einzelnes Element angezeigt, das mit seinem Inhalt verknüpft ist.
+
+
 
 ## Begrenzungen
 

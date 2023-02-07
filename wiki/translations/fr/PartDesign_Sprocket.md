@@ -27,15 +27,15 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 
 ## Propriétés
 
--    **Number Of Teeth**: Nombre de dents.
+-    **Number Of Teeth**: nombre de dents.
 
--    **Sprocket Reference**: Le type de pignon. Une liste de définitions de pignons. {{Version/fr|0.20}}. La liste comprend les normes ANSI et ISO ainsi que certaines définitions de pignons pour bicyclettes et motos.
+-    **Sprocket Reference**: type de pignon. Une liste de définitions de pignons. {{Version/fr|0.20}}. La liste comprend les normes ANSI et ISO ainsi que certaines définitions de pignons pour bicyclettes et motos.
 
 -    **Pitch**: Distance entre deux dents.
 
--    **Roller Diameter**: Diamètre des roulements pour lesquels le pignon est conçu.
+-    **Roller Diameter**: diamètre des roulements pour lesquels le pignon est conçu.
 
--    **Thickness**: Epaisseur principale du pignon. **Remarque :** Le pignon ne peut pas simplement être extrudé avec cette épaisseur car les dents ont des chanfreins latéraux. Il faut donc regarder la définition du pignon pour modéliser un pignon 3D valide. {{Version/fr|0.20}}
+-    **Thickness**: épaisseur principale du pignon. **Remarque :** le pignon ne peut pas simplement être extrudé avec cette épaisseur car les dents ont des chanfreins latéraux. Il faut donc regarder la définition du pignon pour modéliser un pignon 3D valide. {{Version/fr|0.20}}
 
 
 

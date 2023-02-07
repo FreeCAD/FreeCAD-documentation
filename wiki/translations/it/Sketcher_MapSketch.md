@@ -25,17 +25,21 @@ Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimapp
 
 <img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
+
+
 ## Utilizzo
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare la faccia della forma su cui si vuole applicare lo schizzo
-2.  Fare clic sul pulsante {{KEY/it|<img src="images/Sketcher_MapSketch.svg" width=16px> Mappa uno schizzo su una faccia}} per selezionare lo schizzo da utilizzare.
+2.  Fare clic sul pulsante **<img src="images/Sketcher_MapSketch.svg" width=16px> Mappa uno schizzo su una faccia** per selezionare lo schizzo da utilizzare.
 3.  Selezionare lo schizzo. Questa azione posiziona automaticamente lo schizzo selezionato sul piano della faccia attiva, anche se faccia e schizzo sono orientati diversamente, e avvia l\'ambiente Sketcher per consentire eventuali modifiche allo schizzo stesso.
 
 
 </div>
+
+
 
 ## Uso per riparare un modello rovinato 
 

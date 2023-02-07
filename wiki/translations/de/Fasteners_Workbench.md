@@ -3,12 +3,16 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der Bauteilen bzw. Baugruppen unterschiedliche Verbindungselemente hinzufügen kann.
 
 ![](images/Fasteners_toolbars.png ) 
 *Das optionale Layout des Arbeitsbereichs mit einer Symbolleiste.<br> Verbindungselemente mit metrischen Abmessungen haben orangefarbene Symbole.<br> Verbindungselemente mit Abmessungen in Zoll haben türkisfarbene Symbole.*
+
+
 
 ## Einrichtung
 
@@ -39,9 +43,13 @@ Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [A
 
     3.  FreeCAD neu starten.
 
+
+
 ## Anwendung
 
 Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungselemente haben ein {{PropertyData/de|base Object}}, eine kreisförmige Kante, und ihre {{PropertyData/de|Placement}} ist dynamisch mit dem Objekt verknüpft. Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Fasteners Bewegen](Fasteners_Move/de.md) kann dazu benutzt werden, ein Verbindungselement zuzuordnen oder zu lösen.
+
+
 
 ### Lose Verbindungselemente 
 
@@ -49,8 +57,10 @@ Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungsel
 2.  Ein Verbindungselement wird im Ursprung erstellt.
 3.  Optional können die Abmessungen und andere Eigenschaften der Verbindungselemente verändert werden:
     1.  Verbindungselement auswählen.
-    2.  Den Reiter {{MenuCommand/de|Data}} des [Eigenschafteneditors](Property_editor/de.md) aktivieren.
+    2.  Den Reiter **Data** des [Eigenschafteneditors](Property_editor/de.md) aktivieren.
     3.  Die erforderlichen Eigenschaften ändern.
+
+
 
 ### Zugeordnete Verbindungselemente 
 
@@ -66,10 +76,14 @@ Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungsel
 7.  Verbindungselemente, die verkehrt herum erscheinen, können mit dem Befehl <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Umdrehen](Fasteners_Flip/de.md) umgedreht werden oder durch Ändern ihrer {{PropertyData/de|invert}}.
 8.  Optional kann die {{PropertyData/de|offset}} geändert werden, um einen Abstand zwischen den Verbindungselementen und den Kanten, denen sie zugeordnet sind, herzustellen.
 
+
+
 ## Hinweise
 
 -   Um Gewinde zu erzeugen, muss die {{PropertyData/de|thread}} eines Verbindungselements auf `True` geändert werden. Gewinde zu erzeugen ist aufwändig. Eine Neuberechnung dauert viel länger, wenn ein Dokument viele Verbindungselemente mit Gewinden enthält.
 -   Die {{PropertyData/de|invert}} und die {{PropertyData/de|offset}} werden für nicht zugeordnete Verbindungselemente ignoriert.
+
+
 
 ## Befehle
 
@@ -91,9 +105,13 @@ Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungsel
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md): Ändert die Parameter der Verbindungselemente.
 
+
+
 ## Verbindungselemente
 
 Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigungselemente mit Zollmaßen haben türkisfarbene Symbole.
+
+
 
 ### Einpresselemente und Verbindungselemente für Leiterplatten 
 
@@ -108,6 +126,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> Abstandshalter für Leiterplatten, Innengewinde beidseitig.
 
 -   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Einsätze zum Warmeinbetten.
+
+
 
 ### Sechskantschrauben und -Bolzen 
 
@@ -126,6 +146,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Sechskantschraube.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC Sechskantschraube mit Flansch.
+
+
 
 ### Schrauben mit Innensechskant 
 
@@ -171,6 +193,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC Hexagon socket set screw with cup point.
 
+
+
 ### Schrauben mit Innensechsrund 
 
 -   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** Zylinderschr. mit Innensechsrund.
@@ -182,6 +206,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ISO14583.svg  style="width:32px;"> **ISO 14583** Flachkopfschrauben mit Innensechsrund.
 
 -   <img alt="" src=images/Fasteners_ISO14584.svg  style="width:32px;"> **ISO 14584** Linsensenkschrauben mit Innensechsrund.
+
+
 
 ### Schlitzschrauben
 
@@ -204,6 +230,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_GOST1144-2.svg  style="width:32px;"> **GOST 1144-2** Slotted half round head wood screw.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** UNC Senkkopfschraube mit Schlitz.
+
+
 
 ### Kreuzschlitzschrauben
 
@@ -229,6 +257,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_DIN603.svg  style="width:32px;"> **DIN 603** Round head square neck bolt.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width:32px;"> **ASME B18.5** UNC Round head square neck bolt.
+
+
 
 ### Muttern
 
@@ -266,6 +296,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** T-slot nut.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** T-slot nut.
+
+
 
 ### Scheiben
 
@@ -309,6 +341,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Internal retaining ring.
 
 -   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** E-clip retaining ring.
+
+
 
 ### Verschiedenes
 
@@ -360,6 +394,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 </div>
 
+
+
 ## Referenzen
 
 
@@ -373,6 +409,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 
 </div>
+
+
 
 ## Verweise
 

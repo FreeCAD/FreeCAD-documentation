@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 
@@ -22,6 +24,8 @@
 
 </div>
 
+
+
 ## Anwendung
 
 
@@ -29,7 +33,7 @@
 
 1.  Aufrufen des Befehls auf verschiedene Weise:
     -   Drücke die **[<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Messen aktualisieren](Part_Measure_Refresh/de.md)** Schaltfläche.
-    -   Verwende {{MenuCommand/de|Messen → [<img src=images/Part_Measure_Refresh.svg style="width:16px"> aktualisieren}}.
+    -   Verwende **Messen → [<img src=images/Part_Measure_Refresh.svg style="width:16px"> aktualisieren**.
 
 
 </div>

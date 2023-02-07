@@ -9,19 +9,27 @@
 
 # Std SelBoundingBox/de
 
+
+
 ## Beschreibung
 
 Der **Std WahlBegrenzungRahmen** Befehl schaltet den Modus der globalen Begrenzungsrahmenhervorhebung ein und aus. Wenn dieser Modus eingeschaltet ist, werden ausgewählte Objekte in einer [3D Ansicht](3D_view/de.md) mit einem hervorgehobenen Begrenzungsrahmen markiert, auch wenn ihr {{PropertyView/de|Auswahlstil}} auf \'Form\' eingestellt ist.
+
+
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)** Schaltfläche.
-    -   Wähle die {{MenuCommand/de|Ansicht → <img src="images/Std_SelBoundingBox.svg" width=16px> Begrenzungsrahmen}} Option aus dem Menü.
+    -   Wähle die **Ansicht → <img src="images/Std_SelBoundingBox.svg" width=16px> Begrenzungsrahmen** Option aus dem Menü.
+
+
 
 ## Einstellungen
 
-Die zugehörige Einstellung wird gespeichert: {{MenuCommand/de|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Anzeige → ZeigeAuswahlBegrenzungsRahmen}}. Es ist ein boolscher Wert, die Vorgabe ist `False`.
+Die zugehörige Einstellung wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Anzeige → ZeigeAuswahlBegrenzungsRahmen**. Es ist ein boolscher Wert, die Vorgabe ist `False`.
+
+
 
 ## Skripten
 

@@ -18,14 +18,18 @@ La commande **Mesh Différence** crée un nouvel objet maillé non paramétrique
 ![](images/Mesh_Difference_example.png ) 
 *A gauche deux objets maillés, à droite l'objet maillé qui est la différence de ces objets si le cube est sélectionné comme objet principal*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé principal.
 2.  Ajoutez l\'objet maillé que vous souhaitez couper de l\'objet principal à la sélection. Les objets maillés doivent se chevaucher.
-3.  Il existe plusieurs façons d\'appeler la commande:
+3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_Difference.svg" width=16px> [Différence](Mesh_Difference/fr.md)
 **
-    -   Sélectionnez l\'option {{MenuCommand |Maillages → Opération booléenne → <img src="images/Mesh_Difference.svg" width=16px> Différence}} dans le menu.
+    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Difference.svg" width=16px> Différence** du menu.
+
+
 
 ## Propriétés
 

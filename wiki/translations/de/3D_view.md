@@ -31,40 +31,40 @@ Wenn der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, zeigt 
 
 Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusätzliche Befehle:
 
--    {{MenuCommand/de|Link Aktionen}}: [Verknüpfung erstellen](Std_LinkMake/de.md).
+-    **Link Aktionen**: [Verknüpfung erstellen](Std_LinkMake/de.md).
 
     -   
-        {{MenuCommand/de|Link Gruppe erstellen}}
+        **Link Gruppe erstellen**
         
         : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Group mit Links](Std_LinkMakeGroup/de.md), [Gruppe mit Transformations Links](Std_LinkMakeGroup/de.md).
 
--    {{MenuCommand/de|[Einpassen](Std_ViewFitAll/de.md)}}: schwenkt und zoomt die Ansicht so, dass alle Objekte im Dokument auf dem Bildschirm angezeigt werden.
+-    **[Einpassen](Std_ViewFitAll/de.md)**: schwenkt und zoomt die Ansicht so, dass alle Objekte im Dokument auf dem Bildschirm angezeigt werden.
 
--    {{MenuCommand/de|[Auswahl einpassen](Std_ViewFitSelection/de.md)}}: schwenkt und zoomt die Ansicht, um das aktuell ausgewählte Objekt auf den Bildschirm einzupassen.
+-    **[Auswahl einpassen](Std_ViewFitSelection/de.md)**: schwenkt und zoomt die Ansicht, um das aktuell ausgewählte Objekt auf den Bildschirm einzupassen.
 
--    {{MenuCommand/de|[Zeichenstil](Std_DrawStyle/de.md)}}: Original, Flache Linien, Schattiert, Drahtgitter, Punkte, Versteckte Linie, Keine Schattierung.
+-    **[Zeichenstil](Std_DrawStyle/de.md)**: Original, Flache Linien, Schattiert, Drahtgitter, Punkte, Versteckte Linie, Keine Schattierung.
 
--    {{MenuCommand/de|[Standardansichten](Std_View_Menu/de.md)}}: [Isometrisch](Std_ViewIsometric/de.md), [Vorne](Std_ViewFront/de.md), [Oben](Std_ViewTop/de.md), [Rechts](Std_ViewRight/de.md), [Hinten](Std_ViewRear/de.md), [Unten](Std_ViewBottom/de.md), [Links](Std_ViewLeft/de.md), [Nach links drehen](Std_ViewRotateLeft/de.md), [Nach rechts drehen](Std_ViewRotateRight/de.md).
+-    **[Standardansichten](Std_View_Menu/de.md)**: [Isometrisch](Std_ViewIsometric/de.md), [Vorne](Std_ViewFront.md), [Oben](Std_ViewTop/de.md), [Rechts](Std_ViewRight/de.md), [Hinten](Std_ViewRear/de.md), [Unten](Std_ViewBottom.md), [Links](Std_ViewLeft/de.md), [Nach links drehen](Std_ViewRotateLeft/de.md), [Nach rechts drehen](Std_ViewRotateRight/de.md).
 
--    {{MenuCommand/de|Messen}}: [Messen ein-/ausschalten](View_Measure_Toggle_All/de.md), [Messung löschen](View_Measure_Clear_All/de.md).
+-    **Messen**: [Messen ein-/ausschalten](View_Measure_Toggle_All/de.md), [Messung löschen](View_Measure_Clear_All/de.md).
 
--    {{MenuCommand/de|Dokumentfenster}}: [Angedockt](Std_ViewDockUndockFullscreen/de.md), [Abgedockt](Std_ViewDockUndockFullscreen/de.md) und [Vollbild](Std_ViewDockUndockFullscreen/de.md).
+-    **Dokumentfenster**: [Angedockt](Std_ViewDockUndockFullscreen/de.md), [Abgedockt](Std_ViewDockUndockFullscreen/de.md) und [Vollbild](Std_ViewDockUndockFullscreen/de.md).
 
 Darüber hinaus können je nach aktivem Arbeitsbereich und aktivem Objekt weitere kontextabhängige Befehle verfügbar werden.
 
 Zum Beispiel mit dem Arbeitsbereich [Part](Part_Workbench/de.md) und einem Objekt ausgewählt:
 
--    {{MenuCommand/de|[Darstellung](Std_SetAppearance/de.md)}}: Startet den Dialog zum Ändern der Farbe und Größe von Linien und Eckpunkten sowie der Farbe von Flächen.
+-    **[Darstellung](Std_SetAppearance/de.md)**: Startet den Dialog zum Ändern der Farbe und Größe von Linien und Eckpunkten sowie der Farbe von Flächen.
 
--    {{MenuCommand/de|[Ein/Ausblenden](Std_ToggleVisibility/de.md)}}: Macht das Objekt in der 3D-Ansicht sichtbar oder unsichtbar.
+-    **[Ein/Ausblenden](Std_ToggleVisibility/de.md)**: Macht das Objekt in der 3D-Ansicht sichtbar oder unsichtbar.
 
--    {{MenuCommand/de|[Selektierbarkeit an/aus](Std_ToggleSelectability/de.md)}}: Macht das Objekt in der 3D Ansicht nicht mehr auswählbar; diesen Befehl erneut verwenden, um den Effekt aufzuheben. Es setzt das Attribut `Selectable` des Objekts auf `True` oder `False`. Die Eigenschaft wird durch Umschalten der {{PropertyView/de|Selectable}} im [Eigenschaftseditor](property_editor/de.md) geändert.
+-    **[Selektierbarkeit an/aus](Std_ToggleSelectability/de.md)**: Macht das Objekt in der 3D Ansicht nicht mehr auswählbar; diesen Befehl erneut verwenden, um den Effekt aufzuheben. Es setzt das Attribut `Selectable` des Objekts auf `True` oder `False`. Die Eigenschaft wird durch Umschalten der {{PropertyView/de|Selectable}} im [Eigenschaftseditor](property_editor/de.md) geändert.
 
--    {{MenuCommand/de|[Gehe zu Selektion](Std_TreeSelection/de.md)}}: Erweitert die [Baumansicht](tree_view/de.md) um das ausgewählte Objekt in der Hierarchie anzuzeigen.
+-    **[Gehe zu Selektion](Std_TreeSelection/de.md)**: Erweitert die [Baumansicht](tree_view/de.md) um das ausgewählte Objekt in der Hierarchie anzuzeigen.
 
--    {{MenuCommand/de|[Zufällige Farbe](Std_RandomColor/de.md)}}: Weist dem Objekt eine zufällige Farbe zu. Es setzt das Attribut `ShapeColor` des Objekts auf ein Tupel `(r,g,b)` mit 3 zufälligen Gleitkommawerten zwischen 0 und 1. Die Eigenschaft wird durch Ändern der {{PropertyView/de|ShapeColor}} im [Eigenschafteneditor](property_editor/de.md) geändert.
+-    **[Zufällige Farbe](Std_RandomColor/de.md)**: Weist dem Objekt eine zufällige Farbe zu. Es setzt das Attribut `ShapeColor` des Objekts auf ein Tupel `(r,g,b)` mit 3 zufälligen Gleitkommawerten zwischen 0 und 1. Die Eigenschaft wird durch Ändern der {{PropertyView/de|ShapeColor}} im [Eigenschafteneditor](property_editor/de.md) geändert.
 
--    {{MenuCommand/de|[Löschen](Std_Delete/de.md)}}: Entfernt das Objekt aus dem Dokument und aus der 3D-Ansicht, indem es die Methode `removeObject()` des Dokuments aufruft.
+-    **[Löschen](Std_Delete/de.md)**: Entfernt das Objekt aus dem Dokument und aus der 3D-Ansicht, indem es die Methode `removeObject()` des Dokuments aufruft.
 
 Ein weiteres Beispiel, mit dem Arbeitsbereich [Draft](Draft_Workbench/de.md) und einem Objekt ausgewählt, zeigt es die gleichen Befehle wie mit dem Arbeitsbereich [Part](Part_Workbench/de.md), aber auch noch:
 

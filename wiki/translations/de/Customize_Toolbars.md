@@ -7,15 +7,19 @@
 |FCVersion=Alle
 }}
 
+
+
 ## Zusammenfassung
 
 Dieses Tutorium zeigt dir die Anpassung von Werkzeugleisten. Werkzeuge (einschließlich Makrowerkzeuge) können in verschiedenen Arbeitsbereichen verwendet werden. In einem Beispiel wird ein Makro zu einem Makrowerkzeug, indem ein **Menütext**, eine **Werkzeugspitze** und ein **Symbol** erstellt wird. Danach wird dieses Makrowerkzeug Teil einer zusätzlichen Werkzeugleiste in einem Arbeitsbereich.
+
+
 
 ## Anwendung
 
 **1.** Finde das Anpassungsmenü
 
--   Klicke {{MenuCommand/de|Hauptmenü → Werkzeuge → Benutzerdefiniert}},
+-   Klicke **Hauptmenü → Werkzeuge → Benutzerdefiniert**,
 
 <img alt="Benutzerdefiniert" src=images/CustomizeToolBar_01.png  style="width:640px;"> 
 
@@ -114,6 +118,8 @@ Dieses Tutorium zeigt dir die Anpassung von Werkzeugleisten. Werkzeuge (einschli
 -   Deine neue Werkzeugleiste ist jetzt im Rechtsklickmenü der Werkzeugleisten enthalten. Seine Symbole (in unserem Beispiel nur die Kamera) sind sichtbar, wenn die Symbolleiste aktiviert ist (blaues Häkchen).
 
 <img alt="Neue Werkzeugleiste" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
+
+
 
 ## Hinweise
 

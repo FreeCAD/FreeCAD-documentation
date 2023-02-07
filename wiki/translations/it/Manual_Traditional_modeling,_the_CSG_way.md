@@ -1,24 +1,9 @@
 # Manual:Traditional modeling, the CSG way/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 CSG sta per [Geometria solida costruttiva](https://en.wikipedia.org/wiki/Constructive_solid_geometry) e rappresenta il modo più semplice per lavorare con la geometria solida 3D, con cui si creano oggetti complessi con l\'aggiunta e la rimozione di pezzi a o da solidi usando le operazioni booleane, come unione, sottrazione o intersezione.
 
-
-<div class="mw-translate-fuzzy">
-
-Come si è visto in precedenza in questo manuale, FreeCAD è in grado di gestire diversi tipi di geometrie, ma il tipo preferito e più utile per gli oggetti 3D che si vogliono progettare con FreeCAD, cioè gli oggetti del mondo reale, è, senza dubbio , quella solida, la geometria [BREP](https://en.wikipedia.org/wiki/Boundary_representation) che viene gestita principalmente dall\'ambiente [Part](Part_Workbench.md). A differenza dei [poligoni mesh](https://en.wikipedia.org/wiki/Polygon_mesh), che sono fatti solo di punti e triangoli, gli oggetti BREP hanno le loro facce definite da curve matematiche che permettono una precisione assoluta, a prescindere dalla scala.
-
-
-</div>
+Come si è visto in precedenza in questo manuale, FreeCAD è in grado di gestire diversi tipi di geometrie, ma il tipo preferito e più utile per gli oggetti 3D che si vogliono progettare con FreeCAD, cioè gli oggetti del mondo reale, è, senza dubbio , quella solida, la geometria [BREP](https://en.wikipedia.org/wiki/Boundary_representation) che viene gestita principalmente dall\'ambiente [Part](Part_Workbench/it.md). A differenza dei [poligoni mesh](https://en.wikipedia.org/wiki/Polygon_mesh), che sono fatti solo di punti e triangoli, gli oggetti BREP hanno le loro facce definite da curve matematiche che permettono una precisione assoluta, a prescindere dalla scala.
 
 ![](images/Mesh_vs_brep.jpg )
 
@@ -32,20 +17,11 @@ Per illustrare il funzionamento dell\'ambiente Parte, modelliamo questo tavolo, 
 
 ![](images/Exercise_table_complete.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-Creare un nuovo documento (**Ctrl + N** o il menu File → Nuovo documento)per cominciare a modellare il tavolo. Inizialmente nella scheda Modello del pannello Vista combinata il documento viene chiamato \"senza nome\", ma se si salva il documento (**Ctrl + Maius + S** o dal menu File → Salva come) come un nuovo documento di FreeCAD chiamato \"table.fcstd\" il documento viene rinominato \"table\", che identifica più chiaramente il progetto.
-
-
-</div>
+Creare un nuovo documento (**Ctrl + N** o il menu File → Nuovo documento)per cominciare a modellare il tavolo. Inizialmente nella scheda Modello del pannello Vista combinata il documento viene chiamato \"senza nome\", ma se si salva il documento (**Ctrl + Maius + S** o dal menu File → Salva come) come un nuovo documento di FreeCAD chiamato \"table.FCStd\" il documento viene rinominato \"table\", che identifica più chiaramente il progetto.
 
 Ora si può passare all\'ambiente Part e iniziare a creare la prima gamba del tavolo.
 
-
-<div class="mw-translate-fuzzy">
-
--   Premere il pulsante <img alt="" src=images/Part_Box.png  style="width:16px;"> 
+-   Premere il pulsante <img alt="" src=images/Part_Box.svg  style="width:16px;"> 
 **Cube**
 -   Selezionare il Cube, quindi impostare le seguenti proprietà (nella tabella **Dati**):
     -   Lunghezza: 80 mm (o 8 cm, o 0.8 m, FreeCAD opera in qualsiasi unità)
@@ -57,26 +33,17 @@ Ora si può passare all\'ambiente Part e iniziare a creare la prima gamba del ta
     -   Posizione x: 8 mm
     -   Posizione y: 8 mm
 
-
-</div>
-
 Si dovrebbe ottenere due parallelepipedi, uno scostato dall\'altro di 8 millimetri:
 
 ![](images/Exercise_table_01.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Ora possiamo sottrarre uno dall\'altro: Selezionare il **primo**, vale a dire quello che **rimane**, poi,con il tasto CTRL premuto, selezionare il **secondo**, quello da **sottrarre** (l\'ordine è importante) e premere il pulsante <img alt="" src=images/Part_Cut.png  style="width:16px;"> **Taglio**:
-
-
-</div>
+-   Ora possiamo sottrarre uno dall\'altro: Selezionare il **primo**, vale a dire quello che **rimane**, poi,con il tasto CTRL premuto, selezionare il **secondo**, quello da **sottrarre** (l\'ordine è importante) e premere il pulsante <img alt="" src=images/Part_Cut.svg  style="width:16px;"> **Taglio**:
 
 ![](images/Exercise_table_02.jpg )
 
 Osservare che l\'oggetto appena creato, chiamato \"Cut\", contiene ancora i due cubi usati come operandi. In realtà, i due cubi sono ancora lì nel documento, sono semplicemente stati nascosti e raggruppati sotto l\'oggetto Cut nella vista ad albero. È ancora possibile selezionarli espandendo la freccia accanto all\'oggetto Cut, e, se lo si desidera, renderli nuovamente visibili cliccandoli con il tasto destro o modificando le loro proprietà.
 
-You can use Cut -tool and other Boolean tools also through \"Combo view\" with <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [Boolean](Part_Boolean.md). It gives more explicit but longer way to do it.
+Puoi usare lo strumento Taglia e altri strumenti booleani anche tramite \"Combo view\" con il comando <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [Operazioni booleane](Part_Boolean/it.md). Questo fornisce un modo più esplicito ma più laborioso.
 
 -   Ora creare le altre tre gambe duplicando il cubo di base 6 altre volte. Dato che è ancora copiato, si può semplicemente incollarlo (CTRL + V) 6 volte. Cambiare la loro posizione con la seguente:
     -   Cube002: x: 0, y: 80 cm
@@ -92,17 +59,11 @@ You can use Cut -tool and other Boolean tools also through \"Combo view\" with <
 
 Si potrebbe avere pensato che, invece di duplicare il cubo di base sei volte, si poteva duplicare tre volte la gamba completa. Questo è totalmente vero, come sempre in FreeCAD, ci sono molti modi per raggiungere il medesimo risultato. Questa è una cosa preziosa da ricordare, perché, come si vedrà con oggetti più complessi, alcune operazioni potrebbero non dare il risultato atteso e spesso bisogna provare in altri modi.
 
-
-<div class="mw-translate-fuzzy">
-
--   Ora faremo i fori per le viti, utilizzando lo stesso metodo di Taglio. Dato che servono 8 fori, due in ogni gamba, potremmo fare 8 oggetti da sottrarre. Invece, esploriamo altri modi e facciamo 4 tubi, che saranno riutilizzati da due delle gambe. Quindi creare quattro tubi utilizzando lo strumento <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> **Cilindro**. È nuovamente possibile farne un solo e poi duplicarlo. Dare a tutti i cilindri un raggio di 6 mm. Questa volta, avremo bisogno di ruotarli, che avviene anche attraverso la proprietà **Placement** nella scheda Dati *(**Nota:** cambiare la proprietà dell\'Asse*prima*di impostare l\'angolo, altrimenti la rotazione non viene applicata)*:
+-   Ora faremo i fori per le viti, utilizzando lo stesso metodo di Taglio. Dato che servono 8 fori, due in ogni gamba, potremmo fare 8 oggetti da sottrarre. Invece, esploriamo altri modi e facciamo 4 tubi, che saranno riutilizzati da due delle gambe. Quindi creare quattro tubi utilizzando lo strumento <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> **Cilindro**. È nuovamente possibile farne un solo e poi duplicarlo. Dare a tutti i cilindri un raggio di 6 mm. Questa volta, avremo bisogno di ruotarli, che avviene anche attraverso la proprietà **Placement** nella scheda Dati *(**Nota:** cambiare la proprietà dell\'Asse*prima*di impostare l\'angolo, altrimenti la rotazione non viene applicata)*:
     -   Cylinder: height: 130 cm, angle: 90°, axis: x:0,y:1,z:0, position: x:-10 mm, y:40 mm, z:72 cm
     -   Cylinder001: height: 130 cm, angle: 90°, axis: x:0,y:1,z:0, position: x:-10 mm, y:84 cm, z:72 cm
     -   Cylinder002: height: 90 cm, angle: 90°, axis: x:-1,y:0,z:0, position: x:40 mm, y:-10 mm, z:70 cm
     -   Cylinder003: height: 90cm, angle: 90°, axis: x:-1,y:0,z:0, position: x:124 cm, y:-10 mm, z:70 cm
-
-
-</div>
 
 ![](images/Exercise_table_04.jpg )
 
@@ -125,14 +86,8 @@ Notare che, anche se le gambe hanno spessore 8 mm, le abbiamo distanziate di 10
 
 Ora che i cinque pezzi sono completi, è un buon momento per dare loro dei nomi più appropriati di \"Cut015\". Facendo clic destro sugli oggetti nella vista ad albero (o premendo **F2**), si possono rinominare in qualcosa di più significativo per voi stessi o per un\'altra persona che in seguito apra il file. Si dice spesso che semplicemente dare dei nomi propri agli oggetti è molto più importante del modo in cui sono modellati.
 
-
-<div class="mw-translate-fuzzy">
-
--   Ora posizioniamo alcune viti. Attualmente c\'è un addon estremamente utile sviluppato da un membro della comunità di FreeCAD, che si trova nel repository [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons), chiamato [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB), che rende molto facile l\'inserimento di viti. Installazione degli ambienti supplementari è facile ed è descritto nelle pagine addons.
+-   Ora posizioniamo alcune viti. Attualmente c\'è un addon estremamente utile sviluppato da un membro della comunità di FreeCAD, che si trova nel repository [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons), chiamato [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB), che rende molto facile l\'inserimento di viti. Installazione degli ambienti supplementari è facile ed è descritto nelle [pagine addons](Std_AddonMgr/it.md).
 -   Una volta installato l\'ambiente Fasteners e riavviato FreeCAD, esso appare nella lista degli ambienti, ed è possibile passare in esso. Per aggiungere una vite ai fori selezionare prima il bordo circolare del foro:
-
-
-</div>
 
 ![](images/Exercise_table_07.jpg )
 
@@ -166,24 +121,9 @@ Si può guardare il tavolo di cui sopra, e pensare il suo design non è buono. I
 
 **Approfondimenti**
 
-
-<div class="mw-translate-fuzzy">
-
 -   [L\'ambiente Part](Part_Workbench/it.md)
 -   [The FreeCAD addons repository](https://github.com/FreeCAD/FreeCAD-addons)
 -   [The Fasteners Workbench](https://github.com/shaise/FreeCAD_FastenersWB)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

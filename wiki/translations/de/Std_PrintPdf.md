@@ -9,9 +9,13 @@
 
 # Std PrintPdf/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de.md)-Dateien aus Zeichnungsblättern des Arbeitsbereichs [TechDraw](TechDraw_Workbench/de.md) gedacht, kann aber auch verwendet werden, um ein PDF-Dokument vom aktuell sichtbaren Inhalt der [3D-Ansicht](3D_view/de.md) zu erstellen.
+
+
 
 ## Anwendung
 
@@ -20,14 +24,20 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de
 3.  Einen Dateinamen im Dialogfeld eintragen.
 4.  Die Schaltfläche **Speichern** drücken.
 
+
+
 ## Optionen
 
 -    **Esc**oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
+
+
 ## Hinweise
 
--   Um ein PDF-Dokument von einem TechDraw-Zeichnungsblatt zu erstellen, kann man auch den Menüeintrag **Datei → Exportieren... → Technical Drawing (*.svg *.dxf *.pdf)** verwenden. Oder man setzt einen Rechtsklick auf das TechDraw-Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area/de.md) und wählt {{MenuCommand/de|PDF exportieren}} aus dem Kontextmenü.
+-   Um ein PDF-Dokument von einem TechDraw-Zeichnungsblatt zu erstellen, kann man auch den Menüeintrag **Datei → Exportieren... → Technical Drawing (*.svg *.dxf *.pdf)** verwenden. Oder man setzt einen Rechtsklick auf das TechDraw-Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area/de.md) und wählt **PDF exportieren** aus dem Kontextmenü.
 -   Eine von der [3D-Ansicht](3D_view.md) erstellte PDF-Datei enthält eine Bitmap-Grafik, einen Screenshot.
+
+
 
 ## Einstellungen
 

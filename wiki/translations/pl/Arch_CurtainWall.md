@@ -141,7 +141,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = FreeCAD.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

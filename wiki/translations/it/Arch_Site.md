@@ -13,14 +13,21 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gruppo standard di FreeCAD con quelle degli oggetti Arch. Esso è particolarmente adatto per rappresentare un intero sito del progetto o un terreno. Nei lavori di architettura basati su IFC, serve soprattutto per organizzare il modello, racchiudendo in esso gli oggetti [edificio](Arch_Building/it.md). Il sito è utilizzato anche per gestire e visualizzare un terreno fisico, e può calcolare i volumi di terra che devono essere aggiunti o rimossi.
 
+
+
 ## Utilizzo
 
 1.  Selezionare uno o più oggetti da includere nel nuovo sito
-2.  Premere il pulsante **<img src="images/Arch_Site.svg" width=16px> [Sito](Arch_Site/it.md)**, oppure premere i tasti {{KEY/it|S}} e {{KEY/it|I}}
+2.  Premere il pulsante **<img src="images/Arch_Site.svg" width=16px> [Sito](Arch_Site/it.md)
+**, oppure premere i tasti **S** e **I**
+
+
 
 ## Opzioni
 
@@ -30,6 +37,8 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 -   È possibile aggiungere un oggetto terreno modificando la proprietà **Terrain** del Sito. Il terreno deve essere un guscio aperto (shell) o una superficie.
 -   È possibile aggiungere volumi da sommare o da sottrarre dal terreno di base, facendo doppio clic sul Sito, e aggiungendo gli oggetti ai suoi gruppi Sottrazioni o Aggiunte. Gli oggetti devono essere dei solidi.
 -   La proprietà **Extrusion Vector** può essere utilizzata per risolvere alcuni problemi che possono presentarsi quando si lavora con le sottrazioni e le aggiunte. Per svolgere tali addizioni o sottrazioni, la superficie del terreno viene estrusa in un solido, che viene poi opportunamente aggiunto o sottratto. A seconda della topologia del terreno, questa estrusione potrebbe non riuscire con il vettore di default di estrusione. Può darsi che sia possibile risolvere il problema assegnando al vettore a un valore diverso.
+
+
 
 ## Proprietà
 
@@ -95,6 +104,8 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 </div>
 
+
+
 ## Tipico flusso di lavoro 
 
 Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
@@ -108,6 +119,8 @@ Creare alcuni volumi (devono essere dei solidi) che rappresentano le aree che si
 La geometria sito sarà ricalcolata e le proprietà aree, il perimetro e i volumi rivalutati.
 
 ![](images/Arch_site_example_03.jpg )
+
+
 
 ## Diagrammi solari e del vento 
 
@@ -170,6 +183,8 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
+
+
 ### Diagramma solare 
 
 Se il modulo `pysolar` è presente, è possibile aggiungere al sito un diagramma solare. Impostare gli angoli di longitudine, latitudine e declinazione in modo appropriato, nonché una scala adeguata per le dimensioni del modello.
@@ -187,6 +202,8 @@ Site.ViewObject.SolarDiagram = True
 Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
 
 ### Diagramma solare indipendente dal sito 
 

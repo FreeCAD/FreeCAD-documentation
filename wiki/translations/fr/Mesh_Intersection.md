@@ -18,13 +18,17 @@ La commande **Mesh Intersection** crée un nouvel objet maillé non paramétriqu
 ![](images/Mesh_Intersection_example.png ) 
 *A gauche deux objets maillés, à droite l'objet maillé qui est l'intersection de ces objets*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez deux objets maillés qui se chevauchent partiellement.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_Intersection.svg" width=16px> [Intersection](Mesh_Intersection/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Intersection.svg" width=16px> Intersection** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Intersection.svg" width=16px> Intersection** du menu.
+
+
 
 ## Propriétés
 

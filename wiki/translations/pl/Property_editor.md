@@ -134,16 +134,10 @@ W tej sekcji pokazujemy kilka wspólnych właściwości, które są widoczne dla
 
 Większość z tych właściwości jest dziedziczona z obiektu podstawowego [Part Feature](Part_Feature.md).
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
+<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;">
 
 
-</div>
-
-
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Angular Deflection**: jest to sposób na określenie, jak dokładnie wygenerować siatkę do renderowania na ekranie lub przy eksporcie. Domyślną wartość stanowi 28,5 stopnia lub 0,5 radiana. Im mniejsza wartość, tym gładszy będzie wygląd w [widok 3D](3D_view.md), oraz tym gęstsza siatka będzie eksportowana.
 
@@ -193,16 +187,10 @@ Większość z tych właściwości jest dziedziczona z obiektu podstawowego [Par
 
 W tym przypadku obserwujemy właściwości [PartDesign Wyciągnij przez obrót](PartDesign_Revolution.md).
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
+<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;">
 
 
-</div>
-
-
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    {{propertyData|Label}}: Zdefiniowana przez użytkownika nazwa nadana obiektowi, którą można dowolnie zmieniać.
 

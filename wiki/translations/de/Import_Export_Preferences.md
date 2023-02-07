@@ -1,21 +1,31 @@
 # Import Export Preferences/de
 {{TOCright}}
 
+
+
 ## Einleitung
 
 FreeCAD kann viele Dateiformate importieren und exportieren. Für einige Formate gibt es spezielle Einstellungen. Diese findest du im [Voreinstellungseditor](Preferences_Editor/de.md), im Menü **Bearbeiten → Einstellungen → Import-Export**.
 
 Nicht alle Reiter für Import und Exporteinstellungen sind standardmäßig verfügbar. Für einige muss zuerst ein Arbeitsbereich geladen werden.
 
+
+
 ## Hinweise
+
+
 
 ### TechDraw Seiten 
 
 Die hier aufgeführten DXF und SVG Einstellungen werden nicht verwendet von den <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> [Seite als SVG exportieren](TechDraw_ExportPageSVG/de.md) und <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:24px;"> [Seite als DXF exportieren](TechDraw_ExportPageDXF/de.md) Befehlen des <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereichs](TechDraw_Workbench/de.md) oder durch die [TechDraw](TechDraw_Workbench/de.md)-Exportoption: **Datei → Export → Technische Zeichnung (*.svg *.dxf *.pdf)**.
 
+
+
 ### OpenSCAD Dateien 
 
 Die Import und Exporteinstellungen für OpenSCAD Dateien sind in einem anderen Teil des [Einstellungseditor](Preferences_Editor/de.md) aufgelistet. Siehe [OpenSCAD Einstellungen](OpenSCAD_Preferences/de.md).
+
+
 
 ## Verwandt
 
@@ -23,6 +33,8 @@ Weitere Informationen findest du auf den folgenden Seiten:
 
 -   [Import Export](Import_Export/de.md): Eine Tabelle mit allen unterstützten Dateiformaten.
 -   [FreeCAD Kurzanleitung Import Export](FreeCAD_Howto_Import_Export.md): Eine Liste von Tutorien, die Anwendern bei der Konvertierung von Daten von einem Format in ein anderes helfen können.
+
+
 
 ## Verfügbare Einstellungen 
 
@@ -262,6 +274,8 @@ Für das IGES Format kannst du folgendes festlegen:
 
 Hinweis für Linux Anwender: Um mit diesem Dateiformat umgehen zu können, benötigt FreeCAD das [IfcOpenShell Modul](Extra_python_modules/de.md).
 
+
+
 #### IFC Import 
 
 Für den Import des IFC Formats kannst du folgendes festlegen:
@@ -341,6 +355,8 @@ Für den Import des IFC Formats kannst du folgendes festlegen:
 
 ![](images/Preferences_Import_Export_Tab_IFC_import.png )
 
+
+
 #### IFC Export 
 
 Für den Export des IFC Formats kannst du folgendes festlegen:
@@ -381,7 +397,7 @@ Für den Export des IFC Formats kannst du folgendes festlegen:
 |                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 |                                                                                          | Wenn angehakt, werden alle FreeCAD Objekteigenschaften in den exportierten Objekten gespeichert, so dass bei einem erneuten Import mit der Option **Importiere vollständige FreeCAD Parameterdefinitionen, falls verfügbar** ein vollständiges parametrisches Modell erstellt werden kann.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| {{MenuCommand/de|Vollständiges parametrisches FreeCAD Modell exportieren}}                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Vollständiges parametrisches FreeCAD Modell exportieren**                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 |                                                                                          | Wenn markiert, werden ähnliche Einheiten möglichst nur einmal in der Datei verwendet. Dies kann die Dateigröße stark reduzieren, macht die Datei aber weniger gut lesbar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -407,11 +423,11 @@ Für den Export des IFC Formats kannst du folgendes festlegen:
 |                                                                                                         | Bei FreeCAD sind wir jedoch der Meinung, dass ein Gebäude zu haben nicht zwingend erforderlich sein sollte, und diese Option ist dazu da, um die Möglichkeit zu haben, unseren Standpunkt aufzuzeigen. {{Version/de|0.19}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +++
 |                                                                                          | Wenn beim Export einer IFC-Datei kein Gebäudegeschoss im FreeCAD Dokument gefunden wird, wird ein Standard-Geschoss hinzugefügt. Gemäß dem IFC-Standard ist kein Gebäudegeschoss vorgeschrieben, aber es ist gängige Praxis, mindestens ein Gebäudegeschoss in der Datei zu haben. {{Version/de|0.19}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| {{MenuCommand/de|Standard Geschoss hinzufügen, falls eines nicht im Dokument gefunden wird}}            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Standard Geschoss hinzufügen, falls eines nicht im Dokument gefunden wird**               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 |                                                                                          | Wähle aus, welche Einheiten beim Exportieren von IFC-Dateien verwendet werden soll. {{Version/de|0.19}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| {{MenuCommand/de|IFC Dateieinheiten}}                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **IFC Dateieinheiten**                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 
@@ -442,6 +458,8 @@ Für das INP Format kannst du folgendes festlegen:
 +++
 
 ![](images/Preferences_Import_Export_Tab_INP.png )
+
+
 
 ### Netzformate
 

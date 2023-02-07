@@ -27,9 +27,9 @@ This implementation of fast, but skips features it doesn\'t recognize, such as D
 
 This importer has to be downloaded and installed before it can be used. See [Dxf Importer Install](Dxf_Importer_Install.md), or use the \"\[ \] Allow FreeCAD to automatically download and update the DXF libraries\" option.
 
-This importer has more features (such as implementing splines), and has the option of loading the DXF shapes into the Sketcher. However, be warned that all the elements of the sketch will appear individually a second time in the model tree, which can be confusing. You can delete all these individual objects and retain the single sketch (which appears as the second entry in the list of new elements).
+This importer has more features (such as implementing splines), and has the option of loading the DXF shapes into the Sketcher Workbench. However, be warned that all the elements of the sketch will appear individually a second time in the model tree, which can be confusing. You can delete all these individual objects and retain the single sketch (which appears as the second entry in the list of new elements).
 
-Unfortunately, the Sketch Workbench does not implement colors, so all the geometry will appear on the same level, which is a problem if the file contains many construction lines. One work-around is to open your drawing in LibreCAD, and delete all the geometry you don\'t want to appear before saving a file that contains exactly the geometry that you want to load.
+Unfortunately, the Sketcher Workbench does not implement colors, so all the geometry will appear on the same level, which is a problem if the file contains many construction lines. One work-around is to open your drawing in LibreCAD, and delete all the geometry you don\'t want to appear before saving a file that contains exactly the geometry that you want to load.
 
 ### Macros
 

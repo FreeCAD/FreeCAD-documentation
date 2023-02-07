@@ -2,15 +2,11 @@
 - GuiCommand:/it
    Name:Std_MergeProjects
    Name/it:Unisci progetti
-   Empty:1
    MenuLocation:File → Unisci progetti...
    Workbenches:Tutti
 ---
 
 # Std MergeProjects/it
-
-
-</div>
 
 
 
@@ -22,15 +18,9 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare l\'opzione **File → Unisci progetti...** dal menu.
+1.  Selezionare l\'opzione **File → <img src="images/Std_MergeProjects.svg" width=16px> Unisci progetti...** dal menu.
 2.  Selezionare un file FreeCAD nella finestra di dialogo.
 3.  Premere il pulsante **Apri**.
-
-
-</div>
 
 
 
@@ -55,11 +45,11 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 ## Scripting
 
 
-**See also:**
+**Vedere anche:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-To merge a project use the {{Incode|mergeProject}} method of the document object.
+Per unire un progetto utilizzare il metodo {{Incode|mergeProject}} dell\'oggetto documento.
 
 
 ```python
@@ -69,13 +59,7 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

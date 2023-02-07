@@ -27,9 +27,15 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ## Benutzeroberfläche
 
+
+<div class="mw-translate-fuzzy">
+
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Die Ecken des Navigationswürfels sind jetzt sechseckig und größer, dadurch sind sie einfacher anzuklicken. Schriftart und Schrifthöhe können jetzt auch in den [Voreinstellungen](Preferences_Editor/de#Navigation.md) angepasst werden. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) und [#8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
+
+
+</div>
 
    
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width:384px;">   Die Darstellungsart von [Messergebnissen](Part_Workbench/de#Messung.md), die in den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, können jetzt in den [Einstellungen](PartDesign_Preferences/de#Measure.md) angepasst werden. [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
@@ -200,6 +206,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   Im Dialog [Bohrung](PartDesign_Hole/de.md) wurden die veralteten Schraubenkopfarten entfernt (cheese head, cap screw etc.). Sie sind seit FreeCAD 0.19 veraltet. Bohrungen die diese Arten verwenden werden in benutzerdefinierte Bohrungen mit Kegelsenkung bzw. Zylindersenkung umgewandelt und übernehmen dabei die Werte für Durchmesser und Tiefe. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   Der Befehl [SkizzeÜberprüfen](Sketcher_ValidateSketch/de.md) wurde der Helper-Symbolleiste hinzugefügt. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   Die unnützen Befehle [SkizzeVerlassen](Sketcher_LeaveSketch/de.md) und [SkizzeAnzeigen](Sketcher_ViewSketch/de.md) wurden aus dem Menü entfernt. Die Befehle [SkizzeBearbeiten](Sketcher_EditSketch/de.md), [SkizzenZusammenführen](Sketcher_MergeSketches/de.md) und [Skizze spiegeln](Sketcher_MirrorSketch/de.md) wurden dem Menü hinzugefügt. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+-   Das [Evolventenzahnradprofil](PartDesign_InvoluteGear/de.md) hat neue Eigenschaften zum Einstellen der Zahnhöhe erhalten. Damit können jetzt verschiedene Eingriffsarten (Profilverschiebungen) festgelegt werden und auch (Evolventen-)Verzahnungen (z.B. für verschiebbare Welle-Nabe-Verbindungen) erstellt werden. Siehe [involute splines](https://en.wikipedia.org/wiki/Spline_(mechanical)) (engl.). [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184)
 
 
 

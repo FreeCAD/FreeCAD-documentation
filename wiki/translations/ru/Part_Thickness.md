@@ -9,9 +9,13 @@
 
 # Part Thickness/ru
 
+
+
 ## Описание
 
 Инструмент <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Полость](Part_Thickness/ru.md) преобразует твёрдое тела в полый объект, задавая каждой из имеющихся граней определенную толщину. Это позволяет значительно ускорить работу, а также позволяет избежать применения выдавливаний и вырезов.
+
+
 
 ## Применение
 
@@ -23,7 +27,12 @@
 5.  Нажмите **OK** для подтверждения, создайте операцию и выйдите из функции
 6.  В таблице свойств так же можно настроить параметры, если это необходимо
 
+
+
 ## Параметры
+
+
+<div class="mw-translate-fuzzy">
 
 -   Толщина: Толщина стенки получаемого объекта, установите нужное значение
     -   Положительное значение сместит грани наружу
@@ -41,14 +50,23 @@
 -   Грань / Готово: выберите грани, которые нужно удалить, затем нажмите «Готово».
 -   Обновить вид: автоматически обновляет вид в режиме реального времени.
 
+
+</div>
+
+
+
 ## Примечания
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects. <small>(v0.20)</small> 
 -   Complex shapes may produce bizarre, hard to predict results. Carefully inspect the resulting shape and save your work before applying the operation.
 
+
+
 ## Ссылки
 
 A good example on how to use this tool on the forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
 
 ## Примеры
 

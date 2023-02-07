@@ -1,5 +1,7 @@
 # <img alt="El icono del Ambiente de trabajo Puntos" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/es
 
+
+
 ## Introducción
 
 
@@ -8,6 +10,8 @@
 El <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Ambiente de trabajo Puntos](Points_Workbench/es.md) está creado para darte herramientas específicas para trabajar con [nubes de puntos](http://en.wikipedia.org/wiki/Point_cloud). Está Ambiente de trabajo aún en desarrollo.
 
 Una nube de puntos es una colección de puntos en el espacio 3D. Una nube de puntos generalmente se produce al escanear la superficie de un objeto sólido. La nube de puntos se puede luego usar para muchos propósitos, incluida la construcción de una malla para el objeto, la reconstrucción de las superficies y los volúmenes sólidos, la ingeniería inversa, así como para la visualización y la inspección de calidad.
+
+
 
 ## Herramientas
 
@@ -24,6 +28,8 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 -   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Cortar nube de puntos](Points_PolyCut/es.md): Corta puntos de las nubes de puntos.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Combinar nubes de puntos](Points_Merge/es.md): Crea una nube de puntos combinando los puntos de dos o más nubes de puntos.
+
+
 
 ## Notas
 

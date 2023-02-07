@@ -1,13 +1,4 @@
 # Manual:Parametric objects/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 FreeCAD è stato progettato per la modellazione parametrica. Ciò significa che la geometria che si crea, invece di essere liberamente modellabile, è prodotta da regole e parametri. Ad esempio, un cilindro può essere prodotto da raggio e altezza. Con questi due parametri, il programma ha informazioni sufficienti per realizzare il cilindro.
@@ -35,25 +26,10 @@ Infine, vale la pena di notare che gli oggetti parametrici personalizzati sono [
 
 **Approfondimenti**
 
-
-<div class="mw-translate-fuzzy">
-
 -   [L\'editor delle proprietà](Property_editor/it.md)
 -   [Come programmare oggetti parametrici](Scripted_objects/it.md)
 -   [Posizionare gli oggetti in FreeCAD](Placement/it.md)
 -   [Abilitare il grafico delle dipendenze](Std_DependencyGraph/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

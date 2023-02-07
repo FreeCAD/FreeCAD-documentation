@@ -13,12 +13,16 @@
 
 La commande **Std Masquer la sélection** masque les objets sélectionnés dans la [Vues 3D](3D_view/fr.md).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option {{MenuCommand/fr|Affichage → Visibilité → <img src="images/Std_HideSelection.svg" width=16px> Masquer la selection}} dans le menu.
-    -   Sélectionnez l\'option {{MenuCommand/fr|<img src="images/Std_HideSelection.svg" width=16px> Masquer la selection}} dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md). Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
+    -   Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_HideSelection.svg" width=16px> Masquer la selection** dans le menu.
+    -   Sélectionnez l\'option **<img src="images/Std_HideSelection.svg" width=16px> Masquer la selection** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md). Cette option n\'est pas disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
+
+
 
 ## Remarques
 
@@ -27,6 +31,8 @@ La commande **Std Masquer la sélection** masque les objets sélectionnés dans 
 -   Si la visibilité d\'un [Std Groupe](Std_Group/fr.md) (ou d\'un objet dérivé de celui-ci tel qu\'une [Arch Partie de bâtiment](Arch_BuildingPart/fr.md)) est modifiée, la visibilité de ses objets imbriqués changera en conséquence. Mais leur visibilité peut également être modifiée de manière indépendante.
 -   L\'action de cette commande ne peut pas être annulée avec [Std Annuler](Std_Undo/fr.md).
 -   La visibilité d\'un objet peut également être modifiée via sa propriété {{PropertyData/fr|Visibility}} associée dans l\'[Éditeur de propriétés](Property_editor/fr.md) ou la [Vue Combinée](Combo_view/fr.md).
+
+
 
 ## Script
 

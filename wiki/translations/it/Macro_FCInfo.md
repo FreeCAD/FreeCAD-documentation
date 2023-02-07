@@ -14,6 +14,8 @@
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
+
+
 ## Descrizione
 
 Fornisce una ampia serie di informazioni sulla forma selezionata quali lunghezza, angoli, superficie, inclinazione, volume e peso secondo la densità della forma selezionata, sia nelle unità del Sistema Internazionale che in quelle del Sistema Anglosassone.
@@ -227,6 +229,8 @@ Image:Macro_FCInfo_04.png\|La tabella dei dati può essere dislocata a destra, I
 ## Options
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Opzioni
@@ -299,6 +303,8 @@ Tramite il pulsante **Save** è possibile archiviare i dati ottenuti in un file 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -433,7 +439,7 @@ Questo è normale il contatore della lista dentro OpenCascade comincia sempre da
 
 Uscire sempre dalla macro tramite il pulsante **Exit**, altrimenti il programma rimane in memoria e continua a funzionare fino a quando non si chiude FreeCAD.
 
-La tabella riporta solo i primi 200 elementi dell\'oggetto, quando l\'oggetto contiene più di 200 elementi viene visualizzato l\'avviso **(! +200)**. In questo caso, l\'elenco completo dei dati è visibile nel file csv che può essere creato e salvato cliccando sul pulsante {{KEY/it|Save}}.
+La tabella riporta solo i primi 200 elementi dell\'oggetto, quando l\'oggetto contiene più di 200 elementi viene visualizzato l\'avviso **(! +200)**. In questo caso, l\'elenco completo dei dati è visibile nel file csv che può essere creato e salvato cliccando sul pulsante **Save**.
 
 
 </div>
@@ -467,6 +473,8 @@ associare una sostanza alla sua massa volumica
 
 
 </div>
+
+
 
 ## Versione
 
@@ -577,6 +585,8 @@ ver 1.03 , 09/09/2013: visualizzazione più chiara nella \"vista report\" e sost
 ver 1.02 , 7/09/2013 : piccole modifiche
 
 ver 1.0 , 6/09/2013
+
+
 
 
 <div class="mw-translate-fuzzy">

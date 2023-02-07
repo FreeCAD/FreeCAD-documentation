@@ -27,6 +27,8 @@ Lo strumento **Rivoluzione** crea un solido ruotando uno schizzo selezionato o u
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -106,9 +108,14 @@ Durante la creazione di una rivoluzione, il dialogo **Parametri rivoluzione** pe
 |                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
 
+
+
 ## Proprietà
 
 Sotto sono riportate le proprietà che possono essere definite dopo la creazione della funzione. Le proprietà *Base* e *Axis* non sono editabili.
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/it|Angle}}: angolo di rotazione. vedere [Angolo](#Angolo.md).
 
@@ -119,6 +126,11 @@ Sotto sono riportate le proprietà che possono essere definite dopo la creazione
 -    {{PropertyData/it|Reversed}}: true o false. Vedere [Invertita](#Invertita.md).
 
 -    {{PropertyData/it|Refine}}: v0.17 e successive true o false. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
+
+
+</div>
+
+
 
 ## Esempi
 

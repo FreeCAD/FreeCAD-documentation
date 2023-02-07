@@ -98,9 +98,6 @@ Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz
 
 ### Zaznaczanie obiektów 
 
-
-<div class="mw-translate-fuzzy">
-
 Po dodaniu obiektów do dokumentu kliknięcie na nich prawym przyciskiem myszki powoduje wyświetlenie dodatkowych poleceń. Zależą one od liczby wybranych obiektów, ich typu, a także od aktywnego obszaru roboczego. W większości przypadków i w większości środowisk pracy *(z wyjątkiem [Start](Start_Workbench/pl.md))* dostępne są wtedy następujące polecenia:
 
 -    **[Wygląd zewnętrzny](Std_SetAppearance/pl.md)**: uruchamia okno dialogowe do zmiany właściwości wizualnych całego obiektu.
@@ -115,7 +112,7 @@ Po dodaniu obiektów do dokumentu kliknięcie na nich prawym przyciskiem myszki 
 
 -    **[Usuń](Std_Delete/pl.md)**: usuwa obiekt z dokumentu.
 
--    **Ukryj element**: jeżeli jest aktywny, wybrany obiekt zostanie ustawiony jako ukryty.
+-    **[Ukryj element](#Symbol_oka.md)**: Jeżeli opcja jest zaznaczona, obiekt będzie ukryty w Widoku drzewa.
 
 -    **Dodaj do wyboru obiekty zależne**: wszystkie obiekty zależne zostaną dodane do zaznaczenia. W ten sposób można zobaczyć zależności i np. usunąć wszystkie obiekty zależne za jednym razem. Opcja ta jest dostępna tylko wtedy, gdy jeden z wybranych obiektów posiada powiązania. {{Version/pl|0.20}}
 
@@ -124,9 +121,6 @@ Po dodaniu obiektów do dokumentu kliknięcie na nich prawym przyciskiem myszki 
 -    **Przelicz obiekt**: oblicza ponownie wybrany obiekt.
 
 -    **Zmień nazwę**: rozpoczyna edycję etykiety wybranego obiektu, a nie nazwy, która jest tylko do odczytu. Opcja ta jest dostępna tylko wtedy, gdy wybrany jest pojedynczy obiekt.
-
-
-</div>
 
 Jako przykład rozszerzenia menu kontekstowego, jeśli [sześcian](Part_Box/pl.md) jest kliknięty prawym przyciskiem myszy, gdy aktywne jest środowisko pracy [Część](Part_Workbench/pl.md), dostępne są następujące dodatkowe polecenia:
 
@@ -217,9 +211,11 @@ Jest to używane tylko dla [szkiców](Sketch/pl.md) i wskazuje, że szkic nie je
 
 Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po przeliczeniu całego dokumentu po najechaniu myszką na obiekt w widoku drzewa zostanie wyświetlona etykietka z opisem błędu. **Uwaga**: Wszystkie inne obiekty zależne od obiektu w stanie błędu, nie zostaną poprawnie przeliczone, mogą więc nadal prezentować nieaktualny stan.
 
-### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view because its **Hide item** context menu option is checked. Check and then uncheck the **Show hidden items** context menu option of the document, or reopen the document, to update the Tree view.
+
+### ![](images/FreeCAD_Tree_view_hidden.png ) Symbol oka 
+
+Oznacza to, że obiekt będzie ukryty w Widoku drzewa, ponieważ jego opcja menu kontekstowego **Ukryj element** jest zaznaczona. Zaznacz, a następnie usuń zaznaczenie opcji z menu podręcznego **Pokaż ukryte elementy** dokumentu lub ponownie otwórz dokument, aby zaktualizować Widok drzewa.
 
 
 {{Interface navi

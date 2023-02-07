@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Draft FlipDimension
-   Name/fr:Draft Inverser la direction de la cote
-   MenuLocation:Modification → Inverser la direction de la cote
+   Name/fr:Draft Inverser le texte de la dimension
+   MenuLocation:Modification → Inverser le texte de la dimension
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
 ---
 
@@ -10,18 +10,24 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft Inverser la direction de la cote** fait pivoter le texte de cote des [Draft Dimensions](Draft_Dimension/fr.md) de 180° autour de la ligne de cote. Elle peut être utilisée pour corriger les dimensions dont le texte apparaît en miroir. La commande ne fonctionne pas correctement pour les dimensions angulaires.
+La commande <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft Inverser le texte de la dimension** fait pivoter le texte de la dimension d\'une [Draft Dimension](Draft_Dimension/fr.md) sélectionnée de 180° autour de la ligne de la dimension. Elle peut être utilisée pour corriger les dimensions dont le texte apparaît en miroir. La commande ne fonctionne pas correctement pour les dimensions angulaires.
+
+
 
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs [Draft Dimensions](Draft_Dimension/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_FlipDimension.svg" width=16px> [Inverser la direction normale des cotes...](Draft_FlipDimension/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser la direction de la cote** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_FlipDimension.svg" width=16px> [Inverser le texte de la dimension](Draft_FlipDimension/fr.md)**.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser le texte de la dimension** dans le menu.
+
+
 
 ## Remarques
 
--   Les [Draft Dimensions](Draft_Dimension/fr.md) possèdent également une propriété {{PropertyData/fr|Flip Text}}. Lorsqu\'elle est définie sur `True`, le texte est tourné de 180° autour de la direction normale. Ceci peut être combiné avec l\'effet de cette commande.
+-   Les [Draft Dimensions](Draft_Dimension/fr.md) possèdent également une propriété **Flip Text**. Lorsqu\'elle est mise à `True`, le texte est tourné de 180° autour de la direction normale. Ceci peut être combiné avec l\'effet de cette commande.
+
+
 
 ## Script
 

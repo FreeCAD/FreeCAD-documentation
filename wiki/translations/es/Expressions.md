@@ -1,6 +1,8 @@
 # Expressions/es
 {{TOCright}}
 
+
+
 ## Resumen
 
 Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
@@ -13,11 +15,15 @@ Los operadores y las funciones son conscientes de la unidad y requieren combinac
 
 Puedes usar [constantes predefinidas](#Constantes_soportadas.md) y [funciones](#Funciones_soportadas.md).
 
+
+
 ### Argumentos de la función 
 
 Múltiples argumentos a una función pueden estar separados por un punto y coma  seguida por un espacio  {{incode |, }}. En el último caso, la coma se convierte a un punto y coma después de la entrada. Cuando se usa un punto y coma, no es necesario un espacio final.
 
 Los argumentos pueden incluir referencias a las celdas en una hoja de cálculo. Una referencia de celda consiste en la letra mayúscula de fila de la celda seguida de su número de columna, por ejemplo {{incode | A1}}. También se puede hacer referencia a una celda utilizando el alias de la celda, por ejemplo, `Spreadsheet.MyPartWidth`.
+
+
 
 ### Referencia de objetos 
 
@@ -28,7 +34,7 @@ Puede referenciar cualquier propiedad de un objeto. Por ejemplo, para referencia
 Para referenciar una lista de objetos use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. Si quiere por ejemplo referenciar una restricción de un croquis use `<<MySketch>>.Constraints[16]`. Si está en el mismo croquis puede omitir su nombre y solo usar `Constraints[16]`.
 **Nota:** El índice inicia en 0, por lo que la restricción 17 tiene el índice 16.
 
-Para más información de como referenciar objetos, vea [Referencia a los datos CAD](#Referencia_a_los_datos_CAD.md). {{Top}}
+Para más información de como referenciar objetos, vea [Referencia a los datos CAD](#Referencia_a_los_datos_CAD.md). 
 
 ## Constantes soportadas 
 
@@ -41,6 +47,8 @@ Las siguientes constantes están soportadas.
 
 
 {{Top}}
+
+
 
 ## Operadores soportados 
 
@@ -58,11 +66,17 @@ Los siguientes operadores son soportados.
 
 {{Top}}
 
+
+
 ## Funciones soportadas 
+
+
 
 ### Funciones matemáticas generales 
 
 Las siguientes funciones matemáticas son soportadas:
+
+
 
 #### Funciones trigonométricas 
 
@@ -106,6 +120,8 @@ Las siguientes funciones matemáticas son soportadas:
 
 
 {{Top}}
+
+
 
 ### Funciones estadísticas/agregadas 
 
@@ -286,6 +302,8 @@ You can create Python `tuple` or `list` objects via their respective functions.
 
 {{Top}}
 
+
+
 ## Expresiones condicionales 
 
 Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true). Note that enclosing the conditional expression in parentheses is currently considered an error.
@@ -303,6 +321,8 @@ The following [relational operators](https://en.wikipedia.org/wiki/Relational_op
 
 
 {{Top}}
+
+
 
 ## Unidades
 
@@ -470,11 +490,15 @@ The following commonly used units are not yet supported, for some an alternative
 
 {{Top}}
 
+
+
 ## Caracteres y nombres no válidos 
 
 The expression feature is very powerful but to achieve this power it has some limitations concerning some characters. To overcome this, FreeCAD offers to use labels and reference them instead of the object names. In labels you can use almost all special characters.
 
 In cases where you cannot use a label, such as the name of a sketch\'s constraints, you must be aware what characters are not allowed.
+
+
 
 ### Etiquetas
 
@@ -490,6 +514,8 @@ For [labels](Object_name#Label.md) there are no invalid characters, however some
 +++
 
 For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
+
+
 
 ### Nombres
 
@@ -510,7 +536,7 @@ Since shorter names (especially if they have only one or two characters) can eas
 
 ### Cell aliases 
 
-See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). {{Top}}
+See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). 
 
 ## Referencia a los datos CAD 
 
@@ -577,9 +603,11 @@ The following table shows some examples:
 
 {{Top}}
 
+
+
 ## Variables globales de todo el documento 
 
-There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [Spreadsheet workbench](Spreadsheet_Workbench.md), and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property. {{Top}}
+There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [Spreadsheet workbench](Spreadsheet_Workbench.md), and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property. 
 
 ## Enlace entre documentos 
 
@@ -596,7 +624,7 @@ Once the master document with the spreadsheet is created and saved (named), it i
 
 Unfortunately, the integrated checker sometimes claims that a valid name doesn\'t exist. Continue typing anyway. When you have completed the full reference, the **OK** button will become active.
 
-Of course, it\'s up to you to load the corresponding documents later when you want to change anything. {{Top}}
+Of course, it\'s up to you to load the corresponding documents later when you want to change anything. 
 
 ## Problemas conocidos / tareas pendientes 
 

@@ -18,13 +18,15 @@ Această comandă resetează operațiile anulate anterior.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizare
 
 1.  Deschideți meniul **Modify**, click pe <img alt="" src=images/Std_Redo.png  style="width:32px;"> sau alegeți ** Edit** → **<img src="images/Std_Redo.png" width=32px> Redo** din meniul de sus/top.
 
-o altă posibilitate este utilizare acombinației de taste {{KEY/it|CTRL+Y}}.
+o altă posibilitate este utilizare acombinației de taste **CTRL+Y**.
 
 Cu fiecare clic al mouse-ului sau combinația de taste, ultima operație anulată este restaurată înapoi.
 

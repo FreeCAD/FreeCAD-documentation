@@ -9,17 +9,25 @@
 
 # Std ViewIvStereoRedGreen/pl
 
+
+
 ## Opis
 
 Polecenie **Widok stereo czerwony / cyjan** zmienia aktywny [widok 3D](3D_view/pl.md) na czerwono-cyjanowy, [anaglif](https://en.wikipedia.org/wiki/Anaglyph_3D), tryb widoku stereo. Do korzystania z tego trybu stereo wymagane są okulary z kolorowymi soczewkami.
+
+
 
 ## Użycie
 
 1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo czerwony / cyjan**.
 
+
+
 ## Ustawienia
 
 -   Odległość między oczami można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
+
+
 
 ## Tworzenie skryptów 
 

@@ -1,37 +1,18 @@
 # Manual:Using spreadsheets/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD dispone di un altro ambiente di lavoro interessante da esplorare: l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md). Questo ambiente permette di creare direttamente in FreeCAD un [foglio di calcolo](https://en.wikipedia.org/wiki/Spreadsheet) come quelli fatti con [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) o con [LibreOffice](https://en.wikipedia.org/wiki/OpenOffice.org_Calc). Questi fogli di calcolo possono essere popolati con dei dati estratti dal modello, e possono anche eseguire una serie di calcoli tra i valori. I fogli di calcolo possono essere esportati come file CSV, che possono essere importati in qualsiasi altra applicazione che gestisca i foglio di calcolo.
-
-
-</div>
+FreeCAD dispone di un altro ambiente di lavoro interessante da esplorare: l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md). Questo ambiente permette di creare direttamente in FreeCAD un [foglio di calcolo](https://en.wikipedia.org/wiki/Spreadsheet) come quelli fatti con [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) o con [Calc di LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc). Questi fogli di calcolo possono essere popolati con dei dati estratti dal modello, e possono anche eseguire una serie di calcoli tra i valori. I fogli di calcolo possono essere esportati come file CSV, che possono essere importati in qualsiasi altra applicazione che gestisca i foglio di calcolo.
 
 In FreeCAD, però, fogli di calcolo hanno un\'utilità aggiuntiva: le loro celle possono ricevere un nome, e possono quindi essere referenziate da qualsiasi campo supportato dal [motore delle espressioni](Expressions/it.md). Questo trasforma fogli di calcolo in potenti strutture di controllo, in cui i valori inseriti nelle specifiche celle possono guidare le dimensioni del modello. C\'è solo una cosa da tenere a mente, dato che FreeCAD vieta le dipendenze circolari tra oggetti, lo stesso foglio non può essere utilizzato per impostare una proprietà di un oggetto e allo stesso tempo recuperare il valore della proprietà dallo stesso oggetto. Ciò renderebbe il foglio di calcolo e l\'oggetto dipendenti l\'uno dall\'altro.
 
 Nel seguente esempio, creeremo un paio di oggetti, recupereremo alcune delle loro proprietà in un foglio di calcolo, e quindi utilizzeremo il foglio di calcolo per guidare direttamente le proprietà di altri oggetti.
 
+
+
 ### Leggere le proprietà 
 
-
-<div class="mw-translate-fuzzy">
-
--   Iniziare passando all\'ambiente [Part](Part_Workbench/it.md), e creare alcuni oggetti: un <img alt="" src=images/Part_Box.png  style="width:16px;"> [box](Part_Box/it.md), un <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> [cilindro](Part_Cylinder/it.md) e una <img alt="" src=images/Part_Sphere.png  style="width:16px;"> [sfera](Part_Sphere/it.md).
--   Modificare le loro proprietà **Placement** (o usare lo strumento <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Muovi](Draft_Move/it.md)) per separarli, in modo che si possa vedere meglio gli effetti di quello che faremo:
-
-
-</div>
+-   Iniziare passando all\'ambiente [Part](Part_Workbench/it.md), e creare alcuni oggetti: un <img alt="" src=images/Part_Box.svg  style="width:16px;"> [box](Part_Box/it.md), un <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [cilindro](Part_Cylinder/it.md) e una <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sfera](Part_Sphere/it.md).
+-   Modificare le loro proprietà **Placement** (o usare lo strumento <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Muovi](Draft_Move/it.md)) per separarli, in modo che si possa vedere meglio gli effetti di quello che faremo:
 
 ![](images/Exercise_spreadsheet_01.jpg )
 
@@ -59,12 +40,11 @@ In FreeCAD, oltre a queste funzionalità comuni, ce n\'è una nuova interessante
 
 Nella pagina [L\'ambiente foglio di calcolo](Spreadsheet_Workbench/it.md) sono descritte più in dettaglio tutte le possibili operazioni e le funzioni disponibili nei fogli di calcolo.
 
+
+
 ### Scrivere le proprietà 
 
 Un altro uso molto interessante del foglio di calcolo in FreeCAD è quello di fare il contrario di quello che abbiamo fatto fino ad ora: invece di leggere i valori delle proprietà degli oggetti 3D, possiamo anche assegnare i valori a questi oggetti. Ricordate, però, una delle regole fondamentali di FreeCAD: le dipendenze circolari sono vietate. Pertanto, non possiamo usare lo stesso foglio per leggere **e** scrivere i valori di un oggetto 3D. Ciò renderebbe l\'oggetto dipendente dal foglio di calcolo, che a sua volta sarebbe dipendente dall\'oggetto. Creiamo invece un altro foglio di calcolo.
-
-
-<div class="mw-translate-fuzzy">
 
 -   Ora possiamo chiudere la scheda foglio di calcolo (nella vista 3D). Questo non è obbligatorio, non c\'è nessun problema nel mantenere diverse finestre di fogli di calcolo aperte.
 -   Premere nuovamente il pulsante <img alt="" src=images/Spreadsheet_Create.png  style="width:16px;"> 
@@ -75,24 +55,15 @@ Un altro uso molto interessante del foglio di calcolo in FreeCAD è quello di fa
 -   Nella cella B1, scrivere **=5mm** (utilizzando il segno = si è certi che il valore viene interpretato come un valore unitario, non come un testo).
 -   Ora, per poter utilizzare questo valore al di fuori del foglio di calcolo, bisogna dare un nome, o un alias, alla cella B1. Fare clic con il tasto destro del mouse sulla cella, poi fare clic su **Proprietà** e selezionare la scheda **Alias**. Dargli un nome, ad esempio **cubedims**:
 
-
-</div>
-
 ![](images/Exercise_spreadsheet_05.jpg )
 
 -   Premere **OK**, quindi chiudere la scheda foglio di calcolo
 -   Selezionare l\'oggetto cubo
--   Nel editor di proprietà, fare clic sulla piccola icona <img alt="" src=images/Bound-expression-unset.png  style="width:16px;"> **espressioni** sul lato destro del campo **Length**. Si apre l\'[editor delle espressioni](Expressions.md), dove si può scrivere **Spreadsheet001.cubedims**. Ripetere questa operazione per Height e Width:
+-   Nel editor di proprietà, fare clic sulla piccola icona <img alt="" src=images/Bound-expression-unset.png  style="width:16px;"> **espressioni** sul lato destro del campo **Length**. Si apre l\'[editor delle espressioni](Expressions/it.md), dove si può scrivere **Spreadsheet001.cubedims**. Ripetere questa operazione per Height e Width:
 
 ![](images/Exercise_spreadsheet_06.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-Si potrebbe chiedere perché nell\'espressione sopra abbiamo dovuto usare \"Spreadsheet001\" invece di \"Input\". Questo perché, in un documento FreeCAD, ogni oggetto ha un **nome interno**, che è unico nel documento, e una **etichetta**, che è quello che appare nella vista ad albero. Deseleziondo l\'opzione appropriata nelle impostazioni delle preferenze, FreeCAD permette di dare la stessa etichetta a più di un oggetto. Questo è il motivo per cui tutte le operazioni che devono identificare con certezza un oggetto utilizzano il nome interno ivece dell\'etichetta, che potrebbe designare più di un oggetto. Il modo più semplice per conoscere il nome interno di un oggetto è quello di mantenere aperto il **pannello selezione** (menù Visualizza -\> Pannelli -\> Selezione), esso indica sempre il nome interno di un oggetto selezionato:
-
-
-</div>
+Si potrebbe chiedere perché nell\'espressione sopra abbiamo dovuto usare \"Spreadsheet001\" invece di \"Input\". Questo perché, in un documento FreeCAD, ogni oggetto ha un **nome interno**, che è unico nel documento, e una **etichetta**, che è quello che appare nella vista ad albero. Deseleziondo l\'opzione appropriata nelle impostazioni delle preferenze, FreeCAD permette di dare la stessa etichetta a più di un oggetto. Questo è il motivo per cui tutte le operazioni che devono identificare con certezza un oggetto utilizzano il nome interno ivece dell\'etichetta, che potrebbe designare più di un oggetto. Il modo più semplice per conoscere il nome interno di un oggetto è quello di mantenere aperto il **pannello selezione** (menù Visualizza → Pannelli → Selezione), esso indica sempre il nome interno di un oggetto selezionato:
 
 ![](images/Exercise_spreadsheet_07.jpg )
 
@@ -114,15 +85,6 @@ Si può anche dare un alias a vincoli dimensionali (orizzontale, verticale o dis
 
 -   [L\'ambiente Foglio di calcolo](Spreadsheet_Workbench/it.md)
 -   [Le espressioni](Expressions/it.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

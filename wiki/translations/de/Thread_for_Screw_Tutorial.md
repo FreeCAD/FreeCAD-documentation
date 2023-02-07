@@ -13,6 +13,14 @@
 
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
+
+
 
 ## Einführung
 
@@ -26,16 +34,30 @@ Dieses Tutorium ist eine Sammlung von Techniken zum Modellieren von Schraubengew
 
 In herkömmlichen CAD Systemen wird von der Modellierung von Schraubengewinden abgeraten, da dies eine große Belastung für den Modellierungskern sowie für die Darstellung der Formen darstellt. In herkömmlichen Systemen muss ein Gewinde nicht direkt im 3D Raum dargestellt werden, da es in der technischen 2D Zeichnung, die zur Fertigung geschickt wird, mit seinen erforderlichen Eigenschaften angegeben werden kann. Mit der Popularisierung der additiven Fertigung (3D Druck) besteht nun jedoch ein echter Bedarf, 3D Gewinde zu modellieren, um sie genau so drucken zu können, wie sie entworfen wurden. Dafür ist dieses Tutorium gedacht.
 
+
+<div class="mw-translate-fuzzy">
+
 Viele der hier vorgestellten Techniken wurden aus verschiedenen Forumsbeiträgen zusammengetragen:
 
 -   [Zusammenstellung von Gewindemodellierungstechniken](https://forum.freecadweb.org/viewtopic.php?f=3&t=12593)
 -   [Erstellen eines Gewindes: Unerwartete Ergebnisse](https://forum.freecadweb.org/viewtopic.php?f=3&t=6506)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Siehe auch hilfreiche Videos:
 
 -   [Einführung einer Strategie zur Konstruktion einer Schraube ohne die häufig auftretenden Probleme](https://forum.freecadweb.org/viewtopic.php?f=8&t=44259).
 
+
+</div>
+
 Denke daran, dass Gewindeformen viel Speicherplatz beanspruchen und dass ein einziges Gewinde in einem Dokument die Dateigröße erheblich erhöhen kann, weshalb dem Benutzer empfohlen wird, Gewinde nur dann zu erstellen, wenn dies absolut notwendig ist.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -77,6 +99,8 @@ Insbesondere werden zwei Ressourcen empfohlen, die über den [Erweiterungsverwal
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Methode 1: Verwendung von Makros (veraltet) 
@@ -100,6 +124,8 @@ Insbesondere werden zwei Ressourcen empfohlen, die über den [Erweiterungsverwal
 
 </div>
 
+
+
 ## Methode 3. Scheingewinde: nicht spiralförmig 
 
 In vielen Fällen brauchen wir keine echten Gewinde, wir brauchen nur ein visuelles Anzeichen dafür, dass die Gewinde vorhanden sein werden.
@@ -108,6 +134,8 @@ Wir können ein Scheingewinde erzeugen, indem wir eine nicht spiralförmige Bahn
 
 <img alt="" src=images/T13_01_Threads_comparison_fake_real.png  style="width:" height="300px;"> 
 *Links: einfacher Bolzen mit einem unechten, nicht spiralförmigen Gewinde. Rechts: einfacher Bolzen mit einem echten spiralförmigen Gewinde. Wenn der 3D Druck nicht erforderlich ist, ist ein simuliertes Gewinde oft ausreichend für die Visualisierung.*
+
+
 
 ### Umlaufendes Sägezahnprofil 
 
@@ -122,6 +150,8 @@ Wir können ein Scheingewinde erzeugen, indem wir eine nicht spiralförmige Bahn
 <img alt="" src=images/T13_03_Threads_Sawtooth_revolution_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_04_Threads_Sawtooth_revolution_2.png  style="width:" height="300px;"> 
 *Schnittdarstellung des resultierenden nicht spiralförmigen Gewindes, das durch Drehen des Sägezahnprofils um die vertikale Achse erzeugt wird.*
 
+
+
 ### Stapeln von Scheiben 
 
 1.  Wiederhole die ersten beiden Schritte aus dem vorherigen Abschnitt.
@@ -134,7 +164,7 @@ Wir können ein Scheingewinde erzeugen, indem wir eine nicht spiralförmige Bahn
 1.  Wähle die {{Value|Umdrehung}}, klicke dann auf **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Lineares Muster](PartDesign_LinearPattern/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}. Für ein Scheingewinde mit einer Steigung von {{Value|3 mm}}, setze die **Länge** auf {{Value|3}}, und **Häufigkeiten** auf {{Value|2}}, dann drücke **OK**. Dadurch werden zwei Scheiben erstellt, eine über der anderen.
 2.  Du kannst weitere Scheiben hinzufügen, indem du den Wert der **Häufigkeiten** im linearen Muster, und durch Erhöhen der **Länge**, die die Gesamtlänge des Scheingewindes darstellt.
 
-Die {{MenuCommand/de|Länge}} und {{MenuCommand/de|Häufigkeiten}} sind miteinander verwandt. Wenn die Länge zu groß ist, aber die Anzahl der Häufigkeiten nicht hoch genug ist, hast du getrennte Scheiben, und die Berechnung des Körpers wird fehlschlagen, da das resultierende Objekt immer ein [einzelne aneinandergrenzende Festkörper](PartDesign_Body/de.md) sein muss. Um beispielsweise eine Gesamthöhe von {{Value|30 mm}} zu erhalten, setze {{MenuCommand/de|Länge}} auf {{Value|27 mm}} und **/de|Häufigkeiten** auf {{Value|10}}.
+Die **Länge** und **Häufigkeiten** sind miteinander verwandt. Wenn die Länge zu groß ist, aber die Anzahl der Häufigkeiten nicht hoch genug ist, hast du getrennte Scheiben, und die Berechnung des Körpers wird fehlschlagen, da das resultierende Objekt immer ein [einzelne aneinandergrenzende Festkörper](PartDesign_Body/de.md) sein muss. Um beispielsweise eine Gesamthöhe von {{Value|30 mm}} zu erhalten, setze **Länge** auf {{Value|27 mm}} und **Häufigkeiten** auf {{Value|10}}.
 
 Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [/de|PartDesign AdditiverZylinder](PartDesign_AdditiveCylinder.md)** mit einem Durchmesser, der dem Innendurchmesser der Scheiben entspricht und so hoch ist wie die gesamte Gewindehöhe. Dadurch werden alle Scheiben zu einem einzigen Festkörper verbunden, wodurch gewährleistet wird, dass es keine getrennten Scheiben gibt.
 
@@ -144,7 +174,11 @@ Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinde
 <img alt="" src=images/T13_06_Threads_Stacked_discs_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_07_Threads_Stacked_discs_2.png  style="width:" height="282px;"> 
 *Links: einzelne Scheibe, die durch Umdrehung entstanden ist. Rechts: mehrere Scheiben, die in einem linearen Muster in Z Richtung angeordnet sind und ein spiralförmiges Gewinde simulieren.*
 
+
+
 ## Methode 4. Austragen eines vertikalen Profils 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -156,14 +190,14 @@ Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinde
 
 Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper entlang einer spiralförmigen Bahn austrägt.
 
-1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}} {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
+1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für **Steigung** {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
 2.  Gehe zum <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), und klicke auf **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
 3.  Klicke auf **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md)**. Wähle {{Value|XZ_Ebene}}.
 4.  Zeichne eine geschlossene Skizze mit dem erforderlichen Profil für die Gewindezähne, normalerweise eine dreieckige Form. In diesem Fall werden wir eine Höhe von {{Value|2,9 mm}} verwenden, die etwas kleiner ist als die für den Spiralpfad verwendete Steigung {{Value|3,0 mm}}. Das Profil darf keine Selbstüberschneidungen erzeugen, wenn es entlang der Spirale bewegt wird, weder zwischen den Windungen noch in der Mitte, daher kann die Skizze, wie sie für Stapelscheiben gezeigt wird, nicht verwendet werden.
-5.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additives Rohr](PartDesign_AdditivePipe.md)**. Im {{MenuCommand/de|Pad für die Austragung}} klicke auf {{MenuCommand/de|Objekt}}, und wähle das zuvor erstellte Spiralobjekt aus. Ändere dann {{MenuCommand/de|Ausrichtungsmodus}} in {{Value|Frenet}}, so dass das Profil den Pfad ohne Verdrehung überstreicht; drücke dann **OK**.
+5.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additives Rohr](PartDesign_AdditivePipe.md)**. Im **Pad für die Austragung** klicke auf **Objekt**, und wähle das zuvor erstellte Spiralobjekt aus. Ändere dann **Ausrichtungsmodus** in {{Value|Frenet}}, so dass das Profil den Pfad ohne Verdrehung überstreicht; drücke dann **OK**.
 6.  Wenn der Dialog nach einem Verweis fragt, wähle {{Value|Querverweis erstellen}}.
 7.  Der schraubenförmige Wendel wird erstellt, aber es gibt keinen zentralen Körper oder Welle.
-8.  Klicke auf **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additiver Zylinder](PartDesign_AdditiveCylinder.md)** mit dem entsprechenden {{MenuCommand/de|Radius}} {{Value|10 mm}} und {{MenuCommand/de|Höhe}} {{Value|29.9 mm}}, um den Rest des spiralförmigen Gewindes zu berühren und automatisch mit ihm zu verschmelzen.
+8.  Klicke auf **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additiver Zylinder](PartDesign_AdditiveCylinder.md)** mit dem entsprechenden **Radius** {{Value|10 mm}} und **Höhe** {{Value|29.9 mm}}, um den Rest des spiralförmigen Gewindes zu berühren und automatisch mit ihm zu verschmelzen.
 9.  Zusätzliche boolesche Operationen sind erforderlich, um die abrupten Enden der Wendels zu formen. Sie können z.B. additive Merkmale verwenden, um der Schraube einen Kopf und eine Spitze zu geben.
 
 <img alt="" src=images/T13_08_Threads_Helical_thread_profile.png  style="width:" height="300px;"> <img alt="" src=images/T13_09_Threads_Helical_thread_path.png  style="width:" height="300px;"> 
@@ -176,6 +210,8 @@ Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper
 *Links: spiralförmiger Wendel, der mit einem zentralen Zylinder verschmolzen ist, um den Körper der Schraube zu bilden. Rechts: weitere Merkmale, ein Kopf und eine Spitze, hinzugefügt, um die Form der Schraube zu verbessern.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Part
@@ -185,10 +221,10 @@ Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper
 
 Dieser Arbeitsgang kann auch mit den Werkzeugen dem [Part Arbeitsbereich](Part_Workbench/de.md) durchgeführt werden.
 
-1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}}. {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
+1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für **Steigung**. {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
 2.  In diesem Fall benötigst du keinen **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**. Wechsle zum <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), und klicke dann **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)**, und wähle die globale XZ Ebene.
 3.  Kehre dann zurück zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md), und verwende **[<img src=images/Part_Sweep.svg style="width:16px"> [PartAustragung](Part_Sweep/de.md)**.
-4.  Wähle die entsprechende Skizze aus {{MenuCommand/de|Verfügbares Profil}} und klicke auf den Pfeil, um sie an {{MenuCommand/de|Gewählte Profile}} zu übergeben.
+4.  Wähle die entsprechende Skizze aus **Verfügbares Profil** und klicke auf den Pfeil, um sie an **Gewählte Profile** zu übergeben.
 5.  Klicke auf **Austragungspfad**, und wähle alle Kanten der vorhandenen Spirale in der [3D Ansicht](3D_view/de.md). Klicke auf **Fertig**.
 6.  Stelle sicher, dass die {{CheckBox|TRUE|Festkörper erzeugen}} und {{CheckBox|TRUE|Frenet}} angehakt sind. Das Erhalten eines Volumenkörpers ist der Schlüssel, um [Part Boolsche](Part_Boolean/de.md) Operationen mit dem resultierenden Wendel durchführen zu können, andernfalls wird nur eine Fläche erzeugt.
 7.  Klicke auf **OK**, um das Dialogfeld zu verlassen und den Wendel zu erzeugen.
@@ -206,6 +242,8 @@ Nun kannst du fortfahren, andere Grundelemente wie **[<img src=images/Part_Cylin
 
 
 </div>
+
+
 
 ### Tips für den Erfolg 
 
@@ -244,6 +282,8 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 
 -    **Tip 3.**Für die 3D Visualisierung und den 3D Druck kann es in Ordnung sein, den Zylinder und das Gewinde unverschmolzen zu lassen, d.h. mit Schnittpunkten zwischen den beiden Volumenkörpern. Die Reduzierung der Anzahl der booleschen Operationen führt zu weniger Speicherverbrauch und kleineren Dateien.
 
+
+
 ### Vor- und Nachteile 
 
 
@@ -260,7 +300,11 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolesche Operationen sind erforderlich, um einen einzigen zusammenhängenden Festkörper zu erhalten. Die Berechnung boolescher Operationen nimmt relativ viel Zeit in Anspruch und schlägt häufig fehl.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> TGewinde mit einer großen Anzahl von Windungen sind problematisch.
 
+
+
 ## Methode 5. Austragen eines horizontalen Profils 
+
+
 
 ### Allgemein
 
@@ -272,6 +316,8 @@ Wenn man einen Kreis als horizontales Profil verwendet (der Kreis muss außerhal
 
 Um ein Standard Sägezahnprofil zu erhalten, muss ein Paar gespiegelter archimedischer Spiralen zu einem Draht verschmolzen werden. Es entsteht eine Herzform, die von einem Kreis kaum unterscheidbar wird, wenn die Tiefe des Gewindes im Vergleich zu seinem Durchmesser gering ist. Deshalb ist auf dem obigen Bild ein \"dickes\" Gewinde dargestellt.
 
+
+
 ### Generieren des Profils 
 
 
@@ -282,6 +328,8 @@ Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes ver
 
 </div>
 
+
+
 #### Profil für ein dreieckigförmiges Gewinde 
 
 1.  Erstelle zuerst eine archimedische Spirale in der XY Ebene
@@ -290,6 +338,8 @@ Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes ver
     3.  Stelle das Wachstum auf die doppelte Schnitttiefe des Gewindes ein.
     4.  [Part Spiegel](Part_Mirror/de.md) die Spirale gegen die XY Ebene
 2.  [Part Verschmelzen](Part_Fuse/de.md) die Spirale und den Spiegel, um einen geschlossenen Draht zu erhalten, der wie ein Herz geformt ist.
+
+
 
 #### Profil für beliebigen Querschnitt 
 
@@ -311,9 +361,17 @@ Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes ver
 
 Fertig.
 
+
+<div class="mw-translate-fuzzy">
+
 Die Schritt-für-Schritt Anleitung wurde diesem [Forumsantwort von Ulrich1a](http://forum.freecadweb.org/viewtopic.php?f=3&t=6506#p52558) entnommen. (\"Erstellen eines Gewindes: Unerwartete Ergebnisse\"), leicht modifiziert.
 
+
+</div>
+
 Die Schritte werden auch in Aktion gezeigt auf [dieses Video von Gaurav Prabhudesai](http://www.youtube.com/watch?v=fxKxSOGbDYs) (\"FreeCAD : Wie Gewinde erstellen\").
+
+
 
 ### Vor- und Nachteile 
 
@@ -329,9 +387,17 @@ Die Schritte werden auch in Aktion gezeigt auf [dieses Video von Gaurav Prabhude
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> die Festlegung des Gewindeprofils ist kompliziert.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Die Verwendung des Standardnetz mit einem auf diese Weise erzeugten Gewinde erzeugt hässliche Netze, was zu Problemen führen kann. Andere Netze sind besser, z.B. scheint Mefisto die besten Ergebnisse zu liefern.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> großer Speicherplatzbedarf gemäß der [Zusammenstellung von Gewinde-Modellierungstechniken](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -340,6 +406,8 @@ Die Schritte werden auch in Aktion gezeigt auf [dieses Video von Gaurav Prabhude
 
 
 </div>
+
+
 
 ### Allgemein 
 

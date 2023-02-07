@@ -28,7 +28,7 @@ Dispiegare l\'oggetto Page nella struttura del Progetto, quindi selezionare la v
 
 <img alt="" src=images/Drawing_View_Properties.png‎ ) ![Vista isometrica con « smooth lines visibility » disattivata](images/Drawing_View_Iso.png‎  style="width:150px;"> <img alt="Vista isometrica con « smooth lines visibility » attivata" src=images/Drawing_View_Iso_SmoothLines.png‎‎  style="width:150px;">
 
--   **Label** : cambia l\'etichetta della vista nella struttura del progetto. È anche possibile fare clic su Vista nella struttura e fare clic destro → Rinomina, oppure premere {{KEY/it|F2}}.
+-   **Label** : cambia l\'etichetta della vista nella struttura del progetto. È anche possibile fare clic su Vista nella struttura e fare clic destro → Rinomina, oppure premere **F2**.
 -   **Rotation** : ruota la vista. Ad esempio, una vista isometrica richiede una rotazione di 60 gradi (vedere anche il sottostante parametro Direction)
 -   **Scale** : imposta la scala di visualizzazione.
 -   **X** : imposta in millimetri la posizione orizzontale della vista nella pagina.

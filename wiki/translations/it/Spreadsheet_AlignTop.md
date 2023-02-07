@@ -9,9 +9,13 @@
 
 # Spreadsheet AlignTop/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:16px;"> **Allinea in alto** rende il testo all\'interno della cella allineato alla parte superiore della cella.
+
+
 
 ## Utilizzo
 

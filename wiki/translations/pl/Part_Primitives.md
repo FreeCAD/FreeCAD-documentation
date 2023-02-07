@@ -26,9 +26,6 @@ Narzędzie <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Ut
 
 ### Tworzenie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Part_Primitives.svg" width=16px> [Utwórz geometrie pierwotne](Part_Primitives/pl.md)**.
     -   Wybierz polecenie z menu **Część → <img src="images/Part_Primitives.svg" width=16px> Utwórz geometrie pierwotne ...**.
@@ -40,9 +37,6 @@ Narzędzie <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Ut
 7.  Zauważ, że panel zadań pozostaje otwarty.
 8.  Opcjonalnie utwórz dodatkowe prymitywy.
 9.  Naciśnij przycisk **Zamknij**, aby zamknąć panel zadań i zakończyć polecenie.
-
-
-</div>
 
 
 

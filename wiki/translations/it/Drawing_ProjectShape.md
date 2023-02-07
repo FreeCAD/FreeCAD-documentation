@@ -15,6 +15,8 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 
 ![](images/ProjectShape1_it.png )
 
+
+
 ## Utilizzo
 
 +++
@@ -26,11 +28,13 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 |                                                      | Nell\'albero del progetto viene aggiunto un oggetto **Nome_proj**. Per le proiezioni successive, viene aggiunto un numero a tre cifre. |
 +++
 
+
+
 ### Modificare una proiezione esistente 
 
 +++
 | ![](images/ProjectShapeOptions_it.png ) | I parametri della proiezione possono essere modificati nella scheda Dati della vista combinata.                                                                                                                            |
-|                                                              | {{KEY/it|Base}}                                                                                                                                                                                              |
+|                                                              | **Base**                                                                                                                                                                                                 |
 |                                                              |                                                                                                                                                                                                                            |
 |                                                              | -                                                                                                                                                                                                           |
 |                                                              |     {{ProprietaDati|Label}}                                                                                                                                                                                                |
@@ -42,7 +46,7 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 |                                                              |                                                                                                                                                                                                                         |
 |                                                              |     :                                                                                                                                                                                                                      |
 |                                                              |                                                                                                                                                                                                                            |
-|                                                              | {{KEY/it|Projection}}                                                                                                                                                                                        |
+|                                                              | **Projection**                                                                                                                                                                                           |
 |                                                              |                                                                                                                                                                                                                            |
 |                                                              | -                                                                                                                                                                                                           |
 |                                                              |     {{ProprietaDati|Direction}}                                                                                                                                                                                            |

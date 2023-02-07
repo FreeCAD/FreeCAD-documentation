@@ -79,7 +79,13 @@ Die Seite [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD/de.md) beschreibt dies 
 
 ### Quellcode
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD kann auf allen Plattformen mit [CMake](https://cmake.org/) kompiliert werden. Der Quellcode ist [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-lizenziert und bereitgestellt auf [GitHub](https://github.com/FreeCAD/FreeCAD). Und gespiegelt an [GitLab](https://gitlab.com/freecad/FreeCAD) and [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Es gibt Build Anweisungen für [Kompilieren unter Windows](Compile_on_Windows/de.md), [Kompilieren unter Linux](Compile_on_Linux/de.md) und [Kompilieren auf MacOS](Compile_on_MacOS/de.md). Die Quellcodedokumentation ist [hier bereitgestellt](http://www.freecadweb.org/api/), erstellt von [Doxygen](Doxygen/de.md), und [dokumentiert im Wiki](Source_documentation/de.md).
+
+
+</div>
 
 
 

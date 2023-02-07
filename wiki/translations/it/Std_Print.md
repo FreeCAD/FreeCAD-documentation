@@ -14,30 +14,17 @@
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechDraw ](TechDraw_Workbench/it.md), ma può anche essere usato per stampare ciò che è attualmente visibile nella [vista 3D](3D_view/it.md).
-
-
-</div>
+Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechDraw](TechDraw_Workbench/it.md), ma può anche essere usato per stampare ciò che è attualmente visibile nella [vista 3D](3D_view/it.md).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Se necessario, attivare la pagina TechDraw corretta o modificare la vista 3D.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Std_Print.svg" width=16px> '''Stampa'''** button.
     -   Selezionare l\'opzione **File → <img src="images/Std_Print.svg" width=16px> Stampa...** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**P**.
 3.  Viene visualizzata la finestra di dialogo di stampa standard.
-
-
-</div>
 
 
 
@@ -45,18 +32,14 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 -   Premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
 
-## Notes
-
--   When printing the contents of the 3D view, one should not expect any particular scale factor in the output.
 
 
-<div class="mw-translate-fuzzy">
+## Note
 
+-   Quando si stampano i contenuti della vista 3D, non ci si dovrebbe aspettare alcun particolare fattore di scala nell\'output.
 
 
 
-
-</div>
 
 
 {{Std Base navi

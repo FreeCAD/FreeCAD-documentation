@@ -10,18 +10,26 @@
 
 # Std TextDocument/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Textdokument** erstellt ein Objekt, das beliebigen Text aufnehmen kann. Dieses Element kann verwendet werden, um allgemeine Informationen aufzuschreiben oder für die Dokumentation des Modells.
 
+
+
 ## Anwendung
 
-1.  Den Menüeintrag {{MenuCommand/de|Werkzeuge → Textdokument hinzufügen}} auswählen.
+1.  Den Menüeintrag **Werkzeuge → Textdokument hinzufügen** auswählen.
 2.  Das neu erstellte Objekt in der [Baumansicht](tree_view/de.md) doppelklicken, um eine Registerkarte zu öffnen, in die der Text geschrieben wird.
 3.  Text hizufügen.
 4.  Registerkarte schließen und die Datei speichern, wenn danach gefragt wird.
 
+
+
 ## Eigenschaften
+
+
 
 ### Ansicht
 
@@ -35,6 +43,8 @@ Der Befehl **Std Textdokument** erstellt ein Objekt, das beliebigen Text aufnehm
 -    {{PropertyView/de|Read Only|Bool}}: Standardmäßig `False`. Wenn auf `True` gesetzt, kann der Text nicht editiert werden.
 
 -    {{PropertyView/de|Syntax Highlighter|Enumeration}}: Standardmäßig {{Value|None}}. Wenn auf {{Value|Python}} gesetzt, wird der Text wie in der [Python-Konsole](Python_console/de.md) hervorgehoben.
+
+
 
 ## Skripten
 

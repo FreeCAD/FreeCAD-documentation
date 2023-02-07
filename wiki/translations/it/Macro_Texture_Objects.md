@@ -11,17 +11,11 @@
 |FCVersion= 0.18 e precedenti
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Questa macro permette di mettere temporaneamente una immagine di texture sugli oggetti selezionati. Per rimuovere le campiture, è sufficiente chiudere e riaprire il documento.
-
-
-</div>
 
 <img alt="" src=images/Textured_objects.jpg  style="width:680px;">
 
@@ -48,23 +42,13 @@ for obj in FreeCADGui.Selection.getSelection():
 
 }}
 
+
+
 ## Link
 
+-   La discussione nel forum [Macro Texture Objects](https://forum.freecadweb.org/viewtopic.php?t=7216)
 
-<div class="mw-translate-fuzzy">
-
-[Macro Texture Objects](https://forum.freecadweb.org/viewtopic.php?t=7216)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-[Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
-
-
-</div>
+-   La discussione nel forum [Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
 
 
 

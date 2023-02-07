@@ -1,7 +1,9 @@
 # <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;">  MOOC Workbench/fr
 *align=center|L'icône de l'atelier externe MOOC FreeCAD*
 
-## Vue d\'ensemble 
+
+
+## Présentation
 
 
 {{TOCright}}
@@ -36,6 +38,8 @@ Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_
 
 Pour l\'instant cet atelier est uniquement disponible en langue française.
 
+
+
 ## Détails techniques 
 
 D\'un point de vue technique, l\'atelier est composé de:
@@ -50,11 +54,15 @@ D\'un point de vue technique, l\'atelier est composé de:
 -   Intégration de vidéos dans FreeCAD (PySide2.QtWebEngineWidgets?)
 -   demander l\'intégration du plan de travail dans la liste du gestionnaire d\'extensions TERMINÉ
 
+
+
 ## Liens
 
 -   Code source hébergé sur Framagit: [1](https://framagit.org/freecad-france/mooc-workbench)
 -   Documentation officielle [2](https://framagit.org/freecad-france/mooc-workbench#mooc-workbench)
 -   Fils de discussion: [anglais](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584) / [français](https://forum.freecadweb.org/viewtopic.php?f=12&t=37322)
+
+
 
 ## Ateliers externes 
 

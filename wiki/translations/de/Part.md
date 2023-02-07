@@ -8,11 +8,15 @@ In FreeCAD wird das Wort \"[Part](Part/de.md)\" normalerweise verwendet, um auf 
 
 Siehe <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part/de.md) für weitere Informationen über diesen Objekttyp.
 
+
+
 ## Anwendung
 
-Das Std Part Werkzeug wird nicht durch einen bestimmten Arbeitsbereich, sondern durch das Basissystem definiert, daher ist es in der {{MenuCommand/de|structure toolbar}} zu finden, die in allen [Arbeitsbereiche](Workbenches/de.md) verfügbar ist.
+Das Std Part Werkzeug wird nicht durch einen bestimmten Arbeitsbereich, sondern durch das Basissystem definiert, daher ist es in der **structure toolbar** zu finden, die in allen [Arbeitsbereiche](Workbenches/de.md) verfügbar ist.
 
 1.  Drücke die **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** Taste. Ein leeres Part wird erzeugt und wird automatisch *[aktiv](Std_Part#Active_status/de.md)*.
+
+
 
 ## Hinweise
 

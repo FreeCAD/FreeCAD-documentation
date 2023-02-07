@@ -20,7 +20,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 
 
-## Planche à dessin 
+## Draft
 
 -   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Ligne](Draft_Line/fr.md) : crée une ligne droite.
 
@@ -120,7 +120,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Pente](Draft_Slope/fr.md) : incline les [Draft Lignes](Draft_Line/fr.md) ou les [Draft Polylignes](Draft_Wire.md) sélectionnés en augmentant ou en diminuant, la coordonnée Z de tous les points après le premier.
 
--   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Inverser la direction de la cote](Draft_FlipDimension/fr.md) : fait pivoter le texte de la dimension des [Draft Dimensions](Draft_Dimension/fr.md) sélectionnées de 180° autour de la ligne de cote.
+-   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Inverser le texte de la dimension](Draft_FlipDimension/fr.md) : fait pivoter le texte de la dimension des [Draft Dimensions](Draft_Dimension/fr.md) sélectionnées de 180° autour de la ligne de la dimension.
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Vue 2D d\'une forme](Draft_Shape2DView/fr.md) : crée des projections 2D à partir des objets sélectionnés.
 

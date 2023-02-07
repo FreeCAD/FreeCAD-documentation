@@ -6,6 +6,8 @@ Lo strumento Viste ortogonali inserisce una serie di proiezioni ortografiche del
 
 Lo strumento Viste ortogonali crea tutte le proiezioni ortografiche è lo strumento ideale per fornire la vista principale.
 
+
+
 ## Utilizzo
 
 1.  Selezionare una funzione nell\'albero del modello.
@@ -13,6 +15,8 @@ Lo strumento Viste ortogonali crea tutte le proiezioni ortografiche è lo strume
 3.  Premere il pulsante **<img src="images/Drawing_Orthoviews.png" width=16px> [Inserisci viste ortogonali](Drawing_Orthoviews/it.md)**.
 4.  Definire le opzioni di creazione della vista desiderate. Vedere le [Opzioni](#Opzioni.md).
 5.  Fare clic su OK per creare le viste della funzione selezionata sulla pagina selezionata.
+
+
 
 ## Opzioni
 
@@ -25,10 +29,9 @@ A seconda delle selezioni effettuate, alcune opzioni potrebbero non essere dispo
 -   **Axis aligned right**: Scegli l\'asse rivolto a destra sul foglio di disegno. L\'asse rimanente sarà verticale sulla pagina.
 -   **Secondary views**: Scegliere le viste che si desidera creare. La vista principale si trova al centro delle caselle di controllo ed è orientata dalle opzioni {{Variable|View from}} e {{Variable|Axis aligned right}}. Vengono create delle viste secondarie per ogni casella selezionata.
 
+
+
 ### Aspetti generali 
-
-
-<div class="mw-translate-fuzzy">
 
 -   **Auto scale / position**: Se questa casella è selezionata, la scala, la posizione e la spaziatura della vista sono scelte per utilizzare al meglio lo spazio disponibile sulla pagina. Se questa casella è deselezionata, l\'utente deve specificare scala, posizione e spaziatura.
 -   **Scale**: La scala per la vista, espressa come denominatore di una frazione di scala. Pertanto, {{SystemInput | 2 |}} crea un gruppo di viste ridimensionato a 1:2.
@@ -38,19 +41,24 @@ A seconda delle selezioni effettuate, alcune opzioni potrebbero non essere dispo
 -   **Show smooth lines**: Se selezionato, mostra le linee in cui la curvatura è discontinua (ad esempio, dove un raccordo si collega a una parte piatta).
 
 
-</div>
 
 ## Proprietà
 
 Non ci sono proprietà per questo comando; il comando crea le proprietà per ciascuna delle singole viste.
 
+
+
 ## Script
 
 Viste ortogonali di Drawing non è richiamabile negli script. Negli script, con il comando Viste ortogonali si possono creare solo le singole viste.
 
+
+
 ## Limitazioni
 
 Da fare
+
+
 
 ## Tutorial
 
@@ -58,13 +66,14 @@ Da fare
 -   [Manuale: Generare disegni 2D](Manual:Generating_2D_drawings/it.md) con l\'ambiente Drawing e l\'addon Drawing Dimensioning.
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Apri Browser](Drawing_Openbrowser/it.md)|[Simbolo](Drawing_Symbol/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}
-
-
-</div>
+{{docnav/it
+|[Apri Browser](Drawing_Openbrowser/it.md)
+|[Simbolo](Drawing_Symbol/it.md)
+|[Drawing](Drawing_Workbench/it.md)
+|IconL=Drawing_Openbrowser.png
+|IconC=Workbench_Drawing.svg
+|IconR=Drawing_Symbol.png
+}}
 
 
 {{Drawing Tools navi

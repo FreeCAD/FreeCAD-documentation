@@ -2,16 +2,12 @@
 }
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TOCright}}
+
+
 
 ## Presentazione
 
@@ -140,15 +136,6 @@ You can find the attached directories in the `/mnt` directory.
 ## Related
 
 -   [AppImage](AppImage.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

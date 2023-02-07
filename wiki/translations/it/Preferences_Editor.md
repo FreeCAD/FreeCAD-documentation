@@ -652,11 +652,6 @@ Nella scheda *Navigazione* si può specificare quanto segue:
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | definisce il numero di passi necessari per una rotazione completa quando si utilizzano le frecce di rotazione del Cubo di navigazione.                                                                                                                                                                                                                                                                                             |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | **Angolo**                                                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | definisce dove viene visualizzato il cubo di navigazione nella [Vista 3D](3D_view/it.md).                                                                                                                                                                                                                                                                                                                                  |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    | Se **Ruota verso il più vicino** è selezionato, la vista 3D viene ruotata secondo logica alla posizione più vicina, in base all\'orientamento corrente del cubo, quando si fa clic su una faccia del cubo. In caso contrario, fare clic su una faccia comporterà sempre la stessa rotazione. {{Version/it|0.20}}                                                                           |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -709,6 +704,33 @@ Nella scheda *Navigazione* si può specificare quanto segue:
 
 
 </div>
+
+
+**Angolo**
+
+definisce dove viene visualizzato il cubo di navigazione nella [Vista 3D](3D_view/it.md).
+
+
+**Font name**
+
+specifies the font used for the cube\'s text. <small>(v1.0)</small> 
+
+
+**Font size**
+
+sets the size of the font used for the cube\'s text. <small>(v1.0)</small>  \|- \| **3D Navigation** \| Specifies a [mouse navigation style](Mouse_navigation.md). To see the details of each style, select it and then press the **Mouse...** button. \|- \| **Orbit style** \| Specifies the rotation orbit style used when in rotation mode. The options are:
+
+-   **Turntable**: Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.
+-   **Trackball**: Rotations around the different axes are performed simultaneously.
+-   **Free Turntable**: Like **Trackball**, but if possible the rotation axis is kept collinear with the global 3D view axis. <small>(v1.0)</small> 
+
+\|- \| **Rotation mode** \| Defines the rotation center. The options are:
+
+-   **Window center**
+-   **Drag at cursor**
+-   **Object center**
+
+\|- \| **Default camera orientation** \| Specifies the camera orientation for new documents. This setting is also used by the [Std ViewHome](Std_ViewHome.md) command. \|- \| **Camera zoom** \| Affects the initial camera zoom level for new documents. The value you set is the diameter of a sphere that fits in [3D view](3D_view.md). The default is 100 mm. It also sets the initial size of origin features (base planes in new [PartDesign Bodies](PartDesign_Body.md) and [Std Parts](Std_Part.md)). \|- \| **Enable animation** \| If checked, and **3D Navigation** is set to **CAD**, rotations can be animated. If the mouse is moved while the scroll wheel and the right mouse button are pressed, the view is rotated. If one keeps the mouse moving while releasing the right mouse button, the rotation will continue. To end this animation left-click with the mouse. \|- \| **Zoom at cursor** \| If checked, zoom operations will be performed at the position of the mouse pointer. Otherwise zoom operations will be performed at the center of the current view. The **Zoom step** defines how much will be zoomed. A zoom step of **1** means a factor of 7.5 for every zoom step. \|- \| **Invert zoom** \| If checked, the direction of zoom operations will be inverted. \|- \| **Disable touchscreen tilt gesture** \| If checked, and **3D Navigation** is set to **Gesture**, the tilting gesture will be disabled for pinch-zooming (two-finger zooming). \|}
 
 ![](images/Preferences_Display_Tab_Navigation_it.png )
 

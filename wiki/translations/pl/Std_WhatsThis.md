@@ -1,33 +1,40 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std WhatsThis
-   MenuLocation:Help → What's This?
-   Workbenches:All
-   Shortcut:**Shift**+**F1**
-   SeeAlso:[Std OnlineHelp](Std_OnlineHelp.md)
+   Name/pl:Std: Co to jest
+   MenuLocation:Pomoc → Co to jest?
+   Workbenches:wszystkie
+   Shortcut:**Shift** + **F1**
+   SeeAlso:[Pomoc online](Std_OnlineHelp/pl.md)
 ---
 
 # Std WhatsThis/pl
 
-## Description
 
-The **Std WhatsThis** command opens the help documentation for a specific command.
 
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
+## Opis
 
-## Usage
+Polecenie **Co to jest** otwiera dokumentację pomocy dla określonego polecenia.
 
-1.  If the Help Addon is not yet available you will be asked to install it via the [Addon Manager](Std_AddonMgr.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_WhatsThis.svg" width=16px> [Std WhatsThis](Std_WhatsThis.md)** button.
-    -   Select the **Help → <img src="images/Std_WhatsThis.svg" width=16px> What's This?** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**F1**.
-3.  Click a toolbar button or a menu option.
-4.  The help documentation for the selected command opens.
+W programie FreeCAD {{VersionPlus/pl|0.20}} polecenie to wymaga zainstalowania [dodatku Pomoc](https://github.com/FreeCAD/FreeCAD-Help).
 
-## Notes
 
--   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
+
+## Użycie
+
+1.  Jeśli dodatek Pomoc nie jest jeszcze dostępny, zostaniesz poproszony o jego zainstalowanie poprzez [Menedżer dodatków](Std_AddonMgr/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Std_WhatsThis.svg" width=16px> [Co to jest?](Std_WhatsThis/pl.md)**.
+    -   Wybierz z menu opcję **Pomoc → <img src="images/Std_WhatsThis.svg" width=16px> Co to jest?**.
+    -   Użyj skrótu klawiaturowego: **Shift** + **F1**.
+3.  Kliknij przycisk paska narzędzi lub opcję menu.
+4.  Otworzy się dokumentacja pomocy dla wybranego polecenia.
+
+
+
+## Uwagi
+
+-   Dodatek Pomoc posiada szereg preferencji. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Pomoc.md).
 
 
 

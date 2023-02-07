@@ -9,17 +9,25 @@
 
 # Std ViewIvStereoQuadBuff/de
 
+
+
 ## Beschreibung
 
 Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht](3D_view/de.md) in den Vierfachpuffer Stereoansichtsmodus. Zur Verwendung dieses Stereomodus sind eine spezielle Grafikkarte, ein spezieller Bildschirm und [Shutter Brille](https://en.wikipedia.org/wiki/Active_shutter_3D_system) erforderlich.
+
+
 
 ## Anwendung
 
 1.  Wähle die **Ansicht → Stereo → <img src="images/Std_ViewIvStereoQuadBuff.svg" width=16px> Stereo Vierfach Puffer** Option aus dem Menü.
 
+
+
 ## Einstellungen
 
--   Der Auge zu Auge Abstand kann in den Einstellungen geändert werden: {{MenuCommand/de|Bearbeiten → Einstellungen... → Anzeige → 3D Ansicht → Auge zu Auge Abstand für Stereomodi}}. Siehe [Einstellungseditor](Preferences_Editor#3D_View/de.md).
+-   Der Auge zu Auge Abstand kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D Ansicht → Auge zu Auge Abstand für Stereomodi**. Siehe [Einstellungseditor](Preferences_Editor#3D_View/de.md).
+
+
 
 ## Skripten
 

@@ -9,6 +9,8 @@
    Version:
    SeeAlso:[Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
 
+
+
 ## Beschreibung
 
 Eine [Std Gruppe](Std_Group/de.md), intern [App-DocumentObjectGroup](App_DocumentObjectGroup/de.md) genannt, ist ein allgemein verwendeter Behälter für die Gruppierung unterschiedlicher Objekttypen in der [Baumansicht](Tree_view/de.md), unabhängig von ihrem Datentyp. Er wird als einfacher Ordner zur Kategoriesierung und Organisation der Objekte im Modell verwendet, um eine logische Struktur zu erhalten. Std Gruppen können in anderen Std Gruppen eingebettet werden.
@@ -23,6 +25,8 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren und damit eine Baugruppe 
 
 *Verschiedene Elemente innerhalb von Std Gruppen in der Baumansicht.*
 
+
+
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten eine Gruppe anzulegen:
@@ -33,11 +37,15 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren und damit eine Baugruppe 
 4.  Objekte werden aus einer Gruppe entfernt, indem sie aus der Gruppe herausgezogen und auf der Dokumentbezeichnung ganz oben in der [Baumansicht](Tree_view/de.md) abgelegt werden.
 5.  Objekte können auch hinzugefügt und entfernt werden, indem die {{PropertyData/de|Group}} der Gruppe bearbeitet wird.
 
+
+
 ## Eigenschaften
 
 Die [Std Gruppe](Std_Group/de.md) wird intern [App-DocumentObjectGroup](App_DocumentObjectGroup/de.md) genannt (Klasse `App::DocumentObjectGroup`) und wird von einem [App-DocumentObject](App_DocumentObject/de.md) (Klasse `App::DocumentObject`) abgeleitet und erbt all seine Eigenschaften.
 
-Die Std Gruppe hat dieselben Eigenschaften wie ein [App-FeaturePython](App_FeaturePython/de#Eigenschaften.md), das die grundlegendste Instanz eines [App-DocumentObjects](App_DocumentObject/de.md) ist. Es zeigt auch die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Verdeckte Eigenschaften können mit dem Befehl {{MenuCommand/de|Alle anzeigen}} im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
+Die Std Gruppe hat dieselben Eigenschaften wie ein [App-FeaturePython](App_FeaturePython/de#Eigenschaften.md), das die grundlegendste Instanz eines [App-DocumentObjects](App_DocumentObject/de.md) ist. Es zeigt auch die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Verdeckte Eigenschaften können mit dem Befehl **Alle anzeigen** im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
+
+
 
 ### Daten
 
@@ -47,6 +55,8 @@ Die Std Gruppe hat dieselben Eigenschaften wie ein [App-FeaturePython](App_Featu
 -    {{PropertyData/de|Group|LinkList}}: Eine Liste referenzierter Objekte. Voreingestellt ist eine leere Liste {{value|[]}}.
 
 -    {{PropertyData/de|_ Group Touched|Bool|Hidden}}: Gibt an, ob die Gruppe -?- (touched) ist oder nicht.
+
+
 
 ## Skripten
 
@@ -87,6 +97,8 @@ obj.Label = "Custom label"
 ```
 
 Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectGroupPython`-Objekt mit einem benutzerdefinierten Icon und zusätzlichen Eigenschaften.
+
+
 
 ## Verweise
 

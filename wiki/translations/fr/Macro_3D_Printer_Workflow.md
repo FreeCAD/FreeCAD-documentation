@@ -74,6 +74,8 @@ Plus l\'écart est faible, meilleur est la qualité mais plus grande est la tail
 
 -   [Forum de discussion (français)](https://forum.freecadweb.org/viewtopic.php?f=12&t=52138)
 -   [Liste des macros](Macros_recipes/fr.md)
+-   [Comment installer des macros](How_to_install_macros/fr.md)
+-   [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md)
 
 
 

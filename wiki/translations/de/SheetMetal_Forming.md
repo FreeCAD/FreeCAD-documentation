@@ -9,6 +9,8 @@
 
 # SheetMetal Forming/de
 
+
+
 ## Beschreibung
 
 DerBefehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **Prägen** erstellt ein geprägtes Formelement in einer Blechfläche und verwendet dafür ein separates Festkörperobjekt .
@@ -22,9 +24,13 @@ Eine kleine Auswahl von Objekten, die erstellt werden können:
 <img alt="" src=images/SheetMetal_Forming-08.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-09.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-10.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-11.png  style="width:200px;"> 
 *Durchprägungen, Kiemen, Durchzüge, Stege*
 
+
+
 ## Anwendung
 
 Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt enthält, aktiviert ist. Bei Bedarf kann es per Doppelklick in der [Baumansicht](Tree_view/de.md) aktiviert werden.
+
+
 
 ### Durchprägung
 
@@ -44,6 +50,8 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 **
     -   Das Tastenkürzel: **M** dann **F**
 
+
+
 ### Kiemen
 
 1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll.
@@ -58,6 +66,8 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
     **Strg**-Taste (bzw. **Command**-Taste) loslassen.
 
 6.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben).
+
+
 
 ### Steg
 
@@ -76,6 +86,8 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 
 7.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben).
 
+
+
 ### Durchzug
 
 1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt und gestanzt werden soll.
@@ -91,6 +103,8 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 
 6.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben):
 
+
+
 ### Verfvielfältigen und Anordnen 
 
 Um das geprägte Formelement zu vervielfältigen und nach einem Muster anzuordnen, kann eine **Skizze**, die Kreise und Bögen enthält, zu der Eigenschaft {{PropertyData/de|Sketch}} des *WallForming*\'-Objekts hinzugefügt werden. Diese Anordnungsskizze muss komplanar zu der zu prägenden Fläche sein.
@@ -99,6 +113,8 @@ Die Mittelpunkte der Kreise und Bögen werden verwendet, um Positionen vorzugebe
 
 Die Ausrichtung hängt weiterhin von der Ausrichtung der zuerst ausgewählten Fläche ab.
 
+
+
 ### Ausrundungen hinzufügen 
 
 1.  Zur Arbeitsumgebung <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/de.md) wechseln.
@@ -106,10 +122,13 @@ Die Ausrichtung hängt weiterhin von der Ausrichtung der zuerst ausgewählten Fl
 3.  Den Befehl <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Verrundung](PartDesign_Fillet/de.md) aktivieren durch:
     -   Die Schaltfläche **<img src="images/PartDesign_Fillet.svg" width=16px> [Verrundung](PartDesign_Fillet/de.md)
 **
-    -   Den Menüeintrag {{MenuCommand/de|Teile-Konstruktion → Modifikationen → <img src="images/PartDesign_Fillet.svg" width=16px>Verrundung}}
+    -   Den Menüeintrag **Teile-Konstruktion → Modifikationen → <img src="images/PartDesign_Fillet.svg" width=16px>Verrundung
+**
 4.  Die Eigenschaft des Fillet-Objekts {{PropertyData/de|Refine}} auf `True` setzen. Dies ist wichtig für die nächste Verrundung.
 5.  Eine Kante auf der Unterseite des SheetMetal-Objekts auswählen, die verrundet werden soll.
 6.  Den Befehl <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Verrundung](PartDesign_Fillet/de.md) aktivieren (siehe oben)
+
+
 
 ## Hinweise
 
@@ -119,11 +138,15 @@ Die Prägung kann deaktiviert werden (durch setzen der Eigenschaft {{PropertyDat
 
 Prägen und Verrunden sollten die letzten Schritte der Erstellung eines SheetMetal-Objekts sein.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein SheetMetal-WallForming-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -156,6 +179,8 @@ Ein SheetMetal-WallForming-Objekt wird von einem [Part-Formelement](Part_Feature
 
 -    **Sketch|Link**: \"Point Sketch on Sheetmetal\". Verknüpfung zu der Skizze, die die Informationen enthält, wie die Instanzen des formgebenden Werkzeugs vervielfältigt und verteilt werden. (Die Mittelpunkte von Kreisen und Bögen werden verwendet, um die Instanzen zu erstellen und zu positionieren)
 
+
+
 ## Beispiel
 
 <img alt="" src=images/SheetMetal_Forming-01.png  style="width:300px;"> <img alt="" src=images/SheetMetal_Forming-02.png  style="width:300px;"> 
@@ -175,6 +200,8 @@ Es ist hier nicht nötig mit komplanaren Skizzen zu arbeiten.
 
 <img alt="" src=images/SheetMetal_Forming-03.png  style="width:200px;"> 
 *Blechschale und prägendes Objekt*
+
+
 
 ## Arbeitsablauf
 

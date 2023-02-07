@@ -8,11 +8,15 @@
 
 # Mesh FromPartShape/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Netz_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
 
 Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
+
+
 
 ## Anwendung
 
@@ -26,9 +30,13 @@ Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <
 6.  Gib die erforderlichen Einstellungen an. Siehe [Vernetzer](#Mesher.md).
 7.  Drücke die **OK** Schaltfläche, um das Aufgabenpaneel zu schließen und den Befehl zu beenden.
 
+
+
 ## Vernetzer
 
 Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
+
+
 
 ### Standard Vernetzer 
 
@@ -42,6 +50,8 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 -    **Segmente nach Flächenfarben definieren**: wenn markiert, werden die Polygonnetzabschnitt nach den Farben der Flächen des Objekts gruppiert. Diese Gruppen werden für Polygonnetz Ausgabeformate exportiert, die diese Funktion unterstützen (zum Beispiel das [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Format).
 
+
+
 ### Mefisto Vernetzer 
 
 
@@ -49,10 +59,12 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 Die einzige Einstellung ist:
 
--    {{MenuCommand/de|Maximale Kantenlänge}}: Wenn diese Zahl kleiner ist, wird das Netz feiner. Der kleinste Wert ist 0.
+-    **Maximale Kantenlänge**: Wenn diese Zahl kleiner ist, wird das Netz feiner. Der kleinste Wert ist 0.
 
 
 </div>
+
+
 
 ### Netgen Vernetzer 
 
@@ -63,6 +75,8 @@ Beispiel:
 
 
 </div>
+
+
 
 ### Gmsh Vernetzer 
 
@@ -113,13 +127,19 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/) Modul ist erforderli
 
 -   Press the **Clear** button to remove the information in the text area.
 
+
+
 ## Hinweise
 
 -   This command is not restricted to objects created with the [Part workbench](Part_Workbench.md). It can create a mesh from any object that has a shape including objects created with the [PartDesign workbench](PartDesign_Workbench.md).
 -   The [Std Export](Std_Export.md) command can export shape objects directly to a mesh format.
 -   See also: [Export to STL or OBJ](Export_to_STL_or_OBJ.md) tutorial.
 
+
+
 ## Einstellungen
+
+
 
 ### Standard Vernetzer 
 
@@ -127,13 +147,19 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/) Modul ist erforderli
 -   The **Angular deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
 -   The **Relative surface deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
+
+
 ### Gmsh Vernetzer 
 
 -   Der **Pfad** ist abgelegt: **Werkzeuge → Parameter bearbeiten... → BaseApp → Einstellungen → Mod → Mesh → Meshing → gmshExe**.
 
+
+
 ## Eigenschaften
 
 Siehe: [Polygonnetz Formelement](Mesh_Feature/de.md).
+
+
 
 ## Skripten
 

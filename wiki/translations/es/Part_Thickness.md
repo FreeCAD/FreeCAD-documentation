@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 La herramienta <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Espesor](Part_Thickness/es.md) trabaja sobre una forma sólida y la transforma en un objeto hueco, dando a cada una de sus caras un espesor definido. Con algunos sólidos permite un ahorro de trabajo significativo, pues evita hacer extrusiones y vaciados.
+
+
 
 ## Uso
 
@@ -25,7 +29,12 @@ La herramienta <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [
 5.  Pinchar **OK** para confirmar, creando la operación y saliendo de la función.
 6.  En la tabla de Propiedades, ajustar los parámetros que sean necesarios.
 
+
+
 ## Opciones
+
+
+<div class="mw-translate-fuzzy">
 
 -   Espesor: Espesor de la pared del objeto resultante. Seleccionar el valor deseado.
     -   Un valor positivo creará el espesor de las caras hacia afuera.
@@ -43,6 +52,9 @@ La herramienta <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [
 -   Caras / Hecho: Permite seleccionar las caras que se tienen que quitar, pulsando sobre ellas con el ratón. Pinchar después sobre Hecho.
 -   Actualizar vista: Actualiza automáticamente la vista en tiempo real.
 
+
+</div>
+
 ## Notes
 
 
@@ -53,9 +65,13 @@ Las formas complejas pueden producir extraños e impredecibles resultados. Inspe
 
 </div>
 
+
+
 ## Enlaces
 
 Puede ver un buen ejemplo de como usar esta herramienta en el foro: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
 
 ## Ejemplos
 

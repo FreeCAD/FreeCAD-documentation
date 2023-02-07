@@ -12,6 +12,8 @@
 
 Es war eine so harte Nachforschung darüber, wie man eine Arbeitskopie von IfcOpenShell python unter OSX/macOS erhält, um IFC Dateien zu importieren/exportieren, dass ich dieses Tutorial weitergebe, falls es mehr Leuten hilft. Mein System ist OSX 10.11.6, 64bits mit Python 2.7.11, es könnte für dich funktionieren, wenn du auch OSX hast, da sie oft 64bit sind, aber von meinem abweichen können. Die Prozedur könnte sehr ähnlich sein, wenn du Linux oder Windows verwendest, aber es gibt wahrscheinlich einige Unterschiede.
 
+
+
 ## Anforderungen
 
 -   [IfcOpenShell](IfcOpenShell/de.md)
@@ -111,7 +113,7 @@ house.FCStd
 house.ifc
 ```
 
-12.3 Öffne **house.FCStd**, wähle das Stammobjekt \"Gebäude\" und exportiere s ({{MenuCommand/de|Datei → Export}}), wobei der Dateityp auf \"Industry Foundation Classes (\*.ifc)\" gesetzt wird. Drücke **Save** und wenn es funktioniert und in der [Berichtsansicht](Report_view/de.md) keinen Fehler auslöst, dann funktioniert es.
+12.3 Öffne **house.FCStd**, wähle das Stammobjekt \"Gebäude\" und exportiere s (**Datei → Export**), wobei der Dateityp auf \"Industry Foundation Classes (\*.ifc)\" gesetzt wird. Drücke **Save** und wenn es funktioniert und in der [Berichtsansicht](Report_view/de.md) keinen Fehler auslöst, dann funktioniert es.
 
 12.4 Abschließender Test, importiere **house.ifc** in eine neue Datei, also öffne eine neue Datei und importiere diese Datei\... es wird eine Weile dauern.
 
@@ -125,10 +127,17 @@ Ich hoffe, es hilft Euch.
 
 Tschüss
 
+
+
 ## Verweise
 
 -   Verwandter Forumsbeitrag [Diskussion](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
 -   [IfcOpenShell](IfcOpenShell/de.md)
+
+
+{{Userdocnavi
+
+}}
 
 
 

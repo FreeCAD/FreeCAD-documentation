@@ -10,6 +10,8 @@
 
 # Arch Rebar BOM/de
 
+
+
 ## Beschreibung
 
 Das [Stücklisten](Arch_Rebar_BOM/de.md)-Werkzeug ermöglicht dem Benutzer eine Stückliste von Bewehrungsstäben zu erstellen.
@@ -17,7 +19,7 @@ Das [Stücklisten](Arch_Rebar_BOM/de.md)-Werkzeug ermöglicht dem Benutzer eine 
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das **Werkzeuge → Erweiterungsverwalter → Bewehrung**-Menü installiert werden kann.
 
 
 </div>
@@ -27,6 +29,8 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 
 *Stückliste von Bewehrungsstäben*
+
+
 
 ## Anwendung
 

@@ -182,7 +182,7 @@ Tutti i vincoli possono essere risolti in qualsiasi momento con il pulsante <img
 
 Il pulsante <img alt="" src=images/A2p_FlipConstraint.svg  style="width:24px;"> ha effetto sull\'ultimo vincolo aggiunto. Capovolge la direzione del vincolo.
 
-Con lo strumento <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width:24px;">, è possibile mostrare e ispezionare i vincoli esistenti. Dopo aver fatto click su di esso, viene visualizzata una finestra di dialogo. Quindi selezionare una parte nell\'albero e fare click sul pulsante {{Pulsante|Importa dalla parte}} per ottenere tutti i vincoli di questa parte, oppure selezionare uno o più vincoli nell\'albero e fare click sul pulsante {{Pulsante|Importa dall'albero}}. Di conseguenza si ottengono tutte le informazioni sui vincoli. Cliccando nella colonna *Elimina* è possibile sopprimere un singolo vincolo. Per ulteriori funzionalità, seguire i suggerimenti degli altri pulsanti di dialogo.
+Con lo strumento <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width:24px;">, è possibile mostrare e ispezionare i vincoli esistenti. Dopo aver fatto click su di esso, viene visualizzata una finestra di dialogo. Quindi selezionare una parte nell\'albero e fare click sul pulsante **Importa dalla parte** per ottenere tutti i vincoli di questa parte, oppure selezionare uno o più vincoli nell\'albero e fare click sul pulsante **Importa dall'albero**. Di conseguenza si ottengono tutte le informazioni sui vincoli. Cliccando nella colonna *Elimina* è possibile sopprimere un singolo vincolo. Per ulteriori funzionalità, seguire i suggerimenti degli altri pulsanti di dialogo.
 
 
 

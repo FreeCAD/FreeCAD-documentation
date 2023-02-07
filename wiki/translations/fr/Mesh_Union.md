@@ -18,13 +18,17 @@ La commande **Mesh Union** crée un nouvel objet maillé non paramétrique, un [
 ![](images/Mesh_Union_example.png ) 
 *A gauche deux objets maillés, à droite l'objet maillé qui est l'union de ces objets*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez deux objets maillés qui se chevauchent partiellement.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_Union.svg" width=16px> [Union](Mesh_Union/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Union.svg" width=16px> Union** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Opération booléenne → <img src="images/Mesh_Union.svg" width=16px> Union** du menu.
+
+
 
 ## Propriétés
 

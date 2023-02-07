@@ -1,38 +1,36 @@
 # Release notes 0.19/it
 {{TOCright}}
 
-**FreeCAD 0.19** was released on **March 20th, 2021**, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.19 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=122).
+**FreeCAD 0.19** è stato rilasciato il **20 marzo 2021**, scaricalo dalla pagina [Download](Download/it.md). Questa è una sintesi delle modifiche più interessanti. L\'elenco completo delle modifiche è disponibile nel [MantisBT bugtracker FC 0.19 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=122).
 
-Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili in [Funzioni di FreeCAD](Feature_list/it#Note_di_rilascio.md).
+Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla pagina [Funzionalità](Feature_list/it#Note_di_rilascio.md).
 
-<img alt="" src=images/FreeCAD_release_0.19_main.jpg  style="width:800px;">
+<img alt="" src=images/FreeCAD_release_0.19_main.jpg  style="width:512px;">
 
-*Simpson and Shipton short stroke steam engine circa 1845, using horizontal rotating piston, by \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024).*
+*Simpson e Shipton motore a vapore a corsa breve del 1845 (circa), con pistone rotante orizzontale, realizzato da \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024).*
+
+
 
 ## Punti salienti 
 
    
-  <img alt="" src=images/FreeCAD_highlight_1_0.19.jpg  style="width:512px;">   Horizontal 4 cylinder rotary valve steam engine, by \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=38602).
+  <img alt="" src=images/FreeCAD_highlight_1_0.19.jpg  style="width:512px;">   Motore a vapore orizzontale a 4 cilindri con valvola rotante, realizzato da \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=38602).
    
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_highlight_2_0.19.png  style="width:384px;">
-
-
-</div>
-
-This assembly was made by \"Zolko\", author of the new [Assembly4 Workbench](Assembly4_Workbench.md), which uses the new powerful [App Link](App_Link.md) object to import thousands of different parts and subassemblies, arranging them in specified positions by means of mathematical expressions. See [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=42624).
-
-For this model, the parts were not designed in FreeCAD, they were just imported in STEP format, and subsequently arranged with Assembly4. \|}
++++
+| <img alt="" src=images/FreeCAD_highlight_2_0.19.png  style="width:512px;"> | Progettazione preliminare di MAORY, un modulo di ottica adattiva (AO) per l\'European Extremely Large Telescope (E-ELT); qui è montato sulla piattaforma E-ELT Nasmyth.                                                                                                                                                                                                                                     |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                               | Questo assieme è stato realizzato da \"Zolko\", autore del nuovo [Assembly4](Assembly4_Workbench/it.md), che utilizza il nuovo potente oggetto [App Link](App_Link/it.md) per importare migliaia di parti e sottoassiemi diversi, disponendoli in posizioni specificate mediante espressioni matematiche. Vedere [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=42624). |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                               | Per questo modello, le parti non sono state progettate in FreeCAD, sono state solo importate in formato STEP e successivamente disposte con Assembly4.                                                                                                                                                                                                                                                      |
++++
 
 +++
-| <img alt="" src=images/FreeCAD_highlight_3_0.19.jpg  style="width:512px;"> | Constant velocity joint M. GECIK, by user \"ppemawm\", see [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=20&p=379220#p377075). The model is reversed engineered from the individual STL files from Thingiverse by the original author, [NOP21](https://www.thingiverse.com/thing:4191753). Please notice the license of the original files.                                                                                               |
-|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                               | The STL files were downloaded, saved, and imported into FreeCAD, and they were manually assembled using the [Std TransformManip](Std_TransformManip.md) tool; this [mesh](mesh.md) [assembly](assembly.md) was used as reference to create solid [bodies](Body.md) with [PartDesign](PartDesign_Workbench.md) and subsequently assemble them using the new [Assembly4 Workbench](Assembly4_Workbench.md). |
-|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                               | The model was started with Assembly4, and each part was created in-context referencing the STL model for [sketch](sketch.md) dimensions; sketches were created 1:1 scale with the STL model in the background.                                                                                                                                                                                                                                    |
+| <img alt="" src=images/FreeCAD_highlight_3_0.19.jpg  style="width:512px;"> | Giunto omocinetico M. GECIK, dell\'utente \"ppemawm\", vedere [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=20&p=379220#p377075). Il modello è decodificato dai singoli file STL di Thingiverse dall\'autore originale, [NOP21](https://www.thingiverse.com/thing:4191753). Si prega di notare la licenza dei file originali.                                                                                                                                            |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                               | I file STL sono stati scaricati, salvati e importati in FreeCAD e sono stati assemblati manualmente utilizzando lo strumento [Trasforma](Std_TransformManip/it.md); questa [mesh](mesh/it.md) [assembly](assembly.md) è stata utilizzata come riferimento per creare [bodies](Body/it.md) solidi con [PartDesign](PartDesign_Workbench/it.md) e successivamente assemblarli utilizzando il nuovo [Assembly4](Assembly4_Workbench/it.md). |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                               | La modellazione è iniziata con Assembly4 e ogni parte è stata creata nel contesto facendo riferimento al modello STL per la quoatatura degli [schizzi](sketch/it.md); gli schizzi sono stati creati in scala 1:1 con il modello STL sullo sfondo.                                                                                                                                                                                                                                |
 +++
 
 +++
@@ -40,6 +38,8 @@ For this model, the parts were not designed in FreeCAD, they were just imported 
 |                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                               | Among many small improvments, new features include: dimensions are now compliant with one of ISO 129-1 or ASME Y14.5M standards; new [balloon annotations](TechDraw_Balloon.md) to include text inside a circle or polygon shape; new [rich text annotations](TechDraw_RichTextAnnotation.md) to include big paragraphs formatted as bold or italic; [cosmetic vertices](TechDraw_CosmeticVertex.md) and [cosmetic edges](TechDraw_FaceCenterLine.md) that are not part of the original model but which can be used to create custom dimensions; basic support for [welding symbols](TechDraw_WeldSymbol.md); new [active view](TechDraw_ActiveView.md) mode to take a \"snapshot\" of the [3D view](3D_view.md); new basic templates for ISO sizes (A0 to A4), as well as Russian and Chinese language templates; new horizontal and vertical dimensions that measure the [full extent of the projections](TechDraw_HorizontalExtentDimension.md); SVG face hatches are now available when the page is exported to SVG; the new [App Link](App_Link.md) object is now also supported as a source for creating views, which is useful when working with [assemblies](assembly.md). |
 +++
+
+
 
 ## Aspetti generali 
 
@@ -51,11 +51,15 @@ Con oltre 2000 commit nel ramo master dalla versione 0.18, questa è una delle v
 
 </div>
 
+
+
 ### Python 3 e Qt5 
 
 Lo sforzo di migrare da Python 2 e Qt4 a Python 3 e Qt5 è sostanzialmente completo e la maggior parte degli sviluppatori è passata agli strumenti di Python3 e Qt5.
 
 Indubbiamente ci sono bug imprevisti; questi saranno affrontati man mano che vengono segnalati. Qualsiasi dipendenza esistente da Python 2 o Qt4 non sarà supportata oltre il 1 ° gennaio 2020, data in cui Python 2 diventerà ufficialmente non più supportato dalla Python Foundation. Notare che alcuni componenti aggiuntivi non sono stati ancora portati su Python3 e Qt5. Ciò può essere dovuto a diversi motivi tra cui la mancanza di tempo da parte dei loro sviluppatori o dipendenze interrotte che potrebbero non essere facilmente risolvibili o semplicemente perché l\'addon è considerato obsoleto. Le persone interessate alla migrazione di un particolare ambiente di lavoro o strumento sono incoraggiate a partecipare al [forum di FreeCAD](https://forum.freecadweb.org/); vedere anche [Python3 and Qt5 Compatible Addon Workbenches (in preparazione per 0.18)](https://forum.freecadweb.org/viewtopic.php?f=10&t=30624).
+
+
 
 #### Alcuni problemi 
 
@@ -66,6 +70,8 @@ Fixed issue with [Std Part](Std_Part.md) containers visibility when the viewport
 -   Fixed bug in `MainWindow::setActiveWindow` to avoid a crash when returning from full screen; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit c4e34ed9b](https://github.com/FreeCAD/FreeCAD/commit/c4e34ed9b).
 -   Fixed [issue #4088](https://freecadweb.org/tracker/view.php?id=4088) about the visibility of the origin of a Part changing when undocking the 3D view; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit 1e19ef5be](https://github.com/FreeCAD/FreeCAD/commit/1e19ef5be).
 -   Fixed [issue #3130](https://freecadweb.org/tracker/view.php?id=0003130) about Qt5 bugs when using a high resolution external monitor; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34916), [commit 2f2d505359](https://github.com/FreeCAD/FreeCAD/commit/2f2d5053599785fdc8db481682746066911033b4).
+
+
 
 ### Sviluppo
 
@@ -79,6 +85,8 @@ Other development news:
 
 -   There is a new Docker container to build FreeCAD, see [Compile on Docker](Compile_on_Docker.md); [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954).
 -   The infrastructure of the bug tracker as well as wiki was moved to a dedicated server, so that it is easier to manage by the project administrators; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=42795).
+
+
 
 ### Documentazione
 
@@ -94,11 +102,15 @@ Other development news:
 
 </div>
 
+
+
 ### Limitazioni note 
 
 -   Black screen due to video card drivers, while running FreeCAD inside a virtual machine; [issue #3939](https://freecadweb.org/tracker/view.php?id=3939).
 -   Logitech Wingman USB joystick can cause erratic behavior when spinning and zooming in the view; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36712&start=10).
 -   Gesture navigation is fully supported for Windows but yet to be maintained in Linux and MacOS. Problem: the developer, DeepSOIC, doesn\'t have a MacOS machine with its special trackpad, and hasn\'t tested it on Linux either; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=308403#p308402).
+
+
 
 ## Interfaccia utente 
 
@@ -121,6 +133,8 @@ Other development news:
 |                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                | [Wiki](https://wiki.freecadweb.org/Std_ViewScreenShot#Creation_method), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=41950&start=10), [commit 8e5151002](https://github.com/FreeCAD/FreeCAD/commit/8e5151002).                                                                                                                                                                                                                                                                                                                                                                                               |
 +++
+
+
 
 ## App::Link e assemblaggio 
 
@@ -224,6 +238,8 @@ Beside the introduction of [App Link](App_Link.md), the \"LinkMerge\" branch als
   <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">         It will also show information on whether the addon is obsolete, already installed, or available for update. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).
    
 
+
+
 ## Ambiente Arch 
 
 Keep with the latest developments to the [Arch Workbench](Arch_Workbench.md), and the [BIM Workbench](BIM_Workbench.md) that depends on it, by following the main author of this workbench, at [Uncreated](https://yorik.uncreated.net/blog/freecad). The updates are also posted to the forum, [BIM/Arch development news articles from Yorik\'s blog](https://forum.freecadweb.org/viewtopic.php?f=23&t=17498).
@@ -269,6 +285,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | [Commit e42a26fba1](https://github.com/FreeCAD/FreeCAD/commit/e42a26fba1), [commit 7c12c8688c](https://github.com/FreeCAD/FreeCAD/commit/7c12c8688c).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
+
+
 
 ## Ambiente Draft 
 
@@ -348,6 +366,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                                                                 | [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=44051), [commit 1b887fa0f5](https://github.com/FreeCAD/FreeCAD/commit/1b887fa0f5), [commit 4555a77663](https://github.com/FreeCAD/FreeCAD/commit/4555a77663), [commit 5b3fea59e0](https://github.com/FreeCAD/FreeCAD/commit/5b3fea59e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
 
+
+
 ### Altro
 
 -   The [Draft Wire](Draft_Wire.md) tool now is called \"Polyline\" in the menu, instead of \"DWire\"; all options and functionality remain the same, so this doesn\'t break compatibility; [commit 39e748229e](https://github.com/FreeCAD/FreeCAD/commit/39e748229e67fa93e924e355c0ce0897c870d756).
@@ -359,6 +379,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 -   The \"Toolbar mode\" when launching the Draft tools has been removed. This was an interface that was used in the past but became obsolete as the [task panel](task_panel.md) became the predominant interface; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=34&t=42782), [pull request #2973](https://github.com/FreeCAD/FreeCAD/pull/2973).
 
 -    `Draft.copy`now works with any document object, thanks to the new `Document.copyObject()` method introduced with the LinkMerge; pull request [#3658](https://github.com/FreeCAD/FreeCAD/pull/3658).
+
+
 
 ## Ambiente FEM 
 
@@ -385,6 +407,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 +++
 | <img alt="" src=images/FEM_tie-constraint-dialog.png  style="width:287px;">                 | There are two new constraints available:menu menu one new solver:menu  and a possibility to overwrite a constant:menu **Model → Overwrite Constraints → [<img src=images/FEM_ConstantVacuumPermittivity.svg style="width:16px"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)**. |
 +++
+
+
 
 ### Altro 
 
@@ -421,6 +445,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 -   It is now possible to export a [Mesh](Mesh.md) to [Asymptote format](Asymptote.md) (**.asy** ); [forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=48915), [commits 4badaba5](https://github.com/FreeCAD/FreeCAD/commit/4badaba5), [50bbd522](https://github.com/FreeCAD/FreeCAD/commit/50bbd522), [58a92681](https://github.com/FreeCAD/FreeCAD/commit/58a92681), [dd7afa72](https://github.com/FreeCAD/FreeCAD/commit/dd7afa72), [b0f78f5a](https://github.com/FreeCAD/FreeCAD/commit/b0f78f5a).
 -   Most tools of the [Mesh Workbench](Mesh_Workbench.md) now have a proper icon so it is easier to recognize the function in the menu and toolbars; [forum thread](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), pull request [#3816](https://github.com/FreeCAD/FreeCAD/pull/3816), [#3864](https://github.com/FreeCAD/FreeCAD/pull/3864).
 
+
+
 ## Ambiente Part 
 
 +++
@@ -446,6 +472,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 -   The [App Link](App_Link.md) merge introduced two new commands, [Part TransformedCopy](Part_TransformedCopy.md) and [Part ElementCopy](Part_ElementCopy.md). These commands create non-parametric copies of a body with a transformed placement, and of an element (vertex, edge, or face); [commit 6da72b9859](https://github.com/FreeCAD/FreeCAD/commit/6da72b9859f6d21119831d44a8d132c8e2dfb544). These operations essentially make the [Macro Repro Wire](Macro_Repro_Wire.md) obsolete.
 -   It is now possible to set [expressions](Expressions.md) for all parameters of [primitives](Part_Workbench#Primitives.md). [commit dd4874d2](https://github.com/FreeCAD/FreeCAD/commit/dd4874d2) and [commit 7405dd0e](https://github.com/FreeCAD/FreeCAD/commit/7405dd0e).
 -   Fixed broken support for \"INCH\" units when exporting to STEP/IGES formats; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=36808&p=314172#p314172), [commit 1b26173580](https://github.com/FreeCAD/FreeCAD/commit/1b2617358).
+
+
 
 ## Ambiente PartDesign 
 
@@ -482,6 +510,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 -   It is now possible to set [expressions](Expressions.md) for all parameters of [additive](PartDesign_CompPrimitiveAdditive.md) and [subtractive primitives](PartDesign_CompPrimitiveSubtractive.md). [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36458), [pull request #3225](https://github.com/FreeCAD/FreeCAD/pull/3225).
 -   It is now possible to set [expressions](Expressions.md) for the attachment angles of additive and subtractive primitives. Formerly, expressions were only available for the direction offsets. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=44346), [commit 1cfe6d2cc7](https://github.com/FreeCAD/FreeCAD/commit/1cfe6d2cc7).
 -   It is now possible to change the list items in the different dialogs. For example [in this forum post](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998#p420352) there is a good example why the item list matters for transformations. [Here](https://forum.freecadweb.org/viewtopic.php?f=19&t=50222#p430499) is another example for the sketch order for lofts. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998), [pull request #3760](https://github.com/FreeCAD/FreeCAD/pull/3760), [commit 94ca4388e](https://github.com/FreeCAD/FreeCAD/commit/94ca4388e).
+
+
 
 ## Ambiente Path 
 
@@ -543,11 +573,15 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
         -   Output can be ordered by tool, operation, or fixture to minimize toolchanges or transit time.
         -   Gcode can be split into multiple output files
 
+
+
 ## Ambiente Render 
 
 Added support for Blender\'s standalone \"Cycles\" renderer; [commit 759067912f](https://github.com/FreeCAD/FreeCAD-render/commit/759067912f0640e4b3dac41b104d2372978f94a1); [FreeCAD-render](https://github.com/FreeCAD/FreeCAD-render) repository. The Cycles standalone renderer usually needs to be compiled from source, as the binary is normally not provided by itself in a complete Blender distribution.
 
 Besides this, the Render Workbench already has support for Pov-Ray, Luxrender and Appleseed.
+
+
 
 ## Ambiente Sketcher 
 
@@ -571,6 +605,8 @@ Besides this, the Render Workbench already has support for Pov-Ray, Luxrender an
 -   The [ fillet](Sketcher_CreateFillet.md) tool preserves now all possible existing constraints of the touched lines. [pull request #4296](https://github.com/FreeCAD/FreeCAD/pull/4296), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=54179)
 -   New method to get the geometrical index of a [sketch](Sketcher_SketchObject.md), `SketchObject.getGeoVertexIndex(index)`; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=48707), [pull request #3713](https://github.com/FreeCAD/FreeCAD/pull/3713).
 
+
+
 ## Ambiente Spreadsheet 
 
 The introduction of [App Link](App_Link.md) also brought some improvements to the [expressions](expressions.md) capabilities of FreeCAD, which are visible in the [property editor](property_editor.md), and the [Spreadsheet Workbench](Spreadsheet_Workbench.md). These are described in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes) and this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=27&t=38974).
@@ -589,11 +625,15 @@ The previous commits changed the way the autocompletion works with [expressions]
 
 Data entered into a cell is not tested anymore as an expression by default. Now an expression needs to start with an equal sign `{{:=`}} instead. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=39665), [pull request #4215](https://github.com/FreeCAD/FreeCAD/pull/4215).
 
+
+
 ## Ambiente Start 
 
    
   <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;">   Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316).
    
+
+
 
 ## Ambiente Surface 
 
@@ -606,6 +646,8 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                                                                                   | Likewise, the icons have been updated to be more visually attractive.                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
+
+
 
 ## Ambiente TechDraw 
 
@@ -661,6 +703,8 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 |                                                                                                                                                                                               | [Forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=47013), [commit a9b718d1e0](https://github.com/FreeCAD/FreeCAD/commit/a9b718d1e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
 
+
+
 ### Altro 
 
 -   There has been discussions about changing the standard behavior of TechDraw. Instead of keeping the drawing pages updated automatically, they would be updated only on demand; this would mitigate the effects of TechDraw slowing down the rest of FreeCAD when modelling. Moreover, now that [App Link](App_Link.md) is included in FreeCAD, TechDraw pages may be stored in a separate file, and loaded on demand; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=35086) (main discussion), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=35&t=38822) (alternatives).
@@ -680,6 +724,8 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 
 -   QtWebEngine support for Qt 5.7 and above, and fallback to QWebkit for Qt 5.6 and below; [pull request #1937](https://github.com/FreeCAD/FreeCAD/pull/1937).
 
+
+
 ## Macro
 
 See [Macros recipes](Macros_recipes.md) for many more macros.
@@ -687,6 +733,8 @@ See [Macros recipes](Macros_recipes.md) for many more macros.
    
   <img alt="" src=images/Structural_frame.png  style="width:384px;">   Automatic light-gauge steel frame creator and panelizer. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092); [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) repository (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703) example.
    
+
+
 
 ## Moduli aggiuntivi 
 

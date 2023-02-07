@@ -3,9 +3,11 @@
 
 L\'[extension Reinforcement](Reinforcement_Addon/fr.md) augmente l\'[atelier Arch](Arch_Workbench/fr.md) en fournissant de nouvelles interfaces et de nouveaux préréglages pour la création de types de barres d'arc commun à utiliser avec les [structures Arch](Arch_Structure/fr.md).
 
-Les outils peuvent être installés avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu {{MenuCommand/fr|Outils → Gestionnaire des extensions → Reinforcement}}. FreeCAD doit être redémarré pour que les nouveaux outils apparaissent sous le bouton **<img src="images/_Arch_Rebar.svg" width=16px> [Rebar tools](Arch_Rebar/fr.md)**.
+Les outils peuvent être installés avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**. FreeCAD doit être redémarré pour que les nouveaux outils apparaissent sous le bouton **<img src="images/_Arch_Rebar.svg" width=16px> [Rebar tools](Arch_Rebar/fr.md)**.
 
 Cette extension a été développée au cours du [Google Summer of Code](Google_Summer_of_Code.md) 2017 et est hébergé dans le dépôt Github [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement), qui est distinct du dépôt principal FreeCAD.
+
+
 
 ## Éléments
 
@@ -28,6 +30,8 @@ Nouveaux outils avec interface graphique pour saisir les valeurs
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Arch Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md)
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Arch Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md)
 -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Arch Poutre](Arch_Rebar_BeamReinforcement/fr.md)
+
+
 
 ## Ateliers externes 
 

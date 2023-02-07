@@ -9,9 +9,13 @@
 
 # Spreadsheet StyleItalic/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:16px;"> **Corsivo** fa in modo che il testo all\'interno della cella adotti lo stile *corsivo*.
+
+
 
 ## Utilizzo
 

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,13 +37,15 @@ L\'oggetto linea creato inizia e finisce nei punti specificati, ma rispetto ai v
 
 </div>
 
+
+
 ## Utilizzo
 
 
 <div class="mw-translate-fuzzy">
 
 -   Selezionare i punti su un\'area vuota della vista 3D, o su un oggetto esistente. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
--   Premere il tasto {{KEY/it|Esc}}, o cliccare sul tasto destro del mouse, per annullare l\'operazione.
+-   Premere il tasto **Esc**, o cliccare sul tasto destro del mouse, per annullare l\'operazione.
 
 
 </div>

@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Introdução
 
 A bancada de trabalho Arch fornece um moderno [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) fluxo de trabalho ao FreeCAD, com suporte para recursos como entidades arquitetônicas totalmente paramétricas tais como paredes, elementos estruturais, telhados, janelas, escadas, canos e mobília. Suporta dados de [industry foundation classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) e produção de plantas 2D em combinação com a [Bancada TechDraw](TechDraw_Workbench.md).
@@ -11,9 +13,11 @@ A bancada Arch importa todas as ferramentas da [Bancada Draft](Draft_Workbench.m
 
 A funcionalidade BIM do FreeCAD agora está dividida progressivamente nesta Bancada, que contém ferramentas arquitetônicas básicas, e no [BIM Workbench](BIM_Workbench.md), que você pode instalar através do [ Gerenciador de Complementos](Std_AddonMgr.md). Este ambiente de trabalho adiciona uma nova camada de interface às ferramentas do Arch, com o objetivo de tornar o fluxo de trabalho BIM no FreeCAD mais intuitivo e fácil de usar.
 
-The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https://osarch.org), with the ultimate goal of improving building design by using entirely free software.
+Os desenvolvedores das bancadas Arch, Draft e BIM também colaboram com a [comunidade OSArch](https://osarch.org), que fomenta o uso do software livre no âmbito da construção e do design.
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:600px;">
+
+
 
 ## Ferramentas
 
@@ -113,6 +117,8 @@ Estas são as ferramentas para criar objetos arquitetônicos:
 
   - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
+
+
 ### Ferramentas de Modificação 
 
 Estas são as ferramentas para modificar objetos arquitetônicos:
@@ -126,6 +132,8 @@ Estas são as ferramentas para modificar objetos arquitetônicos:
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
 
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode.
+
+
 
 ### Utilidades
 
@@ -157,9 +165,13 @@ Estas são as ferramentas adicionais para te ajudar em tarefas específicas.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
+
+
 ### Preferências
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferências](Arch_Preferences/pt-br.md): preferências em relação à aparência padrão de paredes, estruturas, vergalhões, janelas, escadas, painéis, tubos, grades e eixos.
+
+
 
 ### Formatos de arquivos 
 
@@ -185,6 +197,8 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 
 
 </div>
+
+
 
 ## Tutoriais
 

@@ -11,6 +11,8 @@
 
 # Sketcher ToggleActiveConstraint/de
 
+
+
 ## Beschreibung
 
 
@@ -20,11 +22,15 @@ ermöglicht es, eine bereits platzierte Randbedingung zu aktivieren und zu deakt
 
 Das Werkzeug **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [UmschalterFührendeRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)** ist insofern ähnlich, als dass es die Wirkung der Randbedingung deaktiviert; mit diesem Werkzeug behält die Randbedingung jedoch nicht ihren alten Wert. Andererseits kann mit **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschalterAktiveRandbedingung](Sketcher_ToggleActiveConstraint/de.md)** die alte Randbedingung sofort wieder aktiviert werden.
 
+
+
 ## Anwendung
 
 1.  Eine bereits platzierte Randbedingung auswählen und dann die Schaltfläche **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Einschränkung zwischen festlegend und anzeigend umschalten](Sketcher_ToggleActiveConstraint/de.md)** drücken.
-2.  Alternativ kann man im [Aufgabenbereich](task_panel/de.md) zum Abschnitt {{MenuCommand/de|Constraints}} gehen, die Randbedingung wählen, dann das Kontextmenü öffnen (Rechtsklick) und {{MenuCommand/de|Deaktivieren}} wählen.
+2.  Alternativ kann man im [Aufgabenbereich](task_panel/de.md) zum Abschnitt **Constraints** gehen, die Randbedingung wählen, dann das Kontextmenü öffnen (Rechtsklick) und **Deaktivieren** wählen.
 3.  Um die Randbedingung wieder zu aktivieren, wählt man sie aus und drückt die Schaltfläche **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Einschränkung zwischen festlegend und anzeigend umschalten](Sketcher_ToggleActiveConstraint/de.md)** erneut.
+
+
 
 ## Beispiele
 
@@ -36,6 +42,8 @@ Das Werkzeug **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="widt
 
 <img alt="" src=images/Sketcher_ToggleActiveConstraint_task_panel.png  style="width:" height="350px;"> 
 *Aufgabenbereich mit der deaktivierten Beschränkung.*
+
+
 
 ## Skripten
 

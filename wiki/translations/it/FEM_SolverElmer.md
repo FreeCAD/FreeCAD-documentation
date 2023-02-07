@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -33,6 +35,8 @@ Poiché FreeCAD ha già un\'ampia integrazione di Calculix e Z88 come solutori p
 
 </div>
 
+
+
 ## Installazione
 
 Elmer requires two components to be interfaced with FreeCAD:
@@ -58,6 +62,8 @@ You are ready to use Elmer in FreeCAD.
 {{VersionMinus|0.19}}
 
 : Now start FreeCAD and change the units scheme to *MKS* in the [preferences](Preferences_Editor#Units.md). See [Notes](#Notes.md).
+
+
 
 ## Utilizzo
 
@@ -100,7 +106,7 @@ You are ready to use Elmer in FreeCAD.
 
 ### Solver Settings 
 
--   Depending on the used equations, you must change the default solver settings.
+-   Depending on the used equations, you must change the default solver settings. They are explained in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
 -   The solver will by default perform a steady-state simulation. To perform a transient simulation (how the model behaves/develops over time) see the [Elmer solver settings](FEM_SolverElmer_SolverSettings#Solver.md).
 
 Elmer has plenty of settings to determine how the equations should be solved. They are described in detail in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
@@ -111,6 +117,8 @@ Elmer has plenty of settings to determine how the equations should be solved. Th
 -   Parameters for the Solver and for the Equations are independently set through the [Property editor](Property_editor.md) **Data** tab of their respective objects in the [tree view](Tree_view.md).
 -   Each equation will have a priority, for example, if trying see the effect of a convective flow of hot air, the equation for Flow should be solved with higher priority than Heat, otherwise the solver will first solve Heat through conduction and then Flow.
 -   2D vs 3D cases: Elmer can be used to solve both 2D and 3D cases. However, when defining a 2D case, the faces need to be mapped in the XY plane of FreeCAD, otherwise the solver will try to compute a 3D case on a face, and normal vectors will be under-defined. Further information can be found in the FreeCAD forums: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48175>
+
+
 
 ## Documentazione
 

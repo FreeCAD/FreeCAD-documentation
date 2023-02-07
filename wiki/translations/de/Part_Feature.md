@@ -1,6 +1,8 @@
 # Part Feature/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
@@ -32,6 +34,8 @@ Ein Part Formelement ist die Elternklasse der meisten 2D (Entwurf, Skizzierer) u
 
 
 </div>
+
+
 
 ## Anwendung
 
@@ -70,6 +74,8 @@ Ein `Part::Feature` hat einfache Eigenschaften wie eine [Platzierung](Placement/
 
 </div>
 
+
+
 ## Eigenschaften
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
@@ -85,10 +91,12 @@ Eine [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse) wird von de
 
 <div class="mw-translate-fuzzy">
 
-Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigenschaften. Ausgeblendete Eigenschaften können mit dem {{MenuCommand/de|Alle anzeigen}} Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
+Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigenschaften. Ausgeblendete Eigenschaften können mit dem **Alle anzeigen** Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
 
 
 </div>
+
+
 
 ### Daten
 
@@ -123,6 +131,8 @@ Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigens
 -    **Expression Engine|ExpressionEngine|Hidden**: a list of expressions. By default, it is empty {{value|[]}}.
 
 -    **Visibility|Bool|Hidden**: whether to display the object or not.
+
+
 
 ### Ansicht
 
@@ -189,6 +199,8 @@ Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\
 -    **Selection Style|Enumeration**: it controls the way the object is highlighted. If it is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} a bounding box will appear surrounding the object and will be highlighted.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Abweichungswert
@@ -207,6 +219,8 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 ```
 
 wobei {{value|w}}, {{value|h}}, {{value|d}} die Begrenzungsrahmen Abmessungen sind.
+
+
 
 ## Skripten
 
@@ -243,6 +257,8 @@ obj = App.ActiveDocument.addObject("Part::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
+
+
 ### Namen
 
 See also: [Object name](Object_name.md) for more information on the properties of the `Name`.
@@ -251,6 +267,8 @@ The `addObject` method has two basic string arguments.
 
 -   The first argument indicates the type of object, in this case, `"Part::FeaturePython"`.
 -   The second argument is a string that defines the `Name` attribute. If it is not provided, it defaults to the same name as the class, that is, `"Part__FeaturePython"`. The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`. If other symbols are given, these will be converted to underscores; for example, `"A+B:C*"` is converted to `"A_B_C_"`.
+
+
 
 ### Beschriftung
 

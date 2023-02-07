@@ -14,9 +14,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 The **Std ToggleVisibility** command toggles the visibility of selected objects in [3D views](3D_view.md).
+
+
 
 ## Utilizzo
 
@@ -42,11 +46,11 @@ Nella scheda Vista l\'elemento (\"Revolution006\") è visibile (Visibility true)
 
 #### Barra spaziatrice 
 
-Selezionare un elemento e premere {{KEY/it|Spazio}} sia per mostrarlo che per nasconderlo.
+Selezionare un elemento e premere **Spazio** sia per mostrarlo che per nasconderlo.
 
 #### Console Python 
 
-Inserire il comando ( in questo caso: *Gui.getDocument(\"test_ok_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere {{KEY/it|Invio}}
+Inserire il comando ( in questo caso: *Gui.getDocument(\"test_ok_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere **Invio**
 
 #### Dal menu principale 
 
@@ -71,7 +75,7 @@ Selezionare gli elementi con il tasto destro del mouse e scegliere la voce che i
 ### Note
 
 Quando si applica **Nascondi** a un elemento già nascosto l\'elemento diventa visibile.
-Per selezionare più elementi tenere premuto il tasto {{KEY/it|Crtl}} durante l\'operazione.
+Per selezionare più elementi tenere premuto il tasto **Crtl** durante l\'operazione.
 
 ### Casi particolari 
 
@@ -92,6 +96,8 @@ Area di lavoro: ![\|left](images/Mostra6.png )
 
 </div>
 
+
+
 ## Note 
 
 -   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
@@ -99,6 +105,8 @@ Area di lavoro: ![\|left](images/Mostra6.png )
 -   If the visibility of a [Std Group](Std_Group.md) (or an object derived from it such as an [Arch BuildingPart](Arch_BuildingPart.md)) is changed, the visibility of its nested objects will change accordingly. But their visibility can be changed independently as well.
 -   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
 -   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+
+
 
 ## Script
 

@@ -596,15 +596,15 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 
 ## Formen ändern 
 
-Es gibt verschiedene Möglichkeiten, Formen zu ändern. Einige sind einfache Transformationsoperationen wie sich bewegende oder rotierende Formen, andere sind komplexer, wie die Vereinigung und Subtrahieren einer Form von einer anderen. 
+Es gibt verschiedene Möglichkeiten, Formen zu ändern. Einige sind einfache Transformationsoperationen wie das Verschieben oder Drehen von Formen, andere sind komplexer, wie die Vereinigung und die Differenz, das Subtrahieren einer Form von einer anderen. 
 
-## Umwandlungsvorgänge
+## Transformationsvorgänge
 
 
 
-### Übersetzen einer Form 
+### Verschieben einer Form 
 
-Übersetzen ist die Handlung, eine Form von einem Ort zum anderen zu bewegen. Jede Form (Kante, Fläche, Würfel, usw\...) kann auf die gleiche Weise übersetzt werden:
+Verschieben ist das Bewegen einer Form von einem Ort zum anderen. Jede Form (Kante, Fläche, Würfel, usw\...) kann auf die gleiche Weise verschoben werden:
 
 
 ```python
@@ -612,22 +612,22 @@ myShape = Part.makeBox(2, 2, 2)
 myShape.translate(App.Vector(2, 0, 0))
 ```
 
-Dadurch wird unsere Form \"myShape\" um 2 Einheiten in die X Richtung verschoben. 
+Dadurch wird die Form \"myShape\" um 2 Einheiten in X-Richtung verschoben. 
 
 ### Drehen einer Form 
 
-Um eine Form zu drehen, musst du das Rotationszentrum, die Achse, angeben, und den Rotationswinkel:
+Um eine Form zu drehen, muss ein Drehpunkt (auf der Achse), die (Ausrichtung der) Achse und der Drehwinkel angegeben werden:
 
 
 ```python
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 ```
 
-Der obige Code dreht die Form um 180 Grad um die Z Achse. 
+Der obige Code dreht die Form um 180° um die Z-Achse. 
 
-### Matrix Umformungen 
+### Matrix-Transformationen 
 
-Eine Matrix ist eine sehr bequeme Möglichkeit, Transformationen in der 3D Welt. In einer einzigen Matrix kannst du Translation, Rotation und Skalierung einstellen Werte, die auf ein Objekt angewendet werden sollen. Zum Beispiel:
+Eine Matrix ist eine sehr bequeme Möglichkeit, in der 3D Welt Transformationen zu speichern. In einer einzigen Matrix können Werte für das Verschieben, Drehen und Skalieren festgelegt werden, die auf ein Objekt angewendet werden sollen. Zum Beispiel:
 
 
 ```python
@@ -636,7 +636,7 @@ myMat.move(App.Vector(2, 0, 0))
 myMat.rotateZ(math.pi/2)
 ```
 
-Hinweis: FreeCAD Matrizen arbeiten im Bogenmaß. Außerdem werden fast alle Matrix Operationen die einen Vektor nehmen, können auch drei Zahlen nehmen, so dass diese beiden Linien dasselbe tun:
+Hinweis: FreeCAD-Matrizen arbeiten mit Bogenmaß. Außerdem können fast alle Matrix-Operationen die einen Vektor akzeptieren, auch drei Zahlen akzeptieren, so dass diese beiden Zeilen dasselbe tun:
 
 
 ```python
@@ -644,7 +644,7 @@ myMat.move(2, 0, 0)
 myMat.move(App.Vector(2, 0, 0))
 ```
 
-Wenn unsere Matrix einmal festgelegt ist, können wir sie auf unsere Form anwenden. FreeCAD bietet zwei Methoden, um das zu tun: `transformShape()` und `transformGeometry()`. Der Unterschied ist, dass Sie bei der ersten sicher sind, dass keine Verformungen auftreten werden (siehe [Skalierung einer Form](#Scaling_a_shape/de.md) unten). Wir können unsere Transformation wie folgt anwenden:
+Wenn unsere Matrix einmal festgelegt ist, können wir sie auf unsere Form anwenden. FreeCAD bietet zwei Methoden, um das zu tun: `transformShape()` und `transformGeometry()`. Der Unterschied ist, dass man bei der ersten sicher sein kann, dass keine Verformungen auftreten (siehe [Skalieren einer Form](#Skalieren_einer_Form.md) unten). Wir können unsere Transformation wie folgt anwenden:
 
 
 ```python
@@ -665,7 +665,7 @@ myShape.transformGeometry(myMat)
 
 ### Skalieren einer Form 
 
-Das Skalieren einer Form ist eine gefährlichere Operation, denn im Gegensatz zur Übersetzung oder Rotation, ungleichmäßige Skalierung (mit unterschiedlichen Werten für X, Y und Z) kann die Struktur der Form verändern. Beispielsweise kann die Skalierung eines Kreises mit ein höherer Wert horizontal als vertikal wandelt ihn in einen Ellipse, die sich mathematisch sehr unterschiedlich verhält. Für die Skalierung haben wir nicht die `transformShape()` verwenden können, müssen wir `transformGeometry()` verwenden:
+Das Skalieren einer Form ist eine gefährlichere Operation, denn im Gegensatz zum Verschieben oder Drehen kann ungleichmäßiges Skalieren (mit unterschiedlichen Werten für X, Y und Z) die Struktur der Form verändern. Beispielsweise kann das Skalieren eines Kreises, mit einem höheren Wert für horizontal als für vertikal, ihn in eine Ellipse umwandeln, die sich mathematisch ganz anders verhält. Für das Skalieren kann `transformShape()` nicht verwendet werden, wir müssen `transformGeometry()` verwenden:
 
 
 ```python
@@ -683,9 +683,9 @@ myShape=myShape.transformGeometry(myMat)
 
 
 
-### Subtraktion
+### Differenz
 
-Das Subtrahieren einer Form von einer anderen Form wird in FreeCAD \"Schnitt\" genannt und wird so gemacht:
+Das Subtrahieren einer Form von einer anderen Form wird in FreeCAD \"Differenz\" genannt (engl. Cut), und so wird es gemacht:
 
 
 ```python
@@ -699,9 +699,9 @@ diff = cylinder.cut(sphere)
 
 
 
-### Überschneidung
+### Schnitt
 
-Auf die gleiche Weise wird die Überschneidung zwischen zwei Formen als \"gemeinsam\" bezeichnet und auf diese Weise gemacht:
+Die Überschneidung zweier Formen, also das \"gemeinsame\" (engl. Common) Volumen, wird \"Schnitt\"(-objekt,) genannt, und so wird es gemacht:
 
 
 ```python
@@ -715,9 +715,9 @@ common = cylinder1.common(cylinder2)
 
 
 
-### Vereinigen
+### Vereinigung
 
-Vereinigen wird \"Verschmelzen\" genannt und funktioniert auf dieselbe Weise:
+Das zusammenfügen von Formen wird \"Vereinigung\" genannt und funktioniert auf dieselbe Weise:
 
 
 ```python
@@ -731,9 +731,9 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 
-### Abschnitt
+### Schnittkurve
 
-Ein \"Abschnitt\" ist der Kreuzungspunkt zwischen einer festen Form und einer ebenen Form. Er gibt eine Kreuzungskurve, eine Verbundkurve, die aus Kanten besteht zurück.
+Eine \"Schnittkurve\" ist der Schnitt (der Hüllflächen) einer Festkörper-Form und einer ebenen Form. Rückgabeobjekt ist eine Schnittkurve, eine Verbundkurve, die aus Kanten besteht.
 
 
 ```python
@@ -753,7 +753,7 @@ section.Edges
 
 ### Extrusion
 
-Extrusion ist der Vorgang des \"Drückens\" einer flachen Form in eine bestimmte Richtung, was zu einem festen Körper führt. Stell dir vor, dass ein Kreis durch \"Herausschieben\" zu einer Röhre wird:
+Extrusion ist das Bewegen einer flachen Form in eine bestimmte Richtung, und hat als Ergebnis einen Festkörper. Ein ungefüllter Kreis (circle) wird durch Verschieben zu einem Hohlzylinder (tube):
 
 
 ```python
@@ -761,7 +761,7 @@ circle = Part.makeCircle(10)
 tube = circle.extrude(App.Vector(0, 0, 2))
 ```
 
-Wenn dein Kreis hohl ist, erhälst du ein hohles Rohr. Wenn dein Kreis tatsächlich eine Scheibe mit einer gefüllten Fläche ist, erhälst du einen massiven Zylinder:
+Ist der Kreis gefüllt, also eine Scheibe/Fläche (disc), erhält man einen Festkörper-Zylinder:
 
 
 ```python

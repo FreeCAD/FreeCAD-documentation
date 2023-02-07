@@ -1,50 +1,29 @@
 ---
 - GuiCommand:/de
    Name:Part Measure Toggle All
-   Name/de:Part Messen Alles umschalten
-   MenuLocation:{{StdMenu|[Messen](Std_Measure_Menu.md)}}/de → Alles umschalten
+   Name/de:Part Messen alle umschalten
+   MenuLocation:Messen → Alle umschalten
    Workbenches:[Part](Part_Workbench/de.md)
+   SeeAlso:[Part Messen 3D umschalten](Part_Measure_Toggle_3D/de.md), [Part Messen Delta umschalten](Part_Measure_Toggle_Delta/de.md)
 ---
 
 # Part Measure Toggle All/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Dieses Werkzeug schaltet die Sichtbarkeit aller Messungen in der [3D Ansicht](3D_view/de.md) um.
-
-
-</div>
+Dieser Befehl schaltet die Sichtbarkeit aller Messungen in der [3D-Ansicht](3D_view/de.md) um.
 
 <img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width:400px;">
 
-## Usage
 
 
-<div class="mw-translate-fuzzy">
+## Anwendung
 
-1.  Aufrufen des Befehls auf verschiedene Weise:
-    -   Drücke die **[<img src=images/Part_Measure_Clear_All.svg style="width:24px"> '''Alles umschalten'''** Schaltfläche.
-    -   Verwende den **Messen → Alles umschalten**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Measure_Toggle_All.svg" width=16px> [Alle umschalten](Part_Measure_Toggle_All/de.md)** drücken.
+    -   Den Menüeintrag **Messen → <img src="images/Part_Measure_Toggle_All.svg" width=16px> Alle umschalten** auswählen.
 
 
 

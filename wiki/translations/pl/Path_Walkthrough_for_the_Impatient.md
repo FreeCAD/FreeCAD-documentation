@@ -41,7 +41,7 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 3\. Now we create a [Path Job](Path_Job.md) by either of the following methods:
 
 -   Press the **![](images/)_[Job](Path_Job.md)** button from the toolbar.
--   Using the **P** then **F** keyboard shortcut.
+-   Using the **P** then **J** keyboard shortcut.
 -   Using the **Path → Job** entry from the top menu.
 
 ![](images/Path-JobCreationDialog.png )

@@ -1,6 +1,8 @@
 # DXF/de
 {{TOCright}}
 
+
+
 ## Hintergrundgeschichte
 
 Das Drawing Exchange Format (DXF) ist ein proprietäres CAD Datenformat, das von Autodesk entwickelt wurde, um den Dateiaustausch zwischen dem Flaggschiffprodukt AutoCAD und anderer Software zu ermöglichen. Es gibt eine Reihe von guten Softwarebibliotheken zum Lesen/Schreiben des DXF Formats.
@@ -11,6 +13,8 @@ Wenn du DXF Dateien bearbeitest und möchtest, dass sie beim Speichern nahezu un
 
 In FreeCAD müssen die DXF Leser die Geometrie (z. B. Spline Formen) aus der DXF Datei in die spezifischen internen Darstellungen des Arbeitsbereichs übersetzen.
 
+
+
 ## Methoden zum Importieren von DXF in FreeCAD 
 
 Wenn Du die Einstellungen häufig überprüfen willst, empfehlen wir, in **Bearbeiten → Einstellungen → Import-Export → DXF** das Kästchen \"\[ \] Diesen Dialog beim importieren und exportieren anzeigen\" zu aktivieren.
@@ -19,9 +23,13 @@ Mehr Informationen gibt es auf den Seiten [Draft DXF](Draft_DXF/de.md) und [Free
 
 Wenn Du die importierte Geometrie nutzen willst, um 3D-Formen im PartDesign-Arbeitsbereich zu erstellen, dann versuche [Skizzierer überprüfen](Sketcher_ValidateSketch/de.md), nachdem Du DXF in eine Skizze importiert hast.
 
+
+
 ### C++ DXF Importeur 
 
 Diese Implementation ist schnell, überspringt aber Merkmale, die nicht erkannt werden, wie etwa DXF-Splines. Es kann außerdem nur Geometrien als einzelne Einträge im Modellbaum in den Draft-Arbeitsbereich importieren. Diese können die Farben aus der Datei importieren, wenn diese Option aktiviert ist. Weitere Informationen gibt es im (engl.) [Forumseintrag](https://forum.freecadweb.org/viewtopic.php?f=3&t=32493).
+
+
 
 ### Python DXF Importeur 
 
@@ -31,9 +39,13 @@ Dieser Importeur hat mehr Funktionen (wie das Importieren von Splines) und hat d
 
 Unglücklicherweise implementiert der Arbeitsbereich Skizze keine Farben, so dass alle Geometrien auf einer Ebene erscheinen, was zum Problem wird, wenn die Datei viele Konstruktionslinien enthält. Eine Umgehungslösung besteht darin, die Datei in LibreCAD zu öffnen und all die Geometrien zu löschen, die nicht erscheinen sollen, so dass eine Datei gespeichert wird, die genau die Geometrien enthält, die Du laden möchtest.
 
+
+
 ### Makros
 
 Hab\' ein Auge auf das FreeCAD Forum oder die [Makro Rezepte](Macros_recipes/de.md), um alternative Ausführungen von DXF Import und Aufräumroutinen kennenzulernen, während sie entwickelt werden.
+
+
 
 ## DXF speichern 
 

@@ -9,16 +9,20 @@
 
 # PartDesign Body/de
 
+
+
 ## Beschreibung
 
 Ein [PartDesign Körper](PartDesign_Body/de.md) ist das Basiselement, um mit dem [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) Festkörper zu erzeugen. Es kann [Skizzen](Sketch/de.md), [Bezugsobjekte](Datum.md) und [PartDesign Formelementen](PartDesign_Feature/de.md) enthalten, die bei der Erstellung eines [Einfach zusammenhängender Festkörper](PartDesign_Body/de#Einfach_zusammenhängender_Festkörper/de.md) helfen.
 
-Der Körper bietet ein {{MenuCommand/de|Ursprung}} Objekt, das lokale X-, Y- und Z-Achsen sowie Standardebenen enthält. Diese Elemente können als Referenzen verwendet werden, um [Skizzen](Sketch/de.md) und [PartDesign Grundelement](PartDesign_CompPrimitiveAdditive/de.md) anzuheften.
+Der Körper bietet ein **Ursprung** Objekt, das lokale X-, Y- und Z-Achsen sowie Standardebenen enthält. Diese Elemente können als Referenzen verwendet werden, um [Skizzen](Sketch/de.md) und [PartDesign Grundelement](PartDesign_CompPrimitiveAdditive/de.md) anzuheften.
 
 Die **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. [Std Part](Std_Part/de.md) ist ein gruppierendes Objekt, um [Baugruppen](assembly/de.md) zu erzeugen. Es wird nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum zu positionieren. Mehrfache Körper und andere [Standard Teile](Std_Part/de.md) können innerhalb [Standard Teilen](Std_Part/de.md) positioniert werden, um eine komplexe Baugruppe zu erstellen.
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Links: die Baumansicht, die die Merkmale zeigt, die nacheinander die endgültige Form des Objekts erzeugen. Rechts: das endgültige Objekt, das in der [3D Ansicht](3D_view/de.md) sichtbar ist.*
+
+
 
 ## Anwendung
 
@@ -39,7 +43,9 @@ eine [Skizze](Sketch/de.md) im Körper zu erstellen, die mit **[<img src=images/
 
 Wenn ein Festkörperobjekt ausgewählt ist:
 
-1.  Drücke die **<img src="images/PartDesign_Body.svg" width=16px> [Körper](PartDesign_Body/de.md)** Taste. Es wird ein neuer Körper erzeugt, der ein einzelnes {{MenuCommand/de|Base Feature}} enthält. Dieses Basis Formelement ist eine einfache Referenz auf ein anderes Objekt, das zuvor erstellt oder in das Dokument importiert wurde. Siehe [Basis Formelement](PartDesign_Body#Base_Feature/de.md) für weitere Informationen. Ein vorhandener Körper oder [PartDesign Formelement](PartDesign_Feature/de.md) kann nicht ausgewählt werden, wenn Du **<img src="images/PartDesign_Body.svg" width=16px> [Körper](PartDesign_Body/de.md)** drückst.
+1.  Drücke die **<img src="images/PartDesign_Body.svg" width=16px> [Körper](PartDesign_Body/de.md)** Taste. Es wird ein neuer Körper erzeugt, der ein einzelnes **Base Feature** enthält. Dieses Basis Formelement ist eine einfache Referenz auf ein anderes Objekt, das zuvor erstellt oder in das Dokument importiert wurde. Siehe [Basis Formelement](PartDesign_Body#Base_Feature/de.md) für weitere Informationen. Ein vorhandener Körper oder [PartDesign Formelement](PartDesign_Feature/de.md) kann nicht ausgewählt werden, wenn Du **<img src="images/PartDesign_Body.svg" width=16px> [Körper](PartDesign_Body/de.md)** drückst.
+
+
 
 ### Hinweise
 
@@ -47,13 +53,17 @@ Wenn ein Festkörperobjekt ausgewählt ist:
 
 Wenn ein Körper bereits existiert, muss er vor der Verwendung von **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** aktiv gemacht werden.
 
--   Doppelklicke auf den Körper in der [Baumansicht](tree_view/de.md) oder öffne das Kontextmenü (Rechtsklick) und wähle {{MenuCommand/de|Aktiven Körper umschalten}}, um den Körper zu aktivieren oder zu deaktivieren. Wenn ein anderer Körper aktiv ist, wird er deaktiviert. Siehe [active status](PartDesign_Body#Active_status.md) für weitere Informationen.
+-   Doppelklicke auf den Körper in der [Baumansicht](tree_view/de.md) oder öffne das Kontextmenü (Rechtsklick) und wähle **Aktiven Körper umschalten**, um den Körper zu aktivieren oder zu deaktivieren. Wenn ein anderer Körper aktiv ist, wird er deaktiviert. Siehe [active status](PartDesign_Body#Active_status.md) für weitere Informationen.
+
+
 
 ## Eigenschaften
 
 Ein [PartDesign Körper](PartDesign_Body/de.md) (`PartDesign::Body` Klasse) wird von einer [Part Formelement](Part_Feature/de.md) abgeleitet. (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren.
 
 Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen Eigenschaften hat der PartDesign Körper die folgenden Eigenschaften im [Eigenschaftseditor](Property_editor/de.md).
+
+
 
 ### Daten
 
@@ -68,6 +78,8 @@ Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen 
 
 -    {{PropertyData/de|Gruppe}}: eine Liste mit den [PartDesign Formelemente](PartDesign_Feature/de.md) im Körper.
 
+
+
 #### Versteckte Eigenschaften 
 
 -    {{PropertyData/de|Origin|Link}}: Das [App Origin](App_OriginGroupExtension/de.md)-Objekt ist der Positionsbezug (Ursprung) für alle Elemente, die in der {{PropertyData/de|Group}} enthalten sind.
@@ -75,6 +87,8 @@ Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen 
 -    {{PropertyData/de|_ Group Touched|Bool}}: Gibt an, ob die Gruppe berührt (betroffen?) ist oder nicht.
 
 Auch die versteckten Eigenschaften sind in [Part Formelement](Part_Feature/de.md) beschrieben.
+
+
 
 ### Ansicht
 
@@ -93,7 +107,11 @@ Auch die versteckten Eigenschaften sind in [Part Formelement](Part_Feature/de.md
         
         stellt nur die endgültige Form des Körpers dar, die durch die Eigenschaft {{PropertyData/de|Spitze}} definiert ist. Alles andere, einschließlich [Skizzen](Sketch/de.md), [Teil Formelemente](PartDesign_Feature/de.md), Bezugspunkte usw., wird nicht angezeigt, auch wenn sie in der [Baumansicht](tree_view/de.md) sichtbar sind. Dieser Modus wird empfohlen, wenn der Körper nicht weiter modifiziert werden muss, so dass eine festgelegte Form angezeigt wird. Dieser Modus wird auch empfohlen, wenn Du die Unterelemente (Knoten, Kanten und Flächen) der endgültigen Form auswählen möchtest, um sie mit den Werkzeugen anderer Arbeitsbereiche zu verwenden.
 
+
+
 ## Körper Konzept 
+
+
 
 ### Einzeln zusammenhängender Körper 
 
@@ -103,6 +121,8 @@ Sobald diese zusammenhängenden Festkörper in irgendeiner Art von Anordnung zus
 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
 *Links: drei einzelne, zusammenhängende Festkörper, die jeweils durch einen PartDesign Körper modelliert werden. Rechts: die einzelnen Körper, die zu einer Baugruppe zusammengefügt werden.*
+
+
 
 ### Formelementbearbeitung
 
@@ -121,16 +141,20 @@ Ein PartDesign Körper führt eine automatische [Verschmelzung](Part_Fuse/de.md)
 
 andere CAD Programme wie Catia erlauben zusammenhängende Körper im gleichen \" Körper\". Ab v0.19 erlaubt FreeCAD dies nicht mehr. Es gab Diskussionen im [FreeCAD Forum](https://forum.freecadweb.org/index.php) über die Aufhebung dieser Einschränkung, aber es wurde noch keine konkrete Entscheidung getroffen. Wenn Du mehr wissen möchtest oder andere Standpunkte vertreten möchtest, diskutiere bitte im [Forum](https://forum.freecadweb.org/index.php).
 
+
+
 ## Ausführliche Erläuterung der Eigenschaften 
+
+
 
 ### Aktiver Status 
 
-Ein geöffnetes Dokument kann mehrere Körper enthalten. Um ein neues Formelement zu einem bestimmten Körper hinzuzufügen, muss es **aktiv** gemacht werden. Ein aktiver Körper wird in der [Baumansicht](tree_view/de.md) mit der Hintergrundfarbe angezeigt, die durch den Wert {{MenuCommand/de|aktiver Behälter}} im [Einstellungseditor](Preferences_Editor#Colors/de.md) angegeben wird. (standardmäßig hellblau). Ein aktiver Körper wird ebenfalls fett dargestellt.
+Ein geöffnetes Dokument kann mehrere Körper enthalten. Um ein neues Formelement zu einem bestimmten Körper hinzuzufügen, muss es **aktiv** gemacht werden. Ein aktiver Körper wird in der [Baumansicht](tree_view/de.md) mit der Hintergrundfarbe angezeigt, die durch den Wert **aktiver Behälter** im [Einstellungseditor](Preferences_Editor#Colors/de.md) angegeben wird. (standardmäßig hellblau). Ein aktiver Körper wird ebenfalls fett dargestellt.
 
 Um einen Körper zu aktivieren oder zu deaktivieren:
 
 -   Doppelklicke auf ihn in der [Baumansicht](tree_view/de.md), oder
--   Öffne das Kontextmenü (Rechtsklick) und wähle {{MenuCommand/de|Aktiven Körper umschalten}}.
+-   Öffne das Kontextmenü (Rechtsklick) und wähle **Aktiven Körper umschalten**.
 
 Beim Aktivieren eines Körpers wird automatisch in den [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) umgeschaltet. Es kann jeweils nur ein Körper zu einer Zeit aktiv sein.
 
@@ -139,6 +163,8 @@ Beim Aktivieren eines Körpers wird automatisch in den [PartDesign Arbeitsbereic
 
 
 *Dokument mit zwei PartDesign Körpern, von denen der zweite aktiv ist.*
+
+
 
 ### Ursprung
 
@@ -166,6 +192,8 @@ alle Elemente innerhalb des Körpers werden auf den Ursprung des Körpers refere
 
 
 *Links: PartDesign Körper Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Darstellung der Ursprung Elemente in der [3D Ansicht](3D_view/de.md).*
+
+
 
 ### Basis Formelement 
 
@@ -212,6 +240,8 @@ Das Basis Formelement ist vollkommen optional; es ist nur dann vorhanden, wenn e
 
 Wenn ein anderer PartDesign-Körper als BaseFeature ausgewählt wird, muss er eine Gestalt haben. Wenn er leer ist (ohne Objekte, BaseFeature,\...), wird dies zu einem Fehler führen.
 
+
+
 ### Spitze
 
 Die Spitze ist das [PartDesign Formelement](PartDesign_Feature/de.md), das außerhalb des Körpers freiliegt; d.h. wenn ein anderes Werkzeug aus einem beliebigen Arbeitsbereich (z.B. **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Part EinfacheKopie](Part_SimpleCopy/de.md)** oder **[<img src=images/Part_Cut.svg style="width:16px"> [Part Schnitt](Part_Cut/de.md)**) die Form des Körpers verwenden muss, wird es die Form der Spitze verwenden. Anders ausgedrückt, die Spitze ist die endgültige Darstellung des Körpers, als ob die parametrische Historie nicht existieren würde.
@@ -231,6 +261,8 @@ In der [Baumansicht](tree_view/de.md) wird die Spitze des Körpers durch das [Pa
 ![](images/PartDesign_Body_Tip_tree.png ) 
 *Zwei PartDesign Körper, jeder von ihnen mit [PartDesign Formelementen](PartDesign_Feature/de.md). Die Spitze ist das letzte Formelement in ihnen und wird mit einem Überlagerungssymbol markiert.*
 
+
+
 ### Wechselwirkung mit anderen Arbeitsbereichen 
 
 Standardmäßig sind [PartDesign Funktionen](PartDesign_Feature/de.md) in einem Körper auswählbar, da dies zur Bearbeitung und zum Hinzufügen weiterer Eigenschaften mit Werkzeugen des Arbeitsbereichs [PartDesign](PartDesign_Workbench/de.md) erforderlich ist. Die Auswahl einzelner Funktionen zur Verwendung mit Werkzeugen anderer Arbeitsbereiche, wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Workbench/de.md) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können. Wenn dies gemacht wird, kann in der [Berichtsansicht](Report_view/de.md) ein Fehler angezeigt werden: **Links go out of the allowed scope** (Verknüpfungen liegen außerhalb des erlaubten Bereiches).
@@ -245,6 +277,8 @@ Sobald die Unterelemente mit anderen Arbeitsbereichen verwendet wurden, kann {{P
 
 *Links: wenn "Anzeigemodus Körper" auf `Durch* gesetzt ist, ist es möglich, Operationen mit den einzelnen [PartDesign Formelementen](PartDesign_Feature/de.md) auszuwählen und durchzuführen; dies wird im Allgemeinen nicht empfohlen. Rechts: Wenn "Anzeigemodus Körper" auf {{incode|Spitze` gesetzt ist, werden alle am Körper vorgenommenen Auswahlen und Operationen an der Spitze ausgeführt, wobei sichergestellt wird, dass nur die endgültige Form des Körpers freigelegt wird.}}
 
+
+
 ### Sichtbarkeitsmanagement
 
 Die Sichtbarkeit des Körpers hat Vorrang vor der Sichtbarkeit seiner Elemente. Ist der Körper unsichtbar, sind alle Elemente unsichtbar. Ist dieser sichtbar kann immer nur ein Formelement sichtbar sein. Durch anklicken und die **Leertaste** schaltet man die Sichtbarkeit an oder aus.
@@ -253,6 +287,8 @@ Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur e
 
 ![](images/PartDesign_Body_Visibility.png ) 
 *PartDesign Körper: Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur ein Festkörper [PartDesign Formelement](PartDesign_Feature/de.md) kann gleichzeitig sichtbar sein, unabhängig davon, ob es sich um die Spitze handelt oder nicht.*
+
+
 
 ### Anfügung
 
@@ -265,6 +301,8 @@ Ein [PartDesign Formelement](PartDesign_Feature/de.md), das nicht angehängt ist
 ![](images/PartDesign_Body_Feature_attachment.png ) 
 *PartDesign Körper: [PartDesign Formelement](PartDesign_Feature/de.md) die nicht an eine Ebene oder ein Koordinatensystem gebunden sind, werden mit einem Überlagerungssymbol neben ihrem Symbol in der [Baumansicht](tree_view/de.md) angezeigt.*
 
+
+
 ## Vererbung
 
 Ein [PartDesign Körper](PartDesign_Body.md) ist formell eine Instanz der Klasse `PartDesign::Body`, deren Elternteil die [Part Formelement](Part_Feature.md) (`Part::Feature` Klasse) ist durch die Zwischenklasse {`Part::BodyBase`} und wird um eine Origin-Erweiterung erweitert.
@@ -276,6 +314,8 @@ Ein [PartDesign Körper](PartDesign_Body.md) ist formell eine Instanz der Klasse
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `PartDesign::Körper* Objekte werden zum Aufbau parametrischer 3D-Körper verwendet und sind somit vom Basisobjekt {{incode|Part::Formelement` abgeleitet.}}
 
 und haben einen Ursprung, um die Positionierung von Formen die darin verwendet werden zu steuern.
+
+
 
 ## Skripten
 

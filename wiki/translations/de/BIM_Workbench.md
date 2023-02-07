@@ -6,6 +6,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Arbeitsbereich](BIM_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md) mit dem Ziel, vollständige [Bauwerksdatenmodellierung](https://en.wikipedia.org/wiki/Building_information_modeling) (engl.: Building Information Modeling) (BIM) Werkzeuge und Arbeitsabläufe in FreeCAD zu implementieren. Er kann aus dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
@@ -18,15 +20,19 @@ Die Entwickler von Entwurf, Architektur und BIM arbeiten auch mit der größeren
 
 <img alt="" src=images/BIM_workbench_presentation.png  style="width:800px;">
 
+
+
 ## Installieren
 
-Der BIM Arbeitsbereich ist nicht mit dem Standard FreeCAD Paket gebündelt, kann aber einfach über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Rufe ihn vom {{MenuCommand/de|Werkzeuge → [Erweiterungsverwalter](Std_AddonMgr/de.md)}} auf. Der BIM Arbeitsbereichscode ist [bereitgestellt und entwickelt auf github](https://github.com/yorikvanhavre/BIM_Workbench) und kann auch manuell installiert werden, indem er in das FreeCAD Verzeichnis **MOD** kopiert wird.
+Der BIM Arbeitsbereich ist nicht mit dem Standard FreeCAD Paket gebündelt, kann aber einfach über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Rufe ihn vom **Werkzeuge → [Erweiterungsverwalter](Std_AddonMgr/de.md)** auf. Der BIM Arbeitsbereichscode ist [bereitgestellt und entwickelt auf github](https://github.com/yorikvanhavre/BIM_Workbench) und kann auch manuell installiert werden, indem er in das FreeCAD Verzeichnis **MOD** kopiert wird.
 
 **Hinweis**
 
 Der BIM Arbeitsbereich ist noch in Arbeit und wird sich häufig ändern. Achte darauf, sie regelmäßig zu aktualisieren! Wenn du das [Python-Git](https://github.com/chidimo/python-git) Modul installiert hast, sucht der BIM Arbeitsbereich beim Start automatisch nach verfügbaren Aktualisierungen und zeigt ein Symbol in der Statusleiste an, wenn eine Aktualisierung verfügbar ist.
 
 Die unten aufgeführten Werkzeuge sind möglicherweise auch nicht alle vorhanden, wenn deine FreeCAD Version nicht vollständig aktuell ist. Der BIM Arbeitsbereich sollte jedoch nahtlos auf allen FreeCAD Versionen funktionieren, er wird nur die nicht verfügbaren Werkzeuge auslassen.
+
+
 
 ## Erste Schritte 
 
@@ -42,6 +48,8 @@ Wenn du an eine andere BIM Anwendung gewöhnt bist, prüfe unserere [BIM Anwendu
 
 Das [in-game tutorial](BIM_ingame_tutorial/de.md) ist ein einfacher Weg, um schnell mit dem BIM Arbeitsbereich zurechtzukommen.
 
+
+
 ## Werkzeuge
 
 Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeitsbereichen, hauptsächlich [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md) und [Part](Part_Workbench/de.md), die grob in logische Kategorien eingeteilt sind: **2D Zeichnungs\'\',**3D Modellierungs\'\', **Anmerkungs** und **Änderungs** Werkzeuge. Die **verwalten** Kategorie enthält Werkzeuge, die spezifisch für den BIM Arbeitsbereich sind.
@@ -49,6 +57,8 @@ Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeits
 Zusätzlich, falls solche [Erweiterungen](External_workbenches/de.md) installiert sind, Werkzeuge von [Reinforcement](Arch_Rebar/de.md) (zusätzliche Werkzeuge für Bewehrungsstäbe), [Verbindungselemente](Fasteners_Workbench/de.md) (Bolzen und Schrauben), [Flamingo/Dodo](Flamingo_Workbench/de.md) (Metallstruktur- und Rohrleitungswerkzeuge) und [Teilebibliothek](Parts_Library_Workbench/de.md) sind automatisch im BIM Arbeitsbereich enthalten.
 
 Der BIM Arbeitsbereich fügt auch eine Reihe von Elementen in der **Statusleiste** von FreeCAD und einige **Kontextmenüelemente** hinzu, die durch einen Rechtsklick in der 3D Ansicht oder in der Baumansicht zugänglich sind.
+
+
 
 ### 2D Entwurf 
 
@@ -68,6 +78,8 @@ Der BIM Arbeitsbereich fügt auch eine Reihe von Elementen in der **Statusleiste
 -   <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Bézierkurve](Draft_BezCurve/de.md): Zeichnet eine Bézierkurve aus einer Reihe von Punkten
 -   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punkt](Draft_Point/de.md): Fügt ein Punktobjekt ein
 
+
+
 ### Anmerkung
 
 Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden können. Sie können verwendet werden, um dein Modell direkt in ein 2D Format wie [DXF](Draft_DXF/de.md) zu exportieren, oder bei der Erstellung von 2D Ansichten deines Modells mit der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) wiederverwendet werden.
@@ -82,6 +94,8 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Schnittebene](Arch_SectionPlane/de.md): Fügt dem Dokument ein Schnittebenenobjekt hinzu. Schnittebenen definieren 2D Aznsichten wie Pläne, Schnitte und Erhebungen.
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Seite](TechDraw_PageDefault/de.md): Erstellt eine neue [TechDraw](TechDraw_Workbench.md) Seite aus einer [SVG Vorlage](TechDraw_Templates/de.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Ansicht](TechDraw_ArchView/de.md): fügt eine Ansicht einer Schnittebene auf eine Seite ein
+
+
 
 ### 3D / BIM Modellierung 
 
@@ -123,6 +137,8 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Formbauer](Part_Builder/de.md): Ein Werkzeug zum Erstellen komplexerer Formen aus verschiedenen parametrischen geometrischen Grundelementen
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Flächenbinder](Draft_Facebinder/de.md): Erstellt ein neues Objekt aus ausgewählten Flächen auf vorhandenen Objekten
 
+
+
 ### Änderungswerkzeuge
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Bewegen](Draft_Move/de.md): Verschiebt Objekt(e) von einem Ort zu einem anderen
@@ -151,6 +167,8 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Komponente hinzufügen](Arch_Add/de.md): Fügt Objekte zu einer Komponente hinzu
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Komponente entfernen](Arch_Remove/de.md): Subtrahiert oder entfernt Objekte von einer Komponente
 
+
+
 ### Verwaltungswerkzeuge
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [BIM Einrichtung](BIM_Setup/de.md): Konfiguriert einige der am häufigsten für BIM verwendeten FreeCAD Einstellungen
@@ -167,6 +185,8 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Vorflugkontrollen](BIM_Preflight/de.md): Führe vor dem Export nach IFC verschiedene Prüfungen an deinem Modell durch
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
 
+
+
 ## Tutorien und Lernen 
 
 -   [Umstieg auf FreeCAD von Revit](Migrating_to_FreeCAD_from_Revit/de.md)
@@ -174,6 +194,8 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 -   [\"BIM mit FreeCAD\" Videoserie von Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD Tutorien\" Videoserie von Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" Videoserie von Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
+
+
 
 ## Externe Arbeitsbereiche 
 

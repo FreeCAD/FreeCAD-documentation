@@ -11,11 +11,15 @@
 
 # TechDraw ProjectShape/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"> **Rzut kształtu** tworzy rzuty kształtów. Rzuty tworzone są w oknie [widoku 3D](3D_view/pl.md), a nie na [stronie rysunku technicznego](TechDraw_PageDefault/pl.md).
 
 ![](images/ProjectShape1_it.png )
+
+
 
 ## Użycie
 
@@ -28,11 +32,15 @@ Narzędzie <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:24px;"
 5.  The selected options should not result in an empty projection as this will cause an error. For example, for an object with only sharp edges such as a [Part Box](Part_Box.md), the **Visible sharp edges** and/or **Hidden sharp edges** option must be checked.
 6.  Press the **OK** button.
 
-## Properties
+
+
+## Właściwości
 
 A Projection object is derived from a [Part Feature](Part_Feature.md) and inherits all its properties. It also has the following additional properties:
 
-### Data
+
+
+### Dane
 
 
 {{TitleProperty|Projection}}
@@ -61,9 +69,11 @@ A Projection object is derived from a [Part Feature](Part_Feature.md) and inheri
 
 -    **Iso Line HCompound|Bool**: If `True`, hidden isoparameters are shown. Does not work currently.
 
-## Notes
 
-This tool was previously available in the Drawing Workbench.
+
+## Uwagi
+
+Narzędzie to było wcześniej dostępne w środowisku pracy Kreślenie.
 
 
 

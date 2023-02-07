@@ -79,7 +79,13 @@ Stranica[help FreeCAD](Special:MyLanguage/help_FreeCAD/hr.md) opisuje sve to s v
 
 ### Izvorni kod 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD može biti kompiliran na svim platformama koristeći [CMake](https://cmake.org/). Izvorni kod je [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) licenciran i udomljen na [GitHub](https://github.com/FreeCAD/FreeCAD)i zrcaljen na [GitLab](https://gitlab.com/freecad/FreeCAD) and [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD) tamo se nalaze uputstva za [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) i [MacOSX](Compile_on_MacOS.md). Dokumentacija izvornog koda se nalazi [ovdje](http://www.freecadweb.org/api/), napravljena sa programom [Doxygen](Doxygen.md), i [dokumentirana na wiki stranici](Source_documentation.md)
+
+
+</div>
 
 
 

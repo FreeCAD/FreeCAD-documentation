@@ -28,6 +28,8 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its **Ang
 <img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -36,7 +38,7 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its **Ang
 
 ### Prima metodă 
 
-Faceți clic direct pe butonul {{KEY/it|<img src="images/_Part_Cylinder.png" width=16px> Cilindru}} din bara de instrumente.
+Faceți clic direct pe butonul **<img src="images/_Part_Cylinder.png" width=16px> Cilindru** din bara de instrumente.
 
 Creează un cilindru implicit cu o rază de 2 mm, înălțime de 10 mm și centrul cercului inferior poziționat la origine (punctul 0,0,0).
 
@@ -65,6 +67,8 @@ A Part Cylinder object created with the [scripting example](#Scripting.md) below
 ## Notes
 
 -   A Part Cylinder can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 
 <div class="mw-translate-fuzzy">

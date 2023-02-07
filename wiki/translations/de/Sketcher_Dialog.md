@@ -6,11 +6,15 @@
 
 </div>
 
+
+
 ## Einleitung
 
 Wenn du dich in einer Skizze befindest, wird der Skizzierdialog im Combo-Ansichtsfenster auf der Registerkarte Aufgaben (Aufgabenleiste) angezeigt. Um in eine Skizze zu springen, wähle diese im Modellbaum aus, doppelklicke darauf oder klicke mit der rechten Maustaste darauf und wähle dann im Kontextmenü **Skizze bearbeiten**. Eine weitere Möglichkeit ist, auf das Symbol in der Werkzeugleiste zu klicken <img alt="" src=images/Sketcher_EditSketch.svg  style="width:20px;">. ([Skizze bearbeiten](Sketcher_EditSketch/de.md)).
 
 Der Dialog besteht aus den folgenden Abschnitten:
+
+
 
 ## Meldungen des Lösers 
 
@@ -19,16 +23,18 @@ Dieser Abschnitt informiert dich über den Zustand der Skizze, ob sie unter- ode
 Es gibt zwei Optionen für Löser-Meldungen:
 
 +++
-| Name                                                       | Description                                                                                                                                                                                                                                                                                                                                                 |
-+============================================================+=============================================================================================================================================================================================================================================================================================================================================================+
-|                                             | Wenn diese Option aktiviert ist, werden neu erstellte Zwangsbeschränkungen, die für die bestehenden Zwangsbeschränkungen redundant sind, automatisch entfernt. Die Beseitigung erfolgt stillschweigend für Zwangsbeschränkungen, die nicht dimensional sind.                                                                                                |
-| {{MenuCommand/de|Automatische Entfernung von Redundanzen}} | Hinweis: Bei dimensional redundanten Zwangsbeschränkungen wirst Du darüber informiert, dass die neue Zwangsbeschränkungen ungültig ist, unabhängig davon, ob Du {{MenuCommand/de|Automatische Entfernung von Redundanzen}} verwendest oder nicht.                                                                                             |
-|                                                         |                                                                                                                                                                                                                                                                                                                                                             |
+| Name                                                    | Description                                                                                                                                                                                                                                                                                                                                                 |
++=========================================================+=============================================================================================================================================================================================================================================================================================================================================================+
+|                                          | Wenn diese Option aktiviert ist, werden neu erstellte Zwangsbeschränkungen, die für die bestehenden Zwangsbeschränkungen redundant sind, automatisch entfernt. Die Beseitigung erfolgt stillschweigend für Zwangsbeschränkungen, die nicht dimensional sind.                                                                                                |
+| **Automatische Entfernung von Redundanzen** | Hinweis: Bei dimensional redundanten Zwangsbeschränkungen wirst Du darüber informiert, dass die neue Zwangsbeschränkungen ungültig ist, unabhängig davon, ob Du **Automatische Entfernung von Redundanzen** verwendest oder nicht.                                                                                                |
+|                                                      |                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                             | Wenn diese Option aktiviert ist, wird das gesamte Dokument nach jeder Skizzenaktion neu berechnet. Der Vorteil ist, dass du, wenn du z.B. die Skizze einer Tasche bearbeitest, den Effekt sofort siehst. Der Nachteil ist, dass es bei komplexen Dokumenten sehr lange dauert. Deaktiviere daher die Option, wenn die Bearbeitung von Skizzen langsam wird. |
-| {{MenuCommand/de|Automatische Aktualisierung}}             |                                                                                                                                                                                                                                                                                                                                                             |
-|                                                         |                                                                                                                                                                                                                                                                                                                                                             |
+|                                          | Wenn diese Option aktiviert ist, wird das gesamte Dokument nach jeder Skizzenaktion neu berechnet. Der Vorteil ist, dass du, wenn du z.B. die Skizze einer Tasche bearbeitest, den Effekt sofort siehst. Der Nachteil ist, dass es bei komplexen Dokumenten sehr lange dauert. Deaktiviere daher die Option, wenn die Bearbeitung von Skizzen langsam wird. |
+| **Automatische Aktualisierung**             |                                                                                                                                                                                                                                                                                                                                                             |
+|                                                      |                                                                                                                                                                                                                                                                                                                                                             |
 +++
+
+
 
 ## Erweiterte Steuerung des Lösers 
 
@@ -110,6 +116,8 @@ Es kann Folgendes festgelegt werden:
 
 *Hinweis:* Die meisten der Löser-Parameter haben keinen praktischen Nutzen. Sie können trotzdem beim Testen und Verstehen der Löser helfen.
 
+
+
 ## Bedienelemente bearbeiten 
 
 Dieser Dialog kann durch deaktivieren der Option **Bereich \'Bedienelemente bearbeiten\' anzeigen** in den [Voreinstellungen des Sketchers](Sketcher_Preferences/de.md) unterdrückt werden. {{Version/de|1.0}}
@@ -146,6 +154,8 @@ Du kannst die folgenden Steuerelemente einstellen:
 |                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
 
+
+
 ## Einschränkungen
 
 In diesem Abschnitt werden die Einschränkungen der Skizze aufgelistet. Wenn du eine Zwangsbeschränkung in der Liste deaktivierst, kannst du es ausblenden.
@@ -173,6 +183,8 @@ You can set the following options:
 |                                                | Die GeoID ist die Nummer des Skizzenelements minus 1. Der Ursprung des Koordinatensystems hat die GeoID *-1*.                                                                                                                                                                                                                                                  |
 |                                                | Eine Bemaßung vom Ursprung zu einem Kreis mit der Elementnummer \'2\' wird bspw. diese Information haben: \[(1,3);(-1,1)\]                                                                                                                                                                                                                                     |
 +++
+
+
 
 ## Elemente
 

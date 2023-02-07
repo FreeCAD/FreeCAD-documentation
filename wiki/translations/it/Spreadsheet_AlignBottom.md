@@ -9,9 +9,13 @@
 
 # Spreadsheet AlignBottom/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:16px;"> **Allinea in basso** rende il testo all\'interno della cella allineato alla parte inferiore della cella.
+
+
 
 ## Utilizzo
 

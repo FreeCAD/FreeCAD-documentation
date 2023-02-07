@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std PythonHelp
-   MenuLocation:Help → Automatic python modules documentation
-   Workbenches:All
-   SeeAlso:[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md)
+   Name/pl:Std: Pomoc dla środowiska Python
+   MenuLocation:Pomoc → Dokumentacja automatyczna modułów Python
+   Workbenches:wszystkie
+   SeeAlso:[Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md)
 ---
 
 # Std PythonHelp/pl
@@ -12,16 +13,16 @@
 
 ## Opis
 
-The **Std PythonHelp** command starts a web server that communicates with the system\'s default Internet browser over a local socket. The web server displays information about the available [Python](Python.md) modules, classes and functions of FreeCAD. The required pages are generated automatically.
+Polecenie **Dokumentacja skryptów środowiska Python** uruchamia serwer WWW, który komunikuje się z domyślną przeglądarką internetową systemu przez lokalne gniazdo. Serwer WWW wyświetla informacje o dostępnych modułach środowiska [Python](Python/pl.md), klasach i funkcjach programu FreeCAD. Żądane strony są generowane automatycznie.
 
-The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) module, and thus extracts the docstrings of Python files (`.py`), and textual documentation defined in the Python wrappers (`.xml`) which expose the underlying C++ code.
+Serwer internetowy jest oparty na module Python [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc), dzięki czemu wydobywa \"docstringi\" plików Pythona (`.py`) oraz dokumentację tekstową zdefiniowaną w \"wrapperach\" Pythona (`.xml`), które odsłaniają leżący u ich podstaw kod C++.
 
 
 
 ## Użycie
 
-1.  Select the **Help → <img src="images/Std_PythonHelp.svg" width=16px> Automatic python modules documentation** option from the menu.
-2.  Click on any of the links to go to the documentation of a specific class or function.
+1.  Wybierz z menu opcję **Pomoc → <img src="images/Std_PythonHelp.svg" width=16px> Dokumentacja automatycznych modułów Python**.
+2.  Kliknij dowolny z linków, aby przejść do dokumentacji konkretnej klasy lub funkcji.
 
 
 

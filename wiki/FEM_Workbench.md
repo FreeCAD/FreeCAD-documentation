@@ -55,9 +55,10 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Used to create fluid section element for pneumatic and hydraulic networks.
 
-### Electrostatic Constraints 
+### Electromagnetic Constraints 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md): Used to define electrostatic potential.
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v1.0)</small> 
 
 ### Fluid Constraints 
 

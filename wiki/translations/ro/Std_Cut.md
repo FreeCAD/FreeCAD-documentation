@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -16,6 +18,8 @@ Instrumentul șterge selecția din document și o plasează în clipboard. Parte
 </div>
 
 To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by a delete operation.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,7 +42,7 @@ Același rezultat poate fi obținut prin utilizarea butoanelor din bara de instr
 
 Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
--   folosiți tasta {{KEY/it|CTRL}} făcând clic pe funcțiile pe care doriți să le copiați,
+-   folosiți tasta **CTRL** făcând clic pe funcțiile pe care doriți să le copiați,
 -   sau în meniul **Editați** utilizați elementul**Caseta de selectare** pentru a selecta obiectele incluse într-o anumită zonă,
 -   sau în meniul **Edit** utilizați intrarea {{KEY | [ <img src=images/_Std_SelectAll.png  style="width:16px"> Selectați toate}} pentru a selecta întregul document.
 

@@ -381,7 +381,7 @@ Nach Fertigstellung kann es ausgeführt werden: Unten links befinden sich 2 grü
 
 Die Schritte, wie man von der Kommandozeile aus kompiliert, hängen vom Compiler ab. Für MSVC 2017 sind die Schritte:
 
-1.  In Windows\' Startmenü gehen Sie zu {{MenuCommand/de|Visual Studio 2017 → Visual Studio Tools}} und wähle **Developer Command Prompt for VS 2017**.
+1.  In Windows\' Startmenü gehen Sie zu **Visual Studio 2017 → Visual Studio Tools** und wähle **Developer Command Prompt for VS 2017**.
 2.  Wechsle in deinen Buildordner.
 3.  Führe den Befehl aus
 

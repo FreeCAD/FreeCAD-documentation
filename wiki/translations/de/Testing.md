@@ -3,6 +3,8 @@
 
 {{TOCright}}
 
+
+
 ## Einführung
 
 Der Arbeitsbereich [Erprobung](Testing/de.md) ist nicht wirklich ein Modellierungsarbeitsbereich, aber er enthält einen Satz von [Python](Python/de.md) Skripten, zum Durchzuführen verschiedener Tests an den Kernkomponenten von FreeCAD, um Probleme zu beheben. Siehe auch [Fehlerdiagnose](Debugging/de.md).
@@ -30,11 +32,15 @@ Wenn ein Test die Benutzerschnittstelle (GUI) nicht braucht, kann er auch im Kon
 freecad -c -t TestPartDesignApp
 ```
 
+
+
 ## Testmenü
 
 Jedes oberste Verzeichnis in FreeCAD sollte eine Datei mit den Tests haben, die für diesen speziellen Arbeitsbereich oder dieses Modul ausgeführt werden können. Die Datei beginnt normalerweise mit dem Wort `Test`.
 
-Um einen Test aus FreeCAD heraus auszuführen, wechsle in den Test Arbeitsbereich, dann {{MenuCommand/de|Testbefehle → TestWerkzeugeGui → Selbsttest → Wähle Testbezeichnung}}, gib dann den Namen der Python Datei mit den Tests ein; z.B. für die [Draft Arbeitsbereich](Draft_Workbench/de.md) wäre dies {{MenuCommand/de|TestEntwurf}}, dann drücke **Start**.
+Um einen Test aus FreeCAD heraus auszuführen, wechsle in den Test Arbeitsbereich, dann **Testbefehle → TestWerkzeugeGui → Selbsttest → Wähle Testbezeichnung**, gib dann den Namen der Python Datei mit den Tests ein; z.B. für die [Draft Arbeitsbereich](Draft_Workbench/de.md) wäre dies **TestEntwurf**, dann drücke **Start**.
+
+
 
 ## Testfunktionen
 
@@ -44,13 +50,19 @@ Dies ist die Liste der Testanwendungen ab 0.15 git 4207:
 
 Testfunktion hinzufügen
 
+
+
 ### Basistests
 
 Testfunktion hinzufügen
 
+
+
 ### EinheitTests
 
 Testfunktion hinzufügen
+
+
 
 ### Dokument
 
@@ -80,6 +92,8 @@ Testfunktion hinzufügen
 
 Testfunktion hinzufügen
 
+
+
 ### TestPartApp 
 
 Path workbench test cases:
@@ -108,9 +122,13 @@ Path workbench test cases:
 -   TestPathVcarve: Test general functionality of Vcarve operation.
 -   TestPathVoronoi:
 
+
+
 ### Arbeitsbereich
 
 Testfunktion hinzufügen
+
+
 
 ### Menü
 
@@ -123,6 +141,8 @@ Testfunktion hinzufügen
 ### Menu.MenuCreateCases
 
 Testfunktion hinzufügen
+
+
 
 ## Skripten
 
@@ -156,6 +176,8 @@ import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
 
+
+
 ### Beispiel 1 
 
 Innerhalb der Python-Konsole von FreeCAD kann das folgende Code-Format benutzt werden, um eingebaute Tests auszuführen. Ersetze den roten \"**TestFem**\"-Text im folgenden Code mit dem gewünschten Namen des Testmoduls.
@@ -176,7 +198,11 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
+
+
 ## Zusätzliche Quellen 
+
+
 
 ### Forum-Themen 
 

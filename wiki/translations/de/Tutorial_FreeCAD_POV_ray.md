@@ -17,6 +17,8 @@
 
 
 
+
+
 ## Einleitung
 
 Dieses Tutorial zeigt, wie man ein gerendertes Bild in FreeCAD mit dem POV-Ray Renderer erzeugt. Es wird davon ausgegangen, dass der Anwender bereits ein Teil oder eine Baugruppe in FreeCAD erstellt oder in FreeCAD importiert hat. Es verwendet die [Raytracing Arbeitsbereich](Raytracing_Workbench/de.md), um die Datei für das Rendern zu erzeugen.
@@ -31,11 +33,15 @@ Dieses Tutorial basiert auf dem Forumsbeitrag von schupin [FreeCAD / pov ray tut
 
 Die in diesem Tutorial verwendeten Dateien befinden sich im Beitrag Nr. 8 [im selben Diskussionsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
+
+
 ## Grundaufbau
 
 Folge dem grundlegenden Arbeitsablauf, der in der Dokumentation [Raytracing Workbench/de](Raytracing_Workbench/de.md) beschrieben ist.
 
-Damit das direkte Rendern funktioniert, muss die ausführbare Datei `povray` in {{MenuCommand/de|Bearbeiten → Einstellungen → Raytracing → Rendern → POV-Ray Programmdatei}}; setze sie auf deinem Speicherort in deinem System, z.B. `/usr/bin/povray`. Andere vom Renderer verwendete Optionen können hier ebenfalls definiert werden, einschließlich der Breite `+W` und Höhe `+H` des Bildes sowie die Verwendung von Antialiasing `+A`.
+Damit das direkte Rendern funktioniert, muss die ausführbare Datei `povray` in **Bearbeiten → Einstellungen → Raytracing → Rendern → POV-Ray Programmdatei**; setze sie auf deinem Speicherort in deinem System, z.B. `/usr/bin/povray`. Andere vom Renderer verwendete Optionen können hier ebenfalls definiert werden, einschließlich der Breite `+W` und Höhe `+H` des Bildes sowie die Verwendung von Antialiasing `+A`.
+
+
 
 ## Einrichten der .pov Datei 
 
@@ -109,6 +115,8 @@ Doppelklicke noch einmal auf das Objekt `PovProject` und wähle nun die Vorlage 
 Wenn das gerenderte Bild gut genug ist, dann kann es gespeichert werden, und es gibt nichts mehr zu tun. Um jedoch das Aussehen der Materialien genau zu kontrollieren und noch bessere Ergebnisse zu erzielen, muss die `.pov` Datei manuell bearbeitet werden.
 
 In den folgenden Abschnitten bearbeiten wir die Basisdatei `.pov`, die mit der Vorlage `ProjectStd` erstellt wurde.
+
+
 
 ## Bearbeiten der .pov Datei 
 
@@ -220,6 +228,8 @@ light_source {
 
 </div>
 
+
+
 ### Grundlegende Reorganisation 
 
 10\. Öffne die Datei `.pov` mit einem Texteditor, gehe zum Ende der Datei, wähle den `light_source` Abschnitt aus, schneide ihn aus und füge ihn vor der ersten `//face number1` Zeile ein.
@@ -252,6 +262,8 @@ light_source {
 .
 .
 ```
+
+
 
 ### Lichter vorbereiten 
 
@@ -309,6 +321,8 @@ sky_sphere {
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, wobei die Lichtquelle und die Himmelskugel eingerichtet werden.*
 
+
+
 ### Bereite die Körpertexturen vor 
 
 13\. Die Texturen der einzelnen Körper müssen angepasst werden. Dies ist die zeitaufwendigste Aufgabe dieses Prozesses.
@@ -347,6 +361,8 @@ Wie im Kommentar angegeben, steht die Definition von `StdFinish` ganz oben in de
 
 Im Allgemeinen ist eine `Textur` ein Behälter, der ein Material beschreibt; er enthält Informationen wie das `Pigment` (Farbe oder Grafik), `normal` (wie sich die Farbe mit der Krümmung der Oberfläche ändert), `finish` (Wechselwirkung der Oberfläche mit dem Licht), `pattern` (Achat, Ziegel, Dellen, Leopard, Radial, Wellen, Fliesen, Wellen, Holz usw.) und andere Eigenschaften. Es gibt viele Optionen, die miteinander kombiniert werden können, um eine Textur zu erzeugen. Dieses Mischen ist nicht trivial, aber es gibt viele Beispiele online, um das gewünschte Aussehen des Materials zu erhalten.
 
+
+
 #### Materialbibliotheken
 
 14\. POV-Ray wird mit einer umfangreichen Bibliothek von Materialien geliefert, die namentlich verwendet werden können. Standardmäßig stellt die Projektvorlage einige Materialien durch die Verwendung von `#include` Anweisungen am Anfang der Datei zur Verfügung. Diese Materialien können nach Belieben weiter modifiziert werden. 
@@ -361,6 +377,8 @@ Die Standardbibliotheken befinden sich im Installationsverzeichnis von POV-ray, 
 ```python
 /usr/share/povray-3.7/include/
 ```
+
+
 
 #### Neue Texturen 
 
@@ -429,6 +447,8 @@ object {Pov_Body001
 
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, mit der Lichtquelle und der Himmelskugel eingerichtet und den Materialien zugeordnet.*
+
+
 
 ### Ebenen vorbereiten 
 
@@ -531,6 +551,8 @@ plane {
 
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, wobei die Lichtquelle und die Himmelskugel eingerichtet, die Materialien zugeordnet, eine Bodenebene mit einer Parketttextur und Rückwände mit Trockenbautexturen.*
+
+
 
 ### Bereite die globalen Einstellungen vor, radiosity 
 
@@ -667,6 +689,8 @@ Der [Raytracing Arbeitsbereich](Raytracing_Workbench/de.md) hat drei Standardvor
 -    `RadiosityNormal.pov`, es verwendet die Voreinstellung `Radiosity_Normal`.
 
 -    `RadiosityOutdoorHQ.pov`, es verwendet die Voreinstellung `Radiosity_OutdoorHQ`.
+
+
 
 ## Endgültiges Rendern 
 
@@ -860,6 +884,8 @@ light_source {
 
 
 </div>
+
+
 
 ## Schlussbemerkungen
 

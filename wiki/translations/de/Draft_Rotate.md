@@ -1,40 +1,46 @@
 ---
 - GuiCommand:/de
    Name:Draft Rotate
-   Name/de:Entwurf Drehen
-   MenuLocation:Modification → Drehen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Name/de:Draft Drehen
+   MenuLocation:Änderung → Drehen
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**R****O**
    Version:0.7
-   SeeAlso:[Entwurf UnterelementMarkieren](Draft_SubelementHighlight/de.md)
+   SeeAlso:[Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md)
 ---
 
 # Draft Rotate/de
 
+
+
 ## Beschreibung
 
-Die <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Entwurf Drehen** Anweisung dreht oder kopiert die ausgewählten Objekte um ein Zentrum in einem gegebenen Winkel. Im Unterelementemodus dreht die Anweisung ausgewählte Punkte und Kanten oder Kopien von ausgewählten Kanten um [Linien](Draft_Line/de.md) und [Drähte](Draft_Wire/de.md).
+Der Befehl <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Drehen** dreht oder kopiert ausgewählte Objekte um ein Zentrum in einem gegebenen Winkel. Im Unterelemente-Modus dreht die Anweisung ausgewählte Punkte und Kanten oder Kopien von ausgewählten Kanten von [Draft Linien](Draft_Line/de.md) und [Draft Drähte](Draft_Wire/de.md).
 
-Das Anweisung kann auf 2D-Formen angewendet werden, die mit dem [Draft](Draft_Workbench/de.md)- oder [Skizzierer](Sketcher_Workbench/de.md)-Arbeitsbereich erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie die mit dem [Part](Part_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Arbeitsbereich erzeugten.
+Der Befehl kann auf 2D-Formen angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie denen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erzeugt wurden.
 
 <img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
-*Drehen eines Objekts um en Zentrum*
+*Drehen eines Objekts um einen Drehpunkt*
+
+
 
 ## Anwendung
 
-Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Ein oder mehrere Objekte oder Unterelemente als [Linien](Draft_Line/de.md) oder [Drähte](Draft_Wire/de.md) auswählen.
-2.  Es gibt mehrere Wege, die Anweisung auszuführen:
-    -   Auf die Schaltfläche **<img src="images/Draft_Rotate.svg" width=16px> [Entwurf Drehen](Draft_Rotate/de.md)** klicken.
-    -   Den Menüpunkt **Modification → <img src="images/Draft_Rotate.svg" width=16px> Drehen** wählen.
-    -   Das Tastenkürzel **R** dann **O** verwenden.
-3.  Wenn noch kein Objekt gewählt wurde, dann eines in der [3D-Ansicht](3D_view/de.md) wählen.
-4.  Die **Drehen**-Ansicht wird geöffnet. Siehe auch [Optionen](#Options.md).
-5.  Wenn Unterelemente gewählt wurden: über das **Modify subelements**-Auswahlkästchen das Unterelementmenü aktivieren.
-6.  Den ersten Punkt, das Zentrum der Drehung, in der [3D-Ansicht](3D_view/de.md) wählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** anklicken.
+1.  Wahlweise ein oder mehrere Objekte auswählen oder Unterelemente von [Draft Linien](Draft_Line/de.md) oder [Draft Drähten](Draft_Wire/de.md).
+2.  Es gibt mehrere Möglichkeiten den Befehl auszuführen:
+    -   Die Schaltfläche **<img src="images/Draft_Rotate.svg" width=16px> [Drehen](Draft_Rotate/de.md)** klicken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Rotate.svg" width=16px> Drehen** wählen.
+    -   Das Tastenkürzel **R** dann **O**.
+3.  Wenn noch kein Objekt ausgewählt wurde: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Der Aufgabenbereich **Drehen** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+5.  Wenn Unterelemente ausgewählt wurden: die Check-Box **Unterelemente ändern** aktivieren, um in den Unterelemente-Modus umzuschalten.
+6.  Den ersten Punkt, das Zentrum der Drehung, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** anklicken.
 7.  Den zweiten Punkt in the [3D-Ansicht](3D_view/de.md) wählen oder einen **Basiswinkel** eingeben.
 8.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) wählen oder eine **Drehung** eingeben.
+
+
 
 ## Optionen
 
@@ -57,9 +63,13 @@ Die hier erwähnten Tastenkombinationen für einzelne Zeichen und die Modifikato
 
 </div>
 
+
+
 ## Hinweise
 
 -   Ein Objekt das [angehängt](Part_EditAttachment/de.md) ist, kann nicht mit der Drehen-Anweisung gedreht werden. Entweder sein {{PropertyData/de|Support}}-Objekt wird gedreht, oder sein {{PropertyData/de|Attachment Offset}} wird geändert, um es zu drehen.
+
+
 
 ## Einstellungen
 
@@ -68,6 +78,8 @@ Siehe auch: [Editor Einstellungen](Preferences_Editor/de.md) und [Entwurf Einste
 -   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
 -   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+
+
 
 ## Skripten
 

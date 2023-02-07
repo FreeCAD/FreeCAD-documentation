@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Beschreibung
 
 Das [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md) Werkzeug erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balken [Architektur Struktur](Arch_Structure/de.md) Objekts erzeugen.
@@ -22,7 +24,7 @@ Das [Arch Balkenverstärkung](Arch_Rebar_BeamReinforcement/de.md)-Werkzeug ist a
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das **Werkzeuge → Erweiterungsverwalter → Bewehrung**-Menü installiert werden kann.
 
 
 </div>
@@ -32,6 +34,8 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 
 *Balkenbewehrung innerhalb eines Balkenss [Architektur Struktur](Arch_Structure/de.md)*
+
+
 
 ## Anwendung
 
@@ -147,6 +151,8 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 15\. Click **Cancel** to exit the dialog box.
 
+
+
 ## Eigenschaften
 
 **Stirrups:**
@@ -198,6 +204,8 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 -    **Rounding**: List of a rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
 -    **Rebar Spacing**: Clear spacing between consecutive reinforcement bars.
+
+
 
 ## Skripten
 

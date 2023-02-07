@@ -1,13 +1,4 @@
 # Manual:A gentle introduction/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) è un linguaggio di programmazione open source, ampiamente popolare, molto spesso incorporato in una applicazione come script, come nel caso di FreeCAD. Esso ha una serie di caratteristiche che lo rendono particolarmente interessante per gli utenti di FreeCAD: È molto facile da imparare, specialmente per le persone che non hanno mai programmato prima, ed è incorporato in molte altre applicazioni, il che lo rende un prezioso strumento da conoscere, e poi essere in grado di usarlo in molte altre applicazioni, come ad esempio [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) o [GRASS](http://grass.osgeo.org/).
@@ -16,31 +7,23 @@ FreeCAD fa un ampio uso di Python. Con esso, è possibile accedere e controllare
 
 ![](images/Exercise_python_01.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-Ma la console Python ha anche un altro uso molto importante: Ogni volta che si preme un pulsante della barra degli strumenti, o si eseguono altre operazioni in FreeCAD, un po\' di codice Python viene stampato nella console ed eseguito. Lasciando la console Python aperta, è possibile letteralmente vedere il codice python svolgersi mentre si lavora, e in poco tempo, quasi inconsapevolmente, si impara un po\' di linguaggio Python.
-
-
-</div>
+Ma la console Python ha anche un altro uso molto importante: Ogni volta che si preme un pulsante della barra degli strumenti, o si eseguono altre operazioni in FreeCAD, un po\' di codice Python viene stampato nella console (se l\'opzione **Mostra comandi script nella console Python** è abilitata in **Modifica → Preferenze → Generale → Macro**) ed eseguito. Lasciando la console Python aperta, è possibile letteralmente vedere il codice python svolgersi mentre si lavora, e in poco tempo, quasi inconsapevolmente, si impara un po\' di linguaggio Python.
 
 FreeCAD ha anche un [sistema di macro](Macros/it.md), che permette di registrare le azioni per poterle riprodurre in un momento successivo. Anche questo sistema utilizza la console Python, registrando semplicemente in essa tutto ciò che viene fatto.
 
 In questo capitolo, scopriremo molto in generale il linguaggio Python. Se siete interessati a saperne di più, il wiki della documentazione di FreeCAD ha una vasta sezione relativa alla [programmazione in Python](Power_users_hub/it.md).
 
+
+
 ### Scrivere del codice Python 
 
-
-<div class="mw-translate-fuzzy">
-
-Ci sono due semplici modi per scrivere del codice Python in FreeCAD: dalla console Python (menu **Visualizza -\> Pannelli -\> Console Python**), o dall\'editor delle Macro (menu **Strumenti -\> Macro -\> Nuova**). Nella console, si scrivono i comandi Python uno per uno, e essi vengono eseguiti quando si preme Invio, mentre la macro può contenere uno script più complesso fatto di diverse righe, e viene eseguita solo quando la macro viene lanciata dalla stessa finestra Macro.
-
-
-</div>
+Ci sono due semplici modi per scrivere del codice Python in FreeCAD: dalla console Python (**Visualizza → Pannelli → Console Python**), o dall\'editor delle Macro (**Strumenti → Macro → Nuova**). Nella console, si scrivono i comandi Python uno per uno, e essi vengono eseguiti quando si preme Invio, mentre la macro può contenere uno script più complesso fatto di diverse righe, e viene eseguita solo quando la macro viene lanciata dalla stessa finestra Macro.
 
 In questo capitolo, si descrive come utilizzare entrambi i metodi, ma si consiglia vivamente di utilizzare la console Python, perché essa informa immediatamente l\'utente sugli eventuali errori che si possono fare durante la digitazione.
 
-Se questa è la prima volta che si sta usando Python, prendere in considerazione la lettura di questa breve [introduzione a Python programming](Introduction_to_Python/it.md) prima di andare avanti, renderà più chiari i concetti di base di Python.
+Se questa è la prima volta che si sta usando Python, prendere in considerazione la lettura di questa breve [introduzione a Python](Introduction_to_Python/it.md) prima di andare avanti, renderà più chiari i concetti di base di Python.
+
+
 
 ### Manipolare gli oggetti di FreeCAD 
 
@@ -66,13 +49,7 @@ Nella vista ad albero viene aggiunto un cubo, ma nella vista 3D non succede anco
 
 doc.recompute()
 
-
-<div class="mw-translate-fuzzy">
-
-Ora nella vista 3D è apparso il cubo. Molti dei pulsanti della barra degli strumenti che aggiungono oggetti in FreeCAD in effetti fanno due cose: aggiungono l\'oggetto, e ricalcolano. Se la casella \"Mostra i comandi di script nella console Python\" descritta in precedenza è attiva, provate ad aggiungere una sfera con l\'apposito pulsante dell\'ambiente Parte, e vedrete le due righe di codice Python eseguite una dopo l\'altra.
-
-
-</div>
+Ora nella vista 3D è apparso il cubo. Molti dei pulsanti della barra degli strumenti che aggiungono oggetti in FreeCAD in effetti fanno due cose: aggiungono l\'oggetto, e ricalcolano. Provate ad aggiungere una sfera con l\'apposito pulsante dell\'ambiente Parte, e vedrete le due righe di codice Python eseguite una dopo l\'altra.
 
 È possibile ottenere un elenco di tutti i possibili tipi di oggetti come Part::Box:
 
@@ -100,6 +77,8 @@ Provare esempio per accedere al colore della linea del box:
 
 box.ViewObject.LineColor 
 
+
+
 ### Vettori e Posizionamento 
 
 I vettori sono un concetto fondamentale in qualsiasi applicazione 3D. Si tratta di un elenco di 3 numeri (x, y e z), che descrivono un punto o una posizione nello spazio 3D. Con i vettori si possono fare un sacco di cose, come addizioni, sottrazioni, proiezioni e molto altro ancora. In FreeCAD i vettori di lavorano in questo modo:
@@ -122,26 +101,11 @@ box.Placement = otherpla
 
 **Approfondimenti**
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Python](https://www.python.org)
--   [Lavorare con le Macro](Macros/it.md)
--   [Introduzione agli script Python](Introduction_to_Python/it.md)
--   [Usare Python in FreeCAD](Python_scripting_tutorial/it.md)
--   [Hub degli script Python](Power_users_hub/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [Macro](Macros/it.md)
+-   [Introduzione a Python](Introduction_to_Python/it.md)
+-   [Guida agli script di Python ](Python_scripting_tutorial/it.md)
+-   [Hub degli utenti esperti](Power_users_hub/it.md)
 
 
 

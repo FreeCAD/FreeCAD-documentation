@@ -46,17 +46,11 @@ Ora nella pagina c\'è una vista dall\'alto del corpo, però è un po\' piccola.
 
 ![](images/TDTut_TopView2to1.png )
 
-
-<div class="mw-translate-fuzzy">
-
 Meglio, ma un po\' noioso. Aggiungiamo alcune dimensioni.
 
-1.  Selezionare (tasto sinistro del mouse) il vertice in alto a sinistra (piccolo punto), quindi selezionare (**Ctrl**-tasto sinistro del mouse) il vertice in basso a sinistra.
-2.  Cliccare su <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Nuova dimensione verticale](TechDraw_VerticalDimension/it.md). Trascinare il testo della quota lontano dal corpo.
-3.  Provare di nuovo con i vertici in alto a sinistra e in alto a destra e <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Nuova dimensione orizzontale](TechDraw_HorizontalDimension/it.md).
-
-
-</div>
+1.  Selezionare il vertice in alto a sinistra (piccolo punto) con il **LMB** (pulsante sinistro del mouse), quindi selezionare anche (**Ctrl**+**LMB**) il vertice in basso a sinistra.
+2.  Cliccare su <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Dimensione verticale](TechDraw_VerticalDimension/it.md). Trascinare il testo della quota lontano dal corpo.
+3.  Riprova con i vertici in alto a sinistra e in alto a destra e <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Dimensione orizzontale](TechDraw_HorizontalDimension/it.md).
 
 ![](images/TDTut_TopView2Dims.png )
 
@@ -110,17 +104,11 @@ Notate un problema con la dimensione che è appena stata creata?
 
 Dalla prima parte di questo tutorial, sappiamo che il pezzo da lavorare è largo 53 mm, ma la nuova dimensione è 43.27. Questo perché \"TopLeftFront\" è una [proiezione isometrica](https://en.wikipedia.org/wiki/Isometric_projection), e il nostro primo disegno è stato invece una [orthogonal (multiview) proiezione](https://en.wikipedia.org/wiki/Orthographic_projection). Per ottenere il giusto valore, si deve collegare la dimensione direttamente al modello 3D.
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Annotare il nome della dimensione difettosa nel pannello Combo. Ne avremo bisogno tra un minuto.
 2.  Passare alla scheda 3D e selezionare i vertici alle estremità del bordo anteriore del pezzo. Selezionare anche Page001.
 3.  Cliccare su <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Nuovo Link](TechDraw_LinkDimension/it.md). Nel pannello Azioni si apre una finestra di dialogo.
 4.  Nella finestra di dialogo, spostare la dimensione dalla colonna Disponibile alla colonna Selezionato. Premere **OK**.
 5.  Ritornare a Page001. Ora per la dimensione si dovrebbe leggere il valore corretto di 53. (se si continua a vedere 43.27, può essere necessario premere il pulsante **Ricalcola** o trascinare un po\' il valore della quota, fino a quando non cambia).
-
-
-</div>
 
 
 

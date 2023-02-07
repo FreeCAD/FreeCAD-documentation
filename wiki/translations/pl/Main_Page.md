@@ -59,7 +59,7 @@ Strona [Pomóż w rozwoju FreeCAD](Special:MyLanguage/help_FreeCAD.md) opisuje w
 
 ### Kod źródłowy 
 
-FreeCAD może zostać skompilowany na wszystkie platformy przy pomocy [CMake](https://cmake.org/). Kod źródłowy jest udostępniony na zasadach licencji [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) na stronie [GitHub](https://github.com/FreeCAD/FreeCAD) i powielony na [GitLab](https://gitlab.com/freecad/FreeCAD) oraz [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Instrukcje kompilacji są dostępne dla systemów [Linux](Compile_on_Linux/pl.md), [MacOSX](Compile_on_MacOS/pl.md) i [Windows](Compile_on_Windows/pl.md). Dokumentacja kodu źródłowego jest dostępna [tutaj](http://www.freecadweb.org/api/) i została wygenerowana przy pomocy [Doxygen](Doxygen/pl.md), a strona Wiki opisująca dokładniej dokumentacje kodu źródłowego dostępna jest [tutaj](Source_documentation/pl.md).
+FreeCAD może zostać skompilowany na wszystkie platformy przy pomocy [CMake](https://cmake.org/). Kod źródłowy jest udostępniony na zasadach licencji [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) na stronie [GitHub](https://github.com/FreeCAD/FreeCAD) i powielony na [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) oraz [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Instrukcje kompilacji są dostępne dla systemów [Linux](Compile_on_Linux/pl.md), [MacOSX](Compile_on_MacOS/pl.md) i [Windows](Compile_on_Windows/pl.md). Dokumentacja kodu źródłowego jest dostępna [tutaj](http://www.freecadweb.org/api/) i została wygenerowana przy pomocy [Doxygen](Doxygen/pl.md), a strona Wiki opisująca dokładniej dokumentacje kodu źródłowego dostępna jest [tutaj](Source_documentation/pl.md).
 
 
 

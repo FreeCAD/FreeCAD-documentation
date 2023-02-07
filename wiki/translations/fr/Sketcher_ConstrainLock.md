@@ -12,7 +12,7 @@
 
 ## Description
 
-La **Contrainte fixe** applique des contraintes **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** et **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md)** aux sommets (points) sélectionnés dans l\'esquisse. Si un seul sommet est sélectionné, les contraintes de distance horizontale et verticale se référeront au point d\'origine de l\'esquisse. Si deux points ou plus sont sélectionnés, des contraintes de distance horizontale et verticale seront ajoutées pour chaque paire de points. Il n\'y a pas d\'invite automatique pour modifier les valeurs des contraintes, elles doivent être modifiées manuellement.
+La **Contrainte fixe** applique une **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md)** et une **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md)** aux sommets (points) sélectionnés dans l\'esquisse. Si un seul sommet est sélectionné, les contraintes de distance horizontale et verticale se référeront au point d\'origine de l\'esquisse. Si deux points ou plus sont sélectionnés, des contraintes de distance horizontale et verticale seront ajoutées pour chaque paire de points. Il n\'y a pas d\'invite automatique pour modifier les valeurs des contraintes, elles doivent être modifiées manuellement.
 
 
 

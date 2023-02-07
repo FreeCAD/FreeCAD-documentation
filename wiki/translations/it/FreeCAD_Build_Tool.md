@@ -1,13 +1,4 @@
 # FreeCAD Build Tool/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Introduzione
@@ -38,15 +29,7 @@ FreeCAD Build Tool
  
  For help on the modules type:
    fcbt <command name> ?
-```
-
-
-<div class="mw-translate-fuzzy">
-
-Al prompt inserire il comando abbreviato che si desidera utilizzare. Ad esempio digitare \"CM\" per [creare un modulo](Module_Creation/it.md).
-
-
-</div>
+``` Al prompt inserire il comando abbreviato che si desidera utilizzare. Ad esempio digitare \"CM\" per [creare un modulo](Module_Creation/it.md).
 
 #### DistSrc
 
@@ -72,24 +55,9 @@ Il comando \"DA\" esegue \"DS\", \"DB\" e \"DI\" in sequenza.
 
 Il comando \"NBN\" **incrementa il numero della costruzione** per creare una nuova versione di FreeCAD.
 
+### CreateModule
 
-<div class="mw-translate-fuzzy">
-
-#### CreateModule
-
-Il comando \"CM\" [crea un nuovo modulo dell\'applicazione](Module_Creation/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Il comando \"CM\" [crea un nuovo modulo dell\'applicazione (Workbench)](Workbench_creation/it.md).
 
 
 

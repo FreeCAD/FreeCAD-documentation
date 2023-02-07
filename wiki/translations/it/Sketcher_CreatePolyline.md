@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -27,6 +29,8 @@ Quando si avvia lo strumento, il puntatore del mouse assume la forma di croce bi
 
 </div>
 
+
+
 ## Utilizzo
 
 La Polilinea inizia sempre con un segmento di linea retta: fare clic - spostare il mouse - fare clic. Muovi di nuovo il mouse. Dopo aver posizionato il primo segmento di linea, lo strumento polilinea Sketcher ha più modalità che possono essere attivate con il tasto **M**. Ad esempio è possibile disegnare archi tangenti o perpendicolari seguendo una linea o un segmento di arco. Premendo ripetutamente il tasto **M** si passa da queste diverse modalità:
@@ -43,7 +47,7 @@ La Polilinea inizia sempre con un segmento di linea retta: fare clic - spostare 
 
 -   v0.18 e superiore Mentre ci si trova in una qualsiasi delle modalità arco, tenendo premuto il tasto **Ctrl** (MacOS: tasto **CMD**) e spostando il cursore, l\'arco si blocca di incrementi di 45 gradi, rispetto al segmento della polilinea precedentemente creato (v0.18).
 -   Selezionare i punti su un\'area vuota della vista 3D, o su un oggetto esistente. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
--   Premere il tasto {{KEY/it|Esc}}, o cliccare sul tasto destro del mouse prima di chiudere la polilinea in un anello termina la polilinea corrente e si può continuare con una nuova. Premendo **Esc** o facendo clic con il pulsante destro del mouse dopo aver chiuso la polilinea in un anello termina la funzione polilinea.
+-   Premere il tasto **Esc**, o cliccare sul tasto destro del mouse prima di chiudere la polilinea in un anello termina la polilinea corrente e si può continuare con una nuova. Premendo **Esc** o facendo clic con il pulsante destro del mouse dopo aver chiuso la polilinea in un anello termina la funzione polilinea.
 -   Premendo **Esc** o facendo clic con il pulsante destro del mouse \"dopo\" la chiusura della polilinea su un loop termina la funzione polilinea.
 
 

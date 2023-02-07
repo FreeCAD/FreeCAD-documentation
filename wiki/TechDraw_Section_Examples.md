@@ -57,21 +57,21 @@ Section B-B (section down)
 Section C-C (section left)
 
  <img alt="" src=images/TechDraw_ExampleSection-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/TechDraw_ExampleSection-07.png  style="width:200px;">   <img alt="" src=images/TechDraw_ExampleSection-08.png  style="width:300px;">  
-*Base View and Section C-C in its proper position after being rotated by 90°*
+*Base View and Section C-C in its proper position*
 
 Section D-D (section right)
 
  <img alt="" src=images/TechDraw_ExampleSection-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/TechDraw_ExampleSection-09.png  style="width:200px;">   <img alt="" src=images/TechDraw_ExampleSection-10.png  style="width:300px;">  
-*Base View and Section D-D in its proper position after being rotated by -90°*
+*Base View and Section D-D in its proper position*
 
 ### Arbitrary section 
 
 Section E-E (section at an arbitrary angle)
 
  <img alt="" src=images/TechDraw_ExampleSection-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/TechDraw_ExampleSection-11.png  style="width:200px;">   <img alt="" src=images/TechDraw_ExampleSection-12.png  style="width:300px;">  
-*Base View and Section E-E in its proper position after being rotated by -60°*
+*Base View and Section E-E in its proper position*
 
-By default the section plane goes through the global origin (3D) which means the section line goes through the origin of the view. To get an offset section line (and plane respectively) we can change the values within the Section Plane Location widget.
+By default the section plane goes through the global origin (3D). To get an offset section line (and plane respectively) we can change the values within the Section Plane Location widget.
 
  <img alt="" src=images/TechDraw_ExampleSection-16.png  style="width:300px;">
 
@@ -92,15 +92,16 @@ The label was edited manually. The section line and one arrow have to be hidden 
 ### Notes
 
 -   The examples are created using weekly build 0.21 - 31155 with first angle and ISO selected.
+    - C-C, D-D, and E-E: The default Positions were updated to display the current default placement (weekly build 0.21 - 31709) (1).
 -   Both horizontal section views are oriented as expected.
--   Both vertical section views need to be rotated manually to be oriented as expected.
--   For arbitrary sections the section line and also the section view need to be rotated manually. It is irritating that the angles are not equal.
--   On this occasion realised that horizontal and vertical center lines are oriented according to the page but not the view and so cannot be used to align base and section view, as I would expect.
--   If you double-click the Section E-E object in the Tree view to edit the section line angle you will find 29.89° instead of 30° in the combo-box. What has happened to the value?
+-   Both vertical section views are oriented as expected now (1).
+-   For arbitrary sections the rotation of the section view depends on rotation of the section line now (1).
+-   On this occasion I realised that horizontal and vertical center lines are oriented according to the page but not the view and so cannot be used to align base and section view, as I would expect.
+-   If you double-click the Section E-E object in the Tree view to edit the section line angle you will find the same value as in the combo-box now (1).
 -   Applying an offset to a section line/plane is a bit complicated, because it can only be moved along global axes and not according to (local) view axes.
--   If the section plane comes to lie outside the object FreeCAD crashes without warning.
+-   Placing the section line outside the object enables us to create auxiliary views as well, but if too large steps of movement are applied, when using the mouse wheel, FreeCAD may crash without warning.
 
-:   Edit: On a closer look I realised that it wasn\'t the placement outside the object but too large steps of movement when using the mouse wheel. Knowing this enables us to create auxiliary views as well.
+\(1\) updated 2023-02-03
 
 ## Simple sections in use 
 
@@ -141,17 +142,17 @@ An offset section starts with a base view plus a 3D polyline, a <img alt="" src=
 *Base view + sketch + "View Direction as Angle" set to {{Value|30°* → Base View and Section G-G in its default position}} The view direction angle has to be set to a matching value or it might happen that no section view will be created or that the result will be other than expected.
 
  <img alt="" src=images/TechDraw_ExampleSection-21.png  style="width:300px;">  
-*Base View and Section G-G in its proper position after being rotated by -60°*
+*Base View and Section G-G in its proper position*
 
 ### Aligned section 
 
 An aligned section also starts with a base view plus another 3D polyline.
 
  <img alt="" src=images/TechDraw_ExampleSection-02.png  style="width:200px;"> <img alt="" src=images/Arch_Add.svg  style="width:16px;"> <img alt="" src=images/TechDraw_ExampleSection-22.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/TechDraw_ExampleSection-23.png  style="width:200px;">  
-*Base view + sketch + "View Direction as Angle" set to {{Value|20°* and "Projection Strategy" to {{Value|Aligned}} → Base View and Section H-H in its default position}} The view direction angle has to be guessed and set to a nearly matching value or the result could be other than expected.
+*Base view + sketch and  <img src="images/Section-right.svg" width=24px> or "View Direction as Angle" confirmed at {{Value|0°* and "Projection Strategy" set to {{Value|Aligned}} → Base View and Section H-H in its default position}} The view direction angle can be set by <img alt="" src=images/Section-right.svg  style="width:24px;"> and <img alt="" src=images/Section-left.svg  style="width:24px;"> for a coarse orientation. It has to be guessed and set to a nearly matching value or the result could be other than expected.
 
  <img alt="" src=images/TechDraw_ExampleSection-24.png  style="width:300px;">  
-*Base View and Section H-H in a position after being rotated by -60° to be parallel to the lower segment of the section line*
+*Base View and Section H-H rotated automatically in a position according to the "View Direction as Angle" set to {{Value|30°* to be parallel to the lower segment of the section line}}
 
 This his how a bad guess result looks like:
 

@@ -6,7 +6,7 @@
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**D** **I**
    Version:0.8
-   SeeAlso:[Draft Inverser la direction de la cote](Draft_FlipDimension/fr.md)
+   SeeAlso:[Draft Inverser le texte de la dimension](Draft_FlipDimension/fr.md)
 ---
 
 # Draft Dimension/fr
@@ -17,7 +17,7 @@ La commande <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **D
 
 Les dimensions linéaires basées sur les arêtes et les dimensions radiales sont paramétriques. Cela signifie qu\'elles seront mises à jour si l\'arête mesurée est modifiée. Les arêtes mesurées peuvent appartenir à des ébauches d\'objets mais aussi à des corps solides. Les dimensions angulaires ne sont pas paramétriques.
 
-Les Draft Dimensions peuvent être affichées sur une page de l\'[Atelier Techdraw](TechDraw_Workbench/fr.md) à l\'aide des commandes [TechDraw Vue Draft](TechDraw_DraftView/fr.md) ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md). L\'[Atelier Techdraw](TechDraw_Workbench/fr.md) propose également ses propres commandes de cotation. Mais celles-ci créent des dimensions qui ne sont affichées que sur la page de dessin et non dans la [Vue 3D](3D_view/fr.md).
+Les Draft Dimensions peuvent être affichées sur une page de l\'[atelier Techdraw](TechDraw_Workbench/fr.md) à l\'aide des commandes [TechDraw Vue d\'un objet Draft](TechDraw_DraftView/fr.md) ou [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md). L\'[atelier Techdraw](TechDraw_Workbench/fr.md) propose également ses propres commandes de cotation. Mais celles-ci créent des dimensions qui ne sont affichées que sur la page de dessin et non dans la [vue 3D](3D_view/fr.md).
 
 <img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;"> 
 *Dimension linéaire définie par trois points*
@@ -32,46 +32,46 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 ### Utilisation pour une dimension linéaire 
 
-1.  Sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md).
+1.  Sélectionnez une arête droite dans la [vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Dimension](Draft_Dimension/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez les raccourcis clavier : **D** puis **I**.
 3.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes :
-    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md).
-    -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
+    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête droite dans la [vue 3D](3D_view/fr.md).
+    -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête droite dans la [vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
     -   Définissez la distance mesurée en choisissant des points :
-        -   Choisissez un premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-        -   Choisissez un deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+        -   Choisissez un premier point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+        -   Choisissez un deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 5.  Pour positionner la ligne de cote, effectuez l\'une des opérations suivantes :
     -   Pour une cote alignée :
-        -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+        -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
     -   Pour une dimension horizontale :
         -   Déplacez le pointeur au-dessus ou au-dessous de l\'arête ou des points.
-        -   Maintenez la touche **Shift** enfoncée, déplacez le pointeur et choisissez un point dans la [Vue 3D](3D_view/fr.md).
+        -   Maintenez la touche **Maj** enfoncée, déplacez le pointeur et choisissez un point dans la [vue 3D](3D_view/fr.md).
     -   Pour une dimension verticale :
         -   Déplacez le pointeur à gauche ou à droite de l\'arête ou des points.
-        -   Maintenez la touche **Shift** enfoncée, déplacez le pointeur et choisissez un point dans la [Vue 3D](3D_view/fr.md).
+        -   Maintenez la touche **Maj** enfoncée, déplacez le pointeur et choisissez un point dans la [vue 3D](3D_view/fr.md).
 
 
 
 ### Utilisation pour une dimension radiale 
 
-1.  Sélectionnez éventuellement une arête circulaire dans la [Vue 3D](3D_view/fr.md).
+1.  Sélectionnez éventuellement une arête circulaire dans la [vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Dimension](Draft_Dimension/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **I**.
 3.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes :
-    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md).
-    -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
+    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête circulaire dans la [vue 3D](3D_view/fr.md).
+    -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête circulaire dans la [vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
 5.  Pour positionner la ligne de cote, effectuez l\'une des opérations suivantes :
     -   Pour une cote de diamètre :
-        -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+        -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
     -   Pour une dimension radiale :
-        -   Maintenez la touche **Shift** et choisissez un point dans la [Vue 3D](3D_view/fr.md).
+        -   Maintenez la touche **Shift** et choisissez un point dans la [vue 3D](3D_view/fr.md).
 
 
 
@@ -83,16 +83,16 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
     -   Utilisez le raccourci clavier : **D** puis **I**.
 2.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Faites l\'une des choses suivantes :
-    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une première arête droite dans la [Vue 3D](3D_view/fr.md). Répétez cette opération pour sélectionner une deuxième arête droite.
-    -   Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
-4.  Pour positionner l\'arc de cotes, sélectionnez un point dans la [Vue 3D](3D_view/fr.md).
+    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une première arête droite dans la [vue 3D](3D_view/fr.md). Répétez cette opération pour sélectionner une deuxième arête droite.
+    -   Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
+4.  Pour positionner l\'arc de cotes, sélectionnez un point dans la [vue 3D](3D_view/fr.md).
 5.  L\'angle affiché dépend des bords et du point choisi.
 
 ### Options
 
 Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **T** ou cliquez sur la case **Continue** pour activer le mode continu. Ce mode ne fonctionne que pour les dimensions linéaires. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des dimensions. Toutes les dimensions suivantes commenceront à partir du point final de la dimension précédente, et utiliseront la même ligne de base que la première dimension. Notez que la sélection des bords n\'est pas possible pour les dimensions suivantes.
@@ -230,7 +230,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Font Name|Font**: spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}} ou d\'un nom avec un style tel que {{value|Arial:Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place.
 
--    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite.
+-    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [vue 3D](3D_view/fr.md) si cette valeur est très petite.
 
 -    **Override|String**: spécifie un texte personnalisé à afficher à la place de la mesure réelle. Utilisez la chaîne {{value|$dim}} à l\'intérieur du texte pour inclure la mesure.
 

@@ -35,7 +35,7 @@ Crea un clone o una copia dell\'oggetto, lo colloca nella posizione indicata e c
 
 ## Utilizzo
 
-Avviare la macro, definire le impostazioni XYZ se è necessario, scegliere \"Clone\" oppure \"Copia\", scegliere una unità di conversione, selezionare l\'oggetto e poi fare clic su il pulsante {{KEY/it|OK}} per avviare l\'operazione.
+Avviare la macro, definire le impostazioni XYZ se è necessario, scegliere \"Clone\" oppure \"Copia\", scegliere una unità di conversione, selezionare l\'oggetto e poi fare clic su il pulsante **OK** per avviare l\'operazione.
 
 
 </div>
@@ -146,6 +146,8 @@ L\'icona di Macro_CloneConvert: ![](images/Macro_CloneConvert.png )
 **Macro_CloneConvert.FCMacro**
 
 Scaricare la macro da Gist [Macro_CloneConvert.FCMacro](https://gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
+
+
 
 ## Revision
 

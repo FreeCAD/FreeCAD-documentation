@@ -148,7 +148,7 @@ Profil główny jest tworzony przez [wyciągnięcie](PartDesign_Pad/pl.md) noweg
 
 **Krok A: Utwórz szkic**
 
-:   Click <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create sketch](PartDesign_NewSketch.md) and create a sketch attached to the **YZ_Plane**. FreeCAD will assign the name **Sketch001**.
+:   Kliknij <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Utwórz szkic](PartDesign_NewSketch/pl.md) i utwórz szkic dołączony do płaszcyzny **YZ_Plane**. FreeCAD przypisze nazwę **Szkic001**.
 
 **Krok B: Dodaj geometrię**
 
@@ -182,7 +182,7 @@ Profil główny jest tworzony przez [wyciągnięcie](PartDesign_Pad/pl.md) noweg
 
 :   Click **Close** at the top of the [tasks panel](Task_panel.md) to leave sketch edit mode.
 
-**Pad**
+**Wyciągnięcie**
 
 <img alt="Fig: MP3" src=images/Pd_tut_pad1.png  style="width:240px;">
 

@@ -18,28 +18,16 @@ Questa guida è una lista di scorciatoie per fare lavorare rapidamente un progra
 -   [PySide 1.0.7 Reference](http://srinikom.github.io/) in Srinikom.github.io (notare che questo è un manuale di riferimento, non un tutorial)
 
 
-<div class="mw-translate-fuzzy">
 
 ## La dichiarazione Import 
 
-PySide non viene caricato automaticamente con Python, prima di usarlo deve essere richiamato. Il seguente comando:
-
-
-</div>
-
-PySide is not loaded with Python by default, it must be requested prior to using it. The following command: 
+PySide non viene caricato automaticamente con Python, prima di usarlo deve essere richiamato. Il seguente comando: 
 ```python
 from PySide import QtCore
 from PySide import QtGui
 ``` carica le 2 parti di PySide - QtGui possiede le classi per la gestione dell\'interfaccia grafica mentre QtCore contiene classi che non riguardano direttamente la gestione della GUI (ad esempio timer e geometria). Anche se è possibile importare solo quello che è necessario, generalmente sono necessarie entrambe e entrambe devono essere importate.
 
-
-<div class="mw-translate-fuzzy">
-
-Nota: nei sottostanti esempi di codice la dichiarazione \'import\' non è ripetuta, si presuppone che sia già nel file Python.
-
-
-</div>
+Le istruzioni di importazione non sono ripetute nei frammenti seguenti; si presume che venga fatto all\'inizio in ogni caso.
 
 ## L\'esempio più semplice 
 

@@ -14,9 +14,13 @@
 
 
 
+
+
 ## Ziel
 
 Veranschaulichen der Erstellung eines <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) Auftrags, abgeleitet von einem 3D Modell. Anschließend wird dialekt-richtiger G-Code für eine Ziel CNC Fräse erzeugt.
+
+
 
 ## Das 3D Modell 
 
@@ -65,6 +69,8 @@ Klicke im Dialogfeld Auftragserstellung auf OK, um den Körper als Basismodell o
 
 </div>
 
+
+
 ### Auftragseinrichtung
 
 
@@ -74,6 +80,8 @@ Das Auftragsbearbeitungsfenster öffnet sich im Aufgabenfenster, und das Modella
 
 
 </div>
+
+
 
 ### Auftragsausgabe
 
@@ -92,6 +100,8 @@ Der Ausgabereiter legt den Pfad, den Namen und die Erweiterung der Ausgabedatei 
 
 
 </div>
+
+
 
 ### Auftragswerkzeuge
 
@@ -159,6 +169,8 @@ Für einen einfachen Zugriff können alle Werkzeuge vordefiniert und über den [
 
 </div>
 
+
+
 ### Auftragsarbeitsplan
 
 
@@ -178,6 +190,8 @@ Dieser Baum wird nach der Konfiguration des Auftrags angezeigt, sobald der Pfada
 
 
 </div>
+
+
 
 ## Die Pfadabläufe 
 
@@ -231,6 +245,8 @@ Das Ergebnis ist ein Modell mit zwei Pfaden:
 
 </div>
 
+
+
 ## Pfade überprüfen 
 
 Es gibt zwei Möglichkeiten, die erstellten Pfade zu überprüfen. Der G-Code kann überprüft werden, einschließlich der Hervorhebung der entsprechenden Pfadsegmente. Der Fräsprozess des Bahnauftrags kann auch simuliert werden, um die idealisierten Werkzeugbahnen zu demonstrieren, die für die Werkzeuggeometrien zum Fräsen des Rohteils erforderlich sind.
@@ -276,6 +292,8 @@ Wenn du die Simulation beenden möchtest, klicke auf die Schaltfläche Abbrechen
 
 
 </div>
+
+
 
 ## Nachbearbeitung des Auftrags 
 

@@ -10,6 +10,8 @@
 
 # Part ExplodeCompound/de
 
+
+
 ## Beschreibung
 
 Werkzeug zum Aufteilen von Formverbünden, um jede enthaltene Form (Kind) als separates Objekt im Modellbaum verfügbar zu machen. Die Kinder werden automatisch in eine [Gruppe](Std_Group/de.md) aufgenommen, wenn es mehr als ein Kind gibt.
@@ -20,11 +22,15 @@ Die Positionierung der extrahierten Formen folgt den Positionierungen der Origin
 
 Das Werkzeug wird auch nicht verbundene Formen in ihre untergeordneten Bestandteile zerlegen: Mischkörper zu Festkörpern, Festkörper zu Schalen, Schalen zu Flächen, Flächen zu Drähten, Drähte zu Kanten, Kanten zu Knoten.
 
+
+
 ## Anwendung
 
 1.  Rufe das Formteil SprengeVerbund Werkzeug auf verschiedene Weise auf:
     -   Drücke auf die <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> Schaltfläche in der Part Werkzeugleiste.
-    -   Verwendung des {{MenuCommand/de|Formteil → Verbund → Verbundteile extrahieren}} Eintrags im Part Menü
+    -   Verwendung des **Formteil → Verbund → Verbundteile extrahieren** Eintrags im Part Menü
+
+
 
 ## Anwendungsfälle
 

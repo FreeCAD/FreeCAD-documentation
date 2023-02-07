@@ -1,5 +1,7 @@
 # <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/ro
 
+
+
 ## Introducere
 
 Atelierul [Points Workbench](Points_Workbench.md) \"Nor de Puncte\" a fost creat ca să vă ofere unelte specifice pentru lucrul cu [point clouds](http://en.wikipedia.org/wiki/Point_cloud). Acest Atelier se află în curs de dezvoltare.
@@ -10,6 +12,8 @@ Atelierul [Points Workbench](Points_Workbench.md) \"Nor de Puncte\" a fost creat
 The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Workbench](Points_Workbench.md) offers specific tools for working with [point clouds](http://en.wikipedia.org/wiki/Point_cloud). The workbench is still in development.
 
 Un nor de puncte este o colecție de puncte în spațiul 3D. Un nor de puncte este în general produs prin scanarea suprafeței unui obiect solid. Apoi, norul de puncte poate fi folosit în mai multe scopuri, inclusiv construirea unei plase pentru obiect, reconstruirea suprafețelor și volumelor solide, ingineria inversă, precum și pentru vizualizarea și controlul calității pieselor.
+
+
 
 ## Instrumente
 

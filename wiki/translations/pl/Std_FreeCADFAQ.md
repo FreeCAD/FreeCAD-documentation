@@ -1,22 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std FreeCADFAQ
-   MenuLocation:Help → FreeCAD FAQ
-   Workbenches:All
-   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md)
+   Name:Std: Często zadawane pytania dotyczące FreeCAD
+   MenuLocation:Pomoc → Std: Często zadawane pytania dotyczące FreeCAD
+   Workbenches:wszystkie
+   SeeAlso:[Witryna FreeCAD](Std_FreeCADWebsite/pl.md),  [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md),  [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md)
 ---
 
 # Std FreeCADFAQ/pl
 
-## Description
 
-The **Std FreeCADFAQ** command opens the FreeCAD FAQ page in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https://wiki.freecad.org/Frequently_asked_questions>](https://wiki.freecad.org/Frequently_asked_questions).
+## Opis
 
-## Usage
+Polecenie **Często zadawane pytania dotyczące FreeCAD** otwiera stronę internetową *Często zadawane pytania dotyczące FreeCAD* w domyślnej przeglądarce internetowej systemu. Polecenie wymaga działającego połączenia internetowego.
 
-1.  Select the **Help → <img src="images/Std_FreeCADFAQ.svg" width=16px> FreeCAD FAQ** option from the menu.
+Obecnie polecenie wskazuje na stronę [<https://wiki.freecad.org/Frequently_asked_questions>](https://wiki.freecad.org/Frequently_asked_questions).
+
+
+
+## Użycie
+
+1.  Wybierz opcję z menu **Pomoc → <img src="images/Std_FreeCADFAQ.svg" width=16px> Często zadawane pytania dotyczące FreeCAD**.
 
 
 

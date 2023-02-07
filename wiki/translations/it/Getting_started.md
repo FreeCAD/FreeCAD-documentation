@@ -1,6 +1,8 @@
 # Getting started/it
 {{TOCright}}
 
+
+
 ## Prefazione
 
 FreeCAD è una [applicazione per la modellazione parametrica](About_FreeCAD/it.md). È fatto principalmente per la progettazione meccanica, ma serve anche in tutti casi in cui è necessario modellare degli oggetti 3D con precisione e avere il controllo dello storico della modellazione.
@@ -15,9 +17,13 @@ Vedi anche:
 -   [Tutorials](Tutorials/it.md)
 -   [Video tutorials](Video_tutorials/it.md)
 
+
+
 ## Installazione
 
 Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. Consultare la pagina ([Download/en](Download.md)) [Download/it](Download/it.md) per informazioni sulla versione corrente e sugli ultimi aggiornamenti e le istruzioni di installazione per il vostro sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)). Sono disponibili i file di installazione per Windows (.msi), Ubuntu & Debian (.deb), openSUSE (.rpm) e Mac OSX. FreeCAD è disponibile per l\'installazione dai gestori di pacchetti di molte altre distribuzioni Linux. È anche disponibile un eseguibile indipendente [AppImage](AppImage/it.md), che viene eseguito sui più recenti sistemi Linux a 64 bit Dato che FreeCAD è open-source, se siete avventurosi e volete vedere le ultime funzionalità, che in questo momento sono in fase di sviluppo, potete anche prelevare il codice sorgente e [compilarlo](Compiling/it.md) ([en](Compiling.md)).
+
+
 
 ## Interfaccia di FreeCAD 
 
@@ -51,11 +57,15 @@ Al primo avvio di FreeCAD viene visualizzato la pagina iniziale. Ecco come appar
 
 La Pagina Iniziale permette di passare rapidamente a uno degli ambienti di lavoro più comuni, di aprire uno dei file recenti, oppure di vedere le ultime novità dal mondo di FreeCAD. Nelle [preferenze](Preferences_Editor/it.md) è possibile modificare l\'ambiente di lavoro predefinito.
 
+
+
 ## Navigare nello spazio 3D 
 
 FreeCAD ha diverse [modalità di navigazione](Mouse_navigation/it.md), che modificano il modo con cui usi il tuo mouse, per interagire con gli oggetti nella vista 3D e con la vista stessa. Uno di questi è specifico per la [navigazione touchpad](Mouse_navigation/it#Navigazione_Touchpad.md), dove il bottone centrale non è utilizzato. La modalità di navigazione di default è [navigazione CAD](Mouse_navigation/it#CAD_navigation.md). Puoi rapidamente cambiare la modalità di navigazione utilizzando il bottone **[<img src=images/NavigationCAD_dark.svg style="width:16px">** nella [barra di stato](Status_bar/it.md) o cliccando col tasto destro in un area vuota della [vista 3D](3D_view/it.md).
 
-Inoltre, sono disponibili alcune viste preconfigurate (dall\'alto, laterale, frontale, ecc) accessibili dal menu Visualizza⁫ → Viste standard oppure tramite i pratici comandi veloci dei tasti numerici ( {{KEY/it|1}}, {{KEY/it|2}}, {{KEY/it|3}} etc\...). Facendo clic con il pulsante destro su un oggetto o un\'area vuota della vista 3D, si ha accesso rapido ad alcune operazioni comuni, come l\'impostazione di una vista particolare, o l\'individuazione di un oggetto nella vista ad albero.
+Inoltre, sono disponibili alcune viste preconfigurate (dall\'alto, laterale, frontale, ecc) accessibili dal menu Visualizza⁫ → Viste standard oppure tramite i pratici comandi veloci dei tasti numerici ( **1**, **2**, **3** etc\...). Facendo clic con il pulsante destro su un oggetto o un\'area vuota della vista 3D, si ha accesso rapido ad alcune operazioni comuni, come l\'impostazione di una vista particolare, o l\'individuazione di un oggetto nella vista ad albero.
+
+
 
 ## Primi passi con FreeCAD 
 
@@ -64,6 +74,8 @@ L\'obiettivo di FreeCAD è quello di consentire di creare dei modelli 3D di alta
 L\'ambiente di lavoro con cui iniziare a lavorare in FreeCAD dipende dal tipo di lavoro si intende realizzare. Quando si ha intenzione di lavorare su modelli meccanici, o più in generale su qualsiasi oggetto di piccole dimensioni, probabilmente si vuole provare [Part Design](PartDesign_Workbench/it.md). Se si lavora in 2D, allora conviene passare all\'ambiente [Draft](Draft_Workbench/it.md), o all\'ambiente [Sketcher](Sketcher_Workbench/it.md) quando servono i vincoli. Se si vuole fare BIM, avviare l\'ambiente [Architettura](Arch_Workbench/it.md). Se si proviene dal mondo di OpenSCAD, si può provare l\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md). Ci sono anche molti [Ambienti complementari](External_workbenches/it.md) sviluppati dalla comunità.
 
 È possibile commutare gli ambienti di lavoro in qualsiasi momento, e anche [personalizzare](Interface_Customization/it.md) il proprio ambiente preferito aggiungendovi degli strumenti di altri ambienti.
+
+
 
 ## Lavorare con gli ambienti PartDesign e Sketcher 
 
@@ -89,6 +101,8 @@ Si ottiene un oggetto simile a questo:
 
 In qualsiasi momento è possibile selezionare gli schizzi originali e modificarli oppure modificare i parametri delle operazioni di estrusione o di scavo, l\'oggetto finale viene automaticamente aggiornato.
 
+
+
 ## Lavorare con gli ambienti Draft e Arch 
 
 Gli ambienti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md) si comportano in modo un po\' diverso dagli altri ambienti di lavoro di cui sopra, anche se seguono le regole comuni di FreeCAD. In breve, Sketcher e PartDesign sono utilizzati principalmente per la progettazione di singoli pezzi, invece Draft e Arch sono concepiti per facilitare il lavoro quando si opera con diversi oggetti semplici.
@@ -113,6 +127,8 @@ Si ottiene un oggetto simile a questo:
 
 Maggiori informazioni si trovano nella sezione [Tutorial](Tutorials/it.md).
 
+
+
 ## Addon, Macro e Ambienti complementari 
 
 FreeCAD, come software open source, offre la possibilità di integrare i propri ambienti di lavoro con componenti aggiuntivi.
@@ -124,9 +140,13 @@ Esistono due tipi di componenti aggiuntivi:
 1.  Le [macro](Macros/it.md): sono dei brevi frammenti di codice Python che forniscono un nuovo strumento o funzionalità. Le macro di solito iniziano come un modo per semplificare o automatizzare l\'attività di disegno o per la modifica di un particolare oggetto. Se molte di queste macro vengono raccolte all\'interno di una directory, l\'intera directory può essere distribuita come nuovo ambiente di lavoro.
 2.  Gli [ambienti complementari](External_workbenches/it.md): sono delle raccolte di strumenti programmati in Python o C ++ che estendono FreeCAD in modo importante. Se un ambiente è sufficientemente sviluppato ed è ben documentato, può essere incluso come uno degli ambienti di base in FreeCAD. Nella pagina [ambienti complementari](External_workbenches/it.md) sono elencati quelli principali e le librerie esistenti.
 
+
+
 ## Script
 
 Infine, una delle più potenti caratteristiche di FreeCAD è l\'ambiente di [script](scripting/it.md). Dalla console Python integrata (o tramite qualsiasi altro script Python esterno), è possibile accedere a quasi tutte le parti di FreeCAD, creare o modificare le geometrie, modificare la rappresentazione degli oggetti nella vista 3D, oppure accedere e modificare l\'interfaccia di FreeCAD. Gli script Python possono essere utilizzati anche all\'interno delle [macro](macros/it.md) che forniscono un metodo facile e veloce per creare combinazioni di comandi personalizzati.
+
+
 
 ## Aggiornamenti
 

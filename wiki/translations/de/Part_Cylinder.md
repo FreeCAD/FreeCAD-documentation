@@ -9,6 +9,8 @@
 
 # Part Cylinder/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Part Zylinder** erstellt einen parametrischen Volumenkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
@@ -16,6 +18,8 @@ Der Befehl <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Part
 Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern seiner {{PropertyData/de|Winkel}}.
 
 <img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
+
+
 
 ## Anwendung
 
@@ -25,10 +29,12 @@ Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern sei
 1.  Öffne den **<img src="images/Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** Arbeitsbereich.
 2.  Rufe den Befehl Part Zylinder auf verschiedene Weise auf:
     -   Drücke die **<img src="images/Part_Cylinder.svg" width=24px>** Schaltfläche
-    -   Verwende den {{MenuCommand/de|Formteil → Grundkörper → Zylinder}} Eintrag aus dem oberen Menü
+    -   Verwende den **Formteil → Grundkörper → Zylinder** Eintrag aus dem oberen Menü
 
 
 </div>
+
+
 
 ## Beispiel
 
@@ -36,15 +42,21 @@ Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern sei
 
 Ein Part-Zylinder-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten erzeugt wurde wird hier dargestellt.
 
+
+
 ## Hinweise
 
 -   A Part Cylinder can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Part-Zylinder-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -68,6 +80,8 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 -    **First Angle|Angle**: The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
 
 -    **Second Angle|Angle**: The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
+
+
 
 ## Skripten
 

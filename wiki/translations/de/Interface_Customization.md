@@ -1,6 +1,8 @@
 # Interface Customization/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) Werkzeugsatz und hat einen Aufbau nach Stand der Technik. Einige Aspekte der Oberfläche können angepasst werden. Du kannst z.B. benutzerdefinierte Werkzeugleisten hinzufügen, mit Werkzeugen von mehreren Arbeitsbereichen oder in Makros festgelegten Werkzeugen, und du kannst eigene Tastaturkürzel erstellen. Die Menüs und Standardwerkzeugleisten, die mit FreeCAD und seinen Arbeitsbereichen geliefert werden, können jedoch nicht geändert werden.
@@ -8,19 +10,25 @@ Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wi
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Das Dialogfeld Anpassen*
 
+
+
 ## Anwendung
 
 1.  Die im Dialogfeld Anpassen verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD Sitzung geladen wurden. Du solltest also zunächst alle Arbeitsbereiche laden, auf deren Befehle du Zugriff haben möchtest.
 2.  Es gibt mehrere Wege, das Dialogfeld <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgAnpassen](Std_DlgCustomize/de.md) aufzurufen:
-    -   Wähle die {{MenuCommand/de|Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...}} Option aus dem Menü.
+    -   Wähle die **Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...** Option aus dem Menü.
     -   Rechtsklicke einen Werkzeugleistenbereich und wähle **<img src="images/Std_DlgCustomize.svg" width=16px> Anpaasen...** aus dem Kontextmenü.
 3.  Ein Dialogfeld Anpassen öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
 4.  Die **Hilfe** Schaltfläche funktioniert zur Zeit nicht.
 5.  Drücke die **Schließen** Schaltfläche um das Dialogfeld zu schließen.
 
+
+
 ## Optionen
 
 Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar:
+
+
 
 ### Befehle
 
@@ -28,6 +36,8 @@ Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar:
 *Der Befehlsreiter*
 
 Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
+
+
 
 #### Befehle durchsuchen 
 
@@ -39,12 +49,16 @@ Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
 {{Top}}
 
+
+
 ### Tastatur
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
 *Der Tastaturreiter*
 
 Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. Tastaturkürzel für Makrobefehle können auf dem [Makros](#Makros.md) Reiter definiert werden.
+
+
 
 #### Hinzufügen eines benutzerdefinierten Tastenkürzels 
 
@@ -56,15 +70,21 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 6.  Drücke die Taste **Zuweisen**, um das neue Tastenkürzel zuzuweisen.
 7.  Drücke die Schaltfläche **Löschen**, um das eingegebenen Tastenkürzel zu entfernen. Dadurch wird auch der Inhalt des Feldes **Aktuelle Tastenkombination** entfernt. Beachte, dass Standardverknüpfungen nicht dauerhaft entfernt werden. Sie werden beim Neustart von FreeCAD wiederhergestellt.
 
+
+
 #### Entfernen eines benutzerdefinierten Tastenkürzels 
 
 1.  Wähle eine Befehlskategorie aus der Ausklappliste **Kategorie**.
 2.  Wähle einen Befehl aus dem **Befehle** Paneel.
 3.  Drücke die **Zurücksetzen** Taste.
 
+
+
 #### Alle benutzerdefinierten Tastenkürzel entfernen 
 
 1.  Drücke die **Alles Zurücksetzen** Schaltfläche.
+
+
 
 #### Hinweise (Tastatur) 
 
@@ -76,6 +96,8 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 
 {{Top}}
 
+
+
 ### Arbeitsbereiche
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
@@ -83,11 +105,15 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 
 Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) geändert werden. Die Liste **Aktivierte Arbeitsbereiche** zeigt die Arbeitsbereiche, wie sie in der Arbeitsbereichsauswahl erscheinen werden.
 
+
+
 #### Deaktivieren eines Arbeitsbereichs 
 
 1.  Wähle einen Arbeitsbereich in der Liste **Aktivierte Arbeitsbereiche** aus.
 2.  Drücke die **<img src="images/Button_left.svg" width=16px>** Taste.
 3.  Der Arbeitsbereich wird in die Liste **Deaktivierte Arbeitsbereiche** verschoben.
+
+
 
 #### Wieder-aktiviere einen Arbeitsbereich 
 
@@ -95,15 +121,21 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 2.  Drücke die Taste **<img src="images/Button_right.svg" width=16px>**.
 3.  Der Arbeitsbereich wird in die Liste **Aktivierte Arbeitsbereiche** verschoben.
 
+
+
 #### Wieder-aktiviere alle Arbeitsbereiche 
 
 1.  Drücke die **<img src="images/Button_add_all.svg" width=16px>** Schaltfläche.
+
+
 
 #### Ändern einer Arbeitsbereichsposition 
 
 1.  Wähle einen Arbeitsbereich in der Liste \"aktive Arbeitsbereiche\" aus.
 2.  Drücke die Taste **<img src="images/Button_up.svg" width=16px>** oder **<img src="images/Button_down.svg" width=16px>**.
 3.  Wiederhole bis sich der Arbeitsbereich in der richtigen Position befindet.
+
+
 
 #### Arbeitsbereiche alphabetisch sortieren 
 
@@ -112,6 +144,8 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 
 {{Top}}
 
+
+
 ### Werkzeugleisten
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
@@ -119,9 +153,13 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 
 Auf diesem Reiter können benutzerdefinierte Werkzeugleisten erstellt und geändert werden.
 
+
+
 #### Wählen des Arbeitsbereichs 
 
 1.  Wähle in der Dropdown-Liste auf der rechten Seite den Arbeitsbereich dessen Werkzeugleiste du verändern möchtest. Die Option {{Value|Global}} ist für Toolbars, die in allen Arbeitsbereichen zur Verfügung stehen sollen.
+
+
 
 #### Werkzeugleiste erstellen 
 
@@ -130,6 +168,8 @@ Auf diesem Reiter können benutzerdefinierte Werkzeugleisten erstellt und geänd
 3.  Drücke die Taste **OK**.
 4.  Die neue Werkzeugleiste erscheint in der Liste auf der rechten Seite.
 
+
+
 #### Umbenennen einer Werkzeugleiste 
 
 1.  Wähle eine Werkzeugleiste in der Liste auf der rechten Seite.
@@ -137,16 +177,22 @@ Auf diesem Reiter können benutzerdefinierte Werkzeugleisten erstellt und geänd
 3.  Gib einen neuen Namen in der Dialog-Box, die sich öffnet, ein.
 4.  Drücke die Taste **OK**.
 
+
+
 #### Löschen einer Werkzeugleiste 
 
 1.  Wähle eine Werkzeugleiste in der rechten Liste.
 2.  Drücke die Taste **Delete**.
+
+
 
 #### Werkzeugleiste deaktivieren 
 
 1.  Entferne das Häkchen vor der Werkzeugleiste in der rechten Liste.
 
 Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
+
+
 
 #### Einen Befehl hinzufügen 
 
@@ -157,11 +203,15 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 5.  Oder wähle \'\' um einen Abstandshalter hinzuzufügen (eine Trennlinie).
 6.  Drücke die Schaltfläche **<img src="images/Button_right.svg" width=16px>**.
 
+
+
 #### Entfernen eines Befehls 
 
 1.  Falls erforderlich erweitere die Werkzeugleiste auf der rechten Seite.
 2.  Wähle die Schaltfläche aus, die du entfernen möchtest.
 3.  Drücke die Schaltfläche **<img src="images/Button_left.svg" width=16px>**.
+
+
 
 #### Ändern einer Befehlsposition 
 
@@ -169,6 +219,8 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 2.  Wähle eine Schaltfläche aus.
 3.  Drücke die Taste **<img src="images/Button_up.svg" width=16px>** oder **<img src="images/Button_down.svg" width=16px>**.
 4.  Wiederhole das bis die Schaltfläche an der richtigen Position erscheint.
+
+
 
 #### Hinweise (Werkzeugleisten) 
 
@@ -180,6 +232,8 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 
 {{Top}}
 
+
+
 ### Makros
 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
@@ -190,6 +244,8 @@ Auf diesem Tab können Makro-Kommandos eingerichtet werden. Sobald sie eingerich
 Wenn du ein Makro mit <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) herunterladest, vergiss nicht auch das zugehörige Icon-File herunterzuladen. Die meisten Makros haben einen Link auf ein Bild das im Addon Manager dargestellt wird. Du kannst dieses Bild z.B. in den Ordner für User-Makros legen.
 
 Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell installieren. Dazu findest du mehr Informationen unter [How to install macros](How_to_install_macros.md).
+
+
 
 #### Hinzufügen eines Makrobefehls 
 
@@ -208,10 +264,14 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 9.  Daraufhin erscheint das Makro in der linken Liste.
 10. Jetzt kann das Makro im [Toolbars](#Toolbars.md)-Tab ausgewählt werden.
 
+
+
 #### Entfernen eines Makrobefehls 
 
 1.  Wähle ein Makro in der linken Liste aus.
 2.  Drücke die Schaltfläche **Remove**.
+
+
 
 #### Ändern eines Makrobefehls 
 
@@ -222,13 +282,15 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 
 {{Top}}
 
+
+
 ### Spaceball Bewegung 
 
-Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md). {{Top}}
+Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md). 
 
 ### Spaceball Tasten 
 
-Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md). 
 
 ## Themen
 
@@ -245,9 +307,13 @@ Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit Free
 
 {{Top}}
 
+
+
 ## Erweiterungen
 
 Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupassen. Nachfolgend sind einige von Anwendern erstellte Erweiterungen aus der FreeCAD Gemeinschaft. Sie können über den <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) heruntergeladen werden (Hinweis: Sie sind auf dem Arbeitsbereiche Reiter aufgeführt).
+
+
 
 ### KubusMenü
 
@@ -257,13 +323,19 @@ Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupass
 
 -   Github Repositorium: <https://github.com/triplus/Glass>.
 
+
+
 ### SymbolGestaltung
 
 -   Github Repositorium: <https://github.com/triplus/IconThemes>
 
+
+
 ### Startprogramm
 
 -   Github Repositorium: <https://github.com/triplus/Launcher>.
+
+
 
 ### PieMenü
 
@@ -272,6 +344,8 @@ Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupass
 ### RemBench
 
 -   Github Repositorium: <https://github.com/triplus/RemBench>.
+
+
 
 ### TastenKürzel
 

@@ -10,6 +10,8 @@
 
 # Arch Wall/it
 
+
+
 ## Descrizione
 
 Questo strumento crea un oggetto Muro utilizzando come base una [forma](Part_Workbench/it.md) o oggetto [mesh](Mesh_Workbench/it.md). Un muro può essere costruito anche senza alcun oggetto di base, nel qual caso si comporta come un *volume cubico*, utilizzando le proprietà lunghezza, larghezza e altezza. Quando è costruito usando una forma esistente, un muro può essere basato su:
@@ -30,13 +32,19 @@ I muri possono anche avere l\'altezza automatica, se sono incluse in un oggetto 
 
 Quando più muri devono essere intersecati, è necessario inserirli in un [piano](Arch_Floor/it.md) per ottenere la loro geometria intersecata.
 
+
+
 ## Utilizzo
+
+
 
 ### Disegnare un muro dall\'inizio 
 
 1.  Premere il pulsante **<img src="images/Arch_Wall.svg" width=16px> [Muro](Arch_Wall/it.md)**, oppure premere i tasti **W** e poi **A**.
 2.  Definire un primo punto nella vista 3D, o digitare le sue coordinate.
 3.  Definire un secondo punto nella vista 3D, o digitare le sue coordinate.
+
+
 
 ### Disegnare un muro su un oggetto selezionato 
 
@@ -45,20 +53,24 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 **, oppure premere i tasti **W** e poi **A**
 3.  Regolare, se necessario, le proprietà, come altezza o larghezza.
 
+
+
 ## Opzioni
 
 -   Gli elementi Muro condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
 -   L\'altezza, la larghezza e l\'allineamento di un muro può essere impostato durante il disegno, tramite il pannello delle Azioni.
 -   Quando aggancia una parete di una parete esistente, entrambe le pareti si uniscono in una sola. Il modo in cui sono unite le due pareti dipende dalle loro proprietà. Se hanno la stessa larghezza, altezza e orientamento, la parete risultante sarà un oggetto basato su uno schizzo composto da più segmenti. Altrimenti, l\'ultima parete verrà unita alla prima come oggetto aggiunta.
--   Premere {{KEY/it|X}}, {{KEY/it|Y}} o {{KEY/it|Z}} dopo il primo punto per vincolare il secondo punto su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire il valore, quindi premere {{KEY/it|Invio}} tra ogni componente X, Y e Z .
--   Premere {{KEY/it|R}} oppure fare clic sulla casella di controllo per selezionare o deselezionare la modalità {{KEY/it|Relativo}}. In modalità Relativo, le coordinate del secondo punto sono relative al primo. In caso contrario sono assolute, a partire dal punto di origine (0,0,0).
--   Premere {{KEY/it|Maiusc}} mentre si disegna per [vincolare](Draft_Constrain/it.md) orizzontalmente o verticalmente il secondo punto rispetto al primo.
--   Premere {{KEY/it|Esc}} o premere il pulsante **Cancella** per uscire dal comando attivo.
+-   Premere **X**, **Y** o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
+-   Per inserire le coordinate manualmente, è sufficiente inserire il valore, quindi premere **Invio** tra ogni componente X, Y e Z .
+-   Premere **R** oppure fare clic sulla casella di controllo per selezionare o deselezionare la modalità **Relativo**. In modalità Relativo, le coordinate del secondo punto sono relative al primo. In caso contrario sono assolute, a partire dal punto di origine (0,0,0).
+-   Premere **Maiusc** mentre si disegna per [vincolare](Draft_Constrain/it.md) orizzontalmente o verticalmente il secondo punto rispetto al primo.
+-   Premere **Esc** o premere il pulsante **Cancella** per uscire dal comando attivo.
 -   Facendo doppio clic sul muro nella vista ad albero dopo la sua creazione si attiva la modalità di modifica che permette di accedere alle sue addizioni e sottrazioni e di modificarle .
 -   I muri multistrato possono essere facilmente creati costruendo diversi muri sulla stessa linea base. Impostando la proprietà Align a destra o a sinistra e specificando un valore di offset, si possono costruire efficacemente i diversi strati della parete. Inserendo una finestra in uno degli strati della parete l\'apertura si propaga in tutti gli strati della parete creati con la stessa linea base.
 -   I muri possono anche utilizzare i [ Multi-Materiali](Arch_MultiMaterial/it.md). Quando si utilizza un multi-materiale, la parete diventa multistrato, utilizzando gli spessori specificati nel multi-materiale. A qualsiasi strato con uno spessore pari a zero viene assegnato lo spessore definito automaticamente dallo spazio rimanente definito dal valore Width della parete meno gli altri strati.
 -   I muri possono essere fatti per mostrare blocchi, invece di un singolo solido, attivando la proprietà **Make Blocks**. La dimensione e l\'offset dei blocchi possono essere configurati con proprietà diverse e la quantità di blocchi viene calcolata automaticamente. {{Version/it|0.18}}
+
+
 
 ## Aggancio
 
@@ -66,6 +78,8 @@ Con i muri dell\'ambiente Arch l\'aggancio funziona un po\' diversamente da come
 
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Seconda parete che si collega perpendicolarmente alla prima*
+
+
 
 ## Proprietà
 

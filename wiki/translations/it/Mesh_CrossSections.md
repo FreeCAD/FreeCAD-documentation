@@ -9,17 +9,20 @@
 
 # Mesh CrossSections/it
 
+
+
 ## Descrizione
 
 Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le sezioni trasversali vengono prese parallelamente a uno dei principali piani globali (XY, XZ o YZ). Per ogni serie di sezioni trasversali viene creata una singola [Part Feature](Part_Feature/it.md).
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare uno o più oggetti mesh.
-2.  Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_CrossSections.svg" width=16px> Sezioni..** dal menu.
+2.  Esistono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Mesh_CrossSections.svg" width=16px> [Sezioni...](Mesh_CrossSections/it.md)**.
+    -   Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_CrossSections.svg" width=16px> Sezioni...** dal menu.
 3.  Si apre il pannello delle azioni **Sezioni**.
 4.  I piani che verranno utilizzati per creare le sezioni trasversali sono indicati nella [vista 3D](3D_view/it.md) e verranno aggiornati in base agli input del pannello delle azioni.
 5.  Selezionare il **Piano guida**:
@@ -57,20 +60,13 @@ Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le se
 10. Premere il pulsante **OK** o il pulsante **Annulla** per chiudere il pannello delle attività e terminare il comando.
 
 
-</div>
 
 ## Proprietà
 
 Vedere: [Funzioni Part](Part_Feature/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

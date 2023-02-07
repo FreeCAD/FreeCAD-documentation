@@ -1,26 +1,16 @@
 # Sketcher reference/it
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
 L\'utente **chrisb** ha scritto un lungo manuale di riferimento di 70 pagine per [Sketcher](Sketcher_Workbench/it.md) che tratta molti argomenti relativi all\'uso di questo ambiente. Per gli utenti inesperti, si tratta di un\'introduzione che copre l\'uso di base di Sketcher, quindi approfondisce la creazione di elementi geometrici e l\'utilizzo di ogni tipo di vincolo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 Il manuale è in costante evoluzione, in quanto alcune sezioni vengono riviste e aggiornate in base allo sviluppo che si verifica in [Sketcher](Sketcher_Workbench/it.md). Il manuale originale è stato scritto per FreeCAD 0.17, poi è stato aggiornato per 0.18 e ora per 0.19. L\'ultimo manuale è disponibile nel forum, [Tutorial di Sketcher](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104).
 
-
-</div>
-
-Due to the evolving nature of the manual, the document is also known as the \"Sketcher lecture\".
+A causa della natura evolutiva del manuale, il documento è anche noto come \"Sketcher lecture\".
 
 ![](images/Sketcher_reference.png ) 
 *Esempio di schizzo nel manuale di riferimento.*
+
+
 
 ## Indice
 

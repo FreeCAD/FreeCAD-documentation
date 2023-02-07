@@ -1,6 +1,8 @@
 # 3D input devices/tr
 FreeCAD, 3D fareler gibi bazı özel giriş aygıtlarını destekler. Bunlar, kullanıcının nesneleri üç boyutlu olarak döndürmesini, çevirmesini ve yakınlaştırmasını sağlar.
 
+
+
 ## Desteklenen donanım 
 
 

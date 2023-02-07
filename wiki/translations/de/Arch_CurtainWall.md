@@ -11,6 +11,8 @@
 
 # Arch CurtainWall/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt eine [Vorhangfassade](https://de.wikipedia.org/wiki/Vorhangfassade), indem es eine Grundfläche in viereckige Flächen unterteilt, dann vertikale Pfosten an den vertikalen Kanten und horizontale Pfosten an den horizontalen Kanten erzeugt und die Zwischenräume zwischen den Pfosten mit Paneelen füllt.
@@ -41,7 +43,11 @@ Falls Sie eine unregelmäßige Unterteilung benötigen, ist es auch möglich, ei
 
 Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden. In diesem Fall kannst du eine Grundlinie zeichnen, die dann vertikal extrudiert wird, um die Fläche zu bilden, auf der die Vorhangwand aufgebaut wird.
 
+
+
 ## Anwendung
+
+
 
 ### Zeichnung einer Vorhangwand von Grund auf 
 
@@ -58,6 +64,8 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 </div>
 
+
+
 ### Erstellung einer Vorhangwand aus einem gewählten Objekt 
 
 
@@ -69,6 +77,8 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 
 </div>
+
+
 
 ## Optionen
 
@@ -82,6 +92,8 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 
 </div>
+
+
 
 ## Eigenschaften
 
@@ -139,6 +151,8 @@ Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de
 
 -    {{PropertyData/de|Host}}: Das Ursprungsobjekt dieser Vorhangfassade. Die Vorhangfassade erscheint in der Baumansicht eingebettet im Ursprungsobjekt (keine andere Aktion wird durchgeführt)
 
+
+
 ## Erstellen von Vorhangfassaden 
 
 
@@ -170,6 +184,8 @@ Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade
 
 </div>
 
+
+
 ## Skripten
 
 
@@ -199,7 +215,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = FreeCAD.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

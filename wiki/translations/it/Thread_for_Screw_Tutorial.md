@@ -21,6 +21,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Introduzione
@@ -30,7 +32,7 @@ Questo tutorial è un insieme di tecniche per modellare le filettature in FreeCA
 
 </div>
 
-This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the use of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread.
+This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread, but does not use the <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md) tool as this was introduced later.
 
 
 <div class="mw-translate-fuzzy">
@@ -42,14 +44,16 @@ La modellazione delle filettature è sconsigliata, perché carica notevolmente i
 
 Many of the techniques presented here have been collected from different forum threads:
 
--   [Gathering thread modeling techniques](https://forum.freecadweb.org/viewtopic.php?f=3&t=12593)
--   [Creating a thread: Unexpected results](https://forum.freecadweb.org/viewtopic.php?f=3&t=6506)
+-   [Gathering thread modeling techniques](https://forum.freecad.org/viewtopic.php?f=3&t=12593)
+-   [Creating a thread: Unexpected results](https://forum.freecad.org/viewtopic.php?f=3&t=6506)
 
 See also helpful videos:
 
--   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecadweb.org/viewtopic.php?f=8&t=44259)
+-   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecad.org/viewtopic.php?f=8&t=44259)
 
 Remember that thread shapes take a lot of memory, and having just one thread in a document can increase the file size significantly, so the user is advised to create threads only when absolutely necessary.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -73,6 +77,8 @@ In particular, three resources are recommended that can be installed from the [A
 *Various standard screws inserted with the Fasteners Workbench. An option controls whether an object shows the real thread or just a plain cylinder.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Metodo 1. Usare le macro 
@@ -85,6 +91,8 @@ C\'è la famosa [macro Screw Maker](Macro_screw_maker1_2/it.md), creata da ulric
 -   In the past, the [Macro BOLTS](Macro_BOLTS.md) was used to insert the parts from the BOLTS library. This is now deprecated. Use the [BOLTSFC Workbench](BOLTSFC_Workbench.md) instead.
 
 -   In the past the stand-alone [Screw Maker macro](Macro_screw_maker1_2.md), by ulrich1a, was used to create individual bolts, screws, and washers. This is now deprecated. The [Fasteners workbench](Fasteners_Workbench.md), by shaise, includes the complete screw maker macro, together with a GUI to select the right component.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -139,6 +147,8 @@ If you wish, you may add a **[<img src=images/PartDesign_AdditiveCylinder.svg st
 
 <img alt="" src=images/T13_06_Threads_Stacked_discs_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_07_Threads_Stacked_discs_2.png  style="width:" height="282px;"> 
 *Left: single disc created by revolution. Right: multiple discs placed in a linear pattern in the Z direction simulating a helical thread.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -206,6 +216,8 @@ Questo genera la spira del filetto, senza il supporto o il foro. Per effettuare 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Trucchi per avere successo 
@@ -262,6 +274,8 @@ Suggerimento 2. Mantenere il filetto corto (pochi giri). I filetti lunghi tendon
 -    **Tip 3.**For 3D visualization and 3D printing it may be okay to leave the cylinder and the thread unfused, that is, with intersections between the two solids. Reducing the amount the boolean operations results in less memory consumption and smaller files.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Pro e contro 
@@ -286,6 +300,8 @@ Suggerimento 2. Mantenere il filetto corto (pochi giri). I filetti lunghi tendon
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -326,6 +342,8 @@ Per ottenere un profilo standard a dente di sega, si devono fondere in un wire u
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Generare il profilo 
@@ -336,6 +354,8 @@ Non è facile capire qual è il profilo orizzontale necessario per ottenere un d
 </div>
 
 Figuring out the horizontal profile to obtain a certain vertical profile is not easy. For simple cases like triangular or trapezoidal it can be constructed manually. Alternatively, it can be constructed by creating a short thread with method 4, and getting a slice of it by doing a [Part Common](Part_Common.md) between a horizontal plane face and the thread.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -358,6 +378,8 @@ Figuring out the horizontal profile to obtain a certain vertical profile is not 
     3.  Set the growth to double the depth of cut of the thread.
 2.  [Part Mirror](Part_Mirror.md) the spiral against the XY plane
 3.  [Part Fuse](Part_Fuse.md) the spiral and the mirror to obtain a closed wire, shaped like a heart.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -407,6 +429,8 @@ I passaggi sono anche mostrati in azione in questo video di Gaurav Prabhudesai: 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Pro e contro 
@@ -431,12 +455,16 @@ I passaggi sono anche mostrati in azione in questo video di Gaurav Prabhudesai: 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Metodo 5. Loft tra facce elicoidali estruse 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

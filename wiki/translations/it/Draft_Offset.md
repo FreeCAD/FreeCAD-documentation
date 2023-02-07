@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -35,6 +37,8 @@ Lo strumento Offset sposta l\'oggetto selezionato di una determinata distanza (o
 
 </div>
 
+
+
 ## Utilizzo
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
@@ -43,11 +47,13 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare l\'oggetto che si desidera scostare.
-2.  Premere il pulsante **<img src="images/Draft_Offset.svg" width=16px> Offset**, o premere i tasti {{KEY/it|O}} e {{KEY/it|S}}. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
+2.  Premere il pulsante **<img src="images/Draft_Offset.svg" width=16px> Offset**, o premere i tasti **O** e **S**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
 3.  Selezionare un punto nella vista 3D, o fornire una distanza
 
 
 </div>
+
+
 
 ## Opzioni
 

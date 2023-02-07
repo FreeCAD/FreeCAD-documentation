@@ -1,13 +1,15 @@
 # Release notes 0.20/de
 {{TOCright}}
 
-**FreeCAD 0.20** wurde am **14 Jun1 2022** veröffentlicht, es kann von der [Download](Download/de.md)-Seite heruntergeladen werden. Diese Seite listet alle Neuerungen und Änderungen auf.
+**FreeCAD 0.20** wurde am **14 Juni 2022** veröffentlicht, es kann von der [Download](Download/de.md)-Seite heruntergeladen werden. Diese Seite listet alle Neuerungen und Änderungen auf.
 
 Ältere FreeCAD-Versionshinweise findet man in der [Funktionsliste](Feature_list/de#Versionshinweise.md).
 
    
   ![](images/FreeCAD_highlight_relnotes_0.20.gif )   *Modell eines 775 Gleichspannungsmotors von Benutzer \"jimmihenry\", siehe [Users Showcase](https://forum.freecadweb.org/viewtopic.php?p=551765#p551765).Das Modell wurde komplett mit den wöchentlichen [development snapshots](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) von FreeCAD 0.20 erstellt. Die Bilder für die animierte Grafik wurden mit dem FreeCAD-Makro [ Bildschirm Wiki](Macro_Screen_Wiki/de.md) erstellt. Die animierte GIF-Grafik selbst wurde unter Verwendung von [GIMP](https://en.wikipedia.org/wiki/GIMP) erstellt. Für diese Versionshinweise wurde es mit [ezgif](https://ezgif.com/crop) zugeschnitten und in seiner Größe angepasst.*
    
+
+
 
 ## Allgemeines
 
@@ -21,9 +23,13 @@ Die FreeCAD-Fehlerverfolgung ist nach GitHub umgezogen: <https://github.com/Free
 
 **Hinweis:** Nur Fehlermeldungen, die zuvor im Forum diskutiert wurden, werden berücksichtigt. Fehlermeldungen ohne Diskussion werden geschlossen.
 
+
+
 ### Ein neues Hilfesystem 
 
 The help system was rewritten and upgraded to display information directly from our [Wiki](User_hub.md). The system now relies on the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help). When you first use the [Help](Std_Help.md) tool or the [What\'s this?](Std_WhatsThis.md) tool you will be asked to install it.
+
+
 
 ## Benutzeroberfläche
 
@@ -65,6 +71,8 @@ The help system was rewritten and upgraded to display information directly from 
 |                                                                                                         | [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request #4118](https://github.com/FreeCAD/FreeCAD/pull/4118). |
 +++
 
+
+
 ### Weitere Verbesserungen Benutzeroberfläche 
 
 
@@ -75,6 +83,8 @@ The help system was rewritten and upgraded to display information directly from 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -194,11 +204,15 @@ FreeCAD received many new Python API functions:
 
 </div>
 
+
+
 ## Erweiterungsverwalter
 
    
   <img alt="" src=images/AddonManagerExpanded_relnotes_0.20.png  style="width:400px;">   The [Addon Manager](Std_AddonMgr.md) was modified to support the distribution of Preference Packs, and to display information found in an addon\'s metadata. The Addon Manager also includes improved support for Addons whose source code is located at several different git hosting locations. Networking support was improved to provide more robust handling of SSL connections and support for proxies requiring authentication. Support was added for automatically adding macro buttons to the toolbar after installing, for disabling Addons without removing them, and for switching which git branch of an Addon is checked out. Finally, the user interface was modified to improve searching and display of different list filters.
    
+
+
 
 ## Arbeitsbereich Architektur 
 
@@ -242,6 +256,8 @@ FreeCAD received many new Python API functions:
 |                                                                                                               | [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request #3229](https://github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                                  |
 +++
 
+
+
 ## Arbeitsbereich Entwurf 
 
 -   A **Global** checkbox was added to the task panel of many drafting commands. Checking it allows input of coordinates in the global coordinate system even if the [working plane](Draft_SelectPlane.md) is not aligned with the global XY plane.
@@ -260,6 +276,8 @@ FreeCAD received many new Python API functions:
 
 -   It is now possible to reverse a [Draft Wire](Draft_Wire.md) via the <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> [Draft Edit](Draft_Edit.md) context menu. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request #4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
+
+
 ### Weitere Entwurf Verbesserungen 
 
 -   Behoben [Entwurf Fang Gitter](Draft_Snap_Grid/de.md), wenn sich der Mauszeiger über einer Fläche befindet. [Forumsdiskussion](https://forum.freecad.org/viewtopic.php?f=23&t=62274). [Git commit](https://github.com/FreeCAD/FreeCAD/commit/1761eb8ce).
@@ -267,6 +285,8 @@ FreeCAD received many new Python API functions:
 -   New [Draft Texts](Draft_Text.md) are now aligned with the [working plane](Draft_SelectPlane.md), [Pull request #5092](https://github.com/FreeCAD/FreeCAD/pull/5092).
 
 -   Support for two DWG converters was added: [LibreDWG](https://www.gnu.org/software/libredwg) and [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg). See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
+
+
 
 ## Arbeitsbereich FEM 
 
@@ -280,6 +300,8 @@ FreeCAD received many new Python API functions:
 
 
 </div>
+
+
 
 ### Weitere FEM Verbesserungen 
 
@@ -305,15 +327,21 @@ FreeCAD received many new Python API functions:
 
 -   DXF: The missing unit block was added to the header14.rub file. [Pull request #5793](https://github.com/FreeCAD/FreeCAD/issues/5793)
 
+
+
 ## Polygonnetze
 
 ### Improved support for NASTRAN GRID elements 
 
 The Mesh import tool now supports the high-precision \"GRID\*\" element. The standard-precision \"GRID\" element was also improved, now supporting both space-delimited numeric input as well as fixed-field-width input, per the NASTRAN95 format documentation.
 
+
+
 ### Weitere Polygonnetz Verbesserungen 
 
 Fixed false negatives during self-intersection tests when facets are coplanar: [Pull request #5002](https://github.com/FreeCAD/FreeCAD/pull/5002).
+
+
 
 ## OpenSCAD Arbeitsbereich 
 
@@ -332,17 +360,23 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 |                                                                                                 | A new text box gives feedback about OpenSCAD errors.                                                                              |
 +++
 
+
+
 ## Arbeitsbereich Formteil 
 
    
   <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width:384px;">Tapered extrusion of a sketch with an inner structure.   A tapered [extrusion](Part_Extrude.md) of inner structures now creates usable results. Previously, inner structures were extruded as if they were stand-alone and not part of a structure. [Pull request #5367](https://github.com/FreeCAD/FreeCAD/pull/5367)
    
 
+
+
 ### Weitere Formteil Verbesserungen 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request #4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
 -   The [Face Colors](Part_FaceColors.md) tool now also allows to set the transparency (*Alpha channel*) of faces. This transparency can be [exported](Import_Export.md), making e.g. STEP files with transparent parts possible.
 -   The following commands now support App::Links: [Loft](Part_Loft.md), [Sweep](Part_Sweep.md), [Extrude](Part_Extrude.md), [Revolve](Part_Revolve.md), [Reverse shapes](Part_ReverseShapes.md), [Mirror](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Check Geometry](Part_CheckGeometry.md), [Ruled Surface](Part_RuledSurface.md), [Cross-sections](Part_CrossSections.md), and [Thickness](Part_Thickness.md). [Pull request #6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
+
+
 
 ## Arbeitsbereich PartDesign 
 
@@ -371,6 +405,8 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 |                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +++
 
+
+
 ### Weitere PartDesign Verbesserungen 
 
 -   In the [Helix](PartDesign_AdditiveHelix.md) feature one can now also use the sketch normal as axis. [Pull request #5199](https://github.com/FreeCAD/FreeCAD/pull/5199)
@@ -386,6 +422,8 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 -   When a PartDesign tool is run without an active body, FreeCAD now offers to activate a body or create a new one. [Pull request #4949](https://github.com/FreeCAD/FreeCAD/pull/4949)
 -   The [Face Colors](Part_FaceColors.md) tool is now also available from the PartDesign workbench.
 
+
+
 ## Arbeitsbereich Pfad 
 
 -   The Extensions feature was added to the [Adaptive](Path_Adaptive.md) operation. [Pull request #4388](https://github.com/FreeCAD/FreeCAD/pull/4388)
@@ -398,6 +436,8 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 ## Plot module 
 
 -   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request #4971](https://github.com/FreeCAD/FreeCAD/pull/4971).
+
+
 
 ## Arbeitsbereich Skizzierer 
 
@@ -415,6 +455,8 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 
 </div>
 
+
+
 ### Weitere Skizzierer Verbesserungen 
 
 
@@ -431,6 +473,8 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 
 </div>
 
+
+
 ## Arbeitsbereich Tabellenkalkulation 
 
    
@@ -439,6 +483,8 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
   ![](images/Spreadsheet_binding-dialog_relnotes_0.20.png )                          Cells can now be [bound to other cells](Spreadsheet_Workbench#Cell_binding.md) of the same or a different spreadsheet. Part of [Pull request #2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
    
 
+
+
 ### Weitere Verbesserungen Tabellenkalkulation 
 
 -   In the row/column context-menu it is now possible to specify the position when inserting rows/columns. [Pull request #4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
@@ -446,11 +492,15 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 -   Improved navigation using the **Tab** and **Enter** keys.
 -   Improved interface for cutting and pasting blocks of cells.
 
+
+
 ## Arbeitsbereich TechDraw 
 
    
   <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:384px;">   More than 30 new tools, so-called [Extensions](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings.
    
+
+
 
 ### Weitere TechDraw Verbesserungen 
 
@@ -462,9 +512,13 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 -   There is a new option to show a grid in a [page](TechDraw_PageDefault.md). Several related [preferences](TechDraw_Preferences#Grid.md) have been introduced. [Pull request #6465](https://github.com/FreeCAD/FreeCAD/pull/6465).
 -   The unit display in dimensions was fixed according to standards. The degree symbol is always present for the dimension value and tolerances, other units only appear if ShowUnits is set. The unit appears immediately after the dimension value unless there is a tolerance, then it appears after the tolerance. [Pull request #6581](https://github.com/FreeCAD/FreeCAD/pull/6581)
 
+
+
 ## Internet
 
 Qt WebEngine is now considered the default option instead of Qt WebKit.
+
+
 
 ## Externe Arbeitsbereiche 
 
@@ -528,6 +582,8 @@ The [Ship Workbench](Ship_Workbench.md) is back to life!
 -   A new tool to compute the [response amplitude operators](https://github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https://github.com/mancellin/capytaine).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Entwicklung
@@ -552,6 +608,8 @@ The supported operating systems are:
 -   Windows 7, 8, 10 and 11
 -   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
 -   MacOS: 10.12 Sierra or newer
+
+
 
 
 <div class="mw-translate-fuzzy">

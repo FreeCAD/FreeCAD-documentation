@@ -3,19 +3,15 @@
 
 La [Vista report](Report_view/it.md) è un pannello che mostra i messaggi di testo dei processi e degli strumenti di FreeCAD. È disponibile nel menu **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista report}}.
 
-
-<div class="mw-translate-fuzzy">
-
-Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda **Generali → Output** nell\'[editor delle preferenze](Preferences_Editor/it.md).
-
-
-</div>
+Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda **Generali → Output** nell\'[editor delle preferenze](Preferences_Editor/it#Finestra_di_output/it.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
 
 *Vista report che mostra i messaggi quando FreeCAD è appena stato avviato.*
+
+
 
 ## Messagi
 
@@ -42,14 +38,38 @@ Queste funzioni possono essere utilizzate direttamente dalla [console Python](Py
 
 *Esempio di messaggi nella vista report: un messaggio generale, un avviso, un errore e un messaggio registrato.*
 
+
+
 ## Azioni
 
+Facendo clic con il pulsante destro del mouse sulla vista del report si apre un menu contestuale con i seguenti comandi:
 
-<div class="mw-translate-fuzzy">
+-    **Opzioni**:
 
-Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi:
+    -   
+        **Visualizza tipi di messaggi**
+        
+        : see [Editor Preferenze](Preferences_Editor/it#Finestra_di_output.md).
 
--    **Opzioni**: registro, avviso, errore, reindirizza l\'output Python, reindirizza gli errori di Python, vai alla fine.
+    -   
+        **Mostra la Vista Report in caso di**
+        
+        : idem.
+
+    -   
+        **Reindirizza l'output di Python**
+        
+        : idem.
+
+    -   
+        **Reindirizza gli errori di Python**
+        
+        : idem.
+
+    -   
+        **Vai alla fine**
+        
+        : se selezionato, la visualizzazione del rapporto scorrerà verso il basso quando viene aggiunto un nuovo messaggio.
 
 -    **Copia**: memorizza il testo selezionato negli appunti per un successivo incollaggio; è disabilitato se non è selezionato nulla.
 
@@ -58,9 +78,6 @@ Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi
 -    **Pulisci**: cancella tutti i messaggi nella vista report. Ciò è utile se si desidera risolvere uno problema che stampa i messaggi nella vista report e si desidera assicurarsi che non vi siano vecchi messaggi di problemi precedenti.
 
 -    **Salva con nome**: salva i messaggi della vista report in un file di testo.
-
-
-</div>
 
 
 {{Interface navi

@@ -46,7 +46,8 @@ Das Maß zwischen Orientierungspunkten verhält sich im Allgemeinen wie jedes an
 
 1.  2 Punktobjekte in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
 2.  Auch die Ansicht auswählen, zu der das Maß hinzugefügt werden soll.
-3.  Die Schaltfläche **<img src="images/TechDraw_LandmarkDimension.svg" width=20px> [Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL](TechDraw_LandmarkDimension/de.md)** drücken oder den Menüeintrag {{MenuCommand/de|TechDraw → Maßeinträge → Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL}}
+3.  Die Schaltfläche **<img src="images/TechDraw_LandmarkDimension.svg" width=20px> [Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL](TechDraw_LandmarkDimension/de.md)
+** drücken oder den Menüeintrag **TechDraw → Maßeinträge → Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL**
 4.  Der Ansicht wird ein Maß hinzugefügt. Der Maßeintrag kann an die gewünschte Position gezogen werden.
 
 

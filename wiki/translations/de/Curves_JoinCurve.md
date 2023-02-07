@@ -8,11 +8,15 @@
 
 # Curves JoinCurve/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves KurveVerbinden](Curves_JoinCurve/de.md) verbindet die ausgewählten Kanten zu B-Spline-Kurven. Dieses Werkzeug ist Teil des [Externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
 <img alt="" src=images/JoinCurve_pic1.jpg  style="width:600px;">
+
+
 
 ## Anwendung
 
@@ -21,14 +25,22 @@ Das Werkzeug <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [
 3.  Kanten müssen in einer fortlaufenden Reihenfolge hinzugefügt werden und können aus einer Skizze ausgewählt werden oder die Kante einer beliebigen Form sein.
 4.  Es gibt mehrere Möglichkeiten den Befehl Curves KurvenVerbinden aufzurufen:
     -   Die Schaltfläche <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> drücken
-    -   Den Menüeintrag {{MenuCommand/de|Curves → joinCurves}} auswählen
+    -   Den Menüeintrag **Curves → joinCurves** auswählen
 5.  Alle Kanten werden zu einem einzigen B-spline verbunden.
+
+
 
 ## Hinweise
 
+
+
 ## Begrenzungen
 
+
+
 ## Eigenschaften
+
+
 
 ## Skripten
 

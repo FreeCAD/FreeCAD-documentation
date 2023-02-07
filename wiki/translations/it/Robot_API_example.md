@@ -20,15 +20,7 @@ rob = Robot6Axis()
 print rob
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-accedere all\'asse e alla TCP. Gli assi vanno da 1 a 6 e sono in gradi:
-
-
-</div>
-
-
+accedere all\'asse e alla TCP. Gli assi vanno da 1 a 6 e sono in gradi: 
 ```python
 Start = rob.Tcp
 print Start
@@ -40,15 +32,7 @@ spostare il primo asse del robot:
 rob.Axis1 = 5.0
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-il TCP è cambiato (cinematica in avanzamento)
-
-
-</div>
-
-
+il TCP è cambiato (cinematica in avanzamento) 
 ```python
 print rob.Tcp
 ```
@@ -95,6 +79,8 @@ print t.Waypoints
 del rob,Start,t,l,w
 ```
 
+
+
 ### Lavorare con gli oggetti del documento 
 
 Lavorare con gli oggetti del documento robot: creare prima un robot nel documento attivo 
@@ -116,15 +102,7 @@ App.activeDocument().Robot.Axis2 = -90
 App.activeDocument().Robot.Axis3 = 90
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-recuperare la posizione TCP
-
-
-</div>
-
-
+recuperare la posizione TCP 
 ```python
 pos = FreeCAD.getDocument("Unnamed").getObject("Robot").Tcp
 ```

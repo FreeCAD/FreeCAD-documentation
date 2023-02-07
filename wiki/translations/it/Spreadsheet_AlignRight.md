@@ -9,9 +9,13 @@
 
 # Spreadsheet AlignRight/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:16px;"> **Allinea a destra** allinea a destra il testo della cella.
+
+
 
 ## Utilizzo
 

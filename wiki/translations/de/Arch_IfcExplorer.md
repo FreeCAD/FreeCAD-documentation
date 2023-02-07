@@ -10,6 +10,8 @@
 
 # Arch IfcExplorer/de
 
+
+
 ## Beschreibung
 
 Der [IFC explorer](Arch_IfcExplorer/de.md) ist ein einfaches Hilfsmittel, um die Inhalte einer [IFC](Arch_IFC/de.md) Datei zu untersuchen. IFC Dateien sind Textdateien, die daher mit einem Texteditor lesbar sind, aber die Informationen sind verdichtet und schwer durchzublättern. Dieses Hilfsprogramm zeigt dem Anwender genau den gleichen Inhalt, aber angezeigt in einem geordneten und lesbaren Verfahren. Die *[IfcOpenShell](IfcOpenShell/de.md)* Softwarebibliothek muss installiert sein, damit dieses Dienstprogramm funktioniert.
@@ -23,11 +25,13 @@ Der Zweck dieses Explorers besteht einfach darin, dir zu ermöglichen, zu überp
 *Ifc Explorer mit verschiedenen Eigenschaften*
     
 
+
+
 ## Anwendung
 
 1.  Rufe den Ifc Explorer auf über:
     -   Drücken der Schaltfläche <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;">
-    -   Verwenden des Eintrags {{MenuCommand/de|Arch → Dienstprogramme → IFC Brep Kennzeichen umschalten}} aus dem Arch-Aufklappmenü.
+    -   Verwenden des Eintrags **Arch → Dienstprogramme → IFC Brep Kennzeichen umschalten** aus dem Arch-Aufklappmenü.
 
 
 

@@ -30,6 +30,8 @@ Iată o demonstrație care arată modul de creare a unei sarcini WB Path plecân
 
 </div>
 
+
+
 ## Modelul 3D 
 
 
@@ -90,6 +92,8 @@ The <img alt="" src=images/Path-Job.png  style="width:32px;"> [Job](Path_Job.md)
 
 </div>
 
+
+
 ### Definirea Sarcinii de lucru 
 
 
@@ -99,6 +103,8 @@ Fereastra Edit Job se deschide în fereastra Task și fereastra Model afișează
 
 
 </div>
+
+
 
 ### REzultatul sarcinii de lucru 
 
@@ -117,6 +123,8 @@ Tab-ul Output definește calea spre fișierul rezultat, numele și extensia fiș
 
 
 </div>
+
+
 
 ### Instrumentele Sarcinii de lucru 
 
@@ -184,6 +192,8 @@ Pentru accesul facil, toate instrumentele pot fi predefinite <img alt="" src=ima
 
 </div>
 
+
+
 ### Planul de lucru al Sarcinii de Lucru 
 
 
@@ -203,6 +213,8 @@ Această arborescență este afișată după configurarea Sarcinii de lucru odat
 
 
 </div>
+
+
 
 ## Operații cu Traiectoria 
 
@@ -257,6 +269,8 @@ The result is a model with two paths:
 
 
 </div>
+
+
 
 ## Verificarea Traiectoriei 
 

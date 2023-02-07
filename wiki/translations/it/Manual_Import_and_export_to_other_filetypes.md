@@ -1,19 +1,7 @@
 # Manual:Import and export to other filetypes/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 FreeCAD può importare ed esportare molti tipi di file. Ecco un elenco dei più importanti con una breve descrizione delle funzioni disponibili:
-
-
-<div class="mw-translate-fuzzy">
 
   Formato   Importazione   Esportazione   Note
      
@@ -26,29 +14,17 @@ FreeCAD può importare ed esportare molti tipi di file. Ecco un elenco dei più 
   DAE       Si             Si             Il principale formato di importazione e esportazione di Sketchup. Può contenere solo maglie triangolari. In fase di esportazione tutti gli oggetti solidi e le superfici basate su NURBS di FreeCAD sono convertiti in mesh.
   STL       Si             Si             Un formato basato su mesh, comunemente utilizzato per la stampa 3D. Può contenere solo maglie triangolari. In fase di esportazione tutti gli oggetti solidi e le superfici basate su NURBS di FreeCAD sono convertiti in mesh.
   PLY       Si             Si             Un vecchio formato basato su mesh. Può contenere solo maglie triangolari. In fase di esportazione tutti gli oggetti solidi e le superfici basate su NURBS di FreeCAD sono convertiti in mesh.
-  IFC       Si             Si             [Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes). Richiede l\'installazione di [IfcOpenShell-python](http://ifcopenshell.org/python.html). Il formato IFC e la sua compatibilità con altre applicazioni è un affare complesso, utilizzare con cautela.
+  IFC       Si             Si             [Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes). Richiede l\'installazione di [IfcOpenShell-python](http://ifcopenshell.org/python). Il formato IFC e la sua compatibilità con altre applicazioni è un affare complesso, utilizzare con cautela.
   SVG       Si             Si             Un eccellente e diffuso formato grafico 2D
   VRML      Si             Si             Un formato web piuttosto vecchio basato su mesh.
   GCODE     Si             Si             FreeCAD può già importare ed esportare da e verso vari dialetti di codice G, ma per il momento supporta solo alcune macchine.
   CSG       Si             No             Formato di OpenSCAD [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (Constructive Solid Geometry).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Alcuni di questi formati di file hanno delle opzioni. Questi formati possono essere configurati nel menu **Modifica -\> Preferenze -\> Importa / esporta**:
-
-
-</div>
+Alcuni di questi formati di file hanno delle opzioni. Questi formati possono essere configurati nel menu **Modifica → Preferenze → Importa/esporta**:
 
 ![](images/Import_preferences.jpg )
 
 **Approfondimenti**
-
-
-<div class="mw-translate-fuzzy">
 
 -   [Tutti i formati di file supportati da FreeCAD](Import_Export/it.md)
 -   [Lavorare con i file DXF in FreeCAD](Draft_DXF/it.md):
@@ -57,20 +33,8 @@ Alcuni di questi formati di file hanno delle opzioni. Questi formati possono ess
 -   [Importare e esportare verso IFC](Arch_IFC/it.md)
 -   [OpenCasCade](http://www.opencascade.com)
 -   [Teigha File Converter](https://www.opendesign.com/guestfiles)
--   [The IFC format](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm)
+-   [IFC Specifications Database](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
 -   [IfcOpenShell](http://ifcopenshell.org/)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -8,6 +8,8 @@
 
 # Std About/pl
 
+
+
 ## Opis
 
 Polecenie **Informacje o FreeCAD** otwiera okno dialogowe, w którym wyświetlane są informacje o programie FreeCAD.
@@ -22,6 +24,8 @@ Polecenie **Informacje o FreeCAD** otwiera okno dialogowe, w którym wyświetlan
 
 **'''UWAGA''': Nie rób zrzutu ekranu tego okna dialogowego! Zamiast tego naciśnij przycisk <br>**Skopiuj do schowka**, a następnie wklej te informacje w swoim żądaniu pomocy.**
 
+
+
 ## Użycie
 
 1.  Wybierz opcję z menu **Pomoc → <img src="images/Std_About.svg" width=16px> Informacje o FreeCAD**.
@@ -31,6 +35,8 @@ Polecenie **Informacje o FreeCAD** otwiera okno dialogowe, w którym wyświetlan
     -   Wklej te informacje w swoim zgłoszeniu pomocy.
     -   Nie dołączaj zrzutu ekranu okna dialogowego.
 4.  Naciśnij przycisk **Esc** lub **OK**, aby zamknąć okno dialogowe.
+
+
 
 ### Informacje o 
 
@@ -51,9 +57,13 @@ Coin version: 4.0.0a
 OCC version: 7.3.0
 Locale: English/UnitedStates (en_US)
 
+
+
 ### Zasłużeni
 
 Zakładka Zasłużeni pokazuje listę osób, które przyczyniły się do powstania projektu FreeCAD. Aby znaleźć się na tej liście, możesz wnieść swój wkład na wiele różnych sposobów, w tym programując, usuwając błędy, pakując oprogramowanie, pisząc dokumentację użytkownika i samouczki, tłumacząc oprogramowanie i dokumentację, pracując nad ikonami, grafiką i interfejsami graficznymi oraz pomagając na forum. Więcej informacji można znaleźć w dziale [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md).
+
+
 
 ### Licencja
 
@@ -62,6 +72,8 @@ FreeCAD jest licencjonowany zgodnie z warunkami [GNU Lesser General Public Licen
 Ponieważ FreeCAD korzysta z zewnętrznych bibliotek, mogą one mieć własne warunki licencjonowania. Zapoznaj się z ich konkretnymi licencjami dostępnymi na stronie [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md).
 
 Kod, który jest rozpowszechniany razem z podstawowym programem FreeCAD, musi być zgodny z licencją LGPL 2.
+
+
 
 ### Biblioteki
 

@@ -1,11 +1,11 @@
 ---
 - TutorialInfo:/fr
-   Topic: Conception de produit
-   Level: Avancé
-   Time: 60 minutes
+   Topic:Conception de produit
+   Level:Avancé
+   Time:60 minutes
    Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
    FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
+   Files:[https://forum.freecad.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
 ---
 
 # Thread for Screw Tutorial/fr
@@ -16,20 +16,22 @@
 
 ## Introduction
 
-Ce tutoriel est un ensemble de techniques pour modéliser les filetages de vis dans FreeCAD. Il a été mis à jour pour la v0.19, bien que le processus global soit essentiellement le même depuis la v0.14, lorsque le didacticiel a été initialement écrit. Le contenu mis à jour se concentre sur l\'utilisation de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) pour créer le filetage.
+Ce tutoriel est un ensemble de techniques pour modéliser les filetages de vis dans FreeCAD. Il a été mis à jour pour la v0.19, bien que le processus général soit essentiellement le même depuis la v0.14, lorsque le tutoriel a été écrit à l\'origine. Le contenu mis à jour se concentre sur l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) pour créer le filetage. Il n\'utilise pas le <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md), cet outil ayant été introduit plus tard.
 
 Dans les systèmes de CAO traditionnels, la modélisation des filetages de vis est déconseillée car elle impose une charge importante sur le noyau de modélisation, ainsi que sur le rendu des formes. Dans les systèmes traditionnels, un fil n\'a pas besoin d\'être représenté directement dans l\'espace 3D, car il peut être indiqué avec ses caractéristiques requises dans le dessin technique 2D envoyé pour la fabrication. Cependant, avec la vulgarisation de la fabrication additive (impression 3D), il existe désormais un réel besoin de modéliser les fils 3D, afin de les imprimer exactement comme prévu. C\'est à cela que sert ce didacticiel.
 
 De nombreuses techniques présentées ici ont été collectées à partir de différents fils de discussion :
 
--   [Gathering thread modeling techniques](https://forum.freecadweb.org/viewtopic.php?f=3&t=12593)
--   [Creating a thread: Unexpected results](https://forum.freecadweb.org/viewtopic.php?f=3&t=6506)
+-   [Gathering thread modeling techniques](https://forum.freecad.org/viewtopic.php?f=3&t=12593)
+-   [Creating a thread: Unexpected results](https://forum.freecad.org/viewtopic.php?f=3&t=6506)
 
 Voir aussi des vidéos utiles :
 
--   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecadweb.org/viewtopic.php?f=8&t=44259)
+-   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecad.org/viewtopic.php?f=8&t=44259)
 
 N\'oubliez pas que les formes de filetages prennent beaucoup de mémoire et que le fait d\'avoir un seul filetage dans un document peut augmenter considérablement la taille du fichier, il est donc conseillé à l\'utilisateur de créer des filetages uniquement lorsque cela est absolument nécessaire.
+
+
 
 ## Méthode 1. Utilisation des utilitaires et des pièces des ateliers 
 
@@ -44,11 +46,15 @@ En particulier, trois ressources sont recommandées et peuvent être installées
 <img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
 *Diverses vis standard insérées avec l'atelier Fasteners. Une option permet de contrôler si l'objet montre le véritable filetage ou seulement un simple cylindre.*
 
+
+
 ## Méthode 2. Utilisation de macros (obsolète) 
 
 Dans le passé, la [macro BOLTS](Macro_BOLTS/fr.md) était utilisée pour insérer les pièces de la bibliothèque BOLTS. Ceci est désormais obsolète. Utilisez plutôt l\'[Atelier BOLTSFC](BOLTSFC_Workbench/fr.md).
 
 -   Par le passé, la macro [Screw Maker](Macro_screw_maker1_2/fr.md), par ulrich1a, était utilisée pour créer des boulons, des vis et des rondelles. Elle est désormais obsolète. L\'[Atelier Fasteners](Fasteners_Workbench/fr.md), par shaise, comprend la macro complète de vissage, ainsi qu\'une interface graphique pour sélectionner le bon composant.
+
+
 
 ## Méthode 3. Faux filetages non hélicoïdaux 
 
@@ -58,6 +64,8 @@ Nous pouvons créer un faux filetage en utilisant un chemin non hélicoïdal, pa
 
 <img alt="" src=images/T13_01_Threads_comparison_fake_real.png  style="width:" height="300px;"> 
 *A gauche : un simple boulon avec un faux filetage non hélicoïdal. A droite : un simple boulon avec un vrai filetage hélicoïdal. Lorsque l'impression 3D n'est pas nécessaire, un filetage simulé est souvent suffisant pour la visualisation.*
+
+
 
 ### Profil tournant en dents de scie 
 
@@ -71,6 +79,8 @@ Nous pouvons créer un faux filetage en utilisant un chemin non hélicoïdal, pa
 
 <img alt="" src=images/T13_03_Threads_Sawtooth_revolution_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_04_Threads_Sawtooth_revolution_2.png  style="width:" height="300px;"> 
 *Vue en coupe du filetage non hélicoïdal résultant produit par rotation du profil en dents de scie autour de l'axe vertical.*
+
+
 
 ### Disques empilables 
 
@@ -93,7 +103,11 @@ Si vous le souhaitez, vous pouvez ajouter un **[<img src=images/PartDesign_Addit
 <img alt="" src=images/T13_06_Threads_Stacked_discs_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_07_Threads_Stacked_discs_2.png  style="width:" height="282px;"> 
 *A gauche: disque unique créé par révolution. A droite: plusieurs disques placés dans un motif linéaire dans la direction Z simulant un filetage hélicoïdal.*
 
+
+
 ## Méthode 4. Balayage d\'un profil vertical 
+
+
 
 ### Atelier Part Design 
 
@@ -118,6 +132,8 @@ Un vrai filetage consiste à faire suivre un profil fermé le long d\'une courbe
 <img alt="" src=images/T13_12_Threads_Helical_thread_cylinder.png  style="width:" height="300px;"> <img alt="" src=images/T13_13_Threads_Helical_thread_finished.png  style="width:" height="300px;"> 
 *À gauche : bobine hélicoïdale fusionnée à un cylindre central pour former le corps de la vis. À droite : d'autres éléments, une tête et une pointe, ajoutés pour améliorer la forme de la vis.*
 
+
+
 ### Atelier Part 
 
 Ce processus peut également être effectué à l\'aide des outils de l\'[Atelier Part](Part_Workbench/fr.md).
@@ -134,6 +150,8 @@ Vous pouvez maintenant ajouter d\'autres primitives comme des **[<img src=images
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
 *Création d'un filetage par balayage d'un profil vertical, (1) le [profil de l'esquisse](sketch/fr.md), (2) la trajectoire de balayage [hélicoïdale](Part_Helix/fr.md), et (3) le résultat du [balayage](Part_Sweep/fr.md).*
+
+
 
 ### Les clés du succès 
 
@@ -159,6 +177,8 @@ Vous pouvez maintenant ajouter d\'autres primitives comme des **[<img src=images
 
 -    **Astuce 3.**Pour la visualisation et l\'impression 3D, il peut être acceptable de laisser le cylindre et le filetage non fusionnés, c\'est-à-dire avec des intersections entre les deux solides. En réduisant le nombre d\'opérations booléennes, on réduit la consommation de mémoire et la taille des fichiers.
 
+
+
 ### Avantages et inconvénients 
 
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Facile à comprendre.
@@ -169,7 +189,11 @@ Vous pouvez maintenant ajouter d\'autres primitives comme des **[<img src=images
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Les opérations booléennes sont nécessaires pour obtenir un solide solide contigu. Les opérations booléennes prennent un temps relativement long à calculer et échouent souvent.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Filetages avec un nombre élevé de tours sont problématiques.
 
+
+
 ## Méthode 5. Balayage d\'un profil horizontal 
+
+
 
 ### Généralités
 
@@ -181,9 +205,13 @@ Si on utilise un cercle en guise de profil horizontal (le cercle doit être déc
 
 Pour obtenir un profil standard en dent de scie, une paire de spirale d'Archimède doivent être fusionnées. La figure résultante est une forme cardioïde, qui est difficilement différentiable d\'un cercle quand la profondeur du filet est faible comparée à son diamètre (c\'est pourquoi un filetage \"épais\" est présenté sur la figure ci dessus).
 
+
+
 ### Génération du profil 
 
 Déterminer le profil horizontal pour obtenir un certain profil vertical n\'est pas facile. Pour les cas simples comme les triangulaires ou les trapézoïdaux, on peut le construire manuellement. On peut aussi le construire en créant un filetage court avec la méthode 4, et en obtenant une tranche de celui-ci en faisant une [Part Intersection](Part_Common/fr.md) entre une face plane horizontale et le filetage.
+
+
 
 #### Profil pour un filetage triangulaire 
 
@@ -193,6 +221,8 @@ Déterminer le profil horizontal pour obtenir un certain profil vertical n\'est 
     3.  fixer la croissance pour doubler la profondeur de coupe du filet.
 2.  [Part Mirroir](Part_Mirror/fr.md) la spirale dans le plan XY
 3.  [Part Union](Part_Fuse/fr.md) la spirale et le miroir pour obtenir un filet fermé, en forme de cœur.
+
+
 
 #### Profil pour une section quelconque 
 
@@ -210,9 +240,11 @@ Déterminer le profil horizontal pour obtenir un certain profil vertical n\'est 
 10. Balayez le filetage le long de l\'hélice. Définissez {{CheckBox|TRUE|Create solid}} et {{CheckBox|TRUE|Frenet}}.
 11. Vous avez terminé.
 
-Le guide étape par étape est tiré de ce [message du forum par Ulrich1a](http://forum.freecadweb.org/viewtopic.php?f=3&t=6506#p52558) (\"Creating a thread : Unexpected results\"), légèrement modifié.
+Le guide étape par étape est tiré de ce [message du forum par Ulrich1a](http://forum.freecad.org/viewtopic.php?f=3&t=6506#p52558) (\"Creating a thread : Unexpected results\"), légèrement modifié.
 
 Les étapes sont également montrées en action sur [cette vidéo par Gaurav Prabhudesai](http://www.youtube.com/watch?v=fxKxSOGbDYs) (\"FreeCAD : How to make threads\").
+
+
 
 ### Avantages et inconvénients 
 
@@ -224,9 +256,13 @@ Les étapes sont également montrées en action sur [cette vidéo par Gaurav Pra
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> définir le profil du filetage est compliqué.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> l\'utilisation du mailleur standard avec un filetage créé de cette manière génère des maillages moches, ce qui peut entraîner des problèmes. D\'autres mailleurs sont meilleurs, par exemple, Mefisto semble donner les meilleurs résultats.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> grande empreinte mémoire selon [Techniques de modélisation des filets de collecte](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> grande empreinte mémoire selon [Techniques de modélisation des filets de collecte](http://forum.freecad.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+
+
 
 ### Méthode 6. Lissage entre les faces extrudées hélicoïdales 
+
+
 
 ### Généralités 
 

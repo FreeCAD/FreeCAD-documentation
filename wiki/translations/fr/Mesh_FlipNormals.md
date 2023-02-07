@@ -13,17 +13,21 @@
 
 La commande **Mesh Inverser les normales‏‎** inverse, retourne, les normales des objets maillés.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets maillés.
-2.  Il existe plusieurs façons d\'appeler la commande:
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_FlipNormals.svg" width=16px> [Inverser les normales](Mesh_FlipNormals/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverser les normales** dans le menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverser les normales** du menu.
+
+
 
 ## Remarques
 
-Pour une indication plus précise de l\'orientation des faces des objets maillés, assurez-vous que la propriété **Lighting** des objets mesh est définie sur {{Value|One side}}. La couleur de l\'arrière de leurs faces dépendra alors des paramètres de rétroéclairage: **Edition → Préférences... → Affichage → Vue 3D → Backlight color - Intensity**. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
+Pour une indication plus précise de l\'orientation des faces des objets maillés, assurez-vous que la propriété **Lighting** des objets maillés est définie à {{Value|One side}}. La couleur de l\'arrière de leurs faces dépendra alors des paramètres de rétroéclairage : **Edition → Préférences... → Affichage → Vue 3D → Backlight color - Intensity**. Voir [Editeur de préférences](Preferences_Editor/fr#Vue_3D.md).
 
 
 

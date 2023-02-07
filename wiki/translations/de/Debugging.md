@@ -1,9 +1,13 @@
 # Debugging/de
 {{TOCright}}
 
+
+
 ## Erster Test 
 
 Bevor du den Schmerz der Fehlerdiagnose durchmachst, benutze das [Test Framework](Testing/de.md), um zu überprüfen, ob die Standardtests ordnungsgemäß funktionieren. Wenn sie nicht vollständig ausgeführt werden, liegt möglicherweise eine defekte Installation vor.
+
+
 
 ## Befehlszeile
 
@@ -40,9 +44,13 @@ Konfiguration:
 
 </div>
 
+
+
 ## Erzeugen einer Rückverfolgung 
 
 Wenn Du eine FreeCAD Version der Anfangsphase der Entwicklungskurve verwendest, kann sie \"abstürzen\". Du kannst dabei helfen, diese Probleme zu lösen, indem Du einen \"Rückverfolgung\" an die Entwickler schickst. Um dies zu tun, musst Du ein \"Fehlerdiagnose build\" der Software haben. \"Fehlerdiagnose build\" ist ein Parameter, der zur Kompilierungszeit gesetzt wird, also musst Du entweder FreeCAD selbst kompilieren oder Dir eine vorkompilierte \"Fehlerdiagnose\" Version besorgen.
+
+
 
 ### Für Linux 
 
@@ -103,6 +111,8 @@ Drucke auch die Werte der lokalen Variablen. Dies kann mit einer Zahl kombiniert
 
 </div>
 
+
+
 ### Für macOS 
 
 
@@ -149,6 +159,8 @@ Dies führt zu einer längeren Auflistung dessen, was das Programm genau getan h
 
 </div>
 
+
+
 ## Von FreeCAD geladene Bibliotheken auflisten 
 
 (Anwendbar auf Linux und macOS)
@@ -167,6 +179,8 @@ Dadurch wird eine lange Liste der geladenen Ressourcen gedruckt. Wenn z.B. herau
 
 
 `lsof -p process_id &#124; grep Coin`
+
+
 
 ## Python Fehlerdiagnose 
 
@@ -282,7 +296,7 @@ ptvsd.wait_for_attach()
 
 <div class="mw-translate-fuzzy">
 
--   Füge eine Fehlerdiagnosekonfiguration in Visual Studio Code {{MenuCommand/de|Fehlerdiagnose → Konfigurationen hinzufügen...}}. Es sollte so aussehen:
+-   Füge eine Fehlerdiagnosekonfiguration in Visual Studio Code **Fehlerdiagnose → Konfigurationen hinzufügen...**. Es sollte so aussehen:
 
 
 </div>
@@ -433,6 +447,8 @@ squashfs-root> ./usr/bin/freecad
 
 
 </div>
+
+
 
 ## Fehlerdiagnose OpenCasCade 
 

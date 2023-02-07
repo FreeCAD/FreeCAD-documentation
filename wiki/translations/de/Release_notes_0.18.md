@@ -3,6 +3,8 @@ FreeCAD 0.18 wurde am 12. März 2019 veröffentlicht, hole es von [GitHub](https
 
 Ältere FreeCAD Versionshinweise findest du unter [Liste der Funktionen](Feature_list#Release_notes/de.md).
 
+
+
 ## Höhepunkte
 
 Erweiterte [TechDraw](#TechDraw_Workbench/de.md) Werkzeuge
@@ -26,19 +28,23 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 
 
 
+
+
 ## Allgemeines
 
 -   Neugestaltetes Startzentrum
--   Der Dokumentenbaum (Modell Reiter) bietet jetzt 3 Optionen für die Anzeige aller Dokumente, wobei die Option aus dem Menü {{MenuCommand/de|Ansicht→ Dokumentenbaum}} gesetzt ist:
+-   Der Dokumentenbaum (Modell Reiter) bietet jetzt 3 Optionen für die Anzeige aller Dokumente, wobei die Option aus dem Menü **Ansicht→ Dokumentenbaum** gesetzt ist:
     -   Einzelnes Dokument (Nur das derzeit aktive Dokument anzeigen)
     -   Multi-Dokument (Anzeige aller Dokumente, wie es bis FreeCAD 0.17 der Fall war)
     -   Komprimieren/Expandieren (das aktive Dokument expandieren und alle anderen komprimieren)
 -   Wenn eine Aufgabe aktiv ist und eine Benutzereingabe erfordert, erscheint jetzt ein Symbol mit einem Bleistift auf der Aufgabenreiter und verschwindet, wenn die Aufgabe abgeschlossen ist.
--   Die 3D Ansicht verfügt jetzt über einen neuen **[Navigationswürfel](Navigation_Cube/de.md)**, um die Ansicht schnell auszurichten. Er verfügt außerdem über ein kleines Menü, mit dem die Projektion auf orthografisch oder perspektivisch eingestellt und der Inhalt an die Ansicht angepasst werden kann. Die Platzierung des Navigationswürfels kann in {{MenuCommand/de|Einstellungen → Anzeige→ 3D Ansicht}} eingestellt und auch ausgeblendet werden.
+-   Die 3D Ansicht verfügt jetzt über einen neuen **[Navigationswürfel](Navigation_Cube/de.md)**, um die Ansicht schnell auszurichten. Er verfügt außerdem über ein kleines Menü, mit dem die Projektion auf orthografisch oder perspektivisch eingestellt und der Inhalt an die Ansicht angepasst werden kann. Die Platzierung des Navigationswürfels kann in **Einstellungen → Anzeige→ 3D Ansicht** eingestellt und auch ausgeblendet werden.
 -   Generische Unterstützung für US Civil / Transportation Engineering Einheiten wurde hinzugefügt. Diese Einheiten umfassen ft, ft\^2, ft\^3, mph und Winkel als Grad/Minuten/Sekunden. Diese Einheiten ermöglichen die Darstellung von feet in dezimaler Form, im Gegensatz zu US Building, das Bruchteile von Zoll erzwingt.
--   Es ist jetzt möglich, ein benutzerdefiniertes Hintergrundbild für das Hauptfenster von FreeCAD mit der Option [{{MenuCommand/de|Einstelllungen → Allgemein → Aktivere gekachelter Hintergrund }}](Preferences_Editor#General/de.md) festzulegen.
+-   Es ist jetzt möglich, ein benutzerdefiniertes Hintergrundbild für das Hauptfenster von FreeCAD mit der Option [**Einstelllungen → Allgemein → Aktivere gekachelter Hintergrund **](Preferences_Editor#General/de.md) festzulegen.
 
 <File:Start> center 0.18 screenshot.jpg\|thumb\|left\|Das neu gestaltete Startzentrum <File:FC018> Navigation Cube.png\|thumb\|left\|Der Navigationswürfel <File:FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD mit einem benutzerdefinierten Hintergrundbild
+
+
 
 
 
@@ -63,6 +69,8 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 -   [External references](Arch_Reference.md) now allow you to link parts from another FreeCAD file into a FreeCAD file.
 
 -   But there is much more! Check the [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) to see everything that has been done there this year.
+
+
 
 ## Arbeitsbereich Entwurf 
 
@@ -100,6 +108,8 @@ Verbesserte und erweiterte [Arch und BIM](#Arch_Workbench/de.md) Werkzeuge.
 
 Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeCAD Materialeditor zu verwenden. Siehe auch [Materialkarten](Release_notes_0.18#Material_Handling/de.md). Dazu wurde die FEM Materialaufgabenkonsole aufpoliert.
 
+
+
 ## Arbeitsbereich Part 
 
 -   Das [Geometrie prüfen](Part_CheckGeometry/de.md) Werkzeug öffnet jetzt ein kleines Fenster mit einem Fortschrittsbalken und einer **Cancel** Schaltfläche, um die Aufgabe zu beenden, wenn sie zu lange dauert.
@@ -107,22 +117,32 @@ Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeC
 
 -   Das neue [AuseinanderKappen](Part_SliceApart/de.md) Werkzeug basiert auf dem Werkzeug [Kappen aus Verbund](Part_Slice/de.md) und enthält ein automatisches Sprengen des Verbunds zum einfachen Aufteilen von Objekten.
 
+
+
 ## Arbeitsbereich PartDesign 
 
 -   Das neue [Lokales koordinatensystem](PartDesign_CoordinateSystem/de.md) Werkzeug ermöglicht jetzt das Hinzufügen einer lokalen Koordinatensystem Visualisierung zu mehreren Bezugsobjekten.
 
+
+
 ## Arbeitsbereich Pfad 
+
+
 
 ### Allgemeine Verbesserungen 
 
 -   Pfad kann jetzt G-Code mit ABC Achsenwörtern korrekt anzeigen
 -   Verbesserungen am Werkzeugeditor - Vereinfachte Bearbeitung für ausgewählte Werkzeugtypen
 
+
+
 ### Auftragsverbesserungen
 
 -   Aufträge können jetzt mehrere Basisobjekte haben
 -   Die Organisation der Auftragsbehälter wurde verbessert
 -   Vorgabewerte für Arbeitsgangseinstellungen können über EinrichtungsBlätter gesteuert werden
+
+
 
 ### Arbeitsgänge
 
@@ -133,10 +153,14 @@ Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeC
 -   RampenEintritt Verschönerung hat jetzt einen konfigurierbaren Startpunkt
 -   TaschenForm Bearbeitung kann jetzt \'Umriss verwenden\'.
 
+
+
 ### Nachbearbeiter
 
 -   grbl_post -- Argument zur Unterdrückung von Werkzeugwechselbefehlen
 -   grbl_g81 Nachbearbeiter
+
+
 
 ## Arbeitsbereich Skizzierer 
 
@@ -147,9 +171,9 @@ Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeC
 -   Neues **[Durchmesser beschränken](Sketcher_ConstrainDiameter/de.md)** Werkzeug hinzugefügt
 -   **DoF Finder** ist ein neues Hilfsprogramm, das bei der Suche nach Freiheitsgraden hilft. Im Lösernachrichten Widget in der Aufgabenkonsole wird die übliche Nachricht *Unterbeschränkte Skizze mit x Freiheitsgraden* jetzt den *x Grad*-Text blau unterstrichen. Wenn du darauf klickst, werden in der 3D Ansicht die Elemente, die nicht vollständig beschränkt sind, in grün hervorgehoben.
 -   **Skizzierer Auto Remove Redundants** ist ein neues Kontrollkästchen in den Lösernachrichtenfeld. Wenn es aktiviert ist, verhindert es die Erstellung überflüssiger Beschränkungen, wenn der Benutzer skizziert und Abhängigkeiten anwendet, und löscht automatisch die überflüssigen Beschränkungen.
--   Es gibt einen neuen Befehl zum Löschen aller Beschränkungen auf einmal. Er ist im Menü {{MenuCommand/de|Skizze → Skizzierwerkzeuge → Alle Beschränkungen löschen}} zu finden.
--   Neue Option in {{MenuCommand/de|Einstellungen → Skizzierer → Allgemein→ Basislängeneinheiten für unterstütztes Einheitensysteme ausblenden}}. Dadurch wird die Einheit für Bemaßungsbeschränkungen im Skizzenbearbeitungsmodus ausgeblendet.
--   Die Größe von Knoten (Punkten) kann jetzt in {{MenuCommand/de|Einstellungen → Anzeige → 3D Ansicht → Markergröße}} eingestellt werden.
+-   Es gibt einen neuen Befehl zum Löschen aller Beschränkungen auf einmal. Er ist im Menü **Skizze → Skizzierwerkzeuge → Alle Beschränkungen löschen** zu finden.
+-   Neue Option in **Einstellungen → Skizzierer → Allgemein→ Basislängeneinheiten für unterstütztes Einheitensysteme ausblenden**. Dadurch wird die Einheit für Bemaßungsbeschränkungen im Skizzenbearbeitungsmodus ausgeblendet.
+-   Die Größe von Knoten (Punkten) kann jetzt in **Einstellungen → Anzeige → 3D Ansicht → Markergröße** eingestellt werden.
 -   Neuer **[Verschieben](Sketcher_Move/de.md)** Befehl, um die gesamte ausgewählte Geometrie vom zuletzt ausgewählten Punkt aus zu verschieben. Auf diesen Befehl kann über die Ausklappliste des Klonwerkzeugs zugegriffen werden.
 -   Kontrollkästchen *Erweiterte Informationen* zum Beschränkungslisten Widget hinzugefügt.
 
@@ -160,7 +184,11 @@ Entsprechende Forenverweise:
 -   [Skizzierermodus zur automatischen Entfernung von Redundanzen](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Beschränkungen erweiterte Benennung](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
+
+
 ## Arbeitsbereich Tabellenkalkulation 
+
+
 
 ## Arbeitsbereich Oberfläche 
 
@@ -188,6 +216,8 @@ Der TechDraw Arbeitsbereich erhielt eine Reihe von Ergänzungen und Verbesserung
 <img alt="eine Materialkarte" src=images/Material-Card-018.png  style="width:300px;"> Die Materialhandhabung wurde verbessert. Es ist jetzt möglich, *Materialkarten* für jedes Material zu erstellen. Die Karten können alle Informationen, physikalische Eigenschaften, architektonische Spezifikationen, Internetverknüpfungen, Kommentare usw. enthalten. Die Karten sind Textdateien mit der Dateiendung **.FCMat** und können für alle Arbeitsbereiche von FreeCAD verwendet werden.
 
 FreeCAD stellt Materialkarten für Standardmetalle, Kunststoffe und verschiedene Stahlsorten zur Verfügung.
+
+
 
 ## Zusätzliche Module 
 

@@ -1,13 +1,17 @@
 # TechDraw Templates/fr
 {{TOCright}}
 
-## Vue d\'ensemble 
+
+
+## Présentation
 
 Chaque page TechDraw est basée sur un objet Modèle. Le modèle contrôle la taille du papier et contient des graphiques et du texte fixes, par exemple un cadre de page ou une bordure.
 
 Le modèle peut également contenir des champs de texte modifiables pour des attributs tels que *Titre*, *Sous-titre*, *Auteur*, *Date*, *Échelle*, *Poids*, *Numéro du dessin* et *Feuille*.
 
 Les modèles sont des fichiers [SVG](SVG/fr.md) qui peuvent être créés et modifiés en dehors de FreeCAD, avec une application telle que [Inkscape](https://fr.wikipedia.org/wiki/Inkscape).
+
+
 
 ## Propriétés
 
@@ -20,6 +24,8 @@ Les modèles sont des fichiers [SVG](SVG/fr.md) qui peuvent être créés et mod
 -    **Page Result**: Une copie du fichier modèle original incluant toutes les modifications apportées aux textes modifiables. Cela permet aux utilisateurs qui ne possèdent pas une copie du fichier modèle de voir la page comme prévu. Pas typiquement utile pour les utilisateurs finaux.
 
 -    **Template**: a) Un pointeur vers la copie du fichier modèle original incorporé dans ce fichier \*.FCStd, ou b) un chemin de fichier vers un modèle accessible sur la machine actuelle. Utilisez le bouton de sélection de fichier (\...) pour changer de modèle.
+
+
 
 ## Sélectionner un autre fichier modèle 
 
@@ -36,6 +42,8 @@ Pour sélectionner un modèle différent pour un dessin :
 9.  Appuyez sur le bouton **OK**.
 
 Si vous avez modifié un fichier modèle et que vous souhaitez mettre à jour une page créée dans la session FreeCAD en cours qui utilise ce modèle, sélectionnez d\'abord temporairement un fichier différent, puis sélectionnez à nouveau le fichier modifié.
+
+
 
 ## Modèles personnalisés 
 
@@ -56,6 +64,8 @@ Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 Les modèles personnalisés peuvent également être spécifiés par défaut dans [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateHowTo/fr.md)
+
+
 
 ## Remarques
 

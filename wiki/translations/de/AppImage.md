@@ -32,19 +32,12 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
-
-<div class="mw-translate-fuzzy">
-
 **Wichtige Hinweise:**.
 
--   Die Entwicklung erfolgt täglich und schnell, die Verknüpfung mit dem aktuellsten AnwendungsAbbild ist ein bewegliches Ziel.
--   Die obige Entwicklungsverknüpfung sollte aktuell sein, da er über ein Skript aktualisiert wird.
+-   Die Entwicklung erfolgt täglich und schnell.
 -   Viele Anwender im Forum nutzen die Entwicklungsversion.
--   Es kann auf dem gleichen System parallel zu einer anderen Version von FreeCAD ausgeführt werden.
--   Anwender verwenden die dev Version, um die neuesten Funktionen und Fehlerbehebungen zu nutzen (da FreeCAD einen langen Veröffentlichungszyklus hat). Sie nutzen es auch, um Fehler zu testen und zu finden, um die Entwicklung und Verbesserung von FreeCAD voranzutreiben.
-
-
-</div>
+-   Sie kann auf demselben System parallel zu einer anderen Version von FreeCAD ausgeführt werden.
+-   Anwender verwenden die Entwicklungsversion, um die neuesten Funktionen und Fehlerbehebungen zu nutzen (da FreeCAD einen langen Veröffentlichungszyklus hat). Sie nutzen sie auch, um sie zu testen und Fehler zu finden, um die Entwicklung und Verbesserung von FreeCAD voranzutreiben.
 
 
 
@@ -64,7 +57,7 @@ Die automatische Aktualisierung erfolgt über mehrere optionale Methoden. Derzei
 
 ### Experimentelle In-Anwendungs-Aktualisierung 
 
-Dank der Bemühungen mehrerer wichtiger Schlüsselentwickler gibt es [laufende Bemühungen](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324), eine Funktion zu integrieren, die es ermöglicht, das AnwendungsAbbild innerhalb von FreeCAD selbst zu aktualisieren. Beginnend mit FC 0.19.21514 gibt es nun einen Abschnitt AnwendungsAbbild, der über {{MenuCommand/de|Bearbeiten → Einstellungen → AnwendungsAbbild}} gefunden werden kann. Bitte teste diese Fähigkeit und berichte über deine Erfahrungen in der [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324).
+Dank der Bemühungen mehrerer wichtiger Schlüsselentwickler gibt es [laufende Bemühungen](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324), eine Funktion zu integrieren, die es ermöglicht, das AnwendungsAbbild innerhalb von FreeCAD selbst zu aktualisieren. Beginnend mit FC 0.19.21514 gibt es nun einen Abschnitt AnwendungsAbbild, der über **Bearbeiten → Einstellungen → AnwendungsAbbild** gefunden werden kann. Bitte teste diese Fähigkeit und berichte über deine Erfahrungen in der [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324).
 
 
 

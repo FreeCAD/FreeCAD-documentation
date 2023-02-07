@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -17,7 +19,7 @@ Il punto è sempre un elemento di costruzione e non viene visualizzato nella vis
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
 
 ## Utilizzo
 
@@ -26,10 +28,12 @@ Il punto è sempre un elemento di costruzione e non viene visualizzato nella vis
 
 -   Cliccare sul pulsante **<img src="images/Sketcher_CreatePoint.svg" width=24px> Crea punto** per attivare la funzione.
 -   Posizionare il cursore nel punto desiderato e cliccare.
--   Premere {{KEY/it|Esc}} o il tasto destro del mouse per uscire dalla funzione.
+-   Premere **Esc** o il tasto destro del mouse per uscire dalla funzione.
 
 
 </div>
+
+
 
 ## Opzioni
 

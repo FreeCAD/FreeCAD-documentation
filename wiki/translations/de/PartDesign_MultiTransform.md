@@ -9,6 +9,8 @@
 
 # PartDesign MultiTransform/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24px;"> **PartDesign MehrfachTransformation** erstellt ein Muster aus einem oder mehreren Formelementen. Das Muster kann mehrere Transformationen enthalten, wobei jede folgende Transformation auf das Ergebnis der vorherigen Transformation angewendet wird.
@@ -18,7 +20,11 @@ Folgende Transformationen stehen zur Verfügung: <img alt="" src=images/PartDesi
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
 *Ein Lochmuster, das aus einem einzelnen Loch erstellt wurde, wobei zuerst ein lineares Muster mit 2 Vorkommen und danach ein polares Muster mit 8 Vorkommen angewendet wurde.*
 
+
+
 ## Anwendung
+
+
 
 ### Erstellen
 
@@ -28,9 +34,11 @@ Folgende Transformationen stehen zur Verfügung: <img alt="" src=images/PartDesi
     -   Die Schaltfläche **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md)** drücken.
     -   Den Menüeintrag **Part Design → Muster anwenden → <img src="images/PartDesign_MultiTransform.svg" width=16px> Mehrfach-Transformation erstellen** auswählen.
 4.  Falls kein Körper aktiviert ist und sich zwei oder mehr Körper im Dokument befinden, öffnet sich der Dialog **Aktiver Körper erforderlich** mit der Aufforderung einen zu aktivieren. Wenn nur ein einziger Körper vorhanden ist, wird dieser automatisch aktiviert.
-5.  Wenn kein Formelement ausgewählt wurde, öffnet sich der [Aufgabenbereich](Task_panel/de.md) {{MenuCommand/de|Element auswählen}}: Ein oder mehrere (**Ctrl**-Taste gedrückt halten) aus der Liste auswählen und die Schaltfläche **OK** drücken.
+5.  Wenn kein Formelement ausgewählt wurde, öffnet sich der [Aufgabenbereich](Task_panel/de.md) **Element auswählen**: Ein oder mehrere (**Ctrl**-Taste gedrückt halten) aus der Liste auswählen und die Schaltfläche **OK** drücken.
 6.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Mehrfach-Transformation** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 7.  Zum Fertigstellen die Schaltfläche **OK** am oberen Rand drücken.
+
+
 
 ### Bearbeiten
 
@@ -39,6 +47,8 @@ Folgende Transformationen stehen zur Verfügung: <img alt="" src=images/PartDesi
     -   Das MultiTransform-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **MultiTransform bearbeiten** aus dem Kontextmenü auswählen.
 2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Mehrfach-Transformation** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Zum Fertigstellen die Schaltfläche **OK** am oberen Rand drücken.
+
+
 
 ### Kombinieren vorhandener Transformationen 
 
@@ -49,7 +59,7 @@ Es ist möglich ein MultiTransform-Objekt von vorhandenen Transformationen wie [
 3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md)** drücken.
     -   Den Menüeintrag **Part Design → Muster anwenden → <img src="images/PartDesign_MultiTransform.svg" width=16px> Mehrfach-Transformation erstellen** auswählen.
-4.  Der [Aufgabenbereich](Task_panel/de.md) {{MenuCommand/de|Parameter der Mehrfach-Transformation}} wird geöffnet.
+4.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Mehrfach-Transformation** wird geöffnet.
 5.  Die Schaltfläche **OK** am oberen Rand drücken.
 6.  Die {{PropertyData/de|Tranformations}} des erstellten MultiTransform-Objekts bearbeiten:
     1.  Auf das Feld klicken.
@@ -58,6 +68,8 @@ Es ist möglich ein MultiTransform-Objekt von vorhandenen Transformationen wie [
     4.  Mit gedrückter **Ctrl**-Taste werden die bestehenden Transformationen ausgewählt.
     5.  Die Schaltfläche **OK** drücken.
 7.  Wahlweise das MultiTransform-Objekt [bearbeiten](#Bearbeiten.md), siehe oben.
+
+
 
 ## Optionen
 
@@ -119,6 +131,8 @@ Es ist möglich ein MultiTransform-Objekt von vorhandenen Transformationen wie [
         
         or **Nach unten verschieben** aus dem Kontextmenü auswählen.
 -   Wenn die Checkbox **Ansicht aktualisieren** aktiviert ist, erfolgt die aktualisierung in Echtzeit.
+
+
 
 ## Einschränkungen
 

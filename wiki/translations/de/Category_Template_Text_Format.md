@@ -1,5 +1,5 @@
 # Category:Template:Text Format/de
-In dieser Kategorie werden Vorlagen aufgelistet, die als Eingabe angegebenen Text formatieren.
+In dieser Kategorie werden Vorlagen aufgelistet, die eingegebenen Text formatieren.
 
 ### Contents
 

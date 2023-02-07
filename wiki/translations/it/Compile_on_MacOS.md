@@ -1,5 +1,5 @@
 # Compile on MacOS/it
-**Esiste un contenitore Docker FreeCAD sperimentale che viene testato per lo sviluppo di FreeCAD. Leggi di più su [[Compile on Docker]]**
+**Esiste un contenitore Docker FreeCAD sperimentale che viene testato per lo sviluppo di FreeCAD. Ulteriori informazioni su [[Compile on Docker]]**
 
 
 {{TOCright}}

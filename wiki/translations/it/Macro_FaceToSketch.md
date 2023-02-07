@@ -13,7 +13,7 @@
 
 ## Descrizione
 
-Questa macro rompe la forma con la funzione {{KEY/it|<img src="images/Draft_Downgrade.svg" width=16px> [Draft Downgrade](Draft_Downgrade/it.md)}} e trasforma la faccia selezionata in uno schizzo senza vincoli e pronto per essere modificato.
+Questa macro rompe la forma con la funzione **<img src="images/Draft_Downgrade.svg" width=16px> [Draft Downgrade](Draft_Downgrade/it.md)** e trasforma la faccia selezionata in uno schizzo senza vincoli e pronto per essere modificato.
 
 ## Script
 

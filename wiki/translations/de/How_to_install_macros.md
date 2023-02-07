@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Beschreibung
 
 Seit v0.17 ist es einfach, Makros mit Hilfe des [Erweiterungsverwalter](Std_AddonMgr/de.md) hinzuzufügen. Ein normaler Benutzer braucht nicht mehr zu tun, als dieses Werkzeug zu benutzen. Lies weiter, um weitere Informationen zur Installation von [Makros](macros/de.md) zu erhalten.
@@ -24,6 +26,8 @@ Während Python Skripte normalerweise die Erweiterung `.py` haben, sollten FreeC
 Siehe [Einführung in Python](Introduction_to_Python/de.md), um mehr über die Programmiersprache Python zu erfahren, und dann [Python Skript Tutorium](Python_scripting_tutorial/de.md) und [FreeCAD Skript Grundlagen](FreeCAD_Scripting_Basics/de.md), um das Schreiben von Makros zu erlernen.
 
 Hier ist ein Video über [Installieren von FreeCAD Makros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
+
+
 
 ## Das Makro Menü und die Werkzeugleiste 
 
@@ -49,7 +53,7 @@ Hier ist ein Video über [Installieren von FreeCAD Makros in Ubuntu](https://wik
 
 ### Menü
 
-Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im {{MenuCommand/de|Makro}} Menü verfügbar.
+Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im **Makro** Menü verfügbar.
 
 -   [An den entfernten Debugger anhängen](Std_MacroAttachDebugger/de.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Fehlersuche Makro](Std_MacroStartDebug/de.md)
@@ -61,12 +65,14 @@ Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im
 
 </div>
 
+
+
 ## Makros Verzeichnis 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü {{MenuCommand/de|Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen}}.
+Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü **Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen**.
 
 Heruntergeladene Makros sollten ebenfalls in diesem Verzeichnis abgelegt werden.
 
@@ -117,7 +123,7 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 
 ### Konfigurieren des Benutzerverzeichnisses 
 
-1\. Öffne das Menü {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)}}, um den [Makrodialog ausführen](Std_DlgMacroExecute/de.md).
+1\. Öffne das Menü **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)**, um den [Makrodialog ausführen](Std_DlgMacroExecute/de.md).
 
 
 </div>
@@ -167,14 +173,18 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 
 </div>
 
+
+
 ## Makros installieren 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
+
+
 ### Automatische Methode 
 
-Ab FreeCAD 0.17 verwendet man den [Addon-Manager](Std_AddonMgr/de.md) in {{MenuCommand/de|Werkzeuge → Addon-Manager}}, um ein Makro zu installieren, das in das [FreeCAD-Macros](https://github.com/FreeCAD/FreeCAD-macros)-Repositorium aufgenommen wurde.
+Ab FreeCAD 0.17 verwendet man den [Addon-Manager](Std_AddonMgr/de.md) in **Werkzeuge → Addon-Manager**, um ein Makro zu installieren, das in das [FreeCAD-Macros](https://github.com/FreeCAD/FreeCAD-macros)-Repositorium aufgenommen wurde.
 
 
 <div class="mw-collapsible-content">
@@ -194,6 +204,8 @@ Der empfohlene Weg, Zusätze, d.h. [externe Arbeitsbereiche](external_workbenche
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Manuelle Methode 1. Kopiere den Code in den Makro Editor 
 
@@ -215,7 +227,7 @@ Wenn es ein benutzerdefiniertes Symbol gibt, lade es herunter; klicke mit der re
 
 2\. Wähle auf der Makroseite den Code innerhalb der Abschnitte **Skript** oder **Makro** aus und kopiere ihn.
 
-3\. Öffne in FreeCad das Menü {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)}}, um den [Makro Dialog ausführen](Std_DlgMacroExecute/de.md) zu öffnen.
+3\. Öffne in FreeCad das Menü **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)**, um den [Makro Dialog ausführen](Std_DlgMacroExecute/de.md) zu öffnen.
 
 ![](images/Dxf_Importer_Install_01.png ) 
 *align=center|Öffnen des Makro ausführen Dialogs*
@@ -274,7 +286,7 @@ Erstelle ein neues Dokument mit **Datei → <img src="images/Std_New.svg" width=
 ![](images/Macro_Install_HowTo_25.png ) 
 *align=center|Öffnen des Makros im Editor*
 
-14\. Das Makro kann nun mit {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Makro ausführen](Std_DlgMacroExecute.md)}}, oder durch Klicken auf die **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Ausführen](Std_DlgMacroExecute/de.md)** Taste in der Werkzeugleiste.
+14\. Das Makro kann nun mit **Makro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Makro ausführen](Std_DlgMacroExecute.md)**, oder durch Klicken auf die **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Ausführen](Std_DlgMacroExecute/de.md)** Taste in der Werkzeugleiste.
 
 ![](images/Macro_Install_HowTo_26.png ) 
 *align=center|Ausführen des im Editor geladenen Makros*
@@ -287,6 +299,8 @@ Erstelle ein neues Dokument mit **Datei → <img src="images/Std_New.svg" width=
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Manuelle Methode 2. Hinzufügen einer Makrodatei aus einer komprimierten .zip-Datei 
 
@@ -358,6 +372,8 @@ unzip your_file.zip -d your_directory
 
 </div>
 
+
+
 ## Ausführen eines Makros in der Kommandozeile 
 
 
@@ -388,10 +404,14 @@ todo
 
 </div>
 
+
+
 ## Fehler in Makros 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Einrückungsfehler
 
@@ -408,6 +428,8 @@ Ein typischer Einrückungsfehler sieht wie folgt aus:
 ```python
 <unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
+
+
 
 #### Beispiel 1 
 
@@ -428,12 +450,16 @@ Wenn der Code ausgewählt ist, sollten alle Zeilen bis zum linken Rand hervorgeh
 ![](images/Macro_Install_HowTo_11.png ) 
 *align=center|Python Code hervorgehoben, was zeigt, dass alle Zeilen am linken Rand beginnen*
 
+
+
 #### Beispiel 2 
 
 Wenn ein zusätzliches Leerzeichen am Anfang aller Zeilen eingefügt, wird der Python Interpreter versagen und sich über unnötige Einrückungen beschweren. In diesem Fall muss in alle Zeilen das anfangs Leerzeichen entfernt werden.
 
 ![](images/Macro_Install_HowTo_12.png ) 
 *align=center|Python Code mit zusätzlichem Leerzeichen in jeder Zeile*
+
+
 
 #### Beispiel 3 
 
@@ -449,10 +475,12 @@ Wenn die Auswahl jedoch in den Makro Editor eingefügt wird, scheint es zu einer
 
 In this case, the initial spaces need to be removed. This can be done with a specialized text editor to quickly decrease the indentation of the lines.
 
-Unter Windows [Notepad++](http://notepad-plus-plus.org/) kann die Auswahl ausgeführt mit **Alt** + Maus ziehen und dann verwenden {{MenuCommand/de|Bearbeiten → Einrücken → Verringere die Einrückung}}.
+Unter Windows [Notepad++](http://notepad-plus-plus.org/) kann die Auswahl ausgeführt mit **Alt** + Maus ziehen und dann verwenden **Bearbeiten → Einrücken → Verringere die Einrückung**.
 
 ![](images/Macro_Install_HowTo_16.png ) 
 *align=center|Python Code mit der korrekten Einrückung*
+
+
 
 #### Beispiel 4 
 
@@ -460,6 +488,8 @@ Hier wählt die Auswahl auch die Zeilennummern im Codebeispiel aus. Wenn diese A
 
 ![](images/Macro_Install_HowTo_29.png ) 
 *align=center|Auswahl, die auch die Zeilennummern auswählt; wenn dieser Code in den Makro Editor eingefügt wird, wird es nicht funktionieren*
+
+
 
 #### Guter Code 
 
@@ -474,6 +504,8 @@ Hier wählt die Auswahl auch die Zeilennummern im Codebeispiel aus. Wenn diese A
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Keine Textausgabe aus Makros 
 
@@ -524,7 +556,7 @@ Um die in der Konsole angezeigten Informationen zu sehen, solltest Du:
 
 </div>
 
-1\. Gehe zum Menü {{MenuCommand/de|Ansicht → Paneele}}.
+1\. Gehe zum Menü **Ansicht → Paneele**.
 
 ![](images/Macro_Install_HowTo_31.png )
 
@@ -551,12 +583,12 @@ Um die in der Konsole angezeigten Informationen zu sehen, solltest Du:
 
 </div>
 
-1\. Gehe in den [Einstellungs Editor](Preferences_Editor/de.md) mit dem Menü {{MenuCommand/de|Bearbeiten → Einstellungen}}.
+1\. Gehe in den [Einstellungs Editor](Preferences_Editor/de.md) mit dem Menü **Bearbeiten → Einstellungen**.
 
 ![](images/Macro_Install_HowTo_35.png ) 
 *align=center|In den Einstellungen Editor gehen*
 
-2\. Gehe zum Abschnitt {{MenuCommand/de|Allgemein}}, und dann **Ausgabefenster → Python Interpreter**.
+2\. Gehe zum Abschnitt **Allgemein**, und dann **Ausgabefenster → Python Interpreter**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
 *align=center|Ausgabefenster Einstellungen*

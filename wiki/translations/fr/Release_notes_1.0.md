@@ -29,7 +29,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ## Interface utilisateur 
 
    
-  ![](images/Navi_Cube_relnotes_1.0.gif )   Les faces des coins du cube de navigation sont maintenant hexagonales et plus grandes, ce qui les rend plus faciles à cliquer. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876).
+  ![](images/Navi_Cube_relnotes_1.0.gif )   Les faces des coins du cube de navigation sont maintenant hexagonales et plus grandes, ce qui les rend plus faciles à cliquer. [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876) et [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266).
    
 
    
@@ -202,6 +202,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   Dans la boîte de dialogue de [Perçage](PartDesign_Hole/fr.md), les types de têtes de vis obsolètes (vis à tête métrique, vis à tête cylindrique, etc.) ont été supprimés. Ils étaient abandonnés depuis FreeCAD 0.19. Les perçages utilisant ces types sont transformés en fraisages/alésages personnalisés avec le diamètre et la profondeur utilisés par les types. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   La commande [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) a été ajoutée à la barre d\'outils des aides. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   Les commandes inutilisables [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) et [Vue de l\'esquisse](Sketcher_ViewSketch/fr.md) ont été supprimées du menu. Les commandes [Modifier l\'esquisse](Sketcher_EditSketch/fr.md), [Fusionner les esquisses](Sketcher_MergeSketches/fr.md) et [Esquisse miroir](Sketcher_MirrorSketch/fr.md) ont été ajoutées au menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+-   Le [profil d\'engrenage à développante](PartDesign_InvoluteGear/fr.md) a de nouvelles propriétés permettant de modifier la longueur des dents. Cela permet maintenant d\'ajuster certains types de contacts et d\'utiliser le profil pour créer également des [involute splines (en)](https://en.wikipedia.org/wiki/Spline_(mechanical)) (arbre avec canelure?). [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184)
 
 
 

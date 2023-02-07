@@ -61,7 +61,13 @@
 
 ### Исходный код 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD может быть собран на всех платформах с помощью [CMake](https://cmake.org/). Исходный код распространяется по лицензии [LGPL](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и расположен на [GitHub](https://github.com/FreeCAD/FreeCAD), зеркала на [GitLab](https://gitlab.com/freecad/FreeCAD) и [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Имеются инструкции по сборке для [Windows](Compile_on_Windows/ru.md), [Linux](Compile_on_Linux/ru.md) и [MacOS](Compile_on_MacOS/ru.md). Документация на исходный код, сгенерированная при помощи [Doxygen](Doxygen/ru.md), и [документированная на wiki](Source_documentation/ru.md) [располагается здесь](http://www.freecadweb.org/api/).
+
+
+</div>
 
 
 

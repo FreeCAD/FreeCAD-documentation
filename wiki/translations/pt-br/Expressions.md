@@ -1,6 +1,8 @@
 # Expressions/pt-br
 {{TOCright}}
 
+
+
 ## Visão geral 
 
 It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties contain a blue icon <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Clicking on the icon or typing the equal sign **&#61;** brings up the expression editor for that particular property.

@@ -1,6 +1,8 @@
 # Installing on Linux/fr
 {{TOCright}}
 
+
+
 ## Présentation
 
 L\'installation de FreeCAD sur les systèmes Linux les plus connus a maintenant été approuvée par la communauté, et FreeCAD devrait être directement disponible via le gestionnaire de paquets disponible sur votre distribution. L\'équipe FreeCAD propose également :
@@ -11,6 +13,8 @@ L\'installation de FreeCAD sur les systèmes Linux les plus connus a maintenant 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+
 ## Ubuntu et systèmes dérivés 
 
 De nombreuses distributions Linux sont basées sur Ubuntu et en partagent les dépôts. Outre les variantes officielles (Kubuntu, Lubuntu et Xubuntu), il existe des variantes non-officielles telles que Linux Mint, Voyager ou autres. Les options d\'installation (développez) ci-dessous devraient être compatibles avec ces systèmes.
@@ -18,9 +22,11 @@ De nombreuses distributions Linux sont basées sur Ubuntu et en partagent les d�
 
 <div class="mw-collapsible-content">
 
+
+
 ### Version officielle 
 
-FreeCAD est disponible dans les dépôts officiels d\'Ubuntu et peut être installé via le {{MenuCommand/fr|Software Center}} ou depuis le terminal:
+FreeCAD est disponible dans les dépôts officiels d\'Ubuntu et peut être installé via le **Software Center** ou depuis le terminal:
 
 
 ```python
@@ -32,11 +38,15 @@ sudo apt install freecad
 
 le dépôt d\'Ubuntu peut être obsolète. Le paquetage peut prendre du retard par rapport au dernier code source stable. Dans ce cas, il est suggéré d\'installer le package à partir du PPA `-stable` ci-dessous. De plus, l\'installation du package `-daily` peut être effectuée pour tester la branche de développement.
 
+
+
 ### Version stable du PPA 
 
 **Attention :** Le PPA FreeCAD n\'est actuellement pas maintenu et [recherche des volontaires](https://forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Veuillez utiliser une alternative (snap, appimage) jusqu\'à ce que le problème soit résolu !
 
 Les archives de packages personnels (PPA) pour la version stable de FreeCAD sont gérées par la communauté FreeCAD sur Launchpad. Le dépôt Launchpad est appelé [versions stables de FreeCAD](https://launchpad.net/~freecad-maintainers/+archive/freecad-stable).
+
+
 
 #### Interface graphique 
 
@@ -60,6 +70,8 @@ Pour installer le PPA stable depuis l\'interface graphique (GUI):
 :   3\. Ajoutez la source, fermez la boîte de dialogue et rechargez vos sources de logiciels, si nécessaire.
 
 Vous pouvez maintenant trouver et installer la dernière version stable de FreeCAD à partir du **Ubuntu Software Center**.
+
+
 
 #### Commandes en ligne 
 
@@ -108,6 +120,8 @@ Pour installer le PPA stable via l\'interface de ligne de commande (CLI):
 
 en raison de problèmes d\'empaquetage, dans certaines versions d\'Ubuntu, le paquet `freecad-doc` est entré en collision avec l\'installation de FreeCAD ou de l\'une de ses dépendances. Si c\'est le cas, supprimez le package `freecad-doc` et installez uniquement le package `freecad`. Si le package `freecad-doc` n\'existe pas, ignorez-le.
 
+
+
 #### Vérification de l\'installation 
 
 :   4\. Une fois que vous avez ajouté le PPA stable à vos sources en utilisant l\'une des méthodes ci-dessus, le package `freecad` installera cette version de PPA sur celle fournie par le dépôt Ubuntu Universe. Vous pouvez voir les versions disponibles avec la commande `apt-cache` suivante:
@@ -147,6 +161,8 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
     
 ```
     
+
+
 
 ### La version PPA en cours de développement 
 
@@ -193,6 +209,8 @@ il est possible d\'installer les paquets `-stable` et `-daily` dans le même sys
 
 </div>
 
+
+
 ## Debian et autre dérivés de Debian 
 
 Depuis la version Debian Lenny, FreeCAD est disponible depuis les dépôts Debian et peut être installé par Synaptic ou simplement par :
@@ -236,6 +254,8 @@ Généralement, pour sélectionner la bonne distribution openSUSE, il est néces
 La version stable du package: [Dépôts stables sur openSUSE](https://software.opensuse.org/package/FreeCAD). La version de distribution openSUSE correcte doit être sélectionnée dans la partie inférieure de la page Web.
 
 Remarque: openSUSE propose plusieurs options lors du téléchargement de FreeCAD. Pour afficher ces options, visitez [Aperçu sur les dépôts stables sur openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
+
+
 
 ### Développement
 
@@ -318,11 +338,15 @@ Installer FreeCAD sur Arch Linux et ses dérivés (ex. Manjaro):
 pacman -S freecad
 ```
 
+
+
 ## Autres
 
 Si votre distribution Linux offre FreeCAD mais qu\'elle n\'est pas documentée sur cette page, merci de nous le dire sur le [forum](http://forum.freecadweb.org/viewforum.php?f=21)!
 
 Plusieurs paquets FreeCAD non-officiels sont disponibles sur Internet, par exemple pour Slackware ou Fedora. Une recherche Internet peut donner quelques résultats.
+
+
 
 ### Installation sous d\'autres systèmes Linux/Unix 
 
@@ -342,6 +366,8 @@ pacman -Sy freecad
 Le nom du paquet est sensible à la casse, donc essayez \"FreeCAD\" ainsi que \"freecad\". Si cela ne fonctionne pas pour vous, soit parce que votre gestionnaire de paquets n\'a pas de version FreeCAD précompilée disponible, soit parce que la version disponible est trop ancienne pour vos besoins, vous pouvez essayer d\'installer les paquets [Flatpak](Flatpak/fr.md) ou [Snap](Ubuntu_Snap/fr.md) (ceux-ci fonctionnent sur la plupart des distributions Linux x86_64) ou essayer de télécharger l\'un des programmes suivants [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) disponibles à partir du dépôt github. Elles ont également tendance à fonctionner sur la plupart des distributions Linux x86_64, sans installation particulière. Assurez-vous simplement que le fichier téléchargé est marqué comme exécutable, puis exécutez-le.
 
 Si cela ne suffit toujours pas et que vous ne pouvez pas localiser une autre source d\'un paquet précompilé, vous devrez [compiler FreeCAD vous-même](Compile_on_Linux/fr.md).
+
+
 
 ## Etape suivante 
 

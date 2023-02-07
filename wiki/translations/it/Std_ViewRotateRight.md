@@ -10,9 +10,13 @@
 
 # Std ViewRotateRight/it
 
+
+
 ## Descrizione
 
 Il comando **Ruota a destra** ruota la camera nella [vista 3D](3D_view/it.md) attiva intorno alla direzione della vista con incrementi di 90 gradi verso destra (in senso orario).
+
+
 
 ## Utilizzo
 
@@ -20,6 +24,8 @@ Il comando **Ruota a destra** ruota la camera nella [vista 3D](3D_view/it.md) at
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRotateRight.svg" width=16px> Ruota a destra** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **Maiusc**+**Destra**.
+
+
 
 ## Script
 
@@ -39,13 +45,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

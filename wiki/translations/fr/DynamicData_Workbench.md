@@ -3,7 +3,9 @@
 
 {{TOCright}}
 
-## Vue d\'ensemble 
+
+
+## Présentation
 
 DynamicData est un [atelier externe](External_workbenches/fr.md) avec lequel vous pouvez créer un objet conteneur pour stocker des propriétés personnalisées.
 
@@ -15,14 +17,20 @@ Certaines fonctionnalités comprennent :
 -   la possibilité de copier des propriétés ou de définir des valeurs de propriété d\'un objet à un autre
 -   les objets conteneurs restent compatibles avec les installations FreeCAD sur lesquelles l\'atelier n\'est pas installé
 
+
+
 ## Installation
 
 Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+
+
 
 ## Liens
 
 -   Code source hébergé sur GitHub : [github.com](https://github.com/mwganson/DynamicData)
 -   [Documentation officielle complète](https://github.com/mwganson/DynamicData/blob/master/README.md)
+
+
 
 ## Ateliers externes 
 

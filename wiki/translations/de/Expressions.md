@@ -1,6 +1,8 @@
 # Expressions/de
 {{TOCright}}
 
+
+
 ## Übersicht
 
 Es ist möglich, Eigenschaften unter Verwendung von mathematischen Ausdrücken festzulegen. In der GUI enthalten Drehfelder oder Eingabefelder, die an Eigenschaften gebunden sind, ein blaues Symbol <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Klicken auf das Symbol oder Eingeben des Gleichheitszeichens **&#61;** ruft den Ausdruckseditor für diese bestimmte Eigenschaft auf.
@@ -13,11 +15,15 @@ Operatoren und Funktionen sind einheitenbewusst und erfordern gültige Kombinati
 
 Du kannst [vorgegebene Konstanten](#Unterstützte_Konstanten.md) und [Funktionen](#Unterstützte_Funktionen.md) verwenden.
 
+
+
 ### Funktionsargumente
 
 Mehrere Argumente zu einer Funktion können entweder durch ein Semikolon  gefolgt von einem Leerzeichen `,` getrennt werden. Im letzteren Fall wird das Komma nach der Eingabe in ein Semikolon umgewandelt. Wenn ein Semikolon verwendet wird, ist kein Leerzeichen am Ende des Semikolons erforderlich.
 
 Die Argumente können Verweise auf Zellen in einer Kalkulationstabelle enthalten. Ein Zellverweis besteht aus dem großen Zeilenbuchstaben der Zelle, gefolgt von ihrer Spaltennummer, zum Beispiel `A1`. Eine Zelle kann auch durch den Alias der Zelle referenziert werden, zum Beispiel `Tabellenblatt.MeineTeilbreite`.
+
+
 
 ### Referenzierende Objekte 
 
@@ -28,7 +34,7 @@ Es kann auf jede Eigenschaft eines Objekts referenziert werden. Um sich beispiel
 Um auf Listenobjekte zu verweisen, verwende `<<object_label>>.list[list_index]` oder `object_name.list[list_index]`. Wenn du beispielsweise auf eine Beschränkung in einer Skizze verweisen möchtest, verwende `<<MeineSkizze>>.Constraints[16]`. Wenn du dich in derselben Skizze befindest, kann man den Namen weglassen und einfach `Constraints[16]` verwenden.
 **Hinweis:** Der Index beginnt mit 0, daher hat die Beschränkung 17 den Index 16.
 
-Für weitere Informationen über das Referenzieren von Objekten siehe [Referenz zu CAD Daten](#Reference_to_CAD_data/de.md). {{Top}}
+Für weitere Informationen über das Referenzieren von Objekten siehe [Referenz zu CAD Daten](#Reference_to_CAD_data/de.md). 
 
 ## Unterstützte Konstanten 
 
@@ -41,6 +47,8 @@ Die folgenden Konstanten werden unterstützt:
 
 
 {{Top}}
+
+
 
 ## Unterstützte Operatoren 
 
@@ -58,11 +66,17 @@ Die folgenden Operatoren werden untertstützt:
 
 {{Top}}
 
+
+
 ## Unterstützte Funktionen 
+
+
 
 ### Allgemeine mathematische Funktionen 
 
 Die folgenden mathematischen Funktionen werden untertstützt:
+
+
 
 #### Trigonometrische Funktionen 
 
@@ -83,6 +97,8 @@ Die folgenden mathematischen Funktionen werden untertstützt:
   hypot(x; y)   [Pythagoreische Addition](https://de.wikipedia.org/wiki/Pythagoreische_Addition) (**Hypot**enuse), z.B. hypot(4; 3) = 5.                                                 x und y \>= 0
   cath(x; y)    Die gegebene Hypotenuse und eine Seite ergibt die andere Seite eines Dreiecks (Kathete), z.B. cath(5; 3) = 4.                                                            x \>= y \>= 0
 
+
+
 #### Exponential- und Logarithmusfunktionen 
 
   Funktion    Beschreibung                                                                                        Eingabebereich
@@ -92,6 +108,8 @@ Die folgenden mathematischen Funktionen werden untertstützt:
   log10(x)    [Dekadischer Logarithmus](https://de.wikipedia.org/wiki/Dekadischer_Logarithmus)                    x \> 0
   pow(x, y)   [Potenz (Mathematik)](https://de.wikipedia.org/wiki/Potenz_(Mathematik))                            alle
   sqrt(x)     [Quadratwurzel](https://de.wikipedia.org/wiki/Quadratwurzel)                                        x \>= 0
+
+
 
 #### Rundung, Trunkierung und Modulo 
 
@@ -106,6 +124,8 @@ Die folgenden mathematischen Funktionen werden untertstützt:
 
 
 {{Top}}
+
+
 
 ### Statistische / Aggregatfunktionen 
 
@@ -126,7 +146,11 @@ Diese Aggregatfunktionen werden unterstützt:
 
 {{Top}}
 
+
+
 ### Zeichenkettenhandhabung
+
+
 
 #### Zeichenkettenerkennung
 
@@ -134,11 +158,15 @@ Zeichenketten werden in Ausdrücken erkannt, indem sie in doppelte öffnende/sch
 
 Im folgenden Beispiel wird \"TEXT\" als eine Zeichenkette erkannt: {{Incode|<<TEXT>>}}
 
+
+
 #### Zeichenkettenverkettung
 
 Zeichenketten können durch das \'+\'-Zeichen aneinandergehängt werden.
 
 Das folgende Beispiel {{Incode|<<MY>>+<<TEXT>>}} wird verbunden zu \"MYTEXT\".
+
+
 
 #### Umwandlung in Zeichenketten 
 
@@ -146,6 +174,8 @@ Numerische Werte können mit der Funktion `str` in Zeichenketten gewandelt werde
 
 
 `str(Box.Length.Value)`
+
+
 
 #### Zeichenkettenformatierung
 
@@ -157,7 +187,7 @@ Hat man bspw. einen mit den Vorgabewerten erstellten Würfel namens \'Box\' (Fre
 
 Für mehr als einen %-Spezifizierer verwendet man folgende Syntax: `<<Würfellänge ist %s und Würfelbreite ist %s>> % tuple(Box.Length; Box.Width)`. Oder man verwendet die Verkettung: {{Incode|<<Würfellänge ist %s>> % Box.Length + << und Länge ist %s>> % Box.Width}}. Beide ergeben zusammen \"Würfellänge ist 10.0 mm und Breite ist 10.0 mm\".
 
-Eine FreeCAD-Beispieldatei, die Zeichenkettenformatierung zeigt, ist unter [im Forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) verfügbar (engl.) {{Top}}
+Eine FreeCAD-Beispieldatei, die Zeichenkettenformatierung zeigt, ist unter [im Forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) verfügbar (engl.) 
 
 ### Funktion erstellen 
 
@@ -172,6 +202,8 @@ Die `create`-Funktion übergibt bei der Erstellung des Objekts weitere Argumente
 
 Verschiedene mathematische Operationen wie Multiplikation, Addition und Subtraktion werden durch standardmäßige mathematische Operatoren, wie z.B. `*`, `+`, `-` unterstützt.
 
+
+
 #### Vektor
 
 Wenn `create` `<<vector>>` als erstes Argument übergeben wird, sind die folgenden drei Argumente die X-, Y- und die Z-Koordinaten des `Vector`s.
@@ -181,6 +213,8 @@ Beispiel:
 
 `create(<<vector>>; 2; 1; 2)`
 
+
+
 #### Matrix
 
 Wenn `create` `<<matrix>>` als erstes Argument übergeben wird, sind die folgenden 16 Argumente die Elemente der `Matrix` in [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order).
@@ -189,6 +223,8 @@ Beispiel:
 
 
 `create(<<matrix>>; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`
+
+
 
 #### Rotation
 
@@ -207,6 +243,8 @@ Beispiel:
 
 
 `create(<<rotation>>; 30; 30; 30)`
+
+
 
 #### Positionierung
 
@@ -243,9 +281,11 @@ Das folgende Beispiel zeigt die Syntax zur Erstellung einer `Positionierung` aus
 
 `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
 
-Vektoren und Rotationen können zur einfachen Lesbarkeit in einzelnen Zellen, auf die in Ausdrücken verwiesen werden kann, festgelegt werden. {{Top}}
+Vektoren und Rotationen können zur einfachen Lesbarkeit in einzelnen Zellen, auf die in Ausdrücken verwiesen werden kann, festgelegt werden. 
 
 ### Matrixfunktionen
+
+
 
 #### mscale
 
@@ -256,6 +296,8 @@ Eine `Matrix` mit einem gegebenen `Vector` skalieren.
 
 
 `mscale(Matrix; x; y; z)`
+
+
 
 #### minvert
 
@@ -273,6 +315,8 @@ Die gegebene Matrix `Matrix`, `Rotation`, oder `Placement` invertieren.
 
 {{Top}}
 
+
+
 ### Tuple & Liste 
 
 Es kann ein Python `tuple`- oder ein `List`en- Objekt über deren entsprechende Funktionen erstellt werden.
@@ -285,6 +329,8 @@ Es kann ein Python `tuple`- oder ein `List`en- Objekt über deren entsprechende 
 
 
 {{Top}}
+
+
 
 ## Bedingte Ausdrücke 
 
@@ -304,6 +350,8 @@ Die folgenden [Vergleichsoperatoren](https://de.wikipedia.org/wiki/Vergleichsope
 
 {{Top}}
 
+
+
 ## Einheiten
 
 Einheiten können direkt in Ausdrücken verwendet werden. Der Analysator (parser) verbindet sie mit dem vorherigen Wert. So ist `2mm` oder `2 mm` gültig, während `mm` ungültig ist, weil es keinen vorhergehenden Wert gibt.
@@ -317,11 +365,15 @@ Wenn eine Variable mit dem Namen einer Einheit verwendet wird, muss die Variable
 
 Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
 
+
+
 ### Stoffmenge
 
   Einheit   Beschreibung
    
   mol       [Mol](https://de.wikipedia.org/wiki/Mol)
+
+
 
 ### Winkel
 
@@ -336,6 +388,8 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   M         [Winkelminute](https://de.wikipedia.org/wiki/Winkelminute); Alternative zur Einheit \'
   ′         [Winkelminute](https://de.wikipedia.org/wiki/Winkelminute); Alternative zur Einheit M
 
+
+
 ### Strom
 
   Einheit   Beschreibung
@@ -344,6 +398,8 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   A         [Ampere](https://de.wikipedia.org/wiki/Ampere)
   kA        Kilo[ampere](https://de.wikipedia.org/wiki/Ampere)
   MA        Mega[ampere](https://de.wikipedia.org/wiki/Ampere)
+
+
 
 ### Energie/Arbeit
 
@@ -354,6 +410,8 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   VAs       [Voltamperesekunde](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit Joule
   CV        [Coulombvolt](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit Joule
 
+
+
 ### Kraft
 
   Einheit   Beschreibung
@@ -363,6 +421,8 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   kN        Kilo[newton](https://de.wikipedia.org/wiki/Newton_(Einheit))
   MN        Mega[newton](https://de.wikipedia.org/wiki/Newton_(Einheit))
   lbf       [Pound-force](https://de.wikipedia.org/wiki/Pound-force)
+
+
 
 ### Länge
 
@@ -385,11 +445,15 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   yd        [Yard](https://de.wikipedia.org/wiki/Yard)
   mi        [Meile](https://de.wikipedia.org/wiki/Meile)
 
+
+
 ### Lichtstärke
 
   Einheit   Beschreibung
    
   cd        [Candela](https://de.wikipedia.org/wiki/Candela)
+
+
 
 ### Masse
 
@@ -407,12 +471,16 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   st        [Stone (Einheit)](https://de.wikipedia.org/wiki/Stone_(Einheit))
   cwt       [Hundredweight](https://de.wikipedia.org/wiki/Hundredweight)
 
+
+
 ### Leistung
 
   Einheit   Beschreibung
    
   W         [Watt(Einheit)](https://de.wikipedia.org/wiki/Watt_(Einheit))
   VA        [Voltampere](https://de.wikipedia.org/wiki/Voltampere)
+
+
 
 ### Druck
 
@@ -429,6 +497,8 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   psi       [Pound-force per square inch](https://de.wikipedia.org/wiki/Pound-force_per_square_inch); 1 psi = 6.895 kPa
   ksi       Kilo-[Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
 
+
+
 ### Temperatur
 
   Einheit   Beschreibung
@@ -438,6 +508,8 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   mK        Milli[kelvin](https://de.wikipedia.org/wiki/Kelvin)
   K         [Kelvin](https://de.wikipedia.org/wiki/Kelvin)
 
+
+
 ### Zeit
 
   Einheit   Beschreibung
@@ -446,11 +518,15 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
   min       [Minute](https://de.wikipedia.org/wiki/Minute)
   h         [Stunde](https://de.wikipedia.org/wiki/Stunde)
 
+
+
 ### Volumen
 
   Einheit   Beschreibung
    
   l         [Liter](https://de.wikipedia.org/wiki/Liter)
+
+
 
 ### Nicht unterstützte Einheiten 
 
@@ -470,11 +546,15 @@ Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt, für
 
 {{Top}}
 
+
+
 ## Ungültige Zeichen und Namen 
 
 Das Ausdrucks-Feature ist sehr leistungsfähig. Um das zu ermöglichen gibt es ein paar Einschränkungen bei ein paar Zeichen. Als Abhilfe gibt es in FreeCAD die Möglichkeit anstatt der Objektnamen sog. Bezeichner (\'labels\') zu verwenden und sich auf diese zu beziehen.
 
 In Fällen, in denen du keine Beschriftung verwenden kannst, wie z. B. der Name einer Skizzenbeschränkung, musst du dir bewusst sein, welche Zeichen nicht erlaubt sind.
+
+
 
 ### Bezeichner
 
@@ -490,6 +570,8 @@ Für [Bezeichner](Object_name/de#Bezeichner.md) gibt es keine ungültigen Zeiche
 +++
 
 Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert werden.
+
+
 
 ### Namen
 
@@ -508,9 +590,11 @@ Beispielsweise ist folgender Name gültig: \>.Constraints.mol** (mol ist eine Ei
 
 Da kürzere Namen (vor allem, wenn sie nur ein oder zwei Zeichen haben) leicht zu ungültigen Namen führen können, sollte die Verwendung längerer Namen in Betracht gezogen und/oder eine geeignete Namenskonvention festgelegt werden.
 
+
+
 ### Zell Aliasse 
 
-Siehe [Spreadsheet Alias-Namen festlegen](Spreadsheet_SetAlias/de#Anwendung.md). {{Top}}
+Siehe [Spreadsheet Alias-Namen festlegen](Spreadsheet_SetAlias/de#Anwendung.md). 
 
 ## Referenzen auf CAD Daten 
 
@@ -577,9 +661,11 @@ Die folgende Tabelle zeigt einige Beispiele:
 
 {{Top}}
 
+
+
 ## Dokumentweit gültige globale Variablen 
 
-In FreeCAD gibt es zur Zeit kein Konzept für globale Variablen. Stattdessen können beliebige Variablen mit Hilfe der [Arbeitsbereich Kalkulationstabelle](Spreadsheet_Workbench/de.md) als Zellen in einer Kalkulationstabelle definiert werden und dann mit Hilfe der Alias Eigenschaft für die Zelle (Rechtsklick auf die Zelle) einen Namen erhalten. Dann kann von jedem Ausdruck aus auf sie zugegriffen werden, wie auf jede andere Objekteigenschaft auch. {{Top}}
+In FreeCAD gibt es zur Zeit kein Konzept für globale Variablen. Stattdessen können beliebige Variablen mit Hilfe der [Arbeitsbereich Kalkulationstabelle](Spreadsheet_Workbench/de.md) als Zellen in einer Kalkulationstabelle definiert werden und dann mit Hilfe der Alias Eigenschaft für die Zelle (Rechtsklick auf die Zelle) einen Namen erhalten. Dann kann von jedem Ausdruck aus auf sie zugegriffen werden, wie auf jede andere Objekteigenschaft auch. 
 
 ## Dokumentenübergreifende Verweise 
 
@@ -596,7 +682,7 @@ Sobald das Mutterdokument mit der Kalkulationstabelle erstellt und gespeichert (
 
 Leider meldet der integrierte Prüfer manchmal, dass ein gültiger Name nicht existiert. Tippe trotzdem weiter. Wenn du die vollständige Referenz eingegeben hast, wird die Schaltfläche **OK** aktiv.
 
-Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn du etwas ändern willst. {{Top}}
+Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn du etwas ändern willst. 
 
 ## Bekannte Probleme / Verbleibende Aufgaben 
 

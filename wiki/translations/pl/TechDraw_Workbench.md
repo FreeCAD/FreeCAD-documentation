@@ -139,15 +139,9 @@ Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lu
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md): dodaje na stronie adnotację w *baloniku*. {{Version/pl|0.19}}
 
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Wstaw wymiar przestrzenny - opcja EXPERYMENTALNA](TechDraw_LandmarkDimension/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Wstaw wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
-
-
-</div>
-
--   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Dimension Repair](TechDraw_DimensionRepair.md): can adjust the 2D or 3D geometry references of a dimension. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Napraw wymiar](TechDraw_DimensionRepair/pl.md): może dopasować odniesienia geometrii 2D lub 3D dla wymiaru. {{Version/pl|1.0}}
 
 
 

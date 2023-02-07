@@ -2,22 +2,20 @@
 }
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TOCright}}
 
-## Overview
 
-Docker image of FreeCAD compiled without GUI. This Docker image is especially for developers who only want to use FreeCAD in the command-line interface (CLI).
 
-### Benefits
+## Panoramica
+
+L\'immagine Docker di FreeCAD compilata senza GUI. Questa immagine Docker è specifica per gli sviluppatori che desiderano utilizzare FreeCAD solo da riga di comando (CLI).
+
+
+
+### Vantaggi
 
 All of FreeCAD\'s dependencies are already installed, compatible with each other, and configured appropriately, allowing you to get started developing very quickly.
 
@@ -25,17 +23,23 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 -   It gives better performance in terms of speed.
 -   No need to add FreeCAD paths to import it into Python.
 
-## Docker Repository 
+
+
+## Repository Docker 
 
 -   Docker Hub: <https://hub.docker.com/r/amrit3701/freecad-cli>
 -   Github repository: <https://github.com/amrit3701/docker-freecad-cli>
 
-## Prerequisites
 
--   3 GB of free storage
+
+## Prerequisiti
+
+-   3 GB di spazio libero
 -   Docker
 
-## Installation
+
+
+## Installazione
 
 1.  Pull the Docker image.{{Code|lang=bash|code=
     docker pull amrit3701/freecad-cli:latest
@@ -44,7 +48,9 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
     docker run -it amrit3701/freecad-cli:lastest bash
     }}
 
-## Additional information 
+
+
+## Informazioni aggiuntive 
 
 ### Extend Docker image 
 
@@ -80,7 +86,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 To launch FreeCAD inside Docker image, just run FreeCADCmd command.
 
-## Discussion
+
+
+## Discussione
 
 FreeCAD forum thread: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
 

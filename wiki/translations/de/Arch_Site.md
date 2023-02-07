@@ -10,14 +10,20 @@
 
 # Arch Site/de
 
+
+
 ## Beschreibung
 
 Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard FreeCAD Gruppenobjekts und Arch Objekten kombiniert. Es ist besonders zur Repräsentation einer gesamten Projektfläche bzw. eines Terrains geeignet. In IFC-basierter architektonischer Arbeit dient es der Organisation deines CAD Modells und enthält [Gebäude](Arch_Building/de.md) Objekte. Die Baustelle wird auch verwendet, um vorhandenes Gelände zu verwalten und anzuzeigen und kann benutzt werden, um das Volumen von aufzufüllender oder abzutragender Erde zu berechnen.
+
+
 
 ## Anwendung
 
 1.  Optional ein oder mehrere Objekte auswählen, die in eine neues Grundstück übernommen werden sollen.
 2.  Die Schaltfläche **<img src="images/Arch_Site.svg" width=16px> [Grundstück](Arch_Site/de.md)** drücken oder das Tastaturkürzel **S**, dann **I** verwenden.
+
+
 
 ## Optionen
 
@@ -26,6 +32,8 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 -   Du kannst ein Geländeobjekt hinzufügen, indem du die **Gelände** Eigenschaft des Standorts bearbeitest. Das Gelände muss eine offene Hülle oder Oberfläche sein.
 -   Du kannst Volumina hinzufügen, die zum Basisgelände hinzugefügt oder vom Basisgelände subtrahiert werden sollen, indem du auf den Standort doppelklickst und Objekte zu ihren Subtraktions- oder Additionsgruppen hinzufügst. Die Objekte müssen Volumenkörper sein.
 -   Die {{PropertyData/de|Extrusionsvektor}} Eigenschaft kann verwendet werden, um einige Probleme zu lösen, die bei der Arbeit mit Subtraktionen und Additionen auftreten können. Um diese Additionen/Subtraktionen durchzuführen, wird die Geländeoberfläche in einen Körper extrudiert, der dann entsprechend vereinigt/subtrahiert wird. Abhängig von der Geländetopologie kann diese Extrusion mit dem Standard Extrusionsvektor fehlschlagen. Daher kannst du das Problem möglicherweise beheben, indem du diesen auf einen anderen Wert änderst.
+
+
 
 ## Eigenschaften
 
@@ -91,9 +99,11 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 </div>
 
+
+
 ## Typischer Arbeitsablauf 
 
-Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü {{MenuCommand/de|Teil → Form aus Netz erstellen}} in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil:
+Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü **Teil → Form aus Netz erstellen** in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -104,6 +114,8 @@ Erstelle einige Volumina (sie müssen Festkörper sein), die die Bereiche reprä
 Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die Volumeneigenschaften werden neu berechnet.
 
 ![](images/Arch_site_example_03.jpg )
+
+
 
 ## Solar- und Winddiagramme 
 
@@ -118,6 +130,8 @@ Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System install
 **Hinweis**: Wenn du keinen Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
 
 ![](images/Freecad-solar-diagram.jpg )
+
+
 
 ## Skripten
 
@@ -152,6 +166,8 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
+
+
 ### Solardiagramm
 
 Solange das `pysolar` Modul vorhanden ist, kann dem Standort ein Solardiagramm hinzugefügt werden. Stelle den Längen- und Breitengrad und die Deklinationswinkel sowie einen für die Größe deines Modells geeigneten Maßstab ein.
@@ -169,6 +185,8 @@ Site.ViewObject.SolarDiagram = True
 Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
 
 ### Sonnendiagramm unabhängig von der Baustelle 
 

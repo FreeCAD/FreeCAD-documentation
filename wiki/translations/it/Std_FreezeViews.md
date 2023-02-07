@@ -1,31 +1,31 @@
-# Std FreezeViews/it
 ---
-- GuiCommand:/it   Name:Std_FreezeViews   Name/it:Viste bloccate   Empty:1   MenuLocation:Visualizza → Viste bloccate → ...   Workbenches:Tutti   SeeAlso:[Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)---
+- GuiCommand:/it
+   Name:Std_FreezeViews
+   Name/it:Viste bloccate
+   MenuLocation:Visualizza → Viste bloccate → ...
+   Workbenches:Tutti
+   SeeAlso:[Memorizza vista di lavoro](Std_StoreWorkingView/it.md), [Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)
+---
+
+# Std FreezeViews/it
 
 
-</div>
 
 ## Introduzione
-
-
-<div class="mw-translate-fuzzy">
 
 FreeCAD può memorizzare le impostazioni della fotocamera in un massimo di 50 \"viste bloccate\". Le opzioni di menu che si occupano delle viste bloccate sono disponibili nel sottomenu **Visualizza → Viste bloccate**. Le viste bloccate non vengono memorizzate nel documento e, se non salvate con l\'opzione **[Salva le viste\...](#Salva_le_viste....md)** del menu, andranno perse alla chiusura di FreeCAD.
 
 
-</div>
+
+## Salva le viste 
 
 
-<div class="mw-translate-fuzzy">
-
-## Salva le viste\... 
-
-
-</div>
 
 ### Descrizione
 
 L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esistenti in un file con l\'estensione \*.cam.
+
+
 
 ### Utilizzo
 
@@ -34,21 +34,23 @@ L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esisten
 3.  Immettere un nome file nella finestra di dialogo.
 4.  Premere il pulsante **Salva**.
 
+
+
 ### Opzioni
 
 -   Premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
 
 
-<div class="mw-translate-fuzzy">
 
-## Carica le viste\... 
+## Carica le viste 
 
 
-</div>
 
 ### Descrizione 
 
 L\'opzione del menu **Carica le viste\...** carica le viste bloccate da un file con l\'estensione \*.cam. Tutte le viste bloccate esistenti vengono eliminate.
+
+
 
 ### Utilizzo 
 
@@ -57,60 +59,68 @@ L\'opzione del menu **Carica le viste\...** carica le viste bloccate da un file 
 3.  Selezionare un file.
 4.  Premere il pulsante **Apri**.
 
+
+
 ### Opzioni 
 
 -   Se viene visualizzata la finestra di dialogo Ripristina le viste: premere **Esc** o il pulsante **No** per interrompere il comando.
 -   Se viene visualizzata la finestra di dialogo del file: premere **Esc** o il pulsante **Annulla** per interrompere il comando.
 
+
+
 ## Fissa la vista 
+
+
 
 ### Descrizione 
 
-
-<div class="mw-translate-fuzzy">
-
-L\'opzione del menu **Fissa la vista** memorizza le impostazioni correnti della camera in una nuova vista bloccata. Non è possibile creare più di 50 viste bloccate.
+L\'opzione del menu **Fissa la vista** salva le impostazioni correnti della telecamera (direzione, zoom, ecc.) della [Vista 3D](3D_view/it.md) in una nuova voce nell\'elenco delle viste bloccate. L\'elenco delle viste bloccate può contenere fino a 50 viste bloccate.
 
 
-</div>
 
 ### Utilizzo 
 
-1.  There are several ways to invoke this option:
-    -   Select the **View → Freeze display → Freeze view** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**F**.
-2.  The new frozen view can be selected in the **View → Freeze display** submenu.
+1.  Esistono diversi modi per invocare questa opzione:
+    -   Selezionare l\'opzione **Visualizza → Viste bloccate → Fissa la vista** dal menu.
+    -   Usare la scorciatoia da tastiera: **Shift**+**F**.
+2.  La nuova visualizzazione bloccata può essere selezionata nel sottomenu **Visualizza → Viste bloccate**.
+
+
 
 ## Pulisci le viste 
 
+
+
 ### Descrizione 
 
-The **Clear views** menu option deletes all existing frozen views.
+L\'opzione di menu **Pulisci le viste** elimina tutte le visualizzazioni bloccate esistenti.
+
+
 
 ### Utilizzo 
 
-1.  Select the **View → Freeze display → Clear views** option from the menu.
+1.  Selezionare l\'opzione **Visualizza → Viste bloccate → Pulisci le viste** dal menu.
+
+
 
 ## Ripristina la vista 
 
+
+
 ### Descrizione 
 
-For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered: **Restore view 1** - **Restore view 50**.
+Per ogni vista bloccata viene aggiunta un\'opzione **Ripristina vista** con la quale può essere ripristinata. Le opzioni sono numerate: **Ripristina vista 1** - **Ripristina vista 50**.
+
+
 
 ### Utilizzo 
 
-1.  There are several ways to invoke this option:
-    -   Select the correct **View → Freeze display → Restore view** option from the menu.
-    -   For the first 9 frozen views: use the keyboard shortcut: **Ctrl**+**1** - **Ctrl**+**9**.
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per invocare questa opzione:
+    -   Selezionare l\'opzione corretta **Visualizza → Viste bloccate → Ripristina la vista** dal menu.
+    -   Per le prime 9 visualizzazioni bloccate: utilizzare la scorciatoia da tastiera: **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

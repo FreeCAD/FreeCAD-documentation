@@ -1,13 +1,4 @@
 # Manual:Installing/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/it}}
 
 FreeCAD usa la licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), che permette di scaricare, installare, ridistribuire e utilizzare FreeCAD nel modo desiderato, a prescindere dal tipo di lavoro si farà con esso (commerciale o non commerciale). Non si è tenuti a rispettare nessuna clausola o restrizione, e i file prodotti sono di completa proprietà dell\'autore. In realtà, l\'unica cosa vietata dalla licenza è quella di affermare che avete programmato FreeCAD voi stessi!
@@ -21,6 +12,8 @@ La pagina ufficiale per il download di FreeCAD per Windows e Mac OS è <https://
 I rilasci ufficiali di FreeCAD che si trovano sulla pagina di cui sopra e nel software manager della distribuzione sono delle versioni stabili. Tuttavia, lo sviluppo di FreeCAD è veloce! Quasi ogni giorno sono aggiunte delle nuove funzionalità e viene corretto qualche bug. Dato che a volte può passare molto tempo tra una versione stabile e la successiva, si può essere interessati a provare una versione più avanzata di FreeCAD. Queste versioni di sviluppo, o pre-release, vengono caricate periodicamente sulla [pagina di download](https://github.com/FreeCAD/FreeCAD/releases) menzionata sopra, o, se si utilizza Ubuntu o Fedora, la comunità di FreeCAD mantiene anche un [PPA](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) (Personal Package Archives) e [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) o \'daily builds\' che viene regolarmente aggiornato con le modifiche più recenti.
 
 Se si sta installando FreeCAD su una macchina virtuale, bisogna essere consapevoli che le sue prestazioni potrebbero essere basse, e in alcuni casi essere inutilizzabile, a causa del limitato supporto di [OpenGL](https://en.wikipedia.org/wiki/OpenGL) sulla maggior parte delle macchine virtuali.
+
+
 
 ### Installazione in Windows 
 
@@ -36,15 +29,11 @@ Se si sta installando FreeCAD su una macchina virtuale, bisogna essere consapevo
 
 Impacchettare FreeCAD e creare di un programma di installazione richiede un po\' di tempo e di dedizione, così, di solito, le versioni di sviluppo (chiamate anche pre-release) sono fornite come archivi .zip oppure .7z. Queste versioni non hanno bisogno di essere installate, basta decomprimerle e lanciare FreeCAD facendo doppio clic sul file FreeCAD.exe che si trova al suo interno. Questo permette di avere contemporaneamente sullo stesso computer sia le versioni stabili che quelle \"instabili\".
 
+
+
 ### Installazione in Linux 
 
-
-<div class="mw-translate-fuzzy">
-
 Sulla maggior parte delle distribuzioni Linux moderne (Ubuntu, Fedora, openSUSE, Debian, Mint, Elementary, ecc), FreeCAD può essere installato con il clic di un pulsante, direttamente dall\'applicazione di gestione del software fornita dalla propria distribuzione (dato che ogni distribuzione utilizza un proprio strumento, il suo aspetto può differire dalle immagini sottostanti).
-
-
-</div>
 
 1.  Aprire il gestore del software e cercare \"freecad\":
 
@@ -57,6 +46,8 @@ Sulla maggior parte delle distribuzioni Linux moderne (Ubuntu, Fedora, openSUSE,
 
 Uno dei grandi piaceri di usare Linux è la moltitudine di possibilità di adattare il software, quindi non trattenetevi. Su Ubuntu e derivate, FreeCAD può anche essere installato da un [PPA](https://launchpad.net/~freecad-maintainers) mantenuto dalla comunità di FreeCAD (contiene entrambe le versioni, la stabile e quella di sviluppo). Su Fedora è possibile installare le versioni di sviluppo recenti di FreeCAD da [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) e siccome questo è un software open-source, può anche essere [compilato](Compiling/it.md) facilmente.
 
+
+
 ### Installazione in Mac OS 
 
 Installare FreeCAD su Mac OSX oggi è facile come sulle altre piattaforme. Tuttavia, dal momento che ci sono meno persone della comunità che possiedono un Mac, i pacchetti disponibili spesso sono in ritardo di un paio di versioni rispetto alle altre piattaforme.
@@ -68,9 +59,13 @@ Installare FreeCAD su Mac OSX oggi è facile come sulle altre piattaforme. Tutta
 
 5\. Se il sistema impedisce l\'avvio di FreeCAD a causa delle restrizioni per le applicazioni non provenienti da App Store è necessario abilitarlo nelle impostazioni di sistema: ![](images/Freecad-mac-04.jpg )
 
+
+
 ### Disinstallazione
 
 Speriamo che non si voglia disinstallare FreeCAD, comunque è bene sapere come farlo. In Windows e Linux, la disinstallazione FreeCAD è molto semplice. In Windows utilizzare l\'opzione standard \"Disinstalla\" che si trova nel pannello di controllo su Windows, o rimuoverlo con lo stesso gestore del software utilizzato per installare FreeCAD. Su Linux rimuoverlo con lo stesso software manager usato per installarlo. Su Mac, basta rimuoverlo dalla cartella Applicazioni.
+
+
 
 ### Impostare le preferenze di base 
 
@@ -87,15 +82,11 @@ Dopo aver installato FreeCAD, forse si desidera aprirlo e modificare alcune pref
 9.  **Zoom al cursore**: (categoria *Visualizzazione*, scheda *Vista 3D*) Se selezionato, le operazioni di zoom sono focalizzate sul puntatore del mouse, altrimenti il fuoco dello zoom è il centro della vista corrente.
 10. **Inverti lo zoom**: (categoria *Visualizzazione*, scheda *Vista 3D*) Inverte la direzione dello zoom rispetto al movimento del mouse. ![](images/FreeCAD-v0-18-Preferences-Display.png ).
 
+
+
 ### Installare dei contenuti aggiuntivi 
 
-
-<div class="mw-translate-fuzzy">
-
-Dato che il progetto FreeCAD e la sua comunità crescono rapidamente, e anche perché è facile da estendere, i contributi esterni e i progetti paralleli realizzati dai membri della comunità e da altri appassionati cominciano ad apparire ovunque su internet. La maggior parte di questi progetti esterni sono degli ambienti di lavoro o macro e possono essere facilmente installati direttamente da FreeCAD tramite [Addons Manager](Std_AddonMgr/it.md) che si trova nel menu **Strumenti**. Il gestore dei componenti aggiuntivi consente di installare molti componenti interessanti, ad esempio:
-
-
-</div>
+Dato che il progetto FreeCAD e la sua comunità crescono rapidamente, e anche perché è facile da estendere, i contributi esterni e i progetti paralleli realizzati dai membri della comunità e da altri appassionati cominciano ad apparire ovunque su internet. La maggior parte di questi progetti esterni sono degli ambienti di lavoro o macro e possono essere facilmente installati direttamente da FreeCAD tramite [Addon Manager](Std_AddonMgr/it.md) che si trova nel menu **Strumenti**. Il gestore dei componenti aggiuntivi consente di installare molti componenti interessanti, ad esempio:
 
 1.  Una [Parts library](https://github.com/FreeCAD/FreeCAD-library), che contiene tutti i tipi di modelli utili, o pezzi di modelli, creati dagli utenti di FreeCAD che possono essere utilizzati liberamente nei vostri progetti. È possibile accedere e usare le libreria direttamente dall\'interno della propria installazione FreeCAD.
 2.  [Ambienti aggiuntivi](https://github.com/FreeCAD/FreeCAD-addons) che estendono le funzionalità di FreeCAD per determinate attività, ad esempio animano le parti dei modelli, come piegatura della lamiera o BIM. Ulteriori spiegazioni su ogni ambiente e su quali strumenti contiene sono fornite nella pagina di ogni addon, che si può visitare facendo clic sul link corrispondente in Addon manager.
@@ -107,29 +98,13 @@ Se si utilizza il sistema operativo Ubuntu, alcuni degli addon indicati sopra so
 
 **Approfondimenti**
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Altre opzioni di download](Download/it.md)
--   [Istruzioni di installazione dettagliate](Installing/it.md)
 -   [PPA di FreeCAD per Ubuntu](https://launchpad.net/~freecad-maintainers)
 -   [PPA per gli addons di FreeCAD per Ubuntu](https://launchpad.net/freecad-extras)
 -   [Compilare FreeCAD](Compiling/it.md)
 -   [Tradurre FreeCAD](https://crowdin.com/project/freecad)
 -   [La pagina di FreeCAD su github](https://github.com/FreeCAD)
 -   [Il gestore degli addon di FreeCAD](Std_AddonMgr/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

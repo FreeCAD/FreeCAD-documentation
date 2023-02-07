@@ -9,6 +9,8 @@
 
 # Part Boolean/de
 
+
+
 ## Beschreibung
 
 
@@ -23,6 +25,8 @@ Für einen schnelleren Zugriff auf diese Operationen benutze **[<img src=images/
 
 
 *Dialog zur Auswahl von Objekten und der auszuführenden booleschen Operation.*
+
+
 
 ## Anwendung
 
@@ -44,7 +48,9 @@ Siehe die einzelnen Befehle:
 **
     
 
-Siehe auch den Menüeintrag {{MenuCommand/de|Formteil → Create a copy [Form aufbereiten](Part_RefineShape/de.md)}}.
+Siehe auch den Menüeintrag **Formteil → Create a copy [Form aufbereiten](Part_RefineShape/de.md)**.
+
+
 
 ## Koplanare Probleme 
 

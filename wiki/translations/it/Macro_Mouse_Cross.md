@@ -23,9 +23,9 @@ Questa macro cambia la forma del mouse in una croce di precisione.
 
 ## Utilizzo
 
-1.  Premere {{KEY/it|C}} per attivare la croce.
-2.  Premere {{KEY/it|A}} per attivare la freccia.
-3.  Premere {{KEY/it|G}} per attivare la griglia.
+1.  Premere **C** per attivare la croce.
+2.  Premere **A** per attivare la freccia.
+3.  Premere **G** per attivare la griglia.
 4.  Premere **X** per scorrere tutti i cursori.
 5.  Premere **Q** per uscire dalla macro.
 
@@ -202,6 +202,8 @@ except Exception:
     FreeCAD.Console.PrintError("\n"+"Not document open"+"\n")
 
 }}
+
+
 
 ### Cursori che è possibile usare 
 

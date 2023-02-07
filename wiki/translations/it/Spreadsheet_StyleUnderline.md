@@ -9,9 +9,13 @@
 
 # Spreadsheet StyleUnderline/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:16px;"> **Sottolineato** fa in modo che il testo all\'interno della cella adotti lo stile sottolineato.
+
+
 
 ## Utilizzo
 

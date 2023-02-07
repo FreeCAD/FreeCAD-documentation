@@ -37,6 +37,8 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
 *Due scale, uno con una struttura massiccia e un pianerottolo, e un'altra con un solo montante.*
 
+
+
 ## Opzioni
 
 
@@ -54,12 +56,14 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 ## Utilizzo
 
--   Premere il pulsante **<img src="images/Arch_Stairs.svg" width=16px> [Scala](Arch_Stairs/it.md)**, oppure i tasti {{KEY/it|S}}, {{KEY/it|R}}.
+-   Premere il pulsante **<img src="images/Arch_Stairs.svg" width=16px> [Scala](Arch_Stairs/it.md)**, oppure i tasti **S**, **R**.
 
 1.  Adeguare le proprietà desiderate. Alcune parti delle scale potrebbero non apparire immediatamente se una qualsiasi delle proprietà lo rende impossibile. Ad esempio, potrebbe non apparire la struttura se il suo spessore è impostato pari a 0.
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -111,7 +115,7 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 -    {{ProprietaDati|Width}}: La larghezza della scala
 
 
-{{KEY/it|Base}}
+**Base**
 
 -    {{ProprietaDati|Label}}: nome
 
@@ -124,7 +128,7 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 <div class="mw-translate-fuzzy">
 
 
-{{KEY/it|Steps}}
+**Steps**
 
 
 </div>
@@ -149,7 +153,7 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 <div class="mw-translate-fuzzy">
 
 
-{{KEY/it|Structure}}
+**Structure**
 
 
 </div>

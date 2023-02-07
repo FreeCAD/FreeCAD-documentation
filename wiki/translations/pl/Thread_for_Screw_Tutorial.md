@@ -5,7 +5,7 @@
    Time: 60 minut
    Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
    FCVersion:0.19
-   Files: [https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.]
+   Files: [https://forum.freecad.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.]
 ---
 
 # Thread for Screw Tutorial/pl
@@ -14,22 +14,26 @@
 
 
 
+
+
 ## Wprowadzenie
 
-Ten poradnik jest zbiorem technik modelowania gwintów śrubowych w programie FreeCAD. Został on zaktualizowany dla wersji **0.19**, chociaż ogólny proces jest zasadniczo taki sam od v0.14, kiedy to poradnik ten został pierwotnie napisany. Zaktualizowana zawartość skupia się na użyciu środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), aby utworzyć gwint.
+Ten poradnik jest zbiorem technik modelowania gwintów śrubowych w programie FreeCAD. Został on zaktualizowany dla wersji **0.19**, chociaż ogólny proces jest zasadniczo taki sam od v0.14, kiedy to poradnik ten został pierwotnie napisany. Zaktualizowana zawartość skupia się na użyciu środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), aby utworzyć gwint, ale nie używa narzędzia <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [Addytywna helisa](PartDesign_AdditiveHelix/pl.md) środowiska Projekt Części, ponieważ zostało ono wprowadzone później.
 
 W tradycyjnych systemach CAD modelowanie gwintów śrubowych jest odradzane, ponieważ stanowi duże obciążenie dla jądra modelowania, jak również podczas renderowania kształtów. W tradycyjnych systemach gwint nie musi być przedstawiany bezpośrednio w przestrzeni 3D, ponieważ można go wskazać z jego wymaganą charakterystyką na rysunku technicznym, który jest wysyłany do produkcji. Jednakże, wraz z popularyzacją produkcji dodatków *(druk 3D)*, istnieje obecnie realna potrzeba modelowania gwintów przestrzennych, aby wydrukować je dokładnie tak, jak zostały zaprojektowane. I właśnie dlatego powstał ten poradnik.
 
 Wiele z prezentowanych tu technik zostało zebranych z różnych wątków forum:
 
--   [Techniki modelowania gwintu](https://forum.freecadweb.org/viewtopic.php?f=3&t=12593)
--   [Tworzenie gwintu: Nieoczekiwane rezultaty](https://forum.freecadweb.org/viewtopic.php?f=3&t=6506)
+-   [Techniki modelowania gwintu](https://forum.freecad.org/viewtopic.php?f=3&t=12593)
+-   [Tworzenie gwintu: Nieoczekiwane rezultaty](https://forum.freecad.org/viewtopic.php?f=3&t=6506)
 
 Zobacz też pomocne filmy:
 
--   [Wprowadzenie strategii projektowania śruby bez powszechnie spotykanych problemów.](https://forum.freecadweb.org/viewtopic.php?f=8&t=44259)
+-   [Wprowadzenie strategii projektowania śruby bez powszechnie spotykanych problemów.](https://forum.freecad.org/viewtopic.php?f=8&t=44259)
 
 Należy pamiętać, że kształty gwintów zajmują dużo pamięci, a posiadanie tylko jednego gwintu w dokumencie może znacznie zwiększyć rozmiar pliku, dlatego zaleca się tworzenie gwintów tylko wtedy, gdy jest to absolutnie konieczne.
+
+
 
 ### Metoda 1. Używanie narzędzi i części ze stanowisk pracy 
 
@@ -44,11 +48,15 @@ W szczególności polecane są trzy zasoby, które mogą być zainstalowane z na
 <img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
 *Różne standardowe wkręty osadzone w Środowisku pracy Elementy Złączne ''(Fasteners)''. Istnieje możliwość kontroli, czy obiekt przedstawia prawdziwy gwint, czy tylko zwyczajny cylinder.*
 
+
+
 ## Metoda 2. Używanie makrodefinicji (przestarzałe) 
 
 -   W przeszłości, do wstawiania części z biblioteki BOLTS używano [Makra BOLTS](Macro_BOLTS.md). Teraz jest już ono nieaktualne. Zamiast tego należy użyć Środowiska pracy [BOLTSFC](BOLTSFC_Workbench/pl.md).
 
 Znany jest skrypt [Screw Maker](Macro_screw_maker1_2/pl.md) autorstwa ulrich1a, został użyty do stworzenia pojedynczych śrub, wkrętów i podkładek. Obecnie jest to już przestarzałe rozwiązanie. Środowisko pracy [Fasteners](Fasteners_Workbench/pl.md) autorstwa shaise, zawiera kompletne makro do tworzenia śrub, wraz z GUI do wyboru odpowiedniego elementu.
+
+
 
 ## Metoda 3. Imitacja przez ułożenie stosu krążków. 
 
@@ -58,6 +66,8 @@ Fałszywy gwint możemy utworzyć za pomocą ścieżki bez spirali, np. obracaj�
 
 <img alt="" src=images/T13_01_Threads_comparison_fake_real.png  style="width:" height="300px;"> 
 *Po lewej: prosta śruba ze sztucznym, nie spiralnym gwintem. Z prawej: zwykła śruba z prawdziwym gwintem spiralnym. Gdy druk 3D nie jest potrzebny, do wizualizacji często wystarcza symulowany gwint.*
+
+
 
 ### Obrotowy profil piły zębatej 
 
@@ -71,6 +81,8 @@ Fałszywy gwint możemy utworzyć za pomocą ścieżki bez spirali, np. obracaj�
 
 <img alt="" src=images/T13_03_Threads_Sawtooth_revolution_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_04_Threads_Sawtooth_revolution_2.png  style="width:" height="300px;"> 
 *Widok przekroju powstałego gwintu nie spiralnego poprzez obracanie profilu piły wokół osi pionowej.*
+
+
 
 ### Krążki ułożone w stosy 
 
@@ -90,7 +102,11 @@ Jeśli chcesz, możesz dodać **[<img src=images/PartDesign_AdditiveCylinder.svg
 <img alt="" src=images/T13_06_Threads_Stacked_discs_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_07_Threads_Stacked_discs_2.png  style="width:" height="282px;"> 
 *Po lewej: pojedynczy krążek stworzony przez wyciągnięcie przez obrót. Po prawej: wiele krążków umieszczonych w formacji liniowej w kierunku osi Z, imitującej gwint spiralny.*
 
+
+
 ## Metoda 4. Modyfikacja *owinięciem* profilu pionowego. 
+
+
 
 ### Środowisko pracy Part Design 
 
@@ -115,6 +131,8 @@ Prawdziwy gwint składa się z zamkniętego profilu prowadzącego bryłę wzdłu
 <img alt="" src=images/T13_12_Threads_Helical_thread_cylinder.png  style="width:" height="300px;"> <img alt="" src=images/T13_13_Threads_Helical_thread_finished.png  style="width:" height="300px;"> 
 *Z lewej: spirala śrubowa połączona z centralnym cylindrem w celu utworzenia korpusu śruby. <br>Po prawej: więcej elementów, łeb i czubek, dodane w celu poprawienia kształtu śruby.*
 
+
+
 ### Środowisko pracy Part 
 
 Proces ten można również wykonać za pomocą narzędzi środowiska pracy [Część](Part_Workbench/pl.md).
@@ -125,6 +143,8 @@ Teraz możesz przystąpić do dodawania innych elementów pierwotnych, takich ja
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
 *Tworzenie zwoju gwintu poprzez przesuwanie pionowego profilu, ''(1)'' the [szkic profilu](Sketch/pl.md), ''(2)'' [helical](Part_Helix/pl.md) ścieżka przeciągania, oraz ''(3)'' wynik [przeciągnięcia](Part_Sweep/pl.md).*
+
+
 
 ### Sztuczki wzmagające sukces 
 
@@ -154,6 +174,8 @@ Sprawdź jakość połączenia za pomocą funkcji **[<img src=images/Part_CheckG
 
 -    **Wskazówka 3.**W przypadku wizualizacji 3D i drukowania 3D może być w porządku pozostawienie cylindra i gwintu niezwiązanego, to znaczy z przecięciami między dwoma bryłami. Zmniejszenie ilości operacji logicznych skutkuje mniejszym zużyciem pamięci i mniejszymi plikami wynikowymi.
 
+
+
 ### Zalety i wady 
 
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Koncepcja budowy modelu łatwa do zrozumienia.
@@ -164,7 +186,11 @@ Sprawdź jakość połączenia za pomocą funkcji **[<img src=images/Part_CheckG
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Operacje logiczne są wymagane do uzyskania pojedynczej zwartej bryły. Obliczenia operacji logicznych zajmują stosunkowo dużo czasu i często kończą się niepowodzeniem.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Gwinty o dużej liczbie zwojów są problematyczne.
 
+
+
 ## Metoda 5. Wyciągnięcie profilu poziomego 
+
+
 
 ### Informacje ogólne 
 
@@ -176,9 +202,13 @@ Jeśli użyjemy okręgu jako profilu poziomego, profil gwintu będzie sinusoidal
 
 Aby otrzymać standardowy profil zęba piły, para lustrzanych odbić spirali łukowych musi zostać połączona w jedną ścieżką. W rezultacie tej operacji otrzymamy kształt serca, który staje się ledwie odróżnialny od okręgu, w przypadku gdy głębokość gwintu jest niewielka w zestawieniu z jego średnicą (to dlatego taki \"gruby\" gwint pokazano na powyższym rysunku).
 
+
+
 ### Generowanie kształtu 
 
 Nie jest łatwo określić, jak przygotować profil poziomy, aby uzyskać określony kształt pionowy. W sytuacjach nieskomplikowanych, dotyczących kształtu trójkątnego lub trapezowego, profil może być wykonany ręcznie. Alternatywnie można go skonstruować, tworząc krótki gwint metodą 4 i pobierając jego kawałek poprzez wykonanie funkcji [common](Part_Common/pl.md) pomiędzy płaszczyzną poziomą a gwintem.
+
+
 
 #### Kształt dla gwintu trójkątnego 
 
@@ -188,6 +218,8 @@ Nie jest łatwo określić, jak przygotować profil poziomy, aby uzyskać okreś
     3.  oraz wysokość, by podwoić głębokość nacięcia gwintu.
 2.  [Część: Mirror](Part_Mirror/pl.md) spirala na przeciw płaszczyzny XY.
 3.  [Część: Suma](Part_Fuse/pl.md) spirala i jej odbicie lustrzane w celu uzyskania zamkniętego odcinka w kształcie serca.
+
+
 
 #### Kształt dla dowolnego przekroju 
 
@@ -205,9 +237,11 @@ Nie jest łatwo określić, jak przygotować profil poziomy, aby uzyskać okreś
 10. Wyciągnij odcinek wzdłuż spirali; zaznacz opcje {{CheckBox|TRUE|Utwórz bryłę}} i {{CheckBox|TRUE|wektor Freneta}},
 11. To wszystko.
 
-Przewodnik krok po kroku od [forum, post Ulrich1a](http://forum.freecadweb.org/viewtopic.php?f=3&t=6506#p52558) *(Tworzenie gwintu: Nieoczekiwane wyniki)*, nieznacznie zmodyfikowane.
+Przewodnik krok po kroku od [forum, post Ulrich1a](http://forum.freecad.org/viewtopic.php?f=3&t=6506#p52558) *(Tworzenie gwintu: Nieoczekiwane wyniki)*, nieznacznie zmodyfikowane.
 
 Drogę postępowania zaprezentował Gaurav Prabhudesai w przygotowanym przez siebie [filmie instruktażowym](http://www.youtube.com/watch?v=fxKxSOGbDYs) (\"FreeCAD: Jak tworzyć gwinty\").
+
+
 
 ### Zalety i wady 
 
@@ -219,9 +253,13 @@ Drogę postępowania zaprezentował Gaurav Prabhudesai w przygotowanym przez sie
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> zdefiniowanie kształtu gwintu jest skomplikowane.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Użycie standardowej siatki z tak stworzonym gwintem generuje brzydkie oczka, co może prowadzić do problemów. Inne siatki są lepsze, na przykład Mefisto wydaje się dawać najlepsze rezultaty.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> duża ilość pamięci według [Techniki modelowania gwintu](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> duża ilość pamięci według [Techniki modelowania gwintu](http://forum.freecad.org/viewtopic.php?f=3&t=12593&start=10#p101197).
+
+
 
 ## Metoda 6. Wyciąganie pomiędzy wytłaczanymi ścianami ślimakowymi 
+
+
 
 ### Informacje ogólne 
 

@@ -40,7 +40,7 @@ Im \"Verbundkörper\" Modus werden die Festkörper zu einem Verbundkörper verbu
     Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Unterform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Entwurf AnordnungRechtwinklig](Draft_OrthoArray.md).
 2.  Rufe den Befehl Part BoolescheFragmente auf mehrere Arten auf:
     -   Drücken der <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> Schaltfläche in der Werkzeugleiste
-    -   Verwendung des {{MenuCommand/de|Part → Teilen → Boolesche Fragmente}} Eintrags im Part Menü
+    -   Verwendung des **Part → Teilen → Boolesche Fragmente** Eintrags im Part Menü
 
 Ein Boolesches Fragmentparametrisches Objekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Schnittmenge wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
 

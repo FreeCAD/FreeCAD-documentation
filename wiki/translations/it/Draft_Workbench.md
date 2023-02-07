@@ -254,7 +254,7 @@ Le seguenti opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad a
 
 Per la maggior parte degli oggetti Draft è disponibile la seguente opzione:
 
--   Modifica: modifica l\'oggetto. A seconda del tipo di oggetto, viene utilizzata [Draft Modifica](Draft_Edit/it.md) o una soluzione di modifica dedicata. {{Versione|1.0}}
+-   Modifica: modifica l\'oggetto. A seconda del tipo di oggetto, viene utilizzata [Draft Modifica](Draft_Edit/it.md) o una soluzione di modifica dedicata. {{Version/it|1.0}}
 
 Se c\'è un documento attivo il menu contestuale contiene un ulteriore sottomenu:
 

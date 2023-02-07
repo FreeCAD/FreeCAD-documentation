@@ -1,6 +1,8 @@
 # Python console/de
 **(Januar 2020) FreeCAD wurde ursprünglich für die Arbeit mit Python 2 entwickelt. Da Python 2 im Jahr 2020 das Ende seiner Lebensdauer erreicht hat, wird die zukünftige Entwicklung von FreeCAD ausschließlich mit Python 3 erfolgen und die Abwärtskompatibilität wird nicht unterstützt.**
 
+
+
 ## Einleitung
 
 
@@ -23,6 +25,8 @@ Die Python-Konsole in FreeCAD verfügt über eine grundlegende Syntaxhervorhebun
 
 
 *Die Python Konsole zeigt Meldungen an, wenn FreeCAD gerade gestartet wurde.*
+
+
 
 ## Skripten
 
@@ -65,27 +69,31 @@ FreeCAD.newDocument()
 
 diese vorinstallierten Module und Aliase sind nur über die in das FreeCAD Programm eingebettete Python Konsole verfügbar. Wenn Du FreeCAD als Bibliothek in einem externen Programm verwendest, musst Du daran denken, die Module `FreeCAD` und `FreeCADGui` zu laden und die notwendigen Aliase zu definieren, wenn Du möchtest.
 
+
+
 ## Maßnahmen
 
 Ein Rechtsklick auf die Python Konsole zeigt einige Befehle an:
 
--    {{MenuCommand/de|Kopiere}}: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
+-    **Kopiere**: speichert den markierten Text in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
 
--    {{MenuCommand/de|Kopiere Befehl}}: speichert den markierten Befehl in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
+-    **Kopiere Befehl**: speichert den markierten Befehl in der Zwischenablage zum späteren Einfügen; er ist deaktiviert, wenn nichts markiert ist.
 
--    {{MenuCommand/de|Kopiere Historie}}: die gesamte Historie der in dieser Sitzung eingegebenen Python-Befehle kopieren.
+-    **Kopiere Historie**: die gesamte Historie der in dieser Sitzung eingegebenen Python-Befehle kopieren.
 
--    {{MenuCommand/de|Save history as}}: die gesamte Historie der in dieser Sitzung eingegebenen Python Befehle in eine Textdatei speichern.
+-    **Save history as**: die gesamte Historie der in dieser Sitzung eingegebenen Python Befehle in eine Textdatei speichern.
 
--    {{MenuCommand/de|Einfügen}}: zuvor kopierten Text aus der Zwischenablage in die Python-Konsole einfügen.
+-    **Einfügen**: zuvor kopierten Text aus der Zwischenablage in die Python-Konsole einfügen.
 
--    {{MenuCommand/de|Alles Wählen}}: wählt den gesamten Text in der Python-Konsole aus.
+-    **Alles Wählen**: wählt den gesamten Text in der Python-Konsole aus.
 
--    {{MenuCommand/de|Konsole löschen}}: löscht alle in der Python Konsole eingegebenen Befehle. Dies ist nützlich, wenn die Python Konsole voll von Meldungen und zuvor eingegebenen Befehlen ist, die beim Testen einer neuen Funktion ablenken könnten. Dies ist nur ästhetisch, da dieser Befehl weder vorhandene Variablen löscht noch die importierten Module in der Sitzung löscht.
+-    **Konsole löschen**: löscht alle in der Python Konsole eingegebenen Befehle. Dies ist nützlich, wenn die Python Konsole voll von Meldungen und zuvor eingegebenen Befehlen ist, die beim Testen einer neuen Funktion ablenken könnten. Dies ist nur ästhetisch, da dieser Befehl weder vorhandene Variablen löscht noch die importierten Module in der Sitzung löscht.
 
--    {{MenuCommand/de|Dateiname einfügen}}: öffnet einen Dialog zum Suchen einer Datei im System, dann fügt es den vollständigen Pfad der Datei ein. Dies ist nützlich, um Funktionen zu testen, die eine Eingabedatei verarbeiten, ohne den gesamten Namen in die Konsole schreiben zu müssen, was fehleranfällig ist. Dieser Befehl führt die Datei nicht aus und importiert sie nicht als Python-Modul, sondern gibt nur den vollständigen Pfad der Datei zurück.
+-    **Dateiname einfügen**: öffnet einen Dialog zum Suchen einer Datei im System, dann fügt es den vollständigen Pfad der Datei ein. Dies ist nützlich, um Funktionen zu testen, die eine Eingabedatei verarbeiten, ohne den gesamten Namen in die Konsole schreiben zu müssen, was fehleranfällig ist. Dieser Befehl führt die Datei nicht aus und importiert sie nicht als Python-Modul, sondern gibt nur den vollständigen Pfad der Datei zurück.
 
--    {{MenuCommand/de|Wort umbrechen}}: sehr lange Zeilen umbrechen, die die horizontale Dimension der Python-Konsole überschreiten.
+-    **Wort umbrechen**: sehr lange Zeilen umbrechen, die die horizontale Dimension der Python-Konsole überschreiten.
+
+
 
 ## Hinweise
 

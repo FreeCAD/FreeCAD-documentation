@@ -1,11 +1,15 @@
 # Installing more workbenches/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 Seit v0.17 ist es einfach, [externe Arbeitsbereiche](external_workbenches/de.md) mit Hilfe des [Erweiterungsverwalters](Std_AddonMgr/de.md) hinzuzufügen. Ein normaler Benutzer muss nicht mehr tun, als dieses Werkzeug zu benutzen.
 
 Lies weiter, um weitere Informationen zur Installation von Arbeitsbereichen zu erhalten.
+
+
 
 ## Allgemeine Beschreibung 
 
@@ -20,6 +24,8 @@ wobei `$ROOT_DIR` ein Verzeichnis der obersten Ebene ist, das von FreeCAD beim S
 
 Die `Mod/` Verzeichnisse werden bei jedem Start von FreeCAD eingelesen und die verfügbaren Arbeitsbereiche werden automatisch hinzugefügt.
 
+
+
 ## Systemweites Installieren 
 
 Auf diese Weise installierte Arbeitsbereiche sind für alle Benutzer verfügbar. Abhängig von deinem System benötigst du möglicherweise Administratorrechte, um auf das Installationsverzeichnis zuzugreifen.
@@ -29,6 +35,8 @@ Kopiere den Arbeitsbereichsordner in `$INSTALL_DIR/Mod/`, wobei `$INSTALL_DIR` d
 -   Unter Linux ist es normalerweise `/usr/share/freecad/Mod/`
 -   Unter Windows ist es normalerweise `C:\Programmdateien\FreeCAD\Mod\`
 -   Unter macOS ist es normalerweise `/Anwendungen/FreeCAD/Mod/`
+
+
 
 ## Installation für einen einzelnen Anwender 
 
@@ -41,10 +49,12 @@ Kopiere den Arbeitsbereichsordner nach `$USER_DIR/Mod/`, wobei `$USER_DIR` das F
 
 -   Unter Linux ist es normalerweise `/home/username/.FreeCAD/Mod/`.
 -   Unter Windows ist es `%APPDATA%\FreeCAD\Mod\`, das ist normalerweise `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
--   Unter macOS ist es normalerweise `/Users/username/Library/Preferences/FreeCAD/Mod/`. Eine Möglichkeit, in das Einstellungsverzeichnis zu gelangen, besteht darin, den \"Finder\" Menüeintrag {{MenuCommand/de|Gehe → Gehe zu Ordner}} zu benutzen und `~/Library/Preferences/FreeCAD` einzugeben.
+-   Unter macOS ist es normalerweise `/Users/username/Library/Preferences/FreeCAD/Mod/`. Eine Möglichkeit, in das Einstellungsverzeichnis zu gelangen, besteht darin, den \"Finder\" Menüeintrag **Gehe → Gehe zu Ordner** zu benutzen und `~/Library/Preferences/FreeCAD` einzugeben.
 
 
 </div>
+
+
 
 ## Zusätzliche Informationen 
 

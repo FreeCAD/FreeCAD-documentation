@@ -3,11 +3,13 @@
 
 Diese Seite enthält verschiedene Einstellungen und Parameter, die du zur Feinabstimmung deiner FreeCAD Installation oder zur Behebung von Problemen verwenden kannst.
 
+
+
 ## Optionsparameter
 
-Der FreeCAD [Einstellungseditor](Preferences_Editor/de.md) unter dem Menüpunkt {{MenuCommand/de|Bearbeitungen → Einstellungen}} wird üblicherweise verwendet, um die FreeCAD Parametertabelle festzulegen und zu ändern.
+Der FreeCAD [Einstellungseditor](Preferences_Editor/de.md) unter dem Menüpunkt **Bearbeitungen → Einstellungen** wird üblicherweise verwendet, um die FreeCAD Parametertabelle festzulegen und zu ändern.
 
-Jedoch ist es auch möglich, unter Verwendung des [Parameter Editors](Std_DlgParameter/de.md) der im Menü {{MenuCommand/de|Werkzeuge → Parameter bearbeiten}} gefunden werden kann, auf Parameter manuell zuzugreifen, diese zu ändern und zu erstellen.
+Jedoch ist es auch möglich, unter Verwendung des [Parameter Editors](Std_DlgParameter/de.md) der im Menü **Werkzeuge → Parameter bearbeiten** gefunden werden kann, auf Parameter manuell zuzugreifen, diese zu ändern und zu erstellen.
 
 Die folgende Liste zeigt Parameter, die nicht über den Einstellungseditor zugänglich sind, die du aber manuell festlegen kannst (befindet sich in **BaseApp/Preferences**)
 
@@ -28,6 +30,8 @@ Die folgende Liste zeigt Parameter, die nicht über den Einstellungseditor zugä
 
 
 </div>
+
+
 
 ### Standard Dateinamen exportieren 
 
@@ -57,6 +61,8 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 -   **SolverFailedMessageColor** - Defaults to red
 -   **FullyConstrainedMessageColor** - Defaults to green
 
+
+
 ## Mausbezogenes
 
 
@@ -70,7 +76,11 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 </div>
 
+
+
 ## Tastaturkurzbefehle
+
+
 
 ### Abbruchtaste
 
@@ -83,12 +93,16 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 </div>
 
+
+
 ## Bestimmte Arbeitsbereiche 
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) hat mehrere versteckte Schalter, die in [TechDraw Einstellungen](TechDraw_Preferences/de#Ausgeblendete_Einstellungen.md) dokumentiert sind.
 -   <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) hat einen Schalter zur Aktivierung experimenteller Funktionen, die in [Pfad experimentell](Path_experimental/de.md) dokumentiert sind.
 -   <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM Arbeitsbereich](BIM_Workbench/de.md):
     -   **Mod/BIM/DefaultPageScale** (Float): Standard Skalierung für neue TechDraw Seiten, die vom BIM Arbeitsbereich aus erstellt werden, falls die Vorlage kein editierbares Textfeld \"Skalieren\" oder \"Skalierung\" (Text unempfindlich) enthält.
+
+
 
 ## Verwandtes
 

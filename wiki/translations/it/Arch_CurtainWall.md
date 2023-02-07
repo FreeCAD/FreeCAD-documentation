@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento crea una [facciata continua](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) suddividendo una faccia di base in facce quadrangolari, quindi creando montanti verticali sui bordi verticali, montanti orizzontali sui bordi orizzontali e riempiendo gli spazi tra i montanti con dei pannelli.
@@ -44,7 +46,11 @@ Nel caso in cui sia necessaria una suddivisione non regolare, è anche possibile
 
 Si può anche usare lo strumento Facciata continua senza alcun oggetto selezionato, nel qual caso è possibile disegnare una linea di base, che verrà estrusa verticalmente per formare la faccia su cui sarà costruita la facciata continua.
 
+
+
 ## Utilizzo
+
+
 
 ### Disegnare una facciata continua dall\'inizio 
 
@@ -61,6 +67,8 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 </div>
 
+
+
 ### Creare una facciata continua da un oggetto selezionato 
 
 
@@ -74,6 +82,8 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -86,6 +96,8 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -199,7 +211,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = FreeCAD.ActiveDocument.addObject('Part::Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

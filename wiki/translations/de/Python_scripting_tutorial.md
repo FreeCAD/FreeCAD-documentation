@@ -1,6 +1,8 @@
 # Python scripting tutorial/de
 {{TOCright}}
 
+
+
 ## Einführung
 
 [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29) ist eine Programmiersprache, sehr einfach zu bedienen und sehr schnell zu erlernen. Sie ist quelloffen, plattformübergreifend und kann für eine Vielzahl von Aufgaben allein verwendet werden, von der Programmierung einfacher Shell Skripte bis hin zu sehr komplexen Programmen. Aber eine der am weitesten verbreiteten Anwendungen ist die Skriptsprache, da sie leicht in andere Anwendungen integriert werden kann. Genau so wird es in FreeCAD verwendet. Von der [Python Konsole](Python_console/de.md) oder von deinen benutzerdefinierten Skripten aus kannst du FreeCAD steuern und es sehr komplexe Aktionen ausführen lassen.
@@ -20,7 +22,7 @@ Es gibt mehrere Möglichkeiten, Python in FreeCAD zu verwenden:
 
 In diesem Tutorial werden wir an ein paar einfachen Beispielen arbeiten, um dir den Einstieg zu erleichtern, aber es gibt auch viel mehr [Dokumentation über Python Skripten](Power_users_hub/de.md) auf diesem Wiki. Wenn du völlig neu in Python bist und verstehen willst, wie es funktioniert, haben wir auch eine grundlegende [Einführung in Python](introduction_to_Python/de.md).
 
-Bevor Du mit dem Python Skripting fortfährst, gehe zum {{MenuCommand/de|Bearbeiten → Einstellungen → Allgemein → Ausgabefenster}} und hake 2 Kästchen an:
+Bevor Du mit dem Python Skripting fortfährst, gehe zum **Bearbeiten → Einstellungen → Allgemein → Ausgabefenster** und hake 2 Kästchen an:
 
 -    **Interne Python Ausgabe auf Berichtsansicht umleiten**.
 
@@ -31,6 +33,8 @@ Dann gehe zu **Ansicht → Paneele** und hake an:
 -    **Berichtsansicht**
     
 
+
+
 ## Python Code schreiben 
 
 Es gibt zwei einfache Wege, Python Code in FreeCAD zu schreiben: Über die Python Konsole (verfügbar im Menü Ansicht → Paneele → Python Konsole) oder über den Makro Editor (Werkzeuge → Makros). In der Konsole schreibst Du nacheinander Python Befehle, die ausgeführt werden, wenn Du die Eingabetaste drückst, während die Makros ein komplexeres Skript aus mehreren Zeilen enthalten können, das erst bei der Ausführung des Makros ausgeführt wird.
@@ -38,7 +42,7 @@ Es gibt zwei einfache Wege, Python Code in FreeCAD zu schreiben: Über die Pytho
 ![](images/Screenshot_pythoninterpreter.jpg ) 
 *Die FreeCAD Python Konsole*
 
-In diesem Tutorium kannst Du beide Methoden verwenden. Du kannst Kopieren/Einfügen von einzelnen Zeilen in die Python Konsole und drücken der **Eingabetaste** oder Kopieren/Einfügen des gesamten Codes in ein neues Makro Fenster. {{Top}}
+In diesem Tutorium kannst Du beide Methoden verwenden. Du kannst Kopieren/Einfügen von einzelnen Zeilen in die Python Konsole und drücken der 
 
 ## Erkunden von FreeCAD 
 
@@ -100,7 +104,7 @@ Dadurch wird die aktuelle Höhe unseres Würfels ausgegeben. Lass uns nun versuc
 box.Height = 5
 ```
 
-Wenn du dein Feld mit der Maus auswählst, siehst du, dass im [Eigenschaftseditor](Property_editor/de.md) auf dem **Daten** Reiter unsere Eigenschaft **Höhe** erscheint. Alle Eigenschaften eines FreeCAD Objekts, die dort (und auch auf dem **Ansicht** Reiter erscheinen, dazu später mehr), sind auch von Python direkt zugänglich, und zwar über ihren Namen, wie wir es mit der **Höhe** Eigenschaft getan haben. Versuche, die anderen Dimensionen des Würfels zu ändern. {{Top}}
+Wenn du dein Feld mit der Maus auswählst, siehst du, dass im [Eigenschaftseditor](Property_editor/de.md) auf dem 
 
 ## Vektoren und Platzierungen 
 
@@ -127,7 +131,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Nun musst du einige wichtige Konzepte verstehen, bevor wir weiter kommen. {{Top}}
+Nun musst du einige wichtige Konzepte verstehen, bevor wir weiter kommen. 
 
 ## App und GUI 
 
@@ -149,7 +153,7 @@ vo.hide()
 vo.show()
 ```
 
-Wenn du FreeCAD startest, lädt die Python Konsole bereits zwei Basismodule: `FreeCAD` und `FreeCADGui` (die auch über ihre Kürzel `App` und `Gui` erreicht werden können). Sie enthalten alle Arten von generischer Funktionalität für die Arbeit mit Dokumenten und ihren Objekten. Um unser Konzept zu veranschaulichen, siehe, dass sowohl `FreeCAD` als auch `FreeCADGui` ein `ActiveDocument` Attribut enthalten, das das aktuell geöffnete Dokument ist. `FreeCAD.ActiveDocument` und `FreeCADGui.ActiveDocument` sind jedoch nicht dasselbe Objekt. Sie sind die beiden Komponenten eines FreeCAD Dokuments, und sie enthalten unterschiedliche Attribute und Methoden. So enthält z.B. `FreeCADGui.ActiveDocument` `ActiveView`, welches die aktuell geöffnete [3D Ansicht](3D_view/de.md) ist. {{Top}}
+Wenn du FreeCAD startest, lädt die Python Konsole bereits zwei Basismodule: 
 
 ## Module
 
@@ -172,7 +176,7 @@ import Part
 Part.
 ```
 
-Aber wir werden weiter unten mehr über das Part Modul sprechen. {{Top}}
+Aber wir werden weiter unten mehr über das Part Modul sprechen. 
 
 ## Modul Mesh 
 
@@ -196,7 +200,7 @@ doc.recompute()
 
 Dies ist ein Standardbeispiel, das die `createSphere()` Methode verwendet, um eine Kugel zu erstellen, aber Du kannst auch benutzerdefinierte Netze von Grund auf neu erstellen, indem Du ihre Knoten und Flächen definierst.
 
-[Lies mehr über Netz Skripten\...](Mesh_Scripting/de.md) {{Top}}
+[Lies mehr über Netz Skripten\...](Mesh_Scripting/de.md) 
 
 ## Modul Part 
 
@@ -227,7 +231,7 @@ Part.show(myshape)
 
 Beim erforschen der Inhalt von myshape, wirst Du viele interessante Unterkomponenten wie `Flächen`, `Kanten`, `Knoten`, `Festkörper` und `Schalen`, und eine weite Bandbreite von Geometrieoperationen wie `Schnitt` (Subtraktion), `Gemeinsam` (Schnittpunkt) oder `Verschmelzung` (Vereinigung) bemerken. Die [Topologisches Daten Skripten](Topological_data_scripting/de.md) Seite erklärt all das im Detail.
 
-[Lies mehr über Part Skripten\...](Topological_data_scripting/de.md) {{Top}}
+[Lies mehr über Part Skripten\...](Topological_data_scripting/de.md) 
 
 ## Modul Draft 
 
@@ -247,6 +251,8 @@ Draft.move(box, mvec)
 
 {{Top}}
 
+
+
 ## Benutzeroberfläche
 
 Die Benutzeroberfläche von FreeCAD ist mit [Qt](http://en.wikipedia.org/wiki/Qt_%28framework%29), einer leistungsstarken grafischen Schnittstellensystem, erstellt worden, das für das Zeichnen und die Handhabung aller Bedienelemente, Menüs, Werkzeugleisten und Schaltflächen rund um die 3D Ansicht verantwortlich ist. Qt stellt ein Modul, PySide, zur Verfügung, welches Python erlaubt, auf die Qt Schnittstellen wie FreeCAD zuzugreifen und zu verändern. Lass uns versuchen, mit der Qt Schnittstelle zu tüfteln und einen einfachen Dialog zu erzeugen:
@@ -261,7 +267,7 @@ Beachte, dass der erscheinende Dialog das FreeCAD Symbol in seiner Werkzeugleist
 
 Qt ist ein sehr mächtiges Schnittstellensystem, das es dir erlaubt, sehr komplexe Dinge zu tun. Es hat auch einige einfach zu benutzende Werkzeuge wie den Qt Designer, mit dem du Dialoge grafisch entwerfen kannst und sie dann mit ein paar Zeilen Python Code zur FreeCAD Oberfläche hinzufügen kannst.
 
-[Erfahre hier mehr über PySide\...](PySide/de.md) {{Top}}
+[Erfahre hier mehr über PySide\...](PySide/de.md) 
 
 ## Makros
 

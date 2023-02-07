@@ -12,14 +12,16 @@
 
 La commande **Mesh Solide régulier** crée un solide paramétrique, maillé régulier.
 
+
+
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Solide régulier...](Mesh_BuildRegularSolid/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** dans le menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** du menu.
 2.  La boîte de dialogue **Solide régulier** s\'ouvre.
-3.  Sélectionnez d\'abord un type d\'objet maillé dans la liste déroulante:
+3.  Sélectionnez d\'abord un type d\'objet maillé dans la liste déroulante :
     -   
         **<img src="images/Mesh_Cube.svg" width=16px> Cube
 **
@@ -51,19 +53,25 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
         
 4.  Spécifiez les paramètres requis. Les paramètres disponibles dépendent du type d\'objet maillé. Voir [Propriétés](#Properties.md).
 5.  Pour les maillages avec des surfaces courbes: une valeur **Numérisation** plus élevée donne un maillage plus fin.
-6.  Appuyez sur le bouton {{button|Créer}} pour créer l\'objet maillage.
+6.  Appuyez sur le bouton **Créer** pour créer l\'objet maillage.
 7.  Créez éventuellement plus d\'objets maillés.
-8.  Appuyez sur le bouton {{button|Fermer}} pour fermer la boîte de dialogue et terminer la commande.
+8.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue et terminer la commande.
+
+
 
 ## Remarques
 
 -   Les objets maillés créés avec cette commande sont paramétriques. A chaque fois qu\'ils sont recalculés, par exemple après avoir changé l\'un de leurs paramètres, leur maillage est reconstruit. Cela signifie que les manipuler avec des commandes telles que [Mesh Affinage](Mesh_RemeshGmsh/fr.md), [Mesh Echelle](Mesh_Scale/fr.md) etc\... n\'a généralement pas de sens.
 
+
+
 ## Propriétés
 
-Les objets maillés créés avec cette commande héritent de toutes les propriétés [Mesh Feature](Mesh_Feature/fr.md). De plus, chaque type d\'objet maillé a un certain nombre de propriétés pour contrôler son comportement paramétrique:
+Les objets maillés créés avec cette commande héritent de toutes les propriétés [Mesh Feature](Mesh_Feature/fr.md). De plus, chaque type d\'objet maillé a un certain nombre de propriétés pour contrôler son comportement paramétrique :
 
 ### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
+
+
 
 #### Données
 
@@ -76,7 +84,11 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    **Width|FloatConstraint**: largeur du cube.
 
+
+
 ### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylindre 
+
+
 
 #### Données 
 
@@ -87,13 +99,17 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    **Edge Length|FloatConstraint**: longueur des arêtes des faces du maillage.
 
--    **Length|FloatConstraint**: la longueur du cylindre.
+-    **Length|FloatConstraint**: longueur du cylindre.
 
 -    **Radius|FloatConstraint**: rayon du cylindre.
 
--    **Sampling|IntegerConstraint**: le nombre de faces le long de la surface courbe.
+-    **Sampling|IntegerConstraint**: nombre de faces le long de la surface courbe.
+
+
 
 ### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cône 
+
+
 
 #### Données 
 
@@ -104,50 +120,62 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 -    **Edge Length|FloatConstraint**: longueur des arêtes des faces du maillage.
 
--    **Length|FloatConstraint**: la longueur du cône.
+-    **Length|FloatConstraint**: longueur du cône.
 
--    **Radius 1|FloatConstraint**: le premier rayon du cône. Peut être {{value|0}}.
+-    **Radius 1|FloatConstraint**: premier rayon du cône. Peut être {{value|0}}.
 
--    **Radius 2|FloatConstraint**: le deuxième rayon du cône. Peut être {{value|0}}.
+-    **Radius 2|FloatConstraint**: deuxième rayon du cône. Peut être {{value|0}}.
 
--    **Sampling|IntegerConstraint**: le nombre de faces le long de la surface courbe.
+-    **Sampling|IntegerConstraint**: nombre de faces le long de la surface courbe.
+
+
 
 ### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphère 
 
+
+
 #### Données 
 
 
 {{TitleProperty|Base}}
 
--    **Radius|FloatConstraint**: le rayon de la sphère.
+-    **Radius|FloatConstraint**: rayon de la sphère.
 
--    **Sampling|IntegerConstraint**: le nombre de faces dans les deux directions de la surface courbe.
+-    **Sampling|IntegerConstraint**: nombre de faces dans les deux directions de la surface courbe.
+
+
 
 ### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoïde 
 
+
+
 #### Données 
 
 
 {{TitleProperty|Base}}
 
--    **Radius 1|FloatConstraint**: le premier rayon de l\'ellipsoïde.
+-    **Radius 1|FloatConstraint**: premier rayon de l\'ellipsoïde.
 
--    **Radius 2|FloatConstraint**: le deuxième rayon de l\'ellipsoïde.
+-    **Radius 2|FloatConstraint**: deuxième rayon de l\'ellipsoïde.
 
--    **Sampling|IntegerConstraint**: le nombre de faces dans les deux directions de la surface courbe.
+-    **Sampling|IntegerConstraint**: nombre de faces dans les deux directions de la surface courbe.
+
+
 
 ### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Tore 
 
+
+
 #### Données 
 
 
 {{TitleProperty|Base}}
 
--    **Radius 1|FloatConstraint**: le premier rayon (principal) du tore.
+-    **Radius 1|FloatConstraint**: premier rayon (principal) du tore.
 
--    **Radius 2|FloatConstraint**: le deuxième rayon du tore.
+-    **Radius 2|FloatConstraint**: deuxième rayon du tore.
 
--    **Sampling|IntegerConstraint**: le nombre de faces dans les deux directions de la surface courbe.
+-    **Sampling|IntegerConstraint**: nombre de faces dans les deux directions de la surface courbe.
 
 
 

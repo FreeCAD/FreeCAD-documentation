@@ -5,17 +5,18 @@
    MenuLocation:File → Salva
    Workbenches:Tutti
    Shortcut:**Ctrl**+**S**
-   SeeAlso:[Salva con nome](Std_SaveAs/it.md), [Salva una copia](Std_SaveaCopy/it.md), [Salva tutto](Std_SaveAll/it.md)
+   SeeAlso:[Salva con nome](Std_SaveAs/it.md), [Salva una copia](Std_SaveCopy/it.md), [Salva tutto](Std_SaveAll/it.md)
 ---
 
 # Std Save/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando **Salva** salva il documento attivo.
+
+
 
 ## Utilizzo
 
@@ -25,17 +26,25 @@ Il comando **Salva** salva il documento attivo.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**S**.
 2.  Per i nuovi documenti: immettere un nome file nella finestra di dialogo e premere il pulsante **Salva**.
 
+
+
 ## Opzioni
 
 -   Per i nuovi documenti: premere il tasto **Esc** o il pulsante **Annulla** per annullare il comando.
+
+
 
 ## Note
 
 -   Questo comando può essere utilizzato anche per salvare i grafici delle dipendenze. Vedere [Grafico delle dipendenze](Std_DependencyGraph/it.md).
 
+
+
 ## Preferenze
 
 -   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Script
 
@@ -47,13 +56,7 @@ Il comando **Salva** salva il documento attivo.
 Per salvare un documento, utilizzare il metodo `save` dell\'oggetto documento. Un nuovo documento deve prima essere salvato con il metodo `saveAs` dell\'oggetto documento. Per un esempio di scripting vedere [Nuovo](Std_New/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

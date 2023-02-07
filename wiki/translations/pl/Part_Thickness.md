@@ -9,9 +9,13 @@
 
 # Part Thickness/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Grubość](Part_Thickness/pl.md) pracuje na kształcie bryły i przekształca ją w pusty obiekt, nadając każdej z jego ścian określoną grubość. Na niektórych bryłach pozwala to znacznie przyspieszyć pracę i uniknąć tworzenia wyciągnięć i kieszeni.
+
+
 
 ## Użycie
 
@@ -22,23 +26,27 @@ Narzędzie <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Grub
 5.  Kliknij w przycisk **OK** aby potwierdzić, utworzyć operację i opuścić funkcję.
 6.  W tabeli Właściwości w razie potrzeby można dostosować parametry.
 
+
+
 ## Opcje
 
 -   **Grubość**: Grubość ścianki obiektu wynikowego, należy ustawić żądaną wartość.
     -   Dodatnia wartość spowoduje przesunięcie ścianek na zewnątrz.
     -   Ujemna wartość przesunie ściany do wewnątrz.
 -   **Tryb pracy**.
-    -   *Skóra*: Wybierz tę opcję, jeśli chcesz dostać przedmiot jak wazon, bez głowy, ale z dnem.
+    -   *Powłoka*: Wybierz tę opcję, jeśli chcesz dostać przedmiot jak wazon, bez głowy, ale z dnem.
     -   *Rura*: Wybierz tę opcję, jeśli chcesz uzyskać obiekt taki jak rura, bez głowy i bez dna. W tym przypadku wygodne może być wybranie ścian, które mają zostać usunięte przed uruchomieniem narzędzia. Pomocne mogą być przyciski z predefiniowanymi widokami lub klawisze numeryczne.
-    -   *RectoVerso*:
--   **Rodzaj przyłączenia**.
-    -   *Łuk*: usuwa zewnętrzne krawędzie i tworzy zaokrąglenie o promieniu równym zdefiniowanej grubości
-    -   *Styczna*:
+    -   *Obie strony*:
+-   **Typ dołączenia**.
+    -   *Wzdłuż łuku*: usuwa zewnętrzne krawędzie i tworzy zaokrąglenie o promieniu równym zdefiniowanej grubości
+    -   *Stycznie*:
     -   *Przecięcie*:
 -   **Przecięcie**:
 -   **Samoprzecięcie**: Włącza autoprzecięcie.
--   **Ściana / Zrobione**: Wybierz ściany, które mają zostać usunięte, a następnie kliknij przycisk Gotowe.
--   **Zaktualizuj widok**: Automatyczna aktualizacja widoku w czasie zmiany parametrów.
+-   ****Ściany****: Wybierz ściany, które mają zostać usunięte, a następnie kliknij przycisk **Gotowe**.
+-   **Aktualizuj widok**: Automatyczna aktualizacja widoku w czasie zmiany parametrów.
+
+
 
 ## Uwagi
 
@@ -46,9 +54,13 @@ Narzędzie <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Grub
 
 Złożone kształty mogą dawać dziwaczne, trudne do przewidzenia rezultaty. Należy dokładnie sprawdzić wynikowy kształt i zapisać pracę przed zastosowaniem operacji.
 
+
+
 ## Odnośniki
 
 Dobry przykład korzystania z tego narzędzia można odnaleźć na forum:[Re: Pomoc przy projektowaniu prostej obudowy](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
 
 ## Przykłady
 

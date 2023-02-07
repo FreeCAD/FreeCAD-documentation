@@ -10,17 +10,23 @@
 
 # Std ViewFullscreen/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std AnsichtVollbild** schaltet [3D-Ansichten](3D_view/de.md) in den Vollbildmodus oder wieder zurück. 3D-Ansichten werden für den Vollbildmodus automatisch [abgedockt](Std_ViewDockUndockFullscreen/de.md).
+
+
 
 ## Anwendung
 
 1.  Die richtige 3D-Ansicht aktivieren.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Den Menüeintrag {{MenuCommand/de|Ansicht → Dokumentfenster → <img src="images/Std_ViewFullscreen.svg" width=16px> Vollbild}} auswählen. Diese Option funktioniert nicht, wenn der Vollbildmodus ausgeschaltet werden soll und es andere angedockte 3D-Ansichten gibt.
-    -   Die Menüoption {{MenuCommand/de|Dokumentfenster → <img src="images/Std_ViewFullscreen.svg" width=16px> Vollbild}} aus dem Kontextmenü der 3D-Ansicht auswählen.
+    -   Den Menüeintrag **Ansicht → Dokumentfenster → <img src="images/Std_ViewFullscreen.svg" width=16px> Vollbild** auswählen. Diese Option funktioniert nicht, wenn der Vollbildmodus ausgeschaltet werden soll und es andere angedockte 3D-Ansichten gibt.
+    -   Die Menüoption **Dokumentfenster → <img src="images/Std_ViewFullscreen.svg" width=16px> Vollbild** aus dem Kontextmenü der 3D-Ansicht auswählen.
     -   Das Tastaturkürzel **F11**
+
+
 
 ## Hinweise
 

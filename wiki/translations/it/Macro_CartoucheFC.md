@@ -36,23 +36,25 @@ Se desiderate avere una funzione, potete farne richiesta nel forum [Remplir cart
 
 -   Dopo aver creato il foglio di disegno con il modulo Drawing di FreeCAD, eseguire la macro **Macro_CartoucheFC**.
 
--   All\'avvio, il programma registra in memoria tutti i dati già presenti nella tabella del foglio (se è compilata), tutti i dati sono restituiti automaticamente utilizzando il pulsante {{KEY/it|Memo}} e tenuti in memoria fino alla chiusura del programma.
+-   All\'avvio, il programma registra in memoria tutti i dati già presenti nella tabella del foglio (se è compilata), tutti i dati sono restituiti automaticamente utilizzando il pulsante **Memo** e tenuti in memoria fino alla chiusura del programma.
 
--   I pulsanti data {{KEY/it| D.}} e ora {{KEY/it| H.}} visualizzano la data e l\'ora del sistema.
+-   I pulsanti data ** D.** e ora ** H.** visualizzano la data e l\'ora del sistema.
 
   -Il formato della data dipende dal simbolo selezionato: **EU** oppure **US**, che determina la localizzazione del formato. La commutazione non avviene automaticamente (se è stata inserita manualmente una data), quando si modifica il simbolo è necessario fare di nuovo clic sul pulsante della data (controllare prima di stampare).
 
 -   Il campo **A3** non è modicabile (questo programma è basato sulla tabella del foglio A3 di FreeCAD).
 
--   Il pulsante {{KEY/it|Symbole EU}} o US commuta il simbolo di proiezione \"Scegli il tuo simbolo\" che per impostazione predefinita viene visualizzato. Fare clic sul pulsante e controllare il simbolo sul foglio, fare clic una seconda volta per cambiare il simbolo.
+-   Il pulsante **Symbole EU** o US commuta il simbolo di proiezione \"Scegli il tuo simbolo\" che per impostazione predefinita viene visualizzato. Fare clic sul pulsante e controllare il simbolo sul foglio, fare clic una seconda volta per cambiare il simbolo.
 
   -La scelta di questo simbolo, influisce sul formato della data: **EU = dd/MM/yyyy** e **US = MM/dd/yyyy**.
 
-  -**Attenzione:** Questo comando non passa attraverso il pulsante {{KEY/it| Applica}} e commuta direttamente il simbolo ad ogni pressione del tasto, verificare sempre sul vostro foglio se il simbolo è corretto.
+  -**Attenzione:** Questo comando non passa attraverso il pulsante ** Applica** e commuta direttamente il simbolo ad ogni pressione del tasto, verificare sempre sul vostro foglio se il simbolo è corretto.
 
--   Il pulsante {{KEY/it|Clean}} cancella tutti i campi del modulo. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}}.
+-   Il pulsante **Clean** cancella tutti i campi del modulo. È possibile ripristinare i dati originali utilizzando il pulsante **Memo**.
 
--   Il pulsante {{KEY/it| Apply}} salva tutti i campi del modulo nel foglio. È possibile ripristinare i dati originali utilizzando il pulsante {{KEY/it|Memo}} (tranne che per i simboli localizzati che lavorano in modo indipendente e sono immediatamente attivi).
+-   Il pulsante ** Apply** salva tutti i campi del modulo nel foglio. È possibile ripristinare i dati originali utilizzando il pulsante **Memo** (tranne che per i simboli localizzati che lavorano in modo indipendente e sono immediatamente attivi).
+
+
 
 ## Codice
 

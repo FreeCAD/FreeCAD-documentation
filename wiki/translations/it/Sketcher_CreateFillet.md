@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -27,6 +29,8 @@ Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseg
 
 ![](images/SketcherCreateFilletExample.png‎ )
 
+
+
 ## Utilizzo
 
 
@@ -36,7 +40,7 @@ Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseg
 2.  Selezionare le linee collegate da raccordare, oppure selezionare un vertice. La distanza dal vertice a cui si fa clic imposta il raggio del raccordo.
 
 -   Per modificare il raggio selezionare il centro del raccordo e spostarlo.
--   Premere il tasto {{KEY/it|Esc}} o fare clic con il tasto destro per terminare l\'operazione e uscire dalla funzione.
+-   Premere il tasto **Esc** o fare clic con il tasto destro per terminare l\'operazione e uscire dalla funzione.
 
 
 </div>

@@ -2,6 +2,8 @@
 ---
 - GuiCommand:/it   Name:Arch Window   Name/it:Finestra   Workbenches:[MenuLocation:Arch → Finestra   Shortcut:**W** **I**   SeeAlso:[[Arch Wall/it|Muro](Arch_Workbench/it___Architettura]].md), [Aggiungi componente](Arch_Add/it.md)---
 
+
+
 ## Descrizione
 
 La [Finestra](Arch_Window/it.md) è l\'oggetto di base per tutti i tipi di oggetti \"incorporabili\", quali le finestre, le porte, ecc.. È progettato per essere un elemento indipendente, oppure \"ospitato\" all\'interno di un altro componente come ad esempio in un [Muro](Arch_Wall/it.md), in una [Struttura](Arch_Structure/it.md), o in un [Tetto](Arch_Roof/it.md). Esso ha una propria geometria, che può essere formata da diversi componenti solidi (ad es. il telaio o i pannelli interni), e definisce anche un volume da sottrarre all\'oggetto ospite, in modo da creare un\'apertura. Il volume da sottrarre viene calcolato automaticamente.
@@ -18,7 +20,11 @@ Tutte le informazioni applicabili alle [finestre](Arch_Window/it.md) si applican
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Finestra complessa costruita sopra uno [Schizzo](Sketcher_Workbench/it.md). Quando si accede alla modalità di modifica della finestra, è possibile creare diversi componenti, impostare il loro spessore e selezionare e assegnare ad essa i contorni di uno schizzo.*
 
+
+
 ## Utilizzo
+
+
 
 ### Utilizzare i modelli preimpostati 
 
@@ -57,6 +63,8 @@ La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configuraz
 
 </div>
 
+
+
 ### Creare dall\'inizio 
 
 1.  Opzionalmente, selezionare una faccia sull\'oggetto Arch in cui si desidera inserire la finestra.
@@ -85,11 +93,13 @@ Sono disponibili i seguenti modelli preimpostati:
 
 Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
 
+
+
 ## Creare i componenti 
 
 La finestra può includere 3 tipi di componenti: i pannelli, le cornici e le persiane.
 
-I pannelli e le persiane sono costituiti da un contorno chiuso che viene estruso. Le cornici sono formate da 2 o più contorni chiusi, entrambi estrusi, e quello più piccolo viene {{KEY/it|<img src="images/Arch_Remove.png" width=16px> [sottratto](_Arch_Remove/it.md)}} al più grande.
+I pannelli e le persiane sono costituiti da un contorno chiuso che viene estruso. Le cornici sono formate da 2 o più contorni chiusi, entrambi estrusi, e quello più piccolo viene **<img src="images/Arch_Remove.png" width=16px> [sottratto](_Arch_Remove/it.md)** al più grande.
 
 È possibile accedere, creare, modificare ed eliminare i componenti di una finestra in modalità di modifica (doppio clic sull\'oggetto finestra nella struttura ad albero).
 
@@ -104,6 +114,8 @@ I componenti hanno le seguenti proprietà:
 -   **Opening mode**: Se in questo componente o in qualsiasi altro precedente nell\'elenco è stata definita una cerniera, l\'impostazione della modalità di apertura consente alla finestra di apparire aperta o di visualizzare i simboli di apertura 2D in pianta o in elevazione.
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
+
+
 
 ## Opzioni
 
@@ -122,6 +134,8 @@ uno strato di materiale denominato \"OuterFrame\". Se trova questo materiale lo 
 
 
 </div>
+
+
 
 ## Aperture
 
@@ -171,6 +185,8 @@ You can use any other kind of workflow than the one described above, the importa
 -   The type object must be one object, no matter the type (App Part, PartDesign Body, Part Compound, or even another Arch Window)
 -   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
 -   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
+
+
 
 ## Proprietà
 

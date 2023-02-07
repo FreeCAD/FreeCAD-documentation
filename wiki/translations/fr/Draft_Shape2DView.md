@@ -18,6 +18,8 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 ![](images/Draft_Shape2DView_example.jpg ) 
 *Projection de formes solides sur le plan XY*
 
+
+
 ## Utilisation
 
 1.  Vous pouvez faire la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine le vecteur de projection. Par exemple, une [vue de dessus](Std_ViewTop/fr.md) sera projetée sur le plan XY. Le vecteur de projection est ignoré pour les projections créées à partir de [Arch Plan de coupe](Arch_SectionPlane/fr.md).
@@ -28,17 +30,23 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 5.  Les objets projetés sont créés sur le plan XY.
 
+
+
 ## Comment produire des plans et des sections avec des largeurs de ligne différentes 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
 Des dessins avec des largeurs de ligne différentes pour les lignes vues et coupées peuvent être facilement produits en utilisant deux objets Vue 2D d\'une forme d\'un même [Arch Plan de coupe](Arch_SectionPlane/fr.md). Un des objets Vue 2D d\'une forme a son mode de projection défini sur **Solide**, qui restitue les lignes vues, et un autre sur **Couper les lignes** ou **Couper les faces** pour rendre la coupe lignes. Les deux Vue 2D d\'une forme sont ensuite placées au même endroit, l\'une au-dessus de l\'autre.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md).
 
 Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -96,6 +104,8 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 
 -    **Exclusion Names|String list**: Une liste de noms d\'objets. Tout objet enfant vu ou coupé dont le nom figure dans cette liste ne sera pas dessiné. {{Version/fr|1.0}}
 
+
+
 ### Vue
 
 
@@ -104,6 +114,8 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 -    **Pattern|Enumeration**: non utilisé.
 
 -    **Pattern Size|Float**: non utilisé.
+
+
 
 ## Script
 

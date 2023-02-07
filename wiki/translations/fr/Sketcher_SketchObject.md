@@ -18,11 +18,13 @@ est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md). Cela signifie qu\'
 
 *Diagramme simplifié des relations entre les objets centraux dans Freecad*
 
+
+
 ## Utilisation
 
 1.  Basculez vers l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
 2.  Appuyez sur **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
-3.  Sélectionnez une {{MenuCommand/fr|Orientation de l'esquisse}}: plan XY, plan XZ ou plan YZ. Vous pouvez également choisir d\'{{MenuCommand/fr|Inverser la direction}} et donner une valeur de {{MenuCommand/fr|Décalage}}.
+3.  Sélectionnez une **Orientation de l'esquisse**: plan XY, plan XZ ou plan YZ. Vous pouvez également choisir d\'**Inverser la direction** et donner une valeur de **Décalage**.
 4.  Appuyez sur **OK**.
 
 Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il est le plus souvent utilisé conjointement avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) pour créer des solides extrudés.
@@ -34,9 +36,11 @@ Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il e
 3.  Appuyez sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
 
 4.  
-    {{MenuCommand/fr|Fonction sélectionnée}}: XY_Plane (Plan de base), XZ_Plane (Plan de base) ou YZ_Plane (Plan de base).
+    **Fonction sélectionnée**: XY_Plane (Plan de base), XZ_Plane (Plan de base) ou YZ_Plane (Plan de base).
 
 5.  Appuyez sur **OK**.
+
+
 
 ## Propriétés
 
@@ -45,6 +49,8 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 [Sketcher SketchObject](Sketcher_SketchObject/fr.md) (classe `Sketcher::SketchObject`) est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md) (classe `Part::Part2DObject`) et hérite de toutes ses propriétés.
 
 Le SketchObject possède également les propriétés supplémentaires suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés cachées peuvent être affichées à l\'aide de la commande **Show all** du menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -58,6 +64,8 @@ Le SketchObject possède également les propriétés supplémentaires suivantes 
 -    **External Geometry|LinkSubList**: une liste de géométries de pièces extérieures à cette esquisse qui sont utilisées comme référence.
 
 -    **Fully Constrained|Bool|Hidden**: (en lecture seule) si `True` l\'esquisse est entièrement contrainte.
+
+
 
 ### Vue
 
@@ -105,6 +113,8 @@ Le SketchObject possède également les propriétés supplémentaires suivantes 
 -    **Show Support|Bool**: si `True`, tous les objets auxquels cette esquisse est attachée sont affichés lorsque l\'esquisse est ouverte.
 
 -    **Tempo Vis|PythonObject|Hidden**: une classe personnalisée associée à cet objet, qui gère le masquage et l\'affichage d\'autres objets lors de l\'ouverture et de la fermeture de l\'esquisse.
+
+
 
 ## Création de scripts 
 
