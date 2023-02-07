@@ -701,7 +701,7 @@ class MediaWiki:
         can also be a numeric debug value to pass to cleanMarkdown()"""
 
         wikitext = self.pagecontents[page]
-        xargs = ['--atx-headers'] # pandoc arguments
+        xargs = ['--markdown-headings=atx'] # pandoc arguments
         try:
             fmt = 'markdown+hard_line_breaks+pipe_tables'
             result = pypandoc.convert_text(wikitext, fmt, format='mediawiki', extra_args=xargs)
